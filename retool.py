@@ -3,25 +3,6 @@
 # Dependencies:
 # * lxml
 # * bs4
-#
-# Known problems:
-## If a game is from a country whose first language isn't English, say Japan, and Redump hasn't marked the game as containing an English translation.
-## If there's a compilation of games released later in the US.
-# Todo:
-#
-# lowerstr matches from all lists
-# Add exclusions for US games that are worse than their regional counterparts
-## Indigo Prophecy vs Fahrenheit
-## PS2 - Dragon Ball Z - Budokai 3 - Collector's Edition (Europe) on PS2 seems to have more than the original/classic version in the US.
-## PS2 - World Soccer Winning Eleven 8 - Liveware Evolution (Japan) on PS2 seems to be an updated version of PES 2008.
-## PS2 - Final Fantasy X International (Japan), or Final Fantasy X (Europe) is better than USA.
-## PSX - Metal Gear Solid - VR Missions') == -1: # Metal Gear Solid - Integral contains this
-## PSX - Disney's Winnie the Pooh - Preschool, Disney's Winnie the Pooh - Kindergarten are dupes, as a third game is included in Disney Learning - Winnie the Pooh
-## X360 - Burnout Paradise - The Utlimate Box (Burnout Paradise)
-## X360 - Lost Planet - Colonies (Gold edition of Lost Planet - Extreme Condition)
-## PS3 - BlazBlue - Chrono Phantasma Extend, (Updated version of BlazBlue - Chrono Phantasma)
-#
-# Compensate for games that have the same name in different regions, but unique content, e.g. We Sing Vol. 2 on Wii, or where sequel numbers don't match, e.g. Motor Toon Grand Prix 2 in EU = Motor Toon Grand Prix in the US (the latter isn't a clash, but there's potential for a similar problem to arise).
 
 import os
 import sys
