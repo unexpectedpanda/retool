@@ -6,8 +6,8 @@ official Redump project.
 ## Installation
 Retool requires [Python 3](https://www.python.org/) with `pip`.
 
-You'll need to install dependencies with pip. To do so, open Terminal,
-Command Prompt, or whatever the CLI is on your system, and type:
+You'll need to install dependencies with `pip` before using Retool. To do so,
+open Terminal, Command Prompt, or whatever the CLI is on your system, and type:
 
 ```python
 pip install bs4
