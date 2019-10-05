@@ -3,6 +3,17 @@ Strips [Redump](http://redump.org/) dats to only include English titles from
 all regions, with no dupes. US titles are preferenced. This is not an
 official Redump project.
 
+## Installation
+Retool requires [Python 3](https://www.python.org/) with `pip`.
+
+You'll need to install dependencies with pip. To do so, open Terminal,
+Command Prompt, or whatever the CLI is on your system, and type:
+
+```python
+pip install bs4
+pip install lxml
+```
+
 ## Usage
 `python retool.py -i input.dat -o output.dat <options>`
 

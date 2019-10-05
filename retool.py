@@ -1,8 +1,8 @@
 # Strips Redump dats to only have English titles, preferencing US titles.
 #
 # Dependencies:
-# * lxml
 # * bs4
+# * lxml
 
 import os
 import sys
