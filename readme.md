@@ -62,21 +62,27 @@ title, *Dancing Stage Unleashed 3 (Europe)* and
 
 ## Known limitations
 * **Doesn't remove older versions of titles**
+
   For example, *Halo - Combat Evolved (USA)*,
   *Halo - Combat Evolved (USA) (Rev 1)* and
   *Halo - Combat Evolved (USA) (Rev 2)* will all be included.
 * **Doesn't remove single titles in favor of compilation titles**
+
   For example, *Assassin's Creed - Ezio Trilogy* does not supersede
   *Assassin's Creed II*, *Assassin's Creed - Brotherhood*, and
   *Assassin's Creed - Revelations*.
 * **Doesn't remove different language versions from the same region**
+
   For example, *Suffering, The - Ties That Bind (Europe) (En,Es,It)* and
   *Suffering, The - Ties That Bind (Europe) (En,Fr)*.
 * **Can't preference a non-US title over a US title, when the non-US title is arguably superior**
+
   For example, *Fahrenheit (Europe) (En,Fr,De,Es,It)* versus *Indigo Prophecy (USA)*,
   where the latter is censored.
 * **Can only follow Redump language tags for non-English countries**
+
   If Redump missed tagging titles from regions where English isn't their first language (for example, Japan),
   those titles won't be included.
 * **Will remove titles that have the same name in different regions, even if those titles have different content**
+
   For example, versions of singing titles that have additional local tracks.
