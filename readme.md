@@ -56,7 +56,7 @@ Regions are parsed in the following order:
 As the program progresses through the regions, `_regional_renames.py` is
 referenced to check if any titles in the current region are the same as
 another region's title, but with a different name. For example, apart from the
-title, **_Dancing Stage Unleashed 3 (Europe)_** and
+name, **_Dancing Stage Unleashed 3 (Europe)_** and
 **_Dance Dance Revolution Ultramix 3 (USA)_** are the same title, and so
 **_Dancing Stage Unleashed 3 (Europe)_** would not be included.
 
