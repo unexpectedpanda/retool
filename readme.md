@@ -56,29 +56,29 @@ Regions are parsed in the following order:
 As the program progresses through the regions, `_regional_renames.py` is
 referenced to check if any titles in the current region are the same as
 another region's title, but with a different name. For example, apart from the
-title, *Dancing Stage Unleashed 3 (Europe)* and
-*Dance Dance Revolution Ultramix 3 (USA)* are the same title, and so
-*Dancing Stage Unleashed 3 (Europe)* would not be included.
+title, **_Dancing Stage Unleashed 3 (Europe)_** and
+**_Dance Dance Revolution Ultramix 3 (USA)_** are the same title, and so
+**_Dancing Stage Unleashed 3 (Europe)_** would not be included.
 
 ## Known limitations
 Be aware of the following limitations when using Retool. These may or may not be addressed in the future.
 
 #### Doesn't remove older versions of titles
-For example, *Halo - Combat Evolved (USA)*,
-*Halo - Combat Evolved (USA) (Rev 1)* and
-*Halo - Combat Evolved (USA) (Rev 2)* will all be included.
+For example, **_Halo - Combat Evolved (USA)_**,
+**_Halo - Combat Evolved (USA) (Rev 1)_** and
+**_Halo - Combat Evolved (USA) (Rev 2)_** will all be included.
 
 #### Doesn't remove single titles in favor of compilation titles
-For example, *Assassin's Creed - Ezio Trilogy* does not supersede
-*Assassin's Creed II*, *Assassin's Creed - Brotherhood*, and
-*Assassin's Creed - Revelations*.
+For example, **_Assassin's Creed - Ezio Trilogy_** does not supersede
+**_Assassin's Creed II_**, **_Assassin's Creed - Brotherhood_**, and
+**_Assassin's Creed - Revelations_**.
 
 #### Doesn't remove different language versions from the same region
-For example, *Suffering, The - Ties That Bind (Europe) (En,Es,It)* and
-*Suffering, The - Ties That Bind (Europe) (En,Fr)*.
+For example, **_Suffering, The - Ties That Bind (Europe) (En,Es,It)_** and
+**_Suffering, The - Ties That Bind (Europe) (En,Fr)_**.
 
 #### Can't preference a non-US title over a US title, when the non-US title is arguably superior
-For example, *Fahrenheit (Europe) (En,Fr,De,Es,It)* versus *Indigo Prophecy (USA)*,
+For example, **_Fahrenheit (Europe) (En,Fr,De,Es,It)_** versus **_Indigo Prophecy (USA)_**,
 where the latter is censored.
 
 #### Can only follow Redump language tags for non-English countries
