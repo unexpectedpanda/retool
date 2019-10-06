@@ -85,40 +85,36 @@ def main():
     # Read in the dat file
     print('* Reading dat file: "' + font.bold + input_file_name + font.end + '"')
     with open(input_file_name, 'r') as input_file_read:
-        checkdat = input_file_read.read()
         soup = BeautifulSoup(input_file_read, "lxml-xml")
         print('* Validating dat file... ', sep=' ', end='', flush=True)
+        input_file_read.seek(0)
+        checkdat = input_file_read.read()
 
-        # Make sure the dat file is in XML
-        if soup.contents == []:
-            # Check if it's a CLRMAMEPro dat, and if so, convert to XML
-            clrmame_header = re.findall('^clrmamepro \($.*?^\)$', checkdat, re.M|re.S)
-            if clrmame_header:
-                # Get header details
-                clrmame_name = re.sub('name |(\")', '', re.search('^\s.?name .*?$', clrmame_header[0], re.M|re.S)[0].strip())
-                clrmame_description = re.sub('description |(\")', '', re.search('^\s.?description .*?$', clrmame_header[0], re.M|re.S)[0].strip())
-                clrmame_category = re.sub('category |(\")', '', re.search('^\s.?category .*?$', clrmame_header[0], re.M|re.S)[0].strip())
-                clrmame_version = re.sub('version |(\")', '', re.search('^\s.?version .*?$', clrmame_header[0], re.M|re.S)[0].strip())
-                clrmame_author = re.sub('author |(\")', '', re.search('^\s.?author .*?$', clrmame_header[0], re.M|re.S)[0].strip())
+        # Make sure the dat file isn't a CLRMAMEPro dat
+        clrmame_header = re.findall('^clrmamepro \($.*?^\)$', checkdat, re.M|re.S)
+        if clrmame_header:
+            # Get header details
+            clrmame_name = re.sub('name |(\")', '', re.search('^\s.?name .*?$', clrmame_header[0], re.M|re.S)[0].strip())
+            clrmame_description = re.sub('description |(\")', '', re.search('^\s.?description .*?$', clrmame_header[0], re.M|re.S)[0].strip())
+            clrmame_category = re.sub('category |(\")', '', re.search('^\s.?category .*?$', clrmame_header[0], re.M|re.S)[0].strip())
+            clrmame_version = re.sub('version |(\")', '', re.search('^\s.?version .*?$', clrmame_header[0], re.M|re.S)[0].strip())
+            clrmame_author = re.sub('author |(\")', '', re.search('^\s.?author .*?$', clrmame_header[0], re.M|re.S)[0].strip())
 
-                xml_convert = '<?xml version="1.0"?>\n<!DOCTYPE datafile PUBLIC "-//Logiqx//DTD ROM Management Datafile//EN" "http://www.logiqx.com/Dats/datafile.dtd"><datafile>\n\t<header>\n'
-                xml_convert += '\t\t<name>' + clrmame_name + '</name>\n'
-                xml_convert += '\t\t<description>' + clrmame_description + '</description>\n'
-                xml_convert += '\t\t<version>' + clrmame_version + '</version>\n'
-                xml_convert += '\t\t<author>' + clrmame_author + '</author>\n\t</header>\n'
+            xml_convert = '<?xml version="1.0"?>\n<!DOCTYPE datafile PUBLIC "-//Logiqx//DTD ROM Management Datafile//EN" "http://www.logiqx.com/Dats/datafile.dtd"><datafile>\n\t<header>\n'
+            xml_convert += '\t\t<name>' + clrmame_name + '</name>\n'
+            xml_convert += '\t\t<description>' + clrmame_description + '</description>\n'
+            xml_convert += '\t\t<version>' + clrmame_version + '</version>\n'
+            xml_convert += '\t\t<author>' + clrmame_author + '</author>\n\t</header>\n'
 
-                # Get title details
-                clrmame_contents = re.findall('^game \($.*?^\)$', checkdat, re.M|re.S)
-                if clrmame_contents:
-                    for item in clrmame_contents:
-                        xml_node = re.split('\n', item)
-                        xml_convert += '\t<game name="' + re.sub('name |(\")', '', xml_node[1].strip()) + '">\n\t\t<category>' + clrmame_category + '</category>\n\t\t<description>' + re.sub('name |(\")', '', xml_node[1].strip()) + '</description>\n'
+            # Get title details
+            clrmame_contents = re.findall('^game \($.*?^\)$', checkdat, re.M|re.S)
+            if clrmame_contents:
+                for item in clrmame_contents:
+                    xml_node = re.split('\n', item)
+                    xml_convert += '\t<game name="' + re.sub('name |(\")', '', xml_node[1].strip()) + '">\n\t\t<category>' + clrmame_category + '</category>\n\t\t<description>' + re.sub('name |(\")', '', xml_node[1].strip()) + '</description>\n'
 
-                    print(xml_convert)
+                print(xml_convert)
 
-                else:
-                    print(font.red + 'file isn\'t Logiqx XML or CLRMAMEPro dat.' + font.end)
-                    sys.exit()
             else:
                 print(font.red + 'file isn\'t Logiqx XML or CLRMAMEPro dat.' + font.end)
                 sys.exit()
@@ -149,7 +145,7 @@ def main():
                     print(font.red + '\n* "' + input_file_name + '" isn\'t a CLRMAMEPro dat file.' + font.end)
                     sys.exit()
 
-    print(dat_name)
+
 
     # Store regions in an object
     titles = {}
