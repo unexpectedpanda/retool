@@ -85,67 +85,48 @@ def main():
     # Read in the dat file
     print('* Reading dat file: "' + font.bold + input_file_name + font.end + '"')
     with open(input_file_name, 'r') as input_file_read:
-        soup = BeautifulSoup(input_file_read, "lxml-xml")
         print('* Validating dat file... ', sep=' ', end='', flush=True)
-        input_file_read.seek(0)
         checkdat = input_file_read.read()
+        input_file_read.seek(0)
 
-        # Make sure the dat file isn't a CLRMAMEPro dat
+        # Make sure the dat file isn't a CLRMAMEPro dat, if it is, check it's valid and convert it
         clrmame_header = re.findall('^clrmamepro \($.*?^\)$', checkdat, re.M|re.S)
         if clrmame_header:
-            # Get header details
-            clrmame_name = re.sub('name |(\")', '', re.search('^\s.?name .*?$', clrmame_header[0], re.M|re.S)[0].strip())
-            clrmame_description = re.sub('description |(\")', '', re.search('^\s.?description .*?$', clrmame_header[0], re.M|re.S)[0].strip())
-            clrmame_category = re.sub('category |(\")', '', re.search('^\s.?category .*?$', clrmame_header[0], re.M|re.S)[0].strip())
-            clrmame_version = re.sub('version |(\")', '', re.search('^\s.?version .*?$', clrmame_header[0], re.M|re.S)[0].strip())
-            clrmame_author = re.sub('author |(\")', '', re.search('^\s.?author .*?$', clrmame_header[0], re.M|re.S)[0].strip())
-
-            xml_convert = '<?xml version="1.0"?>\n<!DOCTYPE datafile PUBLIC "-//Logiqx//DTD ROM Management Datafile//EN" "http://www.logiqx.com/Dats/datafile.dtd"><datafile>\n\t<header>\n'
-            xml_convert += '\t\t<name>' + clrmame_name + '</name>\n'
-            xml_convert += '\t\t<description>' + clrmame_description + '</description>\n'
-            xml_convert += '\t\t<version>' + clrmame_version + '</version>\n'
-            xml_convert += '\t\t<author>' + clrmame_author + '</author>\n\t</header>\n'
-
-            # Get title details
-            clrmame_contents = re.findall('^game \($.*?^\)$', checkdat, re.M|re.S)
-            if clrmame_contents:
-                for item in clrmame_contents:
-                    xml_node = re.split('\n', item)
-                    xml_convert += '\t<game name="' + re.sub('name |(\")', '', xml_node[1].strip()) + '">\n\t\t<category>' + clrmame_category + '</category>\n\t\t<description>' + re.sub('name |(\")', '', xml_node[1].strip()) + '</description>\n'
-
-                print(xml_convert)
-
-            else:
-                print(font.red + 'file isn\'t Logiqx XML or CLRMAMEPro dat.' + font.end)
-                sys.exit()
-
-        # Check for a valid Redump dat, then grab the dat details
-        for item in soup.contents:
-            if isinstance(item, Doctype):
-                if item == 'datafile PUBLIC "-//Logiqx//DTD ROM Management Datafile//EN" "http://www.logiqx.com/Dats/datafile.dtd"':
-                    print('file is a Logiqx dat file.')
-                    if soup.find('author').string == 'redump.org':
-                        dat_name = soup.find('name').string
-                        dat_description = soup.find('description').string
-                        dat_author = soup.find('author').string
-                        dat_url = soup.find('url').string
-                        dat_version = soup.find('version').string
-
-                        print('\n|  Description: ' + dat_description)
-                        print('|  Author: ' + dat_author)
-                        print('|  URL: ' + dat_url)
-                        print('|  Version: ' + dat_version + '\n')
-
-                        # Find out how many titles are in the dat file
-                        original_title_count = len(soup.find_all('game'))
+            converted_dat = convert_clr_logiqx(clrmame_header, checkdat)
+            xml_convert = converted_dat[0]
+            dat_name = converted_dat[1]
+            dat_description = converted_dat[2]
+            dat_author = converted_dat[3]
+            dat_url = 'Unknown'
+            dat_version = 'Unknown'
+            soup = BeautifulSoup(xml_convert, "lxml-xml")
+        else:
+            soup = BeautifulSoup(input_file_read, "lxml-xml")
+            # Check for a valid Redump XML dat, then grab the dat details
+            for item in soup.contents:
+                if isinstance(item, Doctype):
+                    if item == 'datafile PUBLIC "-//Logiqx//DTD ROM Management Datafile//EN" "http://www.logiqx.com/Dats/datafile.dtd"':
+                        print('file is a Logiqx dat file.')
+                        if soup.find('author').string == 'redump.org':
+                            dat_name = soup.find('name').string
+                            dat_description = soup.find('description').string
+                            dat_author = soup.find('author').string
+                            dat_url = soup.find('url').string
+                            dat_version = soup.find('version').string
+                        else:
+                            print(font.red + '\n* This dat file isn\t authored by Redump' + font.end)
+                            sys.exit()
                     else:
-                        print(font.red + '\n* This dat file isn\t authored by Redump' + font.end)
+                        print(font.red + '\n* "' + input_file_name + '" isn\'t a CLRMAMEPro dat file.' + font.end)
                         sys.exit()
-                else:
-                    print(font.red + '\n* "' + input_file_name + '" isn\'t a CLRMAMEPro dat file.' + font.end)
-                    sys.exit()
 
+        print('\n|  Description: ' + dat_description)
+        print('|  Author: ' + dat_author)
+        print('|  URL: ' + dat_url)
+        print('|  Version: ' + dat_version + '\n')
 
+        # Find out how many titles are in the dat file
+        original_title_count = len(soup.find_all('game'))
 
     # Store regions in an object
     titles = {}
@@ -356,6 +337,44 @@ def check_input():
 
     return input_file_name, output_file_name, flag_no_demos, flag_no_apps, flag_no_protos, flag_no_multi, flag_no_edu, flag_regions_all, flag_regions_en
 
+# Converts CLRMAMEPro format to XML
+def convert_clr_logiqx(clrmame_header, checkdat):
+# Get header details
+    dat_name = re.sub('name |(\")', '', re.search('^\s.?name .*?$', clrmame_header[0], re.M|re.S)[0].strip())
+    dat_description = re.sub('description |(\")', '', re.search('^\s.?description .*?$', clrmame_header[0], re.M|re.S)[0].strip())
+    clrmame_category = re.sub('category |(\")', '', re.search('^\s.?category .*?$', clrmame_header[0], re.M|re.S)[0].strip())
+    dat_version = re.sub('version |(\")', '', re.search('^\s.?version .*?$', clrmame_header[0], re.M|re.S)[0].strip())
+    dat_author = re.sub('author |(\")', '', re.search('^\s.?author .*?$', clrmame_header[0], re.M|re.S)[0].strip())
+
+    xml_convert = '<?xml version="1.0"?>\n<!DOCTYPE datafile PUBLIC "-//Logiqx//DTD ROM Management Datafile//EN" "http://www.logiqx.com/Dats/datafile.dtd"><datafile>\n\t<header>\n'
+    xml_convert += '\t\t<name>' + dat_name + '</name>\n'
+    xml_convert += '\t\t<description>' + dat_description + '</description>\n'
+    xml_convert += '\t\t<version>' + dat_version + '</version>\n'
+    xml_convert += '\t\t<author>' + dat_author + '</author>\n\t</header>\n'
+
+    # Get title details
+    clrmame_contents = re.findall('^game \($.*?^\)$', checkdat, re.M|re.S)
+    if clrmame_contents:
+        for item in clrmame_contents:
+            xml_node = re.split('\n', item)
+            xml_convert += '\t<game name="' + re.sub('name |(\")', '', xml_node[1].strip()) + '">\n\t\t<category>' + clrmame_category + '</category>\n\t\t<description>' + re.sub('name |(\")', '', xml_node[1].strip()) + '</description>\n'
+            for node in xml_node:
+                if node.strip().startswith('rom'):
+                    node = re.sub('^rom \( name ', '<rom name="', node.strip())
+                    node = re.sub(' size ', '" size="', node.strip())
+                    node = re.sub(' crc ', '" crc="', node.strip())
+                    node = re.sub(' md5 ', '" md5="', node.strip())
+                    node = re.sub(' sha1 ', '" sha1="', node.strip())
+                    node = re.sub(' md5 ', '" md5="', node.strip())
+                    node = re.sub(' \)$', '">', node.strip())
+                    xml_convert += '\t\t' + node + '\n'
+            xml_convert += '\t</game>\n'
+        xml_convert += '</datafile>'
+    else:
+        print(font.red + 'file isn\'t Logiqx XML or CLRMAMEPro dat.' + font.end)
+        sys.exit()
+    return xml_convert, dat_name, dat_description, dat_author
+
 # Creates a header for dat files
 def header(dat_name, dat_version, dat_author, dat_url, new_title_count, locale, flag_regions_all, flag_regions_en):
     if new_title_count == False:
@@ -537,52 +556,6 @@ def minidom_prettify(string):
     for line in doc:
         formatted_node += '\t' + line.rstrip() + '\n'
     return formatted_node
-
-
-
-
-                        #     # Split into regional dats if -r* flag is present
-                        #     if regions == True or flag_regions_en == True:
-                        #         output_file.writelines('</datafile>')
-                        #         sys.stdout.write("\033[K")
-                        #         print('* Adding titles from USA to "' + font.bold + output_file_name + font.end + '"...done.')
-
-                        #         region_split('World', 'world')
-                        #         region_split('UK', 'uk')
-                        #         region_split('Canada', 'ca')
-                        #         region_split('Australia', 'au')
-                        #         region_split('Brazil', 'br')
-                        #         region_split('Europe', 'eu')
-                        #         region_split('Asia', 'asia')
-                        #         region_split('Scandinavia', 'scandi')
-                        #         region_split('Austria', 'at')
-                        #         region_split('Belgium', 'be')
-                        #         region_split('Switzerland', 'ch')
-                        #         region_split('China', 'cn')
-                        #         region_split('Germany', 'de')
-                        #         region_split('Denmark', 'dk')
-                        #         region_split('Spain', 'es')
-                        #         region_split('Finland', 'fi')
-                        #         region_split('France', 'fr')
-                        #         region_split('Greece', 'gr')
-                        #         region_split('Croatia', 'hr')
-                        #         region_split('India', 'in')
-                        #         region_split('Italy', 'it')
-                        #         region_split('Switzerland', 'ch')
-                        #         region_split('Japan', 'jp')
-                        #         region_split('Korea', 'ko')
-                        #         region_split('Netherlands', 'nl')
-                        #         region_split('Norway', 'no')
-                        #         region_split('Poland', 'pl')
-                        #         region_split('Portugal', 'pt')
-                        #         region_split('Russia', 'ru')
-                        #         region_split('South Africa', 'sa')
-                        #         region_split('Sweden', 'se')
-
-                        #         print(font.green + '\n* Finished splitting dat into regions.' + font.end)
-                        #         sys.exit()
-
-
 
 if __name__ == '__main__':
     main()
