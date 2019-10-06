@@ -1,4 +1,6 @@
 # Strips Redump dats to only have English titles, preferencing US titles.
+# Also removes titles from other regions that have different names, but
+# the same content.
 #
 # Dependencies:
 # * bs4
@@ -14,260 +16,79 @@ from time import strftime
 import importlib # For bringing in renamed lists
 import _regional_renames # Duplicate image titles that have different names in different regions
 
-version_number = '0.1'
+version_number = '0.2'
 
-# Set up some nice formatting
-# https://stackoverflow.com/questions/4842424/list-of-ansi-color-escape-sequences
-class font:
-    PURPLE = '\033[95m'
-    CYAN = '\033[96m'
-    DARKCYAN = '\033[36m'
-    BLUE = '\033[94m'
-    GREEN = '\033[92m'
-    YELLOW = '\033[93m'
-    WHITE = '\033[37m'
-    RED = '\033[91m'
-    BOLD = '\033[1m'
-    UNDERLINE = '\033[4m'
-    END = '\033[0m'
-    BLINK = '\033[5m'
-
-# Generic error message
-def error_instruction():
-    print('\nUSAGE:\n' + font.BOLD + ' python ' + os.path.basename(__file__) + ' -i input.dat -o output.dat <options>' + font.END)
-    print('\nOPTIONS:\n' + font.BOLD + ' -a' + font.END + '   Remove applications')
-    print(font.BOLD + ' -d' + font.END + '   Remove demos and coverdiscs')
-    print(font.BOLD + ' -e' + font.END + '   Remove educational')
-    print(font.BOLD + ' -m' + font.END + '   Remove multimedia')
-    print(font.BOLD + ' -p' + font.END + '   Remove betas and prototypes')
-    print(font.BOLD + ' -ra' + font.END + '  Split into regions, all languages (not checked for dupes)')
-    print(font.BOLD + ' -re' + font.END + '  Split into regions, English only (not checked for dupes)')
-    sys.exit()
-    return
-
-# Check user input
-def check_input():
+def main():
+    # Initial splash screen
+    os.system('cls' if os.name == 'nt' else 'clear')
+    print(font.red + '______   _____ _____ _____ _' +
+        '\n| ___ \ |_   _|  _  |  _  | |' +
+        '\n| |_/ /___| | | | | | | | | |' +
+        '\n|    // _ \ | | | | | | | | |' +
+        '\n| |\ \  __/ | \ \_/ | \_/ / |____' +
+        '\n\_| \_\___\_/  \___/ \___/\_____/ '+ font.end + 'v' + version_number)
+    print('=======================================\n')
     if len(sys.argv) == 1:
-        error_instruction()
+        print('Strips Redump (' + font.underline + 'http://redump.org/' + font.end + ') dats to only include English titles from\nall regions, with no dupes. US titles are preferenced. This is not an\nofficial Redump project.')
 
-    if len([x for x in sys.argv if '-i' in x]) == 0:
-        print(font.RED + '\nMissing -i argument, no input file specified.' + font.END)
-        error_instruction()
+    # Check user input
+    user_input = check_input()
 
-    for i, x in enumerate(sys.argv):
-        if x == '-i':
-            if (len(sys.argv) == 2) or (sys.argv[i+1] == '-o') or (sys.argv[i+1] == '-d') or (sys.argv[i+1] == '-a') or (sys.argv[i+1] == '-p') or (sys.argv[i+1] == '-m') or (sys.argv[i+1] == '-e') or (sys.argv[i+1] == '-ra') or (sys.argv[i+1] == '-re'):
-                print('\n' + font.RED + 'ERROR: No input file specified.' + font.END)
-                error_instruction()
+    input_file_name = user_input[0]
+    output_file_name = user_input[1]
+    flag_no_demos = user_input[2]
+    flag_no_apps = user_input[3]
+    flag_no_protos = user_input[4]
+    flag_no_multi = user_input[5]
+    flag_no_edu = user_input[6]
+    flag_regions_all = user_input[7]
+    flag_regions_en = user_input[8]
 
-            input_file_name = sys.argv[i+1]
+    # Regions where English is a primary language
+    region_list_english = [
+        'USA',
+        'World',
+        'UK',
+        'Canada',
+        'Australia',
+        'Brazil' # Classic console games were in English. Modern titles might only be in Portugese these days. Keep an eye out.
+    ]
 
-            if not os.path.exists(input_file_name):
-                print('\n' + font.RED + 'ERROR: ' + input_file_name + ' does not exist.' + font.END)
-                error_instruction()
+    # Regions where titles may have an English version
+    region_list_other = [
+        'Europe',
+        'Asia',
+        'Scandinavia',
+        'Japan',
+        'Austria',
+        'Belgium',
+        'China',
+        'Croatia',
+        'Denmark',
+        'Finland',
+        'France',
+        'Greece',
+        'India',
+        'Italy',
+        'Korea',
+        'Netherlands',
+        'Norway',
+        'Poland',
+        'Portugal',
+        'Russia',
+        'South Africa',
+        'Spain',
+        'Sweden',
+        'Switzerland'
+    ]
 
-            if not input_file_name.endswith('.dat'):
-                print('\n' + font.RED + 'ERROR: Redump input file must have a .dat extension.' + font.END)
-                error_instruction()
-
-    if len([x for x in sys.argv if '-o' in x]) == 0:
-        print(font.RED + '\nMissing -o argument, no output file specified.' + font.END)
-        error_instruction()
-
-    for i, x in enumerate(sys.argv):
-        if x == '-o':
-            if i+1 == len(sys.argv):
-                print('\n' + font.RED + 'ERROR: No output file specified.' + font.END)
-                error_instruction()
-            else:
-                output_file_name = sys.argv[i+1]
-            if not output_file_name.endswith('.dat'):
-                output_file_name = output_file_name + '.dat'
-
-    for i, x in enumerate(sys.argv):
-        if x.startswith('-'):
-            if not ((x == '-a') or (x == '-d') or (x == '-i') or (x == '-o') or (x == '-p') or (x == '-m') or (x == '-e') or (x == '-ra') or (x == '-re')):
-                print('\n' + font.RED + 'ERROR: Invalid option ' + sys.argv[i] + font.END)
-                error_instruction()
-
-    if len([x for x in sys.argv if '-d' in x]) > 0:
-        no_demos = True
-    else:
-        no_demos = False
-
-    if len([x for x in sys.argv if '-a' in x]) > 0:
-        no_apps = True
-    else:
-        no_apps = False
-
-    if len([x for x in sys.argv if '-p' in x]) > 0:
-        no_protos = True
-    else:
-        no_protos = False
-
-    if len([x for x in sys.argv if '-m' in x]) > 0:
-        no_multi = True
-    else:
-        no_multi = False
-
-    if len([x for x in sys.argv if '-e' in x]) > 0:
-        no_edu = True
-    else:
-        no_edu = False
-
-    if len([x for x in sys.argv if '-ra' in x]) > 0:
-        if len([x for x in sys.argv if '-re' in x]) > 0:
-            print('\n' + font.RED + 'ERROR: Can\'t combine -ra and -re options.' + font.END)
-            error_instruction()
-        else:
-            regions = True
-    else:
-        regions = False
-
-    if len([x for x in sys.argv if '-re' in x]) > 0:
-        if len([x for x in sys.argv if '-ra' in x]) > 0:
-            print('\n' + font.RED + 'ERROR: Can\'t combine -ra and -re options.' + font.END)
-            error_instruction()
-        else:
-            regions_english = True
-    else:
-        regions_english = False
-
-    return input_file_name, output_file_name, no_demos, no_apps, no_protos, no_multi, no_edu, regions, regions_english
-
-def minidom_prettify(string, output_file):
-    # Using minidom to prettify, because it can define indents and we need tabs
-    doc = minidom.parseString(string)
-    doc = doc.toprettyxml(newl='', encoding=None)[22:] + '\n'
-    doc = doc.splitlines()
-
-    for line in doc:
-        output_file.write('\t' + line.rstrip() + '\n')
-    return
-
-def filter_flags(output_file, node, no_demos, no_apps, no_protos, no_multi, no_edu):
-    if (no_demos == True) and (no_apps == False) and (no_protos == False) and (no_multi == False) and (no_edu == False):
-        if str(node.category) != '<category>Demos</category>' and str(node.category) != '<category>Coverdiscs</category>':
-            minidom_prettify(str(node.category.parent), output_file)
-    elif (no_demos == True) and (no_apps == False) and (no_protos == False) and (no_multi == False) and (no_edu == True):
-        if str(node.category) != '<category>Demos</category>' and str(node.category) != '<category>Coverdiscs</category>' and str(node.category) != '<category>Educational</category>':
-            minidom_prettify(str(node.category.parent), output_file)
-    elif (no_demos == True) and (no_apps == False) and (no_protos == False) and (no_multi == True) and (no_edu == False):
-        if str(node.category) != '<category>Demos</category>' and str(node.category) != '<category>Coverdiscs</category>' and str(node.category) != '<category>Multimedia</category>':
-            minidom_prettify(str(node.category.parent), output_file)
-    elif (no_demos == True) and (no_apps == False) and (no_protos == False) and (no_multi == True) and (no_edu == True):
-        if str(node.category) != '<category>Demos</category>' and str(node.category) != '<category>Coverdiscs</category>' and str(node.category) != '<category>Multimedia</category>' and str(node.category) != '<category>Educational</category>':
-            minidom_prettify(str(node.category.parent), output_file)
-    elif (no_demos == False) and (no_apps == True) and (no_protos == False) and (no_multi == False) and (no_edu == False):
-        if str(node.category) != '<category>Applications</category>':
-            minidom_prettify(str(node.category.parent), output_file)
-    elif (no_demos == False) and (no_apps == True) and (no_protos == False) and (no_multi == False) and (no_edu == True):
-        if str(node.category) != '<category>Applications</category>' and str(node.category) != '<category>Educational</category>':
-            minidom_prettify(str(node.category.parent), output_file)
-    elif (no_demos == False) and (no_apps == True) and (no_protos == False) and (no_multi == True) and (no_edu == False):
-        if str(node.category) != '<category>Applications</category>' and str(node.category) != '<category>Multimedia</category>':
-            minidom_prettify(str(node.category.parent), output_file)
-    elif (no_demos == False) and (no_apps == True) and (no_protos == False) and (no_multi == True) and (no_edu == True):
-        if str(node.category) != '<category>Applications</category>' and str(node.category) != '<category>Multimedia</category>' and str(node.category) != '<category>Educational</category>':
-            minidom_prettify(str(node.category.parent), output_file)
-    elif (no_demos == False) and (no_apps == False) and (no_protos == True) and (no_multi == False) and (no_edu == False):
-        if str(node.category) != '<category>Preproduction</category>':
-            minidom_prettify(str(node.category.parent), output_file)
-    elif (no_demos == False) and (no_apps == False) and (no_protos == True) and (no_multi == False) and (no_edu == True):
-        if str(node.category) != '<category>Preproduction</category>' and str(node.category) != '<category>Educational</category>':
-            minidom_prettify(str(node.category.parent), output_file)
-    elif (no_demos == False) and (no_apps == False) and (no_protos == True) and (no_multi == True) and (no_edu == False):
-        if str(node.category) != '<category>Preproduction</category>' and str(node.category) != '<category>Multimedia</category>':
-            minidom_prettify(str(node.category.parent), output_file)
-    elif (no_demos == False) and (no_apps == False) and (no_protos == True) and (no_multi == True) and (no_edu == True):
-        if str(node.category) != '<category>Preproduction</category>' and str(node.category) != '<category>Multimedia</category>' and str(node.category) != '<category>Educational</category>':
-            minidom_prettify(str(node.category.parent), output_file)
-    elif (no_demos == False) and (no_apps == True) and (no_protos == True) and (no_multi == False) and (no_edu == False):
-        if str(node.category) != '<category>Preproduction</category>' and str(node.category) != '<category>Applications</category>':
-            minidom_prettify(str(node.category.parent), output_file)
-    elif (no_demos == False) and (no_apps == True) and (no_protos == True) and (no_multi == False) and (no_edu == True):
-        if str(node.category) != '<category>Preproduction</category>' and str(node.category) != '<category>Applications</category>' and str(node.category) != '<category>Educational</category>':
-            minidom_prettify(str(node.category.parent), output_file)
-    elif (no_demos == False) and (no_apps == True) and (no_protos == True) and (no_multi == True) and (no_edu == False):
-        if str(node.category) != '<category>Preproduction</category>' and str(node.category) != '<category>Applications</category>' and str(node.category) != '<category>Multimedia</category>':
-            minidom_prettify(str(node.category.parent), output_file)
-    elif (no_demos == False) and (no_apps == True) and (no_protos == True) and (no_multi == True) and (no_edu == True):
-        if str(node.category) != '<category>Preproduction</category>' and str(node.category) != '<category>Applications</category>' and str(node.category) != '<category>Multimedia</category>' and str(node.category) != '<category>Educational</category>':
-            minidom_prettify(str(node.category.parent), output_file)
-    elif (no_demos == True) and (no_apps == True) and (no_protos == False) and (no_multi == False) and (no_edu == False):
-        if str(node.category) != '<category>Applications</category>' and str(node.category) != '<category>Demos</category>' and str(node.category) != '<category>Coverdiscs</category>':
-            minidom_prettify(str(node.category.parent), output_file)
-    elif (no_demos == True) and (no_apps == True) and (no_protos == False) and (no_multi == False) and (no_edu == True):
-        if str(node.category) != '<category>Applications</category>' and str(node.category) != '<category>Demos</category>' and str(node.category) != '<category>Coverdiscs</category>' and str(node.category) != '<category>Educational</category>':
-            minidom_prettify(str(node.category.parent), output_file)
-    elif (no_demos == True) and (no_apps == True) and (no_protos == False) and (no_multi == True) and (no_edu == False):
-        if str(node.category) != '<category>Applications</category>' and str(node.category) != '<category>Demos</category>' and str(node.category) != '<category>Coverdiscs</category>' and str(node.category) != '<category>Multimedia</category>':
-            minidom_prettify(str(node.category.parent), output_file)
-    elif (no_demos == True) and (no_apps == True) and (no_protos == False) and (no_multi == True) and (no_edu == True):
-        if str(node.category) != '<category>Applications</category>' and str(node.category) != '<category>Demos</category>' and str(node.category) != '<category>Coverdiscs</category>' and str(node.category) != '<category>Multimedia</category>' and str(node.category) != '<category>Educational</category>':
-            minidom_prettify(str(node.category.parent), output_file)
-    elif (no_demos == True) and (no_apps == False) and (no_protos == True) and (no_multi == False) and (no_edu == False):
-        if str(node.category) != '<category>Preproduction</category>' and str(node.category) != '<category>Demos</category>' and str(node.category) != '<category>Coverdiscs</category>':
-            minidom_prettify(str(node.category.parent), output_file)
-    elif (no_demos == True) and (no_apps == False) and (no_protos == True) and (no_multi == False) and (no_edu == True):
-        if str(node.category) != '<category>Preproduction</category>' and str(node.category) != '<category>Demos</category>' and str(node.category) != '<category>Coverdiscs</category>' and str(node.category) != '<category>Educational</category>':
-            minidom_prettify(str(node.category.parent), output_file)
-    elif (no_demos == True) and (no_apps == False) and (no_protos == True) and (no_multi == True) and (no_edu == False):
-        if str(node.category) != '<category>Preproduction</category>' and str(node.category) != '<category>Demos</category>' and str(node.category) != '<category>Coverdiscs</category>' and str(node.category) != '<category>Multimedia</category>':
-            minidom_prettify(str(node.category.parent), output_file)
-    elif (no_demos == True) and (no_apps == False) and (no_protos == True) and (no_multi == True) and (no_edu == True):
-        if str(node.category) != '<category>Preproduction</category>' and str(node.category) != '<category>Demos</category>' and str(node.category) != '<category>Coverdiscs</category>' and str(node.category) != '<category>Multimedia</category>' and str(node.category) != '<category>Educational</category>':
-            minidom_prettify(str(node.category.parent), output_file)
-    elif (no_demos == True) and (no_apps == True) and (no_protos == True) and (no_multi == False) and (no_edu == False):
-        if str(node.category) != '<category>Applications</category>' and str(node.category) != '<category>Demos</category>' and str(node.category) != '<category>Coverdiscs</category>' and str(node.category) != '<category>Preproduction</category>':
-            minidom_prettify(str(node.category.parent), output_file)
-    elif (no_demos == True) and (no_apps == True) and (no_protos == True) and (no_multi == False) and (no_edu == True):
-        if str(node.category) != '<category>Applications</category>' and str(node.category) != '<category>Demos</category>' and str(node.category) != '<category>Coverdiscs</category>' and str(node.category) != '<category>Preproduction</category>' and str(node.category) != '<category>Educational</category>':
-            minidom_prettify(str(node.category.parent), output_file)
-    elif (no_demos == True) and (no_apps == True) and (no_protos == True) and (no_multi == True) and (no_edu == False):
-        if str(node.category) != '<category>Applications</category>' and str(node.category) != '<category>Demos</category>' and str(node.category) != '<category>Coverdiscs</category>' and str(node.category) != '<category>Preproduction</category>' and str(node.category) != '<category>Multimedia</category>':
-            minidom_prettify(str(node.category.parent), output_file)
-    elif (no_demos == True) and (no_apps == True) and (no_protos == True) and (no_multi == True) and (no_edu == True):
-        if str(node.category) != '<category>Applications</category>' and str(node.category) != '<category>Demos</category>' and str(node.category) != '<category>Coverdiscs</category>' and str(node.category) != '<category>Preproduction</category>' and str(node.category) != '<category>Multimedia</category>' and str(node.category) != '<category>Educational</category>':
-            minidom_prettify(str(node.category.parent), output_file)
-    else:
-        minidom_prettify(str(node.category.parent), output_file)
-    return
-
-def header(dat_name, dat_version, dat_author, dat_url, new_title_count, country, regions, regions_english):
-    if new_title_count == False:
-        new_title_count = ' '
-    else:
-        new_title_count = ' (' + str(new_title_count) + ') '
-
-    if regions_english == True:
-        description = '\n\t\t<description>' + dat_name  + new_title_count + '(' + dat_version + ') (' + country + ') (English)</description>'
-    elif regions == True:
-        description = '\n\t\t<description>' + dat_name  + new_title_count + '(' + dat_version + ') (' + country + ')</description>'
-    else:
-        description = '\n\t\t<description>' + dat_name  + new_title_count + '(' + dat_version + ') (English)</description>'
-
-    header = ['<?xml version="1.0"?>',
-        '\n<!DOCTYPE datafile PUBLIC "-//Logiqx//DTD ROM Management Datafile//EN" "http://www.logiqx.com/Dats/datafile.dtd">',
-        '\n<datafile>',
-        '\n\t<header>',
-        '\n\t\t<name>' + dat_name + '</name>',
-        description,
-        '\n\t\t<version>' + dat_version + '</version>',
-        '\n\t\t<date>' + datetime.datetime.now().strftime('%Y-%m-%d %H-%M-%S') + '</date>',
-        '\n\t\t<author>' + dat_author + ' & NI+ROE</author>',
-        '\n\t\t<homepage>redump.org</homepage>',
-        '\n\t\t<url>' + dat_url + '</url>',
-        '\n\t</header>\n']
-    return header
-
-def filter_dat(input_file_name, output_file_name, no_demos, no_apps, no_protos, no_multi, no_edu, regions, regions_english):
     # Read in the dat file
-    print('\n* Reading dat file: "' + font.BOLD + input_file_name + font.END + '"')
+    print('* Reading dat file: "' + font.bold + input_file_name + font.end + '"')
     with open(input_file_name, 'r') as input_file_read:
         soup = BeautifulSoup(input_file_read, "lxml-xml")
-        print('* Validating dat file... ', sep=' ', end='', flush=True) # Continue printing to the same line
+        print('* Validating dat file... ', sep=' ', end='', flush=True)
 
+        # Check for a valid Redump dat, then grab the dat details
         for item in soup.contents:
             if isinstance(item, Doctype):
                 if item == 'datafile PUBLIC "-//Logiqx//DTD ROM Management Datafile//EN" "http://www.logiqx.com/Dats/datafile.dtd"':
@@ -286,295 +107,451 @@ def filter_dat(input_file_name, output_file_name, no_demos, no_apps, no_protos, 
 
                         # Find out how many titles are in the dat file
                         original_title_count = len(soup.find_all('game'))
-
-                        # Remove existing output file
-                        if os.path.exists(output_file_name):
-                            os.remove(output_file_name)
-
-                        with open(output_file_name, 'a+') as output_file:
-                            def localized_image_list(locale, native):
-                                sys.stdout.write("\033[K")
-                                print('* Splitting dat into regions... ' + locale, sep='', end='\r', flush=True)
-                                if native == True:
-                                    return soup.find_all('game', {'name':re.compile('(\(' + locale + '\))')}) + soup.find_all('game', {'name':re.compile('(\(' + locale + ',.*?\))')})
-                                else:
-                                    if locale == 'Europe':
-                                        # Grab all European games that don't have languages listed, as well as those that specify English
-                                        return soup.find_all('game', {'name':re.compile('^(?!.*(\(.*?(En|Fr|De|Es|It|Nl|Sv|No|Da|Fi|Pl|Ru)(,|\)))).*(\(.*?' + locale + '.*?\))')}) + soup.find_all('game', {'name':re.compile('(\(.*' + locale + '.*?\) \(En,)')})
-                                    else:
-                                        return soup.find_all('game', {'name':re.compile('(\(.*' + locale + '.*?\) \(.*?En(,|\)))')})
-
-                            # First populate the regions that are natively in English
-                            images = {}
-                            images['usa'] = localized_image_list('USA', True)
-                            images['world'] = localized_image_list('World', True)
-                            images['uk'] = localized_image_list('UK', True)
-                            images['ca'] = localized_image_list('Canada', True) # There's a chance this could be French Canadian. Keep an eye out.
-                            images['au'] = localized_image_list('Australia', True)
-                            images['br'] = localized_image_list('Brazil', True) # BR images may only be in Portugese these days... old console images were in English though
-
-                            # Now those that may have English versions
-                            images['eu'] = localized_image_list('Europe', regions)
-                            images['asia'] = localized_image_list('Asia', regions)
-                            images['scandi'] = localized_image_list('Scandinavia', regions)
-                            images['at'] = localized_image_list('Austria', regions)
-                            images['be'] = localized_image_list('Belgium', regions)
-                            images['ch'] = localized_image_list('Switzerland', regions)
-                            images['cn'] = localized_image_list('China', regions)
-                            images['de'] = localized_image_list('Germany', regions)
-                            images['dk'] = localized_image_list('Denmark', regions)
-                            images['es'] = localized_image_list('Spain', regions)
-                            images['fi'] = localized_image_list('Finland', regions)
-                            images['fr'] = localized_image_list('France', regions)
-                            images['gr'] = localized_image_list('Greece', regions)
-                            images['hr'] = localized_image_list('Croatia', regions)
-                            images['in'] = localized_image_list('India', regions)
-                            images['it'] = localized_image_list('Italy', regions)
-                            images['jp'] = localized_image_list('Japan', regions)
-                            images['ko'] = localized_image_list('Korea', regions)
-                            images['nl'] = localized_image_list('Netherlands', regions)
-                            images['no'] = localized_image_list('Norway', regions)
-                            images['pl'] = localized_image_list('Poland', regions)
-                            images['pt'] = localized_image_list('Portugal', regions)
-                            images['ru'] = localized_image_list('Russia', regions)
-                            images['sa'] = localized_image_list('South Africa', regions)
-                            images['se'] = localized_image_list('Sweden', regions)
-
-                            sys.stdout.write("\033[K")
-                            print('* Splitting dat into regions... done.')
-
-                            if regions == True or regions_english == True:
-                                print('* Adding titles from USA to "' + font.BOLD + output_file_name + font.END + '"...', sep='', end='\r', flush=True)
-                                new_title_count = len(images['usa'])
-                                dat_header = header(dat_name, dat_version, dat_author, dat_url, False, 'USA', True, False)
-                                output_file.writelines(dat_header)
-                            else:
-                                print('* Finding USA titles and writing them to "' + font.BOLD + output_file_name + font.END + '"...')
-
-                            for node in images['usa']:
-                                filter_flags(output_file, node, no_demos, no_apps, no_protos, no_multi, no_edu)
-
-                            def region_split(country, locale):
-                                if images[locale] != []:
-                                    if output_file_name.find('.dat', len(output_file_name) - 4, len(output_file_name)):
-                                        output_file_name_split = output_file_name.strip('.dat')
-                                    else:
-                                        output_file_name_split = output_file_name
-
-                                    print('* Adding titles from ' + country + ' to "'  + font.BOLD +  output_file_name_split +  ' (' + country + ').dat' + font.END + '"...', sep='', end='\r', flush=True)
-
-                                    with open(output_file_name_split + ' (' + country + ').dat', 'w') as output_file_split:
-                                        dat_header = header(dat_name, dat_version, dat_author, dat_url, False, country, regions, regions_english)
-                                        output_file_split.writelines(dat_header)
-
-
-                                        for node in images[locale]:
-                                            filter_flags(output_file_split, node, no_demos, no_apps, no_protos, no_multi, no_edu)
-                                        output_file_split.writelines('</datafile>')
-                                    sys.stdout.write("\033[K")
-                                    print('* Adding titles from ' + country + ' to "'  + font.BOLD +  output_file_name_split +  ' (' + country + ').dat' + font.END + '"... done.')
-                                return
-
-                            # Split into regional dats if -r* flag is present
-                            if regions == True or regions_english == True:
-                                output_file.writelines('</datafile>')
-                                sys.stdout.write("\033[K")
-                                print('* Adding titles from USA to "' + font.BOLD + output_file_name + font.END + '"...done.')
-
-                                region_split('World', 'world')
-                                region_split('UK', 'uk')
-                                region_split('Canada', 'ca')
-                                region_split('Australia', 'au')
-                                region_split('Brazil', 'br')
-                                region_split('Europe', 'eu')
-                                region_split('Asia', 'asia')
-                                region_split('Scandinavia', 'scandi')
-                                region_split('Austria', 'at')
-                                region_split('Belgium', 'be')
-                                region_split('Switzerland', 'ch')
-                                region_split('China', 'cn')
-                                region_split('Germany', 'de')
-                                region_split('Denmark', 'dk')
-                                region_split('Spain', 'es')
-                                region_split('Finland', 'fi')
-                                region_split('France', 'fr')
-                                region_split('Greece', 'gr')
-                                region_split('Croatia', 'hr')
-                                region_split('India', 'in')
-                                region_split('Italy', 'it')
-                                region_split('Switzerland', 'ch')
-                                region_split('Japan', 'jp')
-                                region_split('Korea', 'ko')
-                                region_split('Netherlands', 'nl')
-                                region_split('Norway', 'no')
-                                region_split('Poland', 'pl')
-                                region_split('Portugal', 'pt')
-                                region_split('Russia', 'ru')
-                                region_split('South Africa', 'sa')
-                                region_split('Sweden', 'se')
-
-                                print(font.GREEN + '\n* Finished splitting dat into regions.' + font.END)
-                                sys.exit()
-
-                            print('* Analyzing other regions, and adding English non-dupes to "' + font.BOLD + output_file_name + font.END + '"...')
-
-                            # Get English non-dupe images
-                            unique_list = []
-                            dupe_list = []
-
-                            # List of known titles that are dupes, but are named something different in other regions
-                            if dat_name == 'Microsoft - Xbox':
-                                dupe_list = _regional_renames.xbox_rename_list()
-                            if dat_name == 'Microsoft - Xbox 360':
-                                dupe_list = _regional_renames.x360_rename_list()
-                            if dat_name == 'Microsoft - Xbox One':
-                                dupe_list = _regional_renames.xbone_rename_list()
-                            if dat_name == 'Nintendo - GameCube':
-                                dupe_list = _regional_renames.gamecube_rename_list()
-                            if dat_name == 'Nintendo - Wii':
-                                dupe_list = _regional_renames.wii_rename_list()
-                            if dat_name == 'Nintendo - Wii U':
-                                dupe_list = _regional_renames.wii_u_rename_list()
-                            if dat_name == 'Panasonic - 3DO Interactive Multiplayer':
-                                dupe_list = _regional_renames.threedo_rename_list()
-                            if dat_name == 'Sega - Dreamcast':
-                                dupe_list = _regional_renames.dreamcast_rename_list()
-                            if dat_name == 'Sega - Mega CD & Sega CD':
-                                dupe_list = _regional_renames.segacd_rename_list()
-                            if dat_name == 'Sega - Saturn':
-                                dupe_list = _regional_renames.saturn_rename_list()
-                            if dat_name == 'Sony - PlayStation':
-                                dupe_list = _regional_renames.psx_rename_list()
-                            if dat_name == 'Sony - PlayStation 2':
-                                dupe_list = _regional_renames.ps2_rename_list()
-                            if dat_name == 'Sony - PlayStation 3':
-                                dupe_list = _regional_renames.ps3_rename_list()
-                            if dat_name == 'Sony - PlayStation 4':
-                                dupe_list = _regional_renames.ps4_rename_list()
-                            if dat_name == 'Sony - PlayStation Portable':
-                                dupe_list = _regional_renames.psp_rename_list()
-
-                            # Add USA image names to unique_list
-                            for item in images['usa']:
-                                unique_list.append(item.category.parent['name'][:item.category.parent['name'].index('(USA') - 1])
-
-                            # Sort and dedupe unique_list
-                            unique_list = sorted(unique_list, key=str.lower)
-                            unique_list_temp = []
-                            for i, x in enumerate(unique_list):
-                                if unique_list[i] != unique_list[i-1]:
-                                    unique_list_temp.append(unique_list[i])
-                            unique_list = unique_list_temp
-
-                            def regional_unique_image_list(locale, country_code):
-                                print('  - Adding unique titles from ' + locale + '...', sep='', end='\r', flush=True)
-                                regional_images = []
-                                for item in images[country_code]:
-                                    locale_start = [m.span()[0] for m in re.finditer('(\(.*' + locale + '.*\))', item.category.parent['name'])][0]
-                                    locale_end = [m.span()[1] for m in re.finditer('(\(.*' + locale + '.*\))', item.category.parent['name'])][0]
-                                    regional_images.append(item.category.parent['name'][:locale_end - (locale_end - locale_start + 1)])
-
-                                unique_images = [x for x in regional_images if x not in unique_list and x not in dupe_list]
-
-                                # Sort and dedupe unique_images
-                                unique_images = sorted(unique_images, key=str.lower)
-                                unique_images_temp = []
-                                for i, x in enumerate(unique_images):
-                                    if unique_images[i] != unique_images[i-1]:
-                                        unique_images_temp.append(unique_images[i])
-                                unique_images = unique_images_temp
-
-                                # Write regional images to dat file
-                                if not unique_images == []:
-                                    for image in unique_images:
-                                        for node in images[country_code]:
-                                            if bool(re.search('(^' + image + ' \()', node.category.parent['name'])):
-                                                filter_flags(output_file, node, no_demos, no_apps, no_protos, no_multi, no_edu)
-
-                                    sys.stdout.write("\033[K")
-                                    print('  - Adding unique titles from ' + locale + '... done.')
-
-                                    for item in unique_images:
-                                        unique_list.append(item)
-                                return
-
-                            regional_unique_image_list('World', 'world')
-                            regional_unique_image_list('Europe', 'eu')
-                            regional_unique_image_list('UK', 'uk')
-                            regional_unique_image_list('Australia', 'au')
-                            regional_unique_image_list('Canada', 'ca')
-                            regional_unique_image_list('Brazil', 'br')
-                            regional_unique_image_list('Asia', 'asia')
-                            regional_unique_image_list('Austria', 'at')
-                            regional_unique_image_list('Belgium', 'be')
-                            regional_unique_image_list('Switzerland', 'ch')
-                            regional_unique_image_list('China', 'cn')
-                            regional_unique_image_list('Germany', 'de')
-                            regional_unique_image_list('Denmark', 'dk')
-                            regional_unique_image_list('Spain', 'es')
-                            regional_unique_image_list('Finland', 'fi')
-                            regional_unique_image_list('France', 'fr')
-                            regional_unique_image_list('Greece', 'gr')
-                            regional_unique_image_list('Croatia', 'hr')
-                            regional_unique_image_list('India', 'in')
-                            regional_unique_image_list('Italy', 'it')
-                            regional_unique_image_list('Japan', 'jp')
-                            regional_unique_image_list('Korea', 'ko')
-                            regional_unique_image_list('Netherlands', 'nl')
-                            regional_unique_image_list('Norway', 'no')
-                            regional_unique_image_list('Poland', 'pl')
-                            regional_unique_image_list('Portugal', 'pt')
-                            regional_unique_image_list('Russia', 'ru')
-                            regional_unique_image_list('South Africa', 'sa')
-                            regional_unique_image_list('Scandinavia', 'scandi')
-                            regional_unique_image_list('Sweden', 'se')
-
-                            sys.stdout.write("\033[K")
-
-                            # Finish up the file
-                            output_file.close()
-
-                        with open(output_file_name, 'r') as output_file:
-                            content = output_file.read()
-                            output_file.close()
-
-                        # Find out how many titles are in the new dat file
-                        new_title_count = content.count('<game name=')
-
-                        print('\n|  Original title count: ' + str('{:,}'.format(original_title_count)) + '\n|  Dupes and non-English titles: ' + str('{:,}'.format(original_title_count - new_title_count)) + '\n|  New title count: ' + str('{:,}'.format(new_title_count)))
-
-                        # Dat file header
-                        dat_header = header(dat_name, dat_version, dat_author, dat_url, new_title_count, False, False, False)
-
-                        with open(output_file_name, 'w') as output_file:
-                            output_file.writelines(dat_header)
-                            output_file.close()
-                        with open(output_file_name, 'a') as output_file:
-                            output_file.write(content)
-                            output_file.writelines('</datafile>')
-                            output_file.close()
-
-                        print(font.GREEN + '\n* Finished writing unique English titles to "' +  font.BOLD + output_file_name + font.END + font.GREEN + '".' + font.END)
-
                     else:
-                        print('\nERROR: This dat file is not authored by Redump')
-
+                        print(font.red + '\n* This dat file isn\t authored by Redump' + font.end)
+                        sys.exit()
                 else:
-                    print('\n\nERROR: "' + input_file_name + '" is not a CLRMAMEPro dat file.')
+                    print(font.red + '\n* "' + input_file_name + '" isn\'t a CLRMAMEPro dat file.' + font.end)
+                    sys.exit()
 
+    print(dat_name)
 
-# Initial splash screen
-os.system('cls' if os.name == 'nt' else 'clear')
-print(font.RED + '______   _____ _____ _____ _' +
-    '\n| ___ \ |_   _|  _  |  _  | |' +
-    '\n| |_/ /___| | | | | | | | | |' +
-    '\n|    // _ \ | | | | | | | | |' +
-    '\n| |\ \  __/ | \ \_/ | \_/ / |____' +
-    '\n\_| \_\___\_/  \___/ \___/\_____/ '+ font.END + 'v' + version_number)
-print('=======================================')
-if len(sys.argv) == 1:
-    print('\nStrips Redump (' + font.UNDERLINE + 'http://redump.org/' + font.END + ') dats to only include English titles from\nall regions, with no dupes. US titles are preferenced. This is not an\nofficial Redump project.')
+    # Store regions in an object
+    titles = {}
+    unique_regional_titles = {}
+
+    # First populate the regions that are natively in English
+    for region in region_list_english:
+        titles[region] = localized_titles(region, True, soup)
+
+    # Now those that may have English versions
+    for region in region_list_other:
+        titles[region] = localized_titles(region, flag_regions_all, soup)
+
+    sys.stdout.write("\033[K")
+    print('* Checking dat for regions... done.')
+
+    print('* Adding titles from USA...', sep='', end='', flush=True)
+
+    # Sort USA titles
+    usa_titles = []
+    for title in titles['USA']:
+        usa_titles.append(str(title.category.parent['name']))
+    usa_titles = sorted(usa_titles, key=str.lower)
+
+    # Create a list to store unique titles, and add USA titles to it
+    unique_list = []
+
+    for title in usa_titles:
+        unique_list.append(title[:title.index('(USA') - 1])
+
+    # Dedupe unique_list
+    unique_regional_titles['USA'] = []
+
+    for i, x in enumerate(unique_list):
+        if unique_list[i] != unique_list[i-1]:
+            unique_regional_titles['USA'].append(x)
+    unique_list = unique_regional_titles['USA']
+
+    final_title_xml=''
+
+    # Add the USA titles XML
+    for node in titles['USA']:
+        final_title_xml += filter_flags(node, flag_no_demos, flag_no_apps, flag_no_protos, flag_no_multi, flag_no_edu)
+
+    print(' done.')
+
+    # Start work on the other regions
+    print('* Looking for English non-dupes in other regions...')
+
+    # Set up dupe lists for titles that have the same content, but different names in different regions
+    dupe_list = []
+
+    if dat_name == 'Microsoft - Xbox': dupe_list = _regional_renames.xbox_rename_list()
+    if dat_name == 'Microsoft - Xbox 360': dupe_list = _regional_renames.x360_rename_list()
+    if dat_name == 'Microsoft - Xbox One': dupe_list = _regional_renames.xbone_rename_list()
+    if dat_name == 'Nintendo - GameCube': dupe_list = _regional_renames.gamecube_rename_list()
+    if dat_name == 'Nintendo - Wii': dupe_list = _regional_renames.wii_rename_list()
+    if dat_name == 'Nintendo - Wii U': dupe_list = _regional_renames.wii_u_rename_list()
+    if dat_name == 'Panasonic - 3DO Interactive Multiplayer': dupe_list = _regional_renames.threedo_rename_list()
+    if dat_name == 'Sega - Dreamcast': dupe_list = _regional_renames.dreamcast_rename_list()
+    if dat_name == 'Sega - Mega CD & Sega CD': dupe_list = _regional_renames.segacd_rename_list()
+    if dat_name == 'Sega - Saturn': dupe_list = _regional_renames.saturn_rename_list()
+    if dat_name == 'Sony - PlayStation': dupe_list = _regional_renames.psx_rename_list()
+    if dat_name == 'Sony - PlayStation 2': dupe_list = _regional_renames.ps2_rename_list()
+    if dat_name == 'Sony - PlayStation 3': dupe_list = _regional_renames.ps3_rename_list()
+    if dat_name == 'Sony - PlayStation 4': dupe_list = _regional_renames.ps4_rename_list()
+    if dat_name == 'Sony - PlayStation Portable': dupe_list = _regional_renames.psp_rename_list()
+
+    # Find unique titles in each region
+    for i, locale in enumerate(region_list_english):
+        if i > 0:
+            unique_regional_titles[locale] = localized_titles_unique(locale, titles[locale], unique_list, dupe_list)
+
+            if unique_regional_titles[locale] != []:
+                print('  - Adding unique titles from ' + locale + '...', sep='', end='\r', flush=True)
+                for title in unique_regional_titles[locale]:
+                    unique_list.append(title)
+
+                 # Add titles to XML
+                final_title_xml = convert_to_xml(locale, unique_regional_titles, titles, final_title_xml, flag_no_demos, flag_no_apps, flag_no_protos, flag_no_multi, flag_no_edu)
+                sys.stdout.write("\033[K")
+                print('  - Adding unique titles from ' + locale + '... done.')
+
+    for i, locale in enumerate(region_list_other):
+            unique_regional_titles[locale] = localized_titles_unique(locale, titles[locale], unique_list, dupe_list)
+
+            if unique_regional_titles[locale] != []:
+                print('  - Adding unique titles from ' + locale + '...', sep='', end='\r', flush=True)
+                for title in unique_regional_titles[locale]:
+                    unique_list.append(title)
+
+                 # Add titles to XML
+                final_title_xml = convert_to_xml(locale, unique_regional_titles, titles, final_title_xml, flag_no_demos, flag_no_apps, flag_no_protos, flag_no_multi, flag_no_edu)
+                sys.stdout.write("\033[K")
+                print('  - Adding unique titles from ' + locale + '... done.')
+
+    # Stats so people can see something was done
+    new_title_count = final_title_xml.count('<game name=')
+    print('\n|  Original title count: ' + str('{:,}'.format(original_title_count)) + '\n|  Dupes and non-English titles: ' + str('{:,}'.format(original_title_count - new_title_count)) + '\n|  New title count: ' + str('{:,}'.format(new_title_count)))
+
+    # Write the dat file
+    with open(output_file_name, 'w') as output_file:
+        dat_header = header(dat_name, dat_version, dat_author, dat_url, new_title_count, False, False, False)
+        output_file.writelines(dat_header)
+        output_file.writelines(final_title_xml)
+        output_file.writelines('</datafile>')
+        output_file.close()
+
+    print(font.green + '\n* Finished writing unique English titles to "' +  font.bold + output_file_name + font.end + font.green + '".' + font.end)
+    return
+###############################################################################
+
+# Console text formatting
+# https://stackoverflow.com/questions/4842424/list-of-ansi-color-escape-sequences
+class font:
+    purple = '\033[95m'
+    cyan = '\033[96m'
+    darkcyan = '\033[36m'
+    blue = '\033[94m'
+    green = '\033[92m'
+    yellow = '\033[93m'
+    white = '\033[37m'
+    red = '\033[91m'
+    bold = '\033[1m'
+    underline = '\033[4m'
+    end = '\033[0m'
+    blink = '\033[5m'
+
+# Generic error message
+def error_instruction():
+    print('\nUSAGE:\n' + font.bold + ' python ' + os.path.basename(__file__) + ' -i input.dat -o output.dat <options>' + font.end)
+    print('\nOPTIONS:\n' + font.bold + ' -a' + font.end + '   Remove applications')
+    print(font.bold + ' -d' + font.end + '   Remove demos and coverdiscs')
+    print(font.bold + ' -e' + font.end + '   Remove educational')
+    print(font.bold + ' -m' + font.end + '   Remove multimedia')
+    print(font.bold + ' -p' + font.end + '   Remove betas and prototypes')
+    print(font.bold + ' -ra' + font.end + '  Split into regions, all languages (not checked for dupes)')
+    print(font.bold + ' -re' + font.end + '  Split into regions, English only (not checked for dupes)')
+    sys.exit()
 
 # Check user input
-user_input = check_input()
-filter_dat(user_input[0], user_input[1], user_input[2], user_input[3], user_input[4], user_input[5], user_input[6], user_input[7], user_input[8])
+def check_input():
+    error_state = False
+
+    # If no flags provided, or if -i or -o are missing
+    if len(sys.argv) == 1:
+        error_instruction()
+
+    if len([x for x in sys.argv if '-i' in x]) == 0 or len([x for x in sys.argv if '-o' in x]) == 0:
+
+        if len([x for x in sys.argv if '-i' in x]) == 0:
+            print(font.red + '* Missing -i, no input file specified' + font.end)
+
+        if len([x for x in sys.argv if '-o' in x]) == 0:
+            print(font.red + '* Missing -o, no output file specified' + font.end)
+
+        error_state = True
+
+    # Handle input, output, and invalid flags
+    for i, x in enumerate(sys.argv):
+        if x.startswith('-'):
+            if not ((x == '-i') or (x == '-o') or (x == '-a') or (x == '-d') or (x == '-e') or (x == '-m') or (x == '-p') or (x == '-ra') or (x == '-re')):
+                print(font.red + '* Invalid option ' + sys.argv[i] + font.end)
+                error_state = True
+
+        if x == '-i':
+            if i+1 == len(sys.argv) or bool(re.search('-([ioademp]|re|ra])', sys.argv[i+1])):
+                print(font.red + '* No input file specified' + font.end)
+                error_state = True
+            else:
+                input_file_name = sys.argv[i+1]
+
+                if not os.path.exists(input_file_name):
+                    print(font.red + '* Input file "' + font.bold + input_file_name + font.end + font.red + '" does not exist.' + font.end)
+                    error_state = True
+
+                if not input_file_name.endswith('.dat'):
+                    print(font.red + '* Input file must have a .dat extension' + font.end)
+                    error_state = True
+
+        if x == '-o':
+            if i+1 == len(sys.argv) or bool(re.search('-([ioademp]|re|ra])', sys.argv[i+1])):
+                print(font.red + '* No output file specified' + font.end)
+                error_state = True
+            else:
+                output_file_name = sys.argv[i+1]
+
+                if not output_file_name.endswith('.dat'):
+                    output_file_name += '.dat'
+
+    # Handle optional flags
+    flag_no_apps = True if len([x for x in sys.argv if '-a' in x]) >= 1 else False
+    flag_no_demos = True if len([x for x in sys.argv if '-d' in x]) >= 1 else False
+    flag_no_edu = True if len([x for x in sys.argv if '-e' in x]) >= 1 else False
+    flag_no_multi = True if len([x for x in sys.argv if '-m' in x]) >= 1 else False
+    flag_no_protos = True if len([x for x in sys.argv if '-p' in x]) >= 1 else False
+
+    if len([x for x in sys.argv if '-ra' in x]) > 0 and len([x for x in sys.argv if '-re' in x]) > 0:
+        print(font.red + '* The -ra and -re options can\'t be combined' + font.end)
+        error_state = True
+    else:
+        flag_regions_en = True if len([x for x in sys.argv if '-re' in x]) == 1 else False
+        flag_regions_all = True if len([x for x in sys.argv if '-ra' in x]) == 1 else False
+
+    # Exit if there was an error in user input
+    if error_state == True:
+        error_instruction()
+
+    return input_file_name, output_file_name, flag_no_demos, flag_no_apps, flag_no_protos, flag_no_multi, flag_no_edu, flag_regions_all, flag_regions_en
+
+# Creates a header for dat files
+def header(dat_name, dat_version, dat_author, dat_url, new_title_count, locale, flag_regions_all, flag_regions_en):
+    if new_title_count == False:
+        new_title_count = ' '
+    else:
+        new_title_count = ' (' + str(new_title_count) + ') '
+
+    if flag_regions_en == True:
+        description = '\n\t\t<description>' + dat_name  + new_title_count + '(' + dat_version + ') (' + locale + ') (English)</description>'
+    elif flag_regions_all == True:
+        description = '\n\t\t<description>' + dat_name  + new_title_count + '(' + dat_version + ') (' + locale + ')</description>'
+    else:
+        description = '\n\t\t<description>' + dat_name  + new_title_count + '(' + dat_version + ') (English)</description>'
+
+    header = ['<?xml version="1.0"?>',
+        '\n<!DOCTYPE datafile PUBLIC "-//Logiqx//DTD ROM Management Datafile//EN" "http://www.logiqx.com/Dats/datafile.dtd">',
+        '\n<datafile>',
+        '\n\t<header>',
+        '\n\t\t<name>' + dat_name + '</name>',
+        description,
+        '\n\t\t<version>' + dat_version + '</version>',
+        '\n\t\t<date>' + datetime.datetime.now().strftime('%Y-%m-%d %H-%M-%S') + '</date>',
+        '\n\t\t<author>' + dat_author + ' & NI+ROE</author>',
+        '\n\t\t<homepage>redump.org</homepage>',
+        '\n\t\t<url>' + dat_url + '</url>',
+        '\n\t</header>\n']
+    return header
+
+# Splits dat into regions
+def localized_titles(locale, native, soup):
+    sys.stdout.write("\033[K")
+    print('* Checking dat for regions... ' + locale, sep='', end='\r', flush=True)
+    if native == True:
+        return soup.find_all('game', {'name':re.compile('(\(' + locale + '\))')}) + soup.find_all('game', {'name':re.compile('(\(' + locale + ',.*?\))')})
+    else:
+        if locale == 'Europe':
+            # Grab all European games that don't have languages listed, as well as those that specify English
+            return soup.find_all('game', {'name':re.compile('^(?!.*(\(.*?(En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv)(,|\)))).*(\(.*?' + locale + '.*?\))')}) + soup.find_all('game', {'name':re.compile('(\(.*' + locale + '.*?\) \(En,)')})
+        else:
+            return soup.find_all('game', {'name':re.compile('(\(.*' + locale + '.*?\) \(.*?En(,|\)))')})
+
+# Finds unique titles in regions
+def localized_titles_unique (locale, titles, unique_list, dupe_list):
+    regional_titles = []
+    # Extract each title name
+    for title in titles:
+        locale_start = [m.span()[0] for m in re.finditer('(\(.*' + locale + '.*\))', title.category.parent['name'])][0]
+        locale_end = [m.span()[1] for m in re.finditer('(\(.*' + locale + '.*\))', title.category.parent['name'])][0]
+        regional_titles.append(title.category.parent['name'][:locale_end - (locale_end - locale_start + 1)])
+
+    # Find the uniques
+    unique_regional_list = [x for x in regional_titles if x not in unique_list and x not in dupe_list]
+
+    # Sort and dedupe unique_regional_list
+    unique_regional_list = sorted(unique_regional_list, key=str.lower)
+    unique_regional_temp = []
+    for i, x in enumerate(unique_regional_list):
+        if unique_regional_list[i] != unique_regional_list[i-1]:
+            unique_regional_temp.append(unique_regional_list[i])
+    unique_regional_list = unique_regional_temp
+
+    return unique_regional_list
+
+# Uses a title to match to its original XML node
+def convert_to_xml(locale, unique_regional_titles, titles, final_title_xml, flag_no_demos, flag_no_apps, flag_no_protos, flag_no_multi, flag_no_edu):
+    if unique_regional_titles[locale] != []:
+            progress = 0
+            progress_total = len(unique_regional_titles[locale])
+
+            for title in unique_regional_titles[locale]:
+                for node in titles[locale]:
+                    if bool(re.search('(^' + title + ' \()', node.category.parent['name'])):
+                        final_title_xml += filter_flags(node, flag_no_demos, flag_no_apps, flag_no_protos, flag_no_multi, flag_no_edu)
+                progress += 1
+                progress_percent = progress/progress_total*100
+                sys.stdout.write("\033[K")
+                print('  - Adding unique titles from ' + locale + '... ' + str(int(progress_percent)) + '%', sep='', end='\r', flush=True)
+    return final_title_xml
+
+# Selects what titles to output based on user selected flags
+def filter_flags(node, flag_no_demos, flag_no_apps, flag_no_protos, flag_no_multi, flag_no_edu):
+    formatted_node =''
+    if (flag_no_demos == True) and (flag_no_apps == False) and (flag_no_protos == False) and (flag_no_multi == False) and (flag_no_edu == False):
+        if str(node.category) != '<category>Demos</category>' and str(node.category) != '<category>Coverdiscs</category>':
+            formatted_node = minidom_prettify(str(node.category.parent))
+    elif (flag_no_demos == True) and (flag_no_apps == False) and (flag_no_protos == False) and (flag_no_multi == False) and (flag_no_edu == True):
+        if str(node.category) != '<category>Demos</category>' and str(node.category) != '<category>Coverdiscs</category>' and str(node.category) != '<category>Educational</category>':
+            formatted_node = minidom_prettify(str(node.category.parent))
+    elif (flag_no_demos == True) and (flag_no_apps == False) and (flag_no_protos == False) and (flag_no_multi == True) and (flag_no_edu == False):
+        if str(node.category) != '<category>Demos</category>' and str(node.category) != '<category>Coverdiscs</category>' and str(node.category) != '<category>Multimedia</category>':
+            formatted_node = minidom_prettify(str(node.category.parent))
+    elif (flag_no_demos == True) and (flag_no_apps == False) and (flag_no_protos == False) and (flag_no_multi == True) and (flag_no_edu == True):
+        if str(node.category) != '<category>Demos</category>' and str(node.category) != '<category>Coverdiscs</category>' and str(node.category) != '<category>Multimedia</category>' and str(node.category) != '<category>Educational</category>':
+            formatted_node = minidom_prettify(str(node.category.parent))
+    elif (flag_no_demos == False) and (flag_no_apps == True) and (flag_no_protos == False) and (flag_no_multi == False) and (flag_no_edu == False):
+        if str(node.category) != '<category>Applications</category>':
+            formatted_node = minidom_prettify(str(node.category.parent))
+    elif (flag_no_demos == False) and (flag_no_apps == True) and (flag_no_protos == False) and (flag_no_multi == False) and (flag_no_edu == True):
+        if str(node.category) != '<category>Applications</category>' and str(node.category) != '<category>Educational</category>':
+            formatted_node = minidom_prettify(str(node.category.parent))
+    elif (flag_no_demos == False) and (flag_no_apps == True) and (flag_no_protos == False) and (flag_no_multi == True) and (flag_no_edu == False):
+        if str(node.category) != '<category>Applications</category>' and str(node.category) != '<category>Multimedia</category>':
+            formatted_node = minidom_prettify(str(node.category.parent))
+    elif (flag_no_demos == False) and (flag_no_apps == True) and (flag_no_protos == False) and (flag_no_multi == True) and (flag_no_edu == True):
+        if str(node.category) != '<category>Applications</category>' and str(node.category) != '<category>Multimedia</category>' and str(node.category) != '<category>Educational</category>':
+            formatted_node = minidom_prettify(str(node.category.parent))
+    elif (flag_no_demos == False) and (flag_no_apps == False) and (flag_no_protos == True) and (flag_no_multi == False) and (flag_no_edu == False):
+        if str(node.category) != '<category>Preproduction</category>':
+            formatted_node = minidom_prettify(str(node.category.parent))
+    elif (flag_no_demos == False) and (flag_no_apps == False) and (flag_no_protos == True) and (flag_no_multi == False) and (flag_no_edu == True):
+        if str(node.category) != '<category>Preproduction</category>' and str(node.category) != '<category>Educational</category>':
+            formatted_node = minidom_prettify(str(node.category.parent))
+    elif (flag_no_demos == False) and (flag_no_apps == False) and (flag_no_protos == True) and (flag_no_multi == True) and (flag_no_edu == False):
+        if str(node.category) != '<category>Preproduction</category>' and str(node.category) != '<category>Multimedia</category>':
+            formatted_node = minidom_prettify(str(node.category.parent))
+    elif (flag_no_demos == False) and (flag_no_apps == False) and (flag_no_protos == True) and (flag_no_multi == True) and (flag_no_edu == True):
+        if str(node.category) != '<category>Preproduction</category>' and str(node.category) != '<category>Multimedia</category>' and str(node.category) != '<category>Educational</category>':
+            formatted_node = minidom_prettify(str(node.category.parent))
+    elif (flag_no_demos == False) and (flag_no_apps == True) and (flag_no_protos == True) and (flag_no_multi == False) and (flag_no_edu == False):
+        if str(node.category) != '<category>Preproduction</category>' and str(node.category) != '<category>Applications</category>':
+            formatted_node = minidom_prettify(str(node.category.parent))
+    elif (flag_no_demos == False) and (flag_no_apps == True) and (flag_no_protos == True) and (flag_no_multi == False) and (flag_no_edu == True):
+        if str(node.category) != '<category>Preproduction</category>' and str(node.category) != '<category>Applications</category>' and str(node.category) != '<category>Educational</category>':
+            formatted_node = minidom_prettify(str(node.category.parent))
+    elif (flag_no_demos == False) and (flag_no_apps == True) and (flag_no_protos == True) and (flag_no_multi == True) and (flag_no_edu == False):
+        if str(node.category) != '<category>Preproduction</category>' and str(node.category) != '<category>Applications</category>' and str(node.category) != '<category>Multimedia</category>':
+            formatted_node = minidom_prettify(str(node.category.parent))
+    elif (flag_no_demos == False) and (flag_no_apps == True) and (flag_no_protos == True) and (flag_no_multi == True) and (flag_no_edu == True):
+        if str(node.category) != '<category>Preproduction</category>' and str(node.category) != '<category>Applications</category>' and str(node.category) != '<category>Multimedia</category>' and str(node.category) != '<category>Educational</category>':
+            formatted_node = minidom_prettify(str(node.category.parent))
+    elif (flag_no_demos == True) and (flag_no_apps == True) and (flag_no_protos == False) and (flag_no_multi == False) and (flag_no_edu == False):
+        if str(node.category) != '<category>Applications</category>' and str(node.category) != '<category>Demos</category>' and str(node.category) != '<category>Coverdiscs</category>':
+            formatted_node = minidom_prettify(str(node.category.parent))
+    elif (flag_no_demos == True) and (flag_no_apps == True) and (flag_no_protos == False) and (flag_no_multi == False) and (flag_no_edu == True):
+        if str(node.category) != '<category>Applications</category>' and str(node.category) != '<category>Demos</category>' and str(node.category) != '<category>Coverdiscs</category>' and str(node.category) != '<category>Educational</category>':
+            formatted_node = minidom_prettify(str(node.category.parent))
+    elif (flag_no_demos == True) and (flag_no_apps == True) and (flag_no_protos == False) and (flag_no_multi == True) and (flag_no_edu == False):
+        if str(node.category) != '<category>Applications</category>' and str(node.category) != '<category>Demos</category>' and str(node.category) != '<category>Coverdiscs</category>' and str(node.category) != '<category>Multimedia</category>':
+            formatted_node = minidom_prettify(str(node.category.parent))
+    elif (flag_no_demos == True) and (flag_no_apps == True) and (flag_no_protos == False) and (flag_no_multi == True) and (flag_no_edu == True):
+        if str(node.category) != '<category>Applications</category>' and str(node.category) != '<category>Demos</category>' and str(node.category) != '<category>Coverdiscs</category>' and str(node.category) != '<category>Multimedia</category>' and str(node.category) != '<category>Educational</category>':
+            formatted_node = minidom_prettify(str(node.category.parent))
+    elif (flag_no_demos == True) and (flag_no_apps == False) and (flag_no_protos == True) and (flag_no_multi == False) and (flag_no_edu == False):
+        if str(node.category) != '<category>Preproduction</category>' and str(node.category) != '<category>Demos</category>' and str(node.category) != '<category>Coverdiscs</category>':
+            formatted_node = minidom_prettify(str(node.category.parent))
+    elif (flag_no_demos == True) and (flag_no_apps == False) and (flag_no_protos == True) and (flag_no_multi == False) and (flag_no_edu == True):
+        if str(node.category) != '<category>Preproduction</category>' and str(node.category) != '<category>Demos</category>' and str(node.category) != '<category>Coverdiscs</category>' and str(node.category) != '<category>Educational</category>':
+            formatted_node = minidom_prettify(str(node.category.parent))
+    elif (flag_no_demos == True) and (flag_no_apps == False) and (flag_no_protos == True) and (flag_no_multi == True) and (flag_no_edu == False):
+        if str(node.category) != '<category>Preproduction</category>' and str(node.category) != '<category>Demos</category>' and str(node.category) != '<category>Coverdiscs</category>' and str(node.category) != '<category>Multimedia</category>':
+            formatted_node = minidom_prettify(str(node.category.parent))
+    elif (flag_no_demos == True) and (flag_no_apps == False) and (flag_no_protos == True) and (flag_no_multi == True) and (flag_no_edu == True):
+        if str(node.category) != '<category>Preproduction</category>' and str(node.category) != '<category>Demos</category>' and str(node.category) != '<category>Coverdiscs</category>' and str(node.category) != '<category>Multimedia</category>' and str(node.category) != '<category>Educational</category>':
+            formatted_node = minidom_prettify(str(node.category.parent))
+    elif (flag_no_demos == True) and (flag_no_apps == True) and (flag_no_protos == True) and (flag_no_multi == False) and (flag_no_edu == False):
+        if str(node.category) != '<category>Applications</category>' and str(node.category) != '<category>Demos</category>' and str(node.category) != '<category>Coverdiscs</category>' and str(node.category) != '<category>Preproduction</category>':
+            formatted_node = minidom_prettify(str(node.category.parent))
+    elif (flag_no_demos == True) and (flag_no_apps == True) and (flag_no_protos == True) and (flag_no_multi == False) and (flag_no_edu == True):
+        if str(node.category) != '<category>Applications</category>' and str(node.category) != '<category>Demos</category>' and str(node.category) != '<category>Coverdiscs</category>' and str(node.category) != '<category>Preproduction</category>' and str(node.category) != '<category>Educational</category>':
+            formatted_node = minidom_prettify(str(node.category.parent))
+    elif (flag_no_demos == True) and (flag_no_apps == True) and (flag_no_protos == True) and (flag_no_multi == True) and (flag_no_edu == False):
+        if str(node.category) != '<category>Applications</category>' and str(node.category) != '<category>Demos</category>' and str(node.category) != '<category>Coverdiscs</category>' and str(node.category) != '<category>Preproduction</category>' and str(node.category) != '<category>Multimedia</category>':
+            formatted_node = minidom_prettify(str(node.category.parent))
+    elif (flag_no_demos == True) and (flag_no_apps == True) and (flag_no_protos == True) and (flag_no_multi == True) and (flag_no_edu == True):
+        if str(node.category) != '<category>Applications</category>' and str(node.category) != '<category>Demos</category>' and str(node.category) != '<category>Coverdiscs</category>' and str(node.category) != '<category>Preproduction</category>' and str(node.category) != '<category>Multimedia</category>' and str(node.category) != '<category>Educational</category>':
+            formatted_node = minidom_prettify(str(node.category.parent))
+    else:
+        formatted_node = minidom_prettify(str(node.category.parent))
+    return formatted_node
+
+# Use minidom to prettify XML for each node, because it can define indents and we need tabs
+def minidom_prettify(string):
+    doc = minidom.parseString(string)
+    doc = doc.toprettyxml(newl='', encoding=None)[22:] + '\n'
+    doc = doc.splitlines()
+
+    formatted_node=''
+
+    for line in doc:
+        formatted_node += '\t' + line.rstrip() + '\n'
+    return formatted_node
+
+
+
+
+                        #     # Split into regional dats if -r* flag is present
+                        #     if regions == True or flag_regions_en == True:
+                        #         output_file.writelines('</datafile>')
+                        #         sys.stdout.write("\033[K")
+                        #         print('* Adding titles from USA to "' + font.bold + output_file_name + font.end + '"...done.')
+
+                        #         region_split('World', 'world')
+                        #         region_split('UK', 'uk')
+                        #         region_split('Canada', 'ca')
+                        #         region_split('Australia', 'au')
+                        #         region_split('Brazil', 'br')
+                        #         region_split('Europe', 'eu')
+                        #         region_split('Asia', 'asia')
+                        #         region_split('Scandinavia', 'scandi')
+                        #         region_split('Austria', 'at')
+                        #         region_split('Belgium', 'be')
+                        #         region_split('Switzerland', 'ch')
+                        #         region_split('China', 'cn')
+                        #         region_split('Germany', 'de')
+                        #         region_split('Denmark', 'dk')
+                        #         region_split('Spain', 'es')
+                        #         region_split('Finland', 'fi')
+                        #         region_split('France', 'fr')
+                        #         region_split('Greece', 'gr')
+                        #         region_split('Croatia', 'hr')
+                        #         region_split('India', 'in')
+                        #         region_split('Italy', 'it')
+                        #         region_split('Switzerland', 'ch')
+                        #         region_split('Japan', 'jp')
+                        #         region_split('Korea', 'ko')
+                        #         region_split('Netherlands', 'nl')
+                        #         region_split('Norway', 'no')
+                        #         region_split('Poland', 'pl')
+                        #         region_split('Portugal', 'pt')
+                        #         region_split('Russia', 'ru')
+                        #         region_split('South Africa', 'sa')
+                        #         region_split('Sweden', 'se')
+
+                        #         print(font.green + '\n* Finished splitting dat into regions.' + font.end)
+                        #         sys.exit()
+
+
+
+if __name__ == '__main__':
+    main()
