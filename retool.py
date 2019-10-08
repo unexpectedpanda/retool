@@ -44,6 +44,18 @@ def main():
     flag_regions_all = user_input[7]
     flag_regions_en = user_input[8]
 
+    # Check if the output file already exists
+    if os.path.isfile(output_file_name) == True:
+        overwrite_file = ''
+        while overwrite_file != 'y' and overwrite_file != 'n':
+            overwrite_file = input('The file ' + font.bold + output_file_name + font.end + ' already exists. Do you want to overwrite it? [y/n] > ').lower()
+
+        if overwrite_file == 'n':
+            print('\nExiting Retool')
+            sys.exit()
+        elif overwrite_file == 'y':
+            print('\nOverwriting ' + font.bold + output_file_name + font.end)
+
     # Regions where English is a primary language
     region_list_english = [
         'USA',
@@ -92,6 +104,7 @@ def main():
         # Make sure the dat file isn't a CLRMAMEPro dat, if it is, check it's valid and convert it
         clrmame_header = re.findall('^clrmamepro \($.*?^\)$', checkdat, re.M|re.S)
         if clrmame_header:
+            print('file is a CLRMAMEPro dat file.')
             converted_dat = convert_clr_logiqx(clrmame_header, checkdat)
             xml_convert = converted_dat[0]
             dat_name = converted_dat[1]
@@ -286,6 +299,9 @@ def check_input():
         error_state = True
 
     # Handle input, output, and invalid flags
+    excess_i = False
+    excess_o = False
+
     for i, x in enumerate(sys.argv):
         if x.startswith('-'):
             if not ((x == '-i') or (x == '-o') or (x == '-a') or (x == '-d') or (x == '-e') or (x == '-m') or (x == '-p') or (x == '-ra') or (x == '-re')):
@@ -307,6 +323,10 @@ def check_input():
                     print(font.red + '* Input file must have a .dat extension' + font.end)
                     error_state = True
 
+            if len([x for x in sys.argv if '-i' in x]) > 1:
+                excess_i = True
+                error_state = True
+
         if x == '-o':
             if i+1 == len(sys.argv) or bool(re.search('-([ioademp]|re|ra])', sys.argv[i+1])):
                 print(font.red + '* No output file specified' + font.end)
@@ -316,6 +336,13 @@ def check_input():
 
                 if not output_file_name.endswith('.dat'):
                     output_file_name += '.dat'
+
+            if len([x for x in sys.argv if '-o' in x]) > 1:
+                excess_o = True
+                error_state = True
+
+    if excess_i == True: print(font.red + '* Can\'t have more than one -i' + font.end)
+    if excess_o == True: print(font.red + '* Can\'t have more than one -o' + font.end)
 
     # Handle optional flags
     flag_no_apps = True if len([x for x in sys.argv if '-a' in x]) >= 1 else False
