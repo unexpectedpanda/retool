@@ -156,35 +156,40 @@ def main():
     sys.stdout.write("\033[K")
     print('* Checking dat for regions... done.')
 
-    print('* Adding titles from USA...', sep='', end='', flush=True)
-
-    # Sort USA titles
-    usa_titles = []
-    for title in titles['USA']:
-        usa_titles.append(str(title.category.parent['name']))
-    usa_titles = sorted(usa_titles, key=str.lower)
-
-    # Create a list to store unique titles, and add USA titles to it
-    unique_list = []
-
-    for title in usa_titles:
-        unique_list.append(title[:title.index('(USA') - 1])
-
-    # Dedupe unique_list
-    unique_regional_titles['USA'] = []
-
-    for i, x in enumerate(unique_list):
-        if unique_list[i] != unique_list[i-1]:
-            unique_regional_titles['USA'].append(x)
-    unique_list = unique_regional_titles['USA']
-
+    # Variable that holds each title's XML. Titles get added one by one to be written to file later.
     final_title_xml=''
 
-    # Add the USA titles XML
-    for node in titles['USA']:
-        final_title_xml += filter_flags(node, flag_no_demos, flag_no_apps, flag_no_protos, flag_no_multi, flag_no_edu)
+    # Create a list to store unique titles
+    unique_list = []
 
-    print(' done.')
+    if titles['USA'] == []:
+        print('* No USA titles found...')
+    else:
+        print('* Adding titles from USA...', sep='', end='', flush=True)
+
+        # Sort USA titles
+        usa_titles = []
+        for title in titles['USA']:
+            usa_titles.append(str(title.category.parent['name']))
+        usa_titles = sorted(usa_titles, key=str.lower)
+
+        # Add USA titles to unique_list
+        for title in usa_titles:
+            unique_list.append(title[:title.index('(USA') - 1])
+
+        # Dedupe unique_list
+        unique_regional_titles['USA'] = []
+
+        for i, x in enumerate(unique_list):
+            if unique_list[i] != unique_list[i-1]:
+                unique_regional_titles['USA'].append(x)
+        unique_list = unique_regional_titles['USA']
+
+        # Add the USA titles XML
+        for node in titles['USA']:
+            final_title_xml += filter_flags(node, flag_no_demos, flag_no_apps, flag_no_protos, flag_no_multi, flag_no_edu)
+
+        print(' done.')
 
     # Start work on the other regions
     print('* Looking for English non-dupes in other regions...')
@@ -238,6 +243,11 @@ def main():
 
     # Stats so people can see something was done
     new_title_count = final_title_xml.count('<game name=')
+
+    if new_title_count == 0:
+        print(font.yellow + '\n* No English titles found, no dat file created.' + font.end)
+        sys.exit()
+
     print('\n|  Original title count: ' + str('{:,}'.format(original_title_count)) + '\n|  Dupes and non-English titles: ' + str('{:,}'.format(original_title_count - new_title_count)) + '\n|  New title count: ' + str('{:,}'.format(new_title_count)))
 
     # Write the dat file
@@ -456,12 +466,13 @@ def localized_titles_unique (locale, titles, unique_list, dupe_list):
     unique_regional_list = [x for x in regional_titles if x not in unique_list and x not in dupe_list]
 
     # Sort and dedupe unique_regional_list
-    unique_regional_list = sorted(unique_regional_list, key=str.lower)
-    unique_regional_temp = []
-    for i, x in enumerate(unique_regional_list):
-        if unique_regional_list[i] != unique_regional_list[i-1]:
-            unique_regional_temp.append(unique_regional_list[i])
-    unique_regional_list = unique_regional_temp
+    if len(unique_regional_list) > 1:
+        unique_regional_list = sorted(unique_regional_list, key=str.lower)
+        unique_regional_temp = []
+        for i, x in enumerate(unique_regional_list):
+            if  unique_regional_list[i] != unique_regional_list[i-1]:
+                unique_regional_temp.append(unique_regional_list[i])
+        unique_regional_list = unique_regional_temp
 
     return unique_regional_list
 
