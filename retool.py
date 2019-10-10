@@ -156,6 +156,24 @@ def main():
     sys.stdout.write("\033[K")
     print('* Checking dat for regions... done.')
 
+    print('* Checking dat for titles without regions... ', sep=' ', end='', flush=True)
+
+    region_list=''
+
+    for i, region in enumerate(region_list_english + region_list_other):
+        if i < len(region_list_english + region_list_other) - 1:
+            region_list += region + '|'
+        else:
+            region_list += region
+
+    titles['Unknown'] = soup.find_all('game', {'name':re.compile('^(?!.*(\(.*?(' + region_list + ').*?\))).*(.*)')})
+
+    if titles['Unknown'] == []:
+        print('none found.')
+    else:
+        print(titles['Unknown'])
+        # print('placeholder')
+
     # Variable that holds each title's XML. Titles get added one by one to be written to file later.
     final_title_xml=''
 
@@ -395,18 +413,20 @@ def convert_clr_logiqx(clrmame_header, checkdat):
         for item in clrmame_contents:
             xml_node = re.split('\n', item)
             xml_convert += '\t<game name="' + re.sub('name |(\")', '', xml_node[1].strip()) + '">\n\t\t<category>' + clrmame_category + '</category>\n\t\t<description>' + re.sub('name |(\")', '', xml_node[1].strip()) + '</description>\n'
-            for node in xml_node:
+            for i, node in enumerate(xml_node):
                 if node.strip().startswith('rom'):
+                    node = node
                     node = re.sub('^rom \( name ', '<rom name="', node.strip())
                     node = re.sub(' size ', '" size="', node.strip())
                     node = re.sub(' crc ', '" crc="', node.strip())
                     node = re.sub(' md5 ', '" md5="', node.strip())
-                    node = re.sub(' sha1 ', '" sha1="', node.strip())
+                    node = re.sub('sha1 ', '" sha1="', node.strip())
                     node = re.sub(' md5 ', '" md5="', node.strip())
-                    node = re.sub(' \)$', '">', node.strip())
+                    node = re.sub(' \)$', '" />', node.strip())
                     xml_convert += '\t\t' + node + '\n'
             xml_convert += '\t</game>\n'
         xml_convert += '</datafile>'
+        print(xml_convert)
     else:
         print(font.red + 'file isn\'t Logiqx XML or CLRMAMEPro dat.' + font.end)
         sys.exit()
