@@ -63,7 +63,8 @@ def main():
         'UK',
         'Canada',
         'Australia',
-        'Brazil' # Classic console games were in English. Modern titles might only be in Portugese these days. Keep an eye out.
+        'Brazil', # Classic console games were in English. Modern titles might only be in Portugese these days. Keep an eye out.
+        'Latin America', # Spanish, but seems to include English versions
     ]
 
     # Regions where titles may have an English version
@@ -79,11 +80,15 @@ def main():
         'Denmark',
         'Finland',
         'France',
+        'Germany',
         'Greece',
         'India',
+        'Ireland',
+        'Israel',
         'Italy',
         'Korea',
         'Netherlands',
+        'New Zealand',
         'Norway',
         'Poland',
         'Portugal',
@@ -91,8 +96,17 @@ def main():
         'South Africa',
         'Spain',
         'Sweden',
-        'Switzerland'
+        'Switzerland',
+        'Taiwan'
     ]
+
+    # Combine the region lists so we can search for titles without regions later
+    region_list=''
+    for i, region in enumerate(region_list_english + region_list_other):
+        if i < len(region_list_english + region_list_other) - 1:
+            region_list += region + '|'
+        else:
+            region_list += region
 
     # Read in the dat file
     print('* Reading dat file: "' + font.bold + input_file_name + font.end + '"')
@@ -110,7 +124,7 @@ def main():
             dat_name = converted_dat[1]
             dat_description = converted_dat[2]
             dat_author = converted_dat[3]
-            dat_url = 'Unknown'
+            dat_url = 'redump.org'
             dat_version = 'Unknown'
             soup = BeautifulSoup(xml_convert, "lxml-xml")
         else:
@@ -158,21 +172,13 @@ def main():
 
     print('* Checking dat for titles without regions... ', sep=' ', end='', flush=True)
 
-    region_list=''
-
-    for i, region in enumerate(region_list_english + region_list_other):
-        if i < len(region_list_english + region_list_other) - 1:
-            region_list += region + '|'
-        else:
-            region_list += region
-
-    titles['Unknown'] = soup.find_all('game', {'name':re.compile('^(?!.*(\(.*?(' + region_list + ').*?\))).*(.*)')})
+    # Finally, titles without regions
+    titles['Unknown'] = localized_titles(region_list, 'Unknown', soup)
 
     if titles['Unknown'] == []:
         print('none found.')
     else:
-        print(titles['Unknown'])
-        # print('placeholder')
+        print('done.')
 
     # Variable that holds each title's XML. Titles get added one by one to be written to file later.
     final_title_xml=''
@@ -259,6 +265,20 @@ def main():
                 sys.stdout.write("\033[K")
                 print('  - Adding unique titles from ' + locale + '... done.')
 
+    unique_regional_titles['Unknown'] = localized_titles_unique('Unknown', titles['Unknown'], unique_list, dupe_list)
+
+    # Find titles without regions
+    if unique_regional_titles['Unknown'] != []:
+        unknown_region_title_count = len(unique_regional_titles['Unknown'])
+        print('  - Adding unique titles without regions...', sep='', end='\r', flush=True)
+
+        # Add titles to XML
+        final_title_xml = convert_to_xml('Unknown', unique_regional_titles, titles, final_title_xml, flag_no_demos, flag_no_apps, flag_no_protos, flag_no_multi, flag_no_edu)
+        sys.stdout.write("\033[K")
+        print('  - Adding unique titles without regions... done.')
+    else:
+        unknown_region_title_count = 0
+
     # Stats so people can see something was done
     new_title_count = final_title_xml.count('<game name=')
 
@@ -266,7 +286,39 @@ def main():
         print(font.yellow + '\n* No English titles found, no dat file created.' + font.end)
         sys.exit()
 
-    print('\n|  Original title count: ' + str('{:,}'.format(original_title_count)) + '\n|  Dupes and non-English titles: ' + str('{:,}'.format(original_title_count - new_title_count)) + '\n|  New title count: ' + str('{:,}'.format(new_title_count)))
+    print('\nStats:\n○  Original title count: ' + str('{:,}'.format(original_title_count)))
+    if flag_no_apps == True:
+        apps_count = len(soup.find_all('category', string='Applications'))
+        print('-  Applications removed: ' + str('{:,}'.format(apps_count)))
+    else:
+        apps_count = 0
+    if flag_no_demos == True:
+        demos_count = len(soup.find_all('category', string='Demos')) + len(soup.find_all('category', string='Coverdiscs'))
+        print('-  Demos removed: ' + str('{:,}'.format(demos_count)))
+    else:
+        demos_count = 0
+    if flag_no_edu == True:
+        edu_count = len(soup.find_all('category', string='Educational'))
+        print('-  Educational titles removed: ' + str('{:,}'.format(edu_count)))
+    else:
+        edu_count = 0
+    if flag_no_multi == True:
+        multi_count = len(soup.find_all('category', string='Multimedia'))
+        print('-  Multimedia titles removed: ' + str('{:,}'.format(multi_count)))
+    else:
+        multi_count = 0
+    if flag_no_protos == True:
+        protos_count = len(soup.find_all('category', string='Preproduction'))
+        print('-  Prototypes and betas removed: ' + str('{:,}'.format(protos_count)))
+    else:
+        protos_count = 0
+    if unique_regional_titles['Unknown'] != []:
+        print('+  Titles without regions included (may not be English): ' + str('{:,}'.format(unknown_region_title_count)))
+
+    print('-  Dupes and non-English titles removed: ' + str('{:,}'.format(original_title_count - new_title_count -apps_count - demos_count - edu_count - multi_count - protos_count)))
+
+    print(font.bold + '---------------------------')
+    print('=  New title count: ' + str('{:,}'.format(new_title_count)) + font.end)
 
     # Write the dat file
     with open(output_file_name, 'w') as output_file:
@@ -426,7 +478,6 @@ def convert_clr_logiqx(clrmame_header, checkdat):
                     xml_convert += '\t\t' + node + '\n'
             xml_convert += '\t</game>\n'
         xml_convert += '</datafile>'
-        print(xml_convert)
     else:
         print(font.red + 'file isn\'t Logiqx XML or CLRMAMEPro dat.' + font.end)
         sys.exit()
@@ -463,9 +514,12 @@ def header(dat_name, dat_version, dat_author, dat_url, new_title_count, locale, 
 # Splits dat into regions
 def localized_titles(locale, native, soup):
     sys.stdout.write("\033[K")
-    print('* Checking dat for regions... ' + locale, sep='', end='\r', flush=True)
+    if native != 'Unknown':
+        print('* Checking dat for regions... ' + locale, sep='', end='\r', flush=True)
     if native == True:
         return soup.find_all('game', {'name':re.compile('(\(' + locale + '\))')}) + soup.find_all('game', {'name':re.compile('(\(' + locale + ',.*?\))')})
+    elif native == 'Unknown':
+        return soup.find_all('game', {'name':re.compile('^(?!.*(\(.*?(' + locale + ').*?\))).*(.*)')})
     else:
         if locale == 'Europe':
             # Grab all European games that don't have languages listed, as well as those that specify English
@@ -478,9 +532,12 @@ def localized_titles_unique (locale, titles, unique_list, dupe_list):
     regional_titles = []
     # Extract each title name
     for title in titles:
-        locale_start = [m.span()[0] for m in re.finditer('(\(.*' + locale + '.*\))', title.category.parent['name'])][0]
-        locale_end = [m.span()[1] for m in re.finditer('(\(.*' + locale + '.*\))', title.category.parent['name'])][0]
-        regional_titles.append(title.category.parent['name'][:locale_end - (locale_end - locale_start + 1)])
+        if locale !='Unknown':
+            locale_start = [m.span()[0] for m in re.finditer('(\(.*' + locale + '.*\))', title.category.parent['name'])][0]
+            locale_end = [m.span()[1] for m in re.finditer('(\(.*' + locale + '.*\))', title.category.parent['name'])][0]
+            regional_titles.append(title.category.parent['name'][:locale_end - (locale_end - locale_start + 1)])
+        else:
+            regional_titles.append(title.category.parent['name'])
 
     # Find the uniques
     unique_regional_list = [x for x in regional_titles if x not in unique_list and x not in dupe_list]
@@ -504,7 +561,9 @@ def convert_to_xml(locale, unique_regional_titles, titles, final_title_xml, flag
 
             for title in unique_regional_titles[locale]:
                 for node in titles[locale]:
-                    if bool(re.search('(^' + title + ' \()', node.category.parent['name'])):
+                    if locale != 'Unknown' and bool(re.search('(^' + title + ' \()', node.category.parent['name'])):
+                        final_title_xml += filter_flags(node, flag_no_demos, flag_no_apps, flag_no_protos, flag_no_multi, flag_no_edu)
+                    elif locale == 'Unknown' and bool(re.search('(^' + title + ')', node.category.parent['name'])):
                         final_title_xml += filter_flags(node, flag_no_demos, flag_no_apps, flag_no_protos, flag_no_multi, flag_no_edu)
                 progress += 1
                 progress_percent = progress/progress_total*100
