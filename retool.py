@@ -574,91 +574,19 @@ def convert_to_xml(locale, unique_regional_titles, titles, final_title_xml, flag
 # Selects what titles to output based on user selected flags
 def filter_flags(node, flag_no_demos, flag_no_apps, flag_no_protos, flag_no_multi, flag_no_edu):
     formatted_node =''
-    if (flag_no_demos == True) and (flag_no_apps == False) and (flag_no_protos == False) and (flag_no_multi == False) and (flag_no_edu == False):
-        if str(node.category) != '<category>Demos</category>' and str(node.category) != '<category>Coverdiscs</category>':
-            formatted_node = minidom_prettify(str(node.category.parent))
-    elif (flag_no_demos == True) and (flag_no_apps == False) and (flag_no_protos == False) and (flag_no_multi == False) and (flag_no_edu == True):
-        if str(node.category) != '<category>Demos</category>' and str(node.category) != '<category>Coverdiscs</category>' and str(node.category) != '<category>Educational</category>':
-            formatted_node = minidom_prettify(str(node.category.parent))
-    elif (flag_no_demos == True) and (flag_no_apps == False) and (flag_no_protos == False) and (flag_no_multi == True) and (flag_no_edu == False):
-        if str(node.category) != '<category>Demos</category>' and str(node.category) != '<category>Coverdiscs</category>' and str(node.category) != '<category>Multimedia</category>':
-            formatted_node = minidom_prettify(str(node.category.parent))
-    elif (flag_no_demos == True) and (flag_no_apps == False) and (flag_no_protos == False) and (flag_no_multi == True) and (flag_no_edu == True):
-        if str(node.category) != '<category>Demos</category>' and str(node.category) != '<category>Coverdiscs</category>' and str(node.category) != '<category>Multimedia</category>' and str(node.category) != '<category>Educational</category>':
-            formatted_node = minidom_prettify(str(node.category.parent))
-    elif (flag_no_demos == False) and (flag_no_apps == True) and (flag_no_protos == False) and (flag_no_multi == False) and (flag_no_edu == False):
-        if str(node.category) != '<category>Applications</category>':
-            formatted_node = minidom_prettify(str(node.category.parent))
-    elif (flag_no_demos == False) and (flag_no_apps == True) and (flag_no_protos == False) and (flag_no_multi == False) and (flag_no_edu == True):
-        if str(node.category) != '<category>Applications</category>' and str(node.category) != '<category>Educational</category>':
-            formatted_node = minidom_prettify(str(node.category.parent))
-    elif (flag_no_demos == False) and (flag_no_apps == True) and (flag_no_protos == False) and (flag_no_multi == True) and (flag_no_edu == False):
-        if str(node.category) != '<category>Applications</category>' and str(node.category) != '<category>Multimedia</category>':
-            formatted_node = minidom_prettify(str(node.category.parent))
-    elif (flag_no_demos == False) and (flag_no_apps == True) and (flag_no_protos == False) and (flag_no_multi == True) and (flag_no_edu == True):
-        if str(node.category) != '<category>Applications</category>' and str(node.category) != '<category>Multimedia</category>' and str(node.category) != '<category>Educational</category>':
-            formatted_node = minidom_prettify(str(node.category.parent))
-    elif (flag_no_demos == False) and (flag_no_apps == False) and (flag_no_protos == True) and (flag_no_multi == False) and (flag_no_edu == False):
-        if str(node.category) != '<category>Preproduction</category>':
-            formatted_node = minidom_prettify(str(node.category.parent))
-    elif (flag_no_demos == False) and (flag_no_apps == False) and (flag_no_protos == True) and (flag_no_multi == False) and (flag_no_edu == True):
-        if str(node.category) != '<category>Preproduction</category>' and str(node.category) != '<category>Educational</category>':
-            formatted_node = minidom_prettify(str(node.category.parent))
-    elif (flag_no_demos == False) and (flag_no_apps == False) and (flag_no_protos == True) and (flag_no_multi == True) and (flag_no_edu == False):
-        if str(node.category) != '<category>Preproduction</category>' and str(node.category) != '<category>Multimedia</category>':
-            formatted_node = minidom_prettify(str(node.category.parent))
-    elif (flag_no_demos == False) and (flag_no_apps == False) and (flag_no_protos == True) and (flag_no_multi == True) and (flag_no_edu == True):
-        if str(node.category) != '<category>Preproduction</category>' and str(node.category) != '<category>Multimedia</category>' and str(node.category) != '<category>Educational</category>':
-            formatted_node = minidom_prettify(str(node.category.parent))
-    elif (flag_no_demos == False) and (flag_no_apps == True) and (flag_no_protos == True) and (flag_no_multi == False) and (flag_no_edu == False):
-        if str(node.category) != '<category>Preproduction</category>' and str(node.category) != '<category>Applications</category>':
-            formatted_node = minidom_prettify(str(node.category.parent))
-    elif (flag_no_demos == False) and (flag_no_apps == True) and (flag_no_protos == True) and (flag_no_multi == False) and (flag_no_edu == True):
-        if str(node.category) != '<category>Preproduction</category>' and str(node.category) != '<category>Applications</category>' and str(node.category) != '<category>Educational</category>':
-            formatted_node = minidom_prettify(str(node.category.parent))
-    elif (flag_no_demos == False) and (flag_no_apps == True) and (flag_no_protos == True) and (flag_no_multi == True) and (flag_no_edu == False):
-        if str(node.category) != '<category>Preproduction</category>' and str(node.category) != '<category>Applications</category>' and str(node.category) != '<category>Multimedia</category>':
-            formatted_node = minidom_prettify(str(node.category.parent))
-    elif (flag_no_demos == False) and (flag_no_apps == True) and (flag_no_protos == True) and (flag_no_multi == True) and (flag_no_edu == True):
-        if str(node.category) != '<category>Preproduction</category>' and str(node.category) != '<category>Applications</category>' and str(node.category) != '<category>Multimedia</category>' and str(node.category) != '<category>Educational</category>':
-            formatted_node = minidom_prettify(str(node.category.parent))
-    elif (flag_no_demos == True) and (flag_no_apps == True) and (flag_no_protos == False) and (flag_no_multi == False) and (flag_no_edu == False):
-        if str(node.category) != '<category>Applications</category>' and str(node.category) != '<category>Demos</category>' and str(node.category) != '<category>Coverdiscs</category>':
-            formatted_node = minidom_prettify(str(node.category.parent))
-    elif (flag_no_demos == True) and (flag_no_apps == True) and (flag_no_protos == False) and (flag_no_multi == False) and (flag_no_edu == True):
-        if str(node.category) != '<category>Applications</category>' and str(node.category) != '<category>Demos</category>' and str(node.category) != '<category>Coverdiscs</category>' and str(node.category) != '<category>Educational</category>':
-            formatted_node = minidom_prettify(str(node.category.parent))
-    elif (flag_no_demos == True) and (flag_no_apps == True) and (flag_no_protos == False) and (flag_no_multi == True) and (flag_no_edu == False):
-        if str(node.category) != '<category>Applications</category>' and str(node.category) != '<category>Demos</category>' and str(node.category) != '<category>Coverdiscs</category>' and str(node.category) != '<category>Multimedia</category>':
-            formatted_node = minidom_prettify(str(node.category.parent))
-    elif (flag_no_demos == True) and (flag_no_apps == True) and (flag_no_protos == False) and (flag_no_multi == True) and (flag_no_edu == True):
-        if str(node.category) != '<category>Applications</category>' and str(node.category) != '<category>Demos</category>' and str(node.category) != '<category>Coverdiscs</category>' and str(node.category) != '<category>Multimedia</category>' and str(node.category) != '<category>Educational</category>':
-            formatted_node = minidom_prettify(str(node.category.parent))
-    elif (flag_no_demos == True) and (flag_no_apps == False) and (flag_no_protos == True) and (flag_no_multi == False) and (flag_no_edu == False):
-        if str(node.category) != '<category>Preproduction</category>' and str(node.category) != '<category>Demos</category>' and str(node.category) != '<category>Coverdiscs</category>':
-            formatted_node = minidom_prettify(str(node.category.parent))
-    elif (flag_no_demos == True) and (flag_no_apps == False) and (flag_no_protos == True) and (flag_no_multi == False) and (flag_no_edu == True):
-        if str(node.category) != '<category>Preproduction</category>' and str(node.category) != '<category>Demos</category>' and str(node.category) != '<category>Coverdiscs</category>' and str(node.category) != '<category>Educational</category>':
-            formatted_node = minidom_prettify(str(node.category.parent))
-    elif (flag_no_demos == True) and (flag_no_apps == False) and (flag_no_protos == True) and (flag_no_multi == True) and (flag_no_edu == False):
-        if str(node.category) != '<category>Preproduction</category>' and str(node.category) != '<category>Demos</category>' and str(node.category) != '<category>Coverdiscs</category>' and str(node.category) != '<category>Multimedia</category>':
-            formatted_node = minidom_prettify(str(node.category.parent))
-    elif (flag_no_demos == True) and (flag_no_apps == False) and (flag_no_protos == True) and (flag_no_multi == True) and (flag_no_edu == True):
-        if str(node.category) != '<category>Preproduction</category>' and str(node.category) != '<category>Demos</category>' and str(node.category) != '<category>Coverdiscs</category>' and str(node.category) != '<category>Multimedia</category>' and str(node.category) != '<category>Educational</category>':
-            formatted_node = minidom_prettify(str(node.category.parent))
-    elif (flag_no_demos == True) and (flag_no_apps == True) and (flag_no_protos == True) and (flag_no_multi == False) and (flag_no_edu == False):
-        if str(node.category) != '<category>Applications</category>' and str(node.category) != '<category>Demos</category>' and str(node.category) != '<category>Coverdiscs</category>' and str(node.category) != '<category>Preproduction</category>':
-            formatted_node = minidom_prettify(str(node.category.parent))
-    elif (flag_no_demos == True) and (flag_no_apps == True) and (flag_no_protos == True) and (flag_no_multi == False) and (flag_no_edu == True):
-        if str(node.category) != '<category>Applications</category>' and str(node.category) != '<category>Demos</category>' and str(node.category) != '<category>Coverdiscs</category>' and str(node.category) != '<category>Preproduction</category>' and str(node.category) != '<category>Educational</category>':
-            formatted_node = minidom_prettify(str(node.category.parent))
-    elif (flag_no_demos == True) and (flag_no_apps == True) and (flag_no_protos == True) and (flag_no_multi == True) and (flag_no_edu == False):
-        if str(node.category) != '<category>Applications</category>' and str(node.category) != '<category>Demos</category>' and str(node.category) != '<category>Coverdiscs</category>' and str(node.category) != '<category>Preproduction</category>' and str(node.category) != '<category>Multimedia</category>':
-            formatted_node = minidom_prettify(str(node.category.parent))
-    elif (flag_no_demos == True) and (flag_no_apps == True) and (flag_no_protos == True) and (flag_no_multi == True) and (flag_no_edu == True):
-        if str(node.category) != '<category>Applications</category>' and str(node.category) != '<category>Demos</category>' and str(node.category) != '<category>Coverdiscs</category>' and str(node.category) != '<category>Preproduction</category>' and str(node.category) != '<category>Multimedia</category>' and str(node.category) != '<category>Educational</category>':
-            formatted_node = minidom_prettify(str(node.category.parent))
-    else:
+    regex_string = ''
+    if flag_no_demos == True: regex_string += '|<category>Demos<\/category>|<category>Coverdiscs<\/category>|'
+    if flag_no_apps == True: regex_string += '|<category>Applications<\/category>|'
+    if flag_no_protos == True: regex_string += '|<category>Preproduction<\/category>|'
+    if flag_no_multi == True: regex_string += '|<category>Multimedia<\/category>|'
+    if flag_no_edu == True: regex_string += '|<category>Educational<\/category>|'
+
+    regex_string = re.sub('\|\|', '|', regex_string)
+    regex_string = regex_string[1:-1]
+
+    if not bool(re.search('(' + regex_string + ')', str(node.category))):
+        formatted_node = minidom_prettify(str(node.category.parent))
+    elif (flag_no_demos == False and flag_no_apps == False and flag_no_protos == False and flag_no_multi == False and flag_no_edu == False):
         formatted_node = minidom_prettify(str(node.category.parent))
     return formatted_node
 
