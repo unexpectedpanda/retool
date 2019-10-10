@@ -16,7 +16,7 @@ from time import strftime
 import importlib # For bringing in renamed lists
 import _regional_renames # Duplicate image titles that have different names in different regions
 
-version_number = '0.2'
+version_number = '0.3'
 
 def main():
     # Initial splash screen
@@ -63,8 +63,10 @@ def main():
         'UK',
         'Canada',
         'Australia',
+        'New Zealand',
+        'Ireland'
         'Brazil', # Classic console games were in English. Modern titles might only be in Portugese these days. Keep an eye out.
-        'Latin America', # Spanish, but seems to include English versions
+        'Latin America', # Generally Spanish, but seems to include English versions
     ]
 
     # Regions where titles may have an English version
@@ -83,12 +85,10 @@ def main():
         'Germany',
         'Greece',
         'India',
-        'Ireland',
         'Israel',
         'Italy',
         'Korea',
         'Netherlands',
-        'New Zealand',
         'Norway',
         'Poland',
         'Portugal',
