@@ -9,6 +9,7 @@
 import os
 import sys
 import re # For regular expressions
+import inspect
 from xml.dom import minidom # For prettier XML than BeautifulSoup can create
 from bs4 import BeautifulSoup, Doctype # For XML parsing
 import datetime
@@ -16,7 +17,7 @@ from time import strftime
 import importlib # For bringing in renamed lists
 import _regional_renames # Duplicate image titles that have different names in different regions
 
-version_number = '0.3'
+version_number = '0.31'
 
 def main():
     # Initial splash screen
@@ -36,6 +37,7 @@ def main():
 
     input_file_name = user_input[0]
     output_file_name = user_input[1]
+
     flag_no_demos = user_input[2]
     flag_no_apps = user_input[3]
     flag_no_protos = user_input[4]
@@ -64,7 +66,7 @@ def main():
         'Canada',
         'Australia',
         'New Zealand',
-        'Ireland'
+        'Ireland',
         'Brazil', # Classic console games were in English. Modern titles might only be in Portugese these days. Keep an eye out.
         'Latin America', # Generally Spanish, but seems to include English versions
     ]
@@ -155,7 +157,7 @@ def main():
         # Find out how many titles are in the dat file
         original_title_count = len(soup.find_all('game'))
 
-    # Store regions in an object
+    # Store regions in a dictionary
     titles = {}
     unique_regional_titles = {}
 
@@ -193,8 +195,10 @@ def main():
 
         # Sort USA titles
         usa_titles = []
+        usa_titles_2 = {}
         for title in titles['USA']:
             usa_titles.append(str(title.category.parent['name']))
+
         usa_titles = sorted(usa_titles, key=str.lower)
 
         # Add USA titles to unique_list
@@ -242,9 +246,9 @@ def main():
         if i > 0:
             unique_regional_titles[locale] = localized_titles_unique(locale, titles[locale], unique_list, dupe_list)
 
-            if unique_regional_titles[locale] != []:
+            if unique_regional_titles[locale]['unique_titles'] != []:
                 print('  - Adding unique titles from ' + locale + '...', sep='', end='\r', flush=True)
-                for title in unique_regional_titles[locale]:
+                for title in unique_regional_titles[locale]['unique_titles']:
                     unique_list.append(title)
 
                  # Add titles to XML
@@ -255,9 +259,9 @@ def main():
     for i, locale in enumerate(region_list_other):
             unique_regional_titles[locale] = localized_titles_unique(locale, titles[locale], unique_list, dupe_list)
 
-            if unique_regional_titles[locale] != []:
+            if unique_regional_titles[locale]['unique_titles'] != []:
                 print('  - Adding unique titles from ' + locale + '...', sep='', end='\r', flush=True)
-                for title in unique_regional_titles[locale]:
+                for title in unique_regional_titles[locale]['unique_titles']:
                     unique_list.append(title)
 
                  # Add titles to XML
@@ -268,8 +272,8 @@ def main():
     unique_regional_titles['Unknown'] = localized_titles_unique('Unknown', titles['Unknown'], unique_list, dupe_list)
 
     # Find titles without regions
-    if unique_regional_titles['Unknown'] != []:
-        unknown_region_title_count = len(unique_regional_titles['Unknown'])
+    if len(unique_regional_titles['Unknown']) > 1:
+        unknown_region_title_count = len(unique_regional_titles['Unknown']['unique_titles'])
         print('  - Adding unique titles without regions...', sep='', end='\r', flush=True)
 
         # Add titles to XML
@@ -312,7 +316,7 @@ def main():
         print('-  Prototypes and betas removed: ' + str('{:,}'.format(protos_count)))
     else:
         protos_count = 0
-    if unique_regional_titles['Unknown'] != []:
+    if len(unique_regional_titles['Unknown']) > 1:
         print('+  Titles without regions included (may not be English): ' + str('{:,}'.format(unknown_region_title_count)))
 
     print('-  Dupes and non-English titles removed: ' + str('{:,}'.format(original_title_count - new_title_count -apps_count - demos_count - edu_count - multi_count - protos_count)))
@@ -442,7 +446,7 @@ def check_input():
     if error_state == True:
         error_instruction()
 
-    return input_file_name, output_file_name, flag_no_demos, flag_no_apps, flag_no_protos, flag_no_multi, flag_no_edu, flag_regions_all, flag_regions_en
+    return UserInput(input_file_name, output_file_name, flag_no_demos, flag_no_apps, flag_no_protos, flag_no_multi, flag_no_edu, flag_regions_all, flag_regions_en)
 
 # Converts CLRMAMEPro format to XML
 def convert_clr_logiqx(clrmame_header, checkdat):
@@ -511,6 +515,35 @@ def header(dat_name, dat_version, dat_author, dat_url, new_title_count, locale, 
         '\n\t</header>\n']
     return header
 
+#Establish a class for user input
+class UserInput:
+    def __init__(self, file_input, file_output, no_demos, no_apps, no_protos, no_multi, no_edu, regions_all, regions_en):
+        self.file_input = file_input
+        self.file_output = file_output
+        self.no_demos = no_demos
+        self.no_apps = no_apps
+        self.no_protos = no_protos
+        self.no_multi = no_multi
+        self.no_edu = no_edu
+        self.regions_all = regions_all
+        self.regions_en = regions_en
+
+# Establish a class for title data
+class DatNode:
+    def __init__(self, full_title, category, description, roms):
+        self.full_title = full_title
+        self.category = category
+        self.description = description
+        self.roms = roms
+
+class DatNodeRom:
+    def __init__(self, rom, crc, md5, name, sha1, size):
+        self.crc = crc
+        self.md5 = md5
+        self.name = name
+        self.sha1 = sha1
+        self.size = size
+
 # Splits dat into regions
 def localized_titles(locale, native, soup):
     sys.stdout.write("\033[K")
@@ -530,14 +563,32 @@ def localized_titles(locale, native, soup):
 # Finds unique titles in regions
 def localized_titles_unique (locale, titles, unique_list, dupe_list):
     regional_titles = []
+    regional_titles_data = {}
     # Extract each title name
     for title in titles:
         if locale !='Unknown':
             locale_start = [m.span()[0] for m in re.finditer('(\(.*' + locale + '.*\))', title.category.parent['name'])][0]
             locale_end = [m.span()[1] for m in re.finditer('(\(.*' + locale + '.*\))', title.category.parent['name'])][0]
-            regional_titles.append(title.category.parent['name'][:locale_end - (locale_end - locale_start + 1)])
+            raw_title = title.category.parent['name'][:locale_end - (locale_end - locale_start + 1)]
         else:
-            regional_titles.append(title.category.parent['name'])
+            raw_title = title.category.parent['name']
+        regional_titles.append(raw_title)
+
+        # Build a dictionary so we don't have to go searching the XML again later
+        roms = title.findChildren('rom', recursive=False)
+        newroms = []
+        for rom in roms:
+                newroms.append(DatNodeRom('rom', rom['crc'], rom['md5'], rom['name'], rom['sha1'], rom['size']))
+
+        regional_titles_data[raw_title] = DatNode(str(title.category.parent['name']), title.category.contents[0], title.description.contents[0], newroms)
+
+        # print('\n' + font.bold + '■  ' + raw_title + font.end)
+        # print('   └ ' + str(vars(regional_titles_data[raw_title])))
+        # for i, rom in enumerate(regional_titles_data[raw_title].roms):
+        #     if i == len(regional_titles_data[raw_title].roms) - 1:
+        #         print('        └ ' + str(vars(rom)))
+        #     else:
+        #         print('        ├ ' + str(vars(rom)))
 
     # Find the uniques
     unique_regional_list = [x for x in regional_titles if x not in unique_list and x not in dupe_list]
@@ -551,7 +602,22 @@ def localized_titles_unique (locale, titles, unique_list, dupe_list):
                 unique_regional_temp.append(unique_regional_list[i])
         unique_regional_list = unique_regional_temp
 
-    return unique_regional_list
+    # Trim the dictionary so only unique titles are in there
+    regional_titles_data_temp = {}
+
+    for x in unique_regional_list:
+        if x in regional_titles_data:
+            regional_titles_data_temp[x] = regional_titles_data[x]
+
+    regional_titles_data = regional_titles_data_temp
+
+    # Add unique list to the dictionary
+    regional_titles_data['unique_titles'] = unique_regional_list
+
+    # if len(unique_regional_list) > 0:
+    #     print('These numbers should match: ' + str(len(unique_regional_list)) + ', ' + str(len(regional_titles_data) - 1))
+
+    return regional_titles_data
 
 # Uses a title to match to its original XML node
 def convert_to_xml(locale, unique_regional_titles, titles, final_title_xml, flag_no_demos, flag_no_apps, flag_no_protos, flag_no_multi, flag_no_edu):
