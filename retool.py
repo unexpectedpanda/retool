@@ -10,7 +10,6 @@ import os
 import sys
 import re # For regular expressions
 import inspect
-from xml.dom import minidom # For prettier XML than BeautifulSoup can create
 from bs4 import BeautifulSoup, Doctype # For XML parsing
 import datetime
 from time import strftime
@@ -522,6 +521,7 @@ def localized_titles(locale, native, soup):
 def localized_titles_unique (locale, titles, unique_list, dupe_list, user_input):
     regional_titles = []
     regional_titles_data = {}
+
     # Extract each title name
     for title in titles:
         if locale !='Unknown':
@@ -545,15 +545,22 @@ def localized_titles_unique (locale, titles, unique_list, dupe_list, user_input)
         for rom in roms:
                 newroms.append(DatNodeRom('rom', rom['crc'], rom['md5'], rom['name'], rom['sha1'], rom['size']))
 
-        regional_titles_data[raw_title] = DatNode(str(title.category.parent['name']), title.category.contents[0], title.description.contents[0], newroms)
+        # Check that there isn't multiple discs or revisions
+        if regional_titles_data.get(raw_title, -1) != -1:
+            regional_titles_data[raw_title].append(DatNode(str(title.category.parent['name']), title.category.contents[0], title.description.contents[0], newroms))
+        else:
+            regional_titles_data[raw_title] = [DatNode(str(title.category.parent['name']), title.category.contents[0], title.description.contents[0], newroms)]
 
-        # print('\n' + font.bold + '■  ' + raw_title + font.end)
-        # print('   └ ' + str(vars(regional_titles_data[raw_title])))
-        # for i, rom in enumerate(regional_titles_data[raw_title].roms):
-        #     if i == len(regional_titles_data[raw_title].roms) - 1:
-        #         print('        └ ' + str(vars(rom)))
-        #     else:
-        #         print('        ├ ' + str(vars(rom)))
+        # if raw_title == 'Cy Girls':
+        #     print(len(regional_titles_data[raw_title]))
+        #     print('\n' + font.bold + '■  ' + raw_title + font.end)
+        #     for title in regional_titles_data[raw_title]:
+        #         print('   └ ' + str(vars(title)))
+        #         for i, rom in enumerate(title.roms):
+        #             if i == len(title.roms) - 1:
+        #                 print('        └ ' + str(vars(rom)))
+        #             else:
+        #                 print('        ├ ' + str(vars(rom)))
 
     # Find the uniques
     unique_regional_list = [x for x in regional_titles if x not in unique_list and x not in dupe_list]
@@ -592,50 +599,19 @@ def convert_to_xml(locale, unique_regional_titles, titles, final_title_xml, user
 
             for title in unique_regional_titles[locale]:
                 if title != 'unique_titles':
-                    final_title_xml += '\t<game name="' + unique_regional_titles[locale][title].full_title + '">'
-                    final_title_xml += '\n\t\t<category>' + unique_regional_titles[locale][title].category + '</category>'
-                    final_title_xml += '\n\t\t<description>' + unique_regional_titles[locale][title].description + '</description>'
-                    for i, rom in enumerate(unique_regional_titles[locale][title].roms):
-                        final_title_xml += '\n\t\t<rom crc="' + rom.crc + '" md5="' + rom.md5 + '" name="' + rom.name + '" sha1="' + rom.sha1 + '" size="' + rom.size + '"/>'
-                    final_title_xml += '\n\t</game>\n'
+                    for subtitle in unique_regional_titles[locale][title]:
+                        final_title_xml += '\t<game name="' + subtitle.full_title + '">'
+                        final_title_xml += '\n\t\t<category>' + subtitle.category + '</category>'
+                        final_title_xml += '\n\t\t<description>' + subtitle.description + '</description>'
+                        for rom in subtitle.roms:
+                            final_title_xml += '\n\t\t<rom crc="' + rom.crc + '" md5="' + rom.md5 + '" name="' + rom.name + '" sha1="' + rom.sha1 + '" size="' + rom.size + '"/>'
+                        final_title_xml += '\n\t</game>\n'
 
                 progress += 1
                 progress_percent = progress/progress_total*100
                 sys.stdout.write("\033[K")
                 print('  - Adding unique titles from ' + locale + '... ' + str(int(progress_percent)) + '%', sep='', end='\r', flush=True)
     return final_title_xml
-
-# Selects what titles to output based on user selected flags
-# def filter_flags(node, user_input):
-#     formatted_node =''
-#     # regex_string = ''
-#     # if user_input.no_demos == True: regex_string += '|<category>Demos<\/category>|<category>Coverdiscs<\/category>|'
-#     # if user_input.no_apps == True: regex_string += '|<category>Applications<\/category>|'
-#     # if user_input.no_protos == True: regex_string += '|<category>Preproduction<\/category>|'
-#     # if user_input.no_multi == True: regex_string += '|<category>Multimedia<\/category>|'
-#     # if user_input.no_edu == True: regex_string += '|<category>Educational<\/category>|'
-
-#     # regex_string = re.sub('\|\|', '|', regex_string)
-#     # regex_string = regex_string[1:-1]
-
-#     # if not bool(re.search('(' + regex_string + ')', str(node.category))):
-#     #     formatted_node = minidom_prettify(str(node.category.parent))
-#     # elif (user_input.no_demos == False and user_input.no_apps == False and user_input.no_protos == False and user_input.no_multi == False and user_input.no_edu == False):
-#     #     formatted_node = minidom_prettify(str(node.category.parent))
-#     formatted_node = minidom_prettify(str(node.category.parent))
-#     return formatted_node
-
-# Use minidom to prettify XML for each node, because it can define indents and we need tabs
-def minidom_prettify(string):
-    doc = minidom.parseString(string)
-    doc = doc.toprettyxml(newl='', encoding=None)[22:] + '\n'
-    doc = doc.splitlines()
-
-    formatted_node=''
-
-    for line in doc:
-        formatted_node += '\t' + line.rstrip() + '\n'
-    return formatted_node
 
 if __name__ == '__main__':
     main()
