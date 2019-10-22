@@ -204,7 +204,7 @@ def main():
 
         # Add the USA titles XML
         for node in titles['USA']:
-            final_title_xml += filter_flags(node, user_input)
+            final_title_xml += minidom_prettify(str(node.category.parent))
 
         print(' done.')
 
@@ -233,7 +233,7 @@ def main():
     # Find unique titles in each region
     for i, locale in enumerate(region_list_english):
         if i > 0:
-            unique_regional_titles[locale] = localized_titles_unique(locale, titles[locale], unique_list, dupe_list)
+            unique_regional_titles[locale] = localized_titles_unique(locale, titles[locale], unique_list, dupe_list, user_input)
 
             if unique_regional_titles[locale]['unique_titles'] != []:
                 print('  - Adding unique titles from ' + locale + '...', sep='', end='\r', flush=True)
@@ -246,7 +246,7 @@ def main():
                 print('  - Adding unique titles from ' + locale + '... done.')
 
     for i, locale in enumerate(region_list_other):
-            unique_regional_titles[locale] = localized_titles_unique(locale, titles[locale], unique_list, dupe_list)
+            unique_regional_titles[locale] = localized_titles_unique(locale, titles[locale], unique_list, dupe_list, user_input)
 
             if unique_regional_titles[locale]['unique_titles'] != []:
                 print('  - Adding unique titles from ' + locale + '...', sep='', end='\r', flush=True)
@@ -258,7 +258,7 @@ def main():
                 sys.stdout.write("\033[K")
                 print('  - Adding unique titles from ' + locale + '... done.')
 
-    unique_regional_titles['Unknown'] = localized_titles_unique('Unknown', titles['Unknown'], unique_list, dupe_list)
+    unique_regional_titles['Unknown'] = localized_titles_unique('Unknown', titles['Unknown'], unique_list, dupe_list, user_input)
 
     # Find titles without regions
     if len(unique_regional_titles['Unknown']) > 1:
@@ -550,7 +550,7 @@ def localized_titles(locale, native, soup):
             return soup.find_all('game', {'name':re.compile('(\(.*' + locale + '.*?\) \(.*?En(,|\)))')})
 
 # Finds unique titles in regions
-def localized_titles_unique (locale, titles, unique_list, dupe_list):
+def localized_titles_unique (locale, titles, unique_list, dupe_list, user_input):
     regional_titles = []
     regional_titles_data = {}
     # Extract each title name
@@ -562,6 +562,13 @@ def localized_titles_unique (locale, titles, unique_list, dupe_list):
         else:
             raw_title = title.category.parent['name']
         regional_titles.append(raw_title)
+
+        # Filter out titles based on user input flags
+        if user_input.no_demos == True and (title.category.contents[0] == 'Demos' or title.category.contents[0] == 'Coverdiscs'): continue
+        if user_input.no_apps == True and (title.category.contents[0] == 'Applications'): continue
+        if user_input.no_protos == True and (title.category.contents[0] == 'Preproduction'): continue
+        if user_input.no_multi == True and (title.category.contents[0] == 'Multimedia'): continue
+        if user_input.no_edu == True and (title.category.contents[0] == 'Educational'): continue
 
         # Build a dictionary so we don't have to go searching the XML again later
         roms = title.findChildren('rom', recursive=False)
@@ -615,11 +622,14 @@ def convert_to_xml(locale, unique_regional_titles, titles, final_title_xml, user
             progress_total = len(unique_regional_titles[locale])
 
             for title in unique_regional_titles[locale]:
-                for node in titles[locale]:
-                    if locale != 'Unknown' and bool(re.search('(^' + title + ' \()', node.category.parent['name'])):
-                        final_title_xml += filter_flags(node, user_input)
-                    elif locale == 'Unknown' and bool(re.search('(^' + title + ')', node.category.parent['name'])):
-                        final_title_xml += filter_flags(node, user_input)
+                if title != 'unique_titles':
+                    final_title_xml += '\t<game name="' + unique_regional_titles[locale][title].full_title + '">'
+                    final_title_xml += '\n\t\t<category>' + unique_regional_titles[locale][title].category + '</category>'
+                    final_title_xml += '\n\t\t<description>' + unique_regional_titles[locale][title].description + '</description>'
+                    for i, rom in enumerate(unique_regional_titles[locale][title].roms):
+                        final_title_xml += '\n\t\t<rom crc="' + rom.crc + '" md5="' + rom.md5 + '" name="' + rom.name + '" sha1="' + rom.sha1 + '" size="' + rom.size + '"/>'
+                    final_title_xml += '\n\t</game>\n'
+
                 progress += 1
                 progress_percent = progress/progress_total*100
                 sys.stdout.write("\033[K")
@@ -627,23 +637,24 @@ def convert_to_xml(locale, unique_regional_titles, titles, final_title_xml, user
     return final_title_xml
 
 # Selects what titles to output based on user selected flags
-def filter_flags(node, user_input):
-    formatted_node =''
-    regex_string = ''
-    if user_input.no_demos == True: regex_string += '|<category>Demos<\/category>|<category>Coverdiscs<\/category>|'
-    if user_input.no_apps == True: regex_string += '|<category>Applications<\/category>|'
-    if user_input.no_protos == True: regex_string += '|<category>Preproduction<\/category>|'
-    if user_input.no_multi == True: regex_string += '|<category>Multimedia<\/category>|'
-    if user_input.no_edu == True: regex_string += '|<category>Educational<\/category>|'
+# def filter_flags(node, user_input):
+#     formatted_node =''
+#     # regex_string = ''
+#     # if user_input.no_demos == True: regex_string += '|<category>Demos<\/category>|<category>Coverdiscs<\/category>|'
+#     # if user_input.no_apps == True: regex_string += '|<category>Applications<\/category>|'
+#     # if user_input.no_protos == True: regex_string += '|<category>Preproduction<\/category>|'
+#     # if user_input.no_multi == True: regex_string += '|<category>Multimedia<\/category>|'
+#     # if user_input.no_edu == True: regex_string += '|<category>Educational<\/category>|'
 
-    regex_string = re.sub('\|\|', '|', regex_string)
-    regex_string = regex_string[1:-1]
+#     # regex_string = re.sub('\|\|', '|', regex_string)
+#     # regex_string = regex_string[1:-1]
 
-    if not bool(re.search('(' + regex_string + ')', str(node.category))):
-        formatted_node = minidom_prettify(str(node.category.parent))
-    elif (user_input.no_demos == False and user_input.no_apps == False and user_input.no_protos == False and user_input.no_multi == False and user_input.no_edu == False):
-        formatted_node = minidom_prettify(str(node.category.parent))
-    return formatted_node
+#     # if not bool(re.search('(' + regex_string + ')', str(node.category))):
+#     #     formatted_node = minidom_prettify(str(node.category.parent))
+#     # elif (user_input.no_demos == False and user_input.no_apps == False and user_input.no_protos == False and user_input.no_multi == False and user_input.no_edu == False):
+#     #     formatted_node = minidom_prettify(str(node.category.parent))
+#     formatted_node = minidom_prettify(str(node.category.parent))
+#     return formatted_node
 
 # Use minidom to prettify XML for each node, because it can define indents and we need tabs
 def minidom_prettify(string):
