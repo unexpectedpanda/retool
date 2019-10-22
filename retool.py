@@ -35,28 +35,17 @@ def main():
     # Check user input
     user_input = check_input()
 
-    input_file_name = user_input[0]
-    output_file_name = user_input[1]
-
-    flag_no_demos = user_input[2]
-    flag_no_apps = user_input[3]
-    flag_no_protos = user_input[4]
-    flag_no_multi = user_input[5]
-    flag_no_edu = user_input[6]
-    flag_regions_all = user_input[7]
-    flag_regions_en = user_input[8]
-
     # Check if the output file already exists
-    if os.path.isfile(output_file_name) == True:
+    if os.path.isfile(user_input.file_output) == True:
         overwrite_file = ''
         while overwrite_file != 'y' and overwrite_file != 'n':
-            overwrite_file = input('The file ' + font.bold + output_file_name + font.end + ' already exists. Do you want to overwrite it? [y/n] > ').lower()
+            overwrite_file = input('The file ' + font.bold + user_input.file_output + font.end + ' already exists. Do you want to overwrite it? [y/n] > ').lower()
 
         if overwrite_file == 'n':
             print('\nExiting Retool')
             sys.exit()
         elif overwrite_file == 'y':
-            print('\nOverwriting ' + font.bold + output_file_name + font.end)
+            print('\n* Overwriting ' + font.bold + user_input.file_output + font.end)
 
     # Regions where English is a primary language
     region_list_english = [
@@ -111,8 +100,8 @@ def main():
             region_list += region
 
     # Read in the dat file
-    print('* Reading dat file: "' + font.bold + input_file_name + font.end + '"')
-    with open(input_file_name, 'r') as input_file_read:
+    print('* Reading dat file: "' + font.bold + user_input.file_input + font.end + '"')
+    with open(user_input.file_input, 'r') as input_file_read:
         print('* Validating dat file... ', sep=' ', end='', flush=True)
         checkdat = input_file_read.read()
         input_file_read.seek(0)
@@ -146,7 +135,7 @@ def main():
                             print(font.red + '\n* This dat file isn\t authored by Redump' + font.end)
                             sys.exit()
                     else:
-                        print(font.red + '\n* "' + input_file_name + '" isn\'t a CLRMAMEPro dat file.' + font.end)
+                        print(font.red + '\n* "' + user_input.file_input + '" isn\'t a CLRMAMEPro dat file.' + font.end)
                         sys.exit()
 
         print('\n|  Description: ' + dat_description)
@@ -167,7 +156,7 @@ def main():
 
     # Now those that may have English versions
     for region in region_list_other:
-        titles[region] = localized_titles(region, flag_regions_all, soup)
+        titles[region] = localized_titles(region, user_input.regions_all, soup)
 
     sys.stdout.write("\033[K")
     print('* Checking dat for regions... done.')
@@ -215,7 +204,7 @@ def main():
 
         # Add the USA titles XML
         for node in titles['USA']:
-            final_title_xml += filter_flags(node, flag_no_demos, flag_no_apps, flag_no_protos, flag_no_multi, flag_no_edu)
+            final_title_xml += filter_flags(node, user_input)
 
         print(' done.')
 
@@ -252,7 +241,7 @@ def main():
                     unique_list.append(title)
 
                  # Add titles to XML
-                final_title_xml = convert_to_xml(locale, unique_regional_titles, titles, final_title_xml, flag_no_demos, flag_no_apps, flag_no_protos, flag_no_multi, flag_no_edu)
+                final_title_xml = convert_to_xml(locale, unique_regional_titles, titles, final_title_xml, user_input)
                 sys.stdout.write("\033[K")
                 print('  - Adding unique titles from ' + locale + '... done.')
 
@@ -265,7 +254,7 @@ def main():
                     unique_list.append(title)
 
                  # Add titles to XML
-                final_title_xml = convert_to_xml(locale, unique_regional_titles, titles, final_title_xml, flag_no_demos, flag_no_apps, flag_no_protos, flag_no_multi, flag_no_edu)
+                final_title_xml = convert_to_xml(locale, unique_regional_titles, titles, final_title_xml, user_input)
                 sys.stdout.write("\033[K")
                 print('  - Adding unique titles from ' + locale + '... done.')
 
@@ -277,7 +266,7 @@ def main():
         print('  - Adding unique titles without regions...', sep='', end='\r', flush=True)
 
         # Add titles to XML
-        final_title_xml = convert_to_xml('Unknown', unique_regional_titles, titles, final_title_xml, flag_no_demos, flag_no_apps, flag_no_protos, flag_no_multi, flag_no_edu)
+        final_title_xml = convert_to_xml('Unknown', unique_regional_titles, titles, final_title_xml, user_input)
         sys.stdout.write("\033[K")
         print('  - Adding unique titles without regions... done.')
     else:
@@ -291,27 +280,27 @@ def main():
         sys.exit()
 
     print('\nStats:\n○  Original title count: ' + str('{:,}'.format(original_title_count)))
-    if flag_no_apps == True:
+    if user_input.no_apps == True:
         apps_count = len(soup.find_all('category', string='Applications'))
         print('-  Applications removed: ' + str('{:,}'.format(apps_count)))
     else:
         apps_count = 0
-    if flag_no_demos == True:
+    if user_input.no_demos == True:
         demos_count = len(soup.find_all('category', string='Demos')) + len(soup.find_all('category', string='Coverdiscs'))
         print('-  Demos removed: ' + str('{:,}'.format(demos_count)))
     else:
         demos_count = 0
-    if flag_no_edu == True:
+    if user_input.no_edu == True:
         edu_count = len(soup.find_all('category', string='Educational'))
         print('-  Educational titles removed: ' + str('{:,}'.format(edu_count)))
     else:
         edu_count = 0
-    if flag_no_multi == True:
+    if user_input.no_multi == True:
         multi_count = len(soup.find_all('category', string='Multimedia'))
         print('-  Multimedia titles removed: ' + str('{:,}'.format(multi_count)))
     else:
         multi_count = 0
-    if flag_no_protos == True:
+    if user_input.no_protos == True:
         protos_count = len(soup.find_all('category', string='Preproduction'))
         print('-  Prototypes and betas removed: ' + str('{:,}'.format(protos_count)))
     else:
@@ -325,14 +314,14 @@ def main():
     print('=  New title count: ' + str('{:,}'.format(new_title_count)) + font.end)
 
     # Write the dat file
-    with open(output_file_name, 'w') as output_file:
-        dat_header = header(dat_name, dat_version, dat_author, dat_url, new_title_count, False, False, False)
+    with open(user_input.file_output, 'w') as output_file:
+        dat_header = header(dat_name, dat_version, dat_author, dat_url, new_title_count, locale, user_input)
         output_file.writelines(dat_header)
         output_file.writelines(final_title_xml)
         output_file.writelines('</datafile>')
         output_file.close()
 
-    print(font.green + '\n* Finished writing unique English titles to "' +  font.bold + output_file_name + font.end + font.green + '".' + font.end)
+    print(font.green + '\n* Finished writing unique English titles to "' +  font.bold + user_input.file_output + font.end + font.green + '".' + font.end)
     return
 ###############################################################################
 
@@ -488,15 +477,15 @@ def convert_clr_logiqx(clrmame_header, checkdat):
     return xml_convert, dat_name, dat_description, dat_author
 
 # Creates a header for dat files
-def header(dat_name, dat_version, dat_author, dat_url, new_title_count, locale, flag_regions_all, flag_regions_en):
+def header(dat_name, dat_version, dat_author, dat_url, new_title_count, locale, user_input):
     if new_title_count == False:
         new_title_count = ' '
     else:
         new_title_count = ' (' + str(new_title_count) + ') '
 
-    if flag_regions_en == True:
+    if user_input.regions_en == True:
         description = '\n\t\t<description>' + dat_name  + new_title_count + '(' + dat_version + ') (' + locale + ') (English)</description>'
-    elif flag_regions_all == True:
+    elif user_input.regions_all == True:
         description = '\n\t\t<description>' + dat_name  + new_title_count + '(' + dat_version + ') (' + locale + ')</description>'
     else:
         description = '\n\t\t<description>' + dat_name  + new_title_count + '(' + dat_version + ') (English)</description>'
@@ -620,7 +609,7 @@ def localized_titles_unique (locale, titles, unique_list, dupe_list):
     return regional_titles_data
 
 # Uses a title to match to its original XML node
-def convert_to_xml(locale, unique_regional_titles, titles, final_title_xml, flag_no_demos, flag_no_apps, flag_no_protos, flag_no_multi, flag_no_edu):
+def convert_to_xml(locale, unique_regional_titles, titles, final_title_xml, user_input):
     if unique_regional_titles[locale] != []:
             progress = 0
             progress_total = len(unique_regional_titles[locale])
@@ -628,9 +617,9 @@ def convert_to_xml(locale, unique_regional_titles, titles, final_title_xml, flag
             for title in unique_regional_titles[locale]:
                 for node in titles[locale]:
                     if locale != 'Unknown' and bool(re.search('(^' + title + ' \()', node.category.parent['name'])):
-                        final_title_xml += filter_flags(node, flag_no_demos, flag_no_apps, flag_no_protos, flag_no_multi, flag_no_edu)
+                        final_title_xml += filter_flags(node, user_input)
                     elif locale == 'Unknown' and bool(re.search('(^' + title + ')', node.category.parent['name'])):
-                        final_title_xml += filter_flags(node, flag_no_demos, flag_no_apps, flag_no_protos, flag_no_multi, flag_no_edu)
+                        final_title_xml += filter_flags(node, user_input)
                 progress += 1
                 progress_percent = progress/progress_total*100
                 sys.stdout.write("\033[K")
@@ -638,21 +627,21 @@ def convert_to_xml(locale, unique_regional_titles, titles, final_title_xml, flag
     return final_title_xml
 
 # Selects what titles to output based on user selected flags
-def filter_flags(node, flag_no_demos, flag_no_apps, flag_no_protos, flag_no_multi, flag_no_edu):
+def filter_flags(node, user_input):
     formatted_node =''
     regex_string = ''
-    if flag_no_demos == True: regex_string += '|<category>Demos<\/category>|<category>Coverdiscs<\/category>|'
-    if flag_no_apps == True: regex_string += '|<category>Applications<\/category>|'
-    if flag_no_protos == True: regex_string += '|<category>Preproduction<\/category>|'
-    if flag_no_multi == True: regex_string += '|<category>Multimedia<\/category>|'
-    if flag_no_edu == True: regex_string += '|<category>Educational<\/category>|'
+    if user_input.no_demos == True: regex_string += '|<category>Demos<\/category>|<category>Coverdiscs<\/category>|'
+    if user_input.no_apps == True: regex_string += '|<category>Applications<\/category>|'
+    if user_input.no_protos == True: regex_string += '|<category>Preproduction<\/category>|'
+    if user_input.no_multi == True: regex_string += '|<category>Multimedia<\/category>|'
+    if user_input.no_edu == True: regex_string += '|<category>Educational<\/category>|'
 
     regex_string = re.sub('\|\|', '|', regex_string)
     regex_string = regex_string[1:-1]
 
     if not bool(re.search('(' + regex_string + ')', str(node.category))):
         formatted_node = minidom_prettify(str(node.category.parent))
-    elif (flag_no_demos == False and flag_no_apps == False and flag_no_protos == False and flag_no_multi == False and flag_no_edu == False):
+    elif (user_input.no_demos == False and user_input.no_apps == False and user_input.no_protos == False and user_input.no_multi == False and user_input.no_edu == False):
         formatted_node = minidom_prettify(str(node.category.parent))
     return formatted_node
 
