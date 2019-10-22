@@ -12,7 +12,6 @@ import re # For regular expressions
 from bs4 import BeautifulSoup, Doctype # For XML parsing
 import datetime
 from time import strftime
-import importlib # For bringing in renamed lists
 import _regional_renames # Duplicate image titles that have different names in different regions
 
 version_number = '0.31'
@@ -197,7 +196,7 @@ def main():
     if dat_name == 'Sony - PlayStation 4': dupe_list = _regional_renames.ps4_rename_list()
     if dat_name == 'Sony - PlayStation Portable': dupe_list = _regional_renames.psp_rename_list()
 
-    # Find unique titles in each region and write them to XML
+    # Find unique titles in each region and add their XML node
     final_title_xml += add_titles(region_list_english, titles, unique_list, dupe_list, user_input, unique_regional_titles)
     final_title_xml += add_titles(region_list_other, titles, unique_list, dupe_list, user_input, unique_regional_titles)
 
@@ -437,7 +436,7 @@ def header(dat_name, dat_version, dat_author, dat_url, new_title_count, locale, 
         description,
         '\n\t\t<version>' + dat_version + '</version>',
         '\n\t\t<date>' + datetime.datetime.now().strftime('%Y-%m-%d %H-%M-%S') + '</date>',
-        '\n\t\t<author>' + dat_author + ' & NI+ROE</author>',
+        '\n\t\t<author>' + dat_author + ' & Retool</author>',
         '\n\t\t<homepage>redump.org</homepage>',
         '\n\t\t<url>' + dat_url + '</url>',
         '\n\t</header>\n']
@@ -539,17 +538,6 @@ def localized_titles_unique (locale, titles, unique_list, dupe_list, user_input)
         else:
             regional_titles_data[raw_title] = [DatNode(str(title.category.parent['name']), title.category.contents[0], title.description.contents[0], newroms)]
 
-        # if raw_title == 'TimeSplitters':
-        #     print(len(regional_titles_data[raw_title]))
-        #     print('\n' + font.bold + '■  ' + raw_title + font.end)
-        #     for title in regional_titles_data[raw_title]:
-        #         print('   └ ' + str(vars(title)))
-        #         for i, rom in enumerate(title.roms):
-        #             if i == len(title.roms) - 1:
-        #                 print('        └ ' + str(vars(rom)))
-        #             else:
-        #                 print('        ├ ' + str(vars(rom)))
-
     # Find the uniques
     unique_regional_list = [x for x in regional_titles if x not in unique_list and x not in dupe_list]
 
@@ -573,9 +561,6 @@ def localized_titles_unique (locale, titles, unique_list, dupe_list, user_input)
 
     # Add unique list to the dictionary
     regional_titles_data['unique_titles'] = unique_regional_list
-
-    # if len(unique_regional_list) > 0:
-    #     print('These numbers should match: ' + str(len(unique_regional_list)) + ', ' + str(len(regional_titles_data) - 1))
 
     return regional_titles_data
 
