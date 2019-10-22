@@ -177,39 +177,8 @@ def main():
     # Create a list to store unique titles
     unique_list = []
 
-    if titles['USA'] == []:
-        print('* No USA titles found...')
-    else:
-        print('* Adding titles from USA...', sep='', end='', flush=True)
-
-        # Sort USA titles
-        usa_titles = []
-        usa_titles_2 = {}
-        for title in titles['USA']:
-            usa_titles.append(str(title.category.parent['name']))
-
-        usa_titles = sorted(usa_titles, key=str.lower)
-
-        # Add USA titles to unique_list
-        for title in usa_titles:
-            unique_list.append(title[:title.index('(USA') - 1])
-
-        # Dedupe unique_list
-        unique_regional_titles['USA'] = []
-
-        for i, x in enumerate(unique_list):
-            if unique_list[i] != unique_list[i-1]:
-                unique_regional_titles['USA'].append(x)
-        unique_list = unique_regional_titles['USA']
-
-        # Add the USA titles XML
-        for node in titles['USA']:
-            final_title_xml += minidom_prettify(str(node.category.parent))
-
-        print(' done.')
-
     # Start work on the other regions
-    print('* Looking for English non-dupes in other regions...')
+    print('* Looking for English non-dupes...')
 
     # Set up dupe lists for titles that have the same content, but different names in different regions
     dupe_list = []
@@ -232,18 +201,18 @@ def main():
 
     # Find unique titles in each region
     for i, locale in enumerate(region_list_english):
-        if i > 0:
-            unique_regional_titles[locale] = localized_titles_unique(locale, titles[locale], unique_list, dupe_list, user_input)
+        # if i > 0:
+        unique_regional_titles[locale] = localized_titles_unique(locale, titles[locale], unique_list, dupe_list, user_input)
 
-            if unique_regional_titles[locale]['unique_titles'] != []:
-                print('  - Adding unique titles from ' + locale + '...', sep='', end='\r', flush=True)
-                for title in unique_regional_titles[locale]['unique_titles']:
-                    unique_list.append(title)
+        if unique_regional_titles[locale]['unique_titles'] != []:
+            print('  - Adding unique titles from ' + locale + '...', sep='', end='\r', flush=True)
+            for title in unique_regional_titles[locale]['unique_titles']:
+                unique_list.append(title)
 
-                 # Add titles to XML
-                final_title_xml = convert_to_xml(locale, unique_regional_titles, titles, final_title_xml, user_input)
-                sys.stdout.write("\033[K")
-                print('  - Adding unique titles from ' + locale + '... done.')
+                # Add titles to XML
+            final_title_xml = convert_to_xml(locale, unique_regional_titles, titles, final_title_xml, user_input)
+            sys.stdout.write("\033[K")
+            print('  - Adding unique titles from ' + locale + '... done.')
 
     for i, locale in enumerate(region_list_other):
             unique_regional_titles[locale] = localized_titles_unique(locale, titles[locale], unique_list, dupe_list, user_input)
