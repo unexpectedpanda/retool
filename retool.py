@@ -8,10 +8,10 @@
 
 import os
 import sys
-import re # For regular expressions
-from bs4 import BeautifulSoup, Doctype # For XML parsing
+import re
 import datetime
-from time import strftime
+import time
+from bs4 import BeautifulSoup, Doctype # For XML parsing
 import _regional_renames # Duplicate image titles that have different names in different regions
 
 version_number = '0.31'
@@ -43,6 +43,9 @@ def main():
             sys.exit()
         elif overwrite_file == 'y':
             print('\n* Overwriting ' + font.bold + user_input.file_output + font.end)
+
+    # Record when the process started
+    start = time.time()
 
     # Regions where English is a primary language
     region_list_english = [
@@ -259,7 +262,10 @@ def main():
         output_file.writelines('</datafile>')
         output_file.close()
 
-    print(font.green + '\n* Finished writing unique English titles to "' +  font.bold + user_input.file_output + font.end + font.green + '".' + font.end)
+    # Record when the program stopped
+    stop = time.time()
+
+    print(font.green + '\n* Finished writing unique English titles to "' +  font.bold + user_input.file_output + font.end + font.green + '" in ' + str('{0:.2f}'.format(round(stop - start,2))) + 's.' + font.end)
     return
 ###############################################################################
 
