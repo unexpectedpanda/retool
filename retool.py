@@ -24,7 +24,7 @@ def main():
         '\n| |_/ /___| | | | | | | | | |' +
         '\n|    // _ \ | | | | | | | | |' +
         '\n| |\ \  __/ | \ \_/ | \_/ / |____' +
-        '\n\_| \_\___\_/  \___/ \___/\_____/ '+ font.end + 'v' + version_number)
+        '\n\_| \_\___\_/  \___/ \___/\_____/ ' + font.end + 'v' + version_number)
     print('=======================================\n')
     if len(sys.argv) == 1:
         print('Strips Redump (' + font.underline + 'http://redump.org/' + font.end + ') dats to only include English titles from\nall regions, with no dupes. US titles are preferenced. This is not an\nofficial Redump project.')
@@ -77,7 +77,7 @@ def main():
     ]
 
     # Combine the region lists so we can search for titles without regions later
-    region_list=''
+    region_list = ''
     for i, region in enumerate(region_list_english + region_list_other):
         if i < len(region_list_english + region_list_other) - 1:
             region_list += region + '|'
@@ -87,34 +87,34 @@ def main():
     # Check if the user defined output file already exists
     overwrite_file = False
 
-    if os.path.isfile(user_input.file_output) == True or os.path.isfile(user_input.file_output + '.dat') == True:
-        while overwrite_file != 'y' and overwrite_file != 'n' and overwrite_file !='':
-            overwrite_file = input('The file ' + font.bold + user_input.file_output + '.dat' + font.end + ' already exists. Do you want to overwrite it? [y/N] > ').lower()
-
-        if overwrite_file == 'n' or overwrite_file == '':
-            print('\nExiting Retool')
-            sys.exit()
-        elif overwrite_file == 'y':
-            print('\n* Overwriting ' + font.bold + user_input.file_output + font.end)
-
     if user_input.regions_en == True or user_input.regions_all == True:
         region_output_files = False
         for region in region_list_english + region_list_other:
             if os.path.isfile(user_input.file_output + ' [' + region + '].dat') == True:
                 region_output_files += 1
         if region_output_files != False:
-            while overwrite_file != 'y' and overwrite_file != 'n' and overwrite_file !='':
+            while overwrite_file != 'y' and overwrite_file != 'n' and overwrite_file != '':
                 if region_output_files > 1:
-                    overwrite_file = input('There are ' + str(region_output_files) + ' dat files in the format "' + font.bold + user_input.file_output + ' [<region name>].dat"' + font.end + ' that already exist. Do you want to overwrite them? [y/N] > ').lower()
+                    overwrite_file = input('There are ' + str(region_output_files) + ' dat files with the format "' + font.bold + user_input.file_output + ' [<region name>].dat"' + font.end + ' that already exist. Continuing may overwrite some or all of them. Do you want to continue? [y/N] > ').lower()
                 else:
                     overwrite_file = input('A dat file with the format "' + font.bold + user_input.file_output + ' [<region name>].dat"' + font.end + ' already exists. Do you want to overwrite it? [y/N] > ').lower()
 
             if overwrite_file == 'n' or overwrite_file == '':
-                print('\nExiting Retool')
+                print('\nExiting Retool...')
                 sys.exit()
             elif overwrite_file == 'y':
-                if user_input.regions_en == False and user_input.regions_all == False:
-                    print('\n* Overwriting ' + font.bold + user_input.file_output + '.dat' + font.end)
+                print()
+    else:
+        if os.path.isfile(user_input.file_output) == True or os.path.isfile(user_input.file_output + '.dat') == True:
+            while overwrite_file != 'y' and overwrite_file != 'n' and overwrite_file != '':
+                overwrite_file = input('The file ' + font.bold + user_input.file_output + '.dat' + font.end + ' already exists. Do you want to overwrite it? [y/N] > ').lower()
+
+            if overwrite_file == 'n' or overwrite_file == '':
+                print('\nExiting Retool...')
+                sys.exit()
+            elif overwrite_file == 'y':
+                print('\n* Overwriting ' + font.bold + user_input.file_output + '.dat' + font.end)
+
 
     # Record when the process started
     start = time.time()
@@ -201,7 +201,10 @@ def main():
     unique_list = []
 
     # Start work on the other regions
-    print('* Looking for English non-dupes...')
+    if user_input.regions_all == True:
+        print('* Splitting regions...')
+    else:
+        print('* Looking for English non-dupes...')
 
     # Set up dupe lists for titles that have the same content, but different names in different regions
     dupe_list = []
@@ -228,34 +231,37 @@ def main():
     unique_regional_titles['Unknown'] = localized_titles_unique('Unknown', titles['Unknown'], unique_list, dupe_list, user_input)
 
     # Find titles without regions
+
     if len(unique_regional_titles['Unknown']) > 1:
         unknown_region_title_count = len(unique_regional_titles['Unknown']['unique_titles'])
-        print('  * Adding unique titles without regions...', sep='', end='\r', flush=True)
+        print('  * Adding titles without regions...', sep='', end='\r', flush=True)
 
         # Add titles to XML
-        if user_input.regions_all == False and user_input.regions_en == False:
-            final_title_xml += convert_to_xml('Unknown', unique_regional_titles, titles, user_input)
-        else:
+        if user_input.regions_en == True or user_input.regions_all == True:
             final_title_xml['Unknown'] = convert_to_xml('Unknown', unique_regional_titles, titles, user_input)
+        else:
+            final_title_xml += convert_to_xml('Unknown', unique_regional_titles, titles, user_input)
+
         sys.stdout.write("\033[K")
-        print('  * Adding unique titles without regions... done.')
+        print('  * Adding titles without regions... done.')
     else:
         unknown_region_title_count = 0
 
     # Stats so people can see something was done
     new_title_count = 0
 
-    if user_input.regions_en == False and user_input.regions_all == False:
-        new_title_count = final_title_xml.count('<game name=')
-    else:
+    if user_input.regions_en == True or user_input.regions_all == True:
         new_title_count_region = {}
         for region in region_list_english + region_list_other:
             if final_title_xml.get(region, -1) != -1:
                 new_title_count_region[region] = final_title_xml[region].count('<game name=')
                 new_title_count += int(new_title_count_region[region])
+        new_title_count += unknown_region_title_count
+    else:
+        new_title_count = final_title_xml.count('<game name=')
 
     if new_title_count == 0:
-        print(font.yellow + '\n* No English titles, or no titles found. No dat file created.' + font.end)
+        print(font.yellow + '\n* No titles found. No dat file has been created.' + font.end)
         sys.exit()
 
     print('\nStats:\n○  Original title count: ' + str('{:,}'.format(original_title_count)))
@@ -295,6 +301,7 @@ def main():
 
     try:
         if user_input.regions_en == True or user_input.regions_all == True:
+            print('* Writing regional dat files...\n')
             for region in region_list_english + region_list_other:
                 if final_title_xml.get(region, -1) != -1 and new_title_count_region[region] > 0:
                     with open(user_input.file_output + ' [' + region + '].dat', 'w') as output_file:
@@ -304,23 +311,19 @@ def main():
                         output_file.writelines('</datafile>')
                         output_file.close()
 
-                    if new_title_count_region[region] == 1:
-                        print('+  Added ' + str('{:,}'.format(new_title_count_region[region])) + ' title to "' +  font.bold + user_input.file_output + ' [' + region + '].dat' + font.end + '".' + font.end)
-                    else:
-                        print('+  Added ' + str('{:,}'.format(new_title_count_region[region])) + ' titles to "' +  font.bold + user_input.file_output + ' [' + region + '].dat' + font.end + '".' + font.end)
-
             if final_title_xml.get('Unknown', -1) != -1:
                 with open(user_input.file_output + ' [Unknown].dat', 'w') as output_file:
-                    dat_header = header(dat_name, dat_version, dat_author, dat_url, new_title_count_region[region], region, user_input)
+                    dat_header = header(dat_name, dat_version, dat_author, dat_url, unknown_region_title_count, 'Unknown', user_input)
                     output_file.writelines(dat_header)
                     output_file.writelines(final_title_xml['Unknown'])
                     output_file.writelines('</datafile>')
                     output_file.close()
 
-                    print('+  Added ' + str('{:,}'.format(new_title_count_region['Unknown'])) + ' title to "' +  font.bold + user_input.file_output + ' [Unknown].dat' + font.end + '".' + font.end)
-
             stop = time.time()
-            print(font.green + '\n* Finished adding unique English titles to all regional dats in ' + str('{0:.2f}'.format(round(stop - start,2))) + 's.' + font.end)
+            if user_input.regions_en == True:
+                print(font.green + '* Finished adding unique English titles to regional dats in ' + str('{0:.2f}'.format(round(stop - start,2))) + 's.' + font.end)
+            else:
+                print(font.green + '* Finished splitting "' + font.bold + user_input.file_input + font.end + font.green + '" into regional dats in ' + str('{0:.2f}'.format(round(stop - start,2))) + 's.' + font.end)
         else:
             with open(user_input.file_output + '.dat', 'w') as output_file:
                 dat_header = header(dat_name, dat_version, dat_author, dat_url, new_title_count, False, user_input)
@@ -564,25 +567,27 @@ def localized_titles(region, native, soup):
 
 # Adds titles in Logiqx XML dat form
 def add_titles(region_list, titles, unique_list, dupe_list, user_input, unique_regional_titles):
-    if user_input.regions_en == False and user_input.regions_all == False:
-        title_xml = ''
-    else:
+    if user_input.regions_en == True or user_input.regions_all == True:
         title_xml = {}
+    else:
+        title_xml = ''
+
     for region in region_list:
         unique_regional_titles[region] = localized_titles_unique(region, titles[region], unique_list, dupe_list, user_input)
 
         if unique_regional_titles[region]['unique_titles'] != []:
-            print('  * Adding unique titles from ' + region + '...', sep='', end='\r', flush=True)
+            print('  * Adding titles from ' + region + '...', sep='', end='\r', flush=True)
             for title in unique_regional_titles[region]['unique_titles']:
                 unique_list.append(title)
 
             # Add titles to XML
-            if user_input.regions_en == False and user_input.regions_all == False:
-                title_xml += convert_to_xml(region, unique_regional_titles, titles, user_input)
-            else:
+            if user_input.regions_en == True or user_input.regions_all == True:
                 title_xml[region] = convert_to_xml(region, unique_regional_titles, titles, user_input)
+            else:
+                title_xml += convert_to_xml(region, unique_regional_titles, titles, user_input)
+
             sys.stdout.write("\033[K")
-            print('  * Adding unique titles from ' + region + '... done.')
+            print('  * Adding titles from ' + region + '... done.')
     return title_xml
 
 # Finds unique titles in regions
@@ -650,7 +655,7 @@ def localized_titles_unique (region, titles, unique_list, dupe_list, user_input)
 
 # Uses a title to create its original XML node
 def convert_to_xml(region, unique_regional_titles, titles, user_input):
-    final_title_xml=''
+    final_title_xml = ''
     if unique_regional_titles[region] != []:
             progress = 0
             progress_total = len(unique_regional_titles[region])

@@ -24,7 +24,7 @@ pip install lxml
 * `-m` Remove multimedia
 * `-p` Remove betas and prototypes
 * `-ra` Split into regions, all languages (not checked for dupes)
-* `-re` Split into regions, English only (not checked for dupes)
+* `-re` Split into regions, English only
 
 ## How it works
 The input dat is split into regions, then each region is processed in a
