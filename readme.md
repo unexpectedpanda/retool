@@ -4,9 +4,9 @@ all regions, with no dupes. US titles are preferenced. This is not an
 official Redump project.
 
 ## Installation
-Retool requires [Python 3](https://www.python.org/) with `pip`.
+_Retool_ requires [Python 3](https://www.python.org/) with `pip`.
 
-You'll need to install dependencies with `pip` before using Retool. To do so,
+You'll need to install dependencies with `pip` before using _Retool_. To do so,
 open Terminal, Command Prompt, or whatever the CLI is on your system, and type:
 
 ```python
@@ -79,7 +79,7 @@ name, **_Dancing Stage Unleashed 3 (Europe)_** and
 **_Dancing Stage Unleashed 3 (Europe)_** would not be included.
 
 ## Known limitations
-Be aware of the following limitations when using Retool. These may or may not be addressed in the future.
+Be aware of the following limitations when using _Retool_. These may or may not be addressed in the future.
 
 #### Doesn't remove older versions of titles
 For example, **_Halo - Combat Evolved (USA)_**,

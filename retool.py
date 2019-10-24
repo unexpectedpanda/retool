@@ -14,7 +14,7 @@ import time
 from bs4 import BeautifulSoup, Doctype # For XML parsing
 import _regional_renames # Duplicate image titles that have different names in different regions
 
-version_number = '0.31'
+version_number = '0.32'
 
 def main():
     # Initial splash screen
@@ -32,22 +32,7 @@ def main():
     # Check user input
     user_input = check_input()
 
-    # Check if the output file already exists
-    if os.path.isfile(user_input.file_output) == True:
-        overwrite_file = False
-        while overwrite_file != 'y' and overwrite_file != 'n' and overwrite_file !='':
-            overwrite_file = input('The file ' + font.bold + user_input.file_output + font.end + ' already exists. Do you want to overwrite it? [y/N] > ').lower()
-
-        if overwrite_file == 'n' or overwrite_file == '':
-            print('\nExiting Retool')
-            sys.exit()
-        elif overwrite_file == 'y':
-            print('\n* Overwriting ' + font.bold + user_input.file_output + font.end)
-
-    # Record when the process started
-    start = time.time()
-
-    # Regions where English is a primary language
+    # Define regions where English is a primary language
     region_list_english = [
         'USA',
         'World',
@@ -60,7 +45,7 @@ def main():
         'Latin America', # Generally Spanish, but seems to include English versions
     ]
 
-    # Regions where titles may have an English version
+    # Define regions where titles may have an English version
     region_list_other = [
         'Europe',
         'Asia',
@@ -99,52 +84,90 @@ def main():
         else:
             region_list += region
 
+    # Check if the user defined output file already exists
+    overwrite_file = False
+
+    if os.path.isfile(user_input.file_output) == True or os.path.isfile(user_input.file_output + '.dat') == True:
+        while overwrite_file != 'y' and overwrite_file != 'n' and overwrite_file !='':
+            overwrite_file = input('The file ' + font.bold + user_input.file_output + '.dat' + font.end + ' already exists. Do you want to overwrite it? [y/N] > ').lower()
+
+        if overwrite_file == 'n' or overwrite_file == '':
+            print('\nExiting Retool')
+            sys.exit()
+        elif overwrite_file == 'y':
+            print('\n* Overwriting ' + font.bold + user_input.file_output + font.end)
+
+    if user_input.regions_en == True or user_input.regions_all == True:
+        region_output_files = False
+        for region in region_list_english + region_list_other:
+            if os.path.isfile(user_input.file_output + ' [' + region + '].dat') == True:
+                region_output_files += 1
+        if region_output_files != False:
+            while overwrite_file != 'y' and overwrite_file != 'n' and overwrite_file !='':
+                if region_output_files > 1:
+                    overwrite_file = input('There are ' + str(region_output_files) + ' dat files in the format "' + font.bold + user_input.file_output + ' [<region name>].dat"' + font.end + ' that already exist. Do you want to overwrite them? [y/N] > ').lower()
+                else:
+                    overwrite_file = input('A dat file with the format "' + font.bold + user_input.file_output + ' [<region name>].dat"' + font.end + ' already exists. Do you want to overwrite it? [y/N] > ').lower()
+
+            if overwrite_file == 'n' or overwrite_file == '':
+                print('\nExiting Retool')
+                sys.exit()
+            elif overwrite_file == 'y':
+                if user_input.regions_en == False and user_input.regions_all == False:
+                    print('\n* Overwriting ' + font.bold + user_input.file_output + '.dat' + font.end)
+
+    # Record when the process started
+    start = time.time()
+
     # Read in the dat file
     print('* Reading dat file: "' + font.bold + user_input.file_input + font.end + '"')
-    with open(user_input.file_input, 'r') as input_file_read:
-        print('* Validating dat file... ', sep=' ', end='', flush=True)
-        checkdat = input_file_read.read()
-        input_file_read.seek(0)
+    try:
+        with open(user_input.file_input, 'r') as input_file_read:
+            print('* Validating dat file... ', sep=' ', end='', flush=True)
+            checkdat = input_file_read.read()
+    except OSError as e:
+        print('\n' + font.bold + font.red + '* Error: ' + font.end + str(e) + '\n')
+        raise
 
-        # Make sure the dat file isn't a CLRMAMEPro dat, if it is, check it's valid and convert it
-        clrmame_header = re.findall('^clrmamepro \($.*?^\)$', checkdat, re.M|re.S)
-        if clrmame_header:
-            print('file is a CLRMAMEPro dat file.')
-            converted_dat = convert_clr_logiqx(clrmame_header, checkdat)
-            xml_convert = converted_dat[0]
-            dat_name = converted_dat[1]
-            dat_description = converted_dat[2]
-            dat_author = converted_dat[3]
-            dat_url = 'redump.org'
-            dat_version = 'Unknown'
-            soup = BeautifulSoup(xml_convert, "lxml-xml")
-        else:
-            soup = BeautifulSoup(input_file_read, "lxml-xml")
-            # Check for a valid Redump XML dat, then grab the dat details
-            for item in soup.contents:
-                if isinstance(item, Doctype):
-                    if item == 'datafile PUBLIC "-//Logiqx//DTD ROM Management Datafile//EN" "http://www.logiqx.com/Dats/datafile.dtd"':
-                        print('file is a Logiqx dat file.')
-                        if soup.find('author').string == 'redump.org':
-                            dat_name = soup.find('name').string
-                            dat_description = soup.find('description').string
-                            dat_author = soup.find('author').string
-                            dat_url = soup.find('url').string
-                            dat_version = soup.find('version').string
-                        else:
-                            print(font.red + '\n* This dat file isn\t authored by Redump' + font.end)
-                            sys.exit()
+    # Make sure the dat file isn't a CLRMAMEPro dat, if it is, check it's valid and convert it
+    clrmame_header = re.findall('^clrmamepro \($.*?^\)$', checkdat, re.M|re.S)
+    if clrmame_header:
+        print('file is a CLRMAMEPro dat file.')
+        converted_dat = convert_clr_logiqx(clrmame_header, checkdat)
+        xml_convert = converted_dat[0]
+        dat_name = converted_dat[1]
+        dat_description = converted_dat[2]
+        dat_author = converted_dat[3]
+        dat_url = 'redump.org'
+        dat_version = 'Unknown'
+        soup = BeautifulSoup(xml_convert, "lxml-xml")
+    else:
+        soup = BeautifulSoup(checkdat, "lxml-xml")
+        # Check for a valid Redump XML dat, then grab the dat details
+        for item in soup.contents:
+            if isinstance(item, Doctype):
+                if item == 'datafile PUBLIC "-//Logiqx//DTD ROM Management Datafile//EN" "http://www.logiqx.com/Dats/datafile.dtd"':
+                    print('file is a Logiqx dat file.')
+                    if soup.find('author').string == 'redump.org':
+                        dat_name = soup.find('name').string
+                        dat_description = soup.find('description').string
+                        dat_author = soup.find('author').string
+                        dat_url = soup.find('url').string
+                        dat_version = soup.find('version').string
                     else:
-                        print(font.red + '\n* "' + user_input.file_input + '" isn\'t a CLRMAMEPro dat file.' + font.end)
+                        print(font.red + '\n* This dat file isn\t authored by Redump' + font.end)
                         sys.exit()
+                else:
+                    print(font.red + '\n* "' + user_input.file_input + '" isn\'t a CLRMAMEPro dat file.' + font.end)
+                    sys.exit()
 
-        print('\n|  Description: ' + dat_description)
-        print('|  Author: ' + dat_author)
-        print('|  URL: ' + dat_url)
-        print('|  Version: ' + dat_version + '\n')
+    print('\n|  Description: ' + dat_description)
+    print('|  Author: ' + dat_author)
+    print('|  URL: ' + dat_url)
+    print('|  Version: ' + dat_version + '\n')
 
-        # Find out how many titles are in the dat file
-        original_title_count = len(soup.find_all('game'))
+    # Find out how many titles are in the dat file
+    original_title_count = len(soup.find_all('game'))
 
     # Store regions in a dictionary
     titles = {}
@@ -171,8 +194,8 @@ def main():
     else:
         print('done.')
 
-    # Variable that holds each title's XML. Titles get added one by one to be written to file later.
-    final_title_xml=''
+    # Variable that holds each title's XML. Titles get added one by one to be written to a file later
+    final_title_xml= ''
 
     # Create a list to store unique titles
     unique_list = []
@@ -200,28 +223,39 @@ def main():
     if dat_name == 'Sony - PlayStation Portable': dupe_list = _regional_renames.psp_rename_list()
 
     # Find unique titles in each region and add their XML node
-    final_title_xml += add_titles(region_list_english, titles, unique_list, dupe_list, user_input, unique_regional_titles)
-    final_title_xml += add_titles(region_list_other, titles, unique_list, dupe_list, user_input, unique_regional_titles)
+    final_title_xml = add_titles(region_list_english + region_list_other, titles, unique_list, dupe_list, user_input, unique_regional_titles)
 
     unique_regional_titles['Unknown'] = localized_titles_unique('Unknown', titles['Unknown'], unique_list, dupe_list, user_input)
 
     # Find titles without regions
     if len(unique_regional_titles['Unknown']) > 1:
         unknown_region_title_count = len(unique_regional_titles['Unknown']['unique_titles'])
-        print('  + Adding unique titles without regions...', sep='', end='\r', flush=True)
+        print('  * Adding unique titles without regions...', sep='', end='\r', flush=True)
 
         # Add titles to XML
-        final_title_xml += convert_to_xml('Unknown', unique_regional_titles, titles, user_input)
+        if user_input.regions_all == False and user_input.regions_en == False:
+            final_title_xml += convert_to_xml('Unknown', unique_regional_titles, titles, user_input)
+        else:
+            final_title_xml['Unknown'] = convert_to_xml('Unknown', unique_regional_titles, titles, user_input)
         sys.stdout.write("\033[K")
-        print('  + Adding unique titles without regions... done.')
+        print('  * Adding unique titles without regions... done.')
     else:
         unknown_region_title_count = 0
 
     # Stats so people can see something was done
-    new_title_count = final_title_xml.count('<game name=')
+    new_title_count = 0
+
+    if user_input.regions_en == False and user_input.regions_all == False:
+        new_title_count = final_title_xml.count('<game name=')
+    else:
+        new_title_count_region = {}
+        for region in region_list_english + region_list_other:
+            if final_title_xml.get(region, -1) != -1:
+                new_title_count_region[region] = final_title_xml[region].count('<game name=')
+                new_title_count += int(new_title_count_region[region])
 
     if new_title_count == 0:
-        print(font.yellow + '\n* No English titles found, no dat file created.' + font.end)
+        print(font.yellow + '\n* No English titles, or no titles found. No dat file created.' + font.end)
         sys.exit()
 
     print('\nStats:\n○  Original title count: ' + str('{:,}'.format(original_title_count)))
@@ -252,22 +286,60 @@ def main():
     print('-  Dupes and non-English titles removed: ' + str('{:,}'.format(original_title_count - new_title_count -apps_count - demos_count - edu_count - multi_count - protos_count)))
 
     print(font.bold + '---------------------------')
-    print('=  New title count: ' + str('{:,}'.format(new_title_count)) + font.end)
+    print('=  New title count: ' + str('{:,}'.format(new_title_count)) + font.end + '\n')
 
     # Write the dat file
-    with open(user_input.file_output, 'w') as output_file:
-        dat_header = header(dat_name, dat_version, dat_author, dat_url, new_title_count, False, user_input)
-        output_file.writelines(dat_header)
-        output_file.writelines(final_title_xml)
-        output_file.writelines('</datafile>')
-        output_file.close()
 
-    # Record when the program stopped
-    stop = time.time()
+    if user_input.file_output.endswith('.dat'):
+        user_input.file_output = user_input.file_output.strip('.dat')
 
-    print(font.green + '\n* Finished writing unique English titles to "' +  font.bold + user_input.file_output + font.end + font.green + '" in ' + str('{0:.2f}'.format(round(stop - start,2))) + 's.' + font.end)
+    try:
+        if user_input.regions_en == True or user_input.regions_all == True:
+            for region in region_list_english + region_list_other:
+                if final_title_xml.get(region, -1) != -1 and new_title_count_region[region] > 0:
+                    with open(user_input.file_output + ' [' + region + '].dat', 'w') as output_file:
+                        dat_header = header(dat_name, dat_version, dat_author, dat_url, new_title_count_region[region], region, user_input)
+                        output_file.writelines(dat_header)
+                        output_file.writelines(final_title_xml[region])
+                        output_file.writelines('</datafile>')
+                        output_file.close()
+
+                    if new_title_count_region[region] == 1:
+                        print('+  Added ' + str('{:,}'.format(new_title_count_region[region])) + ' title to "' +  font.bold + user_input.file_output + ' [' + region + '].dat' + font.end + '".' + font.end)
+                    else:
+                        print('+  Added ' + str('{:,}'.format(new_title_count_region[region])) + ' titles to "' +  font.bold + user_input.file_output + ' [' + region + '].dat' + font.end + '".' + font.end)
+
+            if final_title_xml.get('Unknown', -1) != -1:
+                with open(user_input.file_output + ' [Unknown].dat', 'w') as output_file:
+                    dat_header = header(dat_name, dat_version, dat_author, dat_url, new_title_count_region[region], region, user_input)
+                    output_file.writelines(dat_header)
+                    output_file.writelines(final_title_xml['Unknown'])
+                    output_file.writelines('</datafile>')
+                    output_file.close()
+
+                    print('+  Added ' + str('{:,}'.format(new_title_count_region['Unknown'])) + ' title to "' +  font.bold + user_input.file_output + ' [Unknown].dat' + font.end + '".' + font.end)
+
+            stop = time.time()
+            print(font.green + '\n* Finished adding unique English titles to all regional dats in ' + str('{0:.2f}'.format(round(stop - start,2))) + 's.' + font.end)
+        else:
+            with open(user_input.file_output + '.dat', 'w') as output_file:
+                dat_header = header(dat_name, dat_version, dat_author, dat_url, new_title_count, False, user_input)
+                output_file.writelines(dat_header)
+                output_file.writelines(final_title_xml)
+                output_file.writelines('</datafile>')
+                output_file.close()
+            # Record when the program stopped
+            stop = time.time()
+
+            print(font.green + '* Finished adding ' + str('{:,}'.format(new_title_count)) + ' unique English titles to "' +  font.bold + user_input.file_output + '.dat' + font.end + font.green + '" in ' + str('{0:.2f}'.format(round(stop - start,2))) + 's.' + font.end)
+    except OSError as e:
+        print('\n' + font.bold + font.red + '* Error: ' + font.end + str(e) + '\n')
+        raise
     return
-###############################################################################
+
+
+
+############### Classes and methods ###############
 
 # Console text formatting
 # https://stackoverflow.com/questions/4842424/list-of-ansi-color-escape-sequences
@@ -351,9 +423,6 @@ def check_input():
             else:
                 output_file_name = sys.argv[i+1]
 
-                if not output_file_name.endswith('.dat'):
-                    output_file_name += '.dat'
-
             if len([x for x in sys.argv if '-o' in x]) > 1:
                 excess_o = True
                 error_state = True
@@ -421,16 +490,16 @@ def convert_clr_logiqx(clrmame_header, checkdat):
     return xml_convert, dat_name, dat_description, dat_author
 
 # Creates a header for dat files
-def header(dat_name, dat_version, dat_author, dat_url, new_title_count, locale, user_input):
+def header(dat_name, dat_version, dat_author, dat_url, new_title_count, region, user_input):
     if new_title_count == False:
         new_title_count = ' '
     else:
         new_title_count = ' (' + str(new_title_count) + ') '
 
     if user_input.regions_en == True:
-        description = '\n\t\t<description>' + dat_name  + new_title_count + '(' + dat_version + ') (' + locale + ') (English)</description>'
+        description = '\n\t\t<description>' + dat_name  + new_title_count + '(' + dat_version + ') (' + region + ') (English)</description>'
     elif user_input.regions_all == True:
-        description = '\n\t\t<description>' + dat_name  + new_title_count + '(' + dat_version + ') (' + locale + ')</description>'
+        description = '\n\t\t<description>' + dat_name  + new_title_count + '(' + dat_version + ') (' + region + ')</description>'
     else:
         description = '\n\t\t<description>' + dat_name  + new_title_count + '(' + dat_version + ') (English)</description>'
 
@@ -478,49 +547,55 @@ class DatNodeRom:
         self.size = size
 
 # Splits dat into regions
-def localized_titles(locale, native, soup):
+def localized_titles(region, native, soup):
     sys.stdout.write("\033[K")
     if native != 'Unknown':
-        print('* Checking dat for regions... ' + locale, sep='', end='\r', flush=True)
+        print('* Checking dat for regions... ' + region, sep='', end='\r', flush=True)
     if native == True:
-        return soup.find_all('game', {'name':re.compile('(\(' + locale + '\))')}) + soup.find_all('game', {'name':re.compile('(\(' + locale + ',.*?\))')})
+        return soup.find_all('game', {'name':re.compile('(\(' + region + '\))')}) + soup.find_all('game', {'name':re.compile('(\(' + region + ',.*?\))')})
     elif native == 'Unknown':
-        return soup.find_all('game', {'name':re.compile('^(?!.*(\(.*?(' + locale + ').*?\))).*(.*)')})
+        return soup.find_all('game', {'name':re.compile('^(?!.*(\(.*?(' + region + ').*?\))).*(.*)')})
     else:
-        if locale == 'Europe':
+        if region == 'Europe':
             # Grab all European games that don't have languages listed, as well as those that specify English
-            return soup.find_all('game', {'name':re.compile('^(?!.*(\(.*?(En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv)(,|\)))).*(\(.*?' + locale + '.*?\))')}) + soup.find_all('game', {'name':re.compile('(\(.*' + locale + '.*?\) \(En,)')})
+            return soup.find_all('game', {'name':re.compile('^(?!.*(\(.*?(En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv)(,|\)))).*(\(.*?' + region + '.*?\))')}) + soup.find_all('game', {'name':re.compile('(\(.*' + region + '.*?\) \(En,)')})
         else:
-            return soup.find_all('game', {'name':re.compile('(\(.*' + locale + '.*?\) \(.*?En(,|\)))')})
+            return soup.find_all('game', {'name':re.compile('(\(.*' + region + '.*?\) \(.*?En(,|\)))')})
 
 # Adds titles in Logiqx XML dat form
 def add_titles(region_list, titles, unique_list, dupe_list, user_input, unique_regional_titles):
-    title_xml = ''
-    for locale in region_list:
-        unique_regional_titles[locale] = localized_titles_unique(locale, titles[locale], unique_list, dupe_list, user_input)
+    if user_input.regions_en == False and user_input.regions_all == False:
+        title_xml = ''
+    else:
+        title_xml = {}
+    for region in region_list:
+        unique_regional_titles[region] = localized_titles_unique(region, titles[region], unique_list, dupe_list, user_input)
 
-        if unique_regional_titles[locale]['unique_titles'] != []:
-            print('  + Adding unique titles from ' + locale + '...', sep='', end='\r', flush=True)
-            for title in unique_regional_titles[locale]['unique_titles']:
+        if unique_regional_titles[region]['unique_titles'] != []:
+            print('  * Adding unique titles from ' + region + '...', sep='', end='\r', flush=True)
+            for title in unique_regional_titles[region]['unique_titles']:
                 unique_list.append(title)
 
             # Add titles to XML
-            title_xml += convert_to_xml(locale, unique_regional_titles, titles, user_input)
+            if user_input.regions_en == False and user_input.regions_all == False:
+                title_xml += convert_to_xml(region, unique_regional_titles, titles, user_input)
+            else:
+                title_xml[region] = convert_to_xml(region, unique_regional_titles, titles, user_input)
             sys.stdout.write("\033[K")
-            print('  + Adding unique titles from ' + locale + '... done.')
+            print('  * Adding unique titles from ' + region + '... done.')
     return title_xml
 
 # Finds unique titles in regions
-def localized_titles_unique (locale, titles, unique_list, dupe_list, user_input):
+def localized_titles_unique (region, titles, unique_list, dupe_list, user_input):
     regional_titles = []
     regional_titles_data = {}
 
     # Extract each title name
     for title in titles:
-        if locale !='Unknown':
-            locale_start = [m.span()[0] for m in re.finditer('(\(.*' + locale + '.*\))', title.category.parent['name'])][0]
-            locale_end = [m.span()[1] for m in re.finditer('(\(.*' + locale + '.*\))', title.category.parent['name'])][0]
-            raw_title = title.category.parent['name'][:locale_end - (locale_end - locale_start + 1)]
+        if region !='Unknown':
+            region_start = [m.span()[0] for m in re.finditer('(\(.*' + region + '.*\))', title.category.parent['name'])][0]
+            region_end = [m.span()[1] for m in re.finditer('(\(.*' + region + '.*\))', title.category.parent['name'])][0]
+            raw_title = title.category.parent['name'][:region_end - (region_end - region_start + 1)]
         else:
             raw_title = title.category.parent['name']
         regional_titles.append(raw_title)
@@ -545,25 +620,28 @@ def localized_titles_unique (locale, titles, unique_list, dupe_list, user_input)
             regional_titles_data[raw_title] = [DatNode(str(title.category.parent['name']), title.category.contents[0], title.description.contents[0], newroms)]
 
     # Find the uniques
-    unique_regional_list = [x for x in regional_titles if x not in unique_list and x not in dupe_list]
+    if user_input.regions_all == False:
+        unique_regional_list = [x for x in regional_titles if x not in unique_list and x not in dupe_list]
 
-    # Sort and dedupe unique_regional_list
-    if len(unique_regional_list) > 1:
-        unique_regional_list = sorted(unique_regional_list, key=str.lower)
-        unique_regional_temp = []
-        for i, x in enumerate(unique_regional_list):
-            if  unique_regional_list[i] != unique_regional_list[i-1]:
-                unique_regional_temp.append(unique_regional_list[i])
-        unique_regional_list = unique_regional_temp
+        # Sort and dedupe unique_regional_list
+        if len(unique_regional_list) > 1:
+            unique_regional_list = sorted(unique_regional_list, key=str.lower)
+            unique_regional_temp = []
+            for i, x in enumerate(unique_regional_list):
+                if  unique_regional_list[i] != unique_regional_list[i-1]:
+                    unique_regional_temp.append(unique_regional_list[i])
+            unique_regional_list = unique_regional_temp
 
-    # Trim the dictionary so only unique titles are in there
-    regional_titles_data_temp = {}
+        # Trim the dictionary so only unique titles are in there
+        regional_titles_data_temp = {}
 
-    for x in unique_regional_list:
-        if x in regional_titles_data:
-            regional_titles_data_temp[x] = regional_titles_data[x]
+        for x in unique_regional_list:
+            if x in regional_titles_data:
+                regional_titles_data_temp[x] = regional_titles_data[x]
 
-    regional_titles_data = regional_titles_data_temp
+        regional_titles_data = regional_titles_data_temp
+    else:
+        unique_regional_list = [x for x in regional_titles]
 
     # Add unique list to the dictionary
     regional_titles_data['unique_titles'] = unique_regional_list
@@ -571,15 +649,15 @@ def localized_titles_unique (locale, titles, unique_list, dupe_list, user_input)
     return regional_titles_data
 
 # Uses a title to create its original XML node
-def convert_to_xml(locale, unique_regional_titles, titles, user_input):
+def convert_to_xml(region, unique_regional_titles, titles, user_input):
     final_title_xml=''
-    if unique_regional_titles[locale] != []:
+    if unique_regional_titles[region] != []:
             progress = 0
-            progress_total = len(unique_regional_titles[locale])
+            progress_total = len(unique_regional_titles[region])
 
-            for title in unique_regional_titles[locale]:
+            for title in unique_regional_titles[region]:
                 if title != 'unique_titles':
-                    for subtitle in unique_regional_titles[locale][title]:
+                    for subtitle in unique_regional_titles[region][title]:
                         final_title_xml += '\t<game name="' + subtitle.full_title + '">'
                         final_title_xml += '\n\t\t<category>' + subtitle.category + '</category>'
                         final_title_xml += '\n\t\t<description>' + subtitle.description + '</description>'
@@ -590,7 +668,7 @@ def convert_to_xml(locale, unique_regional_titles, titles, user_input):
                 progress += 1
                 progress_percent = progress/progress_total*100
                 sys.stdout.write("\033[K")
-                print('  + Adding unique titles from ' + locale + '... ' + str(int(progress_percent)) + '%', sep='', end='\r', flush=True)
+                print('  * Adding unique titles from ' + region + '... ' + str(int(progress_percent)) + '%', sep='', end='\r', flush=True)
     return final_title_xml
 
 if __name__ == '__main__':

@@ -219,7 +219,7 @@ def wii_rename_list():
         'It\'s My Birthday', # Birthday Party Bash
         'It\'s My Circus', # Ringling Bros. and Barnum & Bailey
         'Jambo! Safari - Ranger Adventure', # Jambo! Safari - Animal Rescue
-        'Ju-on - The Grudge', # 'Ju-on - The Grudge - Haunted House Simulator'
+        'Ju-on - The Grudge', # Ju-on - The Grudge - Haunted House Simulator
         'Kidz Sports Crazy Mini Golf', # Kidz Sports Crazy Golf
         'Kidz Sports International Football', # Kidz Sports International Soccer
         'Kirby\'s Adventure Wii', # Kirby's Return to Dream Land
@@ -676,7 +676,7 @@ def ps2_rename_list():
         'Hard Hitter 2', # Hard Hitter Tennis
         'Harley-Davidson Motor Cycles', # Harley-Davidson Motorcycles - Race to the Rally
         'Harry Potter and the Philosopher\'s Stone', # Harry Potter and the Sorcerer's Stone
-        'Harry Potter to Kenja no Ishi ', # (賢者の石) Harry Potter and the Sorcerer's Stone
+        'Harry Potter to Kenja no Ishi', # (賢者の石) Harry Potter and the Sorcerer's Stone
         'Harvest Fishing', # River King - A Wonderful Journey
         'Ice Age 3 - Dawn of the Dinosaurs', # Ice Age - Dawn of the Dinosaurs
         'International Cue Club', # Real Pool
