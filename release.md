@@ -1,9 +1,11 @@
+# 0.32
+- Reimplemented -re and -ra flags.
+
 # 0.31
 - Used dictionaries and classes to greatly increase performance and improve
   code readability.
 - Removed minidom dependency.
 - Removed unused importlib dependency.
-- Reimplemented -re and -ra flags.
 - Usability tweaks.
 
 # 0.2
