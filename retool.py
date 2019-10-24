@@ -304,7 +304,7 @@ def main():
             print('* Writing regional dat files...\n')
             for region in region_list_english + region_list_other:
                 if final_title_xml.get(region, -1) != -1 and new_title_count_region[region] > 0:
-                    with open(user_input.file_output + ' [' + region + '].dat', 'w') as output_file:
+                    with open(user_input.file_output + ' (' + region + ').dat', 'w') as output_file:
                         dat_header = header(dat_name, dat_version, dat_author, dat_url, new_title_count_region[region], region, user_input)
                         output_file.writelines(dat_header)
                         output_file.writelines(final_title_xml[region])
@@ -312,7 +312,7 @@ def main():
                         output_file.close()
 
             if final_title_xml.get('Unknown', -1) != -1:
-                with open(user_input.file_output + ' [Unknown].dat', 'w') as output_file:
+                with open(user_input.file_output + ' (Unknown).dat', 'w') as output_file:
                     dat_header = header(dat_name, dat_version, dat_author, dat_url, unknown_region_title_count, 'Unknown', user_input)
                     output_file.writelines(dat_header)
                     output_file.writelines(final_title_xml['Unknown'])
@@ -325,6 +325,7 @@ def main():
             else:
                 print(font.green + '* Finished splitting "' + font.bold + user_input.file_input + font.end + font.green + '" into regional dats in ' + str('{0:.2f}'.format(round(stop - start,2))) + 's.' + font.end)
         else:
+            print('* Writing dat file...\n')
             with open(user_input.file_output + '.dat', 'w') as output_file:
                 dat_header = header(dat_name, dat_version, dat_author, dat_url, new_title_count, False, user_input)
                 output_file.writelines(dat_header)
@@ -497,20 +498,32 @@ def header(dat_name, dat_version, dat_author, dat_url, new_title_count, region, 
     if new_title_count == False:
         new_title_count = ' '
     else:
-        new_title_count = ' (' + str(new_title_count) + ') '
+        new_title_count = ' (' + str('{:,}'.format(new_title_count)) + ') '
+
+    if user_input.no_apps == True or user_input.no_demos == True or user_input.no_edu == True or user_input.no_multi == True or user_input.no_protos == True:
+        dat_header_exclusion = ' (-'
+        if user_input.no_apps == True: dat_header_exclusion += 'a'
+        if user_input.no_demos == True: dat_header_exclusion += 'd'
+        if user_input.no_edu == True: dat_header_exclusion += 'e'
+        if user_input.no_multi == True: dat_header_exclusion += 'm'
+        if user_input.no_protos == True: dat_header_exclusion += 'p'
+        dat_header_exclusion += ')'
 
     if user_input.regions_en == True:
-        description = '\n\t\t<description>' + dat_name  + new_title_count + '(' + dat_version + ') (' + region + ') (English)</description>'
+        name = '\n\t\t<name>' + dat_name  + new_title_count + '(' + dat_version + ') (' + region + ') (English)' + dat_header_exclusion + '</name>'
+        description = '\n\t\t<description>' + dat_name  + new_title_count + '(' + dat_version + ') (' + region + ') (English)' + dat_header_exclusion + '</description>'
     elif user_input.regions_all == True:
-        description = '\n\t\t<description>' + dat_name  + new_title_count + '(' + dat_version + ') (' + region + ')</description>'
+        name = '\n\t\t<name>' + dat_name  + new_title_count + '(' + dat_version + ') (' + region + ')' + dat_header_exclusion + '</name>'
+        description = '\n\t\t<description>' + dat_name  + new_title_count + '(' + dat_version + ') (' + region + ')' + dat_header_exclusion + '</description>'
     else:
-        description = '\n\t\t<description>' + dat_name  + new_title_count + '(' + dat_version + ') (English)</description>'
+        name = '\n\t\t<name>' + dat_name  + new_title_count + '(' + dat_version + ') (English)' + dat_header_exclusion + '</name>'
+        description = '\n\t\t<description>' + dat_name  + new_title_count + '(' + dat_version + ') (English)' + dat_header_exclusion + '</description>'
 
     header = ['<?xml version="1.0"?>',
         '\n<!DOCTYPE datafile PUBLIC "-//Logiqx//DTD ROM Management Datafile//EN" "http://www.logiqx.com/Dats/datafile.dtd">',
         '\n<datafile>',
         '\n\t<header>',
-        '\n\t\t<name>' + dat_name + '</name>',
+        '\n\t\t<name>' + name + '</name>',
         description,
         '\n\t\t<version>' + dat_version + '</version>',
         '\n\t\t<date>' + datetime.datetime.now().strftime('%Y-%m-%d %H-%M-%S') + '</date>',
