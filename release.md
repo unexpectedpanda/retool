@@ -1,8 +1,14 @@
+# 0.33
+- Added ability to operate recursively on folders.
+- Fixed output naming bug.
+- Tidied up some output for increased readability.
+
 # 0.32
 - Reimplemented -re and -ra flags.
+- Fixed CLRMAMEPro header so the user wasn't prompted with false update warnings.
 
 # 0.31
-- Used dictionaries and classes to greatly increase performance and improve
+- Used dictionaries and classes to greatly increase performance and improve.
   code readability.
 - Removed minidom dependency.
 - Removed unused importlib dependency.

@@ -14,17 +14,17 @@ import time
 from bs4 import BeautifulSoup, Doctype # For XML parsing
 import _regional_renames # Duplicate image titles that have different names in different regions
 
-version_number = '0.32'
+version_number = '0.33'
 
 def main():
     # Initial splash screen
     os.system('cls' if os.name == 'nt' else 'clear')
-    print(font.red + '______   _____ _____ _____ _' +
-        '\n| ___ \ |_   _|  _  |  _  | |' +
-        '\n| |_/ /___| | | | | | | | | |' +
-        '\n|    // _ \ | | | | | | | | |' +
-        '\n| |\ \  __/ | \ \_/ | \_/ / |____' +
-        '\n\_| \_\___\_/  \___/ \___/\_____/ ' + font.end + 'v' + version_number)
+    print(font.red + ' ____     _____ ___   ___  _' +
+    '\n|  _ \ __|_   _/ _ \ / _ \| |' +
+    '\n| |_) / _ \| || | | | | | | |' +
+    '\n|  _ <  __/| || |_| | |_| | |___' +
+    '\n|_| \_\___||_| \___/ \___/|_____/ ' + font.end + 'v' + version_number)
+
     print('=======================================\n')
     if len(sys.argv) == 1:
         print('Strips Redump (' + font.underline + 'http://redump.org/' + font.end + ') dats to only include English titles from\nall regions, with no dupes. US titles are preferenced. This is not an\nofficial Redump project.')
@@ -295,9 +295,8 @@ def main():
     print('=  New title count: ' + str('{:,}'.format(new_title_count)) + font.end + '\n')
 
     # Write the dat file
-
     if user_input.file_output.endswith('.dat'):
-        user_input.file_output = user_input.file_output.strip('.dat')
+        user_input.file_output = user_input.file_output[:-4]
 
     try:
         if user_input.regions_en == True or user_input.regions_all == True:
@@ -364,29 +363,46 @@ class font:
 # Generic error message
 def error_instruction():
     print('\nUSAGE:\n' + font.bold + ' python ' + os.path.basename(__file__) + ' -i input.dat -o output.dat <options>' + font.end)
+    print(font.bold + ' python ' + os.path.basename(__file__) + ' -r folder <options>' + font.end)
     print('\nOPTIONS:\n' + font.bold + ' -a' + font.end + '   Remove applications')
     print(font.bold + ' -d' + font.end + '   Remove demos and coverdiscs')
     print(font.bold + ' -e' + font.end + '   Remove educational')
     print(font.bold + ' -m' + font.end + '   Remove multimedia')
     print(font.bold + ' -p' + font.end + '   Remove betas and prototypes')
-    print(font.bold + ' -ra' + font.end + '  Split into regions, all languages (not checked for dupes)')
-    print(font.bold + ' -re' + font.end + '  Split into regions, English only (not checked for dupes)')
+    print(font.bold + ' -r' + font.end + '   Process dat files recursively (ignores -o, -i)')
+    print(font.bold + ' -ra' + font.end + '  Split into regions, all languages (dupes are included)')
+    print(font.bold + ' -re' + font.end + '  Split into regions, English only')
     sys.exit()
 
 # Check user input
 def check_input():
     error_state = False
 
+    # Handle optional flags
+    flag_no_apps = True if len([x for x in sys.argv if '-a' in x]) >= 1 else False
+    flag_no_demos = True if len([x for x in sys.argv if '-d' in x]) >= 1 else False
+    flag_no_edu = True if len([x for x in sys.argv if '-e' in x]) >= 1 else False
+    flag_no_multi = True if len([x for x in sys.argv if '-m' in x]) >= 1 else False
+    flag_no_protos = True if len([x for x in sys.argv if '-p' in x]) >= 1 else False
+    flag_recursive = True if len([x for x in sys.argv if '-r' in x]) >= 1 else False
+
+    if len([x for x in sys.argv if '-ra' in x]) > 0 and len([x for x in sys.argv if '-re' in x]) > 0:
+        print(font.red + '* The -ra and -re options can\'t be combined' + font.end)
+        error_state = True
+    else:
+        flag_regions_en = True if len([x for x in sys.argv if '-re' in x]) == 1 else False
+        flag_regions_all = True if len([x for x in sys.argv if '-ra' in x]) == 1 else False
+
     # If no flags provided, or if -i or -o are missing
     if len(sys.argv) == 1:
         error_instruction()
 
-    if len([x for x in sys.argv if '-i' in x]) == 0 or len([x for x in sys.argv if '-o' in x]) == 0:
+    if (len([x for x in sys.argv if '-i' in x]) == 0 or len([x for x in sys.argv if '-o' in x]) == 0) and flag_recursive == False:
 
         if len([x for x in sys.argv if '-i' in x]) == 0:
             print(font.red + '* Missing -i, no input file specified' + font.end)
 
-        if len([x for x in sys.argv if '-o' in x]) == 0:
+        if len([x for x in sys.argv if '-o' in x]) == 0 and flag_recursive == False :
             print(font.red + '* Missing -o, no output file specified' + font.end)
 
         error_state = True
@@ -397,12 +413,12 @@ def check_input():
 
     for i, x in enumerate(sys.argv):
         if x.startswith('-'):
-            if not ((x == '-i') or (x == '-o') or (x == '-a') or (x == '-d') or (x == '-e') or (x == '-m') or (x == '-p') or (x == '-ra') or (x == '-re')):
+            if not ((x == '-i') or (x == '-o') or (x == '-a') or (x == '-d') or (x == '-e') or (x == '-m') or (x == '-p') or (x == '-ra') or (x == '-re') or (x == '-r')):
                 print(font.red + '* Invalid option ' + sys.argv[i] + font.end)
                 error_state = True
 
         if x == '-i':
-            if i+1 == len(sys.argv) or bool(re.search('-([ioademp]|re|ra])', sys.argv[i+1])):
+            if i+1 == len(sys.argv) or bool(re.search('-([ioadempr]|re|ra])', sys.argv[i+1])):
                 print(font.red + '* No input file specified' + font.end)
                 error_state = True
             else:
@@ -427,32 +443,20 @@ def check_input():
             else:
                 output_file_name = sys.argv[i+1]
 
-            if len([x for x in sys.argv if '-o' in x]) > 1:
-                excess_o = True
-                error_state = True
+            if len([x for x in sys.argv if '-o' in x]) > 1 and flag_recursive == False:
+                    excess_o = True
+                    error_state = True
 
     if excess_i == True: print(font.red + '* Can\'t have more than one -i' + font.end)
-    if excess_o == True: print(font.red + '* Can\'t have more than one -o' + font.end)
 
-    # Handle optional flags
-    flag_no_apps = True if len([x for x in sys.argv if '-a' in x]) >= 1 else False
-    flag_no_demos = True if len([x for x in sys.argv if '-d' in x]) >= 1 else False
-    flag_no_edu = True if len([x for x in sys.argv if '-e' in x]) >= 1 else False
-    flag_no_multi = True if len([x for x in sys.argv if '-m' in x]) >= 1 else False
-    flag_no_protos = True if len([x for x in sys.argv if '-p' in x]) >= 1 else False
-
-    if len([x for x in sys.argv if '-ra' in x]) > 0 and len([x for x in sys.argv if '-re' in x]) > 0:
-        print(font.red + '* The -ra and -re options can\'t be combined' + font.end)
-        error_state = True
-    else:
-        flag_regions_en = True if len([x for x in sys.argv if '-re' in x]) == 1 else False
-        flag_regions_all = True if len([x for x in sys.argv if '-ra' in x]) == 1 else False
+    if flag_recursive == False:
+        if excess_o == True: print(font.red + '* Can\'t have more than one -o' + font.end)
 
     # Exit if there was an error in user input
     if error_state == True:
         error_instruction()
 
-    return UserInput(input_file_name, output_file_name, flag_no_demos, flag_no_apps, flag_no_protos, flag_no_multi, flag_no_edu, flag_regions_all, flag_regions_en)
+    return UserInput(input_file_name, output_file_name, flag_no_demos, flag_no_apps, flag_no_protos, flag_no_multi, flag_no_edu, flag_regions_all, flag_regions_en, flag_recursive)
 
 # Converts CLRMAMEPro format to XML
 def convert_clr_logiqx(clrmame_header, checkdat):
@@ -508,6 +512,8 @@ def header(dat_name, dat_version, dat_author, dat_url, new_title_count, region, 
         if user_input.no_multi == True: dat_header_exclusion += 'm'
         if user_input.no_protos == True: dat_header_exclusion += 'p'
         dat_header_exclusion += ')'
+    else:
+        dat_header_exclusion = ''
 
     if user_input.regions_en == True:
         name = '\n\t\t<name>' + dat_name  + new_title_count + '(' + dat_version + ') (' + region + ') (English)' + dat_header_exclusion + '</name>'
@@ -535,7 +541,7 @@ def header(dat_name, dat_version, dat_author, dat_url, new_title_count, region, 
 
 #Establish a class for user input
 class UserInput:
-    def __init__(self, file_input, file_output, no_demos, no_apps, no_protos, no_multi, no_edu, regions_all, regions_en):
+    def __init__(self, file_input, file_output, no_demos, no_apps, no_protos, no_multi, no_edu, regions_all, regions_en, recursive):
         self.file_input = file_input
         self.file_output = file_output
         self.no_demos = no_demos
@@ -545,6 +551,7 @@ class UserInput:
         self.no_edu = no_edu
         self.regions_all = regions_all
         self.regions_en = regions_en
+        self.recursive = recursive
 
 # Establish a class for title data
 class DatNode:
