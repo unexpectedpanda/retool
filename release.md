@@ -1,6 +1,7 @@
 # 0.33
-- Added ability to operate recursively on folders.
-- Fixed output naming bug.
+- Added ability to operate on folders.
+- Fixed output file naming bugs.
+- Fixed some user input issues.
 - Tidied up some output for increased readability.
 
 # 0.32

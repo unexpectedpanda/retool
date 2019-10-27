@@ -16,6 +16,7 @@ pip install lxml
 
 ## Usage
 `python retool.py -i input.dat -o output.dat <options>`
+`python retool.py -f <folder> <options>`
 
 ## Options
 * `-a` Remove applications
@@ -23,7 +24,8 @@ pip install lxml
 * `-e` Remove educational
 * `-m` Remove multimedia
 * `-p` Remove betas and prototypes
-* `-ra` Split into regions, all languages (not checked for dupes)
+* `-f` Process dat files in a specified folder (ignores -o, -i)
+* `-ra` Split into regions, all languages (dupes are included)
 * `-re` Split into regions, English only
 
 ## How it works

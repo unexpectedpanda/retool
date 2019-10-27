@@ -29,9 +29,6 @@ def main():
     if len(sys.argv) == 1:
         print('Strips Redump (' + font.underline + 'http://redump.org/' + font.end + ') dats to only include English titles from\nall regions, with no dupes. US titles are preferenced. This is not an\nofficial Redump project.')
 
-    # Check user input
-    user_input = check_input()
-
     # Define regions where English is a primary language
     region_list_english = [
         'USA',
@@ -76,271 +73,28 @@ def main():
         'Taiwan'
     ]
 
-    # Combine the region lists so we can search for titles without regions later
-    region_list = ''
-    for i, region in enumerate(region_list_english + region_list_other):
-        if i < len(region_list_english + region_list_other) - 1:
-            region_list += region + '|'
-        else:
-            region_list += region
-
-    # Check if the user defined output file already exists
-    overwrite_file = False
-
-    if user_input.regions_en == True or user_input.regions_all == True:
-        region_output_files = False
-        for region in region_list_english + region_list_other:
-            if os.path.isfile(user_input.file_output + ' [' + region + '].dat') == True:
-                region_output_files += 1
-        if region_output_files != False:
-            while overwrite_file != 'y' and overwrite_file != 'n' and overwrite_file != '':
-                if region_output_files > 1:
-                    overwrite_file = input('There are ' + str(region_output_files) + ' dat files with the format "' + font.bold + user_input.file_output + ' [<region name>].dat"' + font.end + ' that already exist. Continuing may overwrite some or all of them. Do you want to continue? [y/N] > ').lower()
-                else:
-                    overwrite_file = input('A dat file with the format "' + font.bold + user_input.file_output + ' [<region name>].dat"' + font.end + ' already exists. Do you want to overwrite it? [y/N] > ').lower()
-
-            if overwrite_file == 'n' or overwrite_file == '':
-                print('\nExiting Retool...')
-                sys.exit()
-            elif overwrite_file == 'y':
-                print()
-    else:
-        if os.path.isfile(user_input.file_output) == True or os.path.isfile(user_input.file_output + '.dat') == True:
-            while overwrite_file != 'y' and overwrite_file != 'n' and overwrite_file != '':
-                overwrite_file = input('The file ' + font.bold + user_input.file_output + '.dat' + font.end + ' already exists. Do you want to overwrite it? [y/N] > ').lower()
-
-            if overwrite_file == 'n' or overwrite_file == '':
-                print('\nExiting Retool...')
-                sys.exit()
-            elif overwrite_file == 'y':
-                print('\n* Overwriting ' + font.bold + user_input.file_output + '.dat' + font.end)
-
+    # Check user input
+    user_input = check_input(region_list_english, region_list_other)
 
     # Record when the process started
     start = time.time()
 
-    # Read in the dat file
-    print('* Reading dat file: "' + font.bold + user_input.file_input + font.end + '"')
-    try:
-        with open(user_input.file_input, 'r') as input_file_read:
-            print('* Validating dat file... ', sep=' ', end='', flush=True)
-            checkdat = input_file_read.read()
-    except OSError as e:
-        print('\n' + font.bold + font.red + '* Error: ' + font.end + str(e) + '\n')
-        raise
-
-    # Make sure the dat file isn't a CLRMAMEPro dat, if it is, check it's valid and convert it
-    clrmame_header = re.findall('^clrmamepro \($.*?^\)$', checkdat, re.M|re.S)
-    if clrmame_header:
-        print('file is a CLRMAMEPro dat file.')
-        converted_dat = convert_clr_logiqx(clrmame_header, checkdat)
-        xml_convert = converted_dat[0]
-        dat_name = converted_dat[1]
-        dat_description = converted_dat[2]
-        dat_author = converted_dat[3]
-        dat_url = 'redump.org'
-        dat_version = 'Unknown'
-        soup = BeautifulSoup(xml_convert, "lxml-xml")
-    else:
-        soup = BeautifulSoup(checkdat, "lxml-xml")
-        # Check for a valid Redump XML dat, then grab the dat details
-        for item in soup.contents:
-            if isinstance(item, Doctype):
-                if item == 'datafile PUBLIC "-//Logiqx//DTD ROM Management Datafile//EN" "http://www.logiqx.com/Dats/datafile.dtd"':
-                    print('file is a Logiqx dat file.')
-                    if soup.find('author').string == 'redump.org':
-                        dat_name = soup.find('name').string
-                        dat_description = soup.find('description').string
-                        dat_author = soup.find('author').string
-                        dat_url = soup.find('url').string
-                        dat_version = soup.find('version').string
-                    else:
-                        print(font.red + '\n* This dat file isn\t authored by Redump' + font.end)
-                        sys.exit()
-                else:
-                    print(font.red + '\n* "' + user_input.file_input + '" isn\'t a CLRMAMEPro dat file.' + font.end)
-                    sys.exit()
-
-    print('\n|  Description: ' + dat_description)
-    print('|  Author: ' + dat_author)
-    print('|  URL: ' + dat_url)
-    print('|  Version: ' + dat_version + '\n')
-
-    # Find out how many titles are in the dat file
-    original_title_count = len(soup.find_all('game'))
-
-    # Store regions in a dictionary
-    titles = {}
-    unique_regional_titles = {}
-
-    # First populate the regions that are natively in English
-    for region in region_list_english:
-        titles[region] = localized_titles(region, True, soup)
-
-    # Now those that may have English versions
-    for region in region_list_other:
-        titles[region] = localized_titles(region, user_input.regions_all, soup)
-
-    sys.stdout.write("\033[K")
-    print('* Checking dat for regions... done.')
-
-    print('* Checking dat for titles without regions... ', sep=' ', end='', flush=True)
-
-    # Finally, titles without regions
-    titles['Unknown'] = localized_titles(region_list, 'Unknown', soup)
-
-    if titles['Unknown'] == []:
-        print('none found.')
-    else:
-        print('done.')
-
-    # Variable that holds each title's XML. Titles get added one by one to be written to a file later
-    final_title_xml= ''
-
-    # Create a list to store unique titles
-    unique_list = []
-
-    # Start work on the other regions
-    if user_input.regions_all == True:
-        print('* Splitting regions...')
-    else:
-        print('* Looking for English non-dupes...')
-
-    # Set up dupe lists for titles that have the same content, but different names in different regions
-    dupe_list = []
-
-    if dat_name == 'Microsoft - Xbox': dupe_list = _regional_renames.xbox_rename_list()
-    if dat_name == 'Microsoft - Xbox 360': dupe_list = _regional_renames.x360_rename_list()
-    if dat_name == 'Microsoft - Xbox One': dupe_list = _regional_renames.xbone_rename_list()
-    if dat_name == 'Nintendo - GameCube': dupe_list = _regional_renames.gamecube_rename_list()
-    if dat_name == 'Nintendo - Wii': dupe_list = _regional_renames.wii_rename_list()
-    if dat_name == 'Nintendo - Wii U': dupe_list = _regional_renames.wii_u_rename_list()
-    if dat_name == 'Panasonic - 3DO Interactive Multiplayer': dupe_list = _regional_renames.threedo_rename_list()
-    if dat_name == 'Sega - Dreamcast': dupe_list = _regional_renames.dreamcast_rename_list()
-    if dat_name == 'Sega - Mega CD & Sega CD': dupe_list = _regional_renames.segacd_rename_list()
-    if dat_name == 'Sega - Saturn': dupe_list = _regional_renames.saturn_rename_list()
-    if dat_name == 'Sony - PlayStation': dupe_list = _regional_renames.psx_rename_list()
-    if dat_name == 'Sony - PlayStation 2': dupe_list = _regional_renames.ps2_rename_list()
-    if dat_name == 'Sony - PlayStation 3': dupe_list = _regional_renames.ps3_rename_list()
-    if dat_name == 'Sony - PlayStation 4': dupe_list = _regional_renames.ps4_rename_list()
-    if dat_name == 'Sony - PlayStation Portable': dupe_list = _regional_renames.psp_rename_list()
-
-    # Find unique titles in each region and add their XML node
-    final_title_xml = add_titles(region_list_english + region_list_other, titles, unique_list, dupe_list, user_input, unique_regional_titles)
-
-    unique_regional_titles['Unknown'] = localized_titles_unique('Unknown', titles['Unknown'], unique_list, dupe_list, user_input)
-
-    # Find titles without regions
-
-    if len(unique_regional_titles['Unknown']) > 1:
-        unknown_region_title_count = len(unique_regional_titles['Unknown']['unique_titles'])
-        print('  * Adding titles without regions...', sep='', end='\r', flush=True)
-
-        # Add titles to XML
-        if user_input.regions_en == True or user_input.regions_all == True:
-            final_title_xml['Unknown'] = convert_to_xml('Unknown', unique_regional_titles, titles, user_input)
-        else:
-            final_title_xml += convert_to_xml('Unknown', unique_regional_titles, titles, user_input)
-
-        sys.stdout.write("\033[K")
-        print('  * Adding titles without regions... done.')
-    else:
-        unknown_region_title_count = 0
-
-    # Stats so people can see something was done
-    new_title_count = 0
-
-    if user_input.regions_en == True or user_input.regions_all == True:
-        new_title_count_region = {}
-        for region in region_list_english + region_list_other:
-            if final_title_xml.get(region, -1) != -1:
-                new_title_count_region[region] = final_title_xml[region].count('<game name=')
-                new_title_count += int(new_title_count_region[region])
-        new_title_count += unknown_region_title_count
-    else:
-        new_title_count = final_title_xml.count('<game name=')
-
-    if new_title_count == 0:
-        print(font.yellow + '\n* No titles found. No dat file has been created.' + font.end)
+    # Start processing the dats
+    if os.path.isdir(user_input.file_input) == True:
+        print('FUck')
         sys.exit()
+    else:
+        new_title_count = process_dats(user_input, region_list_english, region_list_other)
 
-    print('\nStats:\n○  Original title count: ' + str('{:,}'.format(original_title_count)))
-    apps_count = 0
-    demos_count = 0
-    edu_count = 0
-    multi_count = 0
-    protos_count = 0
+    stop = time.time()
 
-    if user_input.no_apps == True:
-        apps_count = len(soup.find_all('category', string='Applications'))
-        print('-  Applications removed: ' + str('{:,}'.format(apps_count)))
-    if user_input.no_demos == True:
-        demos_count = len(soup.find_all('category', string='Demos')) + len(soup.find_all('category', string='Coverdiscs'))
-        print('-  Demos removed: ' + str('{:,}'.format(demos_count)))
-    if user_input.no_edu == True:
-        edu_count = len(soup.find_all('category', string='Educational'))
-        print('-  Educational titles removed: ' + str('{:,}'.format(edu_count)))
-    if user_input.no_multi == True:
-        multi_count = len(soup.find_all('category', string='Multimedia'))
-        print('-  Multimedia titles removed: ' + str('{:,}'.format(multi_count)))
-    if user_input.no_protos == True:
-        protos_count = len(soup.find_all('category', string='Preproduction'))
-        print('-  Prototypes and betas removed: ' + str('{:,}'.format(protos_count)))
-    if len(unique_regional_titles['Unknown']) > 1:
-        print('+  Titles without regions included (may not be English): ' + str('{:,}'.format(unknown_region_title_count)))
-
-    print('-  Dupes and non-English titles removed: ' + str('{:,}'.format(original_title_count - new_title_count -apps_count - demos_count - edu_count - multi_count - protos_count)))
-
-    print(font.bold + '---------------------------')
-    print('=  New title count: ' + str('{:,}'.format(new_title_count)) + font.end + '\n')
-
-    # Write the dat file
-    if user_input.file_output.endswith('.dat'):
-        user_input.file_output = user_input.file_output[:-4]
-
-    try:
-        if user_input.regions_en == True or user_input.regions_all == True:
-            print('* Writing regional dat files...\n')
-            for region in region_list_english + region_list_other:
-                if final_title_xml.get(region, -1) != -1 and new_title_count_region[region] > 0:
-                    with open(user_input.file_output + ' (' + region + ').dat', 'w') as output_file:
-                        dat_header = header(dat_name, dat_version, dat_author, dat_url, new_title_count_region[region], region, user_input)
-                        output_file.writelines(dat_header)
-                        output_file.writelines(final_title_xml[region])
-                        output_file.writelines('</datafile>')
-                        output_file.close()
-
-            if final_title_xml.get('Unknown', -1) != -1:
-                with open(user_input.file_output + ' (Unknown).dat', 'w') as output_file:
-                    dat_header = header(dat_name, dat_version, dat_author, dat_url, unknown_region_title_count, 'Unknown', user_input)
-                    output_file.writelines(dat_header)
-                    output_file.writelines(final_title_xml['Unknown'])
-                    output_file.writelines('</datafile>')
-                    output_file.close()
-
-            stop = time.time()
-            if user_input.regions_en == True:
-                print(font.green + '* Finished adding unique English titles to regional dats in ' + str('{0:.2f}'.format(round(stop - start,2))) + 's.' + font.end)
-            else:
-                print(font.green + '* Finished splitting "' + font.bold + user_input.file_input + font.end + font.green + '" into regional dats in ' + str('{0:.2f}'.format(round(stop - start,2))) + 's.' + font.end)
-        else:
-            print('* Writing dat file...\n')
-            with open(user_input.file_output + '.dat', 'w') as output_file:
-                dat_header = header(dat_name, dat_version, dat_author, dat_url, new_title_count, False, user_input)
-                output_file.writelines(dat_header)
-                output_file.writelines(final_title_xml)
-                output_file.writelines('</datafile>')
-                output_file.close()
-            # Record when the program stopped
-            stop = time.time()
-
-            print(font.green + '* Finished adding ' + str('{:,}'.format(new_title_count)) + ' unique English titles to "' +  font.bold + user_input.file_output + '.dat' + font.end + font.green + '" in ' + str('{0:.2f}'.format(round(stop - start,2))) + 's.' + font.end)
-    except OSError as e:
-        print('\n' + font.bold + font.red + '* Error: ' + font.end + str(e) + '\n')
-        raise
+    if user_input.regions_en == True:
+        print(font.green + '* Finished adding unique English titles to regional dats in ' + str('{0:.2f}'.format(round(stop - start,2))) + 's.' + font.end)
+    elif user_input.regions_all == True:
+        print(font.green + '* Finished splitting "' + font.bold + user_input.file_input + font.end + font.green + '" into regional dats in ' + str('{0:.2f}'.format(round(stop - start,2))) + 's.' + font.end)
+    else:
+        print(font.green + '* Finished adding ' + str('{:,}'.format(new_title_count)) + ' unique English titles to "' +  font.bold + user_input.file_output + '.dat' + font.end + font.green + '" in ' + str('{0:.2f}'.format(round(stop - start,2))) + 's.' + font.end)
     return
-
-
 
 ############### Classes and methods ###############
 
@@ -362,63 +116,58 @@ class font:
 
 # Generic error message
 def error_instruction():
-    print('\nUSAGE:\n' + font.bold + ' python ' + os.path.basename(__file__) + ' -i input.dat -o output.dat <options>' + font.end)
-    print(font.bold + ' python ' + os.path.basename(__file__) + ' -r folder <options>' + font.end)
+    print('\nUSAGE:\n' + font.bold + ' python ' + os.path.basename(__file__) + ' -i ' + font.end + '<input.dat or folder>' + font.bold + ' -o ' + font.end + '<output.dat or folder> <options>')
     print('\nOPTIONS:\n' + font.bold + ' -a' + font.end + '   Remove applications')
     print(font.bold + ' -d' + font.end + '   Remove demos and coverdiscs')
     print(font.bold + ' -e' + font.end + '   Remove educational')
     print(font.bold + ' -m' + font.end + '   Remove multimedia')
     print(font.bold + ' -p' + font.end + '   Remove betas and prototypes')
-    print(font.bold + ' -r' + font.end + '   Process dat files recursively (ignores -o, -i)')
     print(font.bold + ' -ra' + font.end + '  Split into regions, all languages (dupes are included)')
     print(font.bold + ' -re' + font.end + '  Split into regions, English only')
     sys.exit()
 
 # Check user input
-def check_input():
+def check_input(region_list_english, region_list_other):
     error_state = False
 
     # Handle optional flags
-    flag_no_apps = True if len([x for x in sys.argv if '-a' in x]) >= 1 else False
-    flag_no_demos = True if len([x for x in sys.argv if '-d' in x]) >= 1 else False
-    flag_no_edu = True if len([x for x in sys.argv if '-e' in x]) >= 1 else False
-    flag_no_multi = True if len([x for x in sys.argv if '-m' in x]) >= 1 else False
-    flag_no_protos = True if len([x for x in sys.argv if '-p' in x]) >= 1 else False
-    flag_recursive = True if len([x for x in sys.argv if '-r' in x]) >= 1 else False
+    flag_no_apps = True if len([x for x in sys.argv if x == '-a']) >= 1 else False
+    flag_no_demos = True if len([x for x in sys.argv if x == '-d']) >= 1 else False
+    flag_no_edu = True if len([x for x in sys.argv if x == '-e']) >= 1 else False
+    flag_no_multi = True if len([x for x in sys.argv if x == '-m']) >= 1 else False
+    flag_no_protos = True if len([x for x in sys.argv if x == '-p']) >= 1 else False
 
     if len([x for x in sys.argv if '-ra' in x]) > 0 and len([x for x in sys.argv if '-re' in x]) > 0:
         print(font.red + '* The -ra and -re options can\'t be combined' + font.end)
         error_state = True
     else:
-        flag_regions_en = True if len([x for x in sys.argv if '-re' in x]) == 1 else False
-        flag_regions_all = True if len([x for x in sys.argv if '-ra' in x]) == 1 else False
+        flag_regions_en = True if len([x for x in sys.argv if x == '-re']) >= 1 else False
+        flag_regions_all = True if len([x for x in sys.argv if x == '-ra']) >= 1 else False
 
     # If no flags provided, or if -i or -o are missing
     if len(sys.argv) == 1:
         error_instruction()
 
-    if (len([x for x in sys.argv if '-i' in x]) == 0 or len([x for x in sys.argv if '-o' in x]) == 0) and flag_recursive == False:
-
+    if (len([x for x in sys.argv if '-i' in x]) == 0 or len([x for x in sys.argv if '-o' in x]) == 0):
         if len([x for x in sys.argv if '-i' in x]) == 0:
             print(font.red + '* Missing -i, no input file specified' + font.end)
 
-        if len([x for x in sys.argv if '-o' in x]) == 0 and flag_recursive == False :
+        if len([x for x in sys.argv if '-o' in x]) == 0:
             print(font.red + '* Missing -o, no output file specified' + font.end)
 
         error_state = True
 
-    # Handle input, output, and invalid flags
+    # Handle input, output, recursive, and invalid flags
     excess_i = False
     excess_o = False
 
     for i, x in enumerate(sys.argv):
         if x.startswith('-'):
-            if not ((x == '-i') or (x == '-o') or (x == '-a') or (x == '-d') or (x == '-e') or (x == '-m') or (x == '-p') or (x == '-ra') or (x == '-re') or (x == '-r')):
+            if not ((x == '-i') or (x == '-o') or (x == '-a') or (x == '-d') or (x == '-e') or (x == '-m') or (x == '-p') or (x == '-ra') or (x == '-re')):
                 print(font.red + '* Invalid option ' + sys.argv[i] + font.end)
                 error_state = True
-
         if x == '-i':
-            if i+1 == len(sys.argv) or bool(re.search('-([ioadempr]|re|ra])', sys.argv[i+1])):
+            if i+1 == len(sys.argv) or bool(re.search('-([ioademp]|re|ra])', sys.argv[i+1])):
                 print(font.red + '* No input file specified' + font.end)
                 error_state = True
             else:
@@ -428,35 +177,64 @@ def check_input():
                     print(font.red + '* Input file "' + font.bold + input_file_name + font.end + font.red + '" does not exist.' + font.end)
                     error_state = True
 
-                if not input_file_name.endswith('.dat'):
-                    print(font.red + '* Input file must have a .dat extension' + font.end)
-                    error_state = True
-
             if len([x for x in sys.argv if '-i' in x]) > 1:
                 excess_i = True
                 error_state = True
 
         if x == '-o':
-            if i+1 == len(sys.argv) or bool(re.search('-([ioademp]|re|ra])', sys.argv[i+1])):
-                print(font.red + '* No output file specified' + font.end)
-                error_state = True
-            else:
-                output_file_name = sys.argv[i+1]
-
-            if len([x for x in sys.argv if '-o' in x]) > 1 and flag_recursive == False:
-                    excess_o = True
+                if i+1 == len(sys.argv) or bool(re.search('-([ioademp]|re|ra])', sys.argv[i+1])):
+                    print(font.red + '* No output file specified' + font.end)
                     error_state = True
+                else:
+                    output_file_name = sys.argv[i+1]
+                    # Strip .dat from the end of the output file if it exists
+                    if output_file_name.endswith('.dat'):
+                        output_file_name = output_file_name[:-4]
+
+        if len([x for x in sys.argv if '-o' in x]) > 1:
+                excess_o = True
+                error_state = True
 
     if excess_i == True: print(font.red + '* Can\'t have more than one -i' + font.end)
-
-    if flag_recursive == False:
-        if excess_o == True: print(font.red + '* Can\'t have more than one -o' + font.end)
+    if excess_o == True: print(font.red + '* Can\'t have more than one -o' + font.end)
 
     # Exit if there was an error in user input
     if error_state == True:
         error_instruction()
 
-    return UserInput(input_file_name, output_file_name, flag_no_demos, flag_no_apps, flag_no_protos, flag_no_multi, flag_no_edu, flag_regions_all, flag_regions_en, flag_recursive)
+    # Check if the user defined output file already exists
+    overwrite_file = False
+
+
+    if flag_regions_en == True or flag_regions_all == True:
+        region_output_files = False
+        for region in region_list_english + region_list_other:
+            if os.path.isfile(output_file_name + ' (' + region + ').dat') == True:
+                region_output_files += 1
+        if region_output_files != False:
+            while overwrite_file != 'y' and overwrite_file != 'n' and overwrite_file != '':
+                if region_output_files > 1:
+                    overwrite_file = input('There are ' + str(region_output_files) + ' dat files with the format "' + font.bold + output_file_name + ' (<region name>).dat"' + font.end + ' that already exist. Continuing may overwrite some or all of them. Do you want to continue? [y/N] > ').lower()
+                else:
+                    overwrite_file = input('A dat file with the format "' + font.bold + output_file_name + ' [<region name>].dat"' + font.end + ' already exists. Do you want to overwrite it? [y/N] > ').lower()
+
+            if overwrite_file == 'n' or overwrite_file == '':
+                print('\nExiting Retool...')
+                sys.exit()
+            elif overwrite_file == 'y':
+                print()
+    else:
+        if os.path.isfile(output_file_name) == True or os.path.isfile(output_file_name + '.dat') == True:
+            while overwrite_file != 'y' and overwrite_file != 'n' and overwrite_file != '':
+                overwrite_file = input('The file ' + font.bold + output_file_name + '.dat' + font.end + ' already exists. Do you want to overwrite it? [y/N] > ').lower()
+
+            if overwrite_file == 'n' or overwrite_file == '':
+                print('\nExiting Retool...')
+                sys.exit()
+            elif overwrite_file == 'y':
+                print('\n* Overwriting ' + font.bold + output_file_name + '.dat' + font.end)
+
+    return UserInput(input_file_name, output_file_name, flag_no_demos, flag_no_apps, flag_no_protos, flag_no_multi, flag_no_edu, flag_regions_all, flag_regions_en)
 
 # Converts CLRMAMEPro format to XML
 def convert_clr_logiqx(clrmame_header, checkdat):
@@ -541,7 +319,7 @@ def header(dat_name, dat_version, dat_author, dat_url, new_title_count, region, 
 
 #Establish a class for user input
 class UserInput:
-    def __init__(self, file_input, file_output, no_demos, no_apps, no_protos, no_multi, no_edu, regions_all, regions_en, recursive):
+    def __init__(self, file_input, file_output, no_demos, no_apps, no_protos, no_multi, no_edu, regions_all, regions_en):
         self.file_input = file_input
         self.file_output = file_output
         self.no_demos = no_demos
@@ -551,7 +329,6 @@ class UserInput:
         self.no_edu = no_edu
         self.regions_all = regions_all
         self.regions_en = regions_en
-        self.recursive = recursive
 
 # Establish a class for title data
 class DatNode:
@@ -695,6 +472,222 @@ def convert_to_xml(region, unique_regional_titles, titles, user_input):
                 sys.stdout.write("\033[K")
                 print('  * Adding unique titles from ' + region + '... ' + str(int(progress_percent)) + '%', sep='', end='\r', flush=True)
     return final_title_xml
+
+# The actual file operations on the dat files
+def process_dats(user_input, region_list_english, region_list_other):
+    # Read in the dat file
+    print('* Reading dat file: "' + font.bold + user_input.file_input + font.end + '"')
+    try:
+        with open(user_input.file_input, 'r') as input_file_read:
+            print('* Validating dat file... ', sep=' ', end='', flush=True)
+            checkdat = input_file_read.read()
+    except OSError as e:
+        print('\n' + font.bold + font.red + '* Error: ' + font.end + str(e) + '\n')
+        raise
+
+    # Make sure the dat file isn't a CLRMAMEPro dat, if it is, check it's valid and convert it
+    clrmame_header = re.findall('^clrmamepro \($.*?^\)$', checkdat, re.M|re.S)
+    if clrmame_header:
+        print('file is a CLRMAMEPro dat file.')
+        converted_dat = convert_clr_logiqx(clrmame_header, checkdat)
+        xml_convert = converted_dat[0]
+        dat_name = converted_dat[1]
+        dat_description = converted_dat[2]
+        dat_author = converted_dat[3]
+        dat_url = 'redump.org'
+        dat_version = 'Unknown'
+        soup = BeautifulSoup(xml_convert, "lxml-xml")
+    else:
+        soup = BeautifulSoup(checkdat, "lxml-xml")
+        # Check for a valid Redump XML dat, then grab the dat details
+        for item in soup.contents:
+            if isinstance(item, Doctype):
+                if item == 'datafile PUBLIC "-//Logiqx//DTD ROM Management Datafile//EN" "http://www.logiqx.com/Dats/datafile.dtd"':
+                    print('file is a Logiqx dat file.')
+                    if soup.find('author').string == 'redump.org':
+                        dat_name = soup.find('name').string
+                        dat_description = soup.find('description').string
+                        dat_author = soup.find('author').string
+                        dat_url = soup.find('url').string
+                        dat_version = soup.find('version').string
+                    else:
+                        print(font.red + '\n* This dat file isn\t authored by Redump' + font.end)
+                        sys.exit()
+                else:
+                    print(font.red + '\n* "' + user_input.file_input + '" isn\'t a CLRMAMEPro dat file.' + font.end)
+                    sys.exit()
+
+    print('\n|  Description: ' + dat_description)
+    print('|  Author: ' + dat_author)
+    print('|  URL: ' + dat_url)
+    print('|  Version: ' + dat_version + '\n')
+
+    # Find out how many titles are in the dat file
+    original_title_count = len(soup.find_all('game'))
+
+    # Store regions in a dictionary
+    titles = {}
+    unique_regional_titles = {}
+
+    # First populate the regions that are natively in English
+    for region in region_list_english:
+        titles[region] = localized_titles(region, True, soup)
+
+    # Now those that may have English versions
+    for region in region_list_other:
+        titles[region] = localized_titles(region, user_input.regions_all, soup)
+
+    sys.stdout.write("\033[K")
+    print('* Checking dat for regions... done.')
+
+    print('* Checking dat for titles without regions... ', sep=' ', end='', flush=True)
+
+    # Finally, titles without regions
+    region_list = ''
+    for i, region in enumerate(region_list_english + region_list_other):
+        if i < len(region_list_english + region_list_other) - 1:
+            region_list += region + '|'
+        else:
+            region_list += region
+
+    titles['Unknown'] = localized_titles(region_list, 'Unknown', soup)
+
+    if titles['Unknown'] == []:
+        print('none found.')
+    else:
+        print('done.')
+
+    # Variable that holds each title's XML. Titles get added one by one to be written to a file later
+    final_title_xml= ''
+
+    # Create a list to store unique titles
+    unique_list = []
+
+    # Start work on the other regions
+    if user_input.regions_all == True:
+        print('* Splitting regions...')
+    else:
+        print('* Looking for English non-dupes...')
+
+    # Set up dupe lists for titles that have the same content, but different names in different regions
+    dupe_list = []
+
+    if dat_name == 'Microsoft - Xbox': dupe_list = _regional_renames.xbox_rename_list()
+    if dat_name == 'Microsoft - Xbox 360': dupe_list = _regional_renames.x360_rename_list()
+    if dat_name == 'Microsoft - Xbox One': dupe_list = _regional_renames.xbone_rename_list()
+    if dat_name == 'Nintendo - GameCube': dupe_list = _regional_renames.gamecube_rename_list()
+    if dat_name == 'Nintendo - Wii': dupe_list = _regional_renames.wii_rename_list()
+    if dat_name == 'Nintendo - Wii U': dupe_list = _regional_renames.wii_u_rename_list()
+    if dat_name == 'Panasonic - 3DO Interactive Multiplayer': dupe_list = _regional_renames.threedo_rename_list()
+    if dat_name == 'Sega - Dreamcast': dupe_list = _regional_renames.dreamcast_rename_list()
+    if dat_name == 'Sega - Mega CD & Sega CD': dupe_list = _regional_renames.segacd_rename_list()
+    if dat_name == 'Sega - Saturn': dupe_list = _regional_renames.saturn_rename_list()
+    if dat_name == 'Sony - PlayStation': dupe_list = _regional_renames.psx_rename_list()
+    if dat_name == 'Sony - PlayStation 2': dupe_list = _regional_renames.ps2_rename_list()
+    if dat_name == 'Sony - PlayStation 3': dupe_list = _regional_renames.ps3_rename_list()
+    if dat_name == 'Sony - PlayStation 4': dupe_list = _regional_renames.ps4_rename_list()
+    if dat_name == 'Sony - PlayStation Portable': dupe_list = _regional_renames.psp_rename_list()
+
+    # Find unique titles in each region and add their XML node
+    final_title_xml = add_titles(region_list_english + region_list_other, titles, unique_list, dupe_list, user_input, unique_regional_titles)
+
+    unique_regional_titles['Unknown'] = localized_titles_unique('Unknown', titles['Unknown'], unique_list, dupe_list, user_input)
+
+    # Find titles without regions
+
+    if len(unique_regional_titles['Unknown']) > 1:
+        unknown_region_title_count = len(unique_regional_titles['Unknown']['unique_titles'])
+        print('  * Adding titles without regions...', sep='', end='\r', flush=True)
+
+        # Add titles to XML
+        if user_input.regions_en == True or user_input.regions_all == True:
+            final_title_xml['Unknown'] = convert_to_xml('Unknown', unique_regional_titles, titles, user_input)
+        else:
+            final_title_xml += convert_to_xml('Unknown', unique_regional_titles, titles, user_input)
+
+        sys.stdout.write("\033[K")
+        print('  * Adding titles without regions... done.')
+    else:
+        unknown_region_title_count = 0
+
+    # Stats so people can see something was done
+    new_title_count = 0
+
+    if user_input.regions_en == True or user_input.regions_all == True:
+        new_title_count_region = {}
+        for region in region_list_english + region_list_other:
+            if final_title_xml.get(region, -1) != -1:
+                new_title_count_region[region] = final_title_xml[region].count('<game name=')
+                new_title_count += int(new_title_count_region[region])
+        new_title_count += unknown_region_title_count
+    else:
+        new_title_count = final_title_xml.count('<game name=')
+
+    if new_title_count == 0:
+        print(font.yellow + '\n* No titles found. No dat file has been created.' + font.end)
+        sys.exit()
+
+    print('\nStats:\n○  Original title count: ' + str('{:,}'.format(original_title_count)))
+    apps_count = 0
+    demos_count = 0
+    edu_count = 0
+    multi_count = 0
+    protos_count = 0
+
+    if user_input.no_apps == True:
+        apps_count = len(soup.find_all('category', string='Applications'))
+        print('-  Applications removed: ' + str('{:,}'.format(apps_count)))
+    if user_input.no_demos == True:
+        demos_count = len(soup.find_all('category', string='Demos')) + len(soup.find_all('category', string='Coverdiscs'))
+        print('-  Demos removed: ' + str('{:,}'.format(demos_count)))
+    if user_input.no_edu == True:
+        edu_count = len(soup.find_all('category', string='Educational'))
+        print('-  Educational titles removed: ' + str('{:,}'.format(edu_count)))
+    if user_input.no_multi == True:
+        multi_count = len(soup.find_all('category', string='Multimedia'))
+        print('-  Multimedia titles removed: ' + str('{:,}'.format(multi_count)))
+    if user_input.no_protos == True:
+        protos_count = len(soup.find_all('category', string='Preproduction'))
+        print('-  Prototypes and betas removed: ' + str('{:,}'.format(protos_count)))
+    if len(unique_regional_titles['Unknown']) > 1:
+        print('+  Titles without regions included (may not be English): ' + str('{:,}'.format(unknown_region_title_count)))
+
+    print('-  Dupes and non-English titles removed: ' + str('{:,}'.format(original_title_count - new_title_count -apps_count - demos_count - edu_count - multi_count - protos_count)))
+
+    print(font.bold + '---------------------------')
+    print('=  New title count: ' + str('{:,}'.format(new_title_count)) + font.end + '\n')
+
+    try:
+        if user_input.regions_en == True or user_input.regions_all == True:
+            print('* Writing regional dat files...\n')
+            for region in region_list_english + region_list_other:
+                if final_title_xml.get(region, -1) != -1 and new_title_count_region[region] > 0:
+                    with open(user_input.file_output + ' (' + region + ').dat', 'w') as output_file:
+                        dat_header = header(dat_name, dat_version, dat_author, dat_url, new_title_count_region[region], region, user_input)
+                        output_file.writelines(dat_header)
+                        output_file.writelines(final_title_xml[region])
+                        output_file.writelines('</datafile>')
+                        output_file.close()
+
+            if final_title_xml.get('Unknown', -1) != -1:
+                with open(user_input.file_output + ' (Unknown).dat', 'w') as output_file:
+                    dat_header = header(dat_name, dat_version, dat_author, dat_url, unknown_region_title_count, 'Unknown', user_input)
+                    output_file.writelines(dat_header)
+                    output_file.writelines(final_title_xml['Unknown'])
+                    output_file.writelines('</datafile>')
+                    output_file.close()
+        else:
+            print('* Writing dat file...\n')
+            with open(user_input.file_output + '.dat', 'w') as output_file:
+                dat_header = header(dat_name, dat_version, dat_author, dat_url, new_title_count, False, user_input)
+                output_file.writelines(dat_header)
+                output_file.writelines(final_title_xml)
+                output_file.writelines('</datafile>')
+                output_file.close()
+        return new_title_count
+    except OSError as e:
+        print('\n' + font.bold + font.red + '* Error: ' + font.end + str(e) + '\n')
+        raise
 
 if __name__ == '__main__':
     main()
