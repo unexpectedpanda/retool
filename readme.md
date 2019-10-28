@@ -42,37 +42,46 @@ Regions are parsed in the following order:
 4. Canada
 5. Australia
 6. New Zealand
-7. Ireland
-8. Brazil
-9. Latin America
-10. Europe
-11. Asia
-12. Scandinavia
-13. Japan
-14. Austria
-15. Belgium
-16. China
-17. Croatia
-18. Denmark
-19. Finland
-20. France
-21. Germany
-22. Greece
-23. India
-24. Israel
-25. Italy
-26. Korea
-27. Netherlands
-28. Norway
-29. Poland
-30. Portugal
-31. Russia
-32. South Africa
-33. Spain
-34. Sweden
-35. Switzerland
-36. Taiwan
-37. No region
+7. Singapore
+8. Ireland
+9. Brazil
+10. Latin America
+11. Europe
+12. Asia
+13. Scandinavia
+14. Japan
+15. Argentina
+16. Austria
+17. Belgium
+18. China
+19. Croatia
+20. Czech
+21. Denmark
+22. Finland
+23. France
+24. Germany
+25. Greece
+26. Hungary
+27. India
+28. Israel
+29. Italy
+30. Korea
+31. Netherlands
+32. Norway
+33. Poland
+34. Portugal
+35. Russia
+36. Slovakia
+37. South Africa
+38. Spain
+39. Sweden
+40. Switzerland
+41. Taiwan
+42. Thailand
+43. Turkey
+44. Ukraine
+45. United Arab Emirates
+46. No region
 
 As the program progresses through the regions, `_regional_renames.py` is
 referenced to check if any titles in the current region are the same as

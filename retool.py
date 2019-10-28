@@ -72,7 +72,6 @@ def main():
         'Poland',
         'Portugal',
         'Russia',
-        'Singapore',
         'Slovakia',
         'South Africa',
         'Spain',
