@@ -11,10 +11,11 @@ import sys
 import re
 import datetime
 import time
+import textwrap
 from bs4 import BeautifulSoup, Doctype # For XML parsing
 import _regional_renames # Duplicate image titles that have different names in different regions
 
-version_number = '0.33'
+version_number = '0.34'
 
 def main():
     # Initial splash screen
@@ -27,9 +28,7 @@ def main():
 
     print('=======================================\n')
     if len(sys.argv) == 1:
-        print('Strips Redump (' + font.underline + 'http://redump.org/' + font.end + ') dats to only include English titles,' +
-        '\nwith no dupes. US titles are preferenced. This is not an official Redump' +
-        '\nproject.')
+        print(textwrap.fill('Strips Redump (' + font.underline + 'http://redump.org/' + font.end + ') dats to only include English titles, with no dupes. US titles are preferenced. This is not an official Redump project.', 80))
 
     # Define regions where English is a primary language
     region_list_english = [
@@ -114,13 +113,13 @@ def main():
             if output_folder == '.': output_folder = os.getcwd()
 
             if user_input.regions_en == True:
-                print(font.green + '* Finished processing ' + str('{:,}'.format(file_count)) + ' ' + file_plural_singular + ' in the "' + font.bold + input_folder + font.end + font.green + '" folder in ' + str('{0:.2f}'.format(round(stop - start,2))) + 's. Unique English titles have been added to regional dats in the "' + font.bold + output_folder + font.end + font.green + '" folder.' + font.end)
+                print(textwrap.TextWrapper(width=80, subsequent_indent='  ').fill(font.green + '* Finished processing ' + str('{:,}'.format(file_count)) + ' ' + file_plural_singular + ' in the "' + font.bold + input_folder + font.end + font.green + '" folder in ' + str('{0:.2f}'.format(round(stop - start,2))) + 's. Unique English titles have been added to regional dats in the "' + font.bold + output_folder + font.end + font.green + '" folder.\n' + font.end))
             elif user_input.regions_all == True:
-                print(font.green + '* Finished processing ' + str('{:,}'.format(file_count)) + ' ' + file_plural_singular + ' in the "' + font.bold + input_folder + font.end + font.green + '" folder in ' + str('{0:.2f}'.format(round(stop - start,2))) + 's. All dats have been split into regions in the "' + font.bold + output_folder + font.end + font.green + '" folder.' + font.end)
+                print(textwrap.TextWrapper(width=80, subsequent_indent='  ').fill(font.green + '* Finished processing ' + str('{:,}'.format(file_count)) + ' ' + file_plural_singular + ' in the "' + font.bold + input_folder + font.end + font.green + '" folder in ' + str('{0:.2f}'.format(round(stop - start,2))) + 's. All dats have been split into regions in the "' + font.bold + output_folder + font.end + font.green + '" folder.\n' + font.end))
             else:
-                print(font.green + '* Finished processing ' + str('{:,}'.format(file_count)) + ' ' + file_plural_singular + ' in the "' + font.bold + input_folder + font.end + font.green + '" folder in ' + str('{0:.2f}'.format(round(stop - start,2))) + 's. Unique English titles have been added to dats in the "' + font.bold + output_folder + font.end + font.green + '" folder.' + font.end)
+                print(textwrap.TextWrapper(width=80, subsequent_indent='  ').fill(font.green + '* Finished processing ' + str('{:,}'.format(file_count)) + ' ' + file_plural_singular + ' in the "' + font.bold + input_folder + font.end + font.green + '" folder in ' + str('{0:.2f}'.format(round(stop - start,2))) + 's. Unique English titles have been added to dats in the "' + font.bold + output_folder + font.end + font.green + '" folder.\n' + font.end))
         else:
-            print(font.yellow + '* No files found to process in the "' + font.bold + input_folder + font.end + font.yellow + '" folder.' + font.end)
+            print(textwrap.TextWrapper(width=80, subsequent_indent='  ').fill(font.yellow + '* No files found to process in the "' + font.bold + input_folder + font.end + font.yellow + '" folder.' + font.end))
 
         sys.exit()
     else:
@@ -129,11 +128,11 @@ def main():
         stop = time.time()
 
         if user_input.regions_en == True:
-            print(font.green + '* Finished adding unique English titles to regional dats in ' + str('{0:.2f}'.format(round(stop - start,2))) + 's.' + font.end)
+            print(textwrap.TextWrapper(width=80, subsequent_indent='  ').fill(font.green + '* Finished adding unique English titles to regional dats in ' + str('{0:.2f}'.format(round(stop - start,2))) + 's.\n' + font.end))
         elif user_input.regions_all == True:
-            print(font.green + '* Finished splitting "' + font.bold + user_input.file_input + font.end + font.green + '" into regional dats in ' + str('{0:.2f}'.format(round(stop - start,2))) + 's.' + font.end)
+            print(textwrap.TextWrapper(width=80, subsequent_indent='  ').fill(font.green + '* Finished splitting "' + font.bold + user_input.file_input + font.end + font.green + '" into regional dats in ' + str('{0:.2f}'.format(round(stop - start,2))) + 's.\n' + font.end))
         else:
-            print(font.green + '* Finished adding ' + str('{:,}'.format(new_title_count)) + ' unique English titles to "' +  font.bold + user_input.file_output + '.dat' + font.end + font.green + '" in ' + str('{0:.2f}'.format(round(stop - start,2))) + 's.' + font.end)
+            print(textwrap.TextWrapper(width=80, subsequent_indent='  ').fill(font.green + '* Finished adding ' + str('{:,}'.format(new_title_count)) + ' unique English titles to "' +  font.bold + user_input.file_output + '.dat' + font.end + font.green + '" in ' + str('{0:.2f}'.format(round(stop - start,2))) + 's.\n' + font.end))
     return
 
 ############### Classes and methods ###############
@@ -156,16 +155,15 @@ class font:
 
 # Generic error message
 def error_instruction():
-    print('\nUSAGE:\n' + font.bold + ' python ' + os.path.basename(__file__) + ' -i ' + font.end + '<input dat or folder>' + font.bold + ' -o ' + font.end + '<output dat or folder> <options>')
-    print('\n Input and output must be both files, or both folders. Not setting a folder ' +
-    '\n output writes to the current folder.')
+    print('\nUSAGE:\n' + font.bold + ' python ' + os.path.basename(__file__) + ' -i ' + font.end + '<input dat/folder>' + font.bold + ' -o ' + font.end + '<output dat/folder> <options>\n')
+    print(textwrap.TextWrapper(width=70, subsequent_indent='   ').fill('\n\n Input and output must both be files, or both be folders. Not setting a folder output writes to the current folder.'))
     print('\nOPTIONS:\n' + font.bold + ' -a' + font.end + '   Remove applications')
     print(font.bold + ' -d' + font.end + '   Remove demos and coverdiscs')
     print(font.bold + ' -e' + font.end + '   Remove educational')
     print(font.bold + ' -m' + font.end + '   Remove multimedia')
     print(font.bold + ' -p' + font.end + '   Remove betas and prototypes')
     print(font.bold + ' -ra' + font.end + '  Split into regions, all languages (dupes are included)')
-    print(font.bold + ' -re' + font.end + '  Split into regions, English only')
+    print(font.bold + ' -re' + font.end + '  Split into regions, English only\n')
     sys.exit()
 
 # Check user input
@@ -215,7 +213,7 @@ def check_input(region_list_english, region_list_other):
                 input_file_name = os.path.abspath(sys.argv[i+1].rstrip(os.sep))
 
                 if not os.path.exists(input_file_name):
-                    print(font.red + '* Input file "' + font.bold + input_file_name + font.end + font.red + '" does not exist.' + font.end)
+                    print(textwrap.TextWrapper(width=80, subsequent_indent='  ').fill(font.red + '* Input file "' + font.bold + input_file_name + font.end + font.red + '" does not exist.' + font.end))
                     error_state = True
 
                 if os.path.isdir(input_file_name):
@@ -254,7 +252,6 @@ def check_input(region_list_english, region_list_other):
         error_state = True
 
     if len([x for x in sys.argv if '-o' in x]) == 0 and i_is_folder == True:
-        print('* No output folder specified, writing to current folder.')
         output_file_name = '.'
 
     if excess_i == True: print(font.red + '* Can\'t have more than one -i' + font.end)
@@ -276,9 +273,9 @@ def check_input(region_list_english, region_list_other):
         if region_output_files != False:
             while overwrite_file != 'y' and overwrite_file != 'n' and overwrite_file != '':
                 if region_output_files > 1:
-                    overwrite_file = input('There are ' + str(region_output_files) + ' dat files with the format "' + font.bold + output_file_name + ' (<region name>).dat"' + font.end + ' that already exist. Continuing may overwrite some or all of them. Do you want to continue? [y/N] > ').lower()
+                    overwrite_file = input(textwrap.fill('There are ' + str(region_output_files) + ' dat files with the format "' + font.bold + output_file_name + ' (<region name>).dat"' + font.end + ' that already exist. Continuing may overwrite some or all of them. Do you want to continue? [y/N] >', 80) + ' ').lower()
                 else:
-                    overwrite_file = input('A dat file with the format "' + font.bold + output_file_name + ' [<region name>].dat"' + font.end + ' already exists. Do you want to overwrite it? [y/N] > ').lower()
+                    overwrite_file = input(textwrap.fill('A dat file with the format "' + font.bold + output_file_name + ' [<region name>].dat"' + font.end + ' already exists. Do you want to overwrite it? [y/N] >', 80) + ' ').lower()
 
             if overwrite_file == 'n' or overwrite_file == '':
                 print('\nExiting Retool...')
@@ -288,7 +285,7 @@ def check_input(region_list_english, region_list_other):
     else:
         if os.path.isfile(output_file_name) == True or os.path.isfile(output_file_name + '.dat') == True:
             while overwrite_file != 'y' and overwrite_file != 'n' and overwrite_file != '':
-                overwrite_file = input('The file ' + font.bold + output_file_name + '.dat' + font.end + ' already exists. Do you want to overwrite it? [y/N] > ').lower()
+                overwrite_file = input(textwrap.fill('The file ' + font.bold + output_file_name + '.dat' + font.end + ' already exists. Do you want to overwrite it? [y/N] > ', 80)).lower()
 
             if overwrite_file == 'n' or overwrite_file == '':
                 print('\nExiting Retool...')
@@ -540,7 +537,7 @@ def convert_to_xml(region, unique_regional_titles, titles, user_input):
 
 # The actual file operations on the dat files
 def process_dats(user_input, region_list_english, region_list_other, is_folder):
-    print('* Reading dat file: "' + font.bold + user_input.file_input + font.end + '"')
+    print(textwrap.TextWrapper(width=80, subsequent_indent='  ').fill('* Reading dat file: "' + font.bold + user_input.file_input + font.end + '"'))
     try:
         with open(user_input.file_input, 'r') as input_file_read:
             print('* Validating dat file... ', sep=' ', end='', flush=True)

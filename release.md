@@ -1,10 +1,13 @@
+# 0.34
+- Added textwrap module for better readability on MacOS/Linux.
+
 # 0.33
 - Added ability to operate on folders.
 - Fixed output file naming bugs.
 - Fixed some user input issues.
 - Tidied up some output for increased readability.
 - Added the following regions: Argentina, Czech, Hungary, Singapore, Slovakia,
-  Thailand, Turkey, Ukraine, United Arab Emirates
+  Thailand, Turkey, Ukraine, United Arab Emirates.
 
 # 0.32
 - Reimplemented -re and -ra flags.
