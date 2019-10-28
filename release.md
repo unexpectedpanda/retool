@@ -3,10 +3,13 @@
 - Fixed output file naming bugs.
 - Fixed some user input issues.
 - Tidied up some output for increased readability.
+- Added the following regions: Argentina, Czech, Hungary, Singapore, Slovakia,
+  Thailand, Turkey, Ukraine, United Arab Emirates
 
 # 0.32
 - Reimplemented -re and -ra flags.
-- Fixed CLRMAMEPro header so the user wasn't prompted with false update warnings.
+- Fixed CLRMAMEPro header so the user wasn't prompted with false update
+  warnings.
 
 # 0.31
 - Used dictionaries and classes to greatly increase performance and improve.

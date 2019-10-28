@@ -37,6 +37,7 @@ def main():
         'Canada',
         'Australia',
         'New Zealand',
+        'Singapore',
         'Ireland',
         'Brazil', # Classic console games were in English. Modern titles might only be in Portugese these days. Keep an eye out.
         'Latin America', # Generally Spanish, but seems to include English versions
@@ -48,15 +49,18 @@ def main():
         'Asia',
         'Scandinavia',
         'Japan',
+        'Argentina',
         'Austria',
         'Belgium',
         'China',
         'Croatia',
+        'Czech',
         'Denmark',
         'Finland',
         'France',
         'Germany',
         'Greece',
+        'Hungary',
         'India',
         'Israel',
         'Italy',
@@ -66,11 +70,17 @@ def main():
         'Poland',
         'Portugal',
         'Russia',
+        'Singapore',
+        'Slovakia',
         'South Africa',
         'Spain',
         'Sweden',
         'Switzerland',
-        'Taiwan'
+        'Taiwan',
+        'Thailand',
+        'Turkey',
+        'Ukraine',
+        'United Arab Emirates'
     ]
 
     # Check user input
@@ -83,28 +93,36 @@ def main():
     if os.path.isdir(user_input.file_input) == True:
         input_folder = user_input.file_input
         output_folder = user_input.file_output
+        file_count = 0
+
         for file in os.listdir(input_folder):
             if file.endswith('.dat'):
+                file_count += 1
                 user_input.file_input = os.path.join(input_folder, file)
-                user_input.file_output = os.path.join(output_folder, file[:4] + ' (Retool ' +  datetime.datetime.now().strftime('%Y-%m-%d %H-%M-%S') + ').dat')
-                process_dats(user_input, region_list_english, region_list_other)
-        # This is recursive code
-        # for root, dirs, files in os.walk(user_input.file_input):
-        #     for name in files:
-        #         if name.endswith('.dat'):
-        #             print(os.path.join(root, name))
+                user_input.file_output = os.path.join(output_folder, file[:-4] + ' (Retool ' +  datetime.datetime.now().strftime('%Y-%m-%d %H-%M-%S.%f')[:-3] + ')')
+                process_dats(user_input, region_list_english, region_list_other, True)
+
+        stop = time.time()
+
+        if user_input.regions_en == True:
+            print(font.green + '* Finished processing ' + str('{:,}'.format(file_count)) + ' files in the "' + font.bold + input_folder + font.end + font.green + '" folder in ' + str('{0:.2f}'.format(round(stop - start,2))) + 's. Unique English titles have been added to regional dats in the "' + font.bold + output_folder + font.end + font.green + '" folder.' + font.end)
+        elif user_input.regions_all == True:
+            print(font.green + '* Finished processing ' + str('{:,}'.format(file_count)) + ' files in the "' + font.bold + input_folder + font.end + font.green + '" folder in ' + str('{0:.2f}'.format(round(stop - start,2))) + 's. All dats have been split into regions in the "' + font.bold + output_folder + font.end + font.green + '" folder.' + font.end)
+        else:
+            print(font.green + '* Finished processing ' + str('{:,}'.format(file_count)) + ' files in the "' + font.bold + input_folder + font.end + font.green + '" folder in ' + str('{0:.2f}'.format(round(stop - start,2))) + 's. Unique English titles have been added to dats in the "' + font.bold + output_folder + font.end + font.green + '" folder.' + font.end)
+
         sys.exit()
     else:
-        new_title_count = process_dats(user_input, region_list_english, region_list_other)
+        new_title_count = process_dats(user_input, region_list_english, region_list_other, False)
 
-    stop = time.time()
+        stop = time.time()
 
-    if user_input.regions_en == True:
-        print(font.green + '* Finished adding unique English titles to regional dats in ' + str('{0:.2f}'.format(round(stop - start,2))) + 's.' + font.end)
-    elif user_input.regions_all == True:
-        print(font.green + '* Finished splitting "' + font.bold + user_input.file_input + font.end + font.green + '" into regional dats in ' + str('{0:.2f}'.format(round(stop - start,2))) + 's.' + font.end)
-    else:
-        print(font.green + '* Finished adding ' + str('{:,}'.format(new_title_count)) + ' unique English titles to "' +  font.bold + user_input.file_output + '.dat' + font.end + font.green + '" in ' + str('{0:.2f}'.format(round(stop - start,2))) + 's.' + font.end)
+        if user_input.regions_en == True:
+            print(font.green + '* Finished adding unique English titles to regional dats in ' + str('{0:.2f}'.format(round(stop - start,2))) + 's.' + font.end)
+        elif user_input.regions_all == True:
+            print(font.green + '* Finished splitting "' + font.bold + user_input.file_input + font.end + font.green + '" into regional dats in ' + str('{0:.2f}'.format(round(stop - start,2))) + 's.' + font.end)
+        else:
+            print(font.green + '* Finished adding ' + str('{:,}'.format(new_title_count)) + ' unique English titles to "' +  font.bold + user_input.file_output + '.dat' + font.end + font.green + '" in ' + str('{0:.2f}'.format(round(stop - start,2))) + 's.' + font.end)
     return
 
 ############### Classes and methods ###############
@@ -264,7 +282,7 @@ def check_input(region_list_english, region_list_other):
     return UserInput(input_file_name, output_file_name, flag_no_demos, flag_no_apps, flag_no_protos, flag_no_multi, flag_no_edu, flag_regions_all, flag_regions_en)
 
 # Converts CLRMAMEPro format to XML
-def convert_clr_logiqx(clrmame_header, checkdat):
+def convert_clr_logiqx(clrmame_header, checkdat, is_folder):
 # Get header details
     dat_name = re.sub('name |(\")', '', re.search('^\s.?name .*?$', clrmame_header[0], re.M|re.S)[0].strip())
     dat_description = re.sub('description |(\")', '', re.search('^\s.?description .*?$', clrmame_header[0], re.M|re.S)[0].strip())
@@ -299,7 +317,10 @@ def convert_clr_logiqx(clrmame_header, checkdat):
         xml_convert += '</datafile>'
     else:
         print(font.red + 'file isn\'t Logiqx XML or CLRMAMEPro dat.' + font.end)
-        sys.exit()
+        if is_folder == False:
+            sys.exit()
+        else:
+            return 'end_batch'
     return xml_convert, dat_name, dat_description, dat_author
 
 # Creates a header for dat files
@@ -501,8 +522,7 @@ def convert_to_xml(region, unique_regional_titles, titles, user_input):
     return final_title_xml
 
 # The actual file operations on the dat files
-def process_dats(user_input, region_list_english, region_list_other):
-    # Read in the dat file
+def process_dats(user_input, region_list_english, region_list_other, is_folder):
     print('* Reading dat file: "' + font.bold + user_input.file_input + font.end + '"')
     try:
         with open(user_input.file_input, 'r') as input_file_read:
@@ -516,7 +536,11 @@ def process_dats(user_input, region_list_english, region_list_other):
     clrmame_header = re.findall('^clrmamepro \($.*?^\)$', checkdat, re.M|re.S)
     if clrmame_header:
         print('file is a CLRMAMEPro dat file.')
-        converted_dat = convert_clr_logiqx(clrmame_header, checkdat)
+        converted_dat = convert_clr_logiqx(clrmame_header, checkdat, is_folder)
+
+        # Process the next file in a batch operation if something went wrong
+        if converted_dat == 'end_batch': return
+
         xml_convert = converted_dat[0]
         dat_name = converted_dat[1]
         dat_description = converted_dat[2]
@@ -539,10 +563,16 @@ def process_dats(user_input, region_list_english, region_list_other):
                         dat_version = soup.find('version').string
                     else:
                         print(font.red + '\n* This dat file isn\t authored by Redump' + font.end)
-                        sys.exit()
+                        if is_folder == False:
+                            sys.exit()
+                        else:
+                            return
                 else:
                     print(font.red + '\n* "' + user_input.file_input + '" isn\'t a CLRMAMEPro dat file.' + font.end)
-                    sys.exit()
+                    if is_folder == False:
+                        sys.exit()
+                    else:
+                        return
 
     print('\n|  Description: ' + dat_description)
     print('|  Author: ' + dat_author)
@@ -652,7 +682,10 @@ def process_dats(user_input, region_list_english, region_list_other):
 
     if new_title_count == 0:
         print(font.yellow + '\n* No titles found. No dat file has been created.' + font.end)
-        sys.exit()
+        if is_folder == False:
+            sys.exit()
+        else:
+            return
 
     print('\nStats:\n○  Original title count: ' + str('{:,}'.format(original_title_count)))
     apps_count = 0
@@ -679,7 +712,10 @@ def process_dats(user_input, region_list_english, region_list_other):
     if len(unique_regional_titles['Unknown']) > 1:
         print('+  Titles without regions included (may not be English): ' + str('{:,}'.format(unknown_region_title_count)))
 
-    print('-  Dupes and non-English titles removed: ' + str('{:,}'.format(original_title_count - new_title_count -apps_count - demos_count - edu_count - multi_count - protos_count)))
+    dupe_count = original_title_count - new_title_count -apps_count - demos_count - edu_count - multi_count - protos_count
+    if dupe_count < 0: dupe_count = 0
+
+    print('-  Dupes and non-English titles removed: ' + str('{:,}'.format(dupe_count)))
 
     print(font.bold + '---------------------------')
     print('=  New title count: ' + str('{:,}'.format(new_title_count)) + font.end + '\n')
