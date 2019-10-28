@@ -104,12 +104,22 @@ def main():
 
         stop = time.time()
 
-        if user_input.regions_en == True:
-            print(font.green + '* Finished processing ' + str('{:,}'.format(file_count)) + ' files in the "' + font.bold + input_folder + font.end + font.green + '" folder in ' + str('{0:.2f}'.format(round(stop - start,2))) + 's. Unique English titles have been added to regional dats in the "' + font.bold + output_folder + font.end + font.green + '" folder.' + font.end)
-        elif user_input.regions_all == True:
-            print(font.green + '* Finished processing ' + str('{:,}'.format(file_count)) + ' files in the "' + font.bold + input_folder + font.end + font.green + '" folder in ' + str('{0:.2f}'.format(round(stop - start,2))) + 's. All dats have been split into regions in the "' + font.bold + output_folder + font.end + font.green + '" folder.' + font.end)
+        if file_count == 1:
+            file_plural_singular = 'file'
         else:
-            print(font.green + '* Finished processing ' + str('{:,}'.format(file_count)) + ' files in the "' + font.bold + input_folder + font.end + font.green + '" folder in ' + str('{0:.2f}'.format(round(stop - start,2))) + 's. Unique English titles have been added to dats in the "' + font.bold + output_folder + font.end + font.green + '" folder.' + font.end)
+            file_plural_singular = 'files'
+
+        if file_count != 0:
+            if output_folder == '.': output_folder = os.getcwd()
+
+            if user_input.regions_en == True:
+                print(font.green + '* Finished processing ' + str('{:,}'.format(file_count)) + ' ' + file_plural_singular + ' in the "' + font.bold + input_folder + font.end + font.green + '" folder in ' + str('{0:.2f}'.format(round(stop - start,2))) + 's. Unique English titles have been added to regional dats in the "' + font.bold + output_folder + font.end + font.green + '" folder.' + font.end)
+            elif user_input.regions_all == True:
+                print(font.green + '* Finished processing ' + str('{:,}'.format(file_count)) + ' ' + file_plural_singular + ' in the "' + font.bold + input_folder + font.end + font.green + '" folder in ' + str('{0:.2f}'.format(round(stop - start,2))) + 's. All dats have been split into regions in the "' + font.bold + output_folder + font.end + font.green + '" folder.' + font.end)
+            else:
+                print(font.green + '* Finished processing ' + str('{:,}'.format(file_count)) + ' ' + file_plural_singular + ' in the "' + font.bold + input_folder + font.end + font.green + '" folder in ' + str('{0:.2f}'.format(round(stop - start,2))) + 's. Unique English titles have been added to dats in the "' + font.bold + output_folder + font.end + font.green + '" folder.' + font.end)
+        else:
+            print(font.yellow + '* No files found to process in the "' + font.bold + input_folder + font.end + font.yellow + '" folder.' + font.end)
 
         sys.exit()
     else:
@@ -199,7 +209,7 @@ def check_input(region_list_english, region_list_other):
                 print(font.red + '* No input file specified' + font.end)
                 error_state = True
             else:
-                input_file_name = sys.argv[i+1]
+                input_file_name = os.path.abspath(sys.argv[i+1].rstrip(os.sep))
 
                 if not os.path.exists(input_file_name):
                     print(font.red + '* Input file "' + font.bold + input_file_name + font.end + font.red + '" does not exist.' + font.end)
@@ -217,7 +227,7 @@ def check_input(region_list_english, region_list_other):
                     print(font.red + '* No output file specified' + font.end)
                     error_state = True
                 else:
-                    output_file_name = sys.argv[i+1]
+                    output_file_name = os.path.abspath(sys.argv[i+1].rstrip(os.sep))
 
                     # Check that both input/output are files, or that both are folders
                     if os.path.isdir(output_file_name) == False and i_is_folder == True:
@@ -239,6 +249,10 @@ def check_input(region_list_english, region_list_other):
         print(font.red + '* Missing -o, no output file specified' + font.end)
 
         error_state = True
+
+    if len([x for x in sys.argv if '-o' in x]) == 0 and i_is_folder == True:
+        print('* No output folder specified, writing to current folder.')
+        output_file_name = '.'
 
     if excess_i == True: print(font.red + '* Can\'t have more than one -i' + font.end)
     if excess_o == True: print(font.red + '* Can\'t have more than one -o' + font.end)
