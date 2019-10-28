@@ -4,7 +4,7 @@ all regions, with no dupes. US titles are preferenced. This is not an
 official Redump project.
 
 ## Installation
-_Retool_ requires [Python 3](https://www.python.org/) with `pip`.
+_Retool_ requires [Python 3.5](https://www.python.org/) with `pip`.
 
 You'll need to install dependencies with `pip` before using _Retool_. To do so,
 open Terminal, Command Prompt, or whatever the CLI is on your system, and type:
