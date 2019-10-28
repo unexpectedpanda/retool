@@ -81,7 +81,18 @@ def main():
 
     # Start processing the dats
     if os.path.isdir(user_input.file_input) == True:
-        print('FUck')
+        input_folder = user_input.file_input
+        output_folder = user_input.file_output
+        for file in os.listdir(input_folder):
+            if file.endswith('.dat'):
+                user_input.file_input = os.path.join(input_folder, file)
+                user_input.file_output = os.path.join(output_folder, file[:4] + ' (Retool ' +  datetime.datetime.now().strftime('%Y-%m-%d %H-%M-%S') + ').dat')
+                process_dats(user_input, region_list_english, region_list_other)
+        # This is recursive code
+        # for root, dirs, files in os.walk(user_input.file_input):
+        #     for name in files:
+        #         if name.endswith('.dat'):
+        #             print(os.path.join(root, name))
         sys.exit()
     else:
         new_title_count = process_dats(user_input, region_list_english, region_list_other)
@@ -144,22 +155,21 @@ def check_input(region_list_english, region_list_other):
         flag_regions_en = True if len([x for x in sys.argv if x == '-re']) >= 1 else False
         flag_regions_all = True if len([x for x in sys.argv if x == '-ra']) >= 1 else False
 
-    # If no flags provided, or if -i or -o are missing
+    # If no flags provided, or if -i is missing
     if len(sys.argv) == 1:
         error_instruction()
 
-    if (len([x for x in sys.argv if '-i' in x]) == 0 or len([x for x in sys.argv if '-o' in x]) == 0):
+    if len([x for x in sys.argv if '-i' in x]) == 0:
         if len([x for x in sys.argv if '-i' in x]) == 0:
             print(font.red + '* Missing -i, no input file specified' + font.end)
-
-        if len([x for x in sys.argv if '-o' in x]) == 0:
-            print(font.red + '* Missing -o, no output file specified' + font.end)
 
         error_state = True
 
     # Handle input, output, recursive, and invalid flags
     excess_i = False
     excess_o = False
+    i_is_folder = False
+    o_is_folder = False
 
     for i, x in enumerate(sys.argv):
         if x.startswith('-'):
@@ -177,6 +187,9 @@ def check_input(region_list_english, region_list_other):
                     print(font.red + '* Input file "' + font.bold + input_file_name + font.end + font.red + '" does not exist.' + font.end)
                     error_state = True
 
+                if os.path.isdir(input_file_name):
+                    i_is_folder = True
+
             if len([x for x in sys.argv if '-i' in x]) > 1:
                 excess_i = True
                 error_state = True
@@ -187,13 +200,27 @@ def check_input(region_list_english, region_list_other):
                     error_state = True
                 else:
                     output_file_name = sys.argv[i+1]
-                    # Strip .dat from the end of the output file if it exists
-                    if output_file_name.endswith('.dat'):
-                        output_file_name = output_file_name[:-4]
+
+                    # Check that both input/output are files, or that both are folders
+                    if os.path.isdir(output_file_name) == False and i_is_folder == True:
+                        print(font.red + '* Input is a folder, output must be set to an existing folder' + font.end)
+                        sys.exit()
+                    elif  os.path.isdir(output_file_name) == True and i_is_folder == False:
+                        print(font.red + '* Input is a file, output must be set to a file' + font.end)
+                        sys.exit()
+                    else:
+                        # Strip .dat from the end of the output file if it exists
+                        if output_file_name.endswith('.dat'):
+                            output_file_name = output_file_name[:-4]
 
         if len([x for x in sys.argv if '-o' in x]) > 1:
                 excess_o = True
                 error_state = True
+
+    if len([x for x in sys.argv if '-o' in x]) == 0 and i_is_folder == False:
+        print(font.red + '* Missing -o, no output file specified' + font.end)
+
+        error_state = True
 
     if excess_i == True: print(font.red + '* Can\'t have more than one -i' + font.end)
     if excess_o == True: print(font.red + '* Can\'t have more than one -o' + font.end)
