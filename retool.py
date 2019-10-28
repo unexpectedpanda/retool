@@ -1,4 +1,4 @@
-# Strips Redump dats to only have English titles, preferencing US titles.
+# Strips Redump dats to only include English titles, preferencing US titles.
 # Also removes titles from other regions that have different names, but
 # the same content.
 #
@@ -27,7 +27,9 @@ def main():
 
     print('=======================================\n')
     if len(sys.argv) == 1:
-        print('Strips Redump (' + font.underline + 'http://redump.org/' + font.end + ') dats to only include English titles from\nall regions, with no dupes. US titles are preferenced. This is not an\nofficial Redump project.')
+        print('Strips Redump (' + font.underline + 'http://redump.org/' + font.end + ') dats to only include English titles,' +
+        '\nwith no dupes. US titles are preferenced. This is not an official Redump' +
+        '\nproject.')
 
     # Define regions where English is a primary language
     region_list_english = [
@@ -155,7 +157,9 @@ class font:
 
 # Generic error message
 def error_instruction():
-    print('\nUSAGE:\n' + font.bold + ' python ' + os.path.basename(__file__) + ' -i ' + font.end + '<input.dat or folder>' + font.bold + ' -o ' + font.end + '<output.dat or folder> <options>')
+    print('\nUSAGE:\n' + font.bold + ' python ' + os.path.basename(__file__) + ' -i ' + font.end + '<input dat or folder>' + font.bold + ' -o ' + font.end + '<output dat or folder> <options>')
+    print('\n Input and output must be both files, or both folders. Not setting a folder ' +
+    '\n output writes to the current folder.')
     print('\nOPTIONS:\n' + font.bold + ' -a' + font.end + '   Remove applications')
     print(font.bold + ' -d' + font.end + '   Remove demos and coverdiscs')
     print(font.bold + ' -e' + font.end + '   Remove educational')

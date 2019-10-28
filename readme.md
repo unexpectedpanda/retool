@@ -15,7 +15,10 @@ pip install lxml
 ```
 
 ## Usage
-`python retool.py -i <input.dat or folder> -o <output.dat or folder> <options>`
+`python retool.py -i <input dat or folder> -o <output dat or folder> <options>`
+
+Input and output must be both files, or both folders. Not setting a folder
+output writes to the current folder.
 
 ## Options
 * `-a` Remove applications
