@@ -15,6 +15,9 @@ import textwrap
 from bs4 import BeautifulSoup, Doctype # For XML parsing
 import _regional_renames # Duplicate image titles that have different names in different regions
 
+# Require at least Python 3.5
+assert sys.version_info >= (3, 5)
+
 version_number = '0.34'
 
 def main():
@@ -154,8 +157,11 @@ class font:
     blink = '\033[5m'
 
 # Generic error message
+command = ''
+if 'retool.py' in sys.argv[0]:
+    command = 'python '
 def error_instruction():
-    print('\nUSAGE:\n' + font.bold + ' python ' + os.path.basename(__file__) + ' -i ' + font.end + '<input dat/folder>' + font.bold + ' -o ' + font.end + '<output dat/folder> <options>\n')
+    print('\nUSAGE:\n ' + font.bold + command + os.path.basename(sys.argv[0]) + ' -i ' + font.end + '<input dat/folder>' + font.bold + ' -o ' + font.end + '<output dat/folder> <options>\n')
     print(textwrap.TextWrapper(width=70, subsequent_indent='   ').fill('\n\n Input and output must both be files, or both be folders. Not setting a folder output writes to the current folder.'))
     print('\nOPTIONS:\n' + font.bold + ' -a' + font.end + '   Remove applications')
     print(font.bold + ' -d' + font.end + '   Remove demos and coverdiscs')
