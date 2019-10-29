@@ -29,7 +29,7 @@ your OS of choice.
 ## Usage
 `python retool.py -i <input dat/folder> -o <output dat/folder> <options>`
 
-or
+Or for the binary version:
 
 `retool  -i <input dat/folder> -o <output dat/folder> <options>`
 
