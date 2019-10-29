@@ -13,12 +13,21 @@ open Terminal, Command Prompt, or whatever the CLI is on your system, and type:
 pip install bs4
 pip install lxml
 ```
+### Troubleshooting pip
+* Some systems have multiple versions of Python installed. You might need to run
+`pip3` instead of `pip`.
+* Python will complain that the `bs4` module doesn't exist if `pip`
+is installing modules to the wrong folder for Python 3.x access. If using `pip3`
+doesn't fix the issue, do a web search to solve the problem on your OS of choice.
 
 ## Usage
 `python retool.py -i <input dat or folder> -o <output dat or folder> <options>`
 
 Input and output must be both files, or both folders. Not setting a folder
 output writes to the current folder.
+
+**Note:** Some systems have the Python 3.x binary installed separately as
+`python3`. You might need to run this instead of `python`.
 
 ## Options
 * `-a` Remove applications
