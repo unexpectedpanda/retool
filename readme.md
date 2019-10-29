@@ -1,7 +1,7 @@
 # Retool
 Strips [Redump](http://redump.org/) dats to only include English titles from
-all regions, with no dupes. US titles are preferenced. This is not an
-official Redump project.
+all regions, and attempts to remove dupes. US titles are preferenced. This is
+not an official Redump project.
 
 ## Installation
 If you don't know Python or don't want to deal with code, download the
