@@ -4,9 +4,14 @@ all regions, with no dupes. US titles are preferenced. This is not an
 official Redump project.
 
 ## Installation
-_Retool_ requires [Python 3.5](https://www.python.org/) with `pip`.
+If you don't know Python or don't want to deal with code, download the
+appropriate ZIP file in the `dist` folder for Windows or MacOS. Only 64-bit
+executables are available, 32-bit operating systems are not supported. Extract
+and run the executable files directly, no installation is required.
 
-You'll need to install dependencies with `pip` before using _Retool_. To do so,
+Otherwise, _Retool_ requires a minimum of [Python 3.5](https://www.python.org/) with `pip`.
+
+You'll need to install two modules with `pip` before using _Retool_. To do so,
 open Terminal, Command Prompt, or whatever the CLI is on your system, and type:
 
 ```python
@@ -24,7 +29,11 @@ your OS of choice.
 ## Usage
 `python retool.py -i <input dat/folder> -o <output dat/folder> <options>`
 
-Input and output must be both files, or both folders. Not setting a folder
+or
+
+`retool  -i <input dat/folder> -o <output dat/folder> <options>`
+
+Input and output must both be files, or both be folders. Not setting a folder
 output writes to the current folder.
 
 **Note:** Some systems have the Python 3.x binary installed separately as
