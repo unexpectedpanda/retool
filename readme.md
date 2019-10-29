@@ -91,7 +91,7 @@ name, **_Dancing Stage Unleashed 3 (Europe)_** and
 **_Dancing Stage Unleashed 3 (Europe)_** would not be included.
 
 ## Known limitations
-Be aware of the following limitations when using _Retool_. These may or may not be addressed in the future.
+Be aware of the following limitations when using _Retool_. These might or might not be addressed in the future.
 
 #### Doesn't remove older versions of titles
 For example, **_Halo - Combat Evolved (USA)_**,
