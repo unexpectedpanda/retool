@@ -18,10 +18,11 @@ pip install lxml
 `pip3` instead of `pip`.
 * Python will complain that the `bs4` module doesn't exist if `pip`
 is installing modules to the wrong folder for Python 3.x access. If using `pip3`
-doesn't fix the issue, do a web search to solve the problem on your OS of choice.
+instead of `pip` doesn't fix the issue, do a web search to solve the problem on
+your OS of choice.
 
 ## Usage
-`python retool.py -i <input dat or folder> -o <output dat or folder> <options>`
+`python retool.py -i <input dat/folder> -o <output dat/folder> <options>`
 
 Input and output must be both files, or both folders. Not setting a folder
 output writes to the current folder.
