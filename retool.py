@@ -176,7 +176,7 @@ def error_instruction():
     print(font.bold + ' -m' + font.end + '   Remove multimedia')
     print(font.bold + ' -p' + font.end + '   Remove betas and prototypes')
     print(font.bold + ' -r' + font.end + '   Split dat into regional dats')
-    print(font.bold + ' -s' + font.end + '   Split dat into into regional dats, include all languages, titles, and dupes\n')
+    print(font.bold + ' -s' + font.end + '   Split dat into regional dats, include all languages,\n      titles, and dupes\n')
     sys.exit()
 
 # Check user input
@@ -193,6 +193,9 @@ def check_input(region_list_english, region_list_other):
 
     if len([x for x in sys.argv if '-s' in x]) > 0 and len([x for x in sys.argv if '-r' in x]) > 0:
         print(font.red + '* The -s and -r options can\'t be combined' + font.end)
+        error_state = True
+    if len([x for x in sys.argv if '-s' in x]) > 0 and len([x for x in sys.argv if '-en' in x]) > 0:
+        print(font.red + '* The -s and -en options can\'t be combined' + font.end)
         error_state = True
     else:
         flag_split_regions_no_dupes = True if len([x for x in sys.argv if x == '-r']) >= 1 else False

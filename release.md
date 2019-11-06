@@ -29,8 +29,8 @@
 
 # 0.32
 - Reimplemented -re and -ra flags.
-- Fixed CLRMAMEPro header so the user wasn't prompted with false update
-  warnings.
+- Fixed header so the user wasn't prompted with false update warnings when the
+  dat was loaded in CLRMAMEPro.
 
 # 0.31
 - Used dictionaries and classes to greatly increase performance and improve.
