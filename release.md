@@ -1,5 +1,17 @@
+# 0.35
+- Moved Brazil and Latin America out of the native English list. Modern games
+  aren't guaranteed to have an English translation.
+- Removed requirement for Logiqx doctype on input files, as some dats that
+  weren't from Redump were erroring.
+- Removed requirement for Redump to be the dat author.
+- Handled empty name, description, author, url, and version fields in XML files.
+- Found a similar app called [FilterQuest](https://github.com/UnluckyForSome/FilterQuest).
+  Skimmed its dupe list for titles I'd missed, while leaving out the titles
+  that weren't actually dupes.
+
 # 0.34
 - Added textwrap module for better readability on MacOS/Linux.
+- Bundled MacOS and Windows binaries.
 
 # 0.33
 - Added ability to operate on folders.
