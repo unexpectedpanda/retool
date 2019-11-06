@@ -10,6 +10,8 @@
   weren't from Redump were erroring.
 - Removed requirement for Redump to be the dat author.
 - Handled empty name, description, author, url, and version fields in XML files.
+- Fixed bug where things broke if the input or output file name included any of
+  the option flags.
 - Found a similar app called [FilterQuest](https://github.com/UnluckyForSome/FilterQuest).
   Skimmed its dupe list for valid dupes that I'd missed.
 
@@ -37,7 +39,7 @@
 - Removed unused importlib dependency.
 - Usability tweaks.
 
-# 0.2
+# 0.20
 - Refactored for performance, code readability, and usability.
 - Can handle CLRMAMEPro dat files now, not just Logiqx XML format.
 - Added Germany, Ireland, Israel, Latin America, New Zealand, and Taiwan
@@ -48,5 +50,5 @@
 - Added more error checking.
 - Removed -re and -ra flags until refactor until next version.
 
-# 0.1
+# 0.10
 - Initial release.

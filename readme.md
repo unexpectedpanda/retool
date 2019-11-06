@@ -51,56 +51,56 @@ output writes to the current folder.
 ## How it works
 The input dat is split into regions, then each region is processed in a
 specific order. Each region cannot include titles that are in the regions
-that precede it. The USA version of a title is considered canonical.
+that precede it. The USA version of a title is usually considered canonical.
 
 Regions are parsed in the following order:
 
 1. USA
-2. World
-3. UK
-4. Canada
-5. Australia
-6. New Zealand
-7. Singapore
-8. Ireland
-9. Brazil
-10. Latin America
-11. Europe
-12. Asia
-13. Scandinavia
-14. Japan
-15. Argentina
-16. Austria
-17. Belgium
-18. China
-19. Croatia
-20. Czech
-21. Denmark
-22. Finland
-23. France
-24. Germany
-25. Greece
-26. Hungary
-27. India
-28. Israel
-29. Italy
-30. Korea
-31. Netherlands
-32. Norway
-33. Poland
-34. Portugal
-35. Russia
-36. Slovakia
-37. South Africa
-38. Spain
-39. Sweden
-40. Switzerland
-41. Taiwan
-42. Thailand
-43. Turkey
-44. Ukraine
-45. United Arab Emirates
-46. No region
+1. World
+1. UK
+1. Canada
+1. Australia
+1. New Zealand
+1. Singapore
+1. Ireland
+1. Europe
+1. Asia
+1. Scandinavia
+1. Japan
+1. Argentina
+1. Austria
+1. Belgium
+1. Brazil
+1. China
+1. Croatia
+1. Czech
+1. Denmark
+1. Finland
+1. France
+1. Germany
+1. Greece
+1. Hungary
+1. India
+1. Israel
+1. Italy
+1. Korea
+1. Latin America
+1. Netherlands
+1. Norway
+1. Poland
+1. Portugal
+1. Russia
+1. Slovakia
+1. South Africa
+1. Spain
+1. Sweden
+1. Switzerland
+1. Taiwan
+1. Thailand
+1. Turkey
+1. Ukraine
+1. United Arab Emirates
+1. No region
 
 As the program progresses through the regions, `_regional_renames.py` is
 referenced to check if any titles in the current region are the same as
