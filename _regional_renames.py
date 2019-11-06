@@ -1,4 +1,4 @@
-# Last updated: 29 October 2019
+# Last updated: 6 November 2019
 # An exclusion list for when games are the same as the US version, just renamed for another region.
 
 # No alternative titles so far:
@@ -208,6 +208,7 @@ def saturn_rename_list():
 # Sony PlayStation
 def psx_rename_list():
     return [
+        '100% Star', # Popstar Maker
         '3, 2, 1, Smurf! My First Racing Game', # Smurf Racer!
         '4x4 World Trophy', # Test Drive Off-Road 3
         'A.IV - Evolution Global', # A-Train - Trains, Power, Money
@@ -219,6 +220,7 @@ def psx_rename_list():
         'Actua Soccer', # VR Soccer '96
         'Air Race', # Bravo Air Race
         'All Star Boxing', # Boxing
+        'All Star Tennis', # Tennis
         'Alone in the Dark - Jack Is Back', # Alone in the Dark - One-Eyed Jack's Revenge
         'Army Men - Land, Sea, Air', # Army Men - World War - Land, Sea, Air
         'Army Men - Lock \'n\' Load', # Army Men - World War - Final Front
@@ -235,8 +237,12 @@ def psx_rename_list():
         'Bomberman', # Bomberman - Party Edition
         'Brahma Force', # Brahma Force - The Assault on Beltlogger 9
         'Breakout - A Story of Bat Meets Ball...!', # Breakout
+        'Buggy', # Team Losi RC Racer
+        'Bust-A-Groove', # Bust A Groove
+        'Bust-A-Move 3 DX', # Bust-A-Move '99
         'Capcom vs. SNK - Millennium Fight 2000 Pro', # Capcom vs. SNK Pro
         'Card Shark', # Family Card Games Fun Pack
+        'Chase the Express', # Cover Ops - Nuclear Dawn
         'Cleopatra Fortune', # Cleopatra's Fortune
         'Colin McRae - The Rally', # Colin McRae Rally
         'Crash Bandicoot 3 - Warped', # Crash Bandicoot - Warped
@@ -251,8 +257,10 @@ def psx_rename_list():
         'Disney\'s Action Game featuring Hercules', # Disney's Hercules Action Game
         'Disney\'s Donald Duck - Quack Attack', # Disney's Donald Duck - Goin' Quackers
         'Disney\'s Lilo & Stitch - Trouble in Paradise', # Disney's Lilo & Stitch
+        'Disney\'s Party Time with Winnie the Pooh', # Disney's Pooh's Party Game - In Search of the Treasure
         'Disney\'s Peter Pan - Adventures in Never Land', # Peter Pan in Disney's Return to Never Land
         'Disney\'s Tigger\'s Honey Hunt', # Disney Presents Tigger's Honey Hunt
+        'Dracula 2 - The Last Sanctuary', # Dracula - The Last Sanctuary
         'Dragon Ball - Final Bout', # Dragon Ball GT - Final Bout
         'Driver', # Driver - You Are the Wheelman
         'Driver 2 - Back on the Streets', # Driver 2
@@ -277,8 +285,11 @@ def psx_rename_list():
         'Final Fantasy Origins - Final Fantasy II', # Final Fantasy Origins
         'Final Fantasy VI', # Final Fantasy Anthology - Final Fantasy VI
         'Firestorm - Thunderhawk 2', # ThunderStrike 2
+        'Fisherman\'s Bait - Bass Challenge', # Fisherman's Bait - A Bass Challenge
+        'Fisherman\'s Bait 3', # Big Ol' Bass 2
         'Floating Runner', # Floating Runner - Quest for the 7 Crystals
         'Formula 1 97', # Formula 1 Championship Edition
+        'Freestyle Scooter', # Razor Freestyle Scooter
         'Gex - Deep Cover Gecko', # Gex 3 - Deep Cover Gecko
         'Gex 3D - Enter the Gecko', # Gex - Enter the Gecko
         'Golden Goal 98', # Alexi Lalas International Soccer
@@ -288,11 +299,14 @@ def psx_rename_list():
         'Hardcore 4x4', # TNN Motorsports Hardcore 4x4
         'Harry Potter and the Philosopher\'s Stone', # Harry Potter and the Sorcerer's Stone
         'Hi-Octane', # Hi-Octane - The Track Fights Back!
+        'Hunter, The', # Battle Hunter
         'Independence Day - The Game', # Independence Day
         'International Superstar Soccer Pro', # Goal Storm '97
+        'International Track & Field 2', # International Track & Field 2000
         'Jet Rider', # Jet Moto
         'Jet Rider 2', # Jet Moto 2
         'Junior Sports Football', # Backyard Soccer
+        'Kickboxing Knockout', # Kickboxing
         'Kileak - The Blood', # Kileak - The DNA Imperative
         'Konami Open Golf', # Final Round, The
         'Knockout Kings 99', # Knockout Kings
@@ -308,10 +322,12 @@ def psx_rename_list():
         'Max Power Racing', # C3 Racing - Car Constructors Championship
         'MediEvil 2', # MediEvil II
         'Metal Gear Solid - Special Missions', # Metal Gear Solid - Integral
+        'Metal Gear Solid - VR Missions', # Metal Gear Solid - Integral
         'Micro Maniacs', # FoxKids.com - Micro Maniacs Racing
         'Midnight in Vegas', # Vegas Games 2000
         'Millennium Soldier - Expendable', # Expendable
         'MoHo', # Ball Breakers
+        'Monaco Grand Prix Racing Simulation 2', # Monaco Grand Prix
         'Motor Toon Grand Prix 2', # Motor Toon Grand Prix
         'Monster Trucks', # Thunder Truck Rally
         'Music 2000', # MTV Music Generator
@@ -323,6 +339,7 @@ def psx_rename_list():
         'NHL Powerplay', # NHL Powerplay '96
         'No Fear Downhill Mountain Biking', # No Fear Downhill Mountain Bike Racing
         'Lost Vikings 2 - Norse by Norsewest', # Norse by Norsewest - The Return of the Lost Vikings
+        'Olympic Games', # Olympic Summer Games
         'Overboard!', # Shipwreckers!
         'Pac-Man World 20th Anniversary', # Pac-Man World - 20th Anniversary
         'PaRappa the Rapper - The Hip Hop Hero', # PaRappa the Rapper
@@ -332,21 +349,26 @@ def psx_rename_list():
         'Pool Shark', # Ultimate 8 Ball
         'Power Diggerz', # Power Shovel
         'Power Serve', # Power Serve 3D Tennis
+        'Prince Naseem Boxing', # Mike Tyson Boxing
         'Prism Land Story', # Sorcerer's Maze
         # 'Pro Evolution Soccer 2', # Winning Eleven 6 isn't in Redump yet
         'Pro Racer', # Racing
+        # 'Pro Pinball - The Web', # Pro-Pinball isn't in Redump yet
+        'Raging Skies', # Bogey - Dead 6
         'Rapid Racer', # Turbo Prop Racing
         'Rat Attack', # Rat Attack!
         'RayCrisis', # RayCrisis - Series Termination
         'Re-Loaded', # Re-Loaded - The Hardcore Sequel
         'Real Bout Garou Densetsu', # Real Bout Fatal Fury
         'Ridge Racer Type 4', # R4 - Ridge Racer Type 4
+        'Riot', # Professional Underground League of Pain
         'Risk', # Risk - The Game of Global Domination
         'Rock & Roll Racing 2 - Red Asphalt', # Red Asphalt
         'Ronin Blade', # Soul of the Samurai
         'Rosco McQueen', # Rosco McQueen Firefighter Extreme
         'Sanguozhi IV', # (三國志Ⅳ) Romance of the Three Kingdoms IV - Wall of Fire
         'Sanvein', # Starfighter Sanvein
+        'Samurai Shodown III', # Samurai Shodown III - Blades of Blood
         'Scooter Racing', # Razor Racing
         'Sentient - Explore the Infinite', # Sentient
         'Shane Warne Cricket', # Brian Lara Cricket
@@ -360,6 +382,8 @@ def psx_rename_list():
         'StarSweep', # Puzzle Star Sweep
         'Street Skater', # Street Sk8er
         'Street Skater 2', # Street Sk8er 2
+        'Strikepoint - The Hex Missions', # Strike Point
+        'Strikers 1945 II', # Strikers 1945
         'Super Pang Collection', # Buster Bros. Collection
         'Super Slammin\' Dodgeball', # All-Star Slammin' D-ball
         'Supersonic Racers', # Dare Devil Derby 3D
@@ -383,6 +407,7 @@ def psx_rename_list():
         # 'Total NBA \'96', # NBA Shootout isn't in Redump yet
         # 'Total NBA \'97', # NBA Shootout 97 isn't in Redump yet
         'Trap Runner', # Trap Gunner
+        'Triple Play Baseball 2000', # Triple Play 2000
         'Twisted Metal - World Tour', # Twisted Metal 2
         'UEFA Striker', # Striker Pro 2000
         'V-Rally - 97 Championship Edition', # Need for Speed - V-Rally

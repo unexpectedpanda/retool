@@ -18,7 +18,7 @@ import _regional_renames # Duplicate image titles that have different names in d
 # Require at least Python 3.5
 assert sys.version_info >= (3, 5)
 
-version_number = '0.34'
+version_number = '0.35'
 
 def main():
     # Initial splash screen
@@ -43,8 +43,6 @@ def main():
         'New Zealand',
         'Singapore',
         'Ireland',
-        'Brazil', # Classic console games were in English. Modern titles might only be in Portugese these days. Keep an eye out.
-        'Latin America', # Generally Spanish, but seems to include English versions
     ]
 
     # Define regions where titles might have an English version
@@ -56,6 +54,7 @@ def main():
         'Argentina',
         'Austria',
         'Belgium',
+        'Brazil',
         'China',
         'Croatia',
         'Czech',
@@ -69,6 +68,7 @@ def main():
         'Israel',
         'Italy',
         'Korea',
+        'Latin America',
         'Netherlands',
         'Norway',
         'Poland',
@@ -371,6 +371,11 @@ def header(dat_name, dat_version, dat_author, dat_url, new_title_count, region, 
         name = '\n\t\t<name>' + dat_name  + new_title_count + '(' + dat_version + ') (English)' + dat_header_exclusion + '</name>'
         description = '\n\t\t<description>' + dat_name  + new_title_count + '(' + dat_version + ') (English)' + dat_header_exclusion + '</description>'
 
+    if dat_author != '':
+        dat_author = dat_author + ' & Retool'
+    else:
+        dat_author = 'Unknown & Retool'
+
     header = ['<?xml version="1.0"?>',
         '\n<!DOCTYPE datafile PUBLIC "-//Logiqx//DTD ROM Management Datafile//EN" "http://www.logiqx.com/Dats/datafile.dtd">',
         '\n<datafile>',
@@ -379,7 +384,7 @@ def header(dat_name, dat_version, dat_author, dat_url, new_title_count, region, 
         description,
         '\n\t\t<version>' + dat_version + '</version>',
         '\n\t\t<date>' + datetime.datetime.now().strftime('%Y-%m-%d %H-%M-%S') + '</date>',
-        '\n\t\t<author>' + dat_author + ' & Retool</author>',
+        '\n\t\t<author>' + dat_author + '</author>',
         '\n\t\t<homepage>redump.org</homepage>',
         '\n\t\t<url>' + dat_url + '</url>',
         '\n\t</header>\n']
@@ -571,28 +576,29 @@ def process_dats(user_input, region_list_english, region_list_other, is_folder):
     else:
         soup = BeautifulSoup(checkdat, "lxml-xml")
         # Check for a valid Redump XML dat, then grab the dat details
+        valid_dat_file = False
+
         for item in soup.contents:
-            if isinstance(item, Doctype):
-                if item == 'datafile PUBLIC "-//Logiqx//DTD ROM Management Datafile//EN" "http://www.logiqx.com/Dats/datafile.dtd"':
-                    print('file is a Logiqx dat file.')
-                    if soup.find('author').string == 'redump.org':
-                        dat_name = soup.find('name').string
-                        dat_description = soup.find('description').string
-                        dat_author = soup.find('author').string
-                        dat_url = soup.find('url').string
-                        dat_version = soup.find('version').string
-                    else:
-                        print(font.red + '\n* This dat file isn\t authored by Redump' + font.end)
-                        if is_folder == False:
-                            sys.exit()
-                        else:
-                            return
-                else:
-                    print(font.red + '\n* "' + user_input.file_input + '" isn\'t a CLRMAMEPro dat file.' + font.end)
-                    if is_folder == False:
-                        sys.exit()
-                    else:
-                        return
+            if ('<datafile>' in str(item) and '</datafile>' in str(item)):
+                valid_dat_file = True
+                print('file is a Logiqx dat file.')
+                dat_name = soup.find('name').string
+                dat_description = soup.find('description').string
+                dat_author = soup.find('author').string
+                dat_url = soup.find('url').string
+                dat_version = soup.find('version').string
+
+                if dat_name == None: dat_name = ''
+                if dat_description == None: dat_description = ''
+                if dat_author == None: dat_author = ''
+                if dat_url == None: dat_url = ''
+                if dat_version == None: dat_version = ''
+        if valid_dat_file == False:
+            print(font.red + '\n* "' + user_input.file_input + '" isn\'t a CLRMAMEPro compatible dat file.' + font.end)
+            if is_folder == False:
+                sys.exit()
+            else:
+                return
 
     print('\n|  Description: ' + dat_description)
     print('|  Author: ' + dat_author)
