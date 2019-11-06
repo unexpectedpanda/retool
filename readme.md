@@ -1,7 +1,6 @@
 # Retool
-Strips [Redump](http://redump.org/) dats to only include English titles from
-all regions, and attempts to remove dupes. US titles are preferenced. This is
-not an official Redump project.
+Retool scans [Redump](http://redump.org/) dats, and generates new dats without
+dupes. This is not an official Redump project.
 
 ## Installation
 If you don't know Python or don't want to deal with code, download the
@@ -40,13 +39,14 @@ output writes to the current folder.
 `python3`. You might need to run this instead of `python`.
 
 ## Options
+* `-en` Only include English titles
 * `-a` Remove applications
 * `-d` Remove demos and coverdiscs
 * `-e` Remove educational
 * `-m` Remove multimedia
 * `-p` Remove betas and prototypes
-* `-ra` Split into regions, all languages (dupes are included)
-* `-re` Split into regions, English only
+* `-r` Split dat into regional dats
+* `-s` Split dat into regional dats, include all languages, titles, and dupes
 
 ## How it works
 The input dat is split into regions, then each region is processed in a

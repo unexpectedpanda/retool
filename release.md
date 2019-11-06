@@ -1,4 +1,9 @@
 # 0.35
+- It's now optional to filter by English titles, so you can identify all unique
+  titles regardless of language. Use the `-en` option to only include English
+  titles.
+- Massively expanded dupe list in _regional_renames.py to take into account
+  translated titles as a result of the above option.
 - Moved Brazil and Latin America out of the native English list. Modern games
   aren't guaranteed to have an English translation.
 - Removed requirement for Logiqx doctype on input files, as some dats that
@@ -6,8 +11,7 @@
 - Removed requirement for Redump to be the dat author.
 - Handled empty name, description, author, url, and version fields in XML files.
 - Found a similar app called [FilterQuest](https://github.com/UnluckyForSome/FilterQuest).
-  Skimmed its dupe list for titles I'd missed, while leaving out the titles
-  that weren't actually dupes.
+  Skimmed its dupe list for valid dupes that I'd missed.
 
 # 0.34
 - Added textwrap module for better readability on MacOS/Linux.
