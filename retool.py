@@ -175,7 +175,7 @@ def error_instruction():
     print(font.bold + ' -e' + font.end + '   Remove educational')
     print(font.bold + ' -m' + font.end + '   Remove multimedia')
     print(font.bold + ' -p' + font.end + '   Remove betas and prototypes')
-    print(font.bold + ' -r' + font.end + '   Split dat into regionional dats')
+    print(font.bold + ' -r' + font.end + '   Split dat into regional dats')
     print(font.bold + ' -s' + font.end + '   Split dat into into regional dats, include all languages, titles, and dupes\n')
     sys.exit()
 
@@ -220,7 +220,7 @@ def check_input(region_list_english, region_list_other):
                 print(font.red + '* Invalid option ' + sys.argv[i] + font.end)
                 error_state = True
         if x == '-i':
-            if i+1 == len(sys.argv) or bool(re.search('-([ioademp]|re|ra])', sys.argv[i+1])):
+            if i+1 == len(sys.argv) or bool(re.search('^-([ioademprs]|en]$)', sys.argv[i+1])):
                 print(font.red + '* No input file specified' + font.end)
                 error_state = True
             else:
@@ -238,7 +238,7 @@ def check_input(region_list_english, region_list_other):
                 error_state = True
 
         if x == '-o':
-                if i+1 == len(sys.argv) or bool(re.search('-([ioademp]|re|ra])', sys.argv[i+1])):
+                if i+1 == len(sys.argv) or bool(re.search('^-([ioademprs]|en]$)', sys.argv[i+1])):
                     print(font.red + '* No output file specified' + font.end)
                     error_state = True
                 else:
