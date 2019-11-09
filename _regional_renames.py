@@ -72,13 +72,26 @@ def xbox_rename_list():
 # Microsoft Xbox 360
 def x360_rename_list():
     return [
-
+        'Beautiful Katamari Damacy', # Beautiful Katamari
+        'BioShock', # Bioshock - Ultimate Rapture Edition
+        'FIFA 07', # FIFA Soccer 07
+        'FIFA 08', # FIFA Soccer 08
+        'FIFA 09', # FIFA Soccer 09
+        'FIFA 10', # FIFA Soccer 10
+        'FIFA 11', # FIFA Soccer 11
+        'FIFA 12', # FIFA Soccer 12
+        'FIFA 13', # FIFA Soccer 13
+        'FIFA World Cup Germany 2006', # FIFA 06 - Road to FIFA World Cup
+        'Pro Evolution Soccer 6', # Winning Eleven - Pro Evolution Soccer 2007
+        'Project Sylpheed', # Project Sylpheed - Arc of Deception
+        'Sega Mega Drive Ultimate Collection', # Sonic's Ultimate Genesis Collection
     ]
 
 # Microsoft Xbox One
 def xbone_rename_list():
     return [
-
+        'Disney Infinity 2.0 - Play Without Limits', # Disney Infinity 2.0 Edition
+        'Killer Instinct - Combo Breaker Pack', # Killer Instinct (Definitive Edition)
     ]
 
 # Nintendo GameCube
@@ -126,13 +139,184 @@ def gamecube_rename_list():
 # Nintendo Wii
 def wii_rename_list():
     return [
-
+        # There's a number of localized singing games throughout Europe where I'm not
+        # sure if they have local songs added or not, so there may be dupes here.
+        '101-in-1 Party Megamix Wii', # 101-in-1 Party Megamix
+        'AC-DC Live - Rock Band', # AC-DC Live - Rock Band Track Pack
+        'Academy of Champions - Football', # Academy of Champions - Soccer
+        'Adventures of Tintin, The - The Secret of the Unicorn', # Adventures of Tintin, The - The Game
+        'Aladin Magic Racer', # Aladdin Magic Racer (This seems like a typo on Redump's behalf)
+        'All Star Cheerleader', # All Star Cheer Squad
+        'All Star Cheerleader 2', # All Star Cheer Squad 2
+        'Animal Crossing - Let\'s Go to the City', # Animal Crossing - City Folk
+        'Anno - Create a New World', # Dawn of Discovery
+        'ATV Fever', # Honda ATV Fever
+        'Babysitting Party', # Imagine - Party Babyz
+        'Beyblade - Metal Fusion - Counter Leone', # Beyblade - Metal Fusion - Battle Fortress
+        'Big Brain Academy for Wii', # Big Brain Academy - Wii Degree
+        'Big Catch - Bass Fishing', # Hooked! Real Motion Fishing
+        'Big Catch - Bass Fishing 2', # Hooked! Again - Real Motion Fishing
+        'Big Family Games', # Neighborhood Games
+        'Beat the Beat - Rhythm Paradise', # Rhythm Heaven Fever
+        'Bermuda Triangle', # Bermuda Triangle - Saving the Coral
+        'Bigs 2, The - Baseball', # Bigs 2, The
+        'Bomberman Land Wii', # Bomberman Land
+        'Boom Street', # Fortune Street
+        'Bratz Kidz - Party', # Bratz Kidz
+        'Brothers in Arms - Earned in Blood', # Brothers in Arms - Double Time
+        'Brothers in Arms - Road to Hill 30', # Brothers in Arms - Double Time
+        'Bust-A-Move', # Bust-A-Move Bash!
+        'Cabela\'s Dangerous Adventures', # Cabela's Dangerous Hunts 2009
+        'Carnival Funfair Games', # Carnival Games
+        'Charm Girls Club - Pyjama Party', # Charm Girls Club - Pajama Party
+        'Crash Car Racer', # Maximum Racing - Crash Car Racer
+        'Catz', # Petz - Catz 2
+        'Colin McRae - DiRT 2', # DiRT 2
+        'Combat of Giants - Dinosaurs Strike', # Battle of Giants - Dinosaurs Strike
+        'Cooking Mama', # Cooking Mama - Cook Off
+        'Cooking Mama 2 - World Kitchen', # Cooking Mama - World Kitchen
+        'Cooking Mama World - Babysitting Mama', # Babysitting Mama
+        'Dance Dance Revolution - Hottest Party 4', # Dance Dance Revolution
+        'Dance Dance Revolution - Hottest Party 5', # Dance Dance Revolution II
+        'Dance Juniors', # Just Dance Kids
+        'Dancing Stage - Hottest Party', # Dance Dance Revolution - Hottest Party
+        'Diva Ballerina', # My Ballet Studio
+        'Dogz', # Pets - Dogz 2
+        'Donkey Kong - Jet Race', # Donkey Kong Barrel Blast
+        'Drag & Stock Racer', # Maximum Racing - Drag and Stock Racer
+        'DreamWorks Madagascar 3 - Europe\'s Most Wanted', # DreamWorks Madagascar 3 - The Video Game
+        'DreamWorks The Croods - Prehistoric Party! & Rise of the Guardians - Combo Pack', # DreamWorks The Croods - Prehistoric Party!, DreamWorks Rise of the Guardians
+        'Eldar Saga', # Valhalla Knights - Eldar Saga
+        'Eledees', # Elebits
+        'Endless Ocean 2 - Adventures of the Deep', # Endless Ocean - Blue World
+        'ExerBeat - Gym Class Workout', # Exerbeat
+        'Family Ski', # We Ski
+        'Family Ski & Snowboard', # We ski & Snowboard
+        'Family Trainer', # Active Life - Outdoor Challenge
+        'Family Trainer - Extreme Challenge', # Active Life - Extreme Challenge
+        'Family Trainer - Magical Carnival', # Active Life - Magical Carnival
+        'Family Trainer - Treasure Adventure', # Active Life - Explorer
+        'Ferrari - The Race Experience', # Ferrari Challenge - Trofeo Pirelli
+        'FIFA 08', # FIFA Soccer 08
+        'FIFA 09 - All-Play', # FIFA Soccer 09 - All-Play
+        'FIFA 10', # FIFA Soccer 10
+        'FIFA 11', # FIFA Soccer 11
+        'FIFA 12', # FIFA Soccer 12
+        'FIFA 13', # FIFA Soccer 13
+        'FIFA 15 - Legacy Edition', # FIFA 15
+        'Freddi Fish - The Case of the Missing Kelp Seeds', # Freddi Fish - Kelp Seed Mystery
+        'George of the Jungle', # George of the Jungle and the Search for the Secret
+        'Girls Life - Sleepover Party', # Sleepover Party
+        'Glacier 3', # Glacier 3 - The Meltdown
+        'Gottlieb Pinball Classics', # Pinball Hall of Fame - The Gottlieb Collection
+        'GP Classic Racing', # Maximum Racing - GP Classic Racing
+        'Guitar Hero - Greatest Hits', # Guitar Hero Smash Hits
+        'Horse Life 2', # Horse Life Adventures
+        'Ice Age 3 - Dawn of the Dinosaurs', # Ice Age - Dawn of the Dinosaurs
+        'Ice Age 4 - Continental Drift - Arctic Games', # Ice Age - Continental Drift - Arctic Games
+        'Imagine - Champion Rider', # Petz - Horse Club
+        'Imagine - Fashion Idol', # Imagine - Fashion Party
+        'It\'s My Birthday', # Birthday Party Bash
+        'It\'s My Circus', # Ringling Bros. and Barnum & Bailey
+        'Jambo! Safari - Ranger Adventure', # Jambo! Safari - Animal Rescue
+        'Ju-on - The Grudge', # Ju-on - The Grudge - Haunted House Simulator
+        'Kidz Sports Crazy Mini Golf', # Kidz Sports Crazy Golf
+        'Kidz Sports International Football', # Kidz Sports International Soccer
+        'Kirby\'s Adventure Wii', # Kirby's Return to Dream Land
+        'Knockout Party', # Team Elimination Games
+        'Kororinpa', # Kororinpa - Marble Mania
+        'Legend of Sayuki', # Heavenly Guardian
+        'Line Rider Freestyle', # Line Rider 2 - Unbound
+        'Marbles! Balance Challenge', # Marble Saga - Kororinpa
+        'Mario Strikers Charged Football', # Mario Strikers Charged
+        'Mensa Academy', # American Mensa Academy
+        'Millennium European Paintball Series, The - Championship Paintball 2009', # NPPL Championship Paintball 2009
+        'Minon - Everyday Hero', # Domino Rally
+        'Monkey Mischief!', # Monkey Mischief Party Time
+        'Monster High - Scuola da Paura', # Monster High - School Spirit
+        'Monster Trux Arenas', # Monster Trux Arenas - Special Edition
+        'More Game Party', # Game Party 2
+        'My Baby 2', # My Baby First Steps
+        'Mr Bean\'s Wacky World of Wii', # Mr Bean's Wacky World
+        'My Fitness Coach - Cardio Workout', # Gold's Gym - Cardio Workout
+        'My Fitness Coach - Dance Workout', # Gold's Gym - Dance Workout
+        'My Fitness Coach - Get in Shape', # My Fitness Coach
+        'My Horse & Me 2', # My Horse & Me - Riding for Gold
+        'Naruto - Clash of Ninja Revolution - European Version', # Naruto - Clash of Ninja Revolution
+        'Naruto Shippuden - Clash of Ninja Revolution III - European Version', # Naruto - Clash of Ninja Revolution III
+        'Naruto - Clash of Ninja Revolution 2 - European Version', # Naruto - Clash of Ninja Revolution 2
+        'New Carnival Funfair Games', # New Carnival Games
+        'Nickelodeon Bob Esponja - Botes de Choque', # Nickelodeon SpongeBob's Boating Bash
+        'Nickelodeon SpongeBob SquarePants SquigglePants', # Nickelodeon SpongeBob SquigglePants
+        'Nickelodeon SpongeBob SquarePants - Boating Bash', # Nickelodeon SpongeBob's Boating Bash
+        'Nickelodeon SpongeBob SquarePants - SpongeBob\'s Truth or Square', # Nickelodeon SpongeBob's Truth or Square
+        'Nickelodeon SpongeBob and Friends - Attack of the Toybots', # Nicktoons - Attack of the Toybots
+        'Nickelodeon Avatar - The Legend of Aang', # Nickelodeon Avatar - The Last Airbender
+        'Nickelodeon Avatar - The Legend of Aang - Into the Inferno', # Nickelodeon Avatar - The Last Airbender - Into the Inferno
+        'Nickelodeon Avatar - The Legend of Aang - The Burning Earth', # Nickelodeon Avatar - The Last Airbender - The Burning Earth
+        'Night at the Museum 2 - The Video Game', # Night at the Museum - Battle of the Smithsonian - The Video Game
+        'Offroad Extreme!', # Offroad Extreme! Special Edition
+        'ObsCure II', # Obscure - The Aftermath
+        'Off Road', # Ford Racing - Off Road
+        'Pajama Sam - No Need to Hide When It\'s Dark Outside', # Pajama Sam - Don't Fear the Dark
+        'Pangya! Golf with Style', # Super Swing Golf
+        'PDC World Championship Darts 2008', # PDC World Championship Darts
+        'Petz - Monkey Madness', # Petz - Crazy Monkeyz
+        'Petz Sports - Dog Playground', # Petz Sports
+        'Pheasants Forever', # Pheasants Forever - Wingshooter
+        'Pippa Funnell - Ranch Rescue', # Petz - Horsez 2
+        'Planet Rescue - Wildlife Vet', # Petz Rescue - Wildlife Vet
+        'Pop\'n Rhythm', # Pop'n Music
+        'Prince of Persia - The Forgotten Sands + 1989', # Prince of Persia - The Forgotten Sands
+        'Radio Helicopter', # MiniCopter - Adventure Flight
+        'Rally Racer', # Maximum Racing - Rally Racer
+        'Rock Band - Song Pack 1', # Rock Band - Track Pack Volume 1
+        'Rock Band - Song Pack 2', # Rock Band - Track Pack Volume 2
+        'RTL Winter Sports 2008 - The Ultimate Challenge', # Winter Sports - The Ultimate Challenge
+        'Rubik\'s Puzzle World', # Rubik's World
+        'Score International Baja 1000 - World Championship Off Road Racing', # Score International Baja 1000 - The Official Game
+        'Shadow\'s Tale, A', # Lost in Shadow
+        'Sin and Punishment - Successor of the Skies', # Sin & Punishment - Star Successor
+        'Sonic Colours', # Sonic Colors
+        'Sonic to Ankoku no Kishi', # Sonic and the Black Knight
+        'Sports Island', # Deca Sports
+        'Sports Island 2', # Deca Sports 2
+        'Sports Island 3', # Deca Sports 3
+        'Sprint Cars', # Maximum Racing - Sprint Cars
+        'Summer Athletics', # Summer Athletics - The Ultimate Challenge
+        'Super Karts', # Maximum Racing - Super Carts
+        'Super Truck Racer', # Maximum Racing - Super Truck Racer
+        'Table Football', # Championship Foosball
+        'Think - Logic Trainer', # Think Logic Trainer
+        'Think - Logik Trainer', # Think Logic Trainer
+        'TrackMania', # TrackMania - Build to Race
+        'Victorious Boxers Challenge', # Victorious Boxers - Revolution
+        'Wario Land - The Shake Dimension', # Wario Land - Shake it!
+        'We Rock - Drum King', # Rolling Stone - Drum King
+        'Western Heroes', # Gunslingers
+        'Wheelspin', # Speed Zone
+        'Where the Wild Things Are - The Videogame', # Where the Wild Things Are
+        'Williams Pinball Classics', # Pinball Hall of Fame - The Williams Collection
+        'Winter Sports 2008 - The Ultimate Challenge', #Winter Sports - The Ultimate Challenge
+        'Winter Sports 2009 - The Next Challenge', # Winter Sports 2 - The Next Challenge
+        'Winter Sports 2010 - The Great Tournament', # Winter Sports 3 - The Great Tournament
+        'World Championship Sports', # Big League Sports
+        'Yogi Bear - The Video Game', # Yogi Bear
+        'Your Shape', # Your Shape featuring Jenny McCarthy
+        'Yu-Gi-Oh! 5D\'s - Master of the Cards', # Yu-Gi-Oh! 5D's - Duel Transer
     ]
 
 # Nintendo Wii U
 def wii_u_rename_list():
     return [
-
+        # 'Art Academy - Atelier', # Art Academy - Home Studio isn't in Redump yet
+        'Batman - Arkham City - Armoured Edition', # Batman - Arkham City - Armored Edition
+        'Disney Infinity 3.0 - Play Without Limits', # Disney Infinity 3.0 Edition
+        'Disney Infinity 2.0 - Play Without Limits', # Disney Infinity 2.0 Edition
+        'FIFA 13', # FIFA Soccer 13
+        'Kirby and the Rainbow Paintbrush', # Kirby and the Rainbow Curse
+        'Sports Connection', # ESPN Sports Connection
+        # 'Project Zero - Maiden of Black Water', # Fatal Frame - Maiden of Black Water isn't in Redump yet
     ]
 
 # Panasonic 3DO
@@ -159,13 +343,49 @@ def segacd_rename_list():
 # Sega Dreamcast
 def dreamcast_rename_list():
     return [
+        'Aero Dancing F', # (エアロダンシングF 体験版) AeroWings 2 - Airstrike
+        'Aero Dancing featuring Blue Impulse', # (エアロダンシング featuring Blue Impulse) AeroWings
+        'Bakuretsu Muteki Bangaioh', # (爆裂無敵バンガイオー) Bangai-O
+        'Berserk - Millennium Falcon Hen Wasurebana no Shou', # (ベルセルク　千年帝国の鷹篇　喪失花の章) Sword of the Berserk - Guts' Rage
+        'Biohazard 2 - Value Plus', # Resident Evil 2
+        'Biohazard 3 - Last Escape', # (バイオハザード3　ラストエスケープ) Resident Evil 3 - Nemesis
+        'Biohazard - Code - Veronica', # (バイオハザード　コード：ベロニカ) Resident Evil - Code - Veronica
+        'Capcom vs. SNK - Millennium Fight 2000', # (カプコンバーサスエスエヌケイ ミレニアムファイト 2000) Capcom vs. SNK
+        'Chu-Chu Rocket!', # (チューチューロケット！) ChuChu Rocket!
+        'Climax Landers', # (クライマックスランダーズ) Time Stalkers
+        'Cool Boarders Burrrn!', # (クールボーダーズ・バーン) Rippin' Riders
+        'Deadly Skies', # AirForce Delta
+        'Daytona USA 2001', #Daytona USA
         # 'Disney\'s Donald Duck - Quack Attack', # Disney's Donald Duck - Goin' Quackers isn't in Redump yet
+        'Dragons Blood', # Draconus - Cult of the Wyrm
+        'Ducati World', # Ducati World - Racing Challenge
+        'Dynamite Deka 2', # Dynamite Cop!
+        'Get Bass', # (ゲットバス) Sega Bass Fishing
+        'Jet Set Radio', # Jet Grind Radio
         'Le Mans 24 Hours', # Test Drive Le Mans
         'Marvel vs. Capcom 2 - New Age of Heroes', # Marvel vs. Capcom 2
         'Millennium Soldier - Expendable', # Expendable
+        'Nomad Soul, The', # Omikron - The Nomad Soul
+        'Power Smash - Sega Professional Tennis', # (パワースマッシュ) Virtua Tennis
+        'Power Smash 2 - Sega Professional Tennis', # (パワースマッシュ2) Tennis 2K2
+        'Project Justice - Rival Schools 2', # Project Justice
         'Ready 2 Rumble Boxing - Uchikome Warai no Megaton Punch!!', # Ready 2 Rumble Boxing
+        'Sega Extreme Sports', # Xtreme Sports
+        'Sega GT - Homologation Special', # (セガGT ホモロゲーションスペシャル) Sega GT
+        'Shinki Sekai Evolution', # (神機世界　エヴォリューション) Evolution - The World of Sacred Device
+        'Shutokou Battle', # (首都高バトル) Tokyo Xtreme Racer
+        'Shutokou Battle 2', # (首都高バトル 2) Tokyo Xtreme Racer 2
+        'Snow Surfers', # Rippin' Riders
         'Sonic Adventure International', # Sonic Adventures
-        'Totsugeki! Teketeke!! Toy Ranger', # Toy Commander
+        'Star Gladiator 2 - Nightmare of Bilstein', # (スターグラディエイター2 ナイトメアオブビルシュタイン) Plasma Sword - Nightmare of Bilstein
+        'Super Speed Racing', # (スーパースピードレーシング) Flag to Flag
+        'Tokyo Highway Challenge', # Tokyo Xtreme Racer
+        'Tony Hawk\'s Skateboarding', # Tony Hawk's Pro Skater
+        'Totsugeki! Teketeke!! Toy Ranger', # (突撃！てけてけ！！　トイ・レンジャー) Toy Commander
+        'V-Rally 2 - Expert Edition', # Test Drive V-Rally
+        'Virtua Athlete 2K', # Virtua Athlete 2000
+        'Virtua Tennis - Sega Professional Tennis', # Virtua Tennis
+        'Virtua Tennis 2 - Sega Professional Tennis', # Tennis 2K2
     ]
 
 # Sega Saturn
@@ -428,10 +648,13 @@ def ps2_rename_list():
     return [
         # Hawk Superbike Racing (Australia) might be Hawk Kawasaki Racing (Europe)?
         'A Ge Si Zhan Shi', # (阿格斯戰士) Rygar - The Legendary Adventure
+        'AC-DC Live - Rock Band', # AC-DC Live - Rock Band Track Pack
         'Ace Combat - Distant Thunder', # Ace Combat 04 - Shattered Skies
         'Ace Combat - Squadron Leader', # Ace Combat 5 - The Unsung War
         'Ace Combat - The Belkan War', # Ace Combat Zero - The Belkan War
+        'AFL Live 2004 - Aussie Rules Football', # AFL Live 2004
         'Akumajou Dracula - Yami no Juin', # Castlevania - Curse of Darkness
+        'Alarm for Cobra 11 Vol. 2 - Hot Pursuit', # Alarm for Cobra 11 - Vol. II
         'America\'s 10 Most Wanted', # Fugitive Hunter - War on Terror
         'AMF Xtreme Bowling 2006', # AMF Xtreme Bowling
         'Aqua Aqua - Wetrix 2', # Aqua Aqua
@@ -489,6 +712,7 @@ def ps2_rename_list():
         'Everybody\'s Tennis', # Hot Shots Tennis
         'Evolution GT', # Corvette Evolution GT
         'Fantavision - For You and Me', # Fantavision
+        'FIFA 06', # FIFA Soccer 06
         'FIFA 07', # FIFA Soccer 07
         'FIFA 08', # FIFA Soccer 08
         'FIFA 09', # FIFA Soccer 09
@@ -512,6 +736,7 @@ def ps2_rename_list():
         'George of the Jungle', # George of the Jungle and the Search for the Secret
         'Godfather, The', # Godfather, The - The Game
         'Gottlieb Pinball Classics', # Pinball Hall of Fame: The Gottlieb Collection
+        'GTC Africa', # Global Touring Challenge - Africa
         'Guitar Hero - Greatest Hits', # Guitar Hero - Smash Hits
         'Guitar Hero - Rocks the 80s', # Guitar Hero Encore - Rocks the 80s
         'Hard Hitter 2', # Hard Hitter Tennis
@@ -519,7 +744,10 @@ def ps2_rename_list():
         'Harry Potter and the Philosopher\'s Stone', # Harry Potter and the Sorcerer's Stone
         'Harry Potter to Kenja no Ishi', # (賢者の石) Harry Potter and the Sorcerer's Stone
         'Harvest Fishing', # River King - A Wonderful Journey
+        'Hawk Superbike Racing', # Hawk Kawasaki Racing
         'Ice Age 3 - Dawn of the Dinosaurs', # Ice Age - Dawn of the Dinosaurs
+        'Indigo Prophecy', # Farenheit
+        'IndyCar Series', # IndyCar Series featuring the Indianapolis 500
         'International Cue Club', # Real Pool
         'International League Soccer', # Soccer America - International Cup
         'International Track & Field 2', # International Track & Field 2000
@@ -529,6 +757,9 @@ def ps2_rename_list():
         'Jak X', # Jak X - Combat Racing
         'Jak X & Ratchet - Gladiator', # Jak X - Combat Racing, and Ratchet - Deadlocked
         'Jet Li - Rise to Honour', # Rise to Honor
+        'Jet Ski Riders', # Wave Rally
+        'K-1 World GP', # K-1 World Grand Prix
+        'K-1 World Grand Prix - The Beast Attack!', # K-1 World Grand Prix
         'Kaido Racer', # Tokyo Xtreme Racer - Zero
         'Kaido Racer 2', # Tokyo Xtreme Racer - Drift 2
         'Karaoke Stage', # Karaoke Revolution
@@ -545,7 +776,7 @@ def ps2_rename_list():
         'Mashed - Drive to Survive', # Drive to Survive
         'Mashed - Fully Loaded', # Drive to Survive
         'Millennium European Paintball Series, The - Championship Paintball 2009', # NPPL Championship Paintball 2009
-        'Nickelodeon The Adventures of Jimmy Neutron - Boy Genius - Jet Fusion', # Nickelodeon Jimmy Neutron - Boy Genius - Jet Fusion
+        'Mountain Bike Adrenaline featuring Salomon', # Mountain Bike Adrenaline
         'Mr Moskeeto', # Mr Mosquito
         'MTV Music Generator 3', # MTV Music Generator 3 - This Is the Remix
         'Music 3000', # Digital Hitz Factory
@@ -559,6 +790,7 @@ def ps2_rename_list():
         'Nickelodeon SpongeBob and Friends - Battle for Volcano Island', # Nicktoons - Battle for Volcano Island
         'Nickelodeon SpongeBob SquarePants and Friends Unite!', # Nicktoons Unite!
         'Nickelodeon SpongeBob SquarePants - Movin\' with Friends', # Nicktoons Movin'
+        'Nickelodeon The Adventures of Jimmy Neutron - Boy Genius - Jet Fusion', # Nickelodeon Jimmy Neutron - Boy Genius - Jet Fusion
         'ObsCure II', # Obscure - The Aftermath
         'Off Road', # Ford Racing - Off Road
         'Off-Road - Wide Open', # Test Drive Off-Road - Wide Open
@@ -567,6 +799,7 @@ def ps2_rename_list():
         'Operation WinBack 2 - Project Poseidon', # WinBack 2 - Project Poseidon
         'P3 - Persona 3', # Shin Megami Tensei - Persona 3
         'Pac-Man Rally', # Pac-man World Rally
+        'PDC World Championship Darts 2008', # PDC World Championship Darts
         'Penny Racers', # Gadget Racers
         'Persona 3 FES', # Shin Megami Tensei - Persona 3 FES
         'Persona 4', # Shin Megami Tensei - Persona 4
@@ -583,6 +816,7 @@ def ps2_rename_list():
         'Pro Evolution Soccer 4', # World Soccer Winning Eleven 8 - International
         'Pro Evolution Soccer 5', # World Soccer Winning Eleven 9
         'Pro Evolution Soccer 6', # Winning Eleven - Pro Evolution Soccer 2007
+        'Pro Tennis WTA Tour', # WTA Tour Tennis
         'ProStroke Golf', # ProStroke Golf - World Tour 2007
         'Project Zero', # Fatal Frame
         'Project Zero II - Crimson Butterfly', # Fatal Frame II - Crimson Butterfly
@@ -631,6 +865,7 @@ def ps2_rename_list():
         'SXR - Snow X Racing', # Ski-doo Snow X Racing
         'Tekken\'s Nina Williams in - Death by Degrees', # Death by Degrees
         'TD Overdrive - The Brotherhood of Speed', # Test Drive
+        'TG DareDevil', # Top Gear Dare Devil
         'Theme Park World', # Theme Park Roller Coaster
         'This Is Football 2002', # World Tour Soccer 2002
         'This Is Football 2003', # World Tour Soccer 2003
@@ -670,13 +905,85 @@ def ps2_rename_list():
 # Sony PlayStation 3
 def ps3_rename_list():
     return [
-
+        'AC-DC Live - Rock Band', # AC-DC Live - Rock Band Track Pack
+        'Adventures of Tintin, The - The Secret of the Unicorn', # Adventures of Tintin, The - The Game
+        'Agarest - Generations of War', # Record of Agarest War
+        'Agarest - Generations of War Zero', # Record of Agarest War Zero
+        'Akumajou Dracula - Lords of Shadow 2', # Castlevania - Lords of Shadow
+        'Assassin\'s Creed - Birth of a New World - The American Saga', # Assassin's Creed - The Americas Collection
+        'Assassin\'s Creed - Heritage Collection', # Assassin's Creed, Assassin's Creed II, Assassin's Creed - Brotherhood, Assassin's Creed - Revelations, Assassin's Creed III
+        'Biohazard 5', # Resident Evil 5
+        'Biohazard 5 - Alternative Edition', # Resident Evil 5 - Gold Edition
+        'Biohazard 6', # Resident Evil 6
+        'BlackSite', # BlackSite - Area 51
+        'Cabela\'s Dangerous Adventures', # Cabela's Dangerous Hunts 2009
+        'Condemned 2', # Condemned 2 - Bloodshot
+        'Copa do Mundo da FIFA Brasil 2014', # 2014 FIFA World Cup Brazil
+        'Darksiders - Shinpan no Toki', # (審判の時) Darksiders
+        'Dead Island - Double Pack', # Dead Island, Dead Island - Riptide
+        'Disney Infinity 2.0 - Play Without Limits', # Disney Infinity 2.0 Edition
+        'Disney Infinity 3.0 - Play Without Limits', # Disney Infinity 3.0 Edition
+        'Everybody\'s Golf - World Tour', # Hot Shots Golf - Out of Bounds
+        'FIFA 08', # FIFA Soccer 08
+        'FIFA 09', # FIFA Soccer 09
+        'FIFA 10', # FIFA Soccer 10
+        'FIFA 11', # FIFA Soccer 11
+        'FIFA 12', # FIFA Soccer 12
+        'FIFA 13', # FIFA Soccer 13
+        'God of War Collection - Volume II', # God of War - Origins Collection
+        'Guitar Hero - Greatest Hits', # Guitar Hero - Smash Hits
+        'Hakuna Matata', # Afrika
+        'Hyperdimension Neptunia Hypercollection', # Hyperdimension Neptunia, Hyperdimension Neptunia mk2, Hyperdimension Neptunia Victory
+        'Ico &amp; Shadow of the Colossus', # Ico &amp; Shadow of the Colossus Collection, The
+        'Iron Man 2 - The Video Game', # Iron Man 2
+        'Jak and Daxter Trilogy, The', # Jak and Daxter Collection
+        'Killzone', # Killzone Trilogy (USA) (Killzone + Killzone 2)
+        'Lost', # Lost - Via Domus
+        'Max Anarchy', # Anarchy Reigns
+        'Medieval Moves', # Medieval Moves - Deadmund's Quest
+        'Metal Gear Online', # Bundled in Metal Gear Solid 4 - Guns of the Patriots
+        'Millennium European Paintball Series, The - Championship Paintball 2009', # NPPL Championship Paintball 2009
+        'Minecraft - Story Mode - A Telltale Games Series', # Minecraft - Story Mode - A Telltale Games Series - The Complete Adventure
+        'Mobile Suit Gundam - Target in Sight', # Mobile Suit Gundam - Crossfire
+        'Naruto Shippuden - Ultimate Ninja Storm Collection', # Naruto - Ultimate Ninja Storm, Naruto - Ultimate Ninja Storm 2, Naruto Shippuden - Ultimate Ninja Storm 3 Full Burst
+        'Persona 4 - The Ultimate in Mayonaka Arena', # Persona 4 Arena Ultimax
+        'Port Royale 3', # Port Royale 3 - Pirates & Merchants
+        'Prince of Persia - Boukyaku no Suna', # (忘 却の砂) Prince of Persia - The Forgotten Sands
+        'R.U.S.E.', # R.U.S.E. - The Art of Deception
+        'Ratchet & Clank - A Crack in Time', # Ratchet & Clank Future - A Crack in Time
+        'Ratchet & Clank - QForce', # Ratchet & Clank - Full Frontal Assault
+        'Ratchet & Clank - Tools of Destruction', # Ratchet & Clank Future - Tools of Destruction
+        'Ratchet & Clank Future', # Ratchet & Clank Future - Tools of Destruction
+        'Ratchet & Clank Trilogy, The', # Ratchet & Clank Collection
+        'Resistance - Jinrui Botsuraku no Hi', # (人類没落の日) Resistance - Fall of Man
+        'Robert Ludlum\'s Das Bourne Komplott', # Robert Ludlum's The Bourne Conspiracy
+        'Rock Band - Song Pack 2', # Rock Band - Track Pack Volume 2
+        'Rune Factory - Oceans', # Rune Factory - Tides of Destiny
+        'Score International Baja 1000 - World Championship Off Road Racing', # Score International Baja 1000 - The Official Game
+        'Sega Mega Drive Ultimate Collection', # Sonic's Ultimate Genesis Collection
+        'Sega Rally', # Sega Rally Revo
+        'Sly Trilogy, The', # Sly Collection, The
+        'SOCOM - Confrontation', # SOCOM - U.S. Navy SEALs - Confrontation
+        'SOCOM - Special Forces', # SOCOM 4 - U.S. Navy SEALs
+        'South Park - Der Stab der Wahrheit', # South Park - The Stick of Truth
+        'Terra-Media - Sombras de Mordor', # Middle-Earth - Shadow of Mordor
+        'Tom Clancy\'s Ghost Recon Double Pack', # Tom Clancy's Ghost Recon Anthology
+        'Uncharted - El Dorado no Hihou', # (エル･ドラドの秘宝) Uncharted - Drake's Fortune
+        'Uncharted - Ougontou to Kieta Sendan', # (黄金刀と消えた船団) Uncharted 2 - Among Thieves
+        'Uncharted - Sabaku ni Nemuru Atlantis', # (砂漠に眠るアトランティス) Uncharted 3 - Drake's Deception
+        'Where the Wild Things Are - The Videogame', # Where the Wild Things Are
+        'White Knight Chronicles', # White Knight Chronicles - International Edition
+        'Williams Pinball Classics', # Pinball Hall of Fame - The Williams Collection
+        'Watch Dogs', # Watch_Dogs
+        'World Soccer Winning Eleven 2008', # PES 2008 - Pro Evolution Soccer
     ]
 
 # Sony PlayStation 4
 def ps4_rename_list():
     return [
-
+        'Metal Gear Solid V - Ground Zeroes', # Metal Gear Solid V - The Definitive Experience
+        'Watch Dogs', # Watch_Dogs
+        'Uncharted - Kaizoku-ou to Saigo no Hihou', # (海賊王と最後の秘宝) Uncharted 4 - A Thief's End
     ]
 
 # Sony PlayStation Portable
