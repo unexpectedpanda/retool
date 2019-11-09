@@ -8,7 +8,8 @@ appropriate ZIP file in the `dist` folder for Windows or MacOS. Only 64-bit
 executables are available, 32-bit operating systems are not supported. Extract
 and run the executable files directly, no installation is required.
 
-Otherwise, _Retool_ requires a minimum of [Python 3.5](https://www.python.org/) with `pip`.
+Otherwise, _Retool_ requires a minimum of [Python 3.5](https://www.python.org/)
+with `pip`.
 
 You'll need to install two modules with `pip` before using _Retool_. To do so,
 open Terminal, Command Prompt, or whatever the CLI is on your system, and type:
@@ -18,12 +19,12 @@ pip install bs4
 pip install lxml
 ```
 ### Troubleshooting pip
-* Some systems have multiple versions of Python installed. You might need to run
-`pip3` instead of `pip`.
+* Some systems have multiple versions of Python installed. You might need to
+run `pip3` instead of `pip`.
 * Python will complain that the `bs4` module doesn't exist if `pip`
-is installing modules to the wrong folder for Python 3.x access. If using `pip3`
-instead of `pip` doesn't fix the issue, do a web search to solve the problem on
-your OS of choice.
+is installing modules to the wrong folder for Python 3.x access. If using
+`pip3` instead of `pip` doesn't fix the issue, do a web search to solve the
+problem on your OS of choice.
 
 ## Usage
 `python retool.py -i <input dat/folder> -o <output dat/folder> <options>`
@@ -109,8 +110,19 @@ name, **_Dancing Stage Unleashed 3 (Europe)_** and
 **_Dance Dance Revolution Ultramix 3 (USA)_** are the same title, and so
 **_Dancing Stage Unleashed 3 (Europe)_** would not be included.
 
+## FAQs
+#### How did you figure out what the dupes were?
+I went through each dat for games that weren't tagged as USA. I then used
+Wikipedia, Moby Games, YouTube, and good old web searching to turn up
+information. I went through Redump's site for Japanese and Chinese characters
+for the titles, so I could do translations and find out the equivalent English
+titles. Later in the process I discovered
+[FilterQuest](https://github.com/UnluckyForSome/FilterQuest), a similar tool,
+and added some missing titles from there.
+
 ## Known limitations
-Be aware of the following limitations when using _Retool_. These might or might not be addressed in the future.
+Be aware of the following limitations when using _Retool_. These might or
+might not be addressed in the future.
 
 #### Doesn't remove older versions of titles
 For example, **_Halo - Combat Evolved (USA)_**,
@@ -127,12 +139,12 @@ For example, **_Suffering, The - Ties That Bind (Europe) (En,Es,It)_** and
 **_Suffering, The - Ties That Bind (Europe) (En,Fr)_**.
 
 #### Can't preference a non-US title over a US title, when the non-US title is arguably superior
-For example, **_Fahrenheit (Europe) (En,Fr,De,Es,It)_** versus **_Indigo Prophecy (USA)_**,
-where the latter is censored.
+For example, **_Fahrenheit (Europe) (En,Fr,De,Es,It)_** versus
+**_Indigo Prophecy (USA)_**, where the latter is censored.
 
 #### Can only follow Redump language tags for non-English countries
-If Redump missed tagging titles from regions where English isn't their first language (for example, Japan),
-those titles won't be included.
+If Redump missed tagging titles from regions where English isn't their first
+language (for example, Japan), those titles won't be included.
 
 #### Will remove titles that have the same name in different regions, even if those titles have different content
 For example, versions of singing titles that have additional local tracks.
