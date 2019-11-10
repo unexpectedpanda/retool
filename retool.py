@@ -11,6 +11,8 @@ import re
 import datetime
 import time
 import textwrap
+import html
+from lxml import etree
 from bs4 import BeautifulSoup, Doctype # For XML parsing
 import _regional_renames # Duplicate image titles that have different names in different regions
 
@@ -508,7 +510,7 @@ def localized_titles_unique (region, titles, unique_list, dupe_list, user_input)
         roms = title.findChildren('rom', recursive=False)
         newroms = []
         for rom in roms:
-                newroms.append(DatNodeRom('rom', rom['crc'], rom['md5'], rom['name'], rom['sha1'], rom['size']))
+            newroms.append(DatNodeRom('rom', rom['crc'], rom['md5'], rom['name'], rom['sha1'], rom['size']))
 
         # Check that there isn't multiple discs or revisions
         if regional_titles_data.get(raw_title, -1) != -1:
@@ -555,11 +557,11 @@ def convert_to_xml(region, unique_regional_titles, titles, user_input):
             for title in unique_regional_titles[region]:
                 if title != 'unique_titles':
                     for subtitle in unique_regional_titles[region][title]:
-                        final_title_xml += '\t<game name="' + subtitle.full_title + '">'
-                        final_title_xml += '\n\t\t<category>' + subtitle.category + '</category>'
-                        final_title_xml += '\n\t\t<description>' + subtitle.description + '</description>'
+                        final_title_xml += '\t<game name="' + html.escape(subtitle.full_title) + '">'
+                        final_title_xml += '\n\t\t<category>' + html.escape(subtitle.category) + '</category>'
+                        final_title_xml += '\n\t\t<description>' + html.escape(subtitle.description) + '</description>'
                         for rom in subtitle.roms:
-                            final_title_xml += '\n\t\t<rom crc="' + rom.crc + '" md5="' + rom.md5 + '" name="' + rom.name + '" sha1="' + rom.sha1 + '" size="' + rom.size + '"/>'
+                            final_title_xml += '\n\t\t<rom crc="' + rom.crc + '" md5="' + rom.md5 + '" name="' + html.escape(rom.name) + '" sha1="' + rom.sha1 + '" size="' + rom.size + '"/>'
                         final_title_xml += '\n\t</game>\n'
 
                 progress += 1
@@ -597,24 +599,39 @@ def process_dats(user_input, region_list_english, region_list_other, is_folder):
         soup = BeautifulSoup(xml_convert, "lxml-xml")
     else:
         soup = BeautifulSoup(checkdat, "lxml-xml")
-        # Check for a valid Redump XML dat, then grab the dat details
+
+        # Check for a valid Redump XML dat that follows the Logiqx dtd, then grab the dat details
         valid_dat_file = False
 
-        for item in soup.contents:
-            if ('<datafile>' in str(item) and '</datafile>' in str(item)):
-                valid_dat_file = True
-                print('file is a Logiqx dat file.')
-                dat_name = soup.find('name').string
-                dat_description = soup.find('description').string
-                dat_author = soup.find('author').string
-                dat_url = soup.find('url').string
-                dat_version = soup.find('version').string
+        try:
+            with open('datafile.dtd') as dtdfile:
+                dtd = etree.DTD(dtdfile)
+                root = etree.XML(checkdat)
+                if dtd.validate(root) == False:
+                    print('\n' + font.bold + font.red + '* Error: XML file doesn\'t conform to Logiqx dtd' + font.end + '\n')
+                    print(dtd.error_log.filter_from_errors()[0])
+                    sys.exit()
 
-                if dat_name == None: dat_name = ''
-                if dat_description == None: dat_description = ''
-                if dat_author == None: dat_author = ''
-                if dat_url == None: dat_url = ''
-                if dat_version == None: dat_version = ''
+        except OSError as e:
+            print('\n' + font.bold + font.red + '* Error: ' + font.end + str(e) + '\n')
+            raise
+
+
+        if ('<datafile>' in str(soup.contents) and '</datafile>' in str(soup.contents)):
+            valid_dat_file = True
+            print('file is a Logiqx dat file.')
+            dat_name = soup.find('name').string
+            dat_description = soup.find('description').string
+            dat_author = soup.find('author').string
+            dat_url = soup.find('url').string
+            dat_version = soup.find('version').string
+
+            if dat_name == None: dat_name = ''
+            if dat_description == None: dat_description = ''
+            if dat_author == None: dat_author = ''
+            if dat_url == None: dat_url = ''
+            if dat_version == None: dat_version = ''
+
         if valid_dat_file == False:
             print(font.red + '\n* "' + user_input.file_input + '" isn\'t a CLRMAMEPro compatible dat file.' + font.end)
             if is_folder == False:
