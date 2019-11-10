@@ -2,6 +2,7 @@
 - It's now optional to filter by English titles, so you can identify all unique
   titles regardless of language. Use the `-en` option to only include English
   titles.
+- Now removes titles that aren't the latest revisions or versions.
 - Massively expanded dupe list in _regional_renames.py to take into account
   translated titles as a result of the above option.
 - Moved Brazil and Latin America out of the native English list. Modern games

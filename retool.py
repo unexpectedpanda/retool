@@ -518,6 +518,17 @@ def localized_titles_unique (region, titles, unique_list, dupe_list, user_input)
         else:
             regional_titles_data[raw_title] = [DatNode(str(title.category.parent['name']), title.category.contents[0], title.description.contents[0], newroms)]
 
+        # if raw_title == 'Grim Fandango':
+        #     print(len(regional_titles_data[raw_title]))
+        #     print('\n' + font.bold + '■  ' + raw_title + font.end)
+        #     for title in regional_titles_data[raw_title]:
+        #         print('   └ ' + str(vars(title)))
+        #         for i, rom in enumerate(title.roms):
+        #             if i == len(title.roms) - 1:
+        #                 print('        └ ' + str(vars(rom)))
+        #             else:
+        #                 print('        ├ ' + str(vars(rom)))
+
     # Find the uniques
     if user_input.split_regions == False:
         unique_regional_list = [x for x in regional_titles if x not in unique_list and x not in dupe_list]
@@ -542,12 +553,84 @@ def localized_titles_unique (region, titles, unique_list, dupe_list, user_input)
     else:
         unique_regional_list = [x for x in regional_titles]
 
+    # Remove older versions of titles
+    for title in regional_titles_data:
+        print('\n' + font.bold + '■  ' + title + font.end)
+        highest_version = []
+        for subtitle in regional_titles_data[title]:
+            print('   └ ' + str(vars(subtitle)))
+            for i, rom in enumerate(subtitle.roms):
+                if i == len(subtitle.roms) - 1:
+                    print('        └ ' + str(vars(rom)))
+                else:
+                    print('        ├ ' + str(vars(rom)))
+
+            if '(Rev ' in str((subtitle.full_title)):
+                try:
+                    highest_version.append(int(re.findall('\(Rev [0-9]\)', str(subtitle.full_title))[0][4:-1]))
+                except:
+                    highest_version.append(re.findall('\(Rev [A-Z]\)', str(subtitle.full_title))[0][5:-1])
+
+        if len(highest_version) > 0:
+            highest_version.sort(reverse = True)
+            print('Highest version: ' + str(highest_version[0]))
+            print('This many revisions: ' + str(len(highest_version)))
+
+            # Merge identical results
+            highest_version = merge_identical_list_items(highest_version)
+
+            # Get the base titles
+            rev_title = []
+            for subtitle in regional_titles_data[title]:
+                if '(Rev ' + str(highest_version[0]) in subtitle.full_title:
+                    rev_title.append(re.findall('.*?\(Rev ' + str(highest_version[0]), subtitle.full_title)[0][:-7])
+
+            # Merge identical results
+            rev_title = merge_identical_list_items(rev_title)
+
+            # Delete older titles
+            for i, x in enumerate(highest_version):
+                if i > 0:
+                    for subtitle in regional_titles_data[title]:
+                        if re.findall('.*?\(Rev ' + str(x).strip(), subtitle.full_title) != []:
+                            print('I\'m going to delete: ' + re.findall('.*?\(Rev ' + str(x).strip(), subtitle.full_title)[0])
+                else:
+                    rev_title_keep = []
+                    for subtitle in regional_titles_data[title]:
+                        if re.findall('.*?\(Rev ' + str(x).strip(), subtitle.full_title) != []:
+                            rev_title_keep.append(re.findall('.*?\(Rev ' + str(x).strip(), subtitle.full_title)[0])
+
+                    rev_title_keep = merge_identical_list_items(rev_title_keep)
+
+                    for x in rev_title_keep:
+                        print('I\'m going to keep: ' + x)
+
+            # Now delete the original title without a revision
+            for x in rev_title:
+                print('I\'m going to delete: ' + x)
+
+            input('>')
+
+
+
     # Add unique list to the dictionary
     regional_titles_data['unique_titles'] = unique_regional_list
 
     return regional_titles_data
 
-# Uses a title to create its original XML node
+def merge_identical_list_items(list_dupes):
+    list_dupes_temp = []
+    for i in range(len(list_dupes)):
+        if i != 0:
+            if list_dupes[i] != list_dupes[i-1]:
+                list_dupes_temp.append(list_dupes[i])
+        else:
+            list_dupes_temp.append(list_dupes[i])
+
+    list_dupes = list_dupes_temp
+    return list_dupes
+
+# Uses a title to create its original XML node, dedupe versions
 def convert_to_xml(region, unique_regional_titles, titles, user_input):
     final_title_xml = ''
     if unique_regional_titles[region] != []:
@@ -726,7 +809,6 @@ def process_dats(user_input, region_list_english, region_list_other, is_folder):
     unique_regional_titles['Unknown'] = localized_titles_unique('Unknown', titles['Unknown'], unique_list, dupe_list, user_input)
 
     # Find titles without regions
-
     if len(unique_regional_titles['Unknown']) > 1:
         unknown_region_title_count = len(unique_regional_titles['Unknown']['unique_titles'])
         print('  * Adding titles without regions...', sep='', end='\r', flush=True)
