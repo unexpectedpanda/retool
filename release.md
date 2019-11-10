@@ -7,13 +7,20 @@
 - Moved Brazil and Latin America out of the native English list. Modern games
   aren't guaranteed to have an English translation.
 - Removed requirement for Logiqx doctype on input files, as some dats that
-  weren't from Redump were erroring.
+  weren't from Redump and missed the dtd string were erroring.
 - Removed requirement for Redump to be the dat author.
+- Escaped characters that aren't valid in XML (<, >, &, ", ').
 - Handled empty name, description, author, url, and version fields in XML files.
+- Added DTD validation for Logiqx dat files. Redump dat files are invalid by
+  default as the category tag isn't in the spec. A modified DTD file has been
+  included in the release with the tag added.
 - Fixed bug where things broke if the input or output file name included any of
   the option flags.
 - Found a similar app called [FilterQuest](https://github.com/UnluckyForSome/FilterQuest).
   Skimmed its dupe list for valid dupes that I'd missed.
+- Reorganized `_regional_renames.py` to be master title above dupe titles,
+  instead of an inline comment. It makes the file larger, but should make 1G1R
+  dupe management easier.
 
 # 0.34
 - Added textwrap module for better readability on MacOS/Linux.
