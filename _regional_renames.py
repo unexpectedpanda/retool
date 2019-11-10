@@ -1016,6 +1016,9 @@ def dreamcast_rename_list():
         # Virtua Athlete 2000
         'Virtua Athlete 2K',
 
+        # Virtua Striker 2
+        'Virtua Striker 2 Ver. 2000.1'
+
         # Virtua Tennis
         'Power Smash - Sega Professional Tennis', # (パワースマッシュ)
         'Virtua Tennis - Sega Professional Tennis',
