@@ -603,28 +603,35 @@ def process_dats(user_input, region_list_english, region_list_other, is_folder):
         # Check for a valid Redump XML dat that follows the Logiqx dtd, then grab the dat details
         valid_dat_file = False
 
-        try:
-            with open('datafile.dtd') as dtdfile:
-                dtd = etree.DTD(dtdfile)
-                root = etree.XML(checkdat)
-                if dtd.validate(root) == False:
-                    print('\n' + font.bold + font.red + '* Error: XML file doesn\'t conform to Logiqx dtd' + font.end + '\n')
-                    print(dtd.error_log.filter_from_errors()[0])
-                    sys.exit()
-
-        except OSError as e:
-            print('\n' + font.bold + font.red + '* Error: ' + font.end + str(e) + '\n')
-            raise
-
-
         if ('<datafile>' in str(soup.contents) and '</datafile>' in str(soup.contents)):
+            try:
+                with open('datafile.dtd') as dtdfile:
+                    dtd = etree.DTD(dtdfile)
+                    root = etree.XML(checkdat)
+                    if dtd.validate(root) == False:
+                        print('\n' + font.bold + font.red + '* Error: XML file doesn\'t conform to Logiqx dtd' + font.end + '\n')
+                        print(dtd.error_log.filter_from_errors()[0])
+                        sys.exit()
+
+            except OSError as e:
+                print('\n' + font.bold + font.red + '* Error: ' + font.end + str(e) + '\n')
+                raise
+
             valid_dat_file = True
             print('file is a Logiqx dat file.')
-            dat_name = soup.find('name').string
-            dat_description = soup.find('description').string
-            dat_author = soup.find('author').string
-            dat_url = soup.find('url').string
-            dat_version = soup.find('version').string
+
+            if ('<header>' in str(soup.contents) and '</header>' in str(soup.contents)):
+                dat_name = soup.find('name').string
+                dat_description = soup.find('description').string
+                dat_author = soup.find('author').string
+                dat_url = soup.find('url').string
+                dat_version = soup.find('version').string
+            else:
+                dat_name = 'Unknown'
+                dat_description = 'Unknown'
+                dat_author = 'Unknown'
+                dat_url = None
+                dat_version = '1.0'
 
             if dat_name == None: dat_name = ''
             if dat_description == None: dat_description = ''
