@@ -72,6 +72,9 @@ def xbox_rename_list():
         # ESPN International Winter Sports 2002
         'ESPN International Winter Sports',
 
+        # Fahrenheit
+        'Indigo Prophecy', # The USA version is censored, so the European version is preferenced
+
         # Fatal Frame
         'Project Zero',
 
@@ -1947,7 +1950,7 @@ def ps2_rename_list():
         # Fantavision
         'Fantavision - For You and Me',
 
-        # Farenheit
+        # Fahrenheit
         'Indigo Prophecy', # The USA version is censored, so the European version is preferenced
 
         # Fatal Frame
