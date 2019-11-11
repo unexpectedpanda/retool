@@ -484,7 +484,7 @@ def add_titles(region_list, titles, unique_list, dupe_list, user_input, unique_r
             print('  * Adding titles from ' + region + '... done.')
     return title_xml
 
-# Finds unique titles in regions
+# Finds unique titles in regions, removes dupes
 def localized_titles_unique (region, titles, unique_list, dupe_list, user_input):
     regional_titles = []
     regional_titles_data = {}
@@ -556,7 +556,10 @@ def localized_titles_unique (region, titles, unique_list, dupe_list, user_input)
     # Remove older versions of titles
     for title in regional_titles_data:
         print('\n' + font.bold + '■  ' + title + font.end)
-        highest_version = []
+        highest_version = {}
+        versions = []
+        rev_title2 = ''
+
         for subtitle in regional_titles_data[title]:
             print('   └ ' + str(vars(subtitle)))
             for i, rom in enumerate(subtitle.roms):
@@ -566,17 +569,37 @@ def localized_titles_unique (region, titles, unique_list, dupe_list, user_input)
                     print('        ├ ' + str(vars(rom)))
 
             if '(Rev ' in str((subtitle.full_title)):
+                # Get the base titles
+                rev_title = re.findall('.*?\(Rev ', subtitle.full_title)[0][:-6]
+
+                print('For this run, rev_title is ' + rev_title + '\nrev_title2 is ' + rev_title2)
+
+                if rev_title == rev_title2:
+                    pass
+                else:
+                    versions = []
+
                 try:
-                    highest_version.append(int(re.findall('\(Rev [0-9]\)', str(subtitle.full_title))[0][4:-1]))
+                    versions.append(int(re.findall('\(Rev [0-9]\)', str(subtitle.full_title))[0][4:-1]))
                 except:
-                    highest_version.append(re.findall('\(Rev [A-Z]\)', str(subtitle.full_title))[0][5:-1])
+                    versions.append(re.findall('\(Rev [A-Z]\)', str(subtitle.full_title))[0][5:-1])
+
+                print(versions)
+                input('>')
+
+                highest_version[rev_title] = versions
+
+                rev_title2 = rev_title
+
+
 
         if len(highest_version) > 0:
+            print(highest_version)
+            input('>')
             highest_version.sort(reverse = True)
             print('Highest version: ' + str(highest_version[0]))
-            print('This many revisions: ' + str(len(highest_version)))
+            print('This many entries: ' + str(len(highest_version)))
 
-            # Merge identical results
             highest_version = merge_identical_list_items(highest_version)
 
             # Get the base titles
@@ -585,7 +608,6 @@ def localized_titles_unique (region, titles, unique_list, dupe_list, user_input)
                 if '(Rev ' + str(highest_version[0]) in subtitle.full_title:
                     rev_title.append(re.findall('.*?\(Rev ' + str(highest_version[0]), subtitle.full_title)[0][:-7])
 
-            # Merge identical results
             rev_title = merge_identical_list_items(rev_title)
 
             # Delete older titles
@@ -593,7 +615,7 @@ def localized_titles_unique (region, titles, unique_list, dupe_list, user_input)
                 if i > 0:
                     for subtitle in regional_titles_data[title]:
                         if re.findall('.*?\(Rev ' + str(x).strip(), subtitle.full_title) != []:
-                            print('I\'m going to delete: ' + re.findall('.*?\(Rev ' + str(x).strip(), subtitle.full_title)[0])
+                            print('I\'m going to try to delete: ' + re.findall('.*?\(Rev ' + str(x).strip(), subtitle.full_title)[0])
                 else:
                     rev_title_keep = []
                     for subtitle in regional_titles_data[title]:
@@ -607,7 +629,7 @@ def localized_titles_unique (region, titles, unique_list, dupe_list, user_input)
 
             # Now delete the original title without a revision
             for x in rev_title:
-                print('I\'m going to delete: ' + x)
+                print('I\'m going to try to delete: ' + x)
 
             input('>')
 
