@@ -557,8 +557,7 @@ def localized_titles_unique (region, titles, unique_list, dupe_list, user_input)
     for title in regional_titles_data:
         print('\n' + font.bold + '■  ' + title + font.end)
         highest_version = {}
-        versions = []
-        rev_title2 = ''
+        versions = {}
 
         for subtitle in regional_titles_data[title]:
             print('   └ ' + str(vars(subtitle)))
@@ -572,24 +571,15 @@ def localized_titles_unique (region, titles, unique_list, dupe_list, user_input)
                 # Get the base titles
                 rev_title = re.findall('.*?\(Rev ', subtitle.full_title)[0][:-6]
 
-                print('For this run, rev_title is ' + rev_title + '\nrev_title2 is ' + rev_title2)
-
-                if rev_title == rev_title2:
-                    pass
-                else:
-                    versions = []
+                highest_version.setdefault(rev_title, [])
 
                 try:
-                    versions.append(int(re.findall('\(Rev [0-9]\)', str(subtitle.full_title))[0][4:-1]))
+                    highest_version[rev_title].append(int(re.findall('\(Rev [0-9]\)', str(subtitle.full_title))[0][4:-1]))
                 except:
-                    versions.append(re.findall('\(Rev [A-Z]\)', str(subtitle.full_title))[0][5:-1])
+                    highest_version[rev_title].append(re.findall('\(Rev [A-Z]\)', str(subtitle.full_title))[0][5:-1])
 
-                print(versions)
+                print(highest_version)
                 input('>')
-
-                highest_version[rev_title] = versions
-
-                rev_title2 = rev_title
 
 
 
