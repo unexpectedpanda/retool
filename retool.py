@@ -606,8 +606,12 @@ def localized_titles_unique (region, titles, unique_list, dupe_list, user_input)
 
                 for x in rev_title_delete:
                     print(x)
+                    for something in regional_titles_data[title]:
+                        if something.full_title == x:
+                            regional_titles_data[title].remove(something)
 
-            print('\n---ALSO KEEP------------')
+
+            print('\n---ALSO KEEP---------')
 
             rev_title_remainder = []
             for subtitle in regional_titles_data[title]:
