@@ -518,17 +518,6 @@ def localized_titles_unique (region, titles, unique_list, dupe_list, user_input)
         else:
             regional_titles_data[raw_title] = [DatNode(str(title.category.parent['name']), title.category.contents[0], title.description.contents[0], newroms)]
 
-        # if raw_title == 'Grim Fandango':
-        #     print(len(regional_titles_data[raw_title]))
-        #     print('\n' + font.bold + '■  ' + raw_title + font.end)
-        #     for title in regional_titles_data[raw_title]:
-        #         print('   └ ' + str(vars(title)))
-        #         for i, rom in enumerate(title.roms):
-        #             if i == len(title.roms) - 1:
-        #                 print('        └ ' + str(vars(rom)))
-        #             else:
-        #                 print('        ├ ' + str(vars(rom)))
-
     # Find the uniques
     if user_input.split_regions == False:
         unique_regional_list = [x for x in regional_titles if x not in unique_list and x not in dupe_list]
@@ -557,15 +546,16 @@ def localized_titles_unique (region, titles, unique_list, dupe_list, user_input)
     for title in regional_titles_data:
         print('\n' + font.bold + '■  ' + title + font.end)
         highest_version = {}
-        versions = {}
 
         for subtitle in regional_titles_data[title]:
-            print('   └ ' + str(vars(subtitle)))
-            for i, rom in enumerate(subtitle.roms):
-                if i == len(subtitle.roms) - 1:
-                    print('        └ ' + str(vars(rom)))
-                else:
-                    print('        ├ ' + str(vars(rom)))
+            print('   └ ' + subtitle.full_title)
+
+            # print('   └ ' + str(vars(subtitle)))
+            # for i, rom in enumerate(subtitle.roms):
+            #     if i == len(subtitle.roms) - 1:
+            #         print('        └ ' + str(vars(rom)))
+            #     else:
+            #         print('        ├ ' + str(vars(rom)))
 
             if '(Rev ' in str((subtitle.full_title)):
                 # Get the base titles
@@ -578,52 +568,57 @@ def localized_titles_unique (region, titles, unique_list, dupe_list, user_input)
                 except:
                     highest_version[rev_title].append(re.findall('\(Rev [A-Z]\)', str(subtitle.full_title))[0][5:-1])
 
-                print(highest_version)
-                input('>')
-
-
+                highest_version[rev_title].sort(reverse = True)
 
         if len(highest_version) > 0:
+
+            print('\n---RAW---------------')
             print(highest_version)
-            input('>')
-            highest_version.sort(reverse = True)
-            print('Highest version: ' + str(highest_version[0]))
-            print('This many entries: ' + str(len(highest_version)))
-
-            highest_version = merge_identical_list_items(highest_version)
-
-            # Get the base titles
-            rev_title = []
-            for subtitle in regional_titles_data[title]:
-                if '(Rev ' + str(highest_version[0]) in subtitle.full_title:
-                    rev_title.append(re.findall('.*?\(Rev ' + str(highest_version[0]), subtitle.full_title)[0][:-7])
-
-            rev_title = merge_identical_list_items(rev_title)
 
             # Delete older titles
-            for i, x in enumerate(highest_version):
-                if i > 0:
-                    for subtitle in regional_titles_data[title]:
-                        if re.findall('.*?\(Rev ' + str(x).strip(), subtitle.full_title) != []:
-                            print('I\'m going to try to delete: ' + re.findall('.*?\(Rev ' + str(x).strip(), subtitle.full_title)[0])
-                else:
-                    rev_title_keep = []
-                    for subtitle in regional_titles_data[title]:
-                        if re.findall('.*?\(Rev ' + str(x).strip(), subtitle.full_title) != []:
-                            rev_title_keep.append(re.findall('.*?\(Rev ' + str(x).strip(), subtitle.full_title)[0])
+            rev_title_keep = []
+            rev_title_delete = []
 
-                    rev_title_keep = merge_identical_list_items(rev_title_keep)
+            for key, value in highest_version.items():
+                for subtitle in regional_titles_data[title]:
+                    if key + ' (Rev ' + str(value[0]) in subtitle.full_title:
+                        rev_title_keep.append(subtitle.full_title)
+                    # Delete original, unrevised title and its alts
+                    if key == subtitle.full_title or bool(re.match(re.escape(key) + ' \(Alt.*?\)', subtitle.full_title)):
+                        rev_title_delete.append(subtitle.full_title)
+                # Delete previous versions
+                for i, x in enumerate(highest_version[key]):
+                    if i > 0 and i < len(highest_version[key]) and value[0] != 1:
+                        for subtitle in regional_titles_data[title]:
+                            if key + ' (Rev ' + str(x) in subtitle.full_title:
+                                rev_title_delete.append(subtitle.full_title)
 
-                    for x in rev_title_keep:
-                        print('I\'m going to keep: ' + x)
+            # Dedupe delete list. It's a hack, but a more elegant solution will have to come another time.
+            rev_title_delete = merge_identical_list_items(rev_title_delete)
 
-            # Now delete the original title without a revision
-            for x in rev_title:
-                print('I\'m going to try to delete: ' + x)
+            print('\n---KEEP--------------')
+            rev_title_keep.sort()
+            for x in rev_title_keep:
+                print(x)
 
-            input('>')
+            if len(rev_title_delete) > 0:
+                print('\n---DELETE--------------')
 
+                for x in rev_title_delete:
+                    print(x)
 
+            print('\n---ALSO KEEP------------')
+
+            rev_title_remainder = []
+            for subtitle in regional_titles_data[title]:
+                rev_title_remainder.append(subtitle.full_title)
+
+            rev_title_remainder = [x for x in rev_title_remainder if x not in rev_title_keep and x not in rev_title_delete]
+
+            for x in rev_title_remainder:
+                print(x)
+
+            input('\n>')
 
     # Add unique list to the dictionary
     regional_titles_data['unique_titles'] = unique_regional_list
@@ -632,6 +627,7 @@ def localized_titles_unique (region, titles, unique_list, dupe_list, user_input)
 
 def merge_identical_list_items(list_dupes):
     list_dupes_temp = []
+    list_dupes.sort()
     for i in range(len(list_dupes)):
         if i != 0:
             if list_dupes[i] != list_dupes[i-1]:
