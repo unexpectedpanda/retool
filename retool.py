@@ -1,5 +1,5 @@
-# Retool scans [Redump](http://redump.org/) dats, and generates new dats
-# without dupes. This is not an official Redump project.
+# Retool scans [Redump](http://redump.org/) dats, and attempts to
+# generate new dats without dupes. This is not an official Redump project.
 #
 # Dependencies:
 # * bs4
@@ -32,7 +32,7 @@ def main():
 
     print('=======================================\n')
     if len(sys.argv) == 1:
-        print(textwrap.fill('Scans Redump (' + font.underline + 'http://redump.org/' + font.end + ') dats, and generates new dats without dupes. This is not an official Redump project.', 80))
+        print(textwrap.fill('Scans Redump (' + font.underline + 'http://redump.org/' + font.end + ') dats, and attempts to generate new dats without dupes. This is not an official Redump project.', 80))
 
     # Define regions where English is a primary language
     region_list_english = [
@@ -174,8 +174,9 @@ def error_instruction():
     print(font.bold + ' -en' + font.end + '  Only include English titles')
     print(font.bold + ' -a' + font.end + '   Remove applications')
     print(font.bold + ' -d' + font.end + '   Remove demos and coverdiscs')
-    print(font.bold + ' -e' + font.end + '   Remove educational')
-    print(font.bold + ' -m' + font.end + '   Remove multimedia')
+    print(font.bold + ' -e' + font.end + '   Remove educational titles')
+    print(font.bold + ' -l' + font.end + '   Remove alternate (Alt) titles')
+    print(font.bold + ' -m' + font.end + '   Remove multimedia titles')
     print(font.bold + ' -p' + font.end + '   Remove betas and prototypes')
     print(font.bold + ' -r' + font.end + '   Split dat into regional dats')
     print(font.bold + ' -s' + font.end + '   Split dat into regional dats, include all languages,\n      titles, and dupes\n')
@@ -189,6 +190,7 @@ def check_input(region_list_english, region_list_other):
     flag_no_apps = True if len([x for x in sys.argv if x == '-a']) >= 1 else False
     flag_no_demos = True if len([x for x in sys.argv if x == '-d']) >= 1 else False
     flag_no_edu = True if len([x for x in sys.argv if x == '-e']) >= 1 else False
+    flag_no_alts = True if len([x for x in sys.argv if x == '-l']) >= 1 else False
     flag_no_multi = True if len([x for x in sys.argv if x == '-m']) >= 1 else False
     flag_no_protos = True if len([x for x in sys.argv if x == '-p']) >= 1 else False
     flag_english_only = True if len([x for x in sys.argv if x == '-en']) >= 1 else False
@@ -221,7 +223,7 @@ def check_input(region_list_english, region_list_other):
 
     for i, x in enumerate(sys.argv):
         if x.startswith('-'):
-            if not ((x == '-i') or (x == '-o') or (x == '-a') or (x == '-d') or (x == '-e') or (x == '-m') or (x == '-p') or (x == '-s') or (x == '-r') or (x == '-en')):
+            if not ((x == '-i') or (x == '-o') or (x == '-a') or (x == '-d') or (x == '-e') or (x == '-l') or (x == '-m') or (x == '-p') or (x == '-s') or (x == '-r') or (x == '-en')):
                 print(font.red + '* Invalid option ' + sys.argv[i] + font.end)
                 error_state = True
         if x == '-i':
@@ -318,7 +320,7 @@ def check_input(region_list_english, region_list_other):
             elif overwrite_file == 'y':
                 print('\n* Overwriting ' + font.bold + output_file_name + '.dat' + font.end)
 
-    return UserInput(input_file_name, output_file_name, flag_no_demos, flag_no_apps, flag_no_protos, flag_no_multi, flag_no_edu, flag_split_regions, flag_split_regions_no_dupes, flag_english_only)
+    return UserInput(input_file_name, output_file_name, flag_no_demos, flag_no_apps, flag_no_protos, flag_no_alts, flag_no_multi, flag_no_edu, flag_split_regions, flag_split_regions_no_dupes, flag_english_only)
 
 # Converts CLRMAMEPro format to XML
 def convert_clr_logiqx(clrmame_header, checkdat, is_folder):
@@ -412,13 +414,14 @@ def header(dat_name, dat_version, dat_author, dat_url, new_title_count, region, 
 
 #Establish a class for user input
 class UserInput:
-    def __init__(self, file_input, file_output, no_demos, no_apps, no_protos, no_multi, no_edu, split_regions, split_regions_no_dupes, english_only):
+    def __init__(self, file_input, file_output, no_demos, no_apps, no_protos, no_alts, no_multi, no_edu, split_regions, split_regions_no_dupes, english_only):
         self.file_input = file_input
         self.file_output = file_output
         self.no_demos = no_demos
         self.no_apps = no_apps
-        self.no_protos = no_protos
+        self.no_alts = no_alts
         self.no_multi = no_multi
+        self.no_protos = no_protos
         self.no_edu = no_edu
         self.split_regions = split_regions
         self.split_regions_no_dupes = split_regions_no_dupes
@@ -426,8 +429,12 @@ class UserInput:
 
 # Establish a class for title data
 class DatNode:
-    def __init__(self, full_title, category, description, roms):
+    def __init__(self, full_title, region, category, description, roms):
         self.full_title = full_title
+        try:
+            self.full_title_regionless = full_title.replace(re.findall(' \(' + region + '.*?\)', full_title)[0],'')
+        except:
+            self.full_title_regionless = ''
         self.category = category
         self.description = description
         self.roms = roms
@@ -500,11 +507,12 @@ def localized_titles_unique (region, titles, unique_list, dupe_list, user_input)
         regional_titles.append(raw_title)
 
         # Filter out titles based on user input flags
-        if user_input.no_demos == True and (title.category.contents[0] == 'Demos' or title.category.contents[0] == 'Coverdiscs'): continue
+        if user_input.no_alts == True and re.search('(\(Alt\)|\(Alt [0-9]\))', title.category.parent['name']) != None: continue
         if user_input.no_apps == True and (title.category.contents[0] == 'Applications'): continue
-        if user_input.no_protos == True and (title.category.contents[0] == 'Preproduction'): continue
-        if user_input.no_multi == True and (title.category.contents[0] == 'Multimedia'): continue
+        if user_input.no_demos == True and (title.category.contents[0] == 'Demos' or title.category.contents[0] == 'Coverdiscs'): continue
         if user_input.no_edu == True and (title.category.contents[0] == 'Educational'): continue
+        if user_input.no_multi == True and (title.category.contents[0] == 'Multimedia'): continue
+        if user_input.no_protos == True and (title.category.contents[0] == 'Preproduction'): continue
 
         # Build a dictionary so we don't have to go searching the XML again later
         roms = title.findChildren('rom', recursive=False)
@@ -512,11 +520,11 @@ def localized_titles_unique (region, titles, unique_list, dupe_list, user_input)
         for rom in roms:
             newroms.append(DatNodeRom('rom', rom['crc'], rom['md5'], rom['name'], rom['sha1'], rom['size']))
 
-        # Check that there isn't multiple discs or revisions
+        # Check that there aren't multiple discs or revisions
         if regional_titles_data.get(raw_title, -1) != -1:
-            regional_titles_data[raw_title].append(DatNode(str(title.category.parent['name']), title.category.contents[0], title.description.contents[0], newroms))
+            regional_titles_data[raw_title].append(DatNode(str(title.category.parent['name']), region, title.category.contents[0], title.description.contents[0], newroms))
         else:
-            regional_titles_data[raw_title] = [DatNode(str(title.category.parent['name']), title.category.contents[0], title.description.contents[0], newroms)]
+            regional_titles_data[raw_title] = [DatNode(str(title.category.parent['name']), region, title.category.contents[0], title.description.contents[0], newroms)]
 
     # Find the uniques
     if user_input.split_regions == False:
@@ -542,11 +550,24 @@ def localized_titles_unique (region, titles, unique_list, dupe_list, user_input)
     else:
         unique_regional_list = [x for x in regional_titles]
 
-    # Remove older versions of titles
+    # Remove titles that have dupes with additional regions
+    for title in regional_titles_data:
+        for subtitle in regional_titles_data[title]:
+            for subtitle2 in regional_titles_data[title]:
+                if subtitle.full_title_regionless == subtitle2.full_title_regionless and subtitle.full_title != subtitle2.full_title:
+                    if len(subtitle.full_title) < len(subtitle2.full_title):
+                        regional_titles_data[title].remove(subtitle2)
+                    else:
+                        regional_titles_data[title].remove(subtitle)
+
+    # Remove older versions and revisions of titles
     for title in regional_titles_data:
         print('\n' + font.bold + '■  ' + title + font.end)
-        highest_version = {}
 
+        highest_version = {}
+        highest_revision = {}
+
+        # First, get the highest version
         for subtitle in regional_titles_data[title]:
             print('   └ ' + subtitle.full_title)
 
@@ -557,40 +578,79 @@ def localized_titles_unique (region, titles, unique_list, dupe_list, user_input)
             #     else:
             #         print('        ├ ' + str(vars(rom)))
 
-            if '(Rev ' in str((subtitle.full_title)):
-                # Get the base titles
-                rev_title = re.findall('.*?\(Rev ', subtitle.full_title)[0][:-6]
+            if bool(re.match('.*?\(v[0-9].*?$', subtitle.full_title)):
+                ver_title = re.findall('.*?\(v[0-9]', subtitle.full_title_regionless)[0][:-4]
 
-                highest_version.setdefault(rev_title, [])
+                highest_version.setdefault(ver_title, [])
 
-                try:
-                    highest_version[rev_title].append(int(re.findall('\(Rev [0-9]\)', str(subtitle.full_title))[0][4:-1]))
-                except:
-                    highest_version[rev_title].append(re.findall('\(Rev [A-Z]\)', str(subtitle.full_title))[0][5:-1])
+                highest_version[ver_title].append(re.findall('\(v[0-9].*?\)', str(subtitle.full_title_regionless))[0][2:-1])
 
-                highest_version[rev_title].sort(reverse = True)
+                highest_version[ver_title].sort(reverse = True)
 
         if len(highest_version) > 0:
+            ver_title_keep = []
+            ver_title_delete = []
 
-            print('\n---RAW---------------')
-            print(highest_version)
+            for key, value in highest_version.items():
+                for subtitle in regional_titles_data[title]:
+                    if key + ' (v' + str(value[0]) in subtitle.full_title_regionless:
+                        ver_title_keep.append(subtitle.full_title)
+                    # Delete original, unrevised title and its alts
+                    if key == subtitle.full_title_regionless or bool(re.match(re.escape(key) + ' \(Alt.*?\)', subtitle.full_title_regionless)):
+                        ver_title_delete.append(subtitle.full_title)
+                # Delete previous versions
+                for i, x in enumerate(highest_version[key]):
+                    if i < len(highest_version[key]):
+                        for subtitle in regional_titles_data[title]:
+                            if key + ' (v' + str(x) in subtitle.full_title_regionless:
+                                ver_title_delete.append(subtitle.full_title)
+
+            # Dedupe delete list. It's a hack, but a more elegant solution will have to come another time.
+            ver_title_delete = [x for x in ver_title_delete if x not in ver_title_keep]
+            ver_title_delete = merge_identical_list_items(ver_title_delete)
+
+            if len(ver_title_delete) > 0:
+                for x in ver_title_delete:
+                    for something in regional_titles_data[title]:
+                        if something.full_title == x:
+                            regional_titles_data[title].remove(something)
+
+        # Then, get the highest revision
+        for subtitle in regional_titles_data[title]:
+            if '(Rev ' in str(subtitle.full_title):
+                # Get the base titles
+                rev_title = re.findall('.*?\(Rev ', subtitle.full_title_regionless)[0][:-6]
+
+                highest_revision.setdefault(rev_title, [])
+
+                try:
+                    highest_revision[rev_title].append(int(re.findall('\(Rev [0-9]\)', str(subtitle.full_title_regionless))[0][4:-1]))
+                except:
+                    highest_revision[rev_title].append(re.findall('\(Rev [A-Z]\)', str(subtitle.full_title_regionless))[0][5:-1])
+
+                highest_revision[rev_title].sort(reverse = True)
+
+        if len(highest_revision) > 0:
+
+            # print('\n---RAW-REVISION------')
+            # print(highest_revision)
 
             # Delete older titles
             rev_title_keep = []
             rev_title_delete = []
 
-            for key, value in highest_version.items():
+            for key, value in highest_revision.items():
                 for subtitle in regional_titles_data[title]:
-                    if key + ' (Rev ' + str(value[0]) in subtitle.full_title:
+                    if key + ' (Rev ' + str(value[0]) in subtitle.full_title_regionless:
                         rev_title_keep.append(subtitle.full_title)
                     # Delete original, unrevised title and its alts
-                    if key == subtitle.full_title or bool(re.match(re.escape(key) + ' \(Alt.*?\)', subtitle.full_title)):
+                    if key == subtitle.full_title_regionless or bool(re.match(re.escape(key) + ' \(Alt.*?\)', subtitle.full_title_regionless)):
                         rev_title_delete.append(subtitle.full_title)
                 # Delete previous versions
-                for i, x in enumerate(highest_version[key]):
-                    if i > 0 and i < len(highest_version[key]) and value[0] != 1:
+                for i, x in enumerate(highest_revision[key]):
+                    if i > 0 and i < len(highest_revision[key]) and value[0] != 1:
                         for subtitle in regional_titles_data[title]:
-                            if key + ' (Rev ' + str(x) in subtitle.full_title:
+                            if key + ' (Rev ' + str(x) in subtitle.full_title_regionless:
                                 rev_title_delete.append(subtitle.full_title)
 
             # Dedupe delete list. It's a hack, but a more elegant solution will have to come another time.
@@ -602,16 +662,16 @@ def localized_titles_unique (region, titles, unique_list, dupe_list, user_input)
                 print(x)
 
             if len(rev_title_delete) > 0:
-                print('\n---DELETE--------------')
+                # print('\n---DELETE--------------')
 
                 for x in rev_title_delete:
-                    print(x)
+                    # print(x)
                     for something in regional_titles_data[title]:
                         if something.full_title == x:
                             regional_titles_data[title].remove(something)
 
 
-            print('\n---ALSO KEEP---------')
+            # print('\n---ALSO KEEP---------')
 
             rev_title_remainder = []
             for subtitle in regional_titles_data[title]:
@@ -622,7 +682,7 @@ def localized_titles_unique (region, titles, unique_list, dupe_list, user_input)
             for x in rev_title_remainder:
                 print(x)
 
-            input('\n>')
+            input('>')
 
     # Add unique list to the dictionary
     regional_titles_data['unique_titles'] = unique_regional_list
@@ -857,12 +917,16 @@ def process_dats(user_input, region_list_english, region_list_other, is_folder):
             return
 
     print('\nStats:\n○  Original title count: ' + str('{:,}'.format(original_title_count)))
+    alt_count = 0
     apps_count = 0
     demos_count = 0
     edu_count = 0
     multi_count = 0
     protos_count = 0
 
+    if user_input.no_alts == True:
+        alt_count = len(soup.find_all('game', {'name':re.compile('(\(Alt\)|\(Alt [0-9]\))')}))
+        print('-  Alternate titles removed: ' + str('{:,}'.format(alt_count)))
     if user_input.no_apps == True:
         apps_count = len(soup.find_all('category', string='Applications'))
         print('-  Applications removed: ' + str('{:,}'.format(apps_count)))
@@ -881,7 +945,7 @@ def process_dats(user_input, region_list_english, region_list_other, is_folder):
     if len(unique_regional_titles['Unknown']) > 1:
         print('+  Titles without regions included (might not be English): ' + str('{:,}'.format(unknown_region_title_count)))
 
-    dupe_count = original_title_count - new_title_count -apps_count - demos_count - edu_count - multi_count - protos_count
+    dupe_count = original_title_count - new_title_count -alt_count -apps_count - demos_count - edu_count - multi_count - protos_count
     if dupe_count < 0: dupe_count = 0
 
     english_status = ''

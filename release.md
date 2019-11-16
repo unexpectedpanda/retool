@@ -2,7 +2,11 @@
 - It's now optional to filter by English titles, so you can identify all unique
   titles regardless of language. Use the `-en` option to only include English
   titles.
-- Now removes titles that aren't the latest revisions or versions.
+- Now removes titles that aren't the latest revisions or versions. This doesn't
+  cover [irrational versioning](https://www.mamedev.org/), like 0.100 being
+  larger than 0.99.
+- Now removes multi-region dupes (for example, **_Grim Fandango (USA)_**,
+  **_Grim Fandango (USA, Europe)_**).
 - Massively expanded dupe list in _regional_renames.py to take into account
   translated titles as a result of the above option.
 - Moved Brazil and Latin America out of the native English list. Modern games
