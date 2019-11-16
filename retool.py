@@ -431,10 +431,20 @@ class UserInput:
 class DatNode:
     def __init__(self, full_title, region, category, description, roms):
         self.full_title = full_title
-        try:
-            self.full_title_regionless = full_title.replace(re.findall(' \(' + region + '.*?\)', full_title)[0],'')
-        except:
-            self.full_title_regionless = ''
+        remove_region = full_title.replace(re.findall(' \(' + region + '.*?\)', full_title)[0],'')
+        remove_languages = re.findall('( (\(En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv)(,.*?\)|\)))', remove_region)
+
+        if len(remove_languages) > 0:
+            try:
+                self.full_title_regionless = remove_region.replace(remove_languages[0][0], '')
+            except:
+                self.full_title_regionless = ''
+        else:
+            try:
+                self.full_title_regionless = remove_region
+            except:
+                self.full_title_regionless = ''
+
         self.category = category
         self.description = description
         self.roms = roms

@@ -2,6 +2,7 @@
 - It's now optional to filter by English titles, so you can identify all unique
   titles regardless of language. Use the `-en` option to only include English
   titles.
+- You can now remove alternate (Alt) titles with the `-l` option.
 - Now removes titles that aren't the latest revisions or versions. This doesn't
   cover [irrational versioning](https://www.mamedev.org/), like 0.100 being
   larger than 0.99.
