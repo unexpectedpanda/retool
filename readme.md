@@ -1,6 +1,6 @@
 # Retool
-Retool scans [Redump](http://redump.org/) dats, and generates new dats without
-dupes. This is not an official Redump project.
+Retool scans [Redump](http://redump.org/) dats, and attempts to generate new
+dats without dupes. This is not an official Redump project.
 
 ## Installation
 If you don't know Python or don't want to deal with code, download the
@@ -44,6 +44,7 @@ output writes to the current folder.
 * `-a` Remove applications
 * `-d` Remove demos and coverdiscs
 * `-e` Remove educational
+* `-l` Remove alternate (Alt) titles
 * `-m` Remove multimedia
 * `-p` Remove betas and prototypes
 * `-r` Split dat into regional dats
@@ -124,11 +125,6 @@ and added some missing titles from there.
 Be aware of the following limitations when using _Retool_. These might or
 might not be addressed in the future.
 
-#### Doesn't remove older versions of titles
-For example, **_Halo - Combat Evolved (USA)_**,
-**_Halo - Combat Evolved (USA) (Rev 1)_** and
-**_Halo - Combat Evolved (USA) (Rev 2)_** will all be included.
-
 #### Doesn't remove single titles in favor of compilation titles
 For example, **_Assassin's Creed - Ezio Trilogy_** does not supersede
 **_Assassin's Creed II_**, **_Assassin's Creed - Brotherhood_**, and
@@ -138,13 +134,13 @@ For example, **_Assassin's Creed - Ezio Trilogy_** does not supersede
 For example, **_Suffering, The - Ties That Bind (Europe) (En,Es,It)_** and
 **_Suffering, The - Ties That Bind (Europe) (En,Fr)_**.
 
-#### Can't preference a non-US title over a US title, when the non-US title is arguably superior
-For example, **_Fahrenheit (Europe) (En,Fr,De,Es,It)_** versus
-**_Indigo Prophecy (USA)_**, where the latter is censored.
-
 #### Can only follow Redump language tags for non-English countries
 If Redump missed tagging titles from regions where English isn't their first
 language (for example, Japan), those titles won't be included.
 
-#### Will remove titles that have the same name in different regions, even if those titles have different content
-For example, versions of singing titles that have additional local tracks.
+#### Will remove titles that have the same name in different regions, regardless of content or which version is better
+For example:
+* Some versions of singing titles have additional local tracks, yet only one
+  version of the title will be included.
+* Some regional versions of titles might be superior to, for example, USA
+  titles with the same name, but only the USA title will be included.
