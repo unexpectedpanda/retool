@@ -285,7 +285,7 @@ def xbox_rename_list():
         # Minority Report - Everybody Runs
         'Minority Report - Le Futur vous Rattrape',
 
-        # MTV Music Generator 3 - This Is the Remix'
+        # MTV Music Generator 3 - This Is the Remix
         'MTV Music Generator 3',
 
         # Murakumo - Renegade Mech Pursuit
@@ -585,7 +585,7 @@ def gamecube_rename_list():
     return [
         # Compilations
         '2 Games in 1 - Nickelodeon SpongeBob Schwammkopf - Der Film + Nickelodeon Tak 2 - Der Stab der Traeume',
-        '2 Games in 1 - Bob L\'eponge - Le Film + Tak 2 - Le Sceptre des Reves'
+        '2 Games in 1 - Bob L\'eponge - Le Film + Tak 2 - Le Sceptre des Reves',
         '2 Games in 1 - Nickelodeon SpongeBob Schwammkopf - Der Film + Nickelodeon SpongeBob Schwammkopf - Schlacht um Bikini Bottom',
         '2 Games in 1 - Disney-Pixar Die Unglaublichen + Disney-Pixar Findet Nemo',
         '2 Games in 1 - Disney-Pixar Les Indestructibles + Disney-Pixar Le Monde de Nemo',
@@ -667,7 +667,7 @@ def gamecube_rename_list():
         'ChibiRobo!', # (ちびロボ!)
 
         # Chronicles of Narnia, The - The Lion, the Witch and the Wardrobe
-        'Chroniken von Narnia, Die - Der Koenig von Narnia'
+        'Chroniken von Narnia, Die - Der Koenig von Narnia',
         'Monde de Narnia, Le - Le Lion, la Sorciere et l\'Armoire Magique',
 
         # Codename - Kids Next Door - Operation - V.I.D.E.O.G.A.M.E.
@@ -843,7 +843,7 @@ def gamecube_rename_list():
         # Harry Potter and the Prisoner of Azkaban
         'Harry Potter e il Prigioniero di Azkaban',
         'Harry Potter en de gevangene van Azkaban',
-        'Harry Potter et le Prisonnier d\'Azkaban'
+        'Harry Potter et le Prisonnier d\'Azkaban',
         'Harry Potter och fangen fran Azkaban',
         'Harry Potter to Azkaban no Shuujin', # (ハリー・ポッターとアズカバンの囚人)
         'Harry Potter und der Gefangene von Askaban',
@@ -980,7 +980,7 @@ def gamecube_rename_list():
         'Nickelodeon Les Razmoket - La Rancon Royale',
 
         # Nickelodeon SpongeBob SquarePants - Creature from the Krusty Krab
-        'Nickelodeon Bob L\'eponge - La Creature du Crabe Croustillant'
+        'Nickelodeon Bob L\'eponge - La Creature du Crabe Croustillant',
         'Nick SpongeBob Schwammkopf - Die Kreatur aus der Krossen Krabbe',
         'Nickelodeon SpongeBob SquarePants - Creatuur van de Krokante Krab',
 
@@ -2025,7 +2025,7 @@ def dreamcast_rename_list():
         'Virtua Athlete 2K',
 
         # Virtua Striker 2
-        'Virtua Striker 2 Ver. 2000.1'
+        'Virtua Striker 2 Ver. 2000.1',
 
         # Virtua Tennis
         'Power Smash - Sega Professional Tennis', # (パワースマッシュ)
@@ -3126,7 +3126,7 @@ def ps2_rename_list():
         'King of Fighters, The - Maximum Impact 2',
 
         # King's Field - The Ancient City
-        'King\'s Field IV'
+        'King\'s Field IV',
 
         # KOF - Maximum Impact
         'King of Fighters, The - Maximum Impact',
