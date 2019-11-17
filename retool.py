@@ -96,14 +96,12 @@ def main():
     # Start processing the dats
     if os.path.isdir(user_input.file_input) == True:
         input_folder = user_input.file_input
-        output_folder = user_input.file_output
         file_count = 0
 
         for file in os.listdir(input_folder):
             if file.endswith('.dat'):
                 file_count += 1
                 user_input.file_input = os.path.join(input_folder, file)
-                user_input.file_output = os.path.join(output_folder, file[:-4] + ' (Retool ' +  datetime.datetime.now().strftime('%Y-%m-%d %H-%M-%S.%f')[:-3] + ')')
                 process_dats(user_input, region_list_english, region_list_other, True)
 
         stop = time.time()
@@ -114,20 +112,18 @@ def main():
             file_plural_singular = 'files'
 
         if file_count != 0:
-            if output_folder == '.': output_folder = os.getcwd()
-
             if user_input.split_regions_no_dupes == True:
-                print(textwrap.TextWrapper(width=80, subsequent_indent='  ').fill(font.green + '* Finished processing ' + str('{:,}'.format(file_count)) + ' ' + file_plural_singular + ' in the "' + font.bold + input_folder + font.end + font.green + '" folder in ' + str('{0:.2f}'.format(round(stop - start,2))) + 's. Unique English titles have been added to regional dats in the "' + font.bold + output_folder + font.end + font.green + '" folder.' + font.end) + '\n')
+                print(textwrap.TextWrapper(width=80, subsequent_indent='  ').fill(font.green + '* Finished processing ' + str('{:,}'.format(file_count)) + ' ' + file_plural_singular + ' in the "' + font.bold + input_folder + font.end + font.green + '" folder in ' + str('{0:.2f}'.format(round(stop - start,2))) + 's. Unique titles have been added to regional dats in the\n"' + font.bold + user_input.file_output + font.end + font.green + '"\nfolder.' + font.end) + '\n')
             elif user_input.split_regions == True:
-                print(textwrap.TextWrapper(width=80, subsequent_indent='  ').fill(font.green + '* Finished processing ' + str('{:,}'.format(file_count)) + ' ' + file_plural_singular + ' in the "' + font.bold + input_folder + font.end + font.green + '" folder in ' + str('{0:.2f}'.format(round(stop - start,2))) + 's. All dats have been split into regions in the "' + font.bold + output_folder + font.end + font.green + '" folder.' + font.end) + '\n')
+                print(textwrap.TextWrapper(width=80, subsequent_indent='  ').fill(font.green + '* Finished processing ' + str('{:,}'.format(file_count)) + ' ' + file_plural_singular + ' in the "' + font.bold + input_folder + font.end + font.green + '" folder in ' + str('{0:.2f}'.format(round(stop - start,2))) + 's. All dats have been split into regions in the\n"' + font.bold + user_input.file_output + font.end + font.green + '"\nfolder.' + font.end) + '\n')
             else:
-                print(textwrap.TextWrapper(width=80, subsequent_indent='  ').fill(font.green + '* Finished processing ' + str('{:,}'.format(file_count)) + ' ' + file_plural_singular + ' in the "' + font.bold + input_folder + font.end + font.green + '" folder in ' + str('{0:.2f}'.format(round(stop - start,2))) + 's. Unique English titles have been added to dats in the "' + font.bold + output_folder + font.end + font.green + '" folder.' + font.end) + '\n')
+                print(textwrap.TextWrapper(width=80, subsequent_indent='  ').fill(font.green + '* Finished processing ' + str('{:,}'.format(file_count)) + ' ' + file_plural_singular + ' in the "' + font.bold + input_folder + font.end + font.green + '" folder in ' + str('{0:.2f}'.format(round(stop - start,2))) + 's. Unique titles have been added to dats in the\n"' + font.bold + user_input.file_output + font.end + font.green + '"\nfolder.' + font.end) + '\n')
         else:
             print(textwrap.TextWrapper(width=80, subsequent_indent='  ').fill(font.yellow + '* No files found to process in the "' + font.bold + input_folder + font.end + font.yellow + '" folder.' + font.end) + '\n')
 
         sys.exit()
     else:
-        new_title_count = process_dats(user_input, region_list_english, region_list_other, False)
+        file_name_title_count = process_dats(user_input, region_list_english, region_list_other, False)
 
         stop = time.time()
 
@@ -142,7 +138,7 @@ def main():
         elif user_input.split_regions == True:
             print(textwrap.TextWrapper(width=80, subsequent_indent='  ').fill(font.green + '* Finished splitting "' + font.bold + user_input.file_input + font.end + font.green + '" into regional dats in ' + str('{0:.2f}'.format(round(stop - start,2))) + 's.' + font.end) + '\n')
         else:
-            print(textwrap.TextWrapper(width=80, subsequent_indent='  ').fill(font.green + '* Finished adding ' + str('{:,}'.format(new_title_count)) + ' unique' + english_status + ' titles to "' +  font.bold + user_input.file_output + english_status2 + '.dat' + font.end + font.green + '" in ' + str('{0:.2f}'.format(round(stop - start,2))) + 's.' + font.end) + '\n')
+            print(textwrap.TextWrapper(width=80, subsequent_indent='  ').fill(font.green + '* Finished adding ' + str('{:,}'.format(file_name_title_count['new_title_count'])) + ' unique' + english_status + ' titles to "' +  font.bold + file_name_title_count['output_file'] + font.end + font.green + '" in ' + str('{0:.2f}'.format(round(stop - start,2))) + 's.' + font.end) + '\n')
     return
 
 ############### Classes and methods ###############
@@ -168,15 +164,17 @@ command = ''
 if 'retool.py' in sys.argv[0]:
     command = 'python '
 def error_instruction():
-    print('\nUSAGE:\n ' + font.bold + command + os.path.basename(sys.argv[0]) + ' -i ' + font.end + '<input dat/folder>' + font.bold + ' -o ' + font.end + '<output dat/folder> <options>\n')
+    print('\nUSAGE:\n ' + font.bold + command + os.path.basename(sys.argv[0]) + ' -i ' + font.end + '<input dat/folder> <options>\n')
     print(textwrap.TextWrapper(width=70, subsequent_indent='   ').fill('\n\n Input and output must both be files, or both be folders. Not setting a folder output writes to the current folder.'))
     print('\nOPTIONS:')
     print(font.bold + ' -en' + font.end + '  Only include English titles')
+    # print(font.bold + ' -1' + font.end + '   Create 1G1R dat (-a -d -e -l -m -o -p)')
     print(font.bold + ' -a' + font.end + '   Remove applications')
     print(font.bold + ' -d' + font.end + '   Remove demos and coverdiscs')
     print(font.bold + ' -e' + font.end + '   Remove educational titles')
-    print(font.bold + ' -l' + font.end + '   Remove alternate (Alt) titles')
+    print(font.bold + ' -l' + font.end + '   Remove titles with (Alt) tags')
     print(font.bold + ' -m' + font.end + '   Remove multimedia titles')
+    print(font.bold + ' -o' + font.end + '   Set an output folder')
     print(font.bold + ' -p' + font.end + '   Remove betas and prototypes')
     print(font.bold + ' -r' + font.end + '   Split dat into regional dats')
     print(font.bold + ' -s' + font.end + '   Split dat into regional dats, include all languages,\n      titles, and dupes\n')
@@ -231,7 +229,7 @@ def check_input(region_list_english, region_list_other):
                 print(font.red + '* No input file specified' + font.end)
                 error_state = True
             else:
-                input_file_name = os.path.abspath(sys.argv[i+1].rstrip(os.sep))
+                input_file_name = os.path.abspath(sys.argv[i+1])
 
                 if not os.path.exists(input_file_name):
                     print(textwrap.TextWrapper(width=80, subsequent_indent='  ').fill(font.red + '* Input file "' + font.bold + input_file_name + font.end + font.red + '" does not exist.' + font.end))
@@ -246,34 +244,25 @@ def check_input(region_list_english, region_list_other):
 
         if x == '-o':
                 if i+1 == len(sys.argv) or bool(re.search('^-([ioademprs]|en]$)', sys.argv[i+1])):
-                    print(font.red + '* No output file specified' + font.end)
+                    print(font.red + '* No output folder specified' + font.end)
                     error_state = True
                 else:
-                    output_file_name = os.path.abspath(sys.argv[i+1].rstrip(os.sep))
+                    output_file_name = os.path.abspath(sys.argv[i+1])
 
-                    # Check that both input/output are files, or that both are folders
-                    if os.path.isdir(output_file_name) == False and i_is_folder == True:
-                        print(font.red + '* Input is a folder, output must be set to an existing folder' + font.end)
-                        sys.exit()
-                    elif  os.path.isdir(output_file_name) == True and i_is_folder == False:
-                        print(font.red + '* Input is a file, output must be set to a file' + font.end)
-                        sys.exit()
-                    else:
-                        # Strip .dat from the end of the output file if it exists
-                        if output_file_name.endswith('.dat'):
-                            output_file_name = output_file_name[:-4]
+                    # Check that output is a folder
+                    if os.path.isdir(output_file_name) == False:
+                        print(font.red + '* Output must be set to an existing folder' + font.end)
+                        error_state = True
 
         if len([x for x in sys.argv if '-o' in x]) > 1:
                 excess_o = True
                 error_state = True
 
     if len([x for x in sys.argv if '-o' in x]) == 0 and i_is_folder == False:
-        print(font.red + '* Missing -o, no output file specified' + font.end)
-
-        error_state = True
+        output_file_name = ''
 
     if len([x for x in sys.argv if '-o' in x]) == 0 and i_is_folder == True:
-        output_file_name = '.'
+        output_file_name = os.path.abspath('.')
 
     if excess_i == True: print(font.red + '* Can\'t have more than one -i' + font.end)
     if excess_o == True: print(font.red + '* Can\'t have more than one -o' + font.end)
@@ -288,37 +277,6 @@ def check_input(region_list_english, region_list_other):
     english_status = ''
     if flag_english_only == True:
         english_status = ' (English)'
-
-    if flag_split_regions_no_dupes == True or flag_split_regions == True:
-        region_output_files = False
-        for region in region_list_english + region_list_other:
-            if flag_english_only == True:
-                if os.path.isfile(output_file_name + ' (' + region + ')' + english_status + '.dat') == True:
-                    region_output_files += 1
-            elif os.path.isfile(output_file_name + ' (' + region + ').dat') == True:
-                region_output_files += 1
-        if region_output_files != False:
-            while overwrite_file != 'y' and overwrite_file != 'n' and overwrite_file != '':
-                if region_output_files > 1:
-                    overwrite_file = input(textwrap.fill('There are ' + str(region_output_files) + ' dat files that already exist in the "' + font.bold + os.path.dirname(output_file_name) + font.end + '" folder with the format "' + font.bold + os.path.basename(output_file_name) + ' (<region name>)' + english_status + '.dat"' + font.end + '. Continuing might overwrite some or all of them.', 80) + '\n\nDo you want to continue? [y/N] > ').lower()
-                else:
-                    overwrite_file = input(textwrap.fill('A dat file with the format "' + font.bold + os.path.basename(output_file_name) + ' (<region name>).dat"' + font.end + ' already exists in the ' + font.bold + os.path.dirname(output_file_name) + font.end + ' folder. Continuing might overwrite this file.', 80) + '\n\nDo you want to continue? [y/N] > ').lower()
-
-            if overwrite_file == 'n' or overwrite_file == '':
-                print('\nExiting Retool...\n')
-                sys.exit()
-            elif overwrite_file == 'y':
-                print()
-    else:
-        if os.path.isfile(output_file_name) == True or os.path.isfile(output_file_name + english_status + '.dat') == True:
-            while overwrite_file != 'y' and overwrite_file != 'n' and overwrite_file != '':
-                overwrite_file = input(textwrap.fill('The file ' + font.bold + output_file_name + english_status + '.dat' + font.end + ' already exists.', 80) + '\n\nDo you want to overwrite it? [y/N] > ').lower()
-
-            if overwrite_file == 'n' or overwrite_file == '':
-                print('\nExiting Retool...\n')
-                sys.exit()
-            elif overwrite_file == 'y':
-                print('\n* Overwriting ' + font.bold + output_file_name + '.dat' + font.end)
 
     return UserInput(input_file_name, output_file_name, flag_no_demos, flag_no_apps, flag_no_protos, flag_no_alts, flag_no_multi, flag_no_edu, flag_split_regions, flag_split_regions_no_dupes, flag_english_only)
 
@@ -365,33 +323,27 @@ def convert_clr_logiqx(clrmame_header, checkdat, is_folder):
     return xml_convert, dat_name, dat_description, dat_author
 
 # Creates a header for dat files
-def header(dat_name, dat_version, dat_author, dat_url, new_title_count, region, user_input):
+def header(dat_name, dat_version, dat_author, dat_url, dat_header_exclusion, regional_title_count, new_title_count, region, user_input):
     if new_title_count == False:
         new_title_count = ' '
     else:
-        new_title_count = ' (' + str('{:,}'.format(new_title_count)) + ') '
+        new_title_count = str('{:,}'.format(new_title_count))
 
-    if user_input.no_apps == True or user_input.no_demos == True or user_input.no_edu == True or user_input.no_multi == True or user_input.no_protos == True:
-        dat_header_exclusion = ' (-'
-        if user_input.no_apps == True: dat_header_exclusion += 'a'
-        if user_input.no_demos == True: dat_header_exclusion += 'd'
-        if user_input.no_edu == True: dat_header_exclusion += 'e'
-        if user_input.no_multi == True: dat_header_exclusion += 'm'
-        if user_input.no_protos == True: dat_header_exclusion += 'p'
-        dat_header_exclusion += ')'
+    if regional_title_count == False:
+        regional_title_count = ' '
     else:
-        dat_header_exclusion = ''
+        regional_title_count = str('{:,}'.format(regional_title_count))
 
     english_status = ''
 
     if user_input.english_only == True: english_status = ' (English)'
 
     if user_input.split_regions_no_dupes == True or user_input.split_regions == True:
-        name = '\n\t\t<name>' + dat_name  + new_title_count + '(' + dat_version + ') (' + region + ')' + english_status + dat_header_exclusion + '</name>'
-        description = '\n\t\t<description>' + dat_name  + new_title_count + '(' + dat_version + ') (' + region + ')' + english_status + dat_header_exclusion + '</description>'
+        name = '\n\t\t<name>' + dat_name + ' (' + region + ')' + english_status + dat_header_exclusion + ' (' + regional_title_count + ' of ' + new_title_count + ') (' + dat_version + ')' + '</name>'
+        description = '\n\t\t<description>' + dat_name  + ' (' + region + ')' + english_status + dat_header_exclusion + ' (' + regional_title_count + ' of ' + new_title_count + ') (' + dat_version + ')' + '</description>'
     else:
-        name = '\n\t\t<name>' + dat_name  + new_title_count + '(' + dat_version + ')' + english_status + dat_header_exclusion + '</name>'
-        description = '\n\t\t<description>' + dat_name  + new_title_count + '(' + dat_version + ')' + english_status + dat_header_exclusion + '</description>'
+        name = '\n\t\t<name>' + dat_name + english_status + dat_header_exclusion + ' (' + new_title_count + ') (' + dat_version + ')' + '</name>'
+        description = '\n\t\t<description>' + dat_name + english_status + dat_header_exclusion + ' (' + new_title_count + ') (' + dat_version + ')' + '</description>'
 
     if dat_author != '':
         dat_author = dat_author + ' & Retool'
@@ -560,142 +512,141 @@ def localized_titles_unique (region, titles, unique_list, dupe_list, user_input)
                 regional_titles_data_temp[x] = regional_titles_data[x]
 
         regional_titles_data = regional_titles_data_temp
+
+        # Remove titles that have dupes with additional regions
+        for title in regional_titles_data:
+            for subtitle in regional_titles_data[title]:
+                for subtitle2 in regional_titles_data[title]:
+                    if subtitle.full_title_regionless == subtitle2.full_title_regionless and subtitle.full_title != subtitle2.full_title:
+                        if len(subtitle.full_title) < len(subtitle2.full_title):
+                            regional_titles_data[title].remove(subtitle2)
+                        else:
+                            regional_titles_data[title].remove(subtitle)
+
+        # Remove older versions and revisions of titles
+        for title in regional_titles_data:
+            # print('\n' + font.bold + '■  ' + title + font.end)
+            highest_version = {}
+            highest_revision = {}
+
+            # First, get the highest version
+            for subtitle in regional_titles_data[title]:
+                # print('   └ ' + subtitle.full_title)
+
+                # print('   └ ' + str(vars(subtitle)))
+                # for i, rom in enumerate(subtitle.roms):
+                #     if i == len(subtitle.roms) - 1:
+                #         print('        └ ' + str(vars(rom)))
+                #     else:
+                #         print('        ├ ' + str(vars(rom)))
+
+                if bool(re.match('.*?\(v[0-9].*?$', subtitle.full_title)):
+                    ver_title = re.findall('.*?\(v[0-9]', subtitle.full_title_regionless)[0][:-4]
+
+                    highest_version.setdefault(ver_title, [])
+
+                    highest_version[ver_title].append(re.findall('\(v[0-9].*?\)', str(subtitle.full_title_regionless))[0][2:-1])
+
+                    highest_version[ver_title].sort(reverse = True)
+
+            if len(highest_version) > 0:
+                ver_title_keep = []
+                ver_title_delete = []
+
+                for key, value in highest_version.items():
+                    for subtitle in regional_titles_data[title]:
+                        if key + ' (v' + str(value[0]) in subtitle.full_title_regionless:
+                            ver_title_keep.append(subtitle.full_title)
+                        # Delete original, unrevised title and its alts
+                        if key == subtitle.full_title_regionless or bool(re.match(re.escape(key) + ' \(Alt.*?\)', subtitle.full_title_regionless)):
+                            ver_title_delete.append(subtitle.full_title)
+                    # Delete previous versions
+                    for i, x in enumerate(highest_version[key]):
+                        if i < len(highest_version[key]):
+                            for subtitle in regional_titles_data[title]:
+                                if key + ' (v' + str(x) in subtitle.full_title_regionless:
+                                    ver_title_delete.append(subtitle.full_title)
+
+                # Dedupe delete list. It's a hack, but a more elegant solution will have to come another time.
+                ver_title_delete = [x for x in ver_title_delete if x not in ver_title_keep]
+                ver_title_delete = merge_identical_list_items(ver_title_delete)
+
+                if len(ver_title_delete) > 0:
+                    for x in ver_title_delete:
+                        for something in regional_titles_data[title]:
+                            if something.full_title == x:
+                                regional_titles_data[title].remove(something)
+
+            # Then, get the highest revision
+            for subtitle in regional_titles_data[title]:
+                if '(Rev ' in str(subtitle.full_title):
+                    # Get the base titles
+                    rev_title = re.findall('.*?\(Rev ', subtitle.full_title_regionless)[0][:-6]
+
+                    highest_revision.setdefault(rev_title, [])
+
+                    try:
+                        highest_revision[rev_title].append(int(re.findall('\(Rev [0-9]\)', str(subtitle.full_title_regionless))[0][4:-1]))
+                    except:
+                        highest_revision[rev_title].append(re.findall('\(Rev [A-Z]\)', str(subtitle.full_title_regionless))[0][5:-1])
+
+                    highest_revision[rev_title].sort(reverse = True)
+
+            if len(highest_revision) > 0:
+
+                # print('\n---RAW-REVISION------')
+                # print(highest_revision)
+
+                # Delete older titles
+                rev_title_keep = []
+                rev_title_delete = []
+
+                for key, value in highest_revision.items():
+                    for subtitle in regional_titles_data[title]:
+                        if key + ' (Rev ' + str(value[0]) in subtitle.full_title_regionless:
+                            rev_title_keep.append(subtitle.full_title)
+                        # Delete original, unrevised title and its alts
+                        if key == subtitle.full_title_regionless or bool(re.match(re.escape(key) + ' \(Alt.*?\)', subtitle.full_title_regionless)):
+                            rev_title_delete.append(subtitle.full_title)
+                    # Delete previous versions
+                    for i, x in enumerate(highest_revision[key]):
+                        if i > 0 and i < len(highest_revision[key]) and value[0] != 1:
+                            for subtitle in regional_titles_data[title]:
+                                if key + ' (Rev ' + str(x) in subtitle.full_title_regionless:
+                                    rev_title_delete.append(subtitle.full_title)
+
+                # Dedupe delete list. It's a hack, but a more elegant solution will have to come another time.
+                rev_title_delete = merge_identical_list_items(rev_title_delete)
+
+                # print('\n---KEEP--------------')
+                rev_title_keep.sort()
+                # for x in rev_title_keep:
+                #     print(x)
+
+                if len(rev_title_delete) > 0:
+                    # print('\n---DELETE--------------')
+
+                    for x in rev_title_delete:
+                        # print(x)
+                        for something in regional_titles_data[title]:
+                            if something.full_title == x:
+                                regional_titles_data[title].remove(something)
+
+
+                # print('\n---ALSO KEEP---------')
+
+                # rev_title_remainder = []
+                # for subtitle in regional_titles_data[title]:
+                #     rev_title_remainder.append(subtitle.full_title)
+
+                # rev_title_remainder = [x for x in rev_title_remainder if x not in rev_title_keep and x not in rev_title_delete]
+
+                # for x in rev_title_remainder:
+                #     print(x)
+
+                # input('>')
     else:
         unique_regional_list = [x for x in regional_titles]
-
-    # Remove titles that have dupes with additional regions
-    for title in regional_titles_data:
-        for subtitle in regional_titles_data[title]:
-            for subtitle2 in regional_titles_data[title]:
-                if subtitle.full_title_regionless == subtitle2.full_title_regionless and subtitle.full_title != subtitle2.full_title:
-                    if len(subtitle.full_title) < len(subtitle2.full_title):
-                        regional_titles_data[title].remove(subtitle2)
-                    else:
-                        regional_titles_data[title].remove(subtitle)
-
-    # Remove older versions and revisions of titles
-    for title in regional_titles_data:
-        print('\n' + font.bold + '■  ' + title + font.end)
-
-        highest_version = {}
-        highest_revision = {}
-
-        # First, get the highest version
-        for subtitle in regional_titles_data[title]:
-            print('   └ ' + subtitle.full_title)
-
-            # print('   └ ' + str(vars(subtitle)))
-            # for i, rom in enumerate(subtitle.roms):
-            #     if i == len(subtitle.roms) - 1:
-            #         print('        └ ' + str(vars(rom)))
-            #     else:
-            #         print('        ├ ' + str(vars(rom)))
-
-            if bool(re.match('.*?\(v[0-9].*?$', subtitle.full_title)):
-                ver_title = re.findall('.*?\(v[0-9]', subtitle.full_title_regionless)[0][:-4]
-
-                highest_version.setdefault(ver_title, [])
-
-                highest_version[ver_title].append(re.findall('\(v[0-9].*?\)', str(subtitle.full_title_regionless))[0][2:-1])
-
-                highest_version[ver_title].sort(reverse = True)
-
-        if len(highest_version) > 0:
-            ver_title_keep = []
-            ver_title_delete = []
-
-            for key, value in highest_version.items():
-                for subtitle in regional_titles_data[title]:
-                    if key + ' (v' + str(value[0]) in subtitle.full_title_regionless:
-                        ver_title_keep.append(subtitle.full_title)
-                    # Delete original, unrevised title and its alts
-                    if key == subtitle.full_title_regionless or bool(re.match(re.escape(key) + ' \(Alt.*?\)', subtitle.full_title_regionless)):
-                        ver_title_delete.append(subtitle.full_title)
-                # Delete previous versions
-                for i, x in enumerate(highest_version[key]):
-                    if i < len(highest_version[key]):
-                        for subtitle in regional_titles_data[title]:
-                            if key + ' (v' + str(x) in subtitle.full_title_regionless:
-                                ver_title_delete.append(subtitle.full_title)
-
-            # Dedupe delete list. It's a hack, but a more elegant solution will have to come another time.
-            ver_title_delete = [x for x in ver_title_delete if x not in ver_title_keep]
-            ver_title_delete = merge_identical_list_items(ver_title_delete)
-
-            if len(ver_title_delete) > 0:
-                for x in ver_title_delete:
-                    for something in regional_titles_data[title]:
-                        if something.full_title == x:
-                            regional_titles_data[title].remove(something)
-
-        # Then, get the highest revision
-        for subtitle in regional_titles_data[title]:
-            if '(Rev ' in str(subtitle.full_title):
-                # Get the base titles
-                rev_title = re.findall('.*?\(Rev ', subtitle.full_title_regionless)[0][:-6]
-
-                highest_revision.setdefault(rev_title, [])
-
-                try:
-                    highest_revision[rev_title].append(int(re.findall('\(Rev [0-9]\)', str(subtitle.full_title_regionless))[0][4:-1]))
-                except:
-                    highest_revision[rev_title].append(re.findall('\(Rev [A-Z]\)', str(subtitle.full_title_regionless))[0][5:-1])
-
-                highest_revision[rev_title].sort(reverse = True)
-
-        if len(highest_revision) > 0:
-
-            # print('\n---RAW-REVISION------')
-            # print(highest_revision)
-
-            # Delete older titles
-            rev_title_keep = []
-            rev_title_delete = []
-
-            for key, value in highest_revision.items():
-                for subtitle in regional_titles_data[title]:
-                    if key + ' (Rev ' + str(value[0]) in subtitle.full_title_regionless:
-                        rev_title_keep.append(subtitle.full_title)
-                    # Delete original, unrevised title and its alts
-                    if key == subtitle.full_title_regionless or bool(re.match(re.escape(key) + ' \(Alt.*?\)', subtitle.full_title_regionless)):
-                        rev_title_delete.append(subtitle.full_title)
-                # Delete previous versions
-                for i, x in enumerate(highest_revision[key]):
-                    if i > 0 and i < len(highest_revision[key]) and value[0] != 1:
-                        for subtitle in regional_titles_data[title]:
-                            if key + ' (Rev ' + str(x) in subtitle.full_title_regionless:
-                                rev_title_delete.append(subtitle.full_title)
-
-            # Dedupe delete list. It's a hack, but a more elegant solution will have to come another time.
-            rev_title_delete = merge_identical_list_items(rev_title_delete)
-
-            print('\n---KEEP--------------')
-            rev_title_keep.sort()
-            for x in rev_title_keep:
-                print(x)
-
-            if len(rev_title_delete) > 0:
-                # print('\n---DELETE--------------')
-
-                for x in rev_title_delete:
-                    # print(x)
-                    for something in regional_titles_data[title]:
-                        if something.full_title == x:
-                            regional_titles_data[title].remove(something)
-
-
-            # print('\n---ALSO KEEP---------')
-
-            rev_title_remainder = []
-            for subtitle in regional_titles_data[title]:
-                rev_title_remainder.append(subtitle.full_title)
-
-            rev_title_remainder = [x for x in rev_title_remainder if x not in rev_title_keep and x not in rev_title_delete]
-
-            for x in rev_title_remainder:
-                print(x)
-
-            input('>')
 
     # Add unique list to the dictionary
     regional_titles_data['unique_titles'] = unique_regional_list
@@ -763,7 +714,7 @@ def process_dats(user_input, region_list_english, region_list_other, is_folder):
         dat_description = converted_dat[2]
         dat_author = converted_dat[3]
         dat_url = 'redump.org'
-        dat_version = 'Unknown'
+        dat_version = ''
         soup = BeautifulSoup(xml_convert, "lxml-xml")
     else:
         soup = BeautifulSoup(checkdat, "lxml-xml")
@@ -971,34 +922,64 @@ def process_dats(user_input, region_list_english, region_list_other, is_folder):
     print(font.bold + '---------------------------')
     print('=  New title count: ' + str('{:,}'.format(new_title_count)) + font.end + '\n')
 
+    # Set up final output file name and dat header strings
+    if user_input.file_output != '':
+        output_folder = user_input.file_output
+        user_input.file_output_final = os.path.join(output_folder, dat_name)
+    else:
+        user_input.file_output_final = dat_name
+
+    dat_version_filename = ''
+    if dat_version != '': dat_version_filename = ' (' + dat_version + ')'
+
+    if user_input.no_apps == True or user_input.no_demos == True or user_input.no_edu == True or user_input.no_multi == True or user_input.no_protos == True or user_input.no_alts == True or user_input.split_regions == True or user_input.split_regions_no_dupes == True:
+        dat_header_exclusion = ' (-'
+        if user_input.no_apps == True: dat_header_exclusion += 'a'
+        if user_input.no_demos == True: dat_header_exclusion += 'd'
+        if user_input.no_edu == True: dat_header_exclusion += 'e'
+        if user_input.no_alts == True: dat_header_exclusion += 'l'
+        if user_input.no_multi == True: dat_header_exclusion += 'm'
+        if user_input.no_protos == True: dat_header_exclusion += 'p'
+        if user_input.split_regions_no_dupes == True: dat_header_exclusion += 'r'
+        if user_input.split_regions == True: dat_header_exclusion += 's'
+        dat_header_exclusion += ')'
+    else:
+        dat_header_exclusion = ''
+
+    # Write the dat files
     try:
+        file_name_title_count = {}
         if user_input.split_regions_no_dupes == True or user_input.split_regions == True:
             print('* Writing regional dat files...\n')
             for region in region_list_english + region_list_other:
                 if final_title_xml.get(region, -1) != -1 and new_title_count_region[region] > 0:
-                    with open(user_input.file_output + ' (' + region + ')' + english_status + '.dat', 'w') as output_file:
-                        dat_header = header(dat_name, dat_version, dat_author, dat_url, new_title_count_region[region], region, user_input)
+                    with open(user_input.file_output_final + ' (' + region + ')' + english_status + dat_header_exclusion + ' (' + str('{:,}'.format(new_title_count_region[region])) + ' of ' + str('{:,}'.format(new_title_count)) + ')' + dat_version_filename + ' (Retool ' +  datetime.datetime.now().strftime('%Y-%m-%d %H-%M-%S.%f')[:-3] + ')' + '.dat', 'w') as output_file:
+                        dat_header = header(dat_name, dat_version, dat_author, dat_url, dat_header_exclusion, new_title_count_region[region], new_title_count, region, user_input)
                         output_file.writelines(dat_header)
                         output_file.writelines(final_title_xml[region])
                         output_file.writelines('</datafile>')
                         output_file.close()
 
             if final_title_xml.get('Unknown', -1) != -1:
-                with open(user_input.file_output + ' (Unknown)' + english_status + '.dat', 'w') as output_file:
-                    dat_header = header(dat_name, dat_version, dat_author, dat_url, unknown_region_title_count, 'Unknown', user_input)
+                with open(user_input.file_output_final + ' (Unknown)' + english_status + dat_header_exclusion + ' (' + str('{:,}'.format(unknown_region_title_count)) + ' of ' + str('{:,}'.format(new_title_count)) + ')' + dat_version_filename + ' (Retool ' +  datetime.datetime.now().strftime('%Y-%m-%d %H-%M-%S.%f')[:-3] + ')' + '.dat', 'w') as output_file:
+                    dat_header = header(dat_name, dat_version, dat_author, dat_url, dat_header_exclusion, unknown_region_title_count, new_title_count, 'Unknown', user_input)
                     output_file.writelines(dat_header)
                     output_file.writelines(final_title_xml['Unknown'])
                     output_file.writelines('</datafile>')
                     output_file.close()
         else:
             print('* Writing dat file...\n')
-            with open(user_input.file_output + english_status + '.dat', 'w') as output_file:
-                dat_header = header(dat_name, dat_version, dat_author, dat_url, new_title_count, False, user_input)
+            with open(user_input.file_output_final + english_status + dat_header_exclusion + ' (' + str('{:,}'.format(new_title_count)) + ')' + dat_version_filename + ' (Retool ' +  datetime.datetime.now().strftime('%Y-%m-%d %H-%M-%S.%f')[:-3] + ')' + '.dat', 'w') as output_file:
+                dat_header = header(dat_name, dat_version, dat_author, dat_url, dat_header_exclusion, False, new_title_count, False, user_input)
                 output_file.writelines(dat_header)
                 output_file.writelines(final_title_xml)
                 output_file.writelines('</datafile>')
                 output_file.close()
-        return new_title_count
+
+        file_name_title_count['output_file'] = output_file.name
+        file_name_title_count['new_title_count'] = new_title_count
+
+        return file_name_title_count
     except OSError as e:
         print('\n' + font.bold + font.red + '* Error: ' + font.end + str(e) + '\n')
         raise
