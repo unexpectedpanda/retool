@@ -1,12 +1,6 @@
 # Last updated: 17 November 2019
 # An exclusion list for when games are the same as the US version, just renamed for another region.
 
-# No alternative titles so far:
-# * Atari Jaguar
-# * Commodore Amiga CD
-# * Commodore Amiga CD 32
-# * SNK Neo Geo CD
-
 # Apple Macintosh
 def mac_rename_list():
     return [
@@ -21,12 +15,12 @@ def mac_rename_list():
     ]
 
 # DVD-Video
-def dvd_video():
+def dvd_video_rename_list():
     return[
         # Biohazard 4 titles might be dupes for Resident Evil 4 titles
 
         # Command & Conquer - The First Decade
-        'Command & Conquer - Die ersten 10 Jahre (Germany) (Bonus-DVD)',
+        'Command & Conquer - Die ersten 10 Jahre',
 
         # Fullmetal Alchemist
         # Hagane no Renkinjutsushi - Hagaren Project Premium DVD # Uncertain this is the same title
@@ -75,10 +69,10 @@ def xbox_rename_list():
         # 'SCAR - Squadra Corse Alfa Romeo',
 
         # Amped - Freestyle Snowboarding
-        'Tenku - Freestyle Snowboarding',
+        'Tenku - Freestyle Snowboarding', # (天空)
 
         # Amped 2
-        'Tenku 2',
+        'Tenku 2', # (天空　弐)
 
         # Apex
         'Racing Evoluzione',
@@ -90,13 +84,13 @@ def xbox_rename_list():
         'Bad Boys II',
 
         # Beat Down - Fists of Vengeance
-        'Beat Down',
+        'Beat Down', # (ビートダウン)
 
         # Big Mutha Truckers 2
         'Big Mutha Truckers 2 - Truck Me Harder',
 
         # Black Stone - Magic & Steel
-        'Ex-Chaser',
+        'Ex-Chaser', # (エクスチェイサー)
 
         # Brian Lara International Cricket 2005
         'Ricky Ponting International Cricket 2005',
@@ -121,13 +115,13 @@ def xbox_rename_list():
         'Crazy Taxi 3',
 
         # Crash Bandicoot - The Wrath of Cortex
-        'Crash Bandicoot 4 - Sakuretsu! Majin Power',
+        'Crash Bandicoot 4 - Sakuretsu! Majin Power', # (クラッシュ・バンディクー４　さくれつ！魔神パワー)
 
         # Crimson Sea
-        'Kurenai no Umi - Crimson Sea',
+        'Kurenai no Umi - Crimson Sea', # (紅の海)
 
         # Dai Senryaku VII - Modern Military Tactics
-        'Daisenryaku VII',
+        'Daisenryaku VII', # (大戦略 VII)
 
         # Dakar 2 - The World's Ultimate Rally
         'Dakar 2',
@@ -142,10 +136,10 @@ def xbox_rename_list():
         'Dancing Stage Unleashed 3',
 
         # Digimon Rumble Arena 2
-        'Digimon Battle Chronicle',
+        'Digimon Battle Chronicle', # (デジモンバトルクロニクル)
 
         # Digimon World 4
-        'Digimon World X',
+        'Digimon World X', # (デジモンワールドX)
 
         # Disney-Pixar The Incredibles
         'Disney-Pixar Die Unglaublichen',
@@ -160,21 +154,21 @@ def xbox_rename_list():
         'Cat in the Hat, The',
 
         # Dynasty Warriors 3
-        'Shin Sangoku Musou 2',
+        'Shin Sangoku Musou 2', # (真・三國無双2)
 
         # Dynasty Warriors 4
-        'Shin Sangoku Musou 3',
+        'Shin Sangoku Musou 3', # (真・三國無双3)
 
         # Dynasty Warriors 5
-        'Shin Sangoku Musou 4',
+        'Shin Sangoku Musou 4', # (真・三國無双4)
 
         # Egg Mania - Eggstreme Madness
-        'Egg Mania - Tsukande! Mawashite! Dossun Puzzle!!',
+        'Egg Mania - Tsukande! Mawashite! Dossun Puzzle!!', # (エッグマニア　つかんで！まわして！どっすんぱず～る！！)
         'Eggo Mania',
 
         # ESPN International Winter Sports 2002
         'ESPN International Winter Sports',
-        'Hyper Sports 2002 Winter',
+        'Hyper Sports 2002 Winter', # (ハイパースポーツ2002WINTER)
 
         # Fahrenheit
         'Indigo Prophecy', # The USA version is censored, so the European version is preferenced
@@ -183,7 +177,7 @@ def xbox_rename_list():
         'Fantastici 4, I',
 
         # Fatal Frame
-        'Fatal Frame - Zero Special Edition',
+        'Fatal Frame - Zero Special Edition', # (フェイタル　フレーム　零スペシャルエディション)
         'Project Zero',
 
         # Fatal Frame II - Crimson Butterfly - Director's Cut
@@ -224,31 +218,31 @@ def xbox_rename_list():
         'GoldenEye - Au Service du Mal',
 
         # Group S Challenge
-        'Circus Drive',
+        'Circus Drive', # (サーカスドライブ)
 
         # Guilty Gear X2 Reload - The Midnight Carnival
-        'Guilty Gear XX Reload - The Midnight Carnival',
+        'Guilty Gear XX Reload - The Midnight Carnival', # (ギルティギア　イグゼクス シャープリロード)
 
         # Halo - Combat Evolved
-        'Halo',
+        'Halo', # (ヘイロー)
 
         # Harry Potter and the Sorcerer's Stone
         'Harry Potter and the Philosopher\'s Stone',
 
         # Hello Kitty - Roller Rescue
-        'Hello Kitty - Mission Rescue',
+        'Hello Kitty - Mission Rescue', # (Hello Kitty 友情總動員)
 
         # Hitman 2 - Silent Assassin
-        'Hitman - Silent Assassin',
+        'Hitman - Silent Assassin', # (ヒットマン：サイレントアサシン)
 
         # Jade Empire
-        'Jade Empire - Hisui no Teikoku',
+        'Jade Empire - Hisui no Teikoku', # (ジェイド　エンパイア　～翡翠の帝国～)
 
         # Kabuki Warriors
-        'Zan Kabuki',
+        'Zan Kabuki', # (斬 歌舞伎)
 
         # Kung Fu Chaos
-        'Kung Fu Panic',
+        'Kung Fu Panic', # (カンフーパニック)
 
         # Lemony Snicket's A Series of Unfortunate Events
         'Desastreuses Aventures des Orphelins Baudelaire, Les - D\'Apres Lemony Snicket',
@@ -295,7 +289,7 @@ def xbox_rename_list():
         'MTV Music Generator 3',
 
         # Murakumo - Renegade Mech Pursuit
-        'Murakumo',
+        'Murakumo', # (叢　－MURAKUMO－)
 
         # Nickelodeon SpongeBob SquarePants - The Movie
         'Nickelodeon SpongeBob Schwammkopf - Der Film',
@@ -308,16 +302,16 @@ def xbox_rename_list():
         'Oddworld - Strangers Vergeltung',
 
         # Otogi - Myth of Demons
-        'Otogi',
+        'Otogi', # (O・TO・GI ～御伽～)
 
         # Otogi 2 - Immortal Warriors
-        'Otogi - Hyakki Toubatsu Emaki',
+        'Otogi - Hyakki Toubatsu Emaki', # (O・TO・GI ～百鬼討伐絵巻～)
 
         # Power Drome
         'Powerdrome',
 
         # Prince of Persia - Warrior Within
-        'Prince of Persia - Kenshi no Kokoro',
+        'Prince of Persia - Kenshi no Kokoro', # (プリンス・オブ・ペルシャ　ケンシ　ノ　ココロ)
 
         # Pro Race Driver
         'DTM Race Driver - Director\'s Cut',
@@ -325,30 +319,30 @@ def xbox_rename_list():
         'V8 Supercars Australia - Race Driver',
 
         # Project Gotham Racing
-        'Project Gotham - World Street Racer',
+        'Project Gotham - World Street Racer', # (プロジェクトゴッサム:ワールドストリートレーサー)
 
         # Puyo Pop Fever
-        'Puyo Puyo Fever',
+        'Puyo Puyo Fever', # (ぷよぷよフィーバー)
 
         # Quantum Redshift
-        'Quantum Redshift - Chou Kousoku Kuukan Battle Race',
+        'Quantum Redshift - Chou Kousoku Kuukan Battle Race', # (カンタム　レッドシフト　超高速空間バトルレース)
 
         # R-Racing
         'R-Racing Evolution',
-        'R-Racing Evolution - Life in the Fast Lane',
+        'R-Racing Evolution - Life in the Fast Lane', # (R レーシング・エヴォリューション)
 
         # RedCard 20-03
         'RedCard',
 
         # Samurai Warriors
-        'Sengoku Musou',
+        'Sengoku Musou', # (戦国無双)
 
         # Silent Hill 2 - Restless Dreams
         'Silent Hill 2 - Inner Fears',
-        'Silent Hill 2 - Saigo no Uta',
+        'Silent Hill 2 - Saigo no Uta', # (サイレントヒル２　最期の詩)
 
         # Sneakers
-        'Nezmix',
+        'Nezmix', # (ねずみくす)
 
         # Star Wars - Episode III - Revenge of the Sith
         'Star Wars - Episode III - Die Rache der Sith',
@@ -362,13 +356,13 @@ def xbox_rename_list():
         'Star Wars - Las Guerras Clon',
 
         # Steel Battalion
-        'Tekki',
+        'Tekki', # (鉄騎)
 
         # Sudeki
-        'Sudeki - Sennen no Akatsuki no Monogatari',
+        'Sudeki - Sennen no Akatsuki no Monogatari', # (Sudeki　～千年の暁の物語～)
 
         # Tenchu - Return from Darkness
-        'Tenchu 3 - Kaiki no Shou',
+        'Tenchu 3 - Kaiki no Shou', # (天誅　参　～回帰の章～)
 
         # Test Drive
         'TD Overdrive - The Brotherhood of Speed',
@@ -391,10 +385,10 @@ def xbox_rename_list():
         'RPM Tuning',
 
         # UFC - Ultimate Fighting Championship - Tapout 2
-        'UFC - Ultimate Fighting Championship 2 - Tapout',
+        'UFC - Ultimate Fighting Championship 2 - Tapout', # (アルティメット　ファイティング　チャンピオンシップ　２　タップアウト)
 
         # Ultra Bust-A-Move
-        'Ultra Puzzle Bobble',
+        'Ultra Puzzle Bobble', # (ウルトラパズルボブル)
 
         # WinBack 2 - Project Poseidon
         'Operation WinBack 2 - Project Poseidon',
@@ -413,13 +407,13 @@ def xbox_rename_list():
 
         # WTA Tour Tennis
         'Pro Tennis WTA Tour',
-        'WTA Tour Tennis Pro Evolution'
+        'WTA Tour Tennis Pro Evolution',  # (WTAツアーテニス プロエボリューション)
 
         # WWF Raw
         'WWE Raw',
 
         # XIII
-        'XIII - Daitouryou o Koroshita Otoko',
+        'XIII - Daitouryou o Koroshita Otoko', # (XIII　サーティーン　大統領を殺した男)
     ]
 
 # Microsoft Xbox 360
@@ -438,10 +432,10 @@ def x360_rename_list():
         'Borderlands - Add-On Doppelpack',
 
         # Earth Defense Force 2017
-        'Chikyuu Boueigun 3',
+        'Chikyuu Boueigun 3', # (地球防衛軍4)
 
         # Earth Defense Force 2025
-        'Chikyuu Boueigun 4',
+        'Chikyuu Boueigun 4', # (地球防衛軍4)
 
         # Elder Scrolls IV, The - Oblivion
         'Elder Scrolls IV, The - Oblivion - Jubilaeumsausgabe',
@@ -473,7 +467,7 @@ def x360_rename_list():
         'FIFA 13',
 
         # Magna Carta II
-        'Magnacarta II'
+        'Magnacarta II' # (マグナカルタ２)
 
         # Metal Gear Solid - HD Collection
         'Metal Gear Solid - HD Edition',
@@ -485,7 +479,7 @@ def x360_rename_list():
         'World Soccer Winning Eleven 2010',
 
         # Project Sylpheed - Arc of Deception
-        'Project Sylpheed',
+        'Project Sylpheed', # (プロジェクト シルフィード)
 
         # Sonic's Ultimate Genesis Collection
         'Sega Mega Drive Ultimate Collection',
@@ -529,61 +523,61 @@ def xbone_rename_list():
 def pce_rename_list():
     return[
         # Buster Bros
-        'Pomping World',
+        'Pomping World', # (ポンピング・ワールド)
 
         # Cosmic Fantasy 2
-        'Cosmic Fantasy 2 - Bouken Shounen Ban',
+        'Cosmic Fantasy 2 - Bouken Shounen Ban', # (コズミック・ファンタジー２　～冒険少年バン～)
 
         # Exile
-        'Exile - Toki no Hasama e',
+        'Exile - Toki no Hasama e', # (エグザイル　～時の狭間へ～)
 
         # Exile - Wicked Phenomenon
-        'Exile II - Janen no Jishou',
+        'Exile II - Janen no Jishou', # (エグザイルⅡ　～邪念の事象～)
 
         # Godzilla
-        'Godzilla Bakutou Retsuden',
+        'Godzilla Bakutou Retsuden', # (ゴジラ爆闘烈伝)
 
         # J. B. Harold Murder Club
-        'J. B. Harold Series 1 - Murder Club',
+        'J. B. Harold Series 1 - Murder Club', # (J. B. ハロルド・シリーズ＃１　殺人クラブ)
 
         # Jack Nicklaus Turbo Golf
-        'Jack Nicklaus\' World Tour Golf - 162 Holes',
+        'Jack Nicklaus\' World Tour Golf - 162 Holes', # (ジャック・ニクラウス・ワールド・ゴルフ・ツアー　「１６２ホール」)
 
         # Last Alert
-        'Red Alert',
+        'Red Alert', # (レッド・アラート)
 
         # Lords of the Rising Sun
-        'Rising Sun',
+        'Rising Sun', # (ライジング・サン)
 
         # Lords of Thunder
-        'Winds of Thunder',
+        'Winds of Thunder', # (ウィンズ・オブ・サンダー)
 
         # Magical Dinosaur Tour
-        'Magical Saurus Tour',
+        'Magical Saurus Tour', # (マジカル・サウルス・ツアー)
 
         # Monster Lair
-        'Wonder Boy III - Monster Lair',
+        'Wonder Boy III - Monster Lair', # (ワンダー・ボーイⅢ　モンスター・レアー)
 
         # Riot Zone
-        'Ookami-teki Monshou - Crest of Wolf',
+        'Ookami-teki Monshou - Crest of Wolf', # (狼的紋章　クレスト・オブ・ウルフ)
 
         # Shadow of the Beast
-        'Shadow of the Beast - Mashou no Okite',
+        'Shadow of the Beast - Mashou no Okite', # (シャドー・オブ・ザ・ビースト　～魔性の掟～)
 
         # Sherlock Holmes - Consulting Detective - Volume 2
-        'Sherlock Holmes - Consulting Detective Vol. II',
+        'Sherlock Holmes - Consulting Detective Vol. II', # (シャーロック・ホームズの探偵講座Ⅱ)
 
         # Splash Lake
-        'Splash Lake - Ostrich Daibouken',
+        'Splash Lake - Ostrich Daibouken', # (スプラッシュ・レイク　～オストリッチ大冒険～)
 
         # Super Air Zonk - Rockabilly-Paradise
-        'CD Denjin - Rockabilly Tengoku',
+        'CD Denjin - Rockabilly Tengoku', # (CD電人　～ロカビリー天国～)
 
         # Ys Book I & II
-        'Ys I & II',
+        'Ys I & II', # (イースⅠ・Ⅱ)
 
         # Ys III - Wanderers from Ys
-        'Ys III',
+        'Ys III', # (イースⅢ)
     ]
 
 # Nintendo GameCube
@@ -610,7 +604,7 @@ def gamecube_rename_list():
         '007 - Liebesgruesse aus Moskau',
 
         # 1080 Avalanche
-        '1080 Silver Storm',
+        '1080 Silver Storm', # (テン・エイティ シルバーストーム)
 
         # Action Replay Ultimate Cheats for Use with Pokemon Colosseum
         'Action Replay Ultimate Cheats fuer Pokemon Colosseum',
@@ -625,34 +619,34 @@ def gamecube_rename_list():
         'Action Replay Ultimative Cheats Greatest Hits 2003',
 
         # Amazing Island
-        'Kaijuu no Shima',
+        'Kaijuu no Shima', # (カイジュウの島 ～アメージングアイランド～)
 
         # Animal Crossing
-        'Doubutsu no Mori +',
+        'Doubutsu no Mori +', # (どうぶつの森＋)
 
         # Auto Modellista
-        'Auto Modellista - U.S.-tuned',
+        'Auto Modellista - U.S.-tuned', # (突撃！！ ファミコンウォーズ)
 
         # Bad Boys - Miami Takedown
         'Bad Boys II',
 
         # Baten Kaitos - Eternal Wings and the Lost Ocean
-        'Baten Kaitos - Owaranai Tsubasa to Ushinawareta Umi',
+        'Baten Kaitos - Owaranai Tsubasa to Ushinawareta Umi', # (バテン・カイトス 終わらない翼と失われた海)
 
         # Baten Kaitos Origins
-        'Baten Kaitos II - Hajimari no Tsubasa to Kamigami no Shishi',
+        'Baten Kaitos II - Hajimari no Tsubasa to Kamigami no Shishi', # (バテン・カイトスⅡ　始まりの翼と神々の嗣子)
 
         # Barbarian isn't in Redump yet
         # 'Warrior Blade - Rastan vs. Barbarian',
 
         # Battalion Wars
-        'Totsugeki!! Famicom Wars',
+        'Totsugeki!! Famicom Wars', # (突撃！！ ファミコンウォーズ)
 
         # Billy Hatcher and the Giant Egg
-        'Giant Egg - Billy Hatcher no Daibouken',
+        'Giant Egg - Billy Hatcher no Daibouken', # (ジャイアントエッグ ビリー・ハッチャーの大冒険)
 
         # Bloody Roar - Primal Fury
-        'Bloody Roar',
+        'Bloody Roar - Extreme', # (ブラッディ ロア エクストリーム)
 
         # Buffy the Vampire Slayer - Chaos Bleeds
         'Buffy contre les Vampires - Chaos Bleeds',
@@ -660,17 +654,17 @@ def gamecube_rename_list():
 
         # Bust-A-Move 3000
         'Super Bust-A-Move All Stars',
-        'Super Puzzle Bobble All Stars',
+        'Super Puzzle Bobble All Stars', # (スーパーパズルボブル オールスターズ)
 
         # Capcom vs. SNK 2 EO
         'Capcom vs. SNK 2 EO - Millionaire Fighting 2001',
 
         # Chaos Field
-        'Chaos Field Expanded',
+        'Chaos Field Expanded', # (カオスフィールド エクスパンデッド)
 
         # Chibi-Robo! Plug into adventure!
         'Chibi-Robo!',
-        'ChibiRobo!',
+        'ChibiRobo!', # (ちびロボ!)
 
         # Chronicles of Narnia, The - The Lion, the Witch and the Wardrobe
         'Chroniken von Narnia, Die - Der Koenig von Narnia'
@@ -683,35 +677,35 @@ def gamecube_rename_list():
         'Conflict - Desert Storm II',
 
         # Crash Bandicoot - The Wrath of Cortex
-        'Crash Bandicoot 4 - Sakuretsu! Majin Power',
+        'Crash Bandicoot 4 - Sakuretsu! Majin Power', # (クラッシュ・バンディクー4 さくれつ!魔神パワー)
 
         # Crash Nitro Kart
-        'Crash Bandicoot - Bakuso! Nitro Kart',
+        'Crash Bandicoot - Bakuso! Nitro Kart', # (クラッシュ・バンディクー　爆走！ニトロカート)
 
         # Crash Tag Team Racing
-        'Crash Bandicoot - Gatchanko World',
+        'Crash Bandicoot - Gatchanko World', # (クラッシュ・バンディクー がっちゃんこワールド)
 
         # Cubivore - Survival of the Fittest
         'Doubutsu Banchou',
 
         # Custom Robo
-        'Custom Robo - Battle Revolution',
+        'Custom Robo - Battle Revolution', # (カスタムロボ バトルレボリューション)
 
         # Dakar 2 - The World's Ultimate Rally
         'Dakar 2',
 
         # Dance Dance Revolution - Mario Mix
-        'Dance Dance Revolution with Mario',
+        'Dance Dance Revolution with Mario', # (ダンスダンスレボリューション ウィズ マリオ)
         'Dancing Stage Mario Mix',
 
         # Defender
         'Defender - For All Mankind',
 
         # Digimon Rumble Arena 2
-        'Digimon Battle Chronicle',
+        'Digimon Battle Chronicle', # (デジモンバトルクロニクル)
 
         # Digimon World 4
-        'Digimon World X',
+        'Digimon World X', # (デジモン ワールド X)
 
         # Disney-Pixar Finding Nemo
         'Disney-Pixar Buscando a Nemo',
@@ -721,26 +715,26 @@ def gamecube_rename_list():
         # Disney-Pixar The Incredibles
         'Disney-Pixar Die Unglaublichen',
         'Disney-Pixar Les Indestructibles',
-        'Disney-Pixar Mr. Incredible',
+        'Disney-Pixar Mr. Incredible', # (Mr.インクレディブル)
 
         # Disney-Pixar The Incredibles - Rise of the Underminer
-        'Disney-Pixar Mr. Incredible - Kyouteki Underminder Toujou',
+        'Disney-Pixar Mr. Incredible - Kyouteki Underminder Toujou', # (Mr. インクレディブル 強敵アンダーマイナー登場)
 
         # Disney's Chicken Little
-        'Disney Chicken Little',
+        'Disney Chicken Little', # (チキン·リトル)
         'Disneys Himmel und Huhn',
 
         # Disney's Donald Duck - Goin' Quackers
         'Disney\'s Donald Duck - Quack Attack',
 
         # Disney's Hide and Seek
-        'Disney\'s Mickey to Minnie Trick & Chase',
+        'Disney\'s Mickey to Minnie Trick & Chase', # (ディズニーのミッキー＆ミニー トリック＆チェイス)
 
         # Disney's Magical Mirror Starring Mickey Mouse
-        'Disney\'s Mickey Mouse no Fushigi na Kagami',
+        'Disney\'s Mickey Mouse no Fushigi na Kagami', # (ディズニーのミッキーマウスの不思議な鏡)
 
         # Disney's Party
-        'Disney no Magical Park',
+        'Disney no Magical Park', # (ディズニーのマジカルパーク)
 
         # Disney's Piglet's Big Game
         'Disney Les Aventures de Porcinet',
@@ -753,19 +747,19 @@ def gamecube_rename_list():
         'Disney\'s Tarzan - Freeride',
 
         # Disney Sports - Football
-        'Disney Sports - American Football',
+        'Disney Sports - American Football', # (ディズニー スポーツ: アメリカン フットボール)
 
         # Donkey Konga 2
-        'Donkey Konga 2 - Hit Song Parade',
+        'Donkey Konga 2 - Hit Song Parade', # (ドンキーコンガ２　ヒットソングパレード)
 
         # Doshin the Giant
-        'Kyojin no Doshin',
+        'Kyojin no Doshin', # (巨人のドシン)
 
         # Dragon's Lair 3D - Return to the Lair
         'Dragon\'s Lair 3D - Special Edition',
 
         # Dragon Ball Z - Budokai
-        'Dragon Ball Z',
+        'Dragon Ball Z', # (ドラゴンボールZ)
 
         # Dreamworks Over the Hedge
         'DreamWorks Ab durch die Hecke',
@@ -776,18 +770,18 @@ def gamecube_rename_list():
         'DreamWorks Grosse Haie - Kleine Fische',
 
         # Egg Mania - Eggstreme Madness
-        'Egg Mania - Tsukande! Mawashite! Dossun Puzzle!!',
+        'Egg Mania - Tsukande! Mawashite! Dossun Puzzle!!', # (エッグマニア　つかんで！まわして！どっすんぱず～る！！)
         'Eggo Mania',
 
         # ESPN International Winter Sports 2002
         'ESPN International Winter Sports',
-        'Hyper Sports 2002 Winter',
+        'Hyper Sports 2002 Winter', # (ハイパースポーツ2002WINTER)
 
         # Eternal Darkness - Sanity's Requiem
-        'Eternal Darkness - Manekareta 13-nin',
+        'Eternal Darkness - Manekareta 13-nin', # (神機世界エヴォルシア)
 
         # Evolution Worlds
-        'Shinki Sekai Evolutia',
+        'Shinki Sekai Evolutia', # (神機世界エヴォルシア)
 
         # Fantastic 4
         '4 Fantastiques, Les',
@@ -800,10 +794,10 @@ def gamecube_rename_list():
         'FIFA 07',
 
         # FIFA Soccer 2002
-        'FIFA 2002 - Road to FIFA World Cup',
+        'FIFA 2002 - Road to FIFA World Cup', # (FIFA 2002: ロード トゥ FIFA ワールドカップ)
 
         # FIFA Soccer 2003
-        'FIFA 2003',
+        'FIFA 2003', # (FIFA 2003 ヨーロッパサッカー)
         'FIFA Football 2003',
 
         # FIFA Soccer 2004
@@ -816,7 +810,7 @@ def gamecube_rename_list():
         'FIFA Fussball-Weltmeisterschaft Deutschland 2006',
 
         # Fire Emblem - Path of Radiance
-        'Fire Emblem - Souen no Kiseki',
+        'Fire Emblem - Souen no Kiseki', # (ファイアーエムブレム 蒼炎の軌跡)
 
         # Franklin - A Birthday Surprise isn't in Redump yet
         # 'Franklin - Un anniversaire surprise',
@@ -825,24 +819,24 @@ def gamecube_rename_list():
         'Urban Freestyle Soccer',
 
         # Frogger Beyond
-        'Frogger',
+        'Frogger', # (フロッガー)
 
         # Godzilla - Destroy All Monsters Melee
-        'Godzilla - Kaijuu Dairantou',
+        'Godzilla - Kaijuu Dairantou', # (ゴジラ　怪獣大乱闘)
 
         # GoldenEye - Rogue Agent
         'GoldenEye - Agente Corrupto',
-        'GoldenEye - Dark Agent',
+        'GoldenEye - Dark Agent', # (ゴールデンアイ ダーク・エージェント)
 
         # Harry Potter and the Chamber of Secrets
-        'Harry Potter to Himitsu no Heiya',
+        'Harry Potter to Himitsu no Heiya', # (ハリー・ポッターと秘密の部屋)
 
         # Harry Potter and the Goblet of Fire
         'Harry Potter e il Calice di Fuoco',
         'Harry Potter en de Vuurbeker',
         'Harry Potter et la Coupe de Feu',
         'Harry Potter och den flammande baegaren',
-        'Harry Potter to Honoo no Goblet',
+        'Harry Potter to Honoo no Goblet', # (ハリー・ポッターと炎のゴブレット)
         'Harry Potter und der Feuerkelch',
         'Harry Potter y el Caliz de Fuego',
 
@@ -851,7 +845,7 @@ def gamecube_rename_list():
         'Harry Potter en de gevangene van Azkaban',
         'Harry Potter et le Prisonnier d\'Azkaban'
         'Harry Potter och fangen fran Azkaban',
-        'Harry Potter to Azkaban no Shuujin',
+        'Harry Potter to Azkaban no Shuujin', # (ハリー・ポッターとアズカバンの囚人)
         'Harry Potter und der Gefangene von Askaban',
         'Harry Potter y el prisionero de Azkaban',
 
@@ -862,29 +856,29 @@ def gamecube_rename_list():
         # Harvest Moon - A Wonderful Life
         'Bokujou Monogatari - Wonderful Life',
 
-        # Harvest Moon - Another Wonderful Life
-        'Bokujou Monogatari - Wonderful Life for Girl',
+        # Harvest Moon - Another Wonderful Life # (牧場物語　ワンダフルライフ)
+        'Bokujou Monogatari - Wonderful Life for Girl', # (牧場物語 ワンダフルライフ for ガール)
 
         # Harvest Moon - Magical Melody
-        'Bokujou Monogatari - Shiawase no Uta for World',
+        'Bokujou Monogatari - Shiawase no Uta for World', # (牧場物語 しあわせの詩 for ワールド)
 
         # Kirby Air Ride
-        'Kirby\'s Airride',
+        'Kirby\'s Airride', # (カービィのエアライド)
 
         # Legend of Zelda, The - Collector's Edition
-        'Zelda Collection',
+        'Zelda Collection', # (ゼルダ コレクション)
 
         # Legend of Zelda, The - Four Swords Adventures
-        'Zelda no Densetsu - 4-tsu no Tsurugi+',
+        'Zelda no Densetsu - 4-tsu no Tsurugi+', # (ゼルダの伝説　４つの剣＋)
 
         # Legend of Zelda, The - Ocarina of Time & Master Quest
-        'Zelda no Densetsu - Toki no Ocarina GC',
+        'Zelda no Densetsu - Toki no Ocarina GC', # (ゼルダの伝説 時のオカリナ GC)
 
         # Legend of Zelda, The - The Wind Waker
-        'Zelda no Densetsu - Kaze no Takuto',
+        'Zelda no Densetsu - Kaze no Takuto', # (ゼルダの伝説 風のタクト)
 
         # Legend of Zelda, The - Twilight Princess
-        'Zelda no Densetsu - Twilight Princess',
+        'Zelda no Densetsu - Twilight Princess', # (ゼルダの伝説 トワイライトプリンセス)
 
         # Lemony Snicket's A Series of Unfortunate Events
         'Desastreuses Aventures des Orphelins Baudelaire, Les - D\'Apres Lemony Snicket',
@@ -912,28 +906,28 @@ def gamecube_rename_list():
         'Signore degli Anelli, Il - Le Due Torri',
 
         # Lost Kingdoms
-        'Rune',
+        'Rune', # (ルーン)
 
         # Lost Kingdoms II
-        'Rune II - Koruten no Kagi no Himitsu',
+        'Rune II - Koruten no Kagi no Himitsu', # (RUNE2～コルテンの鍵の秘密～)
 
         # Luigi's Mansion
-        'Luigi Mansion',
+        'Luigi Mansion', # (ルイージマンション)
 
         # Mario Golf - Toadstool Tour
-        'Mario Golf - Family Tour',
+        'Mario Golf - Family Tour', # (マリオゴルフ ファミリーツアー)
 
         # Mario Power Tennis
-        'Mario Tennis GC',
+        'Mario Tennis GC', # (マリオテニスGC)
 
         # Mario Superstar Baseball
-        'Super Mario Stadium',
+        'Super Mario Stadium', # (スーパーマリオスタジアム ミラクルベースボール)
 
         # Marvel Nemesis - Rise of the Imperfects
         'Marvel Nemesis - L\'Avenement des Imparfaits',
 
         # Medabots Infinity
-        'Medarot Brave',
+        'Medarot Brave', # (メダロットBRAVE)
 
         # Medal of Honor - European Assault
         'Medal of Honor - Europa Kyoushuu',
@@ -946,29 +940,29 @@ def gamecube_rename_list():
         'Medal of Honor - Soleil Levant',
 
         # Mega Man - Network Transmission
-        'Rockman EXE Transmission',
+        'Rockman EXE Transmission', # (ロックマンエグゼ　トランスミッション)
 
         # Mega Man X - Command Mission
-        'Rockman X - Command Mission',
+        'Rockman X - Command Mission', # (ロックマンＸ コマンドミッション)
 
         # Metroid Prime 2 - Echos
-        'Metroid Prime 2 - Dark Echoes',
+        'Metroid Prime 2 - Dark Echoes', # (メトロイドプライム2 ダークエコーズ)
 
         # Minority Report - Everybody Runs
         'Minority Report - Le Futur vous Rattrape',
 
         # Monopoly Party
-        'Monopoly - Mezase!! Daifugou Jinsei!!',
+        'Monopoly - Mezase!! Daifugou Jinsei!!', # (モノポリー ～めざせっ！！大富豪人生！～)
 
         # Mystic Heroes
-        'Battle Houshin',
+        'Battle Houshin', # (バトル封神)
 
         # Naruto - Clash of Ninja
         'Naruto - Clash of Ninja - European Version',
-        'Naruto - Gekitou Ninja Taisen!',
+        'Naruto - Gekitou Ninja Taisen!', # (NARUTO－ナルト－ 激闘忍者大戦！)
 
         # Naruto - Clash of Ninja 2
-        'Naruto - Gekitou Ninja Taisen! 2',
+        'Naruto - Gekitou Ninja Taisen! 2', # (NARUTO－ナルト－ 激闘忍者大戦！2)
 
         # NBA Street V3
         # 'NBA Street V3 - Mario de Dunk', # Unclear if the Redump version of NBA Street V3 is the one that includes Mario characters
@@ -1010,7 +1004,7 @@ def gamecube_rename_list():
         'Nickelodeon SpongeBob SquarePants and Friends Unite!',
 
         # Paper Mario - The Thousand-Year Door
-        'Paper Mario RPG',
+        'Paper Mario RPG', # (ペーパーマリオRPG)
 
         # Pokemon Channel
         'Pokemon Channel - Bangumi Kakuchou Pack',
@@ -1020,47 +1014,47 @@ def gamecube_rename_list():
         'Pokemon Colosseum - Nintendo Tokusei Disc',
 
         # Pokemon XD - Gale of Darkness
-        'Pokemon XD - Yami no Kaze Dark Lugia',
+        'Pokemon XD - Yami no Kaze Dark Lugia', # (ポケモンXD 闇の旋風ダーク・ルギア)
 
         # Power Rangers - Dino Thunder
         'Power Rangers - Dino Tonnerre',
 
         # Puyo Pop Fever
-        'Puyo Puyo Fever',
+        'Puyo Puyo Fever', # (ぷよぷよフィーバー)
 
         # R-Racing Evolution
         'R-Racing',
-        'R-Racing Evolution - Life in the Fast Lane',
+        'R-Racing Evolution - Life in the Fast Lane', # ((R レーシング・エヴォリューション))
 
         # Rave Master
-        'Groove Adventure Rave - Fighting Live',
+        'Groove Adventure Rave - Fighting Live', # (GROOVE ADVENTURE RAVE 〜ファイティングライブ〜)
 
         # RedCard 20-03
         'RedCard',
 
         # Resident Evil
-        'Biohazard',
+        'Biohazard', # (バイオハザード)
 
         # Resident Evil - Code - Veronica X
-        'Biohazard - Code - Veronica - Kanzenban',
+        'Biohazard - Code - Veronica - Kanzenban', # (バイオハザード コード: ベロニカ 完全版)
 
         # Resident Evil 2
-        'Biohazard 2',
+        'Biohazard 2', # (バイオハザード2)
 
         # Resident Evil 3 - Nemesis
-        'Biohazard 3 - Last Escape',
+        'Biohazard 3 - Last Escape', # (バイオハザード3 : ラストエスケープ)
 
         # Resident Evil 4
-        'Biohazard 4',
+        'Biohazard 4', # (バイオハザード4)
 
         # Resident Evil Zero
-        'Biohazard Zero',
+        'Biohazard Zero', # (バイオハザード0)
 
         # Ribbit King
-        'Kero Kero King DX',
+        'Kero Kero King DX', # (ケロケロキングDX)
 
         # Road Trip - The Arcade Edition
-        'Choro Q!',
+        'Choro Q!', # (チョロQ!)
         'Gadget Racers',
 
         # Scooby-Doo! Mystery Mayhem
@@ -1072,23 +1066,23 @@ def gamecube_rename_list():
         'Scooby-Doo! Nacht der 100 Schrecken',
 
         # Shonen Jump's One Piece - Grand Battle
-        'One Piece - Grand Battle! Rush',
+        'One Piece - Grand Battle! Rush', # (ワンピース グラバト! ラッシュ)
 
         # Shonen Jump's One Piece - Pirates' Carnival
-        'One Piece - Pirates Carnival',
+        'One Piece - Pirates Carnival', # (ONE PIECE パイレーツカーニバル)
 
         # Skies of Arcadia Legends
-        'Eternal Arcadia Legends',
+        'Eternal Arcadia Legends', # (エターナルアルカディア レジェンド)
 
         # Sonic Adventure DX - Director's Cut
-        'Sonic Adventure DX',
+        'Sonic Adventure DX', # (ソニックアドベンチャー デラックス)
 
         # Spirits & Spells
         'Castleween',
-        'Mahou no Pumpkin - An to Greg no Daibouken',
+        'Mahou no Pumpkin - An to Greg no Daibouken', # (魔法のパンプキン 〜アンとグレッグの大冒険〜)
 
         # SSX On Tour
-        'SSX On Tour with Mario',
+        'SSX On Tour with Mario', # (SSX On Tour with マリオ)
 
         # Star Wars - Rogue Squadron II - Rogue Leader
         'Star Wars - Rogue Squadron II',
@@ -1107,27 +1101,27 @@ def gamecube_rename_list():
         'Mario Smash Football',
 
         # Super Smash Bros. Melee
-        'Dairantou Smash Brothers DX',
+        'Dairantou Smash Brothers DX', # (大乱闘スマッシュブラザーズDX)
 
         # Swingerz Golf
         'Ace Golf',
-        'Wai Wai Golf',
+        'Wai Wai Golf', # (わいわいゴルフ)
 
         # TimeSplitters - Future Perfect
         'TimeSplitters - Futuro Perfecto',
 
         # Top Gun - Combat Zones
-        'Top Gun - Ace of the Sky',
+        'Top Gun - Ace of the Sky', # (トップガン エースオブザスカイ)
 
         # Ultimate Codes for Use with The Legend of Zelda - The Wind Waker
         'CD avec les Codes Action Replay Exclusivement pour le Jeu The Legend of Zelda - The Wind Waker',
         'Ultimate Cheats fuer The Legend of Zelda - The Wind Waker',
 
         # Ultimate Fighting Championship - Throwdown isn't in Redump yet
-        # 'UFC - Ultimate Fighting Championship 2 - Tapout - Final Spec',
+        # 'UFC - Ultimate Fighting Championship 2 - Tapout - Final Spec', # (アルティメット　ファイティング　チャンピオンシップ　２　タップアウト　ファイナルスペック)
 
         # Ultimate Muscle - Legends vs. New Generation
-        'Kinnikuman Nisei - Shinsedai Choujin vs. Densetsu Choujin',
+        'Kinnikuman Nisei - Shinsedai Choujin vs. Densetsu Choujin', # (キン肉マンII世 新世代超人VS伝説超人)
 
         # Universal Studios Theme Park Adventure
         'Universal Studios Japan Adventure',
@@ -1136,7 +1130,7 @@ def gamecube_rename_list():
         'Viewtiful Joe - Battle Carnival',
 
         # Viewtiful Joe 2
-        'Viewtiful Joe 2 - Black Film no Nazo',
+        'Viewtiful Joe 2 - Black Film no Nazo', # (ビューティフル ジョー 2 ブラックフィルムの謎)
 
         # Virtua Quest
         'Virtua Fighter Cyber Generation',
@@ -1145,11 +1139,11 @@ def gamecube_rename_list():
         'Virtua Striker 3 Ver. 2002',
 
         # WarioWare, Inc. - Mega Party Game$!
-        'Atsumare!! Made in Wario',
+        'Atsumare!! Made in Wario', # (あつまれ!!　メイドインワリオ)
 
         # WTA Tour Tennis
         'Pro Tennis WTA Tour',
-        'WTA Tour Tennis Pro Evolution',
+        'WTA Tour Tennis Pro Evolution', # (WTAツアーテニス プロエボリューション)
 
         # X-Men Legends II - Rise of Apocalypse
         'X-Men Legends II - El Ascenso de Apocalipsis',
@@ -1158,10 +1152,10 @@ def gamecube_rename_list():
         'X-Men 2 - Wolverine\'s Revenge',
 
         # Yu-Gi-Oh! The Falsebound Kingdom
-        'Yu-Gi-Oh! Falsebound Kingdom',
+        'Yu-Gi-Oh! Falsebound Kingdom', # (遊戯王 フォルスバウンドキングダム 虚構に閉ざされた王国)
 
         # Zatch Bell! Mamodo Battles
-        'Konjiki no Gashbell!! Yuujou Tag Battle 2',
+        'Konjiki no Gashbell!! Yuujou Tag Battle 2', # (金色のガッシュベル!! 友情タッグバトル2)
     ]
 
 # Nintendo Wii
@@ -1169,6 +1163,9 @@ def wii_rename_list():
     return [
         # There's a number of localized singing games throughout Europe where I'm not
         # sure if they have local songs added or not, so there may be dupes here.
+
+        # Compilations
+        '2 in 1 - Meine Tierpension + Meine Tiersprechstunde',
 
         # 101-in-1 Party Megamix
         '101-in-1 Party Megamix Wii',
@@ -1208,6 +1205,7 @@ def wii_rename_list():
 
         # Animal Crossing - City Folk
         'Animal Crossing - Let\'s Go to the City',
+        'Tauneuro Nolleogayo - Dongmurui Sup', # (타운으로 놀러가요 동물의 숲)
 
         # Babysitting Mama
         'Cooking Mama World - Babysitting Mama',
@@ -1223,6 +1221,7 @@ def wii_rename_list():
 
         # Big Brain Academy - Wii Degree
         'Big Brain Academy for Wii',
+        'Wii de Yawaraka Atama Juku', # (Wiiでやわらかあたま塾)
 
         # Big League Sports
         'World Championship Sports',
@@ -1252,6 +1251,9 @@ def wii_rename_list():
         # Carnival Games
         'Carnival Funfair Games',
 
+        # Celebrity Sports Showdown
+        'Tournoi des Celebrites, Le',
+
         # Championship Foosball
         'Table Football',
 
@@ -1263,6 +1265,15 @@ def wii_rename_list():
 
         # Cooking Mama - World Kitchen
         'Cooking Mama 2 - World Kitchen',
+
+        # Countdown - The Game
+        'Chiffre & Des Lettres, Des - Le Jeu Officiel',
+
+        # Crayon Shin-chan - Saikyou Kazoku Kasukabe King Wii (クレヨンしんちゃん 最強家族カスカベキング うぃ〜)
+        'Shin Chan - Las Nuevas Aventuras para Wii!',
+
+        # Crown of Midas, The
+        'Galileo Mystery - Die Krone des Midas',
 
         # Dance Dance Revolution
         'Dance Dance Revolution - Hottest Party 4',
@@ -1276,7 +1287,11 @@ def wii_rename_list():
         # Dawn of Discovery
         'Anno - Create a New World',
 
+        # de Blob
+        'de Blob - Color Revolution', # (더 블랍: 컬러 레볼루션)
+
         # Deca Sports
+        'Deca Sporta - Wiiro Jeulgineun Sports 10 Jongmok!', # (데카스포르타 Wii로 즐기는 스포츠 "10"종목!)
         'Sports Island',
 
         # Deca Sports 2
@@ -1285,8 +1300,20 @@ def wii_rename_list():
         # Deca Sports 3
         'Sports Island 3',
 
+        # Deal or No Deal
+        'Deal or no Deal - Der Banker schlaegt zurueck',
+
         # DiRT 2
         'Colin McRae - DiRT 2',
+
+        # Disney-Pixar Up
+        'Disney-Pixar Oben',
+
+        # Disney-Pixar WALL-E
+        'Disney-Pixar WALL-E - Der Letzte raeumt die Erde auf',
+
+        # Disney Think Fast
+        'Disney Think - Das Schnelldenker-Quiz',
 
         # Domino Rally
         'Minon - Everyday Hero',
@@ -1294,8 +1321,14 @@ def wii_rename_list():
         # Donkey Kong Barrel Blast
         'Donkey Kong - Jet Race',
 
+        # DreamWorks Madagascar - Escape 2 Africa
+        'DreamWorks Madagaskar 2',
+
         # DreamWorks Madagascar 3 - The Video Game
         'DreamWorks Madagascar 3 - Europe\'s Most Wanted',
+
+        # DreamWorks Shrek Forever After
+        'DreamWorks Shrek e Vissero Felici e Contenti',
 
         # DreamWorks The Croods - Prehistoric Party!, DreamWorks Rise of the Guardians
         'DreamWorks The Croods - Prehistoric Party! & Rise of the Guardians - Combo Pack',
@@ -1333,6 +1366,9 @@ def wii_rename_list():
         # FIFA Soccer 13
         'FIFA 13',
 
+        # FIFA 14 - Legacy Edition
+        'FIFA 14',
+
         # Ford Racing - Off Road
         'Off Road',
 
@@ -1351,6 +1387,11 @@ def wii_rename_list():
         # Glacier 3 - The Meltdown
         'Glacier 3',
 
+        # Godfather, The - Blackhand Edition
+        'Padrino, El - El Chantaje',
+        'Padrino, Il - Blackhand Edition',
+        'Parrain, Le - Pouvoir et Manipulation',
+
         # Gold's Gym - Cardio Workout
         'My Fitness Coach - Cardio Workout',
 
@@ -1363,8 +1404,12 @@ def wii_rename_list():
         # Gunslingers
         'Western Heroes',
 
+        # Hasbro Family Game Night
+        'Hasbro Family Party',
+
         # Heavenly Guardian
         'Legend of Sayuki',
+        'Yukinko Daisenpuu - Sayuki to Koyuki no Hie Hie Daisoudou', # (雪ん娘大旋風 〜さゆきとこゆきのひえひえ大騒動〜)
 
         # Honda ATV Fever
         'ATV Fever',
@@ -1375,13 +1420,18 @@ def wii_rename_list():
         # Hooked! Again - Real Motion Fishing
         'Big Catch - Bass Fishing 2',
 
+        # Horse & Pony - My Riding Stables
+        'Pony - Mijn Paardenstal - Al Jouw Ruiterdromen Komen Uit!',
+
         # Horse Life Adventures
         'Horse Life 2',
 
         # Ice Age - Dawn of the Dinosaurs
+        'Era Glaciale 3, L\' - L&#x27;Alba dei Dinosauri',
         'Ice Age 3 - Dawn of the Dinosaurs',
 
         # Ice Age - Continental Drift - Arctic Games
+        'Era Glaciale 4, L\' - Continenti alla Deriva - Giochi Polari',
         'Ice Age 4 - Continental Drift - Arctic Games',
 
         # Imagine - Fashion Party
@@ -1405,14 +1455,30 @@ def wii_rename_list():
         # Kidz Sports International Soccer
         'Kidz Sports International Football',
 
+        # Kirby's Epic Yarn
+        'Teolsil Kirby Iyagi', # (털실의 커비 이야기)
+
         # Kirby's Return to Dream Land
+        'Byeorui Kirby Wii', # (별의 커비 Wii)
         'Kirby\'s Adventure Wii',
+
+        # Klonoa
+        'Baramui Klonoa - Door to Phantomile', # (바람의 크로노아 Door to Phantomile)
 
         # Kororinpa - Marble Mania
         'Kororinpa',
 
+        # Legend of Zelda, The - Skyward Sword
+        'Zelda no Densetsu - Skyward Sword', # (ゼルダの伝説 スカイウォードソード)
+
+        # Legend of Zelda, The - Twiglight Princess
+        'Zelda no Densetsu - Twilight Princess', # (ゼルダの伝説 トワイライトプリンセス)
+
         # Line Rider 2 - Unbound
         'Line Rider Freestyle',
+
+        # Link's Crossbow Training
+        'Linkui Sagyeok Training', # (링크의　사격　트레이닝)
 
         # Lost in Shadow
         'Shadow\'s Tale, A',
@@ -1420,7 +1486,17 @@ def wii_rename_list():
         # Marble Saga - Kororinpa
         'Marbles! Balance Challenge',
 
+        # Mario & Sonic at the London 2012 Olympic Games
+        'Mariowa Sonic London Olympic', # (마리오와 소닉 런던 올림픽)
+
+        # Mario & Sonic at the Olympic Games
+        'Mariowa Sonic Beijing Olympic', # (마리오와 소닉 베이징 올림픽)
+
+        # Mario & Sonic at the Olympic Winter Games
+        'Mariowa Sonic Vancouver Donggye-olympic', # (마리오와 소닉 밴쿠버 동계올림픽)
+
         # Mario Strikers Charged
+        'Mario Power Soccer', # (마리오 파워 사커)
         'Mario Strikers Charged Football',
 
         # Maximum Racing - Crash Car Racer
@@ -1459,17 +1535,28 @@ def wii_rename_list():
         # Mr Bean's Wacky World
         'Mr Bean\'s Wacky World of Wii',
 
+        # MX vs. ATV Untamed
+        'MX vs. ATV Extreme Limite',
+
         # My Baby First Steps
         'My Baby 2',
 
         # My Ballet Studio
         'Diva Ballerina',
 
+        # My First Songs
+        'Meine ersten Mitsing-Lieder',
+        'Mon Premier Karaoke',
+
         # My Fitness Coach
         'My Fitness Coach - Get in Shape',
 
         # My Horse & Me - Riding for Gold
         'My Horse & Me 2',
+
+        # My Pet Hotel
+        'Meine Tierpension',
+        'Mijn Dierenpension - Verzorg en Speel met de Leukste Dieren!',
 
         # Neighborhood Games
         'Big Family Games',
@@ -1486,16 +1573,6 @@ def wii_rename_list():
         # New Carnival Games
         'New Carnival Funfair Games',
 
-        # Nickelodeon SpongeBob SquigglePants
-        'Nickelodeon SpongeBob SquarePants SquigglePants',
-
-        # Nickelodeon SpongeBob's Boating Bash
-        'Nickelodeon Bob Esponja - Botes de Choque',
-        'Nickelodeon SpongeBob SquarePants - Boating Bash',
-
-        # Nickelodeon SpongeBob's Truth or Square
-        'Nickelodeon SpongeBob SquarePants - SpongeBob\'s Truth or Square',
-
         # Nickelodeon Avatar - The Last Airbender
         'Nickelodeon Avatar - The Legend of Aang',
 
@@ -1505,6 +1582,17 @@ def wii_rename_list():
         # Nickelodeon Avatar - The Last Airbender - The Burning Earth
         'Nickelodeon Avatar - The Legend of Aang - The Burning Earth',
 
+        # Nickelodeon SpongeBob SquigglePants
+        'Nickelodeon SpongeBob SquarePants SquigglePants',
+
+        # Nickelodeon SpongeBob's Boating Bash
+        'Nickelodeon Bob Esponja - Botes de Choque',
+        'Nickelodeon SpongeBob SquarePants - Boating Bash',
+
+        # Nickelodeon SpongeBob's Truth or Square
+        'Nickelodeon Bob Esponja - Atrapados en el Congelador',
+        'Nickelodeon SpongeBob SquarePants - SpongeBob\'s Truth or Square',
+
         # Nicktoons - Attack of the Toybots
         'Nickelodeon SpongeBob and Friends - Attack of the Toybots',
 
@@ -1513,6 +1601,9 @@ def wii_rename_list():
 
         # NPPL Championship Paintball 2009
         'Millennium European Paintball Series, The - Championship Paintball 2009',
+
+        # Octomania
+        'Modu Hamkke Takoron', # (모두 함께~☆ 타코롱)
 
         # Offroad Extreme! Special Edition
         'Offroad Extreme!',
@@ -1526,6 +1617,24 @@ def wii_rename_list():
         # PDC World Championship Darts
         'PDC World Championship Darts 2008',
 
+        # PES 2008 - Pro Evolution Soccer
+        'Winning Eleven Play Maker 2008', # (ウイニングイレブン プレーメーカー2008)
+
+        # PES 2009 - Pro Evolution Soccer
+        'Winning Eleven Play Maker 2009', # (ウイニングイレブン プレーメーカー2009)
+
+        # PES 2010 - Pro Evolution Soccer
+        'Winning Eleven Play Maker 2010', # (ウイニングイレブン プレーメーカー2010)
+
+        # PES 2011 - Pro Evolution Soccer
+        'Winning Eleven Play Maker 2011', # (ウイニングイレブン プレーメーカー2011)
+
+        # PES 2012 - Pro Evolution Soccer
+        'Winning Eleven Play Maker 2012', # (ウイニングイレブン プレーメーカー2012)
+
+        # PES 2013 - Pro Evolution Soccer
+        'Winning Eleven Play Maker 2013', # (ウイニングイレブン プレーメーカー2013)
+
         # Petz - Catz 2
         'Catz',
 
@@ -1534,6 +1643,7 @@ def wii_rename_list():
 
         # Petz - Dogz 2
         'Dogz',
+        'Wanko to Mahou no Boushi', # (わんこと魔法のぼうし)
 
         # Petz - Horse Club
         'Imagine - Champion Rider',
@@ -1562,6 +1672,18 @@ def wii_rename_list():
         # Prince of Persia - The Forgotten Sands
         'Prince of Persia - The Forgotten Sands + 1989',
 
+        # Project Zero 2 - Wii Edition
+        'Zero - Shinku no Chou', # (零～真紅の蝶～)
+
+        # Puppy Luv - Your New Best Friend
+        'Tierbabys - Mein kleiner Welpe',
+
+        # Ready Steady Cook - The Game
+        'Cuisine Party',
+
+        # Resident Evil - The Umbrella Chronicles
+        'Biohazard - The Umbrella Chronicles', # (바이오하자드: 엄브렐러 크로니클즈)
+
         # Rock Band - Track Pack Volume 1
         'Rock Band - Song Pack 1',
 
@@ -1570,9 +1692,13 @@ def wii_rename_list():
 
         # Rhythm Heaven Fever
         'Beat the Beat - Rhythm Paradise',
+        'Rhythm Sesang Wii', # (리듬 세상 Wii)
 
         # Ringling Bros. and Barnum & Bailey
         'It\'s My Circus',
+
+        # Rodea the Sky Soldier
+        'Cheongongui Gisa Rodea', # (천공의　기사　로데아)
 
         # Rolling Stone - Drum King
         'We Rock - Drum King',
@@ -1580,8 +1706,21 @@ def wii_rename_list():
         # Rubik's World
         'Rubik\'s Puzzle World',
 
+        # Scene It Bright Lights! Big Screen!
+        'Scene It Ciak! Si Gira!',
+        'Scene It Estrellas en la Pantalla Gigante',
+        'Scene It Ganz grosses Kino!',
+        'Scene It Lumieres! Action!',
+
         # Score International Baja 1000 - The Official Game
         'Score International Baja 1000 - World Championship Off Road Racing',
+
+        # SimCity Creator
+        'SimCity Namanui Dosi', # (심시티 나만의 도시)
+
+        # Simpsons Game, The
+        'Simpson, Les - Le Jeu',
+        'Simpsons, Die - Das Spiel',
 
         # Sin & Punishment - Star Successor
         'Sin and Punishment - Successor of the Skies',
@@ -1601,15 +1740,29 @@ def wii_rename_list():
         # Summer Athletics - The Ultimate Challenge
         'Summer Athletics',
 
+        # Super Mario Galaxy
+        'Super Mario Wii - Galaxy Adventure', # (슈퍼 마리오 Ｗｉｉ 갤럭시 어드벤처)
+
+        # Super Smash Bros. Brawl
+        'Daenantu Smash Brothers X', # (대난투 스매시브라더스 X)
+
         # Super Swing Golf
         'Pangya! Golf with Style',
+
+        # Survivor - each of these probably has unique content based on their respective regions
+        # 'Expeditie Robinson',
+        # 'Isola dei Famosi, L\'',
+        # 'Koh-Lanta',
+        # 'Supervivientes',
 
         # Team Elimination Games
         'Knockout Party',
 
         # Think Logic Trainer
+        'Entraineur Cerebral et Sportif, L\'',
         'Think - Logic Trainer',
         'Think - Logik Trainer',
+        'Think - Train Je Brein',
 
         # TrackMania - Build to Race
         'TrackMania',
@@ -1620,8 +1773,19 @@ def wii_rename_list():
         # Victorious Boxers - Revolution
         'Victorious Boxers Challenge',
 
+        # Walt Disney Pictures Presents Meet the Robinsons
+        'Walt Disney Pictures Presents Lewis to Mirai Dorobou - Wilbur no Kiken na Jikan Ryokou', # (ルイスと未来泥棒~ウィルパーの危険な時間旅行~)
+
         # Wario Land - Shake it!
         'Wario Land - The Shake Dimension',
+        'Wario Land Shake', # (ワリオランドシェイク)
+        'Wario Land Shaking', # (와리오랜드 셰이킹)
+
+        # WarioWare - Smooth Moves
+        'Chumchwora Made in Wario', # (춤춰라 메이드 인 와리오)
+
+        # We Cheer 2
+        'We Cheer - Dancing Spirits!',
 
         # We Ski
         'Family Ski',
@@ -1631,6 +1795,12 @@ def wii_rename_list():
 
         # Where the Wild Things Are
         'Where the Wild Things Are - The Videogame',
+
+        # Wii Play
+        'Cheoeum Mannaneun Wii', # (처음　만나는　Ｗｉｉ)
+
+        # Wii Play - Motion
+        'Wii Remocon Plus', #
 
         # Winter Sports - The Ultimate Challenge
         'RTL Winter Sports 2008 - The Ultimate Challenge',
@@ -1642,6 +1812,9 @@ def wii_rename_list():
         # Winter Sports 3 - The Great Tournament
         'Winter Sports 2010 - The Great Tournament',
 
+        # Xenoblade Chronicles
+        'Xenoblade', # (ゼノブレイド)
+
         # Yogi Bear
         'Yogi Bear - The Video Game',
 
@@ -1650,6 +1823,9 @@ def wii_rename_list():
 
         # Yu-Gi-Oh! 5D's - Duel Transer
         'Yu-Gi-Oh! 5D\'s - Master of the Cards',
+
+        # Zack & Wiki - Quest for Barbaros' Treasure
+        'Zack &amp; Wiki - Barbarosui Bomul', # (잭&위키 ~발바로스의 보물~)
     ]
 
 # Nintendo Wii U
@@ -3063,7 +3239,7 @@ def ps2_rename_list():
         'ProStroke Golf',
 
         # Puyo Pop Fever
-        'Puyo Puyo Fever',
+        'Puyo Puyo Fever', # (ぷよぷよフィーバー)
 
         # Q-Ball - Billiards Master
         'Pool Master',
@@ -3673,7 +3849,7 @@ def psp_rename_list():
         'Pro Evolution Soccer 6',
 
         # Puyo Pop Fever
-        'Puyo Puyo Fever',
+        'Puyo Puyo Fever', # (ぷよぷよフィーバー)
 
         # R-Type Command
         'R-Type Tactics',
