@@ -250,8 +250,8 @@ def xbox_rename_list():
         # Kung Fu Chaos
         'Kung Fu Panic',
 
-        # Lemony Snicket&#x27;s A Series of Unfortunate Events
-        'Desastreuses Aventures des Orphelins Baudelaire, Les',
+        # Lemony Snicket's A Series of Unfortunate Events
+        'Desastreuses Aventures des Orphelins Baudelaire, Les - D\'Apres Lemony Snicket',
         'Lemony Snicket - Raetselhafte Ereignisse',
         'Una Serie de Catastroficas Desdichas de Lemony Snicket',
 
@@ -589,38 +589,162 @@ def pce_rename_list():
 # Nintendo GameCube
 def gamecube_rename_list():
     return [
+        # Compilations
+        '2 Games in 1 - Nickelodeon SpongeBob Schwammkopf - Der Film + Nickelodeon Tak 2 - Der Stab der Traeume',
+        '2 Games in 1 - Bob L\'eponge - Le Film + Tak 2 - Le Sceptre des Reves'
+        '2 Games in 1 - Nickelodeon SpongeBob Schwammkopf - Der Film + Nickelodeon SpongeBob Schwammkopf - Schlacht um Bikini Bottom',
+        '2 Games in 1 - Disney-Pixar Die Unglaublichen + Disney-Pixar Findet Nemo',
+        '2 Games in 1 - Disney-Pixar Les Indestructibles + Disney-Pixar Le Monde de Nemo',
+
+        # 007 - Agent Under Fire
+        '007 - Agent im Kreuzfeuer',
+        '007 - Espion pour Cible',
+
         # 007 - Everything or Nothing
+        '007 - Alles oder Nichts',
+        '007 - Quitte ou Double',
         '007 - Todo o Nada',
+
+        # 007 - From Russia With Love
+        '007 - Bons Baisers de Russie',
+        '007 - Liebesgruesse aus Moskau',
+
+        # 1080 Avalanche
+        '1080 Silver Storm',
+
+        # Action Replay Ultimate Cheats for Use with Pokemon Colosseum
+        'Action Replay Ultimate Cheats fuer Pokemon Colosseum',
+
+        # Action Replay Ultimate Codes for Use with Enter the Matrix
+        'Action Replay Ultimate Cheats fuer Enter the Matrix',
+
+        # Action Replay Ultimate Codes for Use with Final Fantasy - Crystal Chronicles
+        'Action Replay Ultimative Cheatcodes fuer Final Fantasy - Crystal Chronicles',
+
+        # Action Replay Ultimate Codes Max Pack
+        'Action Replay Ultimative Cheats Greatest Hits 2003',
+
+        # Amazing Island
+        'Kaijuu no Shima',
+
+        # Animal Crossing
+        'Doubutsu no Mori +',
+
+        # Auto Modellista
+        'Auto Modellista - U.S.-tuned',
 
         # Bad Boys - Miami Takedown
         'Bad Boys II',
 
+        # Baten Kaitos - Eternal Wings and the Lost Ocean
+        'Baten Kaitos - Owaranai Tsubasa to Ushinawareta Umi',
+
+        # Baten Kaitos Origins
+        'Baten Kaitos II - Hajimari no Tsubasa to Kamigami no Shishi',
+
+        # Barbarian isn't in Redump yet
+        # 'Warrior Blade - Rastan vs. Barbarian',
+
+        # Battalion Wars
+        'Totsugeki!! Famicom Wars',
+
+        # Billy Hatcher and the Giant Egg
+        'Giant Egg - Billy Hatcher no Daibouken',
+
+        # Bloody Roar - Primal Fury
+        'Bloody Roar',
+
+        # Buffy the Vampire Slayer - Chaos Bleeds
+        'Buffy contre les Vampires - Chaos Bleeds',
+        'Buffy im Bann der Daemonen - Chaos Bleeds',
+
         # Bust-A-Move 3000
         'Super Bust-A-Move All Stars',
+        'Super Puzzle Bobble All Stars',
 
         # Capcom vs. SNK 2 EO
         'Capcom vs. SNK 2 EO - Millionaire Fighting 2001',
 
+        # Chaos Field
+        'Chaos Field Expanded',
+
         # Chibi-Robo! Plug into adventure!
         'Chibi-Robo!',
+        'ChibiRobo!',
+
+        # Chronicles of Narnia, The - The Lion, the Witch and the Wardrobe
+        'Chroniken von Narnia, Die - Der Koenig von Narnia'
+        'Monde de Narnia, Le - Le Lion, la Sorciere et l\'Armoire Magique',
+
+        # Codename - Kids Next Door - Operation - V.I.D.E.O.G.A.M.E.
+        'Codename - Kids Next Door - Operation - V.I.D.E.O.S.P.I.E.L.',
 
         # Conflict - Desert Storm II - Back to Baghdad
         'Conflict - Desert Storm II',
+
+        # Crash Bandicoot - The Wrath of Cortex
+        'Crash Bandicoot 4 - Sakuretsu! Majin Power',
+
+        # Crash Nitro Kart
+        'Crash Bandicoot - Bakuso! Nitro Kart',
+
+        # Crash Tag Team Racing
+        'Crash Bandicoot - Gatchanko World',
+
+        # Cubivore - Survival of the Fittest
+        'Doubutsu Banchou',
+
+        # Custom Robo
+        'Custom Robo - Battle Revolution',
 
         # Dakar 2 - The World's Ultimate Rally
         'Dakar 2',
 
         # Dance Dance Revolution - Mario Mix
+        'Dance Dance Revolution with Mario',
         'Dancing Stage Mario Mix',
 
         # Defender
         'Defender - For All Mankind',
 
+        # Digimon Rumble Arena 2
+        'Digimon Battle Chronicle',
+
+        # Digimon World 4
+        'Digimon World X',
+
         # Disney-Pixar Finding Nemo
         'Disney-Pixar Buscando a Nemo',
+        'Disney-Pixar Findet Nemo',
+        'Disney-Pixar Le Monde de Nemo',
+
+        # Disney-Pixar The Incredibles
+        'Disney-Pixar Die Unglaublichen',
+        'Disney-Pixar Les Indestructibles',
+        'Disney-Pixar Mr. Incredible',
+
+        # Disney-Pixar The Incredibles - Rise of the Underminer
+        'Disney-Pixar Mr. Incredible - Kyouteki Underminder Toujou',
+
+        # Disney's Chicken Little
+        'Disney Chicken Little',
+        'Disneys Himmel und Huhn',
 
         # Disney's Donald Duck - Goin' Quackers
         'Disney\'s Donald Duck - Quack Attack',
+
+        # Disney's Hide and Seek
+        'Disney\'s Mickey to Minnie Trick & Chase',
+
+        # Disney's Magical Mirror Starring Mickey Mouse
+        'Disney\'s Mickey Mouse no Fushigi na Kagami',
+
+        # Disney's Party
+        'Disney no Magical Park',
+
+        # Disney's Piglet's Big Game
+        'Disney Les Aventures de Porcinet',
+        'Disneys Ferkels grosses Abenteuer-Spiel',
 
         # Disney's PK - Out of the Shadows
         'Disney\'s Donald Duck - Phantomias - Platyrhynchos Kineticus',
@@ -628,14 +752,46 @@ def gamecube_rename_list():
         # Disney's Tarzan - Untamed
         'Disney\'s Tarzan - Freeride',
 
+        # Disney Sports - Football
+        'Disney Sports - American Football',
+
+        # Donkey Konga 2
+        'Donkey Konga 2 - Hit Song Parade',
+
+        # Doshin the Giant
+        'Kyojin no Doshin',
+
         # Dragon's Lair 3D - Return to the Lair
         'Dragon\'s Lair 3D - Special Edition',
 
+        # Dragon Ball Z - Budokai
+        'Dragon Ball Z',
+
+        # Dreamworks Over the Hedge
+        'DreamWorks Ab durch die Hecke',
+        'DreamWorks Nos Voisins, les Hommes',
+
+        # DreamWorks Shark Tale
+        'DreamWorks Gang de Requins',
+        'DreamWorks Grosse Haie - Kleine Fische',
+
         # Egg Mania - Eggstreme Madness
+        'Egg Mania - Tsukande! Mawashite! Dossun Puzzle!!',
         'Eggo Mania',
 
         # ESPN International Winter Sports 2002
         'ESPN International Winter Sports',
+        'Hyper Sports 2002 Winter',
+
+        # Eternal Darkness - Sanity's Requiem
+        'Eternal Darkness - Manekareta 13-nin',
+
+        # Evolution Worlds
+        'Shinki Sekai Evolutia',
+
+        # Fantastic 4
+        '4 Fantastiques, Les',
+        'Fantastici 4, I',
 
         # FIFA Soccer 06
         'FIFA 06',
@@ -643,7 +799,11 @@ def gamecube_rename_list():
         # FIFA Soccer 07
         'FIFA 07',
 
+        # FIFA Soccer 2002
+        'FIFA 2002 - Road to FIFA World Cup',
+
         # FIFA Soccer 2003
+        'FIFA 2003',
         'FIFA Football 2003',
 
         # FIFA Soccer 2004
@@ -652,73 +812,296 @@ def gamecube_rename_list():
         # FIFA Soccer 2005
         'FIFA Football 2005',
 
+        # FIFA World Cup Germany 2006
+        'FIFA Fussball-Weltmeisterschaft Deutschland 2006',
+
+        # Fire Emblem - Path of Radiance
+        'Fire Emblem - Souen no Kiseki',
+
+        # Franklin - A Birthday Surprise isn't in Redump yet
+        # 'Franklin - Un anniversaire surprise',
+
         # Freestyle Street Soccer
         'Urban Freestyle Soccer',
 
+        # Frogger Beyond
+        'Frogger',
+
+        # Godzilla - Destroy All Monsters Melee
+        'Godzilla - Kaijuu Dairantou',
+
         # GoldenEye - Rogue Agent
         'GoldenEye - Agente Corrupto',
+        'GoldenEye - Dark Agent',
+
+        # Harry Potter and the Chamber of Secrets
+        'Harry Potter to Himitsu no Heiya',
 
         # Harry Potter and the Goblet of Fire
+        'Harry Potter e il Calice di Fuoco',
         'Harry Potter en de Vuurbeker',
+        'Harry Potter et la Coupe de Feu',
         'Harry Potter och den flammande baegaren',
+        'Harry Potter to Honoo no Goblet',
+        'Harry Potter und der Feuerkelch',
         'Harry Potter y el Caliz de Fuego',
 
         # Harry Potter and the Prisoner of Azkaban
+        'Harry Potter e il Prigioniero di Azkaban',
         'Harry Potter en de gevangene van Azkaban',
+        'Harry Potter et le Prisonnier d\'Azkaban'
         'Harry Potter och fangen fran Azkaban',
+        'Harry Potter to Azkaban no Shuujin',
+        'Harry Potter und der Gefangene von Askaban',
         'Harry Potter y el prisionero de Azkaban',
 
         # Harry Potter and the Sorcerer's Stone
         'Harry Potter and the Philosopher\'s Stone',
         'Harry Potter to Kenja no Ishi', # (ハリー・ポッターと賢者の石)
 
+        # Harvest Moon - A Wonderful Life
+        'Bokujou Monogatari - Wonderful Life',
+
+        # Harvest Moon - Another Wonderful Life
+        'Bokujou Monogatari - Wonderful Life for Girl',
+
+        # Harvest Moon - Magical Melody
+        'Bokujou Monogatari - Shiawase no Uta for World',
+
+        # Kirby Air Ride
+        'Kirby\'s Airride',
+
+        # Legend of Zelda, The - Collector's Edition
+        'Zelda Collection',
+
+        # Legend of Zelda, The - Four Swords Adventures
+        'Zelda no Densetsu - 4-tsu no Tsurugi+',
+
+        # Legend of Zelda, The - Ocarina of Time & Master Quest
+        'Zelda no Densetsu - Toki no Ocarina GC',
+
+        # Legend of Zelda, The - The Wind Waker
+        'Zelda no Densetsu - Kaze no Takuto',
+
+        # Legend of Zelda, The - Twilight Princess
+        'Zelda no Densetsu - Twilight Princess',
+
         # Lemony Snicket's A Series of Unfortunate Events
+        'Desastreuses Aventures des Orphelins Baudelaire, Les - D\'Apres Lemony Snicket',
+        'Lemony Snicket - Raetselhafte Ereignisse',
         'Una Serie de Catastroficas Desdichas de Lemony Snicket',
 
         # Lord of the Rings, The - The Return of the King
+        'Herr der Ringe, Der - Die Rueckkehr des Koenigs',
+        'Lord of the Rings - Ou no Kikan',
         'Senor de los Anillos, El - El Retorno del Rey',
+        'Seigneur des Anneaux, Le - Le Retour du Roi',
+        'Signore degli Anelli, Il - Il ritorno del Re',
 
         # Lord of the Rings, The - The Third Age
+        'Herr der Ringe, Der - Das dritte Zeitalter',
+        'Lord of the Rings - Nakatsu Kuni Daisanki',
+        'Seigneur des Anneaux, Le - Le Tiers Age',
         'Senor de los Anillos, El - La Tercera Edad',
 
         # Lord of the Rings, The - The Two Towers
+        'Herr der Ringe, Der - Die zwei Tuerme',
+        'Lord of the Rings - Futatsu no Tou',
+        'Seigneur des Anneaux, Le - Les Deux Tours',
         'Senor de los Anillos, El - Las Dos Torres',
+        'Signore degli Anelli, Il - Le Due Torri',
+
+        # Lost Kingdoms
+        'Rune',
+
+        # Lost Kingdoms II
+        'Rune II - Koruten no Kagi no Himitsu',
+
+        # Luigi's Mansion
+        'Luigi Mansion',
+
+        # Mario Golf - Toadstool Tour
+        'Mario Golf - Family Tour',
+
+        # Mario Power Tennis
+        'Mario Tennis GC',
+
+        # Mario Superstar Baseball
+        'Super Mario Stadium',
+
+        # Marvel Nemesis - Rise of the Imperfects
+        'Marvel Nemesis - L\'Avenement des Imparfaits',
+
+        # Medabots Infinity
+        'Medarot Brave',
+
+        # Medal of Honor - European Assault
+        'Medal of Honor - Europa Kyoushuu',
+        'Medal of Honor - Les Faucons de Guerre',
+
+        # Medal of Honor - Frontline
+        'Medal of Honor - En Premiere Ligne',
+
+        # Medal of Honor - Rising Sun
+        'Medal of Honor - Soleil Levant',
+
+        # Mega Man - Network Transmission
+        'Rockman EXE Transmission',
+
+        # Mega Man X - Command Mission
+        'Rockman X - Command Mission',
+
+        # Metroid Prime 2 - Echos
+        'Metroid Prime 2 - Dark Echoes',
+
+        # Minority Report - Everybody Runs
+        'Minority Report - Le Futur vous Rattrape',
+
+        # Monopoly Party
+        'Monopoly - Mezase!! Daifugou Jinsei!!',
+
+        # Mystic Heroes
+        'Battle Houshin',
 
         # Naruto - Clash of Ninja
         'Naruto - Clash of Ninja - European Version',
+        'Naruto - Gekitou Ninja Taisen!',
+
+        # Naruto - Clash of Ninja 2
+        'Naruto - Gekitou Ninja Taisen! 2',
+
+        # NBA Street V3
+        # 'NBA Street V3 - Mario de Dunk', # Unclear if the Redump version of NBA Street V3 is the one that includes Mario characters
 
         # Nickelodeon Avatar - The Last Airbender
         'Nickelodeon Avatar - The Legend of Aang',
 
+        # Nickelodeon Barnyard
+        'Tierisch verrueckte Bauernhof, Der',
+
+        # Nickelodeon Jimmy Neutron - Boy Genius
+        'Nickelodeon Jimmy Neutron - Der mutige Erfinder',
+
+        # Nickelodeon Rugrats - Royal Ransom
+        'Nickelodeon Les Razmoket - La Rancon Royale',
+
         # Nickelodeon SpongeBob SquarePants - Creature from the Krusty Krab
+        'Nickelodeon Bob L\'eponge - La Creature du Crabe Croustillant'
+        'Nick SpongeBob Schwammkopf - Die Kreatur aus der Krossen Krabbe',
         'Nickelodeon SpongeBob SquarePants - Creatuur van de Krokante Krab',
 
         # Nickelodeon SpongeBob SquarePants - Lights, Camera, Pants!
+        'Nickelodeon Bob L\'eponge - Silence on Tourne!',
+        'Nickelodeon SpongeBob Schwammkopf - Film ab!',
         'Nickelodeon SpongeBob SquarePants - Licht uit, Camera aan!',
+
+        # Nickelodeon SpongeBob SquarePants - The Movie
+        'Nickelodeon SpongeBob Schwammkopf - Der Film',
+
+        # Nickelodeon Tak - The Great Juju Challenge
+        'Tak & Le Pouvoir de Juju',
+        'Tak und die Macht des Juju',
+
+        # Nickelodeon Tak 2 - The Staff of Dreams
+        'Nickelodeon Tak 2 - Der Stab der Traeume',
+        'Nickelodeon Tak 2 - Le Sceptre des Reves',
 
         # Nicktoons Unite!
         'Nickelodeon SpongeBob SquarePants and Friends Unite!',
+
+        # Paper Mario - The Thousand-Year Door
+        'Paper Mario RPG',
+
+        # Pokemon Channel
+        'Pokemon Channel - Bangumi Kakuchou Pack',
+
+        # Pokemon Colosseum
+        'Pokemon Colosseum - Kakuchou Disc',
+        'Pokemon Colosseum - Nintendo Tokusei Disc',
+
+        # Pokemon XD - Gale of Darkness
+        'Pokemon XD - Yami no Kaze Dark Lugia',
+
+        # Power Rangers - Dino Thunder
+        'Power Rangers - Dino Tonnerre',
 
         # Puyo Pop Fever
         'Puyo Puyo Fever',
 
         # R-Racing Evolution
         'R-Racing',
+        'R-Racing Evolution - Life in the Fast Lane',
+
+        # Rave Master
+        'Groove Adventure Rave - Fighting Live',
 
         # RedCard 20-03
         'RedCard',
 
+        # Resident Evil
+        'Biohazard',
+
+        # Resident Evil - Code - Veronica X
+        'Biohazard - Code - Veronica - Kanzenban',
+
+        # Resident Evil 2
+        'Biohazard 2',
+
+        # Resident Evil 3 - Nemesis
+        'Biohazard 3 - Last Escape',
+
+        # Resident Evil 4
+        'Biohazard 4',
+
+        # Resident Evil Zero
+        'Biohazard Zero',
+
+        # Ribbit King
+        'Kero Kero King DX',
+
         # Road Trip - The Arcade Edition
+        'Choro Q!',
         'Gadget Racers',
+
+        # Scooby-Doo! Mystery Mayhem
+        'Scooby-Doo! Fluch der Folianten',
+        'Scooby-Doo! Le Livre des Tenebres',
+
+        # Scooby-Doo! Night of 100 Frights
+        'Scooby-Doo! La Nuit des 100 Frissons',
+        'Scooby-Doo! Nacht der 100 Schrecken',
+
+        # Shonen Jump's One Piece - Grand Battle
+        'One Piece - Grand Battle! Rush',
+
+        # Shonen Jump's One Piece - Pirates' Carnival
+        'One Piece - Pirates Carnival',
+
+        # Skies of Arcadia Legends
+        'Eternal Arcadia Legends',
 
         # Sonic Adventure DX - Director's Cut
         'Sonic Adventure DX',
 
         # Spirits & Spells
         'Castleween',
+        'Mahou no Pumpkin - An to Greg no Daibouken',
+
+        # SSX On Tour
+        'SSX On Tour with Mario',
+
+        # Star Wars - Rogue Squadron II - Rogue Leader
+        'Star Wars - Rogue Squadron II',
+
+        # Star Wars - Rogue Squadron III - Rebel Strike
+        'Star Wars - Rogue Squadron III',
 
         # Star Wars - The Clone Wars
+        'Star Wars - La Guerra dei Cloni',
         'Star Wars - Las Guerras Clon',
+
+        # Summoner - A Goddess Reborn
+        'Summoner - La Deesse Reincarnee',
 
         # Super Mario Strikers
         'Mario Smash Football',
@@ -728,21 +1111,57 @@ def gamecube_rename_list():
 
         # Swingerz Golf
         'Ace Golf',
+        'Wai Wai Golf',
 
         # TimeSplitters - Future Perfect
         'TimeSplitters - Futuro Perfecto',
 
+        # Top Gun - Combat Zones
+        'Top Gun - Ace of the Sky',
+
+        # Ultimate Codes for Use with The Legend of Zelda - The Wind Waker
+        'CD avec les Codes Action Replay Exclusivement pour le Jeu The Legend of Zelda - The Wind Waker',
+        'Ultimate Cheats fuer The Legend of Zelda - The Wind Waker',
+
+        # Ultimate Fighting Championship - Throwdown isn't in Redump yet
+        # 'UFC - Ultimate Fighting Championship 2 - Tapout - Final Spec',
+
+        # Ultimate Muscle - Legends vs. New Generation
+        'Kinnikuman Nisei - Shinsedai Choujin vs. Densetsu Choujin',
+
+        # Universal Studios Theme Park Adventure
+        'Universal Studios Japan Adventure',
+
+        # Viewtiful Joe - Red Hot Rumble
+        'Viewtiful Joe - Battle Carnival',
+
+        # Viewtiful Joe 2
+        'Viewtiful Joe 2 - Black Film no Nazo',
+
+        # Virtua Quest
+        'Virtua Fighter Cyber Generation',
+
         # Virtua Striker 2002
         'Virtua Striker 3 Ver. 2002',
 
+        # WarioWare, Inc. - Mega Party Game$!
+        'Atsumare!! Made in Wario',
+
         # WTA Tour Tennis
         'Pro Tennis WTA Tour',
+        'WTA Tour Tennis Pro Evolution',
 
         # X-Men Legends II - Rise of Apocalypse
         'X-Men Legends II - El Ascenso de Apocalipsis',
 
         # X2 - Wolverine's Revenge
         'X-Men 2 - Wolverine\'s Revenge',
+
+        # Yu-Gi-Oh! The Falsebound Kingdom
+        'Yu-Gi-Oh! Falsebound Kingdom',
+
+        # Zatch Bell! Mamodo Battles
+        'Konjiki no Gashbell!! Yuujou Tag Battle 2',
     ]
 
 # Nintendo Wii
