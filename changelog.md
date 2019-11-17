@@ -8,8 +8,8 @@
   larger than 0.99.
 - Now removes multi-region dupes (for example, **_Grim Fandango (USA)_**,
   **_Grim Fandango (USA, Europe)_**).
-- Massively expanded dupe list in _regional_renames.py to take into account
-  translated titles as a result of the above option.
+- Massively `_regional_renames.py` to take into account translated titles as a
+  result of the above option.
 - Moved Brazil and Latin America out of the native English list. Modern games
   from these regions aren't guaranteed to have an English translation.
 - Removed requirement for Logiqx doctype on input files, as some dats that
@@ -27,6 +27,10 @@
 - Reorganized `_regional_renames.py` to be master title above dupe titles,
   instead of an inline comment. It makes the file larger, but should make 1G1R
   dupe management easier later on.
+- Added title count to output file name.
+- The `-o` flag is no longer mandatory, and is now only used to define an
+  output folder. Output files are now automatically named.
+- Fixed missing title count when splitting dat into regions.
 
 # 0.34
 - Added textwrap module for better readability on MacOS/Linux.

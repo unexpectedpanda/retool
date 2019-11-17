@@ -44,8 +44,9 @@ output writes to the current folder.
 * `-a` Remove applications
 * `-d` Remove demos and coverdiscs
 * `-e` Remove educational
-* `-l` Remove alternate (Alt) titles
+* `-l` Remove titles with (Alt) tags
 * `-m` Remove multimedia
+* `-o` Set an output folder
 * `-p` Remove betas and prototypes
 * `-r` Split dat into regional dats
 * `-s` Split dat into regional dats, include all languages, titles, and dupes
