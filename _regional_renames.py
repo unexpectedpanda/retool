@@ -1213,6 +1213,9 @@ def wii_rename_list():
         # Battle of Giants - Dinosaurs Strike
         'Combat of Giants - Dinosaurs Strike',
 
+        # Battalion Wars 2
+        'Totsugeki!! Famicom Wars VS', # (突撃!! ファミコンウォーズ VS)
+
         # Beyblade - Metal Fusion - Battle Fortress
         'Beyblade - Metal Fusion - Counter Leone',
 
@@ -1715,6 +1718,9 @@ def wii_rename_list():
         # Score International Baja 1000 - The Official Game
         'Score International Baja 1000 - World Championship Off Road Racing',
 
+        # Sega Bass Fishing
+        'Uchi Tsuri! Sega Bass Fishing',
+
         # SimCity Creator
         'SimCity Namanui Dosi', # (심시티 나만의 도시)
 
@@ -1724,6 +1730,7 @@ def wii_rename_list():
 
         # Sin & Punishment - Star Successor
         'Sin and Punishment - Successor of the Skies',
+        'Tsumi to Batsu - Sora no Koukeisha', # (罪と罰 〜宇宙の後継者〜)
 
         # Sleepover Party
         'Girls Life - Sleepover Party',
@@ -1749,7 +1756,7 @@ def wii_rename_list():
         # Super Swing Golf
         'Pangya! Golf with Style',
 
-        # Survivor - each of these probably has unique content based on their respective regions
+        # Survivor - each of these might have unique content based on their respective regions
         # 'Expeditie Robinson',
         # 'Isola dei Famosi, L\'',
         # 'Koh-Lanta',

@@ -4,8 +4,8 @@
   titles.
 - You can now remove alternate (Alt) titles with the `-l` option.
 - Now removes titles that aren't the latest revisions or versions. This doesn't
-  cover [irrational versioning](https://www.mamedev.org/), like 0.100 being
-  larger than 0.99.
+  support release versioning, like 0.100 being larger than 0.99, however this
+  system generally isn't used for console titles.
 - Now removes multi-region dupes (for example, **_Grim Fandango (USA)_**,
   **_Grim Fandango (USA, Europe)_**).
 - Massively `_regional_renames.py` to take into account translated titles as a
