@@ -33,9 +33,6 @@ Or for the binary version:
 
 `retool  -i <input dat/folder> -o <output dat/folder> <options>`
 
-Input and output must both be files, or both be folders. Not setting a folder
-output writes to the current folder.
-
 **Note:** Some systems have the Python 3.x binary installed separately as
 `python3`. You might need to run this instead of `python`.
 
@@ -49,7 +46,7 @@ output writes to the current folder.
 * `-o` Set an output folder
 * `-p` Remove betas and prototypes
 * `-r` Split dat into regional dats
-* `-s` Split dat into regional dats, include all languages, titles, and dupes
+* `-s` Split dat into regional dats, include dupes
 
 ## How it works
 The input dat is split into regions, then each region is processed in a
@@ -103,7 +100,7 @@ Regions are parsed in the following order:
 1. Turkey
 1. Ukraine
 1. United Arab Emirates
-1. No region
+1. Unknown
 
 As the program progresses through the regions, `_regional_renames.py` is
 referenced to check if any titles in the current region are the same as
@@ -115,10 +112,13 @@ name, **_Dancing Stage Unleashed 3 (Europe)_** and
 ## FAQs
 #### How did you figure out what the dupes were?
 I went through each dat for games that weren't tagged as USA. I then used
-Wikipedia, Moby Games, YouTube, and good old web searching to turn up
-information. I went through Redump's site for Japanese and Chinese characters
-for the titles, so I could do translations and find out the equivalent English
-titles. Later in the process I discovered
+[Wikipedia](https://www.wikipedia.org),
+[Moby Games](https://www.mobygames.com),
+[Retroplace](https://www.retroplace.com), [YouTube](https://www.youtube.com),
+and good old web searching to turn up information. I went through Redump's
+site for Japanese and Chinese characters for the titles, so I could do
+translations and find out the equivalent English titles. Later in the process
+I discovered
 [FilterQuest](https://github.com/UnluckyForSome/FilterQuest), a similar tool,
 and added some missing titles from there.
 

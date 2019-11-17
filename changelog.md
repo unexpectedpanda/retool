@@ -1,4 +1,4 @@
-# 0.35
+# 0.40
 - It's now optional to filter by English titles, so you can identify all unique
   titles regardless of language. Use the `-en` option to only include English
   titles.
