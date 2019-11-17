@@ -1,5 +1,6 @@
 # Retool scans [Redump](http://redump.org/) dats, and attempts to
-# generate new dats without dupes. This is not an official Redump project.
+# generate new dats without dupes. Some call this 1G1R.  This is not an
+# official Redump project.
 #
 # Dependencies:
 # * bs4

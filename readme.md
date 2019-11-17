@@ -1,6 +1,6 @@
 # Retool
 Retool scans [Redump](http://redump.org/) dats, and attempts to generate new
-dats without dupes. This is not an official Redump project.
+dats without dupes. Some call this 1G1R. This is not an official Redump project.
 
 ## Installation
 If you don't know Python or don't want to deal with code, download the
