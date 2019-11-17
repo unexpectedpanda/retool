@@ -1,12 +1,68 @@
-# Last updated: 10 November 2019
+# Last updated: 17 November 2019
 # An exclusion list for when games are the same as the US version, just renamed for another region.
 
 # No alternative titles so far:
 # * Atari Jaguar
 # * Commodore Amiga CD
 # * Commodore Amiga CD 32
-# * NEC PC Engine CD & Turbo Grafx
 # * SNK Neo Geo CD
+
+# Apple Macintosh
+def mac_rename_list():
+    return [
+        # Atlantis - The Lost Tales isn't in Redump yet, may not have an English version
+        # 'Atlantis - Das sagenhafte Abenteuer',
+
+        # Daedalus Encounter, The isn't in Redump yet, may not have an English version
+        # 'Daedalus Encounter, The - Episode 1 - Nanpasen no Alien',
+
+        # Sims, The
+        'SimPeople',
+    ]
+
+# DVD-Video
+def dvd_video():
+    return[
+        # Biohazard 4 titles might be dupes for Resident Evil 4 titles
+
+        # Command & Conquer - The First Decade
+        'Command & Conquer - Die ersten 10 Jahre (Germany) (Bonus-DVD)',
+
+        # Fullmetal Alchemist
+        # Hagane no Renkinjutsushi - Hagaren Project Premium DVD # Uncertain this is the same title
+
+        # Final Fantasy XII
+        # 'Final Fantasy XII Archives & Final Fantasy 20th Anniversary DVD', # Uncertain this is the same title
+
+        # God of War II
+        # 'God of War II - Shuuen e no Jokyoku - Special Disc', # Uncertain this is the same title
+
+        # Halo 2 - Limited Collector's Edition Disc
+        # 'Halo 2 - Premium DVD', # Uncertain this is the same title
+
+        # Making of Gran Turismo 4, The
+        # 'Gran Turismo 4 - The Bible', # Uncertain this is the same title
+
+        # Making of Resident Evil 5, The
+        'Making of Resident Evil 5',
+
+        # Official Review of the 2000 FIA Formula One World Championship, The
+        'Rueckblick auf die FIA Formel-Eins-Weltmeisterschaft 2000',
+
+        # Resident Evil 5th Anniversary - Wesker&#x27;s Report
+        'Biohazard 5th Anniversary - Wesker\'s Report',
+
+        # Resident Evil Zero Non-Interactive Demo
+        # 'Biohazard Zero', # Uncertain this is the same title
+
+        # Super Mario Galaxy 2 for Beginners
+        'Hajimete no Super Mario Galaxy 2',
+
+        # 'Wiedzmin - Edycja Rozszerzona', # Uncertain this is the same title
+
+        # Witcher 2, The - Assassins of Kings
+        # 'Wiedzmin 2 - Zabojcy Krolow', # Uncertain this is the same title
+    ]
 
 # Microsoft Xbox
 def xbox_rename_list():
@@ -21,6 +77,9 @@ def xbox_rename_list():
         # Amped - Freestyle Snowboarding
         'Tenku - Freestyle Snowboarding',
 
+        # Amped 2
+        'Tenku 2',
+
         # Apex
         'Racing Evoluzione',
 
@@ -30,14 +89,27 @@ def xbox_rename_list():
         # Bad Boys - Miami Takedown
         'Bad Boys II',
 
+        # Beat Down - Fists of Vengeance
+        'Beat Down',
+
         # Big Mutha Truckers 2
         'Big Mutha Truckers 2 - Truck Me Harder',
+
+        # Black Stone - Magic & Steel
+        'Ex-Chaser',
 
         # Brian Lara International Cricket 2005
         'Ricky Ponting International Cricket 2005',
 
         # Capcom vs. SNK 2 EO
         'Capcom vs. SNK 2 EO - Mark of the Millennium 2001',
+
+        # Championship Manager 5
+        'Entraineur 5, L\' - Saison 04-05',
+        'Scudetto 5',
+
+        # Chronicles of Narnia, The - The Lion, the Witch and the Wardrobe
+        'Chroniken von Narnia, Die - Der Koenig von Narnia',
 
         # Conflict - Desert Storm II - Back to Baghdad
         'Conflict - Desert Storm II',
@@ -47,6 +119,15 @@ def xbox_rename_list():
 
         # Crazy Taxi 3 - High Roller
         'Crazy Taxi 3',
+
+        # Crash Bandicoot - The Wrath of Cortex
+        'Crash Bandicoot 4 - Sakuretsu! Majin Power',
+
+        # Crimson Sea
+        'Kurenai no Umi - Crimson Sea',
+
+        # Dai Senryaku VII - Modern Military Tactics
+        'Daisenryaku VII',
 
         # Dakar 2 - The World's Ultimate Rally
         'Dakar 2',
@@ -60,26 +141,54 @@ def xbox_rename_list():
         # Dance Dance Revolution Ultramix 3
         'Dancing Stage Unleashed 3',
 
+        # Digimon Rumble Arena 2
+        'Digimon Battle Chronicle',
+
+        # Digimon World 4
+        'Digimon World X',
+
+        # Disney-Pixar The Incredibles
+        'Disney-Pixar Die Unglaublichen',
+        'Disney-Pixar Gli Incredibili',
+        'Disney-Pixar Los Increibles',
+        'Disney-Pixar Mr. Incredible',
+
+        # Disney's Chicken Little
+        'Disneys Himmel und Huhn',
+
         # Dr. Seuss' The Cat in the Hat
         'Cat in the Hat, The',
 
+        # Dynasty Warriors 3
+        'Shin Sangoku Musou 2',
+
         # Dynasty Warriors 4
+        'Shin Sangoku Musou 3',
+
+        # Dynasty Warriors 5
         'Shin Sangoku Musou 4',
 
         # Egg Mania - Eggstreme Madness
+        'Egg Mania - Tsukande! Mawashite! Dossun Puzzle!!',
         'Eggo Mania',
 
         # ESPN International Winter Sports 2002
         'ESPN International Winter Sports',
+        'Hyper Sports 2002 Winter',
 
         # Fahrenheit
         'Indigo Prophecy', # The USA version is censored, so the European version is preferenced
 
+        # Fantastic 4
+        'Fantastici 4, I',
+
         # Fatal Frame
+        'Fatal Frame - Zero Special Edition',
         'Project Zero',
 
         # Fatal Frame II - Crimson Butterfly - Director's Cut
         'Project Zero II - Crimson Butterfly - Director\'s Cut',
+        'Fatal Frame II - Crimson Butterfly',
 
         # FIFA Soccer 06
         'FIFA 06',
@@ -102,37 +211,164 @@ def xbox_rename_list():
         # Freestyle Street Soccer
         'Urban Freestyle Soccer',
 
+        # Gladiator - Sword of Vengeance
+        'Gladiator - Schwert der Rache',
+
+        # Godfather, The
+        'Parrain, Le',
+        'Padrino, El',
+        'Padrino, Il',
+
+        # GoldenEye - Rogue Agent
+        'GoldenEye - Agente Corrupto',
+        'GoldenEye - Au Service du Mal',
+
+        # Group S Challenge
+        'Circus Drive',
+
+        # Guilty Gear X2 Reload - The Midnight Carnival
+        'Guilty Gear XX Reload - The Midnight Carnival',
+
+        # Halo - Combat Evolved
+        'Halo',
+
         # Harry Potter and the Sorcerer's Stone
         'Harry Potter and the Philosopher\'s Stone',
+
+        # Hello Kitty - Roller Rescue
+        'Hello Kitty - Mission Rescue',
+
+        # Hitman 2 - Silent Assassin
+        'Hitman - Silent Assassin',
+
+        # Jade Empire
+        'Jade Empire - Hisui no Teikoku',
+
+        # Kabuki Warriors
+        'Zan Kabuki',
+
+        # Kung Fu Chaos
+        'Kung Fu Panic',
+
+        # Lemony Snicket&#x27;s A Series of Unfortunate Events
+        'Desastreuses Aventures des Orphelins Baudelaire, Les',
+        'Lemony Snicket - Raetselhafte Ereignisse',
+        'Una Serie de Catastroficas Desdichas de Lemony Snicket',
+
+        # LMA Manager 2003
+        'BDFL Manager 2003',
+        'Football Manager Campionato 2003',
+        'Manager de Liga 2003',
+
+        # LMA Manager 2004
+        'BDFL Manager 2004',
+        'Football Manager Campionato 2004',
+        'Manager de Liga 2004',
+
+        # LMA Manager 2005
+        'BDFL Manager 2005',
+        'Football Manager Campionato 2005',
+        'Manager de Liga 2005',
+
+        # Lord of the Rings, The - The Return of the King
+        'Herr der Ringe, Der - Die Rueckkehr des Koenigs',
+        'Seigneur des Anneaux, Le - Le Retour du Roi',
+        'Senor de los Anillos, El - El Retorno del Rey',
+        'Signore degli Anelli, Il - Il ritorno del Re',
+
+        # Lord of the Rings, The - The Third Age
+        'Herr der Ringe, Der - Das dritte Zeitalter',
+        'Seigneur des Anneaux, Le - Le Tiers Age',
+        'Senor de los Anillos, El - La Tercera Edad',
+        'Signore degli Anelli, Il - La Terza Era',
+
+        # Medal of Honor - Frontline
+        'Medal of Honor - En Premiere Ligne',
+
+        # Medal of Honor - Rising Sun
+        'Medal of Honor - Soleil Levant',
+
+        # Minority Report - Everybody Runs
+        'Minority Report - Le Futur vous Rattrape',
 
         # MTV Music Generator 3 - This Is the Remix'
         'MTV Music Generator 3',
 
+        # Murakumo - Renegade Mech Pursuit
+        'Murakumo',
+
+        # Nickelodeon SpongeBob SquarePants - The Movie
+        'Nickelodeon SpongeBob Schwammkopf - Der Film',
+
         # Nickelodeon Tak - The Great Juju Challenge
         'Nickelodeon Tak - Die grosse Juju-Jagd',
 
+        # Oddworld - Stranger's Wrath
+        'Oddworld - La Fureur de l\'Etranger',
+        'Oddworld - Strangers Vergeltung',
+
+        # Otogi - Myth of Demons
+        'Otogi',
+
+        # Otogi 2 - Immortal Warriors
+        'Otogi - Hyakki Toubatsu Emaki',
+
         # Power Drome
         'Powerdrome',
+
+        # Prince of Persia - Warrior Within
+        'Prince of Persia - Kenshi no Kokoro',
 
         # Pro Race Driver
         'DTM Race Driver - Director\'s Cut',
         'TOCA Race Driver',
         'V8 Supercars Australia - Race Driver',
 
+        # Project Gotham Racing
+        'Project Gotham - World Street Racer',
+
         # Puyo Pop Fever
         'Puyo Puyo Fever',
 
+        # Quantum Redshift
+        'Quantum Redshift - Chou Kousoku Kuukan Battle Race',
+
         # R-Racing
         'R-Racing Evolution',
+        'R-Racing Evolution - Life in the Fast Lane',
 
         # RedCard 20-03
         'RedCard',
 
+        # Samurai Warriors
+        'Sengoku Musou',
+
         # Silent Hill 2 - Restless Dreams
         'Silent Hill 2 - Inner Fears',
+        'Silent Hill 2 - Saigo no Uta',
+
+        # Sneakers
+        'Nezmix',
 
         # Star Wars - Episode III - Revenge of the Sith
         'Star Wars - Episode III - Die Rache der Sith',
+        'Star Wars - Episode III - La Revanche des Sith',
+
+        # Star Wars - Knights of the Old Republic
+        'Star Wars - Caballeros de la Antigua Republica',
+
+        # Star Wars - The Clone Wars
+        'Star Wars - La Guerra dei Cloni',
+        'Star Wars - Las Guerras Clon',
+
+        # Steel Battalion
+        'Tekki',
+
+        # Sudeki
+        'Sudeki - Sennen no Akatsuki no Monogatari',
+
+        # Tenchu - Return from Darkness
+        'Tenchu 3 - Kaiki no Shou',
 
         # Test Drive
         'TD Overdrive - The Brotherhood of Speed',
@@ -154,6 +390,12 @@ def xbox_rename_list():
         # Top Gear - RPM Tuning
         'RPM Tuning',
 
+        # UFC - Ultimate Fighting Championship - Tapout 2
+        'UFC - Ultimate Fighting Championship 2 - Tapout',
+
+        # Ultra Bust-A-Move
+        'Ultra Puzzle Bobble',
+
         # WinBack 2 - Project Poseidon
         'Operation WinBack 2 - Project Poseidon',
 
@@ -166,21 +408,43 @@ def xbox_rename_list():
         # World Soccer Winning Eleven 9
         'Pro Evolution Soccer 5',
 
+        # Wreckless - The Yakuza Missions
+        'Wreckless - Mission Yakusas',
+
         # WTA Tour Tennis
         'Pro Tennis WTA Tour',
+        'WTA Tour Tennis Pro Evolution'
 
         # WWF Raw
         'WWE Raw',
+
+        # XIII
+        'XIII - Daitouryou o Koroshita Otoko',
     ]
 
 # Microsoft Xbox 360
 def x360_rename_list():
     return [
+        # 2014 FIFA World Cup Brazil
+        'Copa do Mundo da FIFA Brasil 2014',
+
         # Beautiful Katamari
         'Beautiful Katamari Damacy',
 
         # Bioshock - Ultimate Rapture Edition
         'BioShock',
+
+        # Borderlands - Game of the Year Edition
+        'Borderlands - Add-On Doppelpack',
+
+        # Earth Defense Force 2017
+        'Chikyuu Boueigun 3',
+
+        # Earth Defense Force 2025
+        'Chikyuu Boueigun 4',
+
+        # Elder Scrolls IV, The - Oblivion
+        'Elder Scrolls IV, The - Oblivion - Jubilaeumsausgabe',
 
         # FIFA 06 - Road to FIFA World Cup
         'FIFA World Cup Germany 2006',
@@ -195,6 +459,7 @@ def x360_rename_list():
         'FIFA 09',
 
         # FIFA Soccer 10
+        '2010 FIFA World Cup - Minami Africa Taikai',
         'FIFA 10',
 
         # FIFA Soccer 11
@@ -202,15 +467,43 @@ def x360_rename_list():
 
         # FIFA Soccer 12
         'FIFA 12',
+        'FIFA 12 - World Class Soccer',
 
         # FIFA Soccer 13
         'FIFA 13',
+
+        # Magna Carta II
+        'Magnacarta II'
+
+        # Metal Gear Solid - HD Collection
+        'Metal Gear Solid - HD Edition',
+
+        # PES 2009 - Pro Evolution Soccer
+        'World Soccer Winning Eleven 2009',
+
+        # PES 2010 - Pro Evolution Soccer
+        'World Soccer Winning Eleven 2010',
 
         # Project Sylpheed - Arc of Deception
         'Project Sylpheed',
 
         # Sonic's Ultimate Genesis Collection
         'Sega Mega Drive Ultimate Collection',
+
+        # Scene It Bright Lights! Big Screen!
+        'Scene It Ganz grosses Kino!',
+
+        # Scene It Box Office Smash!
+        'Scene It Kinohits',
+
+        # South Park - The Stick of Truth
+        'South Park - Der Stab der Wahrheit',
+
+        # Transformers - Revenge of the Fallen
+        'Transformers - Die Rache',
+
+        # Transformers - War for Cybertron
+        'Transformers - Kampf um Cybertron',
 
         # Winning Eleven - Pro Evolution Soccer 2007
         'Pro Evolution Soccer 6',
@@ -222,13 +515,83 @@ def xbone_rename_list():
         # Disney Infinity 2.0 Edition
         'Disney Infinity 2.0 - Play Without Limits',
 
+        # Evil Within, The
+        'Psycho Break',
+
         # Killer Instinct (Definitive Edition)
         'Killer Instinct - Combo Breaker Pack',
+
+        # PES 2015 - Pro Evolution Soccer
+        'World Soccer Winning Eleven 2015',
+    ]
+
+# NEC PC Engine CD & TurboGrafx CD
+def pce_rename_list():
+    return[
+        # Buster Bros
+        'Pomping World',
+
+        # Cosmic Fantasy 2
+        'Cosmic Fantasy 2 - Bouken Shounen Ban',
+
+        # Exile
+        'Exile - Toki no Hasama e',
+
+        # Exile - Wicked Phenomenon
+        'Exile II - Janen no Jishou',
+
+        # Godzilla
+        'Godzilla Bakutou Retsuden',
+
+        # J. B. Harold Murder Club
+        'J. B. Harold Series 1 - Murder Club',
+
+        # Jack Nicklaus Turbo Golf
+        'Jack Nicklaus\' World Tour Golf - 162 Holes',
+
+        # Last Alert
+        'Red Alert',
+
+        # Lords of the Rising Sun
+        'Rising Sun',
+
+        # Lords of Thunder
+        'Winds of Thunder',
+
+        # Magical Dinosaur Tour
+        'Magical Saurus Tour',
+
+        # Monster Lair
+        'Wonder Boy III - Monster Lair',
+
+        # Riot Zone
+        'Ookami-teki Monshou - Crest of Wolf',
+
+        # Shadow of the Beast
+        'Shadow of the Beast - Mashou no Okite',
+
+        # Sherlock Holmes - Consulting Detective - Volume 2
+        'Sherlock Holmes - Consulting Detective Vol. II',
+
+        # Splash Lake
+        'Splash Lake - Ostrich Daibouken',
+
+        # Super Air Zonk - Rockabilly-Paradise
+        'CD Denjin - Rockabilly Tengoku',
+
+        # Ys Book I & II
+        'Ys I & II',
+
+        # Ys III - Wanderers from Ys
+        'Ys III',
     ]
 
 # Nintendo GameCube
 def gamecube_rename_list():
     return [
+        # 007 - Everything or Nothing
+        '007 - Todo o Nada',
+
         # Bad Boys - Miami Takedown
         'Bad Boys II',
 
@@ -252,6 +615,9 @@ def gamecube_rename_list():
 
         # Defender
         'Defender - For All Mankind',
+
+        # Disney-Pixar Finding Nemo
+        'Disney-Pixar Buscando a Nemo',
 
         # Disney's Donald Duck - Goin' Quackers
         'Disney\'s Donald Duck - Quack Attack',
@@ -289,15 +655,46 @@ def gamecube_rename_list():
         # Freestyle Street Soccer
         'Urban Freestyle Soccer',
 
+        # GoldenEye - Rogue Agent
+        'GoldenEye - Agente Corrupto',
+
+        # Harry Potter and the Goblet of Fire
+        'Harry Potter en de Vuurbeker',
+        'Harry Potter och den flammande baegaren',
+        'Harry Potter y el Caliz de Fuego',
+
+        # Harry Potter and the Prisoner of Azkaban
+        'Harry Potter en de gevangene van Azkaban',
+        'Harry Potter och fangen fran Azkaban',
+        'Harry Potter y el prisionero de Azkaban',
+
         # Harry Potter and the Sorcerer's Stone
         'Harry Potter and the Philosopher\'s Stone',
         'Harry Potter to Kenja no Ishi', # (ハリー・ポッターと賢者の石)
+
+        # Lemony Snicket's A Series of Unfortunate Events
+        'Una Serie de Catastroficas Desdichas de Lemony Snicket',
+
+        # Lord of the Rings, The - The Return of the King
+        'Senor de los Anillos, El - El Retorno del Rey',
+
+        # Lord of the Rings, The - The Third Age
+        'Senor de los Anillos, El - La Tercera Edad',
+
+        # Lord of the Rings, The - The Two Towers
+        'Senor de los Anillos, El - Las Dos Torres',
 
         # Naruto - Clash of Ninja
         'Naruto - Clash of Ninja - European Version',
 
         # Nickelodeon Avatar - The Last Airbender
         'Nickelodeon Avatar - The Legend of Aang',
+
+        # Nickelodeon SpongeBob SquarePants - Creature from the Krusty Krab
+        'Nickelodeon SpongeBob SquarePants - Creatuur van de Krokante Krab',
+
+        # Nickelodeon SpongeBob SquarePants - Lights, Camera, Pants!
+        'Nickelodeon SpongeBob SquarePants - Licht uit, Camera aan!',
 
         # Nicktoons Unite!
         'Nickelodeon SpongeBob SquarePants and Friends Unite!',
@@ -320,6 +717,9 @@ def gamecube_rename_list():
         # Spirits & Spells
         'Castleween',
 
+        # Star Wars - The Clone Wars
+        'Star Wars - Las Guerras Clon',
+
         # Super Mario Strikers
         'Mario Smash Football',
 
@@ -329,11 +729,17 @@ def gamecube_rename_list():
         # Swingerz Golf
         'Ace Golf',
 
+        # TimeSplitters - Future Perfect
+        'TimeSplitters - Futuro Perfecto',
+
         # Virtua Striker 2002
         'Virtua Striker 3 Ver. 2002',
 
         # WTA Tour Tennis
         'Pro Tennis WTA Tour',
+
+        # X-Men Legends II - Rise of Apocalypse
+        'X-Men Legends II - El Ascenso de Apocalipsis',
 
         # X2 - Wolverine's Revenge
         'X-Men 2 - Wolverine\'s Revenge',

@@ -19,7 +19,7 @@ import _regional_renames # Duplicate image titles that have different names in d
 # Require at least Python 3.5
 assert sys.version_info >= (3, 5)
 
-version_number = '0.35'
+version_number = '0.40'
 
 def main():
     # Initial splash screen
@@ -165,7 +165,6 @@ if 'retool.py' in sys.argv[0]:
     command = 'python '
 def error_instruction():
     print('\nUSAGE:\n ' + font.bold + command + os.path.basename(sys.argv[0]) + ' -i ' + font.end + '<input dat/folder> <options>\n')
-    print(textwrap.TextWrapper(width=70, subsequent_indent='   ').fill('\n\n Input and output must both be files, or both be folders. Not setting a folder output writes to the current folder.'))
     print('\nOPTIONS:')
     print(font.bold + ' -en' + font.end + '  Only include English titles')
     # print(font.bold + ' -1' + font.end + '   Create 1G1R dat (-a -d -e -l -m -o -p)')
@@ -177,7 +176,7 @@ def error_instruction():
     print(font.bold + ' -o' + font.end + '   Set an output folder')
     print(font.bold + ' -p' + font.end + '   Remove betas and prototypes')
     print(font.bold + ' -r' + font.end + '   Split dat into regional dats')
-    print(font.bold + ' -s' + font.end + '   Split dat into regional dats, include all languages,\n      titles, and dupes\n')
+    print(font.bold + ' -s' + font.end + '   Split dat into regional dats, include dupes\n')
     sys.exit()
 
 # Check user input
@@ -346,9 +345,9 @@ def header(dat_name, dat_version, dat_author, dat_url, dat_header_exclusion, reg
         description = '\n\t\t<description>' + dat_name + english_status + dat_header_exclusion + ' (' + new_title_count + ') (' + dat_version + ')' + '</description>'
 
     if dat_author != '':
-        dat_author = dat_author + ' & Retool'
+        dat_author = dat_author + ' &amp; Retool'
     else:
-        dat_author = 'Unknown & Retool'
+        dat_author = 'Unknown &amp; Retool'
 
     header = ['<?xml version="1.0"?>',
         '\n<!DOCTYPE datafile PUBLIC "-//Logiqx//DTD ROM Management Datafile//EN" "http://www.logiqx.com/Dats/datafile.dtd">',
@@ -823,9 +822,12 @@ def process_dats(user_input, region_list_english, region_list_other, is_folder):
     # Set up dupe lists for titles that have the same content, but different names in different regions
     dupe_list = []
 
+    if dat_name == 'Apple - Macintosh': dupe_list = _regional_renames.mac_rename_list()
+    if dat_name == 'DVD-Video': dupe_list = _regional_renames.dvd_video_rename_list()
     if dat_name == 'Microsoft - Xbox': dupe_list = _regional_renames.xbox_rename_list()
     if dat_name == 'Microsoft - Xbox 360': dupe_list = _regional_renames.x360_rename_list()
     if dat_name == 'Microsoft - Xbox One': dupe_list = _regional_renames.xbone_rename_list()
+    if dat_name == 'NEC - PC Engine CD & TurboGrafx CD': dupe_list = _regional_renames.pce_rename_list()
     if dat_name == 'Nintendo - GameCube': dupe_list = _regional_renames.gamecube_rename_list()
     if dat_name == 'Nintendo - Wii': dupe_list = _regional_renames.wii_rename_list()
     if dat_name == 'Nintendo - Wii U': dupe_list = _regional_renames.wii_u_rename_list()
