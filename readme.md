@@ -115,10 +115,11 @@ I went through each dat for games that weren't tagged as USA. I then used
 [Wikipedia](https://www.wikipedia.org),
 [Moby Games](https://www.mobygames.com),
 [Retroplace](https://www.retroplace.com), [GameTDB](https://www.gametdb.com),
-[VDGB](https://vgdb.io), [YouTube](https://www.youtube.com), and good old web
-searching to turn up information. I went through Redump's site for Japanese and
-Chinese characters for the titles, so I could do translations and find out the
-equivalent English titles. Later in the process I discovered
+[VDGB](https://vgdb.io), [YouTube](https://www.youtube.com),
+[Amazon.jp](https://www.amazon.co.jp) and good old web searching to turn up
+information. I went through Redump's site for Japanese and Chinese characters
+for the titles, so I could do translations and find out the equivalent English
+titles. Later in the process I discovered
 [FilterQuest](https://github.com/UnluckyForSome/FilterQuest), a similar tool,
 and added some missing titles from there.
 
