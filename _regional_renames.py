@@ -2939,8 +2939,15 @@ def saturn_rename_list():
         # Sega Worldwide Soccer '97
         'Sega Worldwide Soccer 97',
 
+        # Shanghai - Triple-Threat
+        'Shanghai - Banri no Choujou - The Great Wall', # (上海　～万里の長城～)
+
         # Shinobi Legions
+        'Shin Shinobi Den', # (新忍伝)
         'Shinobi-X - Shin Shinobi Den',
+
+        # Shining Force III
+        'Shining Force III - Scenario 1 - Outo no Kyoshin', # (シャイニング・フォースⅢ　シナリオ１　～王都の巨神～)
 
         # Solar Eclipse
         'Titan Wars',
@@ -2951,14 +2958,40 @@ def saturn_rename_list():
         # Star Fighter
         'StarFighter 3000',
 
+        # Street Fighter - The Movie
+        'Street Fighter - Real Battle on Film', # (ストリート・ファイターⅡ　ムービー)
+
+        # Street Fighter Alpha - Warriors' Dreams
+        'Street Fighter Zero', # (ストリート・ファイター ZERO)
+
+        # Street Fighter Alpha 2
+        'Street Fighter Zero 2', # (ストリート・ファイター ZERO 2)
+
         # Street Racer
         'Street Racer Extra', # (ストリート・レーサー・エクストラ)
 
+        # Super Puzzle Fighter II Turbo
+        'Super Puzzle Fighter II X', # (スーパー・パズル・ファイターIIX)
+
+        # Theme Park
+        'Shin Theme Park', # (新　テーマ・パーク)
+
         # Thunderstrike 2
         'Firestorm - Thunderhawk 2',
+        'Thunderhawk II', # (サンダーホークII)
 
         # TNN Motorsports HardCore 4x4
+        'Deka Yonku - Tough the Truck', # (デカ4駆　～タフ・ザ・トラック～)
         'Hardcore 4x4',
+
+        # True Pinball
+        'Tekkyuu - True Pinball', # (鉄球　トゥルー・ピンボール)
+
+        # Tunnel B1
+        '3D Mission Shooting - Finalist', # (3D ミッション・シューティング　～ファイナリスト～)
+
+        # Valora Valley Golf
+        'Hyper Golf, The - Devil\'s Course', # (ザ・ハイパー・ゴルフ　～デビルズ・コース～)
 
         # Virtua Fighter CG Portrait Collection
         'Virtua Fighter CG Portrait Series - The Final - Dural', # (バーチャ・ファイター　CGポートレート・シリーズ The Final) 「デュラル」
@@ -2976,17 +3009,28 @@ def saturn_rename_list():
         # Virtual Golf
         'Tournament Leader', # (トーナメント・リーダー)
 
+        # Virtual On Cyber Troopers
+        'Dennou Senki - Virtual On - Cyber Troopers', # (電脳戦機バーチャロン)
+        'Dennou Senki - Virtual On - Cyber Troopers for SegaNet', # (電脳戦機バーチャロン　フォー　セガネット)
+
         # VR Golf '97
         'Actua Golf',
 
         # VR Soccer
+        'Actua Soccer', # (アクチャー・サッカー)
         'Actua Soccer - Club Edition',
+
+        # Wing Arms
+        'Wing Arms - Kareinaru Gekitsuiou', # (ウイング・アームズ　～華麗なる撃墜王～)
 
         # WipEout 2097
         'Wipeout XL', # (ワイプアウト XL)
 
         # World Cup Golf - Professional Edition
-        'World Cup Golf - In Hyatt Dorado Beach',
+        'World Cup Golf - In Hyatt Dorado Beach', # (ワールド・カップ・ゴルフ　～イン・ハイアット・ドラドビーチ～)
+
+        # World Series Baseball
+        'Hideo Nomo World Series Baseball', # (野茂英雄ワールド・シリーズ・ベースボール)
 
         # Worldwide Soccer '98
         'Sega Worldwide Soccer \'98 - Club Edition',
