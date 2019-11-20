@@ -1451,7 +1451,7 @@ def wii_rename_list():
         'Forever Blue Umi no Yobigoe', # (FOREVER BLUE 海の呼び声)
 
         # Escape from Bug Island
-        'Necro Nesia'. # (ネクロネシア)
+        'Necro Nesia', # (ネクロネシア)
 
         # Exerbeat
         'ExerBeat - Gym Class Workout',
@@ -2389,6 +2389,51 @@ def threedo_rename_list():
 
         # Twisted - The Game Show
         'Twisted', # (ツイステッド)
+    ]
+
+# Philips - CD-i
+def cdi_rename_list():
+    return [
+        # Asterix - El Desafio de Cesar -- preferencing Spanish here over other languages.
+        'Asterix - De Uitdaging van Caesar',
+        'Asterix - Die grosse Reise',
+        'Asterix - El Desafio de Cesar',
+        'Asterix - La Sfida de Cesar',
+        'Asterix - Le Defi de Cesar',
+
+        # Berenstain Bears, The - On Their Own
+        'Berenstain Bears, The - Bij de Berenstain Beren Thuis - Thuis en bij Jou (Netherlands)',
+
+        # Dictionnaire Hachette Multimedia -- preferencing French here over other languages
+        'Dizionario Universale Multimediale Grolier Hachette',
+
+        # Harvest Of The Sun - Van Gogh - Une Moisson de Soleils -- preferencing French here over other languages.
+        'Raccolto del Sole, Il - Van Gogh',
+        'Oogst van de Zon',
+
+        # Jigsaw - The Ultimate Electronic Puzzle
+        'Jigsaw - Das elektronische Puzzlespiel',
+
+        # Palm Springs Open, The
+        'L\'Open de Palm Springs',
+
+        # Rinascimento a Firenze, Il -- preferencing Italian here over other languages
+        'Renaissance van Florence, De',
+
+        # Scotland Yard Interactif -- preferencing French here over other languages
+        'Scotland Yard Interactive', # Despite the English title, is German
+
+        # St. Petersbourg et les Tresors de l'Ermitage - The Art of the Czars
+        # 'Kunstschatten van Rusland, De', # These are probably dupes, but not 100% sure
+
+        # Video Speedway - The Ultimate Racing Experience
+        'Video Speedway - Grand Prix',
+
+        # Ville Surprise de Richard Scarry 1, La -- preferencing French here over other languages
+        'Richard Scarry\'s Allerdrukste Buurt Disc!',
+
+        # Voyeur ...Don't Get Caught
+        'Voyeur ...lass Dich nicht erwischen!',
     ]
 
 # Sega CD/Sega Mega CD

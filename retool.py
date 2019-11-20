@@ -833,6 +833,7 @@ def process_dats(user_input, region_list_english, region_list_other, is_folder):
     if dat_name == 'Nintendo - Wii': dupe_list = _regional_renames.wii_rename_list()
     if dat_name == 'Nintendo - Wii U': dupe_list = _regional_renames.wii_u_rename_list()
     if dat_name == 'Panasonic - 3DO Interactive Multiplayer': dupe_list = _regional_renames.threedo_rename_list()
+    if dat_name == 'Philips - CD-i': dupe_list = _regional_renames.cdi_rename_list()
     if dat_name == 'Sega - Dreamcast': dupe_list = _regional_renames.dreamcast_rename_list()
     if dat_name == 'Sega - Mega CD & Sega CD': dupe_list = _regional_renames.segacd_rename_list()
     if dat_name == 'Sega - Saturn': dupe_list = _regional_renames.saturn_rename_list()
