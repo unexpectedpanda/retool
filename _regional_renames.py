@@ -2479,42 +2479,121 @@ def dreamcast_rename_list():
         # Bangai-O
         'Bakuretsu Muteki Bangaioh', # (爆裂無敵バンガイオー)
 
+        # Bust-A-Move 4
+        'Puzzle Bobble 4', # (パズルボブル4)
+
+        # Cannon Spike
+        'Gunspike', # (ガンスパイク)
+
         # Capcom vs. SNK
         'Capcom vs. SNK - Millennium Fight 2000', # (カプコンバーサスエスエヌケイ ミレニアムファイト 2000)
 
         # ChuChu Rocket!
         'Chu-Chu Rocket!', # (チューチューロケット！)
 
+        # Coaster Works
+        'Jet Coaster Dream', # (ジェットコースタードリーム)
+
+        # Cyber Troopers - Virtual-On - Oratorio Tangram
+        'Dennou Senki - Virtual-On - Oratorio Tangram', # (電脳戦機バーチャロン　オラトリオ・タングラム)
+
+        # Dead or Alive 2, Fur Fighters
+        'Fur Fighters + Dead or Alive 2',
+
+        # D2
+        'D2 Shock', # (Dの食卓2)
+        'D2 - D no Shokutaku 2', # (Dの食卓2)
+
         # Daytona USA
         'Daytona USA 2001',
 
-        # Disney's Donald Duck - Goin' Quackers isn't in Redump yet
-        # 'Disney\'s Donald Duck - Quack Attack',
+        # Disney-Pixar Buzz Lightyear of Star Command
+        'Disney-Pixar Captain Buzz Lightyear - Star Command',
+        'Disney-Pixar Les Aventures de Buzz L\'Eclair',
+
+        # Disney-Pixar Toy Story 2 - Buzz Lightyear to the Rescue!
+        'Disney-Pixar Toy Story 2 - Buzz l\'Eclair a la Rescousse!',
+        'Disney-Pixar Toy Story 2 - Buzz Lightyear eilt zur Hilfe!',
+
+        # Disney's Donald Duck - Goin' Quackers
+        'Disney\'s Donald Duck - Quack Attack',
 
         # Draconus - Cult of the Wyrm
         'Dragons Blood',
+
+        # Dreamkey Version 2.0
+        'Dreamkey Versao 2.0',
+
+        # Dreamon Volume 7, Dreamon Volume 8
+        'Dreamon Volume 7 & 8',
 
         # Ducati World - Racing Challenge
         'Ducati World',
 
         # Dynamite Cop!
-        'Dynamite Deka 2',
+        'Dynamite Cop',
+        'Dynamite Deka 2', # (ダイナマイト刑事2)
+
+        # ESPN International Track & Field
+        'Ganbare! Nippon! Olympic 2000', # (がんばれ!ニッポン!オリンピック2000)
 
         # Evolution - The World of Sacred Device
         'Shinki Sekai Evolution', # (神機世界　エヴォリューション)
 
         # Expendable
+        'Seitai Heiki Expendable', # (生体兵器　エクスペンダブル)
+
+        # Evolution 2 - Far Off Promise
+        'Shinki Sekai Evolution 2 - Tooi Yakusoku', # (神機世界　エヴォリューション 2 遠い約束)
+
+        # Expendable
         'Millennium Soldier - Expendable',
+
+        # F355 Challenge Passione Rossa
+        'F355 Challenge', # (F355 チャレンジ)
+
+        # Fatal Fury Mark of the Wolves
+        'Garou - Mark of the Wolves', # (餓狼 MARK OF THE WOLVES)
 
         # Flag to Flag
         'Super Speed Racing', # (スーパースピードレーシング)
 
+        # Gundam Side Story 0079 Rise from the Ashes - The Premium edition from Japan
+        # can only be played if you have a save game from the Japanese version of the
+        # original game. So both Special Edition and Premium Disc are left in the dats.
+
+        # Incoming
+        'Incoming - Jinrui Saishuu Kessen', # (インカミング　人類最終決戦)
+
+        # Industrial Spy Operation Espionage
+        'Espion-Age-nts', # (エスピオネージェンツ)
+
+        # Iron Aces
+        'Imperial no Taka - Fighter of Zero', # (インペリアルの鷹 FIGHTER OF ZERO)
+
         # Jet Grind Radio
-        'De La Jet Set Radio',
+        # 'De La Jet Set Radio', # (デ・ラ・ジェット・セット・ラジオ) Supposedly the
         'Jet Set Radio',
+
+        # JoJo's Bizarre Adventure
+        'Jojo no Kimyou na Bouken - Mirai e no Isan', # (ジョジョの奇妙な冒険　未来への遺産)
+        'Jojo no Kimyou na Bouken - Mirai e no Isan for Matching Service',
+
+        # King of Fighters, The Evolution
+        'King of Fighters \'99, The - Evolution', # (ザ・キング・オブ・ファイターズ'99 EVOLUTION)
+
+        # Last Blade 2, The Heart of the Samurai
+        'Bakumatsu Roman Daini Maku - Gekka no Kenshi - Final Edition', # (幕末浪漫第二幕　月華の剣士　～ファイナル・エディション～)
 
         # Marvel vs. Capcom 2
         'Marvel vs. Capcom 2 - New Age of Heroes',
+
+        # Monaco Grand Prix
+        'Racing Simulation 2 - Monaco Grand Prix On-Line',
+        'Monaco Grand Prix Racing Simulation 2', # (モナコ・グランプリ・レーシング・シミュレーション2)
+
+        # Next Tetris, The On Line Edition
+        'Next Tetris, The',
 
         # Omikron - The Nomad Soul
         'Nomad Soul, The',
@@ -2523,13 +2602,26 @@ def dreamcast_rename_list():
         'Star Gladiator 2 - Nightmare of Bilstein', # (スターグラディエイター2 ナイトメアオブビルシュタイン)
 
         # Project Justice
+        'Moero! Justice Gakuen', # (燃えろ！　ジャスティス学園)
         'Project Justice - Rival Schools 2',
 
+        # Rayman 2 The Great Escape
+        'Rayman - Kaizokusen kara no Dasshutsu!', # (レイマン　海賊船からの脱出!)
+
+        # Razor Freestyle Scooter
+        'Freestyle Scooter',
+
         # Ready 2 Rumble Boxing
-        'Ready 2 Rumble Boxing - Uchikome Warai no Megaton Punch!!',
+        'Ready 2 Rumble Boxing - Uchikome Warai no Megaton Punch!!', # (レディ・トゥ・ランブル・ボクシング　～打ち込め笑いのメガトンパンチ！！～)
+
+        # Record of Lodoss War
+        'Record of Lodoss War - The Advent of Cardice', # (ロードス島戦記　邪神降臨)
+
+        # Reel Fishing + Wild
+        'Fish Eyes + Wild', # (フィッシュアイズ・ワイルド)
 
         # Resident Evil 2
-        'Biohazard 2 - Value Plus',
+        'Biohazard 2 - Value Plus', #(バイオハザード2)
 
         # Resident Evil 3 - Nemesis
         'Biohazard 3 - Last Escape', # (バイオハザード3　ラストエスケープ)
@@ -2537,27 +2629,65 @@ def dreamcast_rename_list():
         # Resident Evil - Code - Veronica
         'Biohazard - Code - Veronica', # (バイオハザード　コード：ベロニカ)
 
+        # Ring, The Terror's Realm
+        'Ring, The', # (リング)
+
         # Rippin' Riders
         'Cool Boarders Burrrn!', # (クールボーダーズ・バーン)
         'Snow Surfers',
 
+        # Seaman
+        'Seaman - Kindan no Pet - Gaze Hakase no Jikken-tou', # (シーマン　～禁断のペット～　ガゼー博士の実験島)
+
         # Sega Bass Fishing
         'Get Bass', # (ゲットバス)
+
+        # Sega Bass Fishing 2
+        'Get Bass 2', # (ゲットバス 2)
 
         # Sega GT
         'Sega GT - Homologation Special', # (セガGT ホモロゲーションスペシャル)
 
-        # Tokyo Xtreme Racer
-        'Shutokou Battle', # (首都高バトル)
+        # Seventh Cross Evolution
+        'Seventh Cross', # (セヴンスクロス)
 
-        # Tokyo Xtreme Racer 2
-        'Shutokou Battle 2', # (首都高バトル 2)
+        # Shenmue
+        'US Shenmue',
 
-        # Sonic Adventures
-        'Sonic Adventure International',
+        # Skies of Arcadia
+        'Eternal Arcadia', # (エターナル アルカディア)
+
+        # Sonic Adventure
+        'Sonic Adventure International', # (ソニックアドベンチャー・インターナショナル)
+
+        # Street Fighter Alpha 3
+        'Street Fighter Zero 3 - Saikyo-ryu Dojo', # (ストリート・ファイターZERO 3 ～サイキョー流道場～)
+        'Street Fighter Zero 3 - Saikyo-ryu Dojo for Matching Service',
+
+        # Street Fighter III 3rd Strike
+        'Street Fighter III - 3rd Strike - Fight for the Future', # (ストリート・ファイターⅢ　サードストライク　～ファイト・フォー・ザ・フューチャー～)
+
+        # Street Fighter III Double Impact
+        'Street Fighter III - W Impact', # (ストリートファイターⅢ　Wインパクト)
+
+        # Striker Pro 2000
+        'UEFA Striker',
+
+        # Super Magnetic Neo
+        'Super Magnetic Niuniu', # (スーパーマグネチックニュウニュウ)
+
+        # Super Runabout San Francisco Edition
+        'Super Runabout', # (スーパーランナバウト)
+
+        # Suzuki Alstare Extreme Racing
+        'Redline Racer', # (レッドラインレーサー)
 
         # Sword of the Berserk - Guts' Rage
         'Berserk - Millennium Falcon-hen - Wasurebana no Shou', # (ベルセルク　千年帝国の鷹篇　喪失花の章)
+
+        # Tech Romancer
+        'Choukou Senki Kikaioh', # (超鋼戦紀キカイオー)
+        'Choukou Senki Kikaioh for Matching Service',
 
         # Tennis 2K2
         'Power Smash 2 - Sega Professional Tennis', # (パワースマッシュ2)
@@ -2572,14 +2702,37 @@ def dreamcast_rename_list():
         # Time Stalkers
         'Climax Landers', # (クライマックスランダーズ)
 
+        # TNN Motorsports Hardcore Heat
+        'Buggy Heat',
+
         # Tokyo Xtreme Racer
+        'Shutokou Battle', # (首都高バトル)
         'Tokyo Highway Challenge',
+
+        # Tokyo Xtreme Racer 2
+        'Shutokou Battle 2', # (首都高バトル 2)
+        'Tokyo Highway Challenge 2',
+
+        # Tom Clancy's Rainbow Six with Eagle Watch Missions
+        'Tom Clancy\'s Rainbow Six incl. Eagle Watch Missions',
+
+        # Tomb Raider - The Last Revelation
+        'Tomb Raider - La Revelation Finale',
+        'Tomb Raider IV - The Last Revelation', # (トゥームレイダー４　ラスト　レベレーション)
+
+        # Tomb Raider Chronicles
+        'Tomb Raider Chronicles - La Leggenda di Lara Croft',
+        'Tomb Raider - Die Chronik',
+        'Tomb Raider - Sur les Traces de Lara Croft',
 
         # Tony Hawk's Pro Skater
         'Tony Hawk\'s Skateboarding',
 
         # Toy Commander
         'Totsugeki! Teketeke!! Toy Ranger', # (突撃！てけてけ！！　トイ・レンジャー)
+
+        # Vigilante 8 2nd Offense
+        'Vigilante 8 - 2nd Battle', # (ヴィジランテ８　～セカンドバトル～)
 
         # Virtua Athlete 2000
         'Virtua Athlete 2K',
