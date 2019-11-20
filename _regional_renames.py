@@ -2470,7 +2470,7 @@ def segacd_rename_list():
         'Garou Densetsu Special', # (餓狼伝説スペシャル)
 
         # FIFA International Soccer
-        'FIFA International Soccer - Championship Edition'
+        'FIFA International Soccer - Championship Edition',
 
         # Formula One World Championship - Beyond the Limit
         'Heavenly Symphony - Formula One World Championship 1993', # (ヘブンリー・シンフォニー　～フォーミュラ・ワン・ワールド・チャンピオンシップ1993～)
@@ -2825,12 +2825,6 @@ def dreamcast_rename_list():
 # Sega Saturn
 def saturn_rename_list():
     return [
-        # VR Golf '97
-        'Actua Golf',
-
-        # VR Soccer
-        'Actua Soccer - Club Edition',
-
         # Alone in the Dark - One-Eyed Jack's Revenge
         'Alone in the Dark - Jack Is Back',
 
@@ -2840,14 +2834,28 @@ def saturn_rename_list():
         # Center Ring Boxing
         'Victory Boxing',
 
+        # Command & Conquer
+        'Command & Conquer - Teil 1 - Der Tiberiumkonflikt',
+
         # DecAthlete
         'Athlete Kings',
 
         # Defcon 5 - Peace Has a Price...
         'Defcon 5',
 
+        # Dragon Ball Z - Idainaru Dragon Ball Densetsu
+        'Dragon Ball Z - La Grande Legende des Boules de Cristal',
+
         # Dragonheart - Fire & Steel
         'DragonHeart - Fire & Steel',
+
+        # F1 Challenge
+        'F-1 Challenge',
+
+        # FIFA - Road to World Cup 98
+        'FIFA - Die WM-Qualifikation 98',
+        'FIFA - En Route pour la Coupe du Monde 98',
+        'FIFA - Rumbo al Mundial 98',
 
         # FIFA Soccer 97
         'FIFA 97',
@@ -2861,6 +2869,9 @@ def saturn_rename_list():
         # Hang-On GP
         'Hang On GP \'96',
 
+        # Hebereke's Popoitto
+        'Popoitto Hebereke', # (ポポイッとへべれけ)
+
         # Hi-Octane - The Track Fights Back!
         'Hi-Octane',
 
@@ -2873,14 +2884,28 @@ def saturn_rename_list():
         # Jewels of the Oracle
         'Oracle no Houseki - Jewels of the Oracle',
 
+        # Keio Flying Squadron 2
+        'Keiou Yuugekitai - Katsugeki-hen', # (慶応遊撃隊　～活劇編～)
+
         # Last Gladiators - Digital Pinball
         'Digital Pinball',
 
         # Legend of Oasis, The
-        'Story of Thor 2',
+        'Story of Thor 2, The',
 
         # Lunacy
         'Torico',
+
+        # Machine Head
+        'Blam! Machinehead',
+
+        # Mansion of Hidden Souls, The
+        'Manoir des Ames Perdues, Le',
+        'Mansion de las Almas Ocultas',
+        'Mystery Mansion - Das Haus der verlorenen Seelen',
+
+        # Mega Man X3
+        'Rockman X3', # (ロックマン X3)
 
         # NFL Quarterback Club '96
         'NFL Quarterback Club 96',
@@ -2888,11 +2913,28 @@ def saturn_rename_list():
         # Norse by Norsewest - The Return of the Lost Vikings
         'Lost Vikings 2 - Norse by Norsewest',
 
+        # Parodius
+        'Gokujou Parodius Da! Deluxe Pack', # (極上パロディウスだ！ DELUXE PACK)
+
         # Powerslave
         'Exhumed',
 
+        # Pro-Pinball
+        'Pro-Pinball - The Web',
+
         # Robotica
         'Robotica - Cybernation Revolt',
+
+        # Romance of the Three Kingdoms IV - Wall of Fire
+        'Sanguozhi IV', # (三國志 IV)
+        'Sangokushi IV', # (三國志 IV)
+        'Sangokushi IV with Power-Up Kit', # (三國志IV with パワーアップ・キット)
+
+        # Sangokushi V (三國志 V)
+        'Sanguozhi V', # (三國志 V)
+
+        # Sangokushi Koumeiden (三國志孔明伝)
+        'Sanguozhi Yingjiezhuan', # (三國志孔明伝)
 
         # Sega Worldwide Soccer '97
         'Sega Worldwide Soccer 97',
@@ -2909,15 +2951,49 @@ def saturn_rename_list():
         # Star Fighter
         'StarFighter 3000',
 
+        # Street Racer
+        'Street Racer Extra', # (ストリート・レーサー・エクストラ)
+
         # Thunderstrike 2
         'Firestorm - Thunderhawk 2',
-
 
         # TNN Motorsports HardCore 4x4
         'Hardcore 4x4',
 
+        # Virtua Fighter CG Portrait Collection
+        'Virtua Fighter CG Portrait Series - The Final - Dural', # (バーチャ・ファイター　CGポートレート・シリーズ The Final) 「デュラル」
+        'Virtua Fighter CG Portrait Series Vol. 1 - Sarah Bryant',  # (バーチャ・ファイター　CGポートレート・シリーズ Vol. 1) 「サラ・ブライアント」
+        'Virtua Fighter CG Portrait Series Vol. 10 - Jeffry McWild',  # (バーチャ・ファイター　CGポートレート・シリーズ Vol. 10 「ジェフリー・マクワイルト」)
+        'Virtua Fighter CG Portrait Series Vol. 2 - Jacky Bryant',  # (バーチャ・ファイター　CGポートレート・シリーズ Vol. 2) 「ジャッキー・ブライアント」
+        'Virtua Fighter CG Portrait Series Vol. 3 - Akira Yuki', # (バーチャ・ファイター　CGポートレート・シリーズ Vol. 3) 「結城　晶」
+        'Virtua Fighter CG Portrait Series Vol. 4 - Pai Chan', # (バーチャ・ファイター　CGポートレート・シリーズ Vol. 4) 「パイ・チェン」
+        'Virtua Fighter CG Portrait Series Vol. 5 - Wolf Hawkfield', # (バーチャ・ファイター　CGポートレート・シリーズ Vol. 5) 「ウルフ・ホークフィールド」
+        'Virtua Fighter CG Portrait Series Vol. 6 - Lau Chan', # (バーチャ・ファイター　CGポートレート・シリーズ Vol. 6) 「ラウ・チェン」
+        'Virtua Fighter CG Portrait Series Vol. 7 - Shun Di', # (バーチャ・ファイター　CGポートレート・シリーズ Vol. 7) 「舜帝」
+        'Virtua Fighter CG Portrait Series Vol. 8 - Lion Rafale', # (バーチャ・ファイター　CGポートレート・シリーズ Vol. 8) 「リオン・ラファール」
+        'Virtua Fighter CG Portrait Series Vol. 9 - Kage Maru', # (バーチャ・ファイター　CGポートレート・シリーズ Vol. 9) 「影丸」
+
+        # Virtual Golf
+        'Tournament Leader', # (トーナメント・リーダー)
+
+        # VR Golf '97
+        'Actua Golf',
+
+        # VR Soccer
+        'Actua Soccer - Club Edition',
+
+        # WipEout 2097
+        'Wipeout XL', # (ワイプアウト XL)
+
         # World Cup Golf - Professional Edition
         'World Cup Golf - In Hyatt Dorado Beach',
+
+        # Worldwide Soccer '98
+        'Sega Worldwide Soccer \'98 - Club Edition',
+
+        # Worldwide Soccer - Sega International Victory Goal Edition
+        'International Victory Goal',
+        'Sega International Victory Goal', # (セガ　インターナショナル　ビクトリー・ゴール)
     ]
 
 # Sony PlayStation
