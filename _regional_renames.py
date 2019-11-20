@@ -2439,29 +2439,100 @@ def cdi_rename_list():
 # Sega CD/Sega Mega CD
 def segacd_rename_list():
     return [
-        # AH-3 THunderstrike isn't in Redump yet
-        # 'Thunderhawk',
+        # A-X-101
+        'AX 101', # (エーエックス 101)
+
+        # AH-3 THunderstrike
+        'Thunderhawk',
+
+        # Android Assault - The Revenge of Bari-Arm
+        'Bari-Arm', # (バリ・アーム)
 
         # Battle Frenzy
         'Bloodshot ~ Battle Frenzy',
 
-        # Jet Set Radio
-        'De La Jet Set Radio',
+        # Blackhole Assault
+        'Black Hole Assault', # (ブラック・ホール・アサルト)
 
-        # Omikron - The Nomad Soul
-        'Nomad Soul, The',
+        # Championship Soccer '94
+        'Sensible Soccer',
 
-        # POD - Speedzone
-        'POD 2 - Multiplayer Online',
+        # Cobra Command
+        'Thunder Storm FX', # (サンダー・ストーム FX)
 
-        # Project Justice
-        'Project Justice - Rival Schools 2',
+        # Dark Wizard
+        'Dark Wizard - Yomigaerishi Yami no Madoushi', # (ダーク・ウィザード　～蘇りし闇の魔導士～)
+
+        # Ecco the Dolphin
+        'Ecco the Dolphin CD', # (エコー・ザ・ドルフィン CD)
+
+        # Fatal Fury Special
+        'Garou Densetsu Special', # (餓狼伝説スペシャル)
+
+        # FIFA International Soccer
+        'FIFA International Soccer - Championship Edition'
+
+        # Formula One World Championship - Beyond the Limit
+        'Heavenly Symphony - Formula One World Championship 1993', # (ヘブンリー・シンフォニー　～フォーミュラ・ワン・ワールド・チャンピオンシップ1993～)
+
+        # Keio Flying Squadron
+        'Keiou Yuugekitai', # (慶応遊撃隊)
+
+        # Lethal Enforcers II - Gun Fighters
+        'Lethal Enforcers II - The Western', # (リーサル・エンフォーサーズⅡ　～ ザ・ウエスタン～)
+
+        # Mansion of Hidden Souls
+        'Yumemi Mystery Mansion',
+        'Yumemi Yakata no Monogatari', # (夢見館の物語)
+
+        # Masked Rider, The - Kamen Rider ZO
+        'Kamen Rider ZO', # (仮面ライダー ZO)
+
+        # Mickey Mania - The Timeless Adventures of Mickey Mouse
+        'Mickey Mania',
+
+        # Mortal Kombat
+        'Mortal Kombat Kanzenban', # (モータル・コンバット　完全版)
+
+        # NHL '94
+        'NHL Hockey \'94',
+
+        # Panic!
+        'Switch', # (スイッチ)
+
+        # Power Monger
+        'PowerMonger',
+
+        # Revengers of Vengeance
+        'Battle Fantasy', # (バトル・ファンタジー)
+
+        # Rise of the Dragon
+        'Rise of the Dragon - A Blade Hunter Mystery',
+
+        # Road Avenger
+        'Road Blaster FX', # (ロード・ブラスター FX)
+
+        # Robo Aleste
+        'Dennin Aleste - Nobunaga and His Ninja Force', # (電忍アレスタ)
+
+        # Sega Classics Arcade Collection
+        'Sega Classic Arcade Collection - Limited Edition',
 
         # Shadow of the Beast II
         'Beast II',
+        'Shadow of the Beast II - Juushin no Jubaku', # (シャドー・オブ・ザ・ビーストⅡ　～獣神の呪縛～)
 
-        # Xtreme Sports
-        'Sega Extreme Sports',
+        # Sonic CD
+        'Sonic The Hedgehog CD', # (ソニック・ザ・ヘッジホッグ CD)
+
+        # Third World War
+        'IIIrd World War, The', # (ザ・サード・ワールド・ウォー)
+
+        # Vay
+        'Vay - Ryuusei no Yoroi', # (ヴァイ　～流星の鎧～)
+
+        # WWF - Rage in the Cage
+        'WWF Mania Tour - WWF - Rage in the Cage', # (WWF マニア・ツアー)
     ]
 
 # Sega Dreamcast
@@ -2600,6 +2671,9 @@ def dreamcast_rename_list():
 
         # Plasma Sword - Nightmare of Bilstein
         'Star Gladiator 2 - Nightmare of Bilstein', # (スターグラディエイター2 ナイトメアオブビルシュタイン)
+
+        # POD - Speedzone
+        'POD 2 - Multiplayer Online',
 
         # Project Justice
         'Moero! Justice Gakuen', # (燃えろ！　ジャスティス学園)
