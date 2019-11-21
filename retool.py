@@ -754,7 +754,7 @@ def process_dats(user_input, region_list_english, region_list_other, is_folder):
                 dat_url = None
                 dat_version = '1.0'
 
-            # Sanitize any info used for output file name
+            # Sanitize any info used for output filename
             dat_name = dat_name.replace(':', '-')
             dat_version = dat_version.replace(':', '-')
 
@@ -932,7 +932,7 @@ def process_dats(user_input, region_list_english, region_list_other, is_folder):
     print(font.bold + '---------------------------')
     print('=  New title count: ' + str('{:,}'.format(new_title_count)) + font.end + '\n')
 
-    # Set up final output file name and dat header strings
+    # Set up final output filename and dat header strings
     if user_input.file_output != '':
         output_folder = user_input.file_output
         user_input.file_output_final = os.path.join(output_folder, dat_name)
