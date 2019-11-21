@@ -1280,6 +1280,9 @@ def wii_rename_list():
         # Calling
         'Calling - Kuroki Chakushin', # (CALLING（コーリング）～黒き着信～)
 
+        # Calvin Tucker's Redneck Farm Animals Racing Tournament
+        'Calvin Tucker\'s Farm Animal Racing',
+
         # Carnival Games
         'Carnival Funfair Games',
 
