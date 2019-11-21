@@ -696,6 +696,8 @@ def process_dats(user_input, region_list_english, region_list_other, is_folder):
         with open(user_input.file_input, 'r') as input_file_read:
             print('* Validating dat file... ', sep=' ', end='', flush=True)
             checkdat = input_file_read.read()
+            # Remove encoding declaration from the file so we can check validity later
+            checkdat = checkdat.replace('encoding="UTF-8"','')
     except OSError as e:
         print('\n' + font.bold + font.red + '* Error: ' + font.end + str(e) + '\n')
         raise
@@ -751,6 +753,10 @@ def process_dats(user_input, region_list_english, region_list_other, is_folder):
                 dat_author = 'Unknown'
                 dat_url = None
                 dat_version = '1.0'
+
+            # Sanitize any info used for output file name
+            dat_name = dat_name.replace(':', '-')
+            dat_version = dat_version.replace(':', '-')
 
             if dat_name == None: dat_name = ''
             if dat_description == None: dat_description = ''
@@ -829,9 +835,9 @@ def process_dats(user_input, region_list_english, region_list_other, is_folder):
     if dat_name == 'Microsoft - Xbox 360': dupe_list = _regional_renames.x360_rename_list()
     if dat_name == 'Microsoft - Xbox One': dupe_list = _regional_renames.xbone_rename_list()
     if dat_name == 'NEC - PC Engine CD & TurboGrafx CD': dupe_list = _regional_renames.pce_rename_list()
-    if dat_name == 'Nintendo - GameCube': dupe_list = _regional_renames.gamecube_rename_list()
-    if dat_name == 'Nintendo - Wii': dupe_list = _regional_renames.wii_rename_list()
-    if dat_name == 'Nintendo - Wii U': dupe_list = _regional_renames.wii_u_rename_list()
+    if dat_name == 'Nintendo - GameCube' or dat_name == 'Nintendo - GameCube - NKit GCZ' or dat_name == 'Nintendo - GameCube - NKit ISO' or dat_name == 'Nintendo - GameCube - NASOS': dupe_list = _regional_renames.gamecube_rename_list()
+    if dat_name == 'Nintendo - Wii' or dat_name =='Nintendo - Wii - NKit GCZ' or dat_name =='Nintendo - Wii - NKit ISO' or dat_name =='Nintendo - Wii - NASOS': dupe_list = _regional_renames.wii_rename_list()
+    if dat_name == 'Nintendo - Wii U' or dat_name =='Nintendo - Wii U - WUX': dupe_list = _regional_renames.wii_u_rename_list()
     if dat_name == 'Panasonic - 3DO Interactive Multiplayer': dupe_list = _regional_renames.threedo_rename_list()
     if dat_name == 'Philips - CD-i': dupe_list = _regional_renames.cdi_rename_list()
     if dat_name == 'Sega - Dreamcast': dupe_list = _regional_renames.dreamcast_rename_list()
