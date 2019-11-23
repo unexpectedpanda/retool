@@ -1,6 +1,55 @@
 # Last updated: 23 November 2019
 # An exclusion list for when games are the same as the US version, just renamed for another region.
 
+# DVD-Video
+def dvd_video_rename_list():
+    return[
+
+    ]
+
+# Microsoft Xbox 360
+def x360_rename_list():
+    return [
+
+    ]
+
+# Microsoft Xbox One
+def xbone_rename_list():
+    return [
+
+    ]
+
+# Nintendo Wii
+def wii_rename_list():
+    return [
+
+    ]
+
+# Nintendo Wii U
+def wii_u_rename_list():
+    return [
+
+    ]
+
+# Sony PlayStation 3
+def ps3_rename_list():
+    return [
+
+    ]
+
+# Sony PlayStation 4
+def ps4_rename_list():
+    return [
+
+    ]
+
+# Sony PlayStation Portable
+def psp_rename_list():
+    return [
+
+    ]
+
+
 # Apple Macintosh
 def mac_rename_list():
     return [
@@ -12,12 +61,6 @@ def mac_rename_list():
 
         # Sims, The
         'SimPeople',
-    ]
-
-# DVD-Video
-def dvd_video_rename_list():
-    return[
-
     ]
 
 # Microsoft Xbox
@@ -376,18 +419,6 @@ def xbox_rename_list():
 
         # XIII
         'XIII - Daitouryou o Koroshita Otoko', # (XIII　サーティーン　大統領を殺した男)
-    ]
-
-# Microsoft Xbox 360
-def x360_rename_list():
-    return [
-
-    ]
-
-# Microsoft Xbox One
-def xbone_rename_list():
-    return [
-
     ]
 
 # NEC PC Engine CD & TurboGrafx CD
@@ -988,8 +1019,8 @@ def gamecube_rename_list():
         'CD avec les Codes Action Replay Exclusivement pour le Jeu The Legend of Zelda - The Wind Waker',
         'Ultimate Cheats fuer The Legend of Zelda - The Wind Waker',
 
-        # Ultimate Fighting Championship - Throwdown isn't in Redump yet
-        # 'UFC - Ultimate Fighting Championship 2 - Tapout - Final Spec', # (アルティメット　ファイティング　チャンピオンシップ　２　タップアウト　ファイナルスペック)
+        # UFC - Throwdown
+        'UFC - Ultimate Fighting Championship 2 - Tapout - Final Spec', # (アルティメット　ファイティング　チャンピオンシップ　２　タップアウト　ファイナルスペック)
 
         # Ultimate Muscle - Legends vs. New Generation
         'Kinnikuman Nisei - Shinsedai Choujin vs. Densetsu Choujin', # (キン肉マンII世 新世代超人VS伝説超人)
@@ -1027,18 +1058,6 @@ def gamecube_rename_list():
 
         # Zatch Bell! Mamodo Battles
         'Konjiki no Gashbell!! Yuujou Tag Battle 2', # (金色のガッシュベル!! 友情タッグバトル2)
-    ]
-
-# Nintendo Wii
-def wii_rename_list():
-    return [
-
-    ]
-
-# Nintendo Wii U
-def wii_u_rename_list():
-    return [
-
     ]
 
 # Panasonic 3DO
@@ -1717,7 +1736,7 @@ def saturn_rename_list():
         'Manoir des Ames Perdues, Le',
         'Mansion de las Almas Ocultas',
         'Mystery Mansion - Das Haus der verlorenen Seelen',
-        # 'Shinsetsu Yumemi Yakata: Tobira no Oku ni Dareka ga...', # Not in Redump yet
+        'Shinsetsu Yumemi Yakata - Tobira no Oku ni Dareka ga...', # (真説・夢見館　扉の奥に誰かが…)
 
         # MechWarrior 2 - 31st Century Combat - Arcade Combat Edition
         'MechWarrior 2', # (メックウォリア２)
@@ -2248,11 +2267,11 @@ def psx_rename_list():
         # NBA in the Zone '99
         'NBA Pro 99',
 
-        # NBA Shootout isn't in Redump yet
-        # 'Total NBA \'96',
+        # NBA Shootout
+        'Total NBA \'96',
 
-        # NBA Shootout 97 isn't in Redump yet
-        # 'Total NBA \'97',
+        # NBA Shootout 97
+        'Total NBA \'97',
 
         # Need for Speed - High Stakes
         'Need for Speed - Road Challenge',
@@ -2311,8 +2330,8 @@ def psx_rename_list():
         # Powerslave
         'Exhumed',
 
-        # Pro-Pinball isn't in Redump yet
-        # 'Pro Pinball - The Web',
+        # Pro-Pinball
+        'Pro Pinball - The Web',
 
         # Professional Underground League of Pain
         'Riot',
@@ -2508,9 +2527,6 @@ def psx_rename_list():
         # Walt Disney's The Jungle Book - Rhythm n' Groove
         'Walt Disney\'s The Jungle Book - Groove Party',
 
-        # Winning Eleven 6 isn't in Redump yet
-        # 'Pro Evolution Soccer 2',
-
         # Wipeout 3
         'Wip3out',
 
@@ -2527,23 +2543,732 @@ def psx_rename_list():
 # Sony PlayStation 2
 def ps2_rename_list():
     return [
+        # AC-DC Live - Rock Band Track Pack
+        'AC-DC Live - Rock Band',
 
-    ]
+        # Ace Combat 04 - Shattered Skies
+        'Ace Combat - Distant Thunder',
 
-# Sony PlayStation 3
-def ps3_rename_list():
-    return [
+        # Ace Combat 5 - The Unsung War
+        'Ace Combat - Squadron Leader',
 
-    ]
+        # Ace Combat Zero - The Belkan War
+        'Ace Combat - The Belkan War',
 
-# Sony PlayStation 4
-def ps4_rename_list():
-    return [
+        # Adventures of Cookie & Cream, The
+        'Kuri Kuri Mix',
 
-    ]
+        # Adiboo and the Energy Thieves
+        'Energy Thieves, The',
 
-# Sony PlayStation Portable
-def psp_rename_list():
-    return [
+        # Adventures of Darwin, The
+        'Darwin',
 
+        # AFL Live 2004
+        'AFL Live 2004 - Aussie Rules Football',
+
+        # Airforce Delta Strike
+        'Deadly Skies III',
+
+        # Alarm for Cobra 11 - Vol. II
+        'Alarm for Cobra 11 Vol. 2 - Hot Pursuit',
+
+        # Alfa Romeo Racing Italiano
+        'SCAR - Squadra Corse Alfa Romeo',
+
+        # American Idol
+        'Pop Idol',
+
+        # AMF Xtreme Bowling
+        'AMF Xtreme Bowling 2006',
+
+        # Aqua Aqua
+        'Aqua Aqua - Wetrix 2',
+
+        # Arc the Lad - Twilight of the Spirits
+        'Arc - Twilight of the Spirits',
+
+        # Army Men - Air Attack 2
+        'Army Men - Air Attack - Blade\'s Revenge',
+
+        # Arthur and the Invisibles - The Game
+        'Arthur and the Minimoys',
+
+        # Asterix & Obelix - Kick Buttix
+        'Asterix & Obelix XXL',
+
+        # ATV Offroad Fury
+        'ATV Offroad - All Terrain Vehicle',
+
+        # Bad Boys - Miami Takedown
+        'Bad Boys II',
+
+        # Big Mutha Truckers 2
+        'Big Mutha Truckers 2 - Truck Me Harder',
+
+        # Brian Lara International Cricket 2005
+        'Ricky Ponting International Cricket 2005',
+
+        # Brian Lara International Cricket 2007
+        'Ricky Ponting International Cricket 2007',
+
+        # Bujingai - The Forsaken City
+        'Bujingai - Swordmaster',
+
+        # Bully
+        'Canis Canem Edit',
+
+        # Buzz! Junior - RoboJam, and Buzz! Junior - Jungle Party
+        'Buzz! Junior - RoboJam + Buzz! Junior - Jungle Party',
+
+        # Cabela's Dangerous Hunts 2009
+        'Cabela\'s Dangerous Adventures',
+
+        # Capcom Classics Collection Vol. 1
+        'Capcom Classics Collection',
+
+        # Capcom Fighting Evolution
+        'Capcom Fighting Jam',
+
+        # Castlevania - Curse of Darkness
+        'Akumajou Dracula - Yami no Juin',
+
+        # Castlevania - Lament of Innocence
+        'Castlevania',
+
+        # Conflict - Desert Storm II - Back to Baghdad
+        'Conflict - Desert Storm II',
+
+        # Conflict - Global Terror
+        'Conflict - Global Storm',
+
+        # Conflict Zone - Modern War Strategy
+        'Conflict Zone',
+
+        # Corvette Evolution GT
+        'Evolution GT',
+
+        # Crazy Frog Arcade Racer
+        'Crazy Frog Racer 2',
+
+        # CSI - Crime Scene Investigation - 3 Dimensions of Murder
+        'CSI - Crime Scene Investigation',
+
+        # Dance Dance Revolution SuperNova
+        'Dancing Stage SuperNova',
+
+        # Dance Dance Revolution SuperNova 2
+        'Dancing Stage SuperNova 2',
+
+         # Dark Cloud 2
+        'Dark Chronicle',
+
+        # DDRMAX Dance Dance Revolution
+        'Dancing Stage MegaMix',
+
+        # Death by Degrees
+        'Tekken\'s Nina Williams in - Death by Degrees',
+
+        # Defender
+        'Defender - For All Mankind',
+
+        # Demon Stone
+        'Forgotten Realms - Demon Stone',
+
+        # Deus Ex - The Conspiracy
+        'Deus Ex',
+
+        # Devil May Cry 3 - Dante's Awakening, and Devil May Cry 3 - Dante's Awakening (Special Edition)
+        'Devil May Cry 3',
+
+        # Digital Hitz Factory
+        'Music 3000',
+
+        # Disaster Report
+        'SOS - The Final Escape',
+
+        # Disney-Pixar Monsters, Inc.
+        'Disney-Pixar Monsters, Inc. - Scare Island',
+
+        # Disney's Donald Duck - Goin' Quackers
+        'Disney\'s Donald Duck - Quack Attack',
+
+        # Disney's PK - Out of the Shadows
+        'Disney\'s Donald Duck PK',
+
+        # Disney Presents Piglet's Big Game
+        'Disney\'s Piglet\'s Big Game',
+
+        # Disney's Tarzan - Untamed
+        'Disney\'s Tarzan - Freeride',
+
+        # DOA2 - Hardcore
+        'Dead or Alive 2',
+
+        # Dr. Seuss' The Cat in the Hat
+        'Cat in the Hat, The',
+
+        # Dragon Quest VIII - Journey of the Cursed King
+        'Dragon Quest - The Journey of the Cursed King',
+
+        # Drive to Survive
+        'Mashed - Drive to Survive',
+        'Mashed - Fully Loaded',
+
+        # Egg Mania - Eggstreme Madness
+        'Eggo Mania',
+
+        # ESPN International Winter Sports 2002
+        'ESPN International Winter Sports',
+
+        # ESPN NBA 2Night 2002
+        'NBA 2Night 2002',
+
+        # ESPN Winter X Games Snowboarding
+        'Winter X Games Snowboarding',
+
+        # ESPN Winter X Games Snowboarding 2002
+        'Winter X Games Snowboarding 2',
+
+        # ESPN X Games Skateboarding
+        'X Games Skateboarding',
+
+        # EyeToy: Operation Spy
+        'SpyToy',
+
+        # Fantavision
+        'Fantavision - For You and Me',
+
+        # Fahrenheit
+        'Indigo Prophecy', # The USA version is censored, so the European version is preferenced
+
+        # Fatal Frame
+        'Project Zero',
+
+        # Fatal Frame II - Crimson Butterfly
+        'Project Zero II - Crimson Butterfly',
+
+        # Fatal Frame III - The Tormented
+        'Project Zero 3',
+
+        # FIFA Soccer 06
+        'FIFA 06',
+
+        # FIFA Soccer 07
+        'FIFA 07',
+
+        # FIFA Soccer 08
+        'FIFA 08',
+
+        # FIFA Soccer 09
+        'FIFA 09',
+
+        # FIFA Soccer 10
+        'FIFA 10',
+
+        # FIFA Soccer 11
+        'FIFA 11',
+
+        # FIFA Soccer 12
+        'FIFA 12',
+
+        # FIFA Soccer 2002
+        'FIFA Football 2002',
+
+        # FIFA Soccer 2003
+        'FIFA Football 2003',
+
+        # FIFA Soccer 2004
+        'FIFA Football 2004',
+
+        # FIFA Soccer 2005
+        'FIFA Football 2005',
+
+        # Fisherman's Bass Club
+        'Bass Master Fishing',
+
+        # Flipnic - Ultimate Pinball
+        'Flipnic',
+
+        # Ford Bold Moves Street Racing
+        'Ford Street Racing',
+        'Ford Street Racing XR Edition',
+
+        # Ford Racing - Off Road
+        'Off Road',
+
+        # Fugitive Hunter - War on Terror
+        'America\'s 10 Most Wanted',
+
+        # Gadget Racers
+        'Penny Racers',
+
+        # Gallop Racer 2004
+        'Gallop Racer 2',
+
+        # Gallop Racer 2004 - A New Breed
+        'Attheraces Presents Gallop Racer',
+
+        # Genji - Dawn of the Samurai
+        'Genji',
+
+        # George of the Jungle and the Search for the Secret
+        'George of the Jungle',
+
+        # Godfather, The - The Game
+        'Godfather, The',
+
+        # Global Touring Challenge - Africa
+        'GTC Africa',
+
+        # Guitar Hero - Smash Hits
+        'Guitar Hero - Greatest Hits',
+
+        # Guitar Hero Encore - Rocks the 80s
+        'Guitar Hero - Rocks the 80s',
+
+        # Hard Hitter Tennis
+        'Hard Hitter 2',
+
+        # Hannspree Ten Kate Honda SBK - Superbike World Championship
+        'SBK-07 - Superbike World Championship',
+
+        # Harley-Davidson Motorcycles - Race to the Rally
+        'Harley-Davidson Motor Cycles',
+
+        # Harry Potter and the Sorcerer's Stone
+        'Harry Potter and the Philosopher\'s Stone',
+        'Harry Potter to Kenja no Ishi', # (ハリー・ポッターと賢者の石)
+
+        # Hawk Kawasaki Racing
+        'Hawk Superbike Racing',
+
+        # Heavenly Guardian
+        'Legend of Sayuki',
+
+        # Horsez
+        'Pippa Funnell - Take the Reins',
+
+        # Hot Shots Golf Fore!
+        'Everybody\'s Golf',
+
+        # Hot Shots Tennis
+        'Everybody\'s Tennis',
+
+        # HSX - Hypersonic.Xtreme
+        'G-Surfers',
+
+        # Ice Age - Dawn of the Dinosaurs
+        'Ice Age 3 - Dawn of the Dinosaurs',
+
+        # IndyCar Series featuring the Indianapolis 500
+        'IndyCar Series',
+
+        # International Track & Field 2000
+        'International Track & Field 2',
+
+        # Intellivision Lives!
+        'Intellivision Lives - The History of Video Gaming',
+
+        # Iron Man
+        'Iron Man - The Official Videogame',
+
+        # Jak II
+        'Jak II - Renegade',
+
+        # Jak X - Combat Racing
+        'Jak X',
+
+        # Jak X - Combat Racing, and Ratchet - Deadlocked
+        'Jak X & Ratchet - Gladiator',
+
+        # K-1 World Grand Prix
+        'K-1 World GP',
+
+        # K-1 World Grand Prix
+        'K-1 World Grand Prix - The Beast Attack!',
+
+        # Karaoke Revolution
+        'Karaoke Stage',
+
+        # Karaoke Revolution Party
+        'Karaoke Stage 2',
+
+        # King of Fighters 2000, The, and King of Fighters 2001, The
+        'King of Fighters 2000-2001, The',
+
+        # King of Fighters 2002, The - Challenge to Ultimate Battle
+        'King of Fighters 2002, The',
+
+        # King of Fighters 2006, The
+        'King of Fighters, The - Maximum Impact 2',
+
+        # King's Field - The Ancient City
+        'King\'s Field IV',
+
+        # KOF - Maximum Impact
+        'King of Fighters, The - Maximum Impact',
+
+        # Lethal Skies II
+        'Sidewinder V',
+
+        # Lord of the Rings, The - The Return of the King
+        'Lord of the Rings, The - Ou no Kikan',  # (ロード・オブ・ザ・リング 王の帰還)
+
+        # Made Man - Confessions of the Family Blood
+        'Made Man',
+
+        # Mountain Bike Adrenaline
+        'Mountain Bike Adrenaline featuring Salomon',
+
+        # Mr Mosquito
+        'Mr Moskeeto',
+
+        # MTV Music Generator 3 - This Is the Remix
+        'MTV Music Generator 3',
+
+        # MX World Tour featuring Jamie LIttle
+        'MX World Tour',
+
+        # NBA 08 featuring the Life Vol. 3
+        'NBA 08',
+
+        # Nickelodeon Avatar - The Last Airbender
+        'Nickelodeon Avatar - The Legend of Aang',
+
+        # Nickelodeon Avatar - The Last Airbender - Into the Inferno
+        'Nickelodeon Avatar - The Legend of Aang - Into the Inferno',
+
+        # Nickelodeon Avatar - The Last Airbender - The Burning Earth
+        'Nickelodeon Avatar - The Legend of Aang - The Burning Earth',
+
+        # Nickelodeon Jimmy Neutron - Boy Genius - Jet Fusion
+        'Nickelodeon The Adventures of Jimmy Neutron - Boy Genius - Jet Fusion',
+
+        # Nicktoons - Attack of the Toybots
+        'Nickelodeon SpongeBob and Friends - Attack of the Toybots',
+
+        # Nicktoons - Battle for Volcano Island
+        'Nickelodeon SpongeBob and Friends - Battle for Volcano Island',
+
+        # Nicktoons Movin'
+        'Nickelodeon SpongeBob SquarePants - Movin\' with Friends',
+
+        # Nicktoons Unite!
+        'Nickelodeon SpongeBob SquarePants and Friends Unite!',
+
+        # NPPL Championship Paintball 2009
+        'Millennium European Paintball Series, The - Championship Paintball 2009',
+
+        # Obscure - The Aftermath
+        'ObsCure II',
+
+        # Onimusha - Dawn of Dreams
+        'Shin Onimusha - Dawn of Dreams',
+
+        # Onimusha 3 - Demon Siege
+        'Onimusha 3',
+
+        # Pac-man World Rally
+        'Pac-Man Rally',
+
+        # PDC World Championship Darts
+        'PDC World Championship Darts 2008',
+
+        # PES 2008 - Pro Evolution Soccer
+        'World Soccer Winning Eleven 2008',
+
+        # PES 2009 - Pro Evolution Soccer
+        'World Soccer Winning Eleven 2009',
+
+        # PES 2010 - Pro Evolution Soccer
+        'World Soccer Winning Eleven 2010',
+        'World Soccer Winning Eleven 2010 - Aoki Samurai no Chousen', # (ワールドサッカー ウイニングイレブン　２０１０　蒼き侍の挑戦)
+
+        # PES 2011 - Pro Evolution Soccer
+        'World Soccer Winning Eleven 2011',
+
+        #Petz - Catz 2
+        'Catz',
+
+        # Petz - Dogz 2
+        'Dogz',
+
+        # Petz - Horsez 2
+        'Pippa Funnell - Ranch Rescue',
+
+        # Pinball Hall of Fame: The Gottlieb Collection
+        'Gottlieb Pinball Classics',
+
+        # Pirates - Legend of the Black Buccaneer
+        'Black Buccaneer',
+
+        # Pool Paradise
+        'Pool Paradise - International Edition',
+
+        # Power Drome
+        'Powerdrome',
+
+        # Power Rangers - Super Legends - 15th Anniversary
+        'Power Rangers - Super Legends',
+
+        # Primal, and The Mark of Kri, and War of the Monsters
+        'Primal + The Mark of Kri + War of the Monsters',
+
+        # Pro Race Driver
+        'DTM Race Driver',
+        'TOCA Race Driver',
+        'V8 Supercars Australia - Race Driver',
+
+        # ProStroke Golf - World Tour 2007
+        'ProStroke Golf',
+
+        # Puyo Pop Fever
+        'Puyo Puyo Fever', # (ぷよぷよフィーバー)
+
+        # Q-Ball - Billiards Master
+        'Pool Master',
+
+        # R-Racing Evolution
+        'R-Racing',
+
+        # Rayman 2: Revolution
+        'Rayman Revolution',
+
+        # Rayman Arena
+        'Rayman M',
+
+        # Ratchet - Deadlocked
+        'Ratchet - Gladiator',
+
+        # Ratchet & Clank - Going Commando
+        'Ratchet & Clank 2',
+
+        # Ratchet & Clank - Up Your Arsenal
+        'Ratchet & Clank 3',
+
+        # Ratchet & Clank - Up Your Arsenal, and Sly 2 - Band of Thieves
+        'Ratchet & Clank 3 + Sly 2 - Band of Thieves',
+
+        # Real Pool
+        'International Cue Club',
+
+        # RedCard 20-03
+        'RedCard',
+
+        # Rise to Honor
+        'Jet Li - Rise to Honour',
+        'Rise to Honour',
+
+        # River King - A Wonderful Journey
+        'Harvest Fishing',
+
+        # Road Trip
+        'Road Trip Adventure',
+
+        # Rock Band - Track Pack Volume 1
+        'Rock Band - Song Pack 1',
+
+        # Rock Band - Track Pack Volume 2
+        'Rock Band - Song Pack 2',
+
+        # Rygar - The Legendary Adventure
+        'A Ge Si Zhan Shi', # (阿格斯戰士)
+
+        # Saturday Night Speedway
+        'Stock Car Speedway',
+
+        # SBK - Superbike World Championship
+        'SBK 08 - Superbike World Championship',
+
+        # Score International Baja 1000 - The Official Game
+        'Score International Baja 1000 - World Championship Off Road Racing',
+
+        # Sega Genesis Collection
+        'Sega Mega Drive Collection',
+
+        # Sega Sports Tennis
+        'Virtua Tennis 2 - Sega Professional Tennis',
+
+        # Shadow of Destiny
+        'Shadow of Memories',
+
+        # Shadow of the Colossus, and Ico
+        'Shadow of the Colossus + Ico',
+
+        # Shadow of the Colossus
+        'Wang Da Yu Ju Xiang', # (汪達與巨像)
+
+        # Shadow Hearts - Covenant
+        'Shadow Hearts II',
+
+        # Shox
+        'Shox - Rally Reinvented',
+
+        # Shin Megami Tensei - Nocturne
+        'Shin Megami Tensei - Lucifer\'s Call',
+
+        # Shin Megami Tensei - Persona 3
+        'P3 - Persona 3',
+
+        # Shin Megami Tensei - Persona 3 FES
+        'Persona 3 FES',
+
+        # Shin Megami Tensei - Persona 4
+        'Persona 4',
+
+        # Silent Hill 2 (v2.01)
+        'Silent Hill 2 - Director\'s Cut',
+        'Silent Hill 2 - Saigo no Uta', # (サイレント・ヒル2 ～最期の詩～)
+
+        # Silent Scope 2 - Dark Silhouette
+        'Silent Scope 2 - Fatal Judgement',
+
+        # Siren
+        'Forbidden Siren',
+
+        # Ski-doo Snow X Racing
+        'SXR - Snow X Racing',
+
+        # Sly Cooper and the Thievius Raccoonus
+        'Sly Raccoon',
+
+        # Sly 3 - Honor Among Thieves
+        'Sly 3 - Honour Among Thieves',
+
+        # Soccer America - International Cup
+        'International League Soccer',
+
+        # Soccer Mania
+        'Football Mania',
+
+        # Space Channel 5 - Special Edition
+        'Space Channel 5',
+        'Space Channel 5 Part 2',
+
+        # Splashdown - Rides Gone Wild
+        'Splashdown 2 - Rides Gone Wild',
+
+        # Stretch Panic
+        'Freak Out',
+
+        # Summer Athletics - The Ultimate Challenge
+        'Summer Athletics',
+
+        # Super Trucks Racing
+        'Super Trucks',
+
+        # Suzuki TT Superbikes - Real Road Racing
+        'TT Superbikes',
+
+        # Suzuki TT Superbikes - Real Road Racing Championship
+        'TT Superbikes - Real Road Racing Championship',
+
+        # Test Drive
+        'TD Overdrive - The Brotherhood of Speed',
+
+        # Test Drive - Eve of Destruction
+        'Driven to Destruction',
+
+        # Test Drive Off-Road - Wide Open
+        'Off-Road - Wide Open',
+
+        # Theme Park Roller Coaster
+        'Theme Park World',
+
+        # Top Gear Dare Devil
+        'TG DareDevil',
+
+        # Thunder Strike - Operation Phoenix
+        'Thunderhawk - Operation Phoenix',
+
+        # Tiger Woods PGA Tour 2001
+        'Tiger Woods USA Tour 2001',
+
+        # Tiger Woods PGA Tour 2002
+        'Tiger Woods USA Tour 2002',
+
+        # Time Crisis - Crisis Zone
+        'Crisis Zone',
+
+        # TOCA Race Driver 2
+        'DTM Race Driver 2',
+        'TOCA Race Driver 2 - Ultimate Racing Simulator',
+        'V8 Supercars Australia 2',
+
+        # TOCA Race Driver 3 - The Ultimate Racing Simulator
+        'DTM Race Driver 3',
+        'V8 Supercars Australia 3',
+
+        # Tokyo Extreme Racer - Zero
+        'Kaido Racer',
+        'Tokyo Xtreme Racer',
+
+        # Tokyo Xtreme Racer - Drift 2
+        'Kaido Racer 2',
+
+        # Total Overdose - A Gunslinger's Tale in Mexico
+        'Total Overdose',
+
+        # Walt Disney's The Jungle Book - Rhythm n' Groove
+        'Disney\'s Jungle Book - Groove Party',
+
+        # Wave Rally
+        'Jet Ski Riders',
+
+        # Winback - Covert Operations
+        'Operation WinBack',
+
+        # WinBack 2 - Project Poseidon
+        'Operation WinBack 2 - Project Poseidon',
+
+        # Winter Sports 2008 - The Ultimate Challenge
+        'RTL Winter Sports 2008 - The Ultimate Challenge',
+
+        # Winter Sports 2 - The Next Challenge
+        'Winter Sports 2009 - The Next Challenge',
+
+        # World of Outlaws - Sprint Cars 2002
+        'World of Outlaws - Sprint Cars',
+
+        # World Soccer Winning Eleven 6 - International
+        'Pro Evolution Soccer 2',
+
+        # World Soccer Winning Eleven 7 - International
+        'Pro Evolution Soccer 3',
+
+        # World Soccer Winning Eleven 8 - International
+        'Pro Evolution Soccer 4',
+
+        # World Soccer Winning Eleven 9
+        'Pro Evolution Soccer 5',
+
+        # Winning Eleven - Pro Evolution Soccer 2007
+        'Pro Evolution Soccer 6',
+
+        # World Tour Soccer 2002
+        'This Is Football 2002',
+
+        # World Tour Soccer 2003
+        'This Is Football 2003',
+
+        # World Tour Soccer 2005
+        'This Is Football 2004',
+        'This Is Soccer 2004',
+
+        # World Tour Soccer 2006
+        'This Is Football 2005',
+        'This Is Soccer 2005',
+
+        # WTA Tour Tennis
+        'Pro Tennis WTA Tour',
+
+        # X2 - Wolverine's Revenge
+        'X-Men 2 - Wolverine\'s Revenge',
+
+        # Yu-Gi-Oh! The Beginning of Destiny
+        'Yu-Gi-Oh! GX - Tag Force Evolution',
+
+        # Zapper - One Wicked Cricket
+        'Zapper',
     ]
