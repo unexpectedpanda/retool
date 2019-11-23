@@ -27,11 +27,11 @@ is installing modules to the wrong folder for Python 3.x access. If using
 problem on your OS of choice.
 
 ## Usage
-`python retool.py -i <input dat/folder> -o <output dat/folder> <options>`
+`python retool.py -i <input dat/folder> <options>`
 
 Or for the binary version:
 
-`retool  -i <input dat/folder> -o <output dat/folder> <options>`
+`retool  -i <input dat/folder> <options>`
 
 **Note:** Some systems have the Python 3.x binary installed separately as
 `python3`. You might need to run this instead of `python`.
@@ -49,6 +49,9 @@ Or for the binary version:
 * `-s` Split dat into regional dats, include dupes
 
 ## How it works
+There are multiple stages for eliminating dupes.
+
+### By region
 The input dat is split into regions, then each region is processed in a
 specific order. Each region cannot include titles that are in the regions
 that precede it. The USA version of a title is usually considered canonical.
@@ -107,11 +110,44 @@ referenced to check if any titles in the current region are the same as
 another region's title, but with a different name. For example, apart from the
 name, **_Dancing Stage Unleashed 3 (Europe)_** and
 **_Dance Dance Revolution Ultramix 3 (USA)_** are the same title, and so
-**_Dancing Stage Unleashed 3 (Europe)_** would not be included.
+only **_Dance Dance Revolution Ultramix 3 (USA)_** would be kept.
+
+Titles are also deduped if they span multiple regions, preferencing titles with
+more regions. For example, out of **_Grim Fandango (USA)_** and
+**_Grim Fandango (USA, Europe)_**, the latter will be kept.
+
+### By language
+Titles with the same name from the same region, but with different language
+sets are also handled. The rules are complex:
+- If one title is in English, but the other isn't, keep the English version.
+- If one title from Europe has no languages listed, and the other has
+  languages listed but English isn't one of them, keep the title with no
+  languages listed (on the assumption that English may be in there).
+- If English is listed for both titles, and one title has more languages,
+  take the title with more languages.
+- If English is listed for both titles, and both titles have the same number
+  of languages, check for preferred languages one by one, in the order listed
+  below. The first title that doesn't support a preferred language is removed.
+  1. Spanish
+  1. French
+  1. Japanese
+  1. Portuguese
+  1. German
+  1. Italian
+  1. Swedish
+  1. Danish
+  1. Norwegian
+  1. Polish
+  1. Greek
+  1. Dutch
+  1. Finnish
+  1. Swiss
+  1. Hungarian
+  1. Russian
 
 ## FAQs
 #### How did you figure out what the dupes were?
-I went through each dat for games that weren't tagged as USA. I then used
+I went through each dat for titles that weren't tagged as USA. I then used
 [Wikipedia](https://www.wikipedia.org),
 [Moby Games](https://www.mobygames.com),
 [Retroplace](https://www.retroplace.com), [GameTDB](https://www.gametdb.com),
@@ -123,6 +159,10 @@ translations and find out the equivalent English titles. Later in the process
 I discovered [FilterQuest](https://github.com/UnluckyForSome/FilterQuest), a
 similar tool, and added some missing titles from there.
 
+#### Shouldn't you preference less regions in multi-region titles, or less languages in multi-language titles?
+I'm following a philosophy that the superset should be the primary title. Anything with
+less content is by definition secondary. At this stage, compilations aren't considered.
+
 ## Known limitations
 Be aware of the following limitations when using _Retool_. These might or
 might not be addressed in the future.
@@ -130,19 +170,16 @@ might not be addressed in the future.
 #### Doesn't remove single titles in favor of compilation titles
 For example, **_Assassin's Creed - Ezio Trilogy_** does not supersede
 **_Assassin's Creed II_**, **_Assassin's Creed - Brotherhood_**, and
-**_Assassin's Creed - Revelations_**.
+**_Assassin's Creed - Revelations_**. Both the original titles and the
+compilation will be kept.
 
-#### Doesn't remove different language versions from the same region
-For example, **_Suffering, The - Ties That Bind (Europe) (En,Es,It)_** and
-**_Suffering, The - Ties That Bind (Europe) (En,Fr)_**.
+#### Can only follow Redump language tags
+If Redump missed tagging titles from regions where English isn't the region's
+first language (for example, Japan), those titles won't be included if you've
+set the `-en` flag.
 
-#### Can only follow Redump language tags for non-English countries
-If Redump missed tagging titles from regions where English isn't their first
-language (for example, Japan), those titles won't be included.
-
-#### Will remove titles that have the same name in different regions, regardless of content or which version is better
-For example:
-* Some versions of singing titles have additional local tracks, yet only one
-  version of the title will be included.
-* Some regional versions of titles might be superior to, for example, USA
-  titles with the same name, but only the USA title will be included.
+#### Will remove titles that have the same name in different regions, regardless of which version is better, or unique content
+For example, some versions of singing titles have additional local tracks, but
+because they share the same name, only one version of the title will be
+kept. Likewise, if a title from Europe has more content than its equivalent
+from the USA, but has the same name, the USA title will be kept
