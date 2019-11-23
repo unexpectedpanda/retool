@@ -151,17 +151,24 @@ I went through each dat for titles that weren't tagged as USA. I then used
 [Wikipedia](https://www.wikipedia.org),
 [Moby Games](https://www.mobygames.com),
 [Retroplace](https://www.retroplace.com), [GameTDB](https://www.gametdb.com),
-[VDGB](https://vgdb.io), [YouTube](https://www.youtube.com),
-[Amazon.jp](https://www.amazon.co.jp), [PlayAsia](https://www.play-asia.com/)
-and good old web searching to turn up information. I went through Redump's
-site for Japanese and Chinese characters for the titles, so I could do
-translations and find out the equivalent English titles. Later in the process
-I discovered [FilterQuest](https://github.com/UnluckyForSome/FilterQuest), a
-similar tool, and added some missing titles from there.
+[VDGB](https://vgdb.io), [VGM](https://www.video-games-museum.com),
+[YouTube](https://www.youtube.com), [Amazon.jp](https://www.amazon.co.jp),
+[PlayAsia](https://www.play-asia.com/), and good old web searching to turn up
+information. I went through Redump's site for Japanese and Chinese characters
+for the titles, so I could do translations and find out the equivalent English
+titles. Later in the process I discovered
+[FilterQuest](https://github.com/UnluckyForSome/FilterQuest), a similar tool,
+and added some missing titles from there.
+
+#### Does this create a dat for the perfect 1G1R Redump set?
+Unlikely. There are bound to be false positives as a result of bad assumptions,
+and titles I've missed. But it'll get you a lot closer than the default Redump
+set.
 
 #### Shouldn't you preference less regions in multi-region titles, or less languages in multi-language titles?
-I'm following a philosophy that the superset should be the primary title. Anything with
-less content is by definition secondary. At this stage, compilations aren't considered.
+I'm following a philosophy that the superset should be the primary title.
+Anything with less content is by definition secondary. At this stage,
+compilations aren't considered.
 
 ## Known limitations
 Be aware of the following limitations when using _Retool_. These might or
