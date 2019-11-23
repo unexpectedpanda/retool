@@ -1387,12 +1387,16 @@ def wii_rename_list():
         # Disney Epic Mickey 2 - The Power of Two
         'Disney Epic Mickey 2 - Futatsu no Chikara', # (ディズニー エピックミッキー２:二つの力)
 
+        # Disney High School Musical 3 - Senior Year Dance!
+        'Disney High School Musical Dance!', # (ハイスクール･ミュージカル DANCE！)
+
         # Disney Princess - Enchanted Journey
         'Disney Princess - Mahou no Sekai e', # (ディズニープリンセス 魔法の世界へ)
 
         # Disney Think Fast
         'Disney Think - Das Schnelldenker-Quiz',
         'Disney Think - Haya Oshi Quiz', # (ディズニー・シンク 早押しクイズ)
+        'Disney Think Fast - The Quiz Game',
 
         # Dokapon Kingdom
         'Dokapon Kingdom for Wii', # (ドカポンキングダム for Wii)
