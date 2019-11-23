@@ -46,7 +46,7 @@ Or for the binary version:
 * `-o` Set an output folder
 * `-p` Remove betas and prototypes
 * `-r` Split dat into regional dats
-* `-s` Split dat into regional dats, include dupes
+* `-s` Split dat into regional dats, don't dedupe
 
 ## How it works
 There are multiple stages for eliminating dupes.
@@ -182,4 +182,16 @@ set the `-en` flag.
 For example, some versions of singing titles have additional local tracks, but
 because they share the same name, only one version of the title will be
 kept. Likewise, if a title from Europe has more content than its equivalent
-from the USA, but has the same name, the USA title will be kept
+from the USA, but has the same name, the USA title will be kept.
+
+#### Doesn't handle the (Rerelease) tag
+At this stage it's unclear which of these are the newest version:
+
+* Title
+* Title (v1.1)
+* Title (Rerelease)
+
+Is the rerelease of 1.1? Is it of the original? Redump doesn't make this choice
+easy as it doesn't version all titles. As such, rereleases are still included
+and may be dupes. Sometimes, titles that were originally released on multiple
+CDs were later released on DVD, which makes things harder to work with again.
