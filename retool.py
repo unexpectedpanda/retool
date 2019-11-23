@@ -177,7 +177,7 @@ def error_instruction():
     print(font.bold + ' -o' + font.end + '   Set an output folder')
     print(font.bold + ' -p' + font.end + '   Remove betas and prototypes')
     print(font.bold + ' -r' + font.end + '   Split dat into regional dats')
-    print(font.bold + ' -s' + font.end + '   Split dat into regional dats, include dupes\n')
+    print(font.bold + ' -s' + font.end + '   Split dat into regional dats, don\'t dedupe\n')
     sys.exit()
 
 # Check user input
@@ -399,6 +399,7 @@ class DatNode:
                     self.regionless_title = ''
         else:
             self.regionless_title = ''
+            remove_languages = ''
 
         self.region = region
         if len(remove_languages) > 0:
@@ -421,7 +422,7 @@ class DatNodeRom:
 def localized_titles(region, native, soup, user_input):
     sys.stdout.write("\033[K")
     if native != 'Unknown':
-        print('* Checking dat for regions... ' + region, sep='', end='\r', flush=True)
+        print('* Checking dat for titles with regions... ' + region, sep='', end='\r', flush=True)
     if native == True:
         return soup.find_all('game', {'name':re.compile('(\(' + region + '\))')}) + soup.find_all('game', {'name':re.compile('(\(' + region + ',.*?\))')})
     elif native == 'Unknown':
@@ -462,31 +463,31 @@ def add_titles(region_list, region_list_english, titles, unique_list, dupe_list,
     return title_xml
 
 # Remove dupes that are the same title, but support different languages
-def remove_by_language(language, subtitle1, subtitle2, title, regional_titles_data):
+def remove_by_language(language, subtitle1, subtitle2, title, regional_titles_data, remove_list):
     # If there's a title from Europe that has unspecified languages, or languages without English, take the unspecified version
     if 'Europe' in subtitle1.region and 'Europe' in subtitle2.region and subtitle1.language == '' and subtitle2.language != '' and 'En' not in subtitle2.language:
-        if subtitle2 in regional_titles_data[title]: regional_titles_data[title].remove(subtitle2)
+        if subtitle2 in regional_titles_data[title]: remove_list.append(subtitle2)
         return
     elif  'Europe' in subtitle1.region and 'Europe' in subtitle2.region and subtitle2.language == '' and subtitle1.language != '' and 'En' not in subtitle1.language:
-        if subtitle1 in regional_titles_data[title]: regional_titles_data[title].remove(subtitle1)
+        if subtitle1 in regional_titles_data[title]: remove_list.append(subtitle1)
         return
     # Otherwise take the title that has the language we're looking for
     if re.search('\(.*' + language[0] + '.*\)', subtitle1.full_title) != None and re.search('\(.*' + language[0] + '.*\)', subtitle2.full_title) == None:
-        if subtitle2 in regional_titles_data[title]: regional_titles_data[title].remove(subtitle2)
+        if subtitle2 in regional_titles_data[title]: remove_list.append(subtitle2)
     elif re.search('\(.*' + language[0] + '.*\)', subtitle1.full_title) == None and re.search('\(.*' + language[0] + '.*\)', subtitle2.full_title) != None:
-        if subtitle1 in regional_titles_data[title]: regional_titles_data[title].remove(subtitle1)
+        if subtitle1 in regional_titles_data[title]: remove_list.append(subtitle1)
     # If both titles support the selected language, but are different lengths, take the one that supports more langauges
     elif re.search('\(.*' + language[0] + '.*\)', subtitle1.full_title) != None and re.search('\(.*' + language[0] + '.*\)', subtitle2.full_title) != None:
         if len(subtitle1.full_title) > len(subtitle2.full_title):
-            if subtitle2 in regional_titles_data[title]: regional_titles_data[title].remove(subtitle2)
+            if subtitle2 in regional_titles_data[title]: remove_list.append(subtitle2)
         elif len(subtitle1.full_title) < len(subtitle2.full_title):
-            if subtitle1 in regional_titles_data[title]: regional_titles_data[title].remove(subtitle1)
+            if subtitle1 in regional_titles_data[title]: remove_list.append(subtitle1)
         else:
             language.pop(0)
-            remove_by_language(language, subtitle1, subtitle2, title, regional_titles_data)
+            remove_by_language(language, subtitle1, subtitle2, title, regional_titles_data, remove_list)
     else:
         language.pop(0)
-        remove_by_language(language, subtitle1, subtitle2, title, regional_titles_data)
+        remove_by_language(language, subtitle1, subtitle2, title, regional_titles_data< remove_list)
 
 # Finds unique titles in regions, removes dupes
 def localized_titles_unique (region, region_list_english, titles, unique_list, dupe_list, user_input):
@@ -545,6 +546,18 @@ def localized_titles_unique (region, region_list_english, titles, unique_list, d
 
         regional_titles_data = regional_titles_data_temp
 
+        # Create a remove list to remove title entries later
+        remove_list = []
+
+        # Remove titles that are just OEM versions of commercial titles
+        for title in regional_titles_data:
+            for subtitle1 in regional_titles_data[title]:
+                for subtitle2 in regional_titles_data[title]:
+                    oem_string = re.findall(' \(OEM\).*', subtitle2.regionless_title)
+                    if oem_string != []:
+                        if subtitle2.regionless_title == subtitle1.regionless_title + oem_string[0] or subtitle2.regionless_title.replace(oem_string[0],'') == subtitle1.regionless_title.replace(' (Rerelease)', ''):
+                            remove_list.append(subtitle2)
+
         # Remove titles that have dupes with additional regions or languages
         for title in regional_titles_data:
             for subtitle1 in regional_titles_data[title]:
@@ -554,14 +567,18 @@ def localized_titles_unique (region, region_list_english, titles, unique_list, d
                         if subtitle1.region in region_list_english:
                             # Don't select titles that have more languages, but not English
                             if subtitle1.language == '' and subtitle2.language != '' and 'En' not in subtitle2.language:
-                                if subtitle2 in regional_titles_data[title]: regional_titles_data[title].remove(subtitle2)
+                                if subtitle2 in regional_titles_data[title]: remove_list.append(subtitle2)
                             elif len(subtitle1.full_title) > len(subtitle2.full_title):
-                                if subtitle2 in regional_titles_data[title]: regional_titles_data[title].remove(subtitle2)
+                                if subtitle2 in regional_titles_data[title]: remove_list.append(subtitle2)
                             else:
-                                if subtitle1 in regional_titles_data[title]: regional_titles_data[title].remove(subtitle1)
+                                if subtitle1 in regional_titles_data[title]: remove_list.append(subtitle1)
                         # Now process the other regions
                         else:
-                            remove_by_language(['En', 'Es', 'Fr', 'Ja', 'Pt', 'De', 'It', 'Sv', 'Da', 'No', 'Pl', 'Gr', 'Nl', 'Fi', 'Ch', 'Hr', 'Ru'], subtitle1, subtitle2, title, regional_titles_data)
+                            remove_by_language(['En', 'Es', 'Fr', 'Ja', 'Pt', 'De', 'It', 'Sv', 'Da', 'No', 'Pl', 'Gr', 'Nl', 'Fi', 'Ch', 'Hr', 'Ru'], subtitle1, subtitle2, title, regional_titles_data, remove_list)
+
+        for title in regional_titles_data:
+            for item in remove_list:
+                if item in regional_titles_data[title]: regional_titles_data[title].remove(item)
 
         # Remove older versions and revisions of titles
         for title in regional_titles_data:
@@ -844,7 +861,7 @@ def process_dats(user_input, region_list_english, region_list_other, is_folder):
             items.extract()
 
     sys.stdout.write("\033[K")
-    print('* Checking dat for regions... done.')
+    print('* Checking dat for titles with regions... done.')
 
     print('* Checking dat for titles without regions... ', sep=' ', end='', flush=True)
 

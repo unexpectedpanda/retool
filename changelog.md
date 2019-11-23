@@ -9,6 +9,8 @@
   folder. Output files are automatically named.
 - You can now remove alternate (Alt) titles with the `-l` option.
 - Region processing is now much faster.
+- OEM titles that have a matching commercial title with the same name are now
+  removed.
 - Titles that aren't the latest revisions or versions are now removed. This
   doesn't support release versioning, like 0.100 being larger than 0.99,
   however there's not much evidence of that style of versioning being used
