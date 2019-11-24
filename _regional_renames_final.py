@@ -1919,6 +1919,7 @@ def psx_rename_list():
     return [
         # 007 - The World Is Not Enough
         '007 - Die Welt Ist Nicht Genug',
+        '007 - El Mundo Nunca es Suficiente',
         '007 - Le Monde ne Suffit Pas',
 
         # 007 - Tomorrow Never Dies
@@ -1963,7 +1964,12 @@ def psx_rename_list():
         # Amerzone - The Explorer's Legacy
         'Amerzone, L\'',
         'Amerzone - Das Testament des Forschungsreisenden',
+        'Amerzone - El Legado del Explorador',
+        'Amerzone - Il Testamento dell\'Esploratore',
         'Amerzone - O Testamento do Explorador',
+
+        # Ape Escape
+        'Ape Escape - La Invasion de los Monos',
 
         # Army Men - Green Rogue
         'Army Men - Omega Soldier',
@@ -1980,9 +1986,13 @@ def psx_rename_list():
         # Army Men - World War - Team Assault
         'Army Men - Team Assault',
 
+        # Asterix & Obelix Take on Caesar
+        'Asterix & Obelix contro Cesare',
+
         # Atlantis - The Lost Tales
         'Atlantis - Das sagenhafte Abenteuer',
         'Atlantis - Secrets d\'un Monde Oublie',
+        'Atlantis - Segreti d\'un Mondo Perduto',
 
         # Backyard Soccer
         'Junior Sports Football',
@@ -1995,6 +2005,7 @@ def psx_rename_list():
 
         # Barbie - Explorer
         'Barbie - Aventuriere',
+        'Barbie - Esploratrice',
 
         # Barbie - Race & Ride
         'Barbie - Aventure Equestre',
@@ -2022,9 +2033,11 @@ def psx_rename_list():
         'Bloody Roar 2 - Bringer of the New Age',
 
         # Bob the Builder - Can We Fix It
+        'Bob Aggiustatutto',
         'Bob le Bricoleur - Reparer C\'est Gagne!',
         'Byggare Bob - Kan Vi Fixa Det',
         'Byggemand Bob - Kan Vi Klare Det',
+        'Byggmester Bob - Kan Det Fikses',
         'Puuha Pete - Korjataanko',
 
         # Bogey - Dead 6
@@ -2050,11 +2063,14 @@ def psx_rename_list():
 
         # Broken Sword - The Shadow of the Templars
         'Baphomets Fluch',
+        'Broken Sword - La Leyenda de los Templarios',
         'Chevaliers de Baphomet, Les',
 
         # Broken Sword II - The Smoking Mirror
         'Baphomets Fluch II - Die Spiegel der Finsternis',
         'Boucliers de Quetzalcoatl, Les - Les Chevaliers de Baphomet II',
+        'Broken Sword II - La Profezia dei Maya',
+        'Broken Sword II - Las Fuerzas del Mal',
 
         # Builder's Block
         'Land Maker',
@@ -2080,10 +2096,12 @@ def psx_rename_list():
 
         # China - The Forbidden City
         'Chine - Intrigue dans la Cite Interdite',
+        'Cina - Crimini nella Citta Proibita',
         'Verrat in der Verbotenen Stadt',
 
         # City of Lost Children, The
         'Cite des Enfants Perdus, La',
+        'Ciudad de los ninos perdidos, La',
         'Stadt der verlorenen Kinder, Die',
 
         # Cleopatra's Fortune
@@ -2094,6 +2112,9 @@ def psx_rename_list():
 
         # Colin McRae Rally
         'Colin McRae - The Rally',
+
+        # Colony Wars - Red Sun
+        'Colony Wars - El Sol Rojo',
 
         # Command & Conquer
         'Command & Conquer - Teil 1 - Der Tiberiumkonflikt',
@@ -2115,8 +2136,12 @@ def psx_rename_list():
         # Crash Bandicoot - Warped
         'Crash Bandicoot 3 - Warped',
 
-        # Cover Ops - Nuclear Dawn
+        # Covert Ops - Nuclear Dawn
         'Chase the Express',
+        'Chase the Express - El Expreso de la Muerte',
+
+        # Dance - UK
+        'All Music Dance!',
 
         # Dance Dance Revolution - Disney Mix
         'Dancing Stage - Disney Mix',
@@ -2142,28 +2167,39 @@ def psx_rename_list():
         # Digimon World 3
         'Digimon World 2003',
 
+        # Die Hard Trilogy 2 - Viva Las Vegas
+        'Jungla de Cristal Trilogia 2 - Viva Las Vegas',
+
         # Discworld II - Mortality Bytes!
         'Discworld II - Missing Presumed...!',
         'Discworld II - Mortellement Votre',
         'Discworld II - Vermutlich vermisst...!',
 
         # Disney-Pixar A Bug's Life
+        'Disney-Pixar A Bug\'s Life - Megaminimondo',
         'Disney-Pixar Das grosse Krabbeln',
         'Disney-Pixar Ett smakryps liv',
         'Disney-Pixar Graes-Rodderne',
         'Disney-Pixar Oetoekaen elaemaeae',
+        'Disney-Pixar Sma-kryp',
 
         # Disney-Pixar A Bug's Life - Disney's Activity Centre
         'Disney-Pixar A Bug\'s Life - Atelier de Jeux',
         'Disney-Pixar A Bug\'s Life - Disneys Malen und Spielen',
+        'Disney-Pixar Bichos Una Aventura en Miniatura',
+        'Disney-Pixar Bottega dei Giochi - A Bug\'s Life Megaminimondo',
         'Disney-Pixar Een Luizenleven',
 
         # Disney-Pixar Buzz Lightyear of Star Command
+        'Disney-Pixar Buzz Lightyear da Commando Stellare',
         'Disney-Pixar Captain Buzz Lightyear - Star Command',
         'Disney-Pixar Les Aventures de Buzz L\'Eclair',
+        'Disney-Pixar\'s Buzz Lightyear - Guardianes del Espacio',
 
         # Disney-Pixar Monsters, Inc. - Scream Team
         'Disney-Pixar Die Monster AG - Schreckens-Insel',
+        'Disney-Pixar Monster & Co. - L\'Isola dello Spavento',
+        'Disney-Pixar Monsterbedriften - Skrekkoya',
         'Disney-Pixar Monsterit Oy - Saeikkysaari',
         'Disney-Pixar Monsters en Co. - Schrik Eiland',
         'Disney-Pixar Monsters, Inc. - Monstros e Companhia - Ilha Assustadora',
@@ -2171,17 +2207,23 @@ def psx_rename_list():
         'Disney-Pixar Monsters, Inc. - Skraemmaroen',
         'Disney-Pixar Monsters, Inc. - Skraemmeoen',
         'Disney-Pixar Monstres & Cie - L\'ile de l\'Epouvante',
+        'Disney-Pixar Monstruos, S.A. - Isla de los Sustos',
 
         # Disney-Pixar Toy Story 2 - Buzz Lightyear to the Rescue!
         'Disney-Pixar Toy Story 2 - Buzz l\'Eclair a la Rescousse!',
+        'Disney-Pixar Toy Story 2 - Buzz Lightyear al Rescate!',
         'Disney-Pixar Toy Story 2 - Buzz Lightyear eilt zur Hilfe!',
+        'Disney-Pixar Toy Story 2 - Woody e Buzz alla riscossa!',
 
         # Disney's Aladdin in Nasira's Revenge
         'Disney\'s Aladdin in Nasira\'s Wraak',
         'Disney Aladdin - La Revanche de Nasira',
+        'Disney Aladdin - La Vendetta di Nasira',
+        'Disney Aladdin - La Venganza de Nasira',
         'Disneyn Aladdin - Nasiran Kosto',
         'Disneys Aladdin - Nasiras haemnd',
         'Disneys Aladdin - Nasiras Haevn',
+        'Disneys Aladdin - Nasiras Hevn',
         'Disneys Aladdin - Nasiras Rache',
 
         # Disney's Atlantis - The Lost Empire
@@ -2189,34 +2231,47 @@ def psx_rename_list():
         'Disney\'s Atlantis - De Verzonken Stad',
         'Disney Atlantida - O Continente Perdido',
         'Disney Atlantide - L\'Empire Perdu',
+        'Disney Atlantis - El Imperio Perdido',
+        'Disney Atlantis - L\'Impero Perduto',
+        'Disneys Atlantis - En Forsvunnet Verden',
         'Disneyn Atlantis - Kadonnut Kaupunki',
         'Disneys Atlantis - Das Geheimnis der verlorenen Stadt',
         'Disneys Atlantis - Det Forsvundne Rige',
 
         # Disney's Dinosaur
         'Disney Dinosaure',
+        'Disney Dinosauri',
+        'Disney Dinosaurio',
         'Disney\'s Dinosaurier',
 
         # Disney's Donald Duck - Goin' Quackers
+        'Disney Pato Donald - Cuac Attack',
         'Disney\'s Donald Duck - Quack Attack',
 
         # Disney's Goofy's Fun House
         'Disney Dingo Une Journee de Dingue!',
+        'Disney La Super-Diver Casa de Goofy',
+        'Disney Pippo Giochi Pazzi',
 
         # Disney's Hercules Action Game
         'Disney\'s Action spel med Herkules',
         'Disney\'s Action Game featuring Hercules',
         'Disney\'s Action Game met Hercules',
+        'Disney Action Game Disney Presenta Hercules',
         'Disney Jeu d\'Action Disney Presente Hercule',
+        'Disney Juego de Accion Disney Presenta Hercules',
         'Disneys Action Spil med Herkules',
         'Disneys Hercules Action-Spiel',
 
         # Disney's Lilo & Stitch
         'Disney\'s Lilo & Stitch - Heisa op Hawai',
         'Disney\'s Lilo & Stitch - Trouble in Paradise',
+        'Disney Lilo & Stitch - Grossi Guai alle Hawaii',
         'Disney Lilo & Stitch - Ouragan sur Hawai',
-        'Disneys Lilo & Stitch - Ballade pa Hawaii!',
         'Disney Lilo & Stitch - Sarilhos no Paraiso',
+        'Disney Lilo & Stitch en Problemas en el Paraiso',
+        'Disneys Lilo & Stitch - Ballade pa Hawaii!',
+        'Disneys Lilo & Stitch - Hula Baluba!',
         'Disneys Lilo & Stitch - Trubbel i Paradiset',
         'Disneys Lilo & Stitch - Zoff auf Hawaii',
 
@@ -2225,11 +2280,15 @@ def psx_rename_list():
         'Disney\'s Party Time with Winnie the Pooh',
         'Disney\'s Spelen met Winnie de Poeh en zijn Vriendjes!',
         'Disney\'s Winnie L\'Ourson - C\' Est La Recre!',
+        'Disney Pooh e Tigro! E Qui la Festa',
+        'Disney Ven a la Fiesta! con Winnie the Pooh',
         'Disneys Plys\' Spil-og-Leg-Sted',
 
         # Disney's Story Studio - Mulan
+        'Disney\'s Aventura Interactiva - Mulan',
         'Disney\'s Verhalenstudio - Mulan',
         'Disney Fais Ton Histoire! Mulan',
+        'Disney Libro Animato Creativo - Mulan',
         'Disneys Interaktive Abenteuer - Mulan',
 
         # Disney's Tarzan
@@ -2240,25 +2299,34 @@ def psx_rename_list():
         # Disney's The Emperor's New Groove
         'Disney\'s Keizer Kuzco',
         'Disney Keisarin Uudet Kuviot',
+        'Disney El Emperador y sus Locuras',
         'Disneys Ein Koenigreich fuer ein Lama',
+        'Disneys Et Kongerike for en Lama',
         'Disneys Kejsarens Nya Stil',
         'Disneys Kejserens Nye Flip',
         'Disney Kuzco - L\'Empereur Megalo',
+        'Disney Le Follie dell\'Imperatore',
 
         # Disney's The Lion King - Simba's Mighty Adventure
         'Disney\'s De Leeuwenkoning - Simba\'s Machtige Avontuur',
+        'Disney\'s El Rey Leon - Las Aventuras del Poderoso Simba',
         'Disneys Der Koenig der Loewen - Simbas grosses Abenteuer',
+        'Disney Il Re Leone - La Grande Avventura di Simba',
         'Disney le Roi Lion - La Formidable Aventure de Simba',
 
         # Disney's The Little Mermaid II
         'Disney\'s De Kleine Zeemeermin II',
         'Disney La Petite Sirene 2',
+        'Disney La Sirenetta II',
+        'Disney La Sirenita 2',
         'Disneys Arielle 2',
 
         # Disney's Treasure Planet
         'Disney\'s Skattkammarplaneten',
         'Disney\'s Piratenplaneet - De Schat van Kapitein Flint',
+        'Disney El planeta del tesoro',
         'Disney La Planete au Tresor',
+        'Disney Il Pianeta del Tesoro',
         'Disneys Skatteplaneten',
         'Disneys Der Schatzplanet',
 
@@ -2268,17 +2336,23 @@ def psx_rename_list():
         # Disney Presents Tigger's Honey Hunt
         'Disney\'s Teigetjes Honingjacht',
         'Disney\'s Tigger\'s Honey Hunt',
+        'Disney Tigger tras un Bote de Miel',
+        'Disney Tigro e la Caccia al Miele',
         'Disney Winnie l\'Ourson - La Chasse au Miel de',
         'Disneys Tigerdyrets honningjagt',
         'Disneys Tiggers Honigjagd',
 
         # Dracula - The Last Sanctuary
         'Dracula 2 - Die letzte Zufluchtsstaette',
+        'Dracula 2 - El Ultimo Santuario',
+        'Dracula 2 - L\'Ultimo Santuario',
         'Dracula 2 - Le Dernier Sanctuaire',
         'Dracula 2 - The Last Sanctuary',
 
         # Dracula - The Resurrection
         'Dracula - A Ressurreicao',
+        'Dracula - La Risurrezione',
+        'Dracula - Resurreccion',
         'Dracula - Resurrection',
 
         # Dragon Ball GT - Final Bout
@@ -2296,12 +2370,18 @@ def psx_rename_list():
         # Duke Nukem - Total Meltdown
         'Duke Nukem',
 
+        # Dune 2000
+        'Dune',
+
         # Egypt 1556 B.V. - Tomb of the Pharaoh
+        'Egypt 1156 A.C. - L\'Enigma della Tomba Reale,'
         'Egypte 1156 AV. J.-C. - L\'Enigme de la Tombe Royale',
         'Grab des Pharao, Das',
 
         # Egypt II - The Heliopolis Prophecy
+        'Egipto II - La Profecia de Heliopolis',
         'Egypt II - Die Prophezeiung von Helipolis',
+        'Egypt II - La Profezia di Heliopolis',
         'Egypt II - La Prophetie d\'Heliopolis',
 
         # Equestrian Showcase
@@ -2322,6 +2402,7 @@ def psx_rename_list():
 
         # F.A. Premier League Stars, The
         'Bundesliga Stars 2000',
+        'Primera Division Stars',
 
         # F.A. Premier League Stars 2001, The
         'Bundesliga Stars 2001',
@@ -2408,6 +2489,8 @@ def psx_rename_list():
 
         # Gold and Glory - The Road to El Dorado
         'Gold und Ruhm - Der Weg nach El Dorado',
+        'Oro e Gloria - La Strada per El Dorado',
+        'Oro y Gloria - La Ruta hacia El Dorado',
         'Pour L\'Or et la Gloire - La Route D\'Eldorado',
 
         # Grand Theft Auto - Mission Pack 1 - London 1969
@@ -2428,6 +2511,8 @@ def psx_rename_list():
         # Hogs of War
         'Cochons de Guerre, Les',
         'Frontschweine',
+        'Hogs of War - Nati per Soffritto',
+        'Marranos en Guerra',
 
         # Hot Shots Golf
         'Everybody\'s Golf',
@@ -2439,6 +2524,8 @@ def psx_rename_list():
         'Kurushi',
 
         # In Cold Blood
+        'A Sangre Fria',
+        'A Sangue Freddo',
         'Cold Blood',
         'De Sang Froid',
 
@@ -2454,6 +2541,8 @@ def psx_rename_list():
 
         # Jade Cocoon - Story of the Tamamayu
         'Jade Cocoon - Die Tamamayu Legende',
+        'Jade Cocoon - La Leggenda del Tamamayu',
+        'Jade Cocoon - La Leyenda de Tamamayu',
 
         # Jarrett & Labonte Stock Car Racing
         'TOCA World Touring Cars',
@@ -2473,6 +2562,9 @@ def psx_rename_list():
         # Kickboxing
         'Kickboxing Knockout',
 
+        # Kick Off World
+        'Kick Off World Manager',
+
         # Kileak - The DNA Imperative
         'Kileak - The Blood',
 
@@ -2490,6 +2582,8 @@ def psx_rename_list():
         'Land Before Time, The - Racing Adventure',
 
         # Land Before Time, The - Return to the Great Valley
+        'Alla Ricerca della Valle Incantata - Ritorno alla Grande Vallata',
+        'En Busca del Valle Encantado - El Retorno al Gran Valle',
         'In einem Land vor unserer Zeit - Die Rueckkehr ins Grosse Tal',
         'Petit Dinosaure, Le - Retour vers la Grande Vallee',
 
@@ -2497,30 +2591,43 @@ def psx_rename_list():
         'L\'ile LEGO 2 - La Revanche de Cassbrik',
         'LEGO Eiland 2 - De Wraak van Dondersteen',
         'LEGO Insel 2 - Der Steinbrecher kehrt zurueck',
+        'LEGO Isola 2 - La Rivincita del Briccone',
         'LEGO Oen 2 - Kim Cool\'s Haevn',
 
         # Lethal Enforcers I & II
         'Lethal Enforcers',
 
+        # LMA Manager
+        'Manager de Liga',
+
         # LMA Manager 2001
         'BDFL Manager 2001',
+        'Football Manager Campionato 2001',
+        'Manager de Liga 2001',
 
         # LMA Manager 2002
         'BDFL Manager 2002',
+        'Football Manager Campionato 2002',
+        'Manager de Liga 2002',
         'Roger Lemerre - La Selection des Champions 2002',
 
         # Looney Tunes - Sheep Raider
         'Sheep, Dog \'n\' Wolf',
 
-        # Louvre - L'Ultime Malediction
+        # Louvre - The Final Curse
         'Louvre - A Maldicao',
+        'Louvre - L\'Ultime Malediction',
+        'Louvre - La Maledizione Finale',
+        'Louvre - La maldicion final',
 
         # Machine Head
         'Blam! Machinehead',
 
         # Magical Tetris Challenge
         'Defi au Tetris Magique',
+        'El Tetris Un Magico Desafio',
         'Magische Tetris Uitdaging',
+        'Sfida al Tetris Magico',
         'Tetris Magiska Utmaning',
 
         # Marble Master
@@ -2542,6 +2649,9 @@ def psx_rename_list():
         # Metal Gear Solid - Integral
         'Metal Gear Solid - Special Missions',
         'Metal Gear Solid - VR Missions',
+
+        # Mickey's Wild Adventure
+        'Topolino e le Sue Avventure',
 
         # Mike Tyson Boxing
         'Prince Naseem Boxing',
@@ -2573,6 +2683,8 @@ def psx_rename_list():
 
         # Necronomicon - The Dawning of Darkness
         'Necronomicon - Das Mysterium der Daemmerung',
+        'Necronomicon - El Alba de las Tinieblas',
+        'Necronomicon - Ispirato Alle Opere Di',
         'Necronomicon - L\'Aube des Tenebres',
         'Necronomicon - O Despertar das Trevas',
 
@@ -2596,23 +2708,30 @@ def psx_rename_list():
 
         # Nickelodeon Rugrats - Search for Reptar
         'Nickelodeon Les Razmoket - A la Recherche de Reptar',
+        'Nickelodeon Rugrats - Alla Ricerca di Reptar',
         'Nickelodeon Rugrats - Auf der Suche nach Reptar',
         'Nickelodeon Rugrats - De Speurtocht naar Reptar',
+        'Nickelodeon Rugrats - La Busqueda de Reptar',
 
         # Nickelodeon Rugrats - Studio Tour
         'Nickelodeon Les Razmoket - Font leur Cinema',
+        'Nickelodeon Rugrats - Excursion al estudio',
 
         # Nickelodeon Rugrats - Totally Angelica
         'Nickelodeon Les Razmoket - 100% Angelica',
 
         # Nickelodeon Rugrats in Paris - The Movie
         'Nickelodeon Les Razmoket a Paris - Le Film',
+        'Nickelodeon Rugrats en Paris - La pelicula',
 
         # Ninja - Shadow of Darkness
         'Ninja - L\'Ombre des Tenebres',
 
         # No Fear Downhill Mountain Bike Racing
         'No Fear Downhill Mountain Biking',
+
+        # Noddy's Magic Adventure
+        'Noddy - Una Aventura Magica',
 
         # Norse by Norsewest - The Return of the Lost Vikings
         'Lost Vikings 2 - Norse by Norsewest',
@@ -2642,10 +2761,13 @@ def psx_rename_list():
         # Peter Pan in Disney's Return to Never Land
         'Disney\'s Peter Pan - Adventures in Never Land',
         'Disney\'s Peter Pan - Avonturen in Nooitgedachtland',
+        'Disney Aventuras de Peter Pan en el Pais de Nunca Jamas',
         'Disney Peter Pan - Aventuras na Terra do Nunca',
         'Disney Peter Pan - Aventures au Pays Imaginaire',
+        'Disney Peter Pan - L\'Avventura nell\'Isola che non c\'e',
         'Disneyn Peter Pan - Seikkailu Mika-Mika-Maassa',
         'Disneys Peter Pan - Aeventyr i landet Ingenstans',
+        'Disneys Peter Pan - Eventyr i Drommeland',
         'Disneys Peter Pan - Eventyr pa Onskeoen',
         'Disneys Peter Pan - Rueckkehr nach Nimmerland',
 
@@ -2653,18 +2775,23 @@ def psx_rename_list():
         'Pipe Mania 3D',
 
         # Play with the Teletubbies
+        'Gioca con i Teletubbies',
         'Joue avec les Teletubbies',
+        'Juega con los Teletubbies',
 
         # Player Manager
         'Guy Roux Football Manager Saison 97-98',
 
         # Player Manager 2000
+        'Barca Manager 2000',
+        'Calcio Manager 2000',
         'Guy Roux Manager 2000',
         'Sportweek Player Manager 2000',
 
         # Player Manager Ninety Nine
         'Guy Roux Manager \'99',
         'Player Manager - Epoca 98-99',
+        'Player Manager Novanta Nove',
 
         # Pong - The Next Level
         'Pong',
@@ -2683,6 +2810,9 @@ def psx_rename_list():
 
         # Powerslave
         'Exhumed',
+
+        # Premier Manager Ninety Nine
+        'Premier Manager Novanta Nove',
 
         # Premier Manager 2000
         'Anstoss - Premier Manager',
@@ -2768,6 +2898,9 @@ def psx_rename_list():
         # Shipwreckers!
         'Overboard!',
 
+        # Small Soldiers
+        'Pequenos Guerreros',
+
         # Sim Theme Park
         'Theme Park World',
 
@@ -2795,9 +2928,14 @@ def psx_rename_list():
         # Star Fighter
         'StarFighter 3000',
 
+        # Star Wars - Episode I - Jedi Power Battles
+        'Star Wars - Episodio I - Jedi Power Battles',
+
         # Star Wars - Episode I - The Phantom Menace
         'Star Wars - Episode I - Die dunkle Bedrohung',
         'Star Wars - Episode I - La Menace Fantome',
+        'Star Wars - Episodio I - La Amenaza Fantasma',
+        'Star Wars - Episodio I - La Minaccia Fantasma',
 
         # Starfighter Sanvein
         'Sanvein',
@@ -2825,6 +2963,12 @@ def psx_rename_list():
         'Mundial 2002 Challenge',
         'WM Nationalspieler',
 
+        # Syphon Filter 2
+        'Syphon Filter 2 - Conspiracion Mortal',
+
+        # Syphon Filter 3
+        'Syphon Filter 3 - Sentencia Final',
+
         # T'ai Fu - Wrath of the Tiger
         'T\'ai Fu - Die Rache des Tigers',
 
@@ -2837,7 +2981,9 @@ def psx_rename_list():
         # TechnoMage - Return of Eternity
         'TechnoMage - De Terugkeer der Eeuwigheid',
         'TechnoMage - Die Rueckkehr der Ewigkeit',
+        'Technomage - El Retorno de la Eternidad',
         'TechnoMage - En Quete de L\'ternite',
+        'TechnoMage - Ritorno all\'Eternita',
 
         # Tecmo's Deception - Invitation to Darkness
         'Devil\'s Deception',
@@ -2855,11 +3001,13 @@ def psx_rename_list():
         '4x4 World Trophy',
 
         # This Is Football
+        'Esto Es Futbol',
         'Fussball Live',
         'Monde des Bleus, Le - Le Jeu Officiel de l\'Equipe de France',
         'This Is Soccer',
 
         # This Is Football 2
+        'Esto Es Futbol 2',
         'Fussball Live 2',
         'Monde de Bleus 2, Le',
         'This Is Soccer 2',
@@ -2878,6 +3026,9 @@ def psx_rename_list():
 
         # Tiger Woods PGA Tour Golf
         'Tiger Woods USA Tour 2001',
+
+        # Time Bokan Series - Bokan desu yo (タイムボカンシリーズ ボカンですよ)
+        'Time Bokan - Yattaman',
 
         # Tiny Toon Adventures - The Great Beanstalk
         'Tiny Toon Adventures - Buster and the Beanstalk',
@@ -2904,12 +3055,14 @@ def psx_rename_list():
         # Tomb Raider Chronicles
         'Tomb Raider - Die Chronik',
         'Tomb Raider - Sur les Traces de Lara Croft',
+        'Tomb Raider Chronicles - La Leggenda di Lara Croft',
 
         # Tomba!
         'Tombi!',
 
         # Tomba! 2 - The Evil Swine Return
         'Tombi! 2',
+        'Tombi! 2 - Contra los cerdiablos',
 
         # Tony Hawk's Pro Skater
         'Tony Hawk\'s Skateboarding',
@@ -2928,6 +3081,8 @@ def psx_rename_list():
 
         # UEFA Champions League - Season 1998-99
         'UEFA Champions League - Saison 1998-99',
+        'UEFA Champions League - Stagione 1998-99',
+        'UEFA Champions League - Temporada 1998-99',
 
         # Ultimate 8 Ball
         'Actua Pool',
@@ -2938,7 +3093,9 @@ def psx_rename_list():
 
         # Versailles - A Game of Intrigue
         'Versailles - Complot a la Cour du Roi Soleil',
+        'Versailles - Complotto alla Corte del Re Sole',
         'Versailles - Verschwoerung am Hof',
+        'Versalles - Complot en la corte del Rey Sol',
 
         # Viva Soccer
         'Absolute Football',
@@ -2953,6 +3110,7 @@ def psx_rename_list():
 
         # Walt Disney's The Jungle Book - Rhythm n' Groove
         'Dschungelbuch, Das - Groove Party',
+        'Disney Il Libro della Giungla - Il Ballo della Giungla',
         'Walt Disney\'s Jungle Boek - Groove Party',
         'Walt Disney\'s The Jungle Book - Groove Party',
         'Walt Disney El Libro de la Selva - Muevete con Ritmo',
@@ -2962,16 +3120,21 @@ def psx_rename_list():
         'Walt Disneys Das Dschungelbuch - Groove Party',
         'Walt Disneys Djungelboken - Groove Party',
         'Walt Disneys Junglebogen - Groove Party',
+        'Walt Disneys Jungelboken - Groove Party',
 
         # Who Wants to Be a Millionaire
+        'Chi Vuol Essere Miliardario',
         'Haluatko Miljonaariksi',
         'Hvem Vil Vaere Millionaer',
         'Millionen Show, Die',
         'Qui Veut Gagner des Millions',
+        'Quiere ser millonario',
         'Vem Vill Bli Miljonaer',
+        'Vil du bli millionaer',
         'Wer wird Millionaer',
 
         # Who Wants to Be a Millionaire - 2nd Edition
+        'Chi Vuol Essere Milionario - Seconda Edizione',
         'Qui Veut Gagner des Millions - Seconde Edition',
         'Wer wird Millionaer - 2. Edition',
 
@@ -2992,8 +3155,10 @@ def psx_rename_list():
         'Folles Poursuites',
 
         # World Cup 98
+        'Copa del Mundo - Francia \'98',
         'Coupe du Monde 98',
         'Frankreich 98 - Die Fussball-WM',
+        'World Cup 98 - Coppa del Mondo',
 
         # Wu-Tang - Shaolin Style
         'Wu-Tang - Taste the Pain',
