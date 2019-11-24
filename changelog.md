@@ -5,6 +5,8 @@
   the above, to take into account localized title dupes. The file has also
   been reorganized to make future dupe additions easier as Retool moves closer
   to being a 1G1R tool.
+- The `-re` and `-ra` options are now `-r` and `-s` respectively. Both split a
+  dat into separate regions, but `-r` dedupes, whereas `-s` keeps all titles.
 - The `-o` flag is no longer mandatory, and is now only defines an output
   folder. Output files are automatically named.
 - You can now remove alternate (Alt) titles with the `-l` option.
@@ -47,6 +49,9 @@
     1. Russian
 - Brazil and Latin America have been moved of the native English list. Modern
   games from these regions aren't guaranteed to have English translations.
+- Japan has been moved up to second highest priority for non-native English
+  regions, after Europe. The Asia region being higher priority was stealing
+  away titles that should have been taken from Japan.
 - The requirement for the Logiqx doctype string in input files has been
   removed, as some dats that weren't from Redump didn't have the string and
   were erroring.

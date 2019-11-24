@@ -53,9 +53,9 @@ def main():
     # Define regions where titles might have an English version
     region_list_other = [
         'Europe',
+        'Japan',
         'Asia',
         'Scandinavia',
-        'Japan',
         'Argentina',
         'Austria',
         'Belgium',
