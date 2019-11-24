@@ -15,8 +15,8 @@ import textwrap
 import html
 from lxml import etree
 from bs4 import BeautifulSoup, Doctype # For XML parsing
-if os.path.exists('_regional_renames_test.py'):
-    import _regional_renames_test as _regional_renames_final
+if os.path.exists('_test.py'):
+    import _test as _regional_renames_final
 else:
     import _regional_renames_final # Duplicate image titles that have different names in different regions
 
@@ -342,10 +342,10 @@ def header(dat_name, dat_version, dat_author, dat_url, dat_header_exclusion, reg
     if user_input.english_only == True: english_status = ' (English)'
 
     if user_input.split_regions_no_dupes == True or user_input.split_regions == True:
-        name = '\n\t\t<name>' + dat_name + ' (' + region + ')' + english_status + dat_header_exclusion + ' (' + regional_title_count + ' of ' + new_title_count + ') (' + dat_version + ')' + '</name>'
+        name = '\n\t\t<name>' + dat_name + ' (Retool)' + '</name>'
         description = '\n\t\t<description>' + dat_name  + ' (' + region + ')' + english_status + dat_header_exclusion + ' (' + regional_title_count + ' of ' + new_title_count + ') (' + dat_version + ')' + '</description>'
     else:
-        name = '\n\t\t<name>' + dat_name + english_status + dat_header_exclusion + ' (' + new_title_count + ') (' + dat_version + ')' + '</name>'
+        name = '\n\t\t<name>' + dat_name + ' (Retool)' + '</name>'
         description = '\n\t\t<description>' + dat_name + english_status + dat_header_exclusion + ' (' + new_title_count + ') (' + dat_version + ')' + '</description>'
 
     if dat_author != '':
@@ -589,7 +589,7 @@ def localized_titles_unique (region, region_list_english, titles, unique_list, d
             highest_version = {}
             highest_revision = {}
 
-            # First, get the highest version
+            # Get the highest version
             for subtitle in regional_titles_data[title]:
                 # print('   └ ' + subtitle.full_title)
 
@@ -637,7 +637,7 @@ def localized_titles_unique (region, region_list_english, titles, unique_list, d
                             if something.full_title == x:
                                 regional_titles_data[title].remove(something)
 
-            # Then, get the highest revision
+            # Get the highest revision
             for subtitle in regional_titles_data[title]:
                 if '(Rev ' in str(subtitle.full_title):
                     # Get the base titles
