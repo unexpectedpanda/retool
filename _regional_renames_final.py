@@ -1135,7 +1135,7 @@ def threedo_rename_list():
         'True Golf Classics - Pebble Beach Golf Links',
 
         # Road & Track Presents - The Need for Speed
-        'Road & Track Presents - OverDrivin&#x27;', # (オーバードライビン)
+        'Road & Track Presents - OverDrivin\'', # (オーバードライビン)
 
         # SHADOW - War of Succession
         'SHADOW Warriors', # (シャドー・ウォリアー)
@@ -1917,6 +1917,18 @@ def saturn_rename_list():
 # Sony PlayStation
 def psx_rename_list():
     return [
+        # 007 - The World Is Not Enough
+        '007 - Die Welt Ist Nicht Genug',
+        '007 - Le Monde ne Suffit Pas',
+
+        # 007 - Tomorrow Never Dies
+        '007 - Demain ne Meurt Jamais',
+        '007 - Der Morgen Stirbt Nie',
+
+        # 40 Winks
+        'Dream Story - Les Aventures de Tim et Lola',
+        'Ruff & Tumble',
+
         # A-Train - Trains, Power, Money
         'A.IV - Evolution Global',
 
@@ -1925,6 +1937,14 @@ def psx_rename_list():
 
         # Adventures of Lomax, The
         'Lomax',
+
+        # Alex Ferguson's Player Manager 2001
+        'DSF Fussball Manager 2001',
+        'Guy Roux Manager 2001',
+
+        # Alex Ferguson's Player Manager 2002
+        'DSF Fussball Manager 2002',
+        'Sportweek Player Manager 2001',
 
         # Alexi Lalas International Soccer
         'Golden Goal 98',
@@ -1935,6 +1955,15 @@ def psx_rename_list():
 
         # Alone in the Dark - One-Eyed Jack's Revenge
         'Alone in the Dark - Jack Is Back',
+
+        # Alundra 2 - A New Legend Begins
+        'Alundra 2 - Der Beginn einer neuen Legende',
+        'Alundra 2 - Une Legende Est Nee',
+
+        # Amerzone - The Explorer's Legacy
+        'Amerzone, L\'',
+        'Amerzone - Das Testament des Forschungsreisenden',
+        'Amerzone - O Testamento do Explorador',
 
         # Army Men - Green Rogue
         'Army Men - Omega Soldier',
@@ -1951,6 +1980,10 @@ def psx_rename_list():
         # Army Men - World War - Team Assault
         'Army Men - Team Assault',
 
+        # Atlantis - The Lost Tales
+        'Atlantis - Das sagenhafte Abenteuer',
+        'Atlantis - Secrets d\'un Monde Oublie',
+
         # Backyard Soccer
         'Junior Sports Football',
 
@@ -1959,6 +1992,16 @@ def psx_rename_list():
 
         # Ballerburg - Castle Chaos
         'Ballerburg',
+
+        # Barbie - Explorer
+        'Barbie - Aventuriere',
+
+        # Barbie - Race & Ride
+        'Barbie - Aventure Equestre',
+
+        # Barbie - Super Sports
+        'Barbie - Sports Extreme',
+        'Barbie - Super Sport',
 
         # Batman Beyond - Return of the Joker
         'Batman of the Future - Return of the Joker',
@@ -1969,11 +2012,20 @@ def psx_rename_list():
         # Big Ol' Bass 2
         'Fisherman\'s Bait 3',
 
+        # Blaze & Blade - Eternal Quest
+        'Legend of Foresia - La Contree Interdite',
+
         # Bloody Roar
         'Bloody Roar - Hyper Beast Duel',
 
         # Bloody Roar II
         'Bloody Roar 2 - Bringer of the New Age',
+
+        # Bob the Builder - Can We Fix It
+        'Bob le Bricoleur - Reparer C\'est Gagne!',
+        'Byggare Bob - Kan Vi Fixa Det',
+        'Byggemand Bob - Kan Vi Klare Det',
+        'Puuha Pete - Korjataanko',
 
         # Bogey - Dead 6
         'Raging Skies',
@@ -1996,6 +2048,14 @@ def psx_rename_list():
         # Brian Lara Cricket
         'Shane Warne Cricket',
 
+        # Broken Sword - The Shadow of the Templars
+        'Baphomets Fluch',
+        'Chevaliers de Baphomet, Les',
+
+        # Broken Sword II - The Smoking Mirror
+        'Baphomets Fluch II - Die Spiegel der Finsternis',
+        'Boucliers de Quetzalcoatl, Les - Les Chevaliers de Baphomet II',
+
         # Builder's Block
         'Land Maker',
 
@@ -2015,7 +2075,16 @@ def psx_rename_list():
         'Capcom vs. SNK - Millennium Fight 2000 Pro',
 
         # Car and Driver Presents - Grand Tour Racing '98
-        'Total Drivin',
+        'M6 Turbo Racing',
+        'Total Drivin', # There are some differences here, if you care: https://gtr98.wordpress.com/2014/01/01/about-total-drivin-m6-turbo-racing/
+
+        # China - The Forbidden City
+        'Chine - Intrigue dans la Cite Interdite',
+        'Verrat in der Verbotenen Stadt',
+
+        # City of Lost Children, The
+        'Cite des Enfants Perdus, La',
+        'Stadt der verlorenen Kinder, Die',
 
         # Cleopatra's Fortune
         'Cleopatra Fortune',
@@ -2025,6 +2094,17 @@ def psx_rename_list():
 
         # Colin McRae Rally
         'Colin McRae - The Rally',
+
+        # Command & Conquer
+        'Command & Conquer - Teil 1 - Der Tiberiumkonflikt',
+
+        # Command & Conquer - Red Alert
+        'Command & Conquer - Alarmstufe Rot',
+        'Command & Conquer - Alerte Rouge',
+
+        # Command & Conquer - Red Alert - Retaliation
+        'Command & Conquer - Alarmstufe Rot - Gegenschlag',
+        'Command & Conquer - Alerte Rouge - Mission Tesla',
 
         # Contender
         'Victory Boxing 2',
@@ -2047,6 +2127,9 @@ def psx_rename_list():
         # Darkstone
         'Darkstone - Evil Reigns',
 
+        # DBZ - Dead Ball Zone
+        'CBZ - CyBall Zone',
+
         # Defcon 5 - Peace Has a Price...
         'Defcon 5',
 
@@ -2061,27 +2144,142 @@ def psx_rename_list():
 
         # Discworld II - Mortality Bytes!
         'Discworld II - Missing Presumed...!',
+        'Discworld II - Mortellement Votre',
+        'Discworld II - Vermutlich vermisst...!',
+
+        # Disney-Pixar A Bug's Life
+        'Disney-Pixar Das grosse Krabbeln',
+        'Disney-Pixar Ett smakryps liv',
+        'Disney-Pixar Graes-Rodderne',
+        'Disney-Pixar Oetoekaen elaemaeae',
+
+        # Disney-Pixar A Bug's Life - Disney's Activity Centre
+        'Disney-Pixar A Bug\'s Life - Atelier de Jeux',
+        'Disney-Pixar A Bug\'s Life - Disneys Malen und Spielen',
+        'Disney-Pixar Een Luizenleven',
+
+        # Disney-Pixar Buzz Lightyear of Star Command
+        'Disney-Pixar Captain Buzz Lightyear - Star Command',
+        'Disney-Pixar Les Aventures de Buzz L\'Eclair',
 
         # Disney-Pixar Monsters, Inc. - Scream Team
+        'Disney-Pixar Die Monster AG - Schreckens-Insel',
+        'Disney-Pixar Monsterit Oy - Saeikkysaari',
+        'Disney-Pixar Monsters en Co. - Schrik Eiland',
+        'Disney-Pixar Monsters, Inc. - Monstros e Companhia - Ilha Assustadora',
         'Disney-Pixar Monsters, Inc. - Scare Island',
+        'Disney-Pixar Monsters, Inc. - Skraemmaroen',
+        'Disney-Pixar Monsters, Inc. - Skraemmeoen',
+        'Disney-Pixar Monstres & Cie - L\'ile de l\'Epouvante',
+
+        # Disney-Pixar Toy Story 2 - Buzz Lightyear to the Rescue!
+        'Disney-Pixar Toy Story 2 - Buzz l\'Eclair a la Rescousse!',
+        'Disney-Pixar Toy Story 2 - Buzz Lightyear eilt zur Hilfe!',
+
+        # Disney's Aladdin in Nasira's Revenge
+        'Disney\'s Aladdin in Nasira\'s Wraak',
+        'Disney Aladdin - La Revanche de Nasira',
+        'Disneyn Aladdin - Nasiran Kosto',
+        'Disneys Aladdin - Nasiras haemnd',
+        'Disneys Aladdin - Nasiras Haevn',
+        'Disneys Aladdin - Nasiras Rache',
+
+        # Disney's Atlantis - The Lost Empire
+        'Disney\'s Atlantis - En foersvunnen vaerld',
+        'Disney\'s Atlantis - De Verzonken Stad',
+        'Disney Atlantida - O Continente Perdido',
+        'Disney Atlantide - L\'Empire Perdu',
+        'Disneyn Atlantis - Kadonnut Kaupunki',
+        'Disneys Atlantis - Das Geheimnis der verlorenen Stadt',
+        'Disneys Atlantis - Det Forsvundne Rige',
+
+        # Disney's Dinosaur
+        'Disney Dinosaure',
+        'Disney\'s Dinosaurier',
 
         # Disney's Donald Duck - Goin' Quackers
         'Disney\'s Donald Duck - Quack Attack',
 
+        # Disney's Goofy's Fun House
+        'Disney Dingo Une Journee de Dingue!',
+
         # Disney's Hercules Action Game
+        'Disney\'s Action spel med Herkules',
         'Disney\'s Action Game featuring Hercules',
+        'Disney\'s Action Game met Hercules',
+        'Disney Jeu d\'Action Disney Presente Hercule',
+        'Disneys Action Spil med Herkules',
+        'Disneys Hercules Action-Spiel',
 
         # Disney's Lilo & Stitch
+        'Disney\'s Lilo & Stitch - Heisa op Hawai',
         'Disney\'s Lilo & Stitch - Trouble in Paradise',
+        'Disney Lilo & Stitch - Ouragan sur Hawai',
+        'Disneys Lilo & Stitch - Ballade pa Hawaii!',
+        'Disney Lilo & Stitch - Sarilhos no Paraiso',
+        'Disneys Lilo & Stitch - Trubbel i Paradiset',
+        'Disneys Lilo & Stitch - Zoff auf Hawaii',
 
         # Disney's Pooh's Party Game - In Search of the Treasure
+        'Disney\'s Party mit Winnie Puuh',
         'Disney\'s Party Time with Winnie the Pooh',
+        'Disney\'s Spelen met Winnie de Poeh en zijn Vriendjes!',
+        'Disney\'s Winnie L\'Ourson - C\' Est La Recre!',
+        'Disneys Plys\' Spil-og-Leg-Sted',
+
+        # Disney's Story Studio - Mulan
+        'Disney\'s Verhalenstudio - Mulan',
+        'Disney Fais Ton Histoire! Mulan',
+        'Disneys Interaktive Abenteuer - Mulan',
+
+        # Disney's Tarzan
+        'Disney Tarzan',
+        'Disneyn Tarzan',
+        'Disneys Tarzan',
+
+        # Disney's The Emperor's New Groove
+        'Disney\'s Keizer Kuzco',
+        'Disney Keisarin Uudet Kuviot',
+        'Disneys Ein Koenigreich fuer ein Lama',
+        'Disneys Kejsarens Nya Stil',
+        'Disneys Kejserens Nye Flip',
+        'Disney Kuzco - L\'Empereur Megalo',
+
+        # Disney's The Lion King - Simba's Mighty Adventure
+        'Disney\'s De Leeuwenkoning - Simba\'s Machtige Avontuur',
+        'Disneys Der Koenig der Loewen - Simbas grosses Abenteuer',
+        'Disney le Roi Lion - La Formidable Aventure de Simba',
+
+        # Disney's The Little Mermaid II
+        'Disney\'s De Kleine Zeemeermin II',
+        'Disney La Petite Sirene 2',
+        'Disneys Arielle 2',
+
+        # Disney's Treasure Planet
+        'Disney\'s Skattkammarplaneten',
+        'Disney\'s Piratenplaneet - De Schat van Kapitein Flint',
+        'Disney La Planete au Tresor',
+        'Disneys Skatteplaneten',
+        'Disneys Der Schatzplanet',
+
+        # Disney's Winnie the Pooh - Preschool
+        'Disney Learning - Winnie the Pooh Preschool',
 
         # Disney Presents Tigger's Honey Hunt
+        'Disney\'s Teigetjes Honingjacht',
         'Disney\'s Tigger\'s Honey Hunt',
+        'Disney Winnie l\'Ourson - La Chasse au Miel de',
+        'Disneys Tigerdyrets honningjagt',
+        'Disneys Tiggers Honigjagd',
 
         # Dracula - The Last Sanctuary
+        'Dracula 2 - Die letzte Zufluchtsstaette',
+        'Dracula 2 - Le Dernier Sanctuaire',
         'Dracula 2 - The Last Sanctuary',
+
+        # Dracula - The Resurrection
+        'Dracula - A Ressurreicao',
+        'Dracula - Resurrection',
 
         # Dragon Ball GT - Final Bout
         'Dragon Ball - Final Bout',
@@ -2098,11 +2296,36 @@ def psx_rename_list():
         # Duke Nukem - Total Meltdown
         'Duke Nukem',
 
+        # Egypt 1556 B.V. - Tomb of the Pharaoh
+        'Egypte 1156 AV. J.-C. - L\'Enigme de la Tombe Royale',
+        'Grab des Pharao, Das',
+
+        # Egypt II - The Heliopolis Prophecy
+        'Egypt II - Die Prophezeiung von Helipolis',
+        'Egypt II - La Prophetie d\'Heliopolis',
+
         # Equestrian Showcase
+        'Alexandra Ledermann 2 - Equitation Competition',
         'Equestriad 2001',
 
         # Expendable
         'Millennium Soldier - Expendable',
+
+        # Extreme 500
+        'Suzuki Alstare Challenge',
+
+        # F.A. Premier League Football Manager 2000, The
+        'Bundesliga 2000 - Der Fussball-Manager',
+
+        # F.A. Premier League Football Manager 2001, The
+        'Fussball Manager 2001',
+
+        # F.A. Premier League Stars, The
+        'Bundesliga Stars 2000',
+
+        # F.A. Premier League Stars 2001, The
+        'Bundesliga Stars 2001',
+        'LNF Stars 2001',
 
         # Family Card Games Fun Pack
         'Card Shark',
@@ -2149,11 +2372,21 @@ def psx_rename_list():
         # Fisherman's Bait - A Bass Challenge
         'Fisherman\'s Bait - Bass Challenge',
 
+        # Flintstones, The - Bedrock Bowling
+        'Flintstones, Die - Bedrock Bowling',
+        'Pierrafeu, Les - Bedrock Bowling',
+
         # Floating Runner - Quest for the 7 Crystals
         'Floating Runner',
 
+        # Fluid
+        'Sub',
+
         # Formula 1 Championship Edition
         'Formula 1 97',
+
+        # Formula Karts - Special Edition
+        'Elf Masters presente Formula Karts - Special Edition',
 
         # Fox Sports Golf '99
         'Actua Golf 2',
@@ -2173,17 +2406,28 @@ def psx_rename_list():
         # Goal Storm '97
         'International Superstar Soccer Pro',
 
+        # Gold and Glory - The Road to El Dorado
+        'Gold und Ruhm - Der Weg nach El Dorado',
+        'Pour L\'Or et la Gloire - La Route D\'Eldorado',
+
         # Grand Theft Auto - Mission Pack 1 - London 1969
         'Grand Theft Auto - London 1969',
 
         # Grid Runner
         'Grid Run',
 
+        # Harry Potter and the Chamber of Secrets
+        'Harry Potter ja Salaisuuksien Kammio',
+
         # Harry Potter and the Sorcerer's Stone
         'Harry Potter and the Philosopher\'s Stone',
 
         # Hi-Octane - The Track Fights Back!
         'Hi-Octane',
+
+        # Hogs of War
+        'Cochons de Guerre, Les',
+        'Frontschweine',
 
         # Hot Shots Golf
         'Everybody\'s Golf',
@@ -2194,6 +2438,10 @@ def psx_rename_list():
         # I.Q - Intelligent Qube
         'Kurushi',
 
+        # In Cold Blood
+        'Cold Blood',
+        'De Sang Froid',
+
         # Independence Day
         'Independence Day - The Game',
 
@@ -2202,9 +2450,16 @@ def psx_rename_list():
 
         # Invasion from Beyond
         'B-Movie',
+        'Invasion Vient de l\'Espace, L\'',
+
+        # Jade Cocoon - Story of the Tamamayu
+        'Jade Cocoon - Die Tamamayu Legende',
 
         # Jarrett & Labonte Stock Car Racing
         'TOCA World Touring Cars',
+
+        # Jeff Wayne's The War of the Worlds
+        'Jeff Wayne\'s La Guerre des Mondes',
 
         # Jet Moto
         'Jet Rider',
@@ -2222,22 +2477,64 @@ def psx_rename_list():
         'Kileak - The Blood',
 
         # Knockout Kings
+        'Box-Champions',
         'Knockout Kings 99',
+
+        # Knockout Kings 2000
+        'Box Champions 2000',
+
+        # Knockout Kings 2001
+        'Box Champions 2001',
 
         # Land Before Time, The - Great Valley Racing Adventure
         'Land Before Time, The - Racing Adventure',
 
+        # Land Before Time, The - Return to the Great Valley
+        'In einem Land vor unserer Zeit - Die Rueckkehr ins Grosse Tal',
+        'Petit Dinosaure, Le - Retour vers la Grande Vallee',
+
+        # Lego Island 2 - The Brickster's Revenge
+        'L\'ile LEGO 2 - La Revanche de Cassbrik',
+        'LEGO Eiland 2 - De Wraak van Dondersteen',
+        'LEGO Insel 2 - Der Steinbrecher kehrt zurueck',
+        'LEGO Oen 2 - Kim Cool\'s Haevn',
+
         # Lethal Enforcers I & II
         'Lethal Enforcers',
+
+        # LMA Manager 2001
+        'BDFL Manager 2001',
+
+        # LMA Manager 2002
+        'BDFL Manager 2002',
+        'Roger Lemerre - La Selection des Champions 2002',
 
         # Looney Tunes - Sheep Raider
         'Sheep, Dog \'n\' Wolf',
 
+        # Louvre - L'Ultime Malediction
+        'Louvre - A Maldicao',
+
         # Machine Head
         'Blam! Machinehead',
 
+        # Magical Tetris Challenge
+        'Defi au Tetris Magique',
+        'Magische Tetris Uitdaging',
+        'Tetris Magiska Utmaning',
+
         # Marble Master
         'Swing',
+
+        # Mary King's Riding Star
+        'Lussan Nathhorst Presenterar Riding Star',
+
+        # MechWarrior 2 - 31st Century Combat - Arcade Combat Edition
+        'MechWarrior 2 - Combat au 31ieme Siecle',
+        'MechWarrior 2 - Kampfspiel des 31. Jahrhunderts - Arcade Combat Edition',
+
+        # Medal of Honor - Underground
+        'Medal of Honor - Resistance',
 
         # MediEvil II
         'MediEvil 2',
@@ -2251,6 +2548,7 @@ def psx_rename_list():
 
         # Monaco Grand Prix
         'Monaco Grand Prix Racing Simulation 2',
+        'Racing Simulation 2',
 
         # Motor Toon Grand Prix
         'Motor Toon Grand Prix 2',
@@ -2273,6 +2571,11 @@ def psx_rename_list():
         # NBA Shootout 97
         'Total NBA \'97',
 
+        # Necronomicon - The Dawning of Darkness
+        'Necronomicon - Das Mysterium der Daemmerung',
+        'Necronomicon - L\'Aube des Tenebres',
+        'Necronomicon - O Despertar das Trevas',
+
         # Need for Speed - High Stakes
         'Need for Speed - Road Challenge',
 
@@ -2288,11 +2591,37 @@ def psx_rename_list():
         # NHL Powerplay '96
         'NHL Powerplay',
 
+        # Nickelodeon Rocket Power - Team Rocket Rescue
+        'Nickelodeon Rocket Power - Sauvetage Extreme',
+
+        # Nickelodeon Rugrats - Search for Reptar
+        'Nickelodeon Les Razmoket - A la Recherche de Reptar',
+        'Nickelodeon Rugrats - Auf der Suche nach Reptar',
+        'Nickelodeon Rugrats - De Speurtocht naar Reptar',
+
+        # Nickelodeon Rugrats - Studio Tour
+        'Nickelodeon Les Razmoket - Font leur Cinema',
+
+        # Nickelodeon Rugrats - Totally Angelica
+        'Nickelodeon Les Razmoket - 100% Angelica',
+
+        # Nickelodeon Rugrats in Paris - The Movie
+        'Nickelodeon Les Razmoket a Paris - Le Film',
+
+        # Ninja - Shadow of Darkness
+        'Ninja - L\'Ombre des Tenebres',
+
         # No Fear Downhill Mountain Bike Racing
         'No Fear Downhill Mountain Biking',
 
         # Norse by Norsewest - The Return of the Lost Vikings
         'Lost Vikings 2 - Norse by Norsewest',
+
+        # Oddworld - Abe's Exodus
+        'Oddworld - L\'Exode d\'Abe',
+
+        # Oddworld - Abe's Oddysee
+        'Oddworld - L\'Odyssee d\'Abe',
 
         # Olympic Summer Games
         'Olympic Games',
@@ -2300,17 +2629,42 @@ def psx_rename_list():
         # Pac-Man World - 20th Anniversary
         'Pac-Man World 20th Anniversary',
 
+        # Pajama Sam - You Are What You Eat from Your Head to Your Feet
+        'Pyjama Sam - Heros du Gouter',
+        'Pyjama Sam - Suessigkeiten kriegen Saures',
+
         # PaRappa the Rapper
         'PaRappa the Rapper - The Hip Hop Hero',
 
+        # Pet in TV
+        'Pet in TV - Ton Nouveau Meilleur Ami!',
+
         # Peter Pan in Disney's Return to Never Land
         'Disney\'s Peter Pan - Adventures in Never Land',
+        'Disney\'s Peter Pan - Avonturen in Nooitgedachtland',
+        'Disney Peter Pan - Aventuras na Terra do Nunca',
+        'Disney Peter Pan - Aventures au Pays Imaginaire',
+        'Disneyn Peter Pan - Seikkailu Mika-Mika-Maassa',
+        'Disneys Peter Pan - Aeventyr i landet Ingenstans',
+        'Disneys Peter Pan - Eventyr pa Onskeoen',
+        'Disneys Peter Pan - Rueckkehr nach Nimmerland',
 
         # Pipe Dreams 3D
         'Pipe Mania 3D',
 
+        # Play with the Teletubbies
+        'Joue avec les Teletubbies',
+
+        # Player Manager
+        'Guy Roux Football Manager Saison 97-98',
+
         # Player Manager 2000
+        'Guy Roux Manager 2000',
         'Sportweek Player Manager 2000',
+
+        # Player Manager Ninety Nine
+        'Guy Roux Manager \'99',
+        'Player Manager - Epoca 98-99',
 
         # Pong - The Next Level
         'Pong',
@@ -2329,6 +2683,9 @@ def psx_rename_list():
 
         # Powerslave
         'Exhumed',
+
+        # Premier Manager 2000
+        'Anstoss - Premier Manager',
 
         # Pro-Pinball
         'Pro Pinball - The Web',
@@ -2366,6 +2723,9 @@ def psx_rename_list():
         # Red Asphalt
         'Rock & Roll Racing 2 - Red Asphalt',
 
+        # Rescue Heroes - Molten Menace
+        'Rescue Heroes - Helden in Gefahr',
+
         # Risk - The Game of Global Domination
         'Risk',
 
@@ -2381,11 +2741,29 @@ def psx_rename_list():
         # Rush Hour
         'Speedster',
 
+        # Saban's Power Rangers - Time Force
+        'Power Rangers - La Force du Temps',
+
+        # Sabrina the Teenage Witch - A Twitch in Time!
+        'Sabrina l\'Apprentie Sorciere et l\'Horloge Cosmique',
+
         # Samurai Shodown III - Blades of Blood
         'Samurai Shodown III',
 
+        # Sangokushi V (三國志Ｖ)
+        'Sanguozhi V',
+
+        # Scooby-Doo and the Cyber Chase
+        'Scooby-Doo et la Cybertraque',
+
         # Sentient
         'Sentient - Explore the Infinite',
+
+        # Shachou Eiyuu Den (射鵰英雄傳)
+        'Shediao Yingxiongzhuan',
+
+        # Shadow Man
+        'Shadow Man - Rette deine Seele',
 
         # Shipwreckers!
         'Overboard!',
@@ -2408,11 +2786,18 @@ def psx_rename_list():
         # Speed Punks
         'Speed Freaks',
 
+        # Spider-Man 2 - Enter - Electro
+        'Spider-Man 2 - La Revanche d\'Electro',
+
         # Spyro 2 - Ripto's Rage!
         'Spyro 2 - Gateway to Glimmer',
 
         # Star Fighter
         'StarFighter 3000',
+
+        # Star Wars - Episode I - The Phantom Menace
+        'Star Wars - Episode I - Die dunkle Bedrohung',
+        'Star Wars - Episode I - La Menace Fantome',
 
         # Starfighter Sanvein
         'Sanvein',
@@ -2432,11 +2817,27 @@ def psx_rename_list():
         # Strikers 1945
         'Strikers 1945 II',
 
+        # Suikoden II
+        'Gensou Suikoden II',
+
+        # Sven-Goeran Eriksson's World Challenge
+        'Marcel Desailly Pro Football',
+        'Mundial 2002 Challenge',
+        'WM Nationalspieler',
+
+        # T'ai Fu - Wrath of the Tiger
+        'T\'ai Fu - Die Rache des Tigers',
+
         # T.R.A.G. - Mission of Mercy
         'Hard Edge',
 
         # Team Losi RC Racer
         'Buggy',
+
+        # TechnoMage - Return of Eternity
+        'TechnoMage - De Terugkeer der Eeuwigheid',
+        'TechnoMage - Die Rueckkehr der Ewigkeit',
+        'TechnoMage - En Quete de L\'ternite',
 
         # Tecmo's Deception - Invitation to Darkness
         'Devil\'s Deception',
@@ -2454,9 +2855,13 @@ def psx_rename_list():
         '4x4 World Trophy',
 
         # This Is Football
+        'Fussball Live',
+        'Monde des Bleus, Le - Le Jeu Officiel de l\'Equipe de France',
         'This Is Soccer',
 
         # This Is Football 2
+        'Fussball Live 2',
+        'Monde de Bleus 2, Le',
         'This Is Soccer 2',
 
         # Thunder Truck Rally
@@ -2477,6 +2882,10 @@ def psx_rename_list():
         # Tiny Toon Adventures - The Great Beanstalk
         'Tiny Toon Adventures - Buster and the Beanstalk',
 
+        # Tiny Toon Adventures - Toonenstein - Dare to Scare
+        'Tiny Toon Adventures - Toonenstein - Geisterstunde!',
+        'Tiny Toon Adventures - Toonenstein - Le Chateau hante',
+
         # TNN Motorsports Hardcore 4x4
         'Hardcore 4x4',
 
@@ -2485,6 +2894,16 @@ def psx_rename_list():
 
         # TOCA Championship Racing
         'TOCA Touring Car Championship',
+
+        # Tomb Raider - The Last Revelation
+        'Tomb Raider - La Revelation Finale',
+
+        # Tomb Raider III - Adventures of Lara Croft
+        'Tomb Raider III - Les Aventures de Lara Croft',
+
+        # Tomb Raider Chronicles
+        'Tomb Raider - Die Chronik',
+        'Tomb Raider - Sur les Traces de Lara Croft',
 
         # Tomba!
         'Tombi!',
@@ -2507,6 +2926,9 @@ def psx_rename_list():
         # Twisted Metal 2
         'Twisted Metal - World Tour',
 
+        # UEFA Champions League - Season 1998-99
+        'UEFA Champions League - Saison 1998-99',
+
         # Ultimate 8 Ball
         'Actua Pool',
         'Pool Shark',
@@ -2514,24 +2936,64 @@ def psx_rename_list():
         # Vegas Games 2000
         'Midnight in Vegas',
 
+        # Versailles - A Game of Intrigue
+        'Versailles - Complot a la Cour du Roi Soleil',
+        'Versailles - Verschwoerung am Hof',
+
         # Viva Soccer
         'Absolute Football',
         'Viva Football',
 
         # VR Soccer '96
         'Actua Soccer',
+        'Ran Soccer',
 
         # VR Golf '97
         'Actua Golf',
 
         # Walt Disney's The Jungle Book - Rhythm n' Groove
+        'Dschungelbuch, Das - Groove Party',
+        'Walt Disney\'s Jungle Boek - Groove Party',
         'Walt Disney\'s The Jungle Book - Groove Party',
+        'Walt Disney El Libro de la Selva - Muevete con Ritmo',
+        'Walt Disney Ksiega Dzungli - Groove Party',
+        'Walt Disney Le Livre de la Jungle - Groove Party',
+        'Walt Disneyn Viidakkokirja - Svengiseikkailu',
+        'Walt Disneys Das Dschungelbuch - Groove Party',
+        'Walt Disneys Djungelboken - Groove Party',
+        'Walt Disneys Junglebogen - Groove Party',
+
+        # Who Wants to Be a Millionaire
+        'Haluatko Miljonaariksi',
+        'Hvem Vil Vaere Millionaer',
+        'Millionen Show, Die',
+        'Qui Veut Gagner des Millions',
+        'Vem Vill Bli Miljonaer',
+        'Wer wird Millionaer',
+
+        # Who Wants to Be a Millionaire - 2nd Edition
+        'Qui Veut Gagner des Millions - Seconde Edition',
+        'Wer wird Millionaer - 2. Edition',
+
+        # Who Wants to Be a Millionaire - 3rd Edition
+        'Wer wird Millionaer - Dritte Edition',
+
+        # Who Wants to Be a Millionaire - Junior
+        'Qui Veut Gagner des Millions - Junior',
+        'Wer wird Millionaer - Junior',
 
         # Wipeout 3
         'Wip3out',
 
         # Wipeout XL
         'WipEout 2097',
+
+        # World's Scariest Police Chases
+        'Folles Poursuites',
+
+        # World Cup 98
+        'Coupe du Monde 98',
+        'Frankreich 98 - Die Fussball-WM',
 
         # Wu-Tang - Shaolin Style
         'Wu-Tang - Taste the Pain',
