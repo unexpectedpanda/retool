@@ -1,4 +1,4 @@
-# Last updated: 23 November 2019
+# Last updated: 25 November 2019
 # An exclusion list for when games are the same as the US version, just renamed for another region.
 
 # DVD-Video
@@ -2128,7 +2128,9 @@ def psx_rename_list():
         'Command & Conquer - Alerte Rouge - Mission Tesla',
 
         # Contender
+        'Dynamite Boxing', # (ダイナマイトボクシング)
         'Victory Boxing 2',
+        'Victory Boxing Contender',
 
         # Contender 2
         'Victory Boxing Challenger',
@@ -2374,7 +2376,7 @@ def psx_rename_list():
         'Dune',
 
         # Egypt 1556 B.V. - Tomb of the Pharaoh
-        'Egypt 1156 A.C. - L\'Enigma della Tomba Reale,'
+        'Egypt 1156 A.C. - L\'Enigma della Tomba Reale',
         'Egypte 1156 AV. J.-C. - L\'Enigme de la Tombe Royale',
         'Grab des Pharao, Das',
 
@@ -2539,6 +2541,12 @@ def psx_rename_list():
         'B-Movie',
         'Invasion Vient de l\'Espace, L\'',
 
+        # ISS Pro Evolution
+        'World Soccer Jikkyou Winning Eleven 4', # (ワールドサッカー 実況ウイニングイレブン4)
+
+        # ISS Pro Evolution 2
+        'World Soccer Jikkyou Winning Eleven 2000 - U-23 Medal e no Chousen', # (ワールドサッカー 実況ウイニングイレブン2000 ～U-23 メダルへの挑戦～)
+
         # Jade Cocoon - Story of the Tamamayu
         'Jade Cocoon - Die Tamamayu Legende',
         'Jade Cocoon - La Leggenda del Tamamayu',
@@ -2678,8 +2686,11 @@ def psx_rename_list():
         # NBA Shootout
         'Total NBA \'96',
 
-        # NBA Shootout 97
+        # NBA Shootout '97
         'Total NBA \'97',
+
+        # NBA Shooutout 98
+        'Total NBA 98',
 
         # Necronomicon - The Dawning of Darkness
         'Necronomicon - Das Mysterium der Daemmerung',
@@ -2752,10 +2763,20 @@ def psx_rename_list():
         'Pyjama Sam - Heros du Gouter',
         'Pyjama Sam - Suessigkeiten kriegen Saures',
 
+        # Paradise Casino
+        'Nice Price Series Vol. 09 - Paradise Casino', # (ＮＩＣＥ　ＰＲＩＣＥシリーズ Ｖｏｌ．９　～パラダイスカジノ～)
+
         # PaRappa the Rapper
         'PaRappa the Rapper - The Hip Hop Hero',
 
+        # Parodius
+        'Gokujou Parodius Da! Deluxe Pack', # (極上パロディウスだ！　ＤＥＬＵＸＥ　ＰＡＣＫ)
+
+        # Penny Racers
+        'Choro Q', # (チョロQ)
+
         # Pet in TV
+        'Ganbare Morikawa-kun 2-gou', # (がんばれ森川君２号)
         'Pet in TV - Ton Nouveau Meilleur Ami!',
 
         # Peter Pan in Disney's Return to Never Land
@@ -2770,6 +2791,9 @@ def psx_rename_list():
         'Disneys Peter Pan - Eventyr i Drommeland',
         'Disneys Peter Pan - Eventyr pa Onskeoen',
         'Disneys Peter Pan - Rueckkehr nach Nimmerland',
+
+        # Pinball Power
+        'SuperLite 1500 Series - Pinball - Golden Logres', # (SuperLite 1500 シリーズ ピンボール ゴールデンログレス)
 
         # Pipe Dreams 3D
         'Pipe Mania 3D',
@@ -2798,6 +2822,7 @@ def psx_rename_list():
 
         # Popstar Maker
         '100% Star',
+        'Newcomer - Become a Popstar',
 
         # Power Shovel
         'Power Diggerz',
@@ -2811,14 +2836,21 @@ def psx_rename_list():
         # Powerslave
         'Exhumed',
 
+        # Poy Poy 2
+        'Poitter\'s Point 2 - Sodom no Inbou', # (ポイッターズポイント２　～ソドムの陰謀～)
+
         # Premier Manager Ninety Nine
         'Premier Manager Novanta Nove',
 
         # Premier Manager 2000
         'Anstoss - Premier Manager',
+        'Canal+ Premier Manager',
 
         # Pro-Pinball
         'Pro Pinball - The Web',
+
+        # Pro Backgammon
+        'Backgammon', # (バックギャモン)
 
         # Professional Underground League of Pain
         'Riot',
@@ -2831,6 +2863,9 @@ def psx_rename_list():
 
         # Racing
         'Pro Racer',
+
+        # Rapid Reload
+        'Gunners Heaven', # (ガンナーズヘヴン)
 
         # Rat Attack!
         'Rat Attack',
@@ -2856,8 +2891,14 @@ def psx_rename_list():
         # Rescue Heroes - Molten Menace
         'Rescue Heroes - Helden in Gefahr',
 
+        # Rescue Shot
+        'Rescue Shot Bubibo', # (レスキューショット ブービーぼー)
+
         # Risk - The Game of Global Domination
         'Risk',
+
+        # Road Rage
+        'Speed King - Neo Kobe 2045', # (スピードキング)
 
         # Roll Away
         'Kula World',
@@ -2895,8 +2936,14 @@ def psx_rename_list():
         # Shadow Man
         'Shadow Man - Rette deine Seele',
 
+        # Shaolin
+        'Lord of Fist', # (ロード・オブ・フィスト)
+
         # Shipwreckers!
         'Overboard!',
+
+        # Shonen Jump's One Piece - Grand Battle
+        'From TV Animation One Piece - Grand Battle!', # (Ｆｒｏｍ　ＴＶ　Ａｎｉｍａｔｉｏｎ　Ｏｎｅ　Ｐｉｅｃｅ　～グランド・バトル！～)
 
         # Small Soldiers
         'Pequenos Guerreros',
@@ -2909,6 +2956,9 @@ def psx_rename_list():
 
         # Snowboarding
         'Snowboard Racer',
+
+        # Sonic Wings Special
+        'Arcade Hits - Sonic Wings Special', # (アーケード・ヒッツ　ソニック・ウィングス・スペシャル)
 
         # Sorcerer's Maze
         'Prism Land Story',
@@ -3027,6 +3077,9 @@ def psx_rename_list():
         # Tiger Woods PGA Tour Golf
         'Tiger Woods USA Tour 2001',
 
+        # Tilt!
+        'Hyper 3D Pinball', # (ハイパー３Ｄピンボール)
+
         # Time Bokan Series - Bokan desu yo (タイムボカンシリーズ ボカンですよ)
         'Time Bokan - Yattaman',
 
@@ -3067,6 +3120,12 @@ def psx_rename_list():
         # Tony Hawk's Pro Skater
         'Tony Hawk\'s Skateboarding',
 
+        # Toshinden 4
+        'Toushinden Subaru',
+
+        # Transport Tycoon
+        'Transport Tycoon 3D - Sl Kara Hajimeyou!!', # (トランスポートタイクーン3D めざせ輸送王！)
+
         # Trap Gunner
         'Trap Runner',
 
@@ -3088,6 +3147,12 @@ def psx_rename_list():
         'Actua Pool',
         'Pool Shark',
 
+        # V-Ball - Beach Volley Heroes
+        'Chou Sentou Kyuugi Vanborg',
+
+        # Vegas Casino
+        'Super Casino Special',
+
         # Vegas Games 2000
         'Midnight in Vegas',
 
@@ -3097,9 +3162,18 @@ def psx_rename_list():
         'Versailles - Verschwoerung am Hof',
         'Versalles - Complot en la corte del Rey Sol',
 
+        # Victory Boxing Champion Edition
+        'Kensei - The King of Boxing', # (拳聖 THE KING OF BOXING)
+
         # Viva Soccer
         'Absolute Football',
         'Viva Football',
+
+        # Virtual Golf
+        'Tournament Leader', # (トーナメント・リーダー)
+
+        # Virus - It Is Aware
+        'Virus - The Battle Field', # (ウイルス－ザ・バトルフィールド)
 
         # VR Soccer '96
         'Actua Soccer',
@@ -3107,6 +3181,9 @@ def psx_rename_list():
 
         # VR Golf '97
         'Actua Golf',
+
+        # Wacky Races
+        'Chiki Chiki Machine Mou Race - Wacky Races', # (チキチキマシン猛レース)
 
         # Walt Disney's The Jungle Book - Rhythm n' Groove
         'Dschungelbuch, Das - Groove Party',
@@ -3129,6 +3206,7 @@ def psx_rename_list():
         'Millionen Show, Die',
         'Qui Veut Gagner des Millions',
         'Quiere ser millonario',
+        'Quiz$Millionaire', # (クイズ＄ミリオネア)
         'Vem Vill Bli Miljonaer',
         'Vil du bli millionaer',
         'Wer wird Millionaer',
@@ -3145,6 +3223,12 @@ def psx_rename_list():
         'Qui Veut Gagner des Millions - Junior',
         'Wer wird Millionaer - Junior',
 
+        # Wild Rapids
+        'Bakuryuu', # (爆流)
+
+        # Wing Over 2
+        'Pilot ni Narou!', # (パイロットになろう！)
+
         # Wipeout 3
         'Wip3out',
 
@@ -3160,11 +3244,23 @@ def psx_rename_list():
         'Frankreich 98 - Die Fussball-WM',
         'World Cup 98 - Coppa del Mondo',
 
+        # World League Soccer '98
+        'World League Soccer',
+
         # Wu-Tang - Shaolin Style
         'Wu-Tang - Taste the Pain',
 
         # X-COM - UFO Defense
         'X-COM - Enemy Unknown',
+
+        # Yeh Yeh Tennis
+        'Love Game\'s - Wai Wai Tennis 2', # (ラブ・ゲームス　～わいわいテニス２～)
+
+        # YoYo's Puzzle Park
+        'Gussun Paradise', # (ぐっすんぱらだいす)
+
+        # Yusha - Heaven's Gate
+        'Heaven\'s Gate', # (ヘヴンズ・ゲート)
     ]
 
 # Sony PlayStation 2

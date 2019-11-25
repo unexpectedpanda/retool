@@ -16,9 +16,9 @@ import html
 from lxml import etree
 from bs4 import BeautifulSoup, Doctype # For XML parsing
 if os.path.exists('_test.py'):
-    import _test as _regional_renames_final
+    import _test as _regional_renames
 else:
-    import _regional_renames_final # Duplicate image titles that have different names in different regions
+    import _regional_renames # Duplicate image titles that have different names in different regions
 
 # Require at least Python 3.5
 assert sys.version_info >= (3, 5)
@@ -901,25 +901,25 @@ def process_dats(user_input, region_list_english, region_list_other, is_folder):
     # Set up dupe lists for titles that have the same content, but different names in different regions
     dupe_list = []
 
-    if dat_name == 'Apple - Macintosh': dupe_list = _regional_renames_final.mac_rename_list()
-    if dat_name == 'DVD-Video': dupe_list = _regional_renames_final.dvd_video_rename_list()
-    if dat_name == 'Microsoft - Xbox': dupe_list = _regional_renames_final.xbox_rename_list()
-    if dat_name == 'Microsoft - Xbox 360': dupe_list = _regional_renames_final.x360_rename_list()
-    if dat_name == 'Microsoft - Xbox One': dupe_list = _regional_renames_final.xbone_rename_list()
-    if dat_name == 'NEC - PC Engine CD & TurboGrafx CD': dupe_list = _regional_renames_final.pce_rename_list()
-    if dat_name == 'Nintendo - GameCube' or dat_name == 'Nintendo - GameCube - NKit GCZ' or dat_name == 'Nintendo - GameCube - NKit ISO' or dat_name == 'Nintendo - GameCube - NASOS': dupe_list = _regional_renames_final.gamecube_rename_list()
-    if dat_name == 'Nintendo - Wii' or dat_name =='Nintendo - Wii - NKit GCZ' or dat_name =='Nintendo - Wii - NKit ISO' or dat_name =='Nintendo - Wii - NASOS': dupe_list = _regional_renames_final.wii_rename_list()
-    if dat_name == 'Nintendo - Wii U' or dat_name =='Nintendo - Wii U - WUX': dupe_list = _regional_renames_final.wii_u_rename_list()
-    if dat_name == 'Panasonic - 3DO Interactive Multiplayer': dupe_list = _regional_renames_final.threedo_rename_list()
-    if dat_name == 'Philips - CD-i': dupe_list = _regional_renames_final.cdi_rename_list()
-    if dat_name == 'Sega - Dreamcast': dupe_list = _regional_renames_final.dreamcast_rename_list()
-    if dat_name == 'Sega - Mega CD & Sega CD': dupe_list = _regional_renames_final.segacd_rename_list()
-    if dat_name == 'Sega - Saturn': dupe_list = _regional_renames_final.saturn_rename_list()
-    if dat_name == 'Sony - PlayStation': dupe_list = _regional_renames_final.psx_rename_list()
-    if dat_name == 'Sony - PlayStation 2': dupe_list = _regional_renames_final.ps2_rename_list()
-    if dat_name == 'Sony - PlayStation 3': dupe_list = _regional_renames_final.ps3_rename_list()
-    if dat_name == 'Sony - PlayStation 4': dupe_list = _regional_renames_final.ps4_rename_list()
-    if dat_name == 'Sony - PlayStation Portable': dupe_list = _regional_renames_final.psp_rename_list()
+    if dat_name == 'Apple - Macintosh': dupe_list = _regional_renames.mac_rename_list()
+    if dat_name == 'DVD-Video': dupe_list = _regional_renames.dvd_video_rename_list()
+    if dat_name == 'Microsoft - Xbox': dupe_list = _regional_renames.xbox_rename_list()
+    if dat_name == 'Microsoft - Xbox 360': dupe_list = _regional_renames.x360_rename_list()
+    if dat_name == 'Microsoft - Xbox One': dupe_list = _regional_renames.xbone_rename_list()
+    if dat_name == 'NEC - PC Engine CD & TurboGrafx CD': dupe_list = _regional_renames.pce_rename_list()
+    if dat_name == 'Nintendo - GameCube' or dat_name == 'Nintendo - GameCube - NKit GCZ' or dat_name == 'Nintendo - GameCube - NKit ISO' or dat_name == 'Nintendo - GameCube - NASOS': dupe_list = _regional_renames.gamecube_rename_list()
+    if dat_name == 'Nintendo - Wii' or dat_name =='Nintendo - Wii - NKit GCZ' or dat_name =='Nintendo - Wii - NKit ISO' or dat_name =='Nintendo - Wii - NASOS': dupe_list = _regional_renames.wii_rename_list()
+    if dat_name == 'Nintendo - Wii U' or dat_name =='Nintendo - Wii U - WUX': dupe_list = _regional_renames.wii_u_rename_list()
+    if dat_name == 'Panasonic - 3DO Interactive Multiplayer': dupe_list = _regional_renames.threedo_rename_list()
+    if dat_name == 'Philips - CD-i': dupe_list = _regional_renames.cdi_rename_list()
+    if dat_name == 'Sega - Dreamcast': dupe_list = _regional_renames.dreamcast_rename_list()
+    if dat_name == 'Sega - Mega CD & Sega CD': dupe_list = _regional_renames.segacd_rename_list()
+    if dat_name == 'Sega - Saturn': dupe_list = _regional_renames.saturn_rename_list()
+    if dat_name == 'Sony - PlayStation': dupe_list = _regional_renames.psx_rename_list()
+    if dat_name == 'Sony - PlayStation 2': dupe_list = _regional_renames.ps2_rename_list()
+    if dat_name == 'Sony - PlayStation 3': dupe_list = _regional_renames.ps3_rename_list()
+    if dat_name == 'Sony - PlayStation 4': dupe_list = _regional_renames.ps4_rename_list()
+    if dat_name == 'Sony - PlayStation Portable': dupe_list = _regional_renames.psp_rename_list()
 
     # Find unique titles in each region and add their XML node
     final_title_xml = add_titles(region_list_english + region_list_other, region_list_english, titles, unique_list, dupe_list, user_input, unique_regional_titles)
