@@ -1939,6 +1939,9 @@ def psx_rename_list():
         # Adventures of Lomax, The
         'Lomax',
 
+        # Agent Armstrong
+        'Agent Armstrong - Himitsu Shirei Daisakusen', # (エージェント・アームストロング　～秘密指令大作戦～)
+
         # Alex Ferguson's Player Manager 2001
         'DSF Fussball Manager 2001',
         'Guy Roux Manager 2001',
@@ -1986,6 +1989,9 @@ def psx_rename_list():
         # Army Men - World War - Team Assault
         'Army Men - Team Assault',
 
+        # Assault - Retribution
+        'Assault',
+
         # Asterix & Obelix Take on Caesar
         'Asterix & Obelix contro Cesare',
 
@@ -2023,8 +2029,15 @@ def psx_rename_list():
         # Big Ol' Bass 2
         'Fisherman\'s Bait 3',
 
+        # Bishi Bashi Special
+        'Bishi Bashi Special 2', # (ビシバシスペシャル)
+
         # Blaze & Blade - Eternal Quest
         'Legend of Foresia - La Contree Interdite',
+
+        # Block Buster
+        'Block Kuzushi 2', # (ブロックくずし２)
+        'Simple 1500 Series Vol. 45 - The Block Kuzushi 2', # (SIMPLE1500シリーズ Vol.45 THE ブロックくずし2)
 
         # Bloody Roar
         'Bloody Roar - Hyper Beast Duel',
@@ -2087,12 +2100,27 @@ def psx_rename_list():
         # C3 Racing - Car Constructors Championship
         'Max Power Racing',
 
+        # Capcom Generations (Europe) (Disc 1) (Wings of Destiny)
+        'Capcom Generation - Dai-1-shuu Gekitsuiou no Jidai', # (カプコン・ジェネレーション　～第１集　撃墜王の時代～)
+
+	    # Capcom Generations (Europe) (Disc 2) (Chronicles of Arthur)
+        'Capcom Generation - Dai-2-shuu Makai to Kishi', # (カプコン・ジェネレーション　～第２集　魔界と騎士～)
+
+        # Capcom Generations (Europe) (Disc 3) (The First Generation)
+        'Capcom Generation - Dai-3-shuu Koko ni Rekishi Hajimaru', # (カプコン・ジェネレーション　～第３集　ここに歴史始まる～)
+
+	    # Capcom Generations (Europe) (Disc 4) (Blazing Guns)
+        'Capcom Generation - Dai-4-shuu Kokou no Eiyuu', # (カプコン・ジェネレーション　～第４集　孤高の英雄～)
+
         # Capcom vs. SNK Pro
         'Capcom vs. SNK - Millennium Fight 2000 Pro',
 
         # Car and Driver Presents - Grand Tour Racing '98
         'M6 Turbo Racing',
         'Total Drivin', # There are some differences here, if you care: https://gtr98.wordpress.com/2014/01/01/about-total-drivin-m6-turbo-racing/
+
+        # Castrol Honda VTR
+        'SuperLite 1500 Series - Castrol Honda VTR', # (ＳｕｐｅｒＬｉｔｅ　１５００　シリーズ　～Ｃａｓｔｒｏｌ ＨＯＮＤＡ　ＶＴＲ～)
 
         # China - The Forbidden City
         'Chine - Intrigue dans la Cite Interdite',
@@ -2144,6 +2172,7 @@ def psx_rename_list():
 
         # Dance - UK
         'All Music Dance!',
+        'Dance Europe',
 
         # Dance Dance Revolution - Disney Mix
         'Dancing Stage - Disney Mix',
@@ -2162,6 +2191,9 @@ def psx_rename_list():
 
         # Descent Maximum
         'Descent II',
+
+        # Destructo 2
+        'Simple 1500 Series Vol. 48 - The Puzzle 2', # (SIMPLE1500シリーズ Vol.48 THE パズル2)
 
         # Devil Dice
         'XI [sai]',
@@ -2344,6 +2376,9 @@ def psx_rename_list():
         'Disneys Tigerdyrets honningjagt',
         'Disneys Tiggers Honigjagd',
 
+        # Diver's Dream
+        'Dolphin\'s Dream', # (ドルフィンズドリーム)
+
         # Dracula - The Last Sanctuary
         'Dracula 2 - Die letzte Zufluchtsstaette',
         'Dracula 2 - El Ultimo Santuario',
@@ -2386,6 +2421,9 @@ def psx_rename_list():
         'Egypt II - La Profezia di Heliopolis',
         'Egypt II - La Prophetie d\'Heliopolis',
 
+        # Elemental Pinball
+        'Nice Price Series Vol. 08 - Elemental Pinball', # (NICE PRICEシリーズ Vol.08 エレメンタルピンボール)
+
         # Equestrian Showcase
         'Alexandra Ledermann 2 - Equitation Competition',
         'Equestriad 2001',
@@ -2395,6 +2433,9 @@ def psx_rename_list():
 
         # Extreme 500
         'Suzuki Alstare Challenge',
+
+        # Extreme Snow Break
+        'Snow Break', # (スノー・ブレイク)
 
         # F.A. Premier League Football Manager 2000, The
         'Bundesliga 2000 - Der Fussball-Manager',
@@ -2463,6 +2504,7 @@ def psx_rename_list():
         'Floating Runner',
 
         # Fluid
+        'Depth',
         'Sub',
 
         # Formula 1 Championship Edition
@@ -2477,14 +2519,26 @@ def psx_rename_list():
         # FoxKids.com - Micro Maniacs Racing
         'Micro Maniacs',
 
+        # Formula Nippon
+        'Formula Nippon \'99 - Racing Driver ni Narou!', # (フォーミュラ・ニッポン´９９)
+
         # Freestyle Boardin' '99
         'Phat Air - Extreme Snowboarding',
+
+        # Future Racer
+        'Defeat Lightning', # (ＤＥＦＥＡＴ　ＬＩＧＨＴＮＩＮＧ)
+
+        # Galaxy Fight
+        'Galaxy Fight - Universal Warriors', # (ギャラクシ・ーファイト　－ＵＮＩＶＥＲＳＡＬ　ＷＡＲＲＩＯＲＳ－)
 
         # Gex - Enter the Gecko
         'Gex 3D - Enter the Gecko',
 
         # Gex 3 - Deep Cover Gecko
         'Gex - Deep Cover Gecko',
+
+        # Ghoul Panic
+        'Oh! Bakyuuun', # (オーバキューン)
 
         # Goal Storm '97
         'International Superstar Soccer Pro',
@@ -2501,11 +2555,20 @@ def psx_rename_list():
         # Grid Runner
         'Grid Run',
 
+        # Hard Boiled
+        'Hard Boiled - Neuro Tower o Hakai Seyo', # (ハード・ボイルド　～神経塔を破壊せよ～)
+
         # Harry Potter and the Chamber of Secrets
         'Harry Potter ja Salaisuuksien Kammio',
 
         # Harry Potter and the Sorcerer's Stone
         'Harry Potter and the Philosopher\'s Stone',
+
+        # Hebereke's Popoitto
+        'Hebereke Station Popoitto', # (へべれけ　スてーショん　ポポイっと)
+
+        # Hellnight
+        'Dark Messiah', # (ダークメサイア)
 
         # Hi-Octane - The Track Fights Back!
         'Hi-Octane',
@@ -2521,6 +2584,9 @@ def psx_rename_list():
 
         # Hot Shots Golf 2
         'Everybody\'s Golf 2',
+
+        # Hyper Tennis - Final Match
+        'Hyper Final Match Tennis', # (ハイパー・ファイナル・マッチ・テニス)
 
         # I.Q - Intelligent Qube
         'Kurushi',
@@ -2564,6 +2630,9 @@ def psx_rename_list():
         # Jet Moto 2
         'Jet Rider 2',
 
+        # Jonah Lomu Rugby
+        'Great Rugby Jikkyou \'98 - World Cup e no Michi', # (グレイト・ラグビー　実況´９８　～ワールド・カップへの道～)
+
         # Kartia - The World of Fate
         'Legend of Kartia',
 
@@ -2576,6 +2645,12 @@ def psx_rename_list():
         # Kileak - The DNA Imperative
         'Kileak - The Blood',
 
+        # King of Bowling 2
+        'King of Bowling 2 - Professional Hen', # (キング オブ ボウリング2 プロフェッショナル編)
+
+        # Klonoa Beach Volleyball
+        'Klonoa Beach Volley - Saikyou Team Kettei-sen!', # (クロノアビーチバレー 最強チーム決定戦！)
+
         # Knockout Kings
         'Box-Champions',
         'Knockout Kings 99',
@@ -2585,6 +2660,12 @@ def psx_rename_list():
 
         # Knockout Kings 2001
         'Box Champions 2001',
+
+        # Kotobuki Grand Prix
+        'Kotobuki Grand Prix - Mezase! Genchari King', # (ことぶきグランプリ ～めざせ！原チャリキング～)
+
+        # Kurushi Final
+        'I.Q Final', # (Ｉ．Ｑ　ＦＩＮＡＬ)
 
         # Land Before Time, The - Great Valley Racing Adventure
         'Land Before Time, The - Racing Adventure',
@@ -2604,6 +2685,9 @@ def psx_rename_list():
 
         # Lethal Enforcers I & II
         'Lethal Enforcers',
+
+        # Liberogrande International
+        'Libero Grande 2', # (リベログランデ２)
 
         # LMA Manager
         'Manager de Liga',
@@ -2631,9 +2715,13 @@ def psx_rename_list():
         # Machine Head
         'Blam! Machinehead',
 
+        # Magical Drop III
+        'Magical Drop III - Yokubari Tokudai-gou!',
+
         # Magical Tetris Challenge
         'Defi au Tetris Magique',
         'El Tetris Un Magico Desafio',
+        'Magical Tetris Challenge featuring Mickey', # (マジカル テトリス チャレンジ featuring ミッキー)
         'Magische Tetris Uitdaging',
         'Sfida al Tetris Magico',
         'Tetris Magiska Utmaning',
@@ -2653,6 +2741,12 @@ def psx_rename_list():
 
         # MediEvil II
         'MediEvil 2',
+
+        # Mega Man X3
+        'Rockman X3',
+
+        # Megaman - Battle & Chase
+        'Rockman - Battle & Chase',
 
         # Metal Gear Solid - Integral
         'Metal Gear Solid - Special Missions',
@@ -2676,6 +2770,12 @@ def psx_rename_list():
 
         # N2O - Nitrous Oxide
         'N2O',
+
+        # Namco Soccer Prime Goal
+        'J. League Soccer - Prime Goal EX',
+
+        # Namco Tennis Smash Court
+        'Smash Court', # (スマッシュコート)
 
         # NBA in the Zone '98
         'NBA Pro 98',
@@ -2747,6 +2847,9 @@ def psx_rename_list():
         # Norse by Norsewest - The Return of the Lost Vikings
         'Lost Vikings 2 - Norse by Norsewest',
 
+        # Note, The
+        'Koukai Sarenakatta Shuki', # (公開されなかった手記)
+
         # Oddworld - Abe's Exodus
         'Oddworld - L\'Exode d\'Abe',
 
@@ -2755,6 +2858,9 @@ def psx_rename_list():
 
         # Olympic Summer Games
         'Olympic Games',
+
+        # Onside Complete Soccer
+        'Complete Soccer Onside', # (ＣＯＭＰＬＥＴＥ　ＳＯＣＣＥＲ　ｏｎｓｉｄｅ)
 
         # Pac-Man World - 20th Anniversary
         'Pac-Man World 20th Anniversary',
@@ -2990,6 +3096,9 @@ def psx_rename_list():
         # Starfighter Sanvein
         'Sanvein',
 
+        # Street Fighter Collection 2
+        'Capcom Generation - Dai-5-shuu Kakutouka-tachi', # (カプコン・ジェネレーション　～第５集　格闘家たち～)
+
         # Street Sk8er
         'Street Skater',
 
@@ -3040,6 +3149,9 @@ def psx_rename_list():
 
         # Tennis
         'All Star Tennis',
+
+        # Terry Pratchett's Discworld
+        'Discworld', # (ディスクワールド)
 
         # Test Drive Le Mans
         'Le Mans 24 Hours',
@@ -3198,6 +3310,9 @@ def psx_rename_list():
         'Walt Disneys Djungelboken - Groove Party',
         'Walt Disneys Junglebogen - Groove Party',
         'Walt Disneys Jungelboken - Groove Party',
+
+        # Wanted
+        'Hot Shot',
 
         # Who Wants to Be a Millionaire
         'Chi Vuol Essere Miliardario',
