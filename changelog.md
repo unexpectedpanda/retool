@@ -68,7 +68,7 @@
 - If the input or output file name included any of the option flags, Retool
   crashed. This is now fixed.
 - The title count was missing when dats were split into regions. This is now fixed.
-- Bye bye ASCII logo. The vertical screen real estate is more important.
+- Bye bye ASCII logo. The vertical screen real estate is now more important.
 - Code was generally cleaned up.
 
 # 0.34
