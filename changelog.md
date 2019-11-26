@@ -1,4 +1,4 @@
-# 0.40
+# 0.50
 - Filtering by English titles is no longer mandatory. To only include English
   titles in your dat, use the `-en` option.
 - The `_regional_renames.py` file has been massively expanded as a result of
@@ -68,6 +68,8 @@
 - If the input or output file name included any of the option flags, Retool
   crashed. This is now fixed.
 - The title count was missing when dats were split into regions. This is now fixed.
+- Bye bye ASCII logo. The vertical screen real estate is more important.
+- Code was generally cleaned up.
 
 # 0.34
 - Added textwrap module for better readability on MacOS/Linux.

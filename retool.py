@@ -23,22 +23,22 @@ else:
 # Require at least Python 3.5
 assert sys.version_info >= (3, 5)
 
-version_number = '0.40'
+version = '0.50'
 
 def main():
     # Initial splash screen
     os.system('cls' if os.name == 'nt' else 'clear')
-    print(font.red + ' ____     _____ ___   ___  _' +
-    '\n|  _ \ __|_   _/ _ \ / _ \| |' +
-    '\n| |_) / _ \| || | | | | | | |' +
-    '\n|  _ <  __/| || |_| | |_| | |___' +
-    '\n|_| \_\___||_| \___/ \___/|_____/ ' + font.end + 'v' + version_number)
+    print(font.bold + '\nReTOOL ' + version + font.end)
+    print('-----------')
+    if len(sys.argv) == 1: print(textwrap.fill('Scans Redump (' + font.underline + 'http://redump.org/' + font.end + ') dats, and generates new dats that don\'t have dupes. This is not an official Redump project.', 80))
 
-    print('=======================================\n')
-    if len(sys.argv) == 1:
-        print(textwrap.fill('Scans Redump (' + font.underline + 'http://redump.org/' + font.end + ') dats, and attempts to generate new dats without dupes. This is not an official Redump project.', 80))
+    # Check user input
+    user_input = check_input()
 
-    # Define regions where English is a primary language
+    # Record when the process started
+    start = time.time()
+
+    # Define regions where English is a primary language. Order from most to least important.
     region_list_english = [
         'USA',
         'World',
@@ -50,7 +50,7 @@ def main():
         'Ireland',
     ]
 
-    # Define regions where titles might have an English version
+    # Define regions where titles might have an English version. Order from most to least important.
     region_list_other = [
         'Europe',
         'Japan',
@@ -91,13 +91,8 @@ def main():
         'United Arab Emirates'
     ]
 
-    # Check user input
-    user_input = check_input(region_list_english, region_list_other)
-
-    # Record when the process started
-    start = time.time()
-
-    # Start processing the dats
+    # Process the dats
+    # User has defined an output folder
     if os.path.isdir(user_input.file_input) == True:
         input_folder = user_input.file_input
         file_count = 0
@@ -126,16 +121,15 @@ def main():
             print(textwrap.TextWrapper(width=80, subsequent_indent='  ').fill(font.yellow + '* No files found to process in the "' + font.bold + input_folder + font.end + font.yellow + '" folder.' + font.end) + '\n')
 
         sys.exit()
+    # User has not defined an output folder
     else:
         file_name_title_count = process_dats(user_input, region_list_english, region_list_other, False)
 
         stop = time.time()
 
         english_status = ''
-        english_status2 = ''
         if user_input.english_only == True:
             english_status = ' English'
-            english_status2 = ' (English)'
 
         if user_input.split_regions_no_dupes == True:
             print(textwrap.TextWrapper(width=80, subsequent_indent='  ').fill(font.green + '* Finished adding unique' + english_status + ' titles to regional dats in ' + str('{0:.2f}'.format(round(stop - start,2))) + 's.' + font.end) + '\n')
@@ -164,30 +158,28 @@ class font:
     blink = '\033[5m'
 
 # Generic error message
-command = ''
-if 'retool.py' in sys.argv[0]:
-    command = 'python '
 def error_instruction():
-    print('\nUSAGE:\n ' + font.bold + command + os.path.basename(sys.argv[0]) + ' -i ' + font.end + '<input dat/folder> <options>\n')
+    command = ''
+    if 'retool.py' in sys.argv[0]:
+        command = 'python '
+
+    print('\nUSAGE: ' + font.bold + command + os.path.basename(sys.argv[0]) + ' -i ' + font.end + '<input dat/folder> <options>')
+    print('\nA new file is automatically generated, the original file isn\'t altered.')
     print('\nOPTIONS:')
-    print(font.bold + ' -en' + font.end + '  Only include English titles')
-    # print(font.bold + ' -1' + font.end + '   Create 1G1R dat (-a -d -e -l -m -o -p)')
-    print(font.bold + ' -a' + font.end + '   Remove applications')
-    print(font.bold + ' -d' + font.end + '   Remove demos and coverdiscs')
-    print(font.bold + ' -e' + font.end + '   Remove educational titles')
-    print(font.bold + ' -l' + font.end + '   Remove titles with (Alt) tags')
-    print(font.bold + ' -m' + font.end + '   Remove multimedia titles')
-    print(font.bold + ' -o' + font.end + '   Set an output folder')
-    print(font.bold + ' -p' + font.end + '   Remove betas and prototypes')
-    print(font.bold + ' -r' + font.end + '   Split dat into regional dats')
-    print(font.bold + ' -s' + font.end + '   Split dat into regional dats, don\'t dedupe\n')
+    print(font.bold + ' -o' + font.end + '   Set an output folder                     ' + font.bold + '-en' + font.end + '  Only include English titles')
+    print(font.bold + ' -a' + font.end + '   Don\'t include applications              ' + font.bold + ' -r' + font.end + '   Split into regional dats')
+    print(font.bold + ' -d' + font.end + '   Don\'t include demos and coverdiscs      ' + font.bold + ' -s' + font.end + '   Split into regional dats, don\'t dedupe')
+    print(font.bold + ' -e' + font.end + '   Don\'t include educational titles')
+    print(font.bold + ' -l' + font.end + '   Don\'t include titles with (Alt) tags')
+    print(font.bold + ' -m' + font.end + '   Don\'t include multimedia titles')
+    print(font.bold + ' -p' + font.end + '   Don\'t include betas and prototypes\n')
     sys.exit()
 
 # Check user input
-def check_input(region_list_english, region_list_other):
+def check_input():
     error_state = False
 
-    # Handle optional flags
+    # Handle most user options
     flag_no_apps = True if len([x for x in sys.argv if x == '-a']) >= 1 else False
     flag_no_demos = True if len([x for x in sys.argv if x == '-d']) >= 1 else False
     flag_no_edu = True if len([x for x in sys.argv if x == '-e']) >= 1 else False
@@ -196,38 +188,31 @@ def check_input(region_list_english, region_list_other):
     flag_no_protos = True if len([x for x in sys.argv if x == '-p']) >= 1 else False
     flag_english_only = True if len([x for x in sys.argv if x == '-en']) >= 1 else False
 
+    # The -s option isn't compatible with -r or -en, so tell the user if they've combined them
     if len([x for x in sys.argv if '-s' in x]) > 0 and len([x for x in sys.argv if '-r' in x]) > 0:
         print(font.red + '* The -s and -r options can\'t be combined' + font.end)
         error_state = True
     if len([x for x in sys.argv if '-s' in x]) > 0 and len([x for x in sys.argv if '-en' in x]) > 0:
         print(font.red + '* The -s and -en options can\'t be combined' + font.end)
         error_state = True
+    # If there are no invalid combinations, set the appropriate regional options
     else:
         flag_split_regions_no_dupes = True if len([x for x in sys.argv if x == '-r']) >= 1 else False
         flag_split_regions = True if len([x for x in sys.argv if x == '-s']) >= 1 else False
 
-    # If no flags provided, or if -i is missing
-    if len(sys.argv) == 1:
-        error_instruction()
-
-    if len([x for x in sys.argv if '-i' in x]) == 0:
-        if len([x for x in sys.argv if '-i' in x]) == 0:
-            print(font.red + '* Missing -i, no input file specified' + font.end)
-
-        error_state = True
-
-    # Handle input, output, recursive, and invalid flags
-    excess_i = False
-    excess_o = False
+    # Handle input, output, and invalid options
     i_is_folder = False
-    o_is_folder = False
 
     for i, x in enumerate(sys.argv):
+        # Check that the options entered are valid
         if x.startswith('-'):
-            if not ((x == '-i') or (x == '-o') or (x == '-a') or (x == '-d') or (x == '-e') or (x == '-l') or (x == '-m') or (x == '-p') or (x == '-s') or (x == '-r') or (x == '-en')):
+            if not ((x == '-i') or (x == '-o') or (x == '-a') or (x == '-d') or (x == '-e') or (x == '-l') or (x == '-m') or (x == '-p') or (x == '-r') or (x == '-s') or (x == '-en')):
                 print(font.red + '* Invalid option ' + sys.argv[i] + font.end)
                 error_state = True
+
+        # Check for and handle -i
         if x == '-i':
+            # Check for invalid or empty input
             if i+1 == len(sys.argv) or bool(re.search('^-([ioademprs]|en]$)', sys.argv[i+1])):
                 print(font.red + '* No input file specified' + font.end)
                 error_state = True
@@ -241,47 +226,49 @@ def check_input(region_list_english, region_list_other):
                 if os.path.isdir(input_file_name):
                     i_is_folder = True
 
-            if len([x for x in sys.argv if '-i' in x]) > 1:
-                excess_i = True
-                error_state = True
-
+        # Check for and handle -o
         if x == '-o':
+                # Check for invalid or empty input
                 if i+1 == len(sys.argv) or bool(re.search('^-([ioademprs]|en]$)', sys.argv[i+1])):
                     print(font.red + '* No output folder specified' + font.end)
                     error_state = True
                 else:
-                    output_file_name = os.path.abspath(sys.argv[i+1])
+                    output_folder_name = os.path.abspath(sys.argv[i+1])
 
-                    # Check that output is a folder
-                    if os.path.isdir(output_file_name) == False:
+                    # Check if the output is a folder
+                    if os.path.isdir(output_folder_name) == False:
                         print(font.red + '* Output must be set to an existing folder' + font.end)
                         error_state = True
 
-        if len([x for x in sys.argv if '-o' in x]) > 1:
-                excess_o = True
-                error_state = True
+    # Check if no options have been provided
+    if len(sys.argv) == 1:
+        error_state = True
 
+    # Check if -i is missing
+    if len([x for x in sys.argv if '-i' in x]) == 0 and len(sys.argv) != 1:
+        if len([x for x in sys.argv if '-i' in x]) == 0:
+            print(font.red + '* Missing -i, no input file specified' + font.end)
+        error_state = True
+
+    # Check if the user has entered more than one -i
+    if len([x for x in sys.argv if '-i' in x]) > 1:
+        print(font.red + '* Can\'t have more than one -i' + font.end)
+        error_state = True
+
+    # Check if the user has entered more than one -o
+    if len([x for x in sys.argv if '-o' in x]) > 1:
+        print(font.red + '* Can\'t have more than one -o' + font.end)
+        error_state = True
+
+    # Set the ouput folder name if the user hasn't specified -o
     if len([x for x in sys.argv if '-o' in x]) == 0 and i_is_folder == False:
-        output_file_name = ''
-
-    if len([x for x in sys.argv if '-o' in x]) == 0 and i_is_folder == True:
-        output_file_name = os.path.abspath('.')
-
-    if excess_i == True: print(font.red + '* Can\'t have more than one -i' + font.end)
-    if excess_o == True: print(font.red + '* Can\'t have more than one -o' + font.end)
+            output_folder_name = os.path.abspath('.')
 
     # Exit if there was an error in user input
     if error_state == True:
         error_instruction()
 
-    # Check if the user defined output file already exists
-    overwrite_file = False
-
-    english_status = ''
-    if flag_english_only == True:
-        english_status = ' (English)'
-
-    return UserInput(input_file_name, output_file_name, flag_no_demos, flag_no_apps, flag_no_protos, flag_no_alts, flag_no_multi, flag_no_edu, flag_split_regions, flag_split_regions_no_dupes, flag_english_only)
+    return UserInput(input_file_name, output_folder_name, flag_no_demos, flag_no_apps, flag_no_protos, flag_no_alts, flag_no_multi, flag_no_edu, flag_split_regions, flag_split_regions_no_dupes, flag_english_only)
 
 # Converts CLRMAMEPro format to XML
 def convert_clr_logiqx(clrmame_header, checkdat, is_folder):
@@ -497,8 +484,8 @@ def localized_titles_unique (region, region_list_english, titles, unique_list, d
     regional_titles = []
     regional_titles_data = {}
 
-    # Extract each title name
     for title in titles:
+        # Extract each title name, with no tags
         if region !='Unknown':
             region_start = [m.span()[0] for m in re.finditer('(\(.*' + region + '.*\))', title.category.parent['name'])][0]
             region_end = [m.span()[1] for m in re.finditer('(\(.*' + region + '.*\))', title.category.parent['name'])][0]
@@ -549,7 +536,7 @@ def localized_titles_unique (region, region_list_english, titles, unique_list, d
 
         regional_titles_data = regional_titles_data_temp
 
-        # Create a remove list to remove title entries later
+        # Create list to remove titles later that are OEM, and dupes with alternate languages
         remove_list = []
 
         # Remove titles that are just OEM versions of commercial titles
