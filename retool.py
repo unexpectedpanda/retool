@@ -1,20 +1,18 @@
 # Retool scans [Redump](http://redump.org/) dats, and attempts to
 # generate new dats without dupes. Some call this 1G1R.  This is not an
 # official Redump project.
-#
-# Dependencies:
-# * bs4
-# * lxml
 
+import datetime
+import html
 import os
 import sys
 import re
-import datetime
-import time
 import textwrap
-import html
+import time
+
 from lxml import etree
 from bs4 import BeautifulSoup, Doctype # For XML parsing
+
 if os.path.exists('_test.py'):
     import _test as _renames
 else:
@@ -23,12 +21,10 @@ else:
 # Require at least Python 3.5
 assert sys.version_info >= (3, 5)
 
-version = '0.50'
-
 def main():
-    # Initial splash screen
+    # Splash screen
     os.system('cls' if os.name == 'nt' else 'clear')
-    print(font.bold + '\nReTOOL ' + version + font.end)
+    print(font.bold + '\nReTOOL 0.5' + font.end)
     print('-----------')
     if len(sys.argv) == 1: print(textwrap.fill('Scans Redump (' + font.underline + 'http://redump.org/' + font.end + ') dats, and generates new dats that don\'t have dupes. This is not an official Redump project.', 80))
 
@@ -157,6 +153,60 @@ class font:
     end = '\033[0m'
     blink = '\033[5m'
 
+# Establish a class for user input
+class UserInput:
+    def __init__(self, file_input, file_output, no_demos, no_apps, no_protos, no_alts, no_multi, no_edu, split_regions, split_regions_no_dupes, english_only):
+        self.file_input = file_input
+        self.file_output = file_output
+        self.no_demos = no_demos
+        self.no_apps = no_apps
+        self.no_alts = no_alts
+        self.no_multi = no_multi
+        self.no_protos = no_protos
+        self.no_edu = no_edu
+        self.split_regions = split_regions
+        self.split_regions_no_dupes = split_regions_no_dupes
+        self.english_only = english_only
+
+# Establish a class for title data
+class DatNode:
+    def __init__(self, full_title, region, category, description, roms):
+        self.full_title = full_title
+
+        if re.findall(' \(' + region + '.*?\)', full_title) != []:
+            remove_region = full_title.replace(re.findall(' \(' + region + '.*?\)', full_title)[0],'')
+            remove_languages = re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv)\.*?)(,.*?\)|\)))', remove_region)
+            if len(remove_languages) > 0:
+                try:
+                    self.regionless_title = remove_region.replace(remove_languages[0][0], '')
+                except:
+                    self.regionless_title = ''
+            else:
+                try:
+                    self.regionless_title = remove_region
+                except:
+                    self.regionless_title = ''
+        else:
+            self.regionless_title = ''
+            remove_languages = ''
+
+        self.region = region
+        if len(remove_languages) > 0:
+            self.language = remove_languages[0][0][2:-1]
+        else:
+            self.language = ''
+        self.category = category
+        self.description = description
+        self.roms = roms
+
+class DatNodeRom:
+    def __init__(self, rom, crc, md5, name, sha1, size):
+        self.crc = crc
+        self.md5 = md5
+        self.name = name
+        self.sha1 = sha1
+        self.size = size
+
 # Generic error message
 def error_instruction():
     command = ''
@@ -166,13 +216,12 @@ def error_instruction():
     print('\nUSAGE: ' + font.bold + command + os.path.basename(sys.argv[0]) + ' -i ' + font.end + '<input dat/folder> <options>')
     print('\nA new file is automatically generated, the original file isn\'t altered.')
     print('\nOPTIONS:')
-    print(font.bold + ' -o' + font.end + '   Set an output folder                     ' + font.bold + '-en' + font.end + '  Only include English titles')
-    print(font.bold + ' -a' + font.end + '   Don\'t include applications              ' + font.bold + ' -r' + font.end + '   Split into regional dats')
-    print(font.bold + ' -d' + font.end + '   Don\'t include demos and coverdiscs      ' + font.bold + ' -s' + font.end + '   Split into regional dats, don\'t dedupe')
-    print(font.bold + ' -e' + font.end + '   Don\'t include educational titles')
-    print(font.bold + ' -l' + font.end + '   Don\'t include titles with (Alt) tags')
-    print(font.bold + ' -m' + font.end + '   Don\'t include multimedia titles')
-    print(font.bold + ' -p' + font.end + '   Don\'t include betas and prototypes\n')
+    print(font.bold + '-o' + font.end + '    Set an output folder            ' + font.bold + ' -a' + font.end + '   Don\'t include applications')
+    print(font.bold + '-en' + font.end + '   Only include English titles     ' + font.bold + ' -d' + font.end + '   Don\'t include demos and coverdiscs')
+    print(font.bold + '-r' + font.end + '    Split into regional dats        ' + font.bold + ' -e' + font.end + '   Don\'t include educational titles')
+    print(font.bold + '-s' + font.end + '    Split into regional dats only,  ' + font.bold + ' -l' + font.end + '   Don\'t include titles with (Alt) tags')
+    print('      don\'t dedupe                     ' + font.bold + '-m' + font.end + '   Don\'t include multimedia titles')
+    print(font.bold + '                                       -p' + font.end + '   Don\'t include betas and prototypes\n')
     sys.exit()
 
 # Check user input
@@ -180,13 +229,13 @@ def check_input():
     error_state = False
 
     # Handle most user options
-    flag_no_apps = True if len([x for x in sys.argv if x == '-a']) >= 1 else False
-    flag_no_demos = True if len([x for x in sys.argv if x == '-d']) >= 1 else False
-    flag_no_edu = True if len([x for x in sys.argv if x == '-e']) >= 1 else False
-    flag_no_alts = True if len([x for x in sys.argv if x == '-l']) >= 1 else False
-    flag_no_multi = True if len([x for x in sys.argv if x == '-m']) >= 1 else False
-    flag_no_protos = True if len([x for x in sys.argv if x == '-p']) >= 1 else False
-    flag_english_only = True if len([x for x in sys.argv if x == '-en']) >= 1 else False
+    flag_no_apps = True if len([x for x in sys.argv if x == '-a']) > 0 else False
+    flag_no_demos = True if len([x for x in sys.argv if x == '-d']) > 0 else False
+    flag_no_edu = True if len([x for x in sys.argv if x == '-e']) > 0 else False
+    flag_no_alts = True if len([x for x in sys.argv if x == '-l']) > 0 else False
+    flag_no_multi = True if len([x for x in sys.argv if x == '-m']) > 0 else False
+    flag_no_protos = True if len([x for x in sys.argv if x == '-p']) > 0 else False
+    flag_english_only = True if len([x for x in sys.argv if x == '-en']) > 0 else False
 
     # The -s option isn't compatible with -r or -en, so tell the user if they've combined them
     if len([x for x in sys.argv if '-s' in x]) > 0 and len([x for x in sys.argv if '-r' in x]) > 0:
@@ -201,8 +250,6 @@ def check_input():
         flag_split_regions = True if len([x for x in sys.argv if x == '-s']) >= 1 else False
 
     # Handle input, output, and invalid options
-    i_is_folder = False
-
     for i, x in enumerate(sys.argv):
         # Check that the options entered are valid
         if x.startswith('-'):
@@ -222,9 +269,6 @@ def check_input():
                 if not os.path.exists(input_file_name):
                     print(textwrap.TextWrapper(width=80, subsequent_indent='  ').fill(font.red + '* Input file "' + font.bold + input_file_name + font.end + font.red + '" does not exist.' + font.end))
                     error_state = True
-
-                if os.path.isdir(input_file_name):
-                    i_is_folder = True
 
         # Check for and handle -o
         if x == '-o':
@@ -246,8 +290,7 @@ def check_input():
 
     # Check if -i is missing
     if len([x for x in sys.argv if '-i' in x]) == 0 and len(sys.argv) != 1:
-        if len([x for x in sys.argv if '-i' in x]) == 0:
-            print(font.red + '* Missing -i, no input file specified' + font.end)
+        print(font.red + '* Missing -i, no input file specified' + font.end)
         error_state = True
 
     # Check if the user has entered more than one -i
@@ -261,7 +304,7 @@ def check_input():
         error_state = True
 
     # Set the ouput folder name if the user hasn't specified -o
-    if len([x for x in sys.argv if '-o' in x]) == 0 and i_is_folder == False:
+    if len([x for x in sys.argv if '-o' in x]) == 0:
             output_folder_name = os.path.abspath('.')
 
     # Exit if there was an error in user input
@@ -354,60 +397,6 @@ def header(dat_name, dat_version, dat_author, dat_url, dat_header_exclusion, reg
         '\n\t</header>\n']
     return header
 
-#Establish a class for user input
-class UserInput:
-    def __init__(self, file_input, file_output, no_demos, no_apps, no_protos, no_alts, no_multi, no_edu, split_regions, split_regions_no_dupes, english_only):
-        self.file_input = file_input
-        self.file_output = file_output
-        self.no_demos = no_demos
-        self.no_apps = no_apps
-        self.no_alts = no_alts
-        self.no_multi = no_multi
-        self.no_protos = no_protos
-        self.no_edu = no_edu
-        self.split_regions = split_regions
-        self.split_regions_no_dupes = split_regions_no_dupes
-        self.english_only = english_only
-
-# Establish a class for title data
-class DatNode:
-    def __init__(self, full_title, region, category, description, roms):
-        self.full_title = full_title
-
-        if re.findall(' \(' + region + '.*?\)', full_title) != []:
-            remove_region = full_title.replace(re.findall(' \(' + region + '.*?\)', full_title)[0],'')
-            remove_languages = re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv)\.*?)(,.*?\)|\)))', remove_region)
-            if len(remove_languages) > 0:
-                try:
-                    self.regionless_title = remove_region.replace(remove_languages[0][0], '')
-                except:
-                    self.regionless_title = ''
-            else:
-                try:
-                    self.regionless_title = remove_region
-                except:
-                    self.regionless_title = ''
-        else:
-            self.regionless_title = ''
-            remove_languages = ''
-
-        self.region = region
-        if len(remove_languages) > 0:
-            self.language = remove_languages[0][0][2:-1]
-        else:
-            self.language = ''
-        self.category = category
-        self.description = description
-        self.roms = roms
-
-class DatNodeRom:
-    def __init__(self, rom, crc, md5, name, sha1, size):
-        self.crc = crc
-        self.md5 = md5
-        self.name = name
-        self.sha1 = sha1
-        self.size = size
-
 # Splits dat into regions
 def localized_titles(region, native, soup, user_input):
     sys.stdout.write("\033[K")
@@ -452,7 +441,7 @@ def add_titles(region_list, region_list_english, titles, unique_list, dupe_list,
             print('  * Adding titles from ' + region + '... done.')
     return title_xml
 
-# Remove dupes that are the same title, but support different languages
+# Removes dupes that are the same title, but support different languages
 def remove_by_language(language, subtitle1, subtitle2, title, regional_titles_data, remove_list):
     # If there's a title from Europe that has unspecified languages, or languages without English, take the unspecified version
     if 'Europe' in subtitle1.region and 'Europe' in subtitle2.region and subtitle1.language == '' and subtitle2.language != '' and 'En' not in subtitle2.language:
@@ -826,6 +815,21 @@ def process_dats(user_input, region_list_english, region_list_other, is_folder):
     # Find out how many titles are in the dat file
     original_title_count = len(soup.find_all('game'))
 
+    # Tally the other tag counts if the options have been set
+    alt_count = 0
+    apps_count = 0
+    demos_count = 0
+    edu_count = 0
+    multi_count = 0
+    protos_count = 0
+
+    if user_input.no_alts == True: alt_count = len(soup.find_all('game', {'name':re.compile('(\(Alt\)|\(Alt [0-9]\))')}))
+    if user_input.no_apps == True: apps_count = len(soup.find_all('category', string='Applications'))
+    if user_input.no_demos == True:  demos_count = len(soup.find_all('category', string='Demos')) + len(soup.find_all('category', string='Coverdiscs'))
+    if user_input.no_edu == True: edu_count = len(soup.find_all('category', string='Educational'))
+    if user_input.no_multi == True: multi_count = len(soup.find_all('category', string='Multimedia'))
+    if user_input.no_protos == True: protos_count = len(soup.find_all('category', string='Preproduction'))
+
     # Store regions in a dictionary
     titles = {}
     unique_regional_titles = {}
@@ -950,33 +954,14 @@ def process_dats(user_input, region_list_english, region_list_other, is_folder):
             return
 
     print('\nStats:\n○  Original title count: ' + str('{:,}'.format(original_title_count)))
-    alt_count = 0
-    apps_count = 0
-    demos_count = 0
-    edu_count = 0
-    multi_count = 0
-    protos_count = 0
 
-    if user_input.no_alts == True:
-        alt_count = len(soup.find_all('game', {'name':re.compile('(\(Alt\)|\(Alt [0-9]\))')}))
-        print('-  Alternate titles removed: ' + str('{:,}'.format(alt_count)))
-    if user_input.no_apps == True:
-        apps_count = len(soup.find_all('category', string='Applications'))
-        print('-  Applications removed: ' + str('{:,}'.format(apps_count)))
-    if user_input.no_demos == True:
-        demos_count = len(soup.find_all('category', string='Demos')) + len(soup.find_all('category', string='Coverdiscs'))
-        print('-  Demos removed: ' + str('{:,}'.format(demos_count)))
-    if user_input.no_edu == True:
-        edu_count = len(soup.find_all('category', string='Educational'))
-        print('-  Educational titles removed: ' + str('{:,}'.format(edu_count)))
-    if user_input.no_multi == True:
-        multi_count = len(soup.find_all('category', string='Multimedia'))
-        print('-  Multimedia titles removed: ' + str('{:,}'.format(multi_count)))
-    if user_input.no_protos == True:
-        protos_count = len(soup.find_all('category', string='Preproduction'))
-        print('-  Prototypes and betas removed: ' + str('{:,}'.format(protos_count)))
-    if len(unique_regional_titles['Unknown']) > 1:
-        print('+  Titles without regions included (might not be English): ' + str('{:,}'.format(unknown_region_title_count)))
+    if user_input.no_alts == True: print('-  Alternate titles removed: ' + str('{:,}'.format(alt_count)))
+    if user_input.no_apps == True: print('-  Applications removed: ' + str('{:,}'.format(apps_count)))
+    if user_input.no_demos == True: print('-  Demos removed: ' + str('{:,}'.format(demos_count)))
+    if user_input.no_edu == True: print('-  Educational titles removed: ' + str('{:,}'.format(edu_count)))
+    if user_input.no_multi == True: print('-  Multimedia titles removed: ' + str('{:,}'.format(multi_count)))
+    if user_input.no_protos == True: print('-  Prototypes and betas removed: ' + str('{:,}'.format(protos_count)))
+    if len(unique_regional_titles['Unknown']) > 1:  print('+  Titles without regions included (might not be English): ' + str('{:,}'.format(unknown_region_title_count)))
 
     dupe_count = original_title_count - new_title_count -alt_count -apps_count - demos_count - edu_count - multi_count - protos_count
     if dupe_count < 0: dupe_count = 0
