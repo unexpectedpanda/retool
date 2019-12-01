@@ -1,6 +1,5 @@
-# Retool scans [Redump](http://redump.org/) dats, and attempts to
-# generate new dats without dupes. Some call this 1G1R.  This is not an
-# official Redump project.
+# Dedupes [Redump](http://redump.org/) dats. This is not an official Redump
+# project.
 
 import datetime
 import html
@@ -25,13 +24,13 @@ def main():
     # Splash screen
     os.system('cls' if os.name == 'nt' else 'clear')
     print(font.bold + '\nReTOOL 0.5' + font.end)
-    print('-----------')
-    if len(sys.argv) == 1: print(textwrap.fill('Scans Redump (' + font.underline + 'http://redump.org/' + font.end + ') dats, and generates new dats that don\'t have dupes. This is not an official Redump project.', 80))
+    print('----------')
+    if len(sys.argv) == 1: print(textwrap.fill('Dedupes Redump (' + font.underline + 'http://redump.org/' + font.end + ') dats. This is not an official Redump project.', 80))
 
     # Check user input
     user_input = check_input()
 
-    # Record when the process started
+    # Start a time from when the process started
     start = time.time()
 
     # Define regions where English is a primary language. Order from most to least important.
@@ -87,20 +86,22 @@ def main():
         'United Arab Emirates'
     ]
 
-    # Process the dats
     # User has defined an output folder
     if os.path.isdir(user_input.file_input) == True:
         input_folder = user_input.file_input
         file_count = 0
 
+        # Find out how many dat files are in the folder, then process them
         for file in os.listdir(input_folder):
             if file.endswith('.dat'):
                 file_count += 1
                 user_input.file_input = os.path.join(input_folder, file)
                 process_dats(user_input, region_list_english, region_list_other, True)
 
+        # Stop the timer
         stop = time.time()
 
+        # Final output
         if file_count == 1:
             file_plural_singular = 'file'
         else:
@@ -119,10 +120,13 @@ def main():
         sys.exit()
     # User has not defined an output folder
     else:
+        # Process the dat
         file_name_title_count = process_dats(user_input, region_list_english, region_list_other, False)
 
+        # Stop the timer
         stop = time.time()
 
+        # Final output
         english_status = ''
         if user_input.english_only == True:
             english_status = ' English'
@@ -207,7 +211,7 @@ class DatNodeRom:
         self.sha1 = sha1
         self.size = size
 
-# Generic error message
+# Generic error message, also shown when the user doesn't provide any options
 def error_instruction():
     command = ''
     if 'retool.py' in sys.argv[0]:
