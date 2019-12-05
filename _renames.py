@@ -1,5 +1,6 @@
 # Last updated: 25 November 2019
-# An exclusion list for when games are the same as the US version, just renamed for another region.
+# An exclusion list for when games are the same as the US version,
+# just renamed for another region/new title screens.
 
 # DVD-Video
 def dvd_video_rename_list():
