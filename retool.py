@@ -182,16 +182,16 @@ class DatNode:
             remove_languages = re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv)\.*?)(,.*?\)|\)))', remove_region)
             if len(remove_languages) > 0:
                 try:
-                    self.regionsless_title = remove_region.replace(remove_languages[0][0], '')
+                    self.regionless_title = remove_region.replace(remove_languages[0][0], '')
                 except:
-                    self.regionsless_title = ''
+                    self.regionless_title = ''
             else:
                 try:
-                    self.regionsless_title = remove_region
+                    self.regionless_title = remove_region
                 except:
-                    self.regionsless_title = ''
+                    self.regionless_title = ''
         else:
-            self.regionsless_title = ''
+            self.regionless_title = ''
             remove_languages = ''
 
         self.regions = region
@@ -204,16 +204,16 @@ class DatNode:
         self.cloneof = 'None'
         self.roms = roms
 
-    def __repr__(self):
+    def __str__(self):
         ret_str = ['','']
         ret_str = '  ○ full_title:\t\t' + self.full_title + '\n'
         ret_str += '  ├ description:\t' + self.description + '\n'
-        ret_str += '  ├ regionless_title:\t' + self.regionsless_title + '\n'
+        ret_str += '  ├ regionless_title:\t' + self.regionless_title + '\n'
         ret_str += '  ├ regions:\t\t' + self.regions + '\n'
         if self.languages == '':
             ret_str += '  ├ languages:\t\tNone\n'
         else:
-            ret_str += '  ├ languages:\t' + self.languages + '\n'
+            ret_str += '  ├ languages:\t\t' + self.languages + '\n'
         ret_str += '  ├ cloneof:\t\t' + self.cloneof + '\n'
         ret_str += '  └ category:\t\t' + self.category + '\n'
         # ret_str += '  └ roms ┐' + '\n'
@@ -528,14 +528,16 @@ def localized_titles_unique (region, region_list_english, titles, unique_list, d
         else:
             regional_titles_data[raw_title] = [DatNode(str(title.category.parent['name']), region, title.category.contents[0], title.description.contents[0], newroms)]
 
-    for raw_title in regional_titles_data:
-        print('\n' + font.bold + '■ ' + raw_title + font.end)
-        print(regional_titles_data[raw_title][0])
-        input('>')
+    # for raw_title in regional_titles_data:
+    #     print('\n' + font.bold + '■ ' + raw_title + font.end)
+    #     print(regional_titles_data[raw_title][0])
+    #     input('>')
 
     # Find the uniques
     if user_input.split_regions == False:
         unique_regional_list = [x for x in regional_titles if x not in unique_list and x not in dupe_list]
+
+        # print(sorted(unique_regional_list, key=str.lower))
 
         # Sort and dedupe unique_regional_list
         if len(unique_regional_list) > 1:
@@ -555,6 +557,11 @@ def localized_titles_unique (region, region_list_english, titles, unique_list, d
 
         regional_titles_data = regional_titles_data_temp
 
+        # Attempt to bundle like titles together
+        # for x in unique_regional_list:
+        #     if x in regional_titles_data:
+
+
         # Create list to remove titles later that are OEM, and dupes with alternate languages
         remove_list = []
 
@@ -562,6 +569,8 @@ def localized_titles_unique (region, region_list_english, titles, unique_list, d
         for title in regional_titles_data:
             for subtitle1 in regional_titles_data[title]:
                 for subtitle2 in regional_titles_data[title]:
+                    print(subtitle2)
+                    print(subtitle1)
                     oem_string = re.findall(' \(OEM\).*', subtitle2.regionless_title)
                     if oem_string != []:
                         if subtitle2.regionless_title == subtitle1.regionless_title + oem_string[0] or subtitle2.regionless_title.replace(oem_string[0],'') == subtitle1.regionless_title.replace(' (Rerelease)', ''):
