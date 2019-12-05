@@ -201,9 +201,11 @@ class DatNode:
             self.languages = ''
         self.category = category
         self.description = description
+        self.cloneof = 'None'
         self.roms = roms
 
     def __repr__(self):
+        ret_str = ['','']
         ret_str = '  ○ full_title:\t\t' + self.full_title + '\n'
         ret_str += '  ├ description:\t' + self.description + '\n'
         ret_str += '  ├ regionless_title:\t' + self.regionsless_title + '\n'
@@ -212,13 +214,14 @@ class DatNode:
             ret_str += '  ├ languages:\t\tNone\n'
         else:
             ret_str += '  ├ languages:\t' + self.languages + '\n'
-        ret_str += '  ├ category:\t\t' + self.category + '\n'
-        ret_str += '  └ roms ┐' + '\n'
-        for i, rom in enumerate(self.roms):
-            if i == len(self.roms) - 1:
-                ret_str += '         └ ' + 'name: ' + rom.name + ' | size: ' + rom.size + ' | crc: ' + rom.crc + ' | md5: ' + rom.md5 + ' | sha1: ' + rom.sha1 + ' | size: ' + rom.size
-            else:
-                ret_str += '         ├ ' + 'name: ' + rom.name + ' | size: ' + rom.size + ' | crc: ' + rom.crc + ' | md5: ' + rom.md5 + ' | sha1: ' + rom.sha1 + ' | size: ' + rom.size + '\n'
+        ret_str += '  ├ cloneof:\t\t' + self.cloneof + '\n'
+        ret_str += '  └ category:\t\t' + self.category + '\n'
+        # ret_str += '  └ roms ┐' + '\n'
+        # for i, rom in enumerate(self.roms):
+        #     if i == len(self.roms) - 1:
+        #         ret_str += '         └ ' + 'name: ' + rom.name + ' | size: ' + rom.size + ' | crc: ' + rom.crc + ' | md5: ' + rom.md5 + ' | sha1: ' + rom.sha1 + ' | size: ' + rom.size
+        #     else:
+        #         ret_str += '         ├ ' + 'name: ' + rom.name + ' | size: ' + rom.size + ' | crc: ' + rom.crc + ' | md5: ' + rom.md5 + ' | sha1: ' + rom.sha1 + ' | size: ' + rom.size + '\n'
         return ret_str
 
 class DatNodeRom:
@@ -525,9 +528,9 @@ def localized_titles_unique (region, region_list_english, titles, unique_list, d
         else:
             regional_titles_data[raw_title] = [DatNode(str(title.category.parent['name']), region, title.category.contents[0], title.description.contents[0], newroms)]
 
+    for raw_title in regional_titles_data:
         print('\n' + font.bold + '■ ' + raw_title + font.end)
         print(regional_titles_data[raw_title][0])
-        # print('  └───────────────────────────────────────────────────────────\n')
         input('>')
 
     # Find the uniques
@@ -588,7 +591,6 @@ def localized_titles_unique (region, region_list_english, titles, unique_list, d
 
         # Remove older versions and revisions of titles
         for title in regional_titles_data:
-            # print('\n' + font.bold + '■  ' + title + font.end)
             highest_version = {}
             highest_revision = {}
 
@@ -647,7 +649,6 @@ def localized_titles_unique (region, region_list_english, titles, unique_list, d
                     highest_revision[rev_title].sort(reverse = True)
 
             if len(highest_revision) > 0:
-
                 # print('\n---RAW-REVISION------')
                 # print(highest_revision)
 
@@ -685,7 +686,6 @@ def localized_titles_unique (region, region_list_english, titles, unique_list, d
                         for something in regional_titles_data[title]:
                             if something.full_title == x:
                                 regional_titles_data[title].remove(something)
-
 
                 # print('\n---ALSO KEEP---------')
 
