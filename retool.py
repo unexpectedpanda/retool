@@ -182,26 +182,44 @@ class DatNode:
             remove_languages = re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv)\.*?)(,.*?\)|\)))', remove_region)
             if len(remove_languages) > 0:
                 try:
-                    self.regionless_title = remove_region.replace(remove_languages[0][0], '')
+                    self.regionsless_title = remove_region.replace(remove_languages[0][0], '')
                 except:
-                    self.regionless_title = ''
+                    self.regionsless_title = ''
             else:
                 try:
-                    self.regionless_title = remove_region
+                    self.regionsless_title = remove_region
                 except:
-                    self.regionless_title = ''
+                    self.regionsless_title = ''
         else:
-            self.regionless_title = ''
+            self.regionsless_title = ''
             remove_languages = ''
 
-        self.region = region
+        self.regions = region
         if len(remove_languages) > 0:
-            self.language = remove_languages[0][0][2:-1]
+            self.languages = remove_languages[0][0][2:-1]
         else:
-            self.language = ''
+            self.languages = ''
         self.category = category
         self.description = description
         self.roms = roms
+
+    def __repr__(self):
+        ret_str = '  ○ full_title:\t\t' + self.full_title + '\n'
+        ret_str += '  ├ description:\t' + self.description + '\n'
+        ret_str += '  ├ regionless_title:\t' + self.regionsless_title + '\n'
+        ret_str += '  ├ regions:\t\t' + self.regions + '\n'
+        if self.languages == '':
+            ret_str += '  ├ languages:\t\tNone\n'
+        else:
+            ret_str += '  ├ languages:\t' + self.languages + '\n'
+        ret_str += '  ├ category:\t\t' + self.category + '\n'
+        ret_str += '  └ roms ┐' + '\n'
+        for i, rom in enumerate(self.roms):
+            if i == len(self.roms) - 1:
+                ret_str += '         └ ' + 'name: ' + rom.name + ' | size: ' + rom.size + ' | crc: ' + rom.crc + ' | md5: ' + rom.md5 + ' | sha1: ' + rom.sha1 + ' | size: ' + rom.size
+            else:
+                ret_str += '         ├ ' + 'name: ' + rom.name + ' | size: ' + rom.size + ' | crc: ' + rom.crc + ' | md5: ' + rom.md5 + ' | sha1: ' + rom.sha1 + ' | size: ' + rom.size + '\n'
+        return ret_str
 
 class DatNodeRom:
     def __init__(self, rom, crc, md5, name, sha1, size):
@@ -507,6 +525,11 @@ def localized_titles_unique (region, region_list_english, titles, unique_list, d
         else:
             regional_titles_data[raw_title] = [DatNode(str(title.category.parent['name']), region, title.category.contents[0], title.description.contents[0], newroms)]
 
+        print('\n' + font.bold + '■ ' + raw_title + font.end)
+        print(regional_titles_data[raw_title][0])
+        # print('  └───────────────────────────────────────────────────────────\n')
+        input('>')
+
     # Find the uniques
     if user_input.split_regions == False:
         unique_regional_list = [x for x in regional_titles if x not in unique_list and x not in dupe_list]
@@ -571,15 +594,6 @@ def localized_titles_unique (region, region_list_english, titles, unique_list, d
 
             # Get the highest version
             for subtitle in regional_titles_data[title]:
-                # print('   └ ' + subtitle.full_title)
-
-                # print('   └ ' + str(vars(subtitle)))
-                # for i, rom in enumerate(subtitle.roms):
-                #     if i == len(subtitle.roms) - 1:
-                #         print('        └ ' + str(vars(rom)))
-                #     else:
-                #         print('        ├ ' + str(vars(rom)))
-
                 if bool(re.match('.*?\(v[0-9].*?$', subtitle.full_title)):
                     ver_title = re.findall('.*?\(v[0-9]', subtitle.regionless_title)[0][:-4]
 
