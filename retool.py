@@ -159,7 +159,7 @@ class font:
 
 # Establish a class for user input
 class UserInput:
-    def __init__(self, file_input, file_output, no_demos, no_apps, no_protos, no_alts, no_multi, no_edu, split_regions, split_regions_no_dupes, english_only):
+    def __init__(self, file_input, file_output, one_game_one_rom, no_demos, no_apps, no_protos, no_alts, no_multi, no_edu, split_regions, split_regions_no_dupes, english_only):
         self.file_input = file_input
         self.file_output = file_output
         self.no_demos = no_demos
@@ -168,13 +168,14 @@ class UserInput:
         self.no_multi = no_multi
         self.no_protos = no_protos
         self.no_edu = no_edu
+        self.one_game_one_rom = one_game_one_rom
         self.split_regions = split_regions
         self.split_regions_no_dupes = split_regions_no_dupes
         self.english_only = english_only
 
 # Establish a class for title data
 class DatNode:
-    def __init__(self, full_title, region, category, description, roms):
+    def __init__(self, full_title, region, category, description, roms, cloneof):
         self.full_title = full_title
 
         if re.findall(' \(' + region + '.*?\)', full_title) != []:
@@ -201,7 +202,7 @@ class DatNode:
             self.languages = ''
         self.category = category
         self.description = description
-        self.cloneof = 'None'
+        self.cloneof = cloneof
         self.roms = roms
 
     def __str__(self):
@@ -242,11 +243,11 @@ def error_instruction():
     print('\nA new file is automatically generated, the original file isn\'t altered.')
     print('\nOPTIONS:')
     print(font.bold + '-o' + font.end + '    Set an output folder            ' + font.bold + ' -a' + font.end + '   Don\'t include applications')
-    print(font.bold + '-en' + font.end + '   Only include English titles     ' + font.bold + ' -d' + font.end + '   Don\'t include demos and coverdiscs')
-    print(font.bold + '-r' + font.end + '    Split into regional dats        ' + font.bold + ' -e' + font.end + '   Don\'t include educational titles')
-    print(font.bold + '-s' + font.end + '    Split into regional dats only,  ' + font.bold + ' -l' + font.end + '   Don\'t include titles with (Alt) tags')
-    print('      don\'t dedupe                     ' + font.bold + '-m' + font.end + '   Don\'t include multimedia titles')
-    print(font.bold + '                                       -p' + font.end + '   Don\'t include betas and prototypes\n')
+    print(font.bold + '-1' + font.end + '    Generate a 1G1R dat             ' + font.bold + ' -d' + font.end + '   Don\'t include demos and coverdiscs')
+    print(font.bold + '-en' + font.end + '   Only include English titles     ' + font.bold + ' -e' + font.end + '   Don\'t include educational titles')
+    print(font.bold + '-r' + font.end + '    Split into regional dats        ' + font.bold + ' -l' + font.end + '   Don\'t include titles with (Alt) tags')
+    print(font.bold + '-s' + font.end + '    Split into regional dats only,  ' + font.bold + ' -m' + font.end + '   Don\'t include multimedia titles')
+    print('      don\'t dedupe                     ' + font.bold + '-p' + font.end + '   Don\'t include betas and prototypes\n')
     sys.exit()
 
 # Check user input
@@ -254,6 +255,7 @@ def check_input():
     error_state = False
 
     # Handle most user options
+    flag_1g1r = True if len([x for x in sys.argv if x == '-1']) > 0 else False
     flag_no_apps = True if len([x for x in sys.argv if x == '-a']) > 0 else False
     flag_no_demos = True if len([x for x in sys.argv if x == '-d']) > 0 else False
     flag_no_edu = True if len([x for x in sys.argv if x == '-e']) > 0 else False
@@ -269,6 +271,17 @@ def check_input():
     if len([x for x in sys.argv if '-s' in x]) > 0 and len([x for x in sys.argv if '-en' in x]) > 0:
         print(font.red + '* The -s and -en options can\'t be combined' + font.end)
         error_state = True
+    # The -1 option isn't compatible with -r, -s, or -en, so tell the user if they've combined them
+    if len([x for x in sys.argv if '-1' in x]) > 0 and len([x for x in sys.argv if '-en' in x]) > 0:
+        print(font.red + '* The -1 and -en options can\'t be combined' + font.end)
+        error_state = True
+    if len([x for x in sys.argv if '-1' in x]) > 0 and len([x for x in sys.argv if '-r' in x]) > 0:
+        print(font.red + '* The -1 and -r options can\'t be combined' + font.end)
+        error_state = True
+    if len([x for x in sys.argv if '-1' in x]) > 0 and len([x for x in sys.argv if '-s' in x]) > 0:
+        print(font.red + '* The -1 and -s options can\'t be combined' + font.end)
+        error_state = True
+
     # If there are no invalid combinations, set the appropriate regional options
     else:
         flag_split_regions_no_dupes = True if len([x for x in sys.argv if x == '-r']) >= 1 else False
@@ -278,7 +291,7 @@ def check_input():
     for i, x in enumerate(sys.argv):
         # Check that the options entered are valid
         if x.startswith('-'):
-            if not ((x == '-i') or (x == '-o') or (x == '-a') or (x == '-d') or (x == '-e') or (x == '-l') or (x == '-m') or (x == '-p') or (x == '-r') or (x == '-s') or (x == '-en')):
+            if not ((x == '-i') or (x == '-o') or (x == '-1') or (x == '-a') or (x == '-d') or (x == '-e') or (x == '-l') or (x == '-m') or (x == '-p') or (x == '-r') or (x == '-s') or (x == '-en')):
                 print(font.red + '* Invalid option ' + sys.argv[i] + font.end)
                 error_state = True
 
@@ -336,7 +349,7 @@ def check_input():
     if error_state == True:
         error_instruction()
 
-    return UserInput(input_file_name, output_folder_name, flag_no_demos, flag_no_apps, flag_no_protos, flag_no_alts, flag_no_multi, flag_no_edu, flag_split_regions, flag_split_regions_no_dupes, flag_english_only)
+    return UserInput(input_file_name, output_folder_name, flag_1g1r, flag_no_demos, flag_no_apps, flag_no_protos, flag_no_alts, flag_no_multi, flag_no_edu, flag_split_regions, flag_split_regions_no_dupes, flag_english_only)
 
 # Converts CLRMAMEPro format to XML
 def convert_clr_logiqx(clrmame_header, checkdat, is_folder):
@@ -469,10 +482,10 @@ def add_titles(region_list, region_list_english, titles, unique_list, dupe_list,
 # Removes dupes that are the same title, but support different languages
 def remove_by_language(language, subtitle1, subtitle2, title, regional_titles_data, remove_list):
     # If there's a title from Europe that has unspecified languages, or languages without English, take the unspecified version
-    if 'Europe' in subtitle1.region and 'Europe' in subtitle2.region and subtitle1.language == '' and subtitle2.language != '' and 'En' not in subtitle2.language:
+    if 'Europe' in subtitle1.regions and 'Europe' in subtitle2.regions and subtitle1.languages == '' and subtitle2.languages != '' and 'En' not in subtitle2.languages:
         if subtitle2 in regional_titles_data[title]: remove_list.append(subtitle2)
         return
-    elif  'Europe' in subtitle1.region and 'Europe' in subtitle2.region and subtitle2.language == '' and subtitle1.language != '' and 'En' not in subtitle1.language:
+    elif  'Europe' in subtitle1.regions and 'Europe' in subtitle2.regions and subtitle2.languages == '' and subtitle1.languages != '' and 'En' not in subtitle1.languages:
         if subtitle1 in regional_titles_data[title]: remove_list.append(subtitle1)
         return
     # Otherwise take the title that has the language we're looking for
@@ -494,7 +507,7 @@ def remove_by_language(language, subtitle1, subtitle2, title, regional_titles_da
         remove_by_language(language, subtitle1, subtitle2, title, regional_titles_data, remove_list)
 
 # Finds unique titles in regions, removes dupes
-def localized_titles_unique (region, region_list_english, titles, unique_list, dupe_list, user_input):
+def localized_titles_unique(region, region_list_english, titles, unique_list, dupe_list, user_input):
     regional_titles = []
     regional_titles_data = {}
 
@@ -522,16 +535,28 @@ def localized_titles_unique (region, region_list_english, titles, unique_list, d
         for rom in roms:
             newroms.append(DatNodeRom('rom', rom['crc'], rom['md5'], rom['name'], rom['sha1'], rom['size']))
 
+        # Set clone property
+        if raw_title in regional_titles and raw_title in unique_list:
+            cloneof = 'Something'
+        else:
+            cloneof = 'None'
+
         # Check that there aren't multiple discs or revisions
         if regional_titles_data.get(raw_title, -1) != -1:
-            regional_titles_data[raw_title].append(DatNode(str(title.category.parent['name']), region, title.category.contents[0], title.description.contents[0], newroms))
+            regional_titles_data[raw_title].append(DatNode(str(title.category.parent['name']), region, title.category.contents[0], title.description.contents[0], newroms, cloneof))
         else:
-            regional_titles_data[raw_title] = [DatNode(str(title.category.parent['name']), region, title.category.contents[0], title.description.contents[0], newroms)]
+            regional_titles_data[raw_title] = [DatNode(str(title.category.parent['name']), region, title.category.contents[0], title.description.contents[0], newroms, cloneof)]
 
-    for raw_title in regional_titles_data:
-        print('\n' + font.bold + '■ ' + raw_title + font.end)
-        print(regional_titles_data[raw_title][0])
-        input('>')
+        for item in regional_titles_data[raw_title]:
+            if item.cloneof != 'None':
+                print(item.full_title)
+                print(item.cloneof)
+                input('>')
+
+   # for raw_title in regional_titles_data:
+    #     print('\n' + font.bold + '■ ' + raw_title + font.end)
+    #     print(regional_titles_data[raw_title][0])
+    #     input('>')
 
     # Find the uniques
     if user_input.split_regions == False:
@@ -573,9 +598,9 @@ def localized_titles_unique (region, region_list_english, titles, unique_list, d
                 for subtitle2 in regional_titles_data[title]:
                     if subtitle1.regionless_title == subtitle2.regionless_title and subtitle1.full_title != subtitle2.full_title:
                         # First, if we're in a native English region, take the longest title
-                        if subtitle1.region in region_list_english:
+                        if subtitle1.regions in region_list_english:
                             # Don't select titles that have more languages, but not English
-                            if subtitle1.language == '' and subtitle2.language != '' and 'En' not in subtitle2.language:
+                            if subtitle1.languages == '' and subtitle2.languages != '' and 'En' not in subtitle2.language:
                                 if subtitle2 in regional_titles_data[title]: remove_list.append(subtitle2)
                             elif len(subtitle1.full_title) > len(subtitle2.full_title):
                                 if subtitle2 in regional_titles_data[title]: remove_list.append(subtitle2)
