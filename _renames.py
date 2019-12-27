@@ -1,4 +1,4 @@
-# Last updated: 25 November 2019
+# Last updated: 22 December 2019
 # An exclusion list for when games are the same as the US version,
 # just renamed for another region/new title screens.
 
@@ -3135,6 +3135,15 @@ def psx_rename_list():
         # T.R.A.G. - Mission of Mercy
         'Hard Edge',
 
+        # Tactics Ogre
+        'Tactics Ogre - Let Us Cling Together', # (タクティクス　オウガ)
+
+        # Tail of the Sun
+        'Taiyou no Shippo - Wild, Pure, Simple Life', # (太陽のしっぽ)
+
+        # Tales of Destiny II
+        'Tales of Eternia', # (テイルズ・オブ・エターニア)
+
         # Team Losi RC Racer
         'Buggy',
 
@@ -3147,15 +3156,32 @@ def psx_rename_list():
 
         # Tecmo's Deception - Invitation to Darkness
         'Devil\'s Deception',
+        'Kokumeikan', # (刻命館)
+
+        # Tecmo Stackers
+        'Deroon Dero Dero', # (でろ～んでろでろ)
+
+        # Ten Pin Alley
+        'Virtual Bowling - Ten Pin Alley no Kiseki', # (バーチャルボウリング テンピンアレイの奇跡)
+
+        # Tenchu - Stealth Assassins
+        'Rittai Ninja Katsugeki - Tenchu', # (立体忍者活劇 天誅)
+
+        # Tenchu 2 - Birth of the Stealth Assassins
+        'Rittai Ninja Katsugeki - Tenchu 2', # (立体忍者活劇 天誅 弐)
 
         # Tennis
         'All Star Tennis',
+        'Simple 1500 Series Vol. 26 - The Tennis', # (SIMPLE1500シリーズ Vol.26 THE テニス)
 
         # Terry Pratchett's Discworld
         'Discworld', # (ディスクワールド)
 
         # Test Drive Le Mans
         'Le Mans 24 Hours',
+
+        # Test Drive Off-Road
+        'Gekitotsu! Yonku Battle 4WD', # (激突！四駆バトル)
 
         # Test Drive Off-Road 2
         'Test Drive 4x4',
@@ -3174,6 +3200,12 @@ def psx_rename_list():
         'Fussball Live 2',
         'Monde de Bleus 2, Le',
         'This Is Soccer 2',
+
+        # Thrasher - Skate and Destroy
+        'Thrasher - SK8', # (スラッシャー SK8)
+
+        # Threads of Fate
+        'DewPrism', # (デュープリズム)
 
         # Thunder Truck Rally
         'Monster Trucks',
@@ -3212,8 +3244,18 @@ def psx_rename_list():
         # TOCA Championship Racing
         'TOCA Touring Car Championship',
 
+        # Tokyo Highway Battle
+        'Drift King Shutokou Battle - Tsuchiya Keiichi & Bandou Masaaki', # (DRIFT KING 首都高バトル 土屋圭市&坂東正明)
+
+        # Tomb Raider
+        'Tomb Raiders', # (トゥーム・レイダース)
+
         # Tomb Raider - The Last Revelation
         'Tomb Raider - La Revelation Finale',
+        'Tomb Raider IV - The Last Revelation', # (トゥームレイダー４　ラストレベレーション)
+
+        # Tomb Raider II - Starring Lara Croft
+        'Tomb Raider 2', # (トゥームレイダー2)
 
         # Tomb Raider III - Adventures of Lara Croft
         'Tomb Raider III - Les Aventures de Lara Croft',
@@ -3222,11 +3264,14 @@ def psx_rename_list():
         'Tomb Raider - Die Chronik',
         'Tomb Raider - Sur les Traces de Lara Croft',
         'Tomb Raider Chronicles - La Leggenda di Lara Croft',
+        'Tomb Raider V - Chronicles', # (トゥームレイダー5 クロニクル)
 
         # Tomba!
+        'Ore! Tomba', # (オレっ！トンバ)
         'Tombi!',
 
         # Tomba! 2 - The Evil Swine Return
+        'Tomba! The Wild Adventures', # (トンバ！ ザ・ワイルドアドベンチャー)
         'Tombi! 2',
         'Tombi! 2 - Contra los cerdiablos',
 
@@ -3242,14 +3287,27 @@ def psx_rename_list():
         # Trap Gunner
         'Trap Runner',
 
+        # Trick'n Snowboarder
+        'Tricky Sliders - Freestyle Snowboard', # (トリッキースライダーズ)
+
         # Triple Play 2000
         'Triple Play Baseball 2000',
+
+        # True Pinball
+        'Tekkyuu - True Pinball', # (球　トゥルー・ピンボール)
+
+        # Tunnel B1
+        '3D Mission Shooting - Finalist', # (3Dミッションシューティング ファイナリスト)
 
         # Turbo Prop Racing
         'Rapid Racer',
 
+        # Turnabout
+        'U-SA', # (右左)
+
         # Twisted Metal 2
         'Twisted Metal - World Tour',
+        'Twisted Metal EX - World Tour', # (ツイステッド・メタルＥＸ)
 
         # UEFA Champions League - Season 1998-99
         'UEFA Champions League - Saison 1998-99',
@@ -3260,8 +3318,23 @@ def psx_rename_list():
         'Actua Pool',
         'Pool Shark',
 
+        # Ultimate Fighting Championship
+        'UFC - Ultimate Fighting Championship', # (UFC:アルティメット ファイティング チャンピオンシップ)
+
         # V-Ball - Beach Volley Heroes
         'Chou Sentou Kyuugi Vanborg',
+
+        # Vanark
+        'Astro Trooper Vanark', # (宙機動ヴァンアーク)
+
+        # Vandal Hearts
+        'Vandal Hearts - Ushinawareta Kodai Bunmei', # (ヴァンダルハーツ 失われた古代文明)
+
+        # Vandal Hearts II
+        'Vandal Hearts II - Tenjou no Mon', # (ヴァンダルハーツII 天上の門)
+
+        # Vanguard Bandits
+        'Epica Stella', # (エピカ・ステラ)
 
         # Vegas Casino
         'Super Casino Special',
@@ -3278,7 +3351,11 @@ def psx_rename_list():
         # Victory Boxing Champion Edition
         'Kensei - The King of Boxing', # (拳聖 THE KING OF BOXING)
 
+        # Vigilante 8 - 2nd Offense
+        'Vigilante 8 - 2nd Battle', # (ヴィジランテ８　～セカンド・バトル～)
+
         # Viva Soccer
+        '20-seiki Striker Retsuden - The 20th Century\'s Real Strikers', # (２０世紀ストライカー列伝)
         'Absolute Football',
         'Viva Football',
 
@@ -3315,6 +3392,9 @@ def psx_rename_list():
         # Wanted
         'Hot Shot',
 
+        # Warhawk - The Red Mercury Missions
+        'AirAssault - The Red Mercury Missions', # (エア・アサルト)
+
         # Who Wants to Be a Millionaire
         'Chi Vuol Essere Miliardario',
         'Haluatko Miljonaariksi',
@@ -3339,6 +3419,12 @@ def psx_rename_list():
         'Qui Veut Gagner des Millions - Junior',
         'Wer wird Millionaer - Junior',
 
+        # Wild 9
+        'Wildroid 9', # (ワイルドロイド9)
+
+        # Wild Arms 2
+        'Wild Arms - 2nd Ignition', # (ワイルドアームズ セカンドイグニッション 体験版)
+
         # Wild Rapids
         'Bakuryuu', # (爆流)
 
@@ -3357,17 +3443,31 @@ def psx_rename_list():
         # World Cup 98
         'Copa del Mundo - Francia \'98',
         'Coupe du Monde 98',
+        'FIFA World Cup 98 - France 98 Soushuuhen', # (FIFA WORLD CUP 98 ～フランス98総集編～)
         'Frankreich 98 - Die Fussball-WM',
         'World Cup 98 - Coppa del Mondo',
 
         # World League Soccer '98
         'World League Soccer',
 
+        # World of Dragon Warrior - Torneko - The Last Hope
+        'Dragon Quest Characters - Torneko no Daibouken 2 - Fushigi no Dungeon', # (ドラゴンクエスト・キャラクターズ　トルネコの大冒険２　～不思議のダンジョン～)
+
         # Wu-Tang - Shaolin Style
         'Wu-Tang - Taste the Pain',
 
         # X-COM - UFO Defense
         'X-COM - Enemy Unknown',
+        'X-COM - Michinaru Shinryakusha', # (Ｘ‐ＣＯＭ　未知なる侵略者)
+
+        # X-Men - Mutant Academy, Spider-Man
+        'X-Men - Mutant Academy & Spider-Man', # (エックスメンミュータントアカデミー＆スパイダーマン　プロモーション　体験版)
+
+        # X-Men vs. Street Fighter
+        'X-Men vs. Street Fighter - EX Edition', # (エックスメン VS. ストリートファイター EXエディション)
+
+        # XS Junior League Dodgeball
+        'Dotchi de Ball!', # (ドッチ DE ボール！)
 
         # Yeh Yeh Tennis
         'Love Game\'s - Wai Wai Tennis 2', # (ラブ・ゲームス　～わいわいテニス２～)
@@ -3377,6 +3477,9 @@ def psx_rename_list():
 
         # Yusha - Heaven's Gate
         'Heaven\'s Gate', # (ヘヴンズ・ゲート)
+
+        # Zoop - America's Largest Killer of Time!
+        'Zoop', # (ズープ)
     ]
 
 # Sony PlayStation 2
