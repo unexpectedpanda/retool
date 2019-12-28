@@ -439,7 +439,7 @@ def header(dat_name, dat_version, dat_author, dat_url, dat_header_exclusion, reg
 def localized_titles(region, native, soup, user_input):
     sys.stdout.write("\033[K")
     if native != 'Unknown':
-        print('* Checking dat for titles in regions... ' + region, sep='', end='\r', flush=True)
+        print('* Checking dat for titles in the following regions... ' + region, sep='', end='\r', flush=True)
     if native == True:
         return soup.find_all('game', {'name':re.compile('(\(' + region + '\))')}) + soup.find_all('game', {'name':re.compile('(\(' + region + ',.*?\))')})
     elif native == 'Unknown':
@@ -489,22 +489,23 @@ def remove_by_language(language, subtitle1, subtitle2, title, regional_titles_da
         if subtitle1 in regional_titles_data[title]: remove_list.append(subtitle1)
         return
     # Otherwise take the title that has the language we're looking for
-    if re.search('\(.*' + language[0] + '.*\)', subtitle1.full_title) != None and re.search('\(.*' + language[0] + '.*\)', subtitle2.full_title) == None:
-        if subtitle2 in regional_titles_data[title]: remove_list.append(subtitle2)
-    elif re.search('\(.*' + language[0] + '.*\)', subtitle1.full_title) == None and re.search('\(.*' + language[0] + '.*\)', subtitle2.full_title) != None:
-        if subtitle1 in regional_titles_data[title]: remove_list.append(subtitle1)
-    # If both titles support the selected language, but are different lengths, take the one that supports more langauges
-    elif re.search('\(.*' + language[0] + '.*\)', subtitle1.full_title) != None and re.search('\(.*' + language[0] + '.*\)', subtitle2.full_title) != None:
-        if len(subtitle1.full_title) > len(subtitle2.full_title):
+    if language != []:
+        if re.search('\(.*' + language[0] + '.*\)', subtitle1.full_title) != None and re.search('\(.*' + language[0] + '.*\)', subtitle2.full_title) == None:
             if subtitle2 in regional_titles_data[title]: remove_list.append(subtitle2)
-        elif len(subtitle1.full_title) < len(subtitle2.full_title):
+        elif re.search('\(.*' + language[0] + '.*\)', subtitle1.full_title) == None and re.search('\(.*' + language[0] + '.*\)', subtitle2.full_title) != None:
             if subtitle1 in regional_titles_data[title]: remove_list.append(subtitle1)
+        # If both titles support the selected language, but are different lengths, take the one that supports more langauges
+        elif re.search('\(.*' + language[0] + '.*\)', subtitle1.full_title) != None and re.search('\(.*' + language[0] + '.*\)', subtitle2.full_title) != None:
+            if len(subtitle1.full_title) > len(subtitle2.full_title):
+                if subtitle2 in regional_titles_data[title]: remove_list.append(subtitle2)
+            elif len(subtitle1.full_title) < len(subtitle2.full_title):
+                if subtitle1 in regional_titles_data[title]: remove_list.append(subtitle1)
+            else:
+                language.pop(0)
+                remove_by_language(language, subtitle1, subtitle2, title, regional_titles_data, remove_list)
         else:
             language.pop(0)
             remove_by_language(language, subtitle1, subtitle2, title, regional_titles_data, remove_list)
-    else:
-        language.pop(0)
-        remove_by_language(language, subtitle1, subtitle2, title, regional_titles_data, remove_list)
 
 # Set clone property
 def cloneof(title, raw_title, regional_titles, unique_list, region, region_list_english, region_list_other, unique_regional_titles):
@@ -673,10 +674,10 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
                     for subtitle in regional_titles_data[title]:
                         if key + ' (v' + str(value[0]) in subtitle.regionless_title:
                             ver_title_keep.append(subtitle.full_title)
-                        # Delete original, unrevised title and its alts
+                        # Add original, unrevised title and its alts to delete list
                         if key == subtitle.regionless_title or bool(re.match(re.escape(key) + ' \(Alt.*?\)', subtitle.regionless_title)):
                             ver_title_delete.append(subtitle.full_title)
-                    # Delete previous versions
+                    # Add previous versions to delete list
                     for i, x in enumerate(highest_version[key]):
                         if i < len(highest_version[key]):
                             for subtitle in regional_titles_data[title]:
@@ -691,7 +692,20 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
                     for x in ver_title_delete:
                         for something in regional_titles_data[title]:
                             if something.full_title == x:
-                                regional_titles_data[title].remove(something)
+                                if user_input.one_game_one_rom == False:
+                                    # Delete lower versions
+                                    regional_titles_data[title].remove(something)
+                                else:
+                                    # Set clone for lower versions
+                                    for parent_title in ver_title_keep:
+                                        parent_title_regionless_pos = parent_title.find(' (' + region + ')')
+                                        parent_title_regionless = parent_title[:parent_title_regionless_pos]
+                                        print(parent_title_regionless)
+
+                                        if parent_title_regionless == something.regionless_title and something.cloneof == 'None':
+                                            something.cloneof = parent_title
+                                            print(something)
+                                            input('>')
 
             # Get the highest revision
             for subtitle in regional_titles_data[title]:
@@ -720,10 +734,10 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
                     for subtitle in regional_titles_data[title]:
                         if key + ' (Rev ' + str(value[0]) in subtitle.regionless_title:
                             rev_title_keep.append(subtitle.full_title)
-                        # Delete original, unrevised title and its alts
+                        # Add original, unrevised title and its alts to delete list
                         if key == subtitle.regionless_title or bool(re.match(re.escape(key) + ' \(Alt.*?\)', subtitle.regionless_title)):
                             rev_title_delete.append(subtitle.full_title)
-                    # Delete previous versions
+                    # Add previous versions to delete list
                     for i, x in enumerate(highest_revision[key]):
                         if i > 0 and i < len(highest_revision[key]) and value[0] != 1:
                             for subtitle in regional_titles_data[title]:
@@ -738,14 +752,33 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
                 # for x in rev_title_keep:
                 #     print(x)
 
-                if len(rev_title_delete) > 0:
+                # if len(rev_title_delete) > 0:
                     # print('\n---DELETE--------------')
 
+                    # for x in rev_title_delete:
+                    #     # print(x)
+                    #     for something in regional_titles_data[title]:
+                    #         if something.full_title == x:
+                    #             regional_titles_data[title].remove(something)
+
+
+                if len(rev_title_delete) > 0:
                     for x in rev_title_delete:
-                        # print(x)
                         for something in regional_titles_data[title]:
                             if something.full_title == x:
-                                regional_titles_data[title].remove(something)
+                                if user_input.one_game_one_rom == False:
+                                    # Delete lower revisions
+                                    regional_titles_data[title].remove(something)
+                                else:
+                                    # Set clone for lower revisions
+                                    for parent_title in rev_title_keep:
+                                        parent_title_regionless_pos = parent_title.find(' (' + region + ')')
+                                        parent_title_regionless = parent_title[:parent_title_regionless_pos]
+
+                                        if parent_title_regionless == something.regionless_title and something.cloneof == 'None':
+                                            something.cloneof = parent_title
+                                            print(something)
+                                            input('>')
 
                 # print('\n---ALSO KEEP---------')
 
@@ -935,7 +968,7 @@ def process_dats(user_input, region_list_english, region_list_other, is_folder):
             items.extract()
 
     sys.stdout.write("\033[K")
-    print('* Checking dat for titles in regions... done.')
+    print('* Checking dat for titles in the following regions... done.')
 
     print('* Checking dat for titles without regions... ', sep=' ', end='', flush=True)
 
