@@ -1,4 +1,4 @@
-# Last updated: 22 December 2019
+# Last updated: 28 December 2019
 # An exclusion list for when games are the same as the US version,
 # just renamed for another region/new title screens.
 
@@ -3004,17 +3004,33 @@ def psx_rename_list():
         # Risk - The Game of Global Domination
         'Risk',
 
+        # Rival Schools - United by Fate
+        'Shiritsu Justice Gakuen - Legion of Heroes', # (立ジャスティス学園 リージョン オブ ヒーローズ)
+
+        # Road & Track Presents - The Need for Speed
+        'Over Drivin\' DX', # (オーバードライビンDX)
+        'Over Drivin\' DX - Rally Edition', # (オーバードライビンＤＸ ラリーエディション)
+
         # Road Rage
         'Speed King - Neo Kobe 2045', # (スピードキング)
 
         # Roll Away
         'Kula World',
+        'KulaQuest', # (クーラクエスト)
 
         # Rosco McQueen Firefighter Extreme
+        'Fire Panic - Mack no Rescue Daisakusen', # (ファイヤーパニック　～マックのレスキュー大作戦～)
         'Rosco McQueen',
 
         # Romance of the Three Kingdoms IV - Wall of Fire
+        'Sangokushi IV', # (三國志IV)
         'Sanguozhi IV', # (三國志IV)
+
+        # Romance of the Three Kingdoms VI - Awakening of the Dragon
+        'Sangokushi VI', # (三國志VI)
+
+        # RPG Maker
+        'RPG Tkool 3', # (RPGツクール3)
 
         # Rush Hour
         'Speedster',
@@ -3022,11 +3038,21 @@ def psx_rename_list():
         # Saban's Power Rangers - Time Force
         'Power Rangers - La Force du Temps',
 
+        # Saban's Power Rangers Zeo - Full Tilt Battle Pinball
+        'Power Rangers Pinball', # (パワーレンジャー ピンボール)
+
         # Sabrina the Teenage Witch - A Twitch in Time!
         'Sabrina l\'Apprentie Sorciere et l\'Horloge Cosmique',
 
+        # SaGa Frontier 2
+        'SaGa Frontier II', # (サガフロンティアII)
+
+        # Saiyuki - Journey West
+        'Saiyuuki', # (西遊記)
+
         # Samurai Shodown III - Blades of Blood
         'Samurai Shodown III',
+        'Samurai Spirits - Zankurou Musouken', # (サムライスピリッツ 斬紅郎無双剣)
 
         # Sangokushi V (三國志Ｖ)
         'Sanguozhi V',
@@ -3043,6 +3069,9 @@ def psx_rename_list():
         # Shadow Man
         'Shadow Man - Rette deine Seele',
 
+        # Shanghai - True Valor
+        'Shanghai - Mateki Buyuu', # (上海　～真的武勇～)
+
         # Shaolin
         'Lord of Fist', # (ロード・オブ・フィスト)
 
@@ -3051,6 +3080,15 @@ def psx_rename_list():
 
         # Shonen Jump's One Piece - Grand Battle
         'From TV Animation One Piece - Grand Battle!', # (Ｆｒｏｍ　ＴＶ　Ａｎｉｍａｔｉｏｎ　Ｏｎｅ　Ｐｉｅｃｅ　～グランド・バトル！～)
+
+        # Silhouette Mirage
+        'Silhouette Mirage - Reprogrammed Hope', # (シルエットミラージュ　リプログラムド ホープ)
+
+        # Skullmonkeys
+        'Klaymen Klaymen 2 - Skullmonkey no Gyakushuu', # (クレイマン・クレイマン2 ～スカルモンキーのぎゃくしゅう～)
+
+        # Slam 'n Jam '96 featuring Magic & Kareem
+        'Magic Johnson to Kareem Abdul-Jabbar no Slam \'n Jam \'96', # (マジック・ジョンソンとカリーム・アブドゥール・ジャバーのスラムジャム'96)
 
         # Small Soldiers
         'Pequenos Guerreros',
@@ -3062,25 +3100,42 @@ def psx_rename_list():
         '3, 2, 1, Smurf! My First Racing Game',
 
         # Snowboarding
+        'Simple 1500 Series Vol. 27 - The Snowboard', # (SIMPLE1500シリーズ Vol.27 THE スノーボード)
         'Snowboard Racer',
 
         # Sonic Wings Special
         'Arcade Hits - Sonic Wings Special', # (アーケード・ヒッツ　ソニック・ウィングス・スペシャル)
 
         # Sorcerer's Maze
-        'Prism Land Story',
+        'Prism Land Story', # (プリズム・ランド・ストーリー)
+
+        # Soul Blade
+        'Soul Edge', # (ウルエッジ)
 
         # Soul of the Samurai
         'Ronin Blade',
+        'Shin Jidaigeki Action - Rasetsu no Ken', # (新時代劇アクション　～羅刹の剣～)
+
+        # Space Invaders
+        'Space Invaders X', # (スペース・インベーダーＸ)
+
+        # Space Shot
+        'Simple 1500 Series Vol. 35 - The Shooting', # (SIMPLE1500シリーズ Vol.35 THE シューティング)
 
         # Speed Punks
         'Speed Freaks',
+
+        # Speed Racer
+        'Mach GoGoGo', # (マッハＧｏＧｏＧｏ)
 
         # Spider-Man 2 - Enter - Electro
         'Spider-Man 2 - La Revanche d\'Electro',
 
         # Spyro 2 - Ripto's Rage!
         'Spyro 2 - Gateway to Glimmer',
+
+        # Spyro 2 - Ripto's Rage, CTR - Crash Team Raching
+        'Spyro 2 - Ripto\'s Rage! + Crash Team Racing',
 
         # Star Fighter
         'StarFighter 3000',
@@ -3096,18 +3151,41 @@ def psx_rename_list():
 
         # Starfighter Sanvein
         'Sanvein',
+        'SuperLite 1500 Series - Sanvein', # (SuperLite 1500 シリーズ ザンファイン)
+
+        # Street Fighter - The Movie
+        'Street Fighter - Real Battle on Film', # (ストリート ファイター　リアル バトル オン フィルム)
+
+        # Street Fighter Alpha - Warriors' Dreams
+        'Street Fighter Zero', # (ストリートファイターZERO)
+
+        # Street Fighter Alpha 2
+        'Street Fighter Zero 2', # (ストリートファイターZERO2)
+
+        # Street Fighter Alpha 3
+        'Street Fighter Zero 3', # (ストリートファイターZERO3)
 
         # Street Fighter Collection 2
         'Capcom Generation - Dai-5-shuu Kakutouka-tachi', # (カプコン・ジェネレーション　～第５集　格闘家たち～)
 
+        # Street Racquetball
+        'Simple 1500 Series Vol. 97 - The Squash', # (SIMPLE1500シリーズ Vol.97 THE スカッシュ)
+
         # Street Sk8er
+        'Simple 1500 Series Vol. 47 - The Skateboard', # (SIMPLE1500シリーズ Vol.47 THE スケートボード)
         'Street Skater',
 
         # Street Sk8er 2
         'Street Skater 2',
 
+        # Strider, Strider 2
+        'Strider Hiryuu 1 & 2', # (ストライダー飛竜１＆２)
+
         # Strike Point
         'Strikepoint - The Hex Missions',
+
+        # Striker 96
+        'Striker - World Cup Premiere Stage', # (ストライカー　ワールドカッププレミアムステージ)
 
         # Striker Pro 2000
         'UEFA Striker',
@@ -3115,8 +3193,23 @@ def psx_rename_list():
         # Strikers 1945
         'Strikers 1945 II',
 
+        # Suikoden
+        'Gensou Suikoden', # (幻想水滸伝)
+
         # Suikoden II
-        'Gensou Suikoden II',
+        'Gensou Suikoden II', # (幻想水滸伝Ⅱ)
+
+        # Super Puzzle Fighter II Turbo
+        'Super Puzzle Fighter II X', # (スーパーパズルファイターＩＩＸ)
+
+        # Super Shot Soccer
+        'Bakuretsu Soccer', # (爆烈サッカー)
+
+        # Superstar Dance Club - 1 Hits!!! -- This should be Superstar Dance Club - #1 Hits!!!
+        'Love Para - Lovely Tokyo Para-Para Musume', # (ＬＯＶＥ★パラ ラブリー東京パラパラ娘)
+
+        # Surf Riders
+        'Max Surfing 2000', # (マックスサーフィン2000)
 
         # Sven-Goeran Eriksson's World Challenge
         'Marcel Desailly Pro Football',
