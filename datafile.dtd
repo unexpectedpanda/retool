@@ -8,8 +8,8 @@
    PUBLIC "-//Logiqx//DTD ROM Management Datafile//EN"
    SYSTEM "http://www.logiqx.com/Dats/datafile.dtd"
 
-   $Revision: 1.5 $
-   $Date: 2008/10/28 21:39:16 $
+   $Revision: 1.6 $
+   $Date: 2019/12/29 13:57:12 $
 
 -->
 
@@ -56,7 +56,7 @@
 			<!ATTLIST release region CDATA #REQUIRED>
 			<!ATTLIST release language CDATA #IMPLIED>
 			<!ATTLIST release date CDATA #IMPLIED>
-			<!ATTLIST release default (yes|no) "no">	
+			<!ATTLIST release default (yes|no) "no">
 		<!ELEMENT biosset EMPTY>
 			<!ATTLIST biosset name CDATA #REQUIRED>
 			<!ATTLIST biosset description CDATA #REQUIRED>
