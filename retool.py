@@ -643,7 +643,7 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
             parent_titles = [x for x in regional_titles_data[title] if x not in remove_list]
             for item in remove_list:
                 if item in regional_titles_data[title]:
-                    # If in 1G1R mode, remove the item
+                    # If not in 1G1R mode, remove the item
                     if user_input.one_game_one_rom == False:
                         regional_titles_data[title].remove(item)
                     # Otherwise, set the cloneof property instead
@@ -689,7 +689,7 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
                 ver_title_delete = [x for x in ver_title_delete if x not in ver_title_keep]
                 ver_title_delete = merge_identical_list_items(ver_title_delete)
 
-                # Delete lower versions if 1G1R mode isn't on
+                # If not in 1G1R mode, delete lower versions
                 if len(ver_title_delete) > 0 and user_input.one_game_one_rom == False:
                     for x in ver_title_delete:
                         for something in regional_titles_data[title]:
@@ -735,7 +735,7 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
 
                 rev_title_keep.sort()
 
-                # Delete lower revisions if 1G1R mode isn't on
+                # If not in 1G1R mode, delete lower revisions
                 if len(rev_title_delete) > 0 and user_input.one_game_one_rom == False:
                     for x in rev_title_delete:
                         for something in regional_titles_data[title]:
@@ -764,24 +764,140 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
                     else:
                         parent_ver_rev.append(ver_title_keep[0])
 
+                def remove_region_language():
+                    pass
+
                 if len(parent_ver_rev) > 0:
-                    for x in ver_title_delete + rev_title_delete:
-                        for something in regional_titles_data[title]:
-                                for parent_title in parent_ver_rev:
-                                    for regions in region_list_english + region_list_other:
-                                        parent_title_regionless_pos = parent_title.find(' (' + regions + ')')
+                    for something in regional_titles_data[title]:
+                        for parent_title in parent_ver_rev:
 
-                                        if parent_title_regionless_pos != -1:
-                                            parent_title_regionless = parent_title[:parent_title_regionless_pos]
+                            if something.full_title != parent_title:
+                                if 'Grim Fandango (USA) (Disc A)' in something.full_title:
+                                    print('Source: ' + something.full_title)
+                                    print('Parent: ' + parent_title)
+                                # Process and remove unwanted tags
+                                parent_title_temp = parent_title
+                                check_title = something.regionless_title
 
-                                            for regions in region_list_english + region_list_other:
+                                if re.findall('\s?\(Rev [0-9A-Z].*?\)\s?', parent_title_temp) != []:
+                                    parent_title_temp = parent_title_temp.replace(re.findall('\s?\(Rev [0-9A-Z].*?\)\s?', parent_title_temp)[0],'')
 
-                                                if parent_title_regionless == something.full_title[:parent_title.find(' (' + regions + ')')] and something.cloneof == 'None' and something.full_title != parent_title:
-                                                    something.cloneof = parent_title
+                                if re.findall('\s?\(Rev [0-9A-Z].*?\)\s?', check_title) != []:
+                                    check_title = check_title.replace(re.findall('\s?\(Rev [0-9A-Z].*?\)\s?', check_title)[0],'')
 
-                                            break
+                                if re.findall('\s?\(v[0-9A-Z].*?\)\s?', parent_title_temp) != []:
+                                    parent_title_temp = parent_title_temp.replace(re.findall('\s?\(v[0-9A-Z].*?\)\s?', parent_title_temp)[0],'')
+
+                                if re.findall('\s?\(v[0-9A-Z].*?\)\s?', check_title) != []:
+                                    check_title = check_title.replace(re.findall('\s?\(v[0-9A-Z].*?\)\s?', check_title)[0],'')
+
+                                if re.findall('\s?\(Alt.*?\)\s?', parent_title_temp) != []:
+                                    parent_title_temp = parent_title_temp.replace(re.findall('\s?\(Alt.*?\)\s?', parent_title_temp)[0],'')
+
+                                if re.findall('\s?\(Alt.*?\)\s?', check_title) != []:
+                                    check_title = check_title.replace(re.findall('\s?\(Alt.*?\)\s?', check_title)[0],'')
+
+
+                                for regions in region_list_english + region_list_other:
+                                    if re.findall(' \(' + regions + '.*?\)', parent_title_temp) != []:
+                                        remove_region = parent_title_temp.replace(re.findall(' \(' + regions + '.*?\)', parent_title_temp)[0],'')
+                                        remove_languages_clone = re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv)\.*?)(,.*?\)|\)))', remove_region)
+
+                                        if len(remove_languages_clone) > 0:
+                                            try:
+                                                regionless_title_clone = remove_region.replace(remove_languages_clone[0][0], '')
+                                            except:
+                                                print('1')
+                                                regionless_title_clone = ''
                                         else:
-                                            continue
+                                            try:
+                                                regionless_title_clone = remove_region
+                                            except:
+                                                print('2')
+                                                regionless_title_clone = ''
+                                    # else:
+                                    #     print('3')
+                                    #     regionless_title_clone = ''
+                                    #     remove_languages_clone = ''
+
+                                print('Source stripped: ' + check_title)
+                                print('Parent stripped: ' + regionless_title_clone)
+                                clone_title_match = bool(regionless_title_clone == check_title)
+                                print('Match: ' + str(clone_title_match))
+
+                                if clone_title_match == True and something.cloneof == 'None':
+                                    something.cloneof = parent_title
+
+
+                    # for x in ver_title_delete + rev_title_delete + ver_title_keep + rev_title_keep:
+                        # print('C: ' + x)
+
+                        # for parent_title in parent_ver_rev:
+
+                        #     print('P: ' + parent_title)
+                        # for something in regional_titles_data[title]:
+                        #     for parent_title in parent_ver_rev:
+                        #         # Process titles and remove unwanted tags
+                        #         parent_title_temp = parent_title
+                        #         check_title = something.regionless_title
+
+                        #         if re.findall('\s?\(Rev [0-9A-Z].*?\)\s?', parent_title_temp) != []:
+                        #             parent_title_temp = parent_title_temp.replace(re.findall('\s?\(Rev [0-9A-Z].*?\)\s?', parent_title_temp)[0],'')
+
+                        #         if re.findall('\s?\(Rev [0-9A-Z].*?\)\s?', check_title) != []:
+                        #             check_title = check_title.replace(re.findall('\s?\(Rev [0-9A-Z].*?\)\s?', check_title)[0],'')
+
+                        #         if re.findall('\s?\(v[0-9A-Z].*?\)\s?', parent_title_temp) != []:
+                        #             parent_title_temp = parent_title_temp.replace(re.findall('\s?\(v[0-9A-Z].*?\)\s?', parent_title_temp)[0],'')
+
+                        #         if re.findall('\s?\(v[0-9A-Z].*?\)\s?', check_title) != []:
+                        #             check_title = check_title.replace(re.findall('\s?\(v[0-9A-Z].*?\)\s?', check_title)[0],'')
+
+                        #         if re.findall('\s?\(Alt.*?\)\s?', parent_title_temp) != []:
+                        #             parent_title_temp = parent_title_temp.replace(re.findall('\s?\(Alt.*?\)\s?', parent_title_temp)[0],'')
+
+                        #         if re.findall('\s?\(Alt.*?\)\s?', check_title) != []:
+                        #             check_title = check_title.replace(re.findall('\s?\(Alt.*?\)\s?', check_title)[0],'')
+
+                        #         for regions in region_list_english + region_list_other:
+                        #             if re.findall(' \(' + region + '.*?\)', parent_title_temp) != []:
+                        #                 remove_region = parent_title_temp.replace(re.findall(' \(' + regions + '.*?\)', parent_title_temp)[0],'')
+                        #                 remove_languages_clone = re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv)\.*?)(,.*?\)|\)))', remove_region)
+                        #                 if len(remove_languages_clone) > 0:
+                        #                     try:
+                        #                         regionless_title_clone = remove_region.replace(remove_languages_clone[0][0], '')
+                        #                     except:
+                        #                         regionless_title_clone = ''
+                        #                 else:
+                        #                     try:
+                        #                         regionless_title_clone = remove_region
+                        #                     except:
+                        #                         regionless_title_clone = ''
+                        #             else:
+                        #                 regionless_title_clone = ''
+                        #                 remove_languages_clone = ''
+
+                                # Set the clone's parent
+                                # print(parent_title)
+                                # print(parent_title_temp)
+                                # print(regionless_title_clone)
+                                # print(check_title)
+                                # if regionless_title_clone == check_title and something.cloneof == 'None' and something.full_title != parent_title:
+                                    # print('=========\nI think these match:\n')
+                                    # print(parent_title)
+                                    # print(regionless_title_clone)
+                                    # print(something.full_title)
+                                    # print(check_title)
+                                    # print('\nI want to set the parent of\n')
+                                    # print(something.full_title + '\n\nto:\n')
+                                    # print(parent_title)
+                                    # print(another)
+                            #         input('>')
+                            #         something.cloneof = parent_title
+
+                            #     break
+                            # else:
+                            #     continue
     else:
         unique_regional_list = [x for x in regional_titles]
 
