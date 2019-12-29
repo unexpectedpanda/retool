@@ -455,14 +455,17 @@ def localized_titles(region, native, soup, user_input):
             return soup.find_all('game', {'name':re.compile('(\(' + region + '\))')}) + soup.find_all('game', {'name':re.compile('(\(' + region + ',.*?\))')})
 
 # Adds titles in Logiqx XML dat form
-def add_titles(region_list, region_list_english, region_list_other, titles, unique_list, unique_regional_titles, dupe_list, user_input):
+def add_titles(region_list, region_list_english, region_list_other, titles, unique_list, unique_regional_titles, dupe_list, user_input, parent_ver_rev):
     if user_input.split_regions_no_dupes == True or user_input.split_regions == True:
         title_xml = {}
     else:
         title_xml = ''
 
     for region in region_list:
-        unique_regional_titles[region] = localized_titles_unique(region, region_list_english, region_list_other, titles[region], unique_list, unique_regional_titles, dupe_list, user_input)
+        unique_regional_titles[region] = localized_titles_unique(region, region_list_english, region_list_other, titles[region], unique_list, unique_regional_titles, dupe_list, user_input, parent_ver_rev)
+        # print(region)
+        # print(unique_regional_titles[region])
+        # input('>')
 
         if unique_regional_titles[region]['unique_titles'] != []:
             print('  * Adding titles from ' + region + '...', sep='', end='\r', flush=True)
@@ -507,7 +510,7 @@ def remove_by_language(language, subtitle1, subtitle2, title, regional_titles_da
             language.pop(0)
             remove_by_language(language, subtitle1, subtitle2, title, regional_titles_data, remove_list)
 
-# Set clone property
+# Set clone property cross region
 def cloneof(title, raw_title, regional_titles, unique_list, region, region_list_english, region_list_other, unique_regional_titles):
     if raw_title in regional_titles and raw_title in unique_list:
         # Find out what the parent is. Not the best way to do this, but it's the easiest.
@@ -538,7 +541,7 @@ def cloneof(title, raw_title, regional_titles, unique_list, region, region_list_
         return 'None'
 
 # Finds unique titles in regions, removes dupes
-def localized_titles_unique(region, region_list_english, region_list_other, titles, unique_list, unique_regional_titles, dupe_list, user_input):
+def localized_titles_unique(region, region_list_english, region_list_other, titles, unique_list, unique_regional_titles, dupe_list, user_input, parent_ver_rev):
     regional_titles = []
     regional_titles_data = {}
 
@@ -577,11 +580,6 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
             cloneofstr = cloneof(title, raw_title, regional_titles, unique_list, region, region_list_english, region_list_other, unique_regional_titles)
             regional_titles_data[raw_title][len(regional_titles_data.get(raw_title, -1)) - 1].cloneof = cloneofstr
 
-        # if regional_titles_data[raw_title][len(regional_titles_data.get(raw_title, -1)) - 1].cloneof != 'None':
-        #     print('C: ' + str(regional_titles_data[raw_title][len(regional_titles_data.get(raw_title, -1)) - 1].full_title))
-        #     print('P: ' + str(regional_titles_data[raw_title][len(regional_titles_data.get(raw_title, -1)) - 1].cloneof))
-        #     input('>')
-
     # for raw_title in regional_titles_data:
     #     print('\n' + font.bold + '■ ' + raw_title + font.end)
     #     print(regional_titles_data[raw_title][0])
@@ -589,9 +587,13 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
 
     # Find the uniques
     if user_input.split_regions == False:
-        unique_regional_list = [x for x in regional_titles if x not in unique_list and x not in dupe_list]
+        if user_input.one_game_one_rom == False:
+            unique_regional_list = [x for x in regional_titles if x not in unique_list and x not in dupe_list]
+        else:
+            unique_regional_list = [x for x in regional_titles]
 
         # Sort and dedupe unique_regional_list
+
         if len(unique_regional_list) > 1:
             unique_regional_list = sorted(unique_regional_list, key=str.lower)
             unique_regional_temp = []
@@ -600,15 +602,14 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
                     unique_regional_temp.append(unique_regional_list[i])
             unique_regional_list = unique_regional_temp
 
-        # If in 1G1R mode, trim the dictionary so only unique titles are in there
-        if user_input.one_game_one_rom == False:
-            regional_titles_data_temp = {}
+        # If not in 1G1R mode, trim the dictionary so only unique titles are in there
+        regional_titles_data_temp = {}
 
-            for x in unique_regional_list:
-                if x in regional_titles_data:
-                    regional_titles_data_temp[x] = regional_titles_data[x]
+        for x in unique_regional_list:
+            if x in regional_titles_data:
+                regional_titles_data_temp[x] = regional_titles_data[x]
 
-            regional_titles_data = regional_titles_data_temp
+        regional_titles_data = regional_titles_data_temp
 
         # Create list to remove titles later that are OEM, and dupes with alternate languages
         remove_list = []
@@ -651,7 +652,7 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
                             if item.regionless_title == parent.regionless_title and item.cloneof == 'None':
                                 item.cloneof = parent.full_title
 
-            # Remove older versions and revisions of titles
+            # Remove or set clone status of older versions and revisions of titles
             highest_version = {}
             highest_revision = {}
 
@@ -666,10 +667,10 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
 
                     highest_version[ver_title].sort(reverse = True)
 
-            if len(highest_version) > 0:
-                ver_title_keep = []
-                ver_title_delete = []
+            ver_title_keep = []
+            ver_title_delete = []
 
+            if len(highest_version) > 0:
                 for key, value in highest_version.items():
                     for subtitle in regional_titles_data[title]:
                         if key + ' (v' + str(value[0]) in subtitle.regionless_title:
@@ -688,24 +689,12 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
                 ver_title_delete = [x for x in ver_title_delete if x not in ver_title_keep]
                 ver_title_delete = merge_identical_list_items(ver_title_delete)
 
-                if len(ver_title_delete) > 0:
+                # Delete lower versions if 1G1R mode isn't on
+                if len(ver_title_delete) > 0 and user_input.one_game_one_rom == False:
                     for x in ver_title_delete:
                         for something in regional_titles_data[title]:
                             if something.full_title == x:
-                                if user_input.one_game_one_rom == False:
-                                    # Delete lower versions
                                     regional_titles_data[title].remove(something)
-                                else:
-                                    # Set clone for lower versions
-                                    for parent_title in ver_title_keep:
-                                        parent_title_regionless_pos = parent_title.find(' (' + region + ')')
-                                        parent_title_regionless = parent_title[:parent_title_regionless_pos]
-                                        print(parent_title_regionless)
-
-                                        if parent_title_regionless == something.regionless_title and something.cloneof == 'None':
-                                            something.cloneof = parent_title
-                                            print(something)
-                                            input('>')
 
             # Get the highest revision
             for subtitle in regional_titles_data[title]:
@@ -722,14 +711,11 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
 
                     highest_revision[rev_title].sort(reverse = True)
 
+            rev_title_keep = []
+            rev_title_delete = []
+
+            # Process older revisions
             if len(highest_revision) > 0:
-                # print('\n---RAW-REVISION------')
-                # print(highest_revision)
-
-                # Delete older titles
-                rev_title_keep = []
-                rev_title_delete = []
-
                 for key, value in highest_revision.items():
                     for subtitle in regional_titles_data[title]:
                         if key + ' (Rev ' + str(value[0]) in subtitle.regionless_title:
@@ -747,38 +733,59 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
                 # Dedupe delete list. It's a hack, but a more elegant solution will have to come another time.
                 rev_title_delete = merge_identical_list_items(rev_title_delete)
 
-                # print('\n---KEEP--------------')
                 rev_title_keep.sort()
-                # for x in rev_title_keep:
-                #     print(x)
 
-                # if len(rev_title_delete) > 0:
-                    # print('\n---DELETE--------------')
-
-                    # for x in rev_title_delete:
-                    #     # print(x)
-                    #     for something in regional_titles_data[title]:
-                    #         if something.full_title == x:
-                    #             regional_titles_data[title].remove(something)
-
-
-                if len(rev_title_delete) > 0:
+                # Delete lower revisions if 1G1R mode isn't on
+                if len(rev_title_delete) > 0 and user_input.one_game_one_rom == False:
                     for x in rev_title_delete:
                         for something in regional_titles_data[title]:
                             if something.full_title == x:
-                                if user_input.one_game_one_rom == False:
-                                    # Delete lower revisions
                                     regional_titles_data[title].remove(something)
-                                else:
-                                    # Set clone for lower revisions
-                                    for parent_title in rev_title_keep:
-                                        parent_title_regionless_pos = parent_title.find(' (' + region + ')')
-                                        parent_title_regionless = parent_title[:parent_title_regionless_pos]
 
-                                        if parent_title_regionless == something.regionless_title and something.cloneof == 'None':
-                                            something.cloneof = parent_title
-                                            print(something)
-                                            input('>')
+            # Set clones if 1G1R mode is on
+            if user_input.one_game_one_rom == True:
+                rev_title_keep.sort(reverse=True)
+                ver_title_keep.sort(reverse=True)
+
+                # Strip alts if the same title exists without the alt tag
+                for item in rev_title_keep + ver_title_keep:
+                    for anotheritem in rev_title_keep + ver_title_keep:
+                        if re.search(' \(Alt.*?\)', anotheritem) != None:
+                            string1 = re.sub(' \(Alt.*?\)', '', anotheritem)
+                            if string1 == item:
+                                if anotheritem in rev_title_keep:
+                                    rev_title_keep.remove(anotheritem)
+                                if anotheritem in ver_title_keep:
+                                    ver_title_keep.remove(anotheritem)
+
+                if rev_title_keep != [] or ver_title_keep != []:
+                    if rev_title_keep != []:
+                        parent_ver_rev.append(rev_title_keep[0])
+                    else:
+                        parent_ver_rev.append(ver_title_keep[0])
+
+                if len(parent_ver_rev) > 0:
+                    for x in ver_title_delete + rev_title_delete + ver_title_keep + rev_title_keep:
+                        # print('1: ' + x)
+                        for something in regional_titles_data[title]:
+                            if something.full_title == x:
+                                # print('2: ' + something.full_title)
+                                for parent_title in parent_ver_rev:
+                                    # print('3: ' + parent_title)
+                                    for regions in region_list_english + region_list_other:
+                                        parent_title_regionless_pos = parent_title.find(' (' + regions + ')')
+                                        if parent_title_regionless_pos != -1:
+                                            parent_title_regionless = parent_title[:parent_title_regionless_pos]
+
+                                            for regions in region_list_english + region_list_other:
+                                                if parent_title_regionless == something.full_title[:parent_title.find(' (' + regions + ')')] and something.cloneof == 'None':
+                                                    something.cloneof = parent_title
+                                                    # print(something)
+                                                    # input('>')
+
+                                            break
+                                        else:
+                                            continue
 
                 # print('\n---ALSO KEEP---------')
 
@@ -955,7 +962,7 @@ def process_dats(user_input, region_list_english, region_list_other, is_folder):
     for i, region in enumerate(region_lists_temp):
         if region in region_lists:
             region_lists.remove(region)
-        region_lists.insert(i+1, region)
+        region_lists.insert(i + 1, region)
 
     # Populate region titles
     for region in region_lists:
@@ -1026,9 +1033,11 @@ def process_dats(user_input, region_list_english, region_list_other, is_folder):
     if dat_name == 'Sony - PlayStation Portable': dupe_list = _renames.psp_rename_list()
 
     # Find unique titles in each region and add their XML node
-    final_title_xml = add_titles(region_list_english + region_list_other, region_list_english, region_list_other, titles, unique_list, unique_regional_titles, dupe_list, user_input)
+    parent_ver_rev = []
 
-    unique_regional_titles['Unknown'] = localized_titles_unique('Unknown', region_list_english, region_list_other, titles['Unknown'], unique_list, unique_regional_titles, dupe_list, user_input)
+    final_title_xml = add_titles(region_list_english + region_list_other, region_list_english, region_list_other, titles, unique_list, unique_regional_titles, dupe_list, user_input, parent_ver_rev)
+
+    unique_regional_titles['Unknown'] = localized_titles_unique('Unknown', region_list_english, region_list_other, titles['Unknown'], unique_list, unique_regional_titles, dupe_list, user_input, parent_ver_rev)
 
     # Find titles without regions
     if len(unique_regional_titles['Unknown']) > 1:
