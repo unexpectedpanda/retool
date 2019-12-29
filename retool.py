@@ -747,7 +747,7 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
                 rev_title_keep.sort(reverse=True)
                 ver_title_keep.sort(reverse=True)
 
-                # Strip alts if the same title exists without the alt tag
+                # Strip alts from keep lists if the same title exists without the alt tag
                 for item in rev_title_keep + ver_title_keep:
                     for anotheritem in rev_title_keep + ver_title_keep:
                         if re.search(' \(Alt.*?\)', anotheritem) != None:
@@ -765,40 +765,23 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
                         parent_ver_rev.append(ver_title_keep[0])
 
                 if len(parent_ver_rev) > 0:
-                    for x in ver_title_delete + rev_title_delete + ver_title_keep + rev_title_keep:
-                        # print('1: ' + x)
+                    for x in ver_title_delete + rev_title_delete:
                         for something in regional_titles_data[title]:
-                            if something.full_title == x:
-                                # print('2: ' + something.full_title)
                                 for parent_title in parent_ver_rev:
-                                    # print('3: ' + parent_title)
                                     for regions in region_list_english + region_list_other:
                                         parent_title_regionless_pos = parent_title.find(' (' + regions + ')')
+
                                         if parent_title_regionless_pos != -1:
                                             parent_title_regionless = parent_title[:parent_title_regionless_pos]
 
                                             for regions in region_list_english + region_list_other:
-                                                if parent_title_regionless == something.full_title[:parent_title.find(' (' + regions + ')')] and something.cloneof == 'None':
+
+                                                if parent_title_regionless == something.full_title[:parent_title.find(' (' + regions + ')')] and something.cloneof == 'None' and something.full_title != parent_title:
                                                     something.cloneof = parent_title
-                                                    # print(something)
-                                                    # input('>')
 
                                             break
                                         else:
                                             continue
-
-                # print('\n---ALSO KEEP---------')
-
-                # rev_title_remainder = []
-                # for subtitle in regional_titles_data[title]:
-                #     rev_title_remainder.append(subtitle.full_title)
-
-                # rev_title_remainder = [x for x in rev_title_remainder if x not in rev_title_keep and x not in rev_title_delete]
-
-                # for x in rev_title_remainder:
-                #     print(x)
-
-                # input('>')
     else:
         unique_regional_list = [x for x in regional_titles]
 
@@ -830,11 +813,15 @@ def convert_to_xml(region, unique_regional_titles, titles, user_input):
             for title in unique_regional_titles[region]:
                 if title != 'unique_titles':
                     for subtitle in unique_regional_titles[region][title]:
-                        final_title_xml += '\t<game name="' + html.escape(subtitle.full_title) + '">'
+                        if subtitle.cloneof == 'None':
+                            final_title_xml += '\t<game name="' + html.escape(subtitle.full_title) + '">'
+                        else:
+                            final_title_xml += '\t<game name="' + html.escape(subtitle.full_title) + '" cloneof="' + html.escape(subtitle.cloneof) + '">'
                         final_title_xml += '\n\t\t<category>' + html.escape(subtitle.category) + '</category>'
                         final_title_xml += '\n\t\t<description>' + html.escape(subtitle.description) + '</description>'
-                        if subtitle.cloneof != 'None':
-                            final_title_xml += '\n\t\t<cloneof>' + html.escape(subtitle.cloneof) + '</cloneof>'
+                        if user_input.one_game_one_rom == True:
+                            final_title_xml += '\n\t\t<release name="' + html.escape(subtitle.description) + '" region="' + region + '"/>'
+
                         for rom in subtitle.roms:
                             final_title_xml += '\n\t\t<rom crc="' + rom.crc + '" md5="' + rom.md5 + '" name="' + html.escape(rom.name) + '" sha1="' + rom.sha1 + '" size="' + rom.size + '"/>'
                         final_title_xml += '\n\t</game>\n'
