@@ -804,42 +804,6 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
                                     parent_title_temp = clone_string_stripper(parent_title_temp, string)
                                     check_title = clone_string_stripper(check_title, string)
 
-                                # parent_title_temp = clone_string_stripper(parent_title_temp, '\s?\(Rev [0-9A-Z].*?\)\s?')
-                                # check_title = clone_string_stripper(check_title, '\s?\(Rev [0-9A-Z].*?\)\s?')
-
-                                # print(parent_title_temp)
-                                # print(check_title)
-
-                                # if re.findall('\s?\(Rev [0-9A-Z].*?\)\s?', parent_title_temp) != []:
-                                #     parent_title_temp = parent_title_temp.replace(re.findall('\s?\(Rev [0-9A-Z].*?\)\s?', parent_title_temp)[0],'')
-
-                                # if re.findall('\s?\(Rev [0-9A-Z].*?\)\s?', check_title) != []:
-                                #     check_title = check_title.replace(re.findall('\s?\(Rev [0-9A-Z].*?\)\s?', check_title)[0],'')
-
-                                # if re.findall('\s?\(v[0-9A-Z].*?\)\s?', parent_title_temp) != []:
-                                #     parent_title_temp = parent_title_temp.replace(re.findall('\s?\(v[0-9A-Z].*?\)\s?', parent_title_temp)[0],'')
-
-                                # if re.findall('\s?\(v[0-9A-Z].*?\)\s?', check_title) != []:
-                                #     check_title = check_title.replace(re.findall('\s?\(v[0-9A-Z].*?\)\s?', check_title)[0],'')
-
-                                # if re.findall('\s?\(Alt.*?\)\s?', parent_title_temp) != []:
-                                #     parent_title_temp = parent_title_temp.replace(re.findall('\s?\(Alt.*?\)\s?', parent_title_temp)[0],'')
-
-                                # if re.findall('\s?\(Alt.*?\)\s?', check_title) != []:
-                                #     check_title = check_title.replace(re.findall('\s?\(Alt.*?\)\s?', check_title)[0],'')
-
-                                # if re.findall('\s?\(OEM\)\s?', parent_title_temp) != []:
-                                #     parent_title_temp = parent_title_temp.replace(re.findall('\s?\(OEM\)\s?', parent_title_temp)[0],'')
-
-                                # if re.findall('\s?\(OEM\)\s?', check_title) != []:
-                                #     check_title = check_title.replace(re.findall('\s?\(OEM\)\s?', check_title)[0],'')
-
-                                # if re.findall('\s?\(Rerelease\)\s?', parent_title_temp) != []:
-                                #     parent_title_temp = parent_title_temp.replace(re.findall('\s?\(Rerelease\)\s?', parent_title_temp)[0],'')
-
-                                # if re.findall('\s?\(Rerelease\)\s?', check_title) != []:
-                                #     check_title = check_title.replace(re.findall('\s?\(Rerelease\)\s?', check_title)[0],'')
-
                                 if re.findall('\(Disco [A-Z0-9]\)', parent_title_temp) != []:
                                     disc_alternative = re.search('\(Disco [A-Z0-9]\)', parent_title_temp).group()
                                     disc_alternative = disc_alternative.replace('Disco','Disc')
