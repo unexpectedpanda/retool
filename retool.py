@@ -474,9 +474,7 @@ def add_titles(region_list, region_list_english, region_list_other, titles, uniq
         title_xml = ''
 
     for region in region_list:
-        if user_input.one_game_one_rom == True: print('  * Searching for titles and identifying clones from ' + region + '...', sep='', end='\r', flush=True)
         unique_regional_titles[region] = localized_titles_unique(region, region_list_english, region_list_other, titles[region], unique_list, unique_regional_titles, dupe_list, user_input, parent_ver_rev, tag_strings)
-        if user_input.one_game_one_rom == True: print('  * Searching for titles and identifying clones from ' + region + '... done', sep='', end='\r', flush=True)
 
         if unique_regional_titles[region]['unique_titles'] != []:
             print('  * Adding titles from ' + region + '...', sep='', end='\r', flush=True)
@@ -621,6 +619,9 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
     regional_titles = []
     regional_titles_data = {}
 
+    progress_spinner = ['\\', '|', '/', '─']
+    progress_spinner_i = 0
+
     for title in titles:
         # Extract each title name, with no tags
         if region !='Unknown':
@@ -690,8 +691,10 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
         # Create list to remove titles later that are OEM, and dupes with alternate languages
         remove_list = []
 
-
         for title in regional_titles_data:
+            progress_spinner_i += 1
+            if progress_spinner_i == 4: progress_spinner_i = 0
+            if user_input.one_game_one_rom == True: print('  * Finding parents and clones in ' + region + '... ' + progress_spinner[progress_spinner_i], sep='', end='\r', flush=True)
             for subtitle1 in regional_titles_data[title]:
                 for subtitle2 in regional_titles_data[title]:
                     # Add titles that are just OEM versions of commercial titles to the remove list
@@ -851,13 +854,8 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
 
                 parent_ver_rev_temp = parent_ver_rev
                 title_compared = []
-                progress_spinner = ['\\', '|', '/', '-']
-                progress_spinner_i = 0
 
                 for x in parent_ver_rev:
-                    progress_spinner_i += 1
-                    if progress_spinner_i == 3: progress_spinner_i = 0
-                    if user_input.one_game_one_rom == True: print('  * Searching for titles and identifying clones from ' + region + '... ' + progress_spinner[progress_spinner_i], sep='', end='\r', flush=True)
                     for y in parent_ver_rev:
                         if x != y:
                             # Strip unwanted tags to make a basic match
@@ -873,12 +871,12 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
 
                             if title_a_no_reg == title_b_no_reg:
                                 # Check if the titles are from the same region
-                                for region in region_list_english + region_list_other:
-                                    if bool(re.search(' \(.*?' + region + '.*?\)', x)) == True and bool(re.search(' \(.*?' + region + '.*?\)', y)) == True:
+                                for another_region in region_list_english + region_list_other:
+                                    if bool(re.search(' \(.*?' + another_region + '.*?\)', x)) == True and bool(re.search(' \(.*?' + another_region + '.*?\)', y)) == True:
                                         # If one has more regions than the other, take it
-                                        if len(re.findall(',', re.findall('\(.*?' + region + '.*?\)', x)[0])) > len(re.findall(',', re.findall('\(.*?' + region + '.*?\)', y)[0])):
+                                        if len(re.findall(',', re.findall('\(.*?' + another_region + '.*?\)', x)[0])) > len(re.findall(',', re.findall('\(.*?' + another_region + '.*?\)', y)[0])):
                                             if y in parent_ver_rev: parent_ver_rev_temp.remove(y)
-                                        elif len(re.findall(',', re.findall('\(.*?' + region + '.*?\)', y)[0])) > len(re.findall(',', re.findall('\(.*?' + region + '.*?\)', x)[0])):
+                                        elif len(re.findall(',', re.findall('\(.*?' + another_region + '.*?\)', y)[0])) > len(re.findall(',', re.findall('\(.*?' + another_region + '.*?\)', x)[0])):
                                             if x in parent_ver_rev: parent_ver_rev_temp.remove(x)
                                         # Else if one has a version but the other doesn't, take it
                                         elif bool(re.search('\(v[0-9].*?\)', x)) == True and bool(re.search('\(v[0-9].*?\)', y)) == False:
@@ -908,18 +906,18 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
                                         # Regions don't match, and there is only one region
                                         region_single_1 = False
                                         region_single_2 = False
-                                        for anotherregion in region_list_english + region_list_other:
-                                            if len(re.findall('\(' + anotherregion + '\)', x)) == 1:
+                                        for yet_another_region in region_list_english + region_list_other:
+                                            if len(re.findall('\(' + yet_another_region + '\)', x)) == 1:
                                                 region_single_1 = True
-                                            if len(re.findall('\(' + anotherregion + '\)', y)) == 1:
+                                            if len(re.findall('\(' + yet_another_region + '\)', y)) == 1:
                                                 region_single_2 = True
 
                                         if region_single_1 == True and region_single_2 == True:
-                                            if region not in x and region in y:
+                                            if another_region not in x and another_region in y:
                                                 if x in parent_ver_rev and x not in title_compared:
                                                     parent_ver_rev_temp.remove(x)
                                                 title_compared.append(y)
-                                            elif region not in y and region in x:
+                                            elif another_region not in y and another_region in x:
                                                 if y in parent_ver_rev and y not in title_compared:
                                                     parent_ver_rev_temp.remove(y)
                                                 title_compared.append(x)
