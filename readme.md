@@ -47,6 +47,7 @@ Or for the binary version:
 * `-p` Remove betas and prototypes
 * `-r` Split dat into regional dats
 * `-s` Split dat into regional dats, don't dedupe
+* `-1` Generate a CLRMAMEPro 1G1R dat
 
 ## How it works
 There are multiple stages for eliminating dupes.
