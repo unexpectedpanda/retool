@@ -15,7 +15,7 @@ from bs4 import BeautifulSoup, Doctype # For XML parsing
 if os.path.exists('_test.py'):
     import _test as _renames
 else:
-    import _renames # Duplicate image titles that have different names in different regions
+    import _renames # Dupes that have different names in different regions
 
 # Require at least Python 3.5
 assert sys.version_info >= (3, 5)
@@ -25,15 +25,22 @@ def main():
     os.system('cls' if os.name == 'nt' else 'clear')
     print(font.bold + '\nReTOOL 0.5' + font.end)
     print('----------')
-    if len(sys.argv) == 1: print(textwrap.fill('Dedupes Redump (' + font.underline + 'http://redump.org/' + font.end + ') dats. This is not an official Redump project.', 80))
+    if len(sys.argv) == 1:
+        print(
+            textwrap.fill(
+            'Dedupes Redump (' + font.underline + 'http://redump.org/'
+            + font.end + ') dats. This is not an official Redump project.', 80
+            )
+        )
 
     # Check user input
     user_input = check_input()
 
     # Start a time from when the process started
-    start = time.time()
+    start_time = time.time()
 
-    # Define regions where English is a primary language. Order from most to least important.
+    # Define regions where English is a primary language. Order from most to
+    # least important.
     region_list_english = [
         'USA',
         'World',
@@ -42,10 +49,11 @@ def main():
         'Australia',
         'New Zealand',
         'Singapore',
-        'Ireland',
+        'Ireland'
     ]
 
-    # Define regions where titles might have an English version. Order from most to least important.
+    # Define regions where titles might have an English version. Order from
+    # most to least important.
     region_list_other = [
         'Europe',
         'Japan',
@@ -86,75 +94,84 @@ def main():
         'United Arab Emirates'
     ]
 
-    # Define tag strings that could cause issues with finding title matches
-    tag_strings = ['\s?\(Rev [0-9A-Z].*?\)\s?',
-                    '\s?\(v[0-9A-Z].*?\)\s?',
-                    '\s?\(Alt.*?\)\s?',
-                    '\s?\(OEM\)\s?',
-                    '\s?\(Rerelease\)\s?',
-                    '\(Disco [A-Z0-9]\)',
-                    '\s?\([0-9].{7}\)\s?',
-                    '\(Disc [A-Z]\)',
-                    '\s?\(Covermount\)\s?',
-                    '\s?\(Sold Out Software\)\s?']
+    # Define tag strings that could cause issues when looking for dupes
+    tag_strings = [
+        '\s?\(Rev [0-9A-Z].*?\)\s?',
+        '\s?\(v[0-9A-Z].*?\)\s?',
+        '\s?\(Alt.*?\)\s?',
+        '\s?\(OEM\)\s?',
+        '\s?\(Rerelease\)\s?',
+        '\(Disco [A-Z0-9]\)',
+        '\s?\([0-9].{7}\)\s?',
+        '\(Disc [A-Z]\)',
+        '\s?\(Covermount\)\s?',
+        '\s?\(Sold Out Software\)\s?'
+        ]
 
-    # User has defined an output folder
+    # If the user has defined an output folder
     if os.path.isdir(user_input.file_input) == True:
-        input_folder = user_input.file_input
         file_count = 0
+        input_folder = user_input.file_input
 
-        # Find out how many dat files are in the folder, then process them
+        # Find out how many dat files are in the folder, then process the dat
         for file in os.listdir(input_folder):
             if file.endswith('.dat'):
                 file_count += 1
                 user_input.file_input = os.path.join(input_folder, file)
                 process_dats(user_input, tag_strings, region_list_english, region_list_other, True)
 
-        # Stop the timer
-        stop = time.time()
-
-        # Final output
-        if file_count == 1:
-            file_plural_singular = 'file'
-        else:
-            file_plural_singular = 'files'
-
-        if file_count != 0:
-            if user_input.split_regions_no_dupes == True:
-                print(textwrap.TextWrapper(width=80, subsequent_indent='  ').fill(font.green + '* Finished processing ' + str('{:,}'.format(file_count)) + ' ' + file_plural_singular + ' in the "' + font.bold + input_folder + font.end + font.green + '" folder in ' + str('{0:.2f}'.format(round(stop - start,2))) + 's. Unique titles have been added to regional dats in the\n"' + font.bold + user_input.file_output + font.end + font.green + '"\nfolder.' + font.end) + '\n')
-            elif user_input.split_regions == True:
-                print(textwrap.TextWrapper(width=80, subsequent_indent='  ').fill(font.green + '* Finished processing ' + str('{:,}'.format(file_count)) + ' ' + file_plural_singular + ' in the "' + font.bold + input_folder + font.end + font.green + '" folder in ' + str('{0:.2f}'.format(round(stop - start,2))) + 's. All dats have been split into regions in the\n"' + font.bold + user_input.file_output + font.end + font.green + '"\nfolder.' + font.end) + '\n')
-            else:
-                print(textwrap.TextWrapper(width=80, subsequent_indent='  ').fill(font.green + '* Finished processing ' + str('{:,}'.format(file_count)) + ' ' + file_plural_singular + ' in the "' + font.bold + input_folder + font.end + font.green + '" folder in ' + str('{0:.2f}'.format(round(stop - start,2))) + 's. Unique titles have been added to dats in the\n"' + font.bold + user_input.file_output + font.end + font.green + '"\nfolder.' + font.end) + '\n')
-        else:
-            print(textwrap.TextWrapper(width=80, subsequent_indent='  ').fill(font.yellow + '* No files found to process in the "' + font.bold + input_folder + font.end + font.yellow + '" folder.' + font.end) + '\n')
-
-        sys.exit()
-    # User has not defined an output folder
+    # If the user has not defined an output folder
     else:
+        input_folder = ''
         # Process the dat
-        file_name_title_count = process_dats(user_input, region_list_english, region_list_other, tag_strings, False)
+        file_name_title_count = process_dats(user_input, tag_strings, region_list_english, region_list_other, False)
 
-        # Stop the timer
-        stop = time.time()
+    # Do the work to generate a final output message for the user
+    stop_time = time.time()
+    total_time_elapsed = str('{0:.2f}'.format(round(stop_time - start_time,2)))
 
-        # Final output
-        english_status = ''
+    # Set the color of the final output message. Override in case of error or warning.
+    message_color = font.green
+
+    # Set up the final output message strings
+    if input_folder != '':
+        if file_count != 0:
+            if file_count == 1:
+                file_noun = 'file'
+            else:
+                file_noun = 'files'
+
+            file_count = str('{:,}'.format(file_count))
+
+            if user_input.split_regions_no_dupes == True:
+                finish_message = ('* Finished processing ' + file_count + ' ' + file_noun + ' in the "' + font.bold + input_folder + font.end + message_color + '" folder in ' + total_time_elapsed + 's. Unique titles have been added to regional dats in the\n"' + font.bold + user_input.file_output + font.end + message_color + '"\nfolder.')
+            elif user_input.split_regions == True:
+                finish_message = '* Finished processing ' + file_count + ' ' + file_noun + ' in the "' + font.bold + input_folder + font.end + message_color + '" folder in ' + total_time_elapsed + 's. All dats have been split into regions in the\n"' + font.bold + user_input.file_output + font.end + message_color + '"\nfolder.'
+            else:
+                finish_message = '* Finished processing ' + file_count + ' ' + file_noun + ' in the "' + font.bold + input_folder + font.end + message_color + '" folder in ' + total_time_elapsed + 's. Unique titles have been added to dats in the\n"' + font.bold + user_input.file_output + font.end + message_color + '"\nfolder.'
+        else:
+            message_color = font.yellow
+            finish_message = '* No files found to process in the "' + font.bold + user_input.file_input + font.end + message_color + '" folder.'
+    else:
         if user_input.english_only == True:
             english_status = ' English'
+        else:
+            english_status = ''
 
         if user_input.split_regions_no_dupes == True:
-            print(textwrap.TextWrapper(width=80, subsequent_indent='  ').fill(font.green + '* Finished adding unique' + english_status + ' titles to regional dats in ' + str('{0:.2f}'.format(round(stop - start,2))) + 's.' + font.end) + '\n')
+            finish_message = '* Finished adding unique' + english_status + ' titles to regional dats in ' + total_time_elapsed + 's.'
         elif user_input.split_regions == True:
-            print(textwrap.TextWrapper(width=80, subsequent_indent='  ').fill(font.green + '* Finished splitting "' + font.bold + user_input.file_input + font.end + font.green + '" into regional dats in ' + str('{0:.2f}'.format(round(stop - start,2))) + 's.' + font.end) + '\n')
+            finish_message = '* Finished splitting "' + font.bold + user_input.file_input + font.end + message_color + '" into regional dats in ' + total_time_elapsed + 's.'
         else:
-            print(textwrap.TextWrapper(width=80, subsequent_indent='  ').fill(font.green + '* Finished adding ' + str('{:,}'.format(file_name_title_count['new_title_count'])) + ' unique' + english_status + ' titles to "' +  font.bold + file_name_title_count['output_file'] + font.end + font.green + '" in ' + str('{0:.2f}'.format(round(stop - start,2))) + 's.' + font.end) + '\n')
+            finish_message = '* Finished adding ' + str('{:,}'.format(file_name_title_count['new_title_count'])) + ' unique' + english_status + ' titles to "' +  font.bold + file_name_title_count['output_file'] + font.end + message_color + '" in ' + total_time_elapsed + 's.'
+
+    # Print the final output message
+    print(textwrap.TextWrapper(width=80, subsequent_indent='  ').fill(message_color + finish_message + font.end) + '\n')
+
     return
 
 ############### Classes and methods ###############
-
 # Console text formatting
-# https://stackoverflow.com/questions/4842424/list-of-ansi-color-escape-sequences
 class font:
     purple = '\033[95m'
     cyan = '\033[96m'
@@ -187,9 +204,10 @@ class UserInput:
 
 # Establish a class for title data
 class DatNode:
-    def __init__(self, full_title, region, category, description, roms, cloneof):
+    def __init__(self, full_title, region, category, description, roms, cloneof, tag_strings):
         self.full_title = full_title
 
+        # Set regionless title
         if re.findall(' \(' + region + '.*?\)', full_title) != []:
             remove_region = full_title.replace(re.findall(' \(' + region + '.*?\)', full_title)[0],'')
             remove_languages = re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv)\.*?)(,.*?\)|\)))', remove_region)
@@ -207,6 +225,56 @@ class DatNode:
             self.regionless_title = ''
             remove_languages = ''
 
+        # Set title with minimal tags
+        tag_strip_title = self.regionless_title
+        for string in tag_strings:
+            if re.findall(string, tag_strip_title) != []:
+                if 'Disco' in string:
+                    disc_alternative = re.search('\(Disco [A-Z0-9]\)', tag_strip_title).group()
+                    # Change things so discs are ordered consistently
+                    disc_alternative = disc_alternative.replace('Disco', 'Disc')
+                    disc_alternative = disc_alternative.replace('Disc A', 'Disc 1')
+                    disc_alternative = disc_alternative.replace('Disc B', 'Disc 2')
+                    disc_alternative = disc_alternative.replace('Disc C', 'Disc 3')
+                    disc_alternative = disc_alternative.replace('Disc D', 'Disc 4')
+                    disc_alternative = disc_alternative.replace('Disc E', 'Disc 5')
+                    disc_alternative = disc_alternative.replace('Disc F', 'Disc 6')
+                    disc_alternative = disc_alternative.replace('Disc G', 'Disc 7')
+                    disc_alternative = disc_alternative.replace('Disc H', 'Disc 8')
+                    disc_alternative = disc_alternative.replace('Disc I', 'Disc 9')
+                    disc_alternative = disc_alternative.replace('Disc J', 'Disc 10')
+                    disc_alternative = disc_alternative.replace('Disc K', 'Disc 11')
+                    disc_alternative = disc_alternative.replace('Disc L', 'Disc 12')
+                    tag_strip_title = tag_strip_title.replace(re.findall('\(Disco [A-Z0-9]\)', tag_strip_title)[0], disc_alternative)
+                elif 'Disc' in string and 'Disco' not in string:
+                    disc_alternative = re.search('\(Disc [A-Z]\)', tag_strip_title).group()
+                    # Change things so discs are ordered consistently
+                    disc_alternative = disc_alternative.replace('Disc A', 'Disc 1')
+                    disc_alternative = disc_alternative.replace('Disc B', 'Disc 2')
+                    disc_alternative = disc_alternative.replace('Disc C', 'Disc 3')
+                    disc_alternative = disc_alternative.replace('Disc D', 'Disc 4')
+                    disc_alternative = disc_alternative.replace('Disc E', 'Disc 5')
+                    disc_alternative = disc_alternative.replace('Disc F', 'Disc 6')
+                    disc_alternative = disc_alternative.replace('Disc G', 'Disc 7')
+                    disc_alternative = disc_alternative.replace('Disc H', 'Disc 8')
+                    disc_alternative = disc_alternative.replace('Disc I', 'Disc 9')
+                    disc_alternative = disc_alternative.replace('Disc J', 'Disc 10')
+                    disc_alternative = disc_alternative.replace('Disc K', 'Disc 11')
+                    disc_alternative = disc_alternative.replace('Disc L', 'Disc 12')
+                    tag_strip_title = tag_strip_title.replace(re.findall('\(Disc [A-Z]\)', tag_strip_title)[0], disc_alternative)
+                elif string == '\s?\([0-9].{7}\)\s?':
+                    # Really basic date validation
+                    tag_year = re.search('\([0-9].{7}\)', tag_strip_title).group()[1:-5]
+                    tag_month = re.search('\([0-9].{7}\)', tag_strip_title).group()[5:-3]
+                    tag_day = re.search('\([0-9].{7}\)', tag_strip_title).group()[7:-1]
+
+                    if int(tag_year) > 1970 and int(tag_month) >= 1 and int(tag_month) < 13 and int(tag_day) >= 1 and int(tag_day) < 32:
+                        tag_strip_title = tag_strip_title.replace(re.findall('\s?\([0-9].{7}\)\s?', tag_strip_title)[0], '')
+                else:
+                    tag_strip_title = tag_strip_title.replace(re.findall('' + string + '', tag_strip_title)[0],'')
+
+        self.tag_strip_title = tag_strip_title
+
         self.regions = region
         if len(remove_languages) > 0:
             self.languages = remove_languages[0][0][2:-1]
@@ -222,6 +290,7 @@ class DatNode:
         ret_str = '  ○ full_title:\t\t' + self.full_title + '\n'
         ret_str += '  ├ description:\t' + self.description + '\n'
         ret_str += '  ├ regionless_title:\t' + self.regionless_title + '\n'
+        ret_str += '  ├ tag_strip_title:\t' + self.tag_strip_title + '\n'
         ret_str += '  ├ regions:\t\t' + self.regions + '\n'
         if self.languages == '':
             ret_str += '  ├ languages:\t\tNone\n'
@@ -246,7 +315,7 @@ class DatNodeRom:
         self.size = size
 
 # Generic error message, also shown when the user doesn't provide any options
-def error_instruction():
+def help():
     command = ''
     if 'retool.py' in sys.argv[0]:
         command = 'python '
@@ -277,20 +346,20 @@ def check_input():
     flag_english_only = True if len([x for x in sys.argv if x == '-en']) > 0 else False
 
     # The -s option isn't compatible with -r or -en, so tell the user if they've combined them
-    if len([x for x in sys.argv if '-s' in x]) > 0 and len([x for x in sys.argv if '-r' in x]) > 0:
+    if len([x for x in sys.argv if x=='-s']) > 0 and len([x for x in sys.argv if x=='-r']) > 0:
         print(font.red + '* The -s and -r options can\'t be combined' + font.end)
         error_state = True
-    if len([x for x in sys.argv if '-s' in x]) > 0 and len([x for x in sys.argv if '-en' in x]) > 0:
+    if len([x for x in sys.argv if x=='-s']) > 0 and len([x for x in sys.argv if x=='-en']) > 0:
         print(font.red + '* The -s and -en options can\'t be combined' + font.end)
         error_state = True
     # The -1 option isn't compatible with -r, -s, or -en, so tell the user if they've combined them
-    if len([x for x in sys.argv if '-1' in x]) > 0 and len([x for x in sys.argv if '-en' in x]) > 0:
+    if len([x for x in sys.argv if x=='-1']) > 0 and len([x for x in sys.argv if x=='-en']) > 0:
         print(font.red + '* The -1 and -en options can\'t be combined' + font.end)
         error_state = True
-    if len([x for x in sys.argv if '-1' in x]) > 0 and len([x for x in sys.argv if '-r' in x]) > 0:
+    if len([x for x in sys.argv if x=='-1']) > 0 and len([x for x in sys.argv if x=='-r']) > 0:
         print(font.red + '* The -1 and -r options can\'t be combined' + font.end)
         error_state = True
-    if len([x for x in sys.argv if '-1' in x]) > 0 and len([x for x in sys.argv if '-s' in x]) > 0:
+    if len([x for x in sys.argv if x=='-1']) > 0 and len([x for x in sys.argv if x=='-s']) > 0:
         print(font.red + '* The -1 and -s options can\'t be combined' + font.end)
         error_state = True
 
@@ -359,13 +428,13 @@ def check_input():
 
     # Exit if there was an error in user input
     if error_state == True:
-        error_instruction()
+        help()
 
     return UserInput(input_file_name, output_folder_name, flag_1g1r, flag_no_demos, flag_no_apps, flag_no_protos, flag_no_alts, flag_no_multi, flag_no_edu, flag_split_regions, flag_split_regions_no_dupes, flag_english_only)
 
 # Converts CLRMAMEPro format to XML
 def convert_clr_logiqx(clrmame_header, checkdat, is_folder):
-# Get header details
+    # Get header details
     dat_name = re.sub('name |(\")', '', re.search('^\s.?name .*?$', clrmame_header[0], re.M|re.S)[0].strip())
     dat_description = re.sub('description |(\")', '', re.search('^\s.?description .*?$', clrmame_header[0], re.M|re.S)[0].strip())
     clrmame_category = re.sub('category |(\")', '', re.search('^\s.?category .*?$', clrmame_header[0], re.M|re.S)[0].strip())
@@ -549,41 +618,42 @@ def cloneof(title, raw_title, regional_titles, unique_list, region, region_list_
     else:
         return 'None'
 
+# Removes tags from titles so dupes are easier to find
 def clone_string_stripper(clone_title, strings, regions):
     for string in strings:
         if re.findall(string, clone_title) != []:
             if 'Disco' in string:
                 disc_alternative = re.search('\(Disco [A-Z0-9]\)', clone_title).group()
                 # Change things so discs are ordered consistently
-                disc_alternative = disc_alternative.replace('Disco','Disc')
-                disc_alternative = disc_alternative.replace('Disc A','Disc 1')
-                disc_alternative = disc_alternative.replace('Disc B','Disc 2')
-                disc_alternative = disc_alternative.replace('Disc C','Disc 3')
-                disc_alternative = disc_alternative.replace('Disc D','Disc 4')
-                disc_alternative = disc_alternative.replace('Disc E','Disc 5')
-                disc_alternative = disc_alternative.replace('Disc F','Disc 6')
-                disc_alternative = disc_alternative.replace('Disc G','Disc 7')
-                disc_alternative = disc_alternative.replace('Disc H','Disc 8')
-                disc_alternative = disc_alternative.replace('Disc I','Disc 9')
-                disc_alternative = disc_alternative.replace('Disc J','Disc 10')
-                disc_alternative = disc_alternative.replace('Disc K','Disc 11')
-                disc_alternative = disc_alternative.replace('Disc L','Disc 12')
+                disc_alternative = disc_alternative.replace('Disco', 'Disc')
+                disc_alternative = disc_alternative.replace('Disc A', 'Disc 1')
+                disc_alternative = disc_alternative.replace('Disc B', 'Disc 2')
+                disc_alternative = disc_alternative.replace('Disc C', 'Disc 3')
+                disc_alternative = disc_alternative.replace('Disc D', 'Disc 4')
+                disc_alternative = disc_alternative.replace('Disc E', 'Disc 5')
+                disc_alternative = disc_alternative.replace('Disc F', 'Disc 6')
+                disc_alternative = disc_alternative.replace('Disc G', 'Disc 7')
+                disc_alternative = disc_alternative.replace('Disc H', 'Disc 8')
+                disc_alternative = disc_alternative.replace('Disc I', 'Disc 9')
+                disc_alternative = disc_alternative.replace('Disc J', 'Disc 10')
+                disc_alternative = disc_alternative.replace('Disc K', 'Disc 11')
+                disc_alternative = disc_alternative.replace('Disc L', 'Disc 12')
                 clone_title = clone_title.replace(re.findall('\(Disco [A-Z0-9]\)', clone_title)[0], disc_alternative)
             elif 'Disc' in string and 'Disco' not in string:
                 disc_alternative = re.search('\(Disc [A-Z]\)', clone_title).group()
                 # Change things so discs are ordered consistently
-                disc_alternative = disc_alternative.replace('Disc A','Disc 1')
-                disc_alternative = disc_alternative.replace('Disc B','Disc 2')
-                disc_alternative = disc_alternative.replace('Disc C','Disc 3')
-                disc_alternative = disc_alternative.replace('Disc D','Disc 4')
-                disc_alternative = disc_alternative.replace('Disc E','Disc 5')
-                disc_alternative = disc_alternative.replace('Disc F','Disc 6')
-                disc_alternative = disc_alternative.replace('Disc G','Disc 7')
-                disc_alternative = disc_alternative.replace('Disc H','Disc 8')
-                disc_alternative = disc_alternative.replace('Disc I','Disc 9')
-                disc_alternative = disc_alternative.replace('Disc J','Disc 10')
-                disc_alternative = disc_alternative.replace('Disc K','Disc 11')
-                disc_alternative = disc_alternative.replace('Disc L','Disc 12')
+                disc_alternative = disc_alternative.replace('Disc A', 'Disc 1')
+                disc_alternative = disc_alternative.replace('Disc B', 'Disc 2')
+                disc_alternative = disc_alternative.replace('Disc C', 'Disc 3')
+                disc_alternative = disc_alternative.replace('Disc D', 'Disc 4')
+                disc_alternative = disc_alternative.replace('Disc E', 'Disc 5')
+                disc_alternative = disc_alternative.replace('Disc F', 'Disc 6')
+                disc_alternative = disc_alternative.replace('Disc G', 'Disc 7')
+                disc_alternative = disc_alternative.replace('Disc H', 'Disc 8')
+                disc_alternative = disc_alternative.replace('Disc I', 'Disc 9')
+                disc_alternative = disc_alternative.replace('Disc J', 'Disc 10')
+                disc_alternative = disc_alternative.replace('Disc K', 'Disc 11')
+                disc_alternative = disc_alternative.replace('Disc L', 'Disc 12')
                 clone_title = clone_title.replace(re.findall('\(Disc [A-Z]\)', clone_title)[0], disc_alternative)
             elif string == '\s?\([0-9].{7}\)\s?':
                 # Really basic date validation
@@ -594,7 +664,7 @@ def clone_string_stripper(clone_title, strings, regions):
                 if int(clone_year) > 1970 and int(clone_month) >= 1 and int(clone_month) < 13 and int(clone_day) >= 1 and int(clone_day) < 32:
                     clone_title = clone_title.replace(re.findall('\s?\([0-9].{7}\)\s?', clone_title)[0], '')
             elif string in regions:
-                # Catch titles that have regions in the title itself, like "Immercenary, Combat in a Digital World"
+                # Catch titles that have region names in the title itself, like "Immercenary, Combat in a Digital _World_"
                 if bool(re.search('\(.*?' + string + '.*?\)', clone_title)) == True:
                     remove_region = clone_title.replace(re.findall(' \(.*?' + string + '.*?\)', clone_title)[0],'')
                     remove_languages_clone = re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv)\.*?)(,.*?\)|\)))', remove_region)
@@ -649,10 +719,10 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
         # If the title doesn't already exist, add it
         if regional_titles_data.get(raw_title, -1) == -1:
             cloneofstr = cloneof(title, raw_title, regional_titles, unique_list, region, region_list_english, region_list_other, unique_regional_titles)
-            regional_titles_data[raw_title] = [DatNode(str(title.category.parent['name']), region, title.category.contents[0], title.description.contents[0], newroms, cloneofstr)]
+            regional_titles_data[raw_title] = [DatNode(str(title.category.parent['name']), region, title.category.contents[0], title.description.contents[0], newroms, cloneofstr, tag_strings)]
         # Otherwise there must be multiple discs or revisions, so append the title instead
         else:
-            regional_titles_data[raw_title].append(DatNode(str(title.category.parent['name']), region, title.category.contents[0], title.description.contents[0], newroms, 'None'))
+            regional_titles_data[raw_title].append(DatNode(str(title.category.parent['name']), region, title.category.contents[0], title.description.contents[0], newroms, 'None', tag_strings))
             # Modify the clone entry
             cloneofstr = cloneof(title, raw_title, regional_titles, unique_list, region, region_list_english, region_list_other, unique_regional_titles)
             regional_titles_data[raw_title][len(regional_titles_data.get(raw_title, -1)) - 1].cloneof = cloneofstr
@@ -708,7 +778,7 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
                         # First, if we're in a native English region, take the longest title
                         if subtitle1.regions in region_list_english:
                             # Don't select titles that have more languages, but not English
-                            if subtitle1.languages == '' and subtitle2.languages != '' and 'En' not in subtitle2.language:
+                            if subtitle1.languages == '' and subtitle2.languages != '' and 'En' not in subtitle2.languages:
                                 if subtitle2 in regional_titles_data[title]: remove_list.append(subtitle2)
                             elif len(subtitle1.full_title) > len(subtitle2.full_title):
                                 if subtitle2 in regional_titles_data[title]: remove_list.append(subtitle2)
@@ -777,9 +847,8 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
 
             # Get the highest revision
             for subtitle in regional_titles_data[title]:
-                if '(Rev ' in str(subtitle.full_title):
-                    # Get the base titles
-                    rev_title = re.findall('.*?\(Rev ', subtitle.regionless_title)[0][:-6]
+                if '(Rev ' in str(subtitle.full_title) and subtitle.full_title not in ver_title_delete:
+                    rev_title = re.findall('\(Rev [0-9A-Z]\)', subtitle.regionless_title)[0][:-6]
 
                     highest_revision.setdefault(rev_title, [])
 
@@ -821,14 +890,23 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
                             if something.full_title == x:
                                     regional_titles_data[title].remove(something)
 
+            print(rev_title_keep)
+            print(rev_title_delete)
+
             # Set clones if 1G1R mode is on
             if user_input.one_game_one_rom == True:
                 rev_title_keep.sort(reverse=True)
                 ver_title_keep.sort(reverse=True)
 
+                print(rev_title_keep)
+                print(ver_title_keep)
+                print(rev_title_delete)
+                print(ver_title_keep)
+                input('>')
+
                 # Strip alts from keep lists if the same title exists without the alt tag
                 for item in rev_title_keep + ver_title_keep:
-                    for anotheritem in rev_title_keep + ver_title_keep:
+                    for anotheritem in ver_title_keep + rev_title_keep:
                         if re.search(' \(Alt.*?\)', anotheritem) != None:
                             string1 = re.sub(' \(Alt.*?\)', '', anotheritem)
                             if string1 == item:
@@ -837,137 +915,150 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
                                 if anotheritem in ver_title_keep:
                                     ver_title_keep.remove(anotheritem)
 
-                # Add titles without versions or revisions to parent list
-                title_remainder = []
+                # Add all titles to parent list
+                title_remainder = regional_titles_data[title]
 
+                # Filter parent list
                 for subtitle in regional_titles_data[title]:
-                    title_remainder.append(subtitle.full_title)
+                    print(subtitle.full_title)
 
-                title_remainder = [x for x in title_remainder if x not in rev_title_delete + ver_title_delete]
+                    # Remove versions and revision titles that we've already discarded
+                    for delete_title in ver_title_delete + rev_title_delete:
+                        print(subtitle.full_title)
+                        print(delete_title)
+                        input('>')
+                        if subtitle.full_title == delete_title:
+                            print('I want to delete ' + subtitle.full_title)
+                            title_remainder.remove(subtitle)
 
-                for x in title_remainder:
-                    if '(Alt' not in x:
-                        parent_ver_rev.append(x)
+                # for subtitle in regional_titles_data[title]:
+                #     title_remainder.append(subtitle.full_title)
+
+                # title_remainder = [x for x in title_remainder if x not in rev_title_delete + ver_title_delete]
+
+                # for x in title_remainder:
+                #     if '(Alt' not in x:
+                #         parent_ver_rev.append(x)
 
                 # Clean the parent list of cross region/multi-region clashes,
                 # and revision versus version clashes
 
-                parent_ver_rev_temp = parent_ver_rev
-                title_compared = []
+                # parent_ver_rev_temp = parent_ver_rev
+                # title_compared = []
 
-                for x in parent_ver_rev:
-                    for y in parent_ver_rev:
-                        if x != y:
-                            # Strip unwanted tags to make a basic match
-                            strings = tag_strings
+                # for x in parent_ver_rev:
+                #     for y in parent_ver_rev:
+                #         if x != y:
+                #             # Strip unwanted tags to make a basic match
+                #             strings = tag_strings
 
-                            title_a = clone_string_stripper(x, strings, region_list_english + region_list_other)
-                            title_b = clone_string_stripper(y, strings, region_list_english + region_list_other)
+                #             title_a = clone_string_stripper(x, strings, region_list_english + region_list_other)
+                #             title_b = clone_string_stripper(y, strings, region_list_english + region_list_other)
 
-                            strings = region_list_english + region_list_other
+                #             strings = region_list_english + region_list_other
 
-                            title_a_no_reg = clone_string_stripper(title_a, strings, region_list_english + region_list_other)
-                            title_b_no_reg = clone_string_stripper(title_b, strings, region_list_english + region_list_other)
+                #             title_a_no_reg = clone_string_stripper(title_a, strings, region_list_english + region_list_other)
+                #             title_b_no_reg = clone_string_stripper(title_b, strings, region_list_english + region_list_other)
 
-                            if title_a_no_reg == title_b_no_reg:
-                                # Check if the titles are from the same region
-                                for another_region in region_list_english + region_list_other:
-                                    if bool(re.search(' \(.*?' + another_region + '.*?\)', x)) == True and bool(re.search(' \(.*?' + another_region + '.*?\)', y)) == True:
-                                        # If one has more regions than the other, take it
-                                        if len(re.findall(',', re.findall('\(.*?' + another_region + '.*?\)', x)[0])) > len(re.findall(',', re.findall('\(.*?' + another_region + '.*?\)', y)[0])):
-                                            if y in parent_ver_rev: parent_ver_rev_temp.remove(y)
-                                        elif len(re.findall(',', re.findall('\(.*?' + another_region + '.*?\)', y)[0])) > len(re.findall(',', re.findall('\(.*?' + another_region + '.*?\)', x)[0])):
-                                            if x in parent_ver_rev: parent_ver_rev_temp.remove(x)
-                                        # Else if one has a version but the other doesn't, take it
-                                        elif bool(re.search('\(v[0-9].*?\)', x)) == True and bool(re.search('\(v[0-9].*?\)', y)) == False:
-                                            if y in parent_ver_rev: parent_ver_rev_temp.remove(y)
-                                        elif bool(re.search('\(v[0-9].*?\)', y)) == True and bool(re.search('\(v[0-9].*?\)', x)) == False:
-                                            if x in parent_ver_rev: parent_ver_rev_temp.remove(x)
-                                        # Else if one has a revision but the other doesn't, take it
-                                        elif bool(re.search('\(Rev [0-9A-Z].*?\)', x)) == True and bool(re.search('\(Rev [0-9A-Z].*?\)', y)) == False:
-                                            if y in parent_ver_rev: parent_ver_rev_temp.remove(y)
-                                        elif bool(re.search('\(Rev [0-9A-Z].*?\)', y)) == True and bool(re.search('\(Rev [0-9A-Z].*?\)', x)) == False:
-                                            if x in parent_ver_rev: parent_ver_rev_temp.remove(x)
-                                        # Else if one has more languages than the other, take it
-                                        elif len(re.findall(',', str(re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv)\.*?)(,.*?\)|\)))', title_a)))) > len(re.findall(',', str(re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv)\.*?)(,.*?\)|\)))', title_b)))):
-                                            if y in parent_ver_rev: parent_ver_rev_temp.remove(y)
-                                        elif len(re.findall(',', str(re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv)\.*?)(,.*?\)|\)))', title_b)))) > len(re.findall(',', str(re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv)\.*?)(,.*?\)|\)))', title_a)))):
-                                            if x in parent_ver_rev: parent_ver_rev_temp.remove(x)
-                                        # Else if one has a rerelease or alt tag and the other doesn't, take the one that doesn't
-                                        elif '(Rerelease)' in x and '(Rerelease)' not in y:
-                                            if x in parent_ver_rev: parent_ver_rev_temp.remove(x)
-                                        elif '(Rerelease)' in y and '(Rerelease)' not in x:
-                                            if y in parent_ver_rev: parent_ver_rev_temp.remove(y)
-                                        elif bool(re.search('\(Alt.*?\)', x)) == True and bool(re.search('\(Alt.*?\)', y)) == False:
-                                            if x in parent_ver_rev: parent_ver_rev_temp.remove(x)
-                                        elif bool(re.search('\(Alt.*?\)', y)) == True and bool(re.search('\(Alt.*?\)', x)) == False:
-                                            if y in parent_ver_rev: parent_ver_rev_temp.remove(y)
-                                    else:
-                                        # Regions don't match, and there is only one region
-                                        region_single_1 = False
-                                        region_single_2 = False
-                                        for yet_another_region in region_list_english + region_list_other:
-                                            if len(re.findall('\(' + yet_another_region + '\)', x)) == 1:
-                                                region_single_1 = True
-                                            if len(re.findall('\(' + yet_another_region + '\)', y)) == 1:
-                                                region_single_2 = True
+                #             if title_a_no_reg == title_b_no_reg:
+                #                 # Check if the titles are from the same region
+                #                 for another_region in region_list_english + region_list_other:
+                #                     if bool(re.search(' \(.*?' + another_region + '.*?\)', x)) == True and bool(re.search(' \(.*?' + another_region + '.*?\)', y)) == True:
+                #                         # If one has more regions than the other, take it
+                #                         if len(re.findall(',', re.findall('\(.*?' + another_region + '.*?\)', x)[0])) > len(re.findall(',', re.findall('\(.*?' + another_region + '.*?\)', y)[0])):
+                #                             if y in parent_ver_rev: parent_ver_rev_temp.remove(y)
+                #                         elif len(re.findall(',', re.findall('\(.*?' + another_region + '.*?\)', y)[0])) > len(re.findall(',', re.findall('\(.*?' + another_region + '.*?\)', x)[0])):
+                #                             if x in parent_ver_rev: parent_ver_rev_temp.remove(x)
+                #                         # Else if one has a version but the other doesn't, take it
+                #                         elif bool(re.search('\(v[0-9].*?\)', x)) == True and bool(re.search('\(v[0-9].*?\)', y)) == False:
+                #                             if y in parent_ver_rev: parent_ver_rev_temp.remove(y)
+                #                         elif bool(re.search('\(v[0-9].*?\)', y)) == True and bool(re.search('\(v[0-9].*?\)', x)) == False:
+                #                             if x in parent_ver_rev: parent_ver_rev_temp.remove(x)
+                #                         # Else if one has a revision but the other doesn't, take it
+                #                         elif bool(re.search('\(Rev [0-9A-Z].*?\)', x)) == True and bool(re.search('\(Rev [0-9A-Z].*?\)', y)) == False:
+                #                             if y in parent_ver_rev: parent_ver_rev_temp.remove(y)
+                #                         elif bool(re.search('\(Rev [0-9A-Z].*?\)', y)) == True and bool(re.search('\(Rev [0-9A-Z].*?\)', x)) == False:
+                #                             if x in parent_ver_rev: parent_ver_rev_temp.remove(x)
+                #                         # Else if one has more languages than the other, take it
+                #                         elif len(re.findall(',', str(re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv)\.*?)(,.*?\)|\)))', title_a)))) > len(re.findall(',', str(re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv)\.*?)(,.*?\)|\)))', title_b)))):
+                #                             if y in parent_ver_rev: parent_ver_rev_temp.remove(y)
+                #                         elif len(re.findall(',', str(re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv)\.*?)(,.*?\)|\)))', title_b)))) > len(re.findall(',', str(re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv)\.*?)(,.*?\)|\)))', title_a)))):
+                #                             if x in parent_ver_rev: parent_ver_rev_temp.remove(x)
+                #                         # Else if one has a rerelease or alt tag and the other doesn't, take the one that doesn't
+                #                         elif '(Rerelease)' in x and '(Rerelease)' not in y:
+                #                             if x in parent_ver_rev: parent_ver_rev_temp.remove(x)
+                #                         elif '(Rerelease)' in y and '(Rerelease)' not in x:
+                #                             if y in parent_ver_rev: parent_ver_rev_temp.remove(y)
+                #                         elif bool(re.search('\(Alt.*?\)', x)) == True and bool(re.search('\(Alt.*?\)', y)) == False:
+                #                             if x in parent_ver_rev: parent_ver_rev_temp.remove(x)
+                #                         elif bool(re.search('\(Alt.*?\)', y)) == True and bool(re.search('\(Alt.*?\)', x)) == False:
+                #                             if y in parent_ver_rev: parent_ver_rev_temp.remove(y)
+                #                     else:
+                #                         # Regions don't match, and there is only one region
+                #                         region_single_1 = False
+                #                         region_single_2 = False
+                #                         for yet_another_region in region_list_english + region_list_other:
+                #                             if len(re.findall('\(' + yet_another_region + '\)', x)) == 1:
+                #                                 region_single_1 = True
+                #                             if len(re.findall('\(' + yet_another_region + '\)', y)) == 1:
+                #                                 region_single_2 = True
 
-                                        if region_single_1 == True and region_single_2 == True:
-                                            if another_region not in x and another_region in y:
-                                                if x in parent_ver_rev and x not in title_compared:
-                                                    parent_ver_rev_temp.remove(x)
-                                                title_compared.append(y)
-                                            elif another_region not in y and another_region in x:
-                                                if y in parent_ver_rev and y not in title_compared:
-                                                    parent_ver_rev_temp.remove(y)
-                                                title_compared.append(x)
+                #                         if region_single_1 == True and region_single_2 == True:
+                #                             if another_region not in x and another_region in y:
+                #                                 if x in parent_ver_rev and x not in title_compared:
+                #                                     parent_ver_rev_temp.remove(x)
+                #                                 title_compared.append(y)
+                #                             elif another_region not in y and another_region in x:
+                #                                 if y in parent_ver_rev and y not in title_compared:
+                #                                     parent_ver_rev_temp.remove(y)
+                #                                 title_compared.append(x)
 
-                parent_ver_rev = parent_ver_rev_temp
+                # parent_ver_rev = parent_ver_rev_temp
 
-                if len(parent_ver_rev) > 0:
-                    for something in regional_titles_data[title]:
-                        for parent_title in parent_ver_rev:
-                            if something.full_title != parent_title:
-                                # Process unwanted tags
-                                parent_title_temp = parent_title
-                                check_title = something.regionless_title
+                # if len(parent_ver_rev) > 0:
+                #     for something in regional_titles_data[title]:
+                #         for parent_title in parent_ver_rev:
+                #             if something.full_title != parent_title:
+                #                 # Process unwanted tags
+                #                 parent_title_temp = parent_title
+                #                 check_title = something.regionless_title
 
-                                # print('\n====')
-                                # print(parent_ver_rev)
-                                # print('----')
-                                # print('Parent: ' + parent_title)
-                                # print('Compare: ' + something.full_title)
+                #                 # print('\n====')
+                #                 # print(parent_ver_rev)
+                #                 # print('----')
+                #                 # print('Parent: ' + parent_title)
+                #                 # print('Compare: ' + something.full_title)
 
-                                # Tag strings to strip from titles
-                                strings = tag_strings
+                #                 # Tag strings to strip from titles
+                #                 strings = tag_strings
 
-                                parent_title_temp = clone_string_stripper(parent_title_temp, strings, region_list_english + region_list_other)
-                                check_title = clone_string_stripper(check_title, strings, region_list_english + region_list_other)
+                #                 parent_title_temp = clone_string_stripper(parent_title_temp, strings, region_list_english + region_list_other)
+                #                 check_title = clone_string_stripper(check_title, strings, region_list_english + region_list_other)
 
-                                # Language and region strings to strip from titles
-                                strings = region_list_english + region_list_other
+                #                 # Language and region strings to strip from titles
+                #                 strings = region_list_english + region_list_other
 
-                                parent_title_temp = clone_string_stripper(parent_title_temp, strings, region_list_english + region_list_other)
-                                check_title = clone_string_stripper(check_title, strings, region_list_english + region_list_other)
+                #                 parent_title_temp = clone_string_stripper(parent_title_temp, strings, region_list_english + region_list_other)
+                #                 check_title = clone_string_stripper(check_title, strings, region_list_english + region_list_other)
 
-                                # Set parents for the clones
-                                clone_title_match = bool(parent_title_temp == check_title)
+                #                 # Set parents for the clones
+                #                 clone_title_match = bool(parent_title_temp == check_title)
 
-                                # print('Parent strip: ' + parent_title_temp)
-                                # print('Compare strip: ' + check_title)
+                #                 # print('Parent strip: ' + parent_title_temp)
+                #                 # print('Compare strip: ' + check_title)
 
-                                if clone_title_match == True and something.cloneof == 'None':
-                                    # print('I want to set this parent: ' + parent_title + '\n====\n')
-                                    # input('>')
-                                    something.cloneof = parent_title
-                                # else:
-                                #     if something.cloneof != 'None':
-                                        # print('Clone already set\n====\n')
-                                    # else:
-                                        # print('No match\n====\n')
-                                        # input('>')
-                            else:
-                                break
+                #                 if clone_title_match == True and something.cloneof == 'None':
+                #                     # print('I want to set this parent: ' + parent_title + '\n====\n')
+                #                     # input('>')
+                #                     something.cloneof = parent_title
+                #                 # else:
+                #                 #     if something.cloneof != 'None':
+                #                         # print('Clone already set\n====\n')
+                #                     # else:
+                #                         # print('No match\n====\n')
+                #                         # input('>')
+                #             else:
+                #                 break
     else:
         unique_regional_list = [x for x in regional_titles]
 
@@ -1019,7 +1110,7 @@ def convert_to_xml(region, unique_regional_titles, titles, user_input):
     return final_title_xml
 
 # The actual file operations on the dat files
-def process_dats(user_input, region_list_english, region_list_other, tag_strings, is_folder):
+def process_dats(user_input, tag_strings, region_list_english, region_list_other, is_folder):
     print(textwrap.TextWrapper(width=80, subsequent_indent='  ').fill('* Reading dat file: "' + font.bold + user_input.file_input + font.end + '"'))
     try:
         with open(user_input.file_input, 'r') as input_file_read:
@@ -1106,7 +1197,7 @@ def process_dats(user_input, region_list_english, region_list_other, tag_strings
     print('|  Version: ' + dat_version + '\n')
 
     if user_input.one_game_one_rom == True:
-        print('* WARNING: Generating a CLRMAMEPro 1G1R dat is very slow\n')
+        print('* WARNING: Generating a CLRMAMEPro 1G1R dat can be very slow depending\n  on how many regions and titles there are in a dat.\n')
 
     # Find out how many titles are in the dat file
     original_title_count = len(soup.find_all('game'))
@@ -1188,25 +1279,55 @@ def process_dats(user_input, region_list_english, region_list_other, tag_strings
     # Set up dupe lists for titles that have the same content, but different names in different regions
     dupe_list = []
 
-    if dat_name == 'Apple - Macintosh': dupe_list = _renames.mac_rename_list()
-    if dat_name == 'DVD-Video': dupe_list = _renames.dvd_video_rename_list()
-    if dat_name == 'Microsoft - Xbox': dupe_list = _renames.xbox_rename_list()
-    if dat_name == 'Microsoft - Xbox 360': dupe_list = _renames.x360_rename_list()
-    if dat_name == 'Microsoft - Xbox One': dupe_list = _renames.xbone_rename_list()
-    if dat_name == 'NEC - PC Engine CD & TurboGrafx CD': dupe_list = _renames.pce_rename_list()
-    if dat_name == 'Nintendo - GameCube' or dat_name == 'Nintendo - GameCube - NKit GCZ' or dat_name == 'Nintendo - GameCube - NKit ISO' or dat_name == 'Nintendo - GameCube - NASOS': dupe_list = _renames.gamecube_rename_list()
-    if dat_name == 'Nintendo - Wii' or dat_name =='Nintendo - Wii - NKit GCZ' or dat_name =='Nintendo - Wii - NKit ISO' or dat_name =='Nintendo - Wii - NASOS': dupe_list = _renames.wii_rename_list()
-    if dat_name == 'Nintendo - Wii U' or dat_name =='Nintendo - Wii U - WUX': dupe_list = _renames.wii_u_rename_list()
-    if dat_name == 'Panasonic - 3DO Interactive Multiplayer': dupe_list = _renames.threedo_rename_list()
-    if dat_name == 'Philips - CD-i': dupe_list = _renames.cdi_rename_list()
-    if dat_name == 'Sega - Dreamcast': dupe_list = _renames.dreamcast_rename_list()
-    if dat_name == 'Sega - Mega CD & Sega CD': dupe_list = _renames.segacd_rename_list()
-    if dat_name == 'Sega - Saturn': dupe_list = _renames.saturn_rename_list()
-    if dat_name == 'Sony - PlayStation': dupe_list = _renames.psx_rename_list()
-    if dat_name == 'Sony - PlayStation 2': dupe_list = _renames.ps2_rename_list()
-    if dat_name == 'Sony - PlayStation 3': dupe_list = _renames.ps3_rename_list()
-    if dat_name == 'Sony - PlayStation 4': dupe_list = _renames.ps4_rename_list()
-    if dat_name == 'Sony - PlayStation Portable': dupe_list = _renames.psp_rename_list()
+    if dat_name == 'Apple - Macintosh':
+        dupe_list = _renames.mac_rename_list()
+    elif dat_name == 'DVD-Video':
+        dupe_list = _renames.dvd_video_rename_list()
+    elif dat_name == 'Microsoft - Xbox':
+        dupe_list = _renames.xbox_rename_list()
+    elif dat_name == 'Microsoft - Xbox 360':
+        dupe_list = _renames.x360_rename_list()
+    elif dat_name == 'Microsoft - Xbox One':
+        dupe_list = _renames.xbone_rename_list()
+    elif dat_name == 'NEC - PC Engine CD & TurboGrafx CD':
+        dupe_list = _renames.pce_rename_list()
+    elif (dat_name == 'Nintendo - GameCube'
+        or dat_name == 'Nintendo - GameCube - NKit GCZ'
+        or dat_name == 'Nintendo - GameCube - NKit ISO'
+        or dat_name == 'Nintendo - GameCube - NASOS'):
+            dupe_list = _renames.gamecube_rename_list()
+    elif (
+        dat_name == 'Nintendo - Wii'
+        or dat_name =='Nintendo - Wii - NKit GCZ'
+        or dat_name =='Nintendo - Wii - NKit ISO'
+        or dat_name =='Nintendo - Wii - NASOS'
+        ):
+            dupe_list = _renames.wii_rename_list()
+    elif (
+        dat_name == 'Nintendo - Wii U'
+        or dat_name =='Nintendo - Wii U - WUX'
+        ):
+            dupe_list = _renames.wii_u_rename_list()
+    elif dat_name == 'Panasonic - 3DO Interactive Multiplayer':
+        dupe_list = _renames.threedo_rename_list()
+    elif dat_name == 'Philips - CD-i':
+        dupe_list = _renames.cdi_rename_list()
+    elif dat_name == 'Sega - Dreamcast':
+        dupe_list = _renames.dreamcast_rename_list()
+    elif dat_name == 'Sega - Mega CD & Sega CD':
+        dupe_list = _renames.segacd_rename_list()
+    elif dat_name == 'Sega - Saturn':
+        dupe_list = _renames.saturn_rename_list()
+    elif dat_name == 'Sony - PlayStation':
+        dupe_list = _renames.psx_rename_list()
+    elif dat_name == 'Sony - PlayStation 2':
+        dupe_list = _renames.ps2_rename_list()
+    elif dat_name == 'Sony - PlayStation 3':
+        dupe_list = _renames.ps3_rename_list()
+    elif dat_name == 'Sony - PlayStation 4':
+        dupe_list = _renames.ps4_rename_list()
+    elif dat_name == 'Sony - PlayStation Portable':
+        dupe_list = _renames.psp_rename_list()
 
     # Find unique titles in each region and add their XML node
     parent_ver_rev = []
@@ -1313,28 +1434,25 @@ def process_dats(user_input, region_list_english, region_list_other, tag_strings
             print('* Writing regional dat files...\n')
             for region in region_list_english + region_list_other:
                 if final_title_xml.get(region, -1) != -1 and new_title_count_region[region] > 0:
-                    with open(user_input.file_output_final + ' (' + region + ')' + english_status + dat_header_exclusion + ' (' + str('{:,}'.format(new_title_count_region[region])) + ' of ' + str('{:,}'.format(new_title_count)) + ')' + dat_version_filename + ' (Retool ' +  datetime.datetime.now().strftime('%Y-%m-%d %H-%M-%S.%f')[:-3] + ')' + '.dat', 'w') as output_file:
-                        dat_header = header(dat_name, dat_version, dat_author, dat_url, dat_header_exclusion, new_title_count_region[region], new_title_count, region, user_input)
-                        output_file.writelines(dat_header)
-                        output_file.writelines(final_title_xml[region])
-                        output_file.writelines('</datafile>')
-                        output_file.close()
+                    output_file_suffix = ' (' + region + ')' + english_status + dat_header_exclusion + ' (' + str('{:,}'.format(new_title_count_region[region])) + ' of ' + str('{:,}'.format(new_title_count)) + ')' + dat_version_filename + ' (Retool ' +  datetime.datetime.now().strftime('%Y-%m-%d %H-%M-%S.%f')[:-3] + ')' + '.dat'
+                    dat_header = header(dat_name, dat_version, dat_author, dat_url, dat_header_exclusion, new_title_count_region[region], new_title_count, region, user_input)
+                    output_file_data = final_title_xml[region]
 
             if final_title_xml.get('Unknown', -1) != -1:
-                with open(user_input.file_output_final + ' (Unknown)' + english_status + dat_header_exclusion + ' (' + str('{:,}'.format(unknown_region_title_count)) + ' of ' + str('{:,}'.format(new_title_count)) + ')' + dat_version_filename + ' (Retool ' +  datetime.datetime.now().strftime('%Y-%m-%d %H-%M-%S.%f')[:-3] + ')' + '.dat', 'w') as output_file:
-                    dat_header = header(dat_name, dat_version, dat_author, dat_url, dat_header_exclusion, unknown_region_title_count, new_title_count, 'Unknown', user_input)
-                    output_file.writelines(dat_header)
-                    output_file.writelines(final_title_xml['Unknown'])
-                    output_file.writelines('</datafile>')
-                    output_file.close()
+                output_file_suffix = ' (Unknown)' + english_status + dat_header_exclusion + ' (' + str('{:,}'.format(unknown_region_title_count)) + ' of ' + str('{:,}'.format(new_title_count)) + ')' + dat_version_filename + ' (Retool ' +  datetime.datetime.now().strftime('%Y-%m-%d %H-%M-%S.%f')[:-3] + ')' + '.dat'
+                dat_header = header(dat_name, dat_version, dat_author, dat_url, dat_header_exclusion, unknown_region_title_count, new_title_count, 'Unknown', user_input)
+                output_file_data = final_title_xml['Unknown']
         else:
             print('* Writing dat file...\n')
-            with open(user_input.file_output_final + english_status + dat_header_exclusion + ' (' + str('{:,}'.format(new_title_count)) + ')' + dat_version_filename + ' (Retool ' +  datetime.datetime.now().strftime('%Y-%m-%d %H-%M-%S.%f')[:-3] + ')' + '.dat', 'w') as output_file:
-                dat_header = header(dat_name, dat_version, dat_author, dat_url, dat_header_exclusion, False, new_title_count, False, user_input)
-                output_file.writelines(dat_header)
-                output_file.writelines(final_title_xml)
-                output_file.writelines('</datafile>')
-                output_file.close()
+            output_file_suffix = english_status + dat_header_exclusion + ' (' + str('{:,}'.format(new_title_count)) + ')' + dat_version_filename + ' (Retool ' +  datetime.datetime.now().strftime('%Y-%m-%d %H-%M-%S.%f')[:-3] + ')' + '.dat'
+            dat_header = header(dat_name, dat_version, dat_author, dat_url, dat_header_exclusion, False, new_title_count, False, user_input)
+            output_file_data = final_title_xml
+
+        with open(user_input.file_output_final + output_file_suffix, 'w') as output_file:
+            output_file.writelines(dat_header)
+            output_file.writelines(output_file_data)
+            output_file.writelines('</datafile>')
+            output_file.close()
 
         file_name_title_count['output_file'] = output_file.name
         file_name_title_count['new_title_count'] = new_title_count
