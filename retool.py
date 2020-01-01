@@ -429,22 +429,22 @@ def check_input():
         error_state = True
 
     # Check if -i is missing
-    if len([x for x in sys.argv if '-i' in x]) == 0 and len(sys.argv) != 1:
+    if len([x for x in sys.argv if x=='-i']) == 0 and len(sys.argv) != 1:
         print(font.red + '* Missing -i, no input file specified' + font.end)
         error_state = True
 
     # Check if the user has entered more than one -i
-    if len([x for x in sys.argv if '-i' in x]) > 1:
+    if len([x for x in sys.argv if x=='-i']) > 1:
         print(font.red + '* Can\'t have more than one -i' + font.end)
         error_state = True
 
     # Check if the user has entered more than one -o
-    if len([x for x in sys.argv if '-o' in x]) > 1:
+    if len([x for x in sys.argv if x=='-o']) > 1:
         print(font.red + '* Can\'t have more than one -o' + font.end)
         error_state = True
 
     # Set the ouput folder name if the user hasn't specified -o
-    if len([x for x in sys.argv if '-o' in x]) == 0:
+    if len([x for x in sys.argv if x=='-o']) == 0:
             output_folder_name = os.path.abspath('.')
 
     # Exit if there was an error in user input
