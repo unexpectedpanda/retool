@@ -128,18 +128,6 @@ def main():
                         ws[chr(ord(col)) + str(row + 1)] = ''
                         row += 2
 
-            # Adjust column widths
-            ws.column_dimensions[Cell.get_column_letter(1)].width = 5
-
-            dims = {}
-
-            for col in ws.rows:
-                for cell in col:
-                    if cell.value:
-                        dims[cell.column] = max((dims.get(cell.column, 0), len(str(cell.value))))
-            for col, value in dims.items():
-                ws.column_dimensions[Cell.get_column_letter(col + 1)].width = value + 5
-
             # Populate orphans
             col = 'C'
             row = 2
@@ -147,6 +135,19 @@ def main():
                 ws[col + str(row)] = item
                 row += 1
 
+            # Adjust column widths
+            dims = {}
+
+            for col in ws.rows:
+                for cell in col:
+                    if cell.value:
+                        dims[cell.column] = max((dims.get(cell.column, 0), len(str(cell.value))))
+            for col, value in dims.items():
+                if col != 1:
+                    ws.column_dimensions[Cell.get_column_letter(col)].width = value + 5
+
+
+            ws.column_dimensions[Cell.get_column_letter(1)].width = 5
 
             # Write the file to disk
             print('* Outputting to "' + font.bold + input_file_name + '.xlsx"' + font.end + '...')
