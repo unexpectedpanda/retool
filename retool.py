@@ -102,7 +102,7 @@ def main():
         '\s?\(OEM\)\s?',
         '\s?\(Rerelease\)\s?',
         '\(Disco [A-Z0-9]\)',
-        '\s?\([0-9].{7}\)\s?',
+        '\s?\(\d{8}\)\s?',
         '\(Disc [A-Z]\)',
         '\s?\(Covermount\)\s?',
         '\s?\(Sold Out Software\)\s?'
@@ -262,14 +262,14 @@ class DatNode:
                     disc_alternative = disc_alternative.replace('Disc K', 'Disc 11')
                     disc_alternative = disc_alternative.replace('Disc L', 'Disc 12')
                     tag_strip_title = tag_strip_title.replace(re.findall('\(Disc [A-Z]\)', tag_strip_title)[0], disc_alternative)
-                elif string == '\s?\([0-9].{7}\)\s?':
+                elif string == '\s?\(\d{8}\)\s?':
                     # Really basic date validation
-                    tag_year = re.search('\([0-9].{7}\)', tag_strip_title).group()[1:-5]
-                    tag_month = re.search('\([0-9].{7}\)', tag_strip_title).group()[5:-3]
-                    tag_day = re.search('\([0-9].{7}\)', tag_strip_title).group()[7:-1]
+                    tag_year = re.search('\(\d{8}\)', tag_strip_title).group()[1:-5]
+                    tag_month = re.search('\(\d{8}\)', tag_strip_title).group()[5:-3]
+                    tag_day = re.search('\(\d{8}\)', tag_strip_title).group()[7:-1]
 
                     if int(tag_year) > 1970 and int(tag_month) >= 1 and int(tag_month) < 13 and int(tag_day) >= 1 and int(tag_day) < 32:
-                        tag_strip_title = tag_strip_title.replace(re.findall('\s?\([0-9].{7}\)\s?', tag_strip_title)[0], '')
+                        tag_strip_title = tag_strip_title.replace(re.findall('\s?\(\d{8}\)\s?', tag_strip_title)[0], '')
                 else:
                     tag_strip_title = tag_strip_title.replace(re.findall('' + string + '', tag_strip_title)[0],'')
 
@@ -639,72 +639,6 @@ def cloneof(title, raw_title, regional_titles, unique_list, region, region_list_
     else:
         return 'None'
 
-# Removes tags from titles so dupes are easier to find
-def clone_string_stripper(clone_title, strings, regions):
-    for string in strings:
-        if re.findall(string, clone_title) != []:
-            if 'Disco' in string:
-                disc_alternative = re.search('\(Disco [A-Z0-9]\)', clone_title).group()
-                # Change things so discs are ordered consistently
-                disc_alternative = disc_alternative.replace('Disco', 'Disc')
-                disc_alternative = disc_alternative.replace('Disc A', 'Disc 1')
-                disc_alternative = disc_alternative.replace('Disc B', 'Disc 2')
-                disc_alternative = disc_alternative.replace('Disc C', 'Disc 3')
-                disc_alternative = disc_alternative.replace('Disc D', 'Disc 4')
-                disc_alternative = disc_alternative.replace('Disc E', 'Disc 5')
-                disc_alternative = disc_alternative.replace('Disc F', 'Disc 6')
-                disc_alternative = disc_alternative.replace('Disc G', 'Disc 7')
-                disc_alternative = disc_alternative.replace('Disc H', 'Disc 8')
-                disc_alternative = disc_alternative.replace('Disc I', 'Disc 9')
-                disc_alternative = disc_alternative.replace('Disc J', 'Disc 10')
-                disc_alternative = disc_alternative.replace('Disc K', 'Disc 11')
-                disc_alternative = disc_alternative.replace('Disc L', 'Disc 12')
-                clone_title = clone_title.replace(re.findall('\(Disco [A-Z0-9]\)', clone_title)[0], disc_alternative)
-            elif 'Disc' in string and 'Disco' not in string:
-                disc_alternative = re.search('\(Disc [A-Z]\)', clone_title).group()
-                # Change things so discs are ordered consistently
-                disc_alternative = disc_alternative.replace('Disc A', 'Disc 1')
-                disc_alternative = disc_alternative.replace('Disc B', 'Disc 2')
-                disc_alternative = disc_alternative.replace('Disc C', 'Disc 3')
-                disc_alternative = disc_alternative.replace('Disc D', 'Disc 4')
-                disc_alternative = disc_alternative.replace('Disc E', 'Disc 5')
-                disc_alternative = disc_alternative.replace('Disc F', 'Disc 6')
-                disc_alternative = disc_alternative.replace('Disc G', 'Disc 7')
-                disc_alternative = disc_alternative.replace('Disc H', 'Disc 8')
-                disc_alternative = disc_alternative.replace('Disc I', 'Disc 9')
-                disc_alternative = disc_alternative.replace('Disc J', 'Disc 10')
-                disc_alternative = disc_alternative.replace('Disc K', 'Disc 11')
-                disc_alternative = disc_alternative.replace('Disc L', 'Disc 12')
-                clone_title = clone_title.replace(re.findall('\(Disc [A-Z]\)', clone_title)[0], disc_alternative)
-            elif string == '\s?\([0-9].{7}\)\s?':
-                # Really basic date validation
-                clone_year = re.search('\([0-9].{7}\)', clone_title).group()[1:-5]
-                clone_month = re.search('\([0-9].{7}\)', clone_title).group()[5:-3]
-                clone_day = re.search('\([0-9].{7}\)', clone_title).group()[7:-1]
-
-                if int(clone_year) > 1970 and int(clone_month) >= 1 and int(clone_month) < 13 and int(clone_day) >= 1 and int(clone_day) < 32:
-                    clone_title = clone_title.replace(re.findall('\s?\([0-9].{7}\)\s?', clone_title)[0], '')
-            elif string in regions:
-                # Catch titles that have region names in the title itself, like "Immercenary, Combat in a Digital _World_"
-                if bool(re.search('\(.*?' + string + '.*?\)', clone_title)) == True:
-                    remove_region = clone_title.replace(re.findall(' \(.*?' + string + '.*?\)', clone_title)[0],'')
-                    remove_languages_clone = re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv)\.*?)(,.*?\)|\)))', remove_region)
-
-                    if len(remove_languages_clone) > 0:
-                        try:
-                            clone_title = remove_region.replace(remove_languages_clone[0][0], '')
-                        except:
-                            clone_title = ''
-                    else:
-                        try:
-                            clone_title = remove_region
-                        except:
-                            clone_title = ''
-            else:
-                clone_title = clone_title.replace(re.findall('' + string + '', clone_title)[0],'')
-    return clone_title
-
-
 # Finds unique titles in regions, removes dupes
 def localized_titles_unique(region, region_list_english, region_list_other, titles, unique_list, unique_regional_titles, dupe_list, user_input, parent_list, title_compared, tag_strings):
     regional_titles = []
@@ -1016,22 +950,22 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
                                             print('Keeping: ' + x.full_title)
                                             parent_list.pop(y, None)
                                             # input('>')
-                                        elif bool(re.search('\s?\([0-9].{7}\)\s?', x.full_title)) == True and bool(re.search('\s?\([0-9].{7}\)\s?', y.full_title)) == False:
+                                        elif bool(re.search('\s?\(\d{8}\)\s?', x.full_title)) == True and bool(re.search('\s?\((\d){8}\)\s?', y.full_title)) == False:
                                             # Really basic date validation
-                                            clone_year = re.search('\([0-9].{7}\)', x.full_title).group()[1:-5]
-                                            clone_month = re.search('\([0-9].{7}\)', x.full_title).group()[5:-3]
-                                            clone_day = re.search('\([0-9].{7}\)', x.full_title).group()[7:-1]
+                                            clone_year = re.search('\(\d{8}\)', x.full_title).group()[1:-5]
+                                            clone_month = re.search('\(\d{8}\)', x.full_title).group()[5:-3]
+                                            clone_day = re.search('\(\d{8}\)', x.full_title).group()[7:-1]
 
                                             if int(clone_year) > 1970 and int(clone_month) >= 1 and int(clone_month) < 13 and int(clone_day) >= 1 and int(clone_day) < 32:
                                                 print('13. Removing: ' + x.full_title)
                                                 print('Keeping: ' + y.full_title)
                                                 parent_list.pop(x, None)
                                                 # input('>')
-                                        elif bool(re.search('\s?\([0-9].{7}\)\s?', y.full_title)) == True and bool(re.search('\s?\([0-9].{7}\)\s?', x.full_title)) == False:
+                                        elif bool(re.search('\s?\(\d{8}\)\s?', y.full_title)) == True and bool(re.search('\s?\((\d){8}\)\s?', x.full_title)) == False:
                                             # Really basic date validation
-                                            clone_year = re.search('\([0-9].{7}\)', y.full_title).group()[1:-5]
-                                            clone_month = re.search('\([0-9].{7}\)', y.full_title).group()[5:-3]
-                                            clone_day = re.search('\([0-9].{7}\)', y.full_title).group()[7:-1]
+                                            clone_year = re.search('\(\d{8}\)', y.full_title).group()[1:-5]
+                                            clone_month = re.search('\(\d{8}\)', y.full_title).group()[5:-3]
+                                            clone_day = re.search('\(\d{8}\)', y.full_title).group()[7:-1]
 
                                             if int(clone_year) > 1970 and int(clone_month) >= 1 and int(clone_month) < 13 and int(clone_day) >= 1 and int(clone_day) < 32:
                                                 print('14. Removing: ' + y.full_title)
