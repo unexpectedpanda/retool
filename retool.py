@@ -3,6 +3,7 @@
 
 import datetime
 import html
+import itertools
 import os
 import sys
 import re
@@ -715,28 +716,27 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
             progress_spinner_i += 1
             if progress_spinner_i == 4: progress_spinner_i = 0
             if user_input.one_game_one_rom == True: print('  * Finding parents and clones in ' + region + '... ' + progress_spinner[progress_spinner_i], sep='', end='\r', flush=True)
-            for subtitle1 in regional_titles_data[title]:
-                for subtitle2 in regional_titles_data[title]:
-                    # Add titles that are just OEM versions of commercial titles to the remove list
-                    oem_string = re.findall(' \(OEM\).*', subtitle2.regionless_title)
-                    if oem_string != []:
-                        if subtitle2.regionless_title == subtitle1.regionless_title + oem_string[0] or subtitle2.regionless_title.replace(oem_string[0],'') == subtitle1.regionless_title.replace(' (Rerelease)', ''):
-                            remove_list.append(subtitle2)
+            for x, y in itertools.combinations(regional_titles_data[title], 2):
+                # Add titles that are just OEM versions of commercial titles to the remove list
+                oem_string = re.findall(' \(OEM\).*', y.regionless_title)
+                if oem_string != []:
+                    if y.regionless_title == x.regionless_title + oem_string[0] or y.regionless_title.replace(oem_string[0],'') == x.regionless_title.replace(' (Rerelease)', ''):
+                        remove_list.append(y)
 
-                    # Add titles that have dupes with additional regions or languages to the remove list
-                    if subtitle1.regionless_title == subtitle2.regionless_title and subtitle1.full_title != subtitle2.full_title:
-                        # First, if we're in a native English region, take the longest title
-                        if subtitle1.regions in region_list_english:
-                            # Don't select titles that have more languages, but not English
-                            if subtitle1.languages == '' and subtitle2.languages != '' and 'En' not in subtitle2.languages:
-                                if subtitle2 in regional_titles_data[title]: remove_list.append(subtitle2)
-                            elif len(subtitle1.full_title) > len(subtitle2.full_title):
-                                if subtitle2 in regional_titles_data[title]: remove_list.append(subtitle2)
-                            else:
-                                if subtitle1 in regional_titles_data[title]: remove_list.append(subtitle1)
-                        # Now process the other regions
+                # Add titles that have dupes with additional regions or languages to the remove list
+                if x.regionless_title == y.regionless_title and x.full_title != y.full_title:
+                    # First, if we're in a native English region, take the longest title
+                    if x.regions in region_list_english:
+                        # Don't select titles that have more languages, but not English
+                        if x.languages == '' and y.languages != '' and 'En' not in y.languages:
+                            if y in regional_titles_data[title]: remove_list.append(y)
+                        elif len(x.full_title) > len(y.full_title):
+                            if y in regional_titles_data[title]: remove_list.append(y)
                         else:
-                            remove_by_language(['En', 'Es', 'Fr', 'Ja', 'Pt', 'De', 'It', 'Sv', 'Da', 'No', 'Pl', 'Gr', 'Nl', 'Fi', 'Ch', 'Hr', 'Ru'], subtitle1, subtitle2, title, regional_titles_data, remove_list)
+                            if x in regional_titles_data[title]: remove_list.append(x)
+                    # Now process the other regions
+                    else:
+                        remove_by_language(['En', 'Es', 'Fr', 'Ja', 'Pt', 'De', 'It', 'Sv', 'Da', 'No', 'Pl', 'Gr', 'Nl', 'Fi', 'Ch', 'Hr', 'Ru'], subtitle1, subtitle2, title, regional_titles_data, remove_list)
 
             # Now process OEM and additional region/language titles
             parent_titles = [x for x in regional_titles_data[title] if x not in remove_list]
@@ -847,15 +847,14 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
                 ver_title_keep.sort(reverse=True)
 
                 # Strip alts from keep lists if the same title exists without the alt tag
-                for item in rev_title_keep + ver_title_keep:
-                    for anotheritem in ver_title_keep + rev_title_keep:
-                        if re.search(' \(Alt.*?\)', anotheritem) != None:
-                            string1 = re.sub(' \(Alt.*?\)', '', anotheritem)
-                            if string1 == item:
-                                if anotheritem in rev_title_keep:
-                                    rev_title_keep.remove(anotheritem)
-                                if anotheritem in ver_title_keep:
-                                    ver_title_keep.remove(anotheritem)
+                for x, y in itertools.combinations(rev_title_keep + ver_title_keep, 2):
+                    if re.search(' \(Alt.*?\)', y) != None:
+                        string1 = re.sub(' \(Alt.*?\)', '', y)
+                        if string1 == x:
+                            if y in rev_title_keep:
+                                rev_title_keep.remove(y)
+                            if anotheritem in ver_title_keep:
+                                ver_title_keep.remove(y)
 
                 # Populate initial parent list
                 for subtitle in regional_titles_data[title]:
@@ -878,123 +877,120 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
                 # input('>')
 
                 # Determine which titles are truly parents
-                for x in parent_list_temp:
-                    if x.cloneof == '':
-                        for y in parent_list_temp:
-                            if y.cloneof == '':
-                                if x.full_title != y.full_title:
-                                    if x.rf_tag_strip_title == y.rf_tag_strip_title:
-                                        # Check if the titles are from the same region
-                                        for another_region in region_list_english + region_list_other:
-                                            if bool(re.search(' \(.*?' + another_region + '.*?\)', x.full_title)) == True and bool(re.search(' \(.*?' + another_region + '.*?\)', y.full_title)) == True:
-                                                # If one has more regions than the other, take it
-                                                if len(re.findall(',', re.findall('\(.*?' + another_region + '.*?\)', x.full_title)[0])) > len(re.findall(',', re.findall('\(.*?' + another_region + '.*?\)', y.full_title)[0])):
-                                                    print('1. Removing: ' + y.full_title)
-                                                    print('Keeping: ' + x.full_title)
-                                                    parent_list.pop(y, None)
-                                                    # input('>')
-                                                elif len(re.findall(',', re.findall('\(.*?' + another_region + '.*?\)', y.full_title)[0])) > len(re.findall(',', re.findall('\(.*?' + another_region + '.*?\)', x.full_title)[0])):
-                                                    print('2. Removing: ' + x.full_title)
-                                                    print('Keeping: ' + y.full_title)
-                                                    parent_list.pop(x, None)
-                                                    # input('>')
-                                                # Else if one has a version but the other doesn't, take it
-                                                elif bool(re.search('\(v[0-9].*?\)', x.full_title)) == True and bool(re.search('\(v[0-9].*?\)', y.full_title)) == False:
-                                                    print('3. Removing: ' + y.full_title)
-                                                    print('Keeping: ' + x.full_title)
-                                                    parent_list.pop(y, None)
-                                                    # input('>')
-                                                elif bool(re.search('\(v[0-9].*?\)', y.full_title)) == True and bool(re.search('\(v[0-9].*?\)', x.full_title)) == False:
-                                                    print('4. Removing: ' + x.full_title)
-                                                    print('Keeping: ' + y.full_title)
-                                                    parent_list.pop(x, None)
-                                                    # input('>')
-                                                # Else if one has a revision but the other doesn't, take it
-                                                elif bool(re.search('\(Rev [0-9A-Z].*?\)', x.full_title)) == True and bool(re.search('\(Rev [0-9A-Z].*?\)', y.full_title)) == False:
-                                                    print('5. Removing: ' + y.full_title)
-                                                    print('Keeping: ' + x.full_title)
-                                                    parent_list.pop(y, None)
-                                                    # input('>')
-                                                elif bool(re.search('\(Rev [0-9A-Z].*?\)', y.full_title)) == True and bool(re.search('\(Rev [0-9A-Z].*?\)', x.full_title)) == False:
-                                                    print('6. Removing: ' + x.full_title)
-                                                    print('Keeping: ' + y.full_title)
-                                                    parent_list.pop(x, None)
-                                                    # input('>')
-                                                # Else if one has more languages than the other, take it
-                                                elif len(re.findall(',', str(re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv)\.*?)(,.*?\)|\)))', x.tag_strip_title)))) > len(re.findall(',', str(re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv)\.*?)(,.*?\)|\)))', y.tag_strip_title)))):
-                                                    print('7. Removing: ' + y.full_title)
-                                                    print('Keeping: ' + x.full_title)
-                                                    parent_list.pop(y, None)
-                                                    # input('>')
-                                                elif len(re.findall(',', str(re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv)\.*?)(,.*?\)|\)))', y.tag_strip_title)))) > len(re.findall(',', str(re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv)\.*?)(,.*?\)|\)))', x.tag_strip_title)))):
-                                                    print('8. Removing: ' + x.full_title)
-                                                    print('Keeping: ' + y.full_title)
-                                                    parent_list.pop(x, None)
-                                                    # input('>')
-                                                # Else if one has a rerelease, alt, or date tag and the other doesn't, take the one that doesn't
-                                                elif '(Rerelease)' in x.full_title and '(Rerelease)' not in y.full_title:
-                                                    print('9. Removing: ' + x.full_title)
-                                                    print('Keeping: ' + y.full_title)
-                                                    parent_list.pop(x, None)
-                                                    # input('>')
-                                                elif '(Rerelease)' in y.full_title and '(Rerelease)' not in x.full_title:
-                                                    print('10. Removing: ' + y.full_title)
-                                                    print('Keeping: ' + x.full_title)
-                                                    parent_list.pop(y, None)
-                                                    # input('>')
-                                                elif bool(re.search('\(Alt.*?\)', x.full_title)) == True and bool(re.search('\(Alt.*?\)', y.full_title)) == False:
-                                                    print('11. Removing: ' + x.full_title)
-                                                    print('Keeping: ' + y.full_title)
-                                                    parent_list.pop(x, None)
-                                                    # input('>')
-                                                elif bool(re.search('\(Alt.*?\)', y.full_title)) == True and bool(re.search('\(Alt.*?\)', x.full_title)) == False:
-                                                    print('12. Removing: ' + y.full_title)
-                                                    print('Keeping: ' + x.full_title)
-                                                    parent_list.pop(y, None)
-                                                    # input('>')
-                                                elif bool(re.search('\s?\(\d{8}\)\s?', x.full_title)) == True and bool(re.search('\s?\((\d){8}\)\s?', y.full_title)) == False:
-                                                    # Really basic date validation
-                                                    clone_year = re.search('\(\d{8}\)', x.full_title).group()[1:-5]
-                                                    clone_month = re.search('\(\d{8}\)', x.full_title).group()[5:-3]
-                                                    clone_day = re.search('\(\d{8}\)', x.full_title).group()[7:-1]
+                for x, y in itertools.combinations(parent_list_temp, 2):
+                    if x.full_title != y.full_title:
+                        if x.rf_tag_strip_title == y.rf_tag_strip_title:
+                            # Check if the titles are from the same region
+                            for another_region in region_list_english + region_list_other:
+                                if bool(re.search(' \(.*?' + another_region + '.*?\)', x.full_title)) == True and bool(re.search(' \(.*?' + another_region + '.*?\)', y.full_title)) == True:
+                                    # If one has more regions than the other, take it
+                                    if len(re.findall(',', re.findall('\(.*?' + another_region + '.*?\)', x.full_title)[0])) > len(re.findall(',', re.findall('\(.*?' + another_region + '.*?\)', y.full_title)[0])):
+                                        print('1. Removing: ' + y.full_title)
+                                        print('Keeping: ' + x.full_title)
+                                        parent_list.pop(y, None)
+                                        # input('>')
+                                    elif len(re.findall(',', re.findall('\(.*?' + another_region + '.*?\)', y.full_title)[0])) > len(re.findall(',', re.findall('\(.*?' + another_region + '.*?\)', x.full_title)[0])):
+                                        print('2. Removing: ' + x.full_title)
+                                        print('Keeping: ' + y.full_title)
+                                        parent_list.pop(x, None)
+                                        # input('>')
+                                    # Else if one has a version but the other doesn't, take it
+                                    elif bool(re.search('\(v[0-9].*?\)', x.full_title)) == True and bool(re.search('\(v[0-9].*?\)', y.full_title)) == False:
+                                        print('3. Removing: ' + y.full_title)
+                                        print('Keeping: ' + x.full_title)
+                                        parent_list.pop(y, None)
+                                        # input('>')
+                                    elif bool(re.search('\(v[0-9].*?\)', y.full_title)) == True and bool(re.search('\(v[0-9].*?\)', x.full_title)) == False:
+                                        print('4. Removing: ' + x.full_title)
+                                        print('Keeping: ' + y.full_title)
+                                        parent_list.pop(x, None)
+                                        # input('>')
+                                    # Else if one has a revision but the other doesn't, take it
+                                    elif bool(re.search('\(Rev [0-9A-Z].*?\)', x.full_title)) == True and bool(re.search('\(Rev [0-9A-Z].*?\)', y.full_title)) == False:
+                                        print('5. Removing: ' + y.full_title)
+                                        print('Keeping: ' + x.full_title)
+                                        parent_list.pop(y, None)
+                                        # input('>')
+                                    elif bool(re.search('\(Rev [0-9A-Z].*?\)', y.full_title)) == True and bool(re.search('\(Rev [0-9A-Z].*?\)', x.full_title)) == False:
+                                        print('6. Removing: ' + x.full_title)
+                                        print('Keeping: ' + y.full_title)
+                                        parent_list.pop(x, None)
+                                        # input('>')
+                                    # Else if one has more languages than the other, take it
+                                    elif len(re.findall(',', str(re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv)\.*?)(,.*?\)|\)))', x.tag_strip_title)))) > len(re.findall(',', str(re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv)\.*?)(,.*?\)|\)))', y.tag_strip_title)))):
+                                        print('7. Removing: ' + y.full_title)
+                                        print('Keeping: ' + x.full_title)
+                                        parent_list.pop(y, None)
+                                        # input('>')
+                                    elif len(re.findall(',', str(re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv)\.*?)(,.*?\)|\)))', y.tag_strip_title)))) > len(re.findall(',', str(re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv)\.*?)(,.*?\)|\)))', x.tag_strip_title)))):
+                                        print('8. Removing: ' + x.full_title)
+                                        print('Keeping: ' + y.full_title)
+                                        parent_list.pop(x, None)
+                                        # input('>')
+                                    # Else if one has a rerelease, alt, or date tag and the other doesn't, take the one that doesn't
+                                    elif '(Rerelease)' in x.full_title and '(Rerelease)' not in y.full_title:
+                                        print('9. Removing: ' + x.full_title)
+                                        print('Keeping: ' + y.full_title)
+                                        parent_list.pop(x, None)
+                                        # input('>')
+                                    elif '(Rerelease)' in y.full_title and '(Rerelease)' not in x.full_title:
+                                        print('10. Removing: ' + y.full_title)
+                                        print('Keeping: ' + x.full_title)
+                                        parent_list.pop(y, None)
+                                        # input('>')
+                                    elif bool(re.search('\(Alt.*?\)', x.full_title)) == True and bool(re.search('\(Alt.*?\)', y.full_title)) == False:
+                                        print('11. Removing: ' + x.full_title)
+                                        print('Keeping: ' + y.full_title)
+                                        parent_list.pop(x, None)
+                                        # input('>')
+                                    elif bool(re.search('\(Alt.*?\)', y.full_title)) == True and bool(re.search('\(Alt.*?\)', x.full_title)) == False:
+                                        print('12. Removing: ' + y.full_title)
+                                        print('Keeping: ' + x.full_title)
+                                        parent_list.pop(y, None)
+                                        # input('>')
+                                    elif bool(re.search('\s?\(\d{8}\)\s?', x.full_title)) == True and bool(re.search('\s?\((\d){8}\)\s?', y.full_title)) == False:
+                                        # Really basic date validation
+                                        clone_year = re.search('\(\d{8}\)', x.full_title).group()[1:-5]
+                                        clone_month = re.search('\(\d{8}\)', x.full_title).group()[5:-3]
+                                        clone_day = re.search('\(\d{8}\)', x.full_title).group()[7:-1]
 
-                                                    if int(clone_year) > 1970 and int(clone_month) >= 1 and int(clone_month) < 13 and int(clone_day) >= 1 and int(clone_day) < 32:
-                                                        print('13. Removing: ' + x.full_title)
-                                                        print('Keeping: ' + y.full_title)
-                                                        parent_list.pop(x, None)
-                                                        # input('>')
-                                                elif bool(re.search('\s?\(\d{8}\)\s?', y.full_title)) == True and bool(re.search('\s?\((\d){8}\)\s?', x.full_title)) == False:
-                                                    # Really basic date validation
-                                                    clone_year = re.search('\(\d{8}\)', y.full_title).group()[1:-5]
-                                                    clone_month = re.search('\(\d{8}\)', y.full_title).group()[5:-3]
-                                                    clone_day = re.search('\(\d{8}\)', y.full_title).group()[7:-1]
+                                        if int(clone_year) > 1970 and int(clone_month) >= 1 and int(clone_month) < 13 and int(clone_day) >= 1 and int(clone_day) < 32:
+                                            print('13. Removing: ' + x.full_title)
+                                            print('Keeping: ' + y.full_title)
+                                            parent_list.pop(x, None)
+                                            # input('>')
+                                    elif bool(re.search('\s?\(\d{8}\)\s?', y.full_title)) == True and bool(re.search('\s?\((\d){8}\)\s?', x.full_title)) == False:
+                                        # Really basic date validation
+                                        clone_year = re.search('\(\d{8}\)', y.full_title).group()[1:-5]
+                                        clone_month = re.search('\(\d{8}\)', y.full_title).group()[5:-3]
+                                        clone_day = re.search('\(\d{8}\)', y.full_title).group()[7:-1]
 
-                                                    if int(clone_year) > 1970 and int(clone_month) >= 1 and int(clone_month) < 13 and int(clone_day) >= 1 and int(clone_day) < 32:
-                                                        print('14. Removing: ' + y.full_title)
-                                                        print('Keeping: ' + x.full_title)
-                                                        parent_list.pop(y, None)
-                                                        # input('>')
-                                            else:
-                                                if another_region not in x.full_title and another_region in y.full_title:
-                                                    if x.full_title not in title_compared:
-                                                        print('15. Removing: ' + x.full_title)
-                                                        print('Keeping: ' + y.full_title)
-                                                        # input('>')
-                                                        try:
-                                                            parent_list.pop(x)
-                                                        except:
-                                                            pass
-                                                    title_compared.append(y.full_title)
-                                                elif another_region not in y.full_title and another_region in x.full_title:
-                                                    if y.full_title not in title_compared:
-                                                        print('16. Removing: ' + y.full_title)
-                                                        print('Keeping: ' + x.full_title)
-                                                        # input('>')
-                                                        try:
-                                                            parent_list.pop(y)
-                                                        except:
-                                                            pass
-                                                    title_compared.append(x.full_title)
+                                        if int(clone_year) > 1970 and int(clone_month) >= 1 and int(clone_month) < 13 and int(clone_day) >= 1 and int(clone_day) < 32:
+                                            print('14. Removing: ' + y.full_title)
+                                            print('Keeping: ' + x.full_title)
+                                            parent_list.pop(y, None)
+                                            # input('>')
+                                else:
+                                    if another_region not in x.full_title and another_region in y.full_title:
+                                        if x.full_title not in title_compared:
+                                            print('15. Removing: ' + x.full_title)
+                                            print('Keeping: ' + y.full_title)
+                                            # input('>')
+                                            try:
+                                                parent_list.pop(x)
+                                            except:
+                                                pass
+                                        title_compared.append(y.full_title)
+                                    elif another_region not in y.full_title and another_region in x.full_title:
+                                        if y.full_title not in title_compared:
+                                            print('16. Removing: ' + y.full_title)
+                                            print('Keeping: ' + x.full_title)
+                                            # input('>')
+                                            try:
+                                                parent_list.pop(y)
+                                            except:
+                                                pass
+                                        title_compared.append(x.full_title)
 
                 # Now mark all the clones
                 if len(parent_list) > 0:
