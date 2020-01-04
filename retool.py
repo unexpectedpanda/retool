@@ -835,6 +835,7 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
             ver_title_keep = []
             ver_title_delete = []
 
+            # Process older versions
             if len(highest_version) > 0:
                 for key, value in highest_version.items():
                     for subtitle in regional_titles_data[title]:
@@ -843,6 +844,51 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
                         # Add original, unrevised title and its alts to delete list
                         if key == subtitle.regionless_title or bool(re.match(re.escape(key) + ' \(Alt.*?\)', subtitle.regionless_title)):
                             ver_title_delete.append(subtitle.full_title)
+                    # If there are multiple titles with the same version but different languages, take the one
+                    # with English. If more than one has English, take the one with the most languages
+                    ver_title_keep_temp = []
+                    for item in ver_title_keep:
+                        ver_title_keep_temp.append(item)
+
+                    for x, y in itertools.combinations(ver_title_keep_temp, 2):
+                        x2 = x.replace(re.findall(' \(' + region + '.*?\)', x)[0],'')
+                        remove_languages = re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv)\.*?)(,.*?\)|\)))', x)
+                        if len(remove_languages) > 0:
+                            try:
+                                x2 = x.replace(remove_languages[0][0], '')
+                            except:
+                                pass
+
+                        y2 = y.replace(re.findall(' \(' + region + '.*?\)', y)[0],'')
+                        remove_languages = re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv)\.*?)(,.*?\)|\)))', y)
+                        if len(remove_languages) > 0:
+                            try:
+                                y2 = y.replace(remove_languages[0][0], '')
+                            except:
+                                pass
+
+                        if x2 == y2:
+                            if bool(re.search('\*.?En.*?\)', x)) == True and bool(re.search('\*.?En.*?\)', y)) == False:
+                                for actual_highest in ver_title_keep:
+                                    if actual_highest != x:
+                                        ver_title_keep.pop(ver_title_keep.index(actual_highest))
+                                        ver_title_delete.append(actual_highest)
+                            elif bool(re.search('\*.?En.*?\)', y)) == True and bool(re.search('\*.?En.*?\)', x)) == False:
+                                for actual_highest in ver_title_keep:
+                                    if actual_highest != y:
+                                        ver_title_keep.pop(ver_title_keep.index(actual_highest))
+                                        ver_title_delete.append(actual_highest)
+                            elif len(re.findall(',', str(re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv)\.*?)(,.*?\)|\)))', x)))) > len(re.findall(',', str(re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv)\.*?)(,.*?\)|\)))', y)))):
+                                for actual_highest in ver_title_keep:
+                                    if actual_highest != x:
+                                        ver_title_keep.pop(ver_title_keep.index(actual_highest))
+                                        ver_title_delete.append(actual_highest)
+                            elif len(re.findall(',', str(re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv)\.*?)(,.*?\)|\)))', y)))) > len(re.findall(',', str(re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv)\.*?)(,.*?\)|\)))', x)))):
+                                for actual_highest in ver_title_keep:
+                                    if actual_highest != y:
+                                        ver_title_keep.pop(ver_title_keep.index(actual_highest))
+                                        ver_title_delete.append(actual_highest)
+
                     # Add previous versions to delete list
                     for i, x in enumerate(highest_version[key]):
                         if i < len(highest_version[key]):
