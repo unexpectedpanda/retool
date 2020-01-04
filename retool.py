@@ -542,7 +542,7 @@ def header(dat_name, dat_version, dat_author, dat_url, dat_header_exclusion, reg
 def localized_titles(region, native, soup, user_input):
     sys.stdout.write("\033[K")
     if native != 'Unknown':
-        print('* Checking dat for titles in the following regions... ' + region, sep='', end='\r', flush=True)
+        print('* Checking dat for titles in known regions... ' + region, sep='', end='\r', flush=True)
     if native == True:
         return soup.find_all('game', {'name':re.compile('(\(' + region + '\))')}) + soup.find_all('game', {'name':re.compile('(\(' + region + ',.*?\))')})
     elif native == 'Unknown':
@@ -558,17 +558,20 @@ def localized_titles(region, native, soup, user_input):
             return soup.find_all('game', {'name':re.compile('(\(' + region + '\))')}) + soup.find_all('game', {'name':re.compile('(\(' + region + ',.*?\))')})
 
 # Adds titles in Logiqx XML dat form
-def add_titles(region_list, region_list_english, region_list_other, titles, unique_list, unique_regional_titles, dupe_list, user_input, parent_list, tag_strings):
+def add_titles(region_list, region_list_english, region_list_other, titles, unique_list, unique_regional_titles, dupe_list, user_input, global_parent_list, tag_strings, all_titles_data):
     if user_input.split_regions_no_dupes == True or user_input.split_regions == True:
         title_xml = {}
     else:
         title_xml = ''
 
     for region in region_list:
-        unique_regional_titles[region] = localized_titles_unique(region, region_list_english, region_list_other, titles[region], unique_list, unique_regional_titles, dupe_list, user_input, parent_list, tag_strings)
+        unique_regional_titles[region] = localized_titles_unique(region, region_list_english, region_list_other, titles[region], unique_list, unique_regional_titles, dupe_list, user_input, global_parent_list, tag_strings, all_titles_data)
 
         if unique_regional_titles[region]['unique_titles'] != []:
-            print('  * Adding titles from ' + region + '...', sep='', end='\r', flush=True)
+            if user_input.one_game_one_rom == True:
+                print('  * Adding parents from ' + region + '...', sep='', end='\r', flush=True)
+            else:
+                print('  * Adding titles from ' + region + '...', sep='', end='\r', flush=True)
             for title in unique_regional_titles[region]['unique_titles']:
                 unique_list.append(title)
 
@@ -579,7 +582,11 @@ def add_titles(region_list, region_list_english, region_list_other, titles, uniq
                 title_xml += convert_to_xml(region, unique_regional_titles, titles, user_input)
 
             sys.stdout.write("\033[K")
-            print('  * Adding titles from ' + region + '... done.')
+            if user_input.one_game_one_rom == True:
+
+                print('  * Adding parents from ' + region + '... done.')
+            else:
+                print('  * Adding titles from ' + region + '... done.')
     return title_xml
 
 # Removes dupes that are the same title, but support different languages
@@ -610,7 +617,7 @@ def remove_by_language(language, subtitle1, subtitle2, title, regional_titles_da
             language.pop(0)
             remove_by_language(language, subtitle1, subtitle2, title, regional_titles_data, remove_list)
 
-# Set clone property cross region. There's crossover here with clone_string_stripper(), and this should be consolidated at some point.
+# Set clone property cross region.
 def cloneof(title, raw_title, regional_titles, unique_list, region, region_list_english, region_list_other, unique_regional_titles):
     if raw_title in regional_titles and raw_title in unique_list:
         # Find out what the parent is. Not the best way to do this, but it's the easiest.
@@ -640,14 +647,66 @@ def cloneof(title, raw_title, regional_titles, unique_list, region, region_list_
     else:
         return 'None'
 
+def parent_compare_more(test1, test2, parent_list, already_tested, x, y):
+    if test1 > test2:
+        # print('Removing: ' + y.full_title)
+        # print('Keeping: ' + x.full_title)
+        if y in parent_list: del parent_list[y]
+        already_tested.append(y.full_title)
+        # input('>')
+        return True
+    elif test2 > test1:
+        # print('Removing: ' + x.full_title)
+        # print('Keeping: ' + y.full_title)
+        if x in parent_list: del parent_list[x]
+        already_tested.append(x.full_title)
+        # input('>')
+        return True
+
+def parent_compare_bool(test1, test2, parent_list, already_tested, x, y, date):
+    if date == '':
+        if test1 == True and test2 == False:
+            # print('Removing: ' + y.full_title)
+            # print('Keeping: ' + x.full_title)
+            if y in parent_list: del parent_list[y]
+            already_tested.append(y.full_title)
+            # input('>')
+            return True
+        elif test2 == True and test1 == False:
+            # print('Removing: ' + x.full_title)
+            # print('Keeping: ' + y.full_title)
+            if x in parent_list: del parent_list[x]
+            already_tested.append(x.full_title)
+            # input('>')
+            return True
+    elif date == 'date':
+        if test1 == True or test2 == True:
+            clone_year = re.search('\(\d{8}\)', x.full_title).group()[1:-5]
+            clone_month = re.search('\(\d{8}\)', x.full_title).group()[5:-3]
+            clone_day = re.search('\(\d{8}\)', x.full_title).group()[7:-1]
+
+            if int(clone_year) > 1970 and int(clone_month) >= 1 and int(clone_month) < 13 and int(clone_day) >= 1 and int(clone_day) < 32:
+                if test1 == True and test2 == False:
+                    # print('Removing: ' + x.full_title)
+                    # print('Keeping: ' + y.full_title)
+                    # input('>')
+                    if x in parent_list: del parent_list[x]
+                    already_tested.append(x.full_title)
+                    return True
+                elif test1 == False and test2 == True:
+                    # print('Removing: ' + y.full_title)
+                    # print('Keeping: ' + x.full_title)
+                    # input('>')
+                    if y in parent_list: del parent_list[y]
+                    already_tested.append(y.full_title)
+                    return True
+
+
 # Finds unique titles in regions, removes dupes
-def localized_titles_unique(region, region_list_english, region_list_other, titles, unique_list, unique_regional_titles, dupe_list, user_input, parent_list, tag_strings):
-    title_compared = ['', ''] # Complete hack way to reduce pointless loops further down
+def localized_titles_unique(region, region_list_english, region_list_other, titles, unique_list, unique_regional_titles, dupe_list, user_input, global_parent_list, tag_strings, all_titles_data):
+    already_tested = []
     regional_titles = []
     regional_titles_data = {}
-
-    progress_spinner = ['\\', '|', '/', '─']
-    progress_spinner_i = 0
 
     for title in titles:
         # Extract each title name, with no tags
@@ -674,11 +733,11 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
         for rom in roms:
             newroms.append(DatNodeRom('rom', rom['crc'], rom['md5'], rom['name'], rom['sha1'], rom['size']))
 
-        # If the title doesn't already exist, add it
+        # If the title doesn't already exist, add it to the regional_titles_data dictionary as a one entry list
         if regional_titles_data.get(raw_title, -1) == -1:
             cloneofstr = cloneof(title, raw_title, regional_titles, unique_list, region, region_list_english, region_list_other, unique_regional_titles)
             regional_titles_data[raw_title] = [DatNode(str(title.category.parent['name']), region, title.category.contents[0], title.description.contents[0], newroms, cloneofstr, tag_strings)]
-        # Otherwise there must be multiple discs or revisions, so append the title instead
+        # Otherwise there must be multiple discs or revisions present, so append the title to the existing list
         else:
             regional_titles_data[raw_title].append(DatNode(str(title.category.parent['name']), region, title.category.contents[0], title.description.contents[0], newroms, 'None', tag_strings))
             # Modify the clone entry
@@ -693,7 +752,6 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
             unique_regional_list = [x for x in regional_titles]
 
         # Sort and dedupe unique_regional_list
-
         if len(unique_regional_list) > 1:
             unique_regional_list = sorted(unique_regional_list, key=str.lower)
             unique_regional_temp = []
@@ -714,11 +772,11 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
         # Create list to remove titles later that are OEM, and dupes with alternate languages
         remove_list = []
 
-        for title in regional_titles_data:
-            progress_spinner_i += 1
-            if progress_spinner_i == 4: progress_spinner_i = 0
-            if user_input.one_game_one_rom == True: print('  * Finding parents and clones in ' + region + '... ' + progress_spinner[progress_spinner_i], sep='', end='\r', flush=True)
+        # Create a complete dictionary of titles across regions
+        for x in regional_titles_data:
+            all_titles_data[x] = regional_titles_data[x]
 
+        for title in regional_titles_data:
             for x, y in itertools.combinations(regional_titles_data[title], 2):
                 # Add titles that are just OEM versions of commercial titles to the remove list
                 oem_string = re.findall(' \(OEM\).*', y.regionless_title)
@@ -844,7 +902,7 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
                             if something.full_title == x:
                                     regional_titles_data[title].remove(something)
 
-            # Set clones if 1G1R mode is on
+            # Find parents and set clones if 1G1R mode is on
             if user_input.one_game_one_rom == True:
                 rev_title_keep.sort(reverse=True)
                 ver_title_keep.sort(reverse=True)
@@ -859,197 +917,190 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
                             if y in ver_title_keep:
                                 ver_title_keep.remove(y)
 
-                # Populate initial parent list
-                for subtitle in regional_titles_data[title]:
-                    # Filter out alt titles
-                    if bool(re.search('\(Alt.*?\)', subtitle.full_title)) != True:
-                        parent_list[subtitle] = regional_titles_data[title]
+                # Strip clones from keep lists, figure out remainders that haven't been marked as keep or delete
+                title_remainder = []
 
-                    for delete_title in ver_title_delete + rev_title_delete:
-                        # Remove older versions and revision titles that we've already identified
-                        if subtitle.full_title == delete_title:
-                            parent_list.pop(subtitle, None)
+                for x in regional_titles_data[title]:
+                    if x.cloneof == 'None':
+                        if x in rev_title_keep: rev_title_keep.remove(x)
+                        if x in ver_title_keep: ver_title_keep.remove(x)
+                        title_remainder.append(x.full_title)
 
-                # Build yet another dict, because we don't want to alter the original on the fly in the for loop below
+                title_remainder = [x for x in title_remainder if x not in rev_title_keep and x not in rev_title_delete and x not in ver_title_keep and x not in ver_title_delete]
+
+                # Create a rough parent list so we can refine it later, reducing the amount of work done
+                rough_parent_list = []
+                for x in ver_title_keep + rev_title_keep + title_remainder:
+                        rough_parent_list.append(x)
+
+                # Dedupe list
+                rough_parent_list = merge_identical_list_items(rough_parent_list)
+
+                # Create refined parent list
+                parent_list = {}
+
+                for x in regional_titles_data[title]:
+                    if x.full_title in rough_parent_list:
+                        parent_list[x] = regional_titles_data[title]
+
+                # Build yet another dict, because we can't alter the original on the fly in the loop below
                 parent_list_temp = {}
 
-                for subtitle in parent_list:
-                    parent_list_temp[subtitle] = parent_list[subtitle]
+                for x in parent_list:
+                    parent_list_temp[x] = parent_list[x]
 
                 # Determine which titles are truly parents
                 for x, y in itertools.combinations(parent_list_temp, 2):
-                    if x.full_title != y.full_title:
-                        if x.rf_tag_strip_title == y.rf_tag_strip_title:
-                            # Check if the titles are from the same region
-                            for another_region in region_list_english + region_list_other:
-                                if bool(re.search(' \(.*?' + another_region + '.*?\)', x.full_title)) == True and bool(re.search(' \(.*?' + another_region + '.*?\)', y.full_title)) == True:
-                                    # If one has more regions than the other, take it
-                                    test1 = len(re.findall(',', re.findall('\(.*?' + another_region + '.*?\)', x.full_title)[0]))
-                                    test2 = len(re.findall(',', re.findall('\(.*?' + another_region + '.*?\)', y.full_title)[0]))
-
-                                    if test1 > test2:
-                                        # print('1. Removing: ' + y.full_title)
-                                        # print('Keeping: ' + x.full_title)
-                                        if y in parent_list: del parent_list[y]
-                                        # parent_list.pop(y, None)
-                                        # input('>')
-                                        continue
-                                    elif test2 > test1:
-                                        # print('2. Removing: ' + x.full_title)
-                                        # print('Keeping: ' + y.full_title)
-                                        if x in parent_list: del parent_list[x]
-                                        # parent_list.pop(x, None)
-                                        # input('>')
-                                        continue
-
-                                    # Else if one has a version but the other doesn't, take it
-                                    test1 = bool(re.search('\(v[0-9].*?\)', x.full_title))
-                                    test2 = bool(re.search('\(v[0-9].*?\)', y.full_title))
-
-                                    if test1 == True and test2 == False:
-                                        # print('3. Removing: ' + y.full_title)
-                                        # print('Keeping: ' + x.full_title)
-                                        if y in parent_list: del parent_list[y]
-                                        # parent_list.pop(y, None)
-                                        # input('>')
-                                        continue
-                                    elif test2 == True and test1 == False:
-                                        # print('4. Removing: ' + x.full_title)
-                                        # print('Keeping: ' + y.full_title)
-                                        if x in parent_list: del parent_list[x]
-                                        # parent_list.pop(x, None)
-                                        # input('>')
-                                        continue
+                    if x.full_title not in already_tested and y.full_title not in already_tested:
+                        if x.full_title != y.full_title and x.cloneof == 'None' and y.cloneof == 'None':
+                            if x.rf_tag_strip_title == y.rf_tag_strip_title:
+                                # Lock comparisons to the same region for this loop
+                                if bool(re.search(' \(.*?' + region + '.*?\)', x.full_title)) == True and bool(re.search(' \(.*?' + region + '.*?\)', y.full_title)) == True:
+                                    # If one has a version but the other doesn't, take it
+                                    test = parent_compare_bool(bool(re.search('\(v[0-9].*?\)', x.full_title)), bool(re.search('\(v[0-9].*?\)', y.full_title)), parent_list, already_tested, x, y, '')
+                                    if test == True: continue
 
                                     # Else if one has a revision but the other doesn't, take it
-                                    test1 = bool(re.search('\(Rev [0-9A-Z].*?\)', x.full_title))
-                                    test2 = bool(re.search('\(Rev [0-9A-Z].*?\)', y.full_title))
+                                    test = parent_compare_bool(bool(re.search('\(Rev [0-9A-Z].*?\)', x.full_title)), bool(re.search('\(Rev [0-9A-Z].*?\)', y.full_title)), parent_list, already_tested, x, y, '')
+                                    if test == True: continue
 
-                                    if test1 == True and test2 == False:
-                                        # print('5. Removing: ' + y.full_title)
-                                        # print('Keeping: ' + x.full_title)
-                                        if y in parent_list: del parent_list[y]
-                                        # parent_list.pop(y, None)
-                                        # input('>')
-                                        continue
-                                    elif test2 == True and test1 == False:
-                                        # print('6. Removing: ' + x.full_title)
-                                        # print('Keeping: ' + y.full_title)
-                                        if x in parent_list: del parent_list[x]
-                                        # parent_list.pop(x, None)
-                                        # input('>')
-                                        continue
+                                    # Else if one title has more regions than the other, take it.
+                                    test = parent_compare_more(len(re.findall(',', re.findall('\(.*?' + region + '.*?\)', x.full_title)[0])), len(re.findall(',', re.findall('\(.*?' + region + '.*?\)', y.full_title)[0])), parent_list, already_tested, x, y)
+                                    if test == True: continue
+
+                                    # Else if one supports English and the other doesn't, take it
 
                                     # Else if one has more languages than the other, take it
-                                    test1 = len(re.findall(',', str(re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv)\.*?)(,.*?\)|\)))', x.tag_strip_title))))
-                                    test2 = len(re.findall(',', str(re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv)\.*?)(,.*?\)|\)))', y.tag_strip_title))))
+                                    test = parent_compare_more(len(re.findall(',', str(re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv)\.*?)(,.*?\)|\)))', x.tag_strip_title)))), len(re.findall(',', str(re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv)\.*?)(,.*?\)|\)))', y.tag_strip_title)))), parent_list, already_tested, x, y)
+                                    if test == True: continue
 
-                                    if test1 > test2:
-                                        # print('7. Removing: ' + y.full_title)
-                                        # print('Keeping: ' + x.full_title)
-                                        if y in parent_list: del parent_list[y]
-                                        # parent_list.pop(y, None)
-                                        # input('>')
-                                        continue
-                                    elif test2 > test1:
-                                        # print('8. Removing: ' + x.full_title)
-                                        # print('Keeping: ' + y.full_title)
-                                        if x in parent_list: del parent_list[x]
-                                        # parent_list.pop(x, None)
-                                        # input('>')
-                                        continue
+                                    # Else if one has a rerelease tag, take the one that doesn't
+                                    test = parent_compare_bool(bool('(Rerelease)' in y.full_title), bool('(Rerelease)' in x.full_title), parent_list, already_tested, x, y, '')
+                                    if test == True: continue
 
-                                    # Else if one has a rerelease, alt, or date tag and the other doesn't, take the one that doesn't
-                                    test1 = bool('(Rerelease)' in x.full_title)
-                                    test2 = bool('(Rerelease)' in y.full_title)
+                                    # Else if one has an Alt tag, take the one that doesn't
+                                    test = parent_compare_bool(bool(re.search('\(Alt.*?\)', y.full_title)), bool(re.search('\(Alt.*?\)', x.full_title)), parent_list, already_tested, x, y, '')
+                                    if test == True: continue
 
-                                    if test1 == True and test2 == False:
-                                        # print('9. Removing: ' + x.full_title)
-                                        # print('Keeping: ' + y.full_title)
-                                        if x in parent_list: del parent_list[x]
-                                        # parent_list.pop(x, None)
-                                        # input('>')
-                                        continue
-                                    elif test2 == True and test1 == False:
-                                        # print('10. Removing: ' + y.full_title)
-                                        # print('Keeping: ' + x.full_title)
-                                        if y in parent_list: del parent_list[y]
-                                        # parent_list.pop(y, None)
-                                        # input('>')
-                                        continue
+                                    # Else if one has a date tag and the other doesn't, take the one that doesn't
+                                    test = parent_compare_bool(bool(re.search('\s?\(\d{8}\)\s?', x.full_title)), bool(re.search('\s?\((\d){8}\)\s?', y.full_title)), parent_list, already_tested, x, y, 'date')
+                                    if test == True: continue
 
-                                    test1 = bool(re.search('\(Alt.*?\)', x.full_title))
-                                    test2 = bool(re.search('\(Alt.*?\)', y.full_title))
+                for x in parent_list:
+                    global_parent_list[x] = parent_list[x]
 
-                                    if test1 == True and test2 == False:
-                                        # print('11. Removing: ' + x.full_title)
-                                        # print('Keeping: ' + y.full_title)
-                                        if x in parent_list: del parent_list[x]
-                                        # parent_list.pop(x, None)
-                                        # input('>')
-                                        continue
-                                    elif test2 == True and test1 == False:
-                                        # print('12. Removing: ' + y.full_title)
-                                        # print('Keeping: ' + x.full_title)
-                                        if y in parent_list: del parent_list[y]
-                                        # parent_list.pop(y, None)
-                                        # input('>')
-                                        continue
+        # Compare the parents cross-region once we're at the last region in the list
+        if user_input.one_game_one_rom == True and region == (region_list_english + region_list_other)[-1]:
 
-                                    test1 = bool(re.search('\s?\(\d{8}\)\s?', x.full_title))
-                                    test2 = bool(re.search('\s?\((\d){8}\)\s?', y.full_title))
+            # Set the temp dictionary for global parent titles
+            global_parent_list_temp = {}
 
-                                    if test1 == True and test2 == False:
-                                        # Really basic date validation
-                                        clone_year = re.search('\(\d{8}\)', x.full_title).group()[1:-5]
-                                        clone_month = re.search('\(\d{8}\)', x.full_title).group()[5:-3]
-                                        clone_day = re.search('\(\d{8}\)', x.full_title).group()[7:-1]
+            parent_list_chunk = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k',
+                        'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u',
+                        'v', 'w', 'x', 'y', 'z', 'other']
 
-                                        if int(clone_year) > 1970 and int(clone_month) >= 1 and int(clone_month) < 13 and int(clone_day) >= 1 and int(clone_day) < 32:
-                                            # print('13. Removing: ' + x.full_title)
-                                            # print('Keeping: ' + y.full_title)
-                                            if x in parent_list: del parent_list[x]
-                                            # parent_list.pop(x, None)
-                                            # input('>')
-                                            continue
-                                    elif test2 == True and test1 == False:
-                                        # Really basic date validation
-                                        clone_year = re.search('\(\d{8}\)', y.full_title).group()[1:-5]
-                                        clone_month = re.search('\(\d{8}\)', y.full_title).group()[5:-3]
-                                        clone_day = re.search('\(\d{8}\)', y.full_title).group()[7:-1]
+            for x in parent_list_chunk:
+                global_parent_list_temp[x] = {}
 
-                                        if int(clone_year) > 1970 and int(clone_month) >= 1 and int(clone_month) < 13 and int(clone_day) >= 1 and int(clone_day) < 32:
-                                            # print('14. Removing: ' + y.full_title)
-                                            # print('Keeping: ' + x.full_title)
-                                            if y in parent_list: del parent_list[y]
-                                            # parent_list.pop(y, None)
-                                            # input('>')
-                                            continue
-                                else:
-                                    if x.full_title != title_compared[0] and y.full_title != title_compared[1]:
-                                        title_compared = [x.full_title, y.full_title]
-                                        test1 = bool(another_region in x.full_title)
-                                        test2 = bool(another_region in y.full_title)
+            for x in global_parent_list:
+                if x.full_title.lower().startswith('a') == True:
+                    global_parent_list_temp['a'][x] = global_parent_list[x]
+                elif x.full_title.lower().startswith('b') == True:
+                    global_parent_list_temp['b'][x] = global_parent_list[x]
+                elif x.full_title.lower().startswith('c') == True:
+                    global_parent_list_temp['c'][x] = global_parent_list[x]
+                elif x.full_title.lower().startswith('d') == True:
+                    global_parent_list_temp['d'][x] = global_parent_list[x]
+                elif x.full_title.lower().startswith('e') == True:
+                    global_parent_list_temp['e'][x] = global_parent_list[x]
+                elif x.full_title.lower().startswith('f') == True:
+                    global_parent_list_temp['f'][x] = global_parent_list[x]
+                elif x.full_title.lower().startswith('g') == True:
+                    global_parent_list_temp['g'][x] = global_parent_list[x]
+                elif x.full_title.lower().startswith('h') == True:
+                    global_parent_list_temp['h'][x] = global_parent_list[x]
+                elif x.full_title.lower().startswith('i') == True:
+                    global_parent_list_temp['i'][x] = global_parent_list[x]
+                elif x.full_title.lower().startswith('j') == True:
+                    global_parent_list_temp['j'][x] = global_parent_list[x]
+                elif x.full_title.lower().startswith('k') == True:
+                    global_parent_list_temp['k'][x] = global_parent_list[x]
+                elif x.full_title.lower().startswith('l') == True:
+                    global_parent_list_temp['l'][x] = global_parent_list[x]
+                elif x.full_title.lower().startswith('m') == True:
+                    global_parent_list_temp['m'][x] = global_parent_list[x]
+                elif x.full_title.lower().startswith('n') == True:
+                    global_parent_list_temp['n'][x] = global_parent_list[x]
+                elif x.full_title.lower().startswith('o') == True:
+                    global_parent_list_temp['o'][x] = global_parent_list[x]
+                elif x.full_title.lower().startswith('p') == True:
+                    global_parent_list_temp['p'][x] = global_parent_list[x]
+                elif x.full_title.lower().startswith('q') == True:
+                    global_parent_list_temp['q'][x] = global_parent_list[x]
+                elif x.full_title.lower().startswith('r') == True:
+                    global_parent_list_temp['r'][x] = global_parent_list[x]
+                elif x.full_title.lower().startswith('s') == True:
+                    global_parent_list_temp['s'][x] = global_parent_list[x]
+                elif x.full_title.lower().startswith('t') == True:
+                    global_parent_list_temp['t'][x] = global_parent_list[x]
+                elif x.full_title.lower().startswith('u') == True:
+                    global_parent_list_temp['u'][x] = global_parent_list[x]
+                elif x.full_title.lower().startswith('v') == True:
+                    global_parent_list_temp['v'][x] = global_parent_list[x]
+                elif x.full_title.lower().startswith('w') == True:
+                    global_parent_list_temp['w'][x] = global_parent_list[x]
+                elif x.full_title.lower().startswith('x') == True:
+                    global_parent_list_temp['y'][x] = global_parent_list[x]
+                elif x.full_title.lower().startswith('z') == True:
+                    global_parent_list_temp['z'][x] = global_parent_list[x]
+                else:
+                    global_parent_list_temp['other'][x] = global_parent_list[x]
 
-                                        if test1 == False and test2 == True:
-                                            # print('15. Removing: ' + x.full_title)
-                                            # print('Keeping: ' + y.full_title)
-                                            if x in parent_list: del parent_list[x]
-                                        elif test2 == False and test1 == True:
-                                            # print('16. Removing: ' + y.full_title)
-                                            # print('Keeping: ' + x.full_title)
-                                            if y in parent_list: del parent_list[y]
+            progress = 0
+            progress_total = 0
 
-                # Now mark all the clones
-                if len(parent_list) > 0:
-                    # print('Marking clone')
-                    for subtitle1 in regional_titles_data[title]:
-                        for subtitle2 in parent_list:
-                            if subtitle1.full_title != subtitle2.full_title:
-                                if subtitle1.rf_tag_strip_title == subtitle2.rf_tag_strip_title and subtitle1.rf_tag_strip_title != '' and subtitle2.rf_tag_strip_title != '':
-                                    subtitle1.cloneof = subtitle2.full_title
+            # Get the proper number of comparisons so we can accurately show percentage
+            for letter in global_parent_list_temp:
+                for x, y in itertools.combinations(global_parent_list_temp[letter], 2):
+                    progress_total += 1
+
+            for letter in global_parent_list_temp:
+                for x, y in itertools.combinations(global_parent_list_temp[letter], 2):
+                    progress += 1
+                    progress_percent = (progress/progress_total*100)
+
+                    sys.stdout.write("\033[K")
+                    print('  * Comparing parents across regions... ' + str(int(progress_percent)) + '%', sep='', end='\r', flush=True)
+                    if x.full_title != y.full_title:
+                        if x.rf_tag_strip_title == y.rf_tag_strip_title:
+                            for another_region in region_list_english + region_list_other:
+                                if another_region in x.full_title and another_region not in y.full_title:
+                                    if y in global_parent_list:
+                                        # print('Remove: ' + y.full_title)
+                                        # print('Keep: ' + x.full_title)
+                                        del global_parent_list[y]
+                                        break
+
+            print('  * Comparing parents across regions... done.')
+
+            # Now mark the remaining clones
+            print('  * Finding clones...', sep='', end='\r', flush=True)
+
+            if len(global_parent_list) > 0:
+                for title in all_titles_data:
+
+                    print('  * Finding clones... ', sep='', end='\r', flush=True)
+                    for x in all_titles_data[title]:
+                        for y in global_parent_list:
+                            if x.full_title != y.full_title and (x.cloneof == 'None' or y.cloneof == 'None'):
+                                if x.rf_tag_strip_title == y.rf_tag_strip_title and x.rf_tag_strip_title != '' and y.rf_tag_strip_title != '':
+                                    # print('C: ' + x.full_title)
+                                    # print('P: ' + y.full_title)
+                                    # input('<')
+                                    x.cloneof = y.full_title
                             else:
                                 break
+            print('  * Finding clones... done.')
     else:
         unique_regional_list = [x for x in regional_titles]
 
@@ -1096,8 +1147,9 @@ def convert_to_xml(region, unique_regional_titles, titles, user_input):
 
                 progress += 1
                 progress_percent = progress/progress_total*100
-                sys.stdout.write("\033[K")
-                print('  * Adding unique titles from ' + region + '... ' + str(int(progress_percent)) + '%', sep='', end='\r', flush=True)
+                if user_input.one_game_one_rom == False:
+                    sys.stdout.write("\033[K")
+                    print('  * Adding unique titles from ' + region + '... ' + str(int(progress_percent)) + '%', sep='', end='\r', flush=True)
     return final_title_xml
 
 # The actual file operations on the dat files
@@ -1187,9 +1239,6 @@ def process_dats(user_input, tag_strings, region_list_english, region_list_other
     print('|  URL: ' + dat_url)
     print('|  Version: ' + dat_version + '\n')
 
-    if user_input.one_game_one_rom == True:
-        print('* WARNING: Generating a CLRMAMEPro 1G1R dat can be slow depending\n  on how many regions and titles there are in a dat.\n')
-
     # Find out how many titles are in the dat file
     original_title_count = len(soup.find_all('game'))
 
@@ -1233,7 +1282,7 @@ def process_dats(user_input, tag_strings, region_list_english, region_list_other
             items.extract()
 
     sys.stdout.write("\033[K")
-    print('* Checking dat for titles in the following regions... done.')
+    print('* Checking dat for titles in known regions... done.')
 
     print('* Checking dat for titles without regions... ', sep=' ', end='', flush=True)
 
@@ -1264,6 +1313,8 @@ def process_dats(user_input, tag_strings, region_list_english, region_list_other
     else:
         if user_input.english_only == True:
             print('* Looking for English non-dupes...')
+        elif user_input.one_game_one_rom == True:
+            print('* Looking for parent titles...')
         else:
             print('* Looking for non-dupes...')
 
@@ -1322,16 +1373,19 @@ def process_dats(user_input, tag_strings, region_list_english, region_list_other
 
     # Find unique titles in each region and add their XML node
     parent_list = {}
-    title_compared = []
+    all_titles_data = {}
 
-    final_title_xml = add_titles(region_list_english + region_list_other, region_list_english, region_list_other, titles, unique_list, unique_regional_titles, dupe_list, user_input, parent_list, tag_strings)
+    final_title_xml = add_titles(region_list_english + region_list_other, region_list_english, region_list_other, titles, unique_list, unique_regional_titles, dupe_list, user_input, parent_list, tag_strings, all_titles_data)
 
-    unique_regional_titles['Unknown'] = localized_titles_unique('Unknown', region_list_english, region_list_other, titles['Unknown'], unique_list, unique_regional_titles, dupe_list, user_input, parent_list, tag_strings)
+    unique_regional_titles['Unknown'] = localized_titles_unique('Unknown', region_list_english, region_list_other, titles['Unknown'], unique_list, unique_regional_titles, dupe_list, user_input, parent_list, tag_strings, all_titles_data)
 
     # Find titles without regions
     if len(unique_regional_titles['Unknown']) > 1:
         unknown_region_title_count = len(unique_regional_titles['Unknown']['unique_titles'])
-        print('  * Adding titles without regions...', sep='', end='\r', flush=True)
+        if user_input.one_game_one_rom == True:
+            print('  * Adding parents without regions...', sep='', end='\r', flush=True)
+        else:
+            print('  * Adding titles without regions...', sep='', end='\r', flush=True)
 
         # Add titles to XML
         if user_input.split_regions_no_dupes == True or user_input.split_regions == True:
@@ -1340,7 +1394,10 @@ def process_dats(user_input, tag_strings, region_list_english, region_list_other
             final_title_xml += convert_to_xml('Unknown', unique_regional_titles, titles, user_input)
 
         sys.stdout.write("\033[K")
-        print('  * Adding titles without regions... done.')
+        if user_input.one_game_one_rom == True:
+            print('  * Adding parents without regions... done.')
+        else:
+            print('  * Adding titles without regions... done.')
     else:
         unknown_region_title_count = 0
 
