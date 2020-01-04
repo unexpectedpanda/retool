@@ -13,8 +13,8 @@ import time
 from lxml import etree
 from bs4 import BeautifulSoup, Doctype # For XML parsing
 
-if os.path.exists('_test.py'):
-    import _test as _renames
+if os.path.exists('_newtest.py'):
+    import _newtest as _renames
 else:
     import _renames # Dupes that have different names in different regions
 
@@ -735,13 +735,15 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
 
         # If the title doesn't already exist, add it to the regional_titles_data dictionary as a one entry list
         if regional_titles_data.get(raw_title, -1) == -1:
-            cloneofstr = cloneof(title, raw_title, regional_titles, unique_list, region, region_list_english, region_list_other, unique_regional_titles)
+            cloneofstr ='None'
+            # cloneofstr = cloneof(title, raw_title, regional_titles, unique_list, region, region_list_english, region_list_other, unique_regional_titles)
             regional_titles_data[raw_title] = [DatNode(str(title.category.parent['name']), region, title.category.contents[0], title.description.contents[0], newroms, cloneofstr, tag_strings)]
         # Otherwise there must be multiple discs or revisions present, so append the title to the existing list
         else:
             regional_titles_data[raw_title].append(DatNode(str(title.category.parent['name']), region, title.category.contents[0], title.description.contents[0], newroms, 'None', tag_strings))
             # Modify the clone entry
-            cloneofstr = cloneof(title, raw_title, regional_titles, unique_list, region, region_list_english, region_list_other, unique_regional_titles)
+            cloneofstr ='None'
+            # cloneofstr = cloneof(title, raw_title, regional_titles, unique_list, region, region_list_english, region_list_other, unique_regional_titles)
             regional_titles_data[raw_title][len(regional_titles_data.get(raw_title, -1)) - 1].cloneof = cloneofstr
 
     # Find the uniques
@@ -767,14 +769,16 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
             if x in regional_titles_data:
                 regional_titles_data_temp[x] = regional_titles_data[x]
 
-        regional_titles_data = regional_titles_data_temp
-
         # Create list to remove titles later that are OEM, and dupes with alternate languages
         remove_list = []
 
         # Create a complete dictionary of titles across regions
         for x in regional_titles_data:
-            all_titles_data[x] = regional_titles_data[x]
+            if x in all_titles_data:
+                for y in regional_titles_data[x]:
+                    all_titles_data[x].append(y)
+            else:
+                all_titles_data[x] = regional_titles_data[x]
 
         for title in regional_titles_data:
             for x, y in itertools.combinations(regional_titles_data[title], 2):
@@ -968,7 +972,9 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
                                     test = parent_compare_more(len(re.findall(',', re.findall('\(.*?' + region + '.*?\)', x.full_title)[0])), len(re.findall(',', re.findall('\(.*?' + region + '.*?\)', y.full_title)[0])), parent_list, already_tested, x, y)
                                     if test == True: continue
 
-                                    # Else if one supports English and the other doesn't, take it
+                                    # Else if one supports English and the other doesn't, take the English version
+                                    test = parent_compare_bool(bool('En' in x.languages), bool('En' in y.languages), parent_list, already_tested, x, y, '')
+                                    if test == True: continue
 
                                     # Else if one has more languages than the other, take it
                                     test = parent_compare_more(len(re.findall(',', str(re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv)\.*?)(,.*?\)|\)))', x.tag_strip_title)))), len(re.findall(',', str(re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv)\.*?)(,.*?\)|\)))', y.tag_strip_title)))), parent_list, already_tested, x, y)
@@ -988,119 +994,6 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
 
                 for x in parent_list:
                     global_parent_list[x] = parent_list[x]
-
-        # Compare the parents cross-region once we're at the last region in the list
-        if user_input.one_game_one_rom == True and region == (region_list_english + region_list_other)[-1]:
-
-            # Set the temp dictionary for global parent titles
-            global_parent_list_temp = {}
-
-            parent_list_chunk = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k',
-                        'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u',
-                        'v', 'w', 'x', 'y', 'z', 'other']
-
-            for x in parent_list_chunk:
-                global_parent_list_temp[x] = {}
-
-            for x in global_parent_list:
-                if x.full_title.lower().startswith('a') == True:
-                    global_parent_list_temp['a'][x] = global_parent_list[x]
-                elif x.full_title.lower().startswith('b') == True:
-                    global_parent_list_temp['b'][x] = global_parent_list[x]
-                elif x.full_title.lower().startswith('c') == True:
-                    global_parent_list_temp['c'][x] = global_parent_list[x]
-                elif x.full_title.lower().startswith('d') == True:
-                    global_parent_list_temp['d'][x] = global_parent_list[x]
-                elif x.full_title.lower().startswith('e') == True:
-                    global_parent_list_temp['e'][x] = global_parent_list[x]
-                elif x.full_title.lower().startswith('f') == True:
-                    global_parent_list_temp['f'][x] = global_parent_list[x]
-                elif x.full_title.lower().startswith('g') == True:
-                    global_parent_list_temp['g'][x] = global_parent_list[x]
-                elif x.full_title.lower().startswith('h') == True:
-                    global_parent_list_temp['h'][x] = global_parent_list[x]
-                elif x.full_title.lower().startswith('i') == True:
-                    global_parent_list_temp['i'][x] = global_parent_list[x]
-                elif x.full_title.lower().startswith('j') == True:
-                    global_parent_list_temp['j'][x] = global_parent_list[x]
-                elif x.full_title.lower().startswith('k') == True:
-                    global_parent_list_temp['k'][x] = global_parent_list[x]
-                elif x.full_title.lower().startswith('l') == True:
-                    global_parent_list_temp['l'][x] = global_parent_list[x]
-                elif x.full_title.lower().startswith('m') == True:
-                    global_parent_list_temp['m'][x] = global_parent_list[x]
-                elif x.full_title.lower().startswith('n') == True:
-                    global_parent_list_temp['n'][x] = global_parent_list[x]
-                elif x.full_title.lower().startswith('o') == True:
-                    global_parent_list_temp['o'][x] = global_parent_list[x]
-                elif x.full_title.lower().startswith('p') == True:
-                    global_parent_list_temp['p'][x] = global_parent_list[x]
-                elif x.full_title.lower().startswith('q') == True:
-                    global_parent_list_temp['q'][x] = global_parent_list[x]
-                elif x.full_title.lower().startswith('r') == True:
-                    global_parent_list_temp['r'][x] = global_parent_list[x]
-                elif x.full_title.lower().startswith('s') == True:
-                    global_parent_list_temp['s'][x] = global_parent_list[x]
-                elif x.full_title.lower().startswith('t') == True:
-                    global_parent_list_temp['t'][x] = global_parent_list[x]
-                elif x.full_title.lower().startswith('u') == True:
-                    global_parent_list_temp['u'][x] = global_parent_list[x]
-                elif x.full_title.lower().startswith('v') == True:
-                    global_parent_list_temp['v'][x] = global_parent_list[x]
-                elif x.full_title.lower().startswith('w') == True:
-                    global_parent_list_temp['w'][x] = global_parent_list[x]
-                elif x.full_title.lower().startswith('x') == True:
-                    global_parent_list_temp['y'][x] = global_parent_list[x]
-                elif x.full_title.lower().startswith('z') == True:
-                    global_parent_list_temp['z'][x] = global_parent_list[x]
-                else:
-                    global_parent_list_temp['other'][x] = global_parent_list[x]
-
-            progress = 0
-            progress_total = 0
-
-            # Get the proper number of comparisons so we can accurately show percentage
-            for letter in global_parent_list_temp:
-                for x, y in itertools.combinations(global_parent_list_temp[letter], 2):
-                    progress_total += 1
-
-            for letter in global_parent_list_temp:
-                for x, y in itertools.combinations(global_parent_list_temp[letter], 2):
-                    progress += 1
-                    progress_percent = (progress/progress_total*100)
-
-                    sys.stdout.write("\033[K")
-                    print('  * Comparing parents across regions... ' + str(int(progress_percent)) + '%', sep='', end='\r', flush=True)
-                    if x.full_title != y.full_title:
-                        if x.rf_tag_strip_title == y.rf_tag_strip_title:
-                            for another_region in region_list_english + region_list_other:
-                                if another_region in x.full_title and another_region not in y.full_title:
-                                    if y in global_parent_list:
-                                        # print('Remove: ' + y.full_title)
-                                        # print('Keep: ' + x.full_title)
-                                        del global_parent_list[y]
-                                        break
-
-            print('  * Comparing parents across regions... done.')
-
-            # Now mark the remaining clones
-            print('  * Finding clones...', sep='', end='\r', flush=True)
-
-            if len(global_parent_list) > 0:
-                for title in all_titles_data:
-
-                    print('  * Finding clones... ', sep='', end='\r', flush=True)
-                    for x in all_titles_data[title]:
-                        for y in global_parent_list:
-                            if x.full_title != y.full_title and (x.cloneof == 'None' or y.cloneof == 'None'):
-                                if x.rf_tag_strip_title == y.rf_tag_strip_title and x.rf_tag_strip_title != '' and y.rf_tag_strip_title != '':
-                                    # print('C: ' + x.full_title)
-                                    # print('P: ' + y.full_title)
-                                    # input('<')
-                                    x.cloneof = y.full_title
-                            else:
-                                break
-            print('  * Finding clones... done.')
     else:
         unique_regional_list = [x for x in regional_titles]
 
@@ -1371,35 +1264,184 @@ def process_dats(user_input, tag_strings, region_list_english, region_list_other
     elif dat_name == 'Sony - PlayStation Portable':
         dupe_list = _renames.psp_rename_list()
 
-    # Find unique titles in each region and add their XML node
-    parent_list = {}
+    # Find unique parents in each region
+    global_parent_list = {}
     all_titles_data = {}
 
-    final_title_xml = add_titles(region_list_english + region_list_other, region_list_english, region_list_other, titles, unique_list, unique_regional_titles, dupe_list, user_input, parent_list, tag_strings, all_titles_data)
+    for region in region_list_english + region_list_other:
+        if titles[region] != []:
+            if user_input.one_game_one_rom == True:
+                print('  * Adding parents from ' + region + '...', sep='', end='\r', flush=True)
+            else:
+                print('  * Adding titles from ' + region + '...', sep='', end='\r', flush=True)
+        unique_regional_titles[region] = localized_titles_unique(region, region_list_english, region_list_other, titles[region], unique_list, unique_regional_titles, dupe_list, user_input, global_parent_list, tag_strings, all_titles_data)
+        if titles[region] != []:
+            if user_input.one_game_one_rom == True:
+                print('  * Adding parents from ' + region + '... done.')
+            else:
+                print('  * Adding titles from ' + region + '... done.')
 
-    unique_regional_titles['Unknown'] = localized_titles_unique('Unknown', region_list_english, region_list_other, titles['Unknown'], unique_list, unique_regional_titles, dupe_list, user_input, parent_list, tag_strings, all_titles_data)
+    unique_regional_titles['Unknown'] = localized_titles_unique('Unknown', region_list_english, region_list_other, titles['Unknown'], unique_list, unique_regional_titles, dupe_list, user_input, global_parent_list, tag_strings, all_titles_data)
 
-    # Find titles without regions
-    if len(unique_regional_titles['Unknown']) > 1:
-        unknown_region_title_count = len(unique_regional_titles['Unknown']['unique_titles'])
-        if user_input.one_game_one_rom == True:
-            print('  * Adding parents without regions...', sep='', end='\r', flush=True)
-        else:
-            print('  * Adding titles without regions...', sep='', end='\r', flush=True)
+    # Compare the parents cross-region once we're at the last region in the list
+    if user_input.one_game_one_rom == True:
+        # Set the temp dictionary for global parent titles
+        global_parent_list_temp = {}
 
-        # Add titles to XML
-        if user_input.split_regions_no_dupes == True or user_input.split_regions == True:
-            final_title_xml['Unknown'] = convert_to_xml('Unknown', unique_regional_titles, titles, user_input)
-        else:
-            final_title_xml += convert_to_xml('Unknown', unique_regional_titles, titles, user_input)
+        parent_list_chunk = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k',
+                    'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u',
+                    'v', 'w', 'x', 'y', 'z', 'other']
 
-        sys.stdout.write("\033[K")
-        if user_input.one_game_one_rom == True:
-            print('  * Adding parents without regions... done.')
-        else:
-            print('  * Adding titles without regions... done.')
-    else:
-        unknown_region_title_count = 0
+        for x in parent_list_chunk:
+            global_parent_list_temp[x] = {}
+
+        for x in global_parent_list:
+            if x.full_title.lower().startswith('a') == True:
+                global_parent_list_temp['a'][x] = global_parent_list[x]
+            elif x.full_title.lower().startswith('b') == True:
+                global_parent_list_temp['b'][x] = global_parent_list[x]
+            elif x.full_title.lower().startswith('c') == True:
+                global_parent_list_temp['c'][x] = global_parent_list[x]
+            elif x.full_title.lower().startswith('d') == True:
+                global_parent_list_temp['d'][x] = global_parent_list[x]
+            elif x.full_title.lower().startswith('e') == True:
+                global_parent_list_temp['e'][x] = global_parent_list[x]
+            elif x.full_title.lower().startswith('f') == True:
+                global_parent_list_temp['f'][x] = global_parent_list[x]
+            elif x.full_title.lower().startswith('g') == True:
+                global_parent_list_temp['g'][x] = global_parent_list[x]
+            elif x.full_title.lower().startswith('h') == True:
+                global_parent_list_temp['h'][x] = global_parent_list[x]
+            elif x.full_title.lower().startswith('i') == True:
+                global_parent_list_temp['i'][x] = global_parent_list[x]
+            elif x.full_title.lower().startswith('j') == True:
+                global_parent_list_temp['j'][x] = global_parent_list[x]
+            elif x.full_title.lower().startswith('k') == True:
+                global_parent_list_temp['k'][x] = global_parent_list[x]
+            elif x.full_title.lower().startswith('l') == True:
+                global_parent_list_temp['l'][x] = global_parent_list[x]
+            elif x.full_title.lower().startswith('m') == True:
+                global_parent_list_temp['m'][x] = global_parent_list[x]
+            elif x.full_title.lower().startswith('n') == True:
+                global_parent_list_temp['n'][x] = global_parent_list[x]
+            elif x.full_title.lower().startswith('o') == True:
+                global_parent_list_temp['o'][x] = global_parent_list[x]
+            elif x.full_title.lower().startswith('p') == True:
+                global_parent_list_temp['p'][x] = global_parent_list[x]
+            elif x.full_title.lower().startswith('q') == True:
+                global_parent_list_temp['q'][x] = global_parent_list[x]
+            elif x.full_title.lower().startswith('r') == True:
+                global_parent_list_temp['r'][x] = global_parent_list[x]
+            elif x.full_title.lower().startswith('s') == True:
+                global_parent_list_temp['s'][x] = global_parent_list[x]
+            elif x.full_title.lower().startswith('t') == True:
+                global_parent_list_temp['t'][x] = global_parent_list[x]
+            elif x.full_title.lower().startswith('u') == True:
+                global_parent_list_temp['u'][x] = global_parent_list[x]
+            elif x.full_title.lower().startswith('v') == True:
+                global_parent_list_temp['v'][x] = global_parent_list[x]
+            elif x.full_title.lower().startswith('w') == True:
+                global_parent_list_temp['w'][x] = global_parent_list[x]
+            elif x.full_title.lower().startswith('x') == True:
+                global_parent_list_temp['y'][x] = global_parent_list[x]
+            elif x.full_title.lower().startswith('z') == True:
+                global_parent_list_temp['z'][x] = global_parent_list[x]
+            else:
+                global_parent_list_temp['other'][x] = global_parent_list[x]
+
+        progress = 0
+        progress_total = 0
+
+        # Get the proper number of parent comparisons so we can accurately show percentage
+        for letter in global_parent_list_temp:
+            for x, y in itertools.combinations(global_parent_list_temp[letter], 2):
+                progress_total += 1
+
+        for letter in global_parent_list_temp:
+            for x, y in itertools.combinations(global_parent_list_temp[letter], 2):
+                progress += 1
+                progress_percent = (progress/progress_total*100)
+
+                sys.stdout.write("\033[K")
+                print('  * Comparing parents across regions... ' + str(int(progress_percent)) + '%', sep='', end='\r', flush=True)
+                if x.full_title != y.full_title:
+                    if x.rf_tag_strip_title == y.rf_tag_strip_title:
+                        for another_region in region_list_english + region_list_other:
+                            if another_region in x.full_title and another_region not in y.full_title:
+                                if y in global_parent_list:
+                                    # print('Remove: ' + y.full_title)
+                                    # print('Keep: ' + x.full_title)
+                                    del global_parent_list[y]
+                                    break
+
+        print('  * Comparing parents across regions... done.')
+
+        progress = 0
+        progress_total = len(all_titles_data)
+
+        # Now mark the remaining clones
+        if len(global_parent_list) > 0:
+            for title in all_titles_data:
+                print('* Finding clones... ', sep='', end='\r', flush=True)
+                progress += 1
+                progress_percent = (progress/progress_total*100)
+
+                sys.stdout.write("\033[K")
+                print('* Finding clones... ' + str(int(progress_percent)) + '%', sep='', end='\r', flush=True)
+                for x in all_titles_data[title]:
+                    for y in global_parent_list:
+                        if x.full_title != y.full_title:
+                            if x.rf_tag_strip_title == y.rf_tag_strip_title and x.rf_tag_strip_title != '' and y.rf_tag_strip_title != '':
+                                # print('C: ' + x.full_title)
+                                # print('P: ' + y.full_title)
+                                x.cloneof = y.full_title
+                        else:
+                            break
+
+            # Look up the dupe list raw title entries
+            for key, value in dupe_list.items():
+                for title in all_titles_data:
+                    for x in all_titles_data[title]:
+                        if key == x.rf_tag_strip_title and x.cloneof == 'None':
+                            # x.full_title is the parent title
+                            # Now find the full titles of the raw clone titles
+                            for y in value:
+                                for z in all_titles_data:
+                                    for a in all_titles_data[z]:
+                                        if a.rf_tag_strip_title == y:
+                                            clone_title = a.full_title
+                                            # print('Full clone title: ' + a.full_title)
+                                            a.cloneof = x.full_title
+
+        print('* Finding clones... done.')
+
+        # Convert to XML
+        print('* Converting to XML...', sep='', end='\r', flush=True)
+
+        progress = 0
+        progress_total = len(all_titles_data)
+
+        for title in all_titles_data:
+            progress += 1
+            progress_percent = (progress/progress_total*100)
+
+            sys.stdout.write("\033[K")
+            print('* Converting to XML... ' + str(int(progress_percent)) + '%', sep='', end='\r', flush=True)
+            for subtitle in all_titles_data[title]:
+                if subtitle.cloneof == 'None':
+                    final_title_xml += '\t<game name="' + html.escape(subtitle.full_title) + '">'
+                else:
+                    final_title_xml += '\t<game name="' + html.escape(subtitle.full_title) + '" cloneof="' + html.escape(subtitle.cloneof) + '">'
+                final_title_xml += '\n\t\t<category>' + html.escape(subtitle.category) + '</category>'
+                final_title_xml += '\n\t\t<description>' + html.escape(subtitle.description) + '</description>'
+                if user_input.one_game_one_rom == True:
+                    final_title_xml += '\n\t\t<release name="' + html.escape(subtitle.description) + '" region="' + subtitle.regions + '"/>'
+
+                for rom in subtitle.roms:
+                    final_title_xml += '\n\t\t<rom crc="' + rom.crc + '" md5="' + rom.md5 + '" name="' + html.escape(rom.name) + '" sha1="' + rom.sha1 + '" size="' + rom.size + '"/>'
+                final_title_xml += '\n\t</game>\n'
+
+        print('* Converting to XML... done.')
 
     # Stats so people can see something was done
     new_title_count = 0
