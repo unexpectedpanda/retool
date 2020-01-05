@@ -1,7 +1,7 @@
 # An easier way to visualize parent/clone relationships in a Redump 1G1R dat
 # Used to verify the output of Retool.
 
-# There isn't much user-proofing in here, it's rough and only intended to
+# There isn't much error checking in here, it's rough and only intended to
 # work for a limited use case.
 
 import lxml
@@ -153,9 +153,6 @@ def main():
             print('* Outputting to "' + font.bold + input_file_name + '.xlsx"' + font.end + '...')
             wb.save(input_file_name + '.xlsx')
             print('\nDone!')
-
-
-
 
 ############### Classes and methods ###############
 # Console text formatting
