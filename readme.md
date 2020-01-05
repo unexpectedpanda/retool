@@ -1,5 +1,6 @@
 # Retool
-Retool dedupes [Redump](http://redump.org/) dats. This is not an official
+Retool creates 1G1R versions of [Redump](http://redump.org/) dats, effectively
+deduping them by marking titles as parents or clones. This is not an official
 Redump project.
 
 ## Installation
@@ -14,7 +15,7 @@ with `pip`.
 You'll need to install two modules with `pip` before using _Retool_. To do so,
 open Terminal, Command Prompt, or whatever the CLI is on your system, and type:
 
-```python
+```
 pip install bs4
 pip install lxml
 ```
@@ -37,6 +38,7 @@ Or for the binary version:
 `python3`. You might need to run this instead of `python`.
 
 ## Options
+* `-1` Generate a CLRMAMEPro 1G1R dat
 * `-en` Only include English titles
 * `-a` Remove applications
 * `-d` Remove demos and coverdiscs
@@ -47,15 +49,16 @@ Or for the binary version:
 * `-p` Remove betas and prototypes
 * `-r` Split dat into regional dats
 * `-s` Split dat into regional dats, don't dedupe
-* `-1` Generate a CLRMAMEPro 1G1R dat
 
 ## How it works
-There are multiple stages for eliminating dupes.
+There are multiple stages for determining which title is a parent, and which is
+a clone.
 
 ### By region
 The input dat is split into regions, then each region is processed in a
 specific order. Each region cannot include titles that are in the regions
-that precede it. The USA version of a title is usually considered canonical.
+that precede it; if it does, it is marked as a clone. The USA version of a
+title is usually considered canonical.
 
 Regions are parsed in the following order:
 
@@ -123,7 +126,7 @@ sets are also handled. The rules are complex:
 - If one title is in English, but the other isn't, keep the English version.
 - If one title from Europe has no languages listed, and the other has
   languages listed but English isn't one of them, keep the title with no
-  languages listed (on the assumption that English may be in there).
+  languages listed (on the assumption that English is likely in there).
 - If English is listed for both titles, and one title has more languages,
   take the title with more languages.
 - If English is listed for both titles, and both titles have the same number
@@ -148,7 +151,7 @@ sets are also handled. The rules are complex:
 
 ## FAQs
 #### How did you figure out what the dupes were?
-I went through each dat for titles that weren't tagged as USA. I then used
+I went through each dat's titles. I then used
 [Wikipedia](https://www.wikipedia.org),
 [Moby Games](https://www.mobygames.com),
 [Retroplace](https://www.retroplace.com), [GameTDB](https://www.gametdb.com),
@@ -161,7 +164,7 @@ titles. Later in the process I discovered
 [FilterQuest](https://github.com/UnluckyForSome/FilterQuest), a similar tool,
 and added some missing titles from there.
 
-#### Does this create a dat for the perfect 1G1R Redump set?
+#### Does this create perfect 1G1R Redump dat?
 Unlikely. There are bound to be false positives as a result of bad assumptions,
 and titles I've missed. But it'll get you a lot closer than the default Redump
 set.
@@ -186,7 +189,7 @@ If Redump missed tagging titles from regions where English isn't the region's
 first language (for example, Japan), those titles won't be included if you've
 set the `-en` flag.
 
-#### Will remove titles that have the same name in different regions, regardless of which version is better, or unique content
+#### Will mark titles as dupes that have the same name in different regions, regardless of which version is better, or unique content
 For example, some versions of singing titles have additional local tracks, but
 because they share the same name, only one version of the title will be
 kept. Likewise, if a title from Europe has more content than its equivalent
@@ -199,7 +202,34 @@ At this stage it's unclear which of these are the newest version:
 * Title (v1.1)
 * Title (Rerelease)
 
-Is the rerelease of 1.1? Is it of the original? Redump doesn't make this choice
-easy as it doesn't version all titles. As such, rereleases are still included
-and may be dupes. Sometimes, titles that were originally released on multiple
-CDs were later released on DVD, which makes things harder to work with again.
+Is the rerelease of version 1.1? Is it of the original? Is it a newer version
+than both? Does it have extra content? Redump doesn't make this clear as it
+doesn't version all titles. Sometimes, titles that were originally released
+on multiple CDs were later released on DVD, which can only be determined by
+ISO size.
+
+As such, rereleases are currently marked as clones.
+
+# Clonerel
+A small tool to help more easily visualize parent/clone relationships, to track
+down titles that haven't been assigned parents yet. Exports an Excel file.
+
+
+## Installation
+Clonerel uses openpyxl to generate an Excel file. Install it with `pip`.
+
+```
+pip install openpyxl
+```
+
+If you haven't already installed them for Retool, you'll need lxml and bs4 as well.
+
+```
+pip install bs4
+pip install lxml
+```
+
+## Usage
+```
+python clonerel.py <input dat>
+```

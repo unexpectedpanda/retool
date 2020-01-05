@@ -13,8 +13,8 @@ import time
 from lxml import etree
 from bs4 import BeautifulSoup, Doctype # For XML parsing
 
-if os.path.exists('_newtest.py'):
-    import _newtest as _renames
+if os.path.exists('_test.py'):
+    import _test as _renames
 else:
     import _renames # Dupes that have different names in different regions
 
@@ -1535,7 +1535,12 @@ def process_dats(user_input, tag_strings, region_list_english, region_list_other
         print('-  Clones identified: ' + str('{:,}'.format(clone_count)))
 
     print(font.bold + '---------------------------')
-    print('=  New title count: ' + str('{:,}'.format(new_title_count)) + font.end + '\n')
+    if user_input.one_game_one_rom == False:
+        print('=  New title count: ' + str('{:,}'.format(new_title_count)) + font.end + '\n')
+    else:
+        print('=  New title count: ' + str('{:,}'.format(new_title_count)) + font.end)
+        print('   Parents: ' + str('{:,}'.format(new_title_count - clone_count)))
+        print('   Clones: ' + str('{:,}'.format(clone_count)) + '\n')
 
     # Set up final output filename and dat header strings
     if user_input.file_output != '':

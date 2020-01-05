@@ -1042,6 +1042,8 @@ def saturn_rename_list():
 # Sony PlayStation
 def psx_rename_list():
     return {
+        # Compilations
+        # Simple 1500 Series Vol. 75 - The Double Shooting - RayStorm x RayCrisis
         '007 - The World Is Not Enough': [
             '007 - Die Welt Ist Nicht Genug',
             '007 - El Mundo Nunca es Suficiente',
@@ -1578,32 +1580,65 @@ def psx_rename_list():
             'Tetris Magiska Utmaning',
             ],
 		'Marble Master': ['Swing'],
-		'Mary King\'s Riding Star': ['Lussan Nathhorst Presenterar Riding Star'],
-		'MechWarrior 2 - 31st Century Combat - Arcade Combat Edition': [
+        'Marvel Super Heroes vs. Street Fighter': ['Marvel Super Heroes vs. Street Fighter - EX Edition'], # (マーヴル・スーパーヒーローズVS.ストリートファイター EX EDITION)
+        'Marvel vs. Capcom - Clash of Super Heroes': ['Marvel vs. Capcom - Clash of Super Heroes - EX Edition'], # (マーヴルVS.カプコンクラッシュオブスーパーヒーローズEX EDITION)
+        'Mary King\'s Riding Star': ['Lussan Nathhorst Presenterar Riding Star'],
+        'Master of Monsters - Disciples of Gaia': ['Master of Monsters - Akatsuki no Kenja Tachi'], # (マスター・オブ・モンスターズ～暁の賢者達～)
+        'MechWarrior 2 - 31st Century Combat - Arcade Combat Edition': [
             'MechWarrior 2 - Combat au 31ieme Siecle',
             'MechWarrior 2 - Kampfspiel des 31. Jahrhunderts - Arcade Combat Edition',
             ],
 		'Medal of Honor - Underground': ['Medal of Honor - Resistance'],
-		'MediEvil II': ['MediEvil 2'],
-		'Mega Man X3': ['Rockman X3'],
-		'Megaman - Battle & Chase': ['Rockman - Battle & Chase'],
-		'Metal Gear Solid - Integral': [
+        'MediEvil': ['MediEvil - Yomigaetta Gallowmere no Yuusha'], # (メディーバル　～甦ったガロメアの勇者～)
+        'MediEvil II': ['MediEvil 2'],
+        'Megaman - Battle & Chase': ['Rockman - Battle & Chase'], # (ロックマン バトル＆チェイス)
+        'Mega Man 8': ['Rockman 8 - Metal Heroes'], # (ロックマン8 メタルヒーローズ)
+        'Mega Man Legends': ['Rockman Dash - Hagane no Boukenshin'], # (ロックマンＤＡＳＨ　～鋼の冒険心～)
+        'Mega Man Legends 2': ['Rockman Dash 2 - Episode 2 - Ooinaru Isan'], # (ロックマン DASH 2 エピソード2 大いなる遺産)
+        'Mega Man X3': ['Rockman X3'], # (ロックマンX3)
+        'Mega Man X4': ['Rockman X4'], # (ロックマンX4)
+        'Mega Man X5': ['Rockman X5'], # (ロックマンX5)
+        'Mega Man X6': ['Rockman X6'], # (ロックマンX6)
+        'Metal Gear Solid - Integral': [
             'Metal Gear Solid - Special Missions',
             'Metal Gear Solid - VR Missions',
             ],
-		'Mickey\'s Wild Adventure': ['Topolino e le Sue Avventure'],
-		'Mike Tyson Boxing': ['Prince Naseem Boxing'],
-		'Monaco Grand Prix': [
+        'Metal Slug X': ['Metal Slug X - Super Vehicle-001'], # (メタルスラッグX SUPER VEHICLE-001)
+        'Mickey\'s Wild Adventure': ['Topolino e le Sue Avventure'],
+        'Micro Machines V3': ['Micro Machines'], # (マイクロ・マシーンズ)
+        'Mike Tyson Boxing': ['Prince Naseem Boxing'],
+        'Misadventures of Tron Bonne, The': ['Tron ni Kobun'], # (トロンにコブン)
+        'Mobile Armor': ['Simple 1500 Series Vol. 90 - The Sensha'], # (SIMPLE1500シリーズ Vol.90 THE 戦車)
+        'Mobile Light Force': ['Gunbird'], # (ガンバード)
+        'Monaco Grand Prix': [
             'Monaco Grand Prix Racing Simulation 2',
             'Racing Simulation 2',
             ],
-		'Motor Toon Grand Prix': ['Motor Toon Grand Prix 2'],
+        'Monster Bass': ['Killer Bass'], # (キラーバス)
+        'Monster Rancher': ['Monster Farm'], # (モンスターファーム)
+        'Monster Rancher 2': ['Monster Farm 2'], # (モンスターファーム2)
+        'Monster Rancher Battle Card - Episode II': ['Monster Farm Battle Card'], # (モンスターファーム バトルカード)
+        'Monster Rancher Hop-A-Bout': ['Monster Farm Jump'], # (モンスターファームジャンプ)
+		'Motor Toon Grand Prix': [
+            'Motor Toon Grand Prix 2',
+            'Motor Toon Grand Prix - USA Edition', # (モータートゥーン・グランプリ USAエディション)
+            ],
 		'MTV Music Generator': ['Music 2000'],
 		'N2O - Nitrous Oxide': ['N2O'],
+        'Nagano Winter Olympics \'98': ['Hyper Olympic in Nagano'], # (ハイパーオリンピック イン ナガノ)
 		'Namco Soccer Prime Goal': ['J. League Soccer - Prime Goal EX'],
 		'Namco Tennis Smash Court': ['Smash Court'], # (スマッシュコート)
-		'NBA in the Zone \'98': ['NBA Pro 98'],
-		'NBA in the Zone \'99': ['NBA Pro 99'],
+		'NBA in the Zone': ['NBA Power Dunkers'], # (ＮＢＡ　パワーダンカーズ)
+        'NBA in the Zone 2': ['NBA Power Dunkers 2'], # (ＮＢＡ パワーダンカーズ2)
+        'NBA in the Zone 2000': ['NBA Power Dunkers 5'], # (ＮＢＡ パワーダンカーズ3)
+        'NBA in the Zone \'98': [
+            'NBA Power Dunkers 3', # (ＮＢＡ パワーダンカーズ4)
+            'NBA Pro 98',
+            ],
+		'NBA in the Zone \'99': [
+            'NBA Power Dunkers 4', # (ＮＢＡ パワーダンカーズ5)
+            'NBA Pro 99',
+            ],
 		'NBA Shootout': ['Total NBA \'96'],
 		'NBA Shootout \'97': ['Total NBA \'97'],
 		'NBA Shooutout 98': ['Total NBA 98'],
@@ -1614,11 +1649,17 @@ def psx_rename_list():
             'Necronomicon - L\'Aube des Tenebres',
             'Necronomicon - O Despertar das Trevas',
             ],
-		'Need for Speed - High Stakes': ['Need for Speed - Road Challenge'],
+		'Need for Speed - High Stakes': [
+            'Need for Speed - Road Challenge',
+            'Over Drivin\' IV', # (オーバードライビンIV)
+            ],
+        'Need for Speed II': ['Over Drivin\' II'], # (オーバードライビンII)
+        'Need for Speed III - Hot Pursuit': ['Over Drivin\' III - Hot Pursuit'], # (オーバードライビンⅢ)
 		'Need for Speed - Porsche Unleashed': ['Need for Speed - Porsche 2000'],
 		'Need for Speed - V-Rally': ['V-Rally - 97 Championship Edition'],
 		'Need for Speed - V-Rally 2': ['V-Rally - Championship Edition 2'],
-		'NHL Powerplay \'96': ['NHL Powerplay'],
+		'NHL Face Off \'97': ['NHL PowerRink \'97'], # (NHLパワーリンク'97)
+        'NHL Powerplay \'96': ['NHL Powerplay'],
 		'Nickelodeon Rocket Power - Team Rocket Rescue': ['Nickelodeon Rocket Power - Sauvetage Extreme'],
 		'Nickelodeon Rugrats - Search for Reptar': [
             'Nickelodeon Les Razmoket - A la Recherche de Reptar',
@@ -1638,22 +1679,47 @@ def psx_rename_list():
             ],
 		'Ninja - Shadow of Darkness': ['Ninja - L\'Ombre des Tenebres'],
 		'No Fear Downhill Mountain Bike Racing': ['No Fear Downhill Mountain Biking'],
+        'No One Can Stop Mr. Domino': ['Domino-kun o Tomenaide'], # (ドミノ君をとめないで。)
 		'Noddy\'s Magic Adventure': ['Noddy - Una Aventura Magica'],
 		'Norse by Norsewest - The Return of the Lost Vikings': ['Lost Vikings 2 - Norse by Norsewest'],
 		'Note, The': ['Koukai Sarenakatta Shuki'], # (公開されなかった手記)
-		'Oddworld - Abe\'s Exodus': ['Oddworld - L\'Exode d\'Abe'],
-		'Oddworld - Abe\'s Oddysee': ['Oddworld - L\'Odyssee d\'Abe'],
-		'Olympic Summer Games': ['Olympic Games'],
+		'Oddworld - Abe\'s Exoddus (Disc 1)': [
+            'Abe \'99 (Disc 1)', # (エイブ’９９)
+            'Oddworld - L\'Exode d\'Abe (Disc 1)',
+            ],
+        'Oddworld - Abe\'s Exoddus (Disc 2)': [
+            'Abe \'99 (Disc 2)', # (エイブ’９９)
+            'Oddworld - L\'Exode d\'Abe (Disc 2)',
+            ],
+		'Oddworld - Abe\'s Oddysee': [
+            'Abe a GoGo', # (エイブ・ア・ゴーゴー)
+            'Oddworld - L\'Odyssee d\'Abe',
+            ],
+		'Ogre Battle - Limited Edition': ['Densetsu no Ogre Battle'], # (伝説のオウガバトル)
+        'Olympic Summer Games': ['Olympic Games'],
 		'Onside Complete Soccer': ['Complete Soccer Onside'], # (ＣＯＭＰＬＥＴＥ　ＳＯＣＣＥＲ　ｏｎｓｉｄｅ)
 		'Pac-Man World - 20th Anniversary': ['Pac-Man World 20th Anniversary'],
 		'Pajama Sam - You Are What You Eat from Your Head to Your Feet': [
             'Pyjama Sam - Heros du Gouter',
             'Pyjama Sam - Suessigkeiten kriegen Saures',
             ],
-		'Paradise Casino': ['Nice Price Series Vol. 09 - Paradise Casino'], # (ＮＩＣＥ　ＰＲＩＣＥシリーズ Ｖｏｌ．９　～パラダイスカジノ～)
+		'Pandemonium!': ['Magical Hoppers'], # (マジカルホッパーズ)
+        'Pandemonium 2': ['Miracle Jumpers'], # (ミラクルジャンパーズ)
+        'Paradise Casino': ['Nice Price Series Vol. 09 - Paradise Casino'], # (ＮＩＣＥ　ＰＲＩＣＥシリーズ Ｖｏｌ．９　～パラダイスカジノ～)
 		'PaRappa the Rapper': ['PaRappa the Rapper - The Hip Hop Hero'],
 		'Parodius': ['Gokujou Parodius Da! Deluxe Pack'], # (極上パロディウスだ！　ＤＥＬＵＸＥ　ＰＡＣＫ)
-		'Penny Racers': ['Choro Q'], # (チョロQ)
+		'Peak Performance': ['Touge Max - Saisoku Drift Master'], # (峠ＭＡＸ　～最速・ドリフト・マスター～)
+        'Penny Racers': ['Choro Q'], # (チョロQ)
+        'Perfect Weapon': ['Body Hazard'], # (ボデ・ィハザード)
+        'Persona': ['Megami Ibunroku Persona - Be Your True Mind'], # (女神異聞録 ～ペルソナ～)
+        'Persona 2 - Eternal Punishment': [
+            'Persona 2 - Batsu - Eternal Punishment (Disc 1)', # (ペルソナ２　罰)
+            'Persona 2 - Batsu - Eternal Punishment (Disc 1) (Deluxe Pack)', # (ペルソナ２　罰)
+            ],
+        'Persona 2 - Eternal Punishment (Bonus Disc)': [
+            'Persona 2 - Batsu - Eternal Punishment (Disc 2) (Sumaru TV Special Preview Disc)', # (ペルソナ２　罰)
+            'Persona 2 - Batsu - Eternal Punishment (Disc 2) (Sumaru TV Special Preview Disc) (Deluxe Pack)', # (ペルソナ２　罰)
+            ],
 		'Pet in TV': [
             'Ganbare Morikawa-kun 2-gou', # (がんばれ森川君２号)
             'Pet in TV - Ton Nouveau Meilleur Ami!',
@@ -1671,7 +1737,10 @@ def psx_rename_list():
             'Disneys Peter Pan - Eventyr pa Onskeoen',
             'Disneys Peter Pan - Rueckkehr nach Nimmerland',
             ],
-		'Pinball Power': ['SuperLite 1500 Series - Pinball - Golden Logres'], # (SuperLite 1500 シリーズ ピンボール ゴールデンログレス)
+		'Phix - The Adventure': ['Jishaku de Tonjau! Phix no Daibouken'], # (磁石で飛んじゃう！？ ピックスの大冒険)
+        'Pinball Power': ['SuperLite 1500 Series - Pinball - Golden Logres'], # (SuperLite 1500 シリーズ ピンボール ゴールデンログレス)
+        'Pink Panther - Pinkadelic Pursuit': ['Simple 1500 Series Vol. 104 - The Pink Panther - Pinkadelic Pursuit'], # (SIMPLE1500シリーズ Vol.104 THE ピンクパンサー Pinkadelic Pursuit)
+        'Pinobee': ['Pinobee no Daibouken ~ Pinobee - Quest of Heart'], # (ピノビィーの大冒険)
 		'Pipe Dreams 3D': ['Pipe Mania 3D'],
 		'Play with the Teletubbies': [
             'Gioca con i Teletubbies',
@@ -1690,15 +1759,29 @@ def psx_rename_list():
             'Player Manager - Epoca 98-99',
             'Player Manager Novanta Nove',
             ],
+        'Point Blank 2': ['Gunbarl'], # (ガンバァール)
+        'Point Blank 3': ['Gunbalina'], # (ガンバリィーナ)
 		'Pong - The Next Level': ['Pong'],
+        'Pool Hustler': ['Doukyuu - Billiard Master'], # (撞球　ビリヤードマスター)
 		'Popstar Maker': [
             '100% Star',
             'Newcomer - Become a Popstar',
             ],
-		'Power Shovel': ['Power Diggerz'],
+		'Power Shovel': [
+            'Power Diggerz',
+            'Power Shovel ni Norou!!', # (パワーショベルに乗ろう！！)
+            'Simple 1500 Series Vol. 89 - The Power Shovel ni Norou!!', # (ＳＩＭＰＬＥ１５００シリーズ　Ｖｏｌ．８９　ＴＨＥ　パワーショベルに乗ろう！！)
+            ],
 		'Power Spike - Pro Beach Volleyball': ['Beach Volleyball'],
-		'Power Serve 3D Tennis': ['Power Serve'],
-		'Powerslave': ['Exhumed'],
+		'Power Serve 3D Tennis': [
+            'Power Serve',
+            'Ground Stroke - Advanced Tennis Game', # (グランド・ストローク アドバンスド テニス ゲーム)
+            ],
+		'Powerslave': [
+            'Exhumed',
+            'Seireki 1999 - Pharaoh no Fukkatsu', # (西暦１９９９　～ファラオの復活～)
+            ],
+        'Poy Poy': ['Poitters\' Point'], # (ポイッターズ ポイント)
 		'Poy Poy 2': ['Poitter\'s Point 2 - Sodom no Inbou'], # (ポイッターズポイント２　～ソドムの陰謀～)
 		'Premier Manager Ninety Nine': ['Premier Manager Novanta Nove'],
 		'Premier Manager 2000': [
@@ -1708,19 +1791,38 @@ def psx_rename_list():
 		'Pro-Pinball': ['Pro Pinball - The Web'],
 		'Pro Backgammon': ['Backgammon'], # (バックギャモン)
 		'Professional Underground League of Pain': ['Riot'],
+        'Project - Horned Owl': ['Horned Owl'], # (ホーンドアウル)
+        'Punky Skunk': ['Cooly Skunk'], # (クーリー・スカンク)
+        'Putter Golf': ['Simple 1500 Series Vol. 69 - The Putter Golf'], # (SIMPLE1500シリーズ Vol.69 THE パターゴルフ)
 		'Puzzle Star Sweep': ['StarSweep'],
+        'Qix Neo': ['Simple 1500 Series Vol. 80 - The Jintori'], # (SIMPLE1500シリーズ Vol.80 THE 陣取り)
 		'R4 - Ridge Racer Type 4': ['Ridge Racer Type 4'],
-		'Racing': ['Pro Racer'],
+		'Racing': [
+            'Pro Racer',
+            'Simple 1500 Series Vol. 13 - The Race', # (SIMPLE1500シリーズ Vol.13 THE レース)
+            ],
 		'Rapid Reload': ['Gunners Heaven'], # (ガンナーズヘヴン)
 		'Rat Attack!': ['Rat Attack'],
 		'RayCrisis - Series Termination': ['RayCrisis'],
 		'Razor Freestyle Scooter': ['Freestyle Scooter'],
 		'Razor Racing': ['Scooter Racing'],
+        'RC de Go!': ['Simple 1500 Series Vol. 68 - The RC Car - RC de Go!'], # (ＳＩＭＰＬＥ１５００シリーズ　Ｖｏｌ．６８　ＴＨＥ　ＲＣカー ＲＣでＧＯ！)
+        'RC Helicopter': ['Simple 1500 Series Vol. 53 - The Helicopter'], # (SIMPLE1500シリーズ Vol.53 THE ヘリコプター)
 		'Re-Loaded - The Hardcore Sequel': ['Re-Loaded'],
 		'Real Bout Fatal Fury': ['Real Bout Garou Densetsu'],
 		'Red Asphalt': ['Rock & Roll Racing 2 - Red Asphalt'],
+        'Rescue Copter': ['Jet Copter X'], # (ジェットコプター・エックス)
 		'Rescue Heroes - Molten Menace': ['Rescue Heroes - Helden in Gefahr'],
 		'Rescue Shot': ['Rescue Shot Bubibo'], # (レスキューショット ブービーぼー)
+        'Resident Evil': ['Bio Hazard'], # (バイオハザード)
+        'Resident Evil - Director\'s Cut': ['Bio Hazard - Director\'s Cut'], # (バイオハザード ディレクターズカット)
+        'Resident Evil - Director\'s Cut - Dual Shock Ver.': ['Bio Hazard - Director\'s Cut - Dual Shock Ver.'], # (バイオハザード ディレクターズカット デュアルショックバージョン)
+        'Resident Evil - Survivor': ['Biohazard - Gun Survivor'], # (バイオハザード ガンサバイバー)
+        'Resident Evil 2': ['Biohazard 2'], # (バイオハザード２)
+        'Resident Evil 2 - Dual Shock Ver. (Disc 1)': ['Biohazard 2: Dual Shock Ver. (Disc 1) (Leon-hen)'], # (バイオハザード2 デュアルショックバージョン)
+        'Resident Evil 2 - Dual Shock Ver. (Disc 2)': ['Biohazard 2: Dual Shock Ver. (Disc 2) (Claire-hen)'], # (バイオハザード2 デュアルショックバージョン)
+        'Resident Evil 3 - Nemesis': ['Biohazard 3 - Last Escape'], # (バイオハザード3 ラストエスケープ)
+        'Rhapsody - A Musical Adventure': ['Marl Oukoku no Ningyou-hime - The Adventure of Puppet Princess'], # (マール王国の人形姫 the Adventure of Puppet Princess)
 		'Risk - The Game of Global Domination': ['Risk'],
 		'Rival Schools - United by Fate': ['Shiritsu Justice Gakuen - Legion of Heroes'], # (立ジャスティス学園 リージョン オブ ヒーローズ)
 		'Road & Track Presents - The Need for Speed': [
@@ -2164,7 +2266,7 @@ def ps2_rename_list():
 		'Lethal Skies II': ['Sidewinder V'],
 		'Lord of the Rings, The - The Return of the King': ['Lord of the Rings, The - Ou no Kikan'],  # (ロード・オブ・ザ・リング 王の帰還)
 		'Made Man - Confessions of the Family Blood': ['Made Man'],
-		'Mountain Bike Adrenaline': ['Mountain Bike Adrenaline featuring Salomon'],
+        'Mountain Bike Adrenaline': ['Mountain Bike Adrenaline featuring Salomon'],
 		'Mr Mosquito': ['Mr Moskeeto'],
 		'MTV Music Generator 3 - This Is the Remix': ['MTV Music Generator 3'],
 		'MX World Tour featuring Jamie LIttle': ['MX World Tour'],
