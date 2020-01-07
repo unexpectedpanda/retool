@@ -1072,16 +1072,16 @@ def convert_to_xml(region, unique_regional_titles, titles, user_input):
                 if title != 'unique_titles':
                     for subtitle in unique_regional_titles[region][title]:
                         if subtitle.cloneof == 'None':
-                            final_title_xml += '\t<game name="' + html.escape(subtitle.full_title) + '">'
+                            final_title_xml += '\t<game name="' + html.escape(subtitle.full_title, quote = False) + '">'
                         else:
-                            final_title_xml += '\t<game name="' + html.escape(subtitle.full_title) + '" cloneof="' + html.escape(subtitle.cloneof) + '">'
-                        final_title_xml += '\n\t\t<category>' + html.escape(subtitle.category) + '</category>'
-                        final_title_xml += '\n\t\t<description>' + html.escape(subtitle.description) + '</description>'
+                            final_title_xml += '\t<game name="' + html.escape(subtitle.full_title, quote = False) + '" cloneof="' + html.escape(subtitle.cloneof, quote = False) + '">'
+                        final_title_xml += '\n\t\t<category>' + html.escape(subtitle.category, quote = False) + '</category>'
+                        final_title_xml += '\n\t\t<description>' + html.escape(subtitle.description, quote = False) + '</description>'
                         if user_input.one_game_one_rom == True:
-                            final_title_xml += '\n\t\t<release name="' + html.escape(subtitle.description) + '" region="' + region + '"/>'
+                            final_title_xml += '\n\t\t<release name="' + html.escape(subtitle.description, quote = False) + '" region="' + region + '"/>'
 
                         for rom in subtitle.roms:
-                            final_title_xml += '\n\t\t<rom crc="' + rom.crc + '" md5="' + rom.md5 + '" name="' + html.escape(rom.name) + '" sha1="' + rom.sha1 + '" size="' + rom.size + '"/>'
+                            final_title_xml += '\n\t\t<rom crc="' + rom.crc + '" md5="' + rom.md5 + '" name="' + html.escape(rom.name, quote = False) + '" sha1="' + rom.sha1 + '" size="' + rom.size + '"/>'
                         final_title_xml += '\n\t</game>\n'
 
                 progress += 1
@@ -1258,7 +1258,7 @@ def process_dats(user_input, tag_strings, region_list_english, region_list_other
             print('* Looking for non-dupes...')
 
     # Set up dupe lists for titles that have the same content, but different names in different regions
-    dupe_list = []
+    dupe_list = {}
 
     if dat_name == 'Apple - Macintosh':
         dupe_list = _renames.mac_rename_list()
@@ -1438,26 +1438,63 @@ def process_dats(user_input, tag_strings, region_list_english, region_list_other
                     for y in global_parent_list:
                         if x.full_title != y.full_title:
                             if x.rf_tag_strip_title == y.rf_tag_strip_title and x.rf_tag_strip_title != '' and y.rf_tag_strip_title != '':
-                                # print('C: ' + x.full_title)
-                                # print('P: ' + y.full_title)
                                 x.cloneof = y.full_title
                         else:
                             break
+
+            # sorted(all_titles_data, reverse=True)
+            # sorted_dict = {k: all_titles_data[k] for k in sorted(all_titles_data, reverse=True)}
+            # print(sorted_dict)
+
+            # Create a list to add exclusion titles that shouldn't be clones.
+            exclude_title = []
 
             # Look up the dupe list raw title entries
             for key, value in dupe_list.items():
                 for title in all_titles_data:
                     for x in all_titles_data[title]:
                         if key == x.rf_tag_strip_title and x.cloneof == 'None':
-                            # x.full_title is the parent title
-                            # Now find the full titles of the raw clone titles
+                            # x is the parent title
+                            # Now find the full_title of the rf_tag_strip_titles found in dupe_list
                             for y in value:
                                 for z in all_titles_data:
                                     for a in all_titles_data[z]:
-                                        if a.rf_tag_strip_title == y:
-                                            clone_title = a.full_title
-                                            # print('Full clone title: ' + a.full_title)
-                                            a.cloneof = x.full_title
+                                        # If there's a string in dupe_list, just process it
+                                        if type(y) is str:
+                                            if a.rf_tag_strip_title == y:
+                                                # a is the clone title
+                                                a.cloneof = x.full_title
+                                        # Otherwise it's a list, where [0] is the clone rf_tag_strip_title,
+                                        # and all other entries are full_title entries whose cloneof entry
+                                        # shouldn't be touched. This is to address the King's Field problem.
+                                        else:
+                                            # First, if a clone short name is set to the identical short name
+                                            # as the parent, append all subsequent full titles in the list to
+                                            # exclude_title, and remove them from all_titles_data so it doesn't
+                                            # get processed with the rest of the clones.
+                                            if y[0] == key:
+                                                for i, item in enumerate(y):
+                                                    if i != 0:
+                                                        if item == a.full_title:
+                                                            a.cloneof = 'None'
+                                                            exclude_title.append(a)
+                                                            for j, item2 in enumerate(all_titles_data[z]):
+                                                                if item2.full_title == a.full_title:
+                                                                    del all_titles_data[z][j]
+                                            # Otherwise, set the clone so long as the full title isn't
+                                            # excluded.
+                                            elif a.full_title not in y:
+                                                if a.rf_tag_strip_title == y[0]:
+                                                    a.cloneof = x.full_title
+                                            # Otherwise, if the full title has been excluded, set the
+                                            # clone to none.
+                                            elif a.full_title in y:
+                                                a.cloneof = 'None'
+
+            # Now add back in any titles that should be parents and not clones
+            if len(exclude_title) > 0:
+                for x in exclude_title:
+                    all_titles_data[x.rf_tag_strip_title].append(x)
 
         print('* Finding clones... done.')
 
@@ -1475,16 +1512,16 @@ def process_dats(user_input, tag_strings, region_list_english, region_list_other
             print('* Converting to XML... ' + str(int(progress_percent)) + '%', sep='', end='\r', flush=True)
             for subtitle in all_titles_data[title]:
                 if subtitle.cloneof == 'None':
-                    final_title_xml += '\t<game name="' + html.escape(subtitle.full_title) + '">'
+                    final_title_xml += '\t<game name="' + html.escape(subtitle.full_title, quote = False) + '">'
                 else:
-                    final_title_xml += '\t<game name="' + html.escape(subtitle.full_title) + '" cloneof="' + html.escape(subtitle.cloneof) + '">'
-                final_title_xml += '\n\t\t<category>' + html.escape(subtitle.category) + '</category>'
-                final_title_xml += '\n\t\t<description>' + html.escape(subtitle.description) + '</description>'
+                    final_title_xml += '\t<game name="' + html.escape(subtitle.full_title, quote = False) + '" cloneof="' + html.escape(subtitle.cloneof, quote = False) + '">'
+                final_title_xml += '\n\t\t<category>' + html.escape(subtitle.category, quote = False) + '</category>'
+                final_title_xml += '\n\t\t<description>' + html.escape(subtitle.description, quote = False) + '</description>'
                 if user_input.one_game_one_rom == True:
-                    final_title_xml += '\n\t\t<release name="' + html.escape(subtitle.description) + '" region="' + subtitle.regions + '"/>'
+                    final_title_xml += '\n\t\t<release name="' + html.escape(subtitle.description, quote = False) + '" region="' + subtitle.regions + '"/>'
 
                 for rom in subtitle.roms:
-                    final_title_xml += '\n\t\t<rom crc="' + rom.crc + '" md5="' + rom.md5 + '" name="' + html.escape(rom.name) + '" sha1="' + rom.sha1 + '" size="' + rom.size + '"/>'
+                    final_title_xml += '\n\t\t<rom crc="' + rom.crc + '" md5="' + rom.md5 + '" name="' + html.escape(rom.name, quote = False) + '" sha1="' + rom.sha1 + '" size="' + rom.size + '"/>'
                 final_title_xml += '\n\t</game>\n'
 
         print('* Converting to XML... done.')

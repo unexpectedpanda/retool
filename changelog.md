@@ -3,7 +3,7 @@
   this:
   - Filtering by English titles is no longer mandatory. To only include English
     titles in your dat, use the `-en` option.
-  - The `_regional_renames.py` file has been renamed to `-renames.py` and
+  - The `_regional_renames.py` file has been renamed to `_renames.py` and
     massively expanded to take into account localized title dupes. The file has
     also been reorganized to make future dupe additions easier.
 - The `-re` and `-ra` options are now `-r` and `-s` respectively. Both split a
@@ -65,13 +65,18 @@
 - When you add a newer version of a dat to CLRMAMEPro that has been generated
   by Retool, it now triggers an update prompt where appropriate.
 - Redump is no longer required to be the dat author.
-- Characters that aren't valid in XML (<, >, &, ", ') have been escaped in
-  generated dat files.
+- Characters that aren't valid in XML (<, >, &) have been escaped in generated
+  dat files.
 - Empty name, description, author, url, and version fields in dats are now
   handled, instead of crashing the program.
 - Several bugs involving options flags were fixed.
 - The title count was missing when dats were split into regions. This is now fixed.
 - Bye bye ASCII logo. Vertical screen real estate is now more important.
+- Dealt with the "_King's Field_ problem". _King's Field (Japan)_ didn't get a
+  Western release. _King's Field_ in the USA is known as _King's Field II_ in
+  Japan. **_King's Field II_** in the USA is **_King's Field III_** in Japan.
+  Without extra logic, the program would mark all **_King's Field II_** titles as
+  clones, which is not what we want.
 
 # 0.34
 - Added textwrap module for better readability on MacOS/Linux.
