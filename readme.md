@@ -56,9 +56,9 @@ a clone.
 
 ### By region
 The input dat is split into regions, then each region is processed in a
-specific order. Each region cannot include titles that are in the regions
-that precede it; if it does, it is marked as a clone. The USA version of a
-title is usually considered canonical.
+specific order. If a region has a title of the same name in one of the regions
+that precedes it, it is marked as a clone. The USA version of a title is usually
+considered canonical.
 
 Regions are parsed in the following order:
 
@@ -109,16 +109,17 @@ Regions are parsed in the following order:
 1. United Arab Emirates
 1. Unknown
 
-As the program progresses through the regions, `_renames.py` is
-referenced to check if any titles in the current region are the same as
-another region's title, but with a different name. For example, apart from the
-name, **_Dancing Stage Unleashed 3 (Europe)_** and
-**_Dance Dance Revolution Ultramix 3 (USA)_** are the same title, and so
-only **_Dance Dance Revolution Ultramix 3 (USA)_** would be kept.
+As the program progresses through the regions,
+[`_renames.py`](#Working-with-_renames.py) is referenced to check if any titles
+in the current region are the same as another region's title, but with a
+different name. For example, apart from the name,
+_Dancing Stage Unleashed 3 (Europe)_ and
+_Dance Dance Revolution Ultramix 3 (USA)_ are the same title, and so
+only _Dance Dance Revolution Ultramix 3 (USA)_ would be kept.
 
 Titles are also deduped if they span multiple regions, preferencing titles with
-more regions. For example, out of **_Grim Fandango (USA)_** and
-**_Grim Fandango (USA, Europe)_**, the latter will be kept.
+more regions. For example, out of _Grim Fandango (USA)_ and
+_Grim Fandango (USA, Europe)_, the latter will be kept.
 
 ### By language
 Titles with the same name from the same region, but with different language
@@ -149,6 +150,127 @@ sets are also handled. The rules are complex:
   1. Hungarian
   1. Russian
 
+### Working with _renames.py
+You only need to care about this if you're going to add your own clone titles
+for Retool to assign to parents.
+
+There is a specific format for matching clones with parents in the
+`_renames.py` file:
+
+```
+'parent_rf_tag_strip_title': ['clone_rf_tag_strip_title_1', 'clone_rf_tag_strip_title_2']
+```
+
+The `parent_rf_tag_strip_title` on the left is the parent's "region free tag strip
+title". From hereon in, we'll call it the "short name". It's the full Redump title,
+stripped of the following tags:
+
+* (Region)
+* (Languages)
+* (Version)
+* (Revision)
+* (Date)
+
+For matching purposes, disc names are also normalised so everything is
+`(Disc 1)`, `(Disc 2)`, `(Disc 3)` and so on, instead of `Disc A`, `Disco A`,
+`Disco Uno` and other variants.
+
+Using the parent short name, Retool goes through the titles list in region order
+until it finds the first title that matches. This becomes a parent.
+
+Short names are also used for clones, so one short name can pick up the same
+alternate naming in many regions, and not require multiple
+entries. For example, `FIFA 99` on the right side as a clone short name would
+match both `FIFA 99 (Spain)`, and `FIFA 99 (Germany)`.
+
+Let's take a look at a working example. To match the parent
+``Oddworld - Abe's Exoddus (USA) (Disc 1)`` to its clones, the match code might
+look like this:
+
+```
+'Oddworld - Abe\'s Exoddus (Disc 1)': [
+            'Abe \'99 (Disc 1)',
+            'Oddworld - L\'Exode d\'Abe (Disc 1)',
+            ],
+```
+
+Using `Oddworld - Abe\'s Exoddus (Disc 1)` as the parent short name, Retool goes
+through the titles in the relevant Redump dat in region order. It finds
+`Oddworld - Abe's Exoddus (USA) (Disc 1)` as the first full title that matches
+the shorter version, and assigns it as the parent.
+
+Retool then goes through the title list in region order to find the longer
+versions of the clone short names, and finds `Abe '99 (Japan) (Disc 1)` and
+`Oddworld - L'Exode d'Abe (France) (Disc 1)`, assigning them both as clones to
+`Oddworld - Abe's Exoddus (USA) (Disc 1)`.
+
+You only need to list titles that are named differently to the parent. Titles
+that are identical to the parent in other regions automatically get assigned as
+clones -- that is the following titles get assigned as clones without you
+having to do anything:
+
+* `Oddworld - Abe's Exoddus (Europe) (Disc 1)`
+* `Oddworld - Abe's Exoddus (Spain) (Disc 1)`
+* `Oddworld - Abe's Exoddus (Germany) (Disc 1)`
+* `Oddworld - Abe's Exoddus (Italy) (Disc 1)`
+* `Oddworld - Abe's Exoddus (USA) (Disc 1)`
+
+#### Excluding title matches
+While using short names has its benefits, it also has shortcomings.
+
+For example, take the _King's Field_ problem. The first _King's Field_ was only
+released in Japan. The second was named _King's Field II_ in Japan, but
+_King's Field_ in Western countries, while the Japanese _King's Field III_
+was called _King's Field II_ overseas. This means the parent/clone
+relationship according to Retool's region ordering should be this:
+
+
+PARENT                 | CLONES
+-----------------------|----------------------------
+King's Field (Japan)   | -
+King's Field (USA)     | King's Field II (Japan)
+King's Field II (USA)  | King's Field III (Japan)
+
+Because of the sequel desync, however, What gets matched is completely
+different.
+
+PARENT                   | CLONES
+-------------------------|----------------------------
+King's Field (USA)       | King's Field (Japan)
+King's Field II (USA)    | King's Field II (Japan)
+King's Field III (Japan) |
+
+Fixing this is a two step process. First, let's Rescue _King's Field II_.
+
+```
+'King\'s Field': [
+    ['King\'s Field II', 'King\'s Field II (USA)'],
+    'King\s Field II (PlayStation the Best)'
+    ],
+```
+
+You'll notice the first clone short name is in a list, instead of being just a
+string. This indicates that there are full titles _not_ to match the short name
+against. In this example, we've told Retool not to match `King\'s Field II`
+against `King's Field II (USA)`, but it will still happily match with the
+needed `King's Field II (Japan)`. You can add as many excluded titles as you
+like -- anything after the [0] position is considered an exclusion title.
+
+Now we need to rescue `King's Field (Japan)`, so it's marked as a parent and not
+a clone. It's as simple as adding another entry to the list, but this time with
+the same short name as the parent.
+
+```
+'King\'s Field': [
+    ['King's Field', 'King\'s Field (Japan)'],
+    ['King\'s Field II', 'King\'s Field II (USA)'],
+    'King\s Field II (PlayStation the Best)'
+    ],
+```
+
+This takes `King's Field (Japan)` out of the clone processing altogether, and
+adds it back in as a parent after the processing has finished.
+
 ## FAQs
 #### How did you figure out what the dupes were?
 I went through each dat's titles. I then used
@@ -158,9 +280,9 @@ I went through each dat's titles. I then used
 [VDGB](https://vgdb.io), [VGM](https://www.video-games-museum.com),
 [YouTube](https://www.youtube.com), [Amazon.jp](https://www.amazon.co.jp),
 [PlayAsia](https://www.play-asia.com/), and good old web searching to turn up
-information. I went through Redump's site for Japanese and Chinese characters
-for the titles, so I could do translations and find out the equivalent English
-titles. Later in the process I discovered
+information. Occasionally I went through Redump's site for Japanese and Chinese
+characters for the titles, so I could do translations and find out the
+equivalent English titles. Later in the process I discovered
 [FilterQuest](https://github.com/UnluckyForSome/FilterQuest), a similar tool,
 and added some missing titles from there.
 
@@ -179,9 +301,9 @@ Be aware of the following limitations when using _Retool_. These might or
 might not be addressed in the future.
 
 #### Doesn't remove single titles in favor of compilation titles
-For example, **_Assassin's Creed - Ezio Trilogy_** does not supersede
-**_Assassin's Creed II_**, **_Assassin's Creed - Brotherhood_**, and
-**_Assassin's Creed - Revelations_**. Both the original titles and the
+For example, _Assassin's Creed - Ezio Trilogy_ does not supersede
+_Assassin's Creed II_, _Assassin's Creed - Brotherhood_, and
+_Assassin's Creed - Revelations_. Both the original titles and the
 compilation will be kept.
 
 #### Can only follow Redump language tags
