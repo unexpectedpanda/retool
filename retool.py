@@ -1473,14 +1473,12 @@ def process_dats(user_input, tag_strings, region_list_english, region_list_other
                                             # exclude_title, and remove them from all_titles_data so it doesn't
                                             # get processed with the rest of the clones.
                                             if y[0] == key:
-                                                for i, item in enumerate(y):
-                                                    if i != 0:
-                                                        if item == a.full_title:
-                                                            a.cloneof = 'None'
-                                                            exclude_title.append(a)
-                                                            for j, item2 in enumerate(all_titles_data[z]):
-                                                                if item2.full_title == a.full_title:
-                                                                    del all_titles_data[z][j]
+                                                if a.full_title in y:
+                                                    a.cloneof = 'None'
+                                                    exclude_title.append(a)
+                                                    for j, item2 in enumerate(all_titles_data[z]):
+                                                        if item2.full_title == a.full_title:
+                                                            del all_titles_data[z][j]
                                             # Otherwise, set the clone so long as the full title isn't
                                             # excluded.
                                             elif a.full_title not in y:
