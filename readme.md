@@ -215,7 +215,7 @@ having to do anything:
 * `Oddworld - Abe's Exoddus (Italy) (Disc 1)`
 * `Oddworld - Abe's Exoddus (USA) (Disc 1)`
 
-#### Excluding title matches
+#### Excluding unintended title matches: the _King's Field_ problem
 While using short names has its benefits, it also has shortcomings.
 
 For example, take the _King's Field_ problem. The first _King's Field_ was only
@@ -240,7 +240,12 @@ King's Field (USA)       | King's Field (Japan)
 King's Field II (USA)    | King's Field II (Japan)
 King's Field III (Japan) |
 
-Fixing this is a two step process. First, let's Rescue _King's Field II_.
+Fixing this is a two step process.
+
+##### Step one: excluding unintended matches for clone short names
+First, let's look at `King's Field (USA)`. We want
+`King's Field II (Japan)` to be assigned to it as a clone, but not
+`King's Field II (USA)`. Here's how you do it.
 
 ```
 'King\'s Field': [
@@ -254,11 +259,12 @@ string. This indicates that there are full titles _not_ to match the short name
 against. In this example, we've told Retool not to match `King\'s Field II`
 against `King's Field II (USA)`, but it will still happily match with the
 needed `King's Field II (Japan)`. You can add as many excluded titles as you
-like -- anything after the [0] position is considered an exclusion title.
+like &mdash; anything after the [0] position is considered an exclusion title.
 
-Now we need to rescue `King's Field (Japan)`, so it's marked as a parent and not
-a clone. It's as simple as adding another entry to the list, but this time with
-the same short name as the parent.
+##### Step two: excluding unintended matches for parent short names
+Now we need to rescue `King's Field (Japan)`, so it's not marked as a clone of
+`King's Field (USA)`. It's as simple as adding another entry to the list, but
+this time with the same short name as the parent.
 
 ```
 'King\'s Field': [
@@ -268,8 +274,23 @@ the same short name as the parent.
     ],
 ```
 
-This takes `King's Field (Japan)` out of the clone processing altogether, and
+This removes `King's Field (Japan)` from the clone processing altogether, and
 adds it back in as a parent after the processing has finished.
+
+At this stage,  if you want to take multiple titles out of clone processing that
+have the same short name as the parent, you'll need to make multiple entries, as
+per the example below:
+
+```
+'Motor Toon Grand Prix': [
+    ['Motor Toon Grand Prix', 'Motor Toon Grand Prix (Japan)'],
+    ['Motor Toon Grand Prix', 'Motor Toon Grand Prix (Japan) (Rev 1)'],
+    'Motor Toon Grand Prix 2',
+    'Motor Toon Grand Prix 2 (Disc 1)', # (モータートゥーン・グランプリ2)
+    'Motor Toon Grand Prix 2 (Disc 2) (Taisen Sen\'you Disc)', # (As far as I can find out, a second disc in the Japanese version you'd give to friends so you could play multiplayer)
+    'Motor Toon Grand Prix - USA Edition', # (モータートゥーン・グランプリ USAエディション)
+    ],
+```
 
 ## FAQs
 #### How did you figure out what the dupes were?
