@@ -1165,8 +1165,20 @@ def psx_rename_list():
             'Broken Sword II - Las Fuerzas del Mal',
             ],
 		'Builder\'s Block': ['Land Maker'],
-		'Bust A Groove': ['Bust-A-Groove'],
-		'Bust-A-Move \'99': ['Bust-A-Move 3 DX'],
+		'Bust A Groove': [
+            'Bust-A-Groove',
+            'Bust A Move', # (バスト ア ムーブ)
+            ],
+        'Bust A Groove 2': ['Bust A Move 2 - Dance Tengoku Mix'], # (バストアムーブ2 ダンス天国MIX)
+		'Bust-A-Move \'99': [
+            'Bust-A-Move 3 DX',
+            'Puzzle Bobble 3DX', # (パズルボブル３デラックス)
+            ],
+        'Bust-A-Move 2 - Arcade Edition': ['Puzzle Bobble 2'], # (パズルボブル２)
+        'Bust-A-Move 4': [
+            'Puzzle Bobble 4', # (パズルボブル4)
+            'Simple 1500 Series Vol. 93 - The Puzzle Bobble - Puzzle Bobble 4', # (SIMPLE1500シリーズ Vol.93 THE パズルボブル パズルボブル4)
+            ],
 		'Buster Bros. Collection': ['Super Pang Collection'],
 		'C3 Racing - Car Constructors Championship': ['Max Power Racing'],
 		'Capcom Generations (Europe) (Disc 1) (Wings of Destiny)': ['Capcom Generation - Dai-1-shuu Gekitsuiou no Jidai'], # (カプコン・ジェネレーション　～第１集　撃墜王の時代～)
@@ -1175,22 +1187,32 @@ def psx_rename_list():
 		'Capcom Generations (Europe) (Disc 4) (Blazing Guns)': ['Capcom Generation - Dai-4-shuu Kokou no Eiyuu'], # (カプコン・ジェネレーション　～第４集　孤高の英雄～)
 		'Capcom vs. SNK Pro': ['Capcom vs. SNK - Millennium Fight 2000 Pro'],
 		'Car and Driver Presents - Grand Tour Racing \'98': [
+            'Gekisou!! Grand Racing - Total Drivin\'', # (激走！！グランド・レーシング　～ＴＯＴＡＬ　ＤＲＩＶＩＮ´～)
             'M6 Turbo Racing',
             'Total Drivin', # There are some differences here, if you care: https://gtr98.wordpress.com/2014/01/01/about-total-drivin-m6-turbo-racing/
             ],
-		'Castrol Honda VTR': ['SuperLite 1500 Series - Castrol Honda VTR'], # (ＳｕｐｅｒＬｉｔｅ　１５００　シリーズ　～Ｃａｓｔｒｏｌ ＨＯＮＤＡ　ＶＴＲ～)
-		'China - The Forbidden City': [
+		'Castlevania Chronicles': ['Castlevania Chronicle - Akumajou Dracula'], # (悪魔城年代記 悪魔城ドラキュラ)
+        'Castrol Honda Superbike Racing': ['SuperLite 1500 Series - Castrol Honda Super Bike Racing'], # (ＳｕｐｅｒＬｉｔｅ　１５００　シリーズ　～Ｃａｓｔｒｏｌ ＨＯＮＤＡ　スーパーバイクレーシング～)
+        'Castrol Honda VTR': ['SuperLite 1500 Series - Castrol Honda VTR'], # (ＳｕｐｅｒＬｉｔｅ　１５００　シリーズ　～Ｃａｓｔｒｏｌ ＨＯＮＤＡ　ＶＴＲ～)
+		'Championship Motocross featuring Ricky Carmichael': ['Dirt Champ Motocross No. 1'], # (ダートチャンプ　モトクロスＮｏ．１)
+        'Chess': ['SuperLite Gold Series - Minna no Chess'], # (SuperLite Gold シリーズ みんなのチェス)
+        'Chessmaster 3-D, The': ['Chessmaster, The'], # (チェスマスター)
+        'China - The Forbidden City': [
             'Chine - Intrigue dans la Cite Interdite',
             'Cina - Crimini nella Citta Proibita',
             'Verrat in der Verbotenen Stadt',
             ],
-		'City of Lost Children, The': [
+        'Chocobo\'s Dungeon 2': ['Chocobo no Fushigi na Dungeon 2 (Disc 1)'], # (チョコボの不思議なダンジョン２)
+        'Chocobo Racing': ['Chocobo Racing - Genkai e no Road'], # (チョコボレーシング 幻界へのロード)
+        'City of Lost Children, The': [
             'Cite des Enfants Perdus, La',
             'Ciudad de los ninos perdidos, La',
             'Stadt der verlorenen Kinder, Die',
             ],
 		'Cleopatra\'s Fortune': ['Cleopatra Fortune'],
-		'Codename - Tenka': ['Lifeforce Tenka'],
+		'Clock Tower': ['Clock Tower 2'], # (クロックタワー２)
+        'Clock Tower II - The Struggle Within': ['Clock Tower - Ghost Head'], # (クロックタワー ゴーストヘッド)
+        'Codename - Tenka': ['Lifeforce Tenka'],
 		'Colin McRae Rally': ['Colin McRae - The Rally'],
 		'Colony Wars - Red Sun': ['Colony Wars - El Sol Rojo'],
 		'Command & Conquer (Disc 1)': [
@@ -1224,8 +1246,13 @@ def psx_rename_list():
             'Victory Boxing Contender',
             ],
 		'Contender 2': ['Victory Boxing Challenger'],
-		'Crash Bandicoot - Warped': ['Crash Bandicoot 3 - Warped'],
-		'Covert Ops - Nuclear Dawn (Disc 1)': [
+        'Crash Bandicoot - Warped': [
+            'Crash Bandicoot 3 - Buttobi! Sekai Isshuu', # (クラッシュ・バンディクー3 ～ブッとび! 世界一周～)
+            'Crash Bandicoot 3 - Warped',
+            ],
+        'Crash Bandicoot 2 - Cortex Strikes Back': ['Crash Bandicoot 2 - Cortex no Gyakushuu!'], # (クラッシュ・バンディクー２　～コルテックスの逆襲!～)
+		'Crash Bash': ['Crash Bandicoot Carnival'], # (クラッシュ・バンディクー カーニバル)
+        'Covert Ops - Nuclear Dawn (Disc 1)': [
             'Chase the Express (Disc 1)',
             'Chase the Express - El Expreso de la Muerte (Disc 1)',
             ],
@@ -1233,9 +1260,14 @@ def psx_rename_list():
             'Chase the Express (Disc 2)',
             'Chase the Express - El Expreso de la Muerte (Disc 2)',
             ],
+        'Croc - Legend of the Gobbos': ['Croc! Pau-Pau Island'], # (クロック！ パウパウアイランド)
+        'Croc 2': ['Croc Adventure'], # (クロック・アドべンチャー)
+        'Crossroad Crisis': ['SuperLite 1500 Series - Chitty Chitty Chicken'], # (SuperLite 1500 シリーズ チキチキちきん)
+        'Crypt Killer': ['Henry Explorers'], # (ヘンリーエクス プローラーズ)
+        'CTR - Crash Team Racing': ['Crash Bandicoot Racing'], # (クラッシュ・バンディクー レーシング)
 		'D (Disc 1)': ['D no Shokutaku - Complete Graphics (Disc 1)'], # (Dの食卓 コンプリートグラフィックス)
         'D (Disc 2)': ['D no Shokutaku - Complete Graphics (Disc 2)'], # (Dの食卓 コンプリートグラフィックス)
-		'D (Disc 3)': ['D no Shokutaku - Complete Graphics (Disc 3)'], # (Dの食卓 コンプリートグラフィックス)
+        'D (Disc 3)': ['D no Shokutaku - Complete Graphics (Disc 3)'], # (Dの食卓 コンプリートグラフィックス)
         'Dance - UK': [
             'All Music Dance!',
             'Dance Europe',
