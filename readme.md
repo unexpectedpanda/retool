@@ -317,6 +317,9 @@ I'm following a philosophy that the superset should be the primary title.
 Anything with less content is by definition secondary. At this stage,
 compilations aren't considered.
 
+#### When will you do the IBM dat?
+Never. PlayStation was big enough, IBM is insane for one person.
+
 ## Known limitations
 Be aware of the following limitations when using _Retool_. These might or
 might not be addressed in the future.
@@ -338,7 +341,7 @@ because they share the same name, only one version of the title will be
 kept. Likewise, if a title from Europe has more content than its equivalent
 from the USA, but has the same name, the USA title will be kept.
 
-#### Doesn't handle the (Rerelease) tag
+#### Titles marked with (Rerelease) tags are always clones
 At this stage it's unclear which of these are the newest version:
 
 * Title
