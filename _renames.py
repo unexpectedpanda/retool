@@ -1233,21 +1233,39 @@ def psx_rename_list():
             'Chase the Express (Disc 2)',
             'Chase the Express - El Expreso de la Muerte (Disc 2)',
             ],
-		'Dance - UK': [
+		'D (Disc 1)': ['D no Shokutaku - Complete Graphics (Disc 1)'], # (Dの食卓 コンプリートグラフィックス)
+        'D (Disc 2)': ['D no Shokutaku - Complete Graphics (Disc 2)'], # (Dの食卓 コンプリートグラフィックス)
+		'D (Disc 3)': ['D no Shokutaku - Complete Graphics (Disc 3)'], # (Dの食卓 コンプリートグラフィックス)
+        'Dance - UK': [
             'All Music Dance!',
             'Dance Europe',
             ],
-		'Dance Dance Revolution - Disney Mix': ['Dancing Stage - Disney Mix'],
+        'Dance Dance Revolution - Disney Mix': [
+            'Dancing Stage - Disney Mix'
+            'Dance Dance Revolution - Disney\'s Rave', # (ダンス・ダンス・レボリューション　～ディズニーズ・レイブ～)
+            ],
 		'Dare Devil Derby 3D': ['Supersonic Racers'],
-		'Darkstone': ['Darkstone - Evil Reigns'],
+		'Darkstalkers - The Night Warriors': ['Vampire - The Night Warriors'], # (ヴァンパイア －ザ ナイト ウォリアーズ－)
+        'Darkstalkers 3': ['Vampire Savior - EX Edition'], # (ヴァンパイアセイヴァー EXエディション)
+        'Darkstone': ['Darkstone - Evil Reigns'],
 		'DBZ - Dead Ball Zone': ['CBZ - CyBall Zone'],
-		'Defcon 5 - Peace Has a Price...': ['Defcon 5'],
+		'Deception III - Dark Delusion': ['Soumatou'], # (蒼魔灯)
+        'Defcon 5 - Peace Has a Price...': ['Defcon 5'],
 		'Descent Maximum': ['Descent II'],
 		'Destructo 2': ['Simple 1500 Series Vol. 48 - The Puzzle 2'], # (SIMPLE1500シリーズ Vol.48 THE パズル2)
 		'Devil Dice': ['XI [sai]'],
-		'Digimon World 3': ['Digimon World 2003'],
 		'Die Hard Trilogy 2 - Viva Las Vegas': ['Jungla de Cristal Trilogia 2 - Viva Las Vegas'],
-		'Discworld II - Mortality Bytes!': [
+        'Digimon Digital Card Battle': ['DigimonWorld - Digital Card Battle'], # (デジモンワールド デジタルカードバトル)
+        'Digimon Rumble Arena': ['DigimonTamers - Battle Evolution'], # (デジモンテイマーズ　～バトル・エボリューション～)
+        'Digimon World': ['DigimonWorld'], # (デジモンワールド)
+        'Digimon World 2': ['DigimonWorld 2'], # (デジモンワールド2)
+        'Digimon World 3': [
+            'Digimon World 2003',
+            'DigimonWorld 3 - Aratanaru Bouken no Tobira', # (デジモンワールド3 新たなる冒険の扉)
+            ],
+		'Die Hard Trilogy 2 - Viva Las Vegas': ['Jungla de Cristal Trilogia 2 - Viva Las Vegas'],
+		'Dirt Jockey - Heavy Equipment Operator': ['Kensetsu Kikai Simulator - Kenki Ippai!'], # (建設機械シミュレーター　ＫＥＮＫＩ　いっぱい！)
+        'Discworld II - Mortality Bytes!': [
             'Discworld II - Missing Presumed...!',
             'Discworld II - Mortellement Votre',
             'Discworld II - Vermutlich vermisst...!',
@@ -1445,11 +1463,19 @@ def psx_rename_list():
             'Dracula - Resurrection (Disc 2)',
             ],
 		'Dragon Ball GT - Final Bout': ['Dragon Ball - Final Bout'],
-		'Driver - You Are the Wheelman': ['Driver'],
+        'Dragon Seeds': ['Dragon Seeds - Saishuu Shinka Keitai'], # (ドラゴンシーズ ～最終進化形態～)
+        'Dragon Warrior VII (Disc 1)': ['Dragon Quest VII - Eden no Senshitachi (Disc 1)'], # (ドラゴン・クエストⅦ　～エデンの戦士たち～)
+        'Dragon Warrior VII (Disc 2)': ['Dragon Quest VII - Eden no Senshitachi (Disc 2)'], # (ドラゴン・クエストⅦ　～エデンの戦士たち～)
+		'Driver - You Are the Wheelman': [
+            'Driver',
+            'Driver - Sennyuu! Car Chase Daisakusen', # (ドライバー ～潜入！カーチェイス大作戦～)
+            ],
 		'Driver 2': ['Driver 2 - Back on the Streets'],
 		'Ducati World - Racing Challenge': ['Ducati World'],
 		'Duke Nukem - Total Meltdown': ['Duke Nukem'],
 		'Dune 2000': ['Dune'],
+        'Dynasty Warriors': ['Sangoku Musou'], # (三國無双)
+        'Eggs of Steel - Charlie\'s Eggcellent Adventure': ['Hello Charlie!!'], # (ハローチャーリー！！)
 		'Egypt 1556 B.V. - Tomb of the Pharaoh': [
             'Egypt 1156 A.C. - L\'Enigma della Tomba Reale',
             'Egypte 1156 AV. J.-C. - L\'Enigme de la Tombe Royale',
@@ -1461,14 +1487,18 @@ def psx_rename_list():
             'Egypt II - La Profezia di Heliopolis',
             'Egypt II - La Prophetie d\'Heliopolis',
             ],
-		'Elemental Pinball': ['Nice Price Series Vol. 08 - Elemental Pinball'], # (NICE PRICEシリーズ Vol.08 エレメンタルピンボール)
+		'Elemental Gearbolt': ['Gense Kyokou Seirei Kidoudan - Elemental Gearbolt'], # (幻世虚構 精霊機導弾 ELEMENTAL GEARBOLT)
+        'Elemental Pinball': ['Nice Price Series Vol. 08 - Elemental Pinball'], # (NICE PRICEシリーズ Vol.08 エレメンタルピンボール)
 		'Equestrian Showcase': [
             'Alexandra Ledermann 2 - Equitation Competition',
             'Equestriad 2001',
             ],
-		'Expendable': ['Millennium Soldier - Expendable'],
+		'ESPN Extreme Games': ['ESPN Street Games'], # (ＥＳＰＮ　ストリートゲームス)
+        'Eternal Eyes': ['Kouklotheatro - Yuukyuu no Hitomi'], # (ククロセアトロ　～悠久の瞳～)
+        'Expendable': ['Millennium Soldier - Expendable'],
 		'Extreme 500': ['Suzuki Alstare Challenge'],
 		'Extreme Snow Break': ['Snow Break'], # (スノー・ブレイク)
+        'Evil Zone': ['Fuujin Ryouiki Eretzvaju'], # (封神領域エルツヴァーユ)
 		'F.A. Premier League Football Manager 2000, The': ['Bundesliga 2000 - Der Fussball-Manager'],
 		'F.A. Premier League Football Manager 2001, The': ['Fussball Manager 2001'],
 		'F.A. Premier League Stars, The': [
@@ -1480,31 +1510,62 @@ def psx_rename_list():
             'LNF Stars 2001',
             ],
 		'Family Card Games Fun Pack': ['Card Shark'],
+        'Fatal Fury - Wild Ambition': ['Garou Densetsu - Wild Ambition'], # (餓狼伝説 ワイルドアンビション)
+        'Fear Effect 2 - Retro Helix (Disc 1)': ['Helix - Fear Effect (Disc 1)'], # (ヘリックス　～フィア・エフェクト～)
+        'Fear Effect 2 - Retro Helix (Disc 2)': ['Helix - Fear Effect (Disc 2)'], # (ヘリックス　～フィア・エフェクト～)
+        'Fear Effect 2 - Retro Helix (Disc 3)': ['Helix - Fear Effect (Disc 3)'], # (ヘリックス　～フィア・エフェクト～)
+        'Fear Effect 2 - Retro Helix (Disc 4)': ['Helix - Fear Effect (Disc 4)'], # (ヘリックス　～フィア・エフェクト～)
+        'Felony 11-79': ['Runabout'], # (ランナバウト)
 		'FIFA - Road to World Cup 98': [
             'FIFA - Die WM-Qualifikation 98',
             'FIFA - En Route pour la Coupe du Monde 98',
             'FIFA - Rumbo al Mundial 98',
             ],
-		'FIFA 2000 - Major League Soccer': ['FIFA 2000'],
+		'FIFA 99': ['FIFA 99 - Europe League Soccer'], # (FIFA99 ヨーロッパリーグサッカー)
+        'FIFA 2000 - Major League Soccer': [
+            'FIFA 2000',
+            'FIFA 2000 - Europe League Soccer', # (ＦＩＦＡ　２０００　ヨーロッパリーグサッカー)
+            ],
 		'FIFA Soccer 97': ['FIFA 97'],
 		'FIFA Soccer 2002': ['FIFA Football 2002'],
 		'FIFA Soccer 2003': ['FIFA Football 2003'],
 		'FIFA Soccer 2004': ['FIFA Football 2004'],
 		'FIFA Soccer 2005': ['FIFA Football 2005'],
-		'Final Fantasy Chronicles - Final Fantasy IV': ['Final Fantasy Anthology - European Edition - Final Fantasy IV'],
-		'Final Fantasy Anthology - Final Fantasy V': ['Final Fantasy Anthology - European Edition - Final Fantasy V'],
+        'Fighter Maker': ['3D Kakutou Tkool'], # (３Ｄ格闘ツクール)
+		'Fighting Force': ['Metal Fist'], # (メタル・フィスト)
+        'Final Fantasy Chronicles - Chrono Trigger': ['Chrono Trigger'], # (クロノ・トリガー)
+        'Final Fantasy Chronicles - Final Fantasy IV': [
+            'Final Fantasy Anthology - European Edition - Final Fantasy IV',
+            'Final Fantasy IV', # (ファイナルファンタジーIV)
+            ],
+		'Final Fantasy Anthology - Final Fantasy V': [
+            'Final Fantasy Anthology - European Edition - Final Fantasy V',
+            'Final Fantasy V', # (ファイナルファンタジーV)
+            ],
+        'Final Fantasy Anthology - Final Fantasy VI': ['Final Fantasy VI'],
 		'Final Fantasy Origins': [
+            'Final Fantasy', # (ファイナルファンタジー)
+            'Final Fantasy II', # (ファイナルファンタジーＩＩ)
             'Final Fantasy Origins - Final Fantasy',
             'Final Fantasy Origins - Final Fantasy II',
             ],
 		'Final Fantasy Anthology - Final Fantasy VI': ['Final Fantasy VI'],
-		'Final Round, The': ['Konami Open Golf'],
+        'Final Fantasy VII (Disc 1)': ['Final Fantasy VII International (Disc 1)'], # (ファイナルファンタジーＶＩＩ　インターナショナル)
+        'Final Fantasy VII (Disc 2)': ['Final Fantasy VII International (Disc 2)'], # (ファイナルファンタジーＶＩＩ　インターナショナル)
+        'Final Fantasy VII (Disc 3)': ['Final Fantasy VII International (Disc 3)'], # (ファイナルファンタジーＶＩＩ　インターナショナル)
+		'Final Round, The': [
+            'Eikou no Fairway - Virtual Golf Simulation', # (栄光の・フェアウエイ　～ＶＩＲＴＵＡＬ　ＧＯＬＦ　ＳＩＭＵＬＡＴＩＯＮ～)
+            'Konami Open Golf',
+            ],
 		'Fisherman\'s Bait - A Bass Challenge': ['Fisherman\'s Bait - Bass Challenge'],
 		'Flintstones, The - Bedrock Bowling': [
             'Flintstones, Die - Bedrock Bowling',
             'Pierrafeu, Les - Bedrock Bowling',
             ],
-		'Floating Runner - Quest for the 7 Crystals': ['Floating Runner'],
+		'Floating Runner - Quest for the 7 Crystals': [
+            'Floating Runner',
+            'Floating Runner - 7-tsu no Suishou no Monogatari', # (フローティングランナー 7つの水晶の物語)
+            ],
 		'Fluid': [
             'Depth',
             'Sub',
@@ -1512,15 +1573,32 @@ def psx_rename_list():
 		'Formula 1 Championship Edition': ['Formula 1 97'],
 		'Formula Karts - Special Edition': ['Elf Masters presente Formula Karts - Special Edition'],
 		'Fox Sports Golf \'99': ['Actua Golf 2'],
-		'FoxKids.com - Micro Maniacs Racing': ['Micro Maniacs'],
+		'FoxKids.com - Micro Maniacs Racing': [
+            'Denkousekka Micro Runner - Maniac Hakase no Hisaku', # (電光石火ミクロランナー　～マニアック博士の秘策～)
+            'Micro Maniacs',
+            ],
 		'Formula Nippon': ['Formula Nippon \'99 - Racing Driver ni Narou!'], # (フォーミュラ・ニッポン´９９)
-		'Freestyle Boardin' '99': ['Phat Air - Extreme Snowboarding'],
-		'Future Racer': ['Defeat Lightning'], # (ＤＥＦＥＡＴ　ＬＩＧＨＴＮＩＮＧ)
+		'Freestyle Boardin\' \'99': ['Phat Air - Extreme Snowboarding'],
+		'Future Cop - L.A.P.D.': ['Soukou Kidoutai L.A.P.D.'], # (装甲機動隊 Ｌ．Ａ．Ｐ．Ｄ．)
+        'Future Racer': ['Defeat Lightning'], # (ＤＥＦＥＡＴ　ＬＩＧＨＴＮＩＮＧ)
 		'Galaxy Fight': ['Galaxy Fight - Universal Warriors'], # (ギャラクシ・ーファイト　－ＵＮＩＶＥＲＳＡＬ　ＷＡＲＲＩＯＲＳ－)
-		'Gex - Enter the Gecko': ['Gex 3D - Enter the Gecko'],
+        'Gallop Racer': [
+            ['Gallop Racer', 'Gallop Racer (Japan)'], # (ギャロップレーサー)
+            'Gallop Racer 3', # (ギャロップレーサー３)
+            ],
+		'Gekioh - Shooting King': ['Geki-Oh - Shienryuu'], # (撃王 ～紫炎龍～)
+        'Gex - Enter the Gecko': [
+            'Gex 3D - Enter the Gecko',
+            'Spin Tail', # (スピン・テイル)
+            ],
 		'Gex 3 - Deep Cover Gecko': ['Gex - Deep Cover Gecko'],
-		'Ghoul Panic': ['Oh! Bakyuuun'], # (オーバキューン)
-		'Goal Storm \'97': ['International Superstar Soccer Pro'],
+		'Ghost in the Shell': ['Koukaku Kidoutai - Ghost in the Shell'], # (攻殻機動隊　ＧＨＯＳＴ　ＩＮ　ＴＨＥ　ＳＨＥＬＬ)
+        'Ghoul Panic': ['Oh! Bakyuuun'], # (オーバキューン)
+		'Goal Storm': ['World Soccer Winning Eleven'], # (ワールドサッカーウイニングイレブン)
+        'Goal Storm \'97': [
+            'International Superstar Soccer Pro',
+            'World Soccer Winning Eleven \'97', # (ワールドサッカーウイニングイレブン'97)
+            ],
 		'Gold and Glory - The Road to El Dorado': [
             'Gold und Ruhm - Der Weg nach El Dorado',
             'Oro e Gloria - La Strada per El Dorado',
@@ -1528,21 +1606,41 @@ def psx_rename_list():
             'Pour L\'Or et la Gloire - La Route D\'Eldorado',
             ],
         'Grand Theft Auto - Mission Pack 1 - London 1969': ['Grand Theft Auto - London 1969'],
-		'Grid Runner': ['Grid Run'],
-		'Hard Boiled': ['Hard Boiled - Neuro Tower o Hakai Seyo'], # (ハード・ボイルド　～神経塔を破壊せよ～)
-		'Harry Potter and the Chamber of Secrets': ['Harry Potter ja Salaisuuksien Kammio'],
-		'Harry Potter and the Sorcerer\'s Stone': ['Harry Potter and the Philosopher\'s Stone'],
+		'Granstream Saga, The': ['Granstream Denki - The Granstream Saga'], # (グランストリーム伝紀 体験版)
+        'Grid Runner': ['Grid Run'],
+        'Guardian\'s Crusade': ['Knight & Baby'], # (ナイト＆ベイビー)
+		'Gundam Battle Assault': ['Gundam - The Battle Master 2'], # (ガンダム・ザ・バトルマスター2)
+        'Hard Boiled': ['Hard Boiled - Neuro Tower o Hakai Seyo'], # (ハード・ボイルド　～神経塔を破壊せよ～)
+		'Harry Potter and the Chamber of Secrets': [
+            'Harry Potter ja Salaisuuksien Kammio',
+            'Harry Potter to Himitsu no Heya', # (ハリー・ポッターと秘密の部屋)
+            ],
+		'Harry Potter and the Sorcerer\'s Stone': [
+            'Harry Potter and the Philosopher\'s Stone',
+            'Harry Potter to Kenja no Ishi', # (ハリー・ポッターと賢者の石)
+            ],
+        'Harvest Moon - Back to Nature': ['Bokujou Monogatari - Harvest Moon'], # (牧場物語 ハーベストムーン)
 		'Hebereke\'s Popoitto': ['Hebereke Station Popoitto'], # (へべれけ　スてーショん　ポポイっと)
 		'Hellnight': ['Dark Messiah'], # (ダークメサイア)
-		'Hi-Octane - The Track Fights Back!': ['Hi-Octane'],
-		'Hogs of War': [
+		'Hello Kitty - Cube Frenzy': ['Hello Kitty no Cube de Cute'], # (ハローキティのキューブでキュート)
+        'Hi-Octane - The Track Fights Back!': ['Hi-Octane'],
+		'Hive, The (Disc 1)': ['Hive Wars, The (Disc 1)'], # (ザ・ハイヴウォーズ)
+        'Hive, The (Disc 2)': ['Hive Wars, The (Disc 2)'], # (ザ・ハイヴウォーズ)
+        'Hogs of War': [
             'Cochons de Guerre, Les',
             'Frontschweine',
             'Hogs of War - Nati per Soffritto',
             'Marranos en Guerra',
             ],
-		'Hot Shots Golf': ['Everybody\'s Golf'],
-		'Hot Shots Golf 2': ['Everybody\'s Golf 2'],
+		'Hoshigami - Ruining Blue Earth': ['Hoshigami - Shizumiyuku Aoki Daichi'], # (ＨＯＳＨＩＧＡＭＩ　～沈みゆく蒼き大地～)
+        'Hot Shots Golf': [
+            'Everybody\'s Golf',
+            'Minna no Golf', # (みんなのＧＯＬＦ)
+            ],
+		'Hot Shots Golf 2': [
+            'Everybody\'s Golf 2',
+            'Minna no Golf 2', # (みんなのＧＯＬＦ２)
+            ],
 		'Hyper Tennis - Final Match': ['Hyper Final Match Tennis'], # (ハイパー・ファイナル・マッチ・テニス)
 		'I.Q - Intelligent Qube': ['Kurushi'],
 		'In Cold Blood (Disc 1)': [
@@ -1557,13 +1655,17 @@ def psx_rename_list():
             'Cold Blood (Disc 2)',
             'De Sang Froid (Disc 2)',
             ],
+        'In the Hunt': ['Kaitei Daisensou'], # (海底大戦争)
 		'Independence Day': ['Independence Day - The Game'],
-		'International Track & Field 2000': ['International Track & Field 2'],
-		'Invasion from Beyond': [
+		'International Track & Field': ['Hyper Olympic in Atlanta'], # (ハイパーオリンピック イン アトランタ)
+        'International Track & Field 2000': ['International Track & Field 2'],
+		'Inuyasha - A Feudal Fairy Tale': ['Inuyasha - Sengoku Otogi Gassen'], # (犬夜叉 戦国お伽合戦)
+        'Invasion from Beyond': [
             'B-Movie',
             'Invasion Vient de l\'Espace, L\'',
             ],
-		'ISS Pro Evolution': ['World Soccer Jikkyou Winning Eleven 4'], # (ワールドサッカー 実況ウイニングイレブン4)
+		'Irritating Stick': ['Utchan Nanchan no Honoo no Challenger - Denryuu Ira Ira Bou Returns'], # (ウッチャンナンチャンの炎のチャレンジャー　～電流イライラ棒　リターンズ～)
+        'ISS Pro Evolution': ['World Soccer Jikkyou Winning Eleven 4'], # (ワールドサッカー 実況ウイニングイレブン4)
 		'ISS Pro Evolution 2': ['World Soccer Jikkyou Winning Eleven 2000 - U-23 Medal e no Chousen'], # (ワールドサッカー 実況ウイニングイレブン2000 ～U-23 メダルへの挑戦～)
 		'Jade Cocoon - Story of the Tamamayu': [
             'Jade Cocoon - Die Tamamayu Legende',
@@ -1605,7 +1707,7 @@ def psx_rename_list():
             'Kileak, The Blood', # (キリーク・ザ・ブラッド)
             ],
         'King\'s Field': [
-            ['King\'s Field', 'King\'s Field (Japan)'],
+            ['King\'s Field', 'King\'s Field (Japan)'], # (キングスフィールド)
             ['King\'s Field II', 'King\'s Field II (USA)'], # (キングスフィールドII)
             'King\'s Field II (PlayStation the Best)', # (キングスフィールドII)
             ],
@@ -1733,6 +1835,7 @@ def psx_rename_list():
         'Monster Rancher Hop-A-Bout': ['Monster Farm Jump'], # (モンスターファームジャンプ)
 		'Motor Toon Grand Prix': [
             ['Motor Toon Grand Prix', 'Motor Toon Grand Prix (Japan)'],
+            ['Motor Toon Grand Prix', 'Motor Toon Grand Prix (Japan) (Rev 1)'],
             'Motor Toon Grand Prix 2',
             'Motor Toon Grand Prix 2 (Disc 1)', # (モータートゥーン・グランプリ2)
             'Motor Toon Grand Prix 2 (Disc 2) (Taisen Sen\'you Disc)', # (As far as I can find out, a second disc in the Japanese version you'd give to friends so you could play multiplayer)
