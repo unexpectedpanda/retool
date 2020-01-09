@@ -672,8 +672,8 @@ def cdi_rename_list():
 # Sega CD/Sega Mega CD
 def segacd_rename_list():
     return {
-        'A-X-101': ['AX 101'], # (エーエックス１０１)
-		'AH-3 THunderstrike': ['Thunderhawk'],
+            'A-X-101': ['AX 101'], # (エーエックス１０１)
+            'AH-3 THunderstrike': ['Thunderhawk'],
 		'Android Assault - The Revenge of Bari-Arm': ['Bari-Arm'], # (バリ・アーム)
 		'Battle Frenzy': ['Bloodshot ~ Battle Frenzy'],
 		'Blackhole Assault': ['Black Hole Assault'], # (ブラック・ホール・アサルト)
@@ -714,39 +714,39 @@ def segacd_rename_list():
 # Sega Dreamcast
 def dreamcast_rename_list():
     return {
-        'AeroWings': ['Aero Dancing featuring Blue Impulse'], # (エアロダンシング　ｆｅａｔｕｒｉｎｇ　Ｂｌｕｅ　Ｉｍｐｕｌｓｅ)
-		'AeroWings 2 - Airstrike': ['Aero Dancing F'], # (エアロダンシングＦ)
-		'AirForce Delta': ['Deadly Skies'],
-		'Bangai-O': ['Bakuretsu Muteki Bangaioh'], # (爆裂無敵バンガイオー)
-		'Bust-A-Move 4': ['Puzzle Bobble 4'], # (パズルボブル４)
-		'Cannon Spike': ['Gunspike'], # (ガンスパイク)
-		'Capcom vs. SNK': ['Capcom vs. SNK - Millennium Fight 2000'], # (カプコンバーサスエスエヌケイ ミレニアムファイト2000)
-		'ChuChu Rocket!': ['Chu-Chu Rocket!'], # (チューチューロケット！)
-		'Coaster Works': ['Jet Coaster Dream'], # (ジェットコースタードリーム)
-		'Cyber Troopers - Virtual-On - Oratorio Tangram': ['Dennou Senki - Virtual-On - Oratorio Tangram'], # (電脳戦機バーチャロン　オラトリオ・タングラム)
-		'Dead or Alive 2, Fur Fighters': ['Fur Fighters + Dead or Alive 2'],
+            'AeroWings': ['Aero Dancing featuring Blue Impulse'], # (エアロダンシング　ｆｅａｔｕｒｉｎｇ　Ｂｌｕｅ　Ｉｍｐｕｌｓｅ)
+            'AeroWings 2 - Airstrike': ['Aero Dancing F'], # (エアロダンシングＦ)
+            'AirForce Delta': ['Deadly Skies'],
+            'Bangai-O': ['Bakuretsu Muteki Bangaioh'], # (爆裂無敵バンガイオー)
+            'Bust-A-Move 4': ['Puzzle Bobble 4'], # (パズルボブル４)
+            'Cannon Spike': ['Gunspike'], # (ガンスパイク)
+            'Capcom vs. SNK': ['Capcom vs. SNK - Millennium Fight 2000'], # (カプコンバーサスエスエヌケイ ミレニアムファイト2000)
+            'ChuChu Rocket!': ['Chu-Chu Rocket!'], # (チューチューロケット！)
+            'Coaster Works': ['Jet Coaster Dream'], # (ジェットコースタードリーム)
+            'Cyber Troopers - Virtual-On - Oratorio Tangram': ['Dennou Senki - Virtual-On - Oratorio Tangram'], # (電脳戦機バーチャロン　オラトリオ・タングラム)
+            'Dead or Alive 2, Fur Fighters': ['Fur Fighters + Dead or Alive 2'],
 		'D2': [
-            'D2 Shock', # (Ｄの食卓２)
-            'D2 - D no Shokutaku 2', # (Ｄの食卓２)
-            ],
+                  'D2 Shock', # (Ｄの食卓２)
+                  'D2 - D no Shokutaku 2', # (Ｄの食卓２)
+                  ],
 		'Daytona USA': ['Daytona USA 2001'],
 		'Disney-Pixar Buzz Lightyear of Star Command': [
-            'Disney-Pixar Captain Buzz Lightyear - Star Command',
-            'Disney-Pixar Les Aventures de Buzz L\'Eclair',
-            ],
+                  'Disney-Pixar Captain Buzz Lightyear - Star Command',
+                  'Disney-Pixar Les Aventures de Buzz L\'Eclair',
+                  ],
 		'Disney-Pixar Toy Story 2 - Buzz Lightyear to the Rescue!': [
-            'Disney-Pixar Toy Story 2 - Buzz l\'Eclair a la Rescousse!',
-            'Disney-Pixar Toy Story 2 - Buzz Lightyear eilt zur Hilfe!',
-            ],
+                  'Disney-Pixar Toy Story 2 - Buzz l\'Eclair a la Rescousse!',
+                  'Disney-Pixar Toy Story 2 - Buzz Lightyear eilt zur Hilfe!',
+                  ],
 		'Disney\'s Donald Duck - Goin\' Quackers': ['Disney\'s Donald Duck - Quack Attack'],
 		'Draconus - Cult of the Wyrm': ['Dragons Blood'],
 		'Dreamkey Version 2.0': ['Dreamkey Versao 2.0'],
 		'Dreamon Volume 7, Dreamon Volume 8': ['Dreamon Volume 7 & 8'],
 		'Ducati World - Racing Challenge': ['Ducati World'],
 		'Dynamite Cop!': [
-            'Dynamite Cop',
-            'Dynamite Deka 2', # (ダイナマイト刑事２)
-            ],
+                  'Dynamite Cop',
+                  'Dynamite Deka 2', # (ダイナマイト刑事２)
+                  ],
 		'ESPN International Track & Field': ['Ganbare! Nippon! Olympic 2000'], # (がんばれ!ニッポン!オリンピック2000)
 		'Evolution - The World of Sacred Device': ['Shinki Sekai Evolution'], # (神機世界　エヴォリューション)
 		'Expendable': ['Seitai Heiki Expendable'], # (生体兵器　エクスペンダブル)
@@ -862,149 +862,149 @@ def dreamcast_rename_list():
 def saturn_rename_list():
     return {
         '3D Baseball': ['3D Baseball - The Majors'], # (３Ｄベースボール　～ザ・メジャー～)
-		'Albert Odyssey - Legend of Eldean': ['Albert Odyssey Gaiden - Legend of Eldean'], # (アルバート・オデッセイ　外伝　～レジェンド・オブ・エルディーン～)
+        'Albert Odyssey - Legend of Eldean': ['Albert Odyssey Gaiden - Legend of Eldean'], # (アルバート・オデッセイ　外伝　～レジェンド・オブ・エルディーン～)
         'Alone in the Dark - One-Eyed Jack\'s Revenge': [
             'Alone in the Dark - Jack Is Back',
             'Alone in the Dark 2', # (アローン・イン・ザ・ダーク２)
             ],
-		'Astal': ['Kisuishou Densetsu Astal'], # (輝水晶伝説アスタル)
-		'Baku Baku Animal - World Zookeeper Contest': ['Baku Baku Animal - Sekai Shiiku Gakari Senshuken'], # (ばくばくアニマル　～世界飼育係選手権～)
-		'Bases Loaded \'96 - Double Header': ['Moero!! Pro Yakyuu \'95 - Double Header'], # (燃えろ！！　プロ野球’９５　～ダブル・ヘッダー～)
-		'Battle Arena Toshinden Remix': ['Toushinden S'], # (闘神伝Ｓ)
-		'Battle Arena Toshinden URA - Ultimate Revenge Attack': ['Toushinden URA'], # (闘神伝ＵＲＡ)
-		'Break Point Tennis': ['Break Point'],
-		'Center Ring Boxing': ['Victory Boxing'],
-		'Command & Conquer': ['Command & Conquer - Teil 1 - Der Tiberiumkonflikt'],
-		'D': ['D no Shokutaku'], # (Ｄの食卓)
-		'Dark Legend': ['Suiko Enbu'], # (水滸演武)
-		'Daytona USA - Championship Circuit Edition': ['Daytona USA - Circuit Edition'], # (デイトナＵＳＡ　～サーキット・エディション～)
-		'DecAthlete': [
+        'Astal': ['Kisuishou Densetsu Astal'], # (輝水晶伝説アスタル)
+        'Baku Baku Animal - World Zookeeper Contest': ['Baku Baku Animal - Sekai Shiiku Gakari Senshuken'], # (ばくばくアニマル　～世界飼育係選手権～)
+        'Bases Loaded \'96 - Double Header': ['Moero!! Pro Yakyuu \'95 - Double Header'], # (燃えろ！！　プロ野球’９５　～ダブル・ヘッダー～)
+        'Battle Arena Toshinden Remix': ['Toushinden S'], # (闘神伝Ｓ)
+        'Battle Arena Toshinden URA - Ultimate Revenge Attack': ['Toushinden URA'], # (闘神伝ＵＲＡ)
+        'Break Point Tennis': ['Break Point'],
+        'Center Ring Boxing': ['Victory Boxing'],
+        'Command & Conquer': ['Command & Conquer - Teil 1 - Der Tiberiumkonflikt'],
+        'D': ['D no Shokutaku'], # (Ｄの食卓)
+        'Dark Legend': ['Suiko Enbu'], # (水滸演武)
+        'Daytona USA - Championship Circuit Edition': ['Daytona USA - Circuit Edition'], # (デイトナＵＳＡ　～サーキット・エディション～)
+        'DecAthlete': [
             'Athlete Kings',
             'DecAthlete for SegaNet', # (デカスリート　フォー　セガネット)
             ],
-		'Defcon 5 - Peace Has a Price...': ['Defcon 5'],
-		'Die Hard Arcade': ['Dynamite Deka'], # (ダイナマイト刑事)
-		'Dragon Ball Z - Idainaru Dragon Ball Densetsu': ['Dragon Ball Z - La Grande Legende des Boules de Cristal'],
-		'Dragonheart - Fire & Steel': ['DragonHeart - Fire & Steel'],
-		'F1 Challenge': [
+        'Defcon 5 - Peace Has a Price...': ['Defcon 5'],
+        'Die Hard Arcade': ['Dynamite Deka'], # (ダイナマイト刑事)
+        'Dragon Ball Z - Idainaru Dragon Ball Densetsu': ['Dragon Ball Z - La Grande Legende des Boules de Cristal'],
+        'Dragonheart - Fire & Steel': ['DragonHeart - Fire & Steel'],
+        'F1 Challenge': [
             'F-1 Challenge',
             'F-1 Live Information', # (Ｆ‐１ライブ・インフォメーション)
             ],
-		'FIFA - Road to World Cup 98': [
+        'FIFA - Road to World Cup 98': [
             'FIFA - Die WM-Qualifikation 98',
             'FIFA - En Route pour la Coupe du Monde 98',
             'FIFA - Rumbo al Mundial 98',
             ],
-		'FIFA Soccer 97': ['FIFA 97'],
-		'Galactic Attack': ['Layer Section'], # (レイヤー・セクション)
-		'Galaxy Fight': ['Galaxy Fight - Universal Warriors'], # (ギャラクシー・ファイト　～ユニバーサル・ウォリアーズ～)
-		'Grid Runner': ['Grid Run'],
-		'Gungriffon': ['Gun Griffon'],
-		'Hang-On GP': [
+        'FIFA Soccer 97': ['FIFA 97'],
+        'Galactic Attack': ['Layer Section'], # (レイヤー・セクション)
+        'Galaxy Fight': ['Galaxy Fight - Universal Warriors'], # (ギャラクシー・ファイト　～ユニバーサル・ウォリアーズ～)
+        'Grid Runner': ['Grid Run'],
+        'Gungriffon': ['Gun Griffon'],
+        'Hang-On GP': [
             'Hang On GP \'95', # (ハング・オンＧＰ　’９５)
             'Hang On GP \'96',
             ],
-		'Hebereke\'s Popoitto': ['Popoitto Hebereke'], # (ポポイッとへべれけ)
-		'Heir of Zendor - The Legend and The Land': ['Gotha II - Tenkuu no Kishi'], # (ゴータⅡ　～天空の騎士～)
-		'Hi-Octane - The Track Fights Back!': ['Hi-Octane'],
-		'High Velocity - Mountain Racing Challenge': ['Touge King the Spirits'], # (峠キング・ザ・スピリッツ)
-		'Highway 2000': ['Wangan Dead Heat'], # (湾岸デッドヒート)
-		'Hyper 3-D Pinball': [
+        'Hebereke\'s Popoitto': ['Popoitto Hebereke'], # (ポポイッとへべれけ)
+        'Heir of Zendor - The Legend and The Land': ['Gotha II - Tenkuu no Kishi'], # (ゴータⅡ　～天空の騎士～)
+        'Hi-Octane - The Track Fights Back!': ['Hi-Octane'],
+        'High Velocity - Mountain Racing Challenge': ['Touge King the Spirits'], # (峠キング・ザ・スピリッツ)
+        'Highway 2000': ['Wangan Dead Heat'], # (湾岸デッドヒート)
+        'Hyper 3-D Pinball': [
             'Hyper 3D Pinball', # (ハイパー３Ｄピンボール)
             'Tilt!',
             ],
-		'In the Hunt': ['Kaitei Daisensou'], # (海底大戦争)
-		'Independence Day': ['Independence Day - The Game'],
-		'Iron Storm': ['World Advanced Daisenryaku - Koutetsu no Senpuu'], # (ワールド・アドバンスド　大戦略　～鋼鉄の戦風～)
-		'Jewels of the Oracle': ['Oracle no Houseki - Jewels of the Oracle'],
-		'Johnny Bazookatone': ['Johnny Bazooka'], # (ジョニー・バズーカ)
-		'Keio Flying Squadron 2': ['Keiou Yuugekitai - Katsugeki-hen'], # (慶応遊撃隊　～活劇編～)
-		'Last Gladiators - Digital Pinball': [
+        'In the Hunt': ['Kaitei Daisensou'], # (海底大戦争)
+        'Independence Day': ['Independence Day - The Game'],
+        'Iron Storm': ['World Advanced Daisenryaku - Koutetsu no Senpuu'], # (ワールド・アドバンスド　大戦略　～鋼鉄の戦風～)
+        'Jewels of the Oracle': ['Oracle no Houseki - Jewels of the Oracle'],
+        'Johnny Bazookatone': ['Johnny Bazooka'], # (ジョニー・バズーカ)
+        'Keio Flying Squadron 2': ['Keiou Yuugekitai - Katsugeki-hen'], # (慶応遊撃隊　～活劇編～)
+        'Last Gladiators - Digital Pinball': [
             'Digital Pinball',
             'Digital Pinball - Last Gladiators', # (デジタル・ピンボール　「ラスト・グラディエーターズ」)
             ],
-		'Legend of Oasis, The': [
+        'Legend of Oasis, The': [
             'Story of Thor 2, The',
             'Thor - Seireioukiden', # (トア　～精霊王紀伝～)
             ],
-		'Loaded': ['Blood Factory'], # (ブラッド・ファクトリー)
-		'Lunacy': [
+        'Loaded': ['Blood Factory'], # (ブラッド・ファクトリー)
+        'Lunacy': [
             'Gekka Mugentan Torico', # (月花霧幻譚　ＴＯＲＩＣＯ)
             'Torico',
             ],
-		'Machine Head': ['Blam! Machinehead'],
-		'Mansion of Hidden Souls, The': [
+        'Machine Head': ['Blam! Machinehead'],
+        'Mansion of Hidden Souls, The': [
             'Manoir des Ames Perdues, Le',
             'Mansion de las Almas Ocultas',
             'Mystery Mansion - Das Haus der verlorenen Seelen',
             'Shinsetsu Yumemi Yakata - Tobira no Oku ni Dareka ga...', # (真説・夢見館　扉の奥に誰かが…)
             ],
-		'MechWarrior 2 - 31st Century Combat - Arcade Combat Edition': ['MechWarrior 2'], # (メックウォリア２)
-		'Mega Man 8': ['Rockman 8 - Metal Heroes'], # (ロックマン８　～メタル・ヒーローズ～)
-		'Mega Man X3': ['Rockman X3'], # (ロックマンＸ３)
-		'Mega Man X4': ['Rockman X4'], # (ロックマンＸ４)
-		'Minnesota Fats - Pool Legend': ['Side Pocket 2 - Densetsu no Hustler'], # (サイド・ポケット２　～伝説のハスラー～)
-		'Mystaria - The Realms of Lore': [
+        'MechWarrior 2 - 31st Century Combat - Arcade Combat Edition': ['MechWarrior 2'], # (メックウォリア２)
+        'Mega Man 8': ['Rockman 8 - Metal Heroes'], # (ロックマン８　～メタル・ヒーローズ～)
+        'Mega Man X3': ['Rockman X3'], # (ロックマンＸ３)
+        'Mega Man X4': ['Rockman X4'], # (ロックマンＸ４)
+        'Minnesota Fats - Pool Legend': ['Side Pocket 2 - Densetsu no Hustler'], # (サイド・ポケット２　～伝説のハスラー～)
+        'Mystaria - The Realms of Lore': [
             'Blazing Heroes',
             'Riglordsaga', # (リグロード・サーガ)
             ],
-		'Night Warriors - Darkstalkers\' Revenge': ['Vampire Hunter - Darkstalker\'s Revenge'], # ()
-		'NFL Quarterback Club \'96': ['NFL Quarterback Club 96'],
-		'Norse by Norsewest - The Return of the Lost Vikings': ['Lost Vikings 2 - Norse by Norsewest'],
-		'P.T.O. - Pacific Theater of Operations II': ['Teitoku no Ketsudan II'], # (提督の決断Ⅱ)
-		'Pandemonium!': ['Magical Hoppers'], # (マジカル・ホッパーズ)
-		'Panzer Dragoon Saga': ['Azel - Panzer Dragoon RPG'], # (アゼル　～パンツァー・ドラグーンＲＰＧ～　【体験版】)
-		'Parodius': ['Gokujou Parodius Da! Deluxe Pack'], # (極上パロディウスだ！　ＤＥＬＵＸＥ　ＰＡＣＫ)
-		'Pebble Beach Golf Links': ['Pebble Beach Golf Links - Stadler ni Chousen'], # (ペブルビーチゴルフリンクス　～スタドラーに挑戦～)
-		'Powerslave': [
+        'Night Warriors - Darkstalkers\' Revenge': ['Vampire Hunter - Darkstalker\'s Revenge'], # ()
+        'NFL Quarterback Club \'96': ['NFL Quarterback Club 96'],
+        'Norse by Norsewest - The Return of the Lost Vikings': ['Lost Vikings 2 - Norse by Norsewest'],
+        'P.T.O. - Pacific Theater of Operations II': ['Teitoku no Ketsudan II'], # (提督の決断Ⅱ)
+        'Pandemonium!': ['Magical Hoppers'], # (マジカル・ホッパーズ)
+        'Panzer Dragoon Saga': ['Azel - Panzer Dragoon RPG'], # (アゼル　～パンツァー・ドラグーンＲＰＧ～　【体験版】)
+        'Parodius': ['Gokujou Parodius Da! Deluxe Pack'], # (極上パロディウスだ！　ＤＥＬＵＸＥ　ＰＡＣＫ)
+        'Pebble Beach Golf Links': ['Pebble Beach Golf Links - Stadler ni Chousen'], # (ペブルビーチゴルフリンクス　～スタドラーに挑戦～)
+        'Powerslave': [
             'Exhumed',
             'Seireki 1999 - Pharaoh no Fukkatsu', # (西暦１９９９　～ファラオの復活～)
             ],
-		'Pro-Pinball': ['Pro-Pinball - The Web'],
-		'Resident Evil': ['Bio Hazard'], # (バイオ・ハザード)
-		'Road & Track Presents - The Need for Speed': ['Nissan Presents - Over Drivin\' GT-R'], # (オーバードライビング　ＧＴ－Ｒ)
-		'Robotica': [
+        'Pro-Pinball': ['Pro-Pinball - The Web'],
+        'Resident Evil': ['Bio Hazard'], # (バイオ・ハザード)
+        'Road & Track Presents - The Need for Speed': ['Nissan Presents - Over Drivin\' GT-R'], # (オーバードライビング　ＧＴ－Ｒ)
+        'Robotica': [
             'Deadalus', # (ダイダロス)
             'Robotica - Cybernation Revolt',
             ],
-		'Romance of the Three Kingdoms IV - Wall of Fire': [
+        'Romance of the Three Kingdoms IV - Wall of Fire': [
             'Sanguozhi IV', # (三國志Ⅳ)
             'Sangokushi IV', # (三國志Ⅳ)
             'Sangokushi IV with Power-Up Kit', # (三國志Ⅳ　ｗｉｔｈ　パワーアップ・キット)
             ],
-		'Sangokushi V (三國志Ⅴ)': ['Sanguozhi V'], # (三國志Ⅴ)
-		'Sangokushi Koumeiden (三國志孔明伝)': ['Sanguozhi Yingjiezhuan'], # (三國志孔明伝)
-		'Sega Worldwide Soccer \'97': [
+        'Sangokushi V (三國志Ⅴ)': ['Sanguozhi V'], # (三國志Ⅴ)
+        'Sangokushi Koumeiden (三國志孔明伝)': ['Sanguozhi Yingjiezhuan'], # (三國志孔明伝)
+        'Sega Worldwide Soccer \'97': [
             'Sega Worldwide Soccer 97',
             'Victory Goal Worldwide Edition', # (ビクトリー・ゴール　ワールドワイド　エディション)
             ],
-		'Shanghai - Triple-Threat': ['Shanghai - Banri no Choujou - The Great Wall'], # (上海　～万里の長城～)
-		'Shinobi Legions': [
+        'Shanghai - Triple-Threat': ['Shanghai - Banri no Choujou - The Great Wall'], # (上海　～万里の長城～)
+        'Shinobi Legions': [
             'Shin Shinobi Den', # (新忍伝)
             'Shinobi-X - Shin Shinobi Den',
             ],
-		'Shining Force III': ['Shining Force III - Scenario 1 - Outo no Kyoshin'], # (シャイニング・フォースⅢ　シナリオ１　～王都の巨神～)
-		'Solar Eclipse': ['Titan Wars'],
-		'Sonic 3D Blast': ['Sonic 3D - Flickies\' Island'],
-		'Star Fighter': ['StarFighter 3000'],
-		'Street Fighter - The Movie': ['Street Fighter - Real Battle on Film'], # (ストリート・ファイター　リアル・バトル・オン・フィルム)
-		'Street Fighter Alpha - Warriors\' Dreams': ['Street Fighter Zero'], # (ストリート・ファイターＺＥＲＯ)
-		'Street Fighter Alpha 2': ['Street Fighter Zero 2'], # (ストリート・ファイターＺＥＲＯ２)
-		'Street Racer': ['Street Racer Extra'], # (ストリート・レーサー・エクストラ)
-		'Super Puzzle Fighter II Turbo': ['Super Puzzle Fighter II X'], # (スーパー・パズル・ファイターⅡX)
-		'Theme Park': ['Shin Theme Park'], # (新　テーマ・パーク)
-		'Thunderstrike 2': [
+        'Shining Force III': ['Shining Force III - Scenario 1 - Outo no Kyoshin'], # (シャイニング・フォースⅢ　シナリオ１　～王都の巨神～)
+        'Solar Eclipse': ['Titan Wars'],
+        'Sonic 3D Blast': ['Sonic 3D - Flickies\' Island'],
+        'Star Fighter': ['StarFighter 3000'],
+        'Street Fighter - The Movie': ['Street Fighter - Real Battle on Film'], # (ストリート・ファイター　リアル・バトル・オン・フィルム)
+        'Street Fighter Alpha - Warriors\' Dreams': ['Street Fighter Zero'], # (ストリート・ファイターＺＥＲＯ)
+        'Street Fighter Alpha 2': ['Street Fighter Zero 2'], # (ストリート・ファイターＺＥＲＯ２)
+        'Street Racer': ['Street Racer Extra'], # (ストリート・レーサー・エクストラ)
+        'Super Puzzle Fighter II Turbo': ['Super Puzzle Fighter II X'], # (スーパー・パズル・ファイターⅡX)
+        'Theme Park': ['Shin Theme Park'], # (新　テーマ・パーク)
+        'Thunderstrike 2': [
             'Firestorm - Thunderhawk 2',
             'Thunderhawk II', # (サンダーホークⅡ)
             ],
-		'TNN Motorsports HardCore 4x4': [
+        'TNN Motorsports HardCore 4x4': [
             'Deka Yonku - Tough the Truck', # (デカ４駆　～タフ・ザ・トラック～)
             'Hardcore 4x4',
             ],
-		'True Pinball': ['Tekkyuu - True Pinball'], # (鉄球　トゥルー・ピンボール)
-		'Tunnel B1': ['3D Mission Shooting - Finalist'], # (３Ｄミッション・シューティング　～ファイナリスト～)
-		'Valora Valley Golf': ['Hyper Golf, The - Devil\'s Course'], # (ザ・ハイパー・ゴルフ　～デビルズ・コース～)
-		'Virtua Fighter CG Portrait Collection': [
+        'True Pinball': ['Tekkyuu - True Pinball'], # (鉄球　トゥルー・ピンボール)
+        'Tunnel B1': ['3D Mission Shooting - Finalist'], # (３Ｄミッション・シューティング　～ファイナリスト～)
+        'Valora Valley Golf': ['Hyper Golf, The - Devil\'s Course'], # (ザ・ハイパー・ゴルフ　～デビルズ・コース～)
+            'Virtua Fighter CG Portrait Collection': [
             'Virtua Fighter CG Portrait Series - The Final - Dural', # (バーチャ・ファイター　ＣＧポートレート・シリーズ　Ｔｈｅ　Ｆｉｎａｌ　「デュラル」)
             'Virtua Fighter CG Portrait Series Vol. 1 - Sarah Bryant',  # (バーチャ・ファイター　ＣＧポートレート・シリーズ　Ｖｏｌ．１　「サラ・ブライアント」)
             'Virtua Fighter CG Portrait Series Vol. 10 - Jeffry McWild',  # (バーチャ・ファイター　ＣＧポートレート・シリーズ　Ｖｏｌ．１０　「ジェフリー・マクワイルト」)
@@ -1017,25 +1017,25 @@ def saturn_rename_list():
             'Virtua Fighter CG Portrait Series Vol. 8 - Lion Rafale', # (バーチャ・ファイター　ＣＧポートレート・シリーズ　Ｖｏｌ．８　「リオン・ラファール」)
             'Virtua Fighter CG Portrait Series Vol. 9 - Kage Maru', # (バーチャ・ファイター　ＣＧポートレート・シリーズ　Ｖｏｌ．９　「影丸」)
             ],
-		'Virtual Golf': ['Tournament Leader'], # (トーナメント・リーダー)
-		'Virtual On Cyber Troopers': [
+        'Virtual Golf': ['Tournament Leader'], # (トーナメント・リーダー)
+        'Virtual On Cyber Troopers': [
             'Dennou Senki - Virtual On - Cyber Troopers', # (電脳戦機バーチャロン)
             'Dennou Senki - Virtual On - Cyber Troopers for SegaNet', # (電脳戦機バーチャロン　フォー　セガネット)
             ],
-		'VR Golf \'97': ['Actua Golf'],
-		'VR Soccer': [
+        'VR Golf \'97': ['Actua Golf'],
+        'VR Soccer': [
             'Actua Soccer', # (アクチャー・サッカー)
             'Actua Soccer - Club Edition',
             ],
-		'Wing Arms': ['Wing Arms - Kareinaru Gekitsuiou'], # (ウイング・アームズ　～華麗なる撃墜王～)
-		'WipEout 2097': ['Wipeout XL'], # (ワイプアウトＸＬ)
-		'World Cup Golf - Professional Edition': ['World Cup Golf - In Hyatt Dorado Beach'], # (ワールド・カップ・ゴルフ　～イン・ハイアット・ドラドビーチ～)
-		'World Series Baseball': ['Hideo Nomo World Series Baseball'], # (野茂英雄ワールド・シリーズ・ベースボール)
-		'Worldwide Soccer \'98': ['Sega Worldwide Soccer \'98 - Club Edition'],
-		'Worldwide Soccer - Sega International Victory Goal Edition': [
+        'Wing Arms': ['Wing Arms - Kareinaru Gekitsuiou'], # (ウイング・アームズ　～華麗なる撃墜王～)
+        'WipEout 2097': ['Wipeout XL'], # (ワイプアウトＸＬ)
+        'World Cup Golf - Professional Edition': ['World Cup Golf - In Hyatt Dorado Beach'], # (ワールド・カップ・ゴルフ　～イン・ハイアット・ドラドビーチ～)
+        'World Series Baseball': ['Hideo Nomo World Series Baseball'], # (野茂英雄ワールド・シリーズ・ベースボール)
+        'Worldwide Soccer \'98': ['Sega Worldwide Soccer \'98 - Club Edition'],
+        'Worldwide Soccer - Sega International Victory Goal Edition': [
             'International Victory Goal',
             'Sega International Victory Goal', # (セガ　インターナショナル　ビクトリー・ゴール)
-        ]
+            ]
     }
 
 # Sony PlayStation
@@ -1052,15 +1052,24 @@ def psx_rename_list():
             '007 - Demain ne Meurt Jamais',
             '007 - Der Morgen Stirbt Nie',
             ],
-		'40 Winks': [
+		'1Xtreme': ['ESPN Street Games'], # (ＥＳＰＮ　ストリートゲームス)
+        '2Xtreme': ['Street Games \'97'], # (ストリート・ゲームス’９７)
+        '3D Baseball': ['3D Baseball - The Majors'], # (３Ｄベースボール　～ザ・メジャー～)
+        '40 Winks': [
             'Dream Story - Les Aventures de Tim et Lola',
             'Ruff & Tumble',
             ],
-		'A-Train - Trains, Power, Money': ['A.IV - Evolution Global'],
+		'A-Train - Trains, Power, Money': [
+            'A.IV - Evolution Global',
+            'A Ressha de Ikou 4 - Evolution Global', # (Ａ．Ⅳ．エヴォリューション・グローバル　～Ａ列車で行こう４グローバル～)
+            ],
 		'Action Man - Operation Extreme': ['Action Man - Mission Xtreme'],
-		'Adventures of Lomax, The': ['Lomax'],
+        'Aces of the Air': ['Simple 1500 Series Vol. 95 - The Hikouki'], # (ＳＩＭＰＬＥ１５００シリーズ Ｖｏｌ．９５　ＴＨＥ　飛行機)
+        'Adventures of Lomax, The': ['Lomax'],
 		'Agent Armstrong': ['Agent Armstrong - Himitsu Shirei Daisakusen'], # (エージェント・アームストロング　～秘密指令大作戦～)
-		'Alex Ferguson\'s Player Manager 2001': [
+		'Air Combat': ['Ace Combat'], # (エースコンバット)
+        'Air Hockey': ['SuperLite 1500 Series - Hooockey!!'], # (SuperLite 1500 シリーズ ホッケー！！)
+        'Alex Ferguson\'s Player Manager 2001': [
             'DSF Fussball Manager 2001',
             'Guy Roux Manager 2001',
             ],
@@ -1072,12 +1081,20 @@ def psx_rename_list():
             'Golden Goal 98',
             'Three Lions',
             ],
-		'All-Star Slammin\' D-ball': ['Super Slammin\' Dodgeball'],
-		'Alone in the Dark - One-Eyed Jack\'s Revenge': ['Alone in the Dark - Jack Is Back'],
+		'All-Star Slammin\' D-ball': [
+            'Simple 1500 Series Vol. 76 - The Dodgeball', # (ＳＩＭＰＬＥ１５００シリーズ　Ｖｏｌ．７６　～ＴＨＥ　ドッヂボール～)
+            'Super Slammin\' Dodgeball',
+            ],
+		'Alone in the Dark - One-Eyed Jack\'s Revenge': [
+            'Alone in the Dark - Jack Is Back',
+            'Alone in the Dark 2', # (アローン・イン・ザ・ダーク２)
+            ],
 		'Alundra 2 - A New Legend Begins': [
             'Alundra 2 - Der Beginn einer neuen Legende',
+            'Alundra 2 - Mashinka no Nazo', # (アランドラ2 魔進化の謎)
             'Alundra 2 - Une Legende Est Nee',
             ],
+        'American Pool': ['Nice Price Series Vol. 04 - Billiard King'], # (NICE PRICEシリーズ Vol.04 ビリヤード・キング)
 		'Amerzone - The Explorer\'s Legacy (Disc 1)': [
             'Amerzone, L\' (Disc 1)',
             'Amerzone - Das Testament des Forschungsreisenden (Disc 1)',
@@ -1092,15 +1109,25 @@ def psx_rename_list():
             'Amerzone - Il Testamento dell\'Esploratore (Disc 2)',
             'Amerzone - O Testamento do Explorador (Disc 2)',
             ],
-		'Ape Escape': ['Ape Escape - La Invasion de los Monos'],
-		'Army Men - Green Rogue': ['Army Men - Omega Soldier'],
+		'Ape Escape': [
+            'Ape Escape - La Invasion de los Monos',
+            'Saru! Get You!', # (サルゲッチュ)
+            ],
+        'Aquanaut\'s Holiday': ['Aquanaut no Kyuujitsu'], # (アクアノートの休日)
+        'Arc the Lad Collection - Arc Arena - Monster Tournament': ['Arc the Lad - Monster Game with Casino Game (Disc 1) (Monster Game)'], # (アークザラッド・モンスターゲーム ウィズ カジノ ゲーム)
+		'Arc the Lad Collection - Arc the Lad': ['Arc the Lad'], # (アークザラッド)
+        'Arc the Lad Collection - Arc the Lad II': ['Arc the Lad II'], # (アークザラッドII)
+        'Arc the Lad Collection - Arc the Lad III (Disc 1)': ['Arc the Lad III (Disc 1)'], # (アークザラッドⅢ)
+        'Arc the Lad Collection - Arc the Lad III (Disc 2)': ['Arc the Lad III (Disc 2)'], # (アークザラッドⅢ)
+        'Army Men - Green Rogue': ['Army Men - Omega Soldier'],
 		'Army Men - World War': ['Army Men - Operation Meltdown'],
 		'Army Men - World War - Final Front': ['Army Men - Lock \'n\' Load'],
 		'Army Men - World War - Land, Sea, Air': ['Army Men - Land, Sea, Air'],
 		'Army Men - World War - Team Assault': ['Army Men - Team Assault'],
 		'Assault - Retribution': ['Assault'],
 		'Asterix & Obelix Take on Caesar': ['Asterix & Obelix contro Cesare'],
-		'Atlantis - The Lost Tales (Disc 1)': [
+		'Asteroids': ['SuperLite 1500 Series - Asteroids'], # (SuperLite 1500 シリーズ アステロイド)
+        'Atlantis - The Lost Tales (Disc 1)': [
             'Atlantis - Das sagenhafte Abenteuer (Disc 1)',
             'Atlantis - Secrets d\'un Monde Oublie (Disc 1)',
             'Atlantis - Segreti d\'un Mondo Perduto (Disc 1)',
@@ -1115,10 +1142,13 @@ def psx_rename_list():
             'Atlantis - Secrets d\'un Monde Oublie (Disc 3)',
             'Atlantis - Segreti d\'un Mondo Perduto (Disc 3)',
             ],
-		'Backyard Soccer': ['Junior Sports Football'],
-		'Ball Breakers': ['MoHo'],
+		'Azure Dreams': ['Other Life Azure Dreams'], # (アザーライフ アザードリームス)
+        'Backyard Soccer': ['Junior Sports Football'],
+		'Baldies': ['Baldy Land'], # (ボールディ・ランド)
+        'Ball Breakers': ['MoHo'],
 		'Ballerburg - Castle Chaos': ['Ballerburg'],
-		'Barbie - Explorer': [
+		'Ballistic': ['Puzz Loop'], # (パズループ)
+        'Barbie - Explorer': [
             'Barbie - Aventuriere',
             'Barbie - Esploratrice',
             ],
@@ -1127,18 +1157,36 @@ def psx_rename_list():
             'Barbie - Sports Extreme',
             'Barbie - Super Sport',
             ],
-		'Batman Beyond - Return of the Joker': ['Batman of the Future - Return of the Joker'],
-		'Battle Hunter': ['Hunter, The'],
-		'Big Ol\' Bass 2': ['Fisherman\'s Bait 3'],
+        'Bases Loaded \'96 - Double Header': ['Moero!! Pro Yakyuu \'95 - Double Header'], # ()
+        'Bass Rise': ['Fishing Freaks - BassRise'], # (バスライズ)
+        'Batman Beyond - Return of the Joker': ['Batman of the Future - Return of the Joker'],
+        'Battle Arena Toshinden': ['Toushinden'], # (闘神伝)
+        'Battle Hunter': [
+            'Hunter, The',
+            'SuperLite 1500 Series - Battle Sugoroku the Hunter - A.R.0062', # (ＳｕｐｅｒＬｉｔｅ　１５００　シリーズ バトルすごろく ハンター Ａ.Ｒ.００６２)
+            ],
+		'Beyblade': ['Bakuten Shoot Beyblade - Bey Battle Tournament'], # (爆転シュート　ベイブレード　～ベイバトルトーナメント～)
+        'Big Bass World Championship': ['Super Black Bass X'], # (スーパーブラックバスX)
+        'Big League Slugger Baseball': [
+            'Baseball - Pro-nami Kusayakyuu!', # (ベースボール　～プロ並み草野球！～)
+            'Wai Wai Kusa Yakyuu', # (わいわい草野球)
+        ],
+        'Big Ol\' Bass 2': ['Fisherman\'s Bait 3'],
 		'Bishi Bashi Special': ['Bishi Bashi Special 2'], # (ビシバシスペシャル)
-		'Blaze & Blade - Eternal Quest': ['Legend of Foresia - La Contree Interdite'],
+		'Blast Chamber': ['Kyuu Bakukku'], # (きゅー爆っく)
+        'Blaze & Blade - Eternal Quest': ['Legend of Foresia - La Contree Interdite'],
 		'Block Buster': [
             'Block Kuzushi 2', # (ブロックくずし２)
             'Simple 1500 Series Vol. 45 - The Block Kuzushi 2', # (SIMPLE1500シリーズ Vol.45 THE ブロックくずし2)
             ],
+        'Blood Omen - Legacy of Kain': ['Kain the Vampire'], # (ケイン・ザ・ヴァンパイヤ)
 		'Bloody Roar': ['Bloody Roar - Hyper Beast Duel'],
 		'Bloody Roar II': ['Bloody Roar 2 - Bringer of the New Age'],
-		'Bob the Builder - Can We Fix It': [
+		'Board Game - Top Shop': [
+            'SuperLite 1500 Series - Tenant Wars Alpha - SuperLite 1500 Version', # (SuperLite 1500 シリーズ テナントウォーズα スーパーライト1500バージョン)
+            'Tenant Wars', # (テナントウォーズ)
+        ],
+        'Bob the Builder - Can We Fix It': [
             'Bob Aggiustatutto',
             'Bob le Bricoleur - Reparer C\'est Gagne!',
             'Byggare Bob - Kan Vi Fixa Det',
@@ -1148,9 +1196,22 @@ def psx_rename_list():
             ],
 		'Bogey - Dead 6': ['Raging Skies'],
 		'Bomberman - Party Edition': ['Bomberman'],
-		'Boxing': ['All Star Boxing'],
-		'Brahma Force - The Assault on Beltlogger 9': ['Brahma Force'],
-		'Bravo Air Race': ['Air Race'],
+		'Bottom of the 9th \'97': ['Jikkyou American Baseball'], # (実況アメリカンベースボール)
+        'Bottom of the 9th \'99': ['Jikkyou American Baseball 2'], # (実況アメリカンベースボール２)
+        'Bowling': ['Simple 1500 Series Vol. 18 - The Bowling'], # (SIMPLE1500シリーズ Vol.18 THE ボーリング)
+        'Boxing': [
+            'All Star Boxing',
+            'Simple 1500 Series Vol. 32 - The Boxing', # (SIMPLE1500シリーズ Vol.32 THE ボクシング)
+            ],
+		'Brahma Force - The Assault on Beltlogger 9': [
+            'Brahma Force',
+            'Beltlogger 9', # (ベルトロガー９)
+            ],
+		'Brave Fencer Musashi': ['Brave Fencer Musashiden'], # (ブレイヴフェンサー 武蔵伝)
+        'Bravo Air Race': [
+            'Air Race',
+            'Recipro Heat 5000', # (レシプロヒート５０００)
+            ],
 		'Breakout': ['Breakout - A Story of Bat Meets Ball...!'],
 		'Brian Lara Cricket': ['Shane Warne Cricket'],
 		'Broken Sword - The Shadow of the Templars': [
@@ -1165,7 +1226,8 @@ def psx_rename_list():
             'Broken Sword II - Las Fuerzas del Mal',
             ],
 		'Builder\'s Block': ['Land Maker'],
-		'Bust A Groove': [
+		'BursTrick - Wake Boarding!!': ['Simple 1500 Series Vol. 83 - The Wakeboard - BursTrick Wakeboarding!!'], # (SIMPLE1500シリーズ Vol.83 THE ウェイクボード ～バーストリック ウェイクボーディング!!～)
+        'Bust A Groove': [
             'Bust-A-Groove',
             'Bust A Move', # (バスト ア ムーブ)
             ],
