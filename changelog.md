@@ -1,13 +1,9 @@
 # 0.50
 - A huge architectural shift to move Retool to a 1G1R dat generator. Due to
-  this:
-  - Filtering by English titles is no longer mandatory. To only include English
-    titles in your dat, use the `-en` option.
-  - The `_regional_renames.py` file has been renamed to `_renames.py` and
+  this, the `_regional_renames.py` file has been renamed to `_renames.py` and
     massively expanded to take into account localized title dupes. The file has
     also been reorganized to make future dupe additions easier.
-- The `-re` and `-ra` options are now `-r` and `-s` respectively. Both split a
-  dat into separate regions, but `-r` dedupes, whereas `-s` keeps all titles.
+- The `-re`, `-ra`, and `-en` options have been removed.
 - The `-o` flag is no longer mandatory, and now defines an output folder.
   Output files are automatically named.
 - You can now remove alternate (Alt) titles with the `-l` option.
