@@ -1,4 +1,4 @@
-# Last updated: 08 Jan 2020
+# Last updated: 09 Jan 2020
 # An exclusion list for when games are the same as another region,
 # just renamed for another region/new title screens.
 

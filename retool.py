@@ -348,9 +348,9 @@ def help():
     print(font.bold + '-o' + font.end + '    Set an output folder            ' + font.bold + ' -a' + font.end + '   Don\'t include applications')
     print(font.bold + '-1' + font.end + '    Generate a CLRMAMEPro 1G1R dat  ' + font.bold + ' -d' + font.end + '   Don\'t include demos and coverdiscs')
     print(font.bold + '-en' + font.end + '   Only include English titles     ' + font.bold + ' -e' + font.end + '   Don\'t include educational titles')
-    print(font.bold + '-r' + font.end + '    Split into regional dats        ' + font.bold + ' -l' + font.end + '   Don\'t include titles with (Alt) tags')
-    print(font.bold + '-s' + font.end + '    Split into regional dats only,  ' + font.bold + ' -m' + font.end + '   Don\'t include multimedia titles')
-    print('      don\'t dedupe                     ' + font.bold + '-p' + font.end + '   Don\'t include betas and prototypes\n')
+    print(font.bold + '-s' + font.end + '    Split into regional dats only,  ' + font.bold + ' -l' + font.end + '   Don\'t include titles with (Alt) tags')
+    print('      don\'t look for clones            ' + font.bold + '-m' + font.end + '   Don\'t include multimedia titles')
+    print('                                       ' + font.bold + '-p' + font.end + '   Don\'t include betas and prototypes\n')
     sys.exit()
 
 # Check user input
@@ -617,36 +617,6 @@ def remove_by_language(language, subtitle1, subtitle2, title, regional_titles_da
             language.pop(0)
             remove_by_language(language, subtitle1, subtitle2, title, regional_titles_data, remove_list)
 
-# Set clone property cross region.
-def cloneof(title, raw_title, regional_titles, unique_list, region, region_list_english, region_list_other, unique_regional_titles):
-    if raw_title in regional_titles and raw_title in unique_list:
-        # Find out what the parent is. Not the best way to do this, but it's the easiest.
-        for regions in region_list_english + region_list_other:
-            if regions == region:
-                break
-            else:
-                if raw_title in unique_regional_titles[regions]:
-                    # Remove regions and languages to get best parent match
-                    remove_region_clone = title.category.parent['name'].replace(re.findall(' \(' + region + '.*?\)', title.category.parent['name'])[0],'')
-                    remove_languages_clone = re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv)\.*?)(,.*?\)|\)))', remove_region_clone)
-                    if len(remove_languages_clone) > 0:
-                        try:
-                            regionless_title_clone = remove_region_clone.replace(remove_languages_clone[0][0], '')
-                        except:
-                            regionless_title_clone = ''
-                    else:
-                        try:
-                            regionless_title_clone = remove_region_clone
-                        except:
-                            regionless_title_clone = ''
-                    for i, items in enumerate(unique_regional_titles[regions][raw_title]):
-                        if str(items.regionless_title) == regionless_title_clone and items.cloneof == 'None':
-                            return str(items.full_title)
-                        elif i == len(unique_regional_titles[regions][raw_title]) - 1:
-                            return 'None'
-    else:
-        return 'None'
-
 def parent_compare_more(test1, test2, parent_list, already_tested, x, y):
     if test1 > test2:
         # print('Removing: ' + y.full_title)
@@ -735,16 +705,10 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
 
         # If the title doesn't already exist, add it to the regional_titles_data dictionary as a one entry list
         if regional_titles_data.get(raw_title, -1) == -1:
-            cloneofstr ='None'
-            # cloneofstr = cloneof(title, raw_title, regional_titles, unique_list, region, region_list_english, region_list_other, unique_regional_titles)
-            regional_titles_data[raw_title] = [DatNode(str(title.category.parent['name']), region, title.category.contents[0], title.description.contents[0], newroms, cloneofstr, tag_strings)]
+            regional_titles_data[raw_title] = [DatNode(str(title.category.parent['name']), region, title.category.contents[0], title.description.contents[0], newroms, 'None', tag_strings)]
         # Otherwise there must be multiple discs or revisions present, so append the title to the existing list
         else:
             regional_titles_data[raw_title].append(DatNode(str(title.category.parent['name']), region, title.category.contents[0], title.description.contents[0], newroms, 'None', tag_strings))
-            # Modify the clone entry
-            cloneofstr ='None'
-            # cloneofstr = cloneof(title, raw_title, regional_titles, unique_list, region, region_list_english, region_list_other, unique_regional_titles)
-            regional_titles_data[raw_title][len(regional_titles_data.get(raw_title, -1)) - 1].cloneof = cloneofstr
 
     # Find the uniques
     if user_input.split_regions == False:
@@ -1061,36 +1025,6 @@ def merge_identical_list_items(list_dupes):
     list_dupes = list_dupes_temp
     return list_dupes
 
-# Uses a title to create its original XML node, dedupe versions
-def convert_to_xml(region, unique_regional_titles, titles, user_input):
-    final_title_xml = ''
-    if unique_regional_titles[region] != []:
-            progress = 0
-            progress_total = len(unique_regional_titles[region])
-
-            for title in unique_regional_titles[region]:
-                if title != 'unique_titles':
-                    for subtitle in unique_regional_titles[region][title]:
-                        if subtitle.cloneof == 'None':
-                            final_title_xml += '\t<game name="' + html.escape(subtitle.full_title, quote = False) + '">'
-                        else:
-                            final_title_xml += '\t<game name="' + html.escape(subtitle.full_title, quote = False) + '" cloneof="' + html.escape(subtitle.cloneof, quote = False) + '">'
-                        final_title_xml += '\n\t\t<category>' + html.escape(subtitle.category, quote = False) + '</category>'
-                        final_title_xml += '\n\t\t<description>' + html.escape(subtitle.description, quote = False) + '</description>'
-                        if user_input.one_game_one_rom == True:
-                            final_title_xml += '\n\t\t<release name="' + html.escape(subtitle.description, quote = False) + '" region="' + region + '"/>'
-
-                        for rom in subtitle.roms:
-                            final_title_xml += '\n\t\t<rom crc="' + rom.crc + '" md5="' + rom.md5 + '" name="' + html.escape(rom.name, quote = False) + '" sha1="' + rom.sha1 + '" size="' + rom.size + '"/>'
-                        final_title_xml += '\n\t</game>\n'
-
-                progress += 1
-                progress_percent = progress/progress_total*100
-                if user_input.one_game_one_rom == False:
-                    sys.stdout.write("\033[K")
-                    print('  * Adding unique titles from ' + region + '... ' + str(int(progress_percent)) + '%', sep='', end='\r', flush=True)
-    return final_title_xml
-
 # The actual file operations on the dat files
 def process_dats(user_input, tag_strings, region_list_english, region_list_other, is_folder):
     print(textwrap.TextWrapper(width=80, subsequent_indent='  ').fill('* Reading dat file: "' + font.bold + user_input.file_input + font.end + '"'))
@@ -1328,6 +1262,11 @@ def process_dats(user_input, tag_strings, region_list_english, region_list_other
                 print('  * Adding titles from ' + region + '... done.')
 
     unique_regional_titles['Unknown'] = localized_titles_unique('Unknown', region_list_english, region_list_other, titles['Unknown'], unique_list, unique_regional_titles, dupe_list, user_input, global_parent_list, tag_strings, all_titles_data)
+
+    if len(unique_regional_titles['Unknown']) > 1:
+        unknown_region_title_count = len(unique_regional_titles['Unknown']['unique_titles'])
+    else:
+        unknown_region_title_count = 0
 
     # Compare the parents cross-region once we're at the last region in the list
     if user_input.one_game_one_rom == True:
