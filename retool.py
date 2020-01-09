@@ -585,7 +585,12 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
         # Filter out titles based on user input flags
         if user_input.no_alts == True and re.search('(\(Alt\)|\(Alt [0-9]\))', title.category.parent['name']) != None: continue
         if user_input.no_apps == True and (title.category.contents[0] == 'Applications'): continue
-        if user_input.no_demos == True and (title.category.contents[0] == 'Demos' or title.category.contents[0] == 'Coverdiscs'): continue
+        if user_input.no_demos == True and (title.category.contents[0] == 'Demos'
+                                            or title.category.contents[0] == 'Coverdiscs'
+                                            or re.search('\(Demo\)', title.category.parent['name']) != None
+                                            or re.search('\(Taikenban\)', title.category.parent['name']) != None
+                                            or re.search('\(Sample\)', title.category.parent['name']) != None
+                                            ): continue
         if user_input.no_edu == True and (title.category.contents[0] == 'Educational'): continue
         if user_input.no_multi == True and (title.category.contents[0] == 'Multimedia'): continue
         if user_input.no_protos == True and (title.category.contents[0] == 'Preproduction'): continue
