@@ -4,6 +4,7 @@
 # There isn't much error checking in here, it's rough and only intended to
 # work for a limited use case.
 
+import html
 import lxml
 import os
 import re
@@ -123,7 +124,7 @@ def main():
                         ws[chr(ord(col)) + str(row)].alignment = Alignment(horizontal = 'right')
                         ws[chr(ord(col)) + str(row)] = '└'
 
-                    ws[chr(ord(col) + 1) + str(row)] = subitem
+                    ws[chr(ord(col) + 1) + str(row)] = html.unescape(subitem)
                     if i == len(parent_list_sorted[item]) - 1:
                         ws[chr(ord(col)) + str(row + 1)] = ''
                         row += 2
@@ -132,7 +133,7 @@ def main():
             col = 'C'
             row = 2
             for item in sorted(orphan_list):
-                ws[col + str(row)] = item
+                ws[col + str(row)] = html.unescape(item)
                 row += 1
 
             # Adjust column widths

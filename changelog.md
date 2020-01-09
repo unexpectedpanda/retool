@@ -72,6 +72,8 @@
 - Several bugs involving options flags were fixed.
 - The title count was missing when dats were split into regions. This is now fixed.
 - Bye bye ASCII logo. Vertical screen real estate is now more important.
+- Added CloneRel tool, that exports an Excel file from a dat to better display
+  existing parent/clone relationships.
 - Dealt with the "_King's Field_ problem". _King's Field (Japan)_ didn't get a
   Western release. _King's Field_ in the USA is known as _King's Field II_ in
   Japan. **_King's Field II_** in the USA is **_King's Field III_** in Japan.
