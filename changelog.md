@@ -7,11 +7,13 @@
 - The `-o` flag is no longer mandatory, and now defines an output folder.
   Output files are automatically named.
 - You can now remove alternate (Alt) titles with the `-l` option.
+- Expanded demo removal criteria, as Redump does not always put demos in the
+  "Demos" category.
 - Region processing is now much faster.
 - OEM titles that have a matching commercial title with the same name are now
   marked as clones.
-- Titles that aren't the latest revisions or versions are now removed. This
-  doesn't support release versioning, like 0.100 being larger than 0.99,
+- Titles that aren't the latest revisions or versions are now marked as clones.
+  This doesn't support release versioning, like 0.100 being larger than 0.99,
   however there's not much evidence of that style of versioning being used
   across Redump titles.
 - Titles that include multiple regions are now deduped, preferencing titles
