@@ -9,6 +9,8 @@ Redump project.
 * [How it works](#How-it-works)
 * [Working with _renames.py](#Working-with-_renamespy)
 * [FAQs](#FAQs)
+* [Known limitations](#Known-limitations)
+* [Clonerel](#Clonerel)
 
 ## Installation
 If you don't know Python or don't want to deal with code, download the
