@@ -1,61 +1,74 @@
-# Last updated: 09 Jan 2020
+# Last updated: 10 Jan 2020
 # An exclusion list for when games are the same as another region,
 # just renamed for another region/new title screens.
 
-# DVD-Video
-def dvd_video_rename_list():
-    return[
+# Arcade - Konami - M2
+def m2_rename_list():
+    return {
 
-    ]
+    }
 
 # Microsoft Xbox 360
 def x360_rename_list():
-    return [
+    return {
 
-    ]
+    }
 
 # Microsoft Xbox One
 def xbone_rename_list():
-    return [
+    return {
 
-    ]
+    }
 
 # Nintendo Wii
 def wii_rename_list():
-    return [
+    return {
 
-    ]
+    }
 
 # Nintendo Wii U
 def wii_u_rename_list():
-    return [
+    return {
 
-    ]
+    }
 
 # Sony PlayStation 3
 def ps3_rename_list():
-    return [
+    return {
 
-    ]
+    }
 
 # Sony PlayStation 4
 def ps4_rename_list():
-    return [
+    return {
 
-    ]
+    }
 
 # Sony PlayStation Portable
 def psp_rename_list():
-    return [
+    return {
 
-    ]
+    }
 
 # Apple Macintosh
 def mac_rename_list():
     return {
         # Atlantis - The Lost Tales isn't in Redump yet, may not have an English version > # 'Atlantis - Das sagenhafte Abenteuer',
         # Daedalus Encounter, The isn't in Redump yet, may not have an English version >  # 'Daedalus Encounter, The - Episode 1 - Nanpasen no Alien',
+        'Rayman 3 - Hoodlum Havoc': [
+            'Rayman 3 - Hoodlum Havoc (Disc 1)',
+            'Rayman 3 - Hoodlum Havoc (Disc 2)',
+            'Rayman 3 - Hoodlum Havoc (Disc 3)',
+        ],
         'Sims, The': ['SimPeople'],
+    }
+
+# Commodore Amiga CD 32
+def cd32_rename_list():
+    return {
+        'Chaos Engine, The': ['Chaos Engine, The (Spectacular Voyage)'],
+        'James Pond 3 - Operation Starfi5h': ['James Pond 3 - Operation Starfi5h (Kixx)'],
+        'Microcosm': ['Microcosm (Spectacular Voyage)']
     }
 
 # Microsoft Xbox

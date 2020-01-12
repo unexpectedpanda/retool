@@ -86,6 +86,17 @@ def main():
             for item in sort_list:
                 parent_list_sorted[item] = parent_list[item]
 
+
+            # Create a parents + orphans list for easier title comparison
+            # in the Excel file
+            parent_orphan_list = []
+
+            for item in parent_list_sorted.keys():
+                parent_orphan_list.append(item)
+
+            for item in orphan_list:
+                parent_orphan_list.append(item)
+
             # Create an Excel spreadsheet
             print('* Creating Excel file...')
             wb = Workbook()
@@ -98,21 +109,25 @@ def main():
 
             # Add the header
             ws.merge_cells('A1:B1')
-            ws['A1'] = 'Parents & clones'
+            ws['A1'] = 'Parents with clones'
             ws['C1'] = 'Orphans'
+            ws['D1'] = 'Parents with orphans'
             ws['A1'].font = Font(bold = True, color = 'ffffffff', size = '12')
             ws['A1'].fill = PatternFill("solid", fgColor="ff808080")
             ws['A1'].alignment = Alignment(vertical = 'center')
             ws['C1'].font = Font(bold = True, color = 'ffffffff', size = '12')
             ws['C1'].fill = PatternFill("solid", fgColor="ff808080")
             ws['C1'].alignment = Alignment(vertical = 'center')
+            ws['D1'].font = Font(bold = True, color = 'ffffffff', size = '12')
+            ws['D1'].fill = PatternFill("solid", fgColor="ff808080")
+            ws['D1'].alignment = Alignment(vertical = 'center')
             ws.row_dimensions[1].height = 20
             ws.freeze_panes = ws['A2']
 
-            # Populate parents and clones
+            # Populate parents that have clones
             for item in parent_list_sorted:
                 ws.merge_cells(col + str(row) + ':' + chr(ord(col) + 1) + str(row))
-                ws[col + str(row)] = item
+                ws[col + str(row)] = html.unescape(item)
                 ws[col + str(row)].font = Font(bold = True, size = 12)
 
                 for i, subitem in enumerate(sorted(parent_list_sorted[item])):
@@ -133,6 +148,13 @@ def main():
             col = 'C'
             row = 2
             for item in sorted(orphan_list):
+                ws[col + str(row)] = html.unescape(item)
+                row += 1
+
+            # Populate all parents
+            col = 'D'
+            row = 2
+            for item in sorted(parent_orphan_list):
                 ws[col + str(row)] = html.unescape(item)
                 row += 1
 

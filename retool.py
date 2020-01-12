@@ -18,6 +18,16 @@ if os.path.exists('_test.py'):
 else:
     import _renames # Dupes that have different names in different regions
 
+if os.path.exists('_testcomps.py'):
+    import _testcomps as _compilations
+else:
+    import _compilations # Compilations that don't have unique titles
+
+if os.path.exists('_testsupers.py'):
+    import _testsupers as _supersets
+else:
+    import _supersets
+
 # Require at least Python 3.5
 assert sys.version_info >= (3, 5)
 
@@ -175,7 +185,7 @@ class font:
 
 # Establish a class for user input
 class UserInput:
-    def __init__(self, file_input, file_output, no_demos, no_apps, no_protos, no_alts, no_multi, no_edu):
+    def __init__(self, file_input, file_output, no_demos, no_apps, no_protos, no_alts, no_multi, no_edu, no_comps, superset):
         self.file_input = file_input
         self.file_output = file_output
         self.no_demos = no_demos
@@ -184,6 +194,8 @@ class UserInput:
         self.no_multi = no_multi
         self.no_protos = no_protos
         self.no_edu = no_edu
+        self.no_comps = no_comps
+        self.superset = superset
 
 # Establish a class for title data
 class DatNode:
@@ -217,9 +229,13 @@ class DatNode:
                     # Change things so discs are ordered consistently
                     disc_alternative = disc_alternative.replace('Disco', 'Disc')
                     disc_alternative = disc_alternative.replace('Disc A', 'Disc 1')
+                    disc_alternative = disc_alternative.replace('Disc Uno', 'Disc 1')
                     disc_alternative = disc_alternative.replace('Disc B', 'Disc 2')
+                    disc_alternative = disc_alternative.replace('Disc Due', 'Disc 2')
                     disc_alternative = disc_alternative.replace('Disc C', 'Disc 3')
+                    disc_alternative = disc_alternative.replace('Disc Tre', 'Disc 3')
                     disc_alternative = disc_alternative.replace('Disc D', 'Disc 4')
+                    disc_alternative = disc_alternative.replace('Disc Quattro', 'Disc 4')
                     disc_alternative = disc_alternative.replace('Disc E', 'Disc 5')
                     disc_alternative = disc_alternative.replace('Disc F', 'Disc 6')
                     disc_alternative = disc_alternative.replace('Disc G', 'Disc 7')
@@ -328,12 +344,16 @@ def help():
     print('\nA new file is automatically generated, the original file isn\'t altered.')
     print('\nOPTIONS:')
     print(font.bold + '-o' + font.end + '    Set an output folder')
-    print(font.bold + '-a' + font.end + '    Don\'t include applications')
-    print(font.bold + '-d' + font.end + '    Don\'t include demos and coverdiscs')
-    print(font.bold + '-e' + font.end + '    Don\'t include educational titles')
-    print(font.bold + '-l' + font.end + '    Don\'t include titles with (Alt) tags')
-    print(font.bold + '-m' + font.end + '    Don\'t include multimedia titles')
-    print(font.bold + '-p' + font.end + '    Don\'t include betas and prototypes\n')
+    print('')
+    print(font.bold + '-a' + font.end + '    Remove applications')
+    print(font.bold + '-c' + font.end + '    Remove compilations that don\'t have unique titles')
+    print(font.bold + '-d' + font.end + '    Remove demos and coverdiscs')
+    print(font.bold + '-e' + font.end + '    Remove educational titles')
+    print(font.bold + '-l' + font.end + '    Remove titles with (Alt) tags')
+    print(font.bold + '-m' + font.end + '    Remove multimedia titles')
+    print(font.bold + '-p' + font.end + '    Remove betas and prototypes')
+    print(font.bold + '-s' + font.end + '    Promote supersets: make things like game of the')
+    print('      year editions parents of regular editions\n')
     sys.exit()
 
 # Check user input
@@ -342,17 +362,19 @@ def check_input():
 
     # Handle most user options
     flag_no_apps = True if len([x for x in sys.argv if x == '-a']) > 0 else False
+    flag_no_comps = True if len([x for x in sys.argv if x == '-c']) > 0 else False
     flag_no_demos = True if len([x for x in sys.argv if x == '-d']) > 0 else False
     flag_no_edu = True if len([x for x in sys.argv if x == '-e']) > 0 else False
     flag_no_alts = True if len([x for x in sys.argv if x == '-l']) > 0 else False
     flag_no_multi = True if len([x for x in sys.argv if x == '-m']) > 0 else False
     flag_no_protos = True if len([x for x in sys.argv if x == '-p']) > 0 else False
+    flag_superset = True if len([x for x in sys.argv if x == '-s']) > 0 else False
 
     # Handle input, output, and invalid options
     for i, x in enumerate(sys.argv):
         # Check that the options entered are valid
         if x.startswith('-'):
-            if not ((x == '-i') or (x == '-o') or (x == '-a') or (x == '-d') or (x == '-e') or (x == '-l') or (x == '-m') or (x == '-p')):
+            if not ((x == '-i') or (x == '-o') or (x == '-a') or (x == '-c') or (x == '-d') or (x == '-e') or (x == '-l') or (x == '-m') or (x == '-p') or (x == '-s')):
                 print(font.red + '* Invalid option ' + sys.argv[i] + font.end)
                 error_state = True
 
@@ -410,7 +432,7 @@ def check_input():
     if error_state == True:
         help()
 
-    return UserInput(input_file_name, output_folder_name, flag_no_demos, flag_no_apps, flag_no_protos, flag_no_alts, flag_no_multi, flag_no_edu)
+    return UserInput(input_file_name, output_folder_name, flag_no_demos, flag_no_apps, flag_no_protos, flag_no_alts, flag_no_multi, flag_no_edu, flag_no_comps, flag_superset)
 
 # Converts CLRMAMEPro format to XML
 def convert_clr_logiqx(clrmame_header, checkdat, is_folder):
@@ -550,9 +572,14 @@ def parent_compare_bool(test1, test2, parent_list, already_tested, x, y, date):
             return True
     elif date == 'date':
         if test1 == True or test2 == True:
-            clone_year = re.search('\(\d{8}\)', x.full_title).group()[1:-5]
-            clone_month = re.search('\(\d{8}\)', x.full_title).group()[5:-3]
-            clone_day = re.search('\(\d{8}\)', x.full_title).group()[7:-1]
+            if test1 == True:
+                clone_year = re.search('\(\d{8}\)', x.full_title).group()[1:-5]
+                clone_month = re.search('\(\d{8}\)', x.full_title).group()[5:-3]
+                clone_day = re.search('\(\d{8}\)', x.full_title).group()[7:-1]
+            if test2 == True:
+                clone_year = re.search('\(\d{8}\)', y.full_title).group()[1:-5]
+                clone_month = re.search('\(\d{8}\)', y.full_title).group()[5:-3]
+                clone_day = re.search('\(\d{8}\)', y.full_title).group()[7:-1]
 
             if int(clone_year) > 1970 and int(clone_month) >= 1 and int(clone_month) < 13 and int(clone_day) >= 1 and int(clone_day) < 32:
                 if test1 == True and test2 == False:
@@ -566,7 +593,7 @@ def parent_compare_bool(test1, test2, parent_list, already_tested, x, y, date):
 
 
 # Finds unique titles in regions, removes dupes
-def localized_titles_unique(region, region_list_english, region_list_other, titles, unique_list, unique_regional_titles, dupe_list, user_input, global_parent_list, tag_strings, all_titles_data):
+def localized_titles_unique(region, region_list_english, region_list_other, titles, unique_list, unique_regional_titles, dupe_list, comp_list, user_input, global_parent_list, tag_strings, all_titles_data):
     already_tested = []
     regional_titles = []
     regional_titles_data = {}
@@ -594,6 +621,15 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
         if user_input.no_edu == True and (title.category.contents[0] == 'Educational'): continue
         if user_input.no_multi == True and (title.category.contents[0] == 'Multimedia'): continue
         if user_input.no_protos == True and (title.category.contents[0] == 'Preproduction'): continue
+        if user_input.no_comps == True:
+            comp_title_check = False
+
+            for x in comp_list:
+             if x == title.category.parent['name']:
+                 comp_title_check = True
+
+            if comp_title_check == True:
+                continue
 
         # Build a dictionary so we don't have to go searching the XML again later
         roms = title.findChildren('rom', recursive=False)
@@ -1053,25 +1089,59 @@ def process_dats(user_input, tag_strings, region_list_english, region_list_other
     print('* Looking for parent titles...')
 
     # Set up dupe lists for titles that have the same content, but different names in different regions
+    # Set up compilation lists for compilations that have no unique titles
     dupe_list = {}
+    comp_list = []
+    superset_list = {}
 
-    if dat_name == 'Apple - Macintosh':
+    if dat_name == 'Arcade - Konami - M2':
+        dupe_list = _renames.m2_rename_list()
+        comp_list = _compilations.m2_compilation_list()
+        superset_list = _supersets.m2_superset_list()
+    elif dat_name == 'Apple - Macintosh':
         dupe_list = _renames.mac_rename_list()
-    elif dat_name == 'DVD-Video':
-        dupe_list = _renames.dvd_video_rename_list()
+        comp_list = _compilations.mac_compilation_list()
+        superset_list = _supersets.mac_superset_list()
+    elif dat_name == 'Commodore - Amiga CD':
+        dupe_list = _renames.amiga_cd_rename_list()
+        comp_list = _compilations.amiga_cd_compilation_list()
+        superset_list = _supersets.amiga_cd_superset_list()
+    elif dat_name == 'Commodore - Amiga CD32':
+        dupe_list = _renames.cd32_rename_list()
+        comp_list = _compilations.cd32_compilation_list()
+        superset_list = _supersets.cd32_superset_list()
+    elif dat_name == 'Commodore - Amiga CDTV':
+        dupe_list = _renames.cdtv_rename_list()
+        comp_list = _compilations.cdtv_compilation_list()
+        superset_list = _supersets.cdtv_superset_list()
+    elif dat_name == 'Fujitsu - FM-Towns':
+        dupe_list = _renames.fmt_rename_list()
+        comp_list = _compilations.fmt_compilation_list()
+        superset_list = _supersets.fmt_superset_list()
     elif dat_name == 'Microsoft - Xbox':
         dupe_list = _renames.xbox_rename_list()
+        comp_list = _compilations.xbox_compilation_list()
+        superset_list = _supersets.xbox_superset_list()
     elif dat_name == 'Microsoft - Xbox 360':
         dupe_list = _renames.x360_rename_list()
+        comp_list = _compilations.x360_compilation_list()
+        superset_list = _supersets.x360_superset_list()
     elif dat_name == 'Microsoft - Xbox One':
         dupe_list = _renames.xbone_rename_list()
+        comp_list = _compilations.xbone_compilation_list()
+        superset_list = _supersets.xbone_superset_list()
     elif dat_name == 'NEC - PC Engine CD & TurboGrafx CD':
         dupe_list = _renames.pce_rename_list()
+        comp_list = _compilations.pce_compilation_list()
+        superset_list = _supersets.pce_superset_list()
     elif (dat_name == 'Nintendo - GameCube'
         or dat_name == 'Nintendo - GameCube - NKit GCZ'
         or dat_name == 'Nintendo - GameCube - NKit ISO'
         or dat_name == 'Nintendo - GameCube - NASOS'):
             dupe_list = _renames.gamecube_rename_list()
+            comp_list = _compilations.gamecube_compilation_list()
+            superset_list = _supersets.gamecube_superset_list()
+
     elif (
         dat_name == 'Nintendo - Wii'
         or dat_name =='Nintendo - Wii - NKit GCZ'
@@ -1079,31 +1149,55 @@ def process_dats(user_input, tag_strings, region_list_english, region_list_other
         or dat_name =='Nintendo - Wii - NASOS'
         ):
             dupe_list = _renames.wii_rename_list()
+            comp_list = _compilations.wii_compilation_list()
+            superset_list = _supersets.wii_superset_list()
     elif (
         dat_name == 'Nintendo - Wii U'
         or dat_name =='Nintendo - Wii U - WUX'
         ):
             dupe_list = _renames.wii_u_rename_list()
+            comp_list = _compilations.wii_u_compilation_list()
+            superset_list = _supersets.wii_u_superset_list()
     elif dat_name == 'Panasonic - 3DO Interactive Multiplayer':
         dupe_list = _renames.threedo_rename_list()
+        comp_list = _compilations.threedo_compilation_list()
+        superset_list = _supersets.threedo_superset_list()
     elif dat_name == 'Philips - CD-i':
         dupe_list = _renames.cdi_rename_list()
+        comp_list = _compilations.cdi_compilation_list()
+        superset_list = _supersets.cdi_superset_list()
     elif dat_name == 'Sega - Dreamcast':
         dupe_list = _renames.dreamcast_rename_list()
+        comp_list = _compilations.dreamcast_compilation_list()
+        superset_list = _supersets.dreamcast_superset_list()
     elif dat_name == 'Sega - Mega CD & Sega CD':
         dupe_list = _renames.segacd_rename_list()
+        comp_list = _compilations.segacd_compilation_list()
+        superset_list = _supersets.segacd_superset_list()
     elif dat_name == 'Sega - Saturn':
         dupe_list = _renames.saturn_rename_list()
+        comp_list = _compilations.saturn_compilation_list()
+        superset_list = _supersets.saturn_superset_list()
     elif dat_name == 'Sony - PlayStation':
         dupe_list = _renames.psx_rename_list()
+        comp_list = _compilations.psx_compilation_list()
+        superset_list = _supersets.psx_superset_list()
     elif dat_name == 'Sony - PlayStation 2':
         dupe_list = _renames.ps2_rename_list()
+        comp_list = _compilations.ps2_compilation_list()
+        superset_list = _supersets.ps2_superset_list()
     elif dat_name == 'Sony - PlayStation 3':
         dupe_list = _renames.ps3_rename_list()
+        comp_list = _compilations.ps3_compilation_list()
+        superset_list = _supersets.ps3_superset_list()
     elif dat_name == 'Sony - PlayStation 4':
         dupe_list = _renames.ps4_rename_list()
+        comp_list = _compilations.ps4_compilation_list()
+        superset_list = _supersets.ps4_superset_list()
     elif dat_name == 'Sony - PlayStation Portable':
         dupe_list = _renames.psp_rename_list()
+        comp_list = _compilations.psp_compilation_list()
+        superset_list = _supersets.psp_superset_list()
 
     # Find unique parents in each region
     global_parent_list = {}
@@ -1112,11 +1206,11 @@ def process_dats(user_input, tag_strings, region_list_english, region_list_other
     for region in region_list_english + region_list_other:
         if titles[region] != []:
             print('  * Adding parents from ' + region + '...', sep='', end='\r', flush=True)
-        unique_regional_titles[region] = localized_titles_unique(region, region_list_english, region_list_other, titles[region], unique_list, unique_regional_titles, dupe_list, user_input, global_parent_list, tag_strings, all_titles_data)
+        unique_regional_titles[region] = localized_titles_unique(region, region_list_english, region_list_other, titles[region], unique_list, unique_regional_titles, dupe_list, comp_list, user_input, global_parent_list, tag_strings, all_titles_data)
         if titles[region] != []:
             print('  * Adding parents from ' + region + '... done.')
 
-    unique_regional_titles['Unknown'] = localized_titles_unique('Unknown', region_list_english, region_list_other, titles['Unknown'], unique_list, unique_regional_titles, dupe_list, user_input, global_parent_list, tag_strings, all_titles_data)
+    unique_regional_titles['Unknown'] = localized_titles_unique('Unknown', region_list_english, region_list_other, titles['Unknown'], unique_list, unique_regional_titles, dupe_list, comp_list, user_input, global_parent_list, tag_strings, all_titles_data)
 
     if len(unique_regional_titles['Unknown']) > 1:
         unknown_region_title_count = len(unique_regional_titles['Unknown']['unique_titles'])
@@ -1287,6 +1381,44 @@ def process_dats(user_input, tag_strings, region_list_english, region_list_other
 
     print('* Finding clones... done.')
 
+    # Merge superset titles into their subset group
+    if user_input.superset == True:
+        print('* Promoting supersets... ' + str(int(progress_percent)) + '%', sep='', end='\r', flush=True)
+
+        for key, value in superset_list.items():
+            # Get the full title of the superset parent
+            superset_parent = ''
+
+            if all_titles_data.get(value) != None:
+                print('Found the VALUE entry for ' + value)
+                # Find the parent title
+                for x in all_titles_data[value]:
+                    if x.cloneof == 'None':
+                        superset_parent = x.full_title
+
+                # Add the superset titles into the same dict key as the clones
+                for x in all_titles_data[value]:
+                    all_titles_data[key].append(x)
+
+                # Remove the superset title key
+                del all_titles_data[value]
+            else:
+                print('Guess there\'s no entry for ' + value)
+                # Find the parent title
+                for x in all_titles_data[key]:
+                    if x.rf_tag_strip_title == value and x.cloneof == 'None':
+                        superset_parent = x.full_title
+
+            # Apply the new parent to all the clones
+            for x in all_titles_data[key]:
+                if superset_parent=='':
+                    print('faaaark something went wront with ' + value)
+                if x.full_title != superset_parent and x.rf_tag_strip_title == key:
+                    x.cloneof = superset_parent
+
+        print('* Promoting supersets... done')
+
+
     # Convert to XML
     print('* Converting to XML...', sep='', end='\r', flush=True)
 
@@ -1358,14 +1490,16 @@ def process_dats(user_input, tag_strings, region_list_english, region_list_other
     dat_header_exclusion = ''
 
     dat_header_exclusion += ' [1G1R]'
-    if user_input.no_apps == True or user_input.no_demos == True or user_input.no_edu == True or user_input.no_multi == True or user_input.no_protos == True or user_input.no_alts == True:
+    if user_input.no_apps == True or user_input.no_demos == True or user_input.no_edu == True or user_input.no_multi == True or user_input.no_protos == True or user_input.no_alts == True or user_input.no_comps == True or user_input.superset == True:
         dat_header_exclusion += ' (-'
         if user_input.no_apps == True: dat_header_exclusion += 'a'
+        if user_input.no_comps == True: dat_header_exclusion += 'c'
         if user_input.no_demos == True: dat_header_exclusion += 'd'
         if user_input.no_edu == True: dat_header_exclusion += 'e'
         if user_input.no_alts == True: dat_header_exclusion += 'l'
         if user_input.no_multi == True: dat_header_exclusion += 'm'
         if user_input.no_protos == True: dat_header_exclusion += 'p'
+        if user_input.superset == True: dat_header_exclusion += 's'
 
         dat_header_exclusion += ')'
 
