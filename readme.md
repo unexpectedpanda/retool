@@ -3,6 +3,13 @@ Retool creates 1G1R versions of [Redump](http://redump.org/) dats, effectively
 deduping them by marking titles as parents or clones. This is not an official
 Redump project.
 
+* [Installation](#Installation)
+* [Usage](#Usage)
+  * [Options](#Options)
+* [How it works](#How-it-works)
+* [Working with _renames.py](#Working-with-_renames.py)
+* [FAQs](#FAQs)
+
 ## Installation
 If you don't know Python or don't want to deal with code, download the
 appropriate ZIP file in the `dist` folder for Windows or MacOS. Only 64-bit
@@ -37,18 +44,40 @@ Or for the binary version:
 **Note:** Some systems have the Python 3.x binary installed separately as
 `python3`. You might need to run this instead of `python`.
 
-## Options
-* `-1` Generate a CLRMAMEPro 1G1R dat
-* `-en` Only include English titles
-* `-a` Remove applications
-* `-d` Remove demos and coverdiscs
-* `-e` Remove educational
-* `-l` Remove titles with (Alt) tags
-* `-m` Remove multimedia
+### Options
 * `-o` Set an output folder
+* `-a` Remove applications
+* `-c` Remove compilations that don't have unique titles
+* `-d` Remove demos and coverdiscs
+* `-e` Remove educational titles
+* `-l` Remove titles with (Alt) tags
+* `-m` Remove multimedia titles
 * `-p` Remove betas and prototypes
-* `-r` Split dat into regional dats
-* `-s` Split dat into regional dats, don't dedupe
+* `-s` Promote supersets: make things like game of the year editions parents
+  of regular editions
+
+#### Extra information on options
+There are nuances within each of the options you should be aware of before
+using them.
+
+* **Demos** &mdash; Not only does this remove any title with a category of
+  _Demos_ or _Coverdiscs_, it will remove titles with _(Demo)_, _(Sample)_
+  or _(Taikenban)_ in the title, as sometimes Redump doesn't add demos to
+  the _Demos_ category, or will add them to another category that takes
+  priority like _Bonus Discs_.
+* **Compilations** &mdash; Compilations are discs that include multiple titles
+  that aren't part of the same game series. For example,
+  _Project-X & Ultimate Body Blows_. Importantly, they are not _collections_.
+  Collections tend to include the latest versions of a series of games, for
+  example, _Assassin's Creed - Ezio Trilogy_ includes _Assassin's Creed II_,
+  _Assassin's Creed - Brotherhood_, and _Assassin's Creed - Revelations_. If
+  you set `-c`, compilations will be removed, but collections will stay.
+* **Supersets** &mdash; Supersets include Game of the Year Editions, Special
+  Editions, expansions and refinements like _Ninja Gaiden Black_, and
+  collections (see the above dot point to understand the difference between
+  compilations and collections). The exception to supersets are fighting games:
+  there's so much rebalancing between fighting game editions, and such strong
+  preferences for different versions, it's worth keeping them all.
 
 ## How it works
 There are multiple stages for determining which title is a parent, and which is
@@ -121,6 +150,10 @@ Titles are also deduped if they span multiple regions, preferencing titles with
 more regions. For example, out of _Grim Fandango (USA)_ and
 _Grim Fandango (USA, Europe)_, the latter will be kept.
 
+If `-c` is set, then `_compilations.py` is referenced for the compilation
+title names to remove. If `-s` is set, then `_supersets.py` is referenced so
+original titles can be matched with their superset titles.
+
 ### By language
 Titles with the same name from the same region, but with different language
 sets are also handled. The rules are complex:
@@ -150,7 +183,7 @@ sets are also handled. The rules are complex:
   1. Hungarian
   1. Russian
 
-### Working with _renames.py
+## Working with _renames.py
 You only need to care about this if you're going to add your own clone titles
 for Retool to assign to parents.
 
@@ -215,7 +248,7 @@ having to do anything:
 * `Oddworld - Abe's Exoddus (Italy) (Disc 1)`
 * `Oddworld - Abe's Exoddus (USA) (Disc 1)`
 
-#### Excluding unintended title matches: the _King's Field_ problem
+### Excluding unintended title matches: the _King's Field_ problem
 While using short names has its benefits, it also has shortcomings.
 
 For example, take the _King's Field_ problem. The first _King's Field_ was only
@@ -242,7 +275,7 @@ King's Field III (Japan) |
 
 Fixing this is a two step process.
 
-##### Step one: excluding unintended matches for clone short names
+#### Step one: excluding unintended matches for clone short names
 First, let's look at `King's Field (USA)`. We want
 `King's Field II (Japan)` to be assigned to it as a clone, but not
 `King's Field II (USA)`. Here's how you do it.
@@ -261,7 +294,7 @@ against `King's Field II (USA)`, but it will still happily match with the
 needed `King's Field II (Japan)`. You can add as many excluded titles as you
 like &mdash; anything after the [0] position is considered an exclusion title.
 
-##### Step two: excluding unintended matches for parent short names
+#### Step two: excluding unintended matches for parent short names
 Now we need to rescue `King's Field (Japan)`, so it's not marked as a clone of
 `King's Field (USA)`. It's as simple as adding another entry to the list, but
 this time with the same short name as the parent.
@@ -317,29 +350,9 @@ I'm following a philosophy that the superset should be the primary title.
 Anything with less content is by definition secondary. At this stage,
 compilations aren't considered.
 
-#### When will you do the IBM dat?
-Never. PlayStation was big enough, IBM is insane for one person.
-
 ## Known limitations
 Be aware of the following limitations when using _Retool_. These might or
 might not be addressed in the future.
-
-#### Doesn't remove single titles in favor of compilation titles
-For example, _Assassin's Creed - Ezio Trilogy_ does not supersede
-_Assassin's Creed II_, _Assassin's Creed - Brotherhood_, and
-_Assassin's Creed - Revelations_. Both the original titles and the
-compilation will be kept.
-
-#### Can only follow Redump language tags
-If Redump missed tagging titles from regions where English isn't the region's
-first language (for example, Japan), those titles won't be included if you've
-set the `-en` flag.
-
-#### Will mark titles as dupes that have the same name in different regions, regardless of which version is better, or unique content
-For example, some versions of singing titles have additional local tracks, but
-because they share the same name, only one version of the title will be
-kept. Likewise, if a title from Europe has more content than its equivalent
-from the USA, but has the same name, the USA title will be kept.
 
 #### Titles marked with (Rerelease) tags are always clones
 At this stage it's unclear which of these are the newest version:
