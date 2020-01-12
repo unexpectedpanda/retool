@@ -7,7 +7,7 @@ Redump project.
 * [Usage](#Usage)
   * [Options](#Options)
 * [How it works](#How-it-works)
-* [Working with _renames.py](#Working-with-_renames.py)
+* [Working with _renames.py](#Working-with-_renamespy)
 * [FAQs](#FAQs)
 
 ## Installation
