@@ -58,7 +58,7 @@ Or for the binary version:
 * `-s` Promote supersets: make things like game of the year editions parents
   of regular editions
 
-#### Extra information on options
+#### More options information
 There are nuances within each of the options you should be aware of before
 using them.
 
@@ -103,7 +103,7 @@ title as a clone of disc 1 of the superset. As such, this option only makes
 sense if you intend to use the 1G1R function in CLRMAMEPro, where clones get
 excluded.
 
-Fighting games are excluded from supersets: there's so much rebalancing
+Fighting games are excluded from supersets. There's so much rebalancing
 between their editions, and such strong preferences for different versions,
 it's worth keeping them all.
 
