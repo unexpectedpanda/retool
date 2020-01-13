@@ -62,24 +62,50 @@ Or for the binary version:
 There are nuances within each of the options you should be aware of before
 using them.
 
-* **Demos** &mdash; Not only does this remove any title with a category of
-  _Demos_ or _Coverdiscs_, it will remove titles with _(Demo)_, _(Sample)_
-  or _(Taikenban)_ in the title, as sometimes Redump doesn't add demos to
-  the _Demos_ category, or will add them to another category that takes
-  priority like _Bonus Discs_.
-* **Compilations** &mdash; Compilations are discs that include multiple titles
-  that aren't part of the same game series. For example,
-  _Project-X & Ultimate Body Blows_. Importantly, they are not _collections_.
-  Collections tend to include the latest versions of a series of games, for
-  example, _Assassin's Creed - Ezio Trilogy_ includes _Assassin's Creed II_,
-  _Assassin's Creed - Brotherhood_, and _Assassin's Creed - Revelations_. If
-  you set `-c`, compilations will be removed, but collections will stay.
-* **Supersets** &mdash; Supersets include Game of the Year Editions, Special
-  Editions, expansions and refinements like _Ninja Gaiden Black_, and
-  collections (see the above dot point to understand the difference between
-  compilations and collections). The exception to supersets are fighting games:
-  there's so much rebalancing between fighting game editions, and such strong
-  preferences for different versions, it's worth keeping them all.
+##### Demos
+Not only does the `-d` option remove any title with a category of _Demos_ or
+_Coverdiscs_, it will remove titles with _(Demo)_, _(Sample)_ or _(Taikenban)_
+in the title. This is because Redump sometimes misses adding demos to the
+_Demos_ category, or adds them to another category that takes priority like
+_Bonus Discs_.
+
+##### Compilations
+Compilations are discs that include multiple titles that aren't part of the
+same game series. For example, the title _Project-X & Ultimate Body Blows_.
+Importantly, setting `-c` doesn't treat the following as compilations, and
+so doesn't remove them:
+
+* **Collections** &mdash; Collections are different from compilations, in that
+  they tend to include the latest versions of a series of games, for example,
+  _Assassin's Creed - Ezio Trilogy_ includes _Assassin's Creed II_,
+  _Assassin's Creed - Brotherhood_, and _Assassin's Creed - Revelations_.
+* **Demos** &mdash; Demo compilations are not removed with `-c`, but will be
+  removed if you set `-d`.
+
+Compilations are only removed if they contain no games that are unique in the
+current Redump set.
+
+##### Supersets
+Supersets include Game of the Year Editions, Special Editions, expansions and
+refinements of the original title (for example, _Ninja Gaiden Black_ compared
+to _Ninja Gaiden_), and collections of titles (refer to
+[Compilations](#Compilations) to understand the difference between compilations
+and collections).
+
+Setting the `-s` option makes the superset title the parent of the original
+title. For example,
+_Elder Scrolls III, The - Morrowind - Game of the Year Edition_ would become
+the parent of _Elder Scrolls III, The - Morrowind_.
+
+Because many supersets have more discs than the original title, setting
+up a proper parent/clone relationship often involves assigning the original
+title as a clone of disc 1 of the superset. As such, this option only makes
+sense if you intend to use the 1G1R function in CLRMAMEPro, where clones get
+excluded.
+
+Fighting games are excluded from supersets: there's so much rebalancing
+between their editions, and such strong preferences for different versions,
+it's worth keeping them all.
 
 ## How it works
 There are multiple stages for determining which title is a parent, and which is
@@ -196,9 +222,9 @@ There is a specific format for matching clones with parents in the
 'parent_rf_tag_strip_title': ['clone_rf_tag_strip_title_1', 'clone_rf_tag_strip_title_2']
 ```
 
-The `parent_rf_tag_strip_title` on the left is the parent's "region free tag strip
-title". From hereon in, we'll call it the "short name". It's the full Redump title,
-stripped of the following tags:
+The `parent_rf_tag_strip_title` on the left is the parent's "region free tag
+strip title". From hereon in, we'll call it the "short name". It's the full
+Redump title, stripped of the following tags:
 
 * (Region)
 * (Languages)
@@ -321,14 +347,14 @@ per the example below:
     ['Motor Toon Grand Prix', 'Motor Toon Grand Prix (Japan)'],
     ['Motor Toon Grand Prix', 'Motor Toon Grand Prix (Japan) (Rev 1)'],
     'Motor Toon Grand Prix 2',
-    'Motor Toon Grand Prix 2 (Disc 1)', # (モータートゥーン・グランプリ2)
-    'Motor Toon Grand Prix 2 (Disc 2) (Taisen Sen\'you Disc)', # (As far as I can find out, a second disc in the Japanese version you'd give to friends so you could play multiplayer)
-    'Motor Toon Grand Prix - USA Edition', # (モータートゥーン・グランプリ USAエディション)
+    'Motor Toon Grand Prix 2 (Disc 1)',
+    'Motor Toon Grand Prix 2 (Disc 2) (Taisen Sen\'you Disc)',
+    'Motor Toon Grand Prix - USA Edition',
     ],
 ```
 
 ## FAQs
-#### How did you figure out what the dupes were?
+#### How did you figure out what the clones were?
 I went through each dat's titles. I then used
 [Wikipedia](https://www.wikipedia.org),
 [Moby Games](https://www.mobygames.com),
@@ -338,7 +364,7 @@ I went through each dat's titles. I then used
 [PlayAsia](https://www.play-asia.com/), and good old web searching to turn up
 information. Occasionally I went through Redump's site for Japanese and Chinese
 characters for the titles, so I could do translations and find out the
-equivalent English titles. Later in the process I discovered
+equivalent English titles. At some point I discovered
 [FilterQuest](https://github.com/UnluckyForSome/FilterQuest), a similar tool,
 and added some missing titles from there.
 
@@ -372,8 +398,9 @@ ISO size.
 As such, rereleases are currently marked as clones.
 
 # Clonerel
-A small tool to help more easily visualize parent/clone relationships, to track
-down titles that haven't been assigned parents yet. Exports an Excel file.
+A small tool that helps you more easily visualize parent/clone relationships,
+to track down titles that haven't been assigned parents yet. Exports an Excel
+file.
 
 
 ## Installation
@@ -383,7 +410,8 @@ Clonerel uses openpyxl to generate an Excel file. Install it with `pip`.
 pip install openpyxl
 ```
 
-If you haven't already installed them for Retool, you'll need lxml and bs4 as well.
+If you haven't already installed them for Retool, you'll need lxml and bs4 as
+well.
 
 ```
 pip install bs4
