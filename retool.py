@@ -229,19 +229,22 @@ class DatNode:
         for string in tag_strings:
             if re.findall(string, tag_strip_title) != []:
                 if 'Disco' in string:
-                    disc_alternative = ''
                     if 'Uno' in string:
-                        disc_alternative = disc_alternative.replace('Disc Uno', 'Disc 1')
-                        tag_strip_title = tag_strip_title.replace(re.findall('\(Disco .*?\)', tag_strip_title)[0], disc_alternative)
+                        disc_alternative = re.search('\(Disco Uno\)', tag_strip_title).group()
+                        disc_alternative = disc_alternative.replace('Disco Uno', 'Disc 1')
+                        tag_strip_title = tag_strip_title.replace(re.findall('\(Disco Uno\)', tag_strip_title)[0], disc_alternative)
                     elif 'Due' in string:
-                        disc_alternative = disc_alternative.replace('Disc Due', 'Disc 2')
-                        tag_strip_title = tag_strip_title.replace(re.findall('\(Disco .*?\)', tag_strip_title)[0], disc_alternative)
+                        disc_alternative = re.search('\(Disco Due\)', tag_strip_title).group()
+                        disc_alternative = disc_alternative.replace('Disco Due', 'Disc 2')
+                        tag_strip_title = tag_strip_title.replace(re.findall('\(Disco Due\)', tag_strip_title)[0], disc_alternative)
                     elif 'Tre' in string:
-                        disc_alternative = disc_alternative.replace('Disc Tre', 'Disc 3')
-                        tag_strip_title = tag_strip_title.replace(re.findall('\(Disco .*?\)', tag_strip_title)[0], disc_alternative)
+                        disc_alternative = re.search('\(Disco Tres\)', tag_strip_title).group()
+                        disc_alternative = disc_alternative.replace('Disco Tre', 'Disc 3')
+                        tag_strip_title = tag_strip_title.replace(re.findall('\(Disco Tre\)', tag_strip_title)[0], disc_alternative)
                     elif 'Quattro' in string:
-                        disc_alternative = disc_alternative.replace('Disc Quattro', 'Disc 4')
-                        tag_strip_title = tag_strip_title.replace(re.findall('\(Disco .*?\)', tag_strip_title)[0], disc_alternative)
+                        disc_alternative = re.search('\(Disco Quattro\)', tag_strip_title).group()
+                        disc_alternative = disc_alternative.replace('Disco Quattro', 'Disc 4')
+                        tag_strip_title = tag_strip_title.replace(re.findall('\(Disco Quattro\)', tag_strip_title)[0], disc_alternative)
                     else:
                         disc_alternative = re.search('\(Disco [A-Z0-9]\)', tag_strip_title).group()
                         # Change things so discs are ordered consistently
@@ -1412,43 +1415,34 @@ def process_dats(user_input, tag_strings, region_list_english, region_list_other
             else:
                 raw_title = value.rstrip()
 
-            print('\n')
-            print('value: ' + value)
-            print('raw_title: ' + raw_title)
-            print('key: ' + key)
-            print(all_titles_data.get(raw_title))
-            input('>')
-
             if all_titles_data.get(raw_title) != None and raw_title != key:
-                print('Found the VALUE entry for ' + raw_title)
                 # Find the parent title
                 for x in all_titles_data[raw_title]:
-                    print(x)
                     if x.regionless_title == value and x.cloneof == 'None':
-                        print('I reckon I want this parent: ')
-                        print(x)
                         superset_parent = x.full_title
 
                 # Add the superset titles into the same dict key as the clones
+                for x in all_titles_data[key]:
+                    if x.full_title != superset_parent and x.rf_tag_strip_title == key:
+                        x.cloneof = superset_parent
+
                 for x in all_titles_data[raw_title]:
                     all_titles_data[key].append(x)
 
-                # Remove the superset title key
+                # Add the superset title to delete list
                 superset_delete.append(raw_title)
             else:
-                print('This must be the same name as the original parent: ' + raw_title)
-                print('Original parent: ' + key)
                 # Find the parent title
                 for x in all_titles_data[key]:
                     if x.regionless_title == value and x.cloneof == 'None':
                         superset_parent = x.full_title
 
-            # Apply the new parent to all the clones
-            for x in all_titles_data[key]:
-                if superset_parent=='':
-                    print('faaaark something went wrong with ' + raw_title)
-                if x.full_title != superset_parent and x.regionless_title == key:
-                    x.cloneof = superset_parent
+                # Apply the new parent to all the clones
+                for x in all_titles_data[key]:
+                    # if superset_parent=='':
+                    #     print('Something went wrong with ' + raw_title)
+                    if x.full_title != superset_parent and x.regionless_title == key:
+                        x.cloneof = superset_parent
 
         for x in superset_delete:
             try:
