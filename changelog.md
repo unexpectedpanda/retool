@@ -7,6 +7,8 @@
 - The `-o` flag is no longer mandatory, and now defines an output folder.
   Output files are automatically named.
 - You can now remove alternate (Alt) titles with the `-l` option.
+- You can now promote supersets (for example, Game of the Year editions) to
+  parents with the  `-s` option.
 - Expanded demo removal criteria, as Redump does not always put demos in the
   "Demos" category.
 - Region processing is now much faster.

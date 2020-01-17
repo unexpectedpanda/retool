@@ -1,4 +1,4 @@
-# Last updated: 14 Jan 2020
+# Last updated: 18 Jan 2020
 # An list of superset games, for example, Game of the Year editions, Special
 # editions, and so on.
 
@@ -11,6 +11,7 @@ def m2_superset_list():
 # Microsoft Xbox 360
 def x360_superset_list():
     return {
+
     }
 
 # Microsoft Xbox One
@@ -55,6 +56,11 @@ def mac_superset_list():
 
     }
 
+def chihiro_rename_list():
+    return {
+        # 'Sega Network Taisen Mahjong MJ3 Evolution': ['Sega Network Taisen Mahjong MJ3'], # Very likely a superset, but don't know for sure
+    }
+
 # Commodore Amiga CD
 def amiga_cd_superset_list():
     return {
@@ -82,15 +88,15 @@ def fmt_superset_list():
 # Microsoft Xbox
 def xbox_superset_list():
     return {
-        'Call of Duty 2 - Big Red One': ['Call of Duty 2 - Big Red One (Collector\'s Edition)'],
-        'Doom 3': 'Doom 3 (Limited Collector\'s Edition)',
-        'Elder Scrolls III, The - Morrowind': 'Elder Scrolls III, The - Morrowind - Game of the Year Edition',
-        'Fable': 'Fable - The Lost Chapters',
-        'Major League Baseball 2K5': 'Major League Baseball 2K5 - World Series Edition',
-        'Mashed - Drive to Survive': 'Mashed - Fully Loaded',
-        'Midnight Club 3 - DUB Edition': 'Midnight Club 3 - DUB Edition Remix',
-        'Need for Speed - Most Wanted': 'Need for Speed - Most Wanted - Black Edition',
-        'Ninja Gaiden': 'Ninja Gaiden Black',
+        'Call of Duty 2 - Big Red One (Collector\'s Edition)': ['Call of Duty 2 - Big Red One'],
+        'Doom 3 (Limited Collector\'s Edition)': ['Doom 3'],
+        'Elder Scrolls III, The - Morrowind - Game of the Year Edition': ['Elder Scrolls III, The - Morrowind'],
+        'Fable - The Lost Chapters': ['Fable'],
+        'Major League Baseball 2K5 - World Series Edition': ['Major League Baseball 2K5'],
+        'Mashed - Fully Loaded': ['Mashed - Drive to Survive'],
+        'Midnight Club 3 - DUB Edition Remix': ['Midnight Club 3 - DUB Edition'],
+        'Need for Speed - Most Wanted - Black Edition': ['Need for Speed - Most Wanted'],
+        'Ninja Gaiden Black': ['Ninja Gaiden'],
     }
 
 # NEC PC Engine CD & TurboGrafx CD
@@ -102,7 +108,7 @@ def pce_superset_list():
 # Nintendo GameCube
 def gamecube_superset_list():
     return {
-
+        'Phantasy Star Online Episode I & II Plus': ['Phantasy Star Online Episode I & II'],
     }
 
 # Panasonic 3DO

@@ -108,22 +108,22 @@ def main():
 
     # Define tag strings that could cause issues when looking for dupes
     tag_strings = [
-        '\s?\(Rev [0-9A-Z].*?\)\s?',
-        '\s?\(v[0-9A-Z].*?\)\s?',
-        '\s?\(Alt.*?\)\s?',
-        '\s?\(OEM\)\s?',
-        '\s?\(Hibaihin\)\s?',
-        '\s?\(Rerelease\)\s?',
+        '\s?\(Rev [0-9A-Z].*?\)',
+        '\s?\(v[0-9A-Z].*?\)',
+        '\s?\(Alt.*?\)',
+        '\s?\(OEM\)',
+        '\s?\(Hibaihin\)',
+        '\s?\(Rerelease\)',
         '\(Disco [A-Z0-9]\)',
         '\(Disco Uno\)',
         '\(Disco Due\)',
         '\(Disco Tre\)',
         '\(Disco Quattro\)',
-        '\s?\(\d{8}\)\s?',
+        '\s?\(\d{8}\)',
         '\(Disc [A-Z]\)',
         '\(Disc 0[0-9]\)',
-        '\s?\(Covermount\)\s?',
-        '\s?\(Sold Out Software\)\s?'
+        '\s?\(Covermount\)',
+        '\s?\(Sold Out Software\)'
         ]
 
     # If the user has defined an output folder
@@ -642,7 +642,9 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
                                             or title.category.contents[0] == 'Coverdiscs'
                                             or re.search('\(Demo\)', title.category.parent['name']) != None
                                             or re.search('\(Taikenban\)', title.category.parent['name']) != None
+                                            or re.search('\(@barai\)', title.category.parent['name']) != None
                                             or re.search('\(Sample\)', title.category.parent['name']) != None
+                                            or re.search('Trial Edition', title.category.parent['name']) != None
                                             ): continue
         if user_input.no_edu == True and (title.category.contents[0] == 'Educational'): continue
         if user_input.no_multi == True and (title.category.contents[0] == 'Multimedia'): continue
@@ -651,8 +653,8 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
             comp_title_check = False
 
             for x in comp_list:
-             if x == title.category.parent['name']:
-                 comp_title_check = True
+                if x == title.category.parent['name']:
+                    comp_title_check = True
 
             if comp_title_check == True:
                 continue
@@ -858,8 +860,6 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
                 for subtitle in regional_titles_data[title]:
                     if key + ' (Rev ' + str(value[0]) in subtitle.regionless_title and subtitle.full_title not in ver_title_delete:
                         rev_title_keep.append(subtitle.full_title)
-                        print(subtitle.full_title)
-                        input('>')
                     # Add original, unrevised title and its alts to delete list
                     if key == subtitle.regionless_title or bool(re.match(re.escape(key) + ' \(Alt.*?\)', subtitle.regionless_title)):
                         rev_title_delete.append(subtitle.full_title)
@@ -1147,6 +1147,8 @@ def process_dats(user_input, tag_strings, region_list_english, region_list_other
         dupe_list = _renames.m2_rename_list()
         comp_list = _compilations.m2_compilation_list()
         superset_list = _supersets.m2_superset_list()
+    elif dat_name == 'Arcade - Sega - Chihiro':
+        superset_list = _supersets.m2_superset_list()
     elif dat_name == 'Apple - Macintosh':
         dupe_list = _renames.mac_rename_list()
         comp_list = _compilations.mac_compilation_list()
@@ -1215,6 +1217,8 @@ def process_dats(user_input, tag_strings, region_list_english, region_list_other
         dupe_list = _renames.cdi_rename_list()
         comp_list = _compilations.cdi_compilation_list()
         superset_list = _supersets.cdi_superset_list()
+    elif dat_name == 'Philips - CD-i Digital Video':
+        dupe_list = _renames.cdi_dv_rename_list()
     elif dat_name == 'Sega - Dreamcast':
         dupe_list = _renames.dreamcast_rename_list()
         comp_list = _compilations.dreamcast_compilation_list()
@@ -1484,7 +1488,7 @@ def process_dats(user_input, tag_strings, region_list_english, region_list_other
     progress = 0
     progress_total = len(all_titles_data)
 
-    for title in all_titles_data:
+    for title in sorted(all_titles_data.keys()):
         progress += 1
         progress_percent = (progress/progress_total*100)
 
