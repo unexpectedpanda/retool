@@ -1,7 +1,6 @@
-# Last updated: 12 Jan 2020
+# Last updated: 14 Jan 2020
 # An list of superset games, for example, Game of the Year editions, Special
-# editions, and so on. Format goes:
-# 'Original title': 'Superset title'
+# editions, and so on.
 
 # Arcade - Konami - M2
 def m2_superset_list():

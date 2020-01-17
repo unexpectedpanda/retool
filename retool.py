@@ -112,6 +112,7 @@ def main():
         '\s?\(v[0-9A-Z].*?\)\s?',
         '\s?\(Alt.*?\)\s?',
         '\s?\(OEM\)\s?',
+        '\s?\(Hibaihin\)\s?',
         '\s?\(Rerelease\)\s?',
         '\(Disco [A-Z0-9]\)',
         '\(Disco Uno\)',
@@ -120,6 +121,7 @@ def main():
         '\(Disco Quattro\)',
         '\s?\(\d{8}\)\s?',
         '\(Disc [A-Z]\)',
+        '\(Disc 0[0-9]\)',
         '\s?\(Covermount\)\s?',
         '\s?\(Sold Out Software\)\s?'
         ]
@@ -262,7 +264,7 @@ class DatNode:
                         disc_alternative = disc_alternative.replace('Disc K', 'Disc 11')
                         disc_alternative = disc_alternative.replace('Disc L', 'Disc 12')
                         tag_strip_title = tag_strip_title.replace(re.findall('\(Disco [A-Z0-9]\)', tag_strip_title)[0], disc_alternative)
-                elif 'Disc' in string and 'Disco' not in string:
+                elif 'Disc' in string and 'Disco' not in string and 'Disc 0' not in string:
                     disc_alternative = re.search('\(Disc [A-Z]\)', tag_strip_title).group()
                     # Change things so discs are ordered consistently
                     disc_alternative = disc_alternative.replace('Disc A', 'Disc 1')
@@ -278,6 +280,13 @@ class DatNode:
                     disc_alternative = disc_alternative.replace('Disc K', 'Disc 11')
                     disc_alternative = disc_alternative.replace('Disc L', 'Disc 12')
                     tag_strip_title = tag_strip_title.replace(re.findall('\(Disc [A-Z]\)', tag_strip_title)[0], disc_alternative)
+                elif 'Disc 0' in string:
+                    disc_alternative = re.search('\(Disc 0[0-9]\)', tag_strip_title).group()
+                    disc_alternative = disc_alternative.replace('Disc 01', 'Disc 1')
+                    disc_alternative = disc_alternative.replace('Disc 02', 'Disc 2')
+                    disc_alternative = disc_alternative.replace('Disc 03', 'Disc 3')
+                    disc_alternative = disc_alternative.replace('Disc 04', 'Disc 4')
+                    tag_strip_title = tag_strip_title.replace(re.findall('\(Disc 0[0-9]\)', tag_strip_title)[0], disc_alternative)
                 elif string == '\s?\(\d{8}\)\s?':
                     # Really basic date validation
                     tag_year = re.search('\(\d{8}\)', tag_strip_title).group()[1:-5]
@@ -545,7 +554,7 @@ def remove_by_language(language, subtitle1, subtitle2, title, regional_titles_da
     if 'Europe' in subtitle1.regions and 'Europe' in subtitle2.regions and subtitle1.languages == '' and subtitle2.languages != '' and 'En' not in subtitle2.languages:
         if subtitle2 in regional_titles_data[title]: remove_list.append(subtitle2)
         return
-    elif  'Europe' in subtitle1.regions and 'Europe' in subtitle2.regions and subtitle2.languages == '' and subtitle1.languages != '' and 'En' not in subtitle1.languages:
+    elif 'Europe' in subtitle1.regions and 'Europe' in subtitle2.regions and subtitle2.languages == '' and subtitle1.languages != '' and 'En' not in subtitle1.languages:
         if subtitle1 in regional_titles_data[title]: remove_list.append(subtitle1)
         return
     # Otherwise take the title that has the language we're looking for
@@ -696,7 +705,12 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
             # Add titles that are just OEM versions of commercial titles to the remove list
             oem_string = re.findall(' \(OEM\).*', y.regionless_title)
             if oem_string != []:
-                if y.regionless_title == x.regionless_title + oem_string[0] or y.regionless_title.replace(oem_string[0],'') == x.regionless_title.replace(' (Rerelease)', ''):
+                if y.regionless_title == x.rf_tag_strip_title + oem_string[0] or y.regionless_title.replace(oem_string[0],'') == x.rf_tag_strip_title.replace(' (Rerelease)', ''):
+                    remove_list.append(y)
+
+            hibaihin_string = re.findall(' \(Hibaihin\).*', y.regionless_title)
+            if hibaihin_string != []:
+                if y.regionless_title == x.rf_tag_strip_title + hibaihin_string[0] or y.regionless_title.replace(hibaihin_string[0],'') == x.rf_tag_strip_title.replace(' (Rerelease)', ''):
                     remove_list.append(y)
 
             # Add titles that have dupes with additional regions or languages to the remove list
@@ -714,13 +728,27 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
                 else:
                     remove_by_language(['En', 'Es', 'Fr', 'Ja', 'Pt', 'De', 'It', 'Sv', 'Da', 'No', 'Pl', 'Gr', 'Nl', 'Fi', 'Ch', 'Hr', 'Ru'], x, y, title, regional_titles_data, remove_list)
 
-        # Now process OEM and additional region/language titles
+        # Dedupe remove_list
+        remove_list_temp = []
+
+        for x in remove_list:
+            if x not in remove_list_temp:
+                remove_list_temp.append(x)
+
+        remove_list = remove_list_temp
+
+        # Get the titles in the remove list
+        remove_list_titles = []
+        for x in remove_list:
+            remove_list_titles.append(x.full_title)
+
+        # Process additional region/language titles
         parent_titles = [x for x in regional_titles_data[title] if x not in remove_list]
 
         for item in remove_list:
             if item in regional_titles_data[title]:
                 for parent in parent_titles:
-                    if item.regionless_title == parent.regionless_title and item.cloneof == 'None':
+                    if item.rf_tag_strip_title == parent.rf_tag_strip_title and item.cloneof == 'None':
                         item.cloneof = parent.full_title
 
         # Remove or set clone status of older versions and revisions of titles
@@ -729,7 +757,7 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
 
         # Get the highest version
         for subtitle in regional_titles_data[title]:
-            if bool(re.match('.*?\(v[0-9].*?$', subtitle.full_title)):
+            if bool(re.match('.*?\(v[0-9].*?$', subtitle.full_title)) == True:
                 ver_title = re.findall('.*?\(v[0-9]', subtitle.regionless_title)[0][:-4]
 
                 highest_version.setdefault(ver_title, [])
@@ -745,17 +773,18 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
         if len(highest_version) > 0:
             for key, value in highest_version.items():
                 for subtitle in regional_titles_data[title]:
-                    if key + ' (v' + str(value[0]) in subtitle.regionless_title:
+                    if key + ' (v' + str(value[0]) in subtitle.regionless_title and subtitle.full_title not in remove_list_titles:
                         ver_title_keep.append(subtitle.full_title)
                     # Add original, unrevised title and its alts to delete list
-                    if key == subtitle.regionless_title or bool(re.match(re.escape(key) + ' \(Alt.*?\)', subtitle.regionless_title)):
+                    if key == subtitle.regionless_title or bool(re.match(re.escape(key) + ' \(Alt.*?\)', subtitle.regionless_title)) or subtitle.full_title in remove_list_titles:
                         ver_title_delete.append(subtitle.full_title)
-                # If there are multiple titles with the same version but different languages, take the one
-                # with English. If more than one has English, take the one with the most languages
+                # Start removing titles that aren't the highest version
                 ver_title_keep_temp = []
                 for item in ver_title_keep:
                     ver_title_keep_temp.append(item)
 
+                # If there are multiple titles with the same version but different languages, take the one
+                # with English. If more than one has English, take the one with the most languages
                 for x, y in itertools.combinations(ver_title_keep_temp, 2):
                     x2 = x.replace(re.findall(' \(' + region + '.*?\)', x)[0],'')
                     remove_languages = re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv)\.*?)(,.*?\)|\)))', x)
@@ -827,8 +856,10 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
         if len(highest_revision) > 0:
             for key, value in highest_revision.items():
                 for subtitle in regional_titles_data[title]:
-                    if key + ' (Rev ' + str(value[0]) in subtitle.regionless_title:
+                    if key + ' (Rev ' + str(value[0]) in subtitle.regionless_title and subtitle.full_title not in ver_title_delete:
                         rev_title_keep.append(subtitle.full_title)
+                        print(subtitle.full_title)
+                        input('>')
                     # Add original, unrevised title and its alts to delete list
                     if key == subtitle.regionless_title or bool(re.match(re.escape(key) + ' \(Alt.*?\)', subtitle.regionless_title)):
                         rev_title_delete.append(subtitle.full_title)
@@ -880,6 +911,7 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
         # Create refined parent list
         parent_list = {}
 
+        # Add titles to the refined parent list
         for x in regional_titles_data[title]:
             if x.full_title in rough_parent_list:
                 parent_list[x] = regional_titles_data[title]
@@ -1400,55 +1432,48 @@ def process_dats(user_input, tag_strings, region_list_english, region_list_other
 
     print('* Finding clones... done.')
 
-    # Merge superset titles into their subset group
+    # If there are superset titles, delete the subset titles
     if user_input.superset == True:
         print('* Promoting supersets... ' + str(int(progress_percent)) + '%', sep='', end='\r', flush=True)
+
         superset_delete = []
 
         for key, value in superset_list.items():
-            # Get the full title of the superset parent
-            superset_parent = ''
+            for x in value:
+                superset_parent = ''
 
-            # See if a raw_title version of the value exists
-            if value.find('(') != -1:
-                raw_title = value[:(value.find('(') - 1)].rstrip()
-            else:
-                raw_title = value.rstrip()
+                # Get the raw title of the key
+                if key.find('(') != -1:
+                    key_raw_title = key[:(key.find('(') - 1)].rstrip()
+                else:
+                    key_raw_title = key.rstrip()
 
-            if all_titles_data.get(raw_title) != None and raw_title != key:
-                # Find the parent title
-                for x in all_titles_data[raw_title]:
-                    if x.regionless_title == value and x.cloneof == 'None':
-                        superset_parent = x.full_title
+                # Get the raw title the value
+                if x.find('(') != -1:
+                    value_raw_title = x[:(x.find('(') - 1)].rstrip()
+                else:
+                    value_raw_title = x.rstrip()
 
-                # Add the superset titles into the same dict key as the clones
-                for x in all_titles_data[key]:
-                    if x.full_title != superset_parent and x.rf_tag_strip_title == key:
-                        x.cloneof = superset_parent
+                if all_titles_data.get(key_raw_title) != None and key_raw_title != x:
+                    # Find the parent title of the superset
+                    for y in all_titles_data[key_raw_title]:
+                        if y.regionless_title == key and y.cloneof == 'None':
+                            superset_parent = y.full_title
 
-                for x in all_titles_data[raw_title]:
-                    all_titles_data[key].append(x)
+                    # Set the clones of the titles that are now subordinate to the superset
+                    for y in all_titles_data[value_raw_title]:
+                        if y.full_title != superset_parent and y.rf_tag_strip_title == x:
+                            y.cloneof = superset_parent
+                else:
+                    # Find the parent title of what will be the new set of clones
+                    for y in all_titles_data[value_raw_title]:
+                        if y.regionless_title == key and y.cloneof == 'None':
+                            superset_parent = y.full_title
 
-                # Add the superset title to delete list
-                superset_delete.append(raw_title)
-            else:
-                # Find the parent title
-                for x in all_titles_data[key]:
-                    if x.regionless_title == value and x.cloneof == 'None':
-                        superset_parent = x.full_title
-
-                # Apply the new parent to all the clones
-                for x in all_titles_data[key]:
-                    # if superset_parent=='':
-                    #     print('Something went wrong with ' + raw_title)
-                    if x.full_title != superset_parent and x.regionless_title == key:
-                        x.cloneof = superset_parent
-
-        for x in superset_delete:
-            try:
-                del all_titles_data[x]
-            except:
-                pass
+                    # Apply the new parent to all the clones
+                    for y in all_titles_data[value_raw_title]:
+                        if y.full_title != superset_parent and y.rf_tag_strip_title == x:
+                            y.cloneof = superset_parent
 
         print('* Promoting supersets... done')
 

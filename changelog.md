@@ -10,8 +10,8 @@
 - Expanded demo removal criteria, as Redump does not always put demos in the
   "Demos" category.
 - Region processing is now much faster.
-- OEM titles that have a matching commercial title with the same name are now
-  marked as clones.
+- OEM and Hibaihin titles that have a matching commercial title with the same
+  name are now marked as clones.
 - Titles that aren't the latest revisions or versions are now marked as clones.
   This doesn't support release versioning, like 0.100 being larger than 0.99,
   however there's not much evidence of that style of versioning being used
