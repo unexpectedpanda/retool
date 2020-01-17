@@ -99,13 +99,17 @@ the parent of _Elder Scrolls III, The - Morrowind_.
 
 Because many supersets have more discs than the original title, setting
 up a proper parent/clone relationship often involves assigning the original
-title as a clone of disc 1 of the superset. As such, this option only makes
-sense if you intend to use the 1G1R function in CLRMAMEPro, where clones get
-excluded.
+title as a clone of disc one of the superset.
 
-Fighting games are excluded from supersets. There's so much rebalancing
-between their editions, and such strong preferences for different versions,
-it's worth keeping them all.
+###### Superset exclusions
+
+* Fighting games are excluded from supersets. There's so much rebalancing
+  between their editions, and such strong preferences for different versions,
+  it's worth keeping them all.
+* Even though it's incredibly Anglo-centric, if a superset of an
+  English-speaking title doesn't exist in a Redump dat yet, the standard
+  English title won't get demoted under, say, the German version of the
+  superset title.
 
 ## How it works
 There are multiple stages for determining which title is a parent, and which is
@@ -232,10 +236,6 @@ Redump title, stripped of the following tags:
 * (Revision)
 * (Date)
 
-For matching purposes, disc names are also normalised so everything is
-`(Disc 1)`, `(Disc 2)`, `(Disc 3)` and so on, instead of `Disc A`, `Disco A`,
-`Disco Uno` and other variants.
-
 Using the parent short name, Retool goes through the titles list in region order
 until it finds the first title that matches. This becomes a parent.
 
@@ -275,6 +275,15 @@ having to do anything:
 * `Oddworld - Abe's Exoddus (Germany) (Disc 1)`
 * `Oddworld - Abe's Exoddus (Italy) (Disc 1)`
 * `Oddworld - Abe's Exoddus (USA) (Disc 1)`
+
+### Disc order
+During the matching process, disc names are normalised. That is, everything
+becomes `(Disc 1)`, `(Disc 2)`, `(Disc 3)` and so on, instead of variants such
+as `(Disc A)`, `(Disco A)`, `(Disc 01)`, and `(Disco Uno)`. While this is great
+to help match titles automatically, it does mean that when you're setting a
+clone's short name in `_renames.py`, you will need to manually change
+non-standard disc names in the title to the standard (for example, `(Disco 1)`
+ to `(Disc 1)`) to get a match.
 
 ### Excluding unintended title matches: the _King's Field_ problem
 While using short names has its benefits, it also has shortcomings.
@@ -355,7 +364,7 @@ per the example below:
 
 ## FAQs
 #### How did you figure out what the clones were?
-I went through each dat's titles. I then used
+I went through each dat's titles to find obvious clones. I then used
 [Wikipedia](https://www.wikipedia.org),
 [Moby Games](https://www.mobygames.com),
 [Retroplace](https://www.retroplace.com), [GameTDB](https://www.gametdb.com),
