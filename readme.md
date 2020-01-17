@@ -64,8 +64,15 @@ using them.
 
 ##### Demos
 Not only does the `-d` option remove any title with a category of _Demos_ or
-_Coverdiscs_, it will remove titles with _(Demo)_, _(Sample)_ or _(Taikenban)_
-in the title. This is because Redump sometimes misses adding demos to the
+_Coverdiscs_, it will remove titles that contain the following:
+
+* _(@barai)_
+* _(Demo)_
+* _(Sample)_
+* _(Taikenban)_
+* _Trial Edition_
+
+This is because Redump sometimes misses adding demos to the
 _Demos_ category, or adds them to another category that takes priority like
 _Bonus Discs_.
 
@@ -405,6 +412,13 @@ on multiple CDs were later released on DVD, which can only be determined by
 ISO size.
 
 As such, rereleases are currently marked as clones.
+
+#### Disc ring codes for NEC PC Engine CD & TurboGrafx CD, Saturn
+
+It's unclear whether disc ring codes represent a different version of the game
+or not. As such, I've generally assigned the the higher alphabetical name to
+the parent. For example, `SABS` is higher than `SAAS`, `3S` is higher than
+`2S`.
 
 # Clonerel
 A small tool that helps you more easily visualize parent/clone relationships,

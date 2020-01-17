@@ -1,4 +1,4 @@
-# Last updated: 10 Jan 2020
+# Last updated: 18 Jan 2020
 # An exclusion list for compilations that don't feature unique games.
 # All compilations are listed, but those with unique games are commented out.
 
@@ -23,7 +23,7 @@ def xbone_compilation_list():
 # Nintendo Wii
 def wii_compilation_list():
     return [
-        # '2 in 1 - Meine Tierpension + Meine Tiersprechstunde',
+
     ]
 
 # Nintendo Wii U
@@ -71,28 +71,44 @@ def cd32_compilation_list():
         'Project-X & Ultimate Body Blows (Europe)',
     ]
 
+# Commodore Amiga CDTV
+def cdtv_compilation_list():
+    return [
+
+    ]
+
+# Fujitsu FM-Towns
+def fmt_compilation_list():
+    return [
+
+    ]
+
 # Microsoft Xbox
 def xbox_compilation_list():
     return [
-
+        'Sega GT 2002 + JSRF - Jet Set Radio Future  (USA) (En,Ja)',
+        'Star Wars - The Clone Wars + Tetris Worlds (USA)',
     ]
 
 # NEC PC Engine CD & TurboGrafx CD
 def pce_compilation_list():
     return [
-
+        # 'Gate of Thunder + Bonk\'s Adventure + Bonk\'s Revenge (USA)',
     ]
 
 # Nintendo GameCube
 def gamecube_compilation_list():
     return [
-        # Compilations
-        # '2 Games in 1 - Nickelodeon SpongeBob Schwammkopf - Der Film + Nickelodeon Tak 2 - Der Stab der Traeume',
-        # '2 Games in 1 - Bob L\'eponge - Le Film + Tak 2 - Le Sceptre des Reves',
-        # '2 Games in 1 - Nickelodeon SpongeBob Schwammkopf - Der Film + Nickelodeon SpongeBob Schwammkopf - Schlacht um Bikini Bottom',
-        # '2 Games in 1 - Disney-Pixar Die Unglaublichen + Disney-Pixar Findet Nemo',
-        # '2 Games in 1 - Disney-Pixar Les Indestructibles + Disney-Pixar Le Monde de Nemo',
-
+        '2 Games in 1 - Bob L\'eponge - Le Film + Tak 2 - Le Sceptre des Reves (France) (Disc 1) (Bob L\'eponge - Le Film)',
+        '2 Games in 1 - Bob L\'eponge - Le Film + Tak 2 - Le Sceptre des Reves (France) (Disc 2) (Tak 2 - Le Sceptre des Reves)',
+        '2 Games in 1 - Disney-Pixar Die Unglaublichen + Disney-Pixar Findet Nemo (Germany) (Disc 1)',
+        '2 Games in 1 - Disney-Pixar Die Unglaublichen + Disney-Pixar Findet Nemo (Germany) (Disc 2)',
+        '2 Games in 1 - Disney-Pixar Les Indestructibles + Disney-Pixar Le Monde de Nemo (France) (Disc 1) (Les Indestructibles)',
+        '2 Games in 1 - Disney-Pixar Les Indestructibles + Disney-Pixar Le Monde de Nemo (France) (Disc 2) (Le Monde de Nemo)',
+        '2 Games in 1 - Nickelodeon SpongeBob Schwammkopf - Der Film + Nickelodeon SpongeBob Schwammkopf - Schlacht um Bikini Bottom (Germany) (Disc 1)',
+        '2 Games in 1 - Nickelodeon SpongeBob Schwammkopf - Der Film + Nickelodeon SpongeBob Schwammkopf - Schlacht um Bikini Bottom (Germany) (Disc 2)',
+        '2 Games in 1 - Nickelodeon SpongeBob Schwammkopf - Der Film + Nickelodeon Tak 2 - Der Stab der Traeume (Germany) (Disc 1)',
+        '2 Games in 1 - Nickelodeon SpongeBob Schwammkopf - Der Film + Nickelodeon Tak 2 - Der Stab der Traeume (Germany) (Disc 2)',
     ]
 
 # Panasonic 3DO
@@ -128,7 +144,6 @@ def saturn_compilation_list():
 # Sony PlayStation
 def psx_compilation_list():
     return [
-        # Compilations
         # Simple 1500 Series Vol. 75 - The Double Shooting - RayStorm x RayCrisis
 
     ]
