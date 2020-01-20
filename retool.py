@@ -120,7 +120,7 @@ def main():
         '\(Disco Tre\)',
         '\(Disco Quattro\)',
         '\s?\(\d{8}\)',
-        '\(Disc [A-Z]\)',
+        '\(Disc [A-Z].*?\)',
         '\(Disc 0[0-9]\)',
         '\s?\(Covermount\)',
         '\s?\(Sold Out Software\)'
@@ -256,36 +256,28 @@ class DatNode:
                         disc_alternative = disc_alternative.replace('Disc C', 'Disc 3')
                         disc_alternative = disc_alternative.replace('Disc D', 'Disc 4')
                         disc_alternative = disc_alternative.replace('Disc E', 'Disc 5')
-                        disc_alternative = disc_alternative.replace('Disc F', 'Disc 6')
-                        disc_alternative = disc_alternative.replace('Disc G', 'Disc 7')
-                        disc_alternative = disc_alternative.replace('Disc H', 'Disc 8')
-                        disc_alternative = disc_alternative.replace('Disc I', 'Disc 9')
-                        disc_alternative = disc_alternative.replace('Disc J', 'Disc 10')
-                        disc_alternative = disc_alternative.replace('Disc K', 'Disc 11')
-                        disc_alternative = disc_alternative.replace('Disc L', 'Disc 12')
                         tag_strip_title = tag_strip_title.replace(re.findall('\(Disco [A-Z0-9]\)', tag_strip_title)[0], disc_alternative)
                 elif 'Disc' in string and 'Disco' not in string and 'Disc 0' not in string:
-                    disc_alternative = re.search('\(Disc [A-Z]\)', tag_strip_title).group()
+                    disc_alternative = re.search('\(Disc [A-Z].*?\)', tag_strip_title).group()
                     # Change things so discs are ordered consistently
                     disc_alternative = disc_alternative.replace('Disc A', 'Disc 1')
+                    disc_alternative = disc_alternative.replace('Disc I', 'Disc 1')
                     disc_alternative = disc_alternative.replace('Disc B', 'Disc 2')
+                    disc_alternative = disc_alternative.replace('Disc 1I', 'Disc 2')
                     disc_alternative = disc_alternative.replace('Disc C', 'Disc 3')
+                    disc_alternative = disc_alternative.replace('Disc 1II', 'Disc 3')
                     disc_alternative = disc_alternative.replace('Disc D', 'Disc 4')
+                    disc_alternative = disc_alternative.replace('Disc 1V', 'Disc 4')
                     disc_alternative = disc_alternative.replace('Disc E', 'Disc 5')
-                    disc_alternative = disc_alternative.replace('Disc F', 'Disc 6')
-                    disc_alternative = disc_alternative.replace('Disc G', 'Disc 7')
-                    disc_alternative = disc_alternative.replace('Disc H', 'Disc 8')
-                    disc_alternative = disc_alternative.replace('Disc I', 'Disc 9')
-                    disc_alternative = disc_alternative.replace('Disc J', 'Disc 10')
-                    disc_alternative = disc_alternative.replace('Disc K', 'Disc 11')
-                    disc_alternative = disc_alternative.replace('Disc L', 'Disc 12')
-                    tag_strip_title = tag_strip_title.replace(re.findall('\(Disc [A-Z]\)', tag_strip_title)[0], disc_alternative)
+                    disc_alternative = disc_alternative.replace('Disc V', 'Disc 5')
+                    tag_strip_title = tag_strip_title.replace(re.findall('\(Disc [A-Z].*?\)', tag_strip_title)[0], disc_alternative)
                 elif 'Disc 0' in string:
                     disc_alternative = re.search('\(Disc 0[0-9]\)', tag_strip_title).group()
                     disc_alternative = disc_alternative.replace('Disc 01', 'Disc 1')
                     disc_alternative = disc_alternative.replace('Disc 02', 'Disc 2')
                     disc_alternative = disc_alternative.replace('Disc 03', 'Disc 3')
                     disc_alternative = disc_alternative.replace('Disc 04', 'Disc 4')
+                    disc_alternative = disc_alternative.replace('Disc 05', 'Disc 5')
                     tag_strip_title = tag_strip_title.replace(re.findall('\(Disc 0[0-9]\)', tag_strip_title)[0], disc_alternative)
                 elif string == '\s?\(\d{8}\)\s?':
                     # Really basic date validation
@@ -1192,7 +1184,6 @@ def process_dats(user_input, tag_strings, region_list_english, region_list_other
             dupe_list = _renames.gamecube_rename_list()
             comp_list = _compilations.gamecube_compilation_list()
             superset_list = _supersets.gamecube_superset_list()
-
     elif (
         dat_name == 'Nintendo - Wii'
         or dat_name =='Nintendo - Wii - NKit GCZ'

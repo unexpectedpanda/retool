@@ -55,7 +55,7 @@ Or for the binary version:
 * `-l` Remove titles with (Alt) tags
 * `-m` Remove multimedia titles
 * `-p` Remove betas and prototypes
-* `-s` Promote supersets: make things like game of the year editions parents
+* `-s` Promote supersets: make things like Game of the Year editions parents
   of regular editions
 
 #### More options information
@@ -83,10 +83,15 @@ Importantly, setting `-c` doesn't treat the following as compilations, and
 so doesn't remove them:
 
 * **Collections** &mdash; Collections are different from compilations, in that
-  they tend to include the latest versions of a series of games, for example,
+  they tend to include the latest versions of a series of games. For example,
   _Assassin's Creed - Ezio Trilogy_ includes _Assassin's Creed II_,
-  _Assassin's Creed - Brotherhood_, and _Assassin's Creed - Revelations_.
-* **Demos** &mdash; Demo compilations are not removed with `-c`, but will be
+  _Assassin's Creed - Brotherhood_, _Assassin's Creed - Revelations_, and some
+  DLC. As a rule of thumb, at least three games should be in a collection. If
+  a collection only contains the original release of its games, not the
+  expanded editions (for example, _Assassin's Creed - Heritage Collection_
+  doesn't include the _Assassin's Creed II - Game of the Year_ DLC), then it is
+  demoted to a compilation.
+* **Demos** &mdash; Demo compilations aren't removed with `-c`, but will be
   removed if you set `-d`.
 
 Compilations are only removed if they contain no games that are unique in the
@@ -95,9 +100,9 @@ current Redump set.
 ##### Supersets
 Supersets include Game of the Year Editions, Special Editions, expansions and
 refinements of the original title (for example, _Ninja Gaiden Black_ compared
-to _Ninja Gaiden_), and collections of titles (refer to
-[Compilations](#Compilations) to understand the difference between compilations
-and collections).
+to _Ninja Gaiden_), 32X versions of Sega CD games, and collections of titles
+(refer to [Compilations](#Compilations) to understand the difference between
+compilations and collections).
 
 Setting the `-s` option makes the superset title the parent of the original
 title. For example,
@@ -377,7 +382,8 @@ I went through each dat's titles to find obvious clones. I then used
 [Retroplace](https://www.retroplace.com), [GameTDB](https://www.gametdb.com),
 [VDGB](https://vgdb.io), [VGM](https://www.video-games-museum.com),
 [YouTube](https://www.youtube.com), [Amazon.jp](https://www.amazon.co.jp),
-[PlayAsia](https://www.play-asia.com/), and good old web searching to turn up
+[PlayAsia](https://www.play-asia.com/),
+[Sega Retro](https://segaretro.org/), and good old web searching to turn up
 information. Occasionally I went through Redump's site for Japanese and Chinese
 characters for the titles, so I could do translations and find out the
 equivalent English titles. At some point I discovered
