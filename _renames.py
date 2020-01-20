@@ -684,20 +684,10 @@ def threedo_rename_list():
 
         # Another World isn't in Redump yet > 'Out of This World', # Isn't in Redump yet >  'Outer World', # (アウター・ワールド)
         'Alone in the Dark': ['Alone in the Dark (NTSC Version)'],
-        # Bust-A-Move isn't in Redump yet > 'Puzzle Bobble', # (パズルボブル)
-		'Bust-A-Move 2': ['Puzzle Bobble 2X'], # (パズル・ボブル２Ｘ)
-		'Bust-A-Move 3': [
-            'Puzzle Bobble 3',
-            'Puzzle Bobble 3 for SegaNet',
-            ],
-		'Center Ring Boxing': ['King of Boxing, The'], # (キング・オブ・ボクシング)
-		'Clockwork Knight 2 - Pepperouchau\'s Adventure': ['Clockwork Knight - Pepperouchau no Daibouken Gekan'], # (クロックワーク・ナイト　～ペパルーチョの福袋～)
-		'Crash \'n Burn (Not for Resale)': ['Crash \'n Burn'],
-        'Creature Shock - Special Edition': ['Creature Shock'], # (クリーチャー・ショック)
-		'Croc - Legend of the Gobbos': ['Croc! Pau-Pau Island'], # (クロック！　～パウパウ・アイランド～)
-		'Crypt Killer': ['Henry Explorers'], # (ヘンリーエ・クスプローラーズ)
-		'Cyber Speedway': ['Gran Chaser'], # (グラン・チェイサー)
-		'D (Disc 1)': ['D no Shokutaku (Disc 1)'], # (Ｄの食卓)
+
+        'Crash \'n Burn (Not for Resale)': ['Crash \'n Burn'],
+        'Cyber Speedway': ['Gran Chaser'], # (グラン・チェイサー)
+        'D (Disc 1)': ['D no Shokutaku (Disc 1)'], # (Ｄの食卓)
         'D (Disc 2)': ['D no Shokutaku (Disc 2)'], # (Ｄの食卓)
 		'Daedalus Encounter, The (Disc 1)': ['Daedalus Encounter, The - Episode 1 - Nanpasen no Alien (Disc 1)'], # (デイドラス　～エピソード１：難破船のエイリアン～)
         'Daedalus Encounter, The (Disc 2)': ['Daedalus Encounter, The - Episode 1 - Nanpasen no Alien (Disc 2)'], # (デイドラス　～エピソード１：難破船のエイリアン～)
