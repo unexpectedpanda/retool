@@ -28,6 +28,7 @@ open Terminal, Command Prompt, or whatever the CLI is on your system, and type:
 pip install bs4
 pip install lxml
 ```
+
 ### Troubleshooting pip
 * Some systems have multiple versions of Python installed. You might need to
 run `pip3` instead of `pip`.
@@ -397,8 +398,22 @@ set.
 
 #### Shouldn't you preference less regions in multi-region titles, or less languages in multi-language titles?
 I'm following a philosophy that the superset should be the primary title.
-Anything with less content is by definition secondary. At this stage,
-compilations aren't considered.
+Anything with less content is by definition secondary. This is also why I
+added the [superset](#Supersets) option.
+
+#### What do the warnings about clones and parents not matching mean?
+This will likely happen if the version of the Redump dat you're using doesn't
+match the one that the clone lists were compiled from. A 1G1R dat file will
+still be generated, it just means Redump renamed or removed something, and so a
+parent/clone relationship was lost.
+
+The older the `_*.py` files get, the less accurate the 1G1R dat becomes
+when generated from the most recent Redump dats. You should be able to fix most
+issues by updating the `_*.py` files.
+
+In the ideal world, Redump takes this work as a basis for their own
+parent/clone project and works the removal options into a Dat-O-Matic-style
+interface, extincting this tool in the process.
 
 ## Known limitations
 Be aware of the following limitations when using _Retool_. These might or
@@ -419,12 +434,13 @@ ISO size.
 
 As such, rereleases are currently marked as clones.
 
-#### Disc ring codes for NEC PC Engine CD & TurboGrafx CD, Saturn
+#### Disc ring codes
 
-It's unclear whether disc ring codes represent a different version of the game
-or not. As such, I've generally assigned the the higher alphabetical name to
-the parent. For example, `SABS` is higher than `SAAS`, `3S` is higher than
-`2S`.
+It's unclear whether disc ring codes represent a different version of a game,
+or just a different pressing. For the sake of order, I've assigned ring codes
+with the highest name as the parent. For example, `SABS` is higher than `SAAS`,
+`3S` is higher than `2S`. For grouped ring codes, `1S, 4S` is treated as higher
+than `2S`.
 
 # Clonerel
 A small tool that helps you more easily visualize parent/clone relationships,
