@@ -1440,10 +1440,6 @@ def process_dats(user_input, tag_strings, region_list_english, region_list_other
         # Now add back in any titles that should be parents and not clones
         if len(exclude_title) > 0:
             for x in exclude_title:
-                # This really shouldn't live here... if there's more than one title this is needed
-                # for, best to abstract and put somewhere else
-                if x.full_title == 'Motor Toon Grand Prix (Japan)':
-                    x.cloneof = 'Motor Toon Grand Prix (Japan) (Rev 1)'
                 all_titles_data[x.rf_tag_strip_title].append(x)
 
         # Apply manual overrides for clones that aren't handled by the automated processing
