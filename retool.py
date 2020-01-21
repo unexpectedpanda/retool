@@ -1375,21 +1375,25 @@ def process_dats(user_input, tag_strings, region_list_english, region_list_other
         exclude_title = []
 
         # Look up the dupe list raw title entries
+        check_parent_match = False
         for key, value in dupe_list.items():
             sys.stdout.write("\033[K")
             print('* Finding clones... ' + str(int(progress_percent)) + '%', sep='', end='\r', flush=True)
             for title in all_titles_data:
                 for x in all_titles_data[title]:
                     if key == x.rf_tag_strip_title and x.cloneof == 'None':
+                        check_parent_match = True
                         # x is the parent title
                         # Now find the full_title of the rf_tag_strip_titles found in dupe_list
                         for y in value:
+                            check_clone_match = False
                             for z in all_titles_data:
                                 for a in all_titles_data[z]:
                                     # If there's a string in dupe_list, just process it
                                     if type(y) is str:
                                         if a.rf_tag_strip_title == y:
                                             # a is the clone title
+                                            check_clone_match = True
                                             a.cloneof = x.full_title
                                     # Otherwise it's a list, where [0] is the clone rf_tag_strip_title,
                                     # and all other entries are full_title entries whose cloneof entry
@@ -1415,6 +1419,15 @@ def process_dats(user_input, tag_strings, region_list_english, region_list_other
                                         # clone to none.
                                         elif a.full_title in y:
                                             a.cloneof = 'None'
+                            if check_clone_match != True:
+                                print(font.bold + font.yellow + 'x No match for clone in _rename.py: ' + y + font.end)
+                            else:
+                                check_clone_match = False
+
+            if check_parent_match != True:
+                print(font.bold + font.yellow + 'x No match for parent in _rename.py: ' + key + font.end)
+            else:
+                check_parent_match = False
 
         # Now add back in any titles that should be parents and not clones
         if len(exclude_title) > 0:

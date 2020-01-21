@@ -18,8 +18,8 @@ from openpyxl.utils import cell as Cell
 
 def main():
     os.system('cls' if os.name == 'nt' else 'clear')
-    print(font.bold + '\nCloneRel 0.1' + font.end)
-    print('------------')
+    print(font.bold + '\nCloneRel 0.11' + font.end)
+    print('-------------')
 
     if len(sys.argv) == 1:
         print(
@@ -173,8 +173,12 @@ def main():
             ws.column_dimensions[Cell.get_column_letter(1)].width = 5
 
             # Write the file to disk
-            print('* Outputting to "' + font.bold + input_file_name + '.xlsx"' + font.end + '...')
-            wb.save(input_file_name + '.xlsx')
+            py_file = sys.argv[0]
+            path_name = os.path.dirname(py_file)
+            file_path = os.path.join(path_name, os.path.basename(input_file_name)[:-3] + 'xlsx')
+            print('* Outputting to "' + file_path + font.end + '...')
+            wb.save(file_path)
+            # wb.save(input_file_name + '.xlsx')
             print('\nDone!')
 
 ############### Classes and methods ###############
