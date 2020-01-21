@@ -28,6 +28,8 @@ if os.path.exists('_testsupers.py'):
 else:
     import _supersets
 
+import _overrides
+
 # Require at least Python 3.5
 assert sys.version_info >= (3, 5)
 
@@ -1134,6 +1136,8 @@ def process_dats(user_input, tag_strings, region_list_english, region_list_other
     dupe_list = {}
     comp_list = []
     superset_list = {}
+    override_list = {}
+    superset_override_list = {}
 
     if dat_name == 'Arcade - Konami - M2':
         dupe_list = _renames.m2_rename_list()
@@ -1226,10 +1230,13 @@ def process_dats(user_input, tag_strings, region_list_english, region_list_other
         dupe_list = _renames.psx_rename_list()
         comp_list = _compilations.psx_compilation_list()
         superset_list = _supersets.psx_superset_list()
+        override_list = _overrides.psx_override_list()
     elif dat_name == 'Sony - PlayStation 2':
         dupe_list = _renames.ps2_rename_list()
         comp_list = _compilations.ps2_compilation_list()
         superset_list = _supersets.ps2_superset_list()
+        override_list = _overrides.ps2_override_list()
+        superset_override_list = _overrides.ps2_superset_override_list()
     elif dat_name == 'Sony - PlayStation 3':
         dupe_list = _renames.ps3_rename_list()
         comp_list = _compilations.ps3_compilation_list()
@@ -1420,7 +1427,8 @@ def process_dats(user_input, tag_strings, region_list_english, region_list_other
                                         elif a.full_title in y:
                                             a.cloneof = 'None'
                             if check_clone_match != True:
-                                print(font.bold + font.yellow + 'x No match for clone in _rename.py: ' + y + font.end)
+                                if type(y) is str:
+                                    print(font.bold + font.yellow + 'x No match for clone in _rename.py: ' + y + font.end)
                             else:
                                 check_clone_match = False
 
@@ -1437,6 +1445,16 @@ def process_dats(user_input, tag_strings, region_list_english, region_list_other
                 if x.full_title == 'Motor Toon Grand Prix (Japan)':
                     x.cloneof = 'Motor Toon Grand Prix (Japan) (Rev 1)'
                 all_titles_data[x.rf_tag_strip_title].append(x)
+
+        # Apply manual overrides for clones that aren't handled by the automated processing
+        if override_list != {}:
+            for key, value in override_list.items():
+                for x in all_titles_data:
+                    for y in all_titles_data[x]:
+                        if y.full_title == key:
+                            y.cloneof = 'None'
+                        if y.full_title in value:
+                            y.cloneof = key
 
     print('* Finding clones... done.')
 
@@ -1482,6 +1500,16 @@ def process_dats(user_input, tag_strings, region_list_english, region_list_other
                     for y in all_titles_data[value_raw_title]:
                         if y.full_title != superset_parent and y.rf_tag_strip_title == x:
                             y.cloneof = superset_parent
+
+        # Apply manual overrides for superset that aren't handled by the automated processing
+        if superset_override_list != {}:
+            for key, value in superset_override_list.items():
+                for x in all_titles_data:
+                    for y in all_titles_data[x]:
+                        if y.full_title == key:
+                            y.cloneof = 'None'
+                        if y.full_title in value:
+                            y.cloneof = key
 
         print('* Promoting supersets... done')
 
