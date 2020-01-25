@@ -1,4 +1,4 @@
-# Last updated: 18 Jan 2020
+# Last updated: 25 Jan 2020
 # An exclusion list for compilations that don't feature unique games.
 # All compilations are listed, but those with unique games are commented out.
 
@@ -138,18 +138,29 @@ def dreamcast_compilation_list():
 # Sega Saturn
 def saturn_compilation_list():
     return [
-
+        'Clockwork Knight - Pepperouchau no Fukubukuro (Japan)',
+        'Pad Nifty 1.1 & Habitat II (Japan)',
+        # Wangan Dead Heat + Real Arrange (Japan) (Disc 1)
+        # Wangan Dead Heat + Real Arrange (Japan) (Disc 2) (Addition)
     ]
 
 # Sony PlayStation
 def psx_compilation_list():
     return [
+        # Compilations
         # Simple 1500 Series Vol. 75 - The Double Shooting - RayStorm x RayCrisis
-
+        'Spyro 2 - Ripto\'s Rage! + Crash Team Racing (USA)',
     ]
 
 # Sony PlayStation 2
 def ps2_compilation_list():
+    return [
+        'King of Fighters 2000-2001, The (Europe)',
+        'Shadow of the Colossus + Ico (Europe) (En,Fr,De,Es,It)',
+    ]
+
+# VTech - V.Flash & V.Smile Pro
+def vtech_compilation_list():
     return [
 
     ]

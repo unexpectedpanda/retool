@@ -1,4 +1,4 @@
-# Last updated: 18 Jan 2020
+# Last updated: 25 Jan 2020
 # An list of superset games, for example, Game of the Year editions, Special
 # editions, and so on.
 
@@ -126,29 +126,159 @@ def cdi_superset_list():
 # Sega CD/Sega Mega CD
 def segacd_superset_list():
     return {
-
+        'Corpse Killer (Sega CD 32X)': ['Corpse Killer'],
+        'Fahrenheit (Disc 2) (32X CD)': ['Fahrenheit'],
+        'Night Trap (Disc 1) (Sega CD 32X) (RE-1)': ['Night Trap (Disc 1)'],
+        'Night Trap (Disc 2) (Sega CD 32X) (RE-1)': ['Night Trap (Disc 2)'],
+        'Sega Classics Arcade Collection (5-in-1)': [
+            'Sega Classics Arcade Collection (4-in-1) (RE2)',
+            'Sega Classics Arcade Collection (4-in-1) (RE)',
+            'Sega Classic Arcade Collection - Limited Edition',
+            'Sega Classics Arcade Collection - Limited Edition',
+            ],
+        'Slam City with Scottie Pippen (Disc 1) (Fingers) (Sega CD 32X)': ['Slam City with Scottie Pippen (Disc 1) (Fingers)'],
+        'Slam City with Scottie Pippen (Disc 2) (Juice) (Sega CD 32X)': ['Slam City with Scottie Pippen (Disc 2) (Juice)'],
+        'Slam City with Scottie Pippen (Disc 3) (Mad Dog) (Sega CD 32X)': ['Slam City with Scottie Pippen (Disc 3) (Mad Dog)'],
+        'Slam City with Scottie Pippen (Disc 4) (Smash) (Sega CD 32X)': ['Slam City with Scottie Pippen (Disc 4) (Smash)'],
+        'Supreme Warrior (Disc 1) (Fire & Earth) (Sega CD 32X)': [
+            'Supreme Warrior (Disc 1)',
+            'Supreme Warrior (Disc 1) (Fire & Earth)'
+            ],
+        'Supreme Warrior (Disc 2) (Wind & Fang Tu) (Sega CD 32X)': [
+            'Supreme Warrior (Disc 2)',
+            'Supreme Warrior (Disc 2) (Wind & Fang Tu)'
+            ],
+        'Surgical Strike (Sega CD 32X)': ['Surgical Strike'],
     }
 
 # Sega Dreamcast
 def dreamcast_superset_list():
     return {
-
+        'Aero Dancing i - Jikai-saku made Matemasen': ['Aero Dancing i'],
+        'Atsumare! Guru Guru Onsen BB': ['Atsumare! Guru Guru Onsen'],
+        'Sangokushi VI with Power-Up Kit': ['Sangokushi VI'],
+        'Sega Worldwide Soccer 2000 - Euro Edition': ['Sega Worldwide Soccer 2000'],
+        'Sonic Adventure - Limited Edition': ['Sonic Adventure'],
+        'Super Runabout - San Francisco Edition': ['Super Runabout'],
     }
 
 # Sega Saturn
 def saturn_superset_list():
     return {
-
+        'Daytona USA C.C.E. Net Link Edition': [
+            'Daytona USA',
+            'Daytona USA (2S)',
+            'Daytona USA (1S)',
+            ],
+        'Falcom Classics II (Genteiban)': ['Falcom Classics II'],
+        'Funky Head Boxers Plus': ['Funky Head Boxers'],
+        'Ginga Eiyuu Densetsu Plus': ['Ginga Eiyuu Densetsu'],
+        'Lunar - Silver Star Story Complete': ['Lunar - Silver Star Story'],
+        'Magic Knight Rayearth (Genteiban) (3M)': [
+            'Magic Knight Rayearth',
+            'Magic Knight Rayearth (4M)',
+            ],
+        'Puyo Puyo Sun for SegaNet': [
+            'Puyo Puyo Sun (10M)',
+            'Puyo Puyo Sun (1M, 3M)',
+            'Puyo Puyo Sun (2M)',
+        ],
+        'Puzzle Bobble 3 for SegaNet': [
+            'Puzzle Bobble 3 (2M)',
+            'Puzzle Bobble 3 (1M)',
+        ],
+        'Real Mahjong Adventure Umi e - Summer Waltz (P\'s Club Genteiban)': ['Real Mahjong Adventure Umi e - Summer Waltz'],
+        'Sega Rally Championship Plus Netlink Edition': [
+            'Sega Rally Championship',
+            'Sega Rally Championship (Made in EU)',
+            'Sega Rally Championship (Made in USA)',
+        ],
+        'Slam \'n Jam \'96 featuring Magic & Kareem - Signature Edition': ['Slam \'n Jam \'96 featuring Magic & Kareem'],
+        'Teitoku no Ketsudan III with Power-Up Kit': ['Teitoku no Ketsudan III'],
+        'Tokimeki Memorial - Forever with You (Special-ban) (2M)': [
+            'Tokimeki Memorial - Forever with You (2M)',
+            'Tokimeki Memorial - Forever with You (1M)',
+        ],
+        'Virtua Fighter Remix': [
+            'Virtua Fighter',
+            'Virtua Fighter (Made in EU)',
+            'Virtua Fighter (Made in USA)',
+        ],
     }
 
 # Sony PlayStation
 def psx_superset_list():
     return {
-
+        'Culdcept - Expansion Plus': ['Culdcept - Expansion'],
+        'Dave Mirra Freestyle BMX - Maximum Remix': ['Dave Mirra Freestyle BMX'],
+        'Fishing Freaks - BassRise Plus': ['Fishing Freaks - BassRise (Doukon Pack)'],
+        'Hatsukoi Valentine Special': ['Hatsukoi Valentine'],
+        'Jet Moto 2 - Championship Edition': ['Jet Moto 2'],
+        'Lost World, The - Jurassic Park - Special Edition': [
+            'Lost World, The - Jurassic Park',
+            'Lost World, The - Jurassic Park (EDC)',
+        ],
+        'Marie no Atelier Plus - Salburg no Renkinjutsushi': ['Marie no Atelier - Salburg no Renkinjutsushi'],
+        'Metal Gear Solid - Integral (Disc 1)': [
+            'Metal Gear Solid (Disc 1)',
+            'Metal Gear Solid (Disc 1) (Ichi)',
+        ],
+        'Metal Gear Solid - Integral (Disc 2)': [
+            'Metal Gear Solid (Disc 2)',
+            'Metal Gear Solid (Disc 2) (Ni)',
+        ],
+        'NASCAR 98 Collector\'s Edition': ['NASCAR 98'],
+        'NASCAR 99 Legacy': ['NASCAR 99'],
+        'NOeL - La Neige (Disc 1) (Special Edition)': ['NOeL - La Neige (Disc 1)'],
+        'NOeL - La Neige (Disc 2) (Special Edition)': ['NOeL - La Neige (Disc 2)'],
+        'NOeL - La Neige (Disc 3) (Special Edition)': ['NOeL - La Neige (Disc 3)'],
+        'Resident Evil - Director\'s Cut - Dual Shock Ver.': [
+            'Bio Hazard', # (バイオハザード)
+            'Bio Hazard - Director\'s Cut',
+            'Resident Evil',
+            'Resident Evil (EDC)',
+            'Resident Evil - Director\'s Cut',
+        ],
+        'Resident Evil 2 - Dual Shock Ver. (Disc 1)': [
+            'Biohazard 2 (Disc 1) (Leon-hen)', # (バイオハザード２)
+            'Resident Evil 2 (Disc 1)',
+            ],
+        'Resident Evil 2 - Dual Shock Ver. (Disc 2)': [
+            'Biohazard 2 (Disc 2) (Claire-hen)', # (バイオハザード２)
+            'Resident Evil 2 (Disc 2)',
+        ],
+        'Teitoku no Ketsudan III with Power-Up Kit': ['Teitoku no Ketsudan III'],
     }
 
 # Sony PlayStation 2
 def ps2_superset_list():
+    return {
+        '3 nen B gumi Kinpachi Sensei - Densetsu no Kyoudan ni Tate! Kanzenban': ['3 nen B gumi Kinpachi Sensei - Densetsu no Kyoudan ni Tate!'],
+        'Anubis - Zone of the Enders - Special Edition (Shokai Genteiban)': [
+            'Anubis - Zone of the Enders',
+            'Anubis - Zone of the Enders - Special Edition',
+        ],
+        'Chou Kousoku Mahjong Plus': ['Chou Kousoku Mahjong'],
+        'Devil May Cry 3 - Dante\'s Awakening (Special Edition)': [
+            'Devil May Cry 3 - Dante\'s Awakening',
+            'Devil May Cry 3',
+        ],
+        'Devil Summoner - Kuzunoha Raidou tai Abaddon-ou Plus': ['Devil Summoner - Kuzunoha Raidou tai Abaddon-ou'],
+        'Dragon Ball Z - Budokai 3 - Collector\'s Edition': [
+            'Dragon Ball Z - Budokai 3 (Greatest Hits)',
+            'Dragon Ball Z - Budokai 3',
+        ],
+        'Fate-stay night - Realta Nua (Extra Edition)': ['Fate-stay night - Realta Nua'],
+        'Final Fantasy XI - Online - Vana\'diel Collection 2008': [
+            'Final Fantasy XI - Online',
+            'Final Fantasy XI - Online - Chains of Promathia',
+            'Final Fantasy XI - Online - Treasures of Aht Urhgan',
+            'Final Fantasy XI - Online - Wings of the Goddess Expansion Pack',
+        ],
+    }
+
+# VTech - V.Flash & V.Smile Pro
+def vtech_superset_list():
     return {
 
     }
