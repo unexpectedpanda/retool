@@ -275,6 +275,46 @@ def ps2_superset_list():
             'Final Fantasy XI - Online - Treasures of Aht Urhgan',
             'Final Fantasy XI - Online - Wings of the Goddess Expansion Pack',
         ],
+        'Major League Baseball 2K5 - World Series Edition': ['Major League Baseball 2K5'],
+        'Metal Gear Solid 2 - Substance': [
+            'Metal Gear Solid 2 - Sons of Liberty',
+            'Metal Gear Solid 2 - Sons of Liberty (Hatsu Taikenban)',
+            'Metal Gear Solid 2 - Sons of Liberty (Premium Package)',
+        ],
+        'Metal Gear Solid 3 - Subsistence (Disc 1) (Subsistence)': [
+            'Metal Gear Solid 3 - Snake Eater',
+            'Metal Gear Solid 3 - Snake Eater (Premium Package)',
+        ],
+        'Midnight Club 3 - DUB Edition Remix': ['Midnight Club 3 - DUB Edition'],
+        'Need for Speed - Most Wanted - Black Edition': ['Need for Speed - Most Wanted'],
+        'Nobunaga no Yabou - Kakushin with Power-Up Kit': ['Nobunaga no Yabou - Kakushin'],
+        'Nobunaga no Yabou - Ranseiki with Power-Up Kit': ['Nobunaga no Yabou - Ranseiki'],
+        'Nobunaga no Yabou - Soutenroku with Power-Up Kit': ['Nobunaga no Yabou - Soutenroku'],
+        'Nobunaga no Yabou - Tenka Sousei with Power-Up Kit': ['Nobunaga no Yabou - Tenka Sousei (v1.40)'],
+        'Offroad Extreme! Special Edition': ['Offroad Extreme!'],
+		'Shin Megami Tensei - Persona 3 FES': [
+            'Shin Megami Tensei - Persona 3',
+            'P3 - Persona 3',
+            'Persona 3',
+        ],
+        'Rogue Galaxy - Director\'s Cut': ['Rogue Galaxy'],
+        'Rugby League 2 - World Cup Edition': ['Rugby League 2'],
+        'Shadow Hearts II - Director\'s Cut (Disc 1)': ['Shadow Hearts II (Disc 1) (Gentei DX Pack)'],
+        'Shadow Hearts II - Director\'s Cut (Disc 2)': ['Shadow Hearts II (Disc 2) (Gentei DX Pack)'],
+        'Tales of Destiny - Director\'s Cut': ['Tales of Destiny'],
+        'Tony Hawk\'s American Wasteland (Collector\'s Edition)': ['Tony Hawk\'s American Wasteland'],
+        'Transformers (Director\'s Cut)': ['Transformers'],
+        'Winning Post 4 Maximum 2001 (Super Value Set)': [
+            'Winning Post 4 Maximum',
+            'Winning Post 4 Maximum 2001',
+        ],
+        'Winning Post 5 Maximum 2003': [
+            'Winning Post 5 Maximum 2002',
+            'Winning Post 5 Maximum 2002 (Premium Pack)',
+        ],
+        'Winning Post 7 Maximum 2007': ['Winning Post 7'],
+        'Zone of the Enders': ['Zone of the Enders - Z.O.E'],
+        'Zone of the Enders - The 2nd Runner (Special Edition)': ['Zone of the Enders - The 2nd Runner'],
     }
 
 # VTech - V.Flash & V.Smile Pro
