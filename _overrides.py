@@ -1,6 +1,14 @@
 # Last updated: 21 Jan 2020
-# When the logic fails, and all you've got left is to manually set parents
+# When the logic fails, and all you can do is manually set parents
 # and clones. There's no intelligence here, just straightforward assignment.
+
+# Sega Saturn
+def saturn_override_list():
+    return {
+        'Daytona USA (USA)': [
+            'Daytona USA (Japan)',
+            ]
+    }
 
 # Sony PlayStation
 def psx_override_list():

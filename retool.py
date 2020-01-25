@@ -635,6 +635,7 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
         if user_input.no_demos == True and (title.category.contents[0] == 'Demos'
                                             or title.category.contents[0] == 'Coverdiscs'
                                             or re.search('\(Demo\)', title.category.parent['name']) != None
+                                            or re.search('\(Demo [0-9]\)', title.category.parent['name']) != None
                                             or re.search('\(Taikenban\)', title.category.parent['name']) != None
                                             or re.search('\(@barai\)', title.category.parent['name']) != None
                                             or re.search('\(Sample\)', title.category.parent['name']) != None
@@ -642,7 +643,11 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
                                             ): continue
         if user_input.no_edu == True and (title.category.contents[0] == 'Educational'): continue
         if user_input.no_multi == True and (title.category.contents[0] == 'Multimedia'): continue
-        if user_input.no_protos == True and (title.category.contents[0] == 'Preproduction'): continue
+        if user_input.no_protos == True and (title.category.contents[0] == 'Preproduction'or title.category.contents[0] == 'Coverdiscs'
+                                            or re.search('\(Beta\)', title.category.parent['name']) != None
+                                            or re.search('\(Beta [0-9]\)', title.category.parent['name']) != None
+                                            or re.search('\(Prototype\)', title.category.parent['name']) != None
+                                            ): continue
         if user_input.no_comps == True:
             comp_title_check = False
 
@@ -1226,6 +1231,7 @@ def process_dats(user_input, tag_strings, region_list_english, region_list_other
         dupe_list = _renames.saturn_rename_list()
         comp_list = _compilations.saturn_compilation_list()
         superset_list = _supersets.saturn_superset_list()
+        override_list = _overrides.saturn_override_list()
     elif dat_name == 'Sony - PlayStation':
         dupe_list = _renames.psx_rename_list()
         comp_list = _compilations.psx_compilation_list()
@@ -1249,6 +1255,10 @@ def process_dats(user_input, tag_strings, region_list_english, region_list_other
         dupe_list = _renames.psp_rename_list()
         comp_list = _compilations.psp_compilation_list()
         superset_list = _supersets.psp_superset_list()
+    elif dat_name == 'VTech - V.Flash & V.Smile Pro':
+        dupe_list = _renames.vtech_rename_list()
+        comp_list = _compilations.vtech_compilation_list()
+        superset_list = _supersets.vtech_superset_list()
 
     # Find unique parents in each region
     global_parent_list = {}
@@ -1428,12 +1438,12 @@ def process_dats(user_input, tag_strings, region_list_english, region_list_other
                                             a.cloneof = 'None'
                             if check_clone_match != True:
                                 if type(y) is str:
-                                    print(font.bold + font.yellow + 'x No match for clone in _rename.py: ' + y + font.end)
+                                    print(font.bold + font.yellow + 'x Clone in _rename.py not found in dat: ' + y + font.end)
                             else:
                                 check_clone_match = False
 
             if check_parent_match != True:
-                print(font.bold + font.yellow + 'x No match for parent in _rename.py: ' + key + font.end)
+                print(font.bold + font.yellow + 'x Parent in _rename.py not found in dat: ' + key + font.end)
             else:
                 check_parent_match = False
 

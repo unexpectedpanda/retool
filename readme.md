@@ -60,8 +60,8 @@ Or for the binary version:
   of regular editions
 
 #### More options information
-There are nuances within each of the options you should be aware of before
-using them.
+There are nuances to each of the options you should be aware of before using
+them.
 
 ##### Demos
 Not only does the `-d` option remove any title with a category of _Demos_ or
@@ -116,13 +116,16 @@ title as a clone of disc one of the superset.
 
 ###### Superset exclusions
 
-* Fighting games are excluded from supersets. There's so much rebalancing
-  between their editions, and such strong preferences for different versions,
-  it's worth keeping them all.
-* Even though it's incredibly Anglo-centric, if a superset of an
-  English-speaking title doesn't exist in a Redump dat yet, the standard
-  English title won't get demoted under, say, the German version of the
-  superset title.
+* Fighting games that have received rebalancing are excluded from supersets.
+  There's such strong preferences for different versions, it's worth keeping
+  them all. This means _Virtua Fighter Remix_ on Saturn is a superset, as it's
+  just a bug fixed, visually enhanced version of _Virtua Fighter_.
+  _Street Fighter II: Champion Edition_ on the other hand is not a superset of
+  _Street Fighter II_, as in addition to the new playable characters, the
+  gameplay has changed due to rebalancing.
+* It's incredibly Anglo-centric, but if a superset of an English-speaking
+  title doesn't exist in a Redump dat yet, the standard English title won't get
+  demoted under, say, the German version of the superset title.
 
 ## How it works
 There are multiple stages for determining which title is a parent, and which is
@@ -441,6 +444,9 @@ or just a different pressing. For the sake of order, I've assigned ring codes
 with the highest name as the parent. For example, `SABS` is higher than `SAAS`,
 `3S` is higher than `2S`. For grouped ring codes, `1S, 4S` is treated as higher
 than `2S`.
+
+This is done manually for now in `_renames.py`, rather than through an
+automated process, as it seems ring codes can be anything.
 
 # Clonerel
 A small tool that helps you more easily visualize parent/clone relationships,
