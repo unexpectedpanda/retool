@@ -637,6 +637,7 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
                                             or re.search('\(Demo\)', title.category.parent['name']) != None
                                             or re.search('\(Demo [0-9]\)', title.category.parent['name']) != None
                                             or re.search('\(Taikenban\)', title.category.parent['name']) != None
+                                            or re.search('\(Taikenban [0-9]\)', title.category.parent['name']) != None
                                             or re.search('\(@barai\)', title.category.parent['name']) != None
                                             or re.search('\(Sample\)', title.category.parent['name']) != None
                                             or re.search('Trial Edition', title.category.parent['name']) != None
