@@ -3394,12 +3394,16 @@ def ps2_rename_list():
 		'Adventures of Cookie & Cream, The': ['Kuri Kuri Mix'],
 		'Adiboo and the Energy Thieves': ['Energy Thieves, The'],
 		'Adventures of Darwin, The': ['Darwin'],
+        'Aero Elite - Combat Academy': ['Aero Dancing 4 - New Generation'],
 		'AFL Live 2004': ['AFL Live 2004 - Aussie Rules Football'],
         'Ai yori Aoshi (Shokai Genteiban)': [
             'Ai yori Aoshi',
             'SuperLite 2000 Vol. 32 - Ai yori Aoshi',
         ],
-		'AirForce Delta Strike': ['Deadly Skies III'],
+		'AirForce Delta Strike': [
+            'AirForce Delta - Blue Wing Knights',
+            'Deadly Skies III',
+        ],
 		'Alarm for Cobra 11 - Vol. II': ['Alarm for Cobra 11 Vol. 2 - Hot Pursuit'],
         'Alex Ferguson\'s Player Manager 2001': [
             'DSF Fussball Manager 2002',
@@ -3410,6 +3414,7 @@ def ps2_rename_list():
         'Alpine Racer 3': ['Downhill Racer'],
         'Altered Beast': ['Juuouki - Project Altered Beast'],
         'Amagami (ebKore Plus)': ['Amagami'],
+        'Amagoushi no Yakata': ['Amagoushi no Yakata - Ichiyanagi Nagomu, Saisho no Junan'],
 		'American Idol': ['Pop Idol'],
 		'AMF Xtreme Bowling': ['AMF Xtreme Bowling 2006'],
         'Angelique Etoile (Premium Box)': ['Angelique Etoile'],
@@ -3419,10 +3424,14 @@ def ps2_rename_list():
         'Aoi Sora no Neosphere - Nanoca Flanka Hatsumei Koubouki 2 (Shokai Genteiban)': ['Aoi Sora no Neosphere - Nanoca Flanka Hatsumei Koubouki 2'],
         'Aoi Umi no Tristia - Nanoca Flanka Hatsumei Koubouki (Shokai Genteiban)': ['Aoi Umi no Tristia - Nanoca Flanka Hatsumei Koubouki'],
         'Ape Escape 3': ['Zhuo Hou La 3'],
-		'Aqua Aqua': ['Aqua Aqua - Wetrix 2'],
+		'Aqua Aqua': [
+            'Aqua Aqua - Wetrix 2'
+            'Aquaqua',
+        ],
         'Ar tonelico - Sekai no Owari de Utai Tsuzukeru Shoujo (PlayStation 2 the Best)': ['Ar tonelico - Sekai no Owari de Utai Tsuzukeru Shoujo'],
         'Ar tonelico II - Sekai ni Hibiku Shoujo-tachi no Metafalica (PlayStation 2 the Best)': ['Ar tonelico II - Sekai ni Hibiku Shoujo-tachi no Metafalica'],
-		'Arc the Lad - Seirei no Tasogare (Premium Box)': ['Arc the Lad - Seirei no Tasogare'],
+		'Arc the Lad - End of Darkness': ['Arc the Lad - Generation'],
+        'Arc the Lad - Seirei no Tasogare (Premium Box)': ['Arc the Lad - Seirei no Tasogare'],
         'Arc the Lad - Twilight of the Spirits': [
             'Arc the Lad - Jeongryeongui Hwanghon',
             'Arc the Lad - Jing Ling Zhi Huang Hun',
@@ -4393,7 +4402,10 @@ def ps2_rename_list():
             'Sangokushi 11 with Power-Up Kit',
         ],
         'Romancing SaGa': ['Romancing SaGa - Minstrel Song'],
-		'Rygar - The Legendary Adventure': ['A Ge Si Zhan Shi'], # (阿格斯戰士)
+		'Rygar - The Legendary Adventure': [
+            'A Ge Si Zhan Shi',  # (阿格斯戰士)
+            'Argus no Senshi',
+        ],
         'Ryuu ga Gotoku 2 (Disc 1)': ['Ryuu ga Gotoku 2 (PlayStation 2 the Best)'],
         'Saint Seiya - The Hades': ['Saint Seiya - Meiou Hades Juunikyuu-hen'],
         'Saint Seiya - The Sanctuary': ['Saint Seiya - Sanctuary Juunikyuu-hen'],
@@ -4738,6 +4750,7 @@ def ps2_rename_list():
         'Zero no Tsukaima - Maigo no Period to Ikusen no Symphony (Genteiban)': ['Zero no Tsukaima - Maigo no Period to Ikusen no Symphony']
         'Zombie Attack': ['Simple 2000 Series Vol. 65 - The Kyonshii Panic'],
         'Zombie Zone': ['Simple 2000 Series Vol. 61 - The OneeChambara'],
+        'Zone of the Enders - The 2nd Runner': ['Anubis - Zone of the Enders'],
     }
 
 # VTech - V.Flash & V.Smile Pro
