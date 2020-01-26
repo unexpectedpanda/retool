@@ -1,4 +1,4 @@
-# Last updated: 25 Jan 2020
+# Last updated: 26 Jan 2020
 # An exclusion list for when games are the same as another region,
 # just renamed for another region/new title screens.
 
@@ -248,8 +248,8 @@ def xbox_rename_list():
 		'Quantum Redshift': ['Quantum Redshift - Chou Kousoku Kuukan Battle Race'], # (カンタム　レッドシフト　超高速空間バトルレース)
 		'R-Racing': [
             'R-Racing Evolution',
-            'R-Racing Evolution - Life in the Fast Lane',
-        ], # (R レーシング・エヴォリューション)
+            'R-Racing Evolution - Life in the Fast Lane', # (R レーシング・エヴォリューション)
+        ],
 		'RedCard 20-03': ['RedCard'],
 		'Samurai Warriors': ['Sengoku Musou'], # (戦国無双)
 		'Silent Hill 2 - Restless Dreams': [
@@ -2339,6 +2339,7 @@ def psx_rename_list():
             'Bundesliga Stars 2001',
             'LNF Stars 2001',
         ],
+        'Fade to Black': ['Fade to Black (SLES-00339)'],
 		'Family Card Games Fun Pack': ['Card Shark'],
         'Fatal Fury - Wild Ambition': ['Garou Densetsu - Wild Ambition'], # (餓狼伝説 ワイルドアンビション)
         'Fear Effect 2 - Retro Helix (Disc 1)': ['Helix - Fear Effect (Disc 1)'], # (ヘリックス　～フィア・エフェクト～)
@@ -2742,7 +2743,10 @@ def psx_rename_list():
 		'N2O - Nitrous Oxide': ['N2O'],
         'Nagano Winter Olympics \'98': ['Hyper Olympic in Nagano'], # (ハイパーオリンピック イン ナガノ)
         'Namco Museum Vol. 2': ['Namco Museum Vol. 2 (Gentei Box)'],
-        'Namco Soccer Prime Goal': ['J. League Soccer - Prime Goal EX'],
+        'Namco Soccer Prime Goal': [
+            'J. League Soccer - Prime Goal EX',
+            'J. League Soccer - Prime Goal EX (Lawson Station)',
+        ],
 		'Namco Tennis Smash Court': ['Smash Court'], # (スマッシュコート)
 		'NBA in the Zone': ['NBA Power Dunkers'], # (ＮＢＡ　パワーダンカーズ)
         'NBA in the Zone 2': ['NBA Power Dunkers 2'], # (ＮＢＡ パワーダンカーズ2)
@@ -3414,6 +3418,7 @@ def ps2_rename_list():
         'Anubis - Zone of the Enders - Special Edition (Shokai Genteiban)': ['Anubis - Zone of the Enders - Special Edition'],
         'Aoi Sora no Neosphere - Nanoca Flanka Hatsumei Koubouki 2 (Shokai Genteiban)': ['Aoi Sora no Neosphere - Nanoca Flanka Hatsumei Koubouki 2'],
         'Aoi Umi no Tristia - Nanoca Flanka Hatsumei Koubouki (Shokai Genteiban)': ['Aoi Umi no Tristia - Nanoca Flanka Hatsumei Koubouki'],
+        'Ape Escape 3': ['Zhuo Hou La 3'],
 		'Aqua Aqua': ['Aqua Aqua - Wetrix 2'],
         'Ar tonelico - Sekai no Owari de Utai Tsuzukeru Shoujo (PlayStation 2 the Best)': ['Ar tonelico - Sekai no Owari de Utai Tsuzukeru Shoujo'],
         'Ar tonelico II - Sekai ni Hibiku Shoujo-tachi no Metafalica (PlayStation 2 the Best)': ['Ar tonelico II - Sekai ni Hibiku Shoujo-tachi no Metafalica'],
@@ -3445,6 +3450,7 @@ def ps2_rename_list():
         'Bob the Builder': ['Bob the Builder (SLES-54923)'],
         'Boboboubo Boubobo - Atsumare!! Taikan Boubobo (EyeToy Camera Doukonban)': ['Boboboubo Boubobo - Atsumare!! Taikan Boubobo'],
         'Bode Miller Alpine Skiing': ['Alpine Skiing 2006 featuring Bode Miller'],
+        'Bombastic': ['XIGO - Zuihou de Touzi'],
         'Boxing Champions': ['Simple 2000 Series Vol. 7 - The Boxing - Real Fist Fighter'],
         'Breath of Fire - Dragon Quarter': ['Breath of Fire V - Dragon Quarter'],
 		'Brian Lara International Cricket 2005': ['Ricky Ponting International Cricket 2005'],
@@ -3502,7 +3508,10 @@ def ps2_rename_list():
             'Castlevania (Genteiban)',
             ],
         'Castleween': ['Mahou no Pumpkin - Ann to Greg no Daibouken'],
-        'Championship Manager 5': ['Entraineur 5, L\' - Saison 04-05'],
+        'Championship Manager 5': [
+            'Entraineur 5, L\' - Saison 04-05',
+            'Scudetto 5',
+        ],
         'Choro Q HG (Jenny Hi-Grade Box)': ['Choro Q HG'],
         'Chou Battle Houshin (Premium Pack)': ['Chou Battle Houshin'],
         'Chronicles of Narnia, The - The Lion, the Witch and the Wardrobe': [
@@ -3660,6 +3669,7 @@ def ps2_rename_list():
         'Dynasty Warriors 3': [
             'Shin Sangoku Musou 2',
             'Shin Sangoku Musou 2 (Shin Sangoku Musou Series Collection Joukan)',
+            'Zhen San Guo Wu Shuang 2',
         ],
         'Dynasty Warriors 3 - Xtreme Legends': [
             'Shin Sangoku Musou 2 - Moushouden',
@@ -3747,7 +3757,10 @@ def ps2_rename_list():
         'Fitness Fun': ['Simple 2000 Series Ultimate Vol. 18 - Love - Aerobi'],
 		'Fisherman\'s Bass Club': ['Bass Master Fishing'],
 		'Flipnic - Ultimate Pinball': ['Flipnic'],
-        'Forbidden Siren 2': ['Siren 2'],
+        'Forbidden Siren 2': [
+            'Si Hun Qu',
+            'Siren 2',
+        ],
 		'Ford Bold Moves Street Racing': [
             'Ford Street Racing',
             'Ford Street Racing XR Edition',
@@ -4271,6 +4284,7 @@ def ps2_rename_list():
             'World Soccer Winning Eleven 2010 - Aoki Samurai no Chousen', # (ワールドサッカー ウイニングイレブン　２０１０　蒼き侍の挑戦)
             ],
 		'PES 2011 - Pro Evolution Soccer': ['World Soccer Winning Eleven 2011'],
+        'PES 2012 - Pro Evolution Soccer': ['World Soccer Winning Eleven 2012'],
         'Petit Four (Genteiban)': ['Petit Four'],
         'PetitCopter (Controller Set)': ['PetitCopter'],
         'Petz - Catz 2': ['Catz'],
@@ -4327,6 +4341,8 @@ def ps2_rename_list():
             'R-Racing',
             'R-Racing Evolution - Life in the Fast Lane', # (R レーシング・エヴォリューション)
         ],
+        'Radio Helicopter': ['Simple 2000 Series Vol. 35 - The Helicopter'],
+        'Raging Blades': ['Raging Bless - Gouma Mokushiroku'],
         'Ratchet & Clank - Going Commando': ['Ratchet & Clank 2 - Gagaga! Ginga no Commando-ssu'],
         'Ratchet & Clank - Size Matters': ['Ratchet & Clank 5 - Gekitotsu! Dodeka Ginga no Miri Miri Gundan'],
         'Ratchet - Deadlocked': [
@@ -4342,6 +4358,7 @@ def ps2_rename_list():
             'Ratchet & Clank 3 - Totsugeki! Galactic Rangers',
         ],
 		'Real Pool': ['International Cue Club'],
+        'Realm of the Dead': ['Bakuen Kakusei - Neverland Senki Zero'],
 		'RedCard 20-03': ['RedCard'],
         'Resident Evil - Code - Veronica X': ['Biohazard - Code - Veronica Kanzenban'],
         'Resident Evil - Dead Aim': ['Gun Survivor 4 - Biohazard - Heroes Never Die'],
@@ -4357,6 +4374,7 @@ def ps2_rename_list():
             'Rise to Honour',
         ],
 		'River King - A Wonderful Journey': ['Harvest Fishing'],
+        'Road Rage 3': ['Touge 3'],
 		'Road Trip': ['Road Trip Adventure'],
 		'Rock Band - Track Pack Volume 1': ['Rock Band - Song Pack 1'],
 		'Rock Band - Track Pack Volume 2': ['Rock Band - Song Pack 2'],
@@ -4379,6 +4397,7 @@ def ps2_rename_list():
         'Ryuu ga Gotoku 2 (Disc 1)': ['Ryuu ga Gotoku 2 (PlayStation 2 the Best)'],
         'Saint Seiya - The Hades': ['Saint Seiya - Meiou Hades Juunikyuu-hen'],
         'Saint Seiya - The Sanctuary': ['Saint Seiya - Sanctuary Juunikyuu-hen'],
+        'Sakura Taisen - Atsuki Chishio ni' :['Ying Hua Da Zhan - Chi Re Zhi Xie'],
         'Sakura Taisen 3 - Paris wa Moeteiru ka': ['Sakura Daejeon 3 - Paris-neun Bultago Issneunga'],
         'Sakura Taisen V Episode 0 - Kouya no Samurai Musume': ['Sakura Daejeon V Episode 0 - Hwangya-ui Samurai Agassi'],
         'Samurai Shodown V': ['Samurai Spirits Zero'],
@@ -4419,6 +4438,7 @@ def ps2_rename_list():
             'Rally Shox',
             'Shox - Rally Reinvented'
             ],
+        'Shikigami no Shiro II': ['Siksin-ui Seong'],
 		'Shin Megami Tensei - Nocturne': ['Shin Megami Tensei - Lucifer\'s Call'],
 		'Shin Megami Tensei - Persona 3': [
             'P3 - Persona 3',
@@ -4427,12 +4447,14 @@ def ps2_rename_list():
 		'Shin Megami Tensei - Persona 3 FES': ['Persona 3 FES'],
 		'Shin Megami Tensei - Persona 4': ['Persona 4'],
         'Shin Megami Tensei - Nocturne': [
+            'Shin Megami Tensei - Lucifer\'s Call',
             'Shin Megami Tensei III - Nocturne',
             'Shin Megami Tensei III - Nocturne (Tsutaya Original Version)',
         ],
         'Shinki Gensou - Spectral Souls (Genteiban)': ['Shinki Gensou - Spectral Souls'],
         'Shinobido - Way of the Ninja': ['Shinobi-dou - Imashime'],
         'Shinten Makai - Generation of Chaos V (Genteiban)': ['Shinten Makai - Generation of Chaos V'],
+        'Shogun\'s Blade': ['Simple 2000 Series Vol. 47 - The Kassen Sekigahara'],
         'Silent Line - Armored Core': ['Armored Core 3 - Silent Line'],
 		'Silent Scope 2 - Dark Silhouette': ['Silent Scope 2 - Fatal Judgement'],
         'Simple 2000 Series Vol. 94 - The Aka-Champion - Come on Baby': ['Come on Baby'],
@@ -4440,7 +4462,10 @@ def ps2_rename_list():
             'Simpson, Les - Le Jeu',
             'Simpsons, Die - Das Spiel',
         ],
-		'Siren': ['Forbidden Siren'],
+		'Siren': [
+            'Forbidden Siren',
+            'Si Hun Qu 2',
+        ],
 		'Ski-Doo Snow X Racing': ['SXR - Snow X Racing'],
         'Sky Odyssey': ['Sky Odyssey, The'],
 		'Sly Cooper and the Thievius Raccoonus': [
@@ -4449,6 +4474,8 @@ def ps2_rename_list():
         ],
         'Sly 2 - Band of Thieves': ['Kaitou Sly Cooper 2'],
 		'Sly 3 - Honor Among Thieves': ['Sly 3 - Honour Among Thieves'],
+        'Sniper 2': ['Simple 2000 Series Vol. 16 - The Sniper 2 - Akumu no Juudan'],
+        'Snowboard Racer 2': ['Simple 2000 Series Vol. 6 - The Snowboard'],
 		'Soccer America - International Cup': ['International League Soccer'],
         'Soccer Life!': ['Soccer Life! We are Challengers to Europe'],
         'Soccer Life 2': ['Soccer Life 2 - We are Challengers to Europe'],
@@ -4462,6 +4489,8 @@ def ps2_rename_list():
         'Space Channel 5 - Special Edition (Disc 2)': [
             'Space Channel 5 Part 2',
         ],
+        'Space Invaders - Invasion Day': ['Simple 2000 Series Vol. 52 - The Chikyuu Shinryakugun - Space Raiders'],
+        'Special Forces': ['Simple 2000 Series Vol. 108 - The Nihon Tokushu Butai - Kyouaku Hanzai Rettou 24-ji'],
         'Spectral Force - Radical Elements (Genteiban)': ['Spectral Force - Radical Elements'],
         'Spectral Force Chronicle (10th Anniversary Box)': ['Spectral Force Chronicle'],
 		'Splashdown - Rides Gone Wild': ['Splashdown 2 - Rides Gone Wild'],
@@ -4475,6 +4504,8 @@ def ps2_rename_list():
             'Star Wars - La Guerra dei Cloni',
             'Star Wars - Las Guerras Clon',
         ],
+        'Steel Dragon EX': ['Simple 2000 Series Vol. 37 - The Shooting - Double Shienryuu'],
+        'Street Boyz': ['Simple 2000 Series Ultimate Vol. 21 - Kenka Joutou! Yankee Banchou - Shouwa 99-nen no Densetsu'],
         'Street Fighter Alpha Anthology': ['Street Fighter Zero - Fighter\'s Generation'],
         'Street Golfer': ['Simple 2000 Series Ultimate Vol. 12 - Street Golfer'],
 		'Stretch Panic': ['Freak Out'],
@@ -4486,11 +4517,18 @@ def ps2_rename_list():
         'SuperLite 2000 Vol. 22 - Memories Off Duet': ['Memories Off'],
 		'Suzuki TT Superbikes - Real Road Racing': ['TT Superbikes'],
 		'Suzuki TT Superbikes - Real Road Racing Championship': ['TT Superbikes - Real Road Racing Championship'],
-        'Sven-Goeran Eriksson\'s World Challenge': ['Marcel Desailly Pro Football'],
+        'Sven-Goeran Eriksson\'s World Challenge': [
+            'Marcel Desailly Pro Football',
+            'WM Nationalspieler',
+        ],
         'Swap Magic 3 Plus (Unl) (DVD Version 3.6)': [
             'Swap Magic 3 Plus (Unl) (CD Version 3.6)',
         ],
-        'Swords of Destiny': ['Cheonseong - Swords of Destiny'],
+        'Swords of Destiny': [
+            'Cheonseong - Swords of Destiny',
+            'Kengou 2',
+        ],
+        'Sword of Etheria, The': ['Oz'],
         'Taiko no Tatsujin - Appare Sandaime (Tatacon Doukon Set)': ['Taiko no Tatsujin - Appare Sandaime'],
         'Taiko no Tatsujin - Atsumare! Matsuri da!! Yondaime (Tatacon Doukon Set)': ['Taiko no Tatsujin - Atsumare! Matsuri da!! Yondaime'],
         'Taiko no Tatsujin - Go! Go! Godaime (Tatacon Doukon Set)': ['Taiko no Tatsujin - Go! Go! Godaime'],
@@ -4510,6 +4548,8 @@ def ps2_rename_list():
             'Tak y el Poder Juju',
         ],
         'Tales of Destiny 2 (PlayStation 2 the Best)': ['Tales of Destiny 2'],
+        'Tank Elite': ['Simple 2000 Series Vol. 32 - The Sensha'],
+        'Taxi Rider': ['Simple 2000 Series Vol. 48 - The Taxi - Untenshu ha Kimi da'],
         'Tear Ring Saga Series - Berwick Saga - Lazberia Chronicle Chapter 174 (Premium Box)': ['Tear Ring Saga Series - Berwick Saga - Lazberia Chronicle Chapter 174'],
         'Teikoku Sensenki (Shokai Genteiban)': ['Teikoku Sensenki'],
         'Tenchu - Fatal Shadows': ['Tenchu Kurenai'],
@@ -4584,6 +4624,8 @@ def ps2_rename_list():
         'Typing Namidabashi - Ashita no Joe Touda (USB Keyboard Doukonban)': ['Typing Namidabashi - Ashita no Joe Touda'],
         'Typing Ren\'ai Hakusho - Boys Be... (Keyboard Set)': ['Typing Ren\'ai Hakusho - Boys Be...'],
         'Uchuu Senkan Yamato - Ankoku Seidan Teikoku no Gyakushuu (Shokai Genteiban)': ['Uchuu Senkan Yamato - Ankoku Seidan Teikoku no Gyakushuu'],
+        'Ultimate Casino': ['Simple 2000 Honkaku Shikou Series Vol. 6 - The Card - Blackjack, Daifugou, Draw Poker, Speed, Page One, etc.'],
+        'Ultimate Mind Games': ['Simple 2000 Series Vol. 10 - The Table Game Sekai-hen - Chess, Backgammon, Diamond, Gunjin Shougi, etc.'],
         'Ultimate Spider-Man - Limited Edition': ['Ultimate Spider-Man'],
         'Unlimited Saga': ['Unlimited Saga (Limited Edition)'],
         'Urban Chaos - Riot Response': ['Urban Chaos'],
@@ -4596,8 +4638,10 @@ def ps2_rename_list():
             'Viewtiful Joe - Aratanaru Kibou',
         ],
         'Viorate no Atelier - Gramnad no Renkinjutsushi 2': ['Viorate no Atelier - Gramnad no Renkinjutsushi 2 (Gust Best Price)'],
+        'Virtua Pro Football': ['World Football Climax'],
         'Vitamin X - We are Super Supriment Boys (Genteiban)': ['Vitamin X - We are Super Supriment Boys'],
         'Vitamin Z - Welcome Our New Supplement Boys (Genteiban)': ['Vitamin Z - Welcome Our New Supplement Boys'],
+        'Volleyball Challenge': ['Simple 2000 Series Vol. 41 - The Volleyball'],
         'Waga Ryuu o Miyo - Pride of the Dragon Peace': ['Kan Wo Long Xian Shen Wei'],
 		'Walt Disney\'s The Jungle Book - Rhythm n\' Groove': ['Disney\'s Jungle Book - Groove Party'],
 		'Wave Rally': ['Jet Ski Riders'],
@@ -4631,7 +4675,8 @@ def ps2_rename_list():
         'Winter Sports 2008 - The Ultimate Challenge': ['RTL Winter Sports 2008 - The Ultimate Challenge'],
 		'Winter Sports 2 - The Next Challenge': ['Winter Sports 2009 - The Next Challenge'],
         'Winter X Games Snowboarding 2': ['ESPN Winter X Games Snowboarding 2002'],
-		'World of Outlaws - Sprint Cars 2002': ['World of Outlaws - Sprint Cars'],
+		'World Fighting': ['Simple 2000 Series Vol. 42 - The Ishu Kakutougi'],
+        'World of Outlaws - Sprint Cars 2002': ['World of Outlaws - Sprint Cars'],
 		'World Soccer Winning Eleven 6 - International': ['Pro Evolution Soccer 2'],
 		'World Soccer Winning Eleven 7 - International': ['Pro Evolution Soccer 3'],
 		'World Soccer Winning Eleven 8 - International': [
@@ -4640,6 +4685,7 @@ def ps2_rename_list():
             'World Soccer Winning Eleven 8 - Liveware Evolution',
         ],
 		'World Soccer Winning Eleven 9': ['Pro Evolution Soccer 5'],
+        'World Super Police': ['Kousoku Kidoutai - World Super Police'],
 		'World Tour Soccer 2002': [
             'Monde des Bleus 2002, Le',
             'This Is Football 2002',
@@ -4661,7 +4707,14 @@ def ps2_rename_list():
         'WRC II Extreme - Special Demo (SCED-51632)': ['WRC II Extreme - Special Demo (SCED-51305)'],
         'WRC - Rally Evolved': ['WRC avec Sebastien Loeb Edition 2005'],
 		'WTA Tour Tennis': ['Pro Tennis WTA Tour'],
-		'X2 - Wolverine\'s Revenge': ['X-Men 2 - Wolverine\'s Revenge'],
+        'X-treme Express - World Grand Prix': [
+            'Tetsu One - Densha de Battle!',
+            'Tetsu One - Jeoncharo Battle! World Grand Prix',
+        ],
+		'X2 - Wolverine\'s Revenge': [
+            'X-Men 2 - La Vengeance de Wolverine',
+            'X-Men 2 - Wolverine\'s Revenge'
+        ],
         'Xenosaga Episode I - Der Wille zur Macht': [
             'Xenosaga Episode I - Der Wille zur Macht (Premium Box)',
             'Xenosaga Episode I Reloaded - Der Wille zur Macht',
@@ -4683,6 +4736,8 @@ def ps2_rename_list():
 		'Yu-Gi-Oh! GX - The Beginning of Destiny': ['Yu-Gi-Oh! GX - Tag Force Evolution'],
 		'Zapper - One Wicked Cricket': ['Zapper'],
         'Zero no Tsukaima - Maigo no Period to Ikusen no Symphony (Genteiban)': ['Zero no Tsukaima - Maigo no Period to Ikusen no Symphony']
+        'Zombie Attack': ['Simple 2000 Series Vol. 65 - The Kyonshii Panic'],
+        'Zombie Zone': ['Simple 2000 Series Vol. 61 - The OneeChambara'],
     }
 
 # VTech - V.Flash & V.Smile Pro
