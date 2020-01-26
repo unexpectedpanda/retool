@@ -3466,7 +3466,7 @@ def ps2_rename_list():
             'Buzz! Das grosse Quiz',
             'Buzz! El Gran Reto',
             'Buzz! Il Superquiz',
-            'Buzz! Le Grand Quiz ',
+            'Buzz! Le Grand Quiz',
             'Buzz! O Grande Quiz',
             'Buzz! Suuri Tietovisa',
         ],
