@@ -418,12 +418,12 @@ I went through each dat's titles to find obvious clones. I then used
 [VDGB](https://vgdb.io), [VGM](https://www.video-games-museum.com),
 [YouTube](https://www.youtube.com), [Amazon.jp](https://www.amazon.co.jp),
 [PlayAsia](https://www.play-asia.com/),
-[Sega Retro](https://segaretro.org/), and good old web searching to turn up
-information. Occasionally I went through Redump's site for Japanese, Korean
-and Chinese characters for the titles, so I could do translations and find out
-the equivalent English titles. At some point I discovered
-[FilterQuest](https://github.com/UnluckyForSome/FilterQuest), a similar tool,
-and added some missing titles from there.
+[Sega Retro](https://segaretro.org/), the [PSCX2 Wiki](https://wiki.pcsx2.net)
+and good old web searching to turn up information. Occasionally I went through
+Redump's site for Japanese, Korean and Chinese characters for the titles, so I
+could do translations and find out the equivalent English titles. At some point
+I discovered [FilterQuest](https://github.com/UnluckyForSome/FilterQuest), a
+similar tool, and added some missing titles from there.
 
 #### Does this create perfect 1G1R Redump dat?
 Unlikely. There are bound to be false positives as a result of bad assumptions,
