@@ -121,6 +121,7 @@ def main():
         '\(Disco Due\)',
         '\(Disco Tre\)',
         '\(Disco Quattro\)',
+        '\(Disque [A-Z0-9]\)',
         '\s?\(\d{8}\)',
         '\(Disc [A-Z].*?\)',
         '\(Disc 0[0-9]\)',
@@ -281,6 +282,24 @@ class DatNode:
                     disc_alternative = disc_alternative.replace('Disc 04', 'Disc 4')
                     disc_alternative = disc_alternative.replace('Disc 05', 'Disc 5')
                     tag_strip_title = tag_strip_title.replace(re.findall('\(Disc 0[0-9]\)', tag_strip_title)[0], disc_alternative)
+                elif 'Disque' in string:
+                    disc_alternative = re.search('\(Disque [A-Z0-9]\)', tag_strip_title).group()
+                    disc_alternative = disc_alternative.replace('Disque A', 'Disc 1')
+                    disc_alternative = disc_alternative.replace('Disque 1', 'Disc 1')
+                    disc_alternative = disc_alternative.replace('Disque I', 'Disc 1')
+                    disc_alternative = disc_alternative.replace('Disque B', 'Disc 2')
+                    disc_alternative = disc_alternative.replace('Disque 2', 'Disc 1')
+                    disc_alternative = disc_alternative.replace('Disque 1I', 'Disc 2')
+                    disc_alternative = disc_alternative.replace('Disque C', 'Disc 3')
+                    disc_alternative = disc_alternative.replace('Disque 3', 'Disc 1')
+                    disc_alternative = disc_alternative.replace('Disque 1II', 'Disc 3')
+                    disc_alternative = disc_alternative.replace('Disque D', 'Disc 4')
+                    disc_alternative = disc_alternative.replace('Disque 4', 'Disc 1')
+                    disc_alternative = disc_alternative.replace('Disque 1V', 'Disc 4')
+                    disc_alternative = disc_alternative.replace('Disque E', 'Disc 5')
+                    disc_alternative = disc_alternative.replace('Disque 5', 'Disc 1')
+                    disc_alternative = disc_alternative.replace('Disque V', 'Disc 5')
+                    tag_strip_title = tag_strip_title.replace(re.findall('\(Disque [A-Z0-9]\)', tag_strip_title)[0], disc_alternative)
                 elif string == '\s?\(\d{8}\)\s?':
                     # Really basic date validation
                     tag_year = re.search('\(\d{8}\)', tag_strip_title).group()[1:-5]

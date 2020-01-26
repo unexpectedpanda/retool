@@ -8,6 +8,9 @@ Redump project.
   * [Options](#Options)
 * [How it works](#How-it-works)
 * [Working with _renames.py](#Working-with-_renamespy)
+* [Working with _compilations.py](#Working-with-_compilationspy)
+* [Working with _supersets.py](#Working-with-_supersetspy)
+* [Working with _overrides.py](#Working-with-_overridespy)
 * [FAQs](#FAQs)
 * [Known limitations](#Known-limitations)
 * [Clonerel](#Clonerel)
@@ -103,7 +106,9 @@ Supersets include Game of the Year Editions, Special Editions, expansions and
 refinements of the original title (for example, _Ninja Gaiden Black_ compared
 to _Ninja Gaiden_), 32X versions of Sega CD games, and collections of titles
 (refer to [Compilations](#Compilations) to understand the difference between
-compilations and collections).
+compilations and collections). They don't include Collectors Editions that were
+released simultaneously with the original title &mdash; these are set to
+parents as default.
 
 Setting the `-s` option makes the superset title the parent of the original
 title. For example,
@@ -378,6 +383,32 @@ per the example below:
     ],
 ```
 
+## Working with _compilations.py
+The purpose of `_compilations.py` is to list compilations that don't have
+unique titles. When using the `-c` option, `_compilations.py` is referenced.
+
+The compilations file is different from others, in that you use an entire
+title's name, not the short name. You'll notice commented out tiles in there
+as well &mdash; these are compilations that still have unique titles compared
+to Redump's dat.
+
+## Working with _supersets.py
+When you use the `-s` option, `_supersets.py` is referenced. It follows a
+similar structure to `_renames.py`.
+
+There's a trap here &mdash; if you add a title as a superset, but the original
+has alternative titles associated with it in `_renames.py`, you will also have
+to list those alternative titles under the superset in `_supersets.py`.
+
+## Working with _overrides.py
+Sometimes all the logic in the world still fails. Whether this is because a
+title is named oddly, or doesn't quite follow Redump's intended naming scheme,
+the result is the same &mdash; you're going to have to force an override.
+
+The structure is similar to `_renames.py`, except here you always use a title's
+full name, not its short name.
+
+
 ## FAQs
 #### How did you figure out what the clones were?
 I went through each dat's titles to find obvious clones. I then used
@@ -388,9 +419,9 @@ I went through each dat's titles to find obvious clones. I then used
 [YouTube](https://www.youtube.com), [Amazon.jp](https://www.amazon.co.jp),
 [PlayAsia](https://www.play-asia.com/),
 [Sega Retro](https://segaretro.org/), and good old web searching to turn up
-information. Occasionally I went through Redump's site for Japanese and Chinese
-characters for the titles, so I could do translations and find out the
-equivalent English titles. At some point I discovered
+information. Occasionally I went through Redump's site for Japanese, Korean
+and Chinese characters for the titles, so I could do translations and find out
+the equivalent English titles. At some point I discovered
 [FilterQuest](https://github.com/UnluckyForSome/FilterQuest), a similar tool,
 and added some missing titles from there.
 
