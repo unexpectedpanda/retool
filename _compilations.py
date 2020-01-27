@@ -144,6 +144,12 @@ def saturn_compilation_list():
         # Wangan Dead Heat + Real Arrange (Japan) (Disc 2) (Addition)
     ]
 
+# SNK Neo Geo CD
+def neogeo_compilation_list():
+    return [
+
+    ]
+
 # Sony PlayStation
 def psx_compilation_list():
     return [

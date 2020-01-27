@@ -1,4 +1,4 @@
-# Last updated: 21 Jan 2020
+# Last updated: 27 Jan 2020
 # When the logic fails, and all you can do is manually set parents
 # and clones. There's no intelligence here, just straightforward assignment.
 
@@ -7,6 +7,16 @@ def saturn_override_list():
     return {
         'Daytona USA (USA)': [
             'Daytona USA (Japan)',
+            ]
+    }
+
+# SNK Neo Geo CD
+def neogeo_override_list():
+    return {
+        'Garou Densetsu 3 - Road to the Final Victory ~ Fatal Fury 3 - Road to the Final Victory (USA) (En,Ja,Es,Pt) (Rev 3)': [
+            'Garou Densetsu 3 - Road to the Final Victory ~ Fatal Fury 3 - Road to the Final Victory (USA) (En,Ja,Es,Pt) (Rev 2)',
+            'Garou Densetsu 3 - Road to the Final Victory ~ Fatal Fury 3 - Road to the Final Victory (Japan, USA) (En,Ja,Es,Pt) (Rev 1)',
+            'Garou Densetsu 3 - Road to the Final Victory ~ Fatal Fury 3 - Road to the Final Victory (Japan) (En,Ja,Es,Pt)',
             ]
     }
 
