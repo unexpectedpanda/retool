@@ -655,8 +655,7 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
                                             or title.category.contents[0] == 'Coverdiscs'
                                             or re.search('\(Demo\)', title.category.parent['name']) != None
                                             or re.search('\(Demo [0-9]\)', title.category.parent['name']) != None
-                                            or re.search('\(Taikenban\)', title.category.parent['name']) != None
-                                            or re.search('\(Taikenban [0-9]\)', title.category.parent['name']) != None
+                                            or re.search('\(.*?Taikenban.*?\)', title.category.parent['name']) != None
                                             or re.search('\(@barai\)', title.category.parent['name']) != None
                                             or re.search('\(Sample\)', title.category.parent['name']) != None
                                             or re.search('Trial Edition', title.category.parent['name']) != None
@@ -1252,6 +1251,11 @@ def process_dats(user_input, tag_strings, region_list_english, region_list_other
         comp_list = _compilations.saturn_compilation_list()
         superset_list = _supersets.saturn_superset_list()
         override_list = _overrides.saturn_override_list()
+    elif dat_name == 'SNK - Neo Geo CD':
+        dupe_list = _renames.neogeo_rename_list()
+        comp_list = _compilations.neogeo_compilation_list()
+        superset_list = _supersets.neogeo_superset_list()
+        override_list = _overrides.neogeo_override_list()
     elif dat_name == 'Sony - PlayStation':
         dupe_list = _renames.psx_rename_list()
         comp_list = _compilations.psx_compilation_list()

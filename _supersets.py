@@ -1,4 +1,4 @@
-# Last updated: 25 Jan 2020
+# Last updated: 27 Jan 2020
 # An list of superset games, for example, Game of the Year editions, Special
 # editions, and so on.
 
@@ -206,6 +206,12 @@ def saturn_superset_list():
         ],
     }
 
+# SNK Neo Geo CD
+def neogeo_superset_list():
+    return {
+
+    }
+
 # Sony PlayStation
 def psx_superset_list():
     return {
@@ -263,10 +269,10 @@ def ps2_superset_list():
             'Devil May Cry 3 - Dante\'s Awakening',
             'Devil May Cry 3',
         ],
-        'Devil Summoner - Kuzunoha Raidou tai Abaddon-ou Plus': ['Devil Summoner - Kuzunoha Raidou tai Abaddon-ou'],
         'Dragon Ball Z - Budokai 3 - Collector\'s Edition': [
             'Dragon Ball Z - Budokai 3 (Greatest Hits)',
             'Dragon Ball Z - Budokai 3',
+            'Dragon Ball Z 3',
         ],
         'Fate-stay night - Realta Nua (Extra Edition)': ['Fate-stay night - Realta Nua'],
         'Final Fantasy XI - Online - Vana\'diel Collection 2008': [
@@ -275,6 +281,7 @@ def ps2_superset_list():
             'Final Fantasy XI - Online - Treasures of Aht Urhgan',
             'Final Fantasy XI - Online - Wings of the Goddess Expansion Pack',
         ],
+        'Kamen Rider Hibiki - Taiko no Tatsujin Special Version': ['Kamen Rider Hibiki'],
         'Major League Baseball 2K5 - World Series Edition': ['Major League Baseball 2K5'],
         'Metal Gear Solid 2 - Substance': [
             'Metal Gear Solid 2 - Sons of Liberty',
@@ -285,12 +292,11 @@ def ps2_superset_list():
             'Metal Gear Solid 3 - Snake Eater',
             'Metal Gear Solid 3 - Snake Eater (Premium Package)',
         ],
+        'Metal Gear Solid 3 - Subsistence (Disc 2) (Persistence)': ['Metal Gear & Metal Gear 2 - Solid Snake'],
         'Midnight Club 3 - DUB Edition Remix': ['Midnight Club 3 - DUB Edition'],
         'Need for Speed - Most Wanted - Black Edition': ['Need for Speed - Most Wanted'],
-        'Nobunaga no Yabou - Kakushin with Power-Up Kit': ['Nobunaga no Yabou - Kakushin'],
         'Nobunaga no Yabou - Ranseiki with Power-Up Kit': ['Nobunaga no Yabou - Ranseiki'],
         'Nobunaga no Yabou - Soutenroku with Power-Up Kit': ['Nobunaga no Yabou - Soutenroku'],
-        'Nobunaga no Yabou - Tenka Sousei with Power-Up Kit': ['Nobunaga no Yabou - Tenka Sousei (v1.40)'],
         'Offroad Extreme! Special Edition': ['Offroad Extreme!'],
 		'Shin Megami Tensei - Persona 3 FES': [
             'Shin Megami Tensei - Persona 3',
@@ -313,6 +319,7 @@ def ps2_superset_list():
             'Winning Post 5 Maximum 2002 (Premium Pack)',
         ],
         'Winning Post 7 Maximum 2007': ['Winning Post 7'],
+        'Yamasa Digi World 4 DX': ['Yamasa Digi World 4'],
         'Zone of the Enders': ['Zone of the Enders - Z.O.E'],
         'Zone of the Enders - The 2nd Runner (Special Edition)': ['Zone of the Enders - The 2nd Runner'],
     }
