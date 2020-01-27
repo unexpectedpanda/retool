@@ -435,10 +435,14 @@ I'm following a philosophy that the superset should be the primary title.
 Anything with less content is by definition secondary. This is also why I
 added the [superset](#Supersets) option.
 
-#### What do the warnings about clones and parents not matching mean?
-This will likely happen if the version of the Redump dat you're using doesn't
-match the one that the clone lists were compiled from. A 1G1R dat file will
-still be generated, it just means Redump renamed or removed something, and so a
+#### What do the warnings about clones and parents not not being found mean?
+There are two reasons these warnings could appear. The first is that you've
+used one of the options, like `-d` to remove demos, and as a result that
+title is no longer found in the dat.
+
+The second is if the version of the Redump dat you're using doesn't match the
+one that the clone lists were compiled from. A 1G1R dat file will still be
+generated, it just means Redump renamed or removed something, and so a
 parent/clone relationship was lost.
 
 The older the `_*.py` files get, the less accurate the 1G1R dat becomes
