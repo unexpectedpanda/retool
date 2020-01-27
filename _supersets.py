@@ -158,7 +158,10 @@ def dreamcast_superset_list():
         'Atsumare! Guru Guru Onsen BB': ['Atsumare! Guru Guru Onsen'],
         'Sangokushi VI with Power-Up Kit': ['Sangokushi VI'],
         'Sega Worldwide Soccer 2000 - Euro Edition': ['Sega Worldwide Soccer 2000'],
-        'Sonic Adventure - Limited Edition': ['Sonic Adventure'],
+        'Sonic Adventure - Limited Edition': [
+            'Sonic Adventure',
+            'Sonic Adventure International',
+        ],
         'Super Runabout - San Francisco Edition': ['Super Runabout'],
     }
 
@@ -219,7 +222,10 @@ def psx_superset_list():
         'Dave Mirra Freestyle BMX - Maximum Remix': ['Dave Mirra Freestyle BMX'],
         'Fishing Freaks - BassRise Plus': ['Fishing Freaks - BassRise (Doukon Pack)'],
         'Hatsukoi Valentine Special': ['Hatsukoi Valentine'],
-        'Jet Moto 2 - Championship Edition': ['Jet Moto 2'],
+        'Jet Moto 2 - Championship Edition': [
+            'Jet Moto 2',
+            'Jet Rider 2',
+        ],
         'Lost World, The - Jurassic Park - Special Edition': [
             'Lost World, The - Jurassic Park',
             'Lost World, The - Jurassic Park (EDC)',
@@ -276,6 +282,10 @@ def ps2_superset_list():
         ],
         'Fate-stay night - Realta Nua (Extra Edition)': ['Fate-stay night - Realta Nua'],
         'Final Fantasy XI - Online - Vana\'diel Collection 2008': [
+            'Final Fantasy XI - Aht Urhgan no Hihou',
+            'Final Fantasy XI - Altana no Shinpei',
+            'Final Fantasy XI - Entry Disc 2005',
+            'Final Fantasy XI - Promathia no Jubaku',
             'Final Fantasy XI - Online',
             'Final Fantasy XI - Online - Chains of Promathia',
             'Final Fantasy XI - Online - Treasures of Aht Urhgan',
