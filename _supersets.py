@@ -308,7 +308,7 @@ def ps2_superset_list():
         'Nobunaga no Yabou - Ranseiki with Power-Up Kit': ['Nobunaga no Yabou - Ranseiki'],
         'Nobunaga no Yabou - Soutenroku with Power-Up Kit': ['Nobunaga no Yabou - Soutenroku'],
         'Offroad Extreme! Special Edition': ['Offroad Extreme!'],
-		'Shin Megami Tensei - Persona 3 FES': [
+        'Shin Megami Tensei - Persona 3 FES': [
             'Shin Megami Tensei - Persona 3',
             'P3 - Persona 3',
             'Persona 3',
