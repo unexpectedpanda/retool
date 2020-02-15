@@ -1,4 +1,4 @@
-# Last updated: 27 Jan 2020
+# Last updated: 15 Feb 2020
 # An exclusion list for when games are the same as another region,
 # just renamed for another region/new title screens.
 
@@ -304,6 +304,7 @@ def pce_rename_list():
         'Bomberman - Panic Bomber (FABT)': ['Bomberman - Panic Bomber (FAAT)'], # (ボンバーマン　～ぱにっくボンバー～)
         'Buster Bros.': ['Pomping World'], # (ポンピング・ワールド)
         'Cosmic Fantasy 2': ['Cosmic Fantasy 2 - Bouken Shounen Ban'], # (コズミック・ファンタジー２　～冒険少年バン～)
+        'Dynastic Hero, The': ['Chou Eiyuu Densetsu - Dynastic Hero'], # (超英雄伝説　ダイナスティック・ヒーロー)
         'Exile': ['Exile - Toki no Hasama e'], # (エグザイル　～時の狭間へ～)
         'Exile - Wicked Phenomenon': ['Exile II - Janen no Jishou'], # (エグザイルⅡ　～邪念の事象～)
         'F1 Circus Special - Pole to Win (FAAT, FACT)': ['F1 Circus Special - Pole to Win (FABT)'], # (エフ・ワン・サーカス・スペシャル　～ポール・トゥ・ウィン～)
@@ -317,10 +318,13 @@ def pce_rename_list():
         'Last Alert': ['Red Alert'], # (レッド・アラート)
         'Lords of the Rising Sun': ['Rising Sun'], # (ライジング・サン)
         'Lords of Thunder': ['Winds of Thunder'], # (ウィンズ・オブ・サンダー)
-        'Magical Dinosaur Tour': ['Magical Saurus Tour'], # (マジカル・サウルス・ツアー)
+        # 'Magical Dinosaur Tour': ['Magical Saurus Tour'], # (マジカル・サウルス・ツアー) # Magical Dinosaur Tour got removed from Redump for some reason.
         'Monster Lair': ['Wonder Boy III - Monster Lair'], # (ワンダー・ボーイIII　モンスター・レアー)
         'Riot Zone': ['Ookami-teki Monshou - Crest of Wolf'], # (狼的紋章　クレスト・オブ・ウルフ)
-        'Ryuuko no Ken (FACT)': ['Ryuuko no Ken (FABT)'], # (龍虎の拳)
+        'Ryuuko no Ken (FACT)': [
+            'Ryuuko no Ken (FAAT)', # (龍虎の拳)
+            'Ryuuko no Ken (FABT)', # (龍虎の拳)
+        ],
         'Shadow of the Beast': ['Shadow of the Beast - Mashou no Okite'], # (シャドー・オブ・ザ・ビースト　～魔性の掟～)
         'Sherlock Holmes - Consulting Detective - Volume 2': ['Sherlock Holmes - Consulting Detective Vol. II'], # (シャーロック・ホームズの探偵講座II)
         'Splash Lake': ['Splash Lake - Ostrich Daibouken'], # (スプラッシュ・レイク　～オストリッチ大冒険～)
@@ -685,7 +689,6 @@ def gamecube_rename_list():
 # Panasonic 3DO
 def threedo_rename_list():
     return {
-
         # Another World isn't in Redump yet > 'Out of This World', # Isn't in Redump yet >  'Outer World', # (アウター・ワールド)
         'Alone in the Dark': ['Alone in the Dark (NTSC Version)'],
         'Crash \'n Burn (Not for Resale)': ['Crash \'n Burn'],
@@ -749,7 +752,8 @@ def threedo_rename_list():
 def cdi_rename_list():
     return {
         '7th Guest, The (Disc 1) (The Game)': ['7th Guest, The (Disc 1) (Le Jeu)'],
-        'Asterix - El Desafio de Cesar': [
+        'Asterix - Caesar\'s Challenge': [
+            'Asterix - El Desafio de Cesar',
             'Asterix - De Uitdaging van Caesar',
             'Asterix - Die grosse Reise',
             'Asterix - La Sfida di Cesare',
@@ -762,7 +766,6 @@ def cdi_rename_list():
             'Burn-Cycle (Il Gioco)',
             'Burn-Cycle (Jeu)',
         ],
-        'Dictionnaire Hachette Multimedia': ['Dizionario Universale Multimediale Grolier Hachette'],
         'Harvest Of The Sun - Van Gogh - Une Moisson de Soleils': [
             'Raccolto del Sole, Il - Van Gogh',
             'Oogst van de Zon',
@@ -844,7 +847,7 @@ def segacd_rename_list():
         'Night Trap (Disc 1) (Sega CD 32X) (RE-1)': ['Night Trap (Disc 1) (Mega-CD 32X)'],
         'Night Trap (Disc 2) (Sega CD 32X) (RE-1)': ['Night Trap (Disc 2) (Mega-CD 32X)'],
         'Panic! (RE)': ['Switch'], # (スイッチ)
-        'Popful Mail (RE)': ['Popful Mail'], # (ぽっぷるメイル)
+        'Popful Mail (RE)': ['PopfulMail'], # (ぽっぷるメイル)
         'Power Monger': ['PowerMonger'],
         'Revengers of Vengeance': ['Battle Fantasy'], # (バトル・ファンタジー)
         'Rise of the Dragon': [
@@ -879,7 +882,7 @@ def segacd_rename_list():
         'Supreme Warrior (Disc 1) (Fire & Earth)': ['Supreme Warrior (Disc 1)'],
         'Supreme Warrior (Disc 2) (Wind & Fang Tu)': ['Supreme Warrior (Disc 2)'],
         'Supreme Warrior (Disc 1) (Fire & Earth) (Sega CD 32X)': ['Supreme Warrior (Disc 1) (Mega-CD 32X)'],
-        'Supreme Warrior (Disc 2) (Wind & Fang Tu) (Sega CD 32X)': ['Supreme Warrior (Disc 2) (Mega CD-32X)'],
+        'Supreme Warrior (Disc 2) (Wind & Fang Tu) (Sega CD 32X)': ['Supreme Warrior (Disc 2) (Mega-CD 32X)'],
         'Sol-Feace (RE2)': ['Sol-Feace'],
         'Sonic CD': ['Sonic The Hedgehog CD'], # (ソニック・ザ・ヘッジホッグＣＤ)
         'Third World War': ['IIIrd World War, The'], # (ザ・サード・ワールド・ウォー)
@@ -1726,6 +1729,8 @@ def psx_rename_list():
         'A-Train - Trains, Power, Money': [
             'A.IV - Evolution Global',
             'A Ressha de Ikou 4 - Evolution Global', # (Ａ．Ⅳ．エヴォリューション・グローバル　～Ａ列車で行こう４グローバル～)
+            'A Ressha de Ikou 4 - Evolution Global (PlayStation the Best)',
+            'SuperLite 1500 Series - A Ressha de Ikou 4 - Evolution Global',
         ],
         'Action Man - Operation Extreme': [
             'Action Man - Mission Xtreme',
@@ -2570,6 +2575,7 @@ def psx_rename_list():
             'Legend of Kartia',
             'Rebus', # (レブス)
         ],
+        'Kenki Ippatsu! Crane Master ni Narou!': ['Kenki Ippatsu! Crane Master ni Narou! (Major Wave)'],
         'Kickboxing': [
             'Kickboxing Knockout',
             'Simple 1500 Series Vol. 64 - The Kick Boxing', # (SIMPLE1500シリーズ Vol.64 THE キックボクシング)
@@ -2635,6 +2641,7 @@ def psx_rename_list():
         ],
         'Loaded': ['Blood Factory'], # (ブラッドファクトリー)
         'Looney Tunes - Sheep Raider': ['Sheep, Dog \'n\' Wolf'],
+        'Lord Monarch - Shin Gaia Oukokuki': ['Lord Monarch - Shin Gaia Oukokuki (Major Wave)'],
         'Lost World, The - Jurassic Park': ['Lost World, The - Jurassic Park (EDC)'],
         'Louvre - The Final Curse (Disc 1)': [
             'Louvre - A Maldicao (Disc 1)',
@@ -2902,6 +2909,7 @@ def psx_rename_list():
             'Player Manager - Epoca 98-99',
             'Player Manager Novanta Nove',
         ],
+        'PlayStation Programmer Tool - Runtime Library Version 3.3': ['PlayStation Programmer Tool - Runtime Library Version 2.6'],
         'Point Blank 2': ['Gunbarl'], # (ガンバァール)
         'Point Blank 3': ['Gunbalina'], # (ガンバリィーナ)
         'Pong - The Next Level': ['Pong'],
@@ -3351,6 +3359,7 @@ def psx_rename_list():
         'Wing Over 2': ['Pilot ni Narou!'], # (パイロットになろう！)
         'WipEout 3': ['Wip3out'],
         'Wipeout XL': ['WipEout 2097'],
+        'Wizardry - Llylgamyn Saga': ['SuperLite Gold Series - Wizardry - Llylgamyn Saga'],
         'World\'s Scariest Police Chases': ['Folles Poursuites'],
         'World Cup 98': [
             'Copa del Mundo - Francia \'98',
@@ -3479,6 +3488,7 @@ def ps2_rename_list():
         'Big Mutha Truckers 2': ['Big Mutha Truckers 2 - Truck Me Harder'],
         'Blood Will Tell - Tezuka Osamu\'s Dororo': ['Dororo'],
         'Bob the Builder': ['Bob the Builder (SLES-54923)'],
+        'Bob the Builder - Festival of Fun': ['Bob O Construtor - Festival do Divertimento'],
         'Boboboubo Boubobo - Atsumare!! Taikan Boubobo (EyeToy Camera Doukonban)': ['Boboboubo Boubobo - Atsumare!! Taikan Boubobo'],
         'Bode Miller Alpine Skiing': ['Alpine Skiing 2006 featuring Bode Miller'],
         'Bombastic': ['XIGO - Zuihou de Touzi'],
@@ -3513,6 +3523,7 @@ def ps2_rename_list():
             'Buzz! Le Mega Quiz',
             'Buzz! El Mega Concurso',
             'Buzz! Megavisa',
+            'Buzz! O Mega Quiz',
             'Buzz! The Maha Quiz',
         ],
         'Buzz! The Hollywood Quiz': [
@@ -3525,6 +3536,7 @@ def ps2_rename_list():
             'Buzz! El Gran Concurso de Deportes',
             'Buzz! Sporttivisa',
             'Buzz! Le Quiz du Sport',
+            'Buzz! O Quiz Desportivo',
         ],
         'Cabela\'s Dangerous Hunts 2009': ['Cabela\'s Dangerous Adventures'],
         'Call of Duty 2 - Big Red One (Collector\'s Edition)': ['Call of Duty 2 - Big Red One'],
@@ -3953,6 +3965,7 @@ def ps2_rename_list():
         'Global Defence Force Tactics': ['Simple 2000 Series Vol. 103 - The Chikyuu Boueigun Tactics'],
         'Global Touring Challenge - Africa': ['GTC Africa'],
         'Go Go Golf': ['Magical Sports GoGoGolf'],
+        'God of War': ['God of War - Yeonghonui Banyeokja'], # (GOD OF WAR 영혼의 반역자)
         'God of War II': ['God of War II - Shuuen e no Jokyoku'],
         'Godfather, The - The Game (Limited Edition)': [
             'Godfather, The',
@@ -4012,6 +4025,7 @@ def ps2_rename_list():
         'Hardware - Online Arena': ['Gangcheol Gigap Sadan - Online Battlefield'],
         'Harley-Davidson Motorcycles - Race to the Rally': ['Harley-Davidson Motor Cycles'],
         'Harry Potter and the Chamber of Secrets': [
+            'Harry Potter e a Camara dos Segredos',
             'Harry Potter e la Camera dei Segreti',
             'Harry Potter en de Geheime Kamer',
             'Harry Potter et la Chambre des Secrets',
@@ -4670,6 +4684,7 @@ def ps2_rename_list():
             'Shin Megami Tensei - Lucifer\'s Call',
             'Shin Megami Tensei III - Nocturne',
             'Shin Megami Tensei III - Nocturne (Tsutaya Original Version)',
+            'Shin Megami Tensei III - Nocturne (Deluxe Pack)',
         ],
         'Shinki Gensou - Spectral Souls (Genteiban)': ['Shinki Gensou - Spectral Souls'],
         'Shinobido - Way of the Ninja': ['Shinobi-dou - Imashime'],
@@ -4761,6 +4776,7 @@ def ps2_rename_list():
         'Suzuki TT Superbikes - Real Road Racing Championship': ['TT Superbikes - Real Road Racing Championship'],
         'Sven-Goeran Eriksson\'s World Challenge': [
             'Marcel Desailly Pro Football',
+            'Mundial 2002 Challenge',
             'WM Nationalspieler',
         ],
         'Swap Magic 3 Plus (Unl) (DVD Version 3.6)': [
@@ -5033,7 +5049,7 @@ def ps2_rename_list():
 def vtech_rename_list():
     return {
         'Amazing Spider-Man, The - Countdown to Doom': [
-            'Asombroso Spider-Man, El - Persecucion en la Cuidad',
+            'Asombroso Spider-Man, El - Persecucion en la Ciudad',
             'Spider-Man - Angriff der Super-Schurken',
             'Spider-Man Course-Poursuite a Manhattan',
         ],
