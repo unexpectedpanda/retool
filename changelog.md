@@ -1,3 +1,8 @@
+# 0.51
+- Added Zh as a language.
+- Fixed a crash if a dat had no titles, and Retool was trying to process
+  supersets.
+
 # 0.50
 - A huge architectural shift to move Retool to a 1G1R dat generator. Due to
   this, the `_regional_renames.py` file has been renamed to `_renames.py` and

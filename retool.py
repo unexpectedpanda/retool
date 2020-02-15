@@ -39,8 +39,8 @@ assert sys.version_info >= (3, 5)
 def main():
     # Splash screen
     os.system('cls' if os.name == 'nt' else 'clear')
-    print(font.bold + '\nReTOOL 0.5' + font.end)
-    print('----------')
+    print(font.bold + '\nReTOOL 0.51' + font.end)
+    print('-----------')
     if len(sys.argv) == 1:
         print(
             textwrap.fill(
