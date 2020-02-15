@@ -28,7 +28,10 @@ if os.path.exists('_testsupers.py'):
 else:
     import _supersets
 
-import _overrides
+if os.path.exists('_testoverrides.py'):
+    import _testoverrides as _overrides
+else:
+    import _overrides
 
 # Require at least Python 3.5
 assert sys.version_info >= (3, 5)
@@ -214,7 +217,7 @@ class DatNode:
         # Set regionless title
         if re.findall(' \(' + region + '.*?\)', full_title) != []:
             remove_region = full_title.replace(re.findall(' \(' + region + '.*?\)', full_title)[0],'')
-            remove_languages = re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv)\.*?)(,.*?\)|\)))', remove_region)
+            remove_languages = re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv|Zh)\.*?)(,.*?\)|\)))', remove_region)
             if len(remove_languages) > 0:
                 try:
                     self.regionless_title = remove_region.replace(remove_languages[0][0], '')
@@ -316,7 +319,7 @@ class DatNode:
         # Set regionless title with minimal tags
         if re.findall(' \(' + region + '.*?\)', full_title) != []:
             remove_region = tag_strip_title.replace(re.findall(' \(' + region + '.*?\)', tag_strip_title)[0],'')
-            remove_languages = re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv)\.*?)(,.*?\)|\)))', remove_region)
+            remove_languages = re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv|Zh)\.*?)(,.*?\)|\)))', remove_region)
             if len(remove_languages) > 0:
                 try:
                     self.rf_tag_strip_title = remove_region.replace(remove_languages[0][0], '')
@@ -807,7 +810,7 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
                 # with English. If more than one has English, take the one with the most languages
                 for x, y in itertools.combinations(ver_title_keep_temp, 2):
                     x2 = x.replace(re.findall(' \(' + region + '.*?\)', x)[0],'')
-                    remove_languages = re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv)\.*?)(,.*?\)|\)))', x)
+                    remove_languages = re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv|Zh)\.*?)(,.*?\)|\)))', x)
                     if len(remove_languages) > 0:
                         try:
                             x2 = x.replace(remove_languages[0][0], '')
@@ -815,7 +818,7 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
                             pass
 
                     y2 = y.replace(re.findall(' \(' + region + '.*?\)', y)[0],'')
-                    remove_languages = re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv)\.*?)(,.*?\)|\)))', y)
+                    remove_languages = re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv|Zh)\.*?)(,.*?\)|\)))', y)
                     if len(remove_languages) > 0:
                         try:
                             y2 = y.replace(remove_languages[0][0], '')
@@ -833,12 +836,12 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
                                 if actual_highest != y:
                                     ver_title_keep.pop(ver_title_keep.index(actual_highest))
                                     ver_title_delete.append(actual_highest)
-                        elif len(re.findall(',', str(re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv)\.*?)(,.*?\)|\)))', x)))) > len(re.findall(',', str(re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv)\.*?)(,.*?\)|\)))', y)))):
+                        elif len(re.findall(',', str(re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv|Zh)\.*?)(,.*?\)|\)))', x)))) > len(re.findall(',', str(re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv|Zh)\.*?)(,.*?\)|\)))', y)))):
                             for actual_highest in ver_title_keep:
                                 if actual_highest != x:
                                     ver_title_keep.pop(ver_title_keep.index(actual_highest))
                                     ver_title_delete.append(actual_highest)
-                        elif len(re.findall(',', str(re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv)\.*?)(,.*?\)|\)))', y)))) > len(re.findall(',', str(re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv)\.*?)(,.*?\)|\)))', x)))):
+                        elif len(re.findall(',', str(re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv|Zh)\.*?)(,.*?\)|\)))', y)))) > len(re.findall(',', str(re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv|Zh)\.*?)(,.*?\)|\)))', x)))):
                             for actual_highest in ver_title_keep:
                                 if actual_highest != y:
                                     ver_title_keep.pop(ver_title_keep.index(actual_highest))
@@ -964,7 +967,7 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
                             if test == True: continue
 
                             # Else if one has more languages than the other, take it
-                            test = parent_compare_more(len(re.findall(',', str(re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv)\.*?)(,.*?\)|\)))', x.tag_strip_title)))), len(re.findall(',', str(re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv)\.*?)(,.*?\)|\)))', y.tag_strip_title)))), parent_list, already_tested, x, y)
+                            test = parent_compare_more(len(re.findall(',', str(re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv|Zh)\.*?)(,.*?\)|\)))', x.tag_strip_title)))), len(re.findall(',', str(re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv|Zh)\.*?)(,.*?\)|\)))', y.tag_strip_title)))), parent_list, already_tested, x, y)
                             if test == True: continue
 
                             # Else if one has a rerelease tag, take the one that doesn't
@@ -1271,6 +1274,7 @@ def process_dats(user_input, tag_strings, region_list_english, region_list_other
         dupe_list = _renames.ps3_rename_list()
         comp_list = _compilations.ps3_compilation_list()
         superset_list = _supersets.ps3_superset_list()
+        # override_list = _overrides.ps3_override_list()
     elif dat_name == 'Sony - PlayStation 4':
         dupe_list = _renames.ps4_rename_list()
         comp_list = _compilations.ps4_compilation_list()
