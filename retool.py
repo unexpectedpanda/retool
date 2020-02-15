@@ -1274,7 +1274,6 @@ def process_dats(user_input, tag_strings, region_list_english, region_list_other
         dupe_list = _renames.ps3_rename_list()
         comp_list = _compilations.ps3_compilation_list()
         superset_list = _supersets.ps3_superset_list()
-        # override_list = _overrides.ps3_override_list()
     elif dat_name == 'Sony - PlayStation 4':
         dupe_list = _renames.ps4_rename_list()
         comp_list = _compilations.ps4_compilation_list()
@@ -1489,11 +1488,13 @@ def process_dats(user_input, tag_strings, region_list_english, region_list_other
                             y.cloneof = 'None'
                         if y.full_title in value:
                             y.cloneof = key
+    else:
+        progress_percent = (100)
 
     print('* Finding clones... done.')
 
     # If there are superset titles, delete the subset titles
-    if user_input.superset == True:
+    if user_input.superset == True and progress_percent != 100:
         print('* Promoting supersets... ' + str(int(progress_percent)) + '%', sep='', end='\r', flush=True)
 
         superset_delete = []
