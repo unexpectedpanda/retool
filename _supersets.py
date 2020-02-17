@@ -1,4 +1,4 @@
-# Last updated: 27 Jan 2020
+# Last updated: 17 Feb 2020
 # An list of superset games, for example, Game of the Year editions, Special
 # editions, and so on.
 
@@ -308,6 +308,7 @@ def ps2_superset_list():
         'Nobunaga no Yabou - Ranseiki with Power-Up Kit': ['Nobunaga no Yabou - Ranseiki'],
         'Nobunaga no Yabou - Soutenroku with Power-Up Kit': ['Nobunaga no Yabou - Soutenroku'],
         'Offroad Extreme! Special Edition': ['Offroad Extreme!'],
+        'Princess Maker 4 (Collector\'s Edition)': ['Princess Maker 4'],
         'Shin Megami Tensei - Persona 3 FES': [
             'Shin Megami Tensei - Persona 3',
             'P3 - Persona 3',
