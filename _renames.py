@@ -1,4 +1,4 @@
-# Last updated: 15 Feb 2020
+# Last updated: 17 Feb 2020
 # An exclusion list for when games are the same as another region,
 # just renamed for another region/new title screens.
 
@@ -54,7 +54,8 @@ def psp_rename_list():
 def mac_rename_list():
     return {
         # Atlantis - The Lost Tales isn't in Redump yet, may not have an English version > # 'Atlantis - Das sagenhafte Abenteuer',
-        # Daedalus Encounter, The isn't in Redump yet, may not have an English version >  # 'Daedalus Encounter, The - Episode 1 - Nanpasen no Alien',
+        'Daedalus Encounter, The (Disc 1)': ['Daedalus Encounter, The - Episode 1 - Nanpasen no Alien (Disc 1)'], # Not sure if there's a Disc 3 English version, but it's not in Redump yet.
+        'Daedalus Encounter, The (Disc 2)': ['Daedalus Encounter, The - Episode 1 - Nanpasen no Alien (Disc 2)'],
         'Rayman 3 - Hoodlum Havoc': [
             'Rayman 3 - Hoodlum Havoc (Disc 1)',
             'Rayman 3 - Hoodlum Havoc (Disc 2)',
@@ -96,7 +97,11 @@ def fmt_rename_list():
         'Microsoft Windows Version 3.1 L12 Operating System (Setup CD-ROM)': ['Microsoft Windows Version 3.1 L11 Operating System (Setup CD-ROM)'],
         'Towns Paint V1.1L20': ['Towns Paint V1.1L10'],
         'Towns Sound V1.1L20': ['Towns Sound V1.1L10'],
-        'Towns System Software V2.1L51': ['Towns System Software V2.1L10'],
+        'Towns System Software V2.1L51': [
+            'Towns System Software V1.1L20',
+            'Towns System Software V1.1L30',
+            'Towns System Software V2.1L10',
+        ],
         'Video Koubou V1.4L10': ['Video Koubou V1.3L10'],
     }
 
@@ -318,7 +323,7 @@ def pce_rename_list():
         'Last Alert': ['Red Alert'], # (レッド・アラート)
         'Lords of the Rising Sun': ['Rising Sun'], # (ライジング・サン)
         'Lords of Thunder': ['Winds of Thunder'], # (ウィンズ・オブ・サンダー)
-        # 'Magical Dinosaur Tour': ['Magical Saurus Tour'], # (マジカル・サウルス・ツアー) # Magical Dinosaur Tour got removed from Redump for some reason.
+        'Magical Dinosaur Tour': ['Magical Saurus Tour'], # (マジカル・サウルス・ツアー)
         'Monster Lair': ['Wonder Boy III - Monster Lair'], # (ワンダー・ボーイIII　モンスター・レアー)
         'Riot Zone': ['Ookami-teki Monshou - Crest of Wolf'], # (狼的紋章　クレスト・オブ・ウルフ)
         'Ryuuko no Ken (FACT)': [
@@ -1792,6 +1797,7 @@ def psx_rename_list():
             'Amerzone - Il Testamento dell\'Esploratore (Disc 2)',
             'Amerzone - O Testamento do Explorador (Disc 2)',
         ],
+        'Angel Blade - Neo Tokyo Guardians': ['Angel Blade - Neo Tokyo Guardians (Major Wave)'],
         'Angelique - Tenkuu no Requiem (Angelique History)': ['Angelique - Tenkuu no Requiem'],
         'Angelique Duet (Angelique History)': ['Angelique Duet'],
         'Angelique Special 2 (Angelique History)': ['Angelique Special 2'],
@@ -1855,6 +1861,7 @@ def psx_rename_list():
             'Barbie - Sports Extreme',
             'Barbie - Super Sport',
         ],
+        'Baroque - Yuganda Mousou (Genteiban)': ['Baroque - Yuganda Mousou'],
         'Bases Loaded \'96 - Double Header': ['Moero!! Pro Yakyuu \'95 - Double Header'], # ()
         'Bass Rise': ['Fishing Freaks - BassRise'], # (バスライズ)
         'Batman Beyond - Return of the Joker': ['Batman of the Future - Return of the Joker'],
@@ -2909,7 +2916,10 @@ def psx_rename_list():
             'Player Manager - Epoca 98-99',
             'Player Manager Novanta Nove',
         ],
-        'PlayStation Programmer Tool - Runtime Library Version 3.3': ['PlayStation Programmer Tool - Runtime Library Version 2.6'],
+        'PlayStation Programmer Tool - Runtime Library Version 3.3': [
+            'PlayStation Programmer Tool - Runtime Library Version 2.6',
+            'PlayStation Programmer Tool - Runtime Library Version 3.0',
+        ],
         'Point Blank 2': ['Gunbarl'], # (ガンバァール)
         'Point Blank 3': ['Gunbalina'], # (ガンバリィーナ)
         'Pong - The Next Level': ['Pong'],
@@ -3987,6 +3997,7 @@ def ps2_rename_list():
         'Gran Turismo 4': ['Gran Turismo 4 (PlayStation 2 Racing Pack)'],
         'Gran Turismo 4 - Prologue': ['Gran Turismo 4 - Prologue (PlayStation 2 Racing Pack Doukonban)'],
         'Grand Theft Auto - San Andreas': ['Grand Theft Auto - San Andreas (Rockstar Classics)'],
+        'Grand Theft Auto - Vice City': ['Grand Theft Auto - Vice City (Rockstar Classics)'],
         'Grand Theft Auto III': ['Grand Theft Auto III (Rockstar Classics)'],
         'Great British Football Quiz, The': [
             'Grande quiz sul calcio italiano, Il',
@@ -3998,7 +4009,7 @@ def ps2_rename_list():
         'GrimGrimoire': ['GrimGrimoire (Shokai Seisanban)'],
         'Growlanser Generations (Disc 1) (Growlanser II - The Sense of Justice)': [
             'Growlanser II - The Sense of Justice',
-            'Growlanser II - The Sense of Justice (Growlanser Collection)',
+            'Growlanser II - The Sense of Justice (Deluxe Pack)',
         ],
         'Growlanser Generations (Disc 2) (Growlanser III - The Dual Darkness)': [
             'Growlanser III - The Dual Darkness',
@@ -4152,7 +4163,10 @@ def ps2_rename_list():
             'KOF2 - Maximum Impact II (Shokai Seisanban)',
         ],
         'King\'s Field - The Ancient City': ['King\'s Field IV'],
-        'Kishin Houkou Demonbane (DX Pack)': ['Kishin Houkou Demonbane'],
+        'Kishin Houkou Demonbane (DX Pack)': [
+            'Kishin Houkou Demonbane',
+            'Kishin Houkou Demonbane (Kadokawa the Best)',
+        ],
         'Klonoa 2 - Lunatea\'s Veil': ['Kaze no Klonoa 2 - Sekai ga Nozonda Wasuremono'],
         'KOF - Maximum Impact': ['King of Fighters, The - Maximum Impact'],
         'Konjiki no Gashbell!! Go! Go! Mamono Fight!! (Multi Tap (SCPH-70120) Doukonban)': [
@@ -4421,7 +4435,6 @@ def ps2_rename_list():
         'Nicktoons - Attack of the Toybots': ['Nickelodeon SpongeBob and Friends - Attack of the Toybots'],
         'Nicktoons - Battle for Volcano Island': ['Nickelodeon SpongeBob and Friends - Battle for Volcano Island'],
         'Nicktoons Movin\'': [
-            'Nickelodeon Action! mit SpongeBob Schwammkopf und seinen Freunden',
             'Nickelodeon SpongeBob SquarePants - Movin\' with Friends',
         ],
         'Nickelodeon SpongeBob SquarePants in - Battle for Bikini Bottom': [
@@ -4664,6 +4677,7 @@ def ps2_rename_list():
         'Shanghai - The Four Elements': ['Shanghai - The Four Elements (Super Value 2800)'],
         'SharkPort - Code and Save Transfer Kit (Unl) (Version 2.21)': ['SharkPort - Code and Save Transfer Kit (Unl) (Version 1.2)'],
         'Shibai Michi (USB Mic Doukonban)': ['Shibai Michi'],
+        'Shin Bakusou Dekotora Densetsu - Tenka Touitsu Choujou Kessen': ['Shin Bakusou Dekotora Densetsu - Tenka Touitsu Choujou Kessen (Spike the Best)'],
         'Shox': [
             'Rally Shox',
             'Shox - Rally Reinvented'
@@ -4692,11 +4706,22 @@ def ps2_rename_list():
         'Shogun\'s Blade': ['Simple 2000 Series Vol. 47 - The Kassen Sekigahara'],
         'Shonen Jump\'s One Piece - Grand Battle': ['One Piece - Grand Battle! Rush'],
         'Silent Line - Armored Core': ['Armored Core 3 - Silent Line'],
-        'Silent Scope 2 - Dark Silhouette': ['Silent Scope 2 - Fatal Judgement'],
+        'Silent Scope 2 - Dark Silhouette': [
+            'Silent Scope 2 - Fatal Judgement',
+            'Silent Scope 2 - Innocent Sweeper',
+        ],
         'Simple 2000 Series Vol. 94 - The Aka-Champion - Come on Baby': ['Come on Baby'],
         'Simpsons Game, The': [
             'Simpson, Les - Le Jeu',
             'Simpsons, Die - Das Spiel',
+        ],
+        'SingStar Singalong with Disney': [
+            'SingStar Best of Disney',
+            'SingStar - Chansons Magiques de Disney',
+            'SingStar Canciones Disney',
+            'SingStar Cancoes Disney',
+            'SingStar e la Magia Disney',
+            'SingStar Zingt met Disney',
         ],
         'Siren': [
             'Forbidden Siren',
