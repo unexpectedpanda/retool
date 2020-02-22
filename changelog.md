@@ -1,3 +1,9 @@
+# 0.52
+- Added better parent selection for the following:
+  - Titles with multiple date versions.
+  - Titles with distributor, OEM, and covermount tags.
+  - Budget titles vs the originals.
+
 # 0.51
 - Added Zh as a language.
 - Fixed a crash if a dat had no titles, and Retool was trying to process

@@ -39,7 +39,7 @@ assert sys.version_info >= (3, 5)
 def main():
     # Splash screen
     os.system('cls' if os.name == 'nt' else 'clear')
-    print(font.bold + '\nReTOOL 0.51' + font.end)
+    print(font.bold + '\nReTOOL 0.53' + font.end)
     print('-----------')
     if len(sys.argv) == 1:
         print(
@@ -129,7 +129,11 @@ def main():
         '\(Disc [A-Z].*?\)',
         '\(Disc 0[0-9]\)',
         '\s?\(Covermount\)',
-        '\s?\(Sold Out Software\)'
+        '\s?\(Sold Out Software\)',
+        '\s?\(PlayStation the Best\)',
+        '\s?\(PlayStation 2 the Best\)',
+        '\s?\(PlayStation 3 the Best\)',
+        '\s?\(Major Wave\)',
         ]
 
     # If the user has defined an output folder
@@ -197,7 +201,7 @@ class font:
 
 # Establish a class for user input
 class UserInput:
-    def __init__(self, file_input, file_output, no_demos, no_apps, no_protos, no_alts, no_multi, no_edu, no_comps, superset):
+    def __init__(self, file_input, file_output, no_demos, no_apps, no_protos, no_alts, no_multi, no_edu, no_comps, superset, log):
         self.file_input = file_input
         self.file_output = file_output
         self.no_demos = no_demos
@@ -208,6 +212,7 @@ class UserInput:
         self.no_edu = no_edu
         self.no_comps = no_comps
         self.superset = superset
+        self.log = log
 
 # Establish a class for title data
 class DatNode:
@@ -411,19 +416,20 @@ def check_input():
     flag_no_multi = True if len([x for x in sys.argv if x == '-m']) > 0 else False
     flag_no_protos = True if len([x for x in sys.argv if x == '-p']) > 0 else False
     flag_superset = True if len([x for x in sys.argv if x == '-s']) > 0 else False
+    flag_log = True if len([x for x in sys.argv if x == '-v']) > 0 else False
 
     # Handle input, output, and invalid options
     for i, x in enumerate(sys.argv):
         # Check that the options entered are valid
         if x.startswith('-'):
-            if not ((x == '-i') or (x == '-o') or (x == '-a') or (x == '-c') or (x == '-d') or (x == '-e') or (x == '-l') or (x == '-m') or (x == '-p') or (x == '-s')):
+            if not ((x == '-i') or (x == '-o') or (x == '-a') or (x == '-c') or (x == '-d') or (x == '-e') or (x == '-l') or (x == '-m') or (x == '-p') or (x == '-s') or (x == '-v')):
                 print(font.red + '* Invalid option ' + sys.argv[i] + font.end)
                 error_state = True
 
         # Check for and handle -i
         if x == '-i':
             # Check for invalid or empty input
-            if i + 1 == len(sys.argv) or bool(re.search('^-([ioademprs]|en]$)', sys.argv[i+1])):
+            if i + 1 == len(sys.argv) or bool(re.search('^-([ioademprsv]$)', sys.argv[i+1])):
                 print(font.red + '* No input file specified' + font.end)
                 error_state = True
             else:
@@ -436,7 +442,7 @@ def check_input():
         # Check for and handle -o
         if x == '-o':
                 # Check for invalid or empty input
-                if i+1 == len(sys.argv) or bool(re.search('^-([ioademprs]|en]$)', sys.argv[i+1])):
+                if i+1 == len(sys.argv) or bool(re.search('^-([ioademprsv]$)', sys.argv[i+1])):
                     print(font.red + '* No output folder specified' + font.end)
                     error_state = True
                 else:
@@ -474,7 +480,7 @@ def check_input():
     if error_state == True:
         help()
 
-    return UserInput(input_file_name, output_folder_name, flag_no_demos, flag_no_apps, flag_no_protos, flag_no_alts, flag_no_multi, flag_no_edu, flag_no_comps, flag_superset)
+    return UserInput(input_file_name, output_folder_name, flag_no_demos, flag_no_apps, flag_no_protos, flag_no_alts, flag_no_multi, flag_no_edu, flag_no_comps, flag_superset, flag_log)
 
 # Converts CLRMAMEPro format to XML
 def convert_clr_logiqx(clrmame_header, checkdat, is_folder):
@@ -565,74 +571,107 @@ def localized_titles(region, native, soup, user_input):
         return soup.find_all('game', {'name':re.compile('(\(' + region + '\))')}) + soup.find_all('game', {'name':re.compile('(\(' + region + ',.*?\))')})
 
 # Removes dupes that are the same title, but support different languages
-def remove_by_language(language, subtitle1, subtitle2, title, regional_titles_data, remove_list):
+def remove_by_language(language, subtitle1, subtitle2, title, regional_titles_data, remove_list, user_input):
+    if user_input.log == True: print('--------\nREF #000: Testing if the following titles support ' + language + ':\n' + subtitle1 + '\n' + subtitle2 + '\n')
     # If there's a title from Europe that has unspecified languages, or languages without English, take the unspecified version
     if 'Europe' in subtitle1.regions and 'Europe' in subtitle2.regions and subtitle1.languages == '' and subtitle2.languages != '' and 'En' not in subtitle2.languages:
-        if subtitle2 in regional_titles_data[title]: remove_list.append(subtitle2)
+        if subtitle2 in regional_titles_data[title]:
+            remove_list.append(subtitle2)
+            if user_input.log == True: print('--------\nREF #001: Kept ' + subtitle1 + ', removed ' + subtitle2)
         return
     elif 'Europe' in subtitle1.regions and 'Europe' in subtitle2.regions and subtitle2.languages == '' and subtitle1.languages != '' and 'En' not in subtitle1.languages:
-        if subtitle1 in regional_titles_data[title]: remove_list.append(subtitle1)
+        if subtitle1 in regional_titles_data[title]:
+            remove_list.append(subtitle1)
+            if user_input.log == True: print('--------\nREF #002: Kept ' + subtitle2 + ', removed ' + subtitle1)
         return
     # Otherwise take the title that has the language we're looking for
     if language != []:
         if re.search('\(.*' + language[0] + '.*\)', subtitle1.full_title) != None and re.search('\(.*' + language[0] + '.*\)', subtitle2.full_title) == None:
-            if subtitle2 in regional_titles_data[title]: remove_list.append(subtitle2)
+            if subtitle2 in regional_titles_data[title]:
+                remove_list.append(subtitle2)
+                if user_input.log == True: print('--------\nREF #003: Kept ' + subtitle1 + ', removed ' + subtitle2)
         elif re.search('\(.*' + language[0] + '.*\)', subtitle1.full_title) == None and re.search('\(.*' + language[0] + '.*\)', subtitle2.full_title) != None:
-            if subtitle1 in regional_titles_data[title]: remove_list.append(subtitle1)
+            if subtitle1 in regional_titles_data[title]:
+                remove_list.append(subtitle1)
+                if user_input.log == True: print('--------\nREF #004: Kept ' + subtitle2 + ', removed ' + subtitle1)
         # If both titles support the selected language, but are different lengths, take the one that supports more langauges
         elif re.search('\(.*' + language[0] + '.*\)', subtitle1.full_title) != None and re.search('\(.*' + language[0] + '.*\)', subtitle2.full_title) != None:
             if len(subtitle1.full_title) > len(subtitle2.full_title):
-                if subtitle2 in regional_titles_data[title]: remove_list.append(subtitle2)
+                if subtitle2 in regional_titles_data[title]:
+                    remove_list.append(subtitle2)
+                    if user_input.log == True: print('--------\nREF #005: Kept ' + subtitle1 + ', removed ' + subtitle2)
             elif len(subtitle1.full_title) < len(subtitle2.full_title):
-                if subtitle1 in regional_titles_data[title]: remove_list.append(subtitle1)
+                if subtitle1 in regional_titles_data[title]:
+                    remove_list.append(subtitle1)
+                    if user_input.log == True: print('--------\nREF #006: Kept ' + subtitle2 + ', removed ' + subtitle1)
             else:
                 language.pop(0)
-                remove_by_language(language, subtitle1, subtitle2, title, regional_titles_data, remove_list)
+                remove_by_language(language, subtitle1, subtitle2, title, regional_titles_data, remove_list, user_input)
         else:
             language.pop(0)
-            remove_by_language(language, subtitle1, subtitle2, title, regional_titles_data, remove_list)
+            remove_by_language(language, subtitle1, subtitle2, title, regional_titles_data, remove_list, user_input)
 
-def parent_compare_more(test1, test2, parent_list, already_tested, x, y):
+def parent_compare_more(test1, test2, parent_list, already_tested, x, y, user_input):
     if test1 > test2:
-        if y in parent_list: del parent_list[y]
+        if y in parent_list:
+            del parent_list[y]
+            if user_input.log == True: print('--------\nREF #007: Kept ' + x.full_title + ', removed ' + y.full_title)
         already_tested.append(y.full_title)
         return True
     elif test2 > test1:
-        if x in parent_list: del parent_list[x]
+        if x in parent_list:
+            del parent_list[x]
+            if user_input.log == True: print('--------\nREF #008: Kept ' + y.full_title + ', removed ' + x.full_title)
         already_tested.append(x.full_title)
         return True
 
-def parent_compare_bool(test1, test2, parent_list, already_tested, x, y, date):
+def parent_compare_bool(test1, test2, parent_list, already_tested, x, y, date, user_input):
     if date == '':
         if test1 == True and test2 == False:
             if y in parent_list: del parent_list[y]
+            if user_input.log == True: print('--------\nREF #009: Kept ' + x.full_title + ', removed ' + y.full_title)
             already_tested.append(y.full_title)
             return True
         elif test2 == True and test1 == False:
             if x in parent_list: del parent_list[x]
+            if user_input.log == True: print('--------\nREF #010: Kept ' + y.full_title + ', removed ' + x.full_title)
             already_tested.append(x.full_title)
             return True
     elif date == 'date':
         if test1 == True or test2 == True:
             if test1 == True:
-                clone_year = re.search('\(\d{8}\)', x.full_title).group()[1:-5]
-                clone_month = re.search('\(\d{8}\)', x.full_title).group()[5:-3]
-                clone_day = re.search('\(\d{8}\)', x.full_title).group()[7:-1]
+                clone_year_x = re.search('\(\d{8}\)', x.full_title).group()[1:-5]
+                clone_month_x = re.search('\(\d{8}\)', x.full_title).group()[5:-3]
+                clone_day_x = re.search('\(\d{8}\)', x.full_title).group()[7:-1]
             if test2 == True:
-                clone_year = re.search('\(\d{8}\)', y.full_title).group()[1:-5]
-                clone_month = re.search('\(\d{8}\)', y.full_title).group()[5:-3]
-                clone_day = re.search('\(\d{8}\)', y.full_title).group()[7:-1]
+                clone_year_y = re.search('\(\d{8}\)', y.full_title).group()[1:-5]
+                clone_month_y = re.search('\(\d{8}\)', y.full_title).group()[5:-3]
+                clone_day_y = re.search('\(\d{8}\)', y.full_title).group()[7:-1]
 
-            if int(clone_year) > 1970 and int(clone_month) >= 1 and int(clone_month) < 13 and int(clone_day) >= 1 and int(clone_day) < 32:
-                if test1 == True and test2 == False:
-                    if x in parent_list: del parent_list[x]
+            if test1 == True and test2 == False:
+                if int(clone_year_x) > 1970 and int(clone_month_x) >= 1 and int(clone_month_x) < 13 and int(clone_day_x) >= 1 and int(clone_day_x) < 32:
+                    if x in parent_list:
+                        del parent_list[x]
+                        if user_input.log == True: print('--------\nREF #011: Kept ' + y.full_title + ', removed ' + x.full_title)
                     already_tested.append(x.full_title)
                     return True
-                elif test1 == False and test2 == True:
-                    if y in parent_list: del parent_list[y]
+            elif test1 == False and test2 == True:
+                if int(clone_year_y) > 1970 and int(clone_month_y) >= 1 and int(clone_month_y) < 13 and int(clone_day_y) >= 1 and int(clone_day_y) < 32:
+                    if y in parent_list:
+                        del parent_list[y]
+                        if user_input.log == True: print('--------\nREF #012: Kept ' + x.full_title + ', removed ' + y.full_title)
                     already_tested.append(y.full_title)
                     return True
-
+            elif test1 == True and test2 == True:
+                if (int(clone_year_x) > 1970 and int(clone_month_x) >= 1 and int(clone_month_x) < 13 and int(clone_day_x) >= 1 and int(clone_day_x) < 32) and (int(clone_year_y) > 1970 and int(clone_month_y) >= 1 and int(clone_month_y) < 13 and int(clone_day_y) >= 1 and int(clone_day_y) < 32):
+                    if int(clone_year_x + clone_month_x + clone_day_x) > int(clone_year_y + clone_month_y + clone_day_y):
+                        if y in parent_list:
+                            del parent_list[y]
+                            if user_input.log == True: print('--------\nREF #021: Kept ' + x.full_title + ', removed ' + y.full_title)
+                    else:
+                        if x in parent_list:
+                            del parent_list[x]
+                            if user_input.log == True: print('--------\nREF #022: Kept ' + y.full_title + ', removed ' + x.full_title)
 
 # Finds unique titles in regions, removes dupes
 def localized_titles_unique(region, region_list_english, region_list_other, titles, unique_list, unique_regional_titles, dupe_list, comp_list, user_input, global_parent_list, tag_strings, all_titles_data):
@@ -749,7 +788,7 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
                         if x in regional_titles_data[title]: remove_list.append(x)
                 # Now process the other regions
                 else:
-                    remove_by_language(['En', 'Es', 'Fr', 'Ja', 'Pt', 'De', 'It', 'Sv', 'Da', 'No', 'Pl', 'Gr', 'Nl', 'Fi', 'Ch', 'Hr', 'Ru'], x, y, title, regional_titles_data, remove_list)
+                    remove_by_language(['En', 'Es', 'Fr', 'Ja', 'Pt', 'De', 'It', 'Sv', 'Da', 'No', 'Pl', 'Gr', 'Nl', 'Fi', 'Ch', 'Hr', 'Ru'], x, y, title, regional_titles_data, remove_list, user_input)
 
         # Dedupe remove_list
         remove_list_temp = []
@@ -951,35 +990,53 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
                         # Lock comparisons to the same region for this loop
                         if bool(re.search(' \(.*?' + region + '.*?\)', x.full_title)) == True and bool(re.search(' \(.*?' + region + '.*?\)', y.full_title)) == True:
                             # If one has a version but the other doesn't, take it
-                            test = parent_compare_bool(bool(re.search('\(v[0-9].*?\)', x.full_title)), bool(re.search('\(v[0-9].*?\)', y.full_title)), parent_list, already_tested, x, y, '')
+                            test = parent_compare_bool(bool(re.search('\(v[0-9].*?\)', x.full_title)), bool(re.search('\(v[0-9].*?\)', y.full_title)), parent_list, already_tested, x, y, '', user_input)
                             if test == True: continue
 
                             # Else if one has a revision but the other doesn't, take it
-                            test = parent_compare_bool(bool(re.search('\(Rev [0-9A-Z].*?\)', x.full_title)), bool(re.search('\(Rev [0-9A-Z].*?\)', y.full_title)), parent_list, already_tested, x, y, '')
+                            test = parent_compare_bool(bool(re.search('\(Rev [0-9A-Z].*?\)', x.full_title)), bool(re.search('\(Rev [0-9A-Z].*?\)', y.full_title)), parent_list, already_tested, x, y, '', user_input)
                             if test == True: continue
 
+                            # Else if one has an OEM tag, take the one that doesn't
+                            test = parent_compare_bool(bool('(OEM)' in y.full_title), bool('(OEM)' in x.full_title), parent_list, already_tested, x, y, '', user_input)
+                            if test == True: continue
+
+                            # Else if one has a covermount tag, take the one that doesn't
+                            test = parent_compare_bool(bool('(Covermount)' in y.full_title), bool('(Covermount)' in x.full_title), parent_list, already_tested, x, y, '', user_input)
+                            if test == True: continue
+
+                            # Else if one has an updated "budget" title, take that, because it probably contains the latest version of the game
+                            test = parent_compare_bool(bool('(PlayStation the Best)' in x.full_title), bool('(PlayStation the Best)' in y.full_title), parent_list, already_tested, x, y, '', user_input)
+                            test = parent_compare_bool(bool('(PlayStation 2 the Best)' in x.full_title), bool('(PlayStation 2 the Best)' in y.full_title), parent_list, already_tested, x, y, '', user_input)
+                            test = parent_compare_bool(bool('(PlayStation 3 the Best)' in x.full_title), bool('(PlayStation 3 the Best)' in y.full_title), parent_list, already_tested, x, y, '', user_input)
+
                             # Else if one title has more regions than the other, take it.
-                            test = parent_compare_more(len(re.findall(',', re.findall('\(.*?' + region + '.*?\)', x.full_title)[0])), len(re.findall(',', re.findall('\(.*?' + region + '.*?\)', y.full_title)[0])), parent_list, already_tested, x, y)
+                            test = parent_compare_more(len(re.findall(',', re.findall('\(.*?' + region + '.*?\)', x.full_title)[0])), len(re.findall(',', re.findall('\(.*?' + region + '.*?\)', y.full_title)[0])), parent_list, already_tested, x, y, user_input)
                             if test == True: continue
 
                             # Else if one supports English and the other doesn't, take the English version
-                            test = parent_compare_bool(bool('En' in x.languages), bool('En' in y.languages), parent_list, already_tested, x, y, '')
+                            test = parent_compare_bool(bool('En' in x.languages), bool('En' in y.languages), parent_list, already_tested, x, y, '', user_input)
                             if test == True: continue
 
                             # Else if one has more languages than the other, take it
-                            test = parent_compare_more(len(re.findall(',', str(re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv|Zh)\.*?)(,.*?\)|\)))', x.tag_strip_title)))), len(re.findall(',', str(re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv|Zh)\.*?)(,.*?\)|\)))', y.tag_strip_title)))), parent_list, already_tested, x, y)
+                            test = parent_compare_more(len(re.findall(',', str(re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv|Zh)\.*?)(,.*?\)|\)))', x.tag_strip_title)))), len(re.findall(',', str(re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv|Zh)\.*?)(,.*?\)|\)))', y.tag_strip_title)))), parent_list, already_tested, x, y, user_input)
                             if test == True: continue
 
                             # Else if one has a rerelease tag, take the one that doesn't
-                            test = parent_compare_bool(bool('(Rerelease)' in y.full_title), bool('(Rerelease)' in x.full_title), parent_list, already_tested, x, y, '')
+                            test = parent_compare_bool(bool('(Rerelease)' in y.full_title), bool('(Rerelease)' in x.full_title), parent_list, already_tested, x, y, '', user_input)
+                            if test == True: continue
+
+                            # Else if one has a distributor tag, take the one that doesn't
+                            test = parent_compare_bool(bool('(Sold Out Software)' in y.full_title), bool('(Sold Out Software)' in x.full_title), parent_list, already_tested, x, y, '', user_input)
+                            test = parent_compare_bool(bool('(Major Wave)' in y.full_title), bool('(Major Wave)' in x.full_title), parent_list, already_tested, x, y, '', user_input)
                             if test == True: continue
 
                             # Else if one has an Alt tag, take the one that doesn't
-                            test = parent_compare_bool(bool(re.search('\(Alt.*?\)', y.full_title)), bool(re.search('\(Alt.*?\)', x.full_title)), parent_list, already_tested, x, y, '')
+                            test = parent_compare_bool(bool(re.search('\(Alt.*?\)', y.full_title)), bool(re.search('\(Alt.*?\)', x.full_title)), parent_list, already_tested, x, y, '', user_input)
                             if test == True: continue
 
                             # Else if one has a date tag and the other doesn't, take the one that doesn't
-                            test = parent_compare_bool(bool(re.search('\s?\(\d{8}\)\s?', x.full_title)), bool(re.search('\s?\((\d){8}\)\s?', y.full_title)), parent_list, already_tested, x, y, 'date')
+                            test = parent_compare_bool(bool(re.search('\s?\(\d{8}\)\s?', x.full_title)), bool(re.search('\s?\((\d){8}\)\s?', y.full_title)), parent_list, already_tested, x, y, 'date', user_input)
                             if test == True: continue
 
         for x in parent_list:
@@ -1192,6 +1249,11 @@ def process_dats(user_input, tag_strings, region_list_english, region_list_other
         dupe_list = _renames.fmt_rename_list()
         comp_list = _compilations.fmt_compilation_list()
         superset_list = _supersets.fmt_superset_list()
+    elif dat_name == 'IBM - PC compatible':
+        dupe_list = _renames.ibm_rename_list()
+        comp_list = _compilations.ibm_compilation_list()
+        superset_list = _supersets.ibm_superset_list()
+        override_list = _overrides.ibm_override_list()
     elif dat_name == 'Microsoft - Xbox':
         dupe_list = _renames.xbox_rename_list()
         comp_list = _compilations.xbox_compilation_list()

@@ -209,7 +209,7 @@ original titles can be matched with their superset titles.
 
 ### By language
 Titles with the same name from the same region, but with different language
-sets are also handled. The rules are complex:
+sets are also filtered to find the true parent. The rules are complex:
 - If one title is in English, but the other isn't, keep the English version.
 - If one title from Europe has no languages listed, and the other has
   languages listed but English isn't one of them, keep the title with no
@@ -235,6 +235,27 @@ sets are also handled. The rules are complex:
   1. Swiss
   1. Hungarian
   1. Russian
+
+### By version and revision
+After a region has been selected for a parent title, and language dupes
+removed, there still may be multiple versions or revisions of that title that
+need to be analysed. For example, v1.0 versus v2.5, Rev A versus Rev B. In each
+instance, the highest version is selected.
+
+Note that release versioning isn't supported, for example, where v0.100 is
+considered larger than v0.99, even though mathematically that's not true.
+Fortunately, there's not much evidence of that style of versioning being used
+across Redump dats.
+
+If versions are released on multiple operating systems, the version on the
+newer OS is selected. For example, _7th Guest, The (USA) (Disc 1)_ is a DOS
+title, whereas _7th Guest, The (USA) (Disc 1) (Windows 95)_ is on Windows 95,
+so the latter would be selected.
+
+### By media
+If a title was rereleased on a media format with more capacity (for example, on
+DVD after originally being released on CD), then the larger media format is
+selected as the parent.
 
 ## Working with _renames.py
 You only need to care about this if you're going to add your own clone titles
@@ -470,7 +491,7 @@ doesn't version all titles. Sometimes, titles that were originally released
 on multiple CDs were later released on DVD, which can only be determined by
 ISO size.
 
-As such, rereleases are currently marked as clones.
+As such, rereleases are generally marked as clones.
 
 #### Disc ring codes
 
