@@ -1,0 +1,130 @@
+<?xml version="1.0"?>
+<!DOCTYPE datafile PUBLIC "-//Logiqx//DTD ROM Management Datafile//EN" "http://www.logiqx.com/Dats/datafile.dtd">
+<datafile>
+	<header>
+		<name>IBM - PC compatible</name>
+		<description>TEST FILE</description>
+		<version>2019-11-01 23-26-07</version>
+		<date>2019-11-01 23-26-07</date>
+		<author>redump.org</author>
+		<homepage>redump.org</homepage>
+		<url>http://redump.org/</url>
+	</header>
+	<game name="101st Airborne in Normandy (Europe) (Rerelease) (20061027)">
+		<category>Games</category>
+		<description>101st Airborne in Normandy (Europe) (Rerelease) (20061027)</description>
+		<rom crc="4d1d6b9e" md5="e49d27c69b9b7799e845de8bdcd7873d" name="101st Airborne in Normandy (Europe) (Rerelease) (20061027).cue" sha1="c1375230cf6db8b1f5d0d7a04aeeb5cb53d759af" size="124"/>
+		<rom crc="cde2be4c" md5="f93d671eee2908a107c6bbfd0cce0108" name="101st Airborne in Normandy (Europe) (Rerelease) (20061027).bin" sha1="5ffd469f265cae3876804be592649038bbd29105" size="629505744"/>
+	</game>
+	<game name="101st Airborne in Normandy (Europe) (Rerelease) (19990826)">
+		<category>Games</category>
+		<description>101st Airborne in Normandy (Europe) (Rerelease) (19990826)</description>
+		<rom crc="bf75836a" md5="0fc3bfca1422af974dd952ddd09f4571" name="101st Airborne in Normandy (Europe) (Rerelease) (19990826).cue" sha1="27ba6aa822faa9fddb3852ac44c81d5f248c116b" size="124"/>
+		<rom crc="555d0f2a" md5="beb84ee428afb539b139e1d91d80e76b" name="101st Airborne in Normandy (Europe) (Rerelease) (19990826).bin" sha1="c2a0a0e34478e90c1d946742d3878cc0de90f178" size="800373840"/>
+	</game>
+	<game name="101st Airborne in Normandy (Poland) (Covermount)">
+		<category>Games</category>
+		<description>101st Airborne in Normandy (Poland) (Covermount)</description>
+		<rom crc="04a42a13" md5="229dca4849b6477e0a0d8361c64a9547" name="101st Airborne in Normandy (Poland) (Covermount).cue" sha1="562f56043ce33230de07125e34682d46d1a3eb82" size="114"/>
+		<rom crc="a3e34e87" md5="25d4796c6fa471296eb23a021f27e2be" name="101st Airborne in Normandy (Poland) (Covermount).bin" sha1="f933f454151c20184a8aa91eb80efdad3facb795" size="810515664"/>
+	</game>
+	<game name="Blam! Machinehead (Europe) (Sold Out Software)">
+		<category>Games</category>
+		<description>Blam! Machinehead (Europe) (Sold Out Software)</description>
+		<rom crc="f694a04d" md5="7ce463e5d1ff68dd0bef63e5f5288b53" name="Blam! Machinehead (Europe) (Sold Out Software).cue" sha1="f4e08066ba40ca875e0995fc447685514883724a" size="1392"/>
+		<rom crc="cb8f2e16" md5="86d1c83c34825505871216e32c05f8b2" name="Blam! Machinehead (Europe) (Sold Out Software) (Track 01).bin" sha1="cbfef9adc97370d319659ecde949a9b3cf8a9a63" size="172312224"/>
+		<rom crc="2bdaf447" md5="9bde4784a422dbb4e3c8682166cb7287" name="Blam! Machinehead (Europe) (Sold Out Software) (Track 02).bin" sha1="4eef24d5c250bbddd91064be9f77f37a83641510" size="36354864"/>
+		<rom crc="16a47894" md5="65b9b662b869ec5e5101403507a28b2b" name="Blam! Machinehead (Europe) (Sold Out Software) (Track 03).bin" sha1="5292b38d7e7183ea50314d0eb4e303f0bd154f52" size="44772672"/>
+		<rom crc="cbb9b988" md5="40f0991963f20a0fbd0f58b6c550b8a5" name="Blam! Machinehead (Europe) (Sold Out Software) (Track 04).bin" sha1="3113290788d85918f1f789855466b4ac5ef6ae40" size="41338752"/>
+		<rom crc="24d46ade" md5="b7dd6c29b91b699b79ca1bb983b13f55" name="Blam! Machinehead (Europe) (Sold Out Software) (Track 05).bin" sha1="d12195d360e9109f4eef02fde657ac7d726c9af9" size="49262640"/>
+		<rom crc="b23a5575" md5="53a2310835bc6095a4d78af2faf7f764" name="Blam! Machinehead (Europe) (Sold Out Software) (Track 06).bin" sha1="4aaa1593cf6eff3eca9e5a931ea2555dd272ff65" size="59552640"/>
+		<rom crc="aa97acc5" md5="54353776cf1ca4ea8c4a5f806732f5ab" name="Blam! Machinehead (Europe) (Sold Out Software) (Track 07).bin" sha1="0ee01a53a5a5a43f2b843f99848d8a1754e7f046" size="51377088"/>
+		<rom crc="d89229eb" md5="af9e4073d7c566dbf0a83e88597dac37" name="Blam! Machinehead (Europe) (Sold Out Software) (Track 08).bin" sha1="35a69ad86fcd71cb05252e5b8f764a96ca1c420e" size="46607232"/>
+		<rom crc="efae3272" md5="2bdd5338eef5af1f2c41278fab8e3dd6" name="Blam! Machinehead (Europe) (Sold Out Software) (Track 09).bin" sha1="07604e8e282c1cef1f3db7c5c4d83589f8562208" size="49450800"/>
+		<rom crc="f7ccbdd9" md5="b2541f2093d9c9de3e9a0c14358b4680" name="Blam! Machinehead (Europe) (Sold Out Software) (Track 10).bin" sha1="5963d84c279b03f61077159a34a13f176e929e39" size="59021088"/>
+	</game>
+	<game name="Blam! Machinehead (Europe)">
+		<category>Games</category>
+		<description>Blam! Machinehead (Europe)</description>
+		<rom crc="bf5c9b39" md5="6ebb30d658a37bd75658dd10e6029b8f" name="Blam! Machinehead (Europe).cue" sha1="d4f2c8bd707c3de0728375702f8494e4981852f8" size="1215"/>
+		<rom crc="6d0eaf13" md5="20e6107a1ab3035dbd86ad82e154bf8f" name="Blam! Machinehead (Europe) (Track 01).bin" sha1="9769db824c133afa777fb28cef5da874ddf5d5b8" size="149747136"/>
+		<rom crc="0ecdf879" md5="72d95c7f239271533c450dfa6b469d4d" name="Blam! Machinehead (Europe) (Track 02).bin" sha1="9b2f279bfb2dc70c8275bedbd26b0749d99ebafc" size="36343104"/>
+		<rom crc="ddb3ca0f" md5="76aa95247e55c5a66c8c22805d87e03b" name="Blam! Machinehead (Europe) (Track 03).bin" sha1="7230f9df238b700b5afb084a68cd53dd3ff21b4f" size="44756208"/>
+		<rom crc="0109bd72" md5="20b293c9f0856612d8dbe4fe2f85632c" name="Blam! Machinehead (Europe) (Track 04).bin" sha1="7f6a891ecd64f1dbae09291fe05b38e1f9e2bb53" size="41381088"/>
+		<rom crc="fbab26cc" md5="72899b331ecc27a8c742d1e163383da4" name="Blam! Machinehead (Europe) (Track 05).bin" sha1="df3b3bdda808daf31112ccc2b9e25fa4db91157c" size="49309680"/>
+		<rom crc="7be22453" md5="61d1b674d0f256fb0eb47e0061d3e96b" name="Blam! Machinehead (Europe) (Track 06).bin" sha1="76507681abd94da92ed08da67505c3ba5a5fbc8f" size="59738448"/>
+		<rom crc="a5eafe12" md5="3b6c6983b1b7b8e0d987a7d590be72a6" name="Blam! Machinehead (Europe) (Track 07).bin" sha1="5c300157c4a0438234522fe51228838084dcbe17" size="51381792"/>
+		<rom crc="21fa5bc9" md5="95b4d68020613e27121d907280147d0c" name="Blam! Machinehead (Europe) (Track 08).bin" sha1="c92dafd9843bef042c24b8a5255d1b854b1f6316" size="46675440"/>
+		<rom crc="ff5495a1" md5="239e012a6472763c160ad20334034a6b" name="Blam! Machinehead (Europe) (Track 09).bin" sha1="dd13926691ae277d3d3499e50465b5553ac0c921" size="49457856"/>
+		<rom crc="e24bd495" md5="cbca25a951551773ec62b8da8bd41575" name="Blam! Machinehead (Europe) (Track 10).bin" sha1="88348eb158402324bfdb2c169dcae3d711595737" size="59018736"/>
+	</game>
+	<game name="Blam! Machinehead (Germany)">
+		<category>Games</category>
+		<description>Blam! Machinehead (Germany)</description>
+		<rom crc="6990a750" md5="764f0a7f19e70513cb364ae8d9848472" name="Blam! Machinehead (Germany).cue" sha1="589f0d2d6dbb518e52851531d30994ce197d7441" size="1225"/>
+		<rom crc="a6edc8f5" md5="4c17999478273ba99c479d0d95418e22" name="Blam! Machinehead (Germany) (Track 01).bin" sha1="2cc800bf1d73826f271596ca7863c906343a8c6a" size="246520176"/>
+		<rom crc="730f98a1" md5="e50038dc577c469866e7521da0aefff2" name="Blam! Machinehead (Germany) (Track 02).bin" sha1="92e81f9ee74449ba5245de81a90352eebf544e67" size="36343104"/>
+		<rom crc="0ecdbce6" md5="a427d1d51a38009f9f4b73f5049dfb48" name="Blam! Machinehead (Germany) (Track 03).bin" sha1="659183c9d10ce63ffa46d9b1bb0a5d5a37a1723e" size="44756208"/>
+		<rom crc="16c02ed9" md5="3b475635ee41a5d8ce8966e8cb1bdb8f" name="Blam! Machinehead (Germany) (Track 04).bin" sha1="42066f79a92326f2559a4a8f8a13a2296835472b" size="41381088"/>
+		<rom crc="f538967b" md5="b3f85359eacb2f38aef7d37c640e478c" name="Blam! Machinehead (Germany) (Track 05).bin" sha1="4becab6559685ccb7ad8b74911fd0b350d2d7f52" size="49309680"/>
+		<rom crc="2a0bb13f" md5="6bb530f0ccf8758027388218391978bb" name="Blam! Machinehead (Germany) (Track 06).bin" sha1="3732bee968c474d2c575d1d41d33d7340f9144f9" size="59738448"/>
+		<rom crc="37d164f3" md5="eac8a5d9ee7e229cb97654eef634ca15" name="Blam! Machinehead (Germany) (Track 07).bin" sha1="13c27ad645159b0ae8a941b87f217f13d0304c9b" size="51381792"/>
+		<rom crc="a6a58cae" md5="7ac0e53d696c152cfec22a7f4eabf1fa" name="Blam! Machinehead (Germany) (Track 08).bin" sha1="5cf61acd2f0d5079da6256146e6171f4430aeb89" size="46675440"/>
+		<rom crc="7f7d02f1" md5="ae844c335e522dd32bf4c33296c38ae8" name="Blam! Machinehead (Germany) (Track 09).bin" sha1="2f81afe41658b2f9175b719c630c339d990e56b6" size="49457856"/>
+		<rom crc="c21ef5a0" md5="179185f130c32c8b965bf9f49527dbe0" name="Blam! Machinehead (Germany) (Track 10).bin" sha1="113682ac7ce5bb6e374219aa76e27b90399e3a18" size="59018736"/>
+	</game>
+		<game name="Broken Sword - The Shadow of the Templars (Europe) (Disc 2) (Sold Out Software)">
+		<category>Games</category>
+		<description>Broken Sword - The Shadow of the Templars (Europe) (Disc 2) (Sold Out Software)</description>
+		<rom crc="12709321" md5="556cd28c2de452c1e04fad42ca8fce40" name="Broken Sword - The Shadow of the Templars (Europe) (Disc 2) (Sold Out Software).cue" sha1="06c409c3cfbd9f149afcce6fbfc3abaff5b38df0" size="168"/>
+		<rom crc="d2955e9b" md5="2090a3221d43d63cb34d82d269d13db5" name="Broken Sword - The Shadow of the Templars (Europe) (Disc 2) (Sold Out Software).bin" sha1="c7137f514047e350de8367c25272c7adc5c1ad49" size="677919312"/>
+	</game>
+	<game name="Broken Sword - The Shadow of the Templars (Europe) (Disc 1) (Sold Out Software) (20010326)">
+		<category>Games</category>
+		<description>Broken Sword - The Shadow of the Templars (Europe) (Disc 1) (Sold Out Software) (20010326)</description>
+		<rom crc="dbb4ffba" md5="403b3cb495d2af7bd1b84ccc5d80c128" name="Broken Sword - The Shadow of the Templars (Europe) (Disc 1) (Sold Out Software) (20010326).cue" sha1="b42e2962d4fc9ad6352de0a880ba6eeb8cfd8f10" size="156"/>
+		<rom crc="c8a728dc" md5="8c78b03a8bdc7b8afe62e78cad6f3bd9" name="Broken Sword - The Shadow of the Templars (Europe) (Disc 1) (Sold Out Software) (20010326).bin" sha1="fdd8f26aa6304596c1ce070e6432bb681bbf1831" size="792689856"/>
+	</game>
+	<game name="Broken Sword - The Shadow of the Templars (Europe) (Disc 1) (Sold Out Software)">
+		<category>Games</category>
+		<description>Broken Sword - The Shadow of the Templars (Europe) (Disc 1) (Sold Out Software)</description>
+		<rom crc="92a3b6af" md5="2d9b4133603f1509933320101c4c6fda" name="Broken Sword - The Shadow of the Templars (Europe) (Disc 1) (Sold Out Software).cue" sha1="66dcac5480d5eb926fe25d9059a25c28aa97ee94" size="168"/>
+		<rom crc="789b012c" md5="69eb6919484f516a805a088f834e2122" name="Broken Sword - The Shadow of the Templars (Europe) (Disc 1) (Sold Out Software).bin" sha1="9428770ed624e650d3f53f5da18a9e2b81f7e091" size="758160144"/>
+	</game>
+	<game name="Broken Sword - The Shadow of the Templars (Europe) (Disc 1)">
+		<category>Games</category>
+		<description>Broken Sword - The Shadow of the Templars (Europe) (Disc 1)</description>
+		<rom crc="80eaa673" md5="90e4273cb623bbae58cfa60c7644deb6" name="Broken Sword - The Shadow of the Templars (Europe) (Disc 1).cue" sha1="2567a5ef430eea9c4a2f71ab069c5840674373b0" size="125"/>
+		<rom crc="617e51b3" md5="7e87e19623c98602308180cddc846388" name="Broken Sword - The Shadow of the Templars (Europe) (Disc 1).bin" sha1="7240e9870557969c276c8b9be754f6813b6747c8" size="734078016"/>
+	</game>
+	<game name="Broken Sword - The Shadow of the Templars (Europe) (Disc 2)">
+		<category>Games</category>
+		<description>Broken Sword - The Shadow of the Templars (Europe) (Disc 2)</description>
+		<rom crc="81b780a2" md5="187f3825e00361246b349c25e390e190" name="Broken Sword - The Shadow of the Templars (Europe) (Disc 2).cue" sha1="2c6865e5b1ab94f8532ae2e7fd4402f0527ecdc2" size="125"/>
+		<rom crc="59cb134b" md5="9ab5bb0b859bc5ff2b65835ae227d053" name="Broken Sword - The Shadow of the Templars (Europe) (Disc 2).bin" sha1="311b35085a6110f105ce63d0df656650f35ec5a9" size="677566512"/>
+	</game>
+	<game name="Broken Sword - The Shadow of the Templars (Europe) (Disc 1) (Rerelease)">
+		<category>Games</category>
+		<description>Broken Sword - The Shadow of the Templars (Europe) (Disc 1) (Rerelease)</description>
+		<rom crc="ed47cc6e" md5="d205df9062beb8743ad44f60d71b8f61" name="Broken Sword - The Shadow of the Templars (Europe) (Disc 1) (Rerelease).cue" sha1="91fadfbdd8fdb1bda90f58427c7a1847a254ac9d" size="160"/>
+		<rom crc="24cfece7" md5="dfbd934029cd29d0ac2bece13a45cd3c" name="Broken Sword - The Shadow of the Templars (Europe) (Disc 1) (Rerelease).bin" sha1="f4686ce7650a30b75214a46e3b4ea3f3d244aec7" size="731178000"/>
+	</game>
+	<game name="Broken Sword - The Shadow of the Templars (Europe) (Disc 2) (Rerelease)">
+		<category>Games</category>
+		<description>Broken Sword - The Shadow of the Templars (Europe) (Disc 2) (Rerelease)</description>
+		<rom crc="1fe6e9c2" md5="4de92b4e3dc15ab7b2c9cc3b2658f247" name="Broken Sword - The Shadow of the Templars (Europe) (Disc 2) (Rerelease).cue" sha1="858f468370de6ba6c3e177593c0759823737bc8d" size="160"/>
+		<rom crc="fd35926c" md5="55d7c74bb2cfd8e28e77a9a75d06f210" name="Broken Sword - The Shadow of the Templars (Europe) (Disc 2) (Rerelease).bin" sha1="e00e90cc28627ad6794903171f7aa40faf02c5a9" size="677218416"/>
+	</game>
+	<game name="Broken Sword - The Shadow of the Templars (Europe) (Disc 1) (Sold Out Software) (20010326) (Alt)">
+		<category>Games</category>
+		<description>Broken Sword - The Shadow of the Templars (Europe) (Disc 1) (Sold Out Software) (20010326) (Alt)</description>
+		<rom crc="04f4d684" md5="c4da127a0ba02be4b6823c979cdf1bbe" name="Broken Sword - The Shadow of the Templars (Europe) (Disc 1) (Sold Out Software) (20010326) (Alt).cue" sha1="88da77b7a87ac2f2eb58eae1c119216f6a1a4d7e" size="162"/>
+		<rom crc="ad511e95" md5="fb9b21215a00c0274185f493a4b8a420" name="Broken Sword - The Shadow of the Templars (Europe) (Disc 1) (Sold Out Software) (20010326) (Alt).bin" sha1="9a64500eef8c68807993bbec3cf1857eb01edf3d" size="792689856"/>
+	</game>
+	<game name="Broken Sword - The Shadow of the Templars (Europe) (Disc 1) (Sold Out Software) (20010207)">
+		<category>Games</category>
+		<description>Broken Sword - The Shadow of the Templars (Europe) (Disc 1) (Sold Out Software) (20010207)</description>
+		<rom crc="43fce7e7" md5="c2ece07e341010995a62ea277ce88515" name="Broken Sword - The Shadow of the Templars (Europe) (Disc 1) (Sold Out Software) (20010207).cue" sha1="391f1b123a1751d32246fbd43f153f7302d0e956" size="156"/>
+		<rom crc="23cac368" md5="0ffe73cb895867eafa16b2f9f614d01b" name="Broken Sword - The Shadow of the Templars (Europe) (Disc 1) (Sold Out Software) (20010207).bin" sha1="d0fcd4d2a258d4b11259cb4b79d91118beb13577" size="792689856"/>
+	</game>
+</datafile>

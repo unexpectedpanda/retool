@@ -1,4 +1,4 @@
-# Last updated: 25 Jan 2020
+# Last updated: 17 Feb 2020
 # An exclusion list for compilations that don't feature unique games.
 # All compilations are listed, but those with unique games are commented out.
 
@@ -79,6 +79,12 @@ def cdtv_compilation_list():
 
 # Fujitsu FM-Towns
 def fmt_compilation_list():
+    return [
+
+    ]
+
+# IBM PC-Compatible
+def ibm_compilation_list():
     return [
 
     ]

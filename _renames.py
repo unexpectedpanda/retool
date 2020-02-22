@@ -1,4 +1,4 @@
-# Last updated: 17 Feb 2020
+# Last updated: 22 Feb 2020
 # An exclusion list for when games are the same as another region,
 # just renamed for another region/new title screens.
 
@@ -103,6 +103,56 @@ def fmt_rename_list():
             'Towns System Software V2.1L10',
         ],
         'Video Koubou V1.4L10': ['Video Koubou V1.3L10'],
+    }
+
+# IBM PC-Compatible
+def ibm_rename_list():
+    return {
+        '007 - Quantum of Solace': [
+            '007 - Kvant miloserdija',
+            '007 - Quantum of Solace (Press Kit)',
+        ],
+        '18 Wheels of Steel - Convoy': ['18 stal\'nyh koles - Konvoj'],
+        '18 Wheels of Steel - Pedal to the Metal': ['18 stal\'nyh koljos - Pyl\' dorog'],
+        '3-D Ultra Pinball - The Lost Continent': ['3-D Ultra Pinball - Der vergessene Kontinent'],
+        '7th Guest, The (Disc 1) (Windows 95)': ['7th Guest, The (Disc 1)'],
+        '7th Guest, The (Disc 2) (Windows 95)': ['7th Guest, The (Disc 2)'],
+        'Abomination - Action Strategy Mayhem': ['Abomination - The Nemesis Project'],
+        'Ace Ventura': ['Ace Ventura - Detective de mascotas'],
+        'Advanced Dungeons & Dragons - Birthright - The Gorgon\'s Alliance': ['Advanced Dungeons & Dragons - Birthright - Die Dunkle Allianz'],
+        'Agatha Christie - Evil Under the Sun': [
+            'Agatha Christie - Evil Under the Sun (Disc 1)',
+            'Agatha Christie - Evil Under the Sun (Disc 2)',
+            'Agatha Christie - Evil Under the Sun (Disc 3)',
+        ],
+        'Age of Empires - The Rise of Rome Expansion': ['Age of Empires - Der Aufstieg Roms'],
+        'Age of Empires II - The Age of Kings': ['Age of Empires II - The Age of Kings (Gold Edition)'],
+        'Age of Empires II - The Conquerors Expansion': ['Age of Empires II - The Conquerors Expansion (Gold Edition)'],
+        'Age of Empires III (Disc 1)': [
+            'Age of Empires III (Disc 1) (Disco di Installazione)',
+            'Age of Empires III (Disc 1) (Installations-CD)',
+        ],
+        'Age of Empires III (Disc 2)': [
+            'Age of Empires III (Disc 2) (Disco del Gioco)',
+            'Age of Empires III (Disc 2) (Spiel-CD)',
+        ],
+        'Age of Empires III (Disc 3)': [
+            'Age of Empires III (Disc 3) (Disco del Gioco)',
+            'Age of Empires III (Disc 3) (Spiel-CD)',
+        ],
+        'Age of Mythology - Gold Edition (Disc 1) (Install Disc)': [
+            'Age of Mythology - Gold Edition',
+            'Age of Mythology - Gold Edition (Disc 1) (Disco di installazione)',
+        ],
+        'Age of Mythology - Gold Edition (Disc 2) (Play Disc)': [
+            'Age of Mythology - Gold Edition (Disc 2) (Disco di gioco Titans)',
+        ],
+        'Age of Wonders II - The Wizard\'s Throne': ['Age of Wonders II - Der Zirkel der Zauberer'],
+        'Deal or No Deal': ['Affari Tuoi'],
+        'Spy Fox in Dry Cereal': [
+            'Agent Fuchs in Das Milchkartell',
+            'Spy Fox - Operation Milkshake',
+        ],
     }
 
 # Microsoft Xbox
@@ -1734,7 +1784,6 @@ def psx_rename_list():
         'A-Train - Trains, Power, Money': [
             'A.IV - Evolution Global',
             'A Ressha de Ikou 4 - Evolution Global', # (Ａ．Ⅳ．エヴォリューション・グローバル　～Ａ列車で行こう４グローバル～)
-            'A Ressha de Ikou 4 - Evolution Global (PlayStation the Best)',
             'SuperLite 1500 Series - A Ressha de Ikou 4 - Evolution Global',
         ],
         'Action Man - Operation Extreme': [
@@ -1797,7 +1846,6 @@ def psx_rename_list():
             'Amerzone - Il Testamento dell\'Esploratore (Disc 2)',
             'Amerzone - O Testamento do Explorador (Disc 2)',
         ],
-        'Angel Blade - Neo Tokyo Guardians': ['Angel Blade - Neo Tokyo Guardians (Major Wave)'],
         'Angelique - Tenkuu no Requiem (Angelique History)': ['Angelique - Tenkuu no Requiem'],
         'Angelique Duet (Angelique History)': ['Angelique Duet'],
         'Angelique Special 2 (Angelique History)': ['Angelique Special 2'],
@@ -1818,7 +1866,6 @@ def psx_rename_list():
         'Armored Core': ['Armored Core (Reprint)'],
         'Armored Core - Master of Arena (Disc 1)': ['Armored Core - Master of Arena (Disc 1) (PSone Books)'],
         'Armored Core - Master of Arena (Disc 2)': ['Armored Core - Master of Arena (Disc 2) (PSone Books)'],
-        'Armored Core - Project Phantasma': ['Armored Core - Project Phantasma (PlayStation the Best)'],
         'Army Men - Green Rogue': ['Army Men - Omega Soldier'],
         'Army Men - World War': ['Army Men - Operation Meltdown'],
         'Army Men - World War - Final Front': ['Army Men - Lock \'n\' Load'],
@@ -1827,7 +1874,6 @@ def psx_rename_list():
         'Assault - Retribution': ['Assault'],
         'Asterix & Obelix Take On Caesar': ['Asterix & Obelix contro Cesare'],
         'Asteroids': ['SuperLite 1500 Series - Asteroids'], # (SuperLite 1500 シリーズ アステロイド)
-        'Atelier Elie - Elie no Atelier - Salburg no Renkinjutsushi 2 (PlayStation the Best)': ['Atelier Elie - Elie no Atelier - Salburg no Renkinjutsushi 2'],
         'Atlantis - The Lost Tales (Disc 1)': [
             'Atlantis - Das sagenhafte Abenteuer (Disc 1)',
             'Atlantis - Secrets d\'un Monde Oublie (Disc 1)',
@@ -1868,7 +1914,6 @@ def psx_rename_list():
         'Battle Arena Toshinden': ['Toushinden'], # (闘神伝)
         'Battle Arena Toshinden 2': ['Battle Arena Toushinden 2'],
         'Battle Arena Toshinden 3': ['Battle Arena Toushinden 3'],
-        'Battle Athletess - Daiundoukai Alternative': ['Battle Athletess - Daiundoukai Alternative (Major Wave)'],
         'Battle Hunter': [
             'Hunter, The',
             'SuperLite 1500 Series - Battle Sugoroku the Hunter - A.R.0062', # (ＳｕｐｅｒＬｉｔｅ　１５００　シリーズ バトルすごろく ハンター Ａ.Ｒ.００６２)
@@ -1893,7 +1938,6 @@ def psx_rename_list():
         'Blood Omen - Legacy of Kain': ['Kain the Vampire'], # (ケイン・ザ・ヴァンパイヤ)
         'Bloody Roar': ['Bloody Roar - Hyper Beast Duel'],
         'Bloody Roar II': ['Bloody Roar 2 - Bringer of the New Age'],
-        'Blue Breaker Burst - Egao no Asu ni': ['Blue Breaker Burst - Egao no Asu ni (Major Wave)'],
         'Board Game - Top Shop': [
             'SuperLite 1500 Series - Tenant Wars Alpha - SuperLite 1500 Version', # (SuperLite 1500 シリーズ テナントウォーズα スーパーライト1500バージョン)
             'Tenant Wars', # (テナントウォーズ)
@@ -1910,8 +1954,6 @@ def psx_rename_list():
         'Bomberman - Party Edition': ['Bomberman'],
         'Bottom of the 9th \'97': ['Jikkyou American Baseball'], # (実況アメリカンベースボール)
         'Bottom of the 9th \'99': ['Jikkyou American Baseball 2'], # (実況アメリカンベースボール２)
-        'Bounty Sword - Double Edge': ['Bounty Sword - Double Edge (Major Wave)'],
-        'Bounty Sword First': ['Bounty Sword First (Major Wave)'],
         'Bowling': ['Simple 1500 Series Vol. 18 - The Bowling'], # (SIMPLE1500シリーズ Vol.18 THE ボーリング)
         'Boxing': [
             'All Star Boxing',
@@ -2033,8 +2075,6 @@ def psx_rename_list():
             'Victory Boxing Contender',
         ],
         'Contender 2': ['Victory Boxing Challenger'],
-        'Conveni, The - Ano Machi o Dokusen seyo': ['Conveni, The - Ano Machi o Dokusen seyo (Major Wave)'],
-        'Conveni 2, The - Zenkoku Chain Tenkai da!': ['Conveni 2, The - Zenkoku Chain Tenkai da! (Major Wave)'],
         'Cool Boarders 2': ['Cool Boarders 2 - Killing Session'],
         'Crash Bandicoot': ['Crash Bandicoot (EDC)'],
         'Crash Bandicoot 2 - Cortex Strikes Back': ['Crash Bandicoot 2 - Cortex Strikes Back (EDC)'],
@@ -2307,12 +2347,10 @@ def psx_rename_list():
         ],
         'Driver 2 (Disc 1)': ['Driver 2 - Back on the Streets (Disc 1)'],
         'Driver 2 (Disc 2)': ['Driver 2 - Back on the Streets (Disc 2)'],
-        'Drug Store, The - MatsumotoKiyoshi de Okaimono!': ['Drug Store, The - MatsumotoKiyoshi de Okaimono! (Major Wave)'],
         'Ducati World - Racing Challenge': ['Ducati World'],
         'Duke Nukem - Total Meltdown': ['Duke Nukem'],
         'Dune 2000': ['Dune'],
         'Dynasty Warriors': ['Sangoku Musou'], # (三國無双)
-        'Egg': ['Egg (Major Wave)'],
         'Eggs of Steel - Charlie\'s Eggcellent Adventure': ['Hello Charlie!!'], # (ハローチャーリー！！)
         'Egypt 1156 B.C. - Tomb of the Pharaoh': [
             'Egypt 1156 A.C. - L\'Enigma della Tomba Reale',
@@ -2563,7 +2601,6 @@ def psx_rename_list():
         'Jersey Devil': ['Jersey Devil no Daibouken'], # (ジャージーデビルの大冒険)
         'Jet Moto': ['Jet Rider'],
         'Jet Moto 2': ['Jet Rider 2'],
-        'Jigsaw Island - Japan Graffiti': ['Jigsaw Island - Japan Graffiti (Major Wave)'],
         'Jigsaw World': ['Jigsaw World (Honkakuha de 1300)'],
         'Johnny Bazookatone': ['Johnny Bazooka'],
         'JoJo\'s Bizarre Adventure': ['Jojo no Kimyou na Bouken'], # (ジョジョの奇妙な冒険)
@@ -2582,7 +2619,6 @@ def psx_rename_list():
             'Legend of Kartia',
             'Rebus', # (レブス)
         ],
-        'Kenki Ippatsu! Crane Master ni Narou!': ['Kenki Ippatsu! Crane Master ni Narou! (Major Wave)'],
         'Kickboxing': [
             'Kickboxing Knockout',
             'Simple 1500 Series Vol. 64 - The Kick Boxing', # (SIMPLE1500シリーズ Vol.64 THE キックボクシング)
@@ -2595,7 +2631,6 @@ def psx_rename_list():
         'King\'s Field': [
             ['King\'s Field', 'King\'s Field (Japan)'], # (キングスフィールド)
             ['King\'s Field II', 'King\'s Field II (USA)'], # (キングスフィールドII)
-            'King\'s Field II (PlayStation the Best)', # (キングスフィールドII)
         ],
         'King\'s Field II': ['King\'s Field III'], # (キングス・フィールドⅢ)
         'King of Bowling 2': ['King of Bowling 2 - Professional Hen'], # (キング オブ ボウリング2 プロフェッショナル編)
@@ -2648,7 +2683,6 @@ def psx_rename_list():
         ],
         'Loaded': ['Blood Factory'], # (ブラッドファクトリー)
         'Looney Tunes - Sheep Raider': ['Sheep, Dog \'n\' Wolf'],
-        'Lord Monarch - Shin Gaia Oukokuki': ['Lord Monarch - Shin Gaia Oukokuki (Major Wave)'],
         'Lost World, The - Jurassic Park': ['Lost World, The - Jurassic Park (EDC)'],
         'Louvre - The Final Curse (Disc 1)': [
             'Louvre - A Maldicao (Disc 1)',
@@ -2662,7 +2696,7 @@ def psx_rename_list():
             'Louvre - La Maledizione Finale (Disc 2)',
             'Louvre - La maldicion final (Disc 2)',
         ],
-        'Love Game\'s - Wai Wai Tennis (Service Price-ban)': ['Love Game\'s - Wai Wai Tennis (Major Wave)'],
+        'Love Game\'s - Wai Wai Tennis (Service Price-ban)': ['Love Game\'s - Wai Wai Tennis'],
         'Love Game\'s - Wai Wai Tennis Plus': ['Love Game\'s - Wai Wai Tennis 2 (Value 1500)'],
         'Lunar - Silver Star Story Complete (Disc 1)': ['Lunar - Silver Star Story (Disc 1)'], # (ルナ シルバースターストーリー)
         'Lunar - Silver Star Story Complete (Disc 2)': ['Lunar - Silver Star Story (Disc 2)'], # (ルナ シルバースターストーリー)
@@ -2671,7 +2705,6 @@ def psx_rename_list():
         'Lunar 2 - Eternal Blue Complete (Disc 3)': ['Lunar 2 - Eternal Blue (Disc 3)'], # (ルナ2 エターナルブルー)
         'Maestromusic, The (Baton Controller Doukonban)': ['Maestromusic, The'],
         'Machine Head': ['Blam! Machinehead'],
-        'Magical Drop F - Daibouken mo Rakujanai!': ['Magical Drop F - Daibouken mo Rakujanai! (Major Wave)'],
         'Magical Drop III (Disc 1) (Magical Drop III)': ['Magical Drop III - Yokubari Tokudai-gou!'], # (マジカル・ドロップＩＩＩ　～よくばり特大号！～)
         'Magical Drop III (Disc 2) (Magical Drop +1)': ['Magical Drop Plus 1!'], # (マジカル・ドロップ　ＰＬＵＳ　１！)
         'Magical Tetris Challenge': [
@@ -2683,7 +2716,6 @@ def psx_rename_list():
             'Tetris Magiska Utmaning',
         ],
         'Marble Master': ['Swing'],
-        'Marionette Company 2 Chu!': ['Marionette Company 2 Chu! (Major Wave)'],
         'Martialbeat 2 (Disc 1) (Disc-B) (Controller Doukon Set)': ['Martialbeat 2 (Disc 1) (Disc-B)'],
         'Martialbeat 2 (Disc 2) (Disc-F) (Controller Doukon Set)': ['Martialbeat 2 (Disc 2) (Disc-F)'],
         'Marvel Super Heroes vs. Street Fighter': ['Marvel Super Heroes vs. Street Fighter - EX Edition'], # (マーヴル・スーパーヒーローズVS.ストリートファイター EX EDITION)
@@ -2691,9 +2723,7 @@ def psx_rename_list():
         'Mary King\'s Riding Star': ['Lussan Nathhorst Presenterar Riding Star'],
         'Master of Monsters - Disciples of Gaia': [
             'Master of Monsters - Akatsuki no Kenja Tachi', # (マスター・オブ・モンスターズ～暁の賢者達～)
-            'Master of Monsters - Akatsuki no Kenja Tachi (Major Wave)',
         ],
-        'Masumon Kids - The Another World of the Master of Monsters': ['Masumon Kids - The Another World of the Master of Monsters (Major Wave)'],
         'MechWarrior 2 - 31st Century Combat - Arcade Combat Edition': [
             'MechWarrior 2 - Arcade Combat Edition',
             'MechWarrior 2 - Combat au 31ieme Siecle',
@@ -2829,9 +2859,6 @@ def psx_rename_list():
         'No Fear Downhill Mountain Bike Racing': ['No Fear Downhill Mountain Biking'],
         'No One Can Stop Mr. Domino': ['Domino-kun o Tomenaide'], # (ドミノ君をとめないで。)
         'Noddy\'s Magic Adventure': ['Noddy - Una Aventura Magica'],
-        'NOeL 3 - Mission on the Line (Disc 1)': ['NOeL 3 - Mission on the Line (Disc 1) (Major Wave)'],
-        'NOeL 3 - Mission on the Line (Disc 2)': ['NOeL 3 - Mission on the Line (Disc 2) (Major Wave)'],
-        'NOeL 3 - Mission on the Line (Disc 3)': ['NOeL 3 - Mission on the Line (Disc 3) (Major Wave)'],
         'Norse by Norsewest - The Return of the Lost Vikings': ['Lost Vikings 2 - Norse by Norsewest'],
         'Note, The': ['Koukai Sarenakatta Shuki'], # (公開されなかった手記)
         'Oddworld - Abe\'s Exoddus (Disc 1)': [
@@ -2850,7 +2877,6 @@ def psx_rename_list():
         'Olympic Summer Games': ['Olympic Games'],
         'Onside Complete Soccer': ['Complete Soccer Onside'], # (ＣＯＭＰＬＥＴＥ　ＳＯＣＣＥＲ　ｏｎｓｉｄｅ)
         'Oumagatoki (Premium Fan Disc)': ['Oumagatoki'],
-        'OverBlood': ['OverBlood (Major Wave)'],
         'Pac-Man World - 20th Anniversary': ['Pac-Man World 20th Anniversary'],
         'Pachi-Slot Aruze Oukoku 2': ['Pachi-Slot Aruze Oukoku 2 (PSone Books)'],
         'Pachi-Slot Aruze Oukoku 4': ['Pachi-Slot Aruze Oukoku 4 (PSone Books)'],
@@ -2956,7 +2982,6 @@ def psx_rename_list():
         'Project - Horned Owl': ['Horned Owl'], # (ホーンドアウル)
         'Punky Skunk': ['Cooly Skunk'], # (クーリー・スカンク)
         'Putter Golf': ['Simple 1500 Series Vol. 69 - The Putter Golf'], # (SIMPLE1500シリーズ Vol.69 THE パターゴルフ)
-        'Puzzle Mania': ['Puzzle Mania (Major Wave)'],
         'Puzzle Star Sweep': ['StarSweep'],
         'Qix Neo': ['Simple 1500 Series Vol. 80 - The Jintori'], # (SIMPLE1500シリーズ Vol.80 THE 陣取り)
         'R4 - Ridge Racer Type 4': [
@@ -2967,7 +2992,6 @@ def psx_rename_list():
             'Pro Racer',
             'Simple 1500 Series Vol. 13 - The Race', # (SIMPLE1500シリーズ Vol.13 THE レース)
         ],
-        'Raiden DX': ['Raiden DX (Major Wave)'],
         'Raiden Project, The': ['Raiden Project'],
         'Rapid Reload': ['Gunners Heaven'], # (ガンナーズヘヴン)
         'Rayman': ['Rayman (EDC)'],
@@ -2981,7 +3005,6 @@ def psx_rename_list():
         'Real Bout Fatal Fury': ['Real Bout Garou Densetsu'],
         'Real Bout Garou Densetsu Special - Dominated Mind (Shokai Genteiban)': ['Real Bout Garou Densetsu Special - Dominated Mind'],
         'Red Asphalt': ['Rock & Roll Racing 2 - Red Asphalt'],
-        'Refrain Love - Anata ni Aitai': ['Refrain Love - Anata ni Aitai (Major Wave)'],
         'Rescue Copter': ['Jet Copter X'], # (ジェットコプター・エックス)
         'Rescue Heroes - Molten Menace': ['Rescue Heroes - Helden in Gefahr'],
         'Rescue Shot': ['Rescue Shot Bubibo'], # (レスキューショット ブービーぼー)
@@ -3159,7 +3182,6 @@ def psx_rename_list():
             'Tales of Eternia (Disc 3)', # (テイルズ・オブ・エターニア)
             'Tales of Eternia (Disc 3) (Premium Box)', # (テイルズ・オブ・エターニア)
         ],
-        'Tall Unlimited': ['Tall Unlimited (Major Wave)'],
         'Tantei Jinguji Saburo - Early Collection': ['Tantei Jinguji Saburo - Early Collection (Fukyuuban)'],
         'Tantei Jinguji Saburo - Mikan no Rupo': ['Tantei Jinguji Saburo - Mikan no Rupo (Fukyuuban)'],
         'Tantei Jinguji Saburo - Tomoshibi ga Kienu Ma ni': ['Tantei Jinguji Saburo - Tomoshibi ga Kienu Ma ni (Fukyuuban)'],
@@ -3224,7 +3246,6 @@ def psx_rename_list():
         'TOCA 2 - Touring Car Challenge': ['TOCA 2 Touring Cars'],
         'TOCA Championship Racing': ['TOCA Touring Car Championship'],
         'Tokimeki Memorial - Forever with You': [
-            'Tokimeki Memorial - Forever with You (PlayStation the Best)',
             'Tokimeki Memorial - Forever with You (Shokai Genteiban)',
         ],
         'Tokimeki Memorial 2 (Disc 1)': ['Tokimeki Memorial 2 (Disc 1) (Limited Box)'],
@@ -3400,9 +3421,7 @@ def psx_rename_list():
         'Yusha - Heaven\'s Gate': ['Heaven\'s Gate'], # (ヘヴンズ・ゲート)
         'Yuukyuu Gensoukyoku (Genteiban)': ['Yuukyuu Gensoukyoku'],
         'Zen Nihon Pro Wres - Ouja no Tamashii': ['Zen Nihon Pro Wres - Ouja no Tamashii (Spike Library)'],
-        'Zipangu-jima - Unmei wa Saikoro ga Kimeru!': ['Zipangu-jima - Unmei wa Saikoro ga Kimeru! (Major Wave)'],
         'Zoop - America\'s Largest Killer of Time!': ['Zoop'], # (ズープ)
-        'Zutto Issho - With Me Everytime...': ['Zutto Issho - With Me Everytime... (Major Wave)'],
     }
 
 # Sony PlayStation 2
@@ -3458,8 +3477,6 @@ def ps2_rename_list():
             'Aqua Aqua - Wetrix 2',
             'Aquaqua',
         ],
-        'Ar tonelico - Sekai no Owari de Utai Tsuzukeru Shoujo (PlayStation 2 the Best)': ['Ar tonelico - Sekai no Owari de Utai Tsuzukeru Shoujo'],
-        'Ar tonelico II - Sekai ni Hibiku Shoujo-tachi no Metafalica (PlayStation 2 the Best)': ['Ar tonelico II - Sekai ni Hibiku Shoujo-tachi no Metafalica'],
         'Arc the Lad - End of Darkness': ['Arc the Lad - Generation'],
         'Arc the Lad - Seirei no Tasogare (Premium Box)': ['Arc the Lad - Seirei no Tasogare'],
         'Arc the Lad - Twilight of the Spirits': [
@@ -3948,7 +3965,6 @@ def ps2_rename_list():
         'Gallop Racer 2003 - A New Breed': [
             'Attheraces Presents Gallop Racer',
             'Gallop Racer 6 - Revolution',
-            'Gallop Racer 6 - Revolution (PlayStation 2 the Best)',
         ],
         'Gallop Racer 2004': [
             'Gallop Racer - Lucky 7',
@@ -4132,7 +4148,6 @@ def ps2_rename_list():
             'K-1 World GP',
             'K-1 World Grand Prix - The Beast Attack!',
         ],
-        'Kagerou II - Dark Illusion (PlayStation 2 the Best)': ['Kagerou II - Dark Illusion'],
         'Kaido Racer': ['Kaidou Battle 2 - Chain Reaction'],
         'Kamaitachi no Yoru 2 - Kangoku-jima no Warabe-uta (Special Eizou CD)': [
             'Kamaitachi no Yoru 2 - Kangoku-jima no Warabe-uta',
@@ -4143,8 +4158,7 @@ def ps2_rename_list():
         'Karaoke Revolution Party': ['Karaoke Stage 2'],
         'Kelly Slater\'s Pro Surfer': ['Kelly Slater\'s Pro Surfer 2003'],
         'Kengo - Master of Bushido': ['Kengou'],
-        'Kenka Banchou (PlayStation 2 the Best)': [
-            'Kenka Banchou',
+        'Kenka Banchou': [
             'Kenka Banchou (Shokai Seisanban)',
         ],
         'Keroro Gunsou - Mero Mero Battle Royale': ['Gaeguri Jungsa Keroro - Bulkkottwineun Battle Royale Z'],
@@ -4266,8 +4280,7 @@ def ps2_rename_list():
             'Magna Carta - Les Larmes de Sang',
         ],
         'Makai Senki Disgaea (Genteiban)': ['Makai Senki Disgaea'],
-        'Makai Senki Disgaea 2 (PlayStation 2 the Best)': [
-            'Makai Senki Disgaea 2',
+        'Makai Senki Disgaea 2': [
             'Makai Senki Disgaea 2 (Genteiban)',
         ],
         'Maken Shao - Demon Sword': [
@@ -4331,7 +4344,6 @@ def ps2_rename_list():
             'Metal Gear Solid 3 - Subsistence (Disc 3) (Existence)',
             'Metal Gear Solid 3 - Subsistence (Disc 3) (Existence) (Shokai Seisanban)',
         ],
-        'Metal Saga - Sajin no Kusari (PlayStation 2 the Best)': ['Metal Saga - Sajin no Kusari'],
         'Metal Slug Anthology': ['Metal Slug Complete'],
         'Michigan - Report from Hell': ['Michigan'],
         'Minority Report - Everybody Runs': ['Minority Report - Le Futur vous Rattrape'],
@@ -4382,12 +4394,11 @@ def ps2_rename_list():
         'Namco Transmission v1.03': ['Namco Transmission v1.03 (Bundled with Soulcalibur II)'],
         'Naruto - Ultimate Ninja': [
             'Naruto - Narutimate Hero',
-            'Naruto - Narutimate Hero (PlayStation 2 the Best)',
         ],
         'Naruto - Ultimate Ninja 2': ['Naruto - Narutimate Hero 2'],
         'Naruto - Ultimate Ninja 3': [
             'Naruto - Narutimate Hero 3',
-            'Naruto - Narutimate Hero 3 (PlayStation 2 the Best)',
+            # 'Naruto - Narutimate Hero 3 (PlayStation 2 the Best)',
         ],
         'Naruto - Uzumaki Chronicles': [
             'Naruto - Uzumaki Injeon',
@@ -4461,11 +4472,9 @@ def ps2_rename_list():
         ],
         'Onimusha - Dawn of Dreams (Disc 1)': [
             'Shin Onimusha - Dawn of Dreams (Disc 1)',
-            'Shin Onimusha - Dawn of Dreams (Disc 1) (PlayStation 2 the Best)',
         ],
         'Onimusha - Dawn of Dreams (Disc 2)': [
             'Shin Onimusha - Dawn of Dreams (Disc 2)',
-            'Shin Onimusha - Dawn of Dreams (Disc 2) (PlayStation 2 the Best)',
         ],
         'Onimusha - Warlords': ['Onimusha'],
         'Onimusha 2 - Samurai\'s Destiny': [
@@ -4508,7 +4517,7 @@ def ps2_rename_list():
         'Phantasy Star Universe - Ambition of the Illuminus': ['Phantasy Star Universe - Illuminus no Yabou'],
         'Phantom Brave': [
             'Phantom Brave (Genteiban)',
-            'Phantom Brave - 2-shuume Hajimemashita. (PlayStation 2 the Best)',
+            'Phantom Brave - 2-shuume Hajimemashita.',
         ],
         'Phantom Kingdom (Genteiban)': ['Phantom Kingdom'],
         'Phase of Combat - Sentou Kokka Kai Legend (Tokusou-ban)': ['Phase of Combat - Sentou Kokka Kai Legend'],
@@ -4631,7 +4640,7 @@ def ps2_rename_list():
             'Argus-ui Jeonsa',
         ],
         'Ryu-Koku (Genteiban)': ['Ryu-Koku'],
-        'Ryuu ga Gotoku 2 (Disc 1)': ['Ryuu ga Gotoku 2 (PlayStation 2 the Best)'],
+        'Ryuu ga Gotoku 2 (Disc 1)': ['Ryuu ga Gotoku 2'],
         'Saint Seiya - The Hades': ['Saint Seiya - Meiou Hades Juunikyuu-hen'],
         'Saint Seiya - The Sanctuary': ['Saint Seiya - Sanctuary Juunikyuu-hen'],
         'Sakura Taisen - Atsuki Chishio ni' :['Ying Hua Da Zhan - Chi Re Zhi Xie'],
@@ -4832,7 +4841,6 @@ def ps2_rename_list():
             'Tak und die Macht des Juju',
             'Tak y el Poder Juju',
         ],
-        'Tales of Destiny 2 (PlayStation 2 the Best)': ['Tales of Destiny 2'],
         'Tank Elite': ['Simple 2000 Series Vol. 32 - The Sensha'],
         'Taxi Rider': ['Simple 2000 Series Vol. 48 - The Taxi - Untenshu ha Kimi da'],
         'Tear Ring Saga Series - Berwick Saga - Lazberia Chronicle Chapter 174 (Premium Box)': ['Tear Ring Saga Series - Berwick Saga - Lazberia Chronicle Chapter 174'],

@@ -1,6 +1,18 @@
-# Last updated: 27 Jan 2020
+# Last updated: 22 Feb 2020
 # When the logic fails, and all you can do is manually set parents
 # and clones. There's no intelligence here, just straightforward assignment.
+
+# IBM PC-Compatible
+def ibm_override_list():
+    return {
+        'Cossacks II - Battle for Europe (Europe)': ['Cossacks II - Battle for Europe (Europe) (Rerelease)'], # Misassignment where rerelease is assigned to Germany
+        'Daytona USA (USA)': ['Daytona USA (USA) (Rerelease)'], # Misassignment where rerelease is assigned to Europe
+        'Daytona USA Deluxe (USA)': ['Daytona USA (Taiwan)'], # Misassignment where Taiwan is assigned to Europe
+        'Monopoly (USA) (Alt)': [ # Looks like the script doesn't know how to handle when an alt title is the parent
+            'Monopoly (USA) (Alt 2)',
+            'Monopoly (USA) (Alt 3)',
+        ],
+    }
 
 # Sega Saturn
 def saturn_override_list():
@@ -29,6 +41,7 @@ def psx_override_list():
 # Sony PlayStation 2
 def ps2_override_list():
     return {
+        'Kagerou II - Dark Illusion (Japan) (PlayStation 2 the Best)': ['Kagerou II - Dark Illusion (Japan, Asia)'], # Script weirdly ignores this match.
         'Silent Hill 2 (USA) (En,Ja) (v1.20)': [
             'Silent Hill 2 (Europe) (En,Ja,Fr,De,Es,It)',
             'Silent Hill 2 (Japan) (En,Ja)',
@@ -37,6 +50,10 @@ def ps2_override_list():
         'Silent Hill 2 (USA) (En,Ja,Fr,De,Es,It) (v2.01)': [
             'Silent Hill 2 - Director\'s Cut (Europe) (En,Fr,De,Es,It)',
             'Silent Hill 2 - Saigo no Uta (Japan) (En,Ja)', # (サイレント・ヒル2 ～最期の詩～)
+        ],
+        'Tales of Destiny 2 (Japan) (PlayStation 2 the Best)': [ # Unsure why, but script currently selects Korea over Japan, so this is needed
+            'Tales of Destiny 2 (Japan, Asia)',
+            'Tales of Destiny 2 (Korea)',
         ],
     }
 
