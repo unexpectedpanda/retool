@@ -1,3 +1,12 @@
+# 0.53
+- Fixed a bug where if a region name was in a title, it caused clones to be
+  assigned to the wrong parents. For example,
+  _Daytona **USA** Deluxe Edition (Taiwan)_,
+  _Cossacks II - Battle for **Europe** (Germany)_ would confuse the logic in
+  Retool as to what region the title belonged to.
+- Fixed a normalization bug when converting _Disc III_ into _Disc 3_ for title
+  matching.
+
 # 0.52
 - Added better parent selection for the following:
   - Titles with multiple date versions.

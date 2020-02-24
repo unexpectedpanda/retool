@@ -1,25 +1,30 @@
-# Last updated: 22 Feb 2020
+# Last updated: 24 Feb 2020
 # When the logic fails, and all you can do is manually set parents
 # and clones. There's no intelligence here, just straightforward assignment.
 
 # IBM PC-Compatible
 def ibm_override_list():
     return {
-        'Cossacks II - Battle for Europe (Europe)': ['Cossacks II - Battle for Europe (Europe) (Rerelease)'], # Misassignment where rerelease is assigned to Germany
-        'Daytona USA (USA)': ['Daytona USA (USA) (Rerelease)'], # Misassignment where rerelease is assigned to Europe
-        'Daytona USA Deluxe (USA)': ['Daytona USA (Taiwan)'], # Misassignment where Taiwan is assigned to Europe
         'Monopoly (USA) (Alt)': [ # Looks like the script doesn't know how to handle when an alt title is the parent
             'Monopoly (USA) (Alt 2)',
             'Monopoly (USA) (Alt 3)',
         ],
     }
 
+# Microsoft Xbox 360
+def x360_override_list():
+    return {
+        'Mass Effect (USA) (En,Fr,De,Es,It,Pt,Pl) (Bonus Content Disc)': [ # Script gets confused between the parent here, and the first clone listed. Probably related to the Kagerou II and Tales of Destiny 2 issues below.
+            'Mass Effect (USA, Europe) (Bonus Content Disc) (Rerelease)',
+            'Mass Effect (Japan) (Bonus Disc)',
+            'Mass Effect (Germany) (Bonus DVD)',
+        ],
+    }
+
 # Sega Saturn
 def saturn_override_list():
     return {
-        'Daytona USA (USA)': [
-            'Daytona USA (Japan)',
-            ]
+
     }
 
 # SNK Neo Geo CD
@@ -41,7 +46,7 @@ def psx_override_list():
 # Sony PlayStation 2
 def ps2_override_list():
     return {
-        'Kagerou II - Dark Illusion (Japan) (PlayStation 2 the Best)': ['Kagerou II - Dark Illusion (Japan, Asia)'], # Script weirdly ignores this match.
+        'Kagerou II - Dark Illusion (Japan) (PlayStation 2 the Best)': ['Kagerou II - Dark Illusion (Japan, Asia)'], # Script weirdly ignores this match -- possibly because same region is included in both
         'Silent Hill 2 (USA) (En,Ja) (v1.20)': [
             'Silent Hill 2 (Europe) (En,Ja,Fr,De,Es,It)',
             'Silent Hill 2 (Japan) (En,Ja)',
