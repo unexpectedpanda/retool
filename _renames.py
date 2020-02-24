@@ -1,4 +1,4 @@
-# Last updated: 22 Feb 2020
+# Last updated: 24 Feb 2020
 # An exclusion list for when games are the same as another region,
 # just renamed for another region/new title screens.
 
@@ -62,6 +62,9 @@ def mac_rename_list():
             'Rayman 3 - Hoodlum Havoc (Disc 3)',
         ],
         'Sims, The': ['SimPeople'],
+        'Zork Nemesis (Disc 1)': ['Zork Nemesis - The Forbidden Lands (Disc 1)'],
+        'Zork Nemesis (Disc 2)': ['Zork Nemesis - The Forbidden Lands (Disc 2)'],
+        'Zork Nemesis (Disc 3)': ['Zork Nemesis - The Forbidden Lands (Disc 3)'],
     }
 
 # Commodore Amiga CD
@@ -120,6 +123,7 @@ def ibm_rename_list():
         'Abomination - Action Strategy Mayhem': ['Abomination - The Nemesis Project'],
         'Ace Ventura': ['Ace Ventura - Detective de mascotas'],
         'Advanced Dungeons & Dragons - Birthright - The Gorgon\'s Alliance': ['Advanced Dungeons & Dragons - Birthright - Die Dunkle Allianz'],
+        'Adventures with Barbie - Ocean Discovery': ['Aventures de Barbie, Les - Chasse au Tresor Sous-Marine CD-ROM'],
         'Agatha Christie - Evil Under the Sun': [
             'Agatha Christie - Evil Under the Sun (Disc 1)',
             'Agatha Christie - Evil Under the Sun (Disc 2)',
@@ -148,11 +152,175 @@ def ibm_rename_list():
             'Age of Mythology - Gold Edition (Disc 2) (Disco di gioco Titans)',
         ],
         'Age of Wonders II - The Wizard\'s Throne': ['Age of Wonders II - Der Zirkel der Zauberer'],
+        'Al-Qadim - The Genie\'s Curse': ['Al-Qadim - Der Fluch des Dschinn'],
+        'Aliens Versus Predator (Disc 1)': ['Aliens Versus Predator'],
+        'Allied General': ['Panzer General II'],
+        'Alone in the Dark': [
+            'Alone in the Dark (Pay as You Play Version) (CD-ROM User)',
+            'Alone in the Dark (Pay as You Play Version) (PC Power)',
+        ],
+        'Alone in the Dark - The New Nightmare (Disc 1)': ['Alone in the Dark - The New Nightmare'],
+        'Amazing Adventures - The Lost Tomb': ['Amazing Adventures The Lost Tomb'],
+        'Amazon Trail 3rd Edition - Rainforest Adventures': ['Amazon Trail 3rd Edition'],
+        'American Conquest - Divided Nation (Disc 1) (Installation Disc)': ['American Conquest - Divided Nation (Disc 1) (Installation)'],
+        'American Conquest - Divided Nation (Disc 2) (Play Disc)': ['American Conquest - Divided Nation (Disc 2) (Game)'],
+        'American Conquest - Gold Edition! Collector\'s Series': ['American Conquest - Edizione Oro'],
+        'American Girls Premiere, The (Disc 1) (Installer, Tutorials, Director\'s Guide, Sample Plays)': ['American Girls Premiere, The (Disc 1)'],
+        'American Girls Premiere, The (Disc 2) (Program)': ['American Girls Premiere, The (Disc 2)'],
+        'American McGee Presents - Bad Day L.A. (Disc 1)': ['American McGee Presents Bad Day L.A. (Disc 1)'],
+        'American McGee Presents - Bad Day L.A. (Disc 2)': ['American McGee Presents Bad Day L.A. (Disc 2)'],
+        'American McGee\'s Alice (Disc 1)': [
+            'American McGee\'s Alice',
+            'American McGee\'s Alice in Nightmare',
+        ],
+        'Amerzone (Disc 1)': ['Amerzone, L\''],
+        'Amerzone (Disc 2)': ['Amerzone - Das dunkle Vermaechtnis (Disc 2)'],
+        'Amerzone (Disc 3)': ['Amerzone - Das dunkle Vermaechtnis (Disc 3)'],
+        'Amerzone (Disc 4)': ['Amerzone - Das dunkle Vermaechtnis (Disc 4)'],
+        # 'Anno 1404': ['Dawn of Discovery'], # Dawn of Discovery series is not in Redump yet
+        'Anno 1503': [
+            'Anno 1503 (Disc 1)',
+            'Anno 1503 (Disc 1) (Installations-CD)',
+            'Anno 1503 (Disc 2)',
+        ],
+        'Anno 1602 - Creation of a New World': [
+            'Anno 1602 - Creacion de un Nuevo Mundo',
+            'Anno 1602 - Erschaffung einer neuen Welt',
+        ],
+        'Anno 1602 - Erschaffung einer neuen Welt - Koenigs-Edition': ['Anno 1602 - Creatie van een Nieuwe Wereld - Gold Edition'],
+        'Another World - 15th Anniversary Edition': ['Another World - 15th Anniversary Edition (Gra)'],
+        'Arcanum - Of Steamworks & Magick Obscura (Disc 1)': ['Arcanum (Disc 1) (Install Disk)'],
+        'Arcanum - Of Steamworks & Magick Obscura (Disc 2)': ['Arcanum (Disc 2) (Play Disk)'],
+        'Assassin\'s Creed - Director\'s Cut': ['Assassin\'s Creed - Wersja Rezyserska'],
+        'Assassin\'s Creed Unity (Disc 1) (Limited Edition)': ['Assassin\'s Creed Unity (Disc 1)'],
+        'Assassin\'s Creed Unity (Disc 2) (Limited Edition)': ['Assassin\'s Creed Unity (Disc 2)'],
+        'Assassin\'s Creed Unity (Disc 3) (Limited Edition)': ['Assassin\'s Creed Unity (Disc 3)'],
+        'Assassin\'s Creed Unity (Disc 4) (Limited Edition)': ['Assassin\'s Creed Unity (Disc 4)'],
+        'Assassin\'s Creed Unity (Disc 5) (Limited Edition)': ['Assassin\'s Creed Unity (Disc 5)'],
+        'Asterix & Obelix Take On Caesar': ['Asterix & Obelix gegen Caesar'],
+        'Asterix - Mega Madness': [
+            'Asterix - Mega Szalenstwo',
+        ],
+        'Asteroids': ['Asteroids - Der Durchbruch ins neue Jahrtausend!'],
+        'Atlantis II': [
+            'Atlantis II (Disc 1)',
+            'Atlantis II (Disc 2)',
+            'Atlantis II (Disc 3)',
+            'Atlantis II (Disc 4)',
+        ],
+        'Atlantis III - Le Nouveau Monde (Disc 1)': ['Atlantis III - Die neue Welt'],
+        'Axelerator': ['Have a N.I.C.E. Day!'],
+        'Aztec, The (Disc 1)': [
+            'Aztec Empire (Disc 1)',
+            'Azteken, Die (Disc 1)',
+        ],
+        'Aztec, The (Disc 2)': [
+            'Aztec Empire (Disc 2)',
+            'Azteken, Die (Disc 2)',
+        ],
+        'Bad Mojo - The Roach Game': ['Bad Mojo'],
+        'Baldur\'s Gate (Manuals & Patches)': ['Baldur\'s Gate (Handbuecher & Patches)'],
+        'Baldur\'s Gate': [
+            'Baldur\'s Gate (Disc 1)',
+            'Baldur\'s Gate (Disc 2)',
+            'Baldur\'s Gate (Disc 3)',
+            'Baldur\'s Gate (Disc 4)',
+            'Baldur\'s Gate (Disc 5)',
+        ],
+        'Baldur\'s Gate - Tales of the Sword Coast': [
+            'Baldur\'s Gate - Die Legenden der Schwertkueste',
+            'Baldur\'s Gate - Kakuchou Scenario-shuu - Tales of the Sword Coast',
+        ],
+        'Baldur\'s Gate II - Shadows of Amn (Disc 1)': ['Baldur\'s Gate II - Schatten von Amn (Disc 1)'],
+        'Baldur\'s Gate II - Shadows of Amn (Disc 2)': ['Baldur\'s Gate II - Schatten von Amn (Disc 2)'],
+        'Baldur\'s Gate II - Shadows of Amn (Disc 3)': ['Baldur\'s Gate II - Schatten von Amn (Disc 3)'],
+        'Baldur\'s Gate II - Shadows of Amn (Disc 4)': ['Baldur\'s Gate II - Schatten von Amn (Disc 4)'],
+        'Baldur\'s Gate II - Throne of Bhaal': ['Baldur\'s Gate II - Thron des Bhaal'],
+        'Ballerburg - Castle Siege': ['Ballerburg'],
+        'Bananas in Pajamas - It\'s Fun Time': ['Bananer i Pyjamas - It\'s Fun Time'],
+        'Broken Sword - The Shadow of the Templars (Disc 1)': ['Baphomets Fluch (Disc 1)'],
+        'Broken Sword - The Shadow of the Templars (Disc 2)': ['Baphomets Fluch (Disc 2)'],
+        'Broken Sword - The Sleeping Dragon (Disc 1)': [
+            'Baphomets Fluch - Der Schlafende Drache (Disc 1)',
+        ],
+        'Broken Sword - The Sleeping Dragon (Disc 2)': [
+            'Baphomets Fluch - Der Schlafende Drache (Disc 2)',
+        ],
+        'Broken Sword II - The Smoking Mirror (Disc 1)': [
+            'Baphomets Fluch II - Die Spiegel der Finsternis (Disc 1)',
+            'Broken Sword II - The Smoking Mirror',
+            'Broken Sword II - La Profezia dei Maya (Disc 1)',
+            'Boucliers de Quetzalcoatl, Les - Les Chevaliers de Baphomet II (Disc 1)',
+        ],
+        'Broken Sword II - The Smoking Mirror (Disc 2)': [
+            'Baphomets Fluch II - Die Spiegel der Finsternis (Disc 2)',
+            'Broken Sword II - The Smoking Mirror',
+            'Broken Sword II - La Profezia dei Maya (Disc 2)',
+            'Boucliers de Quetzalcoatl, Les - Les Chevaliers de Baphomet II (Disc 2)',
+        ],
+        'Brothers in Arms - Earned in Blood': [
+            'Brothers in Arms - Earned in Blood (Disc 1)',
+            'Brothers in Arms - Earned in Blood (Disc 2)',
+            'Brothers in Arms - Earned in Blood (Disc 3)',
+            'Brothers in Arms - Earned in Blood (Disc 4)',
+        ],
+        'Buccaneer - Postrach Karaibow': ['Buccaneer'],
+        'Burn-Cycle (Disc 1) (The Game)': [
+            'Burn-Cycle (The Game)',
+            'Burn-Cycle (Das Spiel)',
+            'Burn-Cycle (Il Gioco)',
+        ],
+        'Bust-A-Move 4': ['Puzzle Bobble 4'],
+        'Caesar II': ['Caesar II (D9EBD7F1)'],
+        'Call of Duty (Disc 1) (Game of the Year)': [
+            'Call of Duty (Disc 1)',
+            'Call of Duty (Disc 1) (Jeu de l\'annee)',
+        ],
+        'Call of Duty (Disc 2) (Game of the Year)': ['Call of Duty (Disc 2)'],
+        'Call of Duty 2 (Game of the Year)': [
+            'Call of Duty 2 (Disc 1)',
+            'Call of Duty 2 (Disc 1) (Game of the Year)',
+            'Call of Duty 2 (Disc 2)',
+            'Call of Duty 2 (Disc 2) (Game of the Year)',
+            'Call of Duty 2 (Disc 3)',
+            'Call of Duty 2 (Disc 3) (Game of the Year)',
+            'Call of Duty 2 (Disc 4)',
+            'Call of Duty 2 (Disc 4) (Game of the Year)',
+            'Call of Duty 2 (Disc 5)',
+            'Call of Duty 2 (Disc 5) (Game of the Year)',
+            'Call of Duty 2 (Disc 6)',
+            'Call of Duty 2 (Disc 6) (Game of the Year)',
+            'Call of Duty 2',
+        ],
+        'Carmageddon 2 - Carpocalypse Now': [
+            'Carmageddon II',
+            'Carmageddon II - Carpocalypse Now',
+            'Carmageddon II - Carpocalypse Now (Zombie Version)',
+        ],
+        # 'Cartoon Network All Stars': ['Cartoon Network All-Stars'], # The hugely different file sizes means these may not be the same titles
+        'Civil War, The': ['Amerika 1861-1865'],
+        'Corporate Machine, The': ['Business Tycoon'],
+        'Casino De Luxe': ['Casino Deluxe'],
+
+        'LEGO Chess': ['Ajedrez LEGO'],
         'Deal or No Deal': ['Affari Tuoi'],
+        'Football Generation': [
+            'Calcio 2003',
+            'Football Generation (9C6C6A1A)',
+            'Football Generation (C66B89E6)',
+        ],
+        'Prisoner of Ice': ['Call of Cthulhu - Prisoner of Ice'],
+        'Sherlock Holmes - The Secret of the Silver Earring': [
+            'Avventure di Sherlock Holmes, Le - L\'Orecchino d\'Argento (Disc 1)',
+            'Avventure di Sherlock Holmes, Le - L\'Orecchino d\'Argento (Disc 2)',
+        ],
+        # 'Soldier Elite - Zero Hour': ['Aurora Watching'], # Soldier Elite isn't in Redump yet
+        'Sortileges - Rage of Mages II': ['Allody II - Povelitel\' dush'],
         'Spy Fox in Dry Cereal': [
             'Agent Fuchs in Das Milchkartell',
             'Spy Fox - Operation Milkshake',
         ],
+        'Virgin Roster': ['Altar\' strasti'],
     }
 
 # Microsoft Xbox
@@ -3266,14 +3434,18 @@ def psx_rename_list():
             'Tomb Raider IV - The Last Revelation', # (トゥームレイダー４　ラストレベレーション)
             'Tomb Raider IV - The Last Revelation (EDC)',
         ],
-        'Tomb Raider II - Starring Lara Croft': ['Tomb Raider 2'], # (トゥームレイダー2)
+        'Tomb Raider II - Starring Lara Croft': [
+            'Tomb Raider 2', # (トゥームレイダー2)
+            'Tomb Raider II - Starring Lara Croft (EDC)',
+            'Tomb Raider II - Starring Lara Croft (No EDC)',
+        ],
         'Tomb Raider III - Adventures of Lara Croft': [
             'Tomb Raider III - Adventures of Lara Croft (EDC)',
             'Tomb Raider III - Adventures of Lara Croft (No EDC)',
             'Tomb Raider III - Adventures of Lara Croft (Disc 1) (Japanese Version)',
             'Tomb Raider III - Adventures of Lara Croft (Disc 2) (International Version)',
             'Tomb Raider III - Les Aventures de Lara Croft',
-            ],
+        ],
         'Tomb Raider Chronicles': [
             'Tomb Raider - Die Chronik',
             'Tomb Raider - Sur les Traces de Lara Croft',
@@ -3507,6 +3679,9 @@ def ps2_rename_list():
         'Bakufuu Slash! Kizuna Arashi (EyeToy Camera Doukonban)': ['Bakufuu Slash! Kizuna Arashi'],
         'Bakumatsu Renka - Karyuu Kenshiden (Genteiban)': ['Bakumatsu Renka - Karyuu Kenshiden'],
         'Bad Boys - Miami Takedown': ['Bad Boys II'],
+        'Baldur\'s Gate - Dark Alliance': [
+            'Baldur\'s Gate - Dark Alliance (Genteiban)',
+        ],
         'Basketball Xciting': ['Simple 2000 Series Vol. 30 - The Street Basketball - 3 on 3'],
         'Billiards Xciting': ['Simple 2000 Series Vol. 14 - The Billiard'],
         'BCV - Battle Construction Vehicles': ['Kensetsu Juuki Kenka Battle - Buchigire Kongou!!'],
@@ -4165,7 +4340,7 @@ def ps2_rename_list():
         'Kessen': ['Kessen (Super Value Set)'],
         'Kessen II': ['Kessen II (Super Value Set)'],
         'Kidou Senshi Gundam Senki - Lost War Chronicles (Limited Box)': ['Kidou Senshi Gundam Senki - Lost War Chronicles'],
-        'Kidou Senshi Z Gundam - AEUG vs. Titans (100-shiki Gold Pack PlayStation 2 Doukonban)': ['Kidou Senshi Z Gundam - AEUG vs. Titans'],
+        'Kidou Senshi Z Gundam - AEUG vs. Titans (100-shiki Gold Pack PlayStation 2 Doukonban)': ['Kidou Senshi Z Gundam - A.E.U.G. vs. Titans'],
         'Kimi ga Aruji de Shitsuji ga Ore de - Otsukae Nikki (Shokai Genteiban)': ['Kimi ga Aruji de Shitsuji ga Ore de - Otsukae Nikki'],
         'Kin\'iro no Corda 2 (Premium Box)': ['Kin\'iro no Corda 2'],
         'King of Fighters \'94, The - Re-Bout (Special Genteiban)': ['King of Fighters \'94, The - Re-Bout'],

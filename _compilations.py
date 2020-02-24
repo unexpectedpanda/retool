@@ -1,4 +1,4 @@
-# Last updated: 17 Feb 2020
+# Last updated: 24 Feb 2020
 # An exclusion list for compilations that don't feature unique games.
 # All compilations are listed, but those with unique games are commented out.
 

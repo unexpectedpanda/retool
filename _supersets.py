@@ -1,4 +1,4 @@
-# Last updated: 17 Feb 2020
+# Last updated: 24 Feb 2020
 # An list of superset games, for example, Game of the Year editions, Special
 # editions, and so on.
 
@@ -83,6 +83,113 @@ def cdtv_superset_list():
 def fmt_superset_list():
     return {
 
+    }
+
+# IBM PC-Compatible
+def ibm_superset_list():
+    return {
+        '4x4 Evo - Limited Edition': ['4x4 Evo'],
+        'Agatha Christie - Triple Murder Mystery Pack': [
+            'Agatha Christie - Evil Under the Sun',
+            'Agatha Christie - Evil Under the Sun (Disc 1)',
+            'Agatha Christie - Evil Under the Sun (Disc 2)',
+            'Agatha Christie - Evil Under the Sun (Disc 3)',
+            'Agatha Christie - Murder on the Orient Express (Disc 1)',
+            'Agatha Christie - Murder on the Orient Express (Disc 2)',
+        ],
+        'Age of Empires - Collector\'s Edition': [
+            'Age of Empires - Der Aufstieg Roms',
+            'Age of Empires - The Rise of Rome Expansion',
+            'Age of Empires II - The Age of Kings',
+            'Age of Empires II - The Age of Kings (Gold Edition)',
+            'Age of Empires II - The Conquerors Expansion (Gold Edition)',
+            'Age of Empires II - The Conquerors Expansion',
+        ],
+        'Age of Mythology - Gold Edition (Disc 1) (Install Disc)': [
+            'Age of Mythology - Gold Edition',
+            'Age of Mythology - Gold Edition (Disco 1) (Disco di installazione)',
+            'Age of Mythology (Disc 1)',
+            'Age of Mythology (Disc 2)'
+        ],
+        'Age of Mythology - Gold Edition (Disc 2) (Play Disc)': [
+            'Age of Mythology - Gold Edition (Disco 2) (Disco di gioco Titans)',
+            'Age of Mythology - The Titans (Expansion)',
+        ],
+        'Aliens Versus Predator (Disc 1) (Gold Edition)': ['Aliens Versus Predator (Disc 1)'],
+        'Aliens Versus Predator (Disc 2) (Gold Edition)': ['Aliens Versus Predator (Disc 2)'],
+        'Alone in the Dark + Jack in the Dark': [
+            'Alone in the Dark',
+            'Alone in the Dark (Pay as You Play Version) (CD-ROM User)',
+            'Alone in the Dark (Pay as You Play Version) (PC Power)',
+        ],
+        'America - Gold Edition': [
+            'America - No Peace Beyond the Line',
+            'America - Add-On',
+        ],
+        'American Conquest Anthology': [
+            'American Conquest',
+            'American Conquest - Divided Nation (Disc 1) (Installation Disc)',
+            'American Conquest - Divided Nation (Disc 1) (Installation)',
+            'American Conquest - Divided Nation (Disc 2) (Play Disc)',
+            'American Conquest - Divided Nation (Disc 2) (Game)',
+            'American Conquest - Fight Back',
+            'American Conquest - Gold Edition! Collector\'s Series',
+            'American Conquest - Edizione Oro',
+        ],
+        'Ankh - Ultimate Edition (Ankh-Spiele)': ['Ankh'],
+        'Anno 1503 - Koenigs-Edition': [
+            'Anno 1503',
+            'Anno 1503 (Disc 1)',
+            'Anno 1503 (Disc 1) (Installations-CD)',
+            'Anno 1503 (Disc 2)',
+            'Anno 1503 - Schaetze, Monster & Piraten',
+        ],
+        'ArmA - Armed Assault - Gold Edition': ['ArmA - Armed Assault'],
+        'Assassin\'s Creed - Director\'s Cut': [
+            'Assassin\'s Creed',
+            'Assassin\'s Creed - Wersja Rezyserska',
+        ],
+        'Bad Mojo - The Roach Game Redux': [
+            'Bad Mojo',
+            'Bad Mojo - The Roach Game',
+        ],
+        'Baldur\'s Gate - The Original Saga (Disc 1)': [
+            'Baldur\'s Gate',
+            'Baldur\'s Gate (Disc 1)',
+            'Baldur\'s Gate (Disc 2)',
+            'Baldur\'s Gate (Disc 3)',
+            'Baldur\'s Gate (Disc 4)',
+            'Baldur\'s Gate (Disc 5)',
+            'Baldur\'s Gate - Tales of the Sword Coast',
+            'Baldur\'s Gate - Die Legenden der Schwertkueste',
+            'Baldur\'s Gate - Kakuchou Scenario-shuu - Tales of the Sword Coast',
+        ],
+        'Broken Sword Complete': [
+            'Baphomets Fluch - Der Engel des Todes',
+            'Baphomets Fluch Trilogie',
+            'Broken Sword I & II Double Pack',
+            'Broken Sword - The Shadow of the Templars  (Disc 1)',
+            'Baphomets Fluch (Disc 1)',
+            'Broken Sword - The Shadow of the Templars  (Disc 2)',
+            'Baphomets Fluch (Disc 2)',
+            'Broken Sword - The Sleeping Dragon (Disc 1)',
+            'Baphomets Fluch - Der Schlafende Drache (Disc 1)',
+            'Broken Sword - The Sleeping Dragon (Disc 2)',
+            'Baphomets Fluch - Der Schlafende Drache (Disc 2)',
+            'Broken Sword II - The Smoking Mirror (Disc 1)',
+            'Baphomets Fluch II - Die Spiegel der Finsternis (Disc 1)',
+            'Broken Sword II - The Smoking Mirror',
+            'Broken Sword II - La Profezia dei Maya (Disc 1)',
+            'Boucliers de Quetzalcoatl, Les - Les Chevaliers de Baphomet II (Disc 1)',
+            'Broken Sword II - The Smoking Mirror (Disc 2)',
+            'Baphomets Fluch II - Die Spiegel der Finsternis (Disc 2)',
+            'Broken Sword II - The Smoking Mirror',
+            'Broken Sword II - La Profezia dei Maya (Disc 2)',
+            'Boucliers de Quetzalcoatl, Les - Les Chevaliers de Baphomet II (Disc 2)',
+        ],
+        'Bygg batar med Mulle Meck - Specialversion': ['Bygg Batar med Mulle Meck'],
+        'Call of Duty 4 - Modern Warfare (Game of the Year Edition)': ['Call of Duty 4 - Modern Warfare'],
+        'Capitalism Plus': ['Capitalism'],
     }
 
 # Microsoft Xbox
@@ -292,6 +399,7 @@ def ps2_superset_list():
             'Final Fantasy XI - Online - Wings of the Goddess Expansion Pack',
         ],
         'Kamen Rider Hibiki - Taiko no Tatsujin Special Version': ['Kamen Rider Hibiki'],
+        'Lime-iro Senkitan Jun - Meiji Nihon, Otome Sakimorisu. (DX Pack)': ['Lime-iro Senkitan Jun - Meiji Nihon, Otome Sakimorisu.'],
         'Major League Baseball 2K5 - World Series Edition': ['Major League Baseball 2K5'],
         'Metal Gear Solid 2 - Substance': [
             'Metal Gear Solid 2 - Sons of Liberty',

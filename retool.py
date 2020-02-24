@@ -276,7 +276,7 @@ class DatNode:
                     disc_alternative = disc_alternative.replace('Disc B', 'Disc 2')
                     disc_alternative = disc_alternative.replace('Disc 1I', 'Disc 2')
                     disc_alternative = disc_alternative.replace('Disc C', 'Disc 3')
-                    disc_alternative = disc_alternative.replace('Disc 1II', 'Disc 3')
+                    disc_alternative = disc_alternative.replace('Disc 2I', 'Disc 3')
                     disc_alternative = disc_alternative.replace('Disc D', 'Disc 4')
                     disc_alternative = disc_alternative.replace('Disc 1V', 'Disc 4')
                     disc_alternative = disc_alternative.replace('Disc E', 'Disc 5')
@@ -823,9 +823,7 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
                 ver_title = re.findall('.*?\(v[0-9]', subtitle.regionless_title)[0][:-4]
 
                 highest_version.setdefault(ver_title, [])
-
                 highest_version[ver_title].append(re.findall('\(v[0-9].*?\)', str(subtitle.regionless_title))[0][2:-1])
-
                 highest_version[ver_title].sort(reverse = True)
 
         ver_title_keep = []
@@ -1262,6 +1260,7 @@ def process_dats(user_input, tag_strings, region_list_english, region_list_other
         dupe_list = _renames.x360_rename_list()
         comp_list = _compilations.x360_compilation_list()
         superset_list = _supersets.x360_superset_list()
+        override_list = _overrides.x360_override_list()
     elif dat_name == 'Microsoft - Xbox One':
         dupe_list = _renames.xbone_rename_list()
         comp_list = _compilations.xbone_compilation_list()
@@ -1450,7 +1449,7 @@ def process_dats(user_input, tag_strings, region_list_english, region_list_other
             if x.full_title != y.full_title:
                 if x.rf_tag_strip_title == y.rf_tag_strip_title:
                     for another_region in region_list_english + region_list_other:
-                        if another_region in x.full_title and another_region not in y.full_title:
+                        if another_region in x.regions and another_region not in y.regions:
                             if y in global_parent_list:
                                 del global_parent_list[y]
                                 break
@@ -1468,6 +1467,7 @@ def process_dats(user_input, tag_strings, region_list_english, region_list_other
             progress_percent = (progress/progress_total*100)
 
             sys.stdout.write("\033[K")
+
             print('* Finding clones... ' + str(int(progress_percent)) + '%', sep='', end='\r', flush=True)
             for x in all_titles_data[title]:
                 for y in global_parent_list:
@@ -1480,7 +1480,7 @@ def process_dats(user_input, tag_strings, region_list_english, region_list_other
         # Create a list to add exclusion titles that shouldn't be clones.
         exclude_title = []
 
-        # Look up the dupe list raw title entries
+        # Look up the dupe list title entries
         check_parent_match = False
         for key, value in dupe_list.items():
             sys.stdout.write("\033[K")
