@@ -214,4 +214,44 @@
 		<rom name="Daytona USA Deluxe (USA) (Track 23).bin" size="18350304" crc="bad82f3d" md5="a94c29fff8b22198cd1a65eda8024fa8" sha1="624b2589603f0f46be5965efb280eecd91f3f534"/>
 		<rom name="Daytona USA Deluxe (USA) (Track 24).bin" size="17103744" crc="bf2ca85a" md5="b59d1f9b0b433d4f1dd2e5c028ca78d6" sha1="d0eebed250ad78ffe1fe968532027829dd22d59e"/>
 	</game>
+		<game name="Colin McRae Rally 04 (Europe) (En,Fr,De,Es,It) (Disc 1)">
+		<category>Games</category>
+		<description>Colin McRae Rally 04 (Europe) (En,Fr,De,Es,It) (Disc 1)</description>
+		<release name="Colin McRae Rally 04 (Europe) (En,Fr,De,Es,It) (Disc 1)" region="Europe"/>
+		<rom crc="1db694de" md5="144b4ad829fb13b17217c61d97d812cd" name="Colin McRae Rally 04 (Europe) (En,Fr,De,Es,It) (Disc 1).cue" sha1="4961759105fcf19069bdd666f1233d7fd3627f45" size="121"/>
+		<rom crc="96bd9f46" md5="f2c8ca2ca34d6527cd13c6bf977eb4e9" name="Colin McRae Rally 04 (Europe) (En,Fr,De,Es,It) (Disc 1).bin" sha1="20bf27593a98b388397eca3a2d1626da21d143f6" size="783651120"/>
+	</game>
+	<game name="Colin McRae Rally 04 (Europe) (En,Fr,De,Es,It) (Disc 2)">
+		<category>Games</category>
+		<description>Colin McRae Rally 04 (Europe) (En,Fr,De,Es,It) (Disc 2)</description>
+		<release name="Colin McRae Rally 04 (Europe) (En,Fr,De,Es,It) (Disc 2)" region="Europe"/>
+		<rom crc="1cebb20f" md5="917f5ca1bbe23e522339aa4a474dc44b" name="Colin McRae Rally 04 (Europe) (En,Fr,De,Es,It) (Disc 2).cue" sha1="5cb88ef127ce38c69a52081e08963a2e42650bba" size="121"/>
+		<rom crc="21098f60" md5="50c365762a735bd72b7b1ccdea5462de" name="Colin McRae Rally 04 (Europe) (En,Fr,De,Es,It) (Disc 2).bin" sha1="f3cf4a5f65c69b1d3d7787ceff3e1074089b9d66" size="783639360"/>
+	</game>
+	<game name="Colin McRae Rally 04 (Europe) (En,Fr,De,Es,It) (Disc 3)">
+		<category>Games</category>
+		<description>Colin McRae Rally 04 (Europe) (En,Fr,De,Es,It) (Disc 3)</description>
+		<release name="Colin McRae Rally 04 (Europe) (En,Fr,De,Es,It) (Disc 3)" region="Europe"/>
+		<rom crc="aaf0527f" md5="caa13ebe9fec1dc6bea765a14c55c324" name="Colin McRae Rally 04 (Europe) (En,Fr,De,Es,It) (Disc 3).cue" sha1="9e727213f23b23cfead8fa85ba1fe4d95b818c0d" size="121"/>
+		<rom crc="eacb0b34" md5="4c031f6d2495c32765a6ae0457c3c631" name="Colin McRae Rally 04 (Europe) (En,Fr,De,Es,It) (Disc 3).bin" sha1="5a8d25b9471fe49d3402971509b17339365205ee" size="783639360"/>
+	</game>
+	<game name="Colin McRae Rally 04 (Europe) (En,Fr,De,Es,It) (Disc 4)">
+		<category>Games</category>
+		<description>Colin McRae Rally 04 (Europe) (En,Fr,De,Es,It) (Disc 4)</description>
+		<release name="Colin McRae Rally 04 (Europe) (En,Fr,De,Es,It) (Disc 4)" region="Europe"/>
+		<rom crc="1e51ffad" md5="ff4e4b977419d497e2a6bbd94603445d" name="Colin McRae Rally 04 (Europe) (En,Fr,De,Es,It) (Disc 4).cue" sha1="ff399875670774736a53b01d3d775fae330a72dd" size="121"/>
+		<rom crc="4a53eff0" md5="6ea81fc79c7d8afa569a5fcde0117563" name="Colin McRae Rally 04 (Europe) (En,Fr,De,Es,It) (Disc 4).bin" sha1="5bad78b2008027c3c1ee1daafe380f5e7d8b7567" size="216873216"/>
+	</game>
+	<game name="Colin McRae Rally 04 (Europe) (En,Fr,De,Es,It) (Sold Out Software)">
+		<category>Games</category>
+		<description>Colin McRae Rally 04 (Europe) (En,Fr,De,Es,It) (Sold Out Software)</description>
+		<release name="Colin McRae Rally 04 (Europe) (En,Fr,De,Es,It) (Sold Out Software)" region="Europe"/>
+		<rom crc="1a6d008b" md5="6d5a257acf8ce227f9b2da702cd598ed" name="Colin McRae Rally 04 (Europe) (En,Fr,De,Es,It) (Sold Out Software).iso" sha1="5f9b5bcb39c78459abea88cac3103470d9e725a7" size="2865922048"/>
+	</game>
+	<game name="Colin McRae Rally 04 (Italy) (En,Fr,De,Es,It) (Rerelease)" cloneof="Colin McRae Rally 04 (Europe) (En,Fr,De,Es,It) (Sold Out Software)">
+		<category>Games</category>
+		<description>Colin McRae Rally 04 (Italy) (En,Fr,De,Es,It) (Rerelease)</description>
+		<release name="Colin McRae Rally 04 (Italy) (En,Fr,De,Es,It) (Rerelease)" region="Italy"/>
+		<rom crc="309d0eb6" md5="911fd9927213d3dd736530991caddef0" name="Colin McRae Rally 04 (Italy) (En,Fr,De,Es,It) (Rerelease).iso" sha1="ba6c40d076c9bffca4eebe231d908c19bbb227c2" size="3564011520"/>
+	</game>
 </datafile>
