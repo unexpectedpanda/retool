@@ -130,6 +130,7 @@ def main():
         '\(Disc 0[0-9]\)',
         '\s?\(Covermount\)',
         '\s?\(Sold Out Software\)',
+        '\s?\(Xplosiv\)',
         '\s?\(PlayStation the Best\)',
         '\s?\(PlayStation 2 the Best\)',
         '\s?\(PlayStation 3 the Best\)',
@@ -1027,6 +1028,7 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
                             # Else if one has a distributor tag, take the one that doesn't
                             test = parent_compare_bool(bool('(Sold Out Software)' in y.full_title), bool('(Sold Out Software)' in x.full_title), parent_list, already_tested, x, y, '', user_input)
                             test = parent_compare_bool(bool('(Major Wave)' in y.full_title), bool('(Major Wave)' in x.full_title), parent_list, already_tested, x, y, '', user_input)
+                            test = parent_compare_bool(bool('(Xplosiv)' in y.full_title), bool('(Xplosiv)' in x.full_title), parent_list, already_tested, x, y, '', user_input)
                             if test == True: continue
 
                             # Else if one has an Alt tag, take the one that doesn't

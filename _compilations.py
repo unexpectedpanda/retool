@@ -86,7 +86,9 @@ def fmt_compilation_list():
 # IBM PC-Compatible
 def ibm_compilation_list():
     return [
-
+        '4 Games in 1 - Strike Commander + Syndicate Plus + Ultima VIII - Pagan + Wing Commander II',
+        'Counter-Strike 1 Anthology (Disc 1)', # Usually this would count as a collection, not a compilation, but for many titles it includes Steam codes instead of the games
+        'Counter-Strike 1 Anthology (Disc 2)',
     ]
 
 # Microsoft Xbox
