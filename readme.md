@@ -56,7 +56,6 @@ Or for the binary version:
 * `-c` Remove compilations that don't have unique titles
 * `-d` Remove demos and coverdiscs
 * `-e` Remove educational titles
-* `-l` Remove titles with (Alt) tags
 * `-m` Remove multimedia titles
 * `-p` Remove betas and prototypes
 * `-s` Promote supersets: make things like Game of the Year editions parents
@@ -87,11 +86,10 @@ Importantly, setting `-c` doesn't treat the following as compilations, and
 so doesn't remove them:
 
 * **Collections** &mdash; Collections are different from compilations, in that
-  they tend to include the latest versions of a series of games. For example,
-  _Assassin's Creed - Ezio Trilogy_ includes _Assassin's Creed II_,
+  collections tend to include the latest versions of a series of games. For
+  example, _Assassin's Creed - Ezio Trilogy_ includes _Assassin's Creed II_,
   _Assassin's Creed - Brotherhood_, _Assassin's Creed - Revelations_, and some
-  DLC. As a rule of thumb, at least three games should be in a collection. If
-  a collection only contains the original release of its games, not the
+  DLC. If a collection only contains the original release of its games, not the
   expanded editions (for example, _Assassin's Creed - Heritage Collection_
   doesn't include the _Assassin's Creed II - Game of the Year_ DLC), then it is
   demoted to a compilation.

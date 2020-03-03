@@ -1,3 +1,15 @@
+# 0.54
+- Greatly sped up parent/clone processing, and removed XML conversion in
+  favor of writing directly to the output dat. This will be mostly noticeable
+  for large dats. The IBM and Sony Redump dats, for example, now process around
+  10x faster, cutting a minutes long process for each into seconds on an
+  i7 8700K.
+- Added another distributor/publisher to check for when scanning for clones.
+- Removed the option to remove titles with Alt tags, as it was a leftover
+  from when Retool didn't do 1G1R properly.
+- Added a counter for how many compilations were removed, if the option is
+  enabled.
+
 # 0.53
 - Fixed a bug where if a region name was in a title, it caused clones to be
   assigned to the wrong parents. For example,
@@ -10,7 +22,7 @@
 # 0.52
 - Added better parent selection for the following:
   - Titles with multiple date versions.
-  - Titles with distributor, OEM, and covermount tags.
+  - Titles with distributor/publisher, OEM, and covermount tags.
   - Budget titles vs the originals.
 
 # 0.51

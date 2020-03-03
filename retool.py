@@ -39,13 +39,13 @@ assert sys.version_info >= (3, 5)
 def main():
     # Splash screen
     os.system('cls' if os.name == 'nt' else 'clear')
-    print(font.bold + '\nReTOOL 0.53' + font.end)
+    print(font.bold + '\nReTOOL 0.54' + font.end)
     print('-----------')
     if len(sys.argv) == 1:
         print(
             textwrap.fill(
             'Creates 1G1R versions of Redump (' + font.underline
-            + 'http://redump.org/' + font.end + ') dats. This is not an'
+            + 'http://redump.org/' + font.end + ') dats. This is not an '
             + 'official Redump project.', 80
             )
         )
@@ -129,6 +129,7 @@ def main():
         '\(Disc [A-Z].*?\)',
         '\(Disc 0[0-9]\)',
         '\s?\(Covermount\)',
+        '\s?\(Sold Out Extreme\)',
         '\s?\(Sold Out Software\)',
         '\s?\(Xplosiv\)',
         '\s?\(PlayStation the Best\)',
@@ -202,12 +203,11 @@ class font:
 
 # Establish a class for user input
 class UserInput:
-    def __init__(self, file_input, file_output, no_demos, no_apps, no_protos, no_alts, no_multi, no_edu, no_comps, superset, log):
+    def __init__(self, file_input, file_output, no_demos, no_apps, no_protos, no_multi, no_edu, no_comps, superset, log):
         self.file_input = file_input
         self.file_output = file_output
         self.no_demos = no_demos
         self.no_apps = no_apps
-        self.no_alts = no_alts
         self.no_multi = no_multi
         self.no_protos = no_protos
         self.no_edu = no_edu
@@ -391,13 +391,11 @@ def help():
     print('\nUSAGE: ' + font.bold + command + os.path.basename(sys.argv[0]) + ' -i ' + font.end + '<input dat/folder> <options>')
     print('\nA new file is automatically generated, the original file isn\'t altered.')
     print('\nOPTIONS:')
-    print(font.bold + '-o' + font.end + '    Set an output folder')
-    print('')
+    print(font.bold + '-o' + font.end + '    Set an output folder\n')
     print(font.bold + '-a' + font.end + '    Remove applications')
     print(font.bold + '-c' + font.end + '    Remove compilations that don\'t have unique titles')
     print(font.bold + '-d' + font.end + '    Remove demos and coverdiscs')
     print(font.bold + '-e' + font.end + '    Remove educational titles')
-    print(font.bold + '-l' + font.end + '    Remove titles with (Alt) tags')
     print(font.bold + '-m' + font.end + '    Remove multimedia titles')
     print(font.bold + '-p' + font.end + '    Remove betas and prototypes')
     print(font.bold + '-s' + font.end + '    Promote supersets: make things like game of the')
@@ -413,7 +411,6 @@ def check_input():
     flag_no_comps = True if len([x for x in sys.argv if x == '-c']) > 0 else False
     flag_no_demos = True if len([x for x in sys.argv if x == '-d']) > 0 else False
     flag_no_edu = True if len([x for x in sys.argv if x == '-e']) > 0 else False
-    flag_no_alts = True if len([x for x in sys.argv if x == '-l']) > 0 else False
     flag_no_multi = True if len([x for x in sys.argv if x == '-m']) > 0 else False
     flag_no_protos = True if len([x for x in sys.argv if x == '-p']) > 0 else False
     flag_superset = True if len([x for x in sys.argv if x == '-s']) > 0 else False
@@ -423,7 +420,7 @@ def check_input():
     for i, x in enumerate(sys.argv):
         # Check that the options entered are valid
         if x.startswith('-'):
-            if not ((x == '-i') or (x == '-o') or (x == '-a') or (x == '-c') or (x == '-d') or (x == '-e') or (x == '-l') or (x == '-m') or (x == '-p') or (x == '-s') or (x == '-v')):
+            if not ((x == '-i') or (x == '-o') or (x == '-a') or (x == '-c') or (x == '-d') or (x == '-e') or (x == '-m') or (x == '-p') or (x == '-s') or (x == '-v')):
                 print(font.red + '* Invalid option ' + sys.argv[i] + font.end)
                 error_state = True
 
@@ -481,7 +478,7 @@ def check_input():
     if error_state == True:
         help()
 
-    return UserInput(input_file_name, output_folder_name, flag_no_demos, flag_no_apps, flag_no_protos, flag_no_alts, flag_no_multi, flag_no_edu, flag_no_comps, flag_superset, flag_log)
+    return UserInput(input_file_name, output_folder_name, flag_no_demos, flag_no_apps, flag_no_protos, flag_no_multi, flag_no_edu, flag_no_comps, flag_superset, flag_log)
 
 # Converts CLRMAMEPro format to XML
 def convert_clr_logiqx(clrmame_header, checkdat, is_folder):
@@ -692,7 +689,6 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
         regional_titles.append(raw_title)
 
         # Filter out titles based on user input flags
-        if user_input.no_alts == True and re.search('(\(Alt\)|\(Alt [0-9]\))', title.category.parent['name']) != None: continue
         if user_input.no_apps == True and (title.category.contents[0] == 'Applications'): continue
         if user_input.no_demos == True and (title.category.contents[0] == 'Demos'
                                             or title.category.contents[0] == 'Coverdiscs'
@@ -1026,6 +1022,7 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
                             if test == True: continue
 
                             # Else if one has a distributor tag, take the one that doesn't
+                            test = parent_compare_bool(bool('(Sold Out Extreme)' in y.full_title), bool('(Sold Out Extreme)' in x.full_title), parent_list, already_tested, x, y, '', user_input)
                             test = parent_compare_bool(bool('(Sold Out Software)' in y.full_title), bool('(Sold Out Software)' in x.full_title), parent_list, already_tested, x, y, '', user_input)
                             test = parent_compare_bool(bool('(Major Wave)' in y.full_title), bool('(Major Wave)' in x.full_title), parent_list, already_tested, x, y, '', user_input)
                             test = parent_compare_bool(bool('(Xplosiv)' in y.full_title), bool('(Xplosiv)' in x.full_title), parent_list, already_tested, x, y, '', user_input)
@@ -1151,14 +1148,12 @@ def process_dats(user_input, tag_strings, region_list_english, region_list_other
     original_title_count = len(soup.find_all('game'))
 
     # Tally the other tag counts if the options have been set
-    alt_count = 0
     apps_count = 0
     demos_count = 0
     edu_count = 0
     multi_count = 0
     protos_count = 0
 
-    if user_input.no_alts == True: alt_count = len(soup.find_all('game', {'name':re.compile('(\(Alt\)|\(Alt [0-9]\))')}))
     if user_input.no_apps == True: apps_count = len(soup.find_all('category', string='Applications'))
     if user_input.no_demos == True:  demos_count = len(soup.find_all('category', string='Demos')) + len(soup.find_all('category', string='Coverdiscs'))
     if user_input.no_edu == True: edu_count = len(soup.find_all('category', string='Educational'))
@@ -1205,9 +1200,6 @@ def process_dats(user_input, tag_strings, region_list_english, region_list_other
         print('none found.')
     else:
         print('done.')
-
-    # Variable that holds each title's XML. Titles get added one by one to be written to a file later
-    final_title_xml= ''
 
     # Create a list to store unique titles
     unique_list = []
@@ -1435,6 +1427,7 @@ def process_dats(user_input, tag_strings, region_list_english, region_list_other
 
     progress = 0
     progress_total = 0
+    progress_old = 0
 
     # Get the proper number of parent comparisons so we can accurately show percentage
     for letter in global_parent_list_temp:
@@ -1444,10 +1437,12 @@ def process_dats(user_input, tag_strings, region_list_english, region_list_other
     for letter in global_parent_list_temp:
         for x, y in itertools.combinations(global_parent_list_temp[letter], 2):
             progress += 1
-            progress_percent = (progress/progress_total*100)
+            progress_percent = int(progress/progress_total*100)
 
-            sys.stdout.write("\033[K")
-            print('  * Comparing parents across regions... ' + str(int(progress_percent)) + '%', sep='', end='\r', flush=True)
+            if progress_old != progress_percent:
+                sys.stdout.write("\033[K")
+                print('* Comparing parents across regions... ' + str(progress_percent) + '%', sep='', end='\r', flush=True)
+
             if x.full_title != y.full_title:
                 if x.rf_tag_strip_title == y.rf_tag_strip_title:
                     for another_region in region_list_english + region_list_other:
@@ -1456,37 +1451,56 @@ def process_dats(user_input, tag_strings, region_list_english, region_list_other
                                 del global_parent_list[y]
                                 break
 
-    print('  * Comparing parents across regions... done.')
+            progress_old = progress_percent
 
-    progress = 0
-    progress_total = len(all_titles_data)
+    print('* Comparing parents across regions... done.')
 
     # Now mark the remaining clones
     if len(global_parent_list) > 0:
+        clones_only = []
+
         for title in all_titles_data:
-            print('* Finding clones... ', sep='', end='\r', flush=True)
+            clones_only += [x for x in all_titles_data[title] if x not in global_parent_list]
+
+        progress = 0
+        progress_total = len(clones_only)
+
+        for x in clones_only:
             progress += 1
-            progress_percent = (progress/progress_total*100)
+            progress_percent = int(progress/progress_total*100)
 
-            sys.stdout.write("\033[K")
+            if progress_old != progress_percent:
+                sys.stdout.write("\033[K")
+                print('* Finding clones... ' + str(progress_percent) + '%', sep='', end='\r', flush=True)
 
-            print('* Finding clones... ' + str(int(progress_percent)) + '%', sep='', end='\r', flush=True)
-            for x in all_titles_data[title]:
-                for y in global_parent_list:
-                    if x.full_title != y.full_title:
-                        if x.rf_tag_strip_title == y.rf_tag_strip_title and x.rf_tag_strip_title != '' and y.rf_tag_strip_title != '':
-                            x.cloneof = y.full_title
-                    else:
-                        break
+            for y in global_parent_list:
+                if x.rf_tag_strip_title == y.rf_tag_strip_title:
+                    x.cloneof = y.full_title
+
+                progress_old = progress_percent
+
+        print('* Finding clones... done.')
 
         # Create a list to add exclusion titles that shouldn't be clones.
         exclude_title = []
 
-        # Look up the dupe list title entries
+        # Process the manually set clones in _renames.py and _overrides.py
+        progress = 0
+        progress_total = 0
+        progress_old = 0
+
+        progress_total = len(dupe_list)
+
         check_parent_match = False
         for key, value in dupe_list.items():
-            sys.stdout.write("\033[K")
-            print('* Finding clones... ' + str(int(progress_percent)) + '%', sep='', end='\r', flush=True)
+            # This progress meter is a bit of a hack as it doesn't cover the overrides, but it'll do
+            progress += 1
+            progress_percent = int(progress/progress_total*100)
+
+            if progress_old != progress_percent:
+                sys.stdout.write("\033[K")
+                print('* Assigning manually set clones... ' + str(progress_percent) + '%', sep='', end='\r', flush=True)
+
             for title in all_titles_data:
                 for x in all_titles_data[title]:
                     if key == x.rf_tag_strip_title and x.cloneof == 'None':
@@ -1529,14 +1543,16 @@ def process_dats(user_input, tag_strings, region_list_english, region_list_other
                                             a.cloneof = 'None'
                             if check_clone_match != True:
                                 if type(y) is str:
-                                    print(font.bold + font.yellow + 'x Clone in _rename.py not found in dat: ' + y + font.end)
+                                    print(font.bold + font.yellow + '  x Clone in _rename.py not found in dat: ' + y + font.end)
                             else:
                                 check_clone_match = False
 
             if check_parent_match != True:
-                print(font.bold + font.yellow + 'x Parent in _rename.py not found in dat: ' + key + font.end)
+                print(font.bold + font.yellow + '  x Parent in _rename.py not found in dat: ' + key + font.end)
             else:
                 check_parent_match = False
+
+            progress_old = progress_percent
 
         # Now add back in any titles that should be parents and not clones
         if len(exclude_title) > 0:
@@ -1552,14 +1568,12 @@ def process_dats(user_input, tag_strings, region_list_english, region_list_other
                             y.cloneof = 'None'
                         if y.full_title in value:
                             y.cloneof = key
-    else:
-        progress_percent = (100)
 
-    print('* Finding clones... done.')
+    print('* Assigning manually set clones... done.')
 
     # If there are superset titles, delete the subset titles
-    if user_input.superset == True and progress_percent != 100:
-        print('* Promoting supersets... ' + str(int(progress_percent)) + '%', sep='', end='\r', flush=True)
+    if user_input.superset == True:
+        print('* Promoting supersets... ', sep='', end='\r', flush=True)
 
         superset_delete = []
 
@@ -1610,66 +1624,7 @@ def process_dats(user_input, tag_strings, region_list_english, region_list_other
                         if y.full_title in value:
                             y.cloneof = key
 
-        print('* Promoting supersets... done')
-
-
-    # Convert to XML
-    print('* Converting to XML...', sep='', end='\r', flush=True)
-
-    progress = 0
-    progress_total = len(all_titles_data)
-
-    for title in sorted(all_titles_data.keys()):
-        progress += 1
-        progress_percent = (progress/progress_total*100)
-
-        sys.stdout.write("\033[K")
-        print('* Converting to XML... ' + str(int(progress_percent)) + '%', sep='', end='\r', flush=True)
-        for subtitle in all_titles_data[title]:
-            if subtitle.cloneof == 'None':
-                final_title_xml += '\t<game name="' + html.escape(subtitle.full_title, quote = False) + '">'
-            else:
-                final_title_xml += '\t<game name="' + html.escape(subtitle.full_title, quote = False) + '" cloneof="' + html.escape(subtitle.cloneof, quote = False) + '">'
-            final_title_xml += '\n\t\t<category>' + html.escape(subtitle.category, quote = False) + '</category>'
-            final_title_xml += '\n\t\t<description>' + html.escape(subtitle.description, quote = False) + '</description>'
-            final_title_xml += '\n\t\t<release name="' + html.escape(subtitle.description, quote = False) + '" region="' + subtitle.regions + '"/>'
-
-            for rom in subtitle.roms:
-                final_title_xml += '\n\t\t<rom crc="' + rom.crc + '" md5="' + rom.md5 + '" name="' + html.escape(rom.name, quote = False) + '" sha1="' + rom.sha1 + '" size="' + rom.size + '"/>'
-            final_title_xml += '\n\t</game>\n'
-
-    print('* Converting to XML... done.')
-
-    # Stats so people can see something was done
-    new_title_count = final_title_xml.count('<game name=')
-
-    if new_title_count == 0:
-        print(font.yellow + '\n* No titles found. No dat file has been created.' + font.end)
-        if is_folder == False:
-            sys.exit()
-        else:
-            return
-
-    print('\nStats:\n○  Original title count: ' + str('{:,}'.format(original_title_count)))
-
-    if user_input.no_alts == True: print('-  Alternate titles removed: ' + str('{:,}'.format(alt_count)))
-    if user_input.no_apps == True: print('-  Applications removed: ' + str('{:,}'.format(apps_count)))
-    if user_input.no_demos == True: print('-  Demos removed: ' + str('{:,}'.format(demos_count)))
-    if user_input.no_edu == True: print('-  Educational titles removed: ' + str('{:,}'.format(edu_count)))
-    if user_input.no_multi == True: print('-  Multimedia titles removed: ' + str('{:,}'.format(multi_count)))
-    if user_input.no_protos == True: print('-  Prototypes and betas removed: ' + str('{:,}'.format(protos_count)))
-    if len(unique_regional_titles['Unknown']) > 1:  print('+  Titles without regions included (might not be English): ' + str('{:,}'.format(unknown_region_title_count)))
-
-    dupe_count = original_title_count - new_title_count -alt_count -apps_count - demos_count - edu_count - multi_count - protos_count
-    if dupe_count < 0: dupe_count = 0
-
-    clone_count = final_title_xml.count('cloneof=')
-    print('-  Clones identified: ' + str('{:,}'.format(clone_count)))
-
-    print(font.bold + '---------------------------')
-    print('=  New title count: ' + str('{:,}'.format(new_title_count)) + font.end)
-    print('   Parents: ' + str('{:,}'.format(new_title_count - clone_count)))
-    print('   Clones: ' + str('{:,}'.format(clone_count)) + '\n')
+        print('* Promoting supersets... done.')
 
     # Set up final output filename and dat header strings
     if user_input.file_output != '':
@@ -1681,16 +1636,14 @@ def process_dats(user_input, tag_strings, region_list_english, region_list_other
     dat_version_filename = ''
     if dat_version != '': dat_version_filename = ' (' + dat_version + ')'
 
-    dat_header_exclusion = ''
+    dat_header_exclusion = ' [1G1R]'
 
-    dat_header_exclusion += ' [1G1R]'
-    if user_input.no_apps == True or user_input.no_demos == True or user_input.no_edu == True or user_input.no_multi == True or user_input.no_protos == True or user_input.no_alts == True or user_input.no_comps == True or user_input.superset == True:
+    if user_input.no_apps == True or user_input.no_demos == True or user_input.no_edu == True or user_input.no_multi == True or user_input.no_protos == True or user_input.no_comps == True or user_input.superset == True:
         dat_header_exclusion += ' (-'
         if user_input.no_apps == True: dat_header_exclusion += 'a'
         if user_input.no_comps == True: dat_header_exclusion += 'c'
         if user_input.no_demos == True: dat_header_exclusion += 'd'
         if user_input.no_edu == True: dat_header_exclusion += 'e'
-        if user_input.no_alts == True: dat_header_exclusion += 'l'
         if user_input.no_multi == True: dat_header_exclusion += 'm'
         if user_input.no_protos == True: dat_header_exclusion += 'p'
         if user_input.superset == True: dat_header_exclusion += 's'
@@ -1699,20 +1652,92 @@ def process_dats(user_input, tag_strings, region_list_english, region_list_other
 
     # Write the dat files
     try:
+        # Assign some counts for stats
+        parent_count = 0
+        clone_count = 0
+        new_title_count = 0
+
+        if len(all_titles_data) == 0:
+            print(font.yellow + '\n* No titles found. No dat file has been created.\n' + font.end)
+            if is_folder == False:
+                sys.exit()
+            else:
+                return
+        else:
+            for x in all_titles_data:
+                for y in all_titles_data[x]:
+                    new_title_count += 1
+
+        # Write the dat file
         file_name_title_count = {}
-        print('* Writing dat file...\n')
+
         output_file_suffix = dat_header_exclusion + ' (' + str('{:,}'.format(new_title_count)) + ')' + dat_version_filename + ' (Retool ' +  datetime.datetime.now().strftime('%Y-%m-%d %H-%M-%S.%f')[:-3] + ')' + '.dat'
         dat_header = header(dat_name, dat_version, dat_author, dat_url, dat_header_exclusion, False, new_title_count, False, user_input)
-        output_file_data = final_title_xml
 
         with open(user_input.file_output_final + output_file_suffix, 'w') as output_file:
             output_file.writelines(dat_header)
-            output_file.writelines(output_file_data)
+            progress = 0
+            progress_total = 0
+            progress_old = 0
+
+            for title in sorted(all_titles_data.keys()):
+                for subtitle in all_titles_data[title]:
+                    progress_total += 1
+
+            for title in sorted(all_titles_data.keys()):
+                for subtitle in all_titles_data[title]:
+                    progress += 1
+                    progress_percent = int(progress/progress_total*100)
+
+                    if progress_old != progress_percent:
+                        sys.stdout.write("\033[K")
+                        print('* Writing dat file... ' + str(progress_percent) + '%', sep='', end='\r', flush=True)
+
+                    if subtitle.cloneof == 'None':
+                        parent_count += 1
+                        game_xml = '\t<game name="' + html.escape(subtitle.full_title, quote = False) + '">'
+                    else:
+                        clone_count += 1
+                        game_xml = '\t<game name="' + html.escape(subtitle.full_title, quote = False) + '" cloneof="' + html.escape(subtitle.cloneof, quote = False) + '">'
+
+                    rom_xml = ''
+
+                    for rom in subtitle.roms:
+                        rom_xml += '\n\t\t<rom crc="' + rom.crc + '" md5="' + rom.md5 + '" name="' + html.escape(rom.name, quote = False) + '" sha1="' + rom.sha1 + '" size="' + rom.size + '"/>'
+
+                    output_file.writelines(
+                        game_xml +
+                        '\n\t\t<category>' + html.escape(subtitle.category, quote = False) + '</category>'
+                        '\n\t\t<description>' + html.escape(subtitle.description, quote = False) + '</description>'
+                        '\n\t\t<release name="' + html.escape(subtitle.description, quote = False) + '" region="' + subtitle.regions + '"/>'
+                        + rom_xml +
+                        '\n\t</game>\n'
+                    )
+
+                    progress_old = progress_percent
+
             output_file.writelines('</datafile>')
             output_file.close()
 
         file_name_title_count['output_file'] = output_file.name
         file_name_title_count['new_title_count'] = new_title_count
+
+        print('* Writing dat file... done.')
+
+        print('\nStats:\n○  Original title count: ' + str('{:,}'.format(original_title_count)))
+
+        if user_input.no_apps == True: print('-  Applications removed: ' + str('{:,}'.format(apps_count)))
+        if user_input.no_comps == True: print('-  Compilations removed: ' + str('{:,}'.format(len(comp_list))))
+        if user_input.no_demos == True: print('-  Demos removed: ' + str('{:,}'.format(demos_count)))
+        if user_input.no_edu == True: print('-  Educational titles removed: ' + str('{:,}'.format(edu_count)))
+        if user_input.no_multi == True: print('-  Multimedia titles removed: ' + str('{:,}'.format(multi_count)))
+        if user_input.no_protos == True: print('-  Prototypes and betas removed: ' + str('{:,}'.format(protos_count)))
+        if len(unique_regional_titles['Unknown']) > 1:  print('+  Titles without regions included: ' + str('{:,}'.format(unknown_region_title_count)))
+
+        print(font.bold + '---------------------------')
+        print('=  New title count: ' + str('{:,}'.format(new_title_count)) + font.end)
+        print('   Parents: ' + str('{:,}'.format(parent_count)))
+        print('   Clones: ' + str('{:,}'.format(clone_count)) + '\n')
 
         return file_name_title_count
     except OSError as e:
