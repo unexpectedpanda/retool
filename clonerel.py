@@ -18,7 +18,7 @@ from openpyxl.utils import cell as Cell
 
 def main():
     os.system('cls' if os.name == 'nt' else 'clear')
-    print(font.bold + '\nCloneRel 0.11' + font.end)
+    print(font.bold + '\nCloneRel 0.12' + font.end)
     print('-------------')
 
     if len(sys.argv) == 1:
@@ -110,17 +110,13 @@ def main():
             # Add the header
             ws.merge_cells('A1:B1')
             ws['A1'] = 'Parents with clones'
-            ws['C1'] = 'Orphans'
-            ws['D1'] = 'Parents with orphans'
+            ws['C1'] = 'Parents with orphans'
             ws['A1'].font = Font(bold = True, color = 'ffffffff', size = '12')
             ws['A1'].fill = PatternFill("solid", fgColor="ff808080")
             ws['A1'].alignment = Alignment(vertical = 'center')
             ws['C1'].font = Font(bold = True, color = 'ffffffff', size = '12')
             ws['C1'].fill = PatternFill("solid", fgColor="ff808080")
             ws['C1'].alignment = Alignment(vertical = 'center')
-            ws['D1'].font = Font(bold = True, color = 'ffffffff', size = '12')
-            ws['D1'].fill = PatternFill("solid", fgColor="ff808080")
-            ws['D1'].alignment = Alignment(vertical = 'center')
             ws.row_dimensions[1].height = 20
             ws.freeze_panes = ws['A2']
 
@@ -144,15 +140,8 @@ def main():
                         ws[chr(ord(col)) + str(row + 1)] = ''
                         row += 2
 
-            # Populate orphans
-            col = 'C'
-            row = 2
-            for item in sorted(orphan_list):
-                ws[col + str(row)] = html.unescape(item)
-                row += 1
-
             # Populate all parents
-            col = 'D'
+            col = 'C'
             row = 2
             for item in sorted(parent_orphan_list):
                 ws[col + str(row)] = html.unescape(item)
