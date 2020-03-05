@@ -1,54 +1,6 @@
-# Last updated: 24 Feb 2020
+# Last updated: 05 Mar 2020
 # An exclusion list for compilations that don't feature unique games.
 # All compilations are listed, but those with unique games are commented out.
-
-# Arcade - Konami - M2
-def m2_compilation_list():
-    return [
-
-    ]
-
-# Microsoft Xbox 360
-def x360_compilation_list():
-    return [
-
-    ]
-
-# Microsoft Xbox One
-def xbone_compilation_list():
-    return [
-
-    ]
-
-# Nintendo Wii
-def wii_compilation_list():
-    return [
-
-    ]
-
-# Nintendo Wii U
-def wii_u_compilation_list():
-    return [
-
-    ]
-
-# Sony PlayStation 3
-def ps3_compilation_list():
-    return [
-
-    ]
-
-# Sony PlayStation 4
-def ps4_compilation_list():
-    return [
-
-    ]
-
-# Sony PlayStation Portable
-def psp_compilation_list():
-    return [
-
-    ]
 
 # Apple Macintosh
 def mac_compilation_list():
@@ -86,9 +38,14 @@ def fmt_compilation_list():
 # IBM PC-Compatible
 def ibm_compilation_list():
     return [
-        '4 Games in 1 - Strike Commander + Syndicate Plus + Ultima VIII - Pagan + Wing Commander II',
-        'Counter-Strike 1 Anthology (Disc 1)', # Usually this would count as a collection, not a compilation, but for many titles it includes Steam codes instead of the games
-        'Counter-Strike 1 Anthology (Disc 2)',
+        'Battle Arena Toshinden 2 & Zeitgeist (Germany)',
+        'Battle Arena Toshinden 2 (Europe) (2in1 Pack)', # This could be a naming error, the only 2-in-1 I can find is Toshinden 1 + Fatal Fury 3
+        'Bazooka Sue & Turrican II (Germany)',
+        # Bejeweled & Alchemy (Canada)
+        'Bermuda Syndrome & Air Power (Germany)',
+        'Black Isle Compilation, The - Part Two (Germany) (Patches & Handbuecher)',
+        'Bonus 2-Pack - Sid Meier\'s Civilization III Gold Edition & CivCity - Rome (USA)',
+        'Chaos Control & Time Gate - Knight\'s Chase (Germany)',
     ]
 
 # Microsoft Xbox
