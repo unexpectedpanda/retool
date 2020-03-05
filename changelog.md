@@ -1,3 +1,6 @@
+# 0.55
+- Code changes to support a build pipeline.
+
 # 0.54
 - Greatly sped up parent/clone processing, and removed XML conversion in
   favor of writing directly to the output dat. This will be mostly noticeable

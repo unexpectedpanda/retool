@@ -1,54 +1,6 @@
-# Last updated: 24 Feb 2020
+# Last updated: 05 Mar 2020
 # An list of superset games, for example, Game of the Year editions, Special
 # editions, and so on.
-
-# Arcade - Konami - M2
-def m2_superset_list():
-    return {
-
-    }
-
-# Microsoft Xbox 360
-def x360_superset_list():
-    return {
-
-    }
-
-# Microsoft Xbox One
-def xbone_superset_list():
-    return {
-
-    }
-
-# Nintendo Wii
-def wii_superset_list():
-    return {
-
-    }
-
-# Nintendo Wii U
-def wii_u_superset_list():
-    return {
-
-    }
-
-# Sony PlayStation 3
-def ps3_superset_list():
-    return {
-
-    }
-
-# Sony PlayStation 4
-def ps4_superset_list():
-    return {
-
-    }
-
-# Sony PlayStation Portable
-def psp_superset_list():
-    return {
-
-    }
 
 # Apple Macintosh
 def mac_superset_list():
@@ -56,7 +8,7 @@ def mac_superset_list():
 
     }
 
-def chihiro_rename_list():
+def chihiro_superset_list():
     return {
         # 'Sega Network Taisen Mahjong MJ3 Evolution': ['Sega Network Taisen Mahjong MJ3'], # Very likely a superset, but don't know for sure
     }
@@ -144,6 +96,7 @@ def ibm_superset_list():
             'Anno 1503 (Disc 2)',
             'Anno 1503 - Schaetze, Monster & Piraten',
         ],
+        'Another World - 15th Anniversary Edition': ['Out of This World'],
         'ArmA - Armed Assault - Gold Edition': ['ArmA - Armed Assault'],
         'Assassin\'s Creed - Director\'s Cut': [
             'Assassin\'s Creed',
@@ -163,6 +116,58 @@ def ibm_superset_list():
             'Baldur\'s Gate - Tales of the Sword Coast',
             'Baldur\'s Gate - Die Legenden der Schwertkueste',
             'Baldur\'s Gate - Kakuchou Scenario-shuu - Tales of the Sword Coast',
+        ],
+        'Batman - Arkham Asylum (Game of the Year Edition)': ['Batman - Arkham Asylum'],
+        'Battle Chess Collection': [
+            'Battle Chess',
+            'Battle Chess II - Chinese Chess',
+        ],
+        'Battlefield 1942 - World War II Anthology (Disc 1)': [
+            'Battlefield 1942 (Disc 1) (Deluxe Edition)',
+            'Battlefield 1942 (Disc 2) (Deluxe Edition)',
+            'Battlefield 1942 (Disc 3) (Deluxe Edition)',
+            'Battlefield 1942 (Disc 1)',
+            'Battlefield 1942 (Disc 1) (Game of the Year Edition)',
+            'Battlefield 1942 (Disc 2)',
+            'Battlefield 1942 (Disc 2) (Game of the Year Edition)',
+            'Battlefield 1942 - Secret Weapons of WWII (Expansion Pack)',
+            'Battlefield 1942 - The Road to Rome (Expansion Pack)',
+        ],
+        'Battlefield 2 - Complete Collection': [
+            'Battlefield 2',
+            'Battlefield 2 (Disc 1) (Installer Disc)',
+            'Battlefield 2 (Disc 2)',
+            'Battlefield 2 (Disc 3)',
+            'Battlefield 2 - Booster Packs Collection',
+            'Battlefield 2 - Deluxe Edition',
+            'Battlefield 2 - Deluxe Edition (Disc 1) (Installer Disc)',
+            'Battlefield 2 - Deluxe Edition (Disc 2)',
+            'Battlefield 2 - Deluxe Edition (Disc 3)',
+            'Battlefield 2 - Deluxe Edition (Disc 4)',
+            'Battlefield 2 - Deluxe Edition (Disc 5)',
+            'Battlefield 2 - Special Forces',
+            'Battlefield 2 - Special Forces (Disc 1)',
+            'Battlefield 2 - Special Forces (Disc 2)',
+        ],
+        'Battlefield 2142 (Deluxe Edition)': ['Battlefield 2142'],
+        'Battlefield 3 (Disc 1) (Premium Edition)': ['Battlefield 3 (Disc 1)'],
+        'Battlefield 3 (Disc 2) (Premium Edition)': ['Battlefield 3 (Disc 2)'],
+        'Blitzkrieg Anthology': [
+            'Blitzkrieg (Disc 1)',
+            'Blitzkrieg (Disc 2)',
+            'Blitzkrieg - Burning Horizon (Disc 1)',
+            'Blitzkrieg - Burning Horizon (Disc 2)',
+            'Blitzkrieg - Rolling Thunder (Disc 1)',
+            'Blitzkrieg - Rolling Thunder (Disc 2)',
+        ],
+        'Blitzkrieg 2 Anthology': [
+            'Blitzkrieg 2',
+            'Blitzkrieg 2 - Das Letzte Gefecht',
+            'Blitzkrieg 2 - Fall of the Reich',
+            'Blitzkrieg 2 - Liberation',
+        ],
+        'Blood (Disc 1) (Special Edition)': [
+            'Blood (Disc 1)',
         ],
         'Broken Sword Complete': [
             'Baphomets Fluch - Der Engel des Todes',
@@ -190,6 +195,97 @@ def ibm_superset_list():
         'Bygg batar med Mulle Meck - Specialversion': ['Bygg Batar med Mulle Meck'],
         'Call of Duty 4 - Modern Warfare (Game of the Year Edition)': ['Call of Duty 4 - Modern Warfare'],
         'Capitalism Plus': ['Capitalism'],
+        'Cities in Motion Collection': ['Cities in Motion'],
+        'City of Heroes & City of Villains - Good Versus Evil Edition': [
+            'City of Heroes (Disc 1)',
+            'City of Heroes (Disc 2)',
+        ],
+        'Comanche Gold': ['Comanche 3'],
+        'Comic Party DCE': [
+            'Comic Party (Disc 1)',
+            'Comic Party (Disc 2)',
+        ],
+        'Command & Conquer 3 - Tiberium Wars (Kane Edition)': [
+            'Command & Conquer 3 - Tiberium Wars',
+            'Command & Conquer 3 - Tiberium Wars (Deluxe Edition)',
+        ],
+        'Commandos Complete': [
+            'Commandos - Behind Enemy Lines',
+            'Commandos - Dietro le Linee Nemiche',
+            'Commandos - Hinter feindlichen Linien',
+            'Commandos - Beyond the Call of Duty',
+            'Commandos - Im Auftrag der Ehre',
+            'Commandos - Strike Force',
+            'Commandos 2 - Men of Courage (Disc 1)',
+            'Commandos 2 - Men of Courage (Disc 2)',
+            'Commandos 2 - Men of Courage (Disc 3)',
+            'Commandos 3 - Destination Berlin (Disc 1)',
+            'Commandos 3 - Destination Berlin (Disc 2)',
+            'Commandos 3 - Destination Berlin (Disc 3)',
+        ],
+        'Company of Heroes (Game of the Year)': ['Company of Heroes'],
+        'Conquest of the New World (Deluxe Edition)': ['Conquest of the New World'],
+        'Creatures Trilogy, The': [
+            'Creatures',
+            'Creatures - New Life in Your Hands',
+            'Creatures - The Albian Years',
+            'Creatures - Zhizn\' na Al\'bii',
+            'Creatures Exodus',
+        ],
+        'Cultures Gold': [
+            'Cultures - Die Entdeckung Vinlands',
+            'Cultures - Die Rache des Regengottes',
+        ],
+        'Daryl F. Gates\' Police Quest Collection - The 4 Most Wanted (Collection Series)': ['Daryl F. Gates Police Quest - Open Season'],
+        'Daytona USA Deluxe Special Edition': [
+            'Daytona USA',
+            'Daytona USA Deluxe',
+        ],
+        'Delta Force Xtreme': [
+            'Delta Force',
+            'Delta Force - Xtreme',
+        ],
+        'Demon Gate Mega Collection': ['Demon Gate'],
+        'Descent I and II - The Definitive Collection (Disc 1)': [
+            'Descent - Anniversary Edition',
+            'Descent',
+            'Descent - Levels of the World',
+            'Descent II',
+            'Descent II - The Vertigo Series',
+        ],
+        'Deus Ex Complete': [
+            'Deus Ex (Game of the Year Edition)',
+            'Deus Ex',
+            'Deus Ex - Invisible War',
+            'Deus Ex - Invisible War (Disc 1)',
+            'Deus Ex - Invisible War (Disc 2)',
+            'Deus Ex - Invisible War (Disc 1) (Game Disc)',
+            'Deus Ex - Invisible War (Disc 1) (Installation Disc) (Rev 1)',
+            'Deus Ex - Invisible War (Disc 2) (Game Disc) (Rev 1)',
+            'Deus Ex - Invisible War (Disc 2) (Installation Disc)',
+        ],
+        'Disciples II Gold (Disc 1)': [
+            'Disciples II - Bunt Elfow (Disc 1)',
+            'Disciples II - Bunt Elfow (Disc 2)',
+            'Disciples II - Dark Prophecy (Disc 1)',
+            'Disciples II - Dark Prophecy (Disc 2)',
+            'Disciples II - Kanun Ragnareka (Disc 1)',
+            'Disciples II - Kanun Ragnareka (Disc 2)',
+        ],
+        'One Unit Whole Blood': [
+            'Blood (Disc 1)',
+            'Blood (Disc 1) (Special Edition)',
+            'Blood (Disc 2)',
+            'Blood - Plasma Pak',
+            'Cryptic Passage for Blood',
+        ],
+        'Resident Evil 4 (Ultimate HD Edition)': ['Resident Evil 4'],
+        'Resident Evil Origins Collection': [
+            'Biohazard',
+            'Biohazard (PowerVR OEM)',
+            'Resident Evil',
+            'Resident Evil (PowerVR OEM)',
+        ],
     }
 
 # Microsoft Xbox

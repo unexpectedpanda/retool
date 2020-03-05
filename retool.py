@@ -13,33 +13,17 @@ import time
 from lxml import etree
 from bs4 import BeautifulSoup, Doctype # For XML parsing
 
-if os.path.exists('_test.py'):
-    import _test as _renames
-else:
-    import _renames # Dupes that have different names in different regions
-
-if os.path.exists('_testcomps.py'):
-    import _testcomps as _compilations
-else:
-    import _compilations # Compilations that don't have unique titles
-
-if os.path.exists('_testsupers.py'):
-    import _testsupers as _supersets
-else:
-    import _supersets
-
-if os.path.exists('_testoverrides.py'):
-    import _testoverrides as _overrides
-else:
-    import _overrides
+import _clonelist
+import _version
 
 # Require at least Python 3.5
 assert sys.version_info >= (3, 5)
 
 def main():
     # Splash screen
+    version = _version.version()
     os.system('cls' if os.name == 'nt' else 'clear')
-    print(font.bold + '\nReTOOL 0.54' + font.end)
+    print(font.bold + '\nReTOOL ' + version + font.end)
     print('-----------')
     if len(sys.argv) == 1:
         print(
@@ -1215,132 +1199,14 @@ def process_dats(user_input, tag_strings, region_list_english, region_list_other
     override_list = {}
     superset_override_list = {}
 
-    if dat_name == 'Arcade - Konami - M2':
-        dupe_list = _renames.m2_rename_list()
-        comp_list = _compilations.m2_compilation_list()
-        superset_list = _supersets.m2_superset_list()
-    elif dat_name == 'Arcade - Sega - Chihiro':
-        superset_list = _supersets.m2_superset_list()
-    elif dat_name == 'Apple - Macintosh':
-        dupe_list = _renames.mac_rename_list()
-        comp_list = _compilations.mac_compilation_list()
-        superset_list = _supersets.mac_superset_list()
-    elif dat_name == 'Commodore - Amiga CD':
-        dupe_list = _renames.amiga_cd_rename_list()
-        comp_list = _compilations.amiga_cd_compilation_list()
-        superset_list = _supersets.amiga_cd_superset_list()
-    elif dat_name == 'Commodore - Amiga CD32':
-        dupe_list = _renames.cd32_rename_list()
-        comp_list = _compilations.cd32_compilation_list()
-        superset_list = _supersets.cd32_superset_list()
-    elif dat_name == 'Commodore - Amiga CDTV':
-        dupe_list = _renames.cdtv_rename_list()
-        comp_list = _compilations.cdtv_compilation_list()
-        superset_list = _supersets.cdtv_superset_list()
-    elif dat_name == 'Fujitsu - FM-Towns':
-        dupe_list = _renames.fmt_rename_list()
-        comp_list = _compilations.fmt_compilation_list()
-        superset_list = _supersets.fmt_superset_list()
-    elif dat_name == 'IBM - PC compatible':
-        dupe_list = _renames.ibm_rename_list()
-        comp_list = _compilations.ibm_compilation_list()
-        superset_list = _supersets.ibm_superset_list()
-        override_list = _overrides.ibm_override_list()
-    elif dat_name == 'Microsoft - Xbox':
-        dupe_list = _renames.xbox_rename_list()
-        comp_list = _compilations.xbox_compilation_list()
-        superset_list = _supersets.xbox_superset_list()
-    elif dat_name == 'Microsoft - Xbox 360':
-        dupe_list = _renames.x360_rename_list()
-        comp_list = _compilations.x360_compilation_list()
-        superset_list = _supersets.x360_superset_list()
-        override_list = _overrides.x360_override_list()
-    elif dat_name == 'Microsoft - Xbox One':
-        dupe_list = _renames.xbone_rename_list()
-        comp_list = _compilations.xbone_compilation_list()
-        superset_list = _supersets.xbone_superset_list()
-    elif dat_name == 'NEC - PC Engine CD & TurboGrafx CD':
-        dupe_list = _renames.pce_rename_list()
-        comp_list = _compilations.pce_compilation_list()
-        superset_list = _supersets.pce_superset_list()
-    elif (dat_name == 'Nintendo - GameCube'
-        or dat_name == 'Nintendo - GameCube - NKit GCZ'
-        or dat_name == 'Nintendo - GameCube - NKit ISO'
-        or dat_name == 'Nintendo - GameCube - NASOS'):
-            dupe_list = _renames.gamecube_rename_list()
-            comp_list = _compilations.gamecube_compilation_list()
-            superset_list = _supersets.gamecube_superset_list()
-    elif (
-        dat_name == 'Nintendo - Wii'
-        or dat_name =='Nintendo - Wii - NKit GCZ'
-        or dat_name =='Nintendo - Wii - NKit ISO'
-        or dat_name =='Nintendo - Wii - NASOS'
-        ):
-            dupe_list = _renames.wii_rename_list()
-            comp_list = _compilations.wii_compilation_list()
-            superset_list = _supersets.wii_superset_list()
-    elif (
-        dat_name == 'Nintendo - Wii U'
-        or dat_name =='Nintendo - Wii U - WUX'
-        ):
-            dupe_list = _renames.wii_u_rename_list()
-            comp_list = _compilations.wii_u_compilation_list()
-            superset_list = _supersets.wii_u_superset_list()
-    elif dat_name == 'Panasonic - 3DO Interactive Multiplayer':
-        dupe_list = _renames.threedo_rename_list()
-        comp_list = _compilations.threedo_compilation_list()
-        superset_list = _supersets.threedo_superset_list()
-    elif dat_name == 'Philips - CD-i':
-        dupe_list = _renames.cdi_rename_list()
-        comp_list = _compilations.cdi_compilation_list()
-        superset_list = _supersets.cdi_superset_list()
-    elif dat_name == 'Philips - CD-i Digital Video':
-        dupe_list = _renames.cdi_dv_rename_list()
-    elif dat_name == 'Sega - Dreamcast':
-        dupe_list = _renames.dreamcast_rename_list()
-        comp_list = _compilations.dreamcast_compilation_list()
-        superset_list = _supersets.dreamcast_superset_list()
-    elif dat_name == 'Sega - Mega CD & Sega CD':
-        dupe_list = _renames.segacd_rename_list()
-        comp_list = _compilations.segacd_compilation_list()
-        superset_list = _supersets.segacd_superset_list()
-    elif dat_name == 'Sega - Saturn':
-        dupe_list = _renames.saturn_rename_list()
-        comp_list = _compilations.saturn_compilation_list()
-        superset_list = _supersets.saturn_superset_list()
-        override_list = _overrides.saturn_override_list()
-    elif dat_name == 'SNK - Neo Geo CD':
-        dupe_list = _renames.neogeo_rename_list()
-        comp_list = _compilations.neogeo_compilation_list()
-        superset_list = _supersets.neogeo_superset_list()
-        override_list = _overrides.neogeo_override_list()
-    elif dat_name == 'Sony - PlayStation':
-        dupe_list = _renames.psx_rename_list()
-        comp_list = _compilations.psx_compilation_list()
-        superset_list = _supersets.psx_superset_list()
-        override_list = _overrides.psx_override_list()
-    elif dat_name == 'Sony - PlayStation 2':
-        dupe_list = _renames.ps2_rename_list()
-        comp_list = _compilations.ps2_compilation_list()
-        superset_list = _supersets.ps2_superset_list()
-        override_list = _overrides.ps2_override_list()
-        superset_override_list = _overrides.ps2_superset_override_list()
-    elif dat_name == 'Sony - PlayStation 3':
-        dupe_list = _renames.ps3_rename_list()
-        comp_list = _compilations.ps3_compilation_list()
-        superset_list = _supersets.ps3_superset_list()
-    elif dat_name == 'Sony - PlayStation 4':
-        dupe_list = _renames.ps4_rename_list()
-        comp_list = _compilations.ps4_compilation_list()
-        superset_list = _supersets.ps4_superset_list()
-    elif dat_name == 'Sony - PlayStation Portable':
-        dupe_list = _renames.psp_rename_list()
-        comp_list = _compilations.psp_compilation_list()
-        superset_list = _supersets.psp_superset_list()
-    elif dat_name == 'VTech - V.Flash & V.Smile Pro':
-        dupe_list = _renames.vtech_rename_list()
-        comp_list = _compilations.vtech_compilation_list()
-        superset_list = _supersets.vtech_superset_list()
+    clone_list = _clonelist.clonelist(dat_name)
+
+    if clone_list != None:
+        dupe_list = clone_list.dupe
+        comp_list = clone_list.comp
+        superset_list = clone_list.super
+        override_list = clone_list.override
+        superset_override_list = clone_list.superoverride
 
     # Find unique parents in each region
     global_parent_list = {}

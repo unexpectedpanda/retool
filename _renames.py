@@ -1,54 +1,6 @@
-# Last updated: 24 Feb 2020
+# Last updated: 05 Mar 2020
 # An exclusion list for when games are the same as another region,
 # just renamed for another region/new title screens.
-
-# Arcade - Konami - M2
-def m2_rename_list():
-    return {
-
-    }
-
-# Microsoft Xbox 360
-def x360_rename_list():
-    return {
-
-    }
-
-# Microsoft Xbox One
-def xbone_rename_list():
-    return {
-
-    }
-
-# Nintendo Wii
-def wii_rename_list():
-    return {
-
-    }
-
-# Nintendo Wii U
-def wii_u_rename_list():
-    return {
-
-    }
-
-# Sony PlayStation 3
-def ps3_rename_list():
-    return {
-
-    }
-
-# Sony PlayStation 4
-def ps4_rename_list():
-    return {
-
-    }
-
-# Sony PlayStation Portable
-def psp_rename_list():
-    return {
-
-    }
 
 # Apple Macintosh
 def mac_rename_list():
@@ -101,9 +53,14 @@ def fmt_rename_list():
         'Towns Paint V1.1L20': ['Towns Paint V1.1L10'],
         'Towns Sound V1.1L20': ['Towns Sound V1.1L10'],
         'Towns System Software V2.1L51': [
+            'Towns System Software V1.1L10',
             'Towns System Software V1.1L20',
             'Towns System Software V1.1L30',
             'Towns System Software V2.1L10',
+            'Towns System Software V2.1L20',
+            'Towns System Software V2.1L30',
+            'Towns System Software V2.1L31',
+            'Towns System Software V2.1L40',
         ],
         'Video Koubou V1.4L10': ['Video Koubou V1.3L10'],
     }
@@ -191,6 +148,9 @@ def ibm_rename_list():
         'Another World - 15th Anniversary Edition': ['Another World - 15th Anniversary Edition (Gra)'],
         'Arcanum - Of Steamworks & Magick Obscura (Disc 1)': ['Arcanum (Disc 1) (Install Disk)'],
         'Arcanum - Of Steamworks & Magick Obscura (Disc 2)': ['Arcanum (Disc 2) (Play Disk)'],
+        'Arthur\'s Knights - Chapter II - The Secret of Merlin (Disc 1)': ['Bradwen - Il Cavaliere di Re Artu (Disc 1)'],
+        'Arthur\'s Knights - Chapter II - The Secret of Merlin (Disc 2)': ['Bradwen - Il Cavaliere di Re Artu (Disc 2)'],
+        'Arthur\'s Knights - Chapter II - The Secret of Merlin (Disc 3)': ['Bradwen - Il Cavaliere di Re Artu (Disc 3)'],
         'Assassin\'s Creed - Director\'s Cut': ['Assassin\'s Creed - Wersja Rezyserska'],
         'Assassin\'s Creed Unity (Disc 1) (Limited Edition)': ['Assassin\'s Creed Unity (Disc 1)'],
         'Assassin\'s Creed Unity (Disc 2) (Limited Edition)': ['Assassin\'s Creed Unity (Disc 2)'],
@@ -238,8 +198,95 @@ def ibm_rename_list():
         'Baldur\'s Gate II - Throne of Bhaal': ['Baldur\'s Gate II - Thron des Bhaal'],
         'Ballerburg - Castle Siege': ['Ballerburg'],
         'Bananas in Pajamas - It\'s Fun Time': ['Bananer i Pyjamas - It\'s Fun Time'],
-        'Broken Sword - The Shadow of the Templars (Disc 1)': ['Baphomets Fluch (Disc 1)'],
-        'Broken Sword - The Shadow of the Templars (Disc 2)': ['Baphomets Fluch (Disc 2)'],
+        'Batman - Justice Unbalanced': ['Batman - Sprawiedliwosc Ponad Wszystko'],
+        # 'Batman Forever': ['Batman Forever - The Arcade Game'], # Not sure if this is a clone or not
+        'Battle Isle - Der Andosia Konflikt': ['Battle Isle - The Andosia War'],
+        'Battlefield 1942 (Disc 1) (Game of the Year Edition)': ['Battlefield 1942 (Disc 1)'],
+        'Battlefield 1942 (Disc 2) (Game of the Year Edition)': ['Battlefield 1942 (Disc 2)'],
+        'Battlefield 2': [
+            'Battlefield 2 (Disc 1) (Installer Disc)',
+            'Battlefield 2 (Disc 2)',
+            'Battlefield 2 (Disc 3)',
+        ],
+        'Battlefield 2 - Deluxe Edition': [
+            'Battlefield 2 - Deluxe Edition (Disc 1) (Installer Disc)',
+            'Battlefield 2 - Deluxe Edition (Disc 2)',
+            'Battlefield 2 - Deluxe Edition (Disc 3)',
+            'Battlefield 2 - Deluxe Edition (Disc 4)',
+            'Battlefield 2 - Deluxe Edition (Disc 5)',
+        ],
+        'Battlefield 2 - Special Forces': [
+            'Battlefield 2 - Special Forces (Disc 1)',
+            'Battlefield 2 - Special Forces (Disc 2)',
+        ],
+        'Battlefield Vietnam Redux (Disc 1)': ['Battlefield Vietnam (Disc 1)'],
+        'Battlefield Vietnam Redux (Disc 2)': ['Battlefield Vietnam (Disc 2)'],
+        'Battlefield Vietnam Redux (Disc 3)': ['Battlefield Vietnam (Disc 3)'],
+        'Beasts and Bumpkins': ['Demons et Manants'],
+        'Beast Within, The - A Gabriel Knight Mystery (Disc 1)': [
+            'Beast Within, The - Ein Gabriel Knight-Krimi (Disc 1)',
+            'Beast Within, The - Um Misterio de Gabriel Knight (Disc 1)',
+            'Beast Within, The - Un Mystere avec Gabriel Knight (Disc 1)',
+        ],
+        'Beast Within, The - A Gabriel Knight Mystery (Disc 2)': [
+            'Beast Within, The - Ein Gabriel Knight-Krimi (Disc 2)',
+            'Beast Within, The - Um Misterio de Gabriel Knight (Disc 2)',
+            'Beast Within, The - Un Mystere avec Gabriel Knight (Disc 2)',
+        ],
+        'Beast Within, The - A Gabriel Knight Mystery (Disc 3)': [
+            'Beast Within, The - Ein Gabriel Knight-Krimi (Disc 3)',
+            'Beast Within, The - Um Misterio de Gabriel Knight (Disc 3)',
+            'Beast Within, The - Un Mystere avec Gabriel Knight (Disc 3)',
+        ],
+        'Beast Within, The - A Gabriel Knight Mystery (Disc 4)': [
+            'Beast Within, The - Ein Gabriel Knight-Krimi (Disc 4)',
+            'Beast Within, The - Um Misterio de Gabriel Knight (Disc 4)',
+            'Beast Within, The - Un Mystere avec Gabriel Knight (Disc 4)',
+        ],
+        'Beast Within, The - A Gabriel Knight Mystery (Disc 5)': [
+            'Beast Within, The - Ein Gabriel Knight-Krimi (Disc 5)',
+            'Beast Within, The - Um Misterio de Gabriel Knight (Disc 5)',
+            'Beast Within, The - Un Mystere avec Gabriel Knight (Disc 5)',
+        ],
+        'Beast Within, The - A Gabriel Knight Mystery (Disc 6)': [
+            'Beast Within, The - Ein Gabriel Knight-Krimi (Disc 6)',
+            'Beast Within, The - Um Misterio de Gabriel Knight (Disc 6)',
+        ],
+        'Beyond Good & Evil': [
+            'Beyond Good & Evil (Disc 1)',
+            'Beyond Good & Evil (Disc 2)',
+            'Beyond Good & Evil (Disc 3)',
+        ],
+        'Bionicle - Prepare for the Light': [
+            'Bionicle - Prepare for the Light (427F0B0F)',
+            'Bionicle - Prepare for the Light (A2FA9D2E)',
+        ],
+        'Black & White - Creature Isle (Expansion Pack)': ['Black & White - Insel der Kreaturen'],
+        'Black & White - Bonus Creatures CD': ['Black & White - Special Creature CD - Horse'],
+        'Black & White 2': [
+            'Black & White 2 (Disc 1)',
+            'Black & White 2 (Disc 2)',
+            'Black & White 2 (Disc 3)',
+            'Black & White 2 (Disc 4)',
+        ],
+        'Blair Witch Volume I - Rustin Parr': ['Blair Witch Czesc I - Rustin Parr'],
+        'Blitzkrieg 2 - Fall of the Reich': ['Blitzkrieg 2 - Das Letzte Gefecht'],
+        'Blood (Disc 1)': ['Blood (Disc 1) (Special Edition)'],
+        'BloodRayne (Disc 1)': ['BloodRayne'],
+        'BloodRayne 2': [
+            'BloodRayne 2 (Disc 1) (Play Disc)',
+            'BloodRayne 2 (Disc 2)',
+            'BloodRayne 2 (Disc 3)',
+            'BloodRayne 2 (Disc 4)',
+        ],
+        'Broken Sword - The Shadow of the Templars (Disc 1)': [
+            'Baphomets Fluch (Disc 1)',
+            'Chevaliers de Baphomet, Les (Disc 1)',
+        ],
+        'Broken Sword - The Shadow of the Templars (Disc 2)': [
+            'Baphomets Fluch (Disc 2)',
+            'Chevaliers de Baphomet, Les (Disc 1)',
+        ],
         'Broken Sword - The Sleeping Dragon (Disc 1)': [
             'Baphomets Fluch - Der Schlafende Drache (Disc 1)',
         ],
@@ -298,18 +345,307 @@ def ibm_rename_list():
             'Carmageddon II - Carpocalypse Now (Zombie Version)',
         ],
         # 'Cartoon Network All Stars': ['Cartoon Network All-Stars'], # The hugely different file sizes means these may not be the same titles
+        'Chaser (Disc 1)': [
+            'Chaser (Disc 1) (Play CD)',
+        ],
+        'Chaser (Disc 2)': [
+            'Chaser (Disc 2) (Install CD)',
+        ],
+        'Chessmaster 10th Edition': [
+            'Chessmaster 10th Edition (Disc 1)',
+            'Chessmaster 10th Edition (Disc 2)',
+            'Chessmaster 10th Edition (Disc 3)',
+        ],
+        'Chewy - Esc from F5': ['Chewy - Esc von F5'],
+        'Chicago 1930 - Pick Your Side': ['Chicago 1930'],
+        'Chronicles of Narnia, The - The Lion, the Witch and the Wardrobe (Disc 1) (Play Disc)': ['Cronache di Narnia, Le - Il leone, la strega e l\'armadio'],
         'Civil War, The': ['Amerika 1861-1865'],
         'Corporate Machine, The': ['Business Tycoon'],
         'Casino De Luxe': ['Casino Deluxe'],
-
-        'LEGO Chess': ['Ajedrez LEGO'],
+        'Chessmaster 5000': ['Chessmaster 5000 - Jubilaeumsausgabe'],
+        'Chessmaster 6000 (Disc 1)': ['Chessmaster 6000'], # If there's an English DVD release, this will need to be reversed
+        'Chrome (Disc 1)': ['Chrome'], # If there's an English DVD release, this will need to be reversed
+        'Close Combat - A Bridge Too Far': ['Close Combat - Die Bruecke von Arnheim'],
+        'Close Combat IV - Battle of the Bulge': ['Close Combat IV - Die Schlacht in den Ardennen'],
+        'Clou! 2, Der - Die Einbruchsimulation': ['Clou! 2, Der'],
+        'ClueFinders, The - 6th Grade Adventures - The Empire of the Planet People': ['ClueFinders, The - 6th Grade Adventures'],
+        'CodeWarrior for PlayStation Release 5': [
+            'CodeWarrior for Net Yaroze Release 2',
+            'CodeWarrior for PlayStation Release 3',
+            'CodeWarrior for PlayStation Release 4',
+        ],
+        'Codename - Panzers - Phase One (Disc 1)': ['Codename - Panzers - Phase One'],
+        'Cold Fear': [
+            'Cold Fear (Disc 1) (Install and Play)',
+            'Cold Fear (Disc 2) (Install)',
+            'Cold Fear (Disc 3) (Install)',
+        ],
+        'Cold War - On Your Own Behind the Iron Curtain (Disc 1)': ['Cold War (Disc 1)'],
+        'Cold War - On Your Own Behind the Iron Curtain (Disc 2)': ['Cold War (Disc 2)'],
+        'Colin McRae Rally 04': [
+            'Colin McRae Rally 04 (Disc 1)',
+            'Colin McRae Rally 04 (Disc 2)',
+            'Colin McRae Rally 04 (Disc 3)',
+            'Colin McRae Rally 04 (Disc 4)',
+        ],
+        'Comanche 2': ['Comanche 2.0'],
+        'Combat Classics 3': [ # A compilation that's only included because English versions of all these games aren't in Redump yet
+            'Campaign (Enhanced CD-ROM Edition)',
+            'Gunship 2000',
+            'Historyline - 1914-1918',
+        ],
+        'Combat Mission (Game CD)': ['Combat Mission'],
+        'Command & Conquer (Disc 1) (Windows 95)': [
+            'Command & Conquer (Disc 1)',
+            'Command & Conquer Teil 1 - Der Tiberiumkonflikt (Disc 1)',
+            'Command & Conquer Teil 1 - Der Tiberiumkonflikt (Disc 1) (Windows 95)',
+        ],
+        'Command & Conquer (Disc 2) (Windows 95)': [
+            'Command & Conquer (Disc 2)',
+            'Command & Conquer Teil 1 - Der Tiberiumkonflikt (Disc 2)',
+            'Command & Conquer Teil 1 - Der Tiberiumkonflikt (Disc 2) (Windows 95)',
+        ],
+        'Command & Conquer - Generals - Zero Hour (Disc 1)': ['Command & Conquer - Generals - Heure H (Disc 1)'],
+        'Command & Conquer - Generals - Zero Hour (Disc 2)': ['Command & Conquer - Generals - Heure H (Disc 2)'],
+        'Command & Conquer - Red Alert (Allied Disc)': [
+            'Command & Conquer - Red Alert (Disc 1)',
+            'Command & Conquer Teil 2 - Alarmstufe Rot (Disc 1)',
+        ],
+        'Command & Conquer - Red Alert (Soviet Disc)': [
+            'Command & Conquer - Red Alert (Disc 2)',
+            'Command & Conquer Teil 2 - Alarmstufe Rot (Disc 2)',
+        ],
+        # 'Command & Conquer - Red Alert - Retaliation': ['Command & Conquer - Alarmstufe Rot - Gegenangriff'], # Not in Redump yet. Is this a compilation or collection?
+        'Command & Conquer - Red Alert - The Aftermath': ['Command & Conquer - Alarmstufe Rot - Vergeltungsschlag'],
+        'Command & Conquer - Red Alert 2 (Allied Disc)': ['Command & Conquer - Alarmstufe Rot 2 (Alliierte)'],
+        'Command & Conquer - Red Alert 2 (Soviet Disc)': ['Command & Conquer - Alarmstufe Rot 2 (Sowjets)'],
+        'Command & Conquer - Red Alert 2 - Yuri\'s Revenge': ['Command & Conquer - Alarmstufe Rot 2 - Yuris Rache'],
+        'Command & Conquer - Red Alert 3': ['Command & Conquer - Alerte Rouge 3'],
+        'Command & Conquer - The First Decade': ['Command & Conquer - Die ersten 10 Jahre'],
+        'Command & Conquer - Renegade (Disc 1) (Game Disc)': [
+            'Command & Conquer - Renegade (Data Disc)',
+            'Command & Conquer - Renegade (Disc 1) (Install)',
+            'Command & Conquer - Renegade (Disc 1) (Youxipan)',
+        ],
+        'Command & Conquer - Renegade (Disc 2) (Data Disc)': [
+            'Command & Conquer - Renegade (Game Disc)',
+            'Command & Conquer - Renegade (Disc 2)',
+            'Command & Conquer - Renegade (Disc 2) (Play)',
+            'Command & Conquer - Renegade (Disc 2) (Shujupan)',
+        ],
+        'Command & Conquer - Tiberian Sun (GDI Disc)': ['Command & Conquer Teil 3 - Operation Tiberian Sun (GDI Disc)'],
+        'Command & Conquer - Tiberian Sun (NOD Disc)': ['Command & Conquer Teil 3 - Operation Tiberian Sun (NOD Disc)'],
+        'Command & Conquer - Tiberian Sun - Firestorm': ['Command & Conquer Teil 3 - Operation Tiberian Sun - Feuersturm'],
+        'Command & Conquer 3 - Kane\'s Wrath': ['Command & Conquer 3 - Kane\'s Rache'],
+        'Command & Conquer 3 - Tiberium Wars (Kane Edition)': ['Command & Conquer 3 - Tiberium Wars (Deluxe Edition)'],
+        'Commandos - Behind Enemy Lines': [
+            'Commandos - Dietro le Linee Nemiche',
+            'Commandos - Hinter feindlichen Linien',
+        ],
+        'Commandos - Beyond the Call of Duty': ['Commandos - Im Auftrag der Ehre'],
+        'Commandos Complete (Side 1)': ['Commandos Antologia'],
+        'Conquest - Frontier Wars': ['Conquest - Wojny Pogranicza'],
+        'Conquest Earth - First Encounter (Disc 1)': ['Conquest Earth - Das Manifest (Disc 1)'],
+        'Conquest Earth - First Encounter (Disc 2)': ['Conquest Earth - Das Manifest (Disc 2)'],
+        # 'Cyberstorm 2 - Corporate Wars': ['CorpWars'], # Not in Redump yet
+        'Corpse Party BloodCovered 4': ['Corpse Party BloodCovered 4 (Another Jacket Version)'],
+        # 'Commanche Gold': ['Comanche Enhanced'], # Not sure if this is a clone or not
+        'Counter-Strike - Condition Zero (Disc 1)': [
+            'Counter-Strike - Condition Zero (Disc 1) (Install)',
+            'Counter-Strike - Condition Zero (Disc 1) (Installations-CD)',
+        ],
+        'Counter-Strike - Condition Zero (Disc 2)': [
+            'Counter-Strike - Condition Zero (Disc 2) (Play)',
+            'Counter-Strike - Condition Zero (Disc 2) (Spiel-CD)',
+        ],
+        'Crazy Chicken Approaching': ['Moorhuhn Action - Im Anflug'],
+        'Crazy Machines': ['Crazy Machines - Die Erfinderwerkstatt'],
+        'Creatures': ['Creatures - New Life in Your Hands'],
+        'Creatures - The Albian Years': ['Creatures - Zhizn\' na Al\'bii'],
+        'Crime Cities (Disc 1)': ['Crime Cities'],
+        'Cue Club': ['CueClub'],
+        'Cultures 2 - Die Tore Asgards': ['Cultures 2 - Bramy Asgardu (Gra)'],
+        'Cyberia': ['Cyberia (OS-2 OEM)'],
+        'Daedalus Encounter, The (Disc 1)': ['Daedalus Encounter, The - Episode 1 - Nanpasen no Alien (Disc 1)'],
+        'Daedalus Encounter, The (Disc 2)': ['Daedalus Encounter, The - Episode 1 - Nanpasen no Alien (Disc 2)'],
+        'Daedalus Encounter, The (Disc 3)': ['Daedalus Encounter, The - Episode 1 - Nanpasen no Alien (Disc 3)'],
+        'Dangerous Waters': ['Dangerous Waters (To Catch a Shadow)'],
+        'Dark Fall - The Journal': ['Dark Fall - Il diario dei misteri'],
+        'Daryl F. Gates\' Police Quest - SWAT (Disc 1) (Collection Series)': ['Daryl F. Gates\' Police Quest - SWAT (Disc 1)'],
+        'Daryl F. Gates\' Police Quest - SWAT (Disc 2) (Collection Series)': ['Daryl F. Gates\' Police Quest - SWAT (Disc 2)'],
+        'Daryl F. Gates\' Police Quest - SWAT (Disc 3) (Collection Series)': ['Daryl F. Gates\' Police Quest - SWAT (Disc 3)'],
+        'Daryl F. Gates\' Police Quest - SWAT (Disc 4) (Collection Series)': ['Daryl F. Gates\' Police Quest - SWAT (Disc 4)'],
+        'Day After, The (Disc 1) (Installation)': ['Day After, The (Disc 1) (Installazione)'],
+        'Deadlock - Planetary Conquest': [
+            'Deadlock - Conquista Planetaria',
+            'Deadlock - La Conquista del Pianeta',
+        ],
+        'Deadly Tide (Disc 1)': ['Deadly Tide (Disc 1) (Installazione e livelli da 1 a 3)'],
+        'Deadly Tide (Disc 2)': ['Deadly Tide (Disc 2) (Livelli da 4 a 8)'],
+        'Deadly Tide (Disc 3)': ['Deadly Tide (Disc 3) (Livelli da 9 a 13)'],
+        'Deadly Tide (Disc 4)': ['Deadly Tide (Disc 4) (Livelli 14 e 15)'],
         'Deal or No Deal': ['Affari Tuoi'],
+        'Delta Force Xtreme': ['Delta Force - Xtreme'],
+        'Delta Force Xtreme 2': ['Delta Force - Xtreme 2'],
+        'Demigod (Disc 1) (Game Disc)': ['Demigod'],
+        'Descent II - Destination Quartzon': ['Descent II - Destination Quartzon 3D'],
+        'Desperados - Wanted Dead or Alive': ['Desperados - Poszukiwany Zywy lub Martwy'],
+        'Desperate Housewives - The Game (Disc 1)': ['Desperate Housewives - Il Videogioco (Disc 1)'],
+        'Desperate Housewives - The Game (Disc 2)': ['Desperate Housewives - Il Videogioco (Disc 2)'],
+        'Deus Ex (Game of the Year Edition)': ['Deus Ex'],
+        'Deus Ex - Invisible War': [
+            'Deus Ex - Invisible War (Disc 1)',
+            'Deus Ex - Invisible War (Disc 2)',
+            'Deus Ex - Invisible War (Disc 1) (Game Disc)',
+            'Deus Ex - Invisible War (Disc 2) (Game Disc)',
+            'Deus Ex - Invisible War (Disc 2) (Installation Disc)',
+        ],
+        'Devil May Cry 3 - Dante\'s Awakening (Special Edition)': [
+            'Devil May Cry 3 (Special Edition)',
+            'Devil May Cry 3 - Dante\'s Awakening (Disc 1) (Special Edition)',
+            'Devil May Cry 3 - Dante\'s Awakening (Disc 2) (Special Edition)',
+            'Devil May Cry 3 - Dante\'s Awakening (Disc 3) (Special Edition)',
+            'Devil May Cry 3 - Dante\'s Awakening (Disc 4) (Special Edition)',
+            'Devil May Cry 3 - Dante\'s Awakening (Disc 5) (Special Edition)',
+        ],
+        'Diablo': ['Diablo (70AA7258)'],
+        'Diablo II (Install Disc)': [
+            'Diablo II (Disc 1) (Disco di installazione)',
+            'Diablo II (Disc 1) (Dysk Instalacyjny)',
+            'Diablo II (Disc 1) (Install Disc)',
+            'Diablo II (Disc 1) (Installations-CD)',
+        ],
+        'Diablo II (Play Disc)': [
+            'Diablo II (Disc 2) (Disco di gioco)',
+            'Diablo II (Disc 2) (Game-CD)',
+            'Diablo II (Disc 2) (Gra)',
+            'Diablo II (Disc 2) (Play Disc)',
+            'Diablo II (Disc 2) (Spiel-CD)',
+        ],
+        'Diablo II (Cinematics Disc)': [
+            'Diablo II (Disc 3) (Cinematics Disc)',
+            'Diablo II (Disc 3) (Disco delle cinematiche)',
+            'Diablo II (Disc 3) (Filmy)',
+            'Diablo II (Disc 3) (Video-CD)',
+        ],
+        'Die by the Sword - Limb from Limb': ['Die by the Sword - Das Schwert des Schicksals'],
+        'Dino Crisis': ['Dino Crisis - Nashestvie tvarej'],
+        'Dino Crisis 2': ['Dino Crisis 2 - Zakat chelovechestva'],
+        'Disciples II - Dark Prophecy (Disc 1)': ['Disciples II - Kanun Ragnareka (Disc 1)'],
+        'Disciples II - Dark Prophecy (Disc 2)': ['Disciples II - Kanun Ragnareka (Disc 2)'],
+        'Discworld II - Missing Presumed...! (Disc 1)': [
+            'Discworld II - Mortality Bytes! (Disc 1)',
+            'Discworld II - Vermutlich vermisst...! (Disc 1)',
+        ],
+        'Discworld II - Missing Presumed...! (Disc 2)': [
+            'Discworld II - Mortality Bytes! (Disc 2)',
+            'Discworld II - Vermutlich vermisst...! (Disc 2)',
+        ],
+        'Disney\'s Aladdin in Nasira\'s Revenge': ['Disney Aladdin - La Vendetta di Nasira'],
+        'Disney\'s Atlantis - The Lost Empire - Trial by Fire': ['Disney Atlantis - L\'Impero Perduto - La Prova del Fuoco'],
+        'Disney\'s Atlantis - The Lost Games': ['Disney Atlantis - L\'Impero Perduto - Bottega dei Giochi'],
+        'Disneys Dinosaurier - Action Role-Playing Game': ['Disney Bottega dei Giochi - Dinosauri'],
+        'Disney\'s 102 Dalmatians - Puppies to the Rescue': ['Disney La Carica dei 102 - Cuccioli alla Riscossa'],
+        'Disney\'s Arcade Frenzy': ['Disneys Verrueckte Spielesammlung'],
+        'Disney\'s Donald Duck - Goin\' Quackers': ['Disney\'s Donald Duck - Quack Attack'],
+        'Disney\'s Extremely Goofy Skateboarding': [
+            'Disney\'s Goofy - Xtreme Skateboarding',
+            'Disneys Sport - Goofy Skateboarding',
+        ],
+        'Disney\'s Hercules Action Game': [
+            'Disney Jeu d\'Action Disney Presente Hercule',
+            'Disney\'s Action Game met Hercules',
+            'Disneys Hercules Action-Spiel',
+        ],
+        'Disney\'s Lilo & Stitch - Trouble in Paradise!': ['Disneys Lilo & Stitch - Trubbel i Paradiset'],
+        'Disney\'s Pocahontas - Animated StoryBook': ['Disneys Interaktiva Filmbok - Pocahontas'],
+        'Disney\'s The Emperor\'s New Groove Action Game': [
+            'Disney Le Follie dell\'Imperatore',
+            'Disneys Ein Koenigreich fuer ein Lama - Action Game',
+        ],
+        'Disney\'s Winnie the Pooh - Preschool': ['Disney Winnie the Pooh - Prescolare'],
+        'Disney-Pixar Buzz Lightyear of Star Command': ['Disney-Pixar Captain Buzz Lightyear - Star Command'],
+        'Disney-Pixar Finding Nemo': ['Disney-Pixar Gdzie jest Nemo'],
+        'Disney-Pixar Finding Nemo - Nemo\'s Underwater World of Fun Special Edition': ['Disney-Pixar Finding Nemo - Nemo\'s Underwater World of Fun'],
+        'Disney-Pixar Monsters, Inc. - Scare Island': ['Disney-Pixar Monsters, Inc. - Skraemmaroen'],
+        'Disney-Pixar The Incredibles (Disc 1)': [
+            'Disney-Pixar De Utrolige (Disc 1)',
+            'Disney-Pixar Superhjaeltarna (Disc 1) (Installation)',
+        ],
+        'Disney-Pixar The Incredibles (Disc 2)': [
+            'Disney-Pixar De Utrolige (Disc 2)',
+            'Disney-Pixar Superhjaeltarna (Disc 2) (Spela)',
+        ],
+        'Disney-Pixar The Incredibles - Rise of the Underminer (Disc 1)': ['Disney-Pixar Gli Incredibili - L\'Ascesa del Minatore (Disc 1)'],
+        'Disney-Pixar The Incredibles - Rise of the Underminer (Disc 2)': ['Disney-Pixar Gli Incredibili - L\'Ascesa del Minatore (Disc 2)'],
+        'Disney Tarzan': ['Disney\'s Tarzan'],
+        'DIV Games Studio': [
+            'DIV Games Studio (Disc 1)',
+            'DIV Games Studio (Disc 2)',
+        ],
+        'Divine Divinity (Disc 1)': [
+            'Divine Divinity (Installations-CD 1)',
+            'Divine Divinity - Create Your Own Destiny! (Disc 1) (Installation CD)',
+        ],
+        'Divine Divinity (Disc 2)': [
+            'Divine Divinity (Installations-CD 2)',
+            'Divine Divinity - Create Your Own Destiny! (Disc 2) (Installation CD)',
+        ],
+        'Divine Divinity (Disc 3)': [
+            'Divine Divinity (Spiel-CD)',
+            'Divine Divinity - Create Your Own Destiny! (Italy) (Disc 3) (Play CD)',
+        ],
+        'Etherlords (Disc 1)': [
+            'Demiurgi (Disc 1)',
+            'Etherlords (Install-CD)',
+        ],
+        'Etherlords (Disc 2)': [
+            'Demiurgi (Disc 2)',
+            'Etherlords (Play-CD)',
+        ],
+        'Flashback - The Quest for Identity': ['Flashback'],
         'Football Generation': [
             'Calcio 2003',
             'Football Generation (9C6C6A1A)',
             'Football Generation (C66B89E6)',
         ],
+        'In Cold Blood (Disc 1)': ['Cold Blood (Disc 1)'],
+        'In Cold Blood (Disc 2)': ['Cold Blood (Disc 2)'],
+        'In Cold Blood (Disc 3)': ['Cold Blood (Disc 3)'],
+        'King of the Road': ['Dal\'nobojjshhiki-2'],
+        'LEGO Chess': ['Ajedrez LEGO'],
+        'Midnight Nowhere (Disc 1)': ['Chernyj Oazis (Disc 1)'],
+        'Midnight Nowhere (Disc 2)': ['Chernyj Oazis (Disc 2)'],
+        'Player Manager Ninety Nine': ['Player Manager - Epoca 98-99'], # The English version, Player Manager 98/99, isn't in Redump yet
         'Prisoner of Ice': ['Call of Cthulhu - Prisoner of Ice'],
+        'PGA Championship Golf - Collector\'s Edition (Installation CD)': ['DSF Golf \'99 (Disc 1) (Installation)'],
+        'PGA Championship Golf - Collector\'s Edition (New Collector\'s Edition Courses)': ['DSF Golf \'99 (Disc 2) (Kurse)'],
+        'Resident Evil': [
+            'Biohazard',
+            'Biohazard (PowerVR OEM)',
+            'Resident Evil (PowerVR OEM)',
+        ],
+        'Resident Evil 2 (Disc 1)': [
+            'Biohazard 2',
+            'Biohazard 2 (Disc 1)',
+            'Resident Evil 2',
+            'Resident Evil 2 (Disc 1) (Leon)',
+            'Resident Evil 2 (Leon)',
+        ],
+        'Resident Evil 2 (Disc 2)': [
+            'Biohazard 2 (Disc 2)',
+            'Resident Evil 2 (Disc 2) (Claire)',
+            'Resident Evil 2 (Claire)',
+        ],
+        'Resident Evil 3 - Nemesis': ['Biohazard 3 - Last Escape'],
+        'Resident Evil 4': ['Biohazard 4'],
+        'Resident Evil 5': [
+            'Biohazard 5',
+            'Resident Evil 5 (Disc 1)',
+            'Resident Evil 5 (Disc 2)',
+        ],
+        'Resident Evil 6 (Disc 1)': ['Biohazard 6 (Disc 1)'],
+        'Resident Evil 6 (Disc 2)': ['Biohazard 6 (Disc 2)'],
         'Sherlock Holmes - The Secret of the Silver Earring': [
             'Avventure di Sherlock Holmes, Le - L\'Orecchino d\'Argento (Disc 1)',
             'Avventure di Sherlock Holmes, Le - L\'Orecchino d\'Argento (Disc 2)',
@@ -320,6 +656,21 @@ def ibm_rename_list():
             'Agent Fuchs in Das Milchkartell',
             'Spy Fox - Operation Milkshake',
         ],
+        'Thing, The': ['Cosa, La'],
+        'Thief - The Dark Project': [
+            'Dark Project - Der Meisterdieb',
+            'Dark Project - L\'Ombra del Ladro',
+        ],
+        'Thief Gold (Disc 1)': ['Dark Project - Der Meisterdieb - Director\'s Cut (Disc 1)'],
+        'Thief Gold (Disc 2)': ['Dark Project - Der Meisterdieb - Director\'s Cut (Disc 2)'],
+        'Thief II - The Metal Age (Disc 1) (Installation)': ['Dark Project II - The Metal Age (Disc 1)'],
+        'Thief II - The Metal Age (Disc 2) (Game)': ['Thief II - The Metal Age (Disc 2)'],
+        'TOCA Race Driver 3': ['DTM Race Driver 3'],
+        'Traitors Gate (Disc 1)': ['Colpo grosso a London Tower (Disc 1)'],
+        'Traitors Gate (Disc 2)': ['Colpo grosso a London Tower (Disc 2)'],
+        'Traitors Gate (Disc 3)': ['Colpo grosso a London Tower (Disc 3)'],
+        'Traitors Gate (Disc 4)': ['Colpo grosso a London Tower (Disc 4)'],
+        'Ultimate Soccer Manager 98-99 Season Edition': ['DSF Fussball Manager \'98'],
         'Virgin Roster': ['Altar\' strasti'],
     }
 
@@ -3437,7 +3788,6 @@ def psx_rename_list():
         'Tomb Raider II - Starring Lara Croft': [
             'Tomb Raider 2', # (トゥームレイダー2)
             'Tomb Raider II - Starring Lara Croft (EDC)',
-            'Tomb Raider II - Starring Lara Croft (No EDC)',
         ],
         'Tomb Raider III - Adventures of Lara Croft': [
             'Tomb Raider III - Adventures of Lara Croft (EDC)',
@@ -3997,6 +4347,7 @@ def ps2_rename_list():
         'Dynasty Warriors 6': [
             'Shin Sangoku Musou 5 Special (Disc 1)',
             'Shin Sangoku Musou 5 Special (Disc 2)',
+            'Jin Samguk Mussang 5 Special',
         ],
         'E.O.E - Eve of Extinction': ['E.O.E - Eve of Extinction - Houkai no Zen\'ya'],
         'Eagle Eye Golf': ['Enjoy Golf!'],
@@ -4269,7 +4620,10 @@ def ps2_rename_list():
         'Haunting Ground': ['Demento'],
         'Hawk Kawasaki Racing': ['Hawk Superbike Racing'],
         'Heartbeat Boxing': ['Simple 2000 Series Ultimate Vol. 6 - Love - Upper!'],
-        'Heavenly Guardian': ['Legend of Sayuki'],
+        'Heavenly Guardian': [
+            'Legend of Sayuki',
+            'Yukinko Daisenpuu - Sayuki to Koyuki no Hie Hie Daisoudou',
+        ],
         'Hisui no Shizuku - Hiiro no Kakera 2 (Genteiban)': ['Hisui no Shizuku - Hiiro no Kakera 2'],
         'Hitman 2 - Silent Assassin': ['Hitman - Silent Assassin'],
         'Horsez': ['Pippa Funnell - Take the Reins'],
@@ -4343,6 +4697,7 @@ def ps2_rename_list():
         'Kidou Senshi Z Gundam - AEUG vs. Titans (100-shiki Gold Pack PlayStation 2 Doukonban)': ['Kidou Senshi Z Gundam - A.E.U.G. vs. Titans'],
         'Kimi ga Aruji de Shitsuji ga Ore de - Otsukae Nikki (Shokai Genteiban)': ['Kimi ga Aruji de Shitsuji ga Ore de - Otsukae Nikki'],
         'Kin\'iro no Corda 2 (Premium Box)': ['Kin\'iro no Corda 2'],
+        'Kindan no Pet - Seaman - Gaze Hakase no Jikken-tou (Sea-Mic Controller Original Doukonban)': ['Kindan no Pet - Seaman - Gaze Hakase no Jikken-tou (Sea-Mic Controller Doukonban)'],
         'King of Fighters \'94, The - Re-Bout (Special Genteiban)': ['King of Fighters \'94, The - Re-Bout'],
         'Kingdom Hearts - Final Mix (Platinum Limited)': ['Kingdom Hearts - Final Mix'],
         'King of Fighters 2002, The - Challenge to Ultimate Battle': ['King of Fighters 2002, The'],
@@ -4512,6 +4867,7 @@ def ps2_rename_list():
         ],
         'Metal Gear Solid 3 - Snake Eater': [
             'Metal Gear Solid 3 - Snake Eater (Premium Package)',
+            'Metal Gear Solid 3 - Snake Eater (Kabunushi Goyuutai-ban)',
         ],
         'Metal Gear Solid 3 - Subsistence (Disc 1) (Subsistence)': ['Metal Gear Solid 3 - Subsistence (Disc 1) (Subsistence) (Shokai Seisanban)'],
         'Metal Gear Solid 3 - Subsistence (Disc 2) (Persistence)': ['Metal Gear Solid 3 - Subsistence (Disc 2) (Persistence) (Shokai Seisanban)'],
@@ -4675,6 +5031,7 @@ def ps2_rename_list():
         'Pac-Man World Rally': ['Pac-Man Rally'],
         'Paparazzi': ['Simple 2000 Series Vol. 53 - The Camera Kozou'],
         'Party Girls': ['Simple 2000 Series Vol. 63 - Mogitate Mizugi! Onna Mamire no - The Suiei Taikai'],
+        'Patissier na Nyanko - Hatsukoi wa Ichigo Aji (Shokai Genteiban)': ['Patissier na Nyanko - Hatsukoi wa Ichigo Aji'],
         'PDC World Championship Darts': ['PDC World Championship Darts 2008'],
         'PES 2008 - Pro Evolution Soccer': ['World Soccer Winning Eleven 2008'],
         'PES 2009 - Pro Evolution Soccer': ['World Soccer Winning Eleven 2009'],
@@ -4840,7 +5197,6 @@ def ps2_rename_list():
             'Scooby-Doo! Nacht der 100 Schrecken',
         ],
         'Score International Baja 1000 - The Official Game': ['Score International Baja 1000 - World Championship Off Road Racing'],
-        'Seaman - Kindan no Pet - Gaze Hakase no Jikkentou (Sea-Mic Controller Original Doukonban)': ['Seaman - Kindan no Pet - Gaze Hakase no Jikkentou (Sea-Mic Controller Doukonban)'],
         'Seed, The - Warzone': ['Seed, The'],
         'Sega Bass Fishing Duel': ['Get Bass Battle'],
         'Sega Genesis Collection': ['Sega Mega Drive Collection'],
@@ -4940,6 +5296,7 @@ def ps2_rename_list():
             'Space Channel 5 Part 2',
         ],
         'Space Invaders - Invasion Day': ['Simple 2000 Series Vol. 52 - The Chikyuu Shinryakugun - Space Raiders'],
+        'Spartan - Total Warrior': ['Spartan - Kodai Greece Eiyuuden'],
         'Special Forces': ['Simple 2000 Series Vol. 108 - The Nihon Tokushu Butai - Kyouaku Hanzai Rettou 24-ji'],
         'Spectral Force - Radical Elements (Genteiban)': ['Spectral Force - Radical Elements'],
         'Spectral Force Chronicle (10th Anniversary Box)': ['Spectral Force Chronicle'],
@@ -5033,6 +5390,7 @@ def ps2_rename_list():
             'Tennis no Oujisama - Smash Hit! Original Anime Game (SLPM-62357)',
             'Tennis no Oujisama - Smash Hit! Original Anime Game (SLPM-62358)',
             'Tennis no Oujisama - Smash Hit! Original Anime Game (SLPM-62359)',
+            'Tennis no Oujisama - Smash Hit!',
         ],
         'Tennis no Oujisama - Smash Hit! 2': [
             'Tennis no Oujisama - Smash Hit! 2 (Shokai SP Genteiban)',
