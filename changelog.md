@@ -1,3 +1,12 @@
+# 0.56
+- Messed with the region order a little to be more fair to more popular
+  languages, taking in mind how many titles were actually released for
+  those languages.
+- Bumped Portuguese up the priority list when deciding between two
+  identical titles that support different languages.
+- Moved stuff out of readme.md to make it more readable, and created
+  a GitHub wiki for more detailed information.
+
 # 0.55
 - Code changes to support a build pipeline.
 

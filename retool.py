@@ -60,32 +60,32 @@ def main():
         'Japan',
         'Asia',
         'Scandinavia',
+        'Spain',
         'Argentina',
+        'Latin America',
+        'Brazil',
+        'Portugal',
+        'France',
+        'Germany',
         'Austria',
         'Belgium',
-        'Brazil',
         'China',
         'Croatia',
         'Czech',
         'Denmark',
         'Finland',
-        'France',
-        'Germany',
         'Greece',
         'Hungary',
         'India',
         'Israel',
         'Italy',
         'Korea',
-        'Latin America',
         'Netherlands',
         'Norway',
         'Poland',
-        'Portugal',
         'Russia',
         'Slovakia',
         'South Africa',
-        'Spain',
         'Sweden',
         'Switzerland',
         'Taiwan',
@@ -769,7 +769,7 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
                         if x in regional_titles_data[title]: remove_list.append(x)
                 # Now process the other regions
                 else:
-                    remove_by_language(['En', 'Es', 'Fr', 'Ja', 'Pt', 'De', 'It', 'Sv', 'Da', 'No', 'Pl', 'Gr', 'Nl', 'Fi', 'Ch', 'Hr', 'Ru'], x, y, title, regional_titles_data, remove_list, user_input)
+                    remove_by_language(['En', 'Es', 'Pt', 'Fr', 'Ja', 'De', 'It', 'Sv', 'Da', 'No', 'Pl', 'Gr', 'Nl', 'Fi', 'Ch', 'Hr', 'Ru'], x, y, title, regional_titles_data, remove_list, user_input)
 
         # Dedupe remove_list
         remove_list_temp = []
