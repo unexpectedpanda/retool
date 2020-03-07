@@ -25,11 +25,17 @@ pip install lxml
 ```
 
 ## Usage
-`python retool.py -i <input dat/folder> <options>`
+Retool is a command line tool. If you have Python (preferred) you use it with the following syntax:
+
+```
+python retool.py -i <input dat/folder> <options>
+```
 
 Or for the binary version:
 
-`retool  -i <input dat/folder> <options>`
+```
+retool  -i <input dat/folder> <options>
+```
 
 ### Options
 * `-o` Set an output folder
