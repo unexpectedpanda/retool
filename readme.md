@@ -13,10 +13,8 @@ for Windows or MacOS. Extract and run the executable files directly, no
 installation is required. Only 64-bit executables are supported.
 
 Otherwise, Retool requires a minimum of
-[Python 3.5](https://www.python.org/). Clone this repo and run `retool.py` to
-get started.
-
-You'll need to install two modules before using Retool. To do so, open
+[Python 3.5](https://www.python.org/), and needs two additional modules.
+To install the modules, assuming you already have Python installed, open
 Terminal, Command Prompt, or whatever the CLI is on your system, and type:
 
 ```
