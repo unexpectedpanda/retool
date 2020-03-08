@@ -75,9 +75,10 @@ def ibm_rename_list():
         '18 Wheels of Steel - Convoy': ['18 stal\'nyh koles - Konvoj'],
         '18 Wheels of Steel - Pedal to the Metal': ['18 stal\'nyh koljos - Pyl\' dorog'],
         '3-D Ultra Pinball - The Lost Continent': ['3-D Ultra Pinball - Der vergessene Kontinent'],
+        '3-D Ultra Radio Control Racers': ['Funk-Flitzer'],
         '7th Guest, The (Disc 1) (Windows 95)': ['7th Guest, The (Disc 1)'],
         '7th Guest, The (Disc 2) (Windows 95)': ['7th Guest, The (Disc 2)'],
-        # '911 First Responders (Disc 1)': ['Emergency 4 - Global Fighters for Life (Disc 1)'], 911 First Responders is not yet in Redump
+        # '911 First Responders (Disc 1)': ['Emergency 4 - Global Fighters for Life (Disc 1)'], 911 First Responders isn't in Redump yet
         # '911 First Responders (Disc 2)': ['Emergency 4 - Global Fighters for Life (Disc 2)'],
         'Abomination - Action Strategy Mayhem': ['Abomination - The Nemesis Project'],
         'Ace Ventura': ['Ace Ventura - Detective de mascotas'],
@@ -376,6 +377,10 @@ def ibm_rename_list():
             'CodeWarrior for PlayStation Release 3',
             'CodeWarrior for PlayStation Release 4',
         ],
+        'Codename Eagle': [
+            'Feiying Xingdong (Disc 1) (Anzhuang Yunxingpan)',
+            'Feiying Xingdong (Disc 2) (Zengpin)',
+        ],
         'Codename - Panzers - Phase One (Disc 1)': ['Codename - Panzers - Phase One'],
         'Cold Fear': [
             'Cold Fear (Disc 1) (Install and Play)',
@@ -455,10 +460,12 @@ def ibm_rename_list():
         'Counter-Strike - Condition Zero (Disc 1)': [
             'Counter-Strike - Condition Zero (Disc 1) (Install)',
             'Counter-Strike - Condition Zero (Disc 1) (Installations-CD)',
+            'Fan-Kong Jingying - Ling-Dian Xingdong (Installation Disc)',
         ],
         'Counter-Strike - Condition Zero (Disc 2)': [
             'Counter-Strike - Condition Zero (Disc 2) (Play)',
             'Counter-Strike - Condition Zero (Disc 2) (Spiel-CD)',
+            'Fan-Kong Jingying - Ling-Dian Xingdong (Play Disc)',
         ],
         'Crazy Chicken Approaching': ['Moorhuhn Action - Im Anflug'],
         'Crazy Machines': ['Crazy Machines - Die Erfinderwerkstatt'],
@@ -669,7 +676,7 @@ def ibm_rename_list():
             'Egypt II - Die Prophezeiung von Heliopolis (Disc 2)',
             'Egypte II - La Prophetie d\'Heliopolis (Disc 2)',
         ],
-        # 'Egyptian Prophecy, The (Disc 1)': ['Egypte III - Le Destin de Ramses (Disc 1)'], # Egyptian Prophecy, The, is not yet in Redump
+        # 'Egyptian Prophecy, The (Disc 1)': ['Egypte III - Le Destin de Ramses (Disc 1)'], # Egyptian Prophecy, The, isn't in Redump yet
         # 'Egyptian Prophecy, The (Disc 2)': ['Egypte III - Le Destin de Ramses (Disc 2)'],
         # 'Egyptian Prophecy, The (Disc 3)': ['Egypte III - Le Destin de Ramses (Disc 3)'],
         'Elder Scrolls III, The - Construction Set': ['Elder Scrolls III, The - Morrowind (TES Construction Set)'],
@@ -700,6 +707,14 @@ def ibm_rename_list():
             'Enter the Matrix (Disc 3)',
             'Enter the Matrix (Disc 4) (Play Disc)',
         ],
+        'Escape from Monkey Island (Disc 1)': [
+            'Flucht von Monkey Island (Disc 1)',
+            'Fuga da Monkey Island (Disc 1)',
+        ],
+        'Escape from Monkey Island (Disc 2)': [
+            'Flucht von Monkey Island (Disc 2)',
+            'Fuga da Monkey Island (Disc 2)',
+        ],
         'Etherlords (Disc 1)': [
             'Demiurgi (Disc 1)',
             'Etherlords (Install-CD)',
@@ -713,15 +728,92 @@ def ibm_rename_list():
             'Evil Islands - Curse of the Lost Soul (Disc 1)',
             'Evil Islands - Curse of the Lost Soul (Disc 2)',
         ],
+        'F.E.A.R. - First Encounter Assault Recon': [
+            'F.E.A.R. - First Encounter Assault Recon (Disc 1)',
+            'F.E.A.R. - First Encounter Assault Recon (Disc 2)',
+            'F.E.A.R. - First Encounter Assault Recon (Disc 3)',
+            'F.E.A.R. - First Encounter Assault Recon (Disc 4)',
+            'F.E.A.R. - First Encounter Assault Recon (Disc 5)',
+        ],
+        'F.E.A.R. - First Encounter Assault Recon - Extraction Point': [
+            'F.E.A.R. - First Encounter Assault Recon - Extraction Point (Disc 1)',
+            'F.E.A.R. - First Encounter Assault Recon - Extraction Point (Disc 2)',
+        ],
+        'Faces of War': ['Faces of War - Oblicza Wojny'],
+        'Fahrenheit': [
+            'Indigo Prophecy (Disc 1)',
+            'Indigo Prophecy (Disc 2)',
+            'Indigo Prophecy (Disc 3)',
+        ],
+        'Fallout': ['Fallout (9A6EFB7C)'],
+        'Fallout Trilogy': ['Fallout Collection'],
+        'Far Cry': [
+            'Far Cry (Disc 1)',
+            'Far Cry (Disc 2)',
+            'Far Cry (Disc 3)',
+            'Far Cry (Disc 4)',
+            'Far Cry (Install Disc 2)',
+            'Far Cry (Install Disc 3)',
+            'Far Cry (Install Disc 4)',
+            'Far Cry (Install Disc 5)',
+            'Far Cry (Play & Install Disc 1)',
+        ],
+        # 'Feeble Files, The (Disc 1)': ['Floyd - Es gibt noch Helden (Disc 1)'], # Feeble Files, The isn't in Redump yet
+        # 'Feeble Files, The (Disc 2)': ['Floyd - Es gibt noch Helden (Disc 2)'],
+        # 'Feeble Files, The (Disc 3)': ['Floyd - Es gibt noch Helden (Disc 3)'],
+        # 'Feeble Files, The (Disc 4)': ['Floyd - Es gibt noch Helden (Disc 4)'],
+        'FIFA - Road to World Cup 98': ['FIFA - Die WM-Qualifikation 98'],
+        'FIFA 2001': ['FIFA 2001 - World Championship'],
+        'FIFA Soccer 2004 (Disc 1)': ['FIFA Football 2004 (Disc 1)'],
+        'FIFA Soccer 2004 (Disc 2)': ['FIFA Football 2004 (Disc 2)'],
+        'FIFA Soccer 97': ['FIFA 97'],
+        'Fighter Pilot - Ready Aim Fire': ['Fighter Pilot'],
+        'Fighting Steel - World War II Surface Combat 1939-1942': ['Fighting Steel - Seeschlachten 1939-1942'],
+        'Fin Fin on Teo the Magic Planet': ['FinFin - Dein Freund vom Zauberplaneten Teo'],
+        'Final Fantasy VIII (Install Disc)': [
+            'Final Fantasy VIII (Disc 5)',
+            'Final Fantasy VIII (Disco Installazione)',
+        ],
+        'Football Limited': ['Bundesliga Manager Hattrick'],
+        'Flanker 2.0': ['Flanker 2.0 - Kampfflugsimulator'],
         'Flashback - The Quest for Identity': ['Flashback'],
+        'FlatOut 2': [
+            'FlatOut 2 (Disc 1) (Play)',
+            'FlatOut 2 (Disc 2)',
+            'FlatOut 2 (Disc 3)',
+            'FlatOut 2 (Disc 4)',
+            'FlatOut 2 (Disc 5)',
+        ],
+        'Flight Unlimited III (Disc 1)': ['Flight Unlimited 3 (Disc 1) (Install)'],
         'Football Generation': [
             'Calcio 2003',
             'Football Generation (9C6C6A1A)',
             'Football Generation (C66B89E6)',
         ],
+        'Ford Racing': ['Ford Racing 2001'],
+        'Forgotten Realms - Demon Stone': [
+            'Forgotten Realms - Demon Stone (Disc 1) (Install Disc)',
+            'Forgotten Realms - Demon Stone (Disc 2) (Install Disc)',
+            'Forgotten Realms - Demon Stone (Disc 3) (Install Disc)',
+            'Forgotten Realms - Demon Stone (Disc 4) (Play Disc)',
+        ],
+        'Formula 1 97': ['Formel 1 97'],
+        'Frankenstein - Through the Eyes of the Monster': ['Frankenstein - Mit den Augen des Monsters'],
+        'Freddi Fish 2 - The Case of the Haunted Schoolhouse': ['Freddi Fish 2 - Het Mysterie van de Spoken op School'],
+        'Freddi Fish 3 - The Case of the Stolen Conch Shell': ['Freddi Fish 3 - De Zaak van de Gestolen Trompetschelp'],
+        'Freddi Fish 5 - The Case of the Creature of Coral Cove': ['Freddi Fish 5 - De Zaak Zeemonster'],
+        'Freddi Fish and Luther\'s Maze Madness': ['Freddi Fish en Loebas\' Dolle Doolhof'],
+        'Freddi Fish and the Case of the Missing Kelp Seeds': [
+            'Freddi Fish en het Verhaal van de Verdwenen Zeewierzaadjes',
+            'Freddi Fish en het Verhaal van de Verdwenen Zeewierzaadjes (B5699896)',
+            'Freddi Fish en het Verhaal van de Verdwenen Zeewierzaadjes (B8719043)',
+            'Freddi Fisk och Fallet med De Foersvunna Sjoegraesfroena',
+        ],
+        'Hogs of War - Nati per Soffritto': ['Frontschweine'],
         'In Cold Blood (Disc 1)': ['Cold Blood (Disc 1)'],
         'In Cold Blood (Disc 2)': ['Cold Blood (Disc 2)'],
         'In Cold Blood (Disc 3)': ['Cold Blood (Disc 3)'],
+        'JumpStart 2nd Grade': ['Flygande Start - Andra Klass'],
         'King of the Road': ['Dal\'nobojjshhiki-2'],
         'LEGO Chess': ['Ajedrez LEGO'],
         'Maui Mallard in Cold Shadow': ['Donald in Cold Shadow'],
@@ -733,6 +825,7 @@ def ibm_rename_list():
         'Prisoner of Ice': ['Call of Cthulhu - Prisoner of Ice'],
         'PGA Championship Golf - Collector\'s Edition (Installation CD)': ['DSF Golf \'99 (Disc 1) (Installation)'],
         'PGA Championship Golf - Collector\'s Edition (New Collector\'s Edition Courses)': ['DSF Golf \'99 (Disc 2) (Kurse)'],
+        'Pharaoh': ['Faraon'],
         'Powerslave': ['Exhumed'],
         'Resident Evil': [
             'Biohazard',
@@ -761,6 +854,22 @@ def ibm_rename_list():
         'Resident Evil 6 (Disc 1)': ['Biohazard 6 (Disc 1)'],
         'Resident Evil 6 (Disc 2)': ['Biohazard 6 (Disc 2)'],
         'Ripley\'s Believe It or Not - The Riddle of Master Lu': ['Enigme de Maitre Lu, L\''],
+        'Seven Games of the Soul (Disc 1)': [
+            'Faust (Disc 1)',
+            'Faust - Die sieben Spiele der Seele (Disc 1)',
+        ],
+        'Seven Games of the Soul (Disc 2)': [
+            'Faust (Disc 2)',
+            'Faust - Die sieben Spiele der Seele (Disc 2)',
+        ],
+        'Seven Games of the Soul (Disc 3)': [
+            'Faust (Disc 3)',
+            'Faust - Die sieben Spiele der Seele (Disc 3)',
+        ],
+        'Seven Games of the Soul (Disc 4)': [
+            'Faust (Disc 4)',
+            'Faust - Die sieben Spiele der Seele (Disc 4)',
+        ],
         'Sherlock Holmes - The Secret of the Silver Earring': [
             'Avventure di Sherlock Holmes, Le - L\'Orecchino d\'Argento (Disc 1)',
             'Avventure di Sherlock Holmes, Le - L\'Orecchino d\'Argento (Disc 2)',
@@ -789,6 +898,7 @@ def ibm_rename_list():
         'Ultimate Soccer Manager 98-99 Season Edition': ['DSF Fussball Manager \'98'],
         'Virgin Roster': ['Altar\' strasti'],
         'Worlds of Billy, The': ['Drilling Billy'],
+        'World Cup 98': ['Frankreich 98 - Die Fussball-WM'],
     }
 
 # Microsoft Xbox
