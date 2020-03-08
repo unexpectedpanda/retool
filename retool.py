@@ -113,6 +113,7 @@ def main():
         '\(Disc [A-Z].*?\)',
         '\(Disc 0[0-9]\)',
         '\s?\(Covermount\)',
+        '\s?\(Hit Squad\)',
         '\s?\(Sold Out Extreme\)',
         '\s?\(Sold Out Software\)',
         '\s?\(Xplosiv\)',
@@ -985,6 +986,7 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
                             if test == True: continue
 
                             # Else if one has an updated "budget" title, take that, because it probably contains the latest version of the game
+                            test = parent_compare_bool(bool('(Hit Squad)' in x.full_title), bool('(Hit Squad)' in y.full_title), parent_list, already_tested, x, y, '', user_input)
                             test = parent_compare_bool(bool('(PlayStation the Best)' in x.full_title), bool('(PlayStation the Best)' in y.full_title), parent_list, already_tested, x, y, '', user_input)
                             test = parent_compare_bool(bool('(PlayStation 2 the Best)' in x.full_title), bool('(PlayStation 2 the Best)' in y.full_title), parent_list, already_tested, x, y, '', user_input)
                             test = parent_compare_bool(bool('(PlayStation 3 the Best)' in x.full_title), bool('(PlayStation 3 the Best)' in y.full_title), parent_list, already_tested, x, y, '', user_input)

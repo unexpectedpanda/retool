@@ -1,4 +1,4 @@
-# Last updated: 05 Mar 2020
+# Last updated: 08 Mar 2020
 # An exclusion list for compilations that don't feature unique games.
 # All compilations are listed, but those with unique games are commented out.
 
@@ -46,6 +46,7 @@ def ibm_compilation_list():
         'Black Isle Compilation, The - Part Two (Germany) (Patches & Handbuecher)',
         'Bonus 2-Pack - Sid Meier\'s Civilization III Gold Edition & CivCity - Rome (USA)',
         'Chaos Control & Time Gate - Knight\'s Chase (Germany)',
+        'Dragon\'s Lair & Crusade (Germany)',
     ]
 
 # Microsoft Xbox
