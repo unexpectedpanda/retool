@@ -1,4 +1,4 @@
-# Last updated: 05 Mar 2020
+# Last updated: 08 Mar 2020
 # An exclusion list for when games are the same as another region,
 # just renamed for another region/new title screens.
 
@@ -77,6 +77,8 @@ def ibm_rename_list():
         '3-D Ultra Pinball - The Lost Continent': ['3-D Ultra Pinball - Der vergessene Kontinent'],
         '7th Guest, The (Disc 1) (Windows 95)': ['7th Guest, The (Disc 1)'],
         '7th Guest, The (Disc 2) (Windows 95)': ['7th Guest, The (Disc 2)'],
+        # '911 First Responders (Disc 1)': ['Emergency 4 - Global Fighters for Life (Disc 1)'], 911 First Responders is not yet in Redump
+        # '911 First Responders (Disc 2)': ['Emergency 4 - Global Fighters for Life (Disc 2)'],
         'Abomination - Action Strategy Mayhem': ['Abomination - The Nemesis Project'],
         'Ace Ventura': ['Ace Ventura - Detective de mascotas'],
         'Advanced Dungeons & Dragons - Birthright - The Gorgon\'s Alliance': ['Advanced Dungeons & Dragons - Birthright - Die Dunkle Allianz'],
@@ -465,6 +467,7 @@ def ibm_rename_list():
         'Crime Cities (Disc 1)': ['Crime Cities'],
         'Cue Club': ['CueClub'],
         'Cultures 2 - Die Tore Asgards': ['Cultures 2 - Bramy Asgardu (Gra)'],
+        'CSI - Crime Scene Investigation (USA) (Disc 1)': ['Experts, Les - Une Aventure Palpitante au Coeur du Crime'],
         'Cyberia': ['Cyberia (OS-2 OEM)'],
         'Daedalus Encounter, The (Disc 1)': ['Daedalus Encounter, The - Episode 1 - Nanpasen no Alien (Disc 1)'],
         'Daedalus Encounter, The (Disc 2)': ['Daedalus Encounter, The - Episode 1 - Nanpasen no Alien (Disc 2)'],
@@ -495,6 +498,7 @@ def ibm_rename_list():
         'Deus Ex (Game of the Year Edition)': ['Deus Ex'],
         'Deus Ex - Invisible War': [
             'Deus Ex - Invisible War (Disc 1)',
+            'Deus Ex - Invisible War (Disc 1) (Installation Disc)',
             'Deus Ex - Invisible War (Disc 2)',
             'Deus Ex - Invisible War (Disc 1) (Game Disc)',
             'Deus Ex - Invisible War (Disc 2) (Game Disc)',
@@ -510,12 +514,14 @@ def ibm_rename_list():
         ],
         'Diablo': ['Diablo (70AA7258)'],
         'Diablo II (Install Disc)': [
+            'Diablo II (Disc 1)',
             'Diablo II (Disc 1) (Disco di installazione)',
             'Diablo II (Disc 1) (Dysk Instalacyjny)',
             'Diablo II (Disc 1) (Install Disc)',
             'Diablo II (Disc 1) (Installations-CD)',
         ],
         'Diablo II (Play Disc)': [
+            'Diablo II (Disc 2)',
             'Diablo II (Disc 2) (Disco di gioco)',
             'Diablo II (Disc 2) (Game-CD)',
             'Diablo II (Disc 2) (Gra)',
@@ -523,6 +529,7 @@ def ibm_rename_list():
             'Diablo II (Disc 2) (Spiel-CD)',
         ],
         'Diablo II (Cinematics Disc)': [
+            'Diablo II (Disc 3)',
             'Diablo II (Disc 3) (Cinematics Disc)',
             'Diablo II (Disc 3) (Disco delle cinematiche)',
             'Diablo II (Disc 3) (Filmy)',
@@ -531,6 +538,7 @@ def ibm_rename_list():
         'Die by the Sword - Limb from Limb': ['Die by the Sword - Das Schwert des Schicksals'],
         'Dino Crisis': ['Dino Crisis - Nashestvie tvarej'],
         'Dino Crisis 2': ['Dino Crisis 2 - Zakat chelovechestva'],
+        'Dino Island Deluxe': ['Dino Island'],
         'Disciples II - Dark Prophecy (Disc 1)': ['Disciples II - Kanun Ragnareka (Disc 1)'],
         'Disciples II - Dark Prophecy (Disc 2)': ['Disciples II - Kanun Ragnareka (Disc 2)'],
         'Discworld II - Missing Presumed...! (Disc 1)': [
@@ -593,7 +601,104 @@ def ibm_rename_list():
         ],
         'Divine Divinity (Disc 3)': [
             'Divine Divinity (Spiel-CD)',
-            'Divine Divinity - Create Your Own Destiny! (Italy) (Disc 3) (Play CD)',
+            'Divine Divinity - Create Your Own Destiny! (Disc 3) (Play CD)',
+        ],
+        'Doom - Collector\'s Edition (Disc 1) (The Ultimate Doom Trilogy)': [
+            'Doom - Collector\'s Edition', # This is not Doom (2016)
+        ],
+        'Doom II': [
+            'Doom II (Gravis OEM)',
+        ],
+        'Doom 3': [ # German title, but English is available
+            'Doom 3 (Disc 1)',
+            'Doom 3 (Disc 2)',
+            'Doom 3 (Disc 3)',
+        ],
+        'Dreamfall - The Longest Journey (Disc 1)': ['Dreamfall - The Longest Journey'], # The clone is from France, unsure if it feature English or not
+        'Dracula - Resurrection (Disc 1)': ['Dracula - La Risurrezione (Disc 1)'],
+        'Dracula - Resurrection (Disc 2)': ['Dracula - La Risurrezione (Disc 2)'],
+        'Dracula 2 - Le Dernier Sanctuaire (Disc 1)': ['Dracula 2 - L\'Ultimo Santuario (Disc 1)'], # Dracula - The Last Sanctuary is not in Redump yet, otherwise it would be the parent
+        'Dracula 2 - Le Dernier Sanctuaire (Disc 2)': ['Dracula 2 - L\'Ultimo Santuario (Disc 2)'], # Dracula - The Last Sanctuary is not in Redump yet, otherwise it would be the parent
+        'Dragon Lore - The Legend Begins (Disc 1)': ['Dragon Lore - Die Legende beginnt (Disc 1)'],
+        'Dragon Lore - The Legend Begins (Disc 2)': ['Dragon Lore - Die Legende beginnt (Disc 2)'],
+        'Dragon Lore II - The Heart of the Dragon Man (Disc 1)': ['Dragon Lore II - Il Cuore del Dragone (Disc 1)'],
+        'Dragon Lore II - The Heart of the Dragon Man (Disc 2)': ['Dragon Lore II - Il Cuore del Dragone (Disc 2)'],
+        'Dragon Lore II - The Heart of the Dragon Man (Disc 3)': ['Dragon Lore II - Il Cuore del Dragone (Disc 3)'],
+        'Driv3r': [
+            'Driv3r (Disc 1)',
+            'Driv3r (Disc 2)',
+            'Driv3r (Disc 3)',
+            'Driv3r (Disc 4)',
+            'Driv3r (Disc 5)',
+            'Driv3r (Install Disc 1)',
+            'Driv3r (Install Disc 2)',
+            'Driv3r (Install Disc 3)',
+            'Driv3r (Install Disc 4)',
+            'Driv3r (Play Disc)',
+        ],
+        'Driver - You Are the Wheelman': ['Driver'],
+        'Druid - Daemons of the Mind': [
+            'Druid - Yami e no Tsuisekisha',
+            'Druidenzirkel, Der - Im Netz der Traeume',
+        ],
+        'Duke Nukem 3D (Disc 1)': ['Duke Nukem 3D'],
+        'Dune II - The Building of a Dynasty': ['Dune II - Battle for Arrakis'],
+        'Dungeon Keeper - The Deeper Dungeons Mission Disk': ['Dungeon Keeper - The Deeper Dungeons'],
+        'Dungeon Keeper - Gold Edition': ['Dungeon Keeper Gold'],
+        'Dungeon Keeper 2': [
+            'Dungeon Keeper 2 (Disc 1)',
+            'Dungeon Keeper 2 (Disc 2)',
+        ],
+        'Dungeon Lords (Disc 1)': ['Dungeon Lords'], # The DVD is from Germany, but no indication of whether or not it has English available, so it becomes a clone of the CD
+        'Dungeon Siege - Legends of Aranna (Disc 1)': ['Dungeon Siege - Legends of Aranna (Disc 1) (Installations-CD)'],
+        'Earth 2150 - Escape from the Blue Planet (Disc 1) (Installation)': [
+            'Earth 2150 - Escape from the Blue Planet (Disc 1) (Installations-CD)',
+            'Earth 2150 - Escape from the Blue Planet (Covermount)',
+        ],
+        'Earth 2150 - Escape from the Blue Planet (Disc 2)': ['Earth 2150 - Escape from the Blue Planet (Disc 2) (Play-CD)'],
+        'Earth 2160': [
+            'Earth 2160 (Disc 1)',
+            'Earth 2160 (Disc 2)',
+        ],
+        'Egypt 1156 B.C. - Tomb of the Pharaoh': ['Egypte 1156 AV. J.-C. - L\'Enigme de la Tombe Royale'],
+        'Egypt II - The Heliopolis Prophecy (Disc 1)': [
+            'Egypt II - Die Prophezeiung von Heliopolis (Disc 1)',
+            'Egypte II - La Prophetie d\'Heliopolis (Disc 2)',
+        ],
+        'Egypt II - The Heliopolis Prophecy (Disc 2)': [
+            'Egypt II - Die Prophezeiung von Heliopolis (Disc 2)',
+            'Egypte II - La Prophetie d\'Heliopolis (Disc 2)',
+        ],
+        # 'Egyptian Prophecy, The (Disc 1)': ['Egypte III - Le Destin de Ramses (Disc 1)'], # Egyptian Prophecy, The, is not yet in Redump
+        # 'Egyptian Prophecy, The (Disc 2)': ['Egypte III - Le Destin de Ramses (Disc 2)'],
+        # 'Egyptian Prophecy, The (Disc 3)': ['Egypte III - Le Destin de Ramses (Disc 3)'],
+        'Elder Scrolls III, The - Construction Set': ['Elder Scrolls III, The - Morrowind (TES Construction Set)'],
+        'Elder Scrolls IV, The - Oblivion': [
+            'Elder Scrolls IV, The - Oblivion (Premium Disc)',
+            'Elder Scrolls IV, The - Oblivion (Patch PL)',
+        ],
+        'Emperor - Battle for Dune (Disc 1) (Install Disc)': ['Emperor - Schlacht um Dune (Disc 1) (Installations-CD)'],
+        'Emperor - Battle for Dune (Disc 2) (Atreides Disc)': ['Emperor - Schlacht um Dune (Disc 2) (Atreides-CD)'],
+        'Emperor - Battle for Dune (Disc 3) (Harkonnen Disc)': ['Emperor - Schlacht um Dune (Disc 3) (Harkonnen-CD)'],
+        'Emperor - Battle for Dune (Disc 4) (Ordos Disc)': ['Emperor - Schlacht um Dune (Disc 4) (Ordos-CD)'],
+        'Emperor - Rise of the Middle Kingdom': ['Erste Kaiser, Der - Aufstieg des Reichs der Mitte'],
+        'Empire Earth - The Art of Conquest Expansion': ['Empire Earth - Zeitalter der Eroberungen'],
+        'Enclave': [ # The disc is German, but support English
+            'Enclave (Disc 1)',
+            'Enclave (Disc 1) (Play Disc)',
+            'Enclave (Disc 2)',
+            'Enclave (Disc 3)',
+        ],
+        'Enemy Territory - Quake Wars (Bonus Disc)': ['Enemy Territory - Quake Wars (Plyta Dodatkowa)'],
+        'Enemy Zero (Disc 0)': ['Enemy Zero (Disc 0) (Opening Disc)'],
+        'Enemy Zero (Disc 1)': ['Enemy Zero (Disc 1) (Game Disc)'],
+        'Enemy Zero (Disc 2)': ['Enemy Zero (Disc 2) (Game Disc)'],
+        'Enemy Zero (Disc 3)': ['Enemy Zero (Disc 3) (Game Disc)'],
+        'Enter the Matrix (DVD-ROM Edition)': [
+            'Enter the Matrix (Disc 1)',
+            'Enter the Matrix (Disc 2)',
+            'Enter the Matrix (Disc 3)',
+            'Enter the Matrix (Disc 4) (Play Disc)',
         ],
         'Etherlords (Disc 1)': [
             'Demiurgi (Disc 1)',
@@ -602,6 +707,11 @@ def ibm_rename_list():
         'Etherlords (Disc 2)': [
             'Demiurgi (Disc 2)',
             'Etherlords (Play-CD)',
+        ],
+        'Ever 17 - The Out of Infinity (Disc 1)': ['Ever 17 - The Out of Infinity'],
+        'Evil Islands - Curse of the Lost Soul': [
+            'Evil Islands - Curse of the Lost Soul (Disc 1)',
+            'Evil Islands - Curse of the Lost Soul (Disc 2)',
         ],
         'Flashback - The Quest for Identity': ['Flashback'],
         'Football Generation': [
@@ -614,12 +724,16 @@ def ibm_rename_list():
         'In Cold Blood (Disc 3)': ['Cold Blood (Disc 3)'],
         'King of the Road': ['Dal\'nobojjshhiki-2'],
         'LEGO Chess': ['Ajedrez LEGO'],
+        'Maui Mallard in Cold Shadow': ['Donald in Cold Shadow'],
         'Midnight Nowhere (Disc 1)': ['Chernyj Oazis (Disc 1)'],
         'Midnight Nowhere (Disc 2)': ['Chernyj Oazis (Disc 2)'],
+        'Mission - Humanity': ['Exterminacja'],
+        # 'People\'s General': ['Dynasty General'], # People's General isn't in Redump yet
         'Player Manager Ninety Nine': ['Player Manager - Epoca 98-99'], # The English version, Player Manager 98/99, isn't in Redump yet
         'Prisoner of Ice': ['Call of Cthulhu - Prisoner of Ice'],
         'PGA Championship Golf - Collector\'s Edition (Installation CD)': ['DSF Golf \'99 (Disc 1) (Installation)'],
         'PGA Championship Golf - Collector\'s Edition (New Collector\'s Edition Courses)': ['DSF Golf \'99 (Disc 2) (Kurse)'],
+        'Powerslave': ['Exhumed'],
         'Resident Evil': [
             'Biohazard',
             'Biohazard (PowerVR OEM)',
@@ -646,6 +760,7 @@ def ibm_rename_list():
         ],
         'Resident Evil 6 (Disc 1)': ['Biohazard 6 (Disc 1)'],
         'Resident Evil 6 (Disc 2)': ['Biohazard 6 (Disc 2)'],
+        'Ripley\'s Believe It or Not - The Riddle of Master Lu': ['Enigme de Maitre Lu, L\''],
         'Sherlock Holmes - The Secret of the Silver Earring': [
             'Avventure di Sherlock Holmes, Le - L\'Orecchino d\'Argento (Disc 1)',
             'Avventure di Sherlock Holmes, Le - L\'Orecchino d\'Argento (Disc 2)',
@@ -656,6 +771,7 @@ def ibm_rename_list():
             'Agent Fuchs in Das Milchkartell',
             'Spy Fox - Operation Milkshake',
         ],
+        'Terminator 3 - War of the Machines': ['Exterminador do Futuro 3, O - A Guerra das Maquinas'],
         'Thing, The': ['Cosa, La'],
         'Thief - The Dark Project': [
             'Dark Project - Der Meisterdieb',
@@ -672,6 +788,7 @@ def ibm_rename_list():
         'Traitors Gate (Disc 4)': ['Colpo grosso a London Tower (Disc 4)'],
         'Ultimate Soccer Manager 98-99 Season Edition': ['DSF Fussball Manager \'98'],
         'Virgin Roster': ['Altar\' strasti'],
+        'Worlds of Billy, The': ['Drilling Billy'],
     }
 
 # Microsoft Xbox
@@ -1567,7 +1684,7 @@ def dreamcast_rename_list():
             'Cool Boarders Burrrn!', # (クールボーダーズ・バーン)
             'Snow Surfers',
         ],
-        'Seaman': ['Seaman - Kindan no Pet - Gaze Hakase no Jikken-tou'], # (シーマン　～禁断のペット～　ガゼー博士の実験島)
+        'Seaman': ['Kindan no Pet - Seaman - Gaze Hakase no Jikken-tou'], # (シーマン　～禁断のペット～　ガゼー博士の実験島)
         'Sega Bass Fishing': ['Get Bass'], # (ゲットバス)
         'Sega Bass Fishing 2': ['Get Bass 2'], # (ゲットバス２)
         'Sega GT': ['Sega GT - Homologation Special'], # (セガGT ホモロゲーションスペシャル)

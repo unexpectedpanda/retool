@@ -13,9 +13,10 @@ for Windows or MacOS. Extract and run the executable files directly, no
 installation is required. Only 64-bit executables are supported.
 
 Otherwise, Retool requires a minimum of
-[Python 3.5](https://www.python.org/), and needs two additional modules.
-To install the modules, assuming you already have Python installed, open
-Terminal, Command Prompt, or whatever the CLI is on your system, and type:
+[Python 3.5](https://www.python.org/), and needs two additional modules. First,
+clone this repo to get the latest version of Retool. Then, to install the
+modules, assuming you already have Python installed, open Terminal, Command
+Prompt, or whatever the CLI is on your system, and type:
 
 ```
 pip install bs4
@@ -47,7 +48,7 @@ retool  -i <input dat/folder> <options>
   of regular editions
 
 You can learn more about Retool's options and how it works on the
-[wiki](https://github.com/unexpectedpanda/retool/wiki/Usage-and-options).
+[wiki](https://github.com/unexpectedpanda/retool/wiki/).
 
 <hr>
 

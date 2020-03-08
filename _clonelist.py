@@ -1,24 +1,9 @@
 import os
 
-if os.path.exists('_test.py'):
-    import _test as _renames
-else:
-    import _renames # Dupes that have different names in different regions
-
-if os.path.exists('_testcomps.py'):
-    import _testcomps as _compilations
-else:
-    import _compilations # Compilations that don't have unique titles
-
-if os.path.exists('_testsupers.py'):
-    import _testsupers as _supersets
-else:
-    import _supersets
-
-if os.path.exists('_testoverrides.py'):
-    import _testoverrides as _overrides
-else:
-    import _overrides
+import _renames # Dupes that have different names in different regions
+import _compilations # Compilations that don't have unique titles
+import _supersets # Things like Game of the Year Editions, collections
+import _overrides # When all else fails, manual overrides
 
 # Establish a class for clone lists
 class CloneLists:

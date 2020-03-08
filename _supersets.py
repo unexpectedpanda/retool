@@ -1,4 +1,4 @@
-# Last updated: 05 Mar 2020
+# Last updated: 08 Mar 2020
 # An list of superset games, for example, Game of the Year editions, Special
 # editions, and so on.
 
@@ -271,6 +271,84 @@ def ibm_superset_list():
             'Disciples II - Dark Prophecy (Disc 2)',
             'Disciples II - Kanun Ragnareka (Disc 1)',
             'Disciples II - Kanun Ragnareka (Disc 2)',
+        ],
+        # Doom 3 BFG Edition changed enough that it's really its own game
+        'Dragon Age - Origins (Disc 1) (Ultimate Edition)': [
+            'Dragon Age - Origins',
+            'Dragon Age - Origins - Awakening',
+        ],
+        'Dreamfall - The Longest Journey (Game of the Year Edition)': [
+            'Dreamfall - The Longest Journey',
+            'Dreamfall - The Longest Journey (Disc 1)',
+            'Dreamfall - The Longest Journey (Disc 2)',
+            'Dreamfall - The Longest Journey (Disc 3)',
+            'Dreamfall - The Longest Journey (Disc 4)',
+            'Dreamfall - The Longest Journey (Disc 5)',
+            'Dreamfall - The Longest Journey (Disc 6)',
+        ],
+        'Drop! Anniversary Edition': ['Drop!'],
+        'Duke Nukem 3D - Kill-A-Ton Collection (Disc 1)': [
+            'Duke!Zone II',
+            'Duke Nukem 3D',
+            'Duke Nukem 3D (Disc 1)', # Disc 2 features "Duke Caribbean - Life's a Beach", which is not in this collection
+            'Duke Nukem 3D - Plutonium Pak'
+            'Duke Nukem 3D - Atomic Edition',
+            'Duke Nukem 3D - Atomic Edition (Special Edition)',
+            'Duke Nukem II',
+            'Duke Xtreme',
+        ],
+        'Dungeon Keeper - Gold Edition': [
+            'Dungeon Keeper',
+            'Dungeon Keeper - The Deeper Dungeons',
+            'Dungeon Keeper - The Deeper Dungeons Mission Disk',
+            'Dungeon Keeper Gold',
+        ],
+        'Dungeon Lords (USA) (Disc 1) (Collector\'s Edition)': [
+            'Dungeon Lords (Disc 1)',
+            'Dungeon Lords',
+        ],
+        'Dungeon Lords (USA) (Disc 2) (Collector\'s Edition)': [
+            'Dungeon Lords (Disc 2)',
+        ],
+        'Dungeon Lords (USA) (Disc 3) (Collector\'s Edition)': [
+            'Dungeon Lords (Disc 3)',
+        ],
+        'Earthworm Jim - Special Edition': ['Earthworm Jim'],
+        'Elder Scrolls III, The - Morrowind - Game of the Year Edition': [
+            'Elder Scrolls III, The - Bloodmoon',
+            'Elder Scrolls III, The - Construction Set',
+            'Elder Scrolls III, The - Morrowind (TES Construction Set)',
+            'Elder Scrolls III, The - Morrowind',
+            'Elder Scrolls III, The - Tribunal',
+        ],
+        'Elder Scrolls IV, The - Oblivion - 5th Anniversary Edition (Disc 1)': [
+            'Elder Scrolls IV, The - Knights of the Nine',
+            'Elder Scrolls IV, The - Oblivion (Premium Disc)',
+            'Elder Scrolls IV, The - Oblivion (Patch PL)',
+            'Elder Scrolls IV, The - Oblivion',
+            'Elder Scrolls IV, The - Oblivion - Game of the Year Edition (Disc 1)',
+            'Elder Scrolls IV, The - Oblivion - Game of the Year Edition (Disc 2) (Shivering Isles-Knights of the Nine)',
+            'Elder Scrolls IV, The - Shivering Isles',
+        ],
+        'Elder Scrolls V, The - Skyrim - Legendary Edition': ['Elder Scrolls V, The - Skyrim'],
+        'Emergency 4 - Global Fighters for Life - Gold Edition': [
+            'Emergency 4 - Global Fighters for Life (Disc 1)',
+            'Emergency 4 - Global Fighters for Life (Disc 2)',
+        ],
+        'EverQuest - Gold Edition (Disc 1) (EverQuest Classic)': [
+            'EverQuest Trilogy (Disc 1)',
+            'EverQuest Trilogy (Disc 1) (Special Edition)',
+            'EverQuest Trilogy (Disc 2)',
+            'EverQuest Trilogy (Disc 2) (Special Edition)',
+        ],
+        'EverQuest - Gold Edition (Disc 4) (EverQuest - Shadows of Luclin)': [
+            'EverQuest - Shadows of Luclin (Disc 1)',
+            'EverQuest - Shadows of Luclin (Disc 2)',
+            'EverQuest - Shadows of Luclin (Disc 3)',
+        ],
+        'EverQuest - Gold Edition (Disc 5) (EverQuest - Planes of Power)': [
+            'EverQuest - Planes of Power (Disc 1)',
+            'EverQuest - Planes of Power (Disc 2)',
         ],
         'One Unit Whole Blood': [
             'Blood (Disc 1)',

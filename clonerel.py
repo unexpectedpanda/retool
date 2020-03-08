@@ -167,7 +167,6 @@ def main():
             file_path = os.path.join(path_name, os.path.basename(input_file_name)[:-3] + 'xlsx')
             print('* Outputting to "' + file_path + font.end + '...')
             wb.save(file_path)
-            # wb.save(input_file_name + '.xlsx')
             print('\nDone!')
 
 ############### Classes and methods ###############
