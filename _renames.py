@@ -82,6 +82,7 @@ def ibm_rename_list():
         # '911 First Responders (Disc 2)': ['Emergency 4 - Global Fighters for Life (Disc 2)'],
         'Abomination - Action Strategy Mayhem': ['Abomination - The Nemesis Project'],
         'Ace Ventura': ['Ace Ventura - Detective de mascotas'],
+        'Activision\'s Atari 2600 Action Pack for Windows 95': ['Activision\'s Atari 2600 Action Pack'],
         'Advanced Dungeons & Dragons - Birthright - The Gorgon\'s Alliance': ['Advanced Dungeons & Dragons - Birthright - Die Dunkle Allianz'],
         'Adventures with Barbie - Ocean Discovery': ['Aventures de Barbie, Les - Chasse au Tresor Sous-Marine CD-ROM'],
         'Agatha Christie - Evil Under the Sun': [
@@ -115,6 +116,10 @@ def ibm_rename_list():
         'Al-Qadim - The Genie\'s Curse': ['Al-Qadim - Der Fluch des Dschinn'],
         'Aliens Versus Predator (Disc 1)': ['Aliens Versus Predator'],
         'Allied General': ['Panzer General II'],
+        'Alien Shooter - Vengeance': [
+            'Alien Shooter - Vengeance (Disc 1)',
+            'Alien Shooter - Vengeance (Disc 2)',
+        ],
         'Alone in the Dark': [
             'Alone in the Dark (Pay as You Play Version) (CD-ROM User)',
             'Alone in the Dark (Pay as You Play Version) (PC Power)',
@@ -203,7 +208,7 @@ def ibm_rename_list():
         'Bananas in Pajamas - It\'s Fun Time': ['Bananer i Pyjamas - It\'s Fun Time'],
         'Batman - Justice Unbalanced': ['Batman - Sprawiedliwosc Ponad Wszystko'],
         # 'Batman Forever': ['Batman Forever - The Arcade Game'], # Not sure if this is a clone or not
-        'Battle Isle - Der Andosia Konflikt': ['Battle Isle - The Andosia War'],
+        'Battle Isle - Der Andosia Konflikt': ['Battle Isle - The Andosia War'], # Eventually might have to switch this if one of these titles is in English
         'Battlefield 1942 (Disc 1) (Game of the Year Edition)': ['Battlefield 1942 (Disc 1)'],
         'Battlefield 1942 (Disc 2) (Game of the Year Edition)': ['Battlefield 1942 (Disc 2)'],
         'Battlefield 2': [
@@ -260,6 +265,7 @@ def ibm_rename_list():
             'Beyond Good & Evil (Disc 2)',
             'Beyond Good & Evil (Disc 3)',
         ],
+        'Big Brother - The Game': ['Grande Fratello - Il Gioco'],
         'Bionicle - Prepare for the Light': [
             'Bionicle - Prepare for the Light (427F0B0F)',
             'Bionicle - Prepare for the Light (A2FA9D2E)',
@@ -371,6 +377,10 @@ def ibm_rename_list():
         'Close Combat - A Bridge Too Far': ['Close Combat - Die Bruecke von Arnheim'],
         'Close Combat IV - Battle of the Bulge': ['Close Combat IV - Die Schlacht in den Ardennen'],
         'Clou! 2, Der - Die Einbruchsimulation': ['Clou! 2, Der'],
+        'Cluedo - Murder at Blackwell Grange': ['Cluedo - Mysterioese Morde im Herrenhaus'],
+        'Cluedo Chronicles - Fatal Illusion (Disc 1)': ['Cluedo Adventures - Toedliche Taeuschung (Disc 1)'],
+        'Cluedo Chronicles - Fatal Illusion (Disc 2)': ['Cluedo Adventures - Toedliche Taeuschung (Disc 2)'],
+        'Cluedo Chronicles - Fatal Illusion (Disc 3)': ['Cluedo Adventures - Toedliche Taeuschung (Disc 3)'],
         'ClueFinders, The - 6th Grade Adventures - The Empire of the Planet People': ['ClueFinders, The - 6th Grade Adventures'],
         'CodeWarrior for PlayStation Release 5': [
             'CodeWarrior for Net Yaroze Release 2',
@@ -474,7 +484,7 @@ def ibm_rename_list():
         'Crime Cities (Disc 1)': ['Crime Cities'],
         'Cue Club': ['CueClub'],
         'Cultures 2 - Die Tore Asgards': ['Cultures 2 - Bramy Asgardu (Gra)'],
-        'CSI - Crime Scene Investigation (USA) (Disc 1)': ['Experts, Les - Une Aventure Palpitante au Coeur du Crime'],
+        'CSI - Crime Scene Investigation (Disc 1)': ['Experts, Les - Une Aventure Palpitante au Coeur du Crime'],
         'Cyberia': ['Cyberia (OS-2 OEM)'],
         'Daedalus Encounter, The (Disc 1)': ['Daedalus Encounter, The - Episode 1 - Nanpasen no Alien (Disc 1)'],
         'Daedalus Encounter, The (Disc 2)': ['Daedalus Encounter, The - Episode 1 - Nanpasen no Alien (Disc 2)'],
@@ -660,14 +670,17 @@ def ibm_rename_list():
         'Dungeon Siege - Legends of Aranna (Disc 1)': ['Dungeon Siege - Legends of Aranna (Disc 1) (Installations-CD)'],
         'Earth 2150 - Escape from the Blue Planet (Disc 1) (Installation)': [
             'Earth 2150 - Escape from the Blue Planet (Disc 1) (Installations-CD)',
-            'Earth 2150 - Escape from the Blue Planet (Covermount)',
+            'Earth 2150 - Escape from the Blue Planet',
         ],
         'Earth 2150 - Escape from the Blue Planet (Disc 2)': ['Earth 2150 - Escape from the Blue Planet (Disc 2) (Play-CD)'],
         'Earth 2160': [
             'Earth 2160 (Disc 1)',
             'Earth 2160 (Disc 2)',
         ],
-        'Egypt 1156 B.C. - Tomb of the Pharaoh': ['Egypte 1156 AV. J.-C. - L\'Enigme de la Tombe Royale'],
+        'Egypt 1156 B.C. - Tomb of the Pharaoh': [
+            'Grab des Pharao, Das',
+            'Egypte 1156 AV. J.-C. - L\'Enigme de la Tombe Royale'
+        ],
         'Egypt II - The Heliopolis Prophecy (Disc 1)': [
             'Egypt II - Die Prophezeiung von Heliopolis (Disc 1)',
             'Egypte II - La Prophetie d\'Heliopolis (Disc 2)',
@@ -774,6 +787,7 @@ def ibm_rename_list():
             'Final Fantasy VIII (Disc 5)',
             'Final Fantasy VIII (Disco Installazione)',
         ],
+        'Firestorm - Thunderhawk 2': ['Thunderhawk 2 - Firestorm'],
         'Football Limited': ['Bundesliga Manager Hattrick'],
         'Flanker 2.0': ['Flanker 2.0 - Kampfflugsimulator'],
         'Flashback - The Quest for Identity': ['Flashback'],
@@ -809,6 +823,103 @@ def ibm_rename_list():
             'Freddi Fish en het Verhaal van de Verdwenen Zeewierzaadjes (B8719043)',
             'Freddi Fisk och Fallet med De Foersvunna Sjoegraesfroena',
         ],
+        'Gabriel Knight - Sins of the Fathers': ['Gabriel Knight - Die Suenden der Vaeter'],
+        'Gabriel Knight 3 - Blood of the Sacred, Blood of the Damned (Disc 1)': [
+            'Gabriel Knight 3 - Blut der Heiligen, Blut der Verdammten (Disc 1)',
+            'Gabriel Knight 3 - Enigme en Pays Cathare (Disc 1)',
+            'Gabriel Knight 3 - Il mistero di Rennes-le-Chateau - Il mistero macchiato di sangue (Disc 1)',
+        ],
+        'Gabriel Knight 3 - Blood of the Sacred, Blood of the Damned (Disc 2)': [
+            'Gabriel Knight 3 - Blut der Heiligen, Blut der Verdammten (Disc 2)',
+            'Gabriel Knight 3 - Enigme en Pays Cathare (Disc 2)',
+            'Gabriel Knight 3 - Il mistero di Rennes-le-Chateau - Il mistero macchiato di sangue (Disc 2)',
+        ],
+        'Gabriel Knight 3 - Blood of the Sacred, Blood of the Damned (Disc 3)': [
+            'Gabriel Knight 3 - Blut der Heiligen, Blut der Verdammten (Disc 3)',
+            'Gabriel Knight 3 - Enigme en Pays Cathare (Disc 3)',
+            'Gabriel Knight 3 - Il mistero di Rennes-le-Chateau - Il mistero macchiato di sangue (Disc 3)',
+        ],
+        'Galapagos - Mendel\'s Escape': ['Galapagos'],
+        'Gangsters - Organized Crime': [
+            'Gangsters - Crimine Organizzato',
+            'Gangsters - Organisiertes Verbrechen',
+        ],
+        'Gifty - Ein Geschenk des Himmels': ['Gift'], # This will need to be reversed when there's an English version in Redump
+        'Godfather, The - The Game': ['Godfather, The'],
+        'Gorasul - The Legacy of the Dragon (Disc 1)': ['Gorasul - Das Vermaechtnis des Drachen (Disc 1)'],
+        'Gorasul - The Legacy of the Dragon (Disc 2)': ['Gorasul - Das Vermaechtnis des Drachen (Disc 2)'],
+        'Gorasul - The Legacy of the Dragon (Disc 3)': ['Gorasul - Das Vermaechtnis des Drachen (Disc 3)'],
+        'Gorasul - The Legacy of the Dragon (Disc 4)': ['Gorasul - Das Vermaechtnis des Drachen (Disc 4)'],
+        'Gothic (Disc 1)': ['Gotika (Disc 1)'],
+        'Gothic (Disc 2)': ['Gotika (Disc 2)'],
+        'Gothic 3 (Game of the Year Edition)': ['Gothic 3'],
+        'Gothic 3 - Forsaken Gods': ['Gothic 3 - Goetterdaemmerung'],
+        'Gothic II (Disc 1) (Play Disc)': [ # Currently the German version is the parent. This will have to change when the English version is in Redump
+            'Gothic II',
+            'Gothic II (Disc 1)',
+            'Gothic II (Spiel CD)',
+        ],
+        'Gothic II (Disc 2)': ['Gothic II (Installations CD 1)'],
+        'Gothic II (Disc 3)': ['Gothic II (Installations CD 2)'],
+        'Gothic Universe (Disc 1)': ['Gothic Universe (Gothic I & Online Handbuecher)'],
+        'Gothic Universe (Disc 2)': ['Gothic Universe (Gothic II Gold)'],
+        'Gothic Universe (Disc 3)': ['Gothic Universe (Gothic III)'],
+        'Grand Theft Auto (The Classics Collection)': ['Grand Theft Auto'],
+        'Grand Theft Auto - Mission Pack 1 - London 1969 (The Classics Collection)': ['Grand Theft Auto - Mission Pack 1 - London 1969'],
+        'Grand Theft Auto - San Andreas (49F539A0)': ['Grand Theft Auto - San Andreas'],
+        'Grand Theft Auto - Vice City (Install)': ['Grand Theft Auto - Vice City'],
+        'Grand Theft Auto 2 (The Classics Collection)': ['Grand Theft Auto 2'],
+        'Grandia II (Install Disc)': [
+            'Grandia II (Disc 1) (Dysk Instalacyjny)',
+            'Grandia II (Disc 1) (Install Disc)',
+        ],
+        'Grandia II (Play Disc)': [
+            'Grandia II (Disc 2)',
+            'Grandia II (Disc 2) (Play Disc)',
+            'Grandia II (Disc 2) (Gra)',
+        ],
+        'Great Battles of Alexander, The': ['Alexander der Grosse - Die grossen Schlachten der Antike'],
+        'Gruntz': ['Gruntz - Das verrueckte Braingame!'],
+        'GT Legends': [
+            'GT Legends (Disc 1)',
+            'GT Legends (Disc 2)',
+            'GT Legends (Disc 3)',
+        ],
+        'Guild Wars (Disc 1)': ['Guild Wars'], # Might have to be reversed if the Swedish version includes English (which is likely)
+        'Guild Wars - Nightfall (Disc 1)': ['Guild Wars - Nightfall'],
+        'Guild Wars (Game of the Year Edition)': [
+            'Guild Wars (Disc 1)',
+            'Guild Wars (Disc 2)',
+        ],
+        'Gun': [
+            'Gun (Disc 1)',
+            'Gun (Disc 2)',
+            'Gun (Disc 3)',
+        ],
+        'Half-Life 1 Anthology': ['Half-Life 1 Antologia'],
+        'Half-Life 2': [
+            'Half-Life 2 (Disc 1)'
+            'Half-Life 2 (Disc 2)'
+            'Half-Life 2 (Disc 3)'
+            'Half-Life 2 (Disc 4)'
+            'Half-Life 2 (Disc 5)'
+            'Half-Life 2 (Disc 6)',
+        ],
+        'Half-Life 2 (Game of the Year Edition)': [
+            'Half-Life 2 (Edizione Gioco dell\'Anno)',
+            'Half-Life 2 (Disc 1) (Game of the Year Edition)',
+            'Half-Life 2 (Disc 2) (Game of the Year Edition)',
+            'Half-Life 2 (Disc 3) (Game of the Year Edition)',
+            'Half-Life 2 (Disc 4) (Game of the Year Edition)',
+            'Half-Life 2 (Disc 5) (Game of the Year Edition)',
+        ],
+        'Hegemonia - Legions of Iron': ['Haegemonia - Legions of Iron'],
+        'Heroes of Might and Magic III - The Restoration of Erathia': [
+            'Heroes of Might and Magic III',
+            'Heroes of Might and Magic III (Linux)',
+            'Geroi mecha i magii III - Vozrozhdenie Jerafii'
+        ],
+        # 'Heroes of Might and Magic III - The Shadow of Death': ['Geroi mecha i magii III - Dyhanie smerti'], # Heroes of Might and Magic III - The Shadow of Death isn't in Redump Yet
         'Hogs of War - Nati per Soffritto': ['Frontschweine'],
         'In Cold Blood (Disc 1)': ['Cold Blood (Disc 1)'],
         'In Cold Blood (Disc 2)': ['Cold Blood (Disc 2)'],
@@ -820,6 +931,10 @@ def ibm_rename_list():
         'Midnight Nowhere (Disc 1)': ['Chernyj Oazis (Disc 1)'],
         'Midnight Nowhere (Disc 2)': ['Chernyj Oazis (Disc 2)'],
         'Mission - Humanity': ['Exterminacja'],
+        'Odium': [
+            'Gor\'kij 17 - Muzhskaja rabota',
+            'Gorky 17',
+        ],
         # 'People\'s General': ['Dynasty General'], # People's General isn't in Redump yet
         'Player Manager Ninety Nine': ['Player Manager - Epoca 98-99'], # The English version, Player Manager 98/99, isn't in Redump yet
         'Prisoner of Ice': ['Call of Cthulhu - Prisoner of Ice'],
@@ -854,6 +969,12 @@ def ibm_rename_list():
         'Resident Evil 6 (Disc 1)': ['Biohazard 6 (Disc 1)'],
         'Resident Evil 6 (Disc 2)': ['Biohazard 6 (Disc 2)'],
         'Ripley\'s Believe It or Not - The Riddle of Master Lu': ['Enigme de Maitre Lu, L\''],
+        'Secret Files - Tunguska': [
+            'Geheimakte - Tunguska',
+            'Secret Files - Tunguska (Disc 2)',
+            'Secret Files - Tunguska (Disc 3)',
+            'Secret Files - Tunguska (Disc 4)',
+        ],
         'Seven Games of the Soul (Disc 1)': [
             'Faust (Disc 1)',
             'Faust - Die sieben Spiele der Seele (Disc 1)',
@@ -880,6 +1001,13 @@ def ibm_rename_list():
             'Agent Fuchs in Das Milchkartell',
             'Spy Fox - Operation Milkshake',
         ],
+        'Star Trek - Starfleet Command': ['Gamefest - Star Trek Classics (Disc 1) (Star Trek - Starfleet Command)'],
+        'Star Trek - New Worlds': ['Gamefest - Star Trek Classics (Disc 2) (Star Trek - New Worlds)'],
+        'Star Trek - Starfleet Academy - Strategic Command (Disc 1)': [
+            'Gamefest - Star Trek Classics (Disc 3) (Star Trek - Starfleet Academy - Strategic Command Pt. 1)', # Apparently this is a "limited version of the game"
+            'Gamefest - Star Trek Classics (Disc 4) (Star Trek - Starfleet Academy - Strategic Command Pt. 2)'
+        ],
+        'Star Trek - Starfleet Academy - Chekov\'s Lost Missions': ['Gamefest - Star Trek Classics (Disc 5) (Star Trek - Starfleet Academy - Chekov\'s Lost Missions)'],
         'Terminator 3 - War of the Machines': ['Exterminador do Futuro 3, O - A Guerra das Maquinas'],
         'Thing, The': ['Cosa, La'],
         'Thief - The Dark Project': [
@@ -897,6 +1025,7 @@ def ibm_rename_list():
         'Traitors Gate (Disc 4)': ['Colpo grosso a London Tower (Disc 4)'],
         'Ultimate Soccer Manager 98-99 Season Edition': ['DSF Fussball Manager \'98'],
         'Virgin Roster': ['Altar\' strasti'],
+        'Wargame Construction Set III - Age of Rifles 1846-1905': ['Gewehr 1846-1905, Das'],
         'Worlds of Billy, The': ['Drilling Billy'],
         'World Cup 98': ['Frankreich 98 - Die Fussball-WM'],
     }
@@ -1794,7 +1923,10 @@ def dreamcast_rename_list():
             'Cool Boarders Burrrn!', # (クールボーダーズ・バーン)
             'Snow Surfers',
         ],
-        'Seaman': ['Kindan no Pet - Seaman - Gaze Hakase no Jikken-tou'], # (シーマン　～禁断のペット～　ガゼー博士の実験島)
+        'Seaman': [
+            'Kindan no Pet - Seaman - Gaze Hakase no Jikken-tou', # (禁断のペット　シーマン　～ガゼー博士の実験島～)
+            'Kindan no Pet - Seaman - Gaze Hakase no Jikken-tou (2001-nen Taiouban)', # (禁断のペット　シーマン　～ガゼー博士の実験島～)
+        ],
         'Sega Bass Fishing': ['Get Bass'], # (ゲットバス)
         'Sega Bass Fishing 2': ['Get Bass 2'], # (ゲットバス２)
         'Sega GT': ['Sega GT - Homologation Special'], # (セガGT ホモロゲーションスペシャル)
@@ -3130,6 +3262,7 @@ def psx_rename_list():
         'Evil Zone': ['Fuujin Ryouiki Eretzvaju'], # (封神領域エルツヴァーユ)
         'Expendable': ['Millennium Soldier - Expendable'],
         'Extreme 500': ['Suzuki Alstare Challenge'],
+        'Extreme Go-Kart Racing': ['Wai Wai Kart'], # (わいわいカート)
         'Extreme Snow Break': ['Snow Break'], # (スノー・ブレイク)
         'F.A. Premier League Football Manager 2000, The': ['Bundesliga 2000 - Der Fussball-Manager'],
         'F.A. Premier League Football Manager 2001, The': ['Fussball Manager 2001'],
@@ -3316,7 +3449,7 @@ def psx_rename_list():
             'Cold Blood (Disc 2)',
             'De Sang Froid (Disc 2)',
         ],
-        'In the Hunt': ['Kaitei Daisensou'], # (海底大戦争)
+        'In the Hunt': ['Kaitei Daisensou - In the Hunt'], # (海底大戦争)
         'Independence Day': ['Independence Day - The Game'],
         'International Track & Field': ['Hyper Olympic in Atlanta'], # (ハイパーオリンピック イン アトランタ)
         'International Track & Field 2000': ['International Track & Field 2'],
@@ -4349,7 +4482,10 @@ def ps2_rename_list():
         'Clover Heart\'s - Looking for Happiness (Shokai Genteiban)': ['Clover Heart\'s - Looking for Happiness'],
         'Colosseum - Road to Freedom': ['Gladiator - Road to Freedom'],
         'Conflict - Desert Storm': ['Conflict Delta - Wangan Sensou 1991'],
-        'Conflict - Desert Storm II - Back to Baghdad': ['Conflict - Desert Storm II'],
+        'Conflict - Desert Storm II - Back to Baghdad': [
+            'Conflict - Desert Storm II',
+            'Conflict Delta II - Wangan Sensou 1991',
+        ],
         'Conflict - Global Terror': ['Conflict - Global Storm'],
         'Conflict Zone - Modern War Strategy': ['Conflict Zone'],
         'Contra - Shattered Soldier': ['Shin Contra'],
@@ -4940,6 +5076,7 @@ def ps2_rename_list():
         ],
         'Klonoa 2 - Lunatea\'s Veil': ['Kaze no Klonoa 2 - Sekai ga Nozonda Wasuremono'],
         'KOF - Maximum Impact': ['King of Fighters, The - Maximum Impact'],
+        'Kokoro no Tobira (Shokai Genteiban)': ['Kokoro no Tobira'],
         'Konjiki no Gashbell!! Go! Go! Mamono Fight!! (Multi Tap (SCPH-70120) Doukonban)': [
             'Konjiki no Gashbell!! Go! Go! Mamono Fight!!',
             'Konjiki no Gashbell!! Go! Go! Mamono Fight!! (Multi Tap (SCPH-10090) Doukonban)',
@@ -5017,6 +5154,7 @@ def ps2_rename_list():
         ],
         'Love - Com - Punch de Conte (Shokai Genteiban)': ['Love - Com - Punch de Conte'],
         'Lovedol - Lovely Idol (Shokai Genteiban)': ['Lovedol - Lovely Idol'],
+        'Love Songs - Idol ga Classmate (Shokai Gentei Box)': ['Love Songs - Idol ga Classmate'],
         'Lowrider': ['LowRider - Round the World'],
         'Lucky Star - Ryouou Gakuen Outousai (DX Pack)': ['Lucky Star - Ryouou Gakuen Outousai'],
         'Lupin the 3rd - Treasure of the Sorcerer King': [
@@ -5143,6 +5281,7 @@ def ps2_rename_list():
             'Monochrome',
             'SuperLite 2000 Vol. 35 - Monochrome',
         ],
+        'Mr. Golf': ['Golful Golf'],
         'MTV Music Generator 3 - This Is the Remix': ['MTV Music Generator 3'],
         'Musashi - Samurai Legend': ['Musashiden II - Blademaster'],
         'MX vs. ATV Untamed': ['MX vs. ATV Extreme Limite'],
@@ -5156,7 +5295,6 @@ def ps2_rename_list():
         'Naruto - Ultimate Ninja 2': ['Naruto - Narutimate Hero 2'],
         'Naruto - Ultimate Ninja 3': [
             'Naruto - Narutimate Hero 3',
-            # 'Naruto - Narutimate Hero 3 (PlayStation 2 the Best)',
         ],
         'Naruto - Uzumaki Chronicles': [
             'Naruto - Uzumaki Injeon',

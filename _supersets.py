@@ -372,9 +372,59 @@ def ibm_superset_list():
         'Fly! (Disc 2) (Satellite Scenery)': ['Fly! 2K (Disc 2)'],
         'Fly! (Disc 3) (Sectional Charts)': ['Fly! 2K (Disc 3)'],
         'Flying Corps Gold': ['Flying Corps'],
-        'FreeSpace 2 (Disc 1)': ['FreeSpace 2 (Disc 1) (Sci-Fi Sim of the Year Edition)'],
-        'FreeSpace 2 (Disc 2)': ['FreeSpace 2 (Disc 2) (Sci-Fi Sim of the Year Edition)'],
-        'FreeSpace 2 (Disc 3)': ['FreeSpace 2 (Disc 3) (Sci-Fi Sim of the Year Edition)'],
+        'FreeSpace 2 (Disc 1) (Sci-Fi Sim of the Year Edition)': ['FreeSpace 2 (Disc 1)'],
+        'FreeSpace 2 (Disc 2) (Sci-Fi Sim of the Year Edition)': ['FreeSpace 2 (Disc 2)'],
+        'FreeSpace 2 (Disc 3) (Sci-Fi Sim of the Year Edition)': ['FreeSpace 2 (Disc 3)'],
+        'Galactic Civilizations II - Gold Edition (Disc 1)': [
+            'Galactic Civilizations II - Dread Lords (Disc 1)'
+        ],
+        'Galactic Civilizations II - Gold Edition (Disc 2)': [
+            'Galactic Civilizations II - Dread Lords (Disc 2)'
+        ],
+        'Gothic Universe (Disc 1)': [
+            'Gothic (Disc 1)',
+            'Gothic (Disc 2)',
+            'Gothic Universe (Gothic I & Online Handbuecher)'
+        ],
+        'Gothic Universe (Disc 2)': [
+            'Gothic II',
+            'Gothic II (Disc 1)'
+            'Gothic II (Disc 2)'
+            'Gothic II (Disc 3)'
+            'Gothic II (Disc 1) (Play Disc)',
+            'Gothic II (Installations CD 1)',
+            'Gothic II (Installations CD 2)',
+            'Gothic II (Spiel CD)',
+            'Gothic Universe (Gothic II Gold)',
+        ],
+        'Gothic Universe (Disc 3)': [
+            'Gothic Universe (Gothic III)',
+            'Gothic 3',
+            'Gothic 3 (Game of the Year Edition)',
+        ],
+        'Half-Life 1 Anthology': [
+            'Half-Life',
+            'Half-Life (Game of the Year Edition)',
+            'Half-Life - Blue Shift',
+            'Half-Life - Opposing Force',
+            'Half-Life 1 Antologia',
+        ],
+        'Half-Life 2 (Collector\'s Edition)': [
+            'Half-Life 2',
+            'Half-Life 2 (Disc 1)'
+            'Half-Life 2 (Disc 2)'
+            'Half-Life 2 (Disc 3)'
+            'Half-Life 2 (Disc 4)'
+            'Half-Life 2 (Disc 5)'
+            'Half-Life 2 (Disc 6)',
+            'Half-Life 2 (Disc 1) (Game of the Year Edition)',
+            'Half-Life 2 (Disc 2) (Game of the Year Edition)',
+            'Half-Life 2 (Disc 3) (Game of the Year Edition)',
+            'Half-Life 2 (Disc 4) (Game of the Year Edition)',
+            'Half-Life 2 (Disc 5) (Game of the Year Edition)',
+            'Half-Life 2 (Edizione Gioco dell\'Anno)',
+            'Half-Life 2 (Game of the Year Edition)',
+        ],
         'One Unit Whole Blood': [
             'Blood (Disc 1)',
             'Blood (Disc 1) (Special Edition)',
