@@ -47,6 +47,10 @@ def ibm_compilation_list():
         'Bonus 2-Pack - Sid Meier\'s Civilization III Gold Edition & CivCity - Rome (USA)',
         'Chaos Control & Time Gate - Knight\'s Chase (Germany)',
         'Dragon\'s Lair & Crusade (Germany)',
+        # GameTek 3 in 1 Compilation - Maximum Road Race + Millennia + Hellfire Zone (Europe) (Disc 1)
+        'GameTek 3 in 1 Compilation - Road Warrior + Brutal + Humans 3 (Europe)',
+        # GameTek 3 in 1 Compilation - Super Stardust + Cyberbykes + Quarantine (Europe)
+        'Grand Theft Auto Trylogia',
     ]
 
 # Microsoft Xbox
