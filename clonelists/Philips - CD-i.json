@@ -1,0 +1,66 @@
+{
+    "description": {
+        "name": [
+            "Philips - CD-i"
+        ],
+        "last updated": "23 Mar 2020"
+    },
+
+    "renames": {
+		"7th Guest, The (Disc 1) (The Game)": [
+			"7th Guest, The (Disc 1) (Le Jeu)"
+		],
+		"Asterix - Caesar's Challenge": [
+			"Asterix - El Desafio de Cesar",
+			"Asterix - De Uitdaging van Caesar",
+			"Asterix - Die grosse Reise",
+			"Asterix - La Sfida di Cesare",
+			"Asterix - Le Defi de Cesar"
+		],
+		"Berenstain Bears, The - On Their Own": [
+			"Berenstain Bears, The - Bij de Berenstain Beren Thuis - Thuis en bij Jou"
+		],
+		"Burn-Cycle (Disc 1) (The Game)": [
+			"Burn-Cycle",
+			"Burn-Cycle (Das Spiel)",
+			"Burn-Cycle (Il Gioco)",
+			"Burn-Cycle (Jeu)"
+		],
+		"Harvest Of The Sun - Van Gogh - Une Moisson de Soleils": [
+			"Raccolto del Sole, Il - Van Gogh",
+			"Oogst van de Zon"
+		],
+		"International Tennis Open": [
+			"International Tennis Open (8100082)",
+			"International Tennis Open (8120040)",
+			"International Tennis Open (Version 2 Spieler)"
+		],
+		"Jigsaw - The Ultimate Electronic Puzzle": [
+			"Jigsaw - Das elektronische Puzzlespiel"
+		],
+		"Palm Springs Open, The": [
+			"L'Open de Palm Springs"
+		],
+		"Rinascimento a Firenze, Il": [
+			"Renaissance van Florence, De"
+		],
+		"Scotland Yard Interactif": [
+			"Scotland Yard Interactive"
+		],
+		"Thunder in Paradise (Disc 1) (The Game)": [
+			"Thunder in Paradise"
+		],
+		"Video Speedway - The Ultimate Racing Experience": [
+			"Video Speedway - Grand Prix"
+		],
+		"Ville Surprise de Richard Scarry 1, La": [
+			"Richard Scarry's Allerbeste Buurt Disc!"
+		],
+		"Ville Surprise de Richard Scarry 2, La": [
+			"Richard Scarry's Allerdrukste Buurt Disc!"
+		],
+		"Voyeur ...Don't Get Caught": [
+			"Voyeur ...lass Dich nicht erwischen!"
+		]
+    }
+}

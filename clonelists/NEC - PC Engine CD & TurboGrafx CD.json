@@ -1,0 +1,99 @@
+{
+    "description": {
+        "name": [
+            "NEC - PC Engine CD & TurboGrafx CD"
+        ],
+        "last updated": "23 Mar 2020"
+    },
+
+    "renames": {
+		"Alnam no Kiba - Juuzoku Juuni Shinto Densetsu (FABT)": [
+			"Alnam no Kiba - Juuzoku Juuni Shinto Densetsu (FAAT)"
+		],
+		"Bomberman - Panic Bomber (FABT)": [
+			"Bomberman - Panic Bomber (FAAT)"
+		],
+		"Buster Bros.": [
+			"Pomping World"
+		],
+		"Cosmic Fantasy 2": [
+			"Cosmic Fantasy 2 - Bouken Shounen Ban"
+		],
+		"Dynastic Hero, The": [
+			"Chou Eiyuu Densetsu - Dynastic Hero"
+		],
+		"Exile": [
+			"Exile - Toki no Hasama e"
+		],
+		"Exile - Wicked Phenomenon": [
+			"Exile II - Janen no Jishou"
+		],
+		"F1 Circus Special - Pole to Win (FAAT, FACT)": [
+			"F1 Circus Special - Pole to Win (FABT)"
+		],
+		"Ginga Fukei Densetsu Sapphire": [
+			"Ginga Fukei Densetsu Sapphire (Reprint)"
+		],
+		"Ginga Ojousama Densetsu Yuna (FAFT)": [
+			"Ginga Ojousama Densetsu Yuna (FABT, FACT)"
+		],
+		"Ginga Ojousama Densetsu Yuna 2 - Eien no Princess (FABT)": [
+			"Ginga Ojousama Densetsu Yuna 2 - Eien no Princess (FAAT)"
+		],
+		"Godzilla": [
+			"Godzilla Bakutou Retsuden"
+		],
+		"Hyper Wars (SABS)": [
+			"Hyper Wars (SAAS)"
+		],
+		"J. B. Harold Murder Club": [
+			"J. B. Harold Series 1 - Murder Club"
+		],
+		"Jack Nicklaus Turbo Golf": [
+			"Jack Nicklaus' World Tour Golf - 162 Holes"
+		],
+		"Last Alert": [
+			"Red Alert"
+		],
+		"Lords of the Rising Sun": [
+			"Rising Sun"
+		],
+		"Lords of Thunder": [
+			"Winds of Thunder"
+		],
+		"Magical Dinosaur Tour": [
+			"Magical Saurus Tour"
+		],
+		"Monster Lair": [
+			"Wonder Boy III - Monster Lair"
+		],
+		"Riot Zone": [
+			"Ookami-teki Monshou - Crest of Wolf"
+		],
+		"Ryuuko no Ken (FACT)": [
+			"Ryuuko no Ken (FAAT)",
+			"Ryuuko no Ken (FABT)"
+		],
+		"Shadow of the Beast": [
+			"Shadow of the Beast - Mashou no Okite"
+		],
+		"Sherlock Holmes - Consulting Detective - Volume 2": [
+			"Sherlock Holmes - Consulting Detective Vol. II"
+		],
+		"Splash Lake": [
+			"Splash Lake - Ostrich Daibouken"
+		],
+		"Super Air Zonk - Rockabilly-Paradise": [
+			"CD Denjin - Rockabilly Tengoku"
+		],
+		"Tokimeki Memorial": [
+			"Tokimeki Memorial (FABT)"
+		],
+		"Ys Book I & II": [
+			"Ys I & II"
+		],
+		"Ys III - Wanderers from Ys": [
+			"Ys III"
+		]
+    }
+}

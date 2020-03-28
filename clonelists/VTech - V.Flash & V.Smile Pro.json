@@ -1,0 +1,46 @@
+{
+    "description": {
+        "name": [
+            "VTech - V.Flash & V.Smile Pro"
+        ],
+        "last updated": "23 Mar 2020"
+    },
+
+    "renames": {
+		"Amazing Spider-Man, The - Countdown to Doom": [
+			"Asombroso Spider-Man, El - Persecucion en la Ciudad",
+			"Spider-Man - Angriff der Super-Schurken",
+			"Spider-Man Course-Poursuite a Manhattan"
+		],
+		"Bratz - Fashion Pixiez - The Secret Necklace": [
+			"Bratz - El Misterio del Collar"
+		],
+		"Cars - In the Fast Lane": [
+			"Cars - Auf der Ueberholspur",
+			"Cars - El Carril Rapido"
+		],
+		"Disney Princess - The Crystal Ball Adventure": [
+			"Disney Princess - Das zauberhafte Maerchen-Abenteuer",
+			"Disney Princess - El Castillo de las Princesas"
+		],
+		"Incredibles, The - Mission Incredible": [
+			"Increibles, Los - Mision Increible",
+			"Unglaublichen, Die (The Incredibles) - In unglaublicher Mission"
+		],
+		"Nickelodeon SpongeBob SquarePants - Idea Sponge": [
+			"Nick SpongeBob Schwammkopf - Ein Schwamm voller Ideen",
+			"Nickelodeon Bob Esponja - Mision Esponja"
+		],
+		"Scooby-Doo! Ancient Adventure": [
+			"Scooby-Doo - Viaje al Pasado"
+		],
+		"Shrek the Third - The Search for Arthur": [
+			"Shrek Tercero - Donde Esta Arturo",
+			"Shrek der Dritte - Die Suche nach Arthus"
+		],
+		"Wacky Race on Jumpin' Bean Island": [
+			"Carrera Loca en la Isla de las Vainas Fritas",
+			"Das verrueckte Rennen der Huepf-Bohnen Insel"
+		]
+    }
+}

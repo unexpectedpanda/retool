@@ -1,0 +1,126 @@
+{
+    "description": {
+        "name": [
+            "Panasonic - 3DO Interactive Multiplayer"
+        ],
+        "last updated": "23 Mar 2020"
+    },
+
+    "renames": {
+		"Alone in the Dark": [
+			"Alone in the Dark (NTSC Version)"
+		],
+		"Crash 'n Burn (Not for Resale)": [
+			"Crash 'n Burn"
+		],
+		"D (Disc 1)": [
+			"D no Shokutaku (Disc 1)"
+		],
+		"D (Disc 2)": [
+			"D no Shokutaku (Disc 2)"
+		],
+		"Daedalus Encounter, The (Disc 1)": [
+			"Daedalus Encounter, The - Episode 1 - Nanpasen no Alien (Disc 1)"
+		],
+		"Daedalus Encounter, The (Disc 2)": [
+			"Daedalus Encounter, The - Episode 1 - Nanpasen no Alien (Disc 2)"
+		],
+		"Daedalus Encounter, The (Disc 3)": [
+			"Daedalus Encounter, The - Episode 1 - Nanpasen no Alien (Disc 3)"
+		],
+		"Daedalus Encounter, The (Disc 4)": [
+			"Daedalus Encounter, The - Episode 1 - Nanpasen no Alien (Disc 4)"
+		],
+		"Dragon's Lair (RE1)": [
+			"Dragon's Lair"
+		],
+		"ESPN Golf - Lower Your Score with Tom Kite - Shot Making (Disc 1)": [
+			"ESPN Golf - Tom Kite no Kore ga Golf da! (Disc 1) (Shot Yousei Kouza Vol. 1)"
+		],
+		"ESPN Golf - Lower Your Score with Tom Kite - Shot Making (Disc 2)": [
+			"ESPN Golf - Tom Kite no Kore ga Golf da! (Disc 2) (Shot Yousei Kouza Vol. 2)"
+		],
+		"ESPN Golf - Lower Your Score with Tom Kite - Shot Making (Disc 3)": [
+			"ESPN Golf - Tom Kite no Kore ga Golf da! (Disc 3) (Pro ni Kike!)"
+		],
+		"Flashback - The Quest for Identity": [
+			"Flashback"
+		],
+		"Guardian War": [
+			"Powers Kingdom"
+		],
+		"Incredible Machine, The": [
+			"Incredible Machine, The - Pararancho"
+		],
+		"Immercenary - Combat in a Digital World": [
+			"Immercenary",
+			"Perfect World - Combat in a Digital World"
+		],
+		"John Madden Football": [
+			"John Madden NFL Football"
+		],
+		"Iron Angel of the Apocalypse - Tetsujin": [
+			"Tetsujin"
+		],
+		"Iron Angel of the Apocalypse - The Return": [
+			"Tetsujin Returns"
+		],
+		"Killing Time (RE1)": [
+			"Tozasareta Yakata"
+		],
+		"Lucienne's Quest": [
+			"Sword & Sorcery"
+		],
+		"Novastorm": [
+			"Nova-Storm"
+		],
+		"Panasonic REAL 3DO Interactive Multiplayer - Sampler CD (ZBZ)": [
+			"Panasonic REAL 3DO Interactive Multiplayer - Sampler CD (ZAZ)"
+		],
+		"Pebble Beach Golf Links": [
+			"T&E VR Golf - Pebble Beach no Hatou",
+			"True Golf Classics - Pebble Beach Golf Links"
+		],
+		"Road & Track Presents - The Need for Speed": [
+			"Road & Track Presents - OverDrivin'"
+		],
+		"SHADOW - War of Succession": [
+			"SHADOW Warriors"
+		],
+		"Shanghai - Triple-Threat": [
+			"Shanghai - Triple-Threat (3DO Action Pak)"
+		],
+		"Shock Wave (RE2)": [
+			"Shock Wave (RE1)",
+			"Shock Wave"
+		],
+		"Slayer": [
+			"Lost Dungeon",
+			"Slayer (3DO Action Pak)"
+		],
+		"Soccer Kid": [
+			"Great! Soccer Kid"
+		],
+		"Star Control II": [
+			"Star Control II - The Ur-Quan Masters"
+		],
+		"Super Street Fighter II Turbo (RE2)": [
+			"Super Street Fighter II Turbo (RE1)",
+			"Super Street Fighter II Turbo",
+			"Super Street Fighter II X - Grand Master Challenge"
+		],
+		"Total Eclipse": [
+			"Total Eclipse (DFJN5015ZAZ)"
+		],
+		"Trip'd": [
+			"Uchuu Seibutsu Flopon-kun"
+		],
+		"Twisted - The Game Show": [
+			"Twisted"
+		],
+		"Waialae Country Club": [
+			"T&E VR Golf - Waialae no Kiseki",
+			"True Golf Classics - Waialae Country Club"
+		]
+    }
+}

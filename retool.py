@@ -4,6 +4,7 @@
 import datetime
 import html
 import itertools
+import json
 import os
 import sys
 import re
@@ -13,7 +14,6 @@ import time
 from lxml import etree
 from bs4 import BeautifulSoup, Doctype # For XML parsing
 
-import _clonelist
 import _version
 
 # Require at least Python 3.5
@@ -104,6 +104,7 @@ def main():
         '\s?\(Hibaihin\)',
         '\s?\(Rerelease\)',
         '\(Disco [A-Z0-9]\)',
+        '\(Teil [A-Z0-9]\)',
         '\(Disco Uno\)',
         '\(Disco Due\)',
         '\(Disco Tre\)',
@@ -188,7 +189,7 @@ class font:
 
 # Establish a class for user input
 class UserInput:
-    def __init__(self, file_input, file_output, no_demos, no_apps, no_protos, no_multi, no_edu, no_comps, superset, log):
+    def __init__(self, file_input, file_output, no_demos, no_apps, no_protos, no_multi, no_edu, no_coverdiscs, no_comps, superset, log):
         self.file_input = file_input
         self.file_output = file_output
         self.no_demos = no_demos
@@ -196,6 +197,7 @@ class UserInput:
         self.no_multi = no_multi
         self.no_protos = no_protos
         self.no_edu = no_edu
+        self.no_coverdiscs = no_coverdiscs
         self.no_comps = no_comps
         self.superset = superset
         self.log = log
@@ -208,7 +210,7 @@ class DatNode:
         # Set regionless title
         if re.findall(' \(' + region + '.*?\)', full_title) != []:
             remove_region = full_title.replace(re.findall(' \(' + region + '.*?\)', full_title)[0],'')
-            remove_languages = re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv|Zh)\.*?)(,.*?\)|\)))', remove_region)
+            remove_languages = re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv|Th|Zh)\.*?)(,.*?\)|\)))', remove_region)
             if len(remove_languages) > 0:
                 try:
                     self.regionless_title = remove_region.replace(remove_languages[0][0], '')
@@ -294,6 +296,24 @@ class DatNode:
                     disc_alternative = disc_alternative.replace('Disque 5', 'Disc 1')
                     disc_alternative = disc_alternative.replace('Disque V', 'Disc 5')
                     tag_strip_title = tag_strip_title.replace(re.findall('\(Disque [A-Z0-9]\)', tag_strip_title)[0], disc_alternative)
+                elif 'Teil' in string:
+                    disc_alternative = re.search('\(Teil [A-Z0-9]\)', tag_strip_title).group()
+                    disc_alternative = disc_alternative.replace('Teil A', 'Disc 1')
+                    disc_alternative = disc_alternative.replace('Teil 1', 'Disc 1')
+                    disc_alternative = disc_alternative.replace('Teil I', 'Disc 1')
+                    disc_alternative = disc_alternative.replace('Teil B', 'Disc 2')
+                    disc_alternative = disc_alternative.replace('Teil 2', 'Disc 1')
+                    disc_alternative = disc_alternative.replace('Teil 1I', 'Disc 2')
+                    disc_alternative = disc_alternative.replace('Teil C', 'Disc 3')
+                    disc_alternative = disc_alternative.replace('Teil 3', 'Disc 1')
+                    disc_alternative = disc_alternative.replace('Teil 1II', 'Disc 3')
+                    disc_alternative = disc_alternative.replace('Teil D', 'Disc 4')
+                    disc_alternative = disc_alternative.replace('Teil 4', 'Disc 1')
+                    disc_alternative = disc_alternative.replace('Teil 1V', 'Disc 4')
+                    disc_alternative = disc_alternative.replace('Teil E', 'Disc 5')
+                    disc_alternative = disc_alternative.replace('Teil 5', 'Disc 1')
+                    disc_alternative = disc_alternative.replace('Teil V', 'Disc 5')
+                    tag_strip_title = tag_strip_title.replace(re.findall('\(Teil [A-Z0-9]\)', tag_strip_title)[0], disc_alternative)
                 elif string == '\s?\(\d{8}\)\s?':
                     # Really basic date validation
                     tag_year = re.search('\(\d{8}\)', tag_strip_title).group()[1:-5]
@@ -310,7 +330,7 @@ class DatNode:
         # Set regionless title with minimal tags
         if re.findall(' \(' + region + '.*?\)', full_title) != []:
             remove_region = tag_strip_title.replace(re.findall(' \(' + region + '.*?\)', tag_strip_title)[0],'')
-            remove_languages = re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv|Zh)\.*?)(,.*?\)|\)))', remove_region)
+            remove_languages = re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv|Th|Zh)\.*?)(,.*?\)|\)))', remove_region)
             if len(remove_languages) > 0:
                 try:
                     self.rf_tag_strip_title = remove_region.replace(remove_languages[0][0], '')
@@ -367,6 +387,19 @@ class DatNodeRom:
         self.sha1 = sha1
         self.size = size
 
+# Establish a class for clone lists
+class CloneLists:
+    # comp_list [list]
+    # rename_list {dict}
+    # superset_list {dict}
+    # override_list {dict}
+    def __init__(self, comp_list, override_list, rename_list, superset_list, superset_override_list):
+        self.compilations = comp_list
+        self.renames = rename_list
+        self.supersets = superset_list
+        self.overrides = override_list
+        self.superset_overrides = superset_override_list
+
 # Generic error message, also shown when the user doesn't provide any options
 def help():
     command = ''
@@ -376,10 +409,12 @@ def help():
     print('\nUSAGE: ' + font.bold + command + os.path.basename(sys.argv[0]) + ' -i ' + font.end + '<input dat/folder> <options>')
     print('\nA new file is automatically generated, the original file isn\'t altered.')
     print('\nOPTIONS:')
-    print(font.bold + '-o' + font.end + '    Set an output folder\n')
+    print(font.bold + '-o' + font.end + '    Set an output folder')
+    print(font.bold + '-g' + font.end + '    All options (-abcdemps)\n')
     print(font.bold + '-a' + font.end + '    Remove applications')
+    print(font.bold + '-b' + font.end + '    Remove coverdiscs')
     print(font.bold + '-c' + font.end + '    Remove compilations that don\'t have unique titles')
-    print(font.bold + '-d' + font.end + '    Remove demos and coverdiscs')
+    print(font.bold + '-d' + font.end + '    Remove demos')
     print(font.bold + '-e' + font.end + '    Remove educational titles')
     print(font.bold + '-m' + font.end + '    Remove multimedia titles')
     print(font.bold + '-p' + font.end + '    Remove betas and prototypes')
@@ -393,6 +428,7 @@ def check_input():
 
     # Handle most user options
     flag_no_apps = True if len([x for x in sys.argv if x == '-a']) > 0 else False
+    flag_no_coverdiscs = True if len([x for x in sys.argv if x == '-b']) > 0 else False
     flag_no_comps = True if len([x for x in sys.argv if x == '-c']) > 0 else False
     flag_no_demos = True if len([x for x in sys.argv if x == '-d']) > 0 else False
     flag_no_edu = True if len([x for x in sys.argv if x == '-e']) > 0 else False
@@ -401,18 +437,28 @@ def check_input():
     flag_superset = True if len([x for x in sys.argv if x == '-s']) > 0 else False
     flag_log = True if len([x for x in sys.argv if x == '-v']) > 0 else False
 
+    if len([x for x in sys.argv if x == '-g']) > 0:
+        flag_no_apps = True
+        flag_no_coverdiscs = True
+        flag_no_comps = True
+        flag_no_demos = True
+        flag_no_edu = True
+        flag_no_multi = True
+        flag_no_protos = True
+        flag_superset = True
+
     # Handle input, output, and invalid options
     for i, x in enumerate(sys.argv):
         # Check that the options entered are valid
         if x.startswith('-'):
-            if not ((x == '-i') or (x == '-o') or (x == '-a') or (x == '-c') or (x == '-d') or (x == '-e') or (x == '-m') or (x == '-p') or (x == '-s') or (x == '-v')):
+            if not ((x == '-i') or (x == '-o') or (x == '-g') or (x == '-a') or (x == '-b') or (x == '-c') or (x == '-d') or (x == '-e') or (x == '-m') or (x == '-p') or (x == '-s') or (x == '-v')):
                 print(font.red + '* Invalid option ' + sys.argv[i] + font.end)
                 error_state = True
 
         # Check for and handle -i
         if x == '-i':
             # Check for invalid or empty input
-            if i + 1 == len(sys.argv) or bool(re.search('^-([ioademprsv]$)', sys.argv[i+1])):
+            if i + 1 == len(sys.argv) or bool(re.search('^-([iogabcdempsv]$)', sys.argv[i+1])):
                 print(font.red + '* No input file specified' + font.end)
                 error_state = True
             else:
@@ -425,7 +471,7 @@ def check_input():
         # Check for and handle -o
         if x == '-o':
                 # Check for invalid or empty input
-                if i+1 == len(sys.argv) or bool(re.search('^-([ioademprsv]$)', sys.argv[i+1])):
+                if i+1 == len(sys.argv) or bool(re.search('^-([iogabcdempsv]$)', sys.argv[i+1])):
                     print(font.red + '* No output folder specified' + font.end)
                     error_state = True
                 else:
@@ -463,7 +509,7 @@ def check_input():
     if error_state == True:
         help()
 
-    return UserInput(input_file_name, output_folder_name, flag_no_demos, flag_no_apps, flag_no_protos, flag_no_multi, flag_no_edu, flag_no_comps, flag_superset, flag_log)
+    return UserInput(input_file_name, output_folder_name, flag_no_demos, flag_no_apps, flag_no_protos, flag_no_multi, flag_no_edu, flag_no_coverdiscs, flag_no_comps, flag_superset, flag_log)
 
 # Converts CLRMAMEPro format to XML
 def convert_clr_logiqx(clrmame_header, checkdat, is_folder):
@@ -540,6 +586,56 @@ def header(dat_name, dat_version, dat_author, dat_url, dat_header_exclusion, reg
         '\n\t\t<url>' + dat_url + '</url>',
         '\n\t</header>\n']
     return header
+
+# Imports clone lists
+def clonelist(dat_name):
+    # Import JSON files that have the same name as dat_name + .json
+    if 'GameCube' in dat_name and (
+        'NKit GCZ' in dat_name or
+        'NKit ISO' in dat_name or
+        'NASOS' in dat_name
+        ):
+        clone_file = './clonelists/Nintendo - GameCube.json'
+    elif 'Wii U' in dat_name and 'WUX' in dat_name:
+        clone_file = './clonelists/Nintendo - Wii U.json'
+    elif 'Wii' in dat_name and (
+        'NKit GCZ' in dat_name or
+        'NKit ISO' in dat_name or
+        'NASOs' in dat_name
+        ):
+        clone_file = './clonelists/Nintendo - Wii.json'
+    else:
+        clone_file = './clonelists/' + dat_name + '.json'
+    if os.path.exists(clone_file) == True and os.path.isfile(clone_file) == True:
+        try:
+            with open(clone_file, 'r') as input_file_read:
+                clonedata = json.load(input_file_read)
+                clone_compilations = []
+                clone_overrides = {}
+                clone_renames = {}
+                clone_supersets = {}
+                clone_superset_overrides = {}
+
+                if 'compilations' in clonedata:
+                    clone_compilations = clonedata['compilations']
+                if 'overrides' in clonedata:
+                    clone_overrides = clonedata['overrides']
+                if 'renames' in clonedata:
+                    clone_renames = clonedata['renames']
+                if 'supersets' in clonedata:
+                    clone_supersets = clonedata['supersets']
+                if 'superset overrides' in clonedata:
+                    clone_superset_overrides = clonedata['superset overrides']
+                return CloneLists(
+                    clone_compilations,
+                    clone_overrides,
+                    clone_renames,
+                    clone_supersets,
+                    clone_superset_overrides
+                )
+        except OSError as e:
+            print('\n' + font.bold + font.red + '* Error: ' + font.end + str(e) + '\n')
+            raise
 
 # Splits dat into regions
 def localized_titles(region, native, soup, user_input):
@@ -657,7 +753,7 @@ def parent_compare_bool(test1, test2, parent_list, already_tested, x, y, date, u
                             if user_input.log == True: print('--------\nREF #022: Kept ' + y.full_title + ', removed ' + x.full_title)
 
 # Finds unique titles in regions, removes dupes
-def localized_titles_unique(region, region_list_english, region_list_other, titles, unique_list, unique_regional_titles, dupe_list, comp_list, user_input, global_parent_list, tag_strings, all_titles_data):
+def localized_titles_unique(region, region_list_english, region_list_other, titles, unique_list, unique_regional_titles, dupe_list, comp_list, comp_found, user_input, global_parent_list, tag_strings, all_titles_data):
     already_tested = []
     regional_titles = []
     regional_titles_data = {}
@@ -676,7 +772,6 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
         # Filter out titles based on user input flags
         if user_input.no_apps == True and (title.category.contents[0] == 'Applications'): continue
         if user_input.no_demos == True and (title.category.contents[0] == 'Demos'
-                                            or title.category.contents[0] == 'Coverdiscs'
                                             or re.search('\(Demo\)', title.category.parent['name']) != None
                                             or re.search('\(Demo [0-9]\)', title.category.parent['name']) != None
                                             or re.search('\(.*?Taikenban.*?\)', title.category.parent['name']) != None
@@ -684,6 +779,7 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
                                             or re.search('\(Sample\)', title.category.parent['name']) != None
                                             or re.search('Trial Edition', title.category.parent['name']) != None
                                             ): continue
+        if user_input.no_coverdiscs == True and (title.category.contents[0] == 'Coverdiscs'): continue
         if user_input.no_edu == True and (title.category.contents[0] == 'Educational'): continue
         if user_input.no_multi == True and (title.category.contents[0] == 'Multimedia'): continue
         if user_input.no_protos == True and (title.category.contents[0] == 'Preproduction'or title.category.contents[0] == 'Coverdiscs'
@@ -691,12 +787,14 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
                                             or re.search('\(Beta [0-9]\)', title.category.parent['name']) != None
                                             or re.search('\(Prototype\)', title.category.parent['name']) != None
                                             ): continue
+
         if user_input.no_comps == True:
             comp_title_check = False
 
             for x in comp_list:
                 if x == title.category.parent['name']:
                     comp_title_check = True
+                    comp_found.append(x)
 
             if comp_title_check == True:
                 continue
@@ -829,7 +927,7 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
                 # with English. If more than one has English, take the one with the most languages
                 for x, y in itertools.combinations(ver_title_keep_temp, 2):
                     x2 = x.replace(re.findall(' \(' + region + '.*?\)', x)[0],'')
-                    remove_languages = re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv|Zh)\.*?)(,.*?\)|\)))', x)
+                    remove_languages = re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv|Th|Zh)\.*?)(,.*?\)|\)))', x)
                     if len(remove_languages) > 0:
                         try:
                             x2 = x.replace(remove_languages[0][0], '')
@@ -837,7 +935,7 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
                             pass
 
                     y2 = y.replace(re.findall(' \(' + region + '.*?\)', y)[0],'')
-                    remove_languages = re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv|Zh)\.*?)(,.*?\)|\)))', y)
+                    remove_languages = re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv|Th|Zh)\.*?)(,.*?\)|\)))', y)
                     if len(remove_languages) > 0:
                         try:
                             y2 = y.replace(remove_languages[0][0], '')
@@ -855,12 +953,12 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
                                 if actual_highest != y:
                                     ver_title_keep.pop(ver_title_keep.index(actual_highest))
                                     ver_title_delete.append(actual_highest)
-                        elif len(re.findall(',', str(re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv|Zh)\.*?)(,.*?\)|\)))', x)))) > len(re.findall(',', str(re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv|Zh)\.*?)(,.*?\)|\)))', y)))):
+                        elif len(re.findall(',', str(re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv|Th|Zh)\.*?)(,.*?\)|\)))', x)))) > len(re.findall(',', str(re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv|Th|Zh)\.*?)(,.*?\)|\)))', y)))):
                             for actual_highest in ver_title_keep:
                                 if actual_highest != x:
                                     ver_title_keep.pop(ver_title_keep.index(actual_highest))
                                     ver_title_delete.append(actual_highest)
-                        elif len(re.findall(',', str(re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv|Zh)\.*?)(,.*?\)|\)))', y)))) > len(re.findall(',', str(re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv|Zh)\.*?)(,.*?\)|\)))', x)))):
+                        elif len(re.findall(',', str(re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv|Th|Zh)\.*?)(,.*?\)|\)))', y)))) > len(re.findall(',', str(re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv|Th|Zh)\.*?)(,.*?\)|\)))', x)))):
                             for actual_highest in ver_title_keep:
                                 if actual_highest != y:
                                     ver_title_keep.pop(ver_title_keep.index(actual_highest))
@@ -1000,7 +1098,7 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
                             if test == True: continue
 
                             # Else if one has more languages than the other, take it
-                            test = parent_compare_more(len(re.findall(',', str(re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv|Zh)\.*?)(,.*?\)|\)))', x.tag_strip_title)))), len(re.findall(',', str(re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv|Zh)\.*?)(,.*?\)|\)))', y.tag_strip_title)))), parent_list, already_tested, x, y, user_input)
+                            test = parent_compare_more(len(re.findall(',', str(re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv|Th|Zh)\.*?)(,.*?\)|\)))', x.tag_strip_title)))), len(re.findall(',', str(re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv|Th|Zh)\.*?)(,.*?\)|\)))', y.tag_strip_title)))), parent_list, already_tested, x, y, user_input)
                             if test == True: continue
 
                             # Else if one has a rerelease tag, take the one that doesn't
@@ -1050,8 +1148,6 @@ def process_dats(user_input, tag_strings, region_list_english, region_list_other
         with open(user_input.file_input, 'r') as input_file_read:
             print('* Validating dat file... ', sep=' ', end='', flush=True)
             checkdat = input_file_read.read()
-            # Remove encoding declaration from the file so we can check validity later
-            checkdat = checkdat.replace('encoding="UTF-8"','')
     except OSError as e:
         print('\n' + font.bold + font.red + '* Error: ' + font.end + str(e) + '\n')
         raise
@@ -1073,6 +1169,9 @@ def process_dats(user_input, tag_strings, region_list_english, region_list_other
         dat_version = ''
         soup = BeautifulSoup(xml_convert, "lxml-xml")
     else:
+        # Remove encoding declaration from the file so we can check validity later
+        checkdat = checkdat.replace(re.findall('<\?xml.*?>', checkdat)[0], '<?xml version="1.0"?>')
+
         soup = BeautifulSoup(checkdat, "lxml-xml")
 
         # Check for a valid Redump XML dat that follows the Logiqx dtd, then grab the dat details
@@ -1135,13 +1234,15 @@ def process_dats(user_input, tag_strings, region_list_english, region_list_other
 
     # Tally the other tag counts if the options have been set
     apps_count = 0
+    coverdiscs_count = 0
     demos_count = 0
     edu_count = 0
     multi_count = 0
     protos_count = 0
 
     if user_input.no_apps == True: apps_count = len(soup.find_all('category', string='Applications'))
-    if user_input.no_demos == True:  demos_count = len(soup.find_all('category', string='Demos')) + len(soup.find_all('category', string='Coverdiscs'))
+    if user_input.no_coverdiscs == True:  coverdiscs_count = len(soup.find_all('category', string='Coverdiscs'))
+    if user_input.no_demos == True:  demos_count = len(soup.find_all('category', string='Demos'))
     if user_input.no_edu == True: edu_count = len(soup.find_all('category', string='Educational'))
     if user_input.no_multi == True: multi_count = len(soup.find_all('category', string='Multimedia'))
     if user_input.no_protos == True: protos_count = len(soup.find_all('category', string='Preproduction'))
@@ -1197,18 +1298,19 @@ def process_dats(user_input, tag_strings, region_list_english, region_list_other
     # Set up compilation lists for compilations that have no unique titles
     dupe_list = {}
     comp_list = []
+    comp_found = []
     superset_list = {}
     override_list = {}
     superset_override_list = {}
 
-    clone_list = _clonelist.clonelist(dat_name)
+    clone_list = clonelist(dat_name)
 
     if clone_list != None:
-        dupe_list = clone_list.dupe
-        comp_list = clone_list.comp
-        superset_list = clone_list.super
-        override_list = clone_list.override
-        superset_override_list = clone_list.superoverride
+        dupe_list = clone_list.renames
+        comp_list = clone_list.compilations
+        superset_list = clone_list.supersets
+        override_list = clone_list.overrides
+        superset_override_list = clone_list.superset_overrides
 
     # Find unique parents in each region
     global_parent_list = {}
@@ -1217,16 +1319,22 @@ def process_dats(user_input, tag_strings, region_list_english, region_list_other
     for region in region_list_english + region_list_other:
         if titles[region] != []:
             print('  * Adding parents from ' + region + '...', sep='', end='\r', flush=True)
-        unique_regional_titles[region] = localized_titles_unique(region, region_list_english, region_list_other, titles[region], unique_list, unique_regional_titles, dupe_list, comp_list, user_input, global_parent_list, tag_strings, all_titles_data)
+        unique_regional_titles[region] = localized_titles_unique(region, region_list_english, region_list_other, titles[region], unique_list, unique_regional_titles, dupe_list, comp_list, comp_found, user_input, global_parent_list, tag_strings, all_titles_data)
         if titles[region] != []:
             print('  * Adding parents from ' + region + '... done.')
 
-    unique_regional_titles['Unknown'] = localized_titles_unique('Unknown', region_list_english, region_list_other, titles['Unknown'], unique_list, unique_regional_titles, dupe_list, comp_list, user_input, global_parent_list, tag_strings, all_titles_data)
+    unique_regional_titles['Unknown'] = localized_titles_unique('Unknown', region_list_english, region_list_other, titles['Unknown'], unique_list, unique_regional_titles, dupe_list, comp_list, comp_found, user_input, global_parent_list, tag_strings, all_titles_data)
 
     if len(unique_regional_titles['Unknown']) > 1:
         unknown_region_title_count = len(unique_regional_titles['Unknown']['unique_titles'])
     else:
         unknown_region_title_count = 0
+
+    # Report the compilations not found in the dat
+    if comp_found != [] and user_input.no_comps == True:
+        comp_final = [x for x in comp_list if x not in comp_found]
+        for x in comp_final:
+            print(font.bold + font.yellow + '  x Title in _compilations.py not found in dat: ' + x + font.end)
 
     # Compare the parents cross-region once we're at the last region in the list
     # Set the temp dictionary for global parent titles
@@ -1429,21 +1537,43 @@ def process_dats(user_input, tag_strings, region_list_english, region_list_other
 
         # Apply manual overrides for clones that aren't handled by the automated processing
         if override_list != {}:
+            clone_override = False
+            clone_override_remove = []
+            parent_override = False
+
             for key, value in override_list.items():
                 for x in all_titles_data:
                     for y in all_titles_data[x]:
                         if y.full_title == key:
                             y.cloneof = 'None'
+                            parent_override = True
                         if y.full_title in value:
                             y.cloneof = key
+                            parent_override = True
+                            clone_override = True
+                            clone_override_remove.append(y.full_title)
+
+                if parent_override == False:
+                    print(font.bold + font.yellow + '  x Parent in _overrides.py not found in dat: ' + key + font.end)
+                else:
+                    parent_override = False
+
+                if clone_override == False:
+                    clone_override_final = [z for z in value if z not in clone_override_remove]
+                    for z in clone_override_final:
+                        print(font.bold + font.yellow + '  x Clone in _overrides.py not found in dat: ' + z + font.end)
+                else:
+                    clone_override = False
 
     print('* Assigning manually set clones... done.')
 
-    # If there are superset titles, delete the subset titles
+    # If there are superset titles, assign clones
     if user_input.superset == True:
         print('* Promoting supersets... ', sep='', end='\r', flush=True)
 
         superset_delete = []
+        super_parent = ''
+        key_raw_title = ''
 
         for key, value in superset_list.items():
             for x in value:
@@ -1464,33 +1594,61 @@ def process_dats(user_input, tag_strings, region_list_english, region_list_other
                 if all_titles_data.get(key_raw_title) != None and key_raw_title != x:
                     # Find the parent title of the superset
                     for y in all_titles_data[key_raw_title]:
-                        if y.regionless_title == key and y.cloneof == 'None':
+                        if y.rf_tag_strip_title == key and y.cloneof == 'None':
                             superset_parent = y.full_title
 
                     # Set the clones of the titles that are now subordinate to the superset
-                    for y in all_titles_data[value_raw_title]:
-                        if y.full_title != superset_parent and y.rf_tag_strip_title == x:
-                            y.cloneof = superset_parent
+                    if value_raw_title in all_titles_data:
+                        for y in all_titles_data[value_raw_title]:
+                            if y.full_title != superset_parent and y.rf_tag_strip_title == x:
+                                y.cloneof = superset_parent
+                    else:
+                        print(font.bold + font.yellow + '  x Clone in _supersets.py not found in dat: ' + value_raw_title + font.end)
+                elif all_titles_data.get(key_raw_title) == None:
+                    if super_parent != key_raw_title:
+                        print(font.bold + font.yellow + '  x Parent in _supersets.py not found in dat: ' + key_raw_title + font.end)
+                        super_parent = key_raw_title
                 else:
                     # Find the parent title of what will be the new set of clones
-                    for y in all_titles_data[value_raw_title]:
-                        if y.regionless_title == key and y.cloneof == 'None':
-                            superset_parent = y.full_title
+                    if value_raw_title in all_titles_data:
+                        for y in all_titles_data[value_raw_title]:
+                            if y.rf_tag_strip_title == key and y.cloneof == 'None':
+                                superset_parent = y.full_title
 
-                    # Apply the new parent to all the clones
-                    for y in all_titles_data[value_raw_title]:
-                        if y.full_title != superset_parent and y.rf_tag_strip_title == x:
-                            y.cloneof = superset_parent
+                        # Apply the new parent to all the clones
+                        for y in all_titles_data[value_raw_title]:
+                            if y.full_title != superset_parent and y.rf_tag_strip_title == x:
+                                y.cloneof = superset_parent
 
-        # Apply manual overrides for superset that aren't handled by the automated processing
+        # Apply manual overrides for supersets that aren't handled by the automated processing
         if superset_override_list != {}:
+            clone_override = False
+            clone_override_remove = []
+            parent_override = False
+
             for key, value in superset_override_list.items():
                 for x in all_titles_data:
                     for y in all_titles_data[x]:
                         if y.full_title == key:
                             y.cloneof = 'None'
+                            parent_override = True
                         if y.full_title in value:
                             y.cloneof = key
+                            parent_override = True
+                            clone_override = True
+                            clone_override_remove.append(y.full_title)
+
+                if parent_override == False:
+                    print(font.bold + font.yellow + '  x Parent in _overrides.py not found in dat: ' + key + font.end)
+                else:
+                    parent_override = False
+
+                if clone_override == False:
+                    clone_override_final = [z for z in value if z not in clone_override_remove]
+                    for z in clone_override_final:
+                        print(font.bold + font.yellow + '  x Clone in _overrides.py not found in dat: ' + z + font.end)
+                else:
+                    clone_override = False
 
         print('* Promoting supersets... done.')
 
@@ -1509,6 +1667,7 @@ def process_dats(user_input, tag_strings, region_list_english, region_list_other
     if user_input.no_apps == True or user_input.no_demos == True or user_input.no_edu == True or user_input.no_multi == True or user_input.no_protos == True or user_input.no_comps == True or user_input.superset == True:
         dat_header_exclusion += ' (-'
         if user_input.no_apps == True: dat_header_exclusion += 'a'
+        if user_input.no_coverdiscs == True: dat_header_exclusion += 'b'
         if user_input.no_comps == True: dat_header_exclusion += 'c'
         if user_input.no_demos == True: dat_header_exclusion += 'd'
         if user_input.no_edu == True: dat_header_exclusion += 'e'
@@ -1596,6 +1755,7 @@ def process_dats(user_input, tag_strings, region_list_english, region_list_other
 
         if user_input.no_apps == True: print('-  Applications removed: ' + str('{:,}'.format(apps_count)))
         if user_input.no_comps == True: print('-  Compilations removed: ' + str('{:,}'.format(len(comp_list))))
+        if user_input.no_coverdiscs == True: print('-  Coverdiscs removed: ' + str('{:,}'.format(coverdiscs_count)))
         if user_input.no_demos == True: print('-  Demos removed: ' + str('{:,}'.format(demos_count)))
         if user_input.no_edu == True: print('-  Educational titles removed: ' + str('{:,}'.format(edu_count)))
         if user_input.no_multi == True: print('-  Multimedia titles removed: ' + str('{:,}'.format(multi_count)))

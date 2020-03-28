@@ -1,0 +1,402 @@
+{
+    "description": {
+        "name": [
+			"Microsoft - Xbox"
+		],
+        "last updated": "23 Mar 2020"
+    },
+
+    "compilations": [
+		"Sega GT 2002 + JSRF - Jet Set Radio Future (USA) (En,Ja)",
+		"Sega GT 2002 + JSRF - Jet Set Radio Future (Europe) (En,Fr,De,Es,It)",
+        "Star Wars - The Clone Wars + Tetris Worlds (USA)"
+    ],
+
+    "renames": {
+        "AirForce Delta Storm": [
+			"AirForce Delta II",
+			"Deadly Skies"
+		],
+		"Amped - Freestyle Snowboarding": [
+			"Tenku - Freestyle Snowboarding"
+		],
+		"Amped 2": [
+			"Tenku 2"
+		],
+		"Apex": [
+			"Racing Evoluzione"
+		],
+		"Bad Boys - Miami Takedown": [
+			"Bad Boys II"
+		],
+		"Beat Down - Fists of Vengeance": [
+			"Beat Down"
+		],
+		"Big Mutha Truckers 2": [
+			"Big Mutha Truckers 2 - Truck Me Harder"
+		],
+		"Black Stone - Magic & Steel": [
+			"Ex-Chaser"
+		],
+		"Brian Lara International Cricket 2005": [
+			"Ricky Ponting International Cricket 2005"
+		],
+		"Capcom vs. SNK 2 EO": [
+			"Capcom vs. SNK 2 EO - Mark of the Millennium 2001"
+		],
+		"Championship Manager 5": [
+			"Entraineur 5, L' - Saison 04-05",
+			"Scudetto 5"
+		],
+		"Chronicles of Narnia, The - The Lion, the Witch and the Wardrobe": [
+			"Chroniken von Narnia, Die - Der Koenig von Narnia"
+		],
+		"Conflict - Desert Storm II - Back to Baghdad": [
+			"Conflict - Desert Storm II"
+		],
+		"Conflict - Global Terror": [
+			"Conflict - Global Storm"
+		],
+		"Crazy Taxi 3 - High Roller": [
+			"Crazy Taxi 3"
+		],
+		"Crash Bandicoot - The Wrath of Cortex": [
+			"Crash Bandicoot 4 - Sakuretsu! Majin Power"
+		],
+		"Crimson Sea": [
+			"Kurenai no Umi - Crimson Sea"
+		],
+		"Dai Senryaku VII - Modern Military Tactics": [
+			"Daisenryaku VII"
+		],
+		"Dakar 2 - The World's Ultimate Rally": [
+			"Dakar 2"
+		],
+		"Dance Dance Revolution Ultramix": [
+			"Dancing Stage Unleashed"
+		],
+		"Dance Dance Revolution Ultramix 2": [
+			"Dancing Stage Unleashed 2"
+		],
+		"Dance Dance Revolution Ultramix 3": [
+			"Dancing Stage Unleashed 3"
+		],
+		"Digimon Rumble Arena 2": [
+			"Digimon Battle Chronicle"
+		],
+		"Digimon World 4": [
+			"Digimon World X"
+		],
+		"Disney-Pixar The Incredibles": [
+			"Disney-Pixar Die Unglaublichen",
+			"Disney-Pixar Gli Incredibili",
+			"Disney-Pixar Los Increibles",
+			"Disney-Pixar Mr. Incredible"
+		],
+		"Disney's Chicken Little": [
+			"Disneys Himmel und Huhn"
+		],
+		"Dr. Seuss' The Cat in the Hat": [
+			"Cat in the Hat, The"
+		],
+		"Dynasty Warriors 3": [
+			"Shin Sangoku Musou 2"
+		],
+		"Dynasty Warriors 4": [
+			"Shin Sangoku Musou 3"
+		],
+		"Dynasty Warriors 5": [
+			"Shin Sangoku Musou 4"
+		],
+		"Egg Mania - Eggstreme Madness": [
+			"Egg Mania - Tsukande! Mawashite! Dossun Puzzle!!",
+			"Eggo Mania"
+		],
+		"ESPN International Winter Sports 2002": [
+			"ESPN International Winter Sports",
+			"Hyper Sports 2002 Winter"
+		],
+		"Fahrenheit": [
+			"Indigo Prophecy"
+		],
+		"Fantastic 4": [
+			"Fantastici 4, I"
+		],
+		"Fatal Frame": [
+			"Fatal Frame - Zero Special Edition",
+			"Project Zero"
+		],
+		"Fatal Frame II - Crimson Butterfly - Director's Cut": [
+			"Project Zero II - Crimson Butterfly - Director's Cut",
+			"Fatal Frame II - Crimson Butterfly"
+		],
+		"FIFA Soccer 06": [
+			"FIFA 06"
+		],
+		"FIFA Soccer 07": [
+			"FIFA 07"
+		],
+		"FIFA Soccer 2003": [
+			"FIFA Football 2003"
+		],
+		"FIFA Soccer 2004": [
+			"FIFA Football 2004"
+		],
+		"FIFA Soccer 2005": [
+			"FIFA Football 2005"
+		],
+		"Forgotten Realms - Demon Stone": [
+			"Demon Stone"
+		],
+		"Freestyle Street Soccer": [
+			"Urban Freestyle Soccer"
+		],
+		"Gladiator - Sword of Vengeance": [
+			"Gladiator - Schwert der Rache"
+		],
+		"Godfather, The": [
+			"Padrino, El",
+			"Padrino, Il",
+			"Parrain, Le",
+			"Pate, Der"
+		],
+		"GoldenEye - Rogue Agent": [
+			"GoldenEye - Agente Corrupto",
+			"GoldenEye - Au Service du Mal"
+		],
+		"Group S Challenge": [
+			"Circus Drive"
+		],
+		"Guilty Gear X2 Reload - The Midnight Carnival": [
+			"Guilty Gear XX Reload - The Midnight Carnival"
+		],
+		"Halo - Combat Evolved": [
+			"Halo"
+		],
+		"Harry Potter and the Sorcerer's Stone": [
+			"Harry Potter and the Philosopher's Stone"
+		],
+		"Hello Kitty - Roller Rescue": [
+			"Hello Kitty - Mission Rescue"
+		],
+		"Hitman 2 - Silent Assassin": [
+			"Hitman - Silent Assassin"
+		],
+		"Jade Empire": [
+			"Jade Empire - Hisui no Teikoku"
+		],
+		"Kabuki Warriors": [
+			"Zan Kabuki"
+		],
+		"Kung Fu Chaos": [
+			"Kung Fu Panic"
+		],
+		"Lemony Snicket's A Series of Unfortunate Events": [
+			"Desastreuses Aventures des Orphelins Baudelaire, Les - D'Apres Lemony Snicket",
+			"Lemony Snicket - Raetselhafte Ereignisse",
+			"Una Serie de Catastroficas Desdichas de Lemony Snicket"
+		],
+		"LMA Manager 2003": [
+			"BDFL Manager 2003",
+			"Football Manager Campionato 2003",
+			"Manager de Liga 2003"
+		],
+		"LMA Manager 2004": [
+			"BDFL Manager 2004",
+			"Football Manager Campionato 2004",
+			"Manager de Liga 2004"
+		],
+		"LMA Manager 2005": [
+			"BDFL Manager 2005",
+			"Football Manager Campionato 2005",
+			"Manager de Liga 2005"
+		],
+		"Lord of the Rings, The - The Return of the King": [
+			"Herr der Ringe, Der - Die Rueckkehr des Koenigs",
+			"Seigneur des Anneaux, Le - Le Retour du Roi",
+			"Senor de los Anillos, El - El Retorno del Rey",
+			"Signore degli Anelli, Il - Il ritorno del Re"
+		],
+		"Lord of the Rings, The - The Third Age": [
+			"Herr der Ringe, Der - Das dritte Zeitalter",
+			"Seigneur des Anneaux, Le - Le Tiers Age",
+			"Senor de los Anillos, El - La Tercera Edad",
+			"Signore degli Anelli, Il - La Terza Era"
+		],
+		"Medal of Honor - Frontline": [
+			"Medal of Honor - En Premiere Ligne"
+		],
+		"Medal of Honor - Rising Sun": [
+			"Medal of Honor - Soleil Levant"
+		],
+		"Minority Report - Everybody Runs": [
+			"Minority Report - Le Futur vous Rattrape"
+		],
+		"MTV Music Generator 3 - This Is the Remix": [
+			"MTV Music Generator 3"
+		],
+		"Murakumo - Renegade Mech Pursuit": [
+			"Murakumo"
+		],
+		"NBA Ballers - Phenom": [
+			"NBA Ballers - Phenom (Review Code)"
+		],
+		"Nickelodeon SpongeBob SquarePants - The Movie": [
+			"Nickelodeon SpongeBob Schwammkopf - Der Film"
+		],
+		"Nickelodeon Tak - The Great Juju Challenge": [
+			"Nickelodeon Tak - Die grosse Juju-Jagd"
+		],
+		"Oddworld - Stranger's Wrath": [
+			"Oddworld - La Fureur de l'Etranger",
+			"Oddworld - Strangers Vergeltung"
+		],
+		"Otogi - Myth of Demons": [
+			"Otogi"
+		],
+		"Otogi 2 - Immortal Warriors": [
+			"Otogi - Hyakki Toubatsu Emaki"
+		],
+		"Power Drome": [
+			"Powerdrome"
+		],
+		"Prince of Persia - Warrior Within": [
+			"Prince of Persia - Kenshi no Kokoro"
+		],
+		"Pro Race Driver": [
+			"DTM Race Driver - Director's Cut",
+			"TOCA Race Driver",
+			"V8 Supercars Australia - Race Driver"
+		],
+		"Project Gotham Racing": [
+			"Project Gotham - World Street Racer"
+		],
+		"Puyo Pop Fever": [
+			"Puyo Puyo Fever"
+		],
+		"Quantum Redshift": [
+			"Quantum Redshift - Chou Kousoku Kuukan Battle Race"
+		],
+		"R-Racing": [
+			"R-Racing Evolution",
+			"R-Racing Evolution - Life in the Fast Lane"
+		],
+		"RedCard 20-03": [
+			"RedCard"
+		],
+		"Samurai Warriors": [
+			"Sengoku Musou"
+		],
+		"Silent Hill 2 - Restless Dreams": [
+			"Silent Hill 2 - Inner Fears",
+			"Silent Hill 2 - Saigo no Uta"
+		],
+		"Sneakers": [
+			"Nezmix"
+		],
+		"Star Wars - Episode III - Revenge of the Sith": [
+			"Star Wars - Episode III - Die Rache der Sith",
+			"Star Wars - Episode III - La Revanche des Sith"
+		],
+		"Star Wars - Knights of the Old Republic": [
+			"Star Wars - Caballeros de la Antigua Republica"
+		],
+		"Star Wars - The Clone Wars": [
+			"Star Wars - La Guerra dei Cloni",
+			"Star Wars - Las Guerras Clon"
+		],
+		"Steel Battalion": [
+			"Tekki"
+		],
+		"Sudeki": [
+			"Sudeki - Sennen no Akatsuki no Monogatari"
+		],
+		"Tenchu - Return from Darkness": [
+			"Tenchu 3 - Kaiki no Shou"
+		],
+		"Test Drive": [
+			"TD Overdrive - The Brotherhood of Speed"
+		],
+		"Test Drive Off-Road - Wide Open": [
+			"Off-Road - Wide Open"
+		],
+		"Tetris Worlds (Online Enabled)": [
+			"Tetris Worlds"
+		],
+		"TOCA Race Driver (Online Enabled)": [
+			"DTM Race Driver Live"
+		],
+		"TOCA Race Driver 2": [
+			"DTM Race Driver 2 - Ultimate Racing Simulator",
+			"V8 Supercars Australia 2"
+		],
+		"TOCA Race Driver 3": [
+			"DTM Race Driver 3 - The Ultimate Racing Simulator",
+			"V8 Supercars Australia 3"
+		],
+		"Top Gear - RPM Tuning": [
+			"RPM Tuning"
+		],
+		"UFC - Ultimate Fighting Championship - Tapout 2": [
+			"UFC - Ultimate Fighting Championship 2 - Tapout"
+		],
+		"Ultra Bust-A-Move": [
+			"Ultra Puzzle Bobble"
+		],
+		"WinBack 2 - Project Poseidon": [
+			"Operation WinBack 2 - Project Poseidon"
+		],
+		"Winter X Games Snowboarding 2002": [
+			"Winter X Games Snowboarding 2"
+		],
+		"World Soccer Winning Eleven 8 - International": [
+			"Pro Evolution Soccer 4"
+		],
+		"World Soccer Winning Eleven 9": [
+			"Pro Evolution Soccer 5"
+		],
+		"Wreckless - The Yakuza Missions": [
+			"Wreckless - Mission Yakusas"
+		],
+		"WTA Tour Tennis": [
+			"Pro Tennis WTA Tour",
+			"WTA Tour Tennis Pro Evolution"
+		],
+		"WWF Raw": [
+			"WWE Raw"
+		],
+		"XIII": [
+			"XIII - Daitouryou o Koroshita Otoko"
+		]
+    },
+
+    "supersets": {
+        "Call of Duty 2 - Big Red One (Collector's Edition)": [
+            "Call of Duty 2 - Big Red One"
+        ],
+        "Doom 3 (Limited Collector's Edition)": [
+            "Doom 3"
+        ],
+        "Elder Scrolls III, The - Morrowind - Game of the Year Edition": [
+            "Elder Scrolls III, The - Morrowind"
+        ],
+        "Fable - The Lost Chapters": [
+            "Fable"
+        ],
+        "Major League Baseball 2K5 - World Series Edition": [
+            "Major League Baseball 2K5"
+        ],
+        "Mashed - Fully Loaded": [
+            "Mashed - Drive to Survive"
+        ],
+        "Midnight Club 3 - DUB Edition Remix": [
+            "Midnight Club 3 - DUB Edition"
+        ],
+        "Need for Speed - Most Wanted - Black Edition": [
+            "Need for Speed - Most Wanted"
+        ],
+        "Ninja Gaiden Black": [
+            "Ninja Gaiden"
+        ]
+    }
+}

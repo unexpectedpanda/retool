@@ -1,4 +1,4 @@
 # Current version of Retool
 
 def version():
-    return '0.56'
+    return '0.57'
