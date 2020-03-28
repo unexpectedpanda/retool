@@ -1,0 +1,15 @@
+{
+    "description": {
+        "name": [
+            "Commodore - Amiga CD"
+        ],
+        "last updated": "23 Mar 2020"
+    },
+
+    "renames": {
+		"Reflections 4.2": [
+			"Reflections 3.0 Zubehoer",
+			"Reflections 4"
+		]
+    }
+}

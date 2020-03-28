@@ -1,0 +1,1008 @@
+{
+    "description": {
+        "name": [
+            "Sega - Saturn"
+        ],
+        "last updated": "23 Mar 2020"
+    },
+
+    "compilations": [
+        "Clockwork Knight - Pepperouchau no Fukubukuro (Japan)",
+        "Pad Nifty 1.1 & Habitat II (Japan)"
+    ],
+
+    "renames": {
+		"3D Baseball": [
+			"3D Baseball - The Majors"
+		],
+		"Advanced World War - Sennen Teikoku no Koubou - Last of the Millennium (22M)": [
+			"Advanced World War - Sennen Teikoku no Koubou - Last of the Millennium (2M)"
+		],
+		"Albert Odyssey - Legend of Eldean (RE)": [
+			"Albert Odyssey - Legend of Eldean",
+			"Albert Odyssey Gaiden - Legend of Eldean (1M)",
+			"Albert Odyssey Gaiden - Legend of Eldean (2M)",
+			"Albert Odyssey Gaiden - Legend of Eldean (3M)"
+		],
+		"Alien Trilogy": [
+			"Alien Trilogy (4S)",
+			"Alien Trilogy (7S)"
+		],
+		"Alone in the Dark - One-Eyed Jack's Revenge": [
+			"Alone in the Dark - Jack Is Back",
+			"Alone in the Dark 2"
+		],
+		"Astal (3S)": [
+			"Astal (2S)",
+			"Astal (1S)",
+			"Kisuishou Densetsu Astal (3A)",
+			"Kisuishou Densetsu Astal (4M)"
+		],
+		"Baku Baku Animal - World Zookeeper Contest": [
+			"Baku Baku Animal - Sekai Shiiku Gakari Senshuken"
+		],
+		"Bases Loaded '96 - Double Header": [
+			"Moero!! Pro Yakyuu '95 - Double Header"
+		],
+		"Battle Arena Toshinden Remix": [
+			"Toushinden S"
+		],
+		"Battle Arena Toshinden URA - Ultimate Revenge Attack": [
+			"Toushinden URA"
+		],
+		"Big Ichigeki! Pachi-Slot Daikouryaku - Universal Museum (10M)": [
+			"Big Ichigeki! Pachi-Slot Daikouryaku - Universal Museum (1M)"
+		],
+		"BlackFire (3S)": [
+			"BlackFire",
+			"BlackFire (2S)"
+		],
+		"Bootleg Sampler (2S)": [
+			"Bootleg Sampler (Made in EU, Made in Japan)",
+			"Bootleg Sampler (Made in USA)",
+			"Bootleg Sampler",
+			"Bootleg Sampler (1S)",
+			"Bootleg Sampler (15S)",
+			"Bootleg Sampler (9S, 17S)"
+		],
+		"Break Point Tennis": [
+			"Break Point"
+		],
+		"Bug! (Demo) (3S)": [
+			"Bug! (Demo) (1S)"
+		],
+		"Bug! (R)": [
+			"Bug!",
+			"Bug! Jump Shite, Funzukechatte, Petchanko"
+		],
+		"Center Ring Boxing": [
+			"Victory Boxing"
+		],
+		"Clockwork Knight - Pepperouchau's Adventure": [
+			"Clockwork Knight - Pepperouchau no Daibouken Joukan"
+		],
+		"Clockwork Knight 2 - Pepperouchau's Adventure": [
+			"Clockwork Knight - Pepperouchau no Daibouken Gekan (2M)"
+		],
+		"Command & Conquer (Disc 1) (GDI Disc)": [
+			"Command & Conquer (Disc 1) (GDI)",
+			"Command & Conquer - Teil 1 - Der Tiberiumkonflikt (Disc 1) (GDI)"
+		],
+		"Command & Conquer (Disc 2) (NOD Disc)": [
+			"Command & Conquer (Disc 2) (NOD)",
+			"Command & Conquer - Teil 1 - Der Tiberiumkonflikt (Disc 2) (NOD)"
+		],
+		"Creature Shock - Special Edition (Disc 1)": [
+			"Creature Shock (Disc 1)"
+		],
+		"Creature Shock - Special Edition (Disc 2)": [
+			"Creature Shock (Disc 2)"
+		],
+		"Criticom": [
+			"Criticom - The Critical Combat"
+		],
+		"Croc - Legend of the Gobbos": [
+			"Croc! Pau-Pau Island"
+		],
+		"Crypt Killer": [
+			"Crypt Killer (R)",
+			"Henry Explorers"
+		],
+		"Culdcept (20M)": [
+			"Culdcept (10M)"
+		],
+		"Custom Web Browser (Version 3.0)": [
+			"Custom Web Browser (Version 2)"
+		],
+		"Cyber Speedway": [
+			"Cyber Speedway (RE)",
+			"Gran Chaser (3M)"
+		],
+		"Cyberbots - Fullmetal Madness (2M)": [
+			"Cyberbots - Fullmetal Madness (1M)"
+		],
+		"D-Xhird (2M)": [
+			"D-Xhird (1M)"
+		],
+		"D (Disc 1)": [
+			"D no Shokutaku (Disc 1)"
+		],
+		"D (Disc 2)": [
+			"D no Shokutaku (Disc 2)"
+		],
+		"Darius Gaiden": [
+			"Darius Gaiden (3M)",
+			"Darius Gaiden (2M)"
+		],
+		"Darius II": [
+			"Darius II (2M)"
+		],
+		"Dark Legend": [
+			"Suiko Enbu"
+		],
+		"Daytona USA": [
+			"Daytona USA (2S)",
+			"Daytona USA (1S)"
+		],
+		"Daytona USA C.C.E. Net Link Edition": [
+			"Daytona USA - Championship Circuit Edition",
+			"Daytona USA - Circuit Edition"
+		],
+		"Dead or Alive (10M)": [
+			"Dead or Alive (2M)"
+		],
+		"DecAthlete": [
+			"Athlete Kings",
+			"DecAthlete for SegaNet",
+			"DecAthlete (1M)",
+			"DecAthlete (2M)",
+			"DecAthlete (10M)",
+			"DecAthlete (20M)"
+		],
+		"Deep Fear (Disc 1) (Unl)": [
+			"Deep Fear (Disc 1)"
+		],
+		"Deep Fear (Disc 2) (Unl)": [
+			"Deep Fear (Disc 2)"
+		],
+		"Defcon 5 - Peace Has a Price...": [
+			"Defcon 5"
+		],
+		"Desire (Disc 2) (2M)": [
+			"Desire (Disc 2) (1M)"
+		],
+		"Die Hard Arcade": [
+			"Dynamite Deka"
+		],
+		"Doom": [
+			"Doom (R)"
+		],
+		"Dragon Ball Z - Idainaru Dragon Ball Densetsu": [
+			"Dragon Ball Z - La Grande Legende des Boules de Cristal"
+		],
+		"Dragon Force": [
+			"Dragon Force (1M, 2M, 3M)",
+			"Dragon Force (4M)",
+			"Dragon Force (10M)"
+		],
+		"Earthworm Jim 2": [
+			"Earthworm Jim 2 (2M)"
+		],
+		"EGWord Ver 2.00": [
+			"EGWord (1M)",
+			"EGWord (10M)"
+		],
+		"Enemy Zero (Disc 0)": [
+			"Enemy Zero (Disc 0) (Opening Disc)",
+			"Enemy Zero (Disc 0) (Opening Disc) (1M)",
+			"Enemy Zero (Disc 0) (Opening Disc) (2M)",
+			"Enemy Zero (Disc 0) (Opening Disc) (Satakore)"
+		],
+		"Enemy Zero (Disc 1)": [
+			"Enemy Zero (Disc 1) (Game Disc)",
+			"Enemy Zero (Disc 1) (Game Disc) (1M)",
+			"Enemy Zero (Disc 1) (Game Disc) (2M)",
+			"Enemy Zero (Disc 1) (Game Disc) (Satakore)"
+		],
+		"Enemy Zero (Disc 2)": [
+			"Enemy Zero (Disc 2) (Game Disc)",
+			"Enemy Zero (Disc 2) (Game Disc) (1M)",
+			"Enemy Zero (Disc 2) (Game Disc) (2M)",
+			"Enemy Zero (Disc 2) (Game Disc) (Satakore)"
+		],
+		"Enemy Zero (Disc 3)": [
+			"Enemy Zero (Disc 3) (Game Disc)",
+			"Enemy Zero (Disc 3) (Game Disc) (3M)",
+			"Enemy Zero (Disc 3) (Game Disc) (4M)",
+			"Enemy Zero (Disc 3) (Game Disc) (Satakore)"
+		],
+		"Eve - The Lost One (Disc 3) (Lost One Disc) (2M)": [
+			"Eve - The Lost One (Disc 3) (Lost One Disc) (1M)"
+		],
+		"Eve - The Lost One (Disc 4) (Extra Disc) (2M)": [
+			"Eve - The Lost One (Disc 4) (Extra Disc) (1M)"
+		],
+		"F1 Challenge": [
+			"F-1 Challenge",
+			"F-1 Live Information"
+		],
+		"FIFA - Road to World Cup 98": [
+			"FIFA - Die WM-Qualifikation 98",
+			"FIFA - En Route pour la Coupe du Monde 98",
+			"FIFA - Rumbo al Mundial 98"
+		],
+		"FIFA Soccer 97": [
+			"FIFA 97"
+		],
+		"Fighters Megamix (RE)": [
+			"Fighters Megamix",
+			"Fighters Megamix (2M)",
+			"Fighters Megamix (1M)"
+		],
+		"Fighting Vipers (6S)": [
+			"Fighting Vipers",
+			"Fighting Vipers (5S)"
+		],
+		"Fire Prowrestling S - 6Men Scramble (2M)": [
+			"Fire Prowrestling S - 6Men Scramble (1M)"
+		],
+		"Fully Cowled Mini Yonku - Super Factory (11M)": [
+			"Fully Cowled Mini Yonku - Super Factory (10M)"
+		],
+		"Galactic Attack": [
+			"Layer Section (3M)",
+			"Layer Section (6M)",
+			"Layer Section (11M)"
+		],
+		"Galaxy Fight": [
+			"Galaxy Fight - Universal Warriors"
+		],
+		"Golden Axe - The Duel": [
+			"Golden Axe - The Duel (2M)"
+		],
+		"Grandia (Disc 1) (4M)": [
+			"Grandia (Disc 1) (1M)",
+			"Grandia (Disc 1) (2M)"
+		],
+		"Grandia (Disc 2) (4M)": [
+			"Grandia (Disc 2) (1M, 2M)",
+			"Grandia (Disc 2) (3M)"
+		],
+		"Grandia - Digital Museum (10M)": [
+			"Grandia - Digital Museum"
+		],
+		"Greatest Nine '96 (10M)": [
+			"Greatest Nine '96 (3M)",
+			"Greatest Nine '96 (2M)"
+		],
+		"Gremlin Demo Disc": [
+			"Gremlin Demo Disk"
+		],
+		"Grid Runner": [
+			"Grid Run"
+		],
+		"Guardian Heroes": [
+			"Guardian Heroes (3M)"
+		],
+		"Gungriffon": [
+			"Gun Griffon"
+		],
+		"Hang-On GP": [
+			"Hang On GP '95 (2M)",
+			"Hang On GP '96"
+		],
+		"Hebereke's Popoitto": [
+			"Popoitto Hebereke"
+		],
+		"Heir of Zendor - The Legend and The Land": [
+			"Gotha II - Tenkuu no Kishi"
+		],
+		"Hexen": [
+			"Hexen - Beyond Heretic"
+		],
+		"Hi-Octane - The Track Fights Back!": [
+			"Hi-Octane"
+		],
+		"High Velocity - Mountain Racing Challenge": [
+			"Touge King the Spirits"
+		],
+		"Highway 2000": [
+			"Wangan Dead Heat"
+		],
+		"Hyper 3-D Pinball": [
+			"Hyper 3D Pinball",
+			"Tilt!"
+		],
+		"In the Hunt": [
+			"Kaitei Daisensou"
+		],
+		"Independence Day": [
+			"Independence Day - The Game"
+		],
+		"Iron Storm": [
+			"World Advanced Daisenryaku - Koutetsu no Senpuu (1M, 4M)",
+			"World Advanced Daisenryaku - Koutetsu no Senpuu (2M)",
+			"World Advanced Daisenryaku - Koutetsu no Senpuu (10M)"
+		],
+		"J. League Jikkyou Honoo no Striker (2M)": [
+			"J. League Jikkyou Honoo no Striker (1M)"
+		],
+		"J. League Pro Soccer Club o Tsukurou! 2 (41M)": [
+			"J. League Pro Soccer Club o Tsukurou! 2 (1M)",
+			"J. League Pro Soccer Club o Tsukurou! 2 (3M)",
+			"J. League Pro Soccer Club o Tsukurou! 2 (4M)",
+			"J. League Pro Soccer Club o Tsukurou! 2 (32M)"
+		],
+		"J. League Victory Goal '96 (1M, 3M)": [
+			"J. League Victory Goal '96 (2M)",
+			"J. League Victory Goal '97"
+		],
+		"Jewels of the Oracle": [
+			"Oracle no Houseki - Jewels of the Oracle"
+		],
+		"Johnny Bazookatone": [
+			"Johnny Bazooka"
+		],
+		"Kanazawa Shougi (2M)": [
+			"Kanazawa Shougi (1M)"
+		],
+		"Keio Flying Squadron 2": [
+			"Keiou Yuugekitai - Katsugeki-hen"
+		],
+		"King of Fighters '95, The (3M)": [
+			"King of Fighters '95, The (2M)",
+			"King of Fighters '95, The (1M)",
+			"King of Fighters '95, The"
+		],
+		"King of Fighters '96, The (4M, 5M)": [
+			"King of Fighters '96, The (1M)"
+		],
+		"Kochira Katsushikaku Kameari Kouenmae - Hashutsujo - Nakagawa Land Dai-Race! no Maki": [
+			"Kochira Katsushikaku Kameari Kouenmae - Hashutsujo - Nakagawa Land Dai-Race! no Maki (Satakore)"
+		],
+		"Langrisser - Dramatic Edition (2M)": [
+			"Langrisser - Dramatic Edition (1M)"
+		],
+		"Langrisser III (7M)": [
+			"Langrisser III (3M)",
+			"Langrisser III (1M)"
+		],
+		"Langrisser V - The End of Legend (3M)": [
+			"Langrisser V - The End of Legend (1M)"
+		],
+		"Last Gladiators - Digital Pinball (4S)": [
+			"Digital Pinball",
+			"Digital Pinball - Last Gladiators",
+			"Last Gladiators - Digital Pinball (3S)"
+		],
+		"Legend of Oasis, The": [
+			"Story of Thor 2, The",
+			"Thor - Seireioukiden"
+		],
+		"Loaded": [
+			"Blood Factory"
+		],
+		"Lunacy (Disc 1)": [
+			"Gekka Mugentan Torico (Disc 1) (Kyouchou-hen) (1M)",
+			"Gekka Mugentan Torico (Disc 1) (Kyouchou-hen) (2M)",
+			"Torico (Disc 1)"
+		],
+		"Lunacy (Disc 2)": [
+			"Gekka Mugentan Torico (Disc 2) (Houkai-hen) (1M)",
+			"Gekka Mugentan Torico (Disc 2) (Houkai-hen) (2M)",
+			"Torico (Disc 2)"
+		],
+		"Machine Head": [
+			"Blam! Machinehead"
+		],
+		"Magic Knight Rayearth (Genteiban) (3M)": [
+			"Magic Knight Rayearth (Genteiban) (1M)"
+		],
+		"Magic Knight Rayearth": [
+			"Magic Knight Rayearth (4M)"
+		],
+		"Mahjong Taikai II Special (10M)": [
+			"Mahjong Taikai II Special (2M)"
+		],
+		"Mansion of Hidden Souls, The (4S)": [
+			"Manoir des Ames Perdues, Le",
+			"Mansion de las Almas Ocultas, La",
+			"Mansion of Hidden Souls, The (1S)",
+			"Mystery Mansion - Das Haus der verlorenen Seelen",
+			"Shinsetsu Yumemi Yakata - Tobira no Oku ni Dareka ga... (1M)",
+			"Shinsetsu Yumemi Yakata - Tobira no Oku ni Dareka ga... (2A, 2B)",
+			"Shinsetsu Yumemi Yakata - Tobira no Oku ni Dareka ga... (5M)"
+		],
+		"Mass Destruction": [
+			"Mass Destruction - Otousan ni mo Dekiru Soft"
+		],
+		"MechWarrior 2 - 31st Century Combat - Arcade Combat Edition": [
+			"MechWarrior 2"
+		],
+		"Mega Man 8": [
+			"Rockman 8 - Metal Heroes"
+		],
+		"Mega Man X3": [
+			"Rockman X3 (2M)"
+		],
+		"Mega Man X4": [
+			"Rockman X4 (1M)",
+			"Rockman X4 (3M)"
+		],
+		"Minnesota Fats - Pool Legend (R)": [
+			"Side Pocket 2 - Densetsu no Hustler"
+		],
+		"Momotarou Douchuuki (11M)": [
+			"Momotarou Douchuuki (2M)",
+			"Momotarou Douchuuki (1M)"
+		],
+		"Mortal Kombat II": [
+			"Mortal Kombat II Kanzenban (4S)"
+		],
+		"Mystaria - The Realms of Lore": [
+			"Blazing Heroes",
+			"Riglordsaga (Made in Japan)",
+			"Riglordsaga (Made in U.S.A.) (1S)",
+			"Riglordsaga (Made in U.S.A.) (4S)"
+		],
+		"NBA Jam - Tournament Edition (3S)": [
+			"NBA Jam - Tournament Edition"
+		],
+		"NFL Quarterback Club '96 (5S)": [
+			"NFL Quarterback Club '96"
+		],
+		"NFL Quarterback Club 97": [
+			"NFL Quarterback Club '97"
+		],
+		"NHL All-Star Hockey (2S)": [
+			"NHL All-Star Hockey (1S)",
+			"NHL All-Star Hockey"
+		],
+		"Night Warriors - Darkstalkers' Revenge": [
+			"Vampire Hunter - Darkstalkers' Revenge (1M)",
+			"Vampire Hunter - Darkstalkers' Revenge (2M, 4M)",
+			"Vampire Hunter - Darkstalkers' Revenge (3M)"
+		],
+		"Nanatsu no Hikan (Disc 1) (2M)": [
+			"Nanatsu no Hikan (Disc 1) (1M)"
+		],
+		"NiGHTS into Dreams... (with 3D Control Pad) (RE)": [
+			"NiGHTS into Dreams..."
+		],
+		"Norse by Norsewest - The Return of the Lost Vikings": [
+			"Lost Vikings 2 - Norse by Norsewest"
+		],
+		"P.T.O. - Pacific Theater of Operations II": [
+			"Teitoku no Ketsudan II"
+		],
+		"Pandemonium!": [
+			"Magical Hoppers"
+		],
+		"Panic-chan (11M)": [
+			"Panic-chan (10M)"
+		],
+		"Panzer Dragoon (5S)": [
+			"Panzer Dragoon",
+			"Panzer Dragoon (3A, 3B)",
+			"Panzer Dragoon (4B)",
+			"Panzer Dragoon (5A)",
+			"Panzer Dragoon (1S)"
+		],
+		"Panzer Dragoon Saga (Disc 1)": [
+			"Azel - Panzer Dragoon RPG (Disc 1) (1M)",
+			"Azel - Panzer Dragoon RPG (Disc 1) (2M)"
+		],
+		"Panzer Dragoon Saga (Disc 2)": [
+			"Azel - Panzer Dragoon RPG (Disc 2) (2M)"
+		],
+		"Panzer Dragoon Saga (Disc 3)": [
+			"Azel - Panzer Dragoon RPG (Disc 3) (1M)",
+			"Azel - Panzer Dragoon RPG (Disc 3) (2M)"
+		],
+		"Panzer Dragoon Saga (Disc 4)": [
+			"Azel - Panzer Dragoon RPG (Disc 4) (2M, 3M)"
+		],
+		"Parodius": [
+			"Gokujou Parodius Da! Deluxe Pack"
+		],
+		"Pebble Beach Golf Links": [
+			"Pebble Beach Golf Links (3S)",
+			"Pebble Beach Golf Links (4S)",
+			"Pebble Beach Golf Links - Stadler ni Chousen"
+		],
+		"PhantasM (Disc 6) (5M)": [
+			"PhantasM (Disc 6) (4M)"
+		],
+		"Photo CD Operating System (2S)": [
+			"Photo CD Operating System"
+		],
+		"Pia Carrot e Youkoso!! 2 (Disc 1) (Game Disc) (4M)": [
+			"Pia Carrot e Youkoso!! 2 (Disc 1) (Game Disc) (2M)",
+			"Pia Carrot e Youkoso!! 2 (Disc 1) (Game Disc) (3M)"
+		],
+		"Pia Carrot e Youkoso!! 2 (Disc 2) (Special Disc) (2M)": [
+			"Pia Carrot e Youkoso!! 2 (Disc 2) (Special Disc) (1M)"
+		],
+		"Powerslave": [
+			"Exhumed",
+			"Seireki 1999 - Pharaoh no Fukkatsu"
+		],
+		"Princess Crown (11M)": [
+			"Princess Crown (1M)"
+		],
+		"Princess Maker 2 (4M)": [
+			"Princess Maker 2 (1M)"
+		],
+		"Princess Quest (11M)": [
+			"Princess Quest"
+		],
+		"Pro-Pinball": [
+			"Pro-Pinball - The Web"
+		],
+		"Puyo Puyo Sun (10M)": [
+			"Puyo Puyo Sun (1M, 3M)",
+			"Puyo Puyo Sun (2M)"
+		],
+		"Puyo Puyo Tsuu (3M)": [
+			"Puyo Puyo Tsuu (1M)"
+		],
+		"Puzzle Bobble 2X (2M2)": [
+			"Puzzle Bobble 2X (2M1, 2MB1)"
+		],
+		"Puzzle Bobble 3 (2M)": [
+			"Puzzle Bobble 3 (1M)"
+		],
+		"Rayman (R2)": [
+			"Rayman (1S)",
+			"Rayman (6S)",
+			"Rayman"
+		],
+		"Real Sound - Kaze no Regret (Disc 1) (4M)": [
+			"Real Sound - Kaze no Regret (Disc 1) (2M, 3M)"
+		],
+		"Real Sound - Kaze no Regret (Disc 2) (2M)": [
+			"Real Sound - Kaze no Regret (Disc 2) (1M)"
+		],
+		"Real Sound - Kaze no Regret (Disc 3) (2M)": [
+			"Real Sound - Kaze no Regret (Disc 3) (1M)"
+		],
+		"Real Sound - Kaze no Regret (Disc 4) (3M)": [
+			"Real Sound - Kaze no Regret (Disc 4) (2M)"
+		],
+		"Resident Evil": [
+			"Bio Hazard"
+		],
+		"Return to Zork (10M)": [
+			"Return to Zork (1M)"
+		],
+		"Revolution X - Music Is the Weapon": [
+			"Revolution X - Music Is the Weapon (5S)",
+			"Revolution X - Music Is the Weapon (10S)"
+		],
+		"Riglordsaga 2 (2M)": [
+			"Riglordsaga 2 (1M)"
+		],
+		"Riven - The Sequel to Myst (Disc 1)": [
+			"Riven - A Sequencia de Myst (Disc 1)"
+		],
+		"Riven - The Sequel to Myst (Disc 2)": [
+			"Riven - A Sequencia de Myst (Disc 2)"
+		],
+		"Riven - The Sequel to Myst (Disc 3)": [
+			"Riven - A Sequencia de Myst (Disc 3)"
+		],
+		"Riven - The Sequel to Myst (Disc 4)": [
+			"Riven - A Sequencia de Myst (Disc 4)"
+		],
+		"Road & Track Presents - The Need for Speed": [
+			"Nissan Presents - Over Drivin' GT-R"
+		],
+		"Robotica": [
+			"Deadalus (1M)",
+			"Deadalus (2A)",
+			"Deadalus (3A)",
+			"Robotica - Cybernation Revolt"
+		],
+		"Romance of the Three Kingdoms IV - Wall of Fire": [
+			"Sanguozhi IV",
+			"Sangokushi IV",
+			"Sangokushi IV with Power-Up Kit"
+		],
+		"Sakura Taisen (Disc 1) (7M, 9M, 10M)": [
+			"Sakura Taisen (Disc 1) (6M)",
+			"Sakura Taisen (Disc 1) (8M)"
+		],
+		"Sakura Taisen (Disc 2) (8M, 9M)": [
+			"Sakura Taisen (Disc 2) (6M)",
+			"Sakura Taisen (Disc 2) (7M)"
+		],
+		"Sakura Taisen - Hanagumi Taisen Columns (2M)": [
+			"Sakura Taisen - Hanagumi Taisen Columns (1M)"
+		],
+		"Sakura Taisen - Hanagumi Tsuushin (2M)": [
+			"Sakura Taisen - Hanagumi Tsuushin (1M)"
+		],
+		"Sakura Taisen 2 - Kimi, Shinitamou Koto Nakare (Disc 1) (10M)": [
+			"Sakura Taisen 2 - Kimi, Shinitamou Koto Nakare (Disc 1) (Shokai Tokutenban)",
+			"Sakura Taisen 2 - Kimi, Shinitamou Koto Nakare (Disc 1) (Shokai Tokutenban) (1M, 3M, 4M)"
+		],
+		"Sakura Taisen 2 - Kimi, Shinitamou Koto Nakare (Disc 2) (10M, 11M)": [
+			"Sakura Taisen 2 - Kimi, Shinitamou Koto Nakare (Disc 2) (Shokai Tokutenban)",
+			"Sakura Taisen 2 - Kimi, Shinitamou Koto Nakare (Disc 2) (Shokai Tokutenban) (1M, 2M, 4M)"
+		],
+		"Sakura Taisen 2 - Kimi, Shinitamou Koto Nakare (Disc 3) (12M)": [
+			"Sakura Taisen 2 - Kimi, Shinitamou Koto Nakare (Disc 3) (Shokai Tokutenban)",
+			"Sakura Taisen 2 - Kimi, Shinitamou Koto Nakare (Disc 3) (Shokai Tokutenban) (2M)",
+			"Sakura Taisen 2 - Kimi, Shinitamou Koto Nakare (Disc 3) (Shokai Tokutenban) (3M, 4M, 5M)"
+		],
+		"Sangokushi V": [
+			"Sanguozhi V"
+		],
+		"Sangokushi Koumeiden": [
+			"Sanguozhi Yingjiezhuan"
+		],
+		"Saturn Bomberman (1S)": [
+			"Saturn Bomberman",
+			"Saturn Bomberman (SegaNet)"
+		],
+		"Saturn Super Vol. 2 (6M)": [
+			"Saturn Super Vol. 2 (1M)",
+			"Saturn Super Vol. 2 (2M)"
+		],
+		"Saturn Super Vol. 6 (2M)": [
+			"Saturn Super Vol. 6 (1M)"
+		],
+		"Scorcher (RE)": [
+			"Scorcher"
+		],
+		"Sega Ages - Space Harrier (13M)": [
+			"Sega Ages - Space Harrier (11M)",
+			"Sega Ages - Space Harrier (1M)"
+		],
+		"Sega Rally Championship": [
+			"Sega Rally Championship (Made in EU)",
+			"Sega Rally Championship (Made in USA)"
+		],
+		"Sega Rally Championship Plus Netlink Edition": [
+			"Sega Rally Championship Plus"
+		],
+		"Sega Saturn Choice Cuts (RE)": [
+			"Sega Saturn Choice Cuts (R2)"
+		],
+		"Sega Worldwide Soccer '97": [
+			"Sega Worldwide Soccer 97",
+			"Victory Goal Worldwide Edition"
+		],
+		"Seifuku Densetsu - Pretty Fighter X (2B)": [
+			"Seifuku Densetsu - Pretty Fighter X (1M)"
+		],
+		"Senkutsu Katsuryu Taisen - Chaos Seed (Disc 1) (21M)": [
+			"Senkutsu Katsuryu Taisen - Chaos Seed (Disc 1) (10M)"
+		],
+		"Sentimental Graffiti (Disc 1) (Game Disc) (5M)": [
+			"Sentimental Graffiti (Disc 1) (Game Disc) (1M)",
+			"Sentimental Graffiti (Disc 1) (Game Disc) (2M)",
+			"Sentimental Graffiti (Disc 1) (Game Disc) (4M)"
+		],
+		"Sentimental Graffiti (Disc 2) (Second Window) (5M)": [
+			"Sentimental Graffiti (Disc 2) (Second Window) (1M, 2M)",
+			"Sentimental Graffiti (Disc 2) (Second Window) (4M)"
+		],
+		"Shanghai - Triple-Threat": [
+			"Shanghai - Banri no Choujou - The Great Wall (1M)",
+			"Shanghai - Banri no Choujou - The Great Wall (15M)"
+		],
+		"Shin Seiki Evangelion - 2nd Impression (Made in U.S.A.)": [
+			"Shin Seiki Evangelion - 2nd Impression (Made in Japan)"
+		],
+		"Shinobi Legions": [
+			"Shin Shinobi Den",
+			"Shinobi-X - Shin Shinobi Den"
+		],
+		"Shining Force III": [
+			"Shining Force III (R)",
+			"Shining Force III - Scenario 1 - Outo no Kyoshin"
+		],
+		"Shining the Holy Ark": [
+			"Shining the Holy Ark (3M)",
+			"Shining the Holy Ark (1M)"
+		],
+		"Solar Eclipse (2S)": [
+			"Titan Wars"
+		],
+		"Solo Crisis (2M)": [
+			"Solo Crisis (1M)"
+		],
+		"Sonic 3D Blast": [
+			"Sonic 3D - Flickies' Island"
+		],
+		"Sonic R": [
+			"Sonic R (2M)",
+			"Sonic R (1M)"
+		],
+		"Sotsugyou II - Neo Generation (2M)": [
+			"Sotsugyou II - Neo Generation (1M)"
+		],
+		"Sound Novel Machi (Disc 2) (10.13-10.15 Incl.) (2M)": [
+			"Sound Novel Machi (Disc 2) (10.13-10.15 Incl.) (1M)"
+		],
+		"Star Fighter": [
+			"StarFighter 3000"
+		],
+		"Street Fighter - The Movie": [
+			"Street Fighter - The Movie (2S)",
+			"Street Fighter - The Movie (4S)",
+			"Street Fighter - Real Battle on Film (4M)"
+		],
+		"Street Fighter Alpha - Warriors' Dreams": [
+			"Street Fighter Zero (1M)",
+			"Street Fighter Zero (2M)",
+			"Street Fighter Zero (10M)"
+		],
+		"Street Fighter Alpha 2": [
+			"Street Fighter Zero 2"
+		],
+		"Street Fighter Collection (Disc 1)": [
+			"Street Fighter Collection (Disc 1) (R)"
+		],
+		"Street Fighter Collection (Disc 2)": [
+			"Street Fighter Collection (Disc 2) (R)"
+		],
+		"Street Racer": [
+			"Street Racer Extra"
+		],
+		"Super Adventure Rockman (Disc 1) (Episode 1 - Tsuki no Shinden) (1M)": [
+			"Super Adventure Rockman (Disc 1) (Episode 1 - Tsuki no Shinden)"
+		],
+		"Super Adventure Rockman (Disc 2) (Episode 2 - Shitou! Wily Numbers) (1M)": [
+			"Super Adventure Rockman (Disc 2) (Episode 2 - Shitou! Wily Numbers)"
+		],
+		"Super Adventure Rockman (Disc 3) (Episode 3 - Saigo no Tatakai!!) (1M)": [
+			"Super Adventure Rockman (Disc 3) (Episode 3 - Saigo no Tatakai!!)"
+		],
+		"Super Puzzle Fighter II Turbo": [
+			"Super Puzzle Fighter II X"
+		],
+		"Super Robot Taisen F (21M)": [
+			"Super Robot Taisen F (10M, 11M, 12M, 13M)"
+		],
+		"Super Robot Taisen F - Kanketsu-hen (11M)": [
+			"Super Robot Taisen F - Kanketsu-hen (2M, 3M)",
+			"Super Robot Taisen F - Kanketsu-hen (5M)",
+			"Super Robot Taisen F - Kanketsu-hen (10M)"
+		],
+		"Sword & Sorcery (10M)": [
+			"Sword & Sorcery (2M)"
+		],
+		"Taikou Risshiden II (10M)": [
+			"Taikou Risshiden II (2M)"
+		],
+		"Tanjou - Debut S (5M)": [
+			"Tanjou - Debut S (1M)"
+		],
+		"Terry Pratchett's Discworld": [
+			"Discworld"
+		],
+		"Theme Park": [
+			"Shin Theme Park"
+		],
+		"Three Dirty Dwarves (RE)": [
+			"Three Dirty Dwarves",
+			"Three Dirty Dwarves (2M)"
+		],
+		"Thunderstrike 2": [
+			"Firestorm - Thunderhawk 2",
+			"Thunderhawk II"
+		],
+		"TNN Motor Sports HardCore 4X4": [
+			"Deka Yonku - Tough the Truck",
+			"Hardcore 4x4"
+		],
+		"Tokimeki Memorial - Forever with You (2M)": [
+			"Tokimeki Memorial - Forever with You (1M)"
+		],
+		"Tokimeki Memorial Taisen Puzzledama (2M)": [
+			"Tokimeki Memorial Taisen Puzzledama (1M)"
+		],
+		"Tomb Raider": [
+			"Tomb Raiders"
+		],
+		"True Pinball": [
+			"Tekkyuu - True Pinball"
+		],
+		"Tunnel B1": [
+			"3D Mission Shooting - Finalist"
+		],
+		"Valora Valley Golf": [
+			"Hyper Golf, The - Devil's Course"
+		],
+		"Victory Goal (3A)": [
+			"Victory Goal (1A)",
+			"Victory Goal (2B)"
+		],
+		"Virtua Cop (8S, 12S)": [
+			"Virtua Cop",
+			"Virtua Cop (2S)",
+			"Virtua Cop (4S)",
+			"Virtua Cop (1M)",
+			"Virtua Cop (2M)",
+			"Virtua Cop (6S)",
+			"Virtua Cop (7S)"
+		],
+		"Virtua Cop 2": [
+			"Virtua Cop 2 (2M)",
+			"Virtua Cop 2 (3M)",
+			"Virtua Cop 2 (23M)"
+		],
+		"Virtua Fighter": [
+			"Virtua Fighter (Made in EU)",
+			"Virtua Fighter (Made in USA)"
+		],
+		"Virtua Fighter 2 (RE)": [
+			"Virtua Fighter 2 (Made in EU)",
+			"Virtua Fighter 2 (Made in USA)",
+			"Virtua Fighter 2 (32B, 37M)",
+			"Virtua Fighter 2 (35C)",
+			"Virtua Fighter 2 (36C)",
+			"Virtua Fighter 2 (39B)",
+			"Virtua Fighter 2 (42M)",
+			"Virtua Fighter 2"
+		],
+		"Virtua Fighter CG Portrait Collection": [
+			"Virtua Fighter CG Portrait Series - The Final - Dural",
+			"Virtua Fighter CG Portrait Series Vol. 1 - Sarah Bryant (1M)",
+			"Virtua Fighter CG Portrait Series Vol. 10 - Jeffry McWild (4M)",
+			"Virtua Fighter CG Portrait Series Vol. 2 - Jacky Bryant",
+			"Virtua Fighter CG Portrait Series Vol. 3 - Akira Yuki (2M)",
+			"Virtua Fighter CG Portrait Series Vol. 4 - Pai Chan (2M)",
+			"Virtua Fighter CG Portrait Series Vol. 4 - Pai Chan (3M)",
+			"Virtua Fighter CG Portrait Series Vol. 5 - Wolf Hawkfield",
+			"Virtua Fighter CG Portrait Series Vol. 6 - Lau Chan (4M)",
+			"Virtua Fighter CG Portrait Series Vol. 7 - Shun Di (2M)",
+			"Virtua Fighter CG Portrait Series Vol. 8 - Lion Rafale (2M)",
+			"Virtua Fighter CG Portrait Series Vol. 9 - Kage Maru (2M)"
+		],
+		"Virtua Fighter Kids": [
+			"Virtua Fighter Kids (Java Tea Original)"
+		],
+		"Virtua Fighter Remix": [
+			"Virtua Fighter Remix (4M)",
+			"Virtua Fighter Remix (5M)",
+			"Virtua Fighter Remix (6M)",
+			"Virtua Fighter Remix (SegaNet)"
+		],
+		"Virtua Racing (15S)": [
+			"Virtua Racing (12S)",
+			"Virtua Racing"
+		],
+		"Virtual Golf": [
+			"Tournament Leader"
+		],
+		"Virtual Hydlide (P5H)": [
+			"Virtual Hydlide",
+			"Virtual Hydlide (2M)",
+			"Virtual Hydlide (P4H)"
+		],
+		"Virtual On - Cyber Troopers": [
+			"Dennou Senki - Virtual On - Cyber Troopers"
+		],
+		"Virtual On - Cyber Troopers Net Link Edition": [
+			"Dennou Senki - Virtual On - Cyber Troopers for SegaNet"
+		],
+		"VR Golf '97": [
+			"Actua Golf"
+		],
+		"VR Soccer": [
+			"Actua Soccer",
+			"Actua Soccer - Club Edition"
+		],
+		"Waku Waku Puyo Puyo Dungeon (4M)": [
+			"Waku Waku Puyo Puyo Dungeon (3M)"
+		],
+		"Wing Arms": [
+			"Wing Arms - Kareinaru Gekitsuiou"
+		],
+		"Winning Post 2 (10M)": [
+			"Winning Post 2 (2M)"
+		],
+		"WipEout": [
+			"WipEout (2M)"
+		],
+		"WipEout 2097": [
+			"Wipeout XL"
+		],
+		"Wizard's Harmony 2 (2M)": [
+			"Wizard's Harmony 2 (1M)"
+		],
+		"World Advanced Daisenryaku - Sakusen File (2M)": [
+			"World Advanced Daisenryaku - Sakusen File (1M)"
+		],
+		"World Cup Golf - Professional Edition (RE2)": [
+			"World Cup Golf - Professional Edition",
+			"World Cup Golf - Professional Edition (1S)",
+			"World Cup Golf - Professional Edition (3S)",
+			"World Cup Golf - In Hyatt Dorado Beach"
+		],
+		"World Series Baseball": [
+			"Hideo Nomo World Series Baseball"
+		],
+		"World Series Baseball II (2S)": [
+			"World Series Baseball II",
+			"World Series Baseball II (1S)"
+		],
+		"Worldwide Soccer '98": [
+			"Sega Worldwide Soccer '98 - Club Edition"
+		],
+		"Worldwide Soccer - Sega International Victory Goal Edition (RE)": [
+			"International Victory Goal",
+			"Sega International Victory Goal (5M)",
+			"Worldwide Soccer - Sega International Victory Goal Edition"
+		],
+		"X-Men - Children of the Atom": [
+			"X-Men - Children of the Atom (2S)",
+			"X-Men - Children of the Atom (3S)"
+		],
+		"X-Men vs. Street Fighter (3M)": [
+			"X-Men vs. Street Fighter (1M)",
+			"X-Men vs. Street Fighter (2M)"
+		],
+		"Yuukyuu no Kobako Official Collection (1M)": [
+			"Yuukyuu no Kobako Official Collection"
+		]
+    },
+    "supersets": {
+        "Daytona USA C.C.E. Net Link Edition": [
+            "Daytona USA (1S)",
+            "Daytona USA (2S)",
+            "Daytona USA"
+        ],
+        "Falcom Classics II (Genteiban)": [
+            "Falcom Classics II"
+        ],
+        "Funky Head Boxers Plus": [
+            "Funky Head Boxers"
+        ],
+        "Ginga Eiyuu Densetsu Plus": [
+            "Ginga Eiyuu Densetsu"
+        ],
+        "Lunar - Silver Star Story Complete": [
+            "Lunar - Silver Star Story"
+        ],
+        "Magic Knight Rayearth (Genteiban) (3M)": [
+            "Magic Knight Rayearth (4M)",
+            "Magic Knight Rayearth"
+        ],
+        "Puyo Puyo Sun for SegaNet": [
+            "Puyo Puyo Sun (10M)",
+            "Puyo Puyo Sun (1M, 3M)",
+            "Puyo Puyo Sun (2M)"
+        ],
+        "Puzzle Bobble 3 for SegaNet": [
+            "Puzzle Bobble 3 (1M)",
+            "Puzzle Bobble 3 (2M)"
+        ],
+        "Real Mahjong Adventure Umi e - Summer Waltz (P's Club Genteiban)": [
+            "Real Mahjong Adventure Umi e - Summer Waltz"
+        ],
+        "Sega Rally Championship Plus Netlink Edition": [
+            "Sega Rally Championship (Made in EU)",
+            "Sega Rally Championship (Made in USA)",
+            "Sega Rally Championship"
+        ],
+        "Slam 'n Jam '96 featuring Magic & Kareem - Signature Edition": [
+            "Slam 'n Jam '96 featuring Magic & Kareem"
+        ],
+        "Teitoku no Ketsudan III with Power-Up Kit": [
+            "Teitoku no Ketsudan III"
+        ],
+        "Tokimeki Memorial - Forever with You (Special-ban) (2M)": [
+            "Tokimeki Memorial - Forever with You (1M)",
+            "Tokimeki Memorial - Forever with You (2M)"
+        ],
+        "Virtua Fighter Remix": [
+            "Virtua Fighter (Made in EU)",
+            "Virtua Fighter (Made in USA)",
+            "Virtua Fighter"
+        ]
+    }
+}

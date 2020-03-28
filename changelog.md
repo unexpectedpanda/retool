@@ -1,3 +1,22 @@
+# 0.57
+- Separated removing coverdiscs from demos (-d), making it its own option (-b).
+  Turns out plenty of full version games were given away as coverdiscs.
+- Made handling the XML definition in a dat a bit more robust.
+- Fixed importing of CLRMAMEPro dat files.
+- When a parent or clone of a superset, override, or compilation title is not
+  found, it no longer crashes Retool or silently fails, but tells you what's
+  missing.
+- Added "Teil" as a synonym for "Disc", to automatically pick up some German
+  titles.
+- Added a '-g' option, which is shorthand for all options (-abcdemps).
+- Added Th as a language.
+- Converted clone lists to JSON so they're more portable, and binaries don't
+  require an update every time the clones update.
+- Fixed a bug in selecting supersets.
+- Noted that supersets only currently really work if you follow Retool region
+  order. Otherwise current limitations in dat format and dat managers get in
+  the way.
+
 # 0.56
 - Messed with the region order a little to be more fair to more popular
   languages, taking in mind how many titles were actually released for

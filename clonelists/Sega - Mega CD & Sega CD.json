@@ -1,0 +1,260 @@
+{
+    "description": {
+        "name": [
+            "Sega - Mega CD & Sega CD"
+        ],
+        "last updated": "23 Mar 2020"
+    },
+
+    "renames": {
+		"A-X-101 (RE)": [
+			"AX-101"
+		],
+		"AH3 - Thunderstrike": [
+			"Thunderhawk",
+			"Thunderhawk (RE)"
+		],
+		"Android Assault - The Revenge of Bari-Arm": [
+			"Bari-Arm"
+		],
+		"Battle Frenzy (Unl)": [
+			"Bloodshot ~ Battle Frenzy"
+		],
+		"Blackhole Assault": [
+			"Black Hole Assault"
+		],
+		"Championship Soccer '94": [
+			"Sensible Soccer"
+		],
+		"Cobra Command": [
+			"Thunder Storm FX"
+		],
+		"Compton's Interactive Encyclopedia (Version 2.10) (RE2)": [
+			"Compton's Interactive Encyclopedia (Version 2.00S)",
+			"Compton's Interactive Encyclopedia (Version 2.01R)",
+			"Compton's Interactive Encyclopedia (Version 2.01S)"
+		],
+		"Corpse Killer (Sega CD 32X)": [
+			"Corpse Killer (Mega-CD 32X)"
+		],
+		"Dark Wizard": [
+			"Dark Wizard - Yomigaerishi Yami no Madoushi"
+		],
+		"Dracula Unleashed (Disc 1)": [
+			"Dracula Unleashed (Disc 1) (Made in E.U.)",
+			"Dracula Unleashed (Disc 1) (Made in Japan)"
+		],
+		"Dracula Unleashed (Disc 2)": [
+			"Dracula Unleashed (Disc 2) (Made in Japan)"
+		],
+		"Dungeon Master II - Skullkeep (RE3)": [
+			"Dungeon Master II - Skullkeep"
+		],
+		"Earthworm Jim - Special Edition (RE)": [
+			"Earthworm Jim - Special Edition"
+		],
+		"Ecco the Dolphin": [
+			"Ecco the Dolphin CD (Disc 1) (Ecco the Dolphin)"
+		],
+		"Ecco - The Tides of Time": [
+			"Ecco the Dolphin CD (Disc 2) (Ecco the Dolphin II)"
+		],
+		"Eternal Champions - Challenge from the Dark Side (RE)": [
+			"Eternal Champions - Challenge from the Dark Side"
+		],
+		"Fahrenheit (Disc 1) (Key Disc) (Sega CD)": [
+			"Fahrenheit"
+		],
+		"Fatal Fury Special": [
+			"Garou Densetsu Special"
+		],
+		"FIFA International Soccer": [
+			"FIFA International Soccer - Championship Edition"
+		],
+		"Formula One World Championship - Beyond the Limit": [
+			"Heavenly Symphony - Formula One World Championship 1993"
+		],
+		"Jurassic Park (RE)": [
+			"Jurassic Park"
+		],
+		"Keio Flying Squadron": [
+			"Keiou Yuugekitai"
+		],
+		"Kids on Site": [
+			"Kids on Site (RE-1)"
+		],
+		"Lethal Enforcers II - Gun Fighters": [
+			"Lethal Enforcers II - The Western"
+		],
+		"Lunar - Eternal Blue (RE)": [
+			"Lunar - Eternal Blue"
+		],
+		"Lunar - The Silver Star (RE)": [
+			"Lunar - The Silver Star"
+		],
+		"Mansion of Hidden Souls": [
+			"Yumemi Mystery Mansion",
+			"Yumemi Yakata no Monogatari"
+		],
+		"Masked Rider, The - Kamen Rider ZO": [
+			"Kamen Rider ZO"
+		],
+		"Mickey Mania - The Timeless Adventures of Mickey Mouse": [
+			"Mickey Mania"
+		],
+		"Mortal Kombat": [
+			"Mortal Kombat Kanzenban"
+		],
+		"NHL '94": [
+			"NHL Hockey '94"
+		],
+		"Night Trap (Disc 1) (Sega CD 32X) (RE-1)": [
+			"Night Trap (Disc 1) (Mega-CD 32X)"
+		],
+		"Night Trap (Disc 2) (Sega CD 32X) (RE-1)": [
+			"Night Trap (Disc 2) (Mega-CD 32X)"
+		],
+		"Panic! (RE)": [
+			"Switch"
+		],
+		"Popful Mail (RE)": [
+			"PopfulMail"
+		],
+		"Power Monger": [
+			"PowerMonger"
+		],
+		"Revengers of Vengeance": [
+			"Battle Fantasy"
+		],
+		"Rise of the Dragon": [
+			"Rise of the Dragon - A Blade Hunter Mystery",
+			"Rise of the Dragon (RE)"
+		],
+		"Road Avenger": [
+			"Road Blaster FX"
+		],
+		"Robo Aleste": [
+			"Dennin Aleste - Nobunaga and His Ninja Force"
+		],
+		"Samurai Shodown (RE)": [
+			"Samurai Shodown"
+		],
+		"Secret of Monkey Island, The (RE)": [
+			"Secret of Monkey Island, The"
+		],
+		"Sega Classics Arcade Collection (4-in-1) (RE2)": [
+			"Sega Classic Arcade Collection - Limited Edition",
+			"Sega Classics Arcade Collection - Limited Edition",
+			"Sega Classics Arcade Collection (4-in-1) (RE)"
+		],
+		"Shadow of the Beast II": [
+			"Beast II",
+			"Shadow of the Beast II - Juushin no Jubaku"
+		],
+		"Shining Force CD (5R, 6R)": [
+			"Shining Force CD (3R)",
+			"Shining Force CD"
+		],
+		"Slam City with Scottie Pippen (Disc 1) (Fingers) (Sega CD 32X)": [
+			"Slam City with Scottie Pippen (Disc 1) (Fingers) (Mega-CD 32X)"
+		],
+		"Slam City with Scottie Pippen (Disc 2) (Juice) (Sega CD 32X)": [
+			"Slam City with Scottie Pippen (Disc 2) (Juice) (Mega-CD 32X)"
+		],
+		"Slam City with Scottie Pippen (Disc 3) (Mad Dog) (Sega CD 32X)": [
+			"Slam City with Scottie Pippen (Disc 3) (Mad Dog) (Mega-CD 32X)"
+		],
+		"Slam City with Scottie Pippen (Disc 4) (Smash) (Sega CD 32X)": [
+			"Slam City with Scottie Pippen (Disc 4) (Smash) (Mega-CD 32X)"
+		],
+		"Slam City with Scottie Pippen (Disc 1) (Fingers) (RE-1)": [
+			"Slam City with Scottie Pippen (Disc 1) (Fingers)"
+		],
+		"Slam City with Scottie Pippen (Disc 2) (Juice) (RE-1)": [
+			"Slam City with Scottie Pippen (Disc 2) (Juice)"
+		],
+		"Slam City with Scottie Pippen (Disc 3) (Mad Dog) (RE-1)": [
+			"Slam City with Scottie Pippen (Disc 3) (Mad Dog)"
+		],
+		"Slam City with Scottie Pippen (Disc 4) (Smash) (RE-1)": [
+			"Slam City with Scottie Pippen (Disc 4) (Smash)"
+		],
+		"Supreme Warrior (Disc 1) (Fire & Earth)": [
+			"Supreme Warrior (Disc 1)"
+		],
+		"Supreme Warrior (Disc 2) (Wind & Fang Tu)": [
+			"Supreme Warrior (Disc 2)"
+		],
+		"Supreme Warrior (Disc 1) (Fire & Earth) (Sega CD 32X)": [
+			"Supreme Warrior (Disc 1) (Mega-CD 32X)"
+		],
+		"Supreme Warrior (Disc 2) (Wind & Fang Tu) (Sega CD 32X)": [
+			"Supreme Warrior (Disc 2) (Mega-CD 32X)"
+		],
+		"Sol-Feace (RE2)": [
+			"Sol-Feace"
+		],
+		"Sonic CD": [
+			"Sonic The Hedgehog CD"
+		],
+		"Third World War": [
+			"IIIrd World War, The"
+		],
+		"Vay": [
+			"Vay - Ryuusei no Yoroi"
+		],
+		"Wonder Dog (RE)": [
+			"Wonder Dog"
+		],
+		"WWF - Rage in the Cage": [
+			"WWF Mania Tour - WWF - Rage in the Cage"
+		],
+		"Yumemi Mystery Mansion (Made in EU)": [
+			"Yumemi Mystery Mansion (Made in Japan)"
+		]
+    },
+
+    "supersets": {
+        "Corpse Killer (Sega CD 32X)": [
+            "Corpse Killer"
+        ],
+        "Fahrenheit (Disc 2) (32X CD)": [
+            "Fahrenheit"
+        ],
+        "Night Trap (Disc 1) (Sega CD 32X) (RE-1)": [
+            "Night Trap (Disc 1)"
+        ],
+        "Night Trap (Disc 2) (Sega CD 32X) (RE-1)": [
+            "Night Trap (Disc 2)"
+        ],
+        "Sega Classics Arcade Collection (5-in-1)": [
+            "Sega Classic Arcade Collection - Limited Edition",
+            "Sega Classics Arcade Collection (4-in-1) (RE)",
+            "Sega Classics Arcade Collection (4-in-1) (RE2)",
+            "Sega Classics Arcade Collection - Limited Edition"
+        ],
+        "Slam City with Scottie Pippen (Disc 1) (Fingers) (Sega CD 32X)": [
+            "Slam City with Scottie Pippen (Disc 1) (Fingers)"
+        ],
+        "Slam City with Scottie Pippen (Disc 2) (Juice) (Sega CD 32X)": [
+            "Slam City with Scottie Pippen (Disc 2) (Juice)"
+        ],
+        "Slam City with Scottie Pippen (Disc 3) (Mad Dog) (Sega CD 32X)": [
+            "Slam City with Scottie Pippen (Disc 3) (Mad Dog)"
+        ],
+        "Slam City with Scottie Pippen (Disc 4) (Smash) (Sega CD 32X)": [
+            "Slam City with Scottie Pippen (Disc 4) (Smash)"
+        ],
+        "Supreme Warrior (Disc 1) (Fire & Earth) (Sega CD 32X)": [
+            "Supreme Warrior (Disc 1) (Fire & Earth)",
+            "Supreme Warrior (Disc 1)"
+        ],
+        "Supreme Warrior (Disc 2) (Wind & Fang Tu) (Sega CD 32X)": [
+            "Supreme Warrior (Disc 2) (Wind & Fang Tu)",
+            "Supreme Warrior (Disc 2)"
+        ],
+        "Surgical Strike (Sega CD 32X)": [
+            "Surgical Strike"
+        ]
+    }
+}
