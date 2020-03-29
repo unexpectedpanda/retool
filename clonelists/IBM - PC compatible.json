@@ -46,7 +46,10 @@
         "Hallo! 2 (Germany) (Disc 6)",
         "Hallo! 2 (Germany) (Disc 8)",
         "Hallo! 2 (Germany) (Disc 9)",
-        "Hand of Fate + IndyCar Racing & Track Pack (Europe)"
+		"Hand of Fate + IndyCar Racing & Track Pack (Europe)",
+		"Jewel Quest & Jewel Quest II",
+		"Komputer Swiat Gry 10-2003",
+		"Magic Carpet & PGA Tour 96"
     ],
 
     "renames": {
@@ -80,7 +83,8 @@
 			"Abomination - The Nemesis Project"
 		],
 		"Ace Ventura": [
-			"Ace Ventura - Detective de mascotas"
+			"Ace Ventura - Detective de mascotas",
+			"Komputer Swiat Gry 10-2004 (Disc 1)"
 		],
 		"Activision's Atari 2600 Action Pack for Windows 95": [
 			"Activision's Atari 2600 Action Pack"
@@ -212,7 +216,8 @@
 		],
 		"Anno 1602 - Creation of a New World": [
 			"Anno 1602 - Creacion de un Nuevo Mundo",
-			"Anno 1602 - Erschaffung einer neuen Welt"
+			"Anno 1602 - Erschaffung einer neuen Welt",
+			"Komputer Swiat Gry 2-2006"
 		],
 		"Anno 1602 - Erschaffung einer neuen Welt - Koenigs-Edition": [
 			"Anno 1602 - Creatie van een Nieuwe Wereld - Gold Edition"
@@ -240,6 +245,15 @@
 		],
 		"Arthur's Knights - Chapter II - The Secret of Merlin (Disc 3)": [
 			"Bradwen - Il Cavaliere di Re Artu (Disc 3)"
+		],
+		"Arthur's Knights - Tales of Chivalry (Disc 1)": [
+			"Koenig Artus - Die Ritter der Tafelrunde (Disc 1)"
+		],
+		"Arthur's Knights - Tales of Chivalry (Disc 2)": [
+			"Koenig Artus - Die Ritter der Tafelrunde (Disc 2)"
+		],
+		"Arthur's Knights - Tales of Chivalry (Disc 3)": [
+			"Koenig Artus - Die Ritter der Tafelrunde (Disc 3)"
 		],
 		"Arx Fatalis": [
 			"Arx Fatalis (52D18519)",
@@ -560,6 +574,9 @@
 		"Chronicles of Narnia, The - The Lion, the Witch and the Wardrobe (Disc 1) (Play Disc)": [
 			"Cronache di Narnia, Le - Il leone, la strega e l'armadio"
 		],
+		"Chronicles of Riddick, The - Escape from Butcher Bay - Developer's Cut": [
+			"Kroniki Riddicka - Ucieczka z Butcher Bay - Edycja Rozszerzona"
+		],
 		"Civil War, The": [
 			"Amerika 1861-1865"
 		],
@@ -580,6 +597,9 @@
 		],
 		"Chrome (Disc 1)": [
 			"Chrome"
+		],
+		"Claw": [
+			"Kapitan Pix"
 		],
 		"Close Combat - A Bridge Too Far": [
 			"Close Combat - Die Bruecke von Arnheim"
@@ -763,6 +783,12 @@
 		"Crime Cities (Disc 1)": [
 			"Crime Cities"
 		],
+		"Crystal Key, The (Disc 1)": [
+			"Kristallnyckeln (Disc 1)"
+		],
+		"Crystal Key, The (Disc 2)": [
+			"Kristallnyckeln (Disc 2)"
+		],
 		"CSI - Crime Scene Investigation (Disc 1)": [
 			"Experts, Les - Une Aventure Palpitante au Coeur du Crime"
 		],
@@ -918,6 +944,9 @@
 		],
 		"Dino Island Deluxe": [
 			"Dino Island"
+		],
+		"Director of Football": [
+			"Kicker Fussball Manager"
 		],
 		"Disciples II - Dark Prophecy (Disc 1)": [
 			"Disciples II - Kanun Ragnareka (Disc 1)"
@@ -1254,7 +1283,8 @@
 			"Far Cry (Install Disc 3)",
 			"Far Cry (Install Disc 4)",
 			"Far Cry (Install Disc 5)",
-			"Far Cry (Play & Install Disc 1)"
+			"Far Cry (Play & Install Disc 1)",
+			"Komputer Swiat Gry Extra Najwieksze Przeboje 1-2008"
 		],
 		"FIFA - Road to World Cup 98": [
 			"FIFA - Die WM-Qualifikation 98"
@@ -1376,6 +1406,9 @@
 		"Gangsters - Organized Crime": [
 			"Gangsters - Crimine Organizzato",
 			"Gangsters - Organisiertes Verbrechen"
+		],
+		"Get Medieval": [
+			"Komputer Swiat Gry 5-6-2000"
 		],
 		"Gifty - Ein Geschenk des Himmels": [
 			"Gift"
@@ -1589,6 +1622,9 @@
 			"Hugo - Aeventyret Gar Vidare...",
 			"Hugo pa Nya Aeventyr"
 		],
+		"Hype - The Time Quest": [
+			"Komputer Swiat Gry 05-2002"
+		],
 		"IL-2 Sturmovik - 1946 (Disc 1)": [
 			"IL-2 Sturmovik - 1946"
 		],
@@ -1721,12 +1757,47 @@
 			"Jagged Alliance 2.5 - Unfinished Business (Dysk Dodatkowy)",
 			"Jagged Alliance 2 - Vozvrashchenie v Arul'ko"
 		],
+		"Jane's Combat Simulations - AH-64D Longbow (Disc 1)": [
+			"Jane's Combat Simulations - AH-64D Longbow (Limited Edition)"
+		],
+		"Jane's Combat Simulations - F-15 (Disc 1)": [
+			"Jane's Combat Simulations - F-15"
+		],
+		"Jerusalem - Les Trois Chemins de la Ville Sainte (Disc 1)": [
+			"Jerusalem - Il Pugnale Ritrovato (Disc 1)",
+			"Jerusalem - Die Heilige Stadt (Disc 1)"
+		],
+		"Jerusalem - Les Trois Chemins de la Ville Sainte (Disc 2)": [
+			"Jerusalem - Il Pugnale Ritrovato (Disc 2)",
+			"Jerusalem - Die Heilige Stadt (Disc 2)"
+		],
 		"Jetfighter II (CE72FAB1)": [
 			"CD-ROM Play 6-95",
 			"Jetfighter II (C37D8FF9)"
 		],
+		"Jewel Quest & Jewel Quest II": [
+			"Jewel Quest Collection"
+		],
+		"John Romero's Daikatana": [
+			"Daikatana"
+		],
+		"Journeyman Project 3, The - Legacy of Time": [
+			"Journeyman Project 3, The - Legacy of Time (Disc 1)",
+			"Journeyman Project 3, The - Legacy of Time (Disc 2)",
+			"Journeyman Project 3, The - Legacy of Time (Disc 3)",
+			"Journeyman Project 3, The - Legacy of Time (Disc 4)"
+		],
+		"Juggernaut (Deluxe Edition)": [
+			"Juggernaut"
+		],
 		"JumpStart 2nd Grade": [
 			"Flygande Start - Andra Klass"
+		],
+		"K. Hawk - Survival Instinct (Game Disk)": [
+			"K.Hawk - Survival Instinct"
+		],
+		"Kellogg's Football Tigers (2D6F5298)": [
+			"Kellogg's Football Tigers (0EC41D4B)"
 		],
 		"Kick Off 97": [
 			"Bestseller Games Ausgabe 28"
@@ -1737,8 +1808,13 @@
 		"King's Quest - Mask of Eternity": [
 			"Best of Sierra Nr. 21",
 			"Bravo ScreenFun 8-2003",
+			"King's Quest - La Maschera dell'Eternita",
 			"King's Quest 8 - Maske der Ewigkeit",
 			"King's Quest VIII - Masque d'Eternite"
+		],
+		"King's Quest VI - Heir Today, Gone Tomorrow (6CF957C0)": [
+			"King's Quest VI - Heir Today, Gone Tomorrow",
+			"King's Quest VI - Heir Today, Gone Tomorrow (B6500EF1)"
 		],
 		"Kingdom O' Magic (Disc 1) (Thidney)": [
 			"Bestseller Games Gold-Edition Ausgabe 14 (Disc 1)"
@@ -1751,6 +1827,9 @@
 		],
 		"Knight Rider 2 - The Game": [
 			"Imperium Gier Wydanie Specjalne 1-2005 (Disc 2)"
+		],
+		"Korsar, Der": [
+			"Korsary - Prokljat'e dal'nih morej"
 		],
 		"LEGO Chess": [
 			"Ajedrez LEGO"
@@ -1797,6 +1876,20 @@
 		],
 		"Mad TV 1 + 2": [
 			"Bestseller Games Ausgabe 25"
+		],
+		"Mafia": [
+			"Mafia (Disc 1)",
+			"Mafia (Disc 2)",
+			"Mafia (Disc 3)"
+		],
+		"Mage Knight - Apocalypse (Disc 1)": [
+			"Mage Knight - Apocalypse"
+		],
+		"Magic - The Gathering": [
+			"Magic - Die Zusammenkunft"
+		],
+		"Magic Carpet - The Hidden Worlds": [
+			"Magic Carpet - Hidden Worlds Data Disk"
 		],
 		"Maniac Mansion - Day of the Tentacle": [
 			"Bestseller Games Gold-Edition Ausgabe 1"
@@ -1887,6 +1980,26 @@
 		"Pro Pinball - Timeshock!": [
 			"Bravo ScreenFun 7-2004 (Disc 2)"
 		],
+		"Pure Pinball": [
+			"Kati shary!"
+		],
+		"Queen of the Nile - Cleopatra": [
+			"Koenigin des Nils - Kleopatra"
+		],
+		"Rally Trophy": [
+			"Komputer Swiat Gry 10-2004 (Disc 2)"
+		],
+		"Rayman 2 - The Great Escape (DVD)": [
+			"Komputer Swiat Gry 03-2003",
+			"Rayman 2 - The Great Escape"
+		],
+		"Rayman 3 - Hoodlum Havoc": [
+			"Komputer Swiat Gry 9-2005 (Disc 1)",
+			"Komputer Swiat Gry 9-2005 (Disc 2)",
+			"Rayman 3 - Hoodlum Havoc (Disc 1)",
+			"Rayman 3 - Hoodlum Havoc (Disc 2)",
+			"Rayman 3 - Hoodlum Havoc (Disc 3)"
+		],
 		"Re-Volt": [
 			"Click! 10-2003 (Disc 1)"
 		],
@@ -1948,6 +2061,22 @@
 			"Secret Files - Tunguska (Disc 3)",
 			"Secret Files - Tunguska (Disc 4)"
 		],
+		"Serious Sam - The First Encounter (Gold Edition)": [
+			"Serious Sam - The First Encounter",
+			"Krutoj Sjem - Pervaja krov'",
+			"Serious Sam Gold (Disc 1)"
+		],
+		"Serious Sam - The Second Encounter (Gold Edition)": [
+			"Serious Sam - The Second Encounter",
+			"Krutoj Sjem - Vtoroe prishestvie",
+			"Serious Sam Gold (Disc 2)"
+		],
+		"Serious Sam II": [
+			"Serious Sam II (Disc 1)",
+			"Serious Sam II (Disc 2)",
+			"Serious Sam II (Disc 3)",
+			"Serious Sam II (Disc 4) (Play)"
+		],
 		"Settlers, The": [
 			"Bestseller Games Gold-Edition Ausgabe 6"
 		],
@@ -1980,6 +2109,9 @@
 		],
 		"SimCity Classic": [
 			"Bestseller Games Ausgabe 14"
+		],
+		"Sno-Cross Extreme": [
+			"Komputer Swiat Gry 04-2002"
 		],
 		"Sortileges - Rage of Mages II": [
 			"Allody II - Povelitel' dush"
@@ -2015,6 +2147,9 @@
 		],
 		"Starsky & Hutch": [
 			"Click! 07-2005 (Disc 1)"
+		],
+		"STCC - The Game": [
+			"Komputer Swiat Gry 06-2001"
 		],
 		"Stonekeep": [
 			"Bestseller Games Gold-Edition Ausgabe 15"
@@ -2701,10 +2836,51 @@
 		"Jack Orlando - A Cinematic Adventure - Director's Cut": [
 			"Jack Orlando - A Cinematic Adventure"
 		],
+		"Jane's Combat Simulations - Fighters Anthology (Disc 1)": [
+			"Jane's Combat Simulations - Advanced Tactical Fighters Gold",
+			"Jane's Combat Simulations - Advanced Tactical Fighters",
+			"Jane's Combat Simulations - USNF '97"
+		],
+		"Jane's Combat Simulations - Longbow Anthology (Disc 1)": [
+			"Jane's Combat Simulations - AH-64D Longbow (Disc 1)",
+			"Jane's Combat Simulations - AH-64D Longbow (Disc 2)",
+			"Jane's Combat Simulations - AH-64D Longbow (Limited Edition)",
+			"Jane's Combat Simulations - AH-64D Longbow - Flash Point Korea",
+			"Jane's Combat Simulations - Longbow 2 (Disc 1)",
+			"Jane's Combat Simulations - Longbow 2 (Disc 2)"
+		],
+		"Jewel Quest Collection": [
+			"Jewel Quest",
+			"Jewel Quest & Jewel Quest II",
+			"Jewel Quest - Bundle",
+			"Jewel Quest II"
+		],
+		"Joint Ops - Combined Arms Gold": [
+			"Joint Operations - Escalation (Expansion Pack)",
+			"Joint Operations - Typhoon Rising"
+		],
+		"Jungle Strike & Desert Strike": [
+			"Jungle Strike - The Sequel to Desert Strike"
+		],
+		"KKND Xtreme": [
+			"KKND - Krush, Kill 'N' Destroy"
+		],
+		"Knights and Merchants - The Shattered Kingdom & The Peasants Rebellion": [
+			"Knights and Merchants - The Peasants Rebellion",
+			"Knights and Merchants - The Shattered Kingdom"
+		],
+		"Kurka Wodna - Trylogia": [
+			"Komputer Swiat Twoj Niezbednik 1-2003 (11)"
+		],
 		"Mad TV 1 + 2": [
 			"Bestseller Games Ausgabe 25",
 			"CD-ROM Play 4-95",
 			"Mad TV 2"
+		],
+		"Magic Carpet Plus": [
+			"Magic Carpet",
+			"Magic Carpet - Hidden Worlds Data Disk",
+			"Magic Carpet - The Hidden Worlds"
 		],
 		"One Unit Whole Blood": [
 			"Blood (Disc 1) (Special Edition)",
