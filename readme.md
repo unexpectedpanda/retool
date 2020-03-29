@@ -88,9 +88,9 @@ same folder as Retool for them to be recognized.
 
 # Clonerel
 
-A tool that helps you more easily visualize parent/clone relationships in dat
-files, by generating an Excel file. Useful to track down titles that haven't
-been assigned parents yet.
+Clonerel is a tool that helps you more easily visualize parent/clone
+relationships in dat files, by generating an Excel file. Useful to track down
+titles that haven't been assigned parents yet.
 
 ## Installation
 

@@ -14,14 +14,13 @@ import time
 from lxml import etree
 from bs4 import BeautifulSoup, Doctype # For XML parsing
 
-import _version
+version = '0.58'
 
 # Require at least Python 3.5
 assert sys.version_info >= (3, 5)
 
 def main():
     # Splash screen
-    version = _version.version()
     os.system('cls' if os.name == 'nt' else 'clear')
     print(font.bold + '\nReTOOL ' + version + font.end)
     print('-----------')
@@ -112,9 +111,11 @@ def main():
         '\(Disque [A-Z0-9]\)',
         '\s?\(\d{8}\)',
         '\(Disc [A-Z].*?\)',
+        '\(Disk [A-Z].*?\)',
         '\(Disc 0[0-9]\)',
         '\s?\(Covermount\)',
         '\s?\(Hit Squad\)',
+        '\s?\(Hit Squad - Regenerator\)',
         '\s?\(Sold Out Extreme\)',
         '\s?\(Sold Out Software\)',
         '\s?\(Xplosiv\)',
@@ -270,6 +271,15 @@ class DatNode:
                     disc_alternative = disc_alternative.replace('Disc E', 'Disc 5')
                     disc_alternative = disc_alternative.replace('Disc V', 'Disc 5')
                     tag_strip_title = tag_strip_title.replace(re.findall('\(Disc [A-Z].*?\)', tag_strip_title)[0], disc_alternative)
+                elif 'Disk' in string:
+                    disc_alternative = re.search('\(Disk [A-Z].*?\)', tag_strip_title).group()
+                    # Change things so discs are ordered consistently
+                    disc_alternative = disc_alternative.replace('Disk I', 'Disc 1')
+                    disc_alternative = disc_alternative.replace('Disc 1I', 'Disc 2')
+                    disc_alternative = disc_alternative.replace('Disc 2I', 'Disc 3')
+                    disc_alternative = disc_alternative.replace('Disc 1V', 'Disc 4')
+                    disc_alternative = disc_alternative.replace('Disc V', 'Disc 5')
+                    tag_strip_title = tag_strip_title.replace(re.findall('\(Disk [A-Z].*?\)', tag_strip_title)[0], disc_alternative)
                 elif 'Disc 0' in string:
                     disc_alternative = re.search('\(Disc 0[0-9]\)', tag_strip_title).group()
                     disc_alternative = disc_alternative.replace('Disc 01', 'Disc 1')
@@ -1334,7 +1344,7 @@ def process_dats(user_input, tag_strings, region_list_english, region_list_other
     if comp_found != [] and user_input.no_comps == True:
         comp_final = [x for x in comp_list if x not in comp_found]
         for x in comp_final:
-            print(font.bold + font.yellow + '  x Title in _compilations.py not found in dat: ' + x + font.end)
+            print(font.bold + font.yellow + '  x Title in compilations array not found in dat: ' + x + font.end)
 
     # Compare the parents cross-region once we're at the last region in the list
     # Set the temp dictionary for global parent titles
@@ -1519,12 +1529,12 @@ def process_dats(user_input, tag_strings, region_list_english, region_list_other
                                             a.cloneof = 'None'
                             if check_clone_match != True:
                                 if type(y) is str:
-                                    print(font.bold + font.yellow + '  x Clone in _rename.py not found in dat: ' + y + font.end)
+                                    print(font.bold + font.yellow + '  x Clone in renames object not found in dat: ' + y + font.end)
                             else:
                                 check_clone_match = False
 
             if check_parent_match != True:
-                print(font.bold + font.yellow + '  x Parent in _rename.py not found in dat: ' + key + font.end)
+                print(font.bold + font.yellow + '  x Parent in renames object not found in dat: ' + key + font.end)
             else:
                 check_parent_match = False
 
@@ -1554,14 +1564,14 @@ def process_dats(user_input, tag_strings, region_list_english, region_list_other
                             clone_override_remove.append(y.full_title)
 
                 if parent_override == False:
-                    print(font.bold + font.yellow + '  x Parent in _overrides.py not found in dat: ' + key + font.end)
+                    print(font.bold + font.yellow + '  x Parent in overrides object not found in dat: ' + key + font.end)
                 else:
                     parent_override = False
 
                 if clone_override == False:
                     clone_override_final = [z for z in value if z not in clone_override_remove]
                     for z in clone_override_final:
-                        print(font.bold + font.yellow + '  x Clone in _overrides.py not found in dat: ' + z + font.end)
+                        print(font.bold + font.yellow + '  x Clone in overrides object not found in dat: ' + z + font.end)
                 else:
                     clone_override = False
 
@@ -1603,10 +1613,10 @@ def process_dats(user_input, tag_strings, region_list_english, region_list_other
                             if y.full_title != superset_parent and y.rf_tag_strip_title == x:
                                 y.cloneof = superset_parent
                     else:
-                        print(font.bold + font.yellow + '  x Clone in _supersets.py not found in dat: ' + value_raw_title + font.end)
+                        print(font.bold + font.yellow + '  x Clone in supersets object not found in dat: ' + value_raw_title + font.end)
                 elif all_titles_data.get(key_raw_title) == None:
                     if super_parent != key_raw_title:
-                        print(font.bold + font.yellow + '  x Parent in _supersets.py not found in dat: ' + key_raw_title + font.end)
+                        print(font.bold + font.yellow + '  x Parent in supersets object not found in dat: ' + key_raw_title + font.end)
                         super_parent = key_raw_title
                 else:
                     # Find the parent title of what will be the new set of clones
@@ -1639,14 +1649,14 @@ def process_dats(user_input, tag_strings, region_list_english, region_list_other
                             clone_override_remove.append(y.full_title)
 
                 if parent_override == False:
-                    print(font.bold + font.yellow + '  x Parent in _overrides.py not found in dat: ' + key + font.end)
+                    print(font.bold + font.yellow + '  x Parent in overrides object not found in dat: ' + key + font.end)
                 else:
                     parent_override = False
 
                 if clone_override == False:
                     clone_override_final = [z for z in value if z not in clone_override_remove]
                     for z in clone_override_final:
-                        print(font.bold + font.yellow + '  x Clone in _overrides.py not found in dat: ' + z + font.end)
+                        print(font.bold + font.yellow + '  x Clone in overrides object not found in dat: ' + z + font.end)
                 else:
                     clone_override = False
 

@@ -18,7 +18,7 @@ from openpyxl.utils import cell as Cell
 
 def main():
     os.system('cls' if os.name == 'nt' else 'clear')
-    print(font.bold + '\nCloneRel 0.12' + font.end)
+    print(font.bold + '\nClonerel 0.12' + font.end)
     print('-------------')
 
     if len(sys.argv) == 1:

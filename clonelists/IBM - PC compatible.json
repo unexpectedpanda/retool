@@ -1831,14 +1831,62 @@
 		"Korsar, Der": [
 			"Korsary - Prokljat'e dal'nih morej"
 		],
+		"Lands of Lore - Guardians of Destiny (Disc 1)": [
+			"Lands of Lore - Goetterdaemmerung (Disc 1)",
+			"Lands of Lore II - Guardians of Destiny (Disc 1)"
+		],
+		"Lands of Lore - Guardians of Destiny (Disc 2)": [
+			"Lands of Lore - Goetterdaemmerung (Disc 2)",
+			"Lands of Lore II - Guardians of Destiny (Disc 2)"
+		],
+		"Lands of Lore - Guardians of Destiny (Disc 3)": [
+			"Lands of Lore - Goetterdaemmerung (Disc 3)",
+			"Lands of Lore II - Guardians of Destiny (Disc 3)"
+		],
+		"Lands of Lore - Guardians of Destiny (Disc 4)": [
+			"Lands of Lore - Goetterdaemmerung (Disc 4)",
+			"Lands of Lore II - Guardians of Destiny (Disc 4)"
+		],
+		"Lara Croft Tomb Raider - The Angel of Darkness": [
+			"Lara Croft Tomb Raider - The Angel of Darkness (Disc 1)",
+			"Lara Croft Tomb Raider - The Angel of Darkness (Disc 2)"
+		],
+		"Last Express, The (Disc 1)": [
+			"Last Express, The (CD 1 of 3)",
+			"Last Express, The - Incubo di Prima Classe (Disc 1)"
+		],
+		"Last Express, The (Disc 2)": [
+			"Last Express, The (CD 2 of 3)",
+			"Last Express, The - Incubo di Prima Classe (Disc 2)"
+		],
+		"Last Express, The (Disc 3)": [
+			"Last Express, The (CD 3 of 3)",
+			"Last Express, The - Incubo di Prima Classe (Disc 3)"
+		],
 		"LEGO Chess": [
-			"Ajedrez LEGO"
+			"Ajedrez LEGO",
+			"LEGO Scacchi",
+			"LEGO Schach"
+		],
+		"LEGO Creator - Knights' Kingdom": [
+			"LEGO Creator - Il Regno dei Cavalieri"
 		],
 		"LEGO Island": [
 			"Isola LEGO"
 		],
+		"LEGO Island 2 - The Brickster's Revenge": [
+			"LEGO Eiland 2 - De Wraak van Dondersteen",
+			"LEGO Insel 2 - Der Steinbrecher kehrt zurueck",
+			"LEGO Isola 2 - La Rivincita del Briccone"
+		],
+		"LEGO My World - School Skills": [
+			"LEGO Meine Welt - Fortgeschrittene"
+		],
 		"Leisure Suit Larry - Collection Series (Disc 1)": [
-			"CD-Action 03-2004 (97) (Disc 2)"
+			"CD-Action 03-2004 (97) (Disc 2)",
+			"Larry - Edycja Kolekcjonerska",
+			"Leisure Suit Larry Collection",
+			"Leisure Suit Larry's Greatest Hits and Misses!"
 		],
 		"Leisure Suit Larry - Love for Sail!": [
 			"Best of Sierra Nr. 16 (Disc 1)",
@@ -1855,15 +1903,85 @@
 		"Leisure Suit Larry's Casino": [
 			"Best of Sierra Nr. 17 (Disc 2)"
 		],
+		"Lemmings Chronicles, The": [
+			"All New World of Lemmings"
+		],
+		"Lemmings Paintball": [
+			"Lemmings Paintball (051C8F7B)"
+		],
+		"Lemony Snicket's A Series of Unfortunate Events": [
+			"Lemony Snicket Una Serie di Sfortunati Eventi"
+		],
+		"Lighthouse - The Dark Being (Disc 1)": [
+			"Lighthouse - Il Faro (Disc 1)"
+		],
+		"Lighthouse - The Dark Being (Disc 2)": [
+			"Lighthouse - Il Faro (Disc 2)"
+		],
+		"Lock On - Modern Air Combat": [
+			"Lock On - Air Combat Simulation"
+		],
+		"Loki - Heroes of Mythology": [
+			"Loki - Im Bannkreis der Goetter"
+		],
 		"Lollypop": [
 			"CD-ROM Play 8-96"
+		],
+		"Longest Journey, The": [
+			"Lengste Reisen, Den (Disc 1)",
+			"Lengste Reisen, Den (Disc 2)",
+			"Lengste Reisen, Den (Disc 3)",
+			"Lengste Reisen, Den (Disc 4)",
+			"Longest Journey, The (Special Edition)",
+			"Longest Journey, The (Disc 1)",
+			"Longest Journey, The (Disc 1) (Install Disc)",
+			"Longest Journey, The (Disc 2)",
+			"Longest Journey, The (Disc 2) (Game Play Disc)",
+			"Longest Journey, The (Disc 3)",
+			"Longest Journey, The (Disc 4)",
+			"Longest Journey, The - D'un Monde a l'Autre (Disc 1)",
+			"Longest Journey, The - D'un Monde a l'Autre (Disc 2)"
 		],
 		"Lords of the Realm II": [
 			"Best of Sierra Nr. 17 (Disc 1)",
 			"Lords of the Realm II (29D78413)"
 		],
+		"Lord of the Rings, The - The Battle for Middle-Earth": [
+			"Lord of the Rings, The - The Battle for Middle-Earth (Disc 1)",
+			"Lord of the Rings, The - The Battle for Middle-Earth (Disc 2)",
+			"Lord of the Rings, The - The Battle for Middle-Earth (Disc 3)",
+			"Lord of the Rings, The - The Battle for Middle-Earth (Disc 4)"
+		],
+		"Lord of the Rings, The - The Battle for Middle-Earth II": [
+			"Lord of the Rings, The - The Battle for Middle-Earth II (Disc 1)",
+			"Lord of the Rings, The - The Battle for Middle-Earth II (Disc 2)",
+			"Lord of the Rings, The - The Battle for Middle-Earth II (Disc 3)",
+			"Lord of the Rings, The - The Battle for Middle-Earth II (Disc 4)",
+			"Lord of the Rings, The - The Battle for Middle-Earth II (Disc 5)",
+			"Lord of the Rings, The - The Battle for Middle-Earth II (Disc 6)"
+		],
+		"Lord of the Rings, The - The Return of the King (Install Disc One)": [
+			"Lord of the Rings, The - Ou no Kikan (Disc 1)"
+		],
+		"Lord of the Rings, The - The Return of the King (Install Disc Two)": [
+			"Lord of the Rings, The - Ou no Kikan (Disc 2)"
+		],
+		"Lord of the Rings, The - The Return of the King (Play Disc)": [
+			"Lord of the Rings, The - Ou no Kikan (Disc 3)"
+		],
 		"Lord of the Rings Enhanced CD-ROM, The": [
 			"Bestseller Games Collection Ausgabe 14"
+		],
+		"Lords of Magic (Special Edition)": [
+			"Lords of Magic - Special Edition"
+		],
+		"Lords of the Realm (Royal Collection)": [
+			"Lords of the Realm (Royal Edition)",
+			"Lords of the Realm II (Royal Collection)",
+			"Lords of the Realm II Deluxe"
+		],
+		"Lost in Time": [
+			"Lost in Time - Parts 1 & 2"
 		],
 		"Lure of the Temptress": [
 			"Click! 08-2003 (Disc 2)"
@@ -1899,6 +2017,12 @@
 		],
 		"Maui Mallard in Cold Shadow": [
 			"Donald in Cold Shadow"
+		],
+		"Messenger, The (Disc 1)": [
+			"Louvre - The Final Curse (Disc 1)"
+		],
+		"Messenger, The (Disc 2)": [
+			"Louvre - The Final Curse (Disc 2)"
 		],
 		"MDK": [
 			"Bestseller Games Gold-Edition Ausgabe 21"
@@ -2871,6 +2995,41 @@
 		],
 		"Kurka Wodna - Trylogia": [
 			"Komputer Swiat Twoj Niezbednik 1-2003 (11)"
+		],
+		"LEGO Island & LEGO Island 2 - The Brickster's Revenge (Disc 1)": [
+			"Isola LEGO",
+			"LEGO Island",
+			"LEGO Island 2 - The Brickster's Revenge",
+			"LEGO Eiland 2 - De Wraak van Dondersteen",
+			"LEGO Insel 2 - Der Steinbrecher kehrt zurueck",
+			"LEGO Isola 2 - La Rivincita del Briccone"
+		],
+		"LEGO Star Wars - The Complete Saga": [
+			"LEGO Star Wars - The Video Game",
+			"LEGO Star Wars II - The Original Trilogy"
+		],
+		"Lemmings for Windows 95 & Lemmings Paintball": [
+			"Lemmings for Windows",
+			"Lemmings Paintball",
+			"Lemmings Paintball (051C8F7B)"
+		],
+		"Lemmings & Lemmings 2 - The Tribes": [
+			"Lemmings"
+		],
+		"Lords of Magic (Special Edition)": [
+			"Lords of Magic",
+			"Lords of Magic - Special Edition"
+		],
+		"Lords of the Realm (Royal Collection)": [
+			"Lords of the Realm",
+			"Lords of the Realm (Royal Edition)",
+			"Lords of the Realm II",
+			"Lords of the Realm II (Royal Collection)",
+			"Lords of the Realm II - Siege Pack",
+			"Lords of the Realm II Deluxe"
+		],
+		"Lost Planet - Extreme Condition (Colonies Edition)": [
+			"Lost Planet - Extreme Condition"
 		],
 		"Mad TV 1 + 2": [
 			"Bestseller Games Ausgabe 25",

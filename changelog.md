@@ -1,3 +1,8 @@
+# 0.58
+- Added yet another disc synonym.
+- Added "Hitsquad - Regenerator" as a publisher/distributor.
+- Removed _version.py.
+
 # 0.57
 - Separated removing coverdiscs from demos (-d), making it its own option (-b).
   Turns out plenty of full version games were given away as coverdiscs.
