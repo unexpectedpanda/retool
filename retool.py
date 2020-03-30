@@ -14,7 +14,7 @@ import time
 from lxml import etree
 from bs4 import BeautifulSoup, Doctype # For XML parsing
 
-version = '0.58'
+version = '0.59'
 
 # Require at least Python 3.5
 assert sys.version_info >= (3, 5)
@@ -113,16 +113,22 @@ def main():
         '\(Disc [A-Z].*?\)',
         '\(Disk [A-Z].*?\)',
         '\(Disc 0[0-9]\)',
+        '\(Disc One\)',
+        '\(Disc Two\)',
+        '\(Disc Three\)',
+        '\(Disc Four\)',
         '\s?\(Covermount\)',
+        '\s?\(Best of the Best\)',
+        '\s?\(Best Hit Selection\)',
         '\s?\(Hit Squad\)',
         '\s?\(Hit Squad - Regenerator\)',
-        '\s?\(Sold Out Extreme\)',
-        '\s?\(Sold Out Software\)',
-        '\s?\(Xplosiv\)',
+        '\s?\(Major Wave\)',
         '\s?\(PlayStation the Best\)',
         '\s?\(PlayStation 2 the Best\)',
         '\s?\(PlayStation 3 the Best\)',
-        '\s?\(Major Wave\)',
+        '\s?\(Sold Out Extreme\)',
+        '\s?\(Sold Out Software\)',
+        '\s?\(Xplosiv\)',
         ]
 
     # If the user has defined an output folder
@@ -257,6 +263,26 @@ class DatNode:
                         disc_alternative = disc_alternative.replace('Disc D', 'Disc 4')
                         disc_alternative = disc_alternative.replace('Disc E', 'Disc 5')
                         tag_strip_title = tag_strip_title.replace(re.findall('\(Disco [A-Z0-9]\)', tag_strip_title)[0], disc_alternative)
+                elif 'One' in string:
+                    disc_alternative = re.search('\(Disc One\)', tag_strip_title).group()
+                    # Change things so discs are ordered consistently
+                    disc_alternative = disc_alternative.replace('Disc One', 'Disc 1')
+                    tag_strip_title = tag_strip_title.replace(re.findall('\(Disc One\)', tag_strip_title)[0], disc_alternative)
+                elif 'Two' in string:
+                    disc_alternative = re.search('\(Disc Two\)', tag_strip_title).group()
+                    # Change things so discs are ordered consistently
+                    disc_alternative = disc_alternative.replace('Disc Two', 'Disc 2')
+                    tag_strip_title = tag_strip_title.replace(re.findall('\(Disc Two\)', tag_strip_title)[0], disc_alternative)
+                elif 'Three' in string:
+                    disc_alternative = re.search('\(Disc Three\)', tag_strip_title).group()
+                    # Change things so discs are ordered consistently
+                    disc_alternative = disc_alternative.replace('Disc Three', 'Disc 3')
+                    tag_strip_title = tag_strip_title.replace(re.findall('\(Disc Three\)', tag_strip_title)[0], disc_alternative)
+                elif 'Four' in string:
+                    disc_alternative = re.search('\(Disc Four\)', tag_strip_title).group()
+                    # Change things so discs are ordered consistently
+                    disc_alternative = disc_alternative.replace('Disc Four', 'Disc 4')
+                    tag_strip_title = tag_strip_title.replace(re.findall('\(Disc Four\)', tag_strip_title)[0], disc_alternative)
                 elif 'Disc' in string and 'Disco' not in string and 'Disc 0' not in string:
                     disc_alternative = re.search('\(Disc [A-Z].*?\)', tag_strip_title).group()
                     # Change things so discs are ordered consistently
@@ -1095,9 +1121,12 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
 
                             # Else if one has an updated "budget" title, take that, because it probably contains the latest version of the game
                             test = parent_compare_bool(bool('(Hit Squad)' in x.full_title), bool('(Hit Squad)' in y.full_title), parent_list, already_tested, x, y, '', user_input)
+                            test = parent_compare_bool(bool('(Hit Squad - Regenerator)' in x.full_title), bool('(Hit Squad - Regenerator)' in y.full_title), parent_list, already_tested, x, y, '', user_input)
                             test = parent_compare_bool(bool('(PlayStation the Best)' in x.full_title), bool('(PlayStation the Best)' in y.full_title), parent_list, already_tested, x, y, '', user_input)
                             test = parent_compare_bool(bool('(PlayStation 2 the Best)' in x.full_title), bool('(PlayStation 2 the Best)' in y.full_title), parent_list, already_tested, x, y, '', user_input)
                             test = parent_compare_bool(bool('(PlayStation 3 the Best)' in x.full_title), bool('(PlayStation 3 the Best)' in y.full_title), parent_list, already_tested, x, y, '', user_input)
+                            test = parent_compare_bool(bool('(Best of the Best)' in x.full_title), bool('(Best of the Best)' in y.full_title), parent_list, already_tested, x, y, '', user_input)
+                            test = parent_compare_bool(bool('(Best Hit Selection)' in x.full_title), bool('(Best Hit Selection)' in y.full_title), parent_list, already_tested, x, y, '', user_input)
 
                             # Else if one title has more regions than the other, take it.
                             test = parent_compare_more(len(re.findall(',', re.findall('\(.*?' + region + '.*?\)', x.full_title)[0])), len(re.findall(',', re.findall('\(.*?' + region + '.*?\)', y.full_title)[0])), parent_list, already_tested, x, y, user_input)

@@ -1,3 +1,7 @@
+# 0.59
+- Added "Best of the Best" and "Best Hit Selection" as publishers/distributors.
+- Added another disc synonym.
+
 # 0.58
 - Added yet another disc synonym.
 - Added "Hitsquad - Regenerator" as a publisher/distributor.
