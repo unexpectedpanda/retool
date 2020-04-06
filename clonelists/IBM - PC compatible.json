@@ -3,7 +3,7 @@
         "name": [
 			"IBM - PC compatible"
 		],
-        "last updated": "29 Mar 2020"
+        "last updated": "05 Apr 2020"
     },
 
     "compilations": [
@@ -49,7 +49,8 @@
 		"Hand of Fate + IndyCar Racing & Track Pack (Europe)",
 		"Jewel Quest & Jewel Quest II",
 		"Komputer Swiat Gry 10-2003",
-		"Magic Carpet & PGA Tour 96"
+		"Magic Carpet & PGA Tour 96",
+		"Oregon Trail II + Logic Quest"
     ],
 
     "renames": {
@@ -472,6 +473,9 @@
 			"BloodRayne 2 (Disc 3)",
 			"BloodRayne 2 (Disc 4)"
 		],
+		"BreakNeck": [
+			"N.I.C.E. 2"
+		],
 		"Broken Sword - The Shadow of the Templars (Disc 1)": [
 			"Baphomets Fluch (Disc 1)",
 			"Chevaliers de Baphomet, Les (Disc 1)"
@@ -573,7 +577,17 @@
 			"Chicago 1930"
 		],
 		"Chronicles of Narnia, The - The Lion, the Witch and the Wardrobe (Disc 1) (Play Disc)": [
-			"Cronache di Narnia, Le - Il leone, la strega e l'armadio"
+			"Cronache di Narnia, Le - Il leone, la strega e l'armadio",
+			"Opowiesci z Narnii - Lew, Czarownica i Stara Szafa (Disc 1)"
+		],
+		"Chronicles of Narnia, The - The Lion, the Witch and the Wardrobe (Disc 2)": [
+			"Opowiesci z Narnii - Lew, Czarownica i Stara Szafa (Disc 2)"
+		],
+		"Chronicles of Narnia, The - The Lion, the Witch and the Wardrobe (Disc 3)": [
+			"Opowiesci z Narnii - Lew, Czarownica i Stara Szafa (Disc 3)"
+		],
+		"Chronicles of Narnia, The - The Lion, the Witch and the Wardrobe (Disc 4)": [
+			"Opowiesci z Narnii - Lew, Czarownica i Stara Szafa (Disc 4)"
 		],
 		"Chronicles of Riddick, The - Escape from Butcher Bay - Developer's Cut": [
 			"Kroniki Riddicka - Ucieczka z Butcher Bay - Edycja Rozszerzona"
@@ -1868,6 +1882,9 @@
 			"Last Express, The (CD 3 of 3)",
 			"Last Express, The - Incubo di Prima Classe (Disc 3)"
 		],
+		"Legend of Kyrandia, The - Book Three": [
+			"Legend of Kyrandia, The - Book Three - Malcolm's Revenge"
+		],
 		"LEGO Chess": [
 			"Ajedrez LEGO",
 			"LEGO Scacchi",
@@ -2020,6 +2037,9 @@
 		],
 		"Magic Carpet - The Hidden Worlds": [
 			"Magic Carpet - Hidden Worlds Data Disk"
+		],
+		"Manhunt (Disc 1)": [
+			"Manhunt"
 		],
 		"Maniac Mansion - Day of the Tentacle": [
 			"Bestseller Games Gold-Edition Ausgabe 1"
@@ -2202,7 +2222,7 @@
 			"Myst l'Apogee"
 		],
 		"Myst - Die Trilogie": [
-			"Myst Antologia",
+			"Myst Antologia"
 		],
 		"Myst III - Exile": [
 			"Myst III - Exile (Disc 1)",
@@ -2231,20 +2251,120 @@
 		"NASCAR Racing - 2002 Season": [
 			"Bravo ScreenFun 1-2004"
 		],
+		"Need for Speed - Carbon - Collector's Edition (Game Disc)": [
+			"Need for Speed - Carbon - Collector's Edition"
+		],
+		"Need for Speed - Most Wanted": [
+			"Need for Speed - Most Wanted (Disc 1)",
+			"Need for Speed - Most Wanted (Disc 2)",
+			"Need for Speed - Most Wanted (Disc 3)",
+			"Need for Speed - Most Wanted (Disc 4)"
+		],
+		"Need for Speed - Porsche Unleashed": [
+			"Need for Speed - Porsche"
+		],
+		"Need for Speed - Underground (Disc 2)": [
+			"Need for Speed - Underground (Disc 2) (EA Classics)"
+		],
+		"Neverwinter Nights (Disc 1) (Installation Disc 1)": [
+			"Neverwinter Nights (Disc 1)"
+		],
+		"Neverwinter Nights (Disc 2) (Installation Disc 2)": [
+			"Neverwinter Nights (Disc 2)"
+		],
+		"Neverwinter Nights (Disc 3) (Play Disc)": [
+			"Neverwinter Nights (Disc 3)"
+		],
+		"Neverwinter Nights - Hordes of the Underdark": [
+			"Neverwinter Nights - Die Horden des Unterreichs",
+			"Neverwinter Nights - Orde dal Sottosuolo"
+		],
+		"Neverwinter Nights - Shadows of Undrentide": [
+			"Neverwinter Nights - Der Schatten von Undernzit"
+		],
+		"Nickelodeon Avatar - The Last Airbender": [
+			"Nickelodeon Avatar - The Legend of Aang"
+		],
+		"No One Lives Forever 2 - A Spy in H.A.R.M.'s Way (Disc 1)": [
+			"No One Lives Forever 2 - Agentin in geheimer Mission (Disc 1)"
+		],
+		"No One Lives Forever 2 - A Spy in H.A.R.M.'s Way (Disc 2)": [
+			"No One Lives Forever 2 - Agentin in geheimer Mission (Disc 2)"
+		],
 		"Normality": [
 			"Bestseller Games Ausgabe 24"
+		],
+		"Nox (Disc 1)": [
+			"Nox (Disc 1) (Master Disc)"
+		],
+		"Nox (Disc 2)": [
+			"Nox (Disc 2) (Companion Disc)"
+		],
+		"Oddworld - Abe's Exoddus (Install)": [
+			"Oddworld - Abe's Exoddus (CD Installieren)",
+			"Oddworld - Abe's Exoddus (Disc 1)",
+			"Oddworld - Abe's Exoddus (Install Disc)",
+			"Oddworld - Abe's Exoddus (Installazione)",
+			"Oddworld - Abe's Exoddus (Installatie Disk)"
+		],
+		"Oddworld - Abe's Exoddus (Play)": [
+			"Oddworld - Abe's Exoddus (CD Abspielen)",
+			"Oddworld - Abe's Exoddus (Disc 2)",
+			"Oddworld - Abe's Exoddus (Gioco)",
+			"Oddworld - Abe's Exoddus (Play Disc)",
+			"Oddworld - Abe's Exoddus (Play Disk)"
+		],
+		"Odyssey - The Search for Ulysses (Disc 1)": [
+			"Odyssee - Auf der Suche nach Odysseus (Disc 1)",
+			"Odissea - Sulle tracce di Ulisse (Disc 1)"
+		],
+		"Odyssey - The Search for Ulysses (Disc 2)": [
+			"Odyssee - Auf der Suche nach Odysseus (Disc 2)",
+			"Odissea - Sulle tracce di Ulisse (Disc 2)"
 		],
 		"Odium": [
 			"Gor'kij 17 - Muzhskaja rabota",
 			"Gorky 17"
+		],
+		"Omikron - The Nomad Soul (Disc 1)": [
+			"Nomad Soul, The (Disc 1)"
+		],
+		"Omikron - The Nomad Soul (Disc 2)": [
+			"Nomad Soul, The (Disc 2)"
+		],
+		"Omikron - The Nomad Soul (Disc 3)": [
+			"Nomad Soul, The (Disc 3)"
+		],
+		"Oni": [
+			"Oni (Japanese Version for Windows)"
 		],
 		"Onimusha 3": [
 			"Onimusha 3 - Demon Siege (Disc 1)",
 			"Onimusha 3 - Demon Siege (Disc 2)",
 			"Onimusha 3 - Demon Siege (Disc 3)"
 		],
+		"Operation Flashpoint - Cold War Crisis": [
+			"Operation Flashpoint - Holodnaja vojna"
+		],
+		"Operation Flashpoint - Resistance": [
+			"Operation Flashpoint - Soprotivlenie"
+		],
+		"Operation Neptune": [
+			"Operation Neptun"
+		],
 		"Outpost 2 - Divided Destiny": [
 			"Outpost 2 - Destini Sospesi"
+		],
+		"Outcast": [
+			"Outcast (Disc 1)",
+			"Outcast (Disc 2)",
+			"Outcast (Disc 3)"
+		],
+		"Outlaws (Disc 1)": [
+			"Outlaws - Cidade Sem Lei (Disc 1)"
+		],
+		"Outlaws (Disc 2)": [
+			"Outlaws - Cidade Sem Lei (Disc 2)"
 		],
 		"PGA Championship Golf - Collector's Edition (Installation CD)": [
 			"DSF Golf '99 (Disc 1) (Installation)"
@@ -2414,6 +2534,10 @@
 			"Avventure di Sherlock Holmes, Le - L'Orecchino d'Argento (Disc 1)",
 			"Avventure di Sherlock Holmes, Le - L'Orecchino d'Argento (Disc 2)"
 		],
+		"Siege of Avalon Anthology": [
+			"Osada Avalona (Disc 1)",
+			"Osada Avalona (Disc 2)"
+		],
 		"SimCity Classic": [
 			"Bestseller Games Ausgabe 14"
 		],
@@ -2434,6 +2558,9 @@
 		"Spy Fox in Dry Cereal": [
 			"Agent Fuchs in Das Milchkartell",
 			"Spy Fox - Operation Milkshake"
+		],
+		"Star Trek - Deep Space Nine - The Fallen": [
+			"Otverzhennye - Tajna tjomnoj rasy"
 		],
 		"Star Trek - Starfleet Command": [
 			"Gamefest - Star Trek Classics (Disc 1) (Star Trek - Starfleet Command)"
@@ -3294,12 +3421,81 @@
 			"Moto Racer 3 (Gold Edition)",
 			"Moto Racer 3"
 		],
+		"N.I.C.E. 2 - King Size": [
+			"N.I.C.E. 2",
+			"N.I.C.E. 2 Tune-Up"
+		],
+		"Need for Speed - Carbon - Collector's Edition (Game Disc)": [
+			"Need for Speed - Carbon",
+			"Need for Speed - Carbon - Collector's Edition"
+		],
+		"Need for Speed - Hot Pursuit (EA Crew Edition 2010)": [
+			"Need for Speed - Hot Pursuit"
+		],
+		"Need for Speed - Most Wanted - Black Edition (Disc 1)": [
+			"Need for Speed - Most Wanted",
+			"Need for Speed - Most Wanted (Disc 1)"
+		],
+		"Need for Speed - Most Wanted - Black Edition (Disc 2)": [
+			"Need for Speed - Most Wanted (Disc 2)"
+		],
+		"Need for Speed - Most Wanted - Black Edition (Disc 3)": [
+			"Need for Speed - Most Wanted (Disc 3)"
+		],
+		"Need for Speed - Most Wanted - Black Edition (Disc 4)": [
+			"Need for Speed - Most Wanted (Disc 4)"
+		],
+		"Need for Speed II SE": [
+			"Need for Speed II"
+		],
+		"Need for Speed III - Hot Pursuit (Walmart Edition)": [
+			"Need for Speed III - Hot Pursuit"
+		],
+		"Neverwinter Nights Complete (Disc 1)": [
+			"Neverwinter Nights (Platinum Edition)",
+			"Neverwinter Nights (Disc 1)",
+			"Neverwinter Nights (Disc 2)",
+			"Neverwinter Nights (Disc 3)",
+			"Neverwinter Nights (Disc 1) (Installation Disc 1) (Rev 1)",
+			"Neverwinter Nights (Disc 3) (Play Disc)",
+			"Neverwinter Nights (Disc 2) (Installation Disc 2)",
+			"Neverwinter Nights - Der Schatten von Undernzit",
+			"Neverwinter Nights - Die Horden des Unterreichs",
+			"Neverwinter Nights - Gold (Disc 1) (Play Disc)",
+			"Neverwinter Nights - Gold (Disc 2)",
+			"Neverwinter Nights - Gold (Disc 3)",
+			"Neverwinter Nights - Gold (Disc 4)",
+			"Neverwinter Nights - Hordes of the Underdark",
+			"Neverwinter Nights - Kingmaker",
+			"Neverwinter Nights - Orde dal Sottosuolo",
+			"Neverwinter Nights - Shadows of Undrentide",
+			"Neverwinter Nights 2",
+			"Neverwinter Nights 2 - Mask of the Betrayer",
+			"Neverwinter Nights Diamond"
+		],
+		"New World Order (Deluxe Edition)": [
+			"New World Order"
+		],
 		"One Unit Whole Blood": [
 			"Blood (Disc 1) (Special Edition)",
 			"Blood (Disc 1)",
 			"Blood (Disc 2)",
 			"Blood - Plasma Pak",
 			"Cryptic Passage for Blood"
+		],
+		"Operation Neptune + Reader Rabbit 2 Deluxe! + Ultimate Writing & Creativity Center": [
+			"Operation Neptun",
+			"Operation Neptune"
+		],
+		"Operative, The - No One Lives Forever (Disc 1) (Game of the Year Edition)": [
+			"Operative, The - No One Lives Forever (Disc 1)"
+		],
+		"Operative, The - No One Lives Forever (Disc 2) (Game of the Year Edition)": [
+			"Operative, The - No One Lives Forever (Disc 2)"
+		],
+		"Oregon Trail II - 25th Anniversary Limited Edition": [
+			"Oregon Trail II",
+			"Oregon Trail, The"
 		],
 		"Resident Evil 4 (Ultimate HD Edition)": [
 			"Resident Evil 4"
