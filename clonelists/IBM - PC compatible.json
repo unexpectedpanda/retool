@@ -78,7 +78,8 @@
             "Best of Sierra Nr. 14 (Disc 1)"
         ],
         "3-D Ultra Radio Control Racers": [
-            "Funk-Flitzer"
+			"Funk-Flitzer",
+			"RC Racing"
         ],
         "7th Guest, The (Disc 1) (Windows 95)": [
             "7th Guest, The (Disc 1)"
@@ -480,7 +481,10 @@
             "BloodRayne 2 (Disc 2)",
             "BloodRayne 2 (Disc 3)",
             "BloodRayne 2 (Disc 4)"
-        ],
+		],
+		"Brave Soul": [
+			"Rycar' ljubvi"
+		],
         "BreakNeck": [
             "N.I.C.E. 2"
         ],
@@ -490,7 +494,7 @@
         ],
         "Broken Sword - The Shadow of the Templars (Disc 2)": [
             "Baphomets Fluch (Disc 2)",
-            "Chevaliers de Baphomet, Les (Disc 1)"
+            "Chevaliers de Baphomet, Les (Disc 2)"
         ],
         "Broken Sword - The Sleeping Dragon (Disc 1)": [
             "Baphomets Fluch - Der Schlafende Drache (Disc 1)"
@@ -792,7 +796,8 @@
             "Conquest Earth - Das Manifest (Disc 2)"
         ],
         "Corporate Machine, The": [
-            "Business Tycoon"
+			"Business Tycoon",
+			"Start-Up Manager, Der"
         ],
         "Corpse Party BloodCovered 4": [
             "Corpse Party BloodCovered 4 (Another Jacket Version)"
@@ -926,7 +931,10 @@
         ],
         "Desperate Housewives - The Game (Disc 2)": [
             "Desperate Housewives - Il Videogioco (Disc 2)"
-        ],
+		],
+		"Detroit": [
+			"Ruesselsheim"
+		],
         "Deus Ex (Game of the Year Edition)": [
             "Deus Ex"
         ],
@@ -1228,7 +1236,13 @@
         ],
         "Elder Scrolls, The - Chapter II - Daggerfall": [
             "PC PowerPlay 169 (Side A)"
-        ],
+		],
+		"Elder Scrolls Adventures, The - Redguard (Disc 1) (Install Disc)": [
+			"Redguard - Ein Elder Scroll Adventure (Installations CD)"
+		],
+		"Elder Scrolls Adventures, The - Redguard (Disc 2) (Play Disc)": [
+			"Redguard - Ein Elder Scroll Adventure (Spiel CD)"
+		],
         "Emperor - Battle for Dune (Disc 1) (Install Disc)": [
             "Emperor - Schlacht um Dune (Disc 1) (Installations-CD)"
         ],
@@ -1252,7 +1266,10 @@
             "Enclave (Disc 1)",
             "Enclave (Disc 2)",
             "Enclave (Disc 3)"
-        ],
+		],
+		"Enemy Engaged - RAH-66 Comanche Versus KA-52 Hokum": [
+			"Razorvannoe nebo - KA-52 protiv Comanche"
+		],
         "Enemy Territory - Quake Wars (Bonus Disc)": [
             "Enemy Territory - Quake Wars (Plyta Dodatkowa)"
         ],
@@ -1453,7 +1470,8 @@
             "Bestseller Games Gold-Edition Ausgabe 17"
         ],
         "Gabriel Knight - Sins of the Fathers": [
-            "Gabriel Knight - Die Suenden der Vaeter"
+			"Gabriel Knight - Die Suenden der Vaeter",
+			"Reset CD 5-2001 (Disc 2)"
         ],
         "Gabriel Knight 3 - Blood of the Sacred, Blood of the Damned (Disc 1)": [
             "Gabriel Knight 3 - Blut der Heiligen, Blut der Verdammten (Disc 1)",
@@ -1490,7 +1508,8 @@
             "Gift"
         ],
         "Glory of the Roman Empire": [
-            "Imperivm - Civitas"
+			"Imperivm - Civitas",
+			"Roemer, Die"
         ],
         "Godfather, The - The Game": [
             "Godfather, The"
@@ -1566,7 +1585,10 @@
         ],
         "Great Battles of Alexander, The": [
             "Alexander der Grosse - Die grossen Schlachten der Antike"
-        ],
+		],
+		"Great Series Vol. 20 - Rockman Dash - Hagane no Boukenshin": [
+			"Rockman Dash - Hagane no Boukenshin"
+		],
         "Gruntz": [
             "Gruntz - Das verrueckte Braingame!"
         ],
@@ -1621,7 +1643,10 @@
         "Harry Potter and the Sorcerer's Stone": [
             "Harry Potter Yu Mofashi",
             "Harry Potter and the Philosopher's Stone"
-        ],
+		],
+		"Heart of Darkness": [
+			"Great Series Vol. 3 - Heart of Darkness"
+		],
         "Heavy Gear (Disc 1)": [
             "Heavy Gear (Disc 1) (Install)",
             "Heavy Gear"
@@ -1914,13 +1939,15 @@
             "Bestseller Games Gold-Edition Ausgabe 14 (Disc 2)"
         ],
         "Knight Rider - The Game": [
-            "Imperium Gier Wydanie Specjalne 1-2005 (Disc 1)"
+			"Imperium Gier Wydanie Specjalne 1-2005 (Disc 1)",
+			"Rycar' dorog"
         ],
         "Knight Rider 2 - The Game": [
             "Imperium Gier Wydanie Specjalne 1-2005 (Disc 2)"
         ],
         "Knights and Merchants - The Shattered Kingdom & The Peasants Rebellion": [
-            "PC Action 9-00"
+			"PC Action 9-00",
+			"Rycari i Kupcy"
         ],
         "Korsar, Der": [
             "Korsary - Prokljat'e dal'nih morej"
@@ -2183,10 +2210,22 @@
             "MechWarrior 2 - Mercenaries (3Dfx Interactive Edition)",
             "MechWarrior 2 - Mercenaries (Titanium)",
             "MechWarrior 2 - Mercenaries"
-        ],
+		],
         "Medal of Honor - Allied Assault (Bonus CD)": [
             "Medal of Honor - Allied Assault (Disc 3)"
-        ],
+		],
+		"Medal of Honor - Allied Assault (Disc 1)": [
+			"Rongyu Xunzhang - Lianhe Xiji (Disc 1)"
+		],
+		"Medal of Honor - Allied Assault (Disc 2)": [
+			"Rongyu Xunzhang - Lianhe Xiji (Disc 2)"
+		],
+		"Medal of Honor - Allied Assault - Breakthrough": [
+			"Rongyu Xunzhang - Lianhe Xiji - Tupo Fangxian"
+		],
+		"Medal of Honor - Allied Assault - Spearhead": [
+			"Rongyu Xunzhang - Lianhe Xiji - Qixi Xianfeng"
+		],
         "Medal of Honor - Pacific Assault": [
             "Medal of Honor - Pacific Assault (Disc 1)",
             "Medal of Honor - Pacific Assault (Disc 2)",
@@ -2270,7 +2309,10 @@
         ],
         "Mobile Forces": [
             "CD-Action 03-2004 (97) (Disc 1)"
-        ],
+		],
+		"Monaco Grand Prix Racing Simulation 2": [
+			"Racing Simulation 2"
+		],
         "Monkey Island 2 - LeChuck's Revenge": [
             "Bestseller Games Ausgabe 7"
         ],
@@ -2347,7 +2389,10 @@
         ],
         "Need for Speed - Underground (Disc 2)": [
             "Need for Speed - Underground (Disc 2) (EA Classics)"
-        ],
+		],
+		"Network Q RAC Rally Championship": [
+			"Rallye Racing 97"
+		],
         "Neverwinter Nights (Disc 1) (Installation Disc 1)": [
             "Neverwinter Nights (Disc 1)"
         ],
@@ -2668,7 +2713,8 @@
             "Quake 4 (Disc 4)"
         ],
         "Queen of the Nile - Cleopatra": [
-            "Koenigin des Nils - Kleopatra"
+			"Koenigin des Nils - Kleopatra",
+			"Regina del Nilo - Cleopatra"
         ],
         "Quest for Glory - Collection Series": [
             "Quest for Glory Anthology"
@@ -2678,10 +2724,33 @@
         ],
         "Quest for Glory V - Dragon Fire (Install CD)": [
             "Quest for Glory V - Drachenfeuer (Disc 2)"
-        ],
+		],
+		"Rage (Disc 1) (Anarchy Edition)": [
+			"Rage (Disc 1)"
+		],
+		"Rage (Disc 2) (Anarchy Edition)": [
+			"Rage (Disc 2)"
+		],
+		"Rage (Disc 3) (Anarchy Edition)": [
+			"Rage (Disc 3)"
+		],
+		"Railroad Tycoon 3 (Disc 1) (Install)": [
+			"Railroad Tycoon 3 (Install)"
+		],
+		"Railroad Tycoon 3 (Disc 2) (Play)": [
+			"Railroad Tycoon 3 (Play)"
+		],
+		"Railroad Tycoon II - The Second Century": [
+			"Railroad Tycoon II - The Next Millennium"
+		],
         "Rally Trophy": [
             "Komputer Swiat Gry 10-2004 (Disc 2)"
-        ],
+		],
+		"Rayman - Raving Rabbids": [
+			"Rayman - Raving Rabbids (Just for Games)",
+			"Rayman - Raving Rabbids (Disc 1)",
+			"Rayman - Raving Rabbids (Disc 2)"
+		],
         "Rayman 2 - The Great Escape (DVD)": [
             "Komputer Swiat Gry 03-2003",
             "Rayman 2 - The Great Escape"
@@ -2692,10 +2761,20 @@
             "Rayman 3 - Hoodlum Havoc (Disc 1)",
             "Rayman 3 - Hoodlum Havoc (Disc 2)",
             "Rayman 3 - Hoodlum Havoc (Disc 3)"
-        ],
+		],
+		"Rayman Arena (Disc 1)": [
+			"Rayman M (Disc 1)",
+			"Rayman M - The Challenge"
+		],
+		"Rayman Arena (Disc 2)": [
+			"Rayman M (Disc 2)"
+		],
         "Re-Volt": [
             "Click! 10-2003 (Disc 1)"
-        ],
+		],
+		"Real Time Daisenryaku Plus Internet Taisen - SoftBank Premium CD-ROM": [
+			"Real Time Daisenryaku Plus Internet Taisen"
+		],
         "Realms of Arkania - Blade of Destiny": [
             "Bestseller Games Ausgabe 18 (Disc 1)"
         ],
@@ -2711,7 +2790,28 @@
         "Red Faction (Disc 2) (Multiplayer Disc)": [
             "Play 10-2003 (Disc 2)",
             "Red Faction (Disc 2) (Multiplayer Disc) (EB Games)"
-        ],
+		],
+		"Red Orchestra - Ostfront 41-45": [
+			"Red Orchestra - Ostfront 41-45 (Installation Disk 1)",
+			"Red Orchestra - Ostfront 41-45 (Installation Disk 2)",
+			"Red Orchestra - Ostfront 41-45 (Bonus-DVD)",
+			"Red Orchestra - Ostfront 41-45 (Disc 1)",
+			"Red Orchestra - Ostfront 41-45 (Disc 2)",
+			"Red Orchestra - Ostfront 41-45 (Installation Disc 1)",
+			"Red Orchestra - Ostfront 41-45 (Installation Disc 2)"
+		],
+		"Redjack - Revenge of the Brethren (Disc 1)": [
+			"Redjack - Die Rache der Bruderschaft (Disc 1)"
+		],
+		"Redjack - Revenge of the Brethren (Disc 2)": [
+			"Redjack - Die Rache der Bruderschaft (Disc 2)"
+		],
+		"Redjack - Revenge of the Brethren (Disc 3)": [
+			"Redjack - Die Rache der Bruderschaft (Disc 3)"
+		],
+		"Remember 11 - The Age of Infinity": [
+			"Remember11 - Wuxian Lunhui De Shiguang"
+		],
         "Resident Evil": [
             "Biohazard (PowerVR OEM)",
             "Biohazard",
@@ -2747,11 +2847,89 @@
         ],
         "Resident Evil 6 (Disc 2)": [
             "Biohazard 6 (Disc 2)"
-        ],
+		],
+		"Return to Mysterious Island (Disc 1)": [
+			"Retour sur l'Ile Mysterieuse (Disc 1)"
+		],
+		"Return to Mysterious Island (Disc 2)": [
+			"Retour sur l'Ile Mysterieuse (Disc 2)"
+		],
+		"Return to Zork": [
+			"Return to Zork (ReelMagic OEM)"
+		],
+		"Revenant (Disc 1)": [
+			"Revenant",
+			"Revenant (Disc 1) (Installation)"
+		],
+		"Revenant (Disc 2) (Music and FMV)": [
+			"Revenant (Disc 2)"
+		],
+		"Rift (Game Disc)": [
+			"Rift"
+		],
+		"Ring Cycle": [
+			"Ring des Nibelungen, Der"
+		],
         "Ripley's Believe It or Not - The Riddle of Master Lu": [
             "Enigme de Maitre Lu, L'",
-            "PC Player 11-2000 B"
-        ],
+			"PC Player 11-2000 B",
+			"Raetsel des Master Lu, Das"
+		],
+		"Rise 2 - Resurrection (Limited Edition 2nd CD) (The Directors Cut)": [
+			"Rise 2 - Resurrection (The Directors Cut)"
+		],
+		"Rise of Nations - Gold Edition": [
+			"Rise of Nations - Gold Edition (Disc 1)",
+			"Rise of Nations - Gold Edition (Disc 2)"
+		],
+		"Risk - The Game of Global Domination": [
+			"Risk - The World Conquest Game (Disc 1)",
+			"Risk - The World Conquest Game (Disc 2)",
+			"Risk - The World Conquest Game"
+		],
+		"Riven - The Sequel to Myst": [
+			"Riven - La Suite de Myst (Disc 1)",
+			"Riven - La Suite de Myst (Disc 2)",
+			"Riven - La Suite de Myst (Disc 3)",
+			"Riven - La Suite de Myst (Disc 4)",
+			"Riven - La Suite de Myst (Disc 5)",
+			"Riven - The Sequel to Myst (Disc 1)",
+			"Riven - The Sequel to Myst (Disc 2)",
+			"Riven - The Sequel to Myst (Disc 3)",
+			"Riven - The Sequel to Myst (Disc 4)",
+			"Riven - The Sequel to Myst (Disc 5)"
+		],
+		"Road & Track Presents - The Need for Speed SE": [
+			"Road & Track Presents - The Need for Speed - Special Edition"
+		],
+		"Robin Hood - The Legend of Sherwood": [
+			"Robin Hood - Legenda Sherwood"
+		],
+		"Rockman X8 (Disc 1)": [
+			"Rockman X8"
+		],
+		"RollerCoaster Tycoon - Corkscrew Follies": [
+			"RollerCoaster Tycoon - Added Attractions Pack"
+		],
+		"RollerCoaster Tycoon 2 - Time Twister Expansion Pack": [
+			"RollerCoaster Tycoon 2 - Time Twister"
+		],
+		"RollerCoaster World (F8E26303)": [
+			"RollerCoaster World"
+		],
+		"Rome - Total War": [
+			"Rome - Total War (Disc 1)",
+			"Rome - Total War (Disc 2)",
+			"Rome - Total War (Disc 3)"
+		],
+		"Runaway - A Road Adventure": [
+			"Runaway - A Road Adventure (Disc 1)",
+			"Runaway - A Road Adventure (Disc 2)",
+			"Runaway - A Road Adventure (Disc 3)"
+		],
+		"Runaway - The Dream of the Turtle": [
+			"Runaway 2 - The Dream of the Turtle"
+		],
         "S^2 - Silent Storm (Disc 1)": [
             "Play 2-2007 (Disc 1)"
         ],
@@ -2875,13 +3053,35 @@
         "Star Wars - Rebel Assault": [
             "Bestseller Games Gold-Edition Ausgabe 4",
             "Star Wars - Rebel Assault - Special Edition"
-        ],
+		],
+		"Starship Titanic (Disc 1)": [
+			"Raumschiff Titanic (Disc 1)"
+		],
+		"Starship Titanic (Disc 2)": [
+			"Raumschiff Titanic (Disc 2)"
+		],
+		"Starship Titanic (Disc 3)": [
+			"Raumschiff Titanic (Disc 3)"
+		],
         "Starsky & Hutch": [
             "Click! 07-2005 (Disc 1)"
         ],
         "STCC - The Game": [
             "Komputer Swiat Gry 06-2001"
-        ],
+		],
+		"Still Life (Disc 1) (Install)": [
+			"Still Life (Disc 1)",
+			"Still Life (Disc 1) (Instalacja)",
+			"Still Life"
+		],
+		"Still Life (Disc 2) (Play)": [
+			"Still Life (Disc 2)",
+			"Still Life (Disc 2) (Gra)"
+		],
+		"Stolen": [
+			"Stolen (Disc 1) (Game Disc)",
+			"Stolen (Disc 2)"
+		],
         "Stonekeep": [
             "Bestseller Games Gold-Edition Ausgabe 15"
         ],
@@ -2962,7 +3162,10 @@
         "Turok 2 - Seeds of Evil": [
             "Bravo ScreenFun 9-2004 (Disc 2)",
             "Click! 01-2004 (Disc 2)"
-        ],
+		],
+		"Type da Puyo Puyo": [
+			"Great Series Vol. 31 - Type da Puyo Puyo"
+		],
         "Ultimate Soccer Manager 98-99 Season Edition": [
             "DSF Fussball Manager '98"
         ],
@@ -3056,7 +3259,10 @@
         ],
         "Worms 2": [
             "Click! 08-2003 (Disc 1)"
-        ],
+		],
+		"X3 - Terran Conflict 2.0": [
+			"X3 - Terran Conflict"
+		],
         "Zeus - Master of Olympus": [
             "Herrscher des Olymp - Zeus"
         ]
@@ -3217,29 +3423,6 @@
         ],
         "Blood (Disc 1) (Special Edition)": [
             "Blood (Disc 1)"
-        ],
-        "Broken Sword Complete": [
-            "Baphomets Fluch (Disc 1)",
-            "Baphomets Fluch (Disc 2)",
-            "Baphomets Fluch - Der Engel des Todes",
-            "Baphomets Fluch - Der Schlafende Drache (Disc 1)",
-            "Baphomets Fluch - Der Schlafende Drache (Disc 2)",
-            "Baphomets Fluch II - Die Spiegel der Finsternis (Disc 1)",
-            "Baphomets Fluch II - Die Spiegel der Finsternis (Disc 2)",
-            "Baphomets Fluch Trilogie",
-            "Boucliers de Quetzalcoatl, Les - Les Chevaliers de Baphomet II (Disc 1)",
-            "Boucliers de Quetzalcoatl, Les - Les Chevaliers de Baphomet II (Disc 2)",
-            "Broken Sword - The Shadow of the Templars  (Disc 1)",
-            "Broken Sword - The Shadow of the Templars  (Disc 2)",
-            "Broken Sword - The Sleeping Dragon (Disc 1)",
-            "Broken Sword - The Sleeping Dragon (Disc 2)",
-            "Broken Sword I & II Double Pack",
-            "Broken Sword II - La Profezia dei Maya (Disc 1)",
-            "Broken Sword II - La Profezia dei Maya (Disc 2)",
-            "Broken Sword II - The Smoking Mirror (Disc 1)",
-            "Broken Sword II - The Smoking Mirror (Disc 2)",
-            "Broken Sword II - The Smoking Mirror",
-            "Broken Sword II - The Smoking Mirror"
         ],
         "Bygg batar med Mulle Meck - Specialversion": [
             "Bygg Batar med Mulle Meck"
@@ -3714,9 +3897,6 @@
         "Minecraft - Story Mode - A Telltale Games Series - The Complete Adventure": [
             "Minecraft - Story Mode - A Telltale Games Series"
         ],
-        "Mixed-Up Mother Goose Deluxe": [
-            "Mixed-Up Mother Goose"
-        ],
         "Monkey Island - Special Edition Collection": [
             "Bestseller Games Ausgabe 2",
             "Bestseller Games Ausgabe 7",
@@ -3862,16 +4042,133 @@
             "Hero Quest",
             "Quest for Glory - Shadows of Darkness",
             "Quest for Glory Anthology"
-        ],
+		],
+		"Railroad Tycoon II - Platinum": [
+			"Railroad Tycoon II",
+			"Railroad Tycoon II - Gold Edition",
+			"Railroad Tycoon II - The Next Millennium",
+			"Railroad Tycoon II - The Second Century"
+		],
+		"Rayman 10th Anniversary (Rayman M + Rayman 3 + Rayman 3 Print Studio)": [
+			"Rayman 2 - The Great Escape (DVD)",
+			"Rayman 3 - Hoodlum Havoc",
+			"Rayman 3 - Special Edition",
+			"Rayman 3 Print Studio",
+			"Rayman Arena (Disc 1)",
+			"Rayman Arena (Disc 2)",
+			"Rayman M (Disc 1)",
+			"Rayman M (Disc 2)",
+			"Rayman M - The Challenge"
+		],
         "Resident Evil 4 (Ultimate HD Edition)": [
             "Resident Evil 4"
-        ],
+		],
+		"Resident Evil 7 - Biohazard - Gold Edition (Disc 1)": [
+			"Resident Evil 7 - Biohazard (Disc 1)",
+			"Resident Evil 7 - Biohazard (Disc 2)",
+			"Resident Evil 7 - Biohazard (Disc 3)"
+		],
         "Resident Evil Origins Collection (Disc 1)": [
             "Biohazard (PowerVR OEM)",
             "Biohazard",
             "Resident Evil (PowerVR OEM)",
             "Resident Evil"
-        ],
+		],
+		"Return to Castle Wolfenstein (Disc 1) (The Platinum Edition)": [
+			"Return to Castle Wolfenstein (Disc 1) (Game of the Year Edition)",
+			"Return to Castle Wolfenstein",
+			"Return to Castle Wolfenstein - Interactive CD-ROM"
+		],
+		"Return to Castle Wolfenstein (Disc 2) (The Platinum Edition)": [
+			"Return to Castle Wolfenstein (Disc 2)",
+			"Return to Castle Wolfenstein (Disc 2) (Game of the Year Edition)"
+		],
+		"Revolution - 25th Anniversary Collection (Disc 1) (Revolution Games 1992 - 2010)": [
+			"Baphomets Fluch (Disc 1)",
+			"Baphomets Fluch (Disc 2)",
+			"Baphomets Fluch - Der Engel des Todes",
+			"Baphomets Fluch - Der Schlafende Drache (Disc 1)",
+			"Baphomets Fluch - Der Schlafende Drache (Disc 2)",
+			"Baphomets Fluch II - Die Spiegel der Finsternis (Disc 1)",
+			"Baphomets Fluch II - Die Spiegel der Finsternis (Disc 2)",
+			"Baphomets Fluch Trilogie",
+			"Beneath a Steel Sky",
+			"Boucliers de Quetzalcoatl, Les - Les Chevaliers de Baphomet II (Disc 1)",
+			"Boucliers de Quetzalcoatl, Les - Les Chevaliers de Baphomet II (Disc 2)",
+			"Broken Sword - The Shadow of the Templars (Disc 1)",
+			"Broken Sword - The Shadow of the Templars (Disc 2)",
+			"Broken Sword - The Sleeping Dragon (Disc 1)",
+			"Broken Sword - The Sleeping Dragon (Disc 2)",
+			"Broken Sword I & II Double Pack",
+			"Broken Sword II - La Profezia dei Maya (Disc 1)",
+			"Broken Sword II - La Profezia dei Maya (Disc 2)",
+			"Broken Sword II - The Smoking Mirror (Disc 1)",
+			"Broken Sword II - The Smoking Mirror (Disc 2)",
+			"Broken Sword II - The Smoking Mirror",
+			"Broken Sword II - The Smoking Mirror",
+			"Broken Sword Complete",
+			"Chevaliers de Baphomet, Les (Disc 1)",
+			"Chevaliers de Baphomet, Les (Disc 2)",
+			"Click! 08-2003 (Disc 2)",
+			"Click! 10-2003 (Disc 2)",
+			"Cold Blood (Disc 1)",
+			"Cold Blood (Disc 2)",
+			"Cold Blood (Disc 3)",
+			"Giochi per il Mio Computer - Ottobre 2003",
+			"In Cold Blood (Disc 3)",
+			"In Cold Blood (Disc 1)",
+			"In Cold Blood (Disc 2)",
+			"Lure of the Temptress (Hit Squad)"
+		],
+		"Rise 2 - Resurrection (Limited Edition 2nd CD) (The Directors Cut)": [
+			"Rise 2 - Resurrection (The Directors Cut)",
+			"Rise 2 - Resurrection"
+		],
+		"Rise of Nations - Gold Edition": [
+			"Rise of Nations",
+			"Rise of Nations - Gold Edition (Disc 1)",
+			"Rise of Nations - Gold Edition (Disc 2)",
+			"Rise of Nations - Thrones & Patriots"
+		],
+		"Rise of the Robots (The Director's Cut)": [
+			"Rise of the Robots"
+		],
+		"Rise of the Triad - The HUNT Begins (Deluxe Edition)": [
+			"Rise of the Triad - The HUNT Begins"
+		],
+		"Road & Track Presents - The Need for Speed SE": [
+			"Road & Track Presents - The Need for Speed",
+			"Road & Track Presents - The Need for Speed - Special Edition"
+		],
+		"Roberta Williams Anthology, The (Disc 1)": [
+			"King's Quest VI - Heir Today, Gone Tomorrow (6CF957C0)",
+			"King's Quest VI - Heir Today, Gone Tomorrow (B6500EF1)",
+			"King's Quest VI - Heir Today, Gone Tomorrow",
+			"King's Quest VII - The Princeless Bride",
+			"Mixed-Up Mother Goose",
+			"Mixed-Up Mother Goose Deluxe",
+			"PC Player Plus 5-99 C",
+			"Roberta Williams' Laura Bow - The Dagger of Amon Ra"
+		],
+		"RollerCoaster Tycoon Deluxe": [
+			"RollerCoaster Tycoon - Added Attractions Pack",
+			"RollerCoaster Tycoon - Corkscrew Follies",
+			"RollerCoaster Tycoon - Loopy Landscapes"
+		],
+		"RollerCoaster Tycoon 2 (World of RollerCoaster Tycoon)": [
+			"RollerCoaster Tycoon 2",
+			"RollerCoaster Tycoon 2 - Time Twister",
+			"RollerCoaster Tycoon 2 - Time Twister Expansion Pack",
+			"RollerCoaster Tycoon 2 - Triple Thrill Pack",
+			"RollerCoaster Tycoon 2 - Wacky Worlds Expansion Pack"
+		],
+		"RollerCoaster Tycoon 3 (World of RollerCoaster Tycoon)": [
+			"RollerCoaster Tycoon 3",
+			"RollerCoaster Tycoon 3 - Soaked!",
+			"RollerCoaster Tycoon 3 - Wild!",
+			"RollerCoaster Tycoon 3 Gold!",
+			"RollerCoaster Tycoon 3 Platinum!"
+		],
         "SimCity Classic (Deluxe Edition)": [
             "Bestseller Games Ausgabe 14",
             "SimCity Classic"
