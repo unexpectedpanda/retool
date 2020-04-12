@@ -3,7 +3,7 @@
         "name": [
 			"IBM - PC compatible"
 		],
-        "last updated": "11 Apr 2020"
+        "last updated": "13 Apr 2020"
     },
 
     "compilations": [
@@ -56,7 +56,13 @@
         "PC PowerPlay 177 (Australia) (Side B)",
         "Panzer General & Hind (Germany)",
         "Play 1-2008 (Poland)",
-        "Produzent, Der & Kick Off 97 (Germany)"
+		"Produzent, Der & Kick Off 97 (Germany)",
+		"Saga Baldur's Gate (Poland)",
+		"Saga Icewind Dale (Poland)",
+		"Saga The Settlers I-IV (Poland) (The Settlers I + II)",
+		"Saga The Settlers I-IV (Poland) (The Settlers III - Zlota Edycja - Disc 1)",
+		"Saga The Settlers I-IV (Poland) (The Settlers III - Zlota Edycja - Disc 2)",
+		"Saga The Settlers I-IV (Poland) (The Settlers IV - Zlota Edycja)"
     ],
 
     "renames": {
@@ -163,7 +169,8 @@
         ],
         "Alone in the Dark": [
             "Alone in the Dark (Pay as You Play Version) (CD-ROM User)",
-            "Alone in the Dark (Pay as You Play Version) (PC Power)"
+			"Alone in the Dark (Pay as You Play Version) (PC Power)",
+			"Secret Service - Wydanie Specjalne Alone in the Dark"
         ],
         "Alone in the Dark - The New Nightmare (Disc 1)": [
             "Alone in the Dark - The New Nightmare",
@@ -243,7 +250,10 @@
         ],
         "Arcanum - Of Steamworks & Magick Obscura (Disc 2)": [
             "Arcanum (Disc 2) (Play Disk)"
-        ],
+		],
+		"Archimedean Dynasty, The": [
+			"Schleichfahrt"
+		],
         "Armored Fist": [
             "Bestseller Games Gold-Edition Ausgabe 2"
         ],
@@ -582,7 +592,10 @@
         ],
         "Catan - Die erste Insel": [
             "Bravo ScreenFun 9-2003"
-        ],
+		],
+		"Championship Manager 4": [
+			"Scudetto 4 - Championship Manager - Stagione 2002-2003"
+		],
         "Chaser (Disc 1)": [
             "Chaser (Disc 1) (Play CD)"
         ],
@@ -2776,12 +2789,18 @@
 			"Real Time Daisenryaku Plus Internet Taisen"
 		],
         "Realms of Arkania - Blade of Destiny": [
-            "Bestseller Games Ausgabe 18 (Disc 1)"
+			"Bestseller Games Ausgabe 18 (Disc 1)",
+			"Schwarze Auge, Das - Die Schicksalsklinge"
         ],
         "Realms of Arkania - Star Trail": [
             "Bestseller Games Ausgabe 18 (Disc 2)",
-            "PC Player Super Plus 10-98"
-        ],
+			"PC Player Super Plus 10-98",
+			"Schwarze Auge, Das - Sternenschweif (Disc 1)",
+			"Schwarze Auge, Das - Sternenschweif (Disc 2)"
+		],
+		"Realms of Arkania III - Shadows over Riva": [
+			"Schwarze Auge, Das - Schatten ueber Riva"
+		],
         "Red Faction (Disc 1)": [
             "Play 10-2003 (Disc 1)",
             "Red Faction (Disc 1) (Installation Disc) (EB Games)",
@@ -2930,21 +2949,59 @@
 		"Runaway - The Dream of the Turtle": [
 			"Runaway 2 - The Dream of the Turtle"
 		],
+		"S.T.A.L.K.E.R. - Call of Pripyat": [
+			"S.T.A.L.K.E.R."
+		],
+		"S.W.I.N.E. (Install Disk)": [
+			"S.V.I.N. (Disc 1)",
+			"S.W.I.N.E. (Disc 1)",
+			"S.W.I.N.E. (Install-CD)"
+		],
+		"S.W.I.N.E. (Play Disk)": [
+			"S.V.I.N. (Disc 2)",
+			"S.W.I.N.E. (Disc 2)",
+			"S.W.I.N.E. (PlayDisk)",
+			"S.W.I.N.E. (Play-CD)"
+		],
         "S^2 - Silent Storm (Disc 1)": [
             "Play 2-2007 (Disc 1)"
         ],
         "S^2 - Silent Storm (Disc 2)": [
             "Play 2-2007 (Disc 2)"
-        ],
-        "Sam & Max - Season One": [
-            "PC Gamer March 2008"
-        ],
+		],
+		"Sabre Ace - Conflict over Korea": [
+			"Sabre Ace - Konflict ueber Korea"
+		],
+		"Sacred (Disc 1)": [
+			"Sacred"
+		],
+		"Sacred 2 - Fallen Angel (Elite GFX)": [
+			"Sacred 2 - Fallen Angel (Disc 1)",
+			"Sacred 2 - Fallen Angel (Disc 2)"
+		],
+		"Sacred Gold": [
+			"Sacred - Edizione Oro"
+		],
+		"Sacrifice": [
+			"Sacrifice (MSI OEM)",
+			"Sacrifice (Hewlett Packard OEM)"
+		],
+		"Saga - Rage of the Vikings": [
+			"Saga - Siegeszug der Wikinger"
+		],
         "Sam & Max Hit the Road": [
             "Bestseller Games Gold-Edition Ausgabe 3"
-        ],
+		],
+		"Schizm - Mysterious Journey (Disc 1)": [
+			"Schizm - Mysterious Journey (Side A)",
+			"Schizm - Mysterious Journey (Side B)"
+		],
         "Screamer 4x4": [
             "CD-Action 08-2002 (76) (Disc 2)"
-        ],
+		],
+		"Sea Dogs - An Epic Adventure at Sea": [
+			"Sea Dogs - Piraci"
+		],
         "Secret Files - Tunguska": [
             "Geheimakte - Tunguska",
             "Secret Files - Tunguska (Disc 2)",
@@ -2953,7 +3010,16 @@
         ],
         "Secret of Monkey Island, The": [
             "Bestseller Games Ausgabe 2"
-        ],
+		],
+		"Sega Rally 2 (Install Disc)": [
+			"Sega Rally 2 (Disc 1) (Install Disc)"
+		],
+		"Sega Rally 2 (Play Disc)": [
+			"Sega Rally 2 (Disc 2) (Play Disc)"
+		],
+		"Sega Worldwide Soccer PC (Direct3D)": [
+			"Sega Worldwide Soccer PC"
+		],
         "Serious Sam - The First Encounter (Gold Edition)": [
             "Krutoj Sjem - Pervaja krov'",
             "Play 1-2007 (Disc 1)",
@@ -3090,7 +3156,10 @@
         ],
         "Super Taxi Driver": [
             "Mio Computer, Il - Febbraio 2001 (Disc 2)"
-        ],
+		],
+		"SWAT 4 - The Stetchkov Syndicate": [
+			"SWAT 4 - Sindikat Stechkina"
+		],
         "Team Apache": [
             "Bestseller Games Gold-Edition Ausgabe 27"
         ],
@@ -3361,7 +3430,7 @@
             "Baldur's Gate - Die Legenden der Schwertkueste",
             "Baldur's Gate - Kakuchou Scenario-shuu - Tales of the Sword Coast",
             "Baldur's Gate - Tales of the Sword Coast",
-            "Baldur's Gate"
+			"Baldur's Gate"
         ],
         "Batman - Arkham Asylum (Game of the Year Edition)": [
             "Batman - Arkham Asylum"
@@ -4060,6 +4129,16 @@
 			"Rayman M (Disc 2)",
 			"Rayman M - The Challenge"
 		],
+		"Realms of Arkania Trilogy - Blade of Destiny - Star Trail": [
+			"Realms of Arkania - Blade of Destiny",
+			"Bestseller Games Ausgabe 18 (Disc 1)",
+			"Schwarze Auge, Das - Die Schicksalsklinge",
+			"Realms of Arkania - Star Trail",
+            "Bestseller Games Ausgabe 18 (Disc 2)",
+			"PC Player Super Plus 10-98",
+			"Schwarze Auge, Das - Sternenschweif (Disc 1)",
+			"Schwarze Auge, Das - Sternenschweif (Disc 2)"
+		],
         "Resident Evil 4 (Ultimate HD Edition)": [
             "Resident Evil 4"
 		],
@@ -4169,10 +4248,33 @@
 			"RollerCoaster Tycoon 3 Gold!",
 			"RollerCoaster Tycoon 3 Platinum!"
 		],
+		"Sacred Gold": [
+			"Sacred (Disc 1)",
+			"Sacred (Disc 2)",
+			"Sacred",
+			"Sacred - Edizione Oro",
+			"Sacred - Underworld (Disc 1)",
+			"Sacred - Underworld (Disc 2)",
+			"Sacred Plus (Disc 1)",
+			"Sacred Plus (Disc 2)"
+		],
+		"Sam & Max - Season One": [
+            "PC Gamer March 2008"
+		],
+		"Sega Smash Pack Twin Pack": [
+			"Sega Smash Pack",
+			"Sega Smash Pack 2"
+		],
         "SimCity Classic (Deluxe Edition)": [
             "Bestseller Games Ausgabe 14",
             "SimCity Classic"
-        ],
+		],
+		"SWAT 3 - Close Quarters Battle (Play CD) (Tactical Game of the Year Edition)": [
+			"SWAT 3 - Close Quarters Battle",
+			"SWAT 3 - Close Quarters Battle (Elite Edition)",
+			"SWAT 3 - Close Quarters Battle (Disc 1) (Play Disc) (Tactical Game of the Year Edition)",
+			"SWAT 3 - Close Quarters Battle (Disc 2) (Tactics Disc) (Tactical Game of the Year Edition)"
+		],
         "Ultima Collection": [
             "PC Games July-August 1997",
             "Ultima VIII - Pagan"
