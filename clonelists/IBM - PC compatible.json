@@ -880,7 +880,13 @@
         ],
         "Daemonica": [
             "Click! 03-2006 (Disc 1)"
-        ],
+		],
+		"Dame Was Loaded, The (Disc 1)": [
+			"Signora Calibro 32, La (Disc 1)"
+		],
+		"Dame Was Loaded, The (Disc 2)": [
+			"Signora Calibro 32, La (Disc 2)"
+		],
         "Dangerous Waters": [
             "Dangerous Waters (To Catch a Shadow)"
         ],
@@ -1489,7 +1495,10 @@
         ],
         "FreeSpace 2 (Disc 1)": [
             "CD-Action 07-2002 (75) (Disc 1)"
-        ],
+		],
+		"Front Page Sports - Golf": [
+			"Sierra Sports Golf"
+		],
         "G-Nome": [
             "Bestseller Games Gold-Edition Ausgabe 17"
         ],
@@ -2109,15 +2118,23 @@
             "Lord of the Rings, The - The Battle for Middle-Earth II (Disc 4)",
             "Lord of the Rings, The - The Battle for Middle-Earth II (Disc 5)",
             "Lord of the Rings, The - The Battle for Middle-Earth II (Disc 6)"
-        ],
+		],
+		"Lord of the Rings, The - The Fellowship of the Ring": [
+			"Lord of the Rings, The - The Fellowship of the Ring (Disc 1) (Install Disc)",
+			"Lord of the Rings, The - The Fellowship of the Ring (Disc 2)",
+			"Signore degli Anelli, Il - La compagnia dell'Anello"
+		],
         "Lord of the Rings, The - The Return of the King (Install Disc One)": [
-            "Lord of the Rings, The - Ou no Kikan (Disc 1)"
+			"Lord of the Rings, The - Ou no Kikan (Disc 1)",
+			"Signore degli Anelli, Il - Il ritorno del Re (Disc 1) (Disco d'Installazione)"
         ],
         "Lord of the Rings, The - The Return of the King (Install Disc Two)": [
-            "Lord of the Rings, The - Ou no Kikan (Disc 2)"
+			"Lord of the Rings, The - Ou no Kikan (Disc 2)",
+			"Signore degli Anelli, Il - Il ritorno del Re (Disc 2) (Disco d'Installazione)"
         ],
         "Lord of the Rings, The - The Return of the King (Play Disc)": [
-            "Lord of the Rings, The - Ou no Kikan (Disc 3)"
+			"Lord of the Rings, The - Ou no Kikan (Disc 3)",
+			"Signore degli Anelli, Il - Il ritorno del Re (Disc 3) (Disco di Gioco)"
         ],
         "Lords of Magic (Special Edition)": [
             "Lords of Magic - Special Edition"
@@ -2130,7 +2147,7 @@
         "Lords of the Realm II": [
             "Best of Sierra Nr. 17 (Disc 1)",
             "Lords of the Realm II (29D78413)"
-        ],
+		],
         "Lost in Time": [
             "Lost in Time - Parts 1 & 2"
         ],
@@ -3424,7 +3441,8 @@
 			"X3 - Terran Conflict"
 		],
         "Zeus - Master of Olympus": [
-            "Herrscher des Olymp - Zeus"
+			"Herrscher des Olymp - Zeus",
+			"Signore dell'Olimpo, Il - Zeus"
 		],
 		"Zwei!! (Tokutenban)": [
 			"Shuangxing Wuyu",
