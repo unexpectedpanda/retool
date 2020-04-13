@@ -62,7 +62,12 @@
 		"Saga The Settlers I-IV (Poland) (The Settlers I + II)",
 		"Saga The Settlers I-IV (Poland) (The Settlers III - Zlota Edycja - Disc 1)",
 		"Saga The Settlers I-IV (Poland) (The Settlers III - Zlota Edycja - Disc 2)",
-		"Saga The Settlers I-IV (Poland) (The Settlers IV - Zlota Edycja)"
+		"Saga The Settlers I-IV (Poland) (The Settlers IV - Zlota Edycja)",
+		"Sid Meier's Classic Collection",
+		"Siedler, Die - Platin Editon I - II - III - IV (Germany) (Disc 1)",
+		"Siedler, Die - Platin Editon I - II - III - IV (Germany) (Disc 2)",
+		"Siedler, Die - Platin Editon I - II - III - IV (Germany) (Disc 3)",
+		"Siedler, Die - Platin Editon I - II - III - IV (Germany) (Disc 4)"
     ],
 
     "renames": {
@@ -1227,7 +1232,13 @@
         ],
         "Earthworm Jim 2": [
             "Bestseller Games Ausgabe 23 (Disc 2)"
-        ],
+		],
+		"Echelon": [
+			"Shtorm"
+		],
+		"Echelon - Wind Warriors": [
+			"Shtorm - Soldaty neba"
+		],
         "Egypt 1156 B.C. - Tomb of the Pharaoh": [
             "Egypte 1156 AV. J.-C. - L'Enigme de la Tombe Royale",
             "Grab des Pharao, Das"
@@ -3020,6 +3031,12 @@
 		"Sega Worldwide Soccer PC (Direct3D)": [
 			"Sega Worldwide Soccer PC"
 		],
+		"Siedler II, Die - Gold Edition": [
+			"Settlers II, The - Zlota Edycja"
+		],
+		"Siedler II, Die - Mission CD": [
+			"Settlers II, The - Nowe Misje"
+		],
         "Serious Sam - The First Encounter (Gold Edition)": [
             "Krutoj Sjem - Pervaja krov'",
             "Play 1-2007 (Disc 1)",
@@ -3039,7 +3056,42 @@
         ],
         "Settlers, The": [
             "Bestseller Games Gold-Edition Ausgabe 6"
-        ],
+		],
+		"Settlers II, The - Veni, Vidi, Vici": [
+			"Settlers II, The",
+			"Siedler II, Die - Veni, Vidi, Vici"
+		],
+		"Settlers III, The (Disc 1)": [
+			"Siedler III, Die (Disc 1)"
+		],
+		"Settlers III, The (Disc 2)": [
+			"Siedler III, Die (Disc 2)"
+		],
+		"Settlers III, The - Gold Edition (Disc 1)": [
+			"Settlers III, The - Zlota Edycja (Disc 1)",
+			"Siedler III, Die - Gold Edition (Disc 1) (Alt)",
+			"Siedler III, Die - Gold Edition (Disc 1) (Programmstart)"
+		],
+		"Settlers III, The - Gold Edition (Disc 2)": [
+			"Settlers III, The - Zlota Edycja (Disc 2)",
+			"Siedler III, Die - Gold Edition (Disc 2) (Alt)",
+			"Siedler III, Die - Gold Edition (Disc 2) (Installation)"
+		],
+		"Settlers III, The - Quest of the Amazons": [
+			"Settlers III, The - Misja Amazonek",
+			"Siedler III, Die - Das Geheimnis der Amazonen"
+		],
+		"Settlers IV, The": [
+			"Siedler IV, Die"
+		],
+		"Settlers IV, The - Gold Edition (Disc 1)": [
+			"Siedler IV, Die - Gold Edition",
+			"Siedler IV, Die - Gold Edition (Disc 1)",
+			"Settlers IV, The - Zlota Edycja"
+		],
+		"Settlers IV, The - Gold Edition (Disc 2)": [
+			"Siedler IV, Die - Gold Edition (Disc 2)"
+		],
         "Seven Games of the Soul (Disc 1)": [
             "Faust (Disc 1)",
             "Faust - Die sieben Spiele der Seele (Disc 1)"
@@ -3055,22 +3107,51 @@
         "Seven Games of the Soul (Disc 4)": [
             "Faust (Disc 4)",
             "Faust - Die sieben Spiele der Seele (Disc 4)"
-        ],
+		],
+		"Shade - Wrath of Angels": [
+			"Shade - L'ira degli Angeli"
+		],
         "Shadow Man": [
             "Bravo ScreenFun 12-2004 (Disc 1)",
             "Shadow Man - Rette deine Seele"
-        ],
+		],
+		"Shadowgrounds": [
+			"Shadowgrounds (Disc 1) (Installation)",
+			"Shadowgrounds (Disc 2) (Spiel)",
+			"Shadowgrounds (Disc 1)",
+			"Shadowgrounds (Disc 2)"
+		],
+		"Shadowlands": [
+			"Shadowlands (Megapak)"
+		],
+		"Shanghai - Great Moments": [
+			"Shanghai - Grosse Momente"
+		],
         "Shattered Steel": [
             "Bestseller Games Collection Ausgabe 13"
         ],
         "Sherlock Holmes - The Secret of the Silver Earring": [
             "Avventure di Sherlock Holmes, Le - L'Orecchino d'Argento (Disc 1)",
             "Avventure di Sherlock Holmes, Le - L'Orecchino d'Argento (Disc 2)"
-        ],
+		],
+		"Sid Meier's Civilization IV - The Complete Edition": [
+			"Sid Meier's Civilization IV - Complete",
+			"Sid Meier's Civilization IV - Ultimate (Disc 1)",
+			"Sid Meier's Civilization IV - Ultimate (Disc 2) (Sid Meier's Civilization IV - Colonization)"
+		],
         "Sid Meier's Colonization": [
             "PC Gamer November 2008",
             "PC Gamer September 2008"
-        ],
+		],
+		"Sid Meier's Pirates! (Disc 1)": [
+			"Sid Meier's Pirates!"
+		],
+		"Siedler IV, Die - Die Trojaner und das Elixier der Macht": [
+			"Settlers IV, The - Trojanie i Eliksir Mocy"
+		],
+		"Siedler IV, Die - Mission CD": [
+			"Settlers IV, The - Misje Dodatkowe"
+		],
         "Siege of Avalon Anthology": [
             "Osada Avalona (Disc 1)",
             "Osada Avalona (Disc 2)"
@@ -3081,7 +3162,10 @@
         "Sims, The": [
             "Moni Rensheng",
             "Sims, Die"
-        ],
+		],
+		"SiN": [
+			"SiN (Patch v1.01)"
+		],
         "Sno-Cross Extreme": [
             "Komputer Swiat Gry 04-2002"
         ],
@@ -3095,7 +3179,10 @@
         ],
         "Space Quest 6 - Roger Wilco - The Spinal Frontier": [
             "Space Quest 6 - Roger Wilco in the Spinal Frontier"
-        ],
+		],
+		"Spectre VR": [
+			"Spectre VR (Megapak)"
+		],
         "Spy Fox in Dry Cereal": [
             "Agent Fuchs in Das Milchkartell",
             "Spy Fox - Operation Milkshake"
@@ -3159,6 +3246,10 @@
 		],
 		"SWAT 4 - The Stetchkov Syndicate": [
 			"SWAT 4 - Sindikat Stechkina"
+		],
+		"Syberia Collectors Edition - I & II": [
+			"Sibir' - Zolotoe izdanie",
+			"Syberia - Zlota Edycja"
 		],
         "Team Apache": [
             "Bestseller Games Gold-Edition Ausgabe 27"
@@ -3334,7 +3425,11 @@
 		],
         "Zeus - Master of Olympus": [
             "Herrscher des Olymp - Zeus"
-        ]
+		],
+		"Zwei!! (Tokutenban)": [
+			"Shuangxing Wuyu",
+			"Zwei!!"
+		]
     },
 
     "supersets": {
@@ -4265,6 +4360,78 @@
 			"Sega Smash Pack",
 			"Sega Smash Pack 2"
 		],
+		"Settlers, The": [
+			"Siedler, Die"
+		],
+		"Settlers III, The - Gold Edition (Disc 1)": [
+			"Settlers III (Disc 1)",
+			"Settlers III (Disc 2)",
+			"Settlers III, The - Misja Amazonek",
+			"Settlers III, The - Nowe Misje (Disc 1)",
+			"Settlers III, The - Nowe Misje (Disc 2)",
+			"Settlers III, The - Quest of the Amazons",
+			"Settlers III, The - Zlota Edycja (Disc 1)",
+			"Siedler III, Die (Disc 1)",
+			"Siedler III, Die (Disc 2)",
+			"Siedler III, Die - Gold Edition (Disc 1) (Alt)",
+			"Siedler III, Die - Gold Edition (Disc 1) (Programmstart)",
+			"Siedler III, Die - Mission CD",
+			"Siedler III, Die - Das Geheimnis der Amazonen"
+		],
+		"Settlers III, The - Gold Edition (Disc 2)": [
+			"Settlers III, The - Zlota Edycja (Disc 2)",
+			"Siedler III, Die - Gold Edition (Disc 2) (Alt)",
+			"Siedler III, Die - Gold Edition (Disc 2) (Installation)"
+		],
+		"Settlers IV, The - Gold Edition (Disc 1)": [
+			"Settlers IV, The",
+			"Settlers IV, The - Misje Dodatkowe",
+			"Settlers IV, The - Trojanie i Eliksir Mocy",
+			"Settlers IV, The - Zlota Edycja",
+			"Siedler IV, Die",
+			"Siedler IV, Die - Die Trojaner und das Elixier der Macht",
+			"Siedler IV, Die - Gold Edition (Disc 1)",
+			"Siedler IV, Die - Gold Edition (Disc 2)",
+			"Siedler IV, Die - Mission CD"
+		],
+		"Shadow Warrior (Special Edition)": [
+			"Shadow Warrior"
+		],
+		"Sherlock Holmes - The Awakened - Remastered Edition": [
+			"Sherlock Holmes - The Awakened"
+		],
+		"Shogun - Total War - Warlord Edition (Disc 1)": [
+			"Shogun - Total War (Disc 1)",
+			"Shogun - Total War (Disc 2)",
+			"Shogun - Total War - Manuale in formato PDF",
+			"Shogun - Total War - The Mongol Invasion"
+		],
+		"Sid Meier's Civilization II (Collector's Edition)": [
+			"Sid Meier's Civilization II",
+			"Sid Meier's Civilization II Scenarios - Conflicts in Civilization"
+		],
+		"Sid Meier's Civilization III & IV - Complete Edition": [
+			"Sid Meier's Civilization IV",
+			"Sid Meier's Civilization IV (Disc 1)",
+			"Sid Meier's Civilization IV (Disc 2)",
+			"Sid Meier's Civilization IV (Disc 1) (Game of the Year Edition)",
+			"Sid Meier's Civilization IV (Disc 2) (Game of the Year Edition)",
+			"Sid Meier's Civilization IV (Disc 3) (Game of the Year Edition)",
+			"Sid Meier's Civilization IV - Beyond the Sword (Disc 1)",
+			"Sid Meier's Civilization IV - Beyond the Sword (Disc 2)",
+			"Sid Meier's Civilization IV - Colonization",
+			"Sid Meier's Civilization IV - Complete",
+			"Sid Meier's Civilization IV - Gold Edition (Disc 1)",
+			"Sid Meier's Civilization IV - Gold Edition (Disc 2)",
+			"Sid Meier's Civilization IV - Gold Edition (Disc 3)",
+			"Sid Meier's Civilization IV - The Complete Edition",
+			"Sid Meier's Civilization IV - Ultimate (Disc 1)",
+			"Sid Meier's Civilization IV - Ultimate (Disc 2) (Sid Meier's Civilization IV - Colonization)",
+			"Sid Meier's Civilization IV - Warlords"
+		],
+		"Sid Meier's Civilization V - Gold Edition": [
+			"Sid Meier's Civilization V"
+		],
         "SimCity Classic (Deluxe Edition)": [
             "Bestseller Games Ausgabe 14",
             "SimCity Classic"
@@ -4274,6 +4441,14 @@
 			"SWAT 3 - Close Quarters Battle (Elite Edition)",
 			"SWAT 3 - Close Quarters Battle (Disc 1) (Play Disc) (Tactical Game of the Year Edition)",
 			"SWAT 3 - Close Quarters Battle (Disc 2) (Tactics Disc) (Tactical Game of the Year Edition)"
+		],
+		"Syberia Collectors Edition - I & II": [
+			"Sibir' - Zolotoe izdanie",
+			"Syberia - Zlota Edycja",
+			"Syberia (Disc 1)",
+			"Syberia (Disc 2)",
+			"Syberia II (Disc 1)",
+			"Syberia II (Disc 2)"
 		],
         "Ultima Collection": [
             "PC Games July-August 1997",
