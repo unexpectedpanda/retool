@@ -1,3 +1,6 @@
+# 0.60
+- Added "Scholastic" to the publisher/distributor list.
+
 # 0.59
 - Added "Best of the Best" and "Best Hit Selection" as publishers/distributors.
 - Added another disc synonym.

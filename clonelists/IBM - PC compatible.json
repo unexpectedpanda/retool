@@ -3,7 +3,7 @@
         "name": [
 			"IBM - PC compatible"
 		],
-        "last updated": "13 Apr 2020"
+        "last updated": "15 Apr 2020"
     },
 
     "compilations": [
@@ -67,7 +67,12 @@
 		"Siedler, Die - Platin Editon I - II - III - IV (Germany) (Disc 1)",
 		"Siedler, Die - Platin Editon I - II - III - IV (Germany) (Disc 2)",
 		"Siedler, Die - Platin Editon I - II - III - IV (Germany) (Disc 3)",
-		"Siedler, Die - Platin Editon I - II - III - IV (Germany) (Disc 4)"
+        "Siedler, Die - Platin Editon I - II - III - IV (Germany) (Disc 4)",
+        "Softgold Presents - LucasArts Top Adventures CD-ROM Edition (Germany)",
+        "Star Wars - The Best of PC (USA) (Star Wars - Empire at War & Star Wars - Knights of the Old Republic)",
+        "Star Wars - The Best of PC (USA, Europe) (Star Wars - Battlefront & Star Wars - Jedi Knight II - Jedi Outcast & Star Wars - Republic Commando)",
+        "Star Wars - Yoda Stories + Star Wars - Screen Entertainment",
+        "Super Bubsy + Lollypop (Germany)"
     ],
 
     "renames": {
@@ -321,6 +326,9 @@
         "Atlantis III - Le Nouveau Monde (Disc 1)": [
             "Atlantis III - Die neue Welt"
         ],
+        "Avalon Hill's Squad Leader": [
+            "Squad Leader"
+        ],
         "Axelerator": [
             "Have a N.I.C.E. Day!"
         ],
@@ -479,6 +487,9 @@
             "Black & White 2 (Disc 3)",
             "Black & White 2 (Disc 4)"
         ],
+        "Blade of Darkness": [
+            "Severance - Blade of Darkness"
+        ],
         "Blair Witch Volume I - Rustin Parr": [
             "Blair Witch Czesc I - Rustin Parr"
         ],
@@ -597,7 +608,10 @@
         ],
         "Catan - Die erste Insel": [
             "Bravo ScreenFun 9-2003"
-		],
+        ],
+        "CD-ROM Game of Life, The": [
+            "Spiel des Lebens"
+        ],
 		"Championship Manager 4": [
 			"Scudetto 4 - Championship Manager - Stagione 2002-2003"
 		],
@@ -942,6 +956,9 @@
         "Descent": [
             "Bestseller Games Gold-Edition Ausgabe 8"
         ],
+        "Descent II": [
+            "Swiat Gier Komputerowych 6-01 (Disc 2)"
+        ],
         "Descent II - Destination Quartzon": [
             "Descent II - Destination Quartzon (Diamond OEM)",
             "Descent II - Destination Quartzon (Logitech OEM)",
@@ -1052,7 +1069,8 @@
             "Disney Atlantis - L'Impero Perduto - Bottega dei Giochi"
         ],
         "Disney's Donald Duck - Goin' Quackers": [
-            "Disney's Donald Duck - Quack Attack"
+            "Disney's Donald Duck - Quack Attack",
+            "Szalone Przygody Kaczora Donalda"
         ],
         "Disney's Extremely Goofy Skateboarding": [
             "Disney's Goofy - Xtreme Skateboarding",
@@ -2136,6 +2154,9 @@
 			"Lord of the Rings, The - Ou no Kikan (Disc 3)",
 			"Signore degli Anelli, Il - Il ritorno del Re (Disc 3) (Disco di Gioco)"
         ],
+        "Lords of Magic": [
+            "Swiat Gier Komputerowych 1-01 (Disc 1)"
+        ],
         "Lords of Magic (Special Edition)": [
             "Lords of Magic - Special Edition"
         ],
@@ -2194,7 +2215,9 @@
             "Mass Effect"
         ],
         "Master of Orion II": [
-            "Master of Orion II - Battle at Antares"
+            "Master of Orion II - Battle at Antares",
+            "Swiat Gier Komputerowych 5-02 (Disc 1)",
+            "Swiat Gier Komputerowych 5-02 (Disc 2)"
         ],
         "Masters of the Elements": [
             "Meister Zufall und die Herrscher der Elemente"
@@ -2334,10 +2357,12 @@
             "Bestseller Games Ausgabe 3"
         ],
         "Might and Magic VI - The Mandate of Heaven (Disc 1) (Install)": [
-            "Mofamen VI - Tiantang Zhi Ling (Disc 1)"
+            "Mofamen VI - Tiantang Zhi Ling (Disc 1)",
+            "Swiat Gier Komputerowych 10-01 (Disc 1)"
         ],
         "Might and Magic VI - The Mandate of Heaven (Disc 2) (Play)": [
-            "Mofamen VI - Tiantang Zhi Ling (Disc 2)"
+            "Mofamen VI - Tiantang Zhi Ling (Disc 2)",
+            "Swiat Gier Komputerowych 10-01 (Disc 2)"
         ],
         "Might and Magic VII - For Blood and Honor (Disc 1) (Install)": [
             "Might and Magic VII - For Blood and Honor (Disc 1)"
@@ -2347,6 +2372,9 @@
         ],
         "Mission - Humanity": [
             "Exterminacja"
+        ],
+        "Mob Rule": [
+            "Streetwars - Constructor Underworld"
         ],
         "Mobile Forces": [
             "CD-Action 03-2004 (97) (Disc 1)"
@@ -2632,6 +2660,9 @@
         "Player Manager Ninety Nine": [
             "Player Manager - Epoca 98-99"
         ],
+        "Polaris SnoCross": [
+            "SnowCross"
+        ],
         "Pole-Position - Formel 1 Teamchef": [
             "Bestseller Games Gold-Edition Ausgabe 9"
         ],
@@ -2775,7 +2806,11 @@
 		],
 		"Rage (Disc 3) (Anarchy Edition)": [
 			"Rage (Disc 3)"
-		],
+        ],
+        "Rage of Mages II - Necromancer": [
+            "Allody II - Povelitel' dush",
+            "Sortileges - Rage of Mages II"
+        ],
 		"Railroad Tycoon 3 (Disc 1) (Install)": [
 			"Railroad Tycoon 3 (Install)"
 		],
@@ -2833,7 +2868,8 @@
         "Red Faction (Disc 1)": [
             "Play 10-2003 (Disc 1)",
             "Red Faction (Disc 1) (Installation Disc) (EB Games)",
-            "Red Faction (Disc 1) (Installation Disc)"
+            "Red Faction (Disc 1) (Installation Disc)",
+            "Swiat Gier Komputerowych 9-01 (Disc 2)"
         ],
         "Red Faction (Disc 2) (Multiplayer Disc)": [
             "Play 10-2003 (Disc 2)",
@@ -3087,12 +3123,12 @@
 		],
 		"Settlers III, The - Gold Edition (Disc 1)": [
 			"Settlers III, The - Zlota Edycja (Disc 1)",
-			"Siedler III, Die - Gold Edition (Disc 1) (Alt)",
+			"Siedler III, Die - Gold Edition (Disc 1)",
 			"Siedler III, Die - Gold Edition (Disc 1) (Programmstart)"
 		],
 		"Settlers III, The - Gold Edition (Disc 2)": [
 			"Settlers III, The - Zlota Edycja (Disc 2)",
-			"Siedler III, Die - Gold Edition (Disc 2) (Alt)",
+			"Siedler III, Die - Gold Edition (Disc 2)",
 			"Siedler III, Die - Gold Edition (Disc 2) (Installation)"
 		],
 		"Settlers III, The - Quest of the Amazons": [
@@ -3174,21 +3210,123 @@
             "Osada Avalona (Disc 1)",
             "Osada Avalona (Disc 2)"
         ],
+        "Silkolene Honda Motocross GP": [
+            "Swiat Gier Komputerowych 7-02 (Disc 2)"
+        ],
+		"SimCity 2000 - CD Collection (Windows 95)": [
+			"SimCity 2000",
+			"SimCity 2000 (Creative OEM)",
+			"SimCity 2000 (Diamond OEM)",
+			"SimCity 2000 - CD Collection",
+			"SimCity 2000 - CD Collection (Windows)",
+			"SimCity 2000 - La Collection",
+			"SimCity 2000 Network Edition",
+			"SimCity 2000 Netzwerkversion",
+			"SimCity 2000 Special Edition"
+		],
+		"SimCity 3000 Unlimited": [
+			"SimCity 3000 World Edition"
+		],
+		"SimCity 3000 Holiday Theme Edition": [
+			"SimCity 3000 Holiday Edition"
+		],
         "SimCity Classic": [
             "Bestseller Games Ausgabe 14"
-        ],
+		],
+		"SimFarm - SimCity's Country Cousin": [
+			"SimFarm"
+		],
+		"SimIsle - Missions in the Rainforest": [
+			"Sim Isle - Missionen im Regenwald",
+			"SimIsle - Missione Foresta Pluviale"
+		],
+		"SimTower - The Vertical Empire": [
+			"SimTower - Das vertikale Imperium"
+		],
+		"SimTown": [
+			"Sim Town",
+			"SimTown - La citta fai-da-te!"
+		],
         "Sims, The": [
             "Moni Rensheng",
             "Sims, Die"
-		],
+        ],
+        "Sims 2, The": [
+            "Sims 2, The (Bonus Disk)",
+            "Sims 2, The (Disc 1)",
+            "Sims 2, The (Disc 2)",
+            "Sims 2, The (Disc 3)",
+            "Sims 2, The (Disc 4)",
+            "Sims 2, The (Game Disk)"
+        ],
+        "Sims 2, The - Bon Voyage (Expansion Pack)": [
+            "Sims 2, The - Bon Voyage (Expansion Pack) (Disc 1)",
+            "Sims 2, The - Bon Voyage (Expansion Pack) (Disc 2)"
+        ],
+        "Sims 2, The - Deluxe": [
+            "Sims 2, Die - Deluxe (Spiel-DVD)"
+        ],
+        "Sims 2, The - Deluxe (Bonus DVD)": [
+            "Sims 2, The - Deluxe (Bonus-DVD)"
+        ],
+        "Sims 2, The - Double Deluxe": [
+            "Sims 2, The - Double Deluxe (Spiel-DVD)"
+        ],
+        "Sims 2, The - Pets (Expansion Pack)": [
+            "Sims 2, The - Pets (Expansion Pack) (Disc 1)",
+            "Sims 2, The - Pets (Expansion Pack) (Disc 2)"
+        ],
+        "Sims 2, The - Seasons (Expansion Pack)": [
+            "Sims 2, The - Seasons (Expansion Pack) (Disc 1)",
+            "Sims 2, The - Seasons (Expansion Pack) (Disc 2)"
+        ],
+        "Sims, The - Livin' Large (Expansion Pack)": [
+            "Sims, The - Livin' It Up (Expansion Pack)",
+            "Sims, The - Livin' Large (Expansion Disc)"
+        ],
+        "Sims, The - Vacation (Expansion Pack)": [
+            "Sims, The - On Holiday (Expansion Pack)"
+        ],
+        "Sims Online, The (Disc 1) (Charter Edition)": [
+            "Sims Online, The (Disc 1)"
+        ],
+        "Sims Online, The (Disc 2) (Charter Edition)": [
+            "Sims Online, The (Disc 2)"
+        ],
 		"SiN": [
 			"SiN (Patch v1.01)"
 		],
         "Sno-Cross Extreme": [
             "Komputer Swiat Gry 04-2002"
         ],
-        "Sortileges - Rage of Mages II": [
-            "Allody II - Povelitel' dush"
+        "Soldier of Fortune": [
+            "Soldier of Fortune (Linux)"
+        ],
+        "Soldier of Fortune (Platinum Edition)": [
+            "Soldier of Fortune (Special Tactical Edition)"
+        ],
+        "Soldiers - Heroes of World War II": [
+            "Soldiers - Heroes of World War II (Disc 1)",
+            "Soldiers - Heroes of World War II (Disc 2)"
+        ],
+        "Sonic & Knuckles Collection": [
+            "Sonic & Knuckles Collection (55B404E4)",
+            "Sonic & Knuckles"
+        ],
+        "Sonic 3D Blast": [
+            "Sonic 3D - Flickies' Island"
+        ],
+        "Sonic R (2004)": [
+            "Sonic R"
+        ],
+        "Sonic Riders": [
+            "Sonic Riders (Disc 1)",
+            "Sonic Riders (Disc 2)",
+            "Sonic Riders (Disc 3)"
+        ],
+        "Soulbringer": [
+            "Soulbringer (Disc 1)",
+            "Soulbringer (Disc 2)"
         ],
         "Space Marines - Der Staehlerne Kaiser": [
             "Bestseller Games Ausgabe 21",
@@ -3197,13 +3335,40 @@
         ],
         "Space Quest 6 - Roger Wilco - The Spinal Frontier": [
             "Space Quest 6 - Roger Wilco in the Spinal Frontier"
-		],
+        ],
+        "Space Quest Collection": [
+            "Space Quest - Collection Series (Disc 1)",
+            "Space Quest - Collection Series (Disc 2)"
+        ],
+        "Spec Ops - Rangers Lead the Way":[
+            "Spec Ops - Ranger Assault"
+        ],
+        "Spec Ops II - Green Berets": [
+            "Spec Ops II - U.S. Army Green Berets"
+        ],
 		"Spectre VR": [
 			"Spectre VR (Megapak)"
-		],
+        ],
+        "Speed Busters - American Highways": [
+            "Speed Busters"
+        ],
+        "SpeedRage (Game Disk)": [
+            "SpeedRage"
+        ],
+        "SpellForce": [
+            "SpellForce - The Order of Dawn (Disc 1) (Install-Play CD)",
+            "SpellForce - The Order of Dawn (Disc 2) (Install CD)"
+        ],
+        "Spike - The Hedgehog": [
+            "Spike - The Hedgehog (Dice)"
+        ],
         "Spy Fox in Dry Cereal": [
             "Agent Fuchs in Das Milchkartell",
-            "Spy Fox - Operation Milkshake"
+            "Spy Fox - Operation Milkshake",
+            "Spy Fox in Operatie Melk Weg"
+        ],
+        "Spy Fox 2 - Some Assembly Required": [
+            "Spy Fox 2 - Operatie Robot-Knop"
         ],
         "Star Trek - Deep Space Nine - The Fallen": [
             "Otverzhennye - Tajna tjomnoj rasy (Disc 1)"
@@ -3221,10 +3386,107 @@
         "Star Trek - Starfleet Command": [
             "Gamefest - Star Trek Classics (Disc 1) (Star Trek - Starfleet Command)"
         ],
+        "Star Trek - Starfleet Command (Gold Edition)": [
+            "Star Trek - Starfleet Command - Gold Edition"
+         ],
+        "Star Trek - The Next Generation - Klingon Honor Guard (Game Disc)": [
+            "Star Trek - The Next Generation - Klingon Honor Guard (Disc 1)"
+        ],
+        "Star Trek - The Next Generation - Klingon Honor Guard (Install Disc)": [
+            "Star Trek - The Next Generation - Klingon Honor Guard (Disc 2)"
+        ],
+        "Star Wars - Battlefront": [
+            "Star Wars - Battlefront (Disc 1) (Disco di gioco)",
+            "Star Wars - Battlefront (Disc 1) (Play Disc)",
+            "Star Wars - Battlefront (Disc 2)",
+            "Star Wars - Battlefront (Disc 3)"
+        ],
+        "Star Wars - Battlefront II": [
+            "Star Wars - Battlefront II (Disc 1) (Play Disc)",
+            "Star Wars - Battlefront II (Disc 2)",
+            "Star Wars - Battlefront II (Disc 3)",
+            "Star Wars - Battlefront II (Disc 4)",
+            "Star Wars - Battlefront II (Disc 5)"
+        ],
+        "Star Wars - Empire at War": [
+            "Star Wars - Empire at War (Bonus Disc)",
+            "Star Wars - Empire at War (Disc 1)",
+            "Star Wars - Empire at War (Disc 2)"
+        ],
+        "Star Wars - Empire at War - Forces of Corruption": [
+            "Star Wars - Empire at War - Forces of Corruption (Disc 1)",
+            "Star Wars - Empire at War - Forces of Corruption (Disc 2)"
+        ],
+        "Star Wars - Episode I - Battle for Naboo": [
+            "Star Wars - Episodio I - Battle for Naboo"
+        ],
+        "Star Wars - Episode I - Racer": [
+            "Star Wars - Episodio I - Racer"
+        ],
+        "Star Wars - Episode I - The Gungan Frontier": [
+            "Star Wars - Episodio I - Oltre la terra dei Gungan"
+        ],
+        "Star Wars - Episode I - The Phantom Menace": [
+            "Star Wars - Episode I - Die dunkle Bedrohung",
+            "Star Wars - Episodio I - La Minaccia Fantasma"
+        ],
+        "Star Wars - Episode III - Revenge of the Sith - Activity Centre": [
+            "Star Wars - Episode III - Revenge of the Sith - Activity Center (Disc 1)",
+            "Star Wars - Episode III - Revenge of the Sith - Activity Center (Disc 2)"
+        ],
+        "Star Wars - Galactic Battlegrounds (Disc 1) (Install)": [
+            "Star Wars - Galactic Battlegrounds (Disc 1) (Installation)",
+            "Star Wars - Galactic Battlegrounds (Disc 1) (Installazione)"
+        ],
+        "Star Wars - Galactic Battlegrounds (Disc 2) (Play)": [
+            "Star Wars - Galactic Battlegrounds (Disc 2) (Spiel)",
+            "Star Wars - Galactic Battlegrounds (Disc 2) (Gioco)"
+        ],
+        "Star Wars - Galactic Battlegrounds - Clone Campaigns": [
+            "Star Wars - Galactic Battlegrounds - Die Klonkrieg-Kampagnen"
+        ],
+        "Star Wars - Jedi Knight - Jedi Academy (Disc 1)": [
+            "Star Wars - Jedi Knight - Jedi Academy"
+        ],
+        "Star Wars - Knights of the Old Republic": [
+            "Star Wars - Knights of the Old Republic (Disc 1) (Spiel-CD)",
+            "Star Wars - Knights of the Old Republic (Disc 1) (Disco di Gioco)",
+            "Star Wars - Knights of the Old Republic (Disc 1) (Play Disc)",
+            "Star Wars - Knights of the Old Republic (Disc 2)",
+            "Star Wars - Knights of the Old Republic (Disc 3)",
+            "Star Wars - Knights of the Old Republic (Disc 4)"
+        ],
+        "Star Wars - Knights of the Old Republic II - The Sith Lords": [
+            "Star Wars - Knights of the Old Republic II - The Sith Lords (Disc 1) (Spiel-CD)",
+            "Star Wars - Knights of the Old Republic II - The Sith Lords (Disc 1)",
+            "Star Wars - Knights of the Old Republic II - The Sith Lords (Disc 1) (Play Disc)",
+            "Star Wars - Knights of the Old Republic II - The Sith Lords (Disc 2)",
+            "Star Wars - Knights of the Old Republic II - The Sith Lords (Disc 3)",
+            "Star Wars - Knights of the Old Republic II - The Sith Lords (Disc 4)"
+        ],
+        "Star Wars - Math - Jabba's Game Galaxy": [
+            "Star Wars - La Forza nella Matematica - La Galassia dei Giochi di Jabba"
+        ],
         "Star Wars - Rebel Assault": [
             "Bestseller Games Gold-Edition Ausgabe 4",
             "Star Wars - Rebel Assault - Special Edition"
-		],
+        ],
+        "Star Wars - Republic Commando": [
+            "Star Wars - Republic Commando (Disc 1) (Play Disc)",
+            "Star Wars - Republic Commando (Disc 2)"
+        ],
+        "Star Wars - X-Wing - Collector's CD-ROM": [
+            "Star Wars - X-Wing - CD-ROM Edition"
+        ],
+        "Star Wars - X-Wing vs. TIE Fighter (Master Game Disc)": [
+            "Star Wars - X-Wing vs. TIE Fighter (Disc 1) (Gioco)"
+        ],
+        "Star Wars - X-Wing vs. TIE Fighter (Multiplayer Disc)": [
+            "Star Wars - X-Wing vs. TIE Fighter (Disc 2) (Multiplayer)"
+        ],
+        "Star Wars - Yoda's Challenge": [
+            "Star Wars - La Sfida di Yoda"
+        ],
 		"Starship Titanic (Disc 1)": [
 			"Raumschiff Titanic (Disc 1)"
 		],
@@ -3236,6 +3498,10 @@
 		],
         "Starsky & Hutch": [
             "Click! 07-2005 (Disc 1)"
+        ],
+        "State of War - Warmonger": [
+            "Sostojanie Vojny 2 (Disc 1) (Igrovoj)",
+            "Sostojanie Vojny 2 (Disc 2)"
         ],
         "STCC - The Game": [
             "Komputer Swiat Gry 06-2001"
@@ -3256,8 +3522,19 @@
         "Stonekeep": [
             "Bestseller Games Gold-Edition Ausgabe 15"
         ],
+        "Stubbs the Zombie in Rebel Without a Pulse (Disc 1)": [
+            "Stubbs the Zombie in Rebel Without a Pulse"
+        ],
         "Subwar 2050": [
             "Bestseller Games Collection Ausgabe 21"
+        ],
+        "Suffering, The": [
+            "Suffering, The (Bonus)",
+            "Suffering, The (Disc 1)",
+            "Suffering, The (Disc 2)"
+        ],
+        "Summoner (Disc 1)": [
+            "Summoner"
         ],
         "Super Taxi Driver": [
             "Mio Computer, Il - Febbraio 2001 (Disc 2)"
@@ -3343,7 +3620,13 @@
 		],
 		"Type da Puyo Puyo": [
 			"Great Series Vol. 31 - Type da Puyo Puyo"
-		],
+        ],
+        "Ubik (Disc 1)": [
+            "Swiat Gier Komputerowych 1-02 (Disc 1)"
+        ],
+        "Ubik (Disc 2)": [
+            "Swiat Gier Komputerowych 1-02 (Disc 2)"
+        ],
         "Ultimate Soccer Manager 98-99 Season Edition": [
             "DSF Fussball Manager '98"
         ],
@@ -3431,6 +3714,9 @@
         ],
         "World Racing (Disc 1)": [
             "Click! 02-2007 (Disc 1)"
+        ],
+        "World War II - Sniper - Call to Victory": [
+            "Snajjper - Dorogi vojjny"
         ],
         "Worlds of Billy, The": [
             "Drilling Billy"
@@ -3681,11 +3967,12 @@
         ],
         "Descent I and II - The Definitive Collection (Disc 1)": [
             "Bestseller Games Gold-Edition Ausgabe 8",
+            "Descent",
             "Descent - Anniversary Edition",
             "Descent - Levels of the World",
             "Descent II - The Vertigo Series",
             "Descent II",
-            "Descent"
+            "Swiat Gier Komputerowych 6-01 (Disc 2)"
         ],
         "Deus Ex Complete": [
             "Deus Ex (Game of the Year Edition)",
@@ -4013,7 +4300,8 @@
         ],
         "Lords of Magic (Special Edition)": [
             "Lords of Magic - Special Edition",
-            "Lords of Magic"
+            "Lords of Magic",
+            "Swiat Gier Komputerowych 1-01"
         ],
         "Lords of the Realm (Royal Collection)": [
             "Lords of the Realm (Royal Edition)",
@@ -4460,10 +4748,137 @@
 		"Silent Hill 2 - Director's Cut (Disc 3)": [
 			"Silent Hill 2 (Disc 3)"
 		],
+		"Silent Hunter - Commander's Edition": [
+			"Silent Hunter"
+		],
+		"SimCity 3000 Unlimited": [
+			"SimCity 3000",
+			"SimCity 3000 World Edition"
+		],
+		"SimCity 4 Deluxe Edition (Disc 1)": [
+			"SimCity 4 (Disc 1)",
+			"SimCity 4 (Disc 2)",
+			"SimCity 4 - Rush Hour"
+		],
         "SimCity Classic (Deluxe Edition)": [
             "Bestseller Games Ausgabe 14",
             "SimCity Classic"
+        ],
+        "Sims 2, The - Double Deluxe (USA)": [
+            "Sims 2, Die - Deluxe",
+            "Sims 2, The",
+            "Sims 2, The (Bonus DVD)",
+            "Sims 2, The (Bonus Disk)",
+            "Sims 2, The (Disc 1)",
+            "Sims 2, The (Disc 2)",
+            "Sims 2, The (Disc 3)",
+            "Sims 2, The (Disc 4)",
+            "Sims 2, The (Game Disk)",
+            "Sims 2, The - Celebration! Stuff",
+            "Sims 2, The - Deluxe",
+            "Sims 2, The - Deluxe (Bonus-DVD)",
+            "Sims 2, The - Deluxe (Bonus DVD)",
+            "Sims 2, The - Double Deluxe (Spiel-DVD)",
+            "Sims 2, The - Nightlife (Expansion Pack) (Disc 1)",
+            "Sims 2, The - Nightlife (Expansion Pack) (Disc 2)"
+        ],
+        "Sims, The - Complete Collection (Disc 1)": [
+            "Sims, The",
+            "Sims, The (Documentation)",
+            "Sims, The - Deluxe Edition (Disc 1)",
+            "Sims, The - Deluxe Edition (Disc 2)",
+            "Sims, The - Double Deluxe (Bonus CD)",
+            "Sims, The - Hot Date (Expansion Pack)",
+            "Sims, The - House Party (Expansion Pack)",
+            "Sims, The - Livin' It Up (Expansion Pack)",
+            "Sims, The - Livin' Large (Expansion Disc)",
+            "Sims, The - Livin' Large (Expansion Pack)",
+            "Sims, The - On Holiday (Expansion Pack)",
+            "Sims, The - Vacation (Expansion Pack)",
+            "Sims, The - Unleashed (Expansion Pack) (Disc 1)",
+            "Sims, The - Unleashed (Expansion Pack) (Disc 2)",
+            "Sims, The - Superstar (Expansion Pack) (Disc 1)",
+            "Sims, The - Superstar (Expansion Pack) (Disc 2)",
+            "Sims, The - Makin' Magic (Expansion Pack) (Disc 1)",
+            "Sims, The - Makin' Magic (Expansion Pack) (Disc 2)"
+        ],
+		"SimTheme Park (Gold Edition)": [
+			"SimTheme Park"
 		],
+		"Simon the Sorcerer Double Pack": [
+			"Simon the Sorcerer",
+			"Simon the Sorcerer II"
+        ],
+        "Skoki Narciarskie 2003 - Polski Orzel - Zlota Edycja": [
+            "Skoki Narciarskie 2003 - Polski Orzel"
+        ],
+        "Soldier of Fortune (Platinum Edition)": [
+            "Soldier of Fortune",
+            "Soldier of Fortune (Linux)",
+            "Soldier of Fortune (Gold Edition)",
+            "Soldier of Fortune (Special Tactical Edition)"
+        ],
+        "Soldier of Fortune II - Double Helix (Disc 1) (Gold Edition)": [
+            "Soldier of Fortune II - Double Helix (Disc 1)"
+        ],
+        "Soldier of Fortune II - Double Helix (Disc 2) (Gold Edition)": [
+            "Soldier of Fortune II - Double Helix (Disc 2)"
+        ],
+        "Space Quest Collection": [
+            "Space Quest - Collection Series (Disc 1)",
+            "Space Quest - Collection Series (Disc 2)",
+            "Space Quest - Collector's Edition",
+            "Space Quest 6 - Roger Wilco - The Spinal Frontier",
+            "Space Quest 6 - Roger Wilco in the Spinal Frontier",
+            "Space Quest IV - Roger Wilco and the Time Rippers"
+        ],
+        "Spear of Destiny - Super CD Pack": [
+            "Spear of Destiny"
+        ],
+        "Spec Ops - Platinum Collection (Disc 1)": [
+            "Spec Ops - Ranger Team Bravo",
+            "Spec Ops - Rangers Lead the Way",
+            "Spec Ops II - Green Berets",
+            "Spec Ops II - Operation Bravo"
+        ],
+        "SpellForce 2 - Gold Edition": [
+            "SpellForce 2 - Shadow Wars"
+        ],
+        "Star Control 1 & 2": [
+            "Star Control",
+            "Star Control 2"
+        ],
+        "Star Trek - Starfleet Command (Gold Edition)": [
+            "Gamefest - Star Trek Classics (Disc 1) (Star Trek - Starfleet Command)",
+            "Star Trek - Starfleet Command",
+            "Star Trek - Starfleet Command (Bonus CD)",
+            "Star Trek - Starfleet Command - Gold Edition"
+        ],
+        "Star Wars - Empire at War - Gold Pack": [
+            "Star Wars - Empire at War",
+            "Star Wars - Empire at War (USA) (Bonus Disc)",
+            "Star Wars - Empire at War (USA) (Disc 1)",
+            "Star Wars - Empire at War (USA) (Disc 2)",
+            "Star Wars - Empire at War - Forces of Corruption",
+            "Star Wars - Empire at War - Forces of Corruption (Disc 1)",
+            "Star Wars - Empire at War - Forces of Corruption (Disc 2)"
+        ],
+        "Star Wars - Knights of the Old Republic Collection": [
+            "Star Wars - Knights of the Old Republic",
+            "Star Wars - Knights of the Old Republic (Disc 1) (Spiel-CD)",
+            "Star Wars - Knights of the Old Republic (Disc 1) (Disco di Gioco)",
+            "Star Wars - Knights of the Old Republic (Disc 1) (Play Disc)",
+            "Star Wars - Knights of the Old Republic (Disc 2)",
+            "Star Wars - Knights of the Old Republic (Disc 3)",
+            "Star Wars - Knights of the Old Republic (Disc 4)",
+            "Star Wars - Knights of the Old Republic II - The Sith Lords",
+            "Star Wars - Knights of the Old Republic II - The Sith Lords (Disc 1) (Spiel-CD)",
+            "Star Wars - Knights of the Old Republic II - The Sith Lords (Disc 1)",
+            "Star Wars - Knights of the Old Republic II - The Sith Lords (Disc 1) (Play Disc)",
+            "Star Wars - Knights of the Old Republic II - The Sith Lords (Disc 2)",
+            "Star Wars - Knights of the Old Republic II - The Sith Lords (Disc 3)",
+            "Star Wars - Knights of the Old Republic II - The Sith Lords (Disc 4)"
+        ],
 		"SWAT 3 - Close Quarters Battle (Play CD) (Tactical Game of the Year Edition)": [
 			"SWAT 3 - Close Quarters Battle",
 			"SWAT 3 - Close Quarters Battle (Elite Edition)",
@@ -4477,7 +4892,10 @@
 			"Syberia (Disc 2)",
 			"Syberia II (Disc 1)",
 			"Syberia II (Disc 2)"
-		],
+        ],
+        "Syndicate Plus": [
+            "Syndicate"
+        ],
         "Ultima Collection": [
             "PC Games July-August 1997",
             "Ultima VIII - Pagan"

@@ -14,7 +14,7 @@ import time
 from lxml import etree
 from bs4 import BeautifulSoup, Doctype # For XML parsing
 
-version = '0.59'
+version = '0.60'
 
 # Require at least Python 3.5
 assert sys.version_info >= (3, 5)
@@ -126,6 +126,7 @@ def main():
         '\s?\(PlayStation the Best\)',
         '\s?\(PlayStation 2 the Best\)',
         '\s?\(PlayStation 3 the Best\)',
+        '\s?\(Scholastic\)',
         '\s?\(Sold Out Extreme\)',
         '\s?\(Sold Out Software\)',
         '\s?\(Xplosiv\)',
@@ -1145,9 +1146,10 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
                             if test == True: continue
 
                             # Else if one has a distributor tag, take the one that doesn't
+                            test = parent_compare_bool(bool('(Major Wave)' in y.full_title), bool('(Major Wave)' in x.full_title), parent_list, already_tested, x, y, '', user_input)
+                            test = parent_compare_bool(bool('(Scholastic)' in y.full_title), bool('(Scholastic)' in x.full_title), parent_list, already_tested, x, y, '', user_input)
                             test = parent_compare_bool(bool('(Sold Out Extreme)' in y.full_title), bool('(Sold Out Extreme)' in x.full_title), parent_list, already_tested, x, y, '', user_input)
                             test = parent_compare_bool(bool('(Sold Out Software)' in y.full_title), bool('(Sold Out Software)' in x.full_title), parent_list, already_tested, x, y, '', user_input)
-                            test = parent_compare_bool(bool('(Major Wave)' in y.full_title), bool('(Major Wave)' in x.full_title), parent_list, already_tested, x, y, '', user_input)
                             test = parent_compare_bool(bool('(Xplosiv)' in y.full_title), bool('(Xplosiv)' in x.full_title), parent_list, already_tested, x, y, '', user_input)
                             if test == True: continue
 
