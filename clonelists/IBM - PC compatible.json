@@ -3,7 +3,7 @@
         "name": [
 			"IBM - PC compatible"
 		],
-        "last updated": "15 Apr 2020"
+        "last updated": "16 Apr 2020"
     },
 
     "compilations": [
@@ -72,7 +72,8 @@
         "Star Wars - The Best of PC (USA) (Star Wars - Empire at War & Star Wars - Knights of the Old Republic)",
         "Star Wars - The Best of PC (USA, Europe) (Star Wars - Battlefront & Star Wars - Jedi Knight II - Jedi Outcast & Star Wars - Republic Commando)",
         "Star Wars - Yoda Stories + Star Wars - Screen Entertainment",
-        "Super Bubsy + Lollypop (Germany)"
+        "Super Bubsy + Lollypop (Germany)",
+        "Tom Clancy's Ghost Recon - Desert Siege + Island Thunder"
     ],
 
     "renames": {
@@ -288,6 +289,9 @@
         "Arx Fatalis": [
             "Arx Fatalis (52D18519)",
             "Bravo ScreenFun 3-2005 (Disc 1)"
+        ],
+        "AS - Angelic Serenade": [
+            "Tianshi Xiaoyequ (Youxi Anzhuang)"
         ],
         "Assassin's Creed - Director's Cut": [
             "Assassin's Creed - Wersja Rezyserska"
@@ -2000,6 +2004,10 @@
 			"PC Action 9-00",
 			"Rycari i Kupcy"
         ],
+        "Knight's Chase": [
+            "Time Gate - Knight's Chase",
+            "Time Gate - Le Secret du Templier"
+        ],
         "Korsar, Der": [
             "Korsary - Prokljat'e dal'nih morej"
         ],
@@ -2818,7 +2826,8 @@
 			"Railroad Tycoon 3 (Play)"
 		],
 		"Railroad Tycoon II - The Second Century": [
-			"Railroad Tycoon II - The Next Millennium"
+            "Railroad Tycoon II - The Next Millennium",
+            "Tielu Daheng II"
 		],
         "Rally Trophy": [
             "Komputer Swiat Gry 10-2004 (Disc 2)"
@@ -3239,7 +3248,10 @@
 		"SimIsle - Missions in the Rainforest": [
 			"Sim Isle - Missionen im Regenwald",
 			"SimIsle - Missione Foresta Pluviale"
-		],
+        ],
+        "SimTheme Park": [
+            "Theme Park World"
+        ],
 		"SimTower - The Vertical Empire": [
 			"SimTower - Das vertikale Imperium"
 		],
@@ -3545,7 +3557,10 @@
 		"Syberia Collectors Edition - I & II": [
 			"Sibir' - Zolotoe izdanie",
 			"Syberia - Zlota Edycja"
-		],
+        ],
+        "Talonsoft's Eastern Front - Der Russland-Feldzug": [
+            "East Front"
+        ],
         "Team Apache": [
             "Bestseller Games Gold-Edition Ausgabe 27"
         ],
@@ -3555,21 +3570,38 @@
         "TechnoMage - Die Rueckkehr der Ewigkeit": [
             "Bravo ScreenFun 3-2004"
         ],
+        "Temple of Elemental Evil, The (Install Disc)": [
+            "Temple of Elemental Evil, The (Disc 1)"
+        ],
+        "Temple of Elemental Evil, The (Play Disc)": [
+            "Temple of Elemental Evil, The (Disc 2)"
+        ],
         "Terminator 3 - War of the Machines": [
             "Exterminador do Futuro 3, O - A Guerra das Maquinas"
         ],
+        "Terrorist Takedown - Covert Operations": [
+            "Terrorist Takedown - Titkos hadmuveletek"
+        ],
+        "Thandor - The Invasion": [
+            "Thandor - Die Invasion"
+        ],
         "Thief - The Dark Project": [
             "Dark Project - Der Meisterdieb",
-            "Dark Project - L'Ombra del Ladro"
+            "Dark Project - L'Ombra del Ladro",
+            "Thief I & II (Side 1) (Thief - The Dark Project)"
         ],
-        "Thief Gold (Disc 1)": [
-            "Dark Project - Der Meisterdieb - Director's Cut (Disc 1)"
+        "Thief Gold (Disc 1) (Installation)": [
+            "Dark Project - Der Meisterdieb - Director's Cut (Disc 1)",
+            "Thief Gold (Disc 1)"
         ],
-        "Thief Gold (Disc 2)": [
-            "Dark Project - Der Meisterdieb - Director's Cut (Disc 2)"
+        "Thief Gold (Disc 2) (Game)": [
+            "Dark Project - Der Meisterdieb - Director's Cut (Disc 2)",
+            "Thief Gold (Disc 2)"
         ],
-        "Thief II - The Metal Age (Disc 1) (Installation)": [
-            "Dark Project II - The Metal Age (Disc 1)"
+        "Thief II - The Metal Age (Disc 1) (Installation & Level Editor)": [
+            "Dark Project II - The Metal Age (Disc 1)",
+            "Thief II - The Metal Age (Disc 1)",
+            "Thief II - The Metal Age (Disc 1) (Installation)"
         ],
         "Thief II - The Metal Age (Disc 2) (Game)": [
             "Thief II - The Metal Age (Disc 2)"
@@ -3577,11 +3609,96 @@
         "Thing, The": [
             "Cosa, La"
         ],
+        "Thrillville - Off the Rails": [
+            "Thrillville - Off the Rails (Disc 1)",
+            "Thrillville - Off the Rails (Disc 2)",
+            "Thrillville - Off the Rails (Disc 3)"
+        ],
+        "Throne of Darkness (Install Disc)": [
+            "Throne of Darkness (Disc 1)"
+        ],
+        "Throne of Darkness (Play Disc)": [
+            "Throne of Darkness (Disc 2)"
+        ],
+        "Tiger Woods PGA Tour 2000": [
+            "Tiger Woods PGA Tour 2000 (Disc 1)",
+            "Tiger Woods PGA Tour 2000 (Disc 2) (Course Architect 2000)",
+            "Tiger Woods PGA Tour 2000 (Disc 2) (Course Architect)"
+        ],
+        "Tiger Woods PGA Tour 2001 (Disc 1)": [
+            "Tiger Woods PGA Tour 2001"
+        ],
+        "Tiger Woods PGA Tour 2001 (Disc 2) (Course Architect)": [
+            "Tiger Woods PGA Tour 2001 (Course Architect)"
+        ],
+        "Titanic - Adventure Out of Time (Disc 1)": [
+            "Titanic - Avontuur in de Tijd (Disc 1)"
+        ],
+        "Titanic - Adventure Out of Time (Disc 2)": [
+            "Titanic - Avontuur in de Tijd (Disc 2)"
+        ],
+        "TMNT": [
+            "TMNT - Teenage Mutant Ninja Turtles"
+        ],
+        "TOCA 2 - Touring Car Challenge": [
+            "TOCA 2 Touring Cars"
+        ],
         "TOCA Race Driver 3": [
             "DTM Race Driver 3"
         ],
+        "Tom Clancy's Ghost Recon - Advanced Warfighter": [
+            "Tom Clancy's Ghost Recon - Advanced Warfighter (Disc 1)",
+            "Tom Clancy's Ghost Recon - Advanced Warfighter (Disc 2)",
+            "Tom Clancy's Ghost Recon - Advanced Warfighter (Disc 3)",
+            "Tom Clancy's Ghost Recon - Advanced Warfighter (Disc 4)"
+        ],
+        "Tom Clancy's Rainbow Six - Covert Ops Essentials (Disc 1) (Training Disc)": [
+            "Tom Clancy's Rainbow Six - Covert Ops Essentials"
+        ],
+        "Tom Clancy's Rainbow Six - Lockdown": [
+            "Tom Clancy's Rainbow Six - Lockdown (Disc 1)",
+            "Tom Clancy's Rainbow Six - Lockdown (Disc 2)",
+            "Tom Clancy's Rainbow Six - Lockdown (Disc 3)",
+            "Tom Clancy's Rainbow Six - Lockdown (Disc 4)",
+            "Tom Clancy's Rainbow Six - Lockdown (Disc 5)"
+        ],
+        "Tom Clancy's Splinter Cell": [
+            "Tom Clancy's Splinter Cell (Disc 1) (Installation CD)",
+            "Tom Clancy's Splinter Cell (Disc 2) (Data Disc)",
+            "Tom Clancy's Splinter Cell (Disc 3) (Play CD)",
+            "Tom Clancy's Splinter Cell (Disc 1)",
+            "Tom Clancy's Splinter Cell (Disc 2)",
+            "Tom Clancy's Splinter Cell (Disc 3)"
+        ],
+        "Tom Clancy's Splinter Cell - Pandora Tomorrow": [
+            "Tom Clancy's Splinter Cell - Pandora Tomorrow (Disc 1)",
+            "Tom Clancy's Splinter Cell - Pandora Tomorrow (Disc 2)",
+            "Tom Clancy's Splinter Cell - Pandora Tomorrow (Disc 3)",
+            "Tom Clancy's Splinter Cell - Pandora Tomorrow (Disc 3) (Play Disc)",
+            "Tom Clancy's Splinter Cell - Pandora Tomorrow (Disc 4)"
+        ],
         "Tomb Raider - The Last Revelation": [
-            "Click! 09-2004 (Disc 1)"
+            "Click! 09-2004 (Disc 1)",
+            "Tomb Raider IV - The Last Revelation"
+        ],
+        "Tomb Raider - The Lost Artifact": [
+            "Tomb Raider III - The Lost Artifact"
+        ],
+        "Tomb Raider Chronicles": [
+            "Tomb Raider - Die Chronik",
+            "Tomb Raider Chronicles (Zhuyouxi Guangpan)",
+            "Tomb Raider Chronicles (Level Editor)",
+            "Tomb Raider Chronicles (Disc 1)",
+            "Tomb Raider Chronicles (Disc 2) (Level Editor)",
+            "Tomb Raider Chronicles (Game Disc)",
+            "Tomb Raider Chronicles (Level Editor Disc)",
+            "Tomb Raider Chronicles - La Leggenda di Lara Croft"
+        ],
+        "Tomb Raider II - Starring Lara Croft - Special Edition": [
+            "Tomb Raider II - Starring Lara Croft"
+        ],
+        "Tonic Trouble (Special Edition) (DVD)": [
+            "Tonic Trouble (Special Edition)"
         ],
         "Tony Hawk's Pro Skater 2": [
             "Bravo ScreenFun 2-2003"
@@ -4518,7 +4635,8 @@
 			"Railroad Tycoon II",
 			"Railroad Tycoon II - Gold Edition",
 			"Railroad Tycoon II - The Next Millennium",
-			"Railroad Tycoon II - The Second Century"
+            "Railroad Tycoon II - The Second Century",
+            "Tielu Daheng II"
 		],
 		"Rayman 10th Anniversary (Rayman M + Rayman 3 + Rayman 3 Print Studio)": [
 			"Rayman 2 - The Great Escape (DVD)",
@@ -4803,7 +4921,8 @@
             "Sims, The - Makin' Magic (Expansion Pack) (Disc 2)"
         ],
 		"SimTheme Park (Gold Edition)": [
-			"SimTheme Park"
+            "SimTheme Park",
+            "Theme Park World"
 		],
 		"Simon the Sorcerer Double Pack": [
 			"Simon the Sorcerer",
@@ -4895,6 +5014,32 @@
         ],
         "Syndicate Plus": [
             "Syndicate"
+        ],
+        "Thief Gold (Disc 1) (Installation)": [
+            "Dark Project - Der Meisterdieb",
+            "Dark Project - L'Ombra del Ladro",
+            "Thief - The Dark Project (v1.33)",
+            "Thief I & II (Side 1) (Thief - The Dark Project)",
+            "Thief Gold (Disc 1)",
+            "Thief Gold (Disc 2)"
+        ],
+        "Tom Clancy's Rainbow Six 3 - Raven Shield Complete": [
+            "Tom Clancy's Rainbow Six 3 - Athena Sword (Disc 1)",
+            "Tom Clancy's Rainbow Six 3 - Athena Sword (Disc 2)",
+            "Tom Clancy's Rainbow Six 3 - Raven Shield (Patches)",
+            "Tom Clancy's Rainbow Six 3 - Raven Shield (Disc 1)",
+            "Tom Clancy's Rainbow Six 3 - Raven Shield (Disc 2)"
+        ],
+        "Tomb Raider Gold (Disc 1)": [
+            "Tomb Raider"
+        ],
+        "Tomb Raider II - Golden Mask": [
+            "Tomb Raider II - Starring Lara Croft",
+            "Tomb Raider II - Starring Lara Croft - Special Edition"
+        ],
+        "Tonic Trouble (Special Edition) (DVD)": [
+            "Tonic Trouble (Rerelease)",
+            "Tonic Trouble (Special Edition)"
         ],
         "Ultima Collection": [
             "PC Games July-August 1997",
