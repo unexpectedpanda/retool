@@ -73,7 +73,8 @@
         "Star Wars - The Best of PC (USA, Europe) (Star Wars - Battlefront & Star Wars - Jedi Knight II - Jedi Outcast & Star Wars - Republic Commando)",
         "Star Wars - Yoda Stories + Star Wars - Screen Entertainment",
         "Super Bubsy + Lollypop (Germany)",
-        "Tom Clancy's Ghost Recon - Desert Siege + Island Thunder"
+        "Tom Clancy's Ghost Recon - Desert Siege + Island Thunder",
+        "Towers of Darkness - Heretic, Hexen & Beyond (USA)"
     ],
 
     "renames": {
@@ -427,6 +428,10 @@
         ],
         "Battlefield Vietnam Redux (Disc 3)": [
             "Battlefield Vietnam (Disc 3)"
+        ],
+        "Battleship - Surface Thunder": [
+            "Touche-Coule (Disc 1)",
+            "Touche-Coule (Disc 2)"
         ],
         "Beast Within, The - A Gabriel Knight Mystery (Disc 1)": [
             "Beast Within, The - Ein Gabriel Knight-Krimi (Disc 1)",
@@ -1248,6 +1253,12 @@
         ],
         "Earth 2150 - Escape from the Blue Planet (Disc 2)": [
             "Earth 2150 - Escape from the Blue Planet (Disc 2) (Play-CD)"
+        ],
+        "Earth 2150 - Lost Souls (Disc 1)": [
+            "Top Secret 02-2003 (Disc 3)"
+        ],
+        "Earth 2150 - Lost Souls (Disc 2)": [
+            "Top Secret 02-2003 (Disc 4)"
         ],
         "Earth 2160": [
             "Earth 2160 (Disc 1)",
@@ -2330,7 +2341,8 @@
         ],
         "Messiah": [
             "Messiah (Disc 1)",
-            "Messiah (Disc 2)"
+            "Messiah (Disc 2)",
+            "Top Secret 02-2003 (Disc 1)"
         ],
         "Metal Gear Solid 2 - Substance": [
             "Hejin Zhuangbei 2"
@@ -2751,7 +2763,8 @@
             "Bravo ScreenFun 7-2004 (Disc 2)"
         ],
         "Pro Rally 2001 (Limited Edition)": [
-            "Pro Rally 2001"
+            "Pro Rally 2001",
+            "Top Secret 02-2003 (Disc 2)"
         ],
         "Project Earth - Starmageddon": [
             "Project Earth"
@@ -2827,7 +2840,8 @@
 		],
 		"Railroad Tycoon II - The Second Century": [
             "Railroad Tycoon II - The Next Millennium",
-            "Tielu Daheng II"
+            "Tielu Daheng II",
+            "Top Secret 11-2002 (Disc 1)"
 		],
         "Rally Trophy": [
             "Komputer Swiat Gry 10-2004 (Disc 2)"
@@ -3609,6 +3623,9 @@
         "Thing, The": [
             "Cosa, La"
         ],
+        "Three Kingdoms - Fate of the Dragon": [
+            "Tre Regni, I"
+        ],
         "Thrillville - Off the Rails": [
             "Thrillville - Off the Rails (Disc 1)",
             "Thrillville - Off the Rails (Disc 2)",
@@ -3700,17 +3717,48 @@
         "Tonic Trouble (Special Edition) (DVD)": [
             "Tonic Trouble (Special Edition)"
         ],
+        "Tony Hawk's American Wasteland (Disc 1)": [
+            "Tony Hawk's American Wasteland"
+        ],
         "Tony Hawk's Pro Skater 2": [
             "Bravo ScreenFun 2-2003"
         ],
         "Tony Hawk's Pro Skater 3": [
             "Bravo ScreenFun 7-2004 (Disc 1)"
         ],
+        "Tony Hawk's Pro Skater 4 (Install Disc)": [
+            "Tony Hawk's Pro Skater 4 (Installations-CD)"
+        ],
+        "Tony Hawk's Pro Skater 4 (Play Disc)": [
+            "Tony Hawk's Pro Skater 4 (Spiel-CD)"
+        ],
+        "Toon Car": [
+            "Toon Car Racing"
+        ],
         "Tornado - Operation Desert Storm": [
             "Bestseller Games Collection Ausgabe 12"
         ],
+        "Torrente": [
+            "Torrente - El Juego"
+        ],
         "Tortuga - Pirates of the New World": [
             "Piraten - Herrscher der Karibik"
+        ],
+        "Total Annihilation - The Core Contingency": [
+            "Total Annihilation - Contre Attaque",
+            "Total Annihilation - Die Core-Offensive"
+        ],
+        "Total Victory - Victory or Defeat": [
+            "Total Victory - Sieg oder Niederlage"
+        ],
+        "Total War - Shogun 2 (Disc 1)": [
+            "Total War - Shogun 2"
+        ],
+        "Touche - The Adventures of the Fifth Musketeer": [
+            "Touche - Die Abenteuer des fuenften Musketiers"
+        ],
+        "TrackMania": [
+            "TrekManija"
         ],
         "Traitors Gate (Disc 1)": [
             "Colpo grosso a London Tower (Disc 1)"
@@ -3724,6 +3772,26 @@
         "Traitors Gate (Disc 4)": [
             "Colpo grosso a London Tower (Disc 4)"
         ],
+        "Tribes - Vengeance": [
+            "Tribes - Vengeance (Disc 1)",
+            "Tribes - Vengeance (Disc 1) (Install-Play Disc)",
+            "Tribes - Vengeance (Disc 2)",
+            "Tribes - Vengeance (Disc 3)",
+            "Tribes - Vengeance (Disc 4)"
+        ],
+        "Trine": [
+            "Trine - Ushinawareshi Kodai no Hihou"
+        ],
+        "Trivial Pursuit - CD-ROM Edition": [
+            "Trivial Pursuit - CD-ROM Ausgabe"
+        ],
+        "Trivial Pursuit - Millennium Edition (15075B2B)": [
+            "Trivial Pursuit - Millennium Edition"
+        ],
+        "Tron 2.0 (Disc 1)": [
+            "Tron 2.0",
+            "Tron 2.0 (Lato A)"
+        ],
         "Tropico 2 - Pirate Cove (Disc 1) (Install Play)": [
             "CyberMycha Extra 3-2006 (Disc 1)",
             "Tropico 2 - Pirate Cove (Disc 1)"
@@ -3731,12 +3799,28 @@
         "Tropico 2 - Pirate Cove (Disc 2) (Data)": [
             "Tropico 2 - Pirate Cove (Disc 2)"
         ],
+        "Tropico Gold": [
+            "Tropico Gold (Disc 1) (Install & Play)",
+            "Tropico Gold (Disc 2) (Data)"
+        ],
+        "True Crime - New York City": [
+            "True Crime - New York City (Disc 1)",
+            "True Crime - New York City (Disc 2)",
+            "True Crime - New York City (Disc 3)"
+        ],
+        "Tunguska - Legend of Faith (Disc 1)": [
+            "Tungusskij Sindrom (Disc 1)"
+        ],
         "Turok 2 - Seeds of Evil": [
             "Bravo ScreenFun 9-2004 (Disc 2)",
             "Click! 01-2004 (Disc 2)"
 		],
 		"Type da Puyo Puyo": [
 			"Great Series Vol. 31 - Type da Puyo Puyo"
+        ],
+        "Tzar - The Burden of the Crown": [
+            "Tzar - Die Schlacht um die Krone",
+            "Tzar - O Peso da Coroa"
         ],
         "Ubik (Disc 1)": [
             "Swiat Gier Komputerowych 1-02 (Disc 1)"
@@ -5040,6 +5124,42 @@
         "Tonic Trouble (Special Edition) (DVD)": [
             "Tonic Trouble (Rerelease)",
             "Tonic Trouble (Special Edition)"
+        ],
+        "Total War - Medieval II (Gold Edition)": [
+            "Total War - Medieval II (Disc 1)",
+            "Total War - Medieval II (Disc 2)"
+        ],
+        "Total War - Rome II (Disc 1) (Spartan Edition)": [
+            "Total War - Rome II (Disc 1)"
+        ],
+        "Total War - Rome II (Disc 2) (Spartan Edition)": [
+            "Total War - Rome II (Disc 2)"
+        ],
+        "Total War - Rome II (Disc 3) (Spartan Edition)": [
+            "Total War - Rome II (Disc 3)"
+        ],
+        "TrackMania Sunrise Extreme": [
+            "TrackMania Sunrise"
+        ],
+        "TrackMania United Forever": [
+            "TrackMania United"
+        ],
+        "Transport Tycoon Deluxe": [
+            "Transport Tycoon"
+        ],
+        "Tropico Gold": [
+            "Tropico",
+            "Tropico - Paradise Island",
+            "Tropico Gold (Disc 1) (Install & Play)",
+            "Tropico Gold (Disc 2) (Data)"
+        ],
+        "Two Worlds (Game of the Year Edition)": [
+            "Two Worlds"
+        ],
+        "U.S. Navy Fighters - Gold": [
+            "Marine Fighters",
+            "U.S. Navy Fighters",
+            "U.S.N.F. Gold"
         ],
         "Ultima Collection": [
             "PC Games July-August 1997",
