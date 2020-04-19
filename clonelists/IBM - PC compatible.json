@@ -3,7 +3,7 @@
         "name": [
 			"IBM - PC compatible"
 		],
-        "last updated": "16 Apr 2020"
+        "last updated": "19 Apr 2020"
     },
 
     "compilations": [
@@ -3104,7 +3104,10 @@
 		],
 		"Sega Rally 2 (Play Disc)": [
 			"Sega Rally 2 (Disc 2) (Play Disc)"
-		],
+        ],
+        "Sega Rally Championship": [
+            "Sega Rally Championship PC"
+        ],
 		"Sega Worldwide Soccer PC (Direct3D)": [
 			"Sega Worldwide Soccer PC"
 		],
@@ -3827,6 +3830,12 @@
         ],
         "Ubik (Disc 2)": [
             "Swiat Gier Komputerowych 1-02 (Disc 2)"
+        ],
+        "UFO Trilogy": [
+            "UFO Trylogia"
+        ],
+        "USS Ticonderoga - Life and Death on the High Seas (Windows 95)": [
+            "USS Ticonderoga - Life and Death on the High Seas"
         ],
         "Ultimate Soccer Manager 98-99 Season Edition": [
             "DSF Fussball Manager '98"
@@ -4642,8 +4651,12 @@
             "Neverwinter Nights - Shadows of Undrentide",
             "Neverwinter Nights 2 - Mask of the Betrayer",
             "Neverwinter Nights 2",
-            "Neverwinter Nights Diamond",
+            "Neverwinter Nights - Diamond",
+            "Neverwinter Nights - Platinum",
             "PC Games DVD 02-2007 (Seite 2) (Video Bereich)"
+        ],
+        "Neverwinter Nights 2 (Lawful Good)": [
+            "Neverwinter Nights 2"
         ],
         "New World Order (Deluxe Edition)": [
             "New World Order"

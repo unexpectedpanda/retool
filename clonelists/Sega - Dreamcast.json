@@ -3,7 +3,7 @@
         "name": [
             "Sega - Dreamcast"
         ],
-        "last updated": "23 Mar 2020"
+        "last updated": "19 Apr 2020"
     },
 
     "renames": {
@@ -120,6 +120,10 @@
 		"JoJo's Bizarre Adventure": [
 			"Jojo no Kimyou na Bouken - Mirai e no Isan",
 			"Jojo no Kimyou na Bouken - Mirai e no Isan for Matching Service"
+		],
+		"JRA PAT for Dreamcast V50L10": [
+			"JRA PAT for Dreamcast V40L10",
+			"JRA PAT for Dreamcast V40L11"
 		],
 		"King of Fighters, The - Evolution": [
 			"King of Fighters '99, The - Evolution"
