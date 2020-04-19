@@ -53,7 +53,7 @@
         "Oregon Trail II + Logic Quest (USA)",
         "PC Action Bonus CD-ROM 1-98 (Germany)",
         "PC Games CD ROM 2-95 (Germany)",
-        "PC PowerPlay 177 (Australia) (Side B)",
+        "PC PowerPlay 177 (Australia) (Disc 2)",
         "Panzer General & Hind (Germany)",
         "Play 1-2008 (Poland)",
 		"Produzent, Der & Kick Off 97 (Germany)",
@@ -136,23 +136,23 @@
             "Age of Empires II - The Conquerors Expansion (Gold Edition)"
         ],
         "Age of Empires III (Disc 1)": [
-            "Age of Empires III (Disc 1) (Disco di Installazione)",
+            "Age of Empires III (Disc 1) (Disc di Installazione)",
             "Age of Empires III (Disc 1) (Installations-CD)"
         ],
         "Age of Empires III (Disc 2)": [
-            "Age of Empires III (Disc 2) (Disco del Gioco)",
+            "Age of Empires III (Disc 2) (Disc del Gioco)",
             "Age of Empires III (Disc 2) (Spiel-CD)"
         ],
         "Age of Empires III (Disc 3)": [
-            "Age of Empires III (Disc 3) (Disco del Gioco)",
+            "Age of Empires III (Disc 3) (Disc del Gioco)",
             "Age of Empires III (Disc 3) (Spiel-CD)"
         ],
         "Age of Mythology - Gold Edition (Disc 1) (Install Disc)": [
-            "Age of Mythology - Gold Edition (Disc 1) (Disco di installazione)",
+            "Age of Mythology - Gold Edition (Disc 1) (Disc di installazione)",
             "Age of Mythology - Gold Edition"
         ],
         "Age of Mythology - Gold Edition (Disc 2) (Play Disc)": [
-            "Age of Mythology - Gold Edition (Disc 2) (Disco di gioco Titans)"
+            "Age of Mythology - Gold Edition (Disc 2) (Disc di gioco Titans)"
         ],
         "Age of Wonders II - The Wizard's Throne": [
             "Age of Wonders II - Der Zirkel der Zauberer"
@@ -824,7 +824,7 @@
         "Commandos - Beyond the Call of Duty": [
             "Commandos - Im Auftrag der Ehre"
         ],
-        "Commandos Complete (Side 1)": [
+        "Commandos Complete (Disc 1)": [
             "Commandos Antologia"
         ],
         "Conquest - Frontier Wars": [
@@ -1010,20 +1010,20 @@
         ],
         "Diablo II (Cinematics Disc)": [
             "Diablo II (Disc 3) (Cinematics Disc)",
-            "Diablo II (Disc 3) (Disco delle cinematiche)",
+            "Diablo II (Disc 3) (Disc delle cinematiche)",
             "Diablo II (Disc 3) (Filmy)",
             "Diablo II (Disc 3) (Video-CD)",
             "Diablo II (Disc 3)"
         ],
         "Diablo II (Install Disc)": [
-            "Diablo II (Disc 1) (Disco di installazione)",
+            "Diablo II (Disc 1) (Disc di installazione)",
             "Diablo II (Disc 1) (Dysk Instalacyjny)",
             "Diablo II (Disc 1) (Install Disc)",
             "Diablo II (Disc 1) (Installations-CD)",
             "Diablo II (Disc 1)"
         ],
         "Diablo II (Play Disc)": [
-            "Diablo II (Disc 2) (Disco di gioco)",
+            "Diablo II (Disc 2) (Disc di gioco)",
             "Diablo II (Disc 2) (Game-CD)",
             "Diablo II (Disc 2) (Gra)",
             "Diablo II (Disc 2) (Play Disc)",
@@ -1298,7 +1298,7 @@
             "Elder Scrolls IV, The - Oblivion (Premium Disc)"
         ],
         "Elder Scrolls, The - Chapter II - Daggerfall": [
-            "PC PowerPlay 169 (Side A)"
+            "PC PowerPlay 169 (Disc 1)"
 		],
 		"Elder Scrolls Adventures, The - Redguard (Disc 1) (Install Disc)": [
 			"Redguard - Ein Elder Scroll Adventure (Installations CD)"
@@ -1461,7 +1461,7 @@
         ],
         "Final Fantasy VIII (Install Disc)": [
             "Final Fantasy VIII (Disc 5)",
-            "Final Fantasy VIII (Disco Installazione)"
+            "Final Fantasy VIII (Disc Installazione)"
         ],
         "Firestorm - Thunderhawk 2": [
             "Thunderhawk 2 - Firestorm"
@@ -1666,10 +1666,6 @@
         "Guild Wars (Disc 1)": [
             "Guild Wars"
         ],
-        "Guild Wars (Game of the Year Edition)": [
-            "Guild Wars (Disc 1)",
-            "Guild Wars (Disc 2)"
-        ],
         "Guild Wars - Nightfall (Disc 1)": [
             "Guild Wars - Nightfall"
         ],
@@ -1744,12 +1740,6 @@
         "Heroes of Might and Magic IV (Disc 2) (Play)": [
             "Heroes of Might and Magic IV (Disc 2) (Gioca)",
             "Heroes of Might and Magic IV (Disc 2)"
-        ],
-        "Hexagon-Kartell, Das (Disc 1)": [
-            "Hexagon-Kartell, Das (Disc 1)"
-        ],
-        "Hexagon-Kartell, Das (Disc 2)": [
-            "Hexagon-Kartell, Das (Disc 2)"
         ],
         "Hidden & Dangerous - Devil's Bridge": [
             "Hidden & Dangerous - Fight for Freedom"
@@ -2163,15 +2153,15 @@
 		],
         "Lord of the Rings, The - The Return of the King (Install Disc One)": [
 			"Lord of the Rings, The - Ou no Kikan (Disc 1)",
-			"Signore degli Anelli, Il - Il ritorno del Re (Disc 1) (Disco d'Installazione)"
+			"Signore degli Anelli, Il - Il ritorno del Re (Disc 1) (Disc d'Installazione)"
         ],
         "Lord of the Rings, The - The Return of the King (Install Disc Two)": [
 			"Lord of the Rings, The - Ou no Kikan (Disc 2)",
-			"Signore degli Anelli, Il - Il ritorno del Re (Disc 2) (Disco d'Installazione)"
+			"Signore degli Anelli, Il - Il ritorno del Re (Disc 2) (Disc d'Installazione)"
         ],
         "Lord of the Rings, The - The Return of the King (Play Disc)": [
 			"Lord of the Rings, The - Ou no Kikan (Disc 3)",
-			"Signore degli Anelli, Il - Il ritorno del Re (Disc 3) (Disco di Gioco)"
+			"Signore degli Anelli, Il - Il ritorno del Re (Disc 3) (Disc di Gioco)"
         ],
         "Lords of Magic": [
             "Swiat Gier Komputerowych 1-01 (Disc 1)"
@@ -2683,9 +2673,6 @@
         "Polaris SnoCross": [
             "SnowCross"
         ],
-        "Pole-Position - Formel 1 Teamchef": [
-            "Bestseller Games Gold-Edition Ausgabe 9"
-        ],
         "Police Quest - SWAT 2": [
             "Best of Sierra Nr. 18",
             "Police Quest - SWAT 2 (5012E377)"
@@ -2695,7 +2682,6 @@
         ],
         "Port Royale - Gold, Power and Pirates": [
             "Port Royale - Gold, Macht und Kanonen (Gold-Edition)",
-            "Port Royale - Gold, Power and Pirates",
             "Port Royale - Oro, Potere e Pirati",
             "Port Royale"
         ],
@@ -3080,10 +3066,6 @@
         "Sam & Max Hit the Road": [
             "Bestseller Games Gold-Edition Ausgabe 3"
 		],
-		"Schizm - Mysterious Journey (Disc 1)": [
-			"Schizm - Mysterious Journey (Side A)",
-			"Schizm - Mysterious Journey (Side B)"
-		],
         "Screamer 4x4": [
             "CD-Action 08-2002 (76) (Disc 2)"
 		],
@@ -3425,7 +3407,7 @@
             "Star Trek - The Next Generation - Klingon Honor Guard (Disc 2)"
         ],
         "Star Wars - Battlefront": [
-            "Star Wars - Battlefront (Disc 1) (Disco di gioco)",
+            "Star Wars - Battlefront (Disc 1) (Disc di gioco)",
             "Star Wars - Battlefront (Disc 1) (Play Disc)",
             "Star Wars - Battlefront (Disc 2)",
             "Star Wars - Battlefront (Disc 3)"
@@ -3479,7 +3461,7 @@
         ],
         "Star Wars - Knights of the Old Republic": [
             "Star Wars - Knights of the Old Republic (Disc 1) (Spiel-CD)",
-            "Star Wars - Knights of the Old Republic (Disc 1) (Disco di Gioco)",
+            "Star Wars - Knights of the Old Republic (Disc 1) (Disc di Gioco)",
             "Star Wars - Knights of the Old Republic (Disc 1) (Play Disc)",
             "Star Wars - Knights of the Old Republic (Disc 2)",
             "Star Wars - Knights of the Old Republic (Disc 3)",
@@ -3582,6 +3564,7 @@
             "Bestseller Games Gold-Edition Ausgabe 27"
         ],
         "Team F1": [
+            "Bestseller Games Gold-Edition Ausgabe 9",
             "Pole-Position - Formel 1 Teamchef"
         ],
         "TechnoMage - Die Rueckkehr der Ewigkeit": [
@@ -3605,7 +3588,7 @@
         "Thief - The Dark Project": [
             "Dark Project - Der Meisterdieb",
             "Dark Project - L'Ombra del Ladro",
-            "Thief I & II (Side 1) (Thief - The Dark Project)"
+            "Thief I & II (Disc 1) (Thief - The Dark Project)"
         ],
         "Thief Gold (Disc 1) (Installation)": [
             "Dark Project - Der Meisterdieb - Director's Cut (Disc 1)",
@@ -3792,8 +3775,7 @@
             "Trivial Pursuit - Millennium Edition"
         ],
         "Tron 2.0 (Disc 1)": [
-            "Tron 2.0",
-            "Tron 2.0 (Lato A)"
+            "Tron 2.0"
         ],
         "Tropico 2 - Pirate Cove (Disc 1) (Install Play)": [
             "CyberMycha Extra 3-2006 (Disc 1)",
@@ -3974,11 +3956,11 @@
         "Age of Mythology - Gold Edition (Disc 1) (Install Disc)": [
             "Age of Mythology (Disc 1)",
             "Age of Mythology (Disc 2)",
-            "Age of Mythology - Gold Edition (Disco 1) (Disco di installazione)",
+            "Age of Mythology - Gold Edition (Disc 1) (Disc di installazione)",
             "Age of Mythology - Gold Edition"
         ],
         "Age of Mythology - Gold Edition (Disc 2) (Play Disc)": [
-            "Age of Mythology - Gold Edition (Disco 2) (Disco di gioco Titans)",
+            "Age of Mythology - Gold Edition (Disc 2) (Disc di gioco Titans)",
             "Age of Mythology - The Titans (Expansion)"
         ],
         "Aliens Versus Predator (Disc 1) (Gold Edition)": [
@@ -4130,7 +4112,7 @@
             "Command & Conquer 3 - Tiberium Wars (Deluxe Edition)",
             "Command & Conquer 3 - Tiberium Wars"
         ],
-        "Commandos Complete (Side 1)": [
+        "Commandos Complete (Disc 1)": [
             "Commandos - Behind Enemy Lines",
             "Commandos - Beyond the Call of Duty",
             "Commandos - Dietro le Linee Nemiche",
@@ -4362,6 +4344,11 @@
             "Gothic 3 (Game of the Year Edition)",
             "Gothic 3",
             "Gothic Universe (Gothic III)"
+        ],
+        "Guild Wars (Game of the Year Edition)": [
+            "Guild Wars",
+            "Guild Wars (Disc 1)",
+            "Guild Wars (Disc 2)"
         ],
         "Half-Life 1 Anthology": [
             "Half-Life (Game of the Year Edition)",
@@ -5082,7 +5069,7 @@
         "Star Wars - Knights of the Old Republic Collection": [
             "Star Wars - Knights of the Old Republic",
             "Star Wars - Knights of the Old Republic (Disc 1) (Spiel-CD)",
-            "Star Wars - Knights of the Old Republic (Disc 1) (Disco di Gioco)",
+            "Star Wars - Knights of the Old Republic (Disc 1) (Disc di Gioco)",
             "Star Wars - Knights of the Old Republic (Disc 1) (Play Disc)",
             "Star Wars - Knights of the Old Republic (Disc 2)",
             "Star Wars - Knights of the Old Republic (Disc 3)",
@@ -5116,7 +5103,7 @@
             "Dark Project - Der Meisterdieb",
             "Dark Project - L'Ombra del Ladro",
             "Thief - The Dark Project (v1.33)",
-            "Thief I & II (Side 1) (Thief - The Dark Project)",
+            "Thief I & II (Disc 1) (Thief - The Dark Project)",
             "Thief Gold (Disc 1)",
             "Thief Gold (Disc 2)"
         ],
