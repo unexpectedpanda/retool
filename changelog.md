@@ -1,5 +1,16 @@
 # 0.60
+- Removed pointless milliseconds from output file name.
 - Added "Scholastic" to the publisher/distributor list.
+- Added more disc synonyms.
+- Automated handling PlayStation EDC titles.
+- Language codes changed. `Ch` > `Cs`, `Hr` > `Hu`.
+- Language codes removed: `At`, `Be`.
+- Languages codes added: `Bg`, `He`, `Ro`, `Tr`.
+- Region added: Bulgaria, Romania. There are no games yet from these regions,
+  but there are games with their languages.
+- Extracted configuration data from the main Python script, and moved it into
+  an external JSON file. This can potentially lead to greater user
+  customization later.
 
 # 0.59
 - Added "Best of the Best" and "Best Hit Selection" as publishers/distributors.
