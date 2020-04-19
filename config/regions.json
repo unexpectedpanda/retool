@@ -1,0 +1,69 @@
+{
+    "description": {
+        "name": [
+			"regions.json"
+		],
+        "last updated": "19 Apr 2020"
+    },
+
+    "region_order": [
+        "USA",
+        "World",
+        "UK",
+        "Canada",
+        "Australia",
+        "New Zealand",
+        "Singapore",
+        "Ireland",
+        "Europe",
+        "Japan",
+        "Asia",
+        "Scandinavia",
+        "Spain",
+        "Argentina",
+        "Latin America",
+        "Brazil",
+        "Portugal",
+        "France",
+        "Germany",
+        "Austria",
+        "Belgium",
+        "China",
+        "Croatia",
+        "Czech",
+        "Denmark",
+        "Finland",
+        "Greece",
+        "Hungary",
+        "India",
+        "Israel",
+        "Italy",
+        "Korea",
+        "Netherlands",
+        "Norway",
+        "Poland",
+        "Romania",
+        "Bulgaria",
+        "Russia",
+        "Slovakia",
+        "South Africa",
+        "Sweden",
+        "Switzerland",
+        "Taiwan",
+        "Thailand",
+        "Turkey",
+        "Ukraine",
+        "United Arab Emirates"
+    ],
+
+    "region_english": [
+        "Australia",
+        "Canada",
+        "Ireland",
+        "New Zealand",
+        "Singapore",
+        "UK",
+        "USA",
+        "World"
+    ]
+}
