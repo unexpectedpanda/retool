@@ -18,8 +18,8 @@ There are two ways you can install and run Retool.
 If Git and Python aren't your thing, you can download ZIP files containing
 Windows and macOS binaries from the
 [dist](https://github.com/unexpectedpanda/retool/tree/master/dist) folder. Make
-sure to grab the clonelists ZIP file as well, and extract them both into the
-same folder to install.
+sure to grab the clonelists + config ZIP file as well, and extract them both
+into the same folder to install.
 
 ### Python
 
@@ -79,7 +79,8 @@ requires clone lists to achieve.
 Clone lists are updated independently of the program, and are formatted as JSON
 files. You can either download them manually from the
 [clonelists folder](https://github.com/unexpectedpanda/retool/tree/master/clonelists),
-pull everything into your local repo, or download the clonelists ZIP file from the
+pull everything into your local repo, or download the clonelists + config ZIP file
+from the
 [dist](https://github.com/unexpectedpanda/retool/tree/master/dist) folder. The
 JSON files must be uncompressed, and stored in a folder called `clonelists` in the
 same folder as Retool for them to be recognized.

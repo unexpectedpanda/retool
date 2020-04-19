@@ -14,6 +14,7 @@ import time
 from lxml import etree
 from bs4 import BeautifulSoup, Doctype # For XML parsing
 
+# Do not remove this line
 version = '0.60'
 
 # Require at least Python 3.5
@@ -39,98 +40,67 @@ def main():
     # Start a time from when the process started
     start_time = time.time()
 
-    # Define regions where English is a primary language. Order from most to
-    # least important.
-    region_list_english = [
-        'USA',
-        'World',
-        'UK',
-        'Canada',
-        'Australia',
-        'New Zealand',
-        'Singapore',
-        'Ireland'
-    ]
+    # Define regions of the world to process and their order, based on regions.json
+    region_list_english = []
+    region_list_order = []
 
-    # Define regions where titles might have an English version. Order from
-    # most to least important.
-    region_list_other = [
-        'Europe',
-        'Japan',
-        'Asia',
-        'Scandinavia',
-        'Spain',
-        'Argentina',
-        'Latin America',
-        'Brazil',
-        'Portugal',
-        'France',
-        'Germany',
-        'Austria',
-        'Belgium',
-        'China',
-        'Croatia',
-        'Czech',
-        'Denmark',
-        'Finland',
-        'Greece',
-        'Hungary',
-        'India',
-        'Israel',
-        'Italy',
-        'Korea',
-        'Netherlands',
-        'Norway',
-        'Poland',
-        'Russia',
-        'Slovakia',
-        'South Africa',
-        'Sweden',
-        'Switzerland',
-        'Taiwan',
-        'Thailand',
-        'Turkey',
-        'Ukraine',
-        'United Arab Emirates'
-    ]
+    if os.path.exists("config/regions.json") == True and os.path.isfile("config/regions.json") == True:
+        try:
+            with open("config/regions.json", 'r') as input_file_read:
+                regiondata = json.load(input_file_read)
+
+                # Define regions where English is a primary language. Order from most to
+                # least important.
+                if 'region_order' in regiondata and 'region_english' in regiondata:
+                    region_list_english = [x for x in regiondata['region_order'] if x in regiondata['region_english']]
+
+                # Define full region order
+                if 'region_order' in regiondata:
+                    region_list_order = [x for x in regiondata['region_order']]
+
+        except OSError as e:
+            print('\n' + font.bold + font.red + '* Error: ' + font.end + str(e) + '\n')
+            raise
 
     # Define tag strings that could cause issues when looking for dupes
-    tag_strings = [
-        '\s?\(Rev [0-9A-Z].*?\)',
-        '\s?\(v[0-9A-Z].*?\)',
-        '\s?\(Alt.*?\)',
-        '\s?\(OEM\)',
-        '\s?\(Hibaihin\)',
-        '\s?\(Rerelease\)',
-        '\(Disco [A-Z0-9]\)',
-        '\(Teil [A-Z0-9]\)',
-        '\(Disco Uno\)',
-        '\(Disco Due\)',
-        '\(Disco Tre\)',
-        '\(Disco Quattro\)',
-        '\(Disque [A-Z0-9]\)',
-        '\s?\(\d{8}\)',
-        '\(Disc [A-Z].*?\)',
-        '\(Disk [A-Z].*?\)',
-        '\(Disc 0[0-9]\)',
-        '\(Disc One\)',
-        '\(Disc Two\)',
-        '\(Disc Three\)',
-        '\(Disc Four\)',
-        '\s?\(Covermount\)',
-        '\s?\(Best of the Best\)',
-        '\s?\(Best Hit Selection\)',
-        '\s?\(Hit Squad\)',
-        '\s?\(Hit Squad - Regenerator\)',
-        '\s?\(Major Wave\)',
-        '\s?\(PlayStation the Best\)',
-        '\s?\(PlayStation 2 the Best\)',
-        '\s?\(PlayStation 3 the Best\)',
-        '\s?\(Scholastic\)',
-        '\s?\(Sold Out Extreme\)',
-        '\s?\(Sold Out Software\)',
-        '\s?\(Xplosiv\)',
-        ]
+    tag_strings = []
+    disc_rename = {}
+    promote_strings = []
+    demote_strings = []
+
+    if os.path.exists("config/tags.json") == True and os.path.isfile("config/tags.json") == True:
+        try:
+            with open("config/tags.json", 'r') as input_file_read:
+                tag_file = json.load(input_file_read)
+
+                if 'ignore_tags' in tag_file:
+                    for x in tag_file['ignore_tags']:
+                        tag_strings.append(x)
+
+                if 'disc_search_string' in tag_file:
+                    for x in tag_file['disc_search_string']:
+                        tag_strings.append(x)
+
+                if 'promote_publishers' in tag_file:
+                    for x in tag_file['promote_publishers']:
+                        promote_strings.append(x)
+
+                        if x not in tag_file['ignore_tags']:
+                            tag_strings.append(x)
+
+                if 'demote_publishers' in tag_file:
+                    for x in tag_file['demote_publishers']:
+                        demote_strings.append(x)
+
+                        if x not in tag_file['ignore_tags']:
+                            tag_strings.append(x)
+
+                if 'disc_rename' in tag_file:
+                        disc_rename = tag_file['disc_rename']
+
+        except OSError as e:
+            print('\n' + font.bold + font.red + '* Error: ' + font.end + str(e) + '\n')
+            raise
 
     # If the user has defined an output folder
     if os.path.isdir(user_input.file_input) == True:
@@ -142,13 +112,13 @@ def main():
             if file.endswith('.dat'):
                 file_count += 1
                 user_input.file_input = os.path.join(input_folder, file)
-                process_dats(user_input, tag_strings, region_list_english, region_list_other, True)
+                process_dats(user_input, tag_strings, promote_strings, demote_strings, disc_rename, region_list_english, region_list_order, True)
 
     # If the user has not defined an output folder
     else:
         input_folder = ''
         # Process the dat
-        file_name_title_count = process_dats(user_input, tag_strings, region_list_english, region_list_other, False)
+        file_name_title_count = process_dats(user_input, tag_strings, promote_strings, demote_strings, disc_rename, region_list_english, region_list_order, False)
 
     # Do the work to generate a final output message for the user
     stop_time = time.time()
@@ -212,13 +182,13 @@ class UserInput:
 
 # Establish a class for title data
 class DatNode:
-    def __init__(self, full_title, region, category, description, roms, cloneof, tag_strings):
+    def __init__(self, full_title, region, category, description, roms, cloneof, tag_strings, promote_strings, demote_strings, disc_rename):
         self.full_title = full_title
 
         # Set regionless title
         if re.findall(' \(' + region + '.*?\)', full_title) != []:
             remove_region = full_title.replace(re.findall(' \(' + region + '.*?\)', full_title)[0],'')
-            remove_languages = re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv|Th|Zh)\.*?)(,.*?\)|\)))', remove_region)
+            remove_languages = re.findall('( (\((En|Ar|Bg|Cs|Da|De|Es|Fi|Fr|Gr|He|Hu|It|Ja|Ko|Nl|No|Pl|Pt|Ro|Ru|Sv|Th|Tr|Zh)\.*?)(,.*?\)|\)))', remove_region)
             if len(remove_languages) > 0:
                 try:
                     self.regionless_title = remove_region.replace(remove_languages[0][0], '')
@@ -235,123 +205,16 @@ class DatNode:
 
         # Set title with minimal tags
         tag_strip_title = self.full_title
+
+        # Normalize disc names
+        for key, value in disc_rename.items():
+            if key in tag_strip_title:
+                tag_strip_title = tag_strip_title.replace(key, value)
+
+        # Work out other strings in tags.json
         for string in tag_strings:
             if re.findall(string, tag_strip_title) != []:
-                if 'Disco' in string:
-                    if 'Uno' in string:
-                        disc_alternative = re.search('\(Disco Uno\)', tag_strip_title).group()
-                        disc_alternative = disc_alternative.replace('Disco Uno', 'Disc 1')
-                        tag_strip_title = tag_strip_title.replace(re.findall('\(Disco Uno\)', tag_strip_title)[0], disc_alternative)
-                    elif 'Due' in string:
-                        disc_alternative = re.search('\(Disco Due\)', tag_strip_title).group()
-                        disc_alternative = disc_alternative.replace('Disco Due', 'Disc 2')
-                        tag_strip_title = tag_strip_title.replace(re.findall('\(Disco Due\)', tag_strip_title)[0], disc_alternative)
-                    elif 'Tre' in string:
-                        disc_alternative = re.search('\(Disco Tres\)', tag_strip_title).group()
-                        disc_alternative = disc_alternative.replace('Disco Tre', 'Disc 3')
-                        tag_strip_title = tag_strip_title.replace(re.findall('\(Disco Tre\)', tag_strip_title)[0], disc_alternative)
-                    elif 'Quattro' in string:
-                        disc_alternative = re.search('\(Disco Quattro\)', tag_strip_title).group()
-                        disc_alternative = disc_alternative.replace('Disco Quattro', 'Disc 4')
-                        tag_strip_title = tag_strip_title.replace(re.findall('\(Disco Quattro\)', tag_strip_title)[0], disc_alternative)
-                    else:
-                        disc_alternative = re.search('\(Disco [A-Z0-9]\)', tag_strip_title).group()
-                        # Change things so discs are ordered consistently
-                        disc_alternative = disc_alternative.replace('Disco', 'Disc')
-                        disc_alternative = disc_alternative.replace('Disc A', 'Disc 1')
-                        disc_alternative = disc_alternative.replace('Disc B', 'Disc 2')
-                        disc_alternative = disc_alternative.replace('Disc C', 'Disc 3')
-                        disc_alternative = disc_alternative.replace('Disc D', 'Disc 4')
-                        disc_alternative = disc_alternative.replace('Disc E', 'Disc 5')
-                        tag_strip_title = tag_strip_title.replace(re.findall('\(Disco [A-Z0-9]\)', tag_strip_title)[0], disc_alternative)
-                elif 'One' in string:
-                    disc_alternative = re.search('\(Disc One\)', tag_strip_title).group()
-                    # Change things so discs are ordered consistently
-                    disc_alternative = disc_alternative.replace('Disc One', 'Disc 1')
-                    tag_strip_title = tag_strip_title.replace(re.findall('\(Disc One\)', tag_strip_title)[0], disc_alternative)
-                elif 'Two' in string:
-                    disc_alternative = re.search('\(Disc Two\)', tag_strip_title).group()
-                    # Change things so discs are ordered consistently
-                    disc_alternative = disc_alternative.replace('Disc Two', 'Disc 2')
-                    tag_strip_title = tag_strip_title.replace(re.findall('\(Disc Two\)', tag_strip_title)[0], disc_alternative)
-                elif 'Three' in string:
-                    disc_alternative = re.search('\(Disc Three\)', tag_strip_title).group()
-                    # Change things so discs are ordered consistently
-                    disc_alternative = disc_alternative.replace('Disc Three', 'Disc 3')
-                    tag_strip_title = tag_strip_title.replace(re.findall('\(Disc Three\)', tag_strip_title)[0], disc_alternative)
-                elif 'Four' in string:
-                    disc_alternative = re.search('\(Disc Four\)', tag_strip_title).group()
-                    # Change things so discs are ordered consistently
-                    disc_alternative = disc_alternative.replace('Disc Four', 'Disc 4')
-                    tag_strip_title = tag_strip_title.replace(re.findall('\(Disc Four\)', tag_strip_title)[0], disc_alternative)
-                elif 'Disc' in string and 'Disco' not in string and 'Disc 0' not in string:
-                    disc_alternative = re.search('\(Disc [A-Z].*?\)', tag_strip_title).group()
-                    # Change things so discs are ordered consistently
-                    disc_alternative = disc_alternative.replace('Disc A', 'Disc 1')
-                    disc_alternative = disc_alternative.replace('Disc I', 'Disc 1')
-                    disc_alternative = disc_alternative.replace('Disc B', 'Disc 2')
-                    disc_alternative = disc_alternative.replace('Disc 1I', 'Disc 2')
-                    disc_alternative = disc_alternative.replace('Disc C', 'Disc 3')
-                    disc_alternative = disc_alternative.replace('Disc 2I', 'Disc 3')
-                    disc_alternative = disc_alternative.replace('Disc D', 'Disc 4')
-                    disc_alternative = disc_alternative.replace('Disc 1V', 'Disc 4')
-                    disc_alternative = disc_alternative.replace('Disc E', 'Disc 5')
-                    disc_alternative = disc_alternative.replace('Disc V', 'Disc 5')
-                    tag_strip_title = tag_strip_title.replace(re.findall('\(Disc [A-Z].*?\)', tag_strip_title)[0], disc_alternative)
-                elif 'Disk' in string:
-                    disc_alternative = re.search('\(Disk [A-Z].*?\)', tag_strip_title).group()
-                    # Change things so discs are ordered consistently
-                    disc_alternative = disc_alternative.replace('Disk I', 'Disc 1')
-                    disc_alternative = disc_alternative.replace('Disc 1I', 'Disc 2')
-                    disc_alternative = disc_alternative.replace('Disc 2I', 'Disc 3')
-                    disc_alternative = disc_alternative.replace('Disc 1V', 'Disc 4')
-                    disc_alternative = disc_alternative.replace('Disc V', 'Disc 5')
-                    tag_strip_title = tag_strip_title.replace(re.findall('\(Disk [A-Z].*?\)', tag_strip_title)[0], disc_alternative)
-                elif 'Disc 0' in string:
-                    disc_alternative = re.search('\(Disc 0[0-9]\)', tag_strip_title).group()
-                    disc_alternative = disc_alternative.replace('Disc 01', 'Disc 1')
-                    disc_alternative = disc_alternative.replace('Disc 02', 'Disc 2')
-                    disc_alternative = disc_alternative.replace('Disc 03', 'Disc 3')
-                    disc_alternative = disc_alternative.replace('Disc 04', 'Disc 4')
-                    disc_alternative = disc_alternative.replace('Disc 05', 'Disc 5')
-                    tag_strip_title = tag_strip_title.replace(re.findall('\(Disc 0[0-9]\)', tag_strip_title)[0], disc_alternative)
-                elif 'Disque' in string:
-                    disc_alternative = re.search('\(Disque [A-Z0-9]\)', tag_strip_title).group()
-                    disc_alternative = disc_alternative.replace('Disque A', 'Disc 1')
-                    disc_alternative = disc_alternative.replace('Disque 1', 'Disc 1')
-                    disc_alternative = disc_alternative.replace('Disque I', 'Disc 1')
-                    disc_alternative = disc_alternative.replace('Disque B', 'Disc 2')
-                    disc_alternative = disc_alternative.replace('Disque 2', 'Disc 1')
-                    disc_alternative = disc_alternative.replace('Disque 1I', 'Disc 2')
-                    disc_alternative = disc_alternative.replace('Disque C', 'Disc 3')
-                    disc_alternative = disc_alternative.replace('Disque 3', 'Disc 1')
-                    disc_alternative = disc_alternative.replace('Disque 1II', 'Disc 3')
-                    disc_alternative = disc_alternative.replace('Disque D', 'Disc 4')
-                    disc_alternative = disc_alternative.replace('Disque 4', 'Disc 1')
-                    disc_alternative = disc_alternative.replace('Disque 1V', 'Disc 4')
-                    disc_alternative = disc_alternative.replace('Disque E', 'Disc 5')
-                    disc_alternative = disc_alternative.replace('Disque 5', 'Disc 1')
-                    disc_alternative = disc_alternative.replace('Disque V', 'Disc 5')
-                    tag_strip_title = tag_strip_title.replace(re.findall('\(Disque [A-Z0-9]\)', tag_strip_title)[0], disc_alternative)
-                elif 'Teil' in string:
-                    disc_alternative = re.search('\(Teil [A-Z0-9]\)', tag_strip_title).group()
-                    disc_alternative = disc_alternative.replace('Teil A', 'Disc 1')
-                    disc_alternative = disc_alternative.replace('Teil 1', 'Disc 1')
-                    disc_alternative = disc_alternative.replace('Teil I', 'Disc 1')
-                    disc_alternative = disc_alternative.replace('Teil B', 'Disc 2')
-                    disc_alternative = disc_alternative.replace('Teil 2', 'Disc 1')
-                    disc_alternative = disc_alternative.replace('Teil 1I', 'Disc 2')
-                    disc_alternative = disc_alternative.replace('Teil C', 'Disc 3')
-                    disc_alternative = disc_alternative.replace('Teil 3', 'Disc 1')
-                    disc_alternative = disc_alternative.replace('Teil 1II', 'Disc 3')
-                    disc_alternative = disc_alternative.replace('Teil D', 'Disc 4')
-                    disc_alternative = disc_alternative.replace('Teil 4', 'Disc 1')
-                    disc_alternative = disc_alternative.replace('Teil 1V', 'Disc 4')
-                    disc_alternative = disc_alternative.replace('Teil E', 'Disc 5')
-                    disc_alternative = disc_alternative.replace('Teil 5', 'Disc 1')
-                    disc_alternative = disc_alternative.replace('Teil V', 'Disc 5')
-                    tag_strip_title = tag_strip_title.replace(re.findall('\(Teil [A-Z0-9]\)', tag_strip_title)[0], disc_alternative)
-                elif string == '\s?\(\d{8}\)\s?':
+                if string == '\s?\(\d{8}\)\s?':
                     # Really basic date validation
                     tag_year = re.search('\(\d{8}\)', tag_strip_title).group()[1:-5]
                     tag_month = re.search('\(\d{8}\)', tag_strip_title).group()[5:-3]
@@ -367,7 +230,7 @@ class DatNode:
         # Set regionless title with minimal tags
         if re.findall(' \(' + region + '.*?\)', full_title) != []:
             remove_region = tag_strip_title.replace(re.findall(' \(' + region + '.*?\)', tag_strip_title)[0],'')
-            remove_languages = re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv|Th|Zh)\.*?)(,.*?\)|\)))', remove_region)
+            remove_languages = re.findall('( (\((En|Ar|Bg|Cs|Da|De|Es|Fi|Fr|Gr|He|Hu|It|Ja|Ko|Nl|No|Pl|Pt|Ro|Ru|Sv|Th|Tr|Zh)\.*?)(,.*?\)|\)))', remove_region)
             if len(remove_languages) > 0:
                 try:
                     self.rf_tag_strip_title = remove_region.replace(remove_languages[0][0], '')
@@ -688,38 +551,31 @@ def localized_titles(region, native, soup, user_input):
 
 # Removes dupes that are the same title, but support different languages
 def remove_by_language(language, subtitle1, subtitle2, title, regional_titles_data, remove_list, user_input):
-    if user_input.log == True: print('--------\nREF #000: Testing if the following titles support ' + language + ':\n' + subtitle1 + '\n' + subtitle2 + '\n')
     # If there's a title from Europe that has unspecified languages, or languages without English, take the unspecified version
     if 'Europe' in subtitle1.regions and 'Europe' in subtitle2.regions and subtitle1.languages == '' and subtitle2.languages != '' and 'En' not in subtitle2.languages:
         if subtitle2 in regional_titles_data[title]:
             remove_list.append(subtitle2)
-            if user_input.log == True: print('--------\nREF #001: Kept ' + subtitle1 + ', removed ' + subtitle2)
         return
     elif 'Europe' in subtitle1.regions and 'Europe' in subtitle2.regions and subtitle2.languages == '' and subtitle1.languages != '' and 'En' not in subtitle1.languages:
         if subtitle1 in regional_titles_data[title]:
             remove_list.append(subtitle1)
-            if user_input.log == True: print('--------\nREF #002: Kept ' + subtitle2 + ', removed ' + subtitle1)
         return
     # Otherwise take the title that has the language we're looking for
     if language != []:
         if re.search('\(.*' + language[0] + '.*\)', subtitle1.full_title) != None and re.search('\(.*' + language[0] + '.*\)', subtitle2.full_title) == None:
             if subtitle2 in regional_titles_data[title]:
                 remove_list.append(subtitle2)
-                if user_input.log == True: print('--------\nREF #003: Kept ' + subtitle1 + ', removed ' + subtitle2)
         elif re.search('\(.*' + language[0] + '.*\)', subtitle1.full_title) == None and re.search('\(.*' + language[0] + '.*\)', subtitle2.full_title) != None:
             if subtitle1 in regional_titles_data[title]:
                 remove_list.append(subtitle1)
-                if user_input.log == True: print('--------\nREF #004: Kept ' + subtitle2 + ', removed ' + subtitle1)
         # If both titles support the selected language, but are different lengths, take the one that supports more langauges
         elif re.search('\(.*' + language[0] + '.*\)', subtitle1.full_title) != None and re.search('\(.*' + language[0] + '.*\)', subtitle2.full_title) != None:
             if len(subtitle1.full_title) > len(subtitle2.full_title):
                 if subtitle2 in regional_titles_data[title]:
                     remove_list.append(subtitle2)
-                    if user_input.log == True: print('--------\nREF #005: Kept ' + subtitle1 + ', removed ' + subtitle2)
             elif len(subtitle1.full_title) < len(subtitle2.full_title):
                 if subtitle1 in regional_titles_data[title]:
                     remove_list.append(subtitle1)
-                    if user_input.log == True: print('--------\nREF #006: Kept ' + subtitle2 + ', removed ' + subtitle1)
             else:
                 language.pop(0)
                 remove_by_language(language, subtitle1, subtitle2, title, regional_titles_data, remove_list, user_input)
@@ -731,13 +587,11 @@ def parent_compare_more(test1, test2, parent_list, already_tested, x, y, user_in
     if test1 > test2:
         if y in parent_list:
             del parent_list[y]
-            if user_input.log == True: print('--------\nREF #007: Kept ' + x.full_title + ', removed ' + y.full_title)
         already_tested.append(y.full_title)
         return True
     elif test2 > test1:
         if x in parent_list:
             del parent_list[x]
-            if user_input.log == True: print('--------\nREF #008: Kept ' + y.full_title + ', removed ' + x.full_title)
         already_tested.append(x.full_title)
         return True
 
@@ -745,12 +599,10 @@ def parent_compare_bool(test1, test2, parent_list, already_tested, x, y, date, u
     if date == '':
         if test1 == True and test2 == False:
             if y in parent_list: del parent_list[y]
-            if user_input.log == True: print('--------\nREF #009: Kept ' + x.full_title + ', removed ' + y.full_title)
             already_tested.append(y.full_title)
             return True
         elif test2 == True and test1 == False:
             if x in parent_list: del parent_list[x]
-            if user_input.log == True: print('--------\nREF #010: Kept ' + y.full_title + ', removed ' + x.full_title)
             already_tested.append(x.full_title)
             return True
     elif date == 'date':
@@ -768,14 +620,12 @@ def parent_compare_bool(test1, test2, parent_list, already_tested, x, y, date, u
                 if int(clone_year_x) > 1970 and int(clone_month_x) >= 1 and int(clone_month_x) < 13 and int(clone_day_x) >= 1 and int(clone_day_x) < 32:
                     if x in parent_list:
                         del parent_list[x]
-                        if user_input.log == True: print('--------\nREF #011: Kept ' + y.full_title + ', removed ' + x.full_title)
                     already_tested.append(x.full_title)
                     return True
             elif test1 == False and test2 == True:
                 if int(clone_year_y) > 1970 and int(clone_month_y) >= 1 and int(clone_month_y) < 13 and int(clone_day_y) >= 1 and int(clone_day_y) < 32:
                     if y in parent_list:
                         del parent_list[y]
-                        if user_input.log == True: print('--------\nREF #012: Kept ' + x.full_title + ', removed ' + y.full_title)
                     already_tested.append(y.full_title)
                     return True
             elif test1 == True and test2 == True:
@@ -783,14 +633,12 @@ def parent_compare_bool(test1, test2, parent_list, already_tested, x, y, date, u
                     if int(clone_year_x + clone_month_x + clone_day_x) > int(clone_year_y + clone_month_y + clone_day_y):
                         if y in parent_list:
                             del parent_list[y]
-                            if user_input.log == True: print('--------\nREF #021: Kept ' + x.full_title + ', removed ' + y.full_title)
                     else:
                         if x in parent_list:
                             del parent_list[x]
-                            if user_input.log == True: print('--------\nREF #022: Kept ' + y.full_title + ', removed ' + x.full_title)
 
 # Finds unique titles in regions, removes dupes
-def localized_titles_unique(region, region_list_english, region_list_other, titles, unique_list, unique_regional_titles, dupe_list, comp_list, comp_found, user_input, global_parent_list, tag_strings, all_titles_data):
+def localized_titles_unique(region, region_list_english, region_list_order, titles, unique_list, unique_regional_titles, dupe_list, comp_list, comp_found, user_input, global_parent_list, tag_strings, promote_strings, demote_strings, disc_rename, all_titles_data):
     already_tested = []
     regional_titles = []
     regional_titles_data = {}
@@ -844,10 +692,10 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
 
         # If the title doesn't already exist, add it to the regional_titles_data dictionary as a one entry list
         if regional_titles_data.get(raw_title, -1) == -1:
-            regional_titles_data[raw_title] = [DatNode(str(title.category.parent['name']), region, title.category.contents[0], title.description.contents[0], newroms, 'None', tag_strings)]
+            regional_titles_data[raw_title] = [DatNode(str(title.category.parent['name']), region, title.category.contents[0], title.description.contents[0], newroms, 'None', tag_strings, promote_strings, demote_strings, disc_rename)]
         # Otherwise there must be multiple discs or revisions present, so append the title to the existing list
         else:
-            regional_titles_data[raw_title].append(DatNode(str(title.category.parent['name']), region, title.category.contents[0], title.description.contents[0], newroms, 'None', tag_strings))
+            regional_titles_data[raw_title].append(DatNode(str(title.category.parent['name']), region, title.category.contents[0], title.description.contents[0], newroms, 'None', tag_strings, promote_strings, demote_strings, disc_rename))
 
     # Find the uniques
     unique_regional_list = [x for x in regional_titles]
@@ -892,6 +740,14 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
                 if y.regionless_title == x.rf_tag_strip_title + hibaihin_string[0] or y.regionless_title.replace(hibaihin_string[0],'') == x.rf_tag_strip_title.replace(' (Rerelease)', ''):
                     remove_list.append(y)
 
+            # Deal with PlayStation EDC titles
+            if '(EDC)' in x.full_title and '(EDC)' not in y.full_title:
+                if y in regional_titles_data[title]:
+                    remove_list.append(y)
+            elif '(EDC)' in y.full_title and '(EDC)' not in x.full_title:
+                if x in regional_titles_data[title]:
+                    remove_list.append(x)
+
             # Add titles that have dupes with additional regions or languages to the remove list
             if x.regionless_title == y.regionless_title and x.full_title != y.full_title:
                 # First, if we're in a native English region, take the longest title
@@ -905,7 +761,7 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
                         if x in regional_titles_data[title]: remove_list.append(x)
                 # Now process the other regions
                 else:
-                    remove_by_language(['En', 'Es', 'Pt', 'Fr', 'Ja', 'De', 'It', 'Sv', 'Da', 'No', 'Pl', 'Gr', 'Nl', 'Fi', 'Ch', 'Hr', 'Ru'], x, y, title, regional_titles_data, remove_list, user_input)
+                    remove_by_language(['En', 'Es', 'Pt', 'Fr', 'Ja', 'De', 'It', 'Sv', 'Da', 'No', 'Pl', 'Gr', 'Nl', 'Fi', 'Cs', 'Hu', 'Ru'], x, y, title, regional_titles_data, remove_list, user_input)
 
         # Dedupe remove_list
         remove_list_temp = []
@@ -964,7 +820,7 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
                 # with English. If more than one has English, take the one with the most languages
                 for x, y in itertools.combinations(ver_title_keep_temp, 2):
                     x2 = x.replace(re.findall(' \(' + region + '.*?\)', x)[0],'')
-                    remove_languages = re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv|Th|Zh)\.*?)(,.*?\)|\)))', x)
+                    remove_languages = re.findall('( (\((En|Ar|Bg|Cs|Da|De|Es|Fi|Fr|Gr|He|Hu|It|Ja|Ko|Nl|No|Pl|Pt|Ro|Ru|Sv|Th|Tr|Zh)\.*?)(,.*?\)|\)))', x)
                     if len(remove_languages) > 0:
                         try:
                             x2 = x.replace(remove_languages[0][0], '')
@@ -972,7 +828,7 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
                             pass
 
                     y2 = y.replace(re.findall(' \(' + region + '.*?\)', y)[0],'')
-                    remove_languages = re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv|Th|Zh)\.*?)(,.*?\)|\)))', y)
+                    remove_languages = re.findall('( (\((En|Ar|Bg|Cs|Da|De|Es|Fi|Fr|Gr|He|Hu|It|Ja|Ko|Nl|No|Pl|Pt|Ro|Ru|Sv|Th|Tr|Zh)\.*?)(,.*?\)|\)))', y)
                     if len(remove_languages) > 0:
                         try:
                             y2 = y.replace(remove_languages[0][0], '')
@@ -990,12 +846,12 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
                                 if actual_highest != y:
                                     ver_title_keep.pop(ver_title_keep.index(actual_highest))
                                     ver_title_delete.append(actual_highest)
-                        elif len(re.findall(',', str(re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv|Th|Zh)\.*?)(,.*?\)|\)))', x)))) > len(re.findall(',', str(re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv|Th|Zh)\.*?)(,.*?\)|\)))', y)))):
+                        elif len(re.findall(',', str(re.findall('( (\((En|Ar|Bg|Cs|Da|De|Es|Fi|Fr|Gr|He|Hu|It|Ja|Ko|Nl|No|Pl|Pt|Ro|Ru|Sv|Th|Tr|Zh)\.*?)(,.*?\)|\)))', x)))) > len(re.findall(',', str(re.findall('( (\((En|Ar|Bg|Cs|Da|De|Es|Fi|Fr|Gr|He|Hu|It|Ja|Ko|Nl|No|Pl|Pt|Ro|Ru|Sv|Th|Tr|Zh)\.*?)(,.*?\)|\)))', y)))):
                             for actual_highest in ver_title_keep:
                                 if actual_highest != x:
                                     ver_title_keep.pop(ver_title_keep.index(actual_highest))
                                     ver_title_delete.append(actual_highest)
-                        elif len(re.findall(',', str(re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv|Th|Zh)\.*?)(,.*?\)|\)))', y)))) > len(re.findall(',', str(re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv|Th|Zh)\.*?)(,.*?\)|\)))', x)))):
+                        elif len(re.findall(',', str(re.findall('( (\((En|Ar|Bg|Cs|Da|De|Es|Fi|Fr|Gr|He|Hu|It|Ja|Ko|Nl|No|Pl|Pt|Ro|Ru|Sv|Th|Tr|Zh)\.*?)(,.*?\)|\)))', y)))) > len(re.findall(',', str(re.findall('( (\((En|Ar|Bg|Cs|Da|De|Es|Fi|Fr|Gr|He|Hu|It|Ja|Ko|Nl|No|Pl|Pt|Ro|Ru|Sv|Th|Tr|Zh)\.*?)(,.*?\)|\)))', x)))):
                             for actual_highest in ver_title_keep:
                                 if actual_highest != y:
                                     ver_title_keep.pop(ver_title_keep.index(actual_highest))
@@ -1120,14 +976,10 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
                             test = parent_compare_bool(bool('(Covermount)' in y.full_title), bool('(Covermount)' in x.full_title), parent_list, already_tested, x, y, '', user_input)
                             if test == True: continue
 
-                            # Else if one has an updated "budget" title, take that, because it probably contains the latest version of the game
-                            test = parent_compare_bool(bool('(Hit Squad)' in x.full_title), bool('(Hit Squad)' in y.full_title), parent_list, already_tested, x, y, '', user_input)
-                            test = parent_compare_bool(bool('(Hit Squad - Regenerator)' in x.full_title), bool('(Hit Squad - Regenerator)' in y.full_title), parent_list, already_tested, x, y, '', user_input)
-                            test = parent_compare_bool(bool('(PlayStation the Best)' in x.full_title), bool('(PlayStation the Best)' in y.full_title), parent_list, already_tested, x, y, '', user_input)
-                            test = parent_compare_bool(bool('(PlayStation 2 the Best)' in x.full_title), bool('(PlayStation 2 the Best)' in y.full_title), parent_list, already_tested, x, y, '', user_input)
-                            test = parent_compare_bool(bool('(PlayStation 3 the Best)' in x.full_title), bool('(PlayStation 3 the Best)' in y.full_title), parent_list, already_tested, x, y, '', user_input)
-                            test = parent_compare_bool(bool('(Best of the Best)' in x.full_title), bool('(Best of the Best)' in y.full_title), parent_list, already_tested, x, y, '', user_input)
-                            test = parent_compare_bool(bool('(Best Hit Selection)' in x.full_title), bool('(Best Hit Selection)' in y.full_title), parent_list, already_tested, x, y, '', user_input)
+                            # Promote titles with these publisher tags to parents, if another title exists without the tag
+                            for z in promote_strings:
+                                test = parent_compare_bool(bool(re.search(z, x.full_title)), bool(re.search(z, y.full_title)), parent_list, already_tested, x, y, '', user_input)
+                            if test == True: continue
 
                             # Else if one title has more regions than the other, take it.
                             test = parent_compare_more(len(re.findall(',', re.findall('\(.*?' + region + '.*?\)', x.full_title)[0])), len(re.findall(',', re.findall('\(.*?' + region + '.*?\)', y.full_title)[0])), parent_list, already_tested, x, y, user_input)
@@ -1138,19 +990,16 @@ def localized_titles_unique(region, region_list_english, region_list_other, titl
                             if test == True: continue
 
                             # Else if one has more languages than the other, take it
-                            test = parent_compare_more(len(re.findall(',', str(re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv|Th|Zh)\.*?)(,.*?\)|\)))', x.tag_strip_title)))), len(re.findall(',', str(re.findall('( (\((En|Ar|At|Be|Ch|Da|De|Es|Fi|Fr|Gr|Hr|It|Ja|Ko|Nl|No|Pl|Pt|Ru|Sv|Th|Zh)\.*?)(,.*?\)|\)))', y.tag_strip_title)))), parent_list, already_tested, x, y, user_input)
+                            test = parent_compare_more(len(re.findall(',', str(re.findall('( (\((En|Ar|Bg|Cs|Da|De|Es|Fi|Fr|Gr|He|Hu|It|Ja|Ko|Nl|No|Pl|Pt|Ro|Ru|Sv|Th|Tr|Zh)\.*?)(,.*?\)|\)))', x.tag_strip_title)))), len(re.findall(',', str(re.findall('( (\((En|Ar|Bg|Cs|Da|De|Es|Fi|Fr|Gr|He|Hu|It|Ja|Ko|Nl|No|Pl|Pt|Ro|Ru|Sv|Th|Tr|Zh)\.*?)(,.*?\)|\)))', y.tag_strip_title)))), parent_list, already_tested, x, y, user_input)
                             if test == True: continue
 
                             # Else if one has a rerelease tag, take the one that doesn't
                             test = parent_compare_bool(bool('(Rerelease)' in y.full_title), bool('(Rerelease)' in x.full_title), parent_list, already_tested, x, y, '', user_input)
                             if test == True: continue
 
-                            # Else if one has a distributor tag, take the one that doesn't
-                            test = parent_compare_bool(bool('(Major Wave)' in y.full_title), bool('(Major Wave)' in x.full_title), parent_list, already_tested, x, y, '', user_input)
-                            test = parent_compare_bool(bool('(Scholastic)' in y.full_title), bool('(Scholastic)' in x.full_title), parent_list, already_tested, x, y, '', user_input)
-                            test = parent_compare_bool(bool('(Sold Out Extreme)' in y.full_title), bool('(Sold Out Extreme)' in x.full_title), parent_list, already_tested, x, y, '', user_input)
-                            test = parent_compare_bool(bool('(Sold Out Software)' in y.full_title), bool('(Sold Out Software)' in x.full_title), parent_list, already_tested, x, y, '', user_input)
-                            test = parent_compare_bool(bool('(Xplosiv)' in y.full_title), bool('(Xplosiv)' in x.full_title), parent_list, already_tested, x, y, '', user_input)
+                            # Demote titles with these publisher tags to clones, if another title exists without the tag
+                            for z in demote_strings:
+                                test = parent_compare_bool(bool(re.search(z, y.full_title)), bool(re.search(z, x.full_title)), parent_list, already_tested, x, y, '', user_input)
                             if test == True: continue
 
                             # Else if one has an Alt tag, take the one that doesn't
@@ -1183,7 +1032,7 @@ def merge_identical_list_items(list_dupes):
     return list_dupes
 
 # The actual file operations on the dat files
-def process_dats(user_input, tag_strings, region_list_english, region_list_other, is_folder):
+def process_dats(user_input, tag_strings, promote_strings, demote_strings, disc_rename, region_list_english, region_list_order, is_folder):
     print(textwrap.TextWrapper(width=80, subsequent_indent='  ').fill('* Reading dat file: "' + font.bold + user_input.file_input + font.end + '"'))
     try:
         with open(user_input.file_input, 'r') as input_file_read:
@@ -1294,7 +1143,9 @@ def process_dats(user_input, tag_strings, region_list_english, region_list_other
 
     # Move regions with more titles to the top for quicker processing. USA is always at [0].
     # Order mostly based on Redump's IBM dat, with Japan hoisted for other dats.
-    region_lists = region_list_english + region_list_other
+    region_lists = []
+    for x in region_list_order:
+        region_lists.append(x)
     region_lists_temp = ['Europe','Japan','Germany','Italy','Poland','Norway','China']
 
     for i, region in enumerate(region_lists_temp):
@@ -1316,8 +1167,8 @@ def process_dats(user_input, tag_strings, region_list_english, region_list_other
 
     # Finally, titles without regions
     region_list = ''
-    for i, region in enumerate(region_list_english + region_list_other):
-        if i < len(region_list_english + region_list_other) - 1:
+    for i, region in enumerate(region_list_order):
+        if i < len(region_list_order) - 1:
             region_list += region + '|'
         else:
             region_list += region
@@ -1357,14 +1208,14 @@ def process_dats(user_input, tag_strings, region_list_english, region_list_other
     global_parent_list = {}
     all_titles_data = {}
 
-    for region in region_list_english + region_list_other:
+    for region in region_list_order:
         if titles[region] != []:
             print('  * Adding parents from ' + region + '...', sep='', end='\r', flush=True)
-        unique_regional_titles[region] = localized_titles_unique(region, region_list_english, region_list_other, titles[region], unique_list, unique_regional_titles, dupe_list, comp_list, comp_found, user_input, global_parent_list, tag_strings, all_titles_data)
+        unique_regional_titles[region] = localized_titles_unique(region, region_list_english, region_list_order, titles[region], unique_list, unique_regional_titles, dupe_list, comp_list, comp_found, user_input, global_parent_list, tag_strings, promote_strings, demote_strings, disc_rename, all_titles_data)
         if titles[region] != []:
             print('  * Adding parents from ' + region + '... done.')
 
-    unique_regional_titles['Unknown'] = localized_titles_unique('Unknown', region_list_english, region_list_other, titles['Unknown'], unique_list, unique_regional_titles, dupe_list, comp_list, comp_found, user_input, global_parent_list, tag_strings, all_titles_data)
+    unique_regional_titles['Unknown'] = localized_titles_unique('Unknown', region_list_english, region_list_order, titles['Unknown'], unique_list, unique_regional_titles, dupe_list, comp_list, comp_found, user_input, global_parent_list, tag_strings, promote_strings, demote_strings, disc_rename, all_titles_data)
 
     if len(unique_regional_titles['Unknown']) > 1:
         unknown_region_title_count = len(unique_regional_titles['Unknown']['unique_titles'])
@@ -1462,7 +1313,7 @@ def process_dats(user_input, tag_strings, region_list_english, region_list_other
 
             if x.full_title != y.full_title:
                 if x.rf_tag_strip_title == y.rf_tag_strip_title:
-                    for another_region in region_list_english + region_list_other:
+                    for another_region in region_list_order:
                         if another_region in x.regions and another_region not in y.regions:
                             if y in global_parent_list:
                                 del global_parent_list[y]
@@ -1739,7 +1590,7 @@ def process_dats(user_input, tag_strings, region_list_english, region_list_other
         # Write the dat file
         file_name_title_count = {}
 
-        output_file_suffix = dat_header_exclusion + ' (' + str('{:,}'.format(new_title_count)) + ')' + dat_version_filename + ' (Retool ' +  datetime.datetime.now().strftime('%Y-%m-%d %H-%M-%S.%f')[:-3] + ')' + '.dat'
+        output_file_suffix = dat_header_exclusion + ' (' + str('{:,}'.format(new_title_count)) + ')' + dat_version_filename + ' (Retool ' +  datetime.datetime.now().strftime('%Y-%m-%d %H-%M-%SS')[:-1] + ')' + '.dat'
         dat_header = header(dat_name, dat_version, dat_author, dat_url, dat_header_exclusion, False, new_title_count, False, user_input)
 
         with open(user_input.file_output_final + output_file_suffix, 'w') as output_file:
