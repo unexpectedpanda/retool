@@ -3,7 +3,7 @@
         "name": [
 			"IBM - PC compatible"
 		],
-        "last updated": "19 Apr 2020"
+        "last updated": "28 Apr 2020"
     },
 
     "compilations": [
@@ -79,8 +79,7 @@
 
     "renames": {
         "007 - Quantum of Solace": [
-            "007 - Kvant miloserdija",
-            "007 - Quantum of Solace (Press Kit)"
+            "007 - Kvant miloserdija"
         ],
         "18 Wheels of Steel - Convoy": [
             "18 stal'nyh koles - Konvoj"
@@ -200,10 +199,10 @@
         "Amazon Trail 3rd Edition - Rainforest Adventures": [
             "Amazon Trail 3rd Edition"
         ],
-        "American Conquest - Divided Nation (Disc 1) (Installation Disc)": [
-            "American Conquest - Divided Nation (Disc 1) (Installation)"
-        ],
-        "American Conquest - Divided Nation (Disc 2) (Play Disc)": [
+        "American Conquest - Divided Nation": [
+            "American Conquest - Divided Nation (Disc 1) (Installation Disc)",
+            "American Conquest - Divided Nation (Disc 1) (Installation)",
+            "American Conquest - Divided Nation (Disc 2) (Play Disc)",
             "American Conquest - Divided Nation (Disc 2) (Game)"
         ],
         "American Conquest - Gold Edition! Collector's Series": [
@@ -484,6 +483,9 @@
             "Bionicle - Prepare for the Light (427F0B0F)",
             "Bionicle - Prepare for the Light (A2FA9D2E)"
         ],
+        "Black & White": [
+            "Hei Yu Bai"
+        ],
         "Black & White - Bonus Creatures CD": [
             "Black & White - Special Creature CD - Horse"
         ],
@@ -498,6 +500,18 @@
         ],
         "Blade of Darkness": [
             "Severance - Blade of Darkness"
+        ],
+        "Blade Runner (Disc 1)": [
+            "Yinyi Shashou (Disc 1)"
+        ],
+        "Blade Runner (Disc 2)": [
+            "Yinyi Shashou (Disc 2)"
+        ],
+        "Blade Runner (Disc 3)": [
+            "Yinyi Shashou (Disc 3)"
+        ],
+        "Blade Runner (Disc 4)": [
+            "Yinyi Shashou (Disc 4)"
         ],
         "Blair Witch Volume I - Rustin Parr": [
             "Blair Witch Czesc I - Rustin Parr"
@@ -887,6 +901,9 @@
         ],
         "Curse of Monkey Island, The (Disc 1)": [
             "Monkey Island Collection (Monkey Island 3 CD 1)"
+        ],
+        "Cutthroats": [
+            "Unter schwarzer Flagge"
         ],
         "Cyberia": [
             "Bestseller Games Gold-Edition Ausgabe 7",
@@ -1634,8 +1651,9 @@
         "Grand Theft Auto - San Andreas (49F539A0)": [
             "Grand Theft Auto - San Andreas"
         ],
-        "Grand Theft Auto - Vice City (Install)": [
-            "Grand Theft Auto - Vice City"
+        "Grand Theft Auto - Vice City": [
+            "Grand Theft Auto - Vice City (Install)",
+            "Grand Theft Auto - Vice City (Play)"
         ],
         "Grand Theft Auto 2 (The Classics Collection)": [
             "Grand Theft Auto 2"
@@ -1726,11 +1744,11 @@
             "Heroes of Might and Magic"
         ],
         "Heroes of Might and Magic II - The Succession Wars": [
+            "Mofamen Xilie Zhi Yingxiong Wudi II - Yanxu De Zhanzheng",
             "PC Player 1-2000 B"
         ],
         "Heroes of Might and Magic III - The Restoration of Erathia": [
             "Geroi mecha i magii III - Vozrozhdenie Jerafii",
-            "Heroes of Might and Magic III (Linux)",
             "Heroes of Might and Magic III"
         ],
         "Heroes of Might and Magic IV (Disc 1) (Install)": [
@@ -2177,7 +2195,10 @@
         "Lords of the Realm II": [
             "Best of Sierra Nr. 17 (Disc 1)",
             "Lords of the Realm II (29D78413)"
-		],
+        ],
+        "Lost Files of Sherlock Holmes, The - Case of the Rose Tattoo": [
+            "Ungeloesten Faelle von Sherlock Holmes, Die - Das Geheimnis der taetowierten Rose"
+        ],
         "Lost in Time": [
             "Lost in Time - Parts 1 & 2"
         ],
@@ -2445,7 +2466,6 @@
             "Myth - Kreuzzug ins Ungewisse"
         ],
         "Myth II - Soulblighter": [
-            "Myth II - Soulblighter (Linux)",
             "Play 5-2007 (Disc 3)"
         ],
         "NASCAR Racing - 2002 Season": [
@@ -2697,9 +2717,6 @@
 			"Herrscher von Atlantis - Poseidon",
 			"Signore di Atlantide, Il - Poseidon"
         ],
-        "Postal 2 - Share the Pain": [
-            "Postal 2 - Share the Pain (Linux)"
-        ],
         "Power Rangers Ninja Storm (2003)": [
             "Power Rangers Ninja Storm"
         ],
@@ -2712,8 +2729,7 @@
         "Prey": [
             "Prey (Disc 1)",
             "Prey (Disc 2)",
-            "Prey (Disc 3)",
-            "Prey (Install Disc) (Linux)"
+            "Prey (Disc 3)"
         ],
         "Prince of Persia - The Sands of Time": [
             "Prince of Persia - The Sands of Time (Disc 1)",
@@ -3310,9 +3326,6 @@
         "Sno-Cross Extreme": [
             "Komputer Swiat Gry 04-2002"
         ],
-        "Soldier of Fortune": [
-            "Soldier of Fortune (Linux)"
-        ],
         "Soldier of Fortune (Platinum Edition)": [
             "Soldier of Fortune (Special Tactical Edition)"
         ],
@@ -3530,8 +3543,11 @@
 			"Stolen (Disc 1) (Game Disc)",
 			"Stolen (Disc 2)"
 		],
-        "Stonekeep": [
-            "Bestseller Games Gold-Edition Ausgabe 15"
+        "Street Fighter Alpha 2": [
+            "Street Fighter Zero 2"
+        ],
+        "Street Racer": [
+            "Ulichnyjj gonshhik"
         ],
         "Stubbs the Zombie in Rebel Without a Pulse (Disc 1)": [
             "Stubbs the Zombie in Rebel Without a Pulse"
@@ -3604,6 +3620,7 @@
             "Thief II - The Metal Age (Disc 1) (Installation)"
         ],
         "Thief II - The Metal Age (Disc 2) (Game)": [
+            "Dark Project II - The Metal Age (Disc 2)",
             "Thief II - The Metal Age (Disc 2)"
         ],
         "Thing, The": [
@@ -3819,8 +3836,48 @@
         "USS Ticonderoga - Life and Death on the High Seas (Windows 95)": [
             "USS Ticonderoga - Life and Death on the High Seas"
         ],
+        "Ultim@te Race Pro": [
+            "Ultim@te Race"
+        ],
+        "Ultima IX - Ascension (Disc 1) (Install Disc)": [
+            "Ultima IX - Ascension (Installations-CD)"
+        ],
+        "Ultima IX - Ascension (Disc 2) (Game Disc)": [
+            "Ultima IX - Ascension (Spiel-CD)"
+        ],
+        "Ultimate RPG Archives, The (Disc 1) (Stonekeep)": [
+            "Stonekeep",
+            "Bestseller Games Gold-Edition Ausgabe 15"
+        ],
+        "Ultimate RPG Archives, The (Disc 2)": [
+            "Ultima Underworld I & II"
+        ],
+        "Ultimate RPG Archives, The (Disc 3)": [
+            "Might and Magic - World of Xeen (Disc 1)"
+        ],
+        "Ultimate RPG Archives, The (Disc 4)": [
+            "Might and Magic - World of Xeen (Disc 2)"
+        ],
+        "Ultimate RPG Archives, The (Disc 5)": [
+            "Wizardry Gold"
+        ],
         "Ultimate Soccer Manager 98-99 Season Edition": [
             "DSF Fussball Manager '98"
+        ],
+        "Ultimate Spider-Man": [
+            "Ultimate Spider-Man (Disc 1)",
+            "Ultimate Spider-Man (Disc 2)",
+            "Ultimate Spider-Man (Disc 3)"
+        ],
+        "Umineko When They Cry - Answer Arcs": [
+            "Umineko no Naku Koro ni Tiru - Dai 5 Wa",
+            "Umineko no Naku Koro ni Tiru - Dai 6 Wa",
+            "Umineko no Naku Koro ni Tiru - Dai 7 Wa"
+        ],
+        "Umineko When They Cry - Question Arcs": [
+            "Umineko no Naku Koro ni - Dai 1 Wa",
+            "Umineko no Naku Koro ni - Dai 2 Wa",
+            "Umineko no Naku Koro ni - Dai 3 Wa"
         ],
         "Unreal": [
             "Bravo ScreenFun 4-2003",
@@ -3835,11 +3892,17 @@
         "Unreal II - The Awakening (Play Disc) (Special Edition)": [
             "Unreal II - The Awakening (Disc 3) (Play Disc)"
         ],
+        "Unreal Tournament (Disc 1)": [
+            "Unreal Tournament"
+        ],
         "Unreal Tournament (Disc 1) (Game of the Year Edition)": [
             "Unreal Tournament (Disc 1) (Game) (Game of the Year Edition)"
         ],
         "Unreal Tournament (Disc 2) (Game of the Year Edition)": [
             "Unreal Tournament (Disc 2) (Extras) (Game of the Year Edition)"
+        ],
+        "Unreal Tournament 2003 (Disc 1)": [
+            "Unreal Tournament 2003 (Disc 1) (Play Disc)"
         ],
         "Unreal Tournament 2004 (Play Disc) (DVD)": [
             "Unreal Tournament 2004 (Disc 1) (Install Disc)",
@@ -3867,6 +3930,10 @@
         "Urban Chaos": [
             "Click! 08-2004 (Disc 1)"
         ],
+        "Uru - Complete Chronicles": [
+            "Uru - Ages Beyond Myst",
+            "Uru - The Path of the Shell"
+        ],
         "Veil of Darkness": [
             "PC Games CD ROM 1-96"
         ],
@@ -3876,6 +3943,10 @@
         "Virtua Fighter 2 (Direct3D)": [
             "Action Plus 10-2001 (43)",
             "Virtua Fighter 2"
+        ],
+        "Vivisector - Beast Within": [
+            "Vivisector - Beast Within (Disc 1)",
+            "Vivisector - Beast Within (Disc 2)"
         ],
         "WarCraft - Orcs & Humans": [
             "Bestseller Games Ausgabe 17"
@@ -4185,6 +4256,13 @@
             "Disciples II - Kanun Ragnareka (Disc 1)",
             "Disciples II - Kanun Ragnareka (Disc 2)"
         ],
+        "Doom - Collector's Edition (Disc 1) (The Ultimate Doom Trilogy)": [
+            "Doom - Collector's Edition",
+            "Doom II",
+            "Doom II (Gravis OEM)",
+            "Final Doom",
+            "Ultimate Doom, The"
+        ],
         "Dragon Age - Origins (Disc 1) (Ultimate Edition)": [
             "Dragon Age - Origins - Awakening",
             "Dragon Age - Origins"
@@ -4393,11 +4471,11 @@
             "Heroes of Might and Magic Compendium (Disc 1)",
             "Heroes of Might and Magic II - The Price of Loyalty",
             "Heroes of Might and Magic II - The Succession Wars",
-            "Heroes of Might and Magic III (Linux)",
             "Heroes of Might and Magic III - Armageddon's Blade",
             "Heroes of Might and Magic III - The Restoration of Erathia",
             "Heroes of Might and Magic III",
-            "Heroes of Might and Magic"
+            "Heroes of Might and Magic",
+            "Mofamen Xilie Zhi Yingxiong Wudi II - Yanxu De Zhanzheng"
         ],
         "Heroes of Might and Magic IV Complete": [
             "Heroes of Might and Magic IV (Disc 1) (Install)",
@@ -4522,7 +4600,6 @@
             "Magic Carpet"
         ],
         "Majesty - The Fantasy Kingdom Sim (Gold Edition)": [
-            "Majesty - The Fantasy Kingdom Sim (Linux)",
             "Majesty - The Fantasy Kingdom Sim"
         ],
         "Mario Is Missing! CD-ROM Deluxe": [
@@ -4693,7 +4770,6 @@
             "Postal - Classic and Uncut",
             "Postal - Special Delivery",
             "Postal 2 - Apocalypse Weekend",
-            "Postal 2 - Share the Pain (Linux)",
             "Postal 2 - Share the Pain - Combo",
             "Postal 2 - Share the Pain",
             "Postal 2",
@@ -4966,7 +5042,7 @@
             "Bestseller Games Ausgabe 14",
             "SimCity Classic"
         ],
-        "Sims 2, The - Double Deluxe (USA)": [
+        "Sims 2, The - Double Deluxe": [
             "Sims 2, Die - Deluxe",
             "Sims 2, The",
             "Sims 2, The (Bonus DVD)",
@@ -5017,7 +5093,6 @@
         ],
         "Soldier of Fortune (Platinum Edition)": [
             "Soldier of Fortune",
-            "Soldier of Fortune (Linux)",
             "Soldier of Fortune (Gold Edition)",
             "Soldier of Fortune (Special Tactical Edition)"
         ],
@@ -5059,9 +5134,9 @@
         ],
         "Star Wars - Empire at War - Gold Pack": [
             "Star Wars - Empire at War",
-            "Star Wars - Empire at War (USA) (Bonus Disc)",
-            "Star Wars - Empire at War (USA) (Disc 1)",
-            "Star Wars - Empire at War (USA) (Disc 2)",
+            "Star Wars - Empire at War (Bonus Disc)",
+            "Star Wars - Empire at War (Disc 1)",
+            "Star Wars - Empire at War (Disc 2)",
             "Star Wars - Empire at War - Forces of Corruption",
             "Star Wars - Empire at War - Forces of Corruption (Disc 1)",
             "Star Wars - Empire at War - Forces of Corruption (Disc 2)"
@@ -5165,6 +5240,12 @@
             "PC Games July-August 1997",
             "Ultima VIII - Pagan"
         ],
+        "Ultimate Ride Coaster Deluxe": [
+            "Ultimate Ride"
+        ],
+        "Ultimate Wizardry Archives, The": [
+            "Wizardry - Crusaders of the Dark Savant"
+        ],
         "Unreal Anthology": [
             "Unreal (3Dfx OEM)",
             "Unreal Gold",
@@ -5183,7 +5264,7 @@
             "Unreal Tournament (Disc 2) (Extras) (Game of the Year Edition)",
             "Unreal Tournament (Disc 2) (Extras)",
             "Unreal Tournament (Disc 2) (Game of the Year Edition)",
-            "Unreal Tournament (OEM)",
+            "Unreal Tournament",
             "Unreal Tournament 2003 (Disc 1) (Play Disc) (Rerelease)",
             "Unreal Tournament 2003 (Disc 1)",
             "Unreal Tournament 2003 (Disc 2)",
