@@ -3,7 +3,7 @@
         "name": [
             "Sega - Saturn"
         ],
-        "last updated": "23 Mar 2020"
+        "last updated": "27 Apr 2020"
     },
 
     "compilations": [
@@ -177,6 +177,9 @@
 		"Doom": [
 			"Doom (R)"
 		],
+		"Doukoku Soshite... (2M)": [
+			"Doukoku Soshite... (1M)"
+		],
 		"Dragon Ball Z - Idainaru Dragon Ball Densetsu": [
 			"Dragon Ball Z - La Grande Legende des Boules de Cristal"
 		],
@@ -349,10 +352,10 @@
 		"Keio Flying Squadron 2": [
 			"Keiou Yuugekitai - Katsugeki-hen"
 		],
-		"King of Fighters '95, The (3M)": [
+		"King of Fighters '95, The": [
+			"King of Fighters '95, The (3M)",
 			"King of Fighters '95, The (2M)",
-			"King of Fighters '95, The (1M)",
-			"King of Fighters '95, The"
+			"King of Fighters '95, The (1M)"
 		],
 		"King of Fighters '96, The (4M, 5M)": [
 			"King of Fighters '96, The (1M)"
