@@ -69,7 +69,7 @@ languages -- you must also set a region order.
 
 * `-o <output folder>` Set an output folder
 * `-x` Export dat in legacy parent/clone format
-  (for use with Clonerel, [not dat managers](/unexpectedpanda/retool/wiki/Usage-and-options#export-in-legacy-parentclone-dat-form))
+  (for use with Clonerel, [not dat managers](https://github.com/unexpectedpanda/retool/wiki/Usage-and-options#export-in-legacy-parentclone-dat-form))
 * `-v` Verbose mode: report clone list errors
 * `-l` Filter languages using a list (see `user-config.yaml`)
 * `-g` Enable most filters (-a -b -c -d -e -m -p -s)
