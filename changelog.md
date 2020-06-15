@@ -1,11 +1,90 @@
+# 0.70.0
+Oof, this is a big update, with feature and performance improvements all over
+the place.
+
+### Code readability and performance
+Retool has been largely rewritten for readability, performance, security, and
+to make forward momentum easier. This means a few breaking changes:
+
+  - A new format for clone lists, so you need to update them. Retool is now
+    better at automatically detecting different types of clones, so some titles
+    no longer need to be listed in the clone lists.
+  - The selected 1G1R titles might change compared to previous versions of
+    Retool, after a major audit of clone lists, tags, and increases in parent
+    detection accuracy.
+  - Retool no longer exports parent/clone dats by default. Turns out the format
+    can't really do the job properly, as it has no concept of priority within
+    individual regions. As such, using dat managers like CLRMAMEPro or
+    Romcenter to manage 1G1R can lead to unexpected outcomes. Instead, you now
+    use Retool to produce the 1G1R dat you want, and only use the dat manager
+    to manage your files. As a bonus, Retool's exported 1G1R dat can now be
+    used by other dat managers that don't support parent/clone, like Romvault.
+  - Retool now has a minimum requirement of Python 3.8.
+
+Processing dats is now also much faster as a result of better coding practices.
+While this is nice for all dats, you'll mostly feel it on the big ones.
+The PlayStation and IBM dats, for example, are now 2x faster.
+
+### Custom region orders, filter by language
+Custom region orders are now supported &mdash; even for supersets. You can
+also filter by languages. Make your choices by editing the `region order` and
+`filter languages` sections in `user-config.yaml`. You can use the `-l` option
+to filter by language, or leave it off to include all languages.
+
+As a consequence of this, clone lists require a new format, which includes the
+individual priority of titles. [Read more in the wiki]()
+
+### Other language and region stuff
+Retool's a lot smarter with languages now.
+
+For a start, implied languages are now enabled for most regions, and
+language data for titles has been scraped from Redump's site. Redump doesn't
+always include language data in the filename of their titles, so this is of
+huge benefit to be able to more accurately select parent titles. For example,
+say your region priority is USA, Europe. The USA title has CDs, but the
+European title has a DVD version that we now know for sure supports English.
+Retool can now choose the European DVD version over the USA CD version,
+depending on how clone lists are set up.
+
+The following has also changed:
+
+- A bunch of languages (`Af`, `Ca`, `Gd`, `Hr`, `Pa`, `Sk`, `Sl`, `Ta`) have been added.
+- Slovenia has been added as a region.
+- The incorrect `Gr` language code has been changed to `El`. Sorry Greece.
+- Multi-region titles are now handled more elegantly.
+- Fixed tags with regions in them causing a title to be filtered into the wrong
+  region. For example, _Virtua Fighter 2 (Europe) (Rev A) (Made in USA)_ used
+  to be categorized as a USA title.
+
+### Other updates
+- You can now exclude unlicensed titles.
+- Sega ring codes are now mostly handled automatically for assigning clones.
+  This has greatly reduced the size of some clone lists.
+- Retool can now deal with "cloneof" tags in input dats, as Redump has started
+  adding a few.
+- Retool now handles Genteiban, Fukyuuban, and many other editions automatically.
+- If the user specifies an output folder that doesn't exist, that folder is now
+  created.
+- Fixed problems that previously required overrides in clone lists.
+- Added basic failure states for not finding required data in JSON config
+  files.
+- Dat header details are now escaped for valid XML, and XML file error handling
+  is now better.
+- A bug in CLRMAMEPro dat conversions has been fixed.
+- Dat file output is now human-ordered.
+- The decision to include the version of a title on the newest operating
+  system has been reversed. For the sake of compatibility, if there are
+  multiple OS versions for a title, all are included.
+- The decision to not include fighting games in the supersets option has
+  been reversed.
+
 # 0.60
 - Removed pointless milliseconds from output file name.
 - Added "Scholastic" to the publisher/distributor list.
 - Added more disc synonyms.
 - Automated handling PlayStation EDC titles.
-- Language codes changed. `Ch` > `Cs`, `Hr` > `Hu`.
-- Language codes removed: `At`, `Be`.
-- Languages codes added: `Bg`, `He`, `Ro`, `Tr`.
+- Language codes removed: `At`, `Be`, `Ch`, `Hr`.
+- Languages codes added: `Bg`, `Cs`, `He`, `Ro`, `Tr`.
 - Region added: Bulgaria, Romania. There are no games yet from these regions,
   but there are games with their languages.
 - Extracted configuration data from the main Python script, and moved it into
