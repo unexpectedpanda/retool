@@ -2,7 +2,7 @@
 <!DOCTYPE datafile PUBLIC "-//Logiqx//DTD ROM Management Datafile//EN" "http://www.logiqx.com/Dats/datafile.dtd">
 <datafile>
 	<header>
-		<name>TEST FILE</name>
+		<name>IBM - PC compatible</name>
 		<description>TEST FILE</description>
 		<version>2019-11-01 23-26-07</version>
 		<date>2019-11-01 23-26-07</date>
@@ -10,9 +10,93 @@
 		<homepage>redump.org</homepage>
 		<url>http://redump.org/</url>
 	</header>
-		<game name="Myst (USA) (v1.3) (Rev 1) (Alt 2)">
+	<game name="Pick the promoted edition (USA) (Sold Out Software)">
+		<category>Games</category>
+		<description>Pick the promoted edition (USA) (Sold Out Software)</description>
+		<rom name="Myst (USA) (v1.3) (Rev 1) (Alt 2).cue" size="99" crc="b7dc0eeb" md5="f155cb880e4b513594f985793995a2fd" sha1="05786c048522f383e913571b6a19bd0a6a3f049a"/>
+		<rom name="Myst (USA) (v1.3) (Rev 1) (Alt 2).bin" size="774725280" crc="6694bb8c" md5="aa5648939dcc489341e816216c8f9cea" sha1="1d0337a264adc1d7871fa125417b12d8005149ee"/>
+	</game>
+	<game name="Pick the promoted edition (USA)">
+		<category>Games</category>
+		<description>Pick the promoted edition (USA)</description>
+		<rom name="Myst (USA) (v1.3) (Rev 1) (Alt 2).cue" size="99" crc="b7dc0eeb" md5="f155cb880e4b513594f985793995a2fd" sha1="05786c048522f383e913571b6a19bd0a6a3f049a"/>
+		<rom name="Myst (USA) (v1.3) (Rev 1) (Alt 2).bin" size="774725280" crc="6694bb8c" md5="aa5648939dcc489341e816216c8f9cea" sha1="1d0337a264adc1d7871fa125417b12d8005149ee"/>
+	</game>
+	<game name="Don't pick the demoted edition (USA)">
+		<category>Games</category>
+		<description>Don't pick the demoted edition (USA)</description>
+		<rom name="Myst (USA) (v1.3) (Rev 1) (Alt 2).cue" size="99" crc="b7dc0eeb" md5="f155cb880e4b513594f985793995a2fd" sha1="05786c048522f383e913571b6a19bd0a6a3f049a"/>
+		<rom name="Myst (USA) (v1.3) (Rev 1) (Alt 2).bin" size="774725280" crc="6694bb8c" md5="aa5648939dcc489341e816216c8f9cea" sha1="1d0337a264adc1d7871fa125417b12d8005149ee"/>
+	</game>
+	<game name="Don't pick the demoted edition (USA) (Genteiban)">
+		<category>Games</category>
+		<description>Don't pick the demoted edition (USA) (Genteiban)</description>
+		<rom name="Myst (USA) (v1.3) (Rev 1) (Alt 2).cue" size="99" crc="b7dc0eeb" md5="f155cb880e4b513594f985793995a2fd" sha1="05786c048522f383e913571b6a19bd0a6a3f049a"/>
+		<rom name="Myst (USA) (v1.3) (Rev 1) (Alt 2).bin" size="774725280" crc="6694bb8c" md5="aa5648939dcc489341e816216c8f9cea" sha1="1d0337a264adc1d7871fa125417b12d8005149ee"/>
+	</game>
+	<game name="Pick the highest date (USA) (20180101)">
+		<category>Games</category>
+		<description>Pick the highest date (USA) (20180101)</description>
+		<rom name="Myst (USA) (v1.3) (Rev 1) (Alt 2).cue" size="99" crc="b7dc0eeb" md5="f155cb880e4b513594f985793995a2fd" sha1="05786c048522f383e913571b6a19bd0a6a3f049a"/>
+		<rom name="Myst (USA) (v1.3) (Rev 1) (Alt 2).bin" size="774725280" crc="6694bb8c" md5="aa5648939dcc489341e816216c8f9cea" sha1="1d0337a264adc1d7871fa125417b12d8005149ee"/>
+	</game>
+	<game name="Pick the highest date (USA) (20190201)">
+		<category>Games</category>
+		<description>Pick the highest date (USA) (20190201)</description>
+		<rom name="Myst (USA) (v1.3) (Rev 1) (Alt 2).cue" size="99" crc="b7dc0eeb" md5="f155cb880e4b513594f985793995a2fd" sha1="05786c048522f383e913571b6a19bd0a6a3f049a"/>
+		<rom name="Myst (USA) (v1.3) (Rev 1) (Alt 2).bin" size="774725280" crc="6694bb8c" md5="aa5648939dcc489341e816216c8f9cea" sha1="1d0337a264adc1d7871fa125417b12d8005149ee"/>
+	</game>
+	<game name="Ignore region in title (Europe) (Made in USA)">
+		<category>Games</category>
+		<description>Region in title (Europe) (Made in USA)</description>
+		<rom name="Myst (USA) (v1.3) (Rev 1) (Alt 2).cue" size="99" crc="b7dc0eeb" md5="f155cb880e4b513594f985793995a2fd" sha1="05786c048522f383e913571b6a19bd0a6a3f049a"/>
+		<rom name="Myst (USA) (v1.3) (Rev 1) (Alt 2).bin" size="774725280" crc="6694bb8c" md5="aa5648939dcc489341e816216c8f9cea" sha1="1d0337a264adc1d7871fa125417b12d8005149ee"/>
+	</game>
+	<game name="Ignore region in title (USA) (Europe edition)">
+		<category>Games</category>
+		<description>Ignore region in title (USA) (Europe edition)</description>
+		<rom name="Myst (USA) (v1.3) (Rev 1) (Alt 2).cue" size="99" crc="b7dc0eeb" md5="f155cb880e4b513594f985793995a2fd" sha1="05786c048522f383e913571b6a19bd0a6a3f049a"/>
+		<rom name="Myst (USA) (v1.3) (Rev 1) (Alt 2).bin" size="774725280" crc="6694bb8c" md5="aa5648939dcc489341e816216c8f9cea" sha1="1d0337a264adc1d7871fa125417b12d8005149ee"/>
+	</game>
+	<game name="Myst (USA) (v1.3) (Rev 1) (Alt 2)">
 		<category>Games</category>
 		<description>Myst (USA) (v1.3) (Rev 1) (Alt 2)</description>
+		<rom name="Myst (USA) (v1.3) (Rev 1) (Alt 2).cue" size="99" crc="b7dc0eeb" md5="f155cb880e4b513594f985793995a2fd" sha1="05786c048522f383e913571b6a19bd0a6a3f049a"/>
+		<rom name="Myst (USA) (v1.3) (Rev 1) (Alt 2).bin" size="774725280" crc="6694bb8c" md5="aa5648939dcc489341e816216c8f9cea" sha1="1d0337a264adc1d7871fa125417b12d8005149ee"/>
+	</game>
+	<game name="Title with conflicting regions (Asia, Japan)">
+		<category>Games</category>
+		<description>Title with conflicting regions (Asia, Japan)</description>
+		<rom name="Myst (USA) (v1.3) (Rev 1) (Alt 2).cue" size="99" crc="b7dc0eeb" md5="f155cb880e4b513594f985793995a2fd" sha1="05786c048522f383e913571b6a19bd0a6a3f049a"/>
+		<rom name="Myst (USA) (v1.3) (Rev 1) (Alt 2).bin" size="774725280" crc="6694bb8c" md5="aa5648939dcc489341e816216c8f9cea" sha1="1d0337a264adc1d7871fa125417b12d8005149ee"/>
+	</game>
+	<game name="Title with conflicting regions (Japan, Asia)">
+		<category>Games</category>
+		<description>Title with conflicting regions (Japan, Asia)</description>
+		<rom name="Myst (USA) (v1.3) (Rev 1) (Alt 2).cue" size="99" crc="b7dc0eeb" md5="f155cb880e4b513594f985793995a2fd" sha1="05786c048522f383e913571b6a19bd0a6a3f049a"/>
+		<rom name="Myst (USA) (v1.3) (Rev 1) (Alt 2).bin" size="774725280" crc="6694bb8c" md5="aa5648939dcc489341e816216c8f9cea" sha1="1d0337a264adc1d7871fa125417b12d8005149ee"/>
+	</game>
+		<game name="Title with secondary regions (USA, Europe)">
+		<category>Games</category>
+		<description>Title with secondary regions (USA, Europe)</description>
+		<rom name="Myst (USA) (v1.3) (Rev 1) (Alt 2).cue" size="99" crc="b7dc0eeb" md5="f155cb880e4b513594f985793995a2fd" sha1="05786c048522f383e913571b6a19bd0a6a3f049a"/>
+		<rom name="Myst (USA) (v1.3) (Rev 1) (Alt 2).bin" size="774725280" crc="6694bb8c" md5="aa5648939dcc489341e816216c8f9cea" sha1="1d0337a264adc1d7871fa125417b12d8005149ee"/>
+	</game>
+	<game name="Title with secondary regions (USA, Australia)">
+		<category>Games</category>
+		<description>Title with secondary regions (USA, Australia)</description>
+		<rom name="Myst (USA) (v1.3) (Rev 1) (Alt 2).cue" size="99" crc="b7dc0eeb" md5="f155cb880e4b513594f985793995a2fd" sha1="05786c048522f383e913571b6a19bd0a6a3f049a"/>
+		<rom name="Myst (USA) (v1.3) (Rev 1) (Alt 2).bin" size="774725280" crc="6694bb8c" md5="aa5648939dcc489341e816216c8f9cea" sha1="1d0337a264adc1d7871fa125417b12d8005149ee"/>
+	</game>
+	<game name="Title with secondary regions (Europe, Japan)">
+		<category>Games</category>
+		<description>Title with secondary regions (Europe, Japan)</description>
+		<rom name="Myst (USA) (v1.3) (Rev 1) (Alt 2).cue" size="99" crc="b7dc0eeb" md5="f155cb880e4b513594f985793995a2fd" sha1="05786c048522f383e913571b6a19bd0a6a3f049a"/>
+		<rom name="Myst (USA) (v1.3) (Rev 1) (Alt 2).bin" size="774725280" crc="6694bb8c" md5="aa5648939dcc489341e816216c8f9cea" sha1="1d0337a264adc1d7871fa125417b12d8005149ee"/>
+	</game>
+	<game name="Title with secondary regions (Europe, Australia)">
+		<category>Games</category>
+		<description>Title with secondary regions (Europe, Australia)</description>
 		<rom name="Myst (USA) (v1.3) (Rev 1) (Alt 2).cue" size="99" crc="b7dc0eeb" md5="f155cb880e4b513594f985793995a2fd" sha1="05786c048522f383e913571b6a19bd0a6a3f049a"/>
 		<rom name="Myst (USA) (v1.3) (Rev 1) (Alt 2).bin" size="774725280" crc="6694bb8c" md5="aa5648939dcc489341e816216c8f9cea" sha1="1d0337a264adc1d7871fa125417b12d8005149ee"/>
 	</game>
