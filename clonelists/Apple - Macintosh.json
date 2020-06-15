@@ -1,34 +1,38 @@
 {
-    "description": {
-        "name": [
-            "Apple - Macintosh"
-        ],
-        "last updated": "23 Mar 2020"
-    },
+	"description": {
+		"name": [
+			"Apple - Macintosh"
+		],
+		"last updated": "31 May 2020"
+	},
 
-    "renames": {
+	"renames": {
 		"Daedalus Encounter, The (Disc 1)": [
-			"Daedalus Encounter, The - Episode 1 - Nanpasen no Alien (Disc 1)"
+			["Daedalus Encounter, The - Episode 1 - Nanpasen no Alien (Disc 1)", 1]
 		],
 		"Daedalus Encounter, The (Disc 2)": [
-			"Daedalus Encounter, The - Episode 1 - Nanpasen no Alien (Disc 2)"
+			["Daedalus Encounter, The - Episode 1 - Nanpasen no Alien (Disc 2)", 1]
 		],
-		"Rayman 3 - Hoodlum Havoc": [
-			"Rayman 3 - Hoodlum Havoc (Disc 1)",
-			"Rayman 3 - Hoodlum Havoc (Disc 2)",
-			"Rayman 3 - Hoodlum Havoc (Disc 3)"
+		"Rayman 3 - Hoodlum Havoc (Disc 1)": [
+			["Rayman 3 - Hoodlum Havoc", 0]
+		],
+		"Rayman 3 - Hoodlum Havoc (Disc 2)": [
+			["Rayman 3 - Hoodlum Havoc", 0]
+		],
+		"Rayman 3 - Hoodlum Havoc (Disc 3)": [
+			["Rayman 3 - Hoodlum Havoc", 0]
 		],
 		"Sims, The": [
-			"SimPeople"
+			["SimPeople", 1]
 		],
 		"Zork Nemesis (Disc 1)": [
-			"Zork Nemesis - The Forbidden Lands (Disc 1)"
+			["Zork Nemesis - The Forbidden Lands (Disc 1)", 1]
 		],
 		"Zork Nemesis (Disc 2)": [
-			"Zork Nemesis - The Forbidden Lands (Disc 2)"
+			["Zork Nemesis - The Forbidden Lands (Disc 2)", 1]
 		],
 		"Zork Nemesis (Disc 3)": [
-			"Zork Nemesis - The Forbidden Lands (Disc 3)"
+			["Zork Nemesis - The Forbidden Lands (Disc 3)", 1]
 		]
-    }
+	}
 }

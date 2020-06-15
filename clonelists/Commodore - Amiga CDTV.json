@@ -1,14 +1,14 @@
 {
-    "description": {
-        "name": [
-            "Commodore - Amiga CDTV"
-        ],
-        "last updated": "23 Mar 2020"
-    },
+	"description": {
+		"name": [
+			"Commodore - Amiga CDTV"
+		],
+		"last updated": "24 May 2020"
+	},
 
-    "renames": {
-      "Team Yankee": [
-        "Team Yankee (Ten on Ten)"
-      ]
-    }
+	"renames": {
+		"Team Yankee": [
+			["Team Yankee (Ten on Ten)", 2]
+		]
+	}
 }

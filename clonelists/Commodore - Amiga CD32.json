@@ -1,24 +1,24 @@
 {
-    "description": {
-        "name": [
-            "Commodore - Amiga CD32"
-        ],
-        "last updated": "23 Mar 2020"
-    },
+	"description": {
+		"name": [
+			"Commodore - Amiga CD32"
+		],
+		"last updated": "24 May 2020"
+	},
 
-    "compilations": [
-        "Project-X & Ultimate Body Blows (Europe)"
-    ],
+	"compilations": [
+		"Project-X & Ultimate Body Blows (Europe)"
+	],
 
-    "renames": {
+	"renames": {
 		"Chaos Engine, The": [
-			"Chaos Engine, The (Spectacular Voyage)"
+			["Chaos Engine, The (Spectacular Voyage)", 2]
 		],
 		"James Pond 3 - Operation Starfi5h": [
-			"James Pond 3 - Operation Starfi5h (Kixx)"
+			["James Pond 3 - Operation Starfi5h (Kixx)", 2]
 		],
 		"Microcosm": [
-			"Microcosm (Spectacular Voyage)"
+			["Microcosm (Spectacular Voyage)", 2]
 		]
-    }
+	}
 }

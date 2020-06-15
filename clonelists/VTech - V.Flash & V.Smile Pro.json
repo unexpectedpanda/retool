@@ -1,46 +1,46 @@
 {
-    "description": {
-        "name": [
-            "VTech - V.Flash & V.Smile Pro"
-        ],
-        "last updated": "23 Mar 2020"
-    },
+	"description": {
+		"name": [
+			"VTech - V.Flash & V.Smile Pro"
+		],
+		"last updated": "24 May 2020"
+	},
 
-    "renames": {
+	"renames": {
 		"Amazing Spider-Man, The - Countdown to Doom": [
-			"Asombroso Spider-Man, El - Persecucion en la Ciudad",
-			"Spider-Man - Angriff der Super-Schurken",
-			"Spider-Man Course-Poursuite a Manhattan"
+			["Asombroso Spider-Man, El - Persecucion en la Ciudad", 1],
+			["Spider-Man - Angriff der Super-Schurken", 1],
+			["Spider-Man Course-Poursuite a Manhattan", 1]
 		],
 		"Bratz - Fashion Pixiez - The Secret Necklace": [
-			"Bratz - El Misterio del Collar"
+			["Bratz - El Misterio del Collar", 1]
 		],
 		"Cars - In the Fast Lane": [
-			"Cars - Auf der Ueberholspur",
-			"Cars - El Carril Rapido"
+			["Cars - Auf der Ueberholspur", 1],
+			["Cars - El Carril Rapido", 1]
 		],
 		"Disney Princess - The Crystal Ball Adventure": [
-			"Disney Princess - Das zauberhafte Maerchen-Abenteuer",
-			"Disney Princess - El Castillo de las Princesas"
+			["Disney Princess - Das zauberhafte Maerchen-Abenteuer", 1],
+			["Disney Princess - El Castillo de las Princesas", 1]
 		],
 		"Incredibles, The - Mission Incredible": [
-			"Increibles, Los - Mision Increible",
-			"Unglaublichen, Die (The Incredibles) - In unglaublicher Mission"
+			["Increibles, Los - Mision Increible", 1],
+			["Unglaublichen, Die (The Incredibles) - In unglaublicher Mission", 1]
 		],
 		"Nickelodeon SpongeBob SquarePants - Idea Sponge": [
-			"Nick SpongeBob Schwammkopf - Ein Schwamm voller Ideen",
-			"Nickelodeon Bob Esponja - Mision Esponja"
+			["Nick SpongeBob Schwammkopf - Ein Schwamm voller Ideen", 1],
+			["Nickelodeon Bob Esponja - Mision Esponja", 1]
 		],
 		"Scooby-Doo! Ancient Adventure": [
-			"Scooby-Doo - Viaje al Pasado"
+			["Scooby-Doo - Viaje al Pasado", 1]
 		],
 		"Shrek the Third - The Search for Arthur": [
-			"Shrek Tercero - Donde Esta Arturo",
-			"Shrek der Dritte - Die Suche nach Arthus"
+			["Shrek Tercero - Donde Esta Arturo", 1],
+			["Shrek der Dritte - Die Suche nach Arthus", 1]
 		],
 		"Wacky Race on Jumpin' Bean Island": [
-			"Carrera Loca en la Isla de las Vainas Fritas",
-			"Das verrueckte Rennen der Huepf-Bohnen Insel"
+			["Carrera Loca en la Isla de las Vainas Fritas", 1],
+			["Das verrueckte Rennen der Huepf-Bohnen Insel", 1]
 		]
-    }
+	}
 }
