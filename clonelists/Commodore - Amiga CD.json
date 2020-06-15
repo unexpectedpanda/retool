@@ -1,15 +1,15 @@
 {
-    "description": {
-        "name": [
-            "Commodore - Amiga CD"
-        ],
-        "last updated": "23 Mar 2020"
-    },
+	"description": {
+		"name": [
+			"Commodore - Amiga CD"
+		],
+		"last updated": "24 May 2020"
+	},
 
-    "renames": {
+	"renames": {
 		"Reflections 4.2": [
-			"Reflections 3.0 Zubehoer",
-			"Reflections 4"
+			["Reflections 3.0 Zubehoer", 2],
+			["Reflections 4", 2]
 		]
-    }
+	}
 }

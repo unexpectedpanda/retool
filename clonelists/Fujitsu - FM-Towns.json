@@ -1,39 +1,39 @@
 {
-    "description": {
-        "name": [
+	"description": {
+		"name": [
 			"Fujitsu - FM-Towns"
 		],
-        "last updated": "23 Mar 2020"
-    },
+		"last updated": "25 May 2020"
+	},
 
-    "renames": {
-		"F-BASIC 386 V1.1L20": [
-			"F-BASIC 386 V1.1L10"
+	"renames": {
+		"F-BASIC386 V1.1L20": [
+			["F-BASIC386 V1.1L10", 2]
 		],
 		"Fujitsu Air Warrior V1.2": [
-			"Fujitsu Air Warrior V1.1"
+			["Fujitsu Air Warrior V1.1", 2]
 		],
 		"Microsoft Windows Version 3.1 L12 Operating System (Setup CD-ROM)": [
-			"Microsoft Windows Version 3.1 L11 Operating System (Setup CD-ROM)"
+			["Microsoft Windows Version 3.1 L11 Operating System (Setup CD-ROM)", 2]
 		],
 		"Towns Paint V1.1L20": [
-			"Towns Paint V1.1L10"
+			["Towns Paint V1.1L10", 2]
 		],
 		"Towns Sound V1.1L20": [
-			"Towns Sound V1.1L10"
+			["Towns Sound V1.1L10", 2]
 		],
 		"Towns System Software V2.1L51": [
-			"Towns System Software V1.1L10",
-			"Towns System Software V1.1L20",
-			"Towns System Software V1.1L30",
-			"Towns System Software V2.1L10",
-			"Towns System Software V2.1L20",
-			"Towns System Software V2.1L30",
-			"Towns System Software V2.1L31",
-			"Towns System Software V2.1L40"
+			["Towns System Software V1.1L10", 2],
+			["Towns System Software V1.1L20", 2],
+			["Towns System Software V1.1L30", 2],
+			["Towns System Software V2.1L10", 2],
+			["Towns System Software V2.1L20", 2],
+			["Towns System Software V2.1L30", 2],
+			["Towns System Software V2.1L31", 2],
+			["Towns System Software V2.1L40", 2]
 		],
 		"Video Koubou V1.4L10": [
-			"Video Koubou V1.3L10"
+			["Video Koubou V1.3L10", 2]
 		]
-    }
+	}
 }
