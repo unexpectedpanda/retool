@@ -1,0 +1,911 @@
+{
+    "Bakumatsu Roman Daini Maku - Gekka no Kenshi - Tsuki ni Saku Hana, Chiri Yuku Hana ~ The Last Blade 2 (Japan) (En,Ja,Es,Pt)": {
+        "secondary_name": "幕末浪漫第二幕　月華の剣士　～月に咲く華、　散りゆく花～",
+        "group_name": "Bakumatsu Roman Daini Maku - Gekka no Kenshi - Tsuki ni Saku Hana, Chiri Yuku Hana ~ The Last Blade 2",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En, Ja, Pt, Es",
+        "version": "",
+        "edition": "Original"
+    },
+    "Riding Hero (Japan) (En,Ja)": {
+        "secondary_name": "ライディング・ヒーロー",
+        "group_name": "Riding Hero",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En, Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Andro Dunos (France) (Unl)": {
+        "secondary_name": "",
+        "group_name": "Andro Dunos",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Unlicensed"
+    },
+    "Ghost Pilots (Japan)": {
+        "secondary_name": "ゴースト・パイロット",
+        "group_name": "Ghost Pilots",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Flying Power Disc ~ Windjammers (Japan) (En,Ja)": {
+        "secondary_name": "フライング・パワー・ディスク",
+        "group_name": "Flying Power Disc ~ Windjammers",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En, Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Puzzle Bobble ~ Bust-a-Move (Japan) (En,Ja)": {
+        "secondary_name": "パズル・ボブル",
+        "group_name": "Puzzle Bobble ~ Bust-a-Move",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En, Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Power Spikes II (Japan) (En,Ja)": {
+        "secondary_name": "パワー・スパイクスⅡ",
+        "group_name": "Power Spikes II",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En, Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Magical Drop 2 (Japan) (En,Ja)": {
+        "secondary_name": "マジカル・ドロップ２",
+        "group_name": "Magical Drop 2",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En, Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Ninja Master's - Haou Ninpou Chou (Japan) (En,Ja)": {
+        "secondary_name": "ニンジャ・マスターズ　～覇王忍法帖～",
+        "group_name": "Ninja Master's - Haou Ninpou Chou",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En, Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "World Heroes 2 (Japan) (En,Ja)": {
+        "secondary_name": "ワールド・ヒーローズ２",
+        "group_name": "World Heroes 2",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En, Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "ADK World (Japan)": {
+        "secondary_name": "ＡＤＫワールド",
+        "group_name": "ADK World",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Fighter's History Dynamite ~ Karnov's Revenge (Japan) (En,Ja)": {
+        "secondary_name": "ファイターズ・ヒストリー・ダイナマイト",
+        "group_name": "Fighter's History Dynamite ~ Karnov's Revenge",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En, Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Garou Densetsu 3 - Road to the Final Victory ~ Fatal Fury 3 - Road to the Final Victory (USA) (En,Ja,Es,Pt) (Rev 3)": {
+        "secondary_name": "餓狼伝説３",
+        "group_name": "Garou Densetsu 3 - Road to the Final Victory ~ Fatal Fury 3 - Road to the Final Victory",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En, Ja, Pt, Es",
+        "version": "Rev 3",
+        "edition": "Original"
+    },
+    "King of Fighters '94, The (Japan) (En,Ja)": {
+        "secondary_name": "ザ・キング・オブ・ファイターズ’９４",
+        "group_name": "King of Fighters '94, The",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En, Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Art of Fighting - Ryuuko no Ken Gaiden ~ The Path of the Warrior - Art of Fighting 3 (Japan, USA) (En,Ja,Es,Pt)": {
+        "secondary_name": "アート･オブ･ファイティング　～龍虎の拳　外伝～",
+        "group_name": "Art of Fighting - Ryuuko no Ken Gaiden ~ The Path of the Warrior - Art of Fighting 3",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En, Ja, Pt, Es",
+        "version": "",
+        "edition": "Original, Genteiban"
+    },
+    "Garou Densetsu 3 - Road to the Final Victory ~ Fatal Fury 3 - Road to the Final Victory (USA) (En,Ja,Es,Pt) (Rev 2)": {
+        "secondary_name": "餓狼伝説３",
+        "group_name": "Garou Densetsu 3 - Road to the Final Victory ~ Fatal Fury 3 - Road to the Final Victory",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En, Ja, Pt, Es",
+        "version": "Rev 2",
+        "edition": "Original"
+    },
+    "Janshin Densetsu - Quest of Jongmaster (Japan)": {
+        "secondary_name": "雀神伝説",
+        "group_name": "Janshin Densetsu - Quest of Jongmaster",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Top Hunter - Roddy & Cathy (Japan) (En,Ja)": {
+        "secondary_name": "トップ・ハンター",
+        "group_name": "Top Hunter - Roddy & Cathy",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En, Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Super Spy, The (Japan) (En,Ja)": {
+        "secondary_name": "ザ・スーパー・スパイ",
+        "group_name": "Super Spy, The",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En, Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Metal Slug 2 (Japan, USA) (En,Ja)": {
+        "secondary_name": "メタル・スラッグ２",
+        "group_name": "Metal Slug 2",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En, Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "King of Fighters '98, The - Dream Match Never Ends ~ The King of Fighters '98 - The Slugfest (Japan) (En,Ja)": {
+        "secondary_name": "ザ・キング・オブ・ファイターズ’９８",
+        "group_name": "King of Fighters '98, The - Dream Match Never Ends ~ The King of Fighters '98 - The Slugfest",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En, Ja",
+        "version": "",
+        "edition": "Original, Genteiban"
+    },
+    "Dunk Dream ~ Street Slam ~ Street Hoop (Japan, USA)": {
+        "secondary_name": "ダンク・ドリーム",
+        "group_name": "Dunk Dream ~ Street Slam ~ Street Hoop",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Bakumatsu Roman - Gekka no Kenshi ~ The Last Blade (Japan) (En,Ja,Es,Pt)": {
+        "secondary_name": "幕末浪漫　月華の剣士",
+        "group_name": "Bakumatsu Roman - Gekka no Kenshi ~ The Last Blade",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En, Ja, Pt, Es",
+        "version": "",
+        "edition": "Original"
+    },
+    "Soccer Brawl (Japan)": {
+        "secondary_name": "サッカー・ブロール",
+        "group_name": "Soccer Brawl",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Samurai Spirits - Zankurou Musouken ~ Samurai Shodown III (Japan, USA) (En,Ja,Es,Pt)": {
+        "secondary_name": "サムライ・スピリッツ　斬紅郎無双剣",
+        "group_name": "Samurai Spirits - Zankurou Musouken ~ Samurai Shodown III",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En, Ja, Pt, Es",
+        "version": "",
+        "edition": "Original"
+    },
+    "Last Resort (Japan) (En,Ja)": {
+        "secondary_name": "ラスト・リゾート",
+        "group_name": "Last Resort",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En, Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Metal Slug (Japan) (En,Ja)": {
+        "secondary_name": "メタル・スラッグ",
+        "group_name": "Metal Slug",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En, Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Tsuukai Gangan Koushinkyoku ~ Aggressors of Dark Kombat (Japan, USA) (En,Ja)": {
+        "secondary_name": "痛快ＧＡＮＧＡＮ行進曲",
+        "group_name": "Tsuukai Gangan Koushinkyoku ~ Aggressors of Dark Kombat",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En, Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Cyber-Lip (Japan) (En,Ja)": {
+        "secondary_name": "サイバーリップ",
+        "group_name": "Cyber-Lip",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En, Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Robo Army (Japan) (En,Ja)": {
+        "secondary_name": "ロボ・アーミー",
+        "group_name": "Robo Army",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En, Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Double Dragon (USA) (En,Ja)": {
+        "secondary_name": "ダブル・ドラゴン",
+        "group_name": "Double Dragon",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En, Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "King of Fighters '95, The (Japan) (En,Ja) (Rev 1)": {
+        "secondary_name": "ザ・キング・オブ・ファイターズ’９５",
+        "group_name": "King of Fighters '95, The",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En, Ja",
+        "version": "Rev 1",
+        "edition": "Original"
+    },
+    "Far East of Eden - Tengai Makyou Shinden ~ Far East of Eden - Kabuki Klash (Japan) (En,Ja)": {
+        "secondary_name": "天外魔境　真伝",
+        "group_name": "Far East of Eden - Tengai Makyou Shinden ~ Far East of Eden - Kabuki Klash",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En, Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Baseball Stars Professional (Japan) (En,Ja)": {
+        "secondary_name": "ベースボール・スターズ・プロフェッショナル",
+        "group_name": "Baseball Stars Professional",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En, Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Garou Densetsu 3 - Road to the Final Victory ~ Fatal Fury 3 - Road to the Final Victory (Japan) (En,Ja,Es,Pt)": {
+        "secondary_name": "餓狼伝説３",
+        "group_name": "Garou Densetsu 3 - Road to the Final Victory ~ Fatal Fury 3 - Road to the Final Victory",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En, Ja, Pt, Es",
+        "version": "",
+        "edition": "Original"
+    },
+    "Sonic Wings 3 ~ Aero Fighters 3 (Japan) (En,Ja)": {
+        "secondary_name": "ソニック・ウィングス３",
+        "group_name": "Sonic Wings 3 ~ Aero Fighters 3",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En, Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Fuuun Mokushiroku - Kakutou Sousei ~ Savage Reign (Japan) (En,Ja,Es,Pt)": {
+        "secondary_name": "風雲黙示録",
+        "group_name": "Fuuun Mokushiroku - Kakutou Sousei ~ Savage Reign",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En, Ja, Pt, Es",
+        "version": "",
+        "edition": "Original"
+    },
+    "Real Bout Garou Densetsu Special ~ Real Bout Fatal Fury Special (Japan, USA) (En,Ja,Es,Pt)": {
+        "secondary_name": "リアル・バウト餓狼伝説スペシャル",
+        "group_name": "Real Bout Garou Densetsu Special ~ Real Bout Fatal Fury Special",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En, Ja, Pt, Es",
+        "version": "",
+        "edition": "Original"
+    },
+    "Treasure of the Caribbean (France) (En,Ja) (Unl)": {
+        "secondary_name": "トレジャー・オブ・カリビアン",
+        "group_name": "Treasure of the Caribbean",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En, Ja",
+        "version": "",
+        "edition": "Unlicensed"
+    },
+    "Galaxy Fight - Universal Warriors (Japan) (En,Ja,Es)": {
+        "secondary_name": "ギャラクシー・ファイト　～ユニバーサル・ウォーリアーズ～",
+        "group_name": "Galaxy Fight - Universal Warriors",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En, Ja, Es",
+        "version": "",
+        "edition": "Original"
+    },
+    "Ryuuko no Ken 2 ~ Art of Fighting 2 (Japan) (En,Ja,Es)": {
+        "secondary_name": "龍虎の拳２",
+        "group_name": "Ryuuko no Ken 2 ~ Art of Fighting 2",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En, Ja, Es",
+        "version": "",
+        "edition": "Original"
+    },
+    "Big Tournament Golf ~ Neo Turf Masters (Japan) (En,Ja)": {
+        "secondary_name": "ビッグ・トーナメント・ゴルフ",
+        "group_name": "Big Tournament Golf ~ Neo Turf Masters",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En, Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "World Heroes (Japan) (En,Ja)": {
+        "secondary_name": "ワール･ドヒーローズ",
+        "group_name": "World Heroes",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En, Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Sonic Wings 2 ~ Aero Fighters 2 (Japan) (En,Ja)": {
+        "secondary_name": "ソニック・ウイングス２",
+        "group_name": "Sonic Wings 2 ~ Aero Fighters 2",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En, Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Quiz King of Fighters (Japan)": {
+        "secondary_name": "クイズ・キング・オブ・ファイターズ",
+        "group_name": "Quiz King of Fighters",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Shougi no Tatsujin - Master of Syougi (Japan)": {
+        "secondary_name": "将棋の達人",
+        "group_name": "Shougi no Tatsujin - Master of Syougi",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Double Dragon (Japan) (En,Ja) (Rev 1)": {
+        "secondary_name": "ダブル・ドラゴン",
+        "group_name": "Double Dragon",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En, Ja",
+        "version": "Rev 1",
+        "edition": "Original"
+    },
+    "Futsal - 5 on 5 Mini Soccer ~ PleasureGoal - 5 on 5 Mini Soccer (Japan) (En,Ja)": {
+        "secondary_name": "フットサル　～５オン５ミニ・サッカー～",
+        "group_name": "Futsal - 5 on 5 Mini Soccer ~ PleasureGoal - 5 on 5 Mini Soccer",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En, Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "King of Fighters '95, The (Japan, USA) (En,Ja)": {
+        "secondary_name": "ザ・キング・オブ・ファイターズ’９５",
+        "group_name": "King of Fighters '95, The",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En, Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Magician Lord (Japan) (En,Ja)": {
+        "secondary_name": "マジシャン・ロード",
+        "group_name": "Magician Lord",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En, Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Baseball Stars 2 (Japan) (En,Ja)": {
+        "secondary_name": "ベースボール・スターズ２",
+        "group_name": "Baseball Stars 2",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En, Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "King of Fighters '96 NeoGeo Collection, The (Japan)": {
+        "secondary_name": "ＫＯＦ’９６　ネオジオ・コレクション",
+        "group_name": "King of Fighters '96 NeoGeo Collection, The",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "ASO II - The Last Guardian ~ Alpha Mission II (Japan) (En,Ja)": {
+        "secondary_name": "",
+        "group_name": "ASO II - The Last Guardian ~ Alpha Mission II",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En, Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Mutation Nation (Japan) (En,Ja)": {
+        "secondary_name": "ミューテイション・ネイション",
+        "group_name": "Mutation Nation",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En, Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Football Frenzy (Japan) (En,Ja)": {
+        "secondary_name": "フットボール・フレンジー",
+        "group_name": "Football Frenzy",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En, Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Next Thing, The - King of the Monsters 2 (Japan, USA) (En,Ja)": {
+        "secondary_name": "キング・オブ・ザ・モンスターズ２",
+        "group_name": "Next Thing, The - King of the Monsters 2",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En, Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Real Bout Garou Densetsu ~ Real Bout Fatal Fury (Japan, USA) (En,Ja,Es,Pt)": {
+        "secondary_name": "リアル・バウト餓狼伝説",
+        "group_name": "Real Bout Garou Densetsu ~ Real Bout Fatal Fury",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En, Ja, Pt, Es",
+        "version": "",
+        "edition": "Original"
+    },
+    "Ninja Commando (Japan) (En,Ja)": {
+        "secondary_name": "ニンジャ・コマンドー",
+        "group_name": "Ninja Commando",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En, Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "World Heroes 2 Jet (Japan) (En,Ja)": {
+        "secondary_name": "ワールド・ヒーローズ２　ＪＥＴ",
+        "group_name": "World Heroes 2 Jet",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En, Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "King of Fighters '94, The (Japan, USA) (En,Ja) (Rev 1)": {
+        "secondary_name": "ザ・キング・オブ・ファイターズ’９４",
+        "group_name": "King of Fighters '94, The",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En, Ja",
+        "version": "Rev 1",
+        "edition": "Original"
+    },
+    "Top Player's Golf (Japan) (En,Ja)": {
+        "secondary_name": "トップ・プレイヤーズ・ゴルフ",
+        "group_name": "Top Player's Golf",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En, Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Nam-1975 (Japan) (En,Ja)": {
+        "secondary_name": "ナム－１９７５",
+        "group_name": "Nam-1975",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En, Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Garou Densetsu 2 ~ Fatal Fury 2 (Japan) (En,Ja)": {
+        "secondary_name": "餓狼伝説２",
+        "group_name": "Garou Densetsu 2 ~ Fatal Fury 2",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En, Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Stakes Winner - GI Kanzen Seiha e no Michi (Japan)": {
+        "secondary_name": "ステークス・ウィナー　～ＧＩ完全制覇への道～",
+        "group_name": "Stakes Winner - GI Kanzen Seiha e no Michi",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Joy Joy Kid ~ Puzzled (Japan) (En,Ja)": {
+        "secondary_name": "ジョイ・ジョイ・キッド",
+        "group_name": "Joy Joy Kid ~ Puzzled",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En, Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Shinouken ~ Ragnagard (Japan) (En,Ja,Es)": {
+        "secondary_name": "神凰拳",
+        "group_name": "Shinouken ~ Ragnagard",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En, Ja, Es",
+        "version": "",
+        "edition": "Original"
+    },
+    "League Bowling (Japan) (En,Ja)": {
+        "secondary_name": "リーグ・ボウリング",
+        "group_name": "League Bowling",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En, Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Ryuuko no Ken ~ Art of Fighting (Japan, USA) (En,Ja,Es)": {
+        "secondary_name": "龍虎の拳",
+        "group_name": "Ryuuko no Ken ~ Art of Fighting",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En, Ja, Es",
+        "version": "",
+        "edition": "Original"
+    },
+    "World Heroes Perfect (Japan, USA) (En,Ja)": {
+        "secondary_name": "ワールド・ヒーローズ・パーフェクト",
+        "group_name": "World Heroes Perfect",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En, Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Garou Densetsu - Shukumei no Tatakai ~ Fatal Fury - King of Fighters (Japan) (En,Ja)": {
+        "secondary_name": "餓狼伝説　～宿命の闘い～",
+        "group_name": "Garou Densetsu - Shukumei no Tatakai ~ Fatal Fury - King of Fighters",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En, Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "King of Fighters '99, The ~ The King of Fighters '99 - Millennium Battle (Japan, USA) (En,Ja,Es,Pt)": {
+        "secondary_name": "ザ・キング・オブ・ファイターズ’９９",
+        "group_name": "King of Fighters '99, The ~ The King of Fighters '99 - Millennium Battle",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En, Ja, Pt, Es",
+        "version": "",
+        "edition": "Original"
+    },
+    "2020 Super Baseball (Japan) (En,Ja)": {
+        "secondary_name": "２０２０年スーパー・ベースボール",
+        "group_name": "2020 Super Baseball",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En, Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Pulstar (Japan)": {
+        "secondary_name": "パルスター",
+        "group_name": "Pulstar",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Original"
+    },
+    "Samurai Spirits - Amakusa Kourin ~ Samurai Shodown IV - Amakusa's Revenge (Japan) (En,Ja,Es,Pt)": {
+        "secondary_name": "サムライ・スピリッツ　～天草降臨～",
+        "group_name": "Samurai Spirits - Amakusa Kourin ~ Samurai Shodown IV - Amakusa's Revenge",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En, Ja, Pt, Es",
+        "version": "",
+        "edition": "Original"
+    },
+    "Crossed Swords (Japan)": {
+        "secondary_name": "クロス・スウオード",
+        "group_name": "Crossed Swords",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Garou Densetsu Special ~ Fatal Fury Special (Japan) (En,Ja)": {
+        "secondary_name": "餓狼伝説スペシャル",
+        "group_name": "Garou Densetsu Special ~ Fatal Fury Special",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En, Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Raguy ~ Blue's Journey (Japan) (En,Ja)": {
+        "secondary_name": "ラギ",
+        "group_name": "Raguy ~ Blue's Journey",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En, Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Crossed Swords II (Japan) (En,Ja)": {
+        "secondary_name": "クロス・スウオードⅡ",
+        "group_name": "Crossed Swords II",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En, Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Mahjong-kyou Retsuden - Nishi Nihon-hen (Japan)": {
+        "secondary_name": "麻雀狂列伝　～西日本編～",
+        "group_name": "Mahjong-kyou Retsuden - Nishi Nihon-hen",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Ninja Combat (Japan) (En,Ja)": {
+        "secondary_name": "ニンジャ・コンバット",
+        "group_name": "Ninja Combat",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En, Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Tokuten-ou 3 - Eikou e no Chousen ~ Super Sidekicks 3 - The Next Glory (Japan, USA) (En,Ja,Fr,Es,It,Pt)": {
+        "secondary_name": "得点王３　～栄光への挑戦～",
+        "group_name": "Tokuten-ou 3 - Eikou e no Chousen ~ Super Sidekicks 3 - The Next Glory",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En, Fr, It, Ja, Pt, Es",
+        "version": "",
+        "edition": "Original"
+    },
+    "RB2 - The Newcomers - Real Bout Garou Densetsu 2 ~ RB2 - The Newcomers - Real Bout Fatal Fury 2 (Japan) (En,Ja)": {
+        "secondary_name": "リアル・バウト餓狼伝説２　－Ｔｈｅ　Ｎｅｗｃｏｍｅｒｓ　２－",
+        "group_name": "RB2 - The Newcomers - Real Bout Garou Densetsu 2 ~ RB2 - The Newcomers - Real Bout Fatal Fury 2",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En, Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Fire Suplex ~ 3 Count Bout (Japan, USA) (En,Ja)": {
+        "secondary_name": "ファイヤー・スープレックス",
+        "group_name": "Fire Suplex ~ 3 Count Bout",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En, Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "King of Fighters '97, The (Japan) (En,Ja)": {
+        "secondary_name": "ザ・キング・オブ・ファイターズ’９７",
+        "group_name": "King of Fighters '97, The",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En, Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "King of Fighters '96, The (Japan, USA) (En,Ja)": {
+        "secondary_name": "ザ・キング・オブ・ファイターズ’９６",
+        "group_name": "King of Fighters '96, The",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En, Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Tokuten-ou 2 ~ Super Sidekicks 2 - The World Championship (Japan) (En,Ja,Es)": {
+        "secondary_name": "得点王２",
+        "group_name": "Tokuten-ou 2 ~ Super Sidekicks 2 - The World Championship",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En, Ja, Es",
+        "version": "",
+        "edition": "Original"
+    },
+    "Samurai Spirits ~ Samurai Shodown (Japan) (En,Ja)": {
+        "secondary_name": "サムライ・スピリッツ",
+        "group_name": "Samurai Spirits ~ Samurai Shodown",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En, Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Idol Mahjong - Final Romance 2 (Japan)": {
+        "secondary_name": "ファイナル・ロマンス２",
+        "group_name": "Idol Mahjong - Final Romance 2",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Viewpoint (Japan)": {
+        "secondary_name": "ビューポイント",
+        "group_name": "Viewpoint",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Shin Samurai Spirits - Haoumaru Jigokuhen ~ Samurai Shodown II (Japan, USA) (En,Ja)": {
+        "secondary_name": "真サムライ・スピリッツ　～覇王丸地獄変～",
+        "group_name": "Shin Samurai Spirits - Haoumaru Jigokuhen ~ Samurai Shodown II",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En, Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Burning Fight (Japan) (En,Ja)": {
+        "secondary_name": "バーニング・ファイト",
+        "group_name": "Burning Fight",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En, Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Choujin Gakuen - Gowcaizer (Japan) (En,Ja)": {
+        "secondary_name": "超人学園　ゴウカイザー",
+        "group_name": "Choujin Gakuen - Gowcaizer",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En, Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Fuuun Mokushiroku - Kakutou Sousei ~ Savage Reign (USA) (En,Ja,Es,Pt) (Rev 1)": {
+        "secondary_name": "風雲黙示録",
+        "group_name": "Fuuun Mokushiroku - Kakutou Sousei ~ Savage Reign",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En, Ja, Pt, Es",
+        "version": "Rev 1",
+        "edition": "Original"
+    },
+    "Garou Densetsu Special ~ Fatal Fury Special (Japan, USA) (En,Ja) (Rev 1)": {
+        "secondary_name": "餓狼伝説スペシャル",
+        "group_name": "Garou Densetsu Special ~ Fatal Fury Special",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En, Ja",
+        "version": "Rev 1",
+        "edition": "Original"
+    },
+    "Garou Densetsu 3 - Road to the Final Victory ~ Fatal Fury 3 - Road to the Final Victory (Japan, USA) (En,Ja,Es,Pt) (Rev 1)": {
+        "secondary_name": "餓狼伝説３",
+        "group_name": "Garou Densetsu 3 - Road to the Final Victory ~ Fatal Fury 3 - Road to the Final Victory",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En, Ja, Pt, Es",
+        "version": "Rev 1",
+        "edition": "Original"
+    },
+    "Rally Chase (Japan) (En,Ja)": {
+        "secondary_name": "ラリー・チェイス",
+        "group_name": "Rally Chase",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En, Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Breakers (Japan) (En,Ja)": {
+        "secondary_name": "ブレイカーズ",
+        "group_name": "Breakers",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En, Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Neo-Geo CD Special (Japan)": {
+        "secondary_name": "ネオジオＣＤスペシャル",
+        "group_name": "Neo-Geo CD Special",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Super Sidekicks - Tokuten-ou (Japan) (En,Ja)": {
+        "secondary_name": "得点王",
+        "group_name": "Super Sidekicks - Tokuten-ou",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En, Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Shinsetsu Samurai Spirits - Bushidou Retsuden (Japan)": {
+        "secondary_name": "真説サムライ・スピリッツ　～武士道烈伝～",
+        "group_name": "Shinsetsu Samurai Spirits - Bushidou Retsuden",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Sengoku Denshou 2 ~ Sengoku 2 (Japan) (En,Ja)": {
+        "secondary_name": "戦国伝承２",
+        "group_name": "Sengoku Denshou 2 ~ Sengoku 2",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En, Ja",
+        "version": "",
+        "edition": "Original"
+    }
+}
