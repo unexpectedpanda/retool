@@ -1,66 +1,68 @@
 {
-    "description": {
-        "name": [
-            "Philips - CD-i"
-        ],
-        "last updated": "23 Mar 2020"
-    },
+	"description": {
+		"name": [
+			"Philips - CD-i"
+		],
+		"last updated": "5 June 2020"
+	},
 
-    "renames": {
+	"renames": {
 		"7th Guest, The (Disc 1) (The Game)": [
-			"7th Guest, The (Disc 1) (Le Jeu)"
+			["7th Guest, The (Disc 1) (Le Jeu)", 1]
 		],
 		"Asterix - Caesar's Challenge": [
-			"Asterix - El Desafio de Cesar",
-			"Asterix - De Uitdaging van Caesar",
-			"Asterix - Die grosse Reise",
-			"Asterix - La Sfida di Cesare",
-			"Asterix - Le Defi de Cesar"
+			["Asterix - El Desafio de Cesar", 1],
+			["Asterix - De Uitdaging van Caesar", 1],
+			["Asterix - Die grosse Reise", 1],
+			["Asterix - La Sfida di Cesare", 1],
+			["Asterix - Le Defi de Cesar", 1]
 		],
 		"Berenstain Bears, The - On Their Own": [
-			"Berenstain Bears, The - Bij de Berenstain Beren Thuis - Thuis en bij Jou"
+			["Berenstain Bears, The - Bij de Berenstain Beren Thuis - Thuis en bij Jou", 1]
 		],
 		"Burn-Cycle (Disc 1) (The Game)": [
-			"Burn-Cycle",
-			"Burn-Cycle (Das Spiel)",
-			"Burn-Cycle (Il Gioco)",
-			"Burn-Cycle (Jeu)"
+			["Burn-Cycle", 1],
+			["Burn-Cycle (Das Spiel)", 1],
+			["Burn-Cycle (Il Gioco)", 1],
+			["Burn-Cycle (Jeu)", 1]
 		],
 		"Harvest Of The Sun - Van Gogh - Une Moisson de Soleils": [
-			"Raccolto del Sole, Il - Van Gogh",
-			"Oogst van de Zon"
+			["Raccolto del Sole, Il - Van Gogh", 1],
+			["Oogst van de Zon", 1]
 		],
 		"International Tennis Open": [
-			"International Tennis Open (8100082)",
-			"International Tennis Open (8120040)",
-			"International Tennis Open (Version 2 Spieler)"
+			["International Tennis Open (8100082)", 1],
+			["International Tennis Open (8120040)", 2]
 		],
 		"Jigsaw - The Ultimate Electronic Puzzle": [
-			"Jigsaw - Das elektronische Puzzlespiel"
+			["Jigsaw - Das elektronische Puzzlespiel", 1]
 		],
 		"Palm Springs Open, The": [
-			"L'Open de Palm Springs"
+			["L'Open de Palm Springs", 1]
 		],
 		"Rinascimento a Firenze, Il": [
-			"Renaissance van Florence, De"
+			["Renaissance van Florence, De", 1]
 		],
-		"Scotland Yard Interactif": [
-			"Scotland Yard Interactive"
+		"Scotland Yard Interactive": [
+			["Scotland Yard Interactif", 1]
 		],
 		"Thunder in Paradise (Disc 1) (The Game)": [
-			"Thunder in Paradise"
+			["Thunder in Paradise", 1]
 		],
 		"Video Speedway - The Ultimate Racing Experience": [
-			"Video Speedway - Grand Prix"
+			["Video Speedway - Grand Prix", 1]
 		],
 		"Ville Surprise de Richard Scarry 1, La": [
-			"Richard Scarry's Allerbeste Buurt Disc!"
+			["Richard Scarry's Allerbeste Buurt Disc!", 1]
 		],
 		"Ville Surprise de Richard Scarry 2, La": [
-			"Richard Scarry's Allerdrukste Buurt Disc!"
+			["Richard Scarry's Allerdrukste Buurt Disc!", 1]
 		],
 		"Voyeur ...Don't Get Caught": [
-			"Voyeur ...lass Dich nicht erwischen!"
+			["Voyeur ...lass Dich nicht erwischen!", 1]
+		],
+		"Zombie Dinos from Planet Zeltoid": [
+			["Zombie Dinos vom Planeten Zeltoid", 1]
 		]
-    }
+	}
 }

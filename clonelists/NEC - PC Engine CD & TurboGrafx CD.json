@@ -1,99 +1,96 @@
 {
-    "description": {
-        "name": [
-            "NEC - PC Engine CD & TurboGrafx CD"
-        ],
-        "last updated": "23 Mar 2020"
-    },
+	"description": {
+		"name": [
+			"NEC - PC Engine CD & TurboGrafx CD"
+		],
+		"last updated": "3 June 2020"
+	},
 
-    "renames": {
+	"renames": {
 		"Alnam no Kiba - Juuzoku Juuni Shinto Densetsu (FABT)": [
-			"Alnam no Kiba - Juuzoku Juuni Shinto Densetsu (FAAT)"
+			["Alnam no Kiba - Juuzoku Juuni Shinto Densetsu (FAAT)", 2]
 		],
 		"Bomberman - Panic Bomber (FABT)": [
-			"Bomberman - Panic Bomber (FAAT)"
+			["Bomberman - Panic Bomber (FAAT)", 2]
 		],
 		"Buster Bros.": [
-			"Pomping World"
+			["Pomping World", 1]
 		],
 		"Cosmic Fantasy 2": [
-			"Cosmic Fantasy 2 - Bouken Shounen Ban"
+			["Cosmic Fantasy 2 - Bouken Shounen Ban", 1]
 		],
 		"Dynastic Hero, The": [
-			"Chou Eiyuu Densetsu - Dynastic Hero"
+			["Chou Eiyuu Densetsu - Dynastic Hero", 1]
 		],
 		"Exile": [
-			"Exile - Toki no Hasama e"
+			["Exile - Toki no Hasama e", 1]
 		],
 		"Exile - Wicked Phenomenon": [
-			"Exile II - Janen no Jishou"
+			["Exile II - Janen no Jishou", 1]
 		],
 		"F1 Circus Special - Pole to Win (FAAT, FACT)": [
-			"F1 Circus Special - Pole to Win (FABT)"
-		],
-		"Ginga Fukei Densetsu Sapphire": [
-			"Ginga Fukei Densetsu Sapphire (Reprint)"
+			["F1 Circus Special - Pole to Win (FABT)", 2]
 		],
 		"Ginga Ojousama Densetsu Yuna (FAFT)": [
-			"Ginga Ojousama Densetsu Yuna (FABT, FACT)"
+			["Ginga Ojousama Densetsu Yuna (FABT, FACT)", 2]
 		],
 		"Ginga Ojousama Densetsu Yuna 2 - Eien no Princess (FABT)": [
-			"Ginga Ojousama Densetsu Yuna 2 - Eien no Princess (FAAT)"
+			["Ginga Ojousama Densetsu Yuna 2 - Eien no Princess (FAAT)", 2]
 		],
 		"Godzilla": [
-			"Godzilla Bakutou Retsuden"
+			["Godzilla Bakutou Retsuden", 1]
 		],
 		"Hyper Wars (SABS)": [
-			"Hyper Wars (SAAS)"
+			["Hyper Wars (SAAS)", 2]
 		],
 		"J. B. Harold Murder Club": [
-			"J. B. Harold Series 1 - Murder Club"
+			["J. B. Harold Series 1 - Murder Club", 1]
 		],
 		"Jack Nicklaus Turbo Golf": [
-			"Jack Nicklaus' World Tour Golf - 162 Holes"
+			["Jack Nicklaus' World Tour Golf - 162 Holes", 1]
 		],
 		"Last Alert": [
-			"Red Alert"
+			["Red Alert", 1]
 		],
 		"Lords of the Rising Sun": [
-			"Rising Sun"
+			["Rising Sun", 1]
 		],
 		"Lords of Thunder": [
-			"Winds of Thunder"
+			["Winds of Thunder", 1]
 		],
 		"Magical Dinosaur Tour": [
-			"Magical Saurus Tour"
+			["Magical Saurus Tour", 1]
 		],
 		"Monster Lair": [
-			"Wonder Boy III - Monster Lair"
+			["Wonder Boy III - Monster Lair", 1]
 		],
 		"Riot Zone": [
-			"Ookami-teki Monshou - Crest of Wolf"
+			["Ookami-teki Monshou - Crest of Wolf", 1]
 		],
 		"Ryuuko no Ken (FACT)": [
-			"Ryuuko no Ken (FAAT)",
-			"Ryuuko no Ken (FABT)"
+			["Ryuuko no Ken (FABT)", 2],
+			["Ryuuko no Ken (FAAT)", 3]
 		],
 		"Shadow of the Beast": [
-			"Shadow of the Beast - Mashou no Okite"
+			["Shadow of the Beast - Mashou no Okite", 1]
 		],
 		"Sherlock Holmes - Consulting Detective - Volume 2": [
-			"Sherlock Holmes - Consulting Detective Vol. II"
+			["Sherlock Holmes - Consulting Detective Vol. II", 1]
 		],
 		"Splash Lake": [
-			"Splash Lake - Ostrich Daibouken"
+			["Splash Lake - Ostrich Daibouken", 1]
 		],
 		"Super Air Zonk - Rockabilly-Paradise": [
-			"CD Denjin - Rockabilly Tengoku"
+			["CD Denjin - Rockabilly Tengoku", 1]
 		],
 		"Tokimeki Memorial": [
-			"Tokimeki Memorial (FABT)"
+			["Tokimeki Memorial (FABT)", 1]
 		],
 		"Ys Book I & II": [
-			"Ys I & II"
+			["Ys I & II", 1]
 		],
 		"Ys III - Wanderers from Ys": [
-			"Ys III"
+			["Ys III", 1]
 		]
-    }
+	}
 }
