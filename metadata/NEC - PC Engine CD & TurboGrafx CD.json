@@ -1,0 +1,4745 @@
+{
+    "Faerie Dust Story - Meikyuu no Elfeene (Japan)": {
+        "secondary_name": "迷宮のエルフィーネ",
+        "group_name": "Faerie Dust Story - Meikyuu no Elfeene",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Jantei Monogatari 3 - Saver Angels (Japan)": {
+        "secondary_name": "雀偵物語３　～セイバー・エンジェル～",
+        "group_name": "Jantei Monogatari 3 - Saver Angels",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Aurora Quest - Otaku no Seiza in Another World (Japan)": {
+        "secondary_name": "オーロラ・クエスト　～おたくの星座　ｉｎ　Ａｎｏｔｈｅｒ　Ｗｏｒｌｄ～",
+        "group_name": "Aurora Quest - Otaku no Seiza in Another World",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Metal Angel 2 (Japan)": {
+        "secondary_name": "メタル・エンジェル２",
+        "group_name": "Metal Angel 2",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "CAL III - Kanketsu-hen (Japan)": {
+        "secondary_name": "キャルⅢ　完結編",
+        "group_name": "CAL III - Kanketsu-hen",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Sengoku Kantou Sangokushi (Japan)": {
+        "secondary_name": "戦国関東三国志",
+        "group_name": "Sengoku Kantou Sangokushi",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Chou Aniki (Japan) (FAAT, FACT)": {
+        "secondary_name": "超兄貴",
+        "group_name": "Chou Aniki",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Nobunaga no Yabou - Bushou Fuuunroku (Japan)": {
+        "secondary_name": "信長の野望　～武将風雲録～",
+        "group_name": "Nobunaga no Yabou - Bushou Fuuunroku",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "SimEarth - The Living Planet (Japan)": {
+        "secondary_name": "シムアース",
+        "group_name": "SimEarth - The Living Planet",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Pro Yakyuu Super, The (Japan) (FABT)": {
+        "secondary_name": "ザ・プロ野球　ＳＵＰＥＲ",
+        "group_name": "Pro Yakyuu Super, The",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Tecmo World Cup Super Soccer (Japan)": {
+        "secondary_name": "テクモ・ワールド・カップ・スーパー・サッカー",
+        "group_name": "Tecmo World Cup Super Soccer",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Downtown Nekketsu Monogatari (Japan)": {
+        "secondary_name": "ダウンタウン熱血物語",
+        "group_name": "Downtown Nekketsu Monogatari",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Dynastic Hero, The (USA)": {
+        "secondary_name": "",
+        "group_name": "Dynastic Hero, The",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Original"
+    },
+    "Sotsugyou - Graduation (Japan)": {
+        "secondary_name": "卒業　～グラデュエーション～",
+        "group_name": "Sotsugyou - Graduation",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Ultra Box Soukan-gou (Japan)": {
+        "secondary_name": "ウルトラ・ボックス創刊号",
+        "group_name": "Ultra Box Soukan-gou",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Super Raiden (Japan)": {
+        "secondary_name": "スーパー雷電",
+        "group_name": "Super Raiden",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "Rev 1",
+        "edition": "Original"
+    },
+    "World Heroes 2 (Japan) (Demo) (SACS)": {
+        "secondary_name": "ワールド・ヒーローズ２",
+        "group_name": "World Heroes 2",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Sample"
+    },
+    "Final Zone II (USA)": {
+        "secondary_name": "",
+        "group_name": "Final Zone II",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Ys III - Wanderers from Ys (USA)": {
+        "secondary_name": "",
+        "group_name": "Ys III - Wanderers from Ys",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "ROM^2 Karaoke Vol. 1 - Suteki ni Standard (Japan)": {
+        "secondary_name": "ＲＯＭ²　カラオケ　①　「すてきに　スタンダード」",
+        "group_name": "ROM^2 Karaoke Vol. 1 - Suteki ni Standard",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Pastel Lime (Japan)": {
+        "secondary_name": "パステル・ライム",
+        "group_name": "Pastel Lime",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Kakutou Haou Densetsu - Algunos (Japan)": {
+        "secondary_name": "格闘覇王伝説アルガノス",
+        "group_name": "Kakutou Haou Densetsu - Algunos",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Minesweeper (Japan)": {
+        "secondary_name": "マインスウィーパー",
+        "group_name": "Minesweeper",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "CD Battle - Hikari no Yuusha-tachi (Japan)": {
+        "secondary_name": "ＣＤバトル　～光の勇者たち～",
+        "group_name": "CD Battle - Hikari no Yuusha-tachi",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Mahjong on the Beach (Japan)": {
+        "secondary_name": "麻雀オンザビーチ",
+        "group_name": "Mahjong on the Beach",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Ultra Box 5-gou (Japan)": {
+        "secondary_name": "ウルトラ・ボックス５号",
+        "group_name": "Ultra Box 5-gou",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Star Mobile (Japan)": {
+        "secondary_name": "スター・モビール",
+        "group_name": "Star Mobile",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Riot Zone (USA)": {
+        "secondary_name": "",
+        "group_name": "Riot Zone",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Original"
+    },
+    "Jim Power in Mutant Planet (Japan)": {
+        "secondary_name": "ジム・パワー",
+        "group_name": "Jim Power in Mutant Planet",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "ROM^2 Karaoke Vol. 4 - Choito Otona! (Japan)": {
+        "secondary_name": "ＲＯＭ²　カラオケ　④　「ちょいと　おとな！？」",
+        "group_name": "ROM^2 Karaoke Vol. 4 - Choito Otona!",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Xak III - The Eternal Recurrence (Japan)": {
+        "secondary_name": "サークⅢ",
+        "group_name": "Xak III - The Eternal Recurrence",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Record of Lodoss War II (Japan) (Demo)": {
+        "secondary_name": "ロードス島戦記Ⅱ　「体験版」",
+        "group_name": "Record of Lodoss War II",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Bundled with Book (Taikenban)"
+    },
+    "Sugoroku, The '92 - Nari Tore - Nariagari Trendy (Japan)": {
+        "secondary_name": "ザ・スゴロク　なりトレ",
+        "group_name": "Sugoroku, The '92 - Nari Tore - Nariagari Trendy",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "PC Engine Hyper Catalog CD-ROM 4 - 1993 Winter (Japan)": {
+        "secondary_name": "ＰＣエンジン　ハイパー・カタログ４",
+        "group_name": "PC Engine Hyper Catalog CD-ROM 4 - 1993 Winter",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Bundled with Magazine"
+    },
+    "IQ Panic (Japan)": {
+        "secondary_name": "アイキュ・ーパニック",
+        "group_name": "IQ Panic",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Farjius no Jakoutei - Neo Metal Fantasy (Japan) (Rev 1)": {
+        "secondary_name": "ファージアスの邪皇帝",
+        "group_name": "Farjius no Jakoutei - Neo Metal Fantasy",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Slot Gambler (Japan)": {
+        "secondary_name": "スロット勝負師",
+        "group_name": "Slot Gambler",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "AV Tanjou (Japan) (Unl)": {
+        "secondary_name": "ＡＶ誕生",
+        "group_name": "AV Tanjou",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Unlicensed"
+    },
+    "Final Zone II (Japan)": {
+        "secondary_name": "ファイナル・ゾーンⅡ",
+        "group_name": "Final Zone II",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Mysterious Song (USA) (En,Fr,Es) (Unl)": {
+        "secondary_name": "",
+        "group_name": "Mysterious Song",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En, Fr, Es",
+        "version": "",
+        "edition": "Unlicensed"
+    },
+    "Atlas, The - Renaissance Voyager (Japan)": {
+        "secondary_name": "アトラス　～ルネッサンス・ボイジャー～",
+        "group_name": "Atlas, The - Renaissance Voyager",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Flash Hiders (Japan)": {
+        "secondary_name": "フラッシュ・ハイダース",
+        "group_name": "Flash Hiders",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Brandish (Japan)": {
+        "secondary_name": "ブランディッシュ",
+        "group_name": "Brandish",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Alshark (Japan)": {
+        "secondary_name": "アルシャーク",
+        "group_name": "Alshark",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Bomberman '94 (Japan) (Demo)": {
+        "secondary_name": "ボンバーマン’９４　体験版",
+        "group_name": "Bomberman '94",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Taikenban"
+    },
+    "ROM^2 Karaoke Volume 1 (Japan) (Alt)": {
+        "secondary_name": "ロム・ロム・カラオケ　ＶＯＬ．１",
+        "group_name": "ROM^2 Karaoke Volume 1",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Ookami-teki Monshou - Crest of Wolf (Japan)": {
+        "secondary_name": "狼的紋章　クレスト・オブ・ウルフ",
+        "group_name": "Ookami-teki Monshou - Crest of Wolf",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Magical Saurus Tour (Japan)": {
+        "secondary_name": "マジカル・サウルス・ツアー",
+        "group_name": "Magical Saurus Tour",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Far East of Eden - Tengai Makyou - Ziria (Japan) (Rev 7)": {
+        "secondary_name": "天外魔境　－ＺＩＲＩＡ－",
+        "group_name": "Far East of Eden - Tengai Makyou - Ziria",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Tenchi Muyou! Ryououki (Japan)": {
+        "secondary_name": "天地無用！魎皇鬼",
+        "group_name": "Tenchi Muyou! Ryououki",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Kabuki Ittouryoudan (Japan)": {
+        "secondary_name": "カブキ一刀涼談",
+        "group_name": "Kabuki Ittouryoudan",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Mateki Densetsu Astralius (Japan)": {
+        "secondary_name": "魔笛伝説アストラリウス",
+        "group_name": "Mateki Densetsu Astralius",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "CAL II (Japan) (Alt)": {
+        "secondary_name": "キャルⅡ",
+        "group_name": "CAL II",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Efera & Jiliora - The Emblem from Darkness (Japan)": {
+        "secondary_name": "エフェラ＆ジリオラ　～ジ・エンブレム・フロム・ダークネス～",
+        "group_name": "Efera & Jiliora - The Emblem from Darkness",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Bikkuriman Daijikai (Japan)": {
+        "secondary_name": "ビックリマン大事界",
+        "group_name": "Bikkuriman Daijikai",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Golden Axe (Japan)": {
+        "secondary_name": "ゴールデン・アックス",
+        "group_name": "Golden Axe",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Psychic Detective Series Vol. 3 - Aya (Japan)": {
+        "secondary_name": "サイキック・ディテクティブ・シリーズ　Ｖｏｌ．３　「アヤ」",
+        "group_name": "Psychic Detective Series Vol. 3 - Aya",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Wrestling Universe - Fire Pro Joshi - Dome Choujo Taisen - Zenjo vs. JWP (Japan)": {
+        "secondary_name": "ファイ・プロ女子　憧夢超女大戦　～全女　ｖｓ　ＪＷＰ～",
+        "group_name": "Wrestling Universe - Fire Pro Joshi - Dome Choujo Taisen - Zenjo vs. JWP",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Garou Densetsu Special (Japan) (FABT)": {
+        "secondary_name": "餓狼伝説　ＳＰＥＣＩＡＬ",
+        "group_name": "Garou Densetsu Special",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Todd's Adventures in Slime World (Japan)": {
+        "secondary_name": "スライム・ワールド",
+        "group_name": "Todd's Adventures in Slime World",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Downtown Nekketsu Koushinkyoku - Soreyuke Daiundoukai (Japan)": {
+        "secondary_name": "ダウンタウン熱血行進曲　～それゆけ大運動会～",
+        "group_name": "Downtown Nekketsu Koushinkyoku - Soreyuke Daiundoukai",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "John Madden Duo CD Football (USA) (RE)": {
+        "secondary_name": "",
+        "group_name": "John Madden Duo CD Football",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Jack Nicklaus' World Tour Golf - 162 Holes (Japan)": {
+        "secondary_name": "ジャック・ニクラウス・ワールド・ゴルフ・ツアー　「１６２ホール」",
+        "group_name": "Jack Nicklaus' World Tour Golf - 162 Holes",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Go! Go! Birdie Chance (Japan)": {
+        "secondary_name": "ＧＯ！ＧＯ！バーディー・チャンス",
+        "group_name": "Go! Go! Birdie Chance",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Babel (Japan)": {
+        "secondary_name": "バベル",
+        "group_name": "Babel",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Forgotten Worlds (Japan)": {
+        "secondary_name": "フォゴットン・ワールド",
+        "group_name": "Forgotten Worlds",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Xak (Japan)": {
+        "secondary_name": "サークⅠ・Ⅱ",
+        "group_name": "Xak",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Shadow of the Beast (USA)": {
+        "secondary_name": "",
+        "group_name": "Shadow of the Beast",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "CD Bishoujo Pachinko - Kyuuma Yon Shimai (Japan) (Unl)": {
+        "secondary_name": "ＣＤ美少女パチンコ　～球魔四姉妹～",
+        "group_name": "CD Bishoujo Pachinko - Kyuuma Yon Shimai",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Unlicensed"
+    },
+    "Startling Odyssey II - Maryuu Sensou (Japan)": {
+        "secondary_name": "スタートリング・オデッセイⅡ　～魔竜戦争～",
+        "group_name": "Startling Odyssey II - Maryuu Sensou",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Dragon Ball Z - Idainaru Son Gokuu Densetsu (Japan) (FABT)": {
+        "secondary_name": "ドラゴンボールＺ　～偉大なる　孫悟空伝説～",
+        "group_name": "Dragon Ball Z - Idainaru Son Gokuu Densetsu",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Chou Eiyuu Densetsu - Dynastic Hero (Japan)": {
+        "secondary_name": "超英雄伝説　ダイナスティック・ヒーロー",
+        "group_name": "Chou Eiyuu Densetsu - Dynastic Hero",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "Rev 4",
+        "edition": "Original"
+    },
+    "Camp California (USA)": {
+        "secondary_name": "",
+        "group_name": "Camp California",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "SimEarth - The Living Planet (USA)": {
+        "secondary_name": "",
+        "group_name": "SimEarth - The Living Planet",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Original"
+    },
+    "Gate of Thunder (Japan) (FACT, FADT)": {
+        "secondary_name": "ゲート・オブ・サンダー",
+        "group_name": "Gate of Thunder",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Meteor Blaster DX (USA) (Unl)": {
+        "secondary_name": "",
+        "group_name": "Meteor Blaster DX",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Unlicensed"
+    },
+    "Gyuwambler Jiko Chuushinha - Gekitou 36 Janshi (Japan)": {
+        "secondary_name": "ぎゅわんぶらあ自己中心派　～激闘３６雀士～",
+        "group_name": "Gyuwambler Jiko Chuushinha - Gekitou 36 Janshi",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Sotsugyou II - Neo Generation (Japan)": {
+        "secondary_name": "卒業Ⅱ　～ネオ・ジェネレーション～",
+        "group_name": "Sotsugyou II - Neo Generation",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Kaizou Choujin Shubibinman 3 - Ikai no Princess (Japan)": {
+        "secondary_name": "改造町人シュビビンマン３　～異界のプリンセス～",
+        "group_name": "Kaizou Choujin Shubibinman 3 - Ikai no Princess",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Fighting Street (USA)": {
+        "secondary_name": "",
+        "group_name": "Fighting Street",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "World Heroes 2 (Japan)": {
+        "secondary_name": "ワールド・ヒーローズ２",
+        "group_name": "World Heroes 2",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "ROM^2 Karaoke Volume 3 (Japan)": {
+        "secondary_name": "ロム・ロム・カラオケ　ＶＯＬ．３",
+        "group_name": "ROM^2 Karaoke Volume 3",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Yokoyama Mitsuteru Shin Sangokushi - Tenka wa Ware ni (Japan)": {
+        "secondary_name": "横山光輝　真・三国志　～天下は我に～",
+        "group_name": "Yokoyama Mitsuteru Shin Sangokushi - Tenka wa Ware ni",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Super Darius (Japan)": {
+        "secondary_name": "スーパー・ダライアス",
+        "group_name": "Super Darius",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Emerald Dragon (Japan)": {
+        "secondary_name": "エメラルド・ドラゴン",
+        "group_name": "Emerald Dragon",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original, Tentou Demo-you"
+    },
+    "Tenchi o Kurau (Japan)": {
+        "secondary_name": "天地を喰らう",
+        "group_name": "Tenchi o Kurau",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Vasteel (Japan)": {
+        "secondary_name": "バスティール",
+        "group_name": "Vasteel",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Quiz Avenue II (Japan)": {
+        "secondary_name": "クイズ・アベニューⅡ",
+        "group_name": "Quiz Avenue II",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Metal Angel (Japan)": {
+        "secondary_name": "メタル・エンジェル",
+        "group_name": "Metal Angel",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Color Wars (Japan)": {
+        "secondary_name": "カラー・ウォーズ",
+        "group_name": "Color Wars",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Bomberman - Panic Bomber (Japan) (FABT)": {
+        "secondary_name": "ボンバーマン　～ぱにっくボンバー～",
+        "group_name": "Bomberman - Panic Bomber",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "J. B. Harold Murder Club (USA) (En,Ja)": {
+        "secondary_name": "",
+        "group_name": "J. B. Harold Murder Club",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En, Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Juuouki (Japan) (Rev 5)": {
+        "secondary_name": "獣王記",
+        "group_name": "Juuouki",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "1552 Tenka Tairan (Japan)": {
+        "secondary_name": "１５５２天下大乱",
+        "group_name": "1552 Tenka Tairan",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Tadaima Yuusha Boshuu-chuu (Japan)": {
+        "secondary_name": "ただいま勇者募集中",
+        "group_name": "Tadaima Yuusha Boshuu-chuu",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Neo Nectaris (Japan)": {
+        "secondary_name": "ネオ・ネクタリス",
+        "group_name": "Neo Nectaris",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Mahjong Vanilla Syndrome (Japan)": {
+        "secondary_name": "まーじゃんバニラ・シンドローム",
+        "group_name": "Mahjong Vanilla Syndrome",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "ImageFight II - Operation Deepstriker (Japan)": {
+        "secondary_name": "イメージファイト２",
+        "group_name": "ImageFight II - Operation Deepstriker",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Davis Cup Tennis, The (Japan)": {
+        "secondary_name": "ザ・デビス・カップ・テニス",
+        "group_name": "Davis Cup Tennis, The",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "AV Tanjou (Japan) (Unl) (Alt 2)": {
+        "secondary_name": "ＡＶ誕生",
+        "group_name": "AV Tanjou",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Unlicensed"
+    },
+    "Dead of the Brain 1&2 (Japan)": {
+        "secondary_name": "デッド・オブ・ザ・ブレイン１＆２",
+        "group_name": "Dead of the Brain 1&2",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Super Real Mahjong P.V Custom (Japan)": {
+        "secondary_name": "スーパー・リアル麻雀Ｐ・Ⅴカスタム",
+        "group_name": "Super Real Mahjong P.V Custom",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Genocide (Japan)": {
+        "secondary_name": "ジェノサイド",
+        "group_name": "Genocide",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Godzilla (USA)": {
+        "secondary_name": "",
+        "group_name": "Godzilla",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Original"
+    },
+    "Laplace no Ma (Japan)": {
+        "secondary_name": "ラプラスの魔",
+        "group_name": "Laplace no Ma",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "De-Ja (Japan)": {
+        "secondary_name": "デ・ジャ",
+        "group_name": "De-Ja",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Cosmic Fantasy 3 - Bouken Shounen Rei (Japan)": {
+        "secondary_name": "コズミック・ファンタジー３　～冒険少年レイ～",
+        "group_name": "Cosmic Fantasy 3 - Bouken Shounen Rei",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Winds of Thunder (Japan)": {
+        "secondary_name": "ウィンズ・オブ・サンダー",
+        "group_name": "Winds of Thunder",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Ryuuko no Ken (Japan) (En,Ja,Es) (Demo)": {
+        "secondary_name": "龍虎の拳",
+        "group_name": "Ryuuko no Ken",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En, Ja, Es",
+        "version": "",
+        "edition": "Sample"
+    },
+    "Goetzendiener (Japan)": {
+        "secondary_name": "ゲッツェンディーナー",
+        "group_name": "Goetzendiener",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "CD Hanafuda - Bishoujo Fan Club (Japan) (Unl)": {
+        "secondary_name": "ＣＤ花札　美少女ファンクラブ",
+        "group_name": "CD Hanafuda - Bishoujo Fan Club",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Unlicensed"
+    },
+    "Valis III (Japan)": {
+        "secondary_name": "ヴァリスⅢ",
+        "group_name": "Valis III",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Manhole, The (Japan)": {
+        "secondary_name": "マンホール",
+        "group_name": "Manhole, The",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Zero 4 Champ II (Japan)": {
+        "secondary_name": "ゼロ・ヨン・チャンプⅡ",
+        "group_name": "Zero 4 Champ II",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "Rev 1",
+        "edition": "Original, Sample"
+    },
+    "Rally Championship (Japan) (FABT)": {
+        "secondary_name": "チャンピオンシップ・ラリー",
+        "group_name": "Rally Championship",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "TerraForming (Japan)": {
+        "secondary_name": "テラフォーミング",
+        "group_name": "TerraForming",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "Rev 3",
+        "edition": "Original"
+    },
+    "Hatsukoi Monogatari (Japan) (Rev 2)": {
+        "secondary_name": "初恋物語",
+        "group_name": "Hatsukoi Monogatari",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Steam-Heart's (Japan)": {
+        "secondary_name": "スチーム・ハーツ",
+        "group_name": "Steam-Heart's",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Fantastic Night Dreams - Cotton (USA)": {
+        "secondary_name": "",
+        "group_name": "Fantastic Night Dreams - Cotton",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "PC Engine Fan - Special CD-ROM^2 Vol. 1 (Japan)": {
+        "secondary_name": "ＰＣエンジン・ファン　スペシャル　ＣＤ‐ＲＯＭ² 　Ｖｏｌ．１",
+        "group_name": "PC Engine Fan - Special CD-ROM^2 Vol. 1",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Bundled with Magazine"
+    },
+    "Hypernova Blast (USA) (Unl)": {
+        "secondary_name": "",
+        "group_name": "Hypernova Blast",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Unlicensed"
+    },
+    "Ranma 1-2 (Japan)": {
+        "secondary_name": "らんま１／２",
+        "group_name": "Ranma 1-2",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Private Eye dol (Japan)": {
+        "secondary_name": "プライベート・アイ・ドル",
+        "group_name": "Private Eye dol",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Space Adventure Cobra - Kokuryuuou no Densetsu (Japan)": {
+        "secondary_name": "コブラ　～黒竜王の伝説～",
+        "group_name": "Space Adventure Cobra - Kokuryuuou no Densetsu",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Bishoujo Janshi Idol Pai (Japan) (Unl)": {
+        "secondary_name": "美少女雀士アイドルパイ",
+        "group_name": "Bishoujo Janshi Idol Pai",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Unlicensed"
+    },
+    "Far East of Eden - Tengai Makyou II - Manji Maru (Japan)": {
+        "secondary_name": "天外魔境Ⅱ　－卍ＭＡＲＵ－",
+        "group_name": "Far East of Eden - Tengai Makyou II - Manji Maru",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Fushigi no Umi no Nadia - The Secret of Blue Water (Japan)": {
+        "secondary_name": "ふしぎの海のナディア",
+        "group_name": "Fushigi no Umi no Nadia - The Secret of Blue Water",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "PC Engine Hyper Catalog CD-ROM - 1994 Summer (Japan) (Disc A)": {
+        "secondary_name": "ＰＣエンジン　ハイパー・カタログ",
+        "group_name": "PC Engine Hyper Catalog CD-ROM - 1994 Summer",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Bundled with Magazine"
+    },
+    "Hellfire S - The Another Story (Japan)": {
+        "secondary_name": "ヘルファイアーＳ",
+        "group_name": "Hellfire S - The Another Story",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Implode (USA) (Unl)": {
+        "secondary_name": "",
+        "group_name": "Implode",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Unlicensed"
+    },
+    "Red Alert (Japan)": {
+        "secondary_name": "レッド・アラート",
+        "group_name": "Red Alert",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Top o Nerae! GunBuster Vol. 1 (Japan)": {
+        "secondary_name": "トップをねらえ！　ＧｕｎＢｕｓｔｅｒ　Ｖｏｌ．１",
+        "group_name": "Top o Nerae! GunBuster Vol. 1",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Iga Ninden Gaiou (Japan)": {
+        "secondary_name": "伊賀忍伝凱王",
+        "group_name": "Iga Ninden Gaiou",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Loom (Japan)": {
+        "secondary_name": "ルーム",
+        "group_name": "Loom",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Ranma 1-2 - Datou, Ganso Musabetsu Kakutou-ryuu! (Japan)": {
+        "secondary_name": "らんま１／２　～打倒、元祖無差別格闘流！～",
+        "group_name": "Ranma 1-2 - Datou, Ganso Musabetsu Kakutou-ryuu!",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "YaWaRa! 2 - A Fashionable Judo Girl! (Japan)": {
+        "secondary_name": "ＹａＷａＲａ！２",
+        "group_name": "YaWaRa! 2 - A Fashionable Judo Girl!",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "FX Unit Yuki - The Henshin Engine (USA) (Unl) (Rerelease)": {
+        "secondary_name": "",
+        "group_name": "FX Unit Yuki - The Henshin Engine",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Unlicensed (Rerelease)"
+    },
+    "PC Engine Hyper Catalog CD-ROM - 1994 Summer (Japan) (Disc B)": {
+        "secondary_name": "ＰＣエンジン　ハイパー・カタログ",
+        "group_name": "PC Engine Hyper Catalog CD-ROM - 1994 Summer",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Bundled with Magazine"
+    },
+    "Campaign Version - Daisenryaku II (Japan)": {
+        "secondary_name": "キャンペーン版　大戦略Ⅱ",
+        "group_name": "Campaign Version - Daisenryaku II",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Seirei Senshi Spriggan (Japan)": {
+        "secondary_name": "精霊戦士スプリガン",
+        "group_name": "Seirei Senshi Spriggan",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "ROM^2 Karaoke Volume 1 (Japan)": {
+        "secondary_name": "ロム・ロム・カラオケ　ＶＯＬ．１",
+        "group_name": "ROM^2 Karaoke Volume 1",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Black Hole Assault (Japan)": {
+        "secondary_name": "ブラック・ホール・アサルト",
+        "group_name": "Black Hole Assault",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Sherlock Holmes - Consulting Detective - Volume 2 (USA)": {
+        "secondary_name": "",
+        "group_name": "Sherlock Holmes - Consulting Detective - Volume 2",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Dragon Knight II (Japan)": {
+        "secondary_name": "ドラゴン・ナイトⅡ",
+        "group_name": "Dragon Knight II",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Space Invaders - The Original Game (Japan)": {
+        "secondary_name": "スペース・インベーダー",
+        "group_name": "Space Invaders - The Original Game",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "J. B. Harold Series 1 - Murder Club (Japan)": {
+        "secondary_name": "Ｊ．Ｂ．ハロルド・シリーズ＃１　殺人クラブ",
+        "group_name": "J. B. Harold Series 1 - Murder Club",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Bishoujo Senshi Sailor Moon (Japan)": {
+        "secondary_name": "美少女戦士　セーラームーン",
+        "group_name": "Bishoujo Senshi Sailor Moon",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Linda^3 (Japan) (Rev 2)": {
+        "secondary_name": "リンダキューブ",
+        "group_name": "Linda^3",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "Rev 2",
+        "edition": "Original"
+    },
+    "Far East of Eden - Tengai Makyou - Fuun Kabuki-den (Japan) (Demo)": {
+        "secondary_name": "天外魔境　風雲カブキ伝",
+        "group_name": "Far East of Eden - Tengai Makyou - Fuun Kabuki-den",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Bundled with Magazine (Taikenban)"
+    },
+    "Quiz Tonosama no Yabou (Japan)": {
+        "secondary_name": "クイズ殿様の野望",
+        "group_name": "Quiz Tonosama no Yabou",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Super Real Mahjong PIV Custom (Japan)": {
+        "secondary_name": "スーパー・リアル麻雀ＰⅣカスタム",
+        "group_name": "Super Real Mahjong PIV Custom",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Police Connection (Japan)": {
+        "secondary_name": "ポリス・コネクション",
+        "group_name": "Police Connection",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Might and Magic (Japan)": {
+        "secondary_name": "マイト・アンド・マジック",
+        "group_name": "Might and Magic",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Sherlock Holmes - Consulting Detective Vol. II (Japan)": {
+        "secondary_name": "シャーロック・ホームズの探偵講座Ⅱ",
+        "group_name": "Sherlock Holmes - Consulting Detective Vol. II",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Sword Master (Japan)": {
+        "secondary_name": "ソード・マスター",
+        "group_name": "Sword Master",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Bazar de Gozarre no Game de Gozarre (Japan)": {
+        "secondary_name": "バザールでござーるのゲームでござーる",
+        "group_name": "Bazar de Gozarre no Game de Gozarre",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Jack Nicklaus Turbo Golf (USA)": {
+        "secondary_name": "",
+        "group_name": "Jack Nicklaus Turbo Golf",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Original"
+    },
+    "No-Ri-Ko (Japan)": {
+        "secondary_name": "小川範子",
+        "group_name": "No-Ri-Ko",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Doukyuusei (Japan) (Rev 3)": {
+        "secondary_name": "同級生",
+        "group_name": "Doukyuusei",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Ginga Ojousama Densetsu Yuna (Japan) (FABT, FACT)": {
+        "secondary_name": "銀河お嬢様伝説ユナ",
+        "group_name": "Ginga Ojousama Densetsu Yuna",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Ys I & II (Japan)": {
+        "secondary_name": "イースⅠ・Ⅱ",
+        "group_name": "Ys I & II",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "SydMead's TerraForming (USA)": {
+        "secondary_name": "",
+        "group_name": "SydMead's TerraForming",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Pro Yakyuu Super '94, The (Japan)": {
+        "secondary_name": "ザ・プロ野球スーパー’９４",
+        "group_name": "Pro Yakyuu Super '94, The",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Tenshi no Uta (Japan)": {
+        "secondary_name": "天使の詩",
+        "group_name": "Tenshi no Uta",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Nekketsu Koukou Dodgeball-bu CD - Soccer-hen (Japan)": {
+        "secondary_name": "熱血高校ドッジボール部ＣＤ　「サッカー編」",
+        "group_name": "Nekketsu Koukou Dodgeball-bu CD - Soccer-hen",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Ultra Box 6-gou (Japan)": {
+        "secondary_name": "ウルトラ・ボックス６号",
+        "group_name": "Ultra Box 6-gou",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Kick Boxing, The (Japan)": {
+        "secondary_name": "ザ・キック・ボクシング",
+        "group_name": "Kick Boxing, The",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Kaze no Densetsu Xanadu (Japan) (Demo)": {
+        "secondary_name": "風の伝説ザナドゥ",
+        "group_name": "Kaze no Densetsu Xanadu",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Bundled with Magazine (Taiken Play CD-ROM)"
+    },
+    "Meteor Blaster DX (USA) (Unl) (Rerelease)": {
+        "secondary_name": "",
+        "group_name": "Meteor Blaster DX",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Unlicensed (Rerelease)"
+    },
+    "Sylphia (Japan)": {
+        "secondary_name": "シルフィア",
+        "group_name": "Sylphia",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Legion (Japan)": {
+        "secondary_name": "レギオン",
+        "group_name": "Legion",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Super Real Mahjong Special - Miki Kasumi Shouko no Omoide yori (Japan)": {
+        "secondary_name": "スーパー・リアル麻雀スペシャル　～ミキ・カスミ・ショウコの思い出より～",
+        "group_name": "Super Real Mahjong Special - Miki Kasumi Shouko no Omoide yori",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Sexy Idol Mahjong - Fashion Monogatari (Japan)": {
+        "secondary_name": "セクシー・アイドルま～じゃん　～ファッション物語～",
+        "group_name": "Sexy Idol Mahjong - Fashion Monogatari",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Cyber City Oedo 808 - Kemono no Alignment (Japan)": {
+        "secondary_name": "ＣＹＢＥＲ　ＣＩＴＹ　ＯＥＤＯ　８０８　～獣の属性～",
+        "group_name": "Cyber City Oedo 808 - Kemono no Alignment",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Summer Carnival '92 - Alzadick (Japan)": {
+        "secondary_name": "サマー・カーニバル’９２　「アルザディック」",
+        "group_name": "Summer Carnival '92 - Alzadick",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Might and Magic III - Isles of Terra (USA)": {
+        "secondary_name": "",
+        "group_name": "Might and Magic III - Isles of Terra",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Makai Eiyuuden - Shape Shifter (Japan)": {
+        "secondary_name": "魔界英雄伝　シェイプ・シフター",
+        "group_name": "Makai Eiyuuden - Shape Shifter",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "AV Tanjou (Japan) (Unl) (Alt 1)": {
+        "secondary_name": "ＡＶ誕生",
+        "group_name": "AV Tanjou",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Unlicensed"
+    },
+    "Legend of Xanadu - Kaze no Densetsu Xanadu II (Japan)": {
+        "secondary_name": "風の伝説ザナドゥⅡ",
+        "group_name": "Legend of Xanadu - Kaze no Densetsu Xanadu II",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Travellers! Densetsu o Buttobase (Japan)": {
+        "secondary_name": "とらべらーず！伝説をぶっとばせ",
+        "group_name": "Travellers! Densetsu o Buttobase",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Martial Champion (Japan)": {
+        "secondary_name": "マーシャル・チャンピオン",
+        "group_name": "Martial Champion",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Lemmings (Japan)": {
+        "secondary_name": "レミングス",
+        "group_name": "Lemmings",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "Rev 4",
+        "edition": "Original"
+    },
+    "3x3 Eyes - Sanjiyan Henjou (Japan) (Rev 1)": {
+        "secondary_name": "サザンアイズ　～三只眼變成～",
+        "group_name": "3x3 Eyes - Sanjiyan Henjou",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Alnam no Kiba - Juuzoku Juuni Shinto Densetsu (Japan) (FAAT)": {
+        "secondary_name": "アルナムの牙　～獣族十二神徒伝説～",
+        "group_name": "Alnam no Kiba - Juuzoku Juuni Shinto Densetsu",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Advanced V.G. (Japan)": {
+        "secondary_name": "アドヴァンスド　ヴァリアブル・ジオ",
+        "group_name": "Advanced V.G.",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Valis II (Japan)": {
+        "secondary_name": "ヴァリスⅡ",
+        "group_name": "Valis II",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Quiz Marugoto the World (Japan) (Rev 7)": {
+        "secondary_name": "ＱＵＩＺ　まるごと　Ｔｈｅ　ワールド",
+        "group_name": "Quiz Marugoto the World",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Puyo Puyo CD (Japan)": {
+        "secondary_name": "ぷよぷよＣＤ",
+        "group_name": "Puyo Puyo CD",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Megami Paradise (Japan)": {
+        "secondary_name": "女神天国",
+        "group_name": "Megami Paradise",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Dragon Slayer - The Legend of Heroes II (Japan)": {
+        "secondary_name": "ドラゴン・スレイヤー　～英雄伝説Ⅱ～",
+        "group_name": "Dragon Slayer - The Legend of Heroes II",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Ginga Fukei Densetsu Sapphire (Japan) (Reprint)": {
+        "secondary_name": "銀河婦警伝説サファイア",
+        "group_name": "Ginga Fukei Densetsu Sapphire",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Reprint"
+    },
+    "Splash Lake - Ostrich Daibouken (Japan)": {
+        "secondary_name": "スプラッシュ・レイク　～オストリッチ大冒険～",
+        "group_name": "Splash Lake - Ostrich Daibouken",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Super Real Mahjong PII, III Custom (Japan)": {
+        "secondary_name": "スーパー・リアル麻雀ＰⅡ・Ⅲカスタム",
+        "group_name": "Super Real Mahjong PII, III Custom",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Kisou Louga II - The Ends of Shangrila (Japan)": {
+        "secondary_name": "機装ルーガⅡ",
+        "group_name": "Kisou Louga II - The Ends of Shangrila",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Hihou Densetsu - Chris no Bouken (Japan)": {
+        "secondary_name": "秘宝伝説　～クリスの冒険～",
+        "group_name": "Hihou Densetsu - Chris no Bouken",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "Rev 1",
+        "edition": "Original"
+    },
+    "A.III. - A Ressha de Ikou III (Japan)": {
+        "secondary_name": "Ａ列車で行こうⅢ",
+        "group_name": "A.III. - A Ressha de Ikou III",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Quiz Avenue (Japan)": {
+        "secondary_name": "クイズ・アベニュー",
+        "group_name": "Quiz Avenue",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Aoki Ookami to Shiroki Mejika - Genchou Hishi (Japan)": {
+        "secondary_name": "蒼き狼と白き牝鹿・元朝秘史",
+        "group_name": "Aoki Ookami to Shiroki Mejika - Genchou Hishi",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Sherlock Holmes - Consulting Detective (Japan)": {
+        "secondary_name": "シャーロック・ホームズの探偵講座",
+        "group_name": "Sherlock Holmes - Consulting Detective",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Magicoal (Japan)": {
+        "secondary_name": "マジクール",
+        "group_name": "Magicoal",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Beyond Shadowgate (USA)": {
+        "secondary_name": "",
+        "group_name": "Beyond Shadowgate",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Original"
+    },
+    "It Came from the Desert (USA)": {
+        "secondary_name": "",
+        "group_name": "It Came from the Desert",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Exile - Toki no Hasama e (Japan)": {
+        "secondary_name": "エグザイル　～時の狭間へ～",
+        "group_name": "Exile - Toki no Hasama e",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Tokimeki Memorial (Japan)": {
+        "secondary_name": "ときめきメモリアル",
+        "group_name": "Tokimeki Memorial",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Burai - Yatsudama no Yuushi Densetsu (Japan)": {
+        "secondary_name": "ブライ　～八玉の勇士伝説～",
+        "group_name": "Burai - Yatsudama no Yuushi Densetsu",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Jantei Monogatari (Japan)": {
+        "secondary_name": "雀偵物語",
+        "group_name": "Jantei Monogatari",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Wonder Boy III - Monster Lair (Japan) (Rev 4)": {
+        "secondary_name": "ワンダー・ボーイⅢ　モンスター・レアー",
+        "group_name": "Wonder Boy III - Monster Lair",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Basted (Japan)": {
+        "secondary_name": "バステッド",
+        "group_name": "Basted",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Nemurenu Yoru no Chiisana Ohanashi (Japan)": {
+        "secondary_name": "眠れぬ夜の小さなお話",
+        "group_name": "Nemurenu Yoru no Chiisana Ohanashi",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Sotsugyou Shashin - Miki (Japan)": {
+        "secondary_name": "卒業写真　～美姫～",
+        "group_name": "Sotsugyou Shashin - Miki",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Ginga Ojousama Densetsu Yuna 2 - Eien no Princess (Japan) (FABT)": {
+        "secondary_name": "銀河お嬢様伝説ユナ２　～永遠のプリンセス～",
+        "group_name": "Ginga Ojousama Densetsu Yuna 2 - Eien no Princess",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Tanjou - Debut (Japan)": {
+        "secondary_name": "誕生　～デビュー～",
+        "group_name": "Tanjou - Debut",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Tokimeki Memorial (Japan) (Rev 2) (FABT)": {
+        "secondary_name": "ときめきメモリアル",
+        "group_name": "Tokimeki Memorial",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Wizardry I, II (Japan)": {
+        "secondary_name": "ウイザードリィⅠ・Ⅱ",
+        "group_name": "Wizardry I, II",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Seiya Monogatari - Anearth Fantasy Stories (Japan)": {
+        "secondary_name": "聖夜物語",
+        "group_name": "Seiya Monogatari - Anearth Fantasy Stories",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "Rev 2",
+        "edition": "Original"
+    },
+    "Shin Nihon Pro Wrestling - '94 Battlefield in Tokyo Dome (Japan)": {
+        "secondary_name": "新日本プロレスリング　’９４バトルフィールド　ｉｎ　闘強導夢",
+        "group_name": "Shin Nihon Pro Wrestling - '94 Battlefield in Tokyo Dome",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Juuouki (Japan) (Rev 4)": {
+        "secondary_name": "獣王記",
+        "group_name": "Juuouki",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Ryuuko no Ken (Japan) (En,Ja,Es) (FACT)": {
+        "secondary_name": "龍虎の拳",
+        "group_name": "Ryuuko no Ken",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En, Ja, Es",
+        "version": "",
+        "edition": "Original"
+    },
+    "Mamono Hunter Youko - Tooki Yobigoe (Japan)": {
+        "secondary_name": "魔物ハンター　妖子　～遠き呼び声～",
+        "group_name": "Mamono Hunter Youko - Tooki Yobigoe",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Chou Jikuu Yousai Macross - Eien no Love Song (Japan)": {
+        "secondary_name": "超時空要塞マクロス　～永遠のラブソング～",
+        "group_name": "Chou Jikuu Yousai Macross - Eien no Love Song",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Blood Gear (Japan)": {
+        "secondary_name": "ブラッド・ギア",
+        "group_name": "Blood Gear",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Inoue Mami - Kono Hoshi ni Tatta Hitori no Kimi (Japan)": {
+        "secondary_name": "井上麻美　～この星にたったひとりのキミ～",
+        "group_name": "Inoue Mami - Kono Hoshi ni Tatta Hitori no Kimi",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "ROM^2 Karaoke Volume 4 (Japan)": {
+        "secondary_name": "ロム・ロム・カラオケ　ＶＯＬ．４",
+        "group_name": "ROM^2 Karaoke Volume 4",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Dungeon Explorer II (USA)": {
+        "secondary_name": "",
+        "group_name": "Dungeon Explorer II",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Quiz Caravan Cult Q (Japan)": {
+        "secondary_name": "クイズ・キャラバン・カルトＱ",
+        "group_name": "Quiz Caravan Cult Q",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Valis II (USA)": {
+        "secondary_name": "",
+        "group_name": "Valis II",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Prince of Persia (Japan)": {
+        "secondary_name": "プリンス・オブ・ペルシャ",
+        "group_name": "Prince of Persia",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Yami no Ketsuzoku - Harukanaru Kioku (Japan)": {
+        "secondary_name": "闇の血族　～遥かなる記憶～",
+        "group_name": "Yami no Ketsuzoku - Harukanaru Kioku",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Mad Stalker - Full Metal Force (Japan)": {
+        "secondary_name": "マッ・ドストーカー　フル・メタル・フォース",
+        "group_name": "Mad Stalker - Full Metal Force",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Faceball (Japan)": {
+        "secondary_name": "フェイスボール",
+        "group_name": "Faceball",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Snatcher CD-ROMantic (Japan)": {
+        "secondary_name": "スナッチャー・シーディロマンティック",
+        "group_name": "Snatcher CD-ROMantic",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Taiheiki (Japan)": {
+        "secondary_name": "太平記",
+        "group_name": "Taiheiki",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "F1 Circus Special - Pole to Win (Japan) (FABT)": {
+        "secondary_name": "エフ・ワン・サーカス・スペシャル　～ポール・トゥ・ウィン～",
+        "group_name": "F1 Circus Special - Pole to Win",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Godzilla Bakutou Retsuden (Japan)": {
+        "secondary_name": "ゴジラ爆闘烈伝",
+        "group_name": "Godzilla Bakutou Retsuden",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Laser Soft Visual Collection Vol. 2 - Valis Visual-shuu (Japan)": {
+        "secondary_name": "ヴァリス　「ビジュアル集」",
+        "group_name": "Laser Soft Visual Collection Vol. 2 - Valis Visual-shuu",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Strider Hiryuu (Japan)": {
+        "secondary_name": "ストライダー飛竜",
+        "group_name": "Strider Hiryuu",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Garou Densetsu Special (Japan) (Demo)": {
+        "secondary_name": "餓狼伝説　ＳＰＥＣＩＡＬ",
+        "group_name": "Garou Densetsu Special",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Sample"
+    },
+    "Doukyuusei (Japan) (Rev 3) (Alt 2)": {
+        "secondary_name": "同級生",
+        "group_name": "Doukyuusei",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Psychic Storm (Japan)": {
+        "secondary_name": "サイキック・ストーム",
+        "group_name": "Psychic Storm",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Record of Lodoss War II (Japan)": {
+        "secondary_name": "ロードス島戦記Ⅱ",
+        "group_name": "Record of Lodoss War II",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Fiend Hunter (Japan)": {
+        "secondary_name": "フィーンド・ハンター",
+        "group_name": "Fiend Hunter",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "High Grenadier (Japan)": {
+        "secondary_name": "ハイ・グレネーダー",
+        "group_name": "High Grenadier",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Battle Shanghai - Dragon's Eye ~ Shanghai III - Dragon's Eye (Japan)": {
+        "secondary_name": "バトル上海　～ドラゴンズ・アイ～",
+        "group_name": "Battle Shanghai - Dragon's Eye ~ Shanghai III - Dragon's Eye",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Shape Shifter (USA)": {
+        "secondary_name": "",
+        "group_name": "Shape Shifter",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Original"
+    },
+    "Valis III (USA)": {
+        "secondary_name": "",
+        "group_name": "Valis III",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Doraemon - Nobita no Dorabian Night (Japan)": {
+        "secondary_name": "ドラえもん　～のび太のドラビアンナイト～",
+        "group_name": "Doraemon - Nobita no Dorabian Night",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Faussete Amour (Japan)": {
+        "secondary_name": "フォーセット・アムール",
+        "group_name": "Faussete Amour",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Local Girls of Hawaii, The (USA) (Unl)": {
+        "secondary_name": "",
+        "group_name": "Local Girls of Hawaii, The",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Unlicensed"
+    },
+    "Seiya Monogatari - Anearth Fantasy Stories (Japan) (Demo)": {
+        "secondary_name": "聖夜物語",
+        "group_name": "Seiya Monogatari - Anearth Fantasy Stories",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Bundled with Book (Dengeki PC Engine Special Edition - Taikenban)"
+    },
+    "Bonk III - Bonk's Big Adventure (USA)": {
+        "secondary_name": "",
+        "group_name": "Bonk III - Bonk's Big Adventure",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Original"
+    },
+    "GS (Ghost Sweeper) Mikami (Japan)": {
+        "secondary_name": "ＧＳ美神",
+        "group_name": "GS",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Revival Chase (USA) (En,Fr) (Unl)": {
+        "secondary_name": "チェイス",
+        "group_name": "Revival Chase",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En, Fr",
+        "version": "",
+        "edition": "Bundled with Magazine (Unlicensed)"
+    },
+    "Ys Book I & II (USA)": {
+        "secondary_name": "",
+        "group_name": "Ys Book I & II",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "PC Engine Hyper Catalog CD-ROM 5 - 1994 Spring (Japan)": {
+        "secondary_name": "ＰＣエンジン　ハイパー・カタログ５",
+        "group_name": "PC Engine Hyper Catalog CD-ROM 5 - 1994 Spring",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Bundled with Magazine"
+    },
+    "R-Type Complete CD (Japan)": {
+        "secondary_name": "アール・タイプ　コンプリートＣＤ",
+        "group_name": "R-Type Complete CD",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Princess Minerva (Japan)": {
+        "secondary_name": "プリンセス・ミネルバ",
+        "group_name": "Princess Minerva",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Pachio-kun - Maboroshi no Densetsu (Japan) (Rev 7)": {
+        "secondary_name": "パチ夫くん　～幻の伝説～",
+        "group_name": "Pachio-kun - Maboroshi no Densetsu",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original, Genteiban"
+    },
+    "Road Spirits (Japan)": {
+        "secondary_name": "ロード・スピリッツ",
+        "group_name": "Road Spirits",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Ginga Ojousama Densetsu Yuna HuVIDEO CD (Japan)": {
+        "secondary_name": "銀河お嬢様伝説ユナ",
+        "group_name": "Ginga Ojousama Densetsu Yuna HuVIDEO CD",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Rerelease"
+    },
+    "Psychic Detective Series Vol. 4 - Orgel (Japan)": {
+        "secondary_name": "サイキック・ディテクティヴ・シリーズ　ＶＯＬ．４　「オルゴール」",
+        "group_name": "Psychic Detective Series Vol. 4 - Orgel",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "CD Denjin - Rockabilly Tengoku (Japan)": {
+        "secondary_name": "ＣＤ電人　～ロカビリー天国～",
+        "group_name": "CD Denjin - Rockabilly Tengoku",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Valis III (Japan) (Alt)": {
+        "secondary_name": "ヴァリスⅢ",
+        "group_name": "Valis III",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Jantei Monogatari 2 - Uchuu Tantei Diban - Kanketsu-hen (Japan)": {
+        "secondary_name": "雀偵物語２　～宇宙探偵ディバン～　完結編",
+        "group_name": "Jantei Monogatari 2 - Uchuu Tantei Diban - Kanketsu-hen",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Ginga Fukei Densetsu Sapphire (Japan)": {
+        "secondary_name": "銀河婦警伝説サファイア",
+        "group_name": "Ginga Fukei Densetsu Sapphire",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Shougi Database Kiyuu (Japan)": {
+        "secondary_name": "将棋データベース　棋友",
+        "group_name": "Shougi Database Kiyuu",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Pachio-kun - Maboroshi no Densetsu (Japan) (Rev 8)": {
+        "secondary_name": "パチ夫くん　～幻の伝説～",
+        "group_name": "Pachio-kun - Maboroshi no Densetsu",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Ginga Ojousama Densetsu Yuna (Japan) (FAFT)": {
+        "secondary_name": "銀河お嬢様伝説ユナ",
+        "group_name": "Ginga Ojousama Densetsu Yuna",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Rerelease"
+    },
+    "Metamor Jupiter (Japan)": {
+        "secondary_name": "メタモ・ジュピター",
+        "group_name": "Metamor Jupiter",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Splash Lake (USA)": {
+        "secondary_name": "",
+        "group_name": "Splash Lake",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Mahjong Vanilla Syndrome (Japan) (Alt)": {
+        "secondary_name": "まーじゃんバニラ・シンドローム",
+        "group_name": "Mahjong Vanilla Syndrome",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Galaxy Deka Gayvan (Japan)": {
+        "secondary_name": "ＧＡＬＡＸＹ刑事ガイバン",
+        "group_name": "Galaxy Deka Gayvan",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Rayxanber II (Japan)": {
+        "secondary_name": "ライザンバーⅡ",
+        "group_name": "Rayxanber II",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Ane-san (Japan)": {
+        "secondary_name": "姐",
+        "group_name": "Ane-san",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Mysterious Song (USA) (En,Fr,Es) (Unl) (Rerelease)": {
+        "secondary_name": "",
+        "group_name": "Mysterious Song",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En, Fr, Es",
+        "version": "",
+        "edition": "Unlicensed (Rerelease)"
+    },
+    "Nekketsu Legend - Baseballer (Japan)": {
+        "secondary_name": "熱血レジェンド　ベースボーラー",
+        "group_name": "Nekketsu Legend - Baseballer",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Motteke Tamago (Japan)": {
+        "secondary_name": "もってけたまご",
+        "group_name": "Motteke Tamago",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Bundled with Magazine"
+    },
+    "Princess Maker 2 (Japan)": {
+        "secondary_name": "プリンセス・メーカー２",
+        "group_name": "Princess Maker 2",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Ginga Ojousama Densetsu Yuna 2 - Eien no Princess (Japan) (FAAT)": {
+        "secondary_name": "銀河お嬢様伝説ユナ２　～永遠のプリンセス～",
+        "group_name": "Ginga Ojousama Densetsu Yuna 2 - Eien no Princess",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Doukyuusei (Japan) (Rev 4)": {
+        "secondary_name": "同級生",
+        "group_name": "Doukyuusei",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Hyper Wars (Japan) (SAAS)": {
+        "secondary_name": "ハイパー・ウォーズ",
+        "group_name": "Hyper Wars",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "TV Show, The (Japan)": {
+        "secondary_name": "ザ・ティーヴィー・ショー",
+        "group_name": "TV Show, The",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Vasteel 2 (Japan)": {
+        "secondary_name": "バスティール２",
+        "group_name": "Vasteel 2",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Human Sports Festival (Japan)": {
+        "secondary_name": "ヒューマン・スポーツ・フェスティバル",
+        "group_name": "Human Sports Festival",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Ultra Box 3-gou (Japan)": {
+        "secondary_name": "ウルトラ・ボックス３号",
+        "group_name": "Ultra Box 3-gou",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Emerald Dragon (Japan) (Rev 1)": {
+        "secondary_name": "エメラルド・ドラゴン",
+        "group_name": "Emerald Dragon",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Garou Densetsu 2 - Aratanaru Tatakai (Japan) (FABT, FAET, FAFT)": {
+        "secondary_name": "餓狼伝説２　～新たなる闘い～",
+        "group_name": "Garou Densetsu 2 - Aratanaru Tatakai",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "PC Engine Hyper Catalog CD-ROM (Japan)": {
+        "secondary_name": "ＰＣエンジン　ハイパー・カタログ",
+        "group_name": "PC Engine Hyper Catalog CD-ROM",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Bundled with Magazine"
+    },
+    "Gensou Tairiku Auleria (Japan)": {
+        "secondary_name": "幻蒼大陸オーレリア",
+        "group_name": "Gensou Tairiku Auleria",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Gate of Thunder + Bonk's Adventure + Bonk's Revenge (USA)": {
+        "secondary_name": "",
+        "group_name": "Gate of Thunder + Bonk's Adventure + Bonk's Revenge",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Bundled with TurboDuo"
+    },
+    "Uchuu Senkan Yamato (Japan)": {
+        "secondary_name": "宇宙戦艦ヤマト",
+        "group_name": "Uchuu Senkan Yamato",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Cosmic Fantasy 2 - Bouken Shounen Ban (Japan)": {
+        "secondary_name": "コズミック・ファンタジー２　～冒険少年バン～",
+        "group_name": "Cosmic Fantasy 2 - Bouken Shounen Ban",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Kuusou Kagaku Sekai Gulliver Boy (Japan)": {
+        "secondary_name": "空想科学世界ガリバーボーイ",
+        "group_name": "Kuusou Kagaku Sekai Gulliver Boy",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Cardangels (Japan)": {
+        "secondary_name": "カードエンジェルス",
+        "group_name": "Cardangels",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Wizardry III, IV (Japan)": {
+        "secondary_name": "ウィザードリィⅢ・Ⅳ",
+        "group_name": "Wizardry III, IV",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Magical Dinosaur Tour (USA)": {
+        "secondary_name": "",
+        "group_name": "Magical Dinosaur Tour",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "Rev 3",
+        "edition": "Original"
+    },
+    "Super Darius II (Japan)": {
+        "secondary_name": "スーパー・ダライアスⅡ",
+        "group_name": "Super Darius II",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "Rev 1",
+        "edition": "Original"
+    },
+    "Quiz Avenue III (Japan)": {
+        "secondary_name": "クイズ・アベニューⅢ",
+        "group_name": "Quiz Avenue III",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Monster Lair (USA)": {
+        "secondary_name": "",
+        "group_name": "Monster Lair",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Mashou Denki - La Valeur (Japan)": {
+        "secondary_name": "魔晶伝記　ラ・ヴァルー",
+        "group_name": "Mashou Denki - La Valeur",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Langrisser - Hikari no Matsuei (Japan)": {
+        "secondary_name": "ラングリッサー　～光輝の末裔～",
+        "group_name": "Langrisser - Hikari no Matsuei",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Super Schwarzschild (Japan)": {
+        "secondary_name": "スーパー・シュヴァルツシルト",
+        "group_name": "Super Schwarzschild",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Last Armageddon (Japan) (Rev 5)": {
+        "secondary_name": "ラスト・ハルマゲドン",
+        "group_name": "Last Armageddon",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Jantei Monogatari 2 - Uchuu Tantei Diban - Shutsudou-hen (Japan)": {
+        "secondary_name": "雀偵物語２　～宇宙探偵ディバン～　出動編",
+        "group_name": "Jantei Monogatari 2 - Uchuu Tantei Diban - Shutsudou-hen",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Cosmic Fantasy - Bouken Shounen Yuu (Japan) (Alt 2)": {
+        "secondary_name": "コズミック・ファンタジー　～冒険少年ユウ～",
+        "group_name": "Cosmic Fantasy - Bouken Shounen Yuu",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Forgotten Worlds (USA) (En,Ja)": {
+        "secondary_name": "",
+        "group_name": "Forgotten Worlds",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En, Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Madou Monogatari I - Honoo no Sotsuenji (Japan)": {
+        "secondary_name": "魔導物語Ⅰ　～炎の卒園児～",
+        "group_name": "Madou Monogatari I - Honoo no Sotsuenji",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Ys III (Japan)": {
+        "secondary_name": "イースⅢ",
+        "group_name": "Ys III",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Kawa no Nushitsuri - Shizen-ha (Japan)": {
+        "secondary_name": "川のぬし釣り　自然派",
+        "group_name": "Kawa no Nushitsuri - Shizen-ha",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Palladion - Auto Crusher Palladium (Japan)": {
+        "secondary_name": "パラディオン　－ＡＵＴＯ　ＣＲＵＳＨＥＲ　ＰＡＬＬＡＤＩＵＭ－",
+        "group_name": "Palladion - Auto Crusher Palladium",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Monster Maker - Yami no Ryuukishi (Japan)": {
+        "secondary_name": "モンスター・メーカー　～闇の竜騎士～",
+        "group_name": "Monster Maker - Yami no Ryuukishi",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Lady Phantom (Japan) (FABT)": {
+        "secondary_name": "レディ・ファントム",
+        "group_name": "Lady Phantom",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "3x3 Eyes - Sanjiyan Henjou (Japan)": {
+        "secondary_name": "サザンアイズ　～三只眼變成～",
+        "group_name": "3x3 Eyes - Sanjiyan Henjou",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "J. League Tremendous Soccer '94 (Japan)": {
+        "secondary_name": "Ｊリーグ・ トリメンダス・サッカー’９４",
+        "group_name": "J. League Tremendous Soccer '94",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Bishoujo Senshi Sailor Moon Collection (Japan)": {
+        "secondary_name": "美少女戦士　セーラームーン　コレクション",
+        "group_name": "Bishoujo Senshi Sailor Moon Collection",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Star Parodier (Japan)": {
+        "secondary_name": "スター・パロジャー",
+        "group_name": "Star Parodier",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Quiz de Gakuensai (Japan)": {
+        "secondary_name": "クイズＤＥ学園祭",
+        "group_name": "Quiz de Gakuensai",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Mitsubachi Gakuen (Japan)": {
+        "secondary_name": "みつばち学園",
+        "group_name": "Mitsubachi Gakuen",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Puyo Puyo CD Tsuu (Japan)": {
+        "secondary_name": "ぷよぷよＣＤ通",
+        "group_name": "Puyo Puyo CD Tsuu",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Avenger (Japan)": {
+        "secondary_name": "アヴェンジャー",
+        "group_name": "Avenger",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Lords of the Rising Sun (USA)": {
+        "secondary_name": "",
+        "group_name": "Lords of the Rising Sun",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Laser Soft Visual Collection Vol. 1 - Cosmic Fantasy Visual-shuu (Japan)": {
+        "secondary_name": "コズミック・ファンタジー　「ビジュアル集」",
+        "group_name": "Laser Soft Visual Collection Vol. 1 - Cosmic Fantasy Visual-shuu",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Rainbow Islands - The Story of Bubble Bobble 2 (Japan)": {
+        "secondary_name": "レインボー・アイランド",
+        "group_name": "Rainbow Islands - The Story of Bubble Bobble 2",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Far East of Eden - Tengai Makyou - Ziria (Japan) (Hibaihin)": {
+        "secondary_name": "天外魔境　－ＺＩＲＩＡ－",
+        "group_name": "Far East of Eden - Tengai Makyou - Ziria",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Hibaihin"
+    },
+    "Ai Chou Aniki (Japan) (SADS)": {
+        "secondary_name": "愛・超兄貴",
+        "group_name": "Ai Chou Aniki",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Buster Bros. (USA)": {
+        "secondary_name": "",
+        "group_name": "Buster Bros.",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Chiki Chiki Boys (Japan)": {
+        "secondary_name": "チキチキボーイズ",
+        "group_name": "Chiki Chiki Boys",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Ranma 1-2 - Toraware no Hanayome (Japan)": {
+        "secondary_name": "らんま１／２　～とらわれの花嫁～",
+        "group_name": "Ranma 1-2 - Toraware no Hanayome",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Seisenshi Denshou - Jantaku no Kishi (Japan)": {
+        "secondary_name": "聖戦士伝承　～雀卓の騎士～",
+        "group_name": "Seisenshi Denshou - Jantaku no Kishi",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Down Load 2 (Japan)": {
+        "secondary_name": "ダウン・ロード2",
+        "group_name": "Down Load 2",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "Rev 2",
+        "edition": "Original"
+    },
+    "Fighting Street (Japan) (Rev 4)": {
+        "secondary_name": "ファイティング・ストリート",
+        "group_name": "Fighting Street",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Ys IV - The Dawn of Ys (Japan) (Rev 4)": {
+        "secondary_name": "イースⅣ　～ザ・ドーン・オブ・イース～",
+        "group_name": "Ys IV - The Dawn of Ys",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "Rev 4",
+        "edition": "Original"
+    },
+    "KO Seiki Beast Sanjuushi - Gaia Fukkatsu - Kanketsu-hen (Japan)": {
+        "secondary_name": "ＫＯ世紀ビースト三獣士　～ガイア復活～　完結編",
+        "group_name": "KO Seiki Beast Sanjuushi - Gaia Fukkatsu - Kanketsu-hen",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Alnam no Kiba - Juuzoku Juuni Shinto Densetsu (Japan) (FABT)": {
+        "secondary_name": "アルナムの牙　～獣族十二神徒伝説～",
+        "group_name": "Alnam no Kiba - Juuzoku Juuni Shinto Densetsu",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "PC Engine Hyper Catalog CD-ROM 2 - 1993 Spring (Japan)": {
+        "secondary_name": "ＰＣエンジン　ハイパー・カタログ２",
+        "group_name": "PC Engine Hyper Catalog CD-ROM 2 - 1993 Spring",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Bundled with Magazine"
+    },
+    "PC Engine Hyper Catalog CD-ROM 6 - 1994 Summer (Japan) (Disc B)": {
+        "secondary_name": "ＰＣエンジン　ハイパー・カタログ６",
+        "group_name": "PC Engine Hyper Catalog CD-ROM 6 - 1994 Summer",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Bundled with Magazine"
+    },
+    "Exile (USA)": {
+        "secondary_name": "",
+        "group_name": "Exile",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Lord of Wars (Japan)": {
+        "secondary_name": "ロード・オブ・ウォーズ",
+        "group_name": "Lord of Wars",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Mystic Formula (Japan)": {
+        "secondary_name": "ミスティック・フォーミュラ",
+        "group_name": "Mystic Formula",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "ROM^2 Karaoke Volume 2 (Japan)": {
+        "secondary_name": "ロム・ロム・カラオケ　ＶＯＬ．２",
+        "group_name": "ROM^2 Karaoke Volume 2",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Cosmic Fantasy - Bouken Shounen Yuu (Japan)": {
+        "secondary_name": "コズミック・ファンタジー　～冒険少年ユウ～",
+        "group_name": "Cosmic Fantasy - Bouken Shounen Yuu",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Pachio-kun 3 - Pachi-Slot & Pachinko (Japan)": {
+        "secondary_name": "パチ夫くん３　～パチスロ＆パチンコ～",
+        "group_name": "Pachio-kun 3 - Pachi-Slot & Pachinko",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Quiz no Hoshi - Star of Quiz (Japan)": {
+        "secondary_name": "クイズの星",
+        "group_name": "Quiz no Hoshi - Star of Quiz",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Vasteel (USA)": {
+        "secondary_name": "",
+        "group_name": "Vasteel",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Eiyuu Sangokushi (Japan)": {
+        "secondary_name": "英雄三国志",
+        "group_name": "Eiyuu Sangokushi",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Star Breaker (Japan)": {
+        "secondary_name": "スター・ブレイカー",
+        "group_name": "Star Breaker",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Bakuden - Unbalance Zone (Japan)": {
+        "secondary_name": "獏伝　～アンバランス・ゾーン～",
+        "group_name": "Bakuden - Unbalance Zone",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Legend of Xanadu - Kaze no Densetsu Xanadu (Japan)": {
+        "secondary_name": "風の伝説ザナドゥ",
+        "group_name": "Legend of Xanadu - Kaze no Densetsu Xanadu",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original, Sample"
+    },
+    "Dragon Slayer - The Legend of Heroes (USA)": {
+        "secondary_name": "",
+        "group_name": "Dragon Slayer - The Legend of Heroes",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Asuka 120% Maxima - Burning Fest. Maxima (Japan)": {
+        "secondary_name": "あすか１２０％マキシマ",
+        "group_name": "Asuka 120% Maxima - Burning Fest. Maxima",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Shin Onryou Senki (Japan)": {
+        "secondary_name": "真怨霊戦記",
+        "group_name": "Shin Onryou Senki",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Startling Odyssey II - Maryuu Sensou (Japan) (Demo)": {
+        "secondary_name": "スタートリング・オデッセイⅡ　～魔竜戦争～",
+        "group_name": "Startling Odyssey II - Maryuu Sensou",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Tentou-you Sample"
+    },
+    "Sherlock Holmes - Consulting Detective (USA)": {
+        "secondary_name": "",
+        "group_name": "Sherlock Holmes - Consulting Detective",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Hyper Wars (Japan) (SABS)": {
+        "secondary_name": "ハイパー・ウォーズ",
+        "group_name": "Hyper Wars",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Wrestle Angels - Double Impact (Japan)": {
+        "secondary_name": "レッスル・エンジェルス・ダブル・インパクト",
+        "group_name": "Wrestle Angels - Double Impact",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Super Daisenryaku (Japan)": {
+        "secondary_name": "ＳＵＰＥＲ　大戦略",
+        "group_name": "Super Daisenryaku",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Cosmic Fantasy 2 (USA)": {
+        "secondary_name": "",
+        "group_name": "Cosmic Fantasy 2",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "PopfulMail (Japan)": {
+        "secondary_name": "ぽっぷるメイル",
+        "group_name": "PopfulMail",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Super Air Zonk - Rockabilly-Paradise (USA)": {
+        "secondary_name": "",
+        "group_name": "Super Air Zonk - Rockabilly-Paradise",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Original"
+    },
+    "CD Mahjong - Bishoujo Chuushinha (Japan) (Unl)": {
+        "secondary_name": "ＣＤ麻雀　美少女中心派",
+        "group_name": "CD Mahjong - Bishoujo Chuushinha",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Unlicensed"
+    },
+    "BuilderLand - The Story of Melba (Japan)": {
+        "secondary_name": "ビルダーランド",
+        "group_name": "BuilderLand - The Story of Melba",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Super CD-ROM^2 Taiken Soft Shuu (Japan)": {
+        "secondary_name": "ＳＵＰＥＲ　ＣＤ‐ＲＯＭ² 　体験ソフト集",
+        "group_name": "Super CD-ROM^2 Taiken Soft Shuu",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Sexy Idol Mahjong (Japan)": {
+        "secondary_name": "セクシー・アイドル麻雀",
+        "group_name": "Sexy Idol Mahjong",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Kiaidan 00 (Japan)": {
+        "secondary_name": "キアイダン００",
+        "group_name": "Kiaidan 00",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Dungeon Explorer II (Japan)": {
+        "secondary_name": "ダンジョン・エクスプローラーⅡ",
+        "group_name": "Dungeon Explorer II",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Shanghai II (Japan)": {
+        "secondary_name": "上海Ⅱ",
+        "group_name": "Shanghai II",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Kisou Louga (Japan) (FABT)": {
+        "secondary_name": "機装ルーガ",
+        "group_name": "Kisou Louga",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Double Dragon II - The Revenge (Japan)": {
+        "secondary_name": "ダブル・ドラゴンⅡ",
+        "group_name": "Double Dragon II - The Revenge",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Tokimeki Memorial (Japan) (Rev 1)": {
+        "secondary_name": "ときめきメモリアル",
+        "group_name": "Tokimeki Memorial",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Burai II - Yami Koutei no Gyakushuu (Japan)": {
+        "secondary_name": "ブライⅡ　～闇皇帝の逆襲～",
+        "group_name": "Burai II - Yami Koutei no Gyakushuu",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Where in the World Is Carmen Sandiego (Japan) (En,Ja)": {
+        "secondary_name": "カルメン・サンディエゴを追え！　「世界編」",
+        "group_name": "Where in the World Is Carmen Sandiego",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En, Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Hyper Dyne - SideArms Special (Japan) (Alt)": {
+        "secondary_name": "サイドアーム・スペシャル",
+        "group_name": "Hyper Dyne - SideArms Special",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Cosmic Fantasy 4 - Ginga Shounen Densetsu - Totsunyuu-hen (Japan)": {
+        "secondary_name": "コズミック・ファンタジー４　～銀河少年伝説～　突入編",
+        "group_name": "Cosmic Fantasy 4 - Ginga Shounen Densetsu - Totsunyuu-hen",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Super Schwarzschild 2 (Japan)": {
+        "secondary_name": "スーパー・シュヴァルツシルト２",
+        "group_name": "Super Schwarzschild 2",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original, Meisaku Genteiban"
+    },
+    "Mamono Hunter Youko - Makai kara no Tenkousei (Japan)": {
+        "secondary_name": "魔物ハンター　妖子　～魔界からの転校生～",
+        "group_name": "Mamono Hunter Youko - Makai kara no Tenkousei",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Akumajou Dracula X - Chi no Rondo (Japan) (FABT, FACT)": {
+        "secondary_name": "悪魔城ドラキュラＸ　～血の輪廻～",
+        "group_name": "Akumajou Dracula X - Chi no Rondo",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Gulclight TDF 2 (Japan)": {
+        "secondary_name": "ガルクライトＴＤＦ２",
+        "group_name": "Gulclight TDF 2",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Zan - Kagerou no Toki (Japan)": {
+        "secondary_name": "斬　～陽炎の時代～",
+        "group_name": "Zan - Kagerou no Toki",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Super Darius (Japan) (Alt)": {
+        "secondary_name": "スーパー・ダライアス",
+        "group_name": "Super Darius",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Develo - Starter Kit - BASIC-hen (Japan)": {
+        "secondary_name": "でべろ　スターター・キット　ＢＡＳＩＣ編",
+        "group_name": "Develo - Starter Kit - BASIC-hen",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Bundled with Book"
+    },
+    "Master of Monsters (Japan)": {
+        "secondary_name": "マスター・オブ・モンスターズ",
+        "group_name": "Master of Monsters",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Space Adventure Cobra II - Densetsu no Otoko (Japan)": {
+        "secondary_name": "コブラⅡ　～伝説の男～",
+        "group_name": "Space Adventure Cobra II - Densetsu no Otoko",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Bakushou Yoshimoto Shinkigeki (Japan) (FABT)": {
+        "secondary_name": "爆笑吉本新喜劇",
+        "group_name": "Bakushou Yoshimoto Shinkigeki",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Virgin Dream (Japan)": {
+        "secondary_name": "ヴァージン・ドリーム",
+        "group_name": "Virgin Dream",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Lords of Thunder (USA)": {
+        "secondary_name": "",
+        "group_name": "Lords of Thunder",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Seiryuu Densetsu - Monbit (Japan) (Rev 4)": {
+        "secondary_name": "聖竜伝説モンビット",
+        "group_name": "Seiryuu Densetsu - Monbit",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Gradius II - Gofer no Yabou (Japan)": {
+        "secondary_name": "グラディウスⅡ　～ゴーファーの野望～",
+        "group_name": "Gradius II - Gofer no Yabou",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Spriggan Mark 2 - Re Terraform Project (Japan)": {
+        "secondary_name": "スプリガン・マーク２",
+        "group_name": "Spriggan Mark 2 - Re Terraform Project",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original, Meisaku Genteiban"
+    },
+    "Rayxanber III (Japan)": {
+        "secondary_name": "ライザンバーⅢ",
+        "group_name": "Rayxanber III",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Wonder Boy III - Monster Lair (Japan) (Rev 3)": {
+        "secondary_name": "ワンダー・ボーイⅢ　モンスター・レアー",
+        "group_name": "Wonder Boy III - Monster Lair",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Dragon Knight III (Japan)": {
+        "secondary_name": "ドラゴン・ナイトⅢ",
+        "group_name": "Dragon Knight III",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Yuu Yuu Hakusho - Yami Shoubu!! Ankoku Bujutsu-kai (Japan)": {
+        "secondary_name": "幽・遊・白書　闇勝負！！暗黒武術会",
+        "group_name": "Yuu Yuu Hakusho - Yami Shoubu!! Ankoku Bujutsu-kai",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Tengai Makyou - Deden no Kabuki-den (Japan)": {
+        "secondary_name": "天外魔境　電々のカブキ伝",
+        "group_name": "Tengai Makyou - Deden no Kabuki-den",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Hibaihin"
+    },
+    "Sotsugyou - Graduation (Japan) (Rev 1)": {
+        "secondary_name": "卒業　～グラデュエーション～",
+        "group_name": "Sotsugyou - Graduation",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Doukyuusei (Japan) (Rev 3) (Alt 1)": {
+        "secondary_name": "同級生",
+        "group_name": "Doukyuusei",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Patlabor - Chapter of Griffon (Japan)": {
+        "secondary_name": "機動警察パトレイバー　「グリフォン編」",
+        "group_name": "Patlabor - Chapter of Griffon",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Super Mahjong Taikai (Japan)": {
+        "secondary_name": "ＳＵＰＥＲ　麻雀大会",
+        "group_name": "Super Mahjong Taikai",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Ultra Box 4-gou (Japan)": {
+        "secondary_name": "ウルトラ・ボックス４号",
+        "group_name": "Ultra Box 4-gou",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Nobunaga no Yabou - Zenkokuban (Japan)": {
+        "secondary_name": "信長の野望　全国版",
+        "group_name": "Nobunaga no Yabou - Zenkokuban",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Valis IV (Japan)": {
+        "secondary_name": "ヴァリスⅣ",
+        "group_name": "Valis IV",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Gain Ground SX (Japan)": {
+        "secondary_name": "ゲイン・グランドＳＸ",
+        "group_name": "Gain Ground SX",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Hataraku Shoujo - Tekipaki Working Love (Japan)": {
+        "secondary_name": "はたらく・少女　てきぱきワーキン・ラブ",
+        "group_name": "Hataraku Shoujo - Tekipaki Working Love",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Far East of Eden - Tengai Makyou - Ziria (Japan) (Rev 6)": {
+        "secondary_name": "天外魔境　－ＺＩＲＩＡ－",
+        "group_name": "Far East of Eden - Tengai Makyou - Ziria",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Exile II - Janen no Jishou (Japan)": {
+        "secondary_name": "エグザイルⅡ　～邪念の事象～",
+        "group_name": "Exile II - Janen no Jishou",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Dragon Half (Japan)": {
+        "secondary_name": "ドラゴン・ハーフ",
+        "group_name": "Dragon Half",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Shinsetsu Shiawase Usagi 2 - Kairaku e no Invitation (Japan) (Unl)": {
+        "secondary_name": "真説しあわせうさぎ２　～快楽へのインビテーション～",
+        "group_name": "Shinsetsu Shiawase Usagi 2 - Kairaku e no Invitation",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Unlicensed"
+    },
+    "Top o Nerae! GunBuster Vol. 2 (Japan)": {
+        "secondary_name": "トップをねらえ！　ＧｕｎＢｕｓｔｅｒ　Ｖｏｌ．２",
+        "group_name": "Top o Nerae! GunBuster Vol. 2",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Ys IV - The Dawn of Ys (Japan) (Rev 3)": {
+        "secondary_name": "イースⅣ　～ザ・ドーン・オブ・イース～",
+        "group_name": "Ys IV - The Dawn of Ys",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "Rev 3",
+        "edition": "Original"
+    },
+    "Last Alert (USA)": {
+        "secondary_name": "",
+        "group_name": "Last Alert",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Hyaku Monogatari - Honto ni Atta Kowai Hanashi (Japan)": {
+        "secondary_name": "百物語　～ほんとにあった怖い話～",
+        "group_name": "Hyaku Monogatari - Honto ni Atta Kowai Hanashi",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Mirai Shounen Conan (Japan)": {
+        "secondary_name": "未来少年コナン",
+        "group_name": "Mirai Shounen Conan",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Pyramid Plunder (USA) (Unl)": {
+        "secondary_name": "",
+        "group_name": "Pyramid Plunder",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Unlicensed"
+    },
+    "Baby Jo - The Super Hero (Japan)": {
+        "secondary_name": "ベイビー・ジョー　～ザスーパー・ヒーロー～",
+        "group_name": "Baby Jo - The Super Hero",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "CAL II (Japan)": {
+        "secondary_name": "キャルⅡ",
+        "group_name": "CAL II",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "ROM^2 Karaoke Vol. 5 - Karaoke Maku no Uchi (Japan)": {
+        "secondary_name": "ＲＯＭ²　カラオケ　⑤　「カラオケ　幕の内」",
+        "group_name": "ROM^2 Karaoke Vol. 5 - Karaoke Maku no Uchi",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Hawk F-123 (Japan)": {
+        "secondary_name": "ホーク　Ｆ‐１２３",
+        "group_name": "Hawk F-123",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Hyper Dyne - SideArms Special (Japan)": {
+        "secondary_name": "サイドアーム・スペシャル",
+        "group_name": "Hyper Dyne - SideArms Special",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Death Bringer - The Knight of Darkness (Japan)": {
+        "secondary_name": "デス・ブリンガー",
+        "group_name": "Death Bringer - The Knight of Darkness",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Populous - The Promised Lands (Japan)": {
+        "secondary_name": "ポピュラス　～ザ･プロミスト･ランド～",
+        "group_name": "Populous - The Promised Lands",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Dragon Knight & Grafitti (Japan)": {
+        "secondary_name": "ドラゴン・ナイト＆グラフィティ",
+        "group_name": "Dragon Knight & Grafitti",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Hatsukoi Monogatari (Japan) (Rev 1)": {
+        "secondary_name": "初恋物語",
+        "group_name": "Hatsukoi Monogatari",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Mugen Senshi Valis - The Legend of a Fantasm Soldier (Japan)": {
+        "secondary_name": "夢幻戦士ヴァリス",
+        "group_name": "Mugen Senshi Valis - The Legend of a Fantasm Soldier",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Farjius no Jakoutei - Neo Metal Fantasy (Japan)": {
+        "secondary_name": "ファージアスの邪皇帝",
+        "group_name": "Farjius no Jakoutei - Neo Metal Fantasy",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Mad Stalker - Full Metal Force (Japan) (Demo)": {
+        "secondary_name": "マッ・ドストーカー　フル・メタル・フォース",
+        "group_name": "Mad Stalker - Full Metal Force",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Sample"
+    },
+    "Renny Blaster (Japan)": {
+        "secondary_name": "レニー・ブラスター",
+        "group_name": "Renny Blaster",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Might and Magic III - Isles of Terra (Japan)": {
+        "secondary_name": "マイト・アンド・マジックⅢ",
+        "group_name": "Might and Magic III - Isles of Terra",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Emerald Dragon (Japan) (Demo)": {
+        "secondary_name": "エメラルド・ドラゴン　【体験版】",
+        "group_name": "Emerald Dragon",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Bundled with Book (Taikenban)"
+    },
+    "Faceball (Japan) (Demo)": {
+        "secondary_name": "フェイスボール",
+        "group_name": "Faceball",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Taikenban"
+    },
+    "Pro Yakyuu, The (Japan)": {
+        "secondary_name": "ザ・プロ野球",
+        "group_name": "Pro Yakyuu, The",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Urusei Yatsura - Stay with You (Japan)": {
+        "secondary_name": "うる星やつら　－ＳＴＡＹ　ＷＩＴＨ　ＹＯＵ－",
+        "group_name": "Urusei Yatsura - Stay with You",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original, Urusei Yatsura - Stay with You & Hudson CD-ROM² Ongaku Zenshuu"
+    },
+    "ROM ROM Stadium (Japan)": {
+        "secondary_name": "ロムロムスタジアム",
+        "group_name": "ROM ROM Stadium",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Shadow of the Beast - Mashou no Okite (Japan)": {
+        "secondary_name": "シャドー・オブ・ザ・ビースト　～魔性の掟～",
+        "group_name": "Shadow of the Beast - Mashou no Okite",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Super-CD-Demo^2 (Japan)": {
+        "secondary_name": "",
+        "group_name": "Super-CD-Demo^2",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Tentou-you Demo Sample"
+    },
+    "Pomping World (Japan)": {
+        "secondary_name": "ポンピング・ワールド",
+        "group_name": "Pomping World",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Pop'n Magic (Japan)": {
+        "secondary_name": "ぽっぷ’ｎ　まじっく",
+        "group_name": "Pop'n Magic",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Mahjong Lemon Angel (Japan)": {
+        "secondary_name": "マージャン・レモン・エンジェル",
+        "group_name": "Mahjong Lemon Angel",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Ryuuko no Ken (Japan) (En,Ja,Es) (FABT)": {
+        "secondary_name": "龍虎の拳",
+        "group_name": "Ryuuko no Ken",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En, Ja, Es",
+        "version": "",
+        "edition": "Original"
+    },
+    "Fantastic Night Dreams - Cotton (Japan) (En,Ja)": {
+        "secondary_name": "コットン",
+        "group_name": "Fantastic Night Dreams - Cotton",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En, Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Cosmic Fantasy 4 - Ginga Shounen Densetsu - Gekitou-hen (Japan)": {
+        "secondary_name": "コズミック・ファンタジー４　～銀河少年伝説～　激闘編",
+        "group_name": "Cosmic Fantasy 4 - Ginga Shounen Densetsu - Gekitou-hen",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "ROM^2 Karaoke Vol. 2 - Nattoku Idol (Japan)": {
+        "secondary_name": "ＲＯＭ²　カラオケ　②　「なっとく　アイドル」",
+        "group_name": "ROM^2 Karaoke Vol. 2 - Nattoku Idol",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Gyuwambler Jiko Chuushinha - Gekitou 36 Janshi (Japan) (Alt)": {
+        "secondary_name": "ぎゅわんぶらあ自己中心派　～激闘３６雀士～",
+        "group_name": "Gyuwambler Jiko Chuushinha - Gekitou 36 Janshi",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Addams Family, The (USA)": {
+        "secondary_name": "",
+        "group_name": "Addams Family, The",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Bomberman - Panic Bomber (Japan) (FAAT)": {
+        "secondary_name": "ボンバーマン　～ぱにっくボンバー～",
+        "group_name": "Bomberman - Panic Bomber",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Wizardry V - Heart of the Maelstrom (Japan)": {
+        "secondary_name": "ウィザードリィⅤ",
+        "group_name": "Wizardry V - Heart of the Maelstrom",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Valis II (Japan) (Alt 1)": {
+        "secondary_name": "ヴァリスⅡ",
+        "group_name": "Valis II",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Hawiian Island Girls (USA) (Unl)": {
+        "secondary_name": "",
+        "group_name": "Hawiian Island Girls",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Unlicensed"
+    },
+    "Seiryuu Densetsu - Monbit (Japan) (Rev 1)": {
+        "secondary_name": "聖竜伝説モンビット",
+        "group_name": "Seiryuu Densetsu - Monbit",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Motoroader MC (Japan)": {
+        "secondary_name": "モトローダーＭＣ",
+        "group_name": "Motoroader MC",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Duo Comic - Bakuretsu Hunter (Japan)": {
+        "secondary_name": "ＤＵＯ　ＣＯＭＩＣ　爆れつハンター",
+        "group_name": "Duo Comic - Bakuretsu Hunter",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Bundled with Book"
+    },
+    "God Panic - Shijou Saikyou no Gundan (Japan)": {
+        "secondary_name": "ゴッド・パニック　～至上最強軍団～",
+        "group_name": "God Panic - Shijou Saikyou no Gundan",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "CD Pachi-Slot - Bishoujo Gambler (Japan) (Unl)": {
+        "secondary_name": "ＣＤパチスロ　美少女ギャンブラー",
+        "group_name": "CD Pachi-Slot - Bishoujo Gambler",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Unlicensed"
+    },
+    "F1 Team Simulation - Project F (Japan)": {
+        "secondary_name": "Ｆ１チーム・シミュレーション　～プロジェクトＦ～",
+        "group_name": "F1 Team Simulation - Project F",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "NEXZR (Japan)": {
+        "secondary_name": "ネクスザール",
+        "group_name": "NEXZR",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Quest of Jongmaster - Janshin Densetsu (Japan)": {
+        "secondary_name": "雀神伝説",
+        "group_name": "Quest of Jongmaster - Janshin Densetsu",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Kagami no Kuni no Legend (Japan)": {
+        "secondary_name": "鏡の国のレジェンド",
+        "group_name": "Kagami no Kuni no Legend",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Adventure Quiz - Capcom World + Hatena no Daibouken (Japan)": {
+        "secondary_name": "アドベンチャー・クイズ　カプコンワールド　ハテナ？の大冒険",
+        "group_name": "Adventure Quiz - Capcom World + Hatena no Daibouken",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Garou Densetsu 2 - Aratanaru Tatakai (Japan) (Demo) (SABS)": {
+        "secondary_name": "餓狼伝説２　～新たなる闘い～",
+        "group_name": "Garou Densetsu 2 - Aratanaru Tatakai",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "Rev 1",
+        "edition": "Sample"
+    },
+    "Monster Maker - Yami no Ryuukishi (Japan) (Alt)": {
+        "secondary_name": "モンスター・メーカー　～闇の竜騎士～",
+        "group_name": "Monster Maker - Yami no Ryuukishi",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "F1 Circus Special - Pole to Win (Japan) (FAAT, FACT)": {
+        "secondary_name": "エフ・ワン・サーカス・スペシャル　～ポール・トゥ・ウィン～",
+        "group_name": "F1 Circus Special - Pole to Win",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "In Magical Adventure - Fray CD - Xak Gaiden (Japan)": {
+        "secondary_name": "フレイＣＤ　～サーク外伝～",
+        "group_name": "In Magical Adventure - Fray CD - Xak Gaiden",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Startling Odyssey (Japan)": {
+        "secondary_name": "スタートリング・オデッセイ",
+        "group_name": "Startling Odyssey",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Ultra Box 2-gou (Japan)": {
+        "secondary_name": "ウルトラ・ボックス２号",
+        "group_name": "Ultra Box 2-gou",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Quiz Marugoto the World 2 - Time Machine ni Onegai! (Japan)": {
+        "secondary_name": "ＱＵＩＺ　まるごと　Ｔｈｅ　ワールド２　～タイム・マシンにおねがい！～",
+        "group_name": "Quiz Marugoto the World 2 - Time Machine ni Onegai!",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Dekoboko Densetsu - Hashiru Wagamanmaa (Japan)": {
+        "secondary_name": "デコボコ伝説　～走るワガマンマー～",
+        "group_name": "Dekoboko Densetsu - Hashiru Wagamanmaa",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Princess Maker 1 (Japan)": {
+        "secondary_name": "プリンセス・メーカー１",
+        "group_name": "Princess Maker 1",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Develo Magazine Vol. 1 (Japan)": {
+        "secondary_name": "",
+        "group_name": "Develo Magazine Vol. 1",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Bundled with Magazine"
+    },
+    "Dragon Slayer - The Legend of Heroes (Japan)": {
+        "secondary_name": "ドラゴン・スレイヤー　～英雄伝説～",
+        "group_name": "Dragon Slayer - The Legend of Heroes",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Dungeon Master - Theron's Quest (Japan)": {
+        "secondary_name": "ダンジジョン・マスター　～セエロンズ・クエスト～",
+        "group_name": "Dungeon Master - Theron's Quest",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "PC Engine Hyper Catalog CD-ROM 3 - 1993 Summer (Japan)": {
+        "secondary_name": "ＰＣエンジン　ハイパー・カタログ３",
+        "group_name": "PC Engine Hyper Catalog CD-ROM 3 - 1993 Summer",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Bundled with Magazine"
+    },
+    "Ruin - Kami no Isan (Japan)": {
+        "secondary_name": "ルイン　～神の遺産～",
+        "group_name": "Ruin - Kami no Isan",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Mahjong Clinic Special (Japan)": {
+        "secondary_name": "麻雀クリニック・スペシャル",
+        "group_name": "Mahjong Clinic Special",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Himitsu no Hanazono (Japan)": {
+        "secondary_name": "秘密の花園",
+        "group_name": "Himitsu no Hanazono",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Moonlight Lady (Japan)": {
+        "secondary_name": "ムーンライト・レディ",
+        "group_name": "Moonlight Lady",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Record of Lodoss War (Japan)": {
+        "secondary_name": "ロードス島戦記",
+        "group_name": "Record of Lodoss War",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original, Taikenban"
+    },
+    "Chou Jikuu Yousai Macross 2036 (Japan)": {
+        "secondary_name": "超時空要塞マクロス２０３６",
+        "group_name": "Chou Jikuu Yousai Macross 2036",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Fighting Street (Japan) (Rev 5)": {
+        "secondary_name": "ファイティング・ストリート",
+        "group_name": "Fighting Street",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Shin Megami Tensei (Japan)": {
+        "secondary_name": "真・女神転生",
+        "group_name": "Shin Megami Tensei",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "ROM^2 Karaoke Volume 5 (Japan)": {
+        "secondary_name": "ロム・ロム・カラオケ　ＶＯＬ．５",
+        "group_name": "ROM^2 Karaoke Volume 5",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Sangokushi - Eiketsu Tenka ni Nozomu (Japan)": {
+        "secondary_name": "三国志　～英傑天下に臨む～",
+        "group_name": "Sangokushi - Eiketsu Tenka ni Nozomu",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Super Albatross (Japan)": {
+        "secondary_name": "スーパー・アルバトロス",
+        "group_name": "Super Albatross",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "ROM^2 Karaoke Vol. 3 - Yappashi Band (Japan)": {
+        "secondary_name": "ＲＯＭ²　カラオケ　③　「やっぱし　バンド」",
+        "group_name": "ROM^2 Karaoke Vol. 3 - Yappashi Band",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Loom (USA)": {
+        "secondary_name": "",
+        "group_name": "Loom",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Sangokushi III (Japan)": {
+        "secondary_name": "三國志Ⅲ",
+        "group_name": "Sangokushi III",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Travel Eple (Japan)": {
+        "secondary_name": "ＴＲＡＶＥＬ　エプル",
+        "group_name": "Travel Eple",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Sol Moonarge (Japan)": {
+        "secondary_name": "ソル：モナージュ",
+        "group_name": "Sol Moonarge",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original, Meisaku Genteiban"
+    },
+    "Daisenpuu Custom (Japan)": {
+        "secondary_name": "大旋風　カスタム",
+        "group_name": "Daisenpuu Custom",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "Rev 2",
+        "edition": "Original"
+    },
+    "Tenshi no Uta II - Datenshi no Sentaku (Japan)": {
+        "secondary_name": "天使の詩Ⅱ　～堕天使の選択～",
+        "group_name": "Tenshi no Uta II - Datenshi no Sentaku",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Bonanza Bros. (Japan)": {
+        "secondary_name": "ボナンザ・ブラザーズ",
+        "group_name": "Bonanza Bros.",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Cosmic Fantasy - Bouken Shounen Yuu (Japan) (Alt 1)": {
+        "secondary_name": "コズミック・ファンタジー　～冒険少年ユウ～",
+        "group_name": "Cosmic Fantasy - Bouken Shounen Yuu",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Ryuuko no Ken (Japan) (En,Ja,Es) (FAAT)": {
+        "secondary_name": "龍虎の拳",
+        "group_name": "Ryuuko no Ken",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En, Ja, Es",
+        "version": "Rev 2",
+        "edition": "Original"
+    },
+    "Pachio-kun - Warau Uchuu (Japan)": {
+        "secondary_name": "パチ夫くん　～笑う宇宙～",
+        "group_name": "Pachio-kun - Warau Uchuu",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Nishimura Kyoutarou Mystery - Hokutosei no Onna (Japan)": {
+        "secondary_name": "西村京太郎ミステリー　北斗星の女",
+        "group_name": "Nishimura Kyoutarou Mystery - Hokutosei no Onna",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "PC Engine Hyper Catalog CD-ROM 6 - 1994 Summer (Japan) (Disc A)": {
+        "secondary_name": "ＰＣエンジン　ハイパー・カタログ６",
+        "group_name": "PC Engine Hyper Catalog CD-ROM 6 - 1994 Summer",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Bundled with Magazine"
+    },
+    "Last Armageddon (Japan) (Rev 6)": {
+        "secondary_name": "ラスト・ハルマゲドン",
+        "group_name": "Last Armageddon",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Zero Wing (Japan)": {
+        "secondary_name": "ゼロ・ウイング",
+        "group_name": "Zero Wing",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "Rev 8",
+        "edition": "Original"
+    },
+    "Snatcher CD-ROMantic - Pilot Disk (Japan)": {
+        "secondary_name": "スナッチャー・シーディロマンティック　パイロット・デイスク",
+        "group_name": "Snatcher CD-ROMantic - Pilot Disk",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Gyuwambler Jiko Chuushinha - Mahjong Puzzle Collection (Japan)": {
+        "secondary_name": "ぎゅわんぶらぁ自己中心派　～麻雀パズル・コレクション～",
+        "group_name": "Gyuwambler Jiko Chuushinha - Mahjong Puzzle Collection",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Exile - Wicked Phenomenon (USA)": {
+        "secondary_name": "",
+        "group_name": "Exile - Wicked Phenomenon",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Tokimeki Memorial (Japan) (Rev 3)": {
+        "secondary_name": "ときめきメモリアル",
+        "group_name": "Tokimeki Memorial",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Sorcerian (Japan)": {
+        "secondary_name": "ソーサリアン",
+        "group_name": "Sorcerian",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "L-Dis (Japan)": {
+        "secondary_name": "エルディス",
+        "group_name": "L-Dis",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Prince of Persia (USA)": {
+        "secondary_name": "",
+        "group_name": "Prince of Persia",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Original"
+    },
+    "PopfulMail (Japan) (Demo)": {
+        "secondary_name": "ぽっぷるメイル",
+        "group_name": "PopfulMail",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Sample"
+    },
+    "Summer Carnival '93 - NEXZR Special (Japan)": {
+        "secondary_name": "サマー・カーニバル’９３　「ネクスザール・スペシャル」",
+        "group_name": "Summer Carnival '93 - NEXZR Special",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Golden Axe (Japan) (Alt)": {
+        "secondary_name": "ゴールデン・アックス",
+        "group_name": "Golden Axe",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Ys I & II (Japan) (Alt)": {
+        "secondary_name": "イースⅠ・Ⅱ",
+        "group_name": "Ys I & II",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Meisaku Genteiban"
+    },
+    "Formation Soccer 95 della Serie A (Japan)": {
+        "secondary_name": "フォーメーション・サッカー９５　デッラ・セリエＡ",
+        "group_name": "Formation Soccer 95 della Serie A",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Dungeon Master - Theron's Quest (USA)": {
+        "secondary_name": "",
+        "group_name": "Dungeon Master - Theron's Quest",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Develo - Starter Kit - Assembler-hen (Japan)": {
+        "secondary_name": "でべろ　スターター・キット　アセンブラ編",
+        "group_name": "Develo - Starter Kit - Assembler-hen",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Bundled with Book"
+    },
+    "Far East of Eden - Tengai Makyou - Fuun Kabuki-den (Japan)": {
+        "secondary_name": "天外魔境　風雲カブキ伝",
+        "group_name": "Far East of Eden - Tengai Makyou - Fuun Kabuki-den",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Valis II (Japan) (Alt 2)": {
+        "secondary_name": "ヴァリスⅡ",
+        "group_name": "Valis II",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Linda^3 (Japan) (Rev 1)": {
+        "secondary_name": "リンダキューブ",
+        "group_name": "Linda^3",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "Rev 1",
+        "edition": "Original"
+    },
+    "Quiz Marugoto the World (Japan) (Rev 8)": {
+        "secondary_name": "ＱＵＩＺ　まるごと　Ｔｈｅ　ワールド",
+        "group_name": "Quiz Marugoto the World",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Browning (Japan)": {
+        "secondary_name": "ブロウニング",
+        "group_name": "Browning",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "YaWaRa! A Fashionable Judo Girl! (Japan)": {
+        "secondary_name": "ＹａＷａＲａ！",
+        "group_name": "YaWaRa! A Fashionable Judo Girl!",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Rising Sun (Japan)": {
+        "secondary_name": "ライジング・サン",
+        "group_name": "Rising Sun",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Kaze Kiri - Ninja Action (Japan)": {
+        "secondary_name": "風霧",
+        "group_name": "Kaze Kiri - Ninja Action",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Solid Force (Japan)": {
+        "secondary_name": "ソリッド・フォース",
+        "group_name": "Solid Force",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Hu PGA Tour - PowerGolf 2 - Golfer (Japan)": {
+        "secondary_name": "パワーゴルフ２　～ゴルファー～",
+        "group_name": "Hu PGA Tour - PowerGolf 2 - Golfer",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Sol Bianca (Japan)": {
+        "secondary_name": "ソル・ビアンカ",
+        "group_name": "Sol Bianca",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Yamamura Misa Suspense - Kinsenka Kyouezara Satsujin Jiken (Japan)": {
+        "secondary_name": "山村美紗サスペンス　金盞花京絵皿殺人事件",
+        "group_name": "Yamamura Misa Suspense - Kinsenka Kyouezara Satsujin Jiken",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Sexy Idol Mahjong - Yakyuuken no Uta (Japan)": {
+        "secondary_name": "セクシー・アイドル麻雀　～野球拳の詩～",
+        "group_name": "Sexy Idol Mahjong - Yakyuuken no Uta",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Dennou Tenshi - Digital Ange (Japan)": {
+        "secondary_name": "電脳天使　～デジタル・アンジュ～",
+        "group_name": "Dennou Tenshi - Digital Ange",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Mahjong Sword - Princess Quest Gaiden (Japan)": {
+        "secondary_name": "マージャン・ソード　～プリンセス・クエスト外伝～",
+        "group_name": "Mahjong Sword - Princess Quest Gaiden",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Eikan wa Kimi ni - Koukou Yakyuu Zenkoku Taikai (Japan)": {
+        "secondary_name": "栄冠は君に　～高校野球全国大会～",
+        "group_name": "Eikan wa Kimi ni - Koukou Yakyuu Zenkoku Taikai",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Horror Story (Japan)": {
+        "secondary_name": "ホラー・ストーリー",
+        "group_name": "Horror Story",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Henshin Engine (USA) (Unl) (Demo)": {
+        "secondary_name": "ヘンシン・エンジン",
+        "group_name": "Henshin Engine",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "MGC 2016 Demo Version"
+    },
+    "Insanity (USA) (Unl)": {
+        "secondary_name": "",
+        "group_name": "Insanity",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Unlicensed"
+    }
+}
