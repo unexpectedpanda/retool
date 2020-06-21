@@ -3,7 +3,7 @@
 		"name": [
 			"IBM - PC compatible"
 		],
-		"last updated": "15 June 2020"
+		"last updated": "21 June 2020"
 	},
 
 	"compilations": [
@@ -703,15 +703,19 @@
 			["Severance - Blade of Darkness", 1]
 		],
 		"Blade Runner (Disc 1)": [
+			["Blade Runner (DVD)", 0],
 			["Yinyi Shashou (Disc 1)", 1]
 		],
 		"Blade Runner (Disc 2)": [
+			["Blade Runner (DVD)", 0],
 			["Yinyi Shashou (Disc 2)", 1]
 		],
 		"Blade Runner (Disc 3)": [
+			["Blade Runner (DVD)", 0],
 			["Yinyi Shashou (Disc 3)", 1]
 		],
 		"Blade Runner (Disc 4)": [
+			["Blade Runner (DVD)", 0],
 			["Yinyi Shashou (Disc 4)", 1]
 		],
 		"Blair Witch Volume I - Rustin Parr": [
@@ -4104,6 +4108,9 @@
 		"Planescape - Torment (Disc 4)": [
 			["Yiyu Jinghunqu (Disc 4)", 1]
 		],
+		"Plants vs. Zombies": [
+			["Planten tegen Zombies", 1]
+		],
 		"Play 11-2006 (Disc 2)": [
 			["Resident Evil 3 - Nemesis", 0],
 			["Biohazard 3 - Last Escape", 0]
@@ -4694,12 +4701,14 @@
 			["Sacred Gold", -1],
 			["Sacred - Edizione Oro", -1],
 			["Sacred", 0],
+			["Sacred (Disc 1) (A6933ECA)", 1],
 			["Sacred - La leggenda dell'Arma Sacra (Disc 1)", 1]
 		],
 		"Sacred (Disc 2)": [
 			["Sacred Gold", -1],
 			["Sacred - Edizione Oro", -1],
 			["Sacred", 0],
+			["Sacred (Disc 2) (C86B2C4D)", 1],
 			["Sacred - La leggenda dell'Arma Sacra (Disc 2)", 1]
 		],
 		"Sacred - Underworld (Disc 1)": [
@@ -4751,6 +4760,9 @@
 		"Schwarze Auge, Das - Sternenschweif (Disc 2)": [
 			["Realms of Arkania Trilogy - Blade of Destiny - Star Trail", -1],
 			["Realms of Arkania - Star Trail", 0]
+		],
+		"Scratches": [
+			["Scratches - Director's Cut", -1]
 		],
 		"Screamer 4x4": [
 			["CD-Action 08-2002 (76) (Disc 2)", 2]
