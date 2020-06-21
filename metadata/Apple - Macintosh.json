@@ -3094,5 +3094,95 @@
         "languages": "En",
         "version": "Version 1",
         "edition": "Original"
+    },
+    "MacLife CD-ROM No. 11 (Japan)": {
+        "secondary_name": "",
+        "group_name": "MacLife CD-ROM No. 11",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Covermount"
+    },
+    "MacLife CD-ROM No. 13 (Japan)": {
+        "secondary_name": "",
+        "group_name": "MacLife CD-ROM No. 13",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Covermount"
+    },
+    "MacLife CD-ROM No. 132 (Japan)": {
+        "secondary_name": "",
+        "group_name": "MacLife CD-ROM No. 132",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Covermount"
+    },
+    "MacLife CD-ROM No. 147 (Japan)": {
+        "secondary_name": "",
+        "group_name": "MacLife CD-ROM No. 147",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Covermount"
+    },
+    "MacLife CD-ROM No. 28 (Japan)": {
+        "secondary_name": "",
+        "group_name": "MacLife CD-ROM No. 28",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Covermount"
+    },
+    "MacLife CD-ROM No. 29 (Japan)": {
+        "secondary_name": "",
+        "group_name": "MacLife CD-ROM No. 29",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Covermount"
+    },
+    "MacLife CD-ROM No. 30 (Japan)": {
+        "secondary_name": "",
+        "group_name": "MacLife CD-ROM No. 30",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Covermount"
+    },
+    "MacLife CD-ROM No. 34 (Japan)": {
+        "secondary_name": "",
+        "group_name": "MacLife CD-ROM No. 34",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Covermount"
+    },
+    "MacLife CD-ROM No. 45 (Japan)": {
+        "secondary_name": "",
+        "group_name": "MacLife CD-ROM No. 45",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Covermount"
+    },
+    "MacLife CD-ROM No. 46 (Japan)": {
+        "secondary_name": "",
+        "group_name": "MacLife CD-ROM No. 46",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Covermount"
     }
 }

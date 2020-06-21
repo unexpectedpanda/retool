@@ -17,8 +17,8 @@
         "version": "",
         "edition": "Original"
     },
-    "Air Combat II - Special (Japan)": {
-        "secondary_name": "エアー・コンバットⅡ　スペシャル",
+    "Air Combat II - Special (Japan) (Rev 1)": {
+        "secondary_name": "エアー・コンバットⅡ・スペシャル",
         "group_name": "Air Combat II - Special",
         "status": "Blue",
         "disc_type": "CD",
@@ -359,7 +359,7 @@
         "version": "",
         "edition": "Original"
     },
-    "Battle Chess (Japan) (En,Ja)": {
+    "Battle Chess (Japan) (En,Ja) (Rev 1)": {
         "secondary_name": "バトル・チェス",
         "group_name": "Battle Chess",
         "status": "Green",
@@ -458,7 +458,7 @@
         "version": "",
         "edition": "Original"
     },
-    "Yami no Ketsuzoku Special - The Predestined Homicides (Japan)": {
+    "Yami no Ketsuzoku Special - The Predestined Homicides (Japan) (Rev 2)": {
         "secondary_name": "闇の血族　Ｓｐｅｃｉａｌ　－ＴＨＥ　ＰＲＥＤＥＳＴＩＮＥＤ　ＨＯＭＩＣＩＤＥＳ－",
         "group_name": "Yami no Ketsuzoku Special - The Predestined Homicides",
         "status": "Blue",
@@ -1001,7 +1001,7 @@
     "Tunnels & Trolls - Crusaders of Khazan (Japan)": {
         "secondary_name": "トンネルズ・アンド・トロールズ　～カザンの戦士たち～",
         "group_name": "Tunnels & Trolls - Crusaders of Khazan",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -1088,7 +1088,7 @@
         "version": "",
         "edition": "Original"
     },
-    "Nihon no Rekishi - Kodai-hen - Nihon Tanjou (Japan)": {
+    "Nihon no Rekishi - Kodai-hen - Nihon Tanjou (Japan) (Rev 1)": {
         "secondary_name": "日本の歴史　古代編　～日本誕生～",
         "group_name": "Nihon no Rekishi - Kodai-hen - Nihon Tanjou",
         "status": "Blue",
@@ -1448,14 +1448,14 @@
         "version": "",
         "edition": "Original"
     },
-    "Legend of Kyrandia, The (Japan) (En,Ja) (FM Towns)": {
+    "Legend of Kyrandia, The (Japan) (En,Ja) (Alt)": {
         "secondary_name": "ザ・レジェンド・オブ・キランディア",
         "group_name": "Legend of Kyrandia, The",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "En, Ja",
         "version": "",
-        "edition": "Original"
+        "edition": "FM Towns release"
     },
     "Ms. Detective File 1 - Iwami Ginzan Satsujin Jiken (Japan) (Disc 2)": {
         "secondary_name": "ミス・ディテクティヴ　ファイル＃１　石見銀山殺人事件",
@@ -1655,7 +1655,7 @@
         "version": "",
         "edition": "Original"
     },
-    "Fractal Engine Demo (Japan)": {
+    "Fractal Engine Demo (Japan) (Rev 1)": {
         "secondary_name": "フラクタル・エンジン　～デモンストレーション～",
         "group_name": "Fractal Engine Demo",
         "status": "Blue",
@@ -1700,7 +1700,7 @@
         "version": "",
         "edition": "Original"
     },
-    "Hyper Channel - Towns TV (Japan)": {
+    "Hyper Channel - Towns TV (Japan) (Rev 2)": {
         "secondary_name": "ハイパー・チャンネル　ＴＯＷＮＳ　ＴＶ",
         "group_name": "Hyper Channel - Towns TV",
         "status": "Blue",
@@ -2159,7 +2159,7 @@
         "version": "Rev A",
         "edition": "Original"
     },
-    "Kanji Land 3-nen (Japan)": {
+    "Kanji Land 3-nen (Japan) (Rev A)": {
         "secondary_name": "漢字ランド　３年",
         "group_name": "Kanji Land 3-nen",
         "status": "Blue",
@@ -2270,7 +2270,7 @@
     "Pegasus V1.1L10 (Japan) (Rev C)": {
         "secondary_name": "",
         "group_name": "Pegasus V1.1L10",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "Rev C",
@@ -2351,7 +2351,7 @@
     "Marble Madness (Japan)": {
         "secondary_name": "マーブル・マッドネス",
         "group_name": "Marble Madness",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -2441,11 +2441,11 @@
     "Shamhat - The Holy Circlet (Japan)": {
         "secondary_name": "シャムハト　－Ｔｈｅ　Ｈｏｌｙ　Ｃｉｒｃｌｅｔ－",
         "group_name": "Shamhat - The Holy Circlet",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
-        "edition": "Original"
+        "edition": "FM-Towns Sen'you, FM-Towns Marty Sen'you"
     },
     "Maerchen Toshokan Grimm Douwa - Grimm Maerchen - Bremen no Ongakutai (Japan)": {
         "secondary_name": "メルヒェン図書館グリム童話　「ブレーメンの音楽隊」",
@@ -2661,6 +2661,249 @@
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
+        "edition": "Original"
+    },
+    "True Heart (Japan)": {
+        "secondary_name": "トゥルー・ハート",
+        "group_name": "True Heart",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Gokuraku Mandala (Japan)": {
+        "secondary_name": "極楽まんだら",
+        "group_name": "Gokuraku Mandala",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Noushuku Angel 120% (Japan)": {
+        "secondary_name": "濃縮エンジェル１２０％",
+        "group_name": "Noushuku Angel 120%",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Hyper Girl - Akiko - Premium Version (Japan)": {
+        "secondary_name": "亜紀子　～プレミアム・バージョン～",
+        "group_name": "Hyper Girl - Akiko - Premium Version",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Tenshin Ranma (Japan)": {
+        "secondary_name": "天神乱魔",
+        "group_name": "Tenshin Ranma",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Two Shot Diary (Japan)": {
+        "secondary_name": "ツー・ショット　Ｄｉａｒｙ",
+        "group_name": "Two Shot Diary",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Curse (Japan)": {
+        "secondary_name": "カース",
+        "group_name": "Curse",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Gambler - Queen's Cup (Japan)": {
+        "secondary_name": "ギャンブラー　－Ｑｕｅｅｎ’ｓ　Ｃｕｐ－",
+        "group_name": "Gambler - Queen's Cup",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Mirage 2 - Torry, Neat & Roan Fairladies in MagicLand (Japan)": {
+        "secondary_name": "ミラージュ２　～トリー×ニート×ローンの大冒険～",
+        "group_name": "Mirage 2 - Torry, Neat & Roan Fairladies in MagicLand",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Marionette Mind (Japan)": {
+        "secondary_name": "マリオネット・マインド",
+        "group_name": "Marionette Mind",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Iris-tei Serenade (Japan)": {
+        "secondary_name": "イーリス亭小夜曲",
+        "group_name": "Iris-tei Serenade",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Eimmy to Yobanaide - Please Don't Call Me Eimmy (Japan)": {
+        "secondary_name": "エイミーと呼ばないでっ",
+        "group_name": "Eimmy to Yobanaide - Please Don't Call Me Eimmy",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Vastness - Kuukyo no Ikenie-tachi (Japan)": {
+        "secondary_name": "ヴアーストニス　～空虚の生贄達～",
+        "group_name": "Vastness - Kuukyo no Ikenie-tachi",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Chiemi & Naomi (Japan)": {
+        "secondary_name": "稚恵美＆奈緒美",
+        "group_name": "Chiemi & Naomi",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "CAL - Towns (Japan)": {
+        "secondary_name": "",
+        "group_name": "CAL - Towns",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "CAL III - Kanketsu-hen (Japan)": {
+        "secondary_name": "キャルⅢ　完結編",
+        "group_name": "CAL III - Kanketsu-hen",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "YES! HG - Erotic Voice Version (Japan)": {
+        "secondary_name": "",
+        "group_name": "YES! HG - Erotic Voice Version",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Viper-V12 RS (Japan)": {
+        "secondary_name": "",
+        "group_name": "Viper-V12 RS",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Viper-V10 Turbo RS (Japan)": {
+        "secondary_name": "",
+        "group_name": "Viper-V10 Turbo RS",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Viper-V8 Turbo RS (Japan)": {
+        "secondary_name": "",
+        "group_name": "Viper-V8 Turbo RS",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Eikan wa Kimi ni 2 - Koukou Yakyuu Zenkoku Taikai (Japan) (Rev A)": {
+        "secondary_name": "栄冠は君に２　～高校野球全国大会～",
+        "group_name": "Eikan wa Kimi ni 2 - Koukou Yakyuu Zenkoku Taikai",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "Rev A",
+        "edition": "Original"
+    },
+    "4D Tennis (Japan)": {
+        "secondary_name": "４Ｄテニス",
+        "group_name": "4D Tennis",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Space Rogue (Japan)": {
+        "secondary_name": "スペース・ローグ",
+        "group_name": "Space Rogue",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Atlas, The (Japan)": {
+        "secondary_name": "",
+        "group_name": "Atlas, The",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "G5 (Japan)": {
+        "secondary_name": "ジーファイブ",
+        "group_name": "G5",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "FM Towns Application Catalog CD-ROM - Original Soft-hen (Japan)": {
+        "secondary_name": "ＦＭ　ＴＯＷＮＳ　アプリケーション・カタログＣＤ‐ＲＯＭ　オリジナル・ソフト編",
+        "group_name": "FM Towns Application Catalog CD-ROM - Original Soft-hen",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Hibaihin"
+    },
+    "Illust Hyakka - Yamashita Hideki no Ikiiki Cut-shuu (Japan) (Rev A)": {
+        "secondary_name": "イラスト百科　～山下秀樹のいきいきカット集～",
+        "group_name": "Illust Hyakka - Yamashita Hideki no Ikiiki Cut-shuu",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "Rev A",
         "edition": "Original"
     }
 }
