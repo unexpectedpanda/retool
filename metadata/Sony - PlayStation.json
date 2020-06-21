@@ -1073,7 +1073,7 @@
     "Koudelka (Europe) (Disc 1)": {
         "secondary_name": "",
         "group_name": "Koudelka",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -8957,7 +8957,7 @@
     "Vandal Hearts (Europe) (En,Fr,De)": {
         "secondary_name": "",
         "group_name": "Vandal Hearts",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En, Fr, De",
         "version": "",
@@ -14546,7 +14546,7 @@
     "Koudelka (Europe) (Disc 2)": {
         "secondary_name": "",
         "group_name": "Koudelka",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -14798,7 +14798,7 @@
     "Break Point (Japan)": {
         "secondary_name": "ブレイクポイント",
         "group_name": "Break Point",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -19649,7 +19649,7 @@
     "Koudelka (Europe) (Disc 3)": {
         "secondary_name": "",
         "group_name": "Koudelka",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -20000,7 +20000,7 @@
     "MLB 2003 (USA) (Demo)": {
         "secondary_name": "",
         "group_name": "MLB 2003",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -24698,7 +24698,7 @@
     "Silent Hill (USA) (Demo 2)": {
         "secondary_name": "",
         "group_name": "Silent Hill",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -40511,7 +40511,7 @@
     "Sydney 2000 (Japan)": {
         "secondary_name": "シドニー２０００",
         "group_name": "Sydney 2000",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -43022,7 +43022,7 @@
     "Blaze & Blade - Eternal Quest (Europe)": {
         "secondary_name": "",
         "group_name": "Blaze & Blade - Eternal Quest",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -49484,7 +49484,7 @@
     "NHL FaceOff 2001 (USA) (Demo)": {
         "secondary_name": "",
         "group_name": "NHL FaceOff 2001",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -55608,7 +55608,7 @@
         "disc_type": "CD",
         "languages": "En",
         "version": "",
-        "edition": ""
+        "edition": "Original"
     },
     "Ducati World (Europe)": {
         "secondary_name": "",
@@ -55676,7 +55676,7 @@
     "Star Wars - Demolition (USA) (Demo)": {
         "secondary_name": "",
         "group_name": "Star Wars - Demolition",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -57917,7 +57917,7 @@
     "SeaBass Fishing 2 (Japan)": {
         "secondary_name": "シーバス・フィッシング　２",
         "group_name": "SeaBass Fishing 2",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -64923,7 +64923,7 @@
         "disc_type": "CD",
         "languages": "En",
         "version": "",
-        "edition": "Original, Platinum"
+        "edition": "Original, Platinum, White Label"
     },
     "Sports Car GT (Germany)": {
         "secondary_name": "",
@@ -66143,7 +66143,7 @@
     "Egypt II - The Heliopolis Prophecy (Europe)": {
         "secondary_name": "",
         "group_name": "Egypt II - The Heliopolis Prophecy",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -68474,7 +68474,7 @@
     "Monster Trucks (Europe) (Demo)": {
         "secondary_name": "",
         "group_name": "Monster Trucks",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -73892,7 +73892,7 @@
     "Koudelka (Europe) (Disc 4)": {
         "secondary_name": "",
         "group_name": "Koudelka",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -85502,7 +85502,7 @@
     "NCAA GameBreaker 99 (USA) (Demo)": {
         "secondary_name": "",
         "group_name": "NCAA GameBreaker 99",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -93229,5 +93229,32 @@
         "languages": "En",
         "version": "",
         "edition": "Beta"
+    },
+    "Tomb Raider Chronicles (USA) (Rev 1)": {
+        "secondary_name": "",
+        "group_name": "Tomb Raider Chronicles",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "Rev 1",
+        "edition": "Original"
+    },
+    "Oni Taiji, The - Mezase! 2-daime Momotarou (Japan) (Major Wave)": {
+        "secondary_name": "Ｔｈｅ鬼退治！！　目指せ！二代目桃太郎",
+        "group_name": "Oni Taiji, The - Mezase! 2-daime Momotarou",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Major Wave"
+    },
+    "Fighting Force (USA) (Rev 1) (EDC)": {
+        "secondary_name": "",
+        "group_name": "Fighting Force",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "Rev 1",
+        "edition": "Original"
     }
 }

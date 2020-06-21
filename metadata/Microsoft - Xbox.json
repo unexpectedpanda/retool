@@ -7715,11 +7715,11 @@
     "Lord of the Rings, The - The Two Towers (Europe) (En,Fr,De,Es,It,Nl)": {
         "secondary_name": "",
         "group_name": "Lord of the Rings, The - The Two Towers",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "Nl, En, Fr, De, It, Es",
         "version": "",
-        "edition": "Original"
+        "edition": "Original, Classics"
     },
     "Outlaw Volleyball (Europe) (En,Fr,De)": {
         "secondary_name": "",
@@ -17201,7 +17201,7 @@
     "Mat Hoffman's Pro BMX 2 (USA)": {
         "secondary_name": "",
         "group_name": "Mat Hoffman's Pro BMX 2",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En",
         "version": "",
@@ -19685,7 +19685,7 @@
     "Lord of the Rings, The - The Third Age (Europe) (En,Sv)": {
         "secondary_name": "",
         "group_name": "Lord of the Rings, The - The Third Age",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En, Sv",
         "version": "",

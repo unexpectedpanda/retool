@@ -675,9 +675,9 @@
         "edition": "Original"
     },
     "Shin Sangoku Musou 2 & Moushouden Saikyou Data (Japan)": {
-        "secondary_name": "真・三國無双2　&　猛将伝　最強データ",
+        "secondary_name": "真・三國無双２　＆　猛将伝　最強データ",
         "group_name": "Shin Sangoku Musou 2 & Moushouden Saikyou Data",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.00",
@@ -7328,7 +7328,7 @@
     "Psyvariar - Complete Edition (Korea)": {
         "secondary_name": "사이바리아 컴플리트 에디션",
         "group_name": "Psyvariar - Complete Edition",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "1.01",
@@ -12278,9 +12278,9 @@
     "Taito Legends (USA)": {
         "secondary_name": "",
         "group_name": "Taito Legends",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "En",
         "version": "1.00",
         "edition": "Original"
     },
@@ -21665,7 +21665,7 @@
     "SingStar '80s (USA)": {
         "secondary_name": "",
         "group_name": "SingStar '80s",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "",
         "version": "1.00",
@@ -22124,7 +22124,7 @@
     "Tekken's Nina Williams in - Death by Degrees (Europe) (En,De)": {
         "secondary_name": "Death by Degrees",
         "group_name": "Tekken's Nina Williams in - Death by Degrees",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En, De",
         "version": "1.00",
@@ -27989,12 +27989,12 @@
         "version": "1.02",
         "edition": "Original"
     },
-    "Sonic Gems Collection (Japan)": {
-        "secondary_name": "ソニック ジェムズ コレクション",
+    "Sonic Gems Collection (Japan) (En,Ja)": {
+        "secondary_name": "ソニック　ジェムズ　コレクション",
         "group_name": "Sonic Gems Collection",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
-        "languages": "Ja",
+        "languages": "En, Ja",
         "version": "1.01",
         "edition": "Original"
     },
@@ -30257,10 +30257,10 @@
         "version": "1.00",
         "edition": "Original"
     },
-    "CSI - Crime Scene Investigation (Europe) (En,Fr,De,Es,It)": {
+    "CSI - Crime Scene Investigation (Europe, Australia) (En,Fr,De,Es,It)": {
         "secondary_name": "CSI: Crime Scene Investigation: 3 Dimensions of Murder",
         "group_name": "CSI - Crime Scene Investigation",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En, Fr, De, It, Es",
         "version": "1.01",
@@ -34805,9 +34805,9 @@
     "PopCap Hits! Vol. 1 (USA)": {
         "secondary_name": "",
         "group_name": "PopCap Hits! Vol. 1",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
-        "languages": "",
+        "languages": "En",
         "version": "1.01",
         "edition": "Original"
     },
@@ -35030,7 +35030,7 @@
     "Taito Legends 2 (USA)": {
         "secondary_name": "",
         "group_name": "Taito Legends 2",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "1.01",
@@ -57260,11 +57260,11 @@
     "Grand Theft Auto - Vice City Stories (Germany) (En,De)": {
         "secondary_name": "",
         "group_name": "Grand Theft Auto - Vice City Stories",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En, De",
         "version": "1.00",
-        "edition": "Platinum"
+        "edition": "Original, Platinum"
     },
     "Jurassic Park - Operation Genesis (Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "",
@@ -58655,7 +58655,7 @@
     "WRC II Extreme - Special Demo (Europe) (SCED-51305)": {
         "secondary_name": "",
         "group_name": "WRC II Extreme - Special Demo",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "1.00",
@@ -72299,7 +72299,7 @@
     "Street Fighter Alpha Anthology (USA)": {
         "secondary_name": "",
         "group_name": "Street Fighter Alpha Anthology",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "1.01",
@@ -73253,7 +73253,7 @@
     "Suikoden Tactics (Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "Suikoden Tactics",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En, Fr, De, It, Es",
         "version": "1.01",
@@ -83342,7 +83342,7 @@
     "Atari Anthology (USA)": {
         "secondary_name": "",
         "group_name": "Atari Anthology",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "1.00",
@@ -88610,6 +88610,33 @@
         "status": "Blue",
         "disc_type": "CD",
         "languages": "En",
+        "version": "1.30",
+        "edition": "Unlicensed"
+    },
+    "PES 2008 - Pro Evolution Soccer (Europe) (En,Fr,De,Es,It,Pt) (Demo)": {
+        "secondary_name": "",
+        "group_name": "PES 2008 - Pro Evolution Soccer",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En, Fr, De, It, Pt, Es",
+        "version": "1.00",
+        "edition": "Demo"
+    },
+    "Monde des Bleus 2003, Le - Un Nouveau Defi (France) (Demo)": {
+        "secondary_name": "",
+        "group_name": "Monde des Bleus 2003, Le - Un Nouveau Defi",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "Fr",
+        "version": "1.00",
+        "edition": "Demo"
+    },
+    "Xtreme Cheats - Special Edition (UK) (Unl)": {
+        "secondary_name": "",
+        "group_name": "Xtreme Cheats - Special Edition",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
         "version": "1.30",
         "edition": "Unlicensed"
     }
