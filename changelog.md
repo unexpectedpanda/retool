@@ -1,4 +1,8 @@
-# 0.70.0
+# 0.71
+- Moved internal-config.json to the clonelists + metadata file so new
+  releases of Retool aren't required each time the file is updated.
+
+# 0.70
 Oof, this is a big update, with feature and performance improvements all over
 the place.
 
