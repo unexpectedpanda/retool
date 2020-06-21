@@ -28,7 +28,7 @@ from modules.xml import dat_to_dict, process_input_dat
 # Require at least Python 3.8
 assert sys.version_info >= (3, 8)
 
-__version__ = '0.70'
+__version__ = '0.71'
 
 def main():
     # Start a timer from when the process started

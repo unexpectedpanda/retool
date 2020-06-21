@@ -9,7 +9,7 @@
             "Retool requires. You probably don't want to",
             "mess with them."
         ],
-        "last updated": "12 June 2020"
+        "last updated": "21 June 2020"
     },
 
     "ignore_tags": [
@@ -75,6 +75,7 @@
     },
 
     "promote_editions": [
+        "\\s?\\(Aquaprice 2800\\)",
         "\\s?\\(Best of the Best\\)",
         "\\s?\\(Best Hit Selection\\)",
         "\\s?\\(Best Wing 2800\\)",
