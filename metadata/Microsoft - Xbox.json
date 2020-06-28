@@ -2681,14 +2681,14 @@
         "version": "",
         "edition": "Special Pack"
     },
-    "Tao Feng - Fist of the Lotus (USA, Asia)": {
-        "secondary_name": "道風：蓮拳",
+    "Tao Feng - Fist of the Lotus (USA, Japan)": {
+        "secondary_name": "タオフェン",
         "group_name": "Tao Feng - Fist of the Lotus",
         "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En",
         "version": "",
-        "edition": "Original"
+        "edition": "Original, World Collection"
     },
     "TimeSplitters 2 (Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "",
@@ -5093,14 +5093,14 @@
         "version": "",
         "edition": "Classics"
     },
-    "Rocky Legends (Europe) (En,Fr,De)": {
+    "Rocky Legends (Japan, Europe) (En,Fr,De)": {
         "secondary_name": "",
         "group_name": "Rocky Legends",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En, Fr, De",
         "version": "",
-        "edition": "Original"
+        "edition": "Original, World Collection"
     },
     "Ed, Edd n Eddy - The Mis-Edventures (USA)": {
         "secondary_name": "",
@@ -6236,10 +6236,10 @@
         "version": "",
         "edition": "Original"
     },
-    "Scarface - The World Is Yours (Europe)": {
+    "Scarface - The World Is Yours (USA, Europe)": {
         "secondary_name": "",
         "group_name": "Scarface - The World Is Yours",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En",
         "version": "",
@@ -7784,14 +7784,14 @@
         "version": "",
         "edition": "Promo"
     },
-    "Atari Anthology (Europe) (En,Fr,De,Es,It)": {
+    "Atari Anthology (Japan, Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "Atari Anthology",
         "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En, Fr, De, It, Es",
         "version": "",
-        "edition": "Original"
+        "edition": "Original, World Collection"
     },
     "SpyHunter (Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "",
@@ -9512,14 +9512,14 @@
         "version": "",
         "edition": "Original"
     },
-    "Metal Arms - Glitch in the System (USA)": {
+    "Metal Arms - Glitch in the System (USA, Japan)": {
         "secondary_name": "",
         "group_name": "Metal Arms - Glitch in the System",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En",
         "version": "",
-        "edition": "Original"
+        "edition": "Original, World Collection"
     },
     "Backyard Wrestling 2 - There Goes the Neighborhood (Europe)": {
         "secondary_name": "",
@@ -11132,10 +11132,10 @@
         "version": "",
         "edition": "Original"
     },
-    "Motocross Mania 3 (Europe) (En,Fr,De,Es,It)": {
+    "Motocross Mania 3 (USA, Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "Motocross Mania 3",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En, Fr, De, It, Es",
         "version": "",
@@ -11195,14 +11195,14 @@
         "version": "",
         "edition": "Original"
     },
-    "Return to Castle Wolfenstein - Tides of War (USA, Europe)": {
+    "Return to Castle Wolfenstein - Tides of War (World)": {
         "secondary_name": "",
         "group_name": "Return to Castle Wolfenstein - Tides of War",
         "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En",
         "version": "",
-        "edition": "Original, Classics, Platinum Hits"
+        "edition": "Original, Classics, Platinum Hits, World Collection"
     },
     "NASCAR 2005 - Chase for the Cup (USA)": {
         "secondary_name": "",
@@ -11810,11 +11810,11 @@
     "Phantom Dust (Japan)": {
         "secondary_name": "ファントムダスト",
         "group_name": "Phantom Dust",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "",
         "version": "",
-        "edition": "Original"
+        "edition": "Original, Shokaiban"
     },
     "FlatOut (Europe) (En,Fr,Es,It)": {
         "secondary_name": "",
@@ -14660,8 +14660,8 @@
         "version": "",
         "edition": "Original"
     },
-    "Grabbed by the Ghoulies (Asia) (En,Ja,Zh,Ko)": {
-        "secondary_name": "鬼屋大冒險",
+    "Grabbed by the Ghoulies (Japan, Asia) (En,Ja,Zh,Ko)": {
+        "secondary_name": "グーリーズ　Ｇｒａｂｂｅｄ　ｂｙ　ｔｈｅ　Ｇｈｏｕｌｉｅｓ",
         "group_name": "Grabbed by the Ghoulies",
         "status": "Green",
         "disc_type": "DVD-9",
@@ -15569,7 +15569,7 @@
         "version": "",
         "edition": "Original"
     },
-    "Blazing Angels - Squadrons of WWII (Europe) (En,Fr,De,Es,It)": {
+    "Blazing Angels - Squadrons of WWII (USA, Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "Blazing Angels - Squadrons of WWII",
         "status": "Green",
@@ -16523,10 +16523,10 @@
         "version": "",
         "edition": "Original"
     },
-    "NBA Street V3 (Europe) (En,Fr,De)": {
+    "NBA Street V3 (Europe, Australia) (En,Fr,De)": {
         "secondary_name": "",
         "group_name": "NBA Street V3",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En, Fr, De",
         "version": "",
@@ -16991,14 +16991,14 @@
         "version": "",
         "edition": "Original"
     },
-    "Simpsons, The - Hit & Run (USA)": {
+    "Simpsons, The - Hit & Run (USA, Japan)": {
         "secondary_name": "",
         "group_name": "Simpsons, The - Hit & Run",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En",
         "version": "",
-        "edition": "Original"
+        "edition": "Original, World Collection"
     },
     "Shin Sangoku Musou 3 (Japan, Asia)": {
         "secondary_name": "真・三國無双３",
@@ -17441,7 +17441,7 @@
         "version": "",
         "edition": "Original"
     },
-    "Eragon (Europe)": {
+    "Eragon (USA, Europe)": {
         "secondary_name": "",
         "group_name": "Eragon",
         "status": "Green",
@@ -17684,14 +17684,14 @@
         "version": "",
         "edition": "Original"
     },
-    "Rapala Pro Fishing (Europe)": {
+    "Rapala Pro Fishing (Japan, Europe)": {
         "secondary_name": "",
         "group_name": "Rapala Pro Fishing",
         "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En",
         "version": "",
-        "edition": "Original"
+        "edition": "Original, World Collection"
     },
     "Malice (Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "",
@@ -18062,7 +18062,7 @@
         "version": "Rev 1",
         "edition": "Original, Platinum Hits"
     },
-    "Links 2004 (Europe)": {
+    "Links 2004 (Europe, Australia)": {
         "secondary_name": "",
         "group_name": "Links 2004",
         "status": "Green",
@@ -20258,14 +20258,14 @@
         "version": "",
         "edition": "Original"
     },
-    "X-Men Legends (Europe)": {
+    "X-Men Legends (Japan, Europe)": {
         "secondary_name": "",
         "group_name": "X-Men Legends",
         "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En",
         "version": "",
-        "edition": "Original"
+        "edition": "Original, World Collection"
     },
     "Silent Hill 2 - Restless Dreams (USA) (En,Ja)": {
         "secondary_name": "",
@@ -21806,14 +21806,14 @@
         "version": "",
         "edition": "Original"
     },
-    "Dead Man's Hand (USA)": {
+    "Dead Man's Hand (USA, Japan)": {
         "secondary_name": "",
         "group_name": "Dead Man's Hand",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En",
         "version": "",
-        "edition": "Original"
+        "edition": "Original, World Collection"
     },
     "Bad Boys II (Europe)": {
         "secondary_name": "",
@@ -22021,5 +22021,14 @@
         "languages": "",
         "version": "",
         "edition": ""
+    },
+    "Official Xbox Magazine Game Disc 11 (Australia)": {
+        "secondary_name": "",
+        "group_name": "Official Xbox Magazine Game Disc 11",
+        "status": "Blue",
+        "disc_type": "DVD-9",
+        "languages": "",
+        "version": "",
+        "edition": "Original"
     }
 }

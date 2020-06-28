@@ -3,7 +3,7 @@
         "name": [
 			"Sony - PlayStation"
 		],
-        "last updated": "14 June 2020"
+        "last updated": "28 June 2020"
     },
 
     "overrides": {
@@ -11,7 +11,7 @@
 		"King's Field II (Japan)": ["King's Field", false],
 		"King's Field (Japan)": ["King's Field (Japan)", false],
 		"Motor Toon Grand Prix (Japan)": ["Motor Toon Grand Prix (Japan)", false],
-		"Motor Toon Grand Prix (Japan) (Rev1)": ["Motor Toon Grand Prix (Japan)", false],
+		"Motor Toon Grand Prix (Japan) (Rev 1)": ["Motor Toon Grand Prix (Japan)", false],
 		"Strikers 1945 (Japan)": ["Strikers 1945 (Japan)", false]
 	},
 
@@ -2247,7 +2247,7 @@
 			["Arcade Hits - Sonic Wings Special", 1]
 		],
 		"Sorcerer's Maze": [
-			["Action Puzzle - Prism Land", 1],
+			["Prism Land", 1],
 			["Prism Land Story", 1]
 		],
 		"Soukou Kihei Votoms - Lightning Slash (Limited Edition)": [

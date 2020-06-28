@@ -4687,5 +4687,32 @@
         "languages": "En",
         "version": "",
         "edition": "Original"
+    },
+    "Return Fire - Maps o' Death (USA)": {
+        "secondary_name": "",
+        "group_name": "Return Fire - Maps o' Death",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Scramble Cobra (USA)": {
+        "secondary_name": "",
+        "group_name": "Scramble Cobra",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "20th Century Video Almanac (USA)": {
+        "secondary_name": "",
+        "group_name": "20th Century Video Almanac",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
     }
 }

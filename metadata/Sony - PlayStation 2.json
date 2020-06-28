@@ -3176,14 +3176,14 @@
         "version": "1.01",
         "edition": "Original"
     },
-    "Zone of the Enders - The 2nd Runner (Korea) (Special Edition)": {
+    "Zone of the Enders - The 2nd Runner - Special Edition (Korea)": {
         "secondary_name": "",
-        "group_name": "Zone of the Enders - The 2nd Runner",
-        "status": "Blue",
+        "group_name": "Zone of the Enders - The 2nd Runner - Special Edition",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ko",
         "version": "1.00",
-        "edition": "Special Edition"
+        "edition": "Original, BigHit Series"
     },
     "Generation of Chaos Next - Ushinawareshi Kizuna (Japan) (Genteiban)": {
         "secondary_name": "ジェネレーション　オブ　カオス　ネクスト　～失われし絆～",
@@ -17435,7 +17435,7 @@
     "GameShark - Metal Gear Solid 2 - Sons of Liberty (USA) (Disc 1) (Codes and Saves) (Unl)": {
         "secondary_name": "",
         "group_name": "GameShark - Metal Gear Solid 2 - Sons of Liberty",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "1.10",
@@ -88639,5 +88639,95 @@
         "languages": "",
         "version": "1.30",
         "edition": "Unlicensed"
+    },
+    "Soulcalibur III (Korea)": {
+        "secondary_name": "소울칼리버 Ⅲ",
+        "group_name": "Soulcalibur III",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "Ko",
+        "version": "1.00",
+        "edition": "Original"
+    },
+    "MLB 10 - The Show (Korea)": {
+        "secondary_name": "",
+        "group_name": "MLB 10 - The Show",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "En",
+        "version": "1.00",
+        "edition": "Sample"
+    },
+    "Psyvariar 2 - Ultimate Final (Japan)": {
+        "secondary_name": "サイヴァリア2 アルティメットファイナル",
+        "group_name": "Psyvariar 2 - Ultimate Final",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "1.01",
+        "edition": "Original"
+    },
+    "ATV Offroad Fury 4 (USA) (Layer 0) (Beta)": {
+        "secondary_name": "",
+        "group_name": "ATV Offroad Fury 4",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "En",
+        "version": "1.00",
+        "edition": "Beta"
+    },
+    "ATV Offroad Fury 4 (USA) (Layer 1) (Beta)": {
+        "secondary_name": "",
+        "group_name": "ATV Offroad Fury 4",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "En",
+        "version": "1.00",
+        "edition": "Beta"
+    },
+    "Amplitude (Europe) (Demo)": {
+        "secondary_name": "",
+        "group_name": "Amplitude",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "En",
+        "version": "1.00",
+        "edition": "Demo"
+    },
+    "Buzz! The Sports Quiz (Europe) (Fr,De,Es,It) (Demo)": {
+        "secondary_name": "",
+        "group_name": "Buzz! The Sports Quiz",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "Fr, De, It, Es",
+        "version": "1.00",
+        "edition": "Demo"
+    },
+    "Medal of Honor - Frontline (Europe) (Demo)": {
+        "secondary_name": "",
+        "group_name": "Medal of Honor - Frontline",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "1.00",
+        "edition": "Demo"
+    },
+    "MX 2002 featuring Ricky Carmichael (Europe) (Demo)": {
+        "secondary_name": "",
+        "group_name": "MX 2002 featuring Ricky Carmichael",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "1.00",
+        "edition": "Demo"
+    },
+    "Shin Contra (Asia)": {
+        "secondary_name": "真魂斗羅",
+        "group_name": "Shin Contra",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "1.01",
+        "edition": "Original"
     }
 }

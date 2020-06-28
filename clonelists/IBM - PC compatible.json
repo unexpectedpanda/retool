@@ -3,7 +3,7 @@
 		"name": [
 			"IBM - PC compatible"
 		],
-		"last updated": "21 June 2020"
+		"last updated": "27 June 2020"
 	},
 
 	"compilations": [
@@ -1883,6 +1883,7 @@
 		"Elder Scrolls IV, The - Oblivion": [
 			["Elder Scrolls IV, The - Oblivion - 5th Anniversary Edition (Disc 1)", -1],
 			["Elder Scrolls IV, The - Oblivion (Premium Disc)", 1],
+			["Elder Scrolls IV, The - Oblivion (Collector's Edition)", 1],
 			["Elder Scrolls IV, The - Oblivion (Patch PL)", 2]
 		],
 		"Elder Scrolls IV, The - Oblivion - Game of the Year Edition (Disc 1)": [
@@ -2198,7 +2199,8 @@
 		],
 		"Final Fantasy VIII (Install Disc)": [
 			["Final Fantasy VIII (Disc 5)", 1],
-			["Final Fantasy VIII (Disc Installazione)", 1]
+			["Final Fantasy VIII (Disc Installazione)", 1],
+			["Final Fantasy VIII (Install Disc) (Color Label)", 1]
 		],
 		"Firestorm - Thunderhawk 2": [
 			["Thunderhawk 2 - Firestorm", 1]
@@ -2392,10 +2394,11 @@
 		"Gothic 3 - Forsaken Gods": [
 			["Gothic 3 - Goetterdaemmerung", 1]
 		],
-		"Gothic II (Disc 1) (Play Disc)": [
+		"Gothic II (Disc 1)": [
 			["Gothic Universe (Disc 2)", -1],
 			["Gothic Universe (Gothic II Gold)", -1],
-			["Gothic II (Disc 1)", 1],
+			["Gothic II (Disc 1) (Play Disc)", 1],
+			["Gothic II (Disc 1) (Game Disc)", 1],
 			["Gothic II (Spiel CD)", 2],
 			["Gothic II", 1]
 		],
@@ -4942,6 +4945,7 @@
 			["Faust - Die sieben Spiele der Seele (Disc 4)", 1]
 		],
 		"Shade - Wrath of Angels": [
+			["Shade - L'Ira degli Angeli", 1],
 			["Shade - L'ira degli Angeli", 1]
 		],
 		"Shadow Man": [
