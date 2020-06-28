@@ -2780,9 +2780,9 @@
         "version": "",
         "edition": "Original"
     },
-    "Chiemi & Naomi (Japan)": {
-        "secondary_name": "稚恵美＆奈緒美",
-        "group_name": "Chiemi & Naomi",
+    "Chiemi + Naomi (Japan)": {
+        "secondary_name": "稚恵美／奈緒美",
+        "group_name": "Chiemi + Naomi",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "Ja",
@@ -2904,6 +2904,96 @@
         "disc_type": "CD",
         "languages": "Ja",
         "version": "Rev A",
+        "edition": "Original"
+    },
+    "Hyper Fetishism (Japan)": {
+        "secondary_name": "ハイパー・フェティシズム",
+        "group_name": "Hyper Fetishism",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Manami no Doko made Iku no 2 - Return of the Kuro Pack (Japan)": {
+        "secondary_name": "まなみのどこまでイクの?２　～リターン・オブＴＨＥ黒パック～",
+        "group_name": "Manami no Doko made Iku no 2 - Return of the Kuro Pack",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Arabesque - Shoujo-tachi no Orinasu Ai no Monogatari (Japan)": {
+        "secondary_name": "アラベスク　～少女たちの織りなす愛の物語～",
+        "group_name": "Arabesque - Shoujo-tachi no Orinasu Ai no Monogatari",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Custom Mate 2 + Itsuka Dokoka de (Japan)": {
+        "secondary_name": "カスタム・メイト２／いつかどこかで",
+        "group_name": "Custom Mate 2 + Itsuka Dokoka de",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Pro Student G (Japan)": {
+        "secondary_name": "ぷろ　すちゅーでんとＧ",
+        "group_name": "Pro Student G",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Pro Student G (Japan) (Rerelease)": {
+        "secondary_name": "ぷろ　すちゅーでんとＧ",
+        "group_name": "Pro Student G",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Rerelease"
+    },
+    "Ayumi-chan Monogatari (Japan)": {
+        "secondary_name": "あゆみちゃん物語",
+        "group_name": "Ayumi-chan Monogatari",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Mahjong Musashi (Japan)": {
+        "secondary_name": "麻雀武蔵",
+        "group_name": "Mahjong Musashi",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Towns-Telop (Japan)": {
+        "secondary_name": "",
+        "group_name": "Towns-Telop",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Jouhou Club - Card Processor Ver. 1.1 (Japan)": {
+        "secondary_name": "情報倶楽部",
+        "group_name": "Jouhou Club - Card Processor Ver. 1.1",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
         "edition": "Original"
     }
 }
