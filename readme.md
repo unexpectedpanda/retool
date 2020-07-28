@@ -28,7 +28,7 @@ following syntax:
 python retool.py -i <input dat/folder> <options>
 ```
 
-Alternatively, your system might be set up to run the py file directly:
+Alternatively, your system might be configured to run the py file directly:
 
 ```
 python retool.py -i <input dat/folder> <options>
