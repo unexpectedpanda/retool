@@ -28,6 +28,10 @@
   include it in their XML files, their XML files don't actually validate
   against it.
 - Retool can now deal with dats that don't include MD5 or SHA-1 hashes.
+- Windows and MacOS binaries have been removed. The Windows binary had
+  performance issues due to the Python environment needing significant
+  start up time, and I can no longer build the MacOS binary after the virtual
+  machine stopped working.
 - Some crash fixes and message format tweaking.
 
 # 0.71
