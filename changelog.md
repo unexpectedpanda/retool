@@ -1,3 +1,35 @@
+# 0.75
+- Now handles No-Intro dats. Note that grouping follows different rules to
+  No-Intro. For example, in the Atari 2600 dat, a compilation is listed as
+  a clone of a single title, despite featuring unique games. No-Intro also
+  tends to include demos as clones of production titles. Retool also doesn't
+  set clones for BIOSes, as you might need a different BIOS version in
+  different situations. Retool also ignores titles that don't have `rom` or
+  `disk` entries, which happens quite a bit in No-Intro's parent/clone sets.
+- Added `Mexico` and `Hong Kong` as regions.
+- Added `Zh-Hant` and `Zh-Hans` as languages.
+- Alphas, betas, and prototypes are now treated as versions of titles.
+  This way you get the highest version of a title available, and less noise
+  without stripping everything away with the `-p` tag. Retool prefers production
+  versions of titles, even if there is a preproduction title in a higher priority
+  region. Priority is as follows:
+  - Production with highest version
+  - Production with highest revision
+  - Production with no version/revision
+  - Highest beta revision
+  - Highest alpha revision
+  - Highest prototype revision
+- The exclude coverdiscs flag is now `-f`.
+- You can now exclude bad dumps, pirate titles, promotional titles (titles that
+  contain `(Promo)`, `EPK`, and `Press Kit`), and samples.
+- Retool can now deal with dats that fail DTD validation due to `<clrmamepro>`
+  and `<romcenter>` tags being in the wrong order in the header.
+- The dtd file has been updated to take into account that even though people
+  include it in their XML files, their XML files don't actually validate
+  against it.
+- Retool can now deal with dats that don't include MD5 or SHA-1 hashes.
+- Some crash fixes and message format tweaking.
+
 # 0.71
 - Moved internal-config.json to the clonelists + metadata file so new
   releases of Retool aren't required each time the file is updated.

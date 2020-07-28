@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
-""" retool.py: Creates 1G1R versions of [Redump](http://redump.org/) dats.
+""" retool.py: Creates 1G1R versions of [Redump](http://redump.org/)
+and [No-Intro](https://www.no-intro.org) dats.
 
 This is not an official Redump project.
 https://github.com/unexpectedpanda/retool
@@ -16,6 +17,7 @@ import re
 import time
 
 from bs4 import BeautifulSoup, Doctype
+from itertools import permutations
 
 from modules.classes import CloneList, Dat, Font, Regex, RegionKeys, Stats, TagKeys, Titles
 from modules.importdata import build_clone_lists, build_regions, build_tags, import_metadata
@@ -28,7 +30,7 @@ from modules.xml import dat_to_dict, process_input_dat
 # Require at least Python 3.8
 assert sys.version_info >= (3, 8)
 
-__version__ = '0.71'
+__version__ = '0.75'
 
 def main():
     # Start a timer from when the process started
@@ -41,12 +43,26 @@ def main():
     if len(sys.argv) == 1:
         printwrap(
             f'Creates 1G1R versions of Redump ({Font.underline}'
-            f'http://redump.org/{Font.end}) dats.', 'no_indent'
+            f'http://redump.org/{Font.end}) and No-Intro '
+            f'({Font.underline}https://www.no-intro.org/{Font.end}) dats.', 'no_indent'
         )
 
     # Generate regions and languages
     region_data = build_regions(RegionKeys())
-    LANGUAGES = '|'.join(region_data.languages_short)
+    languages = '|'.join(region_data.languages_short)
+
+    # Accommodate No-Intro language madness
+    no_intro_languages = region_data.languages_short
+    no_intro_languages.extend(no_intro_languages)
+
+    no_intro_permutations = []
+
+    for i in permutations(no_intro_languages, 2):
+        no_intro_permutations.append('|' + '\+'.join(i))
+
+    no_intro_permutations = ''.join(no_intro_permutations)
+
+    LANGUAGES = languages + no_intro_permutations
 
     # Regexes
     REGEX = Regex(LANGUAGES)
@@ -61,7 +77,8 @@ def main():
     # region order.
     user_input = import_user_config(region_data, user_input)
 
-    # Based on region counts from redump.org
+    # Based on region counts from redump.org. Used later to speed up processing through
+    # altering the order.
     PRIORITY_REGIONS = [
         'USA', 'Japan', 'Europe', 'Germany', 'Poland', 'Italy',
         'France', 'Spain', 'Netherlands', 'Russia', 'Korea']
@@ -93,8 +110,11 @@ def main():
         # Process and get the details we need from the input file
         input_dat = process_input_dat(dat_file, is_folder)
 
+        if input_dat == 'end_batch':
+            continue
+
         # Import the system's clone lists, if they exist
-        input_dat.clone_lists = build_clone_lists(input_dat.name)
+        input_dat.clone_lists = build_clone_lists(input_dat)
 
         # Import scraped Redump metadata for titles
         input_dat.metadata = import_metadata(input_dat.name)
@@ -111,6 +131,15 @@ def main():
         print(f'|  Author: {input_dat.author}')
         print(f'|  URL: {input_dat.url}')
         print(f'|  Version: {input_dat.version}\n')
+
+        # Compensate for No-Intro using "United Kingdom", and Redump using "UK"
+        if 'UK' in user_input.user_region_order:
+            uk_index = user_input.user_region_order.index('UK')
+            user_input.user_region_order[uk_index + 1:uk_index + 1] = ['United Kingdom']
+            uk_index = region_data.all.index('UK')
+            region_data.all[uk_index + 1:uk_index + 1] = ['United Kingdom']
+            if 'UK' in region_data.implied_language:
+                region_data.implied_language['United Kingdom'] = 'En'
 
         # For performance, change the region order so titles with a lot of regions are
         # processed first, and unknown regions are processed last. This doesn't affect
@@ -158,7 +187,7 @@ def main():
         # Combine all regions' titles and choose a parent based on region order
         print('* Finding parents across regions... ', sep='', end='\r', flush=True)
 
-        titles = choose_cross_region_parents(titles, user_input)
+        titles = choose_cross_region_parents(titles, user_input, REGEX)
 
         print('* Finding parents across regions... done.')
 
@@ -192,7 +221,7 @@ def main():
                 f'[1G1R]{user_input.user_options} (Retool {datetime.datetime.now().strftime("%Y-%m-%d %H-%M-%SS")[:-1]}).dat'))
 
         # Write the output dat file
-        write_dat_file(input_dat, user_input, output_file_name, stats, titles)
+        write_dat_file(input_dat, user_input, output_file_name, stats, titles, REGEX)
 
         # Report stats
         report_stats(stats, titles, user_input, input_dat, region_data)

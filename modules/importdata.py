@@ -1,5 +1,6 @@
 import json
 import os
+import re
 import sys
 
 from modules.classes import CloneList, Regions, Tags
@@ -105,10 +106,16 @@ def build_regions(REGIONS):
         sys.exit()
 
 
-def build_clone_lists(dat_name):
+def build_clone_lists(input_dat):
     """ Formats a clone list appriopriately """
 
     # Import JSON files that have the same name as dat_name + .json
+    remove_string = ' \((Parent-Clone|J64|ROM|Decrypted|Encrypted|BigEndian|ByteSwapped)\)'
+    if re.search(remove_string, input_dat.name) != None:
+        dat_name = re.sub(remove_string, '', input_dat.name)
+    else:
+        dat_name = input_dat.name
+
     if 'GameCube' in dat_name and (
         'NKit GCZ' in dat_name or
         'NKit ISO' in dat_name or
@@ -123,6 +130,16 @@ def build_clone_lists(dat_name):
         'NASOs' in dat_name
         ):
         clone_file = './clonelists/Nintendo - Wii.json'
+    elif (
+        'PlayStation Portable' in dat_name
+        and '(PSN)' not in dat_name
+        and '(PSX2PSP)' not in dat_name
+        and '(UMD Music)' not in dat_name
+        and '(UMD Video)' not in dat_name):
+            if 'no-intro' in input_dat.url:
+                clone_file = './clonelists/Sony - PlayStation Portable (No-Intro).json'
+            elif 'redump' in input_dat.url:
+                clone_file = './clonelists/Sony - PlayStation Portable (Redump).json'
     else:
         clone_file = './clonelists/' + dat_name + '.json'
     if os.path.exists(clone_file) == True and os.path.isfile(clone_file) == True:
