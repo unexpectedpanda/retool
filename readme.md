@@ -28,7 +28,13 @@ following syntax:
 python retool.py -i <input dat/folder> <options>
 ```
 
-A new file is automatically generated, the original file isn't altered.
+Alternatively, your system might be set up to run the py file directly:
+
+```
+python retool.py -i <input dat/folder> <options>
+```
+
+A new dat file is automatically generated, the original file isn't altered.
 
 Edit the `user-config.yaml` file to set region order and filter languages.
 Remove languages or regions by adding a `#` to the beginning of the relevant
