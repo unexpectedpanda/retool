@@ -31,7 +31,7 @@ python retool.py -i <input dat/folder> <options>
 Alternatively, your system might be configured to run the py file directly:
 
 ```
-python retool.py -i <input dat/folder> <options>
+retool.py -i <input dat/folder> <options>
 ```
 
 A new dat file is automatically generated, the original file isn't altered.
