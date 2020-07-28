@@ -6,21 +6,9 @@ Retool is a command line tool that creates 1G1R versions of
 
 ## Installation
 
-There are two ways you can install and run Retool.
-
-### Binaries
-
-If Git and Python aren't your thing, you can download ZIP files containing
-Windows and macOS binaries from the
-[dist](https://github.com/unexpectedpanda/retool/tree/master/dist) folder. Make
-sure to grab the clonelists + metadata ZIP file as well, and extract them both
-into the same folder to install.
-
-### Python
-
-For more code-savvy users, you can clone Retool from this repo and run it with
-[Python](https://www.python.org/), which will give you better performance.
-Retool requires a minimum of Python 3.8, and needs three additional modules.
+Clone Retool from this repo and run it with
+[Python](https://www.python.org/). Retool requires a minimum of Python 3.8,
+and needs three additional modules.
 
 To install the modules, assuming you already have Python installed, open
 Terminal, Command Prompt, or whatever the CLI is on your system, and type:
@@ -38,12 +26,6 @@ following syntax:
 
 ```
 python retool.py -i <input dat/folder> <options>
-```
-
-Or for the binary version:
-
-```
-retool -i <input dat/folder> <options>
 ```
 
 A new file is automatically generated, the original file isn't altered.
