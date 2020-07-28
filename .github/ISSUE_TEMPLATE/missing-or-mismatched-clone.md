@@ -7,16 +7,16 @@ assignees: ''
 
 ---
 
-*Redump or No-Intro?*
+## Redump or No-Intro?
 
 
-*System*
+## System
 
 
-*Parent*
+## Parent full name
 
 
-*Clone*
+## Clone full name
 
 
-*Version of dat file*
+## Version of dat file
