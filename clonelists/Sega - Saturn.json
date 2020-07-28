@@ -3,7 +3,7 @@
 		"name": [
 			"Sega - Saturn"
 		],
-		"last updated": "14 June 2020"
+		"last updated": "26 July 2020"
 	},
 
 	"compilations": [
@@ -100,12 +100,6 @@
 		"DecAthlete": [
 			["Athlete Kings", 1],
 			["DecAthlete for SegaNet", 1]
-		],
-		"Deep Fear (Disc 1) (Unl)": [
-			["Deep Fear (Disc 1)", 1]
-		],
-		"Deep Fear (Disc 2) (Unl)": [
-			["Deep Fear (Disc 2)", 1]
 		],
 		"Defcon 5 - Peace Has a Price...": [
 			["Defcon 5", 1]
@@ -368,9 +362,6 @@
 		"Sangokushi Koumeiden": [
 			["Sanguozhi Yingjiezhuan", 1]
 		],
-		"Saturn Bomberman": [
-			["Saturn Bomberman (SegaNet)", 1]
-		],
 		"Sega Rally Championship": [
 			["Sega Rally Championship Plus Netlink Edition", -1]
 		],
@@ -451,7 +442,6 @@
 			["Hyper Golf, The - Devil's Course", 1]
 		],
 		"Virtua Fighter": [
-			["Virtua Fighter Remix (SegaNet)", -1],
 			["Virtua Fighter Remix", -1]
 		],
 		"Virtua Fighter CG Portrait Collection": [
@@ -469,9 +459,6 @@
 		],
 		"Virtua Fighter Kids": [
 			["Virtua Fighter Kids (Java Tea Original)", 1]
-		],
-		"Virtua Fighter Remix (SegaNet)": [
-			["Virtua Fighter Remix", 1]
 		],
 		"Virtual Golf": [
 			["Tournament Leader", 1]

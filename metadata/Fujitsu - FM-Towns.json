@@ -431,9 +431,9 @@
         "version": "",
         "edition": "Original"
     },
-    "Super Real Mahjong PII&PIII (Japan)": {
+    "Super Real Mahjong PII & PIII (Japan)": {
         "secondary_name": "スーパー・リアル麻雀ＰⅡ＆ＰⅢ",
-        "group_name": "Super Real Mahjong PII&PIII",
+        "group_name": "Super Real Mahjong PII & PIII",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "Ja",
@@ -2995,5 +2995,14 @@
         "languages": "Ja",
         "version": "",
         "edition": "Original"
+    },
+    "Super Real Mahjong PII & PIII+ (Japan)": {
+        "secondary_name": "スーパーリアル麻雀　ＰⅡ＆ＰⅢ＋",
+        "group_name": "Super Real Mahjong PII & PIII+",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Ving FM Towns Marty Vol. 1"
     }
 }

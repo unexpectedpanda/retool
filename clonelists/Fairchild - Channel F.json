@@ -1,0 +1,18 @@
+{
+    "description": {
+        "name": [
+			"Fairchild - Channel F"
+		],
+        "last updated": "12 July 2020"
+    },
+
+    "renames": {
+        "Hangman": [
+            ["Ordtaevling", 1],
+            ["Rat' Mal", 1]
+        ],
+        "Tic-Tac-Toe, Shooting Gallery, Doodle, Quadra-Doodle": [
+           ["Muehle, Tontauben-Schiessen, Kreatives Malspiel, Videoscope", 1]
+        ]
+    }
+}

@@ -1,0 +1,742 @@
+{
+    "description": {
+        "name": [
+			"Nintendo - Nintendo 3DS"
+		],
+        "last updated": "27 July 2020"
+    },
+
+    "renames": {
+        "50 Classic Games 3D": [
+            ["50 Classic Games", 1]
+        ],
+        "Ace Combat - Assault Horizon Legacy": [
+            ["Ace Combat 3D - Cross Rumble", 1]
+        ],
+        "Ace Combat - Assault Horizon Legacy+": [
+            ["Ace Combat 3D - Cross Rumble+", 1]
+        ],
+        "Adventure Time - The Secret of the Nameless Kingdom": [
+            ["Adventure Time - Nameless Oukoku no Sannin no Princess", 1]
+        ],
+        "Adventures of Tintin, The - The Game": [
+            ["Adventures of Tintin, The - The Secret of the Unicorn", 1],
+            ["Tintin no Bouken - Unicorn-Gou no Himitsu", 1]
+        ],
+        "American Mensa Academy": [
+            ["Mensa Academy", 1]
+        ],
+        "Angler's Club - Ultimate Bass Fishing 3D": [
+            ["Fishing 3D", 1]
+        ],
+        "Animal Crossing - Happy Home Designer": [
+            ["Doubutsu no Mori - Happy Home Designer", 1]
+        ],
+        "Animal Crossing - New Leaf": [
+            ["Tobidase Doubutsu no Mori", 1],
+            ["Twieonawayo Dongmul-ui Sup", 1]
+        ],
+        "Animal Crossing - New Leaf - Welcome Amiibo": [
+            ["Tobidase Doubutsu no Mori - amiibo+", 1]
+        ],
+        "Art Academy - Lessons for Everyone": [
+            ["New Art Academy", 1],
+            ["Shin Egokoro Kyoushitsu", 1]
+        ],
+        "Asphalt 3D": [
+            ["Asphalt 3D - Nitro Racing", 1]
+        ],
+        "Azure Striker Gunvolt - Striker Pack": [
+            ["Armed Blue Gunvolt - Striker Pack", 1]
+        ],
+        "Barbie - Groom and Glam Pups": [
+            ["Barbie - Fun & Fashion Dogs", 1]
+        ],
+        "Brain Age - Concentration Training": [
+            ["Dr. Kawashima's Devilish Brain Training - Can You Stay Focused", 1],
+            ["Tohoku Daigaku Karei Igaku Kenkyuusho - Kawashima Ryuuta Kyouju Kanshuu - Monosugoku Nou wo Kitaeru 5-Funkan no Oni Training", 1]
+        ],
+        "Big Hero 6 - Battle in the Bay": [
+            ["Disney Baymax - Heroes Battle", 1]
+        ],
+        "Brain Training 3D": [
+            ["Kuukan Sagashimono kei Nouryoku Kaihatsu 3D Nou Training", 1]
+        ],
+        "Bravely Default": [
+            ["Bravely Default - For the Sequel", 1]
+        ],
+        "Bust-A-Move Universe": [
+            ["Puzzle Bobble Universe", 1],
+            ["Tobidasu! Puzzle Bobble 3D", 1]
+        ],
+        "Captain Toad - Treasure Tracker": [
+            ["Susume! Kinopio Taichou", 1]
+        ],
+        "Castlevania - Lords of Shadow - Mirror of Fate": [
+            ["Castlevania - Lords of Shadow - Sadame no Makyou", 1]
+        ],
+        "Chibi-Robo! Zip Lash": [
+            ["Nagenawa Action! Guruguru! Chibi Robo!", 1]
+        ],
+        "Code Name - S.T.E.A.M.": [
+            ["Code Name - S.T.E.A.M. - Lincoln VS Alien", 1]
+        ],
+        "Conception II - Children of the Seven Stars": [
+            ["Conception II - Shichisei no Michibiki to Mazuru no Akumu", 1]
+        ],
+        "Cooking Mama - Sweet Shop": [
+            ["Cooking Mama - Watashi no Sweets Shop", 1]
+        ],
+        "Cooking Mama 4 - Kitchen Magic": [
+            ["Cooking Mama 4", 1]
+        ],
+        "Cooking Mama 5 - Bon Appetit!": [
+            ["Cooking Mama - Bon Appetit!", 1],
+            ["Cooking Mama 5", 1]
+        ],
+        "Corpse Party": [
+            ["Corpse Party - Blood Covered - Repeated Fear", 1]
+        ],
+        "Crush 3D": [
+            ["Nightmare Puzzle - Crush 3D", 1]
+        ],
+        "Deca Sports Extreme": [
+            ["Deca Sporta - 3D Sports", 1],
+            ["Sports Island 3D", 1]
+        ],
+        "Detective Pikachu": [
+            ["Meitantei Pikachu", 1]
+        ],
+        "Dillon's Dead-Heat Breakers": [
+            ["Dead Heat Breakers, The", 1]
+        ],
+        "Disney Epic Mickey - Power of Illusion": [
+            ["Disney Epic Mickey - Mickey no Fushigi na Bouken", 1]
+        ],
+        "Disney Frozen - Olaf's Quest": [
+            ["Disney Anna to Yuki no Joou - Olaf no Okurimono", 1]
+        ],
+        "Disney Infinity - Toy Box Challenge": [
+            ["Disney Infinity", 1]
+        ],
+        "Disney Magical World": [
+            ["Disney Magic Castle - My Happy Life", 1]
+        ],
+        "Disney Magical World 2": [
+            ["Disney Magic Castle - My Happy Life 2", 1]
+        ],
+        "Doctor Lautrec and the Forgotten Knights": [
+            ["Doctor Lautrec to Boukyaku no Kishidan", 1]
+        ],
+        "Donkey Kong Country Returns 3D": [
+            ["Donkey Kong Returns 3D", 1]
+        ],
+        "DoraKazu - Nobita no Suuji Daibouken": [
+            ["Doraemon - Nobita's Number Adventure", 1]
+        ],
+        "Dragon Ball Z - Extreme Butoden": [
+            ["Dragon Ball Z - Extreme Butouden", 1]
+        ],
+        "Dragon Quest VII - Fragments of the Forgotten Past": [
+            ["Dragon Quest VII - Eden no Senshitachi", 1]
+        ],
+        "Dragon Quest VIII - Journey of the Cursed King": [
+            ["Dragon Quest VIII - Sora to Umi to Daichi to Norowareshi Himegimi", 1]
+        ],
+        "Driver - Renegade": [
+            ["Driver - Renegade 3D", 1]
+        ],
+        "DualPenSports": [
+            ["Touch! Double Pen Sports", 1]
+        ],
+        "Etrian Mystery Dungeon": [
+            ["Sekaiju to Fushigi no Dungeon", 1]
+        ],
+        "Etrian Odyssey 2 Untold - The Fafnir Knight": [
+            ["Shin Sekaiju no Meikyuu 2 - Fafnir no Kishi", 1]
+        ],
+        "Etrian Odyssey IV - Legends of the Titan": [
+            ["Sekaiju no Meikyuu IV - Denshou no Kyoshin", 1]
+        ],
+        "Etrian Odyssey Nexus": [
+            ["Sekaiju no Meikyuu X", 1]
+        ],
+        "Etrian Odyssey Untold - The Millennium Girl": [
+            ["Shin Sekaiju no Meikyuu - Millennium no Shoujo", 1]
+        ],
+        "Etrian Odyssey V - Beyond the Myth": [
+            ["Sekaiju no Meikyuu V - Nagaki Shinwa no Hate", 1]
+        ],
+        "Ever Oasis": [
+            ["Ever Oasis - Seirei to Tanebito no Mirage", 1]
+        ],
+        "Farming Simulator 14": [
+            ["Farming Simulator 14 - Pocket Nouen 2", 1]
+        ],
+        "Farming Simulator 18": [
+            ["Farming Simulator 18 - Pocket Nouen 4", 1]
+        ],
+        "Farming Simulator 2012 3D": [
+            ["Farming Simulator 3D - Pocket Nouen", 1]
+        ],
+        "FIFA Soccer 12": [
+            ["FIFA 12", 1]
+        ],
+        "FIFA Soccer 13": [
+            ["FIFA 13", 1]
+        ],
+        "Fire Emblem - Awakening": [
+            ["Fire Emblem - Kakusei", 1]
+        ],
+        "Fire Emblem Echoes - Shadows of Valentia": [
+            ["Fire Emblem Echoes - Mou Hitori no Eiyuu Ou", 1],
+            ["Fire Emblem Echoes - Tto Hanaui Yeongungwang", 1]
+        ],
+        "Fire Emblem Fates - Birthright": [
+            ["Fire Emblem Fates - Special Edition", -1],
+            ["Fire Emblem If - Special Edition", -1],
+            ["Fire Emblem If", -1],
+            ["Fire Emblem If - Byakuya Oukoku", 1]
+        ],
+        "Fire Emblem Fates - Conquest": [
+            ["Fire Emblem Fates - Special Edition", -1],
+            ["Fire Emblem If - Special Edition", -1],
+            ["Fire Emblem If", -1],
+            ["Fire Emblem If - Anya Oukoku", 1]
+        ],
+        "Fire Emblem Fates - Special Edition": [
+            ["Fire Emblem If - Special Edition", 1],
+            ["Fire Emblem If", 1]
+        ],
+        "Fossil Fighters - Frontier": [
+            ["Kaseki Horider - Mugen Gear", 1]
+        ],
+        "Funky Barn 3D": [
+            ["Happy Animal Bokujou", 1]
+        ],
+        "Gabrielle's Ghostly Groove 3D": [
+            ["Ushimitsu Monstruo - Linze to Mahou no Rhythm", 1]
+        ],
+        "Gardening Mama 2 - Forest Friends": [
+            ["Gardening Mama - Forest Friends", 1],
+            ["Gardening Mama - Mama to Mori no Nakama Tachi", 1]
+        ],
+        "Girls' Fashion Shoot": [
+            ["Nicola Kanshuu - Model Oshare Audition 2", 1]
+        ],
+        "Hakuoki - Memories of the Shinsengumi": [
+            ["Hakuouki 3D", 1]
+        ],
+        "Harvest Moon 3D - The Lost Valley": [
+            ["Harvest Moon - The Lost Valley", 1]
+        ],
+        "Harvest Moon 3D - A New Beginning": [
+            ["Bokujou Monogatari - Hajimari no Daichi", 1]
+        ],
+        "Hatsune Miku - Project Mirai DX": [
+            ["Hatsune Miku - Project Mirai Deluxe", 1]
+        ],
+        "Heavy Fire - The Chosen Few 3D": [
+            ["Heavy Fire - The Chosen Few", 1]
+        ],
+        "Hello Kitty & Friends - Rock n' World Tour": [
+            ["Hello Kitty to Sanrio Characters - World Rock Tour", 1]
+        ],
+        "Hello Kitty Picnic with Sanrio Friends": [
+            ["Hello Kitty Picnic with Sanrio Characters", 1]
+        ],
+        "Hello Kitty and the Apron of Magic - Rhythm Cooking": [
+            ["Hello Kitty to Mahou no Apron - Rhythm Cooking", 1]
+        ],
+        "Horses 3D": [
+            ["Imagine - Champion Rider 3D", 1]
+        ],
+        "Hyrule Warriors Legends": [
+            ["Zelda Musou - Hyrule All-Stars", 1]
+        ],
+        "Ice Age - Continental Drift - Arctic Games": [
+            ["Ice Age 4 - Continental Drift - Arctic Games", 1],
+            ["L'Era Glaciale 4 - Continenti alla Deriva - Giochi Polari", 1]
+        ],
+        "Imagine - Babyz": [
+            ["Imagine - Babies 3D", 1]
+        ],
+        "Imagine - Fashion Designer": [
+            ["Girls Fashion 3D - Mezase! Top Stylist", 1],
+            ["Imagine - Fashion Designer 3D", 1]
+        ],
+        "Imagine - Fashion Life": [
+            ["Imagine - Fashion World 3D", 1]
+        ],
+        "Inazuma Eleven GO - Chrono Stones - Thunderflash": [
+            ["Inazuma Eleven Go 2 - Chrono Stone - Raimei", 1]
+        ],
+        "Inazuma Eleven GO - Chrono Stones - Wildfire": [
+            ["Inazuma Eleven Go 2 - Chrono Stone - Neppuu", 1]
+        ],
+        "Inazuma Eleven Go - Light": [
+            ["Inazuma Eleven Go - Shine", 1]
+        ],
+        "Inazuma Eleven Go - Shadow": [
+            ["Inazuma Eleven Go - Dark", 1]
+        ],
+        "Jake Hunter Detective Story - Ghost of the Dusk": [
+            ["Tantei Jinguuji Saburou - Ghost of the Dusk", 1]
+        ],
+        "James Noir's Hollywood Crimes": [
+            ["James Noir's Hollywood Crimes 3D", 1]
+        ],
+        "Jewel Master - Atlantis 3D": [
+            ["Jewel Master", 1],
+            ["Jewel Link - Legends of Atlantis 3D", 2]
+        ],
+        "Junior Classic Games 3D": [
+            ["Junior Games 3D", 1]
+        ],
+        "Kid Icarus - Uprising": [
+            ["Shin Hikari Shinwa - Palutena no Kagami", 1]
+        ],
+        "Kirby - Planet Robobot": [
+            ["Byeol-ui Kirby - Robobot Planet", 1],
+            ["Hoshi no Kirby - Robobo Planet", 1]
+        ],
+        "Kirby - Triple Deluxe": [
+            ["Byeorui Kirby - Triple Deluxe", 1],
+            ["Hoshi no Kirby - Triple Deluxe", 1]
+        ],
+        "Kirby Battle Royale": [
+            ["Kirby Battle Deluxe", 1]
+        ],
+        "Kirby's Extra Epic Yarn": [
+            ["Keito no Kirby Plus", 1]
+        ],
+        "Langrisser Re - Incarnation -TENSEI-": [
+            ["Langrisser - Re - Incarnation Tensei", 1]
+        ],
+        "Layton's Mystery Journey - Katrielle and the Millionaires' Conspiracy": [
+            ["Layton's Mystery Journey - Katrielle to Daifugou no Inbou", 1]
+        ],
+        "LBX - Little Battlers eXperience": [
+            ["Danball Senki Baku Boost", 1]
+        ],
+        "Legend of Zelda, The - A Link Between Worlds": [
+            ["Legend of Zelda, The - Kamigami no Triforce 2", 1],
+            ["Zelda Jeonseol Sindeul-ui Triforce 2", 1]
+        ],
+        "Legend of Zelda, The - Majora's Mask 3D": [
+            ["Zelda Jeonseol Majora Gamyeon 3D", 1],
+            ["Zelda no Densetsu - Mujura no Kamen 3D", 1]
+        ],
+        "Legend of Zelda, The - Ocarina of Time 3D": [
+            ["Zelda no Densetsu - Toki no Ocarina 3D", 1]
+        ],
+        "Legend of Zelda, The - Tri Force Heroes": [
+            ["Zelda no Densetsu - Tri Force 3-Juushi", 1],
+            ["Zelda no Densetsu - Triforce 3-Juushi", 1]
+        ],
+        "LEGO Batman 3 - Beyond Gotham": [
+            ["LEGO Batman 3 - Au-dela de Gotham", 1],
+            ["LEGO Batman 3 - Gotham e Oltre", 1],
+            ["LEGO Batman 3 - Jenseits von Gotham", 1],
+            ["LEGO Batman 3 - The Game - Gotham kara Uchuu e", 1]
+        ],
+        "LEGO Marvel Avengers": [
+            ["LEGO Marvel Vengadores", 1]
+        ],
+        "LEGO Marvel Super Heroes - Universe in Peril (English-only Audio)": [
+            ["LEGO Marvel Super Heroes - Universe in Peril", 1],
+            ["LEGO Marvel Super Heroes - L'Univers en Peril", 1],
+            ["LEGO Marvel Super Heroes - The Game", 1],
+            ["LEGO Marvel Super Heroes - Universo en Peligro", 1],
+            ["LEGO Marvel Super Heroes - Universum in Gefahr", 1],
+            ["LEGO Marvel Super Heroes - Universe in Peril (Spanish-only Audio)", 2]
+        ],
+        "LEGO Movie Videogame, The": [
+            ["Grande LEGO Aventure - Le Jeu Video, La", 1],
+            ["LEGO Pelicula el Videojuego, La", 1]
+        ],
+        "LEGO Ninjago - Shadow of Ronin": [
+            ["LEGO Ninjago - L'Ombre de Ronin", 1],
+            ["LEGO Ninjago - La Sombra de Ronin", 1],
+            ["LEGO Ninjago - Schatten des Ronin", 1],
+            ["LEGO Ninjago Ronin no Kage", 1]
+        ],
+        "LEGO Star Wars - The Force Awakens": [
+            ["LEGO Star Wars - Das Erwachen der Macht", 1],
+            ["LEGO Star Wars - El Despertar de la Fuerza", 1],
+            ["LEGO Star Wars - Force no Kakusei", 1],
+            ["LEGO Star Wars - Il Risveglio della Forza", 1],
+            ["LEGO Star Wars - Le Reveil de la Force", 1]
+        ],
+        "LEGO The Hobbit": [
+            ["LEGO Der Hobbit", 1],
+            ["LEGO El Hobbit", 1]
+        ],
+        "LEGO The Lord of the Rings": [
+            ["LEGO Der Herr der Ringe", 1],
+            ["LEGO El Senor de los Anillos", 1],
+            ["LEGO Le Seigneur des Anneaux", 1]
+        ],
+        "Lord of Magna - Maiden Heaven": [
+            ["Kinki no Magna", 1]
+        ],
+        "Lost Heroes 2": [
+            ["Lost Heroes 2 (Premium Edition)", -1]
+        ],
+        "Luigi's Mansion": [
+            ["Luigi Mansion", 1]
+        ],
+        "Luigi's Mansion - Dark Moon": [
+            ["Luigi's Mansion 2", 1],
+            ["Luigi Mansion 2", 1]
+        ],
+        "Madagascar 3 - The Video Game": [
+            ["Madagascar 3", 1],
+            ["Madagascar 3 - Europe's Most Wanted", 1]
+        ],
+        "Mahjong Cub3D": [
+            ["Shanghai 3D Cube", 1]
+        ],
+        "MapleStory - Unmei no Shoujo": [
+            ["MapleStory - The Girl's Fate", 1]
+        ],
+        "Mario & Luigi - Bowser's Inside Story + Bowser Jr.'s Journey": [
+            ["Mario & Luigi RPG3 DX", 1]
+        ],
+        "Mario & Luigi - Dream Team": [
+            ["Mario & Luigi - Dream Team Bros.", 1],
+            ["Mario & Luigi RPG 4 - Dream Adventure", 1]
+        ],
+        "Mario & Luigi - Paper Jam": [
+            ["Mario & Luigi - Paper Jam Bros.", 1],
+            ["Mario & Luigi RPG - Paper Mario MIX", 1]
+        ],
+        "Mario & Luigi - Superstar Saga + Bowser's Minions": [
+            ["Mario & Luigi - RPG1 DX", 1]
+        ],
+        "Mario & Sonic at the London 2012 Olympic Games": [
+            ["Mario & Sonic at London Olympics", 1],
+            ["Mariowa Sonic London Olympic", 1]
+        ],
+        "Mario & Sonic at the Rio 2016 Olympic Games": [
+            ["Mario & Sonic at Rio Olympics", 1]
+        ],
+        "Mario Party - The Top 100": [
+            ["Mario Party 100 - Mini Game Collection", 1]
+        ],
+        "Mega Man Legacy Collection": [
+            ["Rockman Classics Collection", 1]
+        ],
+        "Moco Moco Friends": [
+            ["Minarai Majo to MocoMoco Friends", 1]
+        ],
+        "Monster High - 13 Wishes": [
+            ["Monster High - 13 Wishes (AEFZ)", 1],
+            ["Monster High - 13 Wishes (AEFP)", 2]
+        ],
+        "Monster Hunter 3 Ultimate": [
+            ["Monster Hunter 3G", 1]
+        ],
+        "Monster Hunter 4 Ultimate": [
+            ["Monster Hunter 4G", 1]
+        ],
+        "Monster Hunter Generations": [
+            ["Monster Hunter X", 1]
+        ],
+        "Naruto Powerful Shippuden": [
+            ["Naruto SD Powerful Shippuden", 1]
+        ],
+        "Naruto Shippuden 3D - The New Era": [
+            ["Naruto Shippuden - Shinobi Rittai Emaki! Saikyou Ninkai Kessen!!", 1]
+        ],
+        "Nekketsu Kouha Kunio-Kun Special": [
+            ["Yeolhyeolgyeongpa Kunio-Kun Special", 1]
+        ],
+        "Nikoli's Pencil Puzzle": [
+            ["Sudoku - The Puzzle Game Collection", 1],
+            ["Sudoku to 3-Tsu no Puzzle - Nikoli no Puzzle Variety", 1]
+        ],
+        "Nintendo presents - New Style Boutique 3 - Styling Star": [
+            ["Girls Mode 4 - Star & Stylist", 1]
+        ],
+        "Nintendogs + Cats - Golden Retriever & New Friends": [
+            ["Nintendogs + Cats - Shiba & New Friends", 1],
+            ["Nintendogs + Cats - Shiba Inu & New Friends", 1]
+        ],
+        "One Piece - Romance Dawn": [
+            ["One Piece - Romance Dawn - Bouken no Yoake", 1]
+        ],
+        "Pac-Man and the Ghostly Adventures": [
+            ["Pac-World", 1]
+        ],
+        "Pac-Man and the Ghostly Adventures 2": [
+            ["Pac-World 2", 1]
+        ],
+        "Paper Mario - Sticker Star": [
+            ["Paper Mario - Super Seal", 1]
+        ],
+        "Paws & Claws - Pampered Pets Resort 3D": [
+            ["Pets Paradise Resort 3D", 1]
+        ],
+        "Petz Beach": [
+            ["Oshare de Kawaii! Koinu to Asobo! Umi-Hen", 1]
+        ],
+        "Petz Countryside": [
+            ["Oshare de Kawaii! Koinu to Asobo! Machi-Hen", 1]
+        ],
+        "Phonics Fun with Biff, Chip & Kipper Vol. 1": [
+            ["Kipper no Eigo Kyoushitsu - Floppys Phonics Vol. 1 - Kipper-Hen", 1]
+        ],
+        "Phonics Fun with Biff, Chip & Kipper Vol. 2": [
+            ["Kipper no Eigo Kyoushitsu - Floppys Phonics Vol. 2 - Biff-Hen", 1]
+        ],
+        "Phonics Fun with Biff, Chip & Kipper Vol. 3": [
+            ["Kipper no Eigo Kyoushitsu - Floppys Phonics Vol. 3 - Chip-Hen", 1]
+        ],
+        "Picross 3D - Round 2": [
+            ["Katachi Shinhakken! Rittai Picross 2", 1]
+        ],
+        "Pinball Hall of Fame - The Williams' Collection": [
+            ["Pinball Hall of Fame 3D - The Williams' Collection", 1]
+        ],
+        "Pokemon Moon": [
+            ["Pocket Monsters Moon", 1]
+        ],
+        "Pokemon Mystery Dungeon - Gates to Infinity": [
+            ["Pokemon Fushigi no Dungeon - Magnagate to Mugendai Meikyuu", 1]
+        ],
+        "Pokemon Rumble Blast": [
+            ["Super Pokemon Rumble", 1],
+            ["Super Pokemon Scramble", 1]
+        ],
+        "Pokemon Rumble World": [
+            ["Minna no Pokemon Scramble", 1]
+        ],
+        "Pokemon Sun": [
+            ["Pocket Monsters Sun", 1]
+        ],
+        "Pokemon Super Mystery Dungeon": [
+            ["Pokemon Chou Fushigi no Dungeon", 1]
+        ],
+        "Pokemon Ultra Moon": [
+            ["Pocket Monsters Ultra Moon", 1]
+        ],
+        "Pokemon Ultra Sun": [
+            ["Pocket Monsters Ultra Sun", 1]
+        ],
+        "Poochy & Yoshi's Woolly World": [
+            ["Poochy to! Yoshi Wool World", 1]
+        ],
+        "Pro Evolution Soccer 2011 3D": [
+            ["Winning Eleven 3D Soccer", 1]
+        ],
+        "Pro Evolution Soccer 2012 3D": [
+            ["World Soccer Winning Eleven 2012", 1]
+        ],
+        "Pro Evolution Soccer 2013 3D": [
+            ["World Soccer Winning Eleven 2013", 1]
+        ],
+        "Professor Layton and the Azran Legacy": [
+            ["Layton Kyouju to Choubunmei A no Isan", 1],
+            ["Profesor Layton y el Legado de los Ashalanti, El", 1],
+            ["Professeur Layton et l'Heritage des Aslantes", 1],
+            ["Professor Layton e l'Eredita' degli Aslant, Il", 1],
+            ["Professor Layton en de Erfenis van de Azran", 1],
+            ["Professor Layton und das Vermaechtnis von Aslant", 1]
+        ],
+        "Professor Layton and the Miracle Mask": [
+            ["Layton Kyouju to Kiseki no Kamen", 1],
+            ["Profesor Layton y la Mascara de los Prodigios, El", 1],
+            ["Professeur Layton et le Masque des Miracles", 1],
+            ["Professor Layton e la Maschera dei Miracoli, Il", 1],
+            ["Professor Layton en het Masker der Wonderen", 1],
+            ["Professor Layton und die Maske der Wunder", 1]
+        ],
+        "Professor Layton vs. Phoenix Wright - Ace Attorney": [
+            ["Layton Kyouju vs Gyakuten Saiban", 1],
+            ["Professor Layton vs Phoenix Wright - Ace Attorney", 1]
+        ],
+        "Project X Zone 2": [
+            ["Project Cross Zone 2", 1],
+            ["Project X Zone 2 - Brave New World", 1],
+            ["Project X Zone 2 - Brave New World (Original Game Sound Edition)", 2]
+        ],
+        "Puppies 3D": [
+            ["Kawaii Koinu 3D", 1],
+            ["Puppies World 3D", 1]
+        ],
+        "Puzzle & Dragons Z + Puzzle & Dragons Super Mario Bros. Edition": [
+            ["Puzzle & Dragons Z + Puzzle & Dragons Super Mario Bros. Edition", 1],
+            ["Puzzle & Dragons - Super Mario Bros. Edition", 1]
+        ],
+        "Rabbids - Travel in Time 3D": [
+            ["Rabbids 3D", 1],
+            ["Rabbids Time Travel", 1]
+        ],
+        "Reel Fishing Paradise 3D": [
+            ["Fish Eyes 3D", 1]
+        ],
+        "Resident Evil - Revelations": [
+            ["Biohazard - Revelations", 1]
+        ],
+        "Resident Evil - The Mercenaries 3D": [
+            ["Biohazard - The Mercenaries 3D", 1]
+        ],
+        "Return to PopoloCrois - A Story of Seasons Fairytale": [
+            ["Popolocrois - Bokujou Monogatari", 1]
+        ],
+        "Rhythm Paradise Megamix": [
+            ["Rhythm Tengoku - The Best+", 1]
+        ],
+        "Rhythm Thief & the Emperor's Treasure": [
+            ["Rhythm Kaitou R - Koutei Napoleon no Isan", 1]
+        ],
+        "Riding Stables 3D - Rivals in the Saddle": [
+            ["Riding Stables 3D", 2]
+        ],
+        "River City - Rival Showdown": [
+            ["Downtown Nekketsu Monogatari SP", 1]
+        ],
+        "River City - Tokyo Rumble": [
+            ["Nekketsu Kouha Kunio-Kun SP - Rantou Kyousoukyoku", 1],
+            ["Yeolhyeolgyeongpa Kunio-Kun SP - Nantu Hyeopjugog", 1]
+        ],
+        "RPG Maker Fes": [
+            ["RPG Tsukuru Fes", 1]
+        ],
+        "Samurai Warriors - Chronicles": [
+            ["Sengoku Musou Chronicle", 1]
+        ],
+        "SEGA 3D Classics Collection": [
+            ["SEGA 3D Fukkoku Archives 2", 1]
+        ],
+        "Senran Kagura 2 - Deep Crimson": [
+            ["Senran Kagura 2 - Shinku", 1]
+        ],
+        "Senran Kagura Burst": [
+            ["Senran Kagura Burst - Guren no Shoujotachi", 1]
+        ],
+        "Shantae and the Pirate's Curse": [
+            ["Shantae - Kaizoku no Noroi", 1]
+        ],
+        "Sherlock Holmes - The Mystery of the Frozen City": [
+            ["Sherlock Holmes Puzzle City", 1]
+        ],
+        "Shifting World": [
+            ["Shifting World - Shiro to Kuro no Meikyuu", 1]
+        ],
+        "Shin Megami Tensei - Devil Summoner - Soul Hackers": [
+            ["Devil Summoner - Soul Hackers", 1]
+        ],
+        "Shin Megami Tensei - Devil Survivor 2 Record Breaker": [
+            ["Devil Survivor 2 - Break Record", 1]
+        ],
+        "Shin Megami Tensei - Devil Survivor Overclocked": [
+            ["Devil Survivor - Over Clock", 1]
+        ],
+        "Shin Megami Tensei - Strange Journey Redux": [
+            ["Shin Megami Tensei - Deep Strange Journey", 1]
+        ],
+        "Shin Megami Tensei IV - Apocalypse": [
+            ["Shin Megami Tensei IV - Final", 1]
+        ],
+        "Shinobi": [
+            ["Shinobi 3D", 1]
+        ],
+        "Skylanders - Spyro's Adventure": [
+            ["Skylanders - Spyro no Daibouken", 1]
+        ],
+        "Sonic Boom - Fire & Ice": [
+            ["Sonic Toon - Fire & Ice", 1]
+        ],
+        "Sonic Boom - Shattered Crystal": [
+            ["Sonic Toon - Island Adventure", 1]
+        ],
+        "Sonic Generations": [
+            ["Sonic Generations - Ao no Bouken", 1]
+        ],
+        "Spider-Man - Edge of Time": [
+            ["Spider-Man - Aux Frontieres du Temps", 1]
+        ],
+        "Spirit Camera - The Cursed Memoir": [
+            ["Shinrei Camera - Tsuiteru Techou", 1]
+        ],
+        "SpongeBob SquigglePants": [
+            ["SpongeBob SquigglePants 3D", 1]
+        ],
+        "Story of Seasons": [
+            ["Bokujou Monogatari - Tsunagaru Shin Tenchi", 1]
+        ],
+        "Story of Seasons - Trio of Towns": [
+            ["Bokujou Monogatari - 3-tsu no Sato no Taisetsu na Tomodachi", 1]
+        ],
+        "Style Savvy - Fashion Forward": [
+            ["Girls Mode 3 - Kirakira-Code", 1],
+            ["Nintendo presents - New Style Boutique 2 - Fashion Forward", 1]
+        ],
+        "Style Savvy - Trendsetters": [
+            ["Nintendo presents - New Style Boutique", 1],
+            ["Wagamama Fashion - GirlsMode - Yokubari Sengen! Tokimeki Up!", 1],
+            ["Wagamama Fashion - GirlsMode - Yokubari Sengen", 2]
+        ],
+        "Sudoku + 7 Other Complex Puzzles by Nikoli": [
+            ["Nikoli no Sudoku 3D - 8-tsu no Puzzle de 1000-mon", 1]
+        ],
+        "Super Black Bass 3D": [
+            ["Super Black Bass - 3D Fight", 1]
+        ],
+        "Super Smash Bros. for Nintendo 3DS": [
+            ["Dairantou Smash Bros. for Nintendo 3DS", 1]
+        ],
+        "Sushi Striker - The Way of Sushido": [
+            ["Choukaiten Sushi Striker - The Way of Sushido", 1]
+        ],
+        "Tetris Axis": [
+            ["Tetris", 1]
+        ],
+        "Tomodachi Life": [
+            ["Chin-gumoa Apateu", 1],
+            ["Tomodachi Collection - Shin Seikatsu", 1]
+        ],
+        "Travel Adventures with Hello Kitty": [
+            ["Around the World with Hello Kitty & Friends", 1],
+            ["Hello Kitty to Sekai Ryokou! Iron na Kuni e Odekake Shimasho", 1]
+        ],
+        "Ultimate NES Remix": [
+            ["Famicom Remix Best Choice", 1]
+        ],
+        "WarioWare Gold": [
+            ["Made in Wario Gorgeous", 1]
+        ],
+        "Whitakers Present, The - Milton & Friends 3D": [
+            ["My Foal 3D", 2]
+        ],
+        "Yo-Kai Watch": [
+            ["Youkai Watch", 1]
+        ],
+        "Yo-Kai Watch 2 - Bony Spirits": [
+            ["Youkai Watch 2 - Ganso", 1]
+        ],
+        "Yo-Kai Watch 2 - Fleshy Souls": [
+            ["Youkai Watch 2 - Honke", 1]
+        ],
+        "Yo-Kai Watch 2 - Psychic Specters": [
+            ["Youkai Watch 2 - Shinuchi", 1]
+        ],
+        "Yo-Kai Watch 3": [
+            ["Youkai Watch 3 - Sukiyaki", 1]
+        ],
+        "Yu-Gi-Oh! Zexal - World Duel Carnival": [
+            ["Yu-Gi-Oh! Zexal - Gekitotsu! Duel Carnival!", 1]
+        ],
+        "Zero Escape - Virtue's Last Reward": [
+            ["Kyokugen Dasshutsu ADV - Zennin Shiboudesu", 1]
+        ],
+        "Zero Escape - Zero Time Dilemma": [
+            ["Zero Escape - Toki no Dilemma", 1]
+        ],
+        "Zoo Resort 3D": [
+            ["Animal Resort - Dobutsuen o Tsukurou!!", 1]
+        ]
+    }
+}

@@ -3,7 +3,7 @@
 		"name": [
 			"Fujitsu - FM-Towns"
 		],
-		"last updated": "25 May 2020"
+		"last updated": "27 July 2020"
 	},
 
 	"renames": {
@@ -15,6 +15,9 @@
 		],
 		"Microsoft Windows Version 3.1 L12 Operating System (Setup CD-ROM)": [
 			["Microsoft Windows Version 3.1 L11 Operating System (Setup CD-ROM)", 2]
+		],
+		"Super Real Mahjong PII & PIII": [
+			["Super Real Mahjong PII & PIII+", -1]
 		],
 		"Towns Paint V1.1L20": [
 			["Towns Paint V1.1L10", 2]

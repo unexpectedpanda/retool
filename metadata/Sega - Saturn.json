@@ -960,7 +960,7 @@
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.002",
-        "edition": "Original, Special Pack"
+        "edition": "Original, Satakore, Special Pack"
     },
     "Wizard's Harmony 2 (Japan) (2M)": {
         "secondary_name": "ウィザーズ・ハーモニー２",
@@ -2504,7 +2504,7 @@
     "Daisuki (Japan) (Disc 1)": {
         "secondary_name": "だいすき",
         "group_name": "Daisuki",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.002",
@@ -3599,10 +3599,10 @@
         "version": "1.001",
         "edition": "Original"
     },
-    "Pyon Pyon Kyaruru no Mahjong Hiyori (Japan) (2M)": {
+    "Pyon Pyon Kyaruru no Mahjong Biyori (Japan) (2M)": {
         "secondary_name": "ぴょんぴょんキャルルのまあじゃん日和",
-        "group_name": "Pyon Pyon Kyaruru no Mahjong Hiyori",
-        "status": "Blue",
+        "group_name": "Pyon Pyon Kyaruru no Mahjong Biyori",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.003",
@@ -5082,7 +5082,7 @@
         "disc_type": "CD",
         "languages": "En",
         "version": "1.004",
-        "edition": "Original, Virtua Gun Box"
+        "edition": "Original, Virtua Gun & Virtua Cop"
     },
     "Fighting Vipers (Europe)": {
         "secondary_name": "",
@@ -5138,9 +5138,9 @@
         "version": "1.002",
         "edition": "Original"
     },
-    "DX Jinsei Game - The Game of Life (Japan) (Rev A)": {
+    "Game of Life, The - DX Jinsei Game (Japan) (Rev A)": {
         "secondary_name": "ＤＸ人生ゲーム",
-        "group_name": "DX Jinsei Game - The Game of Life",
+        "group_name": "Game of Life, The - DX Jinsei Game",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "Ja",
@@ -5165,14 +5165,14 @@
         "version": "2.000",
         "edition": "Original"
     },
-    "Mahjong Gakuensai (Japan) (Disc 1) (Genteiban)": {
+    "Mahjong Gakuensai (Japan) (Disc 1) (Shokai Genteiban)": {
         "secondary_name": "麻雀　学園祭",
         "group_name": "Mahjong Gakuensai",
         "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.000",
-        "edition": "Genteiban"
+        "edition": "Shokai Genteiban"
     },
     "Area 51 (USA)": {
         "secondary_name": "",
@@ -6579,7 +6579,7 @@
         "edition": "Original"
     },
     "Myst (Korea)": {
-        "secondary_name": "",
+        "secondary_name": "미스트",
         "group_name": "Myst",
         "status": "Blue",
         "disc_type": "CD",
@@ -6876,13 +6876,13 @@
         "edition": "Original"
     },
     "Gouketsuji Ichizoku 3 - Groove on Fight (Japan)": {
-        "secondary_name": "豪血寺一族３　～グルーヴ・オン・ファイト～",
+        "secondary_name": "豪血寺一族３　グルーヴ・オン・ファイト",
         "group_name": "Gouketsuji Ichizoku 3 - Groove on Fight",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.001",
-        "edition": "Doukonban"
+        "edition": "Original, Doukonban"
     },
     "Sound Novel Machi (Japan) (Disc 2) (10.13-10.15 Incl.) (1M)": {
         "secondary_name": "サウンドノベル　街",
@@ -7157,7 +7157,7 @@
     "Sol Divide (Japan)": {
         "secondary_name": "ソル・ディバイド",
         "group_name": "Sol Divide",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.000",
@@ -8075,7 +8075,7 @@
     "Bakuretsu Hunter (Japan) (Disc 1)": {
         "secondary_name": "爆れつハンター",
         "group_name": "Bakuretsu Hunter",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.002",
@@ -9636,7 +9636,7 @@
         "disc_type": "CD",
         "languages": "Ko",
         "version": "1.000",
-        "edition": "Original"
+        "edition": "Kama Entertainment Rerelease"
     },
     "Gungriffon (USA)": {
         "secondary_name": "",
@@ -9989,14 +9989,14 @@
         "version": "1.001",
         "edition": "Original"
     },
-    "Mahjong Doukyuusei Special (Japan) (Disc 1) (Genteiban)": {
-        "secondary_name": "麻雀同級生Ｓｐｅｃｉａｌ　（限定版）",
+    "Mahjong Doukyuusei Special (Japan) (Disc 1) (Shokai Genteiban)": {
+        "secondary_name": "麻雀同級生Ｓｐｅｃｉａｌ",
         "group_name": "Mahjong Doukyuusei Special",
         "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.004",
-        "edition": "Genteiban"
+        "edition": "Shokai Genteiban"
     },
     "Sega Rally Championship (USA)": {
         "secondary_name": "",
@@ -10358,9 +10358,9 @@
         "version": "1.000",
         "edition": "Original"
     },
-    "Black Matrix (Japan) (Rerelease)": {
+    "Black-Matrix (Japan) (Rerelease)": {
         "secondary_name": "ブラック・マトリクス",
-        "group_name": "Black Matrix",
+        "group_name": "Black-Matrix",
         "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
@@ -11027,7 +11027,7 @@
     "Skull Fang - Kuuga Gaiden (Japan)": {
         "secondary_name": "スカル・ファング　～空牙外伝～",
         "group_name": "Skull Fang - Kuuga Gaiden",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.001",
@@ -11414,7 +11414,7 @@
     "Primal Rage (Japan)": {
         "secondary_name": "プライマル・レイジ",
         "group_name": "Primal Rage",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "1.300",
@@ -12849,7 +12849,7 @@
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.001",
-        "edition": "Original"
+        "edition": "Genteiban"
     },
     "Private Idol Disc Vol. 11 - Mayumi Hirose (Japan) (2M)": {
         "secondary_name": "プラドル・ディスク　Ｖｏｌ．１１　～廣瀬真弓～",
@@ -13598,14 +13598,14 @@
         "version": "1.001",
         "edition": "Shokai Genteiban"
     },
-    "Mahjong Gakuensai (Japan) (Disc 2) (Seiyuu Interview Hi CD) (Genteiban)": {
+    "Mahjong Gakuensai (Japan) (Disc 2) (Seiyuu Interview Hi CD) (Shokai Genteiban)": {
         "secondary_name": "麻雀　学園祭",
         "group_name": "Mahjong Gakuensai",
         "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.000",
-        "edition": "Genteiban"
+        "edition": "Shokai Genteiban"
     },
     "Slam 'n Jam '96 featuring Magic & Kareem - Signature Edition (USA)": {
         "secondary_name": "",
@@ -14210,9 +14210,9 @@
         "version": "1.001",
         "edition": "Original"
     },
-    "DX Jinsei Game - The Game of Life (Japan) (Rev B)": {
+    "Game of Life, The - DX Jinsei Game (Japan) (Rev B)": {
         "secondary_name": "ＤＸ人生ゲーム",
-        "group_name": "DX Jinsei Game - The Game of Life",
+        "group_name": "Game of Life, The - DX Jinsei Game",
         "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
@@ -14303,7 +14303,7 @@
     "Beach de Riichi! (Japan)": {
         "secondary_name": "海辺でリーチ！",
         "group_name": "Beach de Riichi!",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.002",
@@ -14823,7 +14823,7 @@
         "edition": "Original"
     },
     "Worldwide Soccer - Sega International Victory Goal Edition (Korea)": {
-        "secondary_name": "",
+        "secondary_name": "월드 와이드 사커",
         "group_name": "Worldwide Soccer - Sega International Victory Goal Edition",
         "status": "Blue",
         "disc_type": "CD",
@@ -14867,9 +14867,9 @@
         "version": "1.003",
         "edition": "Original"
     },
-    "World Cup France '98 - Road to Win (Japan)": {
-        "secondary_name": "ワールド・カップ　’９８フランス　～Ｒｏａｄ　ｔｏ　Ｗｉｎ～",
-        "group_name": "World Cup France '98 - Road to Win",
+    "World Cup '98 France - Road to Win (Japan)": {
+        "secondary_name": "ワールド・カップ　’９８　フランス　－Ｒｏａｄ　ｔｏ　Ｗｉｎ－",
+        "group_name": "World Cup '98 France - Road to Win",
         "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
@@ -15104,7 +15104,7 @@
     "Mass Destruction - Otousan ni mo Dekiru Soft (Japan)": {
         "secondary_name": "マス・デストラクション　～お父さんにもできるソフト～",
         "group_name": "Mass Destruction - Otousan ni mo Dekiru Soft",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.002",
@@ -15162,7 +15162,7 @@
         "disc_type": "CD",
         "languages": "En",
         "version": "1.000",
-        "edition": "Original, Virtua Gun Box"
+        "edition": "Original, Virtua Gun & Virtua Cop 2"
     },
     "NBA Live 98 (Europe)": {
         "secondary_name": "",
@@ -16514,10 +16514,10 @@
         "version": "1.000",
         "edition": "Bundled with Magazine"
     },
-    "Daisuki (Japan) (Disc 2)": {
+    "Daisuki (Japan) (Disc 2) (Special)": {
         "secondary_name": "だいすき",
         "group_name": "Daisuki",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.002",
@@ -17066,7 +17066,7 @@
     "Darius II (Japan) (2M)": {
         "secondary_name": "ダライアスⅡ",
         "group_name": "Darius II",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.003",
@@ -17199,7 +17199,7 @@
         "edition": "Taikenban"
     },
     "Tokimeki Memorial Selection - Fujisaki Shiori (Japan)": {
-        "secondary_name": "ときめきメモリアルＳｅｌｅｃｔｉｏｎ　～藤崎詩織～",
+        "secondary_name": "ときめきメモリアル　Ｓｅｌｅｃｔｉｏｎ　「藤崎詩織」",
         "group_name": "Tokimeki Memorial Selection - Fujisaki Shiori",
         "status": "Green",
         "disc_type": "CD",
@@ -17282,7 +17282,7 @@
     "Pro Yakyuu Greatest Nine '97 (Japan) (Rev B)": {
         "secondary_name": "プロ野球　グレイテスト・ナイン’９７",
         "group_name": "Pro Yakyuu Greatest Nine '97",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.019",
@@ -17687,7 +17687,7 @@
     "Mahjong Hyper Reaction R (Japan)": {
         "secondary_name": "麻雀ハイパー・リアクションＲ",
         "group_name": "Mahjong Hyper Reaction R",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.000",
@@ -17963,14 +17963,14 @@
         "version": "1.001",
         "edition": "Original"
     },
-    "Super Real Mahjong PV (Japan) (P's Club Special Edition) (2M)": {
+    "Super Real Mahjong P.V (Japan) (2M)": {
         "secondary_name": "スーパーリアル麻雀ＰⅤ",
-        "group_name": "Super Real Mahjong PV",
-        "status": "Blue",
+        "group_name": "Super Real Mahjong P.V",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.001",
-        "edition": "P's Club Special Edition"
+        "edition": "Original, P's Club Special Edition"
     },
     "Daytona USA (Europe) (2S)": {
         "secondary_name": "",
@@ -18992,7 +18992,7 @@
     "Rabbit (Japan)": {
         "secondary_name": "羅媚斗",
         "group_name": "Rabbit",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.001",
@@ -19055,7 +19055,7 @@
     "Jantei Battle Cos-Player (Japan) (Disc 1)": {
         "secondary_name": "雀帝　バトル・コスプレイヤー",
         "group_name": "Jantei Battle Cos-Player",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.004",
@@ -19847,7 +19847,7 @@
     "Jikkyou Oshaberi Parodius - Forever with Me (Japan)": {
         "secondary_name": "実況おしゃべりパロディウス　～フォーエバー・ウィズ・ミー～",
         "group_name": "Jikkyou Oshaberi Parodius - Forever with Me",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.040",
@@ -19890,9 +19890,9 @@
         "edition": "Original"
     },
     "Fighting Vipers (Korea)": {
-        "secondary_name": "",
+        "secondary_name": "파이팅바이퍼즈",
         "group_name": "Fighting Vipers",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "1.002",
@@ -20360,7 +20360,7 @@
     "Sexy Parodius (Japan)": {
         "secondary_name": "セクシー・パロディウス",
         "group_name": "Sexy Parodius",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.040",
@@ -20536,5 +20536,221 @@
         "languages": "Ja",
         "version": "0.001",
         "edition": "Hibaihin"
+    },
+    "Virtua Cop (Europe) (7S)": {
+        "secondary_name": "",
+        "group_name": "Virtua Cop",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "1.004",
+        "edition": "Virtua Gun & Virtua Cop"
+    },
+    "Super Real Mahjong P7 (Japan) (3M)": {
+        "secondary_name": "スーパーリアル麻雀Ｐ７",
+        "group_name": "Super Real Mahjong P7",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "1.003",
+        "edition": "Original"
+    },
+    "Super Real Mahjong Graffiti (Japan) (2M)": {
+        "secondary_name": "スーパーリアル麻雀　グラフィティ",
+        "group_name": "Super Real Mahjong Graffiti",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "1.001",
+        "edition": "Original"
+    },
+    "Super Real Mahjong PVI (Japan)": {
+        "secondary_name": "スーパーリアル麻雀ＰⅥ",
+        "group_name": "Super Real Mahjong PVI",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "1.000",
+        "edition": "Original"
+    },
+    "Mahjong Yon Shimai - Wakakusa Monogatari (Japan)": {
+        "secondary_name": "麻雀四姉妹　若草物語",
+        "group_name": "Mahjong Yon Shimai - Wakakusa Monogatari",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "1.002",
+        "edition": "Original"
+    },
+    "Jantei Battle Cos-Player (Japan) (Disc 2) (Making Disc)": {
+        "secondary_name": "雀帝　バトル・コスプレイヤー",
+        "group_name": "Jantei Battle Cos-Player",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "1.000",
+        "edition": "Original"
+    },
+    "Mahjong Doukyuusei Special (Japan) (Disc 2) (Portrait CD) (Shokai Genteiban)": {
+        "secondary_name": "麻雀同級生Ｓｐｅｃｉａｌ",
+        "group_name": "Mahjong Doukyuusei Special",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "1.003",
+        "edition": "Shokai Genteiban"
+    },
+    "Mahjong Doukyuusei Special (Japan)": {
+        "secondary_name": "麻雀同級生Ｓｐｅｃｉａｌ",
+        "group_name": "Mahjong Doukyuusei Special",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "1.004",
+        "edition": "Original"
+    },
+    "Idol Mahjong - Final Romance 4 (Japan)": {
+        "secondary_name": "アイドル麻雀　ファイナル・ロマンス４",
+        "group_name": "Idol Mahjong - Final Romance 4",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "1.060",
+        "edition": "Original"
+    },
+    "Amagi Shien (Japan)": {
+        "secondary_name": "天城紫苑",
+        "group_name": "Amagi Shien",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "1.001",
+        "edition": "Original"
+    },
+    "Kaitou Saint Tail (Japan)": {
+        "secondary_name": "怪盗セイント・テール",
+        "group_name": "Kaitou Saint Tail",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "1.010",
+        "edition": "Shokai Genteiban"
+    },
+    "Dream Generation - Koi ka Shigoto ka!... (Japan)": {
+        "secondary_name": "ドリーム・ジェネレーション　～恋か？　仕事か！？・・・～",
+        "group_name": "Dream Generation - Koi ka Shigoto ka!...",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "1.100",
+        "edition": "Original"
+    },
+    "Tour Party - Sotsugyou Ryokou ni Ikou (Japan) (Rev A)": {
+        "secondary_name": "ツアー・パーティー　～卒業旅行にいこう～",
+        "group_name": "Tour Party - Sotsugyou Ryokou ni Ikou",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "1.007",
+        "edition": "Original"
+    },
+    "Game of Life, The - DX Jinsei Game II (Japan) (2M)": {
+        "secondary_name": "ＤＸ人生ゲームⅡ",
+        "group_name": "Game of Life, The - DX Jinsei Game II",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "1.002",
+        "edition": "Original"
+    },
+    "Tokimeki Mahjong Graffiti - Toshishita no Tenshi-tachi (Japan)": {
+        "secondary_name": "ときめき麻雀グラフィティ　～年下の天使たち～",
+        "group_name": "Tokimeki Mahjong Graffiti - Toshishita no Tenshi-tachi",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "1.000",
+        "edition": "Original"
+    },
+    "Mahjong Tenshi - Angel Lips (Japan)": {
+        "secondary_name": "麻・雀・天・使　エンジェル・リップス",
+        "group_name": "Mahjong Tenshi - Angel Lips",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "1.020",
+        "edition": "Original"
+    },
+    "Black-Matrix (Japan)": {
+        "secondary_name": "ブラック・マトリクス",
+        "group_name": "Black-Matrix",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "1.000",
+        "edition": "Original"
+    },
+    "Kakyuusei (Japan) (Disc 1)": {
+        "secondary_name": "下級生",
+        "group_name": "Kakyuusei",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "1.002",
+        "edition": "Original"
+    },
+    "Kakyuusei (Japan) (Disc 2) (2M)": {
+        "secondary_name": "下級生",
+        "group_name": "Kakyuusei",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "1.002",
+        "edition": "Original"
+    },
+    "Kakyuusei (Japan) (Disc 3) (2M)": {
+        "secondary_name": "下級生",
+        "group_name": "Kakyuusei",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "1.002",
+        "edition": "Original"
+    },
+    "Crow, The - City of Angels (Japan)": {
+        "secondary_name": "ザ・クロウ",
+        "group_name": "Crow, The - City of Angels",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "1.000",
+        "edition": "Original"
+    },
+    "Digital Dance Mix Vol. 1 - Namie Amuro (Japan) (Rev A) (10M, 12M)": {
+        "secondary_name": "デジタル・ダンス・ミックス　Ｖｏｌ．１　～安室奈美恵～",
+        "group_name": "Digital Dance Mix Vol. 1 - Namie Amuro",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "1.003",
+        "edition": "Original"
+    },
+    "Sorvice (Japan)": {
+        "secondary_name": "ソルヴァイス",
+        "group_name": "Sorvice",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "1.007",
+        "edition": "Original"
+    },
+    "Standby Say You! (Japan)": {
+        "secondary_name": "スタンバイ　セイ　ユー",
+        "group_name": "Standby Say You!",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "1.001",
+        "edition": "Shokai Gentei Special Package 1"
     }
 }

@@ -1,0 +1,26 @@
+{
+	"description": {
+		"name": [
+			"Philips - Videopac+"
+		],
+		"last updated": "24 July 2020"
+	},
+
+	"renames": {
+        "Cosmic Conflict": [
+            ["Guerre de l'Espace", 1]
+        ],
+		"Electronic Billiards": [
+			["Billard Electrique", 1]
+        ],
+        "Killer Bees": [
+            ["Ruche Infernale, La", 1]
+        ],
+        "Race + Spin-out + Cryptogram": [
+            ["Course de Voitures + Autodrome + Cryptogramme", 1]
+        ],
+        "Tenpin Bowling + Basketball": [
+            ["Jeu de Quilles + Basketball", 1]
+        ]
+	}
+}

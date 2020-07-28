@@ -971,14 +971,14 @@
         "version": "",
         "edition": "Original"
     },
-    "Star Wars - The Force Unleashed (USA) (Disc 2) (Ultimate Sith Edition)": {
+    "Star Wars - The Force Unleashed - Ultimate Sith Edition (USA) (Disc 2)": {
         "secondary_name": "",
-        "group_name": "Star Wars - The Force Unleashed",
+        "group_name": "Star Wars - The Force Unleashed - Ultimate Sith Edition",
         "status": "Blue",
         "disc_type": "DVD-9",
         "languages": "",
         "version": "",
-        "edition": "Ultimate Sith Edition"
+        "edition": "Original"
     },
     "Doom II (USA, Europe)": {
         "secondary_name": "",
@@ -2177,14 +2177,14 @@
         "version": "1.0",
         "edition": "Original"
     },
-    "Star Wars - The Force Unleashed (USA) (Disc 1) (Ultimate Sith Edition)": {
+    "Star Wars - The Force Unleashed - Ultimate Sith Edition (USA) (Disc 1)": {
         "secondary_name": "",
-        "group_name": "Star Wars - The Force Unleashed",
+        "group_name": "Star Wars - The Force Unleashed - Ultimate Sith Edition",
         "status": "Blue",
         "disc_type": "DVD-9",
         "languages": "",
         "version": "",
-        "edition": "Ultimate Sith Edition"
+        "edition": "Original"
     },
     "Ishido - The Way of Stones (USA)": {
         "secondary_name": "",
@@ -3184,5 +3184,86 @@
         "languages": "",
         "version": "",
         "edition": "Covermount"
+    },
+    "CD-ROM MacLife No. 27 (Japan)": {
+        "secondary_name": "",
+        "group_name": "CD-ROM MacLife No. 27",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Covermount"
+    },
+    "Legend of Kyrandia, The - Book Three (USA)": {
+        "secondary_name": "The Legend of Kyrandia: Book Three: Malcolm's Revenge",
+        "group_name": "Legend of Kyrandia, The - Book Three",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Quake II (USA)": {
+        "secondary_name": "Quake II for Macintosh",
+        "group_name": "Quake II",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "3.20",
+        "edition": "Original"
+    },
+    "CD-ROM MacLife No. 129 (Japan)": {
+        "secondary_name": "",
+        "group_name": "CD-ROM MacLife No. 129",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Covermount"
+    },
+    "CD-ROM MacLife No. 128 (Japan)": {
+        "secondary_name": "",
+        "group_name": "CD-ROM MacLife No. 128",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Covermount"
+    },
+    "Elemental Force (Japan)": {
+        "secondary_name": "エレメンタル・フォース",
+        "group_name": "Elemental Force",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Green Eggs and Ham (USA)": {
+        "secondary_name": "",
+        "group_name": "Green Eggs and Ham",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Cat in the Hat, The (USA)": {
+        "secondary_name": "",
+        "group_name": "Cat in the Hat, The",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Arcade Battles (USA)": {
+        "secondary_name": "",
+        "group_name": "Arcade Battles",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
     }
 }

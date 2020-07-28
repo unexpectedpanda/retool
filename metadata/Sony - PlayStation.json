@@ -578,7 +578,7 @@
     "Street Fighter Collection (USA) (Disc 1)": {
         "secondary_name": "",
         "group_name": "Street Fighter Collection",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -713,7 +713,7 @@
     "Tomb Raider (Europe) (EDC)": {
         "secondary_name": "",
         "group_name": "Tomb Raider",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "EDC",
@@ -6518,7 +6518,7 @@
     "Sesame Street Sports (USA)": {
         "secondary_name": "",
         "group_name": "Sesame Street Sports",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -6536,7 +6536,7 @@
     "Chessmaster II (USA)": {
         "secondary_name": "",
         "group_name": "Chessmaster II",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -6612,7 +6612,7 @@
         "disc_type": "CD",
         "languages": "En",
         "version": "",
-        "edition": "White Label / Value Series"
+        "edition": "Original, White Label / Value Series"
     },
     "Harlem Beat - You're the One (Japan)": {
         "secondary_name": "ハーレム・ビート　～Ｙｏｕ´ｒｅ　Ｔｈｅ　Ｏｎｅ～",
@@ -7490,7 +7490,7 @@
     "Nick Jr. Dora the Explorer - Barnyard Buddies (USA)": {
         "secondary_name": "",
         "group_name": "Nick Jr. Dora the Explorer - Barnyard Buddies",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -10082,7 +10082,7 @@
     "Tomb Raider (France)": {
         "secondary_name": "",
         "group_name": "Tomb Raider",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Fr",
         "version": "",
@@ -10487,7 +10487,7 @@
     "One Piece Mansion (Japan) (Demo)": {
         "secondary_name": "ワンピースマンション",
         "group_name": "One Piece Mansion",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -10709,14 +10709,14 @@
         "version": "",
         "edition": "Original"
     },
-    "Kids Station - Asobou! Hanasou! Guru Guru Town Hanamaru-kun (Japan)": {
-        "secondary_name": "キッズステーション ぐるぐるタウンはなまるくん",
+    "Kids Station - Asobou! Hanasou! Guru Guru Town Hanamaru-kun (Japan) (Controller Set)": {
+        "secondary_name": "キッズステーション あそぼう! はなそう! ぐるぐるタウン はなまるくん",
         "group_name": "Kids Station - Asobou! Hanasou! Guru Guru Town Hanamaru-kun",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
-        "edition": "Original"
+        "edition": "Kids Station Controller Set"
     },
     "Apocalypse (Europe)": {
         "secondary_name": "",
@@ -10937,7 +10937,7 @@
     "In the Hunt (USA)": {
         "secondary_name": "",
         "group_name": "In the Hunt",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -11351,7 +11351,7 @@
     "Descent (Japan)": {
         "secondary_name": "ディセント",
         "group_name": "Descent",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -14021,9 +14021,9 @@
         "version": "",
         "edition": "Original, Cyclone's Best"
     },
-    "Black Matrix 00 (Japan) (Disc 1) (Shokai Genteiban)": {
-        "secondary_name": "ブラックマトリクス　ゼロ　ダブルオー",
-        "group_name": "Black Matrix 00",
+    "Black-Matrix 00 (Japan) (Disc 1) (Shokai Genteiban)": {
+        "secondary_name": "ブラック・マトリクス　ゼロ　ダブルオー",
+        "group_name": "Black-Matrix 00",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "Ja",
@@ -15356,7 +15356,7 @@
     "PlayStation Kiosk Demo Disc Version 1.18 (USA)": {
         "secondary_name": "",
         "group_name": "PlayStation Kiosk Demo Disc Version 1.18",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -15443,14 +15443,14 @@
         "version": "",
         "edition": "Original"
     },
-    "Black Matrix + (Japan) (Disc 2)": {
-        "secondary_name": "ブラックマトリクスクロス",
-        "group_name": "Black Matrix +",
+    "Black-Matrix + (Japan) (Disc 2)": {
+        "secondary_name": "ブラック・マトリクス・クロス",
+        "group_name": "Black-Matrix +",
         "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
-        "edition": "PlayStation the Best"
+        "edition": "Best-ban"
     },
     "Extreme Power (Japan)": {
         "secondary_name": "エクストリーム・パワー",
@@ -15938,9 +15938,9 @@
         "version": "",
         "edition": "Original"
     },
-    "DX Jinsei Game - The Game of Life II (Japan) (Rev 1)": {
+    "Game of Life, The - DX Jinsei Game II (Japan) (Rev 1)": {
         "secondary_name": "ＤＸ人生ゲームⅡ",
-        "group_name": "DX Jinsei Game - The Game of Life II",
+        "group_name": "Game of Life, The - DX Jinsei Game II",
         "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
@@ -16166,7 +16166,7 @@
     "Ape Escape (USA) (Demo 2)": {
         "secondary_name": "",
         "group_name": "Ape Escape",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -19154,7 +19154,7 @@
     "Euro Demo 48 (Europe)": {
         "secondary_name": "Official UK PlayStation Magazine CD 48",
         "group_name": "Euro Demo 48",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -20180,11 +20180,11 @@
     "Nihon Pro Mahjong Renmei Kounin - Tehodoki Mahjong Nyuumon-hen (Japan)": {
         "secondary_name": "手ほどき麻雀 入門編 日本プロ麻雀連盟公認",
         "group_name": "Nihon Pro Mahjong Renmei Kounin - Tehodoki Mahjong Nyuumon-hen",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
-        "edition": "Original, 2800Y Reprint"
+        "edition": "Original, Renkaban"
     },
     "Kids Station - Hello Kitty no Oshaberi ABC (Japan)": {
         "secondary_name": "キッズステーション　ハローキティのおしゃべりＡＢＣ",
@@ -21260,7 +21260,7 @@
     "Detective Barbie - The Mystery Cruise (USA)": {
         "secondary_name": "",
         "group_name": "Detective Barbie - The Mystery Cruise",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -21831,7 +21831,7 @@
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
-        "edition": "Original, PSone Books, PlayStation the Best for Family"
+        "edition": "Original, PlayStation the Best for Family, PSone Books"
     },
     "DigimonWorld 2 (Japan)": {
         "secondary_name": "デジモンワールド2",
@@ -25490,7 +25490,7 @@
     "Disney's The Little Mermaid II (USA)": {
         "secondary_name": "",
         "group_name": "Disney's The Little Mermaid II",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -26156,7 +26156,7 @@
     "Spot Goes to Hollywood (USA)": {
         "secondary_name": "",
         "group_name": "Spot Goes to Hollywood",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -27344,7 +27344,7 @@
     "Dance Dance Revolution (USA)": {
         "secondary_name": "",
         "group_name": "Dance Dance Revolution",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -30170,7 +30170,7 @@
     "Akuji the Heartless (USA)": {
         "secondary_name": "",
         "group_name": "Akuji the Heartless",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -30303,7 +30303,7 @@
         "edition": "Original"
     },
     "Simple 1500 Series Vol. 1 - The Mahjong (Japan) (Culture Publishers) (Rev 1)": {
-        "secondary_name": "SIMPLE1500シリーズ Vol.1 THE 麻雀",
+        "secondary_name": "ＳＩＭＰＬＥ１５００シリーズ　Ｖｏｌ．１　ＴＨＥ　麻雀",
         "group_name": "Simple 1500 Series Vol. 1 - The Mahjong",
         "status": "Green",
         "disc_type": "CD",
@@ -31430,7 +31430,7 @@
     "Broken Sword - The Shadow of the Templars (USA)": {
         "secondary_name": "",
         "group_name": "Broken Sword - The Shadow of the Templars",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -31448,7 +31448,7 @@
     "Sesame Street - Elmo's Number Journey (USA)": {
         "secondary_name": "",
         "group_name": "Sesame Street - Elmo's Number Journey",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -31466,7 +31466,7 @@
     "Syndicate Wars (USA)": {
         "secondary_name": "",
         "group_name": "Syndicate Wars",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -35162,12 +35162,12 @@
         "version": "",
         "edition": "Hibaihin"
     },
-    "DX Jinsei Game - The Game of Life IV (Japan)": {
-        "secondary_name": "",
-        "group_name": "DX Jinsei Game - The Game of Life IV",
+    "Game of Life, The - DX Jinsei Game IV (Japan)": {
+        "secondary_name": "ＤＸ人生ゲームⅣ",
+        "group_name": "Game of Life, The - DX Jinsei Game IV",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Original"
     },
@@ -35750,7 +35750,7 @@
     "Disney's Dinosaur (USA)": {
         "secondary_name": "",
         "group_name": "Disney's Dinosaur",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -37712,7 +37712,7 @@
     "Shanghai - Shouryuu Sairin (Japan)": {
         "secondary_name": "上海～昇龍再臨～",
         "group_name": "Shanghai - Shouryuu Sairin",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -38483,9 +38483,9 @@
         "version": "",
         "edition": "Original"
     },
-    "DX Jinsei Game - The Game of Life V (Japan)": {
+    "Game of Life, The - DX Jinsei Game V (Japan)": {
         "secondary_name": "ＤＸ人生ゲームⅤ",
-        "group_name": "DX Jinsei Game - The Game of Life V",
+        "group_name": "Game of Life, The - DX Jinsei Game V",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "Ja",
@@ -40457,7 +40457,7 @@
     "VR Soccer '96 (USA)": {
         "secondary_name": "",
         "group_name": "VR Soccer '96",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -40574,7 +40574,7 @@
     "Bust A Groove 2 (USA)": {
         "secondary_name": "",
         "group_name": "Bust A Groove 2",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -41883,7 +41883,7 @@
         "disc_type": "CD",
         "languages": "Ja",
         "version": "Rev 1",
-        "edition": "Value 1500"
+        "edition": "SunColle Best, Value 1500"
     },
     "Matsumoto Reiji 999 - Story of Galaxy Express 999 (Japan) (Disc 1)": {
         "secondary_name": "松本零士999 ～Story of Galaxy Express 999～",
@@ -42086,7 +42086,7 @@
     "Breakout (USA)": {
         "secondary_name": "",
         "group_name": "Breakout",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -42338,7 +42338,7 @@
     "K-1 The Arena Fighters (USA)": {
         "secondary_name": "",
         "group_name": "K-1 The Arena Fighters",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -42617,7 +42617,7 @@
     "Dave Mirra Freestyle BMX - Maximum Remix (USA)": {
         "secondary_name": "",
         "group_name": "Dave Mirra Freestyle BMX - Maximum Remix",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -44192,7 +44192,7 @@
     "Shrek Treasure Hunt (USA)": {
         "secondary_name": "",
         "group_name": "Shrek Treasure Hunt",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -46070,9 +46070,9 @@
         "version": "",
         "edition": "Original"
     },
-    "Black Matrix 00 (Japan) (Disc 2) (Shokai Genteiban)": {
-        "secondary_name": "ブラックマトリクス　ゼロ　ダブルオー",
-        "group_name": "Black Matrix 00",
+    "Black-Matrix 00 (Japan) (Disc 2) (Shokai Genteiban)": {
+        "secondary_name": "ブラック・マトリクス　ゼロ　ダブルオー",
+        "group_name": "Black-Matrix 00",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "Ja",
@@ -46118,7 +46118,7 @@
     "Dead or Alive (USA) (En,Ja) (Demo)": {
         "secondary_name": "",
         "group_name": "Dead or Alive",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En, Ja",
         "version": "",
@@ -46309,7 +46309,7 @@
         "group_name": "Lunatic Dawn III",
         "status": "Green",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Original, Artdink Best Choice"
     },
@@ -47348,14 +47348,14 @@
         "version": "",
         "edition": ""
     },
-    "Black Matrix + (Japan) (Disc 1)": {
-        "secondary_name": "ブラックマトリクスクロス",
-        "group_name": "Black Matrix +",
+    "Black-Matrix + (Japan) (Disc 1)": {
+        "secondary_name": "ブラック・マトリクス・クロス",
+        "group_name": "Black-Matrix +",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
-        "edition": "PlayStation the Best"
+        "edition": "Best-ban"
     },
     "Chou Nazoou (Japan)": {
         "secondary_name": "超謎王",
@@ -48125,7 +48125,7 @@
     "Superstar Dance Club - 1 Hits!!! (USA)": {
         "secondary_name": "",
         "group_name": "Superstar Dance Club - 1 Hits!!!",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -48611,7 +48611,7 @@
     "My Disney Kitchen (USA)": {
         "secondary_name": "",
         "group_name": "My Disney Kitchen",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -51675,7 +51675,7 @@
         "disc_type": "CD",
         "languages": "En",
         "version": "Rev 1",
-        "edition": "Greatest Hits"
+        "edition": "Original, Greatest Hits"
     },
     "Fantastic Night Dreams - Cotton Original (Japan)": {
         "secondary_name": "コットンオリジナル",
@@ -53813,7 +53813,7 @@
     "Wagamama Fairy Mirumo de Pon! Mirumo no Mahou Gakkou Monogatari (Japan)": {
         "secondary_name": "わがままフェアリーミルモでポン！　ミルモの魔法学校ものがたり",
         "group_name": "Wagamama Fairy Mirumo de Pon! Mirumo no Mahou Gakkou Monogatari",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -54152,9 +54152,9 @@
         "version": "",
         "edition": "Original"
     },
-    "Black Matrix 00 (Japan) (Disc 1)": {
-        "secondary_name": "ブラックマトリクス　ゼロ　ダブルオー",
-        "group_name": "Black Matrix 00",
+    "Black-Matrix 00 (Japan) (Disc 1)": {
+        "secondary_name": "ブラック・マトリクス　ゼロ　ダブルオー",
+        "group_name": "Black-Matrix 00",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "Ja",
@@ -54542,7 +54542,7 @@
     "Disney's Aladdin in Nasira's Revenge (USA)": {
         "secondary_name": "",
         "group_name": "Disney's Aladdin in Nasira's Revenge",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -55856,7 +55856,7 @@
     "Telefoot Manager (France)": {
         "secondary_name": "",
         "group_name": "Telefoot Manager",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Fr",
         "version": "",
@@ -57357,9 +57357,9 @@
         "edition": "Original"
     },
     "Nickelodeon Rugrats in Paris - The Movie (USA)": {
-        "secondary_name": "Rugrats in Paris: The Movie",
+        "secondary_name": "",
         "group_name": "Nickelodeon Rugrats in Paris - The Movie",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -57647,7 +57647,7 @@
     "Disney's Winnie the Pooh - Preschool (USA)": {
         "secondary_name": "",
         "group_name": "Disney's Winnie the Pooh - Preschool",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -57791,7 +57791,7 @@
     "Tomb Raider - The Last Revelation (USA)": {
         "secondary_name": "",
         "group_name": "Tomb Raider - The Last Revelation",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -58970,7 +58970,7 @@
     "Maestromusic, The - Encore Disc (Japan)": {
         "secondary_name": "ザ・マエストロムジーク　アンコール・ディスク",
         "group_name": "Maestromusic, The - Encore Disc",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -59195,7 +59195,7 @@
     "X-Men - Mutant Academy 2 (USA)": {
         "secondary_name": "",
         "group_name": "X-Men - Mutant Academy 2",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -59436,9 +59436,9 @@
         "edition": "Original, Greatest Hits"
     },
     "Kids Station - Kuma no Pooh-san - Mori no Tomodachi (Japan)": {
-        "secondary_name": "キッズステーション　くまのプーさん 森のともだち",
+        "secondary_name": "キッズステーション　くまのプーさん　森のともだち",
         "group_name": "Kids Station - Kuma no Pooh-san - Mori no Tomodachi",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -60947,7 +60947,7 @@
         "version": "",
         "edition": "Taikenban"
     },
-    "Carton-kun (Japan) (Taikenban)": {
+    "Carton-kun (Japan) (Demo)": {
         "secondary_name": "カートンくん",
         "group_name": "Carton-kun",
         "status": "Green",
@@ -61085,7 +61085,7 @@
     "Lethal Enforcers I & II (USA)": {
         "secondary_name": "",
         "group_name": "Lethal Enforcers I & II",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -61850,7 +61850,7 @@
     "Uki Uki Tsuri Tengoku - Ningyo Densetsu no Nazo (Japan)": {
         "secondary_name": "ウキウキ釣り天国 ～人魚伝説の謎～",
         "group_name": "Uki Uki Tsuri Tengoku - Ningyo Densetsu no Nazo",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -62327,7 +62327,7 @@
     "Romance wa Tsurugi no Kagayaki II - Gin no Niji o Sagashite (Japan) (Disc 1) (Shokai Genteiban)": {
         "secondary_name": "ロマンスは剣の輝きＩＩ　～銀の虹を探して～",
         "group_name": "Romance wa Tsurugi no Kagayaki II - Gin no Niji o Sagashite",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -63515,7 +63515,7 @@
     "World Cup 98 (USA)": {
         "secondary_name": "",
         "group_name": "World Cup 98",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -64991,7 +64991,7 @@
     "Disney's Story Studio - Mulan (USA)": {
         "secondary_name": "",
         "group_name": "Disney's Story Studio - Mulan",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -65117,7 +65117,7 @@
     "Bust-A-Move '99 (USA)": {
         "secondary_name": "",
         "group_name": "Bust-A-Move '99",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -66167,9 +66167,9 @@
         "version": "",
         "edition": "Original"
     },
-    "Black Matrix 00 (Japan) (Disc 2)": {
-        "secondary_name": "ブラックマトリクス　ゼロ　ダブルオー",
-        "group_name": "Black Matrix 00",
+    "Black-Matrix 00 (Japan) (Disc 2)": {
+        "secondary_name": "ブラック・マトリクス　ゼロ　ダブルオー",
+        "group_name": "Black-Matrix 00",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "Ja",
@@ -68654,7 +68654,7 @@
     "Euro Demo 46 (Europe)": {
         "secondary_name": "Official UK PlayStation Magazine CD 46",
         "group_name": "Euro Demo 46",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -69131,7 +69131,7 @@
     "Disney's Winnie the Pooh - Kindergarten (USA)": {
         "secondary_name": "",
         "group_name": "Disney's Winnie the Pooh - Kindergarten",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -69428,7 +69428,7 @@
     "Pipe Dreams 3D (USA)": {
         "secondary_name": "",
         "group_name": "Pipe Dreams 3D",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -70488,9 +70488,9 @@
         "edition": "Original"
     },
     "Kids Station - Hello Kitty no Oshaberi Town (Japan)": {
-        "secondary_name": "キッズステーション ハローキティのおしゃべりタウン",
+        "secondary_name": "キッズステーション　ハローキティのおしゃべりタウン",
         "group_name": "Kids Station - Hello Kitty no Oshaberi Town",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -70670,7 +70670,7 @@
     "Johnny Bazookatone (USA)": {
         "secondary_name": "",
         "group_name": "Johnny Bazookatone",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -77195,7 +77195,7 @@
     "Return Fire (USA)": {
         "secondary_name": "",
         "group_name": "Return Fire",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -77384,7 +77384,7 @@
     "Duke Nukem - Land of the Babes (USA)": {
         "secondary_name": "",
         "group_name": "Duke Nukem - Land of the Babes",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -80363,7 +80363,7 @@
     "Gex (USA) (Rev 1)": {
         "secondary_name": "",
         "group_name": "Gex",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "Rev 1",
@@ -80876,7 +80876,7 @@
     "K-1 Revenge (USA)": {
         "secondary_name": "",
         "group_name": "K-1 Revenge",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -81125,9 +81125,9 @@
         "version": "",
         "edition": "Original, Greatest Hits"
     },
-    "DX Jinsei Game - The Game of Life (Japan)": {
+    "Game of Life, The - DX Jinsei Game (Japan)": {
         "secondary_name": "ＤＸ人生ゲーム",
-        "group_name": "DX Jinsei Game - The Game of Life",
+        "group_name": "Game of Life, The - DX Jinsei Game",
         "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
@@ -81614,7 +81614,7 @@
     "Lost World, The - Jurassic Park (USA)": {
         "secondary_name": "",
         "group_name": "Lost World, The - Jurassic Park",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -82818,7 +82818,7 @@
         "edition": "Original"
     },
     "Nickelodeon Rugrats - Search for Reptar (USA)": {
-        "secondary_name": "Rugrats: Search for Reptar",
+        "secondary_name": "",
         "group_name": "Nickelodeon Rugrats - Search for Reptar",
         "status": "Green",
         "disc_type": "CD",
@@ -83027,7 +83027,7 @@
     "Fighter Maker (USA)": {
         "secondary_name": "",
         "group_name": "Fighter Maker",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -83051,9 +83051,9 @@
         "version": "",
         "edition": "Original"
     },
-    "DX Jinsei Game - The Game of Life III (Japan)": {
+    "Game of Life, The - DX Jinsei Game III (Japan)": {
         "secondary_name": "ＤＸ人生ゲームⅢ",
-        "group_name": "DX Jinsei Game - The Game of Life III",
+        "group_name": "Game of Life, The - DX Jinsei Game III",
         "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
@@ -83231,9 +83231,9 @@
         "version": "",
         "edition": "Original, Platinum"
     },
-    "DX Jinsei Game - The Game of Life II (Japan)": {
+    "Game of Life, The - DX Jinsei Game II (Japan)": {
         "secondary_name": "ＤＸ人生ゲームⅡ",
-        "group_name": "DX Jinsei Game - The Game of Life II",
+        "group_name": "Game of Life, The - DX Jinsei Game II",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "Ja",
@@ -83720,7 +83720,7 @@
     "FIFA Soccer 96 (USA)": {
         "secondary_name": "",
         "group_name": "FIFA Soccer 96",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -83981,7 +83981,7 @@
     "Armored Core - Project Phantasma (USA)": {
         "secondary_name": "",
         "group_name": "Armored Core - Project Phantasma",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -84809,7 +84809,7 @@
     "Romance wa Tsurugi no Kagayaki II - Gin no Niji o Sagashite (Japan) (Disc 2) (Shokai Genteiban)": {
         "secondary_name": "ロマンスは剣の輝きＩＩ　～銀の虹を探して～",
         "group_name": "Romance wa Tsurugi no Kagayaki II - Gin no Niji o Sagashite",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -85673,7 +85673,7 @@
     "Soumatou (Japan) (Demo)": {
         "secondary_name": "蒼魔灯",
         "group_name": "Soumatou",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -85682,7 +85682,7 @@
     "JoJo's Bizarre Adventure (USA)": {
         "secondary_name": "",
         "group_name": "JoJo's Bizarre Adventure",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -86393,7 +86393,7 @@
     "K-1 Grand Prix (USA)": {
         "secondary_name": "",
         "group_name": "K-1 Grand Prix",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -86573,7 +86573,7 @@
     "Taikyoku Shougi - Kiwame (Japan)": {
         "secondary_name": "対局将棋　極",
         "group_name": "Taikyoku Shougi - Kiwame",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -86942,7 +86942,7 @@
     "Nickelodeon Rugrats - Totally Angelica (USA)": {
         "secondary_name": "Rugrats: Totally Angelica",
         "group_name": "Nickelodeon Rugrats - Totally Angelica",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -87725,7 +87725,7 @@
     "Syphon Filter 3 (USA) (Demo)": {
         "secondary_name": "",
         "group_name": "Syphon Filter 3",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -88769,7 +88769,7 @@
     "Agile Warrior - F-111X (USA)": {
         "secondary_name": "",
         "group_name": "Agile Warrior - F-111X",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -90983,7 +90983,7 @@
     "X-COM - UFO Defense (USA)": {
         "secondary_name": "",
         "group_name": "X-COM - UFO Defense",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -92477,7 +92477,7 @@
     "Street Fighter Collection (USA) (Disc 2)": {
         "secondary_name": "",
         "group_name": "Street Fighter Collection",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -92945,7 +92945,7 @@
     "Ninja - Shadow of Darkness (USA)": {
         "secondary_name": "",
         "group_name": "Ninja - Shadow of Darkness",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -93267,9 +93267,9 @@
         "edition": "Shokai Genteiban"
     },
     "Kids Station - Kuma no Pooh-san - Mori no Kyoushitsu (Japan)": {
-        "secondary_name": "キッズステーション　くまのプーさん 森のきょうしつ",
+        "secondary_name": "キッズステーション　くまのプーさん　森のきょうしつ",
         "group_name": "Kids Station - Kuma no Pooh-san - Mori no Kyoushitsu",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -93301,5 +93301,50 @@
         "languages": "En, Fr, De",
         "version": "",
         "edition": "Original"
+    },
+    "Kids Station - Asobou! Hanasou! Guru Guru Town Hanamaru-kun (Japan)": {
+        "secondary_name": "キッズステーション あそぼう! はなそう! ぐるぐるタウン はなまるくん",
+        "group_name": "Kids Station - Asobou! Hanasou! Guru Guru Town Hanamaru-kun",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Soft Tanpinban"
+    },
+    "Aquanaut no Kyuujitsu - Memories of Summer 1996 (Japan) (Artdink Best Choice)": {
+        "secondary_name": "アクアノートの休日 MEMORIES OF SUMMER 1996",
+        "group_name": "Aquanaut no Kyuujitsu - Memories of Summer 1996",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Artdink Best Choice"
+    },
+    "Music Inspired by Wild 9 (Europe) (Unl)": {
+        "secondary_name": "",
+        "group_name": "Music Inspired by Wild 9",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Unlicensed"
+    },
+    "R-C Stunt Copter (Europe) (Demo)": {
+        "secondary_name": "",
+        "group_name": "R-C Stunt Copter",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Demo"
+    },
+    "Breaker Pro Version 1.1 (USA) (Unl)": {
+        "secondary_name": "",
+        "group_name": "Breaker Pro Version 1.1",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Unlicensed"
     }
 }

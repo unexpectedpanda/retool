@@ -794,11 +794,11 @@
     "Interlude (Japan)": {
         "secondary_name": "インタールード",
         "group_name": "Interlude",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "GD-ROM",
         "languages": "Ja",
         "version": "1.003",
-        "edition": "Original"
+        "edition": "Original, Shokai Genteiban"
     },
     "Super Speed Racing (Japan)": {
         "secondary_name": "スーパースピードレーシング",
@@ -12022,5 +12022,14 @@
         "languages": "",
         "version": "1.000",
         "edition": "Unlicensed"
+    },
+    "Rayman 2 - The Great Escape (Europe) (En,Fr,De,Es,It) (Beta)": {
+        "secondary_name": "",
+        "group_name": "Rayman 2 - The Great Escape",
+        "status": "Yellow",
+        "disc_type": "GD-ROM",
+        "languages": "En, Fr, De, It, Es",
+        "version": "0.000",
+        "edition": "Sample"
     }
 }

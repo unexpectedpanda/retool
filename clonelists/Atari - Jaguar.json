@@ -1,0 +1,20 @@
+{
+    "description": {
+        "name": [
+			"Atari - Jaguar"
+		],
+        "last updated": "5 July 2020"
+    },
+
+    "renames": {
+        "Checkered Flag": [
+            ["Checkered Flag (CES 1993)", 2]
+        ],
+        "Missile Command 3D": [
+            ["Missile Command VR", 2]
+        ],
+        "Ultra Vortek": [
+            ["Ultra Vortex", 2]
+        ]
+    }
+}

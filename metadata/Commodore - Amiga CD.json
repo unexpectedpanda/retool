@@ -3166,5 +3166,41 @@
         "languages": "En",
         "version": "",
         "edition": "Original"
+    },
+    "CU Amiga Magazine Super CD-ROM 27 October 1998 (UK)": {
+        "secondary_name": "",
+        "group_name": "CU Amiga Magazine Super CD-ROM 27 October 1998",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Amiga Format Disc 8 - Christmas 1996 (UK)": {
+        "secondary_name": "",
+        "group_name": "Amiga Format Disc 8 - Christmas 1996",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Amiga Format Disc 20 - December 1997 (UK)": {
+        "secondary_name": "",
+        "group_name": "Amiga Format Disc 20 - December 1997",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Amiga Format Disc 29 - August 1998 (UK)": {
+        "secondary_name": "",
+        "group_name": "Amiga Format Disc 29 - August 1998",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
     }
 }

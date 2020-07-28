@@ -13916,11 +13916,11 @@
     "Gitaroo Man (Korea)": {
         "secondary_name": "기타루맨",
         "group_name": "Gitaroo Man",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ko",
         "version": "1.00",
-        "edition": "Original"
+        "edition": "Original, BigHit Series"
     },
     "SingStar Motown (Germany)": {
         "secondary_name": "",
@@ -17862,7 +17862,7 @@
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.30",
-        "edition": "Original"
+        "edition": "Original, Koei Summer Chance 2002"
     },
     "Star Wars - Racer Revenge (Europe)": {
         "secondary_name": "",
@@ -18308,7 +18308,7 @@
     "Snow White & the 7 Clever Boys (Europe) (En,Fr,De)": {
         "secondary_name": "",
         "group_name": "Snow White & the 7 Clever Boys",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En, Fr, De",
         "version": "1.00",
@@ -24542,7 +24542,7 @@
         "version": "1.04",
         "edition": "Original"
     },
-    "Devil Summoner - Kuzunoha Raidou tai Abaddon-ou (Japan)": {
+    "Devil Summoner - Kuzunoha Raidou tai Abaddon-ou (Japan) (Shokai Seisanban)": {
         "secondary_name": "デビルサマナー 葛葉ライドウ 対 アバドン王",
         "group_name": "Devil Summoner - Kuzunoha Raidou tai Abaddon-ou",
         "status": "Blue",
@@ -27884,7 +27884,7 @@
     "Samurai Warriors (Italy)": {
         "secondary_name": "",
         "group_name": "Samurai Warriors",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "It",
         "version": "1.00",
@@ -32285,7 +32285,7 @@
     "Crabby Adventure (Europe)": {
         "secondary_name": "",
         "group_name": "Crabby Adventure",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "1.03",
@@ -33599,7 +33599,7 @@
     "Dance Dance Revolution - Disney Channel Edition (USA)": {
         "secondary_name": "",
         "group_name": "Dance Dance Revolution - Disney Channel Edition",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "1.00",
@@ -34679,11 +34679,11 @@
     "Spiderwick Chronicles, The (Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "Spiderwick Chronicles, The",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En, Fr, De, It, Es",
         "version": "1.00",
-        "edition": "Original"
+        "edition": "Original, Promo"
     },
     "Simple 2000 Series Vol. 65 - The Kyonshii Panic (Japan)": {
         "secondary_name": "ＳＩＭＰＬＥ２０００　シリーズ　Ｖｏｌ．６５　ＴＨＥ　キョンシーパニック",
@@ -35003,7 +35003,7 @@
     "Men in Black II - Alien Escape (USA)": {
         "secondary_name": "",
         "group_name": "Men in Black II - Alien Escape",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "1.00",
@@ -35795,11 +35795,11 @@
     "ShellShock - Nam '67 (Europe)": {
         "secondary_name": "",
         "group_name": "ShellShock - Nam '67",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "1.04",
-        "edition": "Original"
+        "edition": "Original, Promo"
     },
     "Nickelodeon SpongeBob - Il Film (Italy)": {
         "secondary_name": "",
@@ -43892,7 +43892,7 @@
         "version": "1.00",
         "edition": "Original"
     },
-    "Disney-Pixar Cars (Europe, Australia)": {
+    "Disney-Pixar Cars (Europe, Australia) (v2.00)": {
         "secondary_name": "",
         "group_name": "Disney-Pixar Cars",
         "status": "Green",
@@ -47360,7 +47360,7 @@
     "Mambo (Europe)": {
         "secondary_name": "",
         "group_name": "Mambo",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "1.03",
@@ -49232,7 +49232,7 @@
     "PictureParadise Club (Japan) (Taikenban)": {
         "secondary_name": "",
         "group_name": "PictureParadise Club",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.00",
@@ -55802,7 +55802,7 @@
     "Turok - Evolution (USA)": {
         "secondary_name": "",
         "group_name": "Turok - Evolution",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "1.02",
@@ -65423,7 +65423,7 @@
     "Akira Psycho Ball (Europe)": {
         "secondary_name": "",
         "group_name": "Akira Psycho Ball",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "1.01",
@@ -65706,7 +65706,7 @@
         "disc_type": "DVD-5",
         "languages": "En, Fr",
         "version": "1.00",
-        "edition": "Bundled with Guitar Controller"
+        "edition": "Original, Bundled with Guitar Controller"
     },
     "Official Demo Disc Retail Edition February 02 (France) (En,Fr,De,Es,It)": {
         "secondary_name": "official demo disc retail edition february 02",
@@ -72389,7 +72389,7 @@
     "Dr. Dolittle (Europe) (En,Pt,Sv,No,Da,Fi,Pl)": {
         "secondary_name": "",
         "group_name": "Dr. Dolittle",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Da, En, Fi, No, Pl, Pt, Sv",
         "version": "1.00",
@@ -88586,9 +88586,9 @@
         "version": "",
         "edition": "Demo"
     },
-    "Mystic Nights (Korea)": {
+    "MN - Mystic Nights (Korea)": {
         "secondary_name": "미스틱 나이츠",
-        "group_name": "Mystic Nights",
+        "group_name": "MN - Mystic Nights",
         "status": "Blue",
         "disc_type": "DVD-5",
         "languages": "Ko",
@@ -88729,5 +88729,104 @@
         "languages": "En",
         "version": "1.01",
         "edition": "Original"
+    },
+    "Disney-Pixar Monsters, Inc. - Monstros e Companhia - Ilha Assustadora (Portugal)": {
+        "secondary_name": "",
+        "group_name": "Disney-Pixar Monsters, Inc. - Monstros e Companhia - Ilha Assustadora",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "Pt",
+        "version": "1.00",
+        "edition": "Original"
+    },
+    "Final Fantasy X-2 (Europe) (Demo)": {
+        "secondary_name": "",
+        "group_name": "Final Fantasy X-2",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "En",
+        "version": "1.01",
+        "edition": "Demo"
+    },
+    "Jackie Chan Adventures (Europe) (En,Fr,De,Es,It,Nl,Pt) (Demo)": {
+        "secondary_name": "",
+        "group_name": "Jackie Chan Adventures",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "Nl, En, Fr, De, It, Pt, Es",
+        "version": "1.00",
+        "edition": "Demo"
+    },
+    "Iris (Japan) (Shokai Genteiban)": {
+        "secondary_name": "Ｉｒｉｓ　～イリス～",
+        "group_name": "Iris",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "Ja",
+        "version": "1.01",
+        "edition": "Shokai Genteiban"
+    },
+    "Disney-Pixar Cars (Australia) (v1.00)": {
+        "secondary_name": "",
+        "group_name": "Disney-Pixar Cars",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "En",
+        "version": "1.00",
+        "edition": "Original"
+    },
+    "PSi2 38 (UK) (Unl)": {
+        "secondary_name": "",
+        "group_name": "PSi2 38",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "1.00 (European)",
+        "edition": "Unlicensed"
+    },
+    "Maxim - Instant Messenger (USA) (Unl)": {
+        "secondary_name": "",
+        "group_name": "Maxim - Instant Messenger",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "1.00 (American)",
+        "edition": "Unlicensed"
+    },
+    "Gyeoljeon (Korea)": {
+        "secondary_name": "결전",
+        "group_name": "Gyeoljeon",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "Ko",
+        "version": "1.01",
+        "edition": "Original"
+    },
+    "AFL Premiership 2006 (Australia) (Demo)": {
+        "secondary_name": "",
+        "group_name": "AFL Premiership 2006",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "",
+        "version": "",
+        "edition": "Demo"
+    },
+    "Destroy All Humans! 2 (Australia) (Demo)": {
+        "secondary_name": "",
+        "group_name": "Destroy All Humans! 2",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "En",
+        "version": "",
+        "edition": "Demo"
+    },
+    "Official PlayStation 2 Magazine Demo 14 (Australia)": {
+        "secondary_name": "",
+        "group_name": "Official PlayStation 2 Magazine Demo 14",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "",
+        "version": "",
+        "edition": ""
     }
 }

@@ -1568,7 +1568,7 @@
     "2002 FIFA World Cup (USA)": {
         "secondary_name": "",
         "group_name": "2002 FIFA World Cup",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "Nintendo GameCube Game Disc",
         "languages": "En",
         "version": "",
@@ -4520,7 +4520,7 @@
     "18 Wheeler - American Pro Trucker (USA)": {
         "secondary_name": "",
         "group_name": "18 Wheeler - American Pro Trucker",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "Nintendo GameCube Game Disc",
         "languages": "En",
         "version": "",
@@ -7454,7 +7454,7 @@
     "4x4 Evo 2 (USA)": {
         "secondary_name": "",
         "group_name": "4x4 Evo 2",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "Nintendo GameCube Game Disc",
         "languages": "En",
         "version": "",
@@ -13412,7 +13412,7 @@
     "Mario Kart - Double Dash!! (Japan)": {
         "secondary_name": "マリオカート ダブルダッシュ！！",
         "group_name": "Mario Kart - Double Dash!!",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "Nintendo GameCube Game Disc",
         "languages": "Ja",
         "version": "",
@@ -16562,7 +16562,7 @@
     "Bonus Powersaves (USA) (Unl)": {
         "secondary_name": "",
         "group_name": "Bonus Powersaves",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "Nintendo GameCube Game Disc",
         "languages": "En",
         "version": "",
@@ -17147,6 +17147,15 @@
     "Ultimate Cheats for Use with Metroid Prime (UK) (Unl)": {
         "secondary_name": "",
         "group_name": "Ultimate Cheats for Use with Metroid Prime",
+        "status": "Blue",
+        "disc_type": "Nintendo GameCube Game Disc",
+        "languages": "En",
+        "version": "",
+        "edition": "Unlicensed"
+    },
+    "Max Drive (USA) (Unl)": {
+        "secondary_name": "",
+        "group_name": "Max Drive",
         "status": "Blue",
         "disc_type": "Nintendo GameCube Game Disc",
         "languages": "En",

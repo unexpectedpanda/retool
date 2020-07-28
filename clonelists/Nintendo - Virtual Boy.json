@@ -1,0 +1,26 @@
+{
+    "description": {
+        "name": [
+			"Nintendo - Virtual Boy"
+		],
+        "last updated": "22 July 2020"
+    },
+
+    "renames": {
+        "Galactic Pinball": [
+            ["Space Pinball", 2]
+        ],
+        "Golf": [
+            ["T&E Virtual Golf", 1]
+        ],
+        "Jack Bros.": [
+            ["Jack Bros. no Meiro de Hiihoo!", 1]
+        ],
+        "Panic Bomber": [
+            ["Tobidase! Panibon", 1]
+        ],
+        "Virtual League Baseball": [
+            ["Virtual Pro Yakyuu '95", 1]
+        ]
+    }
+}

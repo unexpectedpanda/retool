@@ -1,0 +1,17 @@
+{
+    "description": {
+        "name": [
+			"Coleco - ColecoVision"
+		],
+        "last updated": "5 July 2020"
+    },
+
+    "renames": {
+        "Amazing Bumpman": [
+           ["Number Bumper", 2]
+        ],
+        "Front Line": [
+            ["Front Line (Green Version)", 2]
+        ]
+    }
+}
