@@ -32,7 +32,7 @@ class DatNode:
 
     def __init__(self, node, region, region_data, user_input, input_dat, REGEX):
 
-        self.full_name = str(node.category.parent['name'])
+        self.full_name = str(node.description.parent['name'])
 
         metadata = input_dat.metadata
 
@@ -89,8 +89,8 @@ class DatNode:
                     self.region_priority = i
         else:
             self.implied_language = ''
-            self.regions = ''
-            self.primary_region = ''
+            self.regions = 'Unknown'
+            self.primary_region = 'Unknown'
             self.region_priority = 100
 
         if ',' in self.regions:
@@ -98,7 +98,10 @@ class DatNode:
         else:
             self.secondary_region = ''
 
-        self.category = node.category.contents[0]
+        if node.category is None:
+            self.category = ''
+        else:
+            self.category = node.category.contents[0]
         self.description = node.description.contents[0]
         self.cloneof = ''
         self.cloneof_group = ''
@@ -109,13 +112,29 @@ class DatNode:
         elif self.online_languages == '' and self.title_languages == '':
             self.languages = self.implied_language
         elif self.online_languages == '' and self.title_languages != '':
+            if '+' in self.title_languages:
+                self.title_languages = self.title_languages.replace('+', ',')
+                new_title_languages = self.title_languages.split(',')
+                new_title_languages = set(new_title_languages)
+                self.title_languages = ','.join(new_title_languages)
+
             self.languages = self.title_languages
 
         # Convert the <rom> lines for the current node
         node_roms = node.findChildren('rom', recursive=False)
         roms = []
         for rom in node_roms:
-            roms.append(DatNodeRom('rom', rom['crc'], rom['md5'], rom['name'], rom['sha1'], rom['size']))
+            if 'md5' not in (str(rom)):
+                md5_string = ''
+            else:
+                md5_string = rom['md5']
+
+            if 'sha1' not in (str(rom)):
+                sha1_string = ''
+            else:
+                sha1_string = rom['sha1']
+
+            roms.append(DatNodeRom('rom', rom['crc'], md5_string, rom['name'], sha1_string, rom['size']))
 
         self.roms = roms
 
@@ -186,10 +205,10 @@ class DatNodeRom:
     """ Returns an object that contains a title's rom properties """
 
     def __init__(self, rom, crc, md5, name, sha1, size):
-        self.crc = crc
-        self.md5 = md5
+        self.crc = crc.lower()
+        self.md5 = md5.lower()
         self.name = name
-        self.sha1 = sha1
+        self.sha1 = sha1.lower()
         self.size = size
 
 
@@ -197,20 +216,71 @@ class Regex:
     """ Regex constructor """
 
     def __init__(self, LANGUAGES):
+        # Preproduction
+        self.alpha = re.compile('\(Alpha( [0-9]{,2}){,1}\)')
+        self.beta = re.compile('\(Beta( [0-9]{,2}){,1}\)')
+        self.proto = re.compile('\(Proto( [0-9]{,2}){,1}\)')
+        self.preprod = re.compile('\(Pre-production\)')
+        self.review = re.compile('\(Review Code\)')
+
+        # Tags
         self.alt = re.compile('\(Alt.*?\)')
+        self.bad = re.compile('\[b\]')
         self.covermount = re.compile('\(Covermount\)')
-        self.dates = re.compile('\(\d{8}\)')
-        self.dates_whitespace = re.compile('\s?\(\d{8}\)\s?')
+        self.dates = re.compile('\((\d{8}|\d{4}-\d{2}-\d{2}|\d{2}-\d{2}-\d{4}|\d{2}-\d{2}-\d{2})\)')
+        self.dates_whitespace = re.compile('\s?\((\d{8}|\d{4}-\d{2}-\d{2}|\d{2}-\d{2}-\d{4}|\d{2}-\d{2}-\d{2})\)\s?')
         self.edc = re.compile('\(EDC\)')
         self.languages = re.compile('( (\((' + LANGUAGES + ')\.*?)(,.*?\)|\)))')
         self.oem = re.compile('\((?:(?!\(|OEM.*?)[\s\S])*OEM.*?\)')
         self.hibaihin = re.compile('\(Hibaihin.*?\)')
+        self.pirate = re.compile('\(Pirate\)')
         self.rerelease = re.compile('\(Rerelease\)')
+
+        # Filters
+        self.demos = [
+            re.compile('\(Demo( [1-9])*\)'),
+            re.compile('\(Demo-CD\)'),
+            re.compile('Taikenban'),
+            re.compile('\(@barai\)'),
+            re.compile('\(GameCube Preview\)'),
+            re.compile('\(Preview\)'),
+            re.compile('\(Sample\)'),
+            re.compile('Trial Edition')
+            ]
+        self.programs = [
+            re.compile('\(Program\)')
+        ]
+        self.preproduction = [
+            self.alpha,
+            self.beta,
+            self.proto,
+            self.preprod,
+            self.review,
+            ]
+        self.preproduction_long = '\((?:(?!\(|(Pre-Production|Proto|Alpha|Beta|Review Code)( [0-9]{,2}){,1})[\s\S])*(Pre-Production|Proto|Alpha|Beta|Review Code)( [0-9]{,2}){,1}\)'
+        self.promotional = [
+            re.compile('EPK'),
+            re.compile('Press Kit'),
+            re.compile('\(Promo\)')
+        ]
+        self.unlicensed = [
+            re.compile('\(Unl\)')
+        ]
+
+        # Versions
+        self.version = re.compile('\(v[0-9].*?\)')
+        self.long_version = re.compile('Version [+-]?([0-9]+([.][0-9]*)?|[.][0-9]+).*?[ \)]')
         self.revision = re.compile('\(Rev [0-9A-Z].*?\)')
         self.sega_ring_code = re.compile('\(([0-9]{1,2}[A-Z]([ ,].[0-9]{1,2}[A-Z])*|R[E]{,1}[-]{,1}[0-9]{,1})\)')
         self.sega_ring_code_re = re.compile('R[E]{,1}[-]{,1}[0-9]{,1}')
-        self.version = re.compile('\(v[0-9].*?\)')
-        self.long_version = re.compile('Version [+-]?([0-9]+([.][0-9]*)?|[.][0-9]+).*?[ \)]')
+        self.fds_version = re.compile('\(DV [0-9].*?\)')
+
+        # Virtual + Mini Console
+        self.switch_online = re.compile('\((?:(?!\(|Switch Online.*?)[\s\S])*Switch Online.*?\)')
+        self.wii_virtual_console = re.compile('\((?:(?!\(|.*?Wii.*?Virtual Console.*?)[\s\S])*?Wii.*?Virtual Console.*?\)')
+        self.threeds_virtual_console = re.compile('\((?:(?!\(|.*?3DS.*?Virtual Console.*?)[\s\S])*?3DS.*?Virtual Console.*?\)')
+        self.gamecube_virtual_console = '\((?:(?!\(|.*?GameCube.*?)[\s\S])*?GameCube.*?\)'
+        self.virtual_console = '\(Virtual Console\)'
 
 
 class RegionKeys():
@@ -258,7 +328,7 @@ class Stats():
 
     def __init__(self, original_title_count, user_input, input_dat, final_title_count=0):
         def category_count(category):
-            """ Gets the category count for the soup object """
+            """ Gets the category count from the soup object """
 
             if hasattr(user_input, 'no_' + category.lower()):
                 if getattr(user_input, 'no_' + category.lower()) == True:
@@ -279,6 +349,25 @@ class Stats():
             self.unlicensed_count = len(input_dat.soup.find_all('description', string=lambda x: x and '(Unl)' in x))
         else:
             self.unlicensed_count = 0
+
+        if user_input.no_bad_dumps == True:
+            self.bad_dump_count = len(input_dat.soup.find_all('description', string=lambda x: x and '[b]' in x))
+        else:
+            self.bad_dump_count = 0
+
+        if user_input.no_pirate == True:
+            self.pirate_count = len(input_dat.soup.find_all('description', string=lambda x: x and '(Pirate)' in x))
+        else:
+            self.pirate_count = 0
+
+        if user_input.no_promotional == True:
+            self.promotional_count = (
+                len(input_dat.soup.find_all('description', string=lambda x: x and '(Promo)' in x))
+                + len(input_dat.soup.find_all('description', string=lambda x: x and 'EPK' in x))
+                + len(input_dat.soup.find_all('description', string=lambda x: x and 'Press Kit' in x))
+                )
+        else:
+            self.promotional_count = 0
 
 
 class TagKeys:
@@ -335,22 +424,31 @@ class UserInput:
     """ Stores user input values, including what types of titles to exclude """
 
     def __init__(self, input_file_name, output_folder_name,
-                 no_demos, no_applications, no_preproduction,
-                 no_multimedia, no_educational, no_coverdiscs,
-                 no_compilations, no_unlicensed, supersets,
-                 filter_languages, legacy, user_options, verbose):
+                 no_applications, no_bad_dumps, no_compilations,
+                 no_demos, no_educational, no_coverdiscs,
+                 no_multimedia, no_pirate, no_preproduction,
+                 no_promotional, no_unlicensed,
+                 supersets, filter_languages, legacy,
+                 user_options, verbose, build_cache,
+                 use_cache):
         self.input_file_name = input_file_name
         self.output_folder_name = output_folder_name
-        self.no_demos = no_demos
+
         self.no_applications = no_applications
-        self.no_multimedia = no_multimedia
-        self.no_preproduction = no_preproduction
+        self.no_bad_dumps = no_bad_dumps
+        self.no_compilations = no_compilations
+        self.no_demos = no_demos
         self.no_educational = no_educational
         self.no_coverdiscs = no_coverdiscs
-        self.no_compilations = no_compilations
+        self.no_multimedia = no_multimedia
+        self.no_pirate = no_pirate
+        self.no_preproduction = no_preproduction
+        self.no_promotional = no_promotional
         self.no_unlicensed = no_unlicensed
         self.supersets = supersets
         self.filter_languages = filter_languages
         self.legacy = legacy
         self.user_options = user_options
         self.verbose = verbose
+        self.build_cache = build_cache
+        self.use_cache = use_cache

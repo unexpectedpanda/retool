@@ -3,39 +3,39 @@
 # Comment out languages you don't want.
 - language filter:
   - English
-  # - Afrikaans
-  # - Arabic
-  # - Bulgarian
-  # - Catalan
-  # - Chinese
-  # - Croatian
-  # - Czech
-  # - Danish
-  # - Dutch
-  # - Finnish
-  # - French
-  # - Gaelic
-  # - German
-  # - Greek
-  # - Hebrew
-  # - Hindi
-  # - Hungarian
-  # - Italian
-  # - Japanese
-  # - Korean
-  # - Norwegian
-  # - Polish
-  # - Portuguese
-  # - Punjabi
-  # - Romanian
-  # - Russian
-  # - Slovak
-  # - Slovenian
-  # - Spanish
-  # - Swedish
-  # - Tamil
-  # - Thai
-  # - Turkish
+  #- Afrikaans
+  #- Arabic
+  #- Bulgarian
+  #- Catalan
+  #- Chinese
+  #- Croatian
+  #- Czech
+  #- Danish
+  #- Dutch
+  #- Finnish
+  #- French
+  #- Gaelic
+  #- German
+  #- Greek
+  #- Hebrew
+  #- Hindi
+  #- Hungarian
+  #- Italian
+  #- Japanese
+  #- Korean
+  #- Norwegian
+  #- Polish
+  #- Portuguese
+  #- Punjabi
+  #- Romanian
+  #- Russian
+  #- Slovak
+  #- Slovenian
+  #- Spanish
+  #- Swedish
+  #- Tamil
+  #- Thai
+  #- Turkish
 
 # The region order Retool follows. Comment out the regions you don't want.
 - region order:
@@ -49,9 +49,11 @@
   - Ireland
   - Thailand
   - Europe
+  - Hong Kong
   - Japan
   - Asia
   - Spain
+  - Mexico
   - Argentina
   - Latin America
   - Brazil

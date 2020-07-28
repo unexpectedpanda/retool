@@ -23,18 +23,23 @@ def usage():
     print(f'{Font.bold}-o{Font.end} <output folder>   Set an output folder')
     print(f'{Font.bold}-x{Font.end}                   Export dat in legacy parent/clone format')
     print('                     (for use with Clonerel, not dat managers)')
-    print(f'{Font.bold}-v{Font.end}                   Verbose mode: report clone list errors\n')
-    print('FILTER OPTIONS:')
+    print(f'{Font.bold}-v{Font.end}                   Verbose mode: report clone list errors')
+    # if os.path.isfile('.dev'):
+    #     print(f'{Font.bold}-y{Font.end}                   Build cache for online mode')
+        # print(f'{Font.bold}-z{Font.end} <cache file>      Use cache instead of input file')
+        # print('                     (use in place of -i)')
+    print('\nFILTER OPTIONS:')
     print(f'{Font.bold}-l{Font.end}  Filter languages using a list (see {Font.bold}user-config.yaml{Font.end})')
-    print(f'{Font.bold}-g{Font.end}  Enable most filters (-a -b -c -d -e -m -p -s)')
+    print(f'{Font.bold}-g{Font.end}  Enable most filters (-a -b -c -d -e -f -m -p -r -s)')
     print(f'{Font.bold}-s{Font.end}  Enable supersets: special editions, game of the year')
     print('    editions, and collections replace standard editions\n')
-    print(f'{Font.bold}-a{Font.end}  Exclude applications       {Font.bold}-e{Font.end}  Exclude educational titles')
-    print(f'{Font.bold}-b{Font.end}  Exclude coverdiscs         {Font.bold}-m{Font.end}  Exclude multimedia titles')
-    print(f'{Font.bold}-c{Font.end}  Exclude compilations       {Font.bold}-p{Font.end}  Exclude preproduction titles')
-    print('    with no unique titles          (alphas, betas, prototypes)')
-    print(f'{Font.bold}-d{Font.end}  Exclude demos              {Font.bold}-u{Font.end}  Exclude unlicensed titles')
-
+    print(f'{Font.bold}-a{Font.end}  Exclude applications        {Font.bold}-m{Font.end}  Exclude multimedia titles')
+    print(f'{Font.bold}-b{Font.end}  Exclude bad dumps           {Font.bold}-n{Font.end}  Exclude pirate titles')
+    print(f'{Font.bold}-c{Font.end}  Exclude compilations        {Font.bold}-p{Font.end}  Exclude preproduction titles')
+    print('    with no unique titles           (alphas, betas, prototypes)')
+    print(f'{Font.bold}-d{Font.end}  Exclude demos and samples   {Font.bold}-r{Font.end}  Exclude promotional titles')
+    print(f'{Font.bold}-e{Font.end}  Exclude educational titles  {Font.bold}-u{Font.end}  Exclude unlicensed titles')
+    print(f'{Font.bold}-f{Font.end}  Exclude coverdiscs')
     sys.exit()
 
 
@@ -45,29 +50,34 @@ def check_input():
     user_options = []
 
     # Handle most user options
-    options = ['a', 'b', 'c', 'd', 'e', 'g', 'i', 'l', 'm', 'o', 'p', 's', 'u', 'v', 'x', 'q']
+    options = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'i', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 'u', 'v', 'x', 'y', 'z']
 
     # Remove these options from the output file name and other places
-    hide_options = ['g', 'v', 'i', 'o', 'l', 'q']
-    non_g_options = ['u']
+    hide_options = ['g', 'v', 'i', 'o', 'l', 'q', 'y', 'z']
+    non_g_options = ['u', 'n']
 
     for option in options:
         if len([x for x in sys.argv if x == f'-{option}']) > 0:
             user_options.append(option)
 
     no_applications = True if 'a' in user_options or 'g' in user_options else False
-    no_coverdiscs = True if 'b' in user_options or 'g' in user_options else False
+    no_bad_dumps = True if 'b' in user_options or 'g' in user_options else False
     no_compilations = True if 'c' in user_options or 'g' in user_options else False
     no_demos = True if 'd' in user_options or 'g' in user_options else False
     no_educational = True if 'e' in user_options or 'g' in user_options else False
+    no_coverdiscs = True if 'f' in user_options or 'g' in user_options else False
     no_multimedia = True if 'm' in user_options or 'g' in user_options else False
+    no_pirate = True if 'n' in user_options else False
     no_preproduction = True if 'p' in user_options or 'g' in user_options else False
+    no_promotional = True  if 'r' in user_options or 'g' in user_options else False
     no_unlicensed = True if 'u' in user_options else False
     supersets = True if 's' in user_options or 'g' in user_options else False
     filter_languages = True if 'l' in user_options else False
     legacy = True if 'x' in user_options else False
     verbose = True if 'v' in user_options else False
     undo_dev = True if 'q' in user_options else False
+    build_cache = True if 'y' in user_options else False
+    use_cache = True if 'z' in user_options else False
 
     # Set verbose and legacy to always be true if in dev environment
     if os.path.isfile('.dev'):
@@ -164,6 +174,11 @@ def check_input():
     if len([x for x in sys.argv if x=='-o']) == 0:
             output_folder_name = os.path.abspath('.')
 
+    # Check that both -y and -z haven't been set
+    if len([x for x in sys.argv if x=='-y']) > 0 and len([x for x in sys.argv if x=='-z']) > 0:
+        print(f'{Font.error}* Can\'t use -y with -z, build and use cache are separate processes{Font.end}')
+        error_state = True
+
     # Exit if there was an error in user input
     if error_state == True:
         usage()
@@ -171,19 +186,25 @@ def check_input():
     return UserInput(
         input_file_name,
         output_folder_name,
-        no_demos,
+
         no_applications,
-        no_preproduction,
-        no_multimedia,
+        no_bad_dumps,
+        no_compilations,
+        no_demos,
         no_educational,
         no_coverdiscs,
-        no_compilations,
+        no_multimedia,
+        no_pirate,
+        no_preproduction,
+        no_promotional,
         no_unlicensed,
         supersets,
         filter_languages,
         legacy,
         user_options,
-        verbose)
+        verbose,
+        build_cache,
+        use_cache)
 
 
 def import_user_config(region_data, user_input):

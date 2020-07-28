@@ -1,3 +1,4 @@
+import functools
 import itertools
 import operator
 import re
@@ -8,14 +9,34 @@ from modules.utils import Font, printverbose, printwrap
 def check_date(string, title):
         """ Basic date validation """
 
-        year = re.search(string, title).group()[1:-5]
-        month = re.search(string, title).group()[5:-3]
-        day = re.search(string, title).group()[7:-1]
+        if re.search('\(\d{2}-\d{2}-\d{4}\)', title) != None:
+            us_date = True
+        else:
+            us_date = False
+
+        if re.search('\(\d{2}-\d{2}-\d{2}\)', title) != None:
+            short_date = True
+        else:
+            short_date = False
+
+        title = title.replace(re.search(string, title)[0], re.search(string, title)[0].replace('-', ''))
+
+        if short_date == True:
+            string = '\(\d{6}\)'
+            year = 1900 + int(re.search(string, title).group()[1:-5])
+            month = re.search(string, title).group()[3:-3]
+            day = re.search(string, title).group()[5:-1]
+        elif us_date == True:
+            year = re.search(string, title).group()[5:-1]
+            month = re.search(string, title).group()[1:-7]
+            day = re.search(string, title).group()[3:-5]
+        else:
+            year = re.search(string, title).group()[1:-5]
+            month = re.search(string, title).group()[5:-3]
+            day = re.search(string, title).group()[7:-1]
 
         if (
-            # The first optical-disc based console was the PC-Engine CD-ROM in 1988.
-            # To be safe, taking one year prior.
-            int(year) >= 1987
+            int(year) >= 1970
             and int(month) >= 1
             and int(month) <= 12
             and int(day) >= 1
@@ -54,35 +75,47 @@ def report_stats(stats, titles, user_input, input_dat, region_data):
         print(
             '-  Applications removed: '
             f'{str("{:,}".format(stats.applications_count))}')
+    if user_input.no_bad_dumps == True:
+        print(
+            '-  Bad dumps removed: '
+            f'{str("{:,}".format(stats.bad_dump_count))}')
+    if user_input.no_coverdiscs == True:
+        print(
+            '-  Coverdiscs removed: '
+            f'{str("{:,}".format(stats.coverdiscs_count))}')
+    if user_input.no_demos == True:
+        print(
+            '-  Demos removed: '
+            f'{str("{:,}".format(stats.demos_count))}')
+    if user_input.no_educational == True:
+        print(
+            '-  Educational titles removed: '
+            f'{str("{:,}".format(stats.educational_count))}')
+    if user_input.no_multimedia == True:
+        print(
+            '-  Multimedia titles removed: '
+            f'{str("{:,}".format(stats.multimedia_count))}')
+    if user_input.no_pirate == True:
+        print(
+            '-  Pirate titles removed: '
+            f'{str("{:,}".format(stats.pirate_count))}')
+    if user_input.no_preproduction == True:
+        print(
+            '-  Preproduction titles removed: '
+            f'{str("{:,}".format(stats.preproduction_count))}')
+    if user_input.no_promotional == True:
+        print(
+            '-  Promotional titles removed: '
+            f'{str("{:,}".format(stats.promotional_count))}')
     if input_dat.clone_lists != None:
         if user_input.no_compilations == True:
             print(
                 '-  Compilations removed: '
                 f'{str("{:,}".format(stats.compilations_count))}')
-        if user_input.no_coverdiscs == True:
-            print(
-                '-  Coverdiscs removed: '
-                f'{str("{:,}".format(stats.coverdiscs_count))}')
-        if user_input.no_demos == True:
-            print(
-                '-  Demos removed: '
-                f'{str("{:,}".format(stats.demos_count))}')
-        if user_input.no_educational == True:
-            print(
-                '-  Educational titles removed: '
-                f'{str("{:,}".format(stats.educational_count))}')
-        if user_input.no_multimedia == True:
-            print(
-                '-  Multimedia titles removed: '
-                f'{str("{:,}".format(stats.multimedia_count))}')
-        if user_input.no_preproduction == True:
-            print(
-                '-  Preproduction titles removed: '
-                f'{str("{:,}".format(stats.preproduction_count))}')
-        if user_input.no_unlicensed == True:
-            print(
-                '-  Unlicensed titles removed: '
-                f'{str("{:,}".format(stats.unlicensed_count))}')
+    if user_input.no_unlicensed == True:
+        print(
+            '-  Unlicensed titles removed: '
+            f'{str("{:,}".format(stats.unlicensed_count))}')
     if user_input.legacy == False:
         print(f'-  Clones removed: {str("{:,}".format(stats.clone_count))}')
 
@@ -161,16 +194,27 @@ def choose_parent(titles, region_data, user_input, REGEX, ring_code):
 
     parents = titles.copy()
 
-    # 1) Check for versions and revisions, and select the highest of each
-    choose_version_revision(REGEX.version, parents, 2, -1)
-    choose_version_revision(REGEX.long_version, parents, 8, -1)
-    choose_version_revision(REGEX.revision, parents, 5, -1)
+    # 1) Promote Virtual and Mini Console titles
+    choose_string(REGEX.switch_online, parents, REGEX, True)
+    choose_string(REGEX.wii_virtual_console, parents, REGEX, True)
+    choose_string(REGEX.threeds_virtual_console, parents, REGEX, True)
+    choose_string(REGEX.gamecube_virtual_console, parents, REGEX, True)
+    choose_string(REGEX.virtual_console, parents, REGEX, True)
 
-    # 2) Check for Sega/Panasonic ring codes
+    # 2) Check for versions and revisions, and select the highest of each
+    choose_version_revision(REGEX.version, parents, REGEX, 2, -1)
+    choose_version_revision(REGEX.long_version, parents, REGEX, 8, -1)
+    choose_version_revision(REGEX.fds_version, parents, REGEX, 3, -1)
+    choose_version_revision(REGEX.revision, parents, REGEX, 5, -1)
+    choose_version_revision(REGEX.beta, parents, REGEX, 6, -1, True)
+    choose_version_revision(REGEX.alpha, parents, REGEX, 7, -1, True)
+    choose_version_revision(REGEX.proto, parents, REGEX, 7, -1, True)
+
+    # 3) Check for Sega/Panasonic ring codes
     if ring_code == True:
         choose_ring_code(REGEX, parents)
 
-    # 3) If one title supports different languages to another, cycle through the implied
+    # 4) If one title supports different languages to another, cycle through the implied
     # language order until one title doesn't have the required language.
     parents_temp = parents.copy()
 
@@ -187,18 +231,20 @@ def choose_parent(titles, region_data, user_input, REGEX, ring_code):
             and title_1.languages != ''
             and title_2.languages != ''
             and title_1.title_languages != ''
-            and title_2.title_languages != ''):
+            and title_2.title_languages != ''
+            and '[BIOS]' not in title_1.full_name
+            and '[BIOS]' not in title_2.full_name):
                 found_language = False
                 if implied_languages != []:
                     for implied_language in implied_languages:
                         if(
-                            implied_language in title_1.languages
-                            and implied_language not in title_2.languages):
+                            bool(re.search(implied_language, title_1.languages)) == True
+                            and bool(re.search(implied_language, title_2.languages)) == False):
                                 if title_2 in parents: parents.remove(title_2)
                                 break
                         elif(
-                            implied_language in title_2.languages
-                            and implied_language not in title_1.languages):
+                            bool(re.search(implied_language, title_2.languages)) == True
+                            and bool(re.search(implied_language, title_1.languages)) == False):
                                 if title_1 in parents: parents.remove(title_1)
                                 break
         elif (
@@ -207,22 +253,21 @@ def choose_parent(titles, region_data, user_input, REGEX, ring_code):
             title_1.short_name == title_2.short_name
             and title_1.languages != ''
             and title_2.languages != ''
+            and title_1.languages != title_2.languages
             and (title_1.title_languages == '' or
-                 title_2.title_languages == '')):
+                 title_2.title_languages == '')
+            and '[BIOS]' not in title_1.full_name
+            and '[BIOS]' not in title_2.full_name):
                 for region in user_input.user_region_order:
                     if region_data.implied_language[region] != '':
                         if (
-                            region_data.implied_language[region]
-                            in title_1.languages
-                            and region_data.implied_language[region]
-                            not in title_2.languages):
+                            bool(re.search(region_data.implied_language[region], title_1.languages)) == True
+                            and bool(re.search(region_data.implied_language[region], title_2.languages)) == False):
                                 if title_2 in parents: parents.remove(title_2)
                                 break
                         elif (
-                            region_data.implied_language[region]
-                            in title_2.languages
-                            and region_data.implied_language[region]
-                            not in title_1.languages):
+                            bool(re.search(region_data.implied_language[region], title_2.languages)) == True
+                            and bool(re.search(region_data.implied_language[region], title_1.languages)) == False):
                                 if title_1 in parents: parents.remove(title_1)
                                 break
 
@@ -231,31 +276,32 @@ def choose_parent(titles, region_data, user_input, REGEX, ring_code):
         if (
             title_1 in parents
             and title_2 in parents
-            and title_1.short_name == title_2.short_name):
+            and title_1.short_name == title_2.short_name
+            and '[BIOS]' not in title_1.full_name
+            and '[BIOS]' not in title_2.full_name):
                 for region in region_data.all:
                     if region_data.implied_language[region] != '':
                         if (
-                            region_data.implied_language[region]
-                            in title_1.languages
-                            and region_data.implied_language[region]
-                            not in title_2.languages):
+                            bool(re.search(region_data.implied_language[region], title_1.languages)) == True
+                            and bool(re.search(region_data.implied_language[region], title_2.languages)) == False):
                                 if title_2 in parents: parents.remove(title_2)
                                 break
                         elif (
-                            region_data.implied_language[region]
-                            in title_2.languages
-                            and region_data.implied_language[region]
-                            not in title_1.languages):
+                            bool(re.search(region_data.implied_language[region], title_2.languages)) == True
+                            and bool(re.search(region_data.implied_language[region], title_1.languages)) == False):
                                 if title_1 in parents: parents.remove(title_1)
                                 break
 
-    # 4) Preference titles with more regions. In the case of equal number of regions,
+    # 5) Preference titles with more regions. In the case of equal number of regions,
     # check for the current region as the primary region, then take the title with the
     # highest priority secondary region.
     parents_temp = parents.copy()
 
     for title_1, title_2 in itertools.combinations(parents_temp, 2):
-        if title_1.short_name == title_2.short_name:
+        if (
+            title_1.short_name == title_2.short_name
+            and '[BIOS]' not in title_1.full_name
+            and '[BIOS]' not in title_2.full_name):
             if (
                 len(re.findall(',', title_1.regions))
                 > len(re.findall(',', title_2.regions))):
@@ -286,25 +332,26 @@ def choose_parent(titles, region_data, user_input, REGEX, ring_code):
                                     if title_1 in parents: parents.remove(title_1)
                                     break
 
-    # 5) Choose higher dates where possible
+    # 6) Choose higher dates where possible
     choose_date(REGEX.dates, parents)
 
-    # 6) Choose original versions over alternates
-    choose_string(REGEX.alt, parents)
-    choose_string(REGEX.oem, parents)
-    choose_string(REGEX.hibaihin, parents)
-    choose_string(REGEX.covermount, parents)
-    choose_string(REGEX.rerelease, parents)
-    choose_string(REGEX.edc, parents, True)
+    # 7) Choose good, original versions over alternates
+    choose_string(REGEX.alt, parents, REGEX)
+    choose_string(REGEX.oem, parents, REGEX)
+    choose_string(REGEX.bad, parents, REGEX)
+    choose_string(REGEX.hibaihin, parents, REGEX)
+    choose_string(REGEX.covermount, parents, REGEX)
+    choose_string(REGEX.rerelease, parents, REGEX)
+    choose_string(REGEX.edc, parents, REGEX, True)
 
-    # 7) Deal with promotions and demotions of editions
+    # 8) Deal with promotions and demotions of editions
     for edition in user_input.tag_strings.promote_editions:
-        choose_string(edition, parents, True)
+        choose_string(edition, parents, REGEX, True)
 
     for edition in user_input.tag_strings.demote_editions:
-        choose_string(edition, parents)
+        choose_string(edition, parents, REGEX)
 
-    # 8) Deal with "Made in" titles for Sega CD and Sega Saturn
+    # 9) Deal with "Made in" titles for Sega CD and Sega Saturn
     if ring_code == True:
         for title_1, title_2 in itertools.combinations(parents_temp, 2):
             if 'Made in' in title_1.full_name and 'Made in' in title_2.full_name:
@@ -329,7 +376,7 @@ def choose_parent(titles, region_data, user_input, REGEX, ring_code):
     return titles
 
 
-def choose_cross_region_parents(titles, user_input):
+def choose_cross_region_parents(titles, user_input, REGEX):
     """ Finds parents given a list of DatNode objects from multiple regions.
 
     This assumes choose_parent has already been run across all regions prior to them
@@ -348,8 +395,29 @@ def choose_cross_region_parents(titles, user_input):
     for key, values in titles.all.items():
         parents = values.copy()
 
-        for title_1, title_2 in itertools.combinations(values, 2):
-            if title_1.short_name == title_2.short_name:
+        for title_1, title_2 in itertools.combinations(parents, 2):
+            if (
+                title_1.short_name == title_2.short_name
+                and title_1.regions != title_2.regions
+                and '[BIOS]' not in title_1.full_name
+                and '[BIOS]' not in title_2.full_name):
+
+                # Check to see if titles are preproduction or not. If so, favour
+                # production titles
+                preprod_title_1 = bool(re.search(REGEX.preproduction_long, title_1.full_name))
+                preprod_title_2 = bool(re.search(REGEX.preproduction_long, title_2.full_name))
+
+                if preprod_title_1 == True and preprod_title_2 == False:
+                    if title_1 in parents: parents.remove(title_1)
+                elif preprod_title_2 == True and preprod_title_1 == False:
+                    if title_2 in parents: parents.remove(title_2)
+
+        for title_1, title_2 in itertools.combinations(parents, 2):
+            if (
+                title_1.short_name == title_2.short_name
+                and title_1.regions != title_2.regions
+                and '[BIOS]' not in title_1.full_name
+                and '[BIOS]' not in title_2.full_name):
                 for region in user_input.user_region_order:
                     if (
                         region in title_1.regions
@@ -382,7 +450,8 @@ def choose_cross_region_parents(titles, user_input):
             for title in values:
                 if (
                     title in [x for x in values if x not in parents]
-                    and title.short_name == parent.short_name):
+                    and title.short_name == parent.short_name
+                    and parent.cloneof == ''):
                         title.cloneof = parent.full_name
                         title.cloneof_group = get_raw_title(parent.full_name)
 
@@ -398,7 +467,10 @@ def choose_date(string, title_list):
     title_list_temp = title_list.copy()
 
     for title_1, title_2 in itertools.combinations(title_list_temp, 2):
-        if title_1.short_name == title_2.short_name:
+        if (
+            title_1.short_name == title_2.short_name
+            and '[BIOS]' not in title_1.full_name
+            and '[BIOS]' not in title_2.full_name):
             if (
                 re.search(string, title_1.full_name) != None
                 and re.search(string, title_2.full_name) == None
@@ -425,7 +497,7 @@ def choose_ring_code(REGEX, title_list):
     lowest ring code.
     """
 
-    choose_string(REGEX.sega_ring_code, title_list, True)
+    choose_string(REGEX.sega_ring_code, title_list, REGEX, True)
 
     title_list_temp = title_list.copy()
 
@@ -481,7 +553,7 @@ def choose_ring_code(REGEX, title_list):
                                         if title_1 in title_list: title_list.remove(title_1)
 
 
-def choose_string(string, title_list, choose_title_with_string=False):
+def choose_string(string, title_list, REGEX, choose_title_with_string=False):
         """ Checks two titles from a list for a string. Remove the title with the string
         from the supplied list.
 
@@ -496,7 +568,10 @@ def choose_string(string, title_list, choose_title_with_string=False):
         title_list_temp = title_list.copy()
 
         for title_1, title_2 in itertools.combinations(title_list_temp, 2):
-            if title_1.short_name == title_2.short_name:
+            if (
+                title_1.short_name == title_2.short_name
+                and '[BIOS]' not in title_1.full_name
+                and '[BIOS]' not in title_2.full_name):
                 if (
                     re.search(string, title_1.full_name) != None
                     and re.search(string, title_2.full_name) == None):
@@ -513,16 +588,18 @@ def choose_string(string, title_list, choose_title_with_string=False):
                             if title_1 in title_list: title_list.remove(title_1)
                 elif (
                     # Bit of a hack. If it finds the same string in both titles, select
-                    # the one that's longer.
+                    # the one that's longer, as long as the string isn't a ring code.
                     re.search(string, title_2.full_name) != None
-                    and re.search(string, title_1.full_name) != None):
+                    and re.search(string, title_1.full_name) != None
+                    and string != REGEX.sega_ring_code
+                    and string != REGEX.sega_ring_code_re):
                         if len(title_2.full_name) < len(title_1.full_name):
                             if title_2 in title_list: title_list.remove(title_2)
                         elif len(title_1.full_name) < len(title_2.full_name):
                                 if title_1 in title_list: title_list.remove(title_1)
 
 
-def choose_version_revision(string, title_list, trim_start, trim_end):
+def choose_version_revision(string, title_list, REGEX, trim_start, trim_end, preproduction=False):
     """ Checks two titles from a list to see which one has a version/revision tag, or
     which has the highest version. Removes the appropriate title from the supplied
     list.
@@ -531,29 +608,77 @@ def choose_version_revision(string, title_list, trim_start, trim_end):
     title_list_temp = title_list.copy()
 
     for title_1, title_2 in itertools.combinations(title_list_temp, 2):
-        if title_1.short_name == title_2.short_name:
-            if (
-                re.search(string, title_1.region_free_name) != None
-                and re.search(string, title_2.region_free_name) != None):
-                    # Find the highest version
-                    ver_1 = re.search(string, title_1.region_free_name)[0][trim_start:trim_end]
-                    ver_2 = re.search(string, title_2.region_free_name)[0][trim_start:trim_end]
+        # Check to see if titles are preproduction or not. If so, favour
+        # production titles
+        preprod_check = []
+        preprod_title_1 = bool(re.search(REGEX.preproduction_long, title_1.full_name))
+        preprod_title_2 = bool(re.search(REGEX.preproduction_long, title_2.full_name))
 
-                    if ver_1 > ver_2:
-                        if title_2 in title_list: title_list.remove(title_2)
-                    elif ver_2 > ver_1:
-                        if title_1 in title_list: title_list.remove(title_1)
-            elif (
-                re.search(string, title_1.region_free_name) != None
-                or re.search(string, title_2.region_free_name) != None):
+        preprod_check.extend([preprod_title_1, preprod_title_2])
+
+        if functools.reduce(lambda a,b: a + b, preprod_check) > 0:
+            preproduction = True
+
+        if (
+            (
+                title_1.short_name == title_2.short_name
+                and '[BIOS]' not in title_1.full_name
+                and '[BIOS]' not in title_2.full_name
+                and (
+                    functools.reduce(lambda a,b: a + b, preprod_check) == 2
+                    or functools.reduce(lambda a,b: a + b, preprod_check) == 0))):
                     if (
-                        re.search(string, title_1.full_name) != None
-                        and re.search(string, title_2.full_name) == None):
-                            if title_2 in title_list: title_list.remove(title_2)
+                        re.search(string, title_1.region_free_name) != None
+                        and re.search(string, title_2.region_free_name) != None):
+                            # Find the highest version
+                            ver_1 = re.search(string, title_1.region_free_name)[0][trim_start:trim_end]
+                            ver_2 = re.search(string, title_2.region_free_name)[0][trim_start:trim_end]
+
+                            if string == re.compile('\(DV [0-9].*?\)'):
+                                ver_1 = int(ver_1)
+                                ver_2 = int(ver_2)
+                            elif (
+                                bool(re.search('[A-Za-z]', ver_1)) == False
+                                and bool(re.search('[A-Za-z]', ver_2)) == False
+                                and (
+                                    len(ver_1) == 2
+                                    or len(ver_2) == 2
+                                )
+                            ):
+                                ver_1 = float(ver_1)
+                                ver_2 = float(ver_2)
+
+                            if ver_1 > ver_2:
+                                if title_2 in title_list: title_list.remove(title_2)
+                            elif ver_2 > ver_1:
+                                if title_1 in title_list: title_list.remove(title_1)
                     elif (
-                        re.search(string, title_1.full_name) == None
-                        and re.search(string, title_2.full_name) != None):
-                            if title_1 in title_list: title_list.remove(title_1)
+                        re.search(string, title_1.region_free_name) != None
+                        or re.search(string, title_2.region_free_name) != None):
+                            if (
+                                re.search(string, title_1.full_name) != None
+                                and re.search(string, title_2.full_name) == None):
+                                    if preproduction == False:
+                                        if title_2 in title_list: title_list.remove(title_2)
+                                    else:
+                                        if title_1 in title_list: title_list.remove(title_1)
+                            elif (
+                                re.search(string, title_1.full_name) == None
+                                and re.search(string, title_2.full_name) != None):
+                                    if preproduction == False:
+                                        if title_1 in title_list: title_list.remove(title_1)
+                                    else:
+                                        if title_2 in title_list: title_list.remove(title_2)
+        elif (
+            functools.reduce(lambda a,b: a + b, preprod_check) == 1
+            and '[BIOS]' not in title_1.full_name
+            and '[BIOS]' not in title_2.full_name):
+
+            if preprod_title_1 == True and preprod_title_2 == False:
+                if title_1 in title_list: title_list.remove(title_1)
+            elif preprod_title_2 == True and preprod_title_1 == False:
+                if title_2 in title_list: title_list.remove(title_2)
+
 
 
 def assign_clones(titles, input_dat, region_data, user_input, REGEX):
@@ -633,74 +758,120 @@ def assign_clones(titles, input_dat, region_data, user_input, REGEX):
             priority_range = range(-1, 10) if user_input.supersets == True else range(0, 10)
 
             for i in priority_range:
-                found_parent = False
-                for region in user_input.user_region_order:
-                    if region_data.implied_language[region] != '':
-                        for clone in sorted(clones, key=operator.itemgetter(1)):
-                            clone_title, clone_priority = clone[0], clone[1]
-                            if (
-                                clone_title.cloneof == ''
-                                and clone_priority >= priority_range[0]):
-                                    # If a superset has the same language as a higher region priority, don't overwrite it.
-                                    # If a title priority is set to 0 and has the same language as a higher region priority,
-                                    # don't overwrite it.
-                                    if (
-                                        region_data.implied_language[region] in clone_title.languages
-                                        and (clone_priority == -1 or clone_priority == 0)):
+                if len(clones) > 1:
+                    found_parent = False
+                    for region in user_input.user_region_order:
+                        if region_data.implied_language[region] != '':
+                            for clone in sorted(clones, key=operator.itemgetter(1)):
+                                clone_title, clone_priority = clone[0], clone[1]
+                                if (
+                                    clone_title.cloneof == ''
+                                    and clone_priority >= priority_range[0]):
+                                        # If a superset has the same language as a higher region priority, don't overwrite it.
+                                        # If a title priority is set to 0 and has the same language as a higher region priority,
+                                        # don't overwrite it.
+                                        if (
+                                            bool(re.search(region_data.implied_language[region], clone_title.languages)) == True
+                                            and (clone_priority == -1 or clone_priority == 0)):
+                                                found_parent = True
+                                                parent = clone
+                                                break
+                                        elif region in clone_title.regions:
                                             found_parent = True
                                             parent = clone
                                             break
-                                    elif region in clone_title.regions:
-                                        found_parent = True
-                                        parent = clone
-                                        break
-                        if found_parent == True: break
-
-                # If there's more than one title from the same region with the same
-                # priority, we need extra parent selection
-                for clone in clones:
-                    clone_title, clone_priority = clone[0], clone[1]
-
-                    if (
-                        clone_title.primary_region == parent[0].primary_region
-                        and clone_priority == parent[1]
-                        and clone_title.full_name != parent[0].full_name
-                        and clone_title.short_name == parent[0].short_name
-                        ):
-                        if (
-                            'Saturn' in input_dat.name
-                            or 'Sega CD' in input_dat.name
-                            or 'Panasonic - 3DO' in input_dat.name):
-                            ring_code = True
-                        else:
-                            ring_code = False
-
-                        parents = [clone_title, parent[0]]
-                        parents = choose_parent(parents, region_data, user_input, REGEX, ring_code)
-
-                        for new_parent in parents:
-                            if new_parent.cloneof == '':
+                            if found_parent == True: break
+                        elif region in clone_title.regions:
+                            for clone in sorted(clones, key=operator.itemgetter(1)):
+                                clone_title, clone_priority = clone[0], clone[1]
                                 found_parent = True
-                                parent = (new_parent, parent[1])
+                                parent = clone
                                 break
-                        if found_parent == True: break
+                            if found_parent == True: break
 
-                for clone in clones:
-                    clone_title, clone_priority = clone[0], clone[1]
-
-                    for disc_title in titles.all[clone_title.group]:
+                    # If there's more than one title from the same region with the same
+                    # priority, we need extra parent selection
+                    for clone in clones:
                         if (
-                            clone_title.full_name == disc_title.full_name
-                            and clone_title.full_name == parent[0].full_name
-                            and clone_priority >= priority_range[0]):
-                                disc_title.cloneof = ''
-                                disc_title.cloneof_group = ''
-                        elif  (
-                            clone_title.full_name == disc_title.full_name
+                            clone_title.primary_region == parent[0].primary_region
+                            and clone_priority == parent[1]
                             and clone_title.full_name != parent[0].full_name
-                            and clone_priority >= priority_range[0]):
-                                disc_title.cloneof = parent[0].full_name
-                                disc_title.cloneof_group = parent[0].group
+                            and clone_title.short_name == parent[0].short_name
+                            ):
+                            if (
+                                'Dreamcast' in input_dat.name
+                                or 'Saturn' in input_dat.name
+                                or 'Sega CD' in input_dat.name
+                                or 'Panasonic - 3DO' in input_dat.name):
+                                ring_code = True
+                            else:
+                                ring_code = False
 
-                if found_parent == True: break
+                            parents = [clone_title, parent[0]]
+                            parents = choose_parent(parents, region_data, user_input, REGEX, ring_code)
+
+                            for new_parent in parents:
+                                if new_parent.cloneof == '':
+                                    found_parent = True
+                                    parent = (new_parent, parent[1])
+                                    break
+                            if found_parent == True: break
+
+                    # Parent/clone assignment
+                    for clone in clones:
+                        clone_title, clone_priority = clone[0], clone[1]
+
+                        for disc_title in titles.all[clone_title.group]:
+                            if (
+                                clone_title.full_name == disc_title.full_name
+                                and clone_title.full_name == parent[0].full_name
+                                and clone_priority >= priority_range[0]):
+                                    disc_title.cloneof = ''
+                                    disc_title.cloneof_group = ''
+                            elif  (
+                                clone_title.full_name == disc_title.full_name
+                                and clone_title.full_name != parent[0].full_name
+                                and clone_priority >= priority_range[0]):
+                                    disc_title.cloneof = parent[0].full_name
+                                    disc_title.cloneof_group = parent[0].group
+
+                    # Prioritize production versions in other regions if current parent is preproduction
+                    preproduction_is_parent = False
+                    non_preproduction_clones = False
+                    preproduction_swap = ''
+
+                    for clone in clones:
+                        if clone[0].cloneof == '':
+                            if bool(re.search(REGEX.preproduction_long, clone[0].full_name)) == True:
+                                preproduction_is_parent = True
+                        else:
+                            if bool(re.search(REGEX.preproduction_long, clone[0].full_name)) == False:
+                                non_preproduction_clones = True
+
+                    if preproduction_is_parent == True and non_preproduction_clones == True:
+                        found_parent = False
+
+                        for clone in clones:
+                            if clone[0].cloneof == '':
+                                if bool(re.search(REGEX.preproduction_long, clone[0].full_name)) == True:
+                                    clone[0].cloneof = 'Retool_Replace'
+
+                        for clone in clones:
+                            for region in user_input.user_region_order:
+                                if (
+                                    region in clone[0].regions
+                                    and bool(re.search(REGEX.preproduction_long, clone[0].full_name)) == False):
+                                        clone[0].cloneof = ''
+                                        clone[0].cloneof_group = ''
+                                        found_parent == True
+                                        preproduction_swap = clone[0]
+                                        break
+                            if found_parent == True: break
+
+                        for clone in clones:
+                            if clone[0].cloneof == 'Retool_Replace':
+                                clone[0].cloneof = preproduction_swap.full_name
+                                clone[0].cloneof_group = preproduction_swap.group
+
+                    if found_parent == True: break
     return titles

@@ -8,8 +8,8 @@
    PUBLIC "-//Logiqx//DTD ROM Management Datafile//EN"
    SYSTEM "http://www.logiqx.com/Dats/datafile.dtd"
 
-   $Revision: 1.6 $
-   $Date: 2019/12/29 13:57:12 $
+   $Revision: 1.7 $
+   $Date: 2020/07/26 13:57:12 $
 
 -->
 
@@ -40,7 +40,7 @@
 			<!ATTLIST romcenter lockrommode (yes|no) "no">
 			<!ATTLIST romcenter lockbiosmode (yes|no) "no">
 			<!ATTLIST romcenter locksamplemode (yes|no) "no">
-	<!ELEMENT game (category*, comment*, description, year?, manufacturer?, release*, biosset*, rom*, disk*, sample*, archive*)>
+	<!ELEMENT game (category*, comment*, description, year?, manufacturer?, release*, biosset*, game_id*, rom*, disk*, sample*, archive*)>
 		<!ATTLIST game name CDATA #REQUIRED>
 		<!ATTLIST game sourcefile CDATA #IMPLIED>
 		<!ATTLIST game isbios (yes|no) "no">
@@ -61,6 +61,7 @@
 			<!ATTLIST biosset name CDATA #REQUIRED>
 			<!ATTLIST biosset description CDATA #REQUIRED>
 			<!ATTLIST biosset default (yes|no) "no">
+		<!ELEMENT game_id (#PCDATA)>
 		<!ELEMENT rom EMPTY>
 			<!ATTLIST rom name CDATA #REQUIRED>
 			<!ATTLIST rom size CDATA #REQUIRED>
@@ -70,6 +71,7 @@
 			<!ATTLIST rom merge CDATA #IMPLIED>
 			<!ATTLIST rom status (baddump|nodump|good|verified) "good">
 			<!ATTLIST rom date CDATA #IMPLIED>
+			<!ATTLIST rom serial CDATA #IMPLIED>
 		<!ELEMENT disk EMPTY>
 			<!ATTLIST disk name CDATA #REQUIRED>
 			<!ATTLIST disk sha1 CDATA #IMPLIED>

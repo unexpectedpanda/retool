@@ -1,7 +1,8 @@
 # Retool
 
 Retool is a command line tool that creates 1G1R versions of
-[Redump](http://redump.org/) dats. This is not an official Redump project.
+[Redump](http://redump.org/) and
+[No-Intro](https://www.no-intro.org/) dats.
 
 ## Installation
 
@@ -69,19 +70,22 @@ languages -- you must also set a region order.
 
 * `-o <output folder>` Set an output folder
 * `-x` Export dat in legacy parent/clone format
-  (for use with Clonerel, [not dat managers](https://github.com/unexpectedpanda/retool/wiki/Usage-and-options#export-in-legacy-parentclone-dat-form))
+  (for use with Clonerel, [not dat managers](/unexpectedpanda/retool/wiki/Usage-and-options#export-in-legacy-parentclone-dat-form))
 * `-v` Verbose mode: report clone list errors
 * `-l` Filter languages using a list (see `user-config.yaml`)
-* `-g` Enable most filters (-a -b -c -d -e -m -p -s)
+* `-g` Enable most filters (-a -b -c -d -e -f -m -p -r -s)
 * `-s` Enable supersets: special editions, game of the year
   editions, and collections replace standard editions
 * `-a` Exclude applications
-* `-b` Exclude coverdiscs
+* `-b` Exclude bad dumps
 * `-c` Exclude compilations with no unique titles
-* `-d` Exclude demos
+* `-d` Exclude demos and samples
 * `-e` Exclude educational titles
+* `-f` Exclude coverdiscs
 * `-m` Exclude multimedia titles
+* `-n` Exclude pirate titles
 * `-p` Exclude preproduction titles (alphas, betas, prototypes)
+* `-r` Exclude promotional titles
 * `-u` Exclude unlicensed titles
 
 You can learn more about

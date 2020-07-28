@@ -1,4 +1,5 @@
 import datetime
+import functools
 import html
 import json
 import os
@@ -13,8 +14,12 @@ from modules.titleutils import choose_parent, get_raw_title
 from modules.utils import Font, printverbose, printwrap
 
 
-def convert_clrmame_dat(clrmame_header, input_dat, is_folder):
+def convert_clrmame_dat(input_dat, is_folder):
     """ Converts CLRMAMEPro dat format to LogiqX dat format """
+
+    input_dat.contents = ''.join(input_dat.contents)
+
+    clrmame_header = re.search('^clrmamepro \($.*?^\)$', input_dat.contents, re.M|re.S)
 
     def header_details(find_string, replace_string):
         """ Gets values for CLRMAMEPro dat header details """
@@ -48,7 +53,7 @@ def convert_clrmame_dat(clrmame_header, input_dat, is_folder):
     convert_dat.append(f'\t\t<author>{dat_author}</author>\n\t</header>')
 
     # Now work through each of the title details
-    dat_contents = re.findall('^game \($.*?^\)$', input_dat, re.M|re.S)
+    dat_contents = re.findall('^game \($.*?^\)$', input_dat.contents, re.M|re.S)
     if dat_contents:
         for item in dat_contents:
             xml_node = re.split('\n', item)
@@ -126,47 +131,45 @@ def dat_to_dict(region, region_data, input_dat, user_input, compilations_found, 
         def exclude_categories(category, regexes=[]):
             if hasattr(user_input, 'no_' + category.lower()):
                 if getattr(user_input, 'no_' + category.lower()) == True:
-                    if node.category.contents[0] == category:
-                        return True
+                    if node.category is not None:
+                        if node.category.contents[0] == category:
+                            return True
                     if regexes != []:
                         for regex in regexes:
-                            if re.search(regex, node.category.parent['name']) != None:
+                            if re.search(regex, node.description.parent['name']) != None:
                                 return True
 
-        if exclude_categories('Applications') == True: continue
-        if exclude_categories('Demos', [
-            re.compile('\(Demo( [1-9])*\)'),
-            re.compile('\(Demo-CD\)'),
-            re.compile('\(.*?Taikenban.*?\)'),
-            re.compile('\(@barai\)'),
-            re.compile('\(Sample\)'),
-            re.compile('Trial Edition')]) == True: continue
+        if exclude_categories('Applications', REGEX.programs) == True: continue
+        if exclude_categories('Demos', REGEX.demos) == True: continue
         if exclude_categories('Coverdiscs') == True: continue
         if exclude_categories('Educational') == True: continue
         if exclude_categories('Multimedia') == True: continue
-        if exclude_categories('Preproduction', [
-            re.compile('\(Alpha( [1-9])*\)'),
-            re.compile('\(Beta( [1-9])*\)'),
-            re.compile('\(Prototype\)'),
-            ]) == True: continue
-        if exclude_categories('Unlicensed', [
-            re.compile('\(Unl\)')
-        ]) == True: continue
+        if exclude_categories('Preproduction', REGEX.preproduction) == True: continue
+        if exclude_categories('Promotional', REGEX.promotional) == True: continue
+        if exclude_categories('Unlicensed', REGEX.unlicensed) == True: continue
+        if exclude_categories('Bad_dumps', [REGEX.bad]) == True: continue
+        if exclude_categories('Pirate', [REGEX.pirate]) == True: continue
 
         if input_dat.clone_lists != None:
             if user_input.no_compilations == True:
                 compilation_check = False
 
                 for compilation in input_dat.clone_lists.compilations:
-                    if compilation == node.category.parent['name']:
+                    if compilation == node.description.parent['name']:
                         compilation_check = True
                         compilations_found.update([compilation])
 
                 if compilation_check == True:
                     continue
 
+        # Drop xml nodes that don't have roms or disks specified
+        if (
+            node.rom == None
+            and node.disk == None):
+            continue
+
         # Get the group name for the current node, then add it to the groups list
-        group_name = get_raw_title(node.category.parent['name'])
+        group_name = get_raw_title(node.description.parent['name'])
 
         if group_name not in groups:
             groups[group_name] = []
@@ -199,7 +202,7 @@ def dat_to_dict(region, region_data, input_dat, user_input, compilations_found, 
     if input_dat.clone_lists != None:
         if input_dat.clone_lists.overrides != None:
             for key, value in input_dat.clone_lists.overrides.items():
-                if region in key:
+                if re.search('\((.*?,){0,} {0,}' + region + '(,.*?){0,}\)', key) != None:
                     try:
                         titles_temp = groups[get_raw_title(key)].copy()
 
@@ -232,7 +235,7 @@ def dat_to_dict(region, region_data, input_dat, user_input, compilations_found, 
         # same name but different content means a conditional override is required.
         if input_dat.clone_lists.conditional_overrides != None:
             for key, value in input_dat.clone_lists.conditional_overrides.items():
-                if region in key:
+                if re.search('\((.*?,){0,} {0,}' + region + '(,.*?){0,}\)', key) != None:
                     region_one = []
                     region_two = []
 
@@ -300,7 +303,8 @@ def dat_to_dict(region, region_data, input_dat, user_input, compilations_found, 
     # Identify the parents for the region
     for group, titles in groups.items():
         if (
-            'Saturn' in input_dat.name
+            'Dreamcast' in input_dat.name
+            or 'Saturn' in input_dat.name
             or 'Sega CD' in input_dat.name
             or 'Panasonic - 3DO' in input_dat.name):
             ring_code = True
@@ -338,7 +342,8 @@ def process_input_dat(dat_file, is_folder):
     try:
         with open(dat_file, 'r') as input_file:
             print('* Validating dat file... ', sep=' ', end='', flush=True)
-            input_dat = input_file.read()
+            input_dat = Dat()
+            input_dat.contents = input_file.readlines()
     except OSError as e:
         printwrap(
             f'{Font.error_bold}* Error: {Font.error}{str(e)}.{Font.end}{next_status}',
@@ -346,35 +351,44 @@ def process_input_dat(dat_file, is_folder):
         if is_folder == False:
             raise
         else:
-            return
+            return 'end_batch'
 
     # Check the dat file format -- if it's CLRMAMEPro format, convert it to LogiqX
-    clrmame_header = re.search('^clrmamepro \($.*?^\)$', input_dat, re.M|re.S)
-
-    if clrmame_header:
+    if 'clrmamepro' in input_dat.contents[0]:
         print('file is a CLRMAMEPro dat file.')
-        input_dat = convert_clrmame_dat(clrmame_header, input_dat, is_folder)
+        input_dat = convert_clrmame_dat(input_dat, is_folder)
 
         # Go to the next file in a batch operation if something went wrong.
         if input_dat == 'end_batch': return
     else:
-        input_dat = Dat(input_dat)
-
         # Exit if there are entity or element tags to avoid abuse
-        if '<!ENTITY' in input_dat.contents or '<!ELEMENT' in input_dat.contents:
-            print('failed.')
-            printwrap(
-                f'{Font.error_bold} Error: {Font.error}Entity and element tags '
-                f'aren\'t supported in dat files.{Font.end}{next_status}', 'error')
-            sys.exit()
+        abuse_tags = ['<!ENTITY', '<!ELEMENT']
+        for abuse_tag in abuse_tags:
+            if bool(list(filter(lambda x: abuse_tag in x, input_dat.contents))) == True:
+                print('failed.')
+                printwrap(
+                    f'{Font.error_bold} Error: {Font.error}Entity and element tags '
+                    f'aren\'t supported in dat files.{Font.end}{next_status}', 'error')
+                sys.exit()
 
         # Check for a valid Redump XML dat that follows the Logiqx dtd
-        valid_dat_file = False
+        validation_tags = ['<datafile>', '<?xml', '<game', '<header', '<!DOCTYPE']
 
-        if ('<datafile>' in input_dat.contents and '<?xml' in input_dat.contents and '<game' in input_dat.contents):
-            # Remove unexpected XML declarations from the file so we can check validity
+        for i, validation_tag in enumerate(validation_tags):
+            validation_tags[i] = bool(list(filter(lambda x: validation_tag in x, input_dat.contents)))
+            continue
+
+        if functools.reduce(lambda a,b: a + b, validation_tags) == len(validation_tags):
             try:
-                input_dat.contents = input_dat.contents.replace(re.search('<\?xml.*?>', input_dat.contents)[0], '<?xml version="1.0"?>')
+                for i, line in enumerate(input_dat.contents):
+                    # Remove unexpected XML declarations from the file to avoid DTD check failures
+                    if bool(re.search('<\?xml.*?>', line)) == True:
+                        input_dat.contents[i] = input_dat.contents[i].replace(re.search('<\?xml.*?>', input_dat.contents[0])[0], '<?xml version="1.0"?>')
+                    # Remove CLRMAMEPro and Romcenter declarations to avoid DTD check failures
+                    if bool(re.search('.*?<(clrmamepro|romcenter).*?>', line)) == True:
+                        input_dat.contents[i] = ''
+                    if bool(re.search('.*?</header>', line)) == True:
+                        break
             except:
                 print('failed.')
                 printwrap(
@@ -384,7 +398,10 @@ def process_input_dat(dat_file, is_folder):
                 if is_folder == False:
                     sys.exit()
                 else:
-                    return
+                    return 'end_batch'
+
+            input_dat.contents = ''.join(input_dat.contents)
+
             try:
                 with open('datafile.dtd') as dtdfile:
                     dtd = etree.DTD(dtdfile)
@@ -394,14 +411,14 @@ def process_input_dat(dat_file, is_folder):
                         if dtd.validate(root) == False:
                             print('failed.')
                             printwrap(
-                                f'{Font.error_bold}* Error: {Font.error}XML file'
+                                f'{Font.error_bold}* Error: {Font.error}XML file '
                                 f'doesn\'t conform to Logiqx dtd. '
                                 f'{dtd.error_log.last_error}.'
                                 f'{next_status}{Font.end}', 'error')
                             if is_folder == False:
                                 sys.exit()
                             else:
-                                return
+                                return 'end_batch'
                     except etree.XMLSyntaxError as e:
                         print('failed.')
                         printwrap(
@@ -410,7 +427,7 @@ def process_input_dat(dat_file, is_folder):
                         if is_folder == False:
                             sys.exit()
                         else:
-                            return
+                            return 'end_batch'
                     else:
                         print('file is a Logiqx dat file.')
 
@@ -420,7 +437,7 @@ def process_input_dat(dat_file, is_folder):
                 if is_folder == False:
                     raise
                 else:
-                    return
+                    return 'end_batch'
         else:
             print('failed.')
             printwrap(
@@ -429,7 +446,7 @@ def process_input_dat(dat_file, is_folder):
             if is_folder == False:
                 sys.exit()
             else:
-                return
+                return 'end_batch'
 
     # Convert contents to BeautifulSoup object, remove original contents attribute
     print('* Converting dat file to a searchable format... ', sep=' ', end='', flush=True)
@@ -486,6 +503,30 @@ def header(input_dat, new_title_count, user_input):
     else:
         input_dat.author = 'Unknown &amp; Retool'
 
+    # Add rom headers if required
+    rom_header = ''
+
+    if 'Atari - 7800' in input_dat.name:
+        rom_header = (
+            f'\n\t\t<clrmamepro header="No-Intro_A7800.xml"/>'
+            f'\n\t\t<romcenter plugin="a7800.dll"/>'
+        )
+    if 'Atari - Lynx' in input_dat.name:
+        rom_header = (
+            f'\n\t\t<clrmamepro header="No-Intro_LNX.xml"/>'
+            f'\n\t\t<romcenter plugin="lynx.dll"/>'
+            )
+    if 'Nintendo - Family Computer Disk System' in input_dat.name:
+        rom_header = (
+            f'\n\t\t<clrmamepro header="No-Intro_FDS.xml"/>'
+            f'\n\t\t<romcenter plugin="fds.dll"/>'
+            )
+    if 'Nintendo - Nintendo Entertainment System' in input_dat.name:
+        rom_header = (
+            f'\n\t\t<clrmamepro header="No-Intro_NES.xml"/>'
+            f'\n\t\t<romcenter plugin="nes.dll"/>'
+            )
+
     header = [
         '<?xml version="1.0"?>',
         '\n<!DOCTYPE datafile PUBLIC "-//Logiqx//DTD ROM Management Datafile//EN" '
@@ -497,7 +538,8 @@ def header(input_dat, new_title_count, user_input):
         f'\n\t\t<version>{html.escape(input_dat.version, quote=False)}</version>',
         f'\n\t\t<date>{datetime.datetime.now().strftime("%Y-%m-%d %H-%M-%S")}</date>',
         f'\n\t\t<author>{input_dat.author}</author>',
-        '\n\t\t<homepage>redump.org</homepage>',
+        '\n\t\t<homepage>http://www.github.com/unexpectedpanda/retool</homepage>',
         f'\n\t\t<url>{html.escape(input_dat.url, quote=False)}</url>',
+        rom_header,
         '\n\t</header>\n']
     return header

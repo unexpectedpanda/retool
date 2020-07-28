@@ -1,6 +1,7 @@
 import datetime
 import html
 import os
+import re
 import sys
 
 from modules.classes import Stats
@@ -38,7 +39,7 @@ def generate_config(region_data):
                     f'{Font.warning}* The {Font.warning_bold}user-config.yaml '
                     f'{Font.warning}file was missing, so a new one has been generated. '
                     'You might want to edit it to define a custom region order, or to '
-                    f'filter specific languages. You can now run Retool'
+                    f'filter specific languages. You can now run Retool '
                     f'normally.{Font.end}', 'error')
                 sys.exit()
 
@@ -47,7 +48,7 @@ def generate_config(region_data):
             raise
 
 
-def write_dat_file(input_dat, user_input, output_file_name, stats, titles):
+def write_dat_file(input_dat, user_input, output_file_name, stats, titles, REGEX):
     """ Output the final dat file """
 
     dat_header = header(input_dat, stats.final_title_count, user_input)
@@ -83,12 +84,35 @@ def write_dat_file(input_dat, user_input, output_file_name, stats, titles):
                     rom_xml = []
 
                     for rom in title.roms:
+                        if rom.md5 == '':
+                            md5_string = ''
+                        else:
+                            md5_string = f'md5="{rom.md5}" '
+
+                        if rom.sha1 == '':
+                            sha1_string = ''
+                        else:
+                            sha1_string = f'sha1="{rom.sha1}" '
                         rom_xml.append(
-                            f'\n\t\t<rom crc="{rom.crc}" md5="{rom.md5}" '
-                            f'name="{html.escape(rom.name, quote=False)}" sha1="{rom.sha1}" '
+                            f'\n\t\t<rom crc="{rom.crc}" {md5_string}'
+                            f'name="{html.escape(rom.name, quote=False)}" {sha1_string}'
                             f'size="{rom.size}"/>')
 
                     rom_xml = ''.join(rom_xml)
+
+                    # Reverse engineer category for No-Intro
+                    if title.category == '':
+                        for program in REGEX.programs:
+                            if re.search(program, title.full_name) != None:
+                                title.category = "Applications"
+                        for demo in REGEX.demos:
+                            if re.search(demo, title.full_name) != None:
+                                title.category = "Demos"
+                        for preproduction in REGEX.preproduction:
+                            if re.search(preproduction, title.full_name) != None:
+                                title.category = "Preproduction"
+                    if title.category == '':
+                        title.category = "Games"
 
                     if game_xml != '':
                         output_file.writelines(
