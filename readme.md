@@ -84,16 +84,12 @@ and how it works on the [wiki](https://github.com/unexpectedpanda/retool/wiki/).
 
 While Retool is smart enough to automatically match certain types of parents and
 clones, there are certain situations that require manual assignment. To achieve
-this, Retool keeps clone lists.
+this, Retool keeps
+[clone lists](https://github.com/unexpectedpanda/retool/wiki/Clone-lists).
 
 Clone lists are updated independently of the program, and are formatted as JSON
-files. You can either download them manually from the
-[clonelists folder](https://github.com/unexpectedpanda/retool/tree/master/clonelists),
-pull everything into your local repo, or download the clonelists + config ZIP file
-from the
-[dist](https://github.com/unexpectedpanda/retool/tree/master/dist) folder. The
-JSON files must be uncompressed, and stored in a folder called `clonelists` in the
-same folder as Retool for them to be recognized.
+files. They are stored in a subfolder called `clonelists`, which is in the same
+folder as Retool.
 
 <hr>
 
