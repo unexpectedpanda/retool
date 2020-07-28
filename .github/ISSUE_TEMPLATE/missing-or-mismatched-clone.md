@@ -7,10 +7,7 @@ assignees: ''
 
 ---
 
-## Redump or No-Intro?
-
-
-## System
+## Dat file name
 
 
 ## Parent full name
