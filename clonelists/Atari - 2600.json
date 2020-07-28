@@ -1,0 +1,66 @@
+{
+    "description": {
+        "name": [
+			"Atari - 2600"
+		],
+        "last updated": "22 July 2020"
+    },
+
+    "renames": {
+        "G.I. Joe - Cobra Strike": [
+            ["Action Man - Action Force", 1]
+        ],
+        "Air-Sea Battle ~ Target Fun": [
+            ["Air-Sea Battle", 1]
+        ],
+        "Aliens Return": [
+            ["Col 'N'", 2]
+        ],
+        "Alpha Beam with Ernie": [
+            ["Alpha Beam", 2]
+        ],
+        "Assault": [
+            ["Sky Alien ~ Assault", 1]
+        ],
+        "Boxing": [
+            ["Boxen", 1]
+        ],
+        "Breakout ~ Breakaway IV": [
+            ["Breakout", 1]
+        ],
+        "Casino ~ Poker Plus": [
+            ["Casino", 1]
+        ],
+        "Championship Soccer ~ Soccer": [
+            ["Championship Soccer", 1]
+        ],
+        "Combat ~ Tank-Plus": [
+            ["Combat", 1]
+        ],
+        "Dodge 'Em ~ Dodger Cars": [
+            ["Dodge 'Em", 1]
+        ],
+        "Frisco": [
+            ["Peter Penguin", 1]
+        ],
+        "Challenge": [
+            ["Mein Weg", 1]
+        ],
+        "Open Sesame": [
+            ["Abre-te, Sesamo!", 1],
+            ["Apples and Dolls", 1]
+        ],
+        "Outlaw ~ Gunslinger": [
+            ["Outlaw", 1]
+        ],
+        "Racing Car": [
+            ["Hell Driver", 1]
+        ],
+        "Rubik's Cube": [
+            ["Atari Video Cube", 2]
+        ],
+        "Save our Ship": [
+            ["Save Our Ship", 1]
+        ]
+    }
+}

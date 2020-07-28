@@ -1,0 +1,14 @@
+{
+    "description": {
+        "name": [
+			"Atari - 7800"
+		],
+        "last updated": "5 July 2020"
+    },
+
+    "renames": {
+        "Pete Rose Baseball": [
+            ["Baseball", 1]
+        ]
+    }
+}

@@ -3,7 +3,7 @@
 		"name": [
 			"IBM - PC compatible"
 		],
-		"last updated": "27 June 2020"
+		"last updated": "28 July 2020"
 	},
 
 	"compilations": [
@@ -25,11 +25,13 @@
 		"Dragon's Lair & Crusade (Germany)",
 		"Fistfight & Ultimate Body Blows (USA)",
 		"GameTek 3 in 1 Compilation - Road Warrior + Brutal + Humans 3 (Europe)",
+		"Guild Wars - Platinum Edition (Europe)",
 		"Hallo! 2 (Germany) (Disc 6)",
 		"Hallo! 2 (Germany) (Disc 8)",
 		"Hallo! 2 (Germany) (Disc 9)",
 		"Jewel Quest & Jewel Quest II (USA)",
 		"Komputer Swiat Gry 10-2003 (Poland)",
+		"Maniac Mansion - Day of the Tentacle + Sam &amp; Max Hit the Road",
 		"Oregon Trail II + Logic Quest (USA)",
 		"PC PowerPlay 177 (Australia) (Side B)",
 		"Panzer General & Hind (Germany)",
@@ -110,15 +112,16 @@
 			["Age of Empires - Collector's Edition", -1],
 			["Age of Empires II - The Conquerors Expansion", 2]
 		],
-		"Age of Empires III (Disc 1)": [
+		"Age of Empires III (Disc 1) (Install Disc)": [
 			["Age of Empires III (Disc 1) (Disc di Installazione)", 1],
-			["Age of Empires III (Disc 1) (Installations-CD)", 1]
+			["Age of Empires III (Disc 1) (Installations-CD)", 1],
+			["Age of Empires III (Disc 1) (Install Disc) (Collector's Edition)", 2]
 		],
-		"Age of Empires III (Disc 2)": [
+		"Age of Empires III (Disc 2) (Game Disc)": [
 			["Age of Empires III (Disc 2) (Disc del Gioco)", 1],
 			["Age of Empires III (Disc 2) (Spiel-CD)", 1]
 		],
-		"Age of Empires III (Disc 3)": [
+		"Age of Empires III (Disc 3) (Game Disc)": [
 			["Age of Empires III (Disc 3) (Disc del Gioco)", 1],
 			["Age of Empires III (Disc 3) (Spiel-CD)", 1]
 		],
@@ -208,15 +211,15 @@
 		"American Conquest": [
 			["American Conquest Anthology", -1]
 		],
-		"American Conquest - Divided Nation (Disc 1) (Installation)": [
+		"American Conquest - Divided Nation (Disc 1) (Installation Disc)": [
 			["American Conquest Anthology", -1],
 			["American Conquest - Divided Nation", 0],
-			["American Conquest - Divided Nation (Disc 1) (Installation Disc)", 1]
+			["American Conquest - Divided Nation (Disc 1) (Installation)", 2]
 		],
-		"American Conquest - Divided Nation (Disc 2) (Game)": [
+		"American Conquest - Divided Nation (Disc 2) (Game Disc)": [
 			["American Conquest Anthology", -1],
 			["American Conquest - Divided Nation", 0],
-			["American Conquest - Divided Nation (Disc 2) (Play Disc)", 1]
+			["American Conquest - Divided Nation (Disc 2) (Game)", 1]
 		],
 		"American Conquest - Fight Back": [
 			["American Conquest Anthology", -1]
@@ -274,11 +277,13 @@
 		"Anno 1503 (Disc 1)": [
 			["Anno 1503 - Koenigs-Edition", -1],
 			["Anno 1503", 0],
+			["Anno 1503 - Il Nuovo Mondo", 0],
 			["Anno 1503 (Disc 1) (Installations-CD)", 2]
 		],
 		"Anno 1503 (Disc 2)": [
 			["Anno 1503 - Koenigs-Edition", -1],
-			["Anno 1503", 0]
+			["Anno 1503", 0],
+			["Anno 1503 - Il Nuovo Mondo", 0]
 		],
 		"Anno 1503 - Schaetze, Monster & Piraten": [
 			["Anno 1503 - Koenigs-Edition", -1]
@@ -299,10 +304,12 @@
 			["Bravo ScreenFun 12-2003", 2]
 		],
 		"Arcanum - Of Steamworks & Magick Obscura (Disc 1)": [
-			["Arcanum (Disc 1) (Install Disk)", 1]
+			["Arcanum (Disc 1) (Install Disk)", 1],
+			["Arcanum - Of Steamworks & Magick Obscura (Install Disk)", 1]
 		],
 		"Arcanum - Of Steamworks & Magick Obscura (Disc 2)": [
-			["Arcanum (Disc 2) (Play Disk)", 1]
+			["Arcanum (Disc 2) (Play Disk)", 1],
+			["Arcanum - Of Steamworks & Magick Obscura (Play Disk)", 1]
 		],
 		"Archimedean Dynasty, The": [
 			["Schleichfahrt", 1]
@@ -370,6 +377,18 @@
 		"Asteroids": [
 			["Asteroids - Der Durchbruch ins neue Jahrtausend!", 1]
 		],
+		"Atlantis Evolution (Disc 1)": [
+			["Atlantis Evolution", 0]
+		],
+		"Atlantis Evolution (Disc 2)": [
+			["Atlantis Evolution", 0]
+		],
+		"Atlantis Evolution (Disc 3)": [
+			["Atlantis Evolution", 0]
+		],
+		"Atlantis Evolution (Disc 4)": [
+			["Atlantis Evolution", 0]
+		],
 		"Atlantis II (Disc 1)": [
 			["Atlantis II", 0]
 		],
@@ -384,14 +403,17 @@
 		],
 		"Atlantis III - The New World (Disc 1)": [
 			["Atlantis III - Die neue Welt", 0],
+			["Atlantis III - Il Nuovo Mondo (Disc 1)", 1],
 			["Atlantis III - Le Nouveau Monde (Disc 1)", 1]
 		],
 		"Atlantis III - The New World (Disc 2)": [
 			["Atlantis III - Die neue Welt", 0],
+			["Atlantis III - Il Nuovo Mondo (Disc 2)", 1],
 			["Atlantis III - Le Nouveau Monde (Disc 2)", 1]
 		],
 		"Atlantis III - The New World (Disc 3)": [
 			["Atlantis III - Die neue Welt", 0],
+			["Atlantis III - Il Nuovo Mondo (Disc 3)", 1],
 			["Atlantis III - Le Nouveau Monde (Disc 3)", 1]
 		],
 		"Avalon Hill's Squad Leader": [
@@ -459,19 +481,23 @@
 			["Baldur's Gate - Kakuchou Scenario-shuu - Tales of the Sword Coast", 1]
 		],
 		"Baldur's Gate II - Shadows of Amn (Disc 1)": [
+			["Baldur's Gate II - Shadows of Amn", 0],
 			["Saga Baldur's Gate", -1],
 			["Baldur's Gate II - Schatten von Amn (Disc 1)", 1]
 		],
 		"Baldur's Gate II - Shadows of Amn (Disc 2)": [
 			["Saga Baldur's Gate", -1],
+			["Baldur's Gate II - Shadows of Amn", 0],
 			["Baldur's Gate II - Schatten von Amn (Disc 2)", 1]
 		],
 		"Baldur's Gate II - Shadows of Amn (Disc 3)": [
 			["Saga Baldur's Gate", -1],
+			["Baldur's Gate II - Shadows of Amn", 0],
 			["Baldur's Gate II - Schatten von Amn (Disc 3)", 1]
 		],
 		"Baldur's Gate II - Shadows of Amn (Disc 4)": [
 			["Saga Baldur's Gate", -1],
+			["Baldur's Gate II - Shadows of Amn", 0],
 			["Baldur's Gate II - Schatten von Amn (Disc 4)", 1]
 		],
 		"Baldur's Gate II - Throne of Bhaal": [
@@ -483,10 +509,6 @@
 		],
 		"Bananas in Pajamas - It's Fun Time": [
 			["Bananer i Pyjamas - It's Fun Time", 1]
-		],
-		"Baphomets Fluch - Der Engel des Todes": [
-			["Revolution - 25th Anniversary Collection (Disc 1) (Revolution Games 1992 - 2010)", -1],
-			["Broken Sword Complete", -1]
 		],
 		"Baphomets Fluch Trilogie": [
 			["Revolution - 25th Anniversary Collection (Disc 1) (Revolution Games 1992 - 2010)", -1],
@@ -1253,8 +1275,15 @@
 			["Business Tycoon", 1],
 			["Start-Up Manager, Der", 2]
 		],
-		"Corpse Party BloodCovered 4": [
-			["Corpse Party BloodCovered 4 (Another Jacket Version)", 2]
+		"Corpse Party - BloodCovered 1-2": [
+			["Corpse Party - BloodCovered 1-2-3", -1]
+		],
+		"Corpse Party - BloodCovered 3 (Consumer Release)": [
+			["Corpse Party - BloodCovered 1-2-3", -1],
+			["Corpse Party - BloodCovered 3 (Doujin Release, Alt)", 2]
+		],
+		"Corpse Party - BloodCovered 4": [
+			["Corpse Party - BloodCovered 4 (Another Jacket Version)", 2]
 		],
 		"Counter-Strike - Condition Zero (Disc 1)": [
 			["Counter-Strike - Condition Zero (Disc 1) (Install)", 1],
@@ -1305,7 +1334,11 @@
 			["Bravo ScreenFun 5-2004", 2]
 		],
 		"Curse of Monkey Island, The (Disc 1)": [
-			["Monkey Island Collection (Monkey Island 3 CD 1)", 1]
+			["Monkey Island Collection (Monkey Island 3 CD 1)", 1],
+			["Maldicao da Ilha dos Macacos, A (Disc 1)", 1]
+		],
+		"Curse of Monkey Island, The (Disc 2)": [
+			["Maldicao da Ilha dos Macacos, A (Disc 2)", 1]
 		],
 		"Cutthroats": [
 			["Unter schwarzer Flagge", 1]
@@ -1332,7 +1365,7 @@
 			["Signora Calibro 32, La (Disc 2)", 1]
 		],
 		"Dark Fall - The Journal": [
-			["Dark Fall - Il diario dei misteri", 1]
+			["Dark Fall - Il Diario dei Misteri", 1]
 		],
 		"Daryl F. Gates Police Quest - Open Season": [
 			["Daryl F. Gates' Police Quest Collection - The 4 Most Wanted (Collection Series)", -1],
@@ -1385,14 +1418,7 @@
 			["CyberMycha 12-2006 (Disc 2)", 1]
 		],
 		"Delta Force": [
-			["Delta Force Xtreme", -1]
-		],
-		"Delta Force Xtreme": [
-			["Delta Force Xtreme", -1],
-			["Delta Force - Xtreme", 1]
-		],
-		"Delta Force Xtreme 2": [
-			["Delta Force - Xtreme 2", 1]
+			["Delta Force - Xtreme", -1]
 		],
 		"Demigod (Disc 1) (Game Disc)": [
 			["Demigod", 1]
@@ -1805,6 +1831,9 @@
 		],
 		"Dungeon Siege - Legends of Aranna (Disc 1)": [
 			["Dungeon Siege - Legends of Aranna (Disc 1) (Installations-CD)", 1]
+		],
+		"Dungeon Siege II (Disc 1)": [
+			["Dungeon Siege II (Install Disc 1 & Play Disc)", 1]
 		],
 		"Earth 2150 - Escape from the Blue Planet (Disc 1) (Installation)": [
 			["Earth 2150 - Escape from the Blue Planet", 0],
@@ -2727,6 +2756,9 @@
 		"Hugo": [
 			["Hugo - Aeventyret Gar Vidare...", 1]
 		],
+		"Hulk (Install Disc)": [
+			["Hulk (Disc 1)", 1]
+		],
 		"Hype - The Time Quest": [
 			["Komputer Swiat Gry 05-2002", 1]
 		],
@@ -3113,18 +3145,30 @@
 		],
 		"Last Express, The (Disc 1)": [
 			["Last Express, The - Incubo di Prima Classe (Disc 1)", 1],
-			["Last Express, The (CD 1 of 3)", 2]
+			["Last Express, The (Disc 1 of 3)", 2]
 		],
 		"Last Express, The (Disc 2)": [
 			["Last Express, The - Incubo di Prima Classe (Disc 2)", 1],
-			["Last Express, The (CD 2 of 3)", 2]
+			["Last Express, The (Disc 2 of 3)", 2]
 		],
 		"Last Express, The (Disc 3)": [
 			["Last Express, The - Incubo di Prima Classe (Disc 3)", 1],
-			["Last Express, The (CD 3 of 3)", 2]
+			["Last Express, The (Disc 3 of 3)", 2]
 		],
 		"Legend of Kyrandia, The - Book Three": [
 			["Legend of Kyrandia, The - Book Three - Malcolm's Revenge", 1]
+		],
+		"Legend of the Prophet & the Assassin, The (Disc 1) (Part 1)": [
+			["Legend of the Prophet & the Assassin, The (Disc 1)", 1]
+		],
+		"Legend of the Prophet & the Assassin, The (Disc 2) (Part 1)": [
+			["Legend of the Prophet & the Assassin, The (Disc 2)", 1]
+		],
+		"Legend of the Prophet & the Assassin, The (Disc 1) (Part 2)": [
+			["Secrets d'Alamut, Les (Disc 1)", 1]
+		],
+		"Legend of the Prophet & the Assassin, The (Disc 2) (Part 2)": [
+			["Secrets d'Alamut, Les (Disc 2)", 1]
 		],
 		"LEGO Chess": [
 			["Ajedrez LEGO", 1],
@@ -3712,6 +3756,10 @@
 		"Myst V - End of Ages (Disc 3)": [
 			["Myst V - End of Ages", 0]
 		],
+		"Mystery of the Mummy, The": [
+			["Sherlock Holmes Trilogy", -1],
+			["Sherlock Holmes - The Mystery of the Mummy", 1]
+		],
 		"Myth - The Fallen Lords": [
 			["Myth - Kreuzzug ins Ungewisse", 1]
 		],
@@ -3825,6 +3873,9 @@
 		"Nickelodeon Avatar - The Last Airbender": [
 			["Nickelodeon Avatar - The Legend of Aang", 1]
 		],
+		"Nickelodeon Spongebob SquarePants - Battle for Bikini Bottom": [
+			["Nickelodeon SpongeBob Schwammkopf - Schlacht um Bikini Bottom", 1]
+		],
 		"No One Lives Forever 2 - A Spy in H.A.R.M.'s Way (Disc 1)": [
 			["No One Lives Forever 2 - Agentin in geheimer Mission (Disc 1)", 1]
 		],
@@ -3844,14 +3895,14 @@
 			["Nox (Disc 2) (Companion Disc)", 1]
 		],
 		"Oddworld - Abe's Exoddus (Install)": [
-			["Oddworld - Abe's Exoddus (CD Installieren)", 1],
+			["Oddworld - Abe's Exoddus (Disc Installieren)", 1],
 			["Oddworld - Abe's Exoddus (Disc 1)", 1],
 			["Oddworld - Abe's Exoddus (Install Disc)", 1],
 			["Oddworld - Abe's Exoddus (Installatie Disk)", 1],
 			["Oddworld - Abe's Exoddus (Installazione)", 1]
 		],
 		"Oddworld - Abe's Exoddus (Play)": [
-			["Oddworld - Abe's Exoddus (CD Abspielen)", 1],
+			["Oddworld - Abe's Exoddus (Disc Abspielen)", 1],
 			["Oddworld - Abe's Exoddus (Disc 2)", 1],
 			["Oddworld - Abe's Exoddus (Gioco)", 1],
 			["Oddworld - Abe's Exoddus (Play Disc)", 1],
@@ -4202,6 +4253,9 @@
 		"Prey (Disc 3)": [
 			["Prey", 0]
 		],
+		"Prince of Persia (2008)": [
+			["Prince of Persia", 1]
+		],
 		"Prince of Persia - The Sands of Time (Disc 1)": [
 			["Prince of Persia - The Sands of Time", 0]
 		],
@@ -4440,13 +4494,16 @@
 			["Red Orchestra - Ostfront 41-45", 0]
 		],
 		"Redjack - Revenge of the Brethren (Disc 1)": [
-			["Redjack - Die Rache der Bruderschaft (Disc 1)", 1]
+			["Redjack - Die Rache der Bruderschaft (Disc 1)", 1],
+			["Redjack - La Vendetta dei Brethren (Disc 1)", 1]
 		],
 		"Redjack - Revenge of the Brethren (Disc 2)": [
-			["Redjack - Die Rache der Bruderschaft (Disc 2)", 1]
+			["Redjack - Die Rache der Bruderschaft (Disc 2)", 1],
+			["Redjack - La Vendetta dei Brethren (Disc 2)", 1]
 		],
 		"Redjack - Revenge of the Brethren (Disc 3)": [
-			["Redjack - Die Rache der Bruderschaft (Disc 3)", 1]
+			["Redjack - Die Rache der Bruderschaft (Disc 3)", 1],
+			["Redjack - La Vendetta dei Brethren (Disc 3)", 1]
 		],
 		"Remember 11 - The Age of Infinity": [
 			["Remember11 - Wuxian Lunhui De Shiguang", 1]
@@ -4607,6 +4664,7 @@
 			["Laura Bow in the Dagger of Amon Ra", 1]
 		],
 		"Robin Hood - The Legend of Sherwood": [
+			["Robin Hood - Die Legende von Sherwood", 1],
 			["Robin Hood - Legenda Sherwood", 1]
 		],
 		"Rockman X8 (Disc 1)": [
@@ -4676,6 +4734,12 @@
 		],
 		"Runaway - The Dream of the Turtle": [
 			["Runaway 2 - The Dream of the Turtle", 1]
+		],
+		"Rune": [
+			["Rune Gold (Disc 1)", -1]
+		],
+		"Rune - Halls of Valhalla": [
+			["Rune Gold (Disc 2)", -1]
 		],
 		"S.T.A.L.K.E.R. - Call of Pripyat": [
 			["S.T.A.L.K.E.R.", 1]
@@ -4830,11 +4894,23 @@
 		"Serious Sam II (Disc 4) (Play)": [
 			["Serious Sam II", 0]
 		],
+		"Settlers 7, The - Paths to a Kingdom": [
+			["Siedler 7, Die", 1]
+		],
 		"Settlers, The": [
 			["Saga The Settlers I-IV (The Settlers I + II)", -1],
 			["Siedler, Die - Platin Editon I - II - III - IV (Disc 1)", -1],
 			["Bestseller Games Gold-Edition Ausgabe 6", 2],
 			["Siedler, Die", 1]
+		],
+		"Settlers, The - Heritage of Kings (Disc 1)": [
+			["The Settlers - Heritage of Kings - Gold Edition", -1]
+		],
+		"Settlers, The - Heritage of Kings (Disc 2)": [
+			["The Settlers - Heritage of Kings - Gold Edition", -1]
+		],
+		"Settlers, The - Heritage of Kings - Expansion Disc": [
+			["The Settlers - Heritage of Kings - Gold Edition", -1]
 		],
 		"Settlers II, The - Veni, Vidi, Vici": [
 			["Saga The Settlers I-IV (The Settlers I + II)", -1],
@@ -4948,6 +5024,9 @@
 			["Shade - L'Ira degli Angeli", 1],
 			["Shade - L'ira degli Angeli", 1]
 		],
+		"Shadow of Destiny": [
+			["Shadow of Memories", 1]
+		],
 		"Shadow Man": [
 			["Shadow Man - Rette deine Seele", 1],
 			["Bravo ScreenFun 12-2004 (Disc 1)", 2]
@@ -4973,7 +5052,13 @@
 			["Bestseller Games Collection Ausgabe 13", 1]
 		],
 		"Sherlock Holmes - The Awakened": [
-			["Sherlock Holmes - The Awakened - Remastered Edition", -1]
+			["Sherlock Holmes Trilogy", -1]
+		],
+		"Sherlock Holmes - The Secret of the Silver Earring": [
+			["Sherlock Holmes Trilogy", -1]
+		],
+		"Ship, The": [
+			["Ship, The - Moerder Ahoi", 1]
 		],
 		"Shogun - Total War (Disc 1)": [
 			["Shogun - Total War - Warlord Edition (Disc 1)", -1]
@@ -5418,6 +5503,12 @@
 		"Star Trek - Starfleet Command (Gold Edition)": [
 			["Star Trek - Starfleet Command - Gold Edition", 1]
 		 ],
+		 "Star Trek - Starship Creator": [
+			 ["Star Trek - Starship Creator Deluxe", -1]
+		 ],
+		 "Star Trek - Starship Creator (Add-On Pack)": [
+			["Star Trek - Starship Creator Deluxe", -1]
+		],
 		"Star Trek - The Next Generation - Klingon Honor Guard (Game Disc)": [
 			["Star Trek - The Next Generation - Klingon Honor Guard (Disc 1)", 1]
 		],
@@ -5480,6 +5571,7 @@
 		],
 		"Star Wars - Episode I - The Phantom Menace": [
 			["Star Wars - Episode I - Die dunkle Bedrohung", 1],
+			["Star Wars - Episode I - La Menace Fantome", 1],
 			["Star Wars - Episodio I - La Minaccia Fantasma", 1]
 		],
 		"Star Wars - Episode III - Revenge of the Sith - Activity Center (Disc 1)": [
@@ -5494,7 +5586,8 @@
 		],
 		"Star Wars - Galactic Battlegrounds (Disc 2) (Play)": [
 			["Star Wars - Galactic Battlegrounds (Disc 2) (Spiel)", 1],
-			["Star Wars - Galactic Battlegrounds (Disc 2) (Gioco)", 1]
+			["Star Wars - Galactic Battlegrounds (Disc 2) (Gioco)", 1],
+			["Star Wars - Galactic Battlegrounds (Disc 2) (Jeu)", 1]
 		],
 		"Star Wars - Galactic Battlegrounds - Clone Campaigns": [
 			["Star Wars - Galactic Battlegrounds - Die Klonkrieg-Kampagnen", 1]
@@ -5565,6 +5658,9 @@
 		],
 		"Star Wars - Yoda's Challenge": [
 			["Star Wars - La Sfida di Yoda", 1]
+		],
+		"StarCraft": [
+			["StarCraft (Disc 1)", 2]
 		],
 		"Starship Titanic (Disc 1)": [
 			["Raumschiff Titanic (Disc 1)", 1]
@@ -5703,9 +5799,11 @@
 			["Bravo ScreenFun 3-2004", 2]
 		],
 		"Temple of Elemental Evil, The (Install Disc)": [
+			["Tempio del Male Elementale, Il (Disc 1)", 1],
 			["Temple of Elemental Evil, The (Disc 1)", 1]
 		],
 		"Temple of Elemental Evil, The (Play Disc)": [
+			["Tempio del Male Elementale, Il (Disc 2)", 1],
 			["Temple of Elemental Evil, The (Disc 2)", 1]
 		],
 		"Terminator 3 - War of the Machines": [
@@ -6040,9 +6138,11 @@
 		],
 		"Tropico 2 - Pirate Cove (Disc 1) (Install Play)": [
 			["CyberMycha Extra 3-2006 (Disc 1)", 1],
+			["Tropico 2 - Il Covo dei Pirati (Disc 1)", 1],
 			["Tropico 2 - Pirate Cove (Disc 1)", 1]
 		],
 		"Tropico 2 - Pirate Cove (Disc 2) (Data)": [
+			["Tropico 2 - Il Covo dei Pirati (Disc 2)", 1],
 			["Tropico 2 - Pirate Cove (Disc 2)", 1]
 		],
 		"Tropico Gold (Disc 1) (Install & Play)": [
@@ -6132,9 +6232,6 @@
 		],
 		"Ultimate RPG Archives, The (Disc 5) (Wizardry Gold)": [
 			["Wizardry Gold", 2]
-		],
-		"Ultimate Soccer Manager 98-99 Season Edition": [
-			["DSF Fussball Manager '98", 1]
 		],
 		"Ultimate Spider-Man (Disc 1)": [
 			["Ultimate Spider-Man", 0]
@@ -6504,6 +6601,18 @@
 		],
 		"Witcher 2, The - Assassins of Kings (Disc 2)": [
 			["Wiedzmin 2 - Zabojcy Krolow (Disc 2)", 1]
+		],
+		"Witcher 3, The - Wild Hunt (Disc 1)": [
+			["Witcher 3, The - Wild Hunt - Game of the Year Edition (Disc 1)", -1]
+		],
+		"Witcher 3, The - Wild Hunt (Disc 2)": [
+			["Witcher 3, The - Wild Hunt - Game of the Year Edition (Disc 2)", -1]
+		],
+		"Witcher 3, The - Wild Hunt (Disc 3)": [
+			["Witcher 3, The - Wild Hunt - Game of the Year Edition (Disc 3)", -1]
+		],
+		"Witcher 3, The - Wild Hunt (Disc 4)": [
+			["Witcher 3, The - Wild Hunt - Game of the Year Edition (Disc 4)", -1]
 		],
 		"Woodruff and the Schnibble of Azimuth": [
 			["Woodruff - Sznible Profesora Azymuta", 1]

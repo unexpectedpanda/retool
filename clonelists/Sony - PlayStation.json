@@ -3,7 +3,7 @@
         "name": [
 			"Sony - PlayStation"
 		],
-        "last updated": "28 June 2020"
+        "last updated": "28 July 2020"
     },
 
     "overrides": {
@@ -129,11 +129,11 @@
 		"Action Man - Operation Extreme": [
 			["Action Man - Mission Xtreme", 1]
 		],
-		"Action Replay 2 (Disc 2) (Bonus PSone Codes!) (Unl)": [
-			["Action Replay 2 Version 2.23 (Disc 2) (Bonus PSone Codes!) (Unl)", 1],
-			["Action Replay 2 Code Archive Disk (Disc 2) (German Edition) (Unl)", 1],
-			["Action Replay 2 V2 (Disc 2) (Bonus PSone Codes) (Unl)", 2],
-			["Action Replay 2 (Disc 2) (Unl)", 1]
+		"Action Replay 2 (Disc 2) (Bonus PSone Codes!)": [
+			["Action Replay 2 Version 2.23 (Disc 2) (Bonus PSone Codes!)", 1],
+			["Action Replay 2 Code Archive Disk (Disc 2) (German Edition)", 1],
+			["Action Replay 2 V2 (Disc 2) (Bonus PSone Codes)", 2],
+			["Action Replay 2 (Disc 2)", 1]
 		],
 		"Aces of the Air": [
 			["Simple 1500 Series Vol. 95 - The Hikouki", 1]
@@ -210,6 +210,9 @@
 		],
 		"Aquanaut's Holiday": [
 			["Aquanaut no Kyuujitsu", 1]
+		],
+		"Aquanaut no Kyuujitsu - Memories of Summer 1996 (Artdink Best Choice)": [
+			["Aquanaut no Kyuujitsu - Memories of Summer 1996", 2]
 		],
 		"Arc the Lad Collection - Arc Arena - Monster Tournament": [
 			["Arc the Lad - Monster Game with Casino Game (Disc 1) (Monster Game)", 1]
@@ -517,9 +520,9 @@
 		"Clock Tower II - The Struggle Within": [
 			["Clock Tower - Ghost Head", 1]
 		],
-		"Code Breaker Version 3 (Unl)": [
-			["Code Breaker (Unl)", 1],
-			["Code Breaker Version 2 (Unl)", 1]
+		"Code Breaker Version 3": [
+			["Code Breaker", 1],
+			["Code Breaker Version 2", 1]
 		],
 		"Codemasters Demo CD": [
 			["Codemasters Demo Disk", 1]
@@ -940,9 +943,9 @@
 		"Elemental Pinball": [
 			["Nice Price Series Vol. 08 - Elemental Pinball", 1]
 		],
-		"Equalizer Xtreme Ver 4.2 (Unl)": [
-			["Equalizer Xtreme Ver 4.1 (Unl)", 2],
-			["Equalizer Xtreme Ver 1.1 (Unl)", 3]
+		"Equalizer Xtreme Ver 4.2": [
+			["Equalizer Xtreme Ver 4.1", 2],
+			["Equalizer Xtreme Ver 1.1", 3]
 		],
 		"Equestrian Showcase": [
 			["Alexandra Ledermann 2 - Equitation Competition", 1],
@@ -1176,13 +1179,13 @@
 		"Ghoul Panic": [
 			["Oh! Bakyuuun", 1]
 		],
-		"GameShark CDX Version 4.11B (Unl)": [
+		"GameShark CDX Version 4.11B": [
 			["GameShark CDX Version 4.11A", 2],
-			["GameShark CDX Version 4.0A (Unl)", 3],
-			["GameShark CDX Version 3.51 (Unl)", 4],
-			["GameShark CDX Version 3.41 (Unl)", 5],
-			["GameShark CDX Version 3.4 (Unl)", 6],
-			["GameShark CDX Version 3.3 (Unl)", 7]
+			["GameShark CDX Version 4.0A", 3],
+			["GameShark CDX Version 3.51", 4],
+			["GameShark CDX Version 3.41", 5],
+			["GameShark CDX Version 3.4", 6],
+			["GameShark CDX Version 3.3", 7]
 		],
 		"Goal Storm": [
 			["World Soccer Winning Eleven", 1]
@@ -1199,7 +1202,7 @@
 		],
 		"Gran Turismo 2 (Arcade Mode)": [
 			["Gran Turismo 2 (Disc 1) (Arcade Mode)", 1],
-			["Gran Turismo 2 (Disc 1) (Arcade)", 1]
+			["Gran Turismo 2 (Disc 1)", 1]
 		],
 		"Gran Turismo 2 (Simulation Mode)": [
 			["Gran Turismo 2 (Disc 2) (Gran Turismo Mode)", 1],
@@ -2760,11 +2763,11 @@
 		"X-Men vs. Street Fighter": [
 			["X-Men vs. Street Fighter - EX Edition", 1]
 		],
-		"Xploder CD9000 Version 4.0 (Unl)": [
-			["Xploder CD9000 Directors Cut (Unl)", 1],
-			["Xploder CD9000 Version 1 (Unl)", 1],
-			["Xploder CD9000 Version 2.0 (Unl)", 1],
-			["Xploder CD9000 Version 3.0 (Unl)", 1]
+		"Xploder CD9000 Version 4.0": [
+			["Xploder CD9000 Directors Cut", 1],
+			["Xploder CD9000 Version 1", 1],
+			["Xploder CD9000 Version 2.0", 1],
+			["Xploder CD9000 Version 3.0", 1]
 		],
 		"XS Junior League Dodgeball": [
 			["Dotchi de Ball!", 1]

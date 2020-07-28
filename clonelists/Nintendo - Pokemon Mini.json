@@ -1,0 +1,30 @@
+{
+    "description": {
+        "name": [
+			"Nintendo - Pokemon Mini"
+		],
+        "last updated": "22 July 2020"
+    },
+
+    "overrides": {
+        "Pokemon Pinball Mini (USA) (GameCube Preview)": ["Pokemon Pinball Mini (USA) (GameCube Preview)", true],
+        "Pokemon Puzzle Collection (USA) (GameCube Preview)": ["Pokemon Puzzle Collection (GameCube Preview)", true],
+        "Pokemon Puzzle Collection (France) (GameCube Preview)": ["Pokemon Puzzle Collection (GameCube Preview)", true],
+        "Pokemon Puzzle Collection (Germany) (GameCube Preview)": ["Pokemon Puzzle Collection (GameCube Preview)", true]
+    },
+
+    "renames": {
+        "Pokemon Party Mini - Rocket Start": [
+            ["Pokemon Party Mini - Pikachu's Rocket Start", 1]
+        ],
+        "Pokemon Tetris": [
+            ["Pokemon Shock Tetris", 1]
+        ],
+        "Pokemon Zany Cards": [
+            ["Pokemon Anime Card Daisakusen", 1]
+        ],
+        "Lunch Time": [
+            ["Snorlax's Lunch Time", 1]
+        ]
+    }
+}

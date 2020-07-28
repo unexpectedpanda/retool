@@ -1,0 +1,20 @@
+{
+	"description": {
+		"name": [
+			"Nintendo - Nintendo DSi"
+		],
+		"last updated": "19 July 2020"
+	},
+
+	"renames": {
+        "Foto Showdown": [
+            ["Monster Finder", 1]
+        ],
+        "Hidden Photo": [
+			["Wimmelbild-Creator", 1]
+		],
+		"Picture Perfect Hair Salon": [
+			["Hair Salon", 1]
+		]
+	}
+}

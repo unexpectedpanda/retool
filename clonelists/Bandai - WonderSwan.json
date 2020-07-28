@@ -1,0 +1,20 @@
+{
+    "description": {
+        "name": [
+			"Bandai - WonderSwan"
+		],
+        "last updated": "5 July 2020"
+    },
+
+    "renames": {
+        "Digital Monster - Ver. WonderSwan": [
+           ["Digimon - Ver. WonderSwan", 1]
+        ],
+        "SD Gundam Gashapon Senki - Episode 1 (16 MBit)": [
+            ["SD Gundam Gashapon Senki - Episode 1 (8 MBit)", 2]
+        ],
+        "WonderWitch (FreyaOS 1.2.0) (Program)": [
+            ["WonderWitch (FreyaOS 1.1.5) (Program)", 2]
+        ]
+    }
+}

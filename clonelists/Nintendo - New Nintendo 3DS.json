@@ -1,0 +1,17 @@
+{
+    "description": {
+        "name": [
+			"Nintendo - New Nintendo 3DS"
+		],
+        "last updated": "13 July 2020"
+    },
+
+    "renames": {
+        "Fire Emblem Warriors": [
+            ["Fire Emblem Musou", 1]
+        ],
+        "Xenoblade Chronicles 3D": [
+            ["Xenoblade", 1]
+        ]
+    }
+}

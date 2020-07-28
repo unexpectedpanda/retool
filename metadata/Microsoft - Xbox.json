@@ -240,7 +240,7 @@
         "disc_type": "DVD-9",
         "languages": "En",
         "version": "Rev 2",
-        "edition": "Best of Platinum Hits, Rerelease"
+        "edition": "Best of Platinum Hits, Reprint"
     },
     "Official Xbox Magazine Game Disc 19 (USA)": {
         "secondary_name": "",
@@ -1952,7 +1952,7 @@
         "version": "",
         "edition": "Original"
     },
-    "Doom 3 (USA) (Limited Collector's Edition)": {
+    "Doom 3 (USA, Asia) (Limited Collector's Edition)": {
         "secondary_name": "",
         "group_name": "Doom 3",
         "status": "Green",
@@ -5627,7 +5627,7 @@
     "Indiana Jones and the Emperor's Tomb (Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "Indiana Jones and the Emperor's Tomb",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En, Fr, De, It, Es",
         "version": "",
@@ -7301,7 +7301,7 @@
     "IndyCar Series (Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "IndyCar Series",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En, Fr, De, It, Es",
         "version": "",
@@ -8453,7 +8453,7 @@
     "International Superstar Soccer 2 (Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "International Superstar Soccer 2",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En, Fr, De, It, Es",
         "version": "",
@@ -11855,7 +11855,7 @@
     "Ice Age 2 - The Meltdown (Europe) (En,De,Es,It,Nl)": {
         "secondary_name": "",
         "group_name": "Ice Age 2 - The Meltdown",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "Nl, En, De, It, Es",
         "version": "",
@@ -12782,7 +12782,7 @@
     "IndyCar Series 2005 (Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "IndyCar Series 2005",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En, Fr, De, It, Es",
         "version": "",
@@ -16026,7 +16026,7 @@
         "disc_type": "DVD-9",
         "languages": "En",
         "version": "Rev 1",
-        "edition": "Rerelease"
+        "edition": "Reprint"
     },
     "Hitman 2 - Silent Assassin (USA)": {
         "secondary_name": "",
@@ -17543,7 +17543,7 @@
     "Incredible Hulk, The - Ultimate Destruction (Europe)": {
         "secondary_name": "",
         "group_name": "Incredible Hulk, The - Ultimate Destruction",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "",
         "version": "",

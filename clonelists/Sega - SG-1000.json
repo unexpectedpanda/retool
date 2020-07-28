@@ -1,0 +1,20 @@
+{
+	"description": {
+		"name": [
+			"Sega - SG-1000"
+		],
+		"last updated": "24 May 2020"
+	},
+
+	"renames": {
+		"Pitfall II - The Lost Caverns": [
+			["Pitfall II", 2]
+		],
+		"Sega Flipper ~ Video Flipper": [
+			["Sega Flipper", 2]
+        ],
+        "Soukoban": [
+            ["I.Q.", 1]
+        ]
+	}
+}

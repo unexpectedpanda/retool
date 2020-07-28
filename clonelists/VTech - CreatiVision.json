@@ -1,0 +1,14 @@
+{
+	"description": {
+		"name": [
+			"VTech - CreatiVision"
+		],
+		"last updated": "27 July 2020"
+	},
+
+	"renames": {
+		"Tennis (VTL)": [
+			["Tennis (DSE)", 2]
+		]
+	}
+}

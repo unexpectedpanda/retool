@@ -1,0 +1,511 @@
+{
+	"description": {
+		"name": [
+			"Sony - PlayStation Portable (Redump)"
+		],
+		"last updated": "26 July 2020"
+	},
+
+	"compilations": [
+		"2 Games in 1! Archer Maclean's Mercury & Mercury Meltdown (USA) (En,Fr,Es)"
+	],
+
+	"renames": {
+		"Ape Escape - On the Loose": [
+			["Ape Escape", 1],
+			["Piposarugetchu P", 1],
+			["Saru! Get You! P!", 1]
+		],
+		"Ape Escape Academy": [
+			["Ape Academy", 1],
+			["Piposaru Academia - Dossari! Saruge Daizenshuu", 1],
+			["Piposaru Academia - Sagomungchi Neungryeokpyeongga Wanjeonjeongbog", 1]
+		],
+		"Ape Academy 2": [
+			["Piposaru Academia 2 - Aiai Saruge Janken Battle", 1]
+		],
+		"Archer Maclean's Mercury": [
+			["Hg Hydrium", 1]
+		],
+		"Armored Core - Formula Front Extreme Battle": [
+			["Armored Core - Formula Front International", -1],
+			["Armored Core - Formula Front", 1]
+		],
+		"Arthur and the Invisibles": [
+			["Arthur and the Minimoys", 1]
+		],
+		"Bomberman Land": [
+			["Bomberman Land Portable", 1]
+		],
+		"Brian Lara 2007 - Pressure Play": [
+			["Ricky Ponting 2007 - Pressure Play", 1]
+		],
+		"Bust-A-Move - Deluxe": [
+			["Bust-A-Move Ghost", 1]
+		],
+		"Buzz! Brain of Oz": [
+			["Buzz! Brain of the UK", 1],
+			["Buzz! Danske Genier", 1],
+			["Buzz! De Slimste van Nederland", 1],
+			["Buzz! De Strafste van Belgie", 1],
+			["Buzz! Deutschlands Superquiz", 1],
+			["Buzz! Il Quizzone Nazionale", 1],
+			["Buzz! Polskie Lamiglowki ~ Buzz! Mozak Hrvatske", 1],
+			["Buzz! Que Sabes de tu Pais", 1],
+			["Buzz! Quem e o Genio Portugues ~ Buzz! Sokrovishha nacii", 1],
+			["Buzz! Svenska Genier ~ Buzz! Suomen Neropatti", 1]
+		],
+		"Capcom Classics Collection Reloaded": [
+			["Capcom Classics Collection", 1]
+		],
+		"Carol Vorderman's Sudoku": [
+			["Professor Sudoku", 1],
+			["Sudoku Coach", 1]
+		],
+		"Castlevania - The Dracula X Chronicles": [
+			["Akumajou Dracula X - Chronicle", 1]
+		],
+		"Chameleon": [
+			["Kameleon", 1],
+			["Kuru Kuru Chameleon", 1]
+		],
+		"Championship Manager 2006": [
+			["Scudetto 2006 - Championship Manager", 1]
+		],
+		"Cube": [
+			["Simple 2500 Series Portable!! Vol. 10 - The IQ Cube", 1]
+		],
+		"Darkstalkers Chronicle - The Chaos Tower": [
+			["Vampire Chronicle - The Chaos Tower", 1]
+		],
+		"Dead or Alive - Paradise": [
+			["Dead or Alive - Paradise (ULES-01431)", 1],
+			["Dead or Alive - Paradise (ULES-01416)", 2]
+		],
+		"Demo Disc for PSP Vol. 1": [
+			["Demo Disc for PSP Vol. 1 (UCJB-98302)", 1],
+			["Demo Disc for PSP Vol. 1 (UCJB-98303)", 1],
+			["Demo Disc for PSP Vol. 1 (UCJB-98306)", 1]
+		],
+		"Despicable Me - The Game": [
+			["Despicable Me", 1]
+		],
+		"Diner Dash - Sizzle & Serve": [
+			["Diner Dash", 1]
+		],
+		"DiRT 2": [
+			["Colin McRae - DiRT 2", 1]
+		],
+		"Disgaea Portable": [
+			["Makai Senki Disgaea Portable - Tsuushin Taisen Hajimemashita.", 1]
+		],
+		"Disney-Pixar Up": [
+			["Disney-Pixar Oben", 1],
+			["Disney-Pixar Up - Altamente!", 1]
+		],
+		"Disney-Pixar Ratatouille": [
+			["Disney-Pixar Ratatui", 1],
+			["Disney-Pixar Ratatuj", 1],
+			["Disney-Pixar Vverh", 1]
+		],
+		"Disney-Pixar WALL-E": [
+			["Disney-Pixar WALL-E - Der Letzte raeumt die Erde auf", 1]
+		],
+		"Dissidia Final Fantasy": [
+			["Dissidia Final Fantasy - Universal Tuning", 0]
+		],
+		"Dragon Ball Z - Shin Budokai - Another Road": [
+			["Dragon Ball Z - Shin Budokai 2", 1]
+		],
+		"Dungeon Explorer - Warriors of Ancient Arts": [
+			["Dungeon Explorer", 1],
+			["Dungeon Explorer - Meiyaku no Tobira", 1]
+		],
+		"Dungeon Maker - Hunting Ground": [
+			["Chronicle of Dungeon Maker", 1]
+		],
+		"Dynasty Warriors": [
+			["Jin Samguk Mussang", 1],
+			["Shin Sangoku Musou", 1]
+		],
+		"Dynasty Warriors Vol. 2": [
+			["Jin Samguk Mussang 2nd Evolution", 1]
+		],
+		"Dynasty Warriors - Strikeforce": [
+			["Shin Sangoku Musou - Multi Raid", 1]
+		],
+		"Echochrome": [
+			["Mugen Kairou", 1]
+		],
+		"Echoshift": [
+			["Jigen Kairou", 1]
+		],
+		"Everybody's Stress Buster": [
+			["Minna no Sukkiri", 1]
+		],
+		"FIFA Soccer 06": [
+			["FIFA 06", 1]
+		],
+		"FIFA Soccer 07": [
+			["FIFA 07", 1]
+		],
+		"FIFA Soccer 08": [
+			["FIFA 08", 1]
+		],
+		"FIFA Soccer 09": [
+			["FIFA 09", 1]
+		],
+		"FIFA Soccer 10": [
+			["FIFA 10", 1]
+		],
+		"FIFA Soccer 11": [
+			["FIFA 11", 1]
+		],
+		"FIFA Soccer 12": [
+			["FIFA 12", 1]
+		],
+		"FIFA Soccer 13": [
+			["FIFA 13", 1]
+		],
+		"FIFA World Cup Germany 2006": [
+			["FIFA Fussball-Weltmeisterschaft Deutschland 2006", 1],
+			["FIFA World Cup Deutsch Taikai 2006", 1]
+		],
+		"Final Fantasy - 20th Anniversary Edition (FW6.00)": [
+			["Final Fantasy", 1],
+			["Final Fantasy - 20th Anniversary Edition", 1],
+			["Final Fantasy - 20th Anniversary Edition (FW3.03)", 2]
+		],
+		"Final Fantasy II - 20th Anniversary Edition": [
+			["Final Fantasy II", 1]
+		],
+		"Final Fantasy IV - The Complete Collection": [
+			["Final Fantasy IV Complete Collection - Final Fantasy IV & The After Years", 1]
+		],
+		"Final Fantasy Tactics - The War of the Lions": [
+			["Final Fantasy Tactics - Shishi Sensou", 1]
+		],
+		"Ford Bold Moves Street Racing": [
+			["Ford Street Racing - L.A. Duel", 1]
+		],
+		"Generation of Chaos": [
+			["Sincheon Magye - GOC IV - Another Side", 1]
+		],
+		"Go! Sudoku": [
+			["Kazuo", 1]
+		],
+		"God Eater": [
+			["God Eater Burst", -1]
+		],
+		"God of War - Ghost of Sparta": [
+			["God of War - Koutan no Kokuin", 1]
+		],
+		"God of War - Chains of Olympus": [
+			["God of War - Rakujitsu no Hisoukyoku", 1]
+		],
+		"Godfather, The - Mob Wars": [
+			["Godfather, The", 1],
+			["Padrino, El", 1],
+			["Padrino, Il", 1],
+			["Pate, Der", 1]
+		],
+		"Golden Compass, The": [
+			["A la croisee des mondes - La Boussole d'or", 1],
+			["Brujula Dorada, La", 1],
+			["Goldene Kompass, Der", 1],
+			["Bussola d'Oro, La", 2]
+		],
+		"Gradius Collection": [
+			["Gradius Portable", 1]
+		],
+		"Gurumin - A Monstrous Adventure": [
+			["Gurumin - Une Aventure Monstrueuse", 1],
+			["Gurumin", 1]
+		],
+		"Half-Minute Hero": [
+			["Yuusha 30", 1]
+		],
+		"Hammerin' Hero": [
+			["Gensan", 1]
+		],
+		"Harry Potter and the Goblet of Fire": [
+			["Harry Potter et la Coupe de Feu", 1]
+		],
+		"Hot Shots Golf - Open Tee": [
+			["Everybody's Golf", 1],
+			["Minna no Golf Portable", 1]
+		],
+		"Hot Shots Golf - Open Tee 2 (FW3.96)": [
+			["Everybody's Golf 2", 1],
+			["Hot Shots Golf - Open Tee 2", 1],
+			["Minna no Golf Portable 2", 1],
+			["Hot Shots Golf - Open Tee 2 (FW3.80)", 2]
+		],
+		"Hot Shots Tennis - Get a Grip": [
+			["Everybody's Tennis", 1]
+		],
+		"Innocent Life - A Futuristic Harvest Moon": [
+			["Innocent Life - Shin Bokujou Monogatari", 1]
+		],
+		"Iron Man 2": [
+			["Iron Man 2 - The Video Game", 1]
+		],
+		"Jak and Daxter - The Lost Frontier": [
+			["Jak and Daxter - The Lost Frontier (UCES-01378)", 1]
+		],
+		"Kazook": [
+			["X-treme Party", 1]
+		],
+		"Kenka Bancho - Badass Rumble": [
+			["Kenka Banchou 3 - Zenkoku Seiha", 1]
+		],
+		"Kingdom Hearts - Birth by Sleep": [
+			["Kingdom Hearts - Birth by Sleep - Final Mix", 1]
+		],
+		"Legend of Heroes, The - Trails in the Sky": [
+			["Eiyuu Densetsu - Sora no Kiseki FC", 1]
+		],
+		"Lord of the Rings, The - Tactics": [
+			["Herr der Ringe, Der - Taktiken", 1],
+			["Senor de los Anillos, El - Tacticas", 1],
+			["Signore degli Anelli, Il - Tactics", 1]
+		],
+		"Me & My Katamari": [
+			["Boku no Watashi no Katamari Damacy", 1]
+		],
+		"Mega Man - Maverick Hunter X": [
+			["Irregular Hunter X", 1]
+		],
+		"Mega Man - Powered Up": [
+			["Rockman Rockman", 1]
+		],
+		"Metal Slug Anthology": [
+			["Metal Slug Complete", 1]
+		],
+		"Miami Vice - The Game": [
+			["Policiya Mayami. Otdel nravov", 1]
+		],
+		"Monster Hunter Freedom": [
+			["Monster Hunter Portable", 1]
+		],
+		"Monster Hunter Freedom 2": [
+			["Monster Hunter Freedom Unite", -1],
+			["Monster Hunter Portable 2nd G", -1],
+			["Monster Hunter Portable 2nd", 1]
+		],
+		"Monster Hunter Freedom Unite": [
+			["Monster Hunter Portable 2nd G", 1]
+		],
+		"Naruto Shippuden - Kizuna Drive": [
+			["Naruto Shippuuden - Kizuna Drive", 1]
+		],
+		"Naruto Shippuden - Ultimate Ninja Heroes 3": [
+			["Naruto Shippuuden - Narutimate Accel 3", 1]
+		],
+		"Naruto - Ultimate Ninja Heroes 2 - The Phantom Fortress": [
+			["Naruto - Narutimate Portable - Mugenjou no Maki", 1]
+		],
+		"Naruto Shippuden - Ultimate Ninja Impact": [
+			["Naruto - Narutimate Impact", 1]
+		],
+		"Network Utility Disc - Chinese Ver. 1.00C": [
+			["Network Utility Disc Ver. 1.00", 1]
+		],
+		"Nickelodeon Avatar - The Last Airbender": [
+			["Nickelodeon Avatar - The Legend of Aang", 1]
+		],
+		"Nickelodeon SpongeBob's Truth or Square": [
+			["Nickelodeon SpongeBob SquarePants - SpongeBob's Truth or Square", 1],
+			["Nickelodeon Bob Esponja - Atrapados en el Congelador", 1]
+		],
+		"Pangya - Fantasy Golf": [
+			["Fantasy Golf Pangya Portable", 1]
+		],
+		"Patapon 2": [
+			["Patapon 2 - Don-Chaka", 1]
+		],
+		"PES 2008 - Pro Evolution Soccer": [
+			["World Soccer Winning Eleven - Ubiquitous Evolution 2008", 1]
+		],
+		"PES 2009 - Pro Evolution Soccer": [
+			["World Soccer Winning Eleven 2009", 1]
+		],
+		"PES 2010 - Pro Evolution Soccer": [
+			["World Soccer Winning Eleven 2010", 1]
+		],
+		"PES 2011 - Pro Evolution Soccer": [
+			["World Soccer Winning Eleven 2011", 1]
+		],
+		"PES 2012 - Pro Evolution Soccer": [
+			["World Soccer Winning Eleven 2012", 1]
+		],
+		"Petz - Dogz Family": [
+			["Petz - My Puppy Family", 1]
+		],
+		"Petz - Hamsterz Bunch": [
+			["Petz - My Baby Hamster", 1]
+		],
+		"Phantasy Star Portable 2": [
+			["Phantasy Star Portable 2 Infinity" , -1]
+		],
+		"Pinball Hall of Fame - The Gottlieb Collection": [
+			["Gottlieb Pinball Classics", 1]
+		],
+		"Pinball Hall of Fame - The Williams Collection": [
+			["Williams Pinball Classics", 1]
+		],
+		"PixelJunk Monsters - Deluxe": [
+			["PixelJunk Monsters UMD Limited Edition", 1]
+		],
+		"PQ2 - Practical Intelligence Quotient 2": [
+			["Practical IQ - Test Your Intelligence", 1]
+		],
+		"Prince of Persia - The Forgotten Sands": [
+			["Prince of Persia - Boukyaku no Suna", 1]
+		],
+		"Puyo Pop Fever": [
+			["Puyo Puyo Fever", 1]
+		],
+		"Puzzle Quest - Challenge of the Warlords": [
+			["Simple 2500 Series Portable!! Vol. 11 - The Puzzle Quest - Agaria no Kishi", 1]
+		],
+		"R-Type Command": [
+			["R-Type Tactics", 1]
+		],
+		"Ragnarok Tactics": [
+			["Ragnarok - Hikari to Yami no Koujo", 1]
+		],
+		"Ridge Racer": [
+			["Ridge Racers", 1]
+		],
+		"Riviera - The Promised Land": [
+			["Riviera - Yakusoku no Chi", 1]
+		],
+		"Rush": [
+			["L.A. Rush", 1]
+		],
+		"Samurai Warriors - State of War": [
+			["Geki Sengoku Musou", 1]
+		],
+		"SBK - Superbike World Championship": [
+			["SBK 08 - Superbike World Championship", 1]
+		],
+		"SCEJ PSP Browser (UTST-99281)": [
+			["SCEJ PSP Browser (UTST-99261)", 1]
+		],
+		"Sega Genesis Collection": [
+			["Sega Mega Drive Collection", 1]
+		],
+		"Sega Rally Revo": [
+			["Sega Rally", 1]
+		],
+		"Shadow of Destiny": [
+			["Shadow of Memories", 1]
+		],
+		"Shin Megami Tensei - Persona 3 Portable": [
+			["P3P - Yeosin Jeonsaeng - Persona 3 Portable", 1]
+		],
+		"Simpsons Game, The": [
+			["Simpson, I - Il Videogioco", 1],
+			["Simpsons, Die - Das Spiel", 1],
+			["Simpsons, Los - El Videojuego", 1],
+			["Simpsons, The - Game", 1]
+		],
+		"SOCOM - U.S. Navy SEALs - Fireteam Bravo 2 (Demo) (UCUS-98692)": [
+			["SOCOM - U.S. Navy SEALs - Fireteam Bravo 2 (Demo) (UCUS-98677)", 1],
+			["SOCOM - U.S. Navy SEALs - Fireteam Bravo 2 (Demo) (UCUS-98691)", 1]
+		],
+		"Spectral Souls - Resurrection of the Ethereal Empires": [
+			["Shinki Gensou - SSII Unlimited Side", 1],
+			["Singi Hwansang - SSII Unlimited Side", 1]
+		],
+		"Spider-Man - Friend or Foe": [
+			["Spider-Man - Freund oder Feind", 1]
+		],
+		"Split-Second": [
+			["Split-Second - Velocity", 1]
+		],
+		"Stealth + WipEout Pure": [
+			["Furtif + WipEout Pure", 1],
+			["Stealth feat. WipEout Pure Stealth Edition", 1]
+		],
+		"Tactics Ogre - Let Us Cling Together": [
+			["Tactics Ogre - Unmei no Wa", 1]
+		],
+		"TalkMan-shiki Shabelingual Eikaiwa": [
+			["Talkman Yeongeohoehwa Sudajaeng English", 1]
+		],
+		"Tenchu - Shadow Assassins": [
+			["Tenchu 4", 1]
+		],
+		"Tenchu - Time of the Assassins": [
+			["Tenchu - Shinobi Taizen", 1]
+		],
+		"TMNT": [
+			["TMNT - Teenage Mutant Ninja Turtles", 1]
+		],
+		"TOCA Race Driver 2": [
+			["DTM Race Driver 2", 1],
+			["V8 Supercars Australia 2", 1]
+		],
+		"TOCA Race Driver 3 Challenge": [
+			["DTM Race Driver 3 - Challenge", 1]
+		],
+		"Tokobot": [
+			["Karakuri", 1]
+		],
+		"Ultimate Block Party": [
+			["Kollon", 1],
+			["Koloomn", 1]
+		],
+		"Ultimate Ghosts'n Goblins": [
+			["Goku Makaimura Kai", -1],
+			["Goku Makaimura", 1]
+		],
+		"Valkyria Chronicles II": [
+			["Senjou no Valkyria 2 - Gallia Ouritsu Shikan Gakkou", 1]
+		],
+		"Viewtiful Joe - Red Hot Rumble": [
+			["Viewtiful Joe - Battle Carnival", 1]
+		],
+		"Virtua Tennis - World Tour": [
+			["Power Smash - New Generation", 1]
+		],
+		"Warriors Orochi": [
+			["Musou Orochi", 1]
+		],
+		"Warriors Orochi 2": [
+			["Musou Orochi - Maou Sairin Enhanced Version", -1],
+			["Mussang Orochi - Mawang Jaerim Plus", -1],
+			["Musou Orochi - Maou Sairin", 1]
+		],
+		"What Did I Do to Deserve This, My Lord! 2": [
+			["Yuusha no Kuse ni Namaikida or2", 1]
+		],
+		"Who Wants to Be a Millionaire - Party Edition": [
+			["Chi Vuol Essere Milionario - Party Edition", 1]
+		],
+		"Wild Arms XF": [
+			["Wild Arms - Crossfire", 1]
+		],
+		"Winning Eleven - Pro Evolution Soccer 2007": [
+			["Pro Evolution Soccer 6", 1],
+			["World Soccer Winning Eleven 10 - Ubiquitous Evolution", 1]
+		],
+		"World Soccer Winning Eleven 9 - Ubiquitous Evolution": [
+			["Pro Evolution Soccer 5", 1]
+		],
+		"World Tour Soccer 06": [
+			["World Tour Soccer 2", 1]
+		],
+		"X-Men Legends II - Rise of Apocalypse": [
+			["X-Men Legends II - El Ascenso de Apocalipsis", 1]
+		],
+		"Ys - The Ark of Napishtim": [
+			["Ys VI - Napishtim no Hako", 1]
+		],
+		"Yu-Gi-Oh! GX - Tag Force 2": [
+			["Yu-Gi-Oh! Duel Monsters GX - Tag Force 2", 1]
+		]
+	}
+}

@@ -1,0 +1,32 @@
+{
+    "description": {
+        "name": [
+			"Microsoft - MSX"
+		],
+        "last updated": "5 July 2020"
+    },
+
+    "renames": {
+        "3-D Golf Simulation": [
+            ["3-D Golf Simulation (High Speed)", 2]
+        ],
+        "F-1 Spirit - The Way to Formula-1": [
+            ["A1 Spirit - The Way to Formula-1", 2]
+        ],
+        "Konami's Billiards": [
+            ["Video Hustler", 1]
+        ],
+        "Konami's Football": [
+            ["Konami's Soccer", 1]
+        ],
+        "MSX Audio (FS-CA1) (Program)": [
+            ["MSX Audio (HX-MU900) (Program)", 2]
+        ],
+        "Track & Field 1": [
+            ["Hyper Olympic 1", 1]
+        ],
+        "Track & Field 2": [
+            ["Hyper Olympic 2", 1]
+        ]
+    }
+}
