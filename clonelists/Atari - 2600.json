@@ -3,13 +3,10 @@
         "name": [
 			"Atari - 2600"
 		],
-        "last updated": "22 July 2020"
+        "last updated": "29 July 2020"
     },
 
     "renames": {
-        "G.I. Joe - Cobra Strike": [
-            ["Action Man - Action Force", 1]
-        ],
         "Air-Sea Battle ~ Target Fun": [
             ["Air-Sea Battle", 1]
         ],
@@ -31,6 +28,9 @@
         "Casino ~ Poker Plus": [
             ["Casino", 1]
         ],
+        "Challenge": [
+            ["Mein Weg", 1]
+        ],
         "Championship Soccer ~ Soccer": [
             ["Championship Soccer", 1]
         ],
@@ -43,8 +43,17 @@
         "Frisco": [
             ["Peter Penguin", 1]
         ],
-        "Challenge": [
-            ["Mein Weg", 1]
+        "G.I. Joe - Cobra Strike": [
+            ["Action Man - Action Force", 1]
+        ],
+        "I.Q. 180": [
+            ["I.Q. Memory Teaser", 1]
+        ],
+        "Laser Gates": [
+            ["Laaser Voley", 1]
+        ],
+        "Missile War ~ Astro War": [
+            ["Astrowar", 1]
         ],
         "Open Sesame": [
             ["Abre-te, Sesamo!", 1],
@@ -56,11 +65,35 @@
         "Racing Car": [
             ["Hell Driver", 1]
         ],
+        "Radar": [
+            ["Exocet", 1]
+        ],
         "Rubik's Cube": [
             ["Atari Video Cube", 2]
         ],
         "Save our Ship": [
             ["Save Our Ship", 1]
+        ],
+        "Sea Hawk": [
+            ["Seahawk", 1]
+        ],
+        "Sea Hunt ~ Scuba Diver": [
+            ["Skindiver", 1]
+        ],
+        "Sea Monster": [
+            ["O Monstro Marinho", 1]
+        ],
+        "Squirrel ~ O Esquilo": [
+            ["Snail against Squirrel", 1]
+        ],
+        "Stunt Man": [
+            ["Nightmare", 1]
+        ],
+        "Tanks But no Tanks": [
+            ["Phantom Tank", 1]
+        ],
+        "Wall-Defender": [
+            ["Wall Break", 1]
         ]
     }
 }
