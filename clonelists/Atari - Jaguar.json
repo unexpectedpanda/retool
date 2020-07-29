@@ -3,15 +3,21 @@
         "name": [
 			"Atari - Jaguar"
 		],
-        "last updated": "5 July 2020"
+        "last updated": "29 July 2020"
     },
 
     "renames": {
+        "Battle Sphere": [
+            ["Battle Sphere Gold", -1]
+        ],
         "Checkered Flag": [
             ["Checkered Flag (CES 1993)", 2]
         ],
         "Missile Command 3D": [
             ["Missile Command VR", 2]
+        ],
+        "Protector": [
+            ["Protector - Special Edition", -1]
         ],
         "Ultra Vortek": [
             ["Ultra Vortex", 2]
