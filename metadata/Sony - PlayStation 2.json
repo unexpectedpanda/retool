@@ -88828,5 +88828,32 @@
         "languages": "",
         "version": "",
         "edition": ""
+    },
+    "SingStar Syng med Disney (Denmark)": {
+        "secondary_name": "",
+        "group_name": "SingStar Syng med Disney",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "Da",
+        "version": "1.00",
+        "edition": "Original"
+    },
+    "Final Fantasy XI - All in One Pack 2006 (Japan)": {
+        "secondary_name": "ファイナルファンタジーXI オールインワンパック2006",
+        "group_name": "Final Fantasy XI - All in One Pack 2006",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "Ja",
+        "version": "1.01",
+        "edition": "Original"
+    },
+    "War of the Monsters (Korea)": {
+        "secondary_name": "괴수대격전",
+        "group_name": "War of the Monsters",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "Ko",
+        "version": "1.00",
+        "edition": "Original"
     }
 }

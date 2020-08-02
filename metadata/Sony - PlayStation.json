@@ -23897,7 +23897,7 @@
     "Moonlight Syndrome (Japan) (Demo)": {
         "secondary_name": "ムーンライトシンドローム",
         "group_name": "Moonlight Syndrome",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -35010,7 +35010,7 @@
         "edition": "Original, PlayStation the Best"
     },
     "Persona 2 - Batsu - Eternal Punishment (Japan) (Disc 1)": {
-        "secondary_name": "ペルソナ2 罰",
+        "secondary_name": "ペルソナ２　罰　－ＥＴＥＲＮＡＬ　ＰＵＮＩＳＨＭＥＮＴ－",
         "group_name": "Persona 2 - Batsu - Eternal Punishment",
         "status": "Green",
         "disc_type": "CD",
@@ -38175,7 +38175,7 @@
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
-        "edition": "Original, Legendary Hits"
+        "edition": "Original, Taikenban, Legendary Hits"
     },
     "Lode Runner Extra (Japan)": {
         "secondary_name": "ロードランナー・エクストラ",
@@ -39539,7 +39539,7 @@
     "Eggs of Steel - Charlie's Eggcellent Adventure (USA)": {
         "secondary_name": "",
         "group_name": "Eggs of Steel - Charlie's Eggcellent Adventure",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -52640,7 +52640,7 @@
         "version": "",
         "edition": "Original, PlayStation the Best"
     },
-    "Square's Preview Vol. 4 (Japan)": {
+    "Square's Preview Vol. 4 (Japan, Asia)": {
         "secondary_name": "",
         "group_name": "Square's Preview Vol. 4",
         "status": "Green",
@@ -55460,7 +55460,7 @@
     "Bust-A-Move 2 - Arcade Edition (USA)": {
         "secondary_name": "",
         "group_name": "Bust-A-Move 2 - Arcade Edition",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -58527,9 +58527,9 @@
         "edition": "Original"
     },
     "Persona 2 - Batsu - Eternal Punishment (Japan) (Disc 2) (Sumaru TV Special Preview Disc)": {
-        "secondary_name": "ペルソナ2 罰",
+        "secondary_name": "ペルソナ２　罰　－ＥＴＥＲＮＡＬ　ＰＵＮＩＳＨＭＥＮＴ－",
         "group_name": "Persona 2 - Batsu - Eternal Punishment",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -82082,7 +82082,7 @@
     "Net Yaroze (Europe) (Demo)": {
         "secondary_name": "",
         "group_name": "Net Yaroze",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -90314,7 +90314,7 @@
         "version": "Rev 1",
         "edition": "Original"
     },
-    "SaGa Frontier II (Japan)": {
+    "SaGa Frontier II (Japan, Asia)": {
         "secondary_name": "サガフロンティアII",
         "group_name": "SaGa Frontier II",
         "status": "Green",
@@ -92241,7 +92241,7 @@
         "edition": "Club Disc"
     },
     "Kids Station - Plarail - Tetsudou Monoshiri Hyakka (Japan)": {
-        "secondary_name": "キッズステーション プラレール鉄道ものしり百科",
+        "secondary_name": "キッズステーション　プラレール鉄道ものしり百科",
         "group_name": "Kids Station - Plarail - Tetsudou Monoshiri Hyakka",
         "status": "Green",
         "disc_type": "CD",
@@ -93344,6 +93344,15 @@
         "status": "Blue",
         "disc_type": "CD",
         "languages": "En",
+        "version": "",
+        "edition": "Unlicensed"
+    },
+    "Xploder CD9000 Version 2.0 (Europe) (En,Fr,Es,It,Nl,Pt,Sv,No,Da,Fi) (Unl)": {
+        "secondary_name": "",
+        "group_name": "Xploder CD9000 Version 2.0",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Da, Nl, En, Fi, Fr, It, No, Pt, Es, Sv",
         "version": "",
         "edition": "Unlicensed"
     }

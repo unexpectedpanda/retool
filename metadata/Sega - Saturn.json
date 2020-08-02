@@ -1034,7 +1034,7 @@
         "version": "5.230",
         "edition": "Original"
     },
-    "Sega Ages - Space Harrier (Japan) (1M)": {
+    "Sega Ages - Space Harrier (Japan)": {
         "secondary_name": "セガエイジス　スペース・ハリアー",
         "group_name": "Sega Ages - Space Harrier",
         "status": "Green",
@@ -2034,13 +2034,13 @@
         "edition": "Original"
     },
     "Suchie-Pai Adventure - Doki Doki Nightmare (Japan) (Disc 1)": {
-        "secondary_name": "スーチーパイ・アドベンチャー　～ドキドキナイトメア～",
+        "secondary_name": "スーチーパイ・アドベンチャー　～ドキドキ・ナイトメア～",
         "group_name": "Suchie-Pai Adventure - Doki Doki Nightmare",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.003",
-        "edition": ""
+        "edition": "Original, Special Package-ban"
     },
     "Panzer Dragoon II Zwei (Japan)": {
         "secondary_name": "パンツァー・ドラグーン・ツヴァイ",
@@ -2441,11 +2441,11 @@
     "Suchie-Pai Adventure - Doki Doki Nightmare (Japan) (Disc 2)": {
         "secondary_name": "スーチーパイ・アドベンチャー　～ドキドキナイトメア～",
         "group_name": "Suchie-Pai Adventure - Doki Doki Nightmare",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.003",
-        "edition": ""
+        "edition": "Original, Special Package-ban"
     },
     "Private Idol Disc - Data-hen - Race Queen G (Japan)": {
         "secondary_name": "プラドル　ＤＩＳＣ　【データ編】　レース・クイーンＧ",
@@ -2889,9 +2889,9 @@
         "edition": "Original"
     },
     "Cyberbots - Fullmetal Madness (Japan) (1M)": {
-        "secondary_name": "サイバーボッツ　－ＦＵＬＬＭＥＴＡＬ　ＭＡＤＮＥＳＳ－",
+        "secondary_name": "サイバーボッツ",
         "group_name": "Cyberbots - Fullmetal Madness",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.002",
@@ -4067,7 +4067,7 @@
         "version": "1.001",
         "edition": "Original"
     },
-    "Devil Summoner - Soul Hackers (Japan) (Disc 2)": {
+    "Devil Summoner - Soul Hackers (Japan) (Disc 02)": {
         "secondary_name": "デビル・サマナー　ソウル・ハッカーズ",
         "group_name": "Devil Summoner - Soul Hackers",
         "status": "Green",
@@ -4385,11 +4385,11 @@
     "King of Fighters '95, The (Japan) (1M)": {
         "secondary_name": "ザ・キング・オブ・ファイターズ’９５",
         "group_name": "King of Fighters '95, The",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.000",
-        "edition": "Original"
+        "edition": "Original, The King of Fighters Best Collection"
     },
     "MeltyLancer - Re-inforce (Japan) (Disc 2)": {
         "secondary_name": "メルティランサー　リ・インフォース",
@@ -7109,10 +7109,10 @@
         "version": "1.003",
         "edition": "Hibaihin"
     },
-    "Sakura Taisen - Teigeki Graph (Japan) (Disc 2)": {
-        "secondary_name": "サクラ大戦　～帝撃グラフ～",
-        "group_name": "Sakura Taisen - Teigeki Graph",
-        "status": "Blue",
+    "Sakura Taisen - Teigeki Graph - Teigeki Graph in Sakura Wars (Japan) (Disc 2)": {
+        "secondary_name": "サクラ大戦　帝撃グラフ",
+        "group_name": "Sakura Taisen - Teigeki Graph - Teigeki Graph in Sakura Wars",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.000",
@@ -7361,14 +7361,14 @@
         "version": "1.000",
         "edition": "Original"
     },
-    "Shinpi no Sekai - El-Hazard (Japan) (2M)": {
-        "secondary_name": "神秘の世界　エルハザード",
-        "group_name": "Shinpi no Sekai - El-Hazard",
+    "Shinpi no Sekai El-Hazard - El-Hazard - The Magnificent World for Sega Saturn (Japan) (2M)": {
+        "secondary_name": "神秘の世界エルハザード　ＦＯＲ　ＳＥＧＡ　ＳＡＴＵＲＮ",
+        "group_name": "Shinpi no Sekai El-Hazard - El-Hazard - The Magnificent World for Sega Saturn",
         "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.002",
-        "edition": "Shokai Genteiban"
+        "edition": "Shokai Tokuten"
     },
     "Shining Force III - Scenario 1 - Outo no Kyoshin (Japan)": {
         "secondary_name": "シャイニング・フォースⅢ　シナリオ１　～王都の巨神～",
@@ -9758,11 +9758,11 @@
     "King of Fighters '97, The (Japan)": {
         "secondary_name": "ザ・キング・オブ・ファイターズ’９７",
         "group_name": "King of Fighters '97, The",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.001",
-        "edition": "Original"
+        "edition": "Original, The King of Fighters Best Collection"
     },
     "Zoku Hatsukoi Monogatari - Shuugaku Ryokou (Japan) (Disc 4) (Daigakusei Jidai & Koukou kara Daigaku ni Agaru ma no Haruyasumi)": {
         "secondary_name": "続初恋物語　～修学旅行～",
@@ -10365,7 +10365,7 @@
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.001",
-        "edition": "Rerelease"
+        "edition": "Rerelease 1, Rerelease 2"
     },
     "Gremlin Demo Disk (Europe)": {
         "secondary_name": "",
@@ -10602,9 +10602,9 @@
         "edition": "P's Club Special Edition"
     },
     "Quiz Nanairo Dreams - Nijiirochou no Kiseki (Japan)": {
-        "secondary_name": "ＱＵＩＺ なないろＤＲＥＡＭＳ ～虹色町の奇跡～",
+        "secondary_name": "ＱＵＩＺ　なないろ　ＤＲＥＡＭＳ　～虹色町の奇跡～",
         "group_name": "Quiz Nanairo Dreams - Nijiirochou no Kiseki",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.004",
@@ -10680,7 +10680,7 @@
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.102",
-        "edition": ""
+        "edition": "Original"
     },
     "Soviet Strike (Germany)": {
         "secondary_name": "",
@@ -11043,9 +11043,9 @@
         "edition": "Original"
     },
     "Sega Ages - Phantasy Star Collection (Japan)": {
-        "secondary_name": "セガエイジス　ファンタシー・スター・コレクション",
+        "secondary_name": "セガ・エイジス　ファンタシー・スター・コレクション",
         "group_name": "Sega Ages - Phantasy Star Collection",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.003",
@@ -13922,10 +13922,10 @@
         "version": "1.000",
         "edition": "Bundled with Magazine"
     },
-    "Sakura Taisen - Teigeki Graph (Japan) (Disc 1)": {
-        "secondary_name": "サクラ大戦　～帝撃グラフ～",
-        "group_name": "Sakura Taisen - Teigeki Graph",
-        "status": "Blue",
+    "Sakura Taisen - Teigeki Graph - Teigeki Graph in Sakura Wars (Japan) (Disc 1)": {
+        "secondary_name": "サクラ大戦　帝撃グラフ",
+        "group_name": "Sakura Taisen - Teigeki Graph - Teigeki Graph in Sakura Wars",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.003",
@@ -14235,7 +14235,7 @@
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.001",
-        "edition": "Doukonban, Gentei KOF Double Pack"
+        "edition": "Doukonban, Gentei KOF Double Pack, The King of Fighters Best Collection"
     },
     "Habitat II (Japan)": {
         "secondary_name": "ハビタットⅡ",
@@ -14312,7 +14312,7 @@
     "Sega Ages - Fantasy Zone (Japan)": {
         "secondary_name": "セガエイジス　ファンタジー・ゾーン",
         "group_name": "Sega Ages - Fantasy Zone",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.001",
@@ -15198,7 +15198,7 @@
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.000",
-        "edition": "Original"
+        "edition": "Special Box"
     },
     "Thunder Storm & Road Blaster (Japan) (Disc 2) (Road Blaster)": {
         "secondary_name": "サンダー・ストーム＆ロード・ブラスター",
@@ -16748,7 +16748,7 @@
         "version": "1.000",
         "edition": "Original"
     },
-    "Devil Summoner - Soul Hackers (Japan) (Disc 1)": {
+    "Devil Summoner - Soul Hackers (Japan) (Disc 01)": {
         "secondary_name": "デビル・サマナー　ソウル・ハッカーズ",
         "group_name": "Devil Summoner - Soul Hackers",
         "status": "Green",
@@ -18479,7 +18479,7 @@
     "Slayers Royal 2 (Japan) (1M, 2M)": {
         "secondary_name": "スレイヤーズろいやる２",
         "group_name": "Slayers Royal 2",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.005",
@@ -20747,10 +20747,46 @@
     "Standby Say You! (Japan)": {
         "secondary_name": "スタンバイ　セイ　ユー",
         "group_name": "Standby Say You!",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "1.001",
+        "edition": "Shokai Gentei Special Package 1, Shokai Gentei Special Package 3"
+    },
+    "Shutsudou! Miniskirt Police (Japan) (2M)": {
+        "secondary_name": "出動！ミニスカ・ポリス",
+        "group_name": "Shutsudou! Miniskirt Police",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.001",
-        "edition": "Shokai Gentei Special Package 1"
+        "edition": "Shokai Gentei Double Tokuten"
+    },
+    "Dead or Alive (Japan) (1M)": {
+        "secondary_name": "デッド・オア・アライブ",
+        "group_name": "Dead or Alive",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "1.001",
+        "edition": "Limited Edition Box"
+    },
+    "Kiss yori... (Japan) (Rev A)": {
+        "secondary_name": "ＫＩＳＳより・・・",
+        "group_name": "Kiss yori...",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "2.001",
+        "edition": "Original"
+    },
+    "Kuro no Danshou - The Literary Fragment (Japan) (3M)": {
+        "secondary_name": "黒の断章　－Ｔｈｅ　Ｌｉｔｅｒａｒｙ　Ｆｒａｇｍｅｎｔ－",
+        "group_name": "Kuro no Danshou - The Literary Fragment",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "1.000",
+        "edition": "Original"
     }
 }
