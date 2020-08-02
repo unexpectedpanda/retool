@@ -1,0 +1,39 @@
+{
+    "description": {
+        "name": [
+			"Benesse - Pocket Challenge W"
+		],
+        "last updated": "2 August 2020"
+    },
+
+    "renames": {
+        "Shinkenzemi Chuugaku Kouza - Chuu 1 Eigo (7BB112SS)": [
+            ["Shinkenzemi Chuugaku Kouza - Chuu 1 Eigo (0BB113NC)", 2],
+            ["Shinkenzemi Chuugaku Kouza - Chuu 1 Eigo (0BB111NH)", 3]
+        ],
+        "Shinkenzemi Chuugaku Kouza - Chuugaku Chiri - Rekishi Pack (0BD401)": [
+            ["Shinkenzemi Chuugaku Kouza - Chuugaku Chiri - Rekishi Pack (0BD400)", 2]
+        ],
+        "Shinkenzemi Chuugaku Kouza - Chuugaku Koumin (7BE310)": [
+            ["Shinkenzemi Chuugaku Kouza - Chuugaku Koumin (0BE311)", 2]
+        ],
+        "Shinkenzemi Chuugaku Kouza - Chuugaku Rika (7BF412)": [
+            ["Shinkenzemi Chuugaku Kouza - Chuugaku Rika (7BF411)", 2]
+        ],
+        "Shinkenzemi Chuugaku Kouza - Chuugaku Rika Pack (1BF400)": [
+            ["Shinkenzemi Chuugaku Kouza - Chuugaku Rika Pack (0BF400)", 2]
+        ],
+        "Shinkenzemi Chuugaku Kouza - Koukou Juken (9BI712)": [
+            ["Shinkenzemi Chuugaku Kouza - Koukou Juken (9BI711)", 2]
+        ],
+        "Shinkenzemi Koukou Kouza - Daigaku Juken Series - Hinshutsu Eitango (7BBD02)": [
+            ["Shinkenzemi Koukou Kouza - Daigaku Juken Series - Hinshutsu Eitango (7BBD01)", 2]
+        ],
+        "Shinkenzemi Koukou Kouza - Hinshutsu Yokaishi Kouryaku (9BCD02)": [
+            ["Shinkenzemi Koukou Kouza - Hinshutsu Yokaishi Kouryaku (9BCD01)", 2]
+        ],
+        "Shinkenzemi Koukou Kouza - Juuyou Kobun Kouryaku (8BKD01)": [
+            ["Shinkenzemi Koukou Kouza - Juuyou Kobun Kouryaku (0BKD01)", 2]
+        ]
+    }
+}

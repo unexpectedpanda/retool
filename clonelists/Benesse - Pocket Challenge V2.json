@@ -1,0 +1,33 @@
+{
+    "description": {
+        "name": [
+			"Benesse - Pocket Challenge V2"
+		],
+        "last updated": "2 August 2020"
+    },
+
+    "renames": {
+        "Shinkenzemi Chuugaku Kouza - Chuu 1 Eisuukoku Pack (6FP103)": [
+            ["Shinkenzemi Chuugaku Kouza - Chuu 1 Eisuukoku Pack (6FP101)", 2]
+        ],
+        "Shinkenzemi Chuugaku Kouza - Chuu 1 English (3BB113)": [
+            ["Shinkenzemi Chuugaku Kouza - Chuu 1 English (2BB113)", 2]
+        ],
+        "Shinkenzemi Chuugaku Kouza - Chuugaku Chiri - Chuugaku Rekishi Pack (6FD401)": [
+            ["Shinkenzemi Chuugaku Kouza - Chuugaku Chiri - Chuugaku Rekishi Pack (6FD400)", 2],
+            ["Shinkenzemi Chuugaku Kouza - Chuugaku Chiri - Chuugaku Rekishi Pack (4BD400)", 3],
+            ["Shinkenzemi Chuugaku Kouza - Chuugaku Chiri - Chuugaku Rekishi Pack (2BD400)", 4]
+        ],
+        "Shinkenzemi Chuugaku Kouza - Chuugaku Rika Pack (6FF420)": [
+            ["Shinkenzemi Chuugaku Kouza - Chuugaku Rika Pack (6FF401)", 2],
+            ["Shinkenzemi Chuugaku Kouza - Chuugaku Rika Pack (6FF400)", 3],
+            ["Shinkenzemi Chuugaku Kouza - Chuugaku Rika Pack (5FF400)", 4],
+            ["Shinkenzemi Chuugaku Kouza - Chuugaku Rika Pack (2BF400)", 5]
+        ],
+        "Shinkenzemi Chuugaku Kouza - Jitsugi 4 Kyouka (6FG402)": [
+            ["Shinkenzemi Chuugaku Kouza - Jitsugi 4 Kyouka (5FG410)", 2],
+            ["Shinkenzemi Chuugaku Kouza - Jitsugi 4 Kyouka (3BG410)", 3],
+            ["Shinkenzemi Chuugaku Kouza - Jitsugi 4 Kyouka (2BG410)", 4]
+        ]
+    }
+}

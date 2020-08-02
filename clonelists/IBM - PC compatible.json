@@ -3,7 +3,7 @@
 		"name": [
 			"IBM - PC compatible"
 		],
-		"last updated": "28 July 2020"
+		"last updated": "2 August 2020"
 	},
 
 	"compilations": [
@@ -346,10 +346,10 @@
 			["Tianshi Xiaoyequ (Youxi Anzhuang)", 1]
 		],
 		"Assassin's Creed": [
-			["Assassin's Creed - Director's Cut", -1],
+			["Assassin's Creed - Director's Cut Edition", -1],
 			["Assassin's Creed - Wersja Rezyserska", -1]
 		],
-		"Assassin's Creed - Director's Cut": [
+		"Assassin's Creed - Director's Cut Edition": [
 			["Assassin's Creed - Wersja Rezyserska", 1]
 		],
 		"Assassin's Creed Unity (Disc 1) (Limited Edition)": [
@@ -515,7 +515,7 @@
 			["Broken Sword Complete", -1]
 		],
 		"Batman - Arkham Asylum": [
-			["Batman - Arkham Asylum (Game of the Year Edition)", -1]
+			["Batman - Arkham Asylum - Game of the Year Edition", -1]
 		],
 		"Batman - Justice Unbalanced": [
 			["Batman - Sprawiedliwosc Ponad Wszystko", 1]
@@ -1285,6 +1285,12 @@
 		"Corpse Party - BloodCovered 4": [
 			["Corpse Party - BloodCovered 4 (Another Jacket Version)", 2]
 		],
+		"Counter-Strike 1 Anthology (Disc 1)": [
+			["Counter-Strike 1 Anthology", 0]
+		],
+		"Counter-Strike 1 Anthology (Disc 2)": [
+			["Counter-Strike 1 Anthology", 0]
+		],
 		"Counter-Strike - Condition Zero (Disc 1)": [
 			["Counter-Strike - Condition Zero (Disc 1) (Install)", 1],
 			["Counter-Strike - Condition Zero (Disc 1) (Installations-CD)", 1],
@@ -1535,6 +1541,9 @@
 		"Director of Football": [
 			["Kicker Fussball Manager", 1]
 		],
+		"Dishonored": [
+			["Dishonored - Game of the Year Edition (Disc 1)", -1]
+		],
 		"Disciples II - Bunt Elfow (Disc 1)": [
 			["Disciples II Gold (Disc 1)", -1]
 		],
@@ -1680,10 +1689,11 @@
 			["Dracula 2 - L'Ultimo Santuario (Disc 2)", 1]
 		],
 		"Dragon Age - Origins": [
-			["Dragon Age - Origins (Disc 1) (Ultimate Edition)", -1]
+			["Dragon Age - Origins - Ultimate Edition (Disc 1)", -1],
+			["Dragon Age - Origins (Disc 1)", 0]
 		],
 		"Dragon Age - Origins - Awakening": [
-			["Dragon Age - Origins (Disc 1) (Ultimate Edition)", -1]
+			["Dragon Age - Origins - Ultimate Edition (Disc 1)", -1]
 		],
 		"Dragon Lore - The Legend Begins (Disc 1)": [
 			["Dragon Lore - Die Legende beginnt (Disc 1)", 1]
@@ -2130,16 +2140,16 @@
 			["Fallout Collection", -1]
 		],
 		"Fallout 3": [
-			["Fallout 3 (Disc 1) (Game of the Year Edition)", -1]
+			["Fallout 3 - Game of the Year Edition (Disc 1)", -1]
 		],
 		"Fallout 3 - Game Add-On Pack - Broken Steel and Point Lookout": [
-			["Fallout 3 (Disc 1) (Game of the Year Edition)", -1]
+			["Fallout 3 - Game of the Year Edition (Disc 1)", -1]
 		],
 		"Fallout 3 - Game Add-On Pack - The Pitt and Operation - Anchorage": [
-			["Fallout 3 (Disc 1) (Game of the Year Edition)", -1]
+			["Fallout 3 - Game of the Year Edition (Disc 1)", -1]
 		],
 		"Fallout - New Vegas": [
-			["Fallout - New Vegas (Ultimate Edition)", -1]
+			["Fallout - New Vegas - Ultimate Edition", -1]
 		],
 		"Fallout Tactics - Brotherhood of Steel (Bonus Disc)": [
 			["Fallout - Radioactive", -1],
@@ -2536,18 +2546,22 @@
 		],
 		"Half-Life (Game of the Year Edition)": [
 			["Half-Life 1 Anthology", -1],
+			["Half-Life 1 Anthologie", -1],
 			["Half-Life 1 Antologia", -1],
 			["Half-Life", 2]
 		],
 		"Half-Life - Blue Shift": [
 			["Half-Life 1 Anthology", -1],
+			["Half-Life 1 Anthologie", -1],
 			["Half-Life 1 Antologia", -1]
 		],
 		"Half-Life - Opposing Force": [
 			["Half-Life 1 Anthology", -1],
+			["Half-Life 1 Anthologie", -1],
 			["Half-Life 1 Antologia", -1]
 		],
 		"Half-Life 1 Anthology": [
+			["Half-Life 1 Anthologie", -1],
 			["Half-Life 1 Antologia", 1]
 		],
 		"Half-Life 2 (Disc 1)": [
@@ -3039,6 +3053,9 @@
 		"K. Hawk - Survival Instinct (Game Disk)": [
 			["K.Hawk - Survival Instinct", 1]
 		],
+		"Kabus 22": [
+			["Fearzone - Strefa 22", 1]
+		],
 		"Kellogg's Football Tigers (2D6F5298)": [
 			["Kellogg's Football Tigers (0EC41D4B)", 2]
 		],
@@ -3369,7 +3386,7 @@
 			["Lost in Time - Parts 1 & 2", 1]
 		],
 		"Lost Planet - Extreme Condition": [
-			["Lost Planet - Extreme Condition (Colonies Edition)", -1]
+			["Lost Planet - Extreme Condition - Colonies Edition", -1]
 		],
 		"Lure of the Temptress": [
 			["Revolution - 25th Anniversary Collection (Disc 1) (Revolution Games 1992 - 2010)", -1],
@@ -3714,13 +3731,16 @@
 			["Moto Racer Collection", -1]
 		],
 		"Movies, The (Disc 1)": [
-			["Movies, The", 0]
+			["Movies, The", 0],
+			["Movies, The (Disc di Gioco)", 0]
 		],
 		"Movies, The (Disc 2)": [
-			["Movies, The", 0]
+			["Movies, The", 0],
+			["Movies, The (Disc di Gioco)", 0]
 		],
 		"Movies, The (Disc 3)": [
-			["Movies, The", 0]
+			["Movies, The", 0],
+			["Movies, The (Disc di Gioco)", 0]
 		],
 		"Myst - Die Trilogie": [
 			["Myst Antologia", 1]
@@ -4665,6 +4685,7 @@
 		],
 		"Robin Hood - The Legend of Sherwood": [
 			["Robin Hood - Die Legende von Sherwood", 1],
+			["Robin Hood - La Leggenda di Sherwood", 1],
 			["Robin Hood - Legenda Sherwood", 1]
 		],
 		"Rockman X8 (Disc 1)": [
@@ -5006,18 +5027,22 @@
 		],
 		"Seven Games of the Soul (Disc 1)": [
 			["Faust (Disc 1)", 1],
+			["Faust - The Seven Games of the Soul (Disc 1)", 1],
 			["Faust - Die sieben Spiele der Seele (Disc 1)", 1]
 		],
 		"Seven Games of the Soul (Disc 2)": [
 			["Faust (Disc 2)", 1],
+			["Faust - The Seven Games of the Soul (Disc 2)", 1],
 			["Faust - Die sieben Spiele der Seele (Disc 2)", 1]
 		],
 		"Seven Games of the Soul (Disc 3)": [
 			["Faust (Disc 3)", 1],
+			["Faust - The Seven Games of the Soul (Disc 3)", 1],
 			["Faust - Die sieben Spiele der Seele (Disc 3)", 1]
 		],
 		"Seven Games of the Soul (Disc 4)": [
 			["Faust (Disc 4)", 1],
+			["Faust - The Seven Games of the Soul (Disc 4)", 1],
 			["Faust - Die sieben Spiele der Seele (Disc 4)", 1]
 		],
 		"Shade - Wrath of Angels": [
@@ -6458,6 +6483,7 @@
 		],
 		"Voelker II, Die - Aufstieg zum Koenigreich": [
 			["Voelker II, Die - Gold Edition", -1],
+			["Zaterjannyj Mir 4 (Disc 1)", -1],
 			["Nations, The", 1]
 		],
 		"Voelker, Die": [
