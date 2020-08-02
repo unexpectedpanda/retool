@@ -4169,7 +4169,7 @@
     "Xbox Demo Disc Version 4.4 (USA)": {
         "secondary_name": "",
         "group_name": "Xbox Demo Disc Version 4.4",
-        "status": "Blue",
+        "status": "Yellow",
         "disc_type": "DVD-9",
         "languages": "En",
         "version": "",
@@ -19907,7 +19907,7 @@
         "version": "",
         "edition": "Original"
     },
-    "Official Xbox Magazine Game Disc 43 (Europe) (En,Fr,Es,It,Pt)": {
+    "Official Xbox Magazine Game Disc 43 (Europe, Australia) (En,Fr,Es,It,Pt)": {
         "secondary_name": "",
         "group_name": "Official Xbox Magazine Game Disc 43",
         "status": "Green",
@@ -20526,7 +20526,7 @@
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "",
-        "edition": ""
+        "edition": "Beta"
     },
     "Circus Maximus - Chariot Wars (Europe)": {
         "secondary_name": "",
@@ -22030,5 +22030,23 @@
         "languages": "",
         "version": "",
         "edition": "Original"
+    },
+    "Breakdown (USA) (Demo)": {
+        "secondary_name": "",
+        "group_name": "Breakdown",
+        "status": "Blue",
+        "disc_type": "DVD-9",
+        "languages": "",
+        "version": "",
+        "edition": "Demo"
+    },
+    "Shadow Ops - Red Mercury (USA) (Demo)": {
+        "secondary_name": "",
+        "group_name": "Shadow Ops - Red Mercury",
+        "status": "Blue",
+        "disc_type": "DVD-9",
+        "languages": "",
+        "version": "",
+        "edition": "Demo"
     }
 }

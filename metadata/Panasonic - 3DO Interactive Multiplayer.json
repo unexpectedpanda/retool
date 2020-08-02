@@ -4714,5 +4714,14 @@
         "languages": "En",
         "version": "",
         "edition": "Original"
+    },
+    "ESPN Baseball - Hitting (USA)": {
+        "secondary_name": "",
+        "group_name": "ESPN Baseball - Hitting",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "1.0",
+        "edition": "Original"
     }
 }
