@@ -3,7 +3,7 @@
         "name": [
 			["Sony - PlayStation 2", 1]
 		],
-        "last updated": "28 July 2020"
+        "last updated": "2 August 2020"
     },
 
     "compilations": [
@@ -863,6 +863,9 @@
 		"Final Fantasy X": [
 			["Final Fantasy X International", 1]
 		],
+		"Final Fantasy XI - All in One Pack 2004": [
+			["Final Fantasy XI - Online - Vana'diel Collection 2008", -1]
+		],
 		"Final Fantasy XI - Online": [
 			["Final Fantasy XI - Online - Vana'diel Collection 2008", -1],
 			["Final Fantasy XI - Entry Disc 2005", 2]
@@ -873,6 +876,7 @@
 		],
 		"Final Fantasy XI - Online - Treasures of Aht Urhgan": [
 			["Final Fantasy XI - Online - Vana'diel Collection 2008", -1],
+			["Final Fantasy XI - All in One Pack 2006", 1],
 			["Final Fantasy XI - Aht Urhgan no Hihou", 1]
 		],
 		"Final Fantasy XI - Online - Vana'diel Collection 2008": [
@@ -2234,6 +2238,7 @@
 			["SingStar Canciones Disney", 1],
 			["SingStar Cancoes Disney", 1],
 			["SingStar e la Magia Disney", 1],
+			["SingStar Syng med Disney", 1],
 			["SingStar Zingt met Disney", 1]
 		],
 		"Siren": [
