@@ -13,7 +13,7 @@ and needs three additional modules.
 To install the modules, assuming you already have Python installed, open
 Terminal, Command Prompt, or whatever the CLI is on your system, and type:
 
-```
+```shell
 pip install bs4
 pip install lxml
 pip install strictyaml
@@ -24,13 +24,13 @@ pip install strictyaml
 Retool is a command line tool. If you have Python, you use it with the
 following syntax:
 
-```
+```shell
 python retool.py -i <input dat/folder> <options>
 ```
 
 Alternatively, your system might be configured to run the py file directly:
 
-```
+```shell
 retool.py -i <input dat/folder> <options>
 ```
 
@@ -116,20 +116,20 @@ been assigned parents yet.
 Clonerel uses openpyxl to generate an Excel file. You'll need at least OpenPyxl
 v3.03 to avoid a fun crash bug. Install it with `pip`.
 
-```
+```shell
 pip install openpyxl
 ```
 
 If you haven't already installed them for Retool, you'll need also lxml and
 bs4.
 
-```
+```shell
 pip install bs4
 pip install lxml
 ```
 
 ## Usage
 
-```
+```shell
 python clonerel.py <input dat>
 ```
