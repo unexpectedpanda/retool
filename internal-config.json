@@ -9,7 +9,7 @@
             "Retool requires. You probably don't want to",
             "mess with them."
         ],
-        "last updated": "27 July 2020"
+        "last updated": "3 August 2020"
     },
 
     "ignore_tags": [
@@ -201,7 +201,7 @@
         "Arabic": "Ar",
         "Bulgarian": "Bg",
         "Catalan": "Ca",
-        "Chinese": "Zh(-Han.){0,1}",
+        "Chinese": "Zh(-Han.){,1}",
         "Croatian": "Hr",
         "Czech": "Cs",
         "Danish": "Da",
@@ -229,7 +229,8 @@
         "Swedish": "Sv",
         "Tamil": "Ta",
         "Thai": "Th",
-        "Turkish": "Tr"
+        "Turkish": "Tr",
+        "Ukranian": "Uk"
     },
 
     "default_region_order": {
