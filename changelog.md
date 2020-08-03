@@ -1,3 +1,27 @@
+# 0.76
+- Fixed filtering by language. This was broken due to a last minute
+  change from a string to regex in the 0.75 release.
+- Fixed folders not being processed to completion when filter by
+  language was selected, and no valid titles were found in the
+  current dat.
+- Added `Ukranian` as a language.
+- When filtering by language, if titles in the following regions don't
+  have languages specified, they will be included if you select any of
+  the respective languages:
+  - Asia &mdash; English, Chinese, Japanese.
+  - Hong Kong, Taiwan &mdash; Chinese, English.
+  - Latin America &mdash; Spanish, Portuguese
+  - South Africa &mdash; Afrikaans, English
+  - Switzerland &mdash; German, French, Italian
+  - Ukraine &mdash; Ukranian, Russian.
+- Retool can now handle `rom` entries with no CRC specified. A `rom`
+  entry must have at least a CRC, MD5, or SHA1, otherwise the title is
+  dropped.
+- The `-g` option now keeps preproduction titles, as they're treated as
+  versions of titles instead of a separate thing, and many will be removed
+  automatically on account of production versions existing. You will need
+  to specify `-p` if you want to remove all preproduction titles.
+
 # 0.75
 - Now handles No-Intro dats. Note that grouping follows different rules to
   No-Intro. For example, in the Atari 2600 dat, a compilation is listed as
@@ -24,7 +48,7 @@
   contain `(Promo)`, `EPK`, and `Press Kit`), and samples.
 - Retool can now deal with dats that fail DTD validation due to `<clrmamepro>`
   and `<romcenter>` tags being in the wrong order in the header.
-- The dtd file has been updated to take into account that even though people
+- The DTD file has been updated to take into account that even though people
   include it in their XML files, their XML files don't actually validate
   against it.
 - Retool can now deal with dats that don't include MD5 or SHA-1 hashes.

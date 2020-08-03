@@ -124,6 +124,11 @@ class DatNode:
         node_roms = node.findChildren('rom', recursive=False)
         roms = []
         for rom in node_roms:
+            if 'crc' not in (str(rom)):
+                crc_string = ''
+            else:
+                crc_string = rom['crc']
+
             if 'md5' not in (str(rom)):
                 md5_string = ''
             else:
@@ -134,7 +139,7 @@ class DatNode:
             else:
                 sha1_string = rom['sha1']
 
-            roms.append(DatNodeRom('rom', rom['crc'], md5_string, rom['name'], sha1_string, rom['size']))
+            roms.append(DatNodeRom('rom', crc_string, md5_string, rom['name'], sha1_string, rom['size']))
 
         self.roms = roms
 

@@ -61,7 +61,7 @@ languages -- you must also set a region order.
   (for use with Clonerel, [not dat managers](/unexpectedpanda/retool/wiki/Usage-and-options#export-in-legacy-parentclone-dat-form))
 * `-v` Verbose mode: report clone list errors
 * `-l` Filter languages using a list (see `user-config.yaml`)
-* `-g` Enable most filters (-a -b -c -d -e -f -m -p -r -s)
+* `-g` Enable most filters (-a -b -c -d -e -f -m -r -s)
 * `-s` Enable supersets: special editions, game of the year
   editions, and collections replace standard editions
 * `-a` Exclude applications
