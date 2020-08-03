@@ -54,6 +54,17 @@ just the content. Comment out languages you don't want to include by adding a
 `#` to the beginning of the line. You can't process a dat file only by
 languages -- you must also set a region order.
 
+Titles with a region of "Unknown" will be included no matter which language you
+filter by. If titles in the following regions don't have languages specified,
+they will be included if you select any of their respective languages:
+
+- **Asia** &mdash; English, Chinese, Japanese
+- **Hong Kong, Taiwan** &mdash; Chinese, English
+- **Latin America** &mdash; Spanish, Portuguese
+- **South Africa** &mdash; Afrikaans, English
+- **Switzerland** &mdash; German, French, Italian
+- **Ukraine** &mdash; Ukranian, Russian
+
 ### Options
 
 * `-o <output folder>` Set an output folder

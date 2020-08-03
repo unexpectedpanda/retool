@@ -7,7 +7,7 @@
 - Added `Ukranian` as a language.
 - When filtering by language, if titles in the following regions don't
   have languages specified, they will be included if you select any of
-  the respective languages:
+  their respective languages:
   - Asia &mdash; English, Chinese, Japanese.
   - Hong Kong, Taiwan &mdash; Chinese, English.
   - Latin America &mdash; Spanish, Portuguese
