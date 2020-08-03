@@ -30,7 +30,7 @@ def usage():
         # print('                     (use in place of -i)')
     print('\nFILTER OPTIONS:')
     print(f'{Font.bold}-l{Font.end}  Filter languages using a list (see {Font.bold}user-config.yaml{Font.end})')
-    print(f'{Font.bold}-g{Font.end}  Enable most filters (-a -b -c -d -e -f -m -p -r -s)')
+    print(f'{Font.bold}-g{Font.end}  Enable most filters (-a -b -c -d -e -f -m -r -s)')
     print(f'{Font.bold}-s{Font.end}  Enable supersets: special editions, game of the year')
     print('    editions, and collections replace standard editions\n')
     print(f'{Font.bold}-a{Font.end}  Exclude applications        {Font.bold}-m{Font.end}  Exclude multimedia titles')
@@ -54,7 +54,7 @@ def check_input():
 
     # Remove these options from the output file name and other places
     hide_options = ['g', 'v', 'i', 'o', 'l', 'q', 'y', 'z']
-    non_g_options = ['u', 'n']
+    non_g_options = ['u', 'n', 'p', 'x']
 
     for option in options:
         if len([x for x in sys.argv if x == f'-{option}']) > 0:
@@ -68,7 +68,7 @@ def check_input():
     no_coverdiscs = True if 'f' in user_options or 'g' in user_options else False
     no_multimedia = True if 'm' in user_options or 'g' in user_options else False
     no_pirate = True if 'n' in user_options else False
-    no_preproduction = True if 'p' in user_options or 'g' in user_options else False
+    no_preproduction = True if 'p' in user_options else False
     no_promotional = True  if 'r' in user_options or 'g' in user_options else False
     no_unlicensed = True if 'u' in user_options else False
     supersets = True if 's' in user_options or 'g' in user_options else False
@@ -79,30 +79,26 @@ def check_input():
     build_cache = True if 'y' in user_options else False
     use_cache = True if 'z' in user_options else False
 
-    # Set verbose and legacy to always be true if in dev environment
-    if os.path.isfile('.dev'):
-        verbose = True
-        legacy = True
-        user_options.append('v')
-        user_options.append('x')
-
-    if undo_dev == True:
-        verbose = False
-        legacy = False
-        user_options.remove('v')
-        user_options.remove('x')
-
     if user_options != []:
+        # Set verbose and legacy to always be true if in dev environment
+        if os.path.isfile('.dev') and undo_dev == False:
+            verbose = True
+            legacy = True
+            user_options.append('x')
+
         # Handle global options
         for option in user_options:
             if option == 'g':
                 user_options = [option for option in options if option not in non_g_options]
             if option in non_g_options and option not in user_options:
                 user_options.append(option)
+
         # Remove special options from the list
         for hide_option in hide_options:
             if hide_option in user_options:
                 user_options.remove(hide_option)
+
+        # Create user options string
         if user_options != []:
             user_options = f' (-{"".join(user_options)})'
         else:

@@ -19,7 +19,7 @@ def generate_config(region_data):
 
                 def write_entry(string, comment=False):
                     if comment == True:
-                        output_file.writelines(f'\n  #- {string}')
+                        output_file.writelines(f'\n  # - {string}')
                     else:
                         output_file.writelines(f'\n  - {string}')
 
@@ -84,6 +84,11 @@ def write_dat_file(input_dat, user_input, output_file_name, stats, titles, REGEX
                     rom_xml = []
 
                     for rom in title.roms:
+                        if rom.crc == '':
+                            crc_string = ''
+                        else:
+                            crc_string = f'crc="{rom.crc}" '
+
                         if rom.md5 == '':
                             md5_string = ''
                         else:
@@ -94,7 +99,7 @@ def write_dat_file(input_dat, user_input, output_file_name, stats, titles, REGEX
                         else:
                             sha1_string = f'sha1="{rom.sha1}" '
                         rom_xml.append(
-                            f'\n\t\t<rom crc="{rom.crc}" {md5_string}'
+                            f'\n\t\t<rom {crc_string}{md5_string}'
                             f'name="{html.escape(rom.name, quote=False)}" {sha1_string}'
                             f'size="{rom.size}"/>')
 

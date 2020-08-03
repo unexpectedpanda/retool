@@ -50,7 +50,6 @@ def get_title_count(titles, is_folder):
     """ Gets the final title count """
     final_title_count = 0
     if len(titles.all) == 0:
-        print(f'{Font.warning}\n* No titles found. No dat file has been created.\n{Font.end}')
         if is_folder == False:
             sys.exit()
         else:

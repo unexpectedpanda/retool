@@ -162,10 +162,18 @@ def dat_to_dict(region, region_data, input_dat, user_input, compilations_found, 
                 if compilation_check == True:
                     continue
 
-        # Drop xml nodes that don't have roms or disks specified
+        # Drop XML nodes that don't have roms or disks specified
         if (
             node.rom == None
             and node.disk == None):
+            continue
+
+        # Drop XML nodes that don't have at least one hash specified for roms
+        if (
+            'crc' not in str(node.rom)
+            and 'md5' not in str(node.rom)
+            and 'sha1' not in str(node.rom)
+        ):
             continue
 
         # Get the group name for the current node, then add it to the groups list
@@ -181,10 +189,68 @@ def dat_to_dict(region, region_data, input_dat, user_input, compilations_found, 
         if user_input.filter_languages == True:
             for disc_title in groups[group_name]:
                 language_found = False
+
                 for language in user_input.user_languages:
-                    if language in disc_title.languages:
+                    if bool(re.search(language, disc_title.languages)) == True:
                         language_found = True
-                if language_found == False and disc_title.languages != '':
+
+                    # Handle regions with no languages specified
+                    if disc_title.languages == '':
+                        # Handle the "Asia" region
+                        if (
+                            'Asia' in disc_title.regions
+                            and (
+                                language == region_data.languages_key['English']
+                                or language == region_data.languages_key['Chinese']
+                                or language == region_data.languages_key['Japanese']
+                            )):
+                                language_found = True
+                        # Handle Hong Kong and Taiwan
+                        elif (
+                            (
+                                'Hong Kong' in disc_title.regions
+                                or 'Taiwan' in disc_title.regions
+                            )
+                            and (
+                                language == region_data.languages_key['Chinese']
+                                or language == region_data.languages_key['English']
+                            )):
+                                language_found = True
+                        # Handle Latin America
+                        elif (
+                            'Latin America' in disc_title.regions
+                            and (
+                                language == region_data.languages_key['Spanish']
+                                or language == region_data.languages_key['Portuguese']
+                            )):
+                                language_found = True
+                        # Handle South Africa
+                        elif (
+                            'South Africa' in disc_title.regions
+                            and (
+                                language == region_data.languages_key['Afrikaans']
+                                or language == region_data.languages_key['English']
+                            )):
+                                language_found = True
+                        # Handle Switzerland
+                        elif (
+                            'Switzerland' in disc_title.regions
+                            and (
+                                language == region_data.languages_key['German']
+                                or language == region_data.languages_key['French']
+                                or language == region_data.languages_key['Italian']
+                            )):
+                                language_found = True
+                        # Handle Ukraine
+                        elif (
+                            'Ukraine' in disc_title.regions
+                            and (
+                                language == region_data.languages_key['Ukranian']
+                                or language == region_data.languages_key['Russian']
+                            )):
+                                language_found = True
+
+                if language_found == False and 'Unknown' not in disc_title.regions:
                     if disc_title in groups[group_name]: groups[group_name].remove(disc_title)
 
         progress_old = progress_percent

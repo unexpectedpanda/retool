@@ -30,7 +30,7 @@ from modules.xml import dat_to_dict, process_input_dat
 # Require at least Python 3.8
 assert sys.version_info >= (3, 8)
 
-__version__ = '0.75'
+__version__ = '0.76'
 
 def main():
     # Start a timer from when the process started
@@ -213,21 +213,25 @@ def main():
         else:
             stats.final_title_count = get_title_count(titles, is_folder)
 
-        # Name the output file
-        output_file_name = (
-            os.path.join(
-                user_input.output_folder_name,
-                f'{input_dat.name} ({str("{:,}".format(stats.final_title_count))}) ({input_dat.version}) '
-                f'[1G1R]{user_input.user_options} (Retool {datetime.datetime.now().strftime("%Y-%m-%d %H-%M-%SS")[:-1]}).dat'))
+        if stats.final_title_count != 0:
+            # Name the output file
+            output_file_name = (
+                os.path.join(
+                    user_input.output_folder_name,
+                    f'{input_dat.name} ({str("{:,}".format(stats.final_title_count))}) ({input_dat.version}) '
+                    f'[1G1R]{user_input.user_options} (Retool {datetime.datetime.now().strftime("%Y-%m-%d %H-%M-%SS")[:-1]}).dat'))
 
-        # Write the output dat file
-        write_dat_file(input_dat, user_input, output_file_name, stats, titles, REGEX)
+            # Write the output dat file
+            write_dat_file(input_dat, user_input, output_file_name, stats, titles, REGEX)
 
-        # Report stats
-        report_stats(stats, titles, user_input, input_dat, region_data)
+            # Report stats
+            report_stats(stats, titles, user_input, input_dat, region_data)
 
         # Start the loop again if processing a folder
-        if stats.final_title_count == 0 and is_folder == True: return
+        else:
+            print(f'{Font.warning}\n* No titles found. No dat file has been created.\n{Font.end}')
+
+        if is_folder == True: continue
 
     # Stop the timer
     stop_time = time.time()
