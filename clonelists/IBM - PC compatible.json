@@ -3,7 +3,7 @@
 		"name": [
 			"IBM - PC compatible"
 		],
-		"last updated": "2 August 2020"
+		"last updated": "9 August 2020"
 	},
 
 	"compilations": [
@@ -1439,6 +1439,17 @@
 		"Descent - Anniversary Edition": [
 			["Descent I and II - The Definitive Collection (Disc 1)", -1]
 		],
+		"Descent - FreeSpace - Silent Threat": [
+			["Conflict - FreeSpace - Silent Threat", 1]
+		],
+		"Descent - FreeSpace - The Great War (Disc 1)": [
+			["Conflict - FreeSpace - The Great War (Disc 1)", 1],
+			["Freespace (Disc 1)", 1]
+		],
+		"Descent - FreeSpace - The Great War (Disc 2)": [
+			["Conflict - FreeSpace - The Great War (Disc 2)", 1],
+			["Freespace (Disc 2)", 1]
+		],
 		"Descent - Levels of the World": [
 			["Descent I and II - The Definitive Collection (Disc 1)", -1]
 		],
@@ -1528,6 +1539,9 @@
 		],
 		"Die by the Sword - Limb from Limb": [
 			["Die by the Sword - Das Schwert des Schicksals", 1]
+		],
+		"Die Hard - Nakatomi Plaza": [
+			["Stirb Langsam - Nakatomi Plaza", 1]
 		],
 		"Dino Crisis": [
 			["Dino Crisis - Nashestvie tvarej", 1]
@@ -1844,6 +1858,9 @@
 		],
 		"Dungeon Siege II (Disc 1)": [
 			["Dungeon Siege II (Install Disc 1 & Play Disc)", 1]
+		],
+		"E.T. The Extra-Terrestrial - Phone Home Adventure": [
+			["E.T. - The Extra-Terrestrial", 1]
 		],
 		"Earth 2150 - Escape from the Blue Planet (Disc 1) (Installation)": [
 			["Earth 2150 - Escape from the Blue Planet", 0],
@@ -2265,6 +2282,9 @@
 		"FlatOut 2 (Disc 5)": [
 			["FlatOut 2", 0]
 		],
+		"Fleet Command": [
+			["Jane's Combat Simulations - Fleet Command", 2]
+		],
 		"Fleet Defender": [
 			["Fleet Defender Gold", -1]
 		],
@@ -2335,13 +2355,16 @@
 		],
 		"FreeSpace 2 (Disc 1)": [
 			["FreeSpace 2 (Disc 1) (Sci-Fi Sim of the Year Edition)", -1],
+			["Freespace 2 (Disc 1)", 1],
 			["CD-Action 07-2002 (75) (Disc 1)", 2]
 		],
 		"FreeSpace 2 (Disc 2)": [
-			["FreeSpace 2 (Disc 2) (Sci-Fi Sim of the Year Edition)", -1]
+			["FreeSpace 2 (Disc 2) (Sci-Fi Sim of the Year Edition)", -1],
+			["Freespace 2 (Disc 2)", 1]
 		],
 		"FreeSpace 2 (Disc 3)": [
-			["FreeSpace 2 (Disc 3) (Sci-Fi Sim of the Year Edition)", -1]
+			["FreeSpace 2 (Disc 3) (Sci-Fi Sim of the Year Edition)", -1],
+			["Freespace 2 (Disc 3)", 1]
 		],
 		"Front Page Sports - Golf": [
 			["Sierra Sports Golf", 1]
@@ -2996,17 +3019,25 @@
 		"Jane's Combat Simulations - USNF '97": [
 			["Jane's Combat Simulations - Fighters Anthology (Disc 1)", -1]
 		],
-		"Jerusalem - Les Trois Chemins de la Ville Sainte (Disc 1)": [
+		"Jerusalem - The 3 Roads to the Holy Land (Disc 1)": [
+			["Jerusalem - Les Trois Chemins de la Ville Sainte (Disc 1)", 1],
 			["Jerusalem - Die Heilige Stadt (Disc 1)", 1],
 			["Jerusalem - Il Pugnale Ritrovato (Disc 1)", 1]
 		],
-		"Jerusalem - Les Trois Chemins de la Ville Sainte (Disc 2)": [
+		"Jerusalem - The 3 Roads to the Holy Land (Disc 2)": [
+			["Jerusalem - Les Trois Chemins de la Ville Sainte (Disc 2)", 1],
 			["Jerusalem - Die Heilige Stadt (Disc 2)", 1],
 			["Jerusalem - Il Pugnale Ritrovato (Disc 2)", 1]
 		],
 		"Jetfighter II (CE72FAB1)": [
 			["CD-ROM Play 6-95", 1],
 			["Jetfighter II (C37D8FF9)", 2]
+		],
+		"Jetfighter IV - Fortress America (Disc 1) (Install)": [
+			["Jetfighter IV - Fortress America", 0]
+		],
+		"Jetfighter IV - Fortress America (Disc 2) (High Resolution Scenery)": [
+			["Jetfighter IV - Fortress America", 0]
 		],
 		"Jewel Quest & Jewel Quest II": [
 			["Jewel Quest Collection", -1]
@@ -3688,6 +3719,12 @@
 		"Mobile Forces": [
 			["CD-Action 03-2004 (97) (Disc 1)", 1]
 		],
+		"Mods and Maps - More than 1000 Maps for Counter-Strike (Disc 1)": [
+			["Mods and Maps - More than 1000 Maps for Counter-Strike", 0]
+		],
+		"Mods and Maps - More than 1000 Maps for Counter-Strike (Disc 2)": [
+			["Mods and Maps - More than 1000 Maps for Counter-Strike", 0]
+		],
 		"Monaco Grand Prix Racing Simulation 2": [
 			["Racing Simulation 2", 1]
 		],
@@ -4211,6 +4248,7 @@
 			["Police Quest - SWAT 2 (5012E377)", 2]
 		],
 		"Populous - The Beginning": [
+			["Shangdi Ye Fengkuang", 1],
 			["PC Action 11-98", 2]
 		],
 		"Port Royale - Gold, Power and Pirates": [
@@ -4925,13 +4963,13 @@
 			["Siedler, Die", 1]
 		],
 		"Settlers, The - Heritage of Kings (Disc 1)": [
-			["The Settlers - Heritage of Kings - Gold Edition", -1]
+			["Settlers, The - Heritage of Kings - Gold Edition", -1]
 		],
 		"Settlers, The - Heritage of Kings (Disc 2)": [
-			["The Settlers - Heritage of Kings - Gold Edition", -1]
+			["Settlers, The - Heritage of Kings - Gold Edition", -1]
 		],
 		"Settlers, The - Heritage of Kings - Expansion Disc": [
-			["The Settlers - Heritage of Kings - Gold Edition", -1]
+			["Settlers, The - Heritage of Kings - Gold Edition", -1]
 		],
 		"Settlers II, The - Veni, Vidi, Vici": [
 			["Saga The Settlers I-IV (The Settlers I + II)", -1],
@@ -5213,6 +5251,9 @@
 		"SimCity Classic": [
 			["SimCity Classic (Deluxe Edition)", -1],
 			["Bestseller Games Ausgabe 14", 1]
+		],
+		"SimCoaster": [
+			["Theme Park Manager", 1]
 		],
 		"SimFarm - SimCity's Country Cousin": [
 			["SimFarm", 1]

@@ -393,7 +393,7 @@
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.001",
-        "edition": "Special Edition"
+        "edition": "Original, Special Edition"
     },
     "Dino Island - Yokoku-hen (Japan)": {
         "secondary_name": "だいなあいらん　予告編",
@@ -1586,11 +1586,11 @@
     "Koutetsu Reiiki - Steeldom (Japan) (2M)": {
         "secondary_name": "鋼鉄霊域　（スティールダム）",
         "group_name": "Koutetsu Reiiki - Steeldom",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.001",
-        "edition": "Original"
+        "edition": "Original, Taisen Cable Doukonban"
     },
     "Mansion of Hidden Souls, The (Europe) (4S)": {
         "secondary_name": "",
@@ -3996,9 +3996,9 @@
         "edition": "Original"
     },
     "Time Bokan Series - Bokan to Ippatsu! Doronboo Kanpekiban (Japan)": {
-        "secondary_name": "タイムボカンシ・リーズ　ボカンと一発！ドロンボー　～完璧版～",
+        "secondary_name": "タイムボカンシ・リーズ　ボカンと一発！ドロンボー　【完璧版】",
         "group_name": "Time Bokan Series - Bokan to Ippatsu! Doronboo Kanpekiban",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.003",
@@ -4398,7 +4398,7 @@
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.001",
-        "edition": "Special Edition"
+        "edition": "Original, Special Edition"
     },
     "Preview Sega Saturn Vol. 1 (Europe)": {
         "secondary_name": "",
@@ -4697,14 +4697,14 @@
         "version": "1.019",
         "edition": "Original"
     },
-    "Sakura Taisen (Japan) (Disc 1) (8M)": {
+    "Sakura Taisen (Japan) (Disc 1) (8M, 13M)": {
         "secondary_name": "サクラ大戦",
         "group_name": "Sakura Taisen",
         "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.005",
-        "edition": "Original"
+        "edition": "Original, Satakore"
     },
     "Stakes Winner - GI Kanzen Seiha e no Michi (Japan)": {
         "secondary_name": "ステークス・ウィナー　～ＧＩ完全制覇への道～",
@@ -5483,7 +5483,7 @@
     "WarCraft II - The Dark Saga (Japan)": {
         "secondary_name": "ウォークラフトⅡ　～ダーク・サーガ～",
         "group_name": "WarCraft II - The Dark Saga",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.000",
@@ -8813,7 +8813,7 @@
     "Sangokushi IV (Japan)": {
         "secondary_name": "三國志Ⅳ",
         "group_name": "Sangokushi IV",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.000",
@@ -8934,7 +8934,7 @@
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.005",
-        "edition": "Original, Tokubetsu Genteiban B type"
+        "edition": "Original, Satakore, Tokubetsu Genteiban B type"
     },
     "Jonah Lomu Rugby (Europe)": {
         "secondary_name": "",
@@ -9303,7 +9303,7 @@
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.001",
-        "edition": "Special Edition"
+        "edition": "Original, Special Edition"
     },
     "Super Puzzle Fighter II Turbo (Europe)": {
         "secondary_name": "",
@@ -10313,7 +10313,7 @@
         "version": "1.005",
         "edition": "Original"
     },
-    "Bootleg Sampler (USA) (9S, 17S)": {
+    "Bootleg Sampler (USA) (8S, 9S, 17S)": {
         "secondary_name": "",
         "group_name": "Bootleg Sampler",
         "status": "Green",
@@ -10631,7 +10631,7 @@
     "Arthur to Astaroth no Nazo Makaimura - Incredible Toons (Japan)": {
         "secondary_name": "アーサーとアスタロトの謎魔界村　～インクレディブル・トゥーンズ～",
         "group_name": "Arthur to Astaroth no Nazo Makaimura - Incredible Toons",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.002",
@@ -10649,7 +10649,7 @@
     "Sankyo Fever - Jikki Simulation S Vol. 3 (Japan)": {
         "secondary_name": "ＳＡＮＫＹＯ　ＦＥＶＥＲ　実機シミュレーションＳ　Ｖｏｌ．３",
         "group_name": "Sankyo Fever - Jikki Simulation S Vol. 3",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.002",
@@ -12197,7 +12197,7 @@
     "Casper (Japan)": {
         "secondary_name": "キャスパー",
         "group_name": "Casper",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.001",
@@ -14672,7 +14672,7 @@
     "GeGeGe no Kitarou - Gentou Kaikitan (Japan)": {
         "secondary_name": "ゲゲゲの鬼太郎　～幻冬怪奇譚～",
         "group_name": "GeGeGe no Kitarou - Gentou Kaikitan",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.004",
@@ -14933,11 +14933,11 @@
     "Grandia (Japan) (Disc 1) (4M)": {
         "secondary_name": "グランディア",
         "group_name": "Grandia",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.002",
-        "edition": "Memorial Package"
+        "edition": "Original, Memorial Package"
     },
     "Striker 96 (Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "",
@@ -15068,11 +15068,11 @@
     "Samurai Spirits - Zankurou Musouken (Japan)": {
         "secondary_name": "サムライ・スピリッツ　～斬紅郎無双剣～",
         "group_name": "Samurai Spirits - Zankurou Musouken",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.009",
-        "edition": "Samurai Spirits Best Collection"
+        "edition": "Original, Samurai Spirits Best Collection"
     },
     "Actua Soccer - Club Edition (Europe)": {
         "secondary_name": "",
@@ -15590,7 +15590,7 @@
     "Momotarou Douchuuki (Japan) (2M)": {
         "secondary_name": "桃太郎道中記",
         "group_name": "Momotarou Douchuuki",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.001",
@@ -15621,7 +15621,7 @@
         "disc_type": "CD",
         "languages": "En, Ja, Pt, Es",
         "version": "1.001",
-        "edition": "Original, Samurai Spirits Best Collection"
+        "edition": "Original, Samurai Spirits Best Collection, Kakuchou Ram Doukon Okaidoku Set!!"
     },
     "Tanjou - Debut S (Japan) (1M)": {
         "secondary_name": "誕生Ｓ　～Ｄｅｂｕｔ～",
@@ -16346,7 +16346,7 @@
     "Bug Too! Motto Motto Jump Shite, Funzukechatte, Petchanko (Japan)": {
         "secondary_name": "バグ・トゥー！　～もっともっと・ジャンプ・して、ふんづけちゃって、ぺっちゃんこ～",
         "group_name": "Bug Too! Motto Motto Jump Shite, Funzukechatte, Petchanko",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.000",
@@ -17030,7 +17030,7 @@
     "Silhouette Mirage (Japan)": {
         "secondary_name": "シルエット・ミラージュ",
         "group_name": "Silhouette Mirage",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.003",
@@ -20693,7 +20693,7 @@
     "Kakyuusei (Japan) (Disc 1)": {
         "secondary_name": "下級生",
         "group_name": "Kakyuusei",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.002",
@@ -20787,6 +20787,51 @@
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.000",
+        "edition": "Original"
+    },
+    "Langrisser III (Japan) (Rev A) (5M)": {
+        "secondary_name": "ラングリッサーⅢ",
+        "group_name": "Langrisser III",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "1.010",
+        "edition": "Satakore"
+    },
+    "Stellar Assault SS (Japan) (Demo)": {
+        "secondary_name": "ステラ・アサルト・ダブル・エス",
+        "group_name": "Stellar Assault SS",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "0.012",
+        "edition": "Taikenban"
+    },
+    "Street Fighter - Real Battle on Film (Japan) (2M)": {
+        "secondary_name": "ストリート・ファイター　リアル・バトル・オン・フィルム",
+        "group_name": "Street Fighter - Real Battle on Film",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "1.001",
+        "edition": "Original"
+    },
+    "Saturn Super Henshuubu Hen - Taikenban Saturn Soft Taizen (Japan) (1M)": {
+        "secondary_name": "サターン・スーパー　編集部　編　体験版サターンソフト大全",
+        "group_name": "Saturn Super Henshuubu Hen - Taikenban Saturn Soft Taizen",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "1.000",
+        "edition": "Bundled with Magazine"
+    },
+    "Game no Tatsujin (Japan) (Rev A)": {
+        "secondary_name": "ゲームの達人",
+        "group_name": "Game no Tatsujin",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "2.000",
         "edition": "Original"
     }
 }

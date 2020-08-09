@@ -1919,7 +1919,7 @@
     "Yume Baken '99 - Internet (Japan)": {
         "secondary_name": "夢馬券’９９　インターネット",
         "group_name": "Yume Baken '99 - Internet",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "GD-ROM",
         "languages": "Ja",
         "version": "1.003",
@@ -2036,7 +2036,7 @@
     "Taxi 2 - Le Jeu (France)": {
         "secondary_name": "",
         "group_name": "Taxi 2 - Le Jeu",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "GD-ROM",
         "languages": "Fr",
         "version": "1.000",
@@ -3395,7 +3395,7 @@
     "Soul Fighter (Europe)": {
         "secondary_name": "",
         "group_name": "Soul Fighter",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "GD-ROM",
         "languages": "En",
         "version": "1.000",
@@ -4511,7 +4511,7 @@
     "Rez (Europe) (En,Ja,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "Rez",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "GD-ROM",
         "languages": "En, Fr, De, It, Ja, Es",
         "version": "1.003",
@@ -5510,7 +5510,7 @@
     "Kanon (Japan)": {
         "secondary_name": "カノン",
         "group_name": "Kanon",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "GD-ROM",
         "languages": "Ja",
         "version": "1.005",
@@ -9623,7 +9623,7 @@
     "Tom Clancy's Rainbow Six with Eagle Watch Missions (USA)": {
         "secondary_name": "",
         "group_name": "Tom Clancy's Rainbow Six with Eagle Watch Missions",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "GD-ROM",
         "languages": "En",
         "version": "1.004",
@@ -11270,7 +11270,7 @@
     "Samba de Amigo (Japan)": {
         "secondary_name": "サンバＤＥアミーゴ",
         "group_name": "Samba de Amigo",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "GD-ROM",
         "languages": "Ja",
         "version": "1.000",
