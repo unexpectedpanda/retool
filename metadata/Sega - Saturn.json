@@ -1406,7 +1406,7 @@
     "Metal Black (Japan) (1M)": {
         "secondary_name": "メタル・ブラック",
         "group_name": "Metal Black",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "1.000",
@@ -6014,7 +6014,7 @@
     "World Series Baseball 98 (USA)": {
         "secondary_name": "",
         "group_name": "World Series Baseball 98",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "1.006",
@@ -8354,7 +8354,7 @@
     "Wizard's Harmony 2 (Japan) (1M)": {
         "secondary_name": "ウィザーズ・ハーモニー２",
         "group_name": "Wizard's Harmony 2",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.002",
@@ -8858,7 +8858,7 @@
     "Steep Slope Sliders (USA)": {
         "secondary_name": "",
         "group_name": "Steep Slope Sliders",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "1.000",
@@ -9119,11 +9119,11 @@
     "Virtua Cop (USA) (6S)": {
         "secondary_name": "",
         "group_name": "Virtua Cop",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "1.001",
-        "edition": "Bundled with Stunner Arcade Gun"
+        "edition": "Bundled with Stunner Arcade Gun (Not for Resale)"
     },
     "Deroon Dero Dero (Japan) (1M)": {
         "secondary_name": "でろ～んでろでろ",
@@ -9294,7 +9294,7 @@
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.002",
-        "edition": "Genteiban"
+        "edition": "Original, Genteiban"
     },
     "MeltyLancer - Re-inforce (Japan) (Disc 3)": {
         "secondary_name": "メルティランサー　リ・インフォース",
@@ -13592,11 +13592,11 @@
     "Next King - Koi no Sennen Oukoku (Japan)": {
         "secondary_name": "ネクスト・キング　～恋の千年王国～",
         "group_name": "Next King - Koi no Sennen Oukoku",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.001",
-        "edition": "Shokai Genteiban"
+        "edition": "Original, Shokai Genteiban"
     },
     "Mahjong Gakuensai (Japan) (Disc 2) (Seiyuu Interview Hi CD) (Shokai Genteiban)": {
         "secondary_name": "麻雀　学園祭",
@@ -13853,7 +13853,7 @@
     "Tempest 2000 (USA)": {
         "secondary_name": "",
         "group_name": "Tempest 2000",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "1.000",
@@ -15072,7 +15072,7 @@
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.009",
-        "edition": "Original, Samurai Spirits Best Collection"
+        "edition": "Original, Doukonban, Samurai Spirits Best Collection"
     },
     "Actua Soccer - Club Edition (Europe)": {
         "secondary_name": "",
@@ -16436,11 +16436,11 @@
     "Farland Saga - Toki no Michishirube (Japan)": {
         "secondary_name": "ファーランド・サーガ　～時の道標～",
         "group_name": "Farland Saga - Toki no Michishirube",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.000",
-        "edition": "Shokai Genteiban"
+        "edition": "Original, Shokai Genteiban"
     },
     "Rise 2 - Resurrection (USA) (En,Fr,De,Es,It)": {
         "secondary_name": "",

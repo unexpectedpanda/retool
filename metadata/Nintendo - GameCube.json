@@ -945,7 +945,7 @@
         "edition": "Original, Okaidoku GBA Cable Pack"
     },
     "Konjiki no Gashbell!! Go! Go! Mamono Fight!! (Japan)": {
-        "secondary_name": "金色のガッシュベル！！ゴー！ゴー！魔物ファイト！！",
+        "secondary_name": "金色のガッシュベル！！　ゴー！ゴー！魔物ファイト！！",
         "group_name": "Konjiki no Gashbell!! Go! Go! Mamono Fight!!",
         "status": "Green",
         "disc_type": "Nintendo GameCube Game Disc",
@@ -11511,7 +11511,7 @@
         "edition": "Original"
     },
     "Bobobo-bo Bo-bobo Dassutsu! Hajike Royale (Japan)": {
-        "secondary_name": "ボボボーボ・ボーボボ 脱出!! ハジケ・ロワイヤル",
+        "secondary_name": "ボボボーボ・ボーボボ　脱出！！　ハジケ・ロワイヤル",
         "group_name": "Bobobo-bo Bo-bobo Dassutsu! Hajike Royale",
         "status": "Blue",
         "disc_type": "Nintendo GameCube Game Disc",
@@ -14078,11 +14078,11 @@
     "Game Boy Player Start-Up Disc (Japan) (Rev 2)": {
         "secondary_name": "ゲームボーイプレーヤー　スタートアップディスク",
         "group_name": "Game Boy Player Start-Up Disc",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "Nintendo GameCube Game Disc",
         "languages": "Ja",
         "version": "Rev 2",
-        "edition": "Original"
+        "edition": "Original, Bundled with GameCube"
     },
     "Interactive Multi-Game Demo Disc Version 23 (USA)": {
         "secondary_name": "",

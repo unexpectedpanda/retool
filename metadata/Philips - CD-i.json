@@ -128,7 +128,7 @@
     "Mad Dog II - The Lost Gold (Europe)": {
         "secondary_name": "",
         "group_name": "Mad Dog II - The Lost Gold",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "1.04",
@@ -236,7 +236,7 @@
     "Marco Polo (Europe) (Disc 2) (The Documentation)": {
         "secondary_name": "",
         "group_name": "Marco Polo",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "1.03",
@@ -821,7 +821,7 @@
     "Marco Polo (Europe) (Disc 1) (The Game)": {
         "secondary_name": "",
         "group_name": "Marco Polo",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "1.03",
@@ -1181,7 +1181,7 @@
     "Alice in Wonderland (Europe)": {
         "secondary_name": "",
         "group_name": "Alice in Wonderland",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",

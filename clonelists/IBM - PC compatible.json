@@ -3,7 +3,7 @@
 		"name": [
 			"IBM - PC compatible"
 		],
-		"last updated": "9 August 2020"
+		"last updated": "17 August 2020"
 	},
 
 	"compilations": [
@@ -272,7 +272,8 @@
 			["Da Moyu - Bainiao Chuanshuo (Disc 4)", 1]
 		],
 		"Ankh": [
-			["Ankh - Ultimate Edition (Ankh-Spiele)", -1]
+			["Ankh - Ultimate Edition (Ankh-Spiele)", -1],
+			["Ankh - Serce Ozyrysa", 1]
 		],
 		"Anno 1503 (Disc 1)": [
 			["Anno 1503 - Koenigs-Edition", -1],
@@ -1301,6 +1302,18 @@
 			["Counter-Strike - Condition Zero (Disc 2) (Spiel-CD)", 1],
 			["Fan-Kong Jingying - Ling-Dian Xingdong (Play Disc)", 1]
 		],
+		"Counter-Strike - Source (Disc 1)": [
+			["Counter-Strike - Source", -1]
+		],
+		"Counter-Strike - Source (Disc 2)": [
+			["Counter-Strike - Source", -1]
+		],
+		"Counter-Strike - Source (Disc 3)": [
+			["Counter-Strike - Source", -1]
+		],
+		"Counter-Strike - Source (Disc 4)": [
+			["Counter-Strike - Source", -1]
+		],
 		"Crazy Chicken Approaching": [
 			["Moorhuhn Action - Im Anflug", 1]
 		],
@@ -1479,6 +1492,9 @@
 			["Deus Ex Complete", -1],
 			["Deus Ex", 2]
 		],
+		"Deus Ex - Human Revolution": [
+			["Deus Ex - Human Revolution - Director's Cut (Disc 1)", -1]
+		],
 		"Deus Ex - Invisible War (Disc 1) (Game Disc)": [
 			["Deus Ex Complete", -1],
 			["Deus Ex - Invisible War", 0],
@@ -1598,6 +1614,9 @@
 		"Disney's Atlantis - The Lost Games": [
 			["Disney Atlantis - L'Impero Perduto - Bottega dei Giochi", 1]
 		],
+		"Disney's Beauty and the Beast - Magical Ballroom": [
+			["Disney La Bella e la Bestia - Il Ballo Magico", 1]
+		],
 		"Disney's Donald Duck - Goin' Quackers": [
 			["Disney's Donald Duck - Quack Attack", 1],
 			["Szalone Przygody Kaczora Donalda", 1]
@@ -1614,12 +1633,29 @@
 		"Disney's Lilo & Stitch - Trouble in Paradise!": [
 			["Disneys Lilo & Stitch - Trubbel i Paradiset", 1]
 		],
+		"Disney's Mickey Mouse Kindergarten": [
+			["Disney Topolino Asilo", 1]
+		],
+		"Disney's Mickey Mouse Toddler": [
+			["Disney Topolino Primi Passi", 1]
+		],
 		"Disney's Pocahontas - Animated StoryBook": [
 			["Disneys Interaktiva Filmbok - Pocahontas", 1]
+		],
+		"Disney's Princess Fasion Boutique": [
+			["Disney Vesti la Principessa", 1]
 		],
 		"Disney's The Emperor's New Groove Action Game": [
 			["Disney Le Follie dell'Imperatore", 1],
 			["Disneys Ein Koenigreich fuer ein Lama - Action Game", 1]
+		],
+		"Disney's The Lion King II - Simba's Pride": [
+			["Disney Il Re Leone II - Il Regno di Simba - Gamebreak!", 1],
+			["Disney's The Lion King II - Simba's Pride - Paddle Bash Plus Bonus Game Conga Longa", 1]
+		],
+		"Disney's The Little Mermaid II - Return to the Sea": [
+			["Disney La Sirenetta II - Il Ritorno al Mare - Bottega dei Giochi", 1],
+			["Disney's Hot Shots - The Little Mermaid II - Return to the Sea - Disney's Activity Centre", 1]
 		],
 		"Disney's Winnie the Pooh - Preschool": [
 			["Disney Winnie the Pooh - Prescolare", 1]
@@ -1632,6 +1668,9 @@
 		],
 		"Disney-Pixar Finding Nemo - Nemo's Underwater World of Fun Special Edition": [
 			["Disney-Pixar Finding Nemo - Nemo's Underwater World of Fun", 1]
+		],
+		"Disney-Pixar Monsters, Inc. - Bowling for Screams": [
+			["Disney-Pixar Monsters & Co. - Un Bowling da Urlo", 1]
 		],
 		"Disney-Pixar Monsters, Inc. - Scare Island": [
 			["Disney-Pixar Monsters, Inc. - Skraemmaroen", 1]
@@ -2368,6 +2407,18 @@
 		],
 		"Front Page Sports - Golf": [
 			["Sierra Sports Golf", 1]
+		],
+		"Full Spectrum Warrior - Ten Hammers (Disc 1)": [
+			["Full Spectrum Warrior - Ten Hammers", -1]
+		],
+		"Full Spectrum Warrior - Ten Hammers (Disc 2)": [
+			["Full Spectrum Warrior - Ten Hammers", -1]
+		],
+		"Full Spectrum Warrior - Ten Hammers (Disc 3)": [
+			["Full Spectrum Warrior - Ten Hammers", -1]
+		],
+		"Full Spectrum Warrior - Ten Hammers (Disc 4)": [
+			["Full Spectrum Warrior - Ten Hammers", -1]
 		],
 		"G-Nome": [
 			["Bestseller Games Gold-Edition Ausgabe 17", 2]
@@ -4680,6 +4731,9 @@
 		"Rise of the Triad - The HUNT Begins": [
 			["Rise of the Triad - The HUNT Begins (Deluxe Edition)", -1],
 			["Rise of the Triad - The HUNT Begins (C03ACA6B)", 1]
+		],
+		"Rising Lands": [
+			["Rising Lands - Alla Riconquista della Civilta", 1]
 		],
 		"Risk - The World Conquest Game (Disc 1)": [
 			["Risk - The Game of Global Domination", 0],
