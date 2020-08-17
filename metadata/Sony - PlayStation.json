@@ -497,7 +497,7 @@
     "Primal Rage (USA)": {
         "secondary_name": "",
         "group_name": "Primal Rage",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -4527,7 +4527,7 @@
         "edition": "Original"
     },
     "Final Fantasy IX (Japan, Asia) (Disc 4)": {
-        "secondary_name": "ファイナルファンタジーＩＸ",
+        "secondary_name": "ファイナルファンタジーⅨ",
         "group_name": "Final Fantasy IX",
         "status": "Green",
         "disc_type": "CD",
@@ -11799,7 +11799,7 @@
         "edition": "Unlicensed"
     },
     "Sanyo Pachinko Paradise 4 - Sushiya da Gen-san!! (Japan)": {
-        "secondary_name": "三洋パチンコパラダイス４～寿司屋だ源さん！！～",
+        "secondary_name": "三洋パチンコパラダイス４　～寿司屋だ源さん！！～",
         "group_name": "Sanyo Pachinko Paradise 4 - Sushiya da Gen-san!!",
         "status": "Blue",
         "disc_type": "CD",
@@ -18180,7 +18180,7 @@
         "edition": "Original"
     },
     "Sanyo Pachinko Paradise 5 - Uki Uki Tairyoubata (Japan)": {
-        "secondary_name": "三洋パチンコパラダイス ５　～ウキウキ大漁旗～",
+        "secondary_name": "三洋パチンコパラダイス５　～ウキウキ大漁旗～",
         "group_name": "Sanyo Pachinko Paradise 5 - Uki Uki Tairyoubata",
         "status": "Blue",
         "disc_type": "CD",
@@ -20414,9 +20414,9 @@
     "RayStorm (Japan) (Demo)": {
         "secondary_name": "レイストーム",
         "group_name": "RayStorm",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Tentou Demo-ban"
     },
@@ -21143,7 +21143,7 @@
     "Novastorm (USA) (Disc 1)": {
         "secondary_name": "",
         "group_name": "Novastorm",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -30579,7 +30579,7 @@
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
-        "edition": "Hyper PlayStation Magazine Special Preview CD-ROM, Dengeki PlayStation Magazine Special Preview CD-ROM, The PlayStation Biweekly Special Preview CD-ROM"
+        "edition": "Hyper PlayStation Magazine Special Preview CD-ROM, Dengeki PlayStation Magazine Special Preview CD-ROM, The PlayStation Biweekly Special Preview CD-ROM, PlayStation Magazine Special Preview CD-ROM"
     },
     "Discworld II - Mortellement Votre (France)": {
         "secondary_name": "",
@@ -37631,7 +37631,7 @@
     "Carnage Heart (USA)": {
         "secondary_name": "",
         "group_name": "Carnage Heart",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -39627,7 +39627,7 @@
         "edition": "Original"
     },
     "Bakusou Kyoudai Let's & Go!! Eternal Wings (Japan)": {
-        "secondary_name": "爆走兄弟レッツ&ゴー!! エターナルウィングス",
+        "secondary_name": "爆走兄弟レッツ&ゴー！！　エターナルウィングス",
         "group_name": "Bakusou Kyoudai Let's & Go!! Eternal Wings",
         "status": "Green",
         "disc_type": "CD",
@@ -41636,7 +41636,7 @@
     "City of Lost Children, The (USA) (En,Es,It)": {
         "secondary_name": "",
         "group_name": "City of Lost Children, The",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En, It, Es",
         "version": "",
@@ -43596,7 +43596,7 @@
         "edition": "Taikenban"
     },
     "Sanyo Pachinko Paradise 2 - Umi Monogatari Special (Japan)": {
-        "secondary_name": "三洋パチンコ・パラダイス２　～海物語・スペシャル～",
+        "secondary_name": "三洋パチンコパラダイス２　～海物語・スペシャル～",
         "group_name": "Sanyo Pachinko Paradise 2 - Umi Monogatari Special",
         "status": "Blue",
         "disc_type": "CD",
@@ -51887,7 +51887,7 @@
     "Carnage Heart (USA) (Mission Briefing)": {
         "secondary_name": "",
         "group_name": "Carnage Heart",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -54218,7 +54218,7 @@
     "Tonka Space Station (USA)": {
         "secondary_name": "",
         "group_name": "Tonka Space Station",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -54261,7 +54261,7 @@
         "edition": "Original"
     },
     "Sanyo Pachinko Paradise 3 - Wanwan Daikoushin (Japan)": {
-        "secondary_name": "三洋パチンコ・パラダイス３　～わんわん大行進～",
+        "secondary_name": "三洋パチンコパラダイス３　～わんわん大行進～",
         "group_name": "Sanyo Pachinko Paradise 3 - Wanwan Daikoushin",
         "status": "Green",
         "disc_type": "CD",
@@ -54344,7 +54344,7 @@
     "Novastorm (USA) (Disc 2)": {
         "secondary_name": "",
         "group_name": "Novastorm",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -54569,7 +54569,7 @@
     "Pinball Power (Europe)": {
         "secondary_name": "",
         "group_name": "Pinball Power",
-        "status": "Green",
+        "status": "Blue",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -56115,7 +56115,7 @@
         "edition": "Original"
     },
     "Final Fantasy IX (Japan, Asia) (Disc 3)": {
-        "secondary_name": "ファイナルファンタジーＩＸ",
+        "secondary_name": "ファイナルファンタジーⅨ",
         "group_name": "Final Fantasy IX",
         "status": "Green",
         "disc_type": "CD",
@@ -58592,7 +58592,7 @@
     "Philosoma (USA)": {
         "secondary_name": "",
         "group_name": "Philosoma",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -61580,7 +61580,7 @@
     "Warzone 2100 (USA)": {
         "secondary_name": "",
         "group_name": "Warzone 2100",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -65484,7 +65484,7 @@
         "edition": "Original, Square Millennium Collection, PSone Books, Ultimate Hits"
     },
     "Final Fantasy IX (Japan, Asia) (Disc 2)": {
-        "secondary_name": "ファイナルファンタジーＩＸ",
+        "secondary_name": "ファイナルファンタジーⅨ",
         "group_name": "Final Fantasy IX",
         "status": "Green",
         "disc_type": "CD",
@@ -70227,7 +70227,7 @@
         "edition": "Original"
     },
     "Final Fantasy IX (Japan, Asia) (Disc 1)": {
-        "secondary_name": "ファイナルファンタジーＩＸ",
+        "secondary_name": "ファイナルファンタジーⅨ",
         "group_name": "Final Fantasy IX",
         "status": "Green",
         "disc_type": "CD",
@@ -76358,7 +76358,7 @@
     "NBA Jam - Tournament Edition (USA)": {
         "secondary_name": "NBA Jam T.E.: Tournament Edition",
         "group_name": "NBA Jam - Tournament Edition",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -77474,7 +77474,7 @@
     "Mummy, The (USA)": {
         "secondary_name": "",
         "group_name": "Mummy, The",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -86321,7 +86321,7 @@
     "Hyper PlayStation Re-mix No. 7 (Japan) (Disc 1)": {
         "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ． ７",
         "group_name": "Hyper PlayStation Re-mix No. 7",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -88929,13 +88929,13 @@
         "edition": "Original"
     },
     "Tamamayu Monogatari - Dennou Bijutsukan (Japan)": {
-        "secondary_name": "玉繭物語 電脳美術館",
+        "secondary_name": "玉繭物語　～電脳美術館～",
         "group_name": "Tamamayu Monogatari - Dennou Bijutsukan",
         "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
-        "edition": "Hibaihin"
+        "edition": "Hibaihin, Muryou Rental-ban"
     },
     "Taikyoku Igo - Shinzui Gosennin (Japan)": {
         "secondary_name": "対局囲碁 真髄・碁仙人",
@@ -93355,5 +93355,23 @@
         "languages": "Da, Nl, En, Fi, Fr, It, No, Pt, Es, Sv",
         "version": "",
         "edition": "Unlicensed"
+    },
+    "Family Gunjin Shougi (Japan)": {
+        "secondary_name": "ファミリー軍人将棋",
+        "group_name": "Family Gunjin Shougi",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Tommi Maekinen Rally (Europe) (En,Fr,De,Es,Fi) (Demo)": {
+        "secondary_name": "",
+        "group_name": "Tommi Maekinen Rally",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En, Fi, Fr, De, Es",
+        "version": "",
+        "edition": "Demo"
     }
 }

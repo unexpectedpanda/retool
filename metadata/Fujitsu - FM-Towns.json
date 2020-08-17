@@ -398,10 +398,10 @@
     "Muscle Bomber - The Body Explosion (Japan)": {
         "secondary_name": "マッスル・ボマー",
         "group_name": "Muscle Bomber - The Body Explosion",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
-        "version": "",
+        "version": "931025",
         "edition": "Original"
     },
     "Psychic Detective Series Vol. 5 - Nightmare (Japan)": {
@@ -855,7 +855,7 @@
         "edition": "Remake"
     },
     "Shooting Towns (Japan)": {
-        "secondary_name": "",
+        "secondary_name": "シューティング・タウンズ",
         "group_name": "Shooting Towns",
         "status": "Blue",
         "disc_type": "CD",
@@ -3004,5 +3004,23 @@
         "languages": "Ja",
         "version": "",
         "edition": "Ving FM Towns Marty Vol. 1"
+    },
+    "Super Shooting Towns (Japan)": {
+        "secondary_name": "スーパー・シューティングＴＯＷＮＳ",
+        "group_name": "Super Shooting Towns",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Wizardry - Crusaders of the Dark Savant (Japan)": {
+        "secondary_name": "",
+        "group_name": "Wizardry - Crusaders of the Dark Savant",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
     }
 }

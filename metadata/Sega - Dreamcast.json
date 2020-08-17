@@ -590,7 +590,7 @@
         "status": "Blue",
         "disc_type": "CD",
         "languages": "En",
-        "version": "",
+        "version": "1.000",
         "edition": "Unlicensed (Kickstarter)"
     },
     "Biohazard - Code - Veronica (Japan) (Disc 2) (Genteiban)": {
@@ -641,7 +641,7 @@
     "Pro Yakyuu Team de Asobou! (Japan)": {
         "secondary_name": "プロ野球チームであそぼう！",
         "group_name": "Pro Yakyuu Team de Asobou!",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "GD-ROM",
         "languages": "Ja",
         "version": "1.005",
@@ -929,7 +929,7 @@
     "Neppachi II - CR Harenchi Gakuen (Japan)": {
         "secondary_name": "ネッパチⅡ　～ＣＲハレンチ学園～",
         "group_name": "Neppachi II - CR Harenchi Gakuen",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "GD-ROM",
         "languages": "Ja",
         "version": "1.003",
@@ -3020,7 +3020,7 @@
         "status": "Blue",
         "disc_type": "CD",
         "languages": "En, Fr, De, It, Es",
-        "version": "",
+        "version": "1.000",
         "edition": "Unlicensed"
     },
     "Grinch, The (Europe) (En,Fr,De,Es,It)": {
@@ -4478,7 +4478,7 @@
         "status": "Blue",
         "disc_type": "CD",
         "languages": "En",
-        "version": "",
+        "version": "1.000",
         "edition": "Unlicensed"
     },
     "Generator Vol. 2 (USA)": {
@@ -5099,7 +5099,7 @@
         "status": "Blue",
         "disc_type": "CD",
         "languages": "En",
-        "version": "",
+        "version": "1.000",
         "edition": "Unlicensed (Rerelease)"
     },
     "Spirit of Speed 1937 (Japan)": {
@@ -5189,17 +5189,17 @@
         "status": "Blue",
         "disc_type": "CD",
         "languages": "En",
-        "version": "",
+        "version": "1.000",
         "edition": "Unlicensed"
     },
     "Phantasy Star Online (Japan) (En,Ja,Fr,De,Es)": {
         "secondary_name": "ファンタシースターオンライン",
         "group_name": "Phantasy Star Online",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "GD-ROM",
         "languages": "En, Fr, De, Ja, Es",
         "version": "1.012",
-        "edition": "Genteiban"
+        "edition": "Original"
     },
     "Dreamkey 3.1 (Spain)": {
         "secondary_name": "",
@@ -6197,7 +6197,7 @@
         "status": "Blue",
         "disc_type": "CD",
         "languages": "En, Fr, De, It, Es",
-        "version": "",
+        "version": "1.000",
         "edition": "Unlicensed"
     },
     "Tako no Marine (Japan)": {
@@ -6239,7 +6239,7 @@
     "Radirgy (Japan)": {
         "secondary_name": "ラジルギ",
         "group_name": "Radirgy",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "GD-ROM",
         "languages": "Ja",
         "version": "1.002",
@@ -6293,7 +6293,7 @@
     "Capcom vs. SNK - Millennium Fight 2000 (Japan)": {
         "secondary_name": "カプコンバーサスエスエヌケイ ミレニアムファイト2000",
         "group_name": "Capcom vs. SNK - Millennium Fight 2000",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "GD-ROM",
         "languages": "Ja",
         "version": "1.001",
@@ -6350,7 +6350,7 @@
         "status": "Blue",
         "disc_type": "CD",
         "languages": "Ja",
-        "version": "",
+        "version": "1.040",
         "edition": "Original"
     },
     "Ecco the Dolphin - Defender of the Future (USA) (En,Fr,De,Es)": {
@@ -6986,7 +6986,7 @@
     "Snow (Japan)": {
         "secondary_name": "スノー",
         "group_name": "Snow",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "GD-ROM",
         "languages": "Ja",
         "version": "1.002",
@@ -7232,7 +7232,7 @@
         "status": "Blue",
         "disc_type": "CD",
         "languages": "En",
-        "version": "",
+        "version": "1.000",
         "edition": "Unlicensed"
     },
     "Shin Seiki Evangelion - Ayanami Ikusei Keikaku (Japan)": {
@@ -7733,7 +7733,7 @@
     "AirForce Delta (Japan)": {
         "secondary_name": "ＡＩＲＦＯＲＣＥ　ＤＥＬＴＡ",
         "group_name": "AirForce Delta",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "GD-ROM",
         "languages": "",
         "version": "1.002",
@@ -8240,7 +8240,7 @@
         "status": "Blue",
         "disc_type": "CD",
         "languages": "En",
-        "version": "",
+        "version": "1.700",
         "edition": "Unlicensed"
     },
     "ESPN International Track & Field (USA)": {
@@ -8759,7 +8759,7 @@
     "Dead or Alive 2 (Japan) (Shokai Genteiban)": {
         "secondary_name": "デッド オア アライブ 2",
         "group_name": "Dead or Alive 2",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "GD-ROM",
         "languages": "Ja",
         "version": "1.002",
@@ -8807,7 +8807,7 @@
         "status": "Blue",
         "disc_type": "CD",
         "languages": "Ja",
-        "version": "",
+        "version": "1.050",
         "edition": "Original"
     },
     "San Francisco Rush 2049 (USA) (En,Fr,De,Es,It,Nl)": {
@@ -9194,7 +9194,7 @@
         "status": "Blue",
         "disc_type": "CD",
         "languages": "En",
-        "version": "",
+        "version": "1.0",
         "edition": "Unlicensed (Rerelease)"
     },
     "Pocke-Kano - Yumi - Shizuka - Fumio (Japan)": {
@@ -10055,7 +10055,7 @@
     "BikkuriMan 2000 - Viva! Festiva! (Japan)": {
         "secondary_name": "ビックリマン 2000: ビバ！フェスチバァ！",
         "group_name": "BikkuriMan 2000 - Viva! Festiva!",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "GD-ROM",
         "languages": "Ja",
         "version": "1.002",
@@ -10958,7 +10958,7 @@
         "status": "Blue",
         "disc_type": "CD",
         "languages": "",
-        "version": "",
+        "version": "1.060",
         "edition": "Unlicensed"
     },
     "Re-Volt (Japan)": {
@@ -11531,7 +11531,7 @@
     "Hundred Swords (Japan)": {
         "secondary_name": "ハンドレッド　ソード",
         "group_name": "Hundred Swords",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "GD-ROM",
         "languages": "Ja",
         "version": "1.005",
@@ -11570,7 +11570,7 @@
         "status": "Blue",
         "disc_type": "CD",
         "languages": "En",
-        "version": "",
+        "version": "1.000",
         "edition": "Unlicensed"
     },
     "Street Fighter III - Double Impact (Europe)": {
@@ -11966,7 +11966,7 @@
         "status": "Blue",
         "disc_type": "CD",
         "languages": "En",
-        "version": "",
+        "version": "1.000",
         "edition": "Unlicensed"
     },
     "Xploder DC (USA) (Unl)": {
@@ -11984,7 +11984,7 @@
         "status": "Blue",
         "disc_type": "CD",
         "languages": "Ja",
-        "version": "",
+        "version": "1.070",
         "edition": "Hibaihin"
     },
     "D2 - Original Sound Track (Japan)": {
@@ -11993,7 +11993,7 @@
         "status": "Blue",
         "disc_type": "CD",
         "languages": "Ja",
-        "version": "",
+        "version": "1.080",
         "edition": "Original"
     },
     "dps - Heartbreak Diary (Japan)": {
@@ -12002,7 +12002,7 @@
         "status": "Blue",
         "disc_type": "CD",
         "languages": "Ja",
-        "version": "",
+        "version": "1.060",
         "edition": "Original"
     },
     "Space Channel 5 Theme Music - Mexican Flyer (Japan)": {
@@ -12011,7 +12011,7 @@
         "status": "Blue",
         "disc_type": "CD",
         "languages": "Ja",
-        "version": "",
+        "version": "1.080",
         "edition": "Not for Sale"
     },
     "DC X-Terminator (Japan) (Unl)": {
@@ -12031,5 +12031,14 @@
         "languages": "En, Fr, De, It, Es",
         "version": "0.000",
         "edition": "Sample"
+    },
+    "Gunlord (Europe) (Unl)": {
+        "secondary_name": "",
+        "group_name": "Gunlord",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "1.000",
+        "edition": "Unlicensed: Limited Edition"
     }
 }
