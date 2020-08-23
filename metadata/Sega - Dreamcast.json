@@ -587,7 +587,7 @@
     "FX Unit Yuki (USA) (Unl)": {
         "secondary_name": "",
         "group_name": "FX Unit Yuki",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "1.000",
@@ -8367,7 +8367,7 @@
         "disc_type": "GD-ROM",
         "languages": "Ja",
         "version": "1.005",
-        "edition": "Original"
+        "edition": "Original, Sample"
     },
     "UEFA Dream Soccer (Europe) (En,Fr,De,Es)": {
         "secondary_name": "",
@@ -12040,5 +12040,86 @@
         "languages": "En",
         "version": "1.000",
         "edition": "Unlicensed: Limited Edition"
+    },
+    "Ready 2 Rumble Boxing (UK)": {
+        "secondary_name": "",
+        "group_name": "Ready 2 Rumble Boxing",
+        "status": "Blue",
+        "disc_type": "GD-ROM",
+        "languages": "En",
+        "version": "1.000",
+        "edition": "Original"
+    },
+    "What's Shenmue - Yukawa (Moto) Senmu o Sagase (Japan)": {
+        "secondary_name": "Ｗｈａｔ’ｓシェンムー　～湯川（元）専務をさがせ～",
+        "group_name": "What's Shenmue - Yukawa",
+        "status": "Blue",
+        "disc_type": "GD-ROM",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Demo"
+    },
+    "PenPen TriIcelon (Japan) (Taikenban)": {
+        "secondary_name": "ペンペン　トライアイスロン",
+        "group_name": "PenPen TriIcelon",
+        "status": "Blue",
+        "disc_type": "GD-ROM",
+        "languages": "Ja",
+        "version": "1.000",
+        "edition": "Taikenban"
+    },
+    "Alice Dreams Tournament (USA) (Disc 1) (Unl)": {
+        "secondary_name": "",
+        "group_name": "Alice Dreams Tournament",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "1.000",
+        "edition": "Unlicensed: Collector's Edition"
+    },
+    "Alice Dreams Tournament (USA) (Disc 2) (Unl)": {
+        "secondary_name": "",
+        "group_name": "Alice Dreams Tournament",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "1.000",
+        "edition": "Unlicensed: Collector's Edition"
+    },
+    "Rush Rush Rally Reloaded (USA) (Unl)": {
+        "secondary_name": "",
+        "group_name": "Rush Rush Rally Reloaded",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "1.000",
+        "edition": "Unlicensed"
+    },
+    "Aero Dancing featuring Blue Impulse (Japan) (Tentou Taikenban)": {
+        "secondary_name": "エアロダンシング　ｆｅａｔｕｒｉｎｇ　Ｂｌｕｅ　Ｉｍｐｕｌｓｅ",
+        "group_name": "Aero Dancing featuring Blue Impulse",
+        "status": "Blue",
+        "disc_type": "GD-ROM",
+        "languages": "Ja",
+        "version": "1.001",
+        "edition": "Tentou Taikenban"
+    },
+    "F355 Challenge (Japan) (Taikenban)": {
+        "secondary_name": "F355チャレンジ",
+        "group_name": "F355 Challenge",
+        "status": "Blue",
+        "disc_type": "GD-ROM",
+        "languages": "Ja",
+        "version": "1.002",
+        "edition": "Taikenban"
+    },
+    "Shutokou Battle (Japan) (Taikenban)": {
+        "secondary_name": "首都高バトル",
+        "group_name": "Shutokou Battle",
+        "status": "Blue",
+        "disc_type": "GD-ROM",
+        "languages": "Ja",
+        "version": "1.002",
+        "edition": "Taikenban"
     }
 }

@@ -2774,7 +2774,7 @@
     "Gottlieb Pinball Classics (Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "Gottlieb Pinball Classics",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En, Fr, De, It, Es",
         "version": "1.01",
@@ -3485,7 +3485,7 @@
     "Beverly Hills Cop (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi)": {
         "secondary_name": "",
         "group_name": "Beverly Hills Cop",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Da, Nl, En, Fi, Fr, De, It, No, Pt, Es, Sv",
         "version": "1.01",
@@ -3647,7 +3647,7 @@
     "Nickelodeon The Adventures of Jimmy Neutron - Boy Genius - Jet Fusion (Europe)": {
         "secondary_name": "",
         "group_name": "Nickelodeon The Adventures of Jimmy Neutron - Boy Genius - Jet Fusion",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "1.01",
@@ -3993,7 +3993,7 @@
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.01",
-        "edition": "Original, Koei Teiban Series, Super Premium Box, Shin Sangoku Musou 3: Empires Excellent Box, Shin Sangoku Musou Series Collection Gekan"
+        "edition": "Original, Shin Sangoku Musou 3 Super Premium Box, Shin Sangoku Musou 3: Empires Excellent Box, Shin Sangoku Musou Series Collection Gekan, Koei Teiban Series"
     },
     "World Championship Snooker 2004 (Europe)": {
         "secondary_name": "",
@@ -4239,7 +4239,7 @@
         "edition": "Original"
     },
     "Dirge of Cerberus - Final Fantasy VII (Japan, Asia)": {
-        "secondary_name": "ダージュオブケルベロス：ファイナルファンタジーVII",
+        "secondary_name": "ダージュオブケルベロス　～ファイナルファンタジーⅦ～",
         "group_name": "Dirge of Cerberus - Final Fantasy VII",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -4515,7 +4515,7 @@
         "disc_type": "DVD-5",
         "languages": "En, Fr, De, Es",
         "version": "1.01",
-        "edition": "Original, Platinum"
+        "edition": "Original, Platinum, Platinum: The Best of PlayStation 2"
     },
     "Gin no Eclipse (Japan)": {
         "secondary_name": "銀のエクリプス",
@@ -7730,12 +7730,12 @@
         "version": "1.03",
         "edition": "Original"
     },
-    "Action Man A.T.O.M. - Alpha Teens on Machines (Europe) (En,Fr,De,Es,It,Nl,No,Da,Fi)": {
+    "Action Man A.T.O.M. - Alpha Teens on Machines (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da,Fi)": {
         "secondary_name": "",
         "group_name": "Action Man A.T.O.M. - Alpha Teens on Machines",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
-        "languages": "Da, Nl, En, Fi, Fr, De, It, No, Es",
+        "languages": "Da, Nl, En, Fi, Fr, De, It, No, Es, Sv",
         "version": "1.01",
         "edition": "Original"
     },
@@ -9092,7 +9092,7 @@
     "Metal Slug Anthology (Europe)": {
         "secondary_name": "",
         "group_name": "Metal Slug Anthology",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "1.02",
@@ -9479,7 +9479,7 @@
     "Paris-Dakar Rally (Europe)": {
         "secondary_name": "",
         "group_name": "Paris-Dakar Rally",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "1.03",
@@ -11528,14 +11528,14 @@
         "version": "1.00",
         "edition": "Original"
     },
-    "Shin Sangoku Musou 3 & Moushouden Saikyou Data (Japan)": {
+    "Shin Sangoku Musou 3 & Moushouden Saikyou Data (Japan) (Super Premium Box)": {
         "secondary_name": "真・三國無双３　＆　猛将伝 最強データ",
         "group_name": "Shin Sangoku Musou 3 & Moushouden Saikyou Data",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.00",
-        "edition": "Super Premium Box"
+        "edition": "Shin Sangoku Musou 3 Super Premium Box"
     },
     "Official PlayStation 2 Magazine Demo 40 (Portugal) (En,Fr,De,Es,It)": {
         "secondary_name": "ops2m demo 40",
@@ -17315,12 +17315,12 @@
         "version": "1.01",
         "edition": "Original"
     },
-    "Otostaz (Japan)": {
+    "Otostaz (Japan) (En,Ja)": {
         "secondary_name": "オトスタツ",
         "group_name": "Otostaz",
         "status": "Green",
         "disc_type": "CD",
-        "languages": "Ja",
+        "languages": "En, Ja",
         "version": "1.00",
         "edition": "Original"
     },
@@ -17932,7 +17932,7 @@
         "group_name": "Tomak - Save the Earth - Love Story",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "1.02",
         "edition": "Original"
     },
@@ -18083,7 +18083,7 @@
     "Army Men - Sarge's Heroes 2 (Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "Army Men - Sarge's Heroes 2",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En, Fr, De, It, Es",
         "version": "1.01",
@@ -19464,7 +19464,7 @@
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.01",
-        "edition": "Original, Super Premium Box, Koei Mega Pack"
+        "edition": "Original, Shin Sangoku Musou 3 Super Premium Box, Koei Mega Pack"
     },
     "This Is Football 2003 (Europe)": {
         "secondary_name": "",
@@ -19527,7 +19527,7 @@
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.03",
-        "edition": "Original, PlayStation 2 the Best, Super Premium Box"
+        "edition": "Original, Shin Sangoku Musou 3 Super Premium Box, PlayStation 2 the Best"
     },
     "Hitman - Blood Money + Urban Chaos - Riot Response (USA)": {
         "secondary_name": "",
@@ -21275,7 +21275,7 @@
         "version": "1.01",
         "edition": "Platinum, Promo, Limited Edition Pack"
     },
-    "PictureParadise Club Vol. 2 (Japan) (Taikenban)": {
+    "PictureParadise Club Vol. 2 (Japan)": {
         "secondary_name": "",
         "group_name": "PictureParadise Club Vol. 2",
         "status": "Blue",
@@ -21638,7 +21638,7 @@
     "Looney Tunes - Back in Action (Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "Looney Tunes - Back in Action",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En, Fr, De, It, Es",
         "version": "1.00",
@@ -23120,9 +23120,9 @@
         "version": "1.00 (American)",
         "edition": "Unlicensed"
     },
-    "Shadow The Hedgehog (Europe, Australia) (En,Fr,De,Es,It)": {
+    "Shadow the Hedgehog (Europe, Australia) (En,Fr,De,Es,It)": {
         "secondary_name": "",
-        "group_name": "Shadow The Hedgehog",
+        "group_name": "Shadow the Hedgehog",
         "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En, Fr, De, It, Es",
@@ -23942,7 +23942,7 @@
     "Biker Mice from Mars (Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "Biker Mice from Mars",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En, Fr, De, It, Es",
         "version": "1.01",
@@ -29636,9 +29636,9 @@
         "version": "1.00",
         "edition": "Original"
     },
-    "Shadow The Hedgehog (Japan) (En,Ja,Fr,De,Es,It)": {
+    "Shadow the Hedgehog (Japan) (En,Ja,Fr,De,Es,It)": {
         "secondary_name": "シャドウ・ザ・ヘッジホッグ",
-        "group_name": "Shadow The Hedgehog",
+        "group_name": "Shadow the Hedgehog",
         "status": "Blue",
         "disc_type": "DVD-5",
         "languages": "En, Fr, De, It, Ja, Es",
@@ -31787,7 +31787,7 @@
         "version": "1.02",
         "edition": ""
     },
-    "Boboboubo Boubobo - Atsumare!! Taikan Boubobo (Japan) (EyeToy Camera Doukonban)": {
+    "Boboboubo Boubobo - Atsumare!! Taikan Boubobo (Japan) (Doukonban)": {
         "secondary_name": "ボボボーボ・ボーボボ　集まれ！！　体感ボーボボ",
         "group_name": "Boboboubo Boubobo - Atsumare!! Taikan Boubobo",
         "status": "Blue",
@@ -33221,7 +33221,7 @@
     "Dot Hack Part 3 - Outbreak (Europe) (En,Fr,De,Es,It)": {
         "secondary_name": ".hack//Outbreak Part 3",
         "group_name": "Dot Hack Part 3 - Outbreak",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En, Fr, De, It, Es",
         "version": "1.00",
@@ -35624,7 +35624,7 @@
     "Kuon (Europe) (En,Fr,De)": {
         "secondary_name": "",
         "group_name": "Kuon",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En, Fr, De",
         "version": "1.01",
@@ -37487,7 +37487,7 @@
     "Harvest Fishing (Europe)": {
         "secondary_name": "",
         "group_name": "Harvest Fishing",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "1.01",
@@ -40427,9 +40427,9 @@
         "version": "1.00",
         "edition": "Original"
     },
-    "Outlaw Volleyball (USA)": {
-        "secondary_name": "Outlaw Volleyball Remixed",
-        "group_name": "Outlaw Volleyball",
+    "Outlaw Volleyball Remixed (USA)": {
+        "secondary_name": "",
+        "group_name": "Outlaw Volleyball Remixed",
         "status": "Blue",
         "disc_type": "DVD-5",
         "languages": "En",
@@ -41370,7 +41370,7 @@
         "disc_type": "DVD-5",
         "languages": "En, Fr, De, It, Es",
         "version": "2.00",
-        "edition": "Original, Platinum"
+        "edition": "Original, Platinum, Platinum: The Best of PlayStation 2"
     },
     "Dual Hearts (USA) (Demo 2)": {
         "secondary_name": "",
@@ -42072,7 +42072,7 @@
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.01",
-        "edition": "Original, PlayStation 2 the Best, PlayStation 2 the Best Reprint, Treasure Box"
+        "edition": "Original, Treasure Box, PlayStation 2 the Best, PlayStation 2 the Best Reprint"
     },
     "Beyond Good & Evil (USA) (Demo)": {
         "secondary_name": "",
@@ -43449,7 +43449,7 @@
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.04",
-        "edition": "Original, Super Value Set Disc 2, Sangokushi no Sekai Duo Treasure Box, Shin Sangoku Musou 3: Empires Excellent Box"
+        "edition": "Original, Sangokushi no Sekai Duo Treasure Box, Super Value Set, Shin Sangoku Musou 3: Empires Excellent Box"
     },
     "Thread Colors - Sayonara no Mukougawa (Japan)": {
         "secondary_name": "スレッドカラーズ～さよならの向こう側～",
@@ -43953,7 +43953,7 @@
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "1.00",
-        "edition": "Original"
+        "edition": "Original, Bundled with Buzz! Buzzers"
     },
     "L.A. Rush (Europe, Australia) (En,Fr,De,Es,It)": {
         "secondary_name": "",
@@ -44975,7 +44975,7 @@
     "Soldier of Fortune - Gold Edition (Europe) (En,Fr,De,Es,It) (v2.00)": {
         "secondary_name": "",
         "group_name": "Soldier of Fortune - Gold Edition",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En, Fr, De, It, Es",
         "version": "2.00",
@@ -45980,8 +45980,8 @@
         "version": "1.02",
         "edition": "Taikenban"
     },
-    "Musou Orochi (Japan)": {
-        "secondary_name": "無双ＯＲＯＣＨＩ",
+    "Musou Orochi (Japan, Korea)": {
+        "secondary_name": "無双ＯＲＯＣＨＩ, 무쌍 오로치",
         "group_name": "Musou Orochi",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -47411,7 +47411,7 @@
         "version": "1.02",
         "edition": ""
     },
-    "WRC 4 - The Official Game of the FIA World Rally Championship (Europe) (En,Fr,De,Es,It,Pt,No,Fi) (v2.00)": {
+    "WRC 4 - The Official Game of the FIA World Rally Championship (Europe, Australia) (En,Fr,De,Es,It,Pt,No,Fi) (v2.00)": {
         "secondary_name": "",
         "group_name": "WRC 4 - The Official Game of the FIA World Rally Championship",
         "status": "Green",
@@ -49229,7 +49229,7 @@
         "version": "1.00",
         "edition": "Original"
     },
-    "PictureParadise Club (Japan) (Taikenban)": {
+    "PictureParadise Club (Japan)": {
         "secondary_name": "",
         "group_name": "PictureParadise Club",
         "status": "Green",
@@ -50564,7 +50564,7 @@
     "Buzz! The Big Quiz (Australia) (v2.00)": {
         "secondary_name": "",
         "group_name": "Buzz! The Big Quiz",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "",
         "version": "2.00",
@@ -51533,9 +51533,9 @@
         "version": "1.00",
         "edition": "Taikenban"
     },
-    "Fantastic 4 (Italy)": {
-        "secondary_name": "I Fantastici 4",
-        "group_name": "Fantastic 4",
+    "Fantastici 4, I (Italy)": {
+        "secondary_name": "",
+        "group_name": "Fantastici 4, I",
         "status": "Green",
         "disc_type": "DVD-5",
         "languages": "It",
@@ -51642,7 +51642,7 @@
         "edition": "Original"
     },
     "Incredible Hulk, The - Ultimate Destruction (Europe) (En,Fr,De) (Demo)": {
-        "secondary_name": "The Incredible Hulk™: Ultimate Destruction",
+        "secondary_name": "",
         "group_name": "Incredible Hulk, The - Ultimate Destruction",
         "status": "Blue",
         "disc_type": "DVD-5",
@@ -52193,7 +52193,7 @@
     "Dot Hack Part 2 - Mutation (Europe) (En,Fr,De,Es,It)": {
         "secondary_name": ".hack//Mutation Part 2",
         "group_name": "Dot Hack Part 2 - Mutation",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En, Fr, De, It, Es",
         "version": "1.00",
@@ -52703,7 +52703,7 @@
         "version": "2.00",
         "edition": "Taikenban"
     },
-    "SingStar Rocks! with RTE 2fm (Europe)": {
+    "SingStar Rocks! with RTE 2fm (Ireland)": {
         "secondary_name": "",
         "group_name": "SingStar Rocks! with RTE 2fm",
         "status": "Blue",
@@ -52856,7 +52856,7 @@
         "version": "1.02",
         "edition": "Original"
     },
-    "WRC II Extreme - Special Demo (Europe) (SCED-51632)": {
+    "WRC II Extreme - Special Demo (Europe) (Demo 2)": {
         "secondary_name": "",
         "group_name": "WRC II Extreme - Special Demo",
         "status": "Blue",
@@ -54116,7 +54116,7 @@
         "version": "1.04",
         "edition": "The King of Fighters 00/01"
     },
-    "Need for Speed - Most Wanted (Europe)": {
+    "Need for Speed - Most Wanted (Europe, Australia)": {
         "secondary_name": "",
         "group_name": "Need for Speed - Most Wanted",
         "status": "Green",
@@ -57053,7 +57053,7 @@
     "Mega Man X - Command Mission (Europe) (En,Fr,De)": {
         "secondary_name": "",
         "group_name": "Mega Man X - Command Mission",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En, Fr, De",
         "version": "1.00",
@@ -58652,7 +58652,7 @@
         "version": "1.02",
         "edition": "Original"
     },
-    "WRC II Extreme - Special Demo (Europe) (SCED-51305)": {
+    "WRC II Extreme - Special Demo (Europe) (Demo 1)": {
         "secondary_name": "",
         "group_name": "WRC II Extreme - Special Demo",
         "status": "Green",
@@ -59411,7 +59411,7 @@
     "Max Payne (Europe) (En,Fr,Es,It)": {
         "secondary_name": "",
         "group_name": "Max Payne",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En, Fr, It, Es",
         "version": "1.00",
@@ -61604,7 +61604,7 @@
         "version": "1.02",
         "edition": "Original"
     },
-    "Tiger Woods PGA Tour 07 (Europe)": {
+    "Tiger Woods PGA Tour 07 (Europe, Australia)": {
         "secondary_name": "",
         "group_name": "Tiger Woods PGA Tour 07",
         "status": "Green",
@@ -63620,10 +63620,10 @@
         "version": "1.01",
         "edition": "Original"
     },
-    "Tiger Woods PGA Tour 09 (Europe)": {
+    "Tiger Woods PGA Tour 09 (Europe, Australia)": {
         "secondary_name": "",
         "group_name": "Tiger Woods PGA Tour 09",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "1.00",
@@ -67014,9 +67014,9 @@
         "edition": "Demo"
     },
     "Dirge of Cerberus - Final Fantasy VII (Japan) (Beta)": {
-        "secondary_name": "ダージュオブケルベロス：ファイナルファンタジーＶＩＩβ版",
+        "secondary_name": "ダージュオブケルベロス　～ファイナルファンタジーⅦ～　β版",
         "group_name": "Dirge of Cerberus - Final Fantasy VII",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.00",
@@ -68618,9 +68618,9 @@
     "Asterix at the Olympic Games (Europe, Australia)": {
         "secondary_name": "",
         "group_name": "Asterix at the Olympic Games",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
-        "languages": "",
+        "languages": "En",
         "version": "1.00",
         "edition": "Original"
     },
@@ -69173,9 +69173,9 @@
         "version": "1.10",
         "edition": "Original"
     },
-    "Outlaw Volleyball (Europe, Australia) (En,Fr,De,Es)": {
-        "secondary_name": "Outlaw Volleyball Remixed",
-        "group_name": "Outlaw Volleyball",
+    "Outlaw Volleyball Remixed (Europe, Australia) (En,Fr,De,Es)": {
+        "secondary_name": "",
+        "group_name": "Outlaw Volleyball Remixed",
         "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En, Fr, De, Es",
@@ -71606,7 +71606,7 @@
     "All-Star Baseball 2002 (Europe)": {
         "secondary_name": "",
         "group_name": "All-Star Baseball 2002",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "1.00",
@@ -72560,7 +72560,7 @@
     "Antz Extreme Racing (Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "Antz Extreme Racing",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En, Fr, De, It, Es",
         "version": "1.02",
@@ -73361,7 +73361,7 @@
     "Alter Echo (Europe)": {
         "secondary_name": "",
         "group_name": "Alter Echo",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "1.00",
@@ -75293,10 +75293,10 @@
         "version": "1.01",
         "edition": "Original, Promo"
     },
-    "Hawk Superbike Racing (Australia)": {
+    "Hawk Superbike Racing (Europe, Australia)": {
         "secondary_name": "",
         "group_name": "Hawk Superbike Racing",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "1.01",
@@ -78095,7 +78095,7 @@
     "BMX XXX (Europe) (En,Fr,De,Es)": {
         "secondary_name": "",
         "group_name": "BMX XXX",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En, Fr, De, Es",
         "version": "1.01",
@@ -78527,11 +78527,11 @@
     "V8 Supercars Australia 3 (Australia)": {
         "secondary_name": "",
         "group_name": "V8 Supercars Australia 3",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "1.01",
-        "edition": "Platinum"
+        "edition": "Platinum, Platinum: The Best of PlayStation 2"
     },
     "F1 2001 (Europe) (En,Es,It,Sv)": {
         "secondary_name": "",
@@ -79832,7 +79832,7 @@
     "Bad Boys II (Europe)": {
         "secondary_name": "",
         "group_name": "Bad Boys II",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "1.02",
@@ -79985,7 +79985,7 @@
     "Ghost Rider (Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "Ghost Rider",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En, Fr, De, It, Es",
         "version": "1.00",
@@ -84509,10 +84509,10 @@
         "version": "1.00",
         "edition": "Original"
     },
-    "D-Unit Drift Racing (Europe)": {
+    "D-Unit Drift Racing (Europe, Australia)": {
         "secondary_name": "",
         "group_name": "D-Unit Drift Racing",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "1.04",
@@ -86003,10 +86003,10 @@
         "version": "1.00",
         "edition": "Original"
     },
-    "Dogz (Europe) (En,Fr,De,Es,It,Nl)": {
+    "Dogz (Europe, Australia) (En,Fr,De,Es,It,Nl)": {
         "secondary_name": "",
         "group_name": "Dogz",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Nl, En, Fr, De, It, Es",
         "version": "1.00",
@@ -86546,7 +86546,7 @@
     "Ben Hur - Blood of Braves (Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "Ben Hur - Blood of Braves",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En, Fr, De, It, Es",
         "version": "1.03",
@@ -87446,7 +87446,7 @@
     "Astro Boy (Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "Astro Boy",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En, Fr, De, It, Es",
         "version": "1.00",
@@ -88091,9 +88091,9 @@
         "version": "1.00",
         "edition": "Original"
     },
-    "Shadow The Hedgehog (USA) (En,Ja,Fr,De,Es,It)": {
+    "Shadow the Hedgehog (USA) (En,Ja,Fr,De,Es,It)": {
         "secondary_name": "",
-        "group_name": "Shadow The Hedgehog",
+        "group_name": "Shadow the Hedgehog",
         "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En, Fr, De, It, Ja, Es",
@@ -89017,5 +89017,140 @@
         "languages": "Ja",
         "version": "1.01",
         "edition": "Tokubetsu-ban"
+    },
+    "Shoujo Yoshitsune-den Ni - Toki o Koeru Chigiri (Japan) (Tokubetsu-ban)": {
+        "secondary_name": "少女義経伝弐～刻を超える契り～",
+        "group_name": "Shoujo Yoshitsune-den Ni - Toki o Koeru Chigiri",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "Ja",
+        "version": "1.02",
+        "edition": "Tokubetsu-ban"
+    },
+    "Shoujo Yoshitsune-jong - Benkei no Naki Dokoro (Japan)": {
+        "secondary_name": "少女義経雀～弁慶の泣きどころ～",
+        "group_name": "Shoujo Yoshitsune-jong - Benkei no Naki Dokoro",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "1.01",
+        "edition": "PS2 Game Bundle"
+    },
+    "Bongsin Yeonui 2 (Korea)": {
+        "secondary_name": "봉신연의 2",
+        "group_name": "Bongsin Yeonui 2",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "Ko",
+        "version": "1.01",
+        "edition": "Original"
+    },
+    "Max Media Manager (USA) (Unl)": {
+        "secondary_name": "Max Media",
+        "group_name": "Max Media Manager",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "1.37 (American)",
+        "edition": "Unlicensed"
+    },
+    "Psi-Ops - Psychic Operation (Japan)": {
+        "secondary_name": "サイオプス  サイキック・オペレーション",
+        "group_name": "Psi-Ops - Psychic Operation",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "",
+        "version": "1.02",
+        "edition": "Original"
+    },
+    "Secret Weapons over Normandy (Japan)": {
+        "secondary_name": "シークレット・ウェポン・オーバー・ノルマンディ",
+        "group_name": "Secret Weapons over Normandy",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "",
+        "version": "1.01",
+        "edition": "Original"
+    },
+    "Full Spectrum Warrior 2 - Ten Hammers (Japan)": {
+        "secondary_name": "フル スペクトラム ウォリアー2 テンハンマーズ",
+        "group_name": "Full Spectrum Warrior 2 - Ten Hammers",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "",
+        "version": "1.02",
+        "edition": "Original"
+    },
+    "Death by Degrees - Tekken - Nina Willams (Japan)": {
+        "secondary_name": "デス・バイ・ディグリーズ",
+        "group_name": "Death by Degrees - Tekken - Nina Willams",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "Ja",
+        "version": "1.02",
+        "edition": "Original"
+    },
+    "Driv3r (Japan)": {
+        "secondary_name": "ドライバー3",
+        "group_name": "Driv3r",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "",
+        "version": "1.02",
+        "edition": "Original"
+    },
+    "Stuntman (Japan)": {
+        "secondary_name": "スタントマン",
+        "group_name": "Stuntman",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "",
+        "version": "1.02",
+        "edition": "Original"
+    },
+    "Spyhunter (Japan)": {
+        "secondary_name": "スパイハンター",
+        "group_name": "Spyhunter",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "",
+        "version": "1.04",
+        "edition": "Original"
+    },
+    "Gauntlet - Dark Legacy (Japan)": {
+        "secondary_name": "ガントレットダークレガシー",
+        "group_name": "Gauntlet - Dark Legacy",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "1.09",
+        "edition": "Original"
+    },
+    "Brothers in Arms - Road to Hill 30 (Japan)": {
+        "secondary_name": "ブラザーインアームズロードトゥヒルサーティー",
+        "group_name": "Brothers in Arms - Road to Hill 30",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "",
+        "version": "1.01",
+        "edition": "Original"
+    },
+    "Yu Zi - Qiang Jiu Shui Tang Da Zuo Zhan (Asia)": {
+        "secondary_name": "魚仔 搶救水塘大作戰",
+        "group_name": "Yu Zi - Qiang Jiu Shui Tang Da Zuo Zhan",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "Zh",
+        "version": "1.00",
+        "edition": "Original"
+    },
+    "Shin Sangoku Musou 3 & Moushouden Saikyou Data (Japan) (Premium Box)": {
+        "secondary_name": "真・三國無双３　＆　猛将伝 最強データ",
+        "group_name": "Shin Sangoku Musou 3 & Moushouden Saikyou Data",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "1.00",
+        "edition": "Shin Sangoku Musou 3: Empires & Moushouden Premium Box"
     }
 }

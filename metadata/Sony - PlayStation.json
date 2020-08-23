@@ -947,7 +947,7 @@
     "Pilot ni Narou! (Japan) (Taikenban)": {
         "secondary_name": "パイロットになろう！ 体験版",
         "group_name": "Pilot ni Narou!",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -4943,7 +4943,7 @@
     "Jeopardy! (USA)": {
         "secondary_name": "",
         "group_name": "Jeopardy!",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -5573,7 +5573,7 @@
     "Pro-Pinball (USA)": {
         "secondary_name": "",
         "group_name": "Pro-Pinball",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -7767,7 +7767,7 @@
         "edition": "Original"
     },
     "Final Fantasy VII International (Japan) (Disc 1)": {
-        "secondary_name": "ファイナルファンタジーＶＩＩ　インターナショナル",
+        "secondary_name": "ファイナルファンタジーⅦ　インターナショナル",
         "group_name": "Final Fantasy VII International",
         "status": "Green",
         "disc_type": "CD",
@@ -8669,7 +8669,7 @@
     "Noon (Japan)": {
         "secondary_name": "ヌーン",
         "group_name": "Noon",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -9252,7 +9252,7 @@
         "edition": ""
     },
     "Final Fantasy VII International (Japan) (Disc 2)": {
-        "secondary_name": "ファイナルファンタジーＶＩＩ　インターナショナル",
+        "secondary_name": "ファイナルファンタジーⅦ　インターナショナル",
         "group_name": "Final Fantasy VII International",
         "status": "Green",
         "disc_type": "CD",
@@ -10667,7 +10667,7 @@
     "Family Card Games Fun Pack (USA)": {
         "secondary_name": "",
         "group_name": "Family Card Games Fun Pack",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -10811,7 +10811,7 @@
     "Billiards (USA)": {
         "secondary_name": "",
         "group_name": "Billiards",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -12035,7 +12035,7 @@
     "Battle Arena Toushinden 2 - Gyouten Kyougaku no Shishoku-ban (Japan)": {
         "secondary_name": "闘神伝２　～仰天驚愕の試食版～",
         "group_name": "Battle Arena Toushinden 2 - Gyouten Kyougaku no Shishoku-ban",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -16454,7 +16454,7 @@
     "Cyberbots - Fullmetal Madness (Japan)": {
         "secondary_name": "サイバーボッツ　－ＦＵＬＬＭＥＴＡＬ　ＭＡＤＮＥＳＳ－",
         "group_name": "Cyberbots - Fullmetal Madness",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -16994,7 +16994,7 @@
     "Fuujin Ryouiki Eretzvaju (Japan) (Demo)": {
         "secondary_name": "封神領域エルツヴァーユ",
         "group_name": "Fuujin Ryouiki Eretzvaju",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -19937,7 +19937,7 @@
     "Caesars Palace II (USA)": {
         "secondary_name": "",
         "group_name": "Caesars Palace II",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -20252,7 +20252,7 @@
     "Reel Fishing II (USA)": {
         "secondary_name": "",
         "group_name": "Reel Fishing II",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -21831,7 +21831,7 @@
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
-        "edition": "Original, PlayStation the Best for Family, PSone Books"
+        "edition": "Original, PSone Books, PlayStation the Best for Family"
     },
     "DigimonWorld 2 (Japan)": {
         "secondary_name": "デジモンワールド2",
@@ -22554,7 +22554,7 @@
         "edition": "Original"
     },
     "Final Fantasy VII (Japan) (Disc 1)": {
-        "secondary_name": "ファイナルファンタジーVII",
+        "secondary_name": "ファイナルファンタジーⅦ",
         "group_name": "Final Fantasy VII",
         "status": "Green",
         "disc_type": "CD",
@@ -28743,7 +28743,7 @@
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
-        "edition": "Original, PSone Books, PlayStation the Best for Family"
+        "edition": "Original, PlayStation the Best for Family, PSone Books"
     },
     "Atari Anniversary Edition Redux (Europe)": {
         "secondary_name": "",
@@ -29756,7 +29756,7 @@
     "Austin Powers Pinball (USA)": {
         "secondary_name": "",
         "group_name": "Austin Powers Pinball",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -37811,7 +37811,7 @@
     "Ongaku Tkool - Kanadeeru 2 (Japan)": {
         "secondary_name": "音楽ツクール　かなで～る２",
         "group_name": "Ongaku Tkool - Kanadeeru 2",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -39098,7 +39098,7 @@
     "Cyber Egg - Battle Champion (Japan)": {
         "secondary_name": "サイバーエッグ　バトルチャンピオン",
         "group_name": "Cyber Egg - Battle Champion",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -41222,7 +41222,7 @@
     "Vivi la Magia di Disney su PlayStation (Italy)": {
         "secondary_name": "disney interactive / playstation demo disc",
         "group_name": "Vivi la Magia di Disney su PlayStation",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "It",
         "version": "",
@@ -42695,7 +42695,7 @@
         "version": "",
         "edition": "Pocket Price Midas / Value Series"
     },
-    "Kojin Kyouju - La Lecon Particuliere (Japan) (Otameshi Disc)": {
+    "Kojin Kyouju - La Lecon Particuliere (Japan) (Demo)": {
         "secondary_name": "個人教授　－Ｌａ　Ｌｅｃｏｎ　Ｐａｒｔｉｃｕｌｉｅｒｅ－",
         "group_name": "Kojin Kyouju - La Lecon Particuliere",
         "status": "Green",
@@ -44534,7 +44534,7 @@
     "Guntu - Western Front June, 1944 - Tetsu no Kioku (Japan)": {
         "secondary_name": "～ガンツ ウェスタン フロント ジューン、１９４４～ －鉄の記憶－",
         "group_name": "Guntu - Western Front June, 1944 - Tetsu no Kioku",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "",
         "version": "",
@@ -48087,7 +48087,7 @@
         "edition": ""
     },
     "Final Fantasy VII (Japan) (Disc 3)": {
-        "secondary_name": "ファイナルファンタジーVII",
+        "secondary_name": "ファイナルファンタジーⅦ",
         "group_name": "Final Fantasy VII",
         "status": "Green",
         "disc_type": "CD",
@@ -50024,7 +50024,7 @@
     "Bass Landing (USA)": {
         "secondary_name": "",
         "group_name": "Bass Landing",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -50523,7 +50523,7 @@
         "disc_type": "CD",
         "languages": "Ja",
         "version": "Rev 1",
-        "edition": "PlayStation the Best"
+        "edition": "Original, PlayStation the Best"
     },
     "Dancing Blade Katte ni Momotenshi II - Tears of Eden (Japan) (Disc 2)": {
         "secondary_name": "dancing blade かってに桃天使II ～Tears of Eden～",
@@ -54260,12 +54260,12 @@
         "version": "",
         "edition": "Original"
     },
-    "Sanyo Pachinko Paradise 3 - Wanwan Daikoushin (Japan)": {
+    "Sanyo Pachinko Paradise 3 - Wan Wan Daikoushin (Japan)": {
         "secondary_name": "三洋パチンコパラダイス３　～わんわん大行進～",
-        "group_name": "Sanyo Pachinko Paradise 3 - Wanwan Daikoushin",
+        "group_name": "Sanyo Pachinko Paradise 3 - Wan Wan Daikoushin",
         "status": "Green",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Original"
     },
@@ -54828,7 +54828,7 @@
         "edition": "Original"
     },
     "Final Fantasy VII International (Japan) (Disc 3)": {
-        "secondary_name": "ファイナルファンタジーＶＩＩ　インターナショナル",
+        "secondary_name": "ファイナルファンタジーⅦ　インターナショナル",
         "group_name": "Final Fantasy VII International",
         "status": "Green",
         "disc_type": "CD",
@@ -56900,7 +56900,7 @@
     "Psybadek (USA)": {
         "secondary_name": "",
         "group_name": "Psybadek",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -61004,7 +61004,7 @@
     "Side by Side Special (Japan) (Demo)": {
         "secondary_name": "サイドバイサイドスペシャル",
         "group_name": "Side by Side Special",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -65027,7 +65027,7 @@
     "Atlus Shinsaku Title Demo CD-ROM (Japan)": {
         "secondary_name": "ＡＴＬＵＳ新作・タイトル・デモＣＤ‐ＲＯＭ",
         "group_name": "Atlus Shinsaku Title Demo CD-ROM",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "",
         "version": "",
@@ -67886,7 +67886,7 @@
         "version": "",
         "edition": "Original"
     },
-    "Kouyasai - A Sherd of Youthful Memories (Japan) (Promotion-you Special Disc)": {
+    "Kouyasai - A Sherd of Youthful Memories (Japan) (Demo)": {
         "secondary_name": "後夜祭　－ａ　ｓｈｅｒｄ　ｏｆ　ｙｏｕｔｈｆｕｌ　ｍｅｍｏｒｉｅｓ－",
         "group_name": "Kouyasai - A Sherd of Youthful Memories",
         "status": "Blue",
@@ -69228,7 +69228,7 @@
         "edition": "Original"
     },
     "Final Fantasy VII International (Japan) (Disc 4) (Perfect Guide)": {
-        "secondary_name": "ファイナルファンタジーＶＩＩ　インターナショナル",
+        "secondary_name": "ファイナルファンタジーⅦ　インターナショナル",
         "group_name": "Final Fantasy VII International",
         "status": "Green",
         "disc_type": "CD",
@@ -71129,7 +71129,7 @@
     "Fisherman's Bait - A Bass Challenge (USA)": {
         "secondary_name": "",
         "group_name": "Fisherman's Bait - A Bass Challenge",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -71561,7 +71561,7 @@
     "Theme Hospital (Japan)": {
         "secondary_name": "テーマホスピタル",
         "group_name": "Theme Hospital",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "",
         "version": "",
@@ -77519,7 +77519,7 @@
     "Next Station 3 (Italy) (En,It)": {
         "secondary_name": "",
         "group_name": "Next Station 3",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En, It",
         "version": "",
@@ -80948,7 +80948,7 @@
     "Robot x Robot (Japan)": {
         "secondary_name": "ロボットｘロボット",
         "group_name": "Robot x Robot",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -86309,9 +86309,9 @@
         "version": "",
         "edition": "Major Wave"
     },
-    "Oni Taiji, The - Mezase! Nidaime Momotarou (Japan)": {
+    "Oni Taiji!!, The - Mezase! Nidaime Momotarou (Japan)": {
         "secondary_name": "Ｔｈｅ鬼退治！！　目指せ！二代目桃太郎",
-        "group_name": "Oni Taiji, The - Mezase! Nidaime Momotarou",
+        "group_name": "Oni Taiji!!, The - Mezase! Nidaime Momotarou",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "Ja",
@@ -86564,7 +86564,7 @@
     "Big Bass World Championship (USA)": {
         "secondary_name": "",
         "group_name": "Big Bass World Championship",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -89847,7 +89847,7 @@
         "edition": "Value 1500"
     },
     "Final Fantasy VII (Japan) (Disc 2)": {
-        "secondary_name": "ファイナルファンタジーVII",
+        "secondary_name": "ファイナルファンタジーⅦ",
         "group_name": "Final Fantasy VII",
         "status": "Green",
         "disc_type": "CD",
@@ -93239,9 +93239,9 @@
         "version": "Rev 1",
         "edition": "Original"
     },
-    "Oni Taiji, The - Mezase! Nidaime Momotarou (Japan) (Major Wave)": {
+    "Oni Taiji!!, The - Mezase! Nidaime Momotarou (Japan) (Major Wave)": {
         "secondary_name": "Ｔｈｅ鬼退治！！　目指せ！二代目桃太郎",
-        "group_name": "Oni Taiji, The - Mezase! Nidaime Momotarou",
+        "group_name": "Oni Taiji!!, The - Mezase! Nidaime Momotarou",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "Ja",
@@ -93373,5 +93373,77 @@
         "languages": "En, Fi, Fr, De, Es",
         "version": "",
         "edition": "Demo"
+    },
+    "Player Manager 2000 (Portugal)": {
+        "secondary_name": "",
+        "group_name": "Player Manager 2000",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Pt",
+        "version": "",
+        "edition": "Original"
+    },
+    "Randevu s Neznakomkoy (Russia) (En,Ru) (Disc 1) (Unl)": {
+        "secondary_name": "Рандеву с незнакомкой",
+        "group_name": "Randevu s Neznakomkoy",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En, Ru",
+        "version": "",
+        "edition": "Unlicensed (Pinachet)"
+    },
+    "Randevu s Neznakomkoy (Russia) (En,Ru) (Disc 2) (Unl)": {
+        "secondary_name": "Рандеву с незнакомкой",
+        "group_name": "Randevu s Neznakomkoy",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En, Ru",
+        "version": "",
+        "edition": "Unlicensed (Pinachet)"
+    },
+    "Randevu s Neznakomkoy 2 (Russia) (En,Ru) (Disc 1) (Unl)": {
+        "secondary_name": "Рандеву с незнакомкой 2",
+        "group_name": "Randevu s Neznakomkoy 2",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En, Ru",
+        "version": "",
+        "edition": "Unlicensed (Pinachet)"
+    },
+    "Randevu s Neznakomkoy 2 (Russia) (En,Ru) (Disc 2) (Unl)": {
+        "secondary_name": "Рандеву с незнакомкой 2",
+        "group_name": "Randevu s Neznakomkoy 2",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En, Ru",
+        "version": "",
+        "edition": "Unlicensed (Pinachet)"
+    },
+    "Pesni iz Kino (Russia) (Unl)": {
+        "secondary_name": "Песни из кино",
+        "group_name": "Pesni iz Kino",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ru",
+        "version": "",
+        "edition": "Unlicensed"
+    },
+    "Vzlomchik Kodov 9000 (Russia) (Unl)": {
+        "secondary_name": "Взломщик кодов 9000",
+        "group_name": "Vzlomchik Kodov 9000",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ru",
+        "version": "",
+        "edition": "Unlicensed"
+    },
+    "Monopoly (USA) (Alt)": {
+        "secondary_name": "",
+        "group_name": "Monopoly",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
     }
 }
