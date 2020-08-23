@@ -209,7 +209,7 @@
     "JSRF - Jet Set Radio Future (Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "JSRF - Jet Set Radio Future",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En, Fr, De, It, Es",
         "version": "",
@@ -1559,7 +1559,7 @@
     "LMA Manager 2003 (Europe)": {
         "secondary_name": "",
         "group_name": "LMA Manager 2003",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En",
         "version": "",
@@ -1622,7 +1622,7 @@
     "Leisure Suit Larry - Magna Cum Laude (Europe)": {
         "secondary_name": "",
         "group_name": "Leisure Suit Larry - Magna Cum Laude",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En",
         "version": "",
@@ -1662,7 +1662,7 @@
         "disc_type": "DVD-9",
         "languages": "En",
         "version": "",
-        "edition": "Dead or Alive Ultimate"
+        "edition": "Promo, Dead or Alive Ultimate"
     },
     "All-Star Baseball 2003 featuring Derek Jeter (USA)": {
         "secondary_name": "",
@@ -1802,7 +1802,7 @@
     "L.A. Rush (USA, Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "L.A. Rush",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En, Fr, De, It, Es",
         "version": "",
@@ -1811,7 +1811,7 @@
     "Legends of Wrestling (Europe)": {
         "secondary_name": "",
         "group_name": "Legends of Wrestling",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En",
         "version": "",
@@ -2207,7 +2207,7 @@
     "Largo Winch - Empire Under Threat (Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "Largo Winch - Empire Under Threat",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En, Fr, De, It, Es",
         "version": "",
@@ -2348,13 +2348,13 @@
         "version": "",
         "edition": "Original"
     },
-    "Grand Theft Auto - San Andreas (Europe) (En,Fr,De,Es,It) (Rerelease)": {
+    "Grand Theft Auto - San Andreas (Europe) (En,Fr,De,Es,It) (Rev 1)": {
         "secondary_name": "",
         "group_name": "Grand Theft Auto - San Andreas",
         "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En, Fr, De, It, Es",
-        "version": "",
+        "version": "Rev 1",
         "edition": "Classics, Grand Theft Auto: The Trilogy"
     },
     "Sims, The (Europe) (En,Fr,De,Es,It)": {
@@ -2697,7 +2697,7 @@
         "disc_type": "DVD-9",
         "languages": "En, Fr, De, It, Es",
         "version": "",
-        "edition": "Original, Classics"
+        "edition": "Original"
     },
     "King of Fighters 2002, The (Japan)": {
         "secondary_name": "ザ・キング・オブ・ファイターズ２００２",
@@ -2936,7 +2936,7 @@
     "LMA Manager 2004 (Europe)": {
         "secondary_name": "",
         "group_name": "LMA Manager 2004",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En",
         "version": "",
@@ -3458,7 +3458,7 @@
     "Kao the Kangaroo - Round 2 (Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "Kao the Kangaroo - Round 2",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En, Fr, De, It, Es",
         "version": "",
@@ -3491,12 +3491,12 @@
         "version": "",
         "edition": "Original"
     },
-    "Star Wars - Episode III - Revenge of the Sith (Europe)": {
+    "Star Wars - Episode III - Revenge of the Sith (Europe) (En,Es,It)": {
         "secondary_name": "",
         "group_name": "Star Wars - Episode III - Revenge of the Sith",
         "status": "Blue",
         "disc_type": "DVD-9",
-        "languages": "En",
+        "languages": "En, It, Es",
         "version": "",
         "edition": "Original"
     },
@@ -3896,12 +3896,12 @@
         "version": "",
         "edition": "Original"
     },
-    "Fantastic 4 (Europe)": {
+    "Fantastic 4 (Europe) (Fr,Es)": {
         "secondary_name": "",
         "group_name": "Fantastic 4",
         "status": "Green",
         "disc_type": "DVD-9",
-        "languages": "Es",
+        "languages": "Fr, Es",
         "version": "",
         "edition": "Original"
     },
@@ -4277,7 +4277,7 @@
     "Lord of the Rings, The - The Fellowship of the Ring (Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "Lord of the Rings, The - The Fellowship of the Ring",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En, Fr, De, It, Es",
         "version": "",
@@ -4697,14 +4697,14 @@
         "version": "",
         "edition": "Original"
     },
-    "Grand Theft Auto - Vice City (Europe)": {
+    "Grand Theft Auto - Vice City (Europe) (En,Fr,Es,It) (Rev 1)": {
         "secondary_name": "",
         "group_name": "Grand Theft Auto - Vice City",
         "status": "Blue",
         "disc_type": "DVD-9",
-        "languages": "",
-        "version": "",
-        "edition": "Original"
+        "languages": "En, Fr, It, Es",
+        "version": "Rev 1",
+        "edition": ""
     },
     "Official Xbox Magazine Game Disc 36 (Europe, Australia) (En,Fr,De,Es,It,Pt)": {
         "secondary_name": "",
@@ -4823,9 +4823,9 @@
         "version": "",
         "edition": "Original"
     },
-    "Star Wars - Knights of the Old Republic II - The Sith Lords (Spain)": {
+    "Star Wars - Caballeros de la Antigua Republica 2 - Los Senores Siths (Spain)": {
         "secondary_name": "",
-        "group_name": "Star Wars - Knights of the Old Republic II - The Sith Lords",
+        "group_name": "Star Wars - Caballeros de la Antigua Republica 2 - Los Senores Siths",
         "status": "Blue",
         "disc_type": "DVD-9",
         "languages": "Es",
@@ -5264,9 +5264,9 @@
         "version": "",
         "edition": "Original"
     },
-    "Shadow The Hedgehog (Europe) (En,Ja,Fr,De,Es,It)": {
+    "Shadow the Hedgehog (Europe) (En,Ja,Fr,De,Es,It)": {
         "secondary_name": "",
-        "group_name": "Shadow The Hedgehog",
+        "group_name": "Shadow the Hedgehog",
         "status": "Blue",
         "disc_type": "DVD-9",
         "languages": "En, Fr, De, It, Ja, Es",
@@ -5537,7 +5537,7 @@
     "Loons - The Fight for Fame (Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "Loons - The Fight for Fame",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En, Fr, De, It, Es",
         "version": "",
@@ -5561,12 +5561,12 @@
         "version": "",
         "edition": "Original"
     },
-    "Unreal II - The Awakening (Europe) (En,Fr,De,Es,It)": {
+    "Unreal II - The Awakening (Europe) (En,Fr,Es,It)": {
         "secondary_name": "",
         "group_name": "Unreal II - The Awakening",
         "status": "Green",
         "disc_type": "DVD-9",
-        "languages": "En, Fr, De, It, Es",
+        "languages": "En, Fr, It, Es",
         "version": "",
         "edition": "Original"
     },
@@ -6365,7 +6365,7 @@
     "Juiced (USA, Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "Juiced",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En, Fr, De, It, Es",
         "version": "",
@@ -7775,12 +7775,12 @@
         "version": "",
         "edition": "Original"
     },
-    "Star Wars - Episode III - Die Rache der Sith (Germany) (En,Fr,De,Es,It)": {
+    "Star Wars - Episode III - Die Rache der Sith (Germany)": {
         "secondary_name": "",
         "group_name": "Star Wars - Episode III - Die Rache der Sith",
         "status": "Blue",
         "disc_type": "DVD-9",
-        "languages": "En, Fr, De, It, Es",
+        "languages": "De",
         "version": "",
         "edition": "Promo"
     },
@@ -8327,7 +8327,7 @@
     "James Cameron's Dark Angel (Europe) (En,Fr,De)": {
         "secondary_name": "",
         "group_name": "James Cameron's Dark Angel",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En, Fr, De",
         "version": "",
@@ -9191,7 +9191,7 @@
     "Lord of the Rings, The - The Return of the King (Europe) (En,Nl,Sv)": {
         "secondary_name": "",
         "group_name": "Lord of the Rings, The - The Return of the King",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "Nl, En, Sv",
         "version": "",
@@ -9362,7 +9362,7 @@
     "Knights of the Temple - Infernal Crusade (Europe) (En,Fr,De,Es)": {
         "secondary_name": "",
         "group_name": "Knights of the Temple - Infernal Crusade",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En, Fr, De, Es",
         "version": "",
@@ -9803,7 +9803,7 @@
     "Kung Fu Chaos (Europe) (En,Fr,De)": {
         "secondary_name": "",
         "group_name": "Kung Fu Chaos",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En, Fr, De",
         "version": "",
@@ -10475,9 +10475,9 @@
         "version": "",
         "edition": "Original"
     },
-    "Shadow The Hedgehog (Japan)": {
+    "Shadow the Hedgehog (Japan)": {
         "secondary_name": "シャドウ・ザ・ヘッジホッグ",
-        "group_name": "Shadow The Hedgehog",
+        "group_name": "Shadow the Hedgehog",
         "status": "Blue",
         "disc_type": "DVD-9",
         "languages": "",
@@ -10820,7 +10820,7 @@
     "TimeSplitters - Future Perfect (Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "TimeSplitters - Future Perfect",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En, Fr, De, It, Es",
         "version": "",
@@ -11315,7 +11315,7 @@
     "LMA Manager 2005 (Europe)": {
         "secondary_name": "",
         "group_name": "LMA Manager 2005",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En",
         "version": "",
@@ -11879,9 +11879,9 @@
         "version": "",
         "edition": "Original"
     },
-    "Motor Trend Presents Lotus Challenge (Europe) (En,Fr,De,Es,It)": {
+    "Lotus Challenge (Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "",
-        "group_name": "Motor Trend Presents Lotus Challenge",
+        "group_name": "Lotus Challenge",
         "status": "Blue",
         "disc_type": "DVD-9",
         "languages": "En, Fr, De, It, Es",
@@ -12116,11 +12116,11 @@
     "Herr der Ringe, Der - Das dritte Zeitalter (Germany)": {
         "secondary_name": "",
         "group_name": "Herr der Ringe, Der - Das dritte Zeitalter",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "De",
         "version": "",
-        "edition": "Original"
+        "edition": "Original, Promo"
     },
     "Disney's The Haunted Mansion (Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "",
@@ -12278,7 +12278,7 @@
     "Jacked (Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "Jacked",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En, Fr, De, It, Es",
         "version": "",
@@ -12494,7 +12494,7 @@
     "Legends of Wrestling II (Europe)": {
         "secondary_name": "",
         "group_name": "Legends of Wrestling II",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En",
         "version": "",
@@ -12577,7 +12577,7 @@
         "group_name": "Mat Hoffman's Pro BMX 2",
         "status": "Blue",
         "disc_type": "DVD-9",
-        "languages": "",
+        "languages": "Fr",
         "version": "",
         "edition": "Original"
     },
@@ -12851,13 +12851,13 @@
         "version": "",
         "edition": "Original"
     },
-    "Grand Theft Auto - Vice City (USA) (Rerelease)": {
+    "Grand Theft Auto - Vice City (USA) (Rev 1)": {
         "secondary_name": "",
         "group_name": "Grand Theft Auto - Vice City",
         "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En",
-        "version": "",
+        "version": "Rev 1",
         "edition": "Grand Theft Auto: The Trilogy"
     },
     "Panzer Dragoon Orta (Europe) (En,Fr,De,Es,It)": {
@@ -13259,7 +13259,7 @@
     "Kelly Slater's Pro Surfer (Europe) (En,Fr,De)": {
         "secondary_name": "",
         "group_name": "Kelly Slater's Pro Surfer",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En, Fr, De",
         "version": "",
@@ -13682,7 +13682,7 @@
     "Legacy of Kain - Defiance (Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "Legacy of Kain - Defiance",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En, Fr, De, It, Es",
         "version": "",
@@ -14075,14 +14075,14 @@
         "version": "",
         "edition": "Original"
     },
-    "WWE WrestleMania 21 (USA)": {
+    "WWE WrestleMania 21 (USA) (Rev 1)": {
         "secondary_name": "",
         "group_name": "WWE WrestleMania 21",
         "status": "Blue",
         "disc_type": "DVD-9",
         "languages": "",
-        "version": "",
-        "edition": "Original"
+        "version": "Rev 1",
+        "edition": "Reprint"
     },
     "Silent Scope Complete (USA)": {
         "secondary_name": "",
@@ -14744,7 +14744,7 @@
     "Kingdom Under Fire - The Crusaders (Europe) (En,Fr,De,It)": {
         "secondary_name": "",
         "group_name": "Kingdom Under Fire - The Crusaders",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En, Fr, De, It",
         "version": "",
@@ -14861,7 +14861,7 @@
     "King Arthur (Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "King Arthur: The Truth Behind the Legend",
         "group_name": "King Arthur",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En, Fr, De, It, Es",
         "version": "",
@@ -15290,14 +15290,14 @@
         "version": "",
         "edition": "Original"
     },
-    "Grand Theft Auto - Vice City (Europe) (TT11507E)": {
+    "Grand Theft Auto - Vice City (Europe) (Rev 2)": {
         "secondary_name": "",
         "group_name": "Grand Theft Auto - Vice City",
         "status": "Blue",
         "disc_type": "DVD-9",
         "languages": "",
-        "version": "",
-        "edition": "Double Pack"
+        "version": "Rev 2",
+        "edition": ""
     },
     "Fuzion Frenzy (Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "",
@@ -15311,11 +15311,11 @@
     "Jade Empire (Germany)": {
         "secondary_name": "",
         "group_name": "Jade Empire",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "De",
         "version": "",
-        "edition": "Original"
+        "edition": "Original, Promo"
     },
     "OutRun 2006 - Coast 2 Coast (USA, Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "",
@@ -15500,7 +15500,7 @@
     "Knights of the Temple II (Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "Knights of the Temple II",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En, Fr, De, It, Es",
         "version": "",
@@ -15524,13 +15524,13 @@
         "version": "",
         "edition": "Original"
     },
-    "Grand Theft Auto - San Andreas (USA) (En,Es) (Rerelease)": {
+    "Grand Theft Auto - San Andreas (USA) (En,Es) (Rev 1)": {
         "secondary_name": "",
         "group_name": "Grand Theft Auto - San Andreas",
         "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En, Es",
-        "version": "",
+        "version": "Rev 1",
         "edition": "Platinum Hits, Grand Theft Auto: The Trilogy"
     },
     "UEFA Champions League 2004-2005 (Europe) (Fr,De)": {
@@ -15869,7 +15869,7 @@
     "Lemony Snicket's A Series of Unfortunate Events (Europe)": {
         "secondary_name": "",
         "group_name": "Lemony Snicket's A Series of Unfortunate Events",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En",
         "version": "",
@@ -16184,11 +16184,11 @@
     "Herr der Ringe, Der - Die Rueckkehr des Koenigs (Germany)": {
         "secondary_name": "",
         "group_name": "Herr der Ringe, Der - Die Rueckkehr des Koenigs",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "De",
         "version": "",
-        "edition": "Original"
+        "edition": "Original, Promo"
     },
     "Star Wars - Knights of the Old Republic II - The Sith Lords (Germany)": {
         "secondary_name": "",
@@ -16325,9 +16325,9 @@
         "version": "",
         "edition": "Original"
     },
-    "Knight's Apprentice - Memorick's Adventures (USA, Europe) (En,Fr,De,Es,It)": {
-        "secondary_name": "Memorick: The Apprentice Knight",
-        "group_name": "Knight's Apprentice - Memorick's Adventures",
+    "Knight's Apprentice - Memorick's Adventures ~ Memorick - The Apprentice Knight (USA, Europe) (En,Fr,De,Es,It)": {
+        "secondary_name": "",
+        "group_name": "Knight's Apprentice - Memorick's Adventures ~ Memorick - The Apprentice Knight",
         "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En, Fr, De, It, Es",
@@ -17187,7 +17187,7 @@
         "disc_type": "DVD-9",
         "languages": "En, Fr, De, It, Ja, Es",
         "version": "",
-        "edition": "Dead or Alive Ultimate"
+        "edition": "Promo, Dead or Alive Ultimate"
     },
     "RalliSport Challenge 2 (Japan, Europe) (En,Ja,Fr,De,Es,It)": {
         "secondary_name": "",
@@ -17309,7 +17309,7 @@
     "Just Cause (Europe) (En,Fr,De)": {
         "secondary_name": "",
         "group_name": "Just Cause",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En, Fr, De",
         "version": "",
@@ -17540,12 +17540,12 @@
         "version": "",
         "edition": "Original"
     },
-    "Incredible Hulk, The - Ultimate Destruction (Europe)": {
+    "Incredible Hulk, The - Ultimate Destruction (Europe) (En,Fr,Es,It)": {
         "secondary_name": "",
         "group_name": "Incredible Hulk, The - Ultimate Destruction",
         "status": "Green",
         "disc_type": "DVD-9",
-        "languages": "",
+        "languages": "En, Fr, It, Es",
         "version": "",
         "edition": "Original"
     },
@@ -18197,9 +18197,9 @@
         "version": "",
         "edition": "Original"
     },
-    "Shadow The Hedgehog (USA) (En,Ja,Fr,De,Es,It)": {
+    "Shadow the Hedgehog (USA) (En,Ja,Fr,De,Es,It)": {
         "secondary_name": "",
-        "group_name": "Shadow The Hedgehog",
+        "group_name": "Shadow the Hedgehog",
         "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En, Fr, De, It, Ja, Es",
@@ -19064,7 +19064,7 @@
     "Kingdom Under Fire - Heroes (Europe) (En,Fr,De,Es,It,Ko)": {
         "secondary_name": "",
         "group_name": "Kingdom Under Fire - Heroes",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En, Fr, De, It, Ko, Es",
         "version": "",
@@ -19388,7 +19388,7 @@
     "Knockout Kings 2002 (Europe) (En,Fr,De)": {
         "secondary_name": "",
         "group_name": "Knockout Kings 2002",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En, Fr, De",
         "version": "",
@@ -20081,11 +20081,11 @@
     "GoldenEye - Rogue Agent (Germany)": {
         "secondary_name": "",
         "group_name": "GoldenEye - Rogue Agent",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "De",
         "version": "",
-        "edition": "Original"
+        "edition": "Original, Promo"
     },
     "UEFA Champions League 2004-2005 (Netherlands) (En,Nl)": {
         "secondary_name": "",
@@ -20873,7 +20873,7 @@
     "Judge Dredd - Dredd vs. Death (Europe) (En,Fr,Es,It)": {
         "secondary_name": "",
         "group_name": "Judge Dredd - Dredd vs. Death",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En, Fr, It, Es",
         "version": "",
@@ -22048,5 +22048,23 @@
         "languages": "",
         "version": "",
         "edition": "Demo"
+    },
+    "SSX On Tour (Europe) (En,Fr,De,Es,Nl,Sv,No,Fi)": {
+        "secondary_name": "",
+        "group_name": "SSX On Tour",
+        "status": "Blue",
+        "disc_type": "DVD-9",
+        "languages": "Nl, En, Fi, Fr, De, No, Es, Sv",
+        "version": "",
+        "edition": "Promo"
+    },
+    "TimeSplitters 2 (Europe) (En,Fr,De,Es,It) (Rev 1)": {
+        "secondary_name": "",
+        "group_name": "TimeSplitters 2",
+        "status": "Blue",
+        "disc_type": "DVD-9",
+        "languages": "En, Fr, De, It, Es",
+        "version": "Rev 1",
+        "edition": "Classics"
     }
 }

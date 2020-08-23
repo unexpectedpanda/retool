@@ -4813,5 +4813,14 @@
         "languages": "Ja",
         "version": "",
         "edition": "Sample"
+    },
+    "Mighty Mighty Missile (USA) (Unl)": {
+        "secondary_name": "",
+        "group_name": "Mighty Mighty Missile",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Unlicensed"
     }
 }

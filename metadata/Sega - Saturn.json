@@ -3401,10 +3401,10 @@
         "version": "1.002",
         "edition": "Original"
     },
-    "Lifescape - Seimei 40 Okunen Haruka na Tabi (Japan) (Disc 1) (Aquasphere) (4M)": {
-        "secondary_name": "ライフスケイプ　生命４０億年はるかな旅",
-        "group_name": "Lifescape - Seimei 40 Okunen Haruka na Tabi",
-        "status": "Blue",
+    "LifeScape - Seimei 40 Okunen Haruka na Tabi (Japan) (Disc 1) (Aquasphere) (4M)": {
+        "secondary_name": "ライフスケイプ　～生命４０億年はるかな旅～",
+        "group_name": "LifeScape - Seimei 40 Okunen Haruka na Tabi",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.004",
@@ -9548,9 +9548,9 @@
         "version": "1.000",
         "edition": "Original"
     },
-    "Lifescape 2 - Body Bionics - Kyoui no Shouuchuu Jintai (Japan)": {
-        "secondary_name": "ライフスケイプ２　ボディ・バイオニクス　驚異の小宇宙・人体",
-        "group_name": "Lifescape 2 - Body Bionics - Kyoui no Shouuchuu Jintai",
+    "LifeScape 2 - Body Bionics - Kyoui no Shouuchuu Jintai (Japan)": {
+        "secondary_name": "ライフスケイプ２　ボディ・バイオニクス　～驚異の小宇宙・人体～",
+        "group_name": "LifeScape 2 - Body Bionics - Kyoui no Shouuchuu Jintai",
         "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
@@ -15677,10 +15677,10 @@
         "version": "1.001",
         "edition": "Original"
     },
-    "Lifescape - Seimei 40 Okunen Haruka na Tabi (Japan) (Disc 2) (Landsphere) (3M)": {
-        "secondary_name": "ライフスケイプ　生命４０億年はるかな旅",
-        "group_name": "Lifescape - Seimei 40 Okunen Haruka na Tabi",
-        "status": "Blue",
+    "LifeScape - Seimei 40 Okunen Haruka na Tabi (Japan) (Disc 2) (Landsphere) (3M)": {
+        "secondary_name": "ライフスケイプ　～生命４０億年はるかな旅～",
+        "group_name": "LifeScape - Seimei 40 Okunen Haruka na Tabi",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.005",
@@ -17129,7 +17129,7 @@
     "Virtual Hydlide (USA) (P5H)": {
         "secondary_name": "",
         "group_name": "Virtual Hydlide",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "1.000",
@@ -20832,6 +20832,15 @@
         "disc_type": "CD",
         "languages": "Ja",
         "version": "2.000",
+        "edition": "Original"
+    },
+    "Street Fighter - Real Battle on Film (Japan) (3M)": {
+        "secondary_name": "ストリート・ファイター　リアル・バトル・オン・フィルム",
+        "group_name": "Street Fighter - Real Battle on Film",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "1.001",
         "edition": "Original"
     }
 }

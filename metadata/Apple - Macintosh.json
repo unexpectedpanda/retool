@@ -3274,5 +3274,14 @@
         "languages": "",
         "version": "",
         "edition": "Ginga Eiyuu Densetsu V Plus"
+    },
+    "Bedlam (USA) (En,Fr,De,Es,It,Nl)": {
+        "secondary_name": "",
+        "group_name": "Bedlam",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Nl, En, Fr, De, It, Es",
+        "version": "",
+        "edition": "Original"
     }
 }

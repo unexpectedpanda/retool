@@ -2140,5 +2140,14 @@
         "languages": "En",
         "version": "",
         "edition": "Original"
+    },
+    "Go - Special Edition (USA) (Unl)": {
+        "secondary_name": "",
+        "group_name": "Go - Special Edition",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Unlicensed"
     }
 }

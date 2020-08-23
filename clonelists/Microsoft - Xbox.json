@@ -3,7 +3,7 @@
 		"name": [
 			"Microsoft - Xbox"
 		],
-		"last updated": "26 July 2020"
+		"last updated": "23 August 2020"
 	},
 
 	"compilations": [
@@ -176,9 +176,6 @@
 			["GoldenEye - Agente Corrupto", 1],
 			["GoldenEye - Au Service du Mal", 1]
 		],
-		"Grand Theft Auto - Vice City": [
-			["Grand Theft Auto - Vice City (TT11507E)", 2]
-		],
 		"Group S Challenge": [
 			["Circus Drive", 1]
 		],
@@ -256,6 +253,9 @@
 		"Minority Report - Everybody Runs": [
 			["Minority Report - Le Futur vous Rattrape", 1]
 		],
+		"Motor Trend Presents Lotus Challenge": [
+			["Lotus Challenge", 1]
+		],
 		"MTV Music Generator 3 - This Is the Remix": [
 			["MTV Music Generator 3", 1]
 		],
@@ -327,6 +327,9 @@
 		],
 		"Star Wars - Knights of the Old Republic": [
 			["Star Wars - Caballeros de la Antigua Republica", 1]
+		],
+		"Star Wars - Knights of the Old Republic II - The Sith Lords": [
+			["Star Wars - Caballeros de la Antigua Republica 2 - Los Senores Siths", 1]
 		],
 		"Star Wars - The Clone Wars": [
 			["Star Wars - La Guerra dei Cloni", 1],

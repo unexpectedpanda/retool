@@ -223,7 +223,7 @@
 		"Bob the Builder - Festival of Fun": [
 			["Bob O Construtor - Festival do Divertimento", 1]
 		],
-		"Boboboubo Boubobo - Atsumare!! Taikan Boubobo (EyeToy Camera Doukonban)": [
+		"Boboboubo Boubobo - Atsumare!! Taikan Boubobo (Doukonban)": [
 			["Boboboubo Boubobo - Atsumare!! Taikan Boubobo", 2]
 		],
 		"Bode Miller Alpine Skiing": [
@@ -436,6 +436,7 @@
 			["Simple 2000 Series Ultimate Vol. 16 - Sengoku VS Gendai", 1]
 		],
 		"Death by Degrees": [
+			["Death by Degrees - Tekken - Nina Willams", 1],
 			["Tekken's Nina Williams in - Death by Degrees", 1]
 		],
 		"Deep Water": [
@@ -797,6 +798,9 @@
 		],
 		"EyeToy - Play 2 (EyeToy Camera Doukonban)": [
 			["EyeToy - Play 2", 2]
+		],
+		"Fantastic 4": [
+			["Fantastici 4, I", 1]
 		],
 		"Fantavision": [
 			["Fantavision - For You and Me", 1]
@@ -1816,6 +1820,9 @@
 		"Orphen - Scion of Sorcery": [
 			["Sorcerous Stabber Orphen", 1]
 		],
+		"Outlaw Volleyball Remixed": [
+			["Outlaw Volleyball", 2]
+		],
 		"P.T.O. IV - Pacific Theater of Operations": [
 			["Teitoku no Ketsudan IV", 1]
 		],
@@ -1937,6 +1944,9 @@
 		],
 		"ProStroke Golf - World Tour 2007": [
 			["ProStroke Golf", 1]
+		],
+		"Psi-Ops - The Mindgate Conspiracy": [
+			["Psi-Ops - Psychic Operation", 1]
 		],
 		"Psyvariar - Complete Edition (Special Capture Box)": [
 			["Psyvariar - Complete Edition (Special Sound Box)", 2],
@@ -2317,6 +2327,9 @@
 		],
 		"Splatter Master": [
 			["Simple 2000 Series Vol. 64 - The Splatter Action", 1]
+		],
+		"SpyHunter": [
+			["Spyhunter", 1]
 		],
 		"SSX": [
 			["X-treme Racing SSX", 1]
@@ -2742,9 +2755,6 @@
 			["Le Monde des Bleus 2005", 1],
 			["This Is Football 2005", 1],
 			["This Is Soccer 2005", 1]
-		],
-		"WRC II Extreme - Special Demo (SCED-51632)": [
-			["WRC II Extreme - Special Demo (SCED-51305)", 1]
 		],
 		"WRC - Rally Evolved": [
 			["WRC avec Sebastien Loeb Edition 2005", 1]

@@ -3,7 +3,7 @@
 		"name": [
 			"IBM - PC compatible"
 		],
-		"last updated": "17 August 2020"
+		"last updated": "23 August 2020"
 	},
 
 	"compilations": [
@@ -602,7 +602,7 @@
 			["Battlefield 2 - Special Forces", 0]
 		],
 		"Battlefield 2142": [
-			["Battlefield 2142 (Deluxe Edition)", -1]
+			["Battlefield 2142 - Deluxe Edition", -1]
 		],
 		"Battlefield 3 (Disc 1)": [
 			["Battlefield 3 (Disc 1) (Premium Edition)", -1]
@@ -802,6 +802,9 @@
 		],
 		"Boiling Point": [
 			["Boiling Point - Road to Hell", 1]
+		],
+		"Borderlands - Double Game Add-On Pack": [
+			["Borderlands - Game of the Year Edition (Expansion Disk)", -1]
 		],
 		"Brave Soul": [
 			["Rycar' ljubvi", 1]
@@ -1286,6 +1289,18 @@
 		"Corpse Party - BloodCovered 4": [
 			["Corpse Party - BloodCovered 4 (Another Jacket Version)", 2]
 		],
+		"Counter-Strike - Source (Disc 1)": [
+			["Counter-Strike - Source", -1]
+		],
+		"Counter-Strike - Source (Disc 2)": [
+			["Counter-Strike - Source", -1]
+		],
+		"Counter-Strike - Source (Disc 3)": [
+			["Counter-Strike - Source", -1]
+		],
+		"Counter-Strike - Source (Disc 4)": [
+			["Counter-Strike - Source", -1]
+		],
 		"Counter-Strike 1 Anthology (Disc 1)": [
 			["Counter-Strike 1 Anthology", 0]
 		],
@@ -1301,18 +1316,6 @@
 			["Counter-Strike - Condition Zero (Disc 2) (Play)", 1],
 			["Counter-Strike - Condition Zero (Disc 2) (Spiel-CD)", 1],
 			["Fan-Kong Jingying - Ling-Dian Xingdong (Play Disc)", 1]
-		],
-		"Counter-Strike - Source (Disc 1)": [
-			["Counter-Strike - Source", -1]
-		],
-		"Counter-Strike - Source (Disc 2)": [
-			["Counter-Strike - Source", -1]
-		],
-		"Counter-Strike - Source (Disc 3)": [
-			["Counter-Strike - Source", -1]
-		],
-		"Counter-Strike - Source (Disc 4)": [
-			["Counter-Strike - Source", -1]
 		],
 		"Crazy Chicken Approaching": [
 			["Moorhuhn Action - Im Anflug", 1]
@@ -1507,6 +1510,9 @@
 			["Deus Ex - Invisible War (Disc 2) (Installation Disc)", 1],
 			["Deus Ex - Invisible War (Disc 2)", 2]
 		],
+		"Devil Inside, The (DVD)": [
+			["Devil Inside, The", 2]
+		],
 		"Devil May Cry 3 - Dante's Awakening (Disc 1) (Special Edition)": [
 			["Devil May Cry 3 - Dante's Awakening (Special Edition)", 0],
 			["Devil May Cry 3 (Special Edition)", 0]
@@ -1571,9 +1577,6 @@
 		"Director of Football": [
 			["Kicker Fussball Manager", 1]
 		],
-		"Dishonored": [
-			["Dishonored - Game of the Year Edition (Disc 1)", -1]
-		],
 		"Disciples II - Bunt Elfow (Disc 1)": [
 			["Disciples II Gold (Disc 1)", -1]
 		],
@@ -1595,6 +1598,9 @@
 		"Discworld II - Missing Presumed...! (Disc 2)": [
 			["Discworld II - Mortality Bytes! (Disc 2)", 1],
 			["Discworld II - Vermutlich vermisst...! (Disc 2)", 1]
+		],
+		"Dishonored": [
+			["Dishonored - Game of the Year Edition (Disc 1)", -1]
 		],
 		"Disney Tarzan": [
 			["Disney's Tarzan", 1]
@@ -1627,6 +1633,7 @@
 		],
 		"Disney's Hercules Action Game": [
 			["Disney Jeu d'Action Disney Presente Hercule", 1],
+			["Disney Action Game Disney Presenta Hercules", 1],
 			["Disney's Action Game met Hercules", 1],
 			["Disneys Hercules Action-Spiel", 1]
 		],
@@ -2293,7 +2300,6 @@
 			["Doom - Collector's Edition", -1]
 		],
 		"Final Fantasy VIII (Install Disc)": [
-			["Final Fantasy VIII (Disc 5)", 1],
 			["Final Fantasy VIII (Disc Installazione)", 1],
 			["Final Fantasy VIII (Install Disc) (Color Label)", 1]
 		],
@@ -2409,16 +2415,16 @@
 			["Sierra Sports Golf", 1]
 		],
 		"Full Spectrum Warrior - Ten Hammers (Disc 1)": [
-			["Full Spectrum Warrior - Ten Hammers", -1]
+			["Full Spectrum Warrior - Ten Hammers", 0]
 		],
 		"Full Spectrum Warrior - Ten Hammers (Disc 2)": [
-			["Full Spectrum Warrior - Ten Hammers", -1]
+			["Full Spectrum Warrior - Ten Hammers", 0]
 		],
 		"Full Spectrum Warrior - Ten Hammers (Disc 3)": [
-			["Full Spectrum Warrior - Ten Hammers", -1]
+			["Full Spectrum Warrior - Ten Hammers", 0]
 		],
 		"Full Spectrum Warrior - Ten Hammers (Disc 4)": [
-			["Full Spectrum Warrior - Ten Hammers", -1]
+			["Full Spectrum Warrior - Ten Hammers", 0]
 		],
 		"G-Nome": [
 			["Bestseller Games Gold-Edition Ausgabe 17", 2]
@@ -2430,17 +2436,17 @@
 		"Gabriel Knight 3 - Blood of the Sacred, Blood of the Damned (Disc 1)": [
 			["Gabriel Knight 3 - Blut der Heiligen, Blut der Verdammten (Disc 1)", 1],
 			["Gabriel Knight 3 - Enigme en Pays Cathare (Disc 1)", 1],
-			["Gabriel Knight 3 - Il mistero di Rennes-le-Chateau - Il mistero macchiato di sangue (Disc 1)", 1]
+			["Gabriel Knight 3 - Il Mistero di Rennes-le-Chateau - Il Mistero Macchiato di Sangue (Disc 1)", 1]
 		],
 		"Gabriel Knight 3 - Blood of the Sacred, Blood of the Damned (Disc 2)": [
 			["Gabriel Knight 3 - Blut der Heiligen, Blut der Verdammten (Disc 2)", 1],
 			["Gabriel Knight 3 - Enigme en Pays Cathare (Disc 2)", 1],
-			["Gabriel Knight 3 - Il mistero di Rennes-le-Chateau - Il mistero macchiato di sangue (Disc 2)", 1]
+			["Gabriel Knight 3 - Il Mistero di Rennes-le-Chateau - Il Mistero Macchiato di Sangue (Disc 2)", 1]
 		],
 		"Gabriel Knight 3 - Blood of the Sacred, Blood of the Damned (Disc 3)": [
 			["Gabriel Knight 3 - Blut der Heiligen, Blut der Verdammten (Disc 3)", 1],
 			["Gabriel Knight 3 - Enigme en Pays Cathare (Disc 3)", 1],
-			["Gabriel Knight 3 - Il mistero di Rennes-le-Chateau - Il mistero macchiato di sangue (Disc 3)", 1]
+			["Gabriel Knight 3 - Il Mistero di Rennes-le-Chateau - Il Mistero Macchiato di Sangue (Disc 3)", 1]
 		],
 		"Galactic Civilizations II - Dread Lords (Disc 1)": [
 			["Galactic Civilizations II - Gold Edition (Disc 1)", -1]
@@ -5470,6 +5476,9 @@
 		"Skoki Narciarskie 2003 - Polski Orzel": [
 			["Skoki Narciarskie 2003 - Polski Orzel - Zlota Edycja", -1]
 		],
+		"Small Soldiers - Globaltech Design Lab": [
+			["Small Soldiers - Globotech Design Lab", 1]
+		],
 		"Sno-Cross Extreme": [
 			["Komputer Swiat Gry 04-2002", 1]
 		],
@@ -6200,7 +6209,8 @@
 			["TrekManija", 1]
 		],
 		"TrackMania Sunrise": [
-			["TrackMania Sunrise Extreme", -1]
+			["TrackMania Sunrise Extreme", -1],
+			["Trekmanija Sunrise", 1]
 		],
 		"TrackMania United": [
 			["TrackMania United Forever", -1]
