@@ -94,7 +94,7 @@
         "group_name": "Leisure Suit Larry - Magna Cum Laude",
         "status": "Blue",
         "disc_type": "DVD-9",
-        "languages": "",
+        "languages": "Fr",
         "version": "",
         "edition": "Original"
     },
@@ -742,7 +742,7 @@
         "group_name": "NBA Live 2005",
         "status": "Blue",
         "disc_type": "DVD-9",
-        "languages": "",
+        "languages": "Fr",
         "version": "",
         "edition": "Original"
     },
@@ -1534,7 +1534,7 @@
         "group_name": "Need for Speed - Carbon",
         "status": "Blue",
         "disc_type": "DVD-9",
-        "languages": "",
+        "languages": "Fr",
         "version": "",
         "edition": "Original"
     },
@@ -1763,12 +1763,12 @@
         "version": "",
         "edition": "Original"
     },
-    "Spyro - A Hero's Tail (Europe) (En,Fr,De,Es,It)": {
+    "Spyro - A Hero's Tail (Europe) (En,Fr,De,Es,It,Nl)": {
         "secondary_name": "",
         "group_name": "Spyro - A Hero's Tail",
         "status": "Blue",
         "disc_type": "DVD-9",
-        "languages": "En, Fr, De, It, Es",
+        "languages": "Nl, En, Fr, De, It, Es",
         "version": "",
         "edition": "Original"
     },
@@ -2447,16 +2447,16 @@
         "version": "",
         "edition": "Original"
     },
-    "NHL 2005 (Europe) (En,Fr,De)": {
+    "NHL 2005 (Europe) (En,Fr,De,Sv,Fi)": {
         "secondary_name": "",
         "group_name": "NHL 2005",
         "status": "Green",
         "disc_type": "DVD-9",
-        "languages": "En, Fr, De",
+        "languages": "En, Fi, Fr, De, Sv",
         "version": "",
         "edition": "Original"
     },
-    "Club Football - Chelsea FC (Europe)": {
+    "Club Football - Chelsea FC (UK)": {
         "secondary_name": "",
         "group_name": "Club Football - Chelsea FC",
         "status": "Green",
@@ -2769,7 +2769,7 @@
         "disc_type": "DVD-9",
         "languages": "En, Fr, De",
         "version": "",
-        "edition": "Original"
+        "edition": "Original, Classics"
     },
     "Official Xbox Magazine Game Disc 26 (USA)": {
         "secondary_name": "",
@@ -4175,12 +4175,12 @@
         "version": "",
         "edition": "Kiosk Demo"
     },
-    "Jurassic Park - Operation Genesis (Europe)": {
+    "Jurassic Park - Operation Genesis (Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "Jurassic Park - Operation Genesis",
         "status": "Green",
         "disc_type": "DVD-9",
-        "languages": "",
+        "languages": "En, Fr, De, It, Es",
         "version": "",
         "edition": "Original"
     },
@@ -7019,12 +7019,12 @@
         "version": "",
         "edition": "Original"
     },
-    "Club Football 2005 - Liverpool FC (Europe)": {
+    "Club Football 2005 - Liverpool FC (Europe) (En,Fr,De)": {
         "secondary_name": "",
         "group_name": "Club Football 2005 - Liverpool FC",
         "status": "Blue",
         "disc_type": "DVD-9",
-        "languages": "",
+        "languages": "En, Fr, De",
         "version": "",
         "edition": "Original"
     },
@@ -7478,12 +7478,12 @@
         "version": "",
         "edition": "Original"
     },
-    "Club Football 2005 - Paris Saint-Germain (France)": {
+    "Club Football 2005 - Paris Saint-Germain (France) (En,Fr)": {
         "secondary_name": "",
         "group_name": "Club Football 2005 - Paris Saint-Germain",
         "status": "Green",
         "disc_type": "DVD-9",
-        "languages": "Fr",
+        "languages": "En, Fr",
         "version": "",
         "edition": "Original"
     },
@@ -8207,7 +8207,7 @@
         "version": "",
         "edition": "Original"
     },
-    "Club Football - Leeds United (Europe)": {
+    "Club Football - Leeds United (UK)": {
         "secondary_name": "",
         "group_name": "Club Football - Leeds United",
         "status": "Green",
@@ -9251,7 +9251,7 @@
         "version": "",
         "edition": "Demo"
     },
-    "Club Football 2005 - Birmingham City (Europe)": {
+    "Club Football 2005 - Birmingham City (UK)": {
         "secondary_name": "",
         "group_name": "Club Football 2005 - Birmingham City",
         "status": "Green",
@@ -9944,12 +9944,12 @@
         "version": "",
         "edition": "Original"
     },
-    "Club Football - Liverpool FC (Europe)": {
+    "Club Football - Liverpool FC (Europe) (En,Fr,De,Es,It,Nl)": {
         "secondary_name": "",
         "group_name": "Club Football - Liverpool FC",
         "status": "Blue",
         "disc_type": "DVD-9",
-        "languages": "",
+        "languages": "Nl, En, Fr, De, It, Es",
         "version": "",
         "edition": "Original"
     },
@@ -10453,7 +10453,7 @@
         "group_name": "Disney-Pixar Cars",
         "status": "Blue",
         "disc_type": "DVD-9",
-        "languages": "",
+        "languages": "Fr",
         "version": "",
         "edition": "Original"
     },
@@ -10930,7 +10930,7 @@
         "group_name": "Freedom Fighters",
         "status": "Blue",
         "disc_type": "DVD-9",
-        "languages": "",
+        "languages": "Fr",
         "version": "",
         "edition": "Original"
     },
@@ -11528,10 +11528,10 @@
         "version": "",
         "edition": "Original"
     },
-    "Stake (USA) (En,Fr,De,Es,It)": {
-        "secondary_name": "Stake: Fortune Fighters",
-        "group_name": "Stake",
-        "status": "Blue",
+    "Stake - Fortune Fighters (Europe) (En,Fr,De,Es,It)": {
+        "secondary_name": "",
+        "group_name": "Stake - Fortune Fighters",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En, Fr, De, It, Es",
         "version": "",
@@ -12788,12 +12788,12 @@
         "version": "",
         "edition": "Original"
     },
-    "Disney-Pixar Finding Nemo (Scandinavia)": {
+    "Disney-Pixar Finding Nemo (Scandinavia) (Sv,No,Da,Fi)": {
         "secondary_name": "",
         "group_name": "Disney-Pixar Finding Nemo",
         "status": "Blue",
         "disc_type": "DVD-9",
-        "languages": "",
+        "languages": "Da, Fi, No, Sv",
         "version": "",
         "edition": "Original"
     },
@@ -14962,7 +14962,7 @@
         "group_name": "Shrek 2",
         "status": "Blue",
         "disc_type": "DVD-9",
-        "languages": "",
+        "languages": "Fr",
         "version": "",
         "edition": "Original"
     },
@@ -15065,7 +15065,7 @@
         "version": "",
         "edition": "Original"
     },
-    "Club Football - Celtic FC (Europe)": {
+    "Club Football - Celtic FC (UK)": {
         "secondary_name": "",
         "group_name": "Club Football - Celtic FC",
         "status": "Green",
@@ -15106,7 +15106,7 @@
         "group_name": "Spider-Man",
         "status": "Blue",
         "disc_type": "DVD-9",
-        "languages": "",
+        "languages": "Fr",
         "version": "",
         "edition": "Original"
     },
@@ -15920,7 +15920,7 @@
         "version": "",
         "edition": "Original"
     },
-    "Club Football 2005 - Aston Villa (Europe)": {
+    "Club Football 2005 - Aston Villa (UK)": {
         "secondary_name": "",
         "group_name": "Club Football 2005 - Aston Villa",
         "status": "Green",
@@ -17473,7 +17473,7 @@
         "group_name": "Rugby 2005",
         "status": "Blue",
         "disc_type": "DVD-9",
-        "languages": "",
+        "languages": "Fr",
         "version": "",
         "edition": "Original"
     },
@@ -17936,7 +17936,7 @@
         "version": "",
         "edition": "Original, Promo"
     },
-    "Club Football - Aston Villa (Europe)": {
+    "Club Football - Aston Villa (UK)": {
         "secondary_name": "",
         "group_name": "Club Football - Aston Villa",
         "status": "Green",
@@ -18305,7 +18305,7 @@
         "version": "",
         "edition": "Original"
     },
-    "Club Football 2005 - Rangers FC (Europe)": {
+    "Club Football 2005 - Rangers FC (UK)": {
         "secondary_name": "",
         "group_name": "Club Football 2005 - Rangers FC",
         "status": "Green",
@@ -19295,7 +19295,7 @@
         "version": "",
         "edition": "Original"
     },
-    "Club Football 2005 - Newcastle United (Europe)": {
+    "Club Football 2005 - Newcastle United (UK)": {
         "secondary_name": "",
         "group_name": "Club Football 2005 - Newcastle United",
         "status": "Green",
@@ -19430,7 +19430,7 @@
         "version": "",
         "edition": "Original"
     },
-    "Club Football 2005 - Celtic FC (Europe)": {
+    "Club Football 2005 - Celtic FC (UK)": {
         "secondary_name": "",
         "group_name": "Club Football 2005 - Celtic FC",
         "status": "Green",
@@ -20177,7 +20177,7 @@
         "version": "",
         "edition": "Platinum Hits"
     },
-    "Club Football - Rangers FC (Europe)": {
+    "Club Football - Rangers FC (UK)": {
         "secondary_name": "",
         "group_name": "Club Football - Rangers FC",
         "status": "Green",
@@ -20672,7 +20672,7 @@
         "version": "",
         "edition": "Limited Edition"
     },
-    "Club Football 2005 - Tottenham Hotspur (Europe)": {
+    "Club Football 2005 - Tottenham Hotspur (UK)": {
         "secondary_name": "",
         "group_name": "Club Football 2005 - Tottenham Hotspur",
         "status": "Green",
@@ -20699,9 +20699,9 @@
         "version": "",
         "edition": "Original"
     },
-    "Demon Stone (Europe) (En,Fr,De,Es,It)": {
-        "secondary_name": "Forgotten Realms: Demon Stone",
-        "group_name": "Demon Stone",
+    "Forgotten Realms - Demon Stone (Europe) (En,Fr,De,Es,It)": {
+        "secondary_name": "",
+        "group_name": "Forgotten Realms - Demon Stone",
         "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En, Fr, De, It, Es",
@@ -20978,7 +20978,7 @@
         "version": "",
         "edition": "Original"
     },
-    "Club Football 2005 - Chelsea FC (Europe)": {
+    "Club Football 2005 - Chelsea FC (UK)": {
         "secondary_name": "",
         "group_name": "Club Football 2005 - Chelsea FC",
         "status": "Green",
@@ -21753,7 +21753,7 @@
         "edition": "Original"
     },
     "Forza Motorsport (World) (En,Ja,Fr,De,Es,It,Pt,Zh,Ko)": {
-        "secondary_name": "",
+        "secondary_name": "フォルツァ　モータースポーツ",
         "group_name": "Forza Motorsport",
         "status": "Green",
         "disc_type": "DVD-9",
@@ -22066,5 +22066,23 @@
         "languages": "En, Fr, De, It, Es",
         "version": "Rev 1",
         "edition": "Classics"
+    },
+    "OutRun 2 (Europe) (Demo)": {
+        "secondary_name": "",
+        "group_name": "OutRun 2",
+        "status": "Blue",
+        "disc_type": "DVD-9",
+        "languages": "",
+        "version": "",
+        "edition": "Demo"
+    },
+    "Xbox Demo Disk Version 13 (Europe)": {
+        "secondary_name": "",
+        "group_name": "Xbox Demo Disk Version 13",
+        "status": "Blue",
+        "disc_type": "DVD-9",
+        "languages": "",
+        "version": "",
+        "edition": "Kiosk Demo"
     }
 }

@@ -12121,5 +12121,14 @@
         "languages": "Ja",
         "version": "1.002",
         "edition": "Taikenban"
+    },
+    "Hang the DJ (Japan)": {
+        "secondary_name": "",
+        "group_name": "Hang the DJ",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
     }
 }

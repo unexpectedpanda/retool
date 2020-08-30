@@ -3,7 +3,7 @@
         "name": [
 			"Nintendo - Super Nintendo Entertainment System"
 		],
-        "last updated": "27 July 2020"
+        "last updated": "30 August 2020"
     },
 
     "compilations": [
@@ -276,8 +276,9 @@
         "F1 Pole Position": [
             ["Human Grand Prix", 1]
         ],
-        "FIFA - Road to World Cup 98": [
-            ["FIFA - A Caminho Da Copa 98", 1]
+        "FIFA - Road to World Cup 98 (A8FP)": [
+            ["FIFA - A Caminho Da Copa 98", 1],
+            ["FIFA - Road to World Cup 98 (A8FE)", 2]
         ],
         "FIFA Soccer 97": [
             ["FIFA 97", 1]
@@ -1230,6 +1231,10 @@
             ["Eric Cantona Football Challenge", 1],
             ["Striker", 1],
             ["World Soccer", 1]
+        ],
+        "WWF WrestleMania - The Arcade Game": [
+            ["WWF WrestleMania - The Arcade Game (VideoGames)", 2],
+            ["WWF WrestleMania - The Arcade Game (Club Nintendo)", 2]
         ],
         "X-Kaliber 2097": [
             ["Sword Maniac", 1]

@@ -3,7 +3,7 @@
 		"name": [
 			"IBM - PC compatible"
 		],
-		"last updated": "23 August 2020"
+		"last updated": "30 August 2020"
 	},
 
 	"compilations": [
@@ -346,10 +346,6 @@
 		"AS - Angelic Serenade": [
 			["Tianshi Xiaoyequ (Youxi Anzhuang)", 1]
 		],
-		"Assassin's Creed": [
-			["Assassin's Creed - Director's Cut Edition", -1],
-			["Assassin's Creed - Wersja Rezyserska", -1]
-		],
 		"Assassin's Creed - Director's Cut Edition": [
 			["Assassin's Creed - Wersja Rezyserska", 1]
 		],
@@ -658,6 +654,12 @@
 		],
 		"Bestseller Games Collection Ausgabe 11": [
 			["Hallo! 2 (Disc 4)", 2]
+		],
+		"Beyond Divinity (Game-CD)": [
+			["Beyond Divinity Okovy Sud'by (Play CD)", 1]
+		],
+		"Beyond Divinity (Installation CD)": [
+			["Beyond Divinity Okovy Sud'by (Install CD)", 1]
 		],
 		"Beyond Good & Evil (Disc 1)": [
 			["Beyond Good & Evil", 0],
@@ -973,10 +975,12 @@
 			["Scudetto 4 - Championship Manager - Stagione 2002-2003", 1]
 		],
 		"Chaser (Disc 1)": [
-			["Chaser (Disc 1) (Play CD)", 1]
+			["Chaser (Disc 1) (Play CD)", 1],
+			["Chaser (Disc 1) (Spiel-CD)", 1]
 		],
 		"Chaser (Disc 2)": [
-			["Chaser (Disc 2) (Install CD)", 1]
+			["Chaser (Disc 2) (Install CD)", 1],
+			["Chaser (Disc 2) (Installations-CD)", 1]
 		],
 		"Chessmaster 10th Edition (Disc 1)": [
 			["Chessmaster 10th Edition", 0]
@@ -1388,6 +1392,12 @@
 		],
 		"Dark Fall - The Journal": [
 			["Dark Fall - Il Diario dei Misteri", 1]
+		],
+		"Dark Souls II (Disc 1)": [
+			["Dark Souls II - Scholar of the First Sin (Disc 1)", -1]
+		],
+		"Dark Souls II (Disc 2)": [
+			["Dark Souls II - Scholar of the First Sin (Disc 2)", -1]
 		],
 		"Daryl F. Gates Police Quest - Open Season": [
 			["Daryl F. Gates' Police Quest Collection - The 4 Most Wanted (Collection Series)", -1],
@@ -1992,7 +2002,8 @@
 			["Elder Scrolls IV, The - Oblivion - 5th Anniversary Edition (Disc 1)", -1]
 		],
 		"Elder Scrolls IV, The - Oblivion - Game of the Year Edition (Disc 2) (Shivering Isles-Knights of the Nine)": [
-			["Elder Scrolls IV, The - Oblivion - 5th Anniversary Edition (Disc 1)", -1]
+			["Elder Scrolls IV, The - Oblivion - 5th Anniversary Edition (Disc 1)", -1],
+			["Elder Scrolls IV, The - Oblivion - Game of the Year Edition (Disc 2)", 1]
 		],
 		"Elder Scrolls IV, The - Shivering Isles": [
 			["Elder Scrolls IV, The - Oblivion - 5th Anniversary Edition (Disc 1)", -1]
@@ -3602,6 +3613,7 @@
 			["MechWarrior 2 - 31st Century Combat (Windows 95 & MS-DOS + NetMech)", 1],
 			["MechWarrior 2 - 31st Century Combat (ATI 3D Rage Edition)", 2],
 			["MechWarrior 2 - 31st Century Combat (BattlePack)", 2],
+			["MechWarrior 2 - 31st Century Combat (Enhanced for the ATI Rage II)", 2],
 			["MechWarrior 2 - 31st Century Combat (Enhanced for Matrox Mystique)", 2],
 			["MechWarrior 2 - 31st Century Combat (Enhanced for the S3 ViRGE)", 2],
 			["MechWarrior 2 - 31st Century Combat (Interactive Preview)", 2],
@@ -3746,6 +3758,12 @@
 		],
 		"Might and Magic III - Isles of Terra": [
 			["Bestseller Games Ausgabe 3", 1]
+		],
+		"Might and Magic IX (Disc 1) (Install)": [
+			["Might and Magic IX (Install CD)", 1]
+		],
+		"Might and Magic IX (Disc 2) (Play)": [
+			["Might and Magic IX (Play CD)", 1]
 		],
 		"Might and Magic VI - The Mandate of Heaven (Disc 1) (Install)": [
 			["Mofamen VI - Tiantang Zhi Ling (Disc 1)", 1],
@@ -5265,6 +5283,12 @@
 		"Siedler II, Die - Mission CD": [
 			["Settlers II, The - Nowe Misje", 1]
 		],
+		"Silent Heroes - Elite Troops of WWII (Disc 1)": [
+			["Silent Heroes - Elite Troops of WWII", 0]
+		],
+		"Silent Heroes - Elite Troops of WWII (Disc 2)": [
+			["Silent Heroes - Elite Troops of WWII", 0]
+		],
 		"Silent Hill 2 (Disc 1)": [
 			["Silent Hill 2 - Director's Cut (Disc 1)", -1]
 		],
@@ -5475,6 +5499,9 @@
 		],
 		"Skoki Narciarskie 2003 - Polski Orzel": [
 			["Skoki Narciarskie 2003 - Polski Orzel - Zlota Edycja", -1]
+		],
+		"Slam Tilt Pinball": [
+			["Slam Tilt", 1]
 		],
 		"Small Soldiers - Globaltech Design Lab": [
 			["Small Soldiers - Globotech Design Lab", 1]
@@ -6209,8 +6236,7 @@
 			["TrekManija", 1]
 		],
 		"TrackMania Sunrise": [
-			["TrackMania Sunrise Extreme", -1],
-			["Trekmanija Sunrise", 1]
+			["TrackMania Sunrise Extreme", -1]
 		],
 		"TrackMania United": [
 			["TrackMania United Forever", -1]

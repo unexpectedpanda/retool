@@ -3022,5 +3022,113 @@
         "languages": "Ja",
         "version": "",
         "edition": "Original"
+    },
+    "Illusion CG Collection Vol. 1 - Yawahada Bishoujo (Japan)": {
+        "secondary_name": "イリュージョンＣＧコレクション　Ｖｏｌ．１　柔肌美少女",
+        "group_name": "Illusion CG Collection Vol. 1 - Yawahada Bishoujo",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Kyouiku & FM Towns Vol. 2 (Japan)": {
+        "secondary_name": "教育＆ＦＭ　ＴＯＷＮＳ　ＶＯＬ．２",
+        "group_name": "Kyouiku & FM Towns Vol. 2",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Hibaihin"
+    },
+    "Record of Lodoss War - Lodoss-tou Senki II - Goshiki no Maryuu (Japan)": {
+        "secondary_name": "ロードス島戦記Ⅱ　～五色の魔竜～",
+        "group_name": "Record of Lodoss War - Lodoss-tou Senki II - Goshiki no Maryuu",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Xenon - Mugen no Shitai (Japan)": {
+        "secondary_name": "ＸＥＮＯＮ　～夢幻の肢体～",
+        "group_name": "Xenon - Mugen no Shitai",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Excellent 10 (Japan)": {
+        "secondary_name": "エクセレント１０",
+        "group_name": "Excellent 10",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Perfect Soko-ban (Japan)": {
+        "secondary_name": "倉庫番パーフェクト",
+        "group_name": "Perfect Soko-ban",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "1.00",
+        "edition": "Original"
+    },
+    "Madou Gakuin R (Japan)": {
+        "secondary_name": "魔導学院Ｒ",
+        "group_name": "Madou Gakuin R",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Ikazuchi no Senshi Raidy (Japan)": {
+        "secondary_name": "雷の戦士ライディ",
+        "group_name": "Ikazuchi no Senshi Raidy",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "De-Ja II (Japan)": {
+        "secondary_name": "",
+        "group_name": "De-Ja II",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Xak II - Rising of the Redmoon (Japan)": {
+        "secondary_name": "",
+        "group_name": "Xak II - Rising of the Redmoon",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Castles (Japan) (En,Ja)": {
+        "secondary_name": "キャッスルズ",
+        "group_name": "Castles",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En, Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Centurion - Defender of Rome (Japan)": {
+        "secondary_name": "センチュリオン",
+        "group_name": "Centurion - Defender of Rome",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
     }
 }

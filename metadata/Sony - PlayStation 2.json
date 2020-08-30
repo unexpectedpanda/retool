@@ -285,7 +285,7 @@
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.01",
-        "edition": "Yuke's the Best"
+        "edition": "Original, Yuke's the Best"
     },
     "Gran Turismo Concept - 2001 Tokyo (Japan, Asia)": {
         "secondary_name": "グランツーリスモ コンセプト　～２００１　Ｔｏｋｙｏ～",
@@ -1124,7 +1124,7 @@
         "version": "1.00",
         "edition": "Original"
     },
-    "Club Football 2005 - Aston Villa (Europe)": {
+    "Club Football 2005 - Aston Villa (UK)": {
         "secondary_name": "",
         "group_name": "Club Football 2005 - Aston Villa",
         "status": "Blue",
@@ -2888,9 +2888,9 @@
         "version": "1.01",
         "edition": "Original"
     },
-    "Remember 11 - The Age of Infinity (Japan) (Infinity Plus)": {
-        "secondary_name": "",
-        "group_name": "Remember 11 - The Age of Infinity",
+    "Remember11 - The Age of Infinity (Japan) (Infinity Plus)": {
+        "secondary_name": "リメンバー イレブン　THE AGE OF INFINITY",
+        "group_name": "Remember11 - The Age of Infinity",
         "status": "Blue",
         "disc_type": "DVD-5",
         "languages": "Ja",
@@ -7892,7 +7892,7 @@
         "version": "1.00",
         "edition": "Original"
     },
-    "Club Football 2005 - Rangers FC (Europe)": {
+    "Club Football 2005 - Rangers FC (UK)": {
         "secondary_name": "",
         "group_name": "Club Football 2005 - Rangers FC",
         "status": "Green",
@@ -9494,10 +9494,10 @@
         "version": "1.00",
         "edition": "Original"
     },
-    "Sprint Cars - Road to Knoxville (Europe)": {
+    "Sprint Cars - Road to Knoxville (Europe, Australia)": {
         "secondary_name": "",
         "group_name": "Sprint Cars - Road to Knoxville",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "1.00",
@@ -12132,7 +12132,7 @@
         "edition": "Original"
     },
     "SuperLite 2000 Vol. 23 - Never 7 - The End of Infinity (Japan)": {
-        "secondary_name": "ＳｕｐｅｒＬｉｔｅ　２０００　ｖｏｌ．２３　恋愛アドベンチャー Ｎｅｖｅｒ７ ～ｔｈｅ　ｅｎｄ　ｏｆ　ｉｎｆｉｎｉｔｙ～",
+        "secondary_name": "ＳｕｐｅｒＬｉｔｅ　２０００　ｖｏｌ．２３　恋愛アドベンチャー　ネバー セブン ～ｔｈｅ　ｅｎｄ　ｏｆ　ｉｎｆｉｎｉｔｙ～",
         "group_name": "SuperLite 2000 Vol. 23 - Never 7 - The End of Infinity",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -12662,7 +12662,7 @@
         "version": "1.00",
         "edition": ""
     },
-    "Kart Racer (Europe) (En,Fr,De,Es,It)": {
+    "Kart Racer (Europe, Australia) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "Kart Racer",
         "status": "Green",
@@ -13005,9 +13005,9 @@
         "edition": "Original"
     },
     "Taiko no Tatsujin - Go! Go! Godaime (Japan)": {
-        "secondary_name": "太鼓の達人　ゴー!ゴー！五代目",
+        "secondary_name": "太鼓の達人　～ゴー!ゴー！五代目～",
         "group_name": "Taiko no Tatsujin - Go! Go! Godaime",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.00",
@@ -15092,9 +15092,9 @@
         "version": "1.00",
         "edition": "Beta"
     },
-    "Demon Stone (USA)": {
+    "Forgotten Realms - Demon Stone (USA)": {
         "secondary_name": "",
-        "group_name": "Demon Stone",
+        "group_name": "Forgotten Realms - Demon Stone",
         "status": "Blue",
         "disc_type": "DVD-5",
         "languages": "En",
@@ -16362,7 +16362,7 @@
         "edition": "Beta"
     },
     "Never 7 - The End of Infinity (Japan)": {
-        "secondary_name": "ネバーセブン",
+        "secondary_name": "ネバー セブン　the end of infinity",
         "group_name": "Never 7 - The End of Infinity",
         "status": "Blue",
         "disc_type": "DVD-5",
@@ -16856,14 +16856,14 @@
         "version": "1.00",
         "edition": "Preview"
     },
-    "League Series Baseball 2 (Europe)": {
+    "League Series Baseball 2 (Europe, Australia)": {
         "secondary_name": "",
         "group_name": "League Series Baseball 2",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "1.02",
-        "edition": "Pocket Price Midas"
+        "edition": "Original, Pocket Price Midas"
     },
     "Zoids Infinity Fuzors (Japan)": {
         "secondary_name": "ゾイド インフィニティ フューザーズ",
@@ -17504,7 +17504,7 @@
         "version": "1.01",
         "edition": "Shokai Genteiban"
     },
-    "Centre Court - Hard Hitter (Europe) (En,Fr,De)": {
+    "Centre Court - Hard Hitter (Europe, Australia) (En,Fr,De)": {
         "secondary_name": "",
         "group_name": "Centre Court - Hard Hitter",
         "status": "Green",
@@ -18863,10 +18863,10 @@
         "version": "1.01",
         "edition": "Original"
     },
-    "Postman Pat (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi)": {
+    "Postman Pat (Europe, Australia) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi)": {
         "secondary_name": "",
         "group_name": "Postman Pat",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Da, Nl, En, Fi, Fr, De, It, No, Pt, Es, Sv",
         "version": "1.06",
@@ -20195,7 +20195,7 @@
         "version": "1.00",
         "edition": "Original"
     },
-    "Club Football 2005 - Birmingham City (Europe)": {
+    "Club Football 2005 - Birmingham City (UK)": {
         "secondary_name": "",
         "group_name": "Club Football 2005 - Birmingham City",
         "status": "Blue",
@@ -21329,7 +21329,7 @@
         "version": "1.00",
         "edition": "Original"
     },
-    "Club Football 2005 - Paris Saint-Germain (Europe) (En,Fr)": {
+    "Club Football 2005 - Paris Saint-Germain (France) (En,Fr)": {
         "secondary_name": "",
         "group_name": "Club Football 2005 - Paris Saint-Germain",
         "status": "Blue",
@@ -22490,7 +22490,7 @@
         "version": "1.00 (American)",
         "edition": "Unlicensed"
     },
-    "SCAR - Squadra Corse Alfa Romeo (Europe) (En,Fr,De,Es,It)": {
+    "SCAR - Squadra Corse Alfa Romeo (Europe, Australia) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "SCAR - Squadra Corse Alfa Romeo",
         "status": "Green",
@@ -23030,7 +23030,7 @@
         "version": "1.01",
         "edition": "Platinum"
     },
-    "Club Football - Aston Villa (Europe)": {
+    "Club Football - Aston Villa (UK)": {
         "secondary_name": "",
         "group_name": "Club Football - Aston Villa",
         "status": "Blue",
@@ -23786,9 +23786,9 @@
         "version": "1.01",
         "edition": "Original"
     },
-    "Disney Vol't (Russia)": {
+    "Disney Bolt (Russia)": {
         "secondary_name": "Disney Вольт",
-        "group_name": "Disney Vol't",
+        "group_name": "Disney Bolt",
         "status": "Blue",
         "disc_type": "DVD-5",
         "languages": "Ru",
@@ -26891,7 +26891,7 @@
         "version": "1.00",
         "edition": "Original, Collector's Edition"
     },
-    "Futakoi (Japan)": {
+    "Futakoi (Japan) (Shokai Genteiban)": {
         "secondary_name": "双恋",
         "group_name": "Futakoi",
         "status": "Green",
@@ -29411,12 +29411,12 @@
         "version": "1.00",
         "edition": ""
     },
-    "World Soccer Winning Eleven 7 - International (USA) (En,Fr,De,Es,It)": {
+    "World Soccer Winning Eleven 7 - International (USA) (En,Es)": {
         "secondary_name": "",
         "group_name": "World Soccer Winning Eleven 7 - International",
         "status": "Blue",
         "disc_type": "DVD-5",
-        "languages": "En, Fr, De, It, Es",
+        "languages": "En, Es",
         "version": "1.01",
         "edition": "Original"
     },
@@ -31731,7 +31731,7 @@
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.20",
-        "edition": "Original"
+        "edition": "Original, PlayStation 2 the Best"
     },
     "Jak 3 (USA) (En,Fr,De,Es,It,Pt,Ru)": {
         "secondary_name": "",
@@ -33399,13 +33399,13 @@
         "edition": "Original, Promo"
     },
     "Yokushin - GigaWing Generations (Japan)": {
-        "secondary_name": "翼神 GIGAWING GENERATIONS",
+        "secondary_name": "翼神　－ＧＩＧＡＷＩＮＧ　ＧＥＮＥＲＡＴＩＯＮＳ－",
         "group_name": "Yokushin - GigaWing Generations",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.05",
-        "edition": "Original"
+        "edition": "Original, Taito Best"
     },
     "PrePre 2 Volume 7 - 2003 April (Japan)": {
         "secondary_name": "プレプレ　２　ＶＯＬＵＭＥ　７　～２００３　ＡＰＲＩＬ～",
@@ -36008,10 +36008,10 @@
         "version": "1.00",
         "edition": "Original"
     },
-    "Polar Express, The (Europe) (En,Fr,De,Es,It)": {
+    "Polar Express, The (Europe, Australia) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "Polar Express, The",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En, Fr, De, It, Es",
         "version": "1.00",
@@ -37871,7 +37871,7 @@
         "version": "1.00",
         "edition": "Original"
     },
-    "Club Football - Leeds United (Europe)": {
+    "Club Football - Leeds United (UK)": {
         "secondary_name": "",
         "group_name": "Club Football - Leeds United",
         "status": "Blue",
@@ -37880,14 +37880,14 @@
         "version": "1.00",
         "edition": "Original"
     },
-    "Colin McRae Rally 3 (Europe) (En,Fr,De,Es,It)": {
+    "Colin McRae Rally 3 (Europe, Australia) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "Colin McRae Rally 3",
         "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En, Fr, De, It, Es",
         "version": "1.03",
-        "edition": "Original"
+        "edition": "Original, Promo"
     },
     "FIFA Street 2 (Japan)": {
         "secondary_name": "ＦＩＦＡ　ストリート２",
@@ -39195,7 +39195,7 @@
         "edition": "Original"
     },
     "SuperLite 2000 Vol. 24 - Ever 17 - The Out of Infinity - Premium Edition (Japan)": {
-        "secondary_name": "ＳｕｐｅｒＬｉｔｅ　２０００　ｖｏｌ．２４　恋愛アドベンチャー　Ｅｖｅｒ１７　～ｔｈｅ　ｏｕｔ　ｏｆ　ｉｎｆｉｎｉｔｙ～　Ｐｒｅｍｉｕｍ　Ｅｄｉｔｉｏｎ",
+        "secondary_name": "ＳｕｐｅｒＬｉｔｅ　２０００　ｖｏｌ．２４　恋愛アドベンチャー　エバー セブンティーン　－ ｔｈｅ ｏｕｔ ｏｆ ｉｎｆｉｎｉｔｙ －　ＰＲＥＭＩＵＭ ＥＤＩＴＩＯＮ",
         "group_name": "SuperLite 2000 Vol. 24 - Ever 17 - The Out of Infinity - Premium Edition",
         "status": "Blue",
         "disc_type": "DVD-5",
@@ -41363,7 +41363,7 @@
         "version": "1.01",
         "edition": "Original"
     },
-    "Pirates of the Caribbean - The Legend of Jack Sparrow (Europe) (En,Fr,De,Es,It)": {
+    "Pirates of the Caribbean - The Legend of Jack Sparrow (Europe) (En,Fr,De,Es,It) (v2.00)": {
         "secondary_name": "",
         "group_name": "Pirates of the Caribbean - The Legend of Jack Sparrow",
         "status": "Green",
@@ -42261,7 +42261,7 @@
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.08",
-        "edition": "Original"
+        "edition": "Original, PlayStation 2 the Best"
     },
     "Mary-Kate and Ashley - Sweet 16 - Licensed to Drive (USA)": {
         "secondary_name": "",
@@ -44036,7 +44036,7 @@
         "version": "1.00",
         "edition": "Original"
     },
-    "Club Football - Celtic FC (Europe)": {
+    "Club Football - Celtic FC (UK)": {
         "secondary_name": "",
         "group_name": "Club Football - Celtic FC",
         "status": "Blue",
@@ -44450,12 +44450,12 @@
         "version": "1.01",
         "edition": "Original, Greatest Hits"
     },
-    "World Soccer Winning Eleven 8 - International (USA) (En,Fr,De,Es,It)": {
+    "World Soccer Winning Eleven 8 - International (USA) (En,Es)": {
         "secondary_name": "",
         "group_name": "World Soccer Winning Eleven 8 - International",
         "status": "Blue",
         "disc_type": "DVD-5",
-        "languages": "En, Fr, De, It, Es",
+        "languages": "En, Es",
         "version": "1.01",
         "edition": "Original"
     },
@@ -44957,7 +44957,7 @@
     "Kiosk Demo Disc 2.7 (USA)": {
         "secondary_name": "",
         "group_name": "Kiosk Demo Disc 2.7",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "",
         "version": "1.00",
@@ -47916,7 +47916,7 @@
         "edition": "Original"
     },
     "Ever 17 - The Out of Infinity (Japan) (Infinity Plus)": {
-        "secondary_name": "",
+        "secondary_name": "エバー・セブンティーン　the out of infinity",
         "group_name": "Ever 17 - The Out of Infinity",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -48473,10 +48473,10 @@
         "version": "1.03",
         "edition": "Original"
     },
-    "Summer Athletics (Europe) (En,Fr,De,Es,It)": {
+    "Summer Athletics (Europe, Australia) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "Summer Athletics",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En, Fr, De, It, Es",
         "version": "1.01",
@@ -49976,7 +49976,7 @@
         "version": "1.01",
         "edition": "Original"
     },
-    "Club Football - Chelsea FC (Europe)": {
+    "Club Football - Chelsea FC (UK)": {
         "secondary_name": "",
         "group_name": "Club Football - Chelsea FC",
         "status": "Blue",
@@ -50199,7 +50199,7 @@
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.01",
-        "edition": "PlayStation 2 the Best, Koei the Best, Shin Sangoku Musou Series Collection Gekan"
+        "edition": "Original, PlayStation 2 the Best, Koei the Best, Shin Sangoku Musou Series Collection Gekan"
     },
     "Tom Clancy's Splinter Cell - Double Agent (USA) (En,Fr,Es)": {
         "secondary_name": "",
@@ -50640,7 +50640,7 @@
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.01",
-        "edition": "EA Best Hits, EA Best Hits: 007: Nightfire & 007: Everything or Nothing"
+        "edition": "Original, EA Best Hits, EA Best Hits: 007: Nightfire & 007: Everything or Nothing"
     },
     "Arc the Lad - Seirei no Tasogare - Premiere Disc (Japan) (Demo)": {
         "secondary_name": "アークザラッド　～ 精霊の黄昏～ 　プレミアディスク",
@@ -53471,7 +53471,7 @@
     "SingStar The Wiggles (Australia)": {
         "secondary_name": "",
         "group_name": "SingStar The Wiggles",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "1.00",
@@ -54674,7 +54674,7 @@
         "version": "1.03",
         "edition": "Original"
     },
-    "Club Football - Rangers FC (Europe)": {
+    "Club Football - Rangers FC (UK)": {
         "secondary_name": "",
         "group_name": "Club Football - Rangers FC",
         "status": "Blue",
@@ -56303,7 +56303,7 @@
         "version": "1.00",
         "edition": ""
     },
-    "Mystereet - Yasogami Kaoru no Jiken File (Japan)": {
+    "Mystereet - Yasogami Kaoru no Jiken File (Japan) (Shokai Genteiban)": {
         "secondary_name": "ミステリート　～八十神かおるの事件ファイル～",
         "group_name": "Mystereet - Yasogami Kaoru no Jiken File",
         "status": "Blue",
@@ -56375,12 +56375,12 @@
         "version": "1.02",
         "edition": "Original"
     },
-    "World Soccer Winning Eleven 8 - Liveware Evolution (Japan) (En,Ja,Fr,De,Es,It)": {
+    "World Soccer Winning Eleven 8 - Liveware Evolution (Japan)": {
         "secondary_name": "ワールドサッカー　ウイニングイレブン8　ライヴウエアエヴォリューション",
         "group_name": "World Soccer Winning Eleven 8 - Liveware Evolution",
         "status": "Green",
         "disc_type": "DVD-5",
-        "languages": "En, Fr, De, It, Ja, Es",
+        "languages": "Ja",
         "version": "1.08",
         "edition": "Original"
     },
@@ -58016,7 +58016,7 @@
     "Midnight Club 3 - DUB Edition (USA) (v2.00)": {
         "secondary_name": "",
         "group_name": "Midnight Club 3 - DUB Edition",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "2.00",
@@ -59876,7 +59876,7 @@
         "version": "1.02",
         "edition": "Original, Greatest Hits"
     },
-    "Club Football 2005 - Celtic FC (Europe)": {
+    "Club Football 2005 - Celtic FC (UK)": {
         "secondary_name": "",
         "group_name": "Club Football 2005 - Celtic FC",
         "status": "Blue",
@@ -60918,7 +60918,7 @@
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.00",
-        "edition": "Shokai SP Genteiban"
+        "edition": "Shokai SP Genteiban, Shokai SP Genteiban B-Type"
     },
     "Fantastic Four - Rise of the Silver Surfer (Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "",
@@ -61082,7 +61082,7 @@
         "version": "1.01",
         "edition": "Original"
     },
-    "Club Football 2005 - Chelsea FC (Europe)": {
+    "Club Football 2005 - Chelsea FC (UK)": {
         "secondary_name": "",
         "group_name": "Club Football 2005 - Chelsea FC",
         "status": "Blue",
@@ -61706,7 +61706,7 @@
     "Mashed - Fully Loaded (Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "Mashed - Fully Loaded",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En, Fr, De, It, Es",
         "version": "1.01",
@@ -63812,7 +63812,7 @@
     "Jin Samguk Mussang 2 (Korea)": {
         "secondary_name": "진・삼국무쌍 2",
         "group_name": "Jin Samguk Mussang 2",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ko",
         "version": "1.02",
@@ -64928,7 +64928,7 @@
     "Exciting Pro Wres 4 (Japan) (Taikenban 2)": {
         "secondary_name": "エキサイティングプロレス４",
         "group_name": "Exciting Pro Wres 4",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.01",
@@ -65834,7 +65834,7 @@
         "version": "1.03",
         "edition": "Original"
     },
-    "Club Football 2005 - Tottenham Hotspur (Europe)": {
+    "Club Football 2005 - Tottenham Hotspur (UK)": {
         "secondary_name": "",
         "group_name": "Club Football 2005 - Tottenham Hotspur",
         "status": "Blue",
@@ -67571,7 +67571,7 @@
         "version": "1.00",
         "edition": "Original"
     },
-    "WRC 3 - The Official Game of the FIA World Rally Championship (Europe) (En,Fr,De,Es,It,Pt,No,Fi)": {
+    "WRC 3 - The Official Game of the FIA World Rally Championship (Europe, Australia) (En,Fr,De,Es,It,Pt,No,Fi)": {
         "secondary_name": "",
         "group_name": "WRC 3 - The Official Game of the FIA World Rally Championship",
         "status": "Green",
@@ -67970,7 +67970,7 @@
     "Enthusia - Professional Racing (USA)": {
         "secondary_name": "",
         "group_name": "Enthusia - Professional Racing",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "1.01",
@@ -69380,14 +69380,14 @@
         "version": "1.01",
         "edition": "Original"
     },
-    "Tales of Destiny 2 (Japan) (PlayStation 2 the Best)": {
+    "Tales of Destiny 2 (Japan) (Mega Hits!)": {
         "secondary_name": "テイルズ・オブ・デスティニー２",
         "group_name": "Tales of Destiny 2",
         "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "2.01",
-        "edition": "PlayStation 2 the Best"
+        "edition": "Mega Hits!, PlayStation 2 the Best"
     },
     "Flintstones in Viva Rock Vegas, The (Europe) (En,Fr,De)": {
         "secondary_name": "",
@@ -70901,12 +70901,12 @@
         "version": "1.00",
         "edition": "Original"
     },
-    "X-Men Legends (Germany)": {
+    "X-Men Legends (Europe) (Fr,De)": {
         "secondary_name": "",
         "group_name": "X-Men Legends",
         "status": "Blue",
         "disc_type": "DVD-5",
-        "languages": "De",
+        "languages": "Fr, De",
         "version": "1.01",
         "edition": "Original"
     },
@@ -71657,12 +71657,12 @@
         "version": "1.00",
         "edition": "Beta Trial Code"
     },
-    "World Soccer Winning Eleven 6 - International (USA) (En,Fr,De,Es,It)": {
+    "World Soccer Winning Eleven 6 - International (USA)": {
         "secondary_name": "",
         "group_name": "World Soccer Winning Eleven 6 - International",
         "status": "Green",
         "disc_type": "DVD-5",
-        "languages": "En, Fr, De, It, Es",
+        "languages": "En",
         "version": "1.00",
         "edition": "Original"
     },
@@ -73775,7 +73775,7 @@
     "Barbie Horse Adventures - Wild Horse Rescue (USA)": {
         "secondary_name": "",
         "group_name": "Barbie Horse Adventures - Wild Horse Rescue",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "",
         "version": "1.01",
@@ -75563,14 +75563,14 @@
         "version": "1.00",
         "edition": "Original"
     },
-    "Bokujou Monogatari - Oh! Wonderful Life (Japan) (PlayStation 2 the Best)": {
+    "Bokujou Monogatari - Oh! Wonderful Life (Japan) (Shokai Genteiban)": {
         "secondary_name": "牧場物語　Ｏｈ！ワンダフルライフ",
         "group_name": "Bokujou Monogatari - Oh! Wonderful Life",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.02",
-        "edition": "PlayStation 2 the Best"
+        "edition": "Shokai Genteiban, PlayStation 2 the Best"
     },
     "Go Go Golf (Europe)": {
         "secondary_name": "",
@@ -76070,7 +76070,7 @@
     "Virtua Quest (USA)": {
         "secondary_name": "",
         "group_name": "Virtua Quest",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "1.01",
@@ -77084,7 +77084,7 @@
         "version": "1.02",
         "edition": "Original"
     },
-    "Smarties - Meltdown (Europe) (En,Fr,De,Es,It)": {
+    "Smarties - Meltdown (Europe, Australia) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "Smarties - Meltdown",
         "status": "Green",
@@ -77741,7 +77741,7 @@
         "version": "1.00",
         "edition": "Original, Greatest Hits"
     },
-    "Club Football 2005 - Newcastle United (Europe)": {
+    "Club Football 2005 - Newcastle United (UK)": {
         "secondary_name": "",
         "group_name": "Club Football 2005 - Newcastle United",
         "status": "Blue",
@@ -78228,7 +78228,7 @@
         "edition": "Original"
     },
     "Ever 17 - The Out of Infinity (Japan) (Shokai Genteiban)": {
-        "secondary_name": "",
+        "secondary_name": "エバー・セブンティーン　the out of infinity",
         "group_name": "Ever 17 - The Out of Infinity",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -78531,7 +78531,7 @@
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "1.01",
-        "edition": "Platinum, Platinum: The Best of PlayStation 2"
+        "edition": "Original, Platinum, Platinum: The Best of PlayStation 2"
     },
     "F1 2001 (Europe) (En,Es,It,Sv)": {
         "secondary_name": "",
@@ -84662,12 +84662,12 @@
         "version": "1.00",
         "edition": "Original"
     },
-    "World Soccer Winning Eleven 9 (USA) (En,Fr,De,Es,It)": {
+    "World Soccer Winning Eleven 9 (USA) (En,Es)": {
         "secondary_name": "",
         "group_name": "World Soccer Winning Eleven 9",
         "status": "Green",
         "disc_type": "DVD-5",
-        "languages": "En, Fr, De, It, Es",
+        "languages": "En, Es",
         "version": "1.01",
         "edition": "Original"
     },
@@ -85184,7 +85184,7 @@
         "version": "1.00",
         "edition": "Original"
     },
-    "Grooverider (Europe) (En,Fr,De,Es,It)": {
+    "Grooverider (Europe, Australia) (En,Fr,De,Es,It)": {
         "secondary_name": "Grooverider: Slot Car Racing",
         "group_name": "Grooverider",
         "status": "Green",
@@ -85346,7 +85346,7 @@
         "version": "1.00",
         "edition": "PlayStation 2 the Best"
     },
-    "GT-R 400 (Europe)": {
+    "GT-R 400 (Europe, Australia)": {
         "secondary_name": "",
         "group_name": "GT-R 400",
         "status": "Green",
@@ -85392,7 +85392,7 @@
         "edition": "Original"
     },
     "Ever 17 - The Out of Infinity Premium Edition (Japan)": {
-        "secondary_name": "",
+        "secondary_name": "エバー・セブンティーン　the out of infinity PREMIUM EDITION",
         "group_name": "Ever 17 - The Out of Infinity Premium Edition",
         "status": "Blue",
         "disc_type": "DVD-5",
@@ -86591,7 +86591,7 @@
     "SOCOM II - U.S. Navy SEALs (Korea) (v2.00)": {
         "secondary_name": "",
         "group_name": "SOCOM II - U.S. Navy SEALs",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ko",
         "version": "2.00",
@@ -86894,7 +86894,7 @@
         "version": "1.03",
         "edition": "Original"
     },
-    "Road Trip Adventure (Europe) (En,Fr,De)": {
+    "Road Trip Adventure (Europe, Australia) (En,Fr,De)": {
         "secondary_name": "",
         "group_name": "Road Trip Adventure",
         "status": "Green",
@@ -86960,7 +86960,7 @@
     "Tennis no Oujisama - Smash Hit! Original Anime Game (Japan) (SLPM-62358)": {
         "secondary_name": "テニスの王子様　スマッシュヒット！オリジナルアニメ・ゲーム",
         "group_name": "Tennis no Oujisama - Smash Hit! Original Anime Game",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.01",
@@ -89028,7 +89028,7 @@
         "edition": "Tokubetsu-ban"
     },
     "Shoujo Yoshitsune-jong - Benkei no Naki Dokoro (Japan)": {
-        "secondary_name": "少女義経雀～弁慶の泣きどころ～",
+        "secondary_name": "少女義経雀　～弁慶の泣きどころ～",
         "group_name": "Shoujo Yoshitsune-jong - Benkei no Naki Dokoro",
         "status": "Blue",
         "disc_type": "CD",
@@ -89152,5 +89152,167 @@
         "languages": "Ja",
         "version": "1.00",
         "edition": "Shin Sangoku Musou 3: Empires & Moushouden Premium Box"
+    },
+    "CombatQueen (Japan)": {
+        "secondary_name": "コンバットクイーン",
+        "group_name": "CombatQueen",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "Ja",
+        "version": "1.03",
+        "edition": "Original"
+    },
+    "Shadow of the Colossus (Europe) (En,Fr,De,Es,It) (Demo)": {
+        "secondary_name": "",
+        "group_name": "Shadow of the Colossus",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "En, Fr, De, It, Es",
+        "version": "1.01",
+        "edition": "Demo"
+    },
+    "Jitsumei Jikkyou Keiba - Dream Classic 2001 Spring (Japan)": {
+        "secondary_name": "実名実況競馬　～ドリームクラシック～　２００１　Ｓｐｒｉｎｇ",
+        "group_name": "Jitsumei Jikkyou Keiba - Dream Classic 2001 Spring",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "Ja",
+        "version": "1.00",
+        "edition": "Original"
+    },
+    "WWE SmackDown! Here Comes the Pain (Korea)": {
+        "secondary_name": "WWE 스맥다운: 히어 컴스 더 페인",
+        "group_name": "WWE SmackDown! Here Comes the Pain",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "En",
+        "version": "1.00",
+        "edition": "Original"
+    },
+    "Selector Demo 08 (Europe)": {
+        "secondary_name": "PlayStation 2 Official Demo Disc Retail Edition 8",
+        "group_name": "Selector Demo 08",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "",
+        "version": "1.01",
+        "edition": ""
+    },
+    "SingStar Pop Hits (Scandinavia)": {
+        "secondary_name": "",
+        "group_name": "SingStar Pop Hits",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "",
+        "version": "1.00",
+        "edition": "Original"
+    },
+    "Selector Demo 06 (Europe)": {
+        "secondary_name": "PlayStation 2 Official Demo Disc Retail Edition 6",
+        "group_name": "Selector Demo 06",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "",
+        "version": "1.00",
+        "edition": ""
+    },
+    "Pirates of the Caribbean - The Legend of Jack Sparrow (Europe) (En,Fr,De,Es,It) (v1.00)": {
+        "secondary_name": "",
+        "group_name": "Pirates of the Caribbean - The Legend of Jack Sparrow",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "En, Fr, De, It, Es",
+        "version": "1.00",
+        "edition": "Original"
+    },
+    "EyeToy - Christmas Wishi Washi (Europe)": {
+        "secondary_name": "",
+        "group_name": "EyeToy - Christmas Wishi Washi",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "",
+        "version": "1.00",
+        "edition": "Demo"
+    },
+    "Homura (Japan)": {
+        "secondary_name": "ほむら",
+        "group_name": "Homura",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "1.00",
+        "edition": "Original"
+    },
+    "Remember11 - The Age of Infinity (Japan)": {
+        "secondary_name": "リメンバー イレブン　ＴＨＥ ＡＧＥ ＯＦ ＩＮＦＩＮＩＴＹ",
+        "group_name": "Remember11 - The Age of Infinity",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "Ja",
+        "version": "1.02",
+        "edition": "Original"
+    },
+    "SuperLite 2000 Vol. 31 - Remember11 - The Age of Infinity (Japan)": {
+        "secondary_name": "ＳｕｐｅｒＬｉｔｅ　２０００　ｖｏｌ．１３　サスペンスアドベンチャー　リメンバー イレブン　-the age of infinity-",
+        "group_name": "SuperLite 2000 Vol. 31 - Remember11 - The Age of Infinity",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "Ja",
+        "version": "1.00",
+        "edition": "Original"
+    },
+    "Shin Best Play Pro Yakyuu (Japan)": {
+        "secondary_name": "新ベストプレープロ野球",
+        "group_name": "Shin Best Play Pro Yakyuu",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "1.03",
+        "edition": "Original"
+    },
+    "WRC - World Rally Championship (Japan) (En,Ja)": {
+        "secondary_name": "",
+        "group_name": "WRC - World Rally Championship",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "En, Ja",
+        "version": "1.03",
+        "edition": "Original"
+    },
+    "Futakoi (Japan)": {
+        "secondary_name": "双恋",
+        "group_name": "Futakoi",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "Ja",
+        "version": "1.02",
+        "edition": "Original"
+    },
+    "Mystereet - Yasogami Kaoru no Jiken File (Japan)": {
+        "secondary_name": "ミステリート　～八十神かおるの事件ファイル～",
+        "group_name": "Mystereet - Yasogami Kaoru no Jiken File",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "Ja",
+        "version": "1.04",
+        "edition": "Original"
+    },
+    "Madden NFL 2005 (Japan)": {
+        "secondary_name": "",
+        "group_name": "Madden NFL 2005",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "En",
+        "version": "1.01",
+        "edition": "Original"
+    },
+    "Tamamayu Monogatari 2 - Horobi no Mushi (Japan)": {
+        "secondary_name": "玉繭物語２　～滅びの蟲～",
+        "group_name": "Tamamayu Monogatari 2 - Horobi no Mushi",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "Ja",
+        "version": "1.08",
+        "edition": "Original"
     }
 }

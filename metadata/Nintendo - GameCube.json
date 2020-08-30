@@ -8918,9 +8918,9 @@
         "version": "",
         "edition": "Original"
     },
-    "Disney-Pixar Mr. Incredible - Kyouteki Underminder Toujou (Japan)": {
+    "Disney-Pixar Mr. Incredible - Kyouteki Underminer Toujou (Japan)": {
         "secondary_name": "Mr. インクレディブル 強敵アンダーマイナー登場",
-        "group_name": "Disney-Pixar Mr. Incredible - Kyouteki Underminder Toujou",
+        "group_name": "Disney-Pixar Mr. Incredible - Kyouteki Underminer Toujou",
         "status": "Blue",
         "disc_type": "Nintendo GameCube Game Disc",
         "languages": "Ja",
@@ -17117,12 +17117,12 @@
         "version": "",
         "edition": "Demo"
     },
-    "Interactive Multi-Game Demo Disk - October 2005 (Australia)": {
+    "Interactive Multi-Game Demo Disk - October 2005 (Australia) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "Interactive Multi-Game Demo Disk - October 2005",
         "status": "Blue",
         "disc_type": "Nintendo GameCube Game Disc",
-        "languages": "En",
+        "languages": "En, Fr, De, It, Es",
         "version": "",
         "edition": ""
     },
@@ -17135,12 +17135,12 @@
         "version": "",
         "edition": ""
     },
-    "Interactive Multi-Game Demo Disk - November 2004 (Australia)": {
+    "Interactive Multi-Game Demo Disk - November 2004 (Australia) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "Interactive Multi-Game Demo Disk - November 2004",
         "status": "Blue",
         "disc_type": "Nintendo GameCube Game Disc",
-        "languages": "En",
+        "languages": "En, Fr, De, It, Es",
         "version": "",
         "edition": ""
     },

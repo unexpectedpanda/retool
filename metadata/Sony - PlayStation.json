@@ -7649,12 +7649,12 @@
         "version": "",
         "edition": ""
     },
-    "Kiwame - Daidougi (Japan) (Major Wave)": {
-        "secondary_name": "極　～大道棋～",
-        "group_name": "Kiwame - Daidougi",
+    "Kiwame Daidougi (Japan) (Major Wave)": {
+        "secondary_name": "極　大道棋",
+        "group_name": "Kiwame Daidougi",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Major Wave"
     },
@@ -7773,7 +7773,7 @@
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
-        "edition": "Original, PSone Books, Ultimate Hits, Advent Pieces: Limited"
+        "edition": "Original, PSone Books, Advent Pieces: Limited, Ultimate Hits"
     },
     "Alone in the Dark - The New Nightmare (Italy) (Disc 2)": {
         "secondary_name": "",
@@ -8948,7 +8948,7 @@
     "ATV Mania (USA)": {
         "secondary_name": "",
         "group_name": "ATV Mania",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -9258,7 +9258,7 @@
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
-        "edition": "Original, PSone Books, Ultimate Hits, Advent Pieces: Limited"
+        "edition": "Original, PSone Books, Advent Pieces: Limited, Ultimate Hits"
     },
     "Castlevania Chronicles (USA)": {
         "secondary_name": "",
@@ -10784,7 +10784,7 @@
     "Running High (Japan)": {
         "secondary_name": "ランニング・ハイ",
         "group_name": "Running High",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -11261,9 +11261,9 @@
     "ASCII Zanmai (Japan)": {
         "secondary_name": "アスキー三昧",
         "group_name": "ASCII Zanmai",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Taikenban"
     },
@@ -17747,13 +17747,13 @@
         "version": "",
         "edition": "Bundled with Book"
     },
-    "Twisted Metal 4 (USA)": {
+    "Twisted Metal 4 (USA) (Rev 1)": {
         "secondary_name": "",
         "group_name": "Twisted Metal 4",
         "status": "Green",
         "disc_type": "CD",
         "languages": "En",
-        "version": "",
+        "version": "Rev 1",
         "edition": "Original, Greatest Hits"
     },
     "Star Gladiator - Episode I - Final Crusade (Japan) (Demo)": {
@@ -18710,14 +18710,14 @@
         "version": "",
         "edition": "Original"
     },
-    "Rockman Dash - Hagane no Boukenshin (Japan) (Digest Ban)": {
+    "Rockman Dash - Hagane no Boukenshin (Japan) (Digest-ban)": {
         "secondary_name": "ロックマンDASH 鋼の冒険心 (ダイジェスト版)",
         "group_name": "Rockman Dash - Hagane no Boukenshin",
         "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
-        "edition": "Digest Ban"
+        "edition": "Digest-ban"
     },
     "OPSM Best Ever Ever Games Demo (Europe)": {
         "secondary_name": "",
@@ -18785,7 +18785,7 @@
     "Sports Superbike 2 (USA)": {
         "secondary_name": "",
         "group_name": "Sports Superbike 2",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -20603,7 +20603,7 @@
     "NASCAR Thunder 2003 (USA)": {
         "secondary_name": "",
         "group_name": "NASCAR Thunder 2003",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -21831,7 +21831,7 @@
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
-        "edition": "Original, PSone Books, PlayStation the Best for Family"
+        "edition": "Original, PlayStation the Best for Family, PSone Books"
     },
     "DigimonWorld 2 (Japan)": {
         "secondary_name": "デジモンワールド2",
@@ -23492,7 +23492,7 @@
     "Road Rash - Jailbreak (USA)": {
         "secondary_name": "",
         "group_name": "Road Rash - Jailbreak",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -24462,7 +24462,7 @@
         "edition": "Original"
     },
     "Abe a GoGo (Japan) (Demo)": {
-        "secondary_name": "エイブ・ア・ゴーゴー　体験版",
+        "secondary_name": "エイブ・ア・ゴーゴー",
         "group_name": "Abe a GoGo",
         "status": "Green",
         "disc_type": "CD",
@@ -26192,7 +26192,7 @@
     "EA Sports Superbike 2000 (USA)": {
         "secondary_name": "",
         "group_name": "EA Sports Superbike 2000",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -33491,7 +33491,7 @@
     "Championship Motocross 2001 featuring Ricky Carmichael (USA)": {
         "secondary_name": "",
         "group_name": "Championship Motocross 2001 featuring Ricky Carmichael",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -34697,7 +34697,7 @@
     "R4 - Ridge Racer Type 4 (USA)": {
         "secondary_name": "",
         "group_name": "R4 - Ridge Racer Type 4",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -38090,7 +38090,7 @@
     "Ridge Racer Bonus Turbo Mode Disc (USA)": {
         "secondary_name": "",
         "group_name": "Ridge Racer Bonus Turbo Mode Disc",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -44536,7 +44536,7 @@
         "group_name": "Guntu - Western Front June, 1944 - Tetsu no Kioku",
         "status": "Green",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Original"
     },
@@ -44577,7 +44577,7 @@
         "edition": "Original"
     },
     "Dark Seed II (Japan)": {
-        "secondary_name": "ダークシードII",
+        "secondary_name": "ダーク・シードⅡ",
         "group_name": "Dark Seed II",
         "status": "Blue",
         "disc_type": "CD",
@@ -46361,7 +46361,7 @@
     "F1 Racing Championship (USA) (En,Fr)": {
         "secondary_name": "",
         "group_name": "F1 Racing Championship",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En, Fr",
         "version": "",
@@ -46784,7 +46784,7 @@
     "NASCAR 99 Legacy (USA)": {
         "secondary_name": "",
         "group_name": "NASCAR 99 Legacy",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -48377,7 +48377,7 @@
     "Micro Machines V3 (USA)": {
         "secondary_name": "",
         "group_name": "Micro Machines V3",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -54128,7 +54128,7 @@
     "Ridge Racer Revolution (USA)": {
         "secondary_name": "",
         "group_name": "Ridge Racer Revolution",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -54834,7 +54834,7 @@
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
-        "edition": "Original, PSone Books, Ultimate Hits, Advent Pieces: Limited"
+        "edition": "Original, PSone Books, Advent Pieces: Limited, Ultimate Hits"
     },
     "Nice Cats (Europe) (En,Fr,De,Nl)": {
         "secondary_name": "",
@@ -55469,7 +55469,7 @@
     "EA Sports Supercross (USA)": {
         "secondary_name": "",
         "group_name": "EA Sports Supercross",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -56189,7 +56189,7 @@
     "V-Jump Soukan 9-shuunen Kinen Special Disc!! (Japan)": {
         "secondary_name": "Ｖジャンプ　創刊９周年記念　スペシャルディスク！！",
         "group_name": "V-Jump Soukan 9-shuunen Kinen Special Disc!!",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -58320,9 +58320,9 @@
         "edition": "Original"
     },
     "Deco Pre 97-98 - Data East Taikenban Special (Japan)": {
-        "secondary_name": "デコプレ　９７～９８　データイースト体験版スペシャル",
+        "secondary_name": "デコプレ　９７～９８　～データイースト体験版スペシャル～",
         "group_name": "Deco Pre 97-98 - Data East Taikenban Special",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -59564,7 +59564,7 @@
     "KISS Pinball (USA)": {
         "secondary_name": "",
         "group_name": "KISS Pinball",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -62532,7 +62532,7 @@
         "edition": "Original"
     },
     "Pal - Shinken Densetsu (Japan)": {
-        "secondary_name": "ＰＡＬ　－神犬伝説－",
+        "secondary_name": "ＰＡＬ　～神犬伝説～",
         "group_name": "Pal - Shinken Densetsu",
         "status": "Green",
         "disc_type": "CD",
@@ -65029,7 +65029,7 @@
         "group_name": "Atlus Shinsaku Title Demo CD-ROM",
         "status": "Green",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Taikenban"
     },
@@ -65207,7 +65207,7 @@
     "NASCAR Heat (USA)": {
         "secondary_name": "",
         "group_name": "NASCAR Heat",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -70661,7 +70661,7 @@
     "Rushdown (USA)": {
         "secondary_name": "",
         "group_name": "Rushdown",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -70733,7 +70733,7 @@
     "Razor Racing (USA)": {
         "secondary_name": "",
         "group_name": "Razor Racing",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -71563,7 +71563,7 @@
         "group_name": "Theme Hospital",
         "status": "Green",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Original"
     },
@@ -74324,7 +74324,7 @@
     "Dengeki PlayStation D44 (Japan)": {
         "secondary_name": "電撃プレイステーションＤ４４",
         "group_name": "Dengeki PlayStation D44",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -74468,7 +74468,7 @@
     "DemoDemo PlayStation Vol. 20 (Japan)": {
         "secondary_name": "ＤｅｍｏＤｅｍｏ　プレイステーション　Ｖｏｌ．２０",
         "group_name": "DemoDemo PlayStation Vol. 20",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -75069,9 +75069,9 @@
         "edition": "Original"
     },
     "Pal - Shinken Densetsu (Japan) (Demo)": {
-        "secondary_name": "ＰＡＬ　－神犬伝説－",
+        "secondary_name": "ＰＡＬ　～神犬伝説～",
         "group_name": "Pal - Shinken Densetsu",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -79616,7 +79616,7 @@
     "X Games Pro Boarder (USA)": {
         "secondary_name": "",
         "group_name": "X Games Pro Boarder",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -80219,7 +80219,7 @@
     "Nagano Winter Olympics '98 (USA)": {
         "secondary_name": "",
         "group_name": "Nagano Winter Olympics '98",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -81965,7 +81965,7 @@
     "Surf Riders (USA)": {
         "secondary_name": "",
         "group_name": "Surf Riders",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -89210,7 +89210,7 @@
     "BursTrick - Wake Boarding!! (USA)": {
         "secondary_name": "",
         "group_name": "BursTrick - Wake Boarding!!",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -89603,9 +89603,9 @@
         "version": "",
         "edition": "Original"
     },
-    "Dark Seed (Japan)": {
+    "Darkseed (Japan)": {
         "secondary_name": "ダークシード",
-        "group_name": "Dark Seed",
+        "group_name": "Darkseed",
         "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
@@ -90321,7 +90321,7 @@
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
-        "edition": "Original, PSone Books, Square Millennium Collection"
+        "edition": "Original, Square Millennium Collection, PSone Books"
     },
     "KISS Pinball (Europe) (En,Fr,De)": {
         "secondary_name": "",
@@ -93445,5 +93445,41 @@
         "languages": "En",
         "version": "",
         "edition": "Original"
+    },
+    "Zeus II - Carnage Heart (Japan)": {
+        "secondary_name": "ゼウスＩＩ　カルネージハート",
+        "group_name": "Zeus II - Carnage Heart",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Twisted Metal 4 (USA)": {
+        "secondary_name": "",
+        "group_name": "Twisted Metal 4",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Kiwame Daidougi - Tsumuya Tsumazaruya (Japan)": {
+        "secondary_name": "極　大道棋　～詰むや詰まざるや～",
+        "group_name": "Kiwame Daidougi - Tsumuya Tsumazaruya",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Fade to Black (Japan) (En,Ja) (Demo)": {
+        "secondary_name": "フェード・トゥ・ブラック",
+        "group_name": "Fade to Black",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En, Ja",
+        "version": "",
+        "edition": "Taikenban"
     }
 }

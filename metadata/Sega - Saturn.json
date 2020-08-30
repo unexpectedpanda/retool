@@ -2732,7 +2732,7 @@
         "status": "Blue",
         "disc_type": "CD",
         "languages": "En",
-        "version": "",
+        "version": "1.000",
         "edition": "Original"
     },
     "Highway 2000 (USA)": {
@@ -2904,7 +2904,7 @@
         "disc_type": "CD",
         "languages": "En",
         "version": "1.000",
-        "edition": ""
+        "edition": "Original"
     },
     "Virtua Cop 2 (USA)": {
         "secondary_name": "",
@@ -6491,7 +6491,7 @@
     "Battle Monsters (USA)": {
         "secondary_name": "",
         "group_name": "Battle Monsters",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "1.000",
@@ -12983,7 +12983,7 @@
         "status": "Blue",
         "disc_type": "CD",
         "languages": "Fr",
-        "version": "",
+        "version": "1.000",
         "edition": "Original"
     },
     "Golden Axe - The Duel (Europe)": {

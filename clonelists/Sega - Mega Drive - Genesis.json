@@ -3,7 +3,7 @@
 		"name": [
 			"Sega - Mega Drive - Genesis"
 		],
-		"last updated": "27 July 2020"
+		"last updated": "30 August 2020"
     },
 
     "overrides": {
@@ -494,15 +494,15 @@
         "Soldiers of Fortune": [
             ["Chaos Engine, The", 1]
         ],
-        "Sonic & Knuckles + Sonic the Hedgehog 2 + Sonic the Hedgehog 3": [
-            ["Sonic & Knuckles + Sonic the Hedgehog 3", 2],
+        "Sonic & Knuckles + Sonic The Hedgehog 2 + Sonic The Hedgehog 3": [
+            ["Sonic & Knuckles + Sonic The Hedgehog 3", 2],
             ["Sonic & Knuckles (Sonic Classic Collection)", 3],
-            ["Sonic the Hedgehog 3 Limited Edition", 3],
+            ["Sonic The Hedgehog 3 Limited Edition", 3],
             ["Sonic & Knuckles", 4]
         ],
-        "Sonic the Hedgehog 3 (Sonic Classic Collection)": [
+        "Sonic The Hedgehog 3 (Sonic Classic Collection)": [
             ["Sonic 3", 1],
-            ["Sonic the Hedgehog 3", 2]
+            ["Sonic The Hedgehog 3", 2]
         ],
         "Sonic 3D Blast ~ Sonic 3D Flickies' Island": [
             ["Sonic 3D Blast", 2],
@@ -511,11 +511,11 @@
         "Sonic Compilation ~ Sonic Classics": [
             ["Sonic Compilation", 1]
         ],
-        "Sonic the Hedgehog (Sonic Classic Collection)": [
-            ["Sonic the Hedgehog", 1]
+        "Sonic The Hedgehog (Sonic Classic Collection)": [
+            ["Sonic The Hedgehog", 1]
         ],
-        "Sonic the Hedgehog 2 (Sonic Classic Collection)": [
-            ["Sonic the Hedgehog 2", 2]
+        "Sonic The Hedgehog 2 (Sonic Classic Collection)": [
+            ["Sonic The Hedgehog 2", 2]
         ],
         "Sorcerer's Kingdom": [
             ["Sorcer Kingdom", 1]
