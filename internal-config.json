@@ -9,7 +9,7 @@
             "Retool requires. You probably don't want to",
             "mess with them."
         ],
-        "last updated": "3 August 2020"
+        "last updated": "30 August 2020"
     },
 
     "ignore_tags": [
@@ -138,6 +138,7 @@
         "\\s?\\(Imagineer\\)",
         "\\s?\\(Koei the Best\\)",
         "\\s?\\(Major Wave\\)",
+        "\\s?\\(Mega Hits!\\)",
         "\\s?\\(Mega Soft\\)",
         "\\s?\\(NP\\)",
         "\\s?\\(PlayStation the Best\\)",
@@ -178,6 +179,7 @@
         "\\s?\\(Debug\\)",
         "\\s?\\(Debug Version\\)",
         "\\s?\\(Earlier\\)",
+        "\\s?\\(Early\\)",
         "\\s?\\(Encrypted CIA\\)",
         "\\s?\\(Launch Cart\\)",
         "\\s?\\(Light Phaser\\)",

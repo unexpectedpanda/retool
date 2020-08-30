@@ -1,3 +1,16 @@
+# 0.77
+- The `-g` option now keeps applications, as they are useful for
+  computer platforms like the Atari ST and Commodore Amiga.
+- The new `-y` option outputs a list of what titles have been
+  kept and removed in the output dat.
+- Refactored how Retool options get listed in the output name.
+- Removed requirement for the !DOCTYPE element to exist that quotes
+  the LogiqX DTD, so Retool can work with files from sites.dat. The
+  dat is still validated against the DTD, however.
+- Dealt with an edge case in selecting the right title if somehow
+  there was both a version _and_ a revision of a title.
+- Hid displaying options behind the `-?` option.
+
 # 0.76
 - Fixed filtering by language. This was broken due to a last minute
   change from a string to regex in the 0.75 release.

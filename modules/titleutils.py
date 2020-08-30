@@ -626,7 +626,18 @@ def choose_version_revision(string, title_list, REGEX, trim_start, trim_end, pre
                 and (
                     functools.reduce(lambda a,b: a + b, preprod_check) == 2
                     or functools.reduce(lambda a,b: a + b, preprod_check) == 0))):
+                    # Deal with mixed versions and revisions
                     if (
+                        re.search(REGEX.revision, title_1.full_name) != None
+                        and re.search(REGEX.version, title_2.full_name) != None):
+                            if title_1 in title_list: title_list.remove(title_1)
+                    elif (
+                        re.search(REGEX.revision, title_2.full_name) != None
+                        and re.search(REGEX.version, title_1.full_name) != None):
+                            if title_2 in title_list: title_list.remove(title_2)
+
+                    # Now the normal version comparisons
+                    elif (
                         re.search(string, title_1.region_free_name) != None
                         and re.search(string, title_2.region_free_name) != None):
                             # Find the highest version

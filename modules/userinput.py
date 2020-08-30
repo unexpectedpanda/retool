@@ -12,9 +12,9 @@ from modules.utils import Font
 def usage():
     """ Generic error message, also shows when the user doesn't provide any options """
 
-    print(f'\nUSAGE: {Font.bold}{os.path.basename(sys.argv[0])} -i {Font.end}<input dat/folder> <options>')
-    print('\nA new file is automatically generated, the original file isn\'t altered.')
-    print(f'Edit the {Font.bold}user-config.yaml{Font.end} file to set region order and filter languages.\n')
+    print(f'USAGE: {Font.bold}{os.path.basename(sys.argv[0])} -i {Font.end}<input dat/folder> <options>')
+    print(f'\nA new file is automatically generated, the original file isn\'t altered.'
+            f'\nEdit the {Font.bold}user-config.yaml{Font.end} file to set region order and filter languages.\n')
 
     print('OPTIONS:')
     if os.path.isfile('.dev'):
@@ -23,14 +23,12 @@ def usage():
     print(f'{Font.bold}-o{Font.end} <output folder>   Set an output folder')
     print(f'{Font.bold}-x{Font.end}                   Export dat in legacy parent/clone format')
     print('                     (for use with Clonerel, not dat managers)')
+    print(f'{Font.bold}-y{Font.end}                   Export a list of what titles have been')
+    print(f'                     kept and removed in the output dat')
     print(f'{Font.bold}-v{Font.end}                   Verbose mode: report clone list errors')
-    # if os.path.isfile('.dev'):
-    #     print(f'{Font.bold}-y{Font.end}                   Build cache for online mode')
-        # print(f'{Font.bold}-z{Font.end} <cache file>      Use cache instead of input file')
-        # print('                     (use in place of -i)')
     print('\nFILTER OPTIONS:')
     print(f'{Font.bold}-l{Font.end}  Filter languages using a list (see {Font.bold}user-config.yaml{Font.end})')
-    print(f'{Font.bold}-g{Font.end}  Enable most filters (-a -b -c -d -e -f -m -r -s)')
+    print(f'{Font.bold}-g{Font.end}  Enable most filters (-b -c -d -e -f -m -r -s)')
     print(f'{Font.bold}-s{Font.end}  Enable supersets: special editions, game of the year')
     print('    editions, and collections replace standard editions\n')
     print(f'{Font.bold}-a{Font.end}  Exclude applications        {Font.bold}-m{Font.end}  Exclude multimedia titles')
@@ -50,17 +48,17 @@ def check_input():
     user_options = []
 
     # Handle most user options
-    options = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'i', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 'u', 'v', 'x', 'y', 'z']
+    options = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'i', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 'u', 'v', 'x', 'y', 'z', '?']
 
     # Remove these options from the output file name and other places
-    hide_options = ['g', 'v', 'i', 'o', 'l', 'q', 'y', 'z']
-    non_g_options = ['u', 'n', 'p', 'x']
+    hide_options = ['g', 'i', 'l', 'o', 'q', 'v', 'y', 'z', '?']
+    non_g_options = ['a', 'n', 'p', 'u', 'x']
 
     for option in options:
-        if len([x for x in sys.argv if x == f'-{option}']) > 0:
+        if (len([x for x in sys.argv if x == f'-{option}']) > 0):
             user_options.append(option)
 
-    no_applications = True if 'a' in user_options or 'g' in user_options else False
+    no_applications = True if 'a' in user_options else False
     no_bad_dumps = True if 'b' in user_options or 'g' in user_options else False
     no_compilations = True if 'c' in user_options or 'g' in user_options else False
     no_demos = True if 'd' in user_options or 'g' in user_options else False
@@ -76,7 +74,7 @@ def check_input():
     legacy = True if 'x' in user_options else False
     verbose = True if 'v' in user_options else False
     undo_dev = True if 'q' in user_options else False
-    build_cache = True if 'y' in user_options else False
+    keep_remove = True if 'y' in user_options else False
     use_cache = True if 'z' in user_options else False
 
     if user_options != []:
@@ -86,21 +84,20 @@ def check_input():
             legacy = True
             user_options.append('x')
 
-        # Handle global options
-        for option in user_options:
-            if option == 'g':
-                user_options = [option for option in options if option not in non_g_options]
-            if option in non_g_options and option not in user_options:
-                user_options.append(option)
+        user_options_temp = user_options.copy()
 
-        # Remove special options from the list
-        for hide_option in hide_options:
-            if hide_option in user_options:
-                user_options.remove(hide_option)
+        # Remove hidden options and handle -g
+        for option in user_options_temp:
+            if option == 'g':
+                g = [g_option for g_option in options if (g_option not in hide_options and g_option not in non_g_options)]
+                user_options.extend(g)
+
+            if option in hide_options:
+                user_options.remove(option)
 
         # Create user options string
         if user_options != []:
-            user_options = f' (-{"".join(user_options)})'
+            user_options = f' (-{"".join(sorted(user_options))})'
         else:
             user_options = ''
     else:
@@ -115,19 +112,20 @@ def check_input():
                 error_state = True
 
         # Handle -i
-        if x == '-i':
-            # Handle invalid or empty input
-            if i + 1 == len(sys.argv) or bool(re.search(f'^-([{"".join(options)}]$)', sys.argv[i+1])):
-                print(f'{Font.error}* No input file specified{Font.end}')
-                error_state = True
-            else:
-                input_file_name = os.path.abspath(sys.argv[i+1])
-
-                if not os.path.exists(input_file_name):
-                    print(textwrap.TextWrapper(width=80, subsequent_indent='  ').fill(
-                        f'{Font.error}* Input file "{Font.bold}{input_file_name}'
-                        f'{Font.error}" does not exist.{Font.end}'))
+        if len([x for x in sys.argv if x=='-?']) <= 0:
+            if x == '-i':
+                # Handle invalid or empty input
+                if i + 1 == len(sys.argv) or bool(re.search(f'^-([{"".join(options)}]$)', sys.argv[i+1])):
+                    print(f'{Font.error}* No input file specified{Font.end}')
                     error_state = True
+                else:
+                    input_file_name = os.path.abspath(sys.argv[i+1])
+
+                    if not os.path.exists(input_file_name):
+                        print(textwrap.TextWrapper(width=80, subsequent_indent='  ').fill(
+                            f'{Font.error}* Input file "{Font.bold}{input_file_name}'
+                            f'{Font.error}" does not exist.{Font.end}'))
+                        error_state = True
 
         # Handle -o
         if x == '-o':
@@ -152,14 +150,15 @@ def check_input():
         error_state = True
 
     # Check if -i is missing
-    if len([x for x in sys.argv if x=='-i']) == 0 and len(sys.argv) != 1:
-        print(f'{Font.error}* Missing -i, no input file specified{Font.end}')
-        error_state = True
+    if len([x for x in sys.argv if x=='-?']) <= 0:
+        if len([x for x in sys.argv if x=='-i']) == 0 and len(sys.argv) != 1:
+            print(f'{Font.error}* Missing -i, no input file specified{Font.end}')
+            error_state = True
 
-    # Check if the user has entered more than one -i
-    if len([x for x in sys.argv if x=='-i']) > 1:
-        print(f'{Font.error}* Can\'t have more than one -i{Font.end}')
-        error_state = True
+        # Check if the user has entered more than one -i
+        if len([x for x in sys.argv if x=='-i']) > 1:
+            print(f'{Font.error}* Can\'t have more than one -i{Font.end}')
+            error_state = True
 
     # Check if the user has entered more than one -o
     if len([x for x in sys.argv if x=='-o']) > 1:
@@ -171,13 +170,19 @@ def check_input():
             output_folder_name = os.path.abspath('.')
 
     # Check that both -y and -z haven't been set
-    if len([x for x in sys.argv if x=='-y']) > 0 and len([x for x in sys.argv if x=='-z']) > 0:
-        print(f'{Font.error}* Can\'t use -y with -z, build and use cache are separate processes{Font.end}')
+    if len([x for x in sys.argv if x=='-y']) > 0 and len([x for x in sys.argv if x=='-x']) > 0:
+        print(f'{Font.error}* Can\'t use -y with -x, no titles are removed in a legacy parent/clone dat{Font.end}')
         error_state = True
+
+    # Check if the user has entered -?
+    if len([x for x in sys.argv if x=='-?']) > 0:
+        usage()
 
     # Exit if there was an error in user input
     if error_state == True:
-        usage()
+        print(f'\nUSAGE: {Font.bold}{os.path.basename(sys.argv[0])} -i {Font.end}<input dat/folder> <options>'
+            f'\n\nType {Font.bold}{os.path.basename(sys.argv[0])} -?{Font.end} to see all options.')
+        sys.exit()
 
     return UserInput(
         input_file_name,
@@ -199,7 +204,7 @@ def check_input():
         legacy,
         user_options,
         verbose,
-        build_cache,
+        keep_remove,
         use_cache)
 
 

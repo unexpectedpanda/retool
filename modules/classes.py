@@ -434,7 +434,7 @@ class UserInput:
                  no_multimedia, no_pirate, no_preproduction,
                  no_promotional, no_unlicensed,
                  supersets, filter_languages, legacy,
-                 user_options, verbose, build_cache,
+                 user_options, verbose, keep_remove,
                  use_cache):
         self.input_file_name = input_file_name
         self.output_folder_name = output_folder_name
@@ -455,5 +455,5 @@ class UserInput:
         self.legacy = legacy
         self.user_options = user_options
         self.verbose = verbose
-        self.build_cache = build_cache
+        self.keep_remove = keep_remove
         self.use_cache = use_cache

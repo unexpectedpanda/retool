@@ -70,9 +70,11 @@ they will be included if you select any of their respective languages:
 * `-o <output folder>` Set an output folder
 * `-x` Export dat in legacy parent/clone format
   (for use with Clonerel, [not dat managers](/unexpectedpanda/retool/wiki/Usage-and-options#export-in-legacy-parentclone-dat-form))
+* `-y` Also export a list of what titles have been kept and removed in the
+  output dat
 * `-v` Verbose mode: report clone list errors
 * `-l` Filter languages using a list (see `user-config.yaml`)
-* `-g` Enable most filters (-a -b -c -d -e -f -m -r -s)
+* `-g` Enable most filters (-b -c -d -e -f -m -r -s)
 * `-s` Enable supersets: special editions, game of the year
   editions, and collections replace standard editions
 * `-a` Exclude applications
@@ -106,10 +108,10 @@ folder as Retool.
 
 # Clonerel
 
-Clonerel generates an Excel file from a parent/clone dat file that has been
-created by Retool using the `-x` option. It helps you to more easily
-visualize parent/clone relationships, and track down titles that haven't
-been assigned parents yet.
+Clonerel generates an Excel file from any parent/clone dat file, like those that
+have been created by Retool using the `-x` option. It helps you to more easily
+visualize parent/clone relationships in the dat, and track down titles that
+haven't been assigned parents yet.
 
 ## Installation
 
