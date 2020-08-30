@@ -55,6 +55,29 @@ def write_dat_file(input_dat, user_input, output_file_name, stats, titles, REGEX
 
     # Write the file
     try:
+        if user_input.keep_remove == True:
+            keep_remove_list = output_file_name[:-4] + ' auto keep-remove list.txt'
+            user_remove_list = output_file_name[:-4] + ' user remove list.txt'
+
+            with open(keep_remove_list, 'a') as list_output:
+                list_output.writelines(f'This file shows which titles have been kept in the output dat with a `+`,\n')
+                list_output.writelines(f'and which have been automatically removed by Retool with a `-`. If the\n')
+                list_output.writelines(f'`-` is indented, then the title was removed because it was a clone of the\n')
+                list_output.writelines(f'title above it with a `+`.\n\n')
+
+                audit_list = {}
+
+                list_output.close()
+
+            if user_input.removed_titles != {}:
+                with open(user_remove_list, 'a') as list_output:
+                    list_output.writelines(f'This file shows which titles have been removed from the output dat\n')
+                    list_output.writelines(f'due to the user setting an option.\n')
+
+                audit_list = {}
+
+                list_output.close()
+
         with open(output_file_name, 'w') as output_file:
             output_file.writelines(dat_header)
             progress = 0
@@ -77,7 +100,14 @@ def write_dat_file(input_dat, user_input, output_file_name, stats, titles, REGEX
 
                     if title.cloneof == '':
                         game_xml = f'\t<game name="{html.escape(title.full_name, quote=False)}">'
+                        if user_input.keep_remove == True:
+                            if title.full_name not in audit_list:
+                                audit_list[title.full_name] = []
                     else:
+                        if user_input.keep_remove == True:
+                            if title.cloneof not in audit_list:
+                                audit_list[title.cloneof] = []
+                            audit_list[title.cloneof].append(title.full_name)
                         if user_input.legacy == True:
                             game_xml = f'\t<game name="{html.escape(title.full_name, quote=False)}" cloneof="{html.escape(title.cloneof, quote=False)}">'
 
@@ -130,6 +160,59 @@ def write_dat_file(input_dat, user_input, output_file_name, stats, titles, REGEX
                         )
 
                     progress_old = progress_percent
+
+            if user_input.keep_remove == True:
+                with open(user_remove_list, 'a') as list_output:
+                    if user_input.removed_titles != {}:
+                        temp_sort = sorted(user_input.removed_titles)
+                        temp_removed_titles = {}
+
+                        for key in temp_sort:
+                            temp_removed_titles[key] = user_input.removed_titles[key]
+
+                        user_input.removed_titles = temp_removed_titles
+
+                        list_output.writelines(f'\nKEYS\n')
+                        list_output.writelines(f'====\n')
+                        for key, values in user_input.removed_titles.items():
+                            list_output.writelines(f'* {key.upper().replace("_"," ")}\n')
+
+                        list_output.writelines(f'\n')
+                        for key, values in user_input.removed_titles.items():
+                            list_output.writelines(f'\n# {key.upper().replace("_"," ")}\n')
+                            underline = []
+                            for i in range(0,len(key) + 2):
+                                underline.append('=')
+                            list_output.writelines(f'{"".join(underline)}\n')
+                            for value in sorted(values, key=lambda x: natural_keys(x)):
+                                list_output.writelines(f'- {value}\n')
+                            list_output.writelines(f'\n')
+
+                    list_output.close()
+
+
+                with open(keep_remove_list, 'a') as list_output:
+                    list_output.writelines(f'\n# STANDALONES\n')
+                    list_output.writelines(f'==============\n')
+
+                    for key, values in audit_list.items():
+                        if values == []:
+                            list_output.writelines(f'+ {key}\n')
+
+                    parents_clones = []
+
+                    for key, values in audit_list.items():
+                        if values != []:
+                            parents_clones.append(f'+ {key}\n')
+                            for value in values:
+                                parents_clones.append(f'\t- {value}\n')
+                    if parents_clones != []:
+                        list_output.writelines(f'\n\n# PARENTS & CLONES\n')
+                        list_output.writelines(f'===================\n')
+                        for title in parents_clones:
+                            list_output.writelines(title)
+
+                    list_output.close()
 
             output_file.writelines('</datafile>')
             output_file.close()

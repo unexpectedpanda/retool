@@ -30,7 +30,7 @@ from modules.xml import dat_to_dict, process_input_dat
 # Require at least Python 3.8
 assert sys.version_info >= (3, 8)
 
-__version__ = '0.76'
+__version__ = '0.77'
 
 def main():
     # Start a timer from when the process started
@@ -40,6 +40,7 @@ def main():
     os.system('cls' if os.name == 'nt' else 'clear')
     print(f'{Font.bold}\nRetool {__version__}{Font.end}')
     print('-----------')
+
     if len(sys.argv) == 1:
         printwrap(
             f'Creates 1G1R versions of Redump ({Font.underline}'
@@ -150,6 +151,10 @@ def main():
             [x for x in user_input.user_region_order if x not in PRIORITY_REGIONS and x != 'Unknown'])
         if 'Unknown' in user_input.user_region_order:
             processing_region_order.append('Unknown')
+
+        # Set up a dictionary to record what titles have been removed, for when the user
+        # sets -y
+        user_input.removed_titles = {}
 
         # Convert each region's XML to dicts so we can more easily work with the data,
         # and determine each region's parent

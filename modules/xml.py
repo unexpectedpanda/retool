@@ -133,10 +133,16 @@ def dat_to_dict(region, region_data, input_dat, user_input, compilations_found, 
                 if getattr(user_input, 'no_' + category.lower()) == True:
                     if node.category is not None:
                         if node.category.contents[0] == category:
+                            if category not in user_input.removed_titles:
+                                user_input.removed_titles[category] = []
+                            user_input.removed_titles[category].append(node.description.parent['name'])
                             return True
                     if regexes != []:
                         for regex in regexes:
                             if re.search(regex, node.description.parent['name']) != None:
+                                if category not in user_input.removed_titles:
+                                    user_input.removed_titles[category] = []
+                                user_input.removed_titles[category].append(node.description.parent['name'])
                                 return True
 
         if exclude_categories('Applications', REGEX.programs) == True: continue
@@ -160,6 +166,9 @@ def dat_to_dict(region, region_data, input_dat, user_input, compilations_found, 
                         compilations_found.update([compilation])
 
                 if compilation_check == True:
+                    if 'Compilations' not in user_input.removed_titles:
+                        user_input.removed_titles['Compilations'] = []
+                    user_input.removed_titles['Compilations'].append(node.description.parent['name'])
                     continue
 
         # Drop XML nodes that don't have roms or disks specified
@@ -252,6 +261,11 @@ def dat_to_dict(region, region_data, input_dat, user_input, compilations_found, 
 
                 if language_found == False and 'Unknown' not in disc_title.regions:
                     if disc_title in groups[group_name]: groups[group_name].remove(disc_title)
+                    # Get the language name
+
+                    if 'Filtered languages' not in user_input.removed_titles:
+                        user_input.removed_titles['Filtered languages'] = []
+                    user_input.removed_titles['Filtered languages'].append(disc_title.full_name)
 
         progress_old = progress_percent
 
@@ -438,7 +452,7 @@ def process_input_dat(dat_file, is_folder):
                 sys.exit()
 
         # Check for a valid Redump XML dat that follows the Logiqx dtd
-        validation_tags = ['<datafile>', '<?xml', '<game', '<header', '<!DOCTYPE']
+        validation_tags = ['<datafile>', '<?xml', '<game', '<header']
 
         for i, validation_tag in enumerate(validation_tags):
             validation_tags[i] = bool(list(filter(lambda x: validation_tag in x, input_dat.contents)))
