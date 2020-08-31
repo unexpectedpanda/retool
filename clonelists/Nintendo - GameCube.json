@@ -6,7 +6,7 @@
 			"Nintendo - GameCube - NKit ISO",
 			"Nintendo - GameCube - NASOs"
 		],
-		"last updated": "30 August 2020"
+		"last updated": "1 September 2020"
 	},
 
 	"compilations": [
@@ -449,6 +449,9 @@
 		],
 		"Paper Mario - The Thousand-Year Door": [
 			["Paper Mario RPG", 1]
+		],
+		"Phantasy Star Online Episode I & II": [
+			["Phantasy Star Online Episode I & II Plus", -1]
 		],
 		"Pokemon Channel": [
 			["Pokemon Channel - Pikachu to Issho!", 1]
