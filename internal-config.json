@@ -9,7 +9,7 @@
             "Retool requires. You probably don't want to",
             "mess with them."
         ],
-        "last updated": "30 August 2020"
+        "last updated": "13 September 2020"
     },
 
     "ignore_tags": [
@@ -121,6 +121,7 @@
         "\\s?\\(Best Hit Selection\\)",
         "\\s?\\(Best Wing 2800\\)",
         "\\s?\\(Bit Corporation\\)",
+        "\\s?\\(BPS the Choice\\)",
         "\\s?\\(C&E\\)",
         "\\s?\\(DX Pack\\)",
         "\\s?\\(EA Best Hits\\)",
@@ -136,6 +137,7 @@
         "\\s?\\(Idea-Tek\\)",
         "\\s?\\(IE Institute\\)",
         "\\s?\\(Imagineer\\)",
+        "\\s?\\(Infinity Plus\\)",
         "\\s?\\(Koei the Best\\)",
         "\\s?\\(Major Wave\\)",
         "\\s?\\(Mega Hits!\\)",

@@ -3,7 +3,7 @@
         "name": [
 			["Sony - PlayStation 2", 1]
 		],
-        "last updated": "4 September 2020"
+        "last updated": "19 September 2020"
     },
 
     "compilations": [
@@ -359,6 +359,9 @@
 		"Contra - Shattered Soldier": [
 			["Shin Contra", 1]
 		],
+		"Cool Shot": [
+			["Cool Shot - Yukawa Keiko no Professional Billiard", 1]
+		],
 		"Corvette Evolution GT": [
 			["Evolution GT", 1]
 		],
@@ -447,8 +450,8 @@
 		"DekaVoice (USB Mic Doukonban)": [
 			["DekaVoice", 2]
 		],
-		"Demo Disc Version 2.2": [
-			["Demo Disc Version 2.1", 1]
+		"Demo Disc Version 2.2 (Demo)": [
+			["Demo Disc Version 2.1 (Demo)", 1]
 		],
 		"Demolition Girl": [
 			["Simple 2000 Series Vol. 50 - The Daibijin", 1]
@@ -776,7 +779,6 @@
 			["Eureka Seven - New Vision", 1]
 		],
 		"Ever 17 - The Out of Infinity Premium Edition": [
-			["Ever 17 - The Out of Infinity (Infinity Plus)", 2],
 			["Ever 17 - The Out of Infinity", 4],
 			["SuperLite 2000 Vol. 24 - Ever 17 - The Out of Infinity - Premium Edition", 2]
 		],
@@ -1226,9 +1228,6 @@
 			["Era Glaciale 3, L' - L'Alba dei Dinosauri", 1],
 			["Ice Age 3 - Dawn of the Dinosaurs", 1]
 		],
-		"Ico": [
-			["Shadow of the Colossus + Ico", -1]
-		],
 		"Idol Janshi Suchie-Pai IV (Collector's Edition)": [
 			["Idol Janshi Suchie-Pai IV", 2]
 		],
@@ -1261,6 +1260,9 @@
 		],
 		"Iron Sea": [
 			["Simple 2000 Series Vol. 51 - The Senkan", 1]
+		],
+		"Jade Cocoon 2": [
+			["Tamamayu Monogatari 2 - Horobi no Mushi", 1]
 		],
 		"Jak and Daxter - The Precursor Legacy": [
 			["Jak x Daxter - Kyuu Sekai no Isan", 1]
@@ -1384,7 +1386,7 @@
 			["Una Serie de Catastroficas Desdichas de Lemony Snicket", 1]
 		],
 		"Let's Make a Soccer Team!": [
-			["Pro Soccer Club wo Tsukurou! Europe Championship", 1]
+			["Pro Soccer Club o Tsukurou! Europe Championship", 1]
 		],
 		"Lethal Skies - Elite Pilot - Team SW": [
 			["Sidewinder F", 1]
@@ -1639,8 +1641,8 @@
 		"Namco Museum 50th Anniversary": [
 			["Namco Museum Arcade Hits!", 1]
 		],
-		"Namco Transmission v1.03": [
-			["Namco Transmission v1.03 (Bundled with Soulcalibur II)", 2]
+		"Namco Transmission v1.03 (Demo)": [
+			["Namco Transmission v1.03 (Bundled with Soulcalibur II) (Demo)", 2]
 		],
 		"Naruto - Ultimate Ninja": [
 			["Naruto - Narutimate Hero", 1]
@@ -1794,7 +1796,7 @@
 		"Onimusha 2 - Samurai's Destiny": [
 			["Gwimuja 2", 1],
 			["Onimusha 2", 1],
-			["Onimusha 2 (Shokai Press Ban)", 2]
+			["Onimusha 2 (Shokai Press-ban)", 2]
 		],
 		"Onimusha 3 - Demon Siege": [
 			["Gwimuja 3", 1],
@@ -1890,9 +1892,9 @@
 			["PlayStation BB Navigator - Version 0.10 (Prerelease) (Disc 2) (SCPN-60111)", 5],
 			["PlayStation BB Navigator - Version 0.10 (Prerelease) (Disc 2) (SCPN-60103)", 6]
 		],
-		"PlayStation Experience (SCED-51938)": [
-			["PlayStation Experience (SCED-51899)", 2],
-			["PlayStation Experience (SCED-51148)", 3]
+		"PlayStation Experience (SCED-51938) (Demo)": [
+			["PlayStation Experience (SCED-51899) (Demo)", 2],
+			["PlayStation Experience (SCED-51148) (Demo)", 3]
 		],
 		"Police 24-7": [
 			["Keisatsukan, The - Shinjuku 24-ji", 1]
@@ -2003,6 +2005,9 @@
 		"Reel Fishing III": [
 			["Fish Eyes 3 - Kioku no Hahentachi", 1]
 		],
+		"SuperLite 2000 Vol. 31 - Remember11 - The Age of Infinity": [
+			["Remember11 - The Age of Infinity", 2]
+		],
 		"Resident Evil - Code - Veronica X": [
 			["Biohazard - Code - Veronica Kanzenban", 1]
 		],
@@ -2090,7 +2095,7 @@
 		"Sakura Taisen - Atsuki Chishio ni": [
 			["Ying Hua Da Zhan - Chi Re Zhi Xie", 1]
 		],
-		"Sakura Taisen 3 - Paris wa Moeteiru ka": [
+		"Sakura Taisen 3 - Paris wa Moeteiru ka (Shokai Press-ban)": [
 			["Sakura Daejeon 3 - Paris-neun Bultago Issneunga", 1]
 		],
 		"Sakura Taisen V Episode 0 - Kouya no Samurai Musume": [
@@ -2157,7 +2162,6 @@
 			["Shadow of Memories", 1]
 		],
 		"Shadow of the Colossus": [
-			["Shadow of the Colossus + Ico", -1],
 			["Wander to Kyozou", 1],
 			["Wang Da Yu Ju Xiang", 1]
 		],

@@ -218,7 +218,7 @@
     "VR Baseball '97 (USA)": {
         "secondary_name": "",
         "group_name": "VR Baseball '97",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -697,7 +697,7 @@
         "group_name": "Digital Ehon Vol. 3 - Imadoki no Saru Kani",
         "status": "Green",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Original"
     },
@@ -868,7 +868,7 @@
         "group_name": "Play de Oboeru Chuugaku Eitango Deruderu 1200",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Shotenban"
     },
@@ -877,7 +877,7 @@
         "group_name": "ToPoLo",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Taikenban"
     },
@@ -1205,9 +1205,9 @@
         "version": "",
         "edition": "Original"
     },
-    "J. League Jikkyou Winning Eleven (Japan) (Rev 1)": {
-        "secondary_name": "Jリーグ 実況ウイニングイレブン",
-        "group_name": "J. League Jikkyou Winning Eleven",
+    "J.League Jikkyou Winning Eleven (Japan) (Rev 1)": {
+        "secondary_name": "Ｊリーグ　実況ウイニングイレブン",
+        "group_name": "J.League Jikkyou Winning Eleven",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "Ja",
@@ -1586,7 +1586,7 @@
     "Tennis Arena (USA)": {
         "secondary_name": "",
         "group_name": "Tennis Arena",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -2072,7 +2072,7 @@
     "Creative Voyage (USA)": {
         "secondary_name": "",
         "group_name": "Creative Voyage",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -2288,7 +2288,7 @@
     "Persona 2 - Tsumi - Innocent Sin (Japan)": {
         "secondary_name": "ペルソナ２　罪",
         "group_name": "Persona 2 - Tsumi - Innocent Sin",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -2439,7 +2439,7 @@
         "edition": "Original"
     },
     "Thoroughbred Breeder - Sekai Seiha-hen (Japan) (Demo)": {
-        "secondary_name": "サラブレッドブリーダー 世界制覇編",
+        "secondary_name": "サラブレッドブリーダー　～世界制覇編～",
         "group_name": "Thoroughbred Breeder - Sekai Seiha-hen",
         "status": "Blue",
         "disc_type": "CD",
@@ -2542,7 +2542,7 @@
         "group_name": "Lattice - 200EC7",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "En",
         "version": "",
         "edition": "Major Wave"
     },
@@ -2675,7 +2675,7 @@
     "Ace Combat 3 - Electrosphere (USA)": {
         "secondary_name": "",
         "group_name": "Ace Combat 3 - Electrosphere",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -2702,7 +2702,7 @@
     "Advan Racing (Japan)": {
         "secondary_name": "アドバン・レーシング",
         "group_name": "Advan Racing",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -3818,7 +3818,7 @@
     "Flamberge no Seirei (Japan)": {
         "secondary_name": "フランベルジュの精霊",
         "group_name": "Flamberge no Seirei",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -4202,7 +4202,7 @@
         "version": "",
         "edition": ""
     },
-    "Valkyrie Profile (Japan) (Disc 1) (Shokai Gentei Deluxe Pack)": {
+    "Valkyrie Profile (Japan) (Disc 1) (Deluxe Pack)": {
         "secondary_name": "ヴァルキリープロファイル",
         "group_name": "Valkyrie Profile",
         "status": "Blue",
@@ -4808,7 +4808,7 @@
     "Faire Games - Mathematics (USA)": {
         "secondary_name": "",
         "group_name": "Faire Games - Mathematics",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -4981,7 +4981,7 @@
         "group_name": "Hunter x Hunter - Ubawareta Aura Stone",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Original"
     },
@@ -5089,7 +5089,7 @@
         "group_name": "PrePre PlayStation Vol. 0",
         "status": "Green",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Otameshi Disc"
     },
@@ -5926,7 +5926,7 @@
         "group_name": "Apocalypse",
         "status": "Green",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "SuperLite 1500"
     },
@@ -5953,7 +5953,7 @@
         "group_name": "Tales of Destiny",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Preview Edition (Famitsuu Version)"
     },
@@ -6016,7 +6016,7 @@
         "group_name": "Mermaid no Kisetsu - Curtain Call",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Original"
     },
@@ -6032,7 +6032,7 @@
     "FOX Sports Golf '99 (USA)": {
         "secondary_name": "",
         "group_name": "FOX Sports Golf '99",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -6259,7 +6259,7 @@
         "group_name": "Yarudora Series Vol. 3 - Sampaguita",
         "status": "Green",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Taikenban"
     },
@@ -6740,9 +6740,9 @@
         "version": "",
         "edition": "Original"
     },
-    "J. League Soccer Jikkyou Survival League (Japan)": {
+    "J.League Soccer - Jikkyou Survival League (Japan)": {
         "secondary_name": "Ｊリーグサッカー　実況サバイバルリーグ",
-        "group_name": "J. League Soccer Jikkyou Survival League",
+        "group_name": "J.League Soccer - Jikkyou Survival League",
         "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
@@ -6867,7 +6867,7 @@
         "edition": "Original"
     },
     "Devil Summoner - Soul Hackers (Japan) (Disc 2)": {
-        "secondary_name": "デビルサマナー ソウルハッカーズ",
+        "secondary_name": "デビル・サマナー　ソウル・ハッカーズ",
         "group_name": "Devil Summoner - Soul Hackers",
         "status": "Green",
         "disc_type": "CD",
@@ -7177,7 +7177,7 @@
         "group_name": "Little Lovers - She So Game",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Major Wave"
     },
@@ -7319,7 +7319,7 @@
     "Final Round (Japan)": {
         "secondary_name": "ファイナル・ラウンド",
         "group_name": "Final Round",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -7982,9 +7982,9 @@
         "version": "",
         "edition": "Original"
     },
-    "Bishoujo Ren'ai Mahjong Series 2nd - Shiritsu Houou Gakuen - 1 Nen Jun'ai Gumi (Japan)": {
+    "Bishoujo Ren'ai Mahjong Series 2nd - Shiritsu Houou Gakuen - 1-nen Jun'ai-gumi (Japan)": {
         "secondary_name": "美少女恋愛麻雀シリーズ2nd 私立鳳凰学園 1年純愛組",
-        "group_name": "Bishoujo Ren'ai Mahjong Series 2nd - Shiritsu Houou Gakuen - 1 Nen Jun'ai Gumi",
+        "group_name": "Bishoujo Ren'ai Mahjong Series 2nd - Shiritsu Houou Gakuen - 1-nen Jun'ai-gumi",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "Ja",
@@ -8000,9 +8000,9 @@
         "version": "",
         "edition": "Bundled with Magazine"
     },
-    "Master of Monsters - Akatsuki no Kenja Tachi (Japan)": {
+    "Master of Monsters - Akatsuki no Kenja-tachi (Japan)": {
         "secondary_name": "マスター・オブ・モンスターズ～暁の賢者達～",
-        "group_name": "Master of Monsters - Akatsuki no Kenja Tachi",
+        "group_name": "Master of Monsters - Akatsuki no Kenja-tachi",
         "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
@@ -8190,11 +8190,11 @@
         "edition": "Major Wave"
     },
     "Mermaid no Kisetsu (Japan) (Disc 3)": {
-        "secondary_name": "",
+        "secondary_name": "マーメイドの季節",
         "group_name": "Mermaid no Kisetsu",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Original"
     },
@@ -8257,7 +8257,7 @@
         "group_name": "Shichida-shiki Unou de Asobenture Vol. 1 - Kotoba ABC - 0-2-sai Muke",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Original"
     },
@@ -8606,11 +8606,11 @@
     "Transformers - Beast Wars (Japan)": {
         "secondary_name": "トランスフォーマー ビーストウォーズ",
         "group_name": "Transformers - Beast Wars",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
-        "edition": "Original"
+        "edition": "Original, The Best Takaramono"
     },
     "Streak Hoverboard Racing (USA)": {
         "secondary_name": "",
@@ -8939,7 +8939,7 @@
     "World Destruction League - Thunder Tanks (USA)": {
         "secondary_name": "",
         "group_name": "World Destruction League - Thunder Tanks",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -10116,7 +10116,7 @@
         "edition": "Original, PlayStation the Best"
     },
     "Gouketsuji Ichizoku 2 - Chotto dake Saikyou Densetsu (Japan)": {
-        "secondary_name": "豪血寺一族２ ～ちょっとだけ最強伝説～",
+        "secondary_name": "豪血寺一族２　～ちょっとだけ最強伝説～",
         "group_name": "Gouketsuji Ichizoku 2 - Chotto dake Saikyou Densetsu",
         "status": "Green",
         "disc_type": "CD",
@@ -10183,7 +10183,7 @@
         "group_name": "Jumping Flash!",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Taikenban"
     },
@@ -11785,7 +11785,7 @@
         "group_name": "Nukumori no Naka de - In the Warmth",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Original"
     },
@@ -11834,9 +11834,9 @@
         "version": "",
         "edition": "Original"
     },
-    "Combination Pro Soccer - J. League no Kantoku ni Natte Sekai o Mezase! (Japan) (Rev 1)": {
-        "secondary_name": "コンビネーションプロサッカー Jリーグの監督になって世界をめざせ！",
-        "group_name": "Combination Pro Soccer - J. League no Kantoku ni Natte Sekai o Mezase!",
+    "Combination Pro Soccer - J.League no Kantoku ni Natte Sekai o Mezase! (Japan) (Rev 1)": {
+        "secondary_name": "コンビネーションプロサッカー　～Ｊリーグの監督になって世界をめざせ！～",
+        "group_name": "Combination Pro Soccer - J.League no Kantoku ni Natte Sekai o Mezase!",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "Ja",
@@ -12512,7 +12512,7 @@
     "Quaddle Family Mysteries, The 1 - The Case of the Scarce Scarab - Lobby & Kitchen (USA)": {
         "secondary_name": "",
         "group_name": "Quaddle Family Mysteries, The 1 - The Case of the Scarce Scarab - Lobby & Kitchen",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -12883,7 +12883,7 @@
         "group_name": "Startling Adventures - Kuusou 3x Daibouken",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Original"
     },
@@ -13036,7 +13036,7 @@
         "group_name": "NOeL 3 - Mission on the Line",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Major Wave"
     },
@@ -13171,7 +13171,7 @@
         "group_name": "Crime Crackers 2",
         "status": "Green",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Original"
     },
@@ -13292,10 +13292,10 @@
         "version": "",
         "edition": "Original"
     },
-    "Sol Divide (Japan)": {
-        "secondary_name": "",
+    "Sol Divide (Japan, Asia)": {
+        "secondary_name": "ソルディバイド",
         "group_name": "Sol Divide",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -13306,7 +13306,7 @@
         "group_name": "B Senjou no Alice - Alice on Borderlines",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Test Operation Disc"
     },
@@ -14062,7 +14062,7 @@
         "group_name": "No Fear Downhill Mountain Biking",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "En",
         "version": "",
         "edition": "Demo"
     },
@@ -14080,7 +14080,7 @@
         "group_name": "Soukou Kihei Votoms - Lightning Slash",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Taikenban"
     },
@@ -14188,7 +14188,7 @@
         "group_name": "Lalala PlayStation Trial Disc - 1998 Summer",
         "status": "Green",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Taikenban"
     },
@@ -14278,7 +14278,7 @@
         "group_name": "Cinema Eikaiwa Series Dai-4-dan - Boy's Life",
         "status": "Green",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Original, Saihatsubai"
     },
@@ -14289,7 +14289,7 @@
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
-        "edition": "Original, Growlanser Collection, Atlus Best Collection"
+        "edition": "Original, Atlus Best Collection, Growlanser Collection"
     },
     "NHL Face Off (Europe)": {
         "secondary_name": "",
@@ -14633,9 +14633,9 @@
         "version": "",
         "edition": "Original"
     },
-    "Bishoujo Ren'ai Mahjong Series - Karan Koron Gakuen - Doki Doki Hen (Japan)": {
+    "Bishoujo Ren'ai Mahjong Series - Karan Koron Gakuen - Doki Doki-hen (Japan)": {
         "secondary_name": "美少女恋愛麻雀シリーズ 華蘭虎龍学園 どきどき編",
-        "group_name": "Bishoujo Ren'ai Mahjong Series - Karan Koron Gakuen - Doki Doki Hen",
+        "group_name": "Bishoujo Ren'ai Mahjong Series - Karan Koron Gakuen - Doki Doki-hen",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "Ja",
@@ -14978,11 +14978,11 @@
     "Taikou Risshiden II (Japan) (Rev 1)": {
         "secondary_name": "太閤立志伝II",
         "group_name": "Taikou Risshiden II",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "Rev 1",
-        "edition": "PlayStation the Best, Koei Teiban Series"
+        "edition": "Original, PlayStation the Best, Koei Teiban Series"
     },
     "XS Junior League Soccer (Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "",
@@ -15633,9 +15633,9 @@
         "edition": "Original"
     },
     "Gekisou!! Grand Racing - Total Drivin' (Japan)": {
-        "secondary_name": "激走！！グランド・レーシング　～ＴＯＴＡＬ　ＤＲＩＶＩＮ´～",
+        "secondary_name": "激走！！グランド・レーシング　－ＴＯＴＡＬ　ＤＲＩＶＩＮ´－",
         "group_name": "Gekisou!! Grand Racing - Total Drivin'",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -15655,7 +15655,7 @@
         "group_name": "Harukanaru Toki no Naka de",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Premium Box"
     },
@@ -16074,7 +16074,7 @@
         "edition": "Original"
     },
     "NOeL 3 - Mission on the Line (Japan) (Disc 1)": {
-        "secondary_name": "ノエル3 MISSION ON THE LINE",
+        "secondary_name": "ノエル３　－ＭＩＳＳＩＯＮ　ＯＮ　ＴＨＥ　ＬＩＮＥ－",
         "group_name": "NOeL 3 - Mission on the Line",
         "status": "Blue",
         "disc_type": "CD",
@@ -16301,7 +16301,7 @@
     "Best Sports Games Ever (Europe, Australia)": {
         "secondary_name": "",
         "group_name": "Best Sports Games Ever",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -16436,7 +16436,7 @@
     "Cali's Geo Tools (USA)": {
         "secondary_name": "",
         "group_name": "Cali's Geo Tools",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -16904,7 +16904,7 @@
     "Shin Megami Tensei (Japan)": {
         "secondary_name": "真・女神転生",
         "group_name": "Shin Megami Tensei",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -17032,7 +17032,7 @@
         "group_name": "Maestromusic, The - Merry Christmas",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Original"
     },
@@ -17183,7 +17183,7 @@
     "Tiger Woods PGA Tour 2000 (USA)": {
         "secondary_name": "",
         "group_name": "Tiger Woods PGA Tour 2000",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -17831,7 +17831,7 @@
     "NCAA Football 2000 (USA)": {
         "secondary_name": "",
         "group_name": "NCAA Football 2000",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -17939,7 +17939,7 @@
     "Timeless Jade Trade (USA)": {
         "secondary_name": "",
         "group_name": "Timeless Jade Trade",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -18098,9 +18098,9 @@
         "version": "",
         "edition": "Original"
     },
-    "Simple 1500 Series Vol. 70 - The War Simulation - Hito no Tsukurishi Mono Tachi (Japan)": {
+    "Simple 1500 Series Vol. 70 - The War Simulation - Hito no Tsukurishi Mono-tachi (Japan)": {
         "secondary_name": "SIMPLE1500シリーズ Vol.70 THE ウォーシミュレーション 人の創りし者達",
-        "group_name": "Simple 1500 Series Vol. 70 - The War Simulation - Hito no Tsukurishi Mono Tachi",
+        "group_name": "Simple 1500 Series Vol. 70 - The War Simulation - Hito no Tsukurishi Mono-tachi",
         "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
@@ -18238,7 +18238,7 @@
         "group_name": "Marvel vs. Capcom - Clash of Super Heroes - EX Edition",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Taikenban"
     },
@@ -19226,7 +19226,7 @@
     "Kindaichi Shounen no Jikenbo 3 - Seiryuu Densetsu Satsujin Jiken (Japan) (Disc 1)": {
         "secondary_name": "金田一少年の事件簿３　～青龍伝説殺人事件～",
         "group_name": "Kindaichi Shounen no Jikenbo 3 - Seiryuu Densetsu Satsujin Jiken",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -19271,7 +19271,7 @@
     "Kindaichi Shounen no Jikenbo 3 - Seiryuu Densetsu Satsujin Jiken (Japan) (Disc 2)": {
         "secondary_name": "金田一少年の事件簿３　～青龍伝説殺人事件～",
         "group_name": "Kindaichi Shounen no Jikenbo 3 - Seiryuu Densetsu Satsujin Jiken",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -19790,9 +19790,9 @@
         "version": "",
         "edition": "Original"
     },
-    "Kids Station - Kikansha Thomas to Nakamatachi (Japan)": {
+    "Kids Station - Kikansha Thomas to Nakama-tachi (Japan)": {
         "secondary_name": "キッズステーション きかんしゃトーマスとなかまたち",
-        "group_name": "Kids Station - Kikansha Thomas to Nakamatachi",
+        "group_name": "Kids Station - Kikansha Thomas to Nakama-tachi",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "Ja",
@@ -20099,7 +20099,7 @@
     "NBA ShootOut 2003 (USA)": {
         "secondary_name": "",
         "group_name": "NBA ShootOut 2003",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -20407,7 +20407,7 @@
         "group_name": "Yakitori Musume - Sugoude Hanjouki",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Tentou-you Taikenban"
     },
@@ -20438,12 +20438,12 @@
         "version": "",
         "edition": "Original"
     },
-    "Pinobee no Daibouken ~ Pinobee - Quest of Heart (Japan)": {
+    "Pinobee no Daibouken (Japan)": {
         "secondary_name": "ピノビィーの大冒険",
-        "group_name": "Pinobee no Daibouken ~ Pinobee - Quest of Heart",
+        "group_name": "Pinobee no Daibouken",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Hudson the Best"
     },
@@ -20655,7 +20655,7 @@
         "edition": "Original"
     },
     "Chou Hatsumei Boy Kanipan - Hirameki Wonderland (Japan)": {
-        "secondary_name": "超発明BOYカニパン ヒラメキ☆ワンダーランド",
+        "secondary_name": "超発明ＢＯＹカニパン ヒラメキ☆ワンダーランド",
         "group_name": "Chou Hatsumei Boy Kanipan - Hirameki Wonderland",
         "status": "Blue",
         "disc_type": "CD",
@@ -20663,9 +20663,9 @@
         "version": "",
         "edition": "Original"
     },
-    "Jikkyou J. League 1999 - Perfect Striker (Japan)": {
-        "secondary_name": "実況 J. League 1999 パーフェクトストライカー",
-        "group_name": "Jikkyou J. League 1999 - Perfect Striker",
+    "Jikkyou J.League 1999 - Perfect Striker (Japan)": {
+        "secondary_name": "実況Ｊ．Ｌｅａｇｕｅ　１９９９　パーフェクトストライカー",
+        "group_name": "Jikkyou J.League 1999 - Perfect Striker",
         "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
@@ -20884,7 +20884,7 @@
         "group_name": "Daikoukai Jidai IV - Porto Estado",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Original"
     },
@@ -20900,7 +20900,7 @@
     "Bubblegun Kid (Japan)": {
         "secondary_name": "バブルガンキッド",
         "group_name": "Bubblegun Kid",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -21714,7 +21714,7 @@
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
-        "edition": "Original, Growlanser Collection, Atlus Best Collection"
+        "edition": "Original, Atlus Best Collection, Growlanser Collection"
     },
     "Lone Soldier (Europe)": {
         "secondary_name": "",
@@ -21980,7 +21980,7 @@
     "NCAA Football GameBreaker (USA)": {
         "secondary_name": "",
         "group_name": "NCAA Football GameBreaker",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -22153,7 +22153,7 @@
         "group_name": "Tokimeki Memorial 2",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "Rev 1",
         "edition": "Original"
     },
@@ -22589,9 +22589,9 @@
         "version": "",
         "edition": "Original"
     },
-    "Bishoujo Ren'ai Mahjong Series - Karan Koron Gakuen - Pure Love Hen (Japan)": {
+    "Bishoujo Ren'ai Mahjong Series - Karan Koron Gakuen - Pure Love-hen (Japan)": {
         "secondary_name": "美少女恋愛麻雀シリーズ 華蘭虎龍学園 ぴゅあらぶ編",
-        "group_name": "Bishoujo Ren'ai Mahjong Series - Karan Koron Gakuen - Pure Love Hen",
+        "group_name": "Bishoujo Ren'ai Mahjong Series - Karan Koron Gakuen - Pure Love-hen",
         "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
@@ -23201,9 +23201,9 @@
         "version": "",
         "edition": "Original, Platinum"
     },
-    "Bishoujo Ren'ai Mahjong Series 2nd - Shiritsu Houou Gakuen - 2 Nen Junjou Gumi (Japan)": {
+    "Bishoujo Ren'ai Mahjong Series 2nd - Shiritsu Houou Gakuen - 2-nen Junjou-gumi (Japan)": {
         "secondary_name": "美少女恋愛麻雀シリーズ2nd 私立鳳凰学園 2年純情組",
-        "group_name": "Bishoujo Ren'ai Mahjong Series 2nd - Shiritsu Houou Gakuen - 2 Nen Junjou Gumi",
+        "group_name": "Bishoujo Ren'ai Mahjong Series 2nd - Shiritsu Houou Gakuen - 2-nen Junjou-gumi",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "Ja",
@@ -23413,9 +23413,9 @@
         "group_name": "Taiken Bandai Vol. 2",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
-        "edition": ""
+        "edition": "Hibaihin"
     },
     "Strikepoint - The Hex Missions (Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "",
@@ -23987,7 +23987,7 @@
     "MLB 2004 (USA)": {
         "secondary_name": "",
         "group_name": "MLB 2004",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -24038,9 +24038,9 @@
         "version": "",
         "edition": "Original"
     },
-    "Lifescape 2 - Body Bionics - Kyoui no Shouuchuu Jintai (Japan)": {
-        "secondary_name": "ライフスケイプ2 ボディーバイオニクス 驚異の小宇宙・人体",
-        "group_name": "Lifescape 2 - Body Bionics - Kyoui no Shouuchuu Jintai",
+    "LifeScape 2 - Body Bionics - Kyoui no Shouuchuu Jintai (Japan)": {
+        "secondary_name": "ライフスケイプ２　ボディ・バイオニクス　～驚異の小宇宙・人体～",
+        "group_name": "LifeScape 2 - Body Bionics - Kyoui no Shouuchuu Jintai",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "Ja",
@@ -24281,9 +24281,9 @@
         "version": "",
         "edition": "Original"
     },
-    "Simple 1500 Jitsuyou Series Vol. 08 - 1 Jikan de Wakaru Kabushiki Toushi (Japan)": {
+    "Simple 1500 Jitsuyou Series Vol. 08 - 1-jikan de Wakaru Kabushiki Toushi (Japan)": {
         "secondary_name": "SIMPLE1500実用シリーズ Vol.08 1時間でわかる株式投資",
-        "group_name": "Simple 1500 Jitsuyou Series Vol. 08 - 1 Jikan de Wakaru Kabushiki Toushi",
+        "group_name": "Simple 1500 Jitsuyou Series Vol. 08 - 1-jikan de Wakaru Kabushiki Toushi",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "Ja",
@@ -24403,7 +24403,7 @@
         "group_name": "Croc 2",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "En",
         "version": "",
         "edition": "Demo"
     },
@@ -24599,7 +24599,7 @@
     "Tennis (USA)": {
         "secondary_name": "",
         "group_name": "Tennis",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -25209,9 +25209,9 @@
         "edition": "Original"
     },
     "Strikers 1945 II (Japan)": {
-        "secondary_name": "ストライカーズ1945II",
+        "secondary_name": "ストライカーズ１９４５Ⅱ",
         "group_name": "Strikers 1945 II",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -25681,7 +25681,7 @@
         "group_name": "Tokimeki Memorial 2",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "Rev 1",
         "edition": "Original"
     },
@@ -25823,7 +25823,7 @@
     "Cosmic Cookoff - Mathematics (USA)": {
         "secondary_name": "",
         "group_name": "Cosmic Cookoff - Mathematics",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -26230,7 +26230,7 @@
         "group_name": "Shichida-shiki Unou de Asobenture Vol. 4 - Katachi 123 - 2-4-sai Muke",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Original"
     },
@@ -26273,7 +26273,7 @@
     "Madden NFL 98 (USA) (Alt)": {
         "secondary_name": "",
         "group_name": "Madden NFL 98",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -26624,7 +26624,7 @@
     "MLB Pennant Race (USA)": {
         "secondary_name": "",
         "group_name": "MLB Pennant Race",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -26865,13 +26865,13 @@
         "edition": "Original"
     },
     "Touge Max 2 (Japan)": {
-        "secondary_name": "とうげ・マックス２",
+        "secondary_name": "峠ＭＡＸ２",
         "group_name": "Touge Max 2",
         "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
-        "edition": "Original, PlayStation the Best, Atlus Value 1500"
+        "edition": "Original, PlayStation the Best, Atlus Value Price 1500"
     },
     "Simple 1500 Jitsuyou Series Vol. 14 - Kurashi no Manner - Kankonsousai Hen (Japan)": {
         "secondary_name": "SIMPLE1500実用シリーズ Vol.14 暮らしのマナー ～冠婚葬祭編～",
@@ -26948,11 +26948,11 @@
     "Toyota Netz Racing (Japan)": {
         "secondary_name": "ネッツ・レーシング",
         "group_name": "Toyota Netz Racing",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
-        "edition": "Original"
+        "edition": "Hibaihin"
     },
     "Euro Demo 40 (France)": {
         "secondary_name": "",
@@ -27423,7 +27423,7 @@
         "edition": "Original, PlayStation the Best, 5th Anniversary Special Package"
     },
     "SuperLite 1500 Series - Fantastic Night Dreams - Cotton Original (Japan)": {
-        "secondary_name": "SuperLite 1500 シリーズ コットンオリジナル",
+        "secondary_name": "ＳｕｐｅｒＬｉｔｅ １５００ シリーズ コットンオリジナル",
         "group_name": "SuperLite 1500 Series - Fantastic Night Dreams - Cotton Original",
         "status": "Blue",
         "disc_type": "CD",
@@ -27783,7 +27783,7 @@
         "edition": "Original"
     },
     "Yellow Monkey, The - Trancemission VJ Remix (Japan)": {
-        "secondary_name": "THE YELLOW MONKEY trancemission VJ remix",
+        "secondary_name": "",
         "group_name": "Yellow Monkey, The - Trancemission VJ Remix",
         "status": "Green",
         "disc_type": "CD",
@@ -27792,7 +27792,7 @@
         "edition": "Original"
     },
     "Hyper PlayStation Re-mix 1999 No. 5 (Japan)": {
-        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ． ５",
+        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ．　５",
         "group_name": "Hyper PlayStation Re-mix 1999 No. 5",
         "status": "Blue",
         "disc_type": "CD",
@@ -27918,9 +27918,9 @@
         "edition": "Bundled with Magazine"
     },
     "Thoroughbred Breeder - Sekai Seiha-hen (Japan)": {
-        "secondary_name": "サラブレッドブリーダー 世界制覇編",
+        "secondary_name": "サラブレッドブリーダー　～世界制覇編～",
         "group_name": "Thoroughbred Breeder - Sekai Seiha-hen",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -27967,7 +27967,7 @@
         "group_name": "Winning Lure",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Original"
     },
@@ -28174,7 +28174,7 @@
         "group_name": "Tokoro-san no Daifugou",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Konami the Best"
     },
@@ -28224,11 +28224,11 @@
         "edition": "Original"
     },
     "Play de Oboeru Series - Nihonshi Keyword Deruderu 1800 (Japan) (Shotenban)": {
-        "secondary_name": "",
+        "secondary_name": "プレイで覚えるシリーズ 日本史キーワードでるでる1800",
         "group_name": "Play de Oboeru Series - Nihonshi Keyword Deruderu 1800",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Shotenban"
     },
@@ -28397,7 +28397,7 @@
     "DoDonPachi (Japan) (Rev 1)": {
         "secondary_name": "怒首領蜂",
         "group_name": "DoDonPachi",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "Rev 1",
@@ -28485,9 +28485,9 @@
         "edition": ""
     },
     "Dark Messiah (Japan)": {
-        "secondary_name": "ダークメサイア",
+        "secondary_name": "ダーク・メサイア",
         "group_name": "Dark Messiah",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -28565,9 +28565,9 @@
         "version": "",
         "edition": "Original, Sample"
     },
-    "J. League Virtual Stadium '96 (Japan)": {
+    "J.League Virtual Stadium '96 (Japan)": {
         "secondary_name": "Ｊリーグ・バーチャル・スタジアム’９６",
-        "group_name": "J. League Virtual Stadium '96",
+        "group_name": "J.League Virtual Stadium '96",
         "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
@@ -29117,7 +29117,7 @@
     "Puchi Carat (Japan)": {
         "secondary_name": "プチカラット",
         "group_name": "Puchi Carat",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -29198,7 +29198,7 @@
     "Family Connection - A Guide to Lightspan (USA)": {
         "secondary_name": "",
         "group_name": "Family Connection - A Guide to Lightspan",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -29396,7 +29396,7 @@
     "Alexi Lalas International Soccer (USA) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "Alexi Lalas International Soccer",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En, Fr, De, It, Es",
         "version": "",
@@ -30215,7 +30215,7 @@
     "Faire Games - Language Arts (USA)": {
         "secondary_name": "",
         "group_name": "Faire Games - Language Arts",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -30764,18 +30764,18 @@
     "Gunbird (Japan)": {
         "secondary_name": "ガンバード",
         "group_name": "Gunbird",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
-        "edition": "Sample"
+        "edition": "Original, Sample"
     },
     "Nobunaga no Yabou - Shouseiroku (Japan) (Rev 1)": {
         "secondary_name": "信長の野望・将星録",
         "group_name": "Nobunaga no Yabou - Shouseiroku",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "Rev 1",
         "edition": "PlayStation the Best"
     },
@@ -30980,7 +30980,7 @@
     "NCAA Final Four 2000 (USA)": {
         "secondary_name": "",
         "group_name": "NCAA Final Four 2000",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -31072,7 +31072,7 @@
         "group_name": "Martialbeat 2",
         "status": "Green",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Original"
     },
@@ -31306,7 +31306,7 @@
         "group_name": "Momotarou Matsuri - Ishikawa Rokuemon no Maki",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Original"
     },
@@ -31607,12 +31607,12 @@
         "version": "",
         "edition": ""
     },
-    "Taiho Shichauzo - You're Under Arrest (Japan) (Disc 2) (Shokai Genteiban)": {
-        "secondary_name": "逮捕しちゃうぞ",
-        "group_name": "Taiho Shichauzo - You're Under Arrest",
+    "Taiho Shichau zo - You're Under Arrest (Japan) (Disc 2) (Shokai Genteiban)": {
+        "secondary_name": "逮捕しちゃうぞ　Ｙｏｕ’ｒｅ　Ｕｎｄｅｒ　Ａｒｒｅｓｔ",
+        "group_name": "Taiho Shichau zo - You're Under Arrest",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Shokai Genteiban"
     },
@@ -31940,9 +31940,9 @@
         "version": "",
         "edition": ""
     },
-    "J. League Jikkyou Winning Eleven 2000 2nd (Japan)": {
-        "secondary_name": "Jリーグ 実況ウイニングイレブン2000 2nd",
-        "group_name": "J. League Jikkyou Winning Eleven 2000 2nd",
+    "J.League Jikkyou Winning Eleven 2000 2nd (Japan)": {
+        "secondary_name": "Ｊリーグ　実況ウイニングイレブン２０００　２ｎｄ",
+        "group_name": "J.League Jikkyou Winning Eleven 2000 2nd",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "Ja",
@@ -32224,7 +32224,7 @@
         "group_name": "Jissen Pachi-Slot Hisshouhou! Single - Kamen Rider & Gallop",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Original"
     },
@@ -32575,7 +32575,7 @@
         "group_name": "RMJ - The Mystery Hospital - Second Attack Sample CD-ROM",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Taikenban"
     },
@@ -32710,7 +32710,7 @@
         "group_name": "Refrain Love - Anata ni Aitai",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Major Wave"
     },
@@ -32814,7 +32814,7 @@
         "edition": "Original"
     },
     "Southern All Stars - Space MOSA Space Museum of Southern Art (Japan) (Disc 2) (Library)": {
-        "secondary_name": "サザンオールスターズ SPACE MOSA “SPACE MUSEUM OF SOUTHERN ART”",
+        "secondary_name": "サザンオールスターズ　ＳＰＡＣＥ　ＭＯＳＡ　＂ＳＰＡＣＥ　ＭＵＳＥＵＭ　ＯＦ　ＳＯＵＴＨＥＲＮ　ＡＲＴ＂",
         "group_name": "Southern All Stars - Space MOSA Space Museum of Southern Art",
         "status": "Blue",
         "disc_type": "CD",
@@ -32888,7 +32888,7 @@
     "Hyper PlayStation Re-mix No. 3 (Japan)": {
         "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ． ３",
         "group_name": "Hyper PlayStation Re-mix No. 3",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -33743,7 +33743,7 @@
     "Meka Pokeler (Japan)": {
         "secondary_name": "メカ・ポケラー",
         "group_name": "Meka Pokeler",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -34033,7 +34033,7 @@
         "group_name": "Kamen Rider",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Taikenban"
     },
@@ -34708,7 +34708,7 @@
         "group_name": "Blue Marlin, The",
         "status": "Green",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Original, Super Blackbass X2 & The Blue Marlin"
     },
@@ -36180,9 +36180,9 @@
         "edition": "Original"
     },
     "Pokeler DX - Pink (Japan)": {
-        "secondary_name": "ポケラー　ＤＸ　ピンク",
+        "secondary_name": "ポケラーＤＸ　ピンク",
         "group_name": "Pokeler DX - Pink",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -36341,12 +36341,12 @@
         "version": "",
         "edition": "Original"
     },
-    "Master of Monsters - Akatsuki no Kenja Tachi (Japan) (Major Wave)": {
+    "Master of Monsters - Akatsuki no Kenja-tachi (Japan) (Major Wave)": {
         "secondary_name": "マスター・オブ・モンスターズ～暁の賢者達～",
-        "group_name": "Master of Monsters - Akatsuki no Kenja Tachi",
+        "group_name": "Master of Monsters - Akatsuki no Kenja-tachi",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Major Wave"
     },
@@ -36877,7 +36877,7 @@
         "group_name": "Marionette Company",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Major Wave"
     },
@@ -36945,7 +36945,7 @@
         "edition": "Original"
     },
     "Touge Max G (Japan)": {
-        "secondary_name": "峠ＭＡＸ　Ｇ",
+        "secondary_name": "峠ＭＡＸ Ｇ",
         "group_name": "Touge Max G",
         "status": "Green",
         "disc_type": "CD",
@@ -36974,7 +36974,7 @@
     "Big Strike Bowling (USA)": {
         "secondary_name": "",
         "group_name": "Big Strike Bowling",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -37151,12 +37151,12 @@
         "version": "",
         "edition": "Original"
     },
-    "Nobunaga no Yabou - Reppuuden with Power Up Kit (Japan) (Rev 1)": {
+    "Nobunaga no Yabou - Reppuuden with Power-Up Kit (Japan) (Rev 1)": {
         "secondary_name": "信長の野望　～烈風伝　ｗｉｔｈ　パワーアップ・キット～",
-        "group_name": "Nobunaga no Yabou - Reppuuden with Power Up Kit",
+        "group_name": "Nobunaga no Yabou - Reppuuden with Power-Up Kit",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "Rev 1",
         "edition": "Original"
     },
@@ -37525,7 +37525,7 @@
         "group_name": "Pachi-Slot Kanzen Kouryaku - Takasago Super Project 2",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Original"
     },
@@ -37829,7 +37829,7 @@
     "Bottom of the 9th '99 (USA)": {
         "secondary_name": "",
         "group_name": "Bottom of the 9th '99",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -37923,7 +37923,7 @@
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
-        "edition": "Original, Major Wave Series"
+        "edition": "Original, Major Wave"
     },
     "Kon'ya mo Dorubako!! 2001 (Japan)": {
         "secondary_name": "今夜も千両箱！！　２００１",
@@ -38119,7 +38119,7 @@
         "group_name": "Martialbeat 2",
         "status": "Green",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Original"
     },
@@ -38371,7 +38371,7 @@
         "group_name": "Best PlayStation Games Ever, The - No. 1 of 4",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "En",
         "version": "",
         "edition": ""
     },
@@ -38981,7 +38981,7 @@
     "Creative Journey (USA)": {
         "secondary_name": "",
         "group_name": "Creative Journey",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -39028,7 +39028,7 @@
         "group_name": "Artdink Preview",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Taikenban"
     },
@@ -39077,9 +39077,9 @@
         "version": "",
         "edition": "Original"
     },
-    "J. League Jikkyou Winning Eleven 2001 (Japan)": {
-        "secondary_name": "Jリーグ 実況ウイニングイレブン2001",
-        "group_name": "J. League Jikkyou Winning Eleven 2001",
+    "J.League Jikkyou Winning Eleven 2001 (Japan)": {
+        "secondary_name": "Ｊリーグ　実況ウイニングイレブン２００１",
+        "group_name": "J.League Jikkyou Winning Eleven 2001",
         "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
@@ -40090,7 +40090,7 @@
         "group_name": "Rockman X4, Rockman 8 - Metal Heroes, Rockman - Battle & Chase",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Taikenban"
     },
@@ -40842,7 +40842,7 @@
         "edition": "Original"
     },
     "Devil Summoner - Soul Hackers (Japan) (Disc 1)": {
-        "secondary_name": "デビルサマナー ソウルハッカーズ",
+        "secondary_name": "デビル・サマナー　ソウル・ハッカーズ",
         "group_name": "Devil Summoner - Soul Hackers",
         "status": "Green",
         "disc_type": "CD",
@@ -40891,7 +40891,7 @@
         "group_name": "NOeL 3 - Mission on the Line",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Major Wave"
     },
@@ -41683,7 +41683,7 @@
         "group_name": "Marionette Company 2 Chu!",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Major Wave"
     },
@@ -41960,7 +41960,7 @@
     "Street Racquetball (USA)": {
         "secondary_name": "",
         "group_name": "Street Racquetball",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -42464,7 +42464,7 @@
     "Euro Demo 49 (Italy)": {
         "secondary_name": "",
         "group_name": "Euro Demo 49",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "It",
         "version": "",
@@ -42533,9 +42533,9 @@
         "version": "",
         "edition": "Original"
     },
-    "J. League Jikkyou Winning Eleven 3 (Japan)": {
-        "secondary_name": "Jリーグ 実況ウィニングイレブン3",
-        "group_name": "J. League Jikkyou Winning Eleven 3",
+    "J.League Jikkyou Winning Eleven 3 (Japan)": {
+        "secondary_name": "Ｊリーグ　実況ウィニングイレブン３",
+        "group_name": "J.League Jikkyou Winning Eleven 3",
         "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
@@ -42704,12 +42704,12 @@
         "version": "",
         "edition": "Otameshi Disc"
     },
-    "Disney Learning - Winnie the Pooh Preschool (Korea)": {
-        "secondary_name": "",
-        "group_name": "Disney Learning - Winnie the Pooh Preschool",
+    "Kids Station - Gomdoli Pooh Hakseup Series - Gomdoli Pooh Sinnaneun Yuagyosil (Korea)": {
+        "secondary_name": "ＫＩＤＳ ＳＴＡＴＩＯＮ 곰돌이 푸 학습 시리즈 곰돌이 푸 신나는 유아교실",
+        "group_name": "Kids Station - Gomdoli Pooh Hakseup Series - Gomdoli Pooh Sinnaneun Yuagyosil",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ko",
         "version": "",
         "edition": "Original"
     },
@@ -42770,7 +42770,7 @@
     "Galeoz (Japan)": {
         "secondary_name": "ΓΑΛΕΟΖ（ガレオス）",
         "group_name": "Galeoz",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -42844,16 +42844,16 @@
         "group_name": "Dioramos",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Taikenban"
     },
     "Cinema Eikaiwa Series Dai-1-dan - Tengoku ni Ikenai Papa (Japan) (Disc 3) (Gekan)": {
         "secondary_name": "シネマ英会話　「天国に行けないパパ」",
         "group_name": "Cinema Eikaiwa Series Dai-1-dan - Tengoku ni Ikenai Papa",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Original, Saihatsubai"
     },
@@ -43706,7 +43706,7 @@
     "Creative Camp (USA)": {
         "secondary_name": "",
         "group_name": "Creative Camp",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -43749,7 +43749,7 @@
         "edition": "Original"
     },
     "Tokimeki Memorial 2 Substories - Leaping School Festival (Japan) (Disc 2)": {
-        "secondary_name": "ときめきメモリアル2 Substories Leaping School Festival",
+        "secondary_name": "ときめきメモリアル２　Ｓｕｂｓｔｏｒｉｅｓ　～Ｌｅａｐｉｎｇ　Ｓｃｈｏｏｌ　Ｆｅｓｔｉｖａｌ～",
         "group_name": "Tokimeki Memorial 2 Substories - Leaping School Festival",
         "status": "Green",
         "disc_type": "CD",
@@ -43865,12 +43865,12 @@
         "version": "",
         "edition": "Demo"
     },
-    "Minna no Takaramono - Watashi no Licca-chan - Otetsudai wo Shiyou (Japan)": {
-        "secondary_name": "",
-        "group_name": "Minna no Takaramono - Watashi no Licca-chan - Otetsudai wo Shiyou",
+    "Minna no Takaramono - Watashi no Licca-chan - Otetsudai o Shiyou (Japan)": {
+        "secondary_name": "わたしのリカちゃん おてつだいをしよう",
+        "group_name": "Minna no Takaramono - Watashi no Licca-chan - Otetsudai o Shiyou",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Original"
     },
@@ -44009,9 +44009,9 @@
         "version": "",
         "edition": "Original"
     },
-    "Taiho Shichauzo - You're Under Arrest (Japan) (Disc 2)": {
+    "Taiho Shichau zo - You're Under Arrest (Japan) (Disc 2)": {
         "secondary_name": "逮捕しちゃうぞ　Ｙｏｕ’ｒｅ　Ｕｎｄｅｒ　Ａｒｒｅｓｔ",
-        "group_name": "Taiho Shichauzo - You're Under Arrest",
+        "group_name": "Taiho Shichau zo - You're Under Arrest",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "Ja",
@@ -44068,7 +44068,7 @@
         "group_name": "Salaryman Champ - Tatakau Salaryman",
         "status": "Green",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Original"
     },
@@ -44147,7 +44147,7 @@
     "AirGrave (Japan)": {
         "secondary_name": "エアグレイブ",
         "group_name": "AirGrave",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -44156,7 +44156,7 @@
     "Snobow Kids Plus (Japan)": {
         "secondary_name": "スノボ・キッズ・プラス",
         "group_name": "Snobow Kids Plus",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -44680,7 +44680,7 @@
         "group_name": "X Games Pro Boarder",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Taikenban"
     },
@@ -44694,7 +44694,7 @@
         "edition": "Major Wave"
     },
     "Hyper PlayStation Re-mix 1999 No. 2 (Japan)": {
-        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ． ２",
+        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ．　２",
         "group_name": "Hyper PlayStation Re-mix 1999 No. 2",
         "status": "Blue",
         "disc_type": "CD",
@@ -44966,7 +44966,7 @@
     "Shin Megami Tensei If... (Japan)": {
         "secondary_name": "真・女神転生ｉｆ…",
         "group_name": "Shin Megami Tensei If...",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -45297,7 +45297,7 @@
         "edition": "Original"
     },
     "Utauta Woo - Seirei-Songs (Japan)": {
-        "secondary_name": "うたうたウ～ SEIREI-SONGS",
+        "secondary_name": "うたうたウ～ ＳＥＩＲＥＩ－ＳＯＮＧＳ",
         "group_name": "Utauta Woo - Seirei-Songs",
         "status": "Blue",
         "disc_type": "CD",
@@ -45413,10 +45413,10 @@
         "version": "",
         "edition": "Original"
     },
-    "J. League Jikkyou Winning Eleven '97 (Japan)": {
-        "secondary_name": "Jリーグ 実況ウイニングイレブン'97",
-        "group_name": "J. League Jikkyou Winning Eleven '97",
-        "status": "Blue",
+    "J.League Jikkyou Winning Eleven '97 (Japan)": {
+        "secondary_name": "Ｊリーグ　実況ウイニングイレブン’９７",
+        "group_name": "J.League Jikkyou Winning Eleven '97",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -46921,7 +46921,7 @@
         "group_name": "Tanoshii Mahjong",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Original"
     },
@@ -47205,7 +47205,7 @@
         "edition": "Original"
     },
     "Southern All Stars - Space MOSA Space Museum of Southern Art (Japan) (Disc 3) (Theater)": {
-        "secondary_name": "サザンオールスターズ SPACE MOSA “SPACE MUSEUM OF SOUTHERN ART”",
+        "secondary_name": "サザンオールスターズ　ＳＰＡＣＥ　ＭＯＳＡ　＂ＳＰＡＣＥ　ＭＵＳＥＵＭ　ＯＦ　ＳＯＵＴＨＥＲＮ　ＡＲＴ＂",
         "group_name": "Southern All Stars - Space MOSA Space Museum of Southern Art",
         "status": "Blue",
         "disc_type": "CD",
@@ -47344,9 +47344,9 @@
         "group_name": "From Software 1998 Summer Preview Movies",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
-        "edition": ""
+        "edition": "Hibaihin"
     },
     "Black-Matrix + (Japan) (Disc 1)": {
         "secondary_name": "ブラック・マトリクス・クロス",
@@ -47846,7 +47846,7 @@
     "Creative Isle (USA)": {
         "secondary_name": "",
         "group_name": "Creative Isle",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -48494,7 +48494,7 @@
     "16 Tales 3 (USA)": {
         "secondary_name": "",
         "group_name": "16 Tales 3",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -49103,12 +49103,12 @@
         "version": "",
         "edition": "Original"
     },
-    "Taiho Shichauzo - You're Under Arrest (Japan) (Disc 1) (Shokai Genteiban)": {
-        "secondary_name": "逮捕しちゃうぞ",
-        "group_name": "Taiho Shichauzo - You're Under Arrest",
+    "Taiho Shichau zo - You're Under Arrest (Japan) (Disc 1) (Shokai Genteiban)": {
+        "secondary_name": "逮捕しちゃうぞ　Ｙｏｕ’ｒｅ　Ｕｎｄｅｒ　Ａｒｒｅｓｔ",
+        "group_name": "Taiho Shichau zo - You're Under Arrest",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Shokai Genteiban"
     },
@@ -50015,7 +50015,7 @@
     "Interplay Sports Baseball 2000 (USA)": {
         "secondary_name": "",
         "group_name": "Interplay Sports Baseball 2000",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -50507,12 +50507,12 @@
         "version": "",
         "edition": "Original"
     },
-    "Nobunaga no Yabou - Tenshouki with Power Up Kit (Japan)": {
+    "Nobunaga no Yabou - Tenshouki with Power-Up Kit (Japan)": {
         "secondary_name": "信長の野望・天翔記　ｗｉｔｈ　パワーアップキット",
-        "group_name": "Nobunaga no Yabou - Tenshouki with Power Up Kit",
+        "group_name": "Nobunaga no Yabou - Tenshouki with Power-Up Kit",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Original"
     },
@@ -51448,7 +51448,7 @@
         "group_name": "Meitantei Conan - 3-nin no Meisuiri",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Sunday Premium Disc"
     },
@@ -51837,7 +51837,7 @@
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
-        "edition": "Original"
+        "edition": "Original, Zanmai Series"
     },
     "Pocket PowerStation PlayStation Cheats CD (UK) (Unl) (20010219)": {
         "secondary_name": "",
@@ -51880,7 +51880,7 @@
         "group_name": "Nobunaga no Yabou - Reppuuden",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Original"
     },
@@ -52649,9 +52649,9 @@
         "version": "",
         "edition": "Demo"
     },
-    "Taiho Shichauzo - You're Under Arrest (Japan) (Disc 1)": {
+    "Taiho Shichau zo - You're Under Arrest (Japan) (Disc 1)": {
         "secondary_name": "逮捕しちゃうぞ　Ｙｏｕ’ｒｅ　Ｕｎｄｅｒ　Ａｒｒｅｓｔ",
-        "group_name": "Taiho Shichauzo - You're Under Arrest",
+        "group_name": "Taiho Shichau zo - You're Under Arrest",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "Ja",
@@ -52685,7 +52685,7 @@
         "version": "",
         "edition": "Original"
     },
-    "Valkyrie Profile (Japan) (Disc 2) (Shokai Gentei Deluxe Pack)": {
+    "Valkyrie Profile (Japan) (Disc 2) (Deluxe Pack)": {
         "secondary_name": "ヴァルキリープロファイル",
         "group_name": "Valkyrie Profile",
         "status": "Blue",
@@ -52798,7 +52798,7 @@
         "group_name": "Acid",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "En",
         "version": "",
         "edition": "Taikenban"
     },
@@ -53199,11 +53199,11 @@
         "edition": "Shokai Genteiban"
     },
     "Mermaid no Kisetsu (Japan) (Disc 1)": {
-        "secondary_name": "",
+        "secondary_name": "マーメイドの季節",
         "group_name": "Mermaid no Kisetsu",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Original"
     },
@@ -53289,9 +53289,9 @@
         "edition": "Original, PSone Books"
     },
     "Pokeler DX - Black (Japan)": {
-        "secondary_name": "ポケラーDX ブラック",
+        "secondary_name": "ポケラーＤＸ　ブラック",
         "group_name": "Pokeler DX - Black",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -53473,9 +53473,9 @@
         "group_name": "Langrisser I & II",
         "status": "Green",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
-        "edition": "Original, Masaya Best, Rerelease"
+        "edition": "Original, Masaya Best, Chou Renkaban"
     },
     "Wing Commander IV - The Price of Freedom (Germany) (Disc 4)": {
         "secondary_name": "",
@@ -53554,7 +53554,7 @@
         "group_name": "Acid",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "En",
         "version": "",
         "edition": "Major Wave"
     },
@@ -53649,7 +53649,7 @@
         "edition": "Original"
     },
     "Spyro x Sparx - Tondemo Tours (Japan)": {
-        "secondary_name": "スパイロ×スパークス トンでもツアーズ",
+        "secondary_name": "スパイロｘスパークス　～トンでもツアーズ～",
         "group_name": "Spyro x Sparx - Tondemo Tours",
         "status": "Green",
         "disc_type": "CD",
@@ -53860,7 +53860,7 @@
         "group_name": "Digital Ehon Vol. 1 - Imadoki no Momotarou",
         "status": "Green",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Original"
     },
@@ -54699,7 +54699,7 @@
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
-        "edition": "Original"
+        "edition": "Original, Zanmai Series"
     },
     "Mortal Kombat Mythologies - Sub-Zero (Europe)": {
         "secondary_name": "",
@@ -54731,7 +54731,7 @@
     "Triple Play 2000 (USA)": {
         "secondary_name": "",
         "group_name": "Triple Play 2000",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -54929,7 +54929,7 @@
     "Thousand Arms (Japan) (Disc 2)": {
         "secondary_name": "サウザンドアームズ",
         "group_name": "Thousand Arms",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -55584,7 +55584,7 @@
         "edition": "Rerelease"
     },
     "Hyper PlayStation Re-mix 1999 No. 4 (Japan)": {
-        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ． ４",
+        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ．　４",
         "group_name": "Hyper PlayStation Re-mix 1999 No. 4",
         "status": "Blue",
         "disc_type": "CD",
@@ -56097,11 +56097,11 @@
         "edition": "Major Wave"
     },
     "Boku no Choro Q (Japan)": {
-        "secondary_name": "",
+        "secondary_name": "ぼくのチョロＱ",
         "group_name": "Boku no Choro Q",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Original"
     },
@@ -56236,7 +56236,7 @@
         "group_name": "Shichida-shiki Unou de Asobenture Vol. 2 - Katachi 123 - 0-2-sai Muke",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Original"
     },
@@ -57233,7 +57233,7 @@
     "B Senjou no Alice - Alice on Borderlines (Japan) (Disc 3)": {
         "secondary_name": "Ｂ線上のアリス",
         "group_name": "B Senjou no Alice - Alice on Borderlines",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -57532,7 +57532,7 @@
         "group_name": "Jissen Pachi-Slot Hisshouhou! Single - Epsilon R",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Original"
     },
@@ -57584,7 +57584,7 @@
     "Rising Zan - The Samurai Gunman (USA)": {
         "secondary_name": "",
         "group_name": "Rising Zan - The Samurai Gunman",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -57608,9 +57608,9 @@
         "version": "Rev 1",
         "edition": "Original"
     },
-    "Lifescape - Seimei 40 Okunen Haruka na Tabi (Japan) (Disc 1) (Aquasphere)": {
-        "secondary_name": "ライフスケイプ 生命４０億年はるかな旅",
-        "group_name": "Lifescape - Seimei 40 Okunen Haruka na Tabi",
+    "LifeScape - Seimei 40-okunen Haruka na Tabi (Japan) (Disc 1) (Aquasphere)": {
+        "secondary_name": "ライフスケイプ　～生命４０億年はるかな旅～",
+        "group_name": "LifeScape - Seimei 40-okunen Haruka na Tabi",
         "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
@@ -58266,7 +58266,7 @@
         "edition": ""
     },
     "Tokimeki Memorial 2 Substories - Leaping School Festival (Japan) (Disc 1)": {
-        "secondary_name": "ときめきメモリアル2 Substories Leaping School Festival",
+        "secondary_name": "ときめきメモリアル２　Ｓｕｂｓｔｏｒｉｅｓ　～Ｌｅａｐｉｎｇ　Ｓｃｈｏｏｌ　Ｆｅｓｔｉｖａｌ～",
         "group_name": "Tokimeki Memorial 2 Substories - Leaping School Festival",
         "status": "Green",
         "disc_type": "CD",
@@ -58628,11 +58628,11 @@
     "Zen Nihon Pro Wres - Ouja no Tamashii (Japan) (Spike Library)": {
         "secondary_name": "全日本プロレス 　～王者の魂～",
         "group_name": "Zen Nihon Pro Wres - Ouja no Tamashii",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
-        "edition": "PSone Books"
+        "edition": "Spike Library, PSone Books"
     },
     "Mortal Kombat 3 (Europe)": {
         "secondary_name": "",
@@ -58828,7 +58828,7 @@
         "group_name": "Tokimeki Memorial 2",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "Rev 1",
         "edition": "Original"
     },
@@ -59294,7 +59294,7 @@
     "Head to Toe 1 (USA)": {
         "secondary_name": "",
         "group_name": "Head to Toe 1",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -59728,7 +59728,7 @@
         "group_name": "Nippon Ichi Mahjong - Souryuu",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Major Wave"
     },
@@ -60529,7 +60529,7 @@
         "group_name": "Tokimeki Memorial 2",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "Rev 1",
         "edition": "Original"
     },
@@ -60698,7 +60698,7 @@
     "VR Golf '97 (USA) (En,Fr)": {
         "secondary_name": "",
         "group_name": "VR Golf '97",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En, Fr",
         "version": "",
@@ -60759,11 +60759,11 @@
         "edition": "Original"
     },
     "RC Revenge (Japan)": {
-        "secondary_name": "",
+        "secondary_name": "ＲＣリベンジ",
         "group_name": "RC Revenge",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "En",
         "version": "",
         "edition": "Original"
     },
@@ -61121,7 +61121,7 @@
     "HardBall '99 (USA)": {
         "secondary_name": "",
         "group_name": "HardBall '99",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -61568,12 +61568,12 @@
         "version": "",
         "edition": "Original"
     },
-    "Hanafuda Graffiti - Koi-Koi Monogatari (Japan) (Major Wave)": {
+    "Hanafuda Graffiti - Koi Koi Monogatari (Japan) (Major Wave)": {
         "secondary_name": "花札グラフィティー　恋々物語",
-        "group_name": "Hanafuda Graffiti - Koi-Koi Monogatari",
+        "group_name": "Hanafuda Graffiti - Koi Koi Monogatari",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Major Wave"
     },
@@ -62158,7 +62158,7 @@
         "group_name": "Cinema Eikaiwa Series Dai-4-dan - Boy's Life",
         "status": "Green",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Original, Saihatsubai"
     },
@@ -62892,7 +62892,7 @@
         "edition": "Taikenban"
     },
     "Tokimeki Memorial 2 Substories - Dancing Summer Vacation (Japan) (Disc 1)": {
-        "secondary_name": "ときめきメモリアル2 Substories ～Dancing Summer Vacation～",
+        "secondary_name": "ときめきメモリアル２　Ｓｕｂｓｔｏｒｉｅｓ　～Ｄａｎｃｉｎｇ　Ｓｕｍｍｅｒ　Ｖａｃａｔｉｏｎ～",
         "group_name": "Tokimeki Memorial 2 Substories - Dancing Summer Vacation",
         "status": "Green",
         "disc_type": "CD",
@@ -63049,7 +63049,7 @@
         "group_name": "Legacy of Kain - Soul Reaver",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "En",
         "version": "",
         "edition": "Demo"
     },
@@ -63935,9 +63935,9 @@
         "version": "",
         "edition": "Original"
     },
-    "J. League Soccer - Prime Goal EX (Japan) (Lawson Station)": {
+    "J.League Soccer - Prime Goal EX (Japan) (Lawson Station)": {
         "secondary_name": "Ｊリーグサッカー　プライムゴールＥＸ",
-        "group_name": "J. League Soccer - Prime Goal EX",
+        "group_name": "J.League Soccer - Prime Goal EX",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "Ja",
@@ -64466,9 +64466,9 @@
         "version": "",
         "edition": "Original, Greatest Hits"
     },
-    "J. League Jikkyou Winning Eleven '98-'99 (Japan)": {
-        "secondary_name": "Jリーグ 実況ウイニングイレブン'98-'99",
-        "group_name": "J. League Jikkyou Winning Eleven '98-'99",
+    "J.League Jikkyou Winning Eleven '98-'99 (Japan)": {
+        "secondary_name": "Ｊリーグ　実況ウイニングイレブン’９８－’９９",
+        "group_name": "J.League Jikkyou Winning Eleven '98-'99",
         "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
@@ -64845,7 +64845,7 @@
         "edition": "Original, Greatest Hits, Collectors' Edtion"
     },
     "Winning Post 4 - Program 2000 (Japan)": {
-        "secondary_name": "ウイニングポスト4 プログラム2000",
+        "secondary_name": "ウイニングポスト４ プログラム２０００",
         "group_name": "Winning Post 4 - Program 2000",
         "status": "Green",
         "disc_type": "CD",
@@ -65880,11 +65880,11 @@
         "edition": "Taikenban"
     },
     "Mermaid no Kisetsu (Japan) (Disc 2)": {
-        "secondary_name": "",
+        "secondary_name": "マーメイドの季節",
         "group_name": "Mermaid no Kisetsu",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Original"
     },
@@ -66253,7 +66253,7 @@
         "group_name": "Formation Soccer '98",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Major Wave"
     },
@@ -66523,7 +66523,7 @@
         "group_name": "Acid",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "En",
         "version": "",
         "edition": "Original"
     },
@@ -67212,7 +67212,7 @@
         "edition": "Original"
     },
     "Jet de Go! Let's Go by Airliner (Japan) (JAL Kinai Hanbai Gentei)": {
-        "secondary_name": "ジェットでGO! LET'S GO BY AIRLINER",
+        "secondary_name": "ジェットでＧＯ！ ＬＥＴ＇Ｓ ＧＯ ＢＹ ＡＩＲＬＩＮＥＲ",
         "group_name": "Jet de Go! Let's Go by Airliner",
         "status": "Blue",
         "disc_type": "CD",
@@ -67517,9 +67517,9 @@
         "version": "",
         "edition": "Original"
     },
-    "Lifescape - Seimei 40 Okunen Haruka na Tabi (Japan) (Disc 2) (Landsphere)": {
-        "secondary_name": "ライフスケイプ 生命４０億年はるかな旅",
-        "group_name": "Lifescape - Seimei 40 Okunen Haruka na Tabi",
+    "LifeScape - Seimei 40-okunen Haruka na Tabi (Japan) (Disc 2) (Landsphere)": {
+        "secondary_name": "ライフスケイプ　～生命４０億年はるかな旅～",
+        "group_name": "LifeScape - Seimei 40-okunen Haruka na Tabi",
         "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
@@ -68879,7 +68879,7 @@
     "EOS - Edge of Skyhigh (Japan)": {
         "secondary_name": "ＥＯＳ －イオス－ Ｅｄｇｅ Ｏｆ Ｓｋｙｈｉｇｈ",
         "group_name": "EOS - Edge of Skyhigh",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -69241,7 +69241,7 @@
         "group_name": "Quiz Darake no Jinsei Game - Un to Atama de Daifugou!",
         "status": "Green",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Original, The Best Takaramono"
     },
@@ -69461,7 +69461,7 @@
         "version": "",
         "edition": "Original"
     },
-    "Maestromusic, The (Japan) (Baton Controller Doukonban)": {
+    "Maestromusic, The (Japan) (Doukonban)": {
         "secondary_name": "ザ・マエストロムジーク",
         "group_name": "Maestromusic, The",
         "status": "Green",
@@ -69682,7 +69682,7 @@
         "group_name": "Carnage Heart Extra",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Bundled with Book"
     },
@@ -70105,7 +70105,7 @@
         "group_name": "Tales of Eternia",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Bundled with Magazine (Dokusen Taikenban)"
     },
@@ -70416,7 +70416,7 @@
         "edition": "Original"
     },
     "Hyper PlayStation Re-mix 1999 No. 9 (Japan) (Disc 1)": {
-        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ． ９",
+        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ．　９",
         "group_name": "Hyper PlayStation Re-mix 1999 No. 9",
         "status": "Blue",
         "disc_type": "CD",
@@ -70582,7 +70582,7 @@
         "group_name": "Daikoukai Jidai IV - Porto Estado",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Koei the Best"
     },
@@ -71518,7 +71518,7 @@
         "group_name": "Famires, The - Shijou Saikyou no Menu",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Major Wave"
     },
@@ -71669,7 +71669,7 @@
     "Capcom Generation - Dai-5-shuu Kakutouka-tachi (Japan)": {
         "secondary_name": "カプコン・ジェネレーション　～第５集　格闘家たち～",
         "group_name": "Capcom Generation - Dai-5-shuu Kakutouka-tachi",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -71896,7 +71896,7 @@
         "group_name": "Cinema Eikaiwa Series Dai-4-dan - Boy's Life",
         "status": "Green",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Original, Saihatsubai"
     },
@@ -72047,7 +72047,7 @@
     "Sno Pokeler (Japan)": {
         "secondary_name": "スノ・ポケラー",
         "group_name": "Sno Pokeler",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -72553,7 +72553,7 @@
         "group_name": "Action Bass",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Pokkiri 1400"
     },
@@ -73046,7 +73046,7 @@
     "Trap Gunner (Japan)": {
         "secondary_name": "トラップガンナー",
         "group_name": "Trap Gunner",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -73710,11 +73710,11 @@
         "edition": "Original"
     },
     "Dr. Rin ni Kiite Mite! Koi no Happy Four Seasons (Japan)": {
-        "secondary_name": "",
+        "secondary_name": "Ｄｒ．リンにきいてみて！　恋のハッピーフォーシーズン",
         "group_name": "Dr. Rin ni Kiite Mite! Koi no Happy Four Seasons",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Original"
     },
@@ -74713,7 +74713,7 @@
         "group_name": "Hana to Ryuu - Hanafuda, Mahjong",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Major Wave"
     },
@@ -74907,7 +74907,7 @@
         "edition": "Demo"
     },
     "Thoroughbred Breeder - Sekai Seiha-hen (Japan) (Rev 1)": {
-        "secondary_name": "サラブレッドブリーダー 世界制覇編",
+        "secondary_name": "サラブレッドブリーダー　～世界制覇編～",
         "group_name": "Thoroughbred Breeder - Sekai Seiha-hen",
         "status": "Blue",
         "disc_type": "CD",
@@ -75123,7 +75123,7 @@
         "edition": "Original"
     },
     "Hyper PlayStation Re-mix 1999 No. 9 (Japan) (Disc 2) (Sony Computer Entertainment Special)": {
-        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ． ９",
+        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ．　９",
         "group_name": "Hyper PlayStation Re-mix 1999 No. 9",
         "status": "Blue",
         "disc_type": "CD",
@@ -75244,7 +75244,7 @@
         "group_name": "Uchi ni Pochi ga Yattekita in my Pocket",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Original"
     },
@@ -75357,7 +75357,7 @@
         "edition": "Original"
     },
     "NOeL 3 - Mission on the Line (Japan) (Disc 2)": {
-        "secondary_name": "ノエル3 MISSION ON THE LINE",
+        "secondary_name": "ノエル３　－ＭＩＳＳＩＯＮ　ＯＮ　ＴＨＥ　ＬＩＮＥ－",
         "group_name": "NOeL 3 - Mission on the Line",
         "status": "Blue",
         "disc_type": "CD",
@@ -75593,11 +75593,11 @@
     "Gran Turismo (Europe) (En,Fr,De,Es,It) (EDC)": {
         "secondary_name": "",
         "group_name": "Gran Turismo",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En, Fr, De, It, Es",
         "version": "EDC",
-        "edition": "Platinum"
+        "edition": "Platinum, 2 Games"
     },
     "Robo Pit (Japan)": {
         "secondary_name": "ロボ・ピット",
@@ -75782,7 +75782,7 @@
     "Tiger Woods 99 PGA Tour Golf (USA)": {
         "secondary_name": "",
         "group_name": "Tiger Woods 99 PGA Tour Golf",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -76180,7 +76180,7 @@
         "group_name": "Mermaid no Kisetsu - Curtain Call",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Original"
     },
@@ -76268,7 +76268,7 @@
     "B Senjou no Alice - Alice on Borderlines (Japan) (Disc 1)": {
         "secondary_name": "Ｂ線上のアリス",
         "group_name": "B Senjou no Alice - Alice on Borderlines",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -76427,9 +76427,9 @@
         "version": "",
         "edition": ""
     },
-    "J. League Jikkyou Winning Eleven (Japan)": {
-        "secondary_name": "Jリーグ 実況ウイニングイレブン",
-        "group_name": "J. League Jikkyou Winning Eleven",
+    "J.League Jikkyou Winning Eleven (Japan)": {
+        "secondary_name": "Ｊリーグ　実況ウイニングイレブン",
+        "group_name": "J.League Jikkyou Winning Eleven",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "Ja",
@@ -76513,7 +76513,7 @@
         "group_name": "Genghis Khan - Aoki Ookami to Shiroki Mejika IV",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Original"
     },
@@ -77575,7 +77575,7 @@
         "group_name": "GI Jockey",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Shokai Genteiban"
     },
@@ -77652,7 +77652,7 @@
         "edition": "Original"
     },
     "NOeL 3 - Mission on the Line (Japan) (Disc 3)": {
-        "secondary_name": "ノエル3 MISSION ON THE LINE",
+        "secondary_name": "ノエル３　－ＭＩＳＳＩＯＮ　ＯＮ　ＴＨＥ　ＬＩＮＥ－",
         "group_name": "NOeL 3 - Mission on the Line",
         "status": "Blue",
         "disc_type": "CD",
@@ -77660,12 +77660,12 @@
         "version": "",
         "edition": "Original"
     },
-    "Digital Ehon Vol. 5 - Imadoki no Urashima Tarou (Japan)": {
+    "Digital Ehon Vol. 5 - Imadoki no Urashima-tarou (Japan)": {
         "secondary_name": "デジタルえほん　Ｖｏｌ．５　～いまどきのうらしまたろう～",
-        "group_name": "Digital Ehon Vol. 5 - Imadoki no Urashima Tarou",
+        "group_name": "Digital Ehon Vol. 5 - Imadoki no Urashima-tarou",
         "status": "Green",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Original"
     },
@@ -77679,7 +77679,7 @@
         "edition": "Genteiban"
     },
     "Hyper PlayStation Re-mix 1999 No. 8 (Japan)": {
-        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ． ８",
+        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ．　８",
         "group_name": "Hyper PlayStation Re-mix 1999 No. 8",
         "status": "Blue",
         "disc_type": "CD",
@@ -77876,8 +77876,8 @@
         "version": "",
         "edition": "Original, Greatest Hits, Collectors' Edition"
     },
-    "I.Q Final (Japan) (Demo)": {
-        "secondary_name": "I.Q Final 体験版",
+    "I.Q Final (Japan) (Demo 1)": {
+        "secondary_name": "Ｉ．Ｑ　Ｆｉｎａｌ　体験版",
         "group_name": "I.Q Final",
         "status": "Blue",
         "disc_type": "CD",
@@ -78119,9 +78119,9 @@
         "version": "",
         "edition": ""
     },
-    "Combination Pro Soccer - J. League no Kantoku ni Natte Sekai o Mezase! (Japan)": {
-        "secondary_name": "コンビネーションプロサッカー Jリーグの監督になって世界をめざせ！",
-        "group_name": "Combination Pro Soccer - J. League no Kantoku ni Natte Sekai o Mezase!",
+    "Combination Pro Soccer - J.League no Kantoku ni Natte Sekai o Mezase! (Japan)": {
+        "secondary_name": "コンビネーションプロサッカー　～Ｊリーグの監督になって世界をめざせ！～",
+        "group_name": "Combination Pro Soccer - J.League no Kantoku ni Natte Sekai o Mezase!",
         "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
@@ -78515,12 +78515,12 @@
         "version": "",
         "edition": "Original"
     },
-    "I.Q Final (Japan) (Muryou Rental-ban)": {
-        "secondary_name": "Ｉ．Ｑ　Ｆｉｎａｌ　無料レンタル版　体験版",
+    "I.Q Final (Japan) (Demo 2)": {
+        "secondary_name": "Ｉ．Ｑ　Ｆｉｎａｌ　無料レンタル版",
         "group_name": "I.Q Final",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Muryou Rental-ban"
     },
@@ -79001,7 +79001,7 @@
         "version": "",
         "edition": "Promo"
     },
-    "Snow Break (Japan)": {
+    "Snow Break (Japan, Asia)": {
         "secondary_name": "スノー・ブレイク",
         "group_name": "Snow Break",
         "status": "Green",
@@ -79442,9 +79442,9 @@
         "version": "",
         "edition": "Original"
     },
-    "Omiai Commando - Ba-Couple ni Tsukkomi wo (Japan)": {
+    "Omiai Commando - Ba-Couple ni Tsukkomi o (Japan)": {
         "secondary_name": "お見合いコマンドー ～バカップルにつっこみを～",
-        "group_name": "Omiai Commando - Ba-Couple ni Tsukkomi wo",
+        "group_name": "Omiai Commando - Ba-Couple ni Tsukkomi o",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "Ja",
@@ -80010,7 +80010,7 @@
         "edition": "Original"
     },
     "Southern All Stars - Space MOSA Space Museum of Southern Art (Japan) (Disc 1) (Museum)": {
-        "secondary_name": "サザンオールスターズ SPACE MOSA “SPACE MUSEUM OF SOUTHERN ART”",
+        "secondary_name": "サザンオールスターズ　ＳＰＡＣＥ　ＭＯＳＡ　＂ＳＰＡＣＥ　ＭＵＳＥＵＭ　ＯＦ　ＳＯＵＴＨＥＲＮ　ＡＲＴ＂",
         "group_name": "Southern All Stars - Space MOSA Space Museum of Southern Art",
         "status": "Blue",
         "disc_type": "CD",
@@ -80086,7 +80086,7 @@
         "group_name": "Jissen Pachi-Slot Hisshouhou! Single - Kamen Rider & Gallop",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Original"
     },
@@ -80113,7 +80113,7 @@
         "group_name": "NOeL 3 - Mission on the Line",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Major Wave"
     },
@@ -80660,9 +80660,9 @@
     "Ling Rise (Japan)": {
         "secondary_name": "リングライズ",
         "group_name": "Ling Rise",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Original"
     },
@@ -80739,7 +80739,7 @@
         "edition": ""
     },
     "Strikers 1945 (Japan)": {
-        "secondary_name": "ストライカーズ1945",
+        "secondary_name": "ストライカーズ１９４５",
         "group_name": "Strikers 1945",
         "status": "Green",
         "disc_type": "CD",
@@ -80986,9 +80986,9 @@
         "group_name": "Philosoma Ver. 0 - Movie CD-ROM",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
-        "edition": "Demo"
+        "edition": "Hibaihin"
     },
     "NBA Pro 99 (Europe)": {
         "secondary_name": "",
@@ -81281,7 +81281,7 @@
     "NBA ShootOut 2004 (USA)": {
         "secondary_name": "",
         "group_name": "NBA ShootOut 2004",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -81335,7 +81335,7 @@
     "Night Striker (Japan)": {
         "secondary_name": "ナイトストライカー",
         "group_name": "Night Striker",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -81652,7 +81652,7 @@
         "group_name": "Cross Tantei Monogatari 1 - Zenpen",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Major Wave"
     },
@@ -81893,7 +81893,7 @@
     "VR Baseball 99 (USA)": {
         "secondary_name": "",
         "group_name": "VR Baseball 99",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -82129,7 +82129,7 @@
         "group_name": "Ultraman - Fighting Evolution",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Taikenban"
     },
@@ -82982,7 +82982,7 @@
     "Monster Race (Japan)": {
         "secondary_name": "もんすたあ★レース",
         "group_name": "Monster Race",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -83195,9 +83195,9 @@
         "version": "",
         "edition": "Original"
     },
-    "Hanafuda Graffiti - Koi-Koi Monogatari (Japan)": {
+    "Hanafuda Graffiti - Koi Koi Monogatari (Japan)": {
         "secondary_name": "花札グラフィティー　恋々物語",
-        "group_name": "Hanafuda Graffiti - Koi-Koi Monogatari",
+        "group_name": "Hanafuda Graffiti - Koi Koi Monogatari",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "Ja",
@@ -83313,7 +83313,7 @@
         "edition": "Taikenban"
     },
     "Tetsudou-ou '96 - Iku ze Okuman Chouja!! (Japan)": {
-        "secondary_name": "鉄道王'96 いくぜ億万長者!!",
+        "secondary_name": "鉄道王’９６　～いくぜ億万長者！！～",
         "group_name": "Tetsudou-ou '96 - Iku ze Okuman Chouja!!",
         "status": "Blue",
         "disc_type": "CD",
@@ -83333,7 +83333,7 @@
     "Dengeki PlayStation D25 (Japan)": {
         "secondary_name": "電撃プレイステーションＤ２５",
         "group_name": "Dengeki PlayStation D25",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -83405,7 +83405,7 @@
     "Madden NFL 97 (USA)": {
         "secondary_name": "",
         "group_name": "Madden NFL 97",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -83839,7 +83839,7 @@
         "group_name": "Seishoujo Kantai Virgin Fleet",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Original"
     },
@@ -84586,7 +84586,7 @@
         "group_name": "Enen Angel",
         "status": "Green",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Original, PSone Books"
     },
@@ -84602,7 +84602,7 @@
     "Sammy Sosa High Heat Baseball 2001 (USA)": {
         "secondary_name": "",
         "group_name": "Sammy Sosa High Heat Baseball 2001",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -84640,7 +84640,7 @@
         "group_name": "Tokimeki Memorial 2",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "Rev 1",
         "edition": "Original"
     },
@@ -84667,7 +84667,7 @@
         "group_name": "Martialbeat 2",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Controller Doukon Set"
     },
@@ -84881,7 +84881,7 @@
     "This Is Football 2 (Italy) (Demo)": {
         "secondary_name": "",
         "group_name": "This Is Football 2",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "It",
         "version": "",
@@ -84962,7 +84962,7 @@
     "Madden NFL 2004 (USA)": {
         "secondary_name": "",
         "group_name": "Madden NFL 2004",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -86696,9 +86696,9 @@
         "version": "",
         "edition": "Bundled with ASCII Sphere 360° Controller"
     },
-    "Power Dolls 2 - Detachment of Limited Line Service (Japan)": {
-        "secondary_name": "パワードール2",
-        "group_name": "Power Dolls 2 - Detachment of Limited Line Service",
+    "Power DoLLS 2 (Japan)": {
+        "secondary_name": "パワー・ドール２",
+        "group_name": "Power DoLLS 2",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "Ja",
@@ -86989,7 +86989,7 @@
         "group_name": "XI [sai] Super Play Collection - XI wa Futatabi Nagerareta - Special CD-ROM",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Bundled with Book"
     },
@@ -87691,7 +87691,7 @@
         "group_name": "Martialbeat 2",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Controller Doukon Set"
     },
@@ -87896,9 +87896,9 @@
     "Cinema Eikaiwa Series Dai-1-dan - Tengoku ni Ikenai Papa (Japan) (Disc 2) (Chuukan)": {
         "secondary_name": "シネマ英会話　「天国に行けないパパ」",
         "group_name": "Cinema Eikaiwa Series Dai-1-dan - Tengoku ni Ikenai Papa",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Original, Saihatsubai"
     },
@@ -88060,7 +88060,7 @@
         "group_name": "Little Lovers - She So Game",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Major Wave"
     },
@@ -88128,7 +88128,7 @@
         "edition": "Original"
     },
     "Kessen - Demo Video CD-ROM (Japan)": {
-        "secondary_name": "決戦 デモビデオCD-ROM",
+        "secondary_name": "決戦 　デモビデオＣＤ－ＲＯＭ",
         "group_name": "Kessen - Demo Video CD-ROM",
         "status": "Blue",
         "disc_type": "CD",
@@ -88328,7 +88328,7 @@
     "NFL GameDay 2000 (USA)": {
         "secondary_name": "",
         "group_name": "NFL GameDay 2000",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -88343,9 +88343,9 @@
         "version": "",
         "edition": "Original"
     },
-    "Bishoujo Ren'ai Mahjong Series - Karan Koron Gakuen - Munekyun Hen (Japan)": {
+    "Bishoujo Ren'ai Mahjong Series - Karan Koron Gakuen - Munekyun-hen (Japan)": {
         "secondary_name": "美少女恋愛麻雀シリーズ 華蘭虎龍学園 むねきゅん編",
-        "group_name": "Bishoujo Ren'ai Mahjong Series - Karan Koron Gakuen - Munekyun Hen",
+        "group_name": "Bishoujo Ren'ai Mahjong Series - Karan Koron Gakuen - Munekyun-hen",
         "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
@@ -89131,7 +89131,7 @@
         "group_name": "Cinema Eikaiwa Series Dai-4-dan - Boy's Life",
         "status": "Green",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Original, Saihatsubai"
     },
@@ -89237,7 +89237,7 @@
     "B Senjou no Alice - Alice on Borderlines (Japan) (Disc 2)": {
         "secondary_name": "Ｂ線上のアリス",
         "group_name": "B Senjou no Alice - Alice on Borderlines",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -89271,7 +89271,7 @@
         "edition": "Original"
     },
     "Tokimeki Memorial 2 Substories - Dancing Summer Vacation (Japan) (Disc 2)": {
-        "secondary_name": "ときめきメモリアル2 Substories ～Dancing Summer Vacation～",
+        "secondary_name": "ときめきメモリアル２　Ｓｕｂｓｔｏｒｉｅｓ　～Ｄａｎｃｉｎｇ　Ｓｕｍｍｅｒ　Ｖａｃａｔｉｏｎ～",
         "group_name": "Tokimeki Memorial 2 Substories - Dancing Summer Vacation",
         "status": "Green",
         "disc_type": "CD",
@@ -89315,9 +89315,9 @@
         "version": "",
         "edition": "Original"
     },
-    "J. League Jikkyou Winning Eleven 2000 (Japan)": {
-        "secondary_name": "Ｊリーグ 実況ウイニングイレブン２０００",
-        "group_name": "J. League Jikkyou Winning Eleven 2000",
+    "J.League Jikkyou Winning Eleven 2000 (Japan)": {
+        "secondary_name": "Ｊリーグ　実況ウイニングイレブン２０００",
+        "group_name": "J.League Jikkyou Winning Eleven 2000",
         "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
@@ -90452,7 +90452,7 @@
     "NBA Live 2001 (USA)": {
         "secondary_name": "",
         "group_name": "NBA Live 2001",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -90623,7 +90623,7 @@
     "NFL Xtreme 2 (USA)": {
         "secondary_name": "",
         "group_name": "NFL Xtreme 2",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -90747,7 +90747,7 @@
         "edition": "Tentou-you Special CD-ROM"
     },
     "Hyper PlayStation Re-mix 1999 No. 6 (Japan)": {
-        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ． ６",
+        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ．　６",
         "group_name": "Hyper PlayStation Re-mix 1999 No. 6",
         "status": "Blue",
         "disc_type": "CD",
@@ -90899,9 +90899,9 @@
         "version": "",
         "edition": ""
     },
-    "J. League Soccer - Prime Goal EX (Japan)": {
+    "J.League Soccer - Prime Goal EX (Japan)": {
         "secondary_name": "Ｊリーグサッカー　プライムゴールＥＸ",
-        "group_name": "J. League Soccer - Prime Goal EX",
+        "group_name": "J.League Soccer - Prime Goal EX",
         "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
@@ -91971,7 +91971,7 @@
         "edition": "Original"
     },
     "Aquanaut no Kyuujitsu - Memories of Summer 1996 (Japan)": {
-        "secondary_name": "アクアノートの休日 MEMORIES OF SUMMER 1996",
+        "secondary_name": "アクアノートの休日　－ＭＥＭＯＲＩＥＳ　ＯＦ　ＳＵＭＭＥＲ　１９９６－",
         "group_name": "Aquanaut no Kyuujitsu - Memories of Summer 1996",
         "status": "Green",
         "disc_type": "CD",
@@ -92020,7 +92020,7 @@
         "group_name": "Mahjong Yarou ze!",
         "status": "Green",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Original"
     },
@@ -92648,9 +92648,9 @@
     "Cinema Eikaiwa Series Dai-1-dan - Tengoku ni Ikenai Papa (Japan) (Disc 1) (Joukan)": {
         "secondary_name": "シネマ英会話　「天国に行けないパパ」",
         "group_name": "Cinema Eikaiwa Series Dai-1-dan - Tengoku ni Ikenai Papa",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Original, Saihatsubai"
     },
@@ -92826,7 +92826,7 @@
         "edition": "Platinum"
     },
     "Touge Max G (Japan) (Demo)": {
-        "secondary_name": "峠ＭＡＸ　Ｇ",
+        "secondary_name": "峠ＭＡＸ Ｇ",
         "group_name": "Touge Max G",
         "status": "Blue",
         "disc_type": "CD",
@@ -92882,9 +92882,9 @@
     "Suikoden - Tendou Hyaku Hachi-sei (Japan)": {
         "secondary_name": "水滸伝　～天導一〇八星～",
         "group_name": "Suikoden - Tendou Hyaku Hachi-sei",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Original, Koei the Best"
     },
@@ -92979,9 +92979,9 @@
         "edition": "Major Wave"
     },
     "Tetsudou-ou 2 - Sekai Seifuku no Yabou!! (Japan)": {
-        "secondary_name": "鉄道王２　世界征服の野望！！",
+        "secondary_name": "鉄道王２　～世界征服の野望！！～",
         "group_name": "Tetsudou-ou 2 - Sekai Seifuku no Yabou!!",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -93116,7 +93116,7 @@
     "NFL Xtreme (USA)": {
         "secondary_name": "",
         "group_name": "NFL Xtreme",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -93179,7 +93179,7 @@
     "Doom (USA)": {
         "secondary_name": "",
         "group_name": "Doom",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -93312,9 +93312,9 @@
         "edition": "Soft Tanpinban"
     },
     "Aquanaut no Kyuujitsu - Memories of Summer 1996 (Japan) (Artdink Best Choice)": {
-        "secondary_name": "アクアノートの休日 MEMORIES OF SUMMER 1996",
+        "secondary_name": "アクアノートの休日　－ＭＥＭＯＲＩＥＳ　ＯＦ　ＳＵＭＭＥＲ　１９９６－",
         "group_name": "Aquanaut no Kyuujitsu - Memories of Summer 1996",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -93447,7 +93447,7 @@
         "edition": "Original"
     },
     "Zeus II - Carnage Heart (Japan)": {
-        "secondary_name": "ゼウスＩＩ　カルネージハート",
+        "secondary_name": "ゼウスⅡ　～カルネージハート～",
         "group_name": "Zeus II - Carnage Heart",
         "status": "Blue",
         "disc_type": "CD",
@@ -93481,5 +93481,194 @@
         "languages": "En, Ja",
         "version": "",
         "edition": "Taikenban"
+    },
+    "Game Guru 6 (Russia) (En,Ru) (Unl)": {
+        "secondary_name": "",
+        "group_name": "Game Guru 6",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En, Ru",
+        "version": "",
+        "edition": "Unlicensed"
+    },
+    "Simulation RPG Tkool (Japan) (Enterbrain Collection)": {
+        "secondary_name": "シミュレーションＲＰＧツクール",
+        "group_name": "Simulation RPG Tkool",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Enterbrain Collection"
+    },
+    "Matsukata Hiroki no World Fishing (Japan)": {
+        "secondary_name": "松方弘樹のワールドフィッシング",
+        "group_name": "Matsukata Hiroki no World Fishing",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Breaker Pro Version 1.1 (Europe) (Unl)": {
+        "secondary_name": "",
+        "group_name": "Breaker Pro Version 1.1",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Unlicensed"
+    },
+    "Tetsudou-ou '96 - Iku ze Okuman Chouja!! (Japan) (Rev 1)": {
+        "secondary_name": "鉄道王’９６　～いくぜ億万長者！！～",
+        "group_name": "Tetsudou-ou '96 - Iku ze Okuman Chouja!!",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "Rev 1",
+        "edition": "Original"
+    },
+    "Nihon Pro Golf Kyoukai Kanshuu - Double Eagle (Japan) (Demo)": {
+        "secondary_name": "日本プロゴルフ協会監修　～ダブルイーグル～",
+        "group_name": "Nihon Pro Golf Kyoukai Kanshuu - Double Eagle",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Taikenban"
+    },
+    "Spyro x Sparx - Tondemo Tours (Japan) (Demo)": {
+        "secondary_name": "スパイロｘスパークス　～トンでもツアーズ～",
+        "group_name": "Spyro x Sparx - Tondemo Tours",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Taikenban"
+    },
+    "Exciting Pro Wres 2 (Japan) (Demo)": {
+        "secondary_name": "エキサイティングプロレス２",
+        "group_name": "Exciting Pro Wres 2",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Taikenban"
+    },
+    "Psychic Force (Japan) (Demo)": {
+        "secondary_name": "サイキック・フォース",
+        "group_name": "Psychic Force",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Tentou Demo-ban"
+    },
+    "Motor Toon Grand Prix 2 (Europe) (EDC)": {
+        "secondary_name": "",
+        "group_name": "Motor Toon Grand Prix 2",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "EDC",
+        "edition": "2 Games"
+    },
+    "Tenkuu no Restaurant (Japan) (Rev 1)": {
+        "secondary_name": "天空のレストラン",
+        "group_name": "Tenkuu no Restaurant",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "Rev 1",
+        "edition": "PSone Books"
+    },
+    "Hyper PlayStation Re-mix 1999 No. 3 (Japan)": {
+        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ．　３",
+        "group_name": "Hyper PlayStation Re-mix 1999 No. 3",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Bundled with Magazine"
+    },
+    "Hyper PlayStation Re-mix 1999 No. 7 (Japan)": {
+        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ．　７",
+        "group_name": "Hyper PlayStation Re-mix 1999 No. 7",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Bundled with Magazine"
+    },
+    "Tenkuu no Restaurant (Japan)": {
+        "secondary_name": "天空のレストラン",
+        "group_name": "Tenkuu no Restaurant",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Mahjong Senjutsu - Andou Mitsuru Pro no Akuukan Sappou (Japan)": {
+        "secondary_name": "～麻雀戦術～　安藤満プロの亜空間殺法",
+        "group_name": "Mahjong Senjutsu - Andou Mitsuru Pro no Akuukan Sappou",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Planet PSX Volume 2 (Germany) (Unl)": {
+        "secondary_name": "Planet PSX Cheats Volume 2",
+        "group_name": "Planet PSX Volume 2",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Unlicensed"
+    },
+    "Planet PSX Volume 3 (Germany) (Unl)": {
+        "secondary_name": "Planet PSX Cheats Volume 3",
+        "group_name": "Planet PSX Volume 3",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Unlicensed"
+    },
+    "Disney's Atlantis - The Lost Empire (Australia) (Demo)": {
+        "secondary_name": "",
+        "group_name": "Disney's Atlantis - The Lost Empire",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Demo"
+    },
+    "Front Mission 1st (Japan) (Front Mission History)": {
+        "secondary_name": "フロントミッション　ザ・ファースト",
+        "group_name": "Front Mission 1st",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Front Mission History"
+    },
+    "Command & Conquer (Europe) (Demo)": {
+        "secondary_name": "",
+        "group_name": "Command & Conquer",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Demo"
+    },
+    "Sound Qube (Japan) (Best of the Best)": {
+        "secondary_name": "サウンド・キューブ",
+        "group_name": "Sound Qube",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Best of the Best"
     }
 }

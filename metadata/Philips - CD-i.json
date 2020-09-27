@@ -44,7 +44,7 @@
         "version": "1.05",
         "edition": "Original"
     },
-    "Golden Oldies Jukebox (USA)": {
+    "Golden Oldies Jukebox (USA) (19910917)": {
         "secondary_name": "",
         "group_name": "Golden Oldies Jukebox",
         "status": "Blue",
@@ -96,7 +96,7 @@
         "disc_type": "CD",
         "languages": "En",
         "version": "",
-        "edition": "Original"
+        "edition": "Original, Demonstration Disc"
     },
     "Flashback (Europe)": {
         "secondary_name": "",
@@ -258,7 +258,7 @@
         "disc_type": "CD",
         "languages": "En",
         "version": "",
-        "edition": "Original"
+        "edition": "Original, Demonstration Disc"
     },
     "Portrait of a City - Venice (Europe)": {
         "secondary_name": "",
@@ -407,11 +407,11 @@
     "Mercer Mayer's Little Monster at School (USA)": {
         "secondary_name": "",
         "group_name": "Mercer Mayer's Little Monster at School",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
-        "edition": "Original"
+        "edition": "Original, Demonstration Disc"
     },
     "Dictionnaire Hachette Multimedia (France)": {
         "secondary_name": "",
@@ -537,7 +537,7 @@
         "disc_type": "CD",
         "languages": "En, Fr",
         "version": "",
-        "edition": "Original, Demonstration Disc"
+        "edition": "Original, For Demonstration Only"
     },
     "Lost Eden (France)": {
         "secondary_name": "",
@@ -659,11 +659,11 @@
     "Compton's Interactive Encyclopedia (USA)": {
         "secondary_name": "",
         "group_name": "Compton's Interactive Encyclopedia",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
-        "edition": "Original"
+        "edition": "Original, Demonstration Disc"
     },
     "Xplora 1 - Peter Gabriel's Secret World (Europe)": {
         "secondary_name": "",
@@ -701,14 +701,14 @@
         "version": "1.06",
         "edition": "Original"
     },
-    "Visit to Sesame Street, A - Letters (USA)": {
+    "Visit to Sesame Street, A - Letters (USA) (19920225)": {
         "secondary_name": "",
         "group_name": "Visit to Sesame Street, A - Letters",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
-        "edition": "Original"
+        "edition": "Original, Demonstration Disc"
     },
     "Philips Media Interactieve Encyclopedie (Netherlands) (Demo)": {
         "secondary_name": "",
@@ -744,7 +744,7 @@
         "disc_type": "CD",
         "languages": "En",
         "version": "",
-        "edition": "Original"
+        "edition": "Original, Demonstration Disc"
     },
     "Ville Surprise de Richard Scarry 1, La (France)": {
         "secondary_name": "",
@@ -830,11 +830,11 @@
     "Cartoon Jukebox (USA)": {
         "secondary_name": "",
         "group_name": "Cartoon Jukebox",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
-        "edition": "Original"
+        "edition": "Original, Demonstration Disc"
     },
     "Othello (Europe)": {
         "secondary_name": "",
@@ -1223,9 +1223,9 @@
         "version": "",
         "edition": "Demonstration Disc"
     },
-    "Axis & Allies (USA)": {
+    "Axis and Allies (USA)": {
         "secondary_name": "",
-        "group_name": "Axis & Allies",
+        "group_name": "Axis and Allies",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "En",
@@ -1811,7 +1811,7 @@
     "Video Speedway - The Ultimate Racing Experience (USA)": {
         "secondary_name": "",
         "group_name": "Video Speedway - The Ultimate Racing Experience",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -1997,9 +1997,9 @@
         "version": "1.12",
         "edition": "Original"
     },
-    "Harvest Of The Sun - Van Gogh - Une Moisson de Soleils (France)": {
+    "Harvest of the Sun - Van Gogh - Une Moisson de Soleils (France)": {
         "secondary_name": "",
-        "group_name": "Harvest Of The Sun - Van Gogh - Une Moisson de Soleils",
+        "group_name": "Harvest of the Sun - Van Gogh - Une Moisson de Soleils",
         "status": "Green",
         "disc_type": "CD",
         "languages": "Fr",
@@ -2051,9 +2051,9 @@
         "version": "",
         "edition": "Original"
     },
-    "Atlantis - The Lost Resort (Europe)": {
+    "Atlantis - The Last Resort (Europe)": {
         "secondary_name": "",
-        "group_name": "Atlantis - The Lost Resort",
+        "group_name": "Atlantis - The Last Resort",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "En",
@@ -2087,14 +2087,14 @@
         "version": "1.16",
         "edition": "Original"
     },
-    "Zombie Dinos from Planet Zeltoid (Europe)": {
+    "Zombie Dinos from Planet Zeltoid (USA, Europe)": {
         "secondary_name": "",
         "group_name": "Zombie Dinos from Planet Zeltoid",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
-        "edition": "Original"
+        "edition": "Original, Demonstration Disc"
     },
     "Connect Four (USA)": {
         "secondary_name": "",
@@ -2149,5 +2149,149 @@
         "languages": "",
         "version": "",
         "edition": "Unlicensed"
+    },
+    "Flashback (Europe) (Proto)": {
+        "secondary_name": "",
+        "group_name": "Flashback",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "1.01",
+        "edition": "Prototype"
+    },
+    "Monty Python's Invasion from the Planet Skyron (Europe) (Proto)": {
+        "secondary_name": "",
+        "group_name": "Monty Python's Invasion from the Planet Skyron",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "1.01",
+        "edition": "Prototype"
+    },
+    "Mega Maze (Europe) (Proto)": {
+        "secondary_name": "",
+        "group_name": "Mega Maze",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "1.02",
+        "edition": "Prototype"
+    },
+    "Visit to Sesame Street, A - Letters (USA) (19910913)": {
+        "secondary_name": "",
+        "group_name": "Visit to Sesame Street, A - Letters",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Demonstration Disc"
+    },
+    "Visit to Sesame Street, A - Numbers (USA)": {
+        "secondary_name": "",
+        "group_name": "Visit to Sesame Street, A - Numbers",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Demonstration Disc"
+    },
+    "Classical Jukebox (USA)": {
+        "secondary_name": "",
+        "group_name": "Classical Jukebox",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Demonstration Disc"
+    },
+    "Power Hitter (USA)": {
+        "secondary_name": "",
+        "group_name": "Power Hitter",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Demonstration Disc"
+    },
+    "Harvest of the Sun - Van Gogh (USA)": {
+        "secondary_name": "",
+        "group_name": "Harvest of the Sun - Van Gogh",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Demonstration Disc"
+    },
+    "Golden Oldies Jukebox (USA) (19910827)": {
+        "secondary_name": "",
+        "group_name": "Golden Oldies Jukebox",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Demonstration Disc"
+    },
+    "Sandy's Circus Adventure (USA)": {
+        "secondary_name": "",
+        "group_name": "Sandy's Circus Adventure",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Demonstration Disc"
+    },
+    "Renaissance of Florence, The (USA)": {
+        "secondary_name": "",
+        "group_name": "Renaissance of Florence, The",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Demonstration Disc"
+    },
+    "Time Life Presents - 35mm Photography (USA)": {
+        "secondary_name": "",
+        "group_name": "Time Life Presents - 35mm Photography",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Demonstration Disc"
+    },
+    "Time Life Presents - 35mm Photography (USA) (Alt)": {
+        "secondary_name": "",
+        "group_name": "Time Life Presents - 35mm Photography",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Demonstration Disc"
+    },
+    "Interactive Math - Decimals (USA) (En,Es)": {
+        "secondary_name": "",
+        "group_name": "Interactive Math - Decimals",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En, Es",
+        "version": "",
+        "edition": "Original"
+    },
+    "Interactive Math - Percentages (USA) (En,Es)": {
+        "secondary_name": "",
+        "group_name": "Interactive Math - Percentages",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En, Es",
+        "version": "",
+        "edition": "Original"
+    },
+    "Interactive Math - Whole Numbers (USA) (En,Es)": {
+        "secondary_name": "",
+        "group_name": "Interactive Math - Whole Numbers",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En, Es",
+        "version": "",
+        "edition": "Original"
     }
 }

@@ -3,7 +3,7 @@
 		"name": [
 			"Sega - Saturn"
 		],
-		"last updated": "26 July 2020"
+		"last updated": "19 September 2020"
 	},
 
 	"compilations": [
@@ -153,9 +153,6 @@
 		"Ginga Eiyuu Densetsu": [
 			["Ginga Eiyuu Densetsu Plus", -1]
 		],
-		"Gremlin Demo Disc": [
-			["Gremlin Demo Disk", 1]
-		],
 		"Grid Runner": [
 			["Grid Run", 1]
 		],
@@ -197,8 +194,8 @@
 		"Iron Storm": [
 			["World Advanced Daisenryaku - Koutetsu no Senpuu", 1]
 		],
-		"J. League Victory Goal '96": [
-			["J. League Victory Goal '97", 1]
+		"J.League Victory Goal '96": [
+			["J.League Victory Goal '97", 1]
 		],
 		"Jewels of the Oracle": [
 			["Oracle no Houseki - Jewels of the Oracle", 1]

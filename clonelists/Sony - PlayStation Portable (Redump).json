@@ -3,7 +3,7 @@
 		"name": [
 			"Sony - PlayStation Portable (Redump)"
 		],
-		"last updated": "30 August 2020"
+		"last updated": "13 September 2020"
 	},
 
 	"compilations": [
@@ -82,10 +82,10 @@
 			["Dead or Alive - Paradise (ULES-01431)", 1],
 			["Dead or Alive - Paradise (ULES-01416)", 2]
 		],
-		"Demo Disc for PSP Vol. 1": [
-			["Demo Disc for PSP Vol. 1 (UCJB-98302)", 1],
-			["Demo Disc for PSP Vol. 1 (UCJB-98303)", 1],
-			["Demo Disc for PSP Vol. 1 (UCJB-98306)", 1]
+		"Demo Disc for PSP Vol. 1 (Demo)": [
+			["Demo Disc for PSP Vol. 1 (UCJB-98302) (Demo)", 1],
+			["Demo Disc for PSP Vol. 1 (UCJB-98303) (Demo)", 1],
+			["Demo Disc for PSP Vol. 1 (UCJB-98306) (Demo)", 1]
 		],
 		"Despicable Me - The Game": [
 			["Despicable Me", 1]
@@ -303,9 +303,6 @@
 		"Naruto Shippuden - Ultimate Ninja Impact": [
 			["Naruto - Narutimate Impact", 1]
 		],
-		"Network Utility Disc - Chinese Ver. 1.00C": [
-			["Network Utility Disc Ver. 1.00", 1]
-		],
 		"Nickelodeon Avatar - The Last Airbender": [
 			["Nickelodeon Avatar - The Legend of Aang", 1]
 		],
@@ -419,9 +416,11 @@
 		"Split-Second": [
 			["Split-Second - Velocity", 1]
 		],
-		"Stealth + WipEout Pure": [
-			["Furtif + WipEout Pure", 1],
-			["Stealth feat. WipEout Pure Stealth Edition", 1]
+		"Stealth feat. WipEout Pure Stealth Edition (Demo)": [
+			["Furtif + WipEout Pure (Demo)", 1]
+		],
+		"Street Fighter Alpha 3 Max": [
+			["Street Fighter Zero 3 Double Upper", 1]
 		],
 		"Tactics Ogre - Let Us Cling Together": [
 			["Tactics Ogre - Unmei no Wa", 1]

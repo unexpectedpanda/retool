@@ -236,7 +236,7 @@
     "Gensou Suikoden (Japan)": {
         "secondary_name": "幻想水滸伝",
         "group_name": "Gensou Suikoden",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.006",
@@ -814,7 +814,7 @@
         "group_name": "Sonic R",
         "status": "Green",
         "disc_type": "CD",
-        "languages": "Ja",
+        "languages": "En",
         "version": "1.001",
         "edition": "Taikenban (Otanoshimi 3Shiro! Disc)"
     },
@@ -983,7 +983,7 @@
     "Soukyuu Gurentai - Otokuyou (Japan)": {
         "secondary_name": "蒼穹紅蓮隊　御徳用",
         "group_name": "Soukyuu Gurentai - Otokuyou",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.000",
@@ -1019,7 +1019,7 @@
     "Assault Rigs (Japan)": {
         "secondary_name": "アサルト・リグス",
         "group_name": "Assault Rigs",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "1.000",
@@ -1208,7 +1208,7 @@
     "Hyper 3D Pinball (Japan)": {
         "secondary_name": "ハイパー３Ｄピンボール",
         "group_name": "Hyper 3D Pinball",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "1.000",
@@ -1496,7 +1496,7 @@
     "Johnny Bazookatone (USA)": {
         "secondary_name": "",
         "group_name": "Johnny Bazookatone",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "",
         "version": "1.000",
@@ -1532,7 +1532,7 @@
     "Last Bronx (Europe)": {
         "secondary_name": "",
         "group_name": "Last Bronx",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "1.001",
@@ -1568,7 +1568,7 @@
     "Crimewave (Japan)": {
         "secondary_name": "クライムウェーブ",
         "group_name": "Crimewave",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.003",
@@ -2171,7 +2171,7 @@
     "Cube Battler - Story of Anna (Japan)": {
         "secondary_name": "キューブ・バトラー　～アンナ未来編～",
         "group_name": "Cube Battler - Story of Anna",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.001",
@@ -2240,9 +2240,9 @@
         "version": "1.000",
         "edition": "Bundled with Sega Saturn (3 Free Games Pack)"
     },
-    "J. League Pro Soccer Club o Tsukurou! 2 (Japan) (Rev D) (41M)": {
+    "J.League Pro Soccer Club o Tsukurou! 2 (Japan) (Rev D) (41M)": {
         "secondary_name": "Ｊリーグ・プロ・サッカー・クラブ　をつくろう！２",
-        "group_name": "J. League Pro Soccer Club o Tsukurou! 2",
+        "group_name": "J.League Pro Soccer Club o Tsukurou! 2",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "Ja",
@@ -2258,9 +2258,9 @@
         "version": "1.000",
         "edition": "Prototype"
     },
-    "J. League Pro Soccer Club o Tsukurou! (Japan) (Rev A)": {
+    "J.League Pro Soccer Club o Tsukurou! (Japan) (Rev A)": {
         "secondary_name": "Ｊリーグ・プロ・サッカー・クラブ　をつくろう！",
-        "group_name": "J. League Pro Soccer Club o Tsukurou!",
+        "group_name": "J.League Pro Soccer Club o Tsukurou!",
         "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
@@ -2297,7 +2297,7 @@
     "Arcade's Greatest Hits (USA)": {
         "secondary_name": "Midway Presents Arcade's Greatest Hits",
         "group_name": "Arcade's Greatest Hits",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "",
         "version": "1.000",
@@ -2321,9 +2321,9 @@
         "version": "3.900",
         "edition": "Original"
     },
-    "J. League Jikkyou Honoo no Striker (Japan) (2M)": {
+    "J.League Jikkyou Honoo no Striker (Japan) (2M)": {
         "secondary_name": "Ｊリーグ　実況　炎のストライカー",
-        "group_name": "J. League Jikkyou Honoo no Striker",
+        "group_name": "J.League Jikkyou Honoo no Striker",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "Ja",
@@ -2684,7 +2684,7 @@
     "Maximum Force (USA)": {
         "secondary_name": "",
         "group_name": "Maximum Force",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "1.000",
@@ -3491,10 +3491,10 @@
         "version": "1.01",
         "edition": "Original"
     },
-    "Kisuishou Densetsu Astal (Japan) (4M)": {
+    "Kisuishou Densetsu Astal (Japan) (1M, 4M)": {
         "secondary_name": "輝水晶伝説アスタル",
         "group_name": "Kisuishou Densetsu Astal",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.006",
@@ -3782,7 +3782,7 @@
     "Lost World, The - Jurassic Park (Japan)": {
         "secondary_name": "ロスト・ワールド　～ジュラシック・パーク～",
         "group_name": "Lost World, The - Jurassic Park",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "1.002",
@@ -4160,7 +4160,7 @@
     "WWF WrestleMania - The Arcade Game (USA)": {
         "secondary_name": "",
         "group_name": "WWF WrestleMania - The Arcade Game",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "",
         "version": "1.001",
@@ -5127,7 +5127,7 @@
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.400",
-        "edition": "Original"
+        "edition": "Original, Fukkokuban"
     },
     "Magical Drop (Japan)": {
         "secondary_name": "マジカル・ドロップ",
@@ -5357,7 +5357,7 @@
     "Sea Bass Fishing (Europe) (En,Fr,De)": {
         "secondary_name": "",
         "group_name": "Sea Bass Fishing",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En, Fr, De",
         "version": "1.002",
@@ -5411,7 +5411,7 @@
     "Vatlva (Japan) (Demo)": {
         "secondary_name": "バトルバ",
         "group_name": "Vatlva",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "0.610",
@@ -5543,9 +5543,9 @@
         "version": "1.000",
         "edition": "Original"
     },
-    "J. League Victory Goal '97 (Japan)": {
-        "secondary_name": "Ｊリーグ・ビクトリー・ゴール'９７",
-        "group_name": "J. League Victory Goal '97",
+    "J.League Victory Goal '97 (Japan)": {
+        "secondary_name": "Ｊリーグ・ビクトリー・ゴール’９７",
+        "group_name": "J.League Victory Goal '97",
         "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
@@ -5555,7 +5555,7 @@
     "Shoujo Kakumei Utena - Itsuka Kakumei Sareru Monogatari (Japan) (Disc 1)": {
         "secondary_name": "少女革命ウテナ　～いつか革命される物語～",
         "group_name": "Shoujo Kakumei Utena - Itsuka Kakumei Sareru Monogatari",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.001",
@@ -5606,9 +5606,9 @@
         "version": "1.000",
         "edition": "Original"
     },
-    "J. League Pro Soccer Club o Tsukurou! (Japan) (Rev B)": {
+    "J.League Pro Soccer Club o Tsukurou! (Japan) (Rev B)": {
         "secondary_name": "Ｊリーグ・プロ・サッカー・クラブ　をつくろう！",
-        "group_name": "J. League Pro Soccer Club o Tsukurou!",
+        "group_name": "J.League Pro Soccer Club o Tsukurou!",
         "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
@@ -5714,9 +5714,9 @@
         "version": "2.000",
         "edition": "Roommate Complete Box"
     },
-    "J. League Go Go Goal! (Japan)": {
+    "J.League Go Go Goal! (Japan)": {
         "secondary_name": "Ｊリーグ　ゴー・ゴー・ゴール！",
-        "group_name": "J. League Go Go Goal!",
+        "group_name": "J.League Go Go Goal!",
         "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
@@ -5726,7 +5726,7 @@
     "Thunder Force Gold Pack 2 (Japan) (Rev A)": {
         "secondary_name": "サンダー・フォース・ゴールド・パック２",
         "group_name": "Thunder Force Gold Pack 2",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "1.003",
@@ -6146,9 +6146,9 @@
         "version": "1.002",
         "edition": "Original"
     },
-    "J. League Pro Soccer Club o Tsukurou! 2 (Japan) (1M)": {
+    "J.League Pro Soccer Club o Tsukurou! 2 (Japan) (1M)": {
         "secondary_name": "Ｊリーグ・プロ・サッカー・クラブ　をつくろう！２",
-        "group_name": "J. League Pro Soccer Club o Tsukurou! 2",
+        "group_name": "J.League Pro Soccer Club o Tsukurou! 2",
         "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
@@ -6158,7 +6158,7 @@
     "Shining Force III (USA)": {
         "secondary_name": "",
         "group_name": "Shining Force III",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "1.001",
@@ -6257,11 +6257,11 @@
     "Enemy Zero (Japan) (Disc 1) (Game Disc) (2M)": {
         "secondary_name": "エネミー・ゼロ",
         "group_name": "Enemy Zero",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.000",
-        "edition": ""
+        "edition": "Original"
     },
     "Saturn Bomberman (Japan)": {
         "secondary_name": "サターン・ボンバーマン",
@@ -6707,7 +6707,7 @@
     "Suiko Enbu - Fuuun Saiki (Japan)": {
         "secondary_name": "水滸演舞　～風雲再起～",
         "group_name": "Suiko Enbu - Fuuun Saiki",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.002",
@@ -7031,7 +7031,7 @@
     "Motteke Tamago with Ganbare! Kamonohashi (Japan)": {
         "secondary_name": "もってけたまご　ｗｉｔｈ　がんばれ！かものはし",
         "group_name": "Motteke Tamago with Ganbare! Kamonohashi",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.003",
@@ -7110,7 +7110,7 @@
         "edition": "Hibaihin"
     },
     "Sakura Taisen - Teigeki Graph - Teigeki Graph in Sakura Wars (Japan) (Disc 2)": {
-        "secondary_name": "サクラ大戦　帝撃グラフ",
+        "secondary_name": "サクラ大戦　～帝撃グラフ～",
         "group_name": "Sakura Taisen - Teigeki Graph - Teigeki Graph in Sakura Wars",
         "status": "Green",
         "disc_type": "CD",
@@ -7352,10 +7352,10 @@
         "version": "1.000",
         "edition": "Original"
     },
-    "Virtua Cop (Japan) (1M)": {
+    "Virtua Cop (Japan) (1M, 5M)": {
         "secondary_name": "バーチャ・コップ",
         "group_name": "Virtua Cop",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.000",
@@ -7436,7 +7436,7 @@
     "Spot Goes to Hollywood (Japan)": {
         "secondary_name": "スポット・ゴーズ・トゥー・ハリウッド",
         "group_name": "Spot Goes to Hollywood",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.000",
@@ -7487,9 +7487,9 @@
         "version": "1.005",
         "edition": "Original, Shin Package"
     },
-    "J. League Pro Soccer Club o Tsukurou! (Japan)": {
+    "J.League Pro Soccer Club o Tsukurou! (Japan)": {
         "secondary_name": "Ｊリーグ・プロ・サッカー・クラブ　をつくろう！",
-        "group_name": "J. League Pro Soccer Club o Tsukurou!",
+        "group_name": "J.League Pro Soccer Club o Tsukurou!",
         "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
@@ -7499,7 +7499,7 @@
     "Clockwork Knight - Pepperouchau no Fukubukuro (Japan)": {
         "secondary_name": "クロックワーク・ナイト　～ペパルーチョの福袋～",
         "group_name": "Clockwork Knight - Pepperouchau no Fukubukuro",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.000",
@@ -8057,7 +8057,7 @@
     "Aquazone - Desktop Life Option Disc Series 1 - Angel Fish (Japan) (Rev A)": {
         "secondary_name": "アクアゾーン・オプション・ディスク・シリーズ１　～エンゼル・フィッシュ～",
         "group_name": "Aquazone - Desktop Life Option Disc Series 1 - Angel Fish",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "2.000",
@@ -8201,7 +8201,7 @@
     "Street Fighter Collection (USA) (Disc 1)": {
         "secondary_name": "",
         "group_name": "Street Fighter Collection",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "1.000",
@@ -8399,7 +8399,7 @@
     "Shining the Holy Ark (Japan) (3M)": {
         "secondary_name": "シャイニング・ザ・ホーリィアーク",
         "group_name": "Shining the Holy Ark",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.005",
@@ -9162,7 +9162,7 @@
         "edition": "Original"
     },
     "Sakura Taisen - Hanagumi Taisen Columns (Japan) (1M)": {
-        "secondary_name": "サクラ大戦　花組対戦コラムス",
+        "secondary_name": "サクラ大戦　～花組対戦コラムス～",
         "group_name": "Sakura Taisen - Hanagumi Taisen Columns",
         "status": "Green",
         "disc_type": "CD",
@@ -9353,7 +9353,7 @@
     "Croc! Pau-Pau Island (Japan)": {
         "secondary_name": "クロック！　～パウパウ・アイランド～",
         "group_name": "Croc! Pau-Pau Island",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.002",
@@ -9569,7 +9569,7 @@
     "Linda^3 Kanzenban (Japan)": {
         "secondary_name": "リンダキューブ　完全版",
         "group_name": "Linda^3 Kanzenban",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.002",
@@ -10190,7 +10190,7 @@
     "Garou Densetsu 3 - Road to the Final Victory (Japan)": {
         "secondary_name": "餓狼伝説３　～遥かなる闘い～",
         "group_name": "Garou Densetsu 3 - Road to the Final Victory",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.000",
@@ -10289,7 +10289,7 @@
     "Eiyuu Shigan - Gal Act Heroism (Japan)": {
         "secondary_name": "英雄志願　－Ｇａｌ　Ａｃｔ　Ｈｅｒｏｉｓｍ－",
         "group_name": "Eiyuu Shigan - Gal Act Heroism",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.001",
@@ -10448,9 +10448,9 @@
         "version": "1.000",
         "edition": "Bundled with Magazine"
     },
-    "J. League Pro Soccer Club o Tsukurou! 2 (Japan) (4M)": {
+    "J.League Pro Soccer Club o Tsukurou! 2 (Japan) (4M)": {
         "secondary_name": "Ｊリーグ・プロ・サッカー・クラブ　をつくろう！２",
-        "group_name": "J. League Pro Soccer Club o Tsukurou! 2",
+        "group_name": "J.League Pro Soccer Club o Tsukurou! 2",
         "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
@@ -10772,9 +10772,9 @@
         "version": "1.003",
         "edition": "Original"
     },
-    "J. League Victory Goal '96 (Japan) (1M, 3M)": {
-        "secondary_name": "Ｊリーグ・ビクトリー・ゴール'９６",
-        "group_name": "J. League Victory Goal '96",
+    "J.League Victory Goal '96 (Japan) (1M, 3M)": {
+        "secondary_name": "Ｊリーグ・ビクトリー・ゴール’９６",
+        "group_name": "J.League Victory Goal '96",
         "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
@@ -10856,11 +10856,11 @@
     "Albert Odyssey Gaiden - Legend of Eldean (Japan) (2M)": {
         "secondary_name": "アルバート・オデッセイ　外伝　～レジェンド・オブ・エルディーン～",
         "group_name": "Albert Odyssey Gaiden - Legend of Eldean",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.003",
-        "edition": "Original"
+        "edition": "Original, Genteiban"
     },
     "Elf o Karu Monotachi II (Japan) (Disc 2) (Omake Disc)": {
         "secondary_name": "エルフを狩るモノたちⅡ",
@@ -11441,7 +11441,7 @@
     "Hyper Reverthion (Japan) (2M)": {
         "secondary_name": "ハイパー・リヴァーシオン",
         "group_name": "Hyper Reverthion",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.002",
@@ -11576,7 +11576,7 @@
     "Street Fighter Collection (USA) (Disc 2)": {
         "secondary_name": "",
         "group_name": "Street Fighter Collection",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "1.000",
@@ -11855,7 +11855,7 @@
     "Bomberman Wars (Japan)": {
         "secondary_name": "ボンバーマンウ・ォーズ",
         "group_name": "Bomberman Wars",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.000",
@@ -11864,7 +11864,7 @@
     "Planet Joker (Japan)": {
         "secondary_name": "プラネット・ジョーカー",
         "group_name": "Planet Joker",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.000",
@@ -12206,7 +12206,7 @@
     "Custom Web Browser (Version 2) (USA)": {
         "secondary_name": "",
         "group_name": "Custom Web Browser",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "1.011",
@@ -12719,7 +12719,7 @@
     "Layer Section (Japan) (3M)": {
         "secondary_name": "レイヤー・セクション",
         "group_name": "Layer Section",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.001",
@@ -12806,9 +12806,9 @@
         "version": "1.000",
         "edition": "Original"
     },
-    "J. League Pro Soccer Club o Tsukurou! 2 (Japan) (Rev C) (32M)": {
+    "J.League Pro Soccer Club o Tsukurou! 2 (Japan) (Rev C) (32M)": {
         "secondary_name": "Ｊリーグ・プロ・サッカー・クラブ　をつくろう！２",
-        "group_name": "J. League Pro Soccer Club o Tsukurou! 2",
+        "group_name": "J.League Pro Soccer Club o Tsukurou! 2",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "Ja",
@@ -13115,7 +13115,7 @@
     "Yoshiyuki Sadamoto Illustrations (Japan)": {
         "secondary_name": "貞本義行イラストレーションズ",
         "group_name": "Yoshiyuki Sadamoto Illustrations",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.001",
@@ -13250,7 +13250,7 @@
     "Battle Stations (USA)": {
         "secondary_name": "",
         "group_name": "Battle Stations",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "",
         "version": "1.000",
@@ -13313,7 +13313,7 @@
     "Shadows of the Tusk (Japan)": {
         "secondary_name": "シャドウズ・オブ・ザ・タスク",
         "group_name": "Shadows of the Tusk",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.001",
@@ -13376,7 +13376,7 @@
     "Segata Sanshirou - Shinken Yuugi (Japan)": {
         "secondary_name": "せがた　三四郎　～真剣遊戯～",
         "group_name": "Segata Sanshirou - Shinken Yuugi",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.001",
@@ -13502,7 +13502,7 @@
     "Wing Arms (USA)": {
         "secondary_name": "",
         "group_name": "Wing Arms",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "1.001",
@@ -13565,7 +13565,7 @@
     "Dungeon Master Nexus (Japan)": {
         "secondary_name": "ダンジョン・マスター　ネクサス",
         "group_name": "Dungeon Master Nexus",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.003",
@@ -13923,7 +13923,7 @@
         "edition": "Bundled with Magazine"
     },
     "Sakura Taisen - Teigeki Graph - Teigeki Graph in Sakura Wars (Japan) (Disc 1)": {
-        "secondary_name": "サクラ大戦　帝撃グラフ",
+        "secondary_name": "サクラ大戦　～帝撃グラフ～",
         "group_name": "Sakura Taisen - Teigeki Graph - Teigeki Graph in Sakura Wars",
         "status": "Green",
         "disc_type": "CD",
@@ -14078,7 +14078,7 @@
     "Last Bronx (USA)": {
         "secondary_name": "",
         "group_name": "Last Bronx",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "1.003",
@@ -14330,7 +14330,7 @@
     "Shoujo Kakumei Utena - Itsuka Kakumei Sareru Monogatari (Japan) (Disc 2)": {
         "secondary_name": "少女革命ウテナ　～いつか革命される物語～",
         "group_name": "Shoujo Kakumei Utena - Itsuka Kakumei Sareru Monogatari",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.001",
@@ -14663,7 +14663,7 @@
     "Street Fighter Collection (Japan) (Demo)": {
         "secondary_name": "ストリート・ファイター・コレクション",
         "group_name": "Street Fighter Collection",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.000",
@@ -14714,9 +14714,9 @@
         "version": "1.003",
         "edition": "Red Case, Blue Case"
     },
-    "J. League Victory Goal '96 (Japan) (2M)": {
-        "secondary_name": "Ｊリーグ・ビクトリー・ゴール'９６",
-        "group_name": "J. League Victory Goal '96",
+    "J.League Victory Goal '96 (Japan) (2M)": {
+        "secondary_name": "Ｊリーグ・ビクトリー・ゴール’９６",
+        "group_name": "J.League Victory Goal '96",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "Ja",
@@ -15023,7 +15023,7 @@
     "Sonic Wings Special (Japan)": {
         "secondary_name": "ソニック・ウィングス・スペシャル",
         "group_name": "Sonic Wings Special",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.001",
@@ -15113,7 +15113,7 @@
     "Ultraman - Hikari no Kyojin Densetsu (Japan)": {
         "secondary_name": "ウルトラマン　～光の巨人伝説～",
         "group_name": "Ultraman - Hikari no Kyojin Densetsu",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.001",
@@ -15839,10 +15839,10 @@
         "version": "1.010",
         "edition": "Original"
     },
-    "Virtua Fighter 2 (Japan) (Rev B) (36C)": {
+    "Virtua Fighter 2 (Japan) (Rev B) (36B, 36C)": {
         "secondary_name": "バーチャ・ファイター２",
         "group_name": "Virtua Fighter 2",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.001",
@@ -15887,7 +15887,7 @@
     "World Heroes Perfect (Japan)": {
         "secondary_name": "ワールド・ヒーローズ・パーフェクト",
         "group_name": "World Heroes Perfect",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.003",
@@ -15930,7 +15930,7 @@
         "edition": "Hibaihin"
     },
     "Sakura Taisen - Hanagumi Taisen Columns (Japan) (2M)": {
-        "secondary_name": "サクラ大戦　花組対戦コラムス",
+        "secondary_name": "サクラ大戦　～花組対戦コラムス～",
         "group_name": "Sakura Taisen - Hanagumi Taisen Columns",
         "status": "Blue",
         "disc_type": "CD",
@@ -15968,7 +15968,7 @@
     "Capcom Generation - Dai-1-shuu Gekitsuiou no Jidai (Japan)": {
         "secondary_name": "カプコン・ジェネレーション　～第１集　撃墜王の時代～",
         "group_name": "Capcom Generation - Dai-1-shuu Gekitsuiou no Jidai",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.002",
@@ -16262,9 +16262,9 @@
         "version": "1.000",
         "edition": "Original"
     },
-    "J. League Jikkyou Honoo no Striker (Japan) (1M)": {
+    "J.League Jikkyou Honoo no Striker (Japan) (1M)": {
         "secondary_name": "Ｊリーグ　実況　炎のストライカー",
-        "group_name": "J. League Jikkyou Honoo no Striker",
+        "group_name": "J.League Jikkyou Honoo no Striker",
         "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
@@ -16967,7 +16967,7 @@
     "Sokkou Seitokai - Sonic Council (Japan)": {
         "secondary_name": "速攻生徒会",
         "group_name": "Sokkou Seitokai - Sonic Council",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.003",
@@ -17183,7 +17183,7 @@
     "Galactic Attack (USA)": {
         "secondary_name": "",
         "group_name": "Galactic Attack",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "1.000",
@@ -17552,9 +17552,9 @@
     "Fighting Vipers (USA) (5S)": {
         "secondary_name": "",
         "group_name": "Fighting Vipers",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "En",
         "version": "2.000",
         "edition": "Original"
     },
@@ -17624,7 +17624,7 @@
     "Sword & Sorcery (Japan) (2M)": {
         "secondary_name": "ソード＆ソーサリー",
         "group_name": "Sword & Sorcery",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.220",
@@ -17678,7 +17678,7 @@
     "Death Crimson (Japan)": {
         "secondary_name": "デス・クリムゾン",
         "group_name": "Death Crimson",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.000",
@@ -17894,7 +17894,7 @@
     "Henry Explorers (Japan)": {
         "secondary_name": "ヘンリーエ・クスプローラーズ",
         "group_name": "Henry Explorers",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.003",
@@ -17921,7 +17921,7 @@
     "BlackFire (Japan)": {
         "secondary_name": "ブラックファイアー",
         "group_name": "BlackFire",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.001",
@@ -18152,9 +18152,9 @@
         "version": "1.000",
         "edition": "Mihonban"
     },
-    "J. League Pro Soccer Club o Tsukurou! 2 (Japan) (3M)": {
+    "J.League Pro Soccer Club o Tsukurou! 2 (Japan) (3M)": {
         "secondary_name": "Ｊリーグ・プロ・サッカー・クラブ　をつくろう！２",
-        "group_name": "J. League Pro Soccer Club o Tsukurou! 2",
+        "group_name": "J.League Pro Soccer Club o Tsukurou! 2",
         "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
@@ -18326,7 +18326,7 @@
     "Layer Section (Japan) (Rev A) (11M)": {
         "secondary_name": "レイヤー・セクション",
         "group_name": "Layer Section",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.002",
@@ -18596,7 +18596,7 @@
     "Baku Baku Animal - Sekai Shiiku Gakari Senshuken (Japan)": {
         "secondary_name": "ばくばくアニマル　～世界飼育係選手権～",
         "group_name": "Baku Baku Animal - Sekai Shiiku Gakari Senshuken",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.000",
@@ -18839,7 +18839,7 @@
     "Keriotosse! (Japan)": {
         "secondary_name": "ケリオトッセ！",
         "group_name": "Keriotosse!",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.003",
@@ -18893,7 +18893,7 @@
     "Bust-A-Move 2 - Arcade Edition (USA)": {
         "secondary_name": "",
         "group_name": "Bust-A-Move 2 - Arcade Edition",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "1.000",
@@ -19001,7 +19001,7 @@
     "Ninja Jajamaru-kun - Onigiri Ninpouchou Gold (Japan)": {
         "secondary_name": "忍者じゃじゃ丸くん　鬼斬忍法帖・金",
         "group_name": "Ninja Jajamaru-kun - Onigiri Ninpouchou Gold",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.004",
@@ -19307,7 +19307,7 @@
     "Saturn Bomberman (Japan) (SegaNet)": {
         "secondary_name": "サターン・ボンバーマン",
         "group_name": "Saturn Bomberman",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.001",
@@ -19484,10 +19484,10 @@
         "version": "1.001",
         "edition": "Original"
     },
-    "Enemy Zero (Japan) (Disc 3) (Game Disc) (4M)": {
+    "Enemy Zero (Japan) (Disc 3) (Game Disc) (1M, 4M)": {
         "secondary_name": "エネミー・ゼロ",
         "group_name": "Enemy Zero",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.000",
@@ -19739,7 +19739,7 @@
     "Shellshock - Jus' Keepin' da Peace (Japan)": {
         "secondary_name": "シェルショック",
         "group_name": "Shellshock - Jus' Keepin' da Peace",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.000",
@@ -20070,7 +20070,7 @@
         "edition": "Original"
     },
     "Sakura Taisen - Jouki Radio Show (Japan) (Disc 2) (Kayou-ban)": {
-        "secondary_name": "サクラ大戦　蒸気ラジヲショウ",
+        "secondary_name": "サクラ大戦　～蒸気ラジヲショウ～",
         "group_name": "Sakura Taisen - Jouki Radio Show",
         "status": "Green",
         "disc_type": "CD",
@@ -20115,7 +20115,7 @@
         "edition": "Original"
     },
     "Sakura Taisen - Jouki Radio Show (Japan) (Disc 1) (Yuugi-ban)": {
-        "secondary_name": "サクラ大戦　蒸気ラジヲショウ",
+        "secondary_name": "サクラ大戦　～蒸気ラジヲショウ～",
         "group_name": "Sakura Taisen - Jouki Radio Show",
         "status": "Green",
         "disc_type": "CD",
@@ -20220,7 +20220,7 @@
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.001",
-        "edition": "Original"
+        "edition": "Original, Eve Burst Error & Desire Value Pack"
     },
     "Flash SegaSaturn Vol. 29 (Japan) (3M)": {
         "secondary_name": "フラッシュ・セガサターン　Ｖｏｌ．２９",
@@ -20612,7 +20612,7 @@
     "Idol Mahjong - Final Romance 4 (Japan)": {
         "secondary_name": "アイドル麻雀　ファイナル・ロマンス４",
         "group_name": "Idol Mahjong - Final Romance 4",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.060",
@@ -20675,7 +20675,7 @@
     "Mahjong Tenshi - Angel Lips (Japan)": {
         "secondary_name": "麻・雀・天・使　エンジェル・リップス",
         "group_name": "Mahjong Tenshi - Angel Lips",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.020",
@@ -20765,7 +20765,7 @@
     "Dead or Alive (Japan) (1M)": {
         "secondary_name": "デッド・オア・アライブ",
         "group_name": "Dead or Alive",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.001",
@@ -20841,6 +20841,24 @@
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.001",
+        "edition": "Original"
+    },
+    "Sega Screams Volume 2 (USA)": {
+        "secondary_name": "",
+        "group_name": "Sega Screams Volume 2",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "2.000",
+        "edition": "Not for Resale"
+    },
+    "System-Disc (KD02) Columbia (Japan) (16M)": {
+        "secondary_name": "",
+        "group_name": "System-Disc",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "1.000",
         "edition": "Original"
     }
 }

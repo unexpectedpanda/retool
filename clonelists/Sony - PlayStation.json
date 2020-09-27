@@ -3,7 +3,7 @@
         "name": [
 			"Sony - PlayStation"
 		],
-        "last updated": "17 August 2020"
+        "last updated": "19 September 2020"
     },
 
     "overrides": {
@@ -329,8 +329,8 @@
 			["Hunter, The", 1],
 			["SuperLite 1500 Series - Battle Sugoroku the Hunter - A.R.0062", 1]
 		],
-		"Beat-Em-Up Special": [
-			["Beat-Em-Up Speziale", 1]
+		"Beat-Em-Up Special (Demo)": [
+			["Beat-Em-Up Speziale (Demo)", 1]
 		],
 		"Beyond the Beyond": [
 			["Beyond the Beyond - Harukanaru Kanaan he", 1]
@@ -524,8 +524,8 @@
 			["Code Breaker", 1],
 			["Code Breaker Version 2", 1]
 		],
-		"Codemasters Demo CD": [
-			["Codemasters Demo Disk", 1]
+		"Codemasters Demo CD (Demo)": [
+			["Codemasters Demo Disk (Demo)", 1]
 		],
 		"Codename - Tenka": [
 			["Lifeforce Tenka", 1]
@@ -648,8 +648,8 @@
 		"Defcon 5 - Peace Has a Price...": [
 			["Defcon 5", 1]
 		],
-		"Demo Codemasters (SLED-02246)": [
-			["Demo Codemasters (SLED-01725)", 1]
+		"Demo Codemasters (SLED-02246) (Demo)": [
+			["Demo Codemasters (SLED-01725) (Demo)", 1]
 		],
 		"Descent Maximum": [
 			["Descent II", 1]
@@ -846,9 +846,8 @@
 			["Disney Learning - Winnie the Pooh", 1],
 			["Kids Station - Kuma no Pooh-san - Mori no Kyoushitsu", 1]
 		],
-
 		"Disney's Winnie the Pooh - Preschool": [
-			["Disney Learning - Winnie the Pooh Preschool", 1],
+			["Kids Station - Gomdoli Pooh Hakseup Series - Gomdoli Pooh Sinnaneun Yuagyosil", 1],
 			["Kids Station - Kuma no Pooh-san - Mori no Tomodachi", 1]
 		],
 		"Disney Presents Tigger's Honey Hunt": [
@@ -1533,7 +1532,7 @@
 			["Gekisou!! Grand Racing - Total Drivin'", 1],
 			["Total Drivin", 2]
 		],
-		"Maestromusic, The (Baton Controller Doukonban)": [
+		"Maestromusic, The (Doukonban)": [
 			["Maestromusic, The", 2]
 		],
 		"Machine Head": [
@@ -1575,7 +1574,7 @@
 			["Lussan Nathhorst Presenterar Riding Star", 1]
 		],
 		"Master of Monsters - Disciples of Gaia": [
-			["Master of Monsters - Akatsuki no Kenja Tachi", 1]
+			["Master of Monsters - Akatsuki no Kenja-tachi", 1]
 		],
 		"MechWarrior 2 - 31st Century Combat - Arcade Combat Edition": [
 			["MechWarrior 2 - Arcade Combat Edition", 1],
@@ -1709,8 +1708,8 @@
 			["Hyper Olympic in Nagano", 1]
 		],
 		"Namco Soccer Prime Goal": [
-			["J. League Soccer - Prime Goal EX", 1],
-			["J. League Soccer - Prime Goal EX (Lawson Station)", 2]
+			["J.League Soccer - Prime Goal EX", 1],
+			["J.League Soccer - Prime Goal EX (Lawson Station)", 2]
 		],
 		"Namco Tennis Smash Court": [
 			["Smash Court", 1]
@@ -1930,7 +1929,7 @@
 			["Simple 1500 Series Vol. 104 - The Pink Panther - Pinkadelic Pursuit", 1]
 		],
 		"Pinobee": [
-			["Pinobee no Daibouken ~ Pinobee - Quest of Heart", 1]
+			["Pinobee no Daibouken", 1]
 		],
 		"Pipe Dreams 3D": [
 			["Pipe Mania 3D", 1]
@@ -2130,8 +2129,7 @@
 			["Shiritsu Justice Gakuen - Legion of Heroes (Disc 1) (Evolution Disc)", 1]
 		],
 		"Road & Track Presents - The Need for Speed": [
-			["Over Drivin' DX - Rally Edition", 1],
-			["Over Drivin' DX", 2]
+			["Over Drivin' DX", 1]
 		],
 		"Road Rage": [
 			["Speed King - Neo Kobe 2045", 1]
@@ -2224,6 +2222,9 @@
 		"Silhouette Mirage": [
 			["Silhouette Mirage - Reprogrammed Hope", 1]
 		],
+		"Simulation RPG Tkool": [
+			["Simulation RPG Tkool (Enterbrain Collection)", 2]
+		],
 		"Skullmonkeys": [
 			["Klaymen Klaymen 2 - Skullmonkey no Gyakushuu", 1]
 		],
@@ -2280,9 +2281,6 @@
 		],
 		"Spider-Man 2 - Enter - Electro": [
 			["Spider-Man 2 - La Revanche d'Electro", 1]
-		],
-		"Spyro the Dragon": [
-			["Spyro the Dragon Speciale", 1]
 		],
 		"Spyro 2 - Ripto's Rage!": [
 			["Spyro 2 - Gateway to Glimmer", 1]
@@ -2428,6 +2426,9 @@
 		"Teitoku no Ketsudan III": [
 			["Teitoku no Ketsudan III with Power-Up Kit", -1]
 		],
+		"Tenkuu no Restaurant": [
+			["Tenkuu no Restaurant - Hello! Project Ver.", 2]
+		],
 		"Ten Pin Alley": [
 			["Virtual Bowling - Ten Pin Alley no Kiseki", 1]
 		],
@@ -2570,8 +2571,8 @@
 		"Toshinden 4": [
 			["Toushinden Subaru", 1]
 		],
-		"Total Play (SLED-02126)": [
-			["Total Play (SLED-01872)", 2]
+		"Total Play (SLED-02126) (Demo)": [
+			["Total Play (SLED-01872) (Demo)", 2]
 		],
 		"Transport Tycoon": [
 			["Transport Tycoon 3D - Sl Kara Hajimeyou!!", 1]
@@ -2618,6 +2619,12 @@
 		],
 		"V-Ball - Beach Volley Heroes": [
 			["Chou Sentou Kyuugi Vanborg", 1]
+		],
+		"Valkyrie Profile (Disc 1) (Deluxe Pack)": [
+			["Valkyrie Profile (Disc 1)", 2]
+		],
+		"Valkyrie Profile (Disc 2) (Deluxe Pack)": [
+			["Valkyrie Profile (Disc 2)", 2]
 		],
 		"Vanark": [
 			["Astro Trooper Vanark", 1]

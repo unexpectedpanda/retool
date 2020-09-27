@@ -380,7 +380,7 @@
     "Marc Ecko's Getting Up - Contents Under Pressure (Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "Marc Ecko's Getting Up - Contents Under Pressure",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En, Fr, De, It, Es",
         "version": "",
@@ -1406,7 +1406,7 @@
     "Manchester United Manager 2005 (Europe)": {
         "secondary_name": "",
         "group_name": "Manchester United Manager 2005",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En",
         "version": "",
@@ -1574,7 +1574,7 @@
         "version": "",
         "edition": "Original"
     },
-    "X-Men Legends II - Rise of Apocalypse (Europe)": {
+    "X-Men Legends II - Rise of Apocalypse (USA, Europe)": {
         "secondary_name": "",
         "group_name": "X-Men Legends II - Rise of Apocalypse",
         "status": "Green",
@@ -1649,11 +1649,11 @@
     "Max Payne (Europe) (En,Fr,Es,It)": {
         "secondary_name": "",
         "group_name": "Max Payne",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En, Fr, It, Es",
         "version": "",
-        "edition": "Classics"
+        "edition": "Original, Classics"
     },
     "Dead or Alive 1 Ultimate (Europe)": {
         "secondary_name": "",
@@ -1772,7 +1772,7 @@
         "version": "",
         "edition": "Original"
     },
-    "Total Overdose (Europe) (En,Fr,De,Es,It)": {
+    "Total Overdose (USA, Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "Total Overdose",
         "status": "Green",
@@ -2261,7 +2261,7 @@
     "Dynasty Warriors 5 (Europe) (Fr,De)": {
         "secondary_name": "",
         "group_name": "Dynasty Warriors 5",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "Fr, De",
         "version": "",
@@ -2621,7 +2621,7 @@
     "Matrix, The - Path of Neo (Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "Matrix, The - Path of Neo",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En, Fr, De, It, Es",
         "version": "",
@@ -3446,14 +3446,14 @@
         "version": "",
         "edition": "Original"
     },
-    "Tony Hawk's Underground 2 (Europe) (En,Fr,De)": {
+    "Tony Hawk's Underground 2 (USA, Europe) (En,Fr,De)": {
         "secondary_name": "",
         "group_name": "Tony Hawk's Underground 2",
         "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En, Fr, De",
         "version": "",
-        "edition": "Original"
+        "edition": "Original, Platinum Hits"
     },
     "Kao the Kangaroo - Round 2 (Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "",
@@ -4979,7 +4979,7 @@
     "Mad Dash Racing (Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "Mad Dash Racing",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En, Fr, De, It, Es",
         "version": "",
@@ -7499,7 +7499,7 @@
     "Max Payne 2 - The Fall of Max Payne (Europe)": {
         "secondary_name": "",
         "group_name": "Max Payne 2 - The Fall of Max Payne",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En",
         "version": "",
@@ -7886,7 +7886,7 @@
     "Madden NFL 07 (Europe)": {
         "secondary_name": "",
         "group_name": "Madden NFL 07",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En",
         "version": "",
@@ -9047,7 +9047,7 @@
     "Midnight Club 3 - DUB Edition (Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "Midnight Club 3 - DUB Edition",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En, Fr, De, It, Es",
         "version": "",
@@ -9326,7 +9326,7 @@
     "Mat Hoffman's Pro BMX 2 (Europe)": {
         "secondary_name": "",
         "group_name": "Mat Hoffman's Pro BMX 2",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En",
         "version": "",
@@ -9674,10 +9674,10 @@
         "version": "",
         "edition": "Original"
     },
-    "Pariah (Europe) (En,Fr,De,Es,It)": {
+    "Pariah (USA, Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "Pariah",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En, Fr, De, It, Es",
         "version": "",
@@ -11189,7 +11189,7 @@
     "Rogue Ops (Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "Rogue Ops",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En, Fr, De, It, Es",
         "version": "",
@@ -12743,7 +12743,7 @@
         "version": "",
         "edition": "Original"
     },
-    "CSI - Crime Scene Investigation (Europe) (En,Fr,De,Es,It)": {
+    "CSI - Crime Scene Investigation (USA, Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "CSI - Crime Scene Investigation",
         "status": "Green",
@@ -14870,7 +14870,7 @@
     "Madden NFL 2005 (Europe)": {
         "secondary_name": "",
         "group_name": "Madden NFL 2005",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En",
         "version": "",
@@ -15110,7 +15110,7 @@
         "version": "",
         "edition": "Original"
     },
-    "Wallace & Gromit - The Curse of the Were-Rabbit (Europe) (En,Fr,De,Es,It)": {
+    "Wallace & Gromit - The Curse of the Were-Rabbit (USA, Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "Wallace & Gromit - The Curse of the Were-Rabbit",
         "status": "Green",
@@ -15482,7 +15482,7 @@
     "Madden NFL 2004 (Europe)": {
         "secondary_name": "",
         "group_name": "Madden NFL 2004",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En",
         "version": "",
@@ -16175,7 +16175,7 @@
     "Madden NFL 06 (Europe)": {
         "secondary_name": "",
         "group_name": "Madden NFL 06",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En",
         "version": "",
@@ -16634,7 +16634,7 @@
     "Medal of Honor - European Assault (Europe) (En,Es,Nl,Sv)": {
         "secondary_name": "",
         "group_name": "Medal of Honor - European Assault",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "Nl, En, Es, Sv",
         "version": "",
@@ -17219,7 +17219,7 @@
     "Project - Snowblind (Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "Project - Snowblind",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En, Fr, De, It, Es",
         "version": "",
@@ -17351,10 +17351,10 @@
         "version": "",
         "edition": "Demo"
     },
-    "Second Sight (Europe) (En,Fr,De,Es,It)": {
+    "Second Sight (USA, Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "Second Sight",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En, Fr, De, It, Es",
         "version": "",
@@ -17696,7 +17696,7 @@
     "Malice (Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "Malice",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En, Fr, De, It, Es",
         "version": "",
@@ -17903,7 +17903,7 @@
     "Mashed - Drive to Survive (Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "Mashed",
         "group_name": "Mashed - Drive to Survive",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En, Fr, De, It, Es",
         "version": "",
@@ -18008,10 +18008,10 @@
         "version": "",
         "edition": "Original"
     },
-    "Tony Hawk's American Wasteland (Europe) (En,Fr,De,Es,It)": {
+    "Tony Hawk's American Wasteland (USA, Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "Tony Hawk's American Wasteland",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En, Fr, De, It, Es",
         "version": "",
@@ -18089,10 +18089,10 @@
         "version": "",
         "edition": "Original"
     },
-    "Marvel - Ultimate Alliance (Europe)": {
+    "Marvel - Ultimate Alliance (USA, Europe)": {
         "secondary_name": "",
         "group_name": "Marvel - Ultimate Alliance",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En",
         "version": "",
@@ -18575,7 +18575,7 @@
         "version": "",
         "edition": "Original"
     },
-    "187 - Ride or Die (Europe) (En,Fr,De,Es,It)": {
+    "187 - Ride or Die (USA, Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "187 - Ride or Die",
         "status": "Green",
@@ -18962,7 +18962,7 @@
         "version": "",
         "edition": "Original"
     },
-    "Virtual Pool - Tournament Edition (Europe) (En,Fr,De,It)": {
+    "Virtual Pool - Tournament Edition (USA, Europe) (En,Fr,De,It)": {
         "secondary_name": "",
         "group_name": "Virtual Pool - Tournament Edition",
         "status": "Green",
@@ -19379,7 +19379,7 @@
     "Manhunt (Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "Manhunt",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En, Fr, De, It, Es",
         "version": "",
@@ -19916,7 +19916,7 @@
         "version": "",
         "edition": "Original"
     },
-    "Rogue Trooper (Europe) (En,Fr,De,It)": {
+    "Rogue Trooper (USA, Europe) (En,Fr,De,It)": {
         "secondary_name": "",
         "group_name": "Rogue Trooper",
         "status": "Green",
@@ -20258,7 +20258,7 @@
         "version": "",
         "edition": "Original"
     },
-    "X-Men Legends (Japan, Europe)": {
+    "X-Men Legends (World)": {
         "secondary_name": "",
         "group_name": "X-Men Legends",
         "status": "Green",
@@ -20663,7 +20663,7 @@
         "version": "",
         "edition": "Original"
     },
-    "MechAssault 2 - Lone Wolf (USA, Asia) (En,Ja,Fr,De,Es,It) (Bonus Disc)": {
+    "MechAssault 2 - Lone Wolf (World) (En,Ja,Fr,De,Es,It) (Bonus Disc)": {
         "secondary_name": "",
         "group_name": "MechAssault 2 - Lone Wolf",
         "status": "Green",
@@ -21035,7 +21035,7 @@
     "Mace Griffin - Bounty Hunter (Europe) (En,Fr,Es,It)": {
         "secondary_name": "",
         "group_name": "Mace Griffin - Bounty Hunter",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En, Fr, It, Es",
         "version": "",
@@ -22084,5 +22084,32 @@
         "languages": "",
         "version": "",
         "edition": "Kiosk Demo"
+    },
+    "Marvel Nemesis - Rise of the Imperfects (UK)": {
+        "secondary_name": "",
+        "group_name": "Marvel Nemesis - Rise of the Imperfects",
+        "status": "Blue",
+        "disc_type": "DVD-9",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Otogi (Korea)": {
+        "secondary_name": "오토기",
+        "group_name": "Otogi",
+        "status": "Blue",
+        "disc_type": "DVD-9",
+        "languages": "Ko",
+        "version": "",
+        "edition": "Original"
+    },
+    "NBA Live 06 (USA) (Proto)": {
+        "secondary_name": "",
+        "group_name": "NBA Live 06",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "",
+        "version": "",
+        "edition": "Prototype"
     }
 }

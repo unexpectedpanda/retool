@@ -3,7 +3,7 @@
         "name": [
 			"Nintendo - Nintendo DS"
 		],
-        "last updated": "27 July 2020"
+        "last updated": "19 September 2020"
     },
 
     "compilations": [
@@ -11,6 +11,8 @@
         "3 Game Pack! - Cradle of Rome + Cradle of Athena + Cradle of Egypt (Europe) (En,Fr,De,Es,It,Nl)",
         "3 Game Pack! - Cradle of Rome + Cradle of Athena + Cradle of Egypt (Europe) (En,Fr,De,Es,It,Nl) (Rev 1)",
         "Atlantic Quest + Galactic Quest (Europe) (En,Fr,De,Nl)",
+        "Ben 10 - Triple Pack (USA) (En,Fr,De,Es,It)",
+        "Ben 10 - Triple Pack (Europe) (En,Fr,De,Es,It)",
         "Jewel Link Double Pack (Europe)",
         "Kids Learn & Play - Pets & Vets Bundle (USA)",
         "Nickelodeon Team Umizoomi and Dora's Fantastic Flight (USA)"
@@ -193,9 +195,6 @@
         "Bejeweled Twist": [
             ["Bejeweled Twist (VBTX)", 1],
             ["Bejeweled Twist (VBTP)", 2]
-        ],
-        "Ben 10 Triple Pack": [
-            ["Ben 10 - Triple Pack", 1]
         ],
         "Bermuda Triangle - Saving the Coral": [
             ["Bermuda Triangle", 1]
@@ -566,8 +565,8 @@
         "Dinosaur King": [
             ["Kodai Ouja Kyouryuu King - 7-tsu no Kakera", 1]
         ],
-        "Dirt 2": [
-            ["Colin McRae - Dirt 2", 1]
+        "DiRT 2": [
+            ["Colin McRae - DiRT 2", 1]
         ],
         "Discovery Kids - Dolphin Discovery": [
             ["Long Vacation - Iruka to Watashi", 1],
@@ -668,12 +667,8 @@
         ],
         "Drawn to Life": [
             ["Drawn to Life - Collection", -1],
-            ["Drawn to Life Collection", -1],
             ["Drawn to Life - Kamisama no Marionette", 1],
             ["Geuryeora, Touch! - Naega Mandeuneun Sesang", 1]
-        ],
-        "Drawn to Life - Collection": [
-            ["Drawn to Life Collection", -1]
         ],
         "Drawn to Life - SpongeBob SquarePants Edition": [
             ["Drawn to Life - Edicion Bob Esponja", 1],
@@ -1959,6 +1954,9 @@
         "Nostalgia": [
             ["Nostalgeo no Kaze", 1]
         ],
+        "Okamiden": [
+            ["Okamiden - Chiisaki Taiyou", 1]
+        ],
         "OMG 26 - Our Mini Games": [
             ["Houkago Mystery Club - 26 no Tobira", 1],
             ["Mystery Mansion", 1]
@@ -1968,9 +1966,6 @@
         ],
         "Ontamarama": [
             ["Ontama - Onpu-tou Hen", 1]
-        ],
-        "Ookami Den": [
-            ["Ookami Den - Chiisaki Taiyou", 1]
         ],
         "Original Rummikub, The - Brings People Together (Games Factory Online)": [
             ["Original Rummikub, The - Brings People Together (DTP Entertainment AG)", 2]

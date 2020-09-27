@@ -1635,7 +1635,7 @@
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
-        "edition": "Original"
+        "edition": "Original, Kirakira Lucky Takarabako"
     },
     "Dungeon Master II - Skullkeep (Europe)": {
         "secondary_name": "",
@@ -1730,7 +1730,7 @@
     "Prince of Persia (Europe)": {
         "secondary_name": "",
         "group_name": "Prince of Persia",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -2630,7 +2630,7 @@
     "After Armageddon Gaiden - Majuu Toushouden Eclipse (Japan)": {
         "secondary_name": "アフター・ハルマゲドン外伝　～魔獣闘将伝エクリプス～",
         "group_name": "After Armageddon Gaiden - Majuu Toushouden Eclipse",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -3188,7 +3188,7 @@
     "Batman Returns (Europe)": {
         "secondary_name": "",
         "group_name": "Batman Returns",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -3908,7 +3908,7 @@
     "Battle Frenzy (USA) (Unl)": {
         "secondary_name": "",
         "group_name": "Battle Frenzy",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -4124,7 +4124,7 @@
     "Night Trap (Europe) (Disc 1)": {
         "secondary_name": "",
         "group_name": "Night Trap",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -4448,7 +4448,7 @@
     "Night Trap (Europe) (Disc 2)": {
         "secondary_name": "",
         "group_name": "Night Trap",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -4790,7 +4790,7 @@
     "Chuck Rock (USA)": {
         "secondary_name": "",
         "group_name": "Chuck Rock",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -4799,7 +4799,7 @@
     "What is X'Eye Multi Entertainment System (USA)": {
         "secondary_name": "",
         "group_name": "What is X'Eye Multi Entertainment System",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -4822,5 +4822,14 @@
         "languages": "",
         "version": "",
         "edition": "Unlicensed"
+    },
+    "Pier Solar and the Great Architects - The Definitive Original Soundtrack (Europe) (Disc 4) (Enhanced Soundtrack Disc)": {
+        "secondary_name": "ピエアーソーラーと偉大なる建築家",
+        "group_name": "Pier Solar and the Great Architects - The Definitive Original Soundtrack",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Original"
     }
 }

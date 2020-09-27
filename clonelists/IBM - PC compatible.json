@@ -3,7 +3,7 @@
 		"name": [
 			"IBM - PC compatible"
 		],
-		"last updated": "30 August 2020"
+		"last updated": "20 September 2020"
 	},
 
 	"compilations": [
@@ -38,7 +38,8 @@
 		"Softgold Presents - LucasArts Top Adventures CD-ROM Edition (Germany)",
 		"Star Wars - The Best of PC (USA) (Star Wars - Empire at War & Star Wars - Knights of the Old Republic)",
 		"Star Wars - The Best of PC (USA, Europe) (Star Wars - Battlefront & Star Wars - Jedi Knight II - Jedi Outcast & Star Wars - Republic Commando)",
-		"Tom Clancy's Ghost Recon - Desert Siege + Island Thunder (USA)"
+		"Tom Clancy's Ghost Recon - Desert Siege + Island Thunder (USA)",
+		"Tomb Raider - The Greatest Raids (Europe)"
 	],
 
 	"renames": {
@@ -62,9 +63,6 @@
 		"3-D Ultra Radio Control Racers": [
 			["Funk-Flitzer", 1],
 			["RC Racing", 1]
-		],
-		"4x4 Evo": [
-			["4x4 Evo - Limited Edition", -1]
 		],
 		"Abomination - Action Strategy Mayhem": [
 			["Abomination - The Nemesis Project", 1]
@@ -368,7 +366,6 @@
 			["Asterix & Obelix gegen Caesar", 1]
 		],
 		"Asterix - Mega Madness": [
-			["Asterix - Mega Madness (Mini Game)", 1],
 			["Asterix - Mega Szalenstwo", 1]
 		],
 		"Asteroids": [
@@ -732,16 +729,13 @@
 			["Yinyi Shashou (Disc 1)", 1]
 		],
 		"Blade Runner (Disc 2)": [
-			["Blade Runner (DVD)", 0],
-			["Yinyi Shashou (Disc 2)", 1]
+			["Blade Runner (DVD)", 0]
 		],
 		"Blade Runner (Disc 3)": [
-			["Blade Runner (DVD)", 0],
-			["Yinyi Shashou (Disc 3)", 1]
+			["Blade Runner (DVD)", 0]
 		],
 		"Blade Runner (Disc 4)": [
-			["Blade Runner (DVD)", 0],
-			["Yinyi Shashou (Disc 4)", 1]
+			["Blade Runner (DVD)", 0]
 		],
 		"Blair Witch Volume I - Rustin Parr": [
 			["Blair Witch Czesc I - Rustin Parr", 1]
@@ -807,6 +801,9 @@
 		],
 		"Borderlands - Double Game Add-On Pack": [
 			["Borderlands - Game of the Year Edition (Expansion Disk)", -1]
+		],
+		"Borderlands 2": [
+			["Borderlands 2 - Game of the Year Edition", -1]
 		],
 		"Brave Soul": [
 			["Rycar' ljubvi", 1]
@@ -888,9 +885,6 @@
 		],
 		"Bust-A-Move 4": [
 			["Puzzle Bobble 4", 1]
-		],
-		"Bygg Batar med Mulle Meck": [
-			["Bygg batar med Mulle Meck - Specialversion", -1]
 		],
 		"Caesar II": [
 			["Best of Sierra Nr. 15 (Disc 2)", 2],
@@ -1952,9 +1946,6 @@
 		"Echelon": [
 			["Shtorm", 1]
 		],
-		"Echelon - Wind Warriors": [
-			["Shtorm - Soldaty neba", 1]
-		],
 		"Egypt 1156 B.C. - Tomb of the Pharaoh": [
 			["Egypte 1156 AV. J.-C. - L'Enigme de la Tombe Royale", 1],
 			["Grab des Pharao, Das", 1]
@@ -2718,6 +2709,12 @@
 		],
 		"Harry Potter and the Chamber of Secrets": [
 			["Harry Potter Yu Mishi", 1]
+		],
+		"Harry Potter and the Goblet of Fire (Disc 1)": [
+			["Harry Potter and the Goblet of Fire", 0]
+		],
+		"Harry Potter and the Goblet of Fire (Disc 2)": [
+			["Harry Potter and the Goblet of Fire", 0]
 		],
 		"Harry Potter and the Sorcerer's Stone": [
 			["Harry Potter Yu Mofashi", 1],
@@ -3616,7 +3613,6 @@
 			["MechWarrior 2 - 31st Century Combat (Enhanced for the ATI Rage II)", 2],
 			["MechWarrior 2 - 31st Century Combat (Enhanced for Matrox Mystique)", 2],
 			["MechWarrior 2 - 31st Century Combat (Enhanced for the S3 ViRGE)", 2],
-			["MechWarrior 2 - 31st Century Combat (Interactive Preview)", 2],
 			["MechWarrior 2 - 31st Century Combat (Pentium Processor Edition)", 2],
 			["MechWarrior 2 - 31st Century Combat (S3 ViRGE Edition for VideoLogic's Grafix Star 450)", 2],
 			["MechWarrior 2 - 31st Century Combat (STB Velocity)", 2],
@@ -4123,6 +4119,12 @@
 		"Outpost 2 - Divided Destiny": [
 			["Outpost 2 - Destini Sospesi", 1]
 		],
+		"OutRun 2006 - Coast 2 Coast (Disc 1)": [
+			["OutRun 2006 - Coast 2 Coast", 0]
+		],
+		"OutRun 2006 - Coast 2 Coast (Disc 2)": [
+			["OutRun 2006 - Coast 2 Coast", 0]
+		],
 		"Painkiller": [
 			["Painkiller - Complete Collection (Disc 1)", -1],
 			["Painkiller - Black Edition", -1]
@@ -4581,12 +4583,10 @@
 		],
 		"Rayman Arena (Disc 1)": [
 			["Rayman 10th Anniversary (Rayman M + Rayman 3 + Rayman 3 Print Studio)", -1],
-			["Rayman M - The Challenge", 0],
 			["Rayman M (Disc 1)", 1]
 		],
 		"Rayman Arena (Disc 2)": [
 			["Rayman 10th Anniversary (Rayman M + Rayman 3 + Rayman 3 Print Studio)", -1],
-			["Rayman M - The Challenge", 0],
 			["Rayman M (Disc 2)", 1]
 		],
 		"Re-Volt": [
@@ -4638,7 +4638,7 @@
 			["Redjack - Die Rache der Bruderschaft (Disc 3)", 1],
 			["Redjack - La Vendetta dei Brethren (Disc 3)", 1]
 		],
-		"Remember 11 - The Age of Infinity": [
+		"Remember11 - The Age of Infinity": [
 			["Remember11 - Wuxian Lunhui De Shiguang", 1]
 		],
 		"Resident Evil": [
@@ -4751,10 +4751,6 @@
 		],
 		"Rise of the Robots": [
 			["Rise of the Robots (The Director's Cut)", -1]
-		],
-		"Rise of the Triad - The HUNT Begins": [
-			["Rise of the Triad - The HUNT Begins (Deluxe Edition)", -1],
-			["Rise of the Triad - The HUNT Begins (C03ACA6B)", 1]
 		],
 		"Rising Lands": [
 			["Rising Lands - Alla Riconquista della Civilta", 1]
@@ -5794,8 +5790,7 @@
 			["Star Wars - La Forza nella Matematica - La Galassia dei Giochi di Jabba", 1]
 		],
 		"Star Wars - Rebel Assault": [
-			["Bestseller Games Gold-Edition Ausgabe 4", 2],
-			["Star Wars - Rebel Assault - Special Edition", 2]
+			["Bestseller Games Gold-Edition Ausgabe 4", 2]
 		],
 		"Star Wars - Republic Commando (Disc 1) (Play Disc)": [
 			["Star Wars - Republic Commando", 0]
@@ -6216,12 +6211,6 @@
 		],
 		"Total War - Rome II (Disc 3)": [
 			["Total War - Rome II (Disc 3) (Spartan Edition)", -1]
-		],
-		"Total War - Shogun 2 (Disc 1)": [
-			["Total War - Shogun 2", 0]
-		],
-		"Total War - Shogun 2 (Disc 2)": [
-			["Total War - Shogun 2", 0]
 		],
 		"Touche-Coule (Disc 1)": [
 			["Battleship - Surface Thunder", 0]
@@ -6949,6 +6938,10 @@
 		],
 		"You Don't Know Jack - Volume 4 - The Ride (Disc 2)": [
 			["You Don't Know Jack 3 - Abwaerts (Disc 2) (Spiel)", 1]
+		],
+		"Ys VI - Napishtim no Hako": [
+			["Ys VI - Napishtim no Hako (Disc 1) (Install Disc)", 2],
+			["Ys VI - Napishtim no Hako (Disc 2) (Game Disc)", 2]
 		],
 		"Zax - The Alien Hunter": [
 			["Yixing Lieren", 1]

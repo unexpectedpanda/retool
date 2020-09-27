@@ -3,7 +3,7 @@
 		"name": [
 			"Nintendo - Nintendo Entertainment System"
 		],
-		"last updated": "27 July 2020"
+		"last updated": "20 September 2020"
     },
 
     "overrides": {
@@ -722,7 +722,7 @@
         ],
         "Metal Fighter": [
             ["Metal Fighter Mu", 1],
-            ["Wei Lai Xiao Zi", 2]
+            ["Wei Lai Xiao Zi - Joy Van Kid", 2]
         ],
         "Metal Storm": [
             ["Juuryoku Soukou Metal Storm", 1]
@@ -835,9 +835,6 @@
         ],
         "Phantom Fighter": [
             ["Reigen Doushi", 1]
-        ],
-        "Pipemania (HES)": [
-            ["Pipe V", 1]
         ],
         "Power Blade 2": [
             ["Captain Saver", 1]
@@ -1090,8 +1087,7 @@
         ],
         "Tiles of Fate": [
             ["Idol Shisen Mahjong", 1],
-            ["Zhan Guo Si Chuan Sheng", 1],
-            ["Zhan Guo Si Chuan Sheng (Nei-Hu)", 2]
+            ["Zhan Guo Si Chuan Sheng", 1]
         ],
         "Time Diver - Eon Man": [
             ["Time Diver - Avenger", 1]
