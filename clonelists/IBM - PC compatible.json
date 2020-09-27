@@ -3,7 +3,7 @@
 		"name": [
 			"IBM - PC compatible"
 		],
-		"last updated": "20 September 2020"
+		"last updated": "27 September 2020"
 	},
 
 	"compilations": [
@@ -47,10 +47,10 @@
 			["007 - Kvant miloserdija", 1]
 		],
 		"18 Wheels of Steel - Convoy": [
-			["18 stal'nyh koles - Konvoj", 1]
+			["18 Stal'nyh Koles - Konvoj", 1]
 		],
 		"18 Wheels of Steel - Pedal to the Metal": [
-			["18 stal'nyh koljos - Pyl' dorog", 1]
+			["18 Stal'nyh Koljos - Pyl' Dorog", 1]
 		],
 		"3-D Ultra Minigolf": [
 			["3-D Ultra Minigolf Deluxe", -1],
@@ -1452,6 +1452,9 @@
 		"Demon Gate": [
 			["Demon Gate Mega Collection", -1]
 		],
+		"Deponia Doomsday": [
+			["Deponia - Il Giorno del Giudizio", 1]
+		],
 		"Descent": [
 			["Descent I and II - The Definitive Collection (Disc 1)", -1],
 			["Bestseller Games Gold-Edition Ausgabe 8", 1]
@@ -1908,6 +1911,9 @@
 		],
 		"Dungeon Siege II (Disc 1)": [
 			["Dungeon Siege II (Install Disc 1 & Play Disc)", 1]
+		],
+		"Dynasty Warriors 6": [
+			["Shin Sangoku Musou 5", 1]
 		],
 		"E.T. The Extra-Terrestrial - Phone Home Adventure": [
 			["E.T. - The Extra-Terrestrial", 1]
@@ -2500,11 +2506,13 @@
 		"Gothic (Disc 1)": [
 			["Gothic Universe (Disc 1)", -1],
 			["Gothic Universe (Gothic I & Online Handbuecher)", -1],
+			["Gothic", 0],
 			["Gotika (Disc 1)", 1]
 		],
 		"Gothic (Disc 2)": [
 			["Gothic Universe (Disc 1)", -1],
 			["Gothic Universe (Gothic I & Online Handbuecher)", -1],
+			["Gothic", 0],
 			["Gotika (Disc 2)", 1]
 		],
 		"Gothic 3 (Game of the Year Edition)": [
@@ -3084,6 +3092,9 @@
 		"Jane's Combat Simulations - USNF '97": [
 			["Jane's Combat Simulations - Fighters Anthology (Disc 1)", -1]
 		],
+		"JAST USA Memorial Collection": [
+			["JAST USA Memorial Collection Special Edition", -1]
+		],
 		"Jerusalem - The 3 Roads to the Holy Land (Disc 1)": [
 			["Jerusalem - Les Trois Chemins de la Ville Sainte (Disc 1)", 1],
 			["Jerusalem - Die Heilige Stadt (Disc 1)", 1],
@@ -3541,11 +3552,15 @@
 			["Magic - Die Zusammenkunft", 1]
 		],
 		"Magic Carpet": [
-			["Magic Carpet Plus", -1]
+			["Magic Carpet Plus", -1],
+			["Magic Carpet DX", -1]
 		],
 		"Magic Carpet - The Hidden Worlds": [
 			["Magic Carpet Plus", -1],
 			["Magic Carpet - Hidden Worlds Data Disk", 1]
+		],
+		"Magic Carpet Plus": [
+			["Magic Carpet DX", 1]
 		],
 		"Majesty - The Fantasy Kingdom Sim": [
 			["Majesty - The Fantasy Kingdom Sim (Gold Edition)", -1]
@@ -4021,6 +4036,9 @@
 		],
 		"Nox (Disc 2)": [
 			["Nox (Disc 2) (Companion Disc)", 1]
+		],
+		"NYR - New York Race": [
+			["Fuenfte Element, Das - New York Race", 1]
 		],
 		"Oddworld - Abe's Exoddus (Install)": [
 			["Oddworld - Abe's Exoddus (Disc Installieren)", 1],
