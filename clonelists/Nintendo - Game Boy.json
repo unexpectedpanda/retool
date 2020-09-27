@@ -3,7 +3,7 @@
         "name": [
 			"Nintendo - Game Boy"
 		],
-        "last updated": "26 July 2020"
+        "last updated": "19 September 2020"
     },
 
     "overrides": {
@@ -208,6 +208,8 @@
             ["Hiryuu no Ken Gaiden", 1]
         ],
         "Final Fantasy Adventure": [
+            ["Final Fantasy Adventure (Collection of Mana)", 0],
+            ["Mystic Quest (Collection of Mana)", 0],
             ["Mystic Quest", 1],
             ["Seiken Densetsu - Final Fantasy Gaiden", 1]
         ],
@@ -231,6 +233,9 @@
         ],
         "Fortified Zone": [
             ["Ikari no Yousai", 1]
+        ],
+        "From TV Animation Slam Dunk - Gakeppuchi no Kesshou League": [
+            ["From TV Animation Slam Dunk Limited Edition", 2]
         ],
         "Game Boy Camera Gold": [
             ["Game Boy Camera", 2],

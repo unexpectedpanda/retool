@@ -218,7 +218,7 @@
     "Evolution GT (Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "Evolution GT",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En, Fr, De, It, Es",
         "version": "1.01",
@@ -989,14 +989,14 @@
         "version": "1.05",
         "edition": "Shokai Seisan Genteiban"
     },
-    "NeoGeo Online Collection Vol. 8 - Fuuun Super Combo (Japan)": {
+    "NeoGeo Online Collection Vol. 8 - Fuuun Super Combo (Japan) (En,Ja,Es,Pt)": {
         "secondary_name": "ＮＥＯＧＥＯオンラインコレクション 風雲スーパーコンボ",
         "group_name": "NeoGeo Online Collection Vol. 8 - Fuuun Super Combo",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
-        "languages": "",
+        "languages": "En, Ja, Pt, Es",
         "version": "1.01",
-        "edition": "NeoGeo Online Collection the Best, NeoGeo Online Collection Complete Box Gekan"
+        "edition": "Original, NeoGeo Online Collection the Best, NeoGeo Online Collection Complete Box Gekan"
     },
     "24 - The Game (Europe) (En,Fr,De,Es,It,Nl,Pl,Cs,Hu) (Demo)": {
         "secondary_name": "",
@@ -2043,9 +2043,9 @@
         "edition": ""
     },
     "Shaman King - Funbari Spirits (Japan)": {
-        "secondary_name": "シャーマンキング　ふんばりスピリッツ",
+        "secondary_name": "シャーマンキング　～ふんばりスピリッツ～",
         "group_name": "Shaman King - Funbari Spirits",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.04",
@@ -2213,9 +2213,9 @@
         "version": "1.02",
         "edition": "Original"
     },
-    "J. League Winning Eleven 2010 - Club Championship (Japan)": {
-        "secondary_name": "Jリーグ　ウイニングイレブン 2010 クラブチャンピオンシップ",
-        "group_name": "J. League Winning Eleven 2010 - Club Championship",
+    "J.League Winning Eleven 2010 - Club Championship (Japan)": {
+        "secondary_name": "Jリーグ　ウイニングイレブン２０１０　クラブチャンピオンシップ",
+        "group_name": "J.League Winning Eleven 2010 - Club Championship",
         "status": "Blue",
         "disc_type": "DVD-5",
         "languages": "Ja",
@@ -2871,7 +2871,7 @@
         "edition": "Original, Promo"
     },
     "Futakoi-jima - Koi to Mizugi no Survival (Japan)": {
-        "secondary_name": "双恋島 恋と水着のサバイバル",
+        "secondary_name": "双恋島　～恋と水着のサバイバル～",
         "group_name": "Futakoi-jima - Koi to Mizugi no Survival",
         "status": "Blue",
         "disc_type": "DVD-5",
@@ -2889,7 +2889,7 @@
         "edition": "Original"
     },
     "Remember11 - The Age of Infinity (Japan) (Infinity Plus)": {
-        "secondary_name": "リメンバー イレブン　THE AGE OF INFINITY",
+        "secondary_name": "リメンバー イレブン　ＴＨＥ ＡＧＥ ＯＦ ＩＮＦＩＮＩＴＹ",
         "group_name": "Remember11 - The Age of Infinity",
         "status": "Blue",
         "disc_type": "DVD-5",
@@ -3086,7 +3086,7 @@
         "version": "1.00",
         "edition": "Original"
     },
-    "NBA 2K6 (Europe) (En,Fr,De,Es,It)": {
+    "NBA 2K6 (Europe, Australia) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "NBA 2K6",
         "status": "Green",
@@ -3197,7 +3197,7 @@
     "Raw Danger (USA)": {
         "secondary_name": "",
         "group_name": "Raw Danger",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "1.03",
@@ -3807,7 +3807,7 @@
         "edition": "Original"
     },
     "Jissen Pachi-Slot Hisshouhou! Hokuto no Ken (Japan)": {
-        "secondary_name": "実戦パチスロ必勝法! 北斗の拳",
+        "secondary_name": "実戦パチスロ必勝法！　北斗の拳",
         "group_name": "Jissen Pachi-Slot Hisshouhou! Hokuto no Ken",
         "status": "Green",
         "disc_type": "CD",
@@ -5508,7 +5508,7 @@
         "edition": "Original"
     },
     "Naruto - Narutimate Hero 3 (Japan) (PlayStation 2 the Best)": {
-        "secondary_name": "ＮＡＲＵＴＯ-ナルト- ナルティメットヒーロー３",
+        "secondary_name": "ＮＡＲＵＴＯ　－ナルト－　ナルティメットヒーロー３",
         "group_name": "Naruto - Narutimate Hero 3",
         "status": "Blue",
         "disc_type": "DVD-5",
@@ -5649,7 +5649,7 @@
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.03",
-        "edition": "Original, PlayStation 2 the Best, Welcome Price Disc 1, The Complete Works of .hack//G.U. Saga-Trilogy"
+        "edition": "Original, Welcome Price!!, The Complete Works of .hack//G.U. Saga-Trilogy, PlayStation 2 the Best"
     },
     "Houshin Engi 2 (Japan) (Premium Pack)": {
         "secondary_name": "封神演義２",
@@ -5939,7 +5939,7 @@
         "version": "1.06",
         "edition": "Original, Platinum"
     },
-    "MotoGP 07 (Europe) (En,Fr,De,Es,It)": {
+    "MotoGP 07 (Europe, Australia) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "MotoGP 07",
         "status": "Green",
@@ -5967,7 +5967,7 @@
         "edition": "Original"
     },
     "D.C.II P.S. (Japan) (Disc 2) (DX Pack)": {
-        "secondary_name": "～ダ・カーポＩＩ～　プラスシチュエーション",
+        "secondary_name": "Ｄ．Ｃ．ＩＩ Ｐ．Ｓ．　〜ダ・カーポII〜　プラスシチュエーション",
         "group_name": "D.C.II P.S.",
         "status": "Blue",
         "disc_type": "DVD-5",
@@ -6482,7 +6482,7 @@
     "Need for Speed - Carbon (Europe) (Demo)": {
         "secondary_name": "",
         "group_name": "Need for Speed - Carbon",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "1.00",
@@ -6896,7 +6896,7 @@
     "DreamWorks Kung Fu Panda (Europe) (En,Fr,Nl)": {
         "secondary_name": "",
         "group_name": "DreamWorks Kung Fu Panda",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Nl, En, Fr",
         "version": "1.02",
@@ -7020,7 +7020,7 @@
         "edition": "Demo"
     },
     "Daito Giken Koushiki Pachi-Slot Simulator - Ossu! Banchou (Japan)": {
-        "secondary_name": "大都技研公式パチスロシミュレーター 押忍！番長",
+        "secondary_name": "大都技研公式パチスロシミュレーター　～押忍！番長～",
         "group_name": "Daito Giken Koushiki Pachi-Slot Simulator - Ossu! Banchou",
         "status": "Green",
         "disc_type": "CD",
@@ -7040,7 +7040,7 @@
     "Jade Cocoon 2 (USA)": {
         "secondary_name": "",
         "group_name": "Jade Cocoon 2",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "1.01",
@@ -7199,10 +7199,10 @@
         "version": "1.01",
         "edition": "Original"
     },
-    "SBK 08 - Superbike World Championship (Europe) (En,Fr,De,Es,It)": {
+    "SBK 08 - Superbike World Championship (Europe, Australia) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "SBK 08 - Superbike World Championship",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En, Fr, De, It, Es",
         "version": "1.01",
@@ -7652,7 +7652,7 @@
     "Spartan - Total Warrior (Europe) (En,Pl,Cs)": {
         "secondary_name": "",
         "group_name": "Spartan - Total Warrior",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Cs, En, Pl",
         "version": "1.00",
@@ -7670,7 +7670,7 @@
     "Monster House (Europe) (En,Fr,De,Es)": {
         "secondary_name": "",
         "group_name": "Monster House",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En, Fr, De, Es",
         "version": "1.00",
@@ -8289,7 +8289,7 @@
         "edition": "Original"
     },
     "Naruto - Narutimate Hero (Japan)": {
-        "secondary_name": "ＮＡＲＵＴＯ－ナルト－ナルティメットヒーロー",
+        "secondary_name": "ＮＡＲＵＴＯ　－ナルト－　ナルティメットヒーロー",
         "group_name": "Naruto - Narutimate Hero",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -8802,7 +8802,7 @@
         "edition": "Original"
     },
     "D.C.II P.S. (Japan) (Disc 1) (DX Pack)": {
-        "secondary_name": "～ダ・カーポＩＩ～　プラスシチュエーション",
+        "secondary_name": "Ｄ．Ｃ．ＩＩ Ｐ．Ｓ．　〜ダ・カーポII〜　プラスシチュエーション",
         "group_name": "D.C.II P.S.",
         "status": "Blue",
         "disc_type": "DVD-5",
@@ -10512,7 +10512,7 @@
         "edition": "Original"
     },
     "Devil May Cry (Japan)": {
-        "secondary_name": "デビル メイ クライ",
+        "secondary_name": "デビル・メイ・クライ",
         "group_name": "Devil May Cry",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -11756,9 +11756,9 @@
     "Samurai Warriors 2 - Xtreme Legends (USA)": {
         "secondary_name": "",
         "group_name": "Samurai Warriors 2 - Xtreme Legends",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
-        "languages": "",
+        "languages": "En",
         "version": "1.02",
         "edition": "Original"
     },
@@ -11862,9 +11862,9 @@
         "edition": "Konami the Best"
     },
     "Omoide ni Kawaru Kimi - Memories Off (Japan)": {
-        "secondary_name": "想い出にかわる君　～Ｍｅｍｏｒｉｅｓ　Ｏｆｆ～",
+        "secondary_name": "想い出にかわる君　－Ｍｅｍｏｒｉｅｓ　Ｏｆｆ－",
         "group_name": "Omoide ni Kawaru Kimi - Memories Off",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.01",
@@ -13410,7 +13410,7 @@
         "edition": "Original"
     },
     "Hakarena Heart - Kimi ga Tame ni Kagayaki o (Japan)": {
-        "secondary_name": "はかれなはーと　君がために輝きを",
+        "secondary_name": "はかれなはーと　～君がために輝きを～",
         "group_name": "Hakarena Heart - Kimi ga Tame ni Kagayaki o",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -13473,7 +13473,7 @@
         "edition": "Original, Kadokawa the Best"
     },
     "Sakura Taisen V - Saraba Itoshiki Hito yo (Japan)": {
-        "secondary_name": "サクラ大戦Ｖ～さらば愛しき人よ～",
+        "secondary_name": "サクラ大戦Ⅴ　～さらば愛しき人よ～",
         "group_name": "Sakura Taisen V - Saraba Itoshiki Hito yo",
         "status": "Green",
         "disc_type": "DVD-9",
@@ -13493,7 +13493,7 @@
     "Cherry Blossom (Japan)": {
         "secondary_name": "チェリーブロッサム",
         "group_name": "Cherry Blossom",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.02",
@@ -13943,7 +13943,7 @@
     "Mike Tyson Heavyweight Boxing (Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "Mike Tyson Heavyweight Boxing",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En, Fr, De, It, Es",
         "version": "1.01",
@@ -14132,7 +14132,7 @@
     "SingStar Zingt met Disney (Netherlands)": {
         "secondary_name": "",
         "group_name": "SingStar Zingt met Disney",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Nl",
         "version": "1.00",
@@ -14184,9 +14184,9 @@
         "edition": "Original, Bundled with Guncon2"
     },
     "MLB 2003 (Japan)": {
-        "secondary_name": "ＭＬＢ　２００３",
+        "secondary_name": "",
         "group_name": "MLB 2003",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.01",
@@ -14247,7 +14247,7 @@
         "edition": "Demo"
     },
     "Daito Giken Koushiki Pachi-Slot Simulator - Yoshimune (Japan)": {
-        "secondary_name": "大都技研公式パチスロシミュレーター 吉宗",
+        "secondary_name": "大都技研公式パチスロシミュレーター　～吉宗～",
         "group_name": "Daito Giken Koushiki Pachi-Slot Simulator - Yoshimune",
         "status": "Green",
         "disc_type": "CD",
@@ -14744,7 +14744,7 @@
     "Sims, The - Bustin' Out (USA)": {
         "secondary_name": "",
         "group_name": "Sims, The - Bustin' Out",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "1.00",
@@ -14759,14 +14759,14 @@
         "version": "1.00",
         "edition": "Demo"
     },
-    "Ultimate Spider-Man - Limited Edition (USA)": {
+    "Ultimate Spider-Man (USA) (Limited Edition)": {
         "secondary_name": "",
-        "group_name": "Ultimate Spider-Man - Limited Edition",
-        "status": "Blue",
+        "group_name": "Ultimate Spider-Man",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "1.00",
-        "edition": "Original"
+        "edition": "Limited Edition"
     },
     "Galerians - Ash (Japan)": {
         "secondary_name": "ガレリアンズ：アッシュ",
@@ -15470,9 +15470,9 @@
         "version": "1.01",
         "edition": "Original"
     },
-    "Magazine Ufficiale PlayStation 2 Demo 2005-01 ITA (Italy) (En,Fr,De,Es,It)": {
+    "Magazine Ufficiale PlayStation 2 Demo 2005-01 Ita (Italy) (En,Fr,De,Es,It)": {
         "secondary_name": "",
-        "group_name": "Magazine Ufficiale PlayStation 2 Demo 2005-01 ITA",
+        "group_name": "Magazine Ufficiale PlayStation 2 Demo 2005-01 Ita",
         "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En, Fr, De, It, Es",
@@ -15527,7 +15527,7 @@
     "Knockout Kings 2001 (Europe)": {
         "secondary_name": "",
         "group_name": "Knockout Kings 2001",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "1.00",
@@ -16301,7 +16301,7 @@
     "Bloody Roar 3 (USA)": {
         "secondary_name": "",
         "group_name": "Bloody Roar 3",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "1.00",
@@ -16706,9 +16706,9 @@
     "Metropolismania 2 (USA)": {
         "secondary_name": "",
         "group_name": "Metropolismania 2",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "En",
         "version": "1.01",
         "edition": "Original"
     },
@@ -16949,7 +16949,7 @@
     "U - Underwater Unit (Korea)": {
         "secondary_name": "‐Ｕ‐　언더워터 유니트",
         "group_name": "U - Underwater Unit",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ko",
         "version": "1.00",
@@ -18191,7 +18191,7 @@
     "Devil May Cry 3 (Korea) (En,Ja,Ko)": {
         "secondary_name": "데빌 메이 크라이 3",
         "group_name": "Devil May Cry 3",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En, Ja, Ko",
         "version": "1.02",
@@ -18287,8 +18287,8 @@
         "version": "1.03",
         "edition": "Original"
     },
-    "Waga Ryuu o Miyo - Pride of the Dragon Peace (Japan) (Taikenban)": {
-        "secondary_name": "我が竜を見よ PRIDE OF THE DRAGON PEACE",
+    "Waga Ryuu o Miyo - Pride of the Dragon Peace (Japan) (User Taikenban)": {
+        "secondary_name": "我が竜を見よ　－ＰＲＩＤＥ　ＯＦ　ＴＨＥ　ＤＲＡＧＯＮ　ＰＥＡＣＥ－",
         "group_name": "Waga Ryuu o Miyo - Pride of the Dragon Peace",
         "status": "Blue",
         "disc_type": "DVD-5",
@@ -18353,7 +18353,7 @@
     "Crimson Tears (Japan)": {
         "secondary_name": "クリムゾン・ティアーズ",
         "group_name": "Crimson Tears",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.02",
@@ -18641,7 +18641,7 @@
     "Giants - Citizen Kabuto (USA)": {
         "secondary_name": "",
         "group_name": "Giants - Citizen Kabuto",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "1.04",
@@ -18902,7 +18902,7 @@
     "Red Star, The (USA)": {
         "secondary_name": "",
         "group_name": "Red Star, The",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "1.00",
@@ -19199,7 +19199,7 @@
     "Minority Report - Everybody Runs (USA)": {
         "secondary_name": "",
         "group_name": "Minority Report - Everybody Runs",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "1.00",
@@ -19710,7 +19710,7 @@
         "edition": "Original"
     },
     "Hakarena Heart - Kimi ga Tame ni Kagayaki o (Japan) (Genteiban)": {
-        "secondary_name": "はかれなはーと　君がために輝きを",
+        "secondary_name": "はかれなはーと　～君がために輝きを～",
         "group_name": "Hakarena Heart - Kimi ga Tame ni Kagayaki o",
         "status": "Blue",
         "disc_type": "DVD-5",
@@ -20229,7 +20229,7 @@
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "1.00",
-        "edition": "Original"
+        "edition": "Original, Greatest Hits"
     },
     "Dual Hearts (Japan)": {
         "secondary_name": "デュアルハーツ",
@@ -20675,7 +20675,7 @@
     "Dynasty Warriors 5 (USA)": {
         "secondary_name": "",
         "group_name": "Dynasty Warriors 5",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "1.00",
@@ -20990,7 +20990,7 @@
     "Armored Core - Nexus (USA) (Disc 1) (Evolution)": {
         "secondary_name": "",
         "group_name": "Armored Core - Nexus",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "1.00",
@@ -21228,7 +21228,7 @@
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "3.00",
-        "edition": "Greatest Hits, Second Edition, The Trilogy"
+        "edition": "Greatest Hits, Special Edition, The Trilogy"
     },
     "Commandos - Strike Force (Japan)": {
         "secondary_name": "コマンドス ストライク・フォース",
@@ -21998,7 +21998,7 @@
     "Mark of Kri, The (Europe) (En,Fr,De,Es,It) (Demo)": {
         "secondary_name": "",
         "group_name": "Mark of Kri, The",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En, Fr, De, It, Es",
         "version": "1.01",
@@ -22079,9 +22079,9 @@
     "Simple 2000 Series Vol. 10 - The Table Game Sekai-hen - Chess, Backgammon, Diamond, Gunjin Shougi, etc. (Japan)": {
         "secondary_name": "ＳＩＭＰＬＥ２０００シリーズ　ＶＯＬ．１０　ＴＨＥ　テーブル・ゲーム　世界編　～チェス・バックギャモン・ダイヤモンド・軍人将棋　ｅｔｃ～",
         "group_name": "Simple 2000 Series Vol. 10 - The Table Game Sekai-hen - Chess, Backgammon, Diamond, Gunjin Shougi, etc.",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "1.03",
         "edition": "Original"
     },
@@ -22743,11 +22743,11 @@
         "edition": ""
     },
     "Maestromusic II, The (Japan)": {
-        "secondary_name": "マエストロムジークII",
+        "secondary_name": "ザ・マエストロムジーク ツヴァイ",
         "group_name": "Maestromusic II, The",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "1.02",
         "edition": "Original"
     },
@@ -22837,7 +22837,7 @@
         "group_name": "Jikkyou Powerful Pro Yakyuu 12",
         "status": "Green",
         "disc_type": "DVD-5",
-        "languages": "",
+        "languages": "Ja",
         "version": "1.04",
         "edition": "Original"
     },
@@ -22988,7 +22988,7 @@
     "Tales of Destiny (Japan)": {
         "secondary_name": "テイルズ・オブ・デスティニー",
         "group_name": "Tales of Destiny",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "2.00",
@@ -23624,12 +23624,12 @@
         "version": "1.02",
         "edition": "Original, PlayStation 2 the Best"
     },
-    "Pro Soccer Club wo Tsukurou! Europe Championship (Japan)": {
-        "secondary_name": "プロサッカークラブをつくろう！ ヨーロッパチャンピオンシップ",
-        "group_name": "Pro Soccer Club wo Tsukurou! Europe Championship",
-        "status": "Blue",
+    "Pro Soccer Club o Tsukurou! Europe Championship (Japan)": {
+        "secondary_name": "プロサッカークラブをつくろう！　ヨーロッパチャンピオンシップ",
+        "group_name": "Pro Soccer Club o Tsukurou! Europe Championship",
+        "status": "Green",
         "disc_type": "DVD-5",
-        "languages": "",
+        "languages": "Ja",
         "version": "1.05",
         "edition": "Original"
     },
@@ -23957,9 +23957,9 @@
         "version": "1.01",
         "edition": "Taikenban"
     },
-    "Saka Tsuku 2002 - J. League Pro Soccer Club o Tsukurou! (Japan)": {
+    "Saka Tsuku 2002 - J.League Pro Soccer Club o Tsukurou! (Japan)": {
         "secondary_name": "サカつく２００２　～Ｊ．ＬＥＡＧＵＥプロサッカークラブをつくろう！～",
-        "group_name": "Saka Tsuku 2002 - J. League Pro Soccer Club o Tsukurou!",
+        "group_name": "Saka Tsuku 2002 - J.League Pro Soccer Club o Tsukurou!",
         "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
@@ -25413,7 +25413,7 @@
         "disc_type": "DVD-5",
         "languages": "En, Fr, De, It, Ja, Es",
         "version": "1.00",
-        "edition": "Original, Collector's Edition"
+        "edition": "Original, Platinum, Collector's Edition"
     },
     "Neo Angelique (Japan)": {
         "secondary_name": "ネオ アンジェリーク",
@@ -25724,7 +25724,7 @@
     "Ephemeral Fantasia (Europe) (En,Fr,De)": {
         "secondary_name": "",
         "group_name": "Ephemeral Fantasia",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En, Fr, De",
         "version": "1.02",
@@ -25775,9 +25775,9 @@
         "version": "1.00",
         "edition": "Original"
     },
-    "J. League Winning Eleven 8 - Asia Championship (Japan)": {
-        "secondary_name": "Jリーグ ウイニングイレブン8 Asia Championship",
-        "group_name": "J. League Winning Eleven 8 - Asia Championship",
+    "J.League Winning Eleven 8 - Asia Championship (Japan)": {
+        "secondary_name": "Ｊリーグ　ウイニングイレブン８　Ａｓｉａ　Ｃｈａｍｐｉｏｎｓｈｉｐ",
+        "group_name": "J.League Winning Eleven 8 - Asia Championship",
         "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
@@ -26273,7 +26273,7 @@
     "Club Football - Liverpool FC (UK)": {
         "secondary_name": "",
         "group_name": "Club Football - Liverpool FC",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "1.00",
@@ -26354,7 +26354,7 @@
     "ToHeart (Japan)": {
         "secondary_name": "トゥハート",
         "group_name": "ToHeart",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.03",
@@ -26720,9 +26720,9 @@
         "version": "1.00",
         "edition": "Original"
     },
-    "J. League Winning Eleven 5 (Japan)": {
-        "secondary_name": "Jリーグ ウイニングイレブン5",
-        "group_name": "J. League Winning Eleven 5",
+    "J.League Winning Eleven 5 (Japan)": {
+        "secondary_name": "Ｊリーグ　ウイニングイレブン５",
+        "group_name": "J.League Winning Eleven 5",
         "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
@@ -26804,9 +26804,9 @@
     "TimeSplitters (USA) (v1.10)": {
         "secondary_name": "",
         "group_name": "TimeSplitters",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "En",
         "version": "1.10",
         "edition": "Original"
     },
@@ -28070,7 +28070,7 @@
         "version": "1.02",
         "edition": "Original"
     },
-    "Smash Court Tennis - Pro Tournament (Europe) (En,Fr,De,Es,It)": {
+    "Smash Court Tennis - Pro Tournament (Europe, Australia) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "Smash Court Tennis - Pro Tournament",
         "status": "Green",
@@ -28881,7 +28881,7 @@
         "edition": "Original"
     },
     "Daito Giken Koushiki Pachi-Slot Simulator - Shake II (Japan)": {
-        "secondary_name": "大都技研公式パチスロシミュレーター シェイクＩＩ",
+        "secondary_name": "大都技研公式パチスロシミュレーター　～シェイクⅡ～",
         "group_name": "Daito Giken Koushiki Pachi-Slot Simulator - Shake II",
         "status": "Blue",
         "disc_type": "CD",
@@ -28973,7 +28973,7 @@
     "NBA 07 featuring the Life Vol. 2 (USA) (Demo)": {
         "secondary_name": "",
         "group_name": "NBA 07 featuring the Life Vol. 2",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "1.00",
@@ -29519,9 +29519,9 @@
         "version": "1.02",
         "edition": "Original"
     },
-    "J. League Winning Eleven 2008 - Club Championship (Japan)": {
-        "secondary_name": "Jリーグ　ウイニングイレブン 2008 クラブチャンピオンシップ",
-        "group_name": "J. League Winning Eleven 2008 - Club Championship",
+    "J.League Winning Eleven 2008 - Club Championship (Japan)": {
+        "secondary_name": "Jリーグ　ウイニングイレブン２００８　クラブチャンピオンシップ",
+        "group_name": "J.League Winning Eleven 2008 - Club Championship",
         "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
@@ -29846,7 +29846,7 @@
     "Silent Hill 2 (USA) (En,Ja,Fr,De,Es,It) (v2.01)": {
         "secondary_name": "",
         "group_name": "Silent Hill 2",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En, Fr, De, It, Ja, Es",
         "version": "2.01",
@@ -29960,10 +29960,10 @@
         "version": "1.05",
         "edition": "Genteiban"
     },
-    "J. League Tactics Manager - Realtime Soccer Simulation (Japan)": {
-        "secondary_name": "J.League タクティクスマネージャー",
-        "group_name": "J. League Tactics Manager - Realtime Soccer Simulation",
-        "status": "Blue",
+    "J.League Tactics Manager - Realtime Soccer Simulation (Japan)": {
+        "secondary_name": "",
+        "group_name": "J.League Tactics Manager - Realtime Soccer Simulation",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.01",
@@ -30177,7 +30177,7 @@
         "edition": "Original"
     },
     "Naruto - Uzumaki Ninden (Japan)": {
-        "secondary_name": "NARUTO－ナルト－ うずまき忍伝",
+        "secondary_name": "ＮＡＲＵＴＯ　－ナルト－　うずまき忍伝",
         "group_name": "Naruto - Uzumaki Ninden",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -31130,9 +31130,9 @@
         "version": "1.01",
         "edition": "Original"
     },
-    "J. League Winning Eleven 2007 - Club Championship (Japan)": {
-        "secondary_name": "Jリーグ　ウイニングイレブン 2007 クラブチャンピオンシップ",
-        "group_name": "J. League Winning Eleven 2007 - Club Championship",
+    "J.League Winning Eleven 2007 - Club Championship (Japan)": {
+        "secondary_name": "Jリーグ　ウイニングイレブン２００７　クラブチャンピオンシップ",
+        "group_name": "J.League Winning Eleven 2007 - Club Championship",
         "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
@@ -31187,7 +31187,7 @@
     "Kessen II (Japan) (Super Value Set)": {
         "secondary_name": "決戦Ⅱ",
         "group_name": "Kessen II",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.04",
@@ -31313,7 +31313,7 @@
     "Karaoke Revolution Party (USA)": {
         "secondary_name": "",
         "group_name": "Karaoke Revolution Party",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "1.02",
@@ -31499,9 +31499,9 @@
         "version": "1.01",
         "edition": "Genteiban"
     },
-    "J. League Pro Soccer Club o Tsukurou! '04 (Japan)": {
-        "secondary_name": "J.LEAGUE プロサッカークラブをつくろう！'０４",
-        "group_name": "J. League Pro Soccer Club o Tsukurou! '04",
+    "J.League Pro Soccer Club o Tsukurou! '04 (Japan)": {
+        "secondary_name": "Ｊ．ＬＥＡＧＵＥ　プロサッカークラブをつくろう！'０４",
+        "group_name": "J.League Pro Soccer Club o Tsukurou! '04",
         "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
@@ -31817,7 +31817,7 @@
     "Tourist Trophy (Japan)": {
         "secondary_name": "ツーリスト・トロフィー",
         "group_name": "Tourist Trophy",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.02",
@@ -32010,7 +32010,7 @@
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "3.00",
-        "edition": "Greatest Hits, The Trilogy"
+        "edition": "Greatest Hits, The Trilogy, Double Pack Greatest Hits"
     },
     "Simple 2000 Series Ultimate Vol. 17 - Taisen! Bakudan Poi Poi (Japan)": {
         "secondary_name": "ＳＩＭＰＬＥ２０００シリーズ　アルティメット Ｖｏｌ．１７　対戦!爆弾ポイポイ",
@@ -32483,7 +32483,7 @@
     "Simple 2000 Series Ultimate Vol. 27 - Houkago no Love Beat (Japan)": {
         "secondary_name": "ＳＩＭＰＬＥ２０００シリーズ アルティメット　Ｖｏｌ．２７　放課後のＬｏｖｅ Ｂｅａｔ",
         "group_name": "Simple 2000 Series Ultimate Vol. 27 - Houkago no Love Beat",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.01",
@@ -32919,7 +32919,7 @@
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "2.10",
-        "edition": "PlayStation 2 the Best, Kessen & Kessen II Super Value Set"
+        "edition": "Kessen & Kessen II Super Value Set, PlayStation 2 the Best"
     },
     "Front Mission 4 (Japan, Asia)": {
         "secondary_name": "フロントミッション フォース",
@@ -33203,7 +33203,7 @@
     "Bonus Demo 5 (Europe) (En,Fr,De,Es,It) (SCED-51940)": {
         "secondary_name": "",
         "group_name": "Bonus Demo 5",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En, Fr, De, It, Es",
         "version": "1.02",
@@ -33266,7 +33266,7 @@
     "MVP Baseball 2003 (USA)": {
         "secondary_name": "",
         "group_name": "MVP Baseball 2003",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "1.00",
@@ -33383,7 +33383,7 @@
     "Panzer Elite Action - Fields of Glory (Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "Panzer Elite Action - Fields of Glory",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En, Fr, De, It, Es",
         "version": "1.02",
@@ -35108,9 +35108,9 @@
         "version": "1.00",
         "edition": ""
     },
-    "J. League Pro Soccer Club o Tsukurou! 3 (Japan)": {
-        "secondary_name": "J.LEAGUE プロサッカークラブをつくろう！３",
-        "group_name": "J. League Pro Soccer Club o Tsukurou! 3",
+    "J.League Pro Soccer Club o Tsukurou! 3 (Japan)": {
+        "secondary_name": "Ｊ．ＬＥＡＧＵＥ　プロサッカークラブをつくろう！３",
+        "group_name": "J.League Pro Soccer Club o Tsukurou! 3",
         "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
@@ -35858,7 +35858,7 @@
     "Crazy Taxi (USA) (Greatest Hits)": {
         "secondary_name": "",
         "group_name": "Crazy Taxi",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "1.00",
@@ -36170,12 +36170,12 @@
         "version": "1.00",
         "edition": "Original"
     },
-    "J. League Pro Soccer Club o Tsukurou! 5 (Japan)": {
-        "secondary_name": "J.LEAGUE プロサッカークラブをつくろう！ ５",
-        "group_name": "J. League Pro Soccer Club o Tsukurou! 5",
+    "J.League Pro Soccer Club o Tsukurou! 5 (Japan)": {
+        "secondary_name": "Ｊ．ＬＥＡＧＵＥ　プロサッカークラブをつくろう！５",
+        "group_name": "J.League Pro Soccer Club o Tsukurou! 5",
         "status": "Green",
         "disc_type": "DVD-5",
-        "languages": "",
+        "languages": "Ja",
         "version": "1.02",
         "edition": "Original"
     },
@@ -36738,7 +36738,7 @@
         "edition": "Original, Konami the Best"
     },
     "Kotoba no Puzzle - Mojipittan (Japan)": {
-        "secondary_name": "ことばのパズル もじぴったん",
+        "secondary_name": "ことばのパズル　もじぴったん",
         "group_name": "Kotoba no Puzzle - Mojipittan",
         "status": "Green",
         "disc_type": "CD",
@@ -37379,7 +37379,7 @@
     "I.Q Remix+ - Intelligent Qube (Japan) (Taikenban 2)": {
         "secondary_name": "",
         "group_name": "I.Q Remix+ - Intelligent Qube",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "1.00",
@@ -39492,7 +39492,7 @@
         "edition": "Original"
     },
     "Growlanser V - Generations (Japan)": {
-        "secondary_name": "グローランサーＶ　－Ｇｅｎｅｒａｔｉｏｎｓ－",
+        "secondary_name": "グローランサーⅤ　－Ｇｅｎｅｒａｔｉｏｎｓ－",
         "group_name": "Growlanser V - Generations",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -39755,7 +39755,7 @@
     "Memories Off - After Rain Vol. 1 - Orizuru (Japan)": {
         "secondary_name": "メモリーズオフ　アフターレイン　Ｖｏｌ．１　折鶴",
         "group_name": "Memories Off - After Rain Vol. 1 - Orizuru",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.01",
@@ -39870,7 +39870,7 @@
         "edition": "Original"
     },
     "D.C.II P.S. (Japan) (Disc 2)": {
-        "secondary_name": "～ダ・カーポＩＩ～　プラスシチュエーション",
+        "secondary_name": "Ｄ．Ｃ．ＩＩ Ｐ．Ｓ．　〜ダ・カーポII〜　プラスシチュエーション",
         "group_name": "D.C.II P.S.",
         "status": "Blue",
         "disc_type": "DVD-5",
@@ -39966,7 +39966,7 @@
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.02",
-        "edition": "Doukonban"
+        "edition": "Baton Controller Doukonban"
     },
     "Clover Heart's - Looking for Happiness (Japan) (Shokai Genteiban)": {
         "secondary_name": "クローバーハーツ ルッキングフォーハピネス",
@@ -40176,7 +40176,7 @@
         "edition": "Original"
     },
     "Sakura Taisen V - Saraba Itoshiki Hito yo (Japan) (Taikenban)": {
-        "secondary_name": "サクラ大戦Ｖ　～さらば愛しき人よ～",
+        "secondary_name": "サクラ大戦Ⅴ　～さらば愛しき人よ～",
         "group_name": "Sakura Taisen V - Saraba Itoshiki Hito yo",
         "status": "Blue",
         "disc_type": "CD",
@@ -40302,13 +40302,13 @@
         "edition": "Karaoke Revolution Tokubetsu Gentei Pack: Green Edition"
     },
     "Metal Gear Solid 2 - Sons of Liberty (Japan) (Hatsu Taikenban)": {
-        "secondary_name": "メタルギアソリッド2 サンズ・オブ・リバティ 初体験版",
+        "secondary_name": "メタル・ギア・ソリッド２　～サンズ・オブ・リバティ～",
         "group_name": "Metal Gear Solid 2 - Sons of Liberty",
         "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.01",
-        "edition": "Taikenban"
+        "edition": "Hatsu Taikenban"
     },
     "Baseball Live 2005 (Japan)": {
         "secondary_name": "ベースボールライブ２００５",
@@ -41256,9 +41256,9 @@
         "edition": "Original"
     },
     "Lara Croft Tomb Raider - Anniversary (Japan)": {
-        "secondary_name": "トゥームレイダー:　アニバーサリー",
+        "secondary_name": "トゥームレイダー　アニバーサリー",
         "group_name": "Lara Croft Tomb Raider - Anniversary",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.01",
@@ -41537,7 +41537,7 @@
     "SuperLite 2000 Vol. 6 - Konohana 2 - Todokanai Requiem (Japan)": {
         "secondary_name": "ＳｕｐｅｒＬｉｔｅ　２０００　ｖｏｌ．６　アドベンチャー 此花２　～届かないレクイエム～",
         "group_name": "SuperLite 2000 Vol. 6 - Konohana 2 - Todokanai Requiem",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.00",
@@ -41645,11 +41645,11 @@
     "Def Jam - Vendetta (Japan)": {
         "secondary_name": "デフジャム　ヴァンデッタ",
         "group_name": "Def Jam - Vendetta",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.02",
-        "edition": "Original"
+        "edition": "Original, EA Best Hits"
     },
     "Dengeki PS2 PlayStation D73 (Japan)": {
         "secondary_name": "電撃ＰＳ２　Ｄ７３　電撃Ｐｌａｙｓｔａｔｉｏｎ　１１／２６号増刊",
@@ -41735,7 +41735,7 @@
     "Gaelic Games - Football (Europe) (En,Gd)": {
         "secondary_name": "",
         "group_name": "Gaelic Games - Football",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "1.00",
@@ -42012,9 +42012,9 @@
         "edition": "Genteiban"
     },
     "Mizu no Senritsu 2 - Hi no Kioku (Japan) (Genteiban)": {
-        "secondary_name": "水の旋律２～緋の記憶～",
+        "secondary_name": "水の旋律２　～緋の記憶～",
         "group_name": "Mizu no Senritsu 2 - Hi no Kioku",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.01",
@@ -42473,9 +42473,9 @@
     "DreamWorks Madagascar (USA) (v2.01)": {
         "secondary_name": "",
         "group_name": "DreamWorks Madagascar",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
-        "languages": "",
+        "languages": "En",
         "version": "2.01",
         "edition": "Original"
     },
@@ -43200,7 +43200,7 @@
         "edition": "Original"
     },
     "Sakura Taisen Monogatari - Mysterious Paris (Japan)": {
-        "secondary_name": "サクラ大戦物語 ～ミステリアス巴里～",
+        "secondary_name": "サクラ大戦物語　～ミステリアス巴里～",
         "group_name": "Sakura Taisen Monogatari - Mysterious Paris",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -44226,7 +44226,7 @@
         "edition": "Original"
     },
     "Bokujou Monogatari 3 - Heart ni Hi o Tsukete (Japan)": {
-        "secondary_name": "牧場物語3 ハートに火をつけて",
+        "secondary_name": "牧場物語３　ハートに火をつけて",
         "group_name": "Bokujou Monogatari 3 - Heart ni Hi o Tsukete",
         "status": "Green",
         "disc_type": "CD",
@@ -44435,7 +44435,7 @@
     "Tango - Game On Demo Disc 3 (Europe)": {
         "secondary_name": "tango promo 2003 demo 3",
         "group_name": "Tango - Game On Demo Disc 3",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "",
         "version": "1.01",
@@ -44486,9 +44486,9 @@
         "version": "1.01",
         "edition": "Genteiban"
     },
-    "Honda Demo (Europe)": {
+    "TOCA Race Driver 3 (Europe) (Honda Civic 2006 Demo)": {
         "secondary_name": "",
-        "group_name": "Honda Demo",
+        "group_name": "TOCA Race Driver 3",
         "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En",
@@ -44531,9 +44531,9 @@
         "version": "1.00",
         "edition": "Original"
     },
-    "J. League Winning Eleven 2009 - Club Championship (Japan)": {
-        "secondary_name": "Jリーグ　ウイニングイレブン 2009 クラブチャンピオンシップ",
-        "group_name": "J. League Winning Eleven 2009 - Club Championship",
+    "J.League Winning Eleven 2009 - Club Championship (Japan)": {
+        "secondary_name": "Jリーグ　ウイニングイレブン２００９　クラブチャンピオンシップ",
+        "group_name": "J.League Winning Eleven 2009 - Club Championship",
         "status": "Blue",
         "disc_type": "DVD-5",
         "languages": "Ja",
@@ -45045,7 +45045,7 @@
         "edition": "Original"
     },
     "Jissen Pachi-Slot Hisshouhou! Hokuto no Ken 2 - Ransei Haouden - Tenha no Shou (Japan)": {
-        "secondary_name": "実戦パチスロ必勝法！　北斗の拳２　乱世覇王伝 天覇の章",
+        "secondary_name": "実戦パチスロ必勝法！　北斗の拳２　乱世覇王伝　天覇の章",
         "group_name": "Jissen Pachi-Slot Hisshouhou! Hokuto no Ken 2 - Ransei Haouden - Tenha no Shou",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -45674,9 +45674,9 @@
         "version": "1.02",
         "edition": "Original"
     },
-    "J. League Winning Eleven 6 (Japan)": {
-        "secondary_name": "Jリーグ ウイニングイレブン6",
-        "group_name": "J. League Winning Eleven 6",
+    "J.League Winning Eleven 6 (Japan)": {
+        "secondary_name": "Ｊリーグ　ウイニングイレブン６",
+        "group_name": "J.League Winning Eleven 6",
         "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
@@ -46016,9 +46016,9 @@
         "version": "1.03",
         "edition": "Original, Wonder Price"
     },
-    "Jikkyou J. League - Perfect Striker 4 (Japan)": {
-        "secondary_name": "実況Jリーグ パーフェクトストライカー4",
-        "group_name": "Jikkyou J. League - Perfect Striker 4",
+    "Jikkyou J.League - Perfect Striker 4 (Japan)": {
+        "secondary_name": "実況Ｊリーグ　パーフェクトストライカー４",
+        "group_name": "Jikkyou J.League - Perfect Striker 4",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "Ja",
@@ -46206,7 +46206,7 @@
         "edition": "Original"
     },
     "Sakura Taisen V Episode 0 - Kouya no Samurai Musume (Japan)": {
-        "secondary_name": "サクラ大戦V EPISODE 0 ～荒野のサムライ娘～",
+        "secondary_name": "サクラ大戦Ⅴ　ＥＰＩＳＯＤＥ　０　～荒野のサムライ娘～",
         "group_name": "Sakura Taisen V Episode 0 - Kouya no Samurai Musume",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -46604,7 +46604,7 @@
     "Monster Rancher 4 (USA)": {
         "secondary_name": "",
         "group_name": "Monster Rancher 4",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "1.02",
@@ -47639,7 +47639,7 @@
     "Arcana Heart (USA)": {
         "secondary_name": "",
         "group_name": "Arcana Heart",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "1.03",
@@ -47720,7 +47720,7 @@
     "RC Revenge Pro (USA)": {
         "secondary_name": "",
         "group_name": "RC Revenge Pro",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "1.00",
@@ -47828,7 +47828,7 @@
     "Gift (Europe)": {
         "secondary_name": "",
         "group_name": "Gift",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "1.01",
@@ -47922,7 +47922,7 @@
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.00",
-        "edition": "Infinity Plus, Ren'ai Game Selection"
+        "edition": "Ren'ai Game Selection, Infinity Plus"
     },
     "Psychic Force Complete (Japan)": {
         "secondary_name": "サイキック・フォース　ＣＯＭＰＬＥＴＥ",
@@ -47990,14 +47990,14 @@
     "Prince of Persia - Warrior Within (USA) (En,Fr,Es)": {
         "secondary_name": "",
         "group_name": "Prince of Persia - Warrior Within",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En, Fr, Es",
         "version": "1.03",
         "edition": "Original"
     },
     "Final Fantasy X-2 International + Last Mission (Japan, Asia)": {
-        "secondary_name": "ファイナルファンタジーＸ‐２　インターナショナル＋ラストミッション",
+        "secondary_name": "ファイナルファンタジーⅩ－２　インターナショナル＋ラストミッション",
         "group_name": "Final Fantasy X-2 International + Last Mission",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -49041,7 +49041,7 @@
         "edition": "Original"
     },
     "Time Crisis II (Japan) (With GunCon2)": {
-        "secondary_name": "タイムクライシス　ＩＩ",
+        "secondary_name": "タイムクライシスⅡ",
         "group_name": "Time Crisis II",
         "status": "Green",
         "disc_type": "CD",
@@ -49104,7 +49104,7 @@
         "edition": "Original"
     },
     "Netchuu! Pro Yakyuu 2002 (Japan) (v1.01)": {
-        "secondary_name": "熱チュー！プロ野球2002",
+        "secondary_name": "熱チュー！プロ野球２００２",
         "group_name": "Netchuu! Pro Yakyuu 2002",
         "status": "Green",
         "disc_type": "CD",
@@ -50199,7 +50199,7 @@
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.01",
-        "edition": "Original, PlayStation 2 the Best, Koei the Best, Shin Sangoku Musou Series Collection Gekan"
+        "edition": "Original, Shin Sangoku Musou Series Collection Gekan, Koei the Best, PlayStation 2 the Best"
     },
     "Tom Clancy's Splinter Cell - Double Agent (USA) (En,Fr,Es)": {
         "secondary_name": "",
@@ -50391,7 +50391,7 @@
         "edition": "Original"
     },
     "Jikkyou Powerful Pro Yakyuu 8 (Japan)": {
-        "secondary_name": "実況パワフルプロ野球　８",
+        "secondary_name": "実況パワフルプロ野球８",
         "group_name": "Jikkyou Powerful Pro Yakyuu 8",
         "status": "Green",
         "disc_type": "CD",
@@ -52155,7 +52155,7 @@
         "edition": "Original"
     },
     "World Soccer Winning Eleven 5 (Japan)": {
-        "secondary_name": "ワールドサッカー ウイニングイレブン5",
+        "secondary_name": "ワールドサッカー　ウイニングイレブン５",
         "group_name": "World Soccer Winning Eleven 5",
         "status": "Green",
         "disc_type": "CD",
@@ -52316,9 +52316,9 @@
         "version": "1.30",
         "edition": "Original, Excellent Box"
     },
-    "J. League Winning Eleven Tactics (Japan)": {
-        "secondary_name": "Jリーグ ウイニングイレブンタクティクス",
-        "group_name": "J. League Winning Eleven Tactics",
+    "J.League Winning Eleven Tactics (Japan)": {
+        "secondary_name": "Ｊリーグ　ウイニングイレブンタクティクス",
+        "group_name": "J.League Winning Eleven Tactics",
         "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
@@ -53642,7 +53642,7 @@
     "Getaway, The (Korea) (En,Ko)": {
         "secondary_name": "겟어웨이",
         "group_name": "Getaway, The",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En, Ko",
         "version": "1.00",
@@ -53658,7 +53658,7 @@
         "edition": "Original"
     },
     "Taiko no Tatsujin - Tatacon de Dodon ga Don (Japan)": {
-        "secondary_name": "太鼓の達人　タタコンでドドンがドン",
+        "secondary_name": "太鼓の達人　～タタコンでドドンがドン～",
         "group_name": "Taiko no Tatsujin - Tatacon de Dodon ga Don",
         "status": "Green",
         "disc_type": "CD",
@@ -53813,9 +53813,9 @@
     "Naval Ops - Warship Gunner (USA)": {
         "secondary_name": "",
         "group_name": "Naval Ops - Warship Gunner",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
-        "languages": "",
+        "languages": "En",
         "version": "1.01",
         "edition": "Original"
     },
@@ -54227,7 +54227,7 @@
     "Neopets - The Darkest Faerie (USA)": {
         "secondary_name": "",
         "group_name": "Neopets - The Darkest Faerie",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "1.00",
@@ -54407,7 +54407,7 @@
     "Official U.S. PlayStation Magazine Demo Disc 108 (USA)": {
         "secondary_name": "",
         "group_name": "Official U.S. PlayStation Magazine Demo Disc 108",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "1.00",
@@ -56207,7 +56207,7 @@
     "SuperLite 2000 Vol. 29 - Memories Off Mix (Japan)": {
         "secondary_name": "ＳｕｐｅｒＬｉｔｅ　２０００　ｖｏｌ．２９　バラエティ メモオフみっくす",
         "group_name": "SuperLite 2000 Vol. 29 - Memories Off Mix",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.02",
@@ -56250,7 +56250,7 @@
         "edition": "Original"
     },
     "World Soccer Winning Eleven 6 (Japan)": {
-        "secondary_name": "ワールドサッカー ウイニングイレブン6",
+        "secondary_name": "ワールドサッカー　ウイニングイレブン６",
         "group_name": "World Soccer Winning Eleven 6",
         "status": "Green",
         "disc_type": "CD",
@@ -56258,16 +56258,16 @@
         "version": "1.03",
         "edition": "Original"
     },
-    "J. League Winning Eleven 9 - Asia Championship (Japan)": {
-        "secondary_name": "Jリーグ ウイニングイレブン9 アジアチャンピオンシップ",
-        "group_name": "J. League Winning Eleven 9 - Asia Championship",
+    "J.League Winning Eleven 9 - Asia Championship (Japan)": {
+        "secondary_name": "Ｊリーグ　ウイニングイレブン９　アジアチャンピオンシップ",
+        "group_name": "J.League Winning Eleven 9 - Asia Championship",
         "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.03",
         "edition": "Original"
     },
-    "Formula One 2001 (Europe) (En,Fr,De,Es,It,Fi) (v2.00)": {
+    "Formula One 2001 (Europe, Australia) (En,Fr,De,Es,It,Fi) (v2.00)": {
         "secondary_name": "",
         "group_name": "Formula One 2001",
         "status": "Green",
@@ -56279,7 +56279,7 @@
     "MDK2 - Armageddon (USA)": {
         "secondary_name": "",
         "group_name": "MDK2 - Armageddon",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "1.01",
@@ -57177,7 +57177,7 @@
         "edition": "Original"
     },
     "Futakoi Alternative - Koi to Shoujo to Machine Gun (Japan)": {
-        "secondary_name": "フタコイオルタナティブ 恋と少女とマシンガン",
+        "secondary_name": "フタコイオルタナティブ　～恋と少女とマシンガン～",
         "group_name": "Futakoi Alternative - Koi to Shoujo to Machine Gun",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -57203,9 +57203,9 @@
         "version": "1.00",
         "edition": "DX Pack"
     },
-    "Jikkyou J. League - Perfect Striker 3 (Japan) (v1.03)": {
-        "secondary_name": "実況Jリーグ パーフェクトストライカー3",
-        "group_name": "Jikkyou J. League - Perfect Striker 3",
+    "Jikkyou J.League - Perfect Striker 3 (Japan) (v1.03)": {
+        "secondary_name": "実況Ｊリーグ　パーフェクトストライカー３",
+        "group_name": "Jikkyou J.League - Perfect Striker 3",
         "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
@@ -57638,7 +57638,7 @@
     "Burnout Dominator (USA)": {
         "secondary_name": "",
         "group_name": "Burnout Dominator",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "1.00",
@@ -57941,14 +57941,14 @@
         "version": "1.01",
         "edition": "Original"
     },
-    "Onimusha 2 (Japan) (Shokai Press Ban)": {
+    "Onimusha 2 (Japan) (Shokai Press-ban)": {
         "secondary_name": "鬼武者２",
         "group_name": "Onimusha 2",
         "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.04",
-        "edition": "Shokai Press Ban"
+        "edition": "Shokai Press-ban"
     },
     "Winning Post 5 (Japan)": {
         "secondary_name": "ウイニングポスト5",
@@ -58743,7 +58743,7 @@
         "edition": "Original"
     },
     "Growlanser V - Generations (Japan) (Taikenban)": {
-        "secondary_name": "グローランサーＶ　－Ｇｅｎｅｒａｔｉｏｎｓ－",
+        "secondary_name": "グローランサーⅤ　－Ｇｅｎｅｒａｔｉｏｎｓ－",
         "group_name": "Growlanser V - Generations",
         "status": "Blue",
         "disc_type": "DVD-5",
@@ -58961,7 +58961,7 @@
     "Guilty Gear XX Accent Core Plus (USA)": {
         "secondary_name": "",
         "group_name": "Guilty Gear XX Accent Core Plus",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "1.00",
@@ -59517,7 +59517,7 @@
         "edition": "Original"
     },
     "Jissen Pachi-Slot Hisshouhou! Hokuto no Ken Plus (Japan)": {
-        "secondary_name": "実戦パチスロ必勝法! 北斗の拳 Plus",
+        "secondary_name": "実戦パチスロ必勝法！　北斗の拳　Ｐｌｕｓ",
         "group_name": "Jissen Pachi-Slot Hisshouhou! Hokuto no Ken Plus",
         "status": "Green",
         "disc_type": "CD",
@@ -59852,7 +59852,7 @@
     "Rocky Legends (Europe) (En,Fr,De)": {
         "secondary_name": "",
         "group_name": "Rocky Legends",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En, Fr, De",
         "version": "1.01",
@@ -60255,9 +60255,9 @@
         "edition": "Original"
     },
     "Gallop Racer - Lucky 7 (Japan)": {
-        "secondary_name": "ギャロップレーサー　ラッキー７",
+        "secondary_name": "ギャロップレーサー　～ラッキー７～",
         "group_name": "Gallop Racer - Lucky 7",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.30",
@@ -60317,14 +60317,14 @@
         "version": "1.03",
         "edition": "Original, Platinum: The Best of PlayStation 2"
     },
-    "Sakura Taisen 3 - Paris wa Moeteiru ka (Japan)": {
-        "secondary_name": "サクラ大戦３～巴里は燃えているか～",
+    "Sakura Taisen 3 - Paris wa Moeteiru ka (Japan) (Shokai Press-ban)": {
+        "secondary_name": "サクラ大戦３　～巴里は燃えているか～",
         "group_name": "Sakura Taisen 3 - Paris wa Moeteiru ka",
         "status": "Blue",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.01",
-        "edition": "Shokai Press Ban"
+        "edition": "Shokai Press-ban"
     },
     "AH-64D Apache (Japan) (Beta)": {
         "secondary_name": "",
@@ -60497,10 +60497,10 @@
         "version": "1.00",
         "edition": "Original, Promo"
     },
-    "Top Spin (Europe) (En,Fr,De,Es,It)": {
+    "Top Spin (Europe, Australia) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "Top Spin",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En, Fr, De, It, Es",
         "version": "1.02",
@@ -60884,12 +60884,12 @@
         "version": "1.02",
         "edition": "Premium Pack"
     },
-    "Lord of the Rings, The - The Two Towers (Korea)": {
+    "Lord of the Rings, The - The Two Towers (Korea) (En,Ko)": {
         "secondary_name": "반지의 제왕, 두개의 탑",
         "group_name": "Lord of the Rings, The - The Two Towers",
         "status": "Green",
         "disc_type": "DVD-5",
-        "languages": "Ko",
+        "languages": "En, Ko",
         "version": "1.00",
         "edition": "Original"
     },
@@ -61890,7 +61890,7 @@
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "1.01",
-        "edition": "Original"
+        "edition": "Original, Promo"
     },
     "Gran Turismo 4 - Prologue (Korea)": {
         "secondary_name": "",
@@ -62637,7 +62637,7 @@
         "disc_type": "CD",
         "languages": "En",
         "version": "1.00",
-        "edition": "Original"
+        "edition": "Original, Platinum"
     },
     "Shining Tears (Japan)": {
         "secondary_name": "シャイニング・ティアーズ",
@@ -63164,7 +63164,7 @@
     "Klonoa 2 - Lunatea's Veil (USA)": {
         "secondary_name": "",
         "group_name": "Klonoa 2 - Lunatea's Veil",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "1.00",
@@ -63371,7 +63371,7 @@
     "Street Fighter EX3 (USA)": {
         "secondary_name": "",
         "group_name": "Street Fighter EX3",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "1.00",
@@ -63434,7 +63434,7 @@
     "Fur Fighters - Viggo's Revenge (USA) (En,Fr,De,Es)": {
         "secondary_name": "",
         "group_name": "Fur Fighters - Viggo's Revenge",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En, Fr, De, Es",
         "version": "1.02",
@@ -64656,7 +64656,7 @@
         "edition": "Original"
     },
     "Naruto - Narutimate Hero (Japan) (PlayStation 2 the Best)": {
-        "secondary_name": "ＮＡＲＵＴＯ－ナルト－　ナルティメットヒーロー",
+        "secondary_name": "ＮＡＲＵＴＯ　－ナルト－　ナルティメットヒーロー",
         "group_name": "Naruto - Narutimate Hero",
         "status": "Blue",
         "disc_type": "DVD-5",
@@ -64703,7 +64703,7 @@
     "Tennis no Oujisama - Gakuensai no Oujisama (Japan)": {
         "secondary_name": "テニスの王子様　～学園祭の王子様～",
         "group_name": "Tennis no Oujisama - Gakuensai no Oujisama",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.02",
@@ -64910,7 +64910,7 @@
     "Jikkyou Powerful Major League 2009 (Japan)": {
         "secondary_name": "実況パワフルメジャーリーグ２００９",
         "group_name": "Jikkyou Powerful Major League 2009",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.02",
@@ -66816,7 +66816,7 @@
         "edition": "Original"
     },
     "GI Jockey 3 - 2005 Nendo-ban (Japan)": {
-        "secondary_name": "ジーワン ジョッキー　３　２００５年度版",
+        "secondary_name": "ジーワン ジョッキー３　２００５年度版",
         "group_name": "GI Jockey 3 - 2005 Nendo-ban",
         "status": "Green",
         "disc_type": "CD",
@@ -67482,9 +67482,9 @@
         "edition": "Original"
     },
     "Monster Hunter G (Japan)": {
-        "secondary_name": "モンスターハンターG",
+        "secondary_name": "モンスターハンターＧ",
         "group_name": "Monster Hunter G",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.01",
@@ -67907,7 +67907,7 @@
     "Armored Core - Nexus (USA) (Disc 2) (Revolution)": {
         "secondary_name": "",
         "group_name": "Armored Core - Nexus",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "1.00",
@@ -67941,7 +67941,7 @@
         "edition": "Original"
     },
     "Naruto - Narutimate Hero 2 (Japan)": {
-        "secondary_name": "ＮＡＲＵＴＯ-ナルト- ナルティメットヒーロー2",
+        "secondary_name": "ＮＡＲＵＴＯ　-ナルト-　ナルティメットヒーロー２",
         "group_name": "Naruto - Narutimate Hero 2",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -68733,7 +68733,7 @@
         "edition": "Original, Greatest Hits"
     },
     "Golf Paradise (Japan) (Taikenban)": {
-        "secondary_name": "GOLF パラダイス",
+        "secondary_name": "ＧＯＬＦ　パラダイス",
         "group_name": "Golf Paradise",
         "status": "Green",
         "disc_type": "CD",
@@ -68895,11 +68895,11 @@
         "edition": "Original"
     },
     "Jikkyou Powerful Pro Yakyuu 12 - Ketteiban (Japan)": {
-        "secondary_name": "実況・パワフル・プロ・野球１２　～決定版～",
+        "secondary_name": "実況パワフルプロ野球１２　～決定版～",
         "group_name": "Jikkyou Powerful Pro Yakyuu 12 - Ketteiban",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
-        "languages": "",
+        "languages": "Ja",
         "version": "1.01",
         "edition": "Original"
     },
@@ -70649,7 +70649,7 @@
         "version": "1.00",
         "edition": "Original, Bundled with EyeToy"
     },
-    "Phase Paradox (Japan) (Taikenban)": {
+    "Phase Paradox (Japan) (Taikenban 2)": {
         "secondary_name": "フェイズ・パラドックス",
         "group_name": "Phase Paradox",
         "status": "Blue",
@@ -70805,7 +70805,7 @@
     "Prisoner of War (Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "Prisoner of War",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En, Fr, De, It, Es",
         "version": "1.01",
@@ -72677,7 +72677,7 @@
     "SingStar Cancoes Disney (Portugal)": {
         "secondary_name": "",
         "group_name": "SingStar Cancoes Disney",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Pt",
         "version": "1.00",
@@ -73145,11 +73145,11 @@
     "Tekken 5 (Korea)": {
         "secondary_name": "철권 5",
         "group_name": "Tekken 5",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ko",
         "version": "1.00",
-        "edition": "Original"
+        "edition": "Original, BigHit Series"
     },
     "Ico (China)": {
         "secondary_name": "ICO 古堡迷踪",
@@ -73946,7 +73946,7 @@
     "Metropolismania (USA)": {
         "secondary_name": "",
         "group_name": "Metropolismania",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "1.02",
@@ -74240,10 +74240,10 @@
         "version": "1.00",
         "edition": "Original"
     },
-    "Madden NFL 2002 (Europe)": {
+    "Madden NFL 2002 (Europe, Australia)": {
         "secondary_name": "",
         "group_name": "Madden NFL 2002",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "1.01",
@@ -74270,7 +74270,7 @@
     "Legaia 2 - Duel Saga (Europe)": {
         "secondary_name": "",
         "group_name": "Legaia 2 - Duel Saga",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "1.00",
@@ -74279,7 +74279,7 @@
     "Baldur's Gate - Dark Alliance II (USA)": {
         "secondary_name": "",
         "group_name": "Baldur's Gate - Dark Alliance II",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "1.03",
@@ -74546,10 +74546,10 @@
         "version": "1.00",
         "edition": "Demo"
     },
-    "Official PlayStation 2 Magazine Demo 9 (Germany) (En,De)": {
+    "Official PlayStation 2 Magazine Demo 9 (Europe, Australia) (En,De)": {
         "secondary_name": "",
         "group_name": "Official PlayStation 2 Magazine Demo 9",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En, De",
         "version": "1.10",
@@ -75123,7 +75123,7 @@
         "edition": "Original"
     },
     "12Riven - The Psi-Climinal of Integral (Japan)": {
-        "secondary_name": "１２Ｒｉｖｅｎ　～ｔｈｅ　ψｃｌｉｍｉｎａｌ　ｏｆ　ｉｎｔｅｇｒａｌ～",
+        "secondary_name": "",
         "group_name": "12Riven - The Psi-Climinal of Integral",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -75449,7 +75449,7 @@
     "Ford Racing 2 (USA)": {
         "secondary_name": "",
         "group_name": "Ford Racing 2",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "1.01",
@@ -75483,7 +75483,7 @@
         "edition": "Original"
     },
     "Kidou Senshi Gundam - Gundam vs. Z Gundam (Japan)": {
-        "secondary_name": "機動戦士ガンダム　ガンダムｖｓ．Ｚガンダム",
+        "secondary_name": "機動戦士ガンダム　～ガンダムｖｓ．Ｚガンダム～",
         "group_name": "Kidou Senshi Gundam - Gundam vs. Z Gundam",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -75647,7 +75647,7 @@
     "SOCOM - U.S. Navy SEALs (Korea)": {
         "secondary_name": "",
         "group_name": "SOCOM - U.S. Navy SEALs",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ko",
         "version": "1.01",
@@ -75674,7 +75674,7 @@
     "Samurai Western (USA)": {
         "secondary_name": "",
         "group_name": "Samurai Western",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "1.01",
@@ -75849,7 +75849,7 @@
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "3.00",
-        "edition": "Original"
+        "edition": "Original, Greatest Hits"
     },
     "Myth Makers - Orbs of Doom (Italy)": {
         "secondary_name": "",
@@ -76032,11 +76032,11 @@
         "edition": "Original"
     },
     "Pro Yakyuu - Netsu Star 2006 (Japan)": {
-        "secondary_name": "プロ・野球　～熱スタ２００６～",
+        "secondary_name": "プロ野球　～熱スタ２００６～",
         "group_name": "Pro Yakyuu - Netsu Star 2006",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
-        "languages": "",
+        "languages": "Ja",
         "version": "1.01",
         "edition": "Original"
     },
@@ -76266,7 +76266,7 @@
         "edition": "Original"
     },
     "Jissen Pachi-Slot Hisshouhou! Salaryman Kintarou (Japan)": {
-        "secondary_name": "実戦パチスロ必勝法!サラリーマン金太郎",
+        "secondary_name": "実戦パチスロ必勝法！　サラリーマン金太郎",
         "group_name": "Jissen Pachi-Slot Hisshouhou! Salaryman Kintarou",
         "status": "Green",
         "disc_type": "CD",
@@ -76286,7 +76286,7 @@
     "FIFA Street 2 (USA) (En,Es)": {
         "secondary_name": "",
         "group_name": "FIFA Street 2",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En, Es",
         "version": "1.00",
@@ -76322,7 +76322,7 @@
     "Little Anchor (Japan)": {
         "secondary_name": "リトルアンカー",
         "group_name": "Little Anchor",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.03",
@@ -76988,7 +76988,7 @@
     "Time Crisis 3 (USA)": {
         "secondary_name": "",
         "group_name": "Time Crisis 3",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "1.00",
@@ -77975,9 +77975,9 @@
         "version": "1.00",
         "edition": "Original"
     },
-    "Jikkyou J. League - Perfect Striker 3 (Japan) (v2.01)": {
-        "secondary_name": "実況Jリーグ パーフェクトストライカー3",
-        "group_name": "Jikkyou J. League - Perfect Striker 3",
+    "Jikkyou J.League - Perfect Striker 3 (Japan) (v2.01)": {
+        "secondary_name": "実況Ｊリーグ　パーフェクトストライカー３",
+        "group_name": "Jikkyou J.League - Perfect Striker 3",
         "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
@@ -78254,9 +78254,9 @@
         "version": "1.30",
         "edition": "Original"
     },
-    "Jikkyou J. League - Perfect Striker 5 (Japan)": {
-        "secondary_name": "実況Jリーグ パーフェクトストライカー5",
-        "group_name": "Jikkyou J. League - Perfect Striker 5",
+    "Jikkyou J.League - Perfect Striker 5 (Japan)": {
+        "secondary_name": "実況Ｊリーグ　パーフェクトストライカー５",
+        "group_name": "Jikkyou J.League - Perfect Striker 5",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "Ja",
@@ -78615,7 +78615,7 @@
         "edition": "Original"
     },
     "Dragon Quest VIII Premium Disc (Japan)": {
-        "secondary_name": "ドラゴンクエストVIIIプレミアム映像ディスク",
+        "secondary_name": "ドラゴンクエストⅧ　プレミアム映像ディスク",
         "group_name": "Dragon Quest VIII Premium Disc",
         "status": "Green",
         "disc_type": "CD",
@@ -78884,9 +78884,9 @@
         "version": "2.00",
         "edition": "Original, Platinum"
     },
-    "J. League Winning Eleven 10 + Europe League '06-'07 (Japan) (v2.01)": {
+    "J.League Winning Eleven 10 + Europe League '06-'07 (Japan) (v2.01)": {
         "secondary_name": "Ｊリーグ　ウイニングイレブン１０　＋　欧州リーグ´０６-´０７",
-        "group_name": "J. League Winning Eleven 10 + Europe League '06-'07",
+        "group_name": "J.League Winning Eleven 10 + Europe League '06-'07",
         "status": "Blue",
         "disc_type": "DVD-5",
         "languages": "Ja",
@@ -79190,7 +79190,7 @@
         "version": "1.02",
         "edition": "Original"
     },
-    "WRC II Extreme (Europe) (En,Fr,De,Es,It,Pt,Fi)": {
+    "WRC II Extreme (Europe, Australia) (En,Fr,De,Es,It,Pt,Fi)": {
         "secondary_name": "",
         "group_name": "WRC II Extreme",
         "status": "Green",
@@ -79229,7 +79229,7 @@
     "NFL GameDay 2003 (USA) (Demo)": {
         "secondary_name": "",
         "group_name": "NFL GameDay 2003",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "1.00",
@@ -80109,7 +80109,7 @@
         "edition": "Review Version"
     },
     "World Soccer Winning Eleven 5 - Final Evolution (Japan)": {
-        "secondary_name": "ワールドサッカー ウイニングイレブン5 ファイナルエヴォリューション",
+        "secondary_name": "ワールドサッカー　ウイニングイレブン５　～ファイナルエヴォリューション～",
         "group_name": "World Soccer Winning Eleven 5 - Final Evolution",
         "status": "Green",
         "disc_type": "CD",
@@ -80138,7 +80138,7 @@
     "Final Fantasy XI - Online - Vana'diel Collection 2008 (USA)": {
         "secondary_name": "",
         "group_name": "Final Fantasy XI - Online - Vana'diel Collection 2008",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "1.00",
@@ -80289,7 +80289,7 @@
         "edition": "Original"
     },
     "Gungriffon Blaze (Japan)": {
-        "secondary_name": "ガングリフォン ブレイズ",
+        "secondary_name": "ガングリフォン　ブレイズ",
         "group_name": "Gungriffon Blaze",
         "status": "Green",
         "disc_type": "CD",
@@ -80754,7 +80754,7 @@
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.01",
-        "edition": "Original, PlayStation 2 the Best, Konami Dendou Selection, Mega Hits!"
+        "edition": "Original, Mega Hits!, Konami Dendou Selection, PlayStation 2 the Best"
     },
     "Freedom Fighters (USA)": {
         "secondary_name": "",
@@ -81180,7 +81180,7 @@
         "edition": "Original"
     },
     "Golf Paradise (Japan)": {
-        "secondary_name": "ゴルフパラダイス",
+        "secondary_name": "ＧＯＬＦ　パラダイス",
         "group_name": "Golf Paradise",
         "status": "Green",
         "disc_type": "CD",
@@ -81360,9 +81360,9 @@
         "edition": "Original"
     },
     "Taiko no Tatsujin - Atsumare! Matsuri da!! Yondaime (Japan) (Tatacon Doukon Set)": {
-        "secondary_name": "太鼓の達人　～あつまれ！祭りだ!!四代目～",
+        "secondary_name": "太鼓の達人　～あつまれ！祭りだ！！四代目～",
         "group_name": "Taiko no Tatsujin - Atsumare! Matsuri da!! Yondaime",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.01",
@@ -81659,7 +81659,7 @@
     "Mad Maestro! (Europe) (En,Fr,Es,It)": {
         "secondary_name": "",
         "group_name": "Mad Maestro!",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En, Fr, It, Es",
         "version": "1.00",
@@ -81798,7 +81798,7 @@
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.02",
-        "edition": "Welcome Price Disc 2, The Complete Works of .hack//G.U. Saga-Trilogy"
+        "edition": "Original, Welcome Price!!, The Complete Works of .hack//G.U. Saga-Trilogy"
     },
     "Samurai Shodown Anthology (Europe)": {
         "secondary_name": "",
@@ -81893,7 +81893,7 @@
     "FIFA Football 2005 (Europe) (En,Fr,De,Es,It,Nl,Pt) (Demo)": {
         "secondary_name": "fifa football 2005",
         "group_name": "FIFA Football 2005",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Nl, En, Fr, De, It, Pt, Es",
         "version": "1.00",
@@ -82010,7 +82010,7 @@
     "Battle Stadium D.O.N (Japan)": {
         "secondary_name": "バトルスタジアム　Ｄ．Ｏ．Ｎ",
         "group_name": "Battle Stadium D.O.N",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.02",
@@ -82278,7 +82278,7 @@
         "edition": "Original"
     },
     "Growlanser V - Generations (Japan) (Shokai Genteiban)": {
-        "secondary_name": "グローランサーＶ　～Ｇｅｎｅｒａｔｉｏｎｓ～",
+        "secondary_name": "グローランサーⅤ　～Ｇｅｎｅｒａｔｉｏｎｓ～",
         "group_name": "Growlanser V - Generations",
         "status": "Blue",
         "disc_type": "DVD-5",
@@ -82982,7 +82982,7 @@
     "Ribbit King (USA) (Demo)": {
         "secondary_name": "",
         "group_name": "Ribbit King",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "1.00",
@@ -83303,14 +83303,14 @@
         "version": "1.01",
         "edition": "Original"
     },
-    "Smash Court Tennis - Pro Tournament 2 (Europe) (En,Fr,De,Es,It)": {
+    "Smash Court Tennis - Pro Tournament 2 (Europe, Australia) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "Smash Court Tennis - Pro Tournament 2",
         "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En, Fr, De, It, Es",
         "version": "1.00",
-        "edition": "Original, Platinum: The Best of PlayStation 2, Promo"
+        "edition": "Original, Platinum, Platinum: The Best of PlayStation 2, Promo"
     },
     "GI Jockey 3 2003 (Japan)": {
         "secondary_name": "ジーワン　ジョッキー３　２００３",
@@ -83880,7 +83880,7 @@
         "edition": "Taikenban"
     },
     "Naruto - Narutimate Hero 3 (Japan)": {
-        "secondary_name": "ＮＡＲＵＴＯ-ナルト- ナルティメットヒーロー３",
+        "secondary_name": "ＮＡＲＵＴＯ　－ナルト－　ナルティメットヒーロー３",
         "group_name": "Naruto - Narutimate Hero 3",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -84228,7 +84228,7 @@
         "disc_type": "DVD-5",
         "languages": "En, Fr, De, Es",
         "version": "0.01",
-        "edition": "Original"
+        "edition": "Original, Greatest Hits"
     },
     "Disney-Pixar WALL-E - Der Letzte raeumt die Erde auf (Germany)": {
         "secondary_name": "",
@@ -84302,9 +84302,9 @@
         "version": "1.04",
         "edition": "Best Hit Selection"
     },
-    "J. League Winning Eleven 10 + Europe League '06-'07 (Japan) (v1.03)": {
-        "secondary_name": "Ｊリーグ ウイニングイレブン　１０＋欧州リーグ　´０６ -´０７",
-        "group_name": "J. League Winning Eleven 10 + Europe League '06-'07",
+    "J.League Winning Eleven 10 + Europe League '06-'07 (Japan) (v1.03)": {
+        "secondary_name": "Ｊリーグ　ウイニングイレブン１０　＋　欧州リーグ´０６-´０７",
+        "group_name": "J.League Winning Eleven 10 + Europe League '06-'07",
         "status": "Blue",
         "disc_type": "DVD-5",
         "languages": "Ja",
@@ -85068,7 +85068,7 @@
         "edition": "Taikenban"
     },
     "D.C.II P.S. (Japan) (Disc 1)": {
-        "secondary_name": "～ダ・カーポＩＩ～　プラスシチュエーション",
+        "secondary_name": "Ｄ．Ｃ．ＩＩ Ｐ．Ｓ．　〜ダ・カーポII〜　プラスシチュエーション",
         "group_name": "D.C.II P.S.",
         "status": "Blue",
         "disc_type": "DVD-5",
@@ -85943,7 +85943,7 @@
     "Champions - Return to Arms (USA) (v1.01)": {
         "secondary_name": "",
         "group_name": "Champions - Return to Arms",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "1.01",
@@ -87063,7 +87063,7 @@
         "disc_type": "DVD-5",
         "languages": "Nl, En, Fr, De, It, Es",
         "version": "1.00",
-        "edition": "Original"
+        "edition": "Original, Platinum"
     },
     "Last Escort 2 - Shin'ya no Amai Toge (Japan)": {
         "secondary_name": "ラスト・エスコート２　～深夜の甘い棘～",
@@ -87320,7 +87320,7 @@
     "Harukaze P. S. (Plus Situation) (Japan)": {
         "secondary_name": "春風Ｐ．Ｓ．～プラスシチュエーション～",
         "group_name": "Harukaze P. S.",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.00",
@@ -88238,7 +88238,7 @@
     "Silent Hill - Shattered Memories (USA) (En,Fr,Es)": {
         "secondary_name": "",
         "group_name": "Silent Hill - Shattered Memories",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En, Fr, Es",
         "version": "1.00",
@@ -88274,7 +88274,7 @@
     "Gintama Gin-san to Issho! Boku no Kabuki-chou Nikki (Japan)": {
         "secondary_name": "銀魂 銀さんと一緒！　ボクのかぶき町日記",
         "group_name": "Gintama Gin-san to Issho! Boku no Kabuki-chou Nikki",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.02",
@@ -89084,7 +89084,7 @@
     "Death by Degrees - Tekken - Nina Willams (Japan)": {
         "secondary_name": "デス・バイ・ディグリーズ",
         "group_name": "Death by Degrees - Tekken - Nina Willams",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.02",
@@ -89253,7 +89253,7 @@
         "edition": "Original"
     },
     "SuperLite 2000 Vol. 31 - Remember11 - The Age of Infinity (Japan)": {
-        "secondary_name": "ＳｕｐｅｒＬｉｔｅ　２０００　ｖｏｌ．１３　サスペンスアドベンチャー　リメンバー イレブン　-the age of infinity-",
+        "secondary_name": "ＳｕｐｅｒＬｉｔｅ　２０００　ｖｏｌ．３１　サスペンスアドベンチャー　リメンバー イレブン　-the age of infinity-",
         "group_name": "SuperLite 2000 Vol. 31 - Remember11 - The Age of Infinity",
         "status": "Blue",
         "disc_type": "DVD-5",
@@ -89298,9 +89298,9 @@
         "edition": "Original"
     },
     "Madden NFL 2005 (Japan)": {
-        "secondary_name": "",
+        "secondary_name": "マッデン ＮＦＬ スーパーボウル ２００５",
         "group_name": "Madden NFL 2005",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "1.01",
@@ -89309,10 +89309,271 @@
     "Tamamayu Monogatari 2 - Horobi no Mushi (Japan)": {
         "secondary_name": "玉繭物語２　～滅びの蟲～",
         "group_name": "Tamamayu Monogatari 2 - Horobi no Mushi",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.08",
         "edition": "Original"
+    },
+    "Official PlayStation 2 Magazine Germany Winter 2006 (Germany) (En,De)": {
+        "secondary_name": "ops2 ger winter 2006",
+        "group_name": "Official PlayStation 2 Magazine Germany Winter 2006",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "En, De",
+        "version": "1.00",
+        "edition": ""
+    },
+    "Cool Shot - Yukawa Keiko no Professional Billiard (Japan)": {
+        "secondary_name": "ＣＯＯＬ ＳＨＯＴ 夕川景子のプロフェッショナルビリヤート",
+        "group_name": "Cool Shot - Yukawa Keiko no Professional Billiard",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "1.02",
+        "edition": "Original"
+    },
+    "Yamasa Digi World SP DX - Neo Planett XX (Japan)": {
+        "secondary_name": "山佐ＤｉｇｉワールドＳＰ ＤＸ ネオプラネットＸＸ",
+        "group_name": "Yamasa Digi World SP DX - Neo Planett XX",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "1.01",
+        "edition": "Original"
+    },
+    "Call of Duty - Finest Hour (Japan)": {
+        "secondary_name": "コール オブ デューティー:ファイネスト アワー",
+        "group_name": "Call of Duty - Finest Hour",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "Ja",
+        "version": "1.01",
+        "edition": "Original"
+    },
+    "Phase Paradox (Japan) (Taikenban 1)": {
+        "secondary_name": "フェイズ・パラドックス",
+        "group_name": "Phase Paradox",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "1.00",
+        "edition": "Taikenban"
+    },
+    "World Tour Soccer 2002 (USA) (Demo)": {
+        "secondary_name": "",
+        "group_name": "World Tour Soccer 2002",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "1.00",
+        "edition": "Demo"
+    },
+    "Frequency (Europe) (Demo)": {
+        "secondary_name": "",
+        "group_name": "Frequency",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "1.10",
+        "edition": "Demo"
+    },
+    "Spectral vs. Generation (Japan)": {
+        "secondary_name": "スペクトラル ＶＳ ジェネレーション",
+        "group_name": "Spectral vs. Generation",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "1.02",
+        "edition": "Original"
+    },
+    "Armored Core - Nine Breaker (Korea)": {
+        "secondary_name": "아머드 코어 나인 브레이커",
+        "group_name": "Armored Core - Nine Breaker",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "Ko",
+        "version": "1.00",
+        "edition": "Sample"
+    },
+    "Naruto - Narutimate Hero 2 (Japan) (PlayStation 2 the Best)": {
+        "secondary_name": "ＮＡＲＵＴＯ　-ナルト-　ナルティメットヒーロー２",
+        "group_name": "Naruto - Narutimate Hero 2",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "Ja",
+        "version": "1.01",
+        "edition": "PlayStation 2 the Best"
+    },
+    "Amplitude (Europe) (Proto)": {
+        "secondary_name": "",
+        "group_name": "Amplitude",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "En",
+        "version": "1.00",
+        "edition": "Preview"
+    },
+    "Dot Hack Part 1 - Infection (Europe) (En,Fr,De,Es,It) (Proto)": {
+        "secondary_name": ".hack//Infection Part 1",
+        "group_name": "Dot Hack Part 1 - Infection",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "En, Fr, De, It, Es",
+        "version": "0.01",
+        "edition": "Review Version"
+    },
+    "Black (USA) (Proto)": {
+        "secondary_name": "",
+        "group_name": "Black",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "1.00",
+        "edition": "Prototype"
+    },
+    "BMX XXX (USA) (Proto)": {
+        "secondary_name": "",
+        "group_name": "BMX XXX",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "En",
+        "version": "1.00",
+        "edition": "Preview"
+    },
+    "FIFA 06 (Europe) (Proto 1)": {
+        "secondary_name": "",
+        "group_name": "FIFA 06",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "En",
+        "version": "1.00",
+        "edition": "Prototype"
+    },
+    "FIFA 06 (Europe) (Proto 2)": {
+        "secondary_name": "",
+        "group_name": "FIFA 06",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "En",
+        "version": "1.00",
+        "edition": "Prototype"
+    },
+    "NBA Live 06 (USA) (Proto)": {
+        "secondary_name": "",
+        "group_name": "NBA Live 06",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "En",
+        "version": "1.00",
+        "edition": "Prototype"
+    },
+    "Rogue Ops (USA) (Proto)": {
+        "secondary_name": "",
+        "group_name": "Rogue Ops",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "En",
+        "version": "1.00",
+        "edition": "Prototype"
+    },
+    "NHL 06 (Japan)": {
+        "secondary_name": "",
+        "group_name": "NHL 06",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "En",
+        "version": "1.01",
+        "edition": "Original"
+    },
+    "Rumble Racing (USA) (Proto)": {
+        "secondary_name": "",
+        "group_name": "Rumble Racing",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "1.00",
+        "edition": "Prototype"
+    },
+    "Rumble Racing (Europe) (En,Fr,De) (Proto)": {
+        "secondary_name": "",
+        "group_name": "Rumble Racing",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En, Fr, De",
+        "version": "1.00",
+        "edition": "Prototype"
+    },
+    "Tiger Woods PGA Tour 06 (Europe) (En,Fr,De,Sv) (Proto 1)": {
+        "secondary_name": "",
+        "group_name": "Tiger Woods PGA Tour 06",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "En, Fr, De, Sv",
+        "version": "1.00",
+        "edition": "Prototype"
+    },
+    "Tiger Woods PGA Tour 06 (Europe) (En,Fr,De,Sv) (Proto 2)": {
+        "secondary_name": "",
+        "group_name": "Tiger Woods PGA Tour 06",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "En, Fr, De, Sv",
+        "version": "1.00",
+        "edition": "Prototype"
+    },
+    "Way of the Samurai 2 (Europe) (En,Fr,De) (Proto)": {
+        "secondary_name": "",
+        "group_name": "Way of the Samurai 2",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "En, Fr, De",
+        "version": "1.01",
+        "edition": "Prototype"
+    },
+    "Capcom Fighting Jam (Europe) (Proto)": {
+        "secondary_name": "",
+        "group_name": "Capcom Fighting Jam",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "En",
+        "version": "1.00",
+        "edition": "Prototype"
+    },
+    "Cold Winter (USA) (Proto)": {
+        "secondary_name": "",
+        "group_name": "Cold Winter",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "En",
+        "version": "1.00",
+        "edition": "Prototype"
+    },
+    "Crisis Zone (Europe) (Proto)": {
+        "secondary_name": "",
+        "group_name": "Crisis Zone",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "En",
+        "version": "1.00",
+        "edition": "Preview"
+    },
+    "Dead to Rights (Europe) (En,Fr,Es,It) (Proto)": {
+        "secondary_name": "",
+        "group_name": "Dead to Rights",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "En, Fr, It, Es",
+        "version": "1.00",
+        "edition": "Review"
+    },
+    "V-Rally 3 (Europe) (Demo)": {
+        "secondary_name": "",
+        "group_name": "V-Rally 3",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "En",
+        "version": "1.00",
+        "edition": "Demo"
     }
 }

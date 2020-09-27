@@ -3,15 +3,21 @@
 		"name": [
 			"Fujitsu - FM-Towns"
 		],
-		"last updated": "27 July 2020"
+		"last updated": "20 September 2020"
 	},
 
 	"renames": {
 		"F-BASIC386 V1.1L20": [
 			["F-BASIC386 V1.1L10", 2]
 		],
+		"F-BASIC386 Compiler V2.1L10": [
+			["F-BASIC386 Compiler V1.1L21", 2]
+		],
 		"Fujitsu Air Warrior V1.2": [
 			["Fujitsu Air Warrior V1.1", 2]
+		],
+		"Hyper Address Ver. 2.0": [
+			["Hyper Address", 2]
 		],
 		"Microsoft Windows Version 3.1 L12 Operating System (Setup CD-ROM)": [
 			["Microsoft Windows Version 3.1 L11 Operating System (Setup CD-ROM)", 2]

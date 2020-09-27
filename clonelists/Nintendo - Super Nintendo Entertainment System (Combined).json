@@ -3,7 +3,7 @@
         "name": [
 			"Nintendo - Super Nintendo Entertainment System"
 		],
-        "last updated": "30 August 2020"
+        "last updated": "20 September 2020"
     },
 
     "compilations": [
@@ -810,8 +810,10 @@
         "Saturday Night Slam Masters": [
             ["Muscle Bomber - The Body Explosion", 1]
         ],
-        "Secret of Mana": [
-            ["Seiken Densetsu 2", 1]
+        "Secret of Mana (Collection of Mana)": [
+            ["Seiken Densetsu 2 (Seiken Densetsu Collection)", 1],
+            ["Secret of Mana", 2],
+            ["Seiken Densetsu 2", 2]
         ],
         "Shanghai II - Dragon's Eye": [
             ["Super Shanghai - Dragon's Eye (Activision)", 1],
@@ -1142,8 +1144,9 @@
         "Top Gear 3000": [
             ["Planet's Champ TG 3000, The", 1]
         ],
-        "Trials of Mana": [
-            ["Seiken Densetsu 3", 1]
+        "Trials of Mana (Collection of Mana)": [
+            ["Seiken Densetsu 3 (Seiken Densetsu Collection)", 1],
+            ["Seiken Densetsu 3", 2]
         ],
         "True Golf Classics - Pebble Beach Golf Links": [
             ["New 3D Golf Simulation - Pebble Beach no Hatou", 1]

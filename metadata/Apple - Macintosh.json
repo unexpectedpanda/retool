@@ -1208,7 +1208,7 @@
     "MDK (Europe)": {
         "secondary_name": "",
         "group_name": "MDK",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "1.0.1",
@@ -1316,11 +1316,11 @@
     "Ginga Eiyuu Densetsu V (Japan)": {
         "secondary_name": "銀河英雄伝説Ｖ",
         "group_name": "Ginga Eiyuu Densetsu V",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "",
         "version": "",
-        "edition": "Ultra 2000 Series for Macintosh"
+        "edition": "Ultra 2000 Series for Macintosh, Ginga Eiyuu Densetsu V Plus"
     },
     "3DO Content Library, The (USA) (Disc 47) (Music & Sound Effects)": {
         "secondary_name": "",
@@ -1964,7 +1964,7 @@
     "SimCity 2000 Special Edition (USA)": {
         "secondary_name": "",
         "group_name": "SimCity 2000 Special Edition",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "1.0",
@@ -3098,7 +3098,7 @@
     "CD-ROM MacLife No. 11 (Japan)": {
         "secondary_name": "",
         "group_name": "CD-ROM MacLife No. 11",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "",
         "version": "",
@@ -3107,7 +3107,7 @@
     "CD-ROM MacLife No. 13 (Japan)": {
         "secondary_name": "",
         "group_name": "CD-ROM MacLife No. 13",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "",
         "version": "",
@@ -3282,6 +3282,168 @@
         "disc_type": "CD",
         "languages": "Nl, En, Fr, De, It, Es",
         "version": "",
+        "edition": "Original"
+    },
+    "Enemy Engaged - RAH-66 Comanche Versus KA-52 Hokum (Europe) (En,Fr,De,It)": {
+        "secondary_name": "",
+        "group_name": "Enemy Engaged - RAH-66 Comanche Versus KA-52 Hokum",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "En, Fr, De, It",
+        "version": "1.0",
+        "edition": "Original"
+    },
+    "CD-ROM MacLife No. 1 (Japan)": {
+        "secondary_name": "",
+        "group_name": "CD-ROM MacLife No. 1",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Covermount"
+    },
+    "CD-ROM MacLife No. 5 (Japan)": {
+        "secondary_name": "",
+        "group_name": "CD-ROM MacLife No. 5",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Covermount"
+    },
+    "CD-ROM MacLife No. 6 (Japan)": {
+        "secondary_name": "",
+        "group_name": "CD-ROM MacLife No. 6",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Covermount"
+    },
+    "CD-ROM MacLife No. 7 (Japan)": {
+        "secondary_name": "",
+        "group_name": "CD-ROM MacLife No. 7",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Covermount"
+    },
+    "CD-ROM MacLife No. 8 (Japan)": {
+        "secondary_name": "",
+        "group_name": "CD-ROM MacLife No. 8",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Covermount"
+    },
+    "CD-ROM MacLife No. 9 (Japan)": {
+        "secondary_name": "",
+        "group_name": "CD-ROM MacLife No. 9",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Covermount"
+    },
+    "CD-ROM MacLife No. 10 (Japan)": {
+        "secondary_name": "",
+        "group_name": "CD-ROM MacLife No. 10",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Covermount"
+    },
+    "Gadget - Invention, Travel, & Adventure (USA)": {
+        "secondary_name": "",
+        "group_name": "Gadget - Invention, Travel, & Adventure",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Mario's Time Machine Deluxe (USA)": {
+        "secondary_name": "",
+        "group_name": "Mario's Time Machine Deluxe",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Not for Rental"
+    },
+    "CD-ROM MacLife No. 12 (Japan)": {
+        "secondary_name": "",
+        "group_name": "CD-ROM MacLife No. 12",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Covermount"
+    },
+    "CD-ROM MacLife No. 14 (Japan)": {
+        "secondary_name": "",
+        "group_name": "CD-ROM MacLife No. 14",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Covermount"
+    },
+    "CD-ROM MacLife No. 15 (Japan)": {
+        "secondary_name": "",
+        "group_name": "CD-ROM MacLife No. 15",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Covermount"
+    },
+    "CD-ROM MacLife No. 16 (Japan)": {
+        "secondary_name": "",
+        "group_name": "CD-ROM MacLife No. 16",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Covermount"
+    },
+    "CD-ROM MacLife No. 17 (Japan)": {
+        "secondary_name": "",
+        "group_name": "CD-ROM MacLife No. 17",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Covermount"
+    },
+    "CD-ROM MacLife No. 18 (Japan)": {
+        "secondary_name": "",
+        "group_name": "CD-ROM MacLife No. 18",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Covermount"
+    },
+    "CD-ROM MacLife No. 19 (Japan)": {
+        "secondary_name": "",
+        "group_name": "CD-ROM MacLife No. 19",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Covermount"
+    },
+    "Colin McRae Rally Mac (Europe) (En,Fr,De,Es,It)": {
+        "secondary_name": "",
+        "group_name": "Colin McRae Rally Mac",
+        "status": "Blue",
+        "disc_type": "DVD-9",
+        "languages": "En, Fr, De, It, Es",
+        "version": "1.0",
         "edition": "Original"
     }
 }

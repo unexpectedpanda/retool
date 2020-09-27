@@ -351,7 +351,7 @@
         "edition": ""
     },
     "Jojo no Kimyou na Bouken - Mirai e no Isan (Japan)": {
-        "secondary_name": "ジョジョの奇妙な冒険　未来への遺産",
+        "secondary_name": "ジョジョの奇妙な冒険　～未来への遺産～",
         "group_name": "Jojo no Kimyou na Bouken - Mirai e no Isan",
         "status": "Green",
         "disc_type": "GD-ROM",
@@ -2105,9 +2105,9 @@
         "version": "1.000",
         "edition": "Original"
     },
-    "Saka Tsuku Tokudai-gou - J. League Pro Soccer Club o Tsukurou! (Japan) (Rev A)": {
+    "Saka Tsuku Tokudai-gou - J.League Pro Soccer Club o Tsukurou! (Japan) (Rev A)": {
         "secondary_name": "サカつく特大号　Ｊ．ＬＥＡＧＵＥ　プロサッカークラブをつくろう！",
-        "group_name": "Saka Tsuku Tokudai-gou - J. League Pro Soccer Club o Tsukurou!",
+        "group_name": "Saka Tsuku Tokudai-gou - J.League Pro Soccer Club o Tsukurou!",
         "status": "Blue",
         "disc_type": "GD-ROM",
         "languages": "Ja",
@@ -2718,7 +2718,7 @@
         "edition": "Original"
     },
     "Star Gladiator 2 - Nightmare of Bilstein (Japan)": {
-        "secondary_name": "スターグラディエイター2 ナイトメアオブビルシュタイン",
+        "secondary_name": "スターグラディエイター２　～ナイトメアオブビルシュタイン～",
         "group_name": "Star Gladiator 2 - Nightmare of Bilstein",
         "status": "Blue",
         "disc_type": "GD-ROM",
@@ -3500,9 +3500,9 @@
         "version": "1.001",
         "edition": ""
     },
-    "J. League Pro Soccer Club o Tsukurou! (Japan)": {
+    "J.League Pro Soccer Club o Tsukurou! (Japan)": {
         "secondary_name": "Ｊリーグ・プロ・サッカー・クラブ・をつくろう！",
-        "group_name": "J. League Pro Soccer Club o Tsukurou!",
+        "group_name": "J.League Pro Soccer Club o Tsukurou!",
         "status": "Green",
         "disc_type": "GD-ROM",
         "languages": "Ja",
@@ -5339,7 +5339,7 @@
     "AeroWings (USA)": {
         "secondary_name": "",
         "group_name": "AeroWings",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "GD-ROM",
         "languages": "En",
         "version": "1.002",
@@ -5697,7 +5697,7 @@
         "edition": "Original"
     },
     "Sakura Taisen - Hanagumi Taisen Columns 2 (Japan)": {
-        "secondary_name": "サクラ大戦　花組対戦コラムス２",
+        "secondary_name": "サクラ大戦　～花組対戦コラムス２～",
         "group_name": "Sakura Taisen - Hanagumi Taisen Columns 2",
         "status": "Blue",
         "disc_type": "GD-ROM",
@@ -6777,7 +6777,7 @@
         "edition": "Memorial Pack"
     },
     "Jojo no Kimyou na Bouken - Mirai e no Isan for Matching Service (Japan)": {
-        "secondary_name": "ジョジョの奇妙な冒険　未来への遺産　ｆｏｒ　Ｍａｔｃｈｉｎｇ　Ｓｅｒｖｉｃｅ",
+        "secondary_name": "ジョジョの奇妙な冒険　～未来への遺産～　ｆｏｒ　Ｍａｔｃｈｉｎｇ　Ｓｅｒｖｉｃｅ",
         "group_name": "Jojo no Kimyou na Bouken - Mirai e no Isan for Matching Service",
         "status": "Blue",
         "disc_type": "GD-ROM",
@@ -7490,11 +7490,11 @@
     "Marvel vs. Capcom - Clash of Super Heroes (USA)": {
         "secondary_name": "",
         "group_name": "Marvel vs. Capcom - Clash of Super Heroes",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "GD-ROM",
         "languages": "En",
         "version": "1.000",
-        "edition": "Original"
+        "edition": "Original, Sega All Stars"
     },
     "Confidential Mission (USA)": {
         "secondary_name": "",
@@ -9125,9 +9125,9 @@
         "version": "1.000",
         "edition": "Original"
     },
-    "Saka Tsuku Tokudai-gou 2 - J. League Pro Soccer Club o Tsukurou! (Japan)": {
+    "Saka Tsuku Tokudai-gou 2 - J.League Pro Soccer Club o Tsukurou! (Japan)": {
         "secondary_name": "サカつく特大号２　Ｊ．ＬＥＡＧＵＥ　プロサッカークラブをつくろう！",
-        "group_name": "Saka Tsuku Tokudai-gou 2 - J. League Pro Soccer Club o Tsukurou!",
+        "group_name": "Saka Tsuku Tokudai-gou 2 - J.League Pro Soccer Club o Tsukurou!",
         "status": "Green",
         "disc_type": "GD-ROM",
         "languages": "Ja",
@@ -9233,9 +9233,9 @@
         "version": "1.010",
         "edition": "Original"
     },
-    "Saka Tsuku Tokudai-gou - J. League Pro Soccer Club o Tsukurou! (Japan)": {
+    "Saka Tsuku Tokudai-gou - J.League Pro Soccer Club o Tsukurou! (Japan)": {
         "secondary_name": "サカつく特大号　Ｊ．ＬＥＡＧＵＥ　プロサッカークラブをつくろう！",
-        "group_name": "Saka Tsuku Tokudai-gou - J. League Pro Soccer Club o Tsukurou!",
+        "group_name": "Saka Tsuku Tokudai-gou - J.League Pro Soccer Club o Tsukurou!",
         "status": "Blue",
         "disc_type": "GD-ROM",
         "languages": "Ja",
@@ -9845,9 +9845,9 @@
         "version": "1.002",
         "edition": "Original"
     },
-    "J. League Spectacle Soccer (Japan)": {
+    "J.League Spectacle Soccer (Japan)": {
         "secondary_name": "Ｊリーグ　スペクタクルサッカー",
-        "group_name": "J. League Spectacle Soccer",
+        "group_name": "J.League Spectacle Soccer",
         "status": "Blue",
         "disc_type": "GD-ROM",
         "languages": "Ja",
@@ -11477,7 +11477,7 @@
     "Ready 2 Rumble Boxing (USA) (RE)": {
         "secondary_name": "",
         "group_name": "Ready 2 Rumble Boxing",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "GD-ROM",
         "languages": "En",
         "version": "1.000",
@@ -12130,5 +12130,68 @@
         "languages": "Ja",
         "version": "",
         "edition": "Original"
+    },
+    "Dream Passport for Toyota (Japan)": {
+        "secondary_name": "ドリームパスポート ｆｏｒ Ｔｏｙｏｔａ",
+        "group_name": "Dream Passport for Toyota",
+        "status": "Blue",
+        "disc_type": "GD-ROM",
+        "languages": "Ja",
+        "version": "1.031",
+        "edition": "Hibaihin"
+    },
+    "Maboroshi Tsukiyo (Japan) (Taikenban)": {
+        "secondary_name": "まぼろし月夜",
+        "group_name": "Maboroshi Tsukiyo",
+        "status": "Blue",
+        "disc_type": "GD-ROM",
+        "languages": "Ja",
+        "version": "1.001",
+        "edition": "Taikenban"
+    },
+    "Psychic Force 2012 (Japan) (Taikenban)": {
+        "secondary_name": "サイキック・フォース２０１２",
+        "group_name": "Psychic Force 2012",
+        "status": "Blue",
+        "disc_type": "GD-ROM",
+        "languages": "Ja",
+        "version": "1.000",
+        "edition": "Taikenban"
+    },
+    "Escapee, The (USA, Japan) (En,Ja,Fr,De,Es,It) (Unl)": {
+        "secondary_name": "",
+        "group_name": "Escapee, The",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En, Fr, De, It, Ja, Es",
+        "version": "",
+        "edition": "Unlicensed"
+    },
+    "Jojo no Kimyou na Bouken - Mirai e no Isan (Japan) (Tentou Taikenban)": {
+        "secondary_name": "ジョジョの奇妙な冒険　～未来への遺産～",
+        "group_name": "Jojo no Kimyou na Bouken - Mirai e no Isan",
+        "status": "Blue",
+        "disc_type": "GD-ROM",
+        "languages": "Ja",
+        "version": "1.002",
+        "edition": "Tentou Taikenban"
+    },
+    "Morita no Saikyou Reversi (Japan) (Tentou Taikenban)": {
+        "secondary_name": "森田の最強リバーシ",
+        "group_name": "Morita no Saikyou Reversi",
+        "status": "Blue",
+        "disc_type": "GD-ROM",
+        "languages": "Ja",
+        "version": "1.000",
+        "edition": "Tentou Taikenban"
+    },
+    "Space Channel 5 (Japan) (Taikenban)": {
+        "secondary_name": "スペース・チャンネル５",
+        "group_name": "Space Channel 5",
+        "status": "Blue",
+        "disc_type": "GD-ROM",
+        "languages": "Ja",
+        "version": "0.203",
+        "edition": "Taikenban"
     }
 }

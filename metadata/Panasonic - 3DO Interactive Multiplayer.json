@@ -423,7 +423,7 @@
         "edition": "Original"
     },
     "Gridders (USA)": {
-        "secondary_name": "",
+        "secondary_name": "그리더스",
         "group_name": "Gridders",
         "status": "Green",
         "disc_type": "CD",
@@ -440,9 +440,9 @@
         "version": "",
         "edition": "Demo-CD"
     },
-    "J. League Virtual Stadium '95 (Japan)": {
+    "J.League Virtual Stadium '95 (Japan)": {
         "secondary_name": "Ｊリーグ・バーチャル・スタジアム’９５",
-        "group_name": "J. League Virtual Stadium '95",
+        "group_name": "J.League Virtual Stadium '95",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "Ja",
@@ -452,11 +452,11 @@
     "Battle Chess (USA)": {
         "secondary_name": "",
         "group_name": "Battle Chess",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "",
         "version": "",
-        "edition": "Original"
+        "edition": "Original, 3DO Maniac Pack"
     },
     "Star Wars - Rebel Assault (USA, Europe)": {
         "secondary_name": "",
@@ -1493,9 +1493,9 @@
         "version": "",
         "edition": "Original"
     },
-    "J. League Virtual Stadium (Japan)": {
+    "J.League Virtual Stadium (Japan)": {
         "secondary_name": "Ｊリーグ　バーチャル・スタジアム",
-        "group_name": "J. League Virtual Stadium",
+        "group_name": "J.League Virtual Stadium",
         "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
@@ -3431,7 +3431,7 @@
     "Total Eclipse (Korea)": {
         "secondary_name": "토탈　이클립스",
         "group_name": "Total Eclipse",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -4723,5 +4723,32 @@
         "languages": "En",
         "version": "1.0",
         "edition": "Original"
+    },
+    "Mahjong-kyou Jidai Cogal Houkago-hen (Japan)": {
+        "secondary_name": "麻雀狂時代　コギャル放課後編",
+        "group_name": "Mahjong-kyou Jidai Cogal Houkago-hen",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Escape From Monster Manor (Korea) (En,Ko)": {
+        "secondary_name": "악령의　성",
+        "group_name": "Escape From Monster Manor",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En, Ko",
+        "version": "",
+        "edition": "Original"
+    },
+    "Out of this World (USA) (3DO Maniac Pack) (RE)": {
+        "secondary_name": "",
+        "group_name": "Out of this World",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "3DO Maniac Pack"
     }
 }

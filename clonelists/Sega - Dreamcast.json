@@ -3,12 +3,12 @@
 		"name": [
 			"Sega - Dreamcast"
 		],
-		"last updated": "31 May 2020"
+		"last updated": "19 September 2020"
 	},
 
 	"renames": {
 		"90 Minutes - Sega Championship Football": [
-			["J. League Spectacle Soccer", 1]
+			["J.League Spectacle Soccer", 1]
 		],
 		"Aero Dancing i": [
 			["Aero Dancing i - Jikai-saku made Matemasen", -1]
@@ -80,9 +80,6 @@
 		],
 		"Dreamkey Version 2.0": [
 			["Dreamkey Versao 2.0", 1]
-		],
-		"Dreamon Volume 7": [
-			["Dreamon Volume 7 & 8", 1]
 		],
 		"Ducati World - Racing Challenge": [
 			["Ducati World", 1]
