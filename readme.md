@@ -80,7 +80,7 @@ of. I manually combed through titles in most dats, and cross referenced them on
 [Sega Retro](https://segaretro.org/), [PSCX2 Wiki](https://wiki.pcsx2.net),
 [PlayStation DataCenter](https://psxdatacenter.com/),
 [The Cutting Room Floor](https://tcrf.net),
-and [Atari Mania](http://www.atarimania.com). I checked out the Parent/Clone
+and [Atari Mania](http://www.atarimania.com). I checked out the parent/clone
 dats for No-Intro, and occasionally I went through Redump's site for Japanese,
 Korean, Russian, and Chinese characters for titles, so I could do
 translations and find out what they were called in other languages. When all
