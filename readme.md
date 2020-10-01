@@ -144,7 +144,7 @@ do some pretty cool things.
 ## Using the Retool GUI
 
 Run `retool-gui.py`. It's optimized for Windows at this stage, but will work on
-Ubuntu with a few quirks. As the underlying module, _PySimpleGUIQt_ improves,
+Ubuntu with a few quirks. As the underlying module (_PySimpleGUIQt_) improves,
 so should the GUI across platforms.
 
 
