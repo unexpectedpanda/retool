@@ -1,10 +1,11 @@
 # Retool
 * [What it does](#what-it-does)
-* [Why not use CLRMAMEPro or Romcenter's 1G1R mode with a parent/clone dat?](#why-not-use-clrmamepro-or-romcenters-1g1r-mode-with-a-parentclone-dat)
+* [Why not use CLRMAMEPro or Romcenter's 1G1R mode with a parent/clone dat?]
+(#why-not-use-clrmamepro-or-romcenters-1g1r-mode-with-a-parentclone-dat)
+* [Clone lists](#clone-lists)
 * [Installation](#installation)
   * [For those familiar with Git and Python](#for-those-familiar-with-git-and-python)
   * [For Windows users only familiar with graphical interfaces](#for-windows-users-only-familiar-with-graphical-interfaces)
-* [Clone lists](#clone-lists)
 * [Using Retool from the command line](#using-retool-from-the-command-line)
 * [Clonerel](#clonerel)
 
