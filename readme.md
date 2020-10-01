@@ -1,8 +1,8 @@
 # Retool
 
 Retool converts [Redump](http://redump.org/) and
-[No-Intro](https://www.no-intro.org/) dats to 1G1R. It has both GUI and CLI
-versions.
+[No-Intro](https://www.no-intro.org/) dats to 1G1R, doing a better job than
+dat managers. It has both GUI and CLI versions.
 
 You'll need a dat manager to use the files Retool creates, such as
 [CLRMamePro](https://mamedev.emulab.it/clrmamepro/),
@@ -10,6 +10,31 @@ You'll need a dat manager to use the files Retool creates, such as
 [Romcenter](https://www.romcenter.com/).
 
 ![Retool GUI](https://github.com/unexpectedpanda/retool/wiki/images/retool-gui.png)
+
+## Why not just use CLRMAMEPro or Romcenter's 1G1R mode with a parent/clone dat?
+
+Usually, parent/clone dats help dat managers like CLRMAMEPro to create 1G1R
+sets. After loading the dat into the dat manager, you set your desired regions
+and region order, and whether or not to filter by languages (assuming the dat
+has `<release>` tags properly set up &mdash; something which is vanishingly
+rare). You then trust the dat manager to choose the perfect parent title for you
+from your favorite region, discarding the clones from other regions.
+
+Dat managers and parent/clone dats don't have a concept of title priority
+though. For example, what happens when there are two copies of the same title
+from the same region, but they have different names? Or different version
+numbers? Or are published by different companies at different times? Which title
+does the dat manager choose then?
+
+Retool figures this out for you. It even identifies the languages of each
+title by using multiple sources &mdash; the implied language spoken in the
+region the title is from, languages explicitly listed in the title's filename,
+and languages listed on Redump's website, which aren't always included in
+filenames.
+
+After you set up the GUI or `user-config.yaml` to your liking, Retool's output
+is already 1G1R, meaning you don't need to select 1G1R mode, regions, or
+languages in your dat manager &mdash; just load the dat and go.
 
 
 ## Installation
@@ -123,9 +148,8 @@ they will be included if you select any of their respective languages:
 #### Options
 
 * `-o <output folder>` Set an output folder
-  (for use with Clonerel, [not dat managers](/unexpectedpanda/retool/wiki/Usage-and-options#export-in-legacy-parentclone-dat-form))
 * `--log` Also export a list of what titles have been kept and removed in the
-  output dat
+  output dat/s
 * `--errors` Verbose mode: report clone list errors
 * `-x` Export dat in legacy parent/clone format
 * `-g` Enable most filters (-bcdefmrs)
