@@ -265,7 +265,7 @@ def main(gui_input=''):
 
             finish_message = (
                 f'{Font.success}* Finished processing {file_count} {file_noun} in the '
-                f'{Font.bold}"{user_input.input_file_name}{Font.success}" folder in '
+                f'{Font.bold}"{os.path.abspath(user_input.input_file_name)}{Font.success}" folder in '
                 f'{total_time_elapsed}s. 1G1R dats have been created in the '
                 f'{Font.bold}"{os.path.abspath(user_input.output_folder_name)}"{Font.success} folder.{Font.end}'
                 )
