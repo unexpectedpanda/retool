@@ -5,6 +5,7 @@
 * [Installation](#installation)
   * [For those familiar with Git and Python](#for-those-familiar-with-git-and-python)
   * [For Windows users only familiar with graphical interfaces](#for-windows-users-only-familiar-with-graphical-interfaces)
+* [Using the Retool GUI](#using-the-retool-gui)
 * [Using Retool from the command line](#using-retool-from-the-command-line)
 * [Clonerel](#clonerel)
 
@@ -138,6 +139,13 @@ program.
 
 When opportunity presents, take some time to learn the command line &mdash; it can
 do some pretty cool things.
+
+
+## Using the Retool GUI
+
+Run `retool-gui.py`. It's optimized for Windows at this stage, but will work on
+Ubuntu with a few quirks. As the underlying module, _PySimpleGUIQt_ improves,
+so should the GUI across platforms.
 
 
 ## Using Retool from the command line
