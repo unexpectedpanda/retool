@@ -1,4 +1,3 @@
-import datetime
 import html
 import os
 import re
@@ -9,39 +8,57 @@ from modules.utils import Font, natural_keys, printwrap
 from modules.xml import header
 
 
-def generate_config(region_data):
-    if not os.path.isfile('user-config.yaml'):
+def generate_config(languages, regions, gui_settings=False, overwrite=False, gui=False):
+    if not os.path.isfile('user-config.yaml') or overwrite == True:
         try:
             with open('user-config.yaml', 'w') as output_file:
                 output_file.writelines('---\n# If the -l option is used, only include titles with the following languages.')
                 output_file.writelines('\n# Comment out languages you don\'t want.')
-                output_file.writelines('\n- language filter:')
+                output_file.writelines('\nlanguage filter:')
 
                 def write_entry(string, comment=False):
                     if comment == True:
-                        output_file.writelines(f'\n  # - {string}')
+                        output_file.writelines(f'\n# - {string}')
                     else:
-                        output_file.writelines(f'\n  - {string}')
+                        output_file.writelines(f'\n- {string}')
 
-                output_file.writelines(f'\n  - English')
-
-                for language in region_data.languages_long:
-                    if language != 'English':
+                if overwrite == False:
+                    for language in languages:
                         write_entry(language, True)
+                else:
+                    for language in languages:
+                        if 'True|' in language:
+                            write_entry(language[5:], True)
+                        else:
+                            write_entry(language)
 
                 output_file.writelines('\n\n# The region order Retool follows. Comment out the regions you don\'t want.')
-                output_file.writelines('\n- region order:')
+                output_file.writelines('\nregion order:')
 
-                for region in region_data.region_order:
-                    write_entry(region)
+                for region in regions:
+                    if overwrite == False:
+                        write_entry(region)
+                    else:
+                        if 'True|' in region:
+                            write_entry(region[5:], True)
+                        else:
+                            write_entry(region)
 
-                printwrap(
-                    f'{Font.warning}* The {Font.warning_bold}user-config.yaml '
-                    f'{Font.warning}file was missing, so a new one has been generated. '
-                    'You might want to edit it to define a custom region order, or to '
-                    f'filter specific languages. You can now run Retool '
-                    f'normally.{Font.end}', 'error')
-                sys.exit()
+                output_file.writelines('\n\n# GUI settings only, not used by the CLI.')
+                output_file.writelines('\ngui settings:')
+
+                if gui_settings != False:
+                    for setting in gui_settings:
+                        write_entry(setting)
+
+                if overwrite == False and gui==False:
+                    printwrap(
+                        f'{Font.warning}* The {Font.warning_bold}user-config.yaml '
+                        f'{Font.warning}file was missing, so a new one has been generated. '
+                        'You might want to edit it to define a custom region order, or to '
+                        f'filter specific languages. You can now run Retool '
+                        f'normally.{Font.end}', 'error')
+                    sys.exit()
 
         except OSError as e:
             print(f'\n{Font.error_bold}* Error: {Font.end}{str(e)}\n')

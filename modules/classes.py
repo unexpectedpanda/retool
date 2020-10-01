@@ -1,3 +1,4 @@
+import argparse
 import re
 
 from modules.titleutils import get_languages, get_raw_title, remove_languages,\
@@ -102,6 +103,7 @@ class DatNode:
             self.category = ''
         else:
             self.category = node.category.contents[0]
+
         self.description = node.description.contents[0]
         self.cloneof = ''
         self.cloneof_group = ''
@@ -157,6 +159,12 @@ class DatNode:
                 self.disc_type = 'BD-ROM'
             else:
                 self.disc_type = 'DVD/BD-ROM'
+
+        # Check if the (Demo) tag is missing, and add it if so
+        if self.category == 'Demos' and '(Demo' not in self.full_name:
+            self.short_name = self.short_name + ' (Demo)'
+            self.region_free_name = self.region_free_name + '(Demo)'
+            self.tag_free_name = self.tag_free_name + '(Demo)'
 
     def __str__(self):
         ret_str = []
@@ -328,6 +336,14 @@ class Regions():
         return ret_str
 
 
+class SmartFormatter(argparse.HelpFormatter):
+    def _split_lines(self, text, width):
+        if text.startswith('R|'):
+            return text[2:].splitlines()
+        # This is the RawTextHelpFormatter._split_lines
+        return argparse.HelpFormatter._split_lines(self, text, width)
+
+
 class Stats():
     """ Stores stats before processing the dat """
 
@@ -428,14 +444,13 @@ class Titles:
 class UserInput:
     """ Stores user input values, including what types of titles to exclude """
 
-    def __init__(self, input_file_name, output_folder_name,
-                 no_applications, no_bad_dumps, no_compilations,
-                 no_demos, no_educational, no_coverdiscs,
-                 no_multimedia, no_pirate, no_preproduction,
-                 no_promotional, no_unlicensed,
-                 supersets, filter_languages, legacy,
-                 user_options, verbose, keep_remove,
-                 use_cache):
+    def __init__(self, input_file_name='', output_folder_name='',
+                 no_applications='', no_bad_dumps='', no_compilations='',
+                 no_demos='', no_educational='', no_coverdiscs='',
+                 no_multimedia='', no_pirate='', no_preproduction='',
+                 no_promotional='', no_unlicensed='',
+                 supersets='', filter_languages='', legacy='',
+                 user_options='', verbose='', keep_remove=''):
         self.input_file_name = input_file_name
         self.output_folder_name = output_folder_name
 
@@ -456,4 +471,3 @@ class UserInput:
         self.user_options = user_options
         self.verbose = verbose
         self.keep_remove = keep_remove
-        self.use_cache = use_cache

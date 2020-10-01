@@ -1,3 +1,35 @@
+# 0.78
+- Implemented a GUI. You'll need to install `pysimpleguiqt`
+  with pip, and after that you can run it with `retool-gui.py`.
+  It's not as tight and consistent as it could be due to
+  limitations with PySimpleGUIQt, but given PySimpleGUI's
+  rapid, active development this should improve over time.
+  Right now it looks best on Windows. Ubuntu has been tested,
+  and looks a little janky, but is functional. MacOS hasn't
+  been tested.
+- You can now run `updateclonelists.py` to download the
+  latest clone lists. There's also an option available in the
+  GUI under the File menu.
+- Reformatted user-config.yaml so strictyaml liked it a bit
+  more, and things played well with the GUI. Improved YAML
+  handling at the same time. Make sure to backup your current
+  user-config.yaml before grabbing this version, so you can
+  port your region order/language settings over.
+- Moved to argparse to handle user input in the CLI. It's
+  less pretty, but it's more robust and scalable. This also
+  means that the `-i` option is no longer a thing when
+  specifying your input dat/folder -- instead, specify it
+  immediately after `retool.py`:
+
+  `retool.py <input dat/folder> <options>`
+- Stopped misassignment in clone lists if Redump left off the
+  `(Demo)` tag from a title.
+- Fixed an exit bug when the user would select only regions
+  and/or languages that didn't exist in the input dat.
+- Added a few promote tags.
+- Cleaned up some unused variables and imports.
+- Lots of code tweaks to better suit GUI interaction.
+
 # 0.77
 - The `-g` option now keeps applications, as they are useful for
   computer platforms like the Atari ST and Commodore Amiga.

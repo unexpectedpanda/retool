@@ -4,7 +4,7 @@ import operator
 import re
 import sys
 
-from modules.utils import Font, printverbose, printwrap
+from modules.utils import Font, printverbose
 
 def check_date(string, title):
         """ Basic date validation """
