@@ -86,7 +86,7 @@ You can update them from the GUI using the **File** menu, by running
 
 ## Using Retool from the command line
 
-For those who like a bit more power and are comfortable in the terminal,
+For those who like a bit more power and are comfortable in the command line,
 Retool offers a CLI version.
 
 ### Usage
