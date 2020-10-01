@@ -31,7 +31,7 @@ def check_input():
 
     dev_options.add_argument('--log',
                         action='store_true',
-                        help='R|also export a list of what titles have been kept and\nremoved/set as clones in the output dat')
+                        help='R|also export a list of what titles have been kept and\nremoved/set as clones in the output dat/s')
 
     dev_options.add_argument('--errors',
                         action='store_true',
