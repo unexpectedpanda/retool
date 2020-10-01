@@ -3,26 +3,21 @@
 """ retool.py: Creates 1G1R versions of [Redump](http://redump.org/)
 and [No-Intro](https://www.no-intro.org) dats.
 
-This is not an official Redump project.
 https://github.com/unexpectedpanda/retool
 """
 
 import datetime
 import glob
-import itertools
-import json
 import os
 import sys
-import re
 import time
 
-from bs4 import BeautifulSoup, Doctype
 from itertools import permutations
 
-from modules.classes import CloneList, Dat, Font, Regex, RegionKeys, Stats, TagKeys, Titles
+from modules.classes import Font, Regex, RegionKeys, Stats, TagKeys, Titles
 from modules.importdata import build_clone_lists, build_regions, build_tags, import_metadata
 from modules.output import generate_config, write_dat_file
-from modules.titleutils import assign_clones, get_raw_title, get_title_count, report_stats, choose_cross_region_parents
+from modules.titleutils import assign_clones, get_title_count, report_stats, choose_cross_region_parents
 from modules.userinput import check_input, import_user_config
 from modules.utils import printverbose, printwrap
 from modules.xml import dat_to_dict, process_input_dat
@@ -30,9 +25,9 @@ from modules.xml import dat_to_dict, process_input_dat
 # Require at least Python 3.8
 assert sys.version_info >= (3, 8)
 
-__version__ = '0.77'
+__version__ = '0.78'
 
-def main():
+def main(gui_input=''):
     # Start a timer from when the process started
     start_time = time.time()
 
@@ -45,8 +40,13 @@ def main():
         printwrap(
             f'Creates 1G1R versions of Redump ({Font.underline}'
             f'http://redump.org/{Font.end}) and No-Intro '
-            f'({Font.underline}https://www.no-intro.org/{Font.end}) dats.', 'no_indent'
+            f'({Font.underline}https://www.no-intro.org/{Font.end}) dats. '
+            f'A new dat file is automatically generated, the original file isn\'t altered.', 'no_indent'
         )
+
+        print(f'\nusage: {os.path.basename(sys.argv[0])} <input dat/folder> <options>')
+
+        print(f'\nType {Font.bold}{os.path.basename(sys.argv[0])} -h{Font.end} for all options\n')
 
     # Generate regions and languages
     region_data = build_regions(RegionKeys())
@@ -69,10 +69,13 @@ def main():
     REGEX = Regex(LANGUAGES)
 
     # Generate user config file if it's missing
-    generate_config(region_data)
+    generate_config(region_data.languages_long, region_data.region_order)
 
     # Check user input -- if none, or there's an error, available options will be shown
-    user_input = check_input()
+    if gui_input == '':
+        user_input = check_input()
+    else:
+        user_input = gui_input
 
     # Import the user-config.yaml file and assign filtered languages and custom
     # region order.
@@ -212,14 +215,22 @@ def main():
                 if disc_title.cloneof != '':
                     stats.clone_count += 1
 
-        # Get final title count
-        if user_input.legacy == False:
-            stats.final_title_count = get_title_count(titles, is_folder) - stats.clone_count
+        if bool(titles.all) == False:
+            stats.final_title_count = 0
         else:
-            stats.final_title_count = get_title_count(titles, is_folder)
+            # Get final title count
+            if user_input.legacy == False:
+                stats.final_title_count = get_title_count(titles, is_folder) - stats.clone_count
+            else:
+                stats.final_title_count = get_title_count(titles, is_folder)
 
         if stats.final_title_count != 0:
             # Name the output file
+            # Create the output folder if it doesn't exist
+            if user_input.output_folder_name != '' and not os.path.exists(user_input.output_folder_name):
+                print(f'* Creating folder "{Font.bold}{user_input.output_folder_name}{Font.end}"')
+                os.makedirs(user_input.output_folder_name)
+
             output_file_name = (
                 os.path.join(
                     user_input.output_folder_name,
@@ -232,10 +243,10 @@ def main():
             # Report stats
             report_stats(stats, titles, user_input, input_dat, region_data)
 
-        # Start the loop again if processing a folder
         else:
-            print(f'{Font.warning}\n* No titles found. No dat file has been created.\n{Font.end}')
+            print(f'{Font.warning}\n* No titles found. No dat file has been created.{Font.end}')
 
+        # Start the loop again if processing a folder
         if is_folder == True: continue
 
     # Stop the timer
@@ -256,7 +267,7 @@ def main():
                 f'{Font.success}* Finished processing {file_count} {file_noun} in the '
                 f'{Font.bold}"{user_input.input_file_name}{Font.success}" folder in '
                 f'{total_time_elapsed}s. 1G1R dats have been created in the '
-                f'{Font.bold}"{user_input.output_folder_name}"{Font.success} folder.{Font.end}'
+                f'{Font.bold}"{os.path.abspath(user_input.output_folder_name)}"{Font.success} folder.{Font.end}'
                 )
         else:
             # Set the summary message if no files were found in input folder
@@ -265,19 +276,24 @@ def main():
                 f'{Font.bold}"{user_input.input_file_name}"{Font.warning} folder.{Font.end}'
                 )
     else:
-        # Set the summary message if input was a single file
-        finish_message = (
-            f'{Font.success}* Finished adding '
-            f'{str("{:,}".format(stats.final_title_count))}'
-            f' unique titles to "{Font.bold}{output_file_name}" '
-            f'{Font.success}in {total_time_elapsed}s.{Font.end}'
-            )
+        if 'output_file_name' in locals():
+            # Set the summary message if input was a single file
+            finish_message = (
+                f'{Font.success}* Finished adding '
+                f'{str("{:,}".format(stats.final_title_count))}'
+                f' unique titles to "{Font.bold}{output_file_name}" '
+                f'{Font.success}in {total_time_elapsed}s.{Font.end}'
+                )
+        else:
+            finish_message = ''
 
     # Print the summary message
-    print('\n')
-    printwrap(f'{finish_message}\n')
+    printwrap(f'\n{finish_message}\n')
 
     return
+
+def retool_version():
+    return __version__
 
 
 if __name__ == '__main__':
