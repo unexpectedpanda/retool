@@ -26,7 +26,7 @@ Terminal, Command Prompt, or whatever the CLI is on your system, and type:
 pip install bs4 lxml strictyaml pysimpleguiqt
 ```
 
-#### I'm seeing a libxcb error in Linux
+#### I'm seeing a libxcb error in Linux when using retool-gui.py
 
 Looks like some installs are a bit wonky when it comes to libxcb. This worked
 for me on a fresh install of Ubuntu 20.04:
