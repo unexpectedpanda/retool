@@ -1,36 +1,61 @@
 # Retool
+* [What it does](#what-it-does)
+* [Why not use CLRMAMEPro or Romcenter's 1G1R mode with a parent/clone dat?](#why-not-use-clrmamepro-or-romcenters-1G1R-mode-with-a-parent-clone-dat)
+* [Installation](#installation)
+  * [For those familiar with Git and Python](#for-those-familiar-with-git-and-python)
+  * [For Windows users only familiar with graphical interfaces](#for-windows-users-only-familiar-with-graphical-interfaces)
+* [Clone lists](#clone-lists)
+* [Using Retool from the command line](#using-retool-from-the-command-line)
+* [Clonerel](#clonerel)
+
+
+## What it does
 
 Retool converts [Redump](http://redump.org/) and
 [No-Intro](https://www.no-intro.org/) dats to 1G1R, doing a better job than
-dat managers. It has both GUI and CLI versions.
+dat managers with parent/clone dats. It has both GUI and CLI versions.
 
-You'll need a dat manager to use the files Retool creates, such as
+You'll still need a dat manager to use the files Retool creates, such as
 [CLRMamePro](https://mamedev.emulab.it/clrmamepro/),
 [RomVault](https://www.romvault.com/), or
-[Romcenter](https://www.romcenter.com/).
+[Romcenter](https://www.romcenter.com/) &mdash; you just won't need to use
+their 1G1R modes, as Retool will have already done the work for you.
 
 ![Retool GUI](https://github.com/unexpectedpanda/retool/wiki/images/retool-gui.png)
 
-## Why not just use CLRMAMEPro or Romcenter's 1G1R mode with a parent/clone dat?
+## Why not use CLRMAMEPro or Romcenter's 1G1R mode with a parent/clone dat?
 
-Usually, parent/clone dats help dat managers like CLRMAMEPro to create 1G1R
-sets. After loading the dat into the dat manager, you set your desired regions
-and region order, and whether or not to filter by languages (assuming the dat
-has `<release>` tags properly set up &mdash; something which is vanishingly
-rare). You then trust the dat manager to choose the perfect parent title for you
-from your favorite region, discarding the clones from other regions.
+Historically if you wanted to create a 1G1R set, you'd use a parent/clone dat in
+combination with a dat manager like CLRMAMEPro or Romcenter. After loading the
+dat into the dat manager, you'd set your desired regions and region order, and
+whether or not to filter by languages (assuming the dat has `<release>` tags
+properly set up &mdash; something which is vanishingly rare). You'd then trust
+the dat manager to choose the perfect parent title for you from your favorite
+region, discarding the clones from other regions.
 
-Dat managers and parent/clone dats don't have a concept of title priority
-though. For example, what happens when there are two copies of the same title
-from the same region, but they have different names? Or different version
-numbers? Or are published by different companies at different times? Which title
-does the dat manager choose then?
+Here's the thing. The parent/clone dat format was created for
+[MAME](https://www.mamedev.org), to enable one of the ways in which it organizes
+its ROMs. A "parent" ROM in MAME contains the base or common files for a game,
+while "clone" ROMs only contain files that are different from the parent. If you
+load a clone game in MAME, it's smart enough to load the base files from the
+parent, and any of the modified files it needs from the clone.
 
-Retool figures this out for you. It even identifies the languages of each
-title by using multiple sources &mdash; the implied language spoken in the
-region the title is from, languages explicitly listed in the title's filename,
-and languages listed on Redump's website, which aren't always included in
-filenames.
+Standard 1G1R through a dat manager is effectively a hack on top of this system.
+In 1G1R mode a dat manager takes the parent and ignores the clones, in an effort
+to only include the "best" or most desired version of a title. While on the
+surface this seems reasonable, if you look a little closer you start to see the
+cracks.
+
+The primary issue is that dat managers and parent/clone dats don't have a
+concept of title priority. For example, what happens when there are two copies
+of the same title from the same region, but they have different names? Or
+different version numbers? Or were published by different companies at different
+times? Which title does the dat manager choose then?
+
+Retool figures this out for you. It even identifies the languages of each title
+by using multiple sources &mdash; the implied language spoken in the region the
+title is from, languages explicitly listed in the title's filename, and
+languages listed on Redump's website, which aren't always included in filenames.
 
 After you set up the GUI or `user-config.yaml` to your liking, Retool's output
 is already 1G1R, meaning you don't need to select 1G1R mode, regions, or
