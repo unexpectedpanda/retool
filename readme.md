@@ -62,6 +62,41 @@ is already 1G1R, meaning you don't need to select 1G1R mode, regions, or
 languages in your dat manager &mdash; just load the dat and go.
 
 
+## Clone lists
+
+While Retool is smart enough to automatically match certain types of parents and
+clones, there are certain situations that require manual assignment, like when
+a title has a different name in different regions. To achieve this, Retool keeps
+[clone lists](https://github.com/unexpectedpanda/retool/wiki/Clone-lists).
+
+At the time of writing, Retool's clone lists are the most thorough that I know
+of. I manually combed through titles in most dats, and cross referenced them on
+[Wikipedia](https://www.wikipedia.org),
+[Moby Games](https://www.mobygames.com),
+[Retroplace](https://www.retroplace.com), [GameTDB](https://www.gametdb.com),
+[VDGB](https://vgdb.io), [VGM](https://www.video-games-museum.com),
+[YouTube](https://www.youtube.com), [Amazon.jp](https://www.amazon.co.jp),
+[PlayAsia](https://www.play-asia.com/),
+[Sega Retro](https://segaretro.org/), [PSCX2 Wiki](https://wiki.pcsx2.net),
+[PlayStation DataCenter](https://psxdatacenter.com/),
+[The Cutting Room Floor](https://tcrf.net),
+and [Atari Mania](http://www.atarimania.com). I checked out the Parent/Clone
+dats for No-Intro, and occasionally I went through Redump's site for Japanese,
+Korean, Russian, and Chinese characters for titles, so I could do
+translations and find out what they were called in other languages. When all
+else failed, I did some good old web searching in order to turn up information.
+ At some point I discovered
+[FilterQuest](https://github.com/UnluckyForSome/FilterQuest), a similar tool,
+and added some missing titles from there.
+
+Clone lists are updated independently of the program, and are formatted as JSON
+files. They are stored in a subfolder called `clonelists`, which is in the same
+folder as Retool.
+
+You can update them from the GUI using the **File** menu, by running
+`updateclonelists.py`, or by downloading them yourself from this repository.
+
+
 ## Installation
 
 ### For those familiar with Git and Python
@@ -103,21 +138,6 @@ program.
 
 When opportunity presents, take some time to learn the command line &mdash; it can
 do some pretty cool things.
-
-
-## Clone lists
-
-While Retool is smart enough to automatically match certain types of parents and
-clones, there are certain situations that require manual assignment. To achieve
-this, Retool keeps
-[clone lists](https://github.com/unexpectedpanda/retool/wiki/Clone-lists).
-
-Clone lists are updated independently of the program, and are formatted as JSON
-files. They are stored in a subfolder called `clonelists`, which is in the same
-folder as Retool.
-
-You can update them from the GUI using the **File** menu, by running
-`updateclonelists.py`, or by downloading them yourself from this repository.
 
 
 ## Using Retool from the command line
