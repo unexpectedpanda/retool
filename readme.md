@@ -26,20 +26,6 @@ Terminal, Command Prompt, or whatever the CLI is on your system, and type:
 pip install bs4 lxml strictyaml pysimpleguiqt
 ```
 
-#### Troubleshooting Python
-
-Some systems have the Python 3.x binary installed separately as `python3`.
-You might need to run this instead of `python`.
-
-#### Troubleshooting pip
-
-* Some systems have multiple versions of Python installed. You might need to
-run `pip3` instead of `pip`.
-* Python will complain that the `bs4` module doesn't exist if `pip`
-is installing modules to the wrong folder for Python 3.x access. If using
-`pip3` instead of `pip` doesn't fix the issue, do a web search to solve the
-problem on your OS of choice.
-
 #### I'm seeing a libxcb error in Linux
 
 Looks like some installs are a bit wonky when it comes to libxcb. This worked
@@ -50,7 +36,7 @@ sudo apt-get install libxcb-randr0-dev libxcb-xtest0-dev libxcb-xinerama0-dev li
 ```
 
 ### For Windows users only familiar with graphical interfaces
-Fear not! You can get going in a few steps:
+Fear not, you can get going in a few steps:
 
 1. Make sure you're connected to the internet for the entire procedure.
 1. Download [Python](https://www.python.org/downloads/) and run the installer.
@@ -65,8 +51,8 @@ Fear not! You can get going in a few steps:
 From this point onwards, you'll only need to double click `retool-gui.py` to run the
 program.
 
-When opportunity presents, take time to learn the command line &mdash; it can do
-some pretty cool things!
+When opportunity presents, take some time to learn the command line &mdash; it can
+do some pretty cool things.
 
 
 ## Clone lists
