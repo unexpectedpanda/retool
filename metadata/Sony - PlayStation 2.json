@@ -19215,7 +19215,7 @@
         "edition": "Original"
     },
     "Dragon Quest V - Tenkuu no Hanayome (Japan)": {
-        "secondary_name": "ドラゴンクエストⅤ天空の花嫁",
+        "secondary_name": "ドラゴンクエストⅤ　天空の花嫁",
         "group_name": "Dragon Quest V - Tenkuu no Hanayome",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -22419,9 +22419,9 @@
         "edition": "Bundled with EyeToy"
     },
     "Tennis no Oujisama - Smash Hit! (Japan)": {
-        "secondary_name": "テニスの王子様 スマッシュヒット!",
+        "secondary_name": "テニスの王子様　スマッシュヒット！",
         "group_name": "Tennis no Oujisama - Smash Hit!",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.03",
@@ -46842,7 +46842,7 @@
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.30",
-        "edition": "Original, Controller Doukonban"
+        "edition": "Original, Soft・Controller・Stand Doukon Set"
     },
     "WinBack - Covert Operations (USA) (En,Ja)": {
         "secondary_name": "",
@@ -75541,7 +75541,7 @@
         "group_name": "Pitfall - The Lost Expedition",
         "status": "Blue",
         "disc_type": "DVD-5",
-        "languages": "",
+        "languages": "It",
         "version": "1.00",
         "edition": "Original"
     },
@@ -78614,14 +78614,14 @@
         "version": "1.00",
         "edition": "Original"
     },
-    "Dragon Quest VIII Premium Disc (Japan)": {
+    "Dragon Quest VIII Premium Eizou Disc (Japan)": {
         "secondary_name": "ドラゴンクエストⅧ　プレミアム映像ディスク",
-        "group_name": "Dragon Quest VIII Premium Disc",
+        "group_name": "Dragon Quest VIII Premium Eizou Disc",
         "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.01",
-        "edition": "Original"
+        "edition": "PS2 Game Bundle"
     },
     "Simple 2000 Series Vol. 82 - The Kung Fu (Japan)": {
         "secondary_name": "ＳＩＭＰＬＥ　２０００　シリーズ　Ｖｏｌ．８２　ＴＨＥ　カンフー",
@@ -81107,14 +81107,14 @@
         "version": "1.00",
         "edition": "Original"
     },
-    "Higurashi no Naku Koro ni - Matsuri - Kakera Asobi (Japan) (Append Ban)": {
+    "Higurashi no Naku Koro ni - Matsuri - Kakera Asobi (Japan) (Append-ban)": {
         "secondary_name": "ひぐらしのなく頃に祭 カケラ遊び・アペンド版",
         "group_name": "Higurashi no Naku Koro ni - Matsuri - Kakera Asobi",
         "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.01",
-        "edition": "Append Ban"
+        "edition": "Append-ban"
     },
     "Canvas 3 - Tanshoku no Pastel (Japan)": {
         "secondary_name": "キャンバス３　～淡色のパステル～",
@@ -89575,5 +89575,23 @@
         "languages": "En",
         "version": "1.00",
         "edition": "Demo"
+    },
+    "Higurashi no Naku Koro ni - Matsuri - Kakera Asobi (Japan)": {
+        "secondary_name": "ひぐらしのなく頃に祭 カケラ遊び",
+        "group_name": "Higurashi no Naku Koro ni - Matsuri - Kakera Asobi",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "Ja",
+        "version": "1.01",
+        "edition": "Original"
+    },
+    "Transformers (Korea)": {
+        "secondary_name": "트랜스포머",
+        "group_name": "Transformers",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "En",
+        "version": "1.00",
+        "edition": "Original"
     }
 }

@@ -1361,7 +1361,7 @@
     "Str.at.e.s. 5 - Parallel Lives! (USA)": {
         "secondary_name": "",
         "group_name": "Str.at.e.s. 5 - Parallel Lives!",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -13772,11 +13772,11 @@
     "Backgammon (Japan)": {
         "secondary_name": "バックギャモン",
         "group_name": "Backgammon",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
-        "edition": "Original"
+        "edition": "Original, Reprint"
     },
     "Spyro - Year of the Dragon (Europe) (En,Fr,De,Es,It) (Rev 1)": {
         "secondary_name": "",
@@ -14883,7 +14883,7 @@
         "disc_type": "CD",
         "languages": "En",
         "version": "",
-        "edition": "Greatest Hits"
+        "edition": "Original, Greatest Hits"
     },
     "K9.5 1 - Live in Airedale (USA)": {
         "secondary_name": "",
@@ -21341,7 +21341,7 @@
     "Quaddle Family Mysteries, The 3 - The Case of the Scarce Scarab - Parlor & Family Room (USA)": {
         "secondary_name": "",
         "group_name": "Quaddle Family Mysteries, The 3 - The Case of the Scarce Scarab - Parlor & Family Room",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -26424,7 +26424,7 @@
         "edition": "Original"
     },
     "Gran Turismo 2 (Japan, Asia) (Disc 1) (Arcade)": {
-        "secondary_name": "グランツーリスモ2",
+        "secondary_name": "グランツーリスモ２",
         "group_name": "Gran Turismo 2",
         "status": "Green",
         "disc_type": "CD",
@@ -32321,7 +32321,7 @@
     "KazMania 2 - Chaos in KazMania (USA)": {
         "secondary_name": "",
         "group_name": "KazMania 2 - Chaos in KazMania",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -34787,7 +34787,7 @@
     "Quaddle Family Mysteries, The 2 - The Case of the Scarce Scarab - Garden (USA)": {
         "secondary_name": "",
         "group_name": "Quaddle Family Mysteries, The 2 - The Case of the Scarce Scarab - Garden",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -37343,7 +37343,7 @@
     "Mona & Moki 2 - Drive Me Wilder! (USA)": {
         "secondary_name": "",
         "group_name": "Mona & Moki 2 - Drive Me Wilder!",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -38466,7 +38466,7 @@
         "edition": "Original"
     },
     "Final Fantasy V (Japan, Asia)": {
-        "secondary_name": "ファイナルファンタジーV",
+        "secondary_name": "ファイナルファンタジーⅤ",
         "group_name": "Final Fantasy V",
         "status": "Green",
         "disc_type": "CD",
@@ -49178,7 +49178,7 @@
     "Str.at.e.s. 2 - Matchamania! (USA)": {
         "secondary_name": "",
         "group_name": "Str.at.e.s. 2 - Matchamania!",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -54398,7 +54398,7 @@
     "Str.at.e.s. 6 - Analogy-ology! (USA)": {
         "secondary_name": "",
         "group_name": "Str.at.e.s. 6 - Analogy-ology!",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -55221,7 +55221,7 @@
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
-        "edition": "Original"
+        "edition": "Demo"
     },
     "Monte Carlo Games Compendium (Europe) (Disc 1)": {
         "secondary_name": "",
@@ -58763,7 +58763,7 @@
     "Str.at.e.s. 4 - Titlerama! (USA)": {
         "secondary_name": "",
         "group_name": "Str.at.e.s. 4 - Titlerama!",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -59375,7 +59375,7 @@
     "P.K.'s Place 3 - Carlos at the Races! (USA)": {
         "secondary_name": "",
         "group_name": "P.K.'s Place 3 - Carlos at the Races!",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -80867,11 +80867,11 @@
     "Yuukyuu Gensoukyoku (Japan)": {
         "secondary_name": "悠久幻想曲",
         "group_name": "Yuukyuu Gensoukyoku",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
-        "edition": "Yuukyuu Gensoukyoku Hozonban Perpetual Collection (Disc 1)"
+        "edition": "Original, Yuukyuu Gensoukyoku Hozonban Perpetual Collection (Disc 1)"
     },
     "K-1 Revenge (USA)": {
         "secondary_name": "",
@@ -90299,7 +90299,7 @@
     "P.K.'s Place 4 - Daphne and the Seventh Wonder (USA)": {
         "secondary_name": "",
         "group_name": "P.K.'s Place 4 - Daphne and the Seventh Wonder",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -92673,7 +92673,7 @@
         "edition": "Original"
     },
     "Gran Turismo 2 (Japan, Asia) (Disc 2) (Gran Turismo)": {
-        "secondary_name": "グランツーリスモ2",
+        "secondary_name": "グランツーリスモ２",
         "group_name": "Gran Turismo 2",
         "status": "Green",
         "disc_type": "CD",
@@ -92711,7 +92711,7 @@
     "P.K.'s Math Studio (USA)": {
         "secondary_name": "",
         "group_name": "P.K.'s Math Studio",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -93670,5 +93670,59 @@
         "languages": "Ja",
         "version": "",
         "edition": "Best of the Best"
+    },
+    "Kougien CD-ROM 2000-nen Natsu-ban (Japan)": {
+        "secondary_name": "広技苑CD-ROM2000年夏版",
+        "group_name": "Kougien CD-ROM 2000-nen Natsu-ban",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Bundled with Book"
+    },
+    "Game Guru 7 (Russia) (En,Ru) (Unl)": {
+        "secondary_name": "",
+        "group_name": "Game Guru 7",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En, Ru",
+        "version": "",
+        "edition": "Unlicensed"
+    },
+    "Vacuum - Videoclips (Russia) (Unl)": {
+        "secondary_name": "Vacuum: видеоклипы",
+        "group_name": "Vacuum - Videoclips",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Unlicensed"
+    },
+    "P.K.'s Place 2 - Hoopo at Sea! (USA) (Rev 1)": {
+        "secondary_name": "",
+        "group_name": "P.K.'s Place 2 - Hoopo at Sea!",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "Rev 1",
+        "edition": "Original"
+    },
+    "Yarudora (Japan) (Demo)": {
+        "secondary_name": "やるドラ",
+        "group_name": "Yarudora",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Taikenban"
+    },
+    "KazMania 2 - Chaos in KazMania (USA) (Rev 1)": {
+        "secondary_name": "",
+        "group_name": "KazMania 2 - Chaos in KazMania",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "Rev 1",
+        "edition": "Original"
     }
 }
