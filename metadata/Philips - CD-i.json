@@ -602,7 +602,7 @@
         "version": "",
         "edition": "Original"
     },
-    "Inca (Europe) (En,Fr,De,Nl)": {
+    "Inca (Europe) (En,Fr,De,Nl) (Rev 1)": {
         "secondary_name": "",
         "group_name": "Inca",
         "status": "Green",
@@ -629,7 +629,7 @@
         "version": "",
         "edition": "Demonstration Disc"
     },
-    "World of Impressionism, The (USA)": {
+    "World of Impressionism, The (Europe)": {
         "secondary_name": "",
         "group_name": "World of Impressionism, The",
         "status": "Blue",
@@ -773,7 +773,7 @@
         "version": "",
         "edition": "Original"
     },
-    "Backgammon (USA)": {
+    "Backgammon (Europe)": {
         "secondary_name": "",
         "group_name": "Backgammon",
         "status": "Blue",
@@ -906,7 +906,7 @@
         "disc_type": "CD",
         "languages": "En, Fr",
         "version": "",
-        "edition": "Original, Demonstration Disc: Not for Resale"
+        "edition": "Original, Demonstration Disc"
     },
     "Zombie Dinos vom Planeten Zeltoid (Germany)": {
         "secondary_name": "",
@@ -1511,12 +1511,12 @@
         "version": "",
         "edition": "Original"
     },
-    "USA '94 World Cup (Europe)": {
+    "USA '94 World Cup (Europe) (En,Es,It)": {
         "secondary_name": "",
         "group_name": "USA '94 World Cup",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "En",
+        "languages": "En, It, Es",
         "version": "1.05",
         "edition": "Original"
     },
@@ -1628,7 +1628,7 @@
         "version": "",
         "edition": "Original"
     },
-    "Jigsaw - The Ultimate Electronic Puzzle (USA)": {
+    "Jigsaw - The Ultimate Electronic Puzzle (Europe)": {
         "secondary_name": "",
         "group_name": "Jigsaw - The Ultimate Electronic Puzzle",
         "status": "Blue",
@@ -1743,7 +1743,7 @@
         "disc_type": "CD",
         "languages": "En",
         "version": "",
-        "edition": "Original"
+        "edition": "Original, For Demonstration Only"
     },
     "Oogst van de Zon (Netherlands)": {
         "secondary_name": "",
@@ -2096,7 +2096,7 @@
         "version": "",
         "edition": "Original, Demonstration Disc"
     },
-    "Connect Four (USA)": {
+    "Connect Four (Europe)": {
         "secondary_name": "",
         "group_name": "Connect Four",
         "status": "Blue",
@@ -2291,6 +2291,78 @@
         "status": "Blue",
         "disc_type": "CD",
         "languages": "En, Es",
+        "version": "",
+        "edition": "Original"
+    },
+    "Joy of Sex, The (Europe)": {
+        "secondary_name": "",
+        "group_name": "Joy of Sex, The",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Ange et le Demon, L' (France)": {
+        "secondary_name": "",
+        "group_name": "Ange et le Demon, L'",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Fr",
+        "version": "",
+        "edition": "Original"
+    },
+    "Chaos Control (France) (Demo)": {
+        "secondary_name": "",
+        "group_name": "Chaos Control",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Demo"
+    },
+    "Burn-Cycle (France) (Demo)": {
+        "secondary_name": "",
+        "group_name": "Burn-Cycle",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Demo"
+    },
+    "Inca (Europe) (En,Fr,De,Nl)": {
+        "secondary_name": "",
+        "group_name": "Inca",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Nl, En, Fr, De",
+        "version": "",
+        "edition": "Original"
+    },
+    "Rock Guitar - A Beginner's Guide (Europe)": {
+        "secondary_name": "Private Lesson Series: Rock Guitar: A Beginner's Guide",
+        "group_name": "Rock Guitar - A Beginner's Guide",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "For Demonstration Only"
+    },
+    "Strip-Poker Pro (France)": {
+        "secondary_name": "",
+        "group_name": "Strip-Poker Pro",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Fr",
+        "version": "",
+        "edition": "Original"
+    },
+    "Pinball (Europe) (Alt)": {
+        "secondary_name": "",
+        "group_name": "Pinball",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
         "version": "",
         "edition": "Original"
     }

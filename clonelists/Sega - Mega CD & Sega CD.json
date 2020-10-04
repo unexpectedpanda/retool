@@ -3,7 +3,7 @@
 		"name": [
 			"Sega - Mega CD & Sega CD"
 		],
-		"last updated": "6 July 2020"
+		"last updated": "4 October 2020"
 	},
 
 	"renames": {
@@ -66,6 +66,9 @@
 		"Mansion of Hidden Souls": [
 			["Yumemi Mystery Mansion", 1],
 			["Yumemi Yakata no Monogatari", 1]
+		],
+		"Marko": [
+			["Marko's Magic Football", 0]
 		],
 		"Masked Rider, The - Kamen Rider ZO": [
 			["Kamen Rider ZO", 1]

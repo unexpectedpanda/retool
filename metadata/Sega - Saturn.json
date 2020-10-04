@@ -13499,7 +13499,7 @@
         "version": "1.000",
         "edition": "Original"
     },
-    "Wing Arms (USA)": {
+    "Wing Arms (USA) (5S)": {
         "secondary_name": "",
         "group_name": "Wing Arms",
         "status": "Green",
@@ -20859,6 +20859,15 @@
         "disc_type": "CD",
         "languages": "En",
         "version": "1.000",
+        "edition": "Original"
+    },
+    "Wing Arms (USA) (4S)": {
+        "secondary_name": "",
+        "group_name": "Wing Arms",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "1.001",
         "edition": "Original"
     }
 }

@@ -3,7 +3,7 @@
 		"name": [
 			"IBM - PC compatible"
 		],
-		"last updated": "27 September 2020"
+		"last updated": "4 October 2020"
 	},
 
 	"compilations": [
@@ -22,6 +22,7 @@
 		"Bravo ScreenFun 2-02 (Germany)",
 		"Bravo ScreenFun 7-01 (Germany)",
 		"Broken Sword I & II Double Pack (Europe) (Sold Out Software)",
+		"Call of Duty - War Chest (USA) (Disc 2)",
 		"Dragon's Lair & Crusade (Germany)",
 		"Fistfight & Ultimate Body Blows (USA)",
 		"GameTek 3 in 1 Compilation - Road Warrior + Brutal + Humans 3 (Europe)",
@@ -4003,9 +4004,10 @@
 			["Neverwinter Nights - Der Schatten von Undernzit", 1],
 			["PC Games DVD 02-2007 (Disc 2) (Video Bereich)", 2]
 		],
-		"Neverwinter Nights 2": [
+		"Neverwinter Nights 2 (Limited Edition)": [
 			["Neverwinter Nights Complete (Disc 1)", -1],
-			["Neverwinter Nights 2 (Lawful Good)", 0]
+			["Neverwinter Nights 2 (Lawful Good)", 0],
+			["Neverwinter Nights 2", 2]
 		],
 		"Neverwinter Nights 2 - Mask of the Betrayer": [
 			["Neverwinter Nights Complete (Disc 1)", -1]
@@ -4538,6 +4540,9 @@
 		],
 		"Quest for Glory V - Dragon Fire (Install CD)": [
 			["Quest for Glory V - Drachenfeuer (Disc 2)", 1]
+		],
+		"Ragdoll Kung Fu - Black Belt Edition": [
+			["Ragdoll Kung Fu", 2]
 		],
 		"Rage (Disc 1)": [
 			["Rage (Disc 1) (Anarchy Edition)", 0]

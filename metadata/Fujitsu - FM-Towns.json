@@ -3490,5 +3490,23 @@
         "languages": "Ja",
         "version": "",
         "edition": "Original"
+    },
+    "CRISS Ver. 1.00 (Japan)": {
+        "secondary_name": "",
+        "group_name": "CRISS Ver. 1.00",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Custom Mate + Denwa no Bell ga... (Japan)": {
+        "secondary_name": "カスタム・メイト／電話のベルが…",
+        "group_name": "Custom Mate + Denwa no Bell ga...",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
     }
 }

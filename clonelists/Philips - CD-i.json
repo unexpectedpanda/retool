@@ -3,7 +3,7 @@
 		"name": [
 			"Philips - CD-i"
 		],
-		"last updated": "5 June 2020"
+		"last updated": "4 October 2020"
 	},
 
 	"renames": {
@@ -26,7 +26,7 @@
 			["Burn-Cycle (Il Gioco)", 1],
 			["Burn-Cycle (Jeu)", 1]
 		],
-		"Harvest Of The Sun - Van Gogh - Une Moisson de Soleils": [
+		"Harvest of the Sun - Van Gogh - Une Moisson de Soleils": [
 			["Raccolto del Sole, Il - Van Gogh", 1],
 			["Oogst van de Zon", 1]
 		],
@@ -40,8 +40,15 @@
 		"Palm Springs Open, The": [
 			["L'Open de Palm Springs", 1]
 		],
-		"Rinascimento a Firenze, Il": [
+		"Portrait of a City - Venice": [
+			["Ritratto di Citta - Venezia", 1]
+		],
+		"Renaissance of Florence, The": [
+			["Rinascimento a Firenze, Il", 1],
 			["Renaissance van Florence, De", 1]
+		],
+		"Sandy's Circus Adventure": [
+			["Sandy's Circus Avontuur", 1]
 		],
 		"Scotland Yard Interactive": [
 			["Scotland Yard Interactif", 1]
