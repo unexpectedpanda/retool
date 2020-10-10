@@ -8705,7 +8705,7 @@
     "Time Stalkers (USA)": {
         "secondary_name": "",
         "group_name": "Time Stalkers",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "GD-ROM",
         "languages": "En",
         "version": "1.002",
@@ -12193,5 +12193,14 @@
         "languages": "Ja",
         "version": "0.203",
         "edition": "Taikenban"
+    },
+    "Yu Suzuki Game Works Vol. 1 (Japan)": {
+        "secondary_name": "鈴木裕ゲームワークス　Ｖｏｌ．１",
+        "group_name": "Yu Suzuki Game Works Vol. 1",
+        "status": "Blue",
+        "disc_type": "GD-ROM",
+        "languages": "Ja",
+        "version": "1.002",
+        "edition": "Original"
     }
 }

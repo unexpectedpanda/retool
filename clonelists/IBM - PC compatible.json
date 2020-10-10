@@ -3,7 +3,7 @@
 		"name": [
 			"IBM - PC compatible"
 		],
-		"last updated": "4 October 2020"
+		"last updated": "10 October 2020"
 	},
 
 	"compilations": [
@@ -1912,6 +1912,12 @@
 		],
 		"Dungeon Siege II (Disc 1)": [
 			["Dungeon Siege II (Install Disc 1 & Play Disc)", 1]
+		],
+		"Dynasty Warriors 4 - Hyper (Disc 1)": [
+			["Dynasty Warriors 4 - Hyper", 0]
+		],
+		"Dynasty Warriors 4 - Hyper (Disc 2)": [
+			["Dynasty Warriors 4 - Hyper", 0]
 		],
 		"Dynasty Warriors 6": [
 			["Shin Sangoku Musou 5", 1]

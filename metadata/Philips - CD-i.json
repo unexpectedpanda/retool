@@ -74,11 +74,11 @@
     "L'Open de Palm Springs (France)": {
         "secondary_name": "",
         "group_name": "L'Open de Palm Springs",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Fr",
         "version": "",
-        "edition": "Original"
+        "edition": "Original, For Demonstration Only"
     },
     "SuperTest (Europe) (De,It)": {
         "secondary_name": "",
@@ -308,7 +308,7 @@
     "International Tennis Open (Germany) (En,De)": {
         "secondary_name": "",
         "group_name": "International Tennis Open",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En, De",
         "version": "",
@@ -389,7 +389,7 @@
     "Striker Pro (Europe)": {
         "secondary_name": "",
         "group_name": "Striker Pro",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "1.14",
@@ -416,7 +416,7 @@
     "Dictionnaire Hachette Multimedia (France)": {
         "secondary_name": "",
         "group_name": "Dictionnaire Hachette Multimedia",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Fr",
         "version": "",
@@ -497,7 +497,7 @@
     "TF1 - Le Journal Interactif 94 et Le Jeu des Stars de l'Info (France) (Disc 2) (Le Jeu des Stars de l'Info)": {
         "secondary_name": "",
         "group_name": "TF1 - Le Journal Interactif 94 et Le Jeu des Stars de l'Info",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Fr",
         "version": "",
@@ -524,7 +524,7 @@
     "7th Guest, The (France) (Disc 1) (Le Jeu)": {
         "secondary_name": "",
         "group_name": "7th Guest, The",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Fr",
         "version": "1.03",
@@ -542,7 +542,7 @@
     "Lost Eden (France)": {
         "secondary_name": "",
         "group_name": "Lost Eden",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Fr",
         "version": "1.09",
@@ -578,7 +578,7 @@
     "7th Guest, The (Europe) (Disc 1) (The Game)": {
         "secondary_name": "",
         "group_name": "7th Guest, The",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "1.13",
@@ -785,7 +785,7 @@
     "Chaos Control (Germany)": {
         "secondary_name": "",
         "group_name": "Chaos Control",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "De",
         "version": "1.04",
@@ -971,7 +971,7 @@
         "version": "1.07",
         "edition": "Original"
     },
-    "Kether (Europe) (En,Fr)": {
+    "Kether (Europe) (En,Fr) (Rev 1)": {
         "secondary_name": "",
         "group_name": "Kether",
         "status": "Green",
@@ -1100,7 +1100,7 @@
     "Philips Audio-Video Products '92-'93 on CD-Interactive (Europe) (En,Fr,De,Es,It,Nl)": {
         "secondary_name": "",
         "group_name": "Philips Audio-Video Products '92-'93 on CD-Interactive",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Nl, En, Fr, De, It, Es",
         "version": "",
@@ -1406,7 +1406,7 @@
     "Lettergreep (Netherlands)": {
         "secondary_name": "",
         "group_name": "Lettergreep",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Nl",
         "version": "1.04",
@@ -1685,7 +1685,7 @@
     "Asterix - Die grosse Reise (Germany)": {
         "secondary_name": "",
         "group_name": "Asterix - Die grosse Reise",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "De",
         "version": "1.06",
@@ -1820,7 +1820,7 @@
     "Lost Eden (Germany)": {
         "secondary_name": "",
         "group_name": "Lost Eden",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "De",
         "version": "1.09",
@@ -1860,12 +1860,12 @@
         "disc_type": "CD",
         "languages": "En",
         "version": "",
-        "edition": "Original"
+        "edition": "Original, For Demonstration Only"
     },
     "TF1 - Le Journal Interactif 94 et Le Jeu des Stars de l'Info (France) (Disc 1) (Le Journal Interactif 94)": {
         "secondary_name": "",
         "group_name": "TF1 - Le Journal Interactif 94 et Le Jeu des Stars de l'Info",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Fr",
         "version": "",
@@ -1883,7 +1883,7 @@
     "Alles over CD-i (Netherlands)": {
         "secondary_name": "",
         "group_name": "Alles over CD-i",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Nl",
         "version": "",
@@ -1952,17 +1952,17 @@
         "version": "1.01",
         "edition": "Bundled with Philips CD-i 450"
     },
-    "CD Shoot (Europe)": {
+    "CD Shoot (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt)": {
         "secondary_name": "",
         "group_name": "CD Shoot",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
-        "languages": "En",
+        "languages": "Nl, En, Fr, De, It, Ja, Pt, Es",
         "version": "",
         "edition": "Original"
     },
     "Battleship (Europe)": {
-        "secondary_name": "Battleship: Schiffeversenken mit der US Navy",
+        "secondary_name": "Battleship: Schiffeversenken mit der US Navy|Battleship: Bataille Navale",
         "group_name": "Battleship",
         "status": "Green",
         "disc_type": "CD",
@@ -2004,7 +2004,7 @@
         "disc_type": "CD",
         "languages": "Fr",
         "version": "",
-        "edition": "Original"
+        "edition": "Original, Demonstration Disc"
     },
     "Kether (USA) (En,Fr)": {
         "secondary_name": "",
@@ -2333,7 +2333,7 @@
     "Inca (Europe) (En,Fr,De,Nl)": {
         "secondary_name": "",
         "group_name": "Inca",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Nl, En, Fr, De",
         "version": "",
@@ -2360,6 +2360,294 @@
     "Pinball (Europe) (Alt)": {
         "secondary_name": "",
         "group_name": "Pinball",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Interactive Education - Learning To Read - Action 1 (USA)": {
+        "secondary_name": "",
+        "group_name": "Interactive Education - Learning To Read - Action 1",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": ""
+    },
+    "Interactive Education - Converting Fractions to Decimals (USA)": {
+        "secondary_name": "",
+        "group_name": "Interactive Education - Converting Fractions to Decimals",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Interactive Education - Learning To Read - Action 2 (USA)": {
+        "secondary_name": "",
+        "group_name": "Interactive Education - Learning To Read - Action 2",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": ""
+    },
+    "Interactive Education - Learning To Read - People 1 (USA)": {
+        "secondary_name": "",
+        "group_name": "Interactive Education - Learning To Read - People 1",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": ""
+    },
+    "Interactief Philips Magazine '92-'93 (Netherlands)": {
+        "secondary_name": "",
+        "group_name": "Interactief Philips Magazine '92-'93",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Nl",
+        "version": "1.0",
+        "edition": "Original"
+    },
+    "Amsterdam Auto Rai (Netherlands)": {
+        "secondary_name": "Amsterdam Auto Rai 1995",
+        "group_name": "Amsterdam Auto Rai",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Nl",
+        "version": "",
+        "edition": "Original"
+    },
+    "Interactive Education - Multiplying & Dividing Fractions (USA)": {
+        "secondary_name": "",
+        "group_name": "Interactive Education - Multiplying & Dividing Fractions",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Introduction to Photo CD, An - Version 2.0 (USA)": {
+        "secondary_name": "",
+        "group_name": "Introduction to Photo CD, An - Version 2.0",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Complete Your Financial Jigsaw (UK)": {
+        "secondary_name": "",
+        "group_name": "Complete Your Financial Jigsaw",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": ""
+    },
+    "Page & Moy Ltd - Cruise Directory (UK)": {
+        "secondary_name": "",
+        "group_name": "Page & Moy Ltd - Cruise Directory",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": ""
+    },
+    "Kether (Europe) (En,Fr)": {
+        "secondary_name": "",
+        "group_name": "Kether",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En, Fr",
+        "version": "3.09",
+        "edition": "Original"
+    },
+    "Somewhere - Une Envie de Naturel (France)": {
+        "secondary_name": "",
+        "group_name": "Somewhere - Une Envie de Naturel",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Fr",
+        "version": "",
+        "edition": ""
+    },
+    "Bande Annonce, La - Automne-Hiver 95-96 (France)": {
+        "secondary_name": "",
+        "group_name": "Bande Annonce, La - Automne-Hiver 95-96",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": ""
+    },
+    "CD-I Music Book - Classical Guitar Volume 1 (USA)": {
+        "secondary_name": "",
+        "group_name": "CD-I Music Book - Classical Guitar Volume 1",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Original"
+    },
+    "Golden Oldies Jukebox (Europe)": {
+        "secondary_name": "",
+        "group_name": "Golden Oldies Jukebox",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Kingdom - The Far Reaches (USA)": {
+        "secondary_name": "",
+        "group_name": "Kingdom - The Far Reaches",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Laser Lords (Germany)": {
+        "secondary_name": "",
+        "group_name": "Laser Lords",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "De",
+        "version": "1.06",
+        "edition": "Original"
+    },
+    "Vins de France, Les (France)": {
+        "secondary_name": "",
+        "group_name": "Vins de France, Les",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Fr",
+        "version": "1.12",
+        "edition": "Original"
+    },
+    "NFL Instant Replay (USA)": {
+        "secondary_name": "",
+        "group_name": "NFL Instant Replay",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Shipwreck (Europe)": {
+        "secondary_name": "",
+        "group_name": "Shipwreck",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Zelda - Der Zauberstab von Gamelon (Germany)": {
+        "secondary_name": "",
+        "group_name": "Zelda - Der Zauberstab von Gamelon",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "De",
+        "version": "",
+        "edition": "Original"
+    },
+    "Tim & Beer op het Vliegveld (Netherlands)": {
+        "secondary_name": "",
+        "group_name": "Tim & Beer op het Vliegveld",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Nl",
+        "version": "1.06",
+        "edition": "Original"
+    },
+    "Beauty Guide (Netherlands)": {
+        "secondary_name": "",
+        "group_name": "Beauty Guide",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "1.03",
+        "edition": "Original"
+    },
+    "Art of Performing, The (Netherlands)": {
+        "secondary_name": "",
+        "group_name": "Art of Performing, The",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Nl",
+        "version": "",
+        "edition": "Original"
+    },
+    "Alien Gate (USA)": {
+        "secondary_name": "",
+        "group_name": "Alien Gate",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Demonstration Disc"
+    },
+    "CD-i Demonstration Disc (USA)": {
+        "secondary_name": "",
+        "group_name": "CD-i Demonstration Disc",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": ""
+    },
+    "Rembrandt - His Art and the Music of His Era (USA)": {
+        "secondary_name": "",
+        "group_name": "Rembrandt - His Art and the Music of His Era",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Original"
+    },
+    "Travel Business (Japan)": {
+        "secondary_name": "",
+        "group_name": "Travel Business",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Prelude (USA)": {
+        "secondary_name": "",
+        "group_name": "Prelude",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Original"
+    },
+    "Downhome Blues, The (USA)": {
+        "secondary_name": "",
+        "group_name": "Downhome Blues, The",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Uptown Blues, The (USA)": {
+        "secondary_name": "",
+        "group_name": "Uptown Blues, The",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "TR-I - No World Order (USA)": {
+        "secondary_name": "",
+        "group_name": "TR-I - No World Order",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "En",

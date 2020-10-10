@@ -522,7 +522,7 @@
         "edition": "Original"
     },
     "Free Software Collection 6 (Japan)": {
-        "secondary_name": "フリー・ソフトウェア・コレクション６",
+        "secondary_name": "",
         "group_name": "Free Software Collection 6",
         "status": "Green",
         "disc_type": "CD",
@@ -3508,5 +3508,131 @@
         "languages": "Ja",
         "version": "",
         "edition": "Original"
+    },
+    "F29 Retaliator (Japan)": {
+        "secondary_name": "Ｆ２９リタリエイター",
+        "group_name": "F29 Retaliator",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Demon City (Japan)": {
+        "secondary_name": "デーモン・シティ",
+        "group_name": "Demon City",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Moeru Asoko no Paipai Yuugi - Fukkatsu! Mahjong Oukoku (Japan)": {
+        "secondary_name": "燃えるあそこの牌牌遊戯　復活！まぁじゃん王国",
+        "group_name": "Moeru Asoko no Paipai Yuugi - Fukkatsu! Mahjong Oukoku",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Sayonara no Mukougawa (Japan)": {
+        "secondary_name": "さよならの向こう側",
+        "group_name": "Sayonara no Mukougawa",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "if 3 - Invitations from Fantastic Stories (Japan)": {
+        "secondary_name": "イフ３",
+        "group_name": "if 3 - Invitations from Fantastic Stories",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Appare CD Vol. 2 - Houou no Maki (Japan)": {
+        "secondary_name": "天晴ＣＤ　Ｖｏｌ．２　～鳳凰の巻～",
+        "group_name": "Appare CD Vol. 2 - Houou no Maki",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Free Software Collection 5 (Japan) (Rev A)": {
+        "secondary_name": "",
+        "group_name": "Free Software Collection 5",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "Rev A",
+        "edition": "Original"
+    },
+    "Free Software Collection 5 (Japan) (Rev B)": {
+        "secondary_name": "",
+        "group_name": "Free Software Collection 5",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "Rev B",
+        "edition": "Original"
+    },
+    "Toushin Toshi II (Japan)": {
+        "secondary_name": "闘神都市Ⅱ",
+        "group_name": "Toushin Toshi II",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Mugen Houyou (Japan)": {
+        "secondary_name": "夢幻泡影",
+        "group_name": "Mugen Houyou",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original, Shokai Gentei"
+    },
+    "D.P.S. Zenbu (Japan)": {
+        "secondary_name": "ＤＰＳ全部",
+        "group_name": "D.P.S. Zenbu",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Rance 4.1 - Okusuri Koujou o Sukue! (Japan)": {
+        "secondary_name": "ランス４．１　～お薬工場を救え！～",
+        "group_name": "Rance 4.1 - Okusuri Koujou o Sukue!",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Rance 4.2 - Angel-gumi (Japan)": {
+        "secondary_name": "ランス４．２　～エンジェル組～",
+        "group_name": "Rance 4.2 - Angel-gumi",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Only You - Seikimatsu no Juliet-tachi (Japan)": {
+        "secondary_name": "Ｏｎｌｙ　Ｙｏｕ　～世紀末のジュリエットたち～",
+        "group_name": "Only You - Seikimatsu no Juliet-tachi",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Shokai Gentei"
     }
 }
