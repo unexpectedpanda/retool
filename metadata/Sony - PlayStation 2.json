@@ -980,9 +980,9 @@
         "version": "1.00",
         "edition": "Original"
     },
-    "Uchuu Senkan Yamato - Iscandar he no Tsuioku (Japan)": {
+    "Uchuu Senkan Yamato - Iscandar e no Tsuioku (Japan) (Genteiban)": {
         "secondary_name": "宇宙戦艦ヤマト　イスカンダルへの追憶",
-        "group_name": "Uchuu Senkan Yamato - Iscandar he no Tsuioku",
+        "group_name": "Uchuu Senkan Yamato - Iscandar e no Tsuioku",
         "status": "Blue",
         "disc_type": "DVD-5",
         "languages": "Ja",
@@ -4454,9 +4454,9 @@
         "version": "1.01",
         "edition": "Original"
     },
-    "All Star Pro Wrestling (Japan)": {
+    "All Star Pro-Wrestling (Japan)": {
         "secondary_name": "オールスタープロレスリング",
-        "group_name": "All Star Pro Wrestling",
+        "group_name": "All Star Pro-Wrestling",
         "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
@@ -13976,9 +13976,9 @@
         "version": "1.00",
         "edition": ""
     },
-    "Konohana 4 - Yami o Harau Inori (Japan)": {
-        "secondary_name": "此花４　～闇を祓う祈り～",
-        "group_name": "Konohana 4 - Yami o Harau Inori",
+    "SuperLite 2000 Vol. 39 - Konohana 4 - Yami o Harau Inori (Japan)": {
+        "secondary_name": "ＳｕｐｅｒＬｉｔｅ ２０００ Ｖｏｌ． ３９　アドベンチャー　此花４　～闇を祓う祈り～",
+        "group_name": "SuperLite 2000 Vol. 39 - Konohana 4 - Yami o Harau Inori",
         "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
@@ -15405,7 +15405,7 @@
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.01",
-        "edition": "Original"
+        "edition": "Original, Atlus Best Collection"
     },
     "Blitz - The League (USA)": {
         "secondary_name": "",
@@ -17766,7 +17766,7 @@
         "edition": "Original"
     },
     "SuperLite 2000 Vol. 20 - Omoide ni Kawaru Kimi - Memories Off (Japan)": {
-        "secondary_name": "ＳｕｐｅｒＬｉｔｅ　２０００　ｖｏｌ．２０　想い出にかわる君　～Ｍｅｍｏｒｉｅｓ　Ｏｆｆ～",
+        "secondary_name": "ＳｕｐｅｒＬｉｔｅ　２０００　ｖｏｌ．２０　恋愛アドベンチャー　想い出にかわる君　～Ｍｅｍｏｒｉｅｓ　Ｏｆｆ～",
         "group_name": "SuperLite 2000 Vol. 20 - Omoide ni Kawaru Kimi - Memories Off",
         "status": "Blue",
         "disc_type": "DVD-5",
@@ -18938,11 +18938,11 @@
     "Katamari Damacy (Japan) (v2.00)": {
         "secondary_name": "塊魂",
         "group_name": "Katamari Damacy",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "2.00",
-        "edition": "Original"
+        "edition": "Original, PlayStation 2 the Best"
     },
     "Official U.S. PlayStation Magazine Demo Disc 89 (USA)": {
         "secondary_name": "",
@@ -19323,7 +19323,7 @@
         "edition": "Original"
     },
     "SuperLite 2000 Vol. 38 - Memories Off - After Rain Vol. 2 - Souen (Japan)": {
-        "secondary_name": "ＳｕｐｅｒＬｉｔｅ　２０００　ｖｏｌ．３８　恋愛アドベンチャー Ｍｅｍｏｒｉｅｓ　Ｏｆｆ　Ａｆｔｅｒ　Ｒａｉｎ　Ｖｏｌ．２　～想演～",
+        "secondary_name": "ＳｕｐｅｒＬｉｔｅ　２０００　ｖｏｌ．３８　恋愛アドベンチャー　Ｍｅｍｏｒｉｅｓ　Ｏｆｆ　Ａｆｔｅｒ　Ｒａｉｎ　Ｖｏｌ．２　～想演～",
         "group_name": "SuperLite 2000 Vol. 38 - Memories Off - After Rain Vol. 2 - Souen",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -19673,14 +19673,14 @@
         "version": "1.01",
         "edition": "Original"
     },
-    "Kidou Senshi Z Gundam - AEUG vs. Titans (Japan) (100-shiki Gold Pack PlayStation 2 Doukonban)": {
-        "secondary_name": "機動戦士Ｚガンダム　エゥーゴＶＳ．ティターンズ",
-        "group_name": "Kidou Senshi Z Gundam - AEUG vs. Titans",
+    "Kidou Senshi Z Gundam - A.E.U.G. vs. Titans (Japan) (Doukonban)": {
+        "secondary_name": "機動戦士Ｚガンダム　エゥーゴ　ＶＳ．　ティターンズ",
+        "group_name": "Kidou Senshi Z Gundam - A.E.U.G. vs. Titans",
         "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.01",
-        "edition": "100-shiki Gold Pack PlayStation 2 Doukonban"
+        "edition": "Hyakushiki Gold Pack PlayStation 2 Doukonban"
     },
     "Seaman 2 - Pekin Genjin Ikusei Kit (Japan)": {
         "secondary_name": "シーマン２　～北京原人育成キット～",
@@ -20285,9 +20285,9 @@
         "version": "1.00",
         "edition": ""
     },
-    "Naraku no Shiro - Ichiyanagi Nagomu, 2dome no Junan (Japan)": {
+    "Naraku no Shiro - Ichiyanagi Nagomu, 2-dome no Junan (Japan)": {
         "secondary_name": "奈落の城　一柳和、２度目の受難",
-        "group_name": "Naraku no Shiro - Ichiyanagi Nagomu, 2dome no Junan",
+        "group_name": "Naraku no Shiro - Ichiyanagi Nagomu, 2-dome no Junan",
         "status": "Blue",
         "disc_type": "DVD-5",
         "languages": "Ja",
@@ -20600,14 +20600,14 @@
         "version": "1.01",
         "edition": "Original"
     },
-    "Simple 2000 Series Vol. 123 - The Office Love Jikenbou - Reijou Tantei (Japan)": {
+    "Simple 2000 Series Vol. 123 - The Office Love Jikenbo - Reijou Tantei (Japan)": {
         "secondary_name": "ＳＩＭＰＬＥ２０００シリーズ Ｖｏｌ．１２３ ＴＨＥ オフィスラブ事件慕 ～令嬢探偵～",
-        "group_name": "Simple 2000 Series Vol. 123 - The Office Love Jikenbou - Reijou Tantei",
+        "group_name": "Simple 2000 Series Vol. 123 - The Office Love Jikenbo - Reijou Tantei",
         "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.01",
-        "edition": "Original"
+        "edition": "Simple 2000 Series Vol. 123"
     },
     "Disney G-Force (Europe) (De,It)": {
         "secondary_name": "",
@@ -25541,9 +25541,9 @@
         "version": "1.02",
         "edition": "Original"
     },
-    "Youkoso Hitsuji Mura (Japan)": {
-        "secondary_name": "ようこそ ひつじ村",
-        "group_name": "Youkoso Hitsuji Mura",
+    "SuperLite 2000 Vol. 36 - Youkoso Hitsuji-mura (Japan)": {
+        "secondary_name": "ＳｕｐｅｒＬｉｔｅ　２０００　ｖｏｌ．３６　シミュレーション ようこそ ひつじ村",
+        "group_name": "SuperLite 2000 Vol. 36 - Youkoso Hitsuji-mura",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "Ja",
@@ -28091,11 +28091,11 @@
     "Nobunaga no Yabou - Tenka Sousei (Japan) (v1.40)": {
         "secondary_name": "信長の野望　天下創世",
         "group_name": "Nobunaga no Yabou - Tenka Sousei",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.40",
-        "edition": "Nobunaga no Yabou: Tenka Sousei: Pachi-Slot Set"
+        "edition": "Nobunaga no Yabou: Tenka Sousei: Pachi-Slot Set, PlayStation 2 the Best Reprint"
     },
     "Grand Theft Auto - Vice City Stories (USA)": {
         "secondary_name": "",
@@ -38238,7 +38238,7 @@
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.01",
-        "edition": "Original, Best Ban"
+        "edition": "Original, Best-ban"
     },
     "Pro Yakyuu Team o Tsukurou! 2003 (Japan)": {
         "secondary_name": "プロ野球チームをつくろう！２００３",
@@ -38742,7 +38742,7 @@
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.02",
-        "edition": "Original"
+        "edition": "SuperLite 2000 Vol. 41"
     },
     "Simple 2000 Series Vol. 91 - The All Star Kakutousai (Japan)": {
         "secondary_name": "SIMPLE2000シリーズ Vol. 91 THE ALL★STAR格闘祭",
@@ -44144,9 +44144,9 @@
         "version": "1.2 AMERICA",
         "edition": "Unlicensed"
     },
-    "Ef - A Fairy Tale of the Two. (Japan) (Shokai Gentei Tokubetsu Doukonban)": {
+    "ef - A Fairy Tale of the Two. (Japan) (Shokai Gentei Tokubetsu Doukonban)": {
         "secondary_name": "",
-        "group_name": "Ef - A Fairy Tale of the Two.",
+        "group_name": "ef - A Fairy Tale of the Two.",
         "status": "Blue",
         "disc_type": "DVD-5",
         "languages": "Ja",
@@ -44307,7 +44307,7 @@
         "edition": "Shokai Genteiban"
     },
     "Growlanser III - The Dual Darkness (Japan) (Moe-Moe Lucky Pack)": {
-        "secondary_name": "グローランサーⅢ　～Ｔｈｅ　ｄｕａｌ　ｄａｒｋｎｅｓｓ～",
+        "secondary_name": "グローランサーⅢ　－Ｔｈｅ　ｄｕａｌ　ｄａｒｋｎｅｓｓ－",
         "group_name": "Growlanser III - The Dual Darkness",
         "status": "Green",
         "disc_type": "CD",
@@ -47042,9 +47042,9 @@
         "version": "1.00",
         "edition": "Original"
     },
-    "Cluster Edge - Kimi wo Matsu Mirai e no Akashi (Japan)": {
+    "Cluster Edge - Kimi o Matsu Mirai e no Akashi (Japan)": {
         "secondary_name": "クラスターエッジ　～君を待つ未来への証～",
-        "group_name": "Cluster Edge - Kimi wo Matsu Mirai e no Akashi",
+        "group_name": "Cluster Edge - Kimi o Matsu Mirai e no Akashi",
         "status": "Blue",
         "disc_type": "DVD-5",
         "languages": "Ja",
@@ -47799,13 +47799,13 @@
         "edition": "Original"
     },
     "Gensou Suikoden III (Japan) (v2.01)": {
-        "secondary_name": "幻想水滸伝ＩＩＩ",
+        "secondary_name": "幻想水滸伝Ⅲ",
         "group_name": "Gensou Suikoden III",
         "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "2.01",
-        "edition": "Konami the Best"
+        "edition": "Konami the Best, Konami Dendou Selection"
     },
     "Dragon Quest - The Journey of the Cursed King (Europe, Australia) (En,Fr,De,Es,It)": {
         "secondary_name": "",
@@ -51128,9 +51128,9 @@
         "version": "1.00",
         "edition": "Original"
     },
-    "Slotter Up Core 5 - Lupin Daisuki! Shuyaku ha Zenigata (Japan)": {
+    "Slotter Up Core 5 - Lupin Daisuki! Shuyaku wa Zenigata (Japan)": {
         "secondary_name": "スロッターＵＰコア５　ルパン大好き！　主役は銭形",
-        "group_name": "Slotter Up Core 5 - Lupin Daisuki! Shuyaku ha Zenigata",
+        "group_name": "Slotter Up Core 5 - Lupin Daisuki! Shuyaku wa Zenigata",
         "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
@@ -57393,7 +57393,7 @@
         "edition": ""
     },
     "Kidou Senshi Z Gundam - A.E.U.G. vs. Titans (Japan)": {
-        "secondary_name": "機動戦士Zガンダム　エゥーゴVS.ティターンズ",
+        "secondary_name": "機動戦士Ｚガンダム　エゥーゴ　ＶＳ．　ティターンズ",
         "group_name": "Kidou Senshi Z Gundam - A.E.U.G. vs. Titans",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -57410,9 +57410,9 @@
         "version": "1.01",
         "edition": "Original"
     },
-    "Green Green - Kane no Oto - Romantic (Japan)": {
+    "Green Green - Kane no Ne - Romantic (Japan)": {
         "secondary_name": "グリーングリーン　～鐘ノ音ロマンティック～",
-        "group_name": "Green Green - Kane no Oto - Romantic",
+        "group_name": "Green Green - Kane no Ne - Romantic",
         "status": "Blue",
         "disc_type": "DVD-5",
         "languages": "Ja",
@@ -60144,7 +60144,7 @@
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.01",
-        "edition": "Original"
+        "edition": "Original, Simple 2000 Series Ultimate Vol. 31"
     },
     "Disney's Extreme Skate Adventure (USA)": {
         "secondary_name": "",
@@ -60182,9 +60182,9 @@
         "version": "1.01",
         "edition": "Original"
     },
-    "Ef - A Fairy Tale of the Two. (Japan)": {
+    "ef - A Fairy Tale of the Two. (Japan)": {
         "secondary_name": "",
-        "group_name": "Ef - A Fairy Tale of the Two.",
+        "group_name": "ef - A Fairy Tale of the Two.",
         "status": "Blue",
         "disc_type": "DVD-5",
         "languages": "Ja",
@@ -66815,9 +66815,9 @@
         "version": "1.01",
         "edition": "Original"
     },
-    "GI Jockey 3 - 2005 Nendo-ban (Japan)": {
+    "GI Jockey 3 - 2005-nendoban (Japan)": {
         "secondary_name": "ジーワン ジョッキー３　２００５年度版",
-        "group_name": "GI Jockey 3 - 2005 Nendo-ban",
+        "group_name": "GI Jockey 3 - 2005-nendoban",
         "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
@@ -67833,7 +67833,7 @@
         "edition": "Bundled with Guitar Controller"
     },
     "SuperLite 2000 Vol. 17 - Hakoniwa Tetsudou - Blue Train Tokkyuu-hen (Japan)": {
-        "secondary_name": "ＳｕｐｅｒＬｉｔｅ　２０００　ｖｏｌ．１７　箱庭鉄道　～ブルートレイン・特急編～",
+        "secondary_name": "ＳｕｐｅｒＬｉｔｅ　２０００　ｖｏｌ．１７　 鉄道模型シミュレーション　箱庭鉄道　～ブルートレイン・特急編～",
         "group_name": "SuperLite 2000 Vol. 17 - Hakoniwa Tetsudou - Blue Train Tokkyuu-hen",
         "status": "Blue",
         "disc_type": "CD",
@@ -70883,9 +70883,9 @@
         "version": "1.00",
         "edition": "Original"
     },
-    "SuperLite 2000 Vol. 21 - Konohana Pack - 3tsu no Jikenbo (Japan)": {
+    "SuperLite 2000 Vol. 21 - Konohana Pack - 3-tsu no Jikenbo (Japan)": {
         "secondary_name": "ＳｕｐｅｒＬｉｔｅ　２０００　ｖｏｌ．２１　アドベンチャー 此花パック　～３つの事件簿～",
-        "group_name": "SuperLite 2000 Vol. 21 - Konohana Pack - 3tsu no Jikenbo",
+        "group_name": "SuperLite 2000 Vol. 21 - Konohana Pack - 3-tsu no Jikenbo",
         "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
@@ -73530,13 +73530,13 @@
         "edition": "Shokai Genteiban"
     },
     "EX Jinsei Game II (Japan)": {
-        "secondary_name": "ＥＸ 人生ゲームⅡ",
+        "secondary_name": "ＥＸ人生ゲームⅡ",
         "group_name": "EX Jinsei Game II",
         "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.01",
-        "edition": "Original, PlayStation 2 the Best, PlayStation 2 the Best Reprint"
+        "edition": "Original, Atlus Best Collection, PlayStation 2 the Best, PlayStation 2 the Best Reprint"
     },
     "Ghosthunter (USA)": {
         "secondary_name": "",
@@ -75707,7 +75707,7 @@
         "version": "1.00",
         "edition": "Taikenban"
     },
-    "Dragon Quest VIII - Sora to Umi to Daichi to Norowareshi Himegimi (Japan)": {
+    "Dragon Quest VIII - Sora to Umi to Daichi to Norowareshi Himegimi (Japan, Asia)": {
         "secondary_name": "ドラゴンクエストⅧ　～空と海と大地と呪われし姫君～",
         "group_name": "Dragon Quest VIII - Sora to Umi to Daichi to Norowareshi Himegimi",
         "status": "Green",
@@ -76796,12 +76796,12 @@
         "version": "1.01",
         "edition": "Original"
     },
-    "Lara Croft Tomb Raider - Legend (USA)": {
+    "Lara Croft Tomb Raider - Legend (USA) (En,Fr,Es)": {
         "secondary_name": "",
         "group_name": "Lara Croft Tomb Raider - Legend",
         "status": "Green",
         "disc_type": "DVD-5",
-        "languages": "En",
+        "languages": "En, Fr, Es",
         "version": "1.01",
         "edition": "Original"
     },
@@ -82278,9 +82278,9 @@
         "edition": "Original"
     },
     "Growlanser V - Generations (Japan) (Shokai Genteiban)": {
-        "secondary_name": "グローランサーⅤ　～Ｇｅｎｅｒａｔｉｏｎｓ～",
+        "secondary_name": "グローランサーⅤ　－Ｇｅｎｅｒａｔｉｏｎｓ－",
         "group_name": "Growlanser V - Generations",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.04",
@@ -84429,7 +84429,7 @@
         "edition": ""
     },
     "SuperLite 2000 Vol. 15 - Zooo (Japan)": {
-        "secondary_name": "ＳｕｐｅｒＬｉｔｅ　２０００　ｖｏｌ．１５　パズル　ズー",
+        "secondary_name": "ＳｕｐｅｒＬｉｔｅ　２０００　ｖｏｌ．１５　パズルゲーム　ズー",
         "group_name": "SuperLite 2000 Vol. 15 - Zooo",
         "status": "Blue",
         "disc_type": "CD",
@@ -84570,7 +84570,7 @@
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.03",
-        "edition": "Original"
+        "edition": "Simple 2000 Series Ultimate Vol. 33"
     },
     "Tales of Legendia (USA)": {
         "secondary_name": "",
@@ -88055,9 +88055,9 @@
         "version": "2.00",
         "edition": "Original"
     },
-    "Boku no Natsuyasumi 2 - Umi no Bouken Hen (Japan)": {
+    "Boku no Natsuyasumi 2 - Umi no Bouken-hen (Japan)": {
         "secondary_name": "ぼくのなつやすみ２　海の冒険篇",
-        "group_name": "Boku no Natsuyasumi 2 - Umi no Bouken Hen",
+        "group_name": "Boku no Natsuyasumi 2 - Umi no Bouken-hen",
         "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
@@ -88188,7 +88188,7 @@
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.01",
-        "edition": "Original"
+        "edition": "Original, PlayStation 2 the Best"
     },
     "Obliterate (Europe)": {
         "secondary_name": "",
@@ -88983,7 +88983,7 @@
         "edition": "Original"
     },
     "SuperLite 2000 Vol. 18 - Waku Waku Volley 2 (Japan)": {
-        "secondary_name": "ＳｕｐｅｒＬｉｔｅ　２０００　ｖｏｌ．１８　わくわくバレー２　",
+        "secondary_name": "ＳｕｐｅｒＬｉｔｅ　２０００　ｖｏｌ．１８　スポーツゲーム　わくわくバレー２　",
         "group_name": "SuperLite 2000 Vol. 18 - Waku Waku Volley 2",
         "status": "Blue",
         "disc_type": "CD",
@@ -88992,7 +88992,7 @@
         "edition": "SuperLite 2000 Vol. 18"
     },
     "SuperLite 2000 Vol. 9 - NumCro (Japan)": {
-        "secondary_name": "ＳｕｐｅｒＬｉｔｅ　２０００　ｖｏｌ．９　ナンクロ",
+        "secondary_name": "ＳｕｐｅｒＬｉｔｅ　２０００　ｖｏｌ．９　パズルゲーム　ナンクロ",
         "group_name": "SuperLite 2000 Vol. 9 - NumCro",
         "status": "Blue",
         "disc_type": "CD",
@@ -89297,9 +89297,9 @@
         "version": "1.04",
         "edition": "Original"
     },
-    "Madden NFL 2005 (Japan)": {
+    "Madden NFL Super Bowl 2005 (Japan)": {
         "secondary_name": "マッデン ＮＦＬ スーパーボウル ２００５",
-        "group_name": "Madden NFL 2005",
+        "group_name": "Madden NFL Super Bowl 2005",
         "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En",
@@ -89593,5 +89593,95 @@
         "languages": "En",
         "version": "1.00",
         "edition": "Original"
+    },
+    "eJay Clubworld - The Music Making Experience (Europe) (En,Fr,De,Es,It) (Beta)": {
+        "secondary_name": "",
+        "group_name": "eJay Clubworld - The Music Making Experience",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "En, Fr, De, It, Es",
+        "version": "1.00",
+        "edition": "Beta"
+    },
+    "EyeToy - Play (Europe) (Beta)": {
+        "secondary_name": "",
+        "group_name": "EyeToy - Play",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "1.00",
+        "edition": "Beta"
+    },
+    "Madden NFL Super Bowl 2001 (Japan)": {
+        "secondary_name": "マッデン NFL スーパーボウル 2001",
+        "group_name": "Madden NFL Super Bowl 2001",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "1.30",
+        "edition": "Original"
+    },
+    "Simple 2000 Series Vol. 3 - The Bass Fishing (Japan)": {
+        "secondary_name": "ＳＩＭＰＬＥ　２０００　シリーズ　Ｖｏｌ．３　ＴＨＥ　バスフィッシング",
+        "group_name": "Simple 2000 Series Vol. 3 - The Bass Fishing",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "1.02",
+        "edition": "Original"
+    },
+    "Simple 2000 Series Vol. 78 - The Uchuu Daisensou (Japan)": {
+        "secondary_name": "ＳＩＭＰＬＥ　２０００　シリーズ　Ｖｏｌ．７８　ＴＨＥ　宇宙大戦争",
+        "group_name": "Simple 2000 Series Vol. 78 - The Uchuu Daisensou",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "1.02",
+        "edition": "Original"
+    },
+    "Metal Gear Solid 3 - Subsistence (Europe) (En,Fr) (Beta)": {
+        "secondary_name": "",
+        "group_name": "Metal Gear Solid 3 - Subsistence",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "En, Fr",
+        "version": "0.01",
+        "edition": "Beta Trial Code"
+    },
+    "PlayStation Seizou Kensa-you Disc 3 CD-ROM US-ban Ver1.1 (USA)": {
+        "secondary_name": "",
+        "group_name": "PlayStation Seizou Kensa-you Disc 3 CD-ROM US-ban Ver1.1",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "1.00",
+        "edition": "Original"
+    },
+    "Lord of the Rings, The - Futatsu no Tou (Japan) (Collectors Box)": {
+        "secondary_name": "ロード・オブ・ザ・リング 二つの塔",
+        "group_name": "Lord of the Rings, The - Futatsu no Tou",
+        "status": "Blue",
+        "disc_type": "DVD-9",
+        "languages": "Ja",
+        "version": "1.00",
+        "edition": "Collectors Box"
+    },
+    "Magna Carta - Jinhongui Seongheun (Korea)": {
+        "secondary_name": "마그나카르타 : 진홍의 성흔",
+        "group_name": "Magna Carta - Jinhongui Seongheun",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "Ko",
+        "version": "1.00",
+        "edition": "Original"
+    },
+    "Guilty Gear Isuka (Europe) (Proto)": {
+        "secondary_name": "",
+        "group_name": "Guilty Gear Isuka",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "",
+        "version": "1.00",
+        "edition": "Preview"
     }
 }

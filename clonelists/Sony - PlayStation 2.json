@@ -3,7 +3,7 @@
         "name": [
 			["Sony - PlayStation 2", 1]
 		],
-        "last updated": "27 September 2020"
+        "last updated": "10 October 2020"
     },
 
     "compilations": [
@@ -900,11 +900,12 @@
 		"Fire Pro Wrestling Z (Toujien Doukon Box Saishuu-ban)": [
 			["Fire Pro Wrestling Z", 2]
 		],
+		"Fisherman's Bass Club": [
+			["Bass Master Fishing", 1],
+			["Simple 2000 Series Vol. 3 - The Bass Fishing", 1]
+		],
 		"Fitness Fun": [
 			["Simple 2000 Series Ultimate Vol. 18 - Love - Aerobi", 1]
-		],
-		"Fisherman's Bass Club": [
-			["Bass Master Fishing", 1]
 		],
 		"FlatOut": [
 			["Racing Game - Chuui!!!!", 1]
@@ -966,7 +967,7 @@
 		],
 		"G1 Jockey 3": [
 			["GI Jockey 3", 1],
-			["GI Jockey 3 - 2005 Nendo-ban", 3]
+			["GI Jockey 3 - 2005-nendoban", 3]
 		],
 		"G1 Jockey 4": [
 			["GI Jockey 4 (Twin Pack)", 1],
@@ -1318,7 +1319,7 @@
 		"Kidou Senshi Gundam Senki - Lost War Chronicles (Limited Box)": [
 			["Kidou Senshi Gundam Senki - Lost War Chronicles", 2]
 		],
-		"Kidou Senshi Z Gundam - AEUG vs. Titans (100-shiki Gold Pack PlayStation 2 Doukonban)": [
+		"Kidou Senshi Z Gundam - A.E.U.G. vs. Titans (Doukonban)": [
 			["Kidou Senshi Z Gundam - A.E.U.G. vs. Titans", 2]
 		],
 		"Kin'iro no Corda 2 (Premium Box)": [
@@ -1445,11 +1446,12 @@
 			["Signore degli Anelli, Il - La Terza Era", 1]
 		],
 		"Lord of the Rings, The - The Two Towers": [
-			["Lord of the Rings, The - Futatsu no Tou", 1],
+			["Lord of the Rings, The - Futatsu no Tou (Collectors Box)", 1],
 			["Herr der Ringe, Der - Die zwei Tuerme", 1],
 			["Seigneur des Anneaux, Le - Les Deux Tours", 1],
 			["Senor de los Anillos, El - Las Dos Torres", 1],
-			["Signore degli Anelli, Il - Le Due Torri", 1]
+			["Signore degli Anelli, Il - Le Due Torri", 1],
+			["Lord of the Rings, The - Futatsu no Tou", 2]
 		],
 		"Lowrider": [
 			["LowRider - Round the World", 1]
@@ -1457,6 +1459,12 @@
 		"Lupin the 3rd - Treasure of the Sorcerer King": [
 			["Avventure di Lupin III, Le - Il Tesoro del Re Stregone", 1],
 			["Lupin Sansei - Majutsu-ou no Isan", 1]
+		],
+		"Madden NFL 2001": [
+			["Madden NFL Super Bowl 2001", 1]
+		],
+		"Madden NFL 2005": [
+			["Madden NFL Super Bowl 2005", 1]
 		],
 		"Maestromusic II, The (Doukonban)": [
 			["Maestromusic II, The", 2]
@@ -1473,6 +1481,7 @@
 		],
 		"Magna Carta - Tears of Blood": [
 			["Magna Carta", 1],
+			["Magna Carta - Jinhongui Seongheun", 1],
 			["Magna Carta - Lacrime di Sangue", 1],
 			["Magna Carta - Les Larmes de Sang", 1]
 		],
