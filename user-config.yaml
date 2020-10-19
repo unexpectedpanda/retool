@@ -2,7 +2,6 @@
 # If the -l option is used, only include titles with the following languages.
 # Comment out languages you don't want.
 language filter:
-# - English
 # - Afrikaans
 # - Arabic
 # - Bulgarian
@@ -12,6 +11,7 @@ language filter:
 # - Czech
 # - Danish
 # - Dutch
+# - English
 # - Finnish
 # - French
 # - Gaelic

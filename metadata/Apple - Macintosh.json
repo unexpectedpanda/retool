@@ -3445,5 +3445,95 @@
         "languages": "En, Fr, De, It, Es",
         "version": "1.0",
         "edition": "Original"
+    },
+    "CD-ROM MacLife No. 20 (Japan) (Disc 1)": {
+        "secondary_name": "",
+        "group_name": "CD-ROM MacLife No. 20",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Covermount"
+    },
+    "CD-ROM MacLife No. 20 (Japan) (Disc 2)": {
+        "secondary_name": "",
+        "group_name": "CD-ROM MacLife No. 20",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Covermount"
+    },
+    "CD-ROM MacLife No. 21 (Japan)": {
+        "secondary_name": "",
+        "group_name": "CD-ROM MacLife No. 21",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Covermount"
+    },
+    "CD-ROM MacLife No. 22 (Japan)": {
+        "secondary_name": "",
+        "group_name": "CD-ROM MacLife No. 22",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Covermount"
+    },
+    "CD-ROM MacLife No. 23 (Japan)": {
+        "secondary_name": "",
+        "group_name": "CD-ROM MacLife No. 23",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Covermount"
+    },
+    "Gridz (USA)": {
+        "secondary_name": "",
+        "group_name": "Gridz",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "1.3.1",
+        "edition": "Original"
+    },
+    "SimCity 3000 (USA)": {
+        "secondary_name": "",
+        "group_name": "SimCity 3000",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "1.0.557",
+        "edition": "Original"
+    },
+    "Sims 2, The (USA) (En,Ja,Fr,De,It)": {
+        "secondary_name": "",
+        "group_name": "Sims 2, The",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "En, Fr, De, It, Ja",
+        "version": "1.0 Rev E (v7535)",
+        "edition": "Original"
+    },
+    "SimCity 4 (USA) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Ko,Pl,Th) (Disc 1)": {
+        "secondary_name": "",
+        "group_name": "SimCity 4",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Zh, Da, Nl, En, Fi, Fr, De, It, Ja, Ko, No, Pl, Pt, Es, Sv, Th",
+        "version": "1.0",
+        "edition": "Original"
+    },
+    "SimCity 4 (USA) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Ko,Pl,Th) (Disc 2)": {
+        "secondary_name": "",
+        "group_name": "SimCity 4",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Zh, Da, Nl, En, Fi, Fr, De, It, Ja, Ko, No, Pl, Pt, Es, Sv, Th",
+        "version": "1.0",
+        "edition": "Original"
     }
 }

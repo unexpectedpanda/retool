@@ -4750,5 +4750,23 @@
         "languages": "En",
         "version": "",
         "edition": "3DO Maniac Pack"
+    },
+    "Super Street Fighter II Turbo (USA)": {
+        "secondary_name": "",
+        "group_name": "Super Street Fighter II Turbo",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Yuujou Densetsu - The Doraemons (Japan) (Demo)": {
+        "secondary_name": "友情伝説　ザ· ドラえもんズ",
+        "group_name": "Yuujou Densetsu - The Doraemons",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Demonstration-ban"
     }
 }

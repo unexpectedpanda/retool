@@ -452,7 +452,7 @@
     "Cranberries, The - Doors and Windows (Europe)": {
         "secondary_name": "",
         "group_name": "Cranberries, The - Doors and Windows",
-        "status": "Yellow",
+        "status": "Blue",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -776,7 +776,7 @@
     "Backgammon (Europe)": {
         "secondary_name": "",
         "group_name": "Backgammon",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -2099,7 +2099,7 @@
     "Connect Four (Europe)": {
         "secondary_name": "",
         "group_name": "Connect Four",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -2569,7 +2569,7 @@
         "group_name": "Beauty Guide",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Nl",
         "version": "1.03",
         "edition": "Original"
     },
@@ -2609,9 +2609,9 @@
         "version": "",
         "edition": "Original"
     },
-    "Travel Business (Japan)": {
+    "Manna Space - Travel Business (Japan)": {
         "secondary_name": "",
-        "group_name": "Travel Business",
+        "group_name": "Manna Space - Travel Business",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "Ja",
@@ -2648,6 +2648,150 @@
     "TR-I - No World Order (USA)": {
         "secondary_name": "",
         "group_name": "TR-I - No World Order",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Pete Townshend Live (USA) (Demo)": {
+        "secondary_name": "",
+        "group_name": "Pete Townshend Live",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Demo"
+    },
+    "Photo CD Sample Disc (USA)": {
+        "secondary_name": "",
+        "group_name": "Photo CD Sample Disc",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": ""
+    },
+    "Cartoon Jukebox (Italy)": {
+        "secondary_name": "",
+        "group_name": "Cartoon Jukebox",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "It",
+        "version": "",
+        "edition": "Original"
+    },
+    "Macchina delle Favole, La - Racconti Spaziali (Italy)": {
+        "secondary_name": "",
+        "group_name": "Macchina delle Favole, La - Racconti Spaziali",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "It",
+        "version": "",
+        "edition": "Original"
+    },
+    "Tom - Il Dizionario Magico (Italy) (En,Fr,It)": {
+        "secondary_name": "",
+        "group_name": "Tom - Il Dizionario Magico",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En, Fr, It",
+        "version": "",
+        "edition": "Original"
+    },
+    "Renaissance in Florenz, Die (Germany)": {
+        "secondary_name": "",
+        "group_name": "Renaissance in Florenz, Die",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "De",
+        "version": "",
+        "edition": "Original"
+    },
+    "7th Guest, The (Germany) (Disc 1) (Das Spiel)": {
+        "secondary_name": "",
+        "group_name": "7th Guest, The",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "De",
+        "version": "",
+        "edition": "Original"
+    },
+    "All the Fun of the Fair - Engels voor Kinderen (Netherlands)": {
+        "secondary_name": "",
+        "group_name": "All the Fun of the Fair - Engels voor Kinderen",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Original"
+    },
+    "Do You Remember the '60s (UK)": {
+        "secondary_name": "",
+        "group_name": "Do You Remember the '60s",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Pavarotti - O Sole Mio (USA)": {
+        "secondary_name": "",
+        "group_name": "Pavarotti - O Sole Mio",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Original"
+    },
+    "Pyramid Adventures - Episode 1 - Treasures of the Lost Pyramid (USA)": {
+        "secondary_name": "Pyramid Adventures: Treasures of the Lost Pyramid",
+        "group_name": "Pyramid Adventures - Episode 1 - Treasures of the Lost Pyramid",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Original"
+    },
+    "Voetbal (Netherlands)": {
+        "secondary_name": "",
+        "group_name": "Voetbal",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Nl",
+        "version": "",
+        "edition": "Original"
+    },
+    "ACT College Search '92, The (USA)": {
+        "secondary_name": "",
+        "group_name": "ACT College Search '92, The",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Original"
+    },
+    "Breast Self-Examination - Auto-Examen Del Seno (USA) (En,Es)": {
+        "secondary_name": "",
+        "group_name": "Breast Self-Examination - Auto-Examen Del Seno",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En, Es",
+        "version": "",
+        "edition": ""
+    },
+    "Mad Dog McCree (Germany)": {
+        "secondary_name": "",
+        "group_name": "Mad Dog McCree",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "De",
+        "version": "1.02",
+        "edition": "Original"
+    },
+    "Anne Willan Presents the Food of France (Europe)": {
+        "secondary_name": "",
+        "group_name": "Anne Willan Presents the Food of France",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "En",

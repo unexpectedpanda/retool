@@ -620,14 +620,14 @@
         "version": "Rev B",
         "edition": "Original"
     },
-    "Nobunaga no Yabou Sengoku Gunyuuden with Soundware (Japan)": {
-        "secondary_name": "信長の野望・戦国群雄伝　ｗｉｔｈ　サウンドウェア",
-        "group_name": "Nobunaga no Yabou Sengoku Gunyuuden with Soundware",
+    "Nobunaga no Yabou Sengoku Gunyuuden (Japan)": {
+        "secondary_name": "信長の野望・戦国群雄伝",
+        "group_name": "Nobunaga no Yabou Sengoku Gunyuuden",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
-        "edition": "Original"
+        "edition": "with Soundware"
     },
     "Free Software Collection 11 (Japan)": {
         "secondary_name": "",
@@ -800,13 +800,13 @@
         "version": "",
         "edition": "Original"
     },
-    "SimCity (Japan)": {
+    "SimCity (Japan) (Rev 1)": {
         "secondary_name": "シム・シティ",
         "group_name": "SimCity",
         "status": "Green",
         "disc_type": "CD",
         "languages": "",
-        "version": "",
+        "version": "Rev 1",
         "edition": "FM Towns Soft Collection Kaigai-hen Vol. 6"
     },
     "Super Real Mahjong PIV (Japan)": {
@@ -879,7 +879,7 @@
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
-        "edition": "Original"
+        "edition": "Golf Course Data Vol. 1"
     },
     "High C Compiler Multimedia Kit V1.7L12 (Japan)": {
         "secondary_name": "Ｈｉｇｈ　Ｃ　Ｃｏｍｐｉｌｅｒ　マルチメディア・キット　Ｖ１．７Ｌ１２",
@@ -1175,7 +1175,7 @@
         "status": "Green",
         "disc_type": "CD",
         "languages": "En",
-        "version": "Rev A",
+        "version": "Rev A (3.0)",
         "edition": "Ving Vol. 1"
     },
     "ElFish Lite (Japan)": {
@@ -1943,19 +1943,19 @@
         "version": "",
         "edition": "Original"
     },
-    "Sangokushi III with Soundware (Japan)": {
-        "secondary_name": "三國志Ⅲ　ｗｉｔｈ　サウンドウェア",
-        "group_name": "Sangokushi III with Soundware",
+    "Sangokushi III (Japan)": {
+        "secondary_name": "三國志Ⅲ",
+        "group_name": "Sangokushi III",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
-        "edition": "Original"
+        "edition": "with Soundware"
     },
     "Taito Chase H.Q. (Japan)": {
         "secondary_name": "タイトーチェイスＨ．Ｑ．",
         "group_name": "Taito Chase H.Q.",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -2021,7 +2021,7 @@
         "status": "Blue",
         "disc_type": "CD",
         "languages": "Ja",
-        "version": "",
+        "version": "1.00",
         "edition": "Ving Vol. 3"
     },
     "Pro Yakyuu Family Stadium - 90-nendo Pennant Race-ban (Japan)": {
@@ -3392,14 +3392,14 @@
         "version": "",
         "edition": "Original"
     },
-    "Tamashii no Mon - Dante Shinkyoku yori with Soundware (Japan)": {
-        "secondary_name": "魂の門　～ダンテ「神曲」より～　ｗｉｔｈ　サウンドウェア",
-        "group_name": "Tamashii no Mon - Dante Shinkyoku yori with Soundware",
+    "Tamashii no Mon - Dante Shinkyoku yori (Japan)": {
+        "secondary_name": "魂の門　～ダンテ「神曲」より～",
+        "group_name": "Tamashii no Mon - Dante Shinkyoku yori",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
-        "edition": "Original"
+        "edition": "with Soundware"
     },
     "Emerald Dragon (Japan)": {
         "secondary_name": "エメラルド・ドラゴン",
@@ -3634,5 +3634,194 @@
         "languages": "Ja",
         "version": "",
         "edition": "Shokai Gentei"
+    },
+    "Gakuen King - Hidehiko Gakkou o Tsukuru (Japan)": {
+        "secondary_name": "学園ＫＩＮＧ　～日出彦　学校をつくる～",
+        "group_name": "Gakuen King - Hidehiko Gakkou o Tsukuru",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Sangokushi IV (Japan)": {
+        "secondary_name": "三国志Ⅳ",
+        "group_name": "Sangokushi IV",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "with Soundware"
+    },
+    "ImageFight (Japan)": {
+        "secondary_name": "イメージファイト",
+        "group_name": "ImageFight",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "1.00",
+        "edition": "Ving Vol. 6"
+    },
+    "4th Unit 1-2 Towns, The - Linkage (Japan)": {
+        "secondary_name": "",
+        "group_name": "4th Unit 1-2 Towns, The - Linkage",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "4th Unit Act. 3, The - Dual Targets (Japan)": {
+        "secondary_name": "",
+        "group_name": "4th Unit Act. 3, The - Dual Targets",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Angel Haloe (Japan)": {
+        "secondary_name": "エンジェル・ハイロウ",
+        "group_name": "Angel Haloe",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "A 1-2-3 (Japan)": {
+        "secondary_name": "あやよさん１‐２‐３",
+        "group_name": "A 1-2-3",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "A4 - Ayayo's Live Affection (Japan)": {
+        "secondary_name": "はっちゃけあやよさんⅣ　～セクシー・オリンピック～",
+        "group_name": "A4 - Ayayo's Live Affection",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Bell's Avenue Vol. 1 (Japan)": {
+        "secondary_name": "ベルズ・アベニュー　ＶＯＬ．１",
+        "group_name": "Bell's Avenue Vol. 1",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Daikoukai Jidai II (Japan)": {
+        "secondary_name": "大航海時代Ⅱ",
+        "group_name": "Daikoukai Jidai II",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "with Soundware"
+    },
+    "De.FaNa (Japan)": {
+        "secondary_name": "デ・ファーナ",
+        "group_name": "De.FaNa",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Desire - Haitoku no Rasen (Japan)": {
+        "secondary_name": "デザイア　～背徳の螺旋～",
+        "group_name": "Desire - Haitoku no Rasen",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Dengeki Nurse 2 - More Sexy (Japan)": {
+        "secondary_name": "電撃ナース２　～モアセクシー～",
+        "group_name": "Dengeki Nurse 2 - More Sexy",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": ""
+    },
+    "Doukyuusei (Japan)": {
+        "secondary_name": "同級生",
+        "group_name": "Doukyuusei",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Doukyuusei 2 (Japan)": {
+        "secondary_name": "同級生２",
+        "group_name": "Doukyuusei 2",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Date, The (Japan)": {
+        "secondary_name": "ザ・デート",
+        "group_name": "Date, The",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Eight Lakes G.C. (Japan) (Course Disc)": {
+        "secondary_name": "エイト・レイクス　ゴルフ　クラブ",
+        "group_name": "Eight Lakes G.C.",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Golf Course Data Vol. 2"
+    },
+    "Free Software Collection 6 (Japan) (Rev A)": {
+        "secondary_name": "",
+        "group_name": "Free Software Collection 6",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "Rev A",
+        "edition": "Original"
+    },
+    "Free Software Collection 7 (Japan) (Rev A)": {
+        "secondary_name": "",
+        "group_name": "Free Software Collection 7",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "Rev A",
+        "edition": "Original"
+    },
+    "Etsuraku no Gakuen (Japan)": {
+        "secondary_name": "悦楽の学園",
+        "group_name": "Etsuraku no Gakuen",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Monkey Island 2 - LeChuck's Revenge (Japan) (En,Ja)": {
+        "secondary_name": "モンキー・アイランド２　～ル・チャックの逆襲～",
+        "group_name": "Monkey Island 2 - LeChuck's Revenge",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En, Ja",
+        "version": "",
+        "edition": "Original"
     }
 }
