@@ -1208,7 +1208,7 @@
     "J.League Jikkyou Winning Eleven (Japan) (Rev 1)": {
         "secondary_name": "Ｊリーグ　実況ウイニングイレブン",
         "group_name": "J.League Jikkyou Winning Eleven",
-        "status": "Blue",
+        "status": "Yellow",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "Rev 1",
@@ -1865,7 +1865,7 @@
     "NBA in the Zone 2 (USA)": {
         "secondary_name": "",
         "group_name": "NBA in the Zone 2",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -4079,7 +4079,7 @@
     "Jimmy White's 2 - Cueball (USA)": {
         "secondary_name": "",
         "group_name": "Jimmy White's 2 - Cueball",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -5661,9 +5661,9 @@
         "edition": "Original"
     },
     "Hyper PlayStation Re-mix 1998 No. 1 (Japan)": {
-        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ． １",
+        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ．１",
         "group_name": "Hyper PlayStation Re-mix 1998 No. 1",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -5904,9 +5904,9 @@
         "edition": "Original"
     },
     "Hyper PlayStation Re-mix No. 12 (Japan)": {
-        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ． １２",
+        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ．１２",
         "group_name": "Hyper PlayStation Re-mix No. 12",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -6957,13 +6957,13 @@
         "edition": "Original, Value 1500"
     },
     "Famitsuu Wave Soukangou Vol. 2 (Japan)": {
-        "secondary_name": "ファミ通Wave 創刊号 Vol.2",
+        "secondary_name": "ファミ通Ｗａｖｅ　創刊号　Ｖｏｌ．２",
         "group_name": "Famitsuu Wave Soukangou Vol. 2",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
-        "edition": "Taikenban"
+        "edition": "Bundled with Magazine"
     },
     "Puuha Pete - Korjataanko (Finland)": {
         "secondary_name": "",
@@ -7992,9 +7992,9 @@
         "edition": "Original"
     },
     "Hyper PlayStation Re-mix 1998 No. 4 (Japan)": {
-        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ． ４",
+        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ．４",
         "group_name": "Hyper PlayStation Re-mix 1998 No. 4",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -8021,7 +8021,7 @@
     "Secret of Googol 5, The - Googolfest - Party Isle & Toy Isle (USA)": {
         "secondary_name": "",
         "group_name": "Secret of Googol 5, The - Googolfest - Party Isle & Toy Isle",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -10386,9 +10386,9 @@
         "edition": "Original, Platinum"
     },
     "Hyper PlayStation Re-mix 1998 No. 7 (Japan) (Disc 2) (Yarudora Series Vol. 1 - Double Cast)": {
-        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ． ７",
+        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ．７",
         "group_name": "Hyper PlayStation Re-mix 1998 No. 7",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -14184,7 +14184,7 @@
         "edition": "Original"
     },
     "Lalala PlayStation Trial Disc - 1998 Summer (Japan)": {
-        "secondary_name": "ラララ　プレイステーション　ＴＲＩＡＬ　ＤＩＳＣ ～１９９８ ＳＵＭＭＥＲ～",
+        "secondary_name": "ラララ　プレイステーション　ＴＲＩＡＬ　ＤＩＳＣ　－１９９８ ＳＵＭＭＥＲ－",
         "group_name": "Lalala PlayStation Trial Disc - 1998 Summer",
         "status": "Green",
         "disc_type": "CD",
@@ -14915,7 +14915,7 @@
     "Secret of Googol 6, The - Googolfest - Arcade Isle & Moon Feast Isle (USA)": {
         "secondary_name": "",
         "group_name": "Secret of Googol 6, The - Googolfest - Arcade Isle & Moon Feast Isle",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -15003,9 +15003,9 @@
         "edition": "Original"
     },
     "Hyper PlayStation Re-mix 1998 No. 2 (Japan)": {
-        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ． ２",
+        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ．２",
         "group_name": "Hyper PlayStation Re-mix 1998 No. 2",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -16067,7 +16067,7 @@
     "Tecmo Stackers (USA)": {
         "secondary_name": "",
         "group_name": "Tecmo Stackers",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -16661,7 +16661,7 @@
     "F1 World Grand Prix (USA)": {
         "secondary_name": "F1 World Grand Prix 2000",
         "group_name": "F1 World Grand Prix",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -17552,7 +17552,7 @@
     "NCAA GameBreaker 98 (USA)": {
         "secondary_name": "",
         "group_name": "NCAA GameBreaker 98",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -20124,9 +20124,9 @@
         "edition": "Original"
     },
     "Hyper PlayStation Re-mix 1998 No. 3 (Japan)": {
-        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ． ３",
+        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ．３",
         "group_name": "Hyper PlayStation Re-mix 1998 No. 3",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -20297,7 +20297,7 @@
     "Secret of Googol 3, The - The Googol Counting Fair - Midways (USA)": {
         "secondary_name": "",
         "group_name": "Secret of Googol 3, The - The Googol Counting Fair - Midways",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -20475,13 +20475,13 @@
         "edition": "Original"
     },
     "Famitsuu Wave 8gatsu-gou Vol. 13 (Japan)": {
-        "secondary_name": "ファミ通Wave 8月号 Vol.13",
+        "secondary_name": "ファミ通Ｗａｖｅ　８月号　Ｖｏｌ．１３",
         "group_name": "Famitsuu Wave 8gatsu-gou Vol. 13",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
-        "edition": "Taikenban"
+        "edition": "Bundled with Magazine"
     },
     "Disney's Treasure Planet (Europe)": {
         "secondary_name": "",
@@ -24111,7 +24111,7 @@
         "edition": "Pocket Price Midas"
     },
     "Intellivision Classic Games (USA)": {
-        "secondary_name": "A Collection of Classic Games from the Intellivision",
+        "secondary_name": "",
         "group_name": "Intellivision Classic Games",
         "status": "Blue",
         "disc_type": "CD",
@@ -24257,7 +24257,7 @@
     "Secret of Googol 4, The - The Googol Counting Fair - Corral & Fun House (USA)": {
         "secondary_name": "",
         "group_name": "Secret of Googol 4, The - The Googol Counting Fair - Corral & Fun House",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -26120,7 +26120,7 @@
     "Rageball (USA)": {
         "secondary_name": "",
         "group_name": "Rageball",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -26298,9 +26298,9 @@
         "edition": "Original"
     },
     "PAQA (Japan) (Demo)": {
-        "secondary_name": "パクァ体験版",
+        "secondary_name": "パクァ",
         "group_name": "PAQA",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -27686,7 +27686,7 @@
     "Secret of Googol 1a, The - Reshaping Googol - The Submarine (USA)": {
         "secondary_name": "",
         "group_name": "Secret of Googol 1a, The - Reshaping Googol - The Submarine",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -27792,9 +27792,9 @@
         "edition": "Original"
     },
     "Hyper PlayStation Re-mix 1999 No. 5 (Japan)": {
-        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ．　５",
+        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ．５",
         "group_name": "Hyper PlayStation Re-mix 1999 No. 5",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -27911,7 +27911,7 @@
     "Dengeki PlayStation D32 (Japan)": {
         "secondary_name": "電撃プレイステーションＤ３２",
         "group_name": "Dengeki PlayStation D32",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -29511,9 +29511,9 @@
         "edition": "Original"
     },
     "Hyper PlayStation Re-mix 1998 No. 11 (Japan) (Disc 1)": {
-        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ． １１",
+        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ．１１",
         "group_name": "Hyper PlayStation Re-mix 1998 No. 11",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -32328,9 +32328,9 @@
         "edition": "Original"
     },
     "Hyper PlayStation Re-mix No. 4 (Japan)": {
-        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ． ４",
+        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ．４",
         "group_name": "Hyper PlayStation Re-mix No. 4",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -32787,9 +32787,9 @@
         "edition": "Original"
     },
     "Hyper PlayStation Re-mix No. 9 (Japan)": {
-        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ． ９",
+        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ．９",
         "group_name": "Hyper PlayStation Re-mix No. 9",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -32886,7 +32886,7 @@
         "edition": "Original"
     },
     "Hyper PlayStation Re-mix No. 3 (Japan)": {
-        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ． ３",
+        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ．３",
         "group_name": "Hyper PlayStation Re-mix No. 3",
         "status": "Green",
         "disc_type": "CD",
@@ -33347,7 +33347,7 @@
     "NHL Powerplay 98 (USA) (En,Fr,De)": {
         "secondary_name": "",
         "group_name": "NHL Powerplay 98",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En, Fr, De",
         "version": "",
@@ -33932,7 +33932,7 @@
     "Colony Wars (USA) (Disc 1)": {
         "secondary_name": "",
         "group_name": "Colony Wars",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -34452,13 +34452,13 @@
         "edition": "Original"
     },
     "Famitsuu Wave 11gatsu-gou Vol. 4 (Japan)": {
-        "secondary_name": "ファミ通Wave 11月号 Vol.4",
+        "secondary_name": "ファミ通Ｗａｖｅ　１１月号　Ｖｏｌ．４",
         "group_name": "Famitsuu Wave 11gatsu-gou Vol. 4",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
-        "edition": "Taikenban"
+        "edition": "Bundled with Magazine"
     },
     "Zen Nihon GT Senshuken Kai (Japan)": {
         "secondary_name": "全日本ＧＴ選手権改",
@@ -34524,9 +34524,9 @@
         "edition": "Original"
     },
     "Rittai Ninja Katsugeki - Tenchu (Japan) (Demo)": {
-        "secondary_name": "立体忍者活劇 天誅 体験版",
+        "secondary_name": "立体忍者活劇　天誅",
         "group_name": "Rittai Ninja Katsugeki - Tenchu",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -34569,9 +34569,9 @@
         "edition": "Original"
     },
     "Square Maniacs '98 (Japan)": {
-        "secondary_name": "スクウェアマニアックス '98",
+        "secondary_name": "スクウェアマニアックス’９８",
         "group_name": "Square Maniacs '98",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -34641,9 +34641,9 @@
         "edition": "Original"
     },
     "Hyper PlayStation Re-mix 1998 No. 8 (Japan)": {
-        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ． ８",
+        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ．８",
         "group_name": "Hyper PlayStation Re-mix 1998 No. 8",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -34938,7 +34938,7 @@
         "edition": "Original"
     },
     "Hyper PlayStation Re-mix No. 1 (Japan)": {
-        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ． １",
+        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ．１",
         "group_name": "Hyper PlayStation Re-mix No. 1",
         "status": "Blue",
         "disc_type": "CD",
@@ -36594,9 +36594,9 @@
         "edition": ""
     },
     "Hyper PlayStation Re-mix 1998 No. 7 (Japan) (Disc 1)": {
-        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ． ７",
+        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ．７",
         "group_name": "Hyper PlayStation Re-mix 1998 No. 7",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -38333,11 +38333,11 @@
     "Dengeki PlayStation D11 - Yarudora Series Vol. 3 - Sampaguita (Japan) (Demo)": {
         "secondary_name": "電撃プレイステーションＤ１１　サンパギータ",
         "group_name": "Dengeki PlayStation D11 - Yarudora Series Vol. 3 - Sampaguita",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
-        "edition": "Demo"
+        "edition": "Bundled with Magazine (Taikenban)"
     },
     "IHRA Drag Racing (USA)": {
         "secondary_name": "",
@@ -41204,7 +41204,7 @@
     "Dengeki PlayStation D11 (Japan)": {
         "secondary_name": "電撃プレイステーションＤ１１",
         "group_name": "Dengeki PlayStation D11",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -46908,13 +46908,13 @@
         "edition": "Original"
     },
     "Famitsuu Wave Soukangou Vol. 3 (Japan)": {
-        "secondary_name": "ファミ通Wave 創刊号 Vol.3",
+        "secondary_name": "ファミ通Ｗａｖｅ　創刊号　Ｖｏｌ．３",
         "group_name": "Famitsuu Wave Soukangou Vol. 3",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
-        "edition": "Taikenban"
+        "edition": "Bundled with Magazine"
     },
     "Tanoshii Mahjong (Japan)": {
         "secondary_name": "たのしい麻雀",
@@ -47720,7 +47720,7 @@
     "Secret of Googol 2a, The - Reshaping Googol - The Castle (USA)": {
         "secondary_name": "",
         "group_name": "Secret of Googol 2a, The - Reshaping Googol - The Castle",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -48233,7 +48233,7 @@
     "MLB 98 (USA)": {
         "secondary_name": "",
         "group_name": "MLB 98",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -48647,7 +48647,7 @@
     "Strider Hiryuu 1 & 2 (Japan) (Disc 1) (Strider Hiryuu)": {
         "secondary_name": "ストライダー飛竜１＆２（ストライダー飛竜）",
         "group_name": "Strider Hiryuu 1 & 2",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -50625,9 +50625,9 @@
         "edition": "Original"
     },
     "Hyper PlayStation Re-mix No. 11 (Japan)": {
-        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ． １１",
+        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ．１１",
         "group_name": "Hyper PlayStation Re-mix No. 11",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -51120,7 +51120,7 @@
         "edition": "Original"
     },
     "Hyper PlayStation Re-mix No. 2 (Japan)": {
-        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ． ２",
+        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ．２",
         "group_name": "Hyper PlayStation Re-mix No. 2",
         "status": "Blue",
         "disc_type": "CD",
@@ -54027,9 +54027,9 @@
         "edition": "Original"
     },
     "Hyper PlayStation Re-mix No. 7 (Japan) (Disc 2)": {
-        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ． ７",
+        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ．７",
         "group_name": "Hyper PlayStation Re-mix No. 7",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -57098,7 +57098,7 @@
     "Memory Card Data Book Vol. 1 (Japan)": {
         "secondary_name": "メモリーカードデータブックＶｏｌ．１",
         "group_name": "Memory Card Data Book Vol. 1",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -58302,9 +58302,9 @@
         "edition": "Shokai Genteiban"
     },
     "Hyper PlayStation Re-mix 1998 No. 6 (Japan)": {
-        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ． ６",
+        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ．６",
         "group_name": "Hyper PlayStation Re-mix 1998 No. 6",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -58689,9 +58689,9 @@
         "edition": "Major Wave"
     },
     "Hyper PlayStation Re-mix 1998 No. 5 (Japan)": {
-        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ． ５",
+        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ．５",
         "group_name": "Hyper PlayStation Re-mix 1998 No. 5",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -63081,9 +63081,9 @@
         "edition": "Original"
     },
     "Hyper PlayStation Re-mix No. 10 (Japan)": {
-        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ． １０",
+        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ．１０",
         "group_name": "Hyper PlayStation Re-mix No. 10",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -63603,9 +63603,9 @@
         "edition": "Original"
     },
     "Hyper PlayStation Re-mix 1999 No. 12 (Japan)": {
-        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ． １２",
+        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ．１２",
         "group_name": "Hyper PlayStation Re-mix 1999 No. 12",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -67286,7 +67286,7 @@
     "Secret of Googol 2b, The - Reshaping Googol - Under the Ocean (USA)": {
         "secondary_name": "",
         "group_name": "Secret of Googol 2b, The - Reshaping Googol - Under the Ocean",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -68978,7 +68978,7 @@
     "Tyco R-C - Assault with a Battery (USA)": {
         "secondary_name": "",
         "group_name": "Tyco R-C - Assault with a Battery",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -69165,13 +69165,13 @@
         "edition": "Shokai Tokuten Reinhart Genteiban"
     },
     "Famitsuu Wave Soukangou Vol. 1 (Japan)": {
-        "secondary_name": "ファミ通Wave 創刊号 Vol.1",
+        "secondary_name": "ファミ通Ｗａｖｅ　創刊号　Ｖｏｌ．１",
         "group_name": "Famitsuu Wave Soukangou Vol. 1",
         "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
-        "edition": "Taikenban"
+        "edition": "Bundled with Magazine"
     },
     "Oddworld - Abe's Exoddus (Spain) (Disc 1)": {
         "secondary_name": "",
@@ -69266,7 +69266,7 @@
     "First Kiss Story (Japan) (Disc 1)": {
         "secondary_name": "ファーストＫｉｓｓ☆物語",
         "group_name": "First Kiss Story",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -69599,7 +69599,7 @@
     "Colony Wars (USA) (Disc 2)": {
         "secondary_name": "",
         "group_name": "Colony Wars",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -70121,7 +70121,7 @@
     "Tenga Seiha (Japan)": {
         "secondary_name": "天下制覇",
         "group_name": "Tenga Seiha",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -72335,7 +72335,7 @@
     "Strider Hiryuu 1 & 2 (Japan) (Disc 2) (Strider Hiryuu 2)": {
         "secondary_name": "ストライダー飛竜１＆２（ストライダー飛竜２）",
         "group_name": "Strider Hiryuu 1 & 2",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -72747,9 +72747,9 @@
         "edition": "Promotion-ban"
     },
     "Hyper PlayStation Re-mix 1998 No. 12 (Japan)": {
-        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ． １２",
+        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ．１２",
         "group_name": "Hyper PlayStation Re-mix 1998 No. 12",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -73289,7 +73289,7 @@
     "K9.5 3 - WebTunes (USA)": {
         "secondary_name": "",
         "group_name": "K9.5 3 - WebTunes",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -75296,7 +75296,7 @@
     "Hissatsu Pachi-Slot Station 4 - New Pulsar R & Hot Rod Queen (Japan)": {
         "secondary_name": "必殺パチスロステーション４　～ニューバルＲ＆ホットロッド～",
         "group_name": "Hissatsu Pachi-Slot Station 4 - New Pulsar R & Hot Rod Queen",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -75449,7 +75449,7 @@
     "NCAA Football 2001 (USA)": {
         "secondary_name": "",
         "group_name": "NCAA Football 2001",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -80190,9 +80190,9 @@
         "edition": ""
     },
     "Hyper PlayStation Re-mix 1998 No. 11 (Japan) (Disc 2)": {
-        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ． １１",
+        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ．１１",
         "group_name": "Hyper PlayStation Re-mix 1998 No. 11",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -80433,9 +80433,9 @@
         "edition": "Original, Fighters Edge"
     },
     "Hyper PlayStation Re-mix No. 8 (Japan)": {
-        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ． ８",
+        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ．８",
         "group_name": "Hyper PlayStation Re-mix No. 8",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -81137,7 +81137,7 @@
     "K9.5 5 - The Howlywood Premiere (USA)": {
         "secondary_name": "",
         "group_name": "K9.5 5 - The Howlywood Premiere",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -81243,9 +81243,9 @@
         "edition": "Original"
     },
     "Hyper PlayStation Re-mix 1998 No. 9 (Japan)": {
-        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ． ９",
+        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ．９",
         "group_name": "Hyper PlayStation Re-mix 1998 No. 9",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -81632,7 +81632,7 @@
     "Mars Moose Stay and Play 1 - In the Clubhouse (USA)": {
         "secondary_name": "",
         "group_name": "Mars Moose Stay and Play 1 - In the Clubhouse",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -83079,9 +83079,9 @@
         "edition": "Original, Only For Toys R Us Test Drive"
     },
     "Hyper PlayStation Re-mix 1998 No. 10 (Japan)": {
-        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ． １０",
+        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ．１０",
         "group_name": "Hyper PlayStation Re-mix 1998 No. 10",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -83117,7 +83117,7 @@
     "Dengeki PlayStation D12 (Japan)": {
         "secondary_name": "電撃プレイステーションＤ１２",
         "group_name": "Dengeki PlayStation D12",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -83360,7 +83360,7 @@
     "Dare Devil Derby 3D (USA)": {
         "secondary_name": "",
         "group_name": "Dare Devil Derby 3D",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -84440,7 +84440,7 @@
     "Mars Moose Stay and Play 2 - In Mars' Bedroom (USA)": {
         "secondary_name": "",
         "group_name": "Mars Moose Stay and Play 2 - In Mars' Bedroom",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -86319,7 +86319,7 @@
         "edition": "Original"
     },
     "Hyper PlayStation Re-mix No. 7 (Japan) (Disc 1)": {
-        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ． ７",
+        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ．７",
         "group_name": "Hyper PlayStation Re-mix No. 7",
         "status": "Green",
         "disc_type": "CD",
@@ -86796,9 +86796,9 @@
         "edition": "Original"
     },
     "Hyper PlayStation Re-mix No. 6 (Japan)": {
-        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ． ６",
+        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ．６",
         "group_name": "Hyper PlayStation Re-mix No. 6",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -88542,9 +88542,9 @@
         "edition": "Original, Best-ban"
     },
     "Hyper PlayStation Re-mix 2000 No. 1 (Japan)": {
-        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ． １",
+        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ．１",
         "group_name": "Hyper PlayStation Re-mix 2000 No. 1",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -90875,7 +90875,7 @@
     "First Kiss Story (Japan) (Disc 2)": {
         "secondary_name": "ファーストＫｉｓｓ☆物語",
         "group_name": "First Kiss Story",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -93733,5 +93733,50 @@
         "languages": "En",
         "version": "",
         "edition": "Original"
+    },
+    "Planet PSX Volume 1 (Germany) (Unl)": {
+        "secondary_name": "Planet PSX Cheats Volume 1",
+        "group_name": "Planet PSX Volume 1",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Unlicensed"
+    },
+    "Hyper PlayStation Re-mix No. 5 (Japan)": {
+        "secondary_name": "ＨＹＰＥＲ　プレイステーションＲｅ－ｍｉｘ　Ｎｏ．５",
+        "group_name": "Hyper PlayStation Re-mix No. 5",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Bundled with Magazine"
+    },
+    "Vanishing Point (Italy)": {
+        "secondary_name": "",
+        "group_name": "Vanishing Point",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "It",
+        "version": "",
+        "edition": "Original"
+    },
+    "Memories Off (Japan)": {
+        "secondary_name": "メモリーズオフ",
+        "group_name": "Memories Off",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Palm Town (Japan) (Major Wave)": {
+        "secondary_name": "ぱーむたうん",
+        "group_name": "Palm Town",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Major Wave"
     }
 }

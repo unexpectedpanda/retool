@@ -76,7 +76,7 @@
         "group_name": "Johnny Bravo in the Hukka-Mega-Mighty-Ultra-Extreme Date-O-Rama!",
         "status": "Green",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "En",
         "version": "1.01",
         "edition": "Original"
     },
@@ -1010,7 +1010,7 @@
     "Chain Dive (Japan)": {
         "secondary_name": "チェインダイブ",
         "group_name": "Chain Dive",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.00",
@@ -1361,7 +1361,7 @@
     "Inuyasha - Feudal Combat (USA)": {
         "secondary_name": "",
         "group_name": "Inuyasha - Feudal Combat",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "1.00",
@@ -1512,7 +1512,7 @@
         "edition": "Original"
     },
     "Gensou Suikoden IV (Japan) (Shokai Seisanban)": {
-        "secondary_name": "幻想水滸伝 ＩＶ",
+        "secondary_name": "幻想水滸伝Ⅳ",
         "group_name": "Gensou Suikoden IV",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -8505,7 +8505,7 @@
         "edition": "Original, PlayStation 2 the Best"
     },
     "Gensou Suikoden V (Japan)": {
-        "secondary_name": "幻想水滸伝Ｖ",
+        "secondary_name": "幻想水滸伝Ⅴ",
         "group_name": "Gensou Suikoden V",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -9695,7 +9695,7 @@
     "Robot Alchemic Drive (USA)": {
         "secondary_name": "",
         "group_name": "Robot Alchemic Drive",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "1.00",
@@ -10547,9 +10547,9 @@
         "version": "1.01",
         "edition": "Original"
     },
-    "Space Venus Starring Morning Musume (Japan)": {
-        "secondary_name": "スペースヴィーナス starring モーニング娘。",
-        "group_name": "Space Venus Starring Morning Musume",
+    "Space Venus Starring Morning Musume. (Japan)": {
+        "secondary_name": "スペースヴィーナス　ｓｔａｒｒｉｎｇ　モーニング娘。",
+        "group_name": "Space Venus Starring Morning Musume.",
         "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
@@ -11459,7 +11459,7 @@
     "Ribbit King Plus! (USA) (Bonus Disc)": {
         "secondary_name": "",
         "group_name": "Ribbit King Plus!",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "1.00",
@@ -13394,7 +13394,7 @@
     "Aqua Aqua (USA)": {
         "secondary_name": "",
         "group_name": "Aqua Aqua",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "1.01",
@@ -14633,12 +14633,12 @@
         "version": "1.00",
         "edition": "Original"
     },
-    "Soccer America - International Cup (USA)": {
+    "Soccer America - International Cup (USA) (En,Es)": {
         "secondary_name": "",
         "group_name": "Soccer America - International Cup",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "En",
+        "languages": "En, Es",
         "version": "1.00",
         "edition": "Original"
     },
@@ -17039,7 +17039,7 @@
     "Formula Suzuki Hayabusa Time Attack (Japan)": {
         "secondary_name": "ＦＯＲＭＵＬＡ　ＳＵＺＵＫＩ　隼　タイムアタック",
         "group_name": "Formula Suzuki Hayabusa Time Attack",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.00",
@@ -17874,7 +17874,7 @@
         "edition": "Original"
     },
     "Gensou Suikoden IV (Japan)": {
-        "secondary_name": "幻想水滸伝ＩＶ",
+        "secondary_name": "幻想水滸伝Ⅳ",
         "group_name": "Gensou Suikoden IV",
         "status": "Blue",
         "disc_type": "DVD-5",
@@ -19547,12 +19547,12 @@
         "version": "1.00",
         "edition": "Original"
     },
-    "Arcade Action - 30 Games (Europe) (En,Fr,De,Es,It)": {
+    "Arcade Action - 30 Games (Europe)": {
         "secondary_name": "",
         "group_name": "Arcade Action - 30 Games",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "En, Fr, De, It, Es",
+        "languages": "En",
         "version": "1.01",
         "edition": "Original"
     },
@@ -19829,7 +19829,7 @@
     "Space Channel 5 - Special Edition (USA) (Disc 1)": {
         "secondary_name": "",
         "group_name": "Space Channel 5 - Special Edition",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "1.00",
@@ -20213,12 +20213,12 @@
         "version": "1.00",
         "edition": "Original"
     },
-    "F1 Career Challenge (USA)": {
+    "F1 Career Challenge (USA) (En,Fr,De)": {
         "secondary_name": "",
         "group_name": "F1 Career Challenge",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "En, Fr, De",
         "version": "1.00",
         "edition": "Original"
     },
@@ -21392,12 +21392,12 @@
         "version": "1.01",
         "edition": "Original"
     },
-    "Need for Speed - Carbon - Collector's Edition (USA)": {
+    "Need for Speed - Carbon - Collector's Edition (USA) (En,Es)": {
         "secondary_name": "",
         "group_name": "Need for Speed - Carbon - Collector's Edition",
         "status": "Blue",
         "disc_type": "DVD-5",
-        "languages": "",
+        "languages": "En, Es",
         "version": "1.00",
         "edition": "Original"
     },
@@ -21977,9 +21977,9 @@
         "version": "1.00",
         "edition": "Original"
     },
-    "Tennis no Oujisama - Love of Prince Sweet (Japan)": {
+    "Tennis no Oujisama - Love of Prince - Sweet (Japan)": {
         "secondary_name": "テニスの王子様　Ｌｏｖｅ　ｏｆ　Ｐｒｉｎｃｅ　Ｓｗｅｅｔ",
-        "group_name": "Tennis no Oujisama - Love of Prince Sweet",
+        "group_name": "Tennis no Oujisama - Love of Prince - Sweet",
         "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
@@ -24471,13 +24471,13 @@
         "edition": "Original"
     },
     "NeoGeo Online Collection Vol. 2 - Bakumatsu Roman - Gekka no Kenshi 1, 2 (Japan) (En,Ja,Es,Pt)": {
-        "secondary_name": "ＮＥＯＧＥＯオンラインコレクション　幕末浪漫 月華の剣士　１・２",
+        "secondary_name": "ＮＥＯＧＥＯオンラインコレクション　幕末浪漫　月華の剣士　１・２",
         "group_name": "NeoGeo Online Collection Vol. 2 - Bakumatsu Roman - Gekka no Kenshi 1, 2",
         "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En, Ja, Pt, Es",
         "version": "1.04",
-        "edition": "NeoGeo Online Collection the Best, NeoGeo Online Collection Complete Box Gekan"
+        "edition": "Original, NeoGeo Online Collection the Best, NeoGeo Online Collection Complete Box Gekan"
     },
     "Official PlayStation 2 Magazine Demo 64 (Germany) (En,De)": {
         "secondary_name": "",
@@ -24543,9 +24543,9 @@
         "edition": "Original"
     },
     "Devil Summoner - Kuzunoha Raidou tai Abaddon-ou (Japan) (Shokai Seisanban)": {
-        "secondary_name": "デビルサマナー 葛葉ライドウ 対 アバドン王",
+        "secondary_name": "デビル・サマナー　葛葉ライドウ 対 アバドン王",
         "group_name": "Devil Summoner - Kuzunoha Raidou tai Abaddon-ou",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.00",
@@ -25406,19 +25406,19 @@
         "version": "1.01",
         "edition": "Special-ban"
     },
-    "Dragon Ball Z - Budokai Tenkaichi 3 (Europe, Australia) (En,Ja,Fr,De,Es,It)": {
+    "Dragon Ball Z - Budokai Tenkaichi 3 (Europe, Australia) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "Dragon Ball Z - Budokai Tenkaichi 3",
         "status": "Green",
         "disc_type": "DVD-5",
-        "languages": "En, Fr, De, It, Ja, Es",
+        "languages": "En, Fr, De, It, Es",
         "version": "1.00",
         "edition": "Original, Platinum, Collector's Edition"
     },
     "Neo Angelique (Japan)": {
-        "secondary_name": "ネオ アンジェリーク",
+        "secondary_name": "ネオ　アンジェリーク",
         "group_name": "Neo Angelique",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.03",
@@ -26189,12 +26189,12 @@
         "version": "1.01",
         "edition": "Original"
     },
-    "RedCard 20-03 (USA)": {
+    "RedCard 20-03 (USA) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "RedCard 20-03",
         "status": "Blue",
         "disc_type": "DVD-5",
-        "languages": "",
+        "languages": "En, Fr, De, It, Es",
         "version": "1.04",
         "edition": "Original"
     },
@@ -26295,7 +26295,7 @@
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.03",
-        "edition": "Original"
+        "edition": "Original, Sample"
     },
     "Ferrari Challenge - Trofeo Pirelli (Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "",
@@ -27929,7 +27929,7 @@
     "Eternal Ring (USA)": {
         "secondary_name": "",
         "group_name": "Eternal Ring",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "1.00",
@@ -28142,12 +28142,12 @@
         "version": "1.00",
         "edition": "Original"
     },
-    "Silent Scope 2 - Dark Silhouette (USA)": {
+    "Silent Scope 2 - Dark Silhouette (USA) (En,Ja,Es)": {
         "secondary_name": "",
         "group_name": "Silent Scope 2 - Dark Silhouette",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "En",
+        "languages": "En, Ja, Es",
         "version": "1.00",
         "edition": "Original"
     },
@@ -35460,9 +35460,9 @@
         "edition": "Original"
     },
     "Jissen Pachi-Slot Hisshouhou! Aladdin II Evolution (Japan)": {
-        "secondary_name": "実戦パチスロ必勝法! アラジンＩＩ　エボリューション",
+        "secondary_name": "実戦パチスロ必勝法！　アラジンⅡ　エボリューション",
         "group_name": "Jissen Pachi-Slot Hisshouhou! Aladdin II Evolution",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.01",
@@ -37772,12 +37772,12 @@
         "version": "1.04",
         "edition": "Original"
     },
-    "Virtua Cop - Elite Edition (Europe) (En,Fr,De,Es,It)": {
+    "Virtua Cop - Elite Edition (Europe)": {
         "secondary_name": "",
         "group_name": "Virtua Cop - Elite Edition",
         "status": "Green",
         "disc_type": "CD",
-        "languages": "En, Fr, De, It, Es",
+        "languages": "En",
         "version": "1.01",
         "edition": "Original"
     },
@@ -37791,7 +37791,7 @@
         "edition": "Original"
     },
     "Garakuta Meisaku Gekijou - Rakugaki Oukoku (Japan) (Taikenban)": {
-        "secondary_name": "ガラクタ名作劇場 ラクガキ王国",
+        "secondary_name": "ガラクタ名作劇場　～ラクガキ王国～",
         "group_name": "Garakuta Meisaku Gekijou - Rakugaki Oukoku",
         "status": "Green",
         "disc_type": "CD",
@@ -38565,7 +38565,7 @@
         "edition": ""
     },
     "Jissen Pachi-Slot Hisshouhou! Hokuto no Ken Special Edition (Japan)": {
-        "secondary_name": "実戦パチスロ必勝法! 北斗の拳 SE",
+        "secondary_name": "実戦パチスロ必勝法！　北斗の拳ＳＥ",
         "group_name": "Jissen Pachi-Slot Hisshouhou! Hokuto no Ken Special Edition",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -39608,9 +39608,9 @@
         "version": "1.01",
         "edition": "Original"
     },
-    "Sega Ages 2500 Series Vol. 1 - Phantasy Star generation-1 (Japan)": {
+    "Sega Ages 2500 Series Vol. 1 - Phantasy Star Generation-1 (Japan)": {
         "secondary_name": "セガエイジス２５００シリーズＶＯＬ１ ファンタシースターｇｅｎｅｒａｔｉｏｎ：１",
-        "group_name": "Sega Ages 2500 Series Vol. 1 - Phantasy Star generation-1",
+        "group_name": "Sega Ages 2500 Series Vol. 1 - Phantasy Star Generation-1",
         "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
@@ -41544,7 +41544,7 @@
         "edition": "Original"
     },
     "Garakuta Meisaku Gekijou - Rakugaki Oukoku (Japan, Asia)": {
-        "secondary_name": "ガラクタ名作劇場: ラクガキ王国",
+        "secondary_name": "ガラクタ名作劇場　～ラクガキ王国～",
         "group_name": "Garakuta Meisaku Gekijou - Rakugaki Oukoku",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -42281,10 +42281,10 @@
         "version": "1.04",
         "edition": "Shokai Gentei Box Type A: Seto/Mizuki Version, Shokai Gentei Box Type B: Futaba/Sakurai/Kagura Version, Shokai Gentei Box Type C: Tachibana/Momozono/Amagi Version"
     },
-    "Tennis no Oujisama - Love of Prince Bitter (Japan)": {
-        "secondary_name": "テニスの王子様　Ｌｏｖｅ　ｏｆ　Ｐｒｉｎｃｅ Ｂｉｔｔｅｒ",
-        "group_name": "Tennis no Oujisama - Love of Prince Bitter",
-        "status": "Blue",
+    "Tennis no Oujisama - Love of Prince - Bitter (Japan)": {
+        "secondary_name": "テニスの王子様　Ｌｏｖｅ　ｏｆ　Ｐｒｉｎｃｅ　－Ｂｉｔｔｅｒ－",
+        "group_name": "Tennis no Oujisama - Love of Prince - Bitter",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.00",
@@ -42579,7 +42579,7 @@
         "edition": "Original"
     },
     "Final Fantasy X-2 (Japan)": {
-        "secondary_name": "ファイナルファンタジーＸ‐２",
+        "secondary_name": "ファイナルファンタジーⅩ－２",
         "group_name": "Final Fantasy X-2",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -43823,7 +43823,7 @@
     "Sub Rebellion (USA)": {
         "secondary_name": "",
         "group_name": "Sub Rebellion",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "1.01",
@@ -47024,8 +47024,8 @@
         "version": "1.01",
         "edition": "Original"
     },
-    "Digital Devil Saga - Avatar Tuner 2 (Japan)": {
-        "secondary_name": "DIGITAL DEVIL SAGA アバタール・チューナー2",
+    "Digital Devil Saga - Avatar Tuner 2 (Japan, Asia)": {
+        "secondary_name": "ＤＩＧＩＴＡＬ　ＤＥＶＩＬ　ＳＡＧＡ　アバタール・チューナー２",
         "group_name": "Digital Devil Saga - Avatar Tuner 2",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -48143,7 +48143,7 @@
     "Space Channel 5 - Special Edition (USA) (Disc 2)": {
         "secondary_name": "",
         "group_name": "Space Channel 5 - Special Edition",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "1.01",
@@ -48908,7 +48908,7 @@
     "Super Bust-A-Move 2 (USA)": {
         "secondary_name": "",
         "group_name": "Super Bust-A-Move 2",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "1.00",
@@ -50300,12 +50300,12 @@
         "version": "1.04",
         "edition": "Original"
     },
-    "Crazy Frog Arcade Racer (USA)": {
+    "Crazy Frog Arcade Racer (USA) (En,Fr,Es)": {
         "secondary_name": "",
         "group_name": "Crazy Frog Arcade Racer",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "En",
+        "languages": "En, Fr, Es",
         "version": "1.02",
         "edition": "Original"
     },
@@ -52784,14 +52784,14 @@
         "version": "1.01",
         "edition": ""
     },
-    "EyeToy - Play (Japan)": {
+    "EyeToy - Play (Japan) (Doukonban)": {
         "secondary_name": "アイトーイ　プレイ",
         "group_name": "EyeToy - Play",
         "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.00",
-        "edition": "Original, Bundled with EyeToy Camera"
+        "edition": "EyeToy Camera Doukonban"
     },
     "Robots (USA)": {
         "secondary_name": "",
@@ -53871,7 +53871,7 @@
         "disc_type": "DVD-5",
         "languages": "En, Fr, De, It, Es",
         "version": "3.00",
-        "edition": "Platinum"
+        "edition": "Platinum, Grand Theft Auto: The Trilogy"
     },
     "ATV Offroad Fury 3 (USA)": {
         "secondary_name": "",
@@ -54351,9 +54351,9 @@
         "edition": "Original"
     },
     "Online Games - Dai Guruguru Onsen (Japan)": {
-        "secondary_name": "オンラインゲームズ 大ぐるぐる温泉",
+        "secondary_name": "オンラインゲームズ　大ぐるぐる温泉",
         "group_name": "Online Games - Dai Guruguru Onsen",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.01",
@@ -54492,7 +54492,7 @@
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.03",
-        "edition": "Original"
+        "edition": "Original, Atlus Best Collection"
     },
     "Tenshou Gakuen Gensouroku (Japan) (v2.01)": {
         "secondary_name": "転生學園 幻蒼録",
@@ -61092,13 +61092,13 @@
         "edition": "Original"
     },
     "McDonald's Original Happy Disc (Japan)": {
-        "secondary_name": "マクドナルドオリジナル ハッピーディスク",
+        "secondary_name": "マクドナルドオリジナル　ハッピーディスク",
         "group_name": "McDonald's Original Happy Disc",
         "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.00",
-        "edition": "Promo"
+        "edition": "Hibaihin"
     },
     "Madden NFL 2001 (Europe)": {
         "secondary_name": "",
@@ -62378,12 +62378,12 @@
         "version": "1.00",
         "edition": "Platinum"
     },
-    "Worms Forts - Under Siege (USA)": {
+    "Worms Forts - Under Siege (USA) (En,Fr)": {
         "secondary_name": "",
         "group_name": "Worms Forts - Under Siege",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "En, Fr",
         "version": "1.01",
         "edition": "Original"
     },
@@ -63218,7 +63218,7 @@
     "Capcom Fighting Jam (Japan)": {
         "secondary_name": "カプコン　ファイティング　ジャム",
         "group_name": "Capcom Fighting Jam",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.01",
@@ -64053,9 +64053,9 @@
         "edition": "Original, Greatest Hits"
     },
     "Ichigeki Satchuu!! Hoihoi-san (Japan)": {
-        "secondary_name": "一撃殺虫!!ホイホイさん",
+        "secondary_name": "一撃殺虫！！　ホイホイさん",
         "group_name": "Ichigeki Satchuu!! Hoihoi-san",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.01",
@@ -66960,7 +66960,7 @@
         "edition": "Original"
     },
     "Shin Sangoku Musou 2 - Moushouden (Japan)": {
-        "secondary_name": "真・三國無双２ 猛将伝",
+        "secondary_name": "真・三國無双２　猛将伝",
         "group_name": "Shin Sangoku Musou 2 - Moushouden",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -69617,7 +69617,7 @@
     "Ribbit King (USA) (En,Es)": {
         "secondary_name": "",
         "group_name": "Ribbit King",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En, Es",
         "version": "1.00",
@@ -72252,9 +72252,9 @@
         "edition": "Original, Limited Edition"
     },
     "Gensou Suikoden V (Japan) (Genteiban)": {
-        "secondary_name": "幻想水滸伝Ｖ",
+        "secondary_name": "幻想水滸伝Ⅴ",
         "group_name": "Gensou Suikoden V",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.03",
@@ -72890,12 +72890,12 @@
         "version": "1.01",
         "edition": "Original"
     },
-    "Cocoto Fishing Master (USA)": {
+    "Cocoto Fishing Master (USA) (En,Fr,Es)": {
         "secondary_name": "",
         "group_name": "Cocoto Fishing Master",
         "status": "Blue",
         "disc_type": "DVD-5",
-        "languages": "En",
+        "languages": "En, Fr, Es",
         "version": "1.03",
         "edition": "Original"
     },
@@ -73934,12 +73934,12 @@
         "version": "1.01",
         "edition": "Original"
     },
-    "Rayman - Raving Rabbids (USA)": {
+    "Rayman - Raving Rabbids (USA) (En,Fr,Es)": {
         "secondary_name": "",
         "group_name": "Rayman - Raving Rabbids",
         "status": "Blue",
         "disc_type": "DVD-5",
-        "languages": "",
+        "languages": "En, Fr, Es",
         "version": "1.00",
         "edition": "Original"
     },
@@ -74393,12 +74393,12 @@
         "version": "1.00",
         "edition": "Original"
     },
-    "Looney Tunes - Space Race (USA)": {
+    "Looney Tunes - Space Race (USA) (En,Fr,Es)": {
         "secondary_name": "",
         "group_name": "Looney Tunes - Space Race",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "En, Fr, Es",
         "version": "1.00",
         "edition": "Original"
     },
@@ -77066,12 +77066,12 @@
         "version": "1.01",
         "edition": "Original"
     },
-    "Cocoto Funfair (France) (En,Fr,Es,It)": {
+    "Cocoto Funfair (France) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "Cocoto Funfair",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "En, Fr, It, Es",
+        "languages": "En, Fr, De, It, Es",
         "version": "1.01",
         "edition": "Original"
     },
@@ -77723,12 +77723,12 @@
         "version": "1.01",
         "edition": "Original, Platinum"
     },
-    "Falling Stars (USA)": {
+    "Falling Stars (USA) (En,Fr,De,Es,It,Ru)": {
         "secondary_name": "",
         "group_name": "Falling Stars",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "En, Fr, De, It, Ru, Es",
         "version": "1.02",
         "edition": "Original"
     },
@@ -78696,9 +78696,9 @@
         "edition": "Original"
     },
     "Mitsu x Mitsu Drops - Love x Love Honey Life (Japan)": {
-        "secondary_name": "蜜×蜜ドロップス　ＬＯＶＥ×ＬＯＶＥ　ＨＯＮＥＹ　ＬＩＦＥ",
+        "secondary_name": "蜜×蜜ドロップス　－ＬＯＶＥ×ＬＯＶＥ　ＨＯＮＥＹ　ＬＩＦＥ－",
         "group_name": "Mitsu x Mitsu Drops - Love x Love Honey Life",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.02",
@@ -79505,12 +79505,12 @@
         "version": "1.02",
         "edition": "Original"
     },
-    "Impossible Mission (Europe)": {
+    "Impossible Mission (Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "Impossible Mission",
         "status": "Green",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "En, Fr, De, It, Es",
         "version": "1.00",
         "edition": "Original"
     },
@@ -80442,7 +80442,7 @@
         "edition": "Original"
     },
     "Gensou Suikoden IV (Japan) (Genteiban)": {
-        "secondary_name": "幻想水滸伝　ＩＶ",
+        "secondary_name": "幻想水滸伝Ⅳ",
         "group_name": "Gensou Suikoden IV",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -83979,7 +83979,7 @@
         "edition": "Original"
     },
     "Shikigami no Shiro II (Japan)": {
-        "secondary_name": "式神の城ＩＩ",
+        "secondary_name": "式神の城Ⅱ",
         "group_name": "Shikigami no Shiro II",
         "status": "Green",
         "disc_type": "CD",
@@ -86912,12 +86912,12 @@
         "version": "1.01",
         "edition": "Original"
     },
-    "Shox (USA)": {
+    "Shox (USA) (En,Fr,Es)": {
         "secondary_name": "",
         "group_name": "Shox",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "En, Fr, Es",
         "version": "1.00",
         "edition": "Original"
     },
@@ -87644,7 +87644,7 @@
     "F1 2002 (Japan)": {
         "secondary_name": "",
         "group_name": "F1 2002",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.02",
@@ -88253,10 +88253,10 @@
         "version": "1.00",
         "edition": "Demo"
     },
-    "Sega Ages 2500 Series Vol. 17 - Phantasy Star generation-2 (Japan)": {
-        "secondary_name": "セガエイジス２５００シリーズVOL１７ ファンタシースターgeneration:2",
-        "group_name": "Sega Ages 2500 Series Vol. 17 - Phantasy Star generation-2",
-        "status": "Blue",
+    "Sega Ages 2500 Series Vol. 17 - Phantasy Star Generation-2 (Japan)": {
+        "secondary_name": "セガエイジス２５００シリーズ　Ｖｏｌ．１７　ファンタシースターｇｅｎｅｒａｔｉｏｎ：２",
+        "group_name": "Sega Ages 2500 Series Vol. 17 - Phantasy Star Generation-2",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.00",
@@ -89683,5 +89683,23 @@
         "languages": "",
         "version": "1.00",
         "edition": "Preview"
+    },
+    "Gunparade Orchestra - Midori no Shou - Ookami to Kare no Shounen (Japan)": {
+        "secondary_name": "ガンパレード・オーケストラ緑の章～狼と彼の少年～",
+        "group_name": "Gunparade Orchestra - Midori no Shou - Ookami to Kare no Shounen",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "Ja",
+        "version": "1.00",
+        "edition": "Original"
+    },
+    "Gunparade Orchestra - Ao no Shou - Hikari no Umi kara Tegami o Okuri masu (Japan)": {
+        "secondary_name": "ガンパレード・オーケストラ青の章～光の海から手紙を送ります～",
+        "group_name": "Gunparade Orchestra - Ao no Shou - Hikari no Umi kara Tegami o Okuri masu",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "Ja",
+        "version": "1.00",
+        "edition": "Original"
     }
 }

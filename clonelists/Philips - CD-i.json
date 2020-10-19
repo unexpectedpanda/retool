@@ -3,7 +3,7 @@
 		"name": [
 			"Philips - CD-i"
 		],
-		"last updated": "4 October 2020"
+		"last updated": "18 October 2020"
 	},
 
 	"renames": {
@@ -56,6 +56,9 @@
 		"Thunder in Paradise (Disc 1) (The Game)": [
 			["Thunder in Paradise", 1]
 		],
+		"Time Life Presents - 35mm Photography": [
+			["Time Life Presenta - La Fotografia in 35mm", 1]
+		],
 		"Video Speedway - The Ultimate Racing Experience": [
 			["Video Speedway - Grand Prix", 1]
 		],
@@ -67,6 +70,9 @@
 		],
 		"Voyeur ...Don't Get Caught": [
 			["Voyeur ...lass Dich nicht erwischen!", 1]
+		],
+		"Zelda - The Wand of Gamelon": [
+			["Zelda - Der Zauberstab von Gamelon", 1]
 		],
 		"Zombie Dinos from Planet Zeltoid": [
 			["Zombie Dinos vom Planeten Zeltoid", 1]

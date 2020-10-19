@@ -3,7 +3,7 @@
 		"name": [
 			"IBM - PC compatible"
 		],
-		"last updated": "10 October 2020"
+		"last updated": "18 October 2020"
 	},
 
 	"compilations": [
@@ -5871,7 +5871,8 @@
 			["Stolen", 0]
 		],
 		"Stolen (Disc 2)": [
-			["Stolen", 0]
+			["Stolen", 0],
+			["Stolen - Ograblenije Veka (Disc 2) (Game)", 1]
 		],
 		"Street Fighter Alpha 2": [
 			["Street Fighter Zero 2", 1]
@@ -6640,6 +6641,12 @@
 		],
 		"Voelker, Die - Mission Pack": [
 			["Voelker, Die - Gold Edition", -1]
+		],
+		"Vojna s terrorom. Zachistka (Disc 1)": [
+			["Terrorist Takedown", 0]
+		],
+		"Vojna s terrorom. Zachistka (Disc 2)": [
+			["Terrorist Takedown", 0]
 		],
 		"War Leaders - Clash of Nations (Disc 1)": [
 			["War Leaders - Clash of Nations", 0]

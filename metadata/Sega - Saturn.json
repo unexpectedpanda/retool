@@ -7253,7 +7253,7 @@
         "version": "1.002",
         "edition": "Original"
     },
-    "Sakura Taisen 2 - Kimi, Shinitamou Koto Nakare (Japan) (Disc 1) (Rev A) (10M)": {
+    "Sakura Taisen 2 - Kimi, Shinitamou Koto Nakare (Japan) (Disc 1) (Rev A)": {
         "secondary_name": "サクラ大戦２　～君、死にたもうことなかれ～",
         "group_name": "Sakura Taisen 2 - Kimi, Shinitamou Koto Nakare",
         "status": "Green",
@@ -14435,7 +14435,7 @@
         "version": "0.910",
         "edition": "Demo"
     },
-    "Riglordsaga (Japan) (Made in Japan)": {
+    "Riglordsaga (Japan) (Made in Japan) (1M)": {
         "secondary_name": "リグロード・サーガ",
         "group_name": "Riglordsaga",
         "status": "Blue",
@@ -20868,6 +20868,69 @@
         "disc_type": "CD",
         "languages": "En",
         "version": "1.001",
+        "edition": "Original"
+    },
+    "Mahou Gakuen Lunar! (Japan) (1M)": {
+        "secondary_name": "魔法学園ルナ！",
+        "group_name": "Mahou Gakuen Lunar!",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "2.000",
+        "edition": "Original"
+    },
+    "J.League Pro Soccer Club o Tsukurou! 2 (Japan) (2M)": {
+        "secondary_name": "Ｊリーグ・プロ・サッカー・クラブ　をつくろう！２",
+        "group_name": "J.League Pro Soccer Club o Tsukurou! 2",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "1.007",
+        "edition": "Original"
+    },
+    "Nanatsu no Hikan (Japan) (Disc 2) (1M)": {
+        "secondary_name": "七つの秘館",
+        "group_name": "Nanatsu no Hikan",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "1.001",
+        "edition": "Original"
+    },
+    "Winning Post 3 (Japan) (2M)": {
+        "secondary_name": "ウイニング・ポスト３",
+        "group_name": "Winning Post 3",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "1.000",
+        "edition": "Original"
+    },
+    "Yumimi Mix Remix (Japan) (Demo)": {
+        "secondary_name": "ゆみみみっくす　リみっくす",
+        "group_name": "Yumimi Mix Remix",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "1.000",
+        "edition": "Auto Demo"
+    },
+    "Riglordsaga (Japan) (Made in Japan) (4M)": {
+        "secondary_name": "リグロード・サーガ",
+        "group_name": "Riglordsaga",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "1.000",
+        "edition": "Original"
+    },
+    "Sakura Taisen 2 - Kimi, Shinitamou Koto Nakare (Japan) (Disc 2) (Rev A) (12M)": {
+        "secondary_name": "サクラ大戦２　～君、死にたもうことなかれ～",
+        "group_name": "Sakura Taisen 2 - Kimi, Shinitamou Koto Nakare",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "1.004",
         "edition": "Original"
     }
 }
