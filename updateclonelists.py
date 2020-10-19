@@ -44,6 +44,38 @@ def main():
             with open (os.path.abspath('clonelists/' + key), 'wb') as output_file:
                 output_file.write(page)
 
+    print('* Checking online for metadata updates... ')
+
+    req = urllib.request.Request('https://raw.githubusercontent.com/unexpectedpanda/retool/master/metadata/hash.json', None, headers)
+    page = get_page(req)
+
+    for key, value in json.loads(page).items():
+        if os.path.exists(os.path.abspath('metadata/' + key)) == True:
+            hash_md5 = hashlib.md5()
+
+            with open (os.path.abspath('metadata/' + key), 'rb') as file:
+                for chunk in iter(lambda: file.read(4096), b''):
+                    hash_md5.update(chunk)
+                file.close()
+
+            if hash_md5.hexdigest() != value:
+                file_count += 1
+                print(f'* Found an update for {key}. Downloading...')
+                req = urllib.request.Request(f'https://raw.githubusercontent.com/unexpectedpanda/retool/master/metadata/{urllib.parse.quote(key)}', None, headers)
+                page = get_page(req)
+
+                with open (os.path.abspath('metadata/' + key), 'wb') as output_file:
+                    output_file.write(page)
+
+        else:
+            file_count += 1
+            print(f'  * Found a new metadata file, {key}. Downloading...')
+            req = urllib.request.Request(f'https://raw.githubusercontent.com/unexpectedpanda/retool/master/metadata/{urllib.parse.quote(key)}', None, headers)
+            page = get_page(req)
+
+            with open (os.path.abspath('metadata/' + key), 'wb') as output_file:
+                output_file.write(page)
+
     if file_count == 0:
         print('* Done. No new updates are available.')
     elif file_count == 1:
