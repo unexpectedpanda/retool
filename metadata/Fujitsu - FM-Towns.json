@@ -2067,7 +2067,7 @@
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
-        "edition": "Original"
+        "edition": "with Soundware"
     },
     "Visitor, The (Japan)": {
         "secondary_name": "ザ・ビジター",
@@ -3823,5 +3823,185 @@
         "languages": "En, Ja",
         "version": "",
         "edition": "Original"
+    },
+    "Kyouko no Ijiwaru!! Hachamecha Daishingeki (Japan)": {
+        "secondary_name": "恭子のいぢわる！！　～ハチャメチャ大進撃～",
+        "group_name": "Kyouko no Ijiwaru!! Hachamecha Daishingeki",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Mandala-ke Ichizoku (Japan)": {
+        "secondary_name": "曼陀羅家一族",
+        "group_name": "Mandala-ke Ichizoku",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Pi's Solitaire Royale + Tom Snyder's Puppy Love (Japan)": {
+        "secondary_name": "",
+        "group_name": "Pi's Solitaire Royale + Tom Snyder's Puppy Love",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "FM Towns Soft Collection Kaigai-hen Vol. 1"
+    },
+    "Queen of Duellist Gaiden, The + Gaiden Alpha (Japan)": {
+        "secondary_name": "クィーン・オブ・デュエリスト外伝＋外伝α",
+        "group_name": "Queen of Duellist Gaiden, The + Gaiden Alpha",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "WonPara Wars II (Japan)": {
+        "secondary_name": "ＷＯＮＰＡＲＡウォーズⅡ",
+        "group_name": "WonPara Wars II",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Terra Towns (Japan) (Rev B)": {
+        "secondary_name": "テラＴＯＷＮＳ",
+        "group_name": "Terra Towns",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "Rev B",
+        "edition": ""
+    },
+    "Eikan wa Kimi ni 2 - Koukou Yakyuu Zenkoku Taikai (Japan)": {
+        "secondary_name": "栄冠は君に２　～高校野球全国大会～",
+        "group_name": "Eikan wa Kimi ni 2 - Koukou Yakyuu Zenkoku Taikai",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "America Oudan Ultra Quiz (Japan)": {
+        "secondary_name": "アメリカ横断ウルトラ・クイズ",
+        "group_name": "America Oudan Ultra Quiz",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Hirou (Japan)": {
+        "secondary_name": "疲労",
+        "group_name": "Hirou",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Jankirou (Japan)": {
+        "secondary_name": "雀妃楼",
+        "group_name": "Jankirou",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Lettuce Cooking - Tanoshiku Tsukureru Obentou (Japan)": {
+        "secondary_name": "レタス・クッキング　～楽しく作れるおべんとう～",
+        "group_name": "Lettuce Cooking - Tanoshiku Tsukureru Obentou",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Soft de Hard na Monogatari (Japan)": {
+        "secondary_name": "ソフトでハードな物語",
+        "group_name": "Soft de Hard na Monogatari",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Soft de Hard na Monogatari 2 (Japan)": {
+        "secondary_name": "ソフトでハードな物語２",
+        "group_name": "Soft de Hard na Monogatari 2",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "AIV - A Ressha de Ikou 4 (Japan)": {
+        "secondary_name": "Ａ列車で行こう４",
+        "group_name": "AIV - A Ressha de Ikou 4",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "AmbivalenZ - Niritsu Haihan (Japan)": {
+        "secondary_name": "ＡＭＢＩＶＡＬＥＮＺ　～二律背反～",
+        "group_name": "AmbivalenZ - Niritsu Haihan",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "1994/04/28",
+        "edition": "Original"
+    },
+    "Eye of the Beholder II - The Legend of Darkmoon (Japan)": {
+        "secondary_name": "アイ・オブ・ザ・ビホルダーⅡ",
+        "group_name": "Eye of the Beholder II - The Legend of Darkmoon",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Galaxy Wars - Regional Power II (Japan)": {
+        "secondary_name": "レジオナル・パワーⅡ",
+        "group_name": "Galaxy Wars - Regional Power II",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "JoshuA (Japan)": {
+        "secondary_name": "",
+        "group_name": "JoshuA",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "L'Empereur (Japan)": {
+        "secondary_name": "ランペルール",
+        "group_name": "L'Empereur",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "with Soundware"
+    },
+    "Might and Magic - Clouds of Xeen (Japan)": {
+        "secondary_name": "マイト・アンド・マジック　クラウズ・オブ・ジーン",
+        "group_name": "Might and Magic - Clouds of Xeen",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "CD-ROM-ban"
     }
 }

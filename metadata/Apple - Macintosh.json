@@ -3368,7 +3368,7 @@
     "Mario's Time Machine Deluxe (USA)": {
         "secondary_name": "",
         "group_name": "Mario's Time Machine Deluxe",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -3535,5 +3535,41 @@
         "languages": "Zh, Da, Nl, En, Fi, Fr, De, It, Ja, Ko, No, Pl, Pt, Es, Sv, Th",
         "version": "1.0",
         "edition": "Original"
+    },
+    "CD-ROM MacLife No. 24 (Japan)": {
+        "secondary_name": "",
+        "group_name": "CD-ROM MacLife No. 24",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Covermount"
+    },
+    "CD-ROM MacLife No. 25 (Japan)": {
+        "secondary_name": "",
+        "group_name": "CD-ROM MacLife No. 25",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Covermount"
+    },
+    "CD-ROM MacLife No. 25 - Special Edition (Japan) (MkLinux Nihongo Kit)": {
+        "secondary_name": "",
+        "group_name": "CD-ROM MacLife No. 25 - Special Edition",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Covermount"
+    },
+    "CD-ROM MacLife No. 26 (Japan)": {
+        "secondary_name": "",
+        "group_name": "CD-ROM MacLife No. 26",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Covermount"
     }
 }
