@@ -3,7 +3,7 @@
 		"name": [
 			"IBM - PC compatible"
 		],
-		"last updated": "18 October 2020"
+		"last updated": "26 October 2020"
 	},
 
 	"compilations": [
@@ -371,6 +371,18 @@
 		],
 		"Asteroids": [
 			["Asteroids - Der Durchbruch ins neue Jahrtausend!", 1]
+		],
+		"Atlantis - The Lost Tales (Disc 1)": [
+			["Atlantis - Segreti d'un Mondo Perduto (Disc 1)", 1]
+		],
+		"Atlantis - The Lost Tales (Disc 2)": [
+			["Atlantis - Segreti d'un Mondo Perduto (Disc 3)", 1]
+		],
+		"Atlantis - The Lost Tales (Disc 3)": [
+			["Atlantis - Segreti d'un Mondo Perduto (Disc 3)", 1]
+		],
+		"Atlantis - The Lost Tales (Disc 4)": [
+			["Atlantis - Segreti d'un Mondo Perduto (Disc 4)", 1]
 		],
 		"Atlantis Evolution (Disc 1)": [
 			["Atlantis Evolution", 0]
@@ -1075,6 +1087,9 @@
 		"Codename - Panzers - Phase One (Disc 3)": [
 			["Codename - Panzers - Phase One", 0]
 		],
+		"Conflict Zone - Modern War Strategy": [
+			["Conflict Zone", 1]
+		],
 		"Cryptic Passage for Blood": [
 			["One Unit Whole Blood", -1]
 		],
@@ -1384,6 +1399,12 @@
 		],
 		"Dame Was Loaded, The (Disc 2)": [
 			["Signora Calibro 32, La (Disc 2)", 1]
+		],
+		"Dark Earth (Disc 1) (Upper City)": [
+			["Dark Earth (Disc 1)", 1]
+		],
+		"Dark Earth (Disc 2) (Lower City)": [
+			["Dark Earth (Disc 2)", 1]
 		],
 		"Dark Fall - The Journal": [
 			["Dark Fall - Il Diario dei Misteri", 1]
@@ -1940,6 +1961,12 @@
 		],
 		"Earth 2150 - Lost Souls (Disc 2)": [
 			["Top Secret 02-2003 (Disc 4)", 1]
+		],
+		"Earth 2150 - The Moon Project (Disc 1) (Installation)": [
+			["Moon Project", 0]
+		],
+		"Earth 2150 - The Moon Project (Disc 2)": [
+			["Moon Project", 0]
 		],
 		"Earth 2160 (Disc 1)": [
 			["Earth 2160", 0],
@@ -2533,6 +2560,7 @@
 		"Gothic II (Disc 1)": [
 			["Gothic Universe (Disc 2)", -1],
 			["Gothic Universe (Gothic II Gold)", -1],
+			["Gothic II Gold", -1],
 			["Gothic II (Disc 1) (Play Disc)", 1],
 			["Gothic II (Disc 1) (Game Disc)", 1],
 			["Gothic II (Spiel CD)", 2],
@@ -2541,18 +2569,21 @@
 		"Gothic II (Disc 2)": [
 			["Gothic Universe (Disc 2)", -1],
 			["Gothic Universe (Gothic II Gold)", -1],
+			["Gothic II Gold", -1],
 			["Gothic II (Installations CD 1)", 2]
 		],
 		"Gothic II (Disc 3)": [
 			["Gothic Universe (Disc 2)", -1],
 			["Gothic Universe (Gothic II Gold)", -1],
+			["Gothic II Gold", -1],
 			["Gothic II (Installations CD 2)", 2]
 		],
 		"Gothic Universe (Disc 1)": [
 			["Gothic Universe (Gothic I & Online Handbuecher)", 1]
 		],
 		"Gothic Universe (Disc 2)": [
-			["Gothic Universe (Gothic II Gold)", 1]
+			["Gothic Universe (Gothic II Gold)", 1],
+			["Gothic II Gold", -1]
 		],
 		"Gothic Universe (Disc 3)": [
 			["Gothic Universe (Gothic III)", 1]
@@ -3698,6 +3729,15 @@
 		"Medal of Honor - Warfighter (Disc 2) (Limited Edition)": [
 			["Medal of Honor - Warfighter (Disc 2)", 1]
 		],
+		"Medieval - Total War (Disc 1)": [
+			["Medieval - Total War - The Complete Edition", -1]
+		],
+		"Medieval - Total War (Disc 2)": [
+			["Medieval - Total War - The Complete Edition", -1]
+		],
+		"Medieval - Total War - Viking Invasion Expansion Pack": [
+			["Medieval - Total War - The Complete Edition", -1]
+		],
 		"Medieval Lords - Build, Defend, Expand": [
 			["Medieval Lords - Bauen, Verteidigen, Erobern", 1]
 		],
@@ -4187,7 +4227,7 @@
 			["Pajama Sam - De Helse Jacht op de Duistere Nacht", 1]
 		],
 		"Pajama Sam 2 - Thunder and Lightning Aren't So Frightening": [
-			["Pajama Sam - Doe niet onder voor bliksem en donder!", 1]
+			["Pajama Sam - Doe Niet Onder voor Bliksem en Donder!", 1]
 		],
 		"Pajama Sam 3 - You Are What You Eat from Your Head to Your Feet": [
 			["Pajama Sam - Je Bent Wat Je Eet, 'T Is Maar Dat Je Het Weet", 1]
@@ -4972,7 +5012,9 @@
 			["Bestseller Games Gold-Edition Ausgabe 3", 1]
 		],
 		"Sam & Max - Season One": [
-			["PC Gamer March 2008", 1]
+			["Sam & Max - Season 1", 1],
+			["PC Gamer March 2008", 2],
+			["Sam & Max - Sezon 1", 2]
 		],
 		"Samurai Shodown II": [
 			["Zhen Shihun", 1]
@@ -5066,10 +5108,12 @@
 			["Siedler, Die", 1]
 		],
 		"Settlers, The - Heritage of Kings (Disc 1)": [
-			["Settlers, The - Heritage of Kings - Gold Edition", -1]
+			["Settlers, The - Heritage of Kings - Gold Edition", -1],
+			["Settlers, The - Heritage of Kings", 0]
 		],
 		"Settlers, The - Heritage of Kings (Disc 2)": [
-			["Settlers, The - Heritage of Kings - Gold Edition", -1]
+			["Settlers, The - Heritage of Kings - Gold Edition", -1],
+			["Settlers, The - Heritage of Kings", 0]
 		],
 		"Settlers, The - Heritage of Kings - Expansion Disc": [
 			["Settlers, The - Heritage of Kings - Gold Edition", -1]
@@ -6985,6 +7029,9 @@
 		"Zeus - Master of Olympus": [
 			["Herrscher des Olymp - Zeus", 1],
 			["Signore dell'Olimpo, Il - Zeus", 1]
+		],
+		"Zombie Wars": [
+			["Halloween Harry in Zombie Wars", 1]
 		],
 		"Zoo Tycoon": [
 			["Zoo Tycoon Complete Collection", -1]

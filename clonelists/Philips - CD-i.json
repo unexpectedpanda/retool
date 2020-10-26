@@ -3,12 +3,16 @@
 		"name": [
 			"Philips - CD-i"
 		],
-		"last updated": "18 October 2020"
+		"last updated": "26 October 2020"
 	},
 
 	"renames": {
 		"7th Guest, The (Disc 1) (The Game)": [
+			["7th Guest, The (Disc 1) (Das Spiel)", 1],
 			["7th Guest, The (Disc 1) (Le Jeu)", 1]
+		],
+		"Alice in Wonderland": [
+			["Alice au Pays des Merveilles", 1]
 		],
 		"Asterix - Caesar's Challenge": [
 			["Asterix - El Desafio de Cesar", 1],
@@ -27,8 +31,12 @@
 			["Burn-Cycle (Jeu)", 1]
 		],
 		"Harvest of the Sun - Van Gogh - Une Moisson de Soleils": [
-			["Raccolto del Sole, Il - Van Gogh", 1],
-			["Oogst van de Zon", 1]
+			["Harvest of the Sun", 1],
+			["Oogst van de Zon", 1],
+			["Raccolto del Sole, Il - Van Gogh", 1]
+		],
+		"Impressionnistes Francais, Les": [
+			["Gli Impressionisti Francesi", 1]
 		],
 		"International Tennis Open": [
 			["International Tennis Open (8100082)", 1],
@@ -36,6 +44,12 @@
 		],
 		"Jigsaw - The Ultimate Electronic Puzzle": [
 			["Jigsaw - Das elektronische Puzzlespiel", 1]
+		],
+		"Marco Polo (Disc 1) (The Game)": [
+			["Marco Polo (Disc 1) (Le Jeu)", 1]
+		],
+		"Marco Polo (Disc 2) (The Documentation)": [
+			["Marco Polo (Disc 2) (La Documentation)", 1]
 		],
 		"Palm Springs Open, The": [
 			["L'Open de Palm Springs", 1]
@@ -45,6 +59,7 @@
 		],
 		"Renaissance of Florence, The": [
 			["Rinascimento a Firenze, Il", 1],
+			["Renaissance in Florenz, Die", 1],
 			["Renaissance van Florence, De", 1]
 		],
 		"Sandy's Circus Adventure": [
@@ -54,10 +69,12 @@
 			["Scotland Yard Interactif", 1]
 		],
 		"Thunder in Paradise (Disc 1) (The Game)": [
+			["Caraibes Offshore", 1],
 			["Thunder in Paradise", 1]
 		],
 		"Time Life Presents - 35mm Photography": [
-			["Time Life Presenta - La Fotografia in 35mm", 1]
+			["Time Life Presenta - La Fotografia in 35mm", 1],
+			["Time Life Presente - La Photographie 24 x 36 mm", 1]
 		],
 		"Video Speedway - The Ultimate Racing Experience": [
 			["Video Speedway - Grand Prix", 1]
