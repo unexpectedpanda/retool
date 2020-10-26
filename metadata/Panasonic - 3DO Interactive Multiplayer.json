@@ -4768,5 +4768,14 @@
         "languages": "Ja",
         "version": "",
         "edition": "Demonstration-ban"
+    },
+    "PGA Tour 96 (Europe)": {
+        "secondary_name": "",
+        "group_name": "PGA Tour 96",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
     }
 }

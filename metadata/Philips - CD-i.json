@@ -170,7 +170,7 @@
         "version": "",
         "edition": "Original"
     },
-    "NFL Hall of Fame Football (USA)": {
+    "NFL Hall of Fame Football (USA) (19940914)": {
         "secondary_name": "",
         "group_name": "NFL Hall of Fame Football",
         "status": "Blue",
@@ -290,9 +290,9 @@
     "Great Day at the Races, A (Europe)": {
         "secondary_name": "",
         "group_name": "Great Day at the Races, A",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "En",
         "version": "",
         "edition": "Original"
     },
@@ -344,7 +344,7 @@
     "Steel Machine (Europe)": {
         "secondary_name": "",
         "group_name": "Steel Machine",
-        "status": "Blue",
+        "status": "Yellow",
         "disc_type": "CD",
         "languages": "",
         "version": "1.14",
@@ -362,7 +362,7 @@
     "Ville Surprise de Richard Scarry 2, La (France)": {
         "secondary_name": "",
         "group_name": "Ville Surprise de Richard Scarry 2, La",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Fr",
         "version": "1.09",
@@ -564,7 +564,7 @@
         "disc_type": "CD",
         "languages": "En",
         "version": "",
-        "edition": "Original"
+        "edition": "Original, Rerelease"
     },
     "Shark Alert (USA)": {
         "secondary_name": "",
@@ -749,7 +749,7 @@
     "Ville Surprise de Richard Scarry 1, La (France)": {
         "secondary_name": "",
         "group_name": "Ville Surprise de Richard Scarry 1, La",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Fr",
         "version": "",
@@ -773,7 +773,7 @@
         "version": "",
         "edition": "Original"
     },
-    "Backgammon (Europe)": {
+    "Backgammon (USA, Europe)": {
         "secondary_name": "",
         "group_name": "Backgammon",
         "status": "Green",
@@ -857,7 +857,7 @@
     "Power Hitter (Europe)": {
         "secondary_name": "",
         "group_name": "Power Hitter",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -1325,7 +1325,7 @@
     "Wacky World of Miniature Golf with Eugene Levy, The (USA)": {
         "secondary_name": "",
         "group_name": "Wacky World of Miniature Golf with Eugene Levy, The",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -1493,7 +1493,7 @@
         "version": "2.01",
         "edition": "Original"
     },
-    "Cistercian Architecture (Europe) (En,Fr,De)": {
+    "Cistercian Architecture (Europe) (En,Fr,De) (19931104)": {
         "secondary_name": "",
         "group_name": "Cistercian Architecture",
         "status": "Blue",
@@ -1541,7 +1541,7 @@
     "Mutant Rampage - Bodyslam (Europe)": {
         "secondary_name": "",
         "group_name": "Mutant Rampage - Bodyslam",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "1.04",
@@ -1815,7 +1815,7 @@
         "disc_type": "CD",
         "languages": "En",
         "version": "",
-        "edition": "Original"
+        "edition": "Original, Longbox"
     },
     "Lost Eden (Germany)": {
         "secondary_name": "",
@@ -1946,7 +1946,7 @@
     "CDI 450 - Tutorial Disc (Europe) (En,Fr,De,Es,It,Nl,Pt)": {
         "secondary_name": "",
         "group_name": "CDI 450 - Tutorial Disc",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Nl, En, Fr, De, It, Pt, Es",
         "version": "1.01",
@@ -1961,7 +1961,7 @@
         "version": "",
         "edition": "Original"
     },
-    "Battleship (Europe)": {
+    "Battleship (USA, Europe)": {
         "secondary_name": "Battleship: Schiffeversenken mit der US Navy|Battleship: Bataille Navale",
         "group_name": "Battleship",
         "status": "Green",
@@ -2009,7 +2009,7 @@
     "Kether (USA) (En,Fr)": {
         "secondary_name": "",
         "group_name": "Kether",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En, Fr",
         "version": "",
@@ -2234,11 +2234,11 @@
     "Sandy's Circus Adventure (USA)": {
         "secondary_name": "",
         "group_name": "Sandy's Circus Adventure",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "En",
         "version": "",
-        "edition": "Demonstration Disc"
+        "edition": "Original, Demonstration Disc"
     },
     "Renaissance of Florence, The (USA)": {
         "secondary_name": "",
@@ -2756,10 +2756,10 @@
     "Voetbal (Netherlands)": {
         "secondary_name": "",
         "group_name": "Voetbal",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Nl",
-        "version": "",
+        "version": "1.04",
         "edition": "Original"
     },
     "ACT College Search '92, The (USA)": {
@@ -2796,6 +2796,375 @@
         "disc_type": "CD",
         "languages": "En",
         "version": "",
+        "edition": "Original"
+    },
+    "Secret Mission (France)": {
+        "secondary_name": "",
+        "group_name": "Secret Mission",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "1.07",
+        "edition": "Original"
+    },
+    "Harvest of the Sun (Europe)": {
+        "secondary_name": "",
+        "group_name": "Harvest of the Sun",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Original"
+    },
+    "Kether (Netherlands) (En,Nl)": {
+        "secondary_name": "",
+        "group_name": "Kether",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Nl, En",
+        "version": "1.05",
+        "edition": "Original"
+    },
+    "Language Director - Guided Tour - English Level 1 (Europe)": {
+        "secondary_name": "Language Director: Guided Tour: English Level 2",
+        "group_name": "Language Director - Guided Tour - English Level 1",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Original"
+    },
+    "Language Director - English - Level 2 (Europe) (Disc 1)": {
+        "secondary_name": "",
+        "group_name": "Language Director - English - Level 2",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Original"
+    },
+    "Language Director - English - Level 2 (Europe) (Disc 2)": {
+        "secondary_name": "",
+        "group_name": "Language Director - English - Level 2",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Original"
+    },
+    "Language Director - English - Level 1 (Europe) (Disc 2)": {
+        "secondary_name": "",
+        "group_name": "Language Director - English - Level 1",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Original"
+    },
+    "Language Director - English - Level 1 (Europe) (Disc 1)": {
+        "secondary_name": "",
+        "group_name": "Language Director - English - Level 1",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Original"
+    },
+    "Language Director - English - Level 3 (Europe) (Disc 1)": {
+        "secondary_name": "",
+        "group_name": "Language Director - English - Level 3",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Original"
+    },
+    "Language Director - English - Level 3 (Europe) (Disc 2)": {
+        "secondary_name": "",
+        "group_name": "Language Director - English - Level 3",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Original"
+    },
+    "Language Director - Guided Tour - English Level 3 (Europe)": {
+        "secondary_name": "",
+        "group_name": "Language Director - Guided Tour - English Level 3",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Original"
+    },
+    "Sport Freaks (Netherlands)": {
+        "secondary_name": "",
+        "group_name": "Sport Freaks",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Nl",
+        "version": "",
+        "edition": "Original"
+    },
+    "Impressionnistes Francais, Les (France)": {
+        "secondary_name": "",
+        "group_name": "Impressionnistes Francais, Les",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Original"
+    },
+    "Souris du Pere Noel, Les (France)": {
+        "secondary_name": "",
+        "group_name": "Souris du Pere Noel, Les",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Original"
+    },
+    "Nature Under Threat (Europe)": {
+        "secondary_name": "",
+        "group_name": "Nature Under Threat",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Prelude (France) (En,Ja,Fr,It,Nl)": {
+        "secondary_name": "",
+        "group_name": "Prelude",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Nl, En, Fr, It, Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "NFL Hall of Fame Football (USA) (19941014)": {
+        "secondary_name": "",
+        "group_name": "NFL Hall of Fame Football",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Cistercian Architecture (Europe) (En,Fr,De) (19940323)": {
+        "secondary_name": "",
+        "group_name": "Cistercian Architecture",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En, Fr, De",
+        "version": "",
+        "edition": "Original"
+    },
+    "Time Life Presente - La Photographie 24 x 36 mm (France)": {
+        "secondary_name": "",
+        "group_name": "Time Life Presente - La Photographie 24 x 36 mm",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Fr",
+        "version": "",
+        "edition": "Original"
+    },
+    "Cartoon Jukebox (France)": {
+        "secondary_name": "",
+        "group_name": "Cartoon Jukebox",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Fr",
+        "version": "",
+        "edition": "Original"
+    },
+    "Albero Azzurro, L' (Italy)": {
+        "secondary_name": "",
+        "group_name": "Albero Azzurro, L'",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "It",
+        "version": "1.03",
+        "edition": "Original"
+    },
+    "Joy of Sex, The (Europe) (Rev 1)": {
+        "secondary_name": "",
+        "group_name": "Joy of Sex, The",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "2.01",
+        "edition": "Original"
+    },
+    "Who Shot Johnny Rock (France)": {
+        "secondary_name": "",
+        "group_name": "Who Shot Johnny Rock",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Fr",
+        "version": "1.03",
+        "edition": "Original"
+    },
+    "Marco Polo (France) (Disc 2) (La Documentation)": {
+        "secondary_name": "",
+        "group_name": "Marco Polo",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Fr",
+        "version": "1.03",
+        "edition": "Original"
+    },
+    "Marco Polo (France) (Disc 1) (Le Jeu)": {
+        "secondary_name": "",
+        "group_name": "Marco Polo",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Fr",
+        "version": "1.03",
+        "edition": "Original"
+    },
+    "Dragon's Lair (USA)": {
+        "secondary_name": "",
+        "group_name": "Dragon's Lair",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Text Tiles (USA)": {
+        "secondary_name": "",
+        "group_name": "Text Tiles",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Sailing (USA)": {
+        "secondary_name": "",
+        "group_name": "Sailing",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Rhythm Maker (USA)": {
+        "secondary_name": "",
+        "group_name": "Rhythm Maker",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Kingdom - The Far Reaches (Europe)": {
+        "secondary_name": "",
+        "group_name": "Kingdom - The Far Reaches",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "1.03",
+        "edition": "Original"
+    },
+    "Great Day at the Races, A (USA)": {
+        "secondary_name": "",
+        "group_name": "Great Day at the Races, A",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Mystic Midway - Phantom Express (Europe)": {
+        "secondary_name": "",
+        "group_name": "Mystic Midway - Phantom Express",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Caraibes Offshore (France)": {
+        "secondary_name": "",
+        "group_name": "Caraibes Offshore",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "1.02",
+        "edition": "Original"
+    },
+    "Lords of the Rising Sun (USA) (Alt)": {
+        "secondary_name": "",
+        "group_name": "Lords of the Rising Sun",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Classical Guitar (USA)": {
+        "secondary_name": "Private Lesson Series: Classical Guitar",
+        "group_name": "Classical Guitar",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Alice au Pays des Merveilles (France)": {
+        "secondary_name": "",
+        "group_name": "Alice au Pays des Merveilles",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Fr",
+        "version": "",
+        "edition": "Original"
+    },
+    "Private Lesson Series - Jazz Guitar (Europe)": {
+        "secondary_name": "",
+        "group_name": "Private Lesson Series - Jazz Guitar",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Micro Machines (Europe)": {
+        "secondary_name": "",
+        "group_name": "Micro Machines",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "1.07",
+        "edition": "Exclusive Edition"
+    },
+    "Ultimate Noah's Ark, The (UK)": {
+        "secondary_name": "",
+        "group_name": "Ultimate Noah's Ark, The",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "1.15",
+        "edition": "Original"
+    },
+    "Cream of Eric Clapton, The (Europe) (Disc 1)": {
+        "secondary_name": "",
+        "group_name": "Cream of Eric Clapton, The",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "1.01",
+        "edition": "Original"
+    },
+    "Cream of Eric Clapton, The (Europe) (Disc 2)": {
+        "secondary_name": "",
+        "group_name": "Cream of Eric Clapton, The",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "1.01",
         "edition": "Original"
     }
 }

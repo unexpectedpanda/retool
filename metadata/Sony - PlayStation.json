@@ -5690,7 +5690,7 @@
     "Dengeki PlayStation D23 (Japan)": {
         "secondary_name": "電撃プレイステーションＤ２３",
         "group_name": "Dengeki PlayStation D23",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -6113,7 +6113,7 @@
     "Firo & Klawd (Japan)": {
         "secondary_name": "ファイロ＆クロード",
         "group_name": "Firo & Klawd",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -7004,7 +7004,7 @@
     "Dengeki PlayStation D21 (Japan)": {
         "secondary_name": "電撃プレイステーションＤ２１",
         "group_name": "Dengeki PlayStation D21",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -9396,13 +9396,13 @@
         "edition": "Original"
     },
     "Metal Gear Solid - Integral (Japan, Asia) (En,Ja) (Disc 1)": {
-        "secondary_name": "メタルギアソリッド インテグラル",
+        "secondary_name": "メタル・ギア・ソリッド　～インテグラル～",
         "group_name": "Metal Gear Solid - Integral",
         "status": "Green",
         "disc_type": "CD",
         "languages": "En, Ja",
         "version": "",
-        "edition": "Original, Konami the Best, PSone Books"
+        "edition": "Original, PSone Books, Konami the Best"
     },
     "Kon'ya mo Dorubako!! 2000 (Japan)": {
         "secondary_name": "今夜も千両箱！！２０００",
@@ -17333,14 +17333,14 @@
         "version": "",
         "edition": "Original"
     },
-    "Dead or Alive (USA) (Beta)": {
+    "Dead or Alive (USA) (Beta 2)": {
         "secondary_name": "",
         "group_name": "Dead or Alive",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
-        "edition": "Review"
+        "edition": "Review Version"
     },
     "Disney El planeta del tesoro (Spain)": {
         "secondary_name": "",
@@ -18812,7 +18812,7 @@
     "Dengeki PlayStation D31 (Japan)": {
         "secondary_name": "電撃プレイステーションＤ３１",
         "group_name": "Dengeki PlayStation D31",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -19503,13 +19503,13 @@
         "edition": "Original"
     },
     "Metal Gear Solid - Integral (Japan, Asia) (En,Ja) (Disc 2)": {
-        "secondary_name": "メタルギアソリッド インテグラル",
+        "secondary_name": "メタル・ギア・ソリッド　～インテグラル～",
         "group_name": "Metal Gear Solid - Integral",
         "status": "Green",
         "disc_type": "CD",
         "languages": "En, Ja",
         "version": "",
-        "edition": "Original, Konami the Best, PSone Books"
+        "edition": "Original, PSone Books, Konami the Best"
     },
     "Jonah Lomu Rugby (France)": {
         "secondary_name": "",
@@ -24743,7 +24743,7 @@
     "Dengeki PlayStation D29 (Japan)": {
         "secondary_name": "電撃プレイステーションＤ２９",
         "group_name": "Dengeki PlayStation D29",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -35435,7 +35435,7 @@
     "Dengeki PlayStation D13 (Japan)": {
         "secondary_name": "電撃プレイステーションＤ１３",
         "group_name": "Dengeki PlayStation D13",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -36900,13 +36900,13 @@
         "edition": "Original"
     },
     "Metal Gear Solid - Integral (Japan, Asia) (Disc 3) (VR-Disc)": {
-        "secondary_name": "メタルギアソリッド インテグラル",
+        "secondary_name": "メタル・ギア・ソリッド　～インテグラル～",
         "group_name": "Metal Gear Solid - Integral",
         "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
-        "edition": "Original, Konami the Best, PSone Books"
+        "edition": "Original, PSone Books, Konami the Best"
     },
     "UEFA Euro 2000 (Europe)": {
         "secondary_name": "",
@@ -45101,7 +45101,7 @@
     "Dengeki PlayStation D9 (Japan)": {
         "secondary_name": "電撃プレイステーションＤ９",
         "group_name": "Dengeki PlayStation D9",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -45245,7 +45245,7 @@
     "Dengeki PlayStation D17 (Japan)": {
         "secondary_name": "電撃プレイステーションＤ１７",
         "group_name": "Dengeki PlayStation D17",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -45506,7 +45506,7 @@
     "Dengeki PlayStation D4 (Japan)": {
         "secondary_name": "電撃プレイステーションＤ４",
         "group_name": "Dengeki PlayStation D4",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -45575,10 +45575,10 @@
         "version": "",
         "edition": "Original"
     },
-    "Hakaiou - King of Crusher (Japan)": {
-        "secondary_name": "破壊王キングオブクラッシャー",
-        "group_name": "Hakaiou - King of Crusher",
-        "status": "Blue",
+    "Hakai-ou - King of Crusher (Japan)": {
+        "secondary_name": "破壊王　～キングオブクラッシャー～",
+        "group_name": "Hakai-ou - King of Crusher",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -46289,7 +46289,7 @@
     "Dengeki PlayStation D15 (Japan)": {
         "secondary_name": "電撃プレイステーションＤ１５",
         "group_name": "Dengeki PlayStation D15",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -48512,7 +48512,7 @@
     "Dengeki PlayStation D19 (Japan)": {
         "secondary_name": "電撃プレイステーションＤ１９",
         "group_name": "Dengeki PlayStation D19",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -52616,7 +52616,7 @@
     "Dengeki PlayStation D18 (Japan)": {
         "secondary_name": "電撃プレイステーションＤ１８",
         "group_name": "Dengeki PlayStation D18",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -53687,7 +53687,7 @@
     "Unstack (Japan)": {
         "secondary_name": "アンスタック",
         "group_name": "Unstack",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -58225,7 +58225,7 @@
         "group_name": "Bakuryuu",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Original"
     },
@@ -61544,7 +61544,7 @@
     "Dengeki PlayStation D26 (Japan)": {
         "secondary_name": "電撃プレイステーションＤ２６",
         "group_name": "Dengeki PlayStation D26",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -67257,7 +67257,7 @@
         "edition": "Original"
     },
     "Formula 1 97 (Japan) (En,Ja,Fr,De,Es,It)": {
-        "secondary_name": "フォーミュラ・ワン97",
+        "secondary_name": "フォーミュラ・ワン９７",
         "group_name": "Formula 1 97",
         "status": "Blue",
         "disc_type": "CD",
@@ -71846,9 +71846,9 @@
         "version": "",
         "edition": "Taikenban"
     },
-    "Moorhuhn 2 - Die Jagd geht weiter (Germany)": {
+    "Moorhuhn 2 - Die Jagd Geht Weiter (Germany)": {
         "secondary_name": "",
-        "group_name": "Moorhuhn 2 - Die Jagd geht weiter",
+        "group_name": "Moorhuhn 2 - Die Jagd Geht Weiter",
         "status": "Green",
         "disc_type": "CD",
         "languages": "De",
@@ -75897,9 +75897,9 @@
         "edition": "Original"
     },
     "Dengeki PlayStation D21 SCE Special (Japan)": {
-        "secondary_name": "電撃プレイステーションＤ２１ ＳＣＥ　スペシャル",
+        "secondary_name": "電撃プレイステーションＤ２１　ＳＣＥ　スペシャル",
         "group_name": "Dengeki PlayStation D21 SCE Special",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -75930,7 +75930,7 @@
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
-        "edition": "Demo, Juchuu-you Taikenban"
+        "edition": "Taikenban, Juchuu-you Taikenban"
     },
     "Squaresoft on PlayStation Collector's CD (USA)": {
         "secondary_name": "",
@@ -87590,7 +87590,7 @@
     "Dengeki PlayStation D30 (Japan)": {
         "secondary_name": "電撃プレイステーションＤ３０",
         "group_name": "Dengeki PlayStation D30",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -87959,7 +87959,7 @@
     "Dengeki PlayStation D24 (Japan)": {
         "secondary_name": "電撃プレイステーションＤ２４",
         "group_name": "Dengeki PlayStation D24",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -93672,9 +93672,9 @@
         "edition": "Best of the Best"
     },
     "Kougien CD-ROM 2000-nen Natsu-ban (Japan)": {
-        "secondary_name": "広技苑CD-ROM2000年夏版",
+        "secondary_name": "広技苑　ＣＤ－ＲＯＭ２０００年夏版",
         "group_name": "Kougien CD-ROM 2000-nen Natsu-ban",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -93778,5 +93778,176 @@
         "languages": "Ja",
         "version": "",
         "edition": "Major Wave"
+    },
+    "Bakuryuu (Japan) (Beta)": {
+        "secondary_name": "爆流",
+        "group_name": "Bakuryuu",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Prototype"
+    },
+    "Bubsy 3D - Furbitten Planet (Europe) (Beta)": {
+        "secondary_name": "",
+        "group_name": "Bubsy 3D - Furbitten Planet",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Prototype"
+    },
+    "Dancing Stage - Euromix (Europe) (Beta)": {
+        "secondary_name": "",
+        "group_name": "Dancing Stage - Euromix",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Prototype"
+    },
+    "Dead or Alive (USA) (Beta 1)": {
+        "secondary_name": "",
+        "group_name": "Dead or Alive",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "News Version"
+    },
+    "Dead or Alive (Europe) (Beta) (Alt)": {
+        "secondary_name": "",
+        "group_name": "Dead or Alive",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Review Version"
+    },
+    "Dynasty Warriors (Europe) (Beta)": {
+        "secondary_name": "",
+        "group_name": "Dynasty Warriors",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Prototype"
+    },
+    "JoJo's Bizarre Adventure (Europe) (Beta)": {
+        "secondary_name": "",
+        "group_name": "JoJo's Bizarre Adventure",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Prototype"
+    },
+    "Killing Time (USA) (Beta)": {
+        "secondary_name": "",
+        "group_name": "Killing Time",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Prototype"
+    },
+    "Little Big Adventure (Europe) (En,Fr,De,Es,It) (Beta)": {
+        "secondary_name": "",
+        "group_name": "Little Big Adventure",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En, Fr, De, It, Es",
+        "version": "",
+        "edition": "Prototype"
+    },
+    "Spice World (Europe) (Beta)": {
+        "secondary_name": "",
+        "group_name": "Spice World",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Preview Version"
+    },
+    "Syphon Filter 2 (USA) (Disc 2) (Beta)": {
+        "secondary_name": "",
+        "group_name": "Syphon Filter 2",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Preview Version"
+    },
+    "Syphon Filter 2 (Europe) (Disc 1) (Beta)": {
+        "secondary_name": "",
+        "group_name": "Syphon Filter 2",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Review Version"
+    },
+    "Syphon Filter 2 (Europe) (Disc 2) (Beta)": {
+        "secondary_name": "",
+        "group_name": "Syphon Filter 2",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Review Version"
+    },
+    "Tomba! (USA) (Beta)": {
+        "secondary_name": "",
+        "group_name": "Tomba!",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Preview Version"
+    },
+    "Vib-Ribbon (Europe) (En,Fr,De,Es,It) (Beta)": {
+        "secondary_name": "",
+        "group_name": "Vib-Ribbon",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En, Fr, De, It, Es",
+        "version": "",
+        "edition": "Review Version"
+    },
+    "Xena - Warrior Princess (Europe) (Beta)": {
+        "secondary_name": "",
+        "group_name": "Xena - Warrior Princess",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Prototype"
+    },
+    "Compilation 01 (Australia)": {
+        "secondary_name": "",
+        "group_name": "Compilation 01",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": ""
+    },
+    "Itadaki Street - Gorgeous King (Japan) (Demo)": {
+        "secondary_name": "いただきストリート　～ゴージャス・キング～",
+        "group_name": "Itadaki Street - Gorgeous King",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Taikenban + Demo Movie"
+    },
+    "Heiwa Pachinko Graffiti Vol. 1 (Japan)": {
+        "secondary_name": "ＨＥＩＷＡ　パチンコグラフィティ　Vol．1",
+        "group_name": "Heiwa Pachinko Graffiti Vol. 1",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
     }
 }

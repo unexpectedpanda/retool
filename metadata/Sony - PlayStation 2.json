@@ -1026,7 +1026,7 @@
         "edition": "Original"
     },
     "Dengeki PS2 PlayStation D50 (Japan)": {
-        "secondary_name": "電撃ＰＳ２　Ｄ５０　電撃Ｐｌａｙｓｔａｔｉｏｎ　４／１９号増刊",
+        "secondary_name": "電撃ＰＳ２　Ｄ５０　電撃ＰｌａｙＳｔａｔｉｏｎ　４／１９号増刊",
         "group_name": "Dengeki PS2 PlayStation D50",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -2655,7 +2655,7 @@
         "edition": "Demo"
     },
     "Dengeki PS2 PlayStation D75 (Japan)": {
-        "secondary_name": "電撃ＰＳ２　Ｄ７５　電撃Ｐｌａｙｓｔａｔｉｏｎ　１/２１号増刊",
+        "secondary_name": "電撃ＰＳ２　Ｄ７５　電撃ＰｌａｙＳｔａｔｉｏｎ　１/２１号増刊",
         "group_name": "Dengeki PS2 PlayStation D75",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -5762,7 +5762,7 @@
     "Sunrise Eiyuutan 2 (Japan)": {
         "secondary_name": "サンライズ英雄譚２",
         "group_name": "Sunrise Eiyuutan 2",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.13",
@@ -9945,7 +9945,7 @@
         "edition": "Original"
     },
     "Kengou 2 (Japan)": {
-        "secondary_name": "剣豪2",
+        "secondary_name": "剣豪２",
         "group_name": "Kengou 2",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -11006,9 +11006,9 @@
         "version": "1.00",
         "edition": "Original"
     },
-    "Sky Gunner (USA) (Demo 2)": {
+    "SkyGunner (USA) (Demo 2)": {
         "secondary_name": "",
-        "group_name": "Sky Gunner",
+        "group_name": "SkyGunner",
         "status": "Blue",
         "disc_type": "DVD-5",
         "languages": "",
@@ -11387,7 +11387,7 @@
     "Dynasty Warriors 4 - Xtreme Legends (Spain)": {
         "secondary_name": "",
         "group_name": "Dynasty Warriors 4 - Xtreme Legends",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Es",
         "version": "1.01",
@@ -13598,9 +13598,9 @@
         "version": "1.01",
         "edition": "Bundled with Magazine"
     },
-    "3 nen B gumi Kinpachi Sensei - Densetsu no Kyoudan ni Tate! (Japan)": {
+    "3-nen B-gumi Kinpachi Sensei - Densetsu no Kyoudan ni Tate! (Japan)": {
         "secondary_name": "３年Ｂ組金八先生　伝説の教壇に立て！",
-        "group_name": "3 nen B gumi Kinpachi Sensei - Densetsu no Kyoudan ni Tate!",
+        "group_name": "3-nen B-gumi Kinpachi Sensei - Densetsu no Kyoudan ni Tate!",
         "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
@@ -13689,7 +13689,7 @@
         "edition": "Original"
     },
     "Dengeki PS2 PlayStation D70 (Japan)": {
-        "secondary_name": "電撃ＰＳ２　Ｄ７０　電撃Ｐｌａｙｓｔａｔｉｏｎ　８／２７号増刊",
+        "secondary_name": "電撃ＰＳ２　Ｄ７０　電撃ＰｌａｙＳｔａｔｉｏｎ　８／２７号増刊",
         "group_name": "Dengeki PS2 PlayStation D70",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -14445,9 +14445,9 @@
         "edition": "Original"
     },
     "Dengeki PS2 PlayStation D68 (Japan)": {
-        "secondary_name": "電撃ＰＳ２　Ｄ６８　電撃Ｐｌａｙｓｔａｔｉｏｎ　６/２５号増刊",
+        "secondary_name": "電撃ＰＳ２　Ｄ６８　電撃ＰｌａｙＳｔａｔｉｏｎ　６/２５号増刊",
         "group_name": "Dengeki PS2 PlayStation D68",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.02",
@@ -14876,9 +14876,9 @@
         "version": "1.01",
         "edition": "Original"
     },
-    "Sky Gunner (USA) (Demo 1)": {
+    "SkyGunner (USA) (Demo 1)": {
         "secondary_name": "",
-        "group_name": "Sky Gunner",
+        "group_name": "SkyGunner",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "En",
@@ -16191,9 +16191,9 @@
         "edition": "Original"
     },
     "Dengeki PS2 PlayStation D91 (Japan)": {
-        "secondary_name": "電撃ＰＳ２　Ｄ９１　電撃Ｐｌａｙｓｔａｔｉｏｎ　７／２１号増刊",
+        "secondary_name": "電撃ＰＳ２　Ｄ９１　電撃ＰｌａｙＳｔａｔｉｏｎ　７／２１号増刊",
         "group_name": "Dengeki PS2 PlayStation D91",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.02",
@@ -16272,7 +16272,7 @@
         "edition": "DX Pack"
     },
     "Dengeki PS2 PlayStation D49 (Japan)": {
-        "secondary_name": "電撃ＰＳ２　Ｄ４９　電撃Ｐｌａｙｓｔａｔｉｏｎ　１／２５号増刊",
+        "secondary_name": "電撃ＰＳ２　Ｄ４９　電撃ＰｌａｙＳｔａｔｉｏｎ　１／２５号増刊",
         "group_name": "Dengeki PS2 PlayStation D49",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -21510,7 +21510,7 @@
         "edition": "Original"
     },
     "Dengeki PS2 PlayStation D55 (Japan)": {
-        "secondary_name": "電撃ＰＳ２　Ｄ５５　電撃Ｐｌａｙｓｔａｔｉｏｎ　１２／２０号増刊",
+        "secondary_name": "電撃ＰＳ２　Ｄ５５　電撃ＰｌａｙＳｔａｔｉｏｎ　１２／２０号増刊",
         "group_name": "Dengeki PS2 PlayStation D55",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -25262,9 +25262,9 @@
         "version": "1.00",
         "edition": "Original"
     },
-    "Tennis no Oujisama - Saikyou Team o Kessei Seyo! (Japan)": {
-        "secondary_name": "テニスの王子様 最強チームを結成せよ！",
-        "group_name": "Tennis no Oujisama - Saikyou Team o Kessei Seyo!",
+    "Tennis no Oujisama - Saikyou Team o Kessei seyo! (Japan) (v1.03)": {
+        "secondary_name": "テニスの王子様　最強チームを結成せよ！",
+        "group_name": "Tennis no Oujisama - Saikyou Team o Kessei seyo!",
         "status": "Blue",
         "disc_type": "DVD-5",
         "languages": "Ja",
@@ -27297,9 +27297,9 @@
         "edition": "Collector's Edition"
     },
     "Dengeki PS2 PlayStation D65 (Japan)": {
-        "secondary_name": "電撃ＰＳ２　Ｄ６５　電撃Ｐｌａｙｓｔａｔｉｏｎ　１／２ ３号増刊",
+        "secondary_name": "電撃ＰＳ２　Ｄ６５　電撃ＰｌａｙＳｔａｔｉｏｎ　１／２ ３号増刊",
         "group_name": "Dengeki PS2 PlayStation D65",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.01",
@@ -28512,7 +28512,7 @@
         "edition": "Original"
     },
     "Shadow Hearts - From the New World (Japan)": {
-        "secondary_name": "シャドウ ハーツ フロム・ザ・ニュー・ワールド",
+        "secondary_name": "シャドウ・ハーツ　～フロム・ザ・ニュー・ワールド～",
         "group_name": "Shadow Hearts - From the New World",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -29691,7 +29691,7 @@
         "edition": "Original"
     },
     "Dengeki PS2 PlayStation D57 (Japan)": {
-        "secondary_name": "電撃ＰＳ２　Ｄ５７　電撃Ｐｌａｙｓｔａｔｉｏｎ　２／２１号増刊",
+        "secondary_name": "電撃ＰＳ２　Ｄ５７　電撃ＰｌａｙＳｔａｔｉｏｎ　２／２１号増刊",
         "group_name": "Dengeki PS2 PlayStation D57",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -31014,7 +31014,7 @@
         "edition": "Taito Best"
     },
     "Shadow Hearts - From the New World (Japan) (Premium Box)": {
-        "secondary_name": "シャドウハーツ フロム・ザ・ニュー・ワールド",
+        "secondary_name": "シャドウ・ハーツ　～フロム・ザ・ニュー・ワールド～",
         "group_name": "Shadow Hearts - From the New World",
         "status": "Blue",
         "disc_type": "DVD-5",
@@ -31941,7 +31941,7 @@
         "edition": "Original"
     },
     "Dengeki PlayStation D40 - Konami Fan Book (Japan)": {
-        "secondary_name": "電撃Ｐｌａｙｓｔａｔｉｏｎ　Ｄ４０　Ｋｏｎａｍｉ　Ｆａｎ　Ｂｏｏｋ　付録 電撃Ｐｌａｙｓｔａｔｉｏｎ　２/２３号増刊",
+        "secondary_name": "電撃ＰｌａｙＳｔａｔｉｏｎ　Ｄ４０　Ｋｏｎａｍｉ　Ｆａｎ　Ｂｏｏｋ　付録 電撃ＰｌａｙＳｔａｔｉｏｎ　２/２３号増刊",
         "group_name": "Dengeki PlayStation D40 - Konami Fan Book",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -32886,9 +32886,9 @@
         "edition": "Original"
     },
     "Dengeki PS2 PlayStation D93 (Japan)": {
-        "secondary_name": "電撃ＰＳ２　Ｄ９３　電撃Ｐｌａｙｓｔａｔｉｏｎ　１／１９号増刊",
+        "secondary_name": "電撃ＰＳ２　Ｄ９３　電撃ＰｌａｙＳｔａｔｉｏｎ　１／１９号増刊",
         "group_name": "Dengeki PS2 PlayStation D93",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.01",
@@ -33623,9 +33623,9 @@
         "version": "1.01",
         "edition": "Original"
     },
-    "3 nen B gumi Kinpachi Sensei - Densetsu no Kyoudan ni Tate! Kanzenban (Japan)": {
+    "3-nen B-gumi Kinpachi Sensei - Densetsu no Kyoudan ni Tate! Kanzenban (Japan)": {
         "secondary_name": "３年Ｂ組金八先生　伝説の教壇に立て！　完全版",
-        "group_name": "3 nen B gumi Kinpachi Sensei - Densetsu no Kyoudan ni Tate! Kanzenban",
+        "group_name": "3-nen B-gumi Kinpachi Sensei - Densetsu no Kyoudan ni Tate! Kanzenban",
         "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
@@ -34101,7 +34101,7 @@
         "edition": "Original"
     },
     "Shadow Hearts (Japan)": {
-        "secondary_name": "シャドウ ハーツ",
+        "secondary_name": "シャドウ・ハーツ",
         "group_name": "Shadow Hearts",
         "status": "Blue",
         "disc_type": "DVD-5",
@@ -38772,7 +38772,7 @@
         "edition": "Original"
     },
     "Dengeki PS2 PlayStation D63 (Japan)": {
-        "secondary_name": "電撃ＰＳ２　Ｄ６３　電撃Ｐｌａｙｓｔａｔｉｏｎ　１／２１号増刊",
+        "secondary_name": "電撃ＰＳ２　Ｄ６３　電撃ＰｌａｙＳｔａｔｉｏｎ　１／２１号増刊",
         "group_name": "Dengeki PS2 PlayStation D63",
         "status": "Green",
         "disc_type": "CD",
@@ -39717,7 +39717,7 @@
         "edition": ""
     },
     "Dengeki PS2 PlayStation D81 (Japan)": {
-        "secondary_name": "電撃ＰＳ２　Ｄ８１　電撃Ｐｌａｙｓｔａｔｉｏｎ　７／２２号増刊",
+        "secondary_name": "電撃ＰＳ２　Ｄ８１　電撃ＰｌａｙＳｔａｔｉｏｎ　７／２２号増刊",
         "group_name": "Dengeki PS2 PlayStation D81",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -41310,9 +41310,9 @@
         "edition": "Nobunaga no Yabou: Tenka Sousei: Pachi-Slot Set"
     },
     "Gakuen Heaven - Okawari! Boy's Love Attack! (Japan)": {
-        "secondary_name": "学園ヘヴン おかわりっ！",
+        "secondary_name": "学園ヘヴン　～おかわりっ！～",
         "group_name": "Gakuen Heaven - Okawari! Boy's Love Attack!",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.01",
@@ -41490,7 +41490,7 @@
         "edition": "Original"
     },
     "Dengeki PS2 PlayStation D78 (Japan)": {
-        "secondary_name": "電撃ＰＳ２　Ｄ７８　電撃Ｐｌａｙｓｔａｔｉｏｎ　４／２２号増刊",
+        "secondary_name": "電撃ＰＳ２　Ｄ７８　電撃ＰｌａｙＳｔａｔｉｏｎ　４／２２号増刊",
         "group_name": "Dengeki PS2 PlayStation D78",
         "status": "Green",
         "disc_type": "CD",
@@ -41652,7 +41652,7 @@
         "edition": "Original, EA Best Hits"
     },
     "Dengeki PS2 PlayStation D73 (Japan)": {
-        "secondary_name": "電撃ＰＳ２　Ｄ７３　電撃Ｐｌａｙｓｔａｔｉｏｎ　１１／２６号増刊",
+        "secondary_name": "電撃ＰＳ２　Ｄ７３　電撃ＰｌａｙＳｔａｔｉｏｎ　１１／２６号増刊",
         "group_name": "Dengeki PS2 PlayStation D73",
         "status": "Green",
         "disc_type": "CD",
@@ -42696,7 +42696,7 @@
         "edition": "Beta"
     },
     "Dengeki PS2 PlayStation D62 (Japan)": {
-        "secondary_name": "電撃ＰＳ２　Ｄ６２　電撃Ｐｌａｙｓｔａｔｉｏｎ　１０／２４号増刊",
+        "secondary_name": "電撃ＰＳ２　Ｄ６２　電撃ＰｌａｙＳｔａｔｉｏｎ　１０／２４号増刊",
         "group_name": "Dengeki PS2 PlayStation D62",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -43128,9 +43128,9 @@
         "edition": "Collector's Edition"
     },
     "Dengeki PS2 PlayStation D84 (Japan)": {
-        "secondary_name": "電撃ＰＳ２　Ｄ８４　電撃Ｐｌａｙｓｔａｔｉｏｎ　１０／２８号増刊",
+        "secondary_name": "電撃ＰＳ２　Ｄ８４　電撃ＰｌａｙＳｔａｔｉｏｎ　１０／２８号増刊",
         "group_name": "Dengeki PS2 PlayStation D84",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.01",
@@ -47286,7 +47286,7 @@
         "edition": "Original, Triple Pack"
     },
     "Dengeki PS2 PlayStation D56 (Japan)": {
-        "secondary_name": "電撃ＰＳ２　Ｄ５６　電撃Ｐｌａｙｓｔａｔｉｏｎ　１／２４号増刊",
+        "secondary_name": "電撃ＰＳ２　Ｄ５６　電撃ＰｌａｙＳｔａｔｉｏｎ　１／２４号増刊",
         "group_name": "Dengeki PS2 PlayStation D56",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -49545,7 +49545,7 @@
         "edition": "Original"
     },
     "Dengeki PS2 PlayStation D61 (Japan)": {
-        "secondary_name": "電撃ＰＳ２　Ｄ６１　電撃Ｐｌａｙｓｔａｔｉｏｎ　８／２２号増刊",
+        "secondary_name": "電撃ＰＳ２　Ｄ６１　電撃ＰｌａｙＳｔａｔｉｏｎ　８／２２号増刊",
         "group_name": "Dengeki PS2 PlayStation D61",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -49842,7 +49842,7 @@
         "edition": "Original"
     },
     "Shadow Hearts (Japan) (Taikenban)": {
-        "secondary_name": "シャドウ ハーツ",
+        "secondary_name": "シャドウ・ハーツ",
         "group_name": "Shadow Hearts",
         "status": "Green",
         "disc_type": "CD",
@@ -49994,10 +49994,10 @@
         "version": "1.00",
         "edition": "Taikenban"
     },
-    "SpeSaru Disc 2003 (Japan) (Taikenban)": {
+    "SpeSaru Disc 2003 (Japan)": {
         "secondary_name": "スペサルディスク２００３",
         "group_name": "SpeSaru Disc 2003",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.01",
@@ -50022,9 +50022,9 @@
         "edition": "Original"
     },
     "Dengeki PS2 PlayStation D48 - Konami Fan Book (Japan)": {
-        "secondary_name": "電撃ＰＳ２　Ｄ４８　Ｋｏｎａｍｉ　Ｆａｎ Ｂｏｏｋ　電撃Ｐｌａｙｓｔａｔｉｏｎ　１２／２１号増刊",
+        "secondary_name": "電撃ＰＳ２　Ｄ４８　Ｋｏｎａｍｉ　Ｆａｎ　Ｂｏｏｋ　電撃ＰｌａｙＳｔａｔｉｏｎ　１２／２１号増刊",
         "group_name": "Dengeki PS2 PlayStation D48 - Konami Fan Book",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "2.00",
@@ -51093,9 +51093,9 @@
         "edition": "Original"
     },
     "Dengeki PS2 PlayStation D76 (Japan)": {
-        "secondary_name": "電撃ＰＳ２　Ｄ７６　電撃Ｐｌａｙｓｔａｔｉｏｎ　２/２５号増刊",
+        "secondary_name": "電撃ＰＳ２　Ｄ７６　電撃ＰｌａｙＳｔａｔｉｏｎ　２/２５号増刊",
         "group_name": "Dengeki PS2 PlayStation D76",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.01",
@@ -51210,7 +51210,7 @@
         "edition": "Hudson the Best"
     },
     "Dengeki PS2 PlayStation D51 (Japan)": {
-        "secondary_name": "電撃ＰＳ２　Ｄ５１　電撃Ｐｌａｙｓｔａｔｉｏｎ　６／２８号増刊",
+        "secondary_name": "電撃ＰＳ２　Ｄ５１　電撃ＰｌａｙＳｔａｔｉｏｎ　６／２８号増刊",
         "group_name": "Dengeki PS2 PlayStation D51",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -54081,7 +54081,7 @@
         "edition": "Original"
     },
     "Dengeki PS2 PlayStation D47 (Japan)": {
-        "secondary_name": "電撃ＰＳ２　Ｄ４７　電撃Ｐｌａｙｓｔａｔｉｏｎ　１１／２３号増刊",
+        "secondary_name": "電撃ＰＳ２　Ｄ４７　電撃ＰｌａｙＳｔａｔｉｏｎ　１１／２３号増刊",
         "group_name": "Dengeki PS2 PlayStation D47",
         "status": "Green",
         "disc_type": "CD",
@@ -54702,7 +54702,7 @@
         "edition": ""
     },
     "Shadow Hearts - From the New World (Japan) (Taikenban)": {
-        "secondary_name": "シャドウ　ハーツ フロム・ザ・ニュー・ワールド",
+        "secondary_name": "シャドウ・ハーツ　～フロム・ザ・ニュー・ワールド～",
         "group_name": "Shadow Hearts - From the New World",
         "status": "Green",
         "disc_type": "CD",
@@ -56835,7 +56835,7 @@
         "edition": "Original"
     },
     "Dengeki PS2 PlayStation D69 (Japan)": {
-        "secondary_name": "電撃ＰＳ２　Ｄ６９　電撃Ｐｌａｙｓｔａｔｉｏｎ　７／２３号増刊",
+        "secondary_name": "電撃ＰＳ２　Ｄ６９　電撃ＰｌａｙＳｔａｔｉｏｎ　７／２３号増刊",
         "group_name": "Dengeki PS2 PlayStation D69",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -58671,9 +58671,9 @@
         "edition": "Demo"
     },
     "Bakuen Kakusei - Neverland Senki Zero (Japan)": {
-        "secondary_name": "爆炎覚醒ネバーランド戦記ＺＥＲＯ",
+        "secondary_name": "爆炎覚醒　～ネバーランド戦記ＺＥＲＯ～",
         "group_name": "Bakuen Kakusei - Neverland Senki Zero",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.02",
@@ -58833,7 +58833,7 @@
         "edition": "Original"
     },
     "Dengeki PS2 PlayStation D52 (Japan)": {
-        "secondary_name": "電撃ＰＳ２　Ｄ５２　電撃Ｐｌａｙｓｔａｔｉｏｎ　８／２３号増刊",
+        "secondary_name": "電撃ＰＳ２　Ｄ５２　電撃ＰｌａｙＳｔａｔｉｏｎ　８／２３号増刊",
         "group_name": "Dengeki PS2 PlayStation D52",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -60003,7 +60003,7 @@
         "edition": "Original"
     },
     "Dengeki PS2 PlayStation D46 (Japan)": {
-        "secondary_name": "電撃ＰＳ２　Ｄ４６　電撃Ｐｌａｙｓｔａｔｉｏｎ　９／２８ 号増刊",
+        "secondary_name": "電撃ＰＳ２　Ｄ４６　電撃ＰｌａｙＳｔａｔｉｏｎ　９／２８号増刊",
         "group_name": "Dengeki PS2 PlayStation D46",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -60282,7 +60282,7 @@
         "edition": "Original"
     },
     "Dengeki PS2 PlayStation D77 (Japan)": {
-        "secondary_name": "電撃ＰＳ２　Ｄ７７　電撃Ｐｌａｙｓｔａｔｉｏｎ　３／２５号増刊",
+        "secondary_name": "電撃ＰＳ２　Ｄ７７　電撃ＰｌａｙＳｔａｔｉｏｎ　３／２５号増刊",
         "group_name": "Dengeki PS2 PlayStation D77",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -60356,7 +60356,7 @@
     "Vans Warped Tour '01 (USA)": {
         "secondary_name": "",
         "group_name": "Vans Warped Tour '01",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "1.00",
@@ -61416,7 +61416,7 @@
         "edition": "Demo"
     },
     "Dengeki PS2 PlayStation D85 (Japan)": {
-        "secondary_name": "電撃ＰＳ２　Ｄ８５　電撃Ｐｌａｙｓｔａｔｉｏｎ　１１／２５号増刊",
+        "secondary_name": "電撃ＰＳ２　Ｄ８５　電撃ＰｌａｙＳｔａｔｉｏｎ　１１／２５号増刊",
         "group_name": "Dengeki PS2 PlayStation D85",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -61452,7 +61452,7 @@
         "edition": "Original"
     },
     "Dengeki PS2 PlayStation D74 (Japan)": {
-        "secondary_name": "電撃ＰＳ２　Ｄ７４　電撃Ｐｌａｙｓｔａｔｉｏｎ　１２/２４号増刊",
+        "secondary_name": "電撃ＰＳ２　Ｄ７４　電撃ＰｌａｙＳｔａｔｉｏｎ　１２/２４号増刊",
         "group_name": "Dengeki PS2 PlayStation D74",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -64080,7 +64080,7 @@
         "edition": "Original"
     },
     "Dengeki PS2 PlayStation D60 (Japan)": {
-        "secondary_name": "電撃ＰＳ２　Ｄ６０　電撃Ｐｌａｙｓｔａｔｉｏｎ　７／４号増刊",
+        "secondary_name": "電撃ＰＳ２　Ｄ６０　電撃ＰｌａｙＳｔａｔｉｏｎ　７／４号増刊",
         "group_name": "Dengeki PS2 PlayStation D60",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -73043,9 +73043,9 @@
         "version": "1.02",
         "edition": "Original, Gundam the Best"
     },
-    "Sky Gunner (Japan) (Taikenban)": {
+    "SkyGunner (Japan) (Taikenban)": {
         "secondary_name": "スカイガンナー",
-        "group_name": "Sky Gunner",
+        "group_name": "SkyGunner",
         "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
@@ -73541,7 +73541,7 @@
     "Ghosthunter (USA)": {
         "secondary_name": "",
         "group_name": "Ghosthunter",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "",
         "version": "1.01",
@@ -73637,9 +73637,9 @@
         "version": "1.00",
         "edition": "Original"
     },
-    "Sky Gunner (Japan)": {
+    "SkyGunner (Japan)": {
         "secondary_name": "スカイガンナー",
-        "group_name": "Sky Gunner",
+        "group_name": "SkyGunner",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "Ja",
@@ -74700,7 +74700,7 @@
         "edition": "Original"
     },
     "Dengeki PS2 PlayStation D67 (Japan)": {
-        "secondary_name": "電撃ＰＳ２　Ｄ６７　電撃Ｐｌａｙｓｔａｔｉｏｎ　４／２３号増刊",
+        "secondary_name": "電撃ＰＳ２　Ｄ６７　電撃ＰｌａｙＳｔａｔｉｏｎ　４／２３号増刊",
         "group_name": "Dengeki PS2 PlayStation D67",
         "status": "Green",
         "disc_type": "CD",
@@ -76311,7 +76311,7 @@
         "edition": "Taikenban"
     },
     "Dengeki PS2 PlayStation D66 (Japan)": {
-        "secondary_name": "電撃ＰＳ２　Ｄ６６　電撃Ｐｌａｙｓｔａｔｉｏｎ　２／２７号増刊",
+        "secondary_name": "電撃ＰＳ２　Ｄ６６　電撃ＰｌａｙＳｔａｔｉｏｎ　２／２７号増刊",
         "group_name": "Dengeki PS2 PlayStation D66",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -77112,7 +77112,7 @@
         "edition": "Jenny Hi-Grade Box"
     },
     "Dengeki PS2 PlayStation D54 (Japan)": {
-        "secondary_name": "電撃ＰＳ２　Ｄ５４　電撃Ｐｌａｙｓｔａｔｉｏｎ　１０／２５号増刊",
+        "secondary_name": "電撃ＰＳ２　Ｄ５４　電撃ＰｌａｙＳｔａｔｉｏｎ　１０／２５号増刊",
         "group_name": "Dengeki PS2 PlayStation D54",
         "status": "Green",
         "disc_type": "CD",
@@ -77210,9 +77210,9 @@
         "version": "1.00",
         "edition": "Original"
     },
-    "Sky Gunner (USA)": {
+    "SkyGunner (USA)": {
         "secondary_name": "",
-        "group_name": "Sky Gunner",
+        "group_name": "SkyGunner",
         "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En",
@@ -82404,7 +82404,7 @@
         "edition": "Original"
     },
     "Dengeki PS2 PlayStation D53 (Japan)": {
-        "secondary_name": "電撃ＰＳ２　Ｄ５３　電撃Ｐｌａｙｓｔａｔｉｏｎ　９／２７号増刊",
+        "secondary_name": "電撃ＰＳ２　Ｄ５３　電撃ＰｌａｙＳｔａｔｉｏｎ　９／２７号増刊",
         "group_name": "Dengeki PS2 PlayStation D53",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -83385,7 +83385,7 @@
         "edition": "Original"
     },
     "Dengeki PS2 PlayStation D72 (Japan)": {
-        "secondary_name": "電撃ＰＳ２　Ｄ７２　電撃Ｐｌａｙｓｔａｔｉｏｎ　１０／２２号増刊",
+        "secondary_name": "電撃ＰＳ２　Ｄ７２　電撃ＰｌａｙＳｔａｔｉｏｎ　１０／２２号増刊",
         "group_name": "Dengeki PS2 PlayStation D72",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -85895,9 +85895,9 @@
         "version": "1.02",
         "edition": "Original"
     },
-    "Sky Gunner (Japan) (Tentou-you Taikenban)": {
+    "SkyGunner (Japan) (Tentou-you Taikenban)": {
         "secondary_name": "スカイガンナー",
-        "group_name": "Sky Gunner",
+        "group_name": "SkyGunner",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "Ja",
@@ -85905,9 +85905,9 @@
         "edition": "Tentou-you Taikenban"
     },
     "Dengeki PS2 PlayStation D94 (Japan)": {
-        "secondary_name": "電撃ＰＳ２　Ｄ９４　電撃Ｐｌａｙｓｔａｔｉｏｎ　４／２７号増刊",
+        "secondary_name": "電撃ＰＳ２　Ｄ９４　電撃ＰｌａｙＳｔａｔｉｏｎ　４／２７号増刊",
         "group_name": "Dengeki PS2 PlayStation D94",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.02",
@@ -89685,7 +89685,7 @@
         "edition": "Preview"
     },
     "Gunparade Orchestra - Midori no Shou - Ookami to Kare no Shounen (Japan)": {
-        "secondary_name": "ガンパレード・オーケストラ緑の章～狼と彼の少年～",
+        "secondary_name": "ガンパレード・オーケストラ　緑の章　～狼と彼の少年～",
         "group_name": "Gunparade Orchestra - Midori no Shou - Ookami to Kare no Shounen",
         "status": "Blue",
         "disc_type": "DVD-5",
@@ -89694,12 +89694,174 @@
         "edition": "Original"
     },
     "Gunparade Orchestra - Ao no Shou - Hikari no Umi kara Tegami o Okuri masu (Japan)": {
-        "secondary_name": "ガンパレード・オーケストラ青の章～光の海から手紙を送ります～",
+        "secondary_name": "ガンパレード・オーケストラ　青の章　～光の海から手紙を送ります～",
         "group_name": "Gunparade Orchestra - Ao no Shou - Hikari no Umi kara Tegami o Okuri masu",
         "status": "Blue",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.00",
         "edition": "Original"
+    },
+    "Def Jam - Fight for NY (Europe) (En,Fr) (Proto)": {
+        "secondary_name": "",
+        "group_name": "Def Jam - Fight for NY",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "En, Fr",
+        "version": "1.00",
+        "edition": "Prototype"
+    },
+    "King of Fighters 2002, The (Europe) (Proto)": {
+        "secondary_name": "",
+        "group_name": "King of Fighters 2002, The",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "1.00",
+        "edition": "Review Code"
+    },
+    "Marvel vs. Capcom 2 - New Age of Heroes (Japan) (Proto)": {
+        "secondary_name": "",
+        "group_name": "Marvel vs. Capcom 2 - New Age of Heroes",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "1.00",
+        "edition": "Prototype"
+    },
+    "Midnight Club - Street Racing (Europe) (Proto)": {
+        "secondary_name": "",
+        "group_name": "Midnight Club - Street Racing",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "1.00",
+        "edition": "Prototype"
+    },
+    "Onimusha 2 - Samurai's Destiny (Europe) (En,Fr,De,Es,It) (Proto)": {
+        "secondary_name": "鬼武者２　ＰＡＬ",
+        "group_name": "Onimusha 2 - Samurai's Destiny",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "En, Fr, De, It, Es",
+        "version": "1.00",
+        "edition": "Prototype"
+    },
+    "RoboCop (USA) (Proto)": {
+        "secondary_name": "",
+        "group_name": "RoboCop",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "1.00",
+        "edition": "Prototype"
+    },
+    "Soulcalibur III (Europe) (En,Fr,De,Es,It) (Proto)": {
+        "secondary_name": "",
+        "group_name": "Soulcalibur III",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "En, Fr, De, It, Es",
+        "version": "1.00",
+        "edition": "Review"
+    },
+    "Syphon Filter - Dark Mirror (Europe) (En,Fr,De,Es,It) (Proto)": {
+        "secondary_name": "",
+        "group_name": "Syphon Filter - Dark Mirror",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "En, Fr, De, It, Es",
+        "version": "1.00",
+        "edition": "Preview"
+    },
+    "Tekken 4 (USA) (Proto)": {
+        "secondary_name": "",
+        "group_name": "Tekken 4",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "En",
+        "version": "1.00",
+        "edition": "Preview"
+    },
+    "TimeSplitters 2 (Europe) (En,Fr,De,Es,It) (Proto)": {
+        "secondary_name": "",
+        "group_name": "TimeSplitters 2",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "En, Fr, De, It, Es",
+        "version": "1.01",
+        "edition": "Review"
+    },
+    "TimeSplitters - Future Perfect (Europe) (En,Fr,De,Es,It) (Proto)": {
+        "secondary_name": "",
+        "group_name": "TimeSplitters - Future Perfect",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "En, Fr, De, It, Es",
+        "version": "1.00",
+        "edition": "Review"
+    },
+    "Transformers (Europe) (En,Fr,De,Es,It) (Proto)": {
+        "secondary_name": "",
+        "group_name": "Transformers",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "En, Fr, De, It, Es",
+        "version": "1.00",
+        "edition": "Review"
+    },
+    "Viewtiful Joe (Europe) (En,Fr,De,Es,It) (Proto)": {
+        "secondary_name": "",
+        "group_name": "Viewtiful Joe",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "En, Fr, De, It, Es",
+        "version": "1.01",
+        "edition": "Prototype"
+    },
+    "Warhammer 40,000 - Fire Warrior (Europe) (En,Fr,De,Es,It) (Proto)": {
+        "secondary_name": "",
+        "group_name": "Warhammer 40,000 - Fire Warrior",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "En, Fr, De, It, Es",
+        "version": "1.10",
+        "edition": "Preview Code"
+    },
+    "Without Warning (Europe) (En,Fr,De,Es,It) (Proto)": {
+        "secondary_name": "",
+        "group_name": "Without Warning",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "En, Fr, De, It, Es",
+        "version": "1.00",
+        "edition": "Prototype"
+    },
+    "XIII (Europe) (En,Fr,De,Es,It) (Proto 1)": {
+        "secondary_name": "",
+        "group_name": "XIII",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "En, Fr, De, It, Es",
+        "version": "0.01",
+        "edition": "Prototype"
+    },
+    "XIII (Europe) (En,Fr,De,Es,It) (Proto 2)": {
+        "secondary_name": "",
+        "group_name": "XIII",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "En, Fr, De, It, Es",
+        "version": "0.01",
+        "edition": "Prototype"
+    },
+    "Tennis no Oujisama - Saikyou Team o Kessei seyo! (Japan) (v2.01)": {
+        "secondary_name": "テニスの王子様　最強チームを結成せよ！",
+        "group_name": "Tennis no Oujisama - Saikyou Team o Kessei seyo!",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "Ja",
+        "version": "2.01",
+        "edition": "Konami Dendou Selection"
     }
 }

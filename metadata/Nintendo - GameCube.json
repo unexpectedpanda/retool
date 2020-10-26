@@ -1142,9 +1142,9 @@
         "version": "",
         "edition": "Original"
     },
-    "Phantasy Star Online Episode I & II Trial Edition (Japan) (Taikenban)": {
-        "secondary_name": "ファンタシー スター オンライン Episode I&II トライアル エディション",
-        "group_name": "Phantasy Star Online Episode I & II Trial Edition",
+    "Phantasy Star Online Episode I & II - Trial Edition (Japan) (Taikenban)": {
+        "secondary_name": "ファンタシースターオンライン　エピソード１＆２　トライアルエディション",
+        "group_name": "Phantasy Star Online Episode I & II - Trial Edition",
         "status": "Green",
         "disc_type": "Nintendo GameCube Game Disc",
         "languages": "Ja",
@@ -5015,7 +5015,7 @@
     "Naruto - Gekitou Ninja Taisen! 3 (Japan) (Rev 1)": {
         "secondary_name": "NARUTO－ナルト－ 激闘忍者大戦！3",
         "group_name": "Naruto - Gekitou Ninja Taisen! 3",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "Nintendo GameCube Game Disc",
         "languages": "Ja",
         "version": "Rev 1",
@@ -5195,7 +5195,7 @@
     "Phantasy Star Online Episode I & II (Japan) (Rev 3)": {
         "secondary_name": "ファンタシースターオンライン　エピソード１＆２",
         "group_name": "Phantasy Star Online Episode I & II",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "Nintendo GameCube Game Disc",
         "languages": "",
         "version": "Rev 3",
@@ -6227,7 +6227,7 @@
         "version": "",
         "edition": "Original"
     },
-    "Wave Race - Blue Storm (Europe) (En,Fr,De,Es,It)": {
+    "Wave Race - Blue Storm (Europe, Australia) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "Wave Race - Blue Storm",
         "status": "Green",
@@ -10730,7 +10730,7 @@
     "Naruto - Gekitou Ninja Taisen! 4 (Japan)": {
         "secondary_name": "NARUTO－ナルト－ 激闘忍者大戦！4",
         "group_name": "Naruto - Gekitou Ninja Taisen! 4",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "Nintendo GameCube Game Disc",
         "languages": "Ja",
         "version": "",
@@ -14111,9 +14111,9 @@
         "version": "",
         "edition": "Original"
     },
-    "Phantasy Star Online Episode III - C.A.R.D. Revolution (Japan) (Taikenban)": {
-        "secondary_name": "ファンタシー・スター・オンライン・エピソード３　～カード・レボリューション～　トライアル・エディション",
-        "group_name": "Phantasy Star Online Episode III - C.A.R.D. Revolution",
+    "Phantasy Star Online Episode III - C.A.R.D. Revolution - Trial Edition (Japan) (Taikenban)": {
+        "secondary_name": "ファンタシースターオンライン　エピソード３　カードレボリューション　トライアルエディション",
+        "group_name": "Phantasy Star Online Episode III - C.A.R.D. Revolution - Trial Edition",
         "status": "Blue",
         "disc_type": "Nintendo GameCube Game Disc",
         "languages": "Ja",
@@ -14249,7 +14249,7 @@
     "Conflict - Desert Storm (Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "Conflict - Desert Storm",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "Nintendo GameCube Game Disc",
         "languages": "En, Fr, De, It, Es",
         "version": "",
@@ -14960,7 +14960,7 @@
     "007 - From Russia with Love (Europe)": {
         "secondary_name": "From Russia with Love",
         "group_name": "007 - From Russia with Love",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "Nintendo GameCube Game Disc",
         "languages": "En",
         "version": "",
