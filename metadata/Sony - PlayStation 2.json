@@ -2558,7 +2558,7 @@
     "Shin Contra (Japan)": {
         "secondary_name": "真魂斗羅",
         "group_name": "Shin Contra",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.01",
@@ -7848,7 +7848,7 @@
         "edition": "Original"
     },
     "Nightmare of Druaga, The - Fushigi no Dungeon (Japan)": {
-        "secondary_name": "ザ・ナイトメア・オブ・ドルアーガ　不思議のダンジョン",
+        "secondary_name": "ザ・ナイトメア・オブ・ドルアーガ　～不思議のダンジョン～",
         "group_name": "Nightmare of Druaga, The - Fushigi no Dungeon",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -8496,7 +8496,7 @@
         "edition": "DX Pack"
     },
     "Ace Combat Zero - The Belkan War (Japan)": {
-        "secondary_name": "エースコンバット・ゼロ　ザ・ベルカン・ウォー",
+        "secondary_name": "エースコンバット・ゼロ　～ザ・ベルカン・ウォー～",
         "group_name": "Ace Combat Zero - The Belkan War",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -22347,7 +22347,7 @@
         "edition": "Original"
     },
     "Ace Combat 5 - The Unsung War (Japan)": {
-        "secondary_name": "エースコンバット５ ジ・アンサング・ウォー",
+        "secondary_name": "エースコンバット５　～ジ・アンサング・ウォー～",
         "group_name": "Ace Combat 5 - The Unsung War",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -26001,9 +26001,9 @@
         "edition": "Original"
     },
     "Ka 2 - Let's Go Hawaii (Japan)": {
-        "secondary_name": "蚊2: レッツゴーハワイ",
+        "secondary_name": "蚊２　～レッツゴーハワイ～",
         "group_name": "Ka 2 - Let's Go Hawaii",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.02",
@@ -33437,7 +33437,7 @@
     "Sprint Cars - Road to Knoxville (USA)": {
         "secondary_name": "",
         "group_name": "Sprint Cars - Road to Knoxville",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "",
         "version": "1.02",
@@ -34103,7 +34103,7 @@
     "Shadow Hearts (Japan)": {
         "secondary_name": "シャドウ・ハーツ",
         "group_name": "Shadow Hearts",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.02",
@@ -38405,7 +38405,7 @@
     "NASCAR 2005 - Chase for the Cup (USA)": {
         "secondary_name": "",
         "group_name": "NASCAR 2005 - Chase for the Cup",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "1.00",
@@ -44772,7 +44772,7 @@
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "1.00",
-        "edition": "Original"
+        "edition": "Original, Greatest Hits"
     },
     "Police Chase Down (Europe)": {
         "secondary_name": "",
@@ -46100,7 +46100,7 @@
     "Ford vs. Chevy (USA)": {
         "secondary_name": "",
         "group_name": "Ford vs. Chevy",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "1.02",
@@ -46541,7 +46541,7 @@
     "Tony Hawk's Underground (USA)": {
         "secondary_name": "",
         "group_name": "Tony Hawk's Underground",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "1.02",
@@ -47618,9 +47618,9 @@
         "version": "1.02",
         "edition": ""
     },
-    "Korokke! Ban Ou no Kiki o Sukue (Japan)": {
+    "Korokke! Ban King no Kiki o Sukue (Japan)": {
         "secondary_name": "コロッケ！　バン王の危機を救え",
-        "group_name": "Korokke! Ban Ou no Kiki o Sukue",
+        "group_name": "Korokke! Ban King no Kiki o Sukue",
         "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
@@ -56745,7 +56745,7 @@
         "edition": "Demo"
     },
     "Star Ocean - Till the End of Time (Japan, Asia) (v1.10)": {
-        "secondary_name": "スターオーシャン３ Till the End of Time",
+        "secondary_name": "スター・オーシャン３　－Ｔｉｌｌ　ｔｈｅ　Ｅｎｄ　ｏｆ　Ｔｉｍｅ－",
         "group_name": "Star Ocean - Till the End of Time",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -57971,7 +57971,7 @@
     "Thrillville - Off the Rails (USA)": {
         "secondary_name": "",
         "group_name": "Thrillville - Off the Rails",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "",
         "version": "1.00",
@@ -62549,9 +62549,9 @@
         "version": "1.13",
         "edition": "Original"
     },
-    "Buile Baku (Japan) (Taikenban)": {
+    "BuileBaku (Japan) (Taikenban)": {
         "secondary_name": "ビルバク　Ｎｅｏ　Ｔｒａｎｃｅ　Ｐｕｚｚｌｅ　Ｇａｍｅ",
-        "group_name": "Buile Baku",
+        "group_name": "BuileBaku",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "Ja",
@@ -65024,7 +65024,7 @@
         "version": "1.02",
         "edition": "Original"
     },
-    "Gran Turismo Concept - 2002 Tokyo-Geneva (Asia) (En,Zh)": {
+    "Gran Turismo Concept - 2002 Tokyo-Geneva (Asia) (En,Zh) (SCPS-55902)": {
         "secondary_name": "",
         "group_name": "Gran Turismo Concept - 2002 Tokyo-Geneva",
         "status": "Blue",
@@ -66680,9 +66680,9 @@
         "version": "1.00",
         "edition": "Original"
     },
-    "Tenohira wo Taiyou ni - Eikyuu no Kizuna (Japan)": {
-        "secondary_name": "てのひらをたいように： 永久の絆",
-        "group_name": "Tenohira wo Taiyou ni - Eikyuu no Kizuna",
+    "Tenohira o, Taiyou ni - Eikyuu no Kizuna (Japan) (Shokai Genteiban)": {
+        "secondary_name": "てのひらを、たいように　～永久の絆～",
+        "group_name": "Tenohira o, Taiyou ni - Eikyuu no Kizuna",
         "status": "Blue",
         "disc_type": "DVD-5",
         "languages": "Ja",
@@ -67688,9 +67688,9 @@
         "version": "1.03",
         "edition": "Original"
     },
-    "Nogizaka Haruka no Himitsu - Cosplay Hajimemashita (Japan)": {
-        "secondary_name": "乃木坂春香の秘密: こすぷれ、はじめました",
-        "group_name": "Nogizaka Haruka no Himitsu - Cosplay Hajimemashita",
+    "Nogizaka Haruka no Himitsu - Cosplay, Hajimemashita (Japan)": {
+        "secondary_name": "乃木坂春香の秘密 こすぷれ、はじめました♥",
+        "group_name": "Nogizaka Haruka no Himitsu - Cosplay, Hajimemashita",
         "status": "Blue",
         "disc_type": "DVD-5",
         "languages": "Ja",
@@ -75978,7 +75978,7 @@
         "edition": "Original"
     },
     "Kunoichi (Japan)": {
-        "secondary_name": "Kunoichi -忍-",
+        "secondary_name": "Ｋｕｎｏｉｃｈｉ－忍－",
         "group_name": "Kunoichi",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -81197,9 +81197,9 @@
         "version": "1.01",
         "edition": "Original"
     },
-    "Buile Baku (Japan)": {
+    "BuileBaku (Japan)": {
         "secondary_name": "ビルバク　Neo Trance Puzzle Game",
-        "group_name": "Buile Baku",
+        "group_name": "BuileBaku",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "Ja",
@@ -89863,5 +89863,23 @@
         "languages": "Ja",
         "version": "2.01",
         "edition": "Konami Dendou Selection"
+    },
+    "Gran Turismo Concept - 2002 Tokyo-Geneva (Asia) (En,Zh) (SCPS-55903)": {
+        "secondary_name": "",
+        "group_name": "Gran Turismo Concept - 2002 Tokyo-Geneva",
+        "status": "Blue",
+        "disc_type": "DVD-9",
+        "languages": "Zh, En",
+        "version": "1.00",
+        "edition": "Original"
+    },
+    "Dot Hack Fragment (Japan) (Senkou Release-ban)": {
+        "secondary_name": ".hack//frägment",
+        "group_name": "Dot Hack Fragment",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "Ja",
+        "version": "1.01",
+        "edition": "Senkou Release-ban"
     }
 }

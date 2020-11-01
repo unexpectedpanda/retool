@@ -3,7 +3,7 @@
 		"name": [
 			"IBM - PC compatible"
 		],
-		"last updated": "26 October 2020"
+		"last updated": "31 October 2020"
 	},
 
 	"compilations": [
@@ -3533,6 +3533,12 @@
 		"Lost Planet - Extreme Condition": [
 			["Lost Planet - Extreme Condition - Colonies Edition", -1]
 		],
+		"Lunar - Silver Star Story (Disc 1)": [
+			["Lunar - Silver Star Story Complete (Disc 1)", -1]
+		],
+		"Lunar - Silver Star Story (Disc 2)": [
+			["Lunar - Silver Star Story Complete (Disc 2)", -1]
+		],
 		"Lure of the Temptress": [
 			["Revolution - 25th Anniversary Collection (Disc 1) (Revolution Games 1992 - 2010)", -1],
 			["Click! 08-2003 (Disc 2)", 1]
@@ -4672,15 +4678,29 @@
 		"Realms of Arkania III - Shadows over Riva": [
 			["Schwarze Auge, Das - Schatten ueber Riva", 1]
 		],
+		"Red Faction - Armageddon": [
+			["Red Faction Complete", -1]
+		],
+		"Red Faction - Guerrilla": [
+			["Red Faction Complete", -1]
+		],
 		"Red Faction (Disc 1)": [
+			["Red Faction Complete", -1],
 			["Play 10-2003 (Disc 1)", 1],
 			["Red Faction (Disc 1) (Installation Disc) (EB Games)", 1],
 			["Red Faction (Disc 1) (Installation Disc)", 1],
 			["Swiat Gier Komputerowych 9-01 (Disc 2)", 2]
 		],
 		"Red Faction (Disc 2) (Multiplayer Disc)": [
+			["Red Faction Complete", -1],
 			["Play 10-2003 (Disc 2)", 1],
 			["Red Faction (Disc 2) (Multiplayer Disc) (EB Games)", 1]
+		],
+		"Red Faction II (Disc 1)": [
+			["Red Faction Complete", -1]
+		],
+		"Red Faction II (Disc 2)": [
+			["Red Faction Complete", -1]
 		],
 		"Red Orchestra - Ostfront 41-45 (Installation Disc 1)": [
 			["Red Orchestra - Ostfront 41-45", 0],
@@ -5886,6 +5906,9 @@
 		"StarCraft": [
 			["StarCraft (Disc 1)", 2]
 		],
+		"StarCraft II - Heart of the Swarm (Expansion Set)": [
+			["StarCraft II - Heart of the Swarm", 1]
+		],
 		"Starship Titanic (Disc 1)": [
 			["Raumschiff Titanic (Disc 1)", 1]
 		],
@@ -6852,8 +6875,11 @@
 		"World War II - Sniper - Call to Victory": [
 			["Snajjper - Dorogi vojjny", 1]
 		],
-		"World War Zero": [
-			["World War Zero (Disc 1)", 1]
+		"World War Zero (Disc 1)": [
+			["World War Zero", 1]
+		],
+		"World War Zero (Disc 2)": [
+			["World War Zero", 2]
 		],
 		"Worlds of Billy, The": [
 			["Drilling Billy", 1]
