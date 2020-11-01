@@ -6932,7 +6932,7 @@
     "Silent Hill 4 - The Room (Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "Silent Hill 4 - The Room",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En, Fr, De, It, Es",
         "version": "",
@@ -8597,9 +8597,9 @@
     "Grand Theft Auto - Vice City (Japan)": {
         "secondary_name": "グランド・セフト・オート：バイスシティ",
         "group_name": "Grand Theft Auto - Vice City",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Double Pack"
     },
@@ -15023,9 +15023,9 @@
     "Grand Theft Auto III (Japan)": {
         "secondary_name": "グランド・セフト・オートⅢ",
         "group_name": "Grand Theft Auto III",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
-        "languages": "",
+        "languages": "Ja",
         "version": "",
         "edition": "Double Pack"
     },
@@ -22111,5 +22111,14 @@
         "languages": "",
         "version": "",
         "edition": "Prototype"
+    },
+    "Metal Dungeon (Korea)": {
+        "secondary_name": "메탈 던전",
+        "group_name": "Metal Dungeon",
+        "status": "Blue",
+        "disc_type": "DVD-9",
+        "languages": "Ko",
+        "version": "",
+        "edition": "Original"
     }
 }

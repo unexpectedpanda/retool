@@ -3166,5 +3166,68 @@
         "languages": "",
         "version": "1.01",
         "edition": "Original"
+    },
+    "Amsterdamse Effectenbeurs, De (Netherlands)": {
+        "secondary_name": "",
+        "group_name": "Amsterdamse Effectenbeurs, De",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Original"
+    },
+    "Tim et Ted a l'Aeroport (France)": {
+        "secondary_name": "",
+        "group_name": "Tim et Ted a l'Aeroport",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "1.02",
+        "edition": "Original"
+    },
+    "Malarskolan (Sweden)": {
+        "secondary_name": "",
+        "group_name": "Malarskolan",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Original"
+    },
+    "Op Jacht naar Vernuft (Netherlands) (En,Nl)": {
+        "secondary_name": "",
+        "group_name": "Op Jacht naar Vernuft",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Nl, En",
+        "version": "",
+        "edition": ""
+    },
+    "Philips (Europe)": {
+        "secondary_name": "",
+        "group_name": "Philips",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": ""
+    },
+    "Power Match (Europe)": {
+        "secondary_name": "",
+        "group_name": "Power Match",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "1.02",
+        "edition": "Original"
+    },
+    "Saelis Cirkus Aeventyr (Sweden)": {
+        "secondary_name": "",
+        "group_name": "Saelis Cirkus Aeventyr",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Original"
     }
 }

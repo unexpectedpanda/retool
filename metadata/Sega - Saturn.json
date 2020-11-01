@@ -20932,5 +20932,14 @@
         "languages": "Ja",
         "version": "1.004",
         "edition": "Original"
+    },
+    "Lunar - Silver Star Story (Japan) (Rev A)": {
+        "secondary_name": "ルナ　～シルバー・スター・ストーリー～",
+        "group_name": "Lunar - Silver Star Story",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "2.00",
+        "edition": "Original"
     }
 }
