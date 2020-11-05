@@ -3,7 +3,7 @@
         "name": [
 			"Nintendo - Game Boy Advance"
 		],
-        "last updated": "27 July 2020"
+        "last updated": "4 November 2020"
     },
 
     "overrides": {
@@ -43,7 +43,7 @@
         "2 Games in 1 - SpongeBob SquarePants - SuperSponge + SpongeBob SquarePants - Battle for Bikini Bottom (Europe) (En+En,Fr,De)",
         "2 Games in 1 - SpongeBob SquarePants - SuperSponge + SpongeBob SquarePants - Battle for Bikini Bottom (Europe)",
         "2 Great Games! - Pac-Man World + Ms. Pac-Man - Maze Madness (USA)",
-        "2 in 1 Game Pack - Shrek 2 + Shark Tale",
+        "2 in 1 Game Pack - Shrek 2 + Shark Tale (USA)",
         "2 in 1 Game Pack - Shrek 2 & Shark Tale (Europe) (En,Fr,De,Es,It,Sv+En,Fr,De,Es,It)",
         "2 in 1 Game Pack - Spider-Man + Spider-Man 2 (USA) (En,Fr,De+En,Fr,De,Es)",
         "2 in 1 Game Pack - Spider-Man & Spider-Man 2 (Europe) (En,Fr,De+En,Fr,De,Es,It)",
@@ -210,13 +210,13 @@
             ["Zoku Bokura no Taiyou - Taiyou Shounen Django", 1]
         ],
         "Bomberman Max 2 - Blue Advance": [
-            ["Bomber Man Max 2 - Bomber Man Version", 1]
+            ["Bomberman Max 2 - Bomberman Version", 1]
         ],
         "Bomberman Max 2 - Red Advance": [
-            ["Bomber Man Max 2 - Max Version", 1]
+            ["Bomberman Max 2 - Max Version", 1]
         ],
         "Bomberman Tournament": [
-            ["Bomber Man Story", 1]
+            ["Bomberman Story", 1]
         ],
         "Breath of Fire": [
             ["Breath of Fire - Ryuu no Senshi", 1]
@@ -251,7 +251,7 @@
             ["Frontier Stories", 1]
         ],
         "Classic NES Series - Bomberman": [
-            ["Famicom Mini 09 - Bomber Man", 1]
+            ["Famicom Mini 09 - Bomberman", 1]
         ],
         "Classic NES Series - Castlevania": [
             ["Famicom Mini 29 - Akumajou Dracula", 1],
