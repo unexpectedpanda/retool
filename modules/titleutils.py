@@ -178,7 +178,7 @@ def remove_tags(title, user_input, REGEX):
     return title
 
 
-def choose_parent(titles, region_data, user_input, REGEX, ring_code):
+def choose_parent(titles, region_data, user_input, dat_numbered, REGEX, ring_code):
     """ Determines a parent, given a list of DatNode objects
 
     Redump seems to observe the following tagging order:
@@ -369,13 +369,17 @@ def choose_parent(titles, region_data, user_input, REGEX, ring_code):
             if (
                 title in [x for x in titles if x not in parents]
                 and title.short_name == parent.short_name):
-                    title.cloneof = parent.full_name
+                    if dat_numbered == False:
+                        title.cloneof = parent.full_name
+                    else:
+                        title.cloneof = parent.numbered_name
+
                     title.cloneof_group = parent.group
 
     return titles
 
 
-def choose_cross_region_parents(titles, user_input, REGEX):
+def choose_cross_region_parents(titles, user_input, dat_numbered, REGEX):
     """ Finds parents given a list of DatNode objects from multiple regions.
 
     This assumes choose_parent has already been run across all regions prior to them
@@ -387,6 +391,7 @@ def choose_cross_region_parents(titles, user_input, REGEX):
         for group, disc_titles in groups.items():
             if group not in titles.all:
                 titles.all[group] = []
+
             for title in disc_titles:
                 titles.all[group].extend([title])
 
@@ -451,7 +456,11 @@ def choose_cross_region_parents(titles, user_input, REGEX):
                     title in [x for x in values if x not in parents]
                     and title.short_name == parent.short_name
                     and parent.cloneof == ''):
-                        title.cloneof = parent.full_name
+                        if dat_numbered == False:
+                            title.cloneof = parent.full_name
+                        else:
+                            title.cloneof = parent.numbered_name
+
                         title.cloneof_group = get_raw_title(parent.full_name)
 
     return titles
@@ -691,7 +700,7 @@ def choose_version_revision(string, title_list, REGEX, trim_start, trim_end, pre
 
 
 
-def assign_clones(titles, input_dat, region_data, user_input, REGEX):
+def assign_clones(titles, input_dat, region_data, user_input, dat_numbered, REGEX):
     """ Assigns clones manually from clone lists """
 
     if input_dat.clone_lists.renames != None:
@@ -709,6 +718,7 @@ def assign_clones(titles, input_dat, region_data, user_input, REGEX):
             if progress_old != progress_percent:
                 sys.stdout.write("\033[K")
                 print(f'* Assigning clones from clone lists... [{str(progress_percent)}%]', sep='', end='\r', flush=True)
+
 
             if get_raw_title(key) in titles.all:
                 group = []
@@ -818,7 +828,7 @@ def assign_clones(titles, input_dat, region_data, user_input, REGEX):
                                 ring_code = False
 
                             parents = [clone_title, parent[0]]
-                            parents = choose_parent(parents, region_data, user_input, REGEX, ring_code)
+                            parents = choose_parent(parents, region_data, user_input, dat_numbered, REGEX, ring_code)
 
                             for new_parent in parents:
                                 if new_parent.cloneof == '':
@@ -842,7 +852,13 @@ def assign_clones(titles, input_dat, region_data, user_input, REGEX):
                                 clone_title.full_name == disc_title.full_name
                                 and clone_title.full_name != parent[0].full_name
                                 and clone_priority >= priority_range[0]):
-                                    disc_title.cloneof = parent[0].full_name
+
+                                    if dat_numbered == False:
+                                        disc_title.cloneof = parent[0].full_name
+                                    else:
+                                        disc_title.cloneof = parent[0].numbered_name
+
+
                                     disc_title.cloneof_group = parent[0].group
 
                     # Prioritize production versions in other regions if current parent is preproduction
@@ -880,7 +896,11 @@ def assign_clones(titles, input_dat, region_data, user_input, REGEX):
 
                         for clone in clones:
                             if clone[0].cloneof == 'Retool_Replace':
-                                clone[0].cloneof = preproduction_swap.full_name
+                                if dat_numbered == False:
+                                    clone[0].cloneof = preproduction_swap.full_name
+                                else:
+                                    clone[0].cloneof = preproduction_swap.numbered_name
+
                                 clone[0].cloneof_group = preproduction_swap.group
 
                     if found_parent == True: break

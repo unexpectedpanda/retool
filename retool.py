@@ -9,6 +9,7 @@ https://github.com/unexpectedpanda/retool
 import datetime
 import glob
 import os
+import re
 import sys
 import time
 
@@ -25,7 +26,7 @@ from modules.xml import dat_to_dict, process_input_dat
 # Require at least Python 3.8
 assert sys.version_info >= (3, 8)
 
-__version__ = '0.79'
+__version__ = '0.80'
 
 def main(gui_input=''):
     # Start a timer from when the process started
@@ -123,6 +124,23 @@ def main(gui_input=''):
         # Import scraped Redump metadata for titles
         input_dat.metadata = import_metadata(input_dat.name)
 
+        # Check if the dat is numbered
+        dat_numbered = False
+
+        if 'no-intro' in input_dat.url.lower():
+            print('* Checking if the input dat is numbered... ', sep=' ', end='', flush=True)
+
+            dat_numbered = True
+
+            for line in input_dat.soup.find_all('game', {'name': re.compile('.*')}):
+                if not re.search('game.*?name="([0-9]|x|z)([0-9]|B)[0-9]{2,2} - ', str(line)):
+                    dat_numbered = False
+
+            if dat_numbered == False:
+                print('this isn\'t a numbered dat.')
+            else:
+                print('this is a numbered dat.')
+
         # Get the stats from the original soup object before it's changed later
         print('* Gathering stats... ', sep=' ', end='', flush=True)
         stats = Stats(len(input_dat.soup.find_all('game')), user_input, input_dat)
@@ -156,7 +174,7 @@ def main(gui_input=''):
             processing_region_order.append('Unknown')
 
         # Set up a dictionary to record what titles have been removed, for when the user
-        # sets -y
+        # sets --log
         user_input.removed_titles = {}
 
         # Convert each region's XML to dicts so we can more easily work with the data,
@@ -172,7 +190,7 @@ def main(gui_input=''):
             )
             titles.regions[region] = dat_to_dict(
                 region, region_data, input_dat, user_input,
-                compilations_found, REGEX)
+                compilations_found, dat_numbered, REGEX)
 
             sys.stdout.write("\033[K")
 
@@ -195,7 +213,7 @@ def main(gui_input=''):
         # Combine all regions' titles and choose a parent based on region order
         print('* Finding parents across regions... ', sep='', end='\r', flush=True)
 
-        titles = choose_cross_region_parents(titles, user_input, REGEX)
+        titles = choose_cross_region_parents(titles, user_input, dat_numbered, REGEX)
 
         print('* Finding parents across regions... done.')
 
@@ -203,7 +221,7 @@ def main(gui_input=''):
         if input_dat.clone_lists != None:
             print('* Assigning clones from clone lists... ', sep='', end='\r', flush=True)
 
-            titles = assign_clones(titles, input_dat, region_data, user_input, REGEX)
+            titles = assign_clones(titles, input_dat, region_data, user_input, dat_numbered, REGEX)
 
             sys.stdout.write("\033[K")
             print('* Assigning clones from clone lists... done.')
@@ -238,7 +256,7 @@ def main(gui_input=''):
                     f'[1G1R]{user_input.user_options} (Retool {datetime.datetime.now().strftime("%Y-%m-%d %H-%M-%SS")[:-1]}).dat'))
 
             # Write the output dat file
-            write_dat_file(input_dat, user_input, output_file_name, stats, titles, REGEX)
+            write_dat_file(input_dat, user_input, output_file_name, stats, titles, dat_numbered, REGEX)
 
             # Report stats
             report_stats(stats, titles, user_input, input_dat, region_data)

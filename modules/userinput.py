@@ -51,7 +51,7 @@ def check_input():
 
     filter_options.add_argument('-s',
                         action='store_true',
-                        help='R|enable supersets: special editions, game of the year\neditions, and collections replace standard editions\n\n')
+                        help='R|supersets (special editions, game of the year editions, and\ncollections) replace standard editions\n\n')
 
     filter_options.add_argument('-a',
                         action='store_true',

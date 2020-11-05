@@ -65,7 +65,7 @@ def generate_config(languages, regions, gui_settings=False, overwrite=False, gui
             raise
 
 
-def write_dat_file(input_dat, user_input, output_file_name, stats, titles, REGEX):
+def write_dat_file(input_dat, user_input, output_file_name, stats, titles, dat_numbered, REGEX):
     """ Output the final dat file """
 
     dat_header = header(input_dat, stats.final_title_count, user_input)
@@ -104,8 +104,16 @@ def write_dat_file(input_dat, user_input, output_file_name, stats, titles, REGEX
             else:
                 progress_total = stats.final_title_count
 
+            final_xml = {}
+
             for group in sorted(titles.all):
                 for title in sorted(titles.all[group], key=lambda x: natural_keys(x.full_name)):
+
+                    if dat_numbered == False:
+                        final_name = title.full_name
+                    else:
+                        final_name = title.numbered_name
+
                     progress += 1
                     progress_percent = int(progress/progress_total*100)
 
@@ -116,17 +124,18 @@ def write_dat_file(input_dat, user_input, output_file_name, stats, titles, REGEX
                     game_xml = ''
 
                     if title.cloneof == '':
-                        game_xml = f'\t<game name="{html.escape(title.full_name, quote=False)}">'
+                        game_xml = f'\t<game name="{html.escape(final_name, quote=False)}">'
                         if user_input.keep_remove == True:
-                            if title.full_name not in audit_list:
-                                audit_list[title.full_name] = []
+                            if final_name not in audit_list:
+                                audit_list[final_name] = []
                     else:
                         if user_input.keep_remove == True:
                             if title.cloneof not in audit_list:
                                 audit_list[title.cloneof] = []
-                            audit_list[title.cloneof].append(title.full_name)
+                            audit_list[title.cloneof].append(final_name)
+
                         if user_input.legacy == True:
-                            game_xml = f'\t<game name="{html.escape(title.full_name, quote=False)}" cloneof="{html.escape(title.cloneof, quote=False)}">'
+                            game_xml = f'\t<game name="{html.escape(final_name, quote=False)}" cloneof="{html.escape(title.cloneof, quote=False)}">'
 
                     rom_xml = []
 
@@ -155,19 +164,19 @@ def write_dat_file(input_dat, user_input, output_file_name, stats, titles, REGEX
                     # Reverse engineer category for No-Intro
                     if title.category == '':
                         for program in REGEX.programs:
-                            if re.search(program, title.full_name) != None:
+                            if re.search(program, final_name) != None:
                                 title.category = "Applications"
                         for demo in REGEX.demos:
-                            if re.search(demo, title.full_name) != None:
+                            if re.search(demo, final_name) != None:
                                 title.category = "Demos"
                         for preproduction in REGEX.preproduction:
-                            if re.search(preproduction, title.full_name) != None:
+                            if re.search(preproduction, final_name) != None:
                                 title.category = "Preproduction"
                     if title.category == '':
                         title.category = "Games"
 
                     if game_xml != '':
-                        output_file.writelines(
+                        final_xml[final_name] = (
                             f'{game_xml}\n\t\t'
                             f'<category>{html.escape(title.category, quote=False)}</category>\n\t\t'
                             f'<description>{html.escape(title.description, quote=False)}'
@@ -177,6 +186,11 @@ def write_dat_file(input_dat, user_input, output_file_name, stats, titles, REGEX
                         )
 
                     progress_old = progress_percent
+
+            final_xml_sort = sorted(final_xml)
+
+            for key in final_xml_sort:
+                    output_file.writelines(final_xml[key])
 
             if user_input.keep_remove == True:
                 with open(user_remove_list, 'a') as list_output:
@@ -189,8 +203,8 @@ def write_dat_file(input_dat, user_input, output_file_name, stats, titles, REGEX
 
                         user_input.removed_titles = temp_removed_titles
 
-                        list_output.writelines(f'\nKEYS\n')
-                        list_output.writelines(f'====\n')
+                        list_output.writelines(f'\nTITLE TYPES REMOVED\n')
+                        list_output.writelines(f'===================\n')
                         for key, values in user_input.removed_titles.items():
                             list_output.writelines(f'* {key.upper().replace("_"," ")}\n')
 
@@ -212,22 +226,30 @@ def write_dat_file(input_dat, user_input, output_file_name, stats, titles, REGEX
                     list_output.writelines(f'\n# STANDALONES\n')
                     list_output.writelines(f'==============\n')
 
-                    for key, values in audit_list.items():
-                        if values == []:
+                    final_keep_remove_sort = sorted(audit_list)
+
+                    for key in final_keep_remove_sort:
+                        if audit_list[key] == []:
                             list_output.writelines(f'+ {key}\n')
 
-                    parents_clones = []
+                    parents_clones = {}
 
                     for key, values in audit_list.items():
                         if values != []:
-                            parents_clones.append(f'+ {key}\n')
+                            parents_clones[key] = []
                             for value in values:
-                                parents_clones.append(f'\t- {value}\n')
-                    if parents_clones != []:
+                                parents_clones[key].append(f'\t- {value}\n')
+
+                    if parents_clones != {}:
+                        final_parents_clones_sort = sorted(parents_clones)
+
                         list_output.writelines(f'\n\n# PARENTS & CLONES\n')
                         list_output.writelines(f'===================\n')
-                        for title in parents_clones:
-                            list_output.writelines(title)
+
+                        for title in final_parents_clones_sort:
+                            list_output.writelines(f'+ {title}\n')
+                            for clone in parents_clones[title]:
+                                list_output.writelines(clone)
 
                     list_output.close()
 
