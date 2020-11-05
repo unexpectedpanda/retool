@@ -7,7 +7,7 @@ import sys
 from lxml import etree
 from bs4 import BeautifulSoup
 
-from modules.classes import Dat, DatNode, DatNodeRom
+from modules.classes import Dat, DatNode
 from modules.titleutils import choose_parent, get_raw_title
 from modules.utils import Font, printverbose, printwrap
 
@@ -85,7 +85,7 @@ def convert_clrmame_dat(input_dat, is_folder):
     return Dat(convert_dat, dat_name, dat_description, dat_version, dat_author)
 
 
-def dat_to_dict(region, region_data, input_dat, user_input, compilations_found, REGEX):
+def dat_to_dict(region, region_data, input_dat, user_input, compilations_found, dat_numbered, REGEX):
     """ Converts an input dat file to a dict """
 
     # Find all titles in the soup object that belong to the current region
@@ -159,7 +159,12 @@ def dat_to_dict(region, region_data, input_dat, user_input, compilations_found, 
                 compilation_check = False
 
                 for compilation in input_dat.clone_lists.compilations:
-                    if compilation == node.description.parent['name']:
+                    if dat_numbered == False:
+                        match_title = node.description.parent['name']
+                    else:
+                        match_title = node.description.parent['name'][7:]
+
+                    if compilation == match_title:
                         compilation_check = True
                         compilations_found.update([compilation])
 
@@ -184,13 +189,16 @@ def dat_to_dict(region, region_data, input_dat, user_input, compilations_found, 
             continue
 
         # Get the group name for the current node, then add it to the groups list
-        group_name = get_raw_title(node.description.parent['name'])
+        if dat_numbered == False:
+            group_name = get_raw_title(node.description.parent['name'])
+        else:
+            group_name = get_raw_title(node.description.parent['name'][7:])
 
         if group_name not in groups:
             groups[group_name] = []
 
         groups[group_name].append(
-            DatNode(node, region, region_data, user_input, input_dat, REGEX))
+            DatNode(node, region, region_data, user_input, input_dat, dat_numbered, REGEX))
 
         # Filter languages, if the option has been turned on
         if user_input.filter_languages == True:
@@ -282,13 +290,22 @@ def dat_to_dict(region, region_data, input_dat, user_input, compilations_found, 
             for key, value in input_dat.clone_lists.overrides.items():
                 if re.search('\((.*?,){0,} {0,}' + region + '(,.*?){0,}\)', key) != None:
                     try:
-                        titles_temp = groups[get_raw_title(key)].copy()
+                        titles_temp = {}
+
+                        for group in groups:
+                            if get_raw_title(key) == group:
+                                titles_temp = groups[get_raw_title(key)].copy()
 
                         # If value[1] = False, match against the tag_free_name
                         # If value[1] = True, match against the full_name
                         for title in titles_temp:
                             if value[1] == False:
-                                if title.tag_free_name == key:
+                                if dat_numbered == False:
+                                    match_title = title.tag_free_name
+                                else:
+                                    match_title = title.full_name
+
+                                if match_title == key:
                                     title.short_name = value[0]
                                     if value[0] not in groups:
                                         groups[value[0]] = []
@@ -365,7 +382,11 @@ def dat_to_dict(region, region_data, input_dat, user_input, compilations_found, 
                                 titles_temp = groups[get_raw_title(key)].copy()
 
                                 for title in titles_temp:
-                                    if title.tag_free_name == key:
+                                    if dat_numbered == False:
+                                        match_title = title.tag_free_name
+                                    else:
+                                        match_title = title.full_name
+                                    if match_title == key:
                                         title.short_name = value['condition']['else_group']
                                         title.group = value['condition']['else_group']
                                         if value['condition']['else_group'] not in groups:
@@ -389,7 +410,7 @@ def dat_to_dict(region, region_data, input_dat, user_input, compilations_found, 
         else:
             ring_code = False
 
-        titles = choose_parent(titles, region_data, user_input, REGEX, ring_code)
+        titles = choose_parent(titles, region_data, user_input, dat_numbered, REGEX, ring_code)
 
     return groups
 

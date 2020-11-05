@@ -26,6 +26,12 @@ their 1G1R modes, as Retool will have already done the work for you.
 
 ## Why not use CLRMAMEPro or Romcenter's 1G1R mode with a parent/clone dat?
 
+The short version:
+
+They don't do a great job of picking canonical 1G1R titles.
+
+The long version:
+
 Historically if you wanted to create a 1G1R set, you'd use a parent/clone dat in
 combination with a dat manager like CLRMAMEPro or Romcenter. After loading the
 dat into the dat manager, you'd set your desired regions and region order, and
@@ -113,7 +119,10 @@ Terminal, Command Prompt, or whatever the CLI is on your system, and type:
 pip install bs4 lxml strictyaml pysimpleguiqt
 ```
 
-#### I'm seeing a libxcb error in Linux when using retool-gui.py
+Note that on systems that have both Python 2 and 3 installed, you might need
+to run `pip3` instead of `pip`.
+
+#### I'm getting a libxcb error in Linux when using retool-gui.py
 
 Looks like some installs are a bit wonky when it comes to libxcb. This worked
 for me on a fresh install of Ubuntu 20.04:
@@ -162,6 +171,9 @@ Retool uses the following syntax:
 python retool.py <input dat/folder> <options>
 ```
 
+Note that on systems that have both Python 2 and 3 installed, you might need
+to run `python3` instead of `python`.
+
 Alternatively, your system might be configured to run the py file directly:
 
 ```shell
@@ -208,8 +220,8 @@ they will be included if you select any of their respective languages:
 * `-x` Export dat in legacy parent/clone format
 * `-g` Enable most filters (-bcdefmrs)
 * `-l` Filter by languages using a list (see `user-config.yaml`)
-* `-s` Enable supersets: special editions, game of the year
-  editions, and collections replace standard editions
+* `-s` Supersets (special editions, game of the year editions, and collections)
+       replace standard editions
 * `-a` Exclude applications
 * `-b` Exclude bad dumps
 * `-c` Exclude compilations with no unique titles

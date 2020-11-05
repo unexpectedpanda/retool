@@ -1,67 +1,74 @@
+# 0.80
+- Retool can now handle No-Intro numbered dats.
+- Output dats used to do alphabetical order based on group, which could look
+  like things were out of order if you didn't know what was happening behind
+  the scenes. Output dats are now ordered based on title.
+- Updated wording around enabling the supersets option, so it was clear that if
+  you turned it on, supersets would replace standard editions in the output
+  dat.
+- Added some extra tooltips to the exclusion options in the GUI, so users have
+  more information to work with.
+
+# 0.79
+- Fixed the online updating of clone lists to include Redump metadata.
+
 # 0.78
-- Implemented a GUI. You'll need to install `pysimpleguiqt`
-  with pip, and after that you can run it with `retool-gui.py`.
-  It's not as tight and consistent as it could be due to
-  limitations with PySimpleGUIQt, but given PySimpleGUI's
-  rapid, active development this should improve over time.
-  Right now it looks best on Windows. Ubuntu has been tested,
-  and looks a little janky, but is functional. MacOS hasn't
-  been tested.
-- You can now run `updateclonelists.py` to download the
-  latest clone lists. There's also an option available in the
-  GUI under the File menu.
-- Reformatted user-config.yaml so strictyaml liked it a bit
-  more, and things played well with the GUI. Improved YAML
-  handling at the same time. Make sure to backup your current
-  user-config.yaml before grabbing this version, so you can
-  port your region order/language settings over.
-- Moved to argparse to handle user input in the CLI. It's
-  less pretty, but it's more robust and scalable. This also
-  means that the `-i` option is no longer a thing when
-  specifying your input dat/folder -- instead, specify it
+- Implemented a GUI. You'll need to install `pysimpleguiqt` with pip, and after
+  that you can run it with `retool-gui.py`. It's not as tight and consistent as
+  it could be due to limitations with PySimpleGUIQt, but given PySimpleGUI's
+  rapid, active development this should improve over time. Right now it looks
+  best on Windows. Ubuntu has been tested, and looks a little janky, but is
+  functional. MacOS hasn't been tested.
+- You can now run `updateclonelists.py` to download the latest clone lists.
+  There's also an option available in the GUI under the File menu.
+- Reformatted user-config.yaml so strictyaml liked it a bit more, and things
+  played well with the GUI. Improved YAML handling at the same time. Make sure
+  to backup your current `user-config.yaml` before grabbing this version, so
+  you can port your region order/language settings over.
+- Moved to argparse to handle user input in the CLI. It's less pretty, but it's
+  more robust and scalable. This also means that the `-i` option is no longer a
+  thing when specifying your input dat/folder -- instead, specify it
   immediately after `retool.py`:
 
   `retool.py <input dat/folder> <options>`
-- Stopped misassignment in clone lists if Redump left off the
-  `(Demo)` tag from a title.
-- Fixed an exit bug when the user would select only regions
-  and/or languages that didn't exist in the input dat.
+- Stopped misassignment in clone lists if Redump left off the `(Demo)` tag from
+  a title.
+- Fixed an exit bug when the user would select only regions and/or languages
+  that didn't exist in the input dat.
 - Added a few promote tags.
 - Cleaned up some unused variables and imports.
 - Lots of code tweaks to better suit GUI interaction.
 
 # 0.77
-- The `-g` option now keeps applications, as they are useful for
-  computer platforms like the Atari ST and Commodore Amiga.
-- The new `-y` option outputs a list of what titles have been
-  kept and removed in the output dat.
+- The `-g` option now keeps applications, as they are useful for computer
+  platforms like the Atari ST and Commodore Amiga.
+- The new `-y` option outputs a list of what titles have been kept and removed
+  in the output dat.
 - Refactored how Retool options get listed in the output name.
-- Removed requirement for the !DOCTYPE element to exist that quotes
-  the LogiqX DTD, so Retool can work with files from sites.dat. The
-  dat is still validated against the DTD, however.
-- Dealt with an edge case in selecting the right title if somehow
-  there was both a version _and_ a revision of a title.
+- Removed requirement for the !DOCTYPE element to exist that quotes the LogiqX
+  DTD, so Retool can work with files from sites.dat. The dat is still validated
+  against the DTD, however.
+- Dealt with an edge case in selecting the right title if somehow there was
+  both a version _and_ a revision of a title.
 - Hid displaying options behind the `-?` option.
 
 # 0.76
-- Fixed filtering by language. This was broken due to a last minute
-  change from a string to regex in the 0.75 release.
-- Fixed folders not being processed to completion when filter by
-  language was selected, and no valid titles were found in the
-  current dat.
+- Fixed filtering by language. This was broken due to a last minute change from
+  a string to regex in the 0.75 release.
+- Fixed folders not being processed to completion when filter by language was
+  selected, and no valid titles were found in the current dat.
 - Added `Ukranian` as a language.
-- When filtering by language, if titles in the following regions don't
-  have languages specified, they will be included if you select any of
-  their respective languages:
+- When filtering by language, if titles in the following regions don't have
+  languages specified, they will be included if you select any of their
+  respective languages:
   - Asia &mdash; English, Chinese, Japanese.
   - Hong Kong, Taiwan &mdash; Chinese, English.
   - Latin America &mdash; Spanish, Portuguese
   - South Africa &mdash; Afrikaans, English
   - Switzerland &mdash; German, French, Italian
   - Ukraine &mdash; Ukranian, Russian.
-- Retool can now handle `rom` entries with no CRC specified. A `rom`
-  entry must have at least a CRC, MD5, or SHA1, otherwise the title is
-  dropped.
+- Retool can now handle `rom` entries with no CRC specified. A `rom` entry must
+  have at least a CRC, MD5, or SHA1, otherwise the title is dropped.
 - The `-g` option now keeps preproduction titles, as they're treated as
   versions of titles instead of a separate thing, and many will be removed
   automatically on account of production versions existing. You will need
@@ -80,8 +87,8 @@
 - Alphas, betas, and prototypes are now treated as versions of titles.
   This way you get the highest version of a title available, and less noise
   without stripping everything away with the `-p` tag. Retool prefers production
-  versions of titles, even if there is a preproduction title in a higher priority
-  region. Priority is as follows:
+  versions of titles, even if there is a preproduction title in a higher
+  priority region. Priority is as follows:
   - Production with highest version
   - Production with highest revision
   - Production with no version/revision
@@ -340,15 +347,16 @@ The following things have also changed:
 - Empty name, description, author, url, and version fields in dats are now
   handled, instead of crashing the program.
 - Several bugs involving options flags were fixed.
-- The title count was missing when dats were split into regions. This is now fixed.
+- The title count was missing when dats were split into regions. This is now
+  fixed.
 - Bye bye ASCII logo. Vertical screen real estate is now more important.
 - Added CloneRel tool, that exports an Excel file from a dat to better display
   existing parent/clone relationships.
 - Dealt with the "_King's Field_ problem". _King's Field (Japan)_ didn't get a
   Western release. _King's Field_ in the USA is known as _King's Field II_ in
   Japan. **_King's Field II_** in the USA is **_King's Field III_** in Japan.
-  Without extra logic, the program would mark all **_King's Field II_** titles as
-  clones, which is not what we want.
+  Without extra logic, the program would mark all **_King's Field II_** titles
+  as clones, which is not what we want.
 
 # 0.34
 - Added textwrap module for better readability on MacOS/Linux.

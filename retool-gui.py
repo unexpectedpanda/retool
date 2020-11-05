@@ -31,7 +31,7 @@ sg.SetOptions(font=('Segoe UI', 10))
 
 
 def main():
-    __version__ = 0.01
+    __version__ = 0.02
 
     # Generate user config file if it's missing
     generate_config(region_data.languages_long, region_data.region_order, [], False, True)
@@ -49,12 +49,12 @@ def main():
 
         [sg.HorizontalSeparator()],
 
-        generate_checkbox(['Applications', 'Multimedia'], 30),
-        generate_checkbox(['Bad dumps', 'Pirate'], 30),
-        generate_checkbox(['Compilations with no unique titles', 'Preproduction'], 30),
-        generate_checkbox(['Coverdiscs', 'Promotional'], 30),
-        generate_checkbox(['Demos and samples', 'Unlicensed'], 30),
-        generate_checkbox(['Educational'], 30)
+        generate_checkbox(['Applications', 'Multimedia'], 30, ['Exclude titles with the dat category "Applications"\nor with "(Program)" in the name', 'Exclude titles with the dat category "Multimedia"']),
+        generate_checkbox(['Bad dumps', 'Pirate'], 30, ['Exclude titles with "[b]" in the name', 'Exclude titles with "(Pirate)" in the name']),
+        generate_checkbox(['Compilations with no unique titles', 'Preproduction'], 30, ['Exclude compilations where the titles already\nexist in the dat as single titles', 'Exclude titles with the dat category "Preproduction" or with the\nfollowing text in the name:\n\n* (Alpha [0-99])\n* (Beta [0-99])\n* (Pre-Production)\n* (Proto [0-99])\n* (Review Code)']),
+        generate_checkbox(['Coverdiscs', 'Promotional'], 30, ['Exclude titles with the dat category "Coverdiscs"', 'Exclude titles with the dat category "Promotional" or with the\nfollowing text in the name:\n\n* (Promo)\n* EPK\n* Press Kit']),
+        generate_checkbox(['Demos and samples', 'Unlicensed'], 30, ['Exclude titles with the dat category "Demos" or with the\nfollowing text in the name:\n\n* @barai\n* (Demo [1-9])\n* (Demo-CD)\n* (GameCube Preview)\n* (Preview)\n* Sample\n* Taikenban\n* Trial Edition', 'Exclude titles with "(Unl)" in the name']),
+        generate_checkbox(['Educational'], 30, ['Exclude titles with the dat category "Educational"'])
     ]
 
     # Modes
@@ -65,8 +65,8 @@ def main():
 
         [sg.HorizontalSeparator()],
 
-        generate_checkbox(['Enable supersets'], 30, 'Special editions, game of the year editions,\nand collections replace standard editions'),
-        generate_checkbox(['Export dat in legacy parent/clone format'], 30, 'For use with CloneRel, analyzing parent/clone relationships assigned\nby Retool, or for diffing outputs in order to update clone lists --\nnot recommended for dat managers'),
+        generate_checkbox(['Supersets replace standard editions'], 30, ['Special editions, game of the year editions, and collections\nreplace standard editions (if left unchecked, all editions\nare included in the output dat)']),
+        generate_checkbox(['Export dat in legacy parent/clone format'], 30, ['Use for the following things:\n\n* CloneRel\n* Manually analyzing parent/clone relationships created by Retool\n* Diffing outputs in order to update clone lists\n\nNot recommended for use with dat managers']),
     ]
 
     # Region selection
@@ -334,7 +334,7 @@ def main():
     if 'p' in settings.user_config.data['gui settings']: window['checkbox-preproduction'].update(True)
     if 'r' in settings.user_config.data['gui settings']: window['checkbox-promotional'].update(True)
     if 'u' in settings.user_config.data['gui settings']: window['checkbox-unlicensed'].update(True)
-    if 's' in settings.user_config.data['gui settings']: window['checkbox-enable-supersets'].update(True)
+    if 's' in settings.user_config.data['gui settings']: window['checkbox-supersets-replace-standard-editions'].update(True)
     if 'x' in settings.user_config.data['gui settings']: window['checkbox-export-dat-in-legacy-parent-clone-format'].update(True)
 
     for setting in settings.user_config.data['gui settings']:
@@ -403,7 +403,7 @@ def main():
                     values['checkbox-preproduction'],
                     values['checkbox-promotional'],
                     values['checkbox-unlicensed'],
-                    values['checkbox-enable-supersets'],
+                    values['checkbox-supersets-replace-standard-editions'],
                     filter_by_languages, # languages
                     values['checkbox-export-dat-in-legacy-parent-clone-format'],
                     gui_output_settings, # user options
@@ -527,7 +527,7 @@ def main():
                 gui_settings.append('r')
             if values['checkbox-unlicensed'] == True:
                 gui_settings.append('u')
-            if values['checkbox-enable-supersets'] == True:
+            if values['checkbox-supersets-replace-standard-editions'] == True:
                 gui_settings.append('s')
             if values['checkbox-export-dat-in-legacy-parent-clone-format'] == True:
                 gui_settings.append('x')
@@ -611,11 +611,11 @@ def move_listbox_all_left(window, left_key, right_key):
     window[right_key].update([])
 
 
-def generate_checkbox(labels, width, tip=None):
+def generate_checkbox(labels, width, tips=None):
         checkboxes = []
 
         for i, label in enumerate(labels):
-            if tip == None:
+            if tips == None:
                 checkboxes.append(sg.Checkbox(
                     enable_events=True,
                     key=f'checkbox-{label.lower().replace(" ", "-").replace("/", "-")}',
@@ -629,7 +629,7 @@ def generate_checkbox(labels, width, tip=None):
                     pad=(0,0),
                     size=(width,0.6),
                     text=label,
-                    tooltip=tip))
+                    tooltip=tips[i]))
 
         return checkboxes
 

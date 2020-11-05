@@ -31,9 +31,13 @@ class Dat:
 class DatNode:
     """ Returns an object that contains all of a title's properties """
 
-    def __init__(self, node, region, region_data, user_input, input_dat, REGEX):
-
-        self.full_name = str(node.description.parent['name'])
+    def __init__(self, node, region, region_data, user_input, input_dat, dat_numbered, REGEX):
+        if dat_numbered == False:
+            self.full_name = str(node.description.parent['name'])
+            self.numbered_name = ''
+        else:
+            self.full_name = str(node.description.parent['name'])[7:]
+            self.numbered_name = str(node.description.parent['name'])
 
         metadata = input_dat.metadata
 
@@ -166,6 +170,7 @@ class DatNode:
             self.region_free_name = self.region_free_name + '(Demo)'
             self.tag_free_name = self.tag_free_name + '(Demo)'
 
+
     def __str__(self):
         ret_str = []
 
@@ -183,6 +188,7 @@ class DatNode:
 
         ret_str.append(f'  ○ full_name:\t\t{self.full_name}\n')
         format_property(self.secondary_name, 'secondary_name', '\t')
+        ret_str.append(f'  ├ numbered_name:\t{self.numbered_name}\n')
         ret_str.append(f'  ├ description:\t{self.description}\n')
         ret_str.append(f'  ├ region_free_name:\t{self.region_free_name}\n')
         ret_str.append(f'  ├ tag_free_name:\t{self.tag_free_name}\n')
@@ -211,6 +217,7 @@ class DatNode:
                 ret_str.append(f'         ├ name: {rom.name} | crc: {rom.crc} | md5: {rom.md5} | sha1: {rom.sha1} | size: {rom.size}\n')
 
         ret_str = ''.join(ret_str)
+
         return ret_str
 
 
