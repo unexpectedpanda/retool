@@ -3,8 +3,22 @@
 		"name": [
 			"Sega - Master System - Mark III"
 		],
-		"last updated": "24 July 2020"
+		"last updated": "5 November 2020"
     },
+
+    "compilations": [
+        "Hang On & Astro Warrior (USA)"
+    ],
+
+    "conditional_overrides": {
+		"Fushigi no Oshiro Pit Pot (Japan)": {
+			"new_group": "Astro Warrior & Pit Pot",
+			"condition": {
+				"region": ["Europe"],
+				"higher_than": ["Japan"]
+			}
+		}
+	},
 
     "overrides": {
         "Great Baseball (Japan)": ["Great Baseball (Japan)", true],
@@ -12,6 +26,10 @@
     },
 
 	"renames": {
+        "[BIOS] Hang On": [
+            ["[BIOS] Hang On & Safari Hunt", -1],
+            ["Hang On", 2]
+        ],
         "Alex Kidd - High-Tech World": [
             ["Anmitsu Hime", 1]
         ],
@@ -63,7 +81,11 @@
         "Golvellius - Valley of Doom": [
             ["Maou Golvellius", 1]
         ],
+        "Hang On & Astro Warrior": [
+            ["Astro Warrior", 2]
+        ],
         "Hang-On & Safari Hunt": [
+            ["[BIOS] Hang On & Safari Hunt", 0],
             ["Hang On & Safari Hunt", 2]
         ],
         "James 'Buster' Douglas Knockout Boxing": [

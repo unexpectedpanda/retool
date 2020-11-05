@@ -3,17 +3,19 @@
         "name": [
 			"Nintendo - Nintendo DS"
 		],
-        "last updated": "19 September 2020"
+        "last updated": "5 November 2020"
     },
 
     "compilations": [
         "2 in 1 - My Vet Practice + My Pet Hotel 2 (Europe) (En,Fr,De,Es,It)",
         "3 Game Pack! - Cradle of Rome + Cradle of Athena + Cradle of Egypt (Europe) (En,Fr,De,Es,It,Nl)",
         "3 Game Pack! - Cradle of Rome + Cradle of Athena + Cradle of Egypt (Europe) (En,Fr,De,Es,It,Nl) (Rev 1)",
+        "Around the World in 80 Days & Fishdom (Germany) (Fr,De)",
         "Atlantic Quest + Galactic Quest (Europe) (En,Fr,De,Nl)",
         "Ben 10 - Triple Pack (USA) (En,Fr,De,Es,It)",
         "Ben 10 - Triple Pack (Europe) (En,Fr,De,Es,It)",
         "Jewel Link Double Pack (Europe)",
+        "Jewel Match & 4 Elements (Germany) (Fr,De)",
         "Kids Learn & Play - Pets & Vets Bundle (USA)",
         "Nickelodeon Team Umizoomi and Dora's Fantastic Flight (USA)"
     ],
@@ -248,18 +250,14 @@
             ["Bolt", 1]
         ],
         "Bomberman 2": [
-            ["Custom Battler Bomber Man", 1]
+            ["Custom Battler Bomberman", 1]
         ],
         "Bomberman Land Touch!": [
-            ["Touch! Bomber Man Land", 1],
             ["Touch! Bomberman Land", 1]
         ],
         "Bomberman Land Touch! 2": [
             ["Bomberman Land Touch! 2", 1],
-            ["Touch! Bomber Man Land - Star Bomber no Miracle World", 1]
-        ],
-        "Bomberman Story DS": [
-            ["Bomber Man Story DS", 1]
+            ["Touch! Bomberman Land - Star Bomber no Miracle World", 1]
         ],
         "Brain Age - Train Your Brain in Minutes a Day!": [
             ["Dr Kawashima's Brain Training - How Old Is Your Brain", 1],
@@ -683,7 +681,7 @@
         "Dreamer Series - Horse Trainer": [
             ["Anky's Ruiterschool", 1],
             ["Deine Reitschule", 1],
-            ["Your Riding School", 1]
+            ["Mi Escuela de Equitacion", 1]
         ],
         "Dreamer Series - Pop Star": [
             ["Music Star - I Wanna Be a Popstar", 1],
@@ -750,8 +748,8 @@
             ["Malediction de Toutankhamon, La - Enigmes & Objets Caches", 1]
         ],
         "Emily the Strange - Strangerous (VESX)": [
-            ["Emily the Strange - Strangerous", 1],
-            ["Emily the Strange - Strangerous (VESV)", 2]
+            ["Emily the Strange - Strangerous (VESV)", 1],
+            ["Emily the Strange - Strangerous (VESP)", 2]
         ],
         "Enchanted": [
             ["Mahou ni Kakerarete", 1]
@@ -3006,6 +3004,9 @@
         ],
         "Viewtiful Joe - Double Trouble!": [
             ["Viewtiful Joe - Scratch!", 1]
+        ],
+        "Virtual Piano (Later)": [
+            ["Virtual Piano", 2]
         ],
         "Virtual Villagers - A New Home": [
             ["Virtual Villagers - Erschaffe dein Paradies!", 1]

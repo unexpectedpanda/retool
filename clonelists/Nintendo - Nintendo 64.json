@@ -3,7 +3,7 @@
         "name": [
 			"Nintendo - Nintendo 64"
 		],
-        "last updated": "14 July 2020"
+        "last updated": "5 November 2020"
     },
 
     "overrides": {
@@ -42,10 +42,10 @@
             ["Blastdozer", 1]
         ],
         "Bomberman 64": [
-            ["Baku Bomber Man", 1]
+            ["Baku Bomberman", 1]
         ],
         "Bomberman 64 - The Second Attack!": [
-            ["Baku Bomber Man 2", 1]
+            ["Baku Bomberman 2", 1]
         ],
         "Bomberman Hero": [
             ["Bomberman Hero - Mirian Oujo o Sukue!", 1]

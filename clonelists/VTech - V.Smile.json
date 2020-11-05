@@ -3,7 +3,7 @@
 		"name": [
 			"VTech - V.Smile"
 		],
-		"last updated": "27 July 2020"
+		"last updated": "5 November 2020"
 	},
 
 	"renames": {
@@ -81,10 +81,9 @@
         "My Friends Tigger & Pooh - Die Honigjagd": [
             ["Nalle Puh - Honungsjakten", 1],
             ["Peter Plys - Honningjagten", 1],
+            ["Winnie l'Ourson - La Chasse au miel de Winnie", 1],
             ["Winnie Puuh - Die Honigjagd", 1],
-            ["Winnie Rourson - La Chasse Du Miel De Winnie", 1],
-            ["Winnie the Pooh e la caccia al miele", 1],
-            ["Winnie l'Ourson - La Chasse au miel de Winnie", 2]
+            ["Winnie the Pooh e la caccia al miele", 1]
         ],
         "Noddy - Detective for a Day": [
             ["Noddy - Detektiv fuer einen Tag", 1],

@@ -3,10 +3,12 @@
         "name": [
 			"Nintendo - Game Boy"
 		],
-        "last updated": "19 September 2020"
+        "last updated": "5 November 2020"
     },
 
     "overrides": {
+        "Bomberman GB (Japan) (SGB Enhanced)": ["Wario Blast featuring Bomberman!", true],
+        "Bomberman GB 2 (Japan) (SGB Enhanced)": ["Bomberman GB", true],
         "Donkey Kong Land (Japan) (SGB Enhanced)": ["Donkey Kong Land 2", true],
         "Mickey Mouse (Japan)": ["Bugs Bunny Crazy Castle, The", true],
         "Soccer (Japan)": ["Football International", true],
@@ -85,9 +87,6 @@
         "Blaster Master Boy": [
             ["Blaster Master Jr.", 1],
             ["Bomber King - Scenario 2", 1]
-        ],
-        "Bomberman GB": [
-            ["Bomber Man GB 2", 1]
         ],
         "Boomer's Adventure in ASMIK World": [
             ["Teke Teke! Asmik-kun World", 1]
@@ -452,7 +451,7 @@
             ["Pinball - 66hiki no Wani Daikoushin!", 1]
         ],
         "Pocket Bomberman": [
-            ["Pocket Bomber Man", 1]
+            ["Pocket Bomberman", 1]
         ],
         "Pokemon - Blue Version": [
             ["Pocket Monsters - Ao", 1],
@@ -670,9 +669,6 @@
         "Ultra Golf": [
             ["Konami Golf", 1],
             ["Konamic Golf", 1]
-        ],
-        "Wario Blast featuring Bomberman!": [
-            ["Bomber Man GB", 1]
         ],
         "We're Back! - A Dinosaur's Story": [
             ["Agro Soar", 1],

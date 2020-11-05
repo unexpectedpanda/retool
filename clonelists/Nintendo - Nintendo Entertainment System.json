@@ -3,7 +3,7 @@
 		"name": [
 			"Nintendo - Nintendo Entertainment System"
 		],
-		"last updated": "20 September 2020"
+		"last updated": "5 November 2020"
     },
 
     "overrides": {
@@ -162,11 +162,7 @@
         "Blaster Master": [
             ["Chou-Wakusei Senki - MetaFight", 1]
         ],
-        "Bomberman": [
-            ["Bomber Man", 1]
-        ],
         "Bomberman II": [
-            ["Bomber Man II", 1],
             ["Dynablaster", 1]
         ],
         "Bonk's Adventure": [
@@ -1009,9 +1005,8 @@
         "Super Dodge Ball": [
             ["Nekketsu Koukou Dodgeball-bu", 1]
         ],
-        "Super Mario Bros. - 25th Anniversary": [
-            ["Super Mario Bros. (HVC-SM)", 2],
-            ["Super Mario Bros. (PAL-SM)", 2]
+        "Super Mario Bros.": [
+            ["Super Mario Bros. - 25th Anniversary", 0]
         ],
         "Super Mario Bros. 2": [
             ["Super Mario USA", 2]
