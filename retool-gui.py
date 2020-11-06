@@ -155,9 +155,10 @@ def main():
                 'Use suggested region order for English speakers',
                 enable_events=True,
                 key='button-default-region-order',
-                size=(350,40),
+                size=(320,40),
                 target=(555666777,-1),
-                tooltip='Set a region order that prioritizes English and 60Hz regions. To only select English\ntitles from these regions, you need to select English from the Languages tab.')],
+                tooltip='Set a region order that prioritizes English and 60Hz regions.\nAdd only English in the Languages tab to restrict the output to English titles.')
+            ],
 
         [sg.Column(
                 layout=[
