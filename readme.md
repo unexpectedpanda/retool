@@ -1,12 +1,11 @@
 # Retool
 * [What it does](#what-it-does)
 * [Why not use CLRMAMEPro or Romcenter's 1G1R mode with a parent/clone dat?](#why-not-use-clrmamepro-or-romcenters-1g1r-mode-with-a-parentclone-dat)
-* [Clone lists](#clone-lists)
 * [Installation](#installation)
   * [For those familiar with Git and Python](#for-those-familiar-with-git-and-python)
   * [For Windows users only familiar with graphical interfaces](#for-windows-users-only-familiar-with-graphical-interfaces)
-* [Using the Retool GUI](#using-the-retool-gui)
 * [Using Retool from the command line](#using-retool-from-the-command-line)
+* [Clone lists](#clone-lists)
 * [Clonerel](#clonerel)
 
 
@@ -69,42 +68,6 @@ is already 1G1R, meaning you don't need to select 1G1R mode, regions, or
 languages in your dat manager &mdash; just load the dat and go.
 
 
-## Clone lists
-
-While Retool is smart enough to automatically match certain types of parents and
-clones, there are certain situations that require manual assignment, like when
-a title has a different name in different regions. To achieve this, Retool keeps
-[clone lists](https://github.com/unexpectedpanda/retool/wiki/Clone-lists).
-
-At the time of writing, Retool's clone lists are the most thorough that I know
-of. I manually combed through titles in most dats, and cross referenced them on
-[Wikipedia](https://www.wikipedia.org),
-[Moby Games](https://www.mobygames.com),
-[Retroplace](https://www.retroplace.com), [GameTDB](https://www.gametdb.com),
-[VDGB](https://vgdb.io), [VGM](https://www.video-games-museum.com),
-[YouTube](https://www.youtube.com), [Amazon.jp](https://www.amazon.co.jp),
-[PlayAsia](https://www.play-asia.com/),
-[Sega Retro](https://segaretro.org/), [PSCX2 Wiki](https://wiki.pcsx2.net),
-[PlayStation DataCenter](https://psxdatacenter.com/),
-[The Cutting Room Floor](https://tcrf.net),
-[The World of CDI](https://www.theworldofcdi.com),
-and [Atari Mania](http://www.atarimania.com). I checked out the parent/clone
-dats for No-Intro, and occasionally I went through Redump's site for Japanese,
-Korean, Russian, and Chinese characters for titles, so I could do
-translations and find out what they were called in other languages. When all
-else failed, I did some good old web searching in order to turn up information.
- At some point I discovered
-[FilterQuest](https://github.com/UnluckyForSome/FilterQuest), a similar tool,
-and added some missing titles from there.
-
-Clone lists are updated independently of the program, and are formatted as JSON
-files. They are stored in a subfolder called `clonelists`, which is in the same
-folder as Retool.
-
-You can update them from the GUI using the **File** menu, by running
-`updateclonelists.py`, or by downloading them yourself from this repository.
-
-
 ## Installation
 
 ### For those familiar with Git and Python
@@ -122,40 +85,21 @@ pip install bs4 lxml strictyaml pysimpleguiqt
 Note that on systems that have both Python 2 and 3 installed, you might need
 to run `pip3` instead of `pip`.
 
-#### I'm getting a libxcb error in Linux when using retool-gui.py
-
-Looks like some installs are a bit wonky when it comes to libxcb. This worked
-for me on a fresh install of Ubuntu 20.04:
-
-```
-sudo apt-get install libxcb-randr0-dev libxcb-xtest0-dev libxcb-xinerama0-dev libxcb-shape0-dev libxcb-xkb-dev
-```
-
 ### For Windows users only familiar with graphical interfaces
 Fear not, you can get going in a few steps:
 
-1. Make sure you're connected to the internet for the entire procedure.
-1. Download [Python](https://www.python.org/downloads/) and run the installer.
-1. On the first screen, select **Add Python [version] to PATH**, then click **INSTALL NOW**.
-1. After the installation completes,
-   [download the most recent release of Retool as a ZIP file](https://github.com/unexpectedpanda/retool/archive/master.zip),
-   then extract it to a folder of your choice.
-1. In that folder, double click `install-dependencies.bat`.
-1. When the command line window disappears, double click `retool-gui.py` to
-   run Retool.
+1. Download the [latest binary](https://github.com/unexpectedpanda/retool/raw/master/dist/retool-latest-win-x86-64.zip)
+   for Windows.
+2. Extract the ZIP file to a folder of your choosing.
+3. Double click `retool-gui.exe`. It will show a command prompt window, and then
+   a few seconds later the GUI will load. The startup is a little slow as the
+   bundle has to load the Python interpreter first.
+4. Click **File > Check for clone list updates** to download the latest clone
+   lists and metadata.
 
-From this point onwards, you'll only need to double click `retool-gui.py` to run the
-program.
-
-When opportunity presents, take some time to learn the command line &mdash; it can
-do some pretty cool things.
-
-
-## Using the Retool GUI
-
-Run `retool-gui.py`. It's optimized for Windows at this stage, but will work on
-Ubuntu with a few quirks. As the underlying module (_PySimpleGUIQt_) improves,
-so should the GUI across platforms.
+Don't close the command prompt window as it'll close the GUI as well. It also
+serves a useful purpose &mdash; it shows you the output of the program when
+you're processing a dat file.
 
 
 ## Using Retool from the command line
@@ -237,6 +181,56 @@ they will be included if you select any of their respective languages:
 You can learn more about
 [Retool's options](https://github.com/unexpectedpanda/retool/wiki/Usage-and-options#More-options-information)
 and how it works in the [wiki](https://github.com/unexpectedpanda/retool/wiki/).
+
+### Retool GUI
+You can also run `retool-gui.py` from the command line to load the GUI version,
+where you don't have to deal with the `user-config.yaml` file. It's optimized
+for Windows at this stage, but has been tested successfully on Ubuntu with a
+few layout quirks. As the underlying module (_PySimpleGUIQt_) improves, so
+should the GUI across platforms.
+
+If you get a libxcb error in Linux, this fixed the problem for me in Ubuntu
+20.04:
+
+```
+sudo apt-get install libxcb-randr0-dev libxcb-xtest0-dev libxcb-xinerama0-dev libxcb-shape0-dev libxcb-xkb-dev
+```
+
+
+## Clone lists
+
+While Retool is smart enough to automatically match certain types of parents and
+clones, there are certain situations that require manual assignment, like when
+a title has a different name in different regions. To achieve this, Retool keeps
+[clone lists](https://github.com/unexpectedpanda/retool/wiki/Clone-lists).
+
+At the time of writing, Retool's clone lists are the most thorough that I know
+of. I manually combed through titles in most dats, and cross referenced them on
+[Wikipedia](https://www.wikipedia.org),
+[Moby Games](https://www.mobygames.com),
+[Retroplace](https://www.retroplace.com), [GameTDB](https://www.gametdb.com),
+[VDGB](https://vgdb.io), [VGM](https://www.video-games-museum.com),
+[YouTube](https://www.youtube.com), [Amazon.jp](https://www.amazon.co.jp),
+[PlayAsia](https://www.play-asia.com/),
+[Sega Retro](https://segaretro.org/), [PSCX2 Wiki](https://wiki.pcsx2.net),
+[PlayStation DataCenter](https://psxdatacenter.com/),
+[The Cutting Room Floor](https://tcrf.net),
+[The World of CDI](https://www.theworldofcdi.com),
+and [Atari Mania](http://www.atarimania.com). I checked out the parent/clone
+dats for No-Intro, and occasionally I went through Redump's site for Japanese,
+Korean, Russian, and Chinese characters for titles, so I could do
+translations and find out what they were called in other languages. When all
+else failed, I did some good old web searching in order to turn up information.
+ At some point I discovered
+[FilterQuest](https://github.com/UnluckyForSome/FilterQuest), a similar tool,
+and added some missing titles from there.
+
+Clone lists are updated independently of the program, and are formatted as JSON
+files. They are stored in a subfolder called `clonelists`, which is in the same
+folder as Retool.
+
+You can update them from the GUI using the **File** menu, by running
+`updateclonelists.py`, or by downloading them yourself from this repository.
 
 <hr>
 
