@@ -1,1 +1,0 @@
-pip install bs4 lxml strictyaml pysimpleguiqt
