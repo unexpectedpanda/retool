@@ -17,6 +17,12 @@ def main():
 
     file_count = 0
 
+    # Create folders if they're missing
+    if not os.path.exists(os.path.abspath('clonelists')):
+        os.mkdir('clonelists')
+    if not os.path.exists(os.path.abspath('metadata')):
+        os.mkdir('metadata')
+
     for key, value in json.loads(page).items():
         if os.path.exists(os.path.abspath('clonelists/' + key)) == True:
             hash_md5 = hashlib.md5()
