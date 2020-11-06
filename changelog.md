@@ -1,3 +1,7 @@
+# 0.81
+- Fixed a bug in `retool-gui.py` where the output dat file had ' (-)' in its
+  file name if no options were set.
+
 # 0.80
 - Retool can now handle No-Intro numbered dats.
 - Output dats used to do alphabetical order based on group, which could look
