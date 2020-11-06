@@ -152,11 +152,12 @@ def main():
 
         [
             sg.Button(
-                'Use suggested English region order',
+                'Use suggested region order for English speakers',
                 enable_events=True,
                 key='button-default-region-order',
-                size=(260,40),
-                target=(555666777,-1))],
+                size=(350,40),
+                target=(555666777,-1),
+                tooltip='Set a region order that prioritizes English and 60Hz regions. To only select English\ntitles from these regions, you need to select English from the Languages tab.')],
 
         [sg.Column(
                 layout=[
