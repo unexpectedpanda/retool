@@ -34,21 +34,25 @@ def main():
 
             if hash_md5.hexdigest() != value:
                 file_count += 1
-                print(f'* Found an update for {key}. Downloading...')
+                print(f'* Found an update for {key}. Downloading... ', sep=' ', end='', flush=True)
                 req = urllib.request.Request(f'https://raw.githubusercontent.com/unexpectedpanda/retool/master/clonelists/{urllib.parse.quote(key)}', None, headers)
                 page = get_page(req)
 
                 with open (os.path.abspath('clonelists/' + key), 'wb') as output_file:
                     output_file.write(page)
 
+                print('done.')
+
         else:
             file_count += 1
-            print(f'  * Found a new clone list, {key}. Downloading...')
+            print(f'  * Found a new clone list, {key}. Downloading... ', sep=' ', end='', flush=True)
             req = urllib.request.Request(f'https://raw.githubusercontent.com/unexpectedpanda/retool/master/clonelists/{urllib.parse.quote(key)}', None, headers)
             page = get_page(req)
 
             with open (os.path.abspath('clonelists/' + key), 'wb') as output_file:
                 output_file.write(page)
+
+            print('done.')
 
     print('* Checking online for metadata updates... ')
 
