@@ -1,6 +1,8 @@
 # 0.81
 - Fixed a bug in `retool-gui.py` where the output dat file had ' (-)' in its
   file name if no options were set.
+- Fixed a bug where clone lists and metadata wouldn't download if their
+  respective folders didn't exist.
 
 # 0.80
 - Retool can now handle No-Intro numbered dats.

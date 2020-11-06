@@ -40,57 +40,57 @@ language filter:
 
 # The region order Retool follows. Comment out the regions you don't want.
 region order:
-- USA
-- World
-- Canada
-- UK
-- Australia
-- New Zealand
-- Singapore
-- Ireland
-- Thailand
-- Europe
-- Hong Kong
-- Japan
-- Asia
-- Spain
-- Mexico
-- Argentina
-- Latin America
-- Brazil
-- Portugal
-- France
-- Belgium
-- Netherlands
-- Germany
-- Austria
-- Italy
-- Switzerland
-- China
-- Taiwan
-- Korea
-- Russia
-- Ukraine
-- Poland
-- Denmark
-- Norway
-- Sweden
-- Scandinavia
-- Finland
-- Hungary
-- Czech
-- Greece
-- India
-- South Africa
-- Israel
-- Slovakia
-- Turkey
-- Croatia
-- Slovenia
-- United Arab Emirates
-- Bulgaria
-- Romania
-- Unknown
+# - USA
+# - World
+# - Canada
+# - UK
+# - Australia
+# - New Zealand
+# - Singapore
+# - Ireland
+# - Thailand
+# - Europe
+# - Hong Kong
+# - Japan
+# - Asia
+# - Spain
+# - Mexico
+# - Argentina
+# - Latin America
+# - Brazil
+# - Portugal
+# - France
+# - Belgium
+# - Netherlands
+# - Germany
+# - Austria
+# - Italy
+# - Switzerland
+# - China
+# - Taiwan
+# - Korea
+# - Russia
+# - Ukraine
+# - Poland
+# - Denmark
+# - Norway
+# - Sweden
+# - Scandinavia
+# - Finland
+# - Hungary
+# - Czech
+# - Greece
+# - India
+# - South Africa
+# - Israel
+# - Slovakia
+# - Turkey
+# - Croatia
+# - Slovenia
+# - United Arab Emirates
+# - Bulgaria
+# - Romania
+# - Unknown
 
 # GUI settings only, not used by the CLI.
 gui settings:

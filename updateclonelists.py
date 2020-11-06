@@ -54,7 +54,7 @@ def main():
 
             print('done.')
 
-    print('* Checking online for metadata updates... ')
+    print('\n* Checking online for metadata updates... ')
 
     req = urllib.request.Request('https://raw.githubusercontent.com/unexpectedpanda/retool/master/metadata/hash.json', None, headers)
     page = get_page(req)
@@ -70,21 +70,25 @@ def main():
 
             if hash_md5.hexdigest() != value:
                 file_count += 1
-                print(f'* Found an update for {key}. Downloading...')
+                print(f'* Found an update for {key}. Downloading... ', sep=' ', end='', flush=True)
                 req = urllib.request.Request(f'https://raw.githubusercontent.com/unexpectedpanda/retool/master/metadata/{urllib.parse.quote(key)}', None, headers)
                 page = get_page(req)
 
                 with open (os.path.abspath('metadata/' + key), 'wb') as output_file:
                     output_file.write(page)
 
+                print('done.')
+
         else:
             file_count += 1
-            print(f'  * Found a new metadata file, {key}. Downloading...')
+            print(f'  * Found a new metadata file, {key}. Downloading... ', sep=' ', end='', flush=True)
             req = urllib.request.Request(f'https://raw.githubusercontent.com/unexpectedpanda/retool/master/metadata/{urllib.parse.quote(key)}', None, headers)
             page = get_page(req)
 
             with open (os.path.abspath('metadata/' + key), 'wb') as output_file:
                 output_file.write(page)
+
+            print('done.')
 
     if file_count == 0:
         print('* Done. No new updates are available.')
