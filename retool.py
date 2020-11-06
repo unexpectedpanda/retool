@@ -26,7 +26,7 @@ from modules.xml import dat_to_dict, process_input_dat
 # Require at least Python 3.8
 assert sys.version_info >= (3, 8)
 
-__version__ = '0.80'
+__version__ = '0.81'
 
 def main(gui_input=''):
     # Start a timer from when the process started
@@ -77,6 +77,8 @@ def main(gui_input=''):
         user_input = check_input()
     else:
         user_input = gui_input
+        if user_input.user_options == ' (-)':
+            user_input.user_options = ''
 
     # Import the user-config.yaml file and assign filtered languages and custom
     # region order.
