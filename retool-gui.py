@@ -31,7 +31,7 @@ sg.SetOptions(font=('Segoe UI', 10))
 
 
 def main():
-    __version__ = 0.02
+    __version__ = 0.03
 
     # Generate user config file if it's missing
     generate_config(region_data.languages_long, region_data.region_order, [], False, True)
@@ -49,12 +49,13 @@ def main():
 
         [sg.HorizontalSeparator()],
 
-        generate_checkbox(['Applications', 'Multimedia'], 30, ['Exclude titles with the dat category "Applications"\nor with "(Program)" in the name', 'Exclude titles with the dat category "Multimedia"']),
-        generate_checkbox(['Bad dumps', 'Pirate'], 30, ['Exclude titles with "[b]" in the name', 'Exclude titles with "(Pirate)" in the name']),
-        generate_checkbox(['Compilations with no unique titles', 'Preproduction'], 30, ['Exclude compilations where the titles already\nexist in the dat as single titles', 'Exclude titles with the dat category "Preproduction" or with the\nfollowing text in the name:\n\n* (Alpha [0-99])\n* (Beta [0-99])\n* (Pre-Production)\n* (Proto [0-99])\n* (Review Code)']),
-        generate_checkbox(['Coverdiscs', 'Promotional'], 30, ['Exclude titles with the dat category "Coverdiscs"', 'Exclude titles with the dat category "Promotional" or with the\nfollowing text in the name:\n\n* (Promo)\n* EPK\n* Press Kit']),
-        generate_checkbox(['Demos and samples', 'Unlicensed'], 30, ['Exclude titles with the dat category "Demos" or with the\nfollowing text in the name:\n\n* @barai\n* (Demo [1-9])\n* (Demo-CD)\n* (GameCube Preview)\n* (Preview)\n* Sample\n* Taikenban\n* Trial Edition', 'Exclude titles with "(Unl)" in the name']),
-        generate_checkbox(['Educational'], 30, ['Exclude titles with the dat category "Educational"'])
+        generate_checkbox(['Applications', 'Multimedia'], 30, ['Exclude titles with the dat category "Applications"\nor with "(Program)" in the name', 'Exclude titles with the dat category "Multimedia"\n-- these might include games']),
+        generate_checkbox(['Audio', 'Pirate'], 30, ['Exclude titles with the dat category "Audio"\n-- these might be used in games as soundtracks', 'Exclude titles with "(Pirate)" in the name']),
+        generate_checkbox(['Bad dumps', 'Preproduction'], 30, ['Exclude titles with "[b]" in the name', 'Exclude titles with the dat category "Preproduction" or with the\nfollowing text in the name:\n\n* (Alpha [0-99])\n* (Beta [0-99])\n* (Pre-Production)\n* (Proto [0-99])\n* (Review Code)']),
+        generate_checkbox(['Compilations with no unique titles', 'Promotional'], 30, ['Exclude compilations where the titles already\nexist in the dat as single titles', 'Exclude titles with the dat category "Promotional" or with the\nfollowing text in the name:\n\n* (Promo)\n* EPK\n* Press Kit']),
+        generate_checkbox(['Coverdiscs', 'Unlicensed'], 30, ['Exclude titles with the dat category "Coverdiscs" -- these\nare discs that were included on the front of magazines', 'Exclude titles with "(Unl)" in the name']),
+        generate_checkbox(['Demos and samples', 'Video'], 30, ['Exclude titles with the dat category "Demos" or with the\nfollowing text in the name:\n\n* @barai\n* (Demo [1-9])\n* (Demo-CD)\n* (GameCube Preview)\n* (Preview)\n* Sample\n* Taikenban\n* Trial Edition', 'Exclude titles with the dat category "Video"']),
+        generate_checkbox(['Educational'], 30, ['Exclude titles with the dat category "Educational"']),
     ]
 
     # Modes
@@ -331,6 +332,8 @@ def main():
     if 'd' in settings.user_config.data['gui settings']: window['checkbox-demos-and-samples'].update(True)
     if 'e' in settings.user_config.data['gui settings']: window['checkbox-educational'].update(True)
     if 'f' in settings.user_config.data['gui settings']: window['checkbox-coverdiscs'].update(True)
+    if 'i' in settings.user_config.data['gui settings']: window['checkbox-audio'].update(True)
+    if 'j' in settings.user_config.data['gui settings']: window['checkbox-video'].update(True)
     if 'm' in settings.user_config.data['gui settings']: window['checkbox-multimedia'].update(True)
     if 'n' in settings.user_config.data['gui settings']: window['checkbox-pirate'].update(True)
     if 'p' in settings.user_config.data['gui settings']: window['checkbox-preproduction'].update(True)
@@ -400,6 +403,8 @@ def main():
                     values['checkbox-demos-and-samples'],
                     values['checkbox-educational'],
                     values['checkbox-coverdiscs'],
+                    values['checkbox-audio'],
+                    values['checkbox-video'],
                     values['checkbox-multimedia'],
                     values['checkbox-pirate'],
                     values['checkbox-preproduction'],
@@ -519,6 +524,10 @@ def main():
                 gui_settings.append('e')
             if values['checkbox-coverdiscs'] == True:
                 gui_settings.append('f')
+            if values['checkbox-audio'] == True:
+                gui_settings.append('i')
+            if values['checkbox-video'] == True:
+                gui_settings.append('j')
             if values['checkbox-multimedia'] == True:
                 gui_settings.append('m')
             if values['checkbox-pirate'] == True:

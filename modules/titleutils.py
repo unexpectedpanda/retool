@@ -416,6 +416,16 @@ def choose_cross_region_parents(titles, user_input, dat_numbered, REGEX):
                 elif preprod_title_2 == True and preprod_title_1 == False:
                     if title_2 in parents: parents.remove(title_2)
 
+                # Check to see if titles are unlicensed or not. If so, favour
+                # production titles
+                unl_title_1 = bool(re.search('\(Unl\)', title_1.full_name))
+                unl_title_2 = bool(re.search('\(Unl\)', title_2.full_name))
+
+                if unl_title_1 == True and unl_title_2 == False:
+                    if title_1 in parents: parents.remove(title_1)
+                elif unl_title_2 == True and unl_title_1 == False:
+                    if title_2 in parents: parents.remove(title_2)
+
         for title_1, title_2 in itertools.combinations(parents, 2):
             if (
                 title_1.short_name == title_2.short_name

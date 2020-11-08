@@ -187,7 +187,10 @@ def write_dat_file(input_dat, user_input, output_file_name, stats, titles, dat_n
 
                     progress_old = progress_percent
 
-            final_xml_sort = sorted(final_xml)
+            final_xml_sort = []
+
+            for xml in final_xml:
+                final_xml_sort.append(xml)
 
             for key in final_xml_sort:
                     output_file.writelines(final_xml[key])

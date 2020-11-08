@@ -43,7 +43,7 @@ def check_input():
 
     filter_options.add_argument('-g',
                         action='store_true',
-                        help='enable most filters (-bcdefmrs)')
+                        help='enable most filters (-bcdefirs)')
 
     filter_options.add_argument('-l',
                         action='store_true',
@@ -76,6 +76,14 @@ def check_input():
     filter_options.add_argument('-f',
                         action='store_true',
                         help='exclude coverdiscs')
+
+    filter_options.add_argument('-i',
+                        action='store_true',
+                        help='exclude audio titles')
+
+    filter_options.add_argument('-j',
+                        action='store_true',
+                        help='exclude video titles')
 
     filter_options.add_argument('-m',
                         action='store_true',
@@ -127,7 +135,7 @@ def check_input():
     # Set -g options, and create user options string
     user_options = []
     hidden_options = ['Input', 'g', 'l', 'o', 'q', 'errors', 'log']
-    non_g_options = ['a', 'n', 'p', 'u', 'x']
+    non_g_options = ['a', 'm', 'n', 'p', 'u', 'x']
 
     if args.g == True:
         for arg in vars(args):
@@ -152,6 +160,8 @@ def check_input():
             args.d,
             args.e,
             args.f,
+            args.i,
+            args.j,
             args.m,
             args.n,
             args.p,
