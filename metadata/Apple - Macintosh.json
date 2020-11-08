@@ -3571,5 +3571,86 @@
         "languages": "",
         "version": "",
         "edition": "Covermount"
+    },
+    "Descent - Levels of the World (USA)": {
+        "secondary_name": "",
+        "group_name": "Descent - Levels of the World",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Train Simulator - Chuuou-sen (201-kei) (Japan)": {
+        "secondary_name": "Ｔｒａｉｎ Ｓｉｍｕｌａｔｏｒ 中央線 （２０１系）",
+        "group_name": "Train Simulator - Chuuou-sen",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Train Simulator - Toukaidou Honsen (211-kei) (Japan)": {
+        "secondary_name": "Ｔｒａｉｎ Ｓｉｍｕｌａｔｏｒ 東海道本線 （２１１系）",
+        "group_name": "Train Simulator - Toukaidou Honsen",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Train Simulator - JR Shikoku Vol. 1 (Takamatsu-Kotohira, Takamatsu-Kojima) (Japan)": {
+        "secondary_name": "Ｔｒａｉｎ Ｓｉｍｕｌａｔｏｒ ＪＲ四国① （高松～琴平、高松～児島）",
+        "group_name": "Train Simulator - JR Shikoku Vol. 1",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "CD-ROM MacLife No. 31 (Japan)": {
+        "secondary_name": "",
+        "group_name": "CD-ROM MacLife No. 31",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Covermount"
+    },
+    "CD-ROM MacLife No. 32 (Japan)": {
+        "secondary_name": "",
+        "group_name": "CD-ROM MacLife No. 32",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Covermount"
+    },
+    "CD-ROM MacLife No. 33 (Japan)": {
+        "secondary_name": "",
+        "group_name": "CD-ROM MacLife No. 33",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Covermount"
+    },
+    "CD-ROM MacLife No. 35 (Japan)": {
+        "secondary_name": "",
+        "group_name": "CD-ROM MacLife No. 35",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Covermount"
+    },
+    "CD-ROM MacLife No. 36 (Japan)": {
+        "secondary_name": "",
+        "group_name": "CD-ROM MacLife No. 36",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Covermount"
     }
 }

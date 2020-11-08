@@ -4956,7 +4956,7 @@
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.01",
-        "edition": "Original"
+        "edition": "Original, Dengeki SP"
     },
     "Shutokou Battle 0 (Japan)": {
         "secondary_name": "首都高バトル０",
@@ -5129,12 +5129,12 @@
         "version": "1.00",
         "edition": "Original"
     },
-    "Onimusha - Dawn of Dreams (USA) (En,Ja) (Disc 2)": {
+    "Onimusha - Dawn of Dreams (USA) (Disc 2)": {
         "secondary_name": "",
         "group_name": "Onimusha - Dawn of Dreams",
         "status": "Green",
         "disc_type": "DVD-5",
-        "languages": "En, Ja",
+        "languages": "En",
         "version": "1.02",
         "edition": "Original"
     },
@@ -16881,7 +16881,7 @@
         "disc_type": "DVD-5",
         "languages": "Ko",
         "version": "2.00",
-        "edition": "Original"
+        "edition": "BigHit Series"
     },
     "SuperLite 2000 Vol. 7 - Oekaki Puzzle (Japan)": {
         "secondary_name": "ＳｕｐｅｒＬｉｔｅ　２０００　ｖｏｌ．７　パズルゲーム　おえかきパズル",
@@ -18746,12 +18746,12 @@
         "version": "1.00",
         "edition": "Original"
     },
-    "Onimusha - Dawn of Dreams (USA) (En,Ja) (Disc 1)": {
+    "Onimusha - Dawn of Dreams (USA) (Disc 1)": {
         "secondary_name": "",
         "group_name": "Onimusha - Dawn of Dreams",
         "status": "Green",
         "disc_type": "DVD-5",
-        "languages": "En, Ja",
+        "languages": "En",
         "version": "1.02",
         "edition": "Original"
     },
@@ -20396,18 +20396,18 @@
     "A Ressha de Ikou 2001 (Japan)": {
         "secondary_name": "Ａ列車で行こう２００１",
         "group_name": "A Ressha de Ikou 2001",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.30",
-        "edition": "Original"
+        "edition": "Original, A Ressha de Ikou 2001 Perfect Set (Artdink Best Choice)"
     },
-    "Dynasty Warriors 3 (USA) (En,Ja)": {
+    "Dynasty Warriors 3 (USA)": {
         "secondary_name": "",
         "group_name": "Dynasty Warriors 3",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
-        "languages": "En, Ja",
+        "languages": "En",
         "version": "1.00",
         "edition": "Original"
     },
@@ -32010,7 +32010,7 @@
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "3.00",
-        "edition": "Greatest Hits, The Trilogy, Double Pack Greatest Hits"
+        "edition": "Greatest Hits, Double Pack Greatest Hits"
     },
     "Simple 2000 Series Ultimate Vol. 17 - Taisen! Bakudan Poi Poi (Japan)": {
         "secondary_name": "ＳＩＭＰＬＥ２０００シリーズ　アルティメット Ｖｏｌ．１７　対戦!爆弾ポイポイ",
@@ -38853,7 +38853,7 @@
         "edition": "Original"
     },
     "Generation of Chaos III - Toki no Fuuin (Japan, Asia)": {
-        "secondary_name": "ジェネレーション オブ カオス3 時の封印",
+        "secondary_name": "ジェネレーションオブカオスⅢ　～時の封印～",
         "group_name": "Generation of Chaos III - Toki no Fuuin",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -52868,7 +52868,7 @@
     "Yetisports Arctic Adventures (Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "Yetisports Arctic Adventures",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En, Fr, De, It, Es",
         "version": "1.02",
@@ -53909,12 +53909,12 @@
         "version": "1.00",
         "edition": "Review"
     },
-    "Onimusha - Warlords (USA) (En,Ja)": {
+    "Onimusha - Warlords (USA)": {
         "secondary_name": "",
         "group_name": "Onimusha - Warlords",
         "status": "Green",
         "disc_type": "DVD-5",
-        "languages": "En, Ja",
+        "languages": "En",
         "version": "1.00",
         "edition": "Original, Greatest Hits"
     },
@@ -63888,7 +63888,7 @@
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "1.40",
-        "edition": "Original, Greatest Hits, Double Pack, The Trilogy"
+        "edition": "Original, Greatest Hits, Double Pack"
     },
     "GoldenEye - Agente Corrupto (Spain)": {
         "secondary_name": "",
@@ -65223,7 +65223,7 @@
         "edition": "Original"
     },
     "Idol Janshi Suchie-Pai IV (Japan)": {
-        "secondary_name": "アイドル雀士 スーチーパイＩＶ",
+        "secondary_name": "アイドル雀士　スーチーパイＩＶ",
         "group_name": "Idol Janshi Suchie-Pai IV",
         "status": "Blue",
         "disc_type": "DVD-5",
@@ -69126,7 +69126,7 @@
         "disc_type": "DVD-5",
         "languages": "Ko",
         "version": "1.01",
-        "edition": "Original"
+        "edition": "Original, Jin Samguk Mussang 2 Premium Package"
     },
     "Casper - Spirit Dimensions (Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "",
@@ -74510,9 +74510,9 @@
         "version": "1.01",
         "edition": "Original"
     },
-    "Dot Hack Fragment (Japan)": {
+    "Dot Hack Fraegment (Japan)": {
         "secondary_name": ".hack//frägment",
-        "group_name": "Dot Hack Fragment",
+        "group_name": "Dot Hack Fraegment",
         "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
@@ -81954,7 +81954,7 @@
         "edition": "All in One Pack 2003"
     },
     "Phantasy Star Universe - Illuminus no Yabou (Japan)": {
-        "secondary_name": "ファンタシースターユニバース イルミナスの野望",
+        "secondary_name": "ファンタシースターユニバース　イルミナスの野望",
         "group_name": "Phantasy Star Universe - Illuminus no Yabou",
         "status": "Blue",
         "disc_type": "DVD-5",
@@ -89873,13 +89873,67 @@
         "version": "1.00",
         "edition": "Original"
     },
-    "Dot Hack Fragment (Japan) (Senkou Release-ban)": {
-        "secondary_name": ".hack//frägment",
-        "group_name": "Dot Hack Fragment",
+    "Dot Hack Fraegment (Japan) (Senkou Release-ban)": {
+        "secondary_name": ".hack//frägment　先行リリース版",
+        "group_name": "Dot Hack Fraegment",
         "status": "Blue",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.01",
         "edition": "Senkou Release-ban"
+    },
+    "GT Circuit Breaker (Europe) (Unl)": {
+        "secondary_name": "",
+        "group_name": "GT Circuit Breaker",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "1.30",
+        "edition": "Unlicensed"
+    },
+    "REC - Doki Doki Seiyuu Paradise (Japan)": {
+        "secondary_name": "レック☆ドキドキ声優パラダイス☆",
+        "group_name": "REC - Doki Doki Seiyuu Paradise",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "Ja",
+        "version": "1.01",
+        "edition": "Original"
+    },
+    "Train Kit for A Ressha de Ikou 2001 (Japan)": {
+        "secondary_name": "トレインキット for A列車で行こう2001",
+        "group_name": "Train Kit for A Ressha de Ikou 2001",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "1.20",
+        "edition": "A Ressha de Ikou 2001 Perfect Set (Artdink Best Choice)"
+    },
+    "FIFA Soccer 2005 (Korea)": {
+        "secondary_name": "",
+        "group_name": "FIFA Soccer 2005",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "Ko",
+        "version": "1.01",
+        "edition": "Original"
+    },
+    "Need for Speed - Underground (Korea)": {
+        "secondary_name": "니드포스피드 언더그라운드",
+        "group_name": "Need for Speed - Underground",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "Ko",
+        "version": "1.01",
+        "edition": "BigHit Series"
+    },
+    "Smash Court Pro Tournament 2 (Korea)": {
+        "secondary_name": "스매시코트 프로토너먼트 2",
+        "group_name": "Smash Court Pro Tournament 2",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "Ko",
+        "version": "1.01",
+        "edition": "Original"
     }
 }

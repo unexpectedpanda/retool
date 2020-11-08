@@ -10404,9 +10404,9 @@
         "edition": "Original"
     },
     "RalliSport Challenge (Asia) (En,Fr,De,Es,It)": {
-        "secondary_name": "越野挑戰賽",
+        "secondary_name": "越野挑戰賽 / 랠리스포츠 챌린지",
         "group_name": "RalliSport Challenge",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "En, Fr, De, It, Es",
         "version": "",
@@ -10703,11 +10703,11 @@
     "Halo - Combat Evolved (Asia) (En,Zh)": {
         "secondary_name": "最後一戰",
         "group_name": "Halo - Combat Evolved",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "Zh, En",
         "version": "",
-        "edition": "Bundled with Xbox"
+        "edition": "Original, Bundled with Xbox"
     },
     "NHL Hitz 2003 (Europe)": {
         "secondary_name": "NHL Hitz 20-03",
@@ -16141,7 +16141,7 @@
         "group_name": "True Crime - Streets of LA",
         "status": "Blue",
         "disc_type": "DVD-9",
-        "languages": "Ja",
+        "languages": "",
         "version": "",
         "edition": "Original"
     },
@@ -17495,12 +17495,12 @@
         "version": "",
         "edition": "Original"
     },
-    "World Soccer Winning Eleven 9 (USA)": {
+    "World Soccer Winning Eleven 9 (USA, Asia) (En,Es)": {
         "secondary_name": "",
         "group_name": "World Soccer Winning Eleven 9",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-9",
-        "languages": "",
+        "languages": "En, Es",
         "version": "",
         "edition": "Original"
     },
@@ -22118,6 +22118,24 @@
         "status": "Blue",
         "disc_type": "DVD-9",
         "languages": "Ko",
+        "version": "",
+        "edition": "Original"
+    },
+    "Top Spin (Korea) (En,Fr,De)": {
+        "secondary_name": "탑 스핀",
+        "group_name": "Top Spin",
+        "status": "Blue",
+        "disc_type": "DVD-9",
+        "languages": "En, Fr, De",
+        "version": "",
+        "edition": "Original"
+    },
+    "Harry Potter and the Chamber of Secrets (Asia) (En,Fr,De,Es,It)": {
+        "secondary_name": "哈利波特：消失的密室",
+        "group_name": "Harry Potter and the Chamber of Secrets",
+        "status": "Blue",
+        "disc_type": "DVD-9",
+        "languages": "En, Fr, De, It, Es",
         "version": "",
         "edition": "Original"
     }

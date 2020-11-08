@@ -3,7 +3,7 @@
 		"name": [
 			"Philips - CD-i"
 		],
-		"last updated": "26 October 2020"
+		"last updated": "8 November 2020"
 	},
 
 	"renames": {
@@ -51,6 +51,9 @@
 		"Marco Polo (Disc 2) (The Documentation)": [
 			["Marco Polo (Disc 2) (La Documentation)", 1]
 		],
+		"Paint School I": [
+			["Malarskolan", 1]
+		],
 		"Palm Springs Open, The": [
 			["L'Open de Palm Springs", 1]
 		],
@@ -71,6 +74,9 @@
 		"Thunder in Paradise (Disc 1) (The Game)": [
 			["Caraibes Offshore", 1],
 			["Thunder in Paradise", 1]
+		],
+		"Tim et Ted a l'Aeroport": [
+			["Tim & Beer op het Vliegveld", 1]
 		],
 		"Time Life Presents - 35mm Photography": [
 			["Time Life Presenta - La Fotografia in 35mm", 1],
