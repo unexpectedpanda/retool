@@ -69896,7 +69896,7 @@
     "Crash Bash (USA) (Demo)": {
         "secondary_name": "",
         "group_name": "Crash Bash",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -93494,7 +93494,7 @@
     "Simulation RPG Tkool (Japan) (Enterbrain Collection)": {
         "secondary_name": "シミュレーションＲＰＧツクール",
         "group_name": "Simulation RPG Tkool",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -93949,5 +93949,32 @@
         "languages": "Ja",
         "version": "",
         "edition": "Original"
+    },
+    "Equalizer Xtreme Ver 4.0 (Europe) (Unl)": {
+        "secondary_name": "",
+        "group_name": "Equalizer Xtreme Ver 4.0",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Unlicensed"
+    },
+    "Battle Master (Japan)": {
+        "secondary_name": "バトル・マスター",
+        "group_name": "Battle Master",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Marl Jong!! (Japan) (Genteiban)": {
+        "secondary_name": "マールじゃん！！",
+        "group_name": "Marl Jong!!",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Genteiban"
     }
 }

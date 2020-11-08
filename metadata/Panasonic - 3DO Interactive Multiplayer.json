@@ -1289,7 +1289,7 @@
     "Puppet Tale (Japan)": {
         "secondary_name": "パペット・テイル",
         "group_name": "Puppet Tale",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -2207,7 +2207,7 @@
     "Hirata Shougo Interactive Ehon - Sanbiki no Kobuta (Japan) (En,Ja,Fr)": {
         "secondary_name": "平田昭吾　インタラクティブ絵本　「三びきのこぶた」",
         "group_name": "Hirata Shougo Interactive Ehon - Sanbiki no Kobuta",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En, Fr, Ja",
         "version": "",
@@ -3638,7 +3638,7 @@
     "Gakkou no Kowai Uwasa - Hanako-san ga Kita!! (Japan)": {
         "secondary_name": "学校のコワイうわさ　花子さんがきた！！",
         "group_name": "Gakkou no Kowai Uwasa - Hanako-san ga Kita!!",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -3674,7 +3674,7 @@
     "Nontan to Issho - Nohara de Asobo (Japan)": {
         "secondary_name": "ノンタンといっしょ　のはらであそぼ",
         "group_name": "Nontan to Issho - Nohara de Asobo",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -4421,7 +4421,7 @@
     "Hirata Shougo Interactive Ehon - Shirayukihime (Japan) (En,Ja,Fr)": {
         "secondary_name": "平田昭吾　インタラクティブ絵本　「しらゆきひめ」",
         "group_name": "Hirata Shougo Interactive Ehon - Shirayukihime",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En, Fr, Ja",
         "version": "",
@@ -4772,6 +4772,42 @@
     "PGA Tour 96 (Europe)": {
         "secondary_name": "",
         "group_name": "PGA Tour 96",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Cyberia (Europe)": {
+        "secondary_name": "",
+        "group_name": "Cyberia",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Road Rash (Europe) (Rev 1)": {
+        "secondary_name": "",
+        "group_name": "Road Rash",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "Rev 1",
+        "edition": "Original"
+    },
+    "Theme Park (Germany)": {
+        "secondary_name": "",
+        "group_name": "Theme Park",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "De",
+        "version": "",
+        "edition": "Original"
+    },
+    "Wicked 18 (USA)": {
+        "secondary_name": "",
+        "group_name": "Wicked 18",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "En",

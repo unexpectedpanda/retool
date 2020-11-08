@@ -3,7 +3,7 @@
 		"name": [
 			"IBM - PC compatible"
 		],
-		"last updated": "31 October 2020"
+		"last updated": "8 November 2020"
 	},
 
 	"compilations": [
@@ -1695,6 +1695,12 @@
 		],
 		"Disney's Winnie the Pooh - Preschool": [
 			["Disney Winnie the Pooh - Prescolare", 1]
+		],
+		"Disney - Pixar Ratatouille (Disc 1)": [
+			["Disney-Pixar Ratatouille", 0]
+		],
+		"Disney - Pixar Ratatouille (Disc 2)": [
+			["Disney-Pixar Ratatouille", 0]
 		],
 		"Disney-Pixar Buzz Lightyear of Star Command": [
 			["Disney-Pixar Captain Buzz Lightyear - Star Command", 1]

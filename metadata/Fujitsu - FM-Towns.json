@@ -992,7 +992,7 @@
     "Loom (Japan)": {
         "secondary_name": "",
         "group_name": "Loom",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -1919,10 +1919,10 @@
     "Final Blow (Japan)": {
         "secondary_name": "ファイナル・ブロー",
         "group_name": "Final Blow",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
-        "version": "",
+        "version": "0.1",
         "edition": "Ving Vol. 2"
     },
     "Microsoft Windows Version 3.1 L11 Operating System (Japan) (Setup CD-ROM)": {
@@ -4003,5 +4003,167 @@
         "languages": "Ja",
         "version": "",
         "edition": "CD-ROM-ban"
+    },
+    "CyberCity - The Golden Age of Cybernetics (Japan)": {
+        "secondary_name": "サイバーシティ",
+        "group_name": "CyberCity - The Golden Age of Cybernetics",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Original"
+    },
+    "Cyber Motion (Japan)": {
+        "secondary_name": "サイバー・モーションＶ１．０",
+        "group_name": "Cyber Motion",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "FM Towns Soft Collection Tool-hen Vol. 3"
+    },
+    "DOR SE (Special Edition) Sakigake - Battle Hold in Ashikaga Kougyou Koukou (Japan)": {
+        "secondary_name": "ドアＳＥ魁　－ＢＡＴＴＬＥ　ＨＯＬＤ　ｉｎ　足加賀興行高校－",
+        "group_name": "DOR SE",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Atlas II, The (Japan)": {
+        "secondary_name": "",
+        "group_name": "Atlas II, The",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Lemmings 2 - The Tribes (Japan)": {
+        "secondary_name": "レミングス２",
+        "group_name": "Lemmings 2 - The Tribes",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "FM Towns Soft Collection Kaigai-hen Vol. 40"
+    },
+    "LibbleRabble (Japan)": {
+        "secondary_name": "リブルラブル",
+        "group_name": "LibbleRabble",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Bundled with XPD-1LR Controller"
+    },
+    "Metal Eye (Japan)": {
+        "secondary_name": "メタル・アイ",
+        "group_name": "Metal Eye",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "My Eyes! (Japan)": {
+        "secondary_name": "",
+        "group_name": "My Eyes!",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Mirrors (Japan)": {
+        "secondary_name": "ミラーズ",
+        "group_name": "Mirrors",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Populous II - Trials of the Olympian Gods - Expert (Japan)": {
+        "secondary_name": "ポピュラス２　エキスパート",
+        "group_name": "Populous II - Trials of the Olympian Gods - Expert",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Prince of Persia 2 - The Shadow & The Flame (Japan)": {
+        "secondary_name": "プリンス・オブ・ペルシャ２",
+        "group_name": "Prince of Persia 2 - The Shadow & The Flame",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Nihongo-ban"
+    },
+    "Rainbow Islands - The Story of Bubble Bobble 2 - Extra Version (Japan)": {
+        "secondary_name": "レインボー・アイランド　－ＥＸＴＲＡ－",
+        "group_name": "Rainbow Islands - The Story of Bubble Bobble 2 - Extra Version",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Ving Vol. 12"
+    },
+    "Sayaka + Miho (Japan)": {
+        "secondary_name": "沙也香／美穂",
+        "group_name": "Sayaka + Miho",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Tokio - Tokyo-to Dai-24-ku (Japan)": {
+        "secondary_name": "トキオ　～東京都第２４区～",
+        "group_name": "Tokio - Tokyo-to Dai-24-ku",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Vampire High School (Japan)": {
+        "secondary_name": "バンパイアハイすくーる",
+        "group_name": "Vampire High School",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Wing Commander II - Vengeance of the Kilrathi - Special Operations 1 & Special Operations 2 (Japan)": {
+        "secondary_name": "ウイング・コマンダーⅡ　～キルラーの逆襲～",
+        "group_name": "Wing Commander II - Vengeance of the Kilrathi - Special Operations 1 & Special Operations 2",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "FM Towns Soft Collection Kaigai-hen Vol. 49"
+    },
+    "W W - Words Worth (Japan)": {
+        "secondary_name": "ワーズ・ワース",
+        "group_name": "W W - Words Worth",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Terra Towns (Japan)": {
+        "secondary_name": "テラＴＯＷＮＳ",
+        "group_name": "Terra Towns",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
     }
 }

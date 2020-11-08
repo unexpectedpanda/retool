@@ -17,7 +17,7 @@
         "version": "1.06",
         "edition": "Original"
     },
-    "CD-Online - Issue 01 - Internet on TV (Europe)": {
+    "CD-Online - Issue 01 - Internet on TV (UK)": {
         "secondary_name": "",
         "group_name": "CD-Online - Issue 01 - Internet on TV",
         "status": "Blue",
@@ -353,7 +353,7 @@
     "Internetten op je TV! (Netherlands)": {
         "secondary_name": "",
         "group_name": "Internetten op je TV!",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Nl",
         "version": "",
@@ -2826,9 +2826,9 @@
         "edition": "Original"
     },
     "Language Director - Guided Tour - English Level 1 (Europe)": {
-        "secondary_name": "Language Director: Guided Tour: English Level 2",
+        "secondary_name": "",
         "group_name": "Language Director - Guided Tour - English Level 1",
-        "status": "Green",
+        "status": "Blue",
         "disc_type": "CD",
         "languages": "",
         "version": "",
@@ -3229,5 +3229,104 @@
         "languages": "",
         "version": "",
         "edition": "Original"
+    },
+    "Les Schtroumpfs - Le Teleportaschtroumpf (France)": {
+        "secondary_name": "",
+        "group_name": "Les Schtroumpfs - Le Teleportaschtroumpf",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Fr",
+        "version": "",
+        "edition": "Original"
+    },
+    "Posse (USA) (Disc 1)": {
+        "secondary_name": "",
+        "group_name": "Posse",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Original"
+    },
+    "Posse (USA) (Disc 2)": {
+        "secondary_name": "",
+        "group_name": "Posse",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Original"
+    },
+    "Time Life Photography (Europe)": {
+        "secondary_name": "",
+        "group_name": "Time Life Photography",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Not for Resale"
+    },
+    "USA '94 World Cup (Europe)": {
+        "secondary_name": "",
+        "group_name": "USA '94 World Cup",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Original"
+    },
+    "Child is Born, A (USA)": {
+        "secondary_name": "",
+        "group_name": "Child is Born, A",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "CD Shoot (USA)": {
+        "secondary_name": "",
+        "group_name": "CD Shoot",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Original: Longbox"
+    },
+    "Christmas Crisis (Europe)": {
+        "secondary_name": "",
+        "group_name": "Christmas Crisis",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Original"
+    },
+    "Nationale Muziekkado 1995, Het (Netherlands)": {
+        "secondary_name": "",
+        "group_name": "Nationale Muziekkado 1995, Het",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Nl",
+        "version": "",
+        "edition": "Original"
+    },
+    "Mother Goose - Hidden Pictures (USA)": {
+        "secondary_name": "",
+        "group_name": "Mother Goose - Hidden Pictures",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original: Jewelcase"
+    },
+    "Palm Springs Open, The (USA)": {
+        "secondary_name": "",
+        "group_name": "Palm Springs Open, The",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Original: Longbox"
     }
 }
