@@ -1,3 +1,12 @@
+# 0.82
+- (Unl) titles in a higher region are now demoted below equivalent
+  production titles in other regions.
+- You can now exclude by the "Audio" nad "Video" categories.
+- Removed Multimedia from the `-g` option as the category might contain games.
+- Made clear that the Multimedia category might include games in the GUI.
+- Explained what a coverdisc is in the GUI.
+- Fixed a natural sort bug in the alphabetical ordering of output dats.
+
 # 0.81
 - Fixed a bug in `retool-gui.py` where the output dat file had ' (-)' in its
   file name if no options were set.

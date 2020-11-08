@@ -454,10 +454,11 @@ class UserInput:
     def __init__(self, input_file_name='', output_folder_name='',
                  no_applications='', no_bad_dumps='', no_compilations='',
                  no_demos='', no_educational='', no_coverdiscs='',
-                 no_multimedia='', no_pirate='', no_preproduction='',
-                 no_promotional='', no_unlicensed='',
-                 supersets='', filter_languages='', legacy='',
-                 user_options='', verbose='', keep_remove=''):
+                 no_audio='', no_video='', no_multimedia='',
+                 no_pirate='', no_preproduction='', no_promotional='',
+                 no_unlicensed='', supersets='', filter_languages='',
+                 legacy='', user_options='', verbose='',
+                 keep_remove=''):
         self.input_file_name = input_file_name
         self.output_folder_name = output_folder_name
 
@@ -467,6 +468,8 @@ class UserInput:
         self.no_demos = no_demos
         self.no_educational = no_educational
         self.no_coverdiscs = no_coverdiscs
+        self.no_audio = no_audio
+        self.no_video = no_video
         self.no_multimedia = no_multimedia
         self.no_pirate = no_pirate
         self.no_preproduction = no_preproduction
