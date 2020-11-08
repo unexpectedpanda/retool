@@ -1,7 +1,7 @@
 # 0.82
 - (Unl) titles in a higher region are now demoted below equivalent
   production titles in other regions.
-- You can now exclude by the "Audio" nad "Video" categories.
+- You can now exclude by the "Audio" and "Video" categories.
 - Removed Multimedia from the `-g` option as the category might contain games.
 - Made clear that the Multimedia category might include games in the GUI.
 - Explained what a coverdisc is in the GUI.
