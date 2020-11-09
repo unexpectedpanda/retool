@@ -2,7 +2,7 @@
 * [What it does](#what-it-does)
 * [Why not use CLRMAMEPro or Romcenter's 1G1R mode with a parent/clone dat?](#why-not-use-clrmamepro-or-romcenters-1g1r-mode-with-a-parentclone-dat)
 * [Download and installation](#download-and-installation)
-  * [For Windows users who are only familiar with graphical interfaces](#for-windows-users-who-are-only-familiar-with-graphical-interfaces)
+  * [For Windows users only familiar with graphical interfaces](#for-windows-users-only-familiar-with-graphical-interfaces)
   * [For those familiar with Git and Python](#for-those-familiar-with-git-and-python)
 * [Using Retool from the command line](#using-retool-from-the-command-line)
 * [Clone lists](#clone-lists)
@@ -75,7 +75,7 @@ languages in your dat manager &mdash; just load the dat and go.
 How you download and install Retool will depend on your level of comfort with
 code.
 
-### For Windows users who are only familiar with graphical interfaces
+### For Windows users only familiar with graphical interfaces
 You can get going in a few easy steps:
 
 1. Download the [latest binary](https://github.com/unexpectedpanda/retool/raw/master/dist/retool-latest-win-x86-64.zip)
