@@ -1,9 +1,9 @@
 # Retool
 * [What it does](#what-it-does)
 * [Why not use CLRMAMEPro or Romcenter's 1G1R mode with a parent/clone dat?](#why-not-use-clrmamepro-or-romcenters-1g1r-mode-with-a-parentclone-dat)
-* [Installation](#installation)
+* [Download and installation](#download-and-installation)
+  * [For Windows users who are only familiar with graphical interfaces](#for-windows-users-who-are-only-familiar-with-graphical-interfaces)
   * [For those familiar with Git and Python](#for-those-familiar-with-git-and-python)
-  * [For Windows users only familiar with graphical interfaces](#for-windows-users-only-familiar-with-graphical-interfaces)
 * [Using Retool from the command line](#using-retool-from-the-command-line)
 * [Clone lists](#clone-lists)
 * [Clonerel](#clonerel)
@@ -27,7 +27,8 @@ their 1G1R modes, as Retool will have already done the work for you.
 
 The short version:
 
-They don't do a great job of picking canonical 1G1R titles.
+Dat managers don't do a great job of picking canonical 1G1R titles, and No-Intro
+often misses clones in their dats.
 
 The long version:
 
@@ -61,32 +62,21 @@ times? Which title does the dat manager choose then?
 Retool figures this out for you. It even identifies the languages of each title
 by using multiple sources &mdash; the implied language spoken in the region the
 title is from, languages explicitly listed in the title's filename, and
-languages listed on Redump's website, which aren't always included in filenames.
+languages listed on Redump's website, which aren't always included in the
+filenames.
 
 After you set up the GUI or `user-config.yaml` to your liking, Retool's output
 is already 1G1R, meaning you don't need to select 1G1R mode, regions, or
 languages in your dat manager &mdash; just load the dat and go.
 
 
-## Installation
+## Download and installation
 
-### For those familiar with Git and Python
-Clone Retool from this repo and run it with
-[Python](https://www.python.org/). Retool requires a minimum of Python 3.8,
-and needs additional modules to be installed.
+How you download and install Retool will depend on your level of comfort with
+code.
 
-To install the modules, assuming you already have Python installed, open
-Terminal, Command Prompt, or whatever the CLI is on your system, and type:
-
-```shell
-pip install bs4 lxml strictyaml pysimpleguiqt
-```
-
-Note that on systems that have both Python 2 and 3 installed, you might need
-to run `pip3` instead of `pip`.
-
-### For Windows users only familiar with graphical interfaces
-Fear not, you can get going in a few steps:
+### For Windows users who are only familiar with graphical interfaces
+You can get going in a few easy steps:
 
 1. Download the [latest binary](https://github.com/unexpectedpanda/retool/raw/master/dist/retool-latest-win-x86-64.zip)
    for Windows.
@@ -100,6 +90,21 @@ Fear not, you can get going in a few steps:
 Don't close the command prompt window as it'll close the GUI as well. It also
 serves a useful purpose &mdash; it shows you the output of the program when
 you're processing a dat file.
+
+### For those familiar with Git and Python
+Clone Retool from this repo and run it with
+[Python](https://www.python.org/). Retool requires a minimum of Python 3.8,
+and needs additional modules to be installed.
+
+To install the modules, assuming you already have Python installed, open
+Terminal, Command Prompt, or whatever the CLI is on your system, and type:
+
+```shell
+pip install bs4 lxml strictyaml pysimpleguiqt
+```
+
+On systems that have both Python 2 and 3 installed, you might need to run `pip3`
+instead of `pip`.
 
 
 ## Using Retool from the command line
@@ -115,8 +120,8 @@ Retool uses the following syntax:
 python retool.py <input dat/folder> <options>
 ```
 
-Note that on systems that have both Python 2 and 3 installed, you might need
-to run `python3` instead of `python`.
+On systems that have both Python 2 and 3 installed, you might need to run
+`python3` instead of `python`.
 
 Alternatively, your system might be configured to run the py file directly:
 
@@ -171,8 +176,10 @@ they will be included if you select any of their respective languages:
 * `-c` Exclude compilations with no unique titles
 * `-d` Exclude demos and samples
 * `-e` Exclude educational titles
-* `-f` Exclude coverdiscs
-* `-m` Exclude multimedia titles
+* `-f` Exclude coverdiscs (discs attached to the front of magazines)
+* `-i` Exclude audio titles (these might be used as soundtracks for games)
+* `-j` Exclude video titles
+* `-m` Exclude multimedia titles (these might include games)
 * `-n` Exclude pirate titles
 * `-p` Exclude preproduction titles (alphas, betas, prototypes)
 * `-r` Exclude promotional titles

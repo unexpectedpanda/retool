@@ -1,3 +1,9 @@
+# 0.83
+- Accidentally uploaded the wrong `user-config.yaml`, where all regions were
+  commented out. This resulted in the CLI version of Retool finding no clones.
+  This has now been fixed.
+- Some code clean up and extra explanation on some options.
+
 # 0.82
 - (Unl) titles in a higher region are now demoted below equivalent
   production titles in other regions.
