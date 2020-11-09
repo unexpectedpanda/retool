@@ -50,10 +50,10 @@ def main():
         [sg.HorizontalSeparator()],
 
         generate_checkbox(['Applications', 'Multimedia'], 30, ['Exclude titles with the dat category "Applications"\nor with "(Program)" in the name', 'Exclude titles with the dat category "Multimedia"\n-- these might include games']),
-        generate_checkbox(['Audio', 'Pirate'], 30, ['Exclude titles with the dat category "Audio"\n-- these might be used in games as soundtracks', 'Exclude titles with "(Pirate)" in the name']),
+        generate_checkbox(['Audio', 'Pirate'], 30, ['Exclude titles with the dat category "Audio"\n-- these might be used as soundtracks by games', 'Exclude titles with "(Pirate)" in the name']),
         generate_checkbox(['Bad dumps', 'Preproduction'], 30, ['Exclude titles with "[b]" in the name', 'Exclude titles with the dat category "Preproduction" or with the\nfollowing text in the name:\n\n* (Alpha [0-99])\n* (Beta [0-99])\n* (Pre-Production)\n* (Proto [0-99])\n* (Review Code)']),
         generate_checkbox(['Compilations with no unique titles', 'Promotional'], 30, ['Exclude compilations where the titles already\nexist in the dat as single titles', 'Exclude titles with the dat category "Promotional" or with the\nfollowing text in the name:\n\n* (Promo)\n* EPK\n* Press Kit']),
-        generate_checkbox(['Coverdiscs', 'Unlicensed'], 30, ['Exclude titles with the dat category "Coverdiscs" -- these\nare discs that were included on the front of magazines', 'Exclude titles with "(Unl)" in the name']),
+        generate_checkbox(['Coverdiscs', 'Unlicensed'], 30, ['Exclude titles with the dat category "Coverdiscs" -- these\nare discs that were attached to the front of magazines', 'Exclude titles with "(Unl)" in the name']),
         generate_checkbox(['Demos and samples', 'Video'], 30, ['Exclude titles with the dat category "Demos" or with the\nfollowing text in the name:\n\n* @barai\n* (Demo [1-9])\n* (Demo-CD)\n* (GameCube Preview)\n* (Preview)\n* Sample\n* Taikenban\n* Trial Edition', 'Exclude titles with the dat category "Video"']),
         generate_checkbox(['Educational'], 30, ['Exclude titles with the dat category "Educational"']),
     ]

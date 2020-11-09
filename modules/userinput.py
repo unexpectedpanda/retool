@@ -15,7 +15,6 @@ def check_input():
         allow_abbrev=False,
         formatter_class=SmartFormatter)
 
-    # unique_group = parser.add_mutually_exclusive_group(required=False)
     dev_options = parser.add_argument_group('dev options')
     filter_options = parser.add_argument_group('filter options')
 
@@ -75,11 +74,11 @@ def check_input():
 
     filter_options.add_argument('-f',
                         action='store_true',
-                        help='exclude coverdiscs')
+                        help='exclude coverdiscs (discs attached to the front of magazines)')
 
     filter_options.add_argument('-i',
                         action='store_true',
-                        help='exclude audio titles')
+                        help='exclude audio titles (these might be used as soundtracks by games)')
 
     filter_options.add_argument('-j',
                         action='store_true',
@@ -87,7 +86,7 @@ def check_input():
 
     filter_options.add_argument('-m',
                         action='store_true',
-                        help='exclude multimedia titles')
+                        help='exclude multimedia titles (these might include games)')
 
     filter_options.add_argument('-n',
                         action='store_true',
