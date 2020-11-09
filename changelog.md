@@ -1,7 +1,7 @@
 # 0.83
 - Accidentally uploaded the wrong `user-config.yaml`, where all regions were
-  commented out. This resulted in the CLI version of Retool finding no clones.
-  This has now been fixed.
+  commented out. This resulted in the CLI version of Retool finding no clones
+  unless manually edited by the user. This has now been fixed.
 - Some code clean up and extra explanation on some options.
 
 # 0.82
