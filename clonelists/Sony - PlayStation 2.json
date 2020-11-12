@@ -3,7 +3,7 @@
         "name": [
 			["Sony - PlayStation 2", 1]
 		],
-        "last updated": "8 November 2020"
+        "last updated": "12 November 2020"
     },
 
     "compilations": [
@@ -1536,8 +1536,11 @@
 		"Mega Man X8": [
 			["Rockman X8", 1]
 		],
-		"SuperLite 2000 Vol. 33 - Memories Off - Sorekara": [
-			["Memories Off - Sorekara", 1]
+		"Memories Off": [
+			["SuperLite 2000 Vol. 22 - Memories Off Duet", -1]
+		],
+		"Memories Off - Sorekara": [
+			["SuperLite 2000 Vol. 33 - Memories Off - Sorekara", 2]
 		],
 		"Memories Off - After Rain Vol. 1 - Orizuru (Special Edition)": [
 			["SuperLite 2000 Vol. 37 - Memories Off - After Rain Vol. 1 - Orizuru", 2],
@@ -1715,7 +1718,7 @@
 			["Network Adaptor Start-Up Disc v2.0 (Rev)", 1]
 		],
 		"Never 7 - The End of Infinity": [
-			["SuperLite 2000 Vol. 23 - Never 7 - The End of Infinity", 1]
+			["SuperLite 2000 Vol. 23 - Never 7 - The End of Infinity", 2]
 		],
 		"Nickelodeon Avatar - The Last Airbender": [
 			["Nickelodeon Avatar - The Legend of Aang", 1]
@@ -2024,8 +2027,8 @@
 		"Reel Fishing III": [
 			["Fish Eyes 3 - Kioku no Hahentachi", 1]
 		],
-		"SuperLite 2000 Vol. 31 - Remember11 - The Age of Infinity": [
-			["Remember11 - The Age of Infinity", 2]
+		"Remember11 - The Age of Infinity": [
+			["SuperLite 2000 Vol. 31 - Remember11 - The Age of Infinity", 2]
 		],
 		"Resident Evil - Code - Veronica X": [
 			["Biohazard - Code - Veronica Kanzenban", 1]
@@ -2411,9 +2414,6 @@
 		],
 		"Super Dragon Ball Z": [
 			["Chou Dragon Ball Z", 1]
-		],
-		"SuperLite 2000 Vol. 22 - Memories Off Duet": [
-			["Memories Off", 1]
 		],
 		"Surfing H3O": [
 			["Surfroid - Densetsu no Surfer", 1]
