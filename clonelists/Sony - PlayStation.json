@@ -3,7 +3,7 @@
         "name": [
 			"Sony - PlayStation"
 		],
-        "last updated": "31 October 2020"
+        "last updated": "12 November 2020"
     },
 
     "overrides": {
@@ -137,6 +137,12 @@
 		],
 		"Aces of the Air": [
 			["Simple 1500 Series Vol. 95 - The Hikouki", 1]
+		],
+		"Advanced V.G.": [
+			["SuperLite 1500 Series - Advanced V.G.", 2]
+		],
+		"Advanced V.G. 2": [
+			["SuperLite 1500 Series - Advanced V.G. 2", 2]
 		],
 		"Adventures of Lomax, The": [
 			["Lomax", 1]
@@ -1147,6 +1153,9 @@
 		"Freestyle Boardin' '99": [
 			["Phat Air - Extreme Snowboarding", 1]
 		],
+		"Front Mission 1st (Front Mission History)": [
+			["Front Mission 1st", 1]
+		],
 		"Front Mission 2 (Front Mission History)": [
 			["Front Mission 2", 1]
 		],
@@ -1206,6 +1215,9 @@
 		"Gran Turismo 2 (Simulation Mode)": [
 			["Gran Turismo 2 (Disc 2) (Gran Turismo Mode)", 1],
 			["Gran Turismo 2 (Disc 2) (Gran Turismo)", 1]
+		],
+		"Grand Theft Auto": [
+			["G.T.A - Grand Theft Auto", 1]
 		],
 		"Grand Theft Auto - London 1969": [
 			["Grand Theft Auto - Mission Pack 1 - London 1969", 2]
@@ -2609,6 +2621,9 @@
 			["UEFA Champions League - Saison 1998-99", 1],
 			["UEFA Champions League - Stagione 1998-99", 1],
 			["UEFA Champions League - Temporada 1998-99", 1]
+		],
+		"Uki Uki Tsuri Tengoku - Ningyo Densetsu no Nazo (Dual Shock Edition)": [
+			["Uki Uki Tsuri Tengoku - Ningyo Densetsu no Nazo", 1]
 		],
 		"Ultimate 8 Ball": [
 			["Actua Pool", 1],
