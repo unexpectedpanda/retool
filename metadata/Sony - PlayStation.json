@@ -5307,7 +5307,7 @@
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
-        "edition": "Original"
+        "edition": "Original, Saihatsuban"
     },
     "Super Robot Taisen F Kanketsuhen (Japan)": {
         "secondary_name": "スーパーロボット大戦F 完結編",
@@ -7526,7 +7526,7 @@
     "Langrisser I & II (Japan) (Shokai Gentei Special Package)": {
         "secondary_name": "ラングリッサー　Ｉ＆ＩＩ",
         "group_name": "Langrisser I & II",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -10730,7 +10730,7 @@
     "Army Men - World War (USA)": {
         "secondary_name": "",
         "group_name": "Army Men - World War",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -12500,10 +12500,10 @@
         "version": "",
         "edition": "Original"
     },
-    "Drug Store, The - MatsumotoKiyoshi de Okaimono! (Japan) (Major Wave)": {
-        "secondary_name": "ザ・ドラッグストア ～マツモトキヨシでお買い物！～",
-        "group_name": "Drug Store, The - MatsumotoKiyoshi de Okaimono!",
-        "status": "Blue",
+    "Drug Store, The (Japan)": {
+        "secondary_name": "ザ・ドラッグストア",
+        "group_name": "Drug Store, The",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -17417,7 +17417,7 @@
     "Lagnacure (Japan, Asia)": {
         "secondary_name": "ラグナキュール",
         "group_name": "Lagnacure",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -19352,7 +19352,7 @@
     "Big Challenge Golf - Tokyo Yomiuri Country Club-hen (Japan)": {
         "secondary_name": "Big Challenge Golf　～東京よみうりカントリークラブ編～",
         "group_name": "Big Challenge Golf - Tokyo Yomiuri Country Club-hen",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -50528,7 +50528,7 @@
     "Dancing Blade Katte ni Momotenshi II - Tears of Eden (Japan) (Disc 2)": {
         "secondary_name": "dancing blade かってに桃天使II ～Tears of Eden～",
         "group_name": "Dancing Blade Katte ni Momotenshi II - Tears of Eden",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -53093,7 +53093,7 @@
     "Dancing Blade Katte ni Momotenshi II - Tears of Eden (Japan) (Disc 1)": {
         "secondary_name": "dancing blade かってに桃天使II ～Tears of Eden～",
         "group_name": "Dancing Blade Katte ni Momotenshi II - Tears of Eden",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -60023,7 +60023,7 @@
     "Kenkaku Ibunroku - Yomigaerishi Souku no Yaiba - Samurai Spirits Shinshou (Japan) (Demo)": {
         "secondary_name": "剣客異聞録　甦りし蒼紅の刃　サムライスピリッツ新章",
         "group_name": "Kenkaku Ibunroku - Yomigaerishi Souku no Yaiba - Samurai Spirits Shinshou",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -64163,7 +64163,7 @@
     "Command & Conquer - Alerte Rouge - Mission Tesla (France) (Disc 1) (Allies)": {
         "secondary_name": "",
         "group_name": "Command & Conquer - Alerte Rouge - Mission Tesla",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Fr",
         "version": "",
@@ -73550,7 +73550,7 @@
     "Dancing Blade Katte ni Momotenshi II - Tears of Eden (Japan) (Disc 3)": {
         "secondary_name": "dancing blade かってに桃天使II ～Tears of Eden～",
         "group_name": "Dancing Blade Katte ni Momotenshi II - Tears of Eden",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -75809,7 +75809,7 @@
     "U.S. Navy Fighters (Japan)": {
         "secondary_name": "Ｕ．Ｓ．ネイビー・ファイターズ",
         "group_name": "U.S. Navy Fighters",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -87338,7 +87338,7 @@
     "Deep, The - Ushinawareta Shinkai (Japan)": {
         "secondary_name": "ＴＨＥ ＤＥＥＰ 　失われた深海",
         "group_name": "Deep, The - Ushinawareta Shinkai",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -89513,10 +89513,10 @@
         "version": "",
         "edition": "Original"
     },
-    "Go II Professional Taikyoku Igo (Japan)": {
-        "secondary_name": "対局囲碁　ＧＯ２　プロフェッショナル",
-        "group_name": "Go II Professional Taikyoku Igo",
-        "status": "Blue",
+    "Go II Professional - Taikyoku Igo (Japan)": {
+        "secondary_name": "ＧＯ２　プロフェッショナル　対局囲碁",
+        "group_name": "Go II Professional - Taikyoku Igo",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -93458,7 +93458,7 @@
     "Twisted Metal 4 (USA)": {
         "secondary_name": "",
         "group_name": "Twisted Metal 4",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -93976,5 +93976,14 @@
         "languages": "Ja",
         "version": "",
         "edition": "Genteiban"
+    },
+    "LEGO Island 2 - The Brickster's Revenge (Norway)": {
+        "secondary_name": "",
+        "group_name": "LEGO Island 2 - The Brickster's Revenge",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "No",
+        "version": "",
+        "edition": "Original"
     }
 }

@@ -8118,7 +8118,7 @@
         "edition": "Original"
     },
     "Final Fantasy XI - Adoulin no Makyou (Japan)": {
-        "secondary_name": "ファイナルファンタジーⅩⅠ　アドゥリンの魔境",
+        "secondary_name": "ファイナルファンタジーＸＩ　アドゥリンの魔境",
         "group_name": "Final Fantasy XI - Adoulin no Makyou",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -13635,7 +13635,7 @@
         "edition": ""
     },
     "Final Fantasy XI - Vana'diel Collection (Japan)": {
-        "secondary_name": "FINAL FANTASY XI ヴァナ・ディール コレクション",
+        "secondary_name": "ファイナルファンタジーＸＩ　ヴァナ・ディール コレクション",
         "group_name": "Final Fantasy XI - Vana'diel Collection",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -19559,7 +19559,7 @@
     "Armored Core 3 (Korea)": {
         "secondary_name": "아머드 코어　３",
         "group_name": "Armored Core 3",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ko",
         "version": "1.10",
@@ -21228,7 +21228,7 @@
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "3.00",
-        "edition": "Greatest Hits, Special Edition, The Trilogy"
+        "edition": "Greatest Hits, Special Edition, Grand Theft Auto: The Trilogy"
     },
     "Commandos - Strike Force (Japan)": {
         "secondary_name": "コマンドス ストライク・フォース",
@@ -25668,11 +25668,11 @@
         "edition": "Demo"
     },
     "SSX Tricky (Korea)": {
-        "secondary_name": "",
+        "secondary_name": "SSX트리키",
         "group_name": "SSX Tricky",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
-        "languages": "",
+        "languages": "Ko",
         "version": "1.00",
         "edition": "Original"
     },
@@ -27936,7 +27936,7 @@
         "edition": "Original"
     },
     "Final Fantasy XI - Online (Japan) (Beta)": {
-        "secondary_name": "ファイナルファンタジーXI β Version",
+        "secondary_name": "ファイナルファンタジーＸＩ　β Version",
         "group_name": "Final Fantasy XI - Online",
         "status": "Blue",
         "disc_type": "CD",
@@ -32010,7 +32010,7 @@
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "3.00",
-        "edition": "Greatest Hits, Double Pack Greatest Hits"
+        "edition": "Greatest Hits, Double Pack Greatest Hits, Grand Theft Auto: The Trilogy"
     },
     "Simple 2000 Series Ultimate Vol. 17 - Taisen! Bakudan Poi Poi (Japan)": {
         "secondary_name": "ＳＩＭＰＬＥ２０００シリーズ　アルティメット Ｖｏｌ．１７　対戦!爆弾ポイポイ",
@@ -33945,7 +33945,7 @@
         "disc_type": "DVD-9",
         "languages": "En",
         "version": "1.00",
-        "edition": "Original"
+        "edition": "Original, Greatest Hits"
     },
     "Rurouni Kenshin - Meiji Kenkaku Romantan - Enjou! Kyoto Rinne (Japan)": {
         "secondary_name": "るろうに剣心－明治剣客浪漫譚－ 炎上！京都輪廻",
@@ -34940,11 +34940,11 @@
     "Taiko Drum Master (USA)": {
         "secondary_name": "",
         "group_name": "Taiko Drum Master",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "1.01",
-        "edition": "Original"
+        "edition": "Original, Bundled with Taiko Controller"
     },
     "Kiwame Mahjong DX II - The 4th Mondo 21 Cup Competition (Japan)": {
         "secondary_name": "極 麻雀ＤＸＩＩ－Ｔｈｅ　４ｔｈ　ＭＯＮＤＯ２１Ｃｕｐ　Ｃｏｍｐｅｔｉｔｉｏｎ－",
@@ -41636,11 +41636,11 @@
     "Harry Potter to Himitsu no Heya (Japan)": {
         "secondary_name": "ハリーポッターと秘密の部屋",
         "group_name": "Harry Potter to Himitsu no Heya",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.01",
-        "edition": "EA Best Hits"
+        "edition": "Original, EA Best Hits"
     },
     "Def Jam - Vendetta (Japan)": {
         "secondary_name": "デフジャム　ヴァンデッタ",
@@ -46881,7 +46881,7 @@
         "edition": "Original"
     },
     "Final Fantasy XI - Altana no Shinpei (Japan)": {
-        "secondary_name": "ファイナルファンタジーXI アルタナの神兵",
+        "secondary_name": "ファイナルファンタジーＸＩ　アルタナの神兵",
         "group_name": "Final Fantasy XI - Altana no Shinpei",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -47618,9 +47618,9 @@
         "version": "1.02",
         "edition": ""
     },
-    "Korokke! Ban King no Kiki o Sukue (Japan)": {
+    "Croket! Ban-King no Kiki o Sukue (Japan)": {
         "secondary_name": "コロッケ！　バン王の危機を救え",
-        "group_name": "Korokke! Ban King no Kiki o Sukue",
+        "group_name": "Croket! Ban-King no Kiki o Sukue",
         "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
@@ -63888,7 +63888,7 @@
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "1.40",
-        "edition": "Original, Greatest Hits, Double Pack"
+        "edition": "Original, Greatest Hits, Double Pack, Grand Theft Auto: The Trilogy"
     },
     "GoldenEye - Agente Corrupto (Spain)": {
         "secondary_name": "",
@@ -70235,12 +70235,12 @@
         "version": "1.00",
         "edition": "Original"
     },
-    "Barbie Horse Adventures - Riding Camp (USA)": {
+    "Barbie Horse Adventures - Riding Camp (USA) (En,Fr)": {
         "secondary_name": "",
         "group_name": "Barbie Horse Adventures - Riding Camp",
         "status": "Green",
         "disc_type": "DVD-5",
-        "languages": "En",
+        "languages": "En, Fr",
         "version": "1.01",
         "edition": "Original"
     },
@@ -76482,7 +76482,7 @@
         "edition": "Original"
     },
     "Final Fantasy XI - Promathia no Jubaku (Japan)": {
-        "secondary_name": "ファイナルファンタジーXI プロマシアの呪縛",
+        "secondary_name": "ファイナルファンタジーＸＩ　プロマシアの呪縛",
         "group_name": "Final Fantasy XI - Promathia no Jubaku",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -85965,7 +85965,7 @@
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "1.00",
-        "edition": "Original"
+        "edition": "Original, Greatest Hits"
     },
     "Kyoushuu Kikou Butai - Kougeki Helicopter Senki (Japan)": {
         "secondary_name": "強襲機甲部隊 攻撃ヘリコプター戦記",
@@ -88839,7 +88839,7 @@
         "edition": "Original"
     },
     "Final Fantasy XI - All in One Pack 2006 (Japan)": {
-        "secondary_name": "ファイナルファンタジーXI オールインワンパック2006",
+        "secondary_name": "ファイナルファンタジーＸＩ　オールインワンパック２００６",
         "group_name": "Final Fantasy XI - All in One Pack 2006",
         "status": "Blue",
         "disc_type": "DVD-5",
@@ -89334,9 +89334,9 @@
         "edition": "Original"
     },
     "Yamasa Digi World SP DX - Neo Planett XX (Japan)": {
-        "secondary_name": "山佐ＤｉｇｉワールドＳＰ ＤＸ ネオプラネットＸＸ",
+        "secondary_name": "山佐ＤｉｇｉワールドＳＰ　ＤＸ　ネオプラネットＸＸ",
         "group_name": "Yamasa Digi World SP DX - Neo Planett XX",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.01",
@@ -89933,6 +89933,105 @@
         "status": "Blue",
         "disc_type": "DVD-5",
         "languages": "Ko",
+        "version": "1.01",
+        "edition": "Original"
+    },
+    "Jin Hondura (Korea) (En,Fr,De,Es,It)": {
+        "secondary_name": "真魂斗羅",
+        "group_name": "Jin Hondura",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En, Fr, De, It, Es",
+        "version": "1.00",
+        "edition": "Original"
+    },
+    "Doko Demo Issho - Toro to Nagare-boshi (Japan)": {
+        "secondary_name": "～どこでもいっしょ～トロと流れ星",
+        "group_name": "Doko Demo Issho - Toro to Nagare-boshi",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "Ja",
+        "version": "1.00",
+        "edition": "Original"
+    },
+    "Saru! Get You! 3 (Japan) (Tentou-you Taikenban)": {
+        "secondary_name": "サルゲッチュ３",
+        "group_name": "Saru! Get You! 3",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "Ja",
+        "version": "1.00",
+        "edition": "Tentou-you Taikenban"
+    },
+    "Marvel vs. Capcom 2 - New Age of Heroes (Japan) (Taikenban)": {
+        "secondary_name": "マーヴル　バーサス　カプコン２　ニューエイジ　オブ　ヒーローズ",
+        "group_name": "Marvel vs. Capcom 2 - New Age of Heroes",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "1.00",
+        "edition": "Taikenban"
+    },
+    "Grand Theft Auto - Vice City (USA) (v4.00)": {
+        "secondary_name": "",
+        "group_name": "Grand Theft Auto - Vice City",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "En",
+        "version": "4.00",
+        "edition": "Grand Theft Auto: The Trilogy"
+    },
+    "Daito Giken Koushiki Pachi-Slot Simulator - Shin Yoshimune (Japan)": {
+        "secondary_name": "大都技研公式パチスロシュミレーター　新・吉宗",
+        "group_name": "Daito Giken Koushiki Pachi-Slot Simulator - Shin Yoshimune",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "1.02",
+        "edition": "Original"
+    },
+    "Rakushou! Pachi-Slot Sengen 4 - Shin Mogu Mogu Fuurin Kazan, Rio de Carnival (Japan)": {
+        "secondary_name": "楽勝!パチスロ宣言4　真モグモグ風林火山・リオデカーニバル",
+        "group_name": "Rakushou! Pachi-Slot Sengen 4 - Shin Mogu Mogu Fuurin Kazan, Rio de Carnival",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "1.01",
+        "edition": "Original"
+    },
+    "SSX 3 (Korea)": {
+        "secondary_name": "",
+        "group_name": "SSX 3",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "Ko",
+        "version": "1.00",
+        "edition": "Original"
+    },
+    "XI5 - Aqui Ohyeongje (Korea)": {
+        "secondary_name": "XI5 ～아쿠이 오형제～",
+        "group_name": "XI5 - Aqui Ohyeongje",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "Ko",
+        "version": "1.00",
+        "edition": "Original"
+    },
+    "NFL GameDay 2002 (USA) (Demo)": {
+        "secondary_name": "",
+        "group_name": "NFL GameDay 2002",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "En",
+        "version": "1.00",
+        "edition": "Demo"
+    },
+    "Yinghua Dazhan V Episode 0 - Huangye de Shaonue Wushi (Asia)": {
+        "secondary_name": "櫻花大戰V EPISODE 0 ~荒野的少女武士~",
+        "group_name": "Yinghua Dazhan V Episode 0 - Huangye de Shaonue Wushi",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "Zh",
         "version": "1.01",
         "edition": "Original"
     }

@@ -155,7 +155,7 @@
     "Death Brade (Japan)": {
         "secondary_name": "デス・ブレイド",
         "group_name": "Death Brade",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -821,7 +821,7 @@
     "Dangel (Japan)": {
         "secondary_name": "",
         "group_name": "Dangel",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -2373,7 +2373,7 @@
         "disc_type": "CD",
         "languages": "",
         "version": "1.0",
-        "edition": "CRI Gokan Pack"
+        "edition": "Original, CRI Gokan Pack"
     },
     "Psychic Detective Series Vol. 5 - Nightmare (Japan) (Remake)": {
         "secondary_name": "サイキック・ディテクティヴ・シリーズ　ＶＯＬ．５　「ナイトメア」",
@@ -2630,7 +2630,7 @@
     "Animation Zenith (Japan)": {
         "secondary_name": "ゼニス",
         "group_name": "Animation Zenith",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -4160,6 +4160,78 @@
     "Terra Towns (Japan)": {
         "secondary_name": "テラＴＯＷＮＳ",
         "group_name": "Terra Towns",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Super Collection 1 - Game Technopolis (Himitsu no Hanazono & Kimi Dake ni Ai o... +) (Japan)": {
+        "secondary_name": "スーパー・コレクション①　（秘密の花園＆キミだけに愛を…＋）",
+        "group_name": "Super Collection 1 - Game Technopolis",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Joshikousei Shoujo Hatsunetsu (Japan)": {
+        "secondary_name": "女子高生少女発熱",
+        "group_name": "Joshikousei Shoujo Hatsunetsu",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Joshikousei Shoujo Densetsu - Cosplay Special (Japan)": {
+        "secondary_name": "女子校生少女伝説　～コスプレ・スペシャル～",
+        "group_name": "Joshikousei Shoujo Densetsu - Cosplay Special",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Hiragana no Ehon (Japan)": {
+        "secondary_name": "ひらがなのえほん",
+        "group_name": "Hiragana no Ehon",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Ultima V - Warriors of Destiny (Japan)": {
+        "secondary_name": "ウルティマⅤ",
+        "group_name": "Ultima V - Warriors of Destiny",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "FM Towns Soft Collection Kaigai-hen Vol. 17"
+    },
+    "Ultima VI - The False Prophet (Japan)": {
+        "secondary_name": "ウルティマⅥ",
+        "group_name": "Ultima VI - The False Prophet",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "FM Towns Soft Collection Kaigai-hen Vol. 18"
+    },
+    "Beast III (Japan)": {
+        "secondary_name": "",
+        "group_name": "Beast III",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Collector D - Bangai-hen - Gokurakudai Nishichiku Sales Daisakusen (Japan)": {
+        "secondary_name": "コレクターＤ　番外編　極楽台西地区セールス大作戦",
+        "group_name": "Collector D - Bangai-hen - Gokurakudai Nishichiku Sales Daisakusen",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "Ja",
