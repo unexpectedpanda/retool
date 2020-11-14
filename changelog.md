@@ -1,3 +1,6 @@
+# 0.84
+- Updated the Sega ring code regex so more ring codes are captured.
+
 # 0.83
 - Accidentally uploaded the wrong `user-config.yaml`, where all regions were
   commented out. This resulted in the CLI version of Retool finding no clones
@@ -139,7 +142,7 @@
 Oof, this is a big update, with feature and performance improvements all over
 the place.
 
-### Code readability and performance
+## Code readability and performance
 Retool has been largely rewritten for readability, performance, security, and
 to make forward momentum easier. This means a few breaking changes:
 
@@ -161,13 +164,13 @@ Processing dats is now also much faster as a result of better coding practices.
 While this is nice for all dats, you'll mostly feel it on the big ones.
 The PlayStation and IBM dats, for example, are now 2x faster.
 
-### Custom region orders, filter by language
+## Custom region orders, filter by language
 Custom region orders are now supported &mdash; even for supersets. You can
 also filter by languages. Make your choices by editing the `region order` and
 `filter languages` sections in `user-config.yaml`. You can use the `-l` option
 to filter by language, or leave it off to include all languages.
 
-### Other language and region stuff
+## Other language and region stuff
 Retool's a lot smarter with languages now.
 
 For a start, implied languages are now enabled for most regions, and
@@ -191,7 +194,7 @@ The following things have also changed:
   to be categorized as a USA title -- it's now correctly identified as a
   European title.
 
-### Other updates
+## Other updates
 - You can now exclude unlicensed titles.
 - Sega ring codes are now mostly handled automatically for assigning clones.
   This has greatly reduced the size of some clone lists.

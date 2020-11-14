@@ -291,8 +291,8 @@ class Regex:
         self.version = re.compile('\(v[0-9].*?\)')
         self.long_version = re.compile('Version [+-]?([0-9]+([.][0-9]*)?|[.][0-9]+).*?[ \)]')
         self.revision = re.compile('\(Rev [0-9A-Z].*?\)')
-        self.sega_ring_code = re.compile('\(([0-9]{1,2}[A-Z]([ ,].[0-9]{1,2}[A-Z])*|R[E]{,1}[-]{,1}[0-9]{,1})\)')
-        self.sega_ring_code_re = re.compile('R[E]{,1}[-]{,1}[0-9]{,1}')
+        self.sega_ring_code = re.compile('\(([0-9]{1,2}[A-Z]([ ,].[0-9]{1,2}[A-Z])*|R[E]{,1}[-]{,1}[0-9]{0,})\)')
+        self.sega_ring_code_re = re.compile('R[E]{,1}[-]{,1}[0-9]{0,}')
         self.fds_version = re.compile('\(DV [0-9].*?\)')
 
         # Virtual + Mini Console
