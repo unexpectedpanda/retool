@@ -3,7 +3,7 @@
 		"name": [
 			"IBM - PC compatible"
 		],
-		"last updated": "8 November 2020"
+		"last updated": "14 November 2020"
 	},
 
 	"compilations": [
@@ -2057,6 +2057,18 @@
 		"Elder Scrolls Adventures, The - Redguard (Disc 2) (Play Disc)": [
 			["Redguard - Ein Elder Scroll Adventure (Spiel CD)", 1]
 		],
+		"Elder Scrolls Online, The - Tamriel Unlimited (Disc 1)": [
+			["Elder Scrolls Online, The (Disc 1)", 2]
+		],
+		"Elder Scrolls Online, The - Tamriel Unlimited (Disc 2)": [
+			["Elder Scrolls Online, The (Disc 2)", 2]
+		],
+		"Elder Scrolls Online, The - Tamriel Unlimited (Disc 3)": [
+			["Elder Scrolls Online, The (Disc 3)", 2]
+		],
+		"Elder Scrolls Online, The - Tamriel Unlimited (Disc 4)": [
+			["Elder Scrolls Online, The (Disc 4)", 2]
+		],
 		"Emergency 4 - Global Fighters for Life (Disc 1)": [
 			["Emergency 4 - Global Fighters for Life - Gold Edition", -1]
 		],
@@ -2529,7 +2541,8 @@
 			["Roemer, Die", 1]
 		],
 		"Godfather, The - The Game": [
-			["Godfather, The", 1]
+			["Godfather, The", 1],
+			["Padrino, Il", 1]
 		],
 		"Gorasul - The Legacy of the Dragon (Disc 1)": [
 			["Gorasul - Das Vermaechtnis des Drachen (Disc 1)", 1]
@@ -6805,6 +6818,12 @@
 			["Warhammer 40,000 - Dawn of War - The Complete Collection", -1],
 			["Warhammer 40,000 - Dawn of War - Gold Edition", 0],
 			["Warhammer 40,000 - Dawn of War & Warhammer 40,000 - Dawn of War - Winter Assault", 0]
+		],
+		"Warhammer Online - Age of Reckoning (Disc 1)": [
+			["Warhammer Online - Vremja vozmezdija (Disc 1)", 1]
+		],
+		"Warhammer Online - Age of Reckoning (Disc 2)": [
+			["Warhammer Online - Vremja vozmezdija (Disc 2)", 1]
 		],
 		"Warlords IV - Heroes of Etheria": [
 			["Warlords IV - Bohaterowie Etherii", 1]
