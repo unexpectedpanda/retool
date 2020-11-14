@@ -3,7 +3,7 @@
 		"name": [
 			"Sega - Mega CD & Sega CD"
 		],
-		"last updated": "4 October 2020"
+		"last updated": "14 November 2020"
 	},
 
 	"renames": {
@@ -45,7 +45,6 @@
 			["Ecco the Dolphin CD (Disc 2) (Ecco the Dolphin II)", 1]
 		],
 		"Fahrenheit (Disc 1) (Key Disc) (Sega CD)": [
-			["Fahrenheit (Disc 2) (32X CD)", -1],
 			["Fahrenheit", 1]
 		],
 		"Fatal Fury Special": [
