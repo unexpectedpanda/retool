@@ -2825,23 +2825,23 @@
         "version": "1.05",
         "edition": "Original"
     },
-    "Language Director - Guided Tour - English Level 1 (Europe)": {
-        "secondary_name": "",
+    "Language Director - Guided Tour - English Level 1 (Europe) (Rerelease)": {
+        "secondary_name": "Language Director: Guided Tour: English Level 2",
         "group_name": "Language Director - Guided Tour - English Level 1",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "",
         "version": "",
-        "edition": "Original"
+        "edition": "Rerelease"
     },
-    "Language Director - English - Level 2 (Europe) (Disc 1)": {
+    "Language Director - English - Level 2 (Europe) (Disc 1) (Alt)": {
         "secondary_name": "",
         "group_name": "Language Director - English - Level 2",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "",
         "version": "",
-        "edition": "Original"
+        "edition": "Rerelease"
     },
     "Language Director - English - Level 2 (Europe) (Disc 2)": {
         "secondary_name": "",
@@ -2852,23 +2852,23 @@
         "version": "",
         "edition": "Original"
     },
-    "Language Director - English - Level 1 (Europe) (Disc 2)": {
+    "Language Director - English - Level 1 (Europe) (Disc 2) (Rerelease)": {
         "secondary_name": "",
         "group_name": "Language Director - English - Level 1",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "",
         "version": "",
-        "edition": "Original"
+        "edition": "Rerelease"
     },
-    "Language Director - English - Level 1 (Europe) (Disc 1)": {
+    "Language Director - English - Level 1 (Europe) (Disc 1) (Alt)": {
         "secondary_name": "",
         "group_name": "Language Director - English - Level 1",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "",
         "version": "",
-        "edition": "Original"
+        "edition": "Rerelease"
     },
     "Language Director - English - Level 3 (Europe) (Disc 1)": {
         "secondary_name": "",
@@ -3239,6 +3239,42 @@
         "version": "",
         "edition": "Original"
     },
+    "Language Director - English - Level 1 (Europe) (Disc 1)": {
+        "secondary_name": "",
+        "group_name": "Language Director - English - Level 1",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Original"
+    },
+    "Language Director - English - Level 1 (Europe) (Disc 2)": {
+        "secondary_name": "",
+        "group_name": "Language Director - English - Level 1",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Original"
+    },
+    "Language Director - English - Level 2 (Europe) (Disc 1)": {
+        "secondary_name": "",
+        "group_name": "Language Director - English - Level 2",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Original"
+    },
+    "Language Director - Guided Tour - English Level 1 (Europe)": {
+        "secondary_name": "",
+        "group_name": "Language Director - Guided Tour - English Level 1",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Original"
+    },
     "Posse (USA) (Disc 1)": {
         "secondary_name": "",
         "group_name": "Posse",
@@ -3328,5 +3364,14 @@
         "languages": "",
         "version": "",
         "edition": "Original: Longbox"
+    },
+    "La Citta piu Felice del Mondo! di Richard Scarry (Italy)": {
+        "secondary_name": "",
+        "group_name": "La Citta piu Felice del Mondo! di Richard Scarry",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "It",
+        "version": "",
+        "edition": "Original"
     }
 }

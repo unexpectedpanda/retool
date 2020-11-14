@@ -65,7 +65,7 @@
     "Fragrance Tale (Japan)": {
         "secondary_name": "フレグランス・テイル",
         "group_name": "Fragrance Tale",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "GD-ROM",
         "languages": "Ja",
         "version": "1.002",
@@ -965,7 +965,7 @@
     "Confidential Mission (Japan) (En,Ja,Fr,De,Es)": {
         "secondary_name": "コンフィデンシャル・ミッション",
         "group_name": "Confidential Mission",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "GD-ROM",
         "languages": "En, Fr, De, Ja, Es",
         "version": "1.000",
@@ -1001,7 +1001,7 @@
     "Plus Plumb (Japan)": {
         "secondary_name": "ぷらすぷらむ",
         "group_name": "Plus Plumb",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "GD-ROM",
         "languages": "Ja",
         "version": "1.073",
@@ -1019,7 +1019,7 @@
     "Blue-Sky-Blue[s] - Sora o Mau Tsubasa (Japan)": {
         "secondary_name": "Ｂｌｕｅ‐Ｓｋｙ‐Ｂｌｕｅ【ｓ】　空を舞う翼",
         "group_name": "Blue-Sky-Blue[s] - Sora o Mau Tsubasa",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "GD-ROM",
         "languages": "Ja",
         "version": "1.002",
@@ -1892,7 +1892,7 @@
     "Zombie Revenge (Japan)": {
         "secondary_name": "ゾンビ リベンジ",
         "group_name": "Zombie Revenge",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "GD-ROM",
         "languages": "Ja",
         "version": "1.005",
@@ -2657,7 +2657,7 @@
     "Street Fighter Zero 3 - Saikyo-ryu Dojo (Japan)": {
         "secondary_name": "ストリート・ファイターＺＥＲＯ３　～サイキョー流道場～",
         "group_name": "Street Fighter Zero 3 - Saikyo-ryu Dojo",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "GD-ROM",
         "languages": "Ja",
         "version": "1.007",
@@ -2720,7 +2720,7 @@
     "Star Gladiator 2 - Nightmare of Bilstein (Japan)": {
         "secondary_name": "スターグラディエイター２　～ナイトメアオブビルシュタイン～",
         "group_name": "Star Gladiator 2 - Nightmare of Bilstein",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "GD-ROM",
         "languages": "Ja",
         "version": "1.002",
@@ -2976,7 +2976,7 @@
         "disc_type": "GD-ROM",
         "languages": "Ja",
         "version": "1.003",
-        "edition": "Original"
+        "edition": "Original, Shokai Genteiban B"
     },
     "GigaWing 2 (USA)": {
         "secondary_name": "",
@@ -3179,7 +3179,7 @@
     "Castle Fantasia - Seima Taisen (Japan)": {
         "secondary_name": "キャッスルファンタジア　聖魔大戦",
         "group_name": "Castle Fantasia - Seima Taisen",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "GD-ROM",
         "languages": "Ja",
         "version": "1.001",
@@ -3260,11 +3260,11 @@
     "Shenmue II (Japan) (Disc 4)": {
         "secondary_name": "シェンムーII",
         "group_name": "Shenmue II",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "GD-ROM",
         "languages": "Ja",
         "version": "1.003",
-        "edition": "Genteiban"
+        "edition": "Original, Genteiban"
     },
     "NBA 2K1 (USA)": {
         "secondary_name": "",
@@ -6563,11 +6563,11 @@
     "Suika (Japan)": {
         "secondary_name": "水夏　～ＳＵＩＫＡ～",
         "group_name": "Suika",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "GD-ROM",
         "languages": "Ja",
         "version": "1.003",
-        "edition": "Shokai Genteiban"
+        "edition": "Original, Shokai Genteiban"
     },
     "Comic Party (Japan) (Disc 1)": {
         "secondary_name": "こみっくパーティー",
@@ -6842,11 +6842,11 @@
     "Shenmue II (Japan) (Disc 2)": {
         "secondary_name": "シェンムーII",
         "group_name": "Shenmue II",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "GD-ROM",
         "languages": "Ja",
         "version": "1.003",
-        "edition": "Genteiban"
+        "edition": "Original, Genteiban"
     },
     "Garou - Mark of the Wolves (Japan)": {
         "secondary_name": "餓狼　ＭＡＲＫ　ＯＦ　ＴＨＥ　ＷＯＬＶＥＳ",
@@ -6860,7 +6860,7 @@
     "Moero! Justice Gakuen (Japan)": {
         "secondary_name": "燃えろ！　ジャスティス学園",
         "group_name": "Moero! Justice Gakuen",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "GD-ROM",
         "languages": "Ja",
         "version": "1.004",
@@ -7134,7 +7134,7 @@
         "disc_type": "GD-ROM",
         "languages": "Ja",
         "version": "1.003",
-        "edition": "Original"
+        "edition": "Original, Shokai Genteiban B"
     },
     "Sakura Taisen 3 - Paris wa Moeteiru ka - Sakura Taisen 3 Movie Disc (Japan)": {
         "secondary_name": "サクラ大戦３　～巴里は燃えているか～　サクラ大戦３　ムービーディスク",
@@ -7886,11 +7886,11 @@
     "Shenmue II (Japan) (Disc 1)": {
         "secondary_name": "シェンムーII",
         "group_name": "Shenmue II",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "GD-ROM",
         "languages": "Ja",
         "version": "1.003",
-        "edition": "Genteiban"
+        "edition": "Original, Genteiban"
     },
     "Nijuuei (Japan)": {
         "secondary_name": "二重影",
@@ -9065,7 +9065,7 @@
     "Aero Dancing F - Todoroki Tsubasa no Hatsu Hikou (Japan)": {
         "secondary_name": "エアロダンシングＦ　～轟つばさの初飛行～",
         "group_name": "Aero Dancing F - Todoroki Tsubasa no Hatsu Hikou",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "GD-ROM",
         "languages": "Ja",
         "version": "2.000",
@@ -9146,16 +9146,16 @@
     "Shenmue II (Japan) (Disc 3)": {
         "secondary_name": "シェンムーII",
         "group_name": "Shenmue II",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "GD-ROM",
         "languages": "Ja",
         "version": "1.003",
-        "edition": "Genteiban"
+        "edition": "Original, Genteiban"
     },
     "21 - Two One (Japan)": {
         "secondary_name": "２１－Ｔｗｏ　Ｏｎｅ－",
         "group_name": "21 - Two One",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "GD-ROM",
         "languages": "Ja",
         "version": "1.003",
@@ -9344,7 +9344,7 @@
     "After... Wasureenu Kizuna (Japan)": {
         "secondary_name": "Ａｆｔｅｒ…　～忘れえぬ絆～",
         "group_name": "After... Wasureenu Kizuna",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "GD-ROM",
         "languages": "Ja",
         "version": "1.002",
@@ -9497,7 +9497,7 @@
     "Kaze no Uta (Japan)": {
         "secondary_name": "風ノ唄　カゼノウタ",
         "group_name": "Kaze no Uta",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "GD-ROM",
         "languages": "Ja",
         "version": "1.007",
@@ -9537,7 +9537,7 @@
         "disc_type": "GD-ROM",
         "languages": "Ja",
         "version": "1.003",
-        "edition": "Original"
+        "edition": "Original, Shokai Genteiban B"
     },
     "Super Street Fighter II X for Matching Service (Japan)": {
         "secondary_name": "スーパー・ストリート・ファイターⅡＸ　フォー　マッチング　サービス",
@@ -9902,7 +9902,7 @@
     "AM2 of CRI 2001 New Lineup Movie Collection (Japan)": {
         "secondary_name": "",
         "group_name": "AM2 of CRI 2001 New Lineup Movie Collection",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "GD-ROM",
         "languages": "",
         "version": "1.002",
@@ -10100,7 +10100,7 @@
     "Marvel vs. Capcom - Clash of Super Heroes (Japan)": {
         "secondary_name": "マーヴルＶＳ．カプコン　クラッシュ・オブ・スーパーヒーローズ",
         "group_name": "Marvel vs. Capcom - Clash of Super Heroes",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "GD-ROM",
         "languages": "Ja",
         "version": "1.003",
@@ -11198,7 +11198,7 @@
     "Walt Disney World Quest - Magical Racing Tour (Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "Walt Disney World Quest - Magical Racing Tour",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "GD-ROM",
         "languages": "En, Fr, De, It, Es",
         "version": "1.000",
@@ -12053,7 +12053,7 @@
     "What's Shenmue - Yukawa (Moto) Senmu o Sagase (Japan)": {
         "secondary_name": "Ｗｈａｔ’ｓシェンムー　～湯川（元）専務をさがせ～",
         "group_name": "What's Shenmue - Yukawa",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "GD-ROM",
         "languages": "Ja",
         "version": "1.004",
@@ -12202,5 +12202,14 @@
         "languages": "Ja",
         "version": "1.002",
         "edition": "Original"
+    },
+    "Zusar Vasar (Japan) (Taikenban)": {
+        "secondary_name": "ズサーウァサー",
+        "group_name": "Zusar Vasar",
+        "status": "Blue",
+        "disc_type": "GD-ROM",
+        "languages": "Ja",
+        "version": "1.000",
+        "edition": "Taikenban"
     }
 }

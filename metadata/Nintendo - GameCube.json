@@ -4340,7 +4340,7 @@
     "Harry Potter and the Philosopher's Stone (Europe) (En,Nl) (Rev 1)": {
         "secondary_name": "",
         "group_name": "Harry Potter and the Philosopher's Stone",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "Nintendo GameCube Game Disc",
         "languages": "Nl, En",
         "version": "Rev 1",
@@ -7490,7 +7490,7 @@
     "SSX Tricky (Europe) (En,Fr,De)": {
         "secondary_name": "",
         "group_name": "SSX Tricky",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "Nintendo GameCube Game Disc",
         "languages": "En, Fr, De",
         "version": "",
@@ -8421,7 +8421,7 @@
         "disc_type": "Nintendo GameCube Game Disc",
         "languages": "En",
         "version": "",
-        "edition": "Original"
+        "edition": "Original, Player's Choice"
     },
     "Gladius (Germany)": {
         "secondary_name": "",
@@ -14222,7 +14222,7 @@
     "Cel Damage (Europe)": {
         "secondary_name": "",
         "group_name": "Cel Damage",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "Nintendo GameCube Game Disc",
         "languages": "En",
         "version": "",
@@ -14897,7 +14897,7 @@
     "NBA Street V3 (Europe) (En,Fr,De)": {
         "secondary_name": "",
         "group_name": "NBA Street V3",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "Nintendo GameCube Game Disc",
         "languages": "En, Fr, De",
         "version": "",
@@ -15509,7 +15509,7 @@
     "Simpsons, The - Road Rage (Europe) (En,Fr,De)": {
         "secondary_name": "",
         "group_name": "Simpsons, The - Road Rage",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "Nintendo GameCube Game Disc",
         "languages": "En, Fr, De",
         "version": "",
