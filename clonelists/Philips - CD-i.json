@@ -3,7 +3,7 @@
 		"name": [
 			"Philips - CD-i"
 		],
-		"last updated": "8 November 2020"
+		"last updated": "15 November 2020"
 	},
 
 	"renames": {
@@ -79,6 +79,7 @@
 			["Tim & Beer op het Vliegveld", 1]
 		],
 		"Time Life Presents - 35mm Photography": [
+			["Time Life Photography", 1],
 			["Time Life Presenta - La Fotografia in 35mm", 1],
 			["Time Life Presente - La Photographie 24 x 36 mm", 1]
 		],
@@ -86,6 +87,7 @@
 			["Video Speedway - Grand Prix", 1]
 		],
 		"Ville Surprise de Richard Scarry 1, La": [
+			["La Citta piu Felice del Mondo! di Richard Scarry", 1],
 			["Richard Scarry's Allerbeste Buurt Disc!", 1]
 		],
 		"Ville Surprise de Richard Scarry 2, La": [
