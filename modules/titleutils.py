@@ -9,6 +9,20 @@ from modules.utils import Font, printverbose
 def check_date(string, title):
         """ Basic date validation """
 
+        months = [
+            'January', 'February', 'March',
+            'April', 'May', 'June',
+            'July', 'August', 'September',
+            'October', 'November', 'December'
+        ]
+
+        if re.search('|'.join(months), title) != None:
+            for i, month in enumerate(months):
+                if (i < 8):
+                    title = re.sub(f'{month}, ', f'0{i + 1}-01-', title)
+                else:
+                    title = re.sub(f'{month}, ', f'{i + 1}-01-', title)
+
         if re.search('\(\d{2}-\d{2}-\d{4}\)', title) != None:
             us_date = True
         else:
