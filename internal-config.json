@@ -9,7 +9,7 @@
             "Retool requires. You probably don't want to",
             "mess with them."
         ],
-        "last updated": "13 September 2020"
+        "last updated": "18 November 2020"
     },
 
     "ignore_tags": [
@@ -41,7 +41,7 @@
         "\\s?\\(Hibaihin\\)",
         "\\s?\\(Rerelease\\)",
         "\\s?\\(Made in.*?\\)",
-        "\\s?\\((\\d{8}|\\d{4}-\\d{2}-\\d{2}|\\d{2}-\\d{2}-\\d{4}|\\d{2}-\\d{2}-\\d{2})\\)",
+        "\\s?\\((\\d{8}|\\d{4}-\\d{2}-\\d{2}|\\d{2}-\\d{2}-\\d{4}|\\d{2}-\\d{2}-\\d{2}|(January|February|March|April|May|June|July|August|September|October|November|December), \\d{4})\\)",
         "\\s?\\(([0-9]{1,2}[A-Z]([ ,].[0-9]{1,2}[A-Z])*|R[E]{,1}[-]{,1}[0-9]{0,})\\)"
     ],
 
@@ -195,8 +195,7 @@
         "\\s?\\(Shokai Seisanban\\)",
         "\\s?\\(Software Doukonban\\)",
         "\\s?\\(Software Tantaiban\\)",
-        "\\s?\\(Unl\\)",
-        "\\s?\\((January|February|March|April|May|June|July|August|September|October|November|December), 199[0-9]\\)"
+        "\\s?\\(Unl\\)"
     ],
 
     "languages": {
