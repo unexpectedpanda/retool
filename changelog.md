@@ -1,3 +1,8 @@
+# 0.85
+- Updated the date sorting to take into account another of No-Intro's
+  inconsistent date formats `(Month name, YYYY)`.
+- Another tweak to the ordering of the output dat.
+
 # 0.84
 - Updated the Sega ring code regex so more ring codes are captured.
 
