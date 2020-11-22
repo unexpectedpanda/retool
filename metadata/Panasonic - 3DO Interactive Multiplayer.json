@@ -2054,7 +2054,7 @@
     "Kyuusei Senjutsu ni Yoru - Heisei Kaiun Koyomi (Japan)": {
         "secondary_name": "九星占術による「平成」開運暦",
         "group_name": "Kyuusei Senjutsu ni Yoru - Heisei Kaiun Koyomi",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -4295,7 +4295,7 @@
     "Sento Monogatari - Sono I (Japan)": {
         "secondary_name": "「占都物語」　そのⅠ",
         "group_name": "Sento Monogatari - Sono I",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -4520,7 +4520,7 @@
     "Chiki Chiki Machine Mou Race 2 - In Space (Japan) (Demo)": {
         "secondary_name": "チキチキマシン猛レース２　～イン・スペース～",
         "group_name": "Chiki Chiki Machine Mou Race 2 - In Space",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -4601,7 +4601,7 @@
     "Chiki Chiki Machine Mou Race 2 - In Space (Japan)": {
         "secondary_name": "チキチキマシン猛レース２　～イン・スペース～",
         "group_name": "Chiki Chiki Machine Mou Race 2 - In Space",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -4812,6 +4812,15 @@
         "disc_type": "CD",
         "languages": "En",
         "version": "",
+        "edition": "Original"
+    },
+    "Konpeki no Kantai (Japan) (Rev 1)": {
+        "secondary_name": "紺碧の艦隊",
+        "group_name": "Konpeki no Kantai",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "Rev 1",
         "edition": "Original"
     }
 }

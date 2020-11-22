@@ -71,9 +71,9 @@
         "version": "",
         "edition": "Original"
     },
-    "L'Open de Palm Springs (France)": {
+    "Open de Palm Springs, L' (France)": {
         "secondary_name": "",
-        "group_name": "L'Open de Palm Springs",
+        "group_name": "Open de Palm Springs, L'",
         "status": "Green",
         "disc_type": "CD",
         "languages": "Fr",
@@ -440,7 +440,7 @@
         "version": "",
         "edition": "Demonstration Disc"
     },
-    "Asterix - Le Defi de Cesar (France)": {
+    "Asterix - Le Defi de Cesar (France) (Rev 1)": {
         "secondary_name": "",
         "group_name": "Asterix - Le Defi de Cesar",
         "status": "Blue",
@@ -1592,7 +1592,7 @@
         "version": "",
         "edition": "Demonstration Disc"
     },
-    "Jeopardy! (USA)": {
+    "Jeopardy! (USA) (Demo)": {
         "secondary_name": "",
         "group_name": "Jeopardy!",
         "status": "Blue",
@@ -3185,12 +3185,12 @@
         "version": "1.02",
         "edition": "Original"
     },
-    "Malarskolan (Sweden)": {
+    "Malarskolan (Sweden) (En,Fr,De,Es,It,Sv)": {
         "secondary_name": "",
         "group_name": "Malarskolan",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "En, Fr, De, It, Es, Sv",
         "version": "",
         "edition": "Original"
     },
@@ -3230,9 +3230,9 @@
         "version": "",
         "edition": "Original"
     },
-    "Les Schtroumpfs - Le Teleportaschtroumpf (France)": {
+    "Schtroumpfs, Les - Le Teleportaschtroumpf (France)": {
         "secondary_name": "",
-        "group_name": "Les Schtroumpfs - Le Teleportaschtroumpf",
+        "group_name": "Schtroumpfs, Les - Le Teleportaschtroumpf",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "Fr",
@@ -3365,12 +3365,57 @@
         "version": "",
         "edition": "Original: Longbox"
     },
-    "La Citta piu Felice del Mondo! di Richard Scarry (Italy)": {
+    "Citta piu Felice del Mondo! di Richard Scarry, La (Italy)": {
         "secondary_name": "",
-        "group_name": "La Citta piu Felice del Mondo! di Richard Scarry",
+        "group_name": "Citta piu Felice del Mondo! di Richard Scarry, La",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "It",
+        "version": "",
+        "edition": "Original"
+    },
+    "Asterix - Le Defi de Cesar (France)": {
+        "secondary_name": "",
+        "group_name": "Asterix - Le Defi de Cesar",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Fr",
+        "version": "",
+        "edition": "Original"
+    },
+    "Arte degli Zar, L' - San Pietroburgo e i Tesori dell'Ermitage (Italy)": {
+        "secondary_name": "",
+        "group_name": "Arte degli Zar, L' - San Pietroburgo e i Tesori dell'Ermitage",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "It",
+        "version": "",
+        "edition": "Original"
+    },
+    "Macchina delle Favole, La - Racconti di Magia (Italy)": {
+        "secondary_name": "",
+        "group_name": "Macchina delle Favole, La - Racconti di Magia",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "It",
+        "version": "",
+        "edition": "Original"
+    },
+    "Paint School II (Europe) (En,Fr,De,Es,It,Nl)": {
+        "secondary_name": "",
+        "group_name": "Paint School II",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Nl, En, Fr, De, It, Es",
+        "version": "",
+        "edition": "Original"
+    },
+    "Jeopardy! (USA)": {
+        "secondary_name": "",
+        "group_name": "Jeopardy!",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
         "version": "",
         "edition": "Original"
     }

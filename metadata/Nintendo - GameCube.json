@@ -2252,7 +2252,7 @@
     "NHL Hitz 2003 (Europe)": {
         "secondary_name": "NHL Hitz 20-03",
         "group_name": "NHL Hitz 2003",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "Nintendo GameCube Game Disc",
         "languages": "En",
         "version": "",
@@ -6227,12 +6227,12 @@
         "version": "",
         "edition": "Original"
     },
-    "Wave Race - Blue Storm (Europe, Australia) (En,Fr,De,Es,It)": {
+    "Wave Race - Blue Storm (Europe, Australia)": {
         "secondary_name": "",
         "group_name": "Wave Race - Blue Storm",
         "status": "Green",
         "disc_type": "Nintendo GameCube Game Disc",
-        "languages": "En, Fr, De, It, Es",
+        "languages": "En",
         "version": "",
         "edition": "Original"
     },
@@ -11362,7 +11362,7 @@
         "group_name": "2 Games in 1 - Nickelodeon SpongeBob Schwammkopf - Der Film + Nickelodeon SpongeBob Schwammkopf - Schlacht um Bikini Bottom",
         "status": "Blue",
         "disc_type": "Nintendo GameCube Game Disc",
-        "languages": "De",
+        "languages": "En",
         "version": "",
         "edition": "Original"
     },
@@ -12278,7 +12278,7 @@
     "Nickelodeon The Adventures of Jimmy Neutron - Boy Genius - Jet Fusion (Europe)": {
         "secondary_name": "",
         "group_name": "Nickelodeon The Adventures of Jimmy Neutron - Boy Genius - Jet Fusion",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "Nintendo GameCube Game Disc",
         "languages": "En",
         "version": "",

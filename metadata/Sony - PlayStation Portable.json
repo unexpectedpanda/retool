@@ -2936,7 +2936,7 @@
     "Gungnir (USA)": {
         "secondary_name": "",
         "group_name": "Gungnir",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "UMD (SL)",
         "languages": "En",
         "version": "1.00",
@@ -12851,14 +12851,14 @@
         "version": "1.00",
         "edition": "Original"
     },
-    "Nogizaka Haruka no Himitsu - Cosplay Hajimemashita - Himitsu no Radio (Japan)": {
-        "secondary_name": "乃木坂春香の秘密: こすぷれ、はじめました: 秘密のラジオ",
-        "group_name": "Nogizaka Haruka no Himitsu - Cosplay Hajimemashita - Himitsu no Radio",
+    "Nogizaka Haruka no Himitsu - Cosplay, Hajimemashita - Himitsu no Radio (Japan)": {
+        "secondary_name": "乃木坂春香の秘密　こすぷれ、はじめました♥　秘密のラジオ",
+        "group_name": "Nogizaka Haruka no Himitsu - Cosplay, Hajimemashita - Himitsu no Radio",
         "status": "Blue",
         "disc_type": "UMD (SL)",
         "languages": "Ja",
         "version": "1.00",
-        "edition": "Original"
+        "edition": "PS2 Game Bundle"
     },
     "Warhammer 40,000 - Squad Command (USA)": {
         "secondary_name": "",
