@@ -3959,9 +3959,9 @@
         "version": "2.00",
         "edition": "Original"
     },
-    "PrePre 2 Volume 1 - 2001 April (Japan)": {
-        "secondary_name": "プレプレ　２　ＶＯＬＵＭＥ　１　～２００１　ＡＰＲＩＬ～",
-        "group_name": "PrePre 2 Volume 1 - 2001 April",
+    "Play-Pre 2 Volume 1 - 2001 April (Japan)": {
+        "secondary_name": "プレプレ　２　ＶＯＬＵＭＥ　１　－２００１　ＡＰＲＩＬ－",
+        "group_name": "Play-Pre 2 Volume 1 - 2001 April",
         "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
@@ -4043,7 +4043,7 @@
     "Hippa Linda (Japan)": {
         "secondary_name": "ひっぱリンダ",
         "group_name": "Hippa Linda",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.03",
@@ -6333,7 +6333,7 @@
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "2.00",
-        "edition": "Original"
+        "edition": "Kaitei-ban"
     },
     "NBA Street (Japan) (Taikenban)": {
         "secondary_name": "ＮＢＡストリート",
@@ -7704,7 +7704,7 @@
         "edition": "Super Value Set Disc 1"
     },
     "Dragon Ball Z (Japan)": {
-        "secondary_name": "ドラゴンボールZ",
+        "secondary_name": "ドラゴンボールＺ",
         "group_name": "Dragon Ball Z",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -14697,7 +14697,7 @@
         "edition": "Original"
     },
     "Ys IV - Mask of the Sun - A New Theory (Japan)": {
-        "secondary_name": "イースＩＶ　マスク オブ　ザ　サン　‐ａ　ｎｅｗ　ｔｈｅｏｒｙ‐",
+        "secondary_name": "イースⅣ　マスク　オブ　ザ　サン　‐ａ　ｎｅｗ　ｔｈｅｏｒｙ‐",
         "group_name": "Ys IV - Mask of the Sun - A New Theory",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -19755,7 +19755,7 @@
         "edition": "Shokai Genteiban"
     },
     "Devil May Cry - Trial Edition Ver. 2 (Japan) (Taikenban 2)": {
-        "secondary_name": "デビル　メイ クライ　トライアルエディション　Ｖｅｒ.　２",
+        "secondary_name": "デビル・メイ・クライ　トライアルエディション　Ｖｅｒ.　２",
         "group_name": "Devil May Cry - Trial Edition Ver. 2",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -21521,7 +21521,7 @@
     "Pop'n Music 10 (Japan) (v2.00)": {
         "secondary_name": "ポップンミュージック１０",
         "group_name": "Pop'n Music 10",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "2.00",
@@ -21989,7 +21989,7 @@
     "Kengou 2 (Japan) (Taikenban)": {
         "secondary_name": "剣豪２",
         "group_name": "Kengou 2",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.01",
@@ -22616,9 +22616,9 @@
         "version": "1.02",
         "edition": "Original"
     },
-    "PrePre 2 Volume 6 - 2002 December (Japan)": {
-        "secondary_name": "プレプレ　２　ＶＯＬＵＭＥ　６　～２００２　ＤＥＣＥＭＢＥＲ～",
-        "group_name": "PrePre 2 Volume 6 - 2002 December",
+    "Play-Pre 2 Volume 6 - 2002 December (Japan)": {
+        "secondary_name": "プレプレ　２　ＶＯＬＵＭＥ　６　－２００２　ＤＥＣＥＭＢＥＲ－",
+        "group_name": "Play-Pre 2 Volume 6 - 2002 December",
         "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
@@ -24338,7 +24338,7 @@
     "Yoshitsune Yeongungjeon (Korea)": {
         "secondary_name": "요시츠네 영웅전",
         "group_name": "Yoshitsune Yeongungjeon",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ko",
         "version": "1.03",
@@ -29556,13 +29556,13 @@
         "edition": "Original"
     },
     "Final Fantasy X (Japan)": {
-        "secondary_name": "ファイナルファンタジーＸ",
+        "secondary_name": "ファイナルファンタジーⅩ",
         "group_name": "Final Fantasy X",
         "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.00",
-        "edition": "Original, Ultimate Hits, Mega Hits!"
+        "edition": "Original, Mega Hits!, Ultimate Hits"
     },
     "Samurai Dou 2 - Kettouban (Japan)": {
         "secondary_name": "侍道２ 決闘版",
@@ -32129,9 +32129,9 @@
         "version": "1.01",
         "edition": "Original"
     },
-    "Shin Seiki Yuusha Taisen (Japan)": {
+    "Shinseiki Yuusha Taisen (Japan)": {
         "secondary_name": "新世紀勇者大戦",
-        "group_name": "Shin Seiki Yuusha Taisen",
+        "group_name": "Shinseiki Yuusha Taisen",
         "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
@@ -33407,9 +33407,9 @@
         "version": "1.05",
         "edition": "Original, Taito Best"
     },
-    "PrePre 2 Volume 7 - 2003 April (Japan)": {
-        "secondary_name": "プレプレ　２　ＶＯＬＵＭＥ　７　～２００３　ＡＰＲＩＬ～",
-        "group_name": "PrePre 2 Volume 7 - 2003 April",
+    "Play-Pre 2 Volume 7 - 2003 April (Japan)": {
+        "secondary_name": "プレプレ　２　ＶＯＬＵＭＥ　７　－２００３　ＡＰＲＩＬ－",
+        "group_name": "Play-Pre 2 Volume 7 - 2003 April",
         "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
@@ -33893,9 +33893,9 @@
         "version": "1.03",
         "edition": "Original"
     },
-    "HDD Utility Disc (Japan) (Rev 1)": {
-        "secondary_name": "ユーティリティディスク Version 1.00",
-        "group_name": "HDD Utility Disc",
+    "HDD Utility Disc Version 1.00 (Japan)": {
+        "secondary_name": "ＨＤＤユーティリティディスク　Ｖｅｒｓｉｏｎ １．００",
+        "group_name": "HDD Utility Disc Version 1.00",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "Ja",
@@ -34733,7 +34733,7 @@
     "Buzz! Le Mega Quiz (France)": {
         "secondary_name": "",
         "group_name": "Buzz! Le Mega Quiz",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Fr",
         "version": "1.01",
@@ -37520,9 +37520,9 @@
         "version": "1.01",
         "edition": "Original"
     },
-    "PrePre 2 Volume 4 - 2002 April (Japan)": {
-        "secondary_name": "プレプレ　２　ＶＯＬＵＭＥ　４　～２００２　ＡＰＲＩＬ～",
-        "group_name": "PrePre 2 Volume 4 - 2002 April",
+    "Play-Pre 2 Volume 4 - 2002 April (Japan)": {
+        "secondary_name": "プレプレ　２　ＶＯＬＵＭＥ　４　－２００２　ＡＰＲＩＬ－",
+        "group_name": "Play-Pre 2 Volume 4 - 2002 April",
         "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
@@ -40508,8 +40508,8 @@
         "version": "1.01",
         "edition": "Original"
     },
-    "Utility Disc Version 1.01 (Japan) (Koukan-you)": {
-        "secondary_name": "ユーティリティディスク Version 1.01",
+    "Utility Disc Version 1.01 (Japan) (Alt)": {
+        "secondary_name": "ユーティリティディスク　Ｖｅｒｓｉｏｎ １．０１",
         "group_name": "Utility Disc Version 1.01",
         "status": "Green",
         "disc_type": "CD",
@@ -43424,9 +43424,9 @@
         "version": "1.01",
         "edition": "Original"
     },
-    "PrePre 2 Volume 8 - 2003 August (Japan)": {
-        "secondary_name": "プレプレ　２　ＶＯＬＵＭＥ　８　～２００３　ＡＵＧＵＳＴ～",
-        "group_name": "PrePre 2 Volume 8 - 2003 August",
+    "Play-Pre 2 Volume 8 - 2003 August (Japan)": {
+        "secondary_name": "プレプレ　２　ＶＯＬＵＭＥ　８　－２００３　ＡＵＧＵＳＴ－",
+        "group_name": "Play-Pre 2 Volume 8 - 2003 August",
         "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
@@ -48266,10 +48266,10 @@
         "version": "1.00",
         "edition": "Demo"
     },
-    "Ying Hua Da Zhan - Chi Re Zhi Xie (Asia)": {
+    "Yinghua Dazhan - Chire Zhi Xue (Asia)": {
         "secondary_name": "櫻花大戰 ～熾熱之血～",
-        "group_name": "Ying Hua Da Zhan - Chi Re Zhi Xie",
-        "status": "Blue",
+        "group_name": "Yinghua Dazhan - Chire Zhi Xue",
+        "status": "Green",
         "disc_type": "DVD-9",
         "languages": "Zh",
         "version": "1.00",
@@ -50001,7 +50001,7 @@
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.01",
-        "edition": "Taikenban"
+        "edition": "Hibaihin"
     },
     "SSX Tricky (Asia)": {
         "secondary_name": "極限運動：疾風滑雪板",
@@ -51425,9 +51425,9 @@
         "version": "1.00",
         "edition": "Original"
     },
-    "PrePre 2 Volume 5 - 2002 August (Japan)": {
-        "secondary_name": "プレプレ　２　ＶＯＬＵＭＥ　５　～２００２　ＡＵＧＵＳＴ～",
-        "group_name": "PrePre 2 Volume 5 - 2002 August",
+    "Play-Pre 2 Volume 5 - 2002 August (Japan)": {
+        "secondary_name": "プレプレ　２　ＶＯＬＵＭＥ　５　－２００２　ＡＵＧＵＳＴ－",
+        "group_name": "Play-Pre 2 Volume 5 - 2002 August",
         "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
@@ -53747,9 +53747,9 @@
         "version": "1.00",
         "edition": "Original"
     },
-    "PrePre 2 Volume 3 - 2001 December (Japan)": {
-        "secondary_name": "プレプレ　２　ＶＯＬＵＭＥ　３　～２００１　ＤＥＣＥＭＢＥＲ～",
-        "group_name": "PrePre 2 Volume 3 - 2001 December",
+    "Play-Pre 2 Volume 3 - 2001 December (Japan)": {
+        "secondary_name": "プレプレ　２　ＶＯＬＵＭＥ　３　－２００１　ＤＥＣＥＭＢＥＲ－",
+        "group_name": "Play-Pre 2 Volume 3 - 2001 December",
         "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
@@ -55125,7 +55125,7 @@
         "edition": "Original"
     },
     "Kidou Senshi Gundam - Renpou vs. Zeon DX (Japan) (v1.02)": {
-        "secondary_name": "機動戦士ガンダム 連邦ＶＳ．ジオンＤＸ",
+        "secondary_name": "機動戦士ガンダム　～連邦ＶＳ．ジオンＤＸ～",
         "group_name": "Kidou Senshi Gundam - Renpou vs. Zeon DX",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -56340,7 +56340,7 @@
         "edition": "Gundam the Best"
     },
     "Happy! Happy!! Boarders in Hokkaidou Rusutsu Resort (Japan)": {
-        "secondary_name": "ハッピー! ハッピー!! ボーダーズ",
+        "secondary_name": "ハッピー！　ハッピー！！　ボーダーズ　ｉｎ　Ｈｏｋｋａｉｄｏ　ルスツ　リゾート",
         "group_name": "Happy! Happy!! Boarders in Hokkaidou Rusutsu Resort",
         "status": "Green",
         "disc_type": "CD",
@@ -57393,7 +57393,7 @@
         "edition": ""
     },
     "Kidou Senshi Z Gundam - A.E.U.G. vs. Titans (Japan)": {
-        "secondary_name": "機動戦士Ｚガンダム　エゥーゴ　ＶＳ．　ティターンズ",
+        "secondary_name": "機動戦士Ｚガンダム　～エゥーゴ　ＶＳ．　ティターンズ～",
         "group_name": "Kidou Senshi Z Gundam - A.E.U.G. vs. Titans",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -58851,13 +58851,13 @@
         "edition": "Demo"
     },
     "Ys III - Wanderers from Ys (Japan)": {
-        "secondary_name": "イースIII ワンダラーズフロムイース",
+        "secondary_name": "イースⅢ　ワンダラーズ フロム イース",
         "group_name": "Ys III - Wanderers from Ys",
         "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.05",
-        "edition": "Original, Limited Edition"
+        "edition": "Original, Collection Sleeve Box Set"
     },
     "Shutokou Battle 0 (Japan) (Taikenban)": {
         "secondary_name": "首都高バトル０",
@@ -59930,9 +59930,9 @@
         "version": "1.01",
         "edition": "Original"
     },
-    "PrePre 2 Volume 9 - 2003 December (Japan)": {
-        "secondary_name": "プレプレ　２　ＶＯＬＵＭＥ　９　～２００３　ＤＥＣＥＭＢＥＲ～",
-        "group_name": "PrePre 2 Volume 9 - 2003 December",
+    "Play-Pre 2 Volume 9 - 2003 December (Japan)": {
+        "secondary_name": "プレプレ　２　ＶＯＬＵＭＥ　９　－２００３　ＤＥＣＥＭＢＥＲ－",
+        "group_name": "Play-Pre 2 Volume 9 - 2003 December",
         "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
@@ -63954,7 +63954,7 @@
         "edition": "Original"
     },
     "Ys V - Lost Kefin, Kingdom of Sand (Japan)": {
-        "secondary_name": "イースV ロストケフィン キングダムオブサンド",
+        "secondary_name": "イースV　～ロスト　ケフィン　キングダム　オブ　サンド～",
         "group_name": "Ys V - Lost Kefin, Kingdom of Sand",
         "status": "Blue",
         "disc_type": "DVD-5",
@@ -67689,7 +67689,7 @@
         "edition": "Original"
     },
     "Nogizaka Haruka no Himitsu - Cosplay, Hajimemashita (Japan)": {
-        "secondary_name": "乃木坂春香の秘密 こすぷれ、はじめました♥",
+        "secondary_name": "乃木坂春香の秘密　こすぷれ、はじめました♥",
         "group_name": "Nogizaka Haruka no Himitsu - Cosplay, Hajimemashita",
         "status": "Blue",
         "disc_type": "DVD-5",
@@ -68247,9 +68247,9 @@
         "edition": "Original"
     },
     "Devil Summoner - Kuzunoha Raidou tai Chouriki Heidan (Japan)": {
-        "secondary_name": "デビルサマナー 葛葉ライドウ 対 超力兵団",
+        "secondary_name": "デビル・サマナー　葛葉ライドウ　対　超力兵団",
         "group_name": "Devil Summoner - Kuzunoha Raidou tai Chouriki Heidan",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.00",
@@ -69833,7 +69833,7 @@
     "Kaitou Sly Cooper (Japan) (Taikenban)": {
         "secondary_name": "怪盗　スライ・クーパー",
         "group_name": "Kaitou Sly Cooper",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.00",
@@ -69911,9 +69911,9 @@
         "version": "0.01",
         "edition": "Press Kit"
     },
-    "PrePre 2 Volume 7 - 2003 April - CM Collection (Japan)": {
-        "secondary_name": "プレプレ　２　ＶＯＬＵＭＥ　７　～２００３　ＡＰＲＩＬ　ＣＭ　ＣＯＬＬＥＣＴＩＯＮ～",
-        "group_name": "PrePre 2 Volume 7 - 2003 April - CM Collection",
+    "Play-Pre 2 Volume 7 - 2003 April - CM Collection (Japan)": {
+        "secondary_name": "プレプレ　２　ＶＯＬＵＭＥ　７　－２００３　ＡＰＲＩＬ　ＣＭ　ＣＯＬＬＥＣＴＩＯＮ－",
+        "group_name": "Play-Pre 2 Volume 7 - 2003 April - CM Collection",
         "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
@@ -71279,9 +71279,9 @@
         "version": "1.01",
         "edition": ""
     },
-    "PrePre 2 Volume 2 - 2001 August (Japan)": {
-        "secondary_name": "プレプレ　２　ＶＯＬＵＭＥ　２　～２００１　ＡＵＧＵＳＴ～",
-        "group_name": "PrePre 2 Volume 2 - 2001 August",
+    "Play-Pre 2 Volume 2 - 2001 August (Japan)": {
+        "secondary_name": "プレプレ　２　ＶＯＬＵＭＥ　２　－２００１　ＡＵＧＵＳＴ－",
+        "group_name": "Play-Pre 2 Volume 2 - 2001 August",
         "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
@@ -76952,7 +76952,7 @@
     "Utility Disc (Japan)": {
         "secondary_name": "ユーティリティディスク",
         "group_name": "Utility Disc",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.00",
@@ -80549,14 +80549,14 @@
         "version": "1.03",
         "edition": "Original, Greatest Hits, 5th Anniversary Collection"
     },
-    "Ys - Napishtim no Hako (Japan)": {
-        "secondary_name": "イース -ナピシュテムの匣-",
-        "group_name": "Ys - Napishtim no Hako",
+    "Ys - The Ark of Napishtim (Japan)": {
+        "secondary_name": "イース　～ナピシュテムの匣～",
+        "group_name": "Ys - The Ark of Napishtim",
         "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.03",
-        "edition": "Konami the Best, Shokai Seisanban"
+        "edition": "Shokai Seisanban, Konami the Best"
     },
     "Memory Manager Plus (USA) (Unl) (Version 1.9)": {
         "secondary_name": "",
@@ -81791,9 +81791,9 @@
         "version": "1.02",
         "edition": "Original"
     },
-    "Dot Hack G.U. Terminal Disc - The End of the World (Japan)": {
+    "Dot Hack G.U. Terminal Disc - The End of The World (Japan)": {
         "secondary_name": "",
-        "group_name": "Dot Hack G.U. Terminal Disc - The End of the World",
+        "group_name": "Dot Hack G.U. Terminal Disc - The End of The World",
         "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
@@ -81837,7 +81837,7 @@
         "edition": "Original, Steelbook"
     },
     "PlayStation Index (DVD-ROM-ban) - PlayStation 2 Official Soft Catalog 2002 April (Japan)": {
-        "secondary_name": "",
+        "secondary_name": "プレイステーションＩＮＤＥＸ　〈ＤＶＤ－ＲＯＭ版〉　－ＰｌａｙＳｔａｔｉｏｎ２　Ｏｆｆｉｃｉａｌ　Ｓｏｆｔ　Ｃａｔａｌｏｇ　２００２　ＡＰＲＩＬ－",
         "group_name": "PlayStation Index",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -84932,14 +84932,14 @@
         "version": "1.00",
         "edition": "Original, Promo"
     },
-    "Ka (Japan) (Tentou-you Taikenban)": {
+    "Ka (Japan) (Tentou Taikenban)": {
         "secondary_name": "蚊",
         "group_name": "Ka",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.00",
-        "edition": "Tentou-you Taikenban"
+        "edition": "Tentou Taikenban"
     },
     "Shadow of Memories & Zone of the Enders - Z.O.E - Tentou Houei-you Movie-ban (Japan) (Demo)": {
         "secondary_name": "Shadow of Memories / Zone of the Enders: Z.O.E 店頭放映用ムービー版",
@@ -85968,9 +85968,9 @@
         "edition": "Original, Greatest Hits"
     },
     "Kyoushuu Kikou Butai - Kougeki Helicopter Senki (Japan)": {
-        "secondary_name": "強襲機甲部隊 攻撃ヘリコプター戦記",
+        "secondary_name": "強襲機甲部隊　～攻撃ヘリコプター戦記～",
         "group_name": "Kyoushuu Kikou Butai - Kougeki Helicopter Senki",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.01",
@@ -87459,7 +87459,7 @@
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.02",
-        "edition": "Original, Sengoku Musou 2 Super Premium Pack, Sengoku Musou 2 & 2 Empires Premium Box"
+        "edition": "Original, Sengoku Musou 2 & 2 Empires Premium Box, Sengoku Musou 2 Super Premium Pack"
     },
     "Shine - Kotoba o Tsumui de (Japan)": {
         "secondary_name": "ＳＨＩＮＥ　～言葉を紡いで～",
@@ -89271,9 +89271,9 @@
         "edition": "Original"
     },
     "WRC - World Rally Championship (Japan) (En,Ja)": {
-        "secondary_name": "",
+        "secondary_name": "ＷＲＣ　～ワールド・ラリー・チャンピオンシップ～",
         "group_name": "WRC - World Rally Championship",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En, Ja",
         "version": "1.03",
@@ -89874,9 +89874,9 @@
         "edition": "Original"
     },
     "Dot Hack Fraegment (Japan) (Senkou Release-ban)": {
-        "secondary_name": ".hack//frägment　先行リリース版",
+        "secondary_name": ".hack//frägment",
         "group_name": "Dot Hack Fraegment",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.01",
@@ -90033,6 +90033,15 @@
         "disc_type": "DVD-5",
         "languages": "Zh",
         "version": "1.01",
+        "edition": "Original"
+    },
+    "Langrisser III (Japan)": {
+        "secondary_name": "ラングリッサーⅢ",
+        "group_name": "Langrisser III",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "1.05",
         "edition": "Original"
     }
 }

@@ -3,13 +3,14 @@
 		"name": [
 			"IBM - PC compatible"
 		],
-		"last updated": "14 November 2020"
+		"last updated": "23 November 2020"
 	},
 
 	"compilations": [
 		"4 Games in 1 - Strike Commander + Syndicate Plus + Ultima VIII - Pagan + Wing Commander II (USA)",
 		"Baphomets Fluch Trilogie (Germany)",
 		"Battle Arena Toshinden 2 (Europe) (2in1 Pack)",
+		"Battle Arena Toshinden 2 & Zeitgeist (Germany)",
 		"Bazooka Sue & Turrican II (Germany)",
 		"Bermuda Syndrome & Air Power (Germany)",
 		"Best of Sierra Nr. 10 (Germany)",
@@ -32,6 +33,7 @@
 		"Hallo! 2 (Germany) (Disc 9)",
 		"Jewel Quest & Jewel Quest II (USA)",
 		"Komputer Swiat Gry 10-2003 (Poland)",
+		"Magic Carpet & PGA Tour 96 (USA)",
 		"Maniac Mansion - Day of the Tentacle + Sam &amp; Max Hit the Road",
 		"Oregon Trail II + Logic Quest (USA)",
 		"PC PowerPlay 177 (Australia) (Side B)",
@@ -42,6 +44,16 @@
 		"Tom Clancy's Ghost Recon - Desert Siege + Island Thunder (USA)",
 		"Tomb Raider - The Greatest Raids (Europe)"
 	],
+
+	"conditional_overrides": {
+		"Heimdall 2 (France)": {
+			"new_group": "Heimdall & Heimdall II",
+			"condition": {
+				"region": ["USA"],
+				"higher_than": ["France"]
+			}
+		}
+	},
 
 	"renames": {
 		"007 - Quantum of Solace": [
@@ -882,6 +894,9 @@
 		"Brothers in Arms - Earned in Blood (Disc 4)": [
 			["Brothers in Arms - Earned in Blood", 0]
 		],
+		"Bubble Bobble also featuring Rainbow Islands": [
+			["Bubble Bobble & Rainbow Islands", 1]
+		],
 		"Buccaneer - Postrach Karaibow": [
 			["Buccaneer", 1]
 		],
@@ -969,6 +984,9 @@
 		],
 		"Catan - Die erste Insel": [
 			["Bravo ScreenFun 9-2003", 2]
+		],
+		"Catz - Your Computer Petz": [
+			["Catz", 1]
 		],
 		"CD-ROM Game of Life, The": [
 			["Destins - Le Jeu de la Vie", 1],
@@ -1687,6 +1705,7 @@
 		],
 		"Disney's The Lion King II - Simba's Pride": [
 			["Disney Il Re Leone II - Il Regno di Simba - Gamebreak!", 1],
+			["Disney's The Lion King II - Simba's Pride - Gamebreak!", 1],
 			["Disney's The Lion King II - Simba's Pride - Paddle Bash Plus Bonus Game Conga Longa", 1]
 		],
 		"Disney's The Little Mermaid II - Return to the Sea": [
@@ -3788,6 +3807,24 @@
 		],
 		"Metal Gear Solid 2 - Substance": [
 			["Hejin Zhuangbei 2", 1]
+		],
+		"Metal Gear Solid 2 - Substance (Disc 1) (Disc Version)": [
+			["Metal Gear Solid 2 - Substance", 0]
+		],
+		"Metal Gear Solid 2 - Substance (Disc 2) (Disc Version)": [
+			["Metal Gear Solid 2 - Substance", 0]
+		],
+		"Metal Gear Solid 2 - Substance (Disc 3) (Disc Version)": [
+			["Metal Gear Solid 2 - Substance", 0]
+		],
+		"Metal Gear Solid 2 - Substance (Disc 4) (Disc Version)": [
+			["Metal Gear Solid 2 - Substance", 0]
+		],
+		"Metal Gear Solid 2 - Substance (Disc 5) (Disc Version)": [
+			["Metal Gear Solid 2 - Substance", 0]
+		],
+		"Metal Gear Solid 2 - Substance (Disc 6) (Disc Version)": [
+			["Metal Gear Solid 2 - Substance", 0]
 		],
 		"Microsoft Combat Flight Simulator 2 - WWII Pacific Theater (Disc 1)": [
 			["Microsoft Combat Flight Simulator 2 - 2. Weltkrieg - Kriegsschauplatz Pazifik (Disc 1)", 1]
@@ -6827,6 +6864,9 @@
 		],
 		"Warlords IV - Heroes of Etheria": [
 			["Warlords IV - Bohaterowie Etherii", 1]
+		],
+		"Warriors Orochi": [
+			["Wushuang Shemo", 1]
 		],
 		"Wet - The Sexy Empire": [
 			["Wet - Het Sexy Imperium", 1]

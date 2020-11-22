@@ -1811,7 +1811,7 @@
     "Disney's Donald Duck - Goin' Quackers (USA)": {
         "secondary_name": "",
         "group_name": "Disney's Donald Duck - Goin' Quackers",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -9402,7 +9402,7 @@
         "disc_type": "CD",
         "languages": "En, Ja",
         "version": "",
-        "edition": "Original, PSone Books, Konami the Best"
+        "edition": "Original, Konami the Best, PSone Books"
     },
     "Kon'ya mo Dorubako!! 2000 (Japan)": {
         "secondary_name": "今夜も千両箱！！２０００",
@@ -14240,7 +14240,7 @@
     "Metal Gear Solid (France) (Disc 2)": {
         "secondary_name": "",
         "group_name": "Metal Gear Solid",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Fr",
         "version": "",
@@ -14627,7 +14627,7 @@
     "Mega Man X4 (Europe)": {
         "secondary_name": "",
         "group_name": "Mega Man X4",
-        "status": "Blue",
+        "status": "Yellow",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -15225,7 +15225,7 @@
         "disc_type": "CD",
         "languages": "Fr",
         "version": "",
-        "edition": "Original"
+        "edition": "Original, Platinum"
     },
     "Fear Effect (France) (Disc 1)": {
         "secondary_name": "",
@@ -19509,7 +19509,7 @@
         "disc_type": "CD",
         "languages": "En, Ja",
         "version": "",
-        "edition": "Original, PSone Books, Konami the Best"
+        "edition": "Original, Konami the Best, PSone Books"
     },
     "Jonah Lomu Rugby (France)": {
         "secondary_name": "",
@@ -19586,7 +19586,7 @@
     "Rayman Rush (USA)": {
         "secondary_name": "",
         "group_name": "Rayman Rush",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -20189,7 +20189,7 @@
     "Kids Station - Hello Kitty no Oshaberi ABC (Japan)": {
         "secondary_name": "キッズステーション　ハローキティのおしゃべりＡＢＣ",
         "group_name": "Kids Station - Hello Kitty no Oshaberi ABC",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -36906,7 +36906,7 @@
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
-        "edition": "Original, PSone Books, Konami the Best"
+        "edition": "Original, Konami the Best, PSone Books"
     },
     "UEFA Euro 2000 (Europe)": {
         "secondary_name": "",
@@ -41579,9 +41579,9 @@
         "version": "",
         "edition": "Original"
     },
-    "SD Gundam - G Generation - F.I.F (Japan)": {
-        "secondary_name": "ＳＤガンダム ジージェネレーション‐Ｆ．Ｉ．Ｆ",
-        "group_name": "SD Gundam - G Generation - F.I.F",
+    "SD Gundam - GGeneration-F.I.F (Japan)": {
+        "secondary_name": "ＳＤガンダム　ジージェネレーション・エフイフ",
+        "group_name": "SD Gundam - GGeneration-F.I.F",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "Ja",
@@ -48528,9 +48528,9 @@
         "edition": "Original, Tokyo Majin Gakuen Kenpuuchou Emaki Disc 3"
     },
     "Kids Station - Mickey to Nakama-tachi - Kazu Asobi Iro Iro (Japan)": {
-        "secondary_name": "キッズステーション ミッキーとなかまたち かずあそびいろいろ",
+        "secondary_name": "キッズステーション　ミッキーとなかまたち　かずあそび　いろいろ",
         "group_name": "Kids Station - Mickey to Nakama-tachi - Kazu Asobi Iro Iro",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -65558,7 +65558,7 @@
     "N2O - Nitrous Oxide (USA)": {
         "secondary_name": "",
         "group_name": "N2O - Nitrous Oxide",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -68636,7 +68636,7 @@
     "Dragon Ball Z - Ultimate Battle 22 (France) (EDC)": {
         "secondary_name": "",
         "group_name": "Dragon Ball Z - Ultimate Battle 22",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Fr",
         "version": "EDC",
@@ -78518,7 +78518,7 @@
     "I.Q Final (Japan) (Demo 2)": {
         "secondary_name": "Ｉ．Ｑ　Ｆｉｎａｌ　無料レンタル版",
         "group_name": "I.Q Final",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -79634,7 +79634,7 @@
     "Marble Master (USA)": {
         "secondary_name": "",
         "group_name": "Marble Master",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -83702,7 +83702,7 @@
     "Metal Gear Solid (France) (Disc 1)": {
         "secondary_name": "",
         "group_name": "Metal Gear Solid",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Fr",
         "version": "",
@@ -85979,7 +85979,7 @@
     "Cat in the Hat, The (USA)": {
         "secondary_name": "",
         "group_name": "Cat in the Hat, The",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -92294,7 +92294,7 @@
         "version": "",
         "edition": "Original"
     },
-    "Beat Mania Append GottaMix (Japan)": {
+    "Beat Mania Append GottaMix (Japan, Asia)": {
         "secondary_name": "ビート・マニア　ＡＰＰＥＮＤ　ＧＯＴＴＡＭＩＸ",
         "group_name": "Beat Mania Append GottaMix",
         "status": "Green",
@@ -93303,9 +93303,9 @@
         "edition": "Original"
     },
     "Kids Station - Asobou! Hanasou! Guru Guru Town Hanamaru-kun (Japan)": {
-        "secondary_name": "キッズステーション あそぼう! はなそう! ぐるぐるタウン はなまるくん",
+        "secondary_name": "キッズステーション　あそぼう！　はなそう！　ぐるぐるタウン　はなまるくん",
         "group_name": "Kids Station - Asobou! Hanasou! Guru Guru Town Hanamaru-kun",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -93985,5 +93985,59 @@
         "languages": "No",
         "version": "",
         "edition": "Original"
+    },
+    "CTR - Crash Team Racing (USA) (Beta)": {
+        "secondary_name": "",
+        "group_name": "CTR - Crash Team Racing",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Review"
+    },
+    "Crash Bandicoot 2 - Cortex Strikes Back (Europe) (En,Fr,De,Es,It) (Beta)": {
+        "secondary_name": "",
+        "group_name": "Crash Bandicoot 2 - Cortex Strikes Back",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En, Fr, De, It, Es",
+        "version": "",
+        "edition": "Preview"
+    },
+    "SD Gundam - GGeneration-F (Japan) (Disc 1) (Tokubetsu-ban)": {
+        "secondary_name": "ＳＤガンダム　ジージェネレーション・エフ",
+        "group_name": "SD Gundam - GGeneration-F",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Koudansha 8-shi Rengou Kikaku Tokubetsu-ban"
+    },
+    "SD Gundam - GGeneration-F (Japan) (Disc 2) (Tokubetsu-ban)": {
+        "secondary_name": "ＳＤガンダム　ジージェネレーション・エフ",
+        "group_name": "SD Gundam - GGeneration-F",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Koudansha 8-shi Rengou Kikaku Tokubetsu-ban"
+    },
+    "SD Gundam - GGeneration-F (Japan) (Disc 3) (Tokubetsu-ban)": {
+        "secondary_name": "ＳＤガンダム　ジージェネレーション・エフ",
+        "group_name": "SD Gundam - GGeneration-F",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Koudansha 8-shi Rengou Kikaku Tokubetsu-ban"
+    },
+    "SD Gundam - GGeneration-F (Japan) (Disc 4) (Premium Disc) (Tokubetsu-ban)": {
+        "secondary_name": "ＳＤガンダム　ジージェネレーション・エフ",
+        "group_name": "SD Gundam - GGeneration-F",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Koudansha 8-shi Rengou Kikaku Tokubetsu-ban"
     }
 }

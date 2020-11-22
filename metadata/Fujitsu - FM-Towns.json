@@ -800,13 +800,13 @@
         "version": "",
         "edition": "Original"
     },
-    "SimCity (Japan) (Rev 1)": {
+    "SimCity (Japan) (En,Ja)": {
         "secondary_name": "シム・シティ",
         "group_name": "SimCity",
         "status": "Green",
         "disc_type": "CD",
-        "languages": "",
-        "version": "Rev 1",
+        "languages": "En, Ja",
+        "version": "",
         "edition": "FM Towns Soft Collection Kaigai-hen Vol. 6"
     },
     "Super Real Mahjong PIV (Japan)": {
@@ -2240,9 +2240,9 @@
         "version": "",
         "edition": "Original"
     },
-    "Mahjong Bishoujoden Ripple (Japan)": {
+    "Mahjong Bishoujoden Lipple (Japan)": {
         "secondary_name": "麻雀美少女伝リップル",
-        "group_name": "Mahjong Bishoujoden Ripple",
+        "group_name": "Mahjong Bishoujoden Lipple",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "Ja",
@@ -3656,7 +3656,7 @@
     "ImageFight (Japan)": {
         "secondary_name": "イメージファイト",
         "group_name": "ImageFight",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "1.00",
@@ -4232,6 +4232,141 @@
     "Collector D - Bangai-hen - Gokurakudai Nishichiku Sales Daisakusen (Japan)": {
         "secondary_name": "コレクターＤ　番外編　極楽台西地区セールス大作戦",
         "group_name": "Collector D - Bangai-hen - Gokurakudai Nishichiku Sales Daisakusen",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Gokichi-kun Series - Igo Nyuumon Doujou (Japan)": {
+        "secondary_name": "碁キチくんシリーズ　囲碁入門道場",
+        "group_name": "Gokichi-kun Series - Igo Nyuumon Doujou",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Digital Pinup Girls Vol. 1 - Sexy Shooting (Japan)": {
+        "secondary_name": "",
+        "group_name": "Digital Pinup Girls Vol. 1 - Sexy Shooting",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Hyper Planet for Marty (Japan)": {
+        "secondary_name": "ハイパー・プラネット",
+        "group_name": "Hyper Planet for Marty",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Hyper Planet Shiki Vol. 1 (Japan)": {
+        "secondary_name": "ハイパー・プラネット四季ＶＯＬ．１",
+        "group_name": "Hyper Planet Shiki Vol. 1",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Igo II (Japan)": {
+        "secondary_name": "囲碁Ⅱ",
+        "group_name": "Igo II",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Jangou 4 (Japan)": {
+        "secondary_name": "雀豪４",
+        "group_name": "Jangou 4",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Mahjong Gensoukyoku II - Mahjong Fantasia (Japan)": {
+        "secondary_name": "麻雀幻想曲Ⅱ",
+        "group_name": "Mahjong Gensoukyoku II - Mahjong Fantasia",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Mahjong Gensoukyoku III - Mahjong Fantasia the 3rd Stage (Japan)": {
+        "secondary_name": "麻雀幻想曲Ⅲ",
+        "group_name": "Mahjong Gensoukyoku III - Mahjong Fantasia the 3rd Stage",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Many Colors (Japan) (Rev A)": {
+        "secondary_name": "",
+        "group_name": "Many Colors",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "Rev A",
+        "edition": "Original"
+    },
+    "Nemurenu Yoru no Chiisana Ohanashi (Japan)": {
+        "secondary_name": "眠れぬ夜の小さなお話",
+        "group_name": "Nemurenu Yoru no Chiisana Ohanashi",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "NHK Jissen Eikaiwa - English Conversation Program (Japan) (Rev A)": {
+        "secondary_name": "ＮＨＫ実践英会話",
+        "group_name": "NHK Jissen Eikaiwa - English Conversation Program",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "Rev A",
+        "edition": "Original"
+    },
+    "Nihon no Yachou (Japan) (FM Towns Marty Rerelease)": {
+        "secondary_name": "日本の野鳥",
+        "group_name": "Nihon no Yachou",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "FM Towns Marty Rerelease"
+    },
+    "Sensual Angels (Japan)": {
+        "secondary_name": "センシャル・エンジェル",
+        "group_name": "Sensual Angels",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "FM Towns Release"
+    },
+    "Volfied (Japan)": {
+        "secondary_name": "ヴォルフィード",
+        "group_name": "Volfied",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Ving Vol. 9"
+    },
+    "F-BASIC386 V1.1L21 (Japan)": {
+        "secondary_name": "",
+        "group_name": "F-BASIC386 V1.1L21",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "Ja",

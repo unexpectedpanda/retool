@@ -3,7 +3,7 @@
 		"name": [
 			"Philips - CD-i"
 		],
-		"last updated": "15 November 2020"
+		"last updated": "23 November 2020"
 	},
 
 	"renames": {
@@ -55,7 +55,7 @@
 			["Malarskolan", 1]
 		],
 		"Palm Springs Open, The": [
-			["L'Open de Palm Springs", 1]
+			["Open de Palm Springs, L'", 1]
 		],
 		"Portrait of a City - Venice": [
 			["Ritratto di Citta - Venezia", 1]
@@ -70,6 +70,9 @@
 		],
 		"Scotland Yard Interactive": [
 			["Scotland Yard Interactif", 1]
+		],
+		"St. Petersbourg et les Tresors de l'Ermitage - The Art of the Czars": [
+			["Arte degli Zar, L' - San Pietroburgo e i Tesori dell'Ermitage", 1]
 		],
 		"Thunder in Paradise (Disc 1) (The Game)": [
 			["Caraibes Offshore", 1],
@@ -87,7 +90,7 @@
 			["Video Speedway - Grand Prix", 1]
 		],
 		"Ville Surprise de Richard Scarry 1, La": [
-			["La Citta piu Felice del Mondo! di Richard Scarry", 1],
+			["Citta piu Felice del Mondo! di Richard Scarry, La", 1],
 			["Richard Scarry's Allerbeste Buurt Disc!", 1]
 		],
 		"Ville Surprise de Richard Scarry 2, La": [

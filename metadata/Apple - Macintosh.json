@@ -3652,5 +3652,50 @@
         "languages": "",
         "version": "",
         "edition": "Covermount"
+    },
+    "CD-ROM MacLife No. 37 (Japan)": {
+        "secondary_name": "",
+        "group_name": "CD-ROM MacLife No. 37",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Covermount"
+    },
+    "CD-ROM MacLife No. 38 (Japan)": {
+        "secondary_name": "",
+        "group_name": "CD-ROM MacLife No. 38",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Covermount"
+    },
+    "CD-ROM MacLife No. 39 (Japan)": {
+        "secondary_name": "",
+        "group_name": "CD-ROM MacLife No. 39",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Covermount"
+    },
+    "CD-ROM MacLife No. 40 (Japan)": {
+        "secondary_name": "",
+        "group_name": "CD-ROM MacLife No. 40",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Covermount"
+    },
+    "Star Wars - X-Wing - Collector's CD-ROM (Japan)": {
+        "secondary_name": "",
+        "group_name": "Star Wars - X-Wing - Collector's CD-ROM",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "1.0",
+        "edition": "Original"
     }
 }
