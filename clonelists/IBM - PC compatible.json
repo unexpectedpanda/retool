@@ -3,7 +3,7 @@
 		"name": [
 			"IBM - PC compatible"
 		],
-		"last updated": "23 November 2020"
+		"last updated": "29 November 2020"
 	},
 
 	"compilations": [
@@ -2429,8 +2429,7 @@
 		],
 		"Football Generation": [
 			["Calcio 2003", 1],
-			["Football Generation (9C6C6A1A)", 1],
-			["Football Generation (C66B89E6)", 2]
+			["Football Generation (Nestle Nesquik)", 2]
 		],
 		"Football Limited": [
 			["Bundesliga Manager Hattrick", 1]
@@ -4321,6 +4320,10 @@
 		"Pazifik Admiral": [
 			["PC Player Plus 7-99 C", 1]
 		],
+		"Payuta": [
+			["Payuta - Beiji Yongzhe", 1],
+			["Payuta i Bog Lodu", 1]
+		],
 		"PC Futbol 5.0": [
 			["PC Calcio 5.0 - Temporada 96-97", 1]
 		],
@@ -5342,6 +5345,18 @@
 		],
 		"Sherlock Holmes - The Secret of the Silver Earring": [
 			["Sherlock Holmes Trilogy", -1]
+		],
+		"Shin Seiki Evangelion - Koutetsu no Girlfriend (Disc 1)": [
+			["Shin Seiki Evangelion - Koutetsu no Girlfriend Tokubetsu-hen", -1]
+		],
+		"Shin Seiki Evangelion - Koutetsu no Girlfriend (Disc 2)": [
+			["Shin Seiki Evangelion - Koutetsu no Girlfriend Tokubetsu-hen", -1]
+		],
+		"Shin Seiki Evangelion - Koutetsu no Girlfriend (Disc 3)": [
+			["Shin Seiki Evangelion - Koutetsu no Girlfriend Tokubetsu-hen", -1]
+		],
+		"Shin Seiki Evangelion - Koutetsu no Girlfriend (Disc 4)": [
+			["Shin Seiki Evangelion - Koutetsu no Girlfriend Tokubetsu-hen", -1]
 		],
 		"Ship, The": [
 			["Ship, The - Moerder Ahoi", 1]

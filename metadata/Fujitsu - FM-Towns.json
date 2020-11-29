@@ -1415,7 +1415,7 @@
     "Nova - Miirareta Shitai (Japan)": {
         "secondary_name": "ノヴァ　～魅入られた肢体～",
         "group_name": "Nova - Miirareta Shitai",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -2231,12 +2231,12 @@
         "version": "",
         "edition": "Original"
     },
-    "Fujitsu Air Warrior V2 - Version 2.1 Level 10 (Japan)": {
+    "Fujitsu Air Warrior V2 - Version 2.1 Level 10 (Japan) (En,Ja)": {
         "secondary_name": "富士通　ＡＩＲ　ＷＡＲＲＩＯＲ　Ｖ２",
         "group_name": "Fujitsu Air Warrior V2 - Version 2.1 Level 10",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "En, Ja",
         "version": "",
         "edition": "Original"
     },
@@ -4367,6 +4367,78 @@
     "F-BASIC386 V1.1L21 (Japan)": {
         "secondary_name": "",
         "group_name": "F-BASIC386 V1.1L21",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Heike Monogatari (Joukan) (Japan)": {
+        "secondary_name": "平家物語（上巻）",
+        "group_name": "Heike Monogatari",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Alice no Yakata CD II (Japan)": {
+        "secondary_name": "ＡＬＩＣＥ館ＣＤⅡ",
+        "group_name": "Alice no Yakata CD II",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Ayumi-chan Monogatari - Jisshaban (Japan)": {
+        "secondary_name": "あゆみちゃん物語　【実写版】",
+        "group_name": "Ayumi-chan Monogatari - Jisshaban",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Crystal Rinal - Ouma no Meikyuu (Japan)": {
+        "secondary_name": "クリスタル・リナール 　～逢魔の迷宮～",
+        "group_name": "Crystal Rinal - Ouma no Meikyuu",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "PC-9821 Release"
+    },
+    "Dennou Ehon - Kyouryuu no Sekai (Japan)": {
+        "secondary_name": "電脳絵本　恐竜の世界",
+        "group_name": "Dennou Ehon - Kyouryuu no Sekai",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Can Can Bunny Extra (Japan)": {
+        "secondary_name": "きゃんきゃんバニー　エクストラ",
+        "group_name": "Can Can Bunny Extra",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "PowerMonger (Japan)": {
+        "secondary_name": "",
+        "group_name": "PowerMonger",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Tenka Gomen (Japan)": {
+        "secondary_name": "天下御免",
+        "group_name": "Tenka Gomen",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "Ja",
