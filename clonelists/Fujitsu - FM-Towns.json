@@ -3,12 +3,13 @@
 		"name": [
 			"Fujitsu - FM-Towns"
 		],
-		"last updated": "20 September 2020"
+		"last updated": "29 November 2020"
 	},
 
 	"renames": {
-		"F-BASIC386 V1.1L20": [
-			["F-BASIC386 V1.1L10", 2]
+		"F-BASIC386 V1.1L21": [
+			["F-BASIC386 V1.1L20", 2],
+			["F-BASIC386 V1.1L10", 3]
 		],
 		"F-BASIC386 Compiler V2.1L10": [
 			["F-BASIC386 Compiler V1.1L21", 2]

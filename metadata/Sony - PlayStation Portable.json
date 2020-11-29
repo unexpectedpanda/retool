@@ -749,7 +749,7 @@
     "Buzz! Master Quiz (Europe)": {
         "secondary_name": "",
         "group_name": "Buzz! Master Quiz",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "UMD (SL)",
         "languages": "En",
         "version": "1.00",
@@ -2954,7 +2954,7 @@
     "NBA Live 07 (Europe) (En,De,It)": {
         "secondary_name": "",
         "group_name": "NBA Live 07",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "UMD (DL)",
         "languages": "En, De, It",
         "version": "1.00",
@@ -5978,11 +5978,11 @@
     "Naruto Shippuden - Ultimate Ninja Impact (Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "Naruto Shippuden - Ultimate Ninja Impact",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "UMD (DL)",
         "languages": "En, Fr, De, It, Es",
         "version": "1.01",
-        "edition": "PSP Essentials"
+        "edition": "Original, PSP Essentials"
     },
     "Neverland Card Battles (USA)": {
         "secondary_name": "",
@@ -16274,11 +16274,11 @@
     "Shaun White Snowboarding (Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "Shaun White Snowboarding",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "UMD (SL)",
         "languages": "En, Fr, De, It, Es",
         "version": "1.01",
-        "edition": "PSP Essentials"
+        "edition": "Original, PSP Essentials"
     },
     "Tenchu - Shinobi Taizen (Japan)": {
         "secondary_name": "天誅 忍大全",
@@ -16877,7 +16877,7 @@
     "M.A.C.H. - Modified Air Combat Heroes (Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "",
         "group_name": "M.A.C.H. - Modified Air Combat Heroes",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "UMD (SL)",
         "languages": "En, Fr, De, It, Es",
         "version": "1.02",
@@ -19420,5 +19420,14 @@
         "languages": "Ja",
         "version": "1.00",
         "edition": "W Pack"
+    },
+    "DreamWorks Vecinos Invasores - Hammy Enloquece (Spain)": {
+        "secondary_name": "",
+        "group_name": "DreamWorks Vecinos Invasores - Hammy Enloquece",
+        "status": "Blue",
+        "disc_type": "UMD (SL)",
+        "languages": "Es",
+        "version": "1.02",
+        "edition": "Original"
     }
 }

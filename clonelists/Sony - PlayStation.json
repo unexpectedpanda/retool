@@ -3,7 +3,7 @@
         "name": [
 			"Sony - PlayStation"
 		],
-        "last updated": "14 November 2020"
+        "last updated": "29 November 2020"
     },
 
     "overrides": {
@@ -2201,8 +2201,18 @@
 		"SD Gundam - GGeneration (Premium Disc)": [
 			["SD Gundam - GGeneration", 2]
 		],
-		"SD Gundam - GGeneration-F (Disc 4) (Premium Disc) (Limited Edition)": [
-			["SD Gundam - GGeneration-F (Disc 4) (Premium Disc)", 2]
+		"SD Gundam - GGeneration-F (Disc 1) (Tokubetsu-ban)": [
+			["SD Gundam - GGeneration-F (Disc 1)", 2]
+		],
+		"SD Gundam - GGeneration-F (Disc 2) (Tokubetsu-ban)": [
+			["SD Gundam - GGeneration-F (Disc 2)", 2]
+		],
+		"SD Gundam - GGeneration-F (Disc 3) (Tokubetsu-ban)": [
+			["SD Gundam - GGeneration-F (Disc 3)", 2]
+		],
+		"SD Gundam - GGeneration-F (Disc 4) (Premium Disc) (Tokubetsu-ban)": [
+			["SD Gundam - GGeneration-F (Disc 4) (Premium Disc) (Limited Edition)", 2],
+			["SD Gundam - GGeneration-F (Disc 4) (Premium Disc)", 3]
 		],
 		"Sentient": [
 			["Sentient - Explore the Infinite", 1]

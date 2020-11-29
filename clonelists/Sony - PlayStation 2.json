@@ -3,7 +3,7 @@
         "name": [
 			["Sony - PlayStation 2", 1]
 		],
-        "last updated": "23 November 2020"
+        "last updated": "29 November 2020"
     },
 
     "compilations": [
@@ -1075,6 +1075,7 @@
 			["Gran Turismo 4", 2]
 		],
 		"Gran Turismo 4 - Prologue (PlayStation 2 Racing Pack Doukonban)": [
+			["Gran Turismo 4 - Prologue (PlayStation 2 Racing Pack)", 1],
 			["Gran Turismo 4 - Prologue", 2]
 		],
 		"Gran Turismo Concept - 2002 Tokyo-Geneva": [
@@ -1160,7 +1161,8 @@
 			["Harry Potter og Mysteriekammeret", 1],
 			["Harry Potter to Himitsu no Heya", 1],
 			["Harry Potter und die Kammer des Schreckens", 1],
-			["Harry Potter y la Camara Secreta", 1]
+			["Harry Potter y la Camara Secreta", 1],
+			["Harry Potter to Himitsu no Heya (Coca-Cola Kenshouhin)", 2]
 		],
 		"Harry Potter and the Order of the Phoenix": [
 			["Harry Potter to Fushichou no Kishidan", 1]
@@ -1745,10 +1747,11 @@
 		],
 		"Nickelodeon SpongeBob SquarePants - Lights, Camera, Pants!": [
 			["Nickelodeon SpongeBob SquarePants - Licht uit, Camera aan!", 1],
+			["Nickelodeon Bob Esponja - Luces, Camara, Esponja!", 1],
 			["Nickelodeon Bob L'eponge - Silence on Tourne!", 1],
-			["Nickelodeon SpongeBob Schwammkopf - Film ab!", 1],
 			["Nickelodeon SpongeBob - Ciak si Gira!", 1],
-			["Nickelodeon Bob Esponja - Luces, Camara, Esponja!", 1]
+			["Nickelodeon SpongeBob Schwammkopf - Film ab!", 1],
+			["Nickelodeon Svampbob Fyrkant - Tystnad, Tagning, Tvaettsvamp!", 1]
 		],
 		"Nickelodeon SpongeBob SquarePants - The Movie": [
 			["Nickelodeon SpongeBob - Il Film", 1],
@@ -2225,9 +2228,10 @@
 			["Shin Megami Tensei III - Nocturne Maniax - Chronicle Edition", -1],
 			["Jin Yeosin Jeonsaeng III - Nocturne", 1],
 			["Shin Megami Tensei - Lucifer's Call", 1],
-			["Shin Megami Tensei III - Nocturne", 1],
-			["Shin Megami Tensei III - Nocturne (Tsutaya Original Version)", 2],
-			["Shin Megami Tensei III - Nocturne (Deluxe Pack)", 3]
+			["Shin Megami Tensei III - Nocturne Maniax", 1],
+			["Shin Megami Tensei III - Nocturne", 2],
+			["Shin Megami Tensei III - Nocturne (Tsutaya Original Version)", 3],
+			["Shin Megami Tensei III - Nocturne (Deluxe Pack)", 4]
 		],
 		"Shin Megami Tensei - Persona 3": [
 			["Shin Megami Tensei - Persona 3 FES", -1],

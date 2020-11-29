@@ -2297,7 +2297,7 @@
     "Thrasher - Skate and Destroy (USA)": {
         "secondary_name": "",
         "group_name": "Thrasher - Skate and Destroy",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -3672,7 +3672,7 @@
         "edition": "Original"
     },
     "Wild Arms - 2nd Ignition (Japan) (Disc 1)": {
-        "secondary_name": "ワイルドアームズ セカンドイグニッション",
+        "secondary_name": "ワイルドアームズ　セカンドイグニッション",
         "group_name": "Wild Arms - 2nd Ignition",
         "status": "Green",
         "disc_type": "CD",
@@ -5049,7 +5049,7 @@
         "edition": "Original"
     },
     "Wizardry - Dimguil (Japan)": {
-        "secondary_name": "ウィザードリィ ～ディンギル～",
+        "secondary_name": "ウィザードリィ　～ディンギル～",
         "group_name": "Wizardry - Dimguil",
         "status": "Blue",
         "disc_type": "CD",
@@ -28538,12 +28538,12 @@
         "version": "",
         "edition": "Original"
     },
-    "PlayStation Programmer Tool - Runtime Library Version 3.3 (Japan)": {
+    "PlayStation Programmer Tool - Runtime Library Version 3.3 (Japan) (En,Ja)": {
         "secondary_name": "",
         "group_name": "PlayStation Programmer Tool - Runtime Library Version 3.3",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
-        "languages": "En",
+        "languages": "En, Ja",
         "version": "",
         "edition": "Original"
     },
@@ -47061,7 +47061,7 @@
         "edition": "Original"
     },
     "Wild Arms - 2nd Ignition (Japan) (Disc 2) (Rev 1)": {
-        "secondary_name": "ワイルドアームズ　セカンドイグニション",
+        "secondary_name": "ワイルドアームズ　セカンドイグニッション",
         "group_name": "Wild Arms - 2nd Ignition",
         "status": "Green",
         "disc_type": "CD",
@@ -47328,7 +47328,7 @@
         "disc_type": "CD",
         "languages": "En",
         "version": "",
-        "edition": "Original"
+        "edition": "Original, Trade Demo"
     },
     "Wedding Peach - Doki Doki Oiro-naoshi (Japan)": {
         "secondary_name": "ウェディングピーチ　ドキドキお色直し",
@@ -58106,7 +58106,7 @@
     "Family Game Pack (USA)": {
         "secondary_name": "",
         "group_name": "Family Game Pack",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -61929,7 +61929,7 @@
         "edition": "Original"
     },
     "Wild Arms - 2nd Ignition (Japan) (Disc 1) (Rev 1)": {
-        "secondary_name": "ワイルドアームズ　セカンドイグニション",
+        "secondary_name": "ワイルドアームズ　セカンドイグニッション",
         "group_name": "Wild Arms - 2nd Ignition",
         "status": "Green",
         "disc_type": "CD",
@@ -69578,8 +69578,8 @@
         "version": "",
         "edition": "Original"
     },
-    "Wild Arms - 2nd Ignition (Japan) (Demo)": {
-        "secondary_name": "ワイルドアームズ セカンドイグニッション",
+    "Wild Arms - 2nd Ignition (Japan) (Demo 1)": {
+        "secondary_name": "ワイルドアームズ　セカンドイグニッション",
         "group_name": "Wild Arms - 2nd Ignition",
         "status": "Green",
         "disc_type": "CD",
@@ -70323,7 +70323,7 @@
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
-        "edition": "Original"
+        "edition": "Original, The Best Buy"
     },
     "Akagawa Jiro - Yasoukyoku (Japan)": {
         "secondary_name": "赤川次郎 夜想曲",
@@ -74970,7 +74970,7 @@
         "edition": "Original"
     },
     "Densha de Go! Professional Shiyou (Japan)": {
-        "secondary_name": "電車でＧＯ！プロフェッショナル仕様",
+        "secondary_name": "電車でＧＯ！　プロフェッショナル仕様",
         "group_name": "Densha de Go! Professional Shiyou",
         "status": "Green",
         "disc_type": "CD",
@@ -85752,7 +85752,7 @@
         "edition": "Unlicensed"
     },
     "Wild Arms - 2nd Ignition (Japan) (Disc 2)": {
-        "secondary_name": "ワイルドアームズ セカンドイグニッション",
+        "secondary_name": "ワイルドアームズ　セカンドイグニッション",
         "group_name": "Wild Arms - 2nd Ignition",
         "status": "Green",
         "disc_type": "CD",
@@ -94039,5 +94039,59 @@
         "languages": "Ja",
         "version": "",
         "edition": "Koudansha 8-shi Rengou Kikaku Tokubetsu-ban"
+    },
+    "Ojousama Express (Japan) (Demo)": {
+        "secondary_name": "お嬢様特急",
+        "group_name": "Ojousama Express",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Taikenban"
+    },
+    "Densha de Go! Professional Shiyou (Japan) (Demo)": {
+        "secondary_name": "電車でＧＯ！　プロフェッショナル仕様",
+        "group_name": "Densha de Go! Professional Shiyou",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Taikenban"
+    },
+    "Wild Arms - 2nd Ignition (Japan) (Demo 2)": {
+        "secondary_name": "ワイルドアームズ　セカンドイグニッション",
+        "group_name": "Wild Arms - 2nd Ignition",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Tentou-you Movie Disc"
+    },
+    "Total NBA '96 (Japan) (Demo)": {
+        "secondary_name": "",
+        "group_name": "Total NBA '96",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Trial Disc"
+    },
+    "Puzz Loop (Japan) (Demo)": {
+        "secondary_name": "パズループ",
+        "group_name": "Puzz Loop",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Taikenban"
+    },
+    "Uno (Japan)": {
+        "secondary_name": "ウノ",
+        "group_name": "Uno",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
     }
 }

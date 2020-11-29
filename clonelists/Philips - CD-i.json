@@ -3,13 +3,16 @@
 		"name": [
 			"Philips - CD-i"
 		],
-		"last updated": "23 November 2020"
+		"last updated": "29 November 2020"
 	},
 
 	"renames": {
 		"7th Guest, The (Disc 1) (The Game)": [
 			["7th Guest, The (Disc 1) (Das Spiel)", 1],
 			["7th Guest, The (Disc 1) (Le Jeu)", 1]
+		],
+		"Child is Born, A": [
+			["Nasce un Bambino", 1]
 		],
 		"Alice in Wonderland": [
 			["Alice au Pays des Merveilles", 1]
@@ -81,6 +84,9 @@
 		"Tim et Ted a l'Aeroport": [
 			["Tim & Beer op het Vliegveld", 1]
 		],
+		"Tim et Ted - A l' Hopital": [
+			["Tim & Beer in het Ziekenhuis", 1]
+		],
 		"Time Life Presents - 35mm Photography": [
 			["Time Life Photography", 1],
 			["Time Life Presenta - La Fotografia in 35mm", 1],
@@ -96,7 +102,8 @@
 		"Ville Surprise de Richard Scarry 2, La": [
 			["Richard Scarry's Allerdrukste Buurt Disc!", 1]
 		],
-		"Voyeur ...Don't Get Caught": [
+		"Voyeur": [
+			["Voyeur ...Don't Get Caught", 1],
 			["Voyeur ...lass Dich nicht erwischen!", 1]
 		],
 		"Zelda - The Wand of Gamelon": [

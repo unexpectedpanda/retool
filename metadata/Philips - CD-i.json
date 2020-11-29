@@ -224,12 +224,12 @@
         "version": "",
         "edition": "Original"
     },
-    "Jigsaw - Das elektronische Puzzlespiel (Germany)": {
+    "Jigsaw - The Ultimate Electronic Puzzle (Europe)": {
         "secondary_name": "",
-        "group_name": "Jigsaw - Das elektronische Puzzlespiel",
-        "status": "Blue",
+        "group_name": "Jigsaw - The Ultimate Electronic Puzzle",
+        "status": "Green",
         "disc_type": "CD",
-        "languages": "De",
+        "languages": "En",
         "version": "",
         "edition": "Original"
     },
@@ -420,7 +420,7 @@
         "disc_type": "CD",
         "languages": "Fr",
         "version": "",
-        "edition": "Original"
+        "edition": "Original, For Demonstration Only"
     },
     "Tim & Beer in het Ziekenhuis (Netherlands)": {
         "secondary_name": "",
@@ -1187,9 +1187,9 @@
         "version": "",
         "edition": "Original"
     },
-    "Brain Dead 13 (Europe)": {
+    "BrainDead 13 (Europe)": {
         "secondary_name": "",
-        "group_name": "Brain Dead 13",
+        "group_name": "BrainDead 13",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "En",
@@ -1628,7 +1628,7 @@
         "version": "",
         "edition": "Original"
     },
-    "Jigsaw - The Ultimate Electronic Puzzle (Europe)": {
+    "Jigsaw - The Ultimate Electronic Puzzle (Europe) (Rerelease)": {
         "secondary_name": "",
         "group_name": "Jigsaw - The Ultimate Electronic Puzzle",
         "status": "Blue",
@@ -1716,7 +1716,7 @@
         "disc_type": "CD",
         "languages": "En",
         "version": "1.09",
-        "edition": "Original"
+        "edition": "Original, For Demonstration Only"
     },
     "Drug Wars (Europe)": {
         "secondary_name": "",
@@ -2582,7 +2582,7 @@
         "version": "",
         "edition": "Original"
     },
-    "Alien Gate (USA)": {
+    "Alien Gate (USA) (19930714)": {
         "secondary_name": "",
         "group_name": "Alien Gate",
         "status": "Blue",
@@ -2963,11 +2963,11 @@
     "Time Life Presente - La Photographie 24 x 36 mm (France)": {
         "secondary_name": "",
         "group_name": "Time Life Presente - La Photographie 24 x 36 mm",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Fr",
         "version": "",
-        "edition": "Original"
+        "edition": "Original, Demonstration Disc"
     },
     "Cartoon Jukebox (France)": {
         "secondary_name": "",
@@ -3418,5 +3418,248 @@
         "languages": "En",
         "version": "",
         "edition": "Original"
+    },
+    "3rd Degree (USA)": {
+        "secondary_name": "",
+        "group_name": "3rd Degree",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Original"
+    },
+    "Playboy's Complete Massage (France)": {
+        "secondary_name": "",
+        "group_name": "Playboy's Complete Massage",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "1.01",
+        "edition": "Original"
+    },
+    "Mad Dog McCree (Italy)": {
+        "secondary_name": "",
+        "group_name": "Mad Dog McCree",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "It",
+        "version": "1.02",
+        "edition": "Original"
+    },
+    "Tim et Ted - A l' Hopital (France)": {
+        "secondary_name": "",
+        "group_name": "Tim et Ted - A l' Hopital",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Fr",
+        "version": "1.03",
+        "edition": "Original"
+    },
+    "Nasce un Bambino (Italy)": {
+        "secondary_name": "",
+        "group_name": "Nasce un Bambino",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "It",
+        "version": "1.03",
+        "edition": "Original"
+    },
+    "Destination Great Britain - Central and Northern England (Canada)": {
+        "secondary_name": "",
+        "group_name": "Destination Great Britain - Central and Northern England",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Original"
+    },
+    "Destination Great Britain - England's West Country (Canada)": {
+        "secondary_name": "",
+        "group_name": "Destination Great Britain - England's West Country",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Original"
+    },
+    "Destination Great Britain - Wales (Canada)": {
+        "secondary_name": "",
+        "group_name": "Destination Great Britain - Wales",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Original"
+    },
+    "Voyeur (USA)": {
+        "secondary_name": "",
+        "group_name": "Voyeur",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Original"
+    },
+    "Anne Willan Presents the Food of France (USA)": {
+        "secondary_name": "",
+        "group_name": "Anne Willan Presents the Food of France",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Original: Longbox, Demonstration Disc"
+    },
+    "Burn-Cycle (USA)": {
+        "secondary_name": "",
+        "group_name": "Burn-Cycle",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Demonstration Disc"
+    },
+    "Explorations of Space (USA)": {
+        "secondary_name": "",
+        "group_name": "Explorations of Space",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": ""
+    },
+    "Jigsaw - The Ultimate Electronic Puzzle (USA)": {
+        "secondary_name": "",
+        "group_name": "Jigsaw - The Ultimate Electronic Puzzle",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original: Longbox"
+    },
+    "Mathtrak K1 (USA)": {
+        "secondary_name": "",
+        "group_name": "Mathtrak K1",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Original"
+    },
+    "Noah's Ark (USA)": {
+        "secondary_name": "",
+        "group_name": "Noah's Ark",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Original: Longbox"
+    },
+    "Shorelines (USA)": {
+        "secondary_name": "",
+        "group_name": "Shorelines",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": ""
+    },
+    "Weather Kitchen, The (USA)": {
+        "secondary_name": "",
+        "group_name": "Weather Kitchen, The",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Original"
+    },
+    "World Communities (USA)": {
+        "secondary_name": "",
+        "group_name": "World Communities",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": ""
+    },
+    "Alien Gate (USA) (19930805)": {
+        "secondary_name": "",
+        "group_name": "Alien Gate",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Antonio Vega - Oceano del Sol (Spain)": {
+        "secondary_name": "",
+        "group_name": "Antonio Vega - Oceano del Sol",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Passport Scotch"
+    },
+    "Destination Great Britain - London and Southern England (Canada)": {
+        "secondary_name": "",
+        "group_name": "Destination Great Britain - London and Southern England",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Original"
+    },
+    "Memory Works, The - For Names and Faces (USA)": {
+        "secondary_name": "",
+        "group_name": "Memory Works, The - For Names and Faces",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": ""
+    },
+    "Getting Ahead - Making Time (Europe)": {
+        "secondary_name": "",
+        "group_name": "Getting Ahead - Making Time",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Getting Ahead - Managing Your Boss (Europe)": {
+        "secondary_name": "",
+        "group_name": "Getting Ahead - Managing Your Boss",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Getting Ahead - Money at Work (Europe)": {
+        "secondary_name": "",
+        "group_name": "Getting Ahead - Money at Work",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Getting Ahead - Presentation Skills (Europe)": {
+        "secondary_name": "",
+        "group_name": "Getting Ahead - Presentation Skills",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Mother Goose - Rhymes to Color (Europe)": {
+        "secondary_name": "",
+        "group_name": "Mother Goose - Rhymes to Color",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": ""
     }
 }

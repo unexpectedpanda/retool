@@ -1748,11 +1748,11 @@
     "Saishuu Heiki Kanojo (Japan)": {
         "secondary_name": "最終兵器彼女",
         "group_name": "Saishuu Heiki Kanojo",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.01",
-        "edition": "Konami the Best"
+        "edition": "Original, Konami the Best"
     },
     "Army Men - Green Rogue (Europe) (En,Fr,De,Es,It)": {
         "secondary_name": "",
@@ -1784,7 +1784,7 @@
     "Xenosaga Episode III - Also sprach Zarathustra (Japan) (Disc 1)": {
         "secondary_name": "ゼノサーガ・エピソードⅢ　～ツァラトゥストラはかく語りき～",
         "group_name": "Xenosaga Episode III - Also sprach Zarathustra",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.01",
@@ -4319,10 +4319,10 @@
         "version": "1.00",
         "edition": "Original"
     },
-    "Le Maillon Faible (France)": {
+    "Maillon Faible, Le (France)": {
         "secondary_name": "",
-        "group_name": "Le Maillon Faible",
-        "status": "Blue",
+        "group_name": "Maillon Faible, Le",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Fr",
         "version": "1.00",
@@ -7175,9 +7175,9 @@
     "Beatmania II DX 7th Style (Japan)": {
         "secondary_name": "ビートマニアⅡＤＸ　７ｔｈ　ｓｔｙｌｅ",
         "group_name": "Beatmania II DX 7th Style",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
-        "languages": "",
+        "languages": "Ja",
         "version": "1.01",
         "edition": "Original"
     },
@@ -7227,9 +7227,9 @@
         "edition": "Original"
     },
     "Viewtiful Joe 2 - Black Film no Nazo (Japan)": {
-        "secondary_name": "ビューティフルジョー2 ブラックフィルムの謎",
+        "secondary_name": "ビューティフル・ジョー２ 　～ブラックフィルムの謎～",
         "group_name": "Viewtiful Joe 2 - Black Film no Nazo",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.02",
@@ -8552,7 +8552,7 @@
     "Jikkyou Powerful Pro Yakyuu 11 - Chou Ketteiban (Japan)": {
         "secondary_name": "実況パワフルプロ野球１１　超決定版",
         "group_name": "Jikkyou Powerful Pro Yakyuu 11 - Chou Ketteiban",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.02",
@@ -9018,7 +9018,7 @@
         "edition": "Original"
     },
     "Melty Blood - Act Cadenza (Japan)": {
-        "secondary_name": "メルティブラッド　Ａｃｔ　Ｃａｄｅｎｚａ",
+        "secondary_name": "メルティブラッド　～アクトカデンツァ～",
         "group_name": "Melty Blood - Act Cadenza",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -10530,7 +10530,7 @@
         "edition": "Original, Best Price"
     },
     "World Soccer Winning Eleven 8 (Japan)": {
-        "secondary_name": "ワールドサッカー ウイニングイレブン8",
+        "secondary_name": "ワールドサッカー　ウイニングイレブン８",
         "group_name": "World Soccer Winning Eleven 8",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -16262,9 +16262,9 @@
         "version": "1.00",
         "edition": "Original"
     },
-    "School Rumble - Neru Musume wa Sodatsu (Japan) (DX Pack)": {
+    "School Rumble - Neru Musume wa Sodatsu. (Japan) (DX Pack)": {
         "secondary_name": "スクール・ランブル　～ねる娘は育つ。～",
-        "group_name": "School Rumble - Neru Musume wa Sodatsu",
+        "group_name": "School Rumble - Neru Musume wa Sodatsu.",
         "status": "Blue",
         "disc_type": "DVD-5",
         "languages": "Ja",
@@ -19259,9 +19259,9 @@
         "version": "2.00",
         "edition": "Original, PlayStation 2 the Best"
     },
-    "School Rumble 2-Gakki (Japan)": {
+    "School Rumble Nigakki - Kyoufu no Natsu Gasshuku! Youkan ni Yuurei Arawaru! Otakara o Megutte Makkou Shoubu!!! no Maki (Japan)": {
         "secondary_name": "スクールランブル二学期 恐怖の（？）夏合宿！　洋館に幽霊現る！? お宝を巡って真っ向勝負！！！の巻",
-        "group_name": "School Rumble 2-Gakki",
+        "group_name": "School Rumble Nigakki - Kyoufu no Natsu Gasshuku! Youkan ni Yuurei Arawaru! Otakara o Megutte Makkou Shoubu!!! no Maki",
         "status": "Blue",
         "disc_type": "DVD-5",
         "languages": "Ja",
@@ -19520,7 +19520,7 @@
         "version": "1.00",
         "edition": "Original"
     },
-    "Shin Sangoku Musou 3 (Japan)": {
+    "Shin Sangoku Musou 3 (Japan, Asia)": {
         "secondary_name": "真・三國無双3",
         "group_name": "Shin Sangoku Musou 3",
         "status": "Green",
@@ -22941,7 +22941,7 @@
         "edition": "Original"
     },
     "Tales of Rebirth (Japan)": {
-        "secondary_name": "テイルズ オブ リバース",
+        "secondary_name": "テイルズ・オブ・リバース",
         "group_name": "Tales of Rebirth",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -27414,13 +27414,13 @@
         "edition": "Original, Platinum"
     },
     "Grand Theft Auto III (Japan)": {
-        "secondary_name": "グランド・セフト・オートＩＩＩ",
+        "secondary_name": "グランド・セフト・オートⅢ",
         "group_name": "Grand Theft Auto III",
         "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.03",
-        "edition": "Original, Best Price, CapKore, Grand Theft Auto Double Pack"
+        "edition": "Original, CapKore, Grand Theft Auto Double Pack, Best Price"
     },
     "Motorbike King (Europe)": {
         "secondary_name": "",
@@ -27663,7 +27663,7 @@
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.02",
-        "edition": "Original, Best Price, CapKore, Grand Theft Auto Double Pack"
+        "edition": "Original, CapKore, Grand Theft Auto Double Pack, Best Price"
     },
     "Tenchu Kurenai (Asia)": {
         "secondary_name": "天誅 紅 繁體中文版",
@@ -28068,7 +28068,7 @@
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.02",
-        "edition": "Original"
+        "edition": "Original, Koei the Best"
     },
     "Smash Court Tennis - Pro Tournament (Europe, Australia) (En,Fr,De,Es,It)": {
         "secondary_name": "",
@@ -28260,7 +28260,7 @@
         "edition": "Original"
     },
     "Silent Hill 3 (Japan) (En,Ja,Fr,De,Es,It,Ko)": {
-        "secondary_name": "サイレントヒル3",
+        "secondary_name": "サイレントヒル３",
         "group_name": "Silent Hill 3",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -28800,7 +28800,7 @@
         "edition": "Original"
     },
     "Devil May Cry 3 (Japan) (En,Ja) (Special Edition)": {
-        "secondary_name": "デビル メイ クライ　３　スペシャル　エディション",
+        "secondary_name": "デビル・メイ・クライ３　～スペシャル　エディション～",
         "group_name": "Devil May Cry 3",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -30069,7 +30069,7 @@
         "edition": "Demo"
     },
     "Tenshou Gakuen Gensouroku (Japan) (v1.04)": {
-        "secondary_name": "転生學園 幻蒼録",
+        "secondary_name": "転生學園　幻蒼録",
         "group_name": "Tenshou Gakuen Gensouroku",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -32031,9 +32031,9 @@
         "edition": "Original, Koei the Best, Koei Teiban Series"
     },
     "A Visual Mix - Ayumi Hamasaki Dome Tour 2001 A (Japan) (Disc 1)": {
-        "secondary_name": "浜崎あゆみ A VISUAL MIX",
+        "secondary_name": "浜崎あゆみ　Ａ　ＶＩＳＵＡＬ　ＭＩＸ",
         "group_name": "A Visual Mix - Ayumi Hamasaki Dome Tour 2001 A",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.60",
@@ -32859,7 +32859,7 @@
         "edition": ""
     },
     "Drag-on Dragoon 2 - Fuuin no Aka, Haitoku no Kuro (Japan)": {
-        "secondary_name": "ドラッグオン・ドラグーン２　～封印の紅、背徳の黒～",
+        "secondary_name": "ドラッグ・オン・ドラグーン2　～封印の紅、背徳の黒～",
         "group_name": "Drag-on Dragoon 2 - Fuuin no Aka, Haitoku no Kuro",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -33606,7 +33606,7 @@
         "edition": "Original"
     },
     "Grandia III (Japan) (Disc 2)": {
-        "secondary_name": "グランディアＩＩＩ",
+        "secondary_name": "グランディアⅢ",
         "group_name": "Grandia III",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -34146,7 +34146,7 @@
         "edition": "Original"
     },
     "Ratchet & Clank 2 - Gagaga! Ginga no Commando-ssu (Japan, Asia)": {
-        "secondary_name": "ラチェット&クランク2 ガガガ!銀河のコマンドーっす",
+        "secondary_name": "ラチェット＆クランク２　～ガガガ！　銀河のコマンドーっす～",
         "group_name": "Ratchet & Clank 2 - Gagaga! Ginga no Commando-ssu",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -35165,11 +35165,11 @@
     "Harukanaru Toki no Naka de - Yume no Ukihashi Special (Japan)": {
         "secondary_name": "遙かなる時空の中で 夢浮橋　Ｓｐｅｃｉａｌ",
         "group_name": "Harukanaru Toki no Naka de - Yume no Ukihashi Special",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.01",
-        "edition": "Original"
+        "edition": "Original, Premium Box"
     },
     "Official PlayStation 2 Magazine Demo 37 (Germany) (En,De)": {
         "secondary_name": "",
@@ -35214,7 +35214,7 @@
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.04",
-        "edition": "Original, Chou Genteiban"
+        "edition": "Original, Chou Genteiban: Chou Yuusha Haruhi"
     },
     "Official PlayStation 2 Magazine Demo 71 (Germany)": {
         "secondary_name": "",
@@ -37323,7 +37323,7 @@
         "edition": "Original"
     },
     "Saint Seiya - Sanctuary Juunikyuu-hen (Japan)": {
-        "secondary_name": "聖闘士星矢 －聖域十二宮編－",
+        "secondary_name": "聖闘士星矢　～聖域十二宮編～",
         "group_name": "Saint Seiya - Sanctuary Juunikyuu-hen",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -39609,7 +39609,7 @@
         "edition": "Original"
     },
     "Sega Ages 2500 Series Vol. 1 - Phantasy Star Generation-1 (Japan)": {
-        "secondary_name": "セガエイジス２５００シリーズＶＯＬ１ ファンタシースターｇｅｎｅｒａｔｉｏｎ：１",
+        "secondary_name": "セガエイジス２５００シリーズ　Ｖｏｌ．１　ファンタシースターｇｅｎｅｒａｔｉｏｎ：１",
         "group_name": "Sega Ages 2500 Series Vol. 1 - Phantasy Star Generation-1",
         "status": "Green",
         "disc_type": "CD",
@@ -40203,7 +40203,7 @@
         "edition": "Original"
     },
     "Grandia III (Japan) (Disc 1)": {
-        "secondary_name": "グランディアＩＩＩ",
+        "secondary_name": "グランディアⅢ",
         "group_name": "Grandia III",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -40574,7 +40574,7 @@
     "Beatmania II DX 4th Style - New Songs Collection (Japan)": {
         "secondary_name": "ビートマニアⅡＤＸ　４ｔｈ　ｓｔｙｌｅ　‐ｎｅｗ　ｓｏｎｇｓ　ｃｏｌｌｅｃｔｉｏｎ‐",
         "group_name": "Beatmania II DX 4th Style - New Songs Collection",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.01",
@@ -41634,7 +41634,7 @@
         "edition": "Original"
     },
     "Harry Potter to Himitsu no Heya (Japan)": {
-        "secondary_name": "ハリーポッターと秘密の部屋",
+        "secondary_name": "ハリー・ポッターと秘密の部屋",
         "group_name": "Harry Potter to Himitsu no Heya",
         "status": "Green",
         "disc_type": "CD",
@@ -42119,12 +42119,12 @@
         "version": "1.00",
         "edition": "Bundled with Buzz! Buzzers"
     },
-    "A Ge Si Zhan Shi (Asia) (En,Zh)": {
+    "A Ge Si Zhan Shi (Asia)": {
         "secondary_name": "阿格斯戰士",
         "group_name": "A Ge Si Zhan Shi",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
-        "languages": "Zh, En",
+        "languages": "Zh",
         "version": "1.20",
         "edition": "Original"
     },
@@ -48149,7 +48149,7 @@
         "version": "1.01",
         "edition": "Original"
     },
-    "EX Jinsei Game (Japan) (Roulette Controller Doukonban)": {
+    "EX Jinsei Game (Japan) (Doukonban)": {
         "secondary_name": "ＥＸ人生ゲーム",
         "group_name": "EX Jinsei Game",
         "status": "Blue",
@@ -50733,9 +50733,9 @@
         "edition": "Original"
     },
     "Lunatic Dawn - Tempest (Japan)": {
-        "secondary_name": "ルナティックドーン テンペスト",
+        "secondary_name": "ルナティックドーン　～テンペスト～",
         "group_name": "Lunatic Dawn - Tempest",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.30",
@@ -52164,9 +52164,9 @@
         "edition": "Original"
     },
     "Beatmania II DX 8th Style (Japan) (En,Ja)": {
-        "secondary_name": "ビートマニアＩＩＤＸ　８ｔｈ　ｓｔｙｌｅ",
+        "secondary_name": "ビートマニアⅡＤＸ　８ｔｈ　ｓｔｙｌｅ",
         "group_name": "Beatmania II DX 8th Style",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En, Ja",
         "version": "1.01",
@@ -52344,9 +52344,9 @@
         "edition": "Original"
     },
     "A Visual Mix - Ayumi Hamasaki Dome Tour 2001 A (Japan) (Disc 2)": {
-        "secondary_name": "浜崎あゆみ A VISUAL MIX",
+        "secondary_name": "浜崎あゆみ　Ａ　ＶＩＳＵＡＬ　ＭＩＸ",
         "group_name": "A Visual Mix - Ayumi Hamasaki Dome Tour 2001 A",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.60",
@@ -52530,7 +52530,7 @@
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "1.00",
-        "edition": "Original, Platinum, Promo, Bundled with PS2, Rerelease"
+        "edition": "Original, Platinum, Platinum: The Best of PlayStation 2, Promo, Bundled with PS2, Rerelease"
     },
     "Jissen Pachi-Slot Hisshouhou! Sammy's Collection 2 (Japan)": {
         "secondary_name": "実戦パチスロ必勝法！　サミーズコレクション２",
@@ -54350,9 +54350,9 @@
         "version": "1.00",
         "edition": "Original"
     },
-    "Online Games - Dai Guruguru Onsen (Japan)": {
+    "Online Games - Dai Guru Guru Onsen (Japan)": {
         "secondary_name": "オンラインゲームズ　大ぐるぐる温泉",
-        "group_name": "Online Games - Dai Guruguru Onsen",
+        "group_name": "Online Games - Dai Guru Guru Onsen",
         "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
@@ -54639,7 +54639,7 @@
         "edition": "Shokai Genteiban"
     },
     "Viewtiful Joe 2 - Black Film no Nazo (Japan) (Tokubetsu Taikenban)": {
-        "secondary_name": "ビューティフルジョー2 ブラックフィルムの謎",
+        "secondary_name": "ビューティフル・ジョー２ 　～ブラックフィルムの謎～",
         "group_name": "Viewtiful Joe 2 - Black Film no Nazo",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -54999,7 +54999,7 @@
         "edition": "Original"
     },
     "Drag-on Dragoon (Japan)": {
-        "secondary_name": "ドラッグオンドラグーン",
+        "secondary_name": "ドラッグ・オン・ドラグーン",
         "group_name": "Drag-on Dragoon",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -57626,9 +57626,9 @@
         "version": "1.01",
         "edition": "Original"
     },
-    "School Rumble - Neru Musume wa Sodatsu (Japan)": {
+    "School Rumble - Neru Musume wa Sodatsu. (Japan)": {
         "secondary_name": "スクール・ランブル　～ねる娘は育つ。～",
-        "group_name": "School Rumble - Neru Musume wa Sodatsu",
+        "group_name": "School Rumble - Neru Musume wa Sodatsu.",
         "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
@@ -59580,7 +59580,7 @@
         "edition": "Original"
     },
     "Xenosaga Freaks (Japan)": {
-        "secondary_name": "ゼノサーガ フリークス",
+        "secondary_name": "ゼノサーガ　フリークス",
         "group_name": "Xenosaga Freaks",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -60138,7 +60138,7 @@
         "edition": "Original"
     },
     "Simple 2000 Series Ultimate Vol. 31 - K-1 World Max 2005 - Sekai Ouja e no Michi (Japan)": {
-        "secondary_name": "ＳＩＭＰＬＥ　２０００シリーズ　Ｕｌｔｉｍａｔｅ　Ｖｏｌ．３１ Ｋ‐１ ＷＯＲＬＤ　ＭＡＸ　２００５ ～世界王者への道～",
+        "secondary_name": "ＳＩＭＰＬＥ　２０００シリーズ　Ｕｌｔｉｍａｔｅ　Ｖｏｌ．３１　Ｋ‐１ ＷＯＲＬＤ　ＭＡＸ　２００５ ～世界王者への道～",
         "group_name": "Simple 2000 Series Ultimate Vol. 31 - K-1 World Max 2005 - Sekai Ouja e no Michi",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -61263,9 +61263,9 @@
         "edition": "Original"
     },
     "Doko Demo Issho - Toro to Ippai (Japan)": {
-        "secondary_name": "どこでもいっしょ ─トロといっぱい",
+        "secondary_name": "どこでもいっしょ　～トロといっぱい～",
         "group_name": "Doko Demo Issho - Toro to Ippai",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.02",
@@ -67941,7 +67941,7 @@
         "edition": "Original"
     },
     "Naruto - Narutimate Hero 2 (Japan)": {
-        "secondary_name": "ＮＡＲＵＴＯ　-ナルト-　ナルティメットヒーロー２",
+        "secondary_name": "ＮＡＲＵＴＯ　－ナルト－　ナルティメットヒーロー２",
         "group_name": "Naruto - Narutimate Hero 2",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -72737,7 +72737,7 @@
         "version": "1.00",
         "edition": "Original"
     },
-    "Silent Hill 2 - Tentou Houei-you Movie-ban (Japan) (Demo)": {
+    "Silent Hill 2 - Tentou Houei-you Movie-ban (Japan)": {
         "secondary_name": "サイレントヒル 2 店頭放映用ムービー版",
         "group_name": "Silent Hill 2 - Tentou Houei-you Movie-ban",
         "status": "Blue",
@@ -75687,7 +75687,7 @@
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.01",
-        "edition": "Original, PlayStation 2 the Best, PlayStation 2 the Best Reprint, Sengoku Musou 2 Super Premium Pack, Sengoku Musou 2 & 2 Empires Premium Box"
+        "edition": "Original, Sengoku Musou 2 & 2 Empires Premium Box, Sengoku Musou 2 Super Premium Pack, PlayStation 2 the Best, PlayStation 2 the Best Reprint"
     },
     "Virtua Fighter 4 (USA)": {
         "secondary_name": "",
@@ -75705,7 +75705,7 @@
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.00",
-        "edition": "Taikenban"
+        "edition": "Taikenban, Tentou Taikenban"
     },
     "Dragon Quest VIII - Sora to Umi to Daichi to Norowareshi Himegimi (Japan, Asia)": {
         "secondary_name": "ドラゴンクエストⅧ　～空と海と大地と呪われし姫君～",
@@ -75978,7 +75978,7 @@
         "edition": "Original"
     },
     "Kunoichi (Japan)": {
-        "secondary_name": "Ｋｕｎｏｉｃｈｉ－忍－",
+        "secondary_name": "くのいち－忍－",
         "group_name": "Kunoichi",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -76860,7 +76860,7 @@
         "edition": "Original"
     },
     "Chaos Legion (Japan) (En,Ja)": {
-        "secondary_name": "カオス レギオン",
+        "secondary_name": "カオス　レギオン",
         "group_name": "Chaos Legion",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -76896,7 +76896,7 @@
         "edition": "Greatest Hits"
     },
     "Saint Seiya - Meiou Hades Juunikyuu-hen (Japan) (Taikenban)": {
-        "secondary_name": "聖闘士星矢 冥王ハーデス十二宮編",
+        "secondary_name": "聖闘士星矢　～冥王ハーデス十二宮編～",
         "group_name": "Saint Seiya - Meiou Hades Juunikyuu-hen",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -77652,7 +77652,7 @@
         "edition": "Original"
     },
     "Radiata Stories (Japan)": {
-        "secondary_name": "ラジアータ ストーリーズ",
+        "secondary_name": "ラジアータ　ストーリーズ",
         "group_name": "Radiata Stories",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -77967,9 +77967,9 @@
         "edition": "Original"
     },
     "Saint Seiya - Meiou Hades Juunikyuu-hen (Japan)": {
-        "secondary_name": "聖闘士星矢 冥王ハーデス十二宮編",
+        "secondary_name": "聖闘士星矢　～冥王ハーデス十二宮編～",
         "group_name": "Saint Seiya - Meiou Hades Juunikyuu-hen",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.00",
@@ -78822,7 +78822,7 @@
         "edition": "Original"
     },
     "Tekken 5 (Japan, Asia)": {
-        "secondary_name": "鉄拳5",
+        "secondary_name": "鉄拳５",
         "group_name": "Tekken 5",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -81639,9 +81639,9 @@
         "edition": "Original"
     },
     "Viewtiful Joe - Aratanaru Kibou (Japan)": {
-        "secondary_name": "ビューティフルジョー 新たなる希望",
+        "secondary_name": "ビューティフル・ジョー　～新たなる希望～",
         "group_name": "Viewtiful Joe - Aratanaru Kibou",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.02",
@@ -83052,9 +83052,9 @@
         "edition": "Original"
     },
     "Kamen Rider - Seigi no Keifu (Japan)": {
-        "secondary_name": "仮面ライダー 正義の系譜",
+        "secondary_name": "仮面ライダー　～正義の系譜～",
         "group_name": "Kamen Rider - Seigi no Keifu",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.03",
@@ -84827,7 +84827,7 @@
     "Kujibiki Unbalance - Kaichou Onegai Smash Fight (Japan) (Shokai Genteiban)": {
         "secondary_name": "くじびきアンバランス 会長お願いすま～っしゅファイト☆",
         "group_name": "Kujibiki Unbalance - Kaichou Onegai Smash Fight",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.01",
@@ -84941,7 +84941,7 @@
         "version": "1.00",
         "edition": "Tentou Taikenban"
     },
-    "Shadow of Memories & Zone of the Enders - Z.O.E - Tentou Houei-you Movie-ban (Japan) (Demo)": {
+    "Shadow of Memories & Zone of the Enders - Z.O.E - Tentou Houei-you Movie-ban (Japan)": {
         "secondary_name": "Shadow of Memories / Zone of the Enders: Z.O.E 店頭放映用ムービー版",
         "group_name": "Shadow of Memories & Zone of the Enders - Z.O.E - Tentou Houei-you Movie-ban",
         "status": "Blue",
@@ -85083,7 +85083,7 @@
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.03",
-        "edition": "Original, Taito Best, Rakugaki Oukoku 1+2 Pack"
+        "edition": "Original, Rakugaki Oukoku 1+2 Pack, Taito Best"
     },
     "King of Fighters 2003, The (Japan)": {
         "secondary_name": "ザ・キング・オブ・ファイターズ ２００３",
@@ -86150,7 +86150,7 @@
     "Xenosaga Episode III - Also sprach Zarathustra (Japan) (Disc 2)": {
         "secondary_name": "ゼノサーガ・エピソードⅢ　～ツァラトゥストラはかく語りき～",
         "group_name": "Xenosaga Episode III - Also sprach Zarathustra",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.01",
@@ -86958,7 +86958,7 @@
         "edition": "Taikenban"
     },
     "Tennis no Oujisama - Smash Hit! Original Anime Game (Japan) (SLPM-62358)": {
-        "secondary_name": "テニスの王子様　スマッシュヒット！オリジナルアニメ・ゲーム",
+        "secondary_name": "テニスの王子様　スマッシュヒット！　オリジナルアニメ・ゲーム",
         "group_name": "Tennis no Oujisama - Smash Hit! Original Anime Game",
         "status": "Green",
         "disc_type": "CD",
@@ -87345,11 +87345,11 @@
         "edition": "Original"
     },
     "Beatmania II DX 6th Style - New Songs Collection (Japan)": {
-        "secondary_name": "ビートマニアⅡDX 6th style -new songs collection-",
+        "secondary_name": "ビートマニアⅡＤＸ　６ｔｈ　ｓｔｙｌｅ　‐ｎｅｗ　ｓｏｎｇｓ　ｃｏｌｌｅｃｔｉｏｎ‐",
         "group_name": "Beatmania II DX 6th Style - New Songs Collection",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
-        "languages": "",
+        "languages": "Ja",
         "version": "1.01",
         "edition": "Original"
     },
@@ -87452,8 +87452,8 @@
         "version": "1.00",
         "edition": "Original"
     },
-    "Sengoku Musou 2 (Japan)": {
-        "secondary_name": "戦国無双２",
+    "Sengoku Musou 2 (Japan, Asia)": {
+        "secondary_name": "戰國無雙２、戦国無双２",
         "group_name": "Sengoku Musou 2",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -88271,9 +88271,9 @@
         "version": "1.03",
         "edition": "Original"
     },
-    "Gintama Gin-san to Issho! Boku no Kabuki-chou Nikki (Japan)": {
+    "Gintama - Gin-san to Issho! Boku no Kabuki-chou Nikki (Japan)": {
         "secondary_name": "銀魂 銀さんと一緒！　ボクのかぶき町日記",
-        "group_name": "Gintama Gin-san to Issho! Boku no Kabuki-chou Nikki",
+        "group_name": "Gintama - Gin-san to Issho! Boku no Kabuki-chou Nikki",
         "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
@@ -89354,7 +89354,7 @@
     "Phase Paradox (Japan) (Taikenban 1)": {
         "secondary_name": "フェイズ・パラドックス",
         "group_name": "Phase Paradox",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.00",
@@ -90042,6 +90042,150 @@
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.05",
+        "edition": "Original"
+    },
+    "A Visual Mix - Ayumi Hamasaki Dome Tour 2001 A (Japan) (Disc 1) (Alt)": {
+        "secondary_name": "浜崎あゆみ　Ａ　ＶＩＳＵＡＬ　ＭＩＸ",
+        "group_name": "A Visual Mix - Ayumi Hamasaki Dome Tour 2001 A",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "Ja",
+        "version": "1.60",
+        "edition": "Original"
+    },
+    "A Visual Mix - Ayumi Hamasaki Dome Tour 2001 A (Japan) (Disc 2) (Alt)": {
+        "secondary_name": "浜崎あゆみ　Ａ　ＶＩＳＵＡＬ　ＭＩＸ",
+        "group_name": "A Visual Mix - Ayumi Hamasaki Dome Tour 2001 A",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "Ja",
+        "version": "1.60",
+        "edition": "Original"
+    },
+    "Oshiete! Popotan (Japan)": {
+        "secondary_name": "おしえて！　ぽぽたん",
+        "group_name": "Oshiete! Popotan",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "Ja",
+        "version": "1.02",
+        "edition": "Original"
+    },
+    "TVware Jouhou Kakumei Series - Pro Atlas for TV - Zenkokuban (Japan)": {
+        "secondary_name": "ＴＶｗａｒｅ情報革命シリーズ　～プロアトラス　ｆｏｒ　ＴＶ　全国版～",
+        "group_name": "TVware Jouhou Kakumei Series - Pro Atlas for TV - Zenkokuban",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "Ja",
+        "version": "1.02",
+        "edition": "Original"
+    },
+    "TVware Jouhou Kakumei Series - Pro Atlas for TV - Kinki (Japan)": {
+        "secondary_name": "ＴＶｗａｒｅ情報革命シリーズ　～プロアトラス　ｆｏｒ　ＴＶ　近畿～",
+        "group_name": "TVware Jouhou Kakumei Series - Pro Atlas for TV - Kinki",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "1.02",
+        "edition": "Original"
+    },
+    "TVware Jouhou Kakumei Series - Gendai Yougo no Kiso Chishiki 2001 (Japan)": {
+        "secondary_name": "ＴＶｗａｒｅ情報革命シリーズ　～現代用語の基礎知識２００１～",
+        "group_name": "TVware Jouhou Kakumei Series - Gendai Yougo no Kiso Chishiki 2001",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "1.03",
+        "edition": "Original"
+    },
+    "Shin Megami Tensei III - Nocturne Maniax (Japan)": {
+        "secondary_name": "真・女神転生Ⅲ－ＮＯＣＴＵＲＮＥ　マニアクス",
+        "group_name": "Shin Megami Tensei III - Nocturne Maniax",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "Ja",
+        "version": "1.00",
+        "edition": "Original"
+    },
+    "Ico (Korea)": {
+        "secondary_name": "이코",
+        "group_name": "Ico",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "Ko",
+        "version": "1.00",
+        "edition": "Original"
+    },
+    "Gran Turismo 4 - Prologue (Asia) (PlayStation 2 Racing Pack)": {
+        "secondary_name": "跑車浪漫旅４　序章版",
+        "group_name": "Gran Turismo 4 - Prologue",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "Zh",
+        "version": "1.00",
+        "edition": "PlayStation 2 Racing Pack"
+    },
+    "Wonder Zone (Japan)": {
+        "secondary_name": "",
+        "group_name": "Wonder Zone",
+        "status": "Green",
+        "disc_type": "DVD-9",
+        "languages": "Ja",
+        "version": "1.10",
+        "edition": "Original"
+    },
+    "Nickelodeon Svampbob Fyrkant - Tystnad, Tagning, Tvaettsvamp! (Sweden)": {
+        "secondary_name": "",
+        "group_name": "Nickelodeon Svampbob Fyrkant - Tystnad, Tagning, Tvaettsvamp!",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "Sv",
+        "version": "1.00",
+        "edition": "Original"
+    },
+    "Simple 2000 Series Vol. 95 - The Zombie vs. Kyuukyuusha (Japan)": {
+        "secondary_name": "ＳＩＭＰＬＥ　２０００　シリーズ　Ｖｏｌ．９５　ＴＨＥ　ゾンビ　Ｖ．Ｓ．　救急車",
+        "group_name": "Simple 2000 Series Vol. 95 - The Zombie vs. Kyuukyuusha",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "1.03",
+        "edition": "Original"
+    },
+    "Naruto - Narutimate Hero 3 (Japan) (Taikenban)": {
+        "secondary_name": "ＮＡＲＵＴＯ　－ナルト－　ナルティメットヒーロー３",
+        "group_name": "Naruto - Narutimate Hero 3",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "Ja",
+        "version": "1.00",
+        "edition": "Taikenban First Impact"
+    },
+    "Harry Potter to Himitsu no Heya (Japan) (Coca-Cola Kenshouhin)": {
+        "secondary_name": "ハリー・ポッターと秘密の部屋",
+        "group_name": "Harry Potter to Himitsu no Heya",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "1.00",
+        "edition": "Coca-Cola Kenshouhin"
+    },
+    "Plus Plum 2 (Japan)": {
+        "secondary_name": "ぷらすぷらむ２",
+        "group_name": "Plus Plum 2",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "Ja",
+        "version": "1.01",
+        "edition": "Original"
+    },
+    "Simple 2000 Series Vol. 55 - The Catfight - Meneko Densetsu (Japan)": {
+        "secondary_name": "ＳＩＭＰＬＥ　２０００　シリーズ　Ｖｏｌ．５５　ＴＨＥ　キャットファイト　女猫伝説",
+        "group_name": "Simple 2000 Series Vol. 55 - The Catfight - Meneko Densetsu",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "1.01",
         "edition": "Original"
     }
 }
