@@ -13448,7 +13448,7 @@
     "Jissen Pachi-Slot Hisshouhou! Hokuto no Ken Special Edition (Japan) (Taikenban)": {
         "secondary_name": "実戦パチスロ必勝法！　北斗の拳ＳＥ",
         "group_name": "Jissen Pachi-Slot Hisshouhou! Hokuto no Ken Special Edition",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.00",
@@ -13590,7 +13590,7 @@
         "edition": "Platinum"
     },
     "Dengeki PS2 PlayStation D87 (Japan)": {
-        "secondary_name": "電撃ＰＳ２　Ｄ８７　電撃Ｐｌａｙｓｔａｔｉｏｎ　１／２０号増刊",
+        "secondary_name": "電撃ＰＳ２　Ｄ８７　電撃ＰｌａｙＳｔａｔｉｏｎ　１／２０号増刊",
         "group_name": "Dengeki PS2 PlayStation D87",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -16398,9 +16398,9 @@
         "edition": "Original"
     },
     "Dengeki PS2 PlayStation D90 (Japan)": {
-        "secondary_name": "電撃ＰＳ２　Ｄ９０　電撃Ｐｌａｙｓｔａｔｉｏｎ　４／２１号増刊",
+        "secondary_name": "電撃ＰＳ２　Ｄ９０　電撃ＰｌａｙＳｔａｔｉｏｎ　４／２１号増刊",
         "group_name": "Dengeki PS2 PlayStation D90",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.01",
@@ -25148,7 +25148,7 @@
     "Delta Force - Black Hawk Down (USA)": {
         "secondary_name": "",
         "group_name": "Delta Force - Black Hawk Down",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "1.01",
@@ -35660,7 +35660,7 @@
     "Dynasty Warriors 2 (USA)": {
         "secondary_name": "",
         "group_name": "Dynasty Warriors 2",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "1.10",
@@ -45324,7 +45324,7 @@
         "edition": "Original, Promo"
     },
     "Dragon Ball Z Sparking! Neo (Japan)": {
-        "secondary_name": "ドラゴンボールZ Sparking! ネオ",
+        "secondary_name": "ドラゴンボールＺ　スパーキング！　ネオ",
         "group_name": "Dragon Ball Z Sparking! Neo",
         "status": "Green",
         "disc_type": "DVD-5",
@@ -47018,7 +47018,7 @@
     "Harry Potter and the Sorcerer's Stone (USA) (En,Es)": {
         "secondary_name": "",
         "group_name": "Harry Potter and the Sorcerer's Stone",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En, Es",
         "version": "1.01",
@@ -48647,7 +48647,7 @@
     "Harry Potter and the Order of the Phoenix (USA)": {
         "secondary_name": "",
         "group_name": "Harry Potter and the Order of the Phoenix",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "1.00",
@@ -51140,7 +51140,7 @@
     "Wizardry - Tale of the Forsaken Land (USA)": {
         "secondary_name": "",
         "group_name": "Wizardry - Tale of the Forsaken Land",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "1.00",
@@ -59793,7 +59793,7 @@
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "1.00",
-        "edition": "Original"
+        "edition": "Original, Greatest Hits"
     },
     "Call of Duty 3 (Germany)": {
         "secondary_name": "",
@@ -65486,7 +65486,7 @@
     "Dual Hearts (USA)": {
         "secondary_name": "",
         "group_name": "Dual Hearts",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "DVD-5",
         "languages": "En",
         "version": "1.00",
@@ -73503,7 +73503,7 @@
         "edition": "PlayStation 2 the Best"
     },
     "Ponkotsu Roman Daikatsugeki - Bumpy Trot (Japan) (v2.00)": {
-        "secondary_name": "ポンコツ浪漫大活劇　バンピートロット",
+        "secondary_name": "ポンコツ浪漫大活劇　～バンピートロット～",
         "group_name": "Ponkotsu Roman Daikatsugeki - Bumpy Trot",
         "status": "Blue",
         "disc_type": "DVD-5",
@@ -82566,7 +82566,7 @@
         "edition": "Original"
     },
     "Ponkotsu Roman Daikatsugeki - Bumpy Trot (Japan) (Taikenban 2)": {
-        "secondary_name": "ポンコツ浪漫大活劇 バンピートロット",
+        "secondary_name": "ポンコツ浪漫大活劇　～バンピートロット～",
         "group_name": "Ponkotsu Roman Daikatsugeki - Bumpy Trot",
         "status": "Blue",
         "disc_type": "CD",
@@ -84096,9 +84096,9 @@
         "edition": "Original"
     },
     "Ponkotsu Roman Daikatsugeki - Bumpy Trot (Japan) (Taikenban 1)": {
-        "secondary_name": "ポンコツ浪漫大活劇 バンピートロット",
+        "secondary_name": "ポンコツ浪漫大活劇　～バンピートロット～",
         "group_name": "Ponkotsu Roman Daikatsugeki - Bumpy Trot",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "1.02",
@@ -87716,7 +87716,7 @@
     "Dance Factory (USA)": {
         "secondary_name": "",
         "group_name": "Dance Factory",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "1.01",
@@ -90184,6 +90184,78 @@
         "group_name": "Simple 2000 Series Vol. 55 - The Catfight - Meneko Densetsu",
         "status": "Blue",
         "disc_type": "CD",
+        "languages": "Ja",
+        "version": "1.01",
+        "edition": "Original"
+    },
+    "Rayman M (Europe) (Demo)": {
+        "secondary_name": "",
+        "group_name": "Rayman M",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "1.00",
+        "edition": "Demo"
+    },
+    "Dragon Ball Z - Sparking! Neo (Japan) (Taikenban)": {
+        "secondary_name": "ドラゴンボールＺ　スパーキング！　ネオ",
+        "group_name": "Dragon Ball Z - Sparking! Neo",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "Ja",
+        "version": "1.01",
+        "edition": "Taikenban"
+    },
+    "Choro Q Works (Japan)": {
+        "secondary_name": "チョロＱワークス",
+        "group_name": "Choro Q Works",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "Ja",
+        "version": "1.02",
+        "edition": "Original"
+    },
+    "Crash Bandicoot - Gatchanko World (Japan)": {
+        "secondary_name": "クラッシュ・バンディクー　～がっちゃんこワールド～",
+        "group_name": "Crash Bandicoot - Gatchanko World",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "Ja",
+        "version": "1.00",
+        "edition": "Original"
+    },
+    "XI [sai] - XI-Go (Japan)": {
+        "secondary_name": "ＸＩゴ",
+        "group_name": "XI [sai] - XI-Go",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "Ja",
+        "version": "1.02",
+        "edition": "Original"
+    },
+    "Dog's Life (Japan)": {
+        "secondary_name": "ドッグズライフ",
+        "group_name": "Dog's Life",
+        "status": "Blue",
+        "disc_type": "DVD-5",
+        "languages": "Ja",
+        "version": "1.03",
+        "edition": "Original"
+    },
+    "Inu to Asobou - Dogstation (Japan)": {
+        "secondary_name": "犬とあそぼう　－ｄｏｇｓｔａｔｉｏｎ－",
+        "group_name": "Inu to Asobou - Dogstation",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "1.03",
+        "edition": "Original"
+    },
+    "Juunikoku-ki - Kakukakutaru Oudou Kouryoku no Uka (Japan)": {
+        "secondary_name": "十二国記　～赫々たる王道　紅緑の羽化～",
+        "group_name": "Juunikoku-ki - Kakukakutaru Oudou Kouryoku no Uka",
+        "status": "Blue",
+        "disc_type": "DVD-5",
         "languages": "Ja",
         "version": "1.01",
         "edition": "Original"

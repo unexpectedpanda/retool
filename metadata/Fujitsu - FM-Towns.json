@@ -1556,12 +1556,12 @@
         "version": "",
         "edition": "Original"
     },
-    "Dungeon Master - Chaos Strikes Back (Japan)": {
+    "Dungeon Master - Chaos Strikes Back (Japan) (En,Ja)": {
         "secondary_name": "続ダンジョン・マスター　～カオスの逆襲～",
         "group_name": "Dungeon Master - Chaos Strikes Back",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "Ja",
+        "languages": "En, Ja",
         "version": "",
         "edition": "Original"
     },
@@ -2051,12 +2051,12 @@
         "version": "",
         "edition": "Original"
     },
-    "Dungeon Master (Japan) (Rev 1)": {
+    "Dungeon Master (Japan) (En,Ja) (Rev 1)": {
         "secondary_name": "ダンジョン・マスター",
         "group_name": "Dungeon Master",
         "status": "Green",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "En, Ja",
         "version": "Rev 1",
         "edition": "FM Towns Soft Collection Kaigai-hen Vol. 2"
     },
@@ -4439,6 +4439,69 @@
     "Tenka Gomen (Japan)": {
         "secondary_name": "天下御免",
         "group_name": "Tenka Gomen",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Bell's Avenue Vol. 3 (Japan)": {
+        "secondary_name": "ベルズ・アベニュー　ＶＯＬ．３",
+        "group_name": "Bell's Avenue Vol. 3",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Burai (Japan)": {
+        "secondary_name": "ブライ",
+        "group_name": "Burai",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "Special & Delicious! Original CD-ROM (Japan)": {
+        "secondary_name": "",
+        "group_name": "Special & Delicious! Original CD-ROM",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Bundled with Book"
+    },
+    "Touch My Heart (Japan)": {
+        "secondary_name": "",
+        "group_name": "Touch My Heart",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Bundled with Book (D.O. Kanshuu Premium Box Tokubetsu Furoku CD-ROM)"
+    },
+    "Doki Doki Disk CD-ban Vol. 1 (Japan)": {
+        "secondary_name": "どきどきディスクＣＤ版　Ｖｏｌ．１",
+        "group_name": "Doki Doki Disk CD-ban Vol. 1",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Bundled with Magazine"
+    },
+    "Enkaiou no Gyakushuu Ver. 2 - Return of Enkaio (Japan)": {
+        "secondary_name": "宴会王の逆襲　Ｖｅｒ.２",
+        "group_name": "Enkaiou no Gyakushuu Ver. 2 - Return of Enkaio",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Original"
+    },
+    "FM Towns Free Soft Nyuumon Kit (Japan)": {
+        "secondary_name": "ＦＭ　ＴＯＷＮＳ　フリー・ソフト入門キット",
+        "group_name": "FM Towns Free Soft Nyuumon Kit",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "Ja",

@@ -62,7 +62,7 @@
         "version": "",
         "edition": "Original"
     },
-    "Tetris (USA, Europe)": {
+    "Tetris (Europe)": {
         "secondary_name": "",
         "group_name": "Tetris",
         "status": "Green",
@@ -123,7 +123,7 @@
         "disc_type": "CD",
         "languages": "En",
         "version": "",
-        "edition": "Original, Demonstration Disc"
+        "edition": "Original, Original: Longbox, Demonstration Disc"
     },
     "Mad Dog II - The Lost Gold (Europe)": {
         "secondary_name": "",
@@ -146,13 +146,13 @@
     "Rise of the Robots (Europe)": {
         "secondary_name": "",
         "group_name": "Rise of the Robots",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "1.12",
         "edition": "Original"
     },
-    "Dark Castle (USA, Europe)": {
+    "Dark Castle (Europe)": {
         "secondary_name": "",
         "group_name": "Dark Castle",
         "status": "Green",
@@ -465,7 +465,7 @@
         "disc_type": "CD",
         "languages": "En",
         "version": "",
-        "edition": "Original, Demonstration Disc"
+        "edition": "Original, Original: Longbox, Demonstration Disc"
     },
     "Mega Maze (Europe)": {
         "secondary_name": "",
@@ -494,9 +494,9 @@
         "version": "1.02",
         "edition": "Original"
     },
-    "TF1 - Le Journal Interactif 94 et Le Jeu des Stars de l'Info (France) (Disc 2) (Le Jeu des Stars de l'Info)": {
+    "TF1 - Le Journal Interactif 94 et le Jeu des Stars de l'Info (France) (Disc 2) (Le Jeu des Stars de l'Info)": {
         "secondary_name": "",
-        "group_name": "TF1 - Le Journal Interactif 94 et Le Jeu des Stars de l'Info",
+        "group_name": "TF1 - Le Journal Interactif 94 et le Jeu des Stars de l'Info",
         "status": "Green",
         "disc_type": "CD",
         "languages": "Fr",
@@ -663,7 +663,7 @@
         "disc_type": "CD",
         "languages": "En",
         "version": "",
-        "edition": "Original, Demonstration Disc"
+        "edition": "Original, Original: Longbox, Demonstration Disc"
     },
     "Xplora 1 - Peter Gabriel's Secret World (Europe)": {
         "secondary_name": "",
@@ -827,7 +827,7 @@
         "version": "1.03",
         "edition": "Original"
     },
-    "Cartoon Jukebox (USA)": {
+    "Cartoon Jukebox (USA, Europe)": {
         "secondary_name": "",
         "group_name": "Cartoon Jukebox",
         "status": "Green",
@@ -1079,7 +1079,7 @@
         "version": "1.05",
         "edition": "Original"
     },
-    "Brer Rabbit and the Wonderful Tar Baby (USA)": {
+    "Brer Rabbit and the Wonderful Tar Baby (Europe)": {
         "secondary_name": "",
         "group_name": "Brer Rabbit and the Wonderful Tar Baby",
         "status": "Blue",
@@ -1781,7 +1781,7 @@
         "version": "1.02",
         "edition": "Original"
     },
-    "Sargon Chess (USA, Europe)": {
+    "Sargon Chess (Europe)": {
         "secondary_name": "",
         "group_name": "Sargon Chess",
         "status": "Green",
@@ -1835,7 +1835,7 @@
         "version": "",
         "edition": "Original"
     },
-    "Lords of the Rising Sun (USA)": {
+    "Lords of the Rising Sun (Europe)": {
         "secondary_name": "",
         "group_name": "Lords of the Rising Sun",
         "status": "Blue",
@@ -1862,9 +1862,9 @@
         "version": "",
         "edition": "Original, For Demonstration Only"
     },
-    "TF1 - Le Journal Interactif 94 et Le Jeu des Stars de l'Info (France) (Disc 1) (Le Journal Interactif 94)": {
+    "TF1 - Le Journal Interactif 94 et le Jeu des Stars de l'Info (France) (Disc 1) (Le Journal Interactif 94)": {
         "secondary_name": "",
-        "group_name": "TF1 - Le Journal Interactif 94 et Le Jeu des Stars de l'Info",
+        "group_name": "TF1 - Le Journal Interactif 94 et le Jeu des Stars de l'Info",
         "status": "Green",
         "disc_type": "CD",
         "languages": "Fr",
@@ -2069,7 +2069,7 @@
         "version": "1.20",
         "edition": "Original"
     },
-    "Hans Christian Andersen's Thumbelina (USA)": {
+    "Hans Christian Andersen's Thumbelina (Europe)": {
         "secondary_name": "",
         "group_name": "Hans Christian Andersen's Thumbelina",
         "status": "Blue",
@@ -2189,11 +2189,11 @@
     "Visit to Sesame Street, A - Numbers (USA)": {
         "secondary_name": "",
         "group_name": "Visit to Sesame Street, A - Numbers",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "",
         "version": "",
-        "edition": "Demonstration Disc"
+        "edition": "Original: Longbox, Demonstration Disc"
     },
     "Classical Jukebox (USA)": {
         "secondary_name": "",
@@ -2348,12 +2348,12 @@
         "version": "",
         "edition": "For Demonstration Only"
     },
-    "Strip-Poker Pro (France)": {
+    "Strip-Poker Pro (France) (En,Fr)": {
         "secondary_name": "",
         "group_name": "Strip-Poker Pro",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
-        "languages": "Fr",
+        "languages": "En, Fr",
         "version": "",
         "edition": "Original"
     },
@@ -2582,7 +2582,7 @@
         "version": "",
         "edition": "Original"
     },
-    "Alien Gate (USA) (19930714)": {
+    "Alien Gate (USA)": {
         "secondary_name": "",
         "group_name": "Alien Gate",
         "status": "Blue",
@@ -2927,7 +2927,7 @@
     "Nature Under Threat (Europe)": {
         "secondary_name": "",
         "group_name": "Nature Under Threat",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -3032,10 +3032,10 @@
         "version": "",
         "edition": "Original"
     },
-    "Text Tiles (USA)": {
+    "Text Tiles (USA, Europe)": {
         "secondary_name": "",
         "group_name": "Text Tiles",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -3095,7 +3095,7 @@
         "version": "1.02",
         "edition": "Original"
     },
-    "Lords of the Rising Sun (USA) (Alt)": {
+    "Lords of the Rising Sun (USA)": {
         "secondary_name": "",
         "group_name": "Lords of the Rising Sun",
         "status": "Blue",
@@ -3179,9 +3179,9 @@
     "Tim et Ted a l'Aeroport (France)": {
         "secondary_name": "",
         "group_name": "Tim et Ted a l'Aeroport",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "Fr",
         "version": "1.02",
         "edition": "Original"
     },
@@ -3424,7 +3424,7 @@
         "group_name": "3rd Degree",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "En",
         "version": "",
         "edition": "Original"
     },
@@ -3496,7 +3496,7 @@
         "group_name": "Voyeur",
         "status": "Blue",
         "disc_type": "CD",
-        "languages": "",
+        "languages": "En",
         "version": "",
         "edition": "Original"
     },
@@ -3581,7 +3581,7 @@
         "version": "",
         "edition": ""
     },
-    "Alien Gate (USA) (19930805)": {
+    "Alien Gate (USA) (Rev 1)": {
         "secondary_name": "",
         "group_name": "Alien Gate",
         "status": "Blue",
@@ -3661,5 +3661,266 @@
         "languages": "En",
         "version": "",
         "edition": ""
+    },
+    "Aventures de Sandy au Cirque, Les (France)": {
+        "secondary_name": "",
+        "group_name": "Aventures de Sandy au Cirque, Les",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Fr",
+        "version": "",
+        "edition": "Original"
+    },
+    "Portrait d'une Ville - Venise (France)": {
+        "secondary_name": "",
+        "group_name": "Portrait d'une Ville - Venise",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Fr",
+        "version": "1.07",
+        "edition": "Original"
+    },
+    "Tim et Ted au Port (France)": {
+        "secondary_name": "",
+        "group_name": "Tim et Ted au Port",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Fr",
+        "version": "1.01",
+        "edition": "Original"
+    },
+    "Tim et Ted au Cinema (France)": {
+        "secondary_name": "",
+        "group_name": "Tim et Ted au Cinema",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Fr",
+        "version": "1.03",
+        "edition": "Original"
+    },
+    "Origami (Europe)": {
+        "secondary_name": "",
+        "group_name": "Origami",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Original"
+    },
+    "Je Parle l'Allemand - Junior (France)": {
+        "secondary_name": "",
+        "group_name": "Je Parle l'Allemand - Junior",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "De",
+        "version": "1.05",
+        "edition": "Original"
+    },
+    "Je Parle l'Anglais - Senior (France)": {
+        "secondary_name": "",
+        "group_name": "Je Parle l'Anglais - Senior",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "1.07",
+        "edition": "Original"
+    },
+    "Language Director - English - Level 2 (Europe) (Disc 2) (Alt)": {
+        "secondary_name": "",
+        "group_name": "Language Director - English - Level 2",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Rerelease"
+    },
+    "Language Director - Guided Tour - English Level 2 (Europe)": {
+        "secondary_name": "",
+        "group_name": "Language Director - Guided Tour - English Level 2",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Original"
+    },
+    "TF1 - Le Journal Interactif 1995 et le Jeu des Stars de l'Info (France) (Disc 2) (Le Jeu des Stars de l'Info)": {
+        "secondary_name": "",
+        "group_name": "TF1 - Le Journal Interactif 1995 et le Jeu des Stars de l'Info",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Fr",
+        "version": "",
+        "edition": "Original"
+    },
+    "TF1 - Le Journal Interactif 1995 et le Jeu des Stars de l'Info (France) (Disc 1) (Le Journal Interactif 1995)": {
+        "secondary_name": "",
+        "group_name": "TF1 - Le Journal Interactif 1995 et le Jeu des Stars de l'Info",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Fr",
+        "version": "",
+        "edition": "Original"
+    },
+    "Face Kitchen (UK)": {
+        "secondary_name": "",
+        "group_name": "Face Kitchen",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": ""
+    },
+    "Wie das Rhinozeros zu seiner Haut Kam (Germany)": {
+        "secondary_name": "",
+        "group_name": "Wie das Rhinozeros zu seiner Haut Kam",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "De",
+        "version": "",
+        "edition": "Original"
+    },
+    "Royal Classics CDi Sampler - The Classics You Love (Europe)": {
+        "secondary_name": "",
+        "group_name": "Royal Classics CDi Sampler - The Classics You Love",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Story Machine - Magic Tales (Europe)": {
+        "secondary_name": "",
+        "group_name": "Story Machine - Magic Tales",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "CD-Online - Issue 01 - Internet on TV (UK) (Rev 1)": {
+        "secondary_name": "The Net on Your Set",
+        "group_name": "CD-Online - Issue 01 - Internet on TV",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Enhanced Version"
+    },
+    "Muzzy (Europe)": {
+        "secondary_name": "Learn French the Fun Way",
+        "group_name": "Muzzy",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "1.15",
+        "edition": ""
+    },
+    "Alien Gate (Europe)": {
+        "secondary_name": "",
+        "group_name": "Alien Gate",
+        "status": "Green",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": ""
+    },
+    "Labyrinth von Kreta (Germany)": {
+        "secondary_name": "",
+        "group_name": "Labyrinth von Kreta",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "De",
+        "version": "",
+        "edition": "Original"
+    },
+    "Tell Me Why - Two (Europe)": {
+        "secondary_name": "",
+        "group_name": "Tell Me Why - Two",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Thunder in Paradise (USA) (Disc 1) (The Game)": {
+        "secondary_name": "",
+        "group_name": "Thunder in Paradise",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Original"
+    },
+    "Story Machine - Magic Tales (USA)": {
+        "secondary_name": "",
+        "group_name": "Story Machine - Magic Tales",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "How the Rhinoceros Got His Skin (Europe)": {
+        "secondary_name": "",
+        "group_name": "How the Rhinoceros Got His Skin",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Paint School I (USA)": {
+        "secondary_name": "",
+        "group_name": "Paint School I",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
+    },
+    "Tresor de l'Ile aux Jeux, Le (France)": {
+        "secondary_name": "",
+        "group_name": "Tresor de l'Ile aux Jeux, Le",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Fr",
+        "version": "1.03",
+        "edition": "Original"
+    },
+    "Test Codoroute I (France)": {
+        "secondary_name": "",
+        "group_name": "Test Codoroute I",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Fr",
+        "version": "",
+        "edition": "Original"
+    },
+    "Test Codoroute II (France)": {
+        "secondary_name": "",
+        "group_name": "Test Codoroute II",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Fr",
+        "version": "",
+        "edition": "Original"
+    },
+    "Pecos Bill (Europe)": {
+        "secondary_name": "",
+        "group_name": "Pecos Bill",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "",
+        "version": "",
+        "edition": "Original"
+    },
+    "Children's Musical Theatre (France)": {
+        "secondary_name": "",
+        "group_name": "Children's Musical Theatre",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "En",
+        "version": "",
+        "edition": "Original"
     }
 }
