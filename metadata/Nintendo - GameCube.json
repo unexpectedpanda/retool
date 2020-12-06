@@ -4547,7 +4547,7 @@
     "Need for Speed - Underground (France)": {
         "secondary_name": "",
         "group_name": "Need for Speed - Underground",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "Nintendo GameCube Game Disc",
         "languages": "Fr",
         "version": "",
@@ -12602,7 +12602,7 @@
     "Harry Potter and the Chamber of Secrets (Europe) (Es,It,Pt)": {
         "secondary_name": "",
         "group_name": "Harry Potter and the Chamber of Secrets",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "Nintendo GameCube Game Disc",
         "languages": "It, Pt, Es",
         "version": "",
@@ -17168,6 +17168,15 @@
         "status": "Blue",
         "disc_type": "Nintendo GameCube Game Disc",
         "languages": "",
+        "version": "",
+        "edition": ""
+    },
+    "Gekkan Nintendo Tentou Demo 2006.6.1 (Japan)": {
+        "secondary_name": "月刊任天堂店頭デモ　６月号",
+        "group_name": "Gekkan Nintendo Tentou Demo 2006.6.1",
+        "status": "Blue",
+        "disc_type": "Nintendo GameCube Game Disc",
+        "languages": "Ja",
         "version": "",
         "edition": ""
     }

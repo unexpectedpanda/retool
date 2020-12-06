@@ -942,7 +942,7 @@
         "disc_type": "CD",
         "languages": "",
         "version": "",
-        "edition": "Promo, Demo Disc"
+        "edition": "Original, Promo, Demo Disc"
     },
     "V Goal Soccer '96 (Japan) (Demo)": {
         "secondary_name": "Ｖゴール・サッカー’９６",
@@ -3494,7 +3494,7 @@
     "Sewer Shark (USA)": {
         "secondary_name": "",
         "group_name": "Sewer Shark",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -4682,7 +4682,7 @@
     "VR Stalker (USA)": {
         "secondary_name": "",
         "group_name": "VR Stalker",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",

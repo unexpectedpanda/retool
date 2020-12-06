@@ -218,7 +218,7 @@
     "Power Smash 2 - Sega Professional Tennis (Japan)": {
         "secondary_name": "パワースマッシュ2",
         "group_name": "Power Smash 2 - Sega Professional Tennis",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "GD-ROM",
         "languages": "En",
         "version": "1.004",
@@ -6257,11 +6257,11 @@
     "Utau - Tumbling Dice (Japan)": {
         "secondary_name": "うたう♪タンブリング・ダイス",
         "group_name": "Utau - Tumbling Dice",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "GD-ROM",
         "languages": "Ja",
         "version": "1.002",
-        "edition": "Original"
+        "edition": "Original, Shokai Genteiban"
     },
     "Grauen no Torikago - Kapitel 2 - Torikago (Japan)": {
         "secondary_name": "グラウエンの鳥籠　Ｋａｐｉｔｅｌ　２　「鳥籠」",
@@ -11873,7 +11873,7 @@
     "Tantei Shinshi Dash! (Japan) (Rev A)": {
         "secondary_name": "探偵紳士ＤＡＳＨ！",
         "group_name": "Tantei Shinshi Dash!",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "GD-ROM",
         "languages": "Ja",
         "version": "2.000",

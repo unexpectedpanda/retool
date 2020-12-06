@@ -2196,9 +2196,9 @@
         "edition": "Pocket Price Midas / Value Series"
     },
     "Shin Megami Tensei II (Japan)": {
-        "secondary_name": "真・女神転生II",
+        "secondary_name": "真・女神転生Ⅱ",
         "group_name": "Shin Megami Tensei II",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
@@ -11105,14 +11105,14 @@
         "version": "",
         "edition": "Original"
     },
-    "Crash Bandicoot 3 - Buttobi! Sekai Isshuu (Japan) (Tentou You Taikenban)": {
-        "secondary_name": "クラッシュバンディクー3 ブッとび! 世界一周店頭用体験版",
+    "Crash Bandicoot 3 - Buttobi! Sekai Isshuu (Japan) (Demo)": {
+        "secondary_name": "クラッシュバンディクー3 ブッとび! 世界一周",
         "group_name": "Crash Bandicoot 3 - Buttobi! Sekai Isshuu",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
-        "edition": "Tentou You Taikenban"
+        "edition": "Tentou-you Taikenban, Muryou Rental-ban"
     },
     "Mystic Ark - Maboroshi Gekijou (Japan)": {
         "secondary_name": "ミスティック・アーク　～まぼろし劇場～",
@@ -17342,9 +17342,9 @@
         "version": "",
         "edition": "Review Version"
     },
-    "Disney El planeta del tesoro (Spain)": {
+    "Disney El Planeta del Tesoro (Spain)": {
         "secondary_name": "",
-        "group_name": "Disney El planeta del tesoro",
+        "group_name": "Disney El Planeta del Tesoro",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "Es",
@@ -20510,14 +20510,14 @@
         "version": "",
         "edition": "Original"
     },
-    "Chrono Cross (Japan) (Disc 1)": {
+    "Chrono Cross (Japan, Asia) (Disc 1)": {
         "secondary_name": "クロノクロス",
         "group_name": "Chrono Cross",
         "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
-        "edition": "Original, PSone Books, Square Millennium Collection, Ultimate Hits"
+        "edition": "Original, Square Millennium Collection, PSone Books, Ultimate Hits"
     },
     "Doki Doki Pretty League - Nekketsu Otome Seishunki (Japan) (Disc 2)": {
         "secondary_name": "ドキドキプリティリーグ 熱血乙女青春記",
@@ -21644,9 +21644,9 @@
         "version": "",
         "edition": "Original"
     },
-    "Versalles - Complot en la corte del Rey Sol (Spain)": {
+    "Versalles - Complot en la Corte del Rey Sol (Spain)": {
         "secondary_name": "",
-        "group_name": "Versalles - Complot en la corte del Rey Sol",
+        "group_name": "Versalles - Complot en la Corte del Rey Sol",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "Es",
@@ -31526,9 +31526,9 @@
         "version": "",
         "edition": "Original"
     },
-    "Tombi! 2 - Contra los cerdiablos (Spain)": {
+    "Tombi! 2 - Contra los Cerdiablos (Spain)": {
         "secondary_name": "Tombi 2",
-        "group_name": "Tombi! 2 - Contra los cerdiablos",
+        "group_name": "Tombi! 2 - Contra los Cerdiablos",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "Es",
@@ -33155,14 +33155,14 @@
         "version": "",
         "edition": "Original"
     },
-    "Chrono Cross (Japan) (Disc 2)": {
+    "Chrono Cross (Japan, Asia) (Disc 2)": {
         "secondary_name": "クロノクロス",
         "group_name": "Chrono Cross",
         "status": "Green",
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
-        "edition": "Original, PSone Books, Square Millennium Collection, Ultimate Hits"
+        "edition": "Original, Square Millennium Collection, PSone Books, Ultimate Hits"
     },
     "Tomb Raider III - Adventures of Lara Croft (USA)": {
         "secondary_name": "",
@@ -36251,9 +36251,9 @@
         "version": "",
         "edition": ""
     },
-    "Quiere ser millonario (Spain)": {
+    "Quiere Ser Millonario (Spain)": {
         "secondary_name": "¿Quiere Ser Millonario? 50 por 15",
-        "group_name": "Quiere ser millonario",
+        "group_name": "Quiere Ser Millonario",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "Es",
@@ -36737,9 +36737,9 @@
         "version": "",
         "edition": ""
     },
-    "Ciudad de los ninos perdidos, La (Spain)": {
+    "Ciudad de los Ninos Perdidos, La (Spain)": {
         "secondary_name": "",
-        "group_name": "Ciudad de los ninos perdidos, La",
+        "group_name": "Ciudad de los Ninos Perdidos, La",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "Es",
@@ -44513,9 +44513,9 @@
         "version": "",
         "edition": "Original"
     },
-    "Louvre - La maldicion final (Spain) (Disc 2)": {
+    "Louvre - La Maldicion Final (Spain) (Disc 2)": {
         "secondary_name": "",
-        "group_name": "Louvre - La maldicion final",
+        "group_name": "Louvre - La Maldicion Final",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "Es",
@@ -55779,7 +55779,7 @@
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
-        "edition": "Taikenban"
+        "edition": "Taikenban, Muryou Rental-ban"
     },
     "Shadow Madness (Europe) (Disc 1)": {
         "secondary_name": "",
@@ -64334,7 +64334,7 @@
     "Ford Truck Mania (USA)": {
         "secondary_name": "",
         "group_name": "Ford Truck Mania",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -66876,7 +66876,7 @@
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
-        "edition": "Taikenban"
+        "edition": "Taikenban, Muryou Rental-ban"
     },
     "Mickey's Wild Adventure (Europe)": {
         "secondary_name": "",
@@ -73307,7 +73307,7 @@
     "Burning Road (USA)": {
         "secondary_name": "",
         "group_name": "Burning Road",
-        "status": "Blue",
+        "status": "Green",
         "disc_type": "CD",
         "languages": "En",
         "version": "",
@@ -81665,9 +81665,9 @@
         "version": "",
         "edition": "Original"
     },
-    "Louvre - La maldicion final (Spain) (Disc 1)": {
+    "Louvre - La Maldicion Final (Spain) (Disc 1)": {
         "secondary_name": "",
-        "group_name": "Louvre - La maldicion final",
+        "group_name": "Louvre - La Maldicion Final",
         "status": "Blue",
         "disc_type": "CD",
         "languages": "Es",
@@ -94092,6 +94092,24 @@
         "disc_type": "CD",
         "languages": "Ja",
         "version": "",
+        "edition": "Original"
+    },
+    "NBA Live 98 (Japan) (Demo)": {
+        "secondary_name": "",
+        "group_name": "NBA Live 98",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "",
+        "edition": "Taikenban Disc"
+    },
+    "Shin Megami Tensei II (Japan) (Rev 1)": {
+        "secondary_name": "真・女神転生Ⅱ",
+        "group_name": "Shin Megami Tensei II",
+        "status": "Blue",
+        "disc_type": "CD",
+        "languages": "Ja",
+        "version": "Rev 1",
         "edition": "Original"
     }
 }

@@ -3,7 +3,7 @@
 		"name": [
 			"IBM - PC compatible"
 		],
-		"last updated": "29 November 2020"
+		"last updated": "6 December 2020"
 	},
 
 	"compilations": [
@@ -676,6 +676,18 @@
 		],
 		"Bestseller Games Collection Ausgabe 11": [
 			["Hallo! 2 (Disc 4)", 2]
+		],
+		"Bet on Soldier - Blood Sport (Disc 1) (Install Disc)": [
+			["Bet on Soldier - Blood Sport", 0]
+		],
+		"Bet on Soldier - Blood Sport (Disc 2)": [
+			["Bet on Soldier - Blood Sport", 0]
+		],
+		"Bet on Soldier - Blood Sport (Disc 3)": [
+			["Bet on Soldier - Blood Sport", 0]
+		],
+		"Bet on Soldier - Blood Sport (Disc 4)": [
+			["Bet on Soldier - Blood Sport", 0]
 		],
 		"Beyond Divinity (Game-CD)": [
 			["Beyond Divinity Okovy Sud'by (Play CD)", 1]
@@ -4128,6 +4140,9 @@
 		"Nickelodeon Spongebob SquarePants - Battle for Bikini Bottom": [
 			["Nickelodeon SpongeBob Schwammkopf - Schlacht um Bikini Bottom", 1]
 		],
+		"Nickelodeon SpongeBob SquarePants - The Movie": [
+			["Gubka Bob Kvadratnye Shtany", 1]
+		],
 		"No One Lives Forever 2 - A Spy in H.A.R.M.'s Way (Disc 1)": [
 			["No One Lives Forever 2 - Agentin in geheimer Mission (Disc 1)", 1]
 		],
@@ -4325,7 +4340,8 @@
 			["Payuta i Bog Lodu", 1]
 		],
 		"PC Futbol 5.0": [
-			["PC Calcio 5.0 - Temporada 96-97", 1]
+			["PC Calcio 5.0 - Stagione 96-97", 1],
+			["PC Calcio 5.0 - Temporada 96-97", 2]
 		],
 		"PC Gamer November 2008": [
 			["Sid Meier's Colonization", 0]
@@ -4441,6 +4457,19 @@
 		"Player Manager Ninety Nine": [
 			["Player Manager - Epoca 98-99", 1]
 		],
+		"PlayStation Programmer Tool - Runtime Library Version 4.6": [
+			["PlayStation Programmer Tool - Runtime Library Version 4.4", 2],
+			["PlayStation Programmer Tool - Runtime Library Version 4.3", 3],
+			["PlayStation Programmer Tool - Runtime Library Version 4.1", 4],
+			["PlayStation Programmer Tool - Runtime Library Version 4.0", 5],
+			["PlayStation Programmer Tool - Runtime Library Version 3.6", 6],
+			["PlayStation Programmer Tool - Runtime Library Version 3.5", 7],
+			["PlayStation Programmer Tool - Runtime Library Version 2.0", 8]
+		],
+		"PlayStation Programmer Tool - Technical Reference Version 4.6": [
+			["PlayStation Programmer Tool - Technical Reference Version 4.4", 2],
+			["PlayStation Programmer Tool - Technical Reference Version 4.3", 3]
+		],
 		"POD": [
 			["POD Gold", -1]
 		],
@@ -4477,6 +4506,7 @@
 		],
 		"Poseidon - Zeus Official Expansion": [
 			["Herrscher von Atlantis - Poseidon", 1],
+			["Poseidon - Master of Atlantis", 1],
 			["Signore di Atlantide, Il - Poseidon", 1]
 		],
 		"Postal": [
@@ -6222,6 +6252,9 @@
 		"Tom Clancy's Ghost Recon - Advanced Warfighter (Disc 4)": [
 			["Tom Clancy's Ghost Recon - Advanced Warfighter", 0]
 		],
+		"Tom Clancy's Rainbow Six (Disc 1)": [
+			["Tom Clancy's Rainbow Six", 0]
+		],
 		"Tom Clancy's Rainbow Six - Covert Ops Essentials (Disc 1) (Training Disc)": [
 			["Tom Clancy's Rainbow Six - Covert Ops Essentials", 0]
 		],
@@ -6257,6 +6290,9 @@
 		],
 		"Tom Clancy's Rainbow Six 3 - Raven Shield (Disc 2)": [
 			["Tom Clancy's Rainbow Six 3 - Raven Shield Complete", -1]
+		],
+		"Tom Clancy's Rainbow Six Mission Pack - Eagle Watch (Disc 2)": [
+			["Tom Clancy's Rainbow Six Mission Pack - Eagle Watch", 0]
 		],
 		"Tom Clancy's Splinter Cell (Disc 1)": [
 			["Tom Clancy's Splinter Cell", 0],
