@@ -180,6 +180,7 @@ they will be included if you select any of their respective languages:
 * `-f` Exclude coverdiscs (discs attached to the front of magazines)
 * `-i` Exclude audio titles (these might be used as soundtracks for games)
 * `-j` Exclude video titles
+* `-k` Exclude BIOS titles (No-Intro only)
 * `-m` Exclude multimedia titles (these might include games)
 * `-n` Exclude pirate titles
 * `-p` Exclude preproduction titles (alphas, betas, prototypes)
