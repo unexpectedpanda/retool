@@ -1,9 +1,3 @@
-<div style="margin-bottom: 24px; outline: 3px dashed #072C66; background-color: #A0E1FF; padding: 24px; font-weight:700;">
-The format for clone lists has changed to enable new functionality, and isn't
-compatible with versions of Retool older than 0.86. Please update to the latest
-version to continue using Retool.
-</div>
-
 # Retool
 
 * [What it does](#what-it-does)
