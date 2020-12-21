@@ -84,6 +84,10 @@ def check_input():
                         action='store_true',
                         help='exclude video titles')
 
+    filter_options.add_argument('-k',
+                        action='store_true',
+                        help='exclude BIOS titles (No-Intro only)')
+
     filter_options.add_argument('-m',
                         action='store_true',
                         help='exclude multimedia titles (these might include games)')
@@ -161,6 +165,7 @@ def check_input():
             args.f,
             args.i,
             args.j,
+            args.k,
             args.m,
             args.n,
             args.p,

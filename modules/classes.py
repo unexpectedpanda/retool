@@ -42,18 +42,10 @@ class DatNode:
         metadata = input_dat.metadata
 
         if self.full_name in metadata:
-            self.secondary_name = metadata[self.full_name]['secondary_name']
-            self.status = metadata[self.full_name]['status']
             self.online_languages = metadata[self.full_name]['languages']
-            self.version = metadata[self.full_name]['version']
-            self.disc_type = metadata[self.full_name]['disc_type']
         else:
-            self.secondary_name = ''
-            self.status = ''
             self.online_languages = ''
-            self.version = ''
 
-        self.disc_type_parent = ''
 
         # Set title with minimal tags, starting with normalizing disc names
         tag_free_name = self.full_name
@@ -149,21 +141,6 @@ class DatNode:
 
         self.roms = roms
 
-        if self.full_name not in metadata:
-            # Calculate total disc size
-            disc_size = 0
-            for i, rom in enumerate(self.roms):
-                disc_size += int(rom.size)
-
-            # Disc type, defined by maximum CD size in bytes, or if it's a
-            # multitrack disc.
-            if disc_size <= 999300000 or len(self.roms) > 1:
-                self.disc_type = 'CD-ROM/GD-ROM'
-            elif disc_size > 9395241000:
-                self.disc_type = 'BD-ROM'
-            else:
-                self.disc_type = 'DVD/BD-ROM'
-
         # Check if the (Demo) tag is missing, and add it if so
         if self.category == 'Demos' and '(Demo' not in self.full_name:
             self.short_name = self.short_name + ' (Demo)'
@@ -187,15 +164,12 @@ class DatNode:
 
 
         ret_str.append(f'  ○ full_name:\t\t{self.full_name}\n')
-        format_property(self.secondary_name, 'secondary_name', '\t')
         ret_str.append(f'  ├ numbered_name:\t{self.numbered_name}\n')
         ret_str.append(f'  ├ description:\t{self.description}\n')
         ret_str.append(f'  ├ region_free_name:\t{self.region_free_name}\n')
         ret_str.append(f'  ├ tag_free_name:\t{self.tag_free_name}\n')
         ret_str.append(f'  ├ short_name:\t\t{self.short_name}\n')
         ret_str.append(f'  ├ group:\t\t{self.group}\n')
-        format_property(self.status, 'status', '\t\t')
-        format_property(self.version, 'version', '\t\t')
         ret_str.append(f'  ├ regions:\t\t{self.regions}\n')
         ret_str.append(f'  ├ primary_region:\t{self.primary_region}\n')
         format_property(self.secondary_region, 'secondary_region', '\t')
@@ -207,8 +181,6 @@ class DatNode:
         format_property(self.cloneof, 'cloneof', '\t\t')
         format_property(self.cloneof_group, 'cloneof_group', '\t')
         ret_str.append(f'  ├ category:\t\t{self.category}\n')
-        format_property(self.disc_type, 'disc_type', '\t\t')
-        format_property(self.disc_type_parent, 'disc_type_parent', '\t')
         ret_str.append(f'  └ roms ┐\n')
         for i, rom in enumerate(self.roms):
             if i == len(self.roms) - 1:
@@ -246,6 +218,7 @@ class Regex:
         # Tags
         self.alt = re.compile('\(Alt.*?\)')
         self.bad = re.compile('\[b\]')
+        self.bios = re.compile('\[BIOS\]')
         self.covermount = re.compile('\(Covermount\)')
         self.dates = re.compile('\((\d{8}|\d{4}-\d{2}-\d{2}|\d{2}-\d{2}-\d{4}|\d{2}-\d{2}-\d{2}|(January|February|March|April|May|June|July|August|September|October|November|December), \d{4})\)')
         self.dates_whitespace = re.compile('\s?\((\d{8}|\d{4}-\d{2}-\d{2}|\d{2}-\d{2}-\d{4}|\d{2}-\d{2}-\d{2}|(January|February|March|April|May|June|July|August|September|October|November|December), \d{4})\)\s?')
@@ -268,7 +241,8 @@ class Regex:
             re.compile('Trial Edition')
             ]
         self.programs = [
-            re.compile('\(Program\)')
+            re.compile('\(Program\)'),
+            re.compile('\(Test Program\)')
         ]
         self.preproduction = [
             self.alpha,
@@ -454,11 +428,11 @@ class UserInput:
     def __init__(self, input_file_name='', output_folder_name='',
                  no_applications='', no_bad_dumps='', no_compilations='',
                  no_demos='', no_educational='', no_coverdiscs='',
-                 no_audio='', no_video='', no_multimedia='',
-                 no_pirate='', no_preproduction='', no_promotional='',
-                 no_unlicensed='', supersets='', filter_languages='',
-                 legacy='', user_options='', verbose='',
-                 keep_remove=''):
+                 no_audio='', no_video='', no_bios='',
+                 no_multimedia='', no_pirate='', no_preproduction='',
+                 no_promotional='', no_unlicensed='', supersets='',
+                 filter_languages='', legacy='', user_options='',
+                 verbose='', keep_remove=''):
         self.input_file_name = input_file_name
         self.output_folder_name = output_folder_name
 
@@ -470,6 +444,7 @@ class UserInput:
         self.no_coverdiscs = no_coverdiscs
         self.no_audio = no_audio
         self.no_video = no_video
+        self.no_bios = no_bios
         self.no_multimedia = no_multimedia
         self.no_pirate = no_pirate
         self.no_preproduction = no_preproduction
