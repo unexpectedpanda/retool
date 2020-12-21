@@ -3,7 +3,7 @@
 		"name": [
 			"Philips - CD-i"
 		],
-		"last updated": "29 November 2020"
+		"last updated": "12 December 2020"
 	},
 
 	"renames": {
@@ -45,6 +45,9 @@
 			["International Tennis Open (8100082)", 1],
 			["International Tennis Open (8120040)", 2]
 		],
+		"Link - The Faces of Evil": [
+			["Link - The Faces Of Evil", 1]
+		],
 		"Marco Polo (Disc 1) (The Game)": [
 			["Marco Polo (Disc 1) (Le Jeu)", 1]
 		],
@@ -75,6 +78,9 @@
 		],
 		"St. Petersbourg et les Tresors de l'Ermitage - The Art of the Czars": [
 			["Arte degli Zar, L' - San Pietroburgo e i Tesori dell'Ermitage", 1]
+		],
+		"Tesoro dell'Isola dei Giochi, Il": [
+			["Tresor de l'Ile aux Jeux, Le", 1]
 		],
 		"Thunder in Paradise (Disc 1) (The Game)": [
 			["Caraibes Offshore", 1],

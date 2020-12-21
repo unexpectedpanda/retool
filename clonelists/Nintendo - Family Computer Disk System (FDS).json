@@ -3,16 +3,13 @@
         "name": [
 			"Nintendo - Family Computer Disk System"
 		],
-        "last updated": "26 July 2020"
+        "last updated": "21 December 2020"
     },
 
     "renames": {
         "Disk Hacker - Version 1.3": [
             ["Disk Hacker - Version 1.2", 2],
             ["Disk Hacker - Version 1.0", 3]
-        ],
-        "Druid - Kyoufu no Tobira": [
-            ["Druid - Kyoufu no Tobira (1987-12-xx)", 2]
         ],
         "Golf - Japan Course": [
             ["Golf - Japan Course (Prize Card)", 2]

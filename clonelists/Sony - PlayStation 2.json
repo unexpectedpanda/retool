@@ -3,7 +3,7 @@
         "name": [
 			["Sony - PlayStation 2", 1]
 		],
-        "last updated": "6 December 2020"
+        "last updated": "13 December 2020"
     },
 
     "compilations": [
@@ -43,6 +43,9 @@
     "renames": {
         "007 - From Russia with Love": [
 			["007 - Russia yori Ai o Komete", 1]
+		],
+		"007 - Quantum of Solace": [
+			["007 - Nagusame no Houshuu", 1]
 		],
 		"10.000 Bullets": [
 			["Tsukiyo ni Saraba", 1]
@@ -375,6 +378,9 @@
 		"Crash Nitro Kart": [
 			["Crash Bandicoot - Bakusou! Nitro Kart", 1]
 		],
+		"Crash Tag Team Racing": [
+			["Crash Bandicoot - Gatchanko World", 1]
+		],
 		"Crash Twinsanity": [
 			["Crash Bandicoot 5 - Eeee Crash to Cortex no Yabou!", 1]
 		],
@@ -619,13 +625,13 @@
 			["Dragon Ball Z 3", 1]
 		],
 		"Dragon Ball Z - Budokai Tenkaichi": [
-			["Dragon Ball Z Sparking!", 1]
+			["Dragon Ball Z - Sparking!", 1]
 		],
 		"Dragon Ball Z - Budokai Tenkaichi 2": [
-			["Dragon Ball Z Sparking! Neo", 1]
+			["Dragon Ball Z - Sparking! Neo", 1]
 		],
 		"Dragon Ball Z - Budokai Tenkaichi 3": [
-			["Dragon Ball Z Sparking! Meteor", 1]
+			["Dragon Ball Z - Sparking! Meteor", 1]
 		],
 		"Dragon Quest VIII - Journey of the Cursed King": [
 			["Dragon Quest - The Journey of the Cursed King", 1],
@@ -2821,8 +2827,8 @@
 		"Yakuza Fury": [
 			["Simple 2000 Series Vol. 72 - The Ninkyou", 1]
 		],
-		"Yamasa Digi World 4": [
-			["Yamasa Digi World 4 DX", -1]
+		"Yamasa Digi World 4 - Penguin Paradise, Crazy Shaman R, Zakzak Senryoubako R, Destroyer XX, King Pulsar": [
+			["Yamasa Digi World 4 DX - Penguin Paradise, Crazy Shaman R, Zakzak Senryoubako R, Destroyer XX, King Pulsar", -1]
 		],
 		"Yanya Caballista - City Skater": [
 			["Yanya! Caballista featuring Gawoo", 1]

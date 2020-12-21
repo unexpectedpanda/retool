@@ -1,4835 +1,1613 @@
 {
     "Sol-Feace (Europe) (Alt)": {
-        "secondary_name": "",
-        "group_name": "Sol-Feace",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "",
-        "version": "",
-        "edition": "Bundled with Mega-CD (Sol-Feace / Cobra Command Bundle)"
+        "languages": ""
     },
     "FIFA International Soccer - Championship Edition (Europe) (Demo) (Alt)": {
-        "secondary_name": "",
-        "group_name": "FIFA International Soccer - Championship Edition",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Bundled with Magazine (Demo)"
+        "languages": "En"
     },
     "Star Wars - Rebel Assault (Europe) (Demo) (Mega Power)": {
-        "secondary_name": "",
-        "group_name": "Star Wars - Rebel Assault",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Bundled with Magazine (Playable Demo - Mega Power Disc 7)"
+        "languages": "En"
     },
     "Dracula Unleashed (Europe) (Disc 2) (Made in Japan)": {
-        "secondary_name": "",
-        "group_name": "Dracula Unleashed",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Android Assault - The Revenge of Bari-Arm (USA)": {
-        "secondary_name": "",
-        "group_name": "Android Assault - The Revenge of Bari-Arm",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "",
-        "version": "",
-        "edition": "Original"
+        "languages": ""
     },
     "Make My Video - Marky Mark and the Funky Bunch (USA) (Beta)": {
-        "secondary_name": "",
-        "group_name": "Make My Video - Marky Mark and the Funky Bunch",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Beta"
+        "languages": "En"
     },
     "Dennin Aleste - Nobunaga and His Ninja Force (Japan)": {
-        "secondary_name": "電忍アレスタ",
-        "group_name": "Dennin Aleste - Nobunaga and His Ninja Force",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Shadow of the Beast II - Juushin no Jubaku (Japan)": {
-        "secondary_name": "シャドー・オブ・ザ・ビーストⅡ　～獣神の呪縛～",
-        "group_name": "Shadow of the Beast II - Juushin no Jubaku",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Tenkafubu - Eiyuutachi no Houkou (Japan)": {
-        "secondary_name": "天下布武　～英雄たちの咆哮～",
-        "group_name": "Tenkafubu - Eiyuutachi no Houkou",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Formula One World Championship - Beyond the Limit (Europe)": {
-        "secondary_name": "",
-        "group_name": "Formula One World Championship - Beyond the Limit",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "",
-        "version": "",
-        "edition": "Original"
+        "languages": ""
     },
     "Samurai Shodown (USA) (RE)": {
-        "secondary_name": "",
-        "group_name": "Samurai Shodown",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Fatal Fury Special (Europe)": {
-        "secondary_name": "",
-        "group_name": "Fatal Fury Special",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Battlecorps (Europe) (En,Fr,De,Es)": {
-        "secondary_name": "",
-        "group_name": "Battlecorps",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En, Fr, De, Es",
-        "version": "",
-        "edition": "Original"
+        "languages": "En, Fr, De, Es"
     },
     "IIIrd World War, The (Japan)": {
-        "secondary_name": "ザ・サード・ワールド・ウォー",
-        "group_name": "IIIrd World War, The",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Brutal - Paws of Fury (USA)": {
-        "secondary_name": "",
-        "group_name": "Brutal - Paws of Fury",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Night Trap (USA) (Disc 1)": {
-        "secondary_name": "",
-        "group_name": "Night Trap",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Sewer Shark (USA)": {
-        "secondary_name": "",
-        "group_name": "Sewer Shark",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Bram Stoker's Dracula (USA) (Alt 2)": {
-        "secondary_name": "",
-        "group_name": "Bram Stoker's Dracula",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Dragon's Lair (Europe)": {
-        "secondary_name": "",
-        "group_name": "Dragon's Lair",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "",
-        "version": "",
-        "edition": "Original"
+        "languages": ""
     },
     "Snatcher (Europe)": {
-        "secondary_name": "",
-        "group_name": "Snatcher",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Eye of the Beholder (USA)": {
-        "secondary_name": "",
-        "group_name": "Eye of the Beholder",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Ninja Warriors, The (Japan)": {
-        "secondary_name": "ニンジャ・ウォリアーズ",
-        "group_name": "Ninja Warriors, The",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "NFL's Greatest - San Francisco vs. Dallas 1978-1993 (USA)": {
-        "secondary_name": "",
-        "group_name": "NFL's Greatest - San Francisco vs. Dallas 1978-1993",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "",
-        "version": "",
-        "edition": "Original"
+        "languages": ""
     },
     "Nobunaga no Yabou - Haouden (Japan)": {
-        "secondary_name": "信長の野望　～覇王伝～",
-        "group_name": "Nobunaga no Yabou - Haouden",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Starblade (Europe)": {
-        "secondary_name": "",
-        "group_name": "Starblade",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "",
-        "version": "",
-        "edition": "Original"
+        "languages": ""
     },
     "Jurassic Park (USA) (RE)": {
-        "secondary_name": "",
-        "group_name": "Jurassic Park",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Surgical Strike (USA)": {
-        "secondary_name": "",
-        "group_name": "Surgical Strike",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Star Wars - Rebel Assault (Europe)": {
-        "secondary_name": "",
-        "group_name": "Star Wars - Rebel Assault",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Flink (USA)": {
-        "secondary_name": "",
-        "group_name": "Flink",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Mansion of Hidden Souls (USA)": {
-        "secondary_name": "",
-        "group_name": "Mansion of Hidden Souls",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Flashback (Europe) (Demo)": {
-        "secondary_name": "",
-        "group_name": "Flashback",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Bundled with Magazine (Demo)"
+        "languages": "En"
     },
     "Animals!, The (Europe)": {
-        "secondary_name": "",
-        "group_name": "Animals!, The",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Eternal Champions - Challenge from the Dark Side (USA) (Beta)": {
-        "secondary_name": "",
-        "group_name": "Eternal Champions - Challenge from the Dark Side",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Beta"
+        "languages": "En"
     },
     "Chuck Rock (Europe)": {
-        "secondary_name": "",
-        "group_name": "Chuck Rock",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Eternal Champions - Challenge from the Dark Side (Europe) (Beta)": {
-        "secondary_name": "",
-        "group_name": "Eternal Champions - Challenge from the Dark Side",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "",
-        "version": "",
-        "edition": "Beta"
+        "languages": ""
     },
     "Blackhole Assault (USA) (Alt)": {
-        "secondary_name": "",
-        "group_name": "Blackhole Assault",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Black Hole Assault (Japan)": {
-        "secondary_name": "ブラック・ホール・アサルト",
-        "group_name": "Black Hole Assault",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Final Fight CD (USA) (Alt 1)": {
-        "secondary_name": "",
-        "group_name": "Final Fight CD",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Fahrenheit (France)": {
-        "secondary_name": "",
-        "group_name": "Fahrenheit",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "Fr",
-        "version": "",
-        "edition": "Original"
+        "languages": "Fr"
     },
     "Night Trap (USA) (Disc 2) (Rerelease)": {
-        "secondary_name": "",
-        "group_name": "Night Trap",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Rerelease"
+        "languages": "En"
     },
     "Prize Fighter (Europe) (Disc 2)": {
-        "secondary_name": "",
-        "group_name": "Prize Fighter",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "",
-        "version": "",
-        "edition": "Original"
+        "languages": ""
     },
     "Yumimi Mix (Japan)": {
-        "secondary_name": "ゆみみみっくす",
-        "group_name": "Yumimi Mix",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Lethal Enforcers (Japan)": {
-        "secondary_name": "リーサル・エンフォーサーズ",
-        "group_name": "Lethal Enforcers",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original, Bundled with The Justifier"
+        "languages": "En"
     },
     "AH3 - Thunderstrike (USA)": {
-        "secondary_name": "",
-        "group_name": "AH3 - Thunderstrike",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Sonic CD (Europe) (Beta 1)": {
-        "secondary_name": "",
-        "group_name": "Sonic CD",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "1.09",
-        "edition": "Beta"
+        "languages": "En"
     },
     "Make My Video - INXS (Europe)": {
-        "secondary_name": "",
-        "group_name": "Make My Video - INXS",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Yumemi Mystery Mansion (Australia)": {
-        "secondary_name": "",
-        "group_name": "Yumemi Mystery Mansion",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Terminator, The (Europe)": {
-        "secondary_name": "",
-        "group_name": "Terminator, The",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Demolition Man (USA)": {
-        "secondary_name": "",
-        "group_name": "Demolition Man",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Star Wars - Rebel Assault (Europe) (Demo) (Sega Pro)": {
-        "secondary_name": "",
-        "group_name": "Star Wars - Rebel Assault",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Bundled with Magazine (Demo)"
+        "languages": "En"
     },
     "Batman Returns (Europe) (Alt)": {
-        "secondary_name": "",
-        "group_name": "Batman Returns",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Dungeon Master II - Skullkeep (USA) (RE3)": {
-        "secondary_name": "",
-        "group_name": "Dungeon Master II - Skullkeep",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "After Burner III (USA)": {
-        "secondary_name": "",
-        "group_name": "After Burner III",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Annett Futatabi (Japan)": {
-        "secondary_name": "アネット再び",
-        "group_name": "Annett Futatabi",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Adventures of Batman and Robin, The (Europe)": {
-        "secondary_name": "",
-        "group_name": "Adventures of Batman and Robin, The",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Sangokushi III (Japan)": {
-        "secondary_name": "三国志Ⅲ",
-        "group_name": "Sangokushi III",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Sega Classics Arcade Collection (USA) (4-in-1) (RE)": {
-        "secondary_name": "",
-        "group_name": "Sega Classics Arcade Collection",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "1.00",
-        "edition": "Bundled with Sega CD (Sherlock Holmes: Consulting Detective / Sega Classics Arcade Collection Bundle)"
+        "languages": "En"
     },
     "Power Monger (USA)": {
-        "secondary_name": "",
-        "group_name": "Power Monger",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Slam City with Scottie Pippen (USA) (Disc 1) (Fingers)": {
-        "secondary_name": "",
-        "group_name": "Slam City with Scottie Pippen",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Theme Park (Europe)": {
-        "secondary_name": "",
-        "group_name": "Theme Park",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Switch (Japan)": {
-        "secondary_name": "スイッチ",
-        "group_name": "Switch",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Slam City with Scottie Pippen (Europe) (Disc 4) (Smash) (Mega-CD 32X)": {
-        "secondary_name": "",
-        "group_name": "Slam City with Scottie Pippen",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "",
-        "version": "",
-        "edition": "Mega-CD 32X"
+        "languages": ""
     },
     "Make My Video - Marky Mark and the Funky Bunch (USA)": {
-        "secondary_name": "",
-        "group_name": "Make My Video - Marky Mark and the Funky Bunch",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "PopfulMail (Japan) (Demo)": {
-        "secondary_name": "ぽっぷるメイル",
-        "group_name": "PopfulMail",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Sample"
+        "languages": "Ja"
     },
     "Final Fight CD (Europe)": {
-        "secondary_name": "",
-        "group_name": "Final Fight CD",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Make My Video - INXS (USA) (Beta)": {
-        "secondary_name": "",
-        "group_name": "Make My Video - INXS",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Beta"
+        "languages": "En"
     },
     "3 Ninjas Kick Back (USA)": {
-        "secondary_name": "",
-        "group_name": "3 Ninjas Kick Back",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Double Deal (3 Ninjas Kick Back / Hook Bundle)"
+        "languages": "En"
     },
     "Ishii Hisaichi no Daiseikai (Japan)": {
-        "secondary_name": "いしいひさいちの大政界",
-        "group_name": "Ishii Hisaichi no Daiseikai",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Slam City with Scottie Pippen (USA) (Disc 4) (Smash) (RE-1)": {
-        "secondary_name": "",
-        "group_name": "Slam City with Scottie Pippen",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "FIFA International Soccer - Championship Edition (Europe) (Demo)": {
-        "secondary_name": "",
-        "group_name": "FIFA International Soccer - Championship Edition",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Bundled with Magazine (Playable Demo - Mega Power Disc 6)"
+        "languages": "En"
     },
     "Dracula Unleashed (Europe) (Disc 2) (Made in E.U.)": {
-        "secondary_name": "",
-        "group_name": "Dracula Unleashed",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "After Burner III (Japan)": {
-        "secondary_name": "アフター・バーナーⅢ",
-        "group_name": "After Burner III",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "CD Sonic The Hedgehog (Japan) (Beta 2)": {
-        "secondary_name": "",
-        "group_name": "CD Sonic The Hedgehog",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "0.28Α",
-        "edition": "Beta"
+        "languages": "En"
     },
     "Night Trap (USA) (Disc 1) (Rerelease) (Alt)": {
-        "secondary_name": "",
-        "group_name": "Night Trap",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Rerelease"
+        "languages": "En"
     },
     "Mary Shelley's Frankenstein (USA)": {
-        "secondary_name": "",
-        "group_name": "Mary Shelley's Frankenstein",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Double Deal (Bram Stoker's Dracula / Mary Shelley's Frankenstein Bundle)"
+        "languages": "En"
     },
     "Thunderhawk (Europe) (En,Fr,De,Es) (RE)": {
-        "secondary_name": "",
-        "group_name": "Thunderhawk",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En, Fr, De, Es",
-        "version": "",
-        "edition": "Original"
+        "languages": "En, Fr, De, Es"
     },
     "Keio Flying Squadron (USA)": {
-        "secondary_name": "",
-        "group_name": "Keio Flying Squadron",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Captain Tsubasa (Japan)": {
-        "secondary_name": "キャプテン翼",
-        "group_name": "Captain Tsubasa",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Dracula Unleashed (USA) (Disc 1)": {
-        "secondary_name": "",
-        "group_name": "Dracula Unleashed",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Slam City with Scottie Pippen (USA, Brazil) (Disc 3) (Mad Dog) (RE-1)": {
-        "secondary_name": "",
-        "group_name": "Slam City with Scottie Pippen",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Amazing Spider-Man vs. The Kingpin, The (USA) (Rev 1)": {
-        "secondary_name": "",
-        "group_name": "Amazing Spider-Man vs. The Kingpin, The",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "",
-        "version": "",
-        "edition": "Original"
+        "languages": ""
     },
     "Lethal Enforcers (USA) (Alt)": {
-        "secondary_name": "",
-        "group_name": "Lethal Enforcers",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "",
-        "version": "",
-        "edition": "Bundled with The Justifier"
+        "languages": ""
     },
     "WWF - Rage in the Cage (USA)": {
-        "secondary_name": "",
-        "group_name": "WWF - Rage in the Cage",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "",
-        "version": "",
-        "edition": "Original"
+        "languages": ""
     },
     "Night Trap (Japan) (Disc 1)": {
-        "secondary_name": "ナイト・トラップ",
-        "group_name": "Night Trap",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Sonic CD (USA) (RE125) (Alt)": {
-        "secondary_name": "",
-        "group_name": "Sonic CD",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Bundled with Sega CD"
+        "languages": "En"
     },
     "Sonic The Hedgehog CD (Japan) (Demo)": {
-        "secondary_name": "ソニック・ザ・ヘッジホッグＣＤ",
-        "group_name": "Sonic The Hedgehog CD",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "",
-        "version": "",
-        "edition": "Sample"
+        "languages": ""
     },
     "Slam City with Scottie Pippen (USA) (Disc 1) (Fingers) (Sega CD 32X)": {
-        "secondary_name": "",
-        "group_name": "Slam City with Scottie Pippen",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Sega CD 32X"
+        "languages": "En"
     },
     "Sherlock Holmes - Consulting Detective (USA)": {
-        "secondary_name": "",
-        "group_name": "Sherlock Holmes - Consulting Detective",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Bundled with Sega CD (Sherlock Holmes: Consulting Detective / Sega Classics Arcade Collection Bundle)"
+        "languages": "En"
     },
     "Sewer Shark (Europe)": {
-        "secondary_name": "",
-        "group_name": "Sewer Shark",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Lethal Enforcers II - The Western (Japan)": {
-        "secondary_name": "リーサル・エンフォーサーズⅡ　～ ザ・ウエスタン～",
-        "group_name": "Lethal Enforcers II - The Western",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Mortal Kombat Kanzenban (Japan)": {
-        "secondary_name": "モータル・コンバット　完全版",
-        "group_name": "Mortal Kombat Kanzenban",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Ecco the Dolphin (USA)": {
-        "secondary_name": "",
-        "group_name": "Ecco the Dolphin",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original, Bundled with Sega CD (Ecco the Dolphin / Sega Classics Arcade Collection Bundle)"
+        "languages": "En"
     },
     "Wolfchild (Japan)": {
-        "secondary_name": "ウルフチャイルド",
-        "group_name": "Wolfchild",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Puggsy (Europe)": {
-        "secondary_name": "",
-        "group_name": "Puggsy",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Corpse Killer (USA) (Sega CD 32X)": {
-        "secondary_name": "",
-        "group_name": "Corpse Killer",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Sega CD 32X"
+        "languages": "En"
     },
     "Johnny Mnemonic (USA) (Disc 1) (Unl)": {
-        "secondary_name": "",
-        "group_name": "Johnny Mnemonic",
-        "status": "Yellow",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Unlicensed"
+        "languages": "En"
     },
     "Cadillacs and Dinosaurs - The Second Cataclysm (USA, Brazil) (RE)": {
-        "secondary_name": "",
-        "group_name": "Cadillacs and Dinosaurs - The Second Cataclysm",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Tomcat Alley (USA)": {
-        "secondary_name": "",
-        "group_name": "Tomcat Alley",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Wolfchild (Europe)": {
-        "secondary_name": "",
-        "group_name": "Wolfchild",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Thunderhawk (Europe) (Demo) (Mega Power, Sega Pro)": {
-        "secondary_name": "",
-        "group_name": "Thunderhawk",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Bundled with Magazine (Playable Demo - Mega Power Disc 1, Demo)"
+        "languages": "En"
     },
     "Rise of the Dragon (USA)": {
-        "secondary_name": "",
-        "group_name": "Rise of the Dragon",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Supreme Warrior (Europe) (Disc 1) (Mega-CD 32X)": {
-        "secondary_name": "",
-        "group_name": "Supreme Warrior",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "",
-        "version": "",
-        "edition": "Mega-CD 32X"
+        "languages": ""
     },
     "Slam City with Scottie Pippen (Europe) (Disc 1) (Fingers)": {
-        "secondary_name": "",
-        "group_name": "Slam City with Scottie Pippen",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Arslan Senki (Japan)": {
-        "secondary_name": "アルスラーン戦記",
-        "group_name": "Arslan Senki",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Sensible Soccer (Europe)": {
-        "secondary_name": "",
-        "group_name": "Sensible Soccer",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "",
-        "version": "",
-        "edition": "Original"
+        "languages": ""
     },
     "PopfulMail (Japan)": {
-        "secondary_name": "ぽっぷるメイル",
-        "group_name": "PopfulMail",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Shadow of the Beast II (USA)": {
-        "secondary_name": "",
-        "group_name": "Shadow of the Beast II",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "WWF - Rage in the Cage (Europe)": {
-        "secondary_name": "",
-        "group_name": "WWF - Rage in the Cage",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "PowerMonger (Europe)": {
-        "secondary_name": "",
-        "group_name": "PowerMonger",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "",
-        "version": "",
-        "edition": "Original"
+        "languages": ""
     },
     "Night Trap (Japan) (Disc 2)": {
-        "secondary_name": "ナイト・トラップ",
-        "group_name": "Night Trap",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Ground Zero Texas (USA) (Disc 2)": {
-        "secondary_name": "",
-        "group_name": "Ground Zero Texas",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Supreme Warrior (USA) (Disc 1) (Fire & Earth)": {
-        "secondary_name": "",
-        "group_name": "Supreme Warrior",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "",
-        "version": "",
-        "edition": "Original"
+        "languages": ""
     },
     "Lethal Enforcers (USA)": {
-        "secondary_name": "",
-        "group_name": "Lethal Enforcers",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Bundled with The Justifier"
+        "languages": "En"
     },
     "Ranma 1-2 - Byakuranaika (Japan)": {
-        "secondary_name": "らんま１／２　～白蘭愛歌～",
-        "group_name": "Ranma 1-2 - Byakuranaika",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "NHL '94 (USA)": {
-        "secondary_name": "EA Sports Presents NHL '94",
-        "group_name": "NHL '94",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Popful Mail (USA) (RE)": {
-        "secondary_name": "",
-        "group_name": "Popful Mail",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Yumemi Yakata no Monogatari (Japan)": {
-        "secondary_name": "夢見館の物語",
-        "group_name": "Yumemi Yakata no Monogatari",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "World Cup USA '94 (USA)": {
-        "secondary_name": "",
-        "group_name": "World Cup USA '94",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "",
-        "version": "",
-        "edition": "Original"
+        "languages": ""
     },
     "Sonic MegaMix (USA) (Unl)": {
-        "secondary_name": "",
-        "group_name": "Sonic MegaMix",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Unlicensed"
+        "languages": "En"
     },
     "Night Trap (USA) (Disc 1) (Sega CD 32X) (RE-1)": {
-        "secondary_name": "",
-        "group_name": "Night Trap",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Sega CD 32X"
+        "languages": "En"
     },
     "Sonic CD (Europe) (Beta 2)": {
-        "secondary_name": "",
-        "group_name": "Sonic CD",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "1.11",
-        "edition": "Beta"
+        "languages": "En"
     },
     "Mickey Mania (Europe)": {
-        "secondary_name": "",
-        "group_name": "Mickey Mania",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Sonic The Hedgehog CD (Japan) (Beta 2)": {
-        "secondary_name": "",
-        "group_name": "Sonic The Hedgehog CD",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "1.05",
-        "edition": "Beta"
+        "languages": "En"
     },
     "Adventures of Willy Beamish, The (USA)": {
-        "secondary_name": "",
-        "group_name": "Adventures of Willy Beamish, The",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Chuck Rock II - Son of Chuck (Europe)": {
-        "secondary_name": "",
-        "group_name": "Chuck Rock II - Son of Chuck",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Ecco the Dolphin CD (Japan) (Disc 1) (Ecco the Dolphin)": {
-        "secondary_name": "エコー・ザ・ドルフィンＣＤ",
-        "group_name": "Ecco the Dolphin CD",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Ecco the Dolphin CD (Japan) (Disc 2) (Ecco the Dolphin II)": {
-        "secondary_name": "エコー・ザ・ドルフィンＣＤ",
-        "group_name": "Ecco the Dolphin CD",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Cobra Command (Europe)": {
-        "secondary_name": "",
-        "group_name": "Cobra Command",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Bundled with Mega-CD (Sol-Feace / Cobra Command Bundle)"
+        "languages": "En"
     },
     "Night Trap (Europe) (Disc 1) (Mega-CD 32X)": {
-        "secondary_name": "",
-        "group_name": "Night Trap",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "",
-        "version": "",
-        "edition": "Mega-CD 32X"
+        "languages": ""
     },
     "Game no Kandume Vol. 2 (Japan)": {
-        "secondary_name": "ゲームのかんづめ　ＶＯＬ.２",
-        "group_name": "Game no Kandume Vol. 2",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Wonder Dog (Japan)": {
-        "secondary_name": "ワンダー・ドッグ",
-        "group_name": "Wonder Dog",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Cobra Command (USA)": {
-        "secondary_name": "",
-        "group_name": "Cobra Command",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "BC Racers (Europe) (Demo) (Green Disc)": {
-        "secondary_name": "",
-        "group_name": "BC Racers",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "",
-        "version": "",
-        "edition": "Bundled with Magazine (Demo)"
+        "languages": ""
     },
     "Ground Zero Texas (USA) (Disc 1)": {
-        "secondary_name": "",
-        "group_name": "Ground Zero Texas",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "A-Rank Thunder - Tanjou-hen (Japan)": {
-        "secondary_name": "Ａランク　サンダー　誕生編",
-        "group_name": "A-Rank Thunder - Tanjou-hen",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "SimEarth (Japan)": {
-        "secondary_name": "シムアース",
-        "group_name": "SimEarth",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Novastorm (Europe)": {
-        "secondary_name": "",
-        "group_name": "Novastorm",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Wonder Dog (USA) (RE)": {
-        "secondary_name": "",
-        "group_name": "Wonder Dog",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Marko (USA) (Unl)": {
-        "secondary_name": "",
-        "group_name": "Marko",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Unlicensed"
+        "languages": "En"
     },
     "Time Gal (Europe)": {
-        "secondary_name": "",
-        "group_name": "Time Gal",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Super Strike Trilogy (USA) (Unl)": {
-        "secondary_name": "",
-        "group_name": "Super Strike Trilogy",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Unlicensed"
+        "languages": "En"
     },
     "Ecco - The Tides of Time (Europe) (En,Fr,De,Es)": {
-        "secondary_name": "",
-        "group_name": "Ecco - The Tides of Time",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En, Fr, De, Es",
-        "version": "",
-        "edition": "Original"
+        "languages": "En, Fr, De, Es"
     },
     "SoulStar (Japan)": {
-        "secondary_name": "ソウルスター",
-        "group_name": "SoulStar",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Tenbu Mega CD Special (Japan)": {
-        "secondary_name": "天舞メガＣＤスペシャル",
-        "group_name": "Tenbu Mega CD Special",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "BattleTech - Gray Death Legion (USA) (Unl)": {
-        "secondary_name": "",
-        "group_name": "BattleTech - Gray Death Legion",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Unlicensed"
+        "languages": "En"
     },
     "Blackhole Assault (USA)": {
-        "secondary_name": "",
-        "group_name": "Blackhole Assault",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Lawnmower Man, The (Europe) (Demo)": {
-        "secondary_name": "",
-        "group_name": "Lawnmower Man, The",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "",
-        "version": "",
-        "edition": "Bundled with Magazine (Playable Demo - Mega Power Disc 9)"
+        "languages": ""
     },
     "Psychic Detective Series Vol. 4 - Orgel (Japan)": {
-        "secondary_name": "サイキック・ディテクティヴ・シリーズ４　「オルゴール」",
-        "group_name": "Psychic Detective Series Vol. 4 - Orgel",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "ESPN National Hockey Night (USA)": {
-        "secondary_name": "",
-        "group_name": "ESPN National Hockey Night",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "",
-        "version": "",
-        "edition": "Original"
+        "languages": ""
     },
-    "Brutal - Paws of Fury (Europe)": {
-        "secondary_name": "",
-        "group_name": "Brutal - Paws of Fury",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "",
-        "version": "",
-        "edition": "Original"
+    "Brutal - Paws of Fury (Europe) (En,Fr,De)": {
+        "languages": "En, Fr, De"
     },
     "Lords of Thunder (Europe)": {
-        "secondary_name": "",
-        "group_name": "Lords of Thunder",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "",
-        "version": "",
-        "edition": "Original"
+        "languages": ""
     },
     "Compton's Interactive Encyclopedia (USA) (Version 2.01S)": {
-        "secondary_name": "",
-        "group_name": "Compton's Interactive Encyclopedia",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "2.01S",
-        "edition": "Bundled with JVC X'Eye RG-M10BU"
+        "languages": "En"
     },
     "Masked Rider, The - Kamen Rider ZO (USA)": {
-        "secondary_name": "",
-        "group_name": "Masked Rider, The - Kamen Rider ZO",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Fahrenheit (USA) (Disc 1) (Key Disc) (Sega CD)": {
-        "secondary_name": "",
-        "group_name": "Fahrenheit",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Sega CD \\ 32X CD"
+        "languages": "En"
     },
     "Batman Returns (USA)": {
-        "secondary_name": "",
-        "group_name": "Batman Returns",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Wheel of Fortune (USA)": {
-        "secondary_name": "",
-        "group_name": "Wheel of Fortune",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Fahrenheit (USA) (Disc 2) (32X CD)": {
-        "secondary_name": "",
-        "group_name": "Fahrenheit",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Sega CD \\ 32X CD"
+        "languages": "En"
     },
     "Cyborg 009 (Japan)": {
-        "secondary_name": "サイボーグ００９",
-        "group_name": "Cyborg 009",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Midnight Raiders (Europe)": {
-        "secondary_name": "",
-        "group_name": "Midnight Raiders",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Microcosm (Japan)": {
-        "secondary_name": "マイクロコズム",
-        "group_name": "Microcosm",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Midnight Raiders (USA)": {
-        "secondary_name": "",
-        "group_name": "Midnight Raiders",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Bram Stoker's Dracula (USA)": {
-        "secondary_name": "",
-        "group_name": "Bram Stoker's Dracula",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "WWF Mania Tour - WWF - Rage in the Cage (Japan)": {
-        "secondary_name": "ＷＷＦマニア・ツアー",
-        "group_name": "WWF Mania Tour - WWF - Rage in the Cage",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Seima Densetsu 3x3 Eyes (Japan, Korea)": {
-        "secondary_name": "聖魔伝説　３×３ＥＹＥＳ",
-        "group_name": "Seima Densetsu 3x3 Eyes",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "NBA Jam (Japan)": {
-        "secondary_name": "ＮＢＡジャム",
-        "group_name": "NBA Jam",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Prince of Persia (Japan)": {
-        "secondary_name": "プリンス・オブ・ペルシャ",
-        "group_name": "Prince of Persia",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Prize Fighter (Japan) (Disc 1)": {
-        "secondary_name": "プライズ・ファイター",
-        "group_name": "Prize Fighter",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Make My Video - Kris Kross (USA)": {
-        "secondary_name": "",
-        "group_name": "Make My Video - Kris Kross",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Final Fight CD (USA) (Alt 2)": {
-        "secondary_name": "",
-        "group_name": "Final Fight CD",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "FIFA International Soccer (USA)": {
-        "secondary_name": "",
-        "group_name": "FIFA International Soccer",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Arcus I, II, III (Japan)": {
-        "secondary_name": "アークスⅠ・Ⅱ・Ⅲ",
-        "group_name": "Arcus I, II, III",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Slam City with Scottie Pippen (USA) (Disc 3) (Mad Dog)": {
-        "secondary_name": "",
-        "group_name": "Slam City with Scottie Pippen",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Software Toolworks' Star Wars Chess, The (Europe)": {
-        "secondary_name": "",
-        "group_name": "Software Toolworks' Star Wars Chess, The",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "World Cup USA '94 (Europe)": {
-        "secondary_name": "",
-        "group_name": "World Cup USA '94",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Loadstar - The Legend of Tully Bodine (USA, Brazil)": {
-        "secondary_name": "",
-        "group_name": "Loadstar - The Legend of Tully Bodine",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Vay (USA)": {
-        "secondary_name": "",
-        "group_name": "Vay",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "WonderMega Collection (Japan) (Rev 2)": {
-        "secondary_name": "",
-        "group_name": "WonderMega Collection",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Bundled with Victor Wondermega RG-M1"
+        "languages": "Ja"
     },
     "Sensible Soccer (Europe) (Demo)": {
-        "secondary_name": "",
-        "group_name": "Sensible Soccer",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Bundled with Magazine (Playable Demo - Mega Power Disc 5, Demo)"
+        "languages": "En"
     },
     "Burai - Yatsudama no Yuushi Densetsu (Japan)": {
-        "secondary_name": "ブライ　～八玉の勇士伝説～",
-        "group_name": "Burai - Yatsudama no Yuushi Densetsu",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Wild Woody (USA)": {
-        "secondary_name": "",
-        "group_name": "Wild Woody",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "",
-        "version": "",
-        "edition": "Original"
+        "languages": ""
     },
     "Vay - Ryuusei no Yoroi (Japan)": {
-        "secondary_name": "ヴァイ　～流星の鎧～",
-        "group_name": "Vay - Ryuusei no Yoroi",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Keiou Yuugekitai (Japan)": {
-        "secondary_name": "慶応遊撃隊",
-        "group_name": "Keiou Yuugekitai",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original, Kirakira Lucky Takarabako"
+        "languages": "Ja"
     },
     "Dungeon Master II - Skullkeep (Europe)": {
-        "secondary_name": "",
-        "group_name": "Dungeon Master II - Skullkeep",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Prize Fighter (USA) (Disc 1)": {
-        "secondary_name": "",
-        "group_name": "Prize Fighter",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Bundled with JVC X'Eye RG-M10BU"
+        "languages": "En"
     },
     "Pro Yakyuu Super League CD (Japan)": {
-        "secondary_name": "プロ野球スーパー・リーグＣＤ",
-        "group_name": "Pro Yakyuu Super League CD",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Sega Classics Arcade Collection - Limited Edition (Europe) (Rev A) (Alt)": {
-        "secondary_name": "",
-        "group_name": "Sega Classics Arcade Collection - Limited Edition",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Surgical Strike (Brazil) (Sega CD 32X)": {
-        "secondary_name": "",
-        "group_name": "Surgical Strike",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Sega CD 32X (Disc 2)"
+        "languages": "En"
     },
     "Mighty Morphin Power Rangers (Europe)": {
-        "secondary_name": "Saban's Mighty Morphin Power Rangers",
-        "group_name": "Mighty Morphin Power Rangers",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "",
-        "version": "",
-        "edition": "Original"
+        "languages": ""
     },
     "Jaguar XJ220 (Japan) (En,Ja)": {
-        "secondary_name": "ジャガーＸＪ２２０",
-        "group_name": "Jaguar XJ220",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En, Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "En, Ja"
     },
     "Eternal Champions - Challenge from the Dark Side (USA) (RE)": {
-        "secondary_name": "",
-        "group_name": "Eternal Champions - Challenge from the Dark Side",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Microcosm (Japan) (Demo)": {
-        "secondary_name": "",
-        "group_name": "Microcosm",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "",
-        "version": "",
-        "edition": "Demo CD"
+        "languages": ""
     },
     "TimeCop (USA) (Unl) (Playable Unreleased Beta)": {
-        "secondary_name": "",
-        "group_name": "TimeCop",
-        "status": "Yellow",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Unlicensed (Playable Unreleased Beta)"
+        "languages": "En"
     },
     "Prince of Persia (Europe)": {
-        "secondary_name": "",
-        "group_name": "Prince of Persia",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "ESPN NBA Hangtime '95 (USA)": {
-        "secondary_name": "",
-        "group_name": "ESPN NBA Hangtime '95",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Bram Stoker's Dracula (USA) (Alt 1)": {
-        "secondary_name": "",
-        "group_name": "Bram Stoker's Dracula",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "",
-        "version": "",
-        "edition": "Original"
+        "languages": ""
     },
     "Formula One World Championship - Beyond the Limit (USA)": {
-        "secondary_name": "",
-        "group_name": "Formula One World Championship - Beyond the Limit",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "",
-        "version": "",
-        "edition": "Original"
+        "languages": ""
     },
     "Sonic CD (Europe)": {
-        "secondary_name": "",
-        "group_name": "Sonic CD",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Smurfs, The (Europe) (En,Fr,De,Es,It)": {
-        "secondary_name": "",
-        "group_name": "Smurfs, The",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En, Fr, De, It, Es",
-        "version": "",
-        "edition": "Original"
+        "languages": "En, Fr, De, It, Es"
     },
     "Double Switch (USA)": {
-        "secondary_name": "",
-        "group_name": "Double Switch",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Night Trap (France) (Disc 1)": {
-        "secondary_name": "",
-        "group_name": "Night Trap",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "Fr",
-        "version": "",
-        "edition": "Original"
+        "languages": "Fr"
     },
     "Alshark (Japan)": {
-        "secondary_name": "アルシャーク",
-        "group_name": "Alshark",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Yumemi Mystery Mansion (Europe) (Made in EU)": {
-        "secondary_name": "",
-        "group_name": "Yumemi Mystery Mansion",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Tomcat Alley (Australia)": {
-        "secondary_name": "",
-        "group_name": "Tomcat Alley",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Blackhole Assault (Europe)": {
-        "secondary_name": "",
-        "group_name": "Blackhole Assault",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Corpse Killer (USA)": {
-        "secondary_name": "",
-        "group_name": "Corpse Killer",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Wing Commander (Japan)": {
-        "secondary_name": "ウイング・コマンダー",
-        "group_name": "Wing Commander",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Terminator, The (USA)": {
-        "secondary_name": "",
-        "group_name": "Terminator, The",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Garou Densetsu Special (Japan)": {
-        "secondary_name": "餓狼伝説スペシャル",
-        "group_name": "Garou Densetsu Special",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Bill Walsh College Football (USA)": {
-        "secondary_name": "",
-        "group_name": "Bill Walsh College Football",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Battlecorps (Japan)": {
-        "secondary_name": "バトルコープス",
-        "group_name": "Battlecorps",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Sol-Feace (Europe)": {
-        "secondary_name": "",
-        "group_name": "Sol-Feace",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Bundled with Mega-CD (Sol-Feace / Cobra Command Bundle)"
+        "languages": "En"
     },
     "Sherlock Holmes - Consulting Detective Vol. II (USA) (Disc 2)": {
-        "secondary_name": "",
-        "group_name": "Sherlock Holmes - Consulting Detective Vol. II",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Road Avenger (Europe)": {
-        "secondary_name": "",
-        "group_name": "Road Avenger",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Night Trap (Japan) (Demo)": {
-        "secondary_name": "ナイト・トラップ",
-        "group_name": "Night Trap",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Sample"
+        "languages": "Ja"
     },
     "Death Bringer (Japan)": {
-        "secondary_name": "デス・ブリンガー",
-        "group_name": "Death Bringer",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Mickey Mania (Europe) (Demo) (Mega Power, Sega Pro)": {
-        "secondary_name": "",
-        "group_name": "Mickey Mania",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Bundled with Magazine (Playable Demo - Mega Power Disc 10, Demo)"
+        "languages": "En"
     },
     "Iron Helix (USA)": {
-        "secondary_name": "",
-        "group_name": "Iron Helix",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "SoulStar (USA)": {
-        "secondary_name": "",
-        "group_name": "SoulStar",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Sengoku Denshou (Japan)": {
-        "secondary_name": "戦国伝承",
-        "group_name": "Sengoku Denshou",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Gyuwambler Jiko Chuushinha 2 - Gekitou! Tokyo Mahjongland Hen (Japan)": {
-        "secondary_name": "ぎゅわんぶらあ自己中心派２　～激闘！東京マージャンランド編～",
-        "group_name": "Gyuwambler Jiko Chuushinha 2 - Gekitou! Tokyo Mahjongland Hen",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Seirei Shinseiki - Fhey Area (Japan)": {
-        "secondary_name": "精霊神世紀　～フェイエリア～",
-        "group_name": "Seirei Shinseiki - Fhey Area",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Slam City with Scottie Pippen (Europe) (Disc 3) (Mad Dog) (Mega-CD 32X)": {
-        "secondary_name": "",
-        "group_name": "Slam City with Scottie Pippen",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "",
-        "version": "",
-        "edition": "Mega-CD 32X"
+        "languages": ""
     },
     "Bouncers (USA)": {
-        "secondary_name": "",
-        "group_name": "Bouncers",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Lunar - The Silver Star (Japan)": {
-        "secondary_name": "ルナ　～ザ・シルバー・スター～",
-        "group_name": "Lunar - The Silver Star",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "ESPN Baseball Tonight (Europe)": {
-        "secondary_name": "",
-        "group_name": "ESPN Baseball Tonight",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Night Trap (USA) (Disc 2) (Sega CD 32X) (RE-1)": {
-        "secondary_name": "",
-        "group_name": "Night Trap",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Sega CD 32X"
+        "languages": "En"
     },
     "Slam City with Scottie Pippen (USA, Brazil) (Disc 2) (Juice) (RE-1)": {
-        "secondary_name": "",
-        "group_name": "Slam City with Scottie Pippen",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Make My Video - Kris Kross (Europe)": {
-        "secondary_name": "",
-        "group_name": "Make My Video - Kris Kross",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "",
-        "version": "",
-        "edition": "Original"
+        "languages": ""
     },
     "Jurassic Park (Europe)": {
-        "secondary_name": "",
-        "group_name": "Jurassic Park",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Bill Walsh College Football (Europe)": {
-        "secondary_name": "",
-        "group_name": "Bill Walsh College Football",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "",
-        "version": "",
-        "edition": "Original"
+        "languages": ""
     },
     "Colors of Modern Rock, The (USA)": {
-        "secondary_name": "",
-        "group_name": "Colors of Modern Rock, The",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Sonic CD (USA) (Beta)": {
-        "secondary_name": "",
-        "group_name": "Sonic CD",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "1.15",
-        "edition": "Beta"
+        "languages": "En"
     },
     "Supreme Warrior (USA) (Disc 2) (Wind & Fang Tu) (Sega CD 32X)": {
-        "secondary_name": "",
-        "group_name": "Supreme Warrior",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Sega CD 32X"
+        "languages": "En"
     },
     "Note! Color Mechanica (USA) (Unl)": {
-        "secondary_name": "",
-        "group_name": "Note! Color Mechanica",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Unlicensed"
+        "languages": "En"
     },
     "Heart of the Alien - Out of This World Parts I and II (USA) (RE)": {
-        "secondary_name": "",
-        "group_name": "Heart of the Alien - Out of This World Parts I and II",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Night Trap (USA) (Disc 1) (Alt)": {
-        "secondary_name": "",
-        "group_name": "Night Trap",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Urusei Yatsura - Dear My Friends (Japan) (Demo)": {
-        "secondary_name": "うる星やつら　～ディア・マイ・フレンズ～",
-        "group_name": "Urusei Yatsura - Dear My Friends",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Sample"
+        "languages": "Ja"
     },
     "Lethal Enforcers II - Gun Fighters (Europe)": {
-        "secondary_name": "",
-        "group_name": "Lethal Enforcers II - Gun Fighters",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Psychic Detective Series Vol. 3 - Aya (Japan)": {
-        "secondary_name": "サイキック・ディテクティヴ・シリーズ３　「アヤ」",
-        "group_name": "Psychic Detective Series Vol. 3 - Aya",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Jurassic Park (Spain)": {
-        "secondary_name": "",
-        "group_name": "Jurassic Park",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "Es",
-        "version": "",
-        "edition": "Original"
+        "languages": "Es"
     },
     "Game no Kandume Vol. 1 (Japan)": {
-        "secondary_name": "ゲームのかんづめ　ＶＯＬ.１",
-        "group_name": "Game no Kandume Vol. 1",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Sewer Shark (USA) (Not for Resale) (Alt 2)": {
-        "secondary_name": "",
-        "group_name": "Sewer Shark",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Bundled with Sega CD"
+        "languages": "En"
     },
     "Mad Dog McCree (USA)": {
-        "secondary_name": "",
-        "group_name": "Mad Dog McCree",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "",
-        "version": "",
-        "edition": "Original"
+        "languages": ""
     },
     "Compton's Interactive Encyclopedia (USA) (Version 2.01R)": {
-        "secondary_name": "Compton's Interactive Encyclopedia: Edition 1995",
-        "group_name": "Compton's Interactive Encyclopedia",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "2.01R",
-        "edition": "Original"
+        "languages": "En"
     },
     "Star Wars - Rebel Assault (Japan)": {
-        "secondary_name": "スター・ウォーズ　レベル・アサルト",
-        "group_name": "Star Wars - Rebel Assault",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Nostalgia 1907 (Japan)": {
-        "secondary_name": "ノスタルジア１９０７",
-        "group_name": "Nostalgia 1907",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Eternal Champions - Challenge from the Dark Side (USA)": {
-        "secondary_name": "",
-        "group_name": "Eternal Champions - Challenge from the Dark Side",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Slam City with Scottie Pippen (USA, Brazil) (Disc 1) (Fingers) (RE-1)": {
-        "secondary_name": "",
-        "group_name": "Slam City with Scottie Pippen",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Supreme Warrior (USA) (Disc 1) (Fire & Earth) (Sega CD 32X)": {
-        "secondary_name": "",
-        "group_name": "Supreme Warrior",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Sega CD 32X"
+        "languages": "En"
     },
     "Ecco the Dolphin (Australia)": {
-        "secondary_name": "",
-        "group_name": "Ecco the Dolphin",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Marko's Magic Football (Europe) (En,Fr,De,Es)": {
-        "secondary_name": "",
-        "group_name": "Marko's Magic Football",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En, Fr, De, Es",
-        "version": "",
-        "edition": "Original"
+        "languages": "En, Fr, De, Es"
     },
     "Tomcat Alley (Spain)": {
-        "secondary_name": "",
-        "group_name": "Tomcat Alley",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "Es",
-        "version": "",
-        "edition": "Original"
+        "languages": "Es"
     },
     "Sega CD Demo (Japan) (Proto)": {
-        "secondary_name": "",
-        "group_name": "Sega CD Demo",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Prototype"
+        "languages": "En"
     },
     "Sherlock Holmes - Consulting Detective Vol. II (Europe) (Disc 2)": {
-        "secondary_name": "",
-        "group_name": "Sherlock Holmes - Consulting Detective Vol. II",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Ecco the Dolphin (Europe) (Rerelease)": {
-        "secondary_name": "",
-        "group_name": "Ecco the Dolphin",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Rerelease"
+        "languages": "En"
     },
     "Prize Fighter (Japan) (Disc 2)": {
-        "secondary_name": "プライズ・ファイター",
-        "group_name": "Prize Fighter",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "My Paint (USA)": {
-        "secondary_name": "",
-        "group_name": "My Paint",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Surgical Strike (Japan)": {
-        "secondary_name": "サージカル・ストライク",
-        "group_name": "Surgical Strike",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Bloodshot ~ Battle Frenzy (Europe) (En,Fr,De,Es)": {
-        "secondary_name": "",
-        "group_name": "Bloodshot ~ Battle Frenzy",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En, Fr, De, Es",
-        "version": "",
-        "edition": "Original"
+        "languages": "En, Fr, De, Es"
     },
     "Bakuden - The Unbalanced Zone (Japan)": {
-        "secondary_name": "爆伝　～アンバランス・ゾーン～",
-        "group_name": "Bakuden - The Unbalanced Zone",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Earthworm Jim - Special Edition (USA) (RE)": {
-        "secondary_name": "",
-        "group_name": "Earthworm Jim - Special Edition",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "BC Racers (Europe) (Demo) (Yellow Disc)": {
-        "secondary_name": "",
-        "group_name": "BC Racers",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "",
-        "version": "",
-        "edition": "Bundled with Magazine (Playable Demo - Mega Power Disc 11)"
+        "languages": ""
     },
     "Dracula Unleashed (USA) (Disc 2)": {
-        "secondary_name": "",
-        "group_name": "Dracula Unleashed",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Mega Schwarzschild (Japan)": {
-        "secondary_name": "メガ・シュヴァルツシルト",
-        "group_name": "Mega Schwarzschild",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Fresh Cleaner (Japan)": {
-        "secondary_name": "フレッシュ・クリーナー",
-        "group_name": "Fresh Cleaner",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Sewer Shark (USA) (Not for Resale)": {
-        "secondary_name": "",
-        "group_name": "Sewer Shark",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Bundled with Sega CD"
+        "languages": "En"
     },
     "Hook (Europe)": {
-        "secondary_name": "",
-        "group_name": "Hook",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Lunar - Eternal Blue (Japan)": {
-        "secondary_name": "ルナ　～エターナル・ブルー～",
-        "group_name": "Lunar - Eternal Blue",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Battle Fantasy (Japan) (Rev A)": {
-        "secondary_name": "バトル・ファンタジー",
-        "group_name": "Battle Fantasy",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Sol-Feace (USA) (RE2)": {
-        "secondary_name": "",
-        "group_name": "Sol-Feace",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Bundled with Sega CD"
+        "languages": "En"
     },
     "Shining Force CD (USA) (5R, 6R)": {
-        "secondary_name": "",
-        "group_name": "Shining Force CD",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Jurassic Park (Europe) (Rerelease)": {
-        "secondary_name": "",
-        "group_name": "Jurassic Park",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Rerelease"
+        "languages": "En"
     },
     "Jeopardy! (USA)": {
-        "secondary_name": "",
-        "group_name": "Jeopardy!",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "",
-        "version": "",
-        "edition": "Original"
+        "languages": ""
     },
     "Eye of the Beholder (Europe)": {
-        "secondary_name": "",
-        "group_name": "Eye of the Beholder",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Sega Classics Arcade Collection (USA) (4-in-1) (RE2)": {
-        "secondary_name": "",
-        "group_name": "Sega Classics Arcade Collection",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "1.01",
-        "edition": "Bundled with Sega CD (Sherlock Holmes: Consulting Detective / Sega Classics Arcade Collection Bundle)"
+        "languages": "En"
     },
     "Dark Wizard (USA)": {
-        "secondary_name": "",
-        "group_name": "Dark Wizard",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Wolfchild (USA)": {
-        "secondary_name": "",
-        "group_name": "Wolfchild",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Mad Dog II - The Lost Gold (USA)": {
-        "secondary_name": "",
-        "group_name": "Mad Dog II - The Lost Gold",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Microcosm (USA)": {
-        "secondary_name": "",
-        "group_name": "Microcosm",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original, Double Deal (Ultaverse Prime / Microcosm Bundle)"
+        "languages": "En"
     },
     "Aoki Ookami to Shiroki Mejika - Genchou Hishi (Japan)": {
-        "secondary_name": "蒼き狼と白き牝鹿・元朝秘史",
-        "group_name": "Aoki Ookami to Shiroki Mejika - Genchou Hishi",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Dynamic Country Club (Japan)": {
-        "secondary_name": "ダイナミック・カントリー・クラブ",
-        "group_name": "Dynamic Country Club",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Slam City with Scottie Pippen (Europe) (Disc 2) (Juice) (Mega-CD 32X)": {
-        "secondary_name": "",
-        "group_name": "Slam City with Scottie Pippen",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "",
-        "version": "",
-        "edition": "Mega-CD 32X"
+        "languages": ""
     },
     "Compton's Interactive Encyclopedia (USA) (Version 2.00S)": {
-        "secondary_name": "",
-        "group_name": "Compton's Interactive Encyclopedia",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "2.00S",
-        "edition": "Bundled with JVC X'Eye RG-M10BU"
+        "languages": "En"
     },
     "Thunderhawk (Japan) (Demo)": {
-        "secondary_name": "サンダーホーク",
-        "group_name": "Thunderhawk",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Taikenban"
+        "languages": "En"
     },
     "Jurassic Park (France)": {
-        "secondary_name": "",
-        "group_name": "Jurassic Park",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "Fr",
-        "version": "",
-        "edition": "Original"
+        "languages": "Fr"
     },
     "Shin Megami Tensei (Japan)": {
-        "secondary_name": "真・女神転生",
-        "group_name": "Shin Megami Tensei",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Star Strike (USA) (Unl)": {
-        "secondary_name": "",
-        "group_name": "Star Strike",
-        "status": "Yellow",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Unlicensed"
+        "languages": "En"
     },
     "Sherlock Holmes - Consulting Detective Vol. II (Europe) (Disc 1)": {
-        "secondary_name": "",
-        "group_name": "Sherlock Holmes - Consulting Detective Vol. II",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Earnest Evans (Japan)": {
-        "secondary_name": "アーネスト・エバンス",
-        "group_name": "Earnest Evans",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Burning Fists - Force Striker (USA) (Unl)": {
-        "secondary_name": "",
-        "group_name": "Burning Fists - Force Striker",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Unlicensed"
+        "languages": "En"
     },
     "Space Ace (USA)": {
-        "secondary_name": "",
-        "group_name": "Space Ace",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Shining Force CD (Japan)": {
-        "secondary_name": "シャイニング・フォースＣＤ",
-        "group_name": "Shining Force CD",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "After Armageddon Gaiden - Majuu Toushouden Eclipse (Japan)": {
-        "secondary_name": "アフター・ハルマゲドン外伝　～魔獣闘将伝エクリプス～",
-        "group_name": "After Armageddon Gaiden - Majuu Toushouden Eclipse",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Tomcat Alley (Germany)": {
-        "secondary_name": "",
-        "group_name": "Tomcat Alley",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "De",
-        "version": "",
-        "edition": "Original"
+        "languages": "De"
     },
     "Slam City with Scottie Pippen (Europe) (Disc 1) (Fingers) (Demo)": {
-        "secondary_name": "",
-        "group_name": "Slam City with Scottie Pippen",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Bundled with Magazine (Demo)"
+        "languages": "En"
     },
     "Road Rash (USA)": {
-        "secondary_name": "",
-        "group_name": "Road Rash",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Software Toolworks' Star Wars Chess, The (USA) (Alt)": {
-        "secondary_name": "",
-        "group_name": "Software Toolworks' Star Wars Chess, The",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "SoulStar (Europe) (En,Fr,De)": {
-        "secondary_name": "",
-        "group_name": "SoulStar",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En, Fr, De",
-        "version": "",
-        "edition": "Original"
+        "languages": "En, Fr, De"
     },
     "Power Factory (Europe)": {
-        "secondary_name": "",
-        "group_name": "Power Factory",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "",
-        "version": "",
-        "edition": "Original"
+        "languages": ""
     },
     "Supreme Warrior (USA) (Disc 2) (Wind & Fang Tu)": {
-        "secondary_name": "",
-        "group_name": "Supreme Warrior",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "",
-        "version": "",
-        "edition": "Original"
+        "languages": ""
     },
     "Sewer Shark (USA) (Rev 1)": {
-        "secondary_name": "",
-        "group_name": "Sewer Shark",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "Rev 1",
-        "edition": "Original"
+        "languages": "En"
     },
     "Shining Force CD (Europe)": {
-        "secondary_name": "",
-        "group_name": "Shining Force CD",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Chuck Rock II - Son of Chuck (USA)": {
-        "secondary_name": "",
-        "group_name": "Chuck Rock II - Son of Chuck",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Compton's Interactive Encyclopedia (USA) (Version 2.10) (RE2)": {
-        "secondary_name": "",
-        "group_name": "Compton's Interactive Encyclopedia",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "2.10",
-        "edition": "Bundled with JVC X'Eye RG-M10BU"
+        "languages": "En"
     },
     "Sega Classics Arcade Collection (USA) (5-in-1)": {
-        "secondary_name": "",
-        "group_name": "Sega Classics Arcade Collection",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "1.01",
-        "edition": "Bundled with Sega CD (Ecco the Dolphin / Sega Classics Arcade Collection Bundle)"
+        "languages": "En"
     },
     "Secret of Monkey Island, The (USA) (RE)": {
-        "secondary_name": "",
-        "group_name": "Secret of Monkey Island, The",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Lunar - Eternal Blue (Japan) (Demo)": {
-        "secondary_name": "",
-        "group_name": "Lunar - Eternal Blue",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "",
-        "version": "",
-        "edition": "Sample"
+        "languages": ""
     },
     "Slam City with Scottie Pippen (USA) (Disc 2) (Juice) (Sega CD 32X)": {
-        "secondary_name": "",
-        "group_name": "Slam City with Scottie Pippen",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Sega CD 32X"
+        "languages": "En"
     },
     "Mickey Mania - The Timeless Adventures of Mickey Mouse (USA)": {
-        "secondary_name": "",
-        "group_name": "Mickey Mania - The Timeless Adventures of Mickey Mouse",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Novastorm (USA)": {
-        "secondary_name": "",
-        "group_name": "Novastorm",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Lethal Enforcers II - Gun Fighters (Europe) (Beta)": {
-        "secondary_name": "",
-        "group_name": "Lethal Enforcers II - Gun Fighters",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "",
-        "version": "",
-        "edition": "Beta (Sample CD)"
+        "languages": ""
     },
     "MegaRace (USA)": {
-        "secondary_name": "",
-        "group_name": "MegaRace",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": ""
+        "languages": "En"
     },
     "Dragon's Lair (Japan) (En,Ja,Fr,De,It)": {
-        "secondary_name": "ドラゴンズ・レア",
-        "group_name": "Dragon's Lair",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En, Fr, De, It, Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "En, Fr, De, It, Ja"
     },
     "Daihoushinden (Japan)": {
-        "secondary_name": "大封神伝",
-        "group_name": "Daihoushinden",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Lawnmower Man, The (USA)": {
-        "secondary_name": "",
-        "group_name": "Lawnmower Man, The",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Kids on Site (USA)": {
-        "secondary_name": "",
-        "group_name": "Kids on Site",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "",
-        "version": "",
-        "edition": "Original"
+        "languages": ""
     },
     "Dark Wizard - Yomigaerishi Yami no Madoushi (Japan)": {
-        "secondary_name": "ダーク・ウィザード　～蘇りし闇の魔導士～",
-        "group_name": "Dark Wizard - Yomigaerishi Yami no Madoushi",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "BC Racers (USA)": {
-        "secondary_name": "",
-        "group_name": "BC Racers",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Ground Zero Texas (Europe) (Disc 2)": {
-        "secondary_name": "",
-        "group_name": "Ground Zero Texas",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Panic! (USA) (RE)": {
-        "secondary_name": "",
-        "group_name": "Panic!",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Fahrenheit (Europe)": {
-        "secondary_name": "",
-        "group_name": "Fahrenheit",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Dune (USA)": {
-        "secondary_name": "",
-        "group_name": "Dune",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "After Burner III (Europe)": {
-        "secondary_name": "",
-        "group_name": "After Burner III",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Mickey Mania (Europe) (Demo) (Mega Sega)": {
-        "secondary_name": "",
-        "group_name": "Mickey Mania",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "",
-        "version": "",
-        "edition": "Bundled with Magazine (Demo)"
+        "languages": ""
     },
     "Cosmic Fantasy Stories (Japan)": {
-        "secondary_name": "コズミック・ファンタジー・ストーリーズ",
-        "group_name": "Cosmic Fantasy Stories",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Lunar - Eternal Blue (Japan) (Rev A)": {
-        "secondary_name": "ルナ　～エターナル・ブルー～",
-        "group_name": "Lunar - Eternal Blue",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Prize Fighter (Europe) (Disc 1)": {
-        "secondary_name": "",
-        "group_name": "Prize Fighter",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "",
-        "version": "",
-        "edition": "Original"
+        "languages": ""
     },
     "Beast II (Europe)": {
-        "secondary_name": "",
-        "group_name": "Beast II",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Keio Flying Squadron (Europe)": {
-        "secondary_name": "",
-        "group_name": "Keio Flying Squadron",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Sewer Shark (USA) (Not for Resale) (Alt 1)": {
-        "secondary_name": "",
-        "group_name": "Sewer Shark",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Bundled with Sega CD"
+        "languages": "En"
     },
     "Ultraverse Prime (USA)": {
-        "secondary_name": "",
-        "group_name": "Ultraverse Prime",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "",
-        "version": "",
-        "edition": "Double Deal (Ultaverse Prime / Microcosm Bundle)"
+        "languages": ""
     },
     "Quiz Scramble Special (Japan) (Rev B)": {
-        "secondary_name": "クイズ・スクランブル・スペシャル",
-        "group_name": "Quiz Scramble Special",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
-    "FIFA International Soccer - Championship Edition (Europe)": {
-        "secondary_name": "",
-        "group_name": "FIFA International Soccer - Championship Edition",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+    "FIFA International Soccer - Championship Edition (Europe) (En,Fr,De,Es)": {
+        "languages": "En, Fr, De, Es"
     },
     "Wakusei Woodstock - Funky Horror Band (Japan)": {
-        "secondary_name": "惑星ウッドストック　～ファンキー・ホラー・バンド～",
-        "group_name": "Wakusei Woodstock - Funky Horror Band",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Jurassic Park (Japan)": {
-        "secondary_name": "ジュラシック・パーク",
-        "group_name": "Jurassic Park",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Secret of Monkey Island, The (Japan)": {
-        "secondary_name": "モンキー・アイランド　～ユーレイ海賊大騒動！～",
-        "group_name": "Secret of Monkey Island, The",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Animals!, The (USA)": {
-        "secondary_name": "",
-        "group_name": "Animals!, The",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "F1 Circus CD (Japan)": {
-        "secondary_name": "Ｆ１サーカスＣＤ",
-        "group_name": "F1 Circus CD",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Time Gal (Japan)": {
-        "secondary_name": "タイム・ギャル",
-        "group_name": "Time Gal",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "RDF - Global Conflict (USA)": {
-        "secondary_name": "",
-        "group_name": "RDF - Global Conflict",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Hook (USA) (Alt)": {
-        "secondary_name": "",
-        "group_name": "Hook",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "",
-        "version": "",
-        "edition": "Double Deal (3 Ninjas Kick Back / Hook Bundle)"
+        "languages": ""
     },
     "Corpse Killer (Europe)": {
-        "secondary_name": "",
-        "group_name": "Corpse Killer",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Bug Blasters - The Exterminators (USA) (Unl) (Rerelease)": {
-        "secondary_name": "",
-        "group_name": "Bug Blasters - The Exterminators",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Unlicensed (Rerelease)"
+        "languages": "En"
     },
     "Heavy Nova (Japan)": {
-        "secondary_name": "ヘビー・ノバ",
-        "group_name": "Heavy Nova",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Devastator (Japan)": {
-        "secondary_name": "デバステイター",
-        "group_name": "Devastator",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Dungeon Master II - Skullkeep (Japan)": {
-        "secondary_name": "ダンジョン・マスターⅡ　～スカルキープ～",
-        "group_name": "Dungeon Master II - Skullkeep",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Wonder Dog (Europe)": {
-        "secondary_name": "",
-        "group_name": "Wonder Dog",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "",
-        "version": "",
-        "edition": "Original"
+        "languages": ""
     },
     "Surgical Strike (Europe)": {
-        "secondary_name": "",
-        "group_name": "Surgical Strike",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "",
-        "version": "",
-        "edition": "Original"
+        "languages": ""
     },
     "Sega Classics Arcade Collection - Limited Edition (Europe) (Rev A)": {
-        "secondary_name": "",
-        "group_name": "Sega Classics Arcade Collection - Limited Edition",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Final Fight CD (USA)": {
-        "secondary_name": "",
-        "group_name": "Final Fight CD",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Stellar-Fire (USA)": {
-        "secondary_name": "",
-        "group_name": "Stellar-Fire",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Lunar - Eternal Blue (USA) (RE)": {
-        "secondary_name": "",
-        "group_name": "Lunar - Eternal Blue",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Dragon's Lair (USA)": {
-        "secondary_name": "",
-        "group_name": "Dragon's Lair",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Heimdall (USA)": {
-        "secondary_name": "",
-        "group_name": "Heimdall",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Batman Returns (Europe)": {
-        "secondary_name": "",
-        "group_name": "Batman Returns",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Yumemi Yakata no Monogatari (Japan) (Demo)": {
-        "secondary_name": "",
-        "group_name": "Yumemi Yakata no Monogatari",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "",
-        "version": "",
-        "edition": "Sample"
+        "languages": ""
     },
     "Make My Video - INXS (USA)": {
-        "secondary_name": "",
-        "group_name": "Make My Video - INXS",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Fahrenheit (Japan)": {
-        "secondary_name": "ファーレンハイト",
-        "group_name": "Fahrenheit",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Tomcat Alley (Europe)": {
-        "secondary_name": "",
-        "group_name": "Tomcat Alley",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Lunar - The Silver Star (USA)": {
-        "secondary_name": "",
-        "group_name": "Lunar - The Silver Star",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Sonic The Hedgehog CD (Japan)": {
-        "secondary_name": "ソニック・ザ・ヘッジホッグＣＤ",
-        "group_name": "Sonic The Hedgehog CD",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "NFL Football Trivia Challenge (USA)": {
-        "secondary_name": "",
-        "group_name": "NFL Football Trivia Challenge",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Night Striker (Japan, Korea)": {
-        "secondary_name": "",
-        "group_name": "Night Striker",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Thunderhawk (Japan)": {
-        "secondary_name": "サンダーホーク",
-        "group_name": "Thunderhawk",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Citizen X (USA) (Unl)": {
-        "secondary_name": "",
-        "group_name": "Citizen X",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Unlicensed"
+        "languages": "En"
     },
     "Joe Montana's NFL Football (USA)": {
-        "secondary_name": "",
-        "group_name": "Joe Montana's NFL Football",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original, Bundled with Sega CD (Sega Sports Pack)"
+        "languages": "En"
     },
     "Quiz Tonosama no Yabou (Japan)": {
-        "secondary_name": "クイズ殿様の野望",
-        "group_name": "Quiz Tonosama no Yabou",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Hook (USA)": {
-        "secondary_name": "",
-        "group_name": "Hook",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "",
-        "version": "",
-        "edition": "Original"
+        "languages": ""
     },
     "Gen'ei Toshi - Illusion City (Japan)": {
-        "secondary_name": "幻影都市　－ＩＬＬＵＳＩＯＮ　ＣＩＴＹ－",
-        "group_name": "Gen'ei Toshi - Illusion City",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Dracula Unleashed (Europe) (Disc 1) (Made in E.U.)": {
-        "secondary_name": "",
-        "group_name": "Dracula Unleashed",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Psygnosis Christmas Sampler (Europe) (Alt)": {
-        "secondary_name": "",
-        "group_name": "Psygnosis Christmas Sampler",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Bundled with Magazine (Playable Demo - Mega Power Disc 2)"
+        "languages": "En"
     },
     "Software Toolworks' Star Wars Chess, The (USA)": {
-        "secondary_name": "",
-        "group_name": "Software Toolworks' Star Wars Chess, The",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Wing Commander (USA)": {
-        "secondary_name": "",
-        "group_name": "Wing Commander",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Rise of the Dragon - A Blade Hunter Mystery (Japan)": {
-        "secondary_name": "ライズ・オブ・ザ・ドラゴン　～ブレイド・ハンター・ミステリー～",
-        "group_name": "Rise of the Dragon - A Blade Hunter Mystery",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Mahou no Shoujo - Silky Lip (Japan)": {
-        "secondary_name": "魔法の少女　シルキー・リップ",
-        "group_name": "Mahou no Shoujo - Silky Lip",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Dragon's Lair (USA) (Demo)": {
-        "secondary_name": "",
-        "group_name": "Dragon's Lair",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Demo"
+        "languages": "En"
     },
     "Fatal Fury Special (USA)": {
-        "secondary_name": "",
-        "group_name": "Fatal Fury Special",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Dracula Unleashed (Europe) (Disc 1) (Made in Japan)": {
-        "secondary_name": "",
-        "group_name": "Dracula Unleashed",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Slam City with Scottie Pippen (USA) (Disc 3) (Mad Dog) (Sega CD 32X)": {
-        "secondary_name": "",
-        "group_name": "Slam City with Scottie Pippen",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Sega CD 32X"
+        "languages": "En"
     },
     "Lethal Enforcers II - Gun Fighters (USA)": {
-        "secondary_name": "",
-        "group_name": "Lethal Enforcers II - Gun Fighters",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Microcosm (Europe) (Alt)": {
-        "secondary_name": "",
-        "group_name": "Microcosm",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Longbox"
+        "languages": "En"
     },
     "Pitfall - The Mayan Adventure (Europe) (Demo)": {
-        "secondary_name": "",
-        "group_name": "Pitfall - The Mayan Adventure",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Bundled with Magazine (Demo)"
+        "languages": "En"
     },
     "Jaguar XJ220 (USA)": {
-        "secondary_name": "",
-        "group_name": "Jaguar XJ220",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "NBA Jam (USA)": {
-        "secondary_name": "",
-        "group_name": "NBA Jam",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Dungeon Explorer (Europe)": {
-        "secondary_name": "",
-        "group_name": "Dungeon Explorer",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "",
-        "version": "",
-        "edition": "Original"
+        "languages": ""
     },
     "Revenge of the Ninja (USA)": {
-        "secondary_name": "",
-        "group_name": "Revenge of the Ninja",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Robo Aleste (Europe)": {
-        "secondary_name": "",
-        "group_name": "Robo Aleste",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Might and Magic III - Isles of Terra (Japan)": {
-        "secondary_name": "マイト・アンド・マジックⅢ",
-        "group_name": "Might and Magic III - Isles of Terra",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Prince of Persia (USA)": {
-        "secondary_name": "",
-        "group_name": "Prince of Persia",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "SoulStar & Battlecorps (Europe) (Demo)": {
-        "secondary_name": "",
-        "group_name": "SoulStar & Battlecorps",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Bundled with Magazine (Playable Demo - Mega Power Disc 8)"
+        "languages": "En"
     },
     "Final Fight CD (Japan) (Rev A)": {
-        "secondary_name": "ファイナル・ファイトＣＤ",
-        "group_name": "Final Fight CD",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Mighty Morphin Power Rangers (USA)": {
-        "secondary_name": "Saban's Mighty Morphin Power Rangers",
-        "group_name": "Mighty Morphin Power Rangers",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Mortal Kombat (Europe)": {
-        "secondary_name": "",
-        "group_name": "Mortal Kombat",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "ESPN Sunday Night NFL (USA)": {
-        "secondary_name": "",
-        "group_name": "ESPN Sunday Night NFL",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Surgical Strike (USA) (Alt)": {
-        "secondary_name": "",
-        "group_name": "Surgical Strike",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Eternal Champions - Challenge from the Dark Side (Europe)": {
-        "secondary_name": "",
-        "group_name": "Eternal Champions - Challenge from the Dark Side",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Amazing Spider-Man vs. The Kingpin, The (Europe)": {
-        "secondary_name": "",
-        "group_name": "Amazing Spider-Man vs. The Kingpin, The",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Shadowrun (Japan)": {
-        "secondary_name": "シャドウラン",
-        "group_name": "Shadowrun",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Sing!! Sega Game Music Presented by B. B. Queens (Japan)": {
-        "secondary_name": "",
-        "group_name": "Sing!! Sega Game Music Presented by B. B. Queens",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Tomcat Alley (USA) (Alt)": {
-        "secondary_name": "",
-        "group_name": "Tomcat Alley",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Lunar - The Silver Star (USA) (RE)": {
-        "secondary_name": "",
-        "group_name": "Lunar - The Silver Star",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Slam City with Scottie Pippen (USA) (Disc 4) (Smash) (Sega CD 32X)": {
-        "secondary_name": "",
-        "group_name": "Slam City with Scottie Pippen",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Sega CD 32X"
+        "languages": "En"
     },
     "AX-101 (Japan)": {
-        "secondary_name": "エーエックス１０１",
-        "group_name": "AX-101",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Prize Fighter (USA) (Disc 2)": {
-        "secondary_name": "",
-        "group_name": "Prize Fighter",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original, Bundled with JVC X'Eye RG-M10BU"
+        "languages": "En"
     },
     "Fatal Fury Special (Europe) (Demo)": {
-        "secondary_name": "",
-        "group_name": "Fatal Fury Special",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Bundled with Magazine (Demo)"
+        "languages": "En"
     },
     "Pitfall - The Mayan Adventure (Europe)": {
-        "secondary_name": "",
-        "group_name": "Pitfall - The Mayan Adventure",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "SoulStar (Europe) (Demo)": {
-        "secondary_name": "",
-        "group_name": "SoulStar",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Bundled with Magazine (Playable Demo - Mega Power Disc 3, Demo)"
+        "languages": "En"
     },
     "Fatal Fury Special (Europe) (Beta)": {
-        "secondary_name": "",
-        "group_name": "Fatal Fury Special",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "",
-        "version": "",
-        "edition": "Beta"
+        "languages": ""
     },
     "Road Blaster FX (Japan)": {
-        "secondary_name": "ロード・ブラスターＦＸ",
-        "group_name": "Road Blaster FX",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Space Adventure, The - Cobra - The Legendary Bandit (USA)": {
-        "secondary_name": "",
-        "group_name": "Space Adventure, The - Cobra - The Legendary Bandit",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Trivial Pursuit (USA)": {
-        "secondary_name": "",
-        "group_name": "Trivial Pursuit",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Sega Classic Arcade Collection - Limited Edition (Japan)": {
-        "secondary_name": "セガクラシック",
-        "group_name": "Sega Classic Arcade Collection - Limited Edition",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Starblade (USA)": {
-        "secondary_name": "",
-        "group_name": "Starblade",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "ESPN Baseball Tonight (USA)": {
-        "secondary_name": "",
-        "group_name": "ESPN Baseball Tonight",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Battlecorps (Europe) (Demo)": {
-        "secondary_name": "",
-        "group_name": "Battlecorps",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Bundled with Magazine (Playable Demo - Mega Power Disc 4, Demo)"
+        "languages": "En"
     },
     "Jangou World Cup (Japan)": {
-        "secondary_name": "雀豪ワールドカップ",
-        "group_name": "Jangou World Cup",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Urusei Yatsura - Dear My Friends (Japan)": {
-        "secondary_name": "うる星やつら　～ディア・マイ・フレンズ～",
-        "group_name": "Urusei Yatsura - Dear My Friends",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "TimeCop (Europe) (Demo)": {
-        "secondary_name": "",
-        "group_name": "TimeCop",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "",
-        "version": "",
-        "edition": "Bundled with Magazine (Demo)"
+        "languages": ""
     },
     "Yumemi Mystery Mansion (Europe) (Made in Japan)": {
-        "secondary_name": "",
-        "group_name": "Yumemi Mystery Mansion",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Road Avenger (USA)": {
-        "secondary_name": "",
-        "group_name": "Road Avenger",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Keio Flying Squadron (Europe) (Demo)": {
-        "secondary_name": "",
-        "group_name": "Keio Flying Squadron",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Bundled with Magazine (Demo)"
+        "languages": "En"
     },
     "Supreme Warrior (Europe) (Disc 2)": {
-        "secondary_name": "",
-        "group_name": "Supreme Warrior",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "",
-        "version": "",
-        "edition": "Original"
+        "languages": ""
     },
     "Thunderhawk (Europe) (Demo)": {
-        "secondary_name": "",
-        "group_name": "Thunderhawk",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Demo CD"
+        "languages": "En"
     },
     "Battlecorps (USA)": {
-        "secondary_name": "",
-        "group_name": "Battlecorps",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Samurai Shodown (Europe) (Demo)": {
-        "secondary_name": "",
-        "group_name": "Samurai Shodown",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "",
-        "version": "",
-        "edition": "Bundled with Magazine (Demo)"
+        "languages": ""
     },
     "Eye of the Beholder (Japan)": {
-        "secondary_name": "アイ・オブ・ザ・ビホルダー",
-        "group_name": "Eye of the Beholder",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Power Factory (USA)": {
-        "secondary_name": "",
-        "group_name": "Power Factory",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Night Trap (France) (Disc 2)": {
-        "secondary_name": "",
-        "group_name": "Night Trap",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "Fr",
-        "version": "",
-        "edition": "Original"
+        "languages": "Fr"
     },
     "Rise of the Dragon (USA) (Rerelease) (RE)": {
-        "secondary_name": "",
-        "group_name": "Rise of the Dragon",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Rerelease"
+        "languages": "En"
     },
     "Slam City with Scottie Pippen (Europe) (Disc 4) (Smash)": {
-        "secondary_name": "",
-        "group_name": "Slam City with Scottie Pippen",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Earthworm Jim - Special Edition (Europe)": {
-        "secondary_name": "",
-        "group_name": "Earthworm Jim - Special Edition",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Lethal Enforcers (Europe)": {
-        "secondary_name": "",
-        "group_name": "Lethal Enforcers",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Bundled with The Justifier"
+        "languages": "En"
     },
     "Links - The Challenge of Golf (USA) (RE)": {
-        "secondary_name": "",
-        "group_name": "Links - The Challenge of Golf",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Adventures of Batman and Robin, The (USA)": {
-        "secondary_name": "",
-        "group_name": "Adventures of Batman and Robin, The",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Battle Frenzy (USA) (Unl)": {
-        "secondary_name": "",
-        "group_name": "Battle Frenzy",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Unlicensed"
+        "languages": "En"
     },
     "Ecco - The Tides of Time (USA)": {
-        "secondary_name": "",
-        "group_name": "Ecco - The Tides of Time",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "CD Sonic The Hedgehog (Japan) (Beta 3)": {
-        "secondary_name": "",
-        "group_name": "CD Sonic The Hedgehog",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "0.51",
-        "edition": "Beta"
+        "languages": "En"
     },
     "Flink (Europe)": {
-        "secondary_name": "",
-        "group_name": "Flink",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Slam City with Scottie Pippen (Europe) (Disc 3) (Mad Dog)": {
-        "secondary_name": "",
-        "group_name": "Slam City with Scottie Pippen",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Samurai Shodown (Europe)": {
-        "secondary_name": "",
-        "group_name": "Samurai Shodown",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Keiou Yuugekitai (Japan) (Demo)": {
-        "secondary_name": "慶応遊撃隊",
-        "group_name": "Keiou Yuugekitai",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Taikenban"
+        "languages": "Ja"
     },
     "Syndicate (Europe)": {
-        "secondary_name": "",
-        "group_name": "Syndicate",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "",
-        "version": "",
-        "edition": "Original"
+        "languages": ""
     },
     "Starblade (Japan)": {
-        "secondary_name": "スターブレード",
-        "group_name": "Starblade",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Warau Salesman (Japan)": {
-        "secondary_name": "笑ゥせぇるすまん",
-        "group_name": "Warau Salesman",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Space Ace (USA) (Demo)": {
-        "secondary_name": "",
-        "group_name": "Space Ace",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Demo"
+        "languages": "En"
     },
     "Sonic CD (USA)": {
-        "secondary_name": "",
-        "group_name": "Sonic CD",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Record of Lodoss War (Japan)": {
-        "secondary_name": "ロードス島戦記　～英雄戦争～",
-        "group_name": "Record of Lodoss War",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Silpheed (USA)": {
-        "secondary_name": "",
-        "group_name": "Silpheed",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Supreme Warrior (Europe) (Disc 1)": {
-        "secondary_name": "",
-        "group_name": "Supreme Warrior",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "",
-        "version": "",
-        "edition": "Original"
+        "languages": ""
     },
     "Batman Returns (USA) (Alt)": {
-        "secondary_name": "",
-        "group_name": "Batman Returns",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Ecco the Dolphin (Europe)": {
-        "secondary_name": "",
-        "group_name": "Ecco the Dolphin",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Silpheed (Japan) (Demo)": {
-        "secondary_name": "シルフィード",
-        "group_name": "Silpheed",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Sample"
+        "languages": "Ja"
     },
     "Amazing Spider-Man vs. The Kingpin, The (USA)": {
-        "secondary_name": "",
-        "group_name": "Amazing Spider-Man vs. The Kingpin, The",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "CD Sonic The Hedgehog (Japan) (Beta 1)": {
-        "secondary_name": "",
-        "group_name": "CD Sonic The Hedgehog",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "0.02",
-        "edition": "Beta"
+        "languages": "En"
     },
     "Puggsy (USA)": {
-        "secondary_name": "",
-        "group_name": "Puggsy",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Lawnmower Man, The (Europe)": {
-        "secondary_name": "",
-        "group_name": "Lawnmower Man, The",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "",
-        "version": "",
-        "edition": "Original"
+        "languages": ""
     },
     "Note! Color Mechanica (USA) (Unl) (Alt)": {
-        "secondary_name": "",
-        "group_name": "Note! Color Mechanica",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Unlicensed"
+        "languages": "En"
     },
     "Egawa Suguru no Super League CD (Japan)": {
-        "secondary_name": "江川卓のスーパー・リーグＣＤ",
-        "group_name": "Egawa Suguru no Super League CD",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Night Trap (Europe) (Disc 1)": {
-        "secondary_name": "",
-        "group_name": "Night Trap",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Dungeon Explorer (USA)": {
-        "secondary_name": "",
-        "group_name": "Dungeon Explorer",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Third World War (USA)": {
-        "secondary_name": "",
-        "group_name": "Third World War",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Heimdall (Japan)": {
-        "secondary_name": "ハイムドール",
-        "group_name": "Heimdall",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "WireHead (USA)": {
-        "secondary_name": "",
-        "group_name": "WireHead",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "",
-        "version": "",
-        "edition": "Original"
+        "languages": ""
     },
     "Supreme Warrior (Europe) (Disc 2) (Mega-CD 32X)": {
-        "secondary_name": "",
-        "group_name": "Supreme Warrior",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "",
-        "version": "",
-        "edition": "Mega-CD 32X"
+        "languages": ""
     },
     "Lethal Enforcers II - Gun Fighters (Europe) (Demo)": {
-        "secondary_name": "",
-        "group_name": "Lethal Enforcers II - Gun Fighters",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "",
-        "version": "",
-        "edition": "Bundled with Magazine (Playable Demo - Mega Power Disc 12)"
+        "languages": ""
     },
     "Silpheed (Japan)": {
-        "secondary_name": "シルフィード",
-        "group_name": "Silpheed",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Sherlock Holmes - Consulting Detective Vol. II (USA) (Disc 1)": {
-        "secondary_name": "",
-        "group_name": "Sherlock Holmes - Consulting Detective Vol. II",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Robo Aleste (USA)": {
-        "secondary_name": "",
-        "group_name": "Robo Aleste",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Slam City with Scottie Pippen (USA, Brazil) (Disc 4) (Smash)": {
-        "secondary_name": "",
-        "group_name": "Slam City with Scottie Pippen",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Sonic CD (USA) (RE125)": {
-        "secondary_name": "",
-        "group_name": "Sonic CD",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "NHL Hockey '94 (Europe)": {
-        "secondary_name": "",
-        "group_name": "NHL Hockey '94",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Johnny Mnemonic (USA) (Disc 2) (Unl)": {
-        "secondary_name": "",
-        "group_name": "Johnny Mnemonic",
-        "status": "Yellow",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Unlicensed"
+        "languages": "En"
     },
     "Kamen Rider ZO (Japan)": {
-        "secondary_name": "仮面ライダーＺＯ",
-        "group_name": "Kamen Rider ZO",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Star Wars - Rebel Assault (USA)": {
-        "secondary_name": "",
-        "group_name": "Star Wars - Rebel Assault",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Night Trap (Europe) (Disc 2) (Mega-CD 32X)": {
-        "secondary_name": "",
-        "group_name": "Night Trap",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "",
-        "version": "",
-        "edition": "Mega-CD 32X"
+        "languages": ""
     },
     "Space Adventure, The - Cobra - The Legendary Bandit (Europe)": {
-        "secondary_name": "",
-        "group_name": "Space Adventure, The - Cobra - The Legendary Bandit",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Lords of Thunder (USA)": {
-        "secondary_name": "",
-        "group_name": "Lords of Thunder",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Snatcher (USA)": {
-        "secondary_name": "",
-        "group_name": "Snatcher",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Tomcat Alley (France)": {
-        "secondary_name": "",
-        "group_name": "Tomcat Alley",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "Fr",
-        "version": "",
-        "edition": "Original"
+        "languages": "Fr"
     },
     "Snatcher (Europe) (Beta)": {
-        "secondary_name": "",
-        "group_name": "Snatcher",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Beta"
+        "languages": "En"
     },
     "Pitfall - The Mayan Adventure (USA)": {
-        "secondary_name": "",
-        "group_name": "Pitfall - The Mayan Adventure",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Revengers of Vengeance (USA)": {
-        "secondary_name": "",
-        "group_name": "Revengers of Vengeance",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Double Switch (Europe)": {
-        "secondary_name": "",
-        "group_name": "Double Switch",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Psygnosis Christmas Sampler (Europe)": {
-        "secondary_name": "",
-        "group_name": "Psygnosis Christmas Sampler",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Bundled with Magazine (Playable Demo - Mega Power Disc 2)"
+        "languages": "En"
     },
     "Shining Force CD (USA) (3R)": {
-        "secondary_name": "",
-        "group_name": "Shining Force CD",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Time Gal (USA)": {
-        "secondary_name": "",
-        "group_name": "Time Gal",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Novastorm (Europe) (Demo)": {
-        "secondary_name": "",
-        "group_name": "Novastorm",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Bundled with Magazine (Demo)"
+        "languages": "En"
     },
     "Beast II (Europe) (Demo)": {
-        "secondary_name": "",
-        "group_name": "Beast II",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Demo Disc"
+        "languages": "En"
     },
     "Kids on Site (Europe) (RE-1)": {
-        "secondary_name": "",
-        "group_name": "Kids on Site",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "",
-        "version": "",
-        "edition": "Original"
+        "languages": ""
     },
     "Night Trap (USA) (Disc 2) (Rerelease) (Alt)": {
-        "secondary_name": "",
-        "group_name": "Night Trap",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Rerelease"
+        "languages": "En"
     },
     "NBA Jam (Europe)": {
-        "secondary_name": "",
-        "group_name": "NBA Jam",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Slam City with Scottie Pippen (Europe) (Disc 2) (Juice)": {
-        "secondary_name": "",
-        "group_name": "Slam City with Scottie Pippen",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Sherlock Holmes - Consulting Detective (Europe)": {
-        "secondary_name": "",
-        "group_name": "Sherlock Holmes - Consulting Detective",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Ground Zero Texas (Europe) (Disc 1)": {
-        "secondary_name": "",
-        "group_name": "Ground Zero Texas",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Night Trap (Europe) (Disc 2)": {
-        "secondary_name": "",
-        "group_name": "Night Trap",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Prize Fighter (USA) (Disc 1) (Alt)": {
-        "secondary_name": "",
-        "group_name": "Prize Fighter",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "",
-        "version": "",
-        "edition": "Original"
+        "languages": ""
     },
     "Bram Stoker's Dracula (USA) (Version 2.0)": {
-        "secondary_name": "",
-        "group_name": "Bram Stoker's Dracula",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Double Deal (Bram Stoker's Dracula / Mary Shelley's Frankenstein Bundle)"
+        "languages": "En"
     },
     "Dune (Europe) (En,Fr,De,Es,It,Ar)": {
-        "secondary_name": "",
-        "group_name": "Dune",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ar, En, Fr, De, It, Es",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ar, En, Fr, De, It, Es"
     },
     "Night Trap (USA) (Disc 1) (Rerelease)": {
-        "secondary_name": "",
-        "group_name": "Night Trap",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Rerelease"
+        "languages": "En"
     },
     "Championship Soccer '94 (USA)": {
-        "secondary_name": "",
-        "group_name": "Championship Soccer '94",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Night Trap (USA) (Disc 2)": {
-        "secondary_name": "",
-        "group_name": "Night Trap",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Adventures of Willy Beamish, The (USA) (Alt)": {
-        "secondary_name": "",
-        "group_name": "Adventures of Willy Beamish, The",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Record of Lodoss War (Japan) (Demo)": {
-        "secondary_name": "ロードス島戦記　～英雄戦争～　【体験版】",
-        "group_name": "Record of Lodoss War",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Bundled with Book (Taikenban)"
+        "languages": "Ja"
     },
     "Heavenly Symphony - Formula One World Championship 1993 (Japan)": {
-        "secondary_name": "ヘブンリー・シンフォニー　～フォーミュラ・ワン・ワールド・チャンピオンシップ１９９３～",
-        "group_name": "Heavenly Symphony - Formula One World Championship 1993",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Winning Post (Japan)": {
-        "secondary_name": "ウイニング・ポスト",
-        "group_name": "Winning Post",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Double Switch (Japan)": {
-        "secondary_name": "ダブル・スイッチ",
-        "group_name": "Double Switch",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Pier Solar and the Great Architects Enhanced Soundtrack Disc (USA)": {
-        "secondary_name": "",
-        "group_name": "Pier Solar and the Great Architects Enhanced Soundtrack Disc",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original, Limited Edition"
+        "languages": "En"
     },
     "Jaguar XJ220 (Europe) (En,Ja)": {
-        "secondary_name": "",
-        "group_name": "Jaguar XJ220",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En, Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "En, Ja"
     },
     "Final Fight CD (Japan)": {
-        "secondary_name": "ファイナル・ファイトＣＤ",
-        "group_name": "Final Fight CD",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Mortal Kombat (USA)": {
-        "secondary_name": "",
-        "group_name": "Mortal Kombat",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Tomcat Alley (Japan)": {
-        "secondary_name": "トムキャット・アレイ",
-        "group_name": "Tomcat Alley",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Microcosm (Europe)": {
-        "secondary_name": "",
-        "group_name": "Microcosm",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Jurassic Park (Germany)": {
-        "secondary_name": "",
-        "group_name": "Jurassic Park",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "De",
-        "version": "",
-        "edition": "Original"
+        "languages": "De"
     },
     "Slam City with Scottie Pippen (Europe) (Disc 1) (Fingers) (Mega-CD 32X)": {
-        "secondary_name": "",
-        "group_name": "Slam City with Scottie Pippen",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "",
-        "version": "",
-        "edition": "Mega-CD 32X"
+        "languages": ""
     },
     "Detonator Orgun (Japan)": {
-        "secondary_name": "デトネイター・オーガン",
-        "group_name": "Detonator Orgun",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Aisle Lord (Japan)": {
-        "secondary_name": "アイル・ロード",
-        "group_name": "Aisle Lord",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Racing Aces (USA)": {
-        "secondary_name": "",
-        "group_name": "Racing Aces",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "",
-        "version": "",
-        "edition": "Original"
+        "languages": ""
     },
     "Radical Rex (USA)": {
-        "secondary_name": "",
-        "group_name": "Radical Rex",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Cliffhanger (USA)": {
-        "secondary_name": "",
-        "group_name": "Cliffhanger",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Ecco - The Tides of Time (USA) (Alt)": {
-        "secondary_name": "",
-        "group_name": "Ecco - The Tides of Time",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Bari-Arm (Japan)": {
-        "secondary_name": "バリ・アーム",
-        "group_name": "Bari-Arm",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Silpheed (Europe)": {
-        "secondary_name": "",
-        "group_name": "Silpheed",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Who Shot Johnny Rock (USA)": {
-        "secondary_name": "",
-        "group_name": "Who Shot Johnny Rock",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Sonic The Hedgehog CD (Japan) (Beta 1)": {
-        "secondary_name": "",
-        "group_name": "Sonic The Hedgehog CD",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "0.70",
-        "edition": "Beta"
+        "languages": "En"
     },
     "Corpse Killer (Europe) (Mega-CD 32X)": {
-        "secondary_name": "",
-        "group_name": "Corpse Killer",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "",
-        "version": "",
-        "edition": "Mega-CD 32X"
+        "languages": ""
     },
     "A-X-101 (USA) (RE)": {
-        "secondary_name": "",
-        "group_name": "A-X-101",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Flashback - The Quest for Identity (USA)": {
-        "secondary_name": "",
-        "group_name": "Flashback - The Quest for Identity",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Ground Zero Texas (USA) (Disc 2) (Alt)": {
-        "secondary_name": "",
-        "group_name": "Ground Zero Texas",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Sol-Feace (Japan)": {
-        "secondary_name": "ソル・フィース",
-        "group_name": "Sol-Feace",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Thunder Storm FX (Japan)": {
-        "secondary_name": "サンダー・ストームＦＸ",
-        "group_name": "Thunder Storm FX",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Original"
+        "languages": "Ja"
     },
     "Crime Patrol (USA)": {
-        "secondary_name": "",
-        "group_name": "Crime Patrol",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "BC Racers (Europe) (En,Fr,De)": {
-        "secondary_name": "",
-        "group_name": "BC Racers",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En, Fr, De",
-        "version": "",
-        "edition": "Original"
+        "languages": "En, Fr, De"
     },
     "Chuck Rock (USA)": {
-        "secondary_name": "",
-        "group_name": "Chuck Rock",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "What is X'Eye Multi Entertainment System (USA)": {
-        "secondary_name": "",
-        "group_name": "What is X'Eye Multi Entertainment System",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Bundled with JVC X'Eye RG-M10BU"
+        "languages": "En"
     },
     "Heavenly Symphony - Formula One World Championship 1993 (Japan) (Demo)": {
-        "secondary_name": "",
-        "group_name": "Heavenly Symphony - Formula One World Championship 1993",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "Ja",
-        "version": "",
-        "edition": "Sample"
+        "languages": "Ja"
     },
     "Mighty Mighty Missile (USA) (Unl)": {
-        "secondary_name": "",
-        "group_name": "Mighty Mighty Missile",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "",
-        "version": "",
-        "edition": "Unlicensed"
+        "languages": ""
     },
     "Pier Solar and the Great Architects - The Definitive Original Soundtrack (Europe) (Disc 4) (Enhanced Soundtrack Disc)": {
-        "secondary_name": "ピエアーソーラーと偉大なる建築家",
-        "group_name": "Pier Solar and the Great Architects - The Definitive Original Soundtrack",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "",
-        "version": "",
-        "edition": "Original"
+        "languages": ""
     }
 }

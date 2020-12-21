@@ -1,1451 +1,485 @@
 {
     "James Pond 3 - Operation Starfi5h (Europe) (Kixx)": {
-        "secondary_name": "",
-        "group_name": "James Pond 3 - Operation Starfi5h",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Kixx"
+        "languages": "En"
     },
     "Amiga CD32 Magazine - Spring 1994 (Europe)": {
-        "secondary_name": "",
-        "group_name": "Amiga CD32 Magazine - Spring 1994",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Bundled with Magazine"
+        "languages": "En"
     },
     "Mean Arenas (Europe)": {
-        "secondary_name": "",
-        "group_name": "Mean Arenas",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "UFO - Enemy Unknown (Europe) (En,Fr,De)": {
-        "secondary_name": "",
-        "group_name": "UFO - Enemy Unknown",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En, Fr, De",
-        "version": "",
-        "edition": "Original"
+        "languages": "En, Fr, De"
     },
     "Zool - Ninja of the Nth Dimension (Europe)": {
-        "secondary_name": "",
-        "group_name": "Zool - Ninja of the Nth Dimension",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Chaos Engine, The (Europe) (Spectacular Voyage)": {
-        "secondary_name": "",
-        "group_name": "Chaos Engine, The",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Spectacular Voyage Bundle"
+        "languages": "En"
     },
     "Battle Chess (Europe)": {
-        "secondary_name": "",
-        "group_name": "Battle Chess",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Black Viper (Europe) (En,De,It)": {
-        "secondary_name": "",
-        "group_name": "Black Viper",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En, De, It",
-        "version": "",
-        "edition": "Original"
+        "languages": "En, De, It"
     },
     "Skeleton Krew (Europe)": {
-        "secondary_name": "",
-        "group_name": "Skeleton Krew",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Super Putty (Europe)": {
-        "secondary_name": "",
-        "group_name": "Super Putty",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Nigel Mansell's World Championship (Europe) (En,Fr,De,It)": {
-        "secondary_name": "",
-        "group_name": "Nigel Mansell's World Championship",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En, Fr, De, It",
-        "version": "",
-        "edition": "Original"
+        "languages": "En, Fr, De, It"
     },
     "Project-X & Ultimate Body Blows (Europe)": {
-        "secondary_name": "",
-        "group_name": "Project-X & Ultimate Body Blows",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "James Pond 3 - Operation Starfi5h (Europe)": {
-        "secondary_name": "",
-        "group_name": "James Pond 3 - Operation Starfi5h",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Last Ninja 3 (Europe)": {
-        "secondary_name": "",
-        "group_name": "Last Ninja 3",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Castles II - Siege & Conquest (Europe)": {
-        "secondary_name": "",
-        "group_name": "Castles II - Siege & Conquest",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Morph (Europe)": {
-        "secondary_name": "",
-        "group_name": "Morph",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "CD32 Gamer - Playable Game Demos, Demos, Multimedia & Shareware Volume 10 (Europe)": {
-        "secondary_name": "",
-        "group_name": "CD32 Gamer - Playable Game Demos, Demos, Multimedia & Shareware Volume 10",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Bundled with Magazine"
+        "languages": "En"
     },
     "Seven Gates of Jambala, The (Europe)": {
-        "secondary_name": "",
-        "group_name": "Seven Gates of Jambala, The",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Seek and Destroy (Europe)": {
-        "secondary_name": "Seek & Destroy",
-        "group_name": "Seek and Destroy",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Power Drive (Europe) (En,Fr,De,Es,It)": {
-        "secondary_name": "",
-        "group_name": "Power Drive",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En, Fr, De, It, Es",
-        "version": "",
-        "edition": "Original"
+        "languages": "En, Fr, De, It, Es"
     },
     "Communicator (Germany) (En,De)": {
-        "secondary_name": "",
-        "group_name": "Communicator",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En, De",
-        "version": "",
-        "edition": "Original"
+        "languages": "En, De"
     },
     "Amiga CD32 Gamer - Game Demos Volume 2 (Europe)": {
-        "secondary_name": "",
-        "group_name": "Amiga CD32 Gamer - Game Demos Volume 2",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Bundled with Magazine"
+        "languages": "En"
     },
     "Chaos Engine, The (Europe) (En,Fr,De,It)": {
-        "secondary_name": "",
-        "group_name": "Chaos Engine, The",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En, Fr, De, It",
-        "version": "",
-        "edition": "Original"
+        "languages": "En, Fr, De, It"
     },
     "Super Stardust (Europe)": {
-        "secondary_name": "",
-        "group_name": "Super Stardust",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Arabian Nights (Europe) (En,Fr,De,It)": {
-        "secondary_name": "",
-        "group_name": "Arabian Nights",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En, Fr, De, It",
-        "version": "",
-        "edition": "Original"
+        "languages": "En, Fr, De, It"
     },
     "Brutal Football (Europe)": {
-        "secondary_name": "",
-        "group_name": "Brutal Football",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Chambers of Shaolin (Europe)": {
-        "secondary_name": "",
-        "group_name": "Chambers of Shaolin",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Pinball Illusions (Europe)": {
-        "secondary_name": "",
-        "group_name": "Pinball Illusions",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Darkseed (Europe)": {
-        "secondary_name": "",
-        "group_name": "Darkseed",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "1.1",
-        "edition": "Original"
+        "languages": "En"
     },
     "Disposable Hero (Europe)": {
-        "secondary_name": "",
-        "group_name": "Disposable Hero",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Summer Olympix (Europe)": {
-        "secondary_name": "",
-        "group_name": "Summer Olympix",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Kid Chaos (Europe)": {
-        "secondary_name": "",
-        "group_name": "Kid Chaos",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Theme Park (Europe) (En,Fr,De,It)": {
-        "secondary_name": "",
-        "group_name": "Theme Park",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En, Fr, De, It",
-        "version": "",
-        "edition": "Original"
+        "languages": "En, Fr, De, It"
     },
     "Arcade Pool (Europe) (En,Fr,De,It) (Alt)": {
-        "secondary_name": "",
-        "group_name": "Arcade Pool",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En, Fr, De, It",
-        "version": "",
-        "edition": "Original"
+        "languages": "En, Fr, De, It"
     },
     "Roadkill (Europe) (Alt)": {
-        "secondary_name": "",
-        "group_name": "Roadkill",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Manchester United - Premier League Champions (Europe) (En,Fr,De,It)": {
-        "secondary_name": "",
-        "group_name": "Manchester United - Premier League Champions",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En, Fr, De, It",
-        "version": "",
-        "edition": "Original"
+        "languages": "En, Fr, De, It"
     },
     "Dangerous Streets & Wing Commander (Europe) (En,Fr,De,It)": {
-        "secondary_name": "",
-        "group_name": "Dangerous Streets & Wing Commander",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En, Fr, De, It",
-        "version": "",
-        "edition": "Original"
+        "languages": "En, Fr, De, It"
     },
     "CD32 Gamer - Playable Game Demos, Demos, Multimedia & Shareware Volume 13 (Europe)": {
-        "secondary_name": "",
-        "group_name": "CD32 Gamer - Playable Game Demos, Demos, Multimedia & Shareware Volume 13",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Bundled with Magazine"
+        "languages": "En"
     },
     "Heimdall 2 - Into the Hall of Worlds (Europe)": {
-        "secondary_name": "",
-        "group_name": "Heimdall 2 - Into the Hall of Worlds",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Beavers (Europe)": {
-        "secondary_name": "",
-        "group_name": "Beavers",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Alien Breed 3D (Europe)": {
-        "secondary_name": "",
-        "group_name": "Alien Breed 3D",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Kingpin - Arcade Sports Bowling (Europe) (En,Fr,De,It)": {
-        "secondary_name": "",
-        "group_name": "Kingpin - Arcade Sports Bowling",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En, Fr, De, It",
-        "version": "",
-        "edition": "Original"
+        "languages": "En, Fr, De, It"
     },
     "Impossible Mission 2025 - The Special Edition (Europe)": {
-        "secondary_name": "",
-        "group_name": "Impossible Mission 2025 - The Special Edition",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Shadow Fighter (Europe)": {
-        "secondary_name": "",
-        "group_name": "Shadow Fighter",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Flink (Europe)": {
-        "secondary_name": "The MISadventures Of Flink",
-        "group_name": "Flink",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Bubble and Squeak (Europe)": {
-        "secondary_name": "",
-        "group_name": "Bubble and Squeak",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Superfrog (Europe)": {
-        "secondary_name": "",
-        "group_name": "Superfrog",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Emerald Mines (Europe)": {
-        "secondary_name": "",
-        "group_name": "Emerald Mines",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Rise of the Robots (Europe)": {
-        "secondary_name": "",
-        "group_name": "Rise of the Robots",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Total Carnage (Europe)": {
-        "secondary_name": "",
-        "group_name": "Total Carnage",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Humans 3 - Evolution - Lost in Time... (Europe)": {
-        "secondary_name": "",
-        "group_name": "Humans 3 - Evolution - Lost in Time...",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "CD32 Gamer - Playable Game Demos, Demos, Multimedia & Shareware Volume 9 (Europe)": {
-        "secondary_name": "",
-        "group_name": "CD32 Gamer - Playable Game Demos, Demos, Multimedia & Shareware Volume 9",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Bundled with Magazine"
+        "languages": "En"
     },
     "Marvin's Marvellous Adventure (Europe) (En,Fr,De,Es,It)": {
-        "secondary_name": "",
-        "group_name": "Marvin's Marvellous Adventure",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En, Fr, De, It, Es",
-        "version": "",
-        "edition": "Original"
+        "languages": "En, Fr, De, It, Es"
     },
     "Pinball Fantasies (Europe)": {
-        "secondary_name": "",
-        "group_name": "Pinball Fantasies",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Nigel Mansell's World Championship (Europe)": {
-        "secondary_name": "",
-        "group_name": "Nigel Mansell's World Championship",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Bump 'n' Burn (Europe)": {
-        "secondary_name": "",
-        "group_name": "Bump 'n' Burn",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Surf Ninjas (Europe)": {
-        "secondary_name": "",
-        "group_name": "Surf Ninjas",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Benefactor (Europe)": {
-        "secondary_name": "",
-        "group_name": "Benefactor",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "CD32 Gamer - Playable Game Demos, Demos, Multimedia & Shareware Volume 8 (Europe)": {
-        "secondary_name": "",
-        "group_name": "CD32 Gamer - Playable Game Demos, Demos, Multimedia & Shareware Volume 8",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Bundled with Magazine"
+        "languages": "En"
     },
     "HeroQuest II - Legacy of Sorasil (Europe) (En,Fr,De)": {
-        "secondary_name": "",
-        "group_name": "HeroQuest II - Legacy of Sorasil",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En, Fr, De",
-        "version": "",
-        "edition": "Original"
+        "languages": "En, Fr, De"
     },
     "Syndicate (Europe) (En,Fr,It)": {
-        "secondary_name": "",
-        "group_name": "Syndicate",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En, Fr, It",
-        "version": "",
-        "edition": "Original, Bundled with Alfred Chicken"
+        "languages": "En, Fr, It"
     },
     "Liberation - Captive II (Europe) (Rev 3)": {
-        "secondary_name": "",
-        "group_name": "Liberation - Captive II",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "Ratt V2.02 : Wyvern V2.00c",
-        "edition": "Original"
+        "languages": "En"
     },
     "Guardian (Europe)": {
-        "secondary_name": "",
-        "group_name": "Guardian",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Chuck Rock II - Son of Chuck (Europe)": {
-        "secondary_name": "",
-        "group_name": "Chuck Rock II - Son of Chuck",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Humans (Europe) (En,Fr,De,Es,It)": {
-        "secondary_name": "",
-        "group_name": "Humans",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En, Fr, De, It, Es",
-        "version": "",
-        "edition": "Original"
+        "languages": "En, Fr, De, It, Es"
     },
     "Frontier - Elite II (Europe)": {
-        "secondary_name": "",
-        "group_name": "Frontier - Elite II",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "CD32 Gamer - Playable Game Demos Volume 3 (Europe)": {
-        "secondary_name": "",
-        "group_name": "CD32 Gamer - Playable Game Demos Volume 3",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Bundled with Magazine"
+        "languages": "En"
     },
     "Speris Legacy, The (Europe)": {
-        "secondary_name": "",
-        "group_name": "Speris Legacy, The",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Ultimate Body Blows (Europe)": {
-        "secondary_name": "",
-        "group_name": "Ultimate Body Blows",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Quik the Thunder Rabbit (Europe)": {
-        "secondary_name": "",
-        "group_name": "Quik the Thunder Rabbit",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Bundled with Magazine"
+        "languages": "En"
     },
     "Jungle Strike - The Sequel to Desert Strike (Europe)": {
-        "secondary_name": "",
-        "group_name": "Jungle Strike - The Sequel to Desert Strike",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Overkill & Lunar-C (Europe)": {
-        "secondary_name": "",
-        "group_name": "Overkill & Lunar-C",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Nick Faldos Championship Golf (Europe)": {
-        "secondary_name": "",
-        "group_name": "Nick Faldos Championship Golf",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Jetstrike CD32 (Europe)": {
-        "secondary_name": "",
-        "group_name": "Jetstrike CD32",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Arcade Pool (Europe) (En,Fr,De,It)": {
-        "secondary_name": "",
-        "group_name": "Arcade Pool",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En, Fr, De, It",
-        "version": "",
-        "edition": "Original"
+        "languages": "En, Fr, De, It"
     },
     "Strip Pot (Europe)": {
-        "secondary_name": "",
-        "group_name": "Strip Pot",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Lamborghini - American Challenge (Europe)": {
-        "secondary_name": "",
-        "group_name": "Lamborghini - American Challenge",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Amiga CD32 Special 1"
+        "languages": "En"
     },
     "Fly Harder (Europe)": {
-        "secondary_name": "",
-        "group_name": "Fly Harder",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Gulp! (Europe) (En,Fr,De,Es,It)": {
-        "secondary_name": "",
-        "group_name": "Gulp!",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En, Fr, De, It, Es",
-        "version": "",
-        "edition": "Original"
+        "languages": "En, Fr, De, It, Es"
     },
     "Fightin' Spirit (Europe) (En,De,It)": {
-        "secondary_name": "",
-        "group_name": "Fightin' Spirit",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En, De, It",
-        "version": "",
-        "edition": "Original"
+        "languages": "En, De, It"
     },
     "Sheer Delight (Europe)": {
-        "secondary_name": "",
-        "group_name": "Sheer Delight",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Bubba 'n' Stix (Europe)": {
-        "secondary_name": "",
-        "group_name": "Bubba 'n' Stix",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Sensible Soccer - European Champions (Europe) (En,Fr,De,It)": {
-        "secondary_name": "",
-        "group_name": "Sensible Soccer - European Champions",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En, Fr, De, It",
-        "version": "",
-        "edition": "Original"
+        "languages": "En, Fr, De, It"
     },
     "CD32 Gamer - Playable Game Demos, Demos, Multimedia & Shareware Volume 7 (Europe)": {
-        "secondary_name": "",
-        "group_name": "CD32 Gamer - Playable Game Demos, Demos, Multimedia & Shareware Volume 7",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Bundled with Magazine"
+        "languages": "En"
     },
     "Sabre Team (Europe) (En,Fr,De,Es,It)": {
-        "secondary_name": "",
-        "group_name": "Sabre Team",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En, Fr, De, It, Es",
-        "version": "",
-        "edition": "Original"
+        "languages": "En, Fr, De, It, Es"
     },
     "Alien Breed - Tower Assault (Europe)": {
-        "secondary_name": "",
-        "group_name": "Alien Breed - Tower Assault",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Liberation - Captive II (Europe) (Rev 2)": {
-        "secondary_name": "",
-        "group_name": "Liberation - Captive II",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "Ratt V2.00c : Wyvern V2.00c",
-        "edition": "Original"
+        "languages": "En"
     },
     "Vital Light (Europe)": {
-        "secondary_name": "",
-        "group_name": "Vital Light",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "CD Micro French (Europe)": {
-        "secondary_name": "",
-        "group_name": "CD Micro French",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Super Skidmarks (Europe)": {
-        "secondary_name": "",
-        "group_name": "Super Skidmarks",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "2.2",
-        "edition": "Original"
+        "languages": "En"
     },
     "International Sensible Soccer - World Champions (Europe) (En,Fr,De,It)": {
-        "secondary_name": "",
-        "group_name": "International Sensible Soccer - World Champions",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En, Fr, De, It",
-        "version": "",
-        "edition": "Original"
+        "languages": "En, Fr, De, It"
     },
     "Banshee (Europe) (En,Fr,De,Da)": {
-        "secondary_name": "",
-        "group_name": "Banshee",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Da, En, Fr, De",
-        "version": "",
-        "edition": "Original"
+        "languages": "Da, En, Fr, De"
     },
     "Gloom (Europe)": {
-        "secondary_name": "",
-        "group_name": "Gloom",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "John Barnes European Football (Europe) (En,Fr,De,Es,It)": {
-        "secondary_name": "",
-        "group_name": "John Barnes European Football",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En, Fr, De, It, Es",
-        "version": "",
-        "edition": "Original"
+        "languages": "En, Fr, De, It, Es"
     },
     "Whale's Voyage (Europe)": {
-        "secondary_name": "",
-        "group_name": "Whale's Voyage",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Vital Light (Europe) (Alt)": {
-        "secondary_name": "",
-        "group_name": "Vital Light",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Amiga CD32 Special 3"
+        "languages": "En"
     },
     "CD32 Gamer - Playable Game Demos, Demos, Multimedia & Shareware Volume 11 (12) (Europe)": {
-        "secondary_name": "",
-        "group_name": "CD32 Gamer - Playable Game Demos, Demos, Multimedia & Shareware Volume 11",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Bundled with Magazine"
+        "languages": "En"
     },
     "Worms (Europe) (En,Fr,De)": {
-        "secondary_name": "",
-        "group_name": "Worms",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En, Fr, De",
-        "version": "",
-        "edition": "Original"
+        "languages": "En, Fr, De"
     },
     "D-Generation (Europe)": {
-        "secondary_name": "",
-        "group_name": "D-Generation",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "1.0",
-        "edition": "Original"
+        "languages": "En"
     },
     "Donk! The Samurai Duck! (Europe)": {
-        "secondary_name": "",
-        "group_name": "Donk! The Samurai Duck!",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Myth - History in the Making (Europe)": {
-        "secondary_name": "",
-        "group_name": "Myth - History in the Making",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Base Jumpers (Europe)": {
-        "secondary_name": "",
-        "group_name": "Base Jumpers",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Assassins - Ultimate Games Compact Disc (Europe) (v2.0)": {
-        "secondary_name": "",
-        "group_name": "Assassins - Ultimate Games Compact Disc",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "V.2",
-        "edition": "Original"
+        "languages": "En"
     },
     "Premiere (Europe)": {
-        "secondary_name": "",
-        "group_name": "Premiere",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Subwar 2050 (Europe) (En,Fr,De)": {
-        "secondary_name": "",
-        "group_name": "Subwar 2050",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En, Fr, De",
-        "version": "13.11.94",
-        "edition": "Original"
+        "languages": "En, Fr, De"
     },
     "Classic Lotus Trilogy, The (Europe)": {
-        "secondary_name": "",
-        "group_name": "Classic Lotus Trilogy, The",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Microcosm (Europe) (Spectacular Voyage)": {
-        "secondary_name": "",
-        "group_name": "Microcosm",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Spectacular Voyage Bundle"
+        "languages": "En"
     },
     "Guardian (Europe) (Alt)": {
-        "secondary_name": "",
-        "group_name": "Guardian",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Naughty Ones (Europe)": {
-        "secondary_name": "",
-        "group_name": "Naughty Ones",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Deep Core (Europe) (v1.00)": {
-        "secondary_name": "",
-        "group_name": "Deep Core",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "1.00",
-        "edition": "Original"
+        "languages": "En"
     },
     "Battletoads (Europe)": {
-        "secondary_name": "",
-        "group_name": "Battletoads",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Cannon Fodder (Europe)": {
-        "secondary_name": "",
-        "group_name": "Cannon Fodder",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Alien Breed Special Edition & Qwak (Europe) (En,Fr,De,It,Da)": {
-        "secondary_name": "",
-        "group_name": "Alien Breed Special Edition & Qwak",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Da, En, Fr, De, It",
-        "version": "",
-        "edition": "Original"
+        "languages": "Da, En, Fr, De, It"
     },
     "Fire & Ice - The Daring Adventures of Cool Coyote (Europe) (En,Fr,De,It)": {
-        "secondary_name": "",
-        "group_name": "Fire & Ice - The Daring Adventures of Cool Coyote",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En, Fr, De, It",
-        "version": "",
-        "edition": "Original"
+        "languages": "En, Fr, De, It"
     },
     "Akira (Europe)": {
-        "secondary_name": "",
-        "group_name": "Akira",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Collectors edition T-shirt"
+        "languages": "En"
     },
     "Dragonstone (Europe) (En,Fr,De)": {
-        "secondary_name": "",
-        "group_name": "Dragonstone",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En, Fr, De",
-        "version": "",
-        "edition": "Original"
+        "languages": "En, Fr, De"
     },
     "Magic Island (Czech)": {
-        "secondary_name": "",
-        "group_name": "Magic Island",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "Cs",
-        "version": "",
-        "edition": "Original"
+        "languages": "Cs"
     },
     "Dennis (Europe)": {
-        "secondary_name": "",
-        "group_name": "Dennis",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Simon the Sorcerer (Europe)": {
-        "secondary_name": "",
-        "group_name": "Simon the Sorcerer",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Fire Force (Europe)": {
-        "secondary_name": "",
-        "group_name": "Fire Force",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Project-X & F17 Challenge (Europe) (En,Fr,De,It,Da) (v2.0)": {
-        "secondary_name": "",
-        "group_name": "Project-X & F17 Challenge",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "Da, En, Fr, De, It",
-        "version": "2.0",
-        "edition": "Original"
+        "languages": "Da, En, Fr, De, It"
     },
     "Dangerous Streets (Europe) (En,Fr,De,It)": {
-        "secondary_name": "",
-        "group_name": "Dangerous Streets",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En, Fr, De, It",
-        "version": "",
-        "edition": "Original"
+        "languages": "En, Fr, De, It"
     },
     "Power-Games (Europe) (En,De)": {
-        "secondary_name": "",
-        "group_name": "Power-Games",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En, De",
-        "version": "",
-        "edition": "Original"
+        "languages": "En, De"
     },
     "Diggers & Oscar (Europe)": {
-        "secondary_name": "",
-        "group_name": "Diggers & Oscar",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Bundled with Amiga CD32"
+        "languages": "En"
     },
     "CD32 Gamer - Playable Game Demos, Demos, Multimedia & Shareware Volume 15 (Europe)": {
-        "secondary_name": "",
-        "group_name": "CD32 Gamer - Playable Game Demos, Demos, Multimedia & Shareware Volume 15",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Bundled with Magazine"
+        "languages": "En"
     },
     "Trolls (Europe)": {
-        "secondary_name": "",
-        "group_name": "Trolls",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Pirates! Gold (Europe) (En,De)": {
-        "secondary_name": "",
-        "group_name": "Pirates! Gold",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En, De",
-        "version": "",
-        "edition": "Original"
+        "languages": "En, De"
     },
     "Super Methane Bros. (Europe)": {
-        "secondary_name": "",
-        "group_name": "Super Methane Bros.",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "International Karate + (Europe)": {
-        "secondary_name": "",
-        "group_name": "International Karate +",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Chuck Rock (Europe)": {
-        "secondary_name": "",
-        "group_name": "Chuck Rock",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Litil Divil (Europe)": {
-        "secondary_name": "",
-        "group_name": "Litil Divil",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Zool 2 (Europe)": {
-        "secondary_name": "",
-        "group_name": "Zool 2",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Prey - An Alien Encounter (Europe)": {
-        "secondary_name": "",
-        "group_name": "Prey - An Alien Encounter",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Pierre Le Chef Is ... Out to Lunch (Europe)": {
-        "secondary_name": "",
-        "group_name": "Pierre Le Chef Is ... Out to Lunch",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Defender of the Crown II (USA) (En,Fr,De,Es,It)": {
-        "secondary_name": "",
-        "group_name": "Defender of the Crown II",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En, Fr, De, It, Es",
-        "version": "",
-        "edition": "Original"
+        "languages": "En, Fr, De, It, Es"
     },
     "Beneath a Steel Sky (Europe) (En,Fr,De,It)": {
-        "secondary_name": "",
-        "group_name": "Beneath a Steel Sky",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En, Fr, De, It",
-        "version": "",
-        "edition": "Original"
+        "languages": "En, Fr, De, It"
     },
     "Lost Vikings, The (Europe)": {
-        "secondary_name": "",
-        "group_name": "Lost Vikings, The",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "James Pond 2 - Robocod (Europe)": {
-        "secondary_name": "",
-        "group_name": "James Pond 2 - Robocod",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "CD32 Gamer - Playable Game Demos, Demos, Multimedia & Shareware Volume 14 (Europe)": {
-        "secondary_name": "",
-        "group_name": "CD32 Gamer - Playable Game Demos, Demos, Multimedia & Shareware Volume 14",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Bundled with Magazine"
+        "languages": "En"
     },
     "Ryder Cup - Johnnie Walker (Europe)": {
-        "secondary_name": "",
-        "group_name": "Ryder Cup - Johnnie Walker",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Trivial Pursuit - The CD32 Edition (Europe)": {
-        "secondary_name": "",
-        "group_name": "Trivial Pursuit - The CD32 Edition",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Diggers & Oscar (Europe) (Rev 1)": {
-        "secondary_name": "",
-        "group_name": "Diggers & Oscar",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Bundled with Amiga CD32"
+        "languages": "En"
     },
     "Wembley International Soccer (Europe)": {
-        "secondary_name": "",
-        "group_name": "Wembley International Soccer",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "CD32 Gamer - Playable Game Demos, Demos, Multimedia & Shareware Volume 11 (Europe)": {
-        "secondary_name": "",
-        "group_name": "CD32 Gamer - Playable Game Demos, Demos, Multimedia & Shareware Volume 11",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Bundled with Magazine"
+        "languages": "En"
     },
     "Liberation - Captive II (Europe)": {
-        "secondary_name": "",
-        "group_name": "Liberation - Captive II",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "Ratt V2.00 : Wyvern V1.92",
-        "edition": "Original"
+        "languages": "En"
     },
     "Wild Cup Soccer (Europe)": {
-        "secondary_name": "",
-        "group_name": "Wild Cup Soccer",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "PGA European Tour (Europe)": {
-        "secondary_name": "",
-        "group_name": "PGA European Tour",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Roadkill (Europe)": {
-        "secondary_name": "",
-        "group_name": "Roadkill",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Labyrinth of Time, The (Europe)": {
-        "secondary_name": "",
-        "group_name": "Labyrinth of Time, The",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Amiga CD32 Magazine - Winter 1994 (Europe)": {
-        "secondary_name": "",
-        "group_name": "Amiga CD32 Magazine - Winter 1994",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Bundled with Magazine"
+        "languages": "En"
     },
     "Microcosm (Europe)": {
-        "secondary_name": "",
-        "group_name": "Microcosm",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Superfrog (Europe) (Rev 1)": {
-        "secondary_name": "",
-        "group_name": "Superfrog",
-        "status": "Yellow",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "Rev 1",
-        "edition": "Islona"
+        "languages": "En"
     },
     "Fields of Glory (Europe) (En,Fr,De)": {
-        "secondary_name": "",
-        "group_name": "Fields of Glory",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En, Fr, De",
-        "version": "",
-        "edition": "Original"
+        "languages": "En, Fr, De"
     },
     "Diggers & Oscar (Europe) (Rev 1) (Alt)": {
-        "secondary_name": "",
-        "group_name": "Diggers & Oscar",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Bundled with Amiga CD32"
+        "languages": "En"
     },
     "Super Skidmarks (Europe) (Alt)": {
-        "secondary_name": "",
-        "group_name": "Super Skidmarks",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "2.2",
-        "edition": "Original"
+        "languages": "En"
     },
     "Global Effect (Europe)": {
-        "secondary_name": "",
-        "group_name": "Global Effect",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Deep Core (Europe) (v1.01)": {
-        "secondary_name": "",
-        "group_name": "Deep Core",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "1.01",
-        "edition": "Original"
+        "languages": "En"
     },
     "Amiga Power Techno Nation - Game Massive - The Essential CD32 Collection Volume 1 (Europe)": {
-        "secondary_name": "",
-        "group_name": "Amiga Power Techno Nation - Game Massive - The Essential CD32 Collection Volume 1",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Bundled with Magazine"
+        "languages": "En"
     },
     "CD32 Gamer - Playable Game Demos, Demos, Multimedia & Shareware Volume 21 (Europe)": {
-        "secondary_name": "",
-        "group_name": "CD32 Gamer - Playable Game Demos, Demos, Multimedia & Shareware Volume 21",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Bundled with Magazine"
+        "languages": "En"
     },
     "Alfred Chicken (Europe)": {
-        "secondary_name": "",
-        "group_name": "Alfred Chicken",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Karaoke - Julsanger I (Sweden)": {
-        "secondary_name": "",
-        "group_name": "Karaoke - Julsanger I",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "Sv",
-        "version": "",
-        "edition": "Original"
+        "languages": "Sv"
     }
 }

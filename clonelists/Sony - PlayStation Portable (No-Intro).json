@@ -3,7 +3,7 @@
 		"name": [
 			"Sony - PlayStation Portable (No-Intro)"
 		],
-		"last updated": "27 July 2020"
+		"last updated": "21 December 2020"
 	},
 
 	"overrides": {
@@ -561,6 +561,9 @@
 		],
 		"Neverland Card Battles": [
 			["Neverland Card War - Cardinal Arc", 1]
+		],
+		"Over the Hedge - Hammy Goes Nuts!": [
+			["Vecinos Invasores - Hammy Enloquece (1.02)", 1]
 		],
 		"Pangya - Fantasy Golf": [
 			["Fantasy Golf Pangya Portable", 1]

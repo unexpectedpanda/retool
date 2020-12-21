@@ -1,461 +1,155 @@
 {
     "Pandora's CD (Europe)": {
-        "secondary_name": "",
-        "group_name": "Pandora's CD",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "REV 1.0",
-        "edition": "Original"
+        "languages": "En"
     },
     "Trivial Pursuit - The CDTV Edition (Europe) (Disc 2)": {
-        "secondary_name": "",
-        "group_name": "Trivial Pursuit - The CDTV Edition",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Illustrated Works of Shakespeare (Europe)": {
-        "secondary_name": "",
-        "group_name": "Illustrated Works of Shakespeare",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Ten on Ten Compilation"
+        "languages": "En"
     },
     "World Vista (Europe)": {
-        "secondary_name": "",
-        "group_name": "World Vista",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Ten on Ten Compilation"
+        "languages": "En"
     },
     "Welcome to CDTV Multimedia (USA)": {
-        "secondary_name": "",
-        "group_name": "Welcome to CDTV Multimedia",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "1.2",
-        "edition": "Original"
+        "languages": "En"
     },
     "17 Bit - Collection for Amiga CDTV (Europe) (Disc B) (The Latest Batch)": {
-        "secondary_name": "",
-        "group_name": "17 Bit - Collection for Amiga CDTV",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "CDPD 2 (Europe)": {
-        "secondary_name": "",
-        "group_name": "CDPD 2",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Ten on Ten Compilation"
+        "languages": "En"
     },
     "CDTV Demo Disc (Europe) (Disc 2) (Amiga CDTV - Amiga 600 - Amiga 600 HD)": {
-        "secondary_name": "",
-        "group_name": "CDTV Demo Disc",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "17 Bit - Continuation Disc (Europe)": {
-        "secondary_name": "",
-        "group_name": "17 Bit - Continuation Disc",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Team Yankee (Europe)": {
-        "secondary_name": "",
-        "group_name": "Team Yankee",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Demo Collection for Amiga CDTV, The (Europe) (Black Disc)": {
-        "secondary_name": "",
-        "group_name": "Demo Collection for Amiga CDTV, The",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": ""
+        "languages": "En"
     },
     "Turrican (Germany)": {
-        "secondary_name": "",
-        "group_name": "Turrican",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Garden Fax - Trees, Shrubs, Roses & Conifers (USA)": {
-        "secondary_name": "",
-        "group_name": "Garden Fax - Trees, Shrubs, Roses & Conifers",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Hutchinson Encyclopedia, The (Europe)": {
-        "secondary_name": "",
-        "group_name": "Hutchinson Encyclopedia, The",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Bun for Barney, A (USA)": {
-        "secondary_name": "",
-        "group_name": "Bun for Barney, A",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Lemmings (Europe)": {
-        "secondary_name": "",
-        "group_name": "Lemmings",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Team Yankee (Europe) (Ten on Ten)": {
-        "secondary_name": "",
-        "group_name": "Team Yankee",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Ten on Ten Compilation"
+        "languages": "En"
     },
     "Pandora's CD (Europe) (Alt)": {
-        "secondary_name": "",
-        "group_name": "Pandora's CD",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Ten on Ten Compilation"
+        "languages": "En"
     },
     "Turrican II - The Final Fight (Germany)": {
-        "secondary_name": "",
-        "group_name": "Turrican II - The Final Fight",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Demo 1 (Europe)": {
-        "secondary_name": "",
-        "group_name": "Demo 1",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Ten on Ten Compilation"
+        "languages": "En"
     },
     "Will Bridge Vol. 1 - Initiation aux Encheres - Practice (France)": {
-        "secondary_name": "",
-        "group_name": "Will Bridge Vol. 1 - Initiation aux Encheres - Practice",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Barney Bear Goes to School (USA)": {
-        "secondary_name": "",
-        "group_name": "Barney Bear Goes to School",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "CDPD 1 (Europe)": {
-        "secondary_name": "",
-        "group_name": "CDPD 1",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Ten on Ten Compilation"
+        "languages": "En"
     },
     "New Basics Electronic Cookbook, The - 1991a Edition (USA)": {
-        "secondary_name": "",
-        "group_name": "New Basics Electronic Cookbook, The - 1991a Edition",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Raffles (Sweden)": {
-        "secondary_name": "",
-        "group_name": "Raffles",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "SimCity (Europe) (En,Fr,De,Es,It)": {
-        "secondary_name": "",
-        "group_name": "SimCity",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En, Fr, De, It, Es",
-        "version": "",
-        "edition": "Original"
+        "languages": "En, Fr, De, It, Es"
     },
     "Fantastic Voyage (USA)": {
-        "secondary_name": "",
-        "group_name": "Fantastic Voyage",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Wrath of the Demon (USA)": {
-        "secondary_name": "",
-        "group_name": "Wrath of the Demon",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Time Table of History - Business, Politics & Media - 1991a Edition (USA)": {
-        "secondary_name": "",
-        "group_name": "Time Table of History - Business, Politics & Media - 1991a Edition",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Garden Fax - Indoor Plants (USA)": {
-        "secondary_name": "",
-        "group_name": "Garden Fax - Indoor Plants",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "American Heritage - Illustrated Encyclopedic Dictionary - 1991a Edition (USA)": {
-        "secondary_name": "",
-        "group_name": "American Heritage - Illustrated Encyclopedic Dictionary - 1991a Edition",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "17 Bit - Collection for Amiga CDTV (Europe) (Disc A) (The Early Classics)": {
-        "secondary_name": "",
-        "group_name": "17 Bit - Collection for Amiga CDTV",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Defender of the Crown (Europe)": {
-        "secondary_name": "",
-        "group_name": "Defender of the Crown",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Advanced Military Systems (Europe)": {
-        "secondary_name": "",
-        "group_name": "Advanced Military Systems",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Classic Board Games (Europe) (En,Ja,Fr,De,Es,It)": {
-        "secondary_name": "",
-        "group_name": "Classic Board Games",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En, Fr, De, It, Ja, Es",
-        "version": "",
-        "edition": "Original"
+        "languages": "En, Fr, De, It, Ja, Es"
     },
     "Psycho Killer (Europe)": {
-        "secondary_name": "",
-        "group_name": "Psycho Killer",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Garden Fax - Garden Plants (USA)": {
-        "secondary_name": "",
-        "group_name": "Garden Fax - Garden Plants",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Garden Fax - Fruits, Vegetables & Herbs (USA)": {
-        "secondary_name": "",
-        "group_name": "Garden Fax - Fruits, Vegetables & Herbs",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Curse of RA, The (Germany)": {
-        "secondary_name": "",
-        "group_name": "Curse of RA, The",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Almathera Comms & Networking CD (Europe)": {
-        "secondary_name": "",
-        "group_name": "Almathera Comms & Networking CD",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Ten on Ten Compilation"
+        "languages": "En"
     },
     "Cinderella - The Original Fairy Tale (USA) (En,Fr,De,Es,It)": {
-        "secondary_name": "",
-        "group_name": "Cinderella - The Original Fairy Tale",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En, Fr, De, It, Es",
-        "version": "",
-        "edition": "Original"
+        "languages": "En, Fr, De, It, Es"
     },
     "Trivial Pursuit - The CDTV Edition (Europe) (Disc 1)": {
-        "secondary_name": "",
-        "group_name": "Trivial Pursuit - The CDTV Edition",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "CDTV Demo Disc (Europe) (Disc 1) (Amiga CD Psygnosis Demo)": {
-        "secondary_name": "",
-        "group_name": "CDTV Demo Disc",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Almathera Clipart & Fonts CD, The (Europe)": {
-        "secondary_name": "",
-        "group_name": "Almathera Clipart & Fonts CD, The",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Ten on Ten Compilation"
+        "languages": "En"
     },
     "Snoopy - The Case of the Missing Blanket (Sweden)": {
-        "secondary_name": "",
-        "group_name": "Snoopy - The Case of the Missing Blanket",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Deutschland Kompakt (Germany)": {
-        "secondary_name": "",
-        "group_name": "Deutschland Kompakt",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "De",
-        "version": "",
-        "edition": "Original"
+        "languages": "De"
     },
     "Log!cal (Germany)": {
-        "secondary_name": "",
-        "group_name": "Log!cal",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Language TV - English (France)": {
-        "secondary_name": "",
-        "group_name": "Language TV - English",
-        "status": "Green",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Original"
+        "languages": "En"
     },
     "Almathera Photo Library CD, The (Europe)": {
-        "secondary_name": "",
-        "group_name": "Almathera Photo Library CD, The",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En",
-        "version": "",
-        "edition": "Ten on Ten Compilation"
+        "languages": "En"
     },
     "Xenon 2 - Megablast (Europe) (En,Fr,De,It)": {
-        "secondary_name": "",
-        "group_name": "Xenon 2 - Megablast",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En, Fr, De, It",
-        "version": "",
-        "edition": "Original"
+        "languages": "En, Fr, De, It"
     },
     "Mud Puddle (USA) (En,Fr,De,Es,It)": {
-        "secondary_name": "",
-        "group_name": "Mud Puddle",
-        "status": "Blue",
-        "disc_type": "CD",
-        "languages": "En, Fr, De, It, Es",
-        "version": "",
-        "edition": "Original"
+        "languages": "En, Fr, De, It, Es"
     }
 }
