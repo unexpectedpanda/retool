@@ -42,7 +42,7 @@ def check_input():
 
     filter_options.add_argument('-g',
                         action='store_true',
-                        help='enable most filters (-bcdefirs)')
+                        help='enable most filters (-bcdefikrs)')
 
     filter_options.add_argument('-l',
                         action='store_true',
@@ -138,7 +138,7 @@ def check_input():
     # Set -g options, and create user options string
     user_options = []
     hidden_options = ['Input', 'g', 'l', 'o', 'q', 'errors', 'log']
-    non_g_options = ['a', 'm', 'n', 'p', 'u', 'x']
+    non_g_options = ['a', 'i', 'm', 'n', 'p', 'u', 'x']
 
     if args.g == True:
         for arg in vars(args):

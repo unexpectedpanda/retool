@@ -168,7 +168,7 @@ they will be included if you select any of their respective languages:
   output dat/s
 * `--errors` Verbose mode: report clone list errors
 * `-x` Export dat in legacy parent/clone format
-* `-g` Enable most filters (-bcdefmrs)
+* `-g` Enable most filters (-bcdefjkrs)
 * `-l` Filter by languages using a list (see `user-config.yaml`)
 * `-s` Supersets (special editions, game of the year editions, and collections)
        replace standard editions
