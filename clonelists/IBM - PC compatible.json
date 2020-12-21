@@ -3,7 +3,7 @@
 		"name": [
 			"IBM - PC compatible"
 		],
-		"last updated": "6 December 2020"
+		"last updated": "21 December 2020"
 	},
 
 	"compilations": [
@@ -2028,10 +2028,12 @@
 			["Grab des Pharao, Das", 1]
 		],
 		"Egypt II - The Heliopolis Prophecy (Disc 1)": [
+			["Egypte II - La Prophetie d'Heliopolis", 0],
 			["Egypt II - Die Prophezeiung von Heliopolis (Disc 1)", 1],
 			["Egypte II - La Prophetie d'Heliopolis (Disc 1)", 1]
 		],
 		"Egypt II - The Heliopolis Prophecy (Disc 2)": [
+			["Egypte II - La Prophetie d'Heliopolis", 0],
 			["Egypt II - Die Prophezeiung von Heliopolis (Disc 2)", 1],
 			["Egypte II - La Prophetie d'Heliopolis (Disc 2)", 1]
 		],
@@ -2835,6 +2837,9 @@
 		"Hell-Copter": [
 			["Vulture", 1]
 		],
+		"Hellboy - Asylum Seeker": [
+			["Hellboy - Hametsu no Doushi", 1]
+		],
 		"Hello Kitty - Big Fun Piano": [
 			["Hello Kitty - Big Fun Deluxe", -1]
 		],
@@ -2842,12 +2847,6 @@
 			["Hello Kitty - Big Fun Deluxe", -1]
 		],
 		"Heretic": [
-			["Towers of Darkness - Heretic, Hexen & Beyond", -1]
-		],
-		"Hexen - Beyond Heretic": [
-			["Towers of Darkness - Heretic, Hexen & Beyond", -1]
-		],
-		"Hexen - Deathkings of the Dark Citadel": [
 			["Towers of Darkness - Heretic, Hexen & Beyond", -1]
 		],
 		"Heroes Chronicles - Warlords of the Wastelands": [
@@ -2882,6 +2881,12 @@
 		],
 		"Heroes of Might and Magic Compendium (Disc 1)": [
 			["Heroes of Might and Magic - Millennium Edition (Disc 1)", -1]
+		],
+		"Hexen - Beyond Heretic": [
+			["Towers of Darkness - Heretic, Hexen & Beyond", -1]
+		],
+		"Hexen - Deathkings of the Dark Citadel": [
+			["Towers of Darkness - Heretic, Hexen & Beyond", -1]
 		],
 		"Hidden & Dangerous": [
 			["Hidden & Dangerous Deluxe", -1]
@@ -2999,7 +3004,8 @@
 			["IL-2 Sturmovik - Zabytye srazhenija (Disc 1)", 1]
 		],
 		"IL-2 Sturmovik - Forgotten Battles (Disc 2)": [
-			["IL-2 Sturmovik - Zabytye srazhenija (Disc 2)", 1]
+			["IL-2 Sturmovik - Zabytye srazhenija (Disc 2)", 1],
+			["IL-2 Sturmovik - Zabytye srazhenija (Disc 2) (CE9B9CC3)", 2]
 		],
 		"iM1A2 Abrams - America's Main Battle Tank": [
 			["Bestseller Games Ausgabe 26", 1],
@@ -3092,8 +3098,9 @@
 			["Interstate '76 (Disc 1) (Install Disc) (Gold Edition)", 1]
 		],
 		"Interstate '76 (Disc 2) (Play CD)": [
-			["Interstate '76 (Disc 2) (Spiel-CD)", 1],
-			["Interstate '76 (Disc 2)", 1]
+			["Interstate '76 (Disc 2)", 1],
+			["Interstate '76 (Disc 2) (Disc do Jogo)", 1],
+			["Interstate '76 (Disc 2) (Spiel-CD)", 1]
 		],
 		"Interstate '76 (Disc 2) (Play CD) (Gold Edition)": [
 			["Interstate '76 (Disc 2) (Play Disc and Manuals) (Gold Edition)", 1]
@@ -4038,6 +4045,9 @@
 		"NASCAR Racing 1999 Edition": [
 			["Best of Sierra Nr. 16 (Disc 2)", 2]
 		],
+		"NecroVisioN": [
+			["NecroVision", 1]
+		],
 		"Need for Speed - Carbon": [
 			["Need for Speed - Carbon - Collector's Edition (Game Disc)", -1],
 			["Need for Speed - Carbon - Collector's Edition", -1]
@@ -4881,11 +4891,11 @@
 		],
 		"Return to Mysterious Island (Disc 1)": [
 			["Retour sur l'Ile Mysterieuse (Disc 1)", 1],
-			["Vozvrashhenie na tainstvennyjj ostrov (Disc 1)", 1]
+			["Vozvrashhenie na tainstvennyj ostrov (Disc 1)", 1]
 		],
 		"Return to Mysterious Island (Disc 2)": [
 			["Retour sur l'Ile Mysterieuse (Disc 2)", 1],
-			["Vozvrashhenie na tainstvennyjj ostrov (Disc 2)", 1]
+			["Vozvrashhenie na tainstvennyj ostrov (Disc 2)", 1]
 		],
 		"Revenant (Disc 1)": [
 			["Revenant", 0],
@@ -5166,10 +5176,12 @@
 			["Monkey Island - Special Edition Collection", -1],
 			["Bestseller Games Ausgabe 2", 1]
 		],
-		"Sega Rally 2 (Install Disc)": [
+		"Sega Rally 2 (Disc 1)": [
+			["Sega Rally 2 (Install Disc)", 1],
 			["Sega Rally 2 (Disc 1) (Install Disc)", 1]
 		],
-		"Sega Rally 2 (Play Disc)": [
+		"Sega Rally 2 (Disc 2)": [
+			["Sega Rally 2 (Play Disc)", 1],
 			["Sega Rally 2 (Disc 2) (Play Disc)", 1]
 		],
 		"Sega Rally Championship": [

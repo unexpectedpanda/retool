@@ -207,12 +207,12 @@ def choose_parent(titles, region_data, user_input, dat_numbered, REGEX, ring_cod
 
     parents = titles.copy()
 
-    # 1) Promote Virtual and Mini Console titles
-    choose_string(REGEX.switch_online, parents, REGEX, True)
-    choose_string(REGEX.wii_virtual_console, parents, REGEX, True)
-    choose_string(REGEX.threeds_virtual_console, parents, REGEX, True)
-    choose_string(REGEX.gamecube_virtual_console, parents, REGEX, True)
-    choose_string(REGEX.virtual_console, parents, REGEX, True)
+    # 1) Demote Virtual and Mini Console titles
+    choose_string(REGEX.switch_online, parents, REGEX)
+    choose_string(REGEX.wii_virtual_console, parents, REGEX)
+    choose_string(REGEX.threeds_virtual_console, parents, REGEX)
+    choose_string(REGEX.gamecube_virtual_console, parents, REGEX)
+    choose_string(REGEX.virtual_console, parents, REGEX)
 
     # 2) Check for versions and revisions, and select the highest of each
     choose_version_revision(REGEX.version, parents, REGEX, 2, -1)

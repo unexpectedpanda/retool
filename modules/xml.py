@@ -148,6 +148,7 @@ def dat_to_dict(region, region_data, input_dat, user_input, compilations_found, 
         if exclude_categories('Coverdiscs') == True: continue
         if exclude_categories('Audio') == True: continue
         if exclude_categories('Video') == True: continue
+        if exclude_categories('BIOS', [REGEX.bios]) == True: continue
         if exclude_categories('Educational') == True: continue
         if exclude_categories('Multimedia') == True: continue
         if exclude_categories('Preproduction', REGEX.preproduction) == True: continue

@@ -1,3 +1,13 @@
+# 0.86
+- Now includes scraped language data from No-Intro for more accurate language
+  filtering.
+- You can now exclude titles that contain the string `[BIOS]`. This should only
+  apply to No-Intro dats.
+- Excluding applications now additionally excludes titles with the string
+  `(Test Program)`.
+- Removed a few unused properties from metadata files, which greatly reduced
+  file sizes.
+
 # 0.85
 - Updated the date sorting to take into account another of No-Intro's
   inconsistent date formats `(Month name, YYYY)`.
