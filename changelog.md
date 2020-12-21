@@ -1,4 +1,6 @@
 # 0.86
+- Things like Virtual Console titles have been demoted in priority, as quite
+  often emulators won't play them.
 - Now includes scraped language data from No-Intro for more accurate language
   filtering.
 - You can now exclude titles that contain the string `[BIOS]`. This should only
