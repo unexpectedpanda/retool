@@ -7,6 +7,8 @@
   `(Test Program)`.
 - Removed a few unused properties from metadata files, which greatly reduced
   file sizes.
+- `-i` removed from `-g` option as some titles are used for soundtracks
+  in games.
 
 # 0.85
 - Updated the date sorting to take into account another of No-Intro's
