@@ -3,12 +3,15 @@
 		"name": [
 			"Panasonic - 3DO Interactive Multiplayer"
 		],
-		"last updated": "6 December 2020"
+		"last updated": "24 December 2020"
 	},
 
 	"renames": {
 		"Alone in the Dark": [
 			["Alone in the Dark (NTSC Version)", 2]
+		],
+		"Blood Angels": [
+			["Space Hulk - Vengeance of the Blood Angels", 1]
 		],
 		"Crash 'n Burn (Not for Resale)": [
 			["Crash 'n Burn", 1]
