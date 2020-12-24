@@ -3,7 +3,7 @@
         "name": [
 			"Nintendo - Game Boy Advance"
 		],
-        "last updated": "4 November 2020"
+        "last updated": "24 December 2020"
     },
 
     "overrides": {
@@ -758,9 +758,9 @@
         "Mega Man Battle Network 5 - Team Colonel": [
             ["Rockman EXE 5 - Team of Colonel", 1]
         ],
-        "Mega Man Battle Network 5 - Team Proto Man": [
+        "Mega Man Battle Network 5 - Team Protoman": [
             ["Rockman EXE 5 - Team of Blues", 1],
-            ["Mega Man Battle Network 5 - Team Protoman", 2]
+            ["Mega Man Battle Network 5 - Team Proto Man", 2]
         ],
         "Mega Man Battle Network 6 - Cybeast Falzar": [
             ["Rockman EXE 6 - Dennoujuu Falzar", 1]
