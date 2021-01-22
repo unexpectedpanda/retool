@@ -1,3 +1,81 @@
+# 0.87
+Some big changes this time around, including some requested features.
+
+## New features
+- There are now user-customizable exclude and include filters, so you can keep
+  or remove specific titles regardless of what Retool thinks should be done
+  with them. You can set filters as partial strings, full strings, or regex,
+  but it's fairly advanced so you'll want to read the documentation to see how
+  it works.
+- You can now output lists of what titles have been kept, removed, and set as
+  clones by Retool GUI, just like Retool CLI. Check the **Modes** tab for the
+  option.
+- You can now output a list of just the 1G1R title names, and optionally add
+  your own prefix or suffix to each line. Starting a prefix with http://,
+  https://, or ftp:// will URL encode each line.
+- The binary version for Windows now opens a heck of a lot faster, at the cost
+  of having a much messier folder structure. Formerly everything was packed into
+  a single executable, which meant the operating system had to extract all the
+  dependencies before it could even think about launching the program.
+
+## Bug fixes
+- Rewrote the parent assignment code to correct misassignment issues in the
+  NES dat. It turns out this results in fixes for other sets too, requiring
+  clone list changes. For accurate matches, you _must_ update to Retool 0.87 to
+  use the latest clone lists.
+- Fixed a bug that removed titles from the United Kingdom from No-Intro dats.
+- Can now handle the new (DV #, #) versioning in No-Intro's FDS dat without
+  crashing.
+- Fixed the clone list/metadata update thinking that there was a new file if the
+  original had been converted from CRLF to LF. Made sure all new clone lists
+  and metadata are converted to LF before uploading to the repo.
+- The PlayStation Portable No-Intro and Redump dats now refer to separate
+  metadata from their respective databases.
+- Numbered samples are now removed when excluding demos and samples, for example
+  `(Sample 1)`, `(Sample 2)` and so on.
+- Those using font scaling > 100% in Windows 10 should no longer have Retool
+  GUI's layout be thrown all over the place, so long as they stick to the
+  provided scaling levels. Note that Retool GUI on Windows 7 and 8 isn't
+  supported.
+- Ubuntu users now get the Ubuntu font in Retool GUI. The UI is also slightly
+  scaled to avoid text inside buttons being cut off.
+- Removed font colors, styles and fancy terminal things when running Retool CLI
+  on Windows 7 and 8, as those versions of Command Prompt don't support them.
+  Things still look shiny on Windows 10 and modern Linux terminals.
+- Stopped the command line instructions showing when Retool GUI was processing
+  a dat.
+- lxml module updated, as GitHub advised of a security flaw with the previously
+  used version.
+
+## Behavior changes
+- More titles ripped from modern platform rereleases (such as Virtual Console
+  titles in the SNES dat, for example) have been demoted by default, as they
+  don't necessarily play well (or at all) in emulators. You can make these
+  titles the preferred 1G1R title instead with the `-v` option, or by selecting
+  the
+  **Titles ripped from modern platform rereleases replace retro editions**
+  checkbox in retool-gui.
+- Good titles are now preferred over bad (`[b]`) ones.
+- No-Intro pre-production titles are now categorized properly in the output dat.
+- Fixed dependency problems when running `updateclonelists.py` from the
+  command line.
+- Updating clone lists now downloads `internal-config.json` as well, as
+  updates to this files affects 1G1R title selection.
+- Retool now identifies Redump BIOS titles by the category `Console`, and
+  they'll be removed if you excluded BIOSes. BIOS titles are also now assigned
+  the category of `BIOS` in the output dat.
+- Release tags are now only output in legacy mode. They also generate for
+  every region and language of a title, not just the primary region. This is
+  just tying a bow on a Logiqx-style 1G1R parent/clone dat file, 1G1R modes in
+  dat managers still aren't very useful.
+
+## Internal changes
+- `user-config.yaml` is no longer stored in the GitHub repo. It's also been
+  removed from Windows ZIP file. This is to prevent users accidentally
+  overwriting their own `user-config.yaml` when update Retool. Both Retool
+  CLI and GUI auto-generate the file if it's missing.
+- Metadata is now in alphabetical order.
+
 # 0.86
 - Things like Virtual Console titles have been demoted in priority, as quite
   often emulators won't play them.
@@ -36,7 +114,7 @@
 - Fixed a natural sort bug in the alphabetical ordering of output dats.
 
 # 0.81
-- Fixed a bug in `retool-gui.py` where the output dat file had ' (-)' in its
+- Fixed a bug in `retool-gui.py` where the output dat file had ` (-)` in its
   file name if no options were set.
 - Fixed a bug where clone lists and metadata wouldn't download if their
   respective folders didn't exist.
@@ -64,7 +142,7 @@
   functional. MacOS hasn't been tested.
 - You can now run `updateclonelists.py` to download the latest clone lists.
   There's also an option available in the GUI under the File menu.
-- Reformatted user-config.yaml so strictyaml liked it a bit more, and things
+- Reformatted `user-config.yaml` so strictyaml liked it a bit more, and things
   played well with the GUI. Improved YAML handling at the same time. Make sure
   to backup your current `user-config.yaml` before grabbing this version, so
   you can port your region order/language settings over.
@@ -253,11 +331,11 @@ The following things have also changed:
 # 0.58
 - Added yet another disc synonym.
 - Added "Hitsquad - Regenerator" as a publisher/distributor.
-- Removed _version.py.
+- Removed `_version.py`.
 
 # 0.57
-- Separated removing coverdiscs from demos (-d), making it its own option (-b).
-  Turns out plenty of full version games were given away as coverdiscs.
+- Separated removing coverdiscs from demos (`-d`), making it its own option
+  (`-b`). Turns out plenty of full version games were given away as coverdiscs.
 - Made handling the XML definition in a dat a bit more robust.
 - Fixed importing of CLRMAMEPro dat files.
 - When a parent or clone of a superset, override, or compilation title is not
@@ -265,7 +343,7 @@ The following things have also changed:
   missing.
 - Added "Teil" as a synonym for "Disc", to automatically pick up some German
   titles.
-- Added a '-g' option, which is shorthand for all options (-abcdemps).
+- Added a `-g` option, which is shorthand for all options (-abcdemps).
 - Added Th as a language.
 - Converted clone lists to JSON so they're more portable, and binaries don't
   require an update every time the clones update.
@@ -419,7 +497,7 @@ The following things have also changed:
   dat was loaded in CLRMAMEPro.
 
 # 0.31
-- Used dictionaries and classes to greatly increase performance and improve.
+- Used dictionaries and classes to greatly increase performance and improve
   code readability.
 - Removed minidom dependency.
 - Removed unused importlib dependency.

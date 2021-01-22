@@ -19,14 +19,14 @@ from modules.classes import Font, Regex, RegionKeys, Stats, TagKeys, Titles
 from modules.importdata import build_clone_lists, build_regions, build_tags, import_metadata
 from modules.output import generate_config, write_dat_file
 from modules.titleutils import assign_clones, get_title_count, report_stats, choose_cross_region_parents
-from modules.userinput import check_input, import_user_config
-from modules.utils import printverbose, printwrap
+from modules.userinput import check_input, import_user_config, import_user_filters
+from modules.utils import old_windows, printverbose, printwrap
 from modules.xml import dat_to_dict, process_input_dat
 
 # Require at least Python 3.8
 assert sys.version_info >= (3, 8)
 
-__version__ = '0.86'
+__version__ = '0.87'
 
 def main(gui_input=''):
     # Start a timer from when the process started
@@ -37,7 +37,7 @@ def main(gui_input=''):
     print(f'{Font.bold}\nRetool {__version__}{Font.end}')
     print('-----------')
 
-    if len(sys.argv) == 1:
+    if len(sys.argv) == 1 and gui_input == '':
         printwrap(
             f'Creates 1G1R versions of Redump ({Font.underline}'
             f'http://redump.org/{Font.end}) and No-Intro '
@@ -69,7 +69,7 @@ def main(gui_input=''):
     # Regexes
     REGEX = Regex(LANGUAGES)
 
-    # Generate user config file if it's missing
+    # Generate user config files if they're missing
     generate_config(region_data.languages_long, region_data.region_order)
 
     # Check user input -- if none, or there's an error, available options will be shown
@@ -84,6 +84,15 @@ def main(gui_input=''):
     # region order.
     user_input = import_user_config(region_data, user_input)
 
+    # Compensate for No-Intro using "United Kingdom", and Redump using "UK"
+    if 'UK' in user_input.user_region_order:
+        uk_index = user_input.user_region_order.index('UK')
+        user_input.user_region_order[uk_index + 1:uk_index + 1] = ['United Kingdom']
+        uk_index = region_data.all.index('UK')
+        region_data.all[uk_index + 1:uk_index + 1] = ['United Kingdom']
+        if 'UK' in region_data.implied_language:
+            region_data.implied_language['United Kingdom'] = 'En'
+
     # Based on region counts from redump.org. Used later to speed up processing through
     # altering the order.
     PRIORITY_REGIONS = [
@@ -93,6 +102,9 @@ def main(gui_input=''):
     # Generate tag strings
     user_input.tag_strings = build_tags(TagKeys())
 
+    # An easy way to always enable dev mode, which enables -x and --error by
+    # default. This makes it easier to update clone lists, through diffing a new
+    # output dat against the previous one.
     if os.path.isfile('.dev'):
         printverbose(
             user_input.verbose,
@@ -124,7 +136,38 @@ def main(gui_input=''):
         input_dat.clone_lists = build_clone_lists(input_dat)
 
         # Import scraped Redump metadata for titles
-        input_dat.metadata = import_metadata(input_dat.name)
+        input_dat.metadata = import_metadata(input_dat)
+
+        # Import user filters
+        if os.path.isfile(f'user-filters/global.yaml'):
+            user_filters = import_user_filters('global')
+            user_input.global_excludes = user_filters.data['exclude']
+            user_input.global_includes = user_filters.data['include']
+
+            if type(user_input.global_excludes) is str: user_input.global_excludes = []
+            if type(user_input.global_includes) is str: user_input.global_includes = []
+        else:
+            user_input.global_excludes = []
+            user_input.global_includes = []
+
+        if 'PlayStation Portable' in input_dat.name:
+            if 'no-intro' in input_dat.url:
+                    filter_file = 'Sony - PlayStation Portable (No-Intro)'
+            elif 'redump' in input_dat.url:
+                filter_file = 'Sony - PlayStation Portable (Redump)'
+        else:
+            filter_file = input_dat.name
+
+        if os.path.isfile(f'user-filters/{filter_file}.yaml'):
+            user_filters = import_user_filters(filter_file)
+            user_input.system_excludes = user_filters.data['exclude']
+            user_input.system_includes = user_filters.data['include']
+
+            if type(user_input.system_excludes) is str: user_input.system_excludes = []
+            if type(user_input.system_includes) is str: user_input.system_includes = []
+        else:
+            user_input.system_excludes = []
+            user_input.system_includes = []
 
         # Check if the dat is numbered
         dat_numbered = False
@@ -156,15 +199,6 @@ def main(gui_input=''):
         print(f'|  URL: {input_dat.url}')
         print(f'|  Version: {input_dat.version}\n')
 
-        # Compensate for No-Intro using "United Kingdom", and Redump using "UK"
-        if 'UK' in user_input.user_region_order:
-            uk_index = user_input.user_region_order.index('UK')
-            user_input.user_region_order[uk_index + 1:uk_index + 1] = ['United Kingdom']
-            uk_index = region_data.all.index('UK')
-            region_data.all[uk_index + 1:uk_index + 1] = ['United Kingdom']
-            if 'UK' in region_data.implied_language:
-                region_data.implied_language['United Kingdom'] = 'En'
-
         # For performance, change the region order so titles with a lot of regions are
         # processed first, and unknown regions are processed last. This doesn't affect
         # the user's region order when it comes to title selection.
@@ -186,15 +220,17 @@ def main(gui_input=''):
         compilations_found = set()
 
         for region in processing_region_order:
-            print(
-                f'* Checking dat for titles in provided regions... {region}',
-                sep='', end='\r', flush=True
-            )
+            if old_windows() != True:
+                print(
+                    f'* Finding titles in regions... {region}',
+                    sep='', end='\r', flush=True
+                )
             titles.regions[region] = dat_to_dict(
                 region, region_data, input_dat, user_input,
                 compilations_found, dat_numbered, REGEX)
 
-            sys.stdout.write("\033[K")
+            if old_windows() != True:
+                sys.stdout.write("\033[K")
 
         # Deal with compilations
         if input_dat.clone_lists != None:
@@ -210,7 +246,7 @@ def main(gui_input=''):
 
                 stats.compilations_count = len(compilations_found)
 
-        print('* Checking dat for titles in provided regions... done.')
+        print('* Finding titles in regions... done.')
 
         # Combine all regions' titles and choose a parent based on region order
         print('* Finding parents across regions... ', sep='', end='\r', flush=True)
@@ -225,8 +261,9 @@ def main(gui_input=''):
 
             titles = assign_clones(titles, input_dat, region_data, user_input, dat_numbered, REGEX)
 
-            sys.stdout.write("\033[K")
-            print('* Assigning clones from clone lists... done.')
+            if old_windows() != True:
+                sys.stdout.write("\033[K")
+            print('* Assigning clones from clone lists... done. ') # Intentional trailing space for Win 7
 
         # Get the clone count
         stats.clone_count = 0
@@ -250,6 +287,12 @@ def main(gui_input=''):
             if user_input.output_folder_name != '' and not os.path.exists(user_input.output_folder_name):
                 print(f'* Creating folder "{Font.bold}{user_input.output_folder_name}{Font.end}"')
                 os.makedirs(user_input.output_folder_name)
+
+            if 'PlayStation Portable' in input_dat.name:
+                if 'no-intro' in input_dat.url:
+                    input_dat.name = input_dat.name + ' (No-Intro)'
+                else:
+                    input_dat.name = input_dat.name + ' (Redump)'
 
             output_file_name = (
                 os.path.join(
@@ -308,7 +351,9 @@ def main(gui_input=''):
             finish_message = ''
 
     # Print the summary message
-    printwrap(f'\n{finish_message}\n')
+    print()
+    printwrap(f'{finish_message}')
+    print()
 
     return
 

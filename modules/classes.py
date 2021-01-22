@@ -76,8 +76,17 @@ class DatNode:
 
             self.regions = re.search('\((.*?,){0,} {0,}' + region + '(,.*?){0,}\)', self.full_name)[0][1:-1]
 
+            region_list = self.regions.split(', ')
+            region_reorder = []
+
             for another_region in region_data.all:
-                if re.search(' \(' + another_region + '(,.*?){0,}\)', self.full_name) != None:
+                if another_region in region_list:
+                    region_reorder.append(another_region)
+
+            self.regions = ', '.join(region_reorder)
+
+            for another_region in region_data.all:
+                if re.search(another_region + '(,.*?){0,}', self.regions) != None:
                     self.primary_region = another_region
                     break
 
@@ -95,10 +104,28 @@ class DatNode:
         else:
             self.secondary_region = ''
 
+        # Reverse engineer category for No-Intro
         if node.category is None:
             self.category = ''
+            for program in REGEX.programs:
+                if re.search(program, self.full_name) != None:
+                    self.category = 'Applications'
+            for demo in REGEX.demos:
+                if re.search(demo, self.full_name) != None:
+                    self.category = 'Demos'
+            for preproduction in REGEX.preproduction:
+                if re.search(preproduction, self.full_name) != None:
+                    self.category = 'Preproduction'
         else:
             self.category = node.category.contents[0]
+
+        # Some further category assignments
+        if (
+            self.category == 'Console'
+            or '[BIOS]' in self.full_name):
+                self.category = 'BIOS'
+        elif self.category == '':
+            self.category = 'Games'
 
         self.description = node.description.contents[0]
         self.cloneof = ''
@@ -117,6 +144,9 @@ class DatNode:
                 self.title_languages = ','.join(new_title_languages)
 
             self.languages = self.title_languages
+
+        # Compensate for poor language formatting
+        self.languages = re.sub(',([\S])', r', \1', self.languages)
 
         # Convert the <rom> lines for the current node
         node_roms = node.findChildren('rom', recursive=False)
@@ -146,7 +176,6 @@ class DatNode:
             self.short_name = self.short_name + ' (Demo)'
             self.region_free_name = self.region_free_name + '(Demo)'
             self.tag_free_name = self.tag_free_name + '(Demo)'
-
 
     def __str__(self):
         ret_str = []
@@ -204,6 +233,17 @@ class DatNodeRom:
         self.size = size
 
 
+class Filters:
+    """ Filters constructor """
+
+    def __init__(self):
+        self.global_exclude = []
+        self.global_include = []
+        self.system_exclude = []
+        self.system_include = []
+        self.system_file = ''
+
+
 class Regex:
     """ Regex constructor """
 
@@ -211,7 +251,7 @@ class Regex:
         # Preproduction
         self.alpha = re.compile('\(Alpha( [0-9]{,2}){,1}\)')
         self.beta = re.compile('\(Beta( [0-9]{,2}){,1}\)')
-        self.proto = re.compile('\(Proto( [0-9]{,2}){,1}\)')
+        self.proto = re.compile('\((Possible )*Proto( [0-9]{,2}){,1}\)')
         self.preprod = re.compile('\(Pre-production\)')
         self.review = re.compile('\(Review Code\)')
 
@@ -237,7 +277,7 @@ class Regex:
             re.compile('\(@barai\)'),
             re.compile('\(GameCube Preview\)'),
             re.compile('\(Preview\)'),
-            re.compile('\(Sample\)'),
+            re.compile('\(Sample( [1-9])*\)'),
             re.compile('Trial Edition')
             ]
         self.programs = [
@@ -251,7 +291,7 @@ class Regex:
             self.preprod,
             self.review,
             ]
-        self.preproduction_long = '\((?:(?!\(|(Pre-Production|Proto|Alpha|Beta|Review Code)( [0-9]{,2}){,1})[\s\S])*(Pre-Production|Proto|Alpha|Beta|Review Code)( [0-9]{,2}){,1}\)'
+        self.preproduction_bad = '\((?:(?!(\(|(Pre-Production|Proto|Possible Proto|Alpha|Beta|Review Code)( [0-9]{,2}){,1}))|(\[b\])[\s\S])*((Pre-Production|Proto|Possible Proto|Alpha|Beta|Review Code)( [0-9]{,2}){,1}\))|(\[b\])'
         self.promotional = [
             re.compile('EPK'),
             re.compile('Press Kit'),
@@ -268,13 +308,6 @@ class Regex:
         self.sega_ring_code = re.compile('\(([0-9]{1,2}[A-Z]([ ,].[0-9]{1,2}[A-Z])*|R[E]{,1}[-]{,1}[0-9]{0,})\)')
         self.sega_ring_code_re = re.compile('R[E]{,1}[-]{,1}[0-9]{0,}')
         self.fds_version = re.compile('\(DV [0-9].*?\)')
-
-        # Virtual + Mini Console
-        self.switch_online = re.compile('\((?:(?!\(|Switch Online.*?)[\s\S])*Switch Online.*?\)')
-        self.wii_virtual_console = re.compile('\((?:(?!\(|.*?Wii.*?Virtual Console.*?)[\s\S])*?Wii.*?Virtual Console.*?\)')
-        self.threeds_virtual_console = re.compile('\((?:(?!\(|.*?3DS.*?Virtual Console.*?)[\s\S])*?3DS.*?Virtual Console.*?\)')
-        self.gamecube_virtual_console = '\((?:(?!\(|.*?GameCube.*?)[\s\S])*?GameCube.*?\)'
-        self.virtual_console = '\(Virtual Console\)'
 
 
 class RegionKeys():
@@ -380,6 +413,7 @@ class TagKeys:
         self.demote_editions = 'demote_editions'
         self.disc_rename = 'disc_rename'
         self.ignore = 'ignore_tags'
+        self.modern_editions = 'modern_editions'
         self.promote_editions = 'promote_editions'
 
 
@@ -390,6 +424,7 @@ class Tags:
         self.demote_editions = set()
         self.disc_rename = {}
         self.ignore = set()
+        self.modern_editions = set()
         self.promote_editions = set()
 
     def __str__(self):
@@ -405,6 +440,9 @@ class Tags:
         ret_str.append(
             f'  ○ ignore:\n    [  \n     '
             f'{str(self.ignore)[1:-1].replace(",", replace_str)}\n    ]\n')
+        ret_str.append(
+            f'  ○ modern_editions:\n    [  \n     '
+            f'{str(self.modern_editions)[1:-1].replace(",", replace_str)}\n    ]\n')
         ret_str.append(
             f'  ○ promote_editions:\n    [  \n     '
             f'{str(self.promote_editions)[1:-1].replace(",", replace_str)}\n    ]\n')
@@ -430,9 +468,10 @@ class UserInput:
                  no_demos='', no_educational='', no_coverdiscs='',
                  no_audio='', no_video='', no_bios='',
                  no_multimedia='', no_pirate='', no_preproduction='',
-                 no_promotional='', no_unlicensed='', supersets='',
-                 filter_languages='', legacy='', user_options='',
-                 verbose='', keep_remove=''):
+                 no_promotional='', no_unlicensed='', modern='',
+                 supersets='', filter_languages='', legacy='',
+                 user_options='', verbose='', no_filters='',
+                 keep_remove='', list=''):
         self.input_file_name = input_file_name
         self.output_folder_name = output_folder_name
 
@@ -445,14 +484,23 @@ class UserInput:
         self.no_audio = no_audio
         self.no_video = no_video
         self.no_bios = no_bios
+        self.no_console = no_bios
         self.no_multimedia = no_multimedia
         self.no_pirate = no_pirate
         self.no_preproduction = no_preproduction
         self.no_promotional = no_promotional
         self.no_unlicensed = no_unlicensed
+        self.modern = modern
         self.supersets = supersets
         self.filter_languages = filter_languages
         self.legacy = legacy
         self.user_options = user_options
         self.verbose = verbose
+        self.no_filters = no_filters
         self.keep_remove = keep_remove
+        self.list = list
+
+        self.global_exclude = []
+        self.global_include = []
+        self.system_exclude = []
+        self.system_include = []

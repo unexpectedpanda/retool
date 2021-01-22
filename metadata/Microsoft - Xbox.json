@@ -1724,8 +1724,8 @@
     "ESPN Winter X Games Snowboarding 2002 (Japan)": {
         "languages": "Ja"
     },
-    "Ed, Edd n Eddy - The Mis-Edventures (USA)": {
-        "languages": ""
+    "Ed, Edd n Eddy - The Mis-Edventures (USA) (En,Fr)": {
+        "languages": "En, Fr"
     },
     "Egg Mania - Eggstreme Madness (USA)": {
         "languages": ""
@@ -3182,9 +3182,6 @@
     "Magazine Officiel Xbox, Le - Hors-Serie Solutions Numero 08 (France)": {
         "languages": "Fr"
     },
-    "Magazine Officiel Xbox, Le - Le DVD Numero 18 (France) (En,Fr,Es,It,Pt)": {
-        "languages": "En, Fr, It, Pt, Es"
-    },
     "Magazine Officiel Xbox, Le - Le DVD Numero 22 (France) (En,Fr,De,Es,It,Pt)": {
         "languages": "En, Fr, De, It, Pt, Es"
     },
@@ -4313,6 +4310,9 @@
     "Official Xbox Magazine Game Disc 17 (Europe)": {
         "languages": "En"
     },
+    "Official Xbox Magazine Game Disc 17 (Europe, Australia) (En,Fr,Es,It,Pt)": {
+        "languages": "En, Fr, It, Pt, Es"
+    },
     "Official Xbox Magazine Game Disc 17 (USA)": {
         "languages": "En"
     },
@@ -4325,8 +4325,14 @@
     "Official Xbox Magazine Game Disc 18 (USA)": {
         "languages": "En"
     },
+    "Official Xbox Magazine Game Disc 19 (Australia)": {
+        "languages": ""
+    },
     "Official Xbox Magazine Game Disc 19 (Europe)": {
         "languages": "En"
+    },
+    "Official Xbox Magazine Game Disc 19 (Europe, Australia) (En,Fr,Es,It,Pt)": {
+        "languages": "En, Fr, It, Pt, Es"
     },
     "Official Xbox Magazine Game Disc 19 (USA)": {
         "languages": "En"
@@ -4463,7 +4469,7 @@
     "Official Xbox Magazine Game Disc 37 (USA)": {
         "languages": "En"
     },
-    "Official Xbox Magazine Game Disc 38 (Europe) (En,Fr,Es,It,Pt)": {
+    "Official Xbox Magazine Game Disc 38 (Europe, Australia) (En,Fr,Es,It,Pt)": {
         "languages": "En, Fr, It, Pt, Es"
     },
     "Official Xbox Magazine Game Disc 38 (USA)": {
@@ -4538,11 +4544,11 @@
     "Official Xbox Magazine Game Disc 47 (USA)": {
         "languages": "En"
     },
-    "Official Xbox Magazine Game Disc 48 (Europe)": {
-        "languages": "En"
-    },
     "Official Xbox Magazine Game Disc 48 (Europe) (Fr,Es,It,Pt)": {
         "languages": "Fr, It, Pt, Es"
+    },
+    "Official Xbox Magazine Game Disc 48 (UK, Australia)": {
+        "languages": "En"
     },
     "Official Xbox Magazine Game Disc 48 (USA)": {
         "languages": "En"
@@ -7273,9 +7279,6 @@
     },
     "Xbox Live Starter Kit Disc + Zunou Taisen Live (Japan)": {
         "languages": ""
-    },
-    "Xbox Magazine Ufficiale Game Disc 17 - Giugno 2003 (Italy) (En,Fr,Es,It,Pt)": {
-        "languages": "En, Fr, It, Pt, Es"
     },
     "Xbox Magazine Ufficiale Game Disc 18 - Luglio 2003 (Italy) (En,Fr,Es,It,Pt)": {
         "languages": "En, Fr, It, Pt, Es"

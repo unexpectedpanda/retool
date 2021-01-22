@@ -1,4 +1,6 @@
+import platform
 import re
+import sys
 import textwrap
 
 
@@ -38,19 +40,39 @@ def printverbose(verbose, string):
                 f'' + string))
 
 
+def old_windows():
+    if sys.platform.startswith('win'):
+        if (float(platform.release()) < 10):
+            return(True)
+
+    return(False)
+
+
 class Font:
     """ Console text formatting.
 
     This can't live in classes.py due to circular import
     """
 
-    success = '\033[0m\033[92m'
-    success_bold = '\033[1m\033[92m'
-    warning = '\033[0m\033[93m'
-    warning_bold = '\033[1m\033[93m'
-    error = '\033[0m\033[91m'
-    error_bold = '\033[1m\033[91m'
-    disabled = '\033[90m'
-    bold = '\033[1m'
-    underline = '\033[4m'
-    end = '\033[0m'
+    if old_windows() != True:
+        success = '\033[0m\033[92m'
+        success_bold = '\033[1m\033[92m'
+        warning = '\033[0m\033[93m'
+        warning_bold = '\033[1m\033[93m'
+        error = '\033[0m\033[91m'
+        error_bold = '\033[1m\033[91m'
+        disabled = '\033[90m'
+        bold = '\033[1m'
+        underline = '\033[4m'
+        end = '\033[0m'
+    else:
+        success = ''
+        success_bold = ''
+        warning = ''
+        warning_bold = ''
+        error = ''
+        error_bold = ''
+        disabled = ''
+        bold = ''
+        underline = ''
+        end = ''

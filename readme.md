@@ -5,7 +5,7 @@
 * [Download and installation](#download-and-installation)
   * [For Windows users only familiar with graphical interfaces](#for-windows-users-only-familiar-with-graphical-interfaces)
   * [For those familiar with Git and Python](#for-those-familiar-with-git-and-python)
-* [Using Retool from the command line](#using-retool-from-the-command-line)
+  * [Linux](#linux)
 * [Clone lists](#clone-lists)
 * [Clonerel](#clonerel)
 
@@ -21,6 +21,9 @@ You'll still need a dat manager to use the files Retool creates, such as
 [RomVault](https://www.romvault.com/), or
 [Romcenter](https://www.romcenter.com/) &mdash; you just won't need to use
 their 1G1R modes, as Retool will have already done the work for you.
+
+You can learn more about how it works, and how to use it in the
+[wiki](https://github.com/unexpectedpanda/retool/wiki/).
 
 ![Retool GUI](https://github.com/unexpectedpanda/retool/wiki/images/retool-gui.png)
 
@@ -49,22 +52,35 @@ load a clone game in MAME, it's smart enough to load the base files from the
 parent, and any of the modified files it needs from the clone.
 
 Standard 1G1R through a dat manager is effectively a hack on top of this system.
-In 1G1R mode a dat manager takes the parent and ignores the clones, in an effort
-to only include the "best" or most desired version of a title. While on the
-surface this seems reasonable, if you look a little closer you start to see the
-cracks.
+In 1G1R mode a dat manager uses the parent/clone relationships in a dat to set up
+a group of titles. It then selects a single title from that group based on your
+region and language preferences and ignores the other titles, in an effort to
+only include the most desired version of a title. While on the surface this
+seems reasonable, if you look a little closer you start to see the cracks.
 
-The primary issue is that dat managers and parent/clone dats don't have a
-concept of title priority. For example, what happens when there are two copies
-of the same title from the same region, but they have different names? Or
-different version numbers? Or were published by different companies at different
-times? Which title does the dat manager choose then?
+The primary issue is that dat managers and parent/clone dats don't have an
+expansive concept of title priority. For example, what happens when there are
+two copies of the same title from the same region, but they have different
+names? Or different version numbers? Or were published by different companies at
+different times? Which title does the dat manager choose then? The answer
+&mdash; the first one it finds, _not_ the newest or best.
 
-Retool figures this out for you. It even identifies the languages of each title
-by using multiple sources &mdash; the implied language spoken in the region the
-title is from, languages explicitly listed in the title's filename, and
-languages listed on Redump's website, which aren't always included in the
-filenames.
+There's another issue, and that concerns languages. To determine a 1G1R title,
+dat managers give each title a score, combined from your region and language
+priority. While selected regions are treated as a filter (don't include Europe,
+and you won't get European titles), languages aren't. Instead, languages are
+treated as a "bonus" score added to the original region score, meaning you can
+end up with titles in languages you don't want if a region is high enough
+priority. Check out
+[LogiqX's pseudo code](https://forum.no-intro.org/viewtopic.php?f=2&t=544) for
+an idea of how this works (search for "I do this kind of thing for a living..."
+to find the relevant bit).
+
+Retool handles all this, and a whole lot more. It even identifies the languages
+of each title by using multiple sources &mdash; the implied language spoken in
+the region the title is from, languages explicitly listed in the title's
+filename, and languages listed on Redump's website and No-Intro's database,
+which aren't always included in the filenames.
 
 After you set up the GUI or `user-config.yaml` to your liking, Retool's output
 is already 1G1R, meaning you don't need to select 1G1R mode, regions, or
@@ -79,18 +95,15 @@ code.
 ### For Windows users only familiar with graphical interfaces
 You can get going in a few easy steps:
 
-1. Download the [latest binary](https://github.com/unexpectedpanda/retool/raw/master/dist/retool-latest-win-x86-64.zip)
+1. Download the [latest binary](https://github.com/unexpectedpanda/retool/raw/main/dist/retool-latest-win-x86-64.zip)
    for Windows.
 2. Extract the ZIP file to a folder of your choosing.
-3. Double click `retool-gui.exe`. It will show a command prompt window, and then
-   a few seconds later the GUI will load. The startup is a little slow as the
-   bundle has to load the Python interpreter first.
+3. Double click `retool-gui.exe`. It will show a Command Prompt window, then the
+   GUI will load. Don't close the Command Prompt window as it'll close the GUI
+   as well. It also serves a useful purpose &mdash; it shows you the output of
+   the program when you're processing a dat file.
 4. Click **File > Check for clone list updates** to download the latest clone
    lists and metadata.
-
-Don't close the command prompt window as it'll close the GUI as well. It also
-serves a useful purpose &mdash; it shows you the output of the program when
-you're processing a dat file.
 
 ### For those familiar with Git and Python
 Clone Retool from this repo and run it with
@@ -107,104 +120,14 @@ pip install bs4 lxml strictyaml pysimpleguiqt
 On systems that have both Python 2 and 3 installed, you might need to run `pip3`
 instead of `pip`.
 
+### Linux
 
-## Using Retool from the command line
-
-For those who like a bit more power and are comfortable in the command line,
-Retool offers a CLI version.
-
-### Usage
-
-Retool uses the following syntax:
-
-```shell
-python retool.py <input dat/folder> <options>
-```
-
-On systems that have both Python 2 and 3 installed, you might need to run
-`python3` instead of `python`.
-
-Alternatively, your system might be configured to run the py file directly:
-
-```shell
-retool.py <input dat/folder> <options>
-```
-
-A new dat file is automatically generated, the original file isn't altered.
-
-Edit the `user-config.yaml` file to set region order and filter languages.
-Remove languages or regions by adding a `#` to the beginning of the relevant
-line to comment it out.
-
-#### The user-config.yaml file
-
-The `user-config.yaml` file determines the region order that Retool processes
-dat files in, from most to least important. In the `region order` section of
-the file, you can change the order, or comment out regions by adding a `#` to
-the beginning of the line they're on so they're not included.
-
-The file also contains a `language filter` section. When you set the `-l`
-option in Retool, this section is referenced and Retool will only include
-titles that contain the languages listed there. The order doesn't matter here,
-just the content. Comment out languages you don't want to include by adding a
-`#` to the beginning of the line. You can't process a dat file only by
-languages &mdash; you must also set a region order.
-
-Titles with a region of "Unknown" will be included no matter which language you
-filter by. If titles in the following regions don't have languages specified,
-they will be included if you select any of their respective languages:
-
-- **Asia** &mdash; English, Chinese, Japanese
-- **Hong Kong, Taiwan** &mdash; Chinese, English
-- **Latin America** &mdash; Spanish, Portuguese
-- **South Africa** &mdash; Afrikaans, English
-- **Switzerland** &mdash; German, French, Italian
-- **Ukraine** &mdash; Ukranian, Russian
-
-#### Options
-
-* `-o <output folder>` Set an output folder
-* `--log` Also export a list of what titles have been kept and removed in the
-  output dat/s
-* `--errors` Verbose mode: report clone list errors
-* `-x` Export dat in legacy parent/clone format
-* `-g` Enable most filters (-bcdefjkrs)
-* `-l` Filter by languages using a list (see `user-config.yaml`)
-* `-s` Supersets (special editions, game of the year editions, and collections)
-       replace standard editions
-* `-a` Exclude applications
-* `-b` Exclude bad dumps
-* `-c` Exclude compilations with no unique titles
-* `-d` Exclude demos and samples
-* `-e` Exclude educational titles
-* `-f` Exclude coverdiscs (discs attached to the front of magazines)
-* `-i` Exclude audio titles (these might be used as soundtracks for games)
-* `-j` Exclude video titles
-* `-k` Exclude BIOS titles (No-Intro only)
-* `-m` Exclude multimedia titles (these might include games)
-* `-n` Exclude pirate titles
-* `-p` Exclude preproduction titles (alphas, betas, prototypes)
-* `-r` Exclude promotional titles
-* `-u` Exclude unlicensed titles
-
-You can learn more about
-[Retool's options](https://github.com/unexpectedpanda/retool/wiki/Usage-and-options#More-options-information)
-and how it works in the [wiki](https://github.com/unexpectedpanda/retool/wiki/).
-
-### Retool GUI
-You can also run `retool-gui.py` from the command line to load the GUI version,
-where you don't have to deal with the `user-config.yaml` file. It's optimized
-for Windows at this stage, but has been tested successfully on Ubuntu with a
-few layout quirks. As the underlying module (_PySimpleGUIQt_) improves, so
-should the GUI across platforms.
-
-If you get a libxcb error in Linux, this fixed the problem for me in Ubuntu
-20.04:
+If you get a libxcb error in Linux when launching `retool-gui.py`, this fixed
+he problem for me in Ubuntu 20.04:
 
 ```
 sudo apt-get install libxcb-randr0-dev libxcb-xtest0-dev libxcb-xinerama0-dev libxcb-shape0-dev libxcb-xkb-dev
 ```
-
 
 ## Clone lists
 
@@ -224,6 +147,7 @@ of. I manually combed through titles in most dats, and cross referenced them on
 [Sega Retro](https://segaretro.org/), [PSCX2 Wiki](https://wiki.pcsx2.net),
 [PlayStation DataCenter](https://psxdatacenter.com/),
 [The Cutting Room Floor](https://tcrf.net),
+[The PC Engine Software Bible](http://www.pcengine.co.uk/),
 [The World of CDI](https://www.theworldofcdi.com),
 and [Atari Mania](http://www.atarimania.com). I checked out the parent/clone
 dats for No-Intro, and occasionally I went through Redump's site for Japanese,
@@ -234,6 +158,9 @@ else failed, I did some good old web searching in order to turn up information.
 [FilterQuest](https://github.com/UnluckyForSome/FilterQuest), a similar tool,
 and added some missing titles from there.
 
+There have also been plenty of community contributions, from those who have
+[filed issues on GitHub](https://github.com/unexpectedpanda/retool/issues).
+
 Clone lists are updated independently of the program, and are formatted as JSON
 files. They are stored in a subfolder called `clonelists`, which is in the same
 folder as Retool.
@@ -241,7 +168,7 @@ folder as Retool.
 You can update them from the GUI using the **File** menu, by running
 `updateclonelists.py`, or by downloading them yourself from this repository.
 
-<hr>
+---
 
 # Clonerel
 

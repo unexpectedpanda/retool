@@ -107,7 +107,7 @@
     "19 ji 03 pun - Ueno-hatsu Yakou Ressha (Japan)": {
         "languages": "Ja"
     },
-    "19 ji 03 pun - Ueno-hatsu Yakou Ressha (Japan) (Taikenban)": {
+    "19 ji 03 pun - Ueno-hatsu Yakou Ressha (Japan) (Demo)": {
         "languages": "Ja"
     },
     "1Xtreme (USA)": {
@@ -1257,6 +1257,9 @@
         "languages": "Ja"
     },
     "Arc the Lad III (Japan) (Disc 2) (Rev 1)": {
+        "languages": "Ja"
+    },
+    "Arc-en-Ciel, L' - Light my Fire (Japan)": {
         "languages": "Ja"
     },
     "Arcade Gears - ImageFight & XMultiply (Japan)": {
@@ -12701,6 +12704,9 @@
     "Ikasama Mahjong (Japan)": {
         "languages": "Ja"
     },
+    "Ile LEGO 2, L' - La Revanche de Cassbrik (France)": {
+        "languages": "Fr"
+    },
     "Imadoki no Vampire - Bloody Bride (Japan)": {
         "languages": "Ja"
     },
@@ -14315,6 +14321,9 @@
     "Klonoa - Door to Phantomile (Europe)": {
         "languages": "En"
     },
+    "Klonoa - Door to Phantomile (Europe) (Beta)": {
+        "languages": "En"
+    },
     "Klonoa - Door to Phantomile (France)": {
         "languages": "Fr"
     },
@@ -14750,12 +14759,6 @@
     "L no Kisetsu - A Piece of Memories (Japan) (Shokai Genteiban)": {
         "languages": "Ja"
     },
-    "L'Arc-en-Ciel - Light my Fire (Japan)": {
-        "languages": "Ja"
-    },
-    "L'ile LEGO 2 - La Revanche de Cassbrik (France)": {
-        "languages": "Fr"
-    },
     "LEGO Eiland 2 - De Wraak van Dondersteen (Netherlands)": {
         "languages": "Nl"
     },
@@ -14923,9 +14926,6 @@
     },
     "Le Mans 24 Hours (Europe) (En,Fr,De,Es,It,Pt)": {
         "languages": "En, Fr, De, It, Pt, Es"
-    },
-    "Le Monde Des Bleus 2 (France) (Demo)": {
-        "languages": "Fr"
     },
     "Leading Jockey '99 (Japan)": {
         "languages": "Ja"
@@ -17091,6 +17091,9 @@
         "languages": ""
     },
     "Monde des Bleus 2, Le (France)": {
+        "languages": "Fr"
+    },
+    "Monde des Bleus 2, Le (France) (Demo)": {
         "languages": "Fr"
     },
     "Monde des Bleus, Le - Le Jeu Officiel de l'Equipe de France (France)": {
@@ -20306,6 +20309,9 @@
     "Perfect Weapon (Germany)": {
         "languages": "De"
     },
+    "Perfect Weapon (Italy)": {
+        "languages": "It"
+    },
     "Perfect Weapon (USA)": {
         "languages": "En"
     },
@@ -20346,6 +20352,9 @@
         "languages": "Ja"
     },
     "Pet in TV (Europe)": {
+        "languages": "En"
+    },
+    "Pet in TV (Europe) (Beta)": {
         "languages": "En"
     },
     "Pet in TV (Germany)": {
@@ -22061,31 +22070,31 @@
     "Ran Soccer (Germany)": {
         "languages": "De"
     },
-    "Randevu s Neznakomkoy (Russia) (En,Ru) (Disc 1) (Unl)": {
+    "Randevu s neznakomkoj (Russia) (En,Ru) (Disc 1) (Unl)": {
         "languages": "En, Ru"
     },
-    "Randevu s Neznakomkoy (Russia) (En,Ru) (Disc 1) (Unl) (Alt)": {
+    "Randevu s neznakomkoj (Russia) (En,Ru) (Disc 1) (Unl) (Alt)": {
         "languages": "En, Ru"
     },
-    "Randevu s Neznakomkoy (Russia) (En,Ru) (Disc 2) (Unl)": {
+    "Randevu s neznakomkoj (Russia) (En,Ru) (Disc 2) (Unl)": {
         "languages": "En, Ru"
     },
-    "Randevu s Neznakomkoy (Russia) (En,Ru) (Disc 2) (Unl) (Alt)": {
+    "Randevu s neznakomkoj (Russia) (En,Ru) (Disc 2) (Unl) (Alt)": {
         "languages": "En, Ru"
     },
-    "Randevu s Neznakomkoy 2 (Russia) (En,Ru) (Disc 1) (Unl)": {
+    "Randevu s neznakomkoj 2 (Russia) (En,Ru) (Disc 1) (Unl)": {
         "languages": "En, Ru"
     },
-    "Randevu s Neznakomkoy 2 (Russia) (En,Ru) (Disc 1) (Unl) (Alt)": {
+    "Randevu s neznakomkoj 2 (Russia) (En,Ru) (Disc 1) (Unl) (Alt)": {
         "languages": "En, Ru"
     },
-    "Randevu s Neznakomkoy 2 (Russia) (En,Ru) (Disc 2) (Unl)": {
+    "Randevu s neznakomkoj 2 (Russia) (En,Ru) (Disc 2) (Unl)": {
         "languages": "En, Ru"
     },
-    "Randevu s Neznakomkoy 2 (Russia) (En,Ru) (Disc 2) (Unl) (Alt 1)": {
+    "Randevu s neznakomkoj 2 (Russia) (En,Ru) (Disc 2) (Unl) (Alt 1)": {
         "languages": "En, Ru"
     },
-    "Randevu s Neznakomkoy 2 (Russia) (En,Ru) (Disc 2) (Unl) (Alt 2)": {
+    "Randevu s neznakomkoj 2 (Russia) (En,Ru) (Disc 2) (Unl) (Alt 2)": {
         "languages": "En, Ru"
     },
     "Ranma 1-2 - Battle Renaissance (Japan)": {
@@ -25010,14 +25019,14 @@
     "Sotsugyou III - Wedding Bell (Japan)": {
         "languages": "Ja"
     },
+    "Sotsugyou M - Seito Kaichou no Karei naru Inbou (Japan) (Demo)": {
+        "languages": "Ja"
+    },
     "Sotsugyou M - Seito Kaichou no Karei naru Inbou (Japan) (Disc 1)": {
         "languages": ""
     },
     "Sotsugyou M - Seito Kaichou no Karei naru Inbou (Japan) (Disc 2)": {
         "languages": ""
-    },
-    "Sotsugyou M - Seito Kaichou no Karei naru Inbou (Japan) (Taikenban)": {
-        "languages": "Ja"
     },
     "Sotsugyou R - Graduation Real (Japan)": {
         "languages": "Ja"
@@ -25361,7 +25370,10 @@
     "Spice World (Europe)": {
         "languages": "En"
     },
-    "Spice World (Europe) (Beta)": {
+    "Spice World (Europe) (Beta 1)": {
+        "languages": "En"
+    },
+    "Spice World (Europe) (Beta 2)": {
         "languages": "En"
     },
     "Spice World (France)": {
@@ -28556,6 +28568,9 @@
     "Tomba! The Wild Adventures (Japan) (Demo)": {
         "languages": "Ja"
     },
+    "Tombi (Europe) (En,Es,Pt,Sv,Da) (Beta)": {
+        "languages": "Da, En, Pt, Es, Sv"
+    },
     "Tombi! (Europe) (En,Es,Pt,Sv,Da)": {
         "languages": "Da, En, Pt, Es, Sv"
     },
@@ -30222,6 +30237,9 @@
         "languages": "En"
     },
     "Wild Arms (Europe)": {
+        "languages": "En"
+    },
+    "Wild Arms (Europe) (Beta)": {
         "languages": "En"
     },
     "Wild Arms (France)": {

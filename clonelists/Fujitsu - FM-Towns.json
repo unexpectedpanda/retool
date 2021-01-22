@@ -3,19 +3,20 @@
 		"name": [
 			"Fujitsu - FM-Towns"
 		],
-		"last updated": "29 November 2020"
+		"last updated": "24 January 2021"
 	},
 
 	"renames": {
-		"F-BASIC386 V1.1L21": [
-			["F-BASIC386 V1.1L20", 2],
-			["F-BASIC386 V1.1L10", 3]
+		"F-BASIC386 V1.1 L21": [
+			["F-BASIC386 V1.1 L20", 2],
+			["F-BASIC386 V1.1 L10", 3]
 		],
-		"F-BASIC386 Compiler V2.1L10": [
-			["F-BASIC386 Compiler V1.1L21", 2]
+		"F-BASIC386 Compiler V2.1 L10": [
+			["F-BASIC386 Compiler V1.1 L21", 2]
 		],
 		"Fujitsu Air Warrior V1.2": [
-			["Fujitsu Air Warrior V1.1", 2]
+			["Fujitsu Air Warrior V1.2 L11", 2],
+			["Fujitsu Air Warrior V1.1", 3]
 		],
 		"Hyper Address Ver. 2.0": [
 			["Hyper Address", 2]
@@ -26,24 +27,24 @@
 		"Super Real Mahjong PII & PIII": [
 			["Super Real Mahjong PII & PIII+", -1]
 		],
-		"Towns Paint V1.1L20": [
-			["Towns Paint V1.1L10", 2]
+		"Towns Paint V1.1 L20": [
+			["Towns Paint V1.1 L10", 2]
 		],
-		"Towns Sound V1.1L20": [
-			["Towns Sound V1.1L10", 2]
+		"Towns Sound V1.1 L20": [
+			["Towns Sound V1.1 L10", 2]
 		],
-		"Towns System Software V2.1L51": [
-			["Towns System Software V1.1L10", 2],
-			["Towns System Software V1.1L20", 2],
-			["Towns System Software V1.1L30", 2],
-			["Towns System Software V2.1L10", 2],
-			["Towns System Software V2.1L20", 2],
-			["Towns System Software V2.1L30", 2],
-			["Towns System Software V2.1L31", 2],
-			["Towns System Software V2.1L40", 2]
+		"Towns System Software V2.1 L51": [
+			["Towns System Software V1.1 L10", 2],
+			["Towns System Software V1.1 L20", 2],
+			["Towns System Software V1.1 L30", 2],
+			["Towns System Software V2.1 L10", 2],
+			["Towns System Software V2.1 L20", 2],
+			["Towns System Software V2.1 L30", 2],
+			["Towns System Software V2.1 L31", 2],
+			["Towns System Software V2.1 L40", 2]
 		],
-		"Video Koubou V1.4L10": [
-			["Video Koubou V1.3L10", 2]
+		"Video Koubou V1.4 L10": [
+			["Video Koubou V1.3 L10", 2]
 		]
 	}
 }

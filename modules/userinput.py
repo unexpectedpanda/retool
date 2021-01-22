@@ -30,15 +30,23 @@ def check_input():
 
     dev_options.add_argument('--log',
                         action='store_true',
-                        help='R|also export a list of what titles have been kept and\nremoved/set as clones in the output dat/s')
+                        help='R|also output lists of what titles have been kept,\nremoved, and set as clones')
+
+    dev_options.add_argument('--list',
+                        action='store_true',
+                        help=f'R|also output a list of just the 1G1R title names (See\n{Font.bold}user-config.yaml{Font.end} to add a prefix and/or suffix to each line)')
 
     dev_options.add_argument('--errors',
                         action='store_true',
-                        help=f'report clone list errors during processing')
+                        help='report clone list errors during processing')
+
+    dev_options.add_argument('--nofilters',
+                        action='store_true',
+                        help='R|don\'t load custom global and system filters from the\nuser-filters folder')
 
     dev_options.add_argument('-x',
                         action='store_true',
-                        help='export dat/s in legacy parent/clone format')
+                        help='output dat/s in legacy parent/clone format')
 
     filter_options.add_argument('-g',
                         action='store_true',
@@ -50,7 +58,12 @@ def check_input():
 
     filter_options.add_argument('-s',
                         action='store_true',
-                        help='R|supersets (special editions, game of the year editions, and\ncollections) replace standard editions\n\n')
+                        help='R|supersets (special editions, game of the year editions, and\ncollections) replace standard editions')
+
+    filter_options.add_argument('-v',
+                        action='store_true',
+                        help='R|titles ripped from modern platform rereleases, such as those found\nin Virtual Console, replace retro editions (ripped titles might not\nwork in emulators)\n\n')
+
 
     filter_options.add_argument('-a',
                         action='store_true',
@@ -86,7 +99,7 @@ def check_input():
 
     filter_options.add_argument('-k',
                         action='store_true',
-                        help='exclude BIOS titles (No-Intro only)')
+                        help='exclude BIOS titles')
 
     filter_options.add_argument('-m',
                         action='store_true',
@@ -130,15 +143,15 @@ def check_input():
     else:
         args.o = ''
 
-    # Set verbose and legacy to always be true if in dev environment
+    # Set errors and legacy to always be true if in dev environment
     if os.path.isfile('.dev') and args.q == False:
         setattr(args, 'x', True)
         setattr(args, 'errors', True)
 
     # Set -g options, and create user options string
     user_options = []
-    hidden_options = ['Input', 'g', 'l', 'o', 'q', 'errors', 'log']
-    non_g_options = ['a', 'i', 'm', 'n', 'p', 'u', 'x']
+    hidden_options = ['Input', 'g', 'l', 'o', 'q', 'errors', 'log', 'nofilters', 'list']
+    non_g_options = ['a', 'i', 'm', 'n', 'p', 'u', 'v', 'x']
 
     if args.g == True:
         for arg in vars(args):
@@ -171,17 +184,23 @@ def check_input():
             args.p,
             args.r,
             args.u,
+            args.v,
             args.s,
             args.l,
             args.x,
             user_options,
             args.errors,
-            args.log)
+            args.nofilters,
+            args.log,
+            args.list)
 
 
 def import_user_config(region_data, user_input):
+    """ Import user config data for use in creating the output dat """
+
+    # Import user-config.yaml settings
     try:
-        schema = Map({"language filter": Seq(Str())|Str(), "region order": Seq(Str())|Str(), "gui settings": Seq(Str()|MapPattern(Str(), Str()))|Str()})
+        schema = Map({"language filter": Seq(Str())|Str(), "region order": Seq(Str())|Str(), "list prefix": Seq(Str())|Str(), "list suffix": Seq(Str())|Str(), "gui settings": Seq(Str()|MapPattern(Str(), Str()))|Str()})
 
         with open('user-config.yaml', encoding='utf-8') as user_config_import:
             user_config = load(str(user_config_import.read()), schema)
@@ -197,12 +216,32 @@ def import_user_config(region_data, user_input):
     user_input.user_languages = []
 
     for key, value in region_data.languages_key.items():
-                for language in user_config.data['language filter']:
-                    if language == key:
-                        user_input.user_languages.append(value)
+        for language in user_config.data['language filter']:
+            if language == key:
+                user_input.user_languages.append(value)
 
     user_input.user_region_order = user_config.data['region order']
 
     user_input.user_config = user_config
 
     return user_input
+
+
+def import_user_filters(filename):
+    """ Import user filters for excluding/including specific strings """
+
+    try:
+        schema = Map({"exclude": Seq(Str())|Str(), "include": Seq(Str())|Str()})
+
+        with open(f'user-filters/{filename}.yaml', encoding='utf-8') as user_filter_import:
+            user_filters = load(str(user_filter_import.read()), schema)
+
+    except OSError as e:
+        print(f'\n{Font.error_bold}* Error: {Font.end}{str(e)}\n')
+        raise
+
+    except YAMLError as e:
+        print(f'\n{Font.error_bold}* YAML error: {Font.end}{str(e)}\n')
+        raise
+
+    return user_filters

@@ -21,7 +21,7 @@ def build_tags(TAGS):
 
                 if TAGS.ignore in tag_file:
                     tag_strings.ignore = tag_file[TAGS.ignore]
-                    for tag in tag_file[TAGS.demote_editions] + tag_file[TAGS.promote_editions]:
+                    for tag in tag_file[TAGS.demote_editions] + tag_file[TAGS.promote_editions] + tag_file[TAGS.modern_editions]:
                         if tag not in tag_file[TAGS.ignore]:
                             tag_strings.ignore.append(tag)
                 if TAGS.disc_rename in tag_file:
@@ -30,11 +30,14 @@ def build_tags(TAGS):
                     tag_strings.promote_editions = tag_file[TAGS.promote_editions]
                 if TAGS.demote_editions in tag_file:
                     tag_strings.demote_editions = tag_file[TAGS.demote_editions]
+                if TAGS.modern_editions in tag_file:
+                    tag_strings.modern_editions = tag_file[TAGS.modern_editions]
 
                 # Error handling
                 for section in [
                     TAGS.ignore, TAGS.disc_rename,
-                    TAGS.promote_editions, TAGS.demote_editions]:
+                    TAGS.promote_editions, TAGS.demote_editions,
+                    TAGS.modern_editions]:
                         if section not in tag_file:
                             printwrap(
                                 f'{Font.warning}* The {Font.bold}{section}{Font.warning}'
@@ -178,25 +181,35 @@ def build_clone_lists(input_dat):
         )
 
 
-def import_metadata(dat_name):
+def import_metadata(input_dat):
     """ Imports title metadata scraped from Redump """
 
-    if 'GameCube' in dat_name and (
-        'NKit GCZ' in dat_name or
-        'NKit ISO' in dat_name or
-        'NASOS' in dat_name
+    if 'GameCube' in input_dat.name and (
+        'NKit GCZ' in input_dat.name or
+        'NKit ISO' in input_dat.name or
+        'NASOS' in input_dat.name
         ):
         metadata_file = './metadata/Nintendo - GameCube.json'
-    elif 'Wii U' in dat_name and 'WUX' in dat_name:
+    elif 'Wii U' in input_dat.name and 'WUX' in input_dat.name:
         metadata_file = './metadata/Nintendo - Wii U.json'
-    elif 'Wii' in dat_name and (
-        'NKit GCZ' in dat_name or
-        'NKit ISO' in dat_name or
-        'NASOs' in dat_name
+    elif 'Wii' in input_dat.name and (
+        'NKit GCZ' in input_dat.name or
+        'NKit ISO' in input_dat.name or
+        'NASOs' in input_dat.name
         ):
         metadata_file = './metadata/Nintendo - Wii.json'
+    elif (
+        'PlayStation Portable' in input_dat.name
+        and '(PSN)' not in input_dat.name
+        and '(PSX2PSP)' not in input_dat.name
+        and '(UMD Music)' not in input_dat.name
+        and '(UMD Video)' not in input_dat.name):
+            if 'no-intro' in input_dat.url:
+                metadata_file = './metadata/Sony - PlayStation Portable (No-Intro).json'
+            elif 'redump' in input_dat.url:
+                metadata_file = './metadata/Sony - PlayStation Portable (Redump).json'
     else:
-        metadata_file = './metadata/' + dat_name + '.json'
+        metadata_file = './metadata/' + input_dat.name + '.json'
 
     if os.path.exists(metadata_file) == True and os.path.isfile(metadata_file) == True:
         try:
