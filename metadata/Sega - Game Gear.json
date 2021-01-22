@@ -1,4 +1,7 @@
 {
+	"[BIOS] Sega Game Gear (USA) (Majesco)": {
+		"languages": "En"
+	},
 	"5 in One FunPak (USA)": {
 		"languages": "En"
 	},
@@ -143,10 +146,10 @@
 	"Barbie Super Model (USA) (Proto)": {
 		"languages": "En"
 	},
-	"Bare Knuckle II ~ Streets of Rage 2 ~ Streets of Rage II (World)": {
+	"Bare Knuckle ~ Streets of Rage (World)": {
 		"languages": "En"
 	},
-	"Bare Knuckle ~ Streets of Rage (World)": {
+	"Bare Knuckle II ~ Streets of Rage 2 ~ Streets of Rage II (World)": {
 		"languages": "En"
 	},
 	"Batman Forever (World)": {
@@ -2315,6 +2318,12 @@
 	"X-Men - Mojo World (USA) (Beta) (1996-06-29)": {
 		"languages": "En"
 	},
+	"X-Terminator (Europe) (v2.1) (Program) (Unl)": {
+		"languages": "En"
+	},
+	"X-Terminator (Japan) (v2.1) (Program) (Unl)": {
+		"languages": "Ja"
+	},
 	"Yogi Bear in Yogi Bear's Goldrush (Europe) (Proto)": {
 		"languages": "En"
 	},
@@ -2340,9 +2349,6 @@
 		"languages": "En"
 	},
 	"Zoop (USA) (Beta)": {
-		"languages": "En"
-	},
-	"[BIOS] Sega Game Gear (USA) (Majesco)": {
 		"languages": "En"
 	}
 }

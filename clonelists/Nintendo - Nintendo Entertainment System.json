@@ -3,7 +3,7 @@
 		"name": [
 			"Nintendo - Nintendo Entertainment System"
 		],
-		"last updated": "5 November 2020"
+		"last updated": "30 December 2020"
     },
 
     "overrides": {
@@ -92,9 +92,6 @@
         "Athletic World": [
             ["Family Trainer 1 - Athletic World", 1]
         ],
-        "Babel no Tou (Namcot Collection)": [
-            ["Babel no Tou", 2]
-        ],
         "Bad Dudes": [
             ["Bad Dudes vs. Dragon Ninja", 1],
             ["Dragon Ninja", 1]
@@ -141,9 +138,6 @@
         "Batman - The Video Game": [
             ["Batman", 1]
         ],
-        "BattleCity (Namcot Collection, Namco Museum Archives Vol 2)": [
-            ["BattleCity", 2]
-        ],
         "Battle of Olympus, The": [
             ["Olympus no Tatakai", 1]
         ],
@@ -151,7 +145,7 @@
             ["Big Nose and the Witchdoctor", 2]
         ],
         "Bingo 75": [
-            ["BinGuo 75", 1]
+            ["BinGuo 75", 2]
         ],
         "Bionic Commando": [
             ["Hitler no Fukkatsu - Top Secret", 1]
@@ -209,18 +203,11 @@
         "Castlequest": [
             ["Castle Excellent", 1]
         ],
-        "Castlevania (Castlevania Anniversary Collection)": [
-            ["Akumajou Dracula (Castlevania Anniversary Collection)", 1],
-            ["Akumajou Dracula", 2],
-            ["Castlevania", 2]
+        "Castlevania": [
+            ["Akumajou Dracula", 1]
         ],
-        "Castlevania II - Simon's Quest (Castlevania Anniversary Collection)": [
-            ["Castlevania II - Simon's Quest", 2]
-        ],
-        "Castlevania III - Dracula's Curse (Castlevania Anniversary Collection)": [
-            ["Akumajou Densetsu (Castlevania Anniversary Collection)", 1],
-            ["Akumajou Densetsu", 2],
-            ["Castlevania III - Dracula's Curse", 1]
+        "Castlevania III - Dracula's Curse": [
+            ["Akumajou Densetsu", 1]
         ],
         "Challenge of the Dragon (Color Dreams)": [
             ["Black Dragon", 1]
@@ -271,8 +258,7 @@
         "Crayon Shin-chan - Ora to Poi Poi": [
             ["Datach - Crayon Shin-chan - Ora to Poi Poi", 2]
         ],
-        "Crystalis (SNK 40th Anniversary Collection)": [
-            ["Crystalis", 1],
+        "Crystalis": [
             ["God Slayer - Haruka Tenkuu no Sonata", 1]
         ],
         "Dance Aerobics": [
@@ -299,18 +285,11 @@
         "Destiny of an Emperor": [
             ["Tenchi o Kurau", 1]
         ],
-        "Dig Dug (Namcot Collection, Namco Museum Archives Vol 1)": [
-            ["Dig Dug", 1]
-        ],
-        "Dig Dug II (Namco Museum Archives Vol 2)": [
-            ["Dig Dug II - Trouble in Paradise", 1],
-            ["Dig Dug II", 1]
+        "Dig Dug II": [
+            ["Dig Dug II - Trouble in Paradise", 1]
         ],
         "Digger - The Legend of the Lost City": [
             ["Digger T. Rock - The Legend of the Lost City", 1]
-        ],
-        "Digital Devil Story - Megami Tensei (Namcot Collection)": [
-            ["Digital Devil Story - Megami Tensei", 1]
         ],
         "Dong Dong Nao II - Guo Zhong Ying Wen (Yi)": [
             ["English, Pyramid", 1]
@@ -343,20 +322,12 @@
             ["Virus", 4],
             ["Virus (1989-xx-xx)", 5]
         ],
-        "Dragon Buster (Namcot Collection, Namco Museum Archives Vol 1)": [
-            ["Dragon Buster", 1]
-        ],
-        "Dragon Buster II - Yami no Fuuin (Namco Museum Archives Vol 2)": [
-            ["Dragon Buster II - Yami no Fuuin", 1]
-        ],
         "Dragon Power": [
             ["Dragon Ball - Le Secret du Dragon", 1],
             ["Dragon Ball - Shen Long no Nazo", 1]
         ],
-        "Dragon Spirit - The New Legend (Namco Museum Archives Vol 1)": [
-            ["Dragon Spirit - Aratanaru Densetsu (Namcot Collection)", 1],
-            ["Dragon Spirit - Aratanaru Densetsu", 2],
-            ["Dragon Spirit - The New Legend", 2]
+        "Dragon Spirit - The New Legend": [
+            ["Dragon Spirit - Aratanaru Densetsu", 1]
         ],
         "Dragon Warrior": [
             ["Dragon Quest", 1],
@@ -374,9 +345,6 @@
         "Dreamworld Pogie (2017-xx-xx)": [
             ["Dreamworld Pogie (2016-xx-xx)", 2],
             ["Dreamworld Pogie", 3]
-        ],
-        "Druaga no Tou (Namcot Collection, Namco Museum Archives Vol 1)": [
-            ["Druaga no Tou", 1]
         ],
         "Duck Maze": [
             ["Duck", 1]
@@ -398,12 +366,6 @@
         ],
         "Family BASIC": [
             ["Playbox BASIC", 2]
-        ],
-        "Family Circuit (Namcot Collection)": [
-            ["Family Circuit", 2]
-        ],
-        "Family Jockey (Namcot Collection)": [
-            ["Family Jockey", 2]
         ],
         "Fantastic Adventures of Dizzy, The": [
             ["Fantastic Adventures of Dizzy, The (Aladdin Compact Cartridge)", 2]
@@ -443,12 +405,8 @@
             ["Incantation", 2],
             ["Papillon Gals", 1]
         ],
-        "Galaga (Namcot Collection, Namco Museum Archives Vol 2)": [
-            ["Galaga - Demons of Death", 2],
+        "Galaga - Demons of Death": [
             ["Galaga", 2]
-        ],
-        "Galaxian (Namcot Collection, Namco Museum Archives Vol 1)": [
-            ["Galaxian", 1]
         ],
         "Game Master Kid (RAM)": [
             ["Game Master Kid", 2]
@@ -478,9 +436,6 @@
         "Goal! Two": [
             ["Eric Cantona Football Challenge - Goal! 2", 1],
             ["Goal!!", 1]
-        ],
-        "God Slayer - Haruka Tenkuu no Sonata (SNK 40th Anniversary Collection)": [
-            ["God Slayer - Haruka Tenkuu no Sonata", 1]
         ],
         "Godzilla - Monster of Monsters!": [
             ["Gojira", 1]
@@ -528,8 +483,7 @@
             ["Indiana Jones and the Last Crusade", 1]
         ],
         "Iron Tank - The Invasion of Normandy": [
-            ["Great Tank (SNK 40th Anniversary Collection)", 1],
-            ["Great Tank", 2]
+            ["Great Tank", 1]
         ],
         "Isolated Warrior": [
             ["Max Warrior - Wakusei Kaigenrei", 1]
@@ -549,21 +503,14 @@
         "Kabuki - Quantum Fighter": [
             ["Jigoku Gokuraku Maru", 1]
         ],
-        "Kaijuu Monogatari (Namcot Collection)": [
-            ["Kaijuu Monogatari", 2]
-        ],
         "Kazama Jun to Asama Yuuko no AV Dragon Mahjong": [
             ["Mahjong Block", 1]
-        ],
-        "Ki no Bouken - The Quest of Ki (Namcot Collection)": [
-            ["Ki no Bouken - The Quest of Ki", 2]
         ],
         "Kickle Cubicle": [
             ["Meikyuu-jima", 1]
         ],
-        "Kid Dracula (Castlevania Anniversary Collection)": [
-            ["Akumajou Special - Boku Dracula-kun (Castlevania Anniversary Collection)", 1],
-            ["Akumajou Special - Boku Dracula-kun", 2]
+        "Kid Dracula": [
+            ["Akumajou Special - Boku Dracula-kun", 1]
         ],
         "Kid Klown in Night Mayor World": [
             ["Mickey Mouse III - Yume Fuusen", 1],
@@ -577,9 +524,6 @@
         ],
         "Kidou Senshi Z Gundam - Hot Scramble (Final Version)": [
             ["Kidou Senshi Z Gundam - Hot Scramble", 2]
-        ],
-        "King of Kings (Namcot Collection)": [
-            ["King of Kings", 2]
         ],
         "Kirby's Adventure": [
             ["Hoshi no Kirby - Yume no Izumi no Monogatari", 1]
@@ -605,9 +549,8 @@
         "Lee Trevino's Fighting Golf": [
             ["Fighting Golf", 1]
         ],
-        "Legacy of the Wizard (Namco Museum Archives Vol 2)": [
-            ["Dragon Slayer IV - Drasle Family", 1],
-            ["Legacy of the Wizard", 2]
+        "Legacy of the Wizard": [
+            ["Dragon Slayer IV - Drasle Family", 1]
         ],
         "Legend of Kage, The": [
             ["Kage no Densetsu", 1]
@@ -665,12 +608,6 @@
         "Makai Island": [
             ["Higemaru - Makai-jima - Nanatsu no Shima Daibouken", 1]
         ],
-        "Mappy (Namcot Collection, Namco Museum Archives Vol 1)": [
-            ["Mappy", 2]
-        ],
-        "Mappy-Land (Namco Museum Archives Vol 2)": [
-            ["Mappy-Land", 2]
-        ],
         "Mario Bros.": [
             ["Mario Bros. (PAL-MC-0, Classic Series)", 1],
             ["Mario Bros. (PAL-MA-0)", 2]
@@ -682,34 +619,26 @@
         "Maxi 15": [
             ["Maxi-15 Pack", 1]
         ],
-        "Mega Man (Mega Man Legacy Collection)": [
-            ["Mega Man", 1],
+        "Mega Man": [
             ["Rockman", 1]
         ],
-        "Mega Man 2 (Mega Man Legacy Collection)": [
-            ["Mega Man 2", 1],
+        "Mega Man 2": [
             ["Rockman 2 - Dr. Wily no Nazo", 1]
         ],
-        "Mega Man 3 (Mega Man Legacy Collection)": [
-            ["Mega Man 3", 1],
+        "Mega Man 3": [
             ["Rockman 3 - Dr. Wily no Saigo!", 1]
         ],
-        "Mega Man 4 (Mega Man Legacy Collection)": [
-            ["Mega Man 4", 1],
+        "Mega Man 4": [
             ["Rockman 4 - Aratanaru Yabou!!", 1]
         ],
-        "Mega Man 5 (Mega Man Legacy Collection)": [
-            ["Mega Man 5", 1],
+        "Mega Man 5": [
             ["Rockman 5 - Blues no Wana!", 1]
         ],
-        "Mega Man 6 (Mega Man Legacy Collection)": [
-            ["Mega Man 6", 1],
+        "Mega Man 6": [
             ["Rockman 6 - Shijou Saidai no Tatakai!!", 1]
         ],
-        "Mendel Palace (Namco Museum Archives Vol 2)": [
-            ["Quinty (Namcot Collection)", 1],
-            ["Quinty", 2],
-            ["Mendel Palace", 2]
+        "Mendel Palace": [
+            ["Quinty", 1]
         ],
         "Mermaids of Atlantis - The Riddle of the Magic Bubble": [
             ["Magic Bubble", 1],
@@ -725,9 +654,6 @@
         ],
         "MetalMech - Man & Machine": [
             ["Metal Flame - Psy Buster", 1]
-        ],
-        "Metro-Cross (Namcot Collection)": [
-            ["Metro-Cross", 2]
         ],
         "Michael Andretti's World GP": [
             ["Nakajima Satoru - F-1 Hero", 1]
@@ -759,9 +685,6 @@
         ],
         "Mr. Gimmick": [
             ["Gimmick!", 1]
-        ],
-        "Namco Classic II (Namcot Collection)": [
-            ["Namco Classic II", 2]
         ],
         "NES Open Tournament Golf": [
             ["Mario Open Golf", 1]
@@ -805,16 +728,9 @@
         "P.O.W. - Prisoners of War": [
             ["Datsugoku", 1]
         ],
-        "Pac-Land (Namcot Collection, Namco Museum Archives Vol 2)": [
-            ["Pac-Land", 2]
-        ],
-        "Pac-Man (Namcot Collection, Namco Museum Archives Vol 1)": [
+        "Pac-Man (Namco)": [
             ["Pac-Man", 1],
-            ["Pac-Man (Namco)", 2],
-            ["Pac-Man (Tengen)", 3]
-        ],
-        "Pac-Man Championship Edition (Namco Museum Archives Vol 1)": [
-            ["Pac-Man Championship Edition (Namcot Collection)", 1]
+            ["Pac-Man (Tengen)", 2]
         ],
         "Panic Restaurant": [
             ["Wanpaku Kokkun no Gourmet World", 1]
@@ -899,8 +815,7 @@
             ["Bomber King", 1]
         ],
         "Rock 'n' Ball": [
-            ["Family Pinball (Namcot Collection)", 1],
-            ["Family Pinball", 2]
+            ["Family Pinball", 1]
         ],
         "Rockin' Kats": [
             ["New York Nyankies", 1]
@@ -908,9 +823,6 @@
         "Rodland": [
             ["Yousei Monogatari - Rod Land", 1],
             ["Rodland featuring Rit and Tam", 2]
-        ],
-        "Rolling Thunder (Namcot Collection, Namco Museum Archives Vol 2)": [
-            ["Rolling Thunder", 2]
         ],
         "Romance of the Three Kingdoms": [
             ["Sangokushi", 1]
@@ -947,9 +859,6 @@
         "Silent Assault": [
             ["Tu Ji", 1]
         ],
-        "Sky Kid (Namcot Collection, Namco Museum Archives Vol 1)": [
-            ["Sky Kid", 2]
-        ],
         "Squashed": [
             ["Ninja Jajamaru - Ginga Daisakusen", 1]
         ],
@@ -965,14 +874,8 @@
         "Solstice - The Quest for the Staff of Demnos": [
             ["Solstice", 1]
         ],
-        "Splatterhouse - Wanpaku Graffiti (Namcot Collection, Namco Museum Archives Vol 1)": [
-            ["Splatterhouse - Wanpaku Graffiti", 1]
-        ],
         "Spot - The Video Game": [
             ["Spot", 1]
-        ],
-        "Star Luster (Namcot Collection)": [
-            ["Star Luster", 2]
         ],
         "Star Voyager": [
             ["Cosmo Genesis", 1]
@@ -1006,7 +909,7 @@
             ["Nekketsu Koukou Dodgeball-bu", 1]
         ],
         "Super Mario Bros.": [
-            ["Super Mario Bros. - 25th Anniversary", 0]
+            ["Super Mario Bros. - 25th Anniversary", 1]
         ],
         "Super Mario Bros. 2": [
             ["Super Mario USA", 2]
@@ -1022,9 +925,6 @@
         ],
         "Super Team Games": [
             ["Family Trainer 7 - Daiundoukai", 1]
-        ],
-        "Super Xevious - Gump no Nazo (Namco Museum Archives Vol 2)": [
-            ["Super Xevious - Gump no Nazo", 2]
         ],
         "Superman (Kemco)": [
             ["Superman", 1]
@@ -1064,9 +964,6 @@
         ],
         "Teenage Mutant Ninja Turtles III - The Manhattan Project": [
             ["Teenage Mutant Ninja Turtles 2 - The Manhattan Project", 1]
-        ],
-        "Tenkaichi Bushi - Keru Naguuru (Namcot Collection)": [
-            ["Tenkaichi Bushi - Keru Naguuru", 2]
         ],
         "Terminator 2 - Judgment Day": [
             ["Terminator 2", 1]
@@ -1155,9 +1052,6 @@
         "Uninvited": [
             ["Akuma no Shoutaijou", 1]
         ],
-        "Valkyrie no Bouken - Toki no Kagi Densetsu (Namcot Collection)": [
-            ["Valkyrie no Bouken - Toki no Kagi Densetsu", 2]
-        ],
         "Vegas Dream": [
             ["Viva! Las Vegas", 1]
         ],
@@ -1170,9 +1064,6 @@
         "Wacky Races": [
             ["Chiki Chiki Machine Mou Race", 1]
         ],
-        "Wagyan Land (Namcot Collection)": [
-            ["Wagyan Land", 2]
-        ],
         "Wai Xing Zhan Shi": [
             ["Xing He Zhan Shi", 2],
             ["Xing Ji Zheng Ba", 3],
@@ -1183,9 +1074,6 @@
         ],
         "Wario's Woods": [
             ["Wario no Mori", 1]
-        ],
-        "Warpman (Namcot Collection)": [
-            ["Warpman", 2]
         ],
         "WCW World Championship Wrestling": [
             ["Superstar Pro Wrestling", 1]
@@ -1219,9 +1107,8 @@
         "Wurm - Journey to the Center of the Earth!": [
             ["Chitei Senkuu Vazolder", 1]
         ],
-        "Xevious (Namcot Collection, Namco Museum Archives Vol 1)": [
-            ["Xevious", 1],
-            ["Xevious - The Avenger", 2]
+        "Xevious - The Avenger": [
+            ["Xevious", 2]
         ],
         "Xexyz": [
             ["Kame no Ongaeshi - Urashima Densetsu", 1]
@@ -1242,9 +1129,6 @@
         ],
         "Yoshi's Cookie": [
             ["Yoshi no Cookie", 1]
-        ],
-        "Youkai Douchuuki (Namcot Collection)": [
-            ["Youkai Douchuuki", 2]
         ],
         "Zelda II - The Adventure of Link": [
             ["Zelda II - The Adventure of Link (Collector's Edition)", 2]

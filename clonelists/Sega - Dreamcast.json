@@ -3,7 +3,7 @@
 		"name": [
 			"Sega - Dreamcast"
 		],
-		"last updated": "19 September 2020"
+		"last updated": "21 January 2021"
 	},
 
 	"renames": {
@@ -127,9 +127,10 @@
 			["Jojo no Kimyou na Bouken - Mirai e no Isan for Matching Service", 1],
 			["Jojo no Kimyou na Bouken - Mirai e no Isan", 2]
 		],
-		"JRA PAT for Dreamcast V50L10": [
-			["JRA PAT for Dreamcast V40L11", 2],
-			["JRA PAT for Dreamcast V40L10", 3]
+		"JRA PAT for Dreamcast V50 L10": [
+			["JRA PAT for Dreamcast V40 L12", 2],
+			["JRA PAT for Dreamcast V40 L11", 3],
+			["JRA PAT for Dreamcast V40 L10", 4]
 		],
 		"King of Fighters, The - Evolution": [
 			["King of Fighters '99, The - Evolution", 1]

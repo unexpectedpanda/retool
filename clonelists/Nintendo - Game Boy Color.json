@@ -3,7 +3,7 @@
         "name": [
 			"Nintendo - Game Boy Color"
 		],
-        "last updated": "18 November 2020"
+        "last updated": "9 January 2021"
     },
 
     "overrides": {
@@ -152,7 +152,7 @@
         ],
         "Golden Goal": [
             ["Pro Foot", 1],
-            ["Three Lions", 1]
+            ["Three Lions", 2]
         ],
         "Grinch, The": [
             ["Grinch", 1]
@@ -419,8 +419,8 @@
         "Space Marauder": [
             ["Burai Senshi Color", 1]
         ],
-        "Star Heritage (SRAM Version)": [
-            ["Star Heritage (Password Version)", 1]
+        "Star Heritage (Password Version)": [
+            ["Star Heritage (SRAM Version)", 2]
         ],
         "Survival Kids": [
             ["Stranded Kids", 1],

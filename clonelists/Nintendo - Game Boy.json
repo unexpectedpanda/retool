@@ -3,7 +3,7 @@
         "name": [
 			"Nintendo - Game Boy"
 		],
-        "last updated": "5 November 2020"
+        "last updated": "5 January 2021"
     },
 
     "overrides": {
@@ -127,15 +127,12 @@
         "Castle Quest": [
             ["Triumph", 2]
         ],
-        "Castlevania - The Adventure (Castlevania Anniversary Collection)": [
-            ["Dracula Densetsu (Castlevania Anniversary Collection)", 1],
-            ["Castlevania - The Adventure", 2],
-            ["Dracula Densetsu", 2]
+        "Castlevania - The Adventure": [
+            ["Dracula Densetsu", 1]
         ],
-        "Castlevania II - Belmont's Revenge (Castlevania Anniversary Collection)": [
-            ["Dracula Densetsu II (Castlevania Anniversary Collection)", 1],
-            ["Castlevania II - Belmont's Revenge", 2],
-            ["Dracula Densetsu II", 2]
+        "Castlevania II - Belmont's Revenge": [
+            ["Castlevania II - Belmont's Revenge", 1],
+            ["Dracula Densetsu II", 1]
         ],
         "Castlevania Legends": [
             ["Akumajou Dracula - Shikkoku Taru Zensoukyoku - Dark Night Prelude", 1]
@@ -207,8 +204,6 @@
             ["Hiryuu no Ken Gaiden", 1]
         ],
         "Final Fantasy Adventure": [
-            ["Final Fantasy Adventure (Collection of Mana)", 0],
-            ["Mystic Quest (Collection of Mana)", 0],
             ["Mystic Quest", 1],
             ["Seiken Densetsu - Final Fantasy Gaiden", 1]
         ],

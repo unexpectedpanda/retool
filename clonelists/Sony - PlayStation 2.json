@@ -3,7 +3,7 @@
         "name": [
 			["Sony - PlayStation 2", 1]
 		],
-        "last updated": "13 December 2020"
+        "last updated": "21 January 2021"
     },
 
     "compilations": [
@@ -73,6 +73,10 @@
 		],
 		"Aces of War": [
 			["Reishiki Kanjou Sentouki", 1]
+		],
+		"Action Replay 2 Version 2.35 (Disc 1)": [
+			["Action Replay 2 Version 2.33 (Disc 1)", 2],
+			["Action Replay 2 Version 2.30 (Disc 1)", 3]
 		],
 		"Adventures of Cookie & Cream, The": [
 			["Kuri Kuri Mix", 1]
@@ -458,7 +462,7 @@
 			["DekaVoice", 2]
 		],
 		"Demo Disc Version 2.2 (Demo)": [
-			["Demo Disc Version 2.1 (Demo)", 1]
+			["Demo Disc Version 2.1 (Demo)", 2]
 		],
 		"Demolition Girl": [
 			["Simple 2000 Series Vol. 50 - The Daibijin", 1]
@@ -692,6 +696,7 @@
 		"Dynasty Warriors 3": [
 			["Jin Samguk Mussang 2", 1],
 			["Shin Sangoku Musou 2 (Shin Sangoku Musou Series Collection Joukan)", 1],
+			["Zhen Sanguo Wushuang 2", 1],
 			["Zhen San Guo Wu Shuang 2", 1],
 			["Shin Sangoku Musou 2", 2]
 		],
@@ -1007,6 +1012,9 @@
 		"Gallop Racer 2006": [
 			["Gallop Racer 8 - Live Horse Racing", 1]
 		],
+		"GameShark 2 V2 - Video Game Enhancer Version 2.21 (Disc 1)": [
+			["GameShark 2 V2 - Video Game Enhancer", 2]
+		],
 		"Generation of Chaos III - Toki no Fuuin (Eikyuu Hozon Box)": [
 			["Generation of Chaos III - Toki no Fuuin", 2]
 		],
@@ -1054,11 +1062,11 @@
 		],
 		"Godfather, The - The Game (Limited Edition)": [
 			["Godfather, The", 1],
-			["Godfather, The - The Game", 1],
 			["Padrino, El", 1],
 			["Padrino, Il", 1],
 			["Parrain, Le", 1],
-			["Pate, Der", 1]
+			["Pate, Der", 1],
+			["Godfather, The - The Game", 2]
 		],
 		"Godzilla - Save the Earth": [
 			["Godzilla - Kaijuu Dairantou - Chikyuu Saishuu Kessen", 1]
@@ -1136,7 +1144,7 @@
 			["Gungrave OD", 1]
 		],
 		"Hanabi Hyakkei (Tokutenban)": [
-			["Hanabi Hyakkei", 1]
+			["Hanabi Hyakkei", 2]
 		],
 		"Hanjuku Hero tai 3D": [
 			["Bansuk Yeongung vs 3D", 1]
@@ -1496,7 +1504,7 @@
 		],
 		"MAGIX Music Maker (Deluxe Edition)": [
 			["MAGIX Music Maker", 1],
-			["MAGIX Music Maker - Rocks Your Console", 1]
+			["MAGIX Music Maker - Rocks Your Console", 2]
 		],
 		"Magna Carta - Tears of Blood": [
 			["Magna Carta", 1],
@@ -1722,9 +1730,9 @@
 			["Neo Angelique", 2]
 		],
 		"Network Adaptor Start-Up Disc Version 2.50": [
-			["Network Adaptor Start-Up Disc", 1],
-			["Network Adaptor Start-Up Disc v2.0", 1],
-			["Network Adaptor Start-Up Disc v2.0 (Rev)", 1]
+			["Network Adaptor Start-Up Disc v2.0 (Rev)", 2],
+			["Network Adaptor Start-Up Disc v2.0", 3],
+			["Network Adaptor Start-Up Disc", 4]
 		],
 		"Never 7 - The End of Infinity": [
 			["SuperLite 2000 Vol. 23 - Never 7 - The End of Infinity", 2]
@@ -1838,11 +1846,11 @@
 			["Onimusha Buraiden", 1]
 		],
 		"Online Start-Up Disc 4.0": [
-			["Online Start-Up Disc v1.0", 1],
-			["Online Start-Up Disc v3.0", 1]
+			["Online Start-Up Disc v3.0", 2],
+			["Online Start-Up Disc v1.0", 3]
 		],
 		"Online Start-Up Disc 4.0 - Broadband Only": [
-			["Online Start-Up Disc v3.5 - Broadband Only", 1]
+			["Online Start-Up Disc v3.5 - Broadband Only", 2]
 		],
 		"Onmyou Taisenki - Byakko Enbu (EyeToy Camera Doukonban)": [
 			["Onmyou Taisenki - Byakko Enbu", 2]
@@ -2453,8 +2461,8 @@
 		"Sword of the Samurai": [
 			["Kengou 2", 1]
 		],
-		"Taisen Hot Gimmick - Cosplay Jan (Special Ban)": [
-			["Taisen Hot Gimmick - Cosplay Jan", 2]
+		"Taisen Hot Gimmick - Cosplay-jong (Special-ban)": [
+			["Taisen Hot Gimmick - Cosplay-jong", 2]
 		],
 		"Taito Memories - Gekan (Eternal Hits)": [
 			["Taito Memories - Gekan (Taito Best)", 2]
@@ -2476,7 +2484,7 @@
 			["Simple 2000 Series Vol. 32 - The Sensha", 1]
 		],
 		"Taxi Rider": [
-			["Simple 2000 Series Vol. 48 - The Taxi - Untenshu ha Kimi da", 1]
+			["Simple 2000 Series Vol. 48 - The Taxi - Untenshu wa Kimi da", 1]
 		],
 		"Tear Ring Saga Series - Berwick Saga - Lazberia Chronicle Chapter 174 (Premium Box)": [
 			["Tear Ring Saga Series - Berwick Saga - Lazberia Chronicle Chapter 174", 2]

@@ -3,7 +3,17 @@
 		"name": [
 			"NEC - PC Engine CD & TurboGrafx CD"
 		],
-		"last updated": "3 June 2020"
+		"last updated": "20 January 2021"
+	},
+
+	"conditional_overrides": {
+		"Gate of Thunder (Japan) (FACT, FADT)": {
+			"new_group": "Gate of Thunder (Japan) (FACT, FADT)",
+			"condition": {
+				"region": ["Japan"],
+				"higher_than": ["USA"]
+			}
+		}
 	},
 
 	"renames": {
@@ -30,6 +40,9 @@
 		],
 		"F1 Circus Special - Pole to Win (FAAT, FACT)": [
 			["F1 Circus Special - Pole to Win (FABT)", 2]
+		],
+		"Gate of Thunder + Bonk's Adventure + Bonk's Revenge": [
+			["Gate of Thunder (FACT, FADT)", 1]
 		],
 		"Ginga Ojousama Densetsu Yuna (FAFT)": [
 			["Ginga Ojousama Densetsu Yuna (FABT, FACT)", 2]
@@ -77,11 +90,17 @@
 		"Sherlock Holmes - Consulting Detective - Volume 2": [
 			["Sherlock Holmes - Consulting Detective Vol. II", 1]
 		],
+		"Shape Shifter": [
+			["Makai Eiyuuden - Shape Shifter", 1]
+		],
 		"Splash Lake": [
 			["Splash Lake - Ostrich Daibouken", 1]
 		],
 		"Super Air Zonk - Rockabilly-Paradise": [
 			["CD Denjin - Rockabilly Tengoku", 1]
+		],
+		"SydMead's TerraForming": [
+			["TerraForming", 1]
 		],
 		"Tokimeki Memorial": [
 			["Tokimeki Memorial (FABT)", 1]

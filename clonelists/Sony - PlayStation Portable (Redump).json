@@ -3,7 +3,7 @@
 		"name": [
 			"Sony - PlayStation Portable (Redump)"
 		],
-		"last updated": "29 November 2020"
+		"last updated": "21 January 2021"
 	},
 
 	"compilations": [
@@ -31,8 +31,8 @@
 			["Armored Core - Formula Front International", -1],
 			["Armored Core - Formula Front", 1]
 		],
-		"Arthur and the Invisibles": [
-			["Arthur and the Minimoys", 1]
+		"Artlist Collection - The Dog Happy Life - Shiawase Wanko Seikatsu Dai-1-dan": [
+			["Artlist Collection - The Dog Happy Life - Shiawase Wanko Seikatsu Dai-1-dan - McDonald's Ver.", 2]
 		],
 		"Bomberman Land": [
 			["Bomberman Land Portable", 1]
@@ -283,6 +283,9 @@
 		"Metal Slug Anthology": [
 			["Metal Slug Complete", 1]
 		],
+		"Midnight Club - L.A. Remix": [
+			["Midnight Club - L.A. Remix (Rockstar Classics)", 1]
+		],
 		"Monster Hunter Freedom": [
 			["Monster Hunter Portable", 1]
 		],
@@ -386,7 +389,7 @@
 			["SBK 08 - Superbike World Championship", 1]
 		],
 		"SCEJ PSP Browser (UTST-99281)": [
-			["SCEJ PSP Browser (UTST-99261)", 1]
+			["SCEJ PSP Browser (UTST-99261)", 2]
 		],
 		"Sega Genesis Collection": [
 			["Sega Mega Drive Collection", 1]
@@ -406,8 +409,8 @@
 			["Simpsons, Los - El Videojuego", 1]
 		],
 		"SOCOM - U.S. Navy SEALs - Fireteam Bravo 2 (Demo) (UCUS-98692)": [
-			["SOCOM - U.S. Navy SEALs - Fireteam Bravo 2 (Demo) (UCUS-98677)", 1],
-			["SOCOM - U.S. Navy SEALs - Fireteam Bravo 2 (Demo) (UCUS-98691)", 1]
+			["SOCOM - U.S. Navy SEALs - Fireteam Bravo 2 (Demo) (UCUS-98691)", 2],
+			["SOCOM - U.S. Navy SEALs - Fireteam Bravo 2 (Demo) (UCUS-98677)", 3]
 		],
 		"Spectral Souls - Resurrection of the Ethereal Empires": [
 			["Shinki Gensou - SSII Unlimited Side", 1],
@@ -421,6 +424,9 @@
 		],
 		"Stealth feat. WipEout Pure Stealth Edition (Demo)": [
 			["Furtif + WipEout Pure (Demo)", 1]
+		],
+		"Storm Lover (Shokai Seisan-ban)":[
+			["Storm Lover", 2]
 		],
 		"Street Fighter Alpha 3 Max": [
 			["Street Fighter Zero 3 Double Upper", 1]

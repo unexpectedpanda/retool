@@ -173,7 +173,7 @@
 	"Akira (USA) (Proto)": {
 		"languages": "En"
 	},
-	"Al Michaels Announces HardBall III (USA, Europe)": {
+	"Al Michaels Announces HardBall III (USA, Europe) (Unl)": {
 		"languages": "En"
 	},
 	"Aladdin (Europe)": {
@@ -185,7 +185,7 @@
 	"Aladdin (USA)": {
 		"languages": "En"
 	},
-	"Aladdin (USA) (Beta) (August, 1993)": {
+	"Aladdin (USA) (Beta) (July, 1993)": {
 		"languages": "En"
 	},
 	"Aladdin (USA) (Beta) (1993-06-27) (Chicago C.E.S. Demo)": {
@@ -383,10 +383,10 @@
 	"Awesome Possum (Japan) (En)": {
 		"languages": "En"
 	},
-	"Awesome Possum Kicks Dr Machino's Butt! (USA) (Beta 2)": {
+	"Awesome Possum Kicks Dr Machino's Butt! (USA) (Beta 1)": {
 		"languages": "En"
 	},
-	"Awesome Possum Kicks Dr Machino's Butt! (USA) (Beta 1) [b]": {
+	"Awesome Possum Kicks Dr Machino's Butt! (USA) (Beta 2)": {
 		"languages": "En"
 	},
 	"Awesome Possum... ...Kicks Dr. Machino's Butt (USA)": {
@@ -467,7 +467,7 @@
 	"Bare Knuckle - Ikari no Tekken ~ Streets of Rage (World) (Rev A)": {
 		"languages": "En"
 	},
-	"Bare Knuckle II (Unknown) (Beta)": {
+	"Bare Knuckle II (Japan) (Beta)": {
 		"languages": "Ja"
 	},
 	"Bare Knuckle II - Shitou e no Requiem ~ Streets of Rage II (Japan, Europe)": {
@@ -923,7 +923,7 @@
 	"Castlevania - The New Generation (Europe)": {
 		"languages": "En"
 	},
-	"Castlevania - The New Generation (Europe) (Beta) [b]": {
+	"Castlevania - The New Generation (Europe) (Beta)": {
 		"languages": "En"
 	},
 	"CDX Pro (World) (v1.70) (Program) (Unl) [b]": {
@@ -1169,7 +1169,7 @@
 	"Comix Zone (USA) (Beta) (1995-04-04)": {
 		"languages": "En"
 	},
-	"Comix Zone (USA) (Sega Smash Pack)": {
+	"Comix Zone (USA) (Sega Smash Pack 2)": {
 		"languages": "En"
 	},
 	"Comix Zone (USA) (Beta) (1995-05-26)": {
@@ -1634,7 +1634,10 @@
 	"Dr. Robotnik's Mean Bean Machine (USA)": {
 		"languages": "En"
 	},
-	"Dr. Robotnik's Mean Bean Machine (USA) (Beta)": {
+	"Dr. Robotnik's Mean Bean Machine (USA) (Beta 1)": {
+		"languages": "En"
+	},
+	"Dr. Robotnik's Mean Bean Machine (USA) (Beta 2)": {
 		"languages": "En"
 	},
 	"Dragon - The Bruce Lee Story (Europe)": {
@@ -1733,7 +1736,7 @@
 	"Dynamite Headdy (USA, Europe) (Beta) (1994-06-22)": {
 		"languages": "En"
 	},
-	"DynoBlaze (USA) (Proto)": {
+	"DynoBlaze (USA) (Proto) (1994-05-24)": {
 		"languages": "En"
 	},
 	"EA Hockey (Europe)": {
@@ -2009,7 +2012,7 @@
 	"Family Feud (USA)": {
 		"languages": "En"
 	},
-	"Fantasia (World)": {
+	"Fantasia (USA, Europe)": {
 		"languages": "En"
 	},
 	"Fantasia (World) (Rev A)": {
@@ -2042,7 +2045,7 @@
 	"Fatal Rewind (USA, Europe)": {
 		"languages": "En"
 	},
-	"Fatal Rewind (Europe)": {
+	"Fatal Rewind (USA, Europe) (Rev 1)": {
 		"languages": "En"
 	},
 	"Fatman (Japan)": {
@@ -2426,7 +2429,7 @@
 	"Gunstar Heroes (Japan)": {
 		"languages": "Ja"
 	},
-	"Gunstar Heroes (Japan) (Sample) (April, 1993)": {
+	"Gunstar Heroes (Japan) (Beta) (April, 1993)": {
 		"languages": "Ja"
 	},
 	"Gunstar Heroes (USA)": {
@@ -2750,17 +2753,17 @@
 	"John Madden Football (USA, Europe) (1990-11-07) (Sega Channel)": {
 		"languages": "En"
 	},
-	"John Madden Football '92 (USA, Europe)": {
-		"languages": "En"
-	},
-	"John Madden Football '93 (USA, Europe)": {
-		"languages": "En"
-	},
 	"John Madden Football - Championship Edition (USA)": {
 		"languages": "En"
 	},
 	"John Madden Football - Pro Football (Japan)": {
 		"languages": "Ja"
+	},
+	"John Madden Football '92 (USA, Europe)": {
+		"languages": "En"
+	},
+	"John Madden Football '93 (USA, Europe)": {
+		"languages": "En"
 	},
 	"Jordan vs Bird (USA, Europe)": {
 		"languages": "En"
@@ -3044,10 +3047,10 @@
 	"Lemmings (Europe)": {
 		"languages": "En"
 	},
-	"Lemmings (Japan, USA, Korea) (Rev A)": {
+	"Lemmings (Japan, Korea)": {
 		"languages": "En"
 	},
-	"Lemmings (Japan, USA)": {
+	"Lemmings (USA)": {
 		"languages": "En"
 	},
 	"Lemmings 2 - The Tribes (Europe)": {
@@ -3836,10 +3839,10 @@
 	"NBA Playoffs - Bulls vs Blazers (Japan)": {
 		"languages": "Ja"
 	},
-	"NBA Pro Basketball '94 (Japan)": {
+	"NBA Pro Basketball - Bulls vs Lakers and the NBA Playoffs (Japan)": {
 		"languages": "Ja"
 	},
-	"NBA Pro Basketball - Bulls vs Lakers and the NBA Playoffs (Japan)": {
+	"NBA Pro Basketball '94 (Japan)": {
 		"languages": "Ja"
 	},
 	"NBA Showdown '94 (USA, Europe)": {
@@ -4565,7 +4568,7 @@
 	"Prince of Persia (USA)": {
 		"languages": "En"
 	},
-	"Prince of Persia 2 - The Shadow and the Flame (Europe) (Proto)": {
+	"Prince of Persia 2 (Europe) (Proto) (1995-02-20)": {
 		"languages": "En"
 	},
 	"Pro Action Replay (Europe) (Program) (Unl)": {
@@ -4700,6 +4703,9 @@
 	"R.B.I. Baseball 4 (Japan)": {
 		"languages": "Ja"
 	},
+	"R.B.I. Baseball 4 (USA) (Beta)": {
+		"languages": "En"
+	},
 	"Race Drivin' (USA)": {
 		"languages": "En"
 	},
@@ -4711,9 +4717,6 @@
 	},
 	"Radical Rex (Europe) (Beta)": {
 		"languages": "En"
-	},
-	"Ragnacenty (Korea)": {
-		"languages": "Ko"
 	},
 	"Raiden Densetsu ~ Raiden Trad (Japan, USA)": {
 		"languages": "En"
@@ -5018,6 +5021,9 @@
 	"Saturday Night Slammasters (USA)": {
 		"languages": "En"
 	},
+	"Schtroumpfs Autour du Monde, Les (Europe) (En,Fr,De,Es)": {
+		"languages": "En,Fr,De,Es"
+	},
 	"Scooby-Doo Mystery (USA)": {
 		"languages": "En"
 	},
@@ -5168,6 +5174,9 @@
 	"Shikinjou (Japan)": {
 		"languages": "Ja"
 	},
+	"Shin Changsegi - Ragnacenty (Korea)": {
+		"languages": "Ko"
+	},
 	"Shin Souseiki Ragnacenty (Japan)": {
 		"languages": "Ja"
 	},
@@ -5219,7 +5228,10 @@
 	"Shinobi III - Return of the Ninja Master (USA) (Beta) (1993-06-29)": {
 		"languages": "En"
 	},
-	"Ship (World) (Proto)": {
+	"Ship (Unknown) (Proto) (GEMS 2.5)": {
+		"languages": "En"
+	},
+	"Ship (Unknown) (Proto) (Visitor)": {
 		"languages": "En"
 	},
 	"Shiten Myouou (Japan)": {
@@ -5288,14 +5300,11 @@
 	"Smart Mouse (World) (Unl)": {
 		"languages": "En"
 	},
-	"Smurfs Travel the World, The (Europe) (En,Fr,De,Es)": {
-		"languages": "En,Fr,De,Es"
-	},
 	"Smurfs, The (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
 	},
-	"Smurfs, The (Brazil) (En,Fr,Fr-CA,De,Es-ES,It)": {
-		"languages": "En,Fr,Fr-CA,De,Es-ES,It"
+	"Smurfs, The (Brazil) (En,Fr,De,Es,It)": {
+		"languages": "En,Fr,De,Es,It"
 	},
 	"Snake Rattle n Roll (Europe)": {
 		"languages": "En"
@@ -5414,8 +5423,8 @@
 	"Sonic Compilation ~ Sonic Classics (USA, Europe, Korea) (Rev A)": {
 		"languages": "En"
 	},
-	"Sonic Crackers (Japan) (Proto) (1994-07-xx)": {
-		"languages": "Ja"
+	"Sonic Crackers (World) (Proto) (1994-07-xx)": {
+		"languages": "En"
 	},
 	"Sonic Eraser (Japan) (SegaNet)": {
 		"languages": "Ja"
@@ -5432,13 +5441,16 @@
 	"Sonic Spinball (USA)": {
 		"languages": "En"
 	},
-	"Sonic Spinball (Unknown) (Beta) (August, 1993) [b]": {
+	"Sonic Spinball (Unknown) (Beta) (August, 1993)": {
 		"languages": "En"
 	},
 	"Sonic Spinball (USA) (Beta) (October, 1993)": {
 		"languages": "En"
 	},
 	"Sonic Spinball (USA) (1993-09-22) (Sega Channel)": {
+		"languages": "En"
+	},
+	"Sonic Spinball (Europe) (Beta) (1993-09-17)": {
 		"languages": "En"
 	},
 	"Sonic The Hedgehog (Japan, Europe, Korea)": {
@@ -5451,6 +5463,9 @@
 		"languages": "En"
 	},
 	"Sonic The Hedgehog (USA, Europe) (Sonic Classic Collection)": {
+		"languages": "En"
+	},
+	"Sonic The Hedgehog (Unknown) (Beta)": {
 		"languages": "En"
 	},
 	"Sonic The Hedgehog 2 (World)": {
@@ -5525,7 +5540,7 @@
 	"Sorcer Kingdom (Japan) (Beta) (1991-11-08)": {
 		"languages": "Ja"
 	},
-	"Sorcerer's Kingdom (USA)": {
+	"Sorcerer's Kingdom (USA) (Beta)": {
 		"languages": "En"
 	},
 	"Sorcerer's Kingdom (USA) (Rev A)": {
@@ -5792,7 +5807,7 @@
 	"Streets of Rage 2 (USA)": {
 		"languages": "En"
 	},
-	"Streets of Rage 3 (Asia, Korea)": {
+	"Streets of Rage 3 (Asia) (En)": {
 		"languages": "En"
 	},
 	"Streets of Rage 3 (Europe)": {
@@ -5933,7 +5948,7 @@
 	"Super Hang-On (World) (En,Ja) (Rev A)": {
 		"languages": "En,Ja"
 	},
-	"Super Hang-On (World) (Sega Smash Pack)": {
+	"Super Hang-On (World) (Sega Smash Pack 2)": {
 		"languages": "En"
 	},
 	"Super Hang-On (World) (En,Ja) (Beta) (1989-08-18) (Sega Channel)": {
@@ -6122,7 +6137,7 @@
 	"TaleSpin (USA, Europe)": {
 		"languages": "En"
 	},
-	"TaleSpin (USA, Europe) (Beta) [b]": {
+	"TaleSpin (USA, Europe) (Beta)": {
 		"languages": "En"
 	},
 	"Talmit's Adventure (Europe)": {
@@ -6377,9 +6392,6 @@
 	"ToeJam & Earl (Japan, Europe) (Rev A)": {
 		"languages": "En"
 	},
-	"ToeJam & Earl in Panic auf Funkotron (Germany)": {
-		"languages": "De"
-	},
 	"ToeJam & Earl in Panic on Funkotron (Europe)": {
 		"languages": "En"
 	},
@@ -6394,6 +6406,9 @@
 	},
 	"ToeJam & Earl in Panic on Funkotron (USA) (1993-09-11) (Sega Channel)": {
 		"languages": "En"
+	},
+	"ToeJam & Earl in Panik auf Funkotron (Germany)": {
+		"languages": "De"
 	},
 	"Toki - Going Ape Spit (USA, Europe)": {
 		"languages": "En"
@@ -6629,7 +6644,7 @@
 	"Vectorman (USA, Europe)": {
 		"languages": "En"
 	},
-	"Vectorman (USA, Europe) (Sega Smash Pack)": {
+	"Vectorman (USA, Europe) (Sega Smash Pack 2)": {
 		"languages": "En"
 	},
 	"Vectorman (USA, Europe) (Beta 3) (1995-07-24)": {
@@ -7199,9 +7214,6 @@
 	"WWF WrestleMania - The Arcade Game (USA, Europe) (Beta)": {
 		"languages": "En"
 	},
-	"[BIOS] X'Eye (USA)": {
-		"languages": "En"
-	},
 	"X-Men (Europe)": {
 		"languages": "En"
 	},
@@ -7272,6 +7284,9 @@
 		"languages": "En"
 	},
 	"X-Perts (USA) (Beta) (June, 1995)": {
+		"languages": "En"
+	},
+	"[BIOS] X'Eye (USA)": {
 		"languages": "En"
 	},
 	"XDR - X-Dazedly-Ray (Japan)": {

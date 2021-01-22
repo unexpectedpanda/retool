@@ -461,7 +461,7 @@
 	"Bokujou Monogatari GB (Japan) (Rev 1) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
-	"Bokujou Monogatari GB (Japan) (CGB+SGB Enhanced) (NP)": {
+	"Bokujou Monogatari GB (Japan) (SGB Enhanced) (NP)": {
 		"languages": "Ja"
 	},
 	"Bomb Jack (Europe)": {
@@ -2015,7 +2015,7 @@
 	"Kaseki Sousei Reborn (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
-	"Kaseki Sousei Reborn (Japan) (Rev 1) (Possible Proto) (SGB Enhanced)": {
+	"Kaseki Sousei Reborn (Japan) (Rev 1) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
 	"Kattobi Road (Japan)": {
@@ -2678,14 +2678,14 @@
 	"Mortal Kombat (USA, Europe)": {
 		"languages": "En"
 	},
+	"Mortal Kombat - Shinken Kourin Densetsu (Japan)": {
+		"languages": "Ja"
+	},
 	"Mortal Kombat & Mortal Kombat II (Japan)": {
 		"languages": "Ja"
 	},
 	"Mortal Kombat & Mortal Kombat II (USA, Europe)": {
 		"languages": "En"
-	},
-	"Mortal Kombat - Shinken Kourin Densetsu (Japan)": {
-		"languages": "Ja"
 	},
 	"Mortal Kombat 3 (Europe)": {
 		"languages": "En"

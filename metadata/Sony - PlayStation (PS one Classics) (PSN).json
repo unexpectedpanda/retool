@@ -212,6 +212,9 @@
 	"Bealphareth (Japan)": {
 		"languages": "Ja"
 	},
+	"Bealphareth (Asia)": {
+		"languages": "Zh"
+	},
 	"Beltlogger 9 (Japan)": {
 		"languages": "Ja"
 	},
@@ -653,6 +656,51 @@
 	"Dirt Jockey (USA)": {
 		"languages": "En"
 	},
+	"Disney-Pixar A Bug's Life (Europe)": {
+		"languages": "En"
+	},
+	"Disney-Pixar A Bug's Life (Germany)": {
+		"languages": "De"
+	},
+	"Disney-Pixar A Bug's Life (Italy)": {
+		"languages": "It"
+	},
+	"Disney-Pixar A Bug's Life (USA)": {
+		"languages": "En"
+	},
+	"Disney-Pixar Buzz Lightyear of Star Command (Europe)": {
+		"languages": "En"
+	},
+	"Disney-Pixar Captain Buzz Lightyear - Star Command (Germany)": {
+		"languages": "De"
+	},
+	"Disney-Pixar Monsters, Inc. - Scare Island (Europe)": {
+		"languages": "En"
+	},
+	"Disney-Pixar Monsters, Inc. - Scare Island (Germany)": {
+		"languages": "De"
+	},
+	"Disney-Pixar Monsters, Inc. - Scream Team (USA)": {
+		"languages": "En"
+	},
+	"Disney-Pixar Toy Story 2 (Europe)": {
+		"languages": "En"
+	},
+	"Disney-Pixar Toy Story 2 (Germany)": {
+		"languages": "De"
+	},
+	"Disney-Pixar Toy Story 2 (Italy)": {
+		"languages": "It"
+	},
+	"Disney-Pixar Toy Story 2 (USA)": {
+		"languages": "En"
+	},
+	"Disney-Pixar Toy Story Racer (Europe)": {
+		"languages": "En"
+	},
+	"Disney-Pixar Toy Story Racer (USA)": {
+		"languages": "En"
+	},
 	"Disney's Atlantis - The Lost Empire (Europe)": {
 		"languages": "En"
 	},
@@ -702,51 +750,6 @@
 		"languages": "De"
 	},
 	"Disney's The Little Mermaid II (USA)": {
-		"languages": "En"
-	},
-	"Disney-Pixar A Bug's Life (Europe)": {
-		"languages": "En"
-	},
-	"Disney-Pixar A Bug's Life (Germany)": {
-		"languages": "De"
-	},
-	"Disney-Pixar A Bug's Life (Italy)": {
-		"languages": "It"
-	},
-	"Disney-Pixar A Bug's Life (USA)": {
-		"languages": "En"
-	},
-	"Disney-Pixar Buzz Lightyear of Star Command (Europe)": {
-		"languages": "En"
-	},
-	"Disney-Pixar Captain Buzz Lightyear - Star Command (Germany)": {
-		"languages": "De"
-	},
-	"Disney-Pixar Monsters, Inc. - Scare Island (Europe)": {
-		"languages": "En"
-	},
-	"Disney-Pixar Monsters, Inc. - Scare Island (Germany)": {
-		"languages": "De"
-	},
-	"Disney-Pixar Monsters, Inc. - Scream Team (USA)": {
-		"languages": "En"
-	},
-	"Disney-Pixar Toy Story 2 (Europe)": {
-		"languages": "En"
-	},
-	"Disney-Pixar Toy Story 2 (Germany)": {
-		"languages": "De"
-	},
-	"Disney-Pixar Toy Story 2 (Italy)": {
-		"languages": "It"
-	},
-	"Disney-Pixar Toy Story 2 (USA)": {
-		"languages": "En"
-	},
-	"Disney-Pixar Toy Story Racer (Europe)": {
-		"languages": "En"
-	},
-	"Disney-Pixar Toy Story Racer (USA)": {
 		"languages": "En"
 	},
 	"Disneys Lilo & Stitch - Zoff auf Hawaii (Germany)": {
@@ -835,6 +838,9 @@
 	},
 	"Extreme Pinball (USA)": {
 		"languages": "En"
+	},
+	"Extreme Pinball (Germany)": {
+		"languages": "De"
 	},
 	"Fade to Black (Europe)": {
 		"languages": "En"
@@ -1009,6 +1015,9 @@
 	},
 	"Front Mission 3 (Japan)": {
 		"languages": "Ja"
+	},
+	"Front Mission 3 (Germany)": {
+		"languages": "De"
 	},
 	"Front Mission Alternative (Japan)": {
 		"languages": "Ja"
@@ -1352,6 +1361,9 @@
 	"Klonoa - Door to Phantomile (United Kingdom)": {
 		"languages": "En"
 	},
+	"Klonoa - Door to Phantomile (Europe)": {
+		"languages": "En"
+	},
 	"Knight & Baby (Japan)": {
 		"languages": "Ja"
 	},
@@ -1571,6 +1583,9 @@
 	"MediEvil (Italy)": {
 		"languages": "It"
 	},
+	"MediEvil - Yomigaetta Gallowmere no Yuusha (Japan)": {
+		"languages": "Ja"
+	},
 	"Mega Man 8 (USA)": {
 		"languages": "En"
 	},
@@ -1732,6 +1747,9 @@
 	},
 	"Monster Farm 2 (Japan)": {
 		"languages": "Ja"
+	},
+	"Motor Toon Grand Prix (USA)": {
+		"languages": "En"
 	},
 	"Motor Toon Grand Prix - USA Edition (Japan)": {
 		"languages": "Ja"
@@ -1994,6 +2012,9 @@
 	"Pocket Fighter (USA)": {
 		"languages": "En"
 	},
+	"Pocket Jiman (Japan)": {
+		"languages": "Ja"
+	},
 	"Pocket Tuner (Japan) (PS3 v3.60)": {
 		"languages": "Ja"
 	},
@@ -2111,6 +2132,9 @@
 	"Rageball (Europe)": {
 		"languages": "En"
 	},
+	"Rainbow Six (Europe)": {
+		"languages": "En"
+	},
 	"Rakugaki Showtime (Japan)": {
 		"languages": "Ja"
 	},
@@ -2147,6 +2171,9 @@
 	"Rayman (France)": {
 		"languages": "Fr"
 	},
+	"Rayman (Spain)": {
+		"languages": "Es"
+	},
 	"Rayman 2 - The Great Escape (Europe) (En,Es,It)": {
 		"languages": "En,Es,It"
 	},
@@ -2154,6 +2181,9 @@
 		"languages": "Fr,De"
 	},
 	"Rayman 2 - The Great Escape (USA)": {
+		"languages": "En"
+	},
+	"Rayman 2 - The Great Escape (Europe)": {
 		"languages": "En"
 	},
 	"Raystorm (Japan)": {
@@ -2201,6 +2231,9 @@
 	"Resident Evil - Director's Cut (France)": {
 		"languages": "Fr"
 	},
+	"Resident Evil - Director's Cut (Italy)": {
+		"languages": "It"
+	},
 	"Resident Evil 2 (Europe)": {
 		"languages": "En"
 	},
@@ -2209,6 +2242,9 @@
 	},
 	"Resident Evil 2 (France)": {
 		"languages": "Fr"
+	},
+	"Resident Evil 2 (Italy)": {
+		"languages": "It"
 	},
 	"Resident Evil 2 - Dual Shock Ver. (USA)": {
 		"languages": "En"
@@ -2224,6 +2260,9 @@
 	},
 	"Resident Evil 3 - Nemesis (France)": {
 		"languages": "Fr"
+	},
+	"Resident Evil 3 - Nemesis (Italy)": {
+		"languages": "It"
 	},
 	"Reverthion (Japan)": {
 		"languages": "Ja"
@@ -2357,6 +2396,9 @@
 	"Seirei Shoukan - Princess of Darkness (Japan)": {
 		"languages": "Ja"
 	},
+	"Seireiki Rayblade (Asia)": {
+		"languages": "Zh"
+	},
 	"Sentimental Graffiti (Japan)": {
 		"languages": "Ja"
 	},
@@ -2382,6 +2424,9 @@
 		"languages": "Ja"
 	},
 	"Shin Megami Tensei II (Japan)": {
+		"languages": "Ja"
+	},
+	"Shin Super Robot Taisen (Japan)": {
 		"languages": "Ja"
 	},
 	"Shingata Kururin Pa! (Japan)": {

@@ -287,6 +287,12 @@
 	"Bandai Namco Games Presents J Legend Retsuden (Japan)": {
 		"languages": "Ja"
 	},
+	"Barbie - Fun & Fashion Dogs (Europe) (En,Fr,De,Es,It,Nl)": {
+		"languages": "En,Fr,De,Es,It,Nl"
+	},
+	"Barbie - Groom and Glam Pups (USA) (En,Fr,Es)": {
+		"languages": "En,Fr,Es"
+	},
 	"Barbie & Her Sisters - Puppy Rescue (USA)": {
 		"languages": "En"
 	},
@@ -295,12 +301,6 @@
 	},
 	"Barbie & Her Sisters - Puppy Rescue (Europe) (Fr,Es,It)": {
 		"languages": "Fr,Es,It"
-	},
-	"Barbie - Fun & Fashion Dogs (Europe) (En,Fr,De,Es,It,Nl)": {
-		"languages": "En,Fr,De,Es,It,Nl"
-	},
-	"Barbie - Groom and Glam Pups (USA) (En,Fr,Es)": {
-		"languages": "En,Fr,Es"
 	},
 	"Barbie Dreamhouse Party (USA) (En,Fr,Es)": {
 		"languages": "En,Fr,Es"
@@ -4070,10 +4070,10 @@
 	"Pretty Rhythm - Rainbow Live Kira Kira My Design (Japan)": {
 		"languages": "Ja"
 	},
-	"PriPara & Pretty Rhythm - PriPara de Tsukaeru Oshare Item 1450! (Japan)": {
+	"PriPara - Mezase! Idol Grand Prix No.1! (Japan)": {
 		"languages": "Ja"
 	},
-	"PriPara - Mezase! Idol Grand Prix No.1! (Japan)": {
+	"PriPara & Pretty Rhythm - PriPara de Tsukaeru Oshare Item 1450! (Japan)": {
 		"languages": "Ja"
 	},
 	"PriPara Mezameyo! Megami no Dress Design (Japan)": {
@@ -4829,12 +4829,6 @@
 	"Soni Pro (Japan)": {
 		"languages": "Ja"
 	},
-	"Sonic & All-Stars Racing Transformed (Europe) (En,Fr,De,Es,It)": {
-		"languages": "En,Fr,De,Es,It"
-	},
-	"Sonic & All-Stars Racing Transformed (USA) (En,Fr,Es)": {
-		"languages": "En,Fr,Es"
-	},
 	"Sonic - Lost World (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
 	},
@@ -4846,6 +4840,12 @@
 	},
 	"Sonic - Lost World (Europe) (En,Fr,De,Es,It) (Demo) (Kiosk)": {
 		"languages": "En,Fr,De,Es,It"
+	},
+	"Sonic & All-Stars Racing Transformed (Europe) (En,Fr,De,Es,It)": {
+		"languages": "En,Fr,De,Es,It"
+	},
+	"Sonic & All-Stars Racing Transformed (USA) (En,Fr,Es)": {
+		"languages": "En,Fr,Es"
 	},
 	"Sonic Boom - Fire & Ice (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
@@ -5027,11 +5027,11 @@
 	"Style Savvy - Trendsetters (USA) (Demo) (Kiosk)": {
 		"languages": "En"
 	},
-	"Sudoku + 7 Other Complex Puzzles by Nikoli (Europe)": {
-		"languages": "En"
-	},
 	"Sudoku - The Puzzle Game Collection (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
+	},
+	"Sudoku + 7 Other Complex Puzzles by Nikoli (Europe)": {
+		"languages": "En"
 	},
 	"Sudoku to 3-Tsu no Puzzle - Nikoli no Puzzle Variety (Japan)": {
 		"languages": "Ja"

@@ -3,7 +3,7 @@
         "name": [
 			"Nintendo - Game Boy Advance"
 		],
-        "last updated": "24 December 2020"
+        "last updated": "21 January 2021"
     },
 
     "overrides": {
@@ -760,7 +760,7 @@
         ],
         "Mega Man Battle Network 5 - Team Protoman": [
             ["Rockman EXE 5 - Team of Blues", 1],
-            ["Mega Man Battle Network 5 - Team Proto Man", 2]
+            ["Mega Man Battle Network 5 - Team Proto Man", 1]
         ],
         "Mega Man Battle Network 6 - Cybeast Falzar": [
             ["Rockman EXE 6 - Dennoujuu Falzar", 1]
@@ -931,7 +931,7 @@
             ["Riviera - Yakusoku no Chi Riviera", 1]
         ],
         "Robopon 2 - Cross Version": [
-            ["Robot Poncots 2 - Ring Version", 1]
+            ["Robot Poncots 2 - Cross Version", 1]
         ],
         "Robopon 2 - Ring Version": [
             ["Robot Poncots 2 - Ring Version", 1]

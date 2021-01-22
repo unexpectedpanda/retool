@@ -584,6 +584,9 @@
 	"Dawn of the Dead (USA)": {
 		"languages": "En"
 	},
+	"Dawn Of The Dead - The Director's Cut (Europe)": {
+		"languages": "En"
+	},
 	"Dawn of the Dead - Unrated (USA)": {
 		"languages": "En"
 	},
@@ -989,6 +992,9 @@
 	"Harry Potter and the Goblet of Fire (Europe) (En,Fr,Es,No)": {
 		"languages": "En,Fr,Es,No"
 	},
+	"Harry Potter and the Goblet of Fire (Europe) (En,De,Nl,Sl)": {
+		"languages": "En,De,Nl,Sl"
+	},
 	"Harry Potter and the Order of the Phoenix (Europe)": {
 		"languages": "En"
 	},
@@ -1121,14 +1127,14 @@
 	"I Spit on Your Grave (Europe)": {
 		"languages": "En"
 	},
-	"I'll Always Know What You Did Last Summer (Europe) (En,Fr,Nl,Sv,No,Da,Fi,El,Hi,Ar)": {
-		"languages": "En,Fr,Nl,Sv,No,Da,Fi,El,Hi,Ar"
-	},
 	"I, Robot (Europe) (En,De,Es)": {
 		"languages": "En,De,Es"
 	},
 	"I, Robot (Europe) (En,Fr,It,Nl,Sv,No,Da,Fi)": {
 		"languages": "En,Fr,It,Nl,Sv,No,Da,Fi"
+	},
+	"I'll Always Know What You Did Last Summer (Europe) (En,Fr,Nl,Sv,No,Da,Fi,El,Hi,Ar)": {
+		"languages": "En,Fr,Nl,Sv,No,Da,Fi,El,Hi,Ar"
 	},
 	"Ice Age (Japan) (En,Ja)": {
 		"languages": "En,Ja"
@@ -1319,13 +1325,13 @@
 	"League of Extraordinary Gentleman, The (Europe) (En,Fr,It,Nl,Sv,No,Da,Fi)": {
 		"languages": "En,Fr,It,Nl,Sv,No,Da,Fi"
 	},
-	"League of Gentlemen's Apocalypse, The (Europe)": {
-		"languages": "En"
-	},
 	"League of Gentlemen, The - The First Series (Europe)": {
 		"languages": "En"
 	},
 	"League of Gentlemen, The - The Second Series (Europe)": {
+		"languages": "En"
+	},
+	"League of Gentlemen's Apocalypse, The (Europe)": {
 		"languages": "En"
 	},
 	"Legend of Zorro, The (Europe) (En,Es,It,Hi)": {
@@ -1334,7 +1340,7 @@
 	"Legend of Zorro, The (Europe) (En,De,Nl,Sv,No,Da,Fi,Ru,Tr,Cs,Hi,Ar)": {
 		"languages": "En,De,Nl,Sv,No,Da,Fi,Ru,Tr,Cs,Hi,Ar"
 	},
-	"Little Britain - The Complete First Series (World) [b]": {
+	"Little Britain - The Complete First Series (World)": {
 		"languages": "En"
 	},
 	"Little Man (Europe) (En,Fr,De,Es,Nl,Pl,Tr,Hi,Ar,Is)": {
