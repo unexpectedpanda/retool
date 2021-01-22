@@ -1538,7 +1538,7 @@
 	"Color a Dinosaur (USA) (Beta)": {
 		"languages": "En"
 	},
-	"Colorful Dragon (Asia) (Ja) (PAL) (Unl)": {
+	"Colorful Dragon (Asia) (Ja) (Unl)": {
 		"languages": "Ja"
 	},
 	"Columbus - Ougon no Yoake (Japan)": {
@@ -1949,7 +1949,7 @@
 	"Dong Dong Nao 1 (Asia) (Ja) (Unl)": {
 		"languages": "Ja"
 	},
-	"Dong Dong Nao II - Guo Zhong Ying Wen (Yi) (Asia) (Ja) (Unl) [b]": {
+	"Dong Dong Nao II - Guo Zhong Ying Wen (Yi) (Asia) (Ja) (Unl)": {
 		"languages": "Ja"
 	},
 	"Donkey Kong (Japan)": {
@@ -2414,6 +2414,9 @@
 	"Excitebike (Japan, USA) (Virtual Console)": {
 		"languages": "En"
 	},
+	"Excitebike (World) (Switch Online)": {
+		"languages": "En"
+	},
 	"Exciting Boxing (Japan)": {
 		"languages": "Ja"
 	},
@@ -2743,6 +2746,9 @@
 	},
 	"Final Fantasy (Japan) (Rev 1) (3DS Virtual Console)": {
 		"languages": "Ja"
+	},
+	"Final Fantasy (USA) (Beta)": {
+		"languages": "En"
 	},
 	"Final Fantasy I, II (Japan)": {
 		"languages": "Ja"
@@ -5213,6 +5219,9 @@
 	"Micro Machines (Europe) (Unl)": {
 		"languages": "En"
 	},
+	"Micro Mages (Europe) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
 	"MiG 29 - Soviet Fighter (USA) (Unl)": {
 		"languages": "En"
 	},
@@ -5339,10 +5348,10 @@
 	"Moai-kun (Japan)": {
 		"languages": "Ja"
 	},
-	"Moe Pro! '90 - Kandou Hen (Japan)": {
+	"Moe Pro! - Saikyou Hen (Japan)": {
 		"languages": "Ja"
 	},
-	"Moe Pro! - Saikyou Hen (Japan)": {
+	"Moe Pro! '90 - Kandou Hen (Japan)": {
 		"languages": "Ja"
 	},
 	"Moero TwinBee - Cinnamon Hakase o Sukue! (Japan)": {
@@ -5831,6 +5840,9 @@
 	"Okkotoshi Puzzle - Tonjan! (Japan)": {
 		"languages": "Ja"
 	},
+	"Olympic I.Q. (Korea) (Unl)": {
+		"languages": "En"
+	},
 	"Olympic IQ (Asia) (Ja) (PAL) (Unl)": {
 		"languages": "Ja"
 	},
@@ -5882,13 +5894,13 @@
 	"Overlord (USA)": {
 		"languages": "En"
 	},
-	"P'Radikus Conflict (USA) (Unl)": {
-		"languages": "En"
-	},
 	"P.O.W. - Prisoners of War (Europe)": {
 		"languages": "En"
 	},
 	"P.O.W. - Prisoners of War (USA)": {
+		"languages": "En"
+	},
+	"P'Radikus Conflict (USA) (Unl)": {
 		"languages": "En"
 	},
 	"Pac-Land (Japan)": {
@@ -6038,10 +6050,10 @@
 	"Penguin-kun Wars (Japan)": {
 		"languages": "Ja"
 	},
-	"Pennant League!! - Home Run Nighter (Japan)": {
+	"Pennant League, The - Home Run Nighter '90 (Japan)": {
 		"languages": "Ja"
 	},
-	"Pennant League, The - Home Run Nighter '90 (Japan)": {
+	"Pennant League!! - Home Run Nighter (Japan)": {
 		"languages": "Ja"
 	},
 	"Perfect Bowling (Japan)": {
@@ -7121,7 +7133,7 @@
 	"Sidewinder (Australia) (Unl)": {
 		"languages": "En"
 	},
-	"Sidewinder (Asia) (Ja) (PAL) (Unl)": {
+	"Sidewinder (Asia) (Ja) (Unl)": {
 		"languages": "Ja"
 	},
 	"Silent Assault (Asia) (Ja) (PAL) (Unl)": {
@@ -7691,6 +7703,12 @@
 	"Super Mario Bros. (World)": {
 		"languages": "En"
 	},
+	"Super Mario Bros. - 25th Anniversary (Japan) (En) (Virtual Console)": {
+		"languages": "En"
+	},
+	"Super Mario Bros. - 25th Anniversary (Australia) (Virtual Console)": {
+		"languages": "En"
+	},
 	"Super Mario Bros. + Duck Hunt (Europe)": {
 		"languages": "En"
 	},
@@ -7707,12 +7725,6 @@
 		"languages": "En"
 	},
 	"Super Mario Bros. + Tetris + Nintendo World Cup (Europe)": {
-		"languages": "En"
-	},
-	"Super Mario Bros. - 25th Anniversary (Japan) (En) (Virtual Console)": {
-		"languages": "En"
-	},
-	"Super Mario Bros. - 25th Anniversary (Australia) (Virtual Console)": {
 		"languages": "En"
 	},
 	"Super Mario Bros. 2 (Europe)": {
@@ -8666,7 +8678,7 @@
 	"Vegas Dream (USA)": {
 		"languages": "En"
 	},
-	"Venice Beach Volleyball (Asia) (En) (Super Mega) (Unl) [b]": {
+	"Venice Beach Volleyball (Asia) (En) (Super Mega) (Unl)": {
 		"languages": "En"
 	},
 	"Venice Beach Volleyball (USA) (Unl)": {

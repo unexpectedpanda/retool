@@ -3,7 +3,7 @@
         "name": [
 			"Sony - PlayStation"
 		],
-        "last updated": "21 December 2020"
+        "last updated": "21 January 2021"
     },
 
     "overrides": {
@@ -182,7 +182,7 @@
 			["Alundra 2 - Une Legende Est Nee", 1]
 		],
 		"America Oudan Ultra Quiz": [
-			["America Oudan Ultra Quiz (Fukkokuban)", 1]
+			["America Oudan Ultra Quiz (Fukkokuban)", 2]
 		],
 		"American Pool": [
 			["Nice Price Series Vol. 04 - Billiard King", 1]
@@ -339,7 +339,7 @@
 			["Beat-Em-Up Speziale (Demo)", 1]
 		],
 		"Beyond the Beyond": [
-			["Beyond the Beyond - Harukanaru Kanaan he", 1]
+			["Beyond the Beyond - Haruka naru Kanaan e", 1]
 		],
 		"Beyblade": [
 			["Bakuten Shoot Beyblade - Bey Battle Tournament", 1]
@@ -465,9 +465,6 @@
 		"Buster Bros. Collection": [
 			["Super Pang Collection", 1]
 		],
-		"C3 Racing - Car Constructors Championship": [
-			["Max Power Racing", 2]
-		],
 		"Capcom Generations (Disc 1) (Wings of Destiny)": [
 			["Capcom Generation - Dai-1-shuu Gekitsuiou no Jidai", 1]
 		],
@@ -501,6 +498,9 @@
 		"Chessmaster 3-D, The": [
 			["Chessmaster, The", 1]
 		],
+		"Chibi Chara Game - Ginga Eiyuu Densetsu (Disc 2) (Let's Sugoroku)": [
+			["Chibi Chara Game - Ginga Eiyuu Densetsu (Disc 2) (Let's Surogoku)", 1]
+		],
 		"China - The Forbidden City": [
 			["Chine - Intrigue dans la Cite Interdite", 1],
 			["Cina - Crimini nella Citta Proibita", 1],
@@ -527,8 +527,8 @@
 			["Clock Tower - Ghost Head", 1]
 		],
 		"Code Breaker Version 3": [
-			["Code Breaker", 1],
-			["Code Breaker Version 2", 1]
+			["Code Breaker Version 2", 2],
+			["Code Breaker", 3]
 		],
 		"Codemasters Demo CD (Demo)": [
 			["Codemasters Demo Disk (Demo)", 1]
@@ -655,7 +655,7 @@
 			["Defcon 5", 1]
 		],
 		"Demo Codemasters (SLED-02246) (Demo)": [
-			["Demo Codemasters (SLED-01725) (Demo)", 1]
+			["Demo Codemasters (SLED-01725) (Demo)", 2]
 		],
 		"Descent Maximum": [
 			["Descent II", 1]
@@ -963,8 +963,8 @@
 			["Equestriad 2001", 1]
 		],
 		"ESPN Extreme Games": [
-			["1Xtreme", 1],
-			["ESPN Street Games", 1]
+			["ESPN Street Games", 1],
+			["1Xtreme", 2]
 		],
 		"Eternal Eyes": [
 			["Kouklotheatro - Yuukyuu no Hitomi", 1]
@@ -1157,13 +1157,14 @@
 			["Formula Nippon '99 - Racing Driver ni Narou!", 1]
 		],
 		"Freestyle Boardin' '99": [
-			["Phat Air - Extreme Snowboarding", 1]
+			["Phat Air - Extreme Snowboarding", 1],
+			["Zap! Snowboarding Trix '98", 1]
 		],
 		"Front Mission 1st (Front Mission History)": [
-			["Front Mission 1st", 1]
+			["Front Mission 1st", 2]
 		],
 		"Front Mission 2 (Front Mission History)": [
-			["Front Mission 2", 1]
+			["Front Mission 2", 2]
 		],
 		"Future Cop - L.A.P.D.": [
 			["Soukou Kidoutai L.A.P.D.", 1]
@@ -1176,6 +1177,9 @@
 		],
 		"Gallop Racer": [
 			["Gallop Racer 3", 1]
+		],
+		"Game de Seishun": [
+			["SuperLite 1500 Series - Game de Seishun", 2]
 		],
 		"Gekioh - Shooting King": [
 			["Geki-Oh - Shienryuu", 1]
@@ -1195,11 +1199,12 @@
 		],
 		"GameShark CDX Version 4.11B": [
 			["GameShark CDX Version 4.11A", 2],
-			["GameShark CDX Version 4.0A", 3],
-			["GameShark CDX Version 3.51", 4],
-			["GameShark CDX Version 3.41", 5],
-			["GameShark CDX Version 3.4", 6],
-			["GameShark CDX Version 3.3", 7]
+			["GameShark CDX Version 4.1", 3],
+			["GameShark CDX Version 4.0A", 4],
+			["GameShark CDX Version 3.51", 5],
+			["GameShark CDX Version 3.41", 6],
+			["GameShark CDX Version 3.4", 7],
+			["GameShark CDX Version 3.3", 8]
 		],
 		"Goal Storm": [
 			["World Soccer Winning Eleven", 1]
@@ -1241,7 +1246,7 @@
 			["Gundam - The Battle Master 2", 2]
 		],
 		"Hard Boiled": [
-			["Hard Boiled - Neuro Tower o Hakai Seyo", 1]
+			["Hard Boiled - Neuro Tower o Hakai seyo", 1]
 		],
 		"Harry Potter and the Chamber of Secrets": [
 			["Harry Potter ja Salaisuuksien Kammio", 1],
@@ -1351,6 +1356,9 @@
 		"ISS Pro Evolution 2": [
 			["World Soccer Jikkyou Winning Eleven 2000 - U-23 Medal e no Chousen", 1]
 		],
+		"Jackie Chan Stuntmaster (Recalled)": [
+			["Jackie Chan Stuntmaster (Recalled)", 2]
+		],
 		"Jade Cocoon - Story of the Tamamayu": [
 			["Jade Cocoon - Die Tamamayu Legende", 1],
 			["Jade Cocoon - La Leggenda del Tamamayu", 1],
@@ -1368,10 +1376,12 @@
 			["Jersey Devil no Daibouken", 1]
 		],
 		"Jet Moto": [
+			["JetMoto", 1],
 			["Jet Rider", 1]
 		],
 		"Jet Moto 2": [
 			["Jet Moto 2 - Championship Edition", -1],
+			["Jet Moto '98", 1],
 			["Jet Rider 2", 1]
 		],
 		"Johnny Bazookatone": [
@@ -1410,6 +1420,9 @@
 		],
 		"K-1 The Arena Fighters": [
 			["Fighting Illusion - K-1 Grand Prix", 1]
+		],
+		"Kagayaku Kisetsu e (Disc 1)": [
+			["Kagayaku Kisetsu e", 2]
 		],
 		"Kagero - Deception II": [
 			["Kagerou - Kokumeikan Shinshou", 1]
@@ -1461,7 +1474,7 @@
 			["I.Q Final", 1]
 		],
 		"Lake Masters 2 - Bass Fishing in Japan": [
-			["Lake Masters 2 - Bass Fishing in Japan (Fukkokuban)", 1]
+			["Lake Masters 2 - Bass Fishing in Japan (Fukkokuban)", 2]
 		],
 		"Land Before Time, The - Great Valley Racing Adventure": [
 			["Land Before Time, The - Racing Adventure", 1]
@@ -1738,6 +1751,9 @@
 		"NASCAR 99": [
 			["NASCAR 99 Legacy", -1]
 		],
+		"NASCAR Racing": [
+			["NASCAR Racing - Season 96", 1]
+		],
 		"NBA in the Zone": [
 			["NBA Power Dunkers", 1]
 		],
@@ -1950,7 +1966,8 @@
 			["Pinobee no Daibouken", 1]
 		],
 		"Pipe Dreams 3D": [
-			["Pipe Mania 3D", 1]
+			["Pipe Mania 3D", 1],
+			["World Greatest Hits Series Vol. 2 - Pipe Dreams 3D", 1]
 		],
 		"Play with the Teletubbies": [
 			["Gioca con i Teletubbies", 1],
@@ -1988,8 +2005,8 @@
 			["Doukyuu - Billiard Master", 1]
 		],
 		"Popstar Maker": [
-			["100% Star", 1],
-			["Newcomer - Be a Popstar", 1]
+			["Newcomer - Be a Popstar", 1],
+			["100% Star", 2]
 		],
 		"Power Shovel": [
 			["Power Diggerz", 1],
@@ -2028,6 +2045,9 @@
 		],
 		"Pro Mahjong Tsuwamono 2": [
 			["Pro Mahjong Tsuwamono 2 (BPV)", 2]
+		],
+		"Pro Pinball - Big Race USA": [
+			["World Greatest Hits Series Vol. 1 - Pro Pinball - Big Race USA", 1]
 		],
 		"Professional Underground League of Pain": [
 			["Riot", 1]
@@ -2164,6 +2184,7 @@
 			["Rosco McQueen", 1]
 		],
 		"Romance of the Three Kingdoms IV - Wall of Fire": [
+			["Sangokushi IV with Power-Up Kit", 0],
 			["Sangokushi IV", 1],
 			["Sanguozhi IV", 1]
 		],
@@ -2196,6 +2217,7 @@
 			["Samurai Spirits - Zankurou Musouken", 1]
 		],
 		"Sangokushi V": [
+			["Sangokushi V with Power-Up Kit", 0],
 			["Sanguozhi V", 1]
 		],
 		"Scooby-Doo and the Cyber Chase": [
@@ -2263,7 +2285,7 @@
 			["Pequenos Guerreros", 1]
 		],
 		"Shin Megami Tensei If... (Anniversary Pack)": [
-			["Shin Megami Tensei If...", 1]
+			["Shin Megami Tensei If...", 2]
 		],
 		"SimTheme Park": [
 			["Theme Park World", 1]
@@ -2283,10 +2305,10 @@
 			["Prism Land Story", 1]
 		],
 		"Soukou Kihei Votoms - Lightning Slash (Limited Edition)": [
-			["Soukou Kihei Votoms - Lightning Slash", 1]
+			["Soukou Kihei Votoms - Lightning Slash", 2]
 		],
 		"Soukou Kihei Votoms Gaiden - Ao no Kishi Berserga Monogatari (Limited Edition)": [
-			["Soukou Kihei Votoms Gaiden - Ao no Kishi Berserga Monogatari", 1]
+			["Soukou Kihei Votoms Gaiden - Ao no Kishi Berserga Monogatari", 2]
 		],
 		"Soul Blade": [
 			["Soul Edge", 1]
@@ -2300,6 +2322,9 @@
 		],
 		"Space Shot": [
 			["Simple 1500 Series Vol. 35 - The Shooting", 1]
+		],
+		"Speedball 2100": [
+			["World Greatest Hits Series Vol. 3 - Speedball 2100", 1]
 		],
 		"Speed Punks": [
 			["Speed Freaks", 1]
@@ -2344,14 +2369,19 @@
 		"Street Fighter Collection 2": [
 			["Capcom Generation - Dai-5-shuu Kakutouka-tachi", 1]
 		],
+		"Street Racer": [
+			["Street Racer Extra", 1]
+		],
 		"Street Racquetball": [
 			["Simple 1500 Series Vol. 97 - The Squash", 1]
 		],
 		"Street Sk8er": [
-			["Simple 1500 Series Vol. 47 - The Skateboard", 1],
-			["Street Skater", 1]
+			["Street Boarders", 1],
+			["Street Skater", 1],
+			["Simple 1500 Series Vol. 47 - The Skateboard", 2]
 		],
 		"Street Sk8er 2": [
+			["Street Boarders 2", 1],
 			["Street Skater 2", 1]
 		],
 		"Strider": [
@@ -2452,7 +2482,7 @@
 			["Deroon Dero Dero", 1]
 		],
 		"Teitoku no Ketsudan III": [
-			["Teitoku no Ketsudan III with Power-Up Kit", -1]
+			["Teitoku no Ketsudan III with Power-Up Kit", 0]
 		],
 		"Tenkuu no Restaurant": [
 			["Tenkuu no Restaurant - Hello! Project Ver.", 2]
@@ -2538,6 +2568,10 @@
 		"TNN Motor Sports HardCore 4X4": [
 			["Hardcore 4x4", 1]
 		],
+		"TNN Motorsports HardCore TR": [
+			["C3 Racing - Car Constructors Championship", 1],
+			["Max Power Racing", 2]
+		],
 		"TOCA 2 - Touring Car Challenge": [
 			["TOCA 2 Touring Cars", 1]
 		],
@@ -2561,6 +2595,9 @@
 		],
 		"Tokyo Highway Battle": [
 			["Drift King Shutokou Battle - Tsuchiya Keiichi & Bandou Masaaki", 1]
+		],
+		"Tom Clancy's Rainbow Six": [
+			["World Greatest Hits Series Vol. 4 - Tom Clancy's Rainbow Six", 1]
 		],
 		"Tomb Raider": [
 			["Tomb Raiders", 1]
@@ -2618,7 +2655,7 @@
 			["Tekkyuu - True Pinball", 1]
 		],
 		"Trump Shiyou yo!": [
-			["Trump Shiyou yo! (Fukkokuban)", 1]
+			["Trump Shiyou yo! (Fukkokuban)", 2]
 		],
 		"Tunnel B1": [
 			["3D Mission Shooting - Finalist", 1]
@@ -2633,13 +2670,16 @@
 			["Twisted Metal - World Tour", 1],
 			["Twisted Metal EX - World Tour", 1]
 		],
+		"Tyco R-C - Assault with a Battery": [
+			["World Greatest Hits Series Vol. 5 - Tyco R-C - Assault with a Battery", 1]
+		],
 		"UEFA Champions League - Season 1998-99": [
 			["UEFA Champions League - Saison 1998-99", 1],
 			["UEFA Champions League - Stagione 1998-99", 1],
 			["UEFA Champions League - Temporada 1998-99", 1]
 		],
 		"Uki Uki Tsuri Tengoku - Ningyo Densetsu no Nazo (Dual Shock Edition)": [
-			["Uki Uki Tsuri Tengoku - Ningyo Densetsu no Nazo", 1]
+			["Uki Uki Tsuri Tengoku - Ningyo Densetsu no Nazo", 2]
 		],
 		"Ultimate 8 Ball": [
 			["Actua Pool", 1],
@@ -2722,7 +2762,7 @@
 			["Walt Disneys Jungelboken - Groove Party", 1]
 		],
 		"Wanted": [
-			["Hot Shot", 1]
+			["Hot Shot", 2]
 		],
 		"Warhawk - The Red Mercury Missions": [
 			["AirAssault - The Red Mercury Missions", 1]
@@ -2793,6 +2833,9 @@
 		],
 		"Wu-Tang - Shaolin Style": [
 			["Wu-Tang - Taste the Pain", 1]
+		],
+		"WWF SmackDown! 2 - Know Your Role": [
+			["Exciting Pro Wres 2", 1]
 		],
 		"X-COM - UFO Defense": [
 			["X-COM - Enemy Unknown", 1],

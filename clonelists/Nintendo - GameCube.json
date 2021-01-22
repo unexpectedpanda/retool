@@ -6,7 +6,7 @@
 			"Nintendo - GameCube - NKit ISO",
 			"Nintendo - GameCube - NASOs"
 		],
-		"last updated": "21 December 2020"
+		"last updated": "20 January 2021"
 	},
 
 	"compilations": [
@@ -74,6 +74,9 @@
 		],
 		"Battalion Wars": [
 			["Totsugeki!! Famicom Wars", 1]
+		],
+		"Beyblade VForce - Super Tournament Battle": [
+			["Bakuten Shoot Beyblade 2002 - Nettou! Magne Tag Battle!", 1]
 		],
 		"Billy Hatcher and the Giant Egg": [
 			["Giant Egg - Billy Hatcher no Daibouken", 1]
@@ -294,7 +297,11 @@
 			["Bokujou Monogatari - Wonderful Life for Girl", 1]
 		],
 		"Harvest Moon - Magical Melody": [
-			["Bokujou Monogatari - Shiawase no Uta for World", 1]
+			["Bokujou Monogatari - Shiawase no Uta for World", 1],
+			["Bokujou Monogatari - Shiawase no Uta", 2]
+		],
+		"International Superstar Soccer 2": [
+			["Jikkyou World Soccer 2002", 1]
 		],
 		"Kirby Air Ride": [
 			["Kirby's Airride", 1]
@@ -585,6 +592,9 @@
 		"Universal Studios Theme Park Adventure": [
 			["Universal Studios Japan Adventure", 1]
 		],
+		"Viewtiful Joe Revival": [
+			["Viewtiful Joe", 2]
+		],
 		"Viewtiful Joe - Red Hot Rumble": [
 			["Viewtiful Joe - Battle Carnival", 1]
 		],
@@ -615,6 +625,9 @@
 		],
 		"Zatch Bell! Mamodo Battles": [
 			["Konjiki no Gashbell!! Yuujou Tag Battle 2", 1]
+		],
+		"Zoids - Battle Legends": [
+			["Zoids vs. II", 1]
 		]
 	}
 }

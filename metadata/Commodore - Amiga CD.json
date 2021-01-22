@@ -1,95 +1,764 @@
 {
-    "Aminet Set 2 (Europe) (En,De) (Disc C) (Fun)": {
-        "languages": "En, De"
-    },
-    "Amiga Plus CD ROM Extra No. 2-97 (Germany)": {
-        "languages": "De"
-    },
-    "Fresh Fish Volume 8 (USA) (Disc 2)": {
+    "17 Bit - Level 6 (Europe)": {
         "languages": "En"
     },
-    "Amiga Plus Sonderheft 20 (Germany)": {
-        "languages": "De"
+    "17 Bit - Phase Four (Europe)": {
+        "languages": "En"
     },
     "17 Bit - The Fifth Dimension (Europe)": {
         "languages": "En"
     },
-    "Aminet 9 - December 1995 (Europe) (En,De)": {
-        "languages": "En, De"
-    },
-    "Meeting Pearls Vol. III (Europe) (En,De)": {
-        "languages": "En, De"
-    },
-    "Aminet 4 - November 1994 (Europe) (En,De)": {
-        "languages": "En, De"
-    },
-    "Aminet 51 - October 2002 (Europe) (En,De)": {
-        "languages": "En, De"
-    },
-    "Aminet Set 4 (Europe) (En,De) (Disc B) (Gfx)": {
-        "languages": "En, De"
-    },
-    "Amiga Magazin CD 2-2003 3-2003 (Germany)": {
-        "languages": "De"
-    },
-    "GoldFish - April 1994 (USA) (Disc 1) (Volume One) (Rev 1)": {
+    "Amiga CD! Magazine No. 3 (Europe)": {
         "languages": "En"
     },
-    "Amiga Magazin CD 8-9 2003 (Germany)": {
+    "Amiga Computer Studio Cover CD 5 (Poland)": {
+        "languages": "Pl"
+    },
+    "Amiga Computer Studio Cover CD 6 (Poland)": {
+        "languages": "Pl"
+    },
+    "Amiga Computer Studio Cover CD 6-98 (Poland)": {
+        "languages": "Pl"
+    },
+    "Amiga Computer Studio Cover CD 7-8-98 (Poland)": {
+        "languages": "Pl"
+    },
+    "Amiga Computer Studio Nr 01-00 (Poland)": {
+        "languages": "Pl"
+    },
+    "Amiga Computer Studio Nr 01-01 (Poland)": {
+        "languages": "Pl"
+    },
+    "Amiga Computer Studio Nr 02-00 (Poland)": {
+        "languages": "Pl"
+    },
+    "Amiga Computer Studio Nr 02-01 (Poland)": {
+        "languages": "Pl"
+    },
+    "Amiga Computer Studio Nr 03-00 (Poland)": {
+        "languages": "Pl"
+    },
+    "Amiga Computer Studio Nr 03-99 (Poland)": {
+        "languages": "Pl"
+    },
+    "Amiga Computer Studio Nr 04-00 (Poland)": {
+        "languages": "Pl"
+    },
+    "Amiga Computer Studio Nr 04-99 (Poland)": {
+        "languages": "Pl"
+    },
+    "Amiga Computer Studio Nr 05-00 (Poland)": {
+        "languages": "Pl"
+    },
+    "Amiga Computer Studio Nr 05-99 (Poland)": {
+        "languages": "Pl"
+    },
+    "Amiga Computer Studio Nr 06-99 (Poland)": {
+        "languages": "Pl"
+    },
+    "Amiga Computer Studio Nr 07-00 (Poland)": {
+        "languages": "Pl"
+    },
+    "Amiga Computer Studio Nr 07-99 (Poland)": {
+        "languages": "Pl"
+    },
+    "Amiga Computer Studio Nr 08-99 (Poland)": {
+        "languages": "Pl"
+    },
+    "Amiga Developer CD 1.1 - May 1996 (Europe)": {
+        "languages": "En"
+    },
+    "Amiga Developer CD 1.2 - Mai 1998 (Europe) (En,De)": {
+        "languages": "En, De"
+    },
+    "Amiga Developer CD 2.1 - November 1999 (Europe)": {
+        "languages": "En"
+    },
+    "Amiga FD Inside! Volume 1 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Format Disc 20 - December 1997 (UK)": {
+        "languages": "En"
+    },
+    "Amiga Format Disc 29 - August 1998 (UK)": {
+        "languages": "En"
+    },
+    "Amiga Format Disc 8 - Christmas 1996 (UK)": {
+        "languages": "En"
+    },
+    "Amiga Games CD-ROM & Mag 12-96 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Games CD-ROM & Mag 6-96 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Games CD-ROM & Mag 7-96 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Games CD-ROM & Mag 8-96 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Games CD-ROM & Mag 9-96 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Games CD-ROM & Mag Extra (Germany) (100% Amiga & Soundtrack)": {
+        "languages": "De"
+    },
+    "Amiga Games Disc & Mag CD ROM 1-96 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Games Disc & Mag CD ROM 2-96 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Games Disc & Mag CD ROM 3-96 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Games Disc & Mag CD ROM 4-96 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Games Disc & Mag CD ROM Sonderheft 1-95 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Giga Graphic CD Collection 1-4 (Germany) (Disc 1)": {
+        "languages": "De"
+    },
+    "Amiga Giga Graphic CD Collection 1-4 (Germany) (Disc 2)": {
+        "languages": "De"
+    },
+    "Amiga Giga Graphic CD Collection 1-4 (Germany) (Disc 3)": {
+        "languages": "De"
+    },
+    "Amiga Giga Graphic CD Collection 1-4 (Germany) (Disc 4)": {
+        "languages": "De"
+    },
+    "Amiga Magazin CD 02-03 2004 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Magazin CD 1 1998 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Magazin CD 1-2 1997 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Magazin CD 1-96 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Magazin CD 10-11 1998 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Magazin CD 10-11 1999 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Magazin CD 10-11 2000 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Magazin CD 10-11 2001 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Magazin CD 10-11 2002 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Magazin CD 10-11 2003 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Magazin CD 10-2004 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Magazin CD 10-95 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Magazin CD 11-12 1996 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Magazin CD 11-12 1997 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Magazin CD 11-2005-1-2006 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Magazin CD 11-2006-1-2007 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Magazin CD 11-2007-1-2008 (Germany)": {
         "languages": "De"
     },
     "Amiga Magazin CD 11-2008-1-2009 (Germany)": {
         "languages": "De"
     },
-    "Aminet 26 - August 1998 (Europe) (En,De)": {
-        "languages": "En, De"
+    "Amiga Magazin CD 12-1999-1-2000 (Germany)": {
+        "languages": "De"
     },
-    "Amiga Vademecum Numer 3 (Poland)": {
-        "languages": "Pl"
+    "Amiga Magazin CD 12-2000 1-2000 (Germany)": {
+        "languages": "De"
     },
-    "Aminet Set 6 (Europe) (En,De) (Disc B) (Gfx)": {
-        "languages": "En, De"
+    "Amiga Magazin CD 12-2001 1-2002 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Magazin CD 12-2002 1-2003 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Magazin CD 12-2003 1-2004 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Magazin CD 12-2004 1-2005 (Germany)": {
+        "languages": "De"
     },
     "Amiga Magazin CD 12-98 1-99 (Germany)": {
         "languages": "De"
     },
-    "Amiga Computer Studio Nr 06-99 (Poland)": {
-        "languages": "Pl"
-    },
-    "Amiga Plus CD ROM No. 5-96 (Germany)": {
+    "Amiga Magazin CD 2 1998 (Germany)": {
         "languages": "De"
     },
-    "Amiga Magazin CD 6-7 1998 (Germany)": {
-        "languages": "De"
-    },
-    "LSD Compendium Deluxe Volume 3 (Europe)": {
-        "languages": "En"
-    },
-    "Amiga Magazin CD 8-9-2004 (Germany)": {
-        "languages": "De"
-    },
-    "Amiga Magazin CD 2-3 2000 (Germany)": {
-        "languages": "De"
-    },
-    "Aminet 52 - December 2002 (Europe) (En,De)": {
-        "languages": "En, De"
-    },
-    "Aminet Set 2 (Europe) (En,De) (Disc B) (Gfx)": {
-        "languages": "En, De"
-    },
-    "Amiga Plus Sonderheft 10 (Germany)": {
-        "languages": "De"
-    },
-    "Amiga Magazin CD 12-1999-1-2000 (Germany)": {
+    "Amiga Magazin CD 2-2003 3-2003 (Germany)": {
         "languages": "De"
     },
     "Amiga Magazin CD 2-2008-4-2008 (Germany)": {
         "languages": "De"
     },
+    "Amiga Magazin CD 2-3 1999 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Magazin CD 2-3 2000 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Magazin CD 2-3 2001 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Magazin CD 2-3 2002 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Magazin CD 2-4 2007 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Magazin CD 2-4 2009 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Magazin CD 2-4-2005 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Magazin CD 2-4-2006 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Magazin CD 3-4 1997 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Magazin CD 3-96 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Magazin CD 4-5 1998 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Magazin CD 4-5 1999 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Magazin CD 4-5 2000 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Magazin CD 4-5 2001 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Magazin CD 4-5 2002 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Magazin CD 4-5 2003 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Magazin CD 4-5-2004 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Magazin CD 5-2008-7-2008 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Magazin CD 5-6 1997 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Magazin CD 5-6-96 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Magazin CD 5-7 2007 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Magazin CD 5-7-2005 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Magazin CD 5-7-2006 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Magazin CD 6-7 1998 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Magazin CD 6-7 1999 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Magazin CD 6-7 2000 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Magazin CD 6-7 2001 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Magazin CD 6-7 2002 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Magazin CD 6-7 2003 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Magazin CD 6-7-2004 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Magazin CD 7-8 1997 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Magazin CD 7-96 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Magazin CD 8-10 2006 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Magazin CD 8-10 2007 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Magazin CD 8-10-2005 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Magazin CD 8-2008-10-2008 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Magazin CD 8-9 1998 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Magazin CD 8-9 1999 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Magazin CD 8-9 2000 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Magazin CD 8-9 2001 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Magazin CD 8-9 2002 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Magazin CD 8-9 2003 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Magazin CD 8-9-2004 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Magazin CD 9-10 1997 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Magazin CD 9-10-96 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Magazin CD Vol. 1 - Bilder und Animationen (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Magazin CD Vol. 2 - Amiga Magazin PD-Software (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Magazin Power-CD 33 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Magazyn CD Nr 5 - Lipiec 1998 (Poland)": {
+        "languages": "Pl"
+    },
+    "Amiga Plus CD No. 1-95 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Plus CD No. 2-95 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Plus CD No. 3-4 95 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Plus CD No. 5-6 95 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Plus CD ROM Extra No. 1-97 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Plus CD ROM Extra No. 2-97 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Plus CD ROM Extra No. 3-96 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Plus CD ROM Extra No. 3-97 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Plus CD ROM Extra No. 4-96 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Plus CD ROM Extra No. 4-97 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Plus CD ROM No. 1-96 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Plus CD ROM No. 1-97 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Plus CD ROM No. 1-98 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Plus CD ROM No. 1-99 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Plus CD ROM No. 2-96 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Plus CD ROM No. 2-97 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Plus CD ROM No. 2-98 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Plus CD ROM No. 2-99 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Plus CD ROM No. 3-96 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Plus CD ROM No. 3-97 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Plus CD ROM No. 3-98 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Plus CD ROM No. 3-99 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Plus CD ROM No. 4-96 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Plus CD ROM No. 4-97 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Plus CD ROM No. 4-98 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Plus CD ROM No. 4-99 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Plus CD ROM No. 5-96 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Plus CD ROM No. 5-97 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Plus CD ROM No. 6-96 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Plus Sonderheft 10 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Plus Sonderheft 11 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Plus Sonderheft 12 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Plus Sonderheft 13 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Plus Sonderheft 14 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Plus Sonderheft 16 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Plus Sonderheft 18 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Plus Sonderheft 19 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Plus Sonderheft 20 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Plus Sonderheft 21 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Plus Sonderheft 23 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Plus Sonderheft 24 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Plus Sonderheft 8 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Plus Sonderheft 9 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Special Software Hits (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Special Spiele Hits 1-98 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Vademecum Numer 2 (Poland)": {
+        "languages": "Pl"
+    },
+    "Amiga Vademecum Numer 3 (Poland)": {
+        "languages": "Pl"
+    },
+    "Aminet 10 - February 1996 (Europe) (En,De)": {
+        "languages": "En, De"
+    },
+    "Aminet 11 - April 1996 (Europe) (En,De)": {
+        "languages": "En, De"
+    },
+    "Aminet 12 - June 1996 (Europe) (En,De)": {
+        "languages": "En, De"
+    },
+    "Aminet 13 - August 1996 (Europe) (En,De)": {
+        "languages": "En, De"
+    },
+    "Aminet 14 - October 1996 (Europe) (En,De)": {
+        "languages": "En, De"
+    },
+    "Aminet 15 - November 1996 (Europe) (En,De)": {
+        "languages": "En, De"
+    },
+    "Aminet 16 - December 1996 (Europe) (En,De)": {
+        "languages": "En, De"
+    },
+    "Aminet 17 - February 1997 (Europe) (En,De)": {
+        "languages": "En, De"
+    },
+    "Aminet 18 - April 97 (Europe) (En,De)": {
+        "languages": "En, De"
+    },
+    "Aminet 19 - June 97 (Europe) (En,De)": {
+        "languages": "En, De"
+    },
+    "Aminet 20 - August 1997 (Europe) (En,De)": {
+        "languages": "En, De"
+    },
+    "Aminet 21 - October 97 (Europe) (En,De)": {
+        "languages": "En, De"
+    },
+    "Aminet 22 - December 1997 (Europe) (En,De)": {
+        "languages": "En, De"
+    },
+    "Aminet 23 - February 1998 (Europe) (En,De)": {
+        "languages": "En, De"
+    },
+    "Aminet 24 - April 1998 (Europe) (En,De)": {
+        "languages": "En, De"
+    },
+    "Aminet 25 - June 1998 (Europe) (En,De)": {
+        "languages": "En, De"
+    },
+    "Aminet 26 - August 1998 (Europe) (En,De)": {
+        "languages": "En, De"
+    },
+    "Aminet 27 - October 1998 (Europe) (En,De)": {
+        "languages": "En, De"
+    },
+    "Aminet 28 - December 98 (Europe) (En,De)": {
+        "languages": "En, De"
+    },
+    "Aminet 29 - February 99 (Europe) (En,De)": {
+        "languages": "En, De"
+    },
+    "Aminet 3 - July 1994 (Europe) (En,De)": {
+        "languages": "En, De"
+    },
+    "Aminet 30 - April 99 (Europe) (En,De)": {
+        "languages": "En, De"
+    },
+    "Aminet 31 - June 99 (Europe) (En,De)": {
+        "languages": "En, De"
+    },
+    "Aminet 32 - August 99 (Europe) (En,De)": {
+        "languages": "En, De"
+    },
+    "Aminet 33 - October 99 (Europe) (En,De)": {
+        "languages": "En, De"
+    },
+    "Aminet 34 - December 99 (Europe) (En,De)": {
+        "languages": "En, De"
+    },
+    "Aminet 35 - February 2000 (Europe) (En,De)": {
+        "languages": "En, De"
+    },
+    "Aminet 36 - April 2000 (Europe) (En,De)": {
+        "languages": "En, De"
+    },
+    "Aminet 37 - June 2000 (Europe) (En,De)": {
+        "languages": "En, De"
+    },
+    "Aminet 38 - August 2000 (Europe) (En,De)": {
+        "languages": "En, De"
+    },
+    "Aminet 39 - October 2000 (Europe) (En,De)": {
+        "languages": "En, De"
+    },
+    "Aminet 4 - November 1994 (Europe) (En,De)": {
+        "languages": "En, De"
+    },
+    "Aminet 40 - December 2000 (Europe) (En,De)": {
+        "languages": "En, De"
+    },
+    "Aminet 41 - February 2001 (Europe) (En,De)": {
+        "languages": "En, De"
+    },
+    "Aminet 42 - April 2001 (Europe) (En,De)": {
+        "languages": "En, De"
+    },
+    "Aminet 43 - June 2001 (Europe) (En,De)": {
+        "languages": "En, De"
+    },
+    "Aminet 44 - August 2001 (Europe) (En,De)": {
+        "languages": "En, De"
+    },
+    "Aminet 45 - October 2001 (Europe) (En,De)": {
+        "languages": "En, De"
+    },
+    "Aminet 46 - December 2001 (Europe) (En,De)": {
+        "languages": "En, De"
+    },
+    "Aminet 47 - February 2002 (Europe) (En,De)": {
+        "languages": "En, De"
+    },
+    "Aminet 47 - February 2002 (Europe) (En,De) (2nd Edition)": {
+        "languages": "En, De"
+    },
+    "Aminet 48 - April 2002 (Europe) (En,De)": {
+        "languages": "En, De"
+    },
+    "Aminet 49 - June 2002 (Europe) (En,De)": {
+        "languages": "En, De"
+    },
+    "Aminet 5 - March 1995 (Europe) (En,De)": {
+        "languages": "En, De"
+    },
+    "Aminet 50 - August 2002 (Europe) (En,De)": {
+        "languages": "En, De"
+    },
+    "Aminet 51 - October 2002 (Europe) (En,De)": {
+        "languages": "En, De"
+    },
+    "Aminet 52 - December 2002 (Europe) (En,De)": {
+        "languages": "En, De"
+    },
+    "Aminet 6 - June 95 (Europe) (En,De)": {
+        "languages": "En, De"
+    },
+    "Aminet 7 - August 95 (Europe) (En,De)": {
+        "languages": "En, De"
+    },
+    "Aminet 8 - October 95 (Europe) (En,De)": {
+        "languages": "En, De"
+    },
+    "Aminet 9 - December 1995 (Europe) (En,De)": {
+        "languages": "En, De"
+    },
+    "Aminet Amiga CD-ROM - February 1994 (USA)": {
+        "languages": "En"
+    },
+    "Aminet Set 1 (Europe) (En,De) (Disc A)": {
+        "languages": "En, De"
+    },
+    "Aminet Set 1 (Europe) (En,De) (Disc B)": {
+        "languages": "En, De"
+    },
+    "Aminet Set 1 (Europe) (En,De) (Disc C)": {
+        "languages": "En, De"
+    },
+    "Aminet Set 1 (Europe) (En,De) (Disc D)": {
+        "languages": "En, De"
+    },
+    "Aminet Set 2 (Europe) (En,De) (Disc A) (Tools)": {
+        "languages": "En, De"
+    },
+    "Aminet Set 2 (Europe) (En,De) (Disc B) (Gfx)": {
+        "languages": "En, De"
+    },
+    "Aminet Set 2 (Europe) (En,De) (Disc C) (Fun)": {
+        "languages": "En, De"
+    },
+    "Aminet Set 2 (Europe) (En,De) (Disc D) (Mods)": {
+        "languages": "En, De"
+    },
+    "Aminet Set 3 (Europe) (En,De) (Disc A) (Tools)": {
+        "languages": "En, De"
+    },
+    "Aminet Set 3 (Europe) (En,De) (Disc B) (Gfx)": {
+        "languages": "En, De"
+    },
+    "Aminet Set 3 (Europe) (En,De) (Disc C) (Fun)": {
+        "languages": "En, De"
+    },
+    "Aminet Set 3 (Europe) (En,De) (Disc D) (Mods)": {
+        "languages": "En, De"
+    },
+    "Aminet Set 4 (Europe) (En,De) (Disc A) (Tools)": {
+        "languages": "En, De"
+    },
+    "Aminet Set 4 (Europe) (En,De) (Disc B) (Gfx)": {
+        "languages": "En, De"
+    },
+    "Aminet Set 4 (Europe) (En,De) (Disc C) (Fun)": {
+        "languages": "En, De"
+    },
+    "Aminet Set 4 (Europe) (En,De) (Disc D) (Mods)": {
+        "languages": "En, De"
+    },
+    "Aminet Set 5 (Europe) (En,De) (Disc A) (Tools)": {
+        "languages": "En, De"
+    },
+    "Aminet Set 5 (Europe) (En,De) (Disc B) (Gfx)": {
+        "languages": "En, De"
+    },
+    "Aminet Set 5 (Europe) (En,De) (Disc C) (Fun)": {
+        "languages": "En, De"
+    },
+    "Aminet Set 5 (Europe) (En,De) (Disc D) (Mods)": {
+        "languages": "En, De"
+    },
+    "Aminet Set 6 (Europe) (En,De) (Disc A) (Tools)": {
+        "languages": "En, De"
+    },
+    "Aminet Set 6 (Europe) (En,De) (Disc B) (Gfx)": {
+        "languages": "En, De"
+    },
+    "Aminet Set 6 (Europe) (En,De) (Disc C) (Fun)": {
+        "languages": "En, De"
+    },
+    "Aminet Set 6 (Europe) (En,De) (Disc D) (Mods)": {
+        "languages": "En, De"
+    },
+    "Aminet Set 7 (Europe) (En,De) (Disc A) (Tools)": {
+        "languages": "En, De"
+    },
+    "Aminet Set 7 (Europe) (En,De) (Disc B) (Gfx)": {
+        "languages": "En, De"
+    },
+    "Aminet Set 7 (Europe) (En,De) (Disc C) (Fun)": {
+        "languages": "En, De"
+    },
     "Aminet Set 7 (Europe) (En,De) (Disc D) (Mods)": {
         "languages": "En, De"
     },
-    "Gateway! Volume 3 (Europe) (En,De) (Disc 1) (Install)": {
+    "Aminet Set 8 (Europe) (En,De) (Disc A) (Tools)": {
+        "languages": "En, De"
+    },
+    "Aminet Set 8 (Europe) (En,De) (Disc B) (Gfx)": {
+        "languages": "En, De"
+    },
+    "Aminet Set 8 (Europe) (En,De) (Disc C) (Fun)": {
+        "languages": "En, De"
+    },
+    "Aminet Set 8 (Europe) (En,De) (Disc D) (Mods)": {
+        "languages": "En, De"
+    },
+    "Aminet Set 9 (Europe) (En,De) (Disc A) (Tools)": {
+        "languages": "En, De"
+    },
+    "Aminet Set 9 (Europe) (En,De) (Disc B) (Gfx)": {
         "languages": "En, De"
     },
     "Aminet Set 9 (Europe) (En,De) (Disc C) (Fun)": {
@@ -98,973 +767,304 @@
     "Aminet Set 9 (Europe) (En,De) (Disc D) (Mods)": {
         "languages": "En, De"
     },
-    "Aminet Set 3 (Europe) (En,De) (Disc A) (Tools)": {
-        "languages": "En, De"
-    },
-    "Amiga Computer Studio Cover CD 6-98 (Poland)": {
-        "languages": "Pl"
-    },
-    "Amiga Plus CD ROM No. 2-97 (Germany)": {
-        "languages": "De"
-    },
-    "Aminet 16 - December 1996 (Europe) (En,De)": {
-        "languages": "En, De"
-    },
-    "Amiga Magazin CD 3-96 (Germany)": {
-        "languages": "De"
-    },
-    "Amiga Plus CD ROM No. 2-96 (Germany)": {
-        "languages": "De"
-    },
-    "Amiga Games Disc & Mag CD ROM 3-96 (Germany)": {
-        "languages": "De"
-    },
-    "Amiga Magazin CD 8-10 2007 (Germany)": {
-        "languages": "De"
-    },
-    "Amiga Magazin CD 7-96 (Germany)": {
-        "languages": "De"
-    },
-    "Amiga Magazin CD 11-12 1996 (Germany)": {
-        "languages": "De"
-    },
-    "Aminet 31 - June 99 (Europe) (En,De)": {
-        "languages": "En, De"
-    },
-    "Foundation (Europe) (En,De)": {
-        "languages": "En, De"
-    },
-    "Amiga Plus Sonderheft 16 (Germany)": {
-        "languages": "De"
-    },
-    "MACD 5 (Poland)": {
-        "languages": "Pl"
-    },
-    "Amiga Plus Sonderheft 23 (Germany)": {
-        "languages": "De"
-    },
-    "Amiga Magazin CD 2-4-2006 (Germany)": {
-        "languages": "De"
-    },
-    "Aminet 37 - June 2000 (Europe) (En,De)": {
-        "languages": "En, De"
-    },
-    "Aminet 47 - February 2002 (Europe) (En,De)": {
-        "languages": "En, De"
-    },
-    "CU Amiga Magazine's Super CD-ROM 7 February 1997 (UK)": {
-        "languages": "En"
-    },
-    "Aminet 18 - April 97 (Europe) (En,De)": {
-        "languages": "En, De"
-    },
-    "Amiga Magazin CD 2-3 2001 (Germany)": {
-        "languages": "De"
-    },
-    "Napalm (Europe)": {
-        "languages": "En"
-    },
-    "Amiga Games CD-ROM & Mag Extra (Germany) (100% Amiga & Soundtrack)": {
-        "languages": "De"
-    },
-    "Amiga Plus Sonderheft 24 (Germany)": {
-        "languages": "De"
-    },
-    "Wordworth 6 Office (Europe) (En,De)": {
-        "languages": "En, De"
-    },
-    "Cedric (Europe) (En,De)": {
-        "languages": "En, De"
-    },
-    "Aminet 24 - April 1998 (Europe) (En,De)": {
-        "languages": "En, De"
-    },
-    "Aminet Set 6 (Europe) (En,De) (Disc A) (Tools)": {
-        "languages": "En, De"
-    },
-    "Amiga Magazin CD 1-96 (Germany)": {
-        "languages": "De"
-    },
-    "Amiga Magazin CD 10-11 2003 (Germany)": {
-        "languages": "De"
-    },
-    "Amiga Computer Studio Nr 04-99 (Poland)": {
-        "languages": "Pl"
-    },
-    "WipEout 2097 (Europe)": {
-        "languages": "En"
-    },
-    "Amiga Games Disc & Mag CD ROM Sonderheft 1-95 (Germany)": {
-        "languages": "De"
-    },
-    "Aminet 32 - August 99 (Europe) (En,De)": {
-        "languages": "En, De"
-    },
-    "Ultimate Super Skidmarks (Europe)": {
-        "languages": "En"
-    },
-    "17 Bit - Level 6 (Europe)": {
-        "languages": "En"
-    },
-    "Amiga Magazin CD 11-2005-1-2006 (Germany)": {
-        "languages": "De"
-    },
-    "Aminet 49 - June 2002 (Europe) (En,De)": {
-        "languages": "En, De"
-    },
-    "Amiga Magazin CD 12-2000 1-2000 (Germany)": {
-        "languages": "De"
-    },
-    "Amiga Special Spiele Hits 1-98 (Germany)": {
-        "languages": "De"
-    },
-    "Amiga Magazin CD 4-5 1998 (Germany)": {
-        "languages": "De"
-    },
-    "LSD and 17 Bit - Compendium Deluxe Volume 2 (Europe)": {
-        "languages": "En"
-    },
-    "Aminet Set 7 (Europe) (En,De) (Disc B) (Gfx)": {
-        "languages": "En, De"
-    },
-    "Amiga Plus CD ROM No. 2-99 (Germany)": {
-        "languages": "De"
-    },
-    "Aminet 12 - June 1996 (Europe) (En,De)": {
-        "languages": "En, De"
-    },
-    "Amiga Games Disc & Mag CD ROM 4-96 (Germany)": {
-        "languages": "De"
-    },
-    "Amiga Developer CD 1.1 - May 1996 (Europe)": {
-        "languages": "En"
-    },
-    "Amiga Computer Studio Nr 04-00 (Poland)": {
-        "languages": "Pl"
-    },
-    "Fresh Fish September 1994 (USA)": {
-        "languages": "En"
-    },
-    "Amiga Plus CD ROM No. 5-97 (Germany)": {
-        "languages": "De"
-    },
-    "Aminet 5 - March 1995 (Europe) (En,De)": {
-        "languages": "En, De"
-    },
-    "Gateway! Volume 3 (Europe) (En,De) (Disc 2) (Companion)": {
-        "languages": "En, De"
-    },
-    "Amiga Plus CD No. 3-4 95 (Germany)": {
-        "languages": "De"
-    },
-    "Aminet 15 - November 1996 (Europe) (En,De)": {
-        "languages": "En, De"
-    },
-    "Fresh Fish March-April 1994 (USA)": {
-        "languages": "En"
-    },
-    "Aminet Set 6 (Europe) (En,De) (Disc D) (Mods)": {
-        "languages": "En, De"
-    },
-    "Amiga Magazin CD 5-6-96 (Germany)": {
-        "languages": "De"
-    },
-    "Megahits 5 (Germany) (Disc 1)": {
-        "languages": "De"
-    },
-    "Aminet 45 - October 2001 (Europe) (En,De)": {
-        "languages": "En, De"
-    },
-    "Amiga Plus CD No. 2-95 (Germany)": {
-        "languages": "De"
-    },
-    "Aminet Set 4 (Europe) (En,De) (Disc C) (Fun)": {
-        "languages": "En, De"
-    },
-    "Amiga Computer Studio Nr 02-00 (Poland)": {
-        "languages": "Pl"
-    },
-    "Trapped (Europe)": {
-        "languages": "En"
-    },
-    "Aminet Set 5 (Europe) (En,De) (Disc C) (Fun)": {
-        "languages": "En, De"
-    },
-    "Amiga Computer Studio Nr 03-00 (Poland)": {
-        "languages": "Pl"
-    },
-    "Amiga Magazin CD 6-7 1999 (Germany)": {
-        "languages": "De"
-    },
-    "Amiga Plus CD ROM No. 1-97 (Germany)": {
-        "languages": "De"
-    },
-    "Vulcanology - The MiniSeries Compilation (Europe) (En,Fr,De)": {
-        "languages": "En, Fr, De"
-    },
-    "Amiga Magazin CD 11-2007-1-2008 (Germany)": {
-        "languages": "De"
-    },
-    "Aminet Set 3 (Europe) (En,De) (Disc D) (Mods)": {
-        "languages": "En, De"
-    },
-    "Amiga Magazin CD 1 1998 (Germany)": {
-        "languages": "De"
-    },
-    "Aminet 39 - October 2000 (Europe) (En,De)": {
-        "languages": "En, De"
-    },
-    "Aminet Set 8 (Europe) (En,De) (Disc C) (Fun)": {
-        "languages": "En, De"
-    },
-    "Amiga Plus Sonderheft 13 (Germany)": {
-        "languages": "De"
-    },
-    "Amiga Magazin CD 12-2003 1-2004 (Germany)": {
-        "languages": "De"
-    },
-    "Gunbee F-99 - The Kidnapping of Lady Akiko (Europe) (En,De)": {
-        "languages": "En, De"
-    },
-    "Aminet 19 - June 97 (Europe) (En,De)": {
-        "languages": "En, De"
-    },
-    "Amiga Plus CD ROM No. 1-98 (Germany)": {
-        "languages": "De"
-    },
-    "Erben der Erde - Die grosse Suche (Germany)": {
-        "languages": "De"
-    },
-    "Aminet Set 5 (Europe) (En,De) (Disc B) (Gfx)": {
-        "languages": "En, De"
-    },
-    "Aminet Set 1 (Europe) (En,De) (Disc D)": {
-        "languages": "En, De"
-    },
-    "Amiga Magazin CD 2-4 2009 (Germany)": {
-        "languages": "De"
-    },
-    "Scene Xplorer '97 (Poland)": {
-        "languages": "Pl"
-    },
-    "Fresh Fish Volume 8 (USA) (Disc 1)": {
-        "languages": "En"
-    },
-    "Aminet 14 - October 1996 (Europe) (En,De)": {
-        "languages": "En, De"
-    },
-    "Aminet 8 - October 95 (Europe) (En,De)": {
-        "languages": "En, De"
-    },
-    "GoldFish - April 1994 (USA) (Disc 2) (Volume Two) (Rev 1)": {
-        "languages": "En"
-    },
-    "Trapped II (Europe)": {
-        "languages": "En"
-    },
-    "Amiga Magazin Power-CD 33 (Germany)": {
-        "languages": "De"
-    },
-    "NetNews Offline Volume 2 (Europe) (En,De)": {
-        "languages": "En, De"
-    },
-    "Gateway! Volumen 1 (Europe) (En,De)": {
-        "languages": "En, De"
-    },
-    "Quake (Europe)": {
-        "languages": ""
-    },
-    "Amiga Magazin CD 8-9 1998 (Germany)": {
-        "languages": "De"
-    },
-    "Megahits 1 (Germany)": {
-        "languages": "De"
-    },
-    "OnEscapee (Europe) (En,Fr,De,It,Nl,Pt,Sv,Da,Fi,Hr,Sk,Tr)": {
-        "languages": "Da, Nl, En, Fi, Fr, De, It, Pt, Sv, Tr"
-    },
-    "Aminet 27 - October 1998 (Europe) (En,De)": {
-        "languages": "En, De"
-    },
-    "Aminet 48 - April 2002 (Europe) (En,De)": {
-        "languages": "En, De"
-    },
-    "Nightlong - Union City Conspiracy (Europe) (En,Fr,De,Es,It) (Disc 3)": {
-        "languages": "En, Fr, De, It, Es"
-    },
-    "Aminet 36 - April 2000 (Europe) (En,De)": {
-        "languages": "En, De"
-    },
-    "Aminet 21 - October 97 (Europe) (En,De)": {
-        "languages": "En, De"
-    },
-    "Aminet Set 5 (Europe) (En,De) (Disc D) (Mods)": {
-        "languages": "En, De"
-    },
-    "Amiga Magazin CD 8-2008-10-2008 (Germany)": {
-        "languages": "De"
-    },
-    "Fresh Fish October 1993 (USA)": {
-        "languages": "En"
-    },
-    "Spherical Worlds (Europe)": {
-        "languages": "En"
-    },
-    "Amiga Plus CD ROM No. 3-98 (Germany)": {
-        "languages": "De"
-    },
-    "Reflections 4 (Germany)": {
-        "languages": "De"
-    },
-    "Amiga Plus Sonderheft 19 (Germany)": {
-        "languages": "De"
-    },
-    "GigaPD V3.0 - 3-CD ROM Set fuer Amiga Computer mit CD-ROM Laufwerk (Germany) (Disc 3) (Update 2)": {
-        "languages": "De"
-    },
-    "Amiga Magazin CD 5-6 1997 (Germany)": {
-        "languages": "De"
-    },
-    "Amiga Computer Studio Nr 02-01 (Poland)": {
-        "languages": "Pl"
-    },
-    "Amiga Plus Sonderheft 9 (Germany)": {
-        "languages": "De"
-    },
-    "Aminet Set 7 (Europe) (En,De) (Disc C) (Fun)": {
-        "languages": "En, De"
-    },
-    "Theme Park (Europe) (En,De)": {
-        "languages": "En, De"
-    },
-    "Megahits 7 (Germany)": {
-        "languages": "De"
-    },
-    "Amiga Plus CD ROM No. 1-99 (Germany)": {
-        "languages": "De"
-    },
-    "Aminet 6 - June 95 (Europe) (En,De)": {
-        "languages": "En, De"
-    },
-    "Monzoom Pro (Germany)": {
-        "languages": "De"
-    },
-    "Amiga Computer Studio Cover CD 6 (Poland)": {
-        "languages": "Pl"
-    },
-    "Megahits 6 (Germany) (Disc 1)": {
-        "languages": "De"
-    },
-    "Amiga Magazin CD 2-3 2002 (Germany)": {
-        "languages": "De"
-    },
-    "Amiga Games CD-ROM & Mag 8-96 (Germany)": {
-        "languages": "De"
-    },
-    "Amiga Plus CD ROM Extra No. 4-97 (Germany)": {
-        "languages": "De"
-    },
-    "Amiga Plus Sonderheft 12 (Germany)": {
-        "languages": "De"
-    },
-    "Spielekiste 2 (Germany)": {
-        "languages": "De"
-    },
-    "Amiga Plus Sonderheft 18 (Germany)": {
-        "languages": "De"
-    },
-    "Amiga Plus Sonderheft 21 (Germany)": {
-        "languages": "De"
-    },
-    "Amiga Magazin CD 4-5 2001 (Germany)": {
-        "languages": "De"
-    },
-    "Amiga Magazin CD 10-11 2002 (Germany)": {
-        "languages": "De"
-    },
-    "Amiga Magazin CD 2-4 2007 (Germany)": {
-        "languages": "De"
-    },
-    "Amiga Giga Graphic CD Collection 1-4 (Germany) (Disc 3)": {
-        "languages": "De"
-    },
-    "Amiga Magazin CD 6-7-2004 (Germany)": {
-        "languages": "De"
-    },
-    "Nemac IV - Director's Cut (Europe)": {
-        "languages": "En"
-    },
-    "Aminet 34 - December 99 (Europe) (En,De)": {
-        "languages": "En, De"
-    },
-    "GoldFish - April 1994 (USA) (Disc 2) (Volume Two)": {
-        "languages": "En"
-    },
     "Arktis Edition Vol. 1 (Germany)": {
         "languages": "De"
-    },
-    "GigaPD V3.0 - 3-CD ROM Set fuer Amiga Computer mit CD-ROM Laufwerk (Germany) (Disc 2) (Update 1)": {
-        "languages": "De"
-    },
-    "Aminet Set 9 (Europe) (En,De) (Disc B) (Gfx)": {
-        "languages": "En, De"
-    },
-    "Aminet Set 4 (Europe) (En,De) (Disc A) (Tools)": {
-        "languages": "En, De"
-    },
-    "Amiga Magazin CD 7-8 1997 (Germany)": {
-        "languages": "De"
-    },
-    "Amiga Special Software Hits (Germany)": {
-        "languages": "De"
-    },
-    "Megahits 3 (Germany)": {
-        "languages": "De"
-    },
-    "Amiga Magazin CD Vol. 2 - Amiga Magazin PD-Software (Germany)": {
-        "languages": "De"
-    },
-    "Amiga Computer Studio Nr 01-00 (Poland)": {
-        "languages": "Pl"
-    },
-    "Amiga Plus Sonderheft 8 (Germany)": {
-        "languages": "De"
-    },
-    "Amiga Computer Studio Cover CD 7-8-98 (Poland)": {
-        "languages": "Pl"
-    },
-    "Amiga Magazin CD 6-7 2000 (Germany)": {
-        "languages": "De"
-    },
-    "Amiga Magazin CD 4-5 2000 (Germany)": {
-        "languages": "De"
-    },
-    "Aminet 10 - February 1996 (Europe) (En,De)": {
-        "languages": "En, De"
-    },
-    "Aminet 30 - April 99 (Europe) (En,De)": {
-        "languages": "En, De"
-    },
-    "Oh Yes... More Worms! Volume 1 (Europe)": {
-        "languages": "En"
-    },
-    "Amiga Giga Graphic CD Collection 1-4 (Germany) (Disc 4)": {
-        "languages": "De"
-    },
-    "Eagle Linux M68K 1.02.33 - 32 Bit Betriebs System auf CD-ROM (Germany)": {
-        "languages": "De"
-    },
-    "Fresh Fish Volume 9 (USA) (Disc 1)": {
-        "languages": "En"
-    },
-    "Amiga Plus CD No. 5-6 95 (Germany)": {
-        "languages": "De"
-    },
-    "Amiga Magazin CD Vol. 1 - Bilder und Animationen (Germany)": {
-        "languages": "De"
-    },
-    "Fresh Fish July-August 1994 (USA)": {
-        "languages": "En"
-    },
-    "Hottest 4 (Europe)": {
-        "languages": "En"
-    },
-    "Amiga CD! Magazine No. 3 (Europe)": {
-        "languages": "En"
-    },
-    "Amiga Magazin CD 8-10-2005 (Germany)": {
-        "languages": "De"
-    },
-    "Amiga Magazin CD 12-2001 1-2002 (Germany)": {
-        "languages": "De"
-    },
-    "Amiga Magazin CD 6-7 2001 (Germany)": {
-        "languages": "De"
-    },
-    "Aminet 43 - June 2001 (Europe) (En,De)": {
-        "languages": "En, De"
-    },
-    "Emulators Unlimited Plus (Germany) (En,De)": {
-        "languages": "En, De"
-    },
-    "Aminet 29 - February 99 (Europe) (En,De)": {
-        "languages": "En, De"
-    },
-    "Amiga Magazin CD 6-7 2002 (Germany)": {
-        "languages": "De"
-    },
-    "Amiga Magazin CD 10-11 1999 (Germany)": {
-        "languages": "De"
-    },
-    "Amiga Computer Studio Nr 01-01 (Poland)": {
-        "languages": "Pl"
-    },
-    "Forest Dumb Forever!!! (Europe)": {
-        "languages": "En"
-    },
-    "Amiga Games CD-ROM & Mag 9-96 (Germany)": {
-        "languages": "De"
-    },
-    "NetNews Offline Volume 1 (Europe) (En,De)": {
-        "languages": "En, De"
-    },
-    "Amiga Magazin CD 2-4-2005 (Germany)": {
-        "languages": "De"
-    },
-    "Amiga Magazin CD 1-2 1997 (Germany)": {
-        "languages": "De"
-    },
-    "Amiga Computer Studio Nr 03-99 (Poland)": {
-        "languages": "Pl"
-    },
-    "GigaPD V2.0 - The Biggest Collection of Freely Distributable Software for the Amiga with CD-ROM Drive - In ISO Level 1 (Germany)": {
-        "languages": "De"
-    },
-    "Gorky 17 (Europe) (En,Fr,De,Es)": {
-        "languages": "En, Fr, De, Es"
-    },
-    "Megahits 5 (Germany) (Disc 2)": {
-        "languages": "De"
-    },
-    "Myst (Germany)": {
-        "languages": "De"
-    },
-    "Amiga Magazin CD 10-95 (Germany)": {
-        "languages": "De"
-    },
-    "Nightlong - Union City Conspiracy (Europe) (En,Fr,De,Es,It) (Disc 1)": {
-        "languages": "En, Fr, De, It, Es"
-    },
-    "Tales from Heaven (Europe)": {
-        "languages": "En"
-    },
-    "Aminet 11 - April 1996 (Europe) (En,De)": {
-        "languages": "En, De"
-    },
-    "Megahits 6 (Germany) (Disc 2)": {
-        "languages": "De"
-    },
-    "Geek Gadgets May 98 Snapshot (Europe)": {
-        "languages": "En"
-    },
-    "GoldFish - April 1994 (USA) (Disc 1) (Volume One)": {
-        "languages": "En"
-    },
-    "Geek Gadgets Version 2 (Europe)": {
-        "languages": "En"
-    },
-    "Amiga Plus CD ROM Extra No. 3-96 (Germany)": {
-        "languages": "De"
-    },
-    "Amiga Magazin CD 10-2004 (Germany)": {
-        "languages": "De"
-    },
-    "Amiga Magazin CD 12-2004 1-2005 (Germany)": {
-        "languages": "De"
-    },
-    "Mag!!! (Germany)": {
-        "languages": "De"
-    },
-    "Aminet 13 - August 1996 (Europe) (En,De)": {
-        "languages": "En, De"
-    },
-    "Aminet 44 - August 2001 (Europe) (En,De)": {
-        "languages": "En, De"
-    },
-    "Fresh Fish May-June 1994 (USA)": {
-        "languages": "En"
-    },
-    "Amiga Developer CD 1.2 - Mai 1998 (Europe) (En,De)": {
-        "languages": "En, De"
-    },
-    "Amiga Magazin CD 8-9 1999 (Germany)": {
-        "languages": "De"
-    },
-    "Kargon (Europe) (En,De)": {
-        "languages": "En, De"
-    },
-    "Amiga Plus CD ROM No. 4-98 (Germany)": {
-        "languages": "De"
-    },
-    "Amiga Magazin CD 12-2002 1-2003 (Germany)": {
-        "languages": "De"
-    },
-    "Lock-N-Load Games Compilation (USA)": {
-        "languages": "En"
-    },
-    "Reflections 3.0 Zubehoer (Germany)": {
-        "languages": "De"
-    },
-    "Fresh Fish Volume 9 (USA) (Disc 2)": {
-        "languages": "En"
-    },
-    "Amiga Magazin CD 02-03 2004 (Germany)": {
-        "languages": "De"
-    },
-    "Aminet 42 - April 2001 (Europe) (En,De)": {
-        "languages": "En, De"
-    },
-    "Amiga Games CD-ROM & Mag 7-96 (Germany)": {
-        "languages": "De"
-    },
-    "Amiga Magazin CD 2 1998 (Germany)": {
-        "languages": "De"
-    },
-    "Amiga Games Disc & Mag CD ROM 1-96 (Germany)": {
-        "languages": "De"
-    },
-    "Amiga Magazin CD 10-11 1998 (Germany)": {
-        "languages": "De"
-    },
-    "Amiga Plus CD ROM No. 2-98 (Germany)": {
-        "languages": "De"
-    },
-    "Amiga Plus Sonderheft 11 (Germany)": {
-        "languages": "De"
-    },
-    "Amiga Vademecum Numer 2 (Poland)": {
-        "languages": "Pl"
-    },
-    "Meeting Pearls Vol. IV (Europe) (En,De)": {
-        "languages": "En, De"
-    },
-    "Amiga Magazin CD 10-11 2000 (Germany)": {
-        "languages": "De"
-    },
-    "Aminet Set 5 (Europe) (En,De) (Disc A) (Tools)": {
-        "languages": "En, De"
-    },
-    "Aminet Set 8 (Europe) (En,De) (Disc B) (Gfx)": {
-        "languages": "En, De"
-    },
-    "Aminet Amiga CD-ROM - February 1994 (USA)": {
-        "languages": "En"
-    },
-    "Amiga Magazin CD 8-9 2002 (Germany)": {
-        "languages": "De"
-    },
-    "Amiga Magazin CD 8-9 2000 (Germany)": {
-        "languages": "De"
-    },
-    "Aminet Set 4 (Europe) (En,De) (Disc D) (Mods)": {
-        "languages": "En, De"
-    },
-    "Amiga Magazin CD 5-2008-7-2008 (Germany)": {
-        "languages": "De"
-    },
-    "GoldFish Volume 2 (USA) (Disc 1)": {
-        "languages": "En"
-    },
-    "Aminet 3 - July 1994 (Europe) (En,De)": {
-        "languages": "En, De"
-    },
-    "Amiga Giga Graphic CD Collection 1-4 (Germany) (Disc 1)": {
-        "languages": "De"
-    },
-    "Amiga Magazin CD 8-9 2001 (Germany)": {
-        "languages": "De"
-    },
-    "Aminet 25 - June 1998 (Europe) (En,De)": {
-        "languages": "En, De"
-    },
-    "Amiga Games Disc & Mag CD ROM 2-96 (Germany)": {
-        "languages": "De"
-    },
-    "Aminet Set 8 (Europe) (En,De) (Disc D) (Mods)": {
-        "languages": "En, De"
-    },
-    "Amiga Magazin CD 2-3 1999 (Germany)": {
-        "languages": "De"
-    },
-    "Aminet Set 1 (Europe) (En,De) (Disc C)": {
-        "languages": "En, De"
-    },
-    "Aminet 17 - February 1997 (Europe) (En,De)": {
-        "languages": "En, De"
-    },
-    "GoldFish Volume 2 (USA) (Disc 2)": {
-        "languages": "En"
-    },
-    "Aminet 22 - December 1997 (Europe) (En,De)": {
-        "languages": "En, De"
-    },
-    "Amiga Magazin CD 5-7-2006 (Germany)": {
-        "languages": "De"
-    },
-    "Amiga Magazin CD 6-7 2003 (Germany)": {
-        "languages": "De"
-    },
-    "Nightlong - Union City Conspiracy (Europe) (En,Fr,De,Es,It) (Disc 2)": {
-        "languages": "En, Fr, De, It, Es"
-    },
-    "Aminet 38 - August 2000 (Europe) (En,De)": {
-        "languages": "En, De"
-    },
-    "Amiga Computer Studio Nr 05-99 (Poland)": {
-        "languages": "Pl"
-    },
-    "Amiga Magazin CD 5-7-2005 (Germany)": {
-        "languages": "De"
-    },
-    "Aminet Set 9 (Europe) (En,De) (Disc A) (Tools)": {
-        "languages": "En, De"
-    },
-    "Megahits 2 (Germany)": {
-        "languages": "De"
-    },
-    "Aminet Set 2 (Europe) (En,De) (Disc D) (Mods)": {
-        "languages": "En, De"
-    },
-    "Amiga Plus CD ROM Extra No. 4-96 (Germany)": {
-        "languages": "De"
-    },
-    "Maxon Atlas (Germany)": {
-        "languages": "De"
-    },
-    "Amiga Magazin CD 11-12 1997 (Germany)": {
-        "languages": "De"
-    },
-    "Amiga Computer Studio Nr 08-99 (Poland)": {
-        "languages": "Pl"
-    },
-    "Aminet 41 - February 2001 (Europe) (En,De)": {
-        "languages": "En, De"
-    },
-    "Amiga Computer Studio Cover CD 5 (Poland)": {
-        "languages": "Pl"
-    },
-    "World of Games (Europe)": {
-        "languages": "En"
-    },
-    "Aminet 50 - August 2002 (Europe) (En,De)": {
-        "languages": "En, De"
-    },
-    "Amiga Magazin CD 3-4 1997 (Germany)": {
-        "languages": "De"
-    },
-    "Aminet Set 3 (Europe) (En,De) (Disc C) (Fun)": {
-        "languages": "En, De"
-    },
-    "Amiga Games CD-ROM & Mag 6-96 (Germany)": {
-        "languages": "De"
-    },
-    "Final Odyssey - Theseus Verses the Minotaur (Europe) (En,De,Es,It,No,Da,Fi)": {
-        "languages": "Da, En, Fi, De, It, No, Es"
-    },
-    "Fresh Fish Volume 10 (USA)": {
-        "languages": "En"
-    },
-    "CU Amiga Magazine Mega CD-ROM November 1995 (Europe)": {
-        "languages": "En"
-    },
-    "Amiga FD Inside! Volume 1 (Germany)": {
-        "languages": "De"
-    },
-    "Oldtimer (Germany)": {
-        "languages": "De"
-    },
-    "Aminet Set 6 (Europe) (En,De) (Disc C) (Fun)": {
-        "languages": "En, De"
-    },
-    "Amiga Plus CD ROM Extra No. 1-97 (Germany)": {
-        "languages": "De"
-    },
-    "FrozenFish (USA)": {
-        "languages": "En"
-    },
-    "Amiga Computer Studio Nr 07-99 (Poland)": {
-        "languages": "Pl"
-    },
-    "Aminet 28 - December 98 (Europe) (En,De)": {
-        "languages": "En, De"
-    },
-    "17 Bit - Phase Four (Europe)": {
-        "languages": "En"
-    },
-    "Aminet 7 - August 95 (Europe) (En,De)": {
-        "languages": "En, De"
-    },
-    "Aminet Set 3 (Europe) (En,De) (Disc B) (Gfx)": {
-        "languages": "En, De"
-    },
-    "Amiga Giga Graphic CD Collection 1-4 (Germany) (Disc 2)": {
-        "languages": "De"
-    },
-    "Amiga Magazin CD 9-10 1997 (Germany)": {
-        "languages": "De"
-    },
-    "Aminet 35 - February 2000 (Europe) (En,De)": {
-        "languages": "En, De"
-    },
-    "Amiga Magazin CD 4-5 2003 (Germany)": {
-        "languages": "De"
-    },
-    "Aminet 47 - February 2002 (Europe) (En,De) (2nd Edition)": {
-        "languages": "En, De"
-    },
-    "Amiga Games CD-ROM & Mag 12-96 (Germany)": {
-        "languages": "De"
-    },
-    "Linux (Europe)": {
-        "languages": "En"
-    },
-    "Amiga Plus CD ROM Extra No. 3-97 (Germany)": {
-        "languages": "De"
-    },
-    "Descent - FreeSpace - The Great War (Europe)": {
-        "languages": "En"
     },
     "Berliner Spielekiste (Germany)": {
         "languages": "De"
     },
-    "CU Amiga Magazine Super CD-ROM 5 December 1996 (UK)": {
-        "languages": "En"
-    },
-    "GigaPD V3.0 - 3-CD ROM Set fuer Amiga Computer mit CD-ROM Laufwerk (Germany) (Disc 1)": {
-        "languages": "De"
-    },
-    "Aminet 20 - August 1997 (Europe) (En,De)": {
-        "languages": "En, De"
-    },
-    "Amiga Plus CD ROM No. 4-97 (Germany)": {
-        "languages": "De"
-    },
-    "Aminet 33 - October 99 (Europe) (En,De)": {
-        "languages": "En, De"
-    },
-    "Amiga Computer Studio Nr 07-00 (Poland)": {
-        "languages": "Pl"
-    },
-    "Aminet 23 - February 1998 (Europe) (En,De)": {
-        "languages": "En, De"
-    },
-    "Amiga Plus Sonderheft 14 (Germany)": {
-        "languages": "De"
-    },
-    "Aminet Set 8 (Europe) (En,De) (Disc A) (Tools)": {
-        "languages": "En, De"
-    },
-    "Megahits 4 (Germany)": {
-        "languages": "De"
-    },
-    "Amiga Magazin CD 5-7 2007 (Germany)": {
-        "languages": "De"
-    },
-    "Amiga Plus CD ROM No. 3-97 (Germany)": {
-        "languages": "De"
-    },
-    "Tools Unlimited Volume 1 - The Blanker Collection (Europe) (En,De)": {
-        "languages": "En, De"
-    },
-    "Amiga Computer Studio Nr 05-00 (Poland)": {
-        "languages": "Pl"
-    },
-    "Amiga Magazyn CD Nr 5 - Lipiec 1998 (Poland)": {
-        "languages": "Pl"
-    },
-    "Amiga Plus CD ROM No. 4-99 (Germany)": {
-        "languages": "De"
-    },
-    "Textikon - Wie schreibe ich's (Germany)": {
-        "languages": "De"
-    },
-    "Amiga Plus CD ROM No. 1-96 (Germany)": {
-        "languages": "De"
-    },
-    "Zombie Massacre (Europe)": {
-        "languages": "En"
-    },
-    "Amiga Developer CD 2.1 - November 1999 (Europe)": {
-        "languages": "En"
-    },
-    "Aminet Set 1 (Europe) (En,De) (Disc A)": {
-        "languages": "En, De"
-    },
-    "Reflections 4.2 (Germany)": {
-        "languages": "De"
-    },
-    "Amiga Magazin CD 11-2006-1-2007 (Germany)": {
-        "languages": "De"
-    },
-    "Aminet Set 1 (Europe) (En,De) (Disc B)": {
-        "languages": "En, De"
-    },
-    "Amiga Magazin CD 4-5 1999 (Germany)": {
-        "languages": "De"
-    },
-    "Meeting Pearls Vol. II (Europe) (En,De)": {
-        "languages": "En, De"
-    },
-    "Pinball Brain Damage (Europe)": {
-        "languages": "En"
-    },
-    "Geek Gadgets Version 1 (Europe)": {
-        "languages": "En"
-    },
-    "Amiga Plus CD ROM No. 3-99 (Germany)": {
-        "languages": "De"
-    },
-    "Amiga Plus CD ROM No. 4-96 (Germany)": {
-        "languages": "De"
-    },
-    "Amiga Magazin CD 4-5 2002 (Germany)": {
-        "languages": "De"
-    },
-    "Amiga Plus CD No. 1-95 (Germany)": {
-        "languages": "De"
-    },
-    "Amiga Magazin CD 10-11 2001 (Germany)": {
-        "languages": "De"
-    },
-    "Amiga Plus CD ROM No. 6-96 (Germany)": {
-        "languages": "De"
-    },
-    "Aminet 40 - December 2000 (Europe) (En,De)": {
-        "languages": "En, De"
-    },
-    "Aminet Set 2 (Europe) (En,De) (Disc A) (Tools)": {
-        "languages": "En, De"
-    },
-    "Amiga Magazin CD 4-5-2004 (Germany)": {
-        "languages": "De"
-    },
-    "Aminet Set 7 (Europe) (En,De) (Disc A) (Tools)": {
-        "languages": "En, De"
-    },
-    "Meeting Pearls Vol. I (Europe) (En,De)": {
-        "languages": "En, De"
-    },
-    "Aminet 46 - December 2001 (Europe) (En,De)": {
-        "languages": "En, De"
-    },
-    "Amiga Plus CD ROM No. 3-96 (Germany)": {
-        "languages": "De"
-    },
-    "Amiga Magazin CD 8-10 2006 (Germany)": {
-        "languages": "De"
-    },
-    "CU Amiga Magazine's Super CD-ROM 8 March 1997 (UK)": {
-        "languages": "En"
-    },
-    "Amiga Magazin CD 9-10-96 (Germany)": {
-        "languages": "De"
-    },
-    "LSD and 17 Bit - Compendium Deluxe Volume 1 (Europe)": {
-        "languages": "En"
-    },
-    "Fresh Fish Volume 7 Nov.-Dec. 1994 (USA)": {
+    "CU Amiga Magazine Mega CD-ROM November 1995 (Europe)": {
         "languages": "En"
     },
     "CU Amiga Magazine Super CD-ROM 27 October 1998 (UK)": {
         "languages": "En"
     },
-    "Amiga Format Disc 8 - Christmas 1996 (UK)": {
+    "CU Amiga Magazine Super CD-ROM 5 December 1996 (UK)": {
         "languages": "En"
     },
-    "Amiga Format Disc 20 - December 1997 (UK)": {
+    "CU Amiga Magazine's Super CD-ROM 7 February 1997 (UK)": {
         "languages": "En"
     },
-    "Amiga Format Disc 29 - August 1998 (UK)": {
+    "CU Amiga Magazine's Super CD-ROM 8 March 1997 (UK)": {
+        "languages": "En"
+    },
+    "Cedric (Europe) (En,De)": {
+        "languages": "En, De"
+    },
+    "Descent - FreeSpace - The Great War (Europe)": {
+        "languages": "En"
+    },
+    "Eagle Linux M68K 1.02.33 - 32 Bit Betriebs System auf CD-ROM (Germany)": {
+        "languages": "De"
+    },
+    "Emulators Unlimited Plus (Germany) (En,De)": {
+        "languages": "En, De"
+    },
+    "Erben der Erde - Die grosse Suche (Germany)": {
+        "languages": "De"
+    },
+    "Final Odyssey - Theseus Verses the Minotaur (Europe) (En,De,Es,It,No,Da,Fi)": {
+        "languages": "Da, En, Fi, De, It, No, Es"
+    },
+    "Forest Dumb Forever!!! (Europe)": {
+        "languages": "En"
+    },
+    "Foundation (Europe) (En,De)": {
+        "languages": "En, De"
+    },
+    "Fresh Fish July-August 1994 (USA)": {
+        "languages": "En"
+    },
+    "Fresh Fish March-April 1994 (USA)": {
+        "languages": "En"
+    },
+    "Fresh Fish May-June 1994 (USA)": {
+        "languages": "En"
+    },
+    "Fresh Fish October 1993 (USA)": {
+        "languages": "En"
+    },
+    "Fresh Fish September 1994 (USA)": {
+        "languages": "En"
+    },
+    "Fresh Fish Volume 10 (USA)": {
+        "languages": "En"
+    },
+    "Fresh Fish Volume 7 Nov.-Dec. 1994 (USA)": {
+        "languages": "En"
+    },
+    "Fresh Fish Volume 8 (USA) (Disc 1)": {
+        "languages": "En"
+    },
+    "Fresh Fish Volume 8 (USA) (Disc 2)": {
+        "languages": "En"
+    },
+    "Fresh Fish Volume 9 (USA) (Disc 1)": {
+        "languages": "En"
+    },
+    "Fresh Fish Volume 9 (USA) (Disc 2)": {
+        "languages": "En"
+    },
+    "FrozenFish (USA)": {
+        "languages": "En"
+    },
+    "Gateway! Volume 3 (Europe) (En,De) (Disc 1) (Install)": {
+        "languages": "En, De"
+    },
+    "Gateway! Volume 3 (Europe) (En,De) (Disc 2) (Companion)": {
+        "languages": "En, De"
+    },
+    "Gateway! Volumen 1 (Europe) (En,De)": {
+        "languages": "En, De"
+    },
+    "Geek Gadgets May 98 Snapshot (Europe)": {
+        "languages": "En"
+    },
+    "Geek Gadgets Version 1 (Europe)": {
+        "languages": "En"
+    },
+    "Geek Gadgets Version 2 (Europe)": {
+        "languages": "En"
+    },
+    "GigaPD V2.0 - The Biggest Collection of Freely Distributable Software for the Amiga with CD-ROM Drive - In ISO Level 1 (Germany)": {
+        "languages": "De"
+    },
+    "GigaPD V3.0 - 3-CD ROM Set fuer Amiga Computer mit CD-ROM Laufwerk (Germany) (Disc 1)": {
+        "languages": "De"
+    },
+    "GigaPD V3.0 - 3-CD ROM Set fuer Amiga Computer mit CD-ROM Laufwerk (Germany) (Disc 2) (Update 1)": {
+        "languages": "De"
+    },
+    "GigaPD V3.0 - 3-CD ROM Set fuer Amiga Computer mit CD-ROM Laufwerk (Germany) (Disc 3) (Update 2)": {
+        "languages": "De"
+    },
+    "GoldFish - April 1994 (USA) (Disc 1) (Volume One)": {
+        "languages": "En"
+    },
+    "GoldFish - April 1994 (USA) (Disc 1) (Volume One) (Rev 1)": {
+        "languages": "En"
+    },
+    "GoldFish - April 1994 (USA) (Disc 2) (Volume Two)": {
+        "languages": "En"
+    },
+    "GoldFish - April 1994 (USA) (Disc 2) (Volume Two) (Rev 1)": {
+        "languages": "En"
+    },
+    "GoldFish Volume 2 (USA) (Disc 1)": {
+        "languages": "En"
+    },
+    "GoldFish Volume 2 (USA) (Disc 2)": {
+        "languages": "En"
+    },
+    "Gorky 17 (Europe) (En,Fr,De,Es)": {
+        "languages": "En, Fr, De, Es"
+    },
+    "Gunbee F-99 - The Kidnapping of Lady Akiko (Europe) (En,De)": {
+        "languages": "En, De"
+    },
+    "Hottest 4 (Europe)": {
+        "languages": "En"
+    },
+    "Kargon (Europe) (En,De)": {
+        "languages": "En, De"
+    },
+    "LSD Compendium Deluxe Volume 3 (Europe)": {
+        "languages": "En"
+    },
+    "LSD and 17 Bit - Compendium Deluxe Volume 1 (Europe)": {
+        "languages": "En"
+    },
+    "LSD and 17 Bit - Compendium Deluxe Volume 2 (Europe)": {
+        "languages": "En"
+    },
+    "Linux (Europe)": {
+        "languages": "En"
+    },
+    "Lock-N-Load Games Compilation (USA)": {
+        "languages": "En"
+    },
+    "MACD 5 (Poland)": {
+        "languages": "Pl"
+    },
+    "Mag!!! (Germany)": {
+        "languages": "De"
+    },
+    "Maxon Atlas (Germany)": {
+        "languages": "De"
+    },
+    "Meeting Pearls Vol. I (Europe) (En,De)": {
+        "languages": "En, De"
+    },
+    "Meeting Pearls Vol. II (Europe) (En,De)": {
+        "languages": "En, De"
+    },
+    "Meeting Pearls Vol. III (Europe) (En,De)": {
+        "languages": "En, De"
+    },
+    "Meeting Pearls Vol. IV (Europe) (En,De)": {
+        "languages": "En, De"
+    },
+    "Megahits 1 (Germany)": {
+        "languages": "De"
+    },
+    "Megahits 2 (Germany)": {
+        "languages": "De"
+    },
+    "Megahits 3 (Germany)": {
+        "languages": "De"
+    },
+    "Megahits 4 (Germany)": {
+        "languages": "De"
+    },
+    "Megahits 5 (Germany) (Disc 1)": {
+        "languages": "De"
+    },
+    "Megahits 5 (Germany) (Disc 2)": {
+        "languages": "De"
+    },
+    "Megahits 6 (Germany) (Disc 1)": {
+        "languages": "De"
+    },
+    "Megahits 6 (Germany) (Disc 2)": {
+        "languages": "De"
+    },
+    "Megahits 7 (Germany)": {
+        "languages": "De"
+    },
+    "Monzoom Pro (Germany)": {
+        "languages": "De"
+    },
+    "Myst (Germany)": {
+        "languages": "De"
+    },
+    "Napalm (Europe)": {
+        "languages": "En"
+    },
+    "Nemac IV - Director's Cut (Europe)": {
+        "languages": "En"
+    },
+    "NetNews Offline Volume 1 (Europe) (En,De)": {
+        "languages": "En, De"
+    },
+    "NetNews Offline Volume 2 (Europe) (En,De)": {
+        "languages": "En, De"
+    },
+    "Nightlong - Union City Conspiracy (Europe) (En,Fr,De,Es,It) (Disc 1)": {
+        "languages": "En, Fr, De, It, Es"
+    },
+    "Nightlong - Union City Conspiracy (Europe) (En,Fr,De,Es,It) (Disc 2)": {
+        "languages": "En, Fr, De, It, Es"
+    },
+    "Nightlong - Union City Conspiracy (Europe) (En,Fr,De,Es,It) (Disc 3)": {
+        "languages": "En, Fr, De, It, Es"
+    },
+    "Oh Yes... More Worms! Volume 1 (Europe)": {
+        "languages": "En"
+    },
+    "Oldtimer (Germany)": {
+        "languages": "De"
+    },
+    "OnEscapee (Europe) (En,Fr,De,It,Nl,Pt,Sv,Da,Fi,Hr,Sk,Tr)": {
+        "languages": "Da, Nl, En, Fi, Fr, De, It, Pt, Sv, Tr"
+    },
+    "Pinball Brain Damage (Europe)": {
+        "languages": "En"
+    },
+    "Quake (Europe)": {
+        "languages": ""
+    },
+    "Reflections 3.0 Zubehoer (Germany)": {
+        "languages": "De"
+    },
+    "Reflections 4 (Germany)": {
+        "languages": "De"
+    },
+    "Reflections 4.2 (Germany)": {
+        "languages": "De"
+    },
+    "Scene Xplorer '97 (Poland)": {
+        "languages": "Pl"
+    },
+    "Spherical Worlds (Europe)": {
+        "languages": "En"
+    },
+    "Spielekiste 2 (Germany)": {
+        "languages": "De"
+    },
+    "Tales from Heaven (Europe)": {
+        "languages": "En"
+    },
+    "Textikon - Wie schreibe ich's (Germany)": {
+        "languages": "De"
+    },
+    "Theme Park (Europe) (En,De)": {
+        "languages": "En, De"
+    },
+    "Tools Unlimited Volume 1 - The Blanker Collection (Europe) (En,De)": {
+        "languages": "En, De"
+    },
+    "Trapped (Europe)": {
+        "languages": "En"
+    },
+    "Trapped II (Europe)": {
+        "languages": "En"
+    },
+    "Ultimate Super Skidmarks (Europe)": {
+        "languages": "En"
+    },
+    "Vulcanology - The MiniSeries Compilation (Europe) (En,Fr,De)": {
+        "languages": "En, Fr, De"
+    },
+    "WipEout 2097 (Europe)": {
+        "languages": "En"
+    },
+    "Wordworth 6 Office (Europe) (En,De)": {
+        "languages": "En, De"
+    },
+    "World of Games (Europe)": {
+        "languages": "En"
+    },
+    "Zombie Massacre (Europe)": {
         "languages": "En"
     }
 }

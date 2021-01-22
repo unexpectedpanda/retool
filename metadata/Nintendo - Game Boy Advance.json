@@ -95,6 +95,9 @@
 	"2 Games in 1 - Findet Nemo + Findet Nemo - Das Abenteuer Geht Weiter (Germany) (De+Fr,De,Nl)": {
 		"languages": "De+Fr,De,Nl"
 	},
+	"2 Games in 1 - Finding Nemo - The Continuing Adventures + The Incredibles (USA)": {
+		"languages": "En"
+	},
 	"2 Games in 1 - Finding Nemo + Finding Nemo - The Continuing Adventures (Europe) (En+En,Es,It,Sv,Da)": {
 		"languages": "En+En,Es,It,Sv,Da"
 	},
@@ -109,9 +112,6 @@
 	},
 	"2 Games in 1 - Finding Nemo + The Incredibles (Europe) (Fr,Nl)": {
 		"languages": "Fr,Nl"
-	},
-	"2 Games in 1 - Finding Nemo - The Continuing Adventures + The Incredibles (USA)": {
-		"languages": "En"
 	},
 	"2 Games in 1 - Golden Nugget Casino + Texas Hold 'em Poker (USA)": {
 		"languages": "En"
@@ -272,14 +272,14 @@
 	"2 in 1 Game Pack - Shrek 2 + Shark Tale (USA)": {
 		"languages": "En"
 	},
+	"2 in 1 Game Pack - Spider-Man - Mysterio's Menace + X2 - Wolverine's Revenge (USA, Europe)": {
+		"languages": "En"
+	},
 	"2 in 1 Game Pack - Spider-Man & Spider-Man 2 (Europe) (En,Fr,De+En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De+En,Fr,De,Es,It"
 	},
 	"2 in 1 Game Pack - Spider-Man + Spider-Man 2 (USA) (En,Fr,De+En,Fr,De,Es)": {
 		"languages": "En,Fr,De+En,Fr,De,Es"
-	},
-	"2 in 1 Game Pack - Spider-Man - Mysterio's Menace + X2 - Wolverine's Revenge (USA, Europe)": {
-		"languages": "En"
 	},
 	"2 in 1 Game Pack - Tony Hawk's Underground + Kelly Slater's Pro Surfer (USA, Europe)": {
 		"languages": "En"
@@ -530,7 +530,7 @@
 	"Alien Hominid (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
 	},
-	"Alienators - Evolution Continues (USA, Europe) [b]": {
+	"Alienators - Evolution Continues (USA, Europe)": {
 		"languages": "En"
 	},
 	"All Grown Up! - Express Yourself (USA, Europe)": {
@@ -3701,6 +3701,9 @@
 	"Gyakuten Saiban 3 (Japan) (Virtual Console)": {
 		"languages": "Ja"
 	},
+	"Gyakuten Saiban 3 (Japan) (Demo) (Kiosk, GameCube)": {
+		"languages": "Ja"
+	},
 	"Hachiemon (Japan)": {
 		"languages": "Ja"
 	},
@@ -4475,18 +4478,6 @@
 	"Kinnikuman II-Sei - Seigi Choujin e no Michi (Japan)": {
 		"languages": "Ja"
 	},
-	"Kirby & The Amazing Mirror (Europe) (En,Fr,De,Es,It)": {
-		"languages": "En,Fr,De,Es,It"
-	},
-	"Kirby & The Amazing Mirror (USA)": {
-		"languages": "En"
-	},
-	"Kirby & The Amazing Mirror (USA) (Virtual Console)": {
-		"languages": "En"
-	},
-	"Kirby & The Amazing Mirror (Europe) (En,Fr,De,Es,It) (Virtual Console)": {
-		"languages": "En,Fr,De,Es,It"
-	},
 	"Kirby - Nightmare in Dream Land (USA)": {
 		"languages": "En"
 	},
@@ -4497,6 +4488,18 @@
 		"languages": "En"
 	},
 	"Kirby - Nightmare in Dream Land (Europe) (En,Fr,De,Es,It) (Virtual Console)": {
+		"languages": "En,Fr,De,Es,It"
+	},
+	"Kirby & The Amazing Mirror (Europe) (En,Fr,De,Es,It)": {
+		"languages": "En,Fr,De,Es,It"
+	},
+	"Kirby & The Amazing Mirror (USA)": {
+		"languages": "En"
+	},
+	"Kirby & The Amazing Mirror (USA) (Virtual Console)": {
+		"languages": "En"
+	},
+	"Kirby & The Amazing Mirror (Europe) (En,Fr,De,Es,It) (Virtual Console)": {
 		"languages": "En,Fr,De,Es,It"
 	},
 	"Kisekko Gurumii - Chesty to Nuigurumi-tachi no Mahou no Bouken (Japan)": {
@@ -5215,6 +5218,9 @@
 	},
 	"Mario vs. Donkey Kong (USA) (Demo) (Kiosk, GameCube)": {
 		"languages": "En"
+	},
+	"Mario vs. Donkey Kong (Japan) (Demo) (Kiosk, GameCube)": {
+		"languages": "Ja"
 	},
 	"Marvel - Ultimate Alliance (USA)": {
 		"languages": "En"
@@ -6122,10 +6128,16 @@
 	"Naruto - Saikyou Ninja Daikesshuu 2 (Japan)": {
 		"languages": "Ja"
 	},
+	"Naruto - Saikyou Ninja Daikesshuu 2 (Japan) (Demo) (Kiosk, GameCube)": {
+		"languages": "Ja"
+	},
 	"Naruto RPG - Uketsugareshi Hi no Ishi (Japan)": {
 		"languages": "Ja"
 	},
 	"Naruto RPG - Uketsugareshi Hi no Ishi (Japan) (Rev 1)": {
+		"languages": "Ja"
+	},
+	"Naruto RPG - Uketsugareshi Hi no Ishi (Japan) (Demo) (Kiosk, GameCube)": {
 		"languages": "Ja"
 	},
 	"NASCAR Heat 2002 (USA)": {
@@ -6527,11 +6539,11 @@
 	"Pinky Monkey Town (Japan)": {
 		"languages": "Ja"
 	},
-	"Pinobee & Phoebee (Japan)": {
-		"languages": "Ja"
-	},
 	"Pinobee - Wings of Adventure (USA, Europe)": {
 		"languages": "En"
+	},
+	"Pinobee & Phoebee (Japan)": {
+		"languages": "Ja"
 	},
 	"Pinobee no Daibouken (Japan)": {
 		"languages": "Ja"
@@ -7733,6 +7745,9 @@
 	"Shiren Monsters - Netsal (Japan)": {
 		"languages": "Ja"
 	},
+	"Shiren Monsters - Netsal (Japan) (Demo) (Kiosk, GameCube)": {
+		"languages": "Ja"
+	},
 	"Shrek - Hassle at the Castle (USA) (En,Fr,De,Es,It,Nl)": {
 		"languages": "En,Fr,De,Es,It,Nl"
 	},
@@ -7960,6 +7975,9 @@
 	},
 	"Sonic Advance 3 (Japan) (En,Ja,Fr,De,Es,It) (Virtual Console)": {
 		"languages": "En,Ja,Fr,De,Es,It"
+	},
+	"Sonic Advance 3 (Japan) (Demo) (Kiosk, GameCube)": {
+		"languages": "Ja"
 	},
 	"Sonic Battle (Japan) (En,Ja)": {
 		"languages": "En,Ja"

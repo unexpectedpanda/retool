@@ -3,7 +3,7 @@
 		"name": [
 			"Panasonic - 3DO Interactive Multiplayer"
 		],
-		"last updated": "24 December 2020"
+		"last updated": "20 January 2021"
 	},
 
 	"renames": {
@@ -57,7 +57,8 @@
 			["Perfect World - Combat in a Digital World", 1]
 		],
 		"John Madden Football": [
-			["John Madden NFL Football", 1]
+			["John Madden NFL Football", 1],
+			["NFL Madden Football", 1]
 		],
 		"Iron Angel of the Apocalypse - Tetsujin": [
 			["Tetsujin", 1]
@@ -74,6 +75,9 @@
 		"Novastorm": [
 			["Nova-Storm", 1]
 		],
+		"Out of this World (3DO Maniac Pack)": [
+			["Outer World", 1]
+		],
 		"Panasonic REAL 3DO Interactive Multiplayer - Sampler CD (ZBZ)": [
 			["Panasonic REAL 3DO Interactive Multiplayer - Sampler CD (ZAZ)", 2]
 		],
@@ -87,8 +91,12 @@
 		"SHADOW - War of Succession": [
 			["SHADOW Warriors", 1]
 		],
+		"Seal of the Pharaoh": [
+			["Virtual Quest - Pharaoh no Fuuin", 1]
+		],
 		"Shanghai - Triple-Threat": [
-			["Shanghai - Triple-Threat (3DO Action Pak)", 1]
+			["Shanghai - Banri no Choujou - The Great Wall", 1],
+			["Shanghai - Triple-Threat (3DO Action Pak)", 2]
 		],
 		"Shock Wave": [
 			["Shock Wave", 1]
@@ -116,9 +124,15 @@
 		"Twisted - The Game Show": [
 			["Twisted", 1]
 		],
+		"VR Stalker": [
+			["VR Stalker (Improved Version)", 0]
+		],
 		"Waialae Country Club": [
 			["T&E VR Golf - Waialae no Kiseki", 1],
 			["True Golf Classics - Waialae Country Club", 1]
+		],
+		"Wicked 18": [
+			["T&E VR Golf - Devil's Course", 1]
 		]
 	}
 }

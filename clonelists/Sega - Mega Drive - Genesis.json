@@ -3,7 +3,7 @@
 		"name": [
 			"Sega - Mega Drive - Genesis"
 		],
-		"last updated": "30 August 2020"
+		"last updated": "21 January 2021"
     },
 
     "overrides": {
@@ -87,11 +87,9 @@
         "Castle of Illusion Starring Mickey Mouse": [
             ["I Love Mickey Mouse - Fushigi no Oshiro Daibouken", 1]
         ],
-        "Castlevania - Bloodlines (Castlevania Anniversary Collection)": [
+        "Castlevania - Bloodlines": [
             ["Castlevania - The New Generation", 1],
-            ["Vampire Killer (Castlevania Anniversary Collection)", 1],
-            ["Vampire Killer", 1],
-            ["Castlevania - Bloodlines", 2]
+            ["Vampire Killer", 1]
         ],
         "Championship Bowling": [
             ["Boogie Woogie Bowling", 1]
@@ -123,7 +121,7 @@
             ["Twisted Flipper", 2]
         ],
         "Crusader of Centy": [
-            ["Ragnacenty", 1],
+            ["Shin Changsegi - Ragnacenty", 1],
             ["Shin Souseiki Ragnacenty", 1],
             ["Soleil", 1]
         ],
@@ -478,6 +476,9 @@
         "Shinobi III - Return of the Ninja Master": [
             ["Super Shinobi II, The", 1]
         ],
+        "Ship (Visitor)": [
+            ["Ship (GEMS 2.5)", 2]
+        ],
         "Shove It! ...The Warehouse Game": [
             ["Shijou Saidai no Soukoban", 1]
         ],
@@ -625,7 +626,7 @@
             ["Slime World", 1]
         ],
         "ToeJam & Earl in Panic on Funkotron": [
-            ["ToeJam & Earl in Panic auf Funkotron", 1]
+            ["ToeJam & Earl in Panik auf Funkotron", 1]
         ],
         "Toki - Going Ape Spit": [
             ["JuJu Densetsu", 1]

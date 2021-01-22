@@ -188,17 +188,17 @@
 	"Cake Mania 2 (USA) (Demo) (DS Download Station)": {
 		"languages": "En"
 	},
-	"Camping Mama + Papa - Barbecue (Japan) (Demo) (DS Broadcast)": {
-		"languages": "Ja"
-	},
-	"Camping Mama + Papa - Fishing (Japan) (Demo) (DS Broadcast)": {
-		"languages": "Ja"
-	},
 	"Camping Mama - Outdoor Adventures - Barbecue (USA) (Demo) (DS Broadcast)": {
 		"languages": "En"
 	},
 	"Camping Mama - Outdoor Adventures - Fishing (USA) (Demo) (DS Broadcast)": {
 		"languages": "En"
+	},
+	"Camping Mama + Papa - Barbecue (Japan) (Demo) (DS Broadcast)": {
+		"languages": "Ja"
+	},
+	"Camping Mama + Papa - Fishing (Japan) (Demo) (DS Broadcast)": {
+		"languages": "Ja"
 	},
 	"Carnival Games (USA) (Demo) (DS Download Station)": {
 		"languages": "En"
@@ -1097,6 +1097,9 @@
 	"Miru Chikara o Jissen de Kitaeru - DS Medikara Training (Japan) (Demo) (DS Broadcast)": {
 		"languages": "Ja"
 	},
+	"Mirudake Ugoku Memo Chou (Japan) (Nintendo Channel)": {
+		"languages": "Ja"
+	},
 	"More Brain Training del Dr Kawashima - Quanti anni ha il tuo cervello (Italy) (Demo) (DS Download Station)": {
 		"languages": "It"
 	},
@@ -1786,12 +1789,6 @@
 	},
 	"True Swing Golf (USA) (Demo) (DS Download Station)": {
 		"languages": "En"
-	},
-	"Ugoku Memo Tobari (Japan) (Nintendo Channel)": {
-		"languages": "Ja"
-	},
-	"Ugoku Memo Tobari (Japan) (Nintendo Channel, Alt)": {
-		"languages": "Ja"
 	},
 	"Wacky Races - Crash & Dash (USA) (Demo) (DS Download Station)": {
 		"languages": "En"

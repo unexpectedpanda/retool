@@ -161,14 +161,14 @@
 	"Arthur's Absolutely Fun Day! (USA)": {
 		"languages": "En"
 	},
+	"Asterix - Sur la Trace D'Idefix (Europe) (En,Fr,De,Es,It,Nl)": {
+		"languages": "En,Fr,De,Es,It,Nl"
+	},
 	"Asterix & Obelix (Europe) (En,Fr,De,Es)": {
 		"languages": "En,Fr,De,Es"
 	},
 	"Asterix & Obelix Contre Cesar (Europe) (En,Fr,De,Es,Nl) (GB Compatible)": {
 		"languages": "En,Fr,De,Es,Nl"
-	},
-	"Asterix - Sur la Trace D'Idefix (Europe) (En,Fr,De,Es,It,Nl)": {
-		"languages": "En,Fr,De,Es,It,Nl"
 	},
 	"Asteroids (USA, Europe) (GB Compatible)": {
 		"languages": "En"
@@ -464,9 +464,6 @@
 	"Bug's Life, A (USA) (SGB Enhanced) (GB Compatible)": {
 		"languages": "En"
 	},
-	"Bugs Bunny & Lola Bunny - Operation Carrot Patch (Europe) (En,Fr,De,Es,It,Nl) (GB Compatible)": {
-		"languages": "En,Fr,De,Es,It,Nl"
-	},
 	"Bugs Bunny - Crazy Castle 3 (Japan) (GB Compatible)": {
 		"languages": "Ja"
 	},
@@ -475,6 +472,9 @@
 	},
 	"Bugs Bunny - Crazy Castle 4 (Japan)": {
 		"languages": "Ja"
+	},
+	"Bugs Bunny & Lola Bunny - Operation Carrot Patch (Europe) (En,Fr,De,Es,It,Nl) (GB Compatible)": {
+		"languages": "En,Fr,De,Es,It,Nl"
 	},
 	"Bugs Bunny et le Chateau des Catastrophes (France)": {
 		"languages": "En"
@@ -547,6 +547,9 @@
 	},
 	"Carmageddon - Carpocalypse Now (USA, Europe) (En,Fr,Es,It)": {
 		"languages": "En,Fr,Es,It"
+	},
+	"Carnivale (USA) (Proto)": {
+		"languages": "En"
 	},
 	"Casper (Europe) (En,Es,It)": {
 		"languages": "En,Es,It"
@@ -1304,6 +1307,9 @@
 	"Gifty (Germany) (En)": {
 		"languages": "En"
 	},
+	"Gimmick Land (Japan) (Proto)": {
+		"languages": "Ja"
+	},
 	"Glocal Hexcite (Japan) (SGB Enhanced) (GB Compatible)": {
 		"languages": "Ja"
 	},
@@ -1398,6 +1404,9 @@
 		"languages": "De"
 	},
 	"Gyouten Ningen Batseelor - Doctor Guy no Yabou (Japan)": {
+		"languages": "Ja"
+	},
+	"Hajimari no Mori (Japan) (Proto)": {
 		"languages": "Ja"
 	},
 	"Halloween Racer (Europe) (En,Fr,De,Es,It,Pt)": {
@@ -1503,6 +1512,9 @@
 		"languages": "Ja"
 	},
 	"Hello Kitty's Cube Frenzy (USA) (GB Compatible)": {
+		"languages": "En"
+	},
+	"Hello Kitty's Cube Frenzy (Europe) (Proto)": {
 		"languages": "En"
 	},
 	"Hercules - The Legendary Journeys (Europe) (En,Fr,De,Es,It,Nl)": {
@@ -1665,6 +1677,9 @@
 		"languages": "En"
 	},
 	"Jet de Go! - Let's Go by Airliner (Japan)": {
+		"languages": "Ja"
+	},
+	"Jibaku-kun - Rei no Itsuki no Kajitsu (Japan) (Proto)": {
 		"languages": "Ja"
 	},
 	"Jim Henson's Bear in the Big Blue House (Europe) (En,Fr,De,Es,It,Nl)": {
@@ -1847,6 +1862,9 @@
 	"Klustar (USA) (GB Compatible)": {
 		"languages": "En"
 	},
+	"Klustar (Japan) (Proto)": {
+		"languages": "Ja"
+	},
 	"Knockout Kings (USA, Europe)": {
 		"languages": "En"
 	},
@@ -1906,6 +1924,9 @@
 	},
 	"Laura (USA)": {
 		"languages": "En"
+	},
+	"Laura (Europe) (En,Fr,De,Es,It,Nl,Sv,Da) (Beta)": {
+		"languages": "En,Fr,De,Es,It,Nl,Sv,Da"
 	},
 	"Le Mans 24 Hours (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
@@ -2231,11 +2252,14 @@
 	"Maus, Die - Verrueckte Olympiade (Germany)": {
 		"languages": "De"
 	},
-	"Maya the Bee & Her Friends (Europe) (En,Fr,De) (GB Compatible)": {
-		"languages": "En,Fr,De"
+	"Max Steel - Covert Missions (USA) (En,Fr,De,Es) (Proto)": {
+		"languages": "En,Fr,De,Es"
 	},
 	"Maya the Bee - Garden Adventures (Europe) (En,Fr,De,Es)": {
 		"languages": "En,Fr,De,Es"
+	},
+	"Maya the Bee & Her Friends (Europe) (En,Fr,De) (GB Compatible)": {
+		"languages": "En,Fr,De"
 	},
 	"McDonald's Monogatari - Honobono Tenchou Ikusei Game (Japan)": {
 		"languages": "Ja"
@@ -2699,6 +2723,9 @@
 	"Ojarumaru - Tsukiyo ga Ike no Takaramono (Japan) (GB Compatible)": {
 		"languages": "Ja"
 	},
+	"Orbital Diagnostic System (Unknown) (Unl)": {
+		"languages": "En"
+	},
 	"Original Moorhuhn Jagd, Die (Germany)": {
 		"languages": "De"
 	},
@@ -2940,6 +2967,9 @@
 		"languages": "Ja"
 	},
 	"Pokemon de Panepon (Japan)": {
+		"languages": "Ja"
+	},
+	"Pokemon Picross (Japan) (Proto)": {
 		"languages": "Ja"
 	},
 	"Pokemon Pinball (Europe) (En,Fr,De,Es,It) (Rumble Version) (SGB Enhanced) (GB Compatible)": {
@@ -3808,6 +3838,9 @@
 	},
 	"Suske en Wiske - De Tijdtemmers ~ Bob et Bobette - Les Dompteurs du Temps (Europe) (Fr,Nl)": {
 		"languages": "Fr,Nl"
+	},
+	"Sutte Hakkun GB (Japan) (Proto)": {
+		"languages": "Ja"
 	},
 	"Suzuki Alstare Extreme Racing (Europe) (En,Fr,De,Es,It,Nl)": {
 		"languages": "En,Fr,De,Es,It,Nl"

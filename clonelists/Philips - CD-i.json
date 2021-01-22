@@ -3,7 +3,7 @@
 		"name": [
 			"Philips - CD-i"
 		],
-		"last updated": "12 December 2020"
+		"last updated": "21 January 2021"
 	},
 
 	"renames": {
@@ -25,13 +25,14 @@
 			["Asterix - Le Defi de Cesar", 1]
 		],
 		"Berenstain Bears, The - On Their Own": [
-			["Berenstain Bears, The - Bij de Berenstain Beren Thuis - Thuis en bij Jou", 1]
+			["Berenstain Bears, The - Bij de Berenstain Beren Thuis - Thuis en bij Jou", 1],
+			["Ours Berenstain, Les - Comme des Grands", 1]
 		],
 		"Burn-Cycle (Disc 1) (The Game)": [
-			["Burn-Cycle", 1],
 			["Burn-Cycle (Das Spiel)", 1],
 			["Burn-Cycle (Il Gioco)", 1],
-			["Burn-Cycle (Jeu)", 1]
+			["Burn-Cycle (Jeu)", 1],
+			["Burn-Cycle", 2]
 		],
 		"Harvest of the Sun - Van Gogh - Une Moisson de Soleils": [
 			["Harvest of the Sun", 1],
@@ -45,9 +46,6 @@
 			["International Tennis Open (8100082)", 1],
 			["International Tennis Open (8120040)", 2]
 		],
-		"Link - The Faces of Evil": [
-			["Link - The Faces Of Evil", 1]
-		],
 		"Marco Polo (Disc 1) (The Game)": [
 			["Marco Polo (Disc 1) (Le Jeu)", 1]
 		],
@@ -60,6 +58,12 @@
 		"Palm Springs Open, The": [
 			["Open de Palm Springs, L'", 1]
 		],
+		"Patriot Games (Disc 1)": [
+			["Stunde der Patrioten, Die (Disc 1)", 1]
+		],
+		"Patriot Games (Disc 2)": [
+			["Stunde der Patrioten, Die (Disc 2)", 1]
+		],
 		"Portrait of a City - Venice": [
 			["Portrait d'une Ville - Venise", 1],
 			["Ritratto di Citta - Venezia", 1]
@@ -68,6 +72,11 @@
 			["Rinascimento a Firenze, Il", 1],
 			["Renaissance in Florenz, Die", 1],
 			["Renaissance van Florence, De", 1]
+		],
+		"Richard Scarry's Best Neighborhood Disc Ever!": [
+			["Citta piu Felice del Mondo! di Richard Scarry, La", 1],
+			["Richard Scarry's Allerbeste Buurt Disc!", 1],
+			["Ville Surprise de Richard Scarry 1, La", 1]
 		],
 		"Sandy's Circus Adventure": [
 			["Aventures de Sandy au Cirque, Les", 1],
@@ -99,10 +108,6 @@
 		],
 		"Video Speedway - The Ultimate Racing Experience": [
 			["Video Speedway - Grand Prix", 1]
-		],
-		"Ville Surprise de Richard Scarry 1, La": [
-			["Citta piu Felice del Mondo! di Richard Scarry, La", 1],
-			["Richard Scarry's Allerbeste Buurt Disc!", 1]
 		],
 		"Ville Surprise de Richard Scarry 2, La": [
 			["Richard Scarry's Allerdrukste Buurt Disc!", 1]

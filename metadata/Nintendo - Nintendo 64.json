@@ -716,6 +716,9 @@
 	"F-Zero X - Weilai Saiche (China) (v4) (iQue) (Manual)": {
 		"languages": "Zh"
 	},
+	"F-Zero X + The Legend of Zelda Ocarina of Time (USA) (Beta)": {
+		"languages": "En"
+	},
 	"F1 Pole Position 64 (Europe) (En,Fr,De)": {
 		"languages": "En,Fr,De"
 	},
@@ -998,14 +1001,14 @@
 	"Ide Yosuke no Mahjong Juku (Japan)": {
 		"languages": "Ja"
 	},
+	"Iggy-kun no Bura Bura Poyon (Japan)": {
+		"languages": "Ja"
+	},
 	"Iggy's Reckin' Balls (Europe)": {
 		"languages": "En"
 	},
 	"Iggy's Reckin' Balls (USA)": {
 		"languages": "En"
-	},
-	"Iggy-kun no Bura Bura Poyon (Japan)": {
-		"languages": "Ja"
 	},
 	"In-Fisherman - Bass Hunter 64 (Europe)": {
 		"languages": "En"
@@ -1274,7 +1277,10 @@
 	"Legend of Zelda, The - Ocarina of Time (Europe) (Debug) (GameCube)": {
 		"languages": "En"
 	},
-	"Legend of Zelda, The - Ocarina of Time - Master Quest (Europe) (Debug) (GameCube)": {
+	"Legend of Zelda, The - Ocarina of Time (USA) (Beta)": {
+		"languages": "En"
+	},
+	"Legend of Zelda, The - Ocarina of Time - Master Quest (USA) (Debug) (GameCube)": {
 		"languages": "En"
 	},
 	"Legend of Zelda, The - Ocarina of Time - Master Quest (USA) (GameCube)": {
