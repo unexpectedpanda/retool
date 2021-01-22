@@ -902,6 +902,9 @@
     "Crash of the Titans (Europe) (De,Ru)": {
         "languages": "De, Ru"
     },
+    "Crash of the Titans (Europe) (De,Ru) (Beta)": {
+        "languages": "De, Ru"
+    },
     "Crash of the Titans (Europe) (Es,It)": {
         "languages": "It, Es"
     },
@@ -2858,7 +2861,7 @@
     "Key of Heaven (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
-    "Key of Heaven (Europe) (En,Ja,Fr,De,Es,It) (Proto)": {
+    "Key of Heaven (Europe) (En,Ja,Fr,De,Es,It) (Beta)": {
         "languages": "En, Fr, De, It, Ja, Es"
     },
     "Kidou Senshi Gundam - Gihren no Yabou - Axis no Kyoui V (Japan)": {
@@ -4745,7 +4748,7 @@
     "Ratchet & Clank - Size Matters (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi)": {
         "languages": "Da, Nl, En, Fi, Fr, De, It, No, Pt, Es, Sv"
     },
-    "Ratchet & Clank - Size Matters (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi) (Proto)": {
+    "Ratchet & Clank - Size Matters (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi) (Beta)": {
         "languages": "Da, Nl, En, Fi, Fr, De, It, No, Pt, Es, Sv"
     },
     "Ratchet & Clank - Size Matters (USA)": {

@@ -1,15 +1,17 @@
 import html
 import os
-import re
 import sys
+import urllib
 
-from modules.classes import Stats
-from modules.utils import Font, natural_keys, printwrap
+from modules.utils import Font, natural_keys, old_windows, printwrap
 from modules.xml import header
 
 
-def generate_config(languages, regions, gui_settings=False, overwrite=False, gui=False):
-    if not os.path.isfile('user-config.yaml') or overwrite == True:
+def generate_config(languages, regions, list_prefix=False, list_suffix=False, gui=False, filters=False, gui_settings=False, overwrite=False):
+    new_user_config = False
+    new_global_filter = False
+
+    if not os.path.exists('user-config.yaml') or overwrite == True:
         try:
             with open('user-config.yaml', 'w') as output_file:
                 output_file.writelines('---\n# If the -l option is used, only include titles with the following languages.')
@@ -44,6 +46,29 @@ def generate_config(languages, regions, gui_settings=False, overwrite=False, gui
                         else:
                             write_entry(region)
 
+                output_file.writelines('\n\n# If the --list option is used, you can optionally add a prefix and suffix')
+                output_file.writelines('\n# to each title.')
+                output_file.writelines('\n#')
+                output_file.writelines('\n# If you start a prefix with http://, https://, or ftp://, each line in the')
+                output_file.writelines('\n# list will be URL encoded.')
+                output_file.writelines('\n#')
+                output_file.writelines('\n# The text must be inside double quotes. You must escape other double quotes')
+                output_file.writelines('\n# and backslashes inside the quotes like so: \\", \\\\')
+                output_file.writelines('\nlist prefix:')
+
+                if list_prefix != False:
+                    write_entry(f'"{list_prefix}"')
+                else:
+                    output_file.writelines('\n# - "This text will be at the start of each line"')
+
+                output_file.writelines(f'\n\nlist suffix:')
+
+                if list_suffix != False:
+                    write_entry(f'"{list_suffix}"')
+                else:
+                    output_file.writelines('\n# - "This text will be at the end of each line"')
+
+
                 output_file.writelines('\n\n# GUI settings only, not used by the CLI.')
                 output_file.writelines('\ngui settings:')
 
@@ -51,18 +76,109 @@ def generate_config(languages, regions, gui_settings=False, overwrite=False, gui
                     for setting in gui_settings:
                         write_entry(setting)
 
-                if overwrite == False and gui==False:
-                    printwrap(
-                        f'{Font.warning}* The {Font.warning_bold}user-config.yaml '
-                        f'{Font.warning}file was missing, so a new one has been generated. '
-                        'You might want to edit it to define a custom region order, or to '
-                        f'filter specific languages. You can now run Retool '
-                        f'normally.{Font.end}', 'error')
-                    sys.exit()
+                new_user_config = True
 
         except OSError as e:
             print(f'\n{Font.error_bold}* Error: {Font.end}{str(e)}\n')
             raise
+
+    if (
+        filters != False and type(filters) is not list):
+        if filters.system_file != '':
+            if not os.path.isfile(f'user-filters/{filters.system_file}.yaml') or overwrite == True:
+                try:
+                    with open(f'user-filters/{filters.system_file}.yaml', 'w') as output_file:
+                        output_file.writelines('---\n# Contains user defined strings that can be used to include or exclude')
+                        output_file.writelines('\n# titles that Retool ordinarily wouldn\'t.')
+                        output_file.writelines('\n#')
+                        output_file.writelines(f'\n# This is the include/exclude file for the {filters.system_file} dat.')
+                        output_file.writelines('\n#')
+                        output_file.writelines('\n# Refer to the readme-cli.md file in this folder for how to set up this file,')
+                        output_file.writelines('\n# along with system include/exclude files.')
+                        output_file.writelines('\n#')
+                        output_file.writelines('\n# The text must be inside double quotes. You must escape double quotes and')
+                        output_file.writelines('\n# backslashes like so: \\", \\\\')
+                        output_file.writelines('\n#')
+                        output_file.writelines('\n# Comment out lines you don\'t want.')
+                        output_file.writelines('\n\nexclude:')
+                        for filter_text in filters.system_exclude:
+                            output_file.writelines(f'\n- "{filter_text}"')
+                        output_file.writelines('\ninclude:')
+                        for filter_text in filters.system_include:
+                            output_file.writelines(f'\n- "{filter_text}"')
+                except OSError as e:
+                    print(f'\n{Font.error_bold}* Error: {Font.end}{str(e)}\n')
+                    raise
+
+    if not os.path.exists('user-filters'):
+        try:
+            os.mkdir('user-filters')
+        except:
+            pass
+
+    if not os.path.exists('user-filters/global.yaml') or overwrite == True:
+        try:
+            with open('user-filters/global.yaml', 'w') as output_file:
+                output_file.writelines('---\n# Contains user defined strings that can be used to include or exclude')
+                output_file.writelines('\n# titles that Retool ordinarily wouldn\'t.')
+                output_file.writelines('\n#')
+                output_file.writelines('\n# This is the global include/exclude file, and will affect all dats.')
+                output_file.writelines('\n#')
+                output_file.writelines('\n# Refer to the readme-cli.md file in this folder for how to set up this file,')
+                output_file.writelines('\n# along with system include/exclude files.')
+                output_file.writelines('\n#')
+                output_file.writelines('\n# The text must be inside double quotes. You must escape double quotes and')
+                output_file.writelines('\n# backslashes like so: \\", \\\\')
+                output_file.writelines('\n#')
+                output_file.writelines('\n# Comment out lines you don\'t want.')
+                output_file.writelines('\n\nexclude:')
+                if filters == False:
+                    output_file.writelines('\n# - \'[b]\'')
+                    output_file.writelines('\n# - \'/.*?\(Virtual*\'\n')
+                elif type(filters) is not list:
+                    for filter_text in filters.global_exclude:
+                        output_file.writelines(f'\n- "{filter_text}"')
+                output_file.writelines('\ninclude:')
+                if filters == False:
+                    output_file.writelines('\n# - \'|My favorite title (Japan)\'')
+                elif type(filters) is not list:
+                    for filter_text in filters.global_include:
+                        output_file.writelines(f'\n- "{filter_text}"')
+
+                new_global_filter = True
+
+        except OSError as e:
+            print(f'\n{Font.error_bold}* Error: {Font.end}{str(e)}\n')
+            raise
+
+    if (
+        overwrite == False
+        and gui == False):
+        if new_user_config == True or new_global_filter == True:
+            file_list = []
+            if new_user_config == True:
+                file_list.append(f'* {Font.warning_bold}user-config.yaml{Font.warning}')
+            if new_global_filter == True:
+                file_list.append(f'* {Font.warning_bold}user-filters/global.yaml{Font.warning}')
+
+            file_list = '\n'.join(file_list)
+
+            printwrap(f'{Font.warning}It\'s likely this is the first time '
+                      'you\'ve run Retool. The following system files were '
+                      f'missing and have been created:', 'no_indent')
+
+            print(f'\n{file_list}\n')
+
+            if new_user_config == True:
+                printwrap(f'You might want to edit {Font.warning_bold}'
+                          f'user-config.yaml{Font.warning} to define a custom '
+                          f'region order, or to filter specific languages.',
+                          'no_indent')
+                print('')
+
+            printwrap(f'You can now run Retool normally.{Font.end}', 'no_indent')
+
+            sys.exit()
 
 
 def write_dat_file(input_dat, user_input, output_file_name, stats, titles, dat_numbered, REGEX):
@@ -72,6 +188,8 @@ def write_dat_file(input_dat, user_input, output_file_name, stats, titles, dat_n
 
     # Write the file
     try:
+        audit_list = {}
+
         if user_input.keep_remove == True:
             keep_remove_list = output_file_name[:-4] + ' auto keep-remove list.txt'
             user_remove_list = output_file_name[:-4] + ' user remove list.txt'
@@ -82,16 +200,12 @@ def write_dat_file(input_dat, user_input, output_file_name, stats, titles, dat_n
                 list_output.writelines(f'`-` is indented, then the title was removed because it was a clone of the\n')
                 list_output.writelines(f'title above it with a `+`.\n\n')
 
-                audit_list = {}
-
-                list_output.close()
+            list_output.close()
 
             if user_input.removed_titles != {}:
                 with open(user_remove_list, 'a') as list_output:
                     list_output.writelines(f'This file shows which titles have been removed from the output dat\n')
                     list_output.writelines(f'due to the user setting an option.\n')
-
-                audit_list = {}
 
                 list_output.close()
 
@@ -119,21 +233,26 @@ def write_dat_file(input_dat, user_input, output_file_name, stats, titles, dat_n
                     progress_percent = int(progress/progress_total*100)
 
                     if progress_old != progress_percent:
-                        sys.stdout.write("\033[K")
+                        if old_windows() != True:
+                            sys.stdout.write("\033[K")
                         print(f'* Writing dat file... [{str(progress_percent)}%]', sep='', end='\r', flush=True)
 
                     game_xml = ''
 
                     if title.cloneof == '':
                         game_xml = f'\t<game name="{html.escape(final_name, quote=False)}">'
-                        if user_input.keep_remove == True:
-                            if final_name not in audit_list:
-                                audit_list[final_name] = []
+                        if (
+                            user_input.keep_remove == True
+                            or user_input.list == True):
+                                if final_name not in audit_list:
+                                    audit_list[final_name] = []
                     else:
-                        if user_input.keep_remove == True:
-                            if title.cloneof not in audit_list:
-                                audit_list[title.cloneof] = []
-                            audit_list[title.cloneof].append(final_name)
+                        if (
+                            user_input.keep_remove == True
+                            or user_input.list == True):
+                                if title.cloneof not in audit_list:
+                                    audit_list[title.cloneof] = []
+                                audit_list[title.cloneof].append(final_name)
 
                         if user_input.legacy == True:
                             game_xml = f'\t<game name="{html.escape(final_name, quote=False)}" cloneof="{html.escape(title.cloneof, quote=False)}">'
@@ -162,28 +281,27 @@ def write_dat_file(input_dat, user_input, output_file_name, stats, titles, dat_n
 
                     rom_xml = ''.join(rom_xml)
 
-                    # Reverse engineer category for No-Intro
-                    if title.category == '':
-                        for program in REGEX.programs:
-                            if re.search(program, final_name) != None:
-                                title.category = "Applications"
-                        for demo in REGEX.demos:
-                            if re.search(demo, final_name) != None:
-                                title.category = "Demos"
-                        for preproduction in REGEX.preproduction:
-                            if re.search(preproduction, final_name) != None:
-                                title.category = "Preproduction"
-                    if title.category == '':
-                        title.category = "Games"
-
                     if game_xml != '':
+                        release = ''
+                        if user_input.legacy == True:
+                            region_list = title.regions.split(', ')
+                            language_list = title.languages.split(', ')
+
+                            release = []
+
+                            for region in region_list:
+                                for language in language_list:
+                                    release.append(f'\n\t\t<release name="{html.escape(title.description, quote=False)}" region="{region}" language="{language}"/>')
+
+                            release = ''.join(release)
+
                         final_xml[final_name] = (
                             f'{game_xml}\n\t\t'
                             f'<category>{html.escape(title.category, quote=False)}</category>\n\t\t'
                             f'<description>{html.escape(title.description, quote=False)}'
-                            f'</description>\n\t\t'
-                            f'<release name="{html.escape(title.description, quote=False)}"'
-                            f' region="{title.primary_region}"/>{rom_xml}\n\t</game>\n'
+                            f'</description>'
+                            f'{release}'
+                            f'{rom_xml}\n\t</game>\n'
                         )
 
                     progress_old = progress_percent
@@ -196,6 +314,44 @@ def write_dat_file(input_dat, user_input, output_file_name, stats, titles, dat_n
             for key in final_xml_sort:
                     output_file.writelines(final_xml[key])
 
+            # 1G1R list output, if --list is set
+            if user_input.list == True:
+                keep_list = output_file_name[:-4] + ' 1G1R list.txt'
+
+                with open(keep_list, 'w') as list_output:
+                    final_keep_sort = sorted(audit_list)
+                    final_keep_list = []
+
+                    for key in final_keep_sort:
+                        if audit_list[key] == []:
+                            final_keep_list.append(key)
+
+                    parents_clones = {}
+
+                    for key, values in audit_list.items():
+                        if values != []:
+                            parents_clones[key] = []
+
+                    if parents_clones != {}:
+                        final_parents_clones_sort = sorted(parents_clones)
+
+                        for title in final_parents_clones_sort:
+                            final_keep_list.append(title)
+
+                    final_keep_list = sorted(final_keep_list)
+
+                    for keep in final_keep_list:
+                        line = f'{user_input.user_config.data["list prefix"][0]}{keep}{user_input.user_config.data["list suffix"][0]}'
+                        if (
+                            user_input.user_config.data["list prefix"][0].startswith('http://')
+                            or user_input.user_config.data["list prefix"][0].startswith('https://')
+                            or user_input.user_config.data["list prefix"][0].startswith('ftp://')
+                        ):
+                            list_output.writelines(f'{urllib.parse.quote(line, safe="/").replace("http%3A//", "http://").replace("https%3A//", "https://").replace("ftp%3A//", "ftp://")}\n')
+                        else:
+                            list_output.writelines(f'{line}\n')
+
+            # Keep/remove lists output, if --log is set
             if user_input.keep_remove == True:
                 with open(user_remove_list, 'a') as list_output:
                     if user_input.removed_titles != {}:
@@ -210,18 +366,20 @@ def write_dat_file(input_dat, user_input, output_file_name, stats, titles, dat_n
                         list_output.writelines(f'\nTITLE TYPES REMOVED\n')
                         list_output.writelines(f'===================\n')
                         for key, values in user_input.removed_titles.items():
-                            list_output.writelines(f'* {key.upper().replace("_"," ")}\n')
+                            if values != []:
+                                list_output.writelines(f'* {key.upper().replace("_"," ")}\n')
 
                         list_output.writelines(f'\n')
                         for key, values in user_input.removed_titles.items():
-                            list_output.writelines(f'\n# {key.upper().replace("_"," ")}\n')
-                            underline = []
-                            for i in range(0,len(key) + 2):
-                                underline.append('=')
-                            list_output.writelines(f'{"".join(underline)}\n')
-                            for value in sorted(values, key=lambda x: natural_keys(x)):
-                                list_output.writelines(f'- {value}\n')
-                            list_output.writelines(f'\n')
+                            if values != []:
+                                list_output.writelines(f'\n# {key.upper().replace("_"," ")}\n')
+                                underline = []
+                                for i in range(0,len(key) + 2):
+                                    underline.append('=')
+                                list_output.writelines(f'{"".join(underline)}\n')
+                                for value in sorted(values, key=lambda x: natural_keys(x)):
+                                    list_output.writelines(f'- {value}\n')
+                                list_output.writelines(f'\n')
 
                     list_output.close()
 
@@ -260,8 +418,9 @@ def write_dat_file(input_dat, user_input, output_file_name, stats, titles, dat_n
             output_file.writelines('</datafile>')
             output_file.close()
 
-        sys.stdout.write("\033[K")
-        print('* Writing dat file... done.')
+        if old_windows() != True:
+            sys.stdout.write("\033[K")
+        print('* Writing dat file... done. ') # Intentional trailing space for Win 7
     except OSError as e:
         print(f'\n{Font.error_bold}* Error: {Font.end}{str(e)}\n')
         raise

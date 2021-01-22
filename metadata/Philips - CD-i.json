@@ -5,6 +5,9 @@
     "7th Guest, The (Europe) (Disc 1) (The Game)": {
         "languages": "En"
     },
+    "7th Guest, The (Europe) (Disc 1) (The Game) (Alt)": {
+        "languages": "En"
+    },
     "7th Guest, The (France) (Disc 1) (Le Jeu)": {
         "languages": "Fr"
     },
@@ -16,6 +19,15 @@
     },
     "ACT College Search '92, The (USA)": {
         "languages": ""
+    },
+    "ADI Francais-Maths 5eme (France)": {
+        "languages": "Fr"
+    },
+    "ADI Francais-Maths CE1 (France)": {
+        "languages": "Fr"
+    },
+    "ADI Francais-Maths CM2 (France)": {
+        "languages": "Fr"
     },
     "Affaire Morlov, L' (Europe) (En,Fr)": {
         "languages": "En, Fr"
@@ -206,6 +218,9 @@
     "CD-i Demonstration Disc (USA)": {
         "languages": "En"
     },
+    "CD-i voor Demonstratie van Breedbeeld TV (Netherlands)": {
+        "languages": ""
+    },
     "CDI 450 - Tutorial Disc (Europe) (En,Fr,De,Es,It,Nl,Pt)": {
         "languages": "Nl, En, Fr, De, It, Pt, Es"
     },
@@ -356,7 +371,10 @@
     "Dictionnaire Hachette Multimedia (France)": {
         "languages": "Fr"
     },
-    "Dictionnaire Hachette Multimedia (France) (Rerelease)": {
+    "Dictionnaire Hachette Multimedia (France) (1995)": {
+        "languages": "Fr"
+    },
+    "Dictionnaire Hachette Multimedia (France) (1995) (Version Digital Video)": {
         "languages": "Fr"
     },
     "Digital Video Demonstration Disc (USA)": {
@@ -403,6 +421,9 @@
     },
     "Earth Command (Netherlands)": {
         "languages": "Nl"
+    },
+    "Emperor's New Clothes, The (Europe)": {
+        "languages": ""
     },
     "Enkhuizer Almanak 1997 (Netherlands)": {
         "languages": "Nl"
@@ -911,6 +932,9 @@
     "Merlin's Apprentice (USA) (v1.11)": {
         "languages": "En"
     },
+    "Methode de Langues Multimedia, La - Je Parle l'Anglais - La Methode Junior (France)": {
+        "languages": ""
+    },
     "Micro Machines (Europe)": {
         "languages": "En"
     },
@@ -928,6 +952,9 @@
     },
     "Mother Goose - Hidden Pictures (USA)": {
         "languages": "En"
+    },
+    "Mother Goose - Images a Trouver (France)": {
+        "languages": ""
     },
     "Mother Goose - Rhymes to Color (Europe)": {
         "languages": "En"
@@ -1367,10 +1394,10 @@
     "Tim & Beer op het Vliegveld (Netherlands)": {
         "languages": "Nl"
     },
-    "Tim et Ted - A l' Hopital (France)": {
+    "Tim et Ted a l'Aeroport (France)": {
         "languages": "Fr"
     },
-    "Tim et Ted a l'Aeroport (France)": {
+    "Tim et Ted a l'Hopital (France)": {
         "languages": "Fr"
     },
     "Tim et Ted au Cinema (France)": {
@@ -1418,6 +1445,9 @@
     "Tresor de l'Ile aux Jeux, Le (France)": {
         "languages": "Fr"
     },
+    "UEFA Champions League 95-96 (France)": {
+        "languages": ""
+    },
     "UEFA Champions League 95-96 (Italy)": {
         "languages": "It"
     },
@@ -1442,6 +1472,9 @@
     "Uptown Blues, The (USA)": {
         "languages": "En"
     },
+    "Usine aux Crayons, L' (France)": {
+        "languages": "Fr"
+    },
     "Verhaengnisvolle Affaere, Eine (Germany) (Disc 1)": {
         "languages": "De"
     },
@@ -1460,6 +1493,9 @@
     "Ville Surprise de Richard Scarry 1, La (France)": {
         "languages": "Fr"
     },
+    "Ville Surprise de Richard Scarry 1, La (France) (Alt)": {
+        "languages": "Fr"
+    },
     "Ville Surprise de Richard Scarry 2, La (France)": {
         "languages": "Fr"
     },
@@ -1471,6 +1507,9 @@
     },
     "Visit to Sesame Street, A - Letters (USA) (19920225)": {
         "languages": "En"
+    },
+    "Visit to Sesame Street, A - Numbers (Europe)": {
+        "languages": ""
     },
     "Visit to Sesame Street, A - Numbers (USA)": {
         "languages": ""

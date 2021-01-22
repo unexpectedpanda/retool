@@ -3488,6 +3488,9 @@
     "Chou! Tanoshii Internet - Tomodachi no Wa (Japan) (Type-OS)": {
         "languages": "Ja"
     },
+    "Chou! Tanoshii Internet - Tomodachi no Wa (Japan) (Type-PG)": {
+        "languages": "Ja"
+    },
     "Chronicles of Narnia, The - Prince Caspian (Europe) (De,It)": {
         "languages": "De, It"
     },
@@ -6791,8 +6794,8 @@
     "Echo Night - Beyond (USA)": {
         "languages": "En"
     },
-    "Ed, Edd n Eddy - The Mis-Edventures (Europe)": {
-        "languages": "En"
+    "Ed, Edd n Eddy - The Mis-Edventures (Europe) (En,Fr)": {
+        "languages": "En, Fr"
     },
     "Ed, Edd n Eddy - The Mis-Edventures (USA)": {
         "languages": "En"
@@ -6943,6 +6946,9 @@
     },
     "Erde - Nezu no Ki no Shita de (Japan)": {
         "languages": "Ja"
+    },
+    "Eredita, L' (Italy)": {
+        "languages": "It"
     },
     "Escape from Monkey Island (Europe)": {
         "languages": "En"
@@ -9446,11 +9452,11 @@
     "God of War II - Shuuen e no Jokyoku (Japan)": {
         "languages": "Ja"
     },
-    "God of War II - Shuuen e no Jokyoku (Japan) (Taikenban)": {
-        "languages": "Ja"
-    },
     "God of War II - The Colossus Battle (USA) (Demo)": {
         "languages": "En"
+    },
+    "God of War II - The End Begins (Japan) (Taikenban)": {
+        "languages": "Ja"
     },
     "Godfather, The (Europe) (En,Nl,Pt,Sv,Da,Pl)": {
         "languages": "Da, Nl, En, Pl, Pt, Sv"
@@ -13412,9 +13418,6 @@
     "L no Kisetsu 2 - Invisible Memories (Japan)": {
         "languages": "Ja"
     },
-    "L'Eredita (Italy)": {
-        "languages": "It"
-    },
     "L.A. Rush (Europe, Australia) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
@@ -13582,12 +13585,6 @@
     },
     "Le Mans 24 Hours (USA) (En,Fr,Es)": {
         "languages": "En, Fr, Es"
-    },
-    "Le Monde des Bleus 2002 (France) (Demo)": {
-        "languages": "Fr"
-    },
-    "Le Monde des Bleus 2005 (France)": {
-        "languages": "Fr"
     },
     "Leaderboard Golf (Europe)": {
         "languages": "En"
@@ -15566,6 +15563,9 @@
     "Minna no Golf 4 (Japan) (v2.00)": {
         "languages": "Ja"
     },
+    "Minna no Golf Online (Japan)": {
+        "languages": "Ja"
+    },
     "Minna no Tennis (Japan)": {
         "languages": "Ja"
     },
@@ -15707,10 +15707,16 @@
     "Monde des Bleus 2002, Le (France)": {
         "languages": "Fr"
     },
+    "Monde des Bleus 2002, Le (France) (Demo)": {
+        "languages": "Fr"
+    },
     "Monde des Bleus 2003, Le - Un Nouveau Defi (France)": {
         "languages": "Fr"
     },
     "Monde des Bleus 2003, Le - Un Nouveau Defi (France) (Demo)": {
+        "languages": "Fr"
+    },
+    "Monde des Bleus 2005, Le (France)": {
         "languages": "Fr"
     },
     "Monkey Turn V (Japan)": {
@@ -22499,6 +22505,9 @@
     "Sega Ages 2500 Series Vol. 3 - Fantasy Zone (Japan)": {
         "languages": "Ja"
     },
+    "Sega Ages 2500 Series Vol. 30 - Galaxy Force II - Special Extended Edition (Japan)": {
+        "languages": "Ja"
+    },
     "Sega Ages 2500 Series Vol. 31 - Dennou Senki - Virtual On (Japan)": {
         "languages": "Ja"
     },
@@ -23088,6 +23097,9 @@
         "languages": "Ja"
     },
     "Shin Sangoku Musou 3 - Empires (Japan)": {
+        "languages": "Ja"
+    },
+    "Shin Sangoku Musou 3 - Empires (Japan) (Premium Box)": {
         "languages": "Ja"
     },
     "Shin Sangoku Musou 3 - Moushouden (Japan) (Shin Sangoku Musou Series Collection Joukan)": {
@@ -26729,10 +26741,10 @@
     "Tekken 4 (Europe) (Demo)": {
         "languages": "En"
     },
-    "Tekken 4 (Europe) (En,Fr,De,Es,It)": {
+    "Tekken 4 (Europe) (En,Fr,De,Es,It) (v1.00)": {
         "languages": "En, Fr, De, It, Es"
     },
-    "Tekken 4 (Europe, Australia) (En,Fr,De,Es,It)": {
+    "Tekken 4 (Europe, Australia) (En,Fr,De,Es,It) (v2.00)": {
         "languages": "En, Fr, De, It, Es"
     },
     "Tekken 4 (Japan, Asia)": {

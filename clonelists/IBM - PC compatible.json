@@ -3,7 +3,7 @@
 		"name": [
 			"IBM - PC compatible"
 		],
-		"last updated": "20 January 2021"
+		"last updated": "24 January 2021"
 	},
 
 	"compilations": [
@@ -1596,6 +1596,9 @@
 			["Devil May Cry 3 - Dante's Awakening (Special Edition)", 0],
 			["Devil May Cry 3 (Special Edition)", 0]
 		],
+		"Devil May Cry 4 (Disc 1)": [
+			["Devil May Cry 4", 0]
+		],
 		"Diablo": [
 			["Diablo (70AA7258)", 2],
 			["Bravo ScreenFun 8-2004 (Disc 1)", 3]
@@ -2986,10 +2989,12 @@
 			["PC Games Plus 6-97 (Disc 2)", 2]
 		],
 		"Hobbit, The - The Prelude to the Lord of the Rings (Disc 1)": [
-			["Hobbit, Der (Disc 1)", 1]
+			["Hobbit, Der (Disc 1)", 1],
+			["Hobbit, The - Reuangraao Anbpen Teemaa kong the Lord of the Rings (Disc 1)", 1]
 		],
 		"Hobbit, The - The Prelude to the Lord of the Rings (Disc 2)": [
-			["Hobbit, Der (Disc 2)", 1]
+			["Hobbit, Der (Disc 2)", 1],
+			["Hobbit, The - Reuangraao Anbpen Teemaa kong the Lord of the Rings (Disc 1)", 2]
 		],
 		"Hogs of War - Nati per Soffritto": [
 			["Frontschweine", 1]
@@ -3086,14 +3091,17 @@
 		],
 		"In Cold Blood (Disc 1)": [
 			["Revolution - 25th Anniversary Collection (Disc 1) (Revolution Games 1992 - 2010)", -1],
+			["A Sangue Freddo (Disc 1)", 1],
 			["Cold Blood (Disc 1)", 1]
 		],
 		"In Cold Blood (Disc 2)": [
 			["Revolution - 25th Anniversary Collection (Disc 1) (Revolution Games 1992 - 2010)", -1],
+			["A Sangue Freddo (Disc 2)", 1],
 			["Cold Blood (Disc 2)", 1]
 		],
 		"In Cold Blood (Disc 3)": [
 			["Revolution - 25th Anniversary Collection (Disc 1) (Revolution Games 1992 - 2010)", -1],
+			["A Sangue Freddo (Disc 3)", 1],
 			["Cold Blood (Disc 3)", 1]
 		],
 		"Incubation - Battle Isle Phase Four": [
@@ -5287,14 +5295,20 @@
 		],
 		"Settlers, The - Heritage of Kings (Disc 1)": [
 			["Settlers, The - Heritage of Kings - Gold Edition", -1],
+			["Siedler, Die - Das Erbe der Koenige - Gold Edition", -1],
 			["Settlers, The - Heritage of Kings", 0]
 		],
 		"Settlers, The - Heritage of Kings (Disc 2)": [
 			["Settlers, The - Heritage of Kings - Gold Edition", -1],
+			["Siedler, Die - Das Erbe der Koenige - Gold Edition", -1],
 			["Settlers, The - Heritage of Kings", 0]
 		],
 		"Settlers, The - Heritage of Kings - Expansion Disc": [
-			["Settlers, The - Heritage of Kings - Gold Edition", -1]
+			["Settlers, The - Heritage of Kings - Gold Edition", -1],
+			["Siedler, Die - Das Erbe der Koenige - Gold Edition", -1]
+		],
+		"Settlers, The - Heritage of Kings - Gold Edition": [
+			["Siedler, Die - Das Erbe der Koenige - Gold Edition", 1]
 		],
 		"Settlers II, The - Veni, Vidi, Vici": [
 			["Saga The Settlers I-IV (The Settlers I + II)", -1],
@@ -5879,6 +5893,9 @@
 		],
 		"Spike - The Hedgehog": [
 			["Spike - The Hedgehog (Dice)", 1]
+		],
+		"Split-Second": [
+			["Split-Second - Velocity", 1]
 		],
 		"Spy Fox in Dry Cereal": [
 			["Agent Fuchs in Das Milchkartell", 1],
@@ -6504,11 +6521,7 @@
 			["TrackMania Sunrise Extreme", -1]
 		],
 		"TrackMania United": [
-			["TrackMania United Forever", -1],
-			["TrackMania United Forever - Limited Edition", -1]
-		],
-		"TrackMania United Forever": [
-			["TrackMania United Forever - Limited Edition", 1]
+			["TrackMania United Forever", -1]
 		],
 		"Traitors Gate (Disc 1)": [
 			["Colpo grosso a London Tower (Disc 1)", 1]

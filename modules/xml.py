@@ -9,7 +9,7 @@ from bs4 import BeautifulSoup
 
 from modules.classes import Dat, DatNode
 from modules.titleutils import choose_parent, get_raw_title
-from modules.utils import Font, printverbose, printwrap
+from modules.utils import Font, old_windows, printverbose, printwrap
 
 
 def convert_clrmame_dat(input_dat, is_folder):
@@ -119,11 +119,17 @@ def dat_to_dict(region, region_data, input_dat, user_input, compilations_found, 
         progress_percent = int(progress/progress_total*100)
 
         if progress_old != progress_percent:
-            sys.stdout.write("\033[K")
-            print(
-                    f'* Checking dat for titles in provided regions... {region} [{progress_percent}%]',
-                    sep='', end='\r', flush=True
-                )
+            if old_windows() != True:
+                sys.stdout.write("\033[K")
+                print(
+                        f'* Finding titles in regions... {region} [{progress_percent}%]',
+                        sep='', end='\r', flush=True
+                    )
+            else:
+                print(
+                        f'* Finding titles in regions... {region} [{progress_percent}%]',
+                        end='\r', flush=True
+                    )
 
         # Drop xml nodes with categories the user has chosen to exclude
         def exclude_categories(category, regexes=[]):
@@ -149,6 +155,7 @@ def dat_to_dict(region, region_data, input_dat, user_input, compilations_found, 
         if exclude_categories('Audio') == True: continue
         if exclude_categories('Video') == True: continue
         if exclude_categories('BIOS', [REGEX.bios]) == True: continue
+        if exclude_categories('Console') == True: continue
         if exclude_categories('Educational') == True: continue
         if exclude_categories('Multimedia') == True: continue
         if exclude_categories('Preproduction', REGEX.preproduction) == True: continue
@@ -176,6 +183,83 @@ def dat_to_dict(region, region_data, input_dat, user_input, compilations_found, 
                         user_input.removed_titles['Compilations'] = []
                     user_input.removed_titles['Compilations'].append(node.description.parent['name'])
                     continue
+
+        # Drop XML nodes with custom strings the user has chosen to exclude
+        if user_input.no_filters == False:
+            # Check for invalid regex in the excludes and includes
+            def regex_test(list, list_name):
+                list_temp = list.copy()
+
+                for item in list_temp:
+                    if item.startswith('/'):
+                        try:
+                            re.compile(item[1:])
+                            regex_valid = True
+                        except:
+                            regex_valid = False
+
+                        if regex_valid == False:
+                            print(f'{Font.warning}* Invalid regex in {list_name}: "{item[1:]}". Ignoring.{Font.end}')
+                            list.remove(item)
+
+                return list
+
+            user_input.global_excludes = regex_test(user_input.global_excludes, 'global excludes')
+            user_input.global_includes = regex_test(user_input.global_includes, 'global includes')
+            user_input.system_excludes = regex_test(user_input.system_excludes, 'system excludes')
+            user_input.system_includes = regex_test(user_input.system_includes, 'system includes')
+
+            # Do the work of excluding titles
+            def user_excludes(filter_list_exclude, exclude_name_for_log, filter_list_include):
+                if user_input.removed_titles.get(exclude_name_for_log) == None:
+                    user_input.removed_titles[exclude_name_for_log] = []
+
+                exclude_match = False
+
+                for item in filter_list_exclude:
+                    # First test if the title matches any exclude strings
+                    if item.startswith('/'):
+                        if (
+                            re.search(item[1:], node.description.parent['name']) != None
+                            and node.description.parent['name'] not in filter_list_include):
+                                exclude_match = True
+                    elif item.startswith('|'):
+                        if item[1:] == node.description.parent['name']:
+                            exclude_match = True
+                    else:
+                        if item in node.description.parent['name']:
+                            exclude_match = True
+
+                # Now make sure there are no includes that override it. If not,
+                # add the title to the remove log
+                if exclude_match == True:
+                    for item in filter_list_include:
+                        if item.startswith('/'):
+                            if (
+                                re.search(item[1:], node.description.parent['name']) != None
+                                and node.description.parent['name'] not in filter_list_include):
+                                    return False
+                        elif item.startswith('|'):
+                            if item[1:] == node.description.parent['name']:
+                                return False
+                        elif item in node.description.parent['name']:
+                                return False
+
+                if exclude_match == True:
+                    user_input.removed_titles[exclude_name_for_log].append(node.description.parent['name'])
+
+                return exclude_match
+
+            # System excludes are overriden by system includes.
+            # Global excludes are overriden by global and system includes.
+            if user_excludes(
+                user_input.system_excludes,
+                'Custom system filter excludes',
+                user_input.system_includes) == True: continue
+            if user_excludes(
+                user_input.global_excludes,
+                'Custom global filter excludes',
+                user_input.global_includes + user_input.system_includes) == True: continue
 
         # Drop XML nodes that don't have roms or disks specified
         if (
@@ -270,7 +354,6 @@ def dat_to_dict(region, region_data, input_dat, user_input, compilations_found, 
 
                 if language_found == False and 'Unknown' not in disc_title.regions:
                     if disc_title in groups[group_name]: groups[group_name].remove(disc_title)
-                    # Get the language name
 
                     if 'Filtered languages' not in user_input.removed_titles:
                         user_input.removed_titles['Filtered languages'] = []
@@ -279,10 +362,17 @@ def dat_to_dict(region, region_data, input_dat, user_input, compilations_found, 
         progress_old = progress_percent
 
     # Remove the nodes from the soup object so processing other regions is quicker.
-    print(
-            f'* Checking dat for titles in provided regions... {region} [Finishing up...]',
-            sep='', end='\r', flush=True
+    if old_windows() != True:
+        print(
+                f'* Finding titles in regions... {region} [Finishing up...]',
+                sep='', end='\r', flush=True
+            )
+    else:
+        print(
+            f'* Finding titles in regions... {region} [Finishing up...]',
+            flush=True
         )
+
     for node in refined_region_xml:
         node.decompose()
 
@@ -418,7 +508,7 @@ def dat_to_dict(region, region_data, input_dat, user_input, compilations_found, 
     return groups
 
 
-def process_input_dat(dat_file, is_folder):
+def process_input_dat(dat_file, is_folder, gui=False):
     """ Prepares input dat file and converts to an object
 
     Returns a Dat object with the following populated:
@@ -440,10 +530,12 @@ def process_input_dat(dat_file, is_folder):
     else:
         next_status = ''
 
-    printwrap(f'* Reading dat file: "{Font.bold}{dat_file}{Font.end}"')
+    if gui == False:
+        printwrap(f'* Reading dat file: "{Font.bold}{dat_file}{Font.end}"')
     try:
         with open(dat_file, 'r') as input_file:
-            print('* Validating dat file... ', sep=' ', end='', flush=True)
+            if gui == False:
+                print('* Validating dat file... ', sep=' ', end='', flush=True)
             input_dat = Dat()
             input_dat.contents = input_file.readlines()
     except OSError as e:
@@ -457,7 +549,8 @@ def process_input_dat(dat_file, is_folder):
 
     # Check the dat file format -- if it's CLRMAMEPro format, convert it to LogiqX
     if 'clrmamepro' in input_dat.contents[0]:
-        print('file is a CLRMAMEPro dat file.')
+        if gui == False:
+            print('file is a CLRMAMEPro dat file.')
         input_dat = convert_clrmame_dat(input_dat, is_folder)
 
         # Go to the next file in a batch operation if something went wrong.
@@ -531,7 +624,8 @@ def process_input_dat(dat_file, is_folder):
                         else:
                             return 'end_batch'
                     else:
-                        print('file is a Logiqx dat file.')
+                        if gui == False:
+                            print('file is a Logiqx dat file.')
 
             except OSError as e:
                 printwrap(f'{Font.error_bold}* Error: {str(e)}{next_status}{Font.end}',
@@ -550,23 +644,38 @@ def process_input_dat(dat_file, is_folder):
             else:
                 return 'end_batch'
 
-    # Convert contents to BeautifulSoup object, remove original contents attribute
-    print('* Converting dat file to a searchable format... ', sep=' ', end='', flush=True)
-    input_dat.soup = BeautifulSoup(input_dat.contents, "lxml-xml")
-    del input_dat.contents
-    print('done.')
+    if gui == False:
+        # Convert contents to BeautifulSoup object, remove original contents attribute
+        print('* Converting dat file to a searchable format... ', sep=' ', end='', flush=True)
+        input_dat.soup = BeautifulSoup(input_dat.contents, "lxml-xml")
+        del input_dat.contents
+        print('done.')
 
-    # Set input dat header details
-    if input_dat.soup.find('header') != None:
-        for key, value in input_dat.__dict__.items():
-            if (
-                key != 'soup'
-                and key != 'user_options'
-                and value == 'Unknown'
-                and input_dat.soup.find(key) != None):
-                setattr(input_dat, key, input_dat.soup.find(key).string)
-            elif value == '':
-                setattr(input_dat, key, 'Unknown')
+        # Set input dat header details
+        if input_dat.soup.find('header') != None:
+            for key, value in input_dat.__dict__.items():
+                if (
+                    key != 'soup'
+                    and key != 'user_options'
+                    and value == 'Unknown'
+                    and input_dat.soup.find(key) != None):
+                    setattr(input_dat, key, input_dat.soup.find(key).string)
+                elif value == '':
+                    setattr(input_dat, key, 'Unknown')
+    else:
+        # Hacky quick search of the dat so we can set a system filter name
+        # quickly on larger files.
+        for line in input_dat.contents.splitlines():
+            if bool(re.search('<name>.*</name>', line)) == True:
+                input_dat.name = re.search('<name>.*</name>', line)[0]
+                input_dat.name = input_dat.name[6:-7]
+
+        input_dat.name = input_dat.name.replace('&amp;', '&')
+
+        for line in input_dat.contents.splitlines():
+            if bool(re.search('<url>.*</url>', line)) == True:
+                input_dat.url = re.search('<url>.*</url>', line)[0]
+                input_dat.url = input_dat.url[5:-6]
 
     # Remove Retool tag from name if it exists
     input_dat.name = input_dat.name.replace(' (Retool)', '')

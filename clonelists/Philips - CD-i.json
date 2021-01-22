@@ -3,7 +3,7 @@
 		"name": [
 			"Philips - CD-i"
 		],
-		"last updated": "21 January 2021"
+		"last updated": "24 January 2021"
 	},
 
 	"renames": {
@@ -34,6 +34,10 @@
 			["Burn-Cycle (Jeu)", 1],
 			["Burn-Cycle", 2]
 		],
+		"Dictionnaire Hachette Multimedia (1995) (Version Digital Video)": [
+			["Dictionnaire Hachette Multimedia (1995)", 2],
+			["Dictionnaire Hachette Multimedia", 3]
+		],
 		"Harvest of the Sun - Van Gogh - Une Moisson de Soleils": [
 			["Harvest of the Sun", 1],
 			["Oogst van de Zon", 1],
@@ -51,6 +55,9 @@
 		],
 		"Marco Polo (Disc 2) (The Documentation)": [
 			["Marco Polo (Disc 2) (La Documentation)", 1]
+		],
+		"Mother Goose - Hidden Pictures": [
+			["Mother Goose - Images a Trouver", 1]
 		],
 		"Paint School I": [
 			["Malarskolan", 1]
@@ -98,7 +105,7 @@
 		"Tim et Ted a l'Aeroport": [
 			["Tim & Beer op het Vliegveld", 1]
 		],
-		"Tim et Ted - A l' Hopital": [
+		"Tim et Ted a l'Hopital": [
 			["Tim & Beer in het Ziekenhuis", 1]
 		],
 		"Time Life Presents - 35mm Photography": [
