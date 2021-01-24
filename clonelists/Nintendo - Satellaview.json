@@ -1,0 +1,30 @@
+{
+    "description": {
+        "name": [
+			"Nintendo - Satellaview"
+		],
+        "last updated": "21 January 2021"
+    },
+
+    "renames": {
+        "BS F-Zero Grand Prix 2 - Practice (12-6)": [
+            ["BS F-Zero Grand Prix 2 - Practice (10-23)", 2]
+        ],
+        "BS Fire Emblem - Akaneia Senki Hen - Dai-1-wa - Palace Kanraku (9-29) (SoundLink)": [
+            ["BS Fire Emblem - Akaneia Senki Hen - Dai-1-wa - Palace Kanraku (4-4) (SoundLink)", 2]
+        ],
+        "BS Fire Emblem - Akaneia Senki Hen - Dai-4-wa - Hajimari no Toki (4-29) (SoundLink)": [
+            ["BS Fire Emblem - Akaneia Senki Hen - Dai-4-wa - Hajimari no Toki (4-28) (SoundLink)", 2]
+        ],
+        "BS Nintendo HP - 10-18 Gou": [
+            ["BS Nintendo HP - 5-31 Gou", 2],
+            ["BS Nintendo HP - 5-17 Gou", 3]
+        ],
+        "BS Parlor! Parlor! - Dai-2-shuu (5-13) (SoundLink)": [
+            ["BS Parlor! Parlor! - Dai-2-shuu (3-13) (SoundLink)", 2]
+        ],
+        "BS Super Mario Collection - Dai-3-shuu (3-17) (SoundLink)": [
+            ["BS Super Mario Collection - Dai-3-shuu (1-13)", 2]
+        ]
+    }
+}
