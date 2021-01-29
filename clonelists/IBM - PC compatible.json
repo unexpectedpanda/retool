@@ -55,6 +55,10 @@
 		}
 	},
 
+	"overrides": {
+		"Doom (USA, Europe) (En,Ja,Fr,De,Es,It,Pt,Zh,Pl,Ru)": ["Doom 2016", false]
+	},
+
 	"renames": {
 		"007 - Quantum of Solace": [
 			["007 - Kvant miloserdija", 1]

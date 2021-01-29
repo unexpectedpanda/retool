@@ -6,7 +6,7 @@
 			"Nintendo - GameCube - NKit ISO",
 			"Nintendo - GameCube - NASOs"
 		],
-		"last updated": "20 January 2021"
+		"last updated": "29 January 2021"
 	},
 
 	"compilations": [
@@ -17,6 +17,10 @@
 		"2 Games in 1 - Nickelodeon SpongeBob Schwammkopf - Der Film + Nickelodeon Tak 2 - Der Stab der Traeume (Germany) (Disc 1)",
 		"2 Games in 1 - Nickelodeon SpongeBob Schwammkopf - Der Film + Nickelodeon Tak 2 - Der Stab der Traeume (Germany) (Disc 2)"
 	],
+
+	"overrides": {
+		"Disney Sports - Football (Europe) (En,Fr,De,Es,It)": ["Disney Sports - Soccer", false]
+	},
 
 	"renames": {
 		"007 - Agent Under Fire": [
@@ -442,7 +446,7 @@
 		"Nickelodeon SpongeBob SquarePants - The Movie": [
 			["Nickelodeon SpongeBob Schwammkopf - Der Film", 1]
 		],
-		"Nickelodeon Tak - The Great Juju Challenge": [
+		"Tak and the Power of Juju": [
 			["Tak & Le Pouvoir de Juju", 1],
 			["Tak und die Macht des Juju", 1]
 		],
