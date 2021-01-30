@@ -104,10 +104,10 @@
     "16 Tales 4 (USA)": {
         "languages": "En"
     },
-    "19 ji 03 pun - Ueno-hatsu Yakou Ressha (Japan)": {
+    "19-ji 03-pun - Ueno-hatsu Yakou Ressha (Japan)": {
         "languages": "Ja"
     },
-    "19 ji 03 pun - Ueno-hatsu Yakou Ressha (Japan) (Demo)": {
+    "19-ji 03-pun - Ueno-hatsu Yakou Ressha (Japan) (Demo)": {
         "languages": "Ja"
     },
     "1Xtreme (USA)": {
@@ -1139,7 +1139,7 @@
     "Ape Escape (USA)": {
         "languages": "En"
     },
-    "Ape Escape (USA) (Demo 1) (EDC)": {
+    "Ape Escape (USA) (Demo 1)": {
         "languages": "En"
     },
     "Ape Escape (USA) (Demo 2)": {
@@ -1548,6 +1548,9 @@
         "languages": ""
     },
     "Assault (Europe) (En,Fr,De,Es,It)": {
+        "languages": "En, Fr, De, It, Es"
+    },
+    "Assault (Europe) (En,Fr,De,Es,It) (Demo)": {
         "languages": "En, Fr, De, It, Es"
     },
     "Assault - Retribution (USA)": {
@@ -2280,7 +2283,7 @@
         "languages": "Ja"
     },
     "Beavis and Butt-Head - Virtual Aho Shoukougun (Japan)": {
-        "languages": ""
+        "languages": "Ja"
     },
     "Bedlam (Europe) (En,Fr,De,Es,It,Nl)": {
         "languages": "Nl, En, Fr, De, It, Es"
@@ -3869,7 +3872,7 @@
     "Chou Mashin Eiyuuden Wataru - Another Step (Japan)": {
         "languages": "Ja"
     },
-    "Chou Nazoou (Japan)": {
+    "Chou Nazo-ou (Japan)": {
         "languages": "Ja"
     },
     "Chou Sentou Kyuugi Vanborg (Japan)": {
@@ -6638,14 +6641,14 @@
     "Disney-Pixar Les Aventures de Buzz L'Eclair (France)": {
         "languages": "Fr"
     },
-    "Disney-Pixar Monster & Co. - L'Isola dello Spavento (Italy)": {
-        "languages": "It"
-    },
     "Disney-Pixar Monsterbedriften - Skrekkoya (Norway)": {
         "languages": "No"
     },
     "Disney-Pixar Monsterit Oy - Saeikkysaari (Finland)": {
         "languages": "Fi"
+    },
+    "Disney-Pixar Monsters & Co. - L'Isola dello Spavento (Italy)": {
+        "languages": "It"
     },
     "Disney-Pixar Monsters en Co. - Schrik Eiland (Netherlands)": {
         "languages": "Nl"
@@ -11480,6 +11483,9 @@
     "Guilty Gear (USA)": {
         "languages": "En"
     },
+    "Guilty Gear (USA) (Rev 1)": {
+        "languages": "En"
+    },
     "Guitar Freaks (Japan)": {
         "languages": "Ja"
     },
@@ -11829,6 +11835,9 @@
         "languages": "En"
     },
     "Head to Toe 4 (USA)": {
+        "languages": "En"
+    },
+    "Heart of Darkness (Europe) (Demo)": {
         "languages": "En"
     },
     "Heart of Darkness (Europe) (Disc 1)": {
@@ -15119,9 +15128,6 @@
     "Lethal Enforcers I & II (USA)": {
         "languages": "En"
     },
-    "Libero Grande 2 (Japan)": {
-        "languages": "Ja"
-    },
     "LiberoGrande (Europe)": {
         "languages": "En"
     },
@@ -15132,6 +15138,9 @@
         "languages": "Ja"
     },
     "LiberoGrande (Japan) (Demo)": {
+        "languages": "Ja"
+    },
+    "LiberoGrande 2 (Japan)": {
         "languages": "Ja"
     },
     "Liberogrande International (Europe) (En,Fr,De,Es,It)": {
@@ -19304,10 +19313,10 @@
     "Official U.S. PlayStation Magazine Demo Disc 42 (USA)": {
         "languages": "En"
     },
-    "Official U.S. PlayStation Magazine Demo Disc 43 (USA) (EDC)": {
+    "Official U.S. PlayStation Magazine Demo Disc 43 (USA)": {
         "languages": "En"
     },
-    "Official U.S. PlayStation Magazine Demo Disc 43 (USA) (No EDC)": {
+    "Official U.S. PlayStation Magazine Demo Disc 43 (USA) (EDC)": {
         "languages": "En"
     },
     "Official U.S. PlayStation Magazine Demo Disc 44 (USA)": {
@@ -19784,10 +19793,10 @@
     "PSi2 Disc Two (UK) (Unl)": {
         "languages": "En"
     },
-    "PSone - Wherever, Whenever, Forever. (USA) (EDC)": {
+    "PSone - Wherever, Whenever, Forever. (USA)": {
         "languages": "En"
     },
-    "PSone - Wherever, Whenever, Forever. (USA) (No EDC)": {
+    "PSone - Wherever, Whenever, Forever. (USA) (EDC)": {
         "languages": "En"
     },
     "PSone Xmas Special (France)": {
@@ -20501,10 +20510,10 @@
     "Pizza Hut Disc 1 (USA)": {
         "languages": "En"
     },
-    "Pizza Hut Disc 2 (USA) (EDC)": {
+    "Pizza Hut Disc 2 (USA)": {
         "languages": "En"
     },
-    "Pizza Hut Disc 2 (USA) (No EDC)": {
+    "Pizza Hut Disc 2 (USA) (EDC)": {
         "languages": "En"
     },
     "Planet Dob (Japan)": {
@@ -21029,7 +21038,7 @@
     "Pocke-Kano - Aida Yumi (Japan)": {
         "languages": "Ja"
     },
-    "Pocke-Kano - Hojoin Shizuka (Japan)": {
+    "Pocke-Kano - Houjouin Shizuka (Japan)": {
         "languages": "Ja"
     },
     "Pocke-Kano - Ueno Fumio (Japan)": {
@@ -27479,6 +27488,9 @@
     "Tekken 2 (Europe)": {
         "languages": "En"
     },
+    "Tekken 2 (Europe) (EDC)": {
+        "languages": "En"
+    },
     "Tekken 2 (Japan)": {
         "languages": "Ja"
     },
@@ -28478,10 +28490,10 @@
     "Tomb Raider III - Adventures of Lara Croft (Europe)": {
         "languages": "En"
     },
-    "Tomb Raider III - Adventures of Lara Croft (Europe) (Rev 1) (EDC)": {
+    "Tomb Raider III - Adventures of Lara Croft (Europe) (Rev 1)": {
         "languages": "En"
     },
-    "Tomb Raider III - Adventures of Lara Croft (Europe) (Rev 1) (No EDC)": {
+    "Tomb Raider III - Adventures of Lara Croft (Europe) (Rev 1) (EDC)": {
         "languages": "En"
     },
     "Tomb Raider III - Adventures of Lara Croft (Germany)": {
@@ -29288,7 +29300,7 @@
     "Umezawa Yukari no Taikyoku Igo - Heisei Kiin II (Japan)": {
         "languages": "Ja"
     },
-    "Umi no Nushi Tsuri - Takarajima ni Mukatte (Japan)": {
+    "Umi no Nushi-tsuri - Takarajima ni Mukatte (Japan)": {
         "languages": "Ja"
     },
     "Umi no Oh! Yah! (Japan)": {
@@ -29390,7 +29402,7 @@
     "Utauta Woo - Seirei-Songs (Japan)": {
         "languages": "Ja"
     },
-    "Utchan Nanchan no Honoo no Challenger - Denryuu Ira Ira Bou Returns (Japan)": {
+    "Utchan Nanchan no Honoo no Challenger - Denryuu Iraira-bou Returns (Japan)": {
         "languages": "Ja"
     },
     "V-Ball - Beach Volley Heroes (Europe)": {

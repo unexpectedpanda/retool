@@ -2642,6 +2642,9 @@
     "Burnout Dominator (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
+    "Burnout Dominator (Japan)": {
+        "languages": "Ja"
+    },
     "Burnout Dominator (USA)": {
         "languages": "En"
     },
@@ -5639,11 +5642,11 @@
     "Disney-Pixar Los Increibles (Spain)": {
         "languages": "Es"
     },
-    "Disney-Pixar Monster & Co. - L'Isola dello Spavento (Italy)": {
-        "languages": "It"
-    },
     "Disney-Pixar Monsterit Oy - Saeikkysaari (Finland)": {
         "languages": "Fi"
+    },
+    "Disney-Pixar Monsters & Co. - L'Isola dello Spavento (Italy)": {
+        "languages": "It"
     },
     "Disney-Pixar Monsters en Co. - Schrik Eiland (Netherlands)": {
         "languages": "Nl"
@@ -8957,6 +8960,9 @@
     "GameShark 2 - Video Game Enhancer (USA) (En,Fr,Es,Pt) (Unl) (v2.01) (Alt)": {
         "languages": "En, Fr, Pt, Es"
     },
+    "GameShark 2 - Video Game Enhancer (USA) (Unl) (v1.3)": {
+        "languages": "En"
+    },
     "GameShark 2 - Video Game Enhancer (USA) (Unl) (v1.99d)": {
         "languages": "En"
     },
@@ -9523,6 +9529,18 @@
     },
     "GoldenEye - Rogue Agent (USA)": {
         "languages": "En"
+    },
+    "Golf Navigator Vol. 1 - Caledonian Golf Club, Soubu Country Club - Soubu Course (Japan)": {
+        "languages": "Ja"
+    },
+    "Golf Navigator Vol. 2 - Kawagoe Country Club, Shizuoka Country Hamaoka Course - Takamatsu Course (Japan)": {
+        "languages": "Ja"
+    },
+    "Golf Navigator Vol. 3 - Rope Club, Taiheiyou Associates - Sherwood Course (Japan)": {
+        "languages": "Ja"
+    },
+    "Golf Navigator Vol. 4 - Taiheiyou Club - Gotenba Course, Ishioka Golf Club (Japan)": {
+        "languages": "Ja"
     },
     "Golf Paradise (Japan)": {
         "languages": "Ja"

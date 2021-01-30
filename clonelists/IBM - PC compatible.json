@@ -3,7 +3,7 @@
 		"name": [
 			"IBM - PC compatible"
 		],
-		"last updated": "24 January 2021"
+		"last updated": "30 January 2021"
 	},
 
 	"compilations": [
@@ -110,10 +110,12 @@
 			["Agatha Christie - Evil Under the Sun", 0]
 		],
 		"Agatha Christie - Murder on the Orient Express (Disc 1)": [
-			["Agatha Christie - Triple Murder Mystery Pack", -1]
+			["Agatha Christie - Triple Murder Mystery Pack", -1],
+			["Agatha Christie - Assassinio sull'Orient Express (Disc 1)", 1]
 		],
 		"Agatha Christie - Murder on the Orient Express (Disc 2)": [
-			["Agatha Christie - Triple Murder Mystery Pack", -1]
+			["Agatha Christie - Triple Murder Mystery Pack", -1],
+			["Agatha Christie - Assassinio sull'Orient Express (Disc 2)", 1]
 		],
 		"Age of Empires - The Rise of Rome Expansion": [
 			["Age of Empires - Collector's Edition", -1],
@@ -1394,6 +1396,12 @@
 		"CSI - Crime Scene Investigation (Disc 1)": [
 			["Experts, Les - Une Aventure Palpitante au Coeur du Crime", 1]
 		],
+		"CSI - Crime Scene Investigation - 3 Dimensions of Murder (Disc 1)": [
+			["CSI - Crime Scene Investigation - 3 Dimensions of Murder", 0]
+		],
+		"CSI - Crime Scene Investigation - 3 Dimensions of Murder (Disc 2)": [
+			["CSI - Crime Scene Investigation - 3 Dimensions of Murder", 0]
+		],
 		"Cue Club": [
 			["CueClub", 1]
 		],
@@ -1725,6 +1733,9 @@
 		"Disney's The Emperor's New Groove Action Game": [
 			["Disney Le Follie dell'Imperatore", 1],
 			["Disneys Ein Koenigreich fuer ein Lama - Action Game", 1]
+		],
+		"Disney's The Lion King": [
+			["Disney Il Re Leone", 1]
 		],
 		"Disney's The Lion King II - Simba's Pride": [
 			["Disney Il Re Leone II - Il Regno di Simba - Gamebreak!", 1],
@@ -2483,6 +2494,12 @@
 			["Bravo ScreenFun 6-2004", 1],
 			["Ford Racing 2001", 1]
 		],
+		"Forever Worlds - Enter the Unknown (Disc 1)": [
+			["Forever Worlds - Entrez dans l'Inconnu (Disc 1)", 1]
+		],
+		"Forever Worlds - Enter the Unknown (Disc 2)": [
+			["Forever Worlds - Entrez dans l'Inconnu (Disc 2)", 1]
+		],
 		"Forgotten Realms - Demon Stone (Disc 1) (Install Disc)": [
 			["Forgotten Realms - Demon Stone", 0]
 		],
@@ -3152,6 +3169,9 @@
 		],
 		"IndyCar Racing II": [
 			["Best of Sierra Nr. 12", 1]
+		],
+		"Insaniquarium!": [
+			["Insaniquarium! Deluxe", -1]
 		],
 		"Interstate '76 (Disc 1) (Install CD)": [
 			["Interstate '76 (Disc 1) (Installations-CD)", 1],
@@ -7280,16 +7300,16 @@
 			["Halloween Harry in Zombie Wars", 1]
 		],
 		"Zoo Tycoon": [
-			["Zoo Tycoon Complete Collection", -1]
+			["Zoo Tycoon - Complete Collection", -1]
 		],
 		"Zoo Tycoon - Dinosaur Digs": [
-			["Zoo Tycoon Complete Collection", -1]
+			["Zoo Tycoon - Complete Collection", -1]
 		],
 		"Zoo Tycoon - Marine Mania": [
-			["Zoo Tycoon Complete Collection", -1]
+			["Zoo Tycoon - Complete Collection", -1]
 		],
 		"Zoo Tycoon - Marine Mania & Dinosaur Digs": [
-			["Zoo Tycoon Complete Collection", -1]
+			["Zoo Tycoon - Complete Collection", -1]
 		],
 		"Zoo Tycoon 2": [
 			["Zoo Tycoon 2 - Ultimate Collection (Disc 1)", -1]

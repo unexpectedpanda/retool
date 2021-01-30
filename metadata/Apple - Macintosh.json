@@ -35,16 +35,31 @@
     "3DO Content Library, The (USA) (Disc 1) (Textures & Photos Thumb Nails)": {
         "languages": "En"
     },
+    "3DO Content Library, The (USA) (Disc 1) (Textures & Photos)": {
+        "languages": "En"
+    },
     "3DO Content Library, The (USA) (Disc 10) (Music & Sound Effects)": {
+        "languages": "En"
+    },
+    "3DO Content Library, The (USA) (Disc 10) (Textures & Photos)": {
         "languages": "En"
     },
     "3DO Content Library, The (USA) (Disc 11) (Music & Sound Effects)": {
         "languages": "En"
     },
+    "3DO Content Library, The (USA) (Disc 11) (Textures & Photos)": {
+        "languages": "En"
+    },
     "3DO Content Library, The (USA) (Disc 12) (Music & Sound Effects)": {
         "languages": "En"
     },
+    "3DO Content Library, The (USA) (Disc 12) (Textures & Photos)": {
+        "languages": "En"
+    },
     "3DO Content Library, The (USA) (Disc 13) (Music & Sound Effects)": {
+        "languages": "En"
+    },
+    "3DO Content Library, The (USA) (Disc 13) (Textures & Photos)": {
         "languages": "En"
     },
     "3DO Content Library, The (USA) (Disc 14) (Music & Sound Effects)": {
@@ -78,6 +93,9 @@
         "languages": "En"
     },
     "3DO Content Library, The (USA) (Disc 2) (Textures & Photos Thumb Nails)": {
+        "languages": "En"
+    },
+    "3DO Content Library, The (USA) (Disc 2) (Textures & Photos)": {
         "languages": "En"
     },
     "3DO Content Library, The (USA) (Disc 20) (Music & Sound Effects)": {
@@ -116,6 +134,9 @@
     "3DO Content Library, The (USA) (Disc 3) (Music & Sound Effects)": {
         "languages": "En"
     },
+    "3DO Content Library, The (USA) (Disc 3) (Textures & Photos)": {
+        "languages": "En"
+    },
     "3DO Content Library, The (USA) (Disc 30) (Music & Sound Effects)": {
         "languages": "En"
     },
@@ -147,6 +168,9 @@
         "languages": "En"
     },
     "3DO Content Library, The (USA) (Disc 4) (Music & Sound Effects)": {
+        "languages": "En"
+    },
+    "3DO Content Library, The (USA) (Disc 4) (Textures & Photos)": {
         "languages": "En"
     },
     "3DO Content Library, The (USA) (Disc 40) (Music & Sound Effects)": {
@@ -185,6 +209,9 @@
     "3DO Content Library, The (USA) (Disc 5) (Music & Sound Effects)": {
         "languages": "En"
     },
+    "3DO Content Library, The (USA) (Disc 5) (Textures & Photos)": {
+        "languages": "En"
+    },
     "3DO Content Library, The (USA) (Disc 50) (Music & Sound Effects)": {
         "languages": "En"
     },
@@ -197,13 +224,25 @@
     "3DO Content Library, The (USA) (Disc 6) (Music & Sound Effects)": {
         "languages": "En"
     },
+    "3DO Content Library, The (USA) (Disc 6) (Textures & Photos)": {
+        "languages": "En"
+    },
     "3DO Content Library, The (USA) (Disc 7) (Music & Sound Effects)": {
+        "languages": "En"
+    },
+    "3DO Content Library, The (USA) (Disc 7) (Textures & Photos)": {
         "languages": "En"
     },
     "3DO Content Library, The (USA) (Disc 8) (Music & Sound Effects)": {
         "languages": "En"
     },
+    "3DO Content Library, The (USA) (Disc 8) (Textures & Photos)": {
+        "languages": "En"
+    },
     "3DO Content Library, The (USA) (Disc 9) (Music & Sound Effects)": {
+        "languages": "En"
+    },
+    "3DO Content Library, The (USA) (Disc 9) (Textures & Photos)": {
         "languages": "En"
     },
     "3DO Dev Sym III July 18-20, '94 Session Slides (USA)": {
@@ -1007,7 +1046,31 @@
     "MacPeople 1999 No. 14 7.15 (Japan)": {
         "languages": ""
     },
+    "MacPeople 1999 No. 15 8.1 (Japan)": {
+        "languages": ""
+    },
+    "MacPeople 1999 No. 16 8.15 (Japan)": {
+        "languages": ""
+    },
+    "MacPeople 1999 No. 19 10.1 (Japan)": {
+        "languages": ""
+    },
     "MacPeople 1999 No. 2 1.15 (Japan)": {
+        "languages": ""
+    },
+    "MacPeople 1999 No. 20 10.15 (Japan)": {
+        "languages": ""
+    },
+    "MacPeople 1999 No. 21 11.1 (Japan)": {
+        "languages": ""
+    },
+    "MacPeople 1999 No. 22 11.15 (Japan)": {
+        "languages": ""
+    },
+    "MacPeople 1999 No. 23 12.1 (Japan)": {
+        "languages": ""
+    },
+    "MacPeople 1999 No. 24 12.15-1.1 (Japan)": {
         "languages": ""
     },
     "MacPeople 1999 No. 3 2.1 (Japan)": {
@@ -1186,6 +1249,9 @@
     },
     "Quake III - Arena (Europe)": {
         "languages": "En"
+    },
+    "Quantum Gate I - Akumu no Joshou (Japan)": {
+        "languages": ""
     },
     "Racing Days R (Europe) (En,Fr,De)": {
         "languages": "En, Fr, De"
@@ -1504,6 +1570,15 @@
     },
     "Virtual Variety Show (Japan)": {
         "languages": "Ja"
+    },
+    "Vortex, The - Quantum Gate II (Japan) (Disc 1)": {
+        "languages": ""
+    },
+    "Vortex, The - Quantum Gate II (Japan) (Disc 2)": {
+        "languages": ""
+    },
+    "Vortex, The - Quantum Gate II (Japan) (Disc 3)": {
+        "languages": ""
     },
     "Wacky Races (Japan)": {
         "languages": "Ja"
