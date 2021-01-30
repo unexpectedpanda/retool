@@ -4559,11 +4559,14 @@
     "Official Xbox Magazine Game Disc 49 (USA)": {
         "languages": "En"
     },
-    "Official Xbox Magazine Game Disc 50 (Europe) (En,Fr,De,Es,It,Pt)": {
+    "Official Xbox Magazine Game Disc 50 (Europe, Australia) (En,Fr,De,Es,It,Pt)": {
         "languages": "En, Fr, De, It, Pt, Es"
     },
     "Official Xbox Magazine Game Disc 50 (USA)": {
         "languages": "En"
+    },
+    "Official Xbox Magazine Game Disc 51 (Australia)": {
+        "languages": ""
     },
     "Official Xbox Magazine Game Disc 51 (Europe) (En,Fr,De,It,Pt)": {
         "languages": "En, Fr, De, It, Pt"
@@ -4577,7 +4580,7 @@
     "Official Xbox Magazine Game Disc 52 (USA)": {
         "languages": "En"
     },
-    "Official Xbox Magazine Game Disc 53 (Europe) (En,Fr,Pt)": {
+    "Official Xbox Magazine Game Disc 53 (Europe, Australia) (En,Fr,Pt)": {
         "languages": "En, Fr, Pt"
     },
     "Official Xbox Magazine Game Disc 53 (USA)": {

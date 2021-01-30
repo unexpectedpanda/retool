@@ -3,7 +3,7 @@
         "name": [
 			"Sony - PlayStation"
 		],
-        "last updated": "29 January 2021"
+        "last updated": "30 January 2021"
     },
 
     "overrides": {
@@ -720,7 +720,7 @@
 		],
 		"Disney-Pixar Monsters, Inc. - Scream Team": [
 			["Disney-Pixar Die Monster AG - Schreckens-Insel", 1],
-			["Disney-Pixar Monster & Co. - L'Isola dello Spavento", 1],
+			["Disney-Pixar Monsters & Co. - L'Isola dello Spavento", 1],
 			["Disney-Pixar Monsterbedriften - Skrekkoya", 1],
 			["Disney-Pixar Monsterit Oy - Saeikkysaari", 1],
 			["Disney-Pixar Monsters en Co. - Schrik Eiland", 1],
@@ -1352,7 +1352,7 @@
 			["Invasion Vient de l'Espace, L'", 1]
 		],
 		"Irritating Stick": [
-			["Utchan Nanchan no Honoo no Challenger - Denryuu Ira Ira Bou Returns", 1]
+			["Utchan Nanchan no Honoo no Challenger - Denryuu Iraira-bou Returns", 1]
 		],
 		"ISS Pro Evolution": [
 			["World Soccer Jikkyou Winning Eleven 4", 1]
@@ -1507,7 +1507,7 @@
 			["Lethal Enforcers Deluxe Pack", 1]
 		],
 		"Liberogrande International": [
-			["Libero Grande 2", 1]
+			["LiberoGrande 2", 1]
 		],
 		"LMA Manager": [
 			["Manager de Liga", 1]
@@ -2626,6 +2626,7 @@
 		],
 		"Tomba!": [
 			["Ore! Tomba", 1],
+			["Tombi", 1],
 			["Tombi!", 1]
 		],
 		"Tomba! 2 - The Evil Swine Return": [
