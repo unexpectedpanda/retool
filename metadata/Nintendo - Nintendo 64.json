@@ -872,6 +872,9 @@
 	"Glover (USA) (Beta) (1998-07-16)": {
 		"languages": "En"
 	},
+	"Glover (USA) (Rev 1) (Proto)": {
+		"languages": "En"
+	},
 	"Glover 2 (USA) (Proto 2)": {
 		"languages": "En"
 	},
@@ -2923,6 +2926,9 @@
 	},
 	"Wetrix (USA) (En,Fr,De,Es,It,Nl)": {
 		"languages": "En,Fr,De,Es,It,Nl"
+	},
+	"Whack 'n' Roll (Unknown) (Beta)": {
+		"languages": "En"
 	},
 	"Wheel of Fortune (USA)": {
 		"languages": "En"

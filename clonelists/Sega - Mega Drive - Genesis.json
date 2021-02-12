@@ -3,7 +3,7 @@
 		"name": [
 			"Sega - Mega Drive - Genesis"
 		],
-		"last updated": "21 January 2021"
+		"last updated": "12 February 2021"
     },
 
     "overrides": {
@@ -275,6 +275,9 @@
         ],
         "Jesse 'The Body' Ventura - Wrestling Superstars": [
             ["Thunder Pro Wrestling Retsuden", 1]
+        ],
+        "Joe Montana II - Sports Talk Football": [
+            ["Joe Montana II Sports Talk Football", 2]
         ],
         "John Madden Football '92": [
             ["John Madden Football - Pro Football", 1]
@@ -655,7 +658,7 @@
         "Two Crude Dudes": [
             ["Crude Buster", 1]
         ],
-        "Tyrants - Fight through Time": [
+        "Tyrants - Fight Through Time": [
             ["Mega lo Mania", 1],
             ["Mega-lo-Mania", 1]
         ],

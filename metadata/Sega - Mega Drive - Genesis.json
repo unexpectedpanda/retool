@@ -239,6 +239,9 @@
 	"Alisia Dragoon (USA)": {
 		"languages": "En"
 	},
+	"Alter Ego (World) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
 	"Altered Beast (USA, Europe)": {
 		"languages": "En"
 	},
@@ -536,13 +539,13 @@
 	"Battle Squadron (USA, Europe)": {
 		"languages": "En"
 	},
-	"Battle Squadron (USA, Europe) (1991-01-18) (Sega Channel)": {
+	"Battle Squadron (USA, Europe) (Rev 1) (Beta) (1991-01-18) (Sega Channel)": {
 		"languages": "En"
 	},
 	"Battlemaster (USA)": {
 		"languages": "En"
 	},
-	"BattleTech - A Game of Armored Combat (USA)": {
+	"Battletech - A Game of Armored Combat (USA)": {
 		"languages": "En"
 	},
 	"Battletoads (World)": {
@@ -659,7 +662,7 @@
 	"Beyond Oasis (USA) (Beta) (1994-11-01)": {
 		"languages": "En"
 	},
-	"Beyond Zero Tolerance (USA) (Proto)": {
+	"Beyond Zero Tolerance (USA) (Proto) (1995-06-23)": {
 		"languages": "En"
 	},
 	"Bible Adventures (USA) (Unl)": {
@@ -1382,7 +1385,7 @@
 	"Daimakaimura (Japan)": {
 		"languages": "Ja"
 	},
-	"Daimakaimura ~ Ghouls'n Ghosts (World)": {
+	"Daimakaimura ~ Ghouls'n Ghosts (Japan, USA)": {
 		"languages": "En"
 	},
 	"Daimakaimura ~ Ghouls'n Ghosts (World) (Rev A)": {
@@ -2186,7 +2189,7 @@
 	"Fun 'n' Games (USA)": {
 		"languages": "En"
 	},
-	"Fun Car Rally (USA) (Proto)": {
+	"Fun Car Rally (USA) (Beta)": {
 		"languages": "En"
 	},
 	"Funny World & Balloon Boy (USA) (Unl)": {
@@ -2318,10 +2321,13 @@
 	"Ghostbusters (USA, Europe)": {
 		"languages": "En"
 	},
-	"Ghostbusters (USA, Europe) (Rev A) (Beta) (1990-05-01)": {
+	"Ghostbusters (USA, Europe) (Beta) (1990-05-01)": {
 		"languages": "En"
 	},
 	"Global Gladiators (Europe)": {
+		"languages": "En"
+	},
+	"Gluf (World) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
 	"Go Net (Japan)": {
@@ -2429,7 +2435,7 @@
 	"Gunstar Heroes (Japan)": {
 		"languages": "Ja"
 	},
-	"Gunstar Heroes (Japan) (Beta) (April, 1993)": {
+	"Gunstar Heroes (Japan) (Sample) (April, 1993)": {
 		"languages": "Ja"
 	},
 	"Gunstar Heroes (USA)": {
@@ -2741,10 +2747,10 @@
 	"Joe Montana Football (World)": {
 		"languages": "En"
 	},
-	"Joe Montana II Sports Talk Football (World)": {
+	"Joe Montana II - Sports Talk Football (World) (Rev A)": {
 		"languages": "En"
 	},
-	"Joe Montana II Sports Talk Football (World) (Rev A)": {
+	"Joe Montana II Sports Talk Football (World)": {
 		"languages": "En"
 	},
 	"John Madden Football (USA, Europe)": {
@@ -3389,7 +3395,7 @@
 	"Mega Turrican (USA, Europe) (Virtual Console)": {
 		"languages": "En"
 	},
-	"Mega Turrican (Unknown) (Beta) (1993-05-18)": {
+	"Mega Turrican (Japan) (En) (Proto) (1993-05-18)": {
 		"languages": "En"
 	},
 	"[BIOS] Mega-CD (Europe)": {
@@ -3461,13 +3467,13 @@
 	"Metal Fangs (Japan)": {
 		"languages": "Ja"
 	},
-	"Michael Jackson's Moonwalker (Japan) (En)": {
+	"Michael Jackson's Moonwalker (Japan, USA)": {
 		"languages": "En"
 	},
 	"Michael Jackson's Moonwalker (World) (Rev A)": {
 		"languages": "En"
 	},
-	"Michael Jackson's Moonwalker (Japan) (En) (Beta) (1990-04-24)": {
+	"Michael Jackson's Moonwalker (Japan, USA) (Beta) (1990-04-24)": {
 		"languages": "En"
 	},
 	"Mick & Mack as the Global Gladiators (USA)": {
@@ -3503,7 +3509,7 @@
 	"Micro Machines (Europe) (Alt 1)": {
 		"languages": "En"
 	},
-	"Micro Machines (Canada)": {
+	"Micro Machines (USA) (Rev 1)": {
 		"languages": "En"
 	},
 	"Micro Machines (USA)": {
@@ -3521,7 +3527,7 @@
 	"Micro Machines 2 - Turbo Tournament (Europe) (J-Cart)": {
 		"languages": "En"
 	},
-	"Micro Machines 2 - Turbo Tournament (Europe)": {
+	"Micro Machines 2 - Turbo Tournament (Europe) (Putative Beta)": {
 		"languages": "En"
 	},
 	"Midnight Resistance (Japan)": {
@@ -3606,6 +3612,9 @@
 		"languages": "En"
 	},
 	"Miracle Piano Teaching System, The (USA)": {
+		"languages": "En"
+	},
+	"Misplaced (World) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
 	"MK5 - Mortal Kombat Mythologies - Sub-Zero (Taiwan) (En) (Unl)": {
@@ -4115,6 +4124,9 @@
 	"Old Towers (World) (v1.1) (Unl)": {
 		"languages": "En"
 	},
+	"Old Towers (World) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
 	"Olympic Gold (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv)": {
 		"languages": "En,Fr,De,Es,It,Nl,Pt,Sv"
 	},
@@ -4598,7 +4610,7 @@
 	"Psy-O-Blade (Japan)": {
 		"languages": "Ja"
 	},
-	"Psycho Pinball (Europe) (En,Fr,De,Es,It) (Alt 1)": {
+	"Psycho Pinball (Europe) (En,Fr,De,Es,It) (Rev 1)": {
 		"languages": "En,Fr,De,Es,It"
 	},
 	"Psycho Pinball (Europe) (En,Fr,De,Es,It)": {
@@ -4646,7 +4658,7 @@
 	"Puyo Puyo Tsuu (Japan) (Rev A)": {
 		"languages": "Ja"
 	},
-	"Puyo Puyo Tsuu (Europe) (Ja) (Rev A) (Virtual Console)": {
+	"Puyo Puyo Tsuu (World) (Ja) (Rev A) (Virtual Console)": {
 		"languages": "Ja"
 	},
 	"Puzzle & Action - Ichidanto-R (Japan)": {
@@ -4727,7 +4739,7 @@
 	"Rambo III (Japan) (En)": {
 		"languages": "En"
 	},
-	"Rambo III (World) (Rev A)": {
+	"Rambo III (USA, Europe, Korea) (Rev A)": {
 		"languages": "En"
 	},
 	"Rampart (USA)": {
@@ -4877,19 +4889,19 @@
 	"RoboCop 3 (USA, Europe)": {
 		"languages": "En"
 	},
-	"RoboCop versus The Terminator (Europe)": {
+	"RoboCop Versus The Terminator (Europe)": {
 		"languages": "En"
 	},
-	"RoboCop versus The Terminator (Europe) (Beta) (1993-07-27)": {
+	"RoboCop Versus The Terminator (Europe) (Beta) (1993-07-27)": {
 		"languages": "En"
 	},
-	"RoboCop versus The Terminator (USA)": {
+	"RoboCop Versus The Terminator (USA)": {
 		"languages": "En"
 	},
-	"RoboCop versus The Terminator (Japan, Korea)": {
+	"RoboCop Versus The Terminator (Japan, Korea)": {
 		"languages": "En"
 	},
-	"RoboCop versus The Terminator (USA) (Beta) (1993-04-30)": {
+	"RoboCop Versus The Terminator (USA) (Beta) (1993-04-30)": {
 		"languages": "En"
 	},
 	"Robot Battler (Japan) (SegaNet)": {
@@ -5441,7 +5453,7 @@
 	"Sonic Spinball (USA)": {
 		"languages": "En"
 	},
-	"Sonic Spinball (Unknown) (Beta) (August, 1993)": {
+	"Sonic Spinball (USA) (Beta) (August, 1993)": {
 		"languages": "En"
 	},
 	"Sonic Spinball (USA) (Beta) (October, 1993)": {
@@ -5543,7 +5555,7 @@
 	"Sorcerer's Kingdom (USA) (Beta)": {
 		"languages": "En"
 	},
-	"Sorcerer's Kingdom (USA) (Rev A)": {
+	"Sorcerer's Kingdom (USA)": {
 		"languages": "En"
 	},
 	"Sorcerian (Japan)": {
@@ -5666,7 +5678,7 @@
 	"Star Cruiser (Japan)": {
 		"languages": "Ja"
 	},
-	"Star Odyssey (USA, Europe) (Unl)": {
+	"Star Odyssey (World) (Unl)": {
 		"languages": "En"
 	},
 	"Star Odyssey (USA) (Beta) (1992-01-16)": {
@@ -5942,10 +5954,10 @@
 	"Super H.Q. (Japan)": {
 		"languages": "Ja"
 	},
-	"Super Hang-On (World) (En,Ja)": {
+	"Super Hang-On (Japan, USA) (En,Ja)": {
 		"languages": "En,Ja"
 	},
-	"Super Hang-On (World) (En,Ja) (Rev A)": {
+	"Super Hang-On (Europe) (En,Ja) (Rev A)": {
 		"languages": "En,Ja"
 	},
 	"Super Hang-On (World) (Sega Smash Pack 2)": {
@@ -5999,10 +6011,10 @@
 	"Super Monaco GP (Japan, USA) (En,Ja)": {
 		"languages": "En,Ja"
 	},
-	"Super Monaco GP (Japan, Europe) (En,Ja)": {
+	"Super Monaco GP (World) (En,Ja)": {
 		"languages": "En,Ja"
 	},
-	"Super Monaco GP (Japan, Europe) (En,Ja) (Rev A)": {
+	"Super Monaco GP (World) (En,Ja) (Rev A)": {
 		"languages": "En,Ja"
 	},
 	"Super Off Road (USA, Europe) (Unl)": {
@@ -6563,7 +6575,7 @@
 	"Two Tribes - Populous II (Europe)": {
 		"languages": "En"
 	},
-	"Tyrants - Fight through Time (USA)": {
+	"Tyrants - Fight Through Time (USA)": {
 		"languages": "En"
 	},
 	"Uchuu Senkan Gomora (Japan)": {
@@ -7199,7 +7211,7 @@
 	"Wu Kong Wai Zhuan (Taiwan) (Alt 1) (Unl)": {
 		"languages": "Zh"
 	},
-	"WWF Raw (World)": {
+	"WWF RAW (World)": {
 		"languages": "En"
 	},
 	"WWF Royal Rumble (World)": {
@@ -7292,7 +7304,7 @@
 	"XDR - X-Dazedly-Ray (Japan)": {
 		"languages": "Ja"
 	},
-	"Xeno Crisis (World) (En,Ja,Fr,De,Es,It,Nl,Pt) (Unl)": {
+	"Xeno Crisis (World) (En,Ja,Fr,De,Es,It,Nl,Pt) (Aftermarket) (Unl)": {
 		"languages": "En,Ja,Fr,De,Es,It,Nl,Pt"
 	},
 	"Xenon 2 - Megablast (Europe)": {
@@ -7315,6 +7327,9 @@
 	},
 	"Ya Se Chuan Shuo (Taiwan) (Alt 1) (Unl)": {
 		"languages": "Zh"
+	},
+	"Yazzie (World) (Aftermarket) (Unl)": {
+		"languages": "En"
 	},
 	"Yi Men Ying Lie - Yang Jia Jiang (Taiwan) (Unl)": {
 		"languages": "Zh"
