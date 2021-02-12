@@ -3,7 +3,7 @@
 		"name": [
 			"Philips - CD-i"
 		],
-		"last updated": "24 January 2021"
+		"last updated": "12 February 2021"
 	},
 
 	"renames": {
@@ -33,6 +33,9 @@
 			["Burn-Cycle (Il Gioco)", 1],
 			["Burn-Cycle (Jeu)", 1],
 			["Burn-Cycle", 2]
+		],
+		"Dark Fables of Aesop, The": [
+			["Geheimnisvollen Fabeln von Aesop, Die", 1]
 		],
 		"Dictionnaire Hachette Multimedia (1995) (Version Digital Video)": [
 			["Dictionnaire Hachette Multimedia (1995)", 2],

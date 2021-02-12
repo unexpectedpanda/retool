@@ -4055,6 +4055,12 @@
     "Nickelodeon SpongeBob Schwammkopf - Der Film (Germany)": {
         "languages": "De"
     },
+    "Nickelodeon SpongeBob SquarePants - Battle for Bikini Bottom (Europe)": {
+        "languages": "En"
+    },
+    "Nickelodeon SpongeBob SquarePants - Battle for Bikini Bottom (USA)": {
+        "languages": ""
+    },
     "Nickelodeon SpongeBob SquarePants - Lights, Camera, Pants! (Europe) (En,Sv)": {
         "languages": "En, Sv"
     },
@@ -4068,12 +4074,6 @@
         "languages": ""
     },
     "Nickelodeon SpongeBob SquarePants - The Movie (USA)": {
-        "languages": ""
-    },
-    "Nickelodeon SpongeBob SquarePants in - Battle for Bikini Bottom (Europe)": {
-        "languages": "En"
-    },
-    "Nickelodeon SpongeBob SquarePants in - Battle for Bikini Bottom (USA)": {
         "languages": ""
     },
     "Nickelodeon Tak - Die grosse Juju-Jagd (Germany) (En,De)": {
@@ -6846,6 +6846,9 @@
         "languages": ""
     },
     "WWE Raw 2 (Europe)": {
+        "languages": "En"
+    },
+    "WWE Raw 2 (Korea)": {
         "languages": "En"
     },
     "WWE Raw 2 (USA)": {

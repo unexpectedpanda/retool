@@ -1088,6 +1088,9 @@
     "Aqua Aqua - Wetrix 2 (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
+    "Aqua Kids (Korea)": {
+        "languages": "Ko"
+    },
     "Aqua Teen Hunger Force - Zombie Ninja Pro-Am (Europe)": {
         "languages": "En"
     },
@@ -2030,7 +2033,7 @@
     "Billy the Wizard - Rocket Broomstick Racing (Europe)": {
         "languages": "En"
     },
-    "Biohazard - Code - Veronica Kanzenban (Japan)": {
+    "Biohazard - Code - Veronica - Kanzenban (Japan)": {
         "languages": "Ja"
     },
     "Biohazard - Outbreak (Japan)": {
@@ -2288,7 +2291,7 @@
     "Bokujou Monogatari 3 - Heart ni Hi o Tsukete (Japan) (Taikenban)": {
         "languages": "Ja"
     },
-    "Bokura no Kazoku - My Family Growing Up in the 21th Century (Japan)": {
+    "Bokura no Kazoku - My Family Growing Up in the 21st Century (Japan)": {
         "languages": "Ja"
     },
     "Bombastic (Europe)": {
@@ -3980,8 +3983,8 @@
     "Crash - Mind over Mutant (Europe, Australia) (En,Fr,De,Es,It,Nl)": {
         "languages": "Nl, En, Fr, De, It, Es"
     },
-    "Crash - Mind over Mutant (Russia)": {
-        "languages": "Ru"
+    "Crash - Mind over Mutant (Russia) (En,Ru)": {
+        "languages": "En, Ru"
     },
     "Crash - Mind over Mutant (Scandinavia) (En,Sv,No,Da,Fi)": {
         "languages": "Da, En, Fi, No, Sv"
@@ -4578,6 +4581,9 @@
         "languages": "En, Fr, De, It, Es"
     },
     "Dancing Stage Fusion (Europe) (En,Fr,De,Es,It)": {
+        "languages": "En, Fr, De, It, Es"
+    },
+    "Dancing Stage Fusion (Europe) (En,Fr,De,Es,It) (Beta)": {
         "languages": "En, Fr, De, It, Es"
     },
     "Dancing Stage Max (Europe) (En,Fr,De,Es,It)": {
@@ -6797,11 +6803,11 @@
     "Echo Night - Beyond (USA)": {
         "languages": "En"
     },
-    "Ed, Edd n Eddy - The Mis-Edventures (Europe) (En,Fr)": {
-        "languages": "En, Fr"
-    },
-    "Ed, Edd n Eddy - The Mis-Edventures (USA)": {
+    "Ed, Edd n Eddy - The Mis-Edventures (Europe)": {
         "languages": "En"
+    },
+    "Ed, Edd n Eddy - The Mis-Edventures (USA) (En,Fr)": {
+        "languages": "En, Fr"
     },
     "Edel Blume (Japan)": {
         "languages": "Ja"
@@ -8579,6 +8585,9 @@
     "Full Spectrum Warrior (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
+    "Full Spectrum Warrior (Europe) (En,Fr,De,Es,It) (Beta)": {
+        "languages": "En, Fr, De, It, Es"
+    },
     "Full Spectrum Warrior (Japan)": {
         "languages": "Ja"
     },
@@ -9054,6 +9063,9 @@
         "languages": "Ja"
     },
     "Gekikuukan Pro Yakyuu - At the End of the Century 1999 (Japan) (Taikenban)": {
+        "languages": "Ja"
+    },
+    "Gekisha Boy 2 - Tokudane Taikoku Nippon (Japan)": {
         "languages": "Ja"
     },
     "Gekitou Pro Yakyuu - Mizushima Shinji All Stars vs. Pro Yakyuu (Japan)": {
@@ -9569,6 +9581,9 @@
     "Gradius III and IV (Europe)": {
         "languages": "En"
     },
+    "Gradius III and IV (Europe) (Beta)": {
+        "languages": "En"
+    },
     "Gradius III and IV (USA)": {
         "languages": "En"
     },
@@ -9615,13 +9630,13 @@
         "languages": "En"
     },
     "Gran Turismo 3 - A-Spec - Autobacs Gentei Replay Theater (Japan)": {
-        "languages": ""
+        "languages": "Ja"
     },
     "Gran Turismo 3 - A-Spec - Autobacs Tentou Shiyuu Disc (Japan)": {
         "languages": "Ja"
     },
     "Gran Turismo 3 - A-Spec - Netz Toyota - Replay Theater Disc (Japan)": {
-        "languages": ""
+        "languages": "Ja"
     },
     "Gran Turismo 3 - A-Spec - Replay Theater (Japan) (Demo)": {
         "languages": "Ja"
@@ -9644,7 +9659,7 @@
     "Gran Turismo 4 (Europe, Australia) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
-    "Gran Turismo 4 (Japan) (PlayStation 2 Racing Pack)": {
+    "Gran Turismo 4 (Japan) (Doukonban)": {
         "languages": "Ja"
     },
     "Gran Turismo 4 (Japan, Asia)": {
@@ -9683,7 +9698,7 @@
     "Gran Turismo 4 - Prologue (Japan)": {
         "languages": "Ja"
     },
-    "Gran Turismo 4 - Prologue (Japan) (PlayStation 2 Racing Pack Doukonban)": {
+    "Gran Turismo 4 - Prologue (Japan) (Doukonban)": {
         "languages": "Ja"
     },
     "Gran Turismo 4 - Prologue (Korea)": {
@@ -10203,6 +10218,9 @@
         "languages": "Ja"
     },
     "Gunbird - Premium Package (Korea)": {
+        "languages": "Ja"
+    },
+    "Gunbird 1 & 2 (Japan)": {
         "languages": "Ja"
     },
     "Gunbird Special Edition (Europe) (En,Fr,De)": {
@@ -11864,6 +11882,9 @@
     "Jampack Demo Disc Volume 15 (USA) (Teen)": {
         "languages": "En"
     },
+    "Jan Sangoku Musou (Japan)": {
+        "languages": "Ja"
+    },
     "Jaws Unleashed (Europe, Australia) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
@@ -12217,6 +12238,9 @@
     },
     "Juiced (USA)": {
         "languages": "En"
+    },
+    "Juiced 2 - Hot Import Nights (Europe) (Pl,Cs)": {
+        "languages": "Cs, Pl"
     },
     "Juiced 2 - Hot Import Nights (Europe, Australia) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
@@ -14567,16 +14591,16 @@
     "Mahoroba Stories - Library of Fortune (Japan)": {
         "languages": "Ja"
     },
-    "Mahou Sensei Negima! 1-Jikanme - Okochama Sensei wa Mahoutsukai! (Japan) (Tokutaisei-ban)": {
+    "Mahou Sensei Negima! 1-jikanme - Okochama Sensei wa Mahoutsukai! (Japan) (Tokutaisei-ban)": {
         "languages": "Ja"
     },
-    "Mahou Sensei Negima! 1-Jikanme - Okochama Sensei wa Mahoutsukai! (Japan) (Yuutousei-ban)": {
+    "Mahou Sensei Negima! 1-jikanme - Okochama Sensei wa Mahoutsukai! (Japan) (Yuutousei-ban)": {
         "languages": "Ja"
     },
-    "Mahou Sensei Negima! 2-Jikanme - Tatakau Otometachi! Mahora Daiundoukai Special! (Japan) (Gin Medal Ban)": {
+    "Mahou Sensei Negima! 2-jikanme - Tatakau Otome-tachi! Mahora Daiundoukai Special! (Japan) (Gin-medal-ban)": {
         "languages": "Ja"
     },
-    "Mahou Sensei Negima! 2-Jikanme - Tatakau Otometachi! Mahora Daiundoukai Special! (Japan) (Kin-medal-ban)": {
+    "Mahou Sensei Negima! 2-jikanme - Tatakau Otome-tachi! Mahora Daiundoukai Special! (Japan) (Kin-medal-ban)": {
         "languages": "Ja"
     },
     "Mahou Sensei Negima! Kagai Jugyou - Otome no Doki Doki Beachside (Japan)": {
@@ -17171,16 +17195,16 @@
     "Need for Speed - Underground J (Japan)": {
         "languages": "Ja"
     },
-    "Negima! 3-Jikanme - Koi to Mahou to Sekaiju Densetsu! (Japan) (Engeki-ban)": {
+    "Negima! 3-jikanme - Koi to Mahou to Sekaiju Densetsu! (Japan) (Engeki-ban)": {
         "languages": "Ja"
     },
-    "Negima! 3-Jikanme - Koi to Mahou to Sekaiju Densetsu! (Japan) (Live-ban)": {
+    "Negima! 3-jikanme - Koi to Mahou to Sekaiju Densetsu! (Japan) (Live-ban)": {
         "languages": "Ja"
     },
-    "Negima! Dream Tactic - Yume Miru Otome wa Princess (Japan) (Diva Ban)": {
+    "Negima! Dream Tactic - Yume Miru Otome wa Princess (Japan) (Diva-ban)": {
         "languages": "Ja"
     },
-    "Negima! Dream Tactic - Yume Miru Otome wa Princess (Japan) (Prima Ban)": {
+    "Negima! Dream Tactic - Yume Miru Otome wa Princess (Japan) (Prima-ban)": {
         "languages": "Ja"
     },
     "Neo Angelique (Japan)": {
@@ -17495,6 +17519,12 @@
     "Nickelodeon SpongeBob Schwammkopf - Schlacht um Bikini Bottom (Germany)": {
         "languages": "De"
     },
+    "Nickelodeon SpongeBob SquarePants - Battle for Bikini Bottom (Europe)": {
+        "languages": "En"
+    },
+    "Nickelodeon SpongeBob SquarePants - Battle for Bikini Bottom (USA)": {
+        "languages": "En"
+    },
     "Nickelodeon SpongeBob SquarePants - Creature from the Krusty Krab (Europe) (En,Fr,De,Es,It,Nl,Sv)": {
         "languages": "Nl, En, Fr, De, It, Es, Sv"
     },
@@ -17548,12 +17578,6 @@
     },
     "Nickelodeon SpongeBob SquarePants featuring Nicktoons - Globs of Doom (USA)": {
         "languages": ""
-    },
-    "Nickelodeon SpongeBob SquarePants in - Battle for Bikini Bottom (Europe)": {
-        "languages": "En"
-    },
-    "Nickelodeon SpongeBob SquarePants in - Battle for Bikini Bottom (USA)": {
-        "languages": "En"
     },
     "Nickelodeon SpongeBob and Friends - Attack of the Toybots (Europe) (En,Fr,De,Es,It,Nl)": {
         "languages": "Nl, En, Fr, De, It, Es"
@@ -19026,6 +19050,9 @@
         "languages": "Ja"
     },
     "Oretachi Geesen Zoku - Time Pilot (Japan)": {
+        "languages": "Ja"
+    },
+    "Oretachi Geesen Zoku - Yie Ar Kung Fu (Japan)": {
         "languages": "Ja"
     },
     "Orphen - Scion of Sorcery (Europe)": {
@@ -21488,16 +21515,19 @@
     "Rogue Ops (Europe) (En,Fr,De,Es,It,Nl)": {
         "languages": "Nl, En, Fr, De, It, Es"
     },
+    "Rogue Ops (Europe) (En,Fr,De,Es,It,Nl) (Beta)": {
+        "languages": "Nl, En, Fr, De, It, Es"
+    },
     "Rogue Ops (Japan)": {
         "languages": "Ja"
     },
     "Rogue Ops (USA)": {
         "languages": "En"
     },
-    "Rogue Ops (USA) (Demo)": {
+    "Rogue Ops (USA) (Beta)": {
         "languages": "En"
     },
-    "Rogue Ops (USA) (Proto)": {
+    "Rogue Ops (USA) (Demo)": {
         "languages": "En"
     },
     "Rogue Trooper (Europe) (En,Fr,De,Es,It)": {
@@ -22461,7 +22491,7 @@
         "languages": "Ja"
     },
     "Sega Ages 2500 Series Vol. 10 - After Burner II (Japan)": {
-        "languages": "Ja"
+        "languages": "En"
     },
     "Sega Ages 2500 Series Vol. 11 - Hokuto no Ken (Japan)": {
         "languages": "Ja"
@@ -22549,6 +22579,9 @@
     },
     "Sega Ages 2500 Series Vol. 8 - Virtua Racing - FlatOut (Japan)": {
         "languages": ""
+    },
+    "Sega Ages 2500 Series Vol. 9 - Gain Ground (Japan)": {
+        "languages": "Ja"
     },
     "Sega Bass Fishing Duel (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
@@ -22725,6 +22758,9 @@
         "languages": "En, Fr, De"
     },
     "Shadow Hearts (Japan)": {
+        "languages": "Ja"
+    },
+    "Shadow Hearts (Japan) (PlayStation 2 the Best)": {
         "languages": "Ja"
     },
     "Shadow Hearts (Japan) (Taikenban)": {
@@ -24902,7 +24938,7 @@
     "Sonic Mega Collection Plus (USA)": {
         "languages": "En"
     },
-    "Sonic Riders (Australia) (En,Fr,De,Es,It)": {
+    "Sonic Riders (Europe, Australia) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
     "Sonic Riders (Japan) (En,Ja,Fr,De,Es,It)": {
@@ -25116,7 +25152,7 @@
         "languages": "En"
     },
     "Spectral Force - Radical Elements (Japan)": {
-        "languages": ""
+        "languages": "Ja"
     },
     "Spectral Force - Radical Elements (Japan) (Genteiban)": {
         "languages": "Ja"
@@ -25124,8 +25160,8 @@
     "Spectral Force Chronicle (Japan)": {
         "languages": "Ja"
     },
-    "Spectral Force Chronicle (Japan) (10th Anniversary Box)": {
-        "languages": ""
+    "Spectral Force Chronicle (Japan) (10-shuunen Kinen Box)": {
+        "languages": "Ja"
     },
     "Spectral Gene (Japan)": {
         "languages": "Ja"
@@ -25773,7 +25809,7 @@
         "languages": "En"
     },
     "Strike Witches - Anata to Dekiru Koto - A Little Peaceful Days (Japan)": {
-        "languages": ""
+        "languages": "Ja"
     },
     "Stuart Little 3 - Big Photo Adventure (Europe) (En,Fr,De,Es,It,Nl,Pt,Fi,Pl)": {
         "languages": "Nl, En, Fi, Fr, De, It, Pl, Pt, Es"
@@ -26672,10 +26708,10 @@
     "Tantei Gakuen Q - Kioukan no Satsui (Japan) (Shokai Seisanban)": {
         "languages": "Ja"
     },
-    "Tantei Jinguji Saburou - Innocent Black (Japan)": {
+    "Tantei Jinguuji Saburou - Innocent Black (Japan)": {
         "languages": "Ja"
     },
-    "Tantei Jinguji Saburou - Kind of Blue (Japan)": {
+    "Tantei Jinguuji Saburou - Kind of Blue (Japan)": {
         "languages": "Ja"
     },
     "Taxi 3 (France)": {
@@ -27527,6 +27563,9 @@
     "Tom Clancy's Rainbow Six - Lockdown (USA)": {
         "languages": "En"
     },
+    "Tom Clancy's Rainbow Six - Lockdown (USA) (Beta)": {
+        "languages": "En"
+    },
     "Tom Clancy's Rainbow Six 3 (Europe) (Demo)": {
         "languages": ""
     },
@@ -28113,6 +28152,9 @@
         "languages": "Ko"
     },
     "U-Move Super Sports (Europe) (En,Fr,De,Es,It)": {
+        "languages": "En, Fr, De, It, Es"
+    },
+    "U-Move Super Sports (Europe) (En,Fr,De,Es,It) (Beta)": {
         "languages": "En, Fr, De, It, Es"
     },
     "UEFA Challenge (Europe) (En,Fr,De,Es,It,Nl,Pt)": {

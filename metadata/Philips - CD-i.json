@@ -272,6 +272,9 @@
     "Chaos Control (Germany)": {
         "languages": "De"
     },
+    "Chaos Control (USA)": {
+        "languages": ""
+    },
     "Child is Born, A (USA)": {
         "languages": "En"
     },
@@ -463,6 +466,9 @@
     },
     "Forbidden City, The (Europe)": {
         "languages": "En"
+    },
+    "Geheimnisvollen Fabeln von Aesop, Die (Germany)": {
+        "languages": ""
     },
     "Getting Ahead - Making Time (Europe)": {
         "languages": "En"
@@ -964,6 +970,9 @@
     },
     "Mutant Rampage - Bodyslam (Europe)": {
         "languages": "En"
+    },
+    "Mutant Rampage - Bodyslam (USA)": {
+        "languages": ""
     },
     "Muzzy (Europe)": {
         "languages": ""
@@ -1505,7 +1514,7 @@
     "Visit to Sesame Street, A - Letters (USA) (19910913)": {
         "languages": ""
     },
-    "Visit to Sesame Street, A - Letters (USA) (19920225)": {
+    "Visit to Sesame Street, A - Letters (USA, Europe) (19920225)": {
         "languages": "En"
     },
     "Visit to Sesame Street, A - Numbers (Europe)": {
@@ -1513,6 +1522,9 @@
     },
     "Visit to Sesame Street, A - Numbers (USA)": {
         "languages": ""
+    },
+    "Visit to the Valley of Puebla and the Amparo Museum, A (Europe) (En,Fr,De,Es)": {
+        "languages": "En, Fr, De, Es"
     },
     "Vliegende Hollander, De (Netherlands)": {
         "languages": "Nl"

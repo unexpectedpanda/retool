@@ -3,7 +3,7 @@
 		"name": [
 			"Sony - PlayStation Portable (Redump)"
 		],
-		"last updated": "21 January 2021"
+		"last updated": "12 February 2021"
 	},
 
 	"compilations": [
@@ -143,6 +143,10 @@
 		],
 		"Everybody's Stress Buster": [
 			["Minna no Sukkiri", 1]
+		],
+		"FIFA 14": [
+			["FIFA 14 - Edicion Legado", 1],
+			["FIFA 14 - Legacy Edition", 1]
 		],
 		"FIFA Soccer 06": [
 			["FIFA 06", 1]

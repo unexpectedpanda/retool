@@ -3,7 +3,7 @@
 		"name": [
 			"IBM - PC compatible"
 		],
-		"last updated": "30 January 2021"
+		"last updated": "12 February 2021"
 	},
 
 	"compilations": [
@@ -252,9 +252,11 @@
 			["American Girls Premiere, The (Disc 2)", 1]
 		],
 		"American McGee Presents - Bad Day L.A. (Disc 1)": [
+			["American McGee Presenta Bad Day L.A. (Disc 1)", 1],
 			["American McGee Presents Bad Day L.A. (Disc 1)", 1]
 		],
 		"American McGee Presents - Bad Day L.A. (Disc 2)": [
+			["American McGee Presenta Bad Day L.A. (Disc 2)", 1],
 			["American McGee Presents Bad Day L.A. (Disc 2)", 1]
 		],
 		"American McGee's Alice (Disc 1)": [
@@ -1387,6 +1389,9 @@
 		"Creatures Exodus": [
 			["Creatures Trilogy, The", -1]
 		],
+		"Crusaders of Might and Magic": [
+			["Krestonoscy Mecha i Magii", 1]
+		],
 		"Crystal Key, The (Disc 1)": [
 			["Kristallnyckeln (Disc 1)", 1]
 		],
@@ -1637,6 +1642,9 @@
 			["Diablo II (Disc 2) (Spiel-CD)", 1],
 			["Diablo II (Disc 2)", 2]
 		],
+		"Diablo II - Lord of Destruction (Expansion Set)": [
+			["Jisu Youxi Daquan - Anhei Pohuaishen II Ziliaopian - Huimie Zhi Wang (Ziliaopan)", 1]
+		],
 		"Die by the Sword - Limb from Limb": [
 			["Die by the Sword - Das Schwert des Schicksals", 1]
 		],
@@ -1808,6 +1816,9 @@
 			["Divine Divinity - Create Your Own Destiny! (Disc 3) (Play CD)", 1],
 			["Shenjie (Disc 3) (Game CD)", 1]
 		],
+		"Dogz 3": [
+			["Dogz 3 - Your Virtual Petz", 1]
+		],
 		"Doom - Collector's Edition (Disc 1) (The Ultimate Doom Trilogy)": [
 			["Doom - Collector's Edition", 2]
 		],
@@ -1823,6 +1834,9 @@
 		"Doom II": [
 			["Doom - Collector's Edition (Disc 1) (The Ultimate Doom Trilogy)", -1],
 			["Doom - Collector's Edition", -1]
+		],
+		"Double Top": [
+			["Double Top Deluxe", -1]
 		],
 		"Dracula - Resurrection (Disc 1)": [
 			["Dracula - La Risurrezione (Disc 1)", 1]
@@ -1913,6 +1927,9 @@
 		],
 		"Driver - You Are the Wheelman": [
 			["Driver", 1]
+		],
+		"DroneZ": [
+			["KiberZona", 1]
 		],
 		"Drop!": [
 			["Drop! Anniversary Edition", -1]
@@ -2314,11 +2331,12 @@
 			["Bestseller Games Gold-Edition Ausgabe 18", 2],
 			["PC Player Super Plus 7-98", 3]
 		],
-		"Fallout": [
+		"Fallout (Fallout Anthology)": [
 			["Fallout - Radioactive", -1],
 			["Fallout Trilogy", -1],
 			["Fallout Collection", -1],
-			["Fallout (9A6EFB7C)", 2]
+			["Fallout", 2],
+			["Fallout (9A6EFB7C)", 3]
 		],
 		"Fallout 2": [
 			["Fallout - Radioactive", -1],
@@ -2326,36 +2344,50 @@
 			["Fallout Collection", -1]
 		],
 		"Fallout 3": [
-			["Fallout 3 - Game of the Year Edition (Disc 1)", -1]
+			["Fallout 3 - Game of the Year Edition (Fallout Anthology)", -1]
 		],
 		"Fallout 3 - Game Add-On Pack - Broken Steel and Point Lookout": [
-			["Fallout 3 - Game of the Year Edition (Disc 1)", -1]
+			["Fallout 3 - Game of the Year Edition (Fallout Anthology)", -1]
 		],
 		"Fallout 3 - Game Add-On Pack - The Pitt and Operation - Anchorage": [
-			["Fallout 3 - Game of the Year Edition (Disc 1)", -1]
+			["Fallout 3 - Game of the Year Edition (Fallout Anthology)", -1]
+		],
+		"Fallout 3 - Game of the Year Edition (Disc 1)": [
+			["Fallout 3 - Game of the Year Edition (Fallout Anthology)", 0]
+		],
+		"Fallout 3 - Game of the Year Edition (Disc 2)": [
+			["Fallout 3 - Game of the Year Edition (Fallout Anthology)", 0]
 		],
 		"Fallout - New Vegas": [
+			["Fallout - New Vegas - Ultimate Edition (Fallout Anthology)", -1],
 			["Fallout - New Vegas - Ultimate Edition", -1]
+		],
+		"Fallout - New Vegas - Ultimate Edition (Fallout Anthology)": [
+			["Fallout - New Vegas - Ultimate Edition", 2]
 		],
 		"Fallout Tactics - Brotherhood of Steel (Bonus Disc)": [
 			["Fallout - Radioactive", -1],
 			["Fallout Trilogy", -1],
-			["Fallout Collection", -1]
+			["Fallout Collection", -1],
+			["Fallout Tactics - Brotherhood of Steel (Fallout Anthology)", 0]
 		],
 		"Fallout Tactics - Brotherhood of Steel (Disc 1)": [
 			["Fallout - Radioactive", -1],
 			["Fallout Trilogy", -1],
-			["Fallout Collection", -1]
+			["Fallout Collection", -1],
+			["Fallout Tactics - Brotherhood of Steel (Fallout Anthology)", 0]
 		],
 		"Fallout Tactics - Brotherhood of Steel (Disc 2)": [
 			["Fallout - Radioactive", -1],
 			["Fallout Trilogy", -1],
-			["Fallout Collection", -1]
+			["Fallout Collection", -1],
+			["Fallout Tactics - Brotherhood of Steel (Fallout Anthology)", 0]
 		],
 		"Fallout Tactics - Brotherhood of Steel (Disc 3)": [
 			["Fallout - Radioactive", -1],
 			["Fallout Trilogy", -1],
-			["Fallout Collection", -1]
+			["Fallout Collection", -1],
+			["Fallout Tactics - Brotherhood of Steel (Fallout Anthology)", 0]
 		],
 		"Fallout - Radioactive": [
 			["Fallout Trilogy", 1],
@@ -2489,6 +2521,11 @@
 		],
 		"Football Limited": [
 			["Bundesliga Manager Hattrick", 1]
+		],
+		"Forbidden City": [
+			["Chine - Intrigue dans la Cite Interdite", 1],
+			["Cina - Crimini nella Citta Proibita", 1],
+			["Verrat in der Verbotenen Stadt", 1]
 		],
 		"Ford Racing": [
 			["Bravo ScreenFun 6-2004", 1],
@@ -3041,6 +3078,10 @@
 		"Hype - The Time Quest": [
 			["Komputer Swiat Gry 05-2002", 1]
 		],
+		"I Spy Spooky Mansion": [
+			["I Spy Spooky Mansion Deluxe", -1],
+			["Iskatel' v Dome s Prividenijami", 1]
+		],
 		"Ian Livingstone's Deathtrap Dungeon": [
 			["PC Player Weihnachten 13-2000 B", 2]
 		],
@@ -3385,6 +3426,9 @@
 		"Kingdom O' Magic (Disc 2) (Shah-Ron)": [
 			["Bestseller Games Gold-Edition Ausgabe 14 (Disc 2)", 2]
 		],
+		"Kiyeko and the Lost Night": [
+			["Kiyeko - Xunzhao Shiluo De Heiye", 1]
+		],
 		"KKND - Krush, Kill 'N' Destroy": [
 			["KKND Xtreme", -1]
 		],
@@ -3630,15 +3674,18 @@
 		],
 		"Lord of the Rings, The - The Return of the King (Install Disc One)": [
 			["Lord of the Rings, The - Ou no Kikan (Disc 1)", 1],
-			["Signore degli Anelli, Il - Il ritorno del Re (Disc 1) (Disc d'Installazione)", 1]
+			["Signore degli Anelli, Il - Il ritorno del Re (Disc 1) (Disc d'Installazione)", 1],
+			["Zhihuanwang - Wangzhe Wudi (Disc 1)", 1]
 		],
 		"Lord of the Rings, The - The Return of the King (Install Disc Two)": [
 			["Lord of the Rings, The - Ou no Kikan (Disc 2)", 1],
-			["Signore degli Anelli, Il - Il ritorno del Re (Disc 2) (Disc d'Installazione)", 1]
+			["Signore degli Anelli, Il - Il ritorno del Re (Disc 2) (Disc d'Installazione)", 1],
+			["Zhihuanwang - Wangzhe Wudi (Disc 2)", 1]
 		],
 		"Lord of the Rings, The - The Return of the King (Play Disc)": [
 			["Lord of the Rings, The - Ou no Kikan (Disc 3)", 1],
-			["Signore degli Anelli, Il - Il ritorno del Re (Disc 3) (Disc di Gioco)", 1]
+			["Signore degli Anelli, Il - Il ritorno del Re (Disc 3) (Disc di Gioco)", 1],
+			["Zhihuanwang - Wangzhe Wudi (Disc 3)", 1]
 		],
 		"Lords of Magic": [
 			["Lords of Magic (Special Edition)", -1],
@@ -4168,6 +4215,12 @@
 		"Need for Speed III - Hot Pursuit": [
 			["Need for Speed III - Hot Pursuit (Walmart Edition)", -1]
 		],
+		"Neighbours from Hell": [
+			["Neighbours from Hell Compilation", -1]
+		],
+		"Neighbours From Hell 2 - On Vacation": [
+			["Neighbours from Hell Compilation", -1]
+		],
 		"Network Q RAC Rally Championship": [
 			["Rallye Racing 97", 1]
 		],
@@ -4254,7 +4307,8 @@
 			["Nox (Disc 2) (Companion Disc)", 1]
 		],
 		"NYR - New York Race": [
-			["Fuenfte Element, Das - New York Race", 1]
+			["Fuenfte Element, Das - New York Race", 1],
+			["Pogonja za 5 Jelementom", 1]
 		],
 		"Oddworld - Abe's Exoddus (Install)": [
 			["Oddworld - Abe's Exoddus (Disc Installieren)", 1],
@@ -4267,8 +4321,7 @@
 			["Oddworld - Abe's Exoddus (Disc Abspielen)", 1],
 			["Oddworld - Abe's Exoddus (Disc 2)", 1],
 			["Oddworld - Abe's Exoddus (Gioco)", 1],
-			["Oddworld - Abe's Exoddus (Play Disc)", 1],
-			["Oddworld - Abe's Exoddus (Play Disk)", 1]
+			["Oddworld - Abe's Exoddus (Play Disc)", 1]
 		],
 		"Odium": [
 			["Gor'kij 17 - Muzhskaja rabota", 1],
@@ -5238,7 +5291,8 @@
 			["Realms of Arkania - Star Trail", 0]
 		],
 		"Scratches": [
-			["Scratches - Director's Cut", -1]
+			["Scratches - Director's Cut", -1],
+			["Scratches - Graffi Mortali", 1]
 		],
 		"Screamer 4x4": [
 			["CD-Action 08-2002 (76) (Disc 2)", 2]
@@ -5976,12 +6030,16 @@
 		],
 		"Star Wars - Battlefront (Disc 1) (Play Disc)": [
 			["Star Wars - Battlefront", 0],
-			["Star Wars - Battlefront (Disc 1) (Disc di gioco)", 1]
+			["Star Wars - Battlefront (Disc 1) (Disc di gioco)", 1],
+			["Star Wars - Battlefront (Disc 1)", 1]
 		],
 		"Star Wars - Battlefront (Disc 2)": [
 			["Star Wars - Battlefront", 0]
 		],
 		"Star Wars - Battlefront (Disc 3)": [
+			["Star Wars - Battlefront", 0]
+		],
+		"Star Wars - Battlefront (Disc 4)": [
 			["Star Wars - Battlefront", 0]
 		],
 		"Star Wars - Battlefront II (Disc 1) (Play Disc)": [
@@ -6960,6 +7018,12 @@
 		"WarCraft II - Tides of Darkness": [
 			["WarCraft II - Battle.net Edition", -1],
 			["WarCraft II - Ondas de Terror", 1]
+		],
+		"WarCraft III - Reign of Chaos": [
+			["Moshou Zhengba 3 - Hunluan Zhi Zhi", 1]
+		],
+		"WarCraft III - The Frozen Throne (Expansion Set)": [
+			["Moshou Zhengba 3 - Bingfeng Wangzuo", 1]
 		],
 		"Ward, The (Disc 1)": [
 			["Poslannik (Disc 1)", 1]

@@ -1784,6 +1784,9 @@
     "FIFA 14 (Spain)": {
         "languages": "Es"
     },
+    "FIFA 14 - Edicion Legado (Latin America) (En,Es)": {
+        "languages": "En, Es"
+    },
     "FIFA 14 - Legacy Edition (Italy)": {
         "languages": "It"
     },
@@ -2429,8 +2432,8 @@
     "Hannah Montana - Rock Out the Show (USA) (En,Fr)": {
         "languages": "En, Fr"
     },
-    "Hannspree Ten Kate Honda SBK - Superbike World Championship (USA)": {
-        "languages": "En"
+    "Hannspree Ten Kate Honda - SBK Superbike World Championship (USA) (En,Fr,Es)": {
+        "languages": "En, Fr, Es"
     },
     "Hard Rock Casino (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
@@ -4862,8 +4865,8 @@
     "Rush (USA)": {
         "languages": "En"
     },
-    "SBK - Superbike World Championship (USA) (En,Fr,Es)": {
-        "languages": "En, Fr, Es"
+    "SBK - Superbike World Championship (USA)": {
+        "languages": "En"
     },
     "SBK 08 - Superbike World Championship (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
@@ -5347,6 +5350,9 @@
     },
     "Spectral vs. Generation (Europe)": {
         "languages": "En"
+    },
+    "Spectral vs. Generation (Japan)": {
+        "languages": "Ja"
     },
     "Spelling Challenges and More! (USA)": {
         "languages": ""
