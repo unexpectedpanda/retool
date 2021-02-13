@@ -3,7 +3,7 @@
         "name": [
 			"Sony - PlayStation"
 		],
-        "last updated": "12 February 2021"
+        "last updated": "13 February 2021"
     },
 
     "overrides": {
@@ -1104,12 +1104,12 @@
 			["Final Fantasy VI", 1]
 		],
 		"Final Fantasy (Premium Package)": [
-			["Final Fantasy Origins", -1],
+			["Final Fantasy Origins", 0],
 			["Final Fantasy Origins - Final Fantasy", 1],
 			["Final Fantasy", 2]
 		],
 		"Final Fantasy II (Premium Package)": [
-			["Final Fantasy Origins", -1],
+			["Final Fantasy Origins", 0],
 			["Final Fantasy Origins - Final Fantasy II", 1],
 			["Final Fantasy II", 2]
 		],
