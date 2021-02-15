@@ -110,6 +110,9 @@
     "Asterix - Le Defi de Cesar (France) (Rev 1)": {
         "languages": "Fr"
     },
+    "Asterix - O Desafio de Cesar (Portugal)": {
+        "languages": "Pt"
+    },
     "Atlantis - The Last Resort (Europe)": {
         "languages": "En"
     },
@@ -148,6 +151,9 @@
     },
     "Berenstain Bears, The - On Their Own (USA)": {
         "languages": "En"
+    },
+    "Bertelsmann Universal Lexikon (Germany) (En,De) (Demo)": {
+        "languages": "En, De"
     },
     "Bertelsmann Universal Lexikon (Germany) (Fuer CD-i Player mit Digital Video Cartridge)": {
         "languages": "De"
@@ -210,6 +216,9 @@
         "languages": "En"
     },
     "CD-Online - Issue 01 - Internet on TV (UK) (Rev 1)": {
+        "languages": "En"
+    },
+    "CD-Online - Issue 02 - The Internet Game Issue (UK)": {
         "languages": "En"
     },
     "CD-i Demodisc Fall 1996 & Spring 1997 (Europe)": {
@@ -596,6 +605,18 @@
     "Hunt for Red October, The (USA) (Disc 2)": {
         "languages": "En"
     },
+    "Iberoamerica - Arte y Cultura Iberoamericana (Spain) (En,Es,It,Pt)": {
+        "languages": "En, It, Pt, Es"
+    },
+    "Iberoamerica - Descubra su Historia (Spain) (En,Es,It,Pt)": {
+        "languages": "En, It, Pt, Es"
+    },
+    "Iberoamerica - Descubra un Continente (Spain) (En,Es,It,Pt)": {
+        "languages": "En, It, Pt, Es"
+    },
+    "Iberoamerica - Huellas del Futuro (Spain) (En,Es,It,Pt)": {
+        "languages": "En, It, Pt, Es"
+    },
     "Impressionnistes Francais, Les (France)": {
         "languages": ""
     },
@@ -710,6 +731,9 @@
     "Karaoke Kids (Netherlands)": {
         "languages": "Nl"
     },
+    "Karaoke Party (Netherlands)": {
+        "languages": "Nl"
+    },
     "Karaoke Schlager 2 (Sweden)": {
         "languages": "Sv"
     },
@@ -815,6 +839,9 @@
     "Lingo (Netherlands)": {
         "languages": "Nl"
     },
+    "Link - Die Fratzen des Boesen (Germany)": {
+        "languages": "De"
+    },
     "Link - The Faces of Evil (Europe)": {
         "languages": "En"
     },
@@ -877,6 +904,9 @@
     },
     "Mad Dog McCree (Italy)": {
         "languages": "It"
+    },
+    "Mad Dog McCree (Portugal)": {
+        "languages": "Pt"
     },
     "Mad Dog McCree (USA, Europe)": {
         "languages": "En"
@@ -1115,6 +1145,9 @@
     "Philips Audio-Video Products '92-'93 on CD-Interactive (Europe) (En,Fr,De,Es,It,Nl)": {
         "languages": "Nl, En, Fr, De, It, Es"
     },
+    "Philips Farbfernsehen - Demo CD-i Widescreen Plus (Germany)": {
+        "languages": "De"
+    },
     "Philips Media Interactieve Encyclopedie (Netherlands)": {
         "languages": "Nl"
     },
@@ -1195,6 +1228,9 @@
     },
     "Renaissance van Florence, De (Netherlands)": {
         "languages": ""
+    },
+    "Retratos de Cidades - Lisboa (Portugal)": {
+        "languages": "Pt"
     },
     "Revolution in Color, A (Europe)": {
         "languages": "En"

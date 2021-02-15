@@ -1253,6 +1253,9 @@
     "Adiboo - Reveal Your Natural Talents (USA) (Preview CD)": {
         "languages": "En"
     },
+    "Adibou - Accompagnement Scolaire - 4-7 Ans - Disque Environnement (France)": {
+        "languages": "Fr"
+    },
     "Adibou 2 (France) (Demo)": {
         "languages": "Fr"
     },
@@ -2501,6 +2504,9 @@
     "Alone in the Dark 2 (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
+    "Alone in the Dark 2 (Europe) (En,Fr,De,Es,It) (Rev 1)": {
+        "languages": "En, Fr, De, It, Es"
+    },
     "Alone in the Dark 2 (France)": {
         "languages": "Fr"
     },
@@ -2528,11 +2534,11 @@
     "Alone in the Dark 3 (Europe) (En,Fr,De,Es,It) (Rerelease)": {
         "languages": "En, Fr, De, It, Es"
     },
-    "Alone in the Dark 3 (Europe) (En,Fr,De,Es,It) (Rerelease) (Alt)": {
+    "Alone in the Dark 3 (Europe) (En,Fr,De,Es,It) (Rerelease) (20031009)": {
         "languages": "En, Fr, De, It, Es"
     },
-    "Alone in the Dark 3 (Europe) (Rerelease) (20031009)": {
-        "languages": ""
+    "Alone in the Dark 3 (Europe) (En,Fr,De,Es,It) (Rerelease) (Alt)": {
+        "languages": "En, Fr, De, It, Es"
     },
     "Alone in the Dark 3 (Germany)": {
         "languages": "De"
@@ -2567,7 +2573,7 @@
     "Alpha Protocol (USA) (Disc 2)": {
         "languages": ""
     },
-    "Altar' strasti (Russia)": {
+    "Altar' Strasti (Russia)": {
         "languages": "Ru"
     },
     "Amazing 3D Pinball (Europe) (En,De,Ru)": {
@@ -3217,6 +3223,12 @@
     },
     "AquaNox (USA)": {
         "languages": "En"
+    },
+    "AquaNox 2 - Otkrovenie (Russia) (Disc 1)": {
+        "languages": ""
+    },
+    "AquaNox 2 - Otkrovenie (Russia) (Disc 2)": {
+        "languages": ""
     },
     "AquaNox 2 - Revelation (Germany) (Disc 1) (Rerelease)": {
         "languages": "De"
@@ -6263,6 +6275,15 @@
     "Biblia Tysiaclecia - Pismo Swiete Starego i Nowego Testamentu (Poland)": {
         "languages": "Pl"
     },
+    "Bibou - Vintage (Japan)": {
+        "languages": "Ja"
+    },
+    "Bibou - Vintage 2000 (Japan)": {
+        "languages": "Ja"
+    },
+    "Bibou - Vintage Real (Japan)": {
+        "languages": "Ja"
+    },
     "Bicycle Bridge (USA)": {
         "languages": ""
     },
@@ -6573,6 +6594,9 @@
         "languages": "Nl, En, Fr, De, It, Pl, Es"
     },
     "Black & White 2 (USA) (Disc 1)": {
+        "languages": ""
+    },
+    "Black & White 2 (USA) (Disc 1) (Alt)": {
         "languages": ""
     },
     "Black & White 2 (USA) (Disc 2)": {
@@ -7207,6 +7231,9 @@
     },
     "BloodRayne 2 (USA) (Rerelease)": {
         "languages": "En"
+    },
+    "Bloody Romance - LadyLady Vol. 2 (Japan)": {
+        "languages": "Ja"
     },
     "Blowout (Europe)": {
         "languages": "En"
@@ -10841,6 +10868,9 @@
     "Casino de Luxe - Las Vegas (Germany) (Rerelease)": {
         "languages": "En"
     },
+    "Casper - Brainy Book (Italy)": {
+        "languages": "It"
+    },
     "Casper - La Foresta Incantata (Italy)": {
         "languages": "It"
     },
@@ -12280,6 +12310,9 @@
     },
     "Clou!, Der (Germany)": {
         "languages": "De"
+    },
+    "Club Cyberlesque (Italy)": {
+        "languages": "En"
     },
     "Club Hobi - Senkou Promotion Disc (Japan)": {
         "languages": "Ja"
@@ -18575,6 +18608,9 @@
     "Dogz 3 - Your Virtual Petz (Italy)": {
         "languages": "En"
     },
+    "Dogz 4 (Europe)": {
+        "languages": "En"
+    },
     "Dogz 5 (Europe) (Rerelease)": {
         "languages": "En"
     },
@@ -19191,6 +19227,9 @@
         "languages": "En"
     },
     "Dragon's Lair (USA, Europe) (v3.0)": {
+        "languages": "En"
+    },
+    "Dragon's Lair - Escape from Singe's Castle (Europe)": {
         "languages": "En"
     },
     "Dragon's Lair 3D - Return to the Lair (Europe) (Disc 1)": {
@@ -19835,11 +19874,11 @@
     "Dune II - Battle for Arrakis (Europe) (En,Fr,De)": {
         "languages": "En, Fr, De"
     },
-    "Dune II - Battle for Arrakis (Europe) (En,Fr,De) (Hit Squad)": {
-        "languages": "En, Fr, De"
-    },
     "Dune II - Battle for Arrakis (Germany) (Rerelease)": {
         "languages": ""
+    },
+    "Dune II - Battle for Arrakis (Netherlands) (En,Fr,De) (Hit Squad)": {
+        "languages": "En, Fr, De"
     },
     "Dune II - The Building of a Dynasty (USA)": {
         "languages": "En"
@@ -22364,6 +22403,9 @@
     "FIFA 2001 (Italy)": {
         "languages": "It"
     },
+    "FIFA 2001 (USA) (En,De,Es,Nl,Pt,Sv)": {
+        "languages": "Nl, En, De, Pt, Es, Sv"
+    },
     "FIFA 2001 - World Championship (Japan)": {
         "languages": "Ja"
     },
@@ -23196,6 +23238,9 @@
         "languages": "En"
     },
     "Fate (USA) (Rerelease)": {
+        "languages": "En"
+    },
+    "Fate - The Cursed King (USA)": {
         "languages": "En"
     },
     "Fate - The Traitor Soul (USA)": {
@@ -24094,6 +24139,9 @@
     },
     "Flying Saucer (Poland) (Covermount)": {
         "languages": "En"
+    },
+    "Folklore - Hontou wa H na Maerchen no Sekai (Japan)": {
+        "languages": "Ja"
     },
     "Football Champions - Gioco di Carte Collezionabili (Italy)": {
         "languages": "It"
@@ -27589,6 +27637,9 @@
     },
     "Glacier (Europe)": {
         "languages": "En"
+    },
+    "Gladiatorerna (Sweden)": {
+        "languages": "Sv"
     },
     "Gladiatorerna - Special McDonald's Edition (Sweden)": {
         "languages": "Sv"
@@ -31751,6 +31802,9 @@
     "Ian Livingstone's Deathtrap Dungeon (Poland) (Covermount)": {
         "languages": "En"
     },
+    "Ian Livingstone's Deathtrap Dungeon (USA)": {
+        "languages": "En"
+    },
     "Ibiza Comic Poker (Germany) (En,De)": {
         "languages": "En, De"
     },
@@ -32285,6 +32339,9 @@
     "In Cold Blood (USA) (Disc 3)": {
         "languages": "En"
     },
+    "In Memoriam (Europe) (PC Install)": {
+        "languages": "En"
+    },
     "In Pursuit of Greed (USA)": {
         "languages": "En"
     },
@@ -32404,6 +32461,18 @@
     },
     "Incubation - Mission Pack (Germany)": {
         "languages": "De"
+    },
+    "Inda - H na Type Renshuu (Japan)": {
+        "languages": "Ja"
+    },
+    "Inda 2 - H na Type Renshuu (Japan)": {
+        "languages": "Ja"
+    },
+    "Inda 3 - H na Type Renshuu Soft (Japan)": {
+        "languages": "Ja"
+    },
+    "Inda 4 - H na Type Renshuu Soft (Japan) (Inda 4 Storybook)": {
+        "languages": "Ja"
     },
     "Independence Day - The Game (Europe) (En,Fr,De,Es,It,Sv)": {
         "languages": "En, Fr, De, It, Es, Sv"
@@ -32942,6 +33011,9 @@
     "Italian Job, The (Canada)": {
         "languages": "En"
     },
+    "Itami no Umi (Japan)": {
+        "languages": "Ja"
+    },
     "Itch! (Germany)": {
         "languages": "De"
     },
@@ -33400,6 +33472,9 @@
     },
     "Jekyll & Hyde (Poland)": {
         "languages": ""
+    },
+    "Jekyll & Hyde (USA)": {
+        "languages": "En"
     },
     "Jeopardy! (USA)": {
         "languages": ""
@@ -34211,6 +34286,9 @@
     "Kaan - Barbarian's Blade (Germany)": {
         "languages": ""
     },
+    "Kaan - Barbarian's Blade (Spain)": {
+        "languages": "Es"
+    },
     "Kabus 22 (Europe) (En,De,Tr)": {
         "languages": "En, De, Tr"
     },
@@ -34228,6 +34306,9 @@
     },
     "Kaept'n Saebelzahn - Die Piratenpruefung (Germany) (Rerelease)": {
         "languages": ""
+    },
+    "Kaikan - Yorokobi (Japan)": {
+        "languages": "Ja"
     },
     "Kairaku (Japan)": {
         "languages": "Ja"
@@ -35981,6 +36062,9 @@
     "Kyonyuu Ichiba (Japan)": {
         "languages": "Ja"
     },
+    "Kyouka Suigetsu (Japan)": {
+        "languages": "Ja"
+    },
     "Kyouran (Japan) (Demo)": {
         "languages": "Ja"
     },
@@ -35993,7 +36077,10 @@
     "L.A. Blaster (Europe)": {
         "languages": "En"
     },
-    "L.A. Blaster (Italy) (Rerelease)": {
+    "L.A. Blaster (Italy) (Rerelease) (19990127)": {
+        "languages": "En"
+    },
+    "L.A. Blaster (Italy) (Rerelease) (19990203)": {
         "languages": "En"
     },
     "L.A. Noire (Spain) (Press Disc)": {
@@ -36430,6 +36517,9 @@
     },
     "LEGO Universe (USA)": {
         "languages": ""
+    },
+    "LadyLady - God-damn Night (Japan)": {
+        "languages": "Ja"
     },
     "Lamborghini - American Challenge (Europe)": {
         "languages": "En"
@@ -36974,6 +37064,9 @@
     "Legend of Kyrandia, The - Book One (Europe) (Hit Squad)": {
         "languages": "En"
     },
+    "Legend of Kyrandia, The - Book One (Netherlands) (Hit Squad)": {
+        "languages": "En"
+    },
     "Legend of Kyrandia, The - Book One (Spain) (Hit Squad)": {
         "languages": "Es"
     },
@@ -37030,6 +37123,9 @@
     },
     "Legends of the Hunted (USA)": {
         "languages": "En"
+    },
+    "Legendy Mecha i Magii (Russia)": {
+        "languages": ""
     },
     "Legion (Russia)": {
         "languages": "Ru"
@@ -37708,6 +37804,12 @@
     },
     "Lian'ai Youxi Zhizuo Dashi 2 (China)": {
         "languages": "Zh"
+    },
+    "Liath - WorldSpiral (Europe) (En,Fr,De,It,Nl) (Disc 1)": {
+        "languages": "Nl, En, Fr, De, It"
+    },
+    "Liath - WorldSpiral (Europe) (En,Fr,De,It,Nl) (Disc 2)": {
+        "languages": "Nl, En, Fr, De, It"
     },
     "Liberation Day (Europe)": {
         "languages": "En"
@@ -38600,6 +38702,9 @@
     "Love Chronicles - The Spell (UK)": {
         "languages": "En"
     },
+    "LoveDori (Japan)": {
+        "languages": "Ja"
+    },
     "LucasArts Bonus CD (Belgium, Netherlands)": {
         "languages": "En"
     },
@@ -38771,10 +38876,10 @@
     "Lunicus (USA)": {
         "languages": "En"
     },
-    "Lure of the Temptress (Europe) (Hit Squad)": {
+    "Lure of the Temptress (Europe) (Sold Out Software)": {
         "languages": "En"
     },
-    "Lure of the Temptress (Europe) (Sold Out Software)": {
+    "Lure of the Temptress (Netherlands) (Hit Squad)": {
         "languages": "En"
     },
     "Luxor (USA)": {
@@ -44147,6 +44252,9 @@
     "Nancy Drew - Message in a Haunted Mansion (USA)": {
         "languages": "En"
     },
+    "Nancy Drew - Prokljat'e Pomest'ja Blackmoor (Russia)": {
+        "languages": "Ru"
+    },
     "Nancy Drew - Secret of the Old Clock (Australia) (Press Extras)": {
         "languages": "En"
     },
@@ -44332,6 +44440,15 @@
     },
     "Nazo Puyo Vol. 2 (Japan)": {
         "languages": "Ja"
+    },
+    "Ne Znaja Straha (Russia) (Disc 1)": {
+        "languages": "Ru"
+    },
+    "Ne Znaja Straha (Russia) (Disc 2)": {
+        "languages": "Ru"
+    },
+    "Ne Znaja Straha (Russia) (Disc 3)": {
+        "languages": "Ru"
     },
     "Nebula Fighter (Europe)": {
         "languages": "En"
@@ -45581,6 +45698,9 @@
     "Nuke It 1000 (USA)": {
         "languages": ""
     },
+    "Nuki Anime Hirameki - Nuki Animation Vol. 3 (Japan)": {
+        "languages": "Ja"
+    },
     "Number Munchers (USA)": {
         "languages": "En"
     },
@@ -45949,6 +46069,9 @@
     },
     "Oni (USA)": {
         "languages": "En"
+    },
+    "Onii-chan Jushin-chuu (Japan)": {
+        "languages": "Ja"
     },
     "Onimusha - Put' samuraja (Russia)": {
         "languages": "Ru"
@@ -51275,6 +51398,9 @@
     "Playtoons - La Pietra di Wakan (Italy)": {
         "languages": "It"
     },
+    "Playtoons - Spiru - Patacrac a Champignac (Italy)": {
+        "languages": "It"
+    },
     "Pluszaki Rozrabiaki 1 (Poland)": {
         "languages": ""
     },
@@ -51502,6 +51628,9 @@
     },
     "Polizei Sonder-Edition (Germany)": {
         "languages": "De"
+    },
+    "Polnyj Uljot (Russia)": {
+        "languages": "Ru"
     },
     "Pom-Bear Interactive CD (Europe)": {
         "languages": "En"
@@ -52276,6 +52405,9 @@
     },
     "Pro Action Replay Max 2 (Japan) (Taikenban)": {
         "languages": "Ja"
+    },
+    "Pro Beach Soccer (Italy) (En,Fr,De,Es,It,Pt)": {
+        "languages": "En, Fr, De, It, Pt, Es"
     },
     "Pro Cycling (Europe)": {
         "languages": "En"
@@ -53865,6 +53997,9 @@
         "languages": "En, Fr, Es"
     },
     "Rayman Collector (France)": {
+        "languages": "Fr"
+    },
+    "Rayman Collector (France) (Covermount)": {
         "languages": "Fr"
     },
     "Rayman Compilation (Europe)": {
@@ -61034,6 +61169,9 @@
     "Sinbad - Legend of the Seven Seas (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
+    "Sinbad - Legend of the Seven Seas (USA)": {
+        "languages": "En"
+    },
     "Sing-Along Kids - Vol. 2 (USA)": {
         "languages": "En"
     },
@@ -63883,6 +64021,9 @@
     },
     "Star Wars - Starfighter (Italy)": {
         "languages": "It"
+    },
+    "Star Wars - Starfighter (Spain)": {
+        "languages": "Es"
     },
     "Star Wars - Starfighter (USA)": {
         "languages": "En"
@@ -70961,7 +71102,7 @@
     "Urban Scooter Challenge (Europe)": {
         "languages": "En"
     },
-    "Uroki sladostrastija (Russia)": {
+    "Uroki Sladostrastija (Russia)": {
         "languages": "Ru"
     },
     "Uru - Ages Beyond Myst (Europe) (En,Fr,De)": {
@@ -71246,6 +71387,12 @@
     "Versailles - A Game of Intrigue (Europe) (Disc 2)": {
         "languages": "En"
     },
+    "Versailles - Complotto alla Corte del Re Sole (Italy) (Disc 1)": {
+        "languages": "It"
+    },
+    "Versailles - Complotto alla Corte del Re Sole (Italy) (Disc 2)": {
+        "languages": "It"
+    },
     "Versailles 1685 - Verschwoerung am Hof (Germany) (Disc 1)": {
         "languages": ""
     },
@@ -71257,6 +71404,12 @@
     },
     "Versailles 1685 - Verschwoerung am Hof (Germany) (Disc 2) (Rerelease)": {
         "languages": "De"
+    },
+    "Versailles II - Il Testamento del Re (Italy) (Disc 1)": {
+        "languages": "It"
+    },
+    "Versailles II - Il Testamento del Re (Italy) (Disc 2)": {
+        "languages": "It"
     },
     "Versuchung, Die (Germany) (DVD-ROM Seite 1)": {
         "languages": "De"
@@ -74488,6 +74641,9 @@
     },
     "Xbox 360 World 67 (Europe) (Side B)": {
         "languages": "En"
+    },
+    "Xbox 360 World 71 (Europe) (Disc B)": {
+        "languages": ""
     },
     "Xbox 360 World 73 (Europe) (Side B)": {
         "languages": "En"

@@ -3,7 +3,7 @@
 		"name": [
 			"Philips - CD-i"
 		],
-		"last updated": "12 February 2021"
+		"last updated": "15 February 2021"
 	},
 
 	"renames": {
@@ -22,7 +22,8 @@
 			["Asterix - De Uitdaging van Caesar", 1],
 			["Asterix - Die grosse Reise", 1],
 			["Asterix - La Sfida di Cesare", 1],
-			["Asterix - Le Defi de Cesar", 1]
+			["Asterix - Le Defi de Cesar", 1],
+			["Asterix - O Desafio de Cesar", 1]
 		],
 		"Berenstain Bears, The - On Their Own": [
 			["Berenstain Bears, The - Bij de Berenstain Beren Thuis - Thuis en bij Jou", 1],
@@ -52,6 +53,9 @@
 		"International Tennis Open": [
 			["International Tennis Open (8100082)", 1],
 			["International Tennis Open (8120040)", 2]
+		],
+		"Link - The Faces of Evil": [
+			["Link - Die Fratzen des Boesen", 1]
 		],
 		"Marco Polo (Disc 1) (The Game)": [
 			["Marco Polo (Disc 1) (Le Jeu)", 1]

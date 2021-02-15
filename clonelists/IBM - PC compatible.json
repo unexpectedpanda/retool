@@ -3,7 +3,7 @@
 		"name": [
 			"IBM - PC compatible"
 		],
-		"last updated": "12 February 2021"
+		"last updated": "15 February 2021"
 	},
 
 	"compilations": [
@@ -867,13 +867,15 @@
 			["Revolution - 25th Anniversary Collection (Disc 1) (Revolution Games 1992 - 2010)", -1],
 			["Broken Sword Complete", -1],
 			["Baphomets Fluch (Disc 1)", 1],
-			["Chevaliers de Baphomet, Les (Disc 1)", 1]
+			["Chevaliers de Baphomet, Les (Disc 1)", 1],
+			["Circle of Blood (Disc 1)", 1]
 		],
 		"Broken Sword - The Shadow of the Templars (Disc 2)": [
 			["Revolution - 25th Anniversary Collection (Disc 1) (Revolution Games 1992 - 2010)", -1],
 			["Broken Sword Complete", -1],
 			["Baphomets Fluch (Disc 2)", 1],
-			["Chevaliers de Baphomet, Les (Disc 2)", 1]
+			["Chevaliers de Baphomet, Les (Disc 2)", 1],
+			["Circle of Blood (Disc 2)", 1]
 		],
 		"Broken Sword - The Sleeping Dragon (Disc 1)": [
 			["Revolution - 25th Anniversary Collection (Disc 1) (Revolution Games 1992 - 2010)", -1],
@@ -1041,6 +1043,9 @@
 		],
 		"Chessmaster 5000": [
 			["Chessmaster 5000 - Jubilaeumsausgabe", 1]
+		],
+		"Chessmaster 5500": [
+			["Chessmaster 5500 Deluxe", 1]
 		],
 		"Chessmaster 6000 (Disc 1)": [
 			["Chessmaster 6000", 0]
@@ -2067,6 +2072,7 @@
 			["Shtorm", 1]
 		],
 		"Egypt 1156 B.C. - Tomb of the Pharaoh": [
+			["Egypt 1156 A.C. - L'Enigma della Tomba Reale", 1],
 			["Egypte 1156 AV. J.-C. - L'Enigme de la Tombe Royale", 1],
 			["Grab des Pharao, Das", 1]
 		],
@@ -4282,7 +4288,7 @@
 		"Nickelodeon Avatar - The Last Airbender": [
 			["Nickelodeon Avatar - The Legend of Aang", 1]
 		],
-		"Nickelodeon Spongebob SquarePants - Battle for Bikini Bottom": [
+		"Nickelodeon SpongeBob SquarePants - Battle for Bikini Bottom": [
 			["Nickelodeon SpongeBob Schwammkopf - Schlacht um Bikini Bottom", 1]
 		],
 		"Nickelodeon SpongeBob SquarePants - The Movie": [
@@ -5085,22 +5091,27 @@
 		],
 		"Riven - The Sequel to Myst (Disc 1)": [
 			["Riven - The Sequel to Myst", 0],
+			["Riven - Il Seguito di Myst (Disc 1)", 1],
 			["Riven - La Suite de Myst (Disc 1)", 1]
 		],
 		"Riven - The Sequel to Myst (Disc 2)": [
 			["Riven - The Sequel to Myst", 0],
+			["Riven - Il Seguito di Myst (Disc 2)", 1],
 			["Riven - La Suite de Myst (Disc 2)", 1]
 		],
 		"Riven - The Sequel to Myst (Disc 3)": [
 			["Riven - The Sequel to Myst", 0],
+			["Riven - Il Seguito di Myst (Disc 3)", 1],
 			["Riven - La Suite de Myst (Disc 3)", 1]
 		],
 		"Riven - The Sequel to Myst (Disc 4)": [
 			["Riven - The Sequel to Myst", 0],
+			["Riven - Il Seguito di Myst (Disc 4)", 1],
 			["Riven - La Suite de Myst (Disc 4)", 1]
 		],
 		"Riven - The Sequel to Myst (Disc 5)": [
 			["Riven - The Sequel to Myst", 0],
+			["Riven - Il Seguito di Myst (Disc 5)", 1],
 			["Riven - La Suite de Myst (Disc 5)", 1]
 		],
 		"Road & Track Presents - The Need for Speed": [
@@ -6934,9 +6945,11 @@
 			["PC Games CD ROM 1-96", 2]
 		],
 		"Versailles - A Game of Intrigue (Disc 1)": [
+			["Versailles - Complotto alla Corte del Re Sole (Disc 1)", 1],
 			["Versailles 1685 - Verschwoerung am Hof (Disc 1)", 1]
 		],
 		"Versailles - A Game of Intrigue (Disc 2)": [
+			["Versailles - Complotto alla Corte del Re Sole (Disc 2)", 1],
 			["Versailles 1685 - Verschwoerung am Hof (Disc 2)", 1]
 		],
 		"Versuchung, Die (Disc 1)": [
@@ -6967,7 +6980,7 @@
 			["Vietcong 2", 0]
 		],
 		"Virgin Roster": [
-			["Altar' strasti", 1]
+			["Altar' Strasti", 1]
 		],
 		"Virtua Fighter 2 (Direct3D)": [
 			["Action Plus 10-2001 (43)", 1],
@@ -7403,13 +7416,16 @@
 			["Zork - Der Grossinquisitor (Disc 2)", 1]
 		],
 		"Zork Nemesis - The Forbidden Lands (Disc 1)": [
-			["Zork Nemesis - Das verbotene Land (Disc 1)", 1]
+			["Zork Nemesis - Das verbotene Land (Disc 1)", 1],
+			["Zork Nemesis - Le Terre Proibite (Disc 1)", 1]
 		],
 		"Zork Nemesis - The Forbidden Lands (Disc 2)": [
-			["Zork Nemesis - Das verbotene Land (Disc 2)", 1]
+			["Zork Nemesis - Das verbotene Land (Disc 2)", 1],
+			["Zork Nemesis - Le Terre Proibite (Disc 2)", 1]
 		],
 		"Zork Nemesis - The Forbidden Lands (Disc 3)": [
-			["Zork Nemesis - Das verbotene Land (Disc 3)", 1]
+			["Zork Nemesis - Das verbotene Land (Disc 3)", 1],
+			["Zork Nemesis - Le Terre Proibite (Disc 3)", 1]
 		],
 		"Zuma": [
 			["Zuma Deluxe", -1]
