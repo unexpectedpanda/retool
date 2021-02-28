@@ -3,7 +3,7 @@
 		"name": [
 			"IBM - PC compatible"
 		],
-		"last updated": "15 February 2021"
+		"last updated": "28 February 2021"
 	},
 
 	"compilations": [
@@ -96,6 +96,12 @@
 		],
 		"Adventures with Barbie - Ocean Discovery": [
 			["Aventures de Barbie, Les - Chasse au Tresor Sous-Marine CD-ROM", 1]
+		],
+		"Agatha Christie - E Non Ne Rimase Nessuno (Disc 1)": [
+			["Agatha Christie - Triple Murder Mystery Pack", -1]
+		],
+		"Agatha Christie - E Non Ne Rimase Nessuno (Disc 2)": [
+			["Agatha Christie - Triple Murder Mystery Pack", -1]
 		],
 		"Agatha Christie - Evil Under the Sun (Disc 1)": [
 			["Agatha Christie - Triple Murder Mystery Pack", -1],
@@ -326,6 +332,12 @@
 		"AquaNox": [
 			["Bravo ScreenFun 12-2003", 2]
 		],
+		"AquaNox 2 - Revelation (Disc 1)": [
+			["AquaNox 2 - Otkrovenie (Disc 1)", 1]
+		],
+		"AquaNox 2 - Revelation (Disc 2)": [
+			["AquaNox 2 - Otkrovenie (Disc 2)", 1]
+		],
 		"Arcanum - Of Steamworks & Magick Obscura (Disc 1)": [
 			["Arcanum (Disc 1) (Install Disk)", 1],
 			["Arcanum - Of Steamworks & Magick Obscura (Install Disk)", 1]
@@ -543,6 +555,9 @@
 		"Baphomets Fluch Trilogie": [
 			["Revolution - 25th Anniversary Collection (Disc 1) (Revolution Games 1992 - 2010)", -1],
 			["Broken Sword Complete", -1]
+		],
+		"Barbie of Swan Lake CD-ROM - The Enchanted Forest": [
+			["Barbie in het Zwanenmeer CD-ROM - Het Toverbos", 1]
 		],
 		"Batman - Arkham Asylum": [
 			["Batman - Arkham Asylum - Game of the Year Edition", -1]
@@ -863,20 +878,6 @@
 		"Broken Sword Complete": [
 			["Revolution - 25th Anniversary Collection (Disc 1) (Revolution Games 1992 - 2010)", -1]
 		],
-		"Broken Sword - The Shadow of the Templars (Disc 1)": [
-			["Revolution - 25th Anniversary Collection (Disc 1) (Revolution Games 1992 - 2010)", -1],
-			["Broken Sword Complete", -1],
-			["Baphomets Fluch (Disc 1)", 1],
-			["Chevaliers de Baphomet, Les (Disc 1)", 1],
-			["Circle of Blood (Disc 1)", 1]
-		],
-		"Broken Sword - The Shadow of the Templars (Disc 2)": [
-			["Revolution - 25th Anniversary Collection (Disc 1) (Revolution Games 1992 - 2010)", -1],
-			["Broken Sword Complete", -1],
-			["Baphomets Fluch (Disc 2)", 1],
-			["Chevaliers de Baphomet, Les (Disc 2)", 1],
-			["Circle of Blood (Disc 2)", 1]
-		],
 		"Broken Sword - The Sleeping Dragon (Disc 1)": [
 			["Revolution - 25th Anniversary Collection (Disc 1) (Revolution Games 1992 - 2010)", -1],
 			["Broken Sword Complete", -1],
@@ -1004,6 +1005,9 @@
 		"Carmageddon TDR 2000": [
 			["Play 01-2003", 1]
 		],
+		"Casa Magica, La (Magic Turn)": [
+			["Polnyj Uljot", 1]
+		],
 		"Casino De Luxe": [
 			["Casino Deluxe", 2]
 		],
@@ -1084,6 +1088,20 @@
 		],
 		"Chronicles of Riddick, The - Escape from Butcher Bay - Developer's Cut": [
 			["Kroniki Riddicka - Ucieczka z Butcher Bay - Edycja Rozszerzona", 1]
+		],
+		"Circle of Blood (Disc 1)": [
+			["Revolution - 25th Anniversary Collection (Disc 1) (Revolution Games 1992 - 2010)", -1],
+			["Broken Sword Complete", -1],
+			["Baphomets Fluch (Disc 1)", 1],
+			["Broken Sword - The Shadow of the Templars (Disc 1)", 1],
+			["Chevaliers de Baphomet, Les (Disc 1)", 1]
+		],
+		"Circle of Blood (Disc 2)": [
+			["Revolution - 25th Anniversary Collection (Disc 1) (Revolution Games 1992 - 2010)", -1],
+			["Broken Sword Complete", -1],
+			["Baphomets Fluch (Disc 2)", 1],
+			["Broken Sword - The Shadow of the Templars (Disc 2)", 1],
+			["Chevaliers de Baphomet, Les (Disc 2)", 1]
 		],
 		"Cities in Motion": [
 			["Cities in Motion Collection", -1]
@@ -1769,6 +1787,7 @@
 			["Disney-Pixar Ratatouille", 0]
 		],
 		"Disney-Pixar Buzz Lightyear of Star Command": [
+			["Disney-Pixar Buzz Lightyear da Comando Stellare", 1],
 			["Disney-Pixar Captain Buzz Lightyear - Star Command", 1]
 		],
 		"Disney-Pixar Finding Nemo": [
@@ -1878,7 +1897,7 @@
 			["Dragon Lore II - Il Cuore del Dragone (Disc 3)", 1]
 		],
 		"Dragon Throne - Battle of Red Cliffs": [
-			["I Tre Regni II - La Battaglia di Red Cliffs", 1]
+			["Tre Regni II, I - La Battaglia di Red Cliffs", 1]
 		],
 		"Drawn - The Painted Tower": [
 			["Drawn - De Getekende Toren", 1]
@@ -2099,16 +2118,26 @@
 			["Elder Scrolls III, The - Morrowind - Game of the Year Edition", -1],
 			["Elder Scrolls III, The - Bloodmoon (Game of the Year Edition)", -1]
 		],
+		"Elder Scrolls III, The - Bloodmoon (Game of the Year Edition)": [
+			["Elder Scrolls III, The - Morrowind - Game of the Year Edition", 0]
+		],
 		"Elder Scrolls III, The - Construction Set": [
 			["Elder Scrolls III, The - Morrowind - Game of the Year Edition", -1],
 			["Elder Scrolls III, The - Morrowind (TES Construction Set)", 1]
 		],
 		"Elder Scrolls III, The - Morrowind": [
-			["Elder Scrolls III, The - Morrowind - Game of the Year Edition", -1]
+			["Elder Scrolls III, The - Morrowind - Game of the Year Edition", -1],
+			["Elder Scrolls III, The - Morrowind (Game of the Year Edition)", -1]
+		],
+		"Elder Scrolls III, The - Morrowind (Game of the Year Edition)": [
+			["Elder Scrolls III, The - Morrowind - Game of the Year Edition", 0]
 		],
 		"Elder Scrolls III, The - Tribunal": [
 			["Elder Scrolls III, The - Morrowind - Game of the Year Edition", -1],
 			["Elder Scrolls III, The - Tribunal (Game of the Year Edition)", -1]
+		],
+		"Elder Scrolls III, The - Tribunal (Game of the Year Edition)": [
+			["Elder Scrolls III, The - Morrowind - Game of the Year Edition", 0]
 		],
 		"Elder Scrolls IV, The - Knights of the Nine": [
 			["Elder Scrolls IV, The - Oblivion - 5th Anniversary Edition (Disc 1)", -1]
@@ -2446,6 +2475,9 @@
 		],
 		"FIFA 2001": [
 			["FIFA 2001 - World Championship", 1]
+		],
+		"FIFA Soccer 2003 (Disc 1)": [
+			["FIFA Football 2003 (Disc 1)", 1]
 		],
 		"FIFA Soccer 2004 (Disc 1)": [
 			["FIFA Football 2004 (Disc 1)", 1]
@@ -3160,17 +3192,20 @@
 		"In Cold Blood (Disc 1)": [
 			["Revolution - 25th Anniversary Collection (Disc 1) (Revolution Games 1992 - 2010)", -1],
 			["A Sangue Freddo (Disc 1)", 1],
-			["Cold Blood (Disc 1)", 1]
+			["Cold Blood (Disc 1)", 1],
+			["Ne Znaja Straha (Disc 1)", 1]
 		],
 		"In Cold Blood (Disc 2)": [
 			["Revolution - 25th Anniversary Collection (Disc 1) (Revolution Games 1992 - 2010)", -1],
 			["A Sangue Freddo (Disc 2)", 1],
-			["Cold Blood (Disc 2)", 1]
+			["Cold Blood (Disc 2)", 1],
+			["Ne Znaja Straha (Disc 2)", 1]
 		],
 		"In Cold Blood (Disc 3)": [
 			["Revolution - 25th Anniversary Collection (Disc 1) (Revolution Games 1992 - 2010)", -1],
 			["A Sangue Freddo (Disc 3)", 1],
-			["Cold Blood (Disc 3)", 1]
+			["Cold Blood (Disc 3)", 1],
+			["Ne Znaja Straha (Disc 3)", 1]
 		],
 		"Incubation - Battle Isle Phase Four": [
 			["Incubation - Battle Isle Faza Czwarta", 1],
@@ -3284,6 +3319,12 @@
 		],
 		"Jagged Alliance 2 - Wildfire": [
 			["Jagged Alliance 2 - Cena svobody", 1]
+		],
+		"James Patterson Women's Murder Club - Death in Scarlet": [
+			["James Patterson - Women's Murder Club Collection", 0]
+		],
+		"James Patterson Women's Murder Club - Twice in a Blue Moon": [
+			["James Patterson - Women's Murder Club Collection", 0]
 		],
 		"Jane's Combat Simulations - Advanced Tactical Fighters": [
 			["Jane's Combat Simulations - Fighters Anthology (Disc 1)", -1],
@@ -3529,7 +3570,8 @@
 			["LEGO Creator - Il Regno dei Cavalieri", 1]
 		],
 		"LEGO Island": [
-			["Isola LEGO", 1]
+			["Isola LEGO", 1],
+			["LEGO Insel", 1]
 		],
 		"LEGO Island 2 - The Brickster's Revenge": [
 			["LEGO Eiland 2 - De Wraak van Dondersteen", 1],
@@ -3724,6 +3766,10 @@
 		"Lost Planet - Extreme Condition": [
 			["Lost Planet - Extreme Condition - Colonies Edition", -1]
 		],
+		"Lost Planet - Extreme Condition (Bonus CD) (PC)": [
+			["Lost Planet - Extreme Condition (Bonus CD)", 1],
+			["Lost Planet - Extreme Condition (Bonus CD) (Xbox 360)", 2]
+		],
 		"Lunar - Silver Star Story (Disc 1)": [
 			["Lunar - Silver Star Story Complete (Disc 1)", -1]
 		],
@@ -3784,7 +3830,8 @@
 			["Mage Knight - Apocalypse", 0]
 		],
 		"Magic - The Gathering": [
-			["Magic - Die Zusammenkunft", 1]
+			["Magic - Die Zusammenkunft", 1],
+			["Magic - L'Adunanza", 1]
 		],
 		"Magic Carpet": [
 			["Magic Carpet Plus", -1],
@@ -3826,6 +3873,9 @@
 		],
 		"Masters of the Elements": [
 			["Meister Zufall und die Herrscher der Elemente", 1]
+		],
+		"Master of Orion II": [
+			["Master of Orion II - Battle at Antares", 1]
 		],
 		"Mat Hoffman's Pro BMX": [
 			["Bravo ScreenFun 10-2004 (Disc 1)", 1]
@@ -4174,6 +4224,9 @@
 		"N.I.C.E. 2 Tune-Up": [
 			["N.I.C.E. 2 - King Size", -1]
 		],
+		"Nancy Drew - Curse of Blackmoor Manor": [
+			["Nancy Drew - Prokljat'e Pomest'ja Blackmoor", 1]
+		],
 		"NASCAR Racing - 2002 Season": [
 			["Bravo ScreenFun 1-2004", 1]
 		],
@@ -4486,7 +4539,8 @@
 		"Pazifik Admiral": [
 			["PC Player Plus 7-99 C", 1]
 		],
-		"Payuta": [
+		"Payuta and the Ice God": [
+			["Payuta", 1],
 			["Payuta - Beiji Yongzhe", 1],
 			["Payuta i Bog Lodu", 1]
 		],
@@ -4985,6 +5039,9 @@
 			["Resident Evil 2 (Claire)", 1],
 			["Resident Evil 2 (Disc 2) (Claire)", 1]
 		],
+		"Resident Evil 3 - Nemesis": [
+			["Biohazard 3 - Last Escape", 1]
+		],
 		"Resident Evil 4": [
 			["Resident Evil 4 (Ultimate HD Edition)", -1],
 			["Biohazard 4", 1]
@@ -5349,6 +5406,12 @@
 		],
 		"Sega Worldwide Soccer PC (Direct3D)": [
 			["Sega Worldwide Soccer PC", 2]
+		],
+		"Sentinel - Descendants in Time (Disc 1)": [
+			["Sentinel - Il Regno delle Illusioni (Disc 1)", 1]
+		],
+		"Sentinel - Descendants in Time (Disc 2)": [
+			["Sentinel - Il Regno delle Illusioni (Disc 2)", 1]
 		],
 		"Serious Sam - The First Encounter": [
 			["Serious Sam Gold (Disc 1)", 0],
@@ -6228,7 +6291,7 @@
 			["Street Fighter Zero 2", 1]
 		],
 		"Street Racer": [
-			["Ulichnyjj gonshhik", 1]
+			["Ulichnyj gonshhik", 1]
 		],
 		"Stronghold 2 (Disc 1) (Install)": [
 			["Yaosai 2 (Disc 1)", 1]
@@ -7053,15 +7116,15 @@
 		],
 		"Warhammer 40,000 - Dawn of War (Disc 1)": [
 			["Warhammer 40,000 - Dawn of War - The Complete Collection", -1],
-			["Warhammer 40,000 - Dawn of War - Game of the Year Edition", -1]
+			["Warhammer 40,000 - Dawn of War - Game of the Year Edition", 0]
 		],
 		"Warhammer 40,000 - Dawn of War (Disc 2)": [
 			["Warhammer 40,000 - Dawn of War - The Complete Collection", -1],
-			["Warhammer 40,000 - Dawn of War - Game of the Year Edition", -1]
+			["Warhammer 40,000 - Dawn of War - Game of the Year Edition", 0]
 		],
 		"Warhammer 40,000 - Dawn of War (Disc 3)": [
 			["Warhammer 40,000 - Dawn of War - The Complete Collection", -1],
-			["Warhammer 40,000 - Dawn of War - Game of the Year Edition", -1]
+			["Warhammer 40,000 - Dawn of War - Game of the Year Edition", 0]
 		],
 		"Warhammer 40,000 - Dawn of War (Disc 1) (Game of the Year)": [
 			["Warhammer 40,000 - Dawn of War - The Complete Collection", -1],
@@ -7076,8 +7139,7 @@
 			["Warhammer 40,000 - Dawn of War - Game of the Year Edition", 0]
 		],
 		"Warhammer 40,000 - Dawn of War - Dark Crusade": [
-			["Warhammer 40,000 - Dawn of War - The Complete Collection", -1],
-			["Warhammer 40,000 - Dawn of War - Game of the Year Edition", -1]
+			["Warhammer 40,000 - Dawn of War - The Complete Collection", -1]
 		],
 		"Warhammer 40,000 - Dawn of War - Soulstorm": [
 			["Warhammer 40,000 - Dawn of War - The Complete Collection", -1]
@@ -7104,6 +7166,20 @@
 			["Warhammer 40,000 - Dawn of War - The Complete Collection", -1],
 			["Warhammer 40,000 - Dawn of War - Gold Edition", 0],
 			["Warhammer 40,000 - Dawn of War & Warhammer 40,000 - Dawn of War - Winter Assault", 0]
+		],
+		"Warhammer 40,000 - Dawn of War - Winter Assault (Disc 1)": [
+			["Warhammer 40,000 - Dawn of War - The Complete Collection", -1],
+			["Warhammer 40,000 - Dawn of War - Gold Edition", 0],
+			["Warhammer 40,000 - Dawn of War & Warhammer 40,000 - Dawn of War - Winter Assault", 0]
+		],
+		"Warhammer 40,000 - Dawn of War - Winter Assault (Disc 2)": [
+			["Warhammer 40,000 - Dawn of War - The Complete Collection", -1],
+			["Warhammer 40,000 - Dawn of War - Gold Edition", 0],
+			["Warhammer 40,000 - Dawn of War & Warhammer 40,000 - Dawn of War - Winter Assault", 0]
+		],
+		"Warhammer 40,000 - Dawn of War & Warhammer 40,000 - Dawn of War - Winter Assault": [
+			["Warhammer 40,000 - Dawn of War - The Complete Collection", -1],
+			["Warhammer 40,000 - Dawn of War - Gold Edition", 0]
 		],
 		"Warhammer Online - Age of Reckoning (Disc 1)": [
 			["Warhammer Online - Vremja vozmezdija (Disc 1)", 1]

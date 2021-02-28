@@ -3,7 +3,7 @@
 		"name": [
 			"Panasonic - 3DO Interactive Multiplayer"
 		],
-		"last updated": "20 January 2021"
+		"last updated": "22 February 2021"
 	},
 
 	"renames": {
@@ -48,6 +48,9 @@
 		],
 		"Guardian War": [
 			["Powers Kingdom", 1]
+		],
+		"Horde, The": [
+			["Horde, The (RCB)", 2]
 		],
 		"Incredible Machine, The": [
 			["Incredible Machine, The - Pararancho", 1]

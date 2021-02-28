@@ -174,8 +174,9 @@ class DatNode:
         # Check if the (Demo) tag is missing, and add it if so
         if self.category == 'Demos' and '(Demo' not in self.full_name:
             self.short_name = self.short_name + ' (Demo)'
-            self.region_free_name = self.region_free_name + '(Demo)'
-            self.tag_free_name = self.tag_free_name + '(Demo)'
+            self.region_free_name = self.region_free_name + ' (Demo)'
+            self.tag_free_name = self.tag_free_name + ' (Demo)'
+
 
     def __str__(self):
         ret_str = []
@@ -249,16 +250,16 @@ class Regex:
 
     def __init__(self, LANGUAGES):
         # Preproduction
-        self.alpha = re.compile('\(Alpha( [0-9]{,2}){,1}\)')
-        self.beta = re.compile('\(Beta( [0-9]{,2}){,1}\)')
-        self.proto = re.compile('\((Possible )*Proto( [0-9]{,2}){,1}\)')
+        self.alpha = re.compile('\((?:(?!\(|Alpha( [0-9]{,2}){,1})[\s\S])*Alpha( [0-9]{,2}){,1}\)')
+        self.beta = re.compile('\((?:(?!\(|Beta( [0-9]{,2}){,1})[\s\S])*Beta( [0-9]{,2}){,1}\)')
+        self.proto = re.compile('\((?:(?!\(|Proto( [0-9]{,2}){,1})[\s\S])*Proto( [0-9]{,2}){,1}\)')
         self.preprod = re.compile('\(Pre-production\)')
         self.review = re.compile('\(Review Code\)')
 
         # Tags
         self.alt = re.compile('\(Alt.*?\)')
         self.bad = re.compile('\[b\]')
-        self.bios = re.compile('\[BIOS\]')
+        self.bios = re.compile('(\[BIOS\])|(\(Enhancement Chip\))')
         self.covermount = re.compile('\(Covermount\)')
         self.dates = re.compile('\((\d{8}|\d{4}-\d{2}-\d{2}|\d{2}-\d{2}-\d{4}|\d{2}-\d{2}-\d{2}|(January|February|March|April|May|June|July|August|September|October|November|December), \d{4})\)')
         self.dates_whitespace = re.compile('\s?\((\d{8}|\d{4}-\d{2}-\d{2}|\d{2}-\d{2}-\d{4}|\d{2}-\d{2}-\d{2}|(January|February|March|April|May|June|July|August|September|October|November|December), \d{4})\)\s?')
@@ -269,7 +270,7 @@ class Regex:
         self.pirate = re.compile('\(Pirate\)')
         self.rerelease = re.compile('\(Rerelease\)')
 
-        # Filters
+        # Exclude filters
         self.demos = [
             re.compile('\(Demo( [1-9])*\)'),
             re.compile('\(Demo-CD\)'),
@@ -280,10 +281,7 @@ class Regex:
             re.compile('\(Sample( [1-9])*\)'),
             re.compile('Trial Edition')
             ]
-        self.programs = [
-            re.compile('\(Program\)'),
-            re.compile('\(Test Program\)')
-        ]
+        self.manuals = re.compile('\(Manual\)'),
         self.preproduction = [
             self.alpha,
             self.beta,
@@ -291,7 +289,13 @@ class Regex:
             self.preprod,
             self.review,
             ]
-        self.preproduction_bad = '\((?:(?!(\(|(Pre-Production|Proto|Possible Proto|Alpha|Beta|Review Code)( [0-9]{,2}){,1}))|(\[b\])[\s\S])*((Pre-Production|Proto|Possible Proto|Alpha|Beta|Review Code)( [0-9]{,2}){,1}\))|(\[b\])'
+        self.preproduction_bad = '\((?:(?!\(|(Alpha|Beta|Pre-production|Proto|Review Code)( [0-9]{,2}){,1})[\s\S])*(Alpha|Beta|Pre-production|Proto|Review Code)( [0-9]{,2}){,1}\)|(\[b\])'
+        self.programs = [
+            re.compile('\(Program\)'),
+            re.compile('\(Test Program\)'),
+            re.compile('Check Program'),
+            re.compile('Sample Program')
+        ]
         self.promotional = [
             re.compile('EPK'),
             re.compile('Press Kit'),
@@ -361,48 +365,39 @@ class SmartFormatter(argparse.HelpFormatter):
 class Stats():
     """ Stores stats before processing the dat """
 
-    def __init__(self, original_title_count, user_input, input_dat, final_title_count=0):
-        def category_count(category):
-            """ Gets the category count from the soup object """
-
-            if hasattr(user_input, 'no_' + category.lower()):
-                if getattr(user_input, 'no_' + category.lower()) == True:
-                    return len(input_dat.soup.find_all('category', string=category))
-                else:
-                    return 0
+    def __init__(self, original_title_count, user_input=False, final_title_count=0, clone_count=0):
 
         self.original_title_count = original_title_count
         self.final_title_count = final_title_count
-        self.applications_count = category_count('Applications')
-        self.coverdiscs_count = category_count('Coverdiscs')
-        self.demos_count = category_count('Demos')
-        self.educational_count = category_count('Educational')
-        self.multimedia_count = category_count('Multimedia')
-        self.preproduction_count = category_count('Preproduction')
+        self.clone_count = clone_count
 
-        if user_input.no_unlicensed == True:
-            self.unlicensed_count = len(input_dat.soup.find_all('description', string=lambda x: x and '(Unl)' in x))
-        else:
-            self.unlicensed_count = 0
+        if user_input != False:
+            def get_count(exclusion):
+                """ Returns how many titles were excluded for a given category """
 
-        if user_input.no_bad_dumps == True:
-            self.bad_dump_count = len(input_dat.soup.find_all('description', string=lambda x: x and '[b]' in x))
-        else:
-            self.bad_dump_count = 0
+                if exclusion in user_input.removed_titles:
+                    return len(user_input.removed_titles[exclusion])
+                else:
+                    return 0
 
-        if user_input.no_pirate == True:
-            self.pirate_count = len(input_dat.soup.find_all('description', string=lambda x: x and '(Pirate)' in x))
-        else:
-            self.pirate_count = 0
+            self.applications_count = get_count('Applications')
+            self.audio_count = get_count('Audio')
+            self.bad_dump_count = get_count('Bad_dumps')
+            self.bios_count = get_count('Console')
+            self.compilations_count = get_count('Compilations')
+            self.coverdiscs_count = get_count('Coverdiscs')
+            self.demos_count = get_count('Demos')
+            self.educational_count = get_count('Educational')
+            self.manuals_count = get_count('Manuals')
+            self.multimedia_count = get_count('Multimedia')
+            self.pirate_count = get_count('Pirate')
+            self.preproduction_count = get_count('Preproduction')
+            self.promotional_count = get_count('Promotional')
+            self.unlicensed_count = get_count('Unlicensed')
+            self.video_count = get_count('Video')
 
-        if user_input.no_promotional == True:
-            self.promotional_count = (
-                len(input_dat.soup.find_all('description', string=lambda x: x and '(Promo)' in x))
-                + len(input_dat.soup.find_all('description', string=lambda x: x and 'EPK' in x))
-                + len(input_dat.soup.find_all('description', string=lambda x: x and 'Press Kit' in x))
-                )
-        else:
-            self.promotional_count = 0
+            self.custom_system_filter_count = len(user_input.removed_titles['Custom system filter excludes'])
+            self.custom_global_filter_count = len(user_input.removed_titles['Custom global filter excludes'])
 
 
 class TagKeys:
@@ -464,14 +459,15 @@ class UserInput:
     """ Stores user input values, including what types of titles to exclude """
 
     def __init__(self, input_file_name='', output_folder_name='',
-                 no_applications='', no_bad_dumps='', no_compilations='',
-                 no_demos='', no_educational='', no_coverdiscs='',
-                 no_audio='', no_video='', no_bios='',
+                 no_applications='', no_audio='', no_bad_dumps='',
+                 no_bios='', no_compilations='', no_coverdiscs='',
+                 no_demos='', no_educational='', no_manuals='',
                  no_multimedia='', no_pirate='', no_preproduction='',
-                 no_promotional='', no_unlicensed='', modern='',
-                 supersets='', filter_languages='', legacy='',
-                 user_options='', verbose='', no_filters='',
-                 keep_remove='', list=''):
+                 no_promotional='', no_unlicensed='', no_video='',
+                 modern='', supersets='', filter_languages='',
+                 legacy='', user_options='', verbose='',
+                 no_filters='', keep_remove='', list=''):
+
         self.input_file_name = input_file_name
         self.output_folder_name = output_folder_name
 
@@ -487,6 +483,7 @@ class UserInput:
         self.no_console = no_bios
         self.no_multimedia = no_multimedia
         self.no_pirate = no_pirate
+        self.no_manuals = no_manuals
         self.no_preproduction = no_preproduction
         self.no_promotional = no_promotional
         self.no_unlicensed = no_unlicensed

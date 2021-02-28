@@ -3,7 +3,7 @@
         "name": [
 			"Sony - PlayStation"
 		],
-        "last updated": "13 February 2021"
+        "last updated": "28 February 2021"
     },
 
     "overrides": {
@@ -297,6 +297,9 @@
 		"Ball Breakers": [
 			["MoHo", 1]
 		],
+		"Ballblazer Champions": [
+			["BallBlazer Champions", 1]
+		],
 		"Ballerburg - Castle Chaos": [
 			["Ballerburg", 1]
 		],
@@ -356,7 +359,7 @@
 			["Fisherman's Bait 3", 1]
 		],
 		"Blast Chamber": [
-			["Kyuu Bakukku", 1]
+			["Kyuu-bakku", 1]
 		],
 		"Blaze & Blade - Eternal Quest": [
 			["Legend of Foresia - La Contree Interdite", 1]
@@ -713,7 +716,7 @@
 			["Disney-Pixar Een Luizenleven", 1]
 		],
 		"Disney-Pixar Buzz Lightyear of Star Command": [
-			["Disney-Pixar Buzz Lightyear da Commando Stellare", 1],
+			["Disney-Pixar Buzz Lightyear da Comando Stellare", 1],
 			["Disney-Pixar Captain Buzz Lightyear - Star Command", 1],
 			["Disney-Pixar Les Aventures de Buzz L'Eclair", 1],
 			["Disney-Pixar's Buzz Lightyear - Guardianes del Espacio", 1]

@@ -725,6 +725,12 @@
     "Doom II (USA, Europe)": {
         "languages": "En"
     },
+    "Dracula - Resurrection (France) (En,Fr) (Disc 1)": {
+        "languages": "En, Fr"
+    },
+    "Dracula - Resurrection (France) (En,Fr) (Disc 2)": {
+        "languages": "En, Fr"
+    },
     "Driver - You Are the Wheelman (USA)": {
         "languages": "En"
     },
@@ -748,6 +754,18 @@
     },
     "Enemy Engaged - RAH-66 Comanche Versus KA-52 Hokum (Europe) (En,Fr,De,It)": {
         "languages": "En, Fr, De, It"
+    },
+    "Faust - Les Sept Jeux de L'ame (France) (Disc 1)": {
+        "languages": "Fr"
+    },
+    "Faust - Les Sept Jeux de L'ame (France) (Disc 2)": {
+        "languages": "Fr"
+    },
+    "Faust - Les Sept Jeux de L'ame (France) (Disc 3)": {
+        "languages": "Fr"
+    },
+    "Faust - Les Sept Jeux de L'ame (France) (Disc 4)": {
+        "languages": "Fr"
     },
     "Fly! (Europe) (Disc 1)": {
         "languages": "En"
@@ -814,6 +832,9 @@
     },
     "Hell Cab (Japan)": {
         "languages": ""
+    },
+    "In Memoriam (Europe) (Mac Install)": {
+        "languages": "En"
     },
     "Indiana Jones and the Fate of Atlantis (USA)": {
         "languages": "En"
@@ -1097,6 +1118,9 @@
     "MacUser - MacBin 1 (Japan)": {
         "languages": ""
     },
+    "MacUser - MacBin 10 (Japan)": {
+        "languages": ""
+    },
     "MacUser - MacBin 3 (Japan)": {
         "languages": ""
     },
@@ -1110,6 +1134,9 @@
         "languages": ""
     },
     "MacUser - MacBin 8 (Japan)": {
+        "languages": ""
+    },
+    "MacUser - MacBin 9 (Japan)": {
         "languages": ""
     },
     "MacWorld - 20th Anniversary - February 2004 (USA)": {
@@ -1325,6 +1352,9 @@
     "Saikyou Kareshi - Dynamic Darling (Japan)": {
         "languages": "Ja"
     },
+    "Sam & Max Hit the Road (USA)": {
+        "languages": "En"
+    },
     "Secret du Templier, Le (France) (Covermount)": {
         "languages": "Fr"
     },
@@ -1366,6 +1396,9 @@
     },
     "SimCity 4 (USA) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Ko,Pl,Th) (Disc 2)": {
         "languages": "Zh, Da, Nl, En, Fi, Fr, De, It, Ja, Ko, No, Pl, Pt, Es, Sv, Th"
+    },
+    "SimCity Enhanced CD-ROM (USA)": {
+        "languages": "En"
     },
     "SimPeople (Japan) (Rerelease)": {
         "languages": ""
@@ -1494,6 +1527,9 @@
         "languages": "En"
     },
     "StarCraft - Brood War (Expansion Set) (Europe)": {
+        "languages": "En"
+    },
+    "Stellaluna (USA)": {
         "languages": "En"
     },
     "Stubbs the Zombie in Rebel Without a Pulse (USA) (En,Fr)": {
@@ -1650,6 +1686,15 @@
         "languages": "En"
     },
     "Zork Nemesis - The Forbidden Lands (France) (Disc 3)": {
+        "languages": "En"
+    },
+    "Zork Nemesis - The Forbidden Lands (USA) (Disc 1)": {
+        "languages": "En"
+    },
+    "Zork Nemesis - The Forbidden Lands (USA) (Disc 2)": {
+        "languages": "En"
+    },
+    "Zork Nemesis - The Forbidden Lands (USA) (Disc 3)": {
         "languages": "En"
     },
     "id Anthology (USA) (Disc 4) (Mac)": {

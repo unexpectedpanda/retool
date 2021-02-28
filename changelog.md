@@ -1,3 +1,50 @@
+# 0.88
+
+Things of note for this release:
+
+- A key bug fix for clone list resilience.
+- A lot of command line options have changed.
+- Windows binaries no longer live in the `/dist/` folder, as it was becoming a
+  download burden to those cloning the repo.
+
+## New features
+- You can now exclude Manuals.
+- Excluding BIOSes now also excludes enhancement chips.
+- Excluding applications now excludes titles with "Check Program" and "Sample
+  Program" in their name.
+- A lot has shifted around in terms of Retool CLI arguments, so Retool can
+  continue to grow:
+    - The `-o` option is now `--output`.
+    - The `-g` option has been removed to bring things in line with Retool GUI.
+    - A new `--exclude` option that takes arguments is now used in place of a
+      lot of the old filter options. Check `-h` for the full list.
+- Output file names are now a tiny bit smaller in length. User options and title
+  counts are now at the end of the file name too, so sorting by alpha doesn't
+  get confusing.
+- Added yet another beta tag variation.
+- In Retool GUI, the user is now prompted to download clone lists if they don't
+  have any.
+
+
+## Bug fixes
+- If a key title in a clone list didn't exist in an input dat (or had been
+  removed by a Retool option), then all other titles in that array would become
+  unlinked from one another. This has been fixed.
+- Fixed inaccurate and missing removal stats.
+- Fixed the program crashing if a prefix or suffix wasn't supplied when
+  exporting a 1G1R list.
+- In Retool GUI, the up/down region priority buttons no longer crash the program
+  if a region hasn't been selected.
+- Made sure release tags output consistently in legacy mode.
+
+
+## Behavior changes
+- The demotion of modern ripped titles (for example, Virtual Console) is now
+  working cross-region. You'll still get them if the modern version is the only
+  one available.
+
+
+
 # 0.87
 Some big changes this time around, including some requested features.
 
@@ -16,7 +63,8 @@ Some big changes this time around, including some requested features.
 - The binary version for Windows now opens a heck of a lot faster, at the cost
   of having a much messier folder structure. Formerly everything was packed into
   a single executable, which meant the operating system had to extract all the
-  dependencies before it could even think about launching the program.
+  dependencies before it could even think about launching the program, slowing
+  things down.
 
 ## Bug fixes
 - Rewrote the parent assignment code to correct misassignment issues in the
@@ -44,8 +92,10 @@ Some big changes this time around, including some requested features.
   Things still look shiny on Windows 10 and modern Linux terminals.
 - Stopped the command line instructions showing when Retool GUI was processing
   a dat.
-- lxml module updated, as GitHub advised of a security flaw with the previously
-  used version.
+- The lxml module has been updated, as GitHub advised of a security flaw with
+  the previously used version.
+- Fixed dependency problems when running `updateclonelists.py` from the
+  command line.
 
 ## Behavior changes
 - More titles ripped from modern platform rereleases (such as Virtual Console
@@ -54,25 +104,23 @@ Some big changes this time around, including some requested features.
   titles the preferred 1G1R title instead with the `-v` option, or by selecting
   the
   **Titles ripped from modern platform rereleases replace retro editions**
-  checkbox in retool-gui.
+  checkbox in Retool GUI.
 - Good titles are now preferred over bad (`[b]`) ones.
 - No-Intro pre-production titles are now categorized properly in the output dat.
-- Fixed dependency problems when running `updateclonelists.py` from the
-  command line.
 - Updating clone lists now downloads `internal-config.json` as well, as
-  updates to this files affects 1G1R title selection.
+  updates to this file affect 1G1R title selection.
 - Retool now identifies Redump BIOS titles by the category `Console`, and
   they'll be removed if you excluded BIOSes. BIOS titles are also now assigned
   the category of `BIOS` in the output dat.
 - Release tags are now only output in legacy mode. They also generate for
   every region and language of a title, not just the primary region. This is
-  just tying a bow on a Logiqx-style 1G1R parent/clone dat file, 1G1R modes in
+  just tying a bow on Logiqx-style 1G1R parent/clone dat files, 1G1R modes in
   dat managers still aren't very useful.
 
 ## Internal changes
 - `user-config.yaml` is no longer stored in the GitHub repo. It's also been
   removed from Windows ZIP file. This is to prevent users accidentally
-  overwriting their own `user-config.yaml` when update Retool. Both Retool
+  overwriting their own `user-config.yaml` when updating Retool. Both Retool
   CLI and GUI auto-generate the file if it's missing.
 - Metadata is now in alphabetical order.
 

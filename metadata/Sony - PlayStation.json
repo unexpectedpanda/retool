@@ -2087,6 +2087,9 @@
     "Bastard!! Utsuronaru Kamigami no Utsuwa (Japan) (Demo)": {
         "languages": "Ja"
     },
+    "Bastard!! Utsuronaru Kamigami no Utsuwa (Japan) (Rev 1)": {
+        "languages": "Ja"
+    },
     "Batman & Robin (Europe) (En,Fr,De,Es)": {
         "languages": "En, Fr, De, Es"
     },
@@ -3425,7 +3428,7 @@
     "Captain Love (Japan) (Major Wave)": {
         "languages": "Ja"
     },
-    "Captain Tsubasa - Aratanaru Densetsu Joshou (Japan)": {
+    "Captain Tsubasa - Arata naru Densetsu Joshou (Japan)": {
         "languages": "Ja"
     },
     "Captain Tsubasa J - Get in the Tomorrow (Japan)": {
@@ -6611,7 +6614,7 @@
     "Disney-Pixar Bottega dei Giochi - A Bug's Life Megaminimondo (Italy)": {
         "languages": "It"
     },
-    "Disney-Pixar Buzz Lightyear da Commando Stellare (Italy)": {
+    "Disney-Pixar Buzz Lightyear da Comando Stellare (Italy)": {
         "languages": "It"
     },
     "Disney-Pixar Buzz Lightyear of Star Command (Europe)": {
@@ -10700,8 +10703,14 @@
     "Gallop Racer 3 (Japan)": {
         "languages": "Ja"
     },
+    "Game Guru - The Best (Russia) (En,Ru) (Unl)": {
+        "languages": "En, Ru"
+    },
     "Game Guru 3 (Russia) (Unl)": {
         "languages": "Ru"
+    },
+    "Game Guru 4 (Russia) (En,Ru) (Unl)": {
+        "languages": "En, Ru"
     },
     "Game Guru 6 (Russia) (En,Ru) (Unl)": {
         "languages": "En, Ru"
@@ -10709,7 +10718,16 @@
     "Game Guru 7 (Russia) (En,Ru) (Unl)": {
         "languages": "En, Ru"
     },
+    "Game Guru 8 (Russia) (En,Ru) (Unl)": {
+        "languages": "En, Ru"
+    },
     "Game Guru 9 (Russia) (En,Ru) (Unl)": {
+        "languages": "En, Ru"
+    },
+    "Game Guru Gold 1 (Russia) (Unl)": {
+        "languages": "Ru"
+    },
+    "Game Guru X (Russia) (En,Ru) (Unl)": {
         "languages": "En, Ru"
     },
     "Game Maker, The - Ureyuki 100-manbon Get da ze! (Japan)": {
@@ -14171,7 +14189,7 @@
     "Kimi no Kimochi, Boku no Kokoro - I've Posessed Your Body! (Japan)": {
         "languages": ""
     },
-    "Kindaichi Shounen no Jikenbo - Hihoutou Aratanaru Sangeki (Japan)": {
+    "Kindaichi Shounen no Jikenbo - Hihou-tou Arata naru Sangeki (Japan)": {
         "languages": "Ja"
     },
     "Kindaichi Shounen no Jikenbo - Jigoku Yuuen Satsujin Jiken (Japan) (Disc 1)": {
@@ -14471,7 +14489,7 @@
     "Kosodate Quiz My Angel (Japan) (Rev 1)": {
         "languages": "Ja"
     },
-    "Koten Tsumego Shuu - Shijin no Maki (Japan)": {
+    "Koten Tsumego-shuu - Shijin no Maki (Japan)": {
         "languages": "Ja"
     },
     "Kotobuki Grand Prix (Europe)": {
@@ -14649,7 +14667,7 @@
         "languages": "It"
     },
     "Krazy Ivan (Japan)": {
-        "languages": "Ja"
+        "languages": "En"
     },
     "Krazy Ivan (Spain)": {
         "languages": "Es"
@@ -14759,7 +14777,7 @@
     "Kyuiin (Japan)": {
         "languages": "Ja"
     },
-    "Kyuu Bakukku (Japan)": {
+    "Kyuu-bakku (Japan)": {
         "languages": "Ja"
     },
     "Kyuukyoku no Soukoban (Japan)": {
@@ -15856,6 +15874,9 @@
     },
     "Magische Tetris Uitdaging (Netherlands)": {
         "languages": "Nl"
+    },
+    "Magistr igr 3 (Russia) (Unl)": {
+        "languages": "Ru"
     },
     "Mahjong Ganryuu-jima (Japan)": {
         "languages": "Ja"
@@ -29660,6 +29681,9 @@
     "Versalles - Complot en la Corte del Rey Sol (Spain)": {
         "languages": "Es"
     },
+    "Vesjolye kartinki 3 (Russia) (Unl)": {
+        "languages": "Ru"
+    },
     "Vib-Ribbon (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
@@ -29882,7 +29906,7 @@
     "Vs. (USA)": {
         "languages": "En"
     },
-    "Vzlomchik Kodov 9000 (Russia) (Unl)": {
+    "Vzlomshhik kodov 9000 (Russia) (Unl)": {
         "languages": "Ru"
     },
     "WCW Backstage Assault (Europe)": {
@@ -30168,6 +30192,9 @@
         "languages": "En"
     },
     "Weakest Link, The (USA)": {
+        "languages": "En"
+    },
+    "Weakest Link, The (USA) (Rev 1)": {
         "languages": "En"
     },
     "Wedding Peach - Doki Doki Oiro-naoshi (Japan)": {

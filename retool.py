@@ -26,7 +26,7 @@ from modules.xml import dat_to_dict, process_input_dat
 # Require at least Python 3.8
 assert sys.version_info >= (3, 8)
 
-__version__ = '0.87'
+__version__ = '0.88'
 
 def main(gui_input=''):
     # Start a timer from when the process started
@@ -188,8 +188,9 @@ def main(gui_input=''):
 
         # Get the stats from the original soup object before it's changed later
         print('* Gathering stats... ', sep=' ', end='', flush=True)
-        stats = Stats(len(input_dat.soup.find_all('game')), user_input, input_dat)
+        original_title_count = len(input_dat.soup.find_all('game'))
 
+        stats = Stats(original_title_count)
         print('done.')
 
         # Provide dat details to reassure the user the correct file is being processed
@@ -297,14 +298,15 @@ def main(gui_input=''):
             output_file_name = (
                 os.path.join(
                     user_input.output_folder_name,
-                    f'{input_dat.name} ({str("{:,}".format(stats.final_title_count))}) ({input_dat.version}) '
-                    f'[1G1R]{user_input.user_options} (Retool {datetime.datetime.now().strftime("%Y-%m-%d %H-%M-%SS")[:-1]}).dat'))
+                    f'{input_dat.name} ({input_dat.version}) '
+                    f'(Retool {datetime.datetime.now().strftime("%Y-%m-%d %H-%M-%SS")[:-1]}) ({str("{:,}".format(stats.final_title_count))}){user_input.user_options}.dat'))
 
             # Write the output dat file
             write_dat_file(input_dat, user_input, output_file_name, stats, titles, dat_numbered, REGEX)
 
             # Report stats
-            report_stats(stats, titles, user_input, input_dat, region_data)
+            stats = Stats(original_title_count, user_input, stats.final_title_count, stats.clone_count)
+            report_stats(stats, titles, user_input, input_dat)
 
         else:
             print(f'{Font.warning}\n* No titles found. No dat file has been created.{Font.end}')
@@ -344,7 +346,7 @@ def main(gui_input=''):
             finish_message = (
                 f'{Font.success}* Finished adding '
                 f'{str("{:,}".format(stats.final_title_count))}'
-                f' unique titles to "{Font.bold}{output_file_name}" '
+                f' unique titles to "{Font.bold}{os.path.abspath(output_file_name)}" '
                 f'{Font.success}in {total_time_elapsed}s.{Font.end}'
                 )
         else:

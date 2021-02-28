@@ -1,6 +1,7 @@
 import datetime
 import functools
 import html
+import os
 import re
 import sys
 
@@ -150,19 +151,19 @@ def dat_to_dict(region, region_data, input_dat, user_input, compilations_found, 
                                 return True
 
         if exclude_categories('Applications', REGEX.programs) == True: continue
-        if exclude_categories('Demos', REGEX.demos) == True: continue
-        if exclude_categories('Coverdiscs') == True: continue
         if exclude_categories('Audio') == True: continue
-        if exclude_categories('Video') == True: continue
-        if exclude_categories('BIOS', [REGEX.bios]) == True: continue
-        if exclude_categories('Console') == True: continue
+        if exclude_categories('Bad_dumps', [REGEX.bad]) == True: continue
+        if exclude_categories('Console', [REGEX.bios]) == True: continue
+        if exclude_categories('Coverdiscs') == True: continue
+        if exclude_categories('Demos', REGEX.demos) == True: continue
         if exclude_categories('Educational') == True: continue
+        if exclude_categories('Manuals', REGEX.manuals) == True: continue
         if exclude_categories('Multimedia') == True: continue
+        if exclude_categories('Pirate', [REGEX.pirate]) == True: continue
         if exclude_categories('Preproduction', REGEX.preproduction) == True: continue
         if exclude_categories('Promotional', REGEX.promotional) == True: continue
         if exclude_categories('Unlicensed', REGEX.unlicensed) == True: continue
-        if exclude_categories('Bad_dumps', [REGEX.bad]) == True: continue
-        if exclude_categories('Pirate', [REGEX.pirate]) == True: continue
+        if exclude_categories('Video') == True: continue
 
         if input_dat.clone_lists != None:
             if user_input.no_compilations == True:
@@ -389,8 +390,8 @@ def dat_to_dict(region, region_data, input_dat, user_input, compilations_found, 
                             if get_raw_title(key) == group:
                                 titles_temp = groups[get_raw_title(key)].copy()
 
-                        # If value[1] = False, match against the tag_free_name
-                        # If value[1] = True, match against the full_name
+                        # If value[1] == False, match against the tag_free_name
+                        # If value[1] == True, match against the full_name
                         for title in titles_temp:
                             if value[1] == False:
                                 if dat_numbered == False:
@@ -531,7 +532,7 @@ def process_input_dat(dat_file, is_folder, gui=False):
         next_status = ''
 
     if gui == False:
-        printwrap(f'* Reading dat file: "{Font.bold}{dat_file}{Font.end}"')
+        printwrap(f'* Reading dat file: "{Font.bold}{os.path.abspath(dat_file)}{Font.end}"')
     try:
         with open(dat_file, 'r') as input_file:
             if gui == False:

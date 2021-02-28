@@ -29,6 +29,9 @@
     "ADI Francais-Maths CM2 (France)": {
         "languages": "Fr"
     },
+    "AIDS Awareness Disc, The (USA)": {
+        "languages": ""
+    },
     "Affaire Morlov, L' (Europe) (En,Fr)": {
         "languages": "En, Fr"
     },
@@ -242,6 +245,9 @@
     "Caesars World of Boxing (USA)": {
         "languages": "En"
     },
+    "Caesars World of Boxing (USA) (Rev 2)": {
+        "languages": ""
+    },
     "Caesars World of Gambling (USA, Europe)": {
         "languages": "En"
     },
@@ -293,10 +299,10 @@
     "Christmas Crisis (Europe)": {
         "languages": ""
     },
-    "Cistercian Architecture (Europe) (En,Fr,De) (19931104)": {
+    "Cistercian Architecture (Europe) (En,Fr,De)": {
         "languages": "En, Fr, De"
     },
-    "Cistercian Architecture (Europe) (En,Fr,De) (19940323)": {
+    "Cistercian Architecture (Europe) (En,Fr,De) (Rev 1)": {
         "languages": "En, Fr, De"
     },
     "Citta piu Felice del Mondo! di Richard Scarry, La (Italy)": {
@@ -398,6 +404,9 @@
     "Dimo's Quest (USA)": {
         "languages": "En"
     },
+    "Discover Sport Fishing - Northern Edition (Canada)": {
+        "languages": ""
+    },
     "Discovering Pompei (Europe) (En,Fr)": {
         "languages": "En, Fr"
     },
@@ -464,6 +473,12 @@
     "Family Games II - Junkfood Jive (Europe)": {
         "languages": "En"
     },
+    "Fatal Attraction (Netherlands) (Disc 1)": {
+        "languages": "En"
+    },
+    "Fatal Attraction (Netherlands) (Disc 2)": {
+        "languages": "En"
+    },
     "Flashback (Europe)": {
         "languages": "En"
     },
@@ -500,16 +515,19 @@
     "Gli Impressionisti Francesi (Italy)": {
         "languages": "It"
     },
+    "Gnomes (USA)": {
+        "languages": "En"
+    },
     "Go - Special Edition (USA) (Unl)": {
         "languages": ""
     },
     "Golden Oldies Jukebox (Europe)": {
         "languages": "En"
     },
-    "Golden Oldies Jukebox (USA) (19910827)": {
+    "Golden Oldies Jukebox (USA)": {
         "languages": ""
     },
-    "Golden Oldies Jukebox (USA) (19910917)": {
+    "Golden Oldies Jukebox (USA) (Rev 1)": {
         "languages": "En"
     },
     "Golf My Way (USA) (Disc 1)": {
@@ -620,14 +638,14 @@
     "Impressionnistes Francais, Les (France)": {
         "languages": ""
     },
-    "Inca (Europe) (En,Es,It,Pt)": {
-        "languages": "En, It, Pt, Es"
-    },
     "Inca (Europe) (En,Fr,De,Nl)": {
         "languages": "Nl, En, Fr, De"
     },
     "Inca (Europe) (En,Fr,De,Nl) (Rev 1)": {
         "languages": "Nl, En, Fr, De"
+    },
+    "Inca (Europe) (Fr,Es,It,Pt)": {
+        "languages": "Fr, It, Pt, Es"
     },
     "Inca (USA)": {
         "languages": "En"
@@ -881,6 +899,9 @@
     "Louis Armstrong - An American Songbook (Europe)": {
         "languages": "En"
     },
+    "Luces y Sombras (Spain)": {
+        "languages": ""
+    },
     "Lucky Luke - The Video Game (Europe)": {
         "languages": ""
     },
@@ -942,6 +963,12 @@
         "languages": "Nl, En, Fr, De"
     },
     "Mathtrak K1 (USA)": {
+        "languages": ""
+    },
+    "Mathtrak K2 (USA)": {
+        "languages": ""
+    },
+    "Mathtrak K4 (USA)": {
         "languages": ""
     },
     "Max Magic (USA)": {
@@ -1025,17 +1052,23 @@
     "NFL Football Trivia Challenge (USA)": {
         "languages": ""
     },
-    "NFL Hall of Fame Football (USA) (19940914)": {
-        "languages": ""
-    },
-    "NFL Hall of Fame Football (USA) (19941014)": {
+    "NFL Hall of Fame Football (USA)": {
         "languages": "En"
+    },
+    "NFL Hall of Fame Football (USA) (Beta)": {
+        "languages": ""
     },
     "NFL Instant Replay (USA)": {
         "languages": "En"
     },
     "Naftaline chez Elle (France)": {
         "languages": "Fr"
+    },
+    "Naked Gun 2 1-2, The - The Smell of Fear (Netherlands) (Disc 1)": {
+        "languages": "En"
+    },
+    "Naked Gun 2 1-2, The - The Smell of Fear (Netherlands) (Disc 2)": {
+        "languages": "En"
     },
     "Name That Tune (USA)": {
         "languages": ""
@@ -1131,6 +1164,9 @@
         "languages": "En, It"
     },
     "Pecos Bill (USA)": {
+        "languages": ""
+    },
+    "Pecos Bill (USA) (Rev 1)": {
         "languages": "En"
     },
     "Pete Townshend Live (USA) (Demo)": {
@@ -1262,6 +1298,9 @@
     "Rock Guitar - A Beginner's Guide (Europe)": {
         "languages": ""
     },
+    "Rosebud - The Director's Cut (Europe)": {
+        "languages": "En"
+    },
     "Royal Classics CDi Sampler - The Classics You Love (Europe)": {
         "languages": "En"
     },
@@ -1292,6 +1331,9 @@
     "Scotland Yard Interactive (Germany)": {
         "languages": "De"
     },
+    "Secret Mission (Europe)": {
+        "languages": ""
+    },
     "Secret Mission (France)": {
         "languages": ""
     },
@@ -1299,6 +1341,9 @@
         "languages": ""
     },
     "Shadoan (Europe)": {
+        "languages": ""
+    },
+    "Shari Lewis Lamb Chop's Play-Along! Action Songs (USA)": {
         "languages": ""
     },
     "Shark Alert (USA)": {
@@ -1335,6 +1380,9 @@
         "languages": ""
     },
     "Steel Machine (Europe)": {
+        "languages": ""
+    },
+    "Stickybear - Family Fun (Europe)": {
         "languages": ""
     },
     "Stickybear Maths (Europe) (En,Es)": {
@@ -1466,6 +1514,9 @@
     "Time Life Presents - 35mm Photography (USA) (Alt)": {
         "languages": ""
     },
+    "Time-Life Presenteert - Kleinbeeld Fotografie (Netherlands)": {
+        "languages": "Nl"
+    },
     "Titanic - An Interactive Exploration (USA)": {
         "languages": "En"
     },
@@ -1477,6 +1528,12 @@
     },
     "Top Gun (Germany) (Disc 2)": {
         "languages": "De"
+    },
+    "Top Gun (Netherlands) (Disc 1)": {
+        "languages": "En"
+    },
+    "Top Gun (Netherlands) (Disc 2)": {
+        "languages": "En"
     },
     "Top Gun (USA) (Disc 1)": {
         "languages": "En"
@@ -1547,10 +1604,10 @@
     "Vins de France, Les (France)": {
         "languages": "Fr"
     },
-    "Visit to Sesame Street, A - Letters (USA) (19910913)": {
+    "Visit to Sesame Street, A - Letters (USA)": {
         "languages": ""
     },
-    "Visit to Sesame Street, A - Letters (USA, Europe) (19920225)": {
+    "Visit to Sesame Street, A - Letters (USA, Europe) (Rev 1)": {
         "languages": "En"
     },
     "Visit to Sesame Street, A - Numbers (Europe)": {
@@ -1634,11 +1691,20 @@
     "Zenith (Europe)": {
         "languages": "En"
     },
+    "Zingstrip - Zing Mee voor Sinterklaas (Netherlands)": {
+        "languages": "Nl"
+    },
+    "Zingstrip - Zing Mee voor de Kerstman (Netherlands)": {
+        "languages": "Nl"
+    },
     "Zombie Dinos from Planet Zeltoid (Europe)": {
         "languages": "En"
     },
     "Zombie Dinos from Planet Zeltoid (USA, Europe) (Rev 1)": {
         "languages": "En"
+    },
+    "Zombie Dinos van de Planeet Zeltoid (Netherlands)": {
+        "languages": "Nl"
     },
     "Zombie Dinos vom Planeten Zeltoid (Germany)": {
         "languages": "De"

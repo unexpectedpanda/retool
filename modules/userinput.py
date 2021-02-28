@@ -16,14 +16,15 @@ def check_input():
         formatter_class=SmartFormatter)
 
     dev_options = parser.add_argument_group('dev options')
-    filter_options = parser.add_argument_group('filter options')
+    modes = parser.add_argument_group('modes')
+    exclusions = parser.add_argument_group('exclusions')
 
     parser.add_argument('Input',
                         metavar='<input dat>',
                         type=str,
                         help='R|the path to the dat file, or folder of dat files you want\nto process')
 
-    parser.add_argument('-o',
+    parser.add_argument('--output',
                         metavar='<output folder>',
                         type=str,
                         help='R|set an output folder where the new 1G1R dat/s will be\ncreated')
@@ -44,86 +45,46 @@ def check_input():
                         action='store_true',
                         help='R|don\'t load custom global and system filters from the\nuser-filters folder')
 
-    dev_options.add_argument('-x',
-                        action='store_true',
-                        help='output dat/s in legacy parent/clone format')
-
-    filter_options.add_argument('-g',
-                        action='store_true',
-                        help='enable most filters (-bcdefikrs)')
-
-    filter_options.add_argument('-l',
+    modes.add_argument('-l',
                         action='store_true',
                         help=f'filter by languages using a list (see {Font.bold}user-config.yaml{Font.end})')
 
-    filter_options.add_argument('-s',
+    modes.add_argument('-z',
+                        action='store_true',
+                        help='R|titles ripped from modern platform rereleases, such as those found\nin Virtual Console, replace standard editions (ripped titles might\nnot work in emulators)')
+
+    modes.add_argument('-s',
                         action='store_true',
                         help='R|supersets (special editions, game of the year editions, and\ncollections) replace standard editions')
 
-    filter_options.add_argument('-v',
+    modes.add_argument('-x',
                         action='store_true',
-                        help='R|titles ripped from modern platform rereleases, such as those found\nin Virtual Console, replace retro editions (ripped titles might not\nwork in emulators)\n\n')
+                        help='output dat/s in legacy parent/clone format')
 
+    exclusions.add_argument('--exclude',
+                                action='extend',
+                                metavar='FILTERS',
+                                help='R|use with the following single letter filters to exclude these\ntypes of titles:\n'
+                                '\na\tapplications'
+                                '\nA\taudio (these might include game soundtracks)'
+                                '\nb\tbad dumps'
+                                '\nB\tBIOS and other chips'
+                                '\nc\tcompilations with no unique titles'
+                                '\nC\tcoverdiscs (discs attached to the front of magazines)'
+                                '\nd\tdemos and samples'
+                                '\ne\teducational titles'
+                                '\nm\tmanuals'
+                                '\nM\tmultimedia titles (these might include games)'
+                                '\np\tpirate titles'
+                                '\nP\tpreproduction titles (alphas, betas, prototypes)'
+                                '\nr\tpromotional titles'
+                                '\nu\tunlicensed titles'
+                                '\nv\tvideo\n\n',
+                                nargs='+')
 
-    filter_options.add_argument('-a',
-                        action='store_true',
-                        help='exclude applications')
-
-    filter_options.add_argument('-b',
-                        action='store_true',
-                        help='exclude bad dumps')
-
-    filter_options.add_argument('-c',
-                        action='store_true',
-                        help='exclude compilations with no unique titles')
-
-    filter_options.add_argument('-d',
-                        action='store_true',
-                        help='exclude demos and samples')
-
-    filter_options.add_argument('-e',
-                        action='store_true',
-                        help='exclude educational titles')
-
-    filter_options.add_argument('-f',
-                        action='store_true',
-                        help='exclude coverdiscs (discs attached to the front of magazines)')
-
-    filter_options.add_argument('-i',
-                        action='store_true',
-                        help='exclude audio titles (these might be used as soundtracks by games)')
-
-    filter_options.add_argument('-j',
-                        action='store_true',
-                        help='exclude video titles')
-
-    filter_options.add_argument('-k',
-                        action='store_true',
-                        help='exclude BIOS titles')
-
-    filter_options.add_argument('-m',
-                        action='store_true',
-                        help='exclude multimedia titles (these might include games)')
-
-    filter_options.add_argument('-n',
-                        action='store_true',
-                        help='exclude pirate titles')
-
-    filter_options.add_argument('-p',
-                        action='store_true',
-                        help='exclude preproduction titles (alphas, betas, prototypes)')
-
-    filter_options.add_argument('-q',
+    modes.add_argument('-q',
                         action='store_true',
                         help=argparse.SUPPRESS)
-
-    filter_options.add_argument('-r',
-                        action='store_true',
-                        help='exclude promotional titles')
-
-    filter_options.add_argument('-u',
-                        action='store_true',
-                        help='exclude unlicensed titles')
 
     if len(sys.argv) == 1:
         sys.exit(1)
@@ -133,58 +94,57 @@ def check_input():
         print(f'Can\'t find the specified input dat or folder {Font.bold}"{args.Input}"{Font.end}.')
         sys.exit()
 
-    if args.o is not None:
-        if os.path.isfile(args.o):
-            print(f'Can\'t output to {Font.bold}"{args.o}"{Font.end}, as it\'s a file, not a folder.')
+    if args.output is not None:
+        if os.path.isfile(args.output):
+            print(f'Can\'t output to {Font.bold}"{args.output}"{Font.end}, as it\'s a file, not a folder.')
             sys.exit()
-        elif not os.path.exists(args.o):
-            print(f'* Creating folder "{Font.bold}{args.o}{Font.end}"')
-            os.makedirs(args.o)
+        elif not os.path.exists(args.output):
+            print(f'* Creating folder "{Font.bold}{args.output}{Font.end}"')
+            os.makedirs(args.output)
     else:
-        args.o = ''
+        args.output = ''
 
     # Set errors and legacy to always be true if in dev environment
     if os.path.isfile('.dev') and args.q == False:
         setattr(args, 'x', True)
         setattr(args, 'errors', True)
 
-    # Set -g options, and create user options string
+    # Create user options string
     user_options = []
-    hidden_options = ['Input', 'g', 'l', 'o', 'q', 'errors', 'log', 'nofilters', 'list']
-    non_g_options = ['a', 'i', 'm', 'n', 'p', 'u', 'v', 'x']
-
-    if args.g == True:
-        for arg in vars(args):
-            if arg not in hidden_options and arg not in non_g_options:
-                setattr(args, arg, True)
+    hidden_options = ['Input', 'l', 'output', 'q', 'errors', 'log', 'nofilters', 'list']
 
     for arg in vars(args):
         if arg not in hidden_options and getattr(args, arg) == True:
             user_options.append(arg)
 
+    if args.exclude != [] and args.exclude != None:
+        for arg in args.exclude:
+            user_options.append(arg)
+
     if user_options != []:
-        user_options = f' (-{"".join(sorted(user_options))})'
+        user_options = f' (-{"".join(sorted([x for x in "".join(user_options)], key=str.casefold))})'
     else:
         user_options = ''
 
     return UserInput(
             args.Input,
-            args.o,
-            args.a,
-            args.b,
-            args.c,
-            args.d,
-            args.e,
-            args.f,
-            args.i,
-            args.j,
-            args.k,
-            args.m,
-            args.n,
-            args.p,
-            args.r,
-            args.u,
-            args.v,
+            args.output,
+            True if 'a' in user_options else False,
+            True if 'A' in user_options else False,
+            True if 'b' in user_options else False,
+            True if 'B' in user_options else False,
+            True if 'c' in user_options else False,
+            True if 'C' in user_options else False,
+            True if 'd' in user_options else False,
+            True if 'e' in user_options else False,
+            True if 'm' in user_options else False,
+            True if 'M' in user_options else False,
+            True if 'p' in user_options else False,
+            True if 'P' in user_options else False,
+            True if 'r' in user_options else False,
+            True if 'u' in user_options else False,
+            True if 'v' in user_options else False,
+            args.z,
             args.s,
             args.l,
             args.x,

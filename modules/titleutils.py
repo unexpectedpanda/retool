@@ -6,6 +6,7 @@ import sys
 
 from modules.utils import Font, old_windows, printverbose
 
+
 def check_date(string, title):
     """ Basic date validation """
 
@@ -76,7 +77,7 @@ def get_title_count(titles, is_folder):
     return final_title_count
 
 
-def report_stats(stats, titles, user_input, input_dat, region_data):
+def report_stats(stats, titles, user_input, input_dat):
     """ Print the final stats to screen """
 
     print(
@@ -84,59 +85,83 @@ def report_stats(stats, titles, user_input, input_dat, region_data):
         f'{str("{:,}".format(stats.original_title_count))}')
 
     if user_input.legacy == True:
-        print(f'o  Clones found: {str("{:,}".format(stats.clone_count))}')
+        print(f'o  Titles assigned as clones: {str("{:,}".format(stats.clone_count))}')
+    else:
+        print(f'   -  Clones removed: {str("{:,}".format(stats.clone_count))}')
     if user_input.no_applications == True:
         print(
-            '-  Applications removed: '
+            '   -  Applications removed: '
             f'{str("{:,}".format(stats.applications_count))}')
+    if user_input.no_audio == True:
+        print(
+            '   -  Audio titles removed: '
+            f'{str("{:,}".format(stats.audio_count))}')
     if user_input.no_bad_dumps == True:
         print(
-            '-  Bad dumps removed: '
+            '   -  Bad dumps removed: '
             f'{str("{:,}".format(stats.bad_dump_count))}')
-    if user_input.no_coverdiscs == True:
+    if user_input.no_bios == True:
         print(
-            '-  Coverdiscs removed: '
-            f'{str("{:,}".format(stats.coverdiscs_count))}')
-    if user_input.no_demos == True:
-        print(
-            '-  Demos removed: '
-            f'{str("{:,}".format(stats.demos_count))}')
-    if user_input.no_educational == True:
-        print(
-            '-  Educational titles removed: '
-            f'{str("{:,}".format(stats.educational_count))}')
-    if user_input.no_multimedia == True:
-        print(
-            '-  Multimedia titles removed: '
-            f'{str("{:,}".format(stats.multimedia_count))}')
-    if user_input.no_pirate == True:
-        print(
-            '-  Pirate titles removed: '
-            f'{str("{:,}".format(stats.pirate_count))}')
-    if user_input.no_preproduction == True:
-        print(
-            '-  Preproduction titles removed: '
-            f'{str("{:,}".format(stats.preproduction_count))}')
-    if user_input.no_promotional == True:
-        print(
-            '-  Promotional titles removed: '
-            f'{str("{:,}".format(stats.promotional_count))}')
+            '   -  BIOSes and other chips removed: '
+            f'{str("{:,}".format(stats.bios_count))}')
     if input_dat.clone_lists != None:
         if user_input.no_compilations == True:
             print(
-                '-  Compilations removed: '
+                '   -  Compilations removed: '
                 f'{str("{:,}".format(stats.compilations_count))}')
+    if user_input.no_coverdiscs == True:
+        print(
+            '   -  Coverdiscs removed: '
+            f'{str("{:,}".format(stats.coverdiscs_count))}')
+    if user_input.no_demos == True:
+        print(
+            '   -  Demos removed: '
+            f'{str("{:,}".format(stats.demos_count))}')
+    if user_input.no_educational == True:
+        print(
+            '   -  Educational titles removed: '
+            f'{str("{:,}".format(stats.educational_count))}')
+    if user_input.no_manuals == True:
+        print(
+            '   -  Manuals removed: '
+            f'{str("{:,}".format(stats.manuals_count))}')
+    if user_input.no_multimedia == True:
+        print(
+            '   -  Multimedia titles removed: '
+            f'{str("{:,}".format(stats.multimedia_count))}')
+    if user_input.no_pirate == True:
+        print(
+            '   -  Pirate titles removed: '
+            f'{str("{:,}".format(stats.pirate_count))}')
+    if user_input.no_preproduction == True:
+        print(
+            '   -  Preproduction titles removed: '
+            f'{str("{:,}".format(stats.preproduction_count))}')
+    if user_input.no_promotional == True:
+        print(
+            '   -  Promotional titles removed: '
+            f'{str("{:,}".format(stats.promotional_count))}')
     if user_input.no_unlicensed == True:
         print(
-            '-  Unlicensed titles removed: '
+            '   -  Unlicensed titles removed: '
             f'{str("{:,}".format(stats.unlicensed_count))}')
-    if user_input.legacy == False:
-        print(f'-  Clones removed: {str("{:,}".format(stats.clone_count))}')
+    if user_input.no_video == True:
+        print(
+            '   -  Video titles removed: '
+            f'{str("{:,}".format(stats.video_count))}')
+    if stats.custom_global_filter_count > 0:
+        print(
+            '   -  Titles removed due to custom global filter: '
+            f'{str("{:,}".format(stats.custom_global_filter_count))}')
+    if stats.custom_system_filter_count > 0:
+        print(
+            '   -  Titles removed due to custom system filter: '
+            f'{str("{:,}".format(stats.custom_system_filter_count))}')
 
     if 'Unknown' in user_input.user_region_order:
         if len(titles.regions['Unknown']) > 1:
             print(
-                '+  Titles without regions included: '
+                '  +  Titles without regions included: '
                 f'{str("{:,}".format(len(titles.regions["Unknown"])))}')
     print(f'\n-  Total titles removed: {str("{:,}".format(stats.original_title_count - stats.final_title_count))}')
     print(f'{Font.bold}---------------------------')
@@ -400,6 +425,38 @@ def choose_cross_region_parents(titles, user_input, dat_numbered, REGEX):
                     if title_1 in parents: parents.remove(title_1)
                 elif preprod_title_2 == True and preprod_title_1 == False:
                     if title_2 in parents: parents.remove(title_2)
+
+                # Check to see if titles are modern rips or not. If so, favour
+                # standard titles
+                modern_rip_1 = False
+                modern_rip_2 = False
+
+                for edition in user_input.tag_strings.modern_editions:
+                    if bool(re.search(edition, title_1.full_name)): modern_rip_1 = True
+                    if bool(re.search(edition, title_2.full_name)): modern_rip_2 = True
+
+                if not (
+                    modern_rip_1 == True
+                    and modern_rip_2 == True):
+                        for edition in user_input.tag_strings.modern_editions:
+                            if user_input.modern == False:
+                                if bool(re.search(edition, title_1.full_name)) == True:
+                                    for language in title_1.languages:
+                                        if language in title_2.languages:
+                                            if title_1 in parents: parents.remove(title_1)
+                                elif bool(re.search(edition, title_2.full_name)) == True:
+                                    for language in title_2.languages:
+                                        if language in title_1.languages:
+                                            if title_2 in parents: parents.remove(title_2)
+                            else:
+                                if bool(re.search(edition, title_1.full_name)) == True:
+                                    for language in title_1.languages:
+                                        if language in title_2.languages:
+                                            if title_2 in parents: parents.remove(title_2)
+                                elif bool(re.search(edition, title_2.full_name)) == True:
+                                    for language in title_2.languages:
+                                        if language in title_1.languages:
+                                            if title_1 in parents: parents.remove(title_1)
 
                 # Check to see if titles are unlicensed or not. If so, favour
                 # production titles
@@ -816,60 +873,59 @@ def assign_clones(titles, input_dat, region_data, user_input, dat_numbered, REGE
                     sys.stdout.write("\033[K")
                 print(f'* Assigning clones from clone lists... [{str(progress_percent)}%]', sep='', end='\r', flush=True)
 
-            if get_raw_title(key) in titles.all:
-                group = []
-
-                for title in titles.all[get_raw_title(key)]:
-                    group.append(title.short_name)
-                    if title.short_name == key:
-                        clones.append((title, 1))
-
-                if key not in group:
-                    printverbose(
-                        user_input.verbose,
-                        f'{Font.warning}* Title in clone list not found in dat or selected regions: '
-                        f'{Font.warning_bold}{key}{Font.end}')
-
-                for value in values:
-                    if len(value) < 2:
-                        printverbose(
-                            user_input.verbose,
-                            f'{Font.warning}* {Font.warning}Problem in clone list: at '
-                            f'least two values are required in the array for the '
-                            f'{Font.warning_bold}{key}{Font.warning} key to assign a '
-                            f'clone. Ignoring the key.{Font.end}')
-                    elif type(value) != list:
-                        printverbose(
-                            user_input.verbose,
-                            f'{Font.warning}* {Font.warning}Problem in clone list: the '
-                            f'following clone is not in a list: '
-                            f'{Font.warning_bold}{key}{Font.warning}. Ignoring.{Font.end}')
-                    else:
-                        clone_title, clone_priority = value[0], value[1]
-
-                        if get_raw_title(clone_title) in titles.all:
-                            group = []
-
-                            for title in titles.all[get_raw_title(clone_title)]:
-                                group.append(title.short_name)
-                                if title.short_name == clone_title:
-                                    clones.append((title, clone_priority))
-
-                            if clone_title not in group:
-                                printverbose(
-                                    user_input.verbose,
-                                    f'{Font.warning}* Title in clone list not found in dat or selected regions: '
-                                    f'{Font.warning_bold}{clone_title}{Font.end}')
-                        else:
-                            printverbose(
-                                user_input.verbose,
-                                f'{Font.warning}* Title in clone list not found in dat or selected regions: '
-                                f'{Font.warning_bold}{clone_title}{Font.end}')
-            else:
+            # Compensate if the key title is missing, either because it's been
+            # removed by Retool, or doesn't exist in the dat.
+            if not get_raw_title(key) in titles.all:
                 printverbose(
                     user_input.verbose,
                     f'{Font.warning}* Title in clone list not found in dat or selected regions: '
                     f'{Font.warning_bold}{key}{Font.end}')
+                key = f'|* Missing *|: {key}'
+                titles.all[get_raw_title(key)] = []
+
+            # Populate groups for the related titles in the clone list
+            group = []
+
+            for title in titles.all[get_raw_title(key)]:
+                group.append(title.short_name)
+                if title.short_name == key:
+                    clones.append((title, 1))
+
+            for value in values:
+                if len(value) < 2:
+                    printverbose(
+                        user_input.verbose,
+                        f'{Font.warning}* {Font.warning}Problem in clone list: at '
+                        f'least two values are required in the array for the '
+                        f'{Font.warning_bold}{key}{Font.warning} key to assign a '
+                        f'clone. Ignoring the key.{Font.end}')
+                elif type(value) != list:
+                    printverbose(
+                        user_input.verbose,
+                        f'{Font.warning}* {Font.warning}Problem in clone list: the '
+                        f'following clone is not in a list: '
+                        f'{Font.warning_bold}{key}{Font.warning}. Ignoring.{Font.end}')
+                else:
+                    clone_title, clone_priority = value[0], value[1]
+
+                    if get_raw_title(clone_title) in titles.all:
+                        group = []
+
+                        for title in titles.all[get_raw_title(clone_title)]:
+                            group.append(title.short_name)
+                            if title.short_name == clone_title:
+                                clones.append((title, clone_priority))
+
+                        if clone_title not in group:
+                            printverbose(
+                                user_input.verbose,
+                                f'{Font.warning}* Title in clone list not found in dat or selected regions: '
+                                f'{Font.warning_bold}{clone_title}{Font.end}')
+                    else:
+                        printverbose(
+                            user_input.verbose,
+                            f'{Font.warning}* Title in clone list not found in dat or selected regions: '
+                            f'{Font.warning_bold}{clone_title}{Font.end}')
 
             # Figure out which clone to make a parent, based on region and language
             priority_range = range(-1, 10) if user_input.supersets == True else range(0, 10)

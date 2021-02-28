@@ -1235,6 +1235,9 @@
     "Disney-Pixar Ratatouille (Germany)": {
         "languages": "De"
     },
+    "Disney-Pixar Ratatouille (Greece)": {
+        "languages": "El"
+    },
     "Disney-Pixar Ratatouille (Italy)": {
         "languages": "It"
     },
@@ -2672,6 +2675,9 @@
     "Invizimals - Shadow Zone (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl)": {
         "languages": "Da, Nl, En, Fi, Fr, De, It, No, Pl, Pt, Es, Sv"
     },
+    "Invizimals - Shadow Zone (Greece) (En,Es,Pt,El)": {
+        "languages": "En, El, Pt, Es"
+    },
     "Invizimals - Shadow Zone (USA)": {
         "languages": ""
     },
@@ -3074,7 +3080,7 @@
     "Little Big Planet (Asia) (En,Zh,Ko)": {
         "languages": "Zh, En, Ko"
     },
-    "Little Britain (Europe)": {
+    "Little Britain - The Video Game (Europe)": {
         "languages": "En"
     },
     "LittleBigPlanet (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru)": {
@@ -4889,14 +4895,14 @@
     "SD Gundam - GGeneration World (Japan)": {
         "languages": "Ja"
     },
-    "SNK Arcade Classics Vol. 1 (Asia)": {
-        "languages": "En"
-    },
     "SNK Arcade Classics Vol. 1 (Europe)": {
         "languages": "En"
     },
     "SNK Arcade Classics Vol. 1 (Japan) (En,Ja)": {
         "languages": "En, Ja"
+    },
+    "SNK Arcade Classics Vol. 1 (Korea)": {
+        "languages": "En"
     },
     "SNK Arcade Classics Vol. 1 (USA)": {
         "languages": "En"

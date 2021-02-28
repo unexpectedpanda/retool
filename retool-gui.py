@@ -59,7 +59,7 @@ sg.SetOptions(font=(font, 10))
 
 
 def main():
-    __version__ = 0.06
+    __version__ = 0.07
 
     # Generate user config file if it's missing
     generate_config(region_data.languages_long, region_data.region_order, False, False, True)
@@ -77,13 +77,14 @@ def main():
 
         [sg.HorizontalSeparator()],
 
-        generate_checkbox(['Applications', 'Educational'], 30*scale_multiplier, ['Exclude titles with the dat category "Applications"\nor with the following text in the name:\n\n* (Program)\n* (Test Program)', 'Exclude titles with the dat category "Educational"']),
+        generate_checkbox(['Applications', 'Manuals'], 30*scale_multiplier, ['Exclude titles with the dat category "Applications"\nor with the following text in the name:\n\n* (Program)\n* (Test Program)\n* Check Program\n* Sample Program', 'Exclude titles with the "(Manual)" in the name']),
         generate_checkbox(['Audio', 'Multimedia'], 30*scale_multiplier, ['Exclude titles with the dat category "Audio"\n-- these might be used as soundtracks by games', 'Exclude titles with the dat category "Multimedia"\n-- these might include games']),
         generate_checkbox(['Bad dumps', 'Pirate'], 30*scale_multiplier, ['Exclude titles with "[b]" in the name', 'Exclude titles with "(Pirate)" in the name']),
-        generate_checkbox(['BIOS', 'Preproduction'], 30*scale_multiplier, ['Exclude titles with the dat category "Console"\nor with "[BIOS]" in the name', 'Exclude titles with the dat category "Preproduction" or with the\nfollowing text in the name:\n\n* (Alpha [0-99])\n* (Beta [0-99])\n* (Pre-Production)\n* (Possible Proto)\n* (Proto [0-99])\n* (Review Code)']),
+        generate_checkbox(['BIOS and other chips', 'Preproduction'], 30*scale_multiplier, ['Exclude titles with the dat category "Console"\nor with the following text in the name:\n\n* [BIOS]\n* (Enhancement Chip)', 'Exclude titles with the dat category "Preproduction" or with the\nfollowing text in the name:\n\n* (Alpha [0-99])\n* (Beta [0-99])\n* (Pre-Production)\n* (Possible Proto)\n* (Proto [0-99])\n* (Review Code)']),
         generate_checkbox(['Compilations with no unique titles', 'Promotional'], 30*scale_multiplier, ['Exclude compilations where the titles already\nexist in the dat as single titles', 'Exclude titles with the dat category "Promotional" or with the\nfollowing text in the name:\n\n* (Promo)\n* EPK\n* Press Kit']),
-        generate_checkbox(['Coverdiscs', 'Unlicensed'], 30*scale_multiplier, ['Exclude titles with the dat category "Coverdiscs" -- these\nare discs that were attached to the front of magazines', 'Exclude titles with "(Unl)" in the name']),
+        generate_checkbox(['Coverdiscs', 'Unlicensed'], 30*scale_multiplier, ['Exclude titles with the dat category "Coverdiscs" -- these\nwere discs that were attached to the front of magazines', 'Exclude titles with "(Unl)" in the name']),
         generate_checkbox(['Demos and samples', 'Video'], 30*scale_multiplier, ['Exclude titles with the dat category "Demos" or with the\nfollowing text in the name:\n\n* @barai\n* (Demo [1-9])\n* (Demo-CD)\n* (GameCube Preview)\n* (Preview)\n* Sample\n* Taikenban\n* Trial Edition', 'Exclude titles with the dat category "Video"']),
+        generate_checkbox(['Educational'], 30*scale_multiplier, ['Exclude titles with the dat category "Educational"']),
     ]
 
     # Modes
@@ -457,22 +458,30 @@ def main():
         window['filtered-regions'].update(settings.user_config.data['region order'])
         window['available-regions'].update([language for language in getattr(window['available-regions'], 'Values') if language not in settings.user_config.data['region order']])
 
-    if 'a' in settings.user_config.data['gui settings']: window['checkbox-applications'].update(True)
-    if 'b' in settings.user_config.data['gui settings']: window['checkbox-bad-dumps'].update(True)
-    if 'c' in settings.user_config.data['gui settings']: window['checkbox-compilations-with-no-unique-titles'].update(True)
-    if 'd' in settings.user_config.data['gui settings']: window['checkbox-demos-and-samples'].update(True)
-    if 'e' in settings.user_config.data['gui settings']: window['checkbox-educational'].update(True)
-    if 'f' in settings.user_config.data['gui settings']: window['checkbox-coverdiscs'].update(True)
-    if 'i' in settings.user_config.data['gui settings']: window['checkbox-audio'].update(True)
-    if 'j' in settings.user_config.data['gui settings']: window['checkbox-video'].update(True)
-    if 'k' in settings.user_config.data['gui settings']: window['checkbox-bios'].update(True)
-    if 'm' in settings.user_config.data['gui settings']: window['checkbox-multimedia'].update(True)
-    if 'n' in settings.user_config.data['gui settings']: window['checkbox-pirate'].update(True)
-    if 'p' in settings.user_config.data['gui settings']: window['checkbox-preproduction'].update(True)
-    if 'r' in settings.user_config.data['gui settings']: window['checkbox-promotional'].update(True)
-    if 'u' in settings.user_config.data['gui settings']: window['checkbox-unlicensed'].update(True)
+    for setting in settings.user_config.data['gui settings']:
+        if 'OrderedDict' in str(setting):
+            for key, value in dict(setting).items():
+                if key == 'exclude' and value != '':
+                    if 'a' in value: window['checkbox-applications'].update(True)
+                    if 'A' in value: window['checkbox-audio'].update(True)
+                    if 'b' in value: window['checkbox-bad-dumps'].update(True)
+                    if 'B' in value: window['checkbox-bios-and-other-chips'].update(True)
+                    if 'c' in value: window['checkbox-compilations-with-no-unique-titles'].update(True)
+                    if 'C' in value: window['checkbox-coverdiscs'].update(True)
+                    if 'd' in value: window['checkbox-demos-and-samples'].update(True)
+                    if 'e' in value: window['checkbox-educational'].update(True)
+                    if 'm' in value: window['checkbox-manuals'].update(True)
+                    if 'M' in value: window['checkbox-multimedia'].update(True)
+                    if 'p' in value: window['checkbox-pirate'].update(True)
+                    if 'P' in value: window['checkbox-preproduction'].update(True)
+                    if 'r' in value: window['checkbox-promotional'].update(True)
+                    if 'u' in value: window['checkbox-unlicensed'].update(True)
+                    if 'v' in value: window['checkbox-video'].update(True)
+                if key == 'output' and value != '':
+                    window['button-output-folder'].update(os.path.abspath(dict(setting)['output']))
+
     if 's' in settings.user_config.data['gui settings']: window['checkbox-supersets-replace-standard-editions'].update(True)
-    if 'v' in settings.user_config.data['gui settings']: window['checkbox-titles-ripped-from-modern-platform-rereleases-replace-standard-editions'].update(True)
+    if 'z' in settings.user_config.data['gui settings']: window['checkbox-titles-ripped-from-modern-platform-rereleases-replace-standard-editions'].update(True)
     if 'x' in settings.user_config.data['gui settings']: window['checkbox-output-dat-in-legacy-parent-clone-format'].update(True)
     if 'log' in settings.user_config.data['gui settings']: window['checkbox-also-output-lists-of-what-titles-have-been-kept-and-removed'].update(True)
     if 'list' in settings.user_config.data['gui settings']:
@@ -482,10 +491,6 @@ def main():
         window['suffix-label'].update(visible=True)
         window['suffix-input'].update(visible=True)
     if 'nofilters' in settings.user_config.data['gui settings']: window['checkbox-disable-custom-global-and-system-filters'].update(True)
-
-    for setting in settings.user_config.data['gui settings']:
-        if isinstance (setting, OrderedDict):
-            window['button-output-folder'].update(os.path.abspath(dict(setting)['output']))
 
     # Import list prefix and suffixes
     if settings.user_config.data['list prefix'] != '':
@@ -499,6 +504,20 @@ def main():
 
     window['global-filters-exclude'].update('\n'.join(user_filters.data['exclude']))
     window['global-filters-include'].update('\n'.join(user_filters.data['include']))
+
+    # Check for clone lists
+    if os.path.exists('./clonelists'):
+        if len(os.listdir('./clonelists')) == 0:
+            gate(
+                window,
+                'Update clone lists?',
+                'You don\'t have any clone lists. Clone lists help Retool to match\ntitles with different names in different regions.\n\nDownload them now?','Download','No thanks')
+    else:
+        gate(
+                window,
+                'Update clone lists?',
+                'You don\'t have any clone lists. Clone lists help Retool to match\ntitles with different names in different regions.\n\nDownload them now?','Download','No thanks')
+
 
     # Instantiate filters and other things
     filters = Filters()
@@ -550,27 +569,35 @@ def main():
                 if gui_settings == []:
                     gui_output_settings = ''
                 else:
-                    hidden_options = ['Input', 'g', 'l', 'o', 'q', 'errors', 'log', 'nofilters', 'list']
-                    gui_output_settings = [setting for setting in gui_settings if 'output' not in setting]
-                    gui_output_settings = f' (-{"".join(sorted([setting for setting in gui_output_settings if setting not in hidden_options]))})'
+                    hidden_options = ['Input', 'g', 'l', 'output', 'q', 'errors', 'log', 'nofilters', 'list']
+                    gui_output_settings = [setting for setting in gui_settings if ('output' not in setting and 'exclude' not in setting)]
+
+                    exclude_settings = [setting for setting in gui_settings if 'exclude' in setting]
+                    exclude_settings = str(exclude_settings).replace('exclude: ','')
+
+                    if exclude_settings != '':
+                        gui_output_settings.append(exclude_settings.replace('[','').replace(']','').replace('\'',''))
+
+                    gui_output_settings = f' (-{"".join(sorted([setting for setting in gui_output_settings if setting not in hidden_options], key=str.casefold))})'
 
                 gui_input = UserInput(
                     input_file,
                     output_folder,
                     values['checkbox-applications'],
+                    values['checkbox-audio'],
                     values['checkbox-bad-dumps'],
+                    values['checkbox-bios-and-other-chips'],
                     values['checkbox-compilations-with-no-unique-titles'],
+                    values['checkbox-coverdiscs'],
                     values['checkbox-demos-and-samples'],
                     values['checkbox-educational'],
-                    values['checkbox-coverdiscs'],
-                    values['checkbox-audio'],
-                    values['checkbox-video'],
-                    values['checkbox-bios'],
+                    values['checkbox-manuals'],
                     values['checkbox-multimedia'],
                     values['checkbox-pirate'],
                     values['checkbox-preproduction'],
                     values['checkbox-promotional'],
                     values['checkbox-unlicensed'],
+                    values['checkbox-video'],
                     values['checkbox-titles-ripped-from-modern-platform-rereleases-replace-standard-editions'],
                     values['checkbox-supersets-replace-standard-editions'],
                     filter_by_languages, # languages
@@ -677,34 +704,35 @@ def main():
                     if value in values['filtered-regions']:
                         selected_indexes.append(i)
 
-                filtered_regions_remainder = [region for region in all_regions if region not in selected_regions]
+                if selected_indexes != []:
+                    filtered_regions_remainder = [region for region in all_regions if region not in selected_regions]
 
-                # Shuffle the items up or down
-                if event == 'button-region-move-up':
-                    if selected_indexes[0] <= 1:
-                        all_regions = selected_regions + filtered_regions_remainder
-                    else:
-                        all_regions = filtered_regions_remainder[:selected_indexes[0] - 1] + selected_regions + filtered_regions_remainder[selected_indexes[0]-1:]
+                    # Shuffle the items up or down
+                    if event == 'button-region-move-up':
+                        if selected_indexes[0] <= 1:
+                            all_regions = selected_regions + filtered_regions_remainder
+                        else:
+                            all_regions = filtered_regions_remainder[:selected_indexes[0] - 1] + selected_regions + filtered_regions_remainder[selected_indexes[0]-1:]
 
-                    # Change the position of the list box when moving items
-                    window['filtered-regions'].update(all_regions)
-                    window['filtered-regions'].set_value(selected_regions)
-                    window['filtered-regions'].Widget.scrollToItem(window['filtered-regions'].Widget.item(selected_indexes[0] - 2))
+                        # Change the position of the list box when moving items
+                        window['filtered-regions'].update(all_regions)
+                        window['filtered-regions'].set_value(selected_regions)
+                        window['filtered-regions'].Widget.scrollToItem(window['filtered-regions'].Widget.item(selected_indexes[0] - 2))
 
-                if event == 'button-region-move-down':
-                    if selected_indexes[-1] >= len(all_regions) - 2:
-                        all_regions = filtered_regions_remainder + selected_regions
-                    else:
-                        all_regions = (
-                            filtered_regions_remainder[:-len(all_regions[selected_indexes[-1] + 2:])]
-                            + selected_regions
-                            + all_regions[selected_indexes[-1] + 2:]
-                        )
+                    if event == 'button-region-move-down':
+                        if selected_indexes[-1] >= len(all_regions) - 2:
+                            all_regions = filtered_regions_remainder + selected_regions
+                        else:
+                            all_regions = (
+                                filtered_regions_remainder[:-len(all_regions[selected_indexes[-1] + 2:])]
+                                + selected_regions
+                                + all_regions[selected_indexes[-1] + 2:]
+                            )
 
-                    # Change the position of the list box when moving items
-                    window['filtered-regions'].update(all_regions)
-                    window['filtered-regions'].set_value(selected_regions)
-                    window['filtered-regions'].Widget.scrollToItem(window['filtered-regions'].Widget.item(selected_indexes[-1] + 2))
+                        # Change the position of the list box when moving items
+                        window['filtered-regions'].update(all_regions)
+                        window['filtered-regions'].set_value(selected_regions)
+                        window['filtered-regions'].Widget.scrollToItem(window['filtered-regions'].Widget.item(selected_indexes[-1] + 2))
 
         if event == 'button-default-region-order':
             window['available-regions'].update([])
@@ -725,39 +753,42 @@ def main():
         #  Write settings any time the user interacts with the appropriate widgets
         if event:
             gui_settings = []
+            excludes = []
 
             if values['checkbox-applications'] == True:
-                gui_settings.append('a')
-            if values['checkbox-bad-dumps'] == True:
-                gui_settings.append('b')
-            if values['checkbox-compilations-with-no-unique-titles'] == True:
-                gui_settings.append('c')
-            if values['checkbox-demos-and-samples'] == True:
-                gui_settings.append('d')
-            if values['checkbox-educational'] == True:
-                gui_settings.append('e')
-            if values['checkbox-coverdiscs'] == True:
-                gui_settings.append('f')
+                excludes.append('a')
             if values['checkbox-audio'] == True:
-                gui_settings.append('i')
-            if values['checkbox-video'] == True:
-                gui_settings.append('j')
-            if values['checkbox-bios'] == True:
-                gui_settings.append('k')
+                excludes.append('A')
+            if values['checkbox-bad-dumps'] == True:
+                excludes.append('b')
+            if values['checkbox-bios-and-other-chips'] == True:
+                excludes.append('B')
+            if values['checkbox-compilations-with-no-unique-titles'] == True:
+                excludes.append('c')
+            if values['checkbox-coverdiscs'] == True:
+                excludes.append('C')
+            if values['checkbox-demos-and-samples'] == True:
+                excludes.append('d')
+            if values['checkbox-educational'] == True:
+                excludes.append('e')
+            if values['checkbox-manuals'] == True:
+                excludes.append('m')
             if values['checkbox-multimedia'] == True:
-                gui_settings.append('m')
+                excludes.append('M')
             if values['checkbox-pirate'] == True:
-                gui_settings.append('n')
+                excludes.append('p')
             if values['checkbox-preproduction'] == True:
-                gui_settings.append('p')
+                excludes.append('P')
             if values['checkbox-promotional'] == True:
-                gui_settings.append('r')
+                excludes.append('r')
             if values['checkbox-unlicensed'] == True:
-                gui_settings.append('u')
+                excludes.append('u')
+            if values['checkbox-video'] == True:
+                excludes.append('v')
             if values['checkbox-supersets-replace-standard-editions'] == True:
                 gui_settings.append('s')
             if values['checkbox-titles-ripped-from-modern-platform-rereleases-replace-standard-editions'] == True:
-                gui_settings.append('v')
+                gui_settings.append('z')
             if values['checkbox-output-dat-in-legacy-parent-clone-format'] == True:
                 gui_settings.append('x')
             if values['checkbox-also-output-lists-of-what-titles-have-been-kept-and-removed'] == True:
@@ -768,6 +799,8 @@ def main():
                 gui_settings.append('nofilters')
             if values['button-output-folder'] != '':
                 gui_settings.append(f'output: {os.path.abspath(values["button-output-folder"])}')
+
+            gui_settings.append(f'exclude: {"".join(excludes)}')
 
             if values['global-filters-exclude'] != '':
                 filters.global_exclude = []
@@ -903,19 +936,39 @@ def generate_checkbox(labels, width, tips=None):
         return checkboxes
 
 
-def gate(window, notification_title, notification_message):
-    no_file_window = sg.Window(
-        notification_title,
-        layout=[
+def gate(window, notification_title, notification_message, button_name='Got it', secondary_button_name=False):
+
+    if secondary_button_name == False:
+        dialog_layout = [
             [sg.Text('', font=(f'{font}', 6, 'bold'))],
             [sg.Text(notification_message)],
             [sg.Text('', font=(f'{font}', 10, 'bold'))],
-            [sg.Button('Got it',
+            [sg.Button(button_name,
                 bind_return_key=True,
                 enable_events=True,
                 key='button-no-file-got-it',
-                size=(100,50))],
-        ],
+                size=(100,50))]]
+    else:
+        dialog_layout = [
+            [sg.Text('', font=(f'{font}', 6, 'bold'))],
+            [sg.Text(notification_message)],
+            [sg.Text('', font=(f'{font}', 10, 'bold'))],
+            [
+                sg.Button(button_name,
+                    bind_return_key=True,
+                    enable_events=True,
+                    key='button-download',
+                    size=(100,50)),
+                sg.Button(secondary_button_name,
+                    bind_return_key=True,
+                    enable_events=True,
+                    key='button-no-file-got-it',
+                    size=(100,50))]
+            ]
+
+    no_file_window = sg.Window(
+        notification_title,
+        layout= dialog_layout,
         background_color='#aaa',
         icon=f'{os.path.abspath("retool.ico")}',
         keep_on_top=True,
@@ -937,6 +990,12 @@ def gate(window, notification_title, notification_message):
         if popup_event == 'button-no-file-got-it':
             window.Enable()
             no_file_window.close()
+            break
+
+        if popup_event == 'button-download':
+            window.Enable()
+            no_file_window.close()
+            updateclonelists.main()
             break
 
 if __name__ == '__main__':

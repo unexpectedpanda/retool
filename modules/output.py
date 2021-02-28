@@ -290,7 +290,7 @@ def write_dat_file(input_dat, user_input, output_file_name, stats, titles, dat_n
                             release = []
 
                             for region in region_list:
-                                for language in language_list:
+                                for language in sorted(language_list):
                                     release.append(f'\n\t\t<release name="{html.escape(title.description, quote=False)}" region="{region}" language="{language}"/>')
 
                             release = ''.join(release)
@@ -341,11 +341,21 @@ def write_dat_file(input_dat, user_input, output_file_name, stats, titles, dat_n
                     final_keep_list = sorted(final_keep_list)
 
                     for keep in final_keep_list:
-                        line = f'{user_input.user_config.data["list prefix"][0]}{keep}{user_input.user_config.data["list suffix"][0]}'
+                        if user_input.user_config.data["list prefix"] == '':
+                            list_prefix = ''
+                        else:
+                            list_prefix = user_input.user_config.data["list prefix"][0]
+
+                        if user_input.user_config.data["list suffix"] == '':
+                            list_suffix = ''
+                        else:
+                            list_suffix = user_input.user_config.data["list suffix"][0]
+
+                        line = f'{list_prefix}{keep}{list_suffix}'
                         if (
-                            user_input.user_config.data["list prefix"][0].startswith('http://')
-                            or user_input.user_config.data["list prefix"][0].startswith('https://')
-                            or user_input.user_config.data["list prefix"][0].startswith('ftp://')
+                            list_prefix.startswith('http://')
+                            or list_prefix.startswith('https://')
+                            or list_prefix.startswith('ftp://')
                         ):
                             list_output.writelines(f'{urllib.parse.quote(line, safe="/").replace("http%3A//", "http://").replace("https%3A//", "https://").replace("ftp%3A//", "ftp://")}\n')
                         else:
@@ -367,14 +377,18 @@ def write_dat_file(input_dat, user_input, output_file_name, stats, titles, dat_n
                         list_output.writelines(f'===================\n')
                         for key, values in user_input.removed_titles.items():
                             if values != []:
-                                list_output.writelines(f'* {key.upper().replace("_"," ")}\n')
+                                output_key = key
+                                if key == 'Console': output_key = 'BIOS and other chips'
+                                list_output.writelines(f'* {output_key.upper().replace("_"," ")}\n')
 
                         list_output.writelines(f'\n')
                         for key, values in user_input.removed_titles.items():
                             if values != []:
-                                list_output.writelines(f'\n# {key.upper().replace("_"," ")}\n')
+                                output_key = key
+                                if key == 'Console': output_key = 'BIOS and other chips'
+                                list_output.writelines(f'\n# {output_key.upper().replace("_"," ")}\n')
                                 underline = []
-                                for i in range(0,len(key) + 2):
+                                for i in range(0,len(output_key) + 2):
                                     underline.append('=')
                                 list_output.writelines(f'{"".join(underline)}\n')
                                 for value in sorted(values, key=lambda x: natural_keys(x)):

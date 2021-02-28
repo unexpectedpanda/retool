@@ -3,7 +3,7 @@
         "name": [
 			"Sony - PlayStation 2"
 		],
-        "last updated": "15 February 2021"
+        "last updated": "28 February 2021"
     },
 
     "compilations": [
@@ -138,7 +138,7 @@
 			["Angelique Trois", 2]
 		],
 		"Ape Escape - Pumped & Primed": [
-			["Gacha Mecha Stadium Saru Battle", 1]
+			["Gacha Mecha Stadium - Saru Battle", 1]
 		],
 		"Ape Escape 2": [
 			["Saru! Get You! 2", 1]
@@ -543,6 +543,7 @@
 			["Disney-Pixar Monsterit Oy - Saeikkysaari", 1],
 			["Disney-Pixar Monsters en Co. - Schrik Eiland", 1],
 			["Disney-Pixar Monsters, Inc. - Skraemmaroen", 1],
+			["Disney-Pixar Monsters, Inc. - Skraemmeoen", 1],
 			["Disney-Pixar Monstres & Cie - L'ile de l'Epouvante", 1],
 			["Disney-Pixar Monstruos, S.A. - Isla de los Sustos", 1],
 			["Disney-Pixar Die Monster AG - Schreckens-Insel", 1]
@@ -795,6 +796,9 @@
 		"Eureka Seven Vol. 2 - The New Vision": [
 			["Eureka Seven - New Vision", 1]
 		],
+		"Eve - Burst Error Plus (Premium DVD-Box)": [
+			["Eve - Burst Error Plus", 2]
+		],
 		"Ever 17 - The Out of Infinity Premium Edition": [
 			["Ever 17 - The Out of Infinity", 4],
 			["SuperLite 2000 Vol. 24 - Ever 17 - The Out of Infinity - Premium Edition", 2]
@@ -1014,8 +1018,9 @@
 		"Gallop Racer 2006": [
 			["Gallop Racer 8 - Live Horse Racing", 1]
 		],
-		"GameShark 2 V2 - Video Game Enhancer Version 2.21 (Disc 1)": [
-			["GameShark 2 V2 - Video Game Enhancer", 2]
+		"GameShark 2 V2 - Video Game Enhancer Version 2.22 (Disc 1)": [
+			["GameShark 2 V2 - Video Game Enhancer Version 2.21 (Disc 1)", 2],
+			["GameShark 2 V2 - Video Game Enhancer", 3]
 		],
 		"Generation of Chaos III - Toki no Fuuin (Eikyuu Hozon Box)": [
 			["Generation of Chaos III - Toki no Fuuin", 2]
@@ -1037,6 +1042,9 @@
 		],
 		"Gitaroo Man": [
 			["Gitaroo Man One", 1]
+		],
+		"Gladiator - Road to Freedom": [
+			["Gladiator - Road to Freedom - Remix", -1]
 		],
 		"Gladiator - Sword of Vengeance": [
 			["Gladiator - Schwert der Rache", 1]
@@ -2360,6 +2368,9 @@
 		"Spartan - Total Warrior": [
 			["Spartan - Kodai Greece Eiyuuden", 1]
 		],
+		"Spawn - Armageddon": [
+			["Spawn - Unmei no Kusari", 1]
+		],
 		"Special Forces": [
 			["Simple 2000 Series Vol. 108 - The Nihon Tokushu Butai - Kyouaku Hanzai Rettou 24-ji", 1]
 		],
@@ -2493,7 +2504,8 @@
 			["Tear Ring Saga Series - Berwick Saga - Lazberia Chronicle Chapter 174", 2]
 		],
 		"Tenchu - Fatal Shadows": [
-			["Tenchu Kurenai", 1]
+			["Tenchu Kurenai", 1],
+			["Tianzhu Hong", 1]
 		],
 		"Tenchu - Wrath of Heaven": [
 			["Tenchu 3", 1],
