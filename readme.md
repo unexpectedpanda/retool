@@ -7,6 +7,7 @@
   * [For those familiar with Git and Python](#for-those-familiar-with-git-and-python)
   * [Linux](#linux)
 * [Clone lists](#clone-lists)
+* [FAQs](#faqs)
 * [Clonerel](#clonerel)
 
 
@@ -159,6 +160,11 @@ folder as Retool.
 
 You can update them from the GUI using the **File** menu, by running
 `updateclonelists.py`, or by downloading them yourself from this repository.
+
+
+## FAQs
+
+For the answers to common queries, check out the [Wiki](https://github.com/unexpectedpanda/retool/wiki/FAQs).
 
 ---
 
