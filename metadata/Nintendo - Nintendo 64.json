@@ -536,6 +536,9 @@
 	"Die Hard 64 (USA) (Proto) (Level 3)": {
 		"languages": "En"
 	},
+	"Dinosaur Planet (USA) (Proto) (2000-12-01)": {
+		"languages": "En"
+	},
 	"Donald Duck - Goin' Quackers (USA) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
 	},
@@ -1370,10 +1373,10 @@
 	"Mahjong Master (Japan)": {
 		"languages": "Ja"
 	},
-	"Major League Baseball featuring Ken Griffey Jr. (Australia)": {
+	"Major League Baseball Featuring Ken Griffey Jr. (Australia)": {
 		"languages": "En"
 	},
-	"Major League Baseball featuring Ken Griffey Jr. (USA)": {
+	"Major League Baseball Featuring Ken Griffey Jr. (USA)": {
 		"languages": "En"
 	},
 	"Mario Golf (Europe)": {
@@ -1786,6 +1789,9 @@
 	},
 	"Nuclear Strike 64 (USA)": {
 		"languages": "En"
+	},
+	"Nuclear Strike 64 (Germany) (Beta)": {
+		"languages": "De"
 	},
 	"Nushi Zuri 64 (Japan)": {
 		"languages": "Ja"

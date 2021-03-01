@@ -3,7 +3,7 @@
 		"name": [
 			"Sony - PlayStation Portable (No-Intro)"
 		],
-		"last updated": "24 January 2021"
+		"last updated": "1 March 2021"
 	},
 
 	"overrides": {
@@ -440,6 +440,9 @@
 			["Innocent Life - Shin Bokujou Monogatari", 1],
 			["Innocent Life - Sin Mokjang Iyagi", 1],
 			["Innocent Life - Shin Bokujou Monogatari (Best Collection)", 2]
+		],
+		"Invizimals - Shadow Zone": [
+			["Invizimals - Sti Zoni tis Skias", 1]
 		],
 		"Jak and Daxter - The Lost Frontier": [
 			["Jak and Daxter - Elf to Itachi no Daibouken", 1],

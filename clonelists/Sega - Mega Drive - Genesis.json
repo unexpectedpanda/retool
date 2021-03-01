@@ -3,7 +3,7 @@
 		"name": [
 			"Sega - Mega Drive - Genesis"
 		],
-		"last updated": "12 February 2021"
+		"last updated": "1 March 2021"
     },
 
     "overrides": {
@@ -321,7 +321,7 @@
         "Madden NFL '94": [
             ["NFL Pro Football '94", 1]
         ],
-        "Magic Girl featuring Ling Ling the Little Witch": [
+        "Magic Girl Featuring Ling Ling the Little Witch": [
             ["Xiao Monv - Magic Girl", 1]
         ],
         "Marko": [
@@ -352,9 +352,6 @@
         ],
         "Mystical Fighter": [
             ["Maou Renjishi", 1]
-        ],
-        "NBA Action '94": [
-            ["NBA Action", 1]
         ],
         "NBA Showdown '94": [
             ["NBA Pro Basketball '94", 1]
@@ -500,13 +497,11 @@
         ],
         "Sonic & Knuckles + Sonic The Hedgehog 2 + Sonic The Hedgehog 3": [
             ["Sonic & Knuckles + Sonic The Hedgehog 3", 2],
-            ["Sonic & Knuckles (Sonic Classic Collection)", 3],
             ["Sonic The Hedgehog 3 Limited Edition", 3],
             ["Sonic & Knuckles", 4]
         ],
-        "Sonic The Hedgehog 3 (Sonic Classic Collection)": [
-            ["Sonic 3", 1],
-            ["Sonic The Hedgehog 3", 2]
+        "Sonic The Hedgehog 3": [
+            ["Sonic 3", 1]
         ],
         "Sonic 3D Blast ~ Sonic 3D Flickies' Island": [
             ["Sonic 3D Blast", 2],
@@ -514,12 +509,6 @@
         ],
         "Sonic Compilation ~ Sonic Classics": [
             ["Sonic Compilation", 1]
-        ],
-        "Sonic The Hedgehog (Sonic Classic Collection)": [
-            ["Sonic The Hedgehog", 1]
-        ],
-        "Sonic The Hedgehog 2 (Sonic Classic Collection)": [
-            ["Sonic The Hedgehog 2", 2]
         ],
         "Sorcerer's Kingdom": [
             ["Sorcer Kingdom", 1]

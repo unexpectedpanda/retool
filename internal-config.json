@@ -7,7 +7,7 @@
             "These are defaults that Retool requires, don't modify this file.",
             "Check user-config.yaml for user-editable settings."
         ],
-        "last updated": "13 February 2021"
+        "last updated": "1 March 2021"
     },
 
     "ignore_tags": [
@@ -103,7 +103,6 @@
         "\\s?\\(J-Cart\\)",
         "\\s?\\(GPS Receiver Doukonban\\)",
         "\\s?\\(Microphone Doukonban\\)",
-        "\\s?\\(Steam Version\\)",
         "\\s?\\(Joypad\\)",
         "\\s?\\(V.Smile Motion\\)",
         "\\s?\\(NTSC\\)",
@@ -205,8 +204,10 @@
         "\\s?\\(Mega Man Legacy Collection\\)",
         "\\s?\\(Namcot Collection.*?\\)",
         "\\s?\\(Namco Museum Archives Vol [0-9]\\)",
+        "\\s?\\(PC Rerelease\\)",
         "\\s?\\(Sega Smash Pack( [0-9]){0,1}\\)",
         "\\s?\\(SNK 40th Anniversary Collection\\)",
+        "\\s?\\(Sonic Classic Collection\\)",
         "\\s?\\(Steam Version\\)"
     ],
 

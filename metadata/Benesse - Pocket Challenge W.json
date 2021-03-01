@@ -1,4 +1,19 @@
 {
+	"Shinkenzemi 'Chuugaku Kouza' - Chuu 2 Eigo (Japan) (5BB212SS)": {
+		"languages": "Ja"
+	},
+	"Shinkenzemi 'Chuugaku Kouza' - Chuugaku Chiri (Japan) (6BD410)": {
+		"languages": "Ja"
+	},
+	"Shinkenzemi 'Chuugaku Kouza' - Chuugaku Rekishi (Japan) (5BC410)": {
+		"languages": "Ja"
+	},
+	"Shinkenzemi 'Chuugaku Kouza' - Koukou Juken (Ei - Sha - Ri) (Japan) (6BI711)": {
+		"languages": "Ja"
+	},
+	"Shinkenzemi 'Chuugaku Kouza' - Koukou Juken (Koku - Suu) (Japan) (6BI712)": {
+		"languages": "Ja"
+	},
 	"Shinkenzemi Chuugaku Kouza - Chuu 1 Eigo (Japan) (0BB111NH)": {
 		"languages": "Ja"
 	},
@@ -8,10 +23,40 @@
 	"Shinkenzemi Chuugaku Kouza - Chuu 1 Eigo (Japan) (7BB112SS)": {
 		"languages": "Ja"
 	},
-	"Shinkenzemi Chuugaku Kouza - Chuu 1 Suugaku (Japan)": {
+	"Shinkenzemi Chuugaku Kouza - Chuu 1 Eigo (Japan) (7BB111NH)": {
 		"languages": "Ja"
 	},
-	"Shinkenzemi Chuugaku Kouza - Chuugaku Chiri (Japan)": {
+	"Shinkenzemi Chuugaku Kouza - Chuu 1 Suugaku (Japan) (1BM111)": {
+		"languages": "Ja"
+	},
+	"Shinkenzemi Chuugaku Kouza - Chuu 2 Eigo (Japan) (7BB211NH)": {
+		"languages": "Ja"
+	},
+	"Shinkenzemi Chuugaku Kouza - Chuu 2 Eigo (Japan) (7BB212SS)": {
+		"languages": "Ja"
+	},
+	"Shinkenzemi Chuugaku Kouza - Chuu 2 Eigo (Japan) (7BB214TE)": {
+		"languages": "Ja"
+	},
+	"Shinkenzemi Chuugaku Kouza - Chuu 3 Eigo (Japan) (7BB311NH)": {
+		"languages": "Ja"
+	},
+	"Shinkenzemi Chuugaku Kouza - Chuu 3 Eigo (Japan) (7BB312SS)": {
+		"languages": "Ja"
+	},
+	"Shinkenzemi Chuugaku Kouza - Chuu 3 Eigo (Japan) (7BB313NC)": {
+		"languages": "Ja"
+	},
+	"Shinkenzemi Chuugaku Kouza - Chuu 3 Eigo (Japan) (7BB315OW)": {
+		"languages": "Ja"
+	},
+	"Shinkenzemi Chuugaku Kouza - Chuu 3 Eigo (Japan) (7BB317CB)": {
+		"languages": "Ja"
+	},
+	"Shinkenzemi Chuugaku Kouza - Chuugaku Chiri (Japan) (9BD410)": {
+		"languages": "Ja"
+	},
+	"Shinkenzemi Chuugaku Kouza - Chuugaku Chiri (Japan) (7BD410)": {
 		"languages": "Ja"
 	},
 	"Shinkenzemi Chuugaku Kouza - Chuugaku Chiri - Rekishi Pack (Japan) (0BD401)": {
@@ -20,7 +65,10 @@
 	"Shinkenzemi Chuugaku Kouza - Chuugaku Chiri - Rekishi Pack (Japan) (0BD400)": {
 		"languages": "Ja"
 	},
-	"Shinkenzemi Chuugaku Kouza - Chuugaku Kokugo - Hyakunin Isshu (Japan)": {
+	"Shinkenzemi Chuugaku Kouza - Chuugaku Chiri - Rekishi Pack (Chiri Soft - Rekishi Soft Kanzen Taiou Ban) (Japan) (8BD400)": {
+		"languages": "Ja"
+	},
+	"Shinkenzemi Chuugaku Kouza - Chuugaku Kokugo - Hyakunin Isshu (Japan) (1BK401)": {
 		"languages": "Ja"
 	},
 	"Shinkenzemi Chuugaku Kouza - Chuugaku Koumin (Japan) (7BE310)": {
@@ -29,10 +77,19 @@
 	"Shinkenzemi Chuugaku Kouza - Chuugaku Koumin (Japan) (0BE311)": {
 		"languages": "Ja"
 	},
-	"Shinkenzemi Chuugaku Kouza - Chuugaku Rika (Japan) (7BF411)": {
+	"Shinkenzemi Chuugaku Kouza - Chuugaku Rekishi (Japan) (7BC410)": {
 		"languages": "Ja"
 	},
-	"Shinkenzemi Chuugaku Kouza - Chuugaku Rika (Japan) (7BF412)": {
+	"Shinkenzemi Chuugaku Kouza - Chuugaku Rika (1-bunya) (Japan) (Rev 1) (7BF411)": {
+		"languages": "Ja"
+	},
+	"Shinkenzemi Chuugaku Kouza - Chuugaku Rika (1-bunya) (Japan) (7BF411)": {
+		"languages": "Ja"
+	},
+	"Shinkenzemi Chuugaku Kouza - Chuugaku Rika (2-bunya) (Japan) (Rev 1) (7BF412)": {
+		"languages": "Ja"
+	},
+	"Shinkenzemi Chuugaku Kouza - Chuugaku Rika (2-bunya) (Japan) (7BF412)": {
 		"languages": "Ja"
 	},
 	"Shinkenzemi Chuugaku Kouza - Chuugaku Rika Pack (Japan) (1BF400)": {
@@ -41,31 +98,40 @@
 	"Shinkenzemi Chuugaku Kouza - Chuugaku Rika Pack (Japan) (0BF400)": {
 		"languages": "Ja"
 	},
-	"Shinkenzemi Chuugaku Kouza - Jitsugi 4 Kyouka (Japan)": {
+	"Shinkenzemi Chuugaku Kouza - Chuugaku Rika Pack (1-bunya - Soft 2-bunya Soft Kanzen Taiou Ban) (Japan) (8BF400)": {
 		"languages": "Ja"
 	},
-	"Shinkenzemi Chuugaku Kouza - Koukou Juken (Japan) (9BI711)": {
+	"Shinkenzemi Chuugaku Kouza - Hinshutsu Sekaishi Kouryaku (Japan) (8BCD01)": {
 		"languages": "Ja"
 	},
-	"Shinkenzemi Chuugaku Kouza - Koukou Juken (Japan) (9BI712)": {
+	"Shinkenzemi Chuugaku Kouza - Jitsuwaza 4-kyouka (Gijutsu Katei, Hoken Taiiku, Ongaku, Bijutsu) (Japan) (9BG410)": {
 		"languages": "Ja"
 	},
 	"Shinkenzemi Chuugaku Kouza - Koukou Juken (Japan) (7BI711)": {
 		"languages": "Ja"
 	},
+	"Shinkenzemi Chuugaku Kouza - Koukou Juken (Ei - Sha - Ri) (Japan) (9BI711)": {
+		"languages": "Ja"
+	},
+	"Shinkenzemi Chuugaku Kouza - Koukou Juken (Ei - Sha - Ri) (Japan) (0BI711)": {
+		"languages": "Ja"
+	},
+	"Shinkenzemi Chuugaku Kouza - Koukou Juken (Koku - Suu) (Japan) (9BI712)": {
+		"languages": "Ja"
+	},
+	"Shinkenzemi Koukou Kouza - Daigaku Juken Series - Hinshutsu Eijukugo (Japan) (7BBD02)": {
+		"languages": "Ja"
+	},
 	"Shinkenzemi Koukou Kouza - Daigaku Juken Series - Hinshutsu Eitango (Japan) (7BBD01)": {
 		"languages": "Ja"
 	},
-	"Shinkenzemi Koukou Kouza - Daigaku Juken Series - Hinshutsu Eitango (Japan) (7BBD02)": {
+	"Shinkenzemi Koukou Kouza - Daigaku Juken Series - Juuyou Eigo Koubun (Japan) (7BBD03)": {
 		"languages": "Ja"
 	},
-	"Shinkenzemi Koukou Kouza - Daigaku Juken Series - Juuyou Eigo Koubun (Japan)": {
+	"Shinkenzemi Koukou Kouza - Hinshutsu Nihonshi Kouryaku (Japan) (9BCD02)": {
 		"languages": "Ja"
 	},
-	"Shinkenzemi Koukou Kouza - Hinshutsu Yokaishi Kouryaku (Japan) (9BCD01)": {
-		"languages": "Ja"
-	},
-	"Shinkenzemi Koukou Kouza - Hinshutsu Yokaishi Kouryaku (Japan) (9BCD02)": {
+	"Shinkenzemi Koukou Kouza - Hinshutsu Sekaishi Kouryaku (Japan) (9BCD01)": {
 		"languages": "Ja"
 	},
 	"Shinkenzemi Koukou Kouza - Juuyou Kobun Kouryaku (Japan) (0BKD01)": {

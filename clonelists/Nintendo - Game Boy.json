@@ -3,11 +3,11 @@
         "name": [
 			"Nintendo - Game Boy"
 		],
-        "last updated": "5 January 2021"
+        "last updated": "1 March 2021"
     },
 
     "overrides": {
-        "Bomberman GB (Japan) (SGB Enhanced)": ["Wario Blast featuring Bomberman!", true],
+        "Bomberman GB (Japan) (SGB Enhanced)": ["Wario Blast Featuring Bomberman!", true],
         "Bomberman GB 2 (Japan) (SGB Enhanced)": ["Bomberman GB", true],
         "Donkey Kong Land (Japan) (SGB Enhanced)": ["Donkey Kong Land 2", true],
         "Mickey Mouse (Japan)": ["Bugs Bunny Crazy Castle, The", true],

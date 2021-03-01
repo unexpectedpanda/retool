@@ -2699,8 +2699,8 @@
 	"Fight Night Round 3 (USA)": {
 		"languages": "En"
 	},
-	"Fight Night Round 3 (Europe)": {
-		"languages": "En"
+	"Fight Night Round 3 (Europe) (En,Fr)": {
+		"languages": "En,Fr"
 	},
 	"Final Approach 2 - 1st Priority Portable (Japan) (Limited Edition)": {
 		"languages": "Ja"
@@ -3008,8 +3008,8 @@
 	"Gensou Suikoden - Tsumugareshi Hyakunen no Toki (Japan)": {
 		"languages": "Ja"
 	},
-	"Geronimo Stilton - Return to the Kingdom of Fantasy - The Videogame (Europe) (En,Fr,De,Es,It,Nl,Pt)": {
-		"languages": "En,Fr,De,Es,It,Nl,Pt"
+	"Geronimo Stilton - Return to the Kingdom of Fantasy - The Videogame (Europe) (En,Fr,Es,It,Nl,Pt,El)": {
+		"languages": "En,Fr,Es,It,Nl,Pt,El"
 	},
 	"Geronimo Stilton in the Kingdom of Fantasy - The Videogame (Europe) (En,Fr,De,Es,It,Nl,Pt)": {
 		"languages": "En,Fr,De,Es,It,Nl,Pt"
@@ -3928,6 +3928,9 @@
 	},
 	"Invizimals - Shadow Zone (USA) (En,Fr,Es,Pt)": {
 		"languages": "En,Fr,Es,Pt"
+	},
+	"Invizimals - Sti Zoni tis Skias (Europe) (En,Es,Pt,El)": {
+		"languages": "En,Es,Pt,El"
 	},
 	"Invizimals - The Lost Tribes (Europe) (En,Fr,De,Es,It,Nl,Pl,Ru) (v1.01)": {
 		"languages": "En,Fr,De,Es,It,Nl,Pl,Ru"
