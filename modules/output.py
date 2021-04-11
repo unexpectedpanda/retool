@@ -1,18 +1,13 @@
 import html
 import os
 import sys
-<<<<<<< HEAD
 
 from urllib.parse import quote
-=======
-import urllib
->>>>>>> 093831f44d214dee317ebfb6b7c9aa74466b70ad
 
 from modules.utils import Font, natural_keys, old_windows, printwrap
 from modules.xml import header
 
 
-<<<<<<< HEAD
 def generate_config(
     languages,
     regions,
@@ -22,9 +17,6 @@ def generate_config(
     filters=False,
     gui_settings=False,
     overwrite=False):
-=======
-def generate_config(languages, regions, list_prefix=False, list_suffix=False, gui=False, filters=False, gui_settings=False, overwrite=False):
->>>>>>> 093831f44d214dee317ebfb6b7c9aa74466b70ad
     new_user_config = False
     new_global_filter = False
 
@@ -198,11 +190,7 @@ def generate_config(languages, regions, list_prefix=False, list_suffix=False, gu
             sys.exit()
 
 
-<<<<<<< HEAD
 def write_dat_file(input_dat, user_input, output_file_name, stats, titles, dat_numbered):
-=======
-def write_dat_file(input_dat, user_input, output_file_name, stats, titles, dat_numbered, REGEX):
->>>>>>> 093831f44d214dee317ebfb6b7c9aa74466b70ad
     """ Output the final dat file """
 
     dat_header = header(input_dat, stats.final_title_count, user_input)
@@ -378,11 +366,7 @@ def write_dat_file(input_dat, user_input, output_file_name, stats, titles, dat_n
                             or list_prefix.startswith('https://')
                             or list_prefix.startswith('ftp://')
                         ):
-<<<<<<< HEAD
                             list_output.writelines(f'{quote(line, safe="/").replace("http%3A//", "http://").replace("https%3A//", "https://").replace("ftp%3A//", "ftp://")}\n')
-=======
-                            list_output.writelines(f'{urllib.parse.quote(line, safe="/").replace("http%3A//", "http://").replace("https%3A//", "https://").replace("ftp%3A//", "ftp://")}\n')
->>>>>>> 093831f44d214dee317ebfb6b7c9aa74466b70ad
                         else:
                             list_output.writelines(f'{line}\n')
 

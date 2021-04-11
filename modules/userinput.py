@@ -5,11 +5,7 @@ import sys
 from strictyaml import load, Map, MapPattern, Str, Seq, YAMLError
 
 from modules.classes import SmartFormatter, UserInput
-<<<<<<< HEAD
 from modules.utils import Font, regex_test
-=======
-from modules.utils import Font
->>>>>>> 093831f44d214dee317ebfb6b7c9aa74466b70ad
 
 def check_input():
     """ Checks user input values"""
@@ -57,13 +53,6 @@ def check_input():
                         action='store_true',
                         help='R|titles ripped from modern platform rereleases, such as those found\nin Virtual Console, replace standard editions (ripped titles might\nnot work in emulators)')
 
-<<<<<<< HEAD
-=======
-    modes.add_argument('-s',
-                        action='store_true',
-                        help='R|supersets (special editions, game of the year editions, and\ncollections) replace standard editions')
-
->>>>>>> 093831f44d214dee317ebfb6b7c9aa74466b70ad
     modes.add_argument('-x',
                         action='store_true',
                         help='output dat/s in legacy parent/clone format')
@@ -73,7 +62,6 @@ def check_input():
                                 metavar='FILTERS',
                                 help='R|use with the following single letter filters to exclude these\ntypes of titles:\n'
                                 '\na\tapplications'
-<<<<<<< HEAD
                                 '\nA\taudio (might include game soundtracks)'
                                 '\nb\tbad dumps'
                                 '\nB\tBIOS and other chips'
@@ -84,17 +72,6 @@ def check_input():
                                 '\nm\tmanuals'
                                 '\nM\tmultimedia titles (might include games)'
                                 '\no\tbonus discs'
-=======
-                                '\nA\taudio (these might include game soundtracks)'
-                                '\nb\tbad dumps'
-                                '\nB\tBIOS and other chips'
-                                '\nc\tcompilations with no unique titles'
-                                '\nC\tcoverdiscs (discs attached to the front of magazines)'
-                                '\nd\tdemos and samples'
-                                '\ne\teducational titles'
-                                '\nm\tmanuals'
-                                '\nM\tmultimedia titles (these might include games)'
->>>>>>> 093831f44d214dee317ebfb6b7c9aa74466b70ad
                                 '\np\tpirate titles'
                                 '\nP\tpreproduction titles (alphas, betas, prototypes)'
                                 '\nr\tpromotional titles'
@@ -106,13 +83,10 @@ def check_input():
                         action='store_true',
                         help=argparse.SUPPRESS)
 
-<<<<<<< HEAD
     modes.add_argument('--test',
                         action='store_true',
                         help=argparse.SUPPRESS)
 
-=======
->>>>>>> 093831f44d214dee317ebfb6b7c9aa74466b70ad
     if len(sys.argv) == 1:
         sys.exit(1)
     args = parser.parse_args()
@@ -138,11 +112,7 @@ def check_input():
 
     # Create user options string
     user_options = []
-<<<<<<< HEAD
     hidden_options = ['Input', 'output', 'q', 'errors', 'log', 'nofilters', 'list', 'test']
-=======
-    hidden_options = ['Input', 'l', 'output', 'q', 'errors', 'log', 'nofilters', 'list']
->>>>>>> 093831f44d214dee317ebfb6b7c9aa74466b70ad
 
     for arg in vars(args):
         if arg not in hidden_options and getattr(args, arg) == True:
@@ -165,42 +135,26 @@ def check_input():
             True if 'b' in user_options else False,
             True if 'B' in user_options else False,
             True if 'c' in user_options else False,
-<<<<<<< HEAD
             True if 'd' in user_options else False,
             True if 'D' in user_options else False,
             True if 'e' in user_options else False,
             True if 'm' in user_options else False,
             True if 'M' in user_options else False,
             True if 'o' in user_options else False,
-=======
-            True if 'C' in user_options else False,
-            True if 'd' in user_options else False,
-            True if 'e' in user_options else False,
-            True if 'm' in user_options else False,
-            True if 'M' in user_options else False,
->>>>>>> 093831f44d214dee317ebfb6b7c9aa74466b70ad
             True if 'p' in user_options else False,
             True if 'P' in user_options else False,
             True if 'r' in user_options else False,
             True if 'u' in user_options else False,
             True if 'v' in user_options else False,
             args.z,
-<<<<<<< HEAD
-=======
-            args.s,
->>>>>>> 093831f44d214dee317ebfb6b7c9aa74466b70ad
             args.l,
             args.x,
             user_options,
             args.errors,
             args.nofilters,
             args.log,
-<<<<<<< HEAD
             args.list,
             args.test)
-=======
-            args.list)
->>>>>>> 093831f44d214dee317ebfb6b7c9aa74466b70ad
 
 
 def import_user_config(region_data, user_input):
@@ -235,11 +189,7 @@ def import_user_config(region_data, user_input):
     return user_input
 
 
-<<<<<<< HEAD
 def import_user_filters(filename, filter_type):
-=======
-def import_user_filters(filename):
->>>>>>> 093831f44d214dee317ebfb6b7c9aa74466b70ad
     """ Import user filters for excluding/including specific strings """
 
     try:
@@ -248,13 +198,10 @@ def import_user_filters(filename):
         with open(f'user-filters/{filename}.yaml', encoding='utf-8') as user_filter_import:
             user_filters = load(str(user_filter_import.read()), schema)
 
-<<<<<<< HEAD
         # Check for valid regex
         user_filters.data['exclude'] = regex_test(user_filters.data['exclude'], filter_type)
         user_filters.data['include'] = regex_test(user_filters.data['include'], filter_type)
 
-=======
->>>>>>> 093831f44d214dee317ebfb6b7c9aa74466b70ad
     except OSError as e:
         print(f'\n{Font.error_bold}* Error: {Font.end}{str(e)}\n')
         raise

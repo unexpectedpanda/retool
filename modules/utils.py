@@ -48,7 +48,6 @@ def old_windows():
     return(False)
 
 
-<<<<<<< HEAD
 def regex_test(list, list_name):
     """ Checks for valid regexes in a list """
 
@@ -69,8 +68,6 @@ def regex_test(list, list_name):
     return list
 
 
-=======
->>>>>>> 093831f44d214dee317ebfb6b7c9aa74466b70ad
 class Font:
     """ Console text formatting.
 
