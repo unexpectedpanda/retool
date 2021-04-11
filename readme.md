@@ -1,3 +1,6 @@
+> **Retool 0.89 introduces a breaking change for clone lists. Please update**
+> **for clone lists to continue working properly.**
+
 # Retool
 
 * [What it does](#what-it-does)
@@ -18,15 +21,9 @@ dats to 1G1R, doing a better job than dat managers with parent/clone dats. It
 has both GUI and CLI versions.
 
 You'll still need a dat manager to use the files Retool creates, such as
-<<<<<<< HEAD
 [CLRMamePro](https://mamedev.emulab.it/clrmamepro/), [RomVault](https://www.romvault.com/),
 or [Romcenter](https://www.romcenter.com/) &mdash; you just won't need to use their 1G1R
 modes, as Retool will have already done the work for you.
-=======
-[CLRMamePro](https://mamedev.emulab.it/clrmamepro/), [RomVault](https://www.romvault.com/), or
-[Romcenter](https://www.romcenter.com/) &mdash; you just won't need to use their
-1G1R modes, as Retool will have already done the work for you.
->>>>>>> 093831f44d214dee317ebfb6b7c9aa74466b70ad
 
 You can learn more about how it works, and how to use it in the [wiki](https://github.com/unexpectedpanda/retool/wiki/).
 
@@ -154,13 +151,8 @@ dats for No-Intro, and occasionally I went through Redump's site for Japanese,
 Korean, Russian, and Chinese characters for titles, so I could do
 translations and find out what they were called in other languages. When all
 else failed, I did some good old web searching in order to turn up information.
-<<<<<<< HEAD
 At some point I discovered [FilterQuest](https://github.com/UnluckyForSome/FilterQuest),
 a similar tool, and added some missing titles from there.
-=======
- At some point I discovered [FilterQuest](https://github.com/UnluckyForSome/FilterQuest),
- a similar tool, and added some missing titles from there.
->>>>>>> 093831f44d214dee317ebfb6b7c9aa74466b70ad
 
 There have also been plenty of community contributions, from those who have
 [filed issues on GitHub](https://github.com/unexpectedpanda/retool/issues).
