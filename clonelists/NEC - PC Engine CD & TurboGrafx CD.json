@@ -3,15 +3,16 @@
 		"name": [
 			"NEC - PC Engine CD & TurboGrafx CD"
 		],
-		"last updated": "20 January 2021"
+		"last updated": "9 April 2021",
+		"minimum version": "0.89"
 	},
 
-	"conditional_overrides": {
+	"overrides": {
 		"Gate of Thunder (Japan) (FACT, FADT)": {
-			"new_group": "Gate of Thunder (Japan) (FACT, FADT)",
+			"new group": "Gate of Thunder (Japan) (FACT, FADT)",
 			"condition": {
 				"region": ["Japan"],
-				"higher_than": ["USA"]
+				"higher than": ["USA"]
 			}
 		}
 	},

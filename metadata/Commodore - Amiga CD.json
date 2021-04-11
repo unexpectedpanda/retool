@@ -11,6 +11,12 @@
     "Amiga CD! Magazine No. 3 (Europe)": {
         "languages": "En"
     },
+    "Amiga CD-Sensation - Demos Are Forever (Germany)": {
+        "languages": "De"
+    },
+    "Amiga CD-Sensation - Golden Games (Germany)": {
+        "languages": "De"
+    },
     "Amiga Computer Studio Cover CD 5 (Poland)": {
         "languages": "Pl"
     },
@@ -77,10 +83,28 @@
     "Amiga FD Inside! Volume 1 (Germany)": {
         "languages": "De"
     },
+    "Amiga Format Disc 16 - August 1997 (UK)": {
+        "languages": "En"
+    },
+    "Amiga Format Disc 19 - November 1997 (UK)": {
+        "languages": "En"
+    },
     "Amiga Format Disc 20 - December 1997 (UK)": {
         "languages": "En"
     },
     "Amiga Format Disc 29 - August 1998 (UK)": {
+        "languages": "En"
+    },
+    "Amiga Format Disc 35 - January 1999 (UK)": {
+        "languages": "En"
+    },
+    "Amiga Format Disc 44 - October 1999 (UK)": {
+        "languages": "En"
+    },
+    "Amiga Format Disc 49 - February 2000 (UK)": {
+        "languages": "En"
+    },
+    "Amiga Format Disc 6 - November 1996 (UK)": {
         "languages": "En"
     },
     "Amiga Format Disc 8 - Christmas 1996 (UK)": {
@@ -374,10 +398,19 @@
     "Amiga Plus CD No. 5-6 95 (Germany)": {
         "languages": "De"
     },
+    "Amiga Plus CD ROM EXTRA No. 2-96 (Germany)": {
+        "languages": "De"
+    },
     "Amiga Plus CD ROM Extra No. 1-97 (Germany)": {
         "languages": "De"
     },
+    "Amiga Plus CD ROM Extra No. 1-98 (Germany)": {
+        "languages": "De"
+    },
     "Amiga Plus CD ROM Extra No. 2-97 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Plus CD ROM Extra No. 2-98 (Germany)": {
         "languages": "De"
     },
     "Amiga Plus CD ROM Extra No. 3-96 (Germany)": {
@@ -390,6 +423,21 @@
         "languages": "De"
     },
     "Amiga Plus CD ROM Extra No. 4-97 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Plus CD ROM Extra No. 4-98 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Plus CD ROM Extra No. 5-96 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Plus CD ROM Extra No. 5-97 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Plus CD ROM Extra No. 6-96 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Plus CD ROM Extra No. 6-97 (Germany)": {
         "languages": "De"
     },
     "Amiga Plus CD ROM No. 1-96 (Germany)": {
@@ -440,13 +488,25 @@
     "Amiga Plus CD ROM No. 4-99 (Germany)": {
         "languages": "De"
     },
+    "Amiga Plus CD ROM No. 5 September & Oktober '98 (Germany)": {
+        "languages": "De"
+    },
     "Amiga Plus CD ROM No. 5-96 (Germany)": {
         "languages": "De"
     },
     "Amiga Plus CD ROM No. 5-97 (Germany)": {
         "languages": "De"
     },
+    "Amiga Plus CD ROM No. 6 November & Dezember '98 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Plus CD ROM No. 6 November-Dezember '97 (Germany)": {
+        "languages": "De"
+    },
     "Amiga Plus CD ROM No. 6-96 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Plus CD-ROM No. 1 Februar-Maerz 2000 (Germany)": {
         "languages": "De"
     },
     "Amiga Plus Sonderheft 10 (Germany)": {
@@ -464,7 +524,13 @@
     "Amiga Plus Sonderheft 14 (Germany)": {
         "languages": "De"
     },
+    "Amiga Plus Sonderheft 15 (Germany)": {
+        "languages": "De"
+    },
     "Amiga Plus Sonderheft 16 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Plus Sonderheft 17 (Germany)": {
         "languages": "De"
     },
     "Amiga Plus Sonderheft 18 (Germany)": {
@@ -483,6 +549,21 @@
         "languages": "De"
     },
     "Amiga Plus Sonderheft 24 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Plus Sonderheft 26 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Plus Sonderheft 4-96 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Plus Sonderheft 5-96 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Plus Sonderheft 6-96 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Plus Sonderheft 7 (Germany)": {
         "languages": "De"
     },
     "Amiga Plus Sonderheft 8 (Germany)": {
@@ -659,6 +740,9 @@
     "Aminet Amiga CD-ROM - February 1994 (USA)": {
         "languages": "En"
     },
+    "Aminet Amiga CD-ROM - February 1994 (USA) (Alt)": {
+        "languages": "En"
+    },
     "Aminet Set 1 (Europe) (En,De) (Disc A)": {
         "languages": "En, De"
     },
@@ -773,6 +857,12 @@
     "Berliner Spielekiste (Germany)": {
         "languages": "De"
     },
+    "Best of Mecomp, The - Vol. 1 (Germany)": {
+        "languages": "De"
+    },
+    "Best of Mecomp, The - Vol. 2 (Germany)": {
+        "languages": "De"
+    },
     "CU Amiga Magazine Mega CD-ROM November 1995 (Europe)": {
         "languages": "En"
     },
@@ -780,6 +870,60 @@
         "languages": "En"
     },
     "CU Amiga Magazine Super CD-ROM 5 December 1996 (UK)": {
+        "languages": "En"
+    },
+    "CU Amiga Magazine's Super CD-ROM 10 (UK)": {
+        "languages": "En"
+    },
+    "CU Amiga Magazine's Super CD-ROM 11 (UK)": {
+        "languages": "En"
+    },
+    "CU Amiga Magazine's Super CD-ROM 12 (UK)": {
+        "languages": "En"
+    },
+    "CU Amiga Magazine's Super CD-ROM 13 (UK)": {
+        "languages": "En"
+    },
+    "CU Amiga Magazine's Super CD-ROM 14 (UK)": {
+        "languages": "En"
+    },
+    "CU Amiga Magazine's Super CD-ROM 15 (UK)": {
+        "languages": "En"
+    },
+    "CU Amiga Magazine's Super CD-ROM 16 (UK)": {
+        "languages": "En"
+    },
+    "CU Amiga Magazine's Super CD-ROM 17 (UK)": {
+        "languages": "En"
+    },
+    "CU Amiga Magazine's Super CD-ROM 18 (UK)": {
+        "languages": "En"
+    },
+    "CU Amiga Magazine's Super CD-ROM 19 (UK)": {
+        "languages": "En"
+    },
+    "CU Amiga Magazine's Super CD-ROM 20 (UK)": {
+        "languages": "En"
+    },
+    "CU Amiga Magazine's Super CD-ROM 21 (UK)": {
+        "languages": "En"
+    },
+    "CU Amiga Magazine's Super CD-ROM 22 (UK)": {
+        "languages": "En"
+    },
+    "CU Amiga Magazine's Super CD-ROM 23 (UK)": {
+        "languages": "En"
+    },
+    "CU Amiga Magazine's Super CD-ROM 24 (UK)": {
+        "languages": "En"
+    },
+    "CU Amiga Magazine's Super CD-ROM 25 (UK)": {
+        "languages": "En"
+    },
+    "CU Amiga Magazine's Super CD-ROM 26 (UK)": {
+        "languages": "En"
+    },
+    "CU Amiga Magazine's Super CD-ROM 6 (UK)": {
         "languages": "En"
     },
     "CU Amiga Magazine's Super CD-ROM 7 February 1997 (UK)": {
@@ -791,8 +935,14 @@
     "Cedric (Europe) (En,De)": {
         "languages": "En, De"
     },
+    "Demomania I (Germany) (En,De)": {
+        "languages": "En, De"
+    },
     "Descent - FreeSpace - The Great War (Europe)": {
         "languages": "En"
+    },
+    "Diamond's & Pearl's are the Users Best Friends - Grafik Volume Nr. 1 (Germany) (Grafik Collection 94 Nr. 1)": {
+        "languages": "De"
     },
     "Eagle Linux M68K 1.02.33 - 32 Bit Betriebs System auf CD-ROM (Germany)": {
         "languages": "De"
@@ -802,6 +952,9 @@
     },
     "Erben der Erde - Die grosse Suche (Germany)": {
         "languages": "De"
+    },
+    "Euroscene 1 (Europe)": {
+        "languages": "En"
     },
     "Final Odyssey - Theseus Verses the Minotaur (Europe) (En,De,Es,It,No,Da,Fi)": {
         "languages": "Da, En, Fi, De, It, No, Es"
@@ -846,6 +999,9 @@
         "languages": "En"
     },
     "FrozenFish (USA)": {
+        "languages": "En"
+    },
+    "Gateway! Volume 2 (Europe)": {
         "languages": "En"
     },
     "Gateway! Volume 3 (Europe) (En,De) (Disc 1) (Install)": {
@@ -1020,6 +1176,12 @@
         "languages": "De"
     },
     "Reflections 4.2 (Germany)": {
+        "languages": "De"
+    },
+    "SAAR + AMOK PD CD-ROM Ueberarbeitete Version 12-93 (Germany)": {
+        "languages": "De"
+    },
+    "SAAR AMOK II Oktober 1994 (Germany)": {
         "languages": "De"
     },
     "Scene Xplorer '97 (Poland)": {

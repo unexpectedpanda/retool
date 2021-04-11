@@ -3,7 +3,8 @@
         "name": [
 			"Nintendo - Virtual Boy"
 		],
-        "last updated": "22 July 2020"
+        "last updated": "9 April 2021",
+		"minimum version": "0.89"
     },
 
     "renames": {

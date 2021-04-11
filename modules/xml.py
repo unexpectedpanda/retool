@@ -1,6 +1,7 @@
 import datetime
 import functools
 import html
+import os
 import re
 import sys
 
@@ -8,7 +9,9 @@ from lxml import etree
 from bs4 import BeautifulSoup
 
 from modules.classes import Dat, DatNode
-from modules.titleutils import choose_parent, get_raw_title
+from modules.customfilters import custom_exclude_filters
+from modules.parentselection import choose_parent
+from modules.titleutils import get_raw_title
 from modules.utils import Font, old_windows, printverbose, printwrap
 
 
@@ -85,7 +88,7 @@ def convert_clrmame_dat(input_dat, is_folder):
     return Dat(convert_dat, dat_name, dat_description, dat_version, dat_author)
 
 
-def dat_to_dict(region, region_data, input_dat, user_input, compilations_found, dat_numbered, REGEX):
+def dat_to_dict(region, region_data, input_dat, user_input, removes_found, dat_numbered, REGEX):
     """ Converts an input dat file to a dict """
 
     # Find all titles in the soup object that belong to the current region
@@ -133,130 +136,56 @@ def dat_to_dict(region, region_data, input_dat, user_input, compilations_found, 
 
         # Drop xml nodes with categories the user has chosen to exclude
         def exclude_categories(category, regexes=[]):
-            if hasattr(user_input, 'no_' + category.lower()):
-                if getattr(user_input, 'no_' + category.lower()) == True:
+            if hasattr(user_input, 'no_' + category.lower().replace('-', '_').replace(' ', '_')):
+                if getattr(user_input, 'no_' + category.lower().replace('-', '_').replace(' ', '_')) == True:
                     if node.category is not None:
                         if node.category.contents[0] == category:
                             if category not in user_input.removed_titles:
                                 user_input.removed_titles[category] = []
+                                user_input.recovered_titles[category] = []
                             user_input.removed_titles[category].append(node.description.parent['name'])
+                            user_input.recovered_titles[category].append(DatNode(node, region, region_data, user_input, input_dat, dat_numbered, REGEX))
                             return True
                     if regexes != []:
                         for regex in regexes:
                             if re.search(regex, node.description.parent['name']) != None:
                                 if category not in user_input.removed_titles:
                                     user_input.removed_titles[category] = []
+                                    user_input.recovered_titles[category] = []
                                 user_input.removed_titles[category].append(node.description.parent['name'])
+                                user_input.recovered_titles[category].append(DatNode(node, region, region_data, user_input, input_dat, dat_numbered, REGEX))
                                 return True
 
+        if exclude_categories('Add-Ons') == True: continue
         if exclude_categories('Applications', REGEX.programs) == True: continue
-        if exclude_categories('Demos', REGEX.demos) == True: continue
-        if exclude_categories('Coverdiscs') == True: continue
         if exclude_categories('Audio') == True: continue
-        if exclude_categories('Video') == True: continue
-        if exclude_categories('BIOS', [REGEX.bios]) == True: continue
-        if exclude_categories('Console') == True: continue
+        if exclude_categories('Bad Dumps', [REGEX.bad]) == True: continue
+        if exclude_categories('Bonus Discs') == True: continue
+        if exclude_categories('Console', [REGEX.bios]) == True: continue
+        if exclude_categories('Coverdiscs') == True: continue
+        if exclude_categories('Demos', REGEX.demos) == True: continue
         if exclude_categories('Educational') == True: continue
+        if exclude_categories('Manuals', REGEX.manuals) == True: continue
         if exclude_categories('Multimedia') == True: continue
+        if exclude_categories('Pirate', [REGEX.pirate]) == True: continue
         if exclude_categories('Preproduction', REGEX.preproduction) == True: continue
         if exclude_categories('Promotional', REGEX.promotional) == True: continue
         if exclude_categories('Unlicensed', REGEX.unlicensed) == True: continue
-        if exclude_categories('Bad_dumps', [REGEX.bad]) == True: continue
-        if exclude_categories('Pirate', [REGEX.pirate]) == True: continue
-
-        if input_dat.clone_lists != None:
-            if user_input.no_compilations == True:
-                compilation_check = False
-
-                for compilation in input_dat.clone_lists.compilations:
-                    if dat_numbered == False:
-                        match_title = node.description.parent['name']
-                    else:
-                        match_title = node.description.parent['name'][7:]
-
-                    if compilation == match_title:
-                        compilation_check = True
-                        compilations_found.update([compilation])
-
-                if compilation_check == True:
-                    if 'Compilations' not in user_input.removed_titles:
-                        user_input.removed_titles['Compilations'] = []
-                    user_input.removed_titles['Compilations'].append(node.description.parent['name'])
-                    continue
+        if exclude_categories('Video', REGEX.video) == True: continue
 
         # Drop XML nodes with custom strings the user has chosen to exclude
         if user_input.no_filters == False:
-            # Check for invalid regex in the excludes and includes
-            def regex_test(list, list_name):
-                list_temp = list.copy()
-
-                for item in list_temp:
-                    if item.startswith('/'):
-                        try:
-                            re.compile(item[1:])
-                            regex_valid = True
-                        except:
-                            regex_valid = False
-
-                        if regex_valid == False:
-                            print(f'{Font.warning}* Invalid regex in {list_name}: "{item[1:]}". Ignoring.{Font.end}')
-                            list.remove(item)
-
-                return list
-
-            user_input.global_excludes = regex_test(user_input.global_excludes, 'global excludes')
-            user_input.global_includes = regex_test(user_input.global_includes, 'global includes')
-            user_input.system_excludes = regex_test(user_input.system_excludes, 'system excludes')
-            user_input.system_includes = regex_test(user_input.system_includes, 'system includes')
-
-            # Do the work of excluding titles
-            def user_excludes(filter_list_exclude, exclude_name_for_log, filter_list_include):
-                if user_input.removed_titles.get(exclude_name_for_log) == None:
-                    user_input.removed_titles[exclude_name_for_log] = []
-
-                exclude_match = False
-
-                for item in filter_list_exclude:
-                    # First test if the title matches any exclude strings
-                    if item.startswith('/'):
-                        if (
-                            re.search(item[1:], node.description.parent['name']) != None
-                            and node.description.parent['name'] not in filter_list_include):
-                                exclude_match = True
-                    elif item.startswith('|'):
-                        if item[1:] == node.description.parent['name']:
-                            exclude_match = True
-                    else:
-                        if item in node.description.parent['name']:
-                            exclude_match = True
-
-                # Now make sure there are no includes that override it. If not,
-                # add the title to the remove log
-                if exclude_match == True:
-                    for item in filter_list_include:
-                        if item.startswith('/'):
-                            if (
-                                re.search(item[1:], node.description.parent['name']) != None
-                                and node.description.parent['name'] not in filter_list_include):
-                                    return False
-                        elif item.startswith('|'):
-                            if item[1:] == node.description.parent['name']:
-                                return False
-                        elif item in node.description.parent['name']:
-                                return False
-
-                if exclude_match == True:
-                    user_input.removed_titles[exclude_name_for_log].append(node.description.parent['name'])
-
-                return exclude_match
-
             # System excludes are overriden by system includes.
             # Global excludes are overriden by global and system includes.
-            if user_excludes(
+            if custom_exclude_filters(
+                user_input,
+                node,
                 user_input.system_excludes,
                 'Custom system filter excludes',
                 user_input.system_includes) == True: continue
-            if user_excludes(
+            if custom_exclude_filters(
+                user_input,
+                node,
                 user_input.global_excludes,
                 'Custom global filter excludes',
                 user_input.global_includes + user_input.system_includes) == True: continue
@@ -284,8 +213,38 @@ def dat_to_dict(region, region_data, input_dat, user_input, compilations_found, 
         if group_name not in groups:
             groups[group_name] = []
 
+        # Add the current title to the group
         groups[group_name].append(
             DatNode(node, region, region_data, user_input, input_dat, dat_numbered, REGEX))
+
+        # Deal with removes
+        if input_dat.clone_lists != None:
+            if input_dat.clone_lists.removes != None:
+                for key, value in input_dat.clone_lists.removes.items():
+                    if 'match' not in value:
+                        value['match'] = 'tag free'
+
+                    remove_check = False
+
+                    for disc_title in groups[group_name]:
+                        if (
+                            disc_title.tag_free_name_lower == key.lower()
+                            and value['match'] == 'tag free'
+                            ) or (
+                                disc_title.full_name_lower == key.lower()
+                                and value['match'] == 'full'
+                            ) or (
+                                disc_title.short_name_lower == get_raw_title(key.lower())
+                                and value['match'] == 'short'
+                            ):
+                                remove_check = True
+                                removes_found.update([key])
+
+                    if remove_check == True:
+                        if 'Removes' not in user_input.removed_titles:
+                            user_input.removed_titles['Removes'] = []
+                        user_input.removed_titles['Removes'].append(disc_title.full_name)
+                        if disc_title in groups[group_name]: groups[group_name].remove(disc_title)
 
         # Filter languages, if the option has been turned on
         if user_input.filter_languages == True:
@@ -357,7 +316,10 @@ def dat_to_dict(region, region_data, input_dat, user_input, compilations_found, 
 
                     if 'Filtered languages' not in user_input.removed_titles:
                         user_input.removed_titles['Filtered languages'] = []
+                        user_input.recovered_titles['Filtered languages'] = []
+
                     user_input.removed_titles['Filtered languages'].append(disc_title.full_name)
+                    user_input.recovered_titles['Filtered languages'].append(disc_title)
 
         progress_old = progress_percent
 
@@ -376,121 +338,107 @@ def dat_to_dict(region, region_data, input_dat, user_input, compilations_found, 
     for node in refined_region_xml:
         node.decompose()
 
-    # Process the overrides, which take them out of existing groups, put them into
-    # others, and set fake shortnames
-    if input_dat.clone_lists != None:
-        if input_dat.clone_lists.overrides != None:
-            for key, value in input_dat.clone_lists.overrides.items():
-                if re.search('\((.*?,){0,} {0,}' + region + '(,.*?){0,}\)', key) != None:
-                    try:
-                        titles_temp = {}
-
-                        for group in groups:
-                            if get_raw_title(key) == group:
-                                titles_temp = groups[get_raw_title(key)].copy()
-
-                        # If value[1] = False, match against the tag_free_name
-                        # If value[1] = True, match against the full_name
-                        for title in titles_temp:
-                            if value[1] == False:
-                                if dat_numbered == False:
-                                    match_title = title.tag_free_name
-                                else:
-                                    match_title = title.full_name
-
-                                if match_title == key:
-                                    title.short_name = value[0]
-                                    if value[0] not in groups:
-                                        groups[value[0]] = []
-                                    groups[value[0]].append(title)
-                                    groups[get_raw_title(key)].remove(title)
-                            elif value[1] == True:
-                                if title.full_name == key:
-                                    title.short_name = value[0]
-                                    if value[0] not in groups:
-                                        groups[value[0]] = []
-                                    groups[value[0]].append(title)
-                                    groups[get_raw_title(key)].remove(title)
-                    except:
-                        printverbose(
-                            user_input.verbose,
-                            f'{Font.warning}* Override title not found in dat or current region: '
-                            f'{Font.warning_bold}{key}{Font.end}')
-
-        # Conditional overrides for when renames get funky depending on region ordering
-        # For example, Bishi Bashi Special (Europe) contains Bishi Bashi Special (Japan)
-        # and Bishi Bashi Special 2 (Japan). The fact that the first two titles have the
+        # Process the overrides, which take titles out of existing groups, put them into
+        # others, and set fake short names
+        #
+        # Also process conditional overrides for when renames get funky depending on region
+        # ordering. For example, Bishi Bashi Special (Europe) contains Bishi Bashi Special
+        # (Japan) and Bishi Bashi Special 2 (Japan). The fact that the first two titles have the
         # same name but different content means a conditional override is required.
-        if input_dat.clone_lists.conditional_overrides != None:
-            for key, value in input_dat.clone_lists.conditional_overrides.items():
-                if re.search('\((.*?,){0,} {0,}' + region + '(,.*?){0,}\)', key) != None:
-                    region_one = []
-                    region_two = []
+        if input_dat.clone_lists != None:
+            if input_dat.clone_lists.overrides != None:
+                def override(value, titles, override_group):
+                    for title in titles:
+                        if (
+                            title.tag_free_name_lower == key.lower()
+                            and value['match'] == 'tag free'
+                            ) or (
+                                title.full_name_lower == key.lower()
+                                and value['match'] == 'full'
+                            ):
+                            title.short_name = value['new group']
+                            title.short_name_lower = override_group
+                            title.group = override_group
+                            if override_group not in groups:
+                                groups[override_group] = []
+                            groups[override_group].append(title)
+                            groups[get_raw_title(key)].remove(title)
 
-                    for i, another_region in enumerate(user_input.user_region_order):
-                        for check_region in value['condition']['region']:
-                            if another_region == check_region:
-                                region_one.append(i)
-                        for higher_than_region in value['condition']['higher_than']:
-                            if another_region == higher_than_region:
-                                region_two.append(i)
 
-                    if region_one != []:
-                        conditional_override = ''
+                for key, value in input_dat.clone_lists.overrides.items():
+                    if 'match' not in value:
+                        value['match'] = 'tag free'
 
-                        # Check if the title region is higher priority than any of the
-                        # other supplied regions
-                        for i in range(0, len(region_one)):
-                            for priority in region_two:
-                                if region_one[i] < priority:
-                                    conditional_override = True
-                                    break
-                                else:
-                                    conditional_override = False
-                                    break
-                            if conditional_override != '': break
+                    if get_raw_title(key) not in groups:
+                        groups[get_raw_title(key)] = []
 
-                        # If the region is higher, reassign the group and short_name
-                        if conditional_override == True:
-                            try:
-                                titles_temp = groups[get_raw_title(key)].copy()
+                    if 'condition' in value:
+                        if re.search('\((.*?,){0,} {0,}' + region + '(,.*?){0,}\)', key) != None:
 
-                                for title in titles_temp:
-                                    if title.tag_free_name == key:
-                                        title.short_name = value['new_group']
-                                        title.group = value['new_group']
-                                        if value['new_group'] not in groups:
-                                            groups[value['new_group']] = []
-                                        groups[value['new_group']].append(title)
-                                        groups[get_raw_title(key)].remove(title)
-                            except:
-                                printverbose(
-                                    user_input.verbose,
-                                    f'{Font.warning}* Conditional override title not found in dat or current region: '
-                                    f'{Font.warning_bold}{key}{Font.end}')
-                        # If the region is lower and there's an "else_group" property,
-                        # file the title into that group with the same short_name
-                        elif 'else_group' in value['condition']:
-                            try:
-                                titles_temp = groups[get_raw_title(key)].copy()
+                            # Check that the current region is available in the user's region order
+                            higher_regions = []
 
-                                for title in titles_temp:
-                                    if dat_numbered == False:
-                                        match_title = title.tag_free_name
-                                    else:
-                                        match_title = title.full_name
-                                    if match_title == key:
-                                        title.short_name = value['condition']['else_group']
-                                        title.group = value['condition']['else_group']
-                                        if value['condition']['else_group'] not in groups:
-                                            groups[value['condition']['else_group']] = []
-                                        groups[value['condition']['else_group']].append(title)
-                                        groups[get_raw_title(key)].remove(title)
-                            except:
-                                printverbose(
-                                    user_input.verbose,
-                                    f'{Font.warning}* Conditional override title not found in dat or current region: '
-                                    f'{Font.warning_bold}{key}{Font.end}')
+                            for i, another_region in enumerate(user_input.user_region_order):
+                                higher_region_name = value['condition']['region']
+
+                                if another_region in higher_region_name:
+                                    higher_regions.append(i)
+
+                            if higher_regions != []:
+                                lower_regions = []
+                                conditional_override = {}
+
+                                # Check that the specified lower regions are available in the user's region order
+                                for i, another_region in enumerate(user_input.user_region_order):
+                                    for lower_region in value['condition']['higher than']:
+                                        if another_region == lower_region:
+                                            lower_regions.append(i)
+
+                                if len(lower_regions) > 0:
+                                    for higher_region in higher_regions:
+                                        conditional_override[higher_region] = 0
+
+                                        for lower_region in lower_regions:
+                                            if higher_region < lower_region:
+                                                conditional_override[higher_region] += 1
+
+                                        # If so, reassign the group and short_name
+                                        if (
+                                            conditional_override[higher_region] == len(lower_regions)
+                                            and conditional_override[higher_region] > 0
+                                            ):
+
+                                            try:
+                                                titles_temp = groups[get_raw_title(key)].copy()
+                                                override(value, titles_temp, value['new group'].lower())
+
+                                            except:
+                                                printverbose(
+                                                    user_input.verbose,
+                                                    f'{Font.warning}* Conditional override title not found in dat or current region: '
+                                                    f'{Font.warning_bold}{key}{Font.end}')
+
+                                        # Otherwise, if the region is lower and there's an "else group" property,
+                                        # file the title into that group with the same short_name
+                                        elif 'else group' in value['condition']:
+                                            try:
+                                                titles_temp = groups[get_raw_title(key)].copy()
+                                                override(value, titles_temp, value['condition']['else group'].lower())
+                                            except:
+                                                printverbose(
+                                                    user_input.verbose,
+                                                    f'{Font.warning}* Conditional override title not found in dat or current region: '
+                                                    f'{Font.warning_bold}{key}{Font.end}')
+                    else:
+                        try:
+                            if re.search('\((.*?,){0,} {0,}' + region + '(,.*?){0,}\)', key) != None:
+                                override(value, groups[get_raw_title(key)].copy(), value['new group'].lower())
+
+                        except:
+                            printverbose(
+                                user_input.verbose,
+                                f'{Font.warning}* Override title not found in dat or current region: '
+                                f'{Font.warning_bold}{key}{Font.end}')
 
     # Identify the parents for the region
     for group, titles in groups.items():
@@ -531,7 +479,7 @@ def process_input_dat(dat_file, is_folder, gui=False):
         next_status = ''
 
     if gui == False:
-        printwrap(f'* Reading dat file: "{Font.bold}{dat_file}{Font.end}"')
+        printwrap(f'* Reading dat file: "{Font.bold}{os.path.abspath(dat_file)}{Font.end}"')
     try:
         with open(dat_file, 'r') as input_file:
             if gui == False:

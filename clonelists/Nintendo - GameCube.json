@@ -6,17 +6,26 @@
 			"Nintendo - GameCube - NKit ISO",
 			"Nintendo - GameCube - NASOs"
 		],
-		"last updated": "20 January 2021"
+		"last updated": "9 April 2021",
+		"minimum version": "0.89"
 	},
 
-	"compilations": [
-		"2 Games in 1 - Disney-Pixar Die Unglaublichen + Disney-Pixar Findet Nemo (Germany) (Disc 1)",
-		"2 Games in 1 - Disney-Pixar Die Unglaublichen + Disney-Pixar Findet Nemo (Germany) (Disc 2)",
-		"2 Games in 1 - Disney-Pixar Les Indestructibles + Disney-Pixar Le Monde de Nemo (France) (Disc 1) (Les Indestructibles)",
-		"2 Games in 1 - Disney-Pixar Les Indestructibles + Disney-Pixar Le Monde de Nemo (France) (Disc 2) (Le Monde de Nemo)",
-		"2 Games in 1 - Nickelodeon SpongeBob Schwammkopf - Der Film + Nickelodeon Tak 2 - Der Stab der Traeume (Germany) (Disc 1)",
-		"2 Games in 1 - Nickelodeon SpongeBob Schwammkopf - Der Film + Nickelodeon Tak 2 - Der Stab der Traeume (Germany) (Disc 2)"
-	],
+	"overrides": {
+		"Disney Sports - Football (Europe) (En,Fr,De,Es,It)": {
+			"new group": "Disney Sports - Soccer",
+			"match": "tag free"
+		}
+	},
+
+	"removes": {
+		"2 Games in 1 - Disney-Pixar Die Unglaublichen + Disney-Pixar Findet Nemo (Germany) (Disc 1)": {},
+		"2 Games in 1 - Disney-Pixar Die Unglaublichen + Disney-Pixar Findet Nemo (Germany) (Disc 2)": {},
+		"2 Games in 1 - Disney-Pixar Les Indestructibles + Disney-Pixar Le Monde de Nemo (France) (Disc 1) (Les Indestructibles)": {},
+		"2 Games in 1 - Disney-Pixar Les Indestructibles + Disney-Pixar Le Monde de Nemo (France) (Disc 2) (Le Monde de Nemo)": {},
+		"2 Games in 1 - Nickelodeon SpongeBob Schwammkopf - Der Film + Nickelodeon Tak 2 - Der Stab der Traeume (Germany) (Disc 1)": {},
+		"2 Games in 1 - Nickelodeon SpongeBob Schwammkopf - Der Film + Nickelodeon Tak 2 - Der Stab der Traeume (Germany) (Disc 2)": {},
+		"Nickelodeon Tak 2 - Le Sceptre des Reves (France)": {}
+	},
 
 	"renames": {
 		"007 - Agent Under Fire": [
@@ -442,14 +451,13 @@
 		"Nickelodeon SpongeBob SquarePants - The Movie": [
 			["Nickelodeon SpongeBob Schwammkopf - Der Film", 1]
 		],
-		"Nickelodeon Tak - The Great Juju Challenge": [
+		"Tak and the Power of Juju": [
 			["Tak & Le Pouvoir de Juju", 1],
 			["Tak und die Macht des Juju", 1]
 		],
 		"Nickelodeon Tak 2 - The Staff of Dreams": [
 			["Nickelodeon Tak 2 - Der Stab der Traeume", 1],
-			["Nickelodeon Tak 2 - Le Sceptre des Reves", 1],
-			["2 Games in 1 - Bob L'eponge - Le Film + Tak 2 - Le Sceptre des Reves (Disc 2) (Tak 2 - Le Sceptre des Reves)", 2]
+			["2 Games in 1 - Bob L'eponge - Le Film + Tak 2 - Le Sceptre des Reves (Disc 2) (Tak 2 - Le Sceptre des Reves)", 1]
 		],
 		"Nicktoons Unite!": [
 			["Nickelodeon SpongeBob SquarePants and Friends Unite!", 1]
@@ -458,7 +466,7 @@
 			["Paper Mario RPG", 1]
 		],
 		"Phantasy Star Online Episode I & II": [
-			["Phantasy Star Online Episode I & II Plus", -1]
+			["Phantasy Star Online Episode I & II Plus", 0]
 		],
 		"Pokemon Channel": [
 			["Pokemon Channel - Pikachu to Issho!", 1]

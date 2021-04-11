@@ -122,6 +122,9 @@
     "BrainDead 13 (USA) (Disc 1)": {
         "languages": "En"
     },
+    "BrainDead 13 (USA) (Disc 1) (RE-1)": {
+        "languages": "En"
+    },
     "BrainDead 13 (USA) (Disc 2)": {
         "languages": "En"
     },
@@ -311,13 +314,13 @@
     "Doom (USA)": {
         "languages": "En"
     },
-    "Dragon Lore - The Legend Begins (USA) (Disc 1)": {
+    "Dragon Lore - The Legend Begins (USA, Europe) (Disc 1)": {
         "languages": "En"
     },
-    "Dragon Lore - The Legend Begins (USA) (Disc 2)": {
+    "Dragon Lore - The Legend Begins (USA, Europe) (Disc 2)": {
         "languages": "En"
     },
-    "Dragon Lore - The Legend Begins (USA) (Disc 3)": {
+    "Dragon Lore - The Legend Begins (USA, Europe) (Disc 3)": {
         "languages": "En"
     },
     "Dragon Tycoon Edge (Japan)": {
@@ -519,6 +522,9 @@
         "languages": "Ja"
     },
     "Horde, The (USA)": {
+        "languages": "En"
+    },
+    "Horde, The (USA) (RCB)": {
         "languages": "En"
     },
     "Icebreaker (USA)": {
@@ -1043,10 +1049,10 @@
     "Return Fire (USA, Europe)": {
         "languages": "En"
     },
-    "Return Fire - Maps o' Death (Europe)": {
+    "Return Fire - Maps O' Death (Europe)": {
         "languages": "En"
     },
-    "Return Fire - Maps o' Death (USA)": {
+    "Return Fire - Maps O' Death (USA)": {
         "languages": "En"
     },
     "Rise of the Robots (Europe)": {
@@ -1193,6 +1199,9 @@
     "Slam 'n Jam '95 (USA, Europe)": {
         "languages": "En"
     },
+    "Slayer (Europe)": {
+        "languages": "En"
+    },
     "Slayer (USA)": {
         "languages": "En"
     },
@@ -1236,6 +1245,9 @@
         "languages": "En"
     },
     "Space Pirates (USA)": {
+        "languages": "En"
+    },
+    "Space Shuttle (USA)": {
         "languages": "En"
     },
     "Star Control II (USA)": {
@@ -1299,6 +1311,9 @@
         "languages": "En"
     },
     "Super Street Fighter II Turbo (Europe) (Demo) (3DO Magazine - Issue 10)": {
+        "languages": "En"
+    },
+    "Super Street Fighter II Turbo (Germany)": {
         "languages": "En"
     },
     "Super Street Fighter II Turbo (USA)": {
@@ -1493,8 +1508,8 @@
     "Virtual Cameraman Part 2 - Natsumi Kawai & Kimi Tachihara (Japan)": {
         "languages": "Ja"
     },
-    "Virtual Horror - Norowareta Yakata (Japan)": {
-        "languages": "Ja"
+    "Virtual Horror - Norowareta Yakata (Japan) (En,Ja)": {
+        "languages": "En, Ja"
     },
     "Virtual Puppet Reika (Japan)": {
         "languages": "Ja"
@@ -1541,7 +1556,7 @@
     "Wing Commander III - Heart of the Tiger (Germany) (Disc 4)": {
         "languages": "En"
     },
-    "Wing Commander III - Heart of the Tiger (USA) (Disc 1)": {
+    "Wing Commander III - Heart of the Tiger (USA, Europe) (Disc 1)": {
         "languages": "En"
     },
     "Wing Commander III - Heart of the Tiger (USA, Europe) (Disc 2)": {
@@ -1577,7 +1592,7 @@
     "World Cup Golf - Hyatt Dorado Beach (Europe)": {
         "languages": "En"
     },
-    "World Cup Golf - Hyatt Dorado Beach (USA)": {
+    "World Cup Golf - Hyatt Dorado Beach (USA, Europe)": {
         "languages": "En"
     },
     "World Cup Special (Japan)": {

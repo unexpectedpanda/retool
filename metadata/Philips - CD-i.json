@@ -1,4 +1,7 @@
 {
+    "2 Unlimited - Beyond Limits (Netherlands)": {
+        "languages": "En"
+    },
     "3rd Degree (USA)": {
         "languages": "En"
     },
@@ -12,6 +15,9 @@
         "languages": "Fr"
     },
     "7th Guest, The (Germany) (Disc 1) (Das Spiel)": {
+        "languages": "De"
+    },
+    "7th Guest, The (Germany) (Disc 1) (Das Spiel) (Rev 1)": {
         "languages": "De"
     },
     "7th Guest, The (USA) (Disc 1) (The Game)": {
@@ -29,6 +35,9 @@
     "ADI Francais-Maths CM2 (France)": {
         "languages": "Fr"
     },
+    "AIDS Awareness Disc, The (USA)": {
+        "languages": ""
+    },
     "Affaire Morlov, L' (Europe) (En,Fr)": {
         "languages": "En, Fr"
     },
@@ -45,6 +54,9 @@
         "languages": "Nl"
     },
     "Alien Gate (Europe)": {
+        "languages": ""
+    },
+    "Alien Gate (Europe) (Rev 1)": {
         "languages": "En"
     },
     "Alien Gate (USA)": {
@@ -77,11 +89,20 @@
     "Anne Willan Presents the Food of France (USA)": {
         "languages": ""
     },
+    "AntiStatic (Europe)": {
+        "languages": "En"
+    },
     "Antonio Vega - Oceano del Sol (Spain)": {
         "languages": ""
     },
     "Apprentice, The (Europe)": {
         "languages": "En"
+    },
+    "Around Atlanta (Europe) (Fr,Nl)": {
+        "languages": "Nl, Fr"
+    },
+    "Around Hollywood (Germany)": {
+        "languages": ""
     },
     "Art of Performing, The (Netherlands)": {
         "languages": "Nl"
@@ -110,6 +131,9 @@
     "Asterix - Le Defi de Cesar (France) (Rev 1)": {
         "languages": "Fr"
     },
+    "Asterix - O Desafio de Cesar (Portugal)": {
+        "languages": "Pt"
+    },
     "Atlantis - The Last Resort (Europe)": {
         "languages": "En"
     },
@@ -124,6 +148,9 @@
     },
     "Bande Annonce, La - Automne-Hiver 95-96 (France)": {
         "languages": ""
+    },
+    "Barrio Mas Divertido, El (Spain)": {
+        "languages": "Es"
     },
     "Battleship (USA, Europe)": {
         "languages": "En"
@@ -149,16 +176,31 @@
     "Berenstain Bears, The - On Their Own (USA)": {
         "languages": "En"
     },
+    "Bertelsmann Universal Lexikon (Germany) (En,De) (Demo)": {
+        "languages": "En, De"
+    },
     "Bertelsmann Universal Lexikon (Germany) (Fuer CD-i Player mit Digital Video Cartridge)": {
         "languages": "De"
     },
     "Bertelsmann Universal Lexikon (Germany) (Fuer CD-i Player ohne Digital Video Cartridge)": {
         "languages": "De"
     },
+    "Best Live, The (Netherlands)": {
+        "languages": "En"
+    },
+    "Black Rain (Europe) (Disc 1)": {
+        "languages": "En"
+    },
+    "Black Rain (Europe) (Disc 2)": {
+        "languages": "En"
+    },
     "Black Rain (Germany) (Disc 1)": {
         "languages": "De"
     },
     "Black Rain (Germany) (Disc 2)": {
+        "languages": "De"
+    },
+    "Bose Home Cinema Sound System Demonstration Disc (Germany)": {
         "languages": "De"
     },
     "Bradley Fighting Vehicle - Operation Desert Storm - Sustainment Training (USA)": {
@@ -174,7 +216,7 @@
         "languages": "En"
     },
     "Bryan Adams - Waking Up the Neighbours (Europe)": {
-        "languages": ""
+        "languages": "En"
     },
     "Burn-Cycle (France) (Demo)": {
         "languages": ""
@@ -212,11 +254,26 @@
     "CD-Online - Issue 01 - Internet on TV (UK) (Rev 1)": {
         "languages": "En"
     },
+    "CD-Online - Issue 02 - The Internet Game Issue (UK)": {
+        "languages": "En"
+    },
+    "CD-i & Video CD Titel-Neuheiten I-95 (Germany)": {
+        "languages": "De"
+    },
+    "CD-i & Video CD Titel-Neuheiten II-95 (Germany)": {
+        "languages": "De"
+    },
+    "CD-i - A Title Sampler (Europe) (En,Fr,De,Nl)": {
+        "languages": "Nl, En, Fr, De"
+    },
     "CD-i Demodisc Fall 1996 & Spring 1997 (Europe)": {
         "languages": ""
     },
     "CD-i Demonstration Disc (USA)": {
         "languages": "En"
+    },
+    "CD-i World (Germany)": {
+        "languages": "De"
     },
     "CD-i voor Demonstratie van Breedbeeld TV (Netherlands)": {
         "languages": ""
@@ -227,11 +284,503 @@
     "CDI 470 - Tutorial Disc (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi)": {
         "languages": "Da, Nl, En, Fi, Fr, De, It, No, Pt, Es, Sv"
     },
+    "CDI Karaoke 1 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 10 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 100 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 101 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 102 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 103 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 104 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 105 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 106 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 107 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 108 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 109 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 11 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 110 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 111 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 112 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 113 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 114 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 115 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 116 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 117 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 118 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 119 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 12 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 120 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 121 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 122 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 123 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 124 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 125 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 126 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 127 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 128 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 129 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 13 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 130 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 131 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 132 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 133 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 134 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 135 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 136 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 137 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 138 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 139 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 14 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 140 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 141 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 142 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 143 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 144 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 145 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 146 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 147 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 148 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 149 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 15 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 150 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 151 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 152 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 153 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 154 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 155 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 156 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 157 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 158 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 159 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 16 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 160 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 161 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 162 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 163 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 164 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 165 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 166 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 167 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 168 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 169 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 17 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 170 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 171 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 172 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 18 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 19 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 2 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 20 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 21 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 22 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 23 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 24 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 25 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 26 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 27 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 28 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 29 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 3 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 30 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 31 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 32 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 33 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 35 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 36 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 37 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 39 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 4 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 40 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 42 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 43 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 44 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 45 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 46 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 47 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 48 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 49 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 50 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 52 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 53 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 54 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 56 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 57 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 59 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 60 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 61 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 62 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 63 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 64 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 65 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 66 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 67 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 68 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 69 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 7 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 70 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 71 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 72 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 73 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 74 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 75 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 76 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 77 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 78 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 79 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 8 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 80 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 81 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 82 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 83 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 84 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 85 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 86 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 87 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 88 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 89 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 90 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 91 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 92 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 93 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 95 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 96 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 97 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 98 (Japan)": {
+        "languages": "Ja"
+    },
+    "CDI Karaoke 99 (Japan)": {
+        "languages": "Ja"
+    },
     "Caesars World of Boxing (Europe)": {
         "languages": "En"
     },
+    "Caesars World of Boxing (France)": {
+        "languages": "Fr"
+    },
     "Caesars World of Boxing (USA)": {
         "languages": "En"
+    },
+    "Caesars World of Boxing (USA) (Rev 2)": {
+        "languages": ""
     },
     "Caesars World of Gambling (USA, Europe)": {
         "languages": "En"
@@ -272,6 +821,9 @@
     "Chaos Control (Germany)": {
         "languages": "De"
     },
+    "Chaos Control (USA)": {
+        "languages": ""
+    },
     "Child is Born, A (USA)": {
         "languages": "En"
     },
@@ -281,10 +833,10 @@
     "Christmas Crisis (Europe)": {
         "languages": ""
     },
-    "Cistercian Architecture (Europe) (En,Fr,De) (19931104)": {
+    "Cistercian Architecture (Europe) (En,Fr,De)": {
         "languages": "En, Fr, De"
     },
-    "Cistercian Architecture (Europe) (En,Fr,De) (19940323)": {
+    "Cistercian Architecture (Europe) (En,Fr,De) (Rev 1)": {
         "languages": "En, Fr, De"
     },
     "Citta piu Felice del Mondo! di Richard Scarry, La (Italy)": {
@@ -293,7 +845,7 @@
     "Classical Guitar (USA)": {
         "languages": "En"
     },
-    "Classical Jukebox (USA)": {
+    "Classical Jukebox (USA, Europe)": {
         "languages": ""
     },
     "Cluedo (Europe)": {
@@ -311,8 +863,17 @@
     "Compton's Interactive Encyclopedia (USA)": {
         "languages": "En"
     },
+    "Coneheads (USA) (Disc 1)": {
+        "languages": ""
+    },
+    "Coneheads (USA) (Disc 2)": {
+        "languages": ""
+    },
     "Connect Four (Europe)": {
         "languages": "En"
+    },
+    "Cours de Formation B No. 2 (France)": {
+        "languages": "Fr"
     },
     "Cranberries, The - Doors and Windows (Europe)": {
         "languages": "En"
@@ -356,6 +917,9 @@
     "Defender of the Crown (USA, Europe)": {
         "languages": "En"
     },
+    "Denkend Aan de Dapperstraat (Netherlands)": {
+        "languages": "Nl"
+    },
     "Destination Great Britain - Central and Northern England (Canada)": {
         "languages": ""
     },
@@ -377,6 +941,9 @@
     "Dictionnaire Hachette Multimedia (France) (1995) (Version Digital Video)": {
         "languages": "Fr"
     },
+    "Digital Video Demonstration Disc (Europe)": {
+        "languages": ""
+    },
     "Digital Video Demonstration Disc (USA)": {
         "languages": ""
     },
@@ -386,8 +953,17 @@
     "Dimo's Quest (USA)": {
         "languages": "En"
     },
+    "Discover Sport Fishing - Northern Edition (Canada)": {
+        "languages": ""
+    },
     "Discovering Pompei (Europe) (En,Fr)": {
         "languages": "En, Fr"
+    },
+    "Dit Was 1994 (Netherlands)": {
+        "languages": "Nl"
+    },
+    "Dit Was 1995 (Netherlands)": {
+        "languages": "Nl"
     },
     "Dizionario Universale Multimediale Grolier Hachette (Italy) (Demo)": {
         "languages": "It"
@@ -414,6 +990,9 @@
         "languages": "En"
     },
     "Drug Wars (Europe)": {
+        "languages": "En"
+    },
+    "Dutch Masters of the Seventeenth Century (UK)": {
         "languages": "En"
     },
     "Earth Command (Germany)": {
@@ -443,6 +1022,9 @@
     "Face Kitchen (UK) (Proto)": {
         "languages": ""
     },
+    "Fahren Lernen B - Version Februar 2005 (Germany) (CD 6 - Lektion 14 - 16)": {
+        "languages": ""
+    },
     "Family Games I (Europe)": {
         "languages": "En"
     },
@@ -450,6 +1032,18 @@
         "languages": "En"
     },
     "Family Games II - Junkfood Jive (Europe)": {
+        "languages": "En"
+    },
+    "Fatal Attraction (Europe) (Disc 1)": {
+        "languages": "En"
+    },
+    "Fatal Attraction (Europe) (Disc 2)": {
+        "languages": "En"
+    },
+    "Fatal Attraction (Netherlands) (Disc 1)": {
+        "languages": "En"
+    },
+    "Fatal Attraction (Netherlands) (Disc 2)": {
         "languages": "En"
     },
     "Flashback (Europe)": {
@@ -464,6 +1058,24 @@
     "Forbidden City, The (Europe)": {
         "languages": "En"
     },
+    "Franse Impressionisten, De (Netherlands)": {
+        "languages": "Nl"
+    },
+    "Free Gold Club Disk (Netherlands)": {
+        "languages": ""
+    },
+    "Free Record Shop Holding - Jaarbericht 1992 & 1993 - Annual Report 1992 & 1993 (Netherlands) (En,Nl)": {
+        "languages": "Nl, En"
+    },
+    "Frog Feast (USA) (Unl)": {
+        "languages": ""
+    },
+    "Futuropolis (Netherlands)": {
+        "languages": ""
+    },
+    "Geheimnisvollen Fabeln von Aesop, Die (Germany)": {
+        "languages": ""
+    },
     "Getting Ahead - Making Time (Europe)": {
         "languages": "En"
     },
@@ -476,14 +1088,23 @@
     "Getting Ahead - Presentation Skills (Europe)": {
         "languages": "En"
     },
+    "Ghost (Europe) (Disc 1)": {
+        "languages": "En"
+    },
+    "Ghost (Europe) (Disc 2)": {
+        "languages": "En"
+    },
     "Gifts to Behold (USA) (En,Ja,Fr,De,Es,It,Nl)": {
         "languages": "Nl, En, Fr, De, It, Ja, Es"
     },
-    "Girl's Club (Europe)": {
+    "Girl's Club (USA, Europe)": {
         "languages": "En"
     },
     "Gli Impressionisti Francesi (Italy)": {
         "languages": "It"
+    },
+    "Gnomes (USA)": {
+        "languages": "En"
     },
     "Go - Special Edition (USA) (Unl)": {
         "languages": ""
@@ -491,10 +1112,10 @@
     "Golden Oldies Jukebox (Europe)": {
         "languages": "En"
     },
-    "Golden Oldies Jukebox (USA) (19910827)": {
+    "Golden Oldies Jukebox (USA)": {
         "languages": ""
     },
-    "Golden Oldies Jukebox (USA) (19910917)": {
+    "Golden Oldies Jukebox (USA) (Rev 1)": {
         "languages": "En"
     },
     "Golf My Way (USA) (Disc 1)": {
@@ -533,6 +1154,9 @@
     "Harvest of the Sun - Van Gogh - Une Moisson de Soleils (France)": {
         "languages": "Fr"
     },
+    "Hieroglyph (Germany)": {
+        "languages": "En"
+    },
     "Historia del Arte Espanol (Spain) (Disc 1) (Los Origenes - Prehistoria y Primeras Civilizaciones)": {
         "languages": "Es"
     },
@@ -563,6 +1187,15 @@
     "Historia del Arte Espanol (Spain) (Disc 9) (La Epoca de las Revoluciones - De Goya a la Modernidad)": {
         "languages": "Es"
     },
+    "Hit Karaoke - Volume 4 - Annees 70 (France)": {
+        "languages": "Fr"
+    },
+    "Hit Karaoke - Volume 5 - Top Club (France)": {
+        "languages": "Fr"
+    },
+    "Holland op Zijn Mooist Vol. 1 (Netherlands) (En,Fr,De,Nl)": {
+        "languages": "Nl, En, Fr, De"
+    },
     "Hollandse Meesters uit de Zeventiende Eeuw (Netherlands)": {
         "languages": "Nl"
     },
@@ -581,7 +1214,16 @@
     "Hotel Mario (France)": {
         "languages": "Fr"
     },
+    "Hotel Mario (USA)": {
+        "languages": ""
+    },
     "How the Rhinoceros Got His Skin (Europe)": {
+        "languages": "En"
+    },
+    "Hunt for Red October, The (Europe) (Disc 1)": {
+        "languages": "En"
+    },
+    "Hunt for Red October, The (Europe) (Disc 2)": {
         "languages": "En"
     },
     "Hunt for Red October, The (USA) (Disc 1)": {
@@ -590,11 +1232,23 @@
     "Hunt for Red October, The (USA) (Disc 2)": {
         "languages": "En"
     },
+    "Iberoamerica - Arte y Cultura Iberoamericana (Spain) (En,Es,It,Pt)": {
+        "languages": "En, It, Pt, Es"
+    },
+    "Iberoamerica - Descubra su Historia (Spain) (En,Es,It,Pt)": {
+        "languages": "En, It, Pt, Es"
+    },
+    "Iberoamerica - Descubra un Continente (Spain) (En,Es,It,Pt)": {
+        "languages": "En, It, Pt, Es"
+    },
+    "Iberoamerica - Huellas del Futuro (Spain) (En,Es,It,Pt)": {
+        "languages": "En, It, Pt, Es"
+    },
+    "Ik, Mik, Letterland (Netherlands)": {
+        "languages": "Nl"
+    },
     "Impressionnistes Francais, Les (France)": {
         "languages": ""
-    },
-    "Inca (Europe) (En,Es,It,Pt)": {
-        "languages": "En, It, Pt, Es"
     },
     "Inca (Europe) (En,Fr,De,Nl)": {
         "languages": "Nl, En, Fr, De"
@@ -602,8 +1256,17 @@
     "Inca (Europe) (En,Fr,De,Nl) (Rev 1)": {
         "languages": "Nl, En, Fr, De"
     },
+    "Inca (Europe) (Fr,Es,It,Pt)": {
+        "languages": "Fr, It, Pt, Es"
+    },
     "Inca (USA)": {
         "languages": "En"
+    },
+    "Indecent Proposal (USA) (Disc 1)": {
+        "languages": ""
+    },
+    "Indecent Proposal (USA) (Disc 2)": {
+        "languages": ""
     },
     "Interactief Philips Magazine '92-'93 (Netherlands)": {
         "languages": "Nl"
@@ -647,7 +1310,10 @@
     "International Tennis Open (Italy) (En,It)": {
         "languages": "En, It"
     },
-    "International Tennis Open (USA) (En,Fr)": {
+    "International Tennis Open (USA)": {
+        "languages": ""
+    },
+    "International Tennis Open (USA) (En,Fr) (Rev 1)": {
         "languages": "En, Fr"
     },
     "Internetten op je TV! (Netherlands)": {
@@ -671,7 +1337,7 @@
     "Jeopardy! (USA)": {
         "languages": "En"
     },
-    "Jeopardy! (USA) (Demo)": {
+    "Jeopardy! (USA) (Beta)": {
         "languages": ""
     },
     "Jigsaw - The Ultimate Electronic Puzzle (Europe)": {
@@ -689,6 +1355,9 @@
     "Joker's Wild!, The (USA)": {
         "languages": ""
     },
+    "Jonah and the Great Fish (USA) (Beta)": {
+        "languages": ""
+    },
     "Journal Interactif 94 et le Jeu des Stars de l'Info, Le (France) (Disque Bande Annonce)": {
         "languages": "Fr"
     },
@@ -704,8 +1373,17 @@
     "Karaoke Kids (Netherlands)": {
         "languages": "Nl"
     },
+    "Karaoke Klassics 3 - Male Standards - Volume 1 (Europe)": {
+        "languages": "En"
+    },
+    "Karaoke Party (Netherlands)": {
+        "languages": "Nl"
+    },
     "Karaoke Schlager 2 (Sweden)": {
         "languages": "Sv"
+    },
+    "Karaoke Voetbal (Netherlands)": {
+        "languages": "Nl"
     },
     "Karaoke Vol. 1 (Netherlands)": {
         "languages": "Nl"
@@ -716,7 +1394,16 @@
     "Karaoke Vol. 3 (Netherlands)": {
         "languages": "Nl"
     },
+    "Karaoke da Cantare in Coppia (Italy)": {
+        "languages": "It"
+    },
     "Kathy Smith - Personal Trainer (USA)": {
+        "languages": "En"
+    },
+    "Keep the Faith - An Evening with Bon Jovi (Europe) (Disc 1)": {
+        "languages": "En"
+    },
+    "Keep the Faith - An Evening with Bon Jovi (Europe) (Disc 2)": {
         "languages": "En"
     },
     "Kether (Europe) (En,Fr)": {
@@ -741,7 +1428,7 @@
         "languages": "En"
     },
     "Kunstschatten van Rusland, De (Netherlands)": {
-        "languages": ""
+        "languages": "Nl"
     },
     "Labyrinth von Kreta (Germany)": {
         "languages": "De"
@@ -809,6 +1496,9 @@
     "Lingo (Netherlands)": {
         "languages": "Nl"
     },
+    "Link - Die Fratzen des Boesen (Germany)": {
+        "languages": "De"
+    },
     "Link - The Faces of Evil (Europe)": {
         "languages": "En"
     },
@@ -848,6 +1538,12 @@
     "Louis Armstrong - An American Songbook (Europe)": {
         "languages": "En"
     },
+    "Louis Armstrong - An American Songbook (USA)": {
+        "languages": "En"
+    },
+    "Luces y Sombras (Spain)": {
+        "languages": ""
+    },
     "Lucky Luke - The Video Game (Europe)": {
         "languages": ""
     },
@@ -872,11 +1568,17 @@
     "Mad Dog McCree (Italy)": {
         "languages": "It"
     },
+    "Mad Dog McCree (Portugal)": {
+        "languages": "Pt"
+    },
     "Mad Dog McCree (USA, Europe)": {
         "languages": "En"
     },
     "Maestri Olandesi del Seicento, I (Italy)": {
         "languages": "It"
+    },
+    "Maitres de la Peinture Hollandaise, Les (France)": {
+        "languages": "Fr"
     },
     "Making the Grade (UK)": {
         "languages": "En"
@@ -908,14 +1610,32 @@
     "Mathtrak K1 (USA)": {
         "languages": ""
     },
+    "Mathtrak K2 (USA)": {
+        "languages": ""
+    },
+    "Mathtrak K4 (USA)": {
+        "languages": ""
+    },
+    "Max Magic (Europe) (Beta)": {
+        "languages": ""
+    },
     "Max Magic (USA)": {
         "languages": ""
+    },
+    "Max Magic (USA) (Beta)": {
+        "languages": ""
+    },
+    "Mediterranea (Italy)": {
+        "languages": "It"
     },
     "Mega Maze (Europe)": {
         "languages": "En"
     },
     "Mega Maze (Europe) (Proto)": {
         "languages": ""
+    },
+    "Mega Popclassics (Netherlands) (En,Nl)": {
+        "languages": "Nl, En"
     },
     "Memory Works, The - For Names and Faces (USA)": {
         "languages": ""
@@ -929,7 +1649,7 @@
     "Merlin's Apprentice (USA)": {
         "languages": "En"
     },
-    "Merlin's Apprentice (USA) (v1.11)": {
+    "Merlin's Apprentice (USA) (Rev 1)": {
         "languages": "En"
     },
     "Methode de Langues Multimedia, La - Je Parle l'Anglais - La Methode Junior (France)": {
@@ -940,6 +1660,9 @@
     },
     "Micro Machines (Europe) (Demo)": {
         "languages": "En"
+    },
+    "MindQuest (Europe) (Beta)": {
+        "languages": ""
     },
     "Monty Python's Invasion from the Planet Skyron (Europe)": {
         "languages": "En"
@@ -965,6 +1688,9 @@
     "Mutant Rampage - Bodyslam (Europe)": {
         "languages": "En"
     },
+    "Mutant Rampage - Bodyslam (USA)": {
+        "languages": ""
+    },
     "Muzzy (Europe)": {
         "languages": ""
     },
@@ -980,23 +1706,41 @@
     "Mystic Midway - Rest in Pieces (USA, Europe)": {
         "languages": "En"
     },
+    "NFL 100 Greatest Touchdowns (Europe)": {
+        "languages": "En"
+    },
     "NFL 100 Greatest Touchdowns (USA)": {
+        "languages": "En"
+    },
+    "NFL Football Trivia Challenge '94-'95 Edition (Europe)": {
         "languages": "En"
     },
     "NFL Football Trivia Challenge (USA)": {
         "languages": ""
     },
-    "NFL Hall of Fame Football (USA) (19940914)": {
-        "languages": ""
-    },
-    "NFL Hall of Fame Football (USA) (19941014)": {
+    "NFL Hall of Fame Football (USA)": {
         "languages": "En"
+    },
+    "NFL Hall of Fame Football (USA) (Beta)": {
+        "languages": ""
     },
     "NFL Instant Replay (USA)": {
         "languages": "En"
     },
     "Naftaline chez Elle (France)": {
         "languages": "Fr"
+    },
+    "Naked Gun 2 1-2, The - The Smell of Fear (Netherlands) (Disc 1)": {
+        "languages": "En"
+    },
+    "Naked Gun 2 1-2, The - The Smell of Fear (Netherlands) (Disc 2)": {
+        "languages": "En"
+    },
+    "Naked Gun 2 1-2, The - The Smell of Fear (USA) (Disc 1)": {
+        "languages": ""
+    },
+    "Naked Gun 2 1-2, The - The Smell of Fear (USA) (Disc 2)": {
+        "languages": ""
     },
     "Name That Tune (USA)": {
         "languages": ""
@@ -1009,6 +1753,9 @@
     },
     "Nature Under Threat (Europe)": {
         "languages": "En"
+    },
+    "Nederland in Beweging! (Netherlands)": {
+        "languages": ""
     },
     "Nederlands Elftal Compleet (Netherlands)": {
         "languages": "Nl"
@@ -1092,6 +1839,9 @@
         "languages": "En, It"
     },
     "Pecos Bill (USA)": {
+        "languages": ""
+    },
+    "Pecos Bill (USA) (Rev 1)": {
         "languages": "En"
     },
     "Pete Townshend Live (USA) (Demo)": {
@@ -1105,6 +1855,12 @@
     },
     "Philips Audio-Video Products '92-'93 on CD-Interactive (Europe) (En,Fr,De,Es,It,Nl)": {
         "languages": "Nl, En, Fr, De, It, Es"
+    },
+    "Philips Demo CD-i v.2 (Europe) (En,Fr,Nl)": {
+        "languages": "Nl, En, Fr"
+    },
+    "Philips Farbfernsehen - Demo CD-i Widescreen Plus (Germany)": {
+        "languages": "De"
     },
     "Philips Media Interactieve Encyclopedie (Netherlands)": {
         "languages": "Nl"
@@ -1154,6 +1910,9 @@
     "Prelude (USA) (En,Ja,Fr,De,Es,It,Nl)": {
         "languages": "Nl, En, Fr, De, It, Ja, Es"
     },
+    "Premiere Collection Encore, The - Andrew Lloyd Webber (Europe)": {
+        "languages": "En"
+    },
     "Premiere Collection Encore, The - Andrew Lloyd Webber (USA)": {
         "languages": ""
     },
@@ -1168,6 +1927,9 @@
     },
     "Raccolto del Sole, Il - Van Gogh (Italy)": {
         "languages": "It"
+    },
+    "Rand McNally's America - United States Atlas (Europe)": {
+        "languages": "En"
     },
     "Reihe Privatunterricht - Die klassische Gitarre (Germany)": {
         "languages": ""
@@ -1186,6 +1948,9 @@
     },
     "Renaissance van Florence, De (Netherlands)": {
         "languages": ""
+    },
+    "Retratos de Cidades - Lisboa (Portugal)": {
+        "languages": "Pt"
     },
     "Revolution in Color, A (Europe)": {
         "languages": "En"
@@ -1217,6 +1982,9 @@
     "Rock Guitar - A Beginner's Guide (Europe)": {
         "languages": ""
     },
+    "Rosebud - The Director's Cut (Europe)": {
+        "languages": "En"
+    },
     "Royal Classics CDi Sampler - The Classics You Love (Europe)": {
         "languages": "En"
     },
@@ -1238,6 +2006,9 @@
     "Sargon Chess (Europe)": {
         "languages": "En"
     },
+    "Sargon Chess (USA)": {
+        "languages": ""
+    },
     "Schtroumpfs, Les - Le Teleportaschtroumpf (France)": {
         "languages": "Fr"
     },
@@ -1247,13 +2018,22 @@
     "Scotland Yard Interactive (Germany)": {
         "languages": "De"
     },
+    "Secret Mission (Europe)": {
+        "languages": ""
+    },
     "Secret Mission (France)": {
         "languages": ""
+    },
+    "Secret Mission (Germany)": {
+        "languages": "De"
     },
     "Secret Mission (Netherlands)": {
         "languages": ""
     },
     "Shadoan (Europe)": {
+        "languages": ""
+    },
+    "Shari Lewis Lamb Chop's Play-Along! Action Songs (USA)": {
         "languages": ""
     },
     "Shark Alert (USA)": {
@@ -1264,6 +2044,9 @@
     },
     "Shorelines (USA)": {
         "languages": ""
+    },
+    "Si Balla (Italy) (Beta)": {
+        "languages": "It"
     },
     "Solar System (Europe)": {
         "languages": "En"
@@ -1277,11 +2060,17 @@
     "Space Ace (Europe)": {
         "languages": "En"
     },
+    "Space Ace (USA)": {
+        "languages": ""
+    },
     "Sport Freaks (Netherlands)": {
         "languages": "Nl"
     },
     "St. Petersbourg et les Tresors de l'Ermitage - The Art of the Czars (France)": {
         "languages": "Fr"
+    },
+    "Staat in de Sterren, Het (Netherlands)": {
+        "languages": "Nl"
     },
     "Star Trek VI - The Undiscovered Country (Europe) (Disc 1)": {
         "languages": ""
@@ -1289,7 +2078,13 @@
     "Star Trek VI - The Undiscovered Country (Europe) (Disc 2)": {
         "languages": ""
     },
+    "Starring You - BZN (Netherlands)": {
+        "languages": ""
+    },
     "Steel Machine (Europe)": {
+        "languages": ""
+    },
+    "Stickybear - Family Fun (Europe)": {
         "languages": ""
     },
     "Stickybear Maths (Europe) (En,Es)": {
@@ -1297,6 +2092,9 @@
     },
     "Stickybear Preschool (USA)": {
         "languages": ""
+    },
+    "Stickybear Preschool (USA) (En,Es) (Rev 1)": {
+        "languages": "En, Es"
     },
     "Sting - Ten Summoner's Tales (Europe)": {
         "languages": "En"
@@ -1306,6 +2104,9 @@
     },
     "Story Machine - Magic Tales (USA)": {
         "languages": "En"
+    },
+    "Story Maschine - Galaxis (Germany)": {
+        "languages": ""
     },
     "Striker Pro (Europe)": {
         "languages": "En"
@@ -1351,6 +2152,9 @@
     },
     "TR-I - No World Order (USA)": {
         "languages": "En"
+    },
+    "TR-I - No World Order (USA) (Beta)": {
+        "languages": ""
     },
     "Tangram (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt)": {
         "languages": "Nl, En, Fr, De, It, Ja, Pt, Es"
@@ -1421,6 +2225,18 @@
     "Time Life Presents - 35mm Photography (USA) (Alt)": {
         "languages": ""
     },
+    "Time-Life Astrology (Europe)": {
+        "languages": "En"
+    },
+    "Time-Life Presenteert - Kleinbeeld Fotografie (Netherlands)": {
+        "languages": "Nl"
+    },
+    "Tina Turner - Rio '88 (Europe) (Disc 1)": {
+        "languages": "En"
+    },
+    "Tina Turner - Rio '88 (Europe) (Disc 2)": {
+        "languages": "En"
+    },
     "Titanic - An Interactive Exploration (USA)": {
         "languages": "En"
     },
@@ -1432,6 +2248,12 @@
     },
     "Top Gun (Germany) (Disc 2)": {
         "languages": "De"
+    },
+    "Top Gun (Netherlands) (Disc 1)": {
+        "languages": "En"
+    },
+    "Top Gun (Netherlands) (Disc 2)": {
+        "languages": "En"
     },
     "Top Gun (USA) (Disc 1)": {
         "languages": "En"
@@ -1502,10 +2324,10 @@
     "Vins de France, Les (France)": {
         "languages": "Fr"
     },
-    "Visit to Sesame Street, A - Letters (USA) (19910913)": {
+    "Visit to Sesame Street, A - Letters (USA)": {
         "languages": ""
     },
-    "Visit to Sesame Street, A - Letters (USA) (19920225)": {
+    "Visit to Sesame Street, A - Letters (USA, Europe) (Rev 1)": {
         "languages": "En"
     },
     "Visit to Sesame Street, A - Numbers (Europe)": {
@@ -1514,16 +2336,25 @@
     "Visit to Sesame Street, A - Numbers (USA)": {
         "languages": ""
     },
+    "Visit to the Valley of Puebla and the Amparo Museum, A (Europe) (En,Fr,De,Es)": {
+        "languages": "En, Fr, De, Es"
+    },
     "Vliegende Hollander, De (Netherlands)": {
         "languages": "Nl"
     },
     "Voetbal (Netherlands)": {
         "languages": "Nl"
     },
+    "Volvo 850 - Colour & Upholstery (Europe)": {
+        "languages": "En"
+    },
     "Von der Elbe an die Spree (Germany)": {
         "languages": "De"
     },
     "Voyeur (USA)": {
+        "languages": "En"
+    },
+    "Voyeur (USA) (Rev 1)": {
         "languages": "En"
     },
     "Voyeur ...Don't Get Caught (Europe)": {
@@ -1539,6 +2370,9 @@
         "languages": ""
     },
     "What's That Bird Britain and Europe (Europe) (En,Fr,De,Es,It)": {
+        "languages": "En, Fr, De, It, Es"
+    },
+    "What's That Bird Britain and Europe (Europe) (En,Fr,De,Es,It) (Rev 1)": {
         "languages": "En, Fr, De, It, Es"
     },
     "Who Shot Johnny Rock (Europe)": {
@@ -1565,11 +2399,17 @@
     "World of Impressionism, The (Europe)": {
         "languages": "En"
     },
+    "Worlds of..., The (Europe)": {
+        "languages": ""
+    },
     "Xplora 1 - Peter Gabriel's Secret World (Europe)": {
         "languages": "En"
     },
     "Yearn2Learn - Peanuts (Europe) (En,Fr,De,Nl)": {
         "languages": "Nl, En, Fr, De"
+    },
+    "Zaak van Sam, De (Netherlands)": {
+        "languages": "Nl"
     },
     "Zelda - Der Zauberstab von Gamelon (Germany)": {
         "languages": "De"
@@ -1586,16 +2426,28 @@
     "Zenith (Europe)": {
         "languages": "En"
     },
+    "Zingstrip - Zing Mee voor Sinterklaas (Netherlands)": {
+        "languages": "Nl"
+    },
+    "Zingstrip - Zing Mee voor de Kerstman (Netherlands)": {
+        "languages": "Nl"
+    },
     "Zombie Dinos from Planet Zeltoid (Europe)": {
         "languages": "En"
     },
     "Zombie Dinos from Planet Zeltoid (USA, Europe) (Rev 1)": {
         "languages": "En"
     },
+    "Zombie Dinos van de Planeet Zeltoid (Netherlands)": {
+        "languages": "Nl"
+    },
     "Zombie Dinos vom Planeten Zeltoid (Germany)": {
         "languages": "De"
     },
     "Zoo... Eenvoudig - Dierenencyclopedie (Netherlands)": {
         "languages": "Nl"
+    },
+    "n-tv Gut zu Wissen - Jahresrueckblick 1995 (Germany)": {
+        "languages": "De"
     }
 }

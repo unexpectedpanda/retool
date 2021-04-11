@@ -159,25 +159,27 @@ def build_clone_lists(input_dat):
             print('\n')
             raise
 
-        compilations = set()
-        conditional_overrides = {}
+        min_version = {}
         overrides = {}
         renames = {}
+        removes = {}
 
-        if 'compilations' in clonedata:
-            compilations.update(clonedata['compilations'])
         if 'overrides' in clonedata:
             overrides = clonedata['overrides']
-        if 'conditional_overrides' in clonedata:
-            conditional_overrides = clonedata['conditional_overrides']
         if 'renames' in clonedata:
             renames = clonedata['renames']
+        if 'removes' in clonedata:
+            removes = clonedata['removes']
+        if 'description' in clonedata:
+            if 'minimum version' in clonedata['description']:
+                min_version = clonedata['description']['minimum version']
+
 
         return CloneList(
-            compilations,
+            min_version,
             overrides,
-            conditional_overrides,
-            renames
+            renames,
+            removes,
         )
 
 

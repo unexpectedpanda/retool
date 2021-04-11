@@ -3,7 +3,8 @@
 		"name": [
 			"Sega - Dreamcast"
 		],
-		"last updated": "21 January 2021"
+		"last updated": "9 April 2021",
+		"minimum version": "0.89"
 	},
 
 	"renames": {
@@ -11,7 +12,7 @@
 			["J.League Spectacle Soccer", 1]
 		],
 		"Aero Dancing i": [
-			["Aero Dancing i - Jikai-saku made Matemasen", -1]
+			["Aero Dancing i - Jikai-saku made Matemasen", 0]
 		],
 		"AeroWings": [
 			["Aero Dancing featuring Blue Impulse", 1]
@@ -23,7 +24,7 @@
 			["Deadly Skies", 1]
 		],
 		"Atsumare! Guru Guru Onsen": [
-			["Atsumare! Guru Guru Onsen BB", -1]
+			["Atsumare! Guru Guru Onsen BB", 0]
 		],
 		"Bangai-O": [
 			["Bakuretsu Muteki Bangaioh", 1]
@@ -107,6 +108,9 @@
 		"Fatal Fury - Mark of the Wolves": [
 			["Garou - Mark of the Wolves", 1]
 		],
+		"F1 World Grand Prix": [
+			["F1 World Grand Prix for Dreamcast", 1]
+		],
 		"Flag to Flag": [
 			["Super Speed Racing", 1]
 		],
@@ -120,7 +124,7 @@
 			["Imperial no Taka - Fighter of Zero", 1]
 		],
 		"Jet Grind Radio": [
-			["De La Jet Set Radio", -1],
+			["De La Jet Set Radio", 0],
 			["Jet Set Radio", 1]
 		],
 		"JoJo's Bizarre Adventure": [
@@ -203,7 +207,7 @@
 			["Snow Surfers", 1]
 		],
 		"Sangokushi VI": [
-			["Sangokushi VI with Power-Up Kit", -1]
+			["Sangokushi VI with Power-Up Kit", 0]
 		],
 		"Seaman": [
 			["Kindan no Pet - Seaman - Gaze Hakase no Jikken-tou", 1],
@@ -219,7 +223,7 @@
 			["Sega GT - Homologation Special", 1]
 		],
 		"Sega Worldwide Soccer 2000": [
-			["Sega Worldwide Soccer 2000 - Euro Edition", -1]
+			["Sega Worldwide Soccer 2000 - Euro Edition", 0]
 		],
 		"Seventh Cross Evolution": [
 			["Seventh Cross", 1]
@@ -268,7 +272,7 @@
 			["Super Magnetic Niuniu", 1]
 		],
 		"Super Runabout": [
-			["Super Runabout - San Francisco Edition", -1]
+			["Super Runabout - San Francisco Edition", 0]
 		],
 		"Suzuki Alstare - Extreme Racing": [
 			["Redline Racer", 1]

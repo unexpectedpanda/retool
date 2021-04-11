@@ -212,6 +212,9 @@
 	"Basketball Nightmare (Europe, Brazil)": {
 		"languages": "En"
 	},
+	"Basketball Nightmare (Europe, Brazil) (Beta)": {
+		"languages": "En"
+	},
 	"Batman Returns (Europe, Brazil)": {
 		"languages": "En"
 	},
@@ -257,10 +260,13 @@
 	"Buggy Run (Europe, Brazil)": {
 		"languages": "En"
 	},
-	"California Games II (Europe)": {
-		"languages": "En"
+	"C_So! (Korea) (Unl)": {
+		"languages": "Ko"
 	},
 	"California Games ~ Jogos de Verao (USA, Europe, Brazil)": {
+		"languages": "En"
+	},
+	"California Games II (Europe)": {
 		"languages": "En"
 	},
 	"Captain Silver (USA)": {
@@ -366,9 +372,6 @@
 		"languages": "En"
 	},
 	"Cyborg Z (Korea) (Unl)": {
-		"languages": "Ko"
-	},
-	"C_So! (Korea) (Unl)": {
 		"languages": "Ko"
 	},
 	"Daffy Duck in Hollywood (Europe, Brazil) (En,Fr,De,Es,It)": {
@@ -962,10 +965,10 @@
 	"Monopoly (Europe)": {
 		"languages": "En"
 	},
-	"Montezuma's Revenge featuring Panama Joe (USA) (Beta)": {
+	"Montezuma's Revenge - Featuring Panama Joe (USA) (Beta)": {
 		"languages": "En"
 	},
-	"Montezuma's Revenge featuring Panama Joe (USA)": {
+	"Montezuma's Revenge - Featuring Panama Joe (USA)": {
 		"languages": "En"
 	},
 	"Mopiranger (Korea) (Unl)": {
@@ -1182,6 +1185,9 @@
 		"languages": "En"
 	},
 	"Rastan (USA, Europe, Brazil)": {
+		"languages": "En"
+	},
+	"Rastan (USA, Europe, Brazil) (Beta)": {
 		"languages": "En"
 	},
 	"Reggie Jackson Baseball (USA)": {
@@ -1544,6 +1550,9 @@
 	"Taito Chase H.Q. (Europe)": {
 		"languages": "En"
 	},
+	"Taito Chase H.Q. (Europe) (Beta)": {
+		"languages": "En"
+	},
 	"Taz in Escape from Mars (Brazil)": {
 		"languages": "En"
 	},
@@ -1761,6 +1770,9 @@
 		"languages": "En"
 	},
 	"Zillion II - The Tri Formation (World)": {
+		"languages": "En"
+	},
+	"Zillion II - The Tri Formation (World) (Beta)": {
 		"languages": "En"
 	},
 	"Zool - Ninja of the 'Nth' Dimension (Europe)": {

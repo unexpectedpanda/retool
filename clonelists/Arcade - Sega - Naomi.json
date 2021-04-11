@@ -1,16 +1,15 @@
 {
 	"description": {
 		"name": [
-			"Commodore - Amiga CD"
+			"Arcade - Sega - Naomi"
 		],
 		"last updated": "9 April 2021",
 		"minimum version": "0.89"
 	},
 
 	"renames": {
-		"Reflections 4.2": [
-			["Reflections 3.0 Zubehoer", 2],
-			["Reflections 4", 2]
+		"Puyo Pop Fever": [
+			["Puyo Puyo Fever", 1]
 		]
 	}
 }

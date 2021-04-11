@@ -3,37 +3,49 @@
         "name": [
 			"Nintendo - Super Nintendo Entertainment System"
 		],
-        "last updated": "10 January 2021"
+        "last updated": "11 April 2021",
+		"minimum version": "0.89"
     },
 
-    "compilations": [
-        "Exertainment Mountain Bike Rally + Speed Racer (USA)"
-    ],
-
     "overrides": {
-        "Casper (Japan)": ["Casper (Japan)", true],
-        "Monopoly (Japan)": ["Monopoly (Japan)", true],
-        "NFL Football (USA) (Proto)": ["NFL Football (USA) (Proto)", true],
-        "Tom & Jerry (USA) (Proto) (1994-07-11)": ["Tom vs Jerry - The Chase Is On!", true],
-        "World Soccer (Europe) (Proto)": ["Tony Meola's Sidekicks Soccer", true]
+        "Casper (Japan)": {
+            "new group": "Casper (Japan)",
+            "match": "full"
+        },
+        "Monopoly (Japan)": {
+            "new group": "Monopoly (Japan)",
+            "match": "full"
+        },
+        "NFL Football (USA) (Proto)": {
+            "new group": "NFL Football (USA) (Proto)",
+            "match": "full"
+        },
+        "Tom & Jerry (USA) (Proto) (1994-07-11)": {
+            "new group": "Tom vs Jerry - The Chase Is On!",
+            "match": "full"
+        },
+        "World Soccer (Europe) (Proto)": {
+            "new group": "Tony Meola's Sidekicks Soccer",
+            "match": "full"
+        }
+    },
+
+    "removes": {
+        "Exertainment Mountain Bike Rally + Speed Racer (USA)": {}
     },
 
     "renames": {
         "7th Saga, The": [
             ["Elnard", 1]
         ],
-        "90 Minutes - European Prime Goal": [
+        "90 minutes - European Prime Goal": [
             ["J.League Soccer - Prime Goal 3", 1]
         ],
         "A.S.P. - Air Strike Patrol": [
             ["Desert Fighter", 1],
             ["Desert Fighter - Suna no Arashi Sakusen", 1]
         ],
-        "ActRaiser": [
-            ["Actraiser", 1]
-        ],
         "ActRaiser 2": [
-            ["Actraiser 2", 1],
             ["ActRaiser 2 - Chinmoku e no Seisen", 1]
         ],
         "Advanced Dungeons & Dragons - Eye of the Beholder": [
@@ -81,7 +93,7 @@
             ["Barkley no Power Dunk", 1]
         ],
         "BASS Masters Classic": [
-            ["BASS Masters Classic - Pro Edition", -1]
+            ["BASS Masters Classic - Pro Edition", 0]
         ],
         "Bassin's Black Bass": [
             ["Super Black Bass 2", 1]
@@ -137,8 +149,7 @@
             ["Bubsy in Claws Encounters of the Furred Kind", 2]
         ],
         "Bugs Bunny - Rabbit Rampage": [
-            ["Bugs Bunny - Hachamecha Daibouken", 1],
-            ["Bugs Bunny - Rabbit Rampage", 1]
+            ["Bugs Bunny - Hachamecha Daibouken", 1]
         ],
         "Bulls vs Blazers and the NBA Playoffs": [
             ["NBA Pro Basketball - Bulls vs Blazers and the NBA Playoffs", 1]
@@ -174,6 +185,7 @@
         "Contra III - The Alien Wars": [
             ["Contra Spirits", 1],
             ["Super Probotector - Alien Rebels", 1],
+            ["Super Probotector - Alien Rebel", 1],
             ["Contra IV - The Alien Wars", 2]
         ],
         "Cyber Spin": [
@@ -983,8 +995,8 @@
             ["Super James Pond II", 1]
         ],
         "Super Mario All-Stars": [
-            ["Super Mario All-Stars + Super Mario World", -1],
-            ["Super Mario All-Stars and Super Mario World", -1],
+            ["Super Mario All-Stars + Super Mario World", 0],
+            ["Super Mario All-Stars and Super Mario World", 0],
             ["Super Mario Collection", 1]
         ],
         "Super Mario All-Stars + Super Mario World": [
@@ -994,8 +1006,8 @@
             ["Super Mario RPG", 1]
         ],
         "Super Mario World": [
-            ["Super Mario All-Stars + Super Mario World", -1],
-            ["Super Mario All-Stars and Super Mario World", -1],
+            ["Super Mario All-Stars + Super Mario World", 0],
+            ["Super Mario All-Stars and Super Mario World", 0],
             ["Super Mario World - Super Mario Bros. 4", 1]
         ],
         "Super Mario World 2 - Yoshi's Island": [

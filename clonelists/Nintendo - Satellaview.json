@@ -3,7 +3,8 @@
         "name": [
 			"Nintendo - Satellaview"
 		],
-        "last updated": "21 January 2021"
+        "last updated": "9 April 2021",
+		"minimum version": "0.89"
     },
 
     "renames": {

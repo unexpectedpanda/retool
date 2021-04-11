@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 # An easier way to visualize parent/clone relationships in a Redump 1G1R dat
 # Used to verify the output of Retool.
 
@@ -5,20 +7,19 @@
 # work for a limited use case.
 
 import html
-import lxml
 import os
 import re
 import sys
 import textwrap
 
-from bs4 import BeautifulSoup, Doctype
+from bs4 import BeautifulSoup
 from openpyxl import Workbook
 from openpyxl.styles import Font, Alignment, PatternFill
 from openpyxl.utils import cell as Cell
 
 def main():
     os.system('cls' if os.name == 'nt' else 'clear')
-    print(font.bold + '\nClonerel 0.13' + font.end)
+    print(font.bold + '\nClonerel 0.14' + font.end)
     print('-------------')
 
     if len(sys.argv) == 1:

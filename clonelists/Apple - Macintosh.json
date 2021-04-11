@@ -3,7 +3,8 @@
 		"name": [
 			"Apple - Macintosh"
 		],
-		"last updated": "31 May 2020"
+		"last updated": "9 April 2021",
+		"minimum version": "0.89"
 	},
 
 	"renames": {
@@ -12,6 +13,9 @@
 		],
 		"Daedalus Encounter, The (Disc 2)": [
 			["Daedalus Encounter, The - Episode 1 - Nanpasen no Alien (Disc 2)", 1]
+		],
+		"Myst (Kinen Kakaku-ban)": [
+			["Myst", 2]
 		],
 		"Rayman 3 - Hoodlum Havoc (Disc 1)": [
 			["Rayman 3 - Hoodlum Havoc", 0]

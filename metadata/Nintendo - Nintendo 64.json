@@ -182,6 +182,9 @@
 	"Bassmasters 2000 (USA)": {
 		"languages": "En"
 	},
+	"Bassmasters 2000 (USA) (Beta)": {
+		"languages": "En"
+	},
 	"Batman Beyond - Return of the Joker (USA)": {
 		"languages": "En"
 	},
@@ -237,6 +240,9 @@
 		"languages": "En,Fr,De,Es,It,Nl"
 	},
 	"Blues Brothers 2000 (USA)": {
+		"languages": "En"
+	},
+	"Blues Brothers 2000 (USA) (Beta) (2000-01-15)": {
 		"languages": "En"
 	},
 	"Body Harvest (Europe) (En,Fr,De)": {
@@ -536,6 +542,9 @@
 	"Die Hard 64 (USA) (Proto) (Level 3)": {
 		"languages": "En"
 	},
+	"Dinosaur Planet (USA) (Proto) (2000-12-01)": {
+		"languages": "En"
+	},
 	"Donald Duck - Goin' Quackers (USA) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
 	},
@@ -600,6 +609,9 @@
 		"languages": "En"
 	},
 	"Duck Dodgers Starring Daffy Duck (USA) (En,Fr,Es)": {
+		"languages": "En,Fr,Es"
+	},
+	"Duck Dodgers Starring Daffy Duck (USA) (En,Fr,Es) (Beta) (2000-03-07)": {
 		"languages": "En,Fr,Es"
 	},
 	"Duke Nukem - Zero Hour (Europe)": {
@@ -872,6 +884,9 @@
 	"Glover (USA) (Beta) (1998-07-16)": {
 		"languages": "En"
 	},
+	"Glover (USA) (Rev 1) (Proto)": {
+		"languages": "En"
+	},
 	"Glover 2 (USA) (Proto 2)": {
 		"languages": "En"
 	},
@@ -1031,6 +1046,9 @@
 	"International Superstar Soccer '98 (USA)": {
 		"languages": "En"
 	},
+	"International Superstar Soccer '98 (Europe) (Beta) (1998-03-02)": {
+		"languages": "En"
+	},
 	"International Superstar Soccer 2000 (Europe) (En,De)": {
 		"languages": "En,De"
 	},
@@ -1128,6 +1146,9 @@
 		"languages": "Ja"
 	},
 	"Jikkyou Powerful Pro Yakyuu 4 (Japan) (Rev 1)": {
+		"languages": "Ja"
+	},
+	"Jikkyou Powerful Pro Yakyuu 4 (Japan) (Beta) (1996-11-30)": {
 		"languages": "Ja"
 	},
 	"Jikkyou Powerful Pro Yakyuu 5 (Japan)": {
@@ -1280,6 +1301,9 @@
 	"Legend of Zelda, The - Ocarina of Time (USA) (Beta)": {
 		"languages": "En"
 	},
+	"Legend of Zelda, The - Ocarina of Time (Europe) (Beta) (2003-02-13) (GameCube)": {
+		"languages": "En"
+	},
 	"Legend of Zelda, The - Ocarina of Time - Master Quest (USA) (Debug) (GameCube)": {
 		"languages": "En"
 	},
@@ -1317,6 +1341,9 @@
 		"languages": "En"
 	},
 	"Mace - The Dark Age (USA)": {
+		"languages": "En"
+	},
+	"Mace - The Dark Age (Unknown) (Beta)": {
 		"languages": "En"
 	},
 	"Madden Football 64 (Europe)": {
@@ -1367,10 +1394,10 @@
 	"Mahjong Master (Japan)": {
 		"languages": "Ja"
 	},
-	"Major League Baseball featuring Ken Griffey Jr. (Australia)": {
+	"Major League Baseball Featuring Ken Griffey Jr. (Australia)": {
 		"languages": "En"
 	},
-	"Major League Baseball featuring Ken Griffey Jr. (USA)": {
+	"Major League Baseball Featuring Ken Griffey Jr. (USA)": {
 		"languages": "En"
 	},
 	"Mario Golf (Europe)": {
@@ -1784,6 +1811,9 @@
 	"Nuclear Strike 64 (USA)": {
 		"languages": "En"
 	},
+	"Nuclear Strike 64 (Germany) (Beta) (1999-11-17)": {
+		"languages": "De"
+	},
 	"Nushi Zuri 64 (Japan)": {
 		"languages": "Ja"
 	},
@@ -2138,6 +2168,9 @@
 	"Road Rash 64 (USA)": {
 		"languages": "En"
 	},
+	"Road Rash 64 (Europe) (Beta) (1999-10-12)": {
+		"languages": "En"
+	},
 	"Roadsters (Europe) (En,Fr,De,Es,It,Nl)": {
 		"languages": "En,Fr,De,Es,It,Nl"
 	},
@@ -2165,7 +2198,7 @@
 	"Rocket - Robot on Wheels (USA)": {
 		"languages": "En"
 	},
-	"Rocket - Robot on Wheels (Europe) (Beta)": {
+	"Rocket - Robot on Wheels (Europe) (Beta) (1999-09-29)": {
 		"languages": "En"
 	},
 	"Rockman Dash - Hagane no Boukenshin (Japan)": {
@@ -2343,6 +2376,9 @@
 		"languages": "En"
 	},
 	"South Park Rally (USA)": {
+		"languages": "En"
+	},
+	"South Park Rally (Europe) (Beta)": {
 		"languages": "En"
 	},
 	"Space Dynamites (Japan)": {
@@ -2603,10 +2639,10 @@
 	"Tony Hawk's Pro Skater 2 (USA)": {
 		"languages": "En"
 	},
-	"Tony Hawk's Pro Skater 2 (USA) (Alpha, 2001-04-20) (Beta)": {
+	"Tony Hawk's Pro Skater 2 (USA) (Beta) (2001-04-20)": {
 		"languages": "En"
 	},
-	"Tony Hawk's Pro Skater 2 (USA) (Later, v012) (Beta)": {
+	"Tony Hawk's Pro Skater 2 (USA) (v012) (Beta) (2001-06-04)": {
 		"languages": "En"
 	},
 	"Tony Hawk's Pro Skater 3 (USA)": {
@@ -2771,7 +2807,10 @@
 	"Turok 3 - Shadow of Oblivion (Europe) (Beta) (2000-06-06)": {
 		"languages": "En"
 	},
-	"Turok 3 - Shadow of Oblivion (USA) (Beta)": {
+	"Turok 3 - Shadow of Oblivion (USA) (Beta) (2000-07-21)": {
+		"languages": "En"
+	},
+	"Turok 3 - Shadow of Oblivion (USA) (Beta) (2000-06-26)": {
 		"languages": "En"
 	},
 	"Twisted Edge - Extreme Snowboarding (USA)": {
@@ -2923,6 +2962,9 @@
 	},
 	"Wetrix (USA) (En,Fr,De,Es,It,Nl)": {
 		"languages": "En,Fr,De,Es,It,Nl"
+	},
+	"Whack 'n' Roll (Unknown) (Beta) (1998-02-05)": {
+		"languages": "En"
 	},
 	"Wheel of Fortune (USA)": {
 		"languages": "En"

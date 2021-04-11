@@ -3,15 +3,31 @@
 		"name": [
 			"Nintendo - Nintendo Entertainment System"
 		],
-		"last updated": "30 December 2020"
+		"last updated": "9 April 2021",
+		"minimum version": "0.89"
     },
 
     "overrides": {
-        "Adventures of Lolo (Japan)": ["Adventures of Lolo 2", true],
-        "Black Bass, The (Japan)": ["Black Bass, The (Japan)", true],
-        "Maniac Mansion (Japan)": ["Maniac Mansion (Japan)", true],
-        "Teenage Mutant Ninja Turtles (Japan)": ["Teenage Mutant Ninja Turtles II - The Arcade Game", true],
-        "Twin Eagle (Asia) (Ja) (PAL) (Unl)": ["Double Strike - Aerial Attack Force", true]
+        "Adventures of Lolo (Japan)": {
+            "new group": "Adventures of Lolo 2",
+            "match": "full"
+        },
+        "Black Bass, The (Japan)": {
+            "new group": "Black Bass, The (Japan)",
+            "match": "full"
+        },
+        "Maniac Mansion (Japan)": {
+            "new group": "Maniac Mansion (Japan)",
+            "match": "full"
+        },
+        "Teenage Mutant Ninja Turtles (Japan)": {
+            "new group": "Teenage Mutant Ninja Turtles II - The Arcade Game",
+            "match": "full"
+        },
+        "Twin Eagle (Asia) (Ja) (PAL) (Unl)": {
+            "new group": "Double Strike - Aerial Attack Force",
+            "match": "full"
+        }
     },
 
 	"renames": {
@@ -613,8 +629,7 @@
             ["Mario Bros. (PAL-MA-0)", 2]
         ],
         "Master Chu and the Drunkard Hu": [
-            ["Dao Shuai", 1],
-            ["Master Chu and the Drunkard Hu", 2]
+            ["Dao Shuai", 1]
         ],
         "Maxi 15": [
             ["Maxi-15 Pack", 1]
@@ -822,7 +837,7 @@
         ],
         "Rodland": [
             ["Yousei Monogatari - Rod Land", 1],
-            ["Rodland featuring Rit and Tam", 2]
+            ["Rodland Featuring Rit and Tam", 2]
         ],
         "Romance of the Three Kingdoms": [
             ["Sangokushi", 1]

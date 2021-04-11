@@ -224,6 +224,9 @@
 	"Asterix & Obelix (Europe) (Fr,De) (SGB Enhanced)": {
 		"languages": "Fr,De"
 	},
+	"Asterix & Obelix (Europe) (Fr,De) (Beta) (SGB Enhanced)": {
+		"languages": "Fr,De"
+	},
 	"Asteroids (USA, Europe)": {
 		"languages": "En"
 	},
@@ -767,8 +770,11 @@
 	"College Slam (USA)": {
 		"languages": "En"
 	},
-	"Contra (Japan)": {
-		"languages": "Ja"
+	"Contra (Japan) (En)": {
+		"languages": "En"
+	},
+	"Contra (World) (Contra Anniversary Collection)": {
+		"languages": "En"
 	},
 	"Contra - The Alien Wars (USA) (SGB Enhanced)": {
 		"languages": "En"
@@ -3041,6 +3047,9 @@
 	"Operation C (USA)": {
 		"languages": "En"
 	},
+	"Operation C (World) (Contra Anniversary Collection)": {
+		"languages": "En"
+	},
 	"Osawagase! Penguin Boy (Japan)": {
 		"languages": "Ja"
 	},
@@ -3060,6 +3069,9 @@
 		"languages": "En,Fr,De,Es"
 	},
 	"Out of Gas (USA)": {
+		"languages": "En"
+	},
+	"Out of Gas (USA) (Beta)": {
 		"languages": "En"
 	},
 	"Outburst (Japan)": {
@@ -3171,6 +3183,9 @@
 		"languages": "Ja"
 	},
 	"Pang (Europe)": {
+		"languages": "En"
+	},
+	"Pang (Europe) (Beta)": {
 		"languages": "En"
 	},
 	"Paperboy (USA, Europe)": {
@@ -3440,6 +3455,9 @@
 	"Populous (Europe)": {
 		"languages": "En"
 	},
+	"Populous (Europe) (Beta)": {
+		"languages": "En"
+	},
 	"Populous Gaiden (Japan)": {
 		"languages": "Ja"
 	},
@@ -3501,6 +3519,9 @@
 		"languages": "Ja"
 	},
 	"Probotector (Europe)": {
+		"languages": "En"
+	},
+	"Probotector (World) (Contra Anniversary Collection)": {
 		"languages": "En"
 	},
 	"Probotector 2 (Europe) (SGB Enhanced)": {
@@ -4406,6 +4427,9 @@
 	"Taz-Mania (Europe)": {
 		"languages": "En"
 	},
+	"Taz-Mania (Europe) (Beta)": {
+		"languages": "En"
+	},
 	"Taz-Mania 2 (USA)": {
 		"languages": "En"
 	},
@@ -4775,7 +4799,7 @@
 	"VS Battler (Japan)": {
 		"languages": "Ja"
 	},
-	"Wario Blast featuring Bomberman! (USA, Europe) (SGB Enhanced)": {
+	"Wario Blast Featuring Bomberman! (USA, Europe) (SGB Enhanced)": {
 		"languages": "En"
 	},
 	"Wario Land - Super Mario Land 3 (World)": {

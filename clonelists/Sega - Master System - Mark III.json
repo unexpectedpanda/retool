@@ -3,38 +3,93 @@
 		"name": [
 			"Sega - Master System - Mark III"
 		],
-		"last updated": "5 November 2020"
+		"last updated": "9 April 2021",
+		"minimum version": "0.89"
     },
 
-    "compilations": [
-        "Hang On & Astro Warrior (USA)"
-    ],
-
-    "conditional_overrides": {
-		"Fushigi no Oshiro Pit Pot (Japan)": {
-			"new_group": "Astro Warrior & Pit Pot",
+    "overrides": {
+		"Astro Warrior & Pit Pot (Europe)": {
+            "new group": "Astro Warrior",
+            "condition": {
+                "region": ["Japan"],
+                "higher than": ["Europe"]
+            }
+        },
+        "Astro Warrior (Japan, USA, Brazil)": {
+            "new group": "Astro Warrior & Pit Pot",
+            "condition": {
+                "region": ["Europe"],
+                "higher than": ["Japan", "USA", "Brazil"]
+            }
+        },
+        "Fushigi no Oshiro Pit Pot (Japan)": {
+			"new group": "Astro Warrior & Pit Pot",
 			"condition": {
 				"region": ["Europe"],
-				"higher_than": ["Japan"]
+				"higher than": ["Japan"]
 			}
-		}
-	},
+		},
+        "Great Baseball (Japan)": {
+            "new group": "Great Baseball (Japan)",
+            "match": "full"
+        },
+        "Great Golf (World) (Beta)": {
+            "new group": "Great Golf ~ Masters Golf",
+            "match": "full"
+        },
+        "Hang-On & Safari Hunt (USA)": {
+            "new group": "Safari Hunt",
+            "condition": {
+                "region": ["Japan"],
+                "higher than": ["USA"],
+                "else group": "Hang On"
+            }
+        },
+        "Hang On & Safari Hunt (USA) (Beta)": {
+            "new group": "Safari Hunt",
+            "match": "full",
+            "condition": {
+                "region": ["Japan"],
+                "higher than": ["USA"],
+                "else group": "Hang On"
+            }
+        },
+        "Marksman Shooting & Trap Shooting (USA, Brazil)": {
+            "new group": "Safari Hunt",
+            "condition": {
+                "region": ["Europe"],
+                "higher than": ["USA"]
+            }
+        },
+        "Marksman Shooting & Trap Shooting & Safari Hunt (Europe)": {
+            "new group": "Marksman Shooting & Trap Shooting",
+            "condition": {
+                "region": ["USA"],
+                "higher than": ["Europe"],
+                "else group": "Safari Hunt"
+            }
+        }
+    },
 
-    "overrides": {
-        "Great Baseball (Japan)": ["Great Baseball (Japan)", true],
-        "Great Golf (World) (Beta)": ["Great Golf ~ Masters Golf", true]
+    "removes": {
+        "Hang On & Astro Warrior": {
+            "match": "short"
+        },
+        "[BIOS] Hang On": {
+            "match": "short"
+        },
+        "[BIOS] Hang On & Safari Hunt (USA, Europe, Brazil)": {
+            "match": "tag free"
+        }
     },
 
 	"renames": {
-        "[BIOS] Hang On": [
-            ["[BIOS] Hang On & Safari Hunt", -1],
-            ["Hang On", 2]
-        ],
         "Alex Kidd - High-Tech World": [
             ["Anmitsu Hime", 1]
         ],
         "Alex Kidd in Miracle World": [
-            ["Alex Kidd no Miracle World", 1]
+            ["Alex Kidd no Miracle World", 1],
+            ["[BIOS] Alex Kidd in Miracle World", 2]
         ],
         "Black Belt": [
             ["Hokuto no Ken", 1]
@@ -81,13 +136,6 @@
         "Golvellius - Valley of Doom": [
             ["Maou Golvellius", 1]
         ],
-        "Hang On & Astro Warrior": [
-            ["Astro Warrior", 2]
-        ],
-        "Hang-On & Safari Hunt": [
-            ["[BIOS] Hang On & Safari Hunt", 0],
-            ["Hang On & Safari Hunt", 2]
-        ],
         "James 'Buster' Douglas Knockout Boxing": [
             ["George Foreman's KO Boxing", 1],
             ["Heavyweight Champ", 2]
@@ -112,6 +160,9 @@
         ],
         "Miracle Warriors - Seal of the Dark Lord": [
             ["Haja no Fuuin", 1]
+        ],
+        "Missile Defense 3-D": [
+            ["[BIOS] Missile Defense 3-D", 2]
         ],
         "My Hero": [
             ["Seishun Scandal", 1],
@@ -150,6 +201,9 @@
         ],
         "Slap Shot": [
             ["Slap Shoot", 2]
+        ],
+        "Sonic The Hedgehog": [
+            ["[BIOS] Sonic The Hedgehog", 2]
         ],
         "Space Harrier 3-D ~ Space Harrier 3D": [
             ["Space Harrier 3D", 1]
@@ -203,7 +257,7 @@
             ["Ys", 1]
         ],
         "Zillion": [
-            ["Akai Koudan Zillion ~ Zillion", 1]
+            ["Akai Koudan Zillion ~ Zillion", 2]
         ]
 	}
 }

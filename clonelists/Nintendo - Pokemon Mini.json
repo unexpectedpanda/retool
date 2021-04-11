@@ -3,14 +3,27 @@
         "name": [
 			"Nintendo - Pokemon Mini"
 		],
-        "last updated": "22 July 2020"
+        "last updated": "9 April 2021",
+		"minimum version": "0.89"
     },
 
     "overrides": {
-        "Pokemon Pinball Mini (USA) (GameCube Preview)": ["Pokemon Pinball Mini (USA) (GameCube Preview)", true],
-        "Pokemon Puzzle Collection (USA) (GameCube Preview)": ["Pokemon Puzzle Collection (GameCube Preview)", true],
-        "Pokemon Puzzle Collection (France) (GameCube Preview)": ["Pokemon Puzzle Collection (GameCube Preview)", true],
-        "Pokemon Puzzle Collection (Germany) (GameCube Preview)": ["Pokemon Puzzle Collection (GameCube Preview)", true]
+        "Pokemon Pinball Mini (USA) (GameCube Preview)": {
+            "new group": "Pokemon Pinball Mini (USA) (GameCube Preview)",
+            "match": "full"
+        },
+        "Pokemon Puzzle Collection (USA) (GameCube Preview)": {
+            "new group": "Pokemon Puzzle Collection (GameCube Preview)",
+            "match": "full"
+        },
+        "Pokemon Puzzle Collection (France) (GameCube Preview)": {
+            "new group": "Pokemon Puzzle Collection (GameCube Preview)",
+            "match": "full"
+        },
+        "Pokemon Puzzle Collection (Germany) (GameCube Preview)": {
+            "new group": "Pokemon Puzzle Collection (GameCube Preview)",
+            "match": "full"
+        }
     },
 
     "renames": {

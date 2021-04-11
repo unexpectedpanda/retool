@@ -3,18 +3,43 @@
         "name": [
 			"Nintendo - Game Boy"
 		],
-        "last updated": "5 January 2021"
+        "last updated": "9 April 2021",
+		"minimum version": "0.89"
     },
 
     "overrides": {
-        "Bomberman GB (Japan) (SGB Enhanced)": ["Wario Blast featuring Bomberman!", true],
-        "Bomberman GB 2 (Japan) (SGB Enhanced)": ["Bomberman GB", true],
-        "Donkey Kong Land (Japan) (SGB Enhanced)": ["Donkey Kong Land 2", true],
-        "Mickey Mouse (Japan)": ["Bugs Bunny Crazy Castle, The", true],
-        "Soccer (Japan)": ["Football International", true],
-        "Game Boy Gallery (Japan) (SGB Enhanced)": ["Game & Watch Gallery", true],
-        "Game Boy Gallery 2 (Australia) (SGB Enhanced)": ["Game & Watch Gallery", true],
-        "Space Invaders (Japan)": ["Space Invaders (Japan)", true]
+        "Bomberman GB (Japan) (SGB Enhanced)": {
+            "new group": "Wario Blast Featuring Bomberman!",
+            "match": "full"
+        },
+        "Bomberman GB 2 (Japan) (SGB Enhanced)": {
+            "new group": "Bomberman GB",
+            "match": "full"
+        },
+        "Donkey Kong Land (Japan) (SGB Enhanced)": {
+            "new group": "Donkey Kong Land 2",
+            "match": "full"
+        },
+        "Mickey Mouse (Japan)": {
+            "new group": "Bugs Bunny Crazy Castle, The",
+            "match": "full"
+        },
+        "Soccer (Japan)": {
+            "new group": "Football International",
+            "match": "full"
+        },
+        "Game Boy Gallery (Japan) (SGB Enhanced)": {
+            "new group": "Game & Watch Gallery",
+            "match": "full"
+        },
+        "Game Boy Gallery 2 (Australia) (SGB Enhanced)": {
+            "new group": "Game & Watch Gallery",
+            "match": "full"
+        },
+        "Space Invaders (Japan)": {
+            "new group": "Space Invaders (Japan)",
+            "match": "full"
+        }
     },
 
     "renames": {
@@ -104,10 +129,10 @@
             ["Bubble Bobble Junior", 1]
         ],
         "Bugs Bunny Crazy Castle, The": [
-            ["Bugs Bunny Collection", -1]
+            ["Bugs Bunny Collection", 0]
         ],
         "Bugs Bunny Crazy Castle 2, The": [
-            ["Bugs Bunny Collection", -1],
+            ["Bugs Bunny Collection", 0],
             ["Hugo", 1],
             ["Mickey Mouse", 1],
             ["Mickey Mouse II", 1]
@@ -131,7 +156,6 @@
             ["Dracula Densetsu", 1]
         ],
         "Castlevania II - Belmont's Revenge": [
-            ["Castlevania II - Belmont's Revenge", 1],
             ["Dracula Densetsu II", 1]
         ],
         "Castlevania Legends": [
@@ -444,9 +468,6 @@
         ],
         "Pinball - Revenge of the 'Gator": [
             ["Pinball - 66hiki no Wani Daikoushin!", 1]
-        ],
-        "Pocket Bomberman": [
-            ["Pocket Bomberman", 1]
         ],
         "Pokemon - Blue Version": [
             ["Pocket Monsters - Ao", 1],

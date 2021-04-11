@@ -3,7 +3,8 @@
         "name": [
 			"Atari - 2600"
 		],
-        "last updated": "29 July 2020"
+        "last updated": "9 April 2021",
+		"minimum version": "0.89"
     },
 
     "renames": {
@@ -70,9 +71,6 @@
         ],
         "Rubik's Cube": [
             ["Atari Video Cube", 2]
-        ],
-        "Save our Ship": [
-            ["Save Our Ship", 1]
         ],
         "Sea Hawk": [
             ["Seahawk", 1]

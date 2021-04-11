@@ -3,7 +3,8 @@
 		"name": [
 			"Philips - CD-i"
 		],
-		"last updated": "24 January 2021"
+		"last updated": "10 April 2021",
+		"minimum version": "0.89"
 	},
 
 	"renames": {
@@ -22,7 +23,8 @@
 			["Asterix - De Uitdaging van Caesar", 1],
 			["Asterix - Die grosse Reise", 1],
 			["Asterix - La Sfida di Cesare", 1],
-			["Asterix - Le Defi de Cesar", 1]
+			["Asterix - Le Defi de Cesar", 1],
+			["Asterix - O Desafio de Cesar", 1]
 		],
 		"Berenstain Bears, The - On Their Own": [
 			["Berenstain Bears, The - Bij de Berenstain Beren Thuis - Thuis en bij Jou", 1],
@@ -34,9 +36,17 @@
 			["Burn-Cycle (Jeu)", 1],
 			["Burn-Cycle", 2]
 		],
+		"Dark Fables of Aesop, The": [
+			["Geheimnisvollen Fabeln von Aesop, Die", 1]
+		],
 		"Dictionnaire Hachette Multimedia (1995) (Version Digital Video)": [
 			["Dictionnaire Hachette Multimedia (1995)", 2],
 			["Dictionnaire Hachette Multimedia", 3]
+		],
+		"Dutch Masters of the Seventeenth Century": [
+			["Hollandse Meesters uit de Zeventiende Eeuw", 1],
+			["Maestri Olandesi del Seicento, I", 1],
+			["Maitres de la Peinture Hollandaise, Les", 1]
 		],
 		"Harvest of the Sun - Van Gogh - Une Moisson de Soleils": [
 			["Harvest of the Sun", 1],
@@ -44,11 +54,15 @@
 			["Raccolto del Sole, Il - Van Gogh", 1]
 		],
 		"Impressionnistes Francais, Les": [
+			["Franse Impressionisten, De", 1],
 			["Gli Impressionisti Francesi", 1]
 		],
 		"International Tennis Open": [
 			["International Tennis Open (8100082)", 1],
 			["International Tennis Open (8120040)", 2]
+		],
+		"Link - The Faces of Evil": [
+			["Link - Die Fratzen des Boesen", 1]
 		],
 		"Marco Polo (Disc 1) (The Game)": [
 			["Marco Polo (Disc 1) (Le Jeu)", 1]
@@ -81,6 +95,7 @@
 			["Renaissance van Florence, De", 1]
 		],
 		"Richard Scarry's Best Neighborhood Disc Ever!": [
+			["Barrio Mas Divertido, El", 1],
 			["Citta piu Felice del Mondo! di Richard Scarry, La", 1],
 			["Richard Scarry's Allerbeste Buurt Disc!", 1],
 			["Ville Surprise de Richard Scarry 1, La", 1]
@@ -94,6 +109,9 @@
 		],
 		"St. Petersbourg et les Tresors de l'Ermitage - The Art of the Czars": [
 			["Arte degli Zar, L' - San Pietroburgo e i Tesori dell'Ermitage", 1]
+		],
+		"Story Maschine - Galaxis": [
+			["Macchina delle Favole, La - Racconti Spaziali", 1]
 		],
 		"Tesoro dell'Isola dei Giochi, Il": [
 			["Tresor de l'Ile aux Jeux, Le", 1]

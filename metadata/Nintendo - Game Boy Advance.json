@@ -305,6 +305,9 @@
 	"2K Sports - Major League Baseball 2K7 (USA)": {
 		"languages": "En"
 	},
+	"2K Sports - Major League Baseball 2K7 (USA) (Beta)": {
+		"languages": "En"
+	},
 	"3 Game Pack! - Candy Land + Chutes and Ladders + Original Memory Game (USA)": {
 		"languages": "En"
 	},
@@ -545,7 +548,7 @@
 	"All-Star Baseball 2004 (USA) (Beta 1)": {
 		"languages": "En"
 	},
-	"All-Star Baseball 2004 featuring Derek Jeter (USA)": {
+	"All-Star Baseball 2004 Featuring Derek Jeter (USA)": {
 		"languages": "En"
 	},
 	"Altered Beast - Guardian of the Realms (USA)": {
@@ -1250,7 +1253,7 @@
 	"Broken Circle (Europe) (En,It) (Proto)": {
 		"languages": "En,It"
 	},
-	"Broken Circle (Europe) (En,It) (Aftermarket) (Unl)": {
+	"Broken Circle (World) (En,It) (Aftermarket) (Unl)": {
 		"languages": "En,It"
 	},
 	"Broken Sword - The Shadow of the Templars (Europe) (En,Fr,De,Es,It)": {
@@ -1652,7 +1655,7 @@
 	"Comix Zone (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
 	},
-	"Commandos 2 (Japan) (Proto)": {
+	"Commandos 2 (Japan) (Proto) (2002-11-28)": {
 		"languages": "Ja"
 	},
 	"Contra Advance (USA) (Beta)": {
@@ -3056,13 +3059,13 @@
 	"Fire Emblem - Rekka no Ken (Japan) (Virtual Console)": {
 		"languages": "Ja"
 	},
-	"Fire Emblem - Seima no Kousek (Japan) (Virtual Console)": {
-		"languages": "Ja"
-	},
 	"Fire Emblem - Seima no Kouseki (Japan)": {
 		"languages": "Ja"
 	},
 	"Fire Emblem - Seima no Kouseki (Japan) (Beta)": {
+		"languages": "Ja"
+	},
+	"Fire Emblem - Seima no Kouseki (Japan) (Virtual Console)": {
 		"languages": "Ja"
 	},
 	"Fire Emblem - The Sacred Stones (USA, Australia)": {
@@ -3100,9 +3103,6 @@
 	},
 	"Flushed Away (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
-	},
-	"Font Sample by Nintendo (Unknown) (Sample)": {
-		"languages": "En"
 	},
 	"Ford Racing 3 (USA)": {
 		"languages": "En"
@@ -3196,9 +3196,6 @@
 	},
 	"Fruits Mura no Doubutsu-tachi (Japan) (Rev 1)": {
 		"languages": "Ja"
-	},
-	"Functional Sample by Nintendo (Unknown) (Sample)": {
-		"languages": "En"
 	},
 	"Fushigi no Kuni no Alice (Japan)": {
 		"languages": "Ja"
@@ -4133,9 +4130,6 @@
 	"iQue Video & Audio (China)": {
 		"languages": "Zh"
 	},
-	"IR Sample by Nintendo (Unknown) (Sample)": {
-		"languages": "En"
-	},
 	"Iridion 3D (USA, Europe)": {
 		"languages": "En"
 	},
@@ -4696,9 +4690,6 @@
 	},
 	"Lara Croft Tomb Raider - The Prophecy (USA) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
-	},
-	"LC Font Sample by Nintendo (Unknown) (Sample)": {
-		"languages": "En"
 	},
 	"Lea - Passion Veterinaire (France) (En,Fr)": {
 		"languages": "En,Fr"
@@ -6017,18 +6008,6 @@
 	"Mugenborg (Japan)": {
 		"languages": "Ja"
 	},
-	"Multi-Play Boot Sample by Nintendo (Unknown) (Sample)": {
-		"languages": "En"
-	},
-	"Multi-Play Load Sample by Nintendo (Unknown) (Sample)": {
-		"languages": "En"
-	},
-	"Multi-Play SIO Sample by Nintendo (Unknown) (Sample)": {
-		"languages": "En"
-	},
-	"Multiple Interrupt Sample by Nintendo (Unknown) (Sample)": {
-		"languages": "En"
-	},
 	"Mummy, The (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
 	},
@@ -6047,7 +6026,7 @@
 	"Mutsu - Water Looper Mutsu (Japan)": {
 		"languages": "Ja"
 	},
-	"MX 2002 featuring Ricky Carmichael (USA, Europe)": {
+	"MX 2002 Featuring Ricky Carmichael (USA, Europe)": {
 		"languages": "En"
 	},
 	"My Animal Centre in Africa (Europe) (En,Fr,De,Es,It)": {
@@ -6362,9 +6341,6 @@
 	"Over the Hedge - Hammy Goes Nuts! (Europe) (En,Fr,De,Es,It,Nl)": {
 		"languages": "En,Fr,De,Es,It,Nl"
 	},
-	"Overlay Sample by Nintendo (Unknown) (Sample)": {
-		"languages": "En"
-	},
 	"Overstorm (Unknown) (Proto)": {
 		"languages": "En"
 	},
@@ -6641,31 +6617,43 @@
 	"Poke Inu (Japan)": {
 		"languages": "Ja"
 	},
-	"Pokemon - 10th Anniversary Distribution (Europe)": {
+	"Pokemon - 10th Anniversary Distribution (Europe) (Kiosk)": {
 		"languages": "En"
 	},
-	"Pokemon - Aura Mew Distribution (Europe)": {
-		"languages": "En"
-	},
-	"Pokemon - Aura Mew Distribution (France)": {
-		"languages": "Fr"
-	},
-	"Pokemon - Aura Mew Distribution (Germany)": {
+	"Pokemon - 10th Anniversary Distribution (Germany) (Kiosk)": {
 		"languages": "De"
 	},
-	"Pokemon - Aura Mew Distribution (Italy)": {
+	"Pokemon - 10th Anniversary Distribution (Italy) (Kiosk)": {
 		"languages": "It"
 	},
-	"Pokemon - Aura Mew Distribution (Spain)": {
+	"Pokemon - 10th Anniversary Distribution (Spain) (Kiosk)": {
 		"languages": "Es"
 	},
-	"Pokemon - Aurora Ticket Distribution (USA)": {
+	"Pokemon - 10th Anniversary Distribution (France) (Kiosk)": {
+		"languages": "Fr"
+	},
+	"Pokemon - Aura Mew Distribution (Europe) (Kiosk)": {
+		"languages": "En"
+	},
+	"Pokemon - Aura Mew Distribution (France) (Kiosk)": {
+		"languages": "Fr"
+	},
+	"Pokemon - Aura Mew Distribution (Germany) (Kiosk)": {
+		"languages": "De"
+	},
+	"Pokemon - Aura Mew Distribution (Italy) (Kiosk)": {
+		"languages": "It"
+	},
+	"Pokemon - Aura Mew Distribution (Spain) (Kiosk)": {
+		"languages": "Es"
+	},
+	"Pokemon - Aurora Ticket Distribution (USA) (Kiosk)": {
 		"languages": "En"
 	},
 	"Pokemon - Blattgruene Edition (Germany)": {
 		"languages": "De"
 	},
-	"Pokemon - Doel Deoxys Distribution (Netherlands)": {
+	"Pokemon - Doel Deoxys Distribution (Netherlands) (Kiosk)": {
 		"languages": "En"
 	},
 	"Pokemon - Edicion Esmeralda (Spain)": {
@@ -6707,7 +6695,7 @@
 	"Pokemon - LeafGreen Version (USA, Europe) (Rev 1)": {
 		"languages": "En"
 	},
-	"Pokemon - Liechi Berry Glitch Fix & Shiny Zigzagoon Distribution (Europe)": {
+	"Pokemon - Liechi Berry Glitch Fix & Shiny Zigzagoon Distribution (Europe) (Kiosk)": {
 		"languages": "En"
 	},
 	"Pokemon - Rubin-Edition (Germany)": {
@@ -7162,9 +7150,6 @@
 	},
 	"Reign of Fire (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
-	},
-	"Reintr Sample by Nintendo (Unknown) (Sample)": {
-		"languages": "En"
 	},
 	"Relaxuma na Mainichi (Japan)": {
 		"languages": "Ja"
@@ -7840,9 +7825,6 @@
 	},
 	"Simple 2960 Tomodachi Series Vol. 4 - The Trump - Minna de Asoberu 12 Shurui no Trump Game (Japan) (Rev 1)": {
 		"languages": "Ja"
-	},
-	"Simple Sample by Nintendo (Unknown) (Sample)": {
-		"languages": "En"
 	},
 	"Simpsons, The - Road Rage (USA, Europe)": {
 		"languages": "En"
@@ -9311,6 +9293,9 @@
 	"VeggieTales - LarryBoy and the Bad Apple (USA)": {
 		"languages": "En"
 	},
+	"Viewpoint (Unknown) (Techo Demo)": {
+		"languages": "En"
+	},
 	"Virtua Tennis (USA)": {
 		"languages": "En"
 	},
@@ -9347,10 +9332,10 @@
 	"Wagamama Fairy Mirumo de Pon! - Yume no Kakera (Japan)": {
 		"languages": "Ja"
 	},
-	"Wakeboarding Unleashed featuring Shaun Murray (Europe)": {
+	"Wakeboarding Unleashed Featuring Shaun Murray (Europe)": {
 		"languages": "En"
 	},
-	"Wakeboarding Unleashed featuring Shaun Murray (USA)": {
+	"Wakeboarding Unleashed Featuring Shaun Murray (USA)": {
 		"languages": "En"
 	},
 	"Waliou Xunbao Ji (China)": {
@@ -9530,7 +9515,7 @@
 	"World Reborn (USA) (Proto)": {
 		"languages": "En"
 	},
-	"World Reborn (USA) (Aftermarket) (Unl)": {
+	"World Reborn (World) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
 	"World Tennis Stars (Europe)": {

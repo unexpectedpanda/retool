@@ -3,7 +3,8 @@
 		"name": [
 			"Sega - Mega CD & Sega CD"
 		],
-		"last updated": "14 November 2020"
+		"last updated": "9 April 2021",
+		"minimum version": "0.89"
 	},
 
 	"renames": {
@@ -29,11 +30,8 @@
 			["Thunder Storm FX", 1]
 		],
 		"Corpse Killer": [
-			["Corpse Killer (Sega CD 32X)", -1],
-			["Corpse Killer (Mega-CD 32X)", -1]
-		],
-		"Corpse Killer (Sega CD 32X)": [
-			["Corpse Killer (Mega-CD 32X)", 1]
+			["Corpse Killer (Sega CD 32X)", 0],
+			["Corpse Killer (Mega-CD 32X)", 0]
 		],
 		"Dark Wizard": [
 			["Dark Wizard - Yomigaerishi Yami no Madoushi", 1]
@@ -82,18 +80,12 @@
 			["NHL Hockey '94", 1]
 		],
 		"Night Trap (Disc 1)": [
-			["Night Trap (Disc 1) (Sega CD 32X)", -1],
-			["Night Trap (Disc 1) (Mega-CD 32X)", -1]
+			["Night Trap (Disc 1) (Sega CD 32X)", 0],
+			["Night Trap (Disc 1) (Mega-CD 32X)", 0]
 		],
 		"Night Trap (Disc 2)": [
-			["Night Trap (Disc 2) (Sega CD 32X)", -1],
-			["Night Trap (Disc 2) (Mega-CD 32X)", -1]
-		],
-		"Night Trap (Disc 1) (Sega CD 32X)": [
-			["Night Trap (Disc 1) (Mega-CD 32X)", 1]
-		],
-		"Night Trap (Disc 2) (Sega CD 32X)": [
-			["Night Trap (Disc 2) (Mega-CD 32X)", 1]
+			["Night Trap (Disc 2) (Sega CD 32X)", 0],
+			["Night Trap (Disc 2) (Mega-CD 32X)", 0]
 		],
 		"Panic!": [
 			["Switch", 1]
@@ -116,64 +108,46 @@
 		"Robo Aleste": [
 			["Dennin Aleste - Nobunaga and His Ninja Force", 1]
 		],
-		"Sega Classics Arcade Collection (4-in-1)": [
-			["Sega Classics Arcade Collection (5-in-1)", -1],
-			["Sega Classic Arcade Collection - Limited Edition", 1],
-			["Sega Classics Arcade Collection - Limited Edition", 1]
+		"Sega Classics Arcade Collection (5-in-1)": [
+			["Sega Classics Arcade Collection (4-in-1)", 2],
+			["Sega Classic Arcade Collection - Limited Edition", 2],
+			["Sega Classics Arcade Collection - Limited Edition", 2]
 		],
 		"Shadow of the Beast II": [
 			["Beast II", 1],
 			["Shadow of the Beast II - Juushin no Jubaku", 1]
 		],
-		"Shining Force CD": [
-			["Shining Force CD", 1]
-		],
 		"Slam City with Scottie Pippen (Disc 1) (Fingers)": [
-			["Slam City with Scottie Pippen (Disc 1) (Fingers) (Sega CD 32X)", -1],
-			["Slam City with Scottie Pippen (Disc 1) (Fingers) (Mega-CD 32X)", -1]
+			["Slam City with Scottie Pippen (Disc 1) (Fingers) (Sega CD 32X)", 0],
+			["Slam City with Scottie Pippen (Disc 1) (Fingers) (Mega-CD 32X)", 0]
 		],
 		"Slam City with Scottie Pippen (Disc 2) (Juice)": [
-			["Slam City with Scottie Pippen (Disc 2) (Juice) (Sega CD 32X)", -1],
-			["Slam City with Scottie Pippen (Disc 2) (Juice) (Mega-CD 32X)", -1]
+			["Slam City with Scottie Pippen (Disc 2) (Juice) (Sega CD 32X)", 0],
+			["Slam City with Scottie Pippen (Disc 2) (Juice) (Mega-CD 32X)", 0]
 		],
 		"Slam City with Scottie Pippen (Disc 3) (Mad Dog)": [
-			["Slam City with Scottie Pippen (Disc 3) (Mad Dog) (Sega CD 32X)", -1],
-			["Slam City with Scottie Pippen (Disc 3) (Mad Dog) (Mega-CD 32X)", -1]
+			["Slam City with Scottie Pippen (Disc 3) (Mad Dog) (Sega CD 32X)", 0],
+			["Slam City with Scottie Pippen (Disc 3) (Mad Dog) (Mega-CD 32X)", 0]
 		],
 		"Slam City with Scottie Pippen (Disc 4) (Smash)": [
-			["Slam City with Scottie Pippen (Disc 4) (Smash) (Sega CD 32X)", -1],
-			["Slam City with Scottie Pippen (Disc 4) (Smash) (Mega-CD 32X)", -1]
+			["Slam City with Scottie Pippen (Disc 4) (Smash) (Sega CD 32X)", 0],
+			["Slam City with Scottie Pippen (Disc 4) (Smash) (Mega-CD 32X)", 0]
 		],
-		"Slam City with Scottie Pippen (Disc 1) (Fingers) (Sega CD 32X)": [
-			["Slam City with Scottie Pippen (Disc 1) (Fingers) (Mega-CD 32X)", 1]
-		],
-		"Slam City with Scottie Pippen (Disc 2) (Juice) (Sega CD 32X)": [
-			["Slam City with Scottie Pippen (Disc 2) (Juice) (Mega-CD 32X)", 1]
-		],
-		"Slam City with Scottie Pippen (Disc 3) (Mad Dog) (Sega CD 32X)": [
-			["Slam City with Scottie Pippen (Disc 3) (Mad Dog) (Mega-CD 32X)", 1]
-		],
-		"Slam City with Scottie Pippen (Disc 4) (Smash) (Sega CD 32X)": [
-			["Slam City with Scottie Pippen (Disc 4) (Smash) (Mega-CD 32X)", 1]
+		"Star Wars - Rebel Assault": [
+			["Star Wars - Rebel Assault (Limited Run Games)", 2]
 		],
 		"Supreme Warrior (Disc 1) (Fire & Earth)": [
-			["Supreme Warrior (Disc 1) (Fire & Earth) (Sega CD 32X)", -1],
-			["Supreme Warrior (Disc 1) (Mega-CD 32X)", -1],
+			["Supreme Warrior (Disc 1) (Fire & Earth) (Sega CD 32X)", 0],
+			["Supreme Warrior (Disc 1) (Mega-CD 32X)", 0],
 			["Supreme Warrior (Disc 1)", 1]
 		],
 		"Supreme Warrior (Disc 2) (Wind & Fang Tu)": [
-			["Supreme Warrior (Disc 2) (Wind & Fang Tu) (Sega CD 32X)", -1],
-			["Supreme Warrior (Disc 2) (Mega-CD 32X)", -1],
+			["Supreme Warrior (Disc 2) (Wind & Fang Tu) (Sega CD 32X)", 0],
+			["Supreme Warrior (Disc 2) (Mega-CD 32X)", 0],
 			["Supreme Warrior (Disc 2)", 1]
 		],
-		"Supreme Warrior (Disc 1) (Fire & Earth) (Sega CD 32X)": [
-			["Supreme Warrior (Disc 1) (Mega-CD 32X)", 1]
-		],
-		"Supreme Warrior (Disc 2) (Wind & Fang Tu) (Sega CD 32X)": [
-			["Supreme Warrior (Disc 2) (Mega-CD 32X)", 1]
-		],
 		"Surgical Strike": [
-			["Surgical Strike (Sega CD 32X)", -1]
+			["Surgical Strike (Sega CD 32X)", 0]
 		],
 		"Sonic CD": [
 			["Sonic The Hedgehog CD", 1]

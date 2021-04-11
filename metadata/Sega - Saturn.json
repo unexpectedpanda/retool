@@ -734,6 +734,12 @@
     "Clockwork Knight 2 - Pepperouchau's Adventure (USA)": {
         "languages": "En"
     },
+    "Clockwork Knight 2 - Pepperouchau's Adventure (USA) (Beta)": {
+        "languages": "En"
+    },
+    "Clockwork Knight Puzzle - Pengin War (Japan) (En,Ja) (Beta)": {
+        "languages": "En, Ja"
+    },
     "Code R (Japan)": {
         "languages": "Ja"
     },
@@ -1304,7 +1310,10 @@
     "Digital Monster Ver. S - Digimon Tamers (Japan)": {
         "languages": "Ja"
     },
-    "Digital Pinball (Europe)": {
+    "Digital Pinball (Europe) (4S)": {
+        "languages": "En"
+    },
+    "Digital Pinball (Europe) (7S)": {
         "languages": "En"
     },
     "Digital Pinball - Last Gladiators (Japan)": {
@@ -2283,6 +2292,9 @@
         "languages": "Ja"
     },
     "Habitat II (Japan)": {
+        "languages": "Ja"
+    },
+    "Hang On GP '95 (Japan) (1M)": {
         "languages": "Ja"
     },
     "Hang On GP '95 (Japan) (2M)": {
@@ -3347,6 +3359,9 @@
     "Metal Black (Japan) (1M)": {
         "languages": "En"
     },
+    "Metal Black (Japan) (3M)": {
+        "languages": "En"
+    },
     "Metal Fighter Miku (Japan)": {
         "languages": "Ja"
     },
@@ -4117,6 +4132,9 @@
     },
     "Primal Rage (USA)": {
         "languages": "En"
+    },
+    "Prime Selection Vol. 1 (Japan)": {
+        "languages": "Ja"
     },
     "Princess Crown (Japan) (1M)": {
         "languages": "Ja"
@@ -5543,7 +5561,10 @@
     "Steam-Heart's (Japan)": {
         "languages": "Ja"
     },
-    "Steamgear Mash (Japan)": {
+    "Steamgear Mash (Japan) (1M)": {
+        "languages": "Ja"
+    },
+    "Steamgear Mash (Japan) (2M)": {
         "languages": "Ja"
     },
     "Steep Slope Sliders (Europe)": {

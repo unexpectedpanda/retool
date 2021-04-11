@@ -3,12 +3,13 @@
         "name": [
 			"Bandai - WonderSwan Color"
 		],
-        "last updated": "5 July 2020"
+        "last updated": "9 April 2021",
+		"minimum version": "0.89"
     },
 
     "renames": {
-        "Digimon Tamers - Battle Spirit": [
-           ["Digimon Tamers - Battle Spirit Ver. 1.5", -1]
+        "Digimon Tamers - Battle Spirit Ver. 1.5": [
+           ["Digimon Tamers - Battle Spirit", 2]
         ]
     }
 }

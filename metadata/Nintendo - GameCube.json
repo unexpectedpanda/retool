@@ -1907,6 +1907,9 @@
     "Gekkan Nintendo Tentou Demo 2003.3.1 (Japan)": {
         "languages": ""
     },
+    "Gekkan Nintendo Tentou Demo 2003.4.1 (Japan)": {
+        "languages": "Ja"
+    },
     "Gekkan Nintendo Tentou Demo 2003.7.1 (Japan)": {
         "languages": "Ja"
     },
@@ -1950,6 +1953,9 @@
         "languages": ""
     },
     "Gekkan Nintendo Tentou Demo 2005.10.1 (Japan)": {
+        "languages": "Ja"
+    },
+    "Gekkan Nintendo Tentou Demo 2006.1.1 (Japan)": {
         "languages": "Ja"
     },
     "Gekkan Nintendo Tentou Demo 2006.4.1 (Japan)": {
@@ -3653,6 +3659,12 @@
     "Nickelodeon SpongeBob Schwammkopf - Film ab! (Germany)": {
         "languages": "De"
     },
+    "Nickelodeon SpongeBob SquarePants - Battle for Bikini Bottom (Europe)": {
+        "languages": "En"
+    },
+    "Nickelodeon SpongeBob SquarePants - Battle for Bikini Bottom (USA)": {
+        "languages": "En"
+    },
     "Nickelodeon SpongeBob SquarePants - Creature from the Krusty Krab (Europe)": {
         "languages": "En"
     },
@@ -3688,12 +3700,6 @@
     },
     "Nickelodeon SpongeBob SquarePants and Friends Unite! (Europe) (En,Fr,De,Nl)": {
         "languages": "Nl, En, Fr, De"
-    },
-    "Nickelodeon SpongeBob SquarePants in - Battle for Bikini Bottom (Europe)": {
-        "languages": "En"
-    },
-    "Nickelodeon SpongeBob SquarePants in - Battle for Bikini Bottom (USA)": {
-        "languages": "En"
     },
     "Nickelodeon Tak - The Great Juju Challenge (Europe) (En,De)": {
         "languages": "En, De"
@@ -5718,6 +5724,9 @@
         "languages": "Ja"
     },
     "Zoids vs. III (Japan)": {
+        "languages": "Ja"
+    },
+    "Zoids vs. III (Japan) (Rev 2)": {
         "languages": "Ja"
     },
     "ZooCube (Europe) (En,Fr,De,Es,It)": {

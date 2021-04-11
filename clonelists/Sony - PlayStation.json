@@ -3,100 +3,110 @@
         "name": [
 			"Sony - PlayStation"
 		],
-        "last updated": "24 January 2021"
+        "last updated": "9 April 2021",
+		"minimum version": "0.89"
     },
 
     "overrides": {
-		"Gallop Racer (Japan)": ["Gallop Racer (Japan)", false],
-		"King's Field II (Japan)": ["King's Field", false],
-		"King's Field (Japan)": ["King's Field (Japan)", false],
-		"Motor Toon Grand Prix (Japan)": ["Motor Toon Grand Prix (Japan)", false],
-		"Motor Toon Grand Prix (Japan) (Rev 1)": ["Motor Toon Grand Prix (Japan)", false],
-		"Strikers 1945 (Japan)": ["Strikers 1945 (Japan)", false]
-	},
-
-	"conditional_overrides": {
 		"Bishi Bashi Special 2 (Japan)": {
-			"new_group": "Bishi Bashi Special 2 (Japan)",
+			"new group": "Bishi Bashi Special 2 (Japan)",
 			"condition": {
 				"region": ["Japan"],
-				"higher_than": ["Europe"],
-				"else_group": "Bishi Bashi Special"
+				"higher than": ["Europe"],
+				"else group": "Bishi Bashi Special"
 			}
 		},
+		"Gallop Racer (Japan)": {
+			"new group": "Gallop Racer (Japan)"
+		},
+		"King's Field II (Japan)": {
+			"new group": "King's Field"
+		},
+		"King's Field (Japan)": {
+			"new group": "King's Field (Japan)"
+		},
+		"Motor Toon Grand Prix (Japan)": {
+			"new group": "Motor Toon Grand Prix (Japan)"
+		},
+		"Motor Toon Grand Prix (Japan) (Rev 1)": {
+			"new group": "Motor Toon Grand Prix (Japan)"
+		},
+		"Strikers 1945 (Japan)": {
+			"new group": "Strikers 1945 (Japan)"
+		},
 		"Tomb Raider III - Adventures of Lara Croft (Japan) (Disc 1) (Japanese Version)": {
-			"new_group": "Tomb Raider III - Adventures of Lara Croft (Disc 1) (Japanese Version)",
+			"new group": "Tomb Raider III - Adventures of Lara Croft (Disc 1) (Japanese Version)",
 			"condition": {
 				"region": ["Japan", "Asia"],
-				"higher_than": ["USA", "Europe", "Germany", "Italy", "Spain", "France"],
-				"else_group": "Tomb Raider III - Adventures of Lara Croft"
+				"higher than": ["USA", "Europe", "Germany", "Italy", "Spain", "France"],
+				"else group": "Tomb Raider III - Adventures of Lara Croft"
 			}
 		},
 		"Tomb Raider III - Adventures of Lara Croft (Japan) (Disc 2) (International Version)": {
-			"new_group": "Tomb Raider III - Adventures of Lara Croft (Disc 2) (International Version)",
+			"new group": "Tomb Raider III - Adventures of Lara Croft (Disc 2) (International Version)",
 			"condition": {
 				"region": ["Japan", "Asia"],
-				"higher_than": ["USA", "Europe", "Germany", "Italy", "Spain", "France"],
-				"else_group": "Tomb Raider III - Adventures of Lara Croft"
+				"higher than": ["USA", "Europe", "Germany", "Italy", "Spain", "France"],
+				"else group": "Tomb Raider III - Adventures of Lara Croft"
 			}
 		},
 		"Tomb Raider III - Adventures of Lara Croft (Asia) (Disc 1) (Japanese Version)": {
-			"new_group": "Tomb Raider III - Adventures of Lara Croft (Disc 1) (Japanese Version)",
+			"new group": "Tomb Raider III - Adventures of Lara Croft (Disc 1) (Japanese Version)",
 			"condition": {
 				"region": ["Japan", "Asia"],
-				"higher_than": ["USA", "Europe", "Germany", "Italy", "Spain", "France"],
-				"else_group": "Tomb Raider III - Adventures of Lara Croft"
+				"higher than": ["USA", "Europe", "Germany", "Italy", "Spain", "France"],
+				"else group": "Tomb Raider III - Adventures of Lara Croft"
 			}
 		},
 		"Tomb Raider III - Adventures of Lara Croft (Asia) (Disc 2) (International Version)": {
-			"new_group": "Tomb Raider III - Adventures of Lara Croft (Disc 2) (International Version)",
+			"new group": "Tomb Raider III - Adventures of Lara Croft (Disc 2) (International Version)",
 			"condition": {
 				"region": ["Japan", "Asia"],
-				"higher_than": ["USA", "Europe", "Germany", "Italy", "Spain", "France"],
-				"else_group": "Tomb Raider III - Adventures of Lara Croft"
+				"higher than": ["USA", "Europe", "Germany", "Italy", "Spain", "France"],
+				"else group": "Tomb Raider III - Adventures of Lara Croft"
 			}
 		},
 		"Tomb Raider III - Adventures of Lara Croft (Europe)": {
-			"new_group": "Tomb Raider III - Adventures of Lara Croft (Disc 2) (International Version)",
+			"new group": "Tomb Raider III - Adventures of Lara Croft (Disc 2) (International Version)",
 			"condition": {
 				"region": ["Japan", "Asia"],
-				"higher_than": ["USA", "Europe", "Germany", "Italy", "Spain", "France"]
+				"higher than": ["USA", "Europe", "Germany", "Italy", "Spain", "France"]
 			}
 		},
 		"Tomb Raider III - Adventures of Lara Croft (Germany)": {
-			"new_group": "Tomb Raider III - Adventures of Lara Croft (Disc 2) (International Version)",
+			"new group": "Tomb Raider III - Adventures of Lara Croft (Disc 2) (International Version)",
 			"condition": {
 				"region": ["Japan", "Asia"],
-				"higher_than": ["USA", "Europe", "Germany", "Italy", "Spain", "France"]
+				"higher than": ["USA", "Europe", "Germany", "Italy", "Spain", "France"]
 			}
 		},
 		"Tomb Raider III - Adventures of Lara Croft (Italy)": {
-			"new_group": "Tomb Raider III - Adventures of Lara Croft (Disc 2) (International Version)",
+			"new group": "Tomb Raider III - Adventures of Lara Croft (Disc 2) (International Version)",
 			"condition": {
 				"region": ["Japan", "Asia"],
-				"higher_than": ["USA", "Europe", "Germany", "Italy", "Spain", "France"]
+				"higher than": ["USA", "Europe", "Germany", "Italy", "Spain", "France"]
 			}
 		},
 		"Tomb Raider III - Adventures of Lara Croft (Spain)": {
-			"new_group": "Tomb Raider III - Adventures of Lara Croft (Disc 2) (International Version)",
+			"new group": "Tomb Raider III - Adventures of Lara Croft (Disc 2) (International Version)",
 			"condition": {
 				"region": ["Japan", "Asia"],
-				"higher_than": ["USA", "Europe", "Germany", "Italy", "Spain", "France"]
+				"higher than": ["USA", "Europe", "Germany", "Italy", "Spain", "France"]
 			}
 		},
 		"Tomb Raider III - Adventures of Lara Croft (USA)": {
-			"new_group": "Tomb Raider III - Adventures of Lara Croft (Disc 2) (International Version)",
+			"new group": "Tomb Raider III - Adventures of Lara Croft (Disc 2) (International Version)",
 			"condition": {
 				"region": ["Japan", "Asia"],
-				"higher_than": ["USA", "Europe", "Germany", "Italy", "Spain", "France"]
+				"higher than": ["USA", "Europe", "Germany", "Italy", "Spain", "France"]
 			}
 		},
 		"Tomb Raider III - Les Aventures de Lara Croft (France)": {
-			"new_group": "Tomb Raider III - Adventures of Lara Croft (Disc 2) (International Version)",
+			"new group": "Tomb Raider III - Adventures of Lara Croft (Disc 2) (International Version)",
 			"condition": {
 				"region": ["Japan", "Asia"],
-				"higher_than": ["USA", "Europe", "Germany", "Italy", "Spain", "France"],
-				"else_group": "Tomb Raider III - Adventures of Lara Croft"
+				"higher than": ["USA", "Europe", "Germany", "Italy", "Spain", "France"],
+				"else group": "Tomb Raider III - Adventures of Lara Croft"
 			}
 		}
 	},
@@ -288,7 +298,8 @@
 			["Other Life Azure Dreams", 1]
 		],
 		"Backyard Soccer": [
-			["Junior Sports Football", 1]
+			["Junior Sports Football", 1],
+			["Junior Sports Fussball", 1]
 		],
 		"Baldies": [
 			["Baldy Land", 1]
@@ -355,7 +366,7 @@
 			["Fisherman's Bait 3", 1]
 		],
 		"Blast Chamber": [
-			["Kyuu Bakukku", 1]
+			["Kyuu-bakku", 1]
 		],
 		"Blaze & Blade - Eternal Quest": [
 			["Legend of Foresia - La Contree Interdite", 1]
@@ -385,7 +396,7 @@
 			["Byggmester Bob - Kan Det Fikses", 1],
 			["Puuha Pete - Korjataanko", 1]
 		],
-		"Bogey - Dead 6": [
+		"Bogey Dead 6": [
 			["Raging Skies", 1]
 		],
 		"Bomberman - Party Edition": [
@@ -507,7 +518,7 @@
 			["Verrat in der Verbotenen Stadt", 1]
 		],
 		"Chocobo's Dungeon 2": [
-			["Chocobo no Fushigi na Dungeon 2 (Disc 1)", 1]
+			["Chocobo no Fushigi na Dungeon 2", 1]
 		],
 		"Chocobo Racing": [
 			["Chocobo Racing - Genkai e no Road", 1]
@@ -614,7 +625,7 @@
 			["Crash Bandicoot Racing", 1]
 		],
 		"Culdcept - Expansion": [
-			["Culdcept - Expansion Plus", -1]
+			["Culdcept - Expansion Plus", 0]
 		],
 		"D (Disc 1)": [
 			["D no Shokutaku - Complete Graphics (Disc 1)", 1]
@@ -643,7 +654,7 @@
 			["Vampire Savior - EX Edition", 1]
 		],
 		"Dave Mirra Freestyle BMX": [
-			["Dave Mirra Freestyle BMX - Maximum Remix", -1]
+			["Dave Mirra Freestyle BMX - Maximum Remix", 0]
 		],
 		"DBZ - Dead Ball Zone": [
 			["CBZ - CyBall Zone", 1]
@@ -672,7 +683,8 @@
 		"Die Hard Trilogy 2 - Viva Las Vegas": [
 			["Jungla de Cristal Trilogia 2 - Viva Las Vegas", 1]
 		],
-		"Digimon Digital Card Battle": [
+		"Digimon - Digital Card Battle": [
+			["Digimon Digital Card Battle", 1],
 			["DigimonWorld - Digital Card Battle", 1]
 		],
 		"Digimon Rumble Arena": [
@@ -712,14 +724,14 @@
 			["Disney-Pixar Een Luizenleven", 1]
 		],
 		"Disney-Pixar Buzz Lightyear of Star Command": [
-			["Disney-Pixar Buzz Lightyear da Commando Stellare", 1],
+			["Disney-Pixar Buzz Lightyear da Comando Stellare", 1],
 			["Disney-Pixar Captain Buzz Lightyear - Star Command", 1],
 			["Disney-Pixar Les Aventures de Buzz L'Eclair", 1],
 			["Disney-Pixar's Buzz Lightyear - Guardianes del Espacio", 1]
 		],
 		"Disney-Pixar Monsters, Inc. - Scream Team": [
 			["Disney-Pixar Die Monster AG - Schreckens-Insel", 1],
-			["Disney-Pixar Monster & Co. - L'Isola dello Spavento", 1],
+			["Disney-Pixar Monsters & Co. - L'Isola dello Spavento", 1],
 			["Disney-Pixar Monsterbedriften - Skrekkoya", 1],
 			["Disney-Pixar Monsterit Oy - Saeikkysaari", 1],
 			["Disney-Pixar Monsters en Co. - Schrik Eiland", 1],
@@ -1025,6 +1037,9 @@
 			["Bundesliga Stars 2001", 1],
 			["LNF Stars 2001", 1]
 		],
+		"F1 World Grand Prix": [
+			["F1 World Grand Prix - Saison 2000", 1]
+		],
 		"Fade to Black": [
 			["Fade to Black (SLES-00339)", 1]
 		],
@@ -1100,12 +1115,12 @@
 			["Final Fantasy VI", 1]
 		],
 		"Final Fantasy (Premium Package)": [
-			["Final Fantasy Origins", -1],
+			["Final Fantasy Origins", 0],
 			["Final Fantasy Origins - Final Fantasy", 1],
 			["Final Fantasy", 2]
 		],
 		"Final Fantasy II (Premium Package)": [
-			["Final Fantasy Origins", -1],
+			["Final Fantasy Origins", 0],
 			["Final Fantasy Origins - Final Fantasy II", 1],
 			["Final Fantasy II", 2]
 		],
@@ -1126,7 +1141,7 @@
 			["Fisherman's Bait - Bass Challenge", 1]
 		],
 		"Fishing Freaks - BassRise (Doukon Pack)": [
-			["Fishing Freaks - BassRise Plus", -1]
+			["Fishing Freaks - BassRise Plus", 0]
 		],
 		"Flintstones, The - Bedrock Bowling": [
 			["Flintstones, Die - Bedrock Bowling", 1],
@@ -1150,7 +1165,7 @@
 			["Actua Golf 2", 1]
 		],
 		"FoxKids.com - Micro Maniacs Racing": [
-			["Denkousekka Micro Runner - Maniac Hakase no Hisaku", 1],
+			["Denkou Sekka Micro Runner - Maniac Hakase no Hisaku", 1],
 			["Micro Maniacs", 1]
 		],
 		"Formula Nippon": [
@@ -1267,7 +1282,7 @@
 			["Bokujou Monogatari - Harvest Moon", 1]
 		],
 		"Hatsukoi Valentine": [
-			["Hatsukoi Valentine Special", -1]
+			["Hatsukoi Valentine Special", 0]
 		],
 		"Hebereke's Popoitto": [
 			["Hebereke Station Popoitto", 1]
@@ -1348,16 +1363,13 @@
 			["Invasion Vient de l'Espace, L'", 1]
 		],
 		"Irritating Stick": [
-			["Utchan Nanchan no Honoo no Challenger - Denryuu Ira Ira Bou Returns", 1]
+			["Utchan Nanchan no Honoo no Challenger - Denryuu Iraira-bou Returns", 1]
 		],
 		"ISS Pro Evolution": [
 			["World Soccer Jikkyou Winning Eleven 4", 1]
 		],
 		"ISS Pro Evolution 2": [
 			["World Soccer Jikkyou Winning Eleven 2000 - U-23 Medal e no Chousen", 1]
-		],
-		"Jackie Chan Stuntmaster (Recalled)": [
-			["Jackie Chan Stuntmaster (Recalled)", 2]
 		],
 		"Jade Cocoon - Story of the Tamamayu": [
 			["Jade Cocoon - Die Tamamayu Legende", 1],
@@ -1380,7 +1392,7 @@
 			["Jet Rider", 1]
 		],
 		"Jet Moto 2": [
-			["Jet Moto 2 - Championship Edition", -1],
+			["Jet Moto 2 - Championship Edition", 0],
 			["Jet Moto '98", 1],
 			["Jet Rider 2", 1]
 		],
@@ -1503,7 +1515,7 @@
 			["Lethal Enforcers Deluxe Pack", 1]
 		],
 		"Liberogrande International": [
-			["Libero Grande 2", 1]
+			["LiberoGrande 2", 1]
 		],
 		"LMA Manager": [
 			["Manager de Liga", 1]
@@ -1511,7 +1523,8 @@
 		"LMA Manager 2001": [
 			["BDFL Manager 2001", 1],
 			["Football Manager Campionato 2001", 1],
-			["Manager de Liga 2001", 1]
+			["Manager de Liga 2001", 1],
+			["Roger Lemerre - La Selection des Champions", 1]
 		],
 		"LMA Manager 2002": [
 			["BDFL Manager 2002", 1],
@@ -1526,7 +1539,7 @@
 			["Sheep, Dog 'n' Wolf", 1]
 		],
 		"Lost World, The - Jurassic Park": [
-			["Lost World, The - Jurassic Park - Special Edition", -1]
+			["Lost World, The - Jurassic Park - Special Edition", 0]
 		],
 		"Louvre - The Final Curse (Disc 1)": [
 			["Louvre - A Maldicao (Disc 1)", 1],
@@ -1587,7 +1600,7 @@
 			["Swing", 1]
 		],
 		"Marie no Atelier - Salburg no Renkinjutsushi": [
-			["Marie no Atelier Plus - Salburg no Renkinjutsushi", -1]
+			["Marie no Atelier Plus - Salburg no Renkinjutsushi", 0]
 		],
 		"Martialbeat 2 (Disc 1) (Disc B) (Controller Doukon Set)": [
 			["Martialbeat 2 (Disc 1) (Disc B)", 2]
@@ -1746,10 +1759,10 @@
 			["Smash Court", 1]
 		],
 		"NASCAR 98": [
-			["NASCAR 98 Collector's Edition", -1]
+			["NASCAR 98 Collector's Edition", 0]
 		],
 		"NASCAR 99": [
-			["NASCAR 99 Legacy", -1]
+			["NASCAR 99 Legacy", 0]
 		],
 		"NASCAR Racing": [
 			["NASCAR Racing - Season 96", 1]
@@ -1850,19 +1863,19 @@
 			["No Fear Downhill Mountain Biking", 1]
 		],
 		"No One Can Stop Mr. Domino": [
-			["Domino-kun o Tomenaide", 1]
+			["Domino-kun o Tomenai de.", 1]
 		],
 		"Noddy's Magic Adventure": [
 			["Noddy - Una Aventura Magica", 1]
 		],
 		"NOeL - La Neige (Disc 1)": [
-			["NOeL - La Neige (Disc 1) (Special Edition)", -1]
+			["NOeL - La Neige (Disc 1) (Special Edition)", 0]
 		],
 		"NOeL - La Neige (Disc 2)": [
-			["NOeL - La Neige (Disc 2) (Special Edition)", -1]
+			["NOeL - La Neige (Disc 2) (Special Edition)", 0]
 		],
 		"NOeL - La Neige (Disc 3)": [
-			["NOeL - La Neige (Disc 3) (Special Edition)", -1]
+			["NOeL - La Neige (Disc 3) (Special Edition)", 0]
 		],
 		"Norse by Norsewest - The Return of the Lost Vikings": [
 			["Lost Vikings 2 - Norse by Norsewest", 1]
@@ -2031,7 +2044,8 @@
 			["Poitter's Point 2 - Sodom no Inbou", 1]
 		],
 		"Premier Manager Ninety Nine": [
-			["Premier Manager Novanta Nove", 1]
+			["Premier Manager Novanta Nove", 1],
+			["Telefoot Manager", 1]
 		],
 		"Premier Manager 2000": [
 			["Anstoss - Premier Manager", 1],
@@ -2061,9 +2075,6 @@
 		"Putter Golf": [
 			["Simple 1500 Series Vol. 69 - The Putter Golf", 1]
 		],
-		"Puzzle Star Sweep": [
-			["StarSweep", 1]
-		],
 		"Qix Neo": [
 			["Simple 1500 Series Vol. 80 - The Jintori", 1]
 		],
@@ -2086,6 +2097,9 @@
 		],
 		"RayCrisis - Series Termination": [
 			["RayCrisis", 1]
+		],
+		"Rayman Brain Games": [
+			["Rayman Junior - Level 1", 1]
 		],
 		"Razor Freestyle Scooter": [
 			["Freestyle Scooter", 1]
@@ -2118,13 +2132,13 @@
 			["Rescue Shot Bubibo", 1]
 		],
 		"Resident Evil": [
-			["Bio Hazard - Director's Cut - Dual Shock Ver.", -1],
-			["Resident Evil - Director's Cut - Dual Shock Ver.", -1],
+			["Bio Hazard - Director's Cut - Dual Shock Ver.", 0],
+			["Resident Evil - Director's Cut - Dual Shock Ver.", 0],
 			["Bio Hazard", 1]
 		],
 		"Resident Evil - Director's Cut": [
-			["Bio Hazard - Director's Cut - Dual Shock Ver.", -1],
-			["Resident Evil - Director's Cut - Dual Shock Ver.", -1],
+			["Bio Hazard - Director's Cut - Dual Shock Ver.", 0],
+			["Resident Evil - Director's Cut - Dual Shock Ver.", 0],
 			["Bio Hazard - Director's Cut", 1]
 		],
 		"Resident Evil - Director's Cut - Dual Shock Ver.": [
@@ -2134,13 +2148,13 @@
 			["Biohazard - Gun Survivor", 1]
 		],
 		"Resident Evil 2 (Disc 1)": [
-			["Biohazard 2 - Dual Shock Ver. (Disc 1) (Leon-hen)", -1],
-			["Resident Evil 2 - Dual Shock Ver. (Disc 1)", -1],
+			["Biohazard 2 - Dual Shock Ver. (Disc 1) (Leon-hen)", 0],
+			["Resident Evil 2 - Dual Shock Ver. (Disc 1)", 0],
 			["Biohazard 2 (Disc 1) (Leon-hen)", 1]
 		],
 		"Resident Evil 2 (Disc 2)": [
-			["Biohazard 2 - Dual Shock Ver. (Disc 2) (Claire-hen)", -1],
-			["Resident Evil 2 - Dual Shock Ver. (Disc 2)", -1],
+			["Biohazard 2 - Dual Shock Ver. (Disc 2) (Claire-hen)", 0],
+			["Resident Evil 2 - Dual Shock Ver. (Disc 2)", 0],
 			["Biohazard 2 (Disc 2) (Claire-hen)", 1]
 		],
 		"Resident Evil 2 - Dual Shock Ver. (Disc 1)": [
@@ -2226,18 +2240,8 @@
 		"SD Gundam - GGeneration (Premium Disc)": [
 			["SD Gundam - GGeneration", 2]
 		],
-		"SD Gundam - GGeneration-F (Disc 1) (Tokubetsu-ban)": [
-			["SD Gundam - GGeneration-F (Disc 1)", 2]
-		],
-		"SD Gundam - GGeneration-F (Disc 2) (Tokubetsu-ban)": [
-			["SD Gundam - GGeneration-F (Disc 2)", 2]
-		],
-		"SD Gundam - GGeneration-F (Disc 3) (Tokubetsu-ban)": [
-			["SD Gundam - GGeneration-F (Disc 3)", 2]
-		],
-		"SD Gundam - GGeneration-F (Disc 4) (Premium Disc) (Tokubetsu-ban)": [
-			["SD Gundam - GGeneration-F (Disc 4) (Premium Disc) (Limited Edition)", 2],
-			["SD Gundam - GGeneration-F (Disc 4) (Premium Disc)", 3]
+		"SD Gundam - GGeneration-F (Disc 4) (Premium Disc)": [
+			["SD Gundam - GGeneration-F (Disc 4) (Premium Disc) (Limited Edition)", 2]
 		],
 		"Sentient": [
 			["Sentient - Explore the Infinite", 1]
@@ -2340,6 +2344,9 @@
 		],
 		"Star Fighter": [
 			["StarFighter 3000", 1]
+		],
+		"Star Sweep": [
+			["StarSweep", 1]
 		],
 		"Star Wars - Episode I - Jedi Power Battles": [
 			["Star Wars - Episodio I - Jedi Power Battles", 1]
@@ -2617,6 +2624,7 @@
 		],
 		"Tomba!": [
 			["Ore! Tomba", 1],
+			["Tombi", 1],
 			["Tombi!", 1]
 		],
 		"Tomba! 2 - The Evil Swine Return": [
@@ -2821,7 +2829,7 @@
 		"World Cup 98": [
 			["Copa del Mundo - Francia '98", 1],
 			["Coupe du Monde 98", 1],
-			["FIFA World Cup 98 - France 98 Soushuuhen", 1],
+			["FIFA World Cup 98 - France 98 Soushuu-hen", 1],
 			["Frankreich 98 - Die Fussball-WM", 1],
 			["World Cup 98 - Coppa del Mondo", 1]
 		],

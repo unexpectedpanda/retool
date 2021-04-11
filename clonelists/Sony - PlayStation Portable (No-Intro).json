@@ -3,20 +3,36 @@
 		"name": [
 			"Sony - PlayStation Portable (No-Intro)"
 		],
-		"last updated": "24 January 2021"
+		"last updated": "11 April 2021",
+		"minimum version": "0.89"
 	},
 
 	"overrides": {
-		"TalkMan (Europe) (En,Ja,Fr,De,Es,It) (v1.01)": ["TalkMan EURO - TalkMan Europa Gengo Ban", true],
-		"TalkMan EURO - TalkMan Europa Gengo Ban (Japan) (En,Ja,Fr,De,Es,It) (v1.03) (Microphone Doukonban)": ["TalkMan EURO - TalkMan Europa Gengo Ban", true],
-		"TalkMan EURO - TalkMan Europa Gengo Ban (Asia) (En,Fr,De,Es,It,Ko) (v1.03) (Microphone Doukonban)": ["TalkMan EURO - TalkMan Europa Gengo Ban", true],
-		"TalkMan EURO - TalkMan Europa Gengo Ban (Japan) (En,Ja,Fr,De,Es,It) (v1.03) (Software Tantaiban)": ["TalkMan EURO - TalkMan Europa Gengo Ban", true],
-		"TalkMan Euro (Asia) (En,Fr,De,Es,It,Zh) (v1.03) (Software Doukonban)":  ["TalkMan EURO - TalkMan Europa Gengo Ban", true]
+		"TalkMan (Europe) (En,Ja,Fr,De,Es,It) (v1.01)": {
+			"new group": "TalkMan EURO - TalkMan Europa Gengo Ban",
+			"match": "full"
+		},
+		"TalkMan EURO - TalkMan Europa Gengo Ban (Japan) (En,Ja,Fr,De,Es,It) (v1.03) (Microphone Doukonban)": {
+			"new group": "TalkMan EURO - TalkMan Europa Gengo Ban",
+			"match": "full"
+		},
+		"TalkMan EURO - TalkMan Europa Gengo Ban (Asia) (En,Fr,De,Es,It,Ko) (v1.03) (Microphone Doukonban)": {
+			"new group": "TalkMan EURO - TalkMan Europa Gengo Ban",
+			"match": "full"
+		},
+		"TalkMan EURO - TalkMan Europa Gengo Ban (Japan) (En,Ja,Fr,De,Es,It) (v1.03) (Software Tantaiban)": {
+			"new group": "TalkMan EURO - TalkMan Europa Gengo Ban",
+			"match": "full"
+		},
+		"TalkMan Euro (Asia) (En,Fr,De,Es,It,Zh) (v1.03) (Software Doukonban)": {
+			"new group": "TalkMan EURO - TalkMan Europa Gengo Ban",
+			"match": "full"
+		}
 	},
 
-	"compilations": [
-		"2 Games in 1! Archer Maclean's Mercury & Mercury Meltdown (USA) (En,Fr,Es)"
-	],
+	"removes": {
+		"2 Games in 1! - Archer Maclean's Mercury & Mercury Meltdown (USA) (En,Fr,Es)": {}
+	},
 
 	"renames": {
 		"007 - From Russia with Love": [
@@ -54,7 +70,7 @@
 			["Hg Hydrium", 1]
 		],
 		"Armored Core - Formula Front - Extreme Battle": [
-			["Armored Core - Formula Front International", -1],
+			["Armored Core - Formula Front International", 0],
 			["Armored Core - Formula Front", 1]
 		],
 		"Astro Boy - The Video Game": [
@@ -335,10 +351,10 @@
 			["Kazuo", 1]
 		],
 		"God Eater": [
-			["God Eater Burst (Append Edition)", -1]
+			["God Eater Burst (Append Edition)", 0]
 		],
 		"Gods Eater Burst": [
-			["God Eater Burst (Append Edition)", -1],
+			["God Eater Burst (Append Edition)", 0],
 			["God Eater Burst", 1]
 		],
 		"God of War - Chains of Olympus - Special Edition - Battle of Attica (Demo)": [
@@ -441,6 +457,9 @@
 			["Innocent Life - Sin Mokjang Iyagi", 1],
 			["Innocent Life - Shin Bokujou Monogatari (Best Collection)", 2]
 		],
+		"Invizimals - Shadow Zone": [
+			["Invizimals - Sti Zoni tis Skias", 1]
+		],
 		"Jak and Daxter - The Lost Frontier": [
 			["Jak and Daxter - Elf to Itachi no Daibouken", 1],
 			["Jak and Daxter - The Lost Frontier (UCES-01378)", 1]
@@ -537,8 +556,8 @@
 			["Monster Hunter Portable", 1]
 		],
 		"Monster Hunter Freedom 2": [
-			["Monster Hunter Freedom Unite", -1],
-			["Monster Hunter Portable 2nd G", -1],
+			["Monster Hunter Freedom Unite", 0],
+			["Monster Hunter Portable 2nd G", 0],
 			["Monster Hunter Portable 2nd", 1]
 		],
 		"Monster Hunter Freedom Unite": [
@@ -549,9 +568,6 @@
 		],
 		"MX vs. ATV Untamed": [
 			["MX vs. ATV Extreme Limite", 1]
-		],
-		"Naruto Shippuden - Kizuna Drive": [
-			["Naruto Shippuden - Kizuna Drive", 1]
 		],
 		"Naruto Shippuden - Ultimate Ninja Heroes 3": [
 			["Naruto Shippuden - Narutimate Accel 3", 1]
@@ -588,7 +604,7 @@
 			["Imagine - Champion Rider", 1]
 		],
 		"Phantasy Star Portable 2": [
-			["Phantasy Star Portable 2 Infinity" , -1]
+			["Phantasy Star Portable 2 Infinity", 0]
 		],
 		"Phantom Brave - The Hermuda Triangle": [
 			["Phantom Brave Portable", 1]
@@ -821,7 +837,7 @@
 			["TalkMan Shiki - Shabe Lingual Eikaiwa", 1]
 		],
 		"Tenchu - Shadow Assassins": [
-			["Tenchu 4 Plus", -1],
+			["Tenchu 4 Plus", 0],
 			["Tenchu 4", 1]
 		],
 		"Tenchu - Time of the Assassins": [
@@ -853,7 +869,7 @@
 			["Koloomn", 1]
 		],
 		"Ultimate Ghosts 'n Goblins": [
-			["Goku Makaimura Kai", -1],
+			["Goku Makaimura Kai", 0],
 			["Goku Makaimura", 1]
 		],
 		"Untold Legends - Brotherhood of the Blade": [

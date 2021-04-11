@@ -3,7 +3,8 @@
 		"name": [
 			"Sega - Game Gear"
 		],
-		"last updated": "24 July 2020"
+		"last updated": "9 April 2021",
+		"minimum version": "0.89"
 	},
 
 	"renames": {
@@ -129,9 +130,6 @@
         ],
         "World Series Baseball '95": [
             ["Nomo Hideo no World Series Baseball", 1]
-        ],
-        "X-Men - Gamemaster's Legacy": [
-            ["X-Men - GameMaster's Legacy", 1]
         ],
         "Zool - Ninja of the 'Nth' Dimension": [
             ["Zool no Yume Bouken", 1]

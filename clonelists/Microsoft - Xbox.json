@@ -3,14 +3,14 @@
 		"name": [
 			"Microsoft - Xbox"
 		],
-		"last updated": "11 January 2021"
+		"last updated": "9 April 2021",
+		"minimum version": "0.89"
 	},
 
-	"compilations": [
-		"Sega GT 2002 + JSRF - Jet Set Radio Future (USA) (En,Ja)",
-		"Sega GT 2002 + JSRF - Jet Set Radio Future (Europe) (En,Fr,De,Es,It)",
-		"Star Wars - The Clone Wars + Tetris Worlds (USA)"
-	],
+	"removes": {
+		"Sega GT 2002 + JSRF - Jet Set Radio Future (USA) (En,Ja)": {},
+		"Star Wars - The Clone Wars + Tetris Worlds (USA)": {}
+	},
 
 	"renames": {
 		"AirForce Delta Storm": [
@@ -42,7 +42,7 @@
 			["Ricky Ponting International Cricket 2005", 1]
 		],
 		"Call of Duty 2 - Big Red One": [
-			["Call of Duty 2 - Big Red One (Collector's Edition)", -1]
+			["Call of Duty 2 - Big Red One (Collector's Edition)", 0]
 		],
 		"Capcom vs. SNK 2 EO": [
 			["Capcom vs. SNK 2 EO - Mark of the Millennium 2001", 1]
@@ -100,7 +100,7 @@
 			["Disneys Himmel und Huhn", 1]
 		],
 		"Doom 3": [
-			["Doom 3 (Limited Collector's Edition)", -1]
+			["Doom 3 (Limited Collector's Edition)", 0]
 		],
 		"Dr. Seuss' The Cat in the Hat": [
 			["Cat in the Hat, The", 1]
@@ -119,14 +119,14 @@
 			["Eggo Mania", 1]
 		],
 		"Elder Scrolls III, The - Morrowind": [
-			["Elder Scrolls III, The - Morrowind - Game of the Year Edition", -1]
+			["Elder Scrolls III, The - Morrowind - Game of the Year Edition", 0]
 		],
 		"ESPN International Winter Sports 2002": [
 			["ESPN International Winter Sports", 1],
 			["Hyper Sports 2002 Winter", 1]
 		],
 		"Fable": [
-			["Fable - The Lost Chapters", -1]
+			["Fable - The Lost Chapters", 0]
 		],
 		"Indigo Prophecy": [
 			["Fahrenheit", 0]
@@ -233,10 +233,10 @@
 			["Signore degli Anelli, Il - La Terza Era", 1]
 		],
 		"Major League Baseball 2K5": [
-			["Major League Baseball 2K5 - World Series Edition", -1]
+			["Major League Baseball 2K5 - World Series Edition", 0]
 		],
 		"Mashed - Drive to Survive": [
-			["Mashed - Fully Loaded", -1]
+			["Mashed - Fully Loaded", 0]
 		],
 		"Medal of Honor - Frontline": [
 			["Medal of Honor - En Premiere Ligne", 1]
@@ -245,7 +245,7 @@
 			["Medal of Honor - Soleil Levant", 1]
 		],
 		"Midnight Club 3 - DUB Edition": [
-			["Midnight Club 3 - DUB Edition Remix", -1]
+			["Midnight Club 3 - DUB Edition Remix", 0]
 		],
 		"Minority Report - Everybody Runs": [
 			["Minority Report - Le Futur vous Rattrape", 1]
@@ -260,7 +260,7 @@
 			["Murakumo", 1]
 		],
 		"Need for Speed - Most Wanted": [
-			["Need for Speed - Most Wanted - Black Edition", -1]
+			["Need for Speed - Most Wanted - Black Edition", 0]
 		],
 		"Nickelodeon SpongeBob SquarePants - The Movie": [
 			["Nickelodeon SpongeBob Schwammkopf - Der Film", 1]
@@ -269,7 +269,7 @@
 			["Nickelodeon Tak - Die grosse Juju-Jagd", 1]
 		],
 		"Ninja Gaiden": [
-			["Ninja Gaiden Black", -1]
+			["Ninja Gaiden Black", 0]
 		],
 		"Oddworld - Stranger's Wrath": [
 			["Oddworld - La Fureur de l'Etranger", 1],

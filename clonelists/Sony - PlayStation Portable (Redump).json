@@ -3,12 +3,15 @@
 		"name": [
 			"Sony - PlayStation Portable (Redump)"
 		],
-		"last updated": "21 January 2021"
+		"last updated": "10 April 2021",
+		"minimum version": "0.89"
 	},
 
-	"compilations": [
-		"2 Games in 1! Archer Maclean's Mercury & Mercury Meltdown (USA) (En,Fr,Es)"
-	],
+	"removes": {
+		"2 Games in 1! Archer Maclean's Mercury & Mercury Meltdown": {
+			"match": "short"
+		}
+	},
 
 	"renames": {
 		"Ape Escape - On the Loose": [
@@ -28,7 +31,7 @@
 			["Hg Hydrium", 1]
 		],
 		"Armored Core - Formula Front Extreme Battle": [
-			["Armored Core - Formula Front International", -1],
+			["Armored Core - Formula Front International", 0],
 			["Armored Core - Formula Front", 1]
 		],
 		"Artlist Collection - The Dog Happy Life - Shiawase Wanko Seikatsu Dai-1-dan": [
@@ -46,6 +49,7 @@
 		"Buzz! Brain of Oz": [
 			["Buzz! Brain of the UK", 1],
 			["Buzz! Danske Genier", 1],
+			["Buzz! Das grosse Laenderquiz", 1],
 			["Buzz! De Slimste van Nederland", 1],
 			["Buzz! De Strafste van Belgie", 1],
 			["Buzz! Deutschlands Superquiz", 1],
@@ -54,6 +58,9 @@
 			["Buzz! Que Sabes de tu Pais", 1],
 			["Buzz! Quem e o Genio Portugues ~ Buzz! Sokrovishha nacii", 1],
 			["Buzz! Svenska Genier ~ Buzz! Suomen Neropatti", 1]
+		],
+		"Buzz! Quiz World": [
+			["Buzz! Concurso Universal", 1]
 		],
 		"Capcom Classics Collection Reloaded": [
 			["Capcom Classics Collection", 1]
@@ -71,6 +78,9 @@
 		],
 		"Championship Manager 2006": [
 			["Scudetto 2006 - Championship Manager", 1]
+		],
+		"Crimson Gem Saga": [
+			["Astonishia Story 2", 1]
 		],
 		"Cube": [
 			["Simple 2500 Series Portable!! Vol. 10 - The IQ Cube", 1]
@@ -96,7 +106,8 @@
 		"DiRT 2": [
 			["Colin McRae - DiRT 2", 1]
 		],
-		"Disgaea Portable": [
+		"Disgaea - Afternoon of Darkness": [
+			["Disgaea Portable", 1],
 			["Makai Senki Disgaea Portable - Tsuushin Taisen Hajimemashita.", 1]
 		],
 		"Disney-Pixar Up": [
@@ -112,8 +123,14 @@
 		"Dissidia Final Fantasy": [
 			["Dissidia Final Fantasy - Universal Tuning", 0]
 		],
+		"DJ Max Portable - Black Square": [
+			["DJ Max Emotional Sense P - Black Square", 1]
+		],
 		"Dragon Ball Z - Shin Budokai - Another Road": [
 			["Dragon Ball Z - Shin Budokai 2", 1]
+		],
+		"Dragoneer's Aria": [
+			["Dragoneer's Aria - Ryu ga Nemuru Made", 1]
 		],
 		"DreamWorks Over the Hedge - Hammy Goes Nuts!": [
 			["DreamWorks Vecinos Invasores - Hammy Enloquece", 1]
@@ -144,6 +161,10 @@
 		"Everybody's Stress Buster": [
 			["Minna no Sukkiri", 1]
 		],
+		"FIFA 14": [
+			["FIFA 14 - Edicion Legado", 1],
+			["FIFA 14 - Legacy Edition", 1]
+		],
 		"FIFA Soccer 06": [
 			["FIFA 06", 1]
 		],
@@ -170,7 +191,8 @@
 		],
 		"FIFA World Cup Germany 2006": [
 			["FIFA Fussball-Weltmeisterschaft Deutschland 2006", 1],
-			["FIFA World Cup Deutsch Taikai 2006", 1]
+			["FIFA World Cup Deutsch Taikai 2006", 1],
+			["Mondiali FIFA 2006", 1]
 		],
 		"Final Fantasy - 20th Anniversary Edition (FW6.00)": [
 			["Final Fantasy", 1],
@@ -189,6 +211,12 @@
 		"Ford Bold Moves Street Racing": [
 			["Ford Street Racing - L.A. Duel", 1]
 		],
+		"Ford Racing - Off Road": [
+			["Off Road", 1]
+		],
+		"Formula One 06": [
+			["F1 06 Portable", 1]
+		],
 		"Generation of Chaos": [
 			["Sincheon Magye - GOC IV - Another Side", 1]
 		],
@@ -196,7 +224,7 @@
 			["Kazuo", 1]
 		],
 		"God Eater": [
-			["God Eater Burst", -1]
+			["God Eater Burst", 0]
 		],
 		"God of War - Ghost of Sparta": [
 			["God of War - Koutan no Kokuin", 1]
@@ -229,8 +257,14 @@
 		"Hammerin' Hero": [
 			["Gensan", 1]
 		],
+		"Hannspree Ten Kate Honda - SBK Superbike World Championship": [
+			["SBK-07 - Superbike World Championship", 1]
+		],
 		"Harry Potter and the Goblet of Fire": [
 			["Harry Potter et la Coupe de Feu", 1]
+		],
+		"Harvest Moon - Boy & Girl": [
+			["Bokujou Monogatari - Harvest Moon - Boy & Girl", 1]
 		],
 		"Hot Shots Golf - Open Tee": [
 			["Everybody's Golf", 1],
@@ -263,13 +297,26 @@
 		"Kingdom Hearts - Birth by Sleep": [
 			["Kingdom Hearts - Birth by Sleep - Final Mix", 1]
 		],
+		"Kingdom of Paradise": [
+			["Key of Heaven", 1],
+			["Tenchi no Mon", 1]
+		],
 		"Legend of Heroes, The - Trails in the Sky": [
 			["Eiyuu Densetsu - Sora no Kiseki FC", 1]
+		],
+		"LittleBigPlanet": [
+			["Little Big Planet", 1]
+		],
+		"LocoRoco": [
+			["LocoRoco (Toku Toku Pack)", 2]
 		],
 		"Lord of the Rings, The - Tactics": [
 			["Herr der Ringe, Der - Taktiken", 1],
 			["Senor de los Anillos, El - Tacticas", 1],
 			["Signore degli Anelli, Il - Tactics", 1]
+		],
+		"Lumines - Puzzle Fusion": [
+			["Lumines", 1]
 		],
 		"Me & My Katamari": [
 			["Boku no Watashi no Katamari Damacy", 1]
@@ -290,8 +337,8 @@
 			["Monster Hunter Portable", 1]
 		],
 		"Monster Hunter Freedom 2": [
-			["Monster Hunter Freedom Unite", -1],
-			["Monster Hunter Portable 2nd G", -1],
+			["Monster Hunter Freedom Unite", 0],
+			["Monster Hunter Portable 2nd G", 0],
 			["Monster Hunter Portable 2nd", 1]
 		],
 		"Monster Hunter Freedom Unite": [
@@ -344,7 +391,7 @@
 			["Petz - My Baby Hamster", 1]
 		],
 		"Phantasy Star Portable 2": [
-			["Phantasy Star Portable 2 Infinity" , -1]
+			["Phantasy Star Portable 2 Infinity", 0]
 		],
 		"Pinball Hall of Fame - The Gottlieb Collection": [
 			["Gottlieb Pinball Classics", 1]
@@ -361,8 +408,14 @@
 		"Prince of Persia - The Forgotten Sands": [
 			["Prince of Persia - Boukyaku no Suna", 1]
 		],
+		"Pursuit Force": [
+			["Chase Cop - Pursuit Force", 1]
+		],
 		"Puyo Pop Fever": [
 			["Puyo Puyo Fever", 1]
+		],
+		"Puzzle Guzzle": [
+			["Mawaskes Puzzle", 1]
 		],
 		"Puzzle Quest - Challenge of the Warlords": [
 			["Simple 2500 Series Portable!! Vol. 11 - The Puzzle Quest - Agaria no Kishi", 1]
@@ -403,10 +456,17 @@
 		"Shin Megami Tensei - Persona 3 Portable": [
 			["P3P - Yeosin Jeonsaeng - Persona 3 Portable", 1]
 		],
+		"Silent Hill Origins": [
+			["Silent Hill Zero", 1]
+		],
 		"Simpsons Game, The": [
 			["Simpson, I - Il Videogioco", 1],
+			["Simpson, Les - Le Jeu", 1],
 			["Simpsons, Die - Das Spiel", 1],
 			["Simpsons, Los - El Videojuego", 1]
+		],
+		"Smart Bomb": [
+			["Baku-No", 1]
 		],
 		"SOCOM - U.S. Navy SEALs - Fireteam Bravo 2 (Demo) (UCUS-98692)": [
 			["SOCOM - U.S. Navy SEALs - Fireteam Bravo 2 (Demo) (UCUS-98691)", 2],
@@ -430,6 +490,9 @@
 		],
 		"Street Fighter Alpha 3 Max": [
 			["Street Fighter Zero 3 Double Upper", 1]
+		],
+		"Super Pocket Tennis": [
+			["Simple 2500 Series Portable!! Vol. 2 - The Tennis", 1]
 		],
 		"Tactics Ogre - Let Us Cling Together": [
 			["Tactics Ogre - Unmei no Wa", 1]
@@ -462,7 +525,7 @@
 			["Koloomn", 1]
 		],
 		"Ultimate Ghosts'n Goblins": [
-			["Goku Makaimura Kai", -1],
+			["Goku Makaimura Kai", 0],
 			["Goku Makaimura", 1]
 		],
 		"Valkyria Chronicles II": [
@@ -478,8 +541,8 @@
 			["Musou Orochi", 1]
 		],
 		"Warriors Orochi 2": [
-			["Musou Orochi - Maou Sairin Enhanced Version", -1],
-			["Mussang Orochi - Mawang Jaerim Plus", -1],
+			["Musou Orochi - Maou Sairin Enhanced Version", 0],
+			["Mussang Orochi - Mawang Jaerim Plus", 0],
 			["Musou Orochi - Maou Sairin", 1]
 		],
 		"What Did I Do to Deserve This, My Lord! 2": [
@@ -488,6 +551,9 @@
 		"Who Wants to Be a Millionaire - Party Edition": [
 			["Chi Vuol Essere Milionario - Party Edition", 1]
 		],
+		"White Knight Chronicles - Origins": [
+			["Shirokishi Monogatari Episode Portable - Dogma Wars", 1]
+		],
 		"Wild Arms XF": [
 			["Wild Arms - Crossfire", 1]
 		],
@@ -495,11 +561,15 @@
 			["Pro Evolution Soccer 6", 1],
 			["World Soccer Winning Eleven 10 - Ubiquitous Evolution", 1]
 		],
-		"World Soccer Winning Eleven 9 - Ubiquitous Evolution": [
-			["Pro Evolution Soccer 5", 1]
+		"World Tour Soccer - Winning Eleven 9": [
+			["Pro Evolution Soccer 5", 1],
+			["World Soccer Winning Eleven 9 - Ubiquitous Evolution", 1]
 		],
 		"World Tour Soccer 06": [
 			["World Tour Soccer 2", 1]
+		],
+		"WTF - Work Time Fun": [
+			["Beit Hell 2000", 1]
 		],
 		"X-Men Legends II - Rise of Apocalypse": [
 			["X-Men Legends II - El Ascenso de Apocalipsis", 1]

@@ -1385,10 +1385,10 @@
 	"Cadaver (Europe) (En,Fr,De) (v1.03) (Compilation - The Bitmap Brothers - Volume 1)": {
 		"languages": "En,Fr,De"
 	},
-	"Cadaver + Cadaver - The Payoff (Europe) (En,Fr,De) (v1.03) (Budget - Kixx)": {
+	"Cadaver - The Payoff (Europe) (En,Fr,De) (Addon)": {
 		"languages": "En,Fr,De"
 	},
-	"Cadaver - The Payoff (Europe) (En,Fr,De) (Addon)": {
+	"Cadaver + Cadaver - The Payoff (Europe) (En,Fr,De) (v1.03) (Budget - Kixx)": {
 		"languages": "En,Fr,De"
 	},
 	"Caesar (Europe) (En,Fr,De)": {
@@ -1916,7 +1916,7 @@
 	"Cosmostruction (Europe)": {
 		"languages": "En"
 	},
-	"Count Duckula 2 featuring Tremendous Terence (Europe)": {
+	"Count Duckula 2 Featuring Tremendous Terence (Europe)": {
 		"languages": "En"
 	},
 	"Count Duckula in No Sax Please - We're Egyptian (Europe)": {
@@ -3182,13 +3182,13 @@
 	"Football Manager 2 (Europe)": {
 		"languages": "En"
 	},
-	"Football Manager 2 + Football Manager - World Cup Edition (Europe) (Compilation - Soccer Mania)": {
-		"languages": "En"
-	},
 	"Football Manager 2 - Expansion Kit (Europe) (Bundled With FM2) (Addon)": {
 		"languages": "En"
 	},
 	"Football Manager 2 - Expansion Kit (Europe) (Compilation - Amiga Sports Pack)": {
+		"languages": "En"
+	},
+	"Football Manager 2 + Football Manager - World Cup Edition (Europe) (Compilation - Soccer Mania)": {
 		"languages": "En"
 	},
 	"Football Masters (Europe) (v5.13)": {
@@ -3725,9 +3725,6 @@
 	"Harley-Davidson - The Road to Sturgis (Europe)": {
 		"languages": "En"
 	},
-	"Harpoon + Battleset 1 - Showdown in the North Atlantic (Europe)": {
-		"languages": "En"
-	},
 	"Harpoon - Battleset 2 - The North Atlantic Convoys (Europe) (Addon)": {
 		"languages": "En"
 	},
@@ -3735,6 +3732,9 @@
 		"languages": "En"
 	},
 	"Harpoon - Battleset 4 - The Indian Ocean (Europe) (Addon)": {
+		"languages": "En"
+	},
+	"Harpoon + Battleset 1 - Showdown in the North Atlantic (Europe)": {
 		"languages": "En"
 	},
 	"Harrier Combat Simulator (USA)": {
@@ -4463,11 +4463,11 @@
 	"Kick Off (Europe) (En,Fr,De,It,Nl) (v1.1)": {
 		"languages": "En,Fr,De,It,Nl"
 	},
-	"Kick Off + Extra Time (Europe) (En,Fr,De,It,Nl)": {
-		"languages": "En,Fr,De,It,Nl"
-	},
 	"Kick Off - Extra Time (Europe) (v2.2) (Addon)": {
 		"languages": "En"
+	},
+	"Kick Off + Extra Time (Europe) (En,Fr,De,It,Nl)": {
+		"languages": "En,Fr,De,It,Nl"
 	},
 	"Kick Off 2 (Europe) (v1.4e)": {
 		"languages": "En"
@@ -4487,21 +4487,6 @@
 	"Kick Off 2 (Italy) (v1.4i)": {
 		"languages": "It"
 	},
-	"Kick Off 2 + World Cup '90 (Europe)": {
-		"languages": "En"
-	},
-	"Kick Off 2 + World Cup '90 (Germany)": {
-		"languages": "De"
-	},
-	"Kick Off 2 + World Cup '90 (Germany) (Alt 1)": {
-		"languages": "De"
-	},
-	"Kick Off 2 + World Cup '90 (Europe) (Alt 1)": {
-		"languages": "En"
-	},
-	"Kick Off 2 + World Cup '90 (Italy)": {
-		"languages": "It"
-	},
 	"Kick Off 2 - Giants of Europe (Europe) (Addon)": {
 		"languages": "En"
 	},
@@ -4519,6 +4504,21 @@
 	},
 	"Kick Off 2 - Winning Tactics (Europe) (Addon)": {
 		"languages": "En"
+	},
+	"Kick Off 2 + World Cup '90 (Europe)": {
+		"languages": "En"
+	},
+	"Kick Off 2 + World Cup '90 (Germany)": {
+		"languages": "De"
+	},
+	"Kick Off 2 + World Cup '90 (Germany) (Alt 1)": {
+		"languages": "De"
+	},
+	"Kick Off 2 + World Cup '90 (Europe) (Alt 1)": {
+		"languages": "En"
+	},
+	"Kick Off 2 + World Cup '90 (Italy)": {
+		"languages": "It"
 	},
 	"Kick Off 3 (Europe)": {
 		"languages": "En"
@@ -7103,6 +7103,9 @@
 	"Sensible World of Soccer (Europe)": {
 		"languages": "En"
 	},
+	"Sensible World of Soccer - Update Disk (Europe) (v1.1) (Addon)": {
+		"languages": "En"
+	},
 	"Sensible World of Soccer '95-'96 (Europe)": {
 		"languages": "En"
 	},
@@ -7110,9 +7113,6 @@
 		"languages": "En"
 	},
 	"Sensible World of Soccer '96-'97 (Europe)": {
-		"languages": "En"
-	},
-	"Sensible World of Soccer - Update Disk (Europe) (v1.1) (Addon)": {
 		"languages": "En"
 	},
 	"Sentinel, The (Europe)": {
@@ -7787,9 +7787,6 @@
 	"Star Wars (Europe) (Atari)": {
 		"languages": "En"
 	},
-	"Star Wars + James Bond 007 - Licence to Kill (Europe) (Compilation - Heroes)": {
-		"languages": "En"
-	},
 	"Star Wars - Return of the Jedi (Europe)": {
 		"languages": "En"
 	},
@@ -7800,6 +7797,9 @@
 		"languages": "En"
 	},
 	"Star Wars - The Empire Strikes Back (Europe) (Compilation - The Star Wars Trilogy)": {
+		"languages": "En"
+	},
+	"Star Wars + James Bond 007 - Licence to Kill (Europe) (Compilation - Heroes)": {
 		"languages": "En"
 	},
 	"Starball (Europe)": {

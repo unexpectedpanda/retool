@@ -3,7 +3,8 @@
         "name": [
 			"NEC - PC Engine - TurboGrafx 16"
 		],
-        "last updated": "10 January 2021"
+        "last updated": "9 April 2021",
+		"minimum version": "0.89"
     },
 
     "renames": {

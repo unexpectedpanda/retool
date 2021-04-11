@@ -95,6 +95,9 @@
     "Akihabara Dennou-gumi Pata Pies! (Japan)": {
         "languages": "Ja"
     },
+    "Alice Dreams (France) (Demo) (Unl)": {
+        "languages": ""
+    },
     "Alice Dreams Tournament (USA) (Disc 1) (Unl)": {
         "languages": ""
     },
@@ -477,6 +480,9 @@
         "languages": "Ja"
     },
     "Cool Cool Toon (Japan)": {
+        "languages": "Ja"
+    },
+    "Cool Cool Toon (Japan) (Tentou-you Taikenban)": {
         "languages": "Ja"
     },
     "Cool Herders (USA) (Unl)": {
@@ -1262,6 +1268,9 @@
     "Flag to Flag (USA)": {
         "languages": "En"
     },
+    "Flintstones, The - Viva Rock Vegas (Europe) (En,Fr,De,Es,It) (Beta)": {
+        "languages": "En, Fr, De, It, Es"
+    },
     "Floigan Bros. - Episode 1 (Europe)": {
         "languages": "En"
     },
@@ -1334,6 +1343,9 @@
     "Gauntlet Legends (USA)": {
         "languages": "En"
     },
+    "Generator Vol. 1 (Japan)": {
+        "languages": "En"
+    },
     "Generator Vol. 1 (USA)": {
         "languages": "En"
     },
@@ -1362,6 +1374,9 @@
         "languages": "En"
     },
     "GigaWing (Japan)": {
+        "languages": "Ja"
+    },
+    "GigaWing (Japan) (Tentou Taikenban)": {
         "languages": "Ja"
     },
     "GigaWing (USA)": {
@@ -1835,6 +1850,9 @@
     "Last Blade 2, The - Heart of the Samurai (USA)": {
         "languages": "En"
     },
+    "Last Hope (Europe) (Unl)": {
+        "languages": "En"
+    },
     "Le Mans 24 Hours (Europe) (En,Fr,Es)": {
         "languages": "En, Fr, Es"
     },
@@ -2136,6 +2154,9 @@
         "languages": "En"
     },
     "NBA 2K2 (Europe)": {
+        "languages": "En"
+    },
+    "NBA 2K2 (Japan)": {
         "languages": "En"
     },
     "NBA 2K2 (USA)": {
@@ -2462,7 +2483,7 @@
     "Plus Plumb (Japan)": {
         "languages": "Ja"
     },
-    "Pocke-Kano - Yumi - Shizuka - Fumio (Japan)": {
+    "Pocke-Kano - Yumi, Shizuka, Fumio (Japan)": {
         "languages": "Ja"
     },
     "Pop'n Music (Japan)": {
@@ -2511,6 +2532,9 @@
         "languages": "En"
     },
     "Power Stone 2 (Japan)": {
+        "languages": "Ja"
+    },
+    "Power Stone 2 (Japan) (Tentou-you Demo Movie)": {
         "languages": "Ja"
     },
     "Power Stone 2 (USA)": {
@@ -2586,6 +2610,9 @@
         "languages": "Ja"
     },
     "Puyo Puyoon (Japan)": {
+        "languages": "Ja"
+    },
+    "Puyo Puyoon (Japan) (Taikenban)": {
         "languages": "Ja"
     },
     "Puzzle Bobble 4 (Japan)": {
@@ -2888,6 +2915,9 @@
     "Sakura Taisen 3 - Paris wa Moeteiru ka (Japan) (Disc 3)": {
         "languages": "Ja"
     },
+    "Sakura Taisen 3 - Paris wa Moeteiru ka (Japan) (Tentou-you Demo Movie)": {
+        "languages": "Ja"
+    },
     "Sakura Taisen 3 - Paris wa Moeteiru ka - Drama Download Disc (Japan)": {
         "languages": "Ja"
     },
@@ -3005,6 +3035,9 @@
     "Seireiki Rayblade (Japan)": {
         "languages": "Ja"
     },
+    "Seireiki Rayblade (Japan) (Video ROM)": {
+        "languages": "Ja"
+    },
     "Seitai Heiki Expendable (Japan)": {
         "languages": "Ja"
     },
@@ -3083,7 +3116,10 @@
     "Shenmue - Ichishou Yokosuka (Japan) (Disc 3)": {
         "languages": "Ja"
     },
-    "Shenmue - Ichishou Yokosuka (Japan) (Shenmue Passport)": {
+    "Shenmue - Ichishou Yokosuka (Japan) (Shenmue Passport) (Rev C)": {
+        "languages": "Ja"
+    },
+    "Shenmue - Ichishou Yokosuka (Japan) (Shenmue Passport) (Rev D)": {
         "languages": "Ja"
     },
     "Shenmue II (Europe) (En,Fr,De,Es) (Disc 1)": {
@@ -3383,6 +3419,9 @@
     "Star Gladiator 2 - Nightmare of Bilstein (Japan)": {
         "languages": "Ja"
     },
+    "Star Gladiator 2 - Nightmare of Bilstein (Japan) (Tentou Taikenban)": {
+        "languages": "Ja"
+    },
     "Star Wars - Demolition (Europe)": {
         "languages": "En"
     },
@@ -3507,6 +3546,9 @@
         "languages": "Ja"
     },
     "Super Runabout (Japan)": {
+        "languages": "Ja"
+    },
+    "Super Runabout (Japan) (Rev A)": {
         "languages": "Ja"
     },
     "Super Runabout - San Francisco Edition (Europe)": {
@@ -3918,9 +3960,12 @@
         "languages": "En"
     },
     "Virtua Tennis - Sega Professional Tennis (Europe) (Beta)": {
-        "languages": ""
+        "languages": "En"
     },
     "Virtua Tennis - Sega Professional Tennis (Europe) (En,Fr,De,Es)": {
+        "languages": "En, Fr, De, Es"
+    },
+    "Virtua Tennis - Sega Professional Tennis (Europe) (En,Fr,De,Es) (Beta)": {
         "languages": "En, Fr, De, Es"
     },
     "Virtua Tennis 2 - Sega Professional Tennis (Europe) (En,Fr,De,Es)": {
@@ -4029,6 +4074,9 @@
         "languages": "En"
     },
     "World Series Baseball 2K1 (USA)": {
+        "languages": "En"
+    },
+    "World Series Baseball 2K2 (Japan)": {
         "languages": "En"
     },
     "World Series Baseball 2K2 (USA)": {

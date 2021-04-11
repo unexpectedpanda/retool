@@ -48,6 +48,26 @@ def old_windows():
     return(False)
 
 
+def regex_test(list, list_name):
+    """ Checks for valid regexes in a list """
+
+    if type(list) is not str:
+        list_temp = list.copy()
+
+        for item in list_temp:
+            if item.startswith('/'):
+                try:
+                    re.compile(item[1:])
+                    regex_valid = True
+                except:
+                    regex_valid = False
+
+                if regex_valid == False:
+                    print(f'{Font.warning}* Invalid regex in {list_name} filters: "{item[1:]}". Ignoring.{Font.end}')
+                    list.remove(item)
+    return list
+
+
 class Font:
     """ Console text formatting.
 

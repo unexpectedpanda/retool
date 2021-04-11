@@ -8,11 +8,11 @@ from modules.utils import Font
 class CloneList:
     """ Returns a formatted clone list """
 
-    def __init__(self, compilations, overrides, conditional_overrides, renames):
-        self.compilations = compilations
-        self.renames = renames
+    def __init__(self, min_version, overrides, renames, removes):
+        self.min_version = min_version
         self.overrides = overrides
-        self.conditional_overrides = conditional_overrides
+        self.renames = renames
+        self.removes = removes
 
 
 class Dat:
@@ -174,8 +174,15 @@ class DatNode:
         # Check if the (Demo) tag is missing, and add it if so
         if self.category == 'Demos' and '(Demo' not in self.full_name:
             self.short_name = self.short_name + ' (Demo)'
-            self.region_free_name = self.region_free_name + '(Demo)'
-            self.tag_free_name = self.tag_free_name + '(Demo)'
+            self.region_free_name = self.region_free_name + ' (Demo)'
+            self.tag_free_name = self.tag_free_name + ' (Demo)'
+
+        # Lowercase versions for matching
+        self.full_name_lower = self.full_name.lower()
+        self.numbered_name_lower = self.numbered_name.lower()
+        self.region_free_name_lower = self.region_free_name.lower()
+        self.tag_free_name_lower = self.tag_free_name.lower()
+        self.short_name_lower = self.short_name.lower()
 
     def __str__(self):
         ret_str = []
@@ -192,24 +199,29 @@ class DatNode:
                 ret_str.append(f'  ├ {string}:{tabs}{property}\n')
 
 
-        ret_str.append(f'  ○ full_name:\t\t{self.full_name}\n')
-        ret_str.append(f'  ├ numbered_name:\t{self.numbered_name}\n')
-        ret_str.append(f'  ├ description:\t{self.description}\n')
-        ret_str.append(f'  ├ region_free_name:\t{self.region_free_name}\n')
-        ret_str.append(f'  ├ tag_free_name:\t{self.tag_free_name}\n')
-        ret_str.append(f'  ├ short_name:\t\t{self.short_name}\n')
-        ret_str.append(f'  ├ group:\t\t{self.group}\n')
-        ret_str.append(f'  ├ regions:\t\t{self.regions}\n')
-        ret_str.append(f'  ├ primary_region:\t{self.primary_region}\n')
-        format_property(self.secondary_region, 'secondary_region', '\t')
-        ret_str.append(f'  ├ region_priority:\t{str(self.region_priority)}\n')
-        format_property(self.title_languages, 'title_languages', '\t')
-        format_property(self.implied_language, 'implied_language', '\t')
-        format_property(self.online_languages, 'online_languages', '\t')
-        format_property(self.languages, 'languages', '\t\t')
-        format_property(self.cloneof, 'cloneof', '\t\t')
-        format_property(self.cloneof_group, 'cloneof_group', '\t')
-        ret_str.append(f'  ├ category:\t\t{self.category}\n')
+        ret_str.append(f'  ○ full_name:\t\t\t{self.full_name}\n')
+        ret_str.append(f'  ├ full_name_lower:\t\t{self.full_name_lower}\n')
+        format_property(self.numbered_name, 'numbered_name', '\t\t')
+        format_property(self.numbered_name_lower, 'numbered_name_lower', '\t')
+        ret_str.append(f'  ├ description:\t\t{self.description}\n')
+        ret_str.append(f'  ├ region_free_name:\t\t{self.region_free_name}\n')
+        ret_str.append(f'  ├ region_free_name_lower:\t{self.region_free_name_lower}\n')
+        ret_str.append(f'  ├ tag_free_name:\t\t{self.tag_free_name}\n')
+        ret_str.append(f'  ├ tag_free_name_lower:\t{self.tag_free_name_lower}\n')
+        ret_str.append(f'  ├ short_name:\t\t\t{self.short_name}\n')
+        ret_str.append(f'  ├ short_name_lower:\t\t{self.short_name_lower}\n')
+        ret_str.append(f'  ├ group:\t\t\t{self.group}\n')
+        ret_str.append(f'  ├ regions:\t\t\t{self.regions}\n')
+        ret_str.append(f'  ├ primary_region:\t\t{self.primary_region}\n')
+        format_property(self.secondary_region, 'secondary_region', '\t\t')
+        ret_str.append(f'  ├ region_priority:\t\t{str(self.region_priority)}\n')
+        format_property(self.title_languages, 'title_languages', '\t\t')
+        format_property(self.implied_language, 'implied_language', '\t\t')
+        format_property(self.online_languages, 'online_languages', '\t\t')
+        format_property(self.languages, 'languages', '\t\t\t')
+        format_property(self.cloneof, 'cloneof', '\t\t\t')
+        format_property(self.cloneof_group, 'cloneof_group', '\t\t')
+        ret_str.append(f'  ├ category:\t\t\t{self.category}\n')
         ret_str.append(f'  └ roms ┐\n')
         for i, rom in enumerate(self.roms):
             if i == len(self.roms) - 1:
@@ -249,41 +261,39 @@ class Regex:
 
     def __init__(self, LANGUAGES):
         # Preproduction
-        self.alpha = re.compile('\(Alpha( [0-9]{,2}){,1}\)')
-        self.beta = re.compile('\(Beta( [0-9]{,2}){,1}\)')
-        self.proto = re.compile('\((Possible )*Proto( [0-9]{,2}){,1}\)')
-        self.preprod = re.compile('\(Pre-production\)')
-        self.review = re.compile('\(Review Code\)')
+        self.alpha = re.compile('\((?:(?!\(|Alpha( [0-9]{,2}){,1})[\s\S])*Alpha( [0-9]{,2}){,1}\)', re.IGNORECASE)
+        self.beta = re.compile('\((?:(?!\(|Beta( [0-9]{,2}){,1})[\s\S])*Beta( [0-9]{,2}){,1}\)', re.IGNORECASE)
+        self.proto = re.compile('\((?:(?!\(|Proto( [0-9]{,2}){,1})[\s\S])*Proto( [0-9]{,2}){,1}\)', re.IGNORECASE)
+        self.preprod = re.compile('\(Pre-production\)', re.IGNORECASE)
+        self.review = re.compile('\(Review Code\)', re.IGNORECASE)
 
         # Tags
-        self.alt = re.compile('\(Alt.*?\)')
-        self.bad = re.compile('\[b\]')
-        self.bios = re.compile('\[BIOS\]')
-        self.covermount = re.compile('\(Covermount\)')
-        self.dates = re.compile('\((\d{8}|\d{4}-\d{2}-\d{2}|\d{2}-\d{2}-\d{4}|\d{2}-\d{2}-\d{2}|(January|February|March|April|May|June|July|August|September|October|November|December), \d{4})\)')
-        self.dates_whitespace = re.compile('\s?\((\d{8}|\d{4}-\d{2}-\d{2}|\d{2}-\d{2}-\d{4}|\d{2}-\d{2}-\d{2}|(January|February|March|April|May|June|July|August|September|October|November|December), \d{4})\)\s?')
-        self.edc = re.compile('\(EDC\)')
+        self.alt = re.compile('\(Alt.*?\)', re.IGNORECASE)
+        self.bad = re.compile('\[b\]', re.IGNORECASE)
+        self.bios = re.compile('(\[BIOS\])|(\(Enhancement Chip\))', re.IGNORECASE)
+        self.covermount = re.compile('\(Covermount\)', re.IGNORECASE)
+        self.dates = re.compile('\((\d{8}|\d{4}-\d{2}-\d{2}|\d{2}-\d{2}-\d{4}|\d{2}-\d{2}-\d{2}|(January|February|March|April|May|June|July|August|September|October|November|December), \d{4})\)', re.IGNORECASE)
+        self.dates_whitespace = re.compile('\s?\((\d{8}|\d{4}-\d{2}-\d{2}|\d{2}-\d{2}-\d{4}|\d{2}-\d{2}-\d{2}|(January|February|March|April|May|June|July|August|September|October|November|December), \d{4})\)\s?', re.IGNORECASE)
+        self.edc = re.compile('\(EDC\)', re.IGNORECASE)
         self.languages = re.compile('( (\((' + LANGUAGES + ')\.*?)(,.*?\)|\)))')
-        self.oem = re.compile('\((?:(?!\(|OEM.*?)[\s\S])*OEM.*?\)')
-        self.hibaihin = re.compile('\(Hibaihin.*?\)')
-        self.pirate = re.compile('\(Pirate\)')
-        self.rerelease = re.compile('\(Rerelease\)')
+        self.oem = re.compile('\((?:(?!\(|OEM.*?)[\s\S])*OEM.*?\)', re.IGNORECASE)
+        self.hibaihin = re.compile('\(Hibaihin.*?\)', re.IGNORECASE)
+        self.pirate = re.compile('\(Pirate\)', re.IGNORECASE)
+        self.rerelease = re.compile('\(Rerelease\)', re.IGNORECASE)
+        self.sega32x = re.compile('(Sega CD 32X|Mega-CD 32X)', re.IGNORECASE)
 
-        # Filters
+        # Exclude filters
         self.demos = [
-            re.compile('\(Demo( [1-9])*\)'),
-            re.compile('\(Demo-CD\)'),
-            re.compile('Taikenban'),
-            re.compile('\(@barai\)'),
-            re.compile('\(GameCube Preview\)'),
-            re.compile('\(Preview\)'),
-            re.compile('\(Sample( [1-9])*\)'),
-            re.compile('Trial Edition')
+            re.compile('\(Demo( [1-9])*\)', re.IGNORECASE),
+            re.compile('\(Demo-CD\)', re.IGNORECASE),
+            re.compile('Taikenban', re.IGNORECASE),
+            re.compile('\(@barai\)', re.IGNORECASE),
+            re.compile('\(GameCube Preview\)', re.IGNORECASE),
+            re.compile('\(Preview\)', re.IGNORECASE),
+            re.compile('\(Sample( [1-9])*\)', re.IGNORECASE),
+            re.compile('Trial Edition', re.IGNORECASE)
             ]
-        self.programs = [
-            re.compile('\(Program\)'),
-            re.compile('\(Test Program\)')
-        ]
+        self.manuals = re.compile('\(Manual\)', re.IGNORECASE),
         self.preproduction = [
             self.alpha,
             self.beta,
@@ -291,23 +301,32 @@ class Regex:
             self.preprod,
             self.review,
             ]
-        self.preproduction_bad = '\((?:(?!(\(|(Pre-Production|Proto|Possible Proto|Alpha|Beta|Review Code)( [0-9]{,2}){,1}))|(\[b\])[\s\S])*((Pre-Production|Proto|Possible Proto|Alpha|Beta|Review Code)( [0-9]{,2}){,1}\))|(\[b\])'
+        self.preproduction_bad = re.compile('\((?:(?!\(|(Alpha|Beta|Pre-production|Proto|Review Code)( [0-9]{,2}){,1})[\s\S])*(Alpha|Beta|Pre-production|Proto|Review Code)( [0-9]{,2}){,1}\)|(\[b\])', re.IGNORECASE)
+        self.programs = [
+            re.compile('\(Program\)', re.IGNORECASE),
+            re.compile('\(Test Program\)', re.IGNORECASE),
+            re.compile('Check Program', re.IGNORECASE),
+            re.compile('Sample Program', re.IGNORECASE)
+        ]
         self.promotional = [
-            re.compile('EPK'),
-            re.compile('Press Kit'),
-            re.compile('\(Promo\)')
+            re.compile('EPK', re.IGNORECASE),
+            re.compile('Press Kit', re.IGNORECASE),
+            re.compile('\(Promo\)', re.IGNORECASE)
         ]
         self.unlicensed = [
-            re.compile('\(Unl\)')
+            re.compile('\(Unl\)', re.IGNORECASE)
+        ]
+        self.video = [
+            re.compile('Game Boy Advance Video', re.IGNORECASE)
         ]
 
         # Versions
-        self.version = re.compile('\(v[0-9].*?\)')
-        self.long_version = re.compile('Version [+-]?([0-9]+([.][0-9]*)?|[.][0-9]+).*?[ \)]')
-        self.revision = re.compile('\(Rev [0-9A-Z].*?\)')
-        self.sega_ring_code = re.compile('\(([0-9]{1,2}[A-Z]([ ,].[0-9]{1,2}[A-Z])*|R[E]{,1}[-]{,1}[0-9]{0,})\)')
-        self.sega_ring_code_re = re.compile('R[E]{,1}[-]{,1}[0-9]{0,}')
-        self.fds_version = re.compile('\(DV [0-9].*?\)')
+        self.version = re.compile('\(v[0-9].*?\)', re.IGNORECASE)
+        self.long_version = re.compile('Version [+-]?([0-9]+([.][0-9]*)?|[.][0-9]+).*?[ \)]', re.IGNORECASE)
+        self.revision = re.compile('\(Rev [0-9A-Z].*?\)', re.IGNORECASE)
+        self.sega_ring_code = re.compile('\(([0-9]{1,2}[A-Z]([ ,].[0-9]{1,2}[A-Z])*|R[E]{,1}[-]{,1}[0-9]{0,})\)', re.IGNORECASE)
+        self.sega_ring_code_re = re.compile('R[E]{,1}[-]{,1}[0-9]{0,}', re.IGNORECASE)
+        self.fds_version = re.compile('\(DV [0-9].*?\)', re.IGNORECASE)
 
 
 class RegionKeys():
@@ -361,48 +380,43 @@ class SmartFormatter(argparse.HelpFormatter):
 class Stats():
     """ Stores stats before processing the dat """
 
-    def __init__(self, original_title_count, user_input, input_dat, final_title_count=0):
-        def category_count(category):
-            """ Gets the category count from the soup object """
-
-            if hasattr(user_input, 'no_' + category.lower()):
-                if getattr(user_input, 'no_' + category.lower()) == True:
-                    return len(input_dat.soup.find_all('category', string=category))
-                else:
-                    return 0
+    def __init__(self, original_title_count, user_input=False, final_title_count=0, clone_count=0, recovered_count=0):
 
         self.original_title_count = original_title_count
         self.final_title_count = final_title_count
-        self.applications_count = category_count('Applications')
-        self.coverdiscs_count = category_count('Coverdiscs')
-        self.demos_count = category_count('Demos')
-        self.educational_count = category_count('Educational')
-        self.multimedia_count = category_count('Multimedia')
-        self.preproduction_count = category_count('Preproduction')
+        self.clone_count = clone_count
+        self.recovered_count = recovered_count
 
-        if user_input.no_unlicensed == True:
-            self.unlicensed_count = len(input_dat.soup.find_all('description', string=lambda x: x and '(Unl)' in x))
-        else:
-            self.unlicensed_count = 0
+        if user_input != False:
+            def get_count(exclusion):
+                """ Returns how many titles were excluded for a given category """
 
-        if user_input.no_bad_dumps == True:
-            self.bad_dump_count = len(input_dat.soup.find_all('description', string=lambda x: x and '[b]' in x))
-        else:
-            self.bad_dump_count = 0
+                if exclusion in user_input.removed_titles:
+                    return len(user_input.removed_titles[exclusion])
+                else:
+                    return 0
 
-        if user_input.no_pirate == True:
-            self.pirate_count = len(input_dat.soup.find_all('description', string=lambda x: x and '(Pirate)' in x))
-        else:
-            self.pirate_count = 0
+            self.add_on_count = get_count('Add-Ons')
+            self.applications_count = get_count('Applications')
+            self.audio_count = get_count('Audio')
+            self.bad_dump_count = get_count('Bad Dumps')
+            self.bonus_discs_count = get_count('Bonus Discs')
+            self.bios_count = get_count('Console')
+            self.coverdiscs_count = get_count('Coverdiscs')
+            self.demos_count = get_count('Demos')
+            self.educational_count = get_count('Educational')
+            self.manuals_count = get_count('Manuals')
+            self.multimedia_count = get_count('Multimedia')
+            self.pirate_count = get_count('Pirate')
+            self.preproduction_count = get_count('Preproduction')
+            self.promotional_count = get_count('Promotional')
+            self.unlicensed_count = get_count('Unlicensed')
+            self.video_count = get_count('Video')
 
-        if user_input.no_promotional == True:
-            self.promotional_count = (
-                len(input_dat.soup.find_all('description', string=lambda x: x and '(Promo)' in x))
-                + len(input_dat.soup.find_all('description', string=lambda x: x and 'EPK' in x))
-                + len(input_dat.soup.find_all('description', string=lambda x: x and 'Press Kit' in x))
-                )
-        else:
-            self.promotional_count = 0
+            self.remove_count = get_count('Removes')
+
+            self.custom_system_exclude_filter_count = get_count('Custom system filter excludes')
+            self.custom_global_exclude_filter_count = get_count('Custom global filter excludes')
 
 
 class TagKeys:
@@ -464,34 +478,37 @@ class UserInput:
     """ Stores user input values, including what types of titles to exclude """
 
     def __init__(self, input_file_name='', output_folder_name='',
-                 no_applications='', no_bad_dumps='', no_compilations='',
-                 no_demos='', no_educational='', no_coverdiscs='',
-                 no_audio='', no_video='', no_bios='',
-                 no_multimedia='', no_pirate='', no_preproduction='',
-                 no_promotional='', no_unlicensed='', modern='',
-                 supersets='', filter_languages='', legacy='',
-                 user_options='', verbose='', no_filters='',
-                 keep_remove='', list=''):
+                 no_applications='', no_audio='', no_bad_dumps='',
+                 no_bios='', no_coverdiscs='', no_demos='',
+                 no_add_ons='', no_educational='', no_manuals='',
+                 no_multimedia='', no_bonus_discs='', no_pirate='',
+                 no_preproduction='', no_promotional='', no_unlicensed='',
+                 no_video='', modern='', filter_languages='',
+                 legacy='', user_options='', verbose='',
+                 no_filters='', keep_remove='', list='',
+                 test=''):
+
         self.input_file_name = input_file_name
         self.output_folder_name = output_folder_name
 
+        self.no_add_ons = no_add_ons
         self.no_applications = no_applications
         self.no_bad_dumps = no_bad_dumps
-        self.no_compilations = no_compilations
         self.no_demos = no_demos
         self.no_educational = no_educational
         self.no_coverdiscs = no_coverdiscs
         self.no_audio = no_audio
         self.no_video = no_video
         self.no_bios = no_bios
+        self.no_bonus_discs = no_bonus_discs
         self.no_console = no_bios
         self.no_multimedia = no_multimedia
         self.no_pirate = no_pirate
+        self.no_manuals = no_manuals
         self.no_preproduction = no_preproduction
         self.no_promotional = no_promotional
         self.no_unlicensed = no_unlicensed
         self.modern = modern
-        self.supersets = supersets
         self.filter_languages = filter_languages
         self.legacy = legacy
         self.user_options = user_options
@@ -499,7 +516,9 @@ class UserInput:
         self.no_filters = no_filters
         self.keep_remove = keep_remove
         self.list = list
+        self.test = test
 
+        self.recovered_titles = {}
         self.global_exclude = []
         self.global_include = []
         self.system_exclude = []

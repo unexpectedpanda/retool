@@ -500,6 +500,9 @@
     "Brooktown High (USA)": {
         "languages": "En"
     },
+    "Brothers Conflict - Brilliant Blue (Japan)": {
+        "languages": "Ja"
+    },
     "Brothers Conflict - Passion Pink (Japan)": {
         "languages": "Ja"
     },
@@ -1235,6 +1238,9 @@
     "Disney-Pixar Ratatouille (Germany)": {
         "languages": "De"
     },
+    "Disney-Pixar Ratatouille (Greece)": {
+        "languages": "El"
+    },
     "Disney-Pixar Ratatouille (Italy)": {
         "languages": "It"
     },
@@ -1329,6 +1335,9 @@
         "languages": "Ja"
     },
     "Doko Demo Issho (Japan)": {
+        "languages": "Ja"
+    },
+    "Doko Demo Issho - Let's Gakkou! (Japan)": {
         "languages": "Ja"
     },
     "Don 2 - The Game (India)": {
@@ -1783,6 +1792,9 @@
     },
     "FIFA 14 (Spain)": {
         "languages": "Es"
+    },
+    "FIFA 14 - Edicion Legado (Latin America) (En,Es)": {
+        "languages": "En, Es"
     },
     "FIFA 14 - Legacy Edition (Italy)": {
         "languages": "It"
@@ -2345,11 +2357,17 @@
     "Guilty Gear Judgment (Europe)": {
         "languages": "En"
     },
+    "Guilty Gear Judgment (Japan)": {
+        "languages": "Ja"
+    },
     "Guilty Gear Judgment (USA)": {
         "languages": "En"
     },
     "Guilty Gear XX Accent Core Plus (Europe)": {
         "languages": "En"
+    },
+    "Guilty Gear XX Accent Core Plus (Japan)": {
+        "languages": "Ja"
     },
     "Guilty Gear XX Accent Core Plus (USA)": {
         "languages": "En"
@@ -2429,8 +2447,8 @@
     "Hannah Montana - Rock Out the Show (USA) (En,Fr)": {
         "languages": "En, Fr"
     },
-    "Hannspree Ten Kate Honda SBK - Superbike World Championship (USA)": {
-        "languages": "En"
+    "Hannspree Ten Kate Honda - SBK Superbike World Championship (USA) (En,Fr,Es)": {
+        "languages": "En, Fr, Es"
     },
     "Hard Rock Casino (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
@@ -2668,6 +2686,9 @@
     },
     "Invizimals - Shadow Zone (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl)": {
         "languages": "Da, Nl, En, Fi, Fr, De, It, No, Pl, Pt, Es, Sv"
+    },
+    "Invizimals - Shadow Zone (Greece) (En,Es,Pt,El)": {
+        "languages": "En, El, Pt, Es"
     },
     "Invizimals - Shadow Zone (USA)": {
         "languages": ""
@@ -3071,7 +3092,7 @@
     "Little Big Planet (Asia) (En,Zh,Ko)": {
         "languages": "Zh, En, Ko"
     },
-    "Little Britain (Europe)": {
+    "Little Britain - The Video Game (Europe)": {
         "languages": "En"
     },
     "LittleBigPlanet (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru)": {
@@ -4154,6 +4175,15 @@
     "Ore no Imouto Maker EX - Imouto to Koishiyo Portable (Japan)": {
         "languages": "Ja"
     },
+    "Ore no Imouto ga Konna ni Kawaii Wake ga Nai Portable ga Tsuzuku Wake ga Nai (Japan) (Disc 1)": {
+        "languages": "Ja"
+    },
+    "Ore no Imouto ga Konna ni Kawaii Wake ga Nai Portable ga Tsuzuku Wake ga Nai (Japan) (Disc 2)": {
+        "languages": "Ja"
+    },
+    "Ore no Shikabane o Koete Yuke (Japan)": {
+        "languages": "Ja"
+    },
     "OutRun 2006 - Coast 2 Coast (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
@@ -4772,6 +4802,9 @@
     "Reel Fishing - The Great Outdoors (USA)": {
         "languages": ""
     },
+    "Rei Chou Aniki (Japan)": {
+        "languages": "Ja"
+    },
     "Rengoku - The Tower of Purgatory (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
@@ -4862,8 +4895,8 @@
     "Rush (USA)": {
         "languages": "En"
     },
-    "SBK - Superbike World Championship (USA) (En,Fr,Es)": {
-        "languages": "En, Fr, Es"
+    "SBK - Superbike World Championship (USA)": {
+        "languages": "En"
     },
     "SBK 08 - Superbike World Championship (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
@@ -4886,14 +4919,14 @@
     "SD Gundam - GGeneration World (Japan)": {
         "languages": "Ja"
     },
-    "SNK Arcade Classics Vol. 1 (Asia)": {
-        "languages": "En"
-    },
     "SNK Arcade Classics Vol. 1 (Europe)": {
         "languages": "En"
     },
     "SNK Arcade Classics Vol. 1 (Japan) (En,Ja)": {
         "languages": "En, Ja"
+    },
+    "SNK Arcade Classics Vol. 1 (Korea)": {
+        "languages": "En"
     },
     "SNK Arcade Classics Vol. 1 (USA)": {
         "languages": "En"
@@ -5240,8 +5273,8 @@
     "Sims 2, The (USA)": {
         "languages": "En"
     },
-    "Sims 2, The - Castaway (Europe) (En,Fr,De,Es,It,Nl)": {
-        "languages": "Nl, En, Fr, De, It, Es"
+    "Sims 2, The - Castaway (Europe) (En,Fr,De,Es,It,Nl,Pt)": {
+        "languages": "Nl, En, Fr, De, It, Pt, Es"
     },
     "Sims 2, The - Castaway (USA) (En,Fr,De,Es,It,Nl,Pt)": {
         "languages": "Nl, En, Fr, De, It, Pt, Es"
@@ -5347,6 +5380,9 @@
     },
     "Spectral vs. Generation (Europe)": {
         "languages": "En"
+    },
+    "Spectral vs. Generation (Japan)": {
+        "languages": "Ja"
     },
     "Spelling Challenges and More! (USA)": {
         "languages": ""

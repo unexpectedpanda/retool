@@ -3,12 +3,9 @@
 		"name": [
 			"Sega - Saturn"
 		],
-		"last updated": "21 January 2021"
+		"last updated": "9 April 2021",
+		"minimum version": "0.89"
 	},
-
-	"compilations": [
-		"Pad Nifty 1.1 & Habitat II (Japan)"
-	],
 
 	"renames": {
 		"3D Baseball": [
@@ -46,11 +43,11 @@
 			["Victory Boxing", 1]
 		],
 		"Clockwork Knight - Pepperouchau's Adventure": [
-			["Clockwork Knight - Pepperouchau no Fukubukuro", -1],
+			["Clockwork Knight - Pepperouchau no Fukubukuro", 0],
 			["Clockwork Knight - Pepperouchau no Daibouken Joukan", 1]
 		],
 		"Clockwork Knight 2 - Pepperouchau's Adventure": [
-			["Clockwork Knight - Pepperouchau no Fukubukuro", -1],
+			["Clockwork Knight - Pepperouchau no Fukubukuro", 0],
 			["Clockwork Knight - Pepperouchau no Daibouken Gekan", 1]
 		],
 		"Command & Conquer (Disc 1) (GDI Disc)": [
@@ -89,9 +86,9 @@
 			["Suiko Enbu", 1]
 		],
 		"Daytona USA": [
-			["Daytona USA C.C.E. Net Link Edition", -1],
-			["Daytona USA - Championship Circuit Edition", -1],
-			["Daytona USA - Circuit Edition", -1]
+			["Daytona USA C.C.E. Net Link Edition", 0],
+			["Daytona USA - Championship Circuit Edition", 0],
+			["Daytona USA - Circuit Edition", 0]
 		],
 		"Daytona USA C.C.E. Net Link Edition": [
 			["Daytona USA - Championship Circuit Edition", 2],
@@ -142,7 +139,7 @@
 			["FIFA 97", 1]
 		],
 		"Funky Head Boxers": [
-			["Funky Head Boxers Plus", -1]
+			["Funky Head Boxers Plus", 0]
 		],
 		"Galactic Attack": [
 			["Layer Section", 1]
@@ -151,13 +148,16 @@
 			["Galaxy Fight - Universal Warriors", 1]
 		],
 		"Ginga Eiyuu Densetsu": [
-			["Ginga Eiyuu Densetsu Plus", -1]
+			["Ginga Eiyuu Densetsu Plus", 0]
 		],
 		"Grid Runner": [
 			["Grid Run", 1]
 		],
 		"Gungriffon": [
 			["Gun Griffon", 1]
+		],
+		"Habitat II": [
+			["Pad Nifty 1.1 & Habitat II", 0]
 		],
 		"Hang-On GP": [
 			["Hang On GP '95", 1],
@@ -229,7 +229,7 @@
 			["Torico (Disc 2)", 1]
 		],
 		"Lunar - Silver Star Story": [
-			["Lunar - Silver Star Story Complete", -1]
+			["Lunar - Silver Star Story Complete", 0]
 		],
 		"Machine Head": [
 			["Blam! Machinehead", 1]
@@ -280,6 +280,9 @@
 		"P.T.O. - Pacific Theater of Operations II": [
 			["Teitoku no Ketsudan II", 1]
 		],
+		"Pad Nifty": [
+			["Pad Nifty 1.1 & Habitat II", 0]
+		],
 		"Pandemonium!": [
 			["Magical Hoppers", 1]
 		],
@@ -309,13 +312,13 @@
 			["Pro-Pinball - The Web", 1]
 		],
 		"Puyo Puyo Sun": [
-			["Puyo Puyo Sun for SegaNet", -1]
+			["Puyo Puyo Sun for SegaNet", 0]
 		],
 		"Puzzle Bobble 2X (2M2)": [
 			["Puzzle Bobble 2X (2M1, 2MB1)", 2]
 		],
 		"Puzzle Bobble 3": [
-			["Puzzle Bobble 3 for SegaNet", -1]
+			["Puzzle Bobble 3 for SegaNet", 0]
 		],
 		"Resident Evil": [
 			["Bio Hazard", 1]
@@ -360,7 +363,7 @@
 			["Sanguozhi Yingjiezhuan", 1]
 		],
 		"Sega Rally Championship": [
-			["Sega Rally Championship Plus Netlink Edition", -1]
+			["Sega Rally Championship Plus Netlink Edition", 0]
 		],
 		"Sega Rally Championship Plus Netlink Edition": [
 			["Sega Rally Championship Plus", 1]
@@ -380,7 +383,7 @@
 			["Shining Force III - Scenario 1 - Outo no Kyoshin", 1]
 		],
 		"Slam 'n Jam '96 featuring Magic & Kareem": [
-			["Slam 'n Jam '96 featuring Magic & Kareem - Signature Edition", -1]
+			["Slam 'n Jam '96 featuring Magic & Kareem - Signature Edition", 0]
 		],
 		"Solar Eclipse": [
 			["Titan Wars", 1]
@@ -407,7 +410,7 @@
 			["Super Puzzle Fighter II X", 1]
 		],
 		"Teitoku no Ketsudan III": [
-			["Teitoku no Ketsudan III with Power-Up Kit", -1]
+			["Teitoku no Ketsudan III with Power-Up Kit", 0]
 		],
 		"Terry Pratchett's Discworld": [
 			["Discworld", 1]
@@ -424,7 +427,7 @@
 			["Hardcore 4x4", 1]
 		],
 		"Tokimeki Memorial - Forever with You": [
-			["Tokimeki Memorial - Forever with You (Special-ban)", -1]
+			["Tokimeki Memorial - Forever with You (Special-ban)", 0]
 		],
 		"Tomb Raider": [
 			["Tomb Raiders", 1]
@@ -439,7 +442,7 @@
 			["Hyper Golf, The - Devil's Course", 1]
 		],
 		"Virtua Fighter": [
-			["Virtua Fighter Remix", -1]
+			["Virtua Fighter Remix", 0]
 		],
 		"Virtua Fighter CG Portrait Collection": [
 			["Virtua Fighter CG Portrait Series - The Final - Dural", 1],

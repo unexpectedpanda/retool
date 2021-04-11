@@ -3,7 +3,8 @@
         "name": [
 			"Nintendo - Nintendo 3DS"
 		],
-        "last updated": "23 August 2020"
+        "last updated": "9 April 2021",
+		"minimum version": "0.89"
     },
 
     "renames": {
@@ -193,15 +194,15 @@
             ["Fire Emblem Echoes - Tto Hanaui Yeongungwang", 1]
         ],
         "Fire Emblem Fates - Birthright": [
-            ["Fire Emblem Fates - Special Edition", -1],
-            ["Fire Emblem If - Special Edition", -1],
-            ["Fire Emblem If", -1],
+            ["Fire Emblem Fates - Special Edition", 0],
+            ["Fire Emblem If - Special Edition", 0],
+            ["Fire Emblem If", 0],
             ["Fire Emblem If - Byakuya Oukoku", 1]
         ],
         "Fire Emblem Fates - Conquest": [
-            ["Fire Emblem Fates - Special Edition", -1],
-            ["Fire Emblem If - Special Edition", -1],
-            ["Fire Emblem If", -1],
+            ["Fire Emblem Fates - Special Edition", 0],
+            ["Fire Emblem If - Special Edition", 0],
+            ["Fire Emblem If", 0],
             ["Fire Emblem If - Anya Oukoku", 1]
         ],
         "Fire Emblem Fates - Special Edition": [
@@ -381,7 +382,7 @@
             ["Kinki no Magna", 1]
         ],
         "Lost Heroes 2": [
-            ["Lost Heroes 2 (Premium Edition)", -1]
+            ["Lost Heroes 2 (Premium Edition)", 0]
         ],
         "Luigi's Mansion": [
             ["Luigi Mansion", 1]
@@ -566,7 +567,6 @@
             ["Puppies World 3D", 1]
         ],
         "Puzzle & Dragons Z + Puzzle & Dragons Super Mario Bros. Edition": [
-            ["Puzzle & Dragons Z + Puzzle & Dragons Super Mario Bros. Edition", 1],
             ["Puzzle & Dragons - Super Mario Bros. Edition", 1]
         ],
         "Rabbids - Travel in Time 3D": [

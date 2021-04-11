@@ -545,6 +545,9 @@
     "BloodRayne 2 (USA)": {
         "languages": ""
     },
+    "BloodRayne 2 (USA) (Demo)": {
+        "languages": ""
+    },
     "Bloody Roar - Extreme (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
@@ -728,7 +731,7 @@
     "Call of Duty 2 - Big Red One (USA) (Collector's Edition)": {
         "languages": "En"
     },
-    "Call of Duty 2 - Big Red One (USA, Europe)": {
+    "Call of Duty 2 - Big Red One (World)": {
         "languages": "En"
     },
     "Call of Duty 3 (Europe) (Fr,It)": {
@@ -1252,6 +1255,9 @@
     },
     "Dancing Stage Unleashed (Europe)": {
         "languages": "En"
+    },
+    "Dancing Stage Unleashed (Europe) (Beta)": {
+        "languages": ""
     },
     "Dancing Stage Unleashed 2 (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
@@ -2117,6 +2123,9 @@
     "Freedom Fighters (Europe)": {
         "languages": "En"
     },
+    "Freedom Fighters (Europe) (Beta)": {
+        "languages": ""
+    },
     "Freedom Fighters (France)": {
         "languages": "Fr"
     },
@@ -2332,6 +2341,9 @@
     },
     "Grand Theft Auto - Vice City (USA) (Rev 1)": {
         "languages": "En"
+    },
+    "Grand Theft Auto III (Australia)": {
+        "languages": ""
     },
     "Grand Theft Auto III (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
@@ -4055,6 +4067,12 @@
     "Nickelodeon SpongeBob Schwammkopf - Der Film (Germany)": {
         "languages": "De"
     },
+    "Nickelodeon SpongeBob SquarePants - Battle for Bikini Bottom (Europe)": {
+        "languages": "En"
+    },
+    "Nickelodeon SpongeBob SquarePants - Battle for Bikini Bottom (USA)": {
+        "languages": ""
+    },
     "Nickelodeon SpongeBob SquarePants - Lights, Camera, Pants! (Europe) (En,Sv)": {
         "languages": "En, Sv"
     },
@@ -4068,12 +4086,6 @@
         "languages": ""
     },
     "Nickelodeon SpongeBob SquarePants - The Movie (USA)": {
-        "languages": ""
-    },
-    "Nickelodeon SpongeBob SquarePants in - Battle for Bikini Bottom (Europe)": {
-        "languages": "En"
-    },
-    "Nickelodeon SpongeBob SquarePants in - Battle for Bikini Bottom (USA)": {
         "languages": ""
     },
     "Nickelodeon Tak - Die grosse Juju-Jagd (Germany) (En,De)": {
@@ -4379,6 +4391,9 @@
     "Official Xbox Magazine Game Disc 24 (Europe)": {
         "languages": "En"
     },
+    "Official Xbox Magazine Game Disc 24 (Europe) (Es,It)": {
+        "languages": "It, Es"
+    },
     "Official Xbox Magazine Game Disc 24 (USA)": {
         "languages": "En"
     },
@@ -4559,11 +4574,14 @@
     "Official Xbox Magazine Game Disc 49 (USA)": {
         "languages": "En"
     },
-    "Official Xbox Magazine Game Disc 50 (Europe) (En,Fr,De,Es,It,Pt)": {
+    "Official Xbox Magazine Game Disc 50 (Europe, Australia) (En,Fr,De,Es,It,Pt)": {
         "languages": "En, Fr, De, It, Pt, Es"
     },
     "Official Xbox Magazine Game Disc 50 (USA)": {
         "languages": "En"
+    },
+    "Official Xbox Magazine Game Disc 51 (Australia)": {
+        "languages": ""
     },
     "Official Xbox Magazine Game Disc 51 (Europe) (En,Fr,De,It,Pt)": {
         "languages": "En, Fr, De, It, Pt"
@@ -4577,7 +4595,7 @@
     "Official Xbox Magazine Game Disc 52 (USA)": {
         "languages": "En"
     },
-    "Official Xbox Magazine Game Disc 53 (Europe) (En,Fr,Pt)": {
+    "Official Xbox Magazine Game Disc 53 (Europe, Australia) (En,Fr,Pt)": {
         "languages": "En, Fr, Pt"
     },
     "Official Xbox Magazine Game Disc 53 (USA)": {
@@ -4713,6 +4731,9 @@
         "languages": "En, Fr, De, It, Pt, Es"
     },
     "Offizielle Xbox-Magazin, Das - Cover-DVD 11-2005 (Germany)": {
+        "languages": "De"
+    },
+    "Offizielle Xbox-Magazin, Das - Cover-DVD 12-2002 (Germany)": {
         "languages": "De"
     },
     "Offizielle Xbox-Magazin, Das - Cover-DVD 12-2005 (Germany)": {
@@ -5482,6 +5503,9 @@
     },
     "Sega GT Online (Europe)": {
         "languages": "En"
+    },
+    "Sega GT Online (Europe) (Beta)": {
+        "languages": ""
     },
     "Sega GT Online (Japan)": {
         "languages": ""
@@ -6458,6 +6482,9 @@
     "Tom Clancy's Rainbow Six - Lockdown (USA, Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
+    "Tom Clancy's Rainbow Six 3 (Europe) (Demo)": {
+        "languages": ""
+    },
     "Tom Clancy's Rainbow Six 3 (Germany) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
@@ -6845,6 +6872,9 @@
     "WWE Raw 2 (Europe)": {
         "languages": "En"
     },
+    "WWE Raw 2 (Korea)": {
+        "languages": "En"
+    },
     "WWE Raw 2 (USA)": {
         "languages": ""
     },
@@ -7070,8 +7100,11 @@
     "XIII - Daitouryou o Koroshita Otoko (Japan)": {
         "languages": ""
     },
-    "Xbox 360 - Das Offizielle Xbox-Magazin - Demo Disk 03-2006 (Germany)": {
+    "Xbox 360 - Das Offizielle Xbox-Magazin - Demo Disk 02-2006 (Germany)": {
         "languages": "De"
+    },
+    "Xbox 360 - Das Offizielle Xbox-Magazin - Demo Disk 03-2006 ~ Revista Oficial Xbox - DVD de Demos 33 (Europe)": {
+        "languages": ""
     },
     "Xbox 360 - Das Offizielle Xbox-Magazin - Demo Disk 04-2006 (Germany)": {
         "languages": "De"
@@ -7112,7 +7145,7 @@
     "Xbox 360 - The Official Xbox Magazine Issue 07 - May 2006 (Europe) (En,Fr,De,Es,It,Pt)": {
         "languages": "En, Fr, De, It, Pt, Es"
     },
-    "Xbox 360 - The Official Xbox Magazine Issue 08 - June 2006 (France)": {
+    "Xbox 360 - The Official Xbox Magazine Issue 08 - June 2006 (Europe)": {
         "languages": ""
     },
     "Xbox 360 - The Official Xbox Magazine Issue 09 - July 2006 (Europe, Australia)": {
@@ -7131,6 +7164,9 @@
         "languages": ""
     },
     "Xbox Demo Disc (USA)": {
+        "languages": ""
+    },
+    "Xbox Demo Disc Version 1.3 (USA)": {
         "languages": ""
     },
     "Xbox Demo Disc Version 2.3 (USA)": {
@@ -7282,9 +7318,6 @@
     },
     "Xbox Magazine Ufficiale Game Disc 18 - Luglio 2003 (Italy) (En,Fr,Es,It,Pt)": {
         "languages": "En, Fr, It, Pt, Es"
-    },
-    "Xbox Magazine Ufficiale Game Disc 24 - Natale 2003 (Italy) (Es,It)": {
-        "languages": "It, Es"
     },
     "Xbox Magazine Ufficiale Game Disc 49 - Dicembre 2005 (Italy) (En,Fr,De,Es,It,Pt)": {
         "languages": "En, Fr, De, It, Pt, Es"

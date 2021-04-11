@@ -3,31 +3,50 @@
         "name": [
 			"Nintendo - Nintendo DS"
 		],
-        "last updated": "20 January 2021"
+        "last updated": "11 April 2021",
+		"minimum version": "0.89"
     },
 
-    "compilations": [
-        "2 in 1 - My Vet Practice + My Pet Hotel 2 (Europe) (En,Fr,De,Es,It)",
-        "3 Game Pack! - Cradle of Rome + Cradle of Athena + Cradle of Egypt (Europe) (En,Fr,De,Es,It,Nl)",
-        "3 Game Pack! - Cradle of Rome + Cradle of Athena + Cradle of Egypt (Europe) (En,Fr,De,Es,It,Nl) (Rev 1)",
-        "Around the World in 80 Days & Fishdom (Germany) (Fr,De)",
-        "Atlantic Quest + Galactic Quest (Europe) (En,Fr,De,Nl)",
-        "Ben 10 - Triple Pack (USA) (En,Fr,De,Es,It)",
-        "Ben 10 - Triple Pack (Europe) (En,Fr,De,Es,It)",
-        "Jewel Link Double Pack (Europe)",
-        "Jewel Match & 4 Elements (Germany) (Fr,De)",
-        "Kids Learn & Play - Pets & Vets Bundle (USA)",
-        "Nickelodeon Team Umizoomi and Dora's Fantastic Flight (USA)"
-    ],
-
     "overrides": {
-        "America's Next Top Model (USA)": ["America's Next Top Model (USA)", true],
-        "America's Next Top Model (Europe) (En,De)": ["America's Next Top Model (USA)", true],
-        "Avatar - The Legend of Aang (Korea) [b]": ["Avatar - The Last Airbender - Into the Inferno", true],
-        "Deal or No Deal (USA)": ["Deal or No Deal (USA)", true],
-        "Top Model (Europe)":  ["America's Next Top Model (USA)", true],
-        "Imagine - Champion Rider (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da)": ["Ener-G - Horse Riders", true],
-        "Junior Brain Trainer (Europe) (Fr,Nl,Sv,No,Da,Fi)": ["Junior Brain Trainer - Math Edition", true]
+        "America's Next Top Model (USA)": {
+            "new group": "America's Next Top Model (USA)",
+            "match": "full"
+        },
+        "America's Next Top Model (Europe) (En,De)": {
+            "new group": "America's Next Top Model (USA)",
+            "match": "full"
+        },
+        "Avatar - The Legend of Aang (Korea) [b]": {
+            "new group": "Avatar - The Last Airbender - Into the Inferno",
+            "match": "full"
+        },
+        "Deal or No Deal (USA)": {
+            "new group": "Deal or No Deal (USA)",
+            "match": "full"
+        },
+        "Top Model (Europe)":  {
+            "new group": "America's Next Top Model (USA)",
+            "match": "full"
+        },
+        "Imagine - Champion Rider (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da)": {
+            "new group": "Ener-G - Horse Riders",
+            "match": "full"
+        },
+        "Junior Brain Trainer (Europe) (Fr,Nl,Sv,No,Da,Fi)": {
+            "new group": "Junior Brain Trainer - Math Edition",
+            "match": "full"
+        }
+    },
+
+    "removes": {
+        "3 Game Pack! - Cradle of Rome + Cradle of Athena + Cradle of Egypt (Europe) (En,Fr,De,Es,It,Nl)": {},
+        "Around the World in 80 Days & Fishdom (Germany) (Fr,De)": {},
+        "Ben 10 - Triple Pack (USA) (En,Fr,De,Es,It)": {},
+        "Ben 10 - Triple Pack (Europe) (En,Fr,De,Es,It)": {},
+        "Jewel Link Double Pack (Europe)": {},
+        "Jewel Match & 4 Elements (Germany) (Fr,De)": {},
+        "Kids Learn & Play - Pets & Vets Bundle (USA)": {},
+        "Nickelodeon Team Umizoomi and Dora's Fantastic Flight (USA)": {}
     },
 
     "renames": {
@@ -107,7 +126,7 @@
         "Animal Paradise": [
             ["Hana Deka Club - Animal Paradise", 1]
         ],
-        "Animates!": [
+        "AniMates!": [
             ["My Little Flufties", 1]
         ],
         "Ankh - Curse of the Scarab King": [
@@ -164,7 +183,7 @@
             ["Eindeloos Backgammon", 1]
         ],
         "Bakugan - Battle Brawlers": [
-            ["Bakugan - Battle Brawlers (Toys'R'Us)", -1],
+            ["Bakugan - Battle Brawlers (Toys'R'Us)", 0],
             ["Bakugan - Battle Brawlers (B6RP)", 1]
         ],
         "Bakugan - Defenders of the Core": [
@@ -256,7 +275,6 @@
             ["Touch! Bomberman Land", 1]
         ],
         "Bomberman Land Touch! 2": [
-            ["Bomberman Land Touch! 2", 1],
             ["Touch! Bomberman Land - Star Bomber no Miracle World", 1]
         ],
         "Brain Age - Train Your Brain in Minutes a Day!": [
@@ -389,8 +407,8 @@
         "Chronicles of Narnia, The - The Lion, the Witch and the Wardrobe": [
             ["Narnia Koku Monogatari Dai-1 Shou - Lion to Majo", 1]
         ],
-        "Chuugaku Junbi - 5 Kyouka Kanpeki DS (TCJJ)": [
-            ["Chuugaku Junbi - 5 Kyouka Kanpeki DS (TACJ)", 2]
+        "Chuugaku Junbi - 5 Kyouka Kanpeki DS (TCJJ, Not for Resale)": [
+            ["Chuugaku Junbi - 5 Kyouka Kanpeki DS (TACJ, Not for Resale)", 2]
         ],
         "Classic Action - Devilish": [
             ["Devilish", 1],
@@ -660,11 +678,10 @@
             ["Dragon Quest V - Tenkuu no Hanayome", 1]
         ],
         "Dragon Quest VI - Realms of Revelation": [
-            ["Dragon Quest VI - Maboroshi no Daichi", 1],
-            ["Dragon Quest VI - Realms of Revelation", 1]
+            ["Dragon Quest VI - Maboroshi no Daichi", 1]
         ],
         "Drawn to Life": [
-            ["Drawn to Life - Collection", -1],
+            ["Drawn to Life - Collection", 0],
             ["Drawn to Life - Kamisama no Marionette", 1],
             ["Geuryeora, Touch! - Naega Mandeuneun Sesang", 1]
         ],
@@ -673,7 +690,7 @@
             ["Geuryeora, Touch! - SpongeBob Nemobaji", 1]
         ],
         "Drawn to Life - The Next Chapter": [
-            ["Drawn to Life - Collection", -1]
+            ["Drawn to Life - Collection", 0]
         ],
         "Dreamer Series - Babysitter": [
             ["Let's Play Mums", 1]
@@ -734,8 +751,7 @@
             ["Eledees - The Adventures of Kai and Zero", 1]
         ],
         "Elite Beat Agents": [
-            ["Dowajwo! Rhythm Hero", 1],
-            ["Osu! Tatakae! Ouendan", 1]
+            ["Dowajwo! Rhythm Hero", 1]
         ],
         "Elvenland": [
             ["Jewel Land", 2]
@@ -841,7 +857,7 @@
             ["Final Fantasy Tactics A2 - Fuuketsu no Grimoire", 1]
         ],
         "Finding Nemo - Escape to the Big Blue": [
-            ["Finding Nemo - Escape to the Big Blue - Special Edition", -1],
+            ["Finding Nemo - Escape to the Big Blue - Special Edition", 0],
             ["Findet Nemo - Flucht in den Ozean", 1],
             ["Finding Nemo - Touch de Nemo", 1]
         ],
@@ -1467,7 +1483,7 @@
             ["LEGO Marvel Super Heroes - L'Univers en Peril", 1]
         ],
         "LEGO Star Wars II - The Original Trilogy": [
-            ["LEGO Star Wars - The Complete Saga", -1]
+            ["LEGO Star Wars - The Complete Saga", 0]
         ],
         "Let's Draw!": [
             ["1-nichi 10-pun de E ga Jouzu ni Kakeru DS", 1]
@@ -1604,7 +1620,7 @@
             ["Mario vs. Donkey Kong 2 - MiniMini Daikoushin!", 1]
         ],
         "Marvel Super Hero Squad": [
-            ["Marvel Super Hero Squad (Walmart Edition)", -1]
+            ["Marvel Super Hero Squad (Walmart Edition)", 0]
         ],
         "Master of Illusion": [
             ["Magic Made Fun - Perform Tricks That Will Amaze Your Friends!", 1],
@@ -1872,7 +1888,6 @@
         ],
         "Naruto Shippuden - Naruto vs Sasuke": [
             ["Naruto Jilpungjeon - Choegangninja Daegyeoljip 2 - Gyeokttol!! Naruto vs Sasuke", 1],
-            ["Naruto Shippuden - Naruto vs Sasuke", 1],
             ["Naruto Shippuu Den - Saikyou Ninja Daikesshuu - Gekitotsu!! Naruto vs Sasuke", 1]
         ],
         "Naruto Shippuden - Ninja Council 4": [
@@ -2335,7 +2350,7 @@
             ["Princess Debut - The Royal Ball", 1]
         ],
         "Princess and the Frog, The": [
-            ["Princess and the Frog, The - Taste of New Orleans Edition", -1]
+            ["Princess and the Frog, The - Taste of New Orleans Edition", 0]
         ],
         "Princess Isabella - A Witch's Curse": [
             ["Princess Isabella - Witch's Curse", 1]
@@ -2701,7 +2716,7 @@
             ["Spider-Man - Amigo o Enemigo", 1],
             ["Spider-Man - Freund oder Feind", 1]
         ],
-        "SpongeBob SquarePants featuring Nicktoons - Globs of Doom": [
+        "SpongeBob SquarePants Featuring Nicktoons - Globs of Doom": [
             ["SpongeBobgwa Chingudeul", 1]
         ],
         "SpongeBob vs the Big One - Beach Party Cook-Off": [
@@ -2863,9 +2878,6 @@
         "ThinkSmart Games - Scotland Yard - Hunting Mister X": [
             ["Scotland Yard - Hunting Mister X", 1]
         ],
-        "ThunderCats": [
-            ["Thundercats", 1]
-        ],
         "Tierliebe Gross Geschrieben": [
             ["Real Stories - Veterinaire", 1]
         ],
@@ -2939,7 +2951,7 @@
             ["Toy Shop Tycoon", 1]
         ],
         "Toy Story 3": [
-            ["Toy Story 3 - To The Rescue! Edition (Target Exclusive)", -1]
+            ["Toy Story 3 - To The Rescue! Edition (Target Exclusive)", 0]
         ],
         "Trace Memory": [
             ["Another Code - Futatsu no Kioku", 1],
@@ -3013,11 +3025,11 @@
         "Vita di Emma, La - Professione Infermiera": [
             ["Vie d'Emma, La - Infirmiere de Choc", 1]
         ],
-        "WWE SmackDown vs Raw 2008 featuring ECW": [
-            ["WWE SmackDown dae Raw 2008 featuring ECW", 1]
+        "WWE SmackDown vs Raw 2008 Featuring ECW": [
+            ["WWE SmackDown dae Raw 2008 Featuring ECW", 1]
         ],
-        "WWE SmackDown vs Raw 2009 featuring ECW": [
-            ["WWE SmackDown dae Raw 2009 featuring ECW", 1]
+        "WWE SmackDown vs Raw 2009 Featuring ECW": [
+            ["WWE SmackDown dae Raw 2009 Featuring ECW", 1]
         ],
         "Wario - Master of Disguise": [
             ["Kaitou Wario the Seven", 1]
@@ -3110,8 +3122,8 @@
         "Zenses - Rainforest (Knowledge Adventure)": [
             ["Zenses - Rainforest", 2]
         ],
-        "Zhu Zhu Pets 2 - Featuring the Wild Bunch": [
-            ["Zhu Zhu Pets featuring the Wild Bunch", 1]
+        "ZhuZhu Pets 2 Featuring The Wild Bunch": [
+            ["ZhuZhu Pets Featuring The Wild Bunch", 1]
         ],
         "Zoo Tycoon 2 DS": [
             ["Zoo Tycoon 2", 1]

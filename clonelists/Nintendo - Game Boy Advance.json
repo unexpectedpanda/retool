@@ -3,61 +3,71 @@
         "name": [
 			"Nintendo - Game Boy Advance"
 		],
-        "last updated": "21 January 2021"
+        "last updated": "9 April 2021",
+		"minimum version": "0.89"
     },
 
     "overrides": {
-        "Gadget Racers (Europe) (En,Fr,De)": ["Shifting Gears - Road Trip", false],
-        "Kim Possible (Japan)": ["Kim Possible 2 - Drakken's Demise", false],
-        "Lilo & Stitch (Japan)": ["Lilo & Stitch 2 - Haemsterviel Havoc", false]
+        "Gadget Racers (Europe) (En,Fr,De)": {
+            "new group": "Shifting Gears - Road Trip",
+            "match": "tag free"
+        },
+        "Kim Possible (Japan)": {
+            "new group": "Kim Possible 2 - Drakken's Demise",
+            "match": "tag free"
+        },
+        "Lilo & Stitch (Japan)": {
+            "new group": "Lilo & Stitch 2 - Haemsterviel Havoc",
+            "match": "tag free"
+        }
     },
 
-    "compilations": [
-        "2 Games in 1 - Cartoon Network Block Party + Cartoon Network Speedway (USA)",
-        "2 Games in 1 - Disney Princess + Brother Bear (Europe) (En+En,Fr,De,Es,It,Nl,Sv,Da)",
-        "2 Games in 1 - Disney Princess + Lizzie McGuire (Europe)",
-        "2 Games in 1 - Finding Nemo + Finding Nemo - The Continuing Adventures (Europe) (Es,It+En,Es,It,Sv,Da)",
-        "2 Games in 1 - Finding Nemo + Finding Nemo - The Continuing Adventures (Europe) (En+En,Es,It,Sv,Da)",
-        "2 Games in 1 - Finding Nemo + Finding Nemo - The Continuing Adventures (Europe) (Fr,Nl+Fr,De,Nl)",
-        "2 Games in 1 - Finding Nemo + The Incredibles (Europe)",
-        "2 Games in 1 - Finding Nemo + The Incredibles (Europe) (Fr,Nl)",
-        "2 Games in 1 - Hot Wheels - Velocity X + Hot Wheels - World Race (USA)",
-        "2 Games in 1 - Hot Wheels - Velocity X + Hot Wheels - World Race (Europe)",
-        "2 Games in 1 - Monsters, Inc. + Finding Nemo (USA)",
-        "2 Games in 1 - Monsters, Inc. + Finding Nemo (Europe)",
-        "2 Games in 1 - Power Rangers - Ninja Storm + Power Rangers - Time Force (USA) (En,Fr,De+En)",
-        "2 Games in 1 - Power Rangers - Ninja Storm + Power Rangers - La Force du Temps (France) (En,Fr,De+Fr)",
-        "2 Games in 1 - Power Rangers - Ninja Storm + Power Rangers - Time Force (Europe) (En,Fr,De+En)",
-        "2 Games in 1 - Power Rangers - Ninja Storm + Power Rangers - Time Force (Germany) (En,Fr,De+De)",
-        "2 Games in 1 - Rugrats - Go Wild + SpongeBob SquarePants - SuperSponge (Europe)",
-        "2 Games in 1 - Scooby-Doo + Scooby-Doo 2 - Monsters Unleashed (USA)",
-        "2 Games in 1 - Scooby-Doo + Scooby-Doo 2 - Monsters Unleashed (Europe)",
-        "2 Games in 1 - Scooby-Doo! - Mystery Mayhem + Scooby-Doo and the Cyber Chase (USA) (En,Fr,De+En)",
-        "2 Games in 1 - Scooby-Doo! - Mystery Mayhem + Scooby-Doo and the Cyber Chase (Europe) (En,Fr,De+En)",
-        "2 Games in 1 - Sonic Advance + ChuChu Rocket! (Europe) (En,Ja,Fr,De,Es)",
-        "2 Games in 1 - Sonic Advance + Sonic Battle (Europe) (En,Ja,Fr,De,Es+En,Ja,Fr,De,Es,It)",
-        "2 Games in 1 - Sonic Battle + Sonic Pinball Party (Europe) (En,Ja,Fr,De,Es,It)",
-        "2 Games in 1 - SpongeBob SquarePants - Revenge of the Flying Dutchman + SpongeBob SquarePants - SuperSponge (USA)",
-        "2 Games in 1 - SpongeBob SquarePants - Revenge of the Flying Dutchman + SpongeBob SquarePants - SuperSponge (Europe)",
-        "2 Games in 1 - The Lion King + Disney Princess (Europe) (En,Fr,De,Es,It,Nl,Sv,Da+En)",
-        "2 Games in 1 - SpongeBob SquarePants - SuperSponge + SpongeBob SquarePants - Battle for Bikini Bottom (Europe) (En+En,Fr,De)",
-        "2 Games in 1 - SpongeBob SquarePants - SuperSponge + SpongeBob SquarePants - Battle for Bikini Bottom (Europe)",
-        "2 Great Games! - Pac-Man World + Ms. Pac-Man - Maze Madness (USA)",
-        "2 in 1 Game Pack - Shrek 2 + Shark Tale (USA)",
-        "2 in 1 Game Pack - Shrek 2 & Shark Tale (Europe) (En,Fr,De,Es,It,Sv+En,Fr,De,Es,It)",
-        "2 in 1 Game Pack - Spider-Man + Spider-Man 2 (USA) (En,Fr,De+En,Fr,De,Es)",
-        "2 in 1 Game Pack - Spider-Man & Spider-Man 2 (Europe) (En,Fr,De+En,Fr,De,Es,It)",
-        "2-in-1 Fun Pack - Shrek 2 + Madagascar (USA)",
-        "2-in-1 Fun Pack - Shrek 2 + Madagascar (Europe)",
-        "2-in-1 Fun Pack - Shrek 2 + Madagascar - Operation Penguin (USA)",
-        "2-in-1 Fun Pack - Shrek 2 + Madagascar - Operation Penguin (Europe)",
-        "Crash & Spyro Super Pack Volume 3 (Europe) (En,Fr,De,Es,It)",
-        "Crash & Spyro Superpack - Spyro Orange - The Cortex Conspiracy + Crash Bandicoot Purple - Ripto's Rampage (USA)",
-        "Double Pack - Sonic Advance & ChuChu Rocket! (Japan) (En,Ja,Fr,De,Es)",
-        "Double Pack - Sonic Battle & Sonic Advance (Japan) (En,Ja,Fr,De,Es+En,Ja)",
-        "Double Pack - Sonic Pinball Party & Sonic Battle (Japan) (En,Ja+En,Ja,Fr,De,Es,It)",
-        "Pac-Man World & Ms. Pac-Man - Maze Madness (Europe) (En,Fr,De,Es,It)"
-    ],
+    "removes": {
+        "2 Games in 1 - Cartoon Network Block Party + Cartoon Network Speedway (USA)": {},
+        "2 Games in 1 - Disney Princess + Brother Bear (Europe) (En+En,Fr,De,Es,It,Nl,Sv,Da)": {},
+        "2 Games in 1 - Disney Princess + Lizzie McGuire (Europe)": {},
+        "2 Games in 1 - Finding Nemo + Finding Nemo - The Continuing Adventures (Europe) (Es,It+En,Es,It,Sv,Da)": {},
+        "2 Games in 1 - Finding Nemo + Finding Nemo - The Continuing Adventures (Europe) (En+En,Es,It,Sv,Da)": {},
+        "2 Games in 1 - Finding Nemo + Finding Nemo - The Continuing Adventures (Europe) (Fr,Nl+Fr,De,Nl)": {},
+        "2 Games in 1 - Finding Nemo + The Incredibles (Europe)": {},
+        "2 Games in 1 - Finding Nemo + The Incredibles (Europe) (Fr,Nl)": {},
+        "2 Games in 1 - Hot Wheels - Velocity X + Hot Wheels - World Race (USA)": {},
+        "2 Games in 1 - Hot Wheels - Velocity X + Hot Wheels - World Race (Europe)": {},
+        "2 Games in 1 - Monsters, Inc. + Finding Nemo (USA)": {},
+        "2 Games in 1 - Monsters, Inc. + Finding Nemo (Europe)": {},
+        "2 Games in 1 - Power Rangers - Ninja Storm + Power Rangers - Time Force (USA) (En,Fr,De+En)": {},
+        "2 Games in 1 - Power Rangers - Ninja Storm + Power Rangers - La Force du Temps (France) (En,Fr,De+Fr)": {},
+        "2 Games in 1 - Power Rangers - Ninja Storm + Power Rangers - Time Force (Europe) (En,Fr,De+En)": {},
+        "2 Games in 1 - Power Rangers - Ninja Storm + Power Rangers - Time Force (Germany) (En,Fr,De+De)": {},
+        "2 Games in 1 - Rugrats - Go Wild + SpongeBob SquarePants - SuperSponge (Europe)": {},
+        "2 Games in 1 - Scooby-Doo + Scooby-Doo 2 - Monsters Unleashed (USA)": {},
+        "2 Games in 1 - Scooby-Doo + Scooby-Doo 2 - Monsters Unleashed (Europe)": {},
+        "2 Games in 1 - Scooby-Doo! - Mystery Mayhem + Scooby-Doo and the Cyber Chase (USA) (En,Fr,De+En)": {},
+        "2 Games in 1 - Scooby-Doo! - Mystery Mayhem + Scooby-Doo and the Cyber Chase (Europe) (En,Fr,De+En)": {},
+        "2 Games in 1 - Sonic Advance + ChuChu Rocket! (Europe) (En,Ja,Fr,De,Es)": {},
+        "2 Games in 1 - Sonic Advance + Sonic Battle (Europe) (En,Ja,Fr,De,Es+En,Ja,Fr,De,Es,It)": {},
+        "2 Games in 1 - Sonic Battle + Sonic Pinball Party (Europe) (En,Ja,Fr,De,Es,It)": {},
+        "2 Games in 1 - SpongeBob SquarePants - Revenge of the Flying Dutchman + SpongeBob SquarePants - SuperSponge (USA)": {},
+        "2 Games in 1 - SpongeBob SquarePants - Revenge of the Flying Dutchman + SpongeBob SquarePants - SuperSponge (Europe)": {},
+        "2 Games in 1 - The Lion King + Disney Princess (Europe) (En,Fr,De,Es,It,Nl,Sv,Da+En)": {},
+        "2 Games in 1 - SpongeBob SquarePants - SuperSponge + SpongeBob SquarePants - Battle for Bikini Bottom (Europe) (En+En,Fr,De)": {},
+        "2 Games in 1 - SpongeBob SquarePants - SuperSponge + SpongeBob SquarePants - Battle for Bikini Bottom (Europe)": {},
+        "2 Great Games! - Pac-Man World + Ms. Pac-Man - Maze Madness (USA)": {},
+        "2 in 1 Game Pack - Shrek 2 + Shark Tale (USA)": {},
+        "2 in 1 Game Pack - Shrek 2 & Shark Tale (Europe) (En,Fr,De,Es,It,Sv+En,Fr,De,Es,It)": {},
+        "2 in 1 Game Pack - Spider-Man + Spider-Man 2 (USA) (En,Fr,De+En,Fr,De,Es)": {},
+        "2 in 1 Game Pack - Spider-Man & Spider-Man 2 (Europe) (En,Fr,De+En,Fr,De,Es,It)": {},
+        "2-in-1 Fun Pack - Shrek 2 + Madagascar (USA)": {},
+        "2-in-1 Fun Pack - Shrek 2 + Madagascar (Europe)": {},
+        "2-in-1 Fun Pack - Shrek 2 + Madagascar - Operation Penguin (USA)": {},
+        "2-in-1 Fun Pack - Shrek 2 + Madagascar - Operation Penguin (Europe)": {},
+        "Crash & Spyro Super Pack Volume 3 (Europe) (En,Fr,De,Es,It)": {},
+        "Crash & Spyro Superpack - Spyro Orange - The Cortex Conspiracy + Crash Bandicoot Purple - Ripto's Rampage (USA)": {},
+        "Double Pack - Sonic Advance & ChuChu Rocket! (Japan) (En,Ja,Fr,De,Es)": {},
+        "Double Pack - Sonic Battle & Sonic Advance (Japan) (En,Ja,Fr,De,Es+En,Ja)": {},
+        "Double Pack - Sonic Pinball Party & Sonic Battle (Japan) (En,Ja+En,Ja,Fr,De,Es,It)": {},
+        "Pac-Man World & Ms. Pac-Man - Maze Madness (Europe) (En,Fr,De,Es,It)": {}
+    },
 
     "renames": {
         "2 Game Pack! - Matchbox Missions - Emergency Response + Air, Land and Sea Rescue": [
@@ -96,9 +106,6 @@
             ["2 Games in 1 - Monstres & Cie + Le Monde de Nemo", 1],
             ["2 Games in 1 - Monstruos, S.A. + Buscando a Nemo", 1]
         ],
-        "2 Games in 1 - Power Rangers - Ninja Storm + Power Rangers - Time Force": [
-            ["2 Games in 1 - Power Rangers - Ninja Storm + Power Rangers - La Force du Temps", 1]
-        ],
         "2 Games in 1 - Quad Desert Fury + Monster Trucks": [
             ["Double Game! - Quad Desert Fury & Monster Trucks", 1]
         ],
@@ -109,15 +116,6 @@
             ["2 Games in 1 - Scooby-Doo + Scooby-Doo 2 - Desatado", 1],
             ["2 Games in 1 - Scooby-Doo + Scooby-Doo 2 - Les Monstres Se Dechainent", 1]
         ],
-        "2 Games in 1 - Sonic Advance + ChuChu Rocket!": [
-            ["Double Pack - Sonic Advance & ChuChu Rocket!", 1]
-        ],
-        "2 Games in 1 - Sonic Advance + Sonic Battle": [
-            ["Double Pack - Sonic Battle & Sonic Advance", 1]
-        ],
-        "2 Games in 1 - Sonic Battle + Sonic Pinball Party": [
-            ["Double Pack - Sonic Pinball Party & Sonic Battle", 1]
-        ],
         "2 Games in 1 - The Lion King + Disney Princess": [
             ["2 Games in 1 - Disney Princesas + El Rey Leon", 1],
             ["2 Games in 1 - Disney Princesse + Le Roi Lion", 1],
@@ -127,15 +125,6 @@
         "2 Games in One! - Dr. Mario + Puzzle League": [
             ["2 Games in 1 - Dr. Mario + Puzzle League", 1],
             ["Dr. Mario & Panel de Pon", 1]
-        ],
-        "2 Great Games! - Pac-Man World + Ms. Pac-Man - Maze Madness": [
-            ["Pac-Man World & Ms. Pac-Man - Maze Madness", 1]
-        ],
-        "2 in 1 Game Pack - Shrek 2 + Shark Tale": [
-            ["2 in 1 Game Pack - Shrek 2 & Shark Tale", 1]
-        ],
-        "2 in 1 Game Pack - Spider-Man + Spider-Man 2": [
-            ["2 in 1 Game Pack - Spider-Man & Spider-Man 2", 1]
         ],
         "Advance Wars": [
             ["Lu-Hai-Kong Dazhan", 1]
@@ -156,7 +145,7 @@
         "All Grown Up! - Express Yourself": [
             ["Razbitume! - Restez Branches!", 1]
         ],
-        "All-Star Baseball 2004 featuring Derek Jeter": [
+        "All-Star Baseball 2004 Featuring Derek Jeter": [
             ["All-Star Baseball 2004", 2]
         ],
         "American Bass Challenge": [
@@ -294,9 +283,6 @@
         "Contra Advance - The Alien Wars EX": [
             ["Contra Hard Spirits", 1],
             ["Contra Advance", 2]
-        ],
-        "Crash & Spyro Superpack - Spyro Orange - The Cortex Conspiracy + Crash Bandicoot Purple - Ripto's Rampage": [
-            ["Crash & Spyro Super Pack Volume 3", 1]
         ],
         "Crash Bandicoot 2 - N-Tranced": [
             ["Crash Bandicoot Advance 2 - Guruguru Saimin Dai-panic!", 1]

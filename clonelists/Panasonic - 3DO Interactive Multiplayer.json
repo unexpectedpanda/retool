@@ -3,7 +3,8 @@
 		"name": [
 			"Panasonic - 3DO Interactive Multiplayer"
 		],
-		"last updated": "20 January 2021"
+		"last updated": "10 April 2021",
+		"minimum version": "0.89"
 	},
 
 	"renames": {
@@ -34,6 +35,9 @@
 		"Daedalus Encounter, The (Disc 4)": [
 			["Daedalus Encounter, The - Episode 1 - Nanpasen no Alien (Disc 4)", 1]
 		],
+		"Escape from Monster Manor": [
+			["Virtual Horror - Norowareta Yakata", 1]
+		],
 		"ESPN Golf - Lower Your Score with Tom Kite - Shot Making (Disc 1)": [
 			["ESPN Golf - Tom Kite no Kore ga Golf da! (Disc 1) (Shot Yousei Kouza Vol. 1)", 1]
 		],
@@ -48,6 +52,9 @@
 		],
 		"Guardian War": [
 			["Powers Kingdom", 1]
+		],
+		"Horde, The": [
+			["Horde, The (RCB)", 2]
 		],
 		"Incredible Machine, The": [
 			["Incredible Machine, The - Pararancho", 1]
@@ -98,9 +105,6 @@
 			["Shanghai - Banri no Choujou - The Great Wall", 1],
 			["Shanghai - Triple-Threat (3DO Action Pak)", 2]
 		],
-		"Shock Wave": [
-			["Shock Wave", 1]
-		],
 		"Slayer": [
 			["Lost Dungeon", 1],
 			["Slayer (3DO Action Pak)", 2]
@@ -112,7 +116,6 @@
 			["Star Control II - The Ur-Quan Masters", 1]
 		],
 		"Super Street Fighter II Turbo": [
-			["Super Street Fighter II Turbo", 1],
 			["Super Street Fighter II X - Grand Master Challenge", 1]
 		],
 		"Total Eclipse": [

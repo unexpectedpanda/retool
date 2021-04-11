@@ -12,21 +12,26 @@ import os
 import re
 import sys
 import time
+import traceback
 
 from itertools import permutations
 
-from modules.classes import Font, Regex, RegionKeys, Stats, TagKeys, Titles
-from modules.importdata import build_clone_lists, build_regions, build_tags, import_metadata
+from modules.classes import Regex, RegionKeys, Stats, TagKeys, Titles
+from modules.customfilters import recover_titles_for_custom_filters
+from modules.importdata import build_clone_lists, build_regions, build_tags,\
+    import_metadata
 from modules.output import generate_config, write_dat_file
-from modules.titleutils import assign_clones, get_title_count, report_stats, choose_cross_region_parents
-from modules.userinput import check_input, import_user_config, import_user_filters
-from modules.utils import old_windows, printverbose, printwrap
+from modules.parentselection import assign_clones, choose_cross_region_parents
+from modules.titleutils import get_title_count, report_stats
+from modules.userinput import check_input, import_user_config,\
+    import_user_filters
+from modules.utils import Font, old_windows, printverbose, printwrap
 from modules.xml import dat_to_dict, process_input_dat
 
 # Require at least Python 3.8
 assert sys.version_info >= (3, 8)
 
-__version__ = '0.87'
+__version__ = '0.89'
 
 def main(gui_input=''):
     # Start a timer from when the process started
@@ -42,12 +47,17 @@ def main(gui_input=''):
             f'Creates 1G1R versions of Redump ({Font.underline}'
             f'http://redump.org/{Font.end}) and No-Intro '
             f'({Font.underline}https://www.no-intro.org/{Font.end}) dats. '
-            f'A new dat file is automatically generated, the original file isn\'t altered.', 'no_indent'
+            f'A new dat file is automatically generated, the original file '
+            f'isn\'t altered.', 'no_indent'
         )
 
-        print(f'\nusage: {os.path.basename(sys.argv[0])} <input dat/folder> <options>')
+        print(
+            f'\nusage: {os.path.basename(sys.argv[0])} <input dat/folder> '
+            '<options>')
 
-        print(f'\nType {Font.bold}{os.path.basename(sys.argv[0])} -h{Font.end} for all options\n')
+        print(
+            f'\nType {Font.bold}{os.path.basename(sys.argv[0])} -h{Font.end} '
+            'for all options\n')
 
     # Generate regions and languages
     region_data = build_regions(RegionKeys())
@@ -72,7 +82,8 @@ def main(gui_input=''):
     # Generate user config files if they're missing
     generate_config(region_data.languages_long, region_data.region_order)
 
-    # Check user input -- if none, or there's an error, available options will be shown
+    # Check user input -- if none, or there's an error, available options will
+    # be shown
     if gui_input == '':
         user_input = check_input()
     else:
@@ -93,8 +104,8 @@ def main(gui_input=''):
         if 'UK' in region_data.implied_language:
             region_data.implied_language['United Kingdom'] = 'En'
 
-    # Based on region counts from redump.org. Used later to speed up processing through
-    # altering the order.
+    # Based on region counts from redump.org. Used later to speed up processing
+    # through altering the order.
     PRIORITY_REGIONS = [
         'USA', 'Japan', 'Europe', 'Germany', 'Poland', 'Italy',
         'France', 'Spain', 'Netherlands', 'Russia', 'Korea']
@@ -113,7 +124,8 @@ def main(gui_input=''):
     # Process the input file or folder
     if os.path.isdir(user_input.input_file_name) == True:
         is_folder = True
-        dat_files = glob.glob(os.path.abspath(user_input.input_file_name) + '/*.dat')
+        dat_files = glob.glob(
+            os.path.abspath(user_input.input_file_name) + '/*.dat')
         print('Processing folder...')
     else:
         is_folder = False
@@ -135,12 +147,33 @@ def main(gui_input=''):
         # Import the system's clone lists, if they exist
         input_dat.clone_lists = build_clone_lists(input_dat)
 
+        # Make sure this version of Retool can deal with the imported clone list
+        if input_dat.clone_lists is not None:
+            if float(input_dat.clone_lists.min_version) > float(__version__):
+                out_of_date = ''
+
+                while not (out_of_date == 'y' or out_of_date == 'n'):
+                    printwrap(
+                        f'{Font.warning_bold}* This clone list requires Retool '
+                        f'{str(input_dat.clone_lists.min_version)} or higher. '
+                        'Behaviour might be unpredictable. Please update '
+                        'Retool to fix this.',
+                        'error'
+                    )
+
+                    out_of_date = input(f'\n  Continue? (y/n) {Font.end}')
+
+                if out_of_date == 'n':
+                    sys.exit()
+                else:
+                    print('')
+
         # Import scraped Redump metadata for titles
         input_dat.metadata = import_metadata(input_dat)
 
-        # Import user filters
+        # Import custom global filters
         if os.path.isfile(f'user-filters/global.yaml'):
-            user_filters = import_user_filters('global')
+            user_filters = import_user_filters('global', 'global')
             user_input.global_excludes = user_filters.data['exclude']
             user_input.global_includes = user_filters.data['include']
 
@@ -150,6 +183,7 @@ def main(gui_input=''):
             user_input.global_excludes = []
             user_input.global_includes = []
 
+        # Import custom system filters
         if 'PlayStation Portable' in input_dat.name:
             if 'no-intro' in input_dat.url:
                     filter_file = 'Sony - PlayStation Portable (No-Intro)'
@@ -159,7 +193,7 @@ def main(gui_input=''):
             filter_file = input_dat.name
 
         if os.path.isfile(f'user-filters/{filter_file}.yaml'):
-            user_filters = import_user_filters(filter_file)
+            user_filters = import_user_filters(filter_file, 'system')
             user_input.system_excludes = user_filters.data['exclude']
             user_input.system_includes = user_filters.data['include']
 
@@ -173,7 +207,8 @@ def main(gui_input=''):
         dat_numbered = False
 
         if 'no-intro' in input_dat.url.lower():
-            print('* Checking if the input dat is numbered... ', sep=' ', end='', flush=True)
+            print(
+                '* Checking if the input dat is numbered... ', sep=' ', end='', flush=True)
 
             dat_numbered = True
 
@@ -188,8 +223,9 @@ def main(gui_input=''):
 
         # Get the stats from the original soup object before it's changed later
         print('* Gathering stats... ', sep=' ', end='', flush=True)
-        stats = Stats(len(input_dat.soup.find_all('game')), user_input, input_dat)
+        original_title_count = len(input_dat.soup.find_all('game'))
 
+        stats = Stats(original_title_count)
         print('done.')
 
         # Provide dat details to reassure the user the correct file is being processed
@@ -209,15 +245,15 @@ def main(gui_input=''):
         if 'Unknown' in user_input.user_region_order:
             processing_region_order.append('Unknown')
 
-        # Set up a dictionary to record what titles have been removed, for when the user
-        # sets --log
+        # Set up a dictionary to record the title names that have been removed, for
+        # when the user sets --log
         user_input.removed_titles = {}
 
         # Convert each region's XML to dicts so we can more easily work with the data,
         # and determine each region's parent
         titles = Titles()
 
-        compilations_found = set()
+        removes_found = set()
 
         for region in processing_region_order:
             if old_windows() != True:
@@ -227,24 +263,23 @@ def main(gui_input=''):
                 )
             titles.regions[region] = dat_to_dict(
                 region, region_data, input_dat, user_input,
-                compilations_found, dat_numbered, REGEX)
+                removes_found, dat_numbered, REGEX)
 
             if old_windows() != True:
                 sys.stdout.write("\033[K")
 
-        # Deal with compilations
         if input_dat.clone_lists != None:
-            if user_input.no_compilations == True:
-                missing_compilations = {
-                    compilation for compilation in input_dat.clone_lists.compilations if compilation not in compilations_found}
+            # Deal with removes
+            missing_removes = {
+                remove for remove in input_dat.clone_lists.removes if remove not in removes_found}
 
-                for compilation in missing_compilations:
-                    printverbose(
-                        user_input.verbose,
-                        f'{Font.warning_bold}* Title in compilations list not found in dat or selected regions: '
-                        f'{compilation}{Font.end}')
+            for remove in missing_removes:
+                printverbose(
+                    user_input.verbose,
+                    f'{Font.warning_bold}* Title in removes list not found in dat: '
+                    f'{remove}{Font.end}')
 
-                stats.compilations_count = len(compilations_found)
+            stats.remove_count = len(removes_found)
 
         print('* Finding titles in regions... done.')
 
@@ -254,6 +289,12 @@ def main(gui_input=''):
         titles = choose_cross_region_parents(titles, user_input, dat_numbered, REGEX)
 
         print('* Finding parents across regions... done.')
+
+        # Recover titles for global/system includes
+        recovered_groups = {}
+
+        if user_input.no_filters == False:
+            recovered_groups = recover_titles_for_custom_filters(user_input, input_dat, dat_numbered, recovered_groups, region_data, REGEX)
 
         # Process clone lists
         if input_dat.clone_lists != None:
@@ -294,17 +335,30 @@ def main(gui_input=''):
                 else:
                     input_dat.name = input_dat.name + ' (Redump)'
 
+            # Merge in includes if there are any
+            if recovered_groups != {}:
+                for key, values in recovered_groups.items():
+                    if key not in titles.all:
+                        titles.all[key] = []
+
+                    for value in values:
+                        titles.all[key].append(value)
+                        stats.recovered_count = stats.recovered_count + 1
+
+            stats.final_title_count = stats.final_title_count + stats.recovered_count
+
             output_file_name = (
                 os.path.join(
                     user_input.output_folder_name,
-                    f'{input_dat.name} ({str("{:,}".format(stats.final_title_count))}) ({input_dat.version}) '
-                    f'[1G1R]{user_input.user_options} (Retool {datetime.datetime.now().strftime("%Y-%m-%d %H-%M-%SS")[:-1]}).dat'))
+                    f'{input_dat.name} ({input_dat.version}) '
+                    f'(Retool {datetime.datetime.now().strftime("%Y-%m-%d %H-%M-%SS")[:-1]}) ({str("{:,}".format(stats.final_title_count))}){user_input.user_options}.dat'))
 
             # Write the output dat file
-            write_dat_file(input_dat, user_input, output_file_name, stats, titles, dat_numbered, REGEX)
+            write_dat_file(input_dat, user_input, output_file_name, stats, titles, dat_numbered)
 
             # Report stats
-            report_stats(stats, titles, user_input, input_dat, region_data)
+            stats = Stats(original_title_count, user_input, stats.final_title_count, stats.clone_count, stats.recovered_count)
+            report_stats(stats, titles, user_input, input_dat)
 
         else:
             print(f'{Font.warning}\n* No titles found. No dat file has been created.{Font.end}')
@@ -344,7 +398,7 @@ def main(gui_input=''):
             finish_message = (
                 f'{Font.success}* Finished adding '
                 f'{str("{:,}".format(stats.final_title_count))}'
-                f' unique titles to "{Font.bold}{output_file_name}" '
+                f' unique titles to "{Font.bold}{os.path.abspath(output_file_name)}" '
                 f'{Font.success}in {total_time_elapsed}s.{Font.end}'
                 )
         else:
@@ -362,4 +416,9 @@ def retool_version():
 
 
 if __name__ == '__main__':
-    main()
+    try:
+        main()
+    except Exception:
+        print(f'{Font.error_bold}\n\n* Unexpected error:\n\n{Font.end}')
+        traceback.print_exc()
+        input(f'{Font.error_bold}\n\nPress any key to quit Retool{Font.end}')

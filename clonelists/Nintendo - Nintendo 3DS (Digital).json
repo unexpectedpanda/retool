@@ -3,7 +3,8 @@
         "name": [
 			"Nintendo - Nintendo 3DS (Digital)"
 		],
-        "last updated": "14 July 2020"
+        "last updated": "9 April 2021",
+		"minimum version": "0.89"
     },
 
     "renames": {
@@ -84,9 +85,8 @@
         "Ketzal's Corridors": [
             ["SpeedThru - Potzol's Puzzle", 1]
         ],
-        "Kirby & the Amazing Mirror": [
-            ["Hoshi no Kirby - Kagami no Daimeikyuu", 1],
-            ["Kirby & The Amazing Mirror", 1]
+        "Kirby & The Amazing Mirror": [
+            ["Hoshi no Kirby - Kagami no Daimeikyuu", 1]
         ],
         "Legend of Dark Witch, The": [
             ["Legend of Dark Witch, The - Chronicle 2D ACT", 1]
@@ -107,8 +107,8 @@
             ["Mud Attack! Max vs Dorodoro Seijin", 1]
         ],
         "New Super Mario Bros. 2": [
-            ["New Super Mario Bros. 2 Gold Edition", -1],
-            ["New Super Mario Bros. 2 Special Edition", -1]
+            ["New Super Mario Bros. 2 Gold Edition", 0],
+            ["New Super Mario Bros. 2 Special Edition", 0]
         ],
         "New Super Mario Bros. 2 Gold Edition": [
             ["New Super Mario Bros. 2 Special Edition", 1]
@@ -124,9 +124,6 @@
         ],
         "Photos with Mario": [
             ["Isshoni Photo Super Mario", 1]
-        ],
-        "PIX3D": [
-            ["Pix3D", 1]
         ],
         "Pocket Card Jockey": [
             ["SolitiBa", 1]
@@ -145,7 +142,6 @@
             ["Pullblox", 1]
         ],
         "PUZZLEBOX setup": [
-            ["PUZZLEBOX Setup", 1],
             ["Puzzle Bottle", 1]
         ],
         "Quell Memento": [
@@ -161,7 +157,7 @@
             ["Hana Samurai - Art of the Sword", 1]
         ],
         "Shovel Knight": [
-            ["Shovel Knight + Shovel Knight - Plague of Shadows", -1]
+            ["Shovel Knight + Shovel Knight - Plague of Shadows", 0]
         ],
         "Skater Cat": [
             ["peakvox - Mew Mew Train", 1]

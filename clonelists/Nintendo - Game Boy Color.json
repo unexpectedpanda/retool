@@ -3,11 +3,15 @@
         "name": [
 			"Nintendo - Game Boy Color"
 		],
-        "last updated": "9 January 2021"
+        "last updated": "9 April 2021",
+		"minimum version": "0.89"
     },
 
     "overrides": {
-        "Game Boy Gallery 3 (Japan) (SGB Enhanced) (GB Compatible)": ["Game & Watch Gallery 3", true]
+        "Game Boy Gallery 3 (Japan) (SGB Enhanced) (GB Compatible)": {
+            "new group": "Game & Watch Gallery 3",
+            "match": "full"
+        }
     },
 
     "renames": {

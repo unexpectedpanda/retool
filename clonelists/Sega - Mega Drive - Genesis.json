@@ -3,11 +3,15 @@
 		"name": [
 			"Sega - Mega Drive - Genesis"
 		],
-		"last updated": "21 January 2021"
+		"last updated": "11 April 2021",
+		"minimum version": "0.89"
     },
 
     "overrides": {
-        "Marble Madness (Japan)": ["Marble Madness (Japan)", true]
+        "Marble Madness (Japan)": {
+            "new group": "Marble Madness (Japan)",
+            "match": "full"
+        }
     },
 
 	"renames": {
@@ -232,7 +236,7 @@
         "General Chaos": [
             ["General Chaos Daikonsen", 1]
         ],
-        "Generals of the Yang Family": [
+        "Clan of Heroes - Generals of the Yang Family": [
             ["Yi Men Ying Lie - Yang Jia Jiang", 1]
         ],
         "Genghis Khan II - Clan of the Gray Wolf": [
@@ -276,6 +280,9 @@
         "Jesse 'The Body' Ventura - Wrestling Superstars": [
             ["Thunder Pro Wrestling Retsuden", 1]
         ],
+        "Joe Montana II - Sports Talk Football": [
+            ["Joe Montana II Sports Talk Football", 2]
+        ],
         "John Madden Football '92": [
             ["John Madden Football - Pro Football", 1]
         ],
@@ -318,7 +325,7 @@
         "Madden NFL '94": [
             ["NFL Pro Football '94", 1]
         ],
-        "Magic Girl featuring Ling Ling the Little Witch": [
+        "Magic Girl Featuring Ling Ling the Little Witch": [
             ["Xiao Monv - Magic Girl", 1]
         ],
         "Marko": [
@@ -349,9 +356,6 @@
         ],
         "Mystical Fighter": [
             ["Maou Renjishi", 1]
-        ],
-        "NBA Action '94": [
-            ["NBA Action", 1]
         ],
         "NBA Showdown '94": [
             ["NBA Pro Basketball '94", 1]
@@ -497,13 +501,11 @@
         ],
         "Sonic & Knuckles + Sonic The Hedgehog 2 + Sonic The Hedgehog 3": [
             ["Sonic & Knuckles + Sonic The Hedgehog 3", 2],
-            ["Sonic & Knuckles (Sonic Classic Collection)", 3],
             ["Sonic The Hedgehog 3 Limited Edition", 3],
             ["Sonic & Knuckles", 4]
         ],
-        "Sonic The Hedgehog 3 (Sonic Classic Collection)": [
-            ["Sonic 3", 1],
-            ["Sonic The Hedgehog 3", 2]
+        "Sonic The Hedgehog 3": [
+            ["Sonic 3", 1]
         ],
         "Sonic 3D Blast ~ Sonic 3D Flickies' Island": [
             ["Sonic 3D Blast", 2],
@@ -511,12 +513,6 @@
         ],
         "Sonic Compilation ~ Sonic Classics": [
             ["Sonic Compilation", 1]
-        ],
-        "Sonic The Hedgehog (Sonic Classic Collection)": [
-            ["Sonic The Hedgehog", 1]
-        ],
-        "Sonic The Hedgehog 2 (Sonic Classic Collection)": [
-            ["Sonic The Hedgehog 2", 2]
         ],
         "Sorcerer's Kingdom": [
             ["Sorcer Kingdom", 1]
@@ -655,12 +651,16 @@
         "Two Crude Dudes": [
             ["Crude Buster", 1]
         ],
-        "Tyrants - Fight through Time": [
+        "Tyrants - Fight Through Time": [
             ["Mega lo Mania", 1],
             ["Mega-lo-Mania", 1]
         ],
         "Ultimate QIX": [
             ["Volfied", 1]
+        ],
+        "Ultracore": [
+            ["Ultracore (MD-1.0)", 1],
+            ["Ultracore (V-1.0)", 2]
         ],
         "Uncharted Waters": [
             ["Daikoukai Jidai", 1]
@@ -683,7 +683,7 @@
         "Warsong": [
             ["Langrisser", 1]
         ],
-        "Water Margin - The Tales of Clouds and Winds": [
+        "Water Margin - A Tale of Clouds and Wind": [
             ["Shui Hu - Feng Yun Zhuan", 1]
         ],
         "Whip Rush": [

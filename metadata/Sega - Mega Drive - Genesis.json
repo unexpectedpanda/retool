@@ -11,7 +11,7 @@
 	"16 Zhang Mahjong II (Taiwan) (Unl)": {
 		"languages": "Zh"
 	},
-	"16BIT Rhythm Land (World) (Unl)": {
+	"16Bit Rhythm Land (World) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
 	"16t (Japan) (SegaNet)": {
@@ -54,6 +54,9 @@
 		"languages": "En"
 	},
 	"Addams Family Values (Europe) (En,Fr,De)": {
+		"languages": "En,Fr,De"
+	},
+	"Addams Family Values (USA) (En,Fr,De) (Proto)": {
 		"languages": "En,Fr,De"
 	},
 	"Addams Family, The (USA, Europe) (Beta)": {
@@ -108,6 +111,9 @@
 		"languages": "En"
 	},
 	"Adventures of Batman & Robin, The (USA) (Beta) (1995-04-28)": {
+		"languages": "En"
+	},
+	"Adventures of Batman & Robin, The (USA) (Beta) (1995-05-01)": {
 		"languages": "En"
 	},
 	"Adventures of Mighty Max, The (Europe)": {
@@ -188,13 +194,13 @@
 	"Aladdin (USA) (Beta) (July, 1993)": {
 		"languages": "En"
 	},
-	"Aladdin (USA) (Beta) (1993-06-27) (Chicago C.E.S. Demo)": {
+	"Aladdin (USA) (Beta) (1993-06-27)": {
 		"languages": "En"
 	},
 	"Aladdin (Japan) (En) (Beta) (1993-07-31)": {
 		"languages": "En"
 	},
-	"Aladdin (USA) (Final Cut)": {
+	"Aladdin (USA) (Final Cut) (Aftermarket)": {
 		"languages": "En"
 	},
 	"Aladdin II (Taiwan) (En) (Unl)": {
@@ -237,6 +243,15 @@
 		"languages": "Ja"
 	},
 	"Alisia Dragoon (USA)": {
+		"languages": "En"
+	},
+	"Alisia Dragoon (USA) (Genesis Mini)": {
+		"languages": "En"
+	},
+	"Alisia Dragoon (Japan) (Mega Drive Mini)": {
+		"languages": "Ja"
+	},
+	"Alter Ego (World) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
 	"Altered Beast (USA, Europe)": {
@@ -295,6 +310,27 @@
 	},
 	"Ariel the Little Mermaid (USA, Europe) (1992-10-10) (Sega Channel)": {
 		"languages": "En"
+	},
+	"Arkagis Revolution (World) (En,Fr,Es) (Rev 1) (Aftermarket) (Unl)": {
+		"languages": "En,Fr,Es"
+	},
+	"Arkagis Revolution (World) (En,Es) (Prerelease) (2019-07-29) (Unl)": {
+		"languages": "En,Es"
+	},
+	"Arkagis Revolution (World) (En,Es) (Prerelease) (2019-09-02) (Unl)": {
+		"languages": "En,Es"
+	},
+	"Arkagis Revolution (World) (En,Es) (Prerelease) (2019-09-16) (Unl)": {
+		"languages": "En,Es"
+	},
+	"Arkagis Revolution (World) (En,Fr,Es) (Prerelease) (2019-11-28) (Unl)": {
+		"languages": "En,Fr,Es"
+	},
+	"Arkagis Revolution (World) (En,Fr,Es) (Prerelease) (2020-03-04) (Unl)": {
+		"languages": "En,Fr,Es"
+	},
+	"Arkagis Revolution (World) (En,Fr,Es) (Prerelease) (2019-02-21) (Unl)": {
+		"languages": "En,Fr,Es"
 	},
 	"Arnold Palmer Tournament Golf (USA, Europe)": {
 		"languages": "En"
@@ -470,8 +506,8 @@
 	"Bare Knuckle II (Japan) (Beta)": {
 		"languages": "Ja"
 	},
-	"Bare Knuckle II - Shitou e no Requiem ~ Streets of Rage II (Japan, Europe)": {
-		"languages": "En"
+	"Bare Knuckle II - Shitou e no Requiem ~ Streets of Rage II (Japan, Europe) (En,Ja)": {
+		"languages": "En,Ja"
 	},
 	"Bare Knuckle III (Japan)": {
 		"languages": "Ja"
@@ -536,13 +572,13 @@
 	"Battle Squadron (USA, Europe)": {
 		"languages": "En"
 	},
-	"Battle Squadron (USA, Europe) (1991-01-18) (Sega Channel)": {
+	"Battle Squadron (USA, Europe) (Rev 1) (Beta) (1991-01-18) (Sega Channel)": {
 		"languages": "En"
 	},
 	"Battlemaster (USA)": {
 		"languages": "En"
 	},
-	"BattleTech - A Game of Armored Combat (USA)": {
+	"Battletech - A Game of Armored Combat (USA)": {
 		"languages": "En"
 	},
 	"Battletoads (World)": {
@@ -578,10 +614,10 @@
 	"Beavis and Butt-Head (USA) (Beta)": {
 		"languages": "En"
 	},
-	"Beggar Prince (World) (Unl)": {
+	"Beggar Prince (World) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
-	"Beggar Prince (World) (Rev 1) (Unl)": {
+	"Beggar Prince (World) (Rev 1) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
 	"Berenstain Bears' Camping Adventure, The (USA)": {
@@ -659,7 +695,7 @@
 	"Beyond Oasis (USA) (Beta) (1994-11-01)": {
 		"languages": "En"
 	},
-	"Beyond Zero Tolerance (USA) (Proto)": {
+	"Beyond Zero Tolerance (USA) (Proto) (1995-06-23)": {
 		"languages": "En"
 	},
 	"Bible Adventures (USA) (Unl)": {
@@ -677,10 +713,16 @@
 	"Bimini Run (USA)": {
 		"languages": "En"
 	},
-	"Bio Hazard Battle (USA, Europe) (Beta) (August, 1992)": {
+	"Bio Evil (World) (Demo) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Bio Hazard Battle (USA, Europe) (Beta 2) (August, 1992)": {
 		"languages": "En"
 	},
 	"Bio Hazard Battle (USA, Europe)": {
+		"languages": "En"
+	},
+	"Bio Hazard Battle (USA, Europe) (Beta 1)": {
 		"languages": "En"
 	},
 	"Bishoujo Senshi Sailor Moon (Japan)": {
@@ -884,7 +926,7 @@
 	"Cannon Fodder (Europe)": {
 		"languages": "En"
 	},
-	"Canon - The Legend of the New Gods (World)": {
+	"Canon - The Legend of the New Gods (World) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
 	"Captain America and the Avengers (Europe)": {
@@ -905,7 +947,7 @@
 	"Captain Planet and the Planeteers (Europe) (Beta)": {
 		"languages": "En"
 	},
-	"Cascade (World) (Unl)": {
+	"Cascade (World) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
 	"Castle of Illusion Starring Mickey Mouse (USA, Europe)": {
@@ -924,6 +966,9 @@
 		"languages": "En"
 	},
 	"Castlevania - The New Generation (Europe) (Beta)": {
+		"languages": "En"
+	},
+	"Castlevania - The New Generation (Europe) (Mega Drive Mini)": {
 		"languages": "En"
 	},
 	"CDX Pro (World) (v1.70) (Program) (Unl) [b]": {
@@ -1034,6 +1079,9 @@
 	"Chuck Rock II - Son of Chuck (USA) (Beta)": {
 		"languages": "En"
 	},
+	"Clan of Heroes - Generals of the Yang Family (World) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
 	"Classic Collection (Europe)": {
 		"languages": "En"
 	},
@@ -1055,10 +1103,13 @@
 	"Coach K College Basketball (USA)": {
 		"languages": "En"
 	},
-	"Coffee Crisis (World) (Unl)": {
+	"Coffee Crisis (World) (Rev 1) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
 	"Coffee Crisis (World) (Demo) (Unl)": {
+		"languages": "En"
+	},
+	"Coffee Crisis (World) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
 	"College Football USA 96 (USA)": {
@@ -1217,7 +1268,13 @@
 	"Contra - Hard Corps (USA, Korea)": {
 		"languages": "En"
 	},
+	"Contra - Hard Corps (USA) (Genesis Mini)": {
+		"languages": "En"
+	},
 	"Contra - The Hard Corps (Japan)": {
+		"languages": "Ja"
+	},
+	"Contra - The Hard Corps (Japan) (Mega Drive Mini)": {
 		"languages": "Ja"
 	},
 	"Cool Spot (Europe)": {
@@ -1328,13 +1385,16 @@
 	"Curse (USA) (Proto) (1990-06-26) (Sega Channel)": {
 		"languages": "En"
 	},
-	"Curse of Illmoore Bay, The (World) (Demo 3) (Unl)": {
+	"Curse of Illmoore Bay, The (World) (Demo 3) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
-	"Curse of Illmoore Bay, The (World) (Demo 2) (Unl)": {
+	"Curse of Illmoore Bay, The (World) (Demo 2) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
-	"Curse of Illmoore Bay, The (World) (Demo 1) (Unl)": {
+	"Curse of Illmoore Bay, The (World) (Demo 1) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Custodian (World) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
 	"Cutie Suzuki no Ringside Angel (Japan)": {
@@ -1382,7 +1442,7 @@
 	"Daimakaimura (Japan)": {
 		"languages": "Ja"
 	},
-	"Daimakaimura ~ Ghouls'n Ghosts (World)": {
+	"Daimakaimura ~ Ghouls'n Ghosts (Japan, USA)": {
 		"languages": "En"
 	},
 	"Daimakaimura ~ Ghouls'n Ghosts (World) (Rev A)": {
@@ -1484,10 +1544,10 @@
 	"Demolition Man (USA, Europe)": {
 		"languages": "En"
 	},
-	"Demons of Asteborg (World) (Demo 1) (Unl)": {
+	"Demons of Asteborg (World) (Demo 1) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
-	"Demons of Asteborg (World) (Demo 2) (Unl)": {
+	"Demons of Asteborg (World) (Demo 2) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
 	"Desert Demolition (USA, Europe) (Beta) (1994-12-06)": {
@@ -1535,7 +1595,7 @@
 	"Devilish - The Next Possession (USA)": {
 		"languages": "En"
 	},
-	"Devwill Too (World) (Alt) (Aftermarket) (Unl)": {
+	"Devwill Too (World) (Alt 1) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
 	"Devwill Too (World) (Demo) (Aftermarket) (Unl)": {
@@ -1546,6 +1606,9 @@
 	},
 	"Devwill Too (World) (Aftermarket) (Unl)": {
 		"languages": "En"
+	},
+	"Devwill Too (World) (Pt-BR) (Alt 1) (Aftermarket)": {
+		"languages": "Pt-BR"
 	},
 	"Dexstar (USA, Europe) (Beta) (1994-08-12)": {
 		"languages": "En"
@@ -1585,6 +1648,9 @@
 	},
 	"DJ Boy (USA)": {
 		"languages": "En"
+	},
+	"Domine o Territorio (Brazil) (Aftermarket) (Unl)": {
+		"languages": "Pt"
 	},
 	"Dominus (USA) (Proto)": {
 		"languages": "En"
@@ -1754,7 +1820,7 @@
 	"Earnest Evans (USA) (Beta)": {
 		"languages": "En"
 	},
-	"Earth Defense ~ Earth Defend, The (USA, Asia) (Unl)": {
+	"Earth Defense ~ Earth Defend, The (USA, Taiwan) (Unl)": {
 		"languages": "En"
 	},
 	"Earthworm Jim (Europe)": {
@@ -1826,6 +1892,15 @@
 	"Eliminate Down (Japan)": {
 		"languages": "Ja"
 	},
+	"Elite (Unknown) (Tech Demo, Game)": {
+		"languages": "En"
+	},
+	"Elite (Unknown) (Tech Demo, Soaker)": {
+		"languages": "En"
+	},
+	"Elite (Unknown) (Tech Demo, Viewer)": {
+		"languages": "En"
+	},
 	"Elitserien 95 (Sweden)": {
 		"languages": "Sv"
 	},
@@ -1835,8 +1910,11 @@
 	"Empire of Steel (Europe)": {
 		"languages": "En"
 	},
-	"Escape 2042 - The Truth Defenders (World) (Unl)": {
-		"languages": "En"
+	"Escape 2042 - The Truth Defenders (World) (En,Ja,Fr,Es) (Preview) (Aftermarket) (Unl)": {
+		"languages": "En,Ja,Fr,Es"
+	},
+	"Escape 2042 - The Truth Defenders (World) (En,Ja,Fr,Es) (Aftermarket) (Unl)": {
+		"languages": "En,Ja,Fr,Es"
 	},
 	"Escape from Mars Starring Taz (USA) (Beta) (1994-03-09)": {
 		"languages": "En"
@@ -1950,6 +2028,9 @@
 		"languages": "En"
 	},
 	"Exodus - Journey to the Promised Land (USA) (Unl)": {
+		"languages": "En"
+	},
+	"Eyra - The Crow Maiden (World) (Demo) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
 	"F-117 Night Storm (USA, Europe)": {
@@ -2072,6 +2153,9 @@
 	"Fido Dido (USA) (Proto)": {
 		"languages": "En"
 	},
+	"FIFA 2003 (Unknown) (Unl) (Pirate)": {
+		"languages": "Es"
+	},
 	"FIFA 98 - Road to World Cup (Europe) (En,Fr,Es,It,Sv)": {
 		"languages": "En,Fr,Es,It,Sv"
 	},
@@ -2080,6 +2164,9 @@
 	},
 	"FIFA International Soccer (Japan) (En,Ja)": {
 		"languages": "En,Ja"
+	},
+	"FIFA Soccer 2000 (Russia) (En,Fr,De,Es,It,Sv) (Unl) (Pirate)": {
+		"languages": "En,Fr,De,Es,It,Sv"
 	},
 	"FIFA Soccer 95 (USA, Europe) (En,Fr,De,Es)": {
 		"languages": "En,Fr,De,Es"
@@ -2092,6 +2179,9 @@
 	},
 	"FIFA Soccer 97 (USA, Europe) (En,Fr,De,Es,It,Sv)": {
 		"languages": "En,Fr,De,Es,It,Sv"
+	},
+	"FIFA Soccer 99 (Unknown) (Unl) (Pirate)": {
+		"languages": "En"
 	},
 	"Fighting Masters (Japan, Korea)": {
 		"languages": "Ja"
@@ -2186,7 +2276,7 @@
 	"Fun 'n' Games (USA)": {
 		"languages": "En"
 	},
-	"Fun Car Rally (USA) (Proto)": {
+	"Fun Car Rally (USA) (Beta)": {
 		"languages": "En"
 	},
 	"Funny World & Balloon Boy (USA) (Unl)": {
@@ -2195,7 +2285,16 @@
 	"Fushigi no Umi no Nadia (Japan)": {
 		"languages": "Ja"
 	},
-	"FX Unit Yuki - The Henshin Engine (World) (Unl)": {
+	"Futbol Argentino (Argentina) (Unl) (Pirate)": {
+		"languages": "Es"
+	},
+	"Futbol Argentino 96 (Argentina) (Unl) (Pirate)": {
+		"languages": "Es"
+	},
+	"Futbol Argentino 98 - Pasion de Multitudes (Argentina) (Unl) (Pirate)": {
+		"languages": "Es"
+	},
+	"FX Unit Yuki - The Henshin Engine (World) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
 	"FZ Senki Axis ~ Final Zone (Japan, USA)": {
@@ -2234,7 +2333,7 @@
 	"Galaxy Force II (World) (Rev B)": {
 		"languages": "En"
 	},
-	"Galaxy Force II (USA, Europe) (Steam Version)": {
+	"Galaxy Force II (USA, Europe) (PC Rerelease)": {
 		"languages": "En"
 	},
 	"Galaxy Force II (Japan) (En) (Virtual Console)": {
@@ -2256,6 +2355,9 @@
 		"languages": "Ja"
 	},
 	"Garfield - Caught in the Act (USA, Europe)": {
+		"languages": "En"
+	},
+	"Garfield - Caught in the Act (USA, Europe) (Beta) (1995-09-11)": {
 		"languages": "En"
 	},
 	"Gargoyles (USA)": {
@@ -2294,9 +2396,6 @@
 	"General Chaos Daikonsen (Japan)": {
 		"languages": "Ja"
 	},
-	"Generals of the Yang Family (World) (Unl)": {
-		"languages": "En"
-	},
 	"Generations Lost (USA, Europe)": {
 		"languages": "En"
 	},
@@ -2318,10 +2417,13 @@
 	"Ghostbusters (USA, Europe)": {
 		"languages": "En"
 	},
-	"Ghostbusters (USA, Europe) (Rev A) (Beta) (1990-05-01)": {
+	"Ghostbusters (USA, Europe) (Beta) (1990-05-01)": {
 		"languages": "En"
 	},
 	"Global Gladiators (Europe)": {
+		"languages": "En"
+	},
+	"Gluf (World) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
 	"Go Net (Japan)": {
@@ -2429,7 +2531,7 @@
 	"Gunstar Heroes (Japan)": {
 		"languages": "Ja"
 	},
-	"Gunstar Heroes (Japan) (Beta) (April, 1993)": {
+	"Gunstar Heroes (Japan) (Sample) (April, 1993)": {
 		"languages": "Ja"
 	},
 	"Gunstar Heroes (USA)": {
@@ -2561,6 +2663,9 @@
 	"I Love Mickey and Donald - Fushigi na Magic Box (Japan)": {
 		"languages": "Ja"
 	},
+	"I Love Mickey and Donald - Fushigi na Magic Box (Japan) (Mega Drive Mini)": {
+		"languages": "Ja"
+	},
 	"I Love Mickey Mouse - Fushigi no Oshiro Daibouken (Japan)": {
 		"languages": "Ja"
 	},
@@ -2633,7 +2738,7 @@
 	"International Sensible Soccer (Europe) (En,Fr,De,It)": {
 		"languages": "En,Fr,De,It"
 	},
-	"International Superstar Soccer Deluxe (Europe)": {
+	"International Superstar Soccer Deluxe (Europe, Brazil)": {
 		"languages": "En"
 	},
 	"Ishido - The Way of Stones (USA) (Unl)": {
@@ -2741,10 +2846,10 @@
 	"Joe Montana Football (World)": {
 		"languages": "En"
 	},
-	"Joe Montana II Sports Talk Football (World)": {
+	"Joe Montana II - Sports Talk Football (World) (Rev A)": {
 		"languages": "En"
 	},
-	"Joe Montana II Sports Talk Football (World) (Rev A)": {
+	"Joe Montana II Sports Talk Football (World)": {
 		"languages": "En"
 	},
 	"John Madden Football (USA, Europe)": {
@@ -2766,9 +2871,6 @@
 		"languages": "En"
 	},
 	"Jordan vs Bird (USA, Europe)": {
-		"languages": "En"
-	},
-	"Jordan vs Bird (USA, Europe) (Alt 1)": {
 		"languages": "En"
 	},
 	"Jordan vs Bird - One on One (Japan)": {
@@ -2969,11 +3071,14 @@
 	"Kyuukai Douchuuki (Japan)": {
 		"languages": "Ja"
 	},
-	"Kyuukai Douchuuki (Japan) (Sega Channel)": {
+	"Kyuukai Douchuuki (Japan) (Rev 1) (Beta) (Sega Channel)": {
 		"languages": "Ja"
 	},
 	"Kyuukyoku Tiger (Japan)": {
 		"languages": "Ja"
+	},
+	"L'Abbaye des Morts (World) (Aftermarket) (Unl)": {
+		"languages": "En"
 	},
 	"La Russa Baseball 95 (USA, Australia)": {
 		"languages": "En"
@@ -2990,16 +3095,31 @@
 	"Landstalker (USA) (Beta) (1993-02-24)": {
 		"languages": "En"
 	},
+	"Landstalker (USA) (Genesis Mini)": {
+		"languages": "En"
+	},
 	"Landstalker - Die Schatze von Konig Nolo (Germany)": {
+		"languages": "De"
+	},
+	"Landstalker - Die Schatze von Konig Nolo (Germany) (Mega Drive Mini)": {
 		"languages": "De"
 	},
 	"Landstalker - Koutei no Zaihou (Japan)": {
 		"languages": "Ja"
 	},
+	"Landstalker - Koutei no Zaihou (Japan) (Mega Drive Mini)": {
+		"languages": "Ja"
+	},
 	"Landstalker - Le Tresor du Roi Nole (France)": {
 		"languages": "Fr"
 	},
+	"Landstalker - Le Tresor du Roi Nole (France) (Mega Drive Mini)": {
+		"languages": "Fr"
+	},
 	"Landstalker - The Treasures of King Nole (Europe)": {
+		"languages": "En"
+	},
+	"Landstalker - The Treasures of King Nole (Europe) (Mega Drive Mini)": {
 		"languages": "En"
 	},
 	"Langrisser (Japan)": {
@@ -3038,10 +3158,13 @@
 	"Legend of Galahad, The ~ Galahad (USA, Europe)": {
 		"languages": "En"
 	},
-	"Legend of Wukong (World) (Unl)": {
+	"Legend of Wukong (World) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
 	"Legende de Thor, La (France)": {
+		"languages": "Fr"
+	},
+	"Legende de Thor, La (France) (Mega Drive Mini)": {
 		"languages": "Fr"
 	},
 	"Lemmings (Europe)": {
@@ -3101,6 +3224,15 @@
 	"Light Crusader (USA) (Beta) (1995-06-08)": {
 		"languages": "En"
 	},
+	"Light Crusader (Europe) (En,Fr,De,Es) (Mega Drive Mini)": {
+		"languages": "En,Fr,De,Es"
+	},
+	"Light Crusader (USA) (Genesis Mini)": {
+		"languages": "En"
+	},
+	"Light Crusader (Japan) (Mega Drive Mini)": {
+		"languages": "Ja"
+	},
 	"Lightening Force - Quest for the Darkstar (USA)": {
 		"languages": "En"
 	},
@@ -3119,13 +3251,13 @@
 	"Lion King, The (World)": {
 		"languages": "En"
 	},
-	"Lion King, The (World) (Steam Version)": {
+	"Lion King, The (World) (Aftermarket)": {
 		"languages": "En"
 	},
-	"Little Medusa (World) (Unl)": {
+	"Little Medusa (World) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
-	"Little Medusa (World) (Demo) (Unl)": {
+	"Little Medusa (World) (Demo) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
 	"Lobo (USA) (Proto)": {
@@ -3170,7 +3302,7 @@
 	"Ma Qiao E Mo Ta - Devilish Mahjong Tower (Taiwan) (Unl)": {
 		"languages": "Zh"
 	},
-	"Mad Stalker - Full Metal Forth (World) (Unl)": {
+	"Mad Stalker - Full Metal Forth (World) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
 	"Madden NFL '94 (USA, Europe)": {
@@ -3194,10 +3326,10 @@
 	"Magic Bubble (Taiwan) (En) (Unl)": {
 		"languages": "En"
 	},
-	"Magic Girl featuring Ling Ling the Little Witch (World) (Unl)": {
+	"Magic Girl Featuring Ling Ling the Little Witch (World) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
-	"Magic Pockets (World) (Unl)": {
+	"Magic Pockets (World) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
 	"Magic School Bus, The - Space Exploration Game (USA)": {
@@ -3236,6 +3368,9 @@
 	"Magic School Bus, The - Space Exploration Game (USA) (Beta) (1995-04-28)": {
 		"languages": "En"
 	},
+	"Magic School Bus, The - Space Exploration Game (USA) (Beta) (1995-05-05)": {
+		"languages": "En"
+	},
 	"Magical Hat no Buttobi Turbo! Daibouken (Japan)": {
 		"languages": "Ja"
 	},
@@ -3245,7 +3380,7 @@
 	"Mahjong Cop Ryuu - Shiro Ookami no Yabou (Japan)": {
 		"languages": "Ja"
 	},
-	"Mallet Legend's Whac-a-Critter ~ Mallet Legend (USA, Asia) (Unl)": {
+	"Mallet Legend's Whac-a-Critter ~ Mallet Legend (USA, Taiwan) (Unl)": {
 		"languages": "En"
 	},
 	"Mamono Hunter Youko - Dai 7 no Keishou (Japan)": {
@@ -3338,6 +3473,9 @@
 	"Medal City (Japan) (SegaNet)": {
 		"languages": "Ja"
 	},
+	"Mega 3D Noah's Ark (Unknown) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
 	"Mega 6 Vol. 3 (Europe)": {
 		"languages": "En"
 	},
@@ -3352,6 +3490,9 @@
 	},
 	"Mega Bomberman - Special 8-Player-Demo (Europe) (Proto)": {
 		"languages": "En"
+	},
+	"Mega Cheril Perils (World) (En,Es) (Aftermarket) (Unl)": {
+		"languages": "En,Es"
 	},
 	"Mega Games 2 (Europe)": {
 		"languages": "En"
@@ -3389,7 +3530,7 @@
 	"Mega Turrican (USA, Europe) (Virtual Console)": {
 		"languages": "En"
 	},
-	"Mega Turrican (Unknown) (Beta) (1993-05-18)": {
+	"Mega Turrican (Japan) (En) (Proto) (1993-05-18)": {
 		"languages": "En"
 	},
 	"[BIOS] Mega-CD (Europe)": {
@@ -3458,16 +3599,22 @@
 	"Meng Huan Shui Guo Pan - 777 Casino (Taiwan) (Unl)": {
 		"languages": "Zh"
 	},
+	"Metal Blast 2277 (World) (Rev 1) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Metal Blast 2277 (World) (Beta) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
 	"Metal Fangs (Japan)": {
 		"languages": "Ja"
 	},
-	"Michael Jackson's Moonwalker (Japan) (En)": {
+	"Michael Jackson's Moonwalker (Japan, USA)": {
 		"languages": "En"
 	},
 	"Michael Jackson's Moonwalker (World) (Rev A)": {
 		"languages": "En"
 	},
-	"Michael Jackson's Moonwalker (Japan) (En) (Beta) (1990-04-24)": {
+	"Michael Jackson's Moonwalker (Japan, USA) (Beta) (1990-04-24)": {
 		"languages": "En"
 	},
 	"Mick & Mack as the Global Gladiators (USA)": {
@@ -3503,13 +3650,16 @@
 	"Micro Machines (Europe) (Alt 1)": {
 		"languages": "En"
 	},
-	"Micro Machines (Canada)": {
+	"Micro Machines (USA) (Rev 1)": {
 		"languages": "En"
 	},
 	"Micro Machines (USA)": {
 		"languages": "En"
 	},
 	"Micro Machines - Military (Europe) (J-Cart)": {
+		"languages": "En"
+	},
+	"Micro Machines - Military (Europe) (Beta) (1995)": {
 		"languages": "En"
 	},
 	"Micro Machines - Turbo Tournament 96 (Europe) (Rev 1) (J-Cart)": {
@@ -3521,7 +3671,7 @@
 	"Micro Machines 2 - Turbo Tournament (Europe) (J-Cart)": {
 		"languages": "En"
 	},
-	"Micro Machines 2 - Turbo Tournament (Europe)": {
+	"Micro Machines 2 - Turbo Tournament (Europe) (Putative Beta)": {
 		"languages": "En"
 	},
 	"Midnight Resistance (Japan)": {
@@ -3602,11 +3752,23 @@
 	"Minato no Traysia (Japan)": {
 		"languages": "Ja"
 	},
+	"Miniplanets (World) (Rev 3) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Miniplanets (World) (Rev 2) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
 	"Minnesota Fats - Pool Legend (USA)": {
 		"languages": "En"
 	},
 	"Miracle Piano Teaching System, The (USA)": {
 		"languages": "En"
+	},
+	"Misplaced (World) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Misplaced (Russia) (Aftermarket)": {
+		"languages": "Ru"
 	},
 	"MK5 - Mortal Kombat Mythologies - Sub-Zero (Taiwan) (En) (Unl)": {
 		"languages": "En"
@@ -3713,13 +3875,13 @@
 	"Nakajima Satoru Kanshuu - F-1 Super License (Japan)": {
 		"languages": "Ja"
 	},
-	"NBA Action (USA) (Beta) (1994-01-04)": {
-		"languages": "En"
-	},
-	"NBA Action (USA) (Beta) (1994-01-16)": {
-		"languages": "En"
-	},
 	"NBA Action '94 (USA)": {
+		"languages": "En"
+	},
+	"NBA Action '94 (USA) (Beta) (1994-01-04)": {
+		"languages": "En"
+	},
+	"NBA Action '94 (USA) (Beta) (1994-01-16)": {
 		"languages": "En"
 	},
 	"NBA Action '95 Starring David Robinson (USA, Europe)": {
@@ -3795,6 +3957,9 @@
 		"languages": "En"
 	},
 	"NBA Action '95 Starring David Robinson (USA, Europe) (Beta) (1995-02-01)": {
+		"languages": "En"
+	},
+	"NBA Action '95 Starring David Robinson (USA, Europe) (Beta) (1995-02-02)": {
 		"languages": "En"
 	},
 	"NBA All-Star Challenge (USA, Europe)": {
@@ -4040,6 +4205,9 @@
 	"NHL All-Star Hockey 95 (USA) (Beta) (1994-12-01) (Alt 1)": {
 		"languages": "En"
 	},
+	"NHL All-Star Hockey 95 (USA) (Beta) (1994-12-02)": {
+		"languages": "En"
+	},
 	"NHL Hockey (USA)": {
 		"languages": "En"
 	},
@@ -4049,7 +4217,7 @@
 	"NHLPA Hockey 93 (USA, Europe) (Rev A)": {
 		"languages": "En"
 	},
-	"NHLPA Hockey 93 (USA, Europe) (Rev A) (Beta)": {
+	"NHLPA Hockey 93 (USA, Europe) (Rev A) (Sample)": {
 		"languages": "En"
 	},
 	"Nigel Mansell's World Championship Racing (Europe)": {
@@ -4067,7 +4235,7 @@
 	"Nightmare Circus (Brazil) (Beta 1)": {
 		"languages": "En"
 	},
-	"Nikkan Sports Pro Yakyuu Van (Japan)": {
+	"Nikkan Sports Pro Yakyuu VAN (Japan)": {
 		"languages": "Ja"
 	},
 	"Ninja Burai Densetsu (Japan)": {
@@ -4103,16 +4271,16 @@
 	"Nyuushi Chokuzen Check - Nanmon Kimon Kiki Kaikai (Japan) (Sega Channel)": {
 		"languages": "Ja"
 	},
-	"Oh Mummy Genesis (World) (Unl)": {
+	"Oh Mummy Genesis (World) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
-	"Old Towers (World) (Unl)": {
+	"Old Towers (World) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
-	"Old Towers (World) (v1.2) (Unl)": {
+	"Old Towers (World) (v1.2) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
-	"Old Towers (World) (v1.1) (Unl)": {
+	"Old Towers (World) (v1.1) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
 	"Olympic Gold (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv)": {
@@ -4289,7 +4457,7 @@
 	"Pele! (USA, Europe)": {
 		"languages": "En"
 	},
-	"Pele! (USA, Europe) (Beta)": {
+	"Pele! (USA, Europe) (Sample)": {
 		"languages": "En"
 	},
 	"Pepenga Pengo (Japan)": {
@@ -4301,7 +4469,7 @@
 	"Pete Sampras Tennis (USA, Europe) (MDST6636) (J-Cart)": {
 		"languages": "En"
 	},
-	"Pete Sampras Tennis (USA, Europe) (Rev 2) (MDSTEE13)": {
+	"Pete Sampras Tennis (Europe) (Rev 2) (MDSTEE13)": {
 		"languages": "En"
 	},
 	"PGA European Tour (USA, Europe)": {
@@ -4331,7 +4499,10 @@
 	"Phantasy Star - Sennenki no Owari ni (Japan)": {
 		"languages": "Ja"
 	},
-	"Phantasy Star - Sennenki no Owari ni (Japan) (Steam Version)": {
+	"Phantasy Star - Sennenki no Owari ni (Japan) (PC Rerelease)": {
+		"languages": "Ja"
+	},
+	"Phantasy Star - Sennenki no Owari ni (Japan) (Mega Drive Mini)": {
 		"languages": "Ja"
 	},
 	"Phantasy Star Fukkokuban (Japan)": {
@@ -4352,7 +4523,7 @@
 	"Phantasy Star II (USA, Europe) (Rev A) (Virtual Console)": {
 		"languages": "En"
 	},
-	"Phantasy Star II (USA, Europe) (Rev A) (Steam Version)": {
+	"Phantasy Star II (USA, Europe) (Rev A) (PC Rerelease)": {
 		"languages": "En"
 	},
 	"Phantasy Star II - Amia's Adventure (Japan) (SegaNet)": {
@@ -4388,7 +4559,7 @@
 	"Phantasy Star III - Generations of Doom (USA, Europe, Korea)": {
 		"languages": "En"
 	},
-	"Phantasy Star III - Generations of Doom (USA, Europe) (Steam Version)": {
+	"Phantasy Star III - Generations of Doom (USA, Europe) (PC Rerelease)": {
 		"languages": "En"
 	},
 	"Phantasy Star IV (USA)": {
@@ -4415,6 +4586,9 @@
 	"Phantasy Star IV (USA) (Beta) (1994-11-07)": {
 		"languages": "En"
 	},
+	"Phantasy Star IV (USA) (Genesis Mini)": {
+		"languages": "En"
+	},
 	"Phantom 2040 (Europe) (En,Fr,De)": {
 		"languages": "En,Fr,De"
 	},
@@ -4433,19 +4607,19 @@
 	"Phelios (Japan) (Virtual Console)": {
 		"languages": "Ja"
 	},
-	"Pier Solar and the Great Architects (World) (Beta) (Unl)": {
+	"Pier Solar and the Great Architects (World) (Beta) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
-	"Pier Solar and the Great Architects (World) (En,Fr,De) (Reprint) (Unl)": {
+	"Pier Solar and the Great Architects (World) (En,Fr,De) (Reprint) (Aftermarket) (Unl)": {
 		"languages": "En,Fr,De"
 	},
-	"Pier Solar and the Great Architects (World) (En,Fr,De) (Reprint A) (Unl)": {
+	"Pier Solar and the Great Architects (World) (En,Fr,De) (Reprint A) (Aftermarket) (Unl)": {
 		"languages": "En,Fr,De"
 	},
-	"Pier Solar and the Great Architects (World) (En,Es,Pt) (Reprint B) (Unl)": {
+	"Pier Solar and the Great Architects (World) (En,Es,Pt) (Reprint B) (Aftermarket) (Unl)": {
 		"languages": "En,Es,Pt"
 	},
-	"Pier Solar and the Great Architects (World) (En,Fr,Es) (Unl)": {
+	"Pier Solar and the Great Architects (World) (En,Fr,Es) (Aftermarket) (Unl)": {
 		"languages": "En,Fr,Es"
 	},
 	"Pink Goes to Hollywood (USA, Europe)": {
@@ -4595,10 +4769,13 @@
 	"Probotector (Europe) (En,Fr,De)": {
 		"languages": "En,Fr,De"
 	},
+	"Probotector (Europe) (En,Fr,De) (Mega Drive Mini)": {
+		"languages": "En,Fr,De"
+	},
 	"Psy-O-Blade (Japan)": {
 		"languages": "Ja"
 	},
-	"Psycho Pinball (Europe) (En,Fr,De,Es,It) (Alt 1)": {
+	"Psycho Pinball (Europe) (En,Fr,De,Es,It) (Rev 1)": {
 		"languages": "En,Fr,De,Es,It"
 	},
 	"Psycho Pinball (Europe) (En,Fr,De,Es,It)": {
@@ -4646,7 +4823,7 @@
 	"Puyo Puyo Tsuu (Japan) (Rev A)": {
 		"languages": "Ja"
 	},
-	"Puyo Puyo Tsuu (Europe) (Ja) (Rev A) (Virtual Console)": {
+	"Puyo Puyo Tsuu (World) (Ja) (Rev A) (Virtual Console)": {
 		"languages": "Ja"
 	},
 	"Puzzle & Action - Ichidanto-R (Japan)": {
@@ -4727,7 +4904,7 @@
 	"Rambo III (Japan) (En)": {
 		"languages": "En"
 	},
-	"Rambo III (World) (Rev A)": {
+	"Rambo III (USA, Europe, Korea) (Rev A)": {
 		"languages": "En"
 	},
 	"Rampart (USA)": {
@@ -4865,6 +5042,12 @@
 	"Road Rash II (USA, Europe) (RR206)": {
 		"languages": "En"
 	},
+	"Road Rash II (USA) (Genesis Mini)": {
+		"languages": "En"
+	},
+	"Road Rash II (Japan) (Mega Drive Mini)": {
+		"languages": "Ja"
+	},
 	"RoadBlasters (Japan)": {
 		"languages": "Ja"
 	},
@@ -4877,19 +5060,19 @@
 	"RoboCop 3 (USA, Europe)": {
 		"languages": "En"
 	},
-	"RoboCop versus The Terminator (Europe)": {
+	"RoboCop Versus The Terminator (Europe)": {
 		"languages": "En"
 	},
-	"RoboCop versus The Terminator (Europe) (Beta) (1993-07-27)": {
+	"RoboCop Versus The Terminator (Europe) (Beta) (1993-07-27)": {
 		"languages": "En"
 	},
-	"RoboCop versus The Terminator (USA)": {
+	"RoboCop Versus The Terminator (USA)": {
 		"languages": "En"
 	},
-	"RoboCop versus The Terminator (Japan, Korea)": {
+	"RoboCop Versus The Terminator (Japan, Korea)": {
 		"languages": "En"
 	},
-	"RoboCop versus The Terminator (USA) (Beta) (1993-04-30)": {
+	"RoboCop Versus The Terminator (USA) (Beta) (1993-04-30)": {
 		"languages": "En"
 	},
 	"Robot Battler (Japan) (SegaNet)": {
@@ -4948,6 +5131,9 @@
 	},
 	"Romance of the Three Kingdoms III - Dragon of Destiny (USA)": {
 		"languages": "En"
+	},
+	"Ronaldinho 98 (Unknown) (Unl) (Pirate)": {
+		"languages": "Pt"
 	},
 	"Royal Blood (Japan)": {
 		"languages": "Ja"
@@ -5114,7 +5300,7 @@
 	"Shadow Dancer - The Secret of Shinobi (World) (Beta) (1990-10-02)": {
 		"languages": "En"
 	},
-	"Shadow Dancer - The Secret of Shinobi (USA, Europe) (Steam Version)": {
+	"Shadow Dancer - The Secret of Shinobi (USA, Europe) (PC Rerelease)": {
 		"languages": "En"
 	},
 	"Shadow of the Beast (USA, Europe)": {
@@ -5195,7 +5381,13 @@
 	"Shining Force (Europe)": {
 		"languages": "En"
 	},
+	"Shining Force (USA) (Genesis Mini)": {
+		"languages": "En"
+	},
 	"Shining Force - Kamigami no Isan (Japan)": {
+		"languages": "Ja"
+	},
+	"Shining Force - Kamigami no Isan (Japan) (Mega Drive Mini)": {
 		"languages": "Ja"
 	},
 	"Shining Force II (Europe)": {
@@ -5226,6 +5418,9 @@
 		"languages": "En"
 	},
 	"Shinobi III - Return of the Ninja Master (USA) (Beta) (1993-06-29)": {
+		"languages": "En"
+	},
+	"Shinobi III - Return of the Ninja Master (USA) (Genesis Mini)": {
 		"languages": "En"
 	},
 	"Ship (Unknown) (Proto) (GEMS 2.5)": {
@@ -5297,7 +5492,7 @@
 	"Slime World (Japan)": {
 		"languages": "Ja"
 	},
-	"Smart Mouse (World) (Unl)": {
+	"Smart Mouse (World) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
 	"Smurfs, The (Europe) (En,Fr,De,Es,It)": {
@@ -5441,7 +5636,7 @@
 	"Sonic Spinball (USA)": {
 		"languages": "En"
 	},
-	"Sonic Spinball (Unknown) (Beta) (August, 1993)": {
+	"Sonic Spinball (USA) (Beta) (August, 1993)": {
 		"languages": "En"
 	},
 	"Sonic Spinball (USA) (Beta) (October, 1993)": {
@@ -5451,6 +5646,9 @@
 		"languages": "En"
 	},
 	"Sonic Spinball (Europe) (Beta) (1993-09-17)": {
+		"languages": "En"
+	},
+	"Sonic Spinball (Europe) (Mega Drive Mini)": {
 		"languages": "En"
 	},
 	"Sonic The Hedgehog (Japan, Europe, Korea)": {
@@ -5543,7 +5741,7 @@
 	"Sorcerer's Kingdom (USA) (Beta)": {
 		"languages": "En"
 	},
-	"Sorcerer's Kingdom (USA) (Rev A)": {
+	"Sorcerer's Kingdom (USA)": {
 		"languages": "En"
 	},
 	"Sorcerian (Japan)": {
@@ -5666,7 +5864,7 @@
 	"Star Cruiser (Japan)": {
 		"languages": "Ja"
 	},
-	"Star Odyssey (USA, Europe) (Unl)": {
+	"Star Odyssey (World) (Unl)": {
 		"languages": "En"
 	},
 	"Star Odyssey (USA) (Beta) (1992-01-16)": {
@@ -5765,6 +5963,15 @@
 	"Story of Thor, The (Europe) (Beta) (1994-10-17)": {
 		"languages": "En"
 	},
+	"Story of Thor, The (Europe) (Mega Drive Mini)": {
+		"languages": "En"
+	},
+	"Story of Thor, The (Germany) (Mega Drive Mini)": {
+		"languages": "De"
+	},
+	"Story of Thor, The (Spain) (Mega Drive Mini)": {
+		"languages": "Es"
+	},
 	"Story of Thor, The - Hikari o Tsugumono (Japan)": {
 		"languages": "Ja"
 	},
@@ -5806,6 +6013,9 @@
 	},
 	"Streets of Rage 2 (USA)": {
 		"languages": "En"
+	},
+	"Streets of Rage 2 (Japan) (En,Ja) (Mega Drive Mini)": {
+		"languages": "En,Ja"
 	},
 	"Streets of Rage 3 (Asia) (En)": {
 		"languages": "En"
@@ -5871,6 +6081,9 @@
 		"languages": "Ja"
 	},
 	"Strider Hiryuu (Japan) (Rev A) (Virtual Console)": {
+		"languages": "Ja"
+	},
+	"Strider Hiryuu (Japan) (Mega Drive Mini)": {
 		"languages": "Ja"
 	},
 	"Strider II (Europe)": {
@@ -5942,10 +6155,10 @@
 	"Super H.Q. (Japan)": {
 		"languages": "Ja"
 	},
-	"Super Hang-On (World) (En,Ja)": {
+	"Super Hang-On (Japan, USA) (En,Ja)": {
 		"languages": "En,Ja"
 	},
-	"Super Hang-On (World) (En,Ja) (Rev A)": {
+	"Super Hang-On (Europe) (En,Ja) (Rev A)": {
 		"languages": "En,Ja"
 	},
 	"Super Hang-On (World) (Sega Smash Pack 2)": {
@@ -5999,10 +6212,10 @@
 	"Super Monaco GP (Japan, USA) (En,Ja)": {
 		"languages": "En,Ja"
 	},
-	"Super Monaco GP (Japan, Europe) (En,Ja)": {
+	"Super Monaco GP (World) (En,Ja)": {
 		"languages": "En,Ja"
 	},
-	"Super Monaco GP (Japan, Europe) (En,Ja) (Rev A)": {
+	"Super Monaco GP (World) (En,Ja) (Rev A)": {
 		"languages": "En,Ja"
 	},
 	"Super Off Road (USA, Europe) (Unl)": {
@@ -6089,7 +6302,7 @@
 	"Swamp Thing (USA) (Proto)": {
 		"languages": "En"
 	},
-	"Switchblade (World) (Unl)": {
+	"Switchblade (World) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
 	"Sword of Sodan (Japan)": {
@@ -6143,13 +6356,34 @@
 	"Talmit's Adventure (Europe)": {
 		"languages": "En"
 	},
-	"Tanglewood (World) (Unl)": {
+	"Tanglewood (World) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
-	"Tanglewood (World) (Demo) (Unl)": {
+	"Tanglewood (World) (Demo) (Aftermarket) (0.9.37) (Unl)": {
 		"languages": "En"
 	},
-	"Tanzer (World) (Demo) (Unl)": {
+	"Tanglewood (World) (Rev 1) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Tanglewood (World) (Demo) (Aftermarket) (0.8.01) (Unl)": {
+		"languages": "En"
+	},
+	"Tanglewood (World) (Demo) (Aftermarket) (0.1.04) (Unl)": {
+		"languages": "En"
+	},
+	"Tanglewood (World) (Demo) (Aftermarket) (0.0.15) (Unl)": {
+		"languages": "En"
+	},
+	"Tanglewood (World) (Demo) (Aftermarket) (0.0.14) (Unl)": {
+		"languages": "En"
+	},
+	"Tanglewood (World) (Demo) (Aftermarket) (0.0.11) (Unl)": {
+		"languages": "En"
+	},
+	"Tanzer (World) (1.83) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Tanzer (World) (Demo) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
 	"Target Earth (USA)": {
@@ -6181,6 +6415,9 @@
 	},
 	"Taz-Mania (World) (Beta 2)": {
 		"languages": "En"
+	},
+	"TC 2000 (Argentina) (Unl) (Pirate)": {
+		"languages": "Es"
 	},
 	"Team USA Basketball (USA, Europe)": {
 		"languages": "En"
@@ -6293,8 +6530,11 @@
 	"Tetris (Japan)": {
 		"languages": "Ja"
 	},
-	"Tetris (World) (Genesis Mini, Mega Drive Mini)": {
+	"Tetris (USA) (Genesis Mini)": {
 		"languages": "En"
+	},
+	"Tetris (Japan) (Mega Drive Mini)": {
+		"languages": "Ja"
 	},
 	"Theme Park (USA, Europe)": {
 		"languages": "En"
@@ -6563,7 +6803,7 @@
 	"Two Tribes - Populous II (Europe)": {
 		"languages": "En"
 	},
-	"Tyrants - Fight through Time (USA)": {
+	"Tyrants - Fight Through Time (USA)": {
 		"languages": "En"
 	},
 	"Uchuu Senkan Gomora (Japan)": {
@@ -6584,10 +6824,13 @@
 	"Ultimate Soccer (Europe) (En,Fr,De,Es,It) (Beta)": {
 		"languages": "En,Fr,De,Es,It"
 	},
-	"Ultracore (Europe)": {
+	"Ultracore (Europe) (MD-1.0) (Aftermarket)": {
 		"languages": "En"
 	},
-	"Ultracore (Japan) (En)": {
+	"Ultracore (Japan) (En) (Aftermarket)": {
+		"languages": "En"
+	},
+	"Ultracore (Europe) (V-1.0) (Aftermarket)": {
 		"languages": "En"
 	},
 	"Ultraman (Japan)": {
@@ -6632,6 +6875,9 @@
 	"Vampire Killer (Japan) (Castlevania Anniversary Collection)": {
 		"languages": "Ja"
 	},
+	"Vampire Killer (Japan) (Mega Drive Mini)": {
+		"languages": "Ja"
+	},
 	"Vapor Trail (USA)": {
 		"languages": "En"
 	},
@@ -6651,6 +6897,9 @@
 		"languages": "En"
 	},
 	"Vectorman (USA, Europe) (Beta 1)": {
+		"languages": "En"
+	},
+	"Vectorman (USA) (Genesis Mini)": {
 		"languages": "En"
 	},
 	"Vectorman 2 (USA)": {
@@ -6681,6 +6930,9 @@
 		"languages": "En"
 	},
 	"Vermilion (Japan)": {
+		"languages": "Ja"
+	},
+	"Vermilion (Japan) (Mega Drive Mini)": {
 		"languages": "Ja"
 	},
 	"Verytex (Japan)": {
@@ -6791,7 +7043,7 @@
 	"Warsong (USA) (Beta) (1991-10-01)": {
 		"languages": "En"
 	},
-	"Water Margin - The Tales of Clouds and Winds (USA) (Unl)": {
+	"Water Margin - A Tale of Clouds and Wind (World) (Unl)": {
 		"languages": "En"
 	},
 	"Waterworld (Europe) (Proto)": {
@@ -6866,7 +7118,7 @@
 	"Winter Olympics (Japan) (En,Fr,De,Es,It,Pt,Sv,No)": {
 		"languages": "En,Fr,De,Es,It,Pt,Sv,No"
 	},
-	"Wisdom Tree Collection (World) (Unl)": {
+	"Wisdom Tree Collection (World) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
 	"Wiz 'N' Liz (USA)": {
@@ -7199,7 +7451,7 @@
 	"Wu Kong Wai Zhuan (Taiwan) (Alt 1) (Unl)": {
 		"languages": "Zh"
 	},
-	"WWF Raw (World)": {
+	"WWF RAW (World)": {
 		"languages": "En"
 	},
 	"WWF Royal Rumble (World)": {
@@ -7292,7 +7544,7 @@
 	"XDR - X-Dazedly-Ray (Japan)": {
 		"languages": "Ja"
 	},
-	"Xeno Crisis (World) (En,Ja,Fr,De,Es,It,Nl,Pt) (Unl)": {
+	"Xeno Crisis (World) (En,Ja,Fr,De,Es,It,Nl,Pt) (Aftermarket) (Unl)": {
 		"languages": "En,Ja,Fr,De,Es,It,Nl,Pt"
 	},
 	"Xenon 2 - Megablast (Europe)": {
@@ -7315,6 +7567,9 @@
 	},
 	"Ya Se Chuan Shuo (Taiwan) (Alt 1) (Unl)": {
 		"languages": "Zh"
+	},
+	"Yazzie (World) (Aftermarket) (Unl)": {
+		"languages": "En"
 	},
 	"Yi Men Ying Lie - Yang Jia Jiang (Taiwan) (Unl)": {
 		"languages": "Zh"
