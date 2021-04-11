@@ -15,6 +15,11 @@ import sys
 import updateclonelists
 import webbrowser
 
+<<<<<<< HEAD
+=======
+from typing import OrderedDict
+
+>>>>>>> 093831f44d214dee317ebfb6b7c9aa74466b70ad
 from modules.classes import Filters, RegionKeys, UserInput
 from modules.importdata import build_regions
 from modules.output import generate_config
@@ -57,7 +62,11 @@ sg.SetOptions(font=(font, 10))
 
 
 def main():
+<<<<<<< HEAD
     __version__ = 0.08
+=======
+    __version__ = 0.07
+>>>>>>> 093831f44d214dee317ebfb6b7c9aa74466b70ad
 
     # Generate user config file if it's missing
     generate_config(region_data.languages_long, region_data.region_order, False, False, True)
@@ -75,14 +84,24 @@ def main():
 
         [sg.HorizontalSeparator()],
 
+<<<<<<< HEAD
         generate_checkbox(['Add-ons', 'Educational'], 30*scale_multiplier, ['Exclude titles with the dat category "Add-Ons" -- these\ninclude expansion packs and additional material', 'Exclude titles with the dat category "Educational"']),
+=======
+>>>>>>> 093831f44d214dee317ebfb6b7c9aa74466b70ad
         generate_checkbox(['Applications', 'Manuals'], 30*scale_multiplier, ['Exclude titles with the dat category "Applications"\nor with the following text in the name:\n\n* (Program)\n* (Test Program)\n* Check Program\n* Sample Program', 'Exclude titles with the "(Manual)" in the name']),
         generate_checkbox(['Audio', 'Multimedia'], 30*scale_multiplier, ['Exclude titles with the dat category "Audio"\n-- these might be used as soundtracks by games', 'Exclude titles with the dat category "Multimedia"\n-- these might include games']),
         generate_checkbox(['Bad dumps', 'Pirate'], 30*scale_multiplier, ['Exclude titles with "[b]" in the name', 'Exclude titles with "(Pirate)" in the name']),
         generate_checkbox(['BIOS and other chips', 'Preproduction'], 30*scale_multiplier, ['Exclude titles with the dat category "Console"\nor with the following text in the name:\n\n* [BIOS]\n* (Enhancement Chip)', 'Exclude titles with the dat category "Preproduction" or with the\nfollowing text in the name:\n\n* (Alpha [0-99])\n* (Beta [0-99])\n* (Pre-Production)\n* (Possible Proto)\n* (Proto [0-99])\n* (Review Code)']),
+<<<<<<< HEAD
         generate_checkbox(['Bonus discs', 'Promotional'], 30*scale_multiplier, ['Exclude titles with the dat category Bonus Discs" -- these\ncould be anything other than the main title content,\nlike patches, manuals, collector discs or otherwise', 'Exclude titles with the dat category "Promotional" or with the\nfollowing text in the name:\n\n* (Promo)\n* EPK\n* Press Kit']),
         generate_checkbox(['Coverdiscs', 'Unlicensed'], 30*scale_multiplier, ['Exclude titles with the dat category "Coverdiscs" -- these\nwere discs that were attached to the front of magazines', 'Exclude titles with "(Unl)" in the name']),
         generate_checkbox(['Demos and samples', 'Video'], 30*scale_multiplier, ['Exclude titles with the dat category "Demos" or with the\nfollowing text in the name:\n\n* @barai\n* (Demo [1-9])\n* (Demo-CD)\n* (GameCube Preview)\n* (Preview)\n* Sample\n* Taikenban\n* Trial Edition', 'Exclude titles with the dat category "Video"']),
+=======
+        generate_checkbox(['Compilations with no unique titles', 'Promotional'], 30*scale_multiplier, ['Exclude compilations where the titles already\nexist in the dat as single titles', 'Exclude titles with the dat category "Promotional" or with the\nfollowing text in the name:\n\n* (Promo)\n* EPK\n* Press Kit']),
+        generate_checkbox(['Coverdiscs', 'Unlicensed'], 30*scale_multiplier, ['Exclude titles with the dat category "Coverdiscs" -- these\nwere discs that were attached to the front of magazines', 'Exclude titles with "(Unl)" in the name']),
+        generate_checkbox(['Demos and samples', 'Video'], 30*scale_multiplier, ['Exclude titles with the dat category "Demos" or with the\nfollowing text in the name:\n\n* @barai\n* (Demo [1-9])\n* (Demo-CD)\n* (GameCube Preview)\n* (Preview)\n* Sample\n* Taikenban\n* Trial Edition', 'Exclude titles with the dat category "Video"']),
+        generate_checkbox(['Educational'], 30*scale_multiplier, ['Exclude titles with the dat category "Educational"']),
+>>>>>>> 093831f44d214dee317ebfb6b7c9aa74466b70ad
     ]
 
     # Modes
@@ -93,6 +112,10 @@ def main():
 
         [sg.HorizontalSeparator()],
 
+<<<<<<< HEAD
+=======
+        generate_checkbox(['Supersets replace standard editions'], 50*scale_multiplier, ['Special editions, game of the year editions, and collections\nreplace standard editions (if left unchecked, all editions\nare included in the output dat)']),
+>>>>>>> 093831f44d214dee317ebfb6b7c9aa74466b70ad
         generate_checkbox(['Titles ripped from modern platform rereleases replace standard editions'], 50*scale_multiplier, ['Not recommended\n\nThese titles are ripped from modern platforms like Virtual Console,\nand might not work with emulators']),
         generate_checkbox(['Output dat in legacy parent/clone format'], 50*scale_multiplier, ['Not recommended for use with dat managers\n\nUse for the following things:\n\n* CloneRel\n* Manually analyzing parent/clone relationships created by Retool\n* Diffing outputs in order to update clone lists']),
         generate_checkbox(['Disable custom global and system filters'], 50*scale_multiplier, ['User-defined strings that include or exclude\ntitles Retool ordinarily wouldn\'t']),
@@ -456,13 +479,20 @@ def main():
         window['available-regions'].update([language for language in getattr(window['available-regions'], 'Values') if language not in settings.user_config.data['region order']])
 
     for setting in settings.user_config.data['gui settings']:
+<<<<<<< HEAD
         if 'exclude' in str(setting):
             for key, value in dict(setting).items():
                 if value != '':
+=======
+        if 'OrderedDict' in str(setting):
+            for key, value in dict(setting).items():
+                if key == 'exclude' and value != '':
+>>>>>>> 093831f44d214dee317ebfb6b7c9aa74466b70ad
                     if 'a' in value: window['checkbox-applications'].update(True)
                     if 'A' in value: window['checkbox-audio'].update(True)
                     if 'b' in value: window['checkbox-bad-dumps'].update(True)
                     if 'B' in value: window['checkbox-bios-and-other-chips'].update(True)
+<<<<<<< HEAD
                     if 'c' in value: window['checkbox-coverdiscs'].update(True)
                     if 'd' in value: window['checkbox-demos-and-samples'].update(True)
                     if 'D' in value: window['checkbox-add-ons'].update(True)
@@ -470,16 +500,31 @@ def main():
                     if 'm' in value: window['checkbox-manuals'].update(True)
                     if 'M' in value: window['checkbox-multimedia'].update(True)
                     if 'o' in value: window['checkbox-bonus-discs'].update(True)
+=======
+                    if 'c' in value: window['checkbox-compilations-with-no-unique-titles'].update(True)
+                    if 'C' in value: window['checkbox-coverdiscs'].update(True)
+                    if 'd' in value: window['checkbox-demos-and-samples'].update(True)
+                    if 'e' in value: window['checkbox-educational'].update(True)
+                    if 'm' in value: window['checkbox-manuals'].update(True)
+                    if 'M' in value: window['checkbox-multimedia'].update(True)
+>>>>>>> 093831f44d214dee317ebfb6b7c9aa74466b70ad
                     if 'p' in value: window['checkbox-pirate'].update(True)
                     if 'P' in value: window['checkbox-preproduction'].update(True)
                     if 'r' in value: window['checkbox-promotional'].update(True)
                     if 'u' in value: window['checkbox-unlicensed'].update(True)
                     if 'v' in value: window['checkbox-video'].update(True)
+<<<<<<< HEAD
         if 'output' in str(setting):
             window['button-output-folder'].update(os.path.abspath(dict(setting)['output']))
             window['output-folder'].update(os.path.abspath(dict(setting)['output']))
             output_folder = os.path.abspath(dict(setting)['output'])
 
+=======
+                if key == 'output' and value != '':
+                    window['button-output-folder'].update(os.path.abspath(dict(setting)['output']))
+
+    if 's' in settings.user_config.data['gui settings']: window['checkbox-supersets-replace-standard-editions'].update(True)
+>>>>>>> 093831f44d214dee317ebfb6b7c9aa74466b70ad
     if 'z' in settings.user_config.data['gui settings']: window['checkbox-titles-ripped-from-modern-platform-rereleases-replace-standard-editions'].update(True)
     if 'x' in settings.user_config.data['gui settings']: window['checkbox-output-dat-in-legacy-parent-clone-format'].update(True)
     if 'log' in settings.user_config.data['gui settings']: window['checkbox-also-output-lists-of-what-titles-have-been-kept-and-removed'].update(True)
@@ -499,7 +544,11 @@ def main():
         window['suffix-input'].update(settings.user_config.data['list suffix'][0])
 
     # Import settings from user-filters/global.yaml
+<<<<<<< HEAD
     user_filters = import_user_filters('global', 'global')
+=======
+    user_filters = import_user_filters('global')
+>>>>>>> 093831f44d214dee317ebfb6b7c9aa74466b70ad
 
     window['global-filters-exclude'].update('\n'.join(user_filters.data['exclude']))
     window['global-filters-include'].update('\n'.join(user_filters.data['include']))
@@ -586,6 +635,7 @@ def main():
                     values['checkbox-audio'],
                     values['checkbox-bad-dumps'],
                     values['checkbox-bios-and-other-chips'],
+<<<<<<< HEAD
                     values['checkbox-coverdiscs'],
                     values['checkbox-demos-and-samples'],
                     values['checkbox-add-ons'],
@@ -593,20 +643,36 @@ def main():
                     values['checkbox-manuals'],
                     values['checkbox-multimedia'],
                     values['checkbox-bonus-discs'],
+=======
+                    values['checkbox-compilations-with-no-unique-titles'],
+                    values['checkbox-coverdiscs'],
+                    values['checkbox-demos-and-samples'],
+                    values['checkbox-educational'],
+                    values['checkbox-manuals'],
+                    values['checkbox-multimedia'],
+>>>>>>> 093831f44d214dee317ebfb6b7c9aa74466b70ad
                     values['checkbox-pirate'],
                     values['checkbox-preproduction'],
                     values['checkbox-promotional'],
                     values['checkbox-unlicensed'],
                     values['checkbox-video'],
                     values['checkbox-titles-ripped-from-modern-platform-rereleases-replace-standard-editions'],
+<<<<<<< HEAD
+=======
+                    values['checkbox-supersets-replace-standard-editions'],
+>>>>>>> 093831f44d214dee317ebfb6b7c9aa74466b70ad
                     filter_by_languages, # languages
                     values['checkbox-output-dat-in-legacy-parent-clone-format'],
                     gui_output_settings, # user options
                     False,
                     values['checkbox-disable-custom-global-and-system-filters'],
                     values['checkbox-also-output-lists-of-what-titles-have-been-kept-and-removed'],
+<<<<<<< HEAD
                     values['checkbox-also-output-a-list-of-just-the-1g1r-title-names'],
                     False)
+=======
+                    values['checkbox-also-output-a-list-of-just-the-1g1r-title-names'])
+>>>>>>> 093831f44d214dee317ebfb6b7c9aa74466b70ad
                 retool.main(gui_input)
 
         if event == 'checkbox-also-output-a-list-of-just-the-1g1r-title-names':
@@ -643,7 +709,11 @@ def main():
 
                 # Import settings from user-filters/dat-name.yaml if it exists
                 if os.path.isfile(f'user-filters/{filters.system_file}.yaml'):
+<<<<<<< HEAD
                     custom_system_filters = import_user_filters(filters.system_file, 'system')
+=======
+                    custom_system_filters = import_user_filters(filters.system_file)
+>>>>>>> 093831f44d214dee317ebfb6b7c9aa74466b70ad
                     window['system-filters-exclude'].update('\n'.join(custom_system_filters.data['exclude']))
                     window['system-filters-include'].update('\n'.join(custom_system_filters.data['include']))
 
@@ -763,20 +833,32 @@ def main():
                 excludes.append('b')
             if values['checkbox-bios-and-other-chips'] == True:
                 excludes.append('B')
+<<<<<<< HEAD
             if values['checkbox-coverdiscs'] == True:
                 excludes.append('c')
             if values['checkbox-demos-and-samples'] == True:
                 excludes.append('d')
             if values['checkbox-add-ons'] == True:
                 excludes.append('D')
+=======
+            if values['checkbox-compilations-with-no-unique-titles'] == True:
+                excludes.append('c')
+            if values['checkbox-coverdiscs'] == True:
+                excludes.append('C')
+            if values['checkbox-demos-and-samples'] == True:
+                excludes.append('d')
+>>>>>>> 093831f44d214dee317ebfb6b7c9aa74466b70ad
             if values['checkbox-educational'] == True:
                 excludes.append('e')
             if values['checkbox-manuals'] == True:
                 excludes.append('m')
             if values['checkbox-multimedia'] == True:
                 excludes.append('M')
+<<<<<<< HEAD
             if values['checkbox-bonus-discs'] == True:
                 excludes.append('o')
+=======
+>>>>>>> 093831f44d214dee317ebfb6b7c9aa74466b70ad
             if values['checkbox-pirate'] == True:
                 excludes.append('p')
             if values['checkbox-preproduction'] == True:
@@ -787,6 +869,11 @@ def main():
                 excludes.append('u')
             if values['checkbox-video'] == True:
                 excludes.append('v')
+<<<<<<< HEAD
+=======
+            if values['checkbox-supersets-replace-standard-editions'] == True:
+                gui_settings.append('s')
+>>>>>>> 093831f44d214dee317ebfb6b7c9aa74466b70ad
             if values['checkbox-titles-ripped-from-modern-platform-rereleases-replace-standard-editions'] == True:
                 gui_settings.append('z')
             if values['checkbox-output-dat-in-legacy-parent-clone-format'] == True:

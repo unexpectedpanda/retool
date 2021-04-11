@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 0.89
 
 Things of note for this release:
@@ -97,6 +98,8 @@ Things of note for this release:
       US release.
 
 
+=======
+>>>>>>> 093831f44d214dee317ebfb6b7c9aa74466b70ad
 # 0.88
 
 Things of note for this release:
@@ -106,7 +109,10 @@ Things of note for this release:
 - Windows binaries no longer live in the `/dist/` folder, as it was becoming a
   download burden to those cloning the repo.
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 093831f44d214dee317ebfb6b7c9aa74466b70ad
 ## New features
 - You can now exclude Manuals.
 - Excluding BIOSes now also excludes enhancement chips.
@@ -224,8 +230,11 @@ Some big changes this time around, including some requested features.
   CLI and GUI auto-generate the file if it's missing.
 - Metadata is now in alphabetical order.
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 093831f44d214dee317ebfb6b7c9aa74466b70ad
 # 0.86
 - Things like Virtual Console titles have been demoted in priority, as quite
   often emulators won't play them.
@@ -240,13 +249,17 @@ Some big changes this time around, including some requested features.
 - `-i` removed from `-g` option as some titles are used for soundtracks
   in games.
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 093831f44d214dee317ebfb6b7c9aa74466b70ad
 # 0.85
 - Updated the date sorting to take into account another of No-Intro's
   inconsistent date formats `(Month name, YYYY)`.
 - Another tweak to the ordering of the output dat.
 
+<<<<<<< HEAD
 
 
 # 0.84
@@ -254,14 +267,22 @@ Some big changes this time around, including some requested features.
 
 
 
+=======
+# 0.84
+- Updated the Sega ring code regex so more ring codes are captured.
+
+>>>>>>> 093831f44d214dee317ebfb6b7c9aa74466b70ad
 # 0.83
 - Accidentally uploaded the wrong `user-config.yaml`, where all regions were
   commented out. This resulted in the CLI version of Retool finding no clones
   unless manually edited by the user. This has now been fixed.
 - Some code clean up and extra explanation for some options.
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 093831f44d214dee317ebfb6b7c9aa74466b70ad
 # 0.82
 - (Unl) titles in a higher region are now demoted below equivalent
   production titles in other regions.
@@ -271,16 +292,22 @@ Some big changes this time around, including some requested features.
 - Explained what a coverdisc is in the GUI.
 - Fixed a natural sort bug in the alphabetical ordering of output dats.
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 093831f44d214dee317ebfb6b7c9aa74466b70ad
 # 0.81
 - Fixed a bug in `retool-gui.py` where the output dat file had ` (-)` in its
   file name if no options were set.
 - Fixed a bug where clone lists and metadata wouldn't download if their
   respective folders didn't exist.
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 093831f44d214dee317ebfb6b7c9aa74466b70ad
 # 0.80
 - Retool can now handle No-Intro numbered dats.
 - Output dats used to do alphabetical order based on group, which could look
@@ -292,6 +319,7 @@ Some big changes this time around, including some requested features.
 - Added some extra tooltips to the exclusion options in the GUI, so users have
   more information to work with.
 
+<<<<<<< HEAD
 
 
 # 0.79
@@ -299,6 +327,11 @@ Some big changes this time around, including some requested features.
 
 
 
+=======
+# 0.79
+- Fixed the online updating of clone lists to include Redump metadata.
+
+>>>>>>> 093831f44d214dee317ebfb6b7c9aa74466b70ad
 # 0.78
 - Implemented a GUI. You'll need to install `pysimpleguiqt` with pip, and after
   that you can run it with `retool-gui.py`. It's not as tight and consistent as
@@ -326,8 +359,11 @@ Some big changes this time around, including some requested features.
 - Cleaned up some unused variables and imports.
 - Lots of code tweaks to better suit GUI interaction.
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 093831f44d214dee317ebfb6b7c9aa74466b70ad
 # 0.77
 - The `-g` option now keeps applications, as they are useful for computer
   platforms like the Atari ST and Commodore Amiga.
@@ -341,8 +377,11 @@ Some big changes this time around, including some requested features.
   both a version _and_ a revision of a title.
 - Hid displaying options behind the `-?` option.
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 093831f44d214dee317ebfb6b7c9aa74466b70ad
 # 0.76
 - Fixed filtering by language. This was broken due to a last minute change from
   a string to regex in the 0.75 release.
@@ -365,8 +404,11 @@ Some big changes this time around, including some requested features.
   automatically on account of production versions existing. You will need
   to specify `-p` if you want to remove all preproduction titles.
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 093831f44d214dee317ebfb6b7c9aa74466b70ad
 # 0.75
 - Now handles No-Intro dats. Note that grouping follows different rules to
   No-Intro. For example, in the Atari 2600 dat, a compilation is listed as
@@ -403,14 +445,20 @@ Some big changes this time around, including some requested features.
   machine stopped working.
 - Some crash fixes and message format tweaking.
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 093831f44d214dee317ebfb6b7c9aa74466b70ad
 # 0.71
 - Moved internal-config.json to the clonelists + metadata file so new
   releases of Retool aren't required each time the file is updated.
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 093831f44d214dee317ebfb6b7c9aa74466b70ad
 # 0.70
 Oof, this is a big update, with feature and performance improvements all over
 the place.
@@ -487,8 +535,11 @@ The following things have also changed:
   system has been reversed. For the sake of compatibility, if there are
   multiple OS versions for a title, all are included.
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 093831f44d214dee317ebfb6b7c9aa74466b70ad
 # 0.60
 - Removed pointless milliseconds from output file name.
 - Added "Scholastic" to the publisher/distributor list.
@@ -502,21 +553,30 @@ The following things have also changed:
   an external JSON file. This can potentially lead to greater user
   customization later.
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 093831f44d214dee317ebfb6b7c9aa74466b70ad
 # 0.59
 - Added "Best of the Best" and "Best Hit Selection" as publishers/distributors.
 - Added another disc synonym.
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 093831f44d214dee317ebfb6b7c9aa74466b70ad
 # 0.58
 - Added yet another disc synonym.
 - Added "Hitsquad - Regenerator" as a publisher/distributor.
 - Removed `_version.py`.
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 093831f44d214dee317ebfb6b7c9aa74466b70ad
 # 0.57
 - Separated removing coverdiscs from demos (`-d`), making it its own option
   (`-b`). Turns out plenty of full version games were given away as coverdiscs.
@@ -536,8 +596,11 @@ The following things have also changed:
   order. Otherwise current limitations in dat format and dat managers get in
   the way.
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 093831f44d214dee317ebfb6b7c9aa74466b70ad
 # 0.56
 - Messed with the region order a little to be more fair to more popular
   languages, taking in mind how many titles were actually released for
@@ -547,6 +610,7 @@ The following things have also changed:
 - Moved stuff out of readme.md to make it more readable, and created
   a GitHub wiki for more detailed information.
 
+<<<<<<< HEAD
 
 
 # 0.55
@@ -554,6 +618,11 @@ The following things have also changed:
 
 
 
+=======
+# 0.55
+- Code changes to support a build pipeline.
+
+>>>>>>> 093831f44d214dee317ebfb6b7c9aa74466b70ad
 # 0.54
 - Greatly sped up parent/clone processing, and removed XML conversion in
   favor of writing directly to the output dat. This will be mostly noticeable
@@ -566,8 +635,11 @@ The following things have also changed:
 - Added a counter for how many compilations were removed, if the option is
   enabled.
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 093831f44d214dee317ebfb6b7c9aa74466b70ad
 # 0.53
 - Fixed a bug where if a region name was in a title, it caused clones to be
   assigned to the wrong parents. For example,
@@ -577,23 +649,32 @@ The following things have also changed:
 - Fixed a normalization bug when converting _Disc III_ into _Disc 3_ for title
   matching.
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 093831f44d214dee317ebfb6b7c9aa74466b70ad
 # 0.52
 - Added better parent selection for the following:
   - Titles with multiple date versions.
   - Titles with distributor/publisher, OEM, and covermount tags.
   - Budget titles vs the originals.
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 093831f44d214dee317ebfb6b7c9aa74466b70ad
 # 0.51
 - Added Zh as a language.
 - Fixed a crash if a dat had no titles, and Retool was trying to process
   supersets.
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 093831f44d214dee317ebfb6b7c9aa74466b70ad
 # 0.50
 - A huge architectural shift to move Retool to a 1G1R dat generator. Due to
   this, the `_regional_renames.py` file has been renamed to `_renames.py` and
@@ -604,7 +685,11 @@ The following things have also changed:
   Output files are automatically named.
 - You can now remove alternate (Alt) titles with the `-l` option.
 - You can now promote supersets (for example, Game of the Year editions) to
+<<<<<<< HEAD
   parents with the `-s` option.
+=======
+  parents with the  `-s` option.
+>>>>>>> 093831f44d214dee317ebfb6b7c9aa74466b70ad
 - Expanded demo removal criteria, as Redump does not always put demos in the
   "Demos" category.
 - Region processing is now much faster.
@@ -677,14 +762,20 @@ The following things have also changed:
   Without extra logic, the program would mark all **_King's Field II_** titles
   as clones, which is not what we want.
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 093831f44d214dee317ebfb6b7c9aa74466b70ad
 # 0.34
 - Added textwrap module for better readability on MacOS/Linux.
 - Bundled MacOS and Windows binaries.
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 093831f44d214dee317ebfb6b7c9aa74466b70ad
 # 0.33
 - Added ability to operate on folders.
 - Fixed output file naming bugs.
@@ -693,6 +784,7 @@ The following things have also changed:
 - Added the following regions: Argentina, Czech, Hungary, Singapore, Slovakia,
   Thailand, Turkey, Ukraine, United Arab Emirates.
 
+<<<<<<< HEAD
 
 
 # 0.32
@@ -702,6 +794,13 @@ The following things have also changed:
 
 
 
+=======
+# 0.32
+- Reimplemented -re and -ra flags.
+- Fixed header so the user wasn't prompted with false update warnings when the
+  dat was loaded in CLRMAMEPro.
+
+>>>>>>> 093831f44d214dee317ebfb6b7c9aa74466b70ad
 # 0.31
 - Used dictionaries and classes to greatly increase performance and improve
   code readability.
@@ -709,8 +808,11 @@ The following things have also changed:
 - Removed unused importlib dependency.
 - Usability tweaks.
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 093831f44d214dee317ebfb6b7c9aa74466b70ad
 # 0.20
 - Refactored for performance, code readability, and usability.
 - Can handle CLRMAMEPro dat files now, not just Logiqx XML format.
@@ -720,9 +822,13 @@ The following things have also changed:
 - Fixed excessive looping in some sections.
 - Fixed title exclusion bugs.
 - Added more error checking.
+<<<<<<< HEAD
 - Removed `-re` and `-ra` flags until refactor until next version.
 
 
+=======
+- Removed -re and -ra flags until refactor until next version.
+>>>>>>> 093831f44d214dee317ebfb6b7c9aa74466b70ad
 
 # 0.10
 - Initial release.
