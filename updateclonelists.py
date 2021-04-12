@@ -12,15 +12,17 @@ import urllib.request
 from datetime import datetime
 from urllib.error import HTTPError, URLError
 
+update_url = 'https://raw.githubusercontent.com/unexpectedpanda/retool/main'
+
 if len(sys.argv) > 1:
     update_url = sys.argv[1]
 else:
     if os.path.isfile('internal-config.json'):
         with open('internal-config.json', 'r') as input_file_read:
             settings = json.load(input_file_read)
-            update_url = settings['clonelist_updates']['url']
-    else:
-        update_url = 'https://raw.githubusercontent.com/unexpectedpanda/retool/main'
+            if 'clonelist_updates' in settings:
+                if 'url' in settings['clonelist_updates']:
+                    update_url = settings['clonelist_updates']['url']
 
 def main():
     user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36'
