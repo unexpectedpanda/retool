@@ -149,24 +149,25 @@ def main(gui_input=''):
 
         # Make sure this version of Retool can deal with the imported clone list
         if input_dat.clone_lists is not None:
-            if float(input_dat.clone_lists.min_version) > float(__version__):
-                out_of_date = ''
+            if input_dat.clone_lists.min_version != {}:
+                if float(input_dat.clone_lists.min_version) > float(__version__):
+                    out_of_date = ''
 
-                while not (out_of_date == 'y' or out_of_date == 'n'):
-                    printwrap(
-                        f'{Font.warning_bold}* This clone list requires Retool '
-                        f'{str(input_dat.clone_lists.min_version)} or higher. '
-                        'Behaviour might be unpredictable. Please update '
-                        'Retool to fix this.',
-                        'error'
-                    )
+                    while not (out_of_date == 'y' or out_of_date == 'n'):
+                        printwrap(
+                            f'{Font.warning_bold}* This clone list requires Retool '
+                            f'{str(input_dat.clone_lists.min_version)} or higher. '
+                            'Behaviour might be unpredictable. Please update '
+                            'Retool to fix this.',
+                            'error'
+                        )
 
-                    out_of_date = input(f'\n  Continue? (y/n) {Font.end}')
+                        out_of_date = input(f'\n  Continue? (y/n) {Font.end}')
 
-                if out_of_date == 'n':
-                    sys.exit()
-                else:
-                    print('')
+                    if out_of_date == 'n':
+                        sys.exit()
+                    else:
+                        print('')
 
         # Import scraped Redump metadata for titles
         input_dat.metadata = import_metadata(input_dat)

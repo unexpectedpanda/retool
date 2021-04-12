@@ -3,7 +3,7 @@
         "name": [
 			"NEC - PC Engine - TurboGrafx 16"
 		],
-        "last updated": "9 April 2021",
+        "last updated": "11 April 2021",
 		"minimum version": "0.89"
     },
 
@@ -94,6 +94,12 @@
         ],
         "Psychosis": [
             ["Paranoia", 1]
+        ],
+        "R-Type I": [
+            ["R-Type", 0]
+        ],
+        "R-Type II": [
+            ["R-Type", 0]
         ],
         "Samurai-Ghost": [
             ["Genpei Toumaden - Kan no Ni", 1]

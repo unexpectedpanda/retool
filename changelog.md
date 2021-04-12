@@ -5,7 +5,7 @@ Things of note for this release:
 - The way supersets and compilations are handled has changed. Supersets are now
   default 1G1R titles. Compilations sometimes get removed, sometimes become 1G1R
   titles depending on region order/situation. Right now you won't see much
-  difference outside of Master System -- the point of this version was to get
+  difference outside of Master System &mdash; the point of this version was to get
   the functionality out, then the clone lists can be updated later.
 - Custom global/system includes now recover files from countries/languages/type
   exclusions. Grab that one title you want from Japan, or save that one demo
@@ -314,7 +314,7 @@ Some big changes this time around, including some requested features.
   you can port your region order/language settings over.
 - Moved to argparse to handle user input in the CLI. It's less pretty, but it's
   more robust and scalable. This also means that the `-i` option is no longer a
-  thing when specifying your input dat/folder -- instead, specify it
+  thing when specifying your input dat/folder &mdash; instead, specify it
   immediately after `retool.py`:
 
   `retool.py <input dat/folder> <options>`
@@ -464,7 +464,7 @@ The following things have also changed:
 - Multi-region titles are now handled more elegantly.
 - Fixed tags with regions in them causing a title to be filtered into the wrong
   region. For example, _Virtua Fighter 2 (Europe) (Rev A) (Made in USA)_ used
-  to be categorized as a USA title -- it's now correctly identified as a
+  to be categorized as a USA title &mdash; it's now correctly identified as a
   European title.
 
 ## Other updates
