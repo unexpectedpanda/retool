@@ -57,7 +57,7 @@ sg.SetOptions(font=(font, 10))
 
 
 def main():
-    __version__ = 0.08
+    __version__ = 0.09
 
     # Generate user config file if it's missing
     generate_config(region_data.languages_long, region_data.region_order, False, False, True)
@@ -82,7 +82,7 @@ def main():
         generate_checkbox(['BIOS and other chips', 'Preproduction'], 30*scale_multiplier, ['Exclude titles with the dat category "Console"\nor with the following text in the name:\n\n* [BIOS]\n* (Enhancement Chip)', 'Exclude titles with the dat category "Preproduction" or with the\nfollowing text in the name:\n\n* (Alpha [0-99])\n* (Beta [0-99])\n* (Pre-Production)\n* (Possible Proto)\n* (Proto [0-99])\n* (Review Code)']),
         generate_checkbox(['Bonus discs', 'Promotional'], 30*scale_multiplier, ['Exclude titles with the dat category "Bonus Discs" -- these\ncould be anything other than the main title content,\nlike patches, manuals, collector discs, or otherwise', 'Exclude titles with the dat category "Promotional" or with the\nfollowing text in the name:\n\n* (Promo)\n* EPK\n* Press Kit']),
         generate_checkbox(['Coverdiscs', 'Unlicensed'], 30*scale_multiplier, ['Exclude titles with the dat category "Coverdiscs" -- these\nwere discs that were attached to the front of magazines', 'Exclude titles with "(Unl)" in the name']),
-        generate_checkbox(['Demos and samples', 'Video'], 30*scale_multiplier, ['Exclude titles with the dat category "Demos" or with the\nfollowing text in the name:\n\n* @barai\n* (Demo [1-9])\n* (Demo-CD)\n* (GameCube Preview)\n* (Preview)\n* Sample\n* Taikenban\n* Trial Edition', 'Exclude titles with the dat category "Video"']),
+        generate_checkbox(['Demos, kiosks, and samples', 'Video'], 30*scale_multiplier, ['Exclude titles with the dat category "Demos" or with the\nfollowing text in the name:\n\n* @barai\n* (Demo [1-9])\n* (Demo-CD)\n* (GameCube Preview\n* (Kiosk *|* Kiosk)\n* (Preview)\n* Kiosk Demo Disc\n* PS2 Kiosk\n* PSP System Kiosk\n* Sample\n* Taikenban\n* Trial Edition', 'Exclude titles with the dat category "Video"']),
     ]
 
     # Modes
@@ -464,7 +464,7 @@ def main():
                     if 'b' in value: window['checkbox-bad-dumps'].update(True)
                     if 'B' in value: window['checkbox-bios-and-other-chips'].update(True)
                     if 'c' in value: window['checkbox-coverdiscs'].update(True)
-                    if 'd' in value: window['checkbox-demos-and-samples'].update(True)
+                    if 'd' in value: window['checkbox-demos-kiosks-and-samples'].update(True)
                     if 'D' in value: window['checkbox-add-ons'].update(True)
                     if 'e' in value: window['checkbox-educational'].update(True)
                     if 'm' in value: window['checkbox-manuals'].update(True)
@@ -587,7 +587,7 @@ def main():
                     values['checkbox-bad-dumps'],
                     values['checkbox-bios-and-other-chips'],
                     values['checkbox-coverdiscs'],
-                    values['checkbox-demos-and-samples'],
+                    values['checkbox-demos-kiosks-and-samples'],
                     values['checkbox-add-ons'],
                     values['checkbox-educational'],
                     values['checkbox-manuals'],
@@ -765,7 +765,7 @@ def main():
                 excludes.append('B')
             if values['checkbox-coverdiscs'] == True:
                 excludes.append('c')
-            if values['checkbox-demos-and-samples'] == True:
+            if values['checkbox-demos-kiosks-and-samples'] == True:
                 excludes.append('d')
             if values['checkbox-add-ons'] == True:
                 excludes.append('D')
@@ -918,7 +918,7 @@ def generate_checkbox(labels, width, tips=None):
             if tips == None:
                 checkboxes.append(sg.Checkbox(
                     enable_events=True,
-                    key=f'checkbox-{label.lower().replace(" ", "-").replace("/", "-")}',
+                    key=f'checkbox-{label.lower().replace(" ", "-").replace("/", "-").replace(",","")}',
                     font=(font, 9),
                     pad=(0,0),
                     size=(width,0.6),
@@ -926,7 +926,7 @@ def generate_checkbox(labels, width, tips=None):
             else:
                 checkboxes.append(sg.Checkbox(
                     enable_events=True,
-                    key=f'checkbox-{label.lower().replace(" ", "-").replace("/", "-")}',
+                    key=f'checkbox-{label.lower().replace(" ", "-").replace("/", "-").replace(",","")}',
                     font=(font, 9),
                     pad=(0,0),
                     size=(width,0.6),

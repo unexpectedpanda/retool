@@ -1,3 +1,9 @@
+# 0.90
+
+- Excluding demos now also excludes kiosk titles, and matches some extra strings
+  for trial versions.
+- Excluding videos now excludes trailers as well.
+
 # 0.89
 
 Things of note for this release:

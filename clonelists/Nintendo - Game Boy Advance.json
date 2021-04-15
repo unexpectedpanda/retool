@@ -3,7 +3,7 @@
         "name": [
 			"Nintendo - Game Boy Advance"
 		],
-        "last updated": "9 April 2021",
+        "last updated": "11 April 2021",
 		"minimum version": "0.89"
     },
 
@@ -683,8 +683,7 @@
             ["Mario Kart Advance", 1]
         ],
         "Mario Pinball Land": [
-            ["Super Mario Ball", 1],
-            ["Mario Pinball Land (Kiosk, GameCube)", 2]
+            ["Super Mario Ball", 1]
         ],
         "Mario Tennis - Power Tour": [
             ["Mario Power Tennis", 1],

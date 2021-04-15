@@ -116,6 +116,9 @@ class DatNode:
             for preproduction in REGEX.preproduction:
                 if re.search(preproduction, self.full_name) != None:
                     self.category = 'Preproduction'
+            for video in REGEX.video:
+                if re.search(video, self.full_name) != None:
+                    self.category = 'Video'
         else:
             self.category = node.category.contents[0]
 
@@ -291,7 +294,8 @@ class Regex:
             re.compile('\(GameCube Preview\)', re.IGNORECASE),
             re.compile('\(Preview\)', re.IGNORECASE),
             re.compile('\(Sample( [1-9])*\)', re.IGNORECASE),
-            re.compile('Trial Edition', re.IGNORECASE)
+            re.compile('Trial (Edition|Version|ver\.)', re.IGNORECASE),
+            re.compile('\((.*Kiosk|Kiosk.*)\)|PSP System Kiosk|Kiosk Demo Disc|PS2 Kiosk', re.IGNORECASE)
             ]
         self.manuals = re.compile('\(Manual\)', re.IGNORECASE),
         self.preproduction = [
@@ -317,7 +321,10 @@ class Regex:
             re.compile('\(Unl\)', re.IGNORECASE)
         ]
         self.video = [
-            re.compile('Game Boy Advance Video', re.IGNORECASE)
+            re.compile('Game Boy Advance Video', re.IGNORECASE),
+            re.compile('\(((.*){0,1} ){0,}Trailer(s| Disc){0,}\)', re.IGNORECASE),
+            re.compile('\s- (Preview|Movie) Trailer', re.IGNORECASE),
+            re.compile('(Advent Children|Official|Preview) Trailer', re.IGNORECASE)
         ]
 
         # Versions

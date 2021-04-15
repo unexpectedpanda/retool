@@ -3,7 +3,7 @@
         "name": [
 			"Nintendo - Game Boy Color"
 		],
-        "last updated": "9 April 2021",
+        "last updated": "14 April 2021",
 		"minimum version": "0.89"
     },
 
@@ -441,6 +441,9 @@
         ],
         "TNN Outdoors Fishing Champ": [
             ["Super Black Bass Pocket 3", 1]
+        ],
+        "Tom and Jerry - Mouse Hunt": [
+            ["Tom and Jerry - Mousehunt", 1]
         ],
         "Top Gear Pocket": [
             ["Top Gear Rally", 1]

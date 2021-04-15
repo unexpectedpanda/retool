@@ -66,7 +66,7 @@ def check_input():
                                 '\nb\tbad dumps'
                                 '\nB\tBIOS and other chips'
                                 '\nc\tcoverdiscs (discs attached to the front of magazines)'
-                                '\nd\tdemos and samples'
+                                '\nd\tdemos, kiosks, and samples'
                                 '\nD\tadd-ons (expansion packs and additional material)'
                                 '\ne\teducational titles'
                                 '\nm\tmanuals'
