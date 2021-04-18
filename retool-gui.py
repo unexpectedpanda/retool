@@ -57,7 +57,7 @@ sg.SetOptions(font=(font, 10))
 
 
 def main():
-    __version__ = 0.09
+    __version__ = '0.10'
 
     # Generate user config file if it's missing
     generate_config(region_data.languages_long, region_data.region_order, False, False, True)
@@ -130,7 +130,8 @@ def main():
 
         [sg.Text('Exclude or include specific titles by adding your own text '
                  'strings to match against. Each string should\nbe on its own '
-                 'line. See the wiki for more information.\n'
+                 'line, and is case sensitive. See the wiki for more '
+                 'information.\n'
                  '\n• Plain text indicates a partial string match.'
                  '\n• A prefix of / indicates a regular expression match.'
                  '\n• A prefix of | indicates a full string match.\n',
@@ -651,7 +652,8 @@ def main():
                 system_filters_text = (
                     'Exclude or include specific titles by adding your own text '
                     'strings to match against. Each string should\nbe on its own '
-                    'line. See the wiki for more information.\n'
+                    'line, and is case sensitive. See the wiki for more '
+                    'information.\n'
                     '\n• Plain text indicates a partial string match.'
                     '\n• A prefix of / indicates a regular expression match.'
                     '\n• A prefix of | indicates a full string match.\n'

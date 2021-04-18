@@ -1,8 +1,18 @@
+# 0.91
+
+- Fixed a crash when processing the Mega CD/Sega CD dat, and Europe or USA was
+  not included in the region order.
+- Specified in the GUI that custom filters are case sensitive.
+
+
+
 # 0.90
 
 - Excluding demos now also excludes kiosk titles, and matches some extra strings
   for trial versions.
 - Excluding videos now excludes trailers as well.
+
+
 
 # 0.89
 
@@ -101,6 +111,7 @@ Things of note for this release:
     - A title in one region that definitely has more content than another
       region. For example, a release in Europe that's uncensored compared to the
       US release.
+
 
 
 # 0.88

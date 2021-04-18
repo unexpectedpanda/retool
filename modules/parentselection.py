@@ -747,7 +747,11 @@ def assign_clones(titles, input_dat, region_data, user_input, dat_numbered, REGE
                                                                 break
 
                                                     # Check for Sega CD 32X vs Mega-CD 32X
-                                                    if bool(re.search(REGEX.sega32x, clone_title.full_name_lower)) == True:
+                                                    if (
+                                                        bool(re.search(REGEX.sega32x, clone_title.full_name_lower)) == True
+                                                        and 'USA' in user_input.user_region_order
+                                                        and 'Europe' in user_input.user_region_order
+                                                        ):
                                                         for another_clone in sorted(clones, key=operator.itemgetter(1)):
                                                             if user_input.user_region_order.index('Europe') < user_input.user_region_order.index('USA'):
                                                                     if 'mega-cd 32x' in another_clone[0].full_name_lower:
