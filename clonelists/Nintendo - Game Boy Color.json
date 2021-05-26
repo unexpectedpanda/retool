@@ -3,8 +3,27 @@
         "name": [
 			"Nintendo - Game Boy Color"
 		],
-        "last updated": "14 April 2021",
-		"minimum version": "0.89"
+        "last updated": "19 May 2021",
+		"minimum version": "0.92"
+    },
+
+    "categories": {
+        "Action Replay Online": {
+            "match": "short",
+            "categories": ["Applications"]
+        },
+        "CGB Test Cartridge": {
+            "match": "short",
+            "categories": ["Applications"]
+        },
+        "GameShark Online": {
+            "match": "short",
+            "categories": ["Applications"]
+        },
+        "Sewing Machine Operation Software": {
+            "match": "short",
+            "categories": ["Applications"]
+        }
     },
 
     "overrides": {

@@ -485,7 +485,10 @@
 	"Aggressive Inline (Europe) (En,Fr,De)": {
 		"languages": "En,Fr,De"
 	},
-	"Aging Cartridge (World)": {
+	"AGS Aging Cartridge (World) (v7.0)": {
+		"languages": "En"
+	},
+	"AGS Aging Cartridge (World) (v7.1)": {
 		"languages": "En"
 	},
 	"Aigle de Guerre, L' (France)": {
@@ -6050,7 +6053,7 @@
 	"Nakayoshi Pet Advance Series 3 - Kawaii Koneko (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
-	"Nakayoshi Pet Advance Series 4 - Kawaii Koinu Mini - Wankoto Asobou!! Kogata-ken (Japan)": {
+	"Nakayoshi Pet Advance Series 4 - Kawaii Koinu Mini - Wanko to Asobou!! Kogata-ken (Japan)": {
 		"languages": "Ja"
 	},
 	"Nakayoshi Youchien - Sukoyaka Enji Ikusei Game (Japan)": {
@@ -6392,6 +6395,9 @@
 	"Pac-Man World 2 (USA)": {
 		"languages": "En"
 	},
+	"Pac-Man World 2 (Unknown) (Beta)": {
+		"languages": "En"
+	},
 	"Paws & Claws - Best Friends - Dogs & Cats (USA)": {
 		"languages": "En"
 	},
@@ -6603,6 +6609,9 @@
 		"languages": "Ja"
 	},
 	"Pocket Monsters - Sapphire (Japan) (Pokemon Box)": {
+		"languages": "Ja"
+	},
+	"Pocket Monsters - Sapphire (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
 	"Pocket Music (Europe) (En,Fr,De,Es,It)": {

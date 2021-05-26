@@ -221,6 +221,9 @@
     "5 Star Racing (Europe)": {
         "languages": "En"
     },
+    "50 por 15 - Quiere Ser Millonario (Spain)": {
+        "languages": "Es"
+    },
     "70's Robot Anime - Geppy-X (Japan) (Demo)": {
         "languages": "Ja"
     },
@@ -2669,11 +2672,11 @@
     "Bloody Roar - Hyper Beast Duel (Europe) (Demo)": {
         "languages": "En"
     },
-    "Bloody Roar - Hyper Beast Duel (Japan) (En,Ja)": {
-        "languages": "En, Ja"
-    },
-    "Bloody Roar - Hyper Beast Duel (Japan) (Taikenban)": {
+    "Bloody Roar - Hyper Beast Duel (Japan) (Demo)": {
         "languages": "Ja"
+    },
+    "Bloody Roar - Hyper Beast Duel (Japan, Asia) (En,Ja)": {
+        "languages": "En, Ja"
     },
     "Bloody Roar 2 - Bringer of the New Age (Europe)": {
         "languages": "En"
@@ -6938,7 +6941,7 @@
     "Doki Doki Shutter Chance - Koi no Puzzle o Kumitatete (Japan) (Major Wave)": {
         "languages": "Ja"
     },
-    "Dokiou Ki (Japan)": {
+    "Dokiou-ki (Japan)": {
         "languages": "Ja"
     },
     "Doko Demo Hamster - Bi! Click Tanken-tai (Japan)": {
@@ -7211,16 +7214,16 @@
     "Dragon Quest Monsters 1 & 2 - Hoshifuri no Yuusha to Bokujou no Nakama-tachi (Japan)": {
         "languages": "Ja"
     },
-    "Dragon Quest VII - Eden no Senshi-tachi (Japan) (Disc 1)": {
-        "languages": "Ja"
-    },
     "Dragon Quest VII - Eden no Senshi-tachi (Japan) (Disc 1) (Rev 1)": {
         "languages": "Ja"
     },
-    "Dragon Quest VII - Eden no Senshi-tachi (Japan) (Disc 2)": {
+    "Dragon Quest VII - Eden no Senshi-tachi (Japan) (Disc 2) (Rev 1)": {
         "languages": "Ja"
     },
-    "Dragon Quest VII - Eden no Senshi-tachi (Japan) (Disc 2) (Rev 1)": {
+    "Dragon Quest VII - Eden no Senshi-tachi (Japan, Asia) (Disc 1)": {
+        "languages": "Ja"
+    },
+    "Dragon Quest VII - Eden no Senshi-tachi (Japan, Asia) (Disc 2)": {
         "languages": "Ja"
     },
     "Dragon Seeds (USA)": {
@@ -7538,7 +7541,7 @@
     "Dynamite Boxing (Japan)": {
         "languages": "Ja"
     },
-    "Dynamite Boxing (Japan) (Taikenban)": {
+    "Dynamite Boxing (Japan) (Demo)": {
         "languages": "Ja"
     },
     "Dynamite Soccer 2000 (Japan)": {
@@ -7942,6 +7945,9 @@
     },
     "Equestrian Showcase (USA)": {
         "languages": "En"
+    },
+    "Erlebe den Zauber von Disney auf der PlayStation (Germany)": {
+        "languages": "De"
     },
     "Essential PlayStation 1 (Europe)": {
         "languages": "En"
@@ -9620,6 +9626,9 @@
     "Final Fantasy Chronicles - Chrono Trigger (USA)": {
         "languages": "En"
     },
+    "Final Fantasy Chronicles - Chrono Trigger (USA) (Beta)": {
+        "languages": "En"
+    },
     "Final Fantasy Chronicles - Chrono Trigger (USA) (Rev 1)": {
         "languages": "En"
     },
@@ -10808,11 +10817,14 @@
     "GameShark - Metal Gear Solid 2 - Sons of Liberty (USA) (Disc 2) (Strategy in Action) (Unl)": {
         "languages": "En"
     },
-    "GameShark 2 Version 1 Code Archive Disc With Bonus Engine (USA) (Unl)": {
+    "GameShark 2 - Code Archive Disc (USA) (Unl)": {
         "languages": "En"
     },
-    "GameShark 2 Version 2 Code Archive Disc Version 1 (USA) (Unl)": {
+    "GameShark 2 - Code Archive Disc (USA) (Unl) (Rev 1)": {
         "languages": "En"
+    },
+    "GameShark 2 V2 - Code Archive Disc (USA) (En,Fr,Es,Pt) (Unl)": {
+        "languages": "En, Fr, Pt, Es"
     },
     "GameShark CDX Version 3.3 (USA) (Unl)": {
         "languages": "En"
@@ -12344,10 +12356,10 @@
     "Hot Wheels - Turbo Racing (USA)": {
         "languages": "En"
     },
-    "Houma Hunter Lime Special Collection Vol. 1 (Japan)": {
+    "Houma Hunter Lime - Special Collection Vol. 1 (Japan)": {
         "languages": "Ja"
     },
-    "Houma Hunter Lime Special Collection Vol. 2 (Japan)": {
+    "Houma Hunter Lime - Special Collection Vol. 2 (Japan)": {
         "languages": "Ja"
     },
     "Houshin Engi (Japan)": {
@@ -12366,6 +12378,9 @@
         "languages": "En"
     },
     "Hugo (Europe) (Nl,Pt)": {
+        "languages": "Nl, Pt"
+    },
+    "Hugo (Europe) (Nl,Pt) (Rev 1)": {
         "languages": "Nl, Pt"
     },
     "Hugo (France)": {
@@ -14246,6 +14261,9 @@
     "King of Fighters '97, The (Japan)": {
         "languages": "Ja"
     },
+    "King of Fighters '97, The (Japan) (Demo)": {
+        "languages": "Ja"
+    },
     "King of Fighters '98, The - Dream Match Never Ends (Japan)": {
         "languages": "Ja"
     },
@@ -15473,7 +15491,7 @@
     "Love^2 Torokko (Japan)": {
         "languages": ""
     },
-    "Love^2 Torokko (Japan) (Taikenban)": {
+    "Love^2 Torokko (Japan) (Demo)": {
         "languages": "Ja"
     },
     "LuLu - Un Conte Interactif de Romain Victor-Pujebet (Japan)": {
@@ -15770,7 +15788,7 @@
     "Mad Panic Coaster (Japan)": {
         "languages": "Ja"
     },
-    "Mad Stalker - Full Metal Force (Japan)": {
+    "Mad Stalker - FullMetalForce (Japan)": {
         "languages": "En"
     },
     "Madden NFL 2000 (Europe)": {
@@ -17672,7 +17690,7 @@
     "Mystic Ark - Maboroshi Gekijou (Japan)": {
         "languages": "Ja"
     },
-    "Mystic Ark - Maboroshi Gekijou (Japan) (Taikenban)": {
+    "Mystic Ark - Maboroshi Gekijou (Japan) (Demo)": {
         "languages": "Ja"
     },
     "Mystic Dragoons, The (Japan)": {
@@ -19853,6 +19871,15 @@
     "PSi2 Disc Five (UK) (Unl)": {
         "languages": "En"
     },
+    "PSi2 Disc Nine (UK) (Unl)": {
+        "languages": "En"
+    },
+    "PSi2 Disc One (UK) (Unl)": {
+        "languages": "En"
+    },
+    "PSi2 Disc Six (UK) (Unl)": {
+        "languages": "En"
+    },
     "PSi2 Disc Three (UK) (Unl)": {
         "languages": "En"
     },
@@ -21281,7 +21308,7 @@
     "Point Blank 3 (USA)": {
         "languages": "En"
     },
-    "Poitter's Point 2 - Sodom no Inbou (Japan)": {
+    "Poitter's Point 2 - Sodom no Inbou (Japan, Asia)": {
         "languages": "Ja"
     },
     "Poitters' Point (Japan)": {
@@ -21432,6 +21459,9 @@
         "languages": "En"
     },
     "Power Shovel ni Norou!! (Japan)": {
+        "languages": "Ja"
+    },
+    "Power Shovel ni Norou!! (Japan) (Demo)": {
         "languages": "Ja"
     },
     "Power Source (Europe)": {
@@ -21782,10 +21812,10 @@
     "Puyo Puyo Sun - Ketteiban (Japan) (Rev 1)": {
         "languages": "Ja"
     },
-    "Puyo Puyo Tsuu - Ketteiban (Japan)": {
+    "Puyo Puyo Tsuu - Ketteiban (Japan) (Rev 1)": {
         "languages": "Ja"
     },
-    "Puyo Puyo Tsuu - Ketteiban (Japan) (Rev 1)": {
+    "Puyo Puyo Tsuu - Ketteiban (Japan, Asia)": {
         "languages": "Ja"
     },
     "Puyo Puyoon - Car-kun to Issho (Japan)": {
@@ -21880,9 +21910,6 @@
     },
     "Qui Veut Gagner des Millions - Seconde Edition (France)": {
         "languages": "Fr"
-    },
-    "Quiere Ser Millonario (Spain)": {
-        "languages": "Es"
     },
     "Quiz Chara-Oke Don! Toei Tokusatsu Hero Part 1 (Japan)": {
         "languages": "Ja"
@@ -23096,7 +23123,13 @@
     "Romance of the Three Kingdoms VI - Awakening of the Dragon (USA)": {
         "languages": "En"
     },
+    "Romance wa Tsurugi no Kagayaki II - Gin no Niji o Sagashite (Japan) (Disc 1)": {
+        "languages": "Ja"
+    },
     "Romance wa Tsurugi no Kagayaki II - Gin no Niji o Sagashite (Japan) (Disc 1) (Shokai Genteiban)": {
+        "languages": "Ja"
+    },
+    "Romance wa Tsurugi no Kagayaki II - Gin no Niji o Sagashite (Japan) (Disc 2)": {
         "languages": "Ja"
     },
     "Romance wa Tsurugi no Kagayaki II - Gin no Niji o Sagashite (Japan) (Disc 2) (Shokai Genteiban)": {
@@ -28181,6 +28214,9 @@
     "Tobal No. 1 (Japan)": {
         "languages": "Ja"
     },
+    "Tobal No. 1 (Japan) (Demo)": {
+        "languages": "Ja"
+    },
     "Tobal No. 1 (USA)": {
         "languages": "En"
     },
@@ -29468,6 +29504,9 @@
     "Utchan Nanchan no Honoo no Challenger - Denryuu Iraira-bou Returns (Japan)": {
         "languages": "Ja"
     },
+    "Utchan Nanchan no Honoo no Challenger - Denryuu Iraira-bou Returns (Japan) (Demo)": {
+        "languages": "Ja"
+    },
     "V-Ball - Beach Volley Heroes (Europe)": {
         "languages": "En"
     },
@@ -29649,6 +29688,9 @@
         "languages": "En"
     },
     "Vandal Hearts - Ushinawareta Kodai Bunmei (Japan)": {
+        "languages": "Ja"
+    },
+    "Vandal Hearts - Ushinawareta Kodai Bunmei (Japan) (Demo)": {
         "languages": "Ja"
     },
     "Vandal Hearts II (Europe) (En,Fr,De)": {
@@ -31162,6 +31204,9 @@
     },
     "Xploder CD9000 Version 2.0 (Germany) (En,Fr,De,It) (Unl)": {
         "languages": "En, Fr, De, It"
+    },
+    "Xploder CD9000 Version 2.0 (USA) (Unl)": {
+        "languages": "En"
     },
     "Xploder CD9000 Version 3.0 (Europe) (Unl)": {
         "languages": "En"

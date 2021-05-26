@@ -3,8 +3,59 @@
         "name": [
 			"Nintendo - Super Nintendo Entertainment System"
 		],
-        "last updated": "11 April 2021",
-		"minimum version": "0.89"
+        "last updated": "23 May 2021",
+		"minimum version": "0.92"
+    },
+
+    "categories": {
+        "Game Genie": {
+            "match": "short",
+            "categories": ["Applications"]
+        },
+        "Game Saver": {
+            "match": "short",
+            "categories": ["Applications"]
+        },
+        "Pro Action Replay": {
+            "match": "short",
+            "categories": ["Applications"]
+        },
+        "Pro Action Replay (Europe) (27c256) (Unl)": {
+            "match": "full",
+            "categories": ["Applications"]
+        },
+        "Pro Action Replay MK2": {
+            "match": "short",
+            "categories": ["Applications"]
+        },
+        "Pro Action Replay MK3": {
+            "match": "short",
+            "categories": ["Applications"]
+        },
+        "SA1 Demonstration Program": {
+            "match": "short",
+            "categories": ["Applications"]
+        },
+        "SNES Burn-in Test Cartridge": {
+            "match": "short",
+            "categories": ["Applications"]
+        },
+        "Super Game Boy": {
+            "match": "short",
+            "categories": ["Applications"]
+        },
+        "Super Game Boy 2": {
+            "match": "short",
+            "categories": ["Applications"]
+        },
+        "World Class Service Super Nintendo Tester": {
+            "match": "short",
+            "categories": ["Applications"]
+        },
+        "XBAND": {
+            "match": "short",
+            "categories": ["Applications"]
+        }
     },
 
     "overrides": {
@@ -185,7 +236,6 @@
         "Contra III - The Alien Wars": [
             ["Contra Spirits", 1],
             ["Super Probotector - Alien Rebels", 1],
-            ["Super Probotector - Alien Rebel", 1],
             ["Contra IV - The Alien Wars", 2]
         ],
         "Cyber Spin": [
@@ -753,6 +803,9 @@
         "Prince of Persia 2": [
             ["Prince of Persia 2 - The Shadow & the Flame", 1]
         ],
+        "Pro Action Replay": [
+            ["Pro Action Replay (27c256)", 1]
+        ],
         "Pro Sport Hockey": [
             ["USA Ice Hockey", 1]
         ],
@@ -821,6 +874,9 @@
         ],
         "Saturday Night Slam Masters": [
             ["Muscle Bomber - The Body Explosion", 1]
+        ],
+        "Secret of Evermore": [
+            ["Secret of Evermore (Non-working)", 2]
         ],
         "Secret of Mana": [
             ["Seiken Densetsu 2", 1]

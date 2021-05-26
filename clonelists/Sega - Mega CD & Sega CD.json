@@ -3,8 +3,19 @@
 		"name": [
 			"Sega - Mega CD & Sega CD"
 		],
-		"last updated": "9 April 2021",
-		"minimum version": "0.89"
+		"last updated": "24 April 2021",
+		"minimum version": "0.92"
+	},
+
+	"categories": {
+		"Make My Video - INXS (USA) (Beta)": {
+			"match": "full",
+			"categories": ["Multimedia", "Preproduction"]
+		},
+		"Make My Video - Marky Mark and the Funky Bunch (USA) (Beta)": {
+			"match": "full",
+			"categories": ["Multimedia", "Preproduction"]
+		}
 	},
 
 	"renames": {

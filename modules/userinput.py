@@ -29,33 +29,37 @@ def check_input():
                         type=str,
                         help='R|set an output folder where the new 1G1R dat/s will be\ncreated')
 
-    dev_options.add_argument('--log',
+    parser.add_argument('--emptytitles',
                         action='store_true',
-                        help='R|also output lists of what titles have been kept,\nremoved, and set as clones')
+                        help='R|include titles that don\'t have hashes, ROMs, or disks\nspecified')
 
-    dev_options.add_argument('--list',
+    parser.add_argument('--nofilters',
                         action='store_true',
-                        help=f'R|also output a list of just the 1G1R title names (See\n{Font.bold}user-config.yaml{Font.end} to add a prefix and/or suffix to each line)')
+                        help='R|don\'t load custom global and system filters from the\nuser-filters folder')
 
     dev_options.add_argument('--errors',
                         action='store_true',
                         help='report clone list errors during processing')
 
-    dev_options.add_argument('--nofilters',
+    dev_options.add_argument('--list',
                         action='store_true',
-                        help='R|don\'t load custom global and system filters from the\nuser-filters folder')
+                        help=f'R|also output a list of just the 1G1R title names (See\n{Font.bold}user-config.yaml{Font.end} to add a prefix and/or suffix to each line)')
+
+    dev_options.add_argument('--log',
+                        action='store_true',
+                        help='R|also output lists of what titles have been kept,\nremoved, and set as clones')
 
     modes.add_argument('-l',
                         action='store_true',
                         help=f'filter by languages using a list (see {Font.bold}user-config.yaml{Font.end})')
 
-    modes.add_argument('-z',
-                        action='store_true',
-                        help='R|titles ripped from modern platform rereleases, such as those found\nin Virtual Console, replace standard editions (ripped titles might\nnot work in emulators)')
-
     modes.add_argument('-x',
                         action='store_true',
                         help='output dat/s in legacy parent/clone format')
+
+    modes.add_argument('-z',
+                        action='store_true',
+                        help='R|titles ripped from modern platform rereleases, such as those found\nin Virtual Console, replace standard editions (ripped titles might\nnot work in emulators)')
 
     exclusions.add_argument('--exclude',
                                 action='extend',
@@ -112,7 +116,7 @@ def check_input():
 
     # Create user options string
     user_options = []
-    hidden_options = ['Input', 'output', 'q', 'errors', 'log', 'nofilters', 'list', 'test']
+    hidden_options = ['Input', 'output', 'q', 'errors', 'log', 'nofilters', 'list', 'test', 'emptytitles']
 
     for arg in vars(args):
         if arg not in hidden_options and getattr(args, arg) == True:
@@ -154,6 +158,7 @@ def check_input():
             args.nofilters,
             args.log,
             args.list,
+            args.emptytitles,
             args.test)
 
 

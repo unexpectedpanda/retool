@@ -104,6 +104,12 @@
     "ATV Offroad Fury Pro (USA) (Proto)": {
         "languages": "En"
     },
+    "Accel World - Gin'yoku no Kakusei (Japan)": {
+        "languages": "Ja"
+    },
+    "Accel World - Kasoku no Chouten (Japan)": {
+        "languages": "Ja"
+    },
     "Ace Combat - Joint Assault (Europe) (En,Ja,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Ja, Es"
     },
@@ -1472,6 +1478,9 @@
     "Dynasty Warriors (Europe)": {
         "languages": "En"
     },
+    "Dynasty Warriors (France)": {
+        "languages": "Fr"
+    },
     "Dynasty Warriors (Germany)": {
         "languages": "En"
     },
@@ -2279,6 +2288,12 @@
     "Grand Theft Auto - Chinatown Wars (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
+    "Grand Theft Auto - Chinatown Wars (Europe) (En,Fr,De,Es,It) (v0.01) (Beta)": {
+        "languages": "En, Fr, De, It, Es"
+    },
+    "Grand Theft Auto - Chinatown Wars (Europe) (En,Fr,De,Es,It) (v0.02) (Beta)": {
+        "languages": "En, Fr, De, It, Es"
+    },
     "Grand Theft Auto - Chinatown Wars (Japan)": {
         "languages": "Ja"
     },
@@ -2382,6 +2397,9 @@
         "languages": "En, De"
     },
     "Gun Showdown (USA)": {
+        "languages": "En"
+    },
+    "Gun Showdown (USA) (Beta)": {
         "languages": "En"
     },
     "Gundam Battle Royale (Japan, Asia)": {
@@ -2897,10 +2915,10 @@
     "Kidou Senshi Gundam - Senjou no Kizuna Portable (Korea)": {
         "languages": "Ja"
     },
-    "Kidou Senshi Gundam Seed - Rengou vs. Z.A.F.T. Portable (Japan)": {
+    "Kidou Senshi Gundam Seed - Rengou vs. Z.A.F.T. Portable (Japan) (Demo)": {
         "languages": "Ja"
     },
-    "Kidou Senshi Gundam Seed - Rengou vs. Z.A.F.T. Portable (Japan) (Demo)": {
+    "Kidou Senshi Gundam Seed - Rengou vs. Z.A.F.T. Portable (Korea)": {
         "languages": "Ja"
     },
     "Killzone - Liberation (Europe) (En,Fr,De,Es,It,Nl,Pl,Ru)": {
@@ -2944,6 +2962,9 @@
     },
     "Kingdom of Paradise (USA)": {
         "languages": "En"
+    },
+    "Kisou Ryouhei Gunhound EX (Japan)": {
+        "languages": "Ja"
     },
     "Kisou Senshi Gundam - Gundam vs. Gundam (Japan, Asia)": {
         "languages": "Ja"
@@ -3079,6 +3100,9 @@
     },
     "Lemmings (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
+    },
+    "Lemmings (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da,Fi) (Beta)": {
+        "languages": "Da, Nl, En, Fi, Fr, De, It, No, Es, Sv"
     },
     "Lemmings (USA)": {
         "languages": "En"
@@ -5174,6 +5198,9 @@
     "Shin Sangoku Musou - Multi Raid (Japan) (Taikenban)": {
         "languages": "Ja"
     },
+    "Shin Sangoku Musou - Multi Raid 2 (Japan) (Taikenban)": {
+        "languages": "Ja"
+    },
     "Shin Sangoku Musou 5 Special (Japan)": {
         "languages": "Ja"
     },
@@ -5237,7 +5264,7 @@
     "Silverfall (Europe) (En,Fr,De,Es)": {
         "languages": "En, Fr, De, Es"
     },
-    "Simple 2500 Series Portable!! Vol. 10 - The IQ Cube (Japan)": {
+    "Simple 2500 Series Portable!! Vol. 10 - The IQ Cube - Moyatto Atama o Puzzle de Sukkiri! (Japan)": {
         "languages": "Ja"
     },
     "Simple 2500 Series Portable!! Vol. 11 - The Puzzle Quest - Agaria no Kishi (Japan)": {
@@ -5500,6 +5527,9 @@
     },
     "Star Wars Battlefront - Renegade Squadron (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
+    },
+    "Star Wars Battlefront - Renegade Squadron (Korea)": {
+        "languages": "En"
     },
     "Star Wars Battlefront - Renegade Squadron (USA)": {
         "languages": "En"
@@ -6167,6 +6197,9 @@
     "WRC - FIA World Rally Championship (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
+    "WRC - FIA World Rally Championship (Europe) (En,Fr,De,Es,It,Pt,No,Fi) (Beta)": {
+        "languages": "En, Fi, Fr, De, It, No, Pt, Es"
+    },
     "WRC - FIA World Rally Championship (USA)": {
         "languages": "En"
     },
@@ -6241,6 +6274,9 @@
     },
     "Warhammer 40,000 - Squad Command (USA)": {
         "languages": "En"
+    },
+    "Warning - Code de la Route (France)": {
+        "languages": "Fr"
     },
     "Warriors Orochi (Europe)": {
         "languages": "En"

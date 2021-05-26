@@ -341,6 +341,9 @@
     "Capcom vs. SNK - Millennium Fight 2000 (Japan) (Rev A)": {
         "languages": "Ja"
     },
+    "Capcom vs. SNK - Millennium Fight 2000 (Japan) (Tentou Taikenban)": {
+        "languages": "Ja"
+    },
     "Capcom vs. SNK - Millennium Fight 2000 Pro (Japan)": {
         "languages": "Ja"
     },
@@ -554,6 +557,15 @@
     "DC-IE Import Enabler (USA) (Unl)": {
         "languages": ""
     },
+    "Dabi Tsuku - Derby-ba o Tsukurou! (Japan)": {
+        "languages": "Ja"
+    },
+    "Dabi Tsuku - Derby-ba o Tsukurou! (Japan) (Taikenban)": {
+        "languages": ""
+    },
+    "Dabi Tsuku 2 (Japan)": {
+        "languages": "Ja"
+    },
     "Dance Dance Revolution - Club Version - Dreamcast Edition (Japan)": {
         "languages": "Ja"
     },
@@ -587,6 +599,9 @@
     "Daytona USA 2001 (Japan)": {
         "languages": "En"
     },
+    "Daytona USA 2001 (Japan) (Taikenban)": {
+        "languages": "En"
+    },
     "De La Jet Set Radio (Japan) (En,Ja,Fr,De,Es)": {
         "languages": "En, Fr, De, Ja, Es"
     },
@@ -600,6 +615,9 @@
         "languages": "Ja"
     },
     "Dead or Alive 2 (Japan) (Shokai Genteiban)": {
+        "languages": "Ja"
+    },
+    "Dead or Alive 2 (Japan) (Taikenban)": {
         "languages": "Ja"
     },
     "Dead or Alive 2 (USA)": {
@@ -666,15 +684,6 @@
         "languages": "Ja"
     },
     "Densha de Go! 2 - Kousoku-hen 3000 Bandai (Japan)": {
-        "languages": "Ja"
-    },
-    "Derby Tsuku - Derby-ba o Tsukurou! (Japan)": {
-        "languages": "Ja"
-    },
-    "Derby Tsuku - Derby-ba o Tsukurou! (Japan) (Taikenban)": {
-        "languages": ""
-    },
-    "Derby Tsuku 2 (Japan)": {
         "languages": "Ja"
     },
     "Di Gi Charat Fantasy (Japan)": {
@@ -873,6 +882,9 @@
         "languages": "Ja"
     },
     "Dreamcast Promotion Disk (Japan)": {
+        "languages": "Ja"
+    },
+    "Dreamcast VM Data-shuu (Japan)": {
         "languages": "Ja"
     },
     "Dreamkey (Australia)": {
@@ -1997,6 +2009,9 @@
     "Marvel vs. Capcom - Clash of Super Heroes (Japan)": {
         "languages": "Ja"
     },
+    "Marvel vs. Capcom - Clash of Super Heroes (Japan) (Tentou Taikenban)": {
+        "languages": "Ja"
+    },
     "Marvel vs. Capcom - Clash of Super Heroes (USA)": {
         "languages": "En"
     },
@@ -2440,6 +2455,9 @@
     },
     "Phantasy Star Online (Japan) (En,Ja,Fr,De,Es)": {
         "languages": "En, Fr, De, Ja, Es"
+    },
+    "Phantasy Star Online (Japan) (Tentou-you Demo Movie)": {
+        "languages": "Ja"
     },
     "Phantasy Star Online (USA) (En,Ja,Fr,De,Es) (Rev B)": {
         "languages": "En, Fr, De, Ja, Es"
@@ -3471,6 +3489,9 @@
         "languages": "Ja"
     },
     "Street Fighter Zero 3 - Saikyo-ryu Dojo (Japan)": {
+        "languages": "Ja"
+    },
+    "Street Fighter Zero 3 - Saikyo-ryu Dojo (Japan) (Tentou Taikenban)": {
         "languages": "Ja"
     },
     "Street Fighter Zero 3 - Saikyo-ryu Dojo for Matching Service (Japan)": {

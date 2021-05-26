@@ -3,8 +3,15 @@
 		"name": [
 			"Sega - SG-1000"
 		],
-		"last updated": "9 April 2021",
-		"minimum version": "0.89"
+		"last updated": "20 May 2021",
+		"minimum version": "0.92"
+	},
+
+	"categories": {
+		"SG-1000 M2 Test Cartridge": {
+			"match": "short",
+			"categories": ["Applications"]
+		}
 	},
 
 	"renames": {

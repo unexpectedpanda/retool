@@ -160,10 +160,13 @@ def build_clone_lists(input_dat):
             raise
 
         min_version = {}
+        categories = {}
         overrides = {}
         renames = {}
         removes = {}
 
+        if 'categories' in clonedata:
+            categories = clonedata['categories']
         if 'overrides' in clonedata:
             overrides = clonedata['overrides']
         if 'renames' in clonedata:
@@ -177,6 +180,7 @@ def build_clone_lists(input_dat):
 
         return CloneList(
             min_version,
+            categories,
             overrides,
             renames,
             removes,

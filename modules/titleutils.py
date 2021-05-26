@@ -94,6 +94,33 @@ def get_raw_title(title):
         return title.rstrip().lower()
 
 
+def get_short_name(region_data, REGEX, tag_free_name=False, full_name=False, user_input=None):
+    """ Returns the short name of the input title """
+
+    if tag_free_name == False:
+        tag_free_name = get_tag_free_name(full_name, user_input, REGEX)
+
+    short_name = remove_regions(remove_languages(tag_free_name, REGEX.languages), region_data)
+
+    return short_name
+
+
+def get_tag_free_name(title, user_input, REGEX):
+    """ Returns the tag free name of the input title """
+
+    tag_free_name = title
+
+    # Normalize disc names
+    for key, value in user_input.tag_strings.disc_rename.items():
+        if key in tag_free_name:
+            tag_free_name = tag_free_name.replace(key, value)
+
+    # Strip out other tags found in tags.json
+    tag_free_name = remove_tags(tag_free_name, user_input, REGEX)
+
+    return tag_free_name
+
+
 def remove_languages(title, REGEX_LANGUAGES):
     """ Removes languages from the input title """
 
@@ -112,7 +139,7 @@ def remove_regions(title, region_data):
 
 
 def remove_tags(title, user_input, REGEX):
-    """ Removes tags from the input title that are in tags.json """
+    """ Removes tags from the input title that are in internal-config.json """
 
     for string in user_input.tag_strings.ignore:
         if re.search(string, title) != None:

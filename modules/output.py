@@ -22,7 +22,7 @@ def generate_config(
 
     if not os.path.exists('user-config.yaml') or overwrite == True:
         try:
-            with open('user-config.yaml', 'w') as output_file:
+            with open('user-config.yaml', 'w', encoding='utf-8') as output_file:
                 output_file.writelines('---\n# If the -l option is used, only include titles with the following languages.')
                 output_file.writelines('\n# Comment out languages you don\'t want.')
                 output_file.writelines('\nlanguage filter:')
@@ -96,7 +96,7 @@ def generate_config(
         if filters.system_file != '':
             if not os.path.isfile(f'user-filters/{filters.system_file}.yaml') or overwrite == True:
                 try:
-                    with open(f'user-filters/{filters.system_file}.yaml', 'w') as output_file:
+                    with open(f'user-filters/{filters.system_file}.yaml', 'w', encoding='utf-8') as output_file:
                         output_file.writelines('---\n# Contains user defined strings that can be used to include or exclude')
                         output_file.writelines('\n# titles that Retool ordinarily wouldn\'t.')
                         output_file.writelines('\n#')
@@ -127,7 +127,7 @@ def generate_config(
 
     if not os.path.exists('user-filters/global.yaml') or overwrite == True:
         try:
-            with open('user-filters/global.yaml', 'w') as output_file:
+            with open('user-filters/global.yaml', 'w', encoding='utf-8') as output_file:
                 output_file.writelines('---\n# Contains user defined strings that can be used to include or exclude')
                 output_file.writelines('\n# titles that Retool ordinarily wouldn\'t.')
                 output_file.writelines('\n#')
@@ -203,7 +203,7 @@ def write_dat_file(input_dat, user_input, output_file_name, stats, titles, dat_n
             keep_remove_list = output_file_name[:-4] + ' auto keep-remove list.txt'
             user_remove_list = output_file_name[:-4] + ' user remove list.txt'
 
-            with open(keep_remove_list, 'a') as list_output:
+            with open(keep_remove_list, 'a', encoding='utf-8') as list_output:
                 list_output.writelines(f'This file shows which titles have been kept in the output dat with a `+`,\n')
                 list_output.writelines(f'and which have been automatically removed by Retool with a `-`. If the\n')
                 list_output.writelines(f'`-` is indented, then the title was removed because it was a clone of the\n')
@@ -212,13 +212,13 @@ def write_dat_file(input_dat, user_input, output_file_name, stats, titles, dat_n
             list_output.close()
 
             if user_input.removed_titles != {}:
-                with open(user_remove_list, 'a') as list_output:
+                with open(user_remove_list, 'a', encoding='utf-8') as list_output:
                     list_output.writelines(f'This file shows which titles have been removed from the output dat\n')
                     list_output.writelines(f'due to the user setting an option.\n')
 
                 list_output.close()
 
-        with open(output_file_name, 'w') as output_file:
+        with open(output_file_name, 'w', encoding='utf-8') as output_file:
             output_file.writelines(dat_header)
             progress = 0
             progress_old = 0
@@ -304,9 +304,13 @@ def write_dat_file(input_dat, user_input, output_file_name, stats, titles, dat_n
 
                             release = ''.join(release)
 
+                        categories = []
+                        for category in title.categories:
+                            categories.append(f'<category>{html.escape(category, quote=False)}</category>\n\t\t')
+
                         final_xml[final_name] = (
                             f'{game_xml}\n\t\t'
-                            f'<category>{html.escape(title.category, quote=False)}</category>\n\t\t'
+                            f'{"".join(categories)}'
                             f'<description>{html.escape(title.description, quote=False)}'
                             f'</description>'
                             f'{release}'
@@ -327,7 +331,7 @@ def write_dat_file(input_dat, user_input, output_file_name, stats, titles, dat_n
             if user_input.list == True:
                 keep_list = output_file_name[:-4] + ' 1G1R list.txt'
 
-                with open(keep_list, 'w') as list_output:
+                with open(keep_list, 'w', encoding='utf-8') as list_output:
                     final_keep_sort = sorted(audit_list)
                     final_keep_list = []
 
@@ -372,7 +376,7 @@ def write_dat_file(input_dat, user_input, output_file_name, stats, titles, dat_n
 
             # Keep/remove lists output, if --log is set
             if user_input.keep_remove == True:
-                with open(user_remove_list, 'a') as list_output:
+                with open(user_remove_list, 'a', encoding='utf-8') as list_output:
                     if user_input.removed_titles != {}:
                         temp_sort = sorted(user_input.removed_titles)
                         temp_removed_titles = {}
@@ -407,7 +411,7 @@ def write_dat_file(input_dat, user_input, output_file_name, stats, titles, dat_n
                     list_output.close()
 
 
-                with open(keep_remove_list, 'a') as list_output:
+                with open(keep_remove_list, 'a', encoding='utf-8') as list_output:
                     list_output.writelines(f'\n# STANDALONES\n')
                     list_output.writelines(f'==============\n')
 

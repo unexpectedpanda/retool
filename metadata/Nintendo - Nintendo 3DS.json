@@ -1415,8 +1415,8 @@
 	"Fire Emblem - Kakusei (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
-	"Fire Emblem Echoes - Mou Hitori no Eiyuu Ou (Japan) (Rev 1)": {
-		"languages": "Ja"
+	"Fire Emblem Echoes - Mou Hitori no Eiyuu Ou (Japan) (Ja,Zh) (Rev 1)": {
+		"languages": "Ja,Zh"
 	},
 	"Fire Emblem Echoes - Shadows of Valentia (Europe) (En,Fr,De,Es,It,Nl)": {
 		"languages": "En,Fr,De,Es,It,Nl"
@@ -2033,7 +2033,7 @@
 	"Jewel Master - Atlantis 3D (Europe) (En,Fr,De,Es,It,Nl)": {
 		"languages": "En,Fr,De,Es,It,Nl"
 	},
-	"Jewel Master - Cradle of Egypt 2 3D (Europe) (En,Fr,Es,It)": {
+	"Jewel Master - Cradle of Egypt 2 3D (France) (En,Fr,Es,It)": {
 		"languages": "En,Fr,Es,It"
 	},
 	"Jewel Master - Cradle of Egypt 2 3D (USA) (En,Fr,Es)": {
@@ -5066,7 +5066,7 @@
 	"Super Black Bass 3D (Europe) (En,Fr,De)": {
 		"languages": "En,Fr,De"
 	},
-	"Super Mario (USA) (Demo) (Kiosk, E3 2011)": {
+	"Super Mario (USA) (Beta) (E3 2011 demo)": {
 		"languages": "En"
 	},
 	"Super Mario 3D Land (Europe) (En,Fr,De,Es,It,Nl,Pt,Ru)": {

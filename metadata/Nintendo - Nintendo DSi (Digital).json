@@ -2267,6 +2267,9 @@
 	"Nintendo Countdown Calendar (USA)": {
 		"languages": "En"
 	},
+	"Nintendo DSi - Instrument Tuner (USA)": {
+		"languages": "En"
+	},
 	"Nintendo DSi + Internet (Australia) (Pre-install Only)": {
 		"languages": "En"
 	},
@@ -2281,9 +2284,6 @@
 	},
 	"Nintendo DSi + Internet (Japan) (Rev 2) (Pre-install Only)": {
 		"languages": "Ja"
-	},
-	"Nintendo DSi - Instrument Tuner (USA)": {
-		"languages": "En"
 	},
 	"Nintendo DSi Browser (Japan) (Rev 1)": {
 		"languages": "Ja"
@@ -2894,11 +2894,11 @@
 	"Sudoku (Europe, Australia) (Rev 1)": {
 		"languages": "En"
 	},
-	"Sudoku 150! For Challengers (Europe, Australia)": {
-		"languages": "En"
-	},
 	"Sudoku 150-Mon! (Japan)": {
 		"languages": "Ja"
+	},
+	"Sudoku 150! For Challengers (Europe, Australia)": {
+		"languages": "En"
 	},
 	"Sudoku 4Pockets (Europe)": {
 		"languages": "En"

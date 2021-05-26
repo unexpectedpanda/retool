@@ -488,6 +488,9 @@
 	"Defenders of Oasis (USA, Europe)": {
 		"languages": "En"
 	},
+	"Defenders of Oasis (USA, Europe) (Virtual Console)": {
+		"languages": "En"
+	},
 	"Desert Speedtrap Starring Road Runner and Wile E. Coyote (USA, Brazil)": {
 		"languages": "En"
 	},
@@ -551,7 +554,13 @@
 	"Dragon Crystal (USA, Europe)": {
 		"languages": "En"
 	},
+	"Dragon Crystal (USA, Europe) (Virtual Console)": {
+		"languages": "En"
+	},
 	"Dragon Crystal - Tsurani no Meikyuu (Japan)": {
+		"languages": "Ja"
+	},
+	"Dragon Crystal - Tsurani no Meikyuu (Japan) (Virtual Console)": {
 		"languages": "Ja"
 	},
 	"Dropzone (Europe)": {
@@ -722,6 +731,9 @@
 	"GG Aleste (Japan)": {
 		"languages": "Ja"
 	},
+	"GG Aleste 3 (World) (Aleste Collection)": {
+		"languages": "En"
+	},
 	"GG Aleste II ~ Power Strike II (Japan, Europe)": {
 		"languages": "En"
 	},
@@ -738,6 +750,9 @@
 		"languages": "Ja"
 	},
 	"GG Shinobi, The ~ Shinobi (World) (Rev 1)": {
+		"languages": "En"
+	},
+	"GG Shinobi, The ~ Shinobi (World) (Rev 1) (Virtual Console)": {
 		"languages": "En"
 	},
 	"Global Gladiators (Europe)": {
@@ -797,8 +812,11 @@
 	"Hyper Pro Yakyuu '92 (Japan)": {
 		"languages": "Ja"
 	},
-	"In the Wake of Vampire (Japan)": {
-		"languages": "Ja"
+	"In the Wake of Vampire (Japan) (En)": {
+		"languages": "En"
+	},
+	"In the Wake of Vampire (Japan) (En) (Virtual Console)": {
+		"languages": "En"
 	},
 	"Incredible Crash Dummies, The ~ Crash Dummy - Slick Bouya no Daichousen (World)": {
 		"languages": "En"
@@ -1038,6 +1056,9 @@
 		"languages": "En,Fr,De,Es"
 	},
 	"Master of Darkness (Europe, Brazil)": {
+		"languages": "En"
+	},
+	"Master of Darkness (Europe) (Virtual Console)": {
 		"languages": "En"
 	},
 	"Mega Man (USA)": {
@@ -1502,6 +1523,9 @@
 	"Puyo Puyo Tsuu (Japan)": {
 		"languages": "Ja"
 	},
+	"Puyo Puyo Tsuu (Japan) (Virtual Console)": {
+		"languages": "Ja"
+	},
 	"Puzzle & Action - Ichidanto-R (Japan)": {
 		"languages": "Ja"
 	},
@@ -1628,10 +1652,16 @@
 	"Shining Force - The Sword of Hajya (USA) (Beta) (1994-07-08)": {
 		"languages": "En"
 	},
+	"Shining Force - The Sword of Hajya (USA, Europe) (Virtual Console)": {
+		"languages": "En"
+	},
 	"Shining Force Gaiden - Ensei, Jashin no Kuni e (Japan)": {
 		"languages": "Ja"
 	},
 	"Shining Force Gaiden - Final Conflict (Japan)": {
+		"languages": "Ja"
+	},
+	"Shining Force Gaiden - Final Conflict (Japan) (Virtual Console)": {
 		"languages": "Ja"
 	},
 	"Shining Force Gaiden II - Jashin no Kakusei (Japan)": {
@@ -1712,6 +1742,9 @@
 	"Sonic Labyrinth (World)": {
 		"languages": "En"
 	},
+	"Sonic Labyrinth (USA, Europe) (Virtual Console)": {
+		"languages": "En"
+	},
 	"Sonic Spinball (USA, Europe)": {
 		"languages": "En"
 	},
@@ -1784,6 +1817,9 @@
 	"Sonic The Hedgehog (Japan, Europe, Brazil) (Rev 1)": {
 		"languages": "En"
 	},
+	"Sonic The Hedgehog (World) (Rev 1) (Virtual Console)": {
+		"languages": "En"
+	},
 	"Sonic The Hedgehog - Triple Trouble (USA, Europe, Brazil)": {
 		"languages": "En"
 	},
@@ -1794,6 +1830,9 @@
 		"languages": "En"
 	},
 	"Sonic The Hedgehog 2 (World) (Auto Demo)": {
+		"languages": "En"
+	},
+	"Sonic The Hedgehog 2 (World) (Virtual Console)": {
 		"languages": "En"
 	},
 	"Soukoban (Japan)": {
@@ -2042,6 +2081,9 @@
 	"Tails Adventure ~ Tails Adventures (World) (En,Ja)": {
 		"languages": "En,Ja"
 	},
+	"Tails Adventure ~ Tails Adventures (World) (En,Ja) (Virtual Console)": {
+		"languages": "En,Ja"
+	},
 	"Tails no Skypatrol (Japan)": {
 		"languages": "Ja"
 	},
@@ -2187,6 +2229,9 @@
 		"languages": "En"
 	},
 	"Vampire - Master of Darkness (USA)": {
+		"languages": "En"
+	},
+	"Vampire - Master of Darkness (USA) (Virtual Console)": {
 		"languages": "En"
 	},
 	"Virtua Fighter Animation (USA, Europe)": {

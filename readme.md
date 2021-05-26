@@ -96,7 +96,7 @@ code.
 ### For Windows users only familiar with graphical interfaces
 You can get going in a few easy steps:
 
-1. Download the [latest binary](https://github.com/unexpectedpanda/unexpectedpanda.github.io/raw/main/files/retool-latest-win-x86-64.zip)
+1. Download the [latest binary](https://unexpectedpanda.github.io/files/retool-latest-win-x86-64.zip)
    for Windows.
 2. Extract the ZIP file to a folder of your choosing.
 3. Double click `retool-gui.exe`. It will show a Command Prompt window, then the
@@ -146,9 +146,9 @@ of. I manually combed through titles in most dats, and cross referenced them on
 [Sega Retro](https://segaretro.org/), [PSCX2 Wiki](https://wiki.pcsx2.net),
 [PlayStation DataCenter](https://psxdatacenter.com/), [The Cutting Room Floor](https://tcrf.net),
 [The PC Engine Software Bible](http://www.pcengine.co.uk/), [The World of CDI](https://www.theworldofcdi.com),
-and [Atari Mania](http://www.atarimania.com). I checked out the parent/clone
-dats for No-Intro, and occasionally I went through Redump's site for Japanese,
-Korean, Russian, and Chinese characters for titles, so I could do
+[SMS Power](https://www.smspower.org/) and [Atari Mania](http://www.atarimania.com).
+I checked out the parent/clone dats for No-Intro, and occasionally I went through Redump's
+site for Japanese, Korean, Russian, and Chinese characters for titles, so I could do
 translations and find out what they were called in other languages. When all
 else failed, I did some good old web searching in order to turn up information.
 At some point I discovered [FilterQuest](https://github.com/UnluckyForSome/FilterQuest),

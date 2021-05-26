@@ -38,7 +38,13 @@
 	"94 Super World Cup Soccer (Korea) (Unl)": {
 		"languages": "Ko"
 	},
+	"94-Nen Super Basketball (Taiwan) (En) (Unl)": {
+		"languages": "En"
+	},
 	"Ace of Aces (Europe, Brazil)": {
+		"languages": "En"
+	},
+	"Action Boy (Taiwan) (En) (Unl)": {
 		"languages": "En"
 	},
 	"Action Fighter (Japan, Europe) (Beta)": {
@@ -60,6 +66,9 @@
 		"languages": "En"
 	},
 	"Aerial Assault (USA)": {
+		"languages": "En"
+	},
+	"Aerial Assault (Taiwan) (En) (Unl)": {
 		"languages": "En"
 	},
 	"After Burner (World)": {
@@ -101,9 +110,6 @@
 	"Alex Kidd in Miracle World (USA, Europe, Brazil) (Rev 1)": {
 		"languages": "En"
 	},
-	"Alex Kidd in Miracle World (Taiwan) (Unl)": {
-		"languages": "Zh"
-	},
 	"Alex Kidd in Miracle World 2 (World) (Unl)": {
 		"languages": "En"
 	},
@@ -112,6 +118,9 @@
 	},
 	"Alex Kidd no Miracle World (Japan)": {
 		"languages": "Ja"
+	},
+	"Alex Kido (Taiwan) (En) (Unl)": {
+		"languages": "En"
 	},
 	"Alf (USA)": {
 		"languages": "En"
@@ -133,6 +142,9 @@
 	},
 	"Alien Syndrome (Japan)": {
 		"languages": "Ja"
+	},
+	"Alocos (Taiwan) (En) (Unl)": {
+		"languages": "En"
 	},
 	"Altered Beast (USA, Europe, Brazil)": {
 		"languages": "En"
@@ -178,6 +190,9 @@
 	},
 	"Asterix and the Secret Mission (Europe, Brazil) (En,Fr,De)": {
 		"languages": "En,Fr,De"
+	},
+	"Astro Adventure (Taiwan) (En) (Unl)": {
+		"languages": "En"
 	},
 	"Astro Flash (Japan)": {
 		"languages": "Ja"
@@ -230,6 +245,9 @@
 	"Black Belt (USA, Europe, Brazil)": {
 		"languages": "En"
 	},
+	"Black Belt (Taiwan) (En) (Unl)": {
+		"languages": "En"
+	},
 	"Blade Eagle (World) (Beta)": {
 		"languages": "En"
 	},
@@ -252,6 +270,9 @@
 		"languages": "En"
 	},
 	"Bram Stoker's Dracula (Europe)": {
+		"languages": "En"
+	},
+	"Bubble Bobble (Taiwan) (En) (Unl)": {
 		"languages": "En"
 	},
 	"Bubble Bobble ~ Dragon Maze (Europe, Brazil)": {
@@ -365,6 +386,9 @@
 	"Cyber Shinobi, The (Europe, Brazil)": {
 		"languages": "En"
 	},
+	"Cyber Shinobi, The (Taiwan) (En) (Unl)": {
+		"languages": "En"
+	},
 	"Cyborg Hunter (USA, Europe, Brazil)": {
 		"languages": "En"
 	},
@@ -411,6 +435,9 @@
 		"languages": "Ja"
 	},
 	"Double Dragon (World)": {
+		"languages": "En"
+	},
+	"Double Dragon (Taiwan) (En) (Unl)": {
 		"languages": "En"
 	},
 	"Double Hawk (Europe)": {
@@ -555,6 +582,9 @@
 		"languages": "En"
 	},
 	"Forgotten Worlds (Europe, Brazil)": {
+		"languages": "En"
+	},
+	"Forgotten Worlds (Taiwan) (En) (Unl)": {
 		"languages": "En"
 	},
 	"Fushigi no Oshiro Pit Pot (Japan)": {
@@ -842,6 +872,9 @@
 	"Kung Fu Kid (USA, Europe, Brazil)": {
 		"languages": "En"
 	},
+	"Kung Fu Kid (Taiwan) (En) (Unl)": {
+		"languages": "En"
+	},
 	"Land of Illusion Starring Mickey Mouse (Europe, Brazil)": {
 		"languages": "En"
 	},
@@ -867,6 +900,9 @@
 		"languages": "En"
 	},
 	"Lord of Sword (Japan)": {
+		"languages": "Ja"
+	},
+	"Lord of Sword (Taiwan) (Ja) (Unl)": {
 		"languages": "Ja"
 	},
 	"Lord of the Sword (USA, Europe, Brazil)": {
@@ -1019,6 +1055,9 @@
 	"Ninja, The (USA, Europe, Brazil)": {
 		"languages": "En"
 	},
+	"Northen Ken (Taiwan) (Ja) (Unl)": {
+		"languages": "Ja"
+	},
 	"Olympic Gold (Brazil) (En,Fr,De,Es,It,Nl,Pt,Sv)": {
 		"languages": "En,Fr,De,Es,It,Nl,Pt,Sv"
 	},
@@ -1047,6 +1086,9 @@
 		"languages": "En"
 	},
 	"Pac-Mania (Europe)": {
+		"languages": "En"
+	},
+	"Paper Boy (Taiwan) (En) (Unl)": {
 		"languages": "En"
 	},
 	"Paperboy (USA, Brazil)": {
@@ -1124,6 +1166,9 @@
 	"Prince of Persia (Europe, Brazil)": {
 		"languages": "En"
 	},
+	"Prince of Persia (Taiwan) (En) (Unl)": {
+		"languages": "En"
+	},
 	"Pro Wrestling (USA, Europe, Brazil)": {
 		"languages": "En"
 	},
@@ -1151,6 +1196,9 @@
 	"Quartet (USA, Europe)": {
 		"languages": "En"
 	},
+	"Quartet (Taiwan) (En) (Unl)": {
+		"languages": "En"
+	},
 	"Quest for the Shaven Yak Starring Ren Hoek & Stimpy (Brazil)": {
 		"languages": "En"
 	},
@@ -1158,6 +1206,9 @@
 		"languages": "En"
 	},
 	"R-Type (World)": {
+		"languages": "En"
+	},
+	"R-Type (Taiwan) (En) (Unl)": {
 		"languages": "En"
 	},
 	"R.C. Grand Prix (USA, Europe, Brazil) (Beta)": {
@@ -1247,6 +1298,9 @@
 	"Scramble Spirits (Europe, Brazil)": {
 		"languages": "En"
 	},
+	"Scramble Spirits (Taiwan) (En) (Unl)": {
+		"languages": "En"
+	},
 	"SDI (Japan)": {
 		"languages": "Ja"
 	},
@@ -1286,16 +1340,25 @@
 	"Sensible Soccer (Europe)": {
 		"languages": "En"
 	},
+	"Shadow Dancer (Taiwan) (En) (Unl)": {
+		"languages": "En"
+	},
 	"Shadow Dancer - The Secret of Shinobi ~ Shadow Dancer (Europe, Brazil)": {
 		"languages": "En"
 	},
 	"Shadow of the Beast (Europe, Brazil)": {
 		"languages": "En"
 	},
+	"Shadow of the Beast (Taiwan) (En) (Unl)": {
+		"languages": "En"
+	},
 	"Shanghai (USA, Europe) (Beta)": {
 		"languages": "En"
 	},
 	"Shanghai (USA, Europe)": {
+		"languages": "En"
+	},
+	"Shangwei Mingling (Taiwan) (En) (Unl)": {
 		"languages": "En"
 	},
 	"Shinobi (USA, Europe, Brazil) (Rev 1)": {
@@ -1454,7 +1517,13 @@
 	"Strider II (Europe, Brazil)": {
 		"languages": "En"
 	},
+	"Strider, The (Taiwan) (En) (Unl)": {
+		"languages": "En"
+	},
 	"Submarine Attack (Europe, Brazil)": {
+		"languages": "En"
+	},
+	"Submarine Attack (Taiwan) (En) (Unl)": {
 		"languages": "En"
 	},
 	"Suho Jeonsa (Korea) (Unl)": {
@@ -1600,6 +1669,9 @@
 	},
 	"Thunder Blade (Japan)": {
 		"languages": "Ja"
+	},
+	"Thunder Blade (Taiwan) (En) (Unl)": {
+		"languages": "En"
 	},
 	"Time Soldiers (USA, Europe, Brazil)": {
 		"languages": "En"

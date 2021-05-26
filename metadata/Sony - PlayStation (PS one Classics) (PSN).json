@@ -122,6 +122,9 @@
 	"Arcade Hits - Shienryu (Japan)": {
 		"languages": "Ja"
 	},
+	"Arcade Hits - Shienryu (Europe)": {
+		"languages": "En"
+	},
 	"Arcade Hits - Sonic Wings Special (Asia)": {
 		"languages": "Zh"
 	},
@@ -494,6 +497,9 @@
 	"Crash Bandicoot (USA) (v0.00)": {
 		"languages": "En"
 	},
+	"Crash Bandicoot (France)": {
+		"languages": "Fr"
+	},
 	"Crash Bandicoot - Warped (USA)": {
 		"languages": "En"
 	},
@@ -524,6 +530,9 @@
 	"Crash Bandicoot 3 - Warped (Spain)": {
 		"languages": "Es"
 	},
+	"Crash Bandicoot 3 - Warped (France)": {
+		"languages": "Fr"
+	},
 	"Crash Bandicoot Carnival (Japan)": {
 		"languages": "Ja"
 	},
@@ -535,6 +544,9 @@
 	},
 	"Crash Team Racing (Italy)": {
 		"languages": "It"
+	},
+	"Crash Team Racing (France)": {
+		"languages": "Fr"
 	},
 	"Creatures 3 - Raised in Space (Europe)": {
 		"languages": "En"
@@ -673,6 +685,9 @@
 	},
 	"Disney-Pixar Captain Buzz Lightyear - Star Command (Germany)": {
 		"languages": "De"
+	},
+	"Disney-Pixar Monsters & Co. - L'Isola dello Spavento (Italy)": {
+		"languages": "It"
 	},
 	"Disney-Pixar Monsters, Inc. - Scare Island (Europe)": {
 		"languages": "En"
@@ -1079,6 +1094,9 @@
 	"Gex - Deep Cover Gecko (Germany) (Fr,De)": {
 		"languages": "Fr,De"
 	},
+	"Gex - Deep Cover Gecko (France) (Fr,De)": {
+		"languages": "Fr,De"
+	},
 	"Gex 2 - Enter The Gecko (Europe)": {
 		"languages": "En"
 	},
@@ -1199,6 +1217,9 @@
 	"Hot Shots Golf 2 (USA)": {
 		"languages": "En"
 	},
+	"HP0101-NPHJ00137_00-0000000000000001 (Asia)": {
+		"languages": "Zh"
+	},
 	"Hyouryuu Ki - The Reportage Beyond the Sea (Japan)": {
 		"languages": "Ja"
 	},
@@ -1269,6 +1290,72 @@
 		"languages": "En"
 	},
 	"Jiisan 2 Tabi Bikkuri - CG Mukashibanashi (Japan)": {
+		"languages": "Ja"
+	},
+	"JP0035-NPJJ00152_00-0000000000000001 (Japan)": {
+		"languages": "Ja"
+	},
+	"JP0082-NPJJ00218_00-0000000000000001 (Japan)": {
+		"languages": "Ja"
+	},
+	"JP0082-NPJJ00224_00-0000000000000001 (Japan)": {
+		"languages": "Ja"
+	},
+	"JP0082-NPJJ00225_00-0000000000000001 (Japan)": {
+		"languages": "Ja"
+	},
+	"JP0082-NPJJ00229_00-0000000000000001 (Japan)": {
+		"languages": "Ja"
+	},
+	"JP0082-NPJJ00443_00-0000000000000001 (Japan)": {
+		"languages": "Ja"
+	},
+	"JP0101-NPJJ00005_00-0000000000000001 (Japan)": {
+		"languages": "Ja"
+	},
+	"JP0101-NPJJ00308_00-0000000000000001 (Japan)": {
+		"languages": "Ja"
+	},
+	"JP0101-NPJJ00318_00-0000000000000001 (Japan)": {
+		"languages": "Ja"
+	},
+	"JP0102-NPJJ00009_00-0000000000000001 (Japan)": {
+		"languages": "Ja"
+	},
+	"JP0102-NPJJ00538_00-0000000000000001 (Japan)": {
+		"languages": "Ja"
+	},
+	"JP0102-NPJJ00743_00-0000000000000001 (Japan)": {
+		"languages": "Ja"
+	},
+	"JP0305-NPJJ00206_00-0000000000000001 (Japan)": {
+		"languages": "Ja"
+	},
+	"JP0305-NPJJ00234_00-0000000000000001 (Japan)": {
+		"languages": "Ja"
+	},
+	"JP0555-NPJJ00154_00-0000000000000001 (Japan)": {
+		"languages": "Ja"
+	},
+	"JP0555-NPJJ00178_00-0000000000000001 (Japan)": {
+		"languages": "Ja"
+	},
+	"JP0571-NPJJ00310_00-0000000000000001 (Japan)": {
+		"languages": "Ja"
+	},
+	"JP0700-NPJJ00656_00-0000000000000001 (Japan)": {
+		"languages": "Ja"
+	},
+	"JP0700-NPJJ00675_00-0000000000000001 (Japan)": {
+		"languages": "Ja"
+	},
+	"JP9000-NPJI00030_00-0000000000000001 (Japan)": {
+		"languages": "Ja"
+	},
+	"JP9000-NPJI00060_00-0000000000000002 (Japan)": {
+		"languages": "Ja"
+	},
+	"JP9000-NPJI00063_00-0000000000000002 (Japan)": {
 		"languages": "Ja"
 	},
 	"Judge Dredd (Europe)": {
@@ -2981,6 +3068,9 @@
 	"Tekken 2 (Germany)": {
 		"languages": "De"
 	},
+	"Tekken 2 (France)": {
+		"languages": "Fr"
+	},
 	"Ten Pin Alley (USA)": {
 		"languages": "En"
 	},
@@ -3203,6 +3293,9 @@
 	"Ungra Walker (Japan)": {
 		"languages": "Ja"
 	},
+	"UP9000-NPUJ00461_00-0000000000000001 (USA)": {
+		"languages": "En"
+	},
 	"Urawaza Mahjong - Korette Tenwatte Yatsukai (Japan)": {
 		"languages": "Ja"
 	},
@@ -3307,6 +3400,9 @@
 	},
 	"Wild Arms (USA)": {
 		"languages": "En"
+	},
+	"Wild Arms (France)": {
+		"languages": "Fr"
 	},
 	"Wild Arms (Europe)": {
 		"languages": "En"

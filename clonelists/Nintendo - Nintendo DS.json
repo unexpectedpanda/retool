@@ -3,7 +3,7 @@
         "name": [
 			"Nintendo - Nintendo DS"
 		],
-        "last updated": "11 April 2021",
+        "last updated": "23 May 2021",
 		"minimum version": "0.89"
     },
 
@@ -631,9 +631,6 @@
         ],
         "Dora Puppy": [
             ["Dora the Explorer - Dora Puppy", 1]
-        ],
-        "Dora's Cooking Club": [
-            ["Nickelodeon Dora's Cooking Club", 1]
         ],
         "Draglade": [
             ["Custom Beat Battle - Draglade", 1]
@@ -1489,7 +1486,7 @@
             ["Play Gardens", 1]
         ],
         "Let's Ride - Friends Forever": [
-            ["Best Friends - My Horse", 1],
+            ["Best Friends - Mijn Paard", 1],
             ["Pferd & Pony - Best Friends - Mein Pferd", 1],
             ["Real Stories - Best Friends - Mon Poulain, Mon Cheval", 1]
         ],
@@ -1926,9 +1923,6 @@
         ],
         "Nicola Kanshuu - Model Oshare Audition": [
             ["Jeongukmin Model Audition Superstar DS", 1]
-        ],
-        "Nickelodeon Team Umizoomi": [
-            ["Team Umizoomi", 1]
         ],
         "Nicktoons - Battle for Volcano Island": [
             ["SpongeBob and Friends - Battle for Volcano Island", 1],
@@ -2469,9 +2463,6 @@
         "Real Stories - Mijn Babycreche": [
             ["Real Stories - Babies", 1]
         ],
-        "Rekishi Simulation Game - Sangokushi DS": [
-            ["Yeoksa Simulation - Samgukji DS", 1]
-        ],
         "Resident Evil - Deadly Silence": [
             ["Biohazard - Deadly Silence", 1]
         ],
@@ -2551,6 +2542,9 @@
         ],
         "Sands of Destruction": [
             ["World Destruction - Michibikareshi Ishi", 1]
+        ],
+        "Sangokushi DS": [
+            ["Yeoksa Simulation - Samgukji DS", 1]
         ],
         "Sangokushi DS 2": [
             ["Samgukji DS 2", 1]
@@ -2841,19 +2835,19 @@
         "Theresia..": [
             ["Theresia.. - Dear Emile", 1]
         ],
-        "ThinkSmart - Chess for Kids": [
+        "thinkSMART - Chess for Kids": [
             ["Chess for Kids", 1],
             ["Schach Attacke", 1]
         ],
-        "ThinkSMART - Labyrinth": [
+        "thinkSMART - Labyrinth": [
             ["Labyrinth (Ravensburger)", 1]
         ],
-        "ThinkSmart - Power Up Your Brain!": [
+        "thinkSMART - Power Up Your Brain!": [
             ["Think - Train Je Brein - Logica Trainer", 1],
             ["Think - Train Your Brain - Logic Trainer", 1],
             ["Think - Logic Trainer", 2]
         ],
-        "ThinkSmart - Power Up Your Brain! - Kids 8+": [
+        "thinkSMART - Power Up Your Brain! - Kids 8+": [
             ["Entraineur Cerebral, L' - Kids", 1],
             ["Think - Kids - Speel Je Slim!", 1],
             ["Think - Training fuer den Kopf - Kids - Spiel Dich Schlau!", 1],

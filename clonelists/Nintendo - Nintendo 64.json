@@ -3,8 +3,23 @@
         "name": [
 			"Nintendo - Nintendo 64"
 		],
-        "last updated": "9 April 2021",
-		"minimum version": "0.89"
+        "last updated": "22 May 2021",
+		"minimum version": "0.92"
+    },
+
+    "categories": {
+        "GameBooster 64": {
+            "match": "short",
+            "categories": ["Applications"]
+        },
+        "GameShark Pro": {
+            "match": "short",
+            "categories": ["Applications"]
+        },
+        "iQue Club": {
+            "match": "short",
+            "categories": ["Applications"]
+        }
     },
 
     "overrides": {

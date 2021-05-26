@@ -1,3 +1,25 @@
+# 0.92
+
+- Retool CLI no longer clears the screen on start.
+- You can now manually assign categories to titles in clone lists using the
+  `categories` key. This is a highly manual task, and will only be maintained
+  through user submissions.
+- You can now include titles that don't have hashes, ROMs, or disks specified.
+  This might allow the conversion of dats from parties other than No-Intro or
+  Redump, but these dats won't be officially supported.
+- Files now write in UTF-8 to avoid characters causing crashes.
+- Enhancement chips are now set to the category `BIOS` in the output dat.
+- Added some new modern edition tags.
+- Titles with the `(Aftermarket)` tag are now demoted below official ones within
+  the same region.
+- Titles with the `(Prerelease)` tag are now treated as preproduction.
+- The regex for capturing demo titles is now more comprehensive.
+- Added Estonia & Lithuania as regions, along with their languages.
+- A bug has been fixed where if there was an official and aftermarket version of
+  a title in the same region, they'd be treated as different titles.
+
+
+
 # 0.91
 
 - Fixed a crash when processing the Mega CD/Sega CD dat, and Europe or USA was

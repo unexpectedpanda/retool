@@ -1,4 +1,13 @@
 {
+	"2097 ROM Pack II (USA) (Test Program)": {
+		"languages": "En"
+	},
+	"2420 ROM Pack V (USA) (Test Program)": {
+		"languages": "En"
+	},
+	"2440 ROM Pack (USA) (Test Program)": {
+		"languages": "En"
+	},
 	"3 Choume no Tama - Tama and Friends - 3 Choume Obake Panic!! (Japan)": {
 		"languages": "Ja"
 	},
@@ -102,6 +111,12 @@
 		"languages": "En"
 	},
 	"Aladdin (USA) (SGB Enhanced)": {
+		"languages": "En"
+	},
+	"Aladdin (World) (Disney Classic Games) (SGB Enhanced)": {
+		"languages": "En"
+	},
+	"Aladdin (Europe) (Sample)": {
 		"languages": "En"
 	},
 	"Alfred Chicken (Europe)": {
@@ -1031,6 +1046,9 @@
 	"Dr. Franken (USA)": {
 		"languages": "En"
 	},
+	"Dr. Franken (Europe) (En,Fr,De,Es,It,Nl,Sv) (Beta)": {
+		"languages": "En,Fr,De,Es,It,Nl,Sv"
+	},
 	"Dr. Franken II (USA, Europe) (En,Fr,De,Es,It,Nl,Sv)": {
 		"languages": "En,Fr,De,Es,It,Nl,Sv"
 	},
@@ -1077,6 +1095,12 @@
 		"languages": "En"
 	},
 	"Dragon's Lair - The Legend (USA)": {
+		"languages": "En"
+	},
+	"Dragonborne (World) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Dragonborne (World) (Demo) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
 	"DragonHeart (France)": {
@@ -1235,10 +1259,19 @@
 	"Final Fantasy Legend II (USA)": {
 		"languages": "En"
 	},
+	"Final Fantasy Legend II (World) (Collection of SaGa)": {
+		"languages": "En"
+	},
 	"Final Fantasy Legend III (USA)": {
 		"languages": "En"
 	},
+	"Final Fantasy Legend III (World) (Collection of SaGa)": {
+		"languages": "En"
+	},
 	"Final Fantasy Legend, The (USA)": {
+		"languages": "En"
+	},
+	"Final Fantasy Legend, The (World) (Collection of SaGa)": {
 		"languages": "En"
 	},
 	"Final Reverse (Japan)": {
@@ -2270,6 +2303,9 @@
 	"Lion King, The (Europe)": {
 		"languages": "En"
 	},
+	"Lion King, The (World) (Disney Classic Games)": {
+		"languages": "En"
+	},
 	"Litti's Summer Sports (Germany)": {
 		"languages": "De"
 	},
@@ -2361,6 +2397,9 @@
 		"languages": "Ja"
 	},
 	"Makai Toushi Sa-Ga (Japan) (Rev 1)": {
+		"languages": "Ja"
+	},
+	"Makai Toushi Sa-Ga (World) (Ja) (Rev 1) (Collection of SaGa)": {
 		"languages": "Ja"
 	},
 	"Makaimura Gaiden - The Demon Darkness (Japan)": {
@@ -2596,12 +2635,6 @@
 	},
 	"Mini-Putt (Japan)": {
 		"languages": "Ja"
-	},
-	"Minolta Camera Test Cart 2420 (USA)": {
-		"languages": "En"
-	},
-	"Minolta Camera Test Cart 2440 (USA) (Proto) (Test Program)": {
-		"languages": "En"
 	},
 	"Miracle Adventure of Esparks - Ushinawareta Seiseki Perivron (Japan)": {
 		"languages": "Ja"
@@ -3455,7 +3488,7 @@
 	"Populous (Europe)": {
 		"languages": "En"
 	},
-	"Populous (Europe) (Beta)": {
+	"Populous (Europe) (Sample)": {
 		"languages": "En"
 	},
 	"Populous Gaiden (Japan)": {
@@ -3785,7 +3818,13 @@
 	"Sa-Ga 2 - Hihou Densetsu (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
+	"Sa-Ga 2 - Hihou Densetsu (World) (Ja) (Rev 1) (Collection of SaGa)": {
+		"languages": "Ja"
+	},
 	"Sa-Ga 3 - Jikuu no Hasha (Japan)": {
+		"languages": "Ja"
+	},
+	"Sa-Ga 3 - Jikuu no Hasha (World) (Ja) (Collection of SaGa)": {
 		"languages": "Ja"
 	},
 	"Sagaia (Japan)": {
@@ -3823,6 +3862,9 @@
 	},
 	"Sanrio Uranai Party (Japan) (Rev 1)": {
 		"languages": "Ja"
+	},
+	"Sarakon (Europe) (Proto)": {
+		"languages": "En"
 	},
 	"Schiffe Versenken (Germany) (En,Fr,De,Es)": {
 		"languages": "En,Fr,De,Es"
@@ -4092,6 +4134,9 @@
 		"languages": "En"
 	},
 	"Spider-Man 3 - Invasion of the Spider-Slayers (USA, Europe)": {
+		"languages": "En"
+	},
+	"Spider-Man 3 - Invasion of the Spider-Slayers (USA, Europe) (Beta)": {
 		"languages": "En"
 	},
 	"Spirit of F-1, The (Europe)": {

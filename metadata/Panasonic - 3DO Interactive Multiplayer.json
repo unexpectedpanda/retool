@@ -47,6 +47,9 @@
     "Alone in the Dark (USA) (Demo)": {
         "languages": "En"
     },
+    "Alone in the Dark 2 (France)": {
+        "languages": "Fr"
+    },
     "Alone in the Dark 2 (Japan)": {
         "languages": "Ja"
     },
@@ -77,7 +80,7 @@
     "Bakushou!! All Yoshimoto Quiz-ou Kettei-sen (Japan)": {
         "languages": "Ja"
     },
-    "Ballz - The Director's Cut (Japan, USA) (En,Ja)": {
+    "Ballz - The Director's Cut (World) (En,Ja)": {
         "languages": "En, Ja"
     },
     "Battle Chess (Europe)": {
@@ -625,6 +628,9 @@
     },
     "Kero Kero Keroppi to Origami no Tabibito (Japan)": {
         "languages": "Ja"
+    },
+    "Killing Time (Europe)": {
+        "languages": "En"
     },
     "Killing Time (USA) (RE1)": {
         "languages": "En"

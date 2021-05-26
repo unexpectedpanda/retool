@@ -3,9 +3,16 @@
         "name": [
 			"NEC - PC Engine - TurboGrafx 16"
 		],
-        "last updated": "11 April 2021",
-		"minimum version": "0.89"
+        "last updated": "10 May 2021",
+		"minimum version": "0.92"
     },
+
+    "categories": {
+		"Ten no Koe Bank": {
+			"match": "short",
+			"categories": ["Applications"]
+		}
+	},
 
     "renames": {
         "Air Zonk": [

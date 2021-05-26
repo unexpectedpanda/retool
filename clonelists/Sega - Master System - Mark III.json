@@ -3,7 +3,7 @@
 		"name": [
 			"Sega - Master System - Mark III"
 		],
-		"last updated": "9 April 2021",
+		"last updated": "23 May 2021",
 		"minimum version": "0.89"
     },
 
@@ -88,16 +88,22 @@
             ["Anmitsu Hime", 1]
         ],
         "Alex Kidd in Miracle World": [
+            ["Alex Kido", 1],
             ["Alex Kidd no Miracle World", 1],
             ["[BIOS] Alex Kidd in Miracle World", 2]
         ],
+        "Argos no Juujiken": [
+            ["Alocos", 1]
+        ],
         "Black Belt": [
-            ["Hokuto no Ken", 1]
+            ["Hokuto no Ken", 1],
+            ["Northen Ken", 1]
         ],
         "Blade Eagle ~ Blade Eagle 3-D": [
             ["Blade Eagle", 1]
         ],
         "Bubble Bobble ~ Dragon Maze": [
+            ["Bubble Bobble", 1],
             ["Final Bubble Bobble", 1]
         ],
         "California Games II": [
@@ -136,6 +142,9 @@
         "Golvellius - Valley of Doom": [
             ["Maou Golvellius", 1]
         ],
+        "Great Basketball": [
+            ["94-Nen Super Basketball", 1]
+        ],
         "James 'Buster' Douglas Knockout Boxing": [
             ["George Foreman's KO Boxing", 1],
             ["Heavyweight Champ", 2]
@@ -165,16 +174,21 @@
             ["[BIOS] Missile Defense 3-D", 2]
         ],
         "My Hero": [
+            ["Action Boy", 1],
             ["Seishun Scandal", 1],
             ["Ttoriui Moheom", 1]
         ],
         "Ninja, The": [
             ["Ninja", 1]
         ],
+        "Paperboy": [
+            ["Paper Boy", 1]
+        ],
         "Parlour Games": [
             ["Family Games", 1]
         ],
         "Penguin Land": [
+            ["Astro Adventure", 1],
             ["Doki Doki Penguin Land - Uchuu Daibouken", 1]
         ],
         "Power Strike": [
@@ -191,10 +205,14 @@
         ],
         "Rambo - First Blood Part II": [
             ["Ashura", 1],
-            ["Secret Command", 1]
+            ["Secret Command", 1],
+            ["Shangwei Mingling", 1]
         ],
         "Reggie Jackson Baseball": [
             ["American Baseball", 1]
+        ],
+        "Shadow Dancer - The Secret of Shinobi ~ Shadow Dancer": [
+            ["Shadow Dancer", 1]
         ],
         "Sky Jaguar": [
             ["Sky Jaguar (Clover)", 2]
@@ -210,6 +228,9 @@
         ],
         "SpellCaster": [
             ["Kujaku Ou", 1]
+        ],
+        "Strider": [
+            ["Strider, The", 1]
         ],
         "Summer Games ~ Jogos Olimpicos": [
             ["Summer Games", 1]

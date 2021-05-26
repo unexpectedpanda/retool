@@ -200,7 +200,7 @@
 	"Aladdin (Japan) (En) (Beta) (1993-07-31)": {
 		"languages": "En"
 	},
-	"Aladdin (USA) (Final Cut) (Aftermarket)": {
+	"Aladdin (USA) (Final Cut)": {
 		"languages": "En"
 	},
 	"Aladdin II (Taiwan) (En) (Unl)": {
@@ -1607,7 +1607,7 @@
 	"Devwill Too (World) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
-	"Devwill Too (World) (Pt-BR) (Alt 1) (Aftermarket)": {
+	"Devwill Too (World) (Pt-BR) (Alt 1) (Aftermarket) (Unl)": {
 		"languages": "Pt-BR"
 	},
 	"Dexstar (USA, Europe) (Beta) (1994-08-12)": {
@@ -1625,8 +1625,8 @@
 	"Dick Vitale's 'Awesome, Baby!' College Hoops (USA)": {
 		"languages": "En"
 	},
-	"Dino Dini's Soccer (Europe)": {
-		"languages": "En"
+	"Dino Dini's Soccer (Europe) (En,Fr,De)": {
+		"languages": "En,Fr,De"
 	},
 	"Dino Land (USA)": {
 		"languages": "En"
@@ -2183,6 +2183,9 @@
 	"FIFA Soccer 99 (Unknown) (Unl) (Pirate)": {
 		"languages": "En"
 	},
+	"Fight for Vengeance (World) (Demo) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
 	"Fighting Masters (Japan, Korea)": {
 		"languages": "Ja"
 	},
@@ -2219,8 +2222,8 @@
 	"Flicky (USA, Europe)": {
 		"languages": "En"
 	},
-	"Flink (Europe)": {
-		"languages": "En"
+	"Flink (Europe) (En,Fr,De)": {
+		"languages": "En,Fr,De"
 	},
 	"Flintstones, The (Japan) (Taito)": {
 		"languages": "Ja"
@@ -2378,8 +2381,8 @@
 	"Gauntlet (Japan) (En,Ja) (Beta)": {
 		"languages": "En,Ja"
 	},
-	"Gauntlet IV (USA, Europe)": {
-		"languages": "En"
+	"Gauntlet IV (USA, Europe) (En,Ja)": {
+		"languages": "En,Ja"
 	},
 	"Gauntlet IV (USA, Europe) (Beta)": {
 		"languages": "En"
@@ -2663,7 +2666,7 @@
 	"I Love Mickey and Donald - Fushigi na Magic Box (Japan)": {
 		"languages": "Ja"
 	},
-	"I Love Mickey and Donald - Fushigi na Magic Box (Japan) (Mega Drive Mini)": {
+	"I Love Mickey and Donald - Fushigi na Magic Box (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
 	"I Love Mickey Mouse - Fushigi no Oshiro Daibouken (Japan)": {
@@ -2834,6 +2837,9 @@
 	"Jim Power - The Arcade Game (USA) (Proto)": {
 		"languages": "En"
 	},
+	"Jim Power - The Lost Dimension in 3D (World) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
 	"Jimmy White's Whirlwind Snooker (Europe)": {
 		"languages": "En"
 	},
@@ -2993,8 +2999,8 @@
 	"Kick Boxing, The (Japan, Korea)": {
 		"languages": "Ja"
 	},
-	"Kick Off 3 - European Challenge (Europe)": {
-		"languages": "En"
+	"Kick Off 3 - European Challenge (Europe) (En,Fr,De,Es,It)": {
+		"languages": "En,Fr,De,Es,It"
 	},
 	"Kid Chameleon (USA, Europe)": {
 		"languages": "En"
@@ -3251,7 +3257,7 @@
 	"Lion King, The (World)": {
 		"languages": "En"
 	},
-	"Lion King, The (World) (Aftermarket)": {
+	"Lion King, The (World) (Steam)": {
 		"languages": "En"
 	},
 	"Little Medusa (World) (Aftermarket) (Unl)": {
@@ -3518,6 +3524,9 @@
 	"Mega Man - The Wily Wars (USA) (Genesis Mini)": {
 		"languages": "En"
 	},
+	"Mega Marble World (World) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
 	"Mega SWIV (Europe)": {
 		"languages": "En"
 	},
@@ -3767,7 +3776,7 @@
 	"Misplaced (World) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
-	"Misplaced (Russia) (Aftermarket)": {
+	"Misplaced (Russia) (Aftermarket) (Unl)": {
 		"languages": "Ru"
 	},
 	"MK5 - Mortal Kombat Mythologies - Sub-Zero (Taiwan) (En) (Unl)": {
@@ -6326,8 +6335,8 @@
 	"Sylvester and Tweety in Cagey Capers ~ Sylvester & Tweety in Cagey Capers (USA, Europe)": {
 		"languages": "En"
 	},
-	"Syndicate (USA, Europe)": {
-		"languages": "En"
+	"Syndicate (USA, Europe) (En,Fr,De)": {
+		"languages": "En,Fr,De"
 	},
 	"T2 - Terminator 2 - Judgment Day (USA, Europe)": {
 		"languages": "En"
@@ -6536,8 +6545,8 @@
 	"Tetris (Japan) (Mega Drive Mini)": {
 		"languages": "Ja"
 	},
-	"Theme Park (USA, Europe)": {
-		"languages": "En"
+	"Theme Park (USA, Europe) (En,Fr,De,Es)": {
+		"languages": "En,Fr,De,Es"
 	},
 	"Thomas the Tank Engine & Friends (USA)": {
 		"languages": "En"
@@ -6602,8 +6611,8 @@
 	"Tiny Toon Adventures (Korea)": {
 		"languages": "En"
 	},
-	"Tiny Toon Adventures - ACME All-Stars (Europe)": {
-		"languages": "En"
+	"Tiny Toon Adventures - ACME All-Stars (Europe) (En,Fr,De)": {
+		"languages": "En,Fr,De"
 	},
 	"Tiny Toon Adventures - ACME All-Stars (USA, Korea)": {
 		"languages": "En"
@@ -6824,13 +6833,16 @@
 	"Ultimate Soccer (Europe) (En,Fr,De,Es,It) (Beta)": {
 		"languages": "En,Fr,De,Es,It"
 	},
-	"Ultracore (Europe) (MD-1.0) (Aftermarket)": {
+	"Ultracore (Europe) (MD-1.0) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
-	"Ultracore (Japan) (En) (Aftermarket)": {
+	"Ultracore (Japan) (En) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
-	"Ultracore (Europe) (V-1.0) (Aftermarket)": {
+	"Ultracore (Europe) (V-1.0) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Ultracore (USA) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
 	"Ultraman (Japan)": {
@@ -7433,7 +7445,10 @@
 	"Worms (Europe)": {
 		"languages": "En"
 	},
-	"Worms (USA) (Beta) (June, 1995)": {
+	"Worms (USA) (Proto) (June, 1995)": {
+		"languages": "En"
+	},
+	"Worms (Europe) (Beta)": {
 		"languages": "En"
 	},
 	"Wrestle War (Japan, Europe) (Beta) (September, 1990)": {
@@ -7641,6 +7656,9 @@
 		"languages": "En"
 	},
 	"Zombies Ate My Neighbors (USA)": {
+		"languages": "En"
+	},
+	"Zool (Unknown) (Beta) [b]": {
 		"languages": "En"
 	},
 	"Zool - Ninja of the 'Nth' Dimension (Europe)": {

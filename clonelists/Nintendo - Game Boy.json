@@ -3,8 +3,47 @@
         "name": [
 			"Nintendo - Game Boy"
 		],
-        "last updated": "9 April 2021",
-		"minimum version": "0.89"
+        "last updated": "23 May 2021",
+		"minimum version": "0.92"
+    },
+
+    "categories": {
+        "Game Boy Camera": {
+            "match": "short",
+            "categories": ["Applications"]
+        },
+        "Game Boy Camera Gold": {
+            "match": "short",
+            "categories": ["Applications"]
+        },
+        "Game Boy Controller Kensa Cartridge": {
+            "match": "short",
+            "categories": ["Applications"]
+        },
+        "Game Boy Datenlogger 1": {
+            "match": "short",
+            "categories": ["Applications"]
+        },
+        "Game Boy Digital Sampling Oscilloscope": {
+            "match": "short",
+            "categories": ["Applications"]
+        },
+        "Game Genie": {
+            "match": "short",
+            "categories": ["Applications"]
+        },
+        "GameShark": {
+            "match": "short",
+            "categories": ["Applications"]
+        },
+        "Pro Action Replay": {
+            "match": "short",
+            "categories": ["Applications"]
+        },
+        "SMARTCOM": {
+            "match": "short",
+            "categories": ["Applications"]
+        }
     },
 
     "overrides": {

@@ -3092,7 +3092,7 @@
 	"Lola's Fruit Shop Sudoku (USA) (En,Fr,Es)": {
 		"languages": "En,Fr,Es"
 	},
-	"Looksley's - Line Up (USA)": {
+	"Looksley's Line Up (USA)": {
 		"languages": "En"
 	},
 	"Lost Town, The - The Dust (Europe, Australia)": {
@@ -4775,7 +4775,7 @@
 	"Syutingseutom (Korea)": {
 		"languages": "Ko"
 	},
-	"Tales in a Box (Europe, Australia) (En,Fr,De,Es)": {
+	"Tales in a Box - Hidden shapes in perspective! (Europe, Australia) (En,Fr,De,Es)": {
 		"languages": "En,Fr,De,Es"
 	},
 	"Tales to Enjoy! - Little Red Riding Hood (USA) (En,Fr,Es)": {
@@ -4824,6 +4824,12 @@
 		"languages": "En,Fr,De,Es"
 	},
 	"Tetris Party Live (USA) (En,Fr,Es)": {
+		"languages": "En,Fr,Es"
+	},
+	"The Legend of Zelda - Four Swords Anniversary Edition (Europe, Australia) (En,Fr,De,Es,It)": {
+		"languages": "En,Fr,De,Es,It"
+	},
+	"The Legend of Zelda - Four Swords Anniversary Edition (USA) (En,Fr,Es)": {
 		"languages": "En,Fr,Es"
 	},
 	"Thorium Wars (Europe) (En,Fr,De,Es)": {
@@ -5108,11 +5114,8 @@
 	"Zekkyou Genshiji - Samu no Daibouken (Japan)": {
 		"languages": "Ja"
 	},
-	"Zelda Four Swords - Anniversary Edition (Europe, Australia) (En,Fr,De,Es,It)": {
-		"languages": "En,Fr,De,Es,It"
-	},
-	"Zelda Four Swords - Anniversary Edition (USA) (En,Fr,Es)": {
-		"languages": "En,Fr,Es"
+	"Zelda no Densetsu - 4-tsu no Tsurugi - 25th Kinen Edition (Japan)": {
+		"languages": "Ja"
 	},
 	"Zengage - Art Style Series (USA)": {
 		"languages": "En"
@@ -5122,9 +5125,6 @@
 	},
 	"Zenonia (USA)": {
 		"languages": "En"
-	},
-	"Zeruda no Densetsu 4ttsu no Tsurugi - 25th Kinen' Edeshon (Japan)": {
-		"languages": "Ja"
 	},
 	"Zhao Zhao Wa Li Ou Zhizao (China) (En,Zh)": {
 		"languages": "En,Zh"

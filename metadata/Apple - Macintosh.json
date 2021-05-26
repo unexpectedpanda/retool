@@ -308,6 +308,12 @@
     "Alone in the Dark 3 (France) (Covermount)": {
         "languages": "Fr"
     },
+    "Another Ian and Stuart's Free (Australia)": {
+        "languages": "En"
+    },
+    "Another.not.for.sale (Australia)": {
+        "languages": "En"
+    },
     "Aquazone Compact (Japan)": {
         "languages": ""
     },
@@ -372,6 +378,9 @@
         "languages": ""
     },
     "Battlefield 1942 - Secret Weapons of WWII (Expansion Pack) (USA)": {
+        "languages": "En"
+    },
+    "Beach Head 2002 (USA)": {
         "languages": "En"
     },
     "Bedlam (USA) (En,Fr,De,Es,It,Nl)": {
@@ -848,6 +857,18 @@
     "Heretic II (USA)": {
         "languages": ""
     },
+    "Heroes of Might and Magic (USA)": {
+        "languages": "En"
+    },
+    "Heroes of Might and Magic II - The Succession Wars (USA)": {
+        "languages": "En"
+    },
+    "Ian and Stuart's One (Australia)": {
+        "languages": "En"
+    },
+    "Ian and Stuart's Two (Australia)": {
+        "languages": "En"
+    },
     "In Memoriam (Europe) (Mac Install)": {
         "languages": "En"
     },
@@ -871,6 +892,9 @@
     },
     "Jazz Jackrabbit 2 (USA)": {
         "languages": "En"
+    },
+    "Jump Raven (Japan)": {
+        "languages": "Ja"
     },
     "Karma - Curse of the 12 Caves (France) (Covermount)": {
         "languages": ""
@@ -1226,6 +1250,9 @@
     "Medal of Honor - Allied Assault - Spearhead (USA)": {
         "languages": "En"
     },
+    "Medal of Honor - Allied Assault - War Chest (USA)": {
+        "languages": ""
+    },
     "Meshitsukai 2 (Japan)": {
         "languages": "Ja"
     },
@@ -1381,6 +1408,9 @@
     },
     "Postal (Europe) (Postal Manual)": {
         "languages": "En"
+    },
+    "Presenting... Mario's Game Gallery and Earth Savers Plus Many More! (USA)": {
+        "languages": ""
     },
     "Prince of Persia (USA)": {
         "languages": ""
@@ -1770,7 +1800,7 @@
         "languages": "En"
     },
     "Worms 3D (USA)": {
-        "languages": ""
+        "languages": "En"
     },
     "X2 - Wolverine's Revenge (USA) (Disc 1)": {
         "languages": "En"

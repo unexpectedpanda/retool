@@ -3,7 +3,7 @@
 		"name": [
 			"NEC - PC Engine CD & TurboGrafx CD"
 		],
-		"last updated": "9 April 2021",
+		"last updated": "19 May 2021",
 		"minimum version": "0.89"
 	},
 
@@ -63,6 +63,9 @@
 		"Jack Nicklaus Turbo Golf": [
 			["Jack Nicklaus' World Tour Golf - 162 Holes", 1]
 		],
+		"Kabuki Ittouryoudan (FABT)": [
+            ["Kabuki Ittouryoudan (FAAT)", 2]
+        ],
 		"Last Alert": [
 			["Red Alert", 1]
 		],

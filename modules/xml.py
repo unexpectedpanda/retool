@@ -88,7 +88,7 @@ def convert_clrmame_dat(input_dat, is_folder):
     return Dat(convert_dat, dat_name, dat_description, dat_version, dat_author)
 
 
-def dat_to_dict(region, region_data, input_dat, user_input, removes_found, dat_numbered, REGEX):
+def dat_to_dict(region, region_data, input_dat, user_input, removes_found, categories_found, dat_numbered, REGEX):
     """ Converts an input dat file to a dict """
 
     # Find all titles in the soup object that belong to the current region
@@ -134,45 +134,6 @@ def dat_to_dict(region, region_data, input_dat, user_input, removes_found, dat_n
                         end='\r', flush=True
                     )
 
-        # Drop xml nodes with categories the user has chosen to exclude
-        def exclude_categories(category, regexes=[]):
-            if hasattr(user_input, 'no_' + category.lower().replace('-', '_').replace(' ', '_')):
-                if getattr(user_input, 'no_' + category.lower().replace('-', '_').replace(' ', '_')) == True:
-                    if node.category is not None:
-                        if node.category.contents[0] == category:
-                            if category not in user_input.removed_titles:
-                                user_input.removed_titles[category] = []
-                                user_input.recovered_titles[category] = []
-                            user_input.removed_titles[category].append(node.description.parent['name'])
-                            user_input.recovered_titles[category].append(DatNode(node, region, region_data, user_input, input_dat, dat_numbered, REGEX))
-                            return True
-                    if regexes != []:
-                        for regex in regexes:
-                            if re.search(regex, node.description.parent['name']) != None:
-                                if category not in user_input.removed_titles:
-                                    user_input.removed_titles[category] = []
-                                    user_input.recovered_titles[category] = []
-                                user_input.removed_titles[category].append(node.description.parent['name'])
-                                user_input.recovered_titles[category].append(DatNode(node, region, region_data, user_input, input_dat, dat_numbered, REGEX))
-                                return True
-
-        if exclude_categories('Add-Ons') == True: continue
-        if exclude_categories('Applications', REGEX.programs) == True: continue
-        if exclude_categories('Audio') == True: continue
-        if exclude_categories('Bad Dumps', [REGEX.bad]) == True: continue
-        if exclude_categories('Bonus Discs') == True: continue
-        if exclude_categories('Console', [REGEX.bios]) == True: continue
-        if exclude_categories('Coverdiscs') == True: continue
-        if exclude_categories('Demos', REGEX.demos) == True: continue
-        if exclude_categories('Educational') == True: continue
-        if exclude_categories('Manuals', REGEX.manuals) == True: continue
-        if exclude_categories('Multimedia') == True: continue
-        if exclude_categories('Pirate', [REGEX.pirate]) == True: continue
-        if exclude_categories('Preproduction', REGEX.preproduction) == True: continue
-        if exclude_categories('Promotional', REGEX.promotional) == True: continue
-        if exclude_categories('Unlicensed', REGEX.unlicensed) == True: continue
-        if exclude_categories('Video', REGEX.video) == True: continue
-
         # Drop XML nodes with custom strings the user has chosen to exclude
         if user_input.no_filters == False:
             # System excludes are overriden by system includes.
@@ -193,7 +154,8 @@ def dat_to_dict(region, region_data, input_dat, user_input, removes_found, dat_n
         # Drop XML nodes that don't have roms or disks specified
         if (
             node.rom == None
-            and node.disk == None):
+            and node.disk == None
+            and user_input.empty_titles != True):
             continue
 
         # Drop XML nodes that don't have at least one hash specified for roms
@@ -201,6 +163,7 @@ def dat_to_dict(region, region_data, input_dat, user_input, removes_found, dat_n
             'crc' not in str(node.rom)
             and 'md5' not in str(node.rom)
             and 'sha1' not in str(node.rom)
+            and user_input.empty_titles != True
         ):
             continue
 
@@ -213,12 +176,12 @@ def dat_to_dict(region, region_data, input_dat, user_input, removes_found, dat_n
         if group_name not in groups:
             groups[group_name] = []
 
-        # Add the current title to the group
+         # Add the current title to the group
         groups[group_name].append(
             DatNode(node, region, region_data, user_input, input_dat, dat_numbered, REGEX))
 
-        # Deal with removes
         if input_dat.clone_lists != None:
+            # Deal with removes
             if input_dat.clone_lists.removes != None:
                 for key, value in input_dat.clone_lists.removes.items():
                     if 'match' not in value:
@@ -234,17 +197,90 @@ def dat_to_dict(region, region_data, input_dat, user_input, removes_found, dat_n
                                 disc_title.full_name_lower == key.lower()
                                 and value['match'] == 'full'
                             ) or (
-                                disc_title.short_name_lower == get_raw_title(key.lower())
+                                disc_title.short_name_lower == key.lower()
                                 and value['match'] == 'short'
                             ):
                                 remove_check = True
                                 removes_found.update([key])
 
-                    if remove_check == True:
-                        if 'Removes' not in user_input.removed_titles:
-                            user_input.removed_titles['Removes'] = []
-                        user_input.removed_titles['Removes'].append(disc_title.full_name)
-                        if disc_title in groups[group_name]: groups[group_name].remove(disc_title)
+                                if 'Removes' not in user_input.removed_titles:
+                                    user_input.removed_titles['Removes'] = []
+                                user_input.removed_titles['Removes'].append(disc_title.full_name)
+                                if disc_title in groups[group_name]: groups[group_name].remove(disc_title)
+
+            # Deal with category changes
+            if input_dat.clone_lists.categories != None:
+                for key, value in input_dat.clone_lists.categories.items():
+                    if 'match' not in value:
+                        value['match'] = 'tag free'
+
+                    for disc_title in groups[group_name]:
+                        if (
+                            disc_title.tag_free_name_lower == key.lower()
+                            and value['match'] == 'tag free'
+                            ) or (
+                                disc_title.full_name_lower == key.lower()
+                                and value['match'] == 'full'
+                            ) or (
+                                disc_title.short_name_lower == key.lower()
+                                and value['match'] == 'short'
+                            ):
+                                disc_title.categories = value['categories']
+                                categories_found.update([key])
+
+                                if 'Categories' not in user_input.removed_titles:
+                                    user_input.removed_titles['Categories'] = []
+                                user_input.removed_titles['Categories'].append(disc_title.full_name)
+
+                                # Check if the (Demo) tag is missing, and add it if so
+                                if 'Demos' in disc_title.categories and '(Demo' not in disc_title.full_name:
+                                    if disc_title in groups[group_name]:
+                                        groups[group_name].remove(disc_title)
+                                        if group_name + ' (Demo)' not in groups:
+                                            groups[group_name + ' (Demo)'] = []
+                                        groups[group_name + ' (Demo)'].append(disc_title)
+
+        # Filter categories, if the option has been turned on
+        def exclude_categories(category, regexes=[]):
+            if hasattr(user_input, 'no_' + category.lower().replace('-', '_').replace(' ', '_')):
+                if getattr(user_input, 'no_' + category.lower().replace('-', '_').replace(' ', '_')) == True:
+                    for disc_title in groups[group_name]:
+                        for disc_category in disc_title.categories:
+                            if disc_category == category:
+                                if category not in user_input.removed_titles:
+                                    user_input.removed_titles[category] = []
+                                    user_input.recovered_titles[category] = []
+                                user_input.removed_titles[category].append(disc_title.full_name)
+                                user_input.recovered_titles[category].append(disc_title)
+                                if disc_title in groups[group_name]: groups[group_name].remove(disc_title)
+                                return True
+                        if regexes != []:
+                            for regex in regexes:
+                                if re.search(regex, disc_title.full_name) != None:
+                                    if category not in user_input.removed_titles:
+                                        user_input.removed_titles[category] = []
+                                        user_input.recovered_titles[category] = []
+                                    user_input.removed_titles[category].append(disc_title.full_name)
+                                    user_input.recovered_titles[category].append(disc_title)
+                                    if disc_title in groups[group_name]: groups[group_name].remove(disc_title)
+                                    return True
+
+        if exclude_categories('Add-Ons') == True: continue
+        if exclude_categories('Applications', REGEX.programs) == True: continue
+        if exclude_categories('Audio') == True: continue
+        if exclude_categories('Bad Dumps', [REGEX.bad]) == True: continue
+        if exclude_categories('Bonus Discs') == True: continue
+        if exclude_categories('Console', [REGEX.bios]) == True: continue
+        if exclude_categories('Coverdiscs') == True: continue
+        if exclude_categories('Demos', REGEX.demos) == True: continue
+        if exclude_categories('Educational') == True: continue
+        if exclude_categories('Manuals', REGEX.manuals) == True: continue
+        if exclude_categories('Multimedia') == True: continue
+        if exclude_categories('Pirate', [REGEX.pirate]) == True: continue
+        if exclude_categories('Preproduction', REGEX.preproduction) == True: continue
+        if exclude_categories('Promotional', REGEX.promotional) == True: continue
+        if exclude_categories('Unlicensed', REGEX.unlicensed) == True: continue
+        if exclude_categories('Video', REGEX.video) == True: continue
 
         # Filter languages, if the option has been turned on
         if user_input.filter_languages == True:
@@ -481,7 +517,7 @@ def process_input_dat(dat_file, is_folder, gui=False):
     if gui == False:
         printwrap(f'* Reading dat file: "{Font.bold}{os.path.abspath(dat_file)}{Font.end}"')
     try:
-        with open(dat_file, 'r') as input_file:
+        with open(dat_file, 'r', encoding='utf8') as input_file:
             if gui == False:
                 print('* Validating dat file... ', sep=' ', end='', flush=True)
             input_dat = Dat()

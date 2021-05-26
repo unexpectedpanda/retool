@@ -3,12 +3,87 @@
 		"name": [
 			"Microsoft - Xbox"
 		],
-		"last updated": "9 April 2021",
+		"last updated": "24 May 2021",
 		"minimum version": "0.89"
 	},
 
+	"overrides": {
+		"Star Wars - The Clone Wars (Europe)": {
+			"new group": "Star Wars - The Clone Wars + Tetris Worlds",
+			"condition": {
+				"region": ["Asia"],
+				"higher than": ["USA", "Europe", "Germany", "France"]
+			}
+		},
+		"Star Wars - The Clone Wars (France)": {
+			"new group": "Star Wars - The Clone Wars + Tetris Worlds",
+			"condition": {
+				"region": ["Asia"],
+				"higher than": ["USA", "Europe", "Germany", "France"]
+			}
+		},
+		"Star Wars - The Clone Wars (Germany)": {
+			"new group": "Star Wars - The Clone Wars + Tetris Worlds",
+			"condition": {
+				"region": ["Asia"],
+				"higher than": ["USA", "Europe", "Germany", "France"]
+			}
+		},
+		"Star Wars - The Clone Wars (USA)": {
+			"new group": "Star Wars - The Clone Wars + Tetris Worlds",
+			"condition": {
+				"region": ["Asia"],
+				"higher than": ["USA", "Europe", "Germany", "France"]
+			}
+		},
+		"Star Wars - The Clone Wars + Tetris Worlds (Asia)": {
+			"new group": "Star Wars - The Clone Wars",
+			"condition": {
+				"region": ["USA", "Europe", "Germany", "France"],
+				"higher than": ["Asia"]
+			}
+		},
+		"Tetris Worlds (Europe) (En,Fr,De)": {
+			"new group": "Star Wars - The Clone Wars + Tetris Worlds",
+			"condition": {
+				"region": ["Asia"],
+				"higher than": ["USA", "Europe", "Germany", "France"]
+			}
+		},
+		"Tetris Worlds (Europe) (En,Fr,De,Is,It) (Online Enabled)": {
+			"new group": "Star Wars - The Clone Wars + Tetris Worlds",
+			"condition": {
+				"region": ["Asia"],
+				"higher than": ["USA", "Europe", "Germany", "France"]
+			}
+		},
+		"Tetris Worlds (Japan)": {
+			"new group": "Star Wars - The Clone Wars + Tetris Worlds",
+			"condition": {
+				"region": ["Asia"],
+				"higher than": ["USA", "Europe", "Germany", "France"]
+			}
+		},
+		"Tetris Worlds (USA)": {
+			"new group": "Star Wars - The Clone Wars + Tetris Worlds",
+			"condition": {
+				"region": ["Asia"],
+				"higher than": ["USA", "Europe", "Germany", "France"]
+			}
+		},
+		"Tetris Worlds (USA) (Online Enabled)": {
+			"new group": "Star Wars - The Clone Wars + Tetris Worlds",
+			"condition": {
+				"region": ["Asia"],
+				"higher than": ["USA", "Europe", "Germany", "France"]
+			}
+		}
+	},
+
 	"removes": {
+		"NCAA Football 2005 + Top Spin (USA) (En,Fr,De)": {},
 		"Sega GT 2002 + JSRF - Jet Set Radio Future (USA) (En,Ja)": {},
+		"Sega GT 2002 + JSRF - Jet Set Radio Future (Europe) (En,Fr,De,Es,It)": {},
 		"Star Wars - The Clone Wars + Tetris Worlds (USA)": {}
 	},
 
@@ -163,7 +238,8 @@
 		"Gladiator - Sword of Vengeance": [
 			["Gladiator - Schwert der Rache", 1]
 		],
-		"Godfather, The": [
+		"Godfather, The - The Game": [
+			["Godfather, The", 1],
 			["Padrino, El", 1],
 			["Padrino, Il", 1],
 			["Parrain, Le", 1],
@@ -180,7 +256,8 @@
 			["Guilty Gear XX Reload - The Midnight Carnival", 1]
 		],
 		"Halo - Combat Evolved": [
-			["Halo", 1]
+			["Halo", 1],
+			["Halo - Jeonjaengui Seomak", 1]
 		],
 		"Harry Potter and the Sorcerer's Stone": [
 			["Harry Potter and the Philosopher's Stone", 1]
@@ -243,6 +320,9 @@
 		],
 		"Medal of Honor - Rising Sun": [
 			["Medal of Honor - Soleil Levant", 1]
+		],
+		"Metal Dungeon": [
+			["Migong Zhengfuzhe", 1]
 		],
 		"Midnight Club 3 - DUB Edition": [
 			["Midnight Club 3 - DUB Edition Remix", 0]

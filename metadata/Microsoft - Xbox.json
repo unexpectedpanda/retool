@@ -1550,8 +1550,11 @@
     "Double-S.T.E.A.L (Japan)": {
         "languages": "Ja"
     },
-    "Double-S.T.E.A.L (Japan) (Demo)": {
+    "Double-S.T.E.A.L (Japan) (Demo 1)": {
         "languages": "Ja"
+    },
+    "Double-S.T.E.A.L (Japan) (Demo 2)": {
+        "languages": ""
     },
     "Double-S.T.E.A.L - The Second Clash (Japan) (En,Ja)": {
         "languages": "En, Ja"
@@ -2231,10 +2234,13 @@
     "Genma Onimusha (Europe) (En,Fr,De)": {
         "languages": "En, Fr, De"
     },
+    "Genma Onimusha (Japan) (Demo 2)": {
+        "languages": ""
+    },
     "Genma Onimusha (Japan) (En,Ja)": {
         "languages": "En, Ja"
     },
-    "Genma Onimusha (Japan) (En,Ja) (Demo)": {
+    "Genma Onimusha (Japan) (En,Ja) (Demo 1)": {
         "languages": "En, Ja"
     },
     "Genma Onimusha (USA)": {
@@ -2270,7 +2276,7 @@
     "Godfather, The (Europe) (En,Nl,Sv,Da)": {
         "languages": "Da, Nl, En, Sv"
     },
-    "Godfather, The (USA)": {
+    "Godfather, The - The Game (USA)": {
         "languages": ""
     },
     "Godzilla - Destroy All Monsters Melee (Europe) (En,Fr,De,Es,It)": {
@@ -2414,6 +2420,9 @@
     "Gun Valkyrie (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
+    "Gun Valkyrie (Japan) (Demo)": {
+        "languages": ""
+    },
     "Gun Valkyrie (Japan) (En,Ja)": {
         "languages": "En, Ja"
     },
@@ -2459,6 +2468,9 @@
     "Halo - Combat Evolved (USA) (Rev 2)": {
         "languages": "En"
     },
+    "Halo - Jeonjaengui Seomak (Korea) (En,Ko)": {
+        "languages": "En, Ko"
+    },
     "Halo 2 (Asia) (En,Ja,Fr,De,Es,It,Zh,Ko)": {
         "languages": "Zh, En, Fr, De, It, Ja, Ko, Es"
     },
@@ -2477,11 +2489,20 @@
     "Halo 2 (Spain) (En,Ja,Fr,De,Es,It,Zh,Ko)": {
         "languages": "Zh, En, Fr, De, It, Ja, Ko, Es"
     },
+    "Halo 2 (USA) (Multiplayer Alpha)": {
+        "languages": "En"
+    },
+    "Halo 2 (USA) (Multiplayer Beta)": {
+        "languages": "En"
+    },
     "Halo 2 (USA, Europe) (En,Ja,Fr,De,Es,It,Zh,Ko)": {
         "languages": "Zh, En, Fr, De, It, Ja, Ko, Es"
     },
     "Halo 2 Multiplayer Map Pack (World) (En,Ja,Fr,De,Es,It,Zh,Ko)": {
         "languages": "Zh, En, Fr, De, It, Ja, Ko, Es"
+    },
+    "Halo Movies (Japan)": {
+        "languages": ""
     },
     "Harry Potter - Quidditch World Cup (Europe) (En,Fr,De,Es,It,Nl,Sv)": {
         "languages": "Nl, En, Fr, De, It, Es, Sv"
@@ -2741,8 +2762,11 @@
     "JSRF - Jet Set Radio Future (Japan)": {
         "languages": "Ja"
     },
-    "JSRF - Jet Set Radio Future (Japan) (Demo)": {
+    "JSRF - Jet Set Radio Future (Japan) (Demo 1)": {
         "languages": "Ja"
+    },
+    "JSRF - Jet Set Radio Future (Japan) (Demo 2)": {
+        "languages": ""
     },
     "JSRF - Jet Set Radio Future (USA)": {
         "languages": "En"
@@ -3506,6 +3530,9 @@
     "Midway Arcade Treasures 3 (Europe)": {
         "languages": "En"
     },
+    "Migong Zhengfuzhe (Asia)": {
+        "languages": "Zh"
+    },
     "Mike Tyson Heavyweight Boxing (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
@@ -3616,6 +3643,9 @@
     },
     "Murakumo (Japan)": {
         "languages": "Ja"
+    },
+    "Murakumo (Japan) (Demo)": {
+        "languages": ""
     },
     "Murakumo (Korea)": {
         "languages": "Ko"
@@ -5219,7 +5249,7 @@
     "Red Ninja - End of Honor (Germany)": {
         "languages": "En"
     },
-    "Red Star, The (World) (Proto)": {
+    "Red Star, The (USA) (Proto)": {
         "languages": "En"
     },
     "RedCard (Europe) (En,Fr,De,Es,It)": {
@@ -5762,6 +5792,9 @@
     "Sonic Riders (USA) (En,Ja,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Ja, Es"
     },
+    "Soulcalibur II (Asia)": {
+        "languages": "Ja"
+    },
     "Soulcalibur II (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
@@ -6089,9 +6122,6 @@
     "Steel Battalion (USA)": {
         "languages": ""
     },
-    "Steel Battalion - Line of Contact ~ Tekki Taisen (World) (En,Ja)": {
-        "languages": "En, Ja"
-    },
     "Still Life (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
@@ -6287,6 +6317,15 @@
     "Tekki (Japan)": {
         "languages": "Ja"
     },
+    "Tekki (Japan) (Demo)": {
+        "languages": "En"
+    },
+    "Tekki Taisen - Steel Battalion - Line of Contact (Japan) (En,Ja) (Pilot Test)": {
+        "languages": "En, Ja"
+    },
+    "Tekki Taisen - Steel Battalion - Line of Contact (World) (En,Ja)": {
+        "languages": "En, Ja"
+    },
     "Tenchu - Return from Darkness (Europe) (En,Fr)": {
         "languages": "En, Fr"
     },
@@ -6298,6 +6337,9 @@
     },
     "Tenerezza (Japan)": {
         "languages": "Ja"
+    },
+    "Tenku - Freestyle Snowboarding (Japan) (Demo)": {
+        "languages": ""
     },
     "Tenku - Freestyle Snowboarding (Japan) (En,Ja)": {
         "languages": "En, Ja"
@@ -6742,6 +6784,9 @@
     },
     "UFC - Ultimate Fighting Championship 2 - Tapout (Japan)": {
         "languages": "Ja"
+    },
+    "UFC - Ultimate Fighting Championship 2 - Tapout (Japan) (Demo)": {
+        "languages": ""
     },
     "Ultimate Beach Soccer (USA)": {
         "languages": ""
@@ -7280,6 +7325,9 @@
     "Xbox Hardware Refresh Disc (USA)": {
         "languages": ""
     },
+    "Xbox Line-up Movies 2002 Summer (Japan)": {
+        "languages": ""
+    },
     "Xbox Live Arcade (USA) (En,Ja,Fr,De,Es,It,Pt,Zh,Ko)": {
         "languages": "Zh, En, Fr, De, It, Ja, Ko, Pt, Es"
     },
@@ -7333,6 +7381,9 @@
     },
     "Xbox Playable Starter Pack 2003 (UK)": {
         "languages": ""
+    },
+    "Xbox Retailer's Demo Disc Vol. 1 (Japan)": {
+        "languages": "Ja"
     },
     "Xbox Video Chat (Japan)": {
         "languages": ""

@@ -3,8 +3,19 @@
         "name": [
 			"Atari - 2600"
 		],
-        "last updated": "9 April 2021",
-		"minimum version": "0.89"
+        "last updated": "22 May 2021",
+		"minimum version": "0.92"
+    },
+
+    "categories": {
+        "Color Bar Generator": {
+            "match": "short",
+            "categories": ["Applications"]
+        },
+        "Frog Demo": {
+            "match": "short",
+            "categories": ["Demos"]
+        }
     },
 
     "renames": {

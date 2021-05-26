@@ -41,8 +41,8 @@
 	"2010 Street Fighter (Japan)": {
 		"languages": "Ja"
 	},
-	"3 in 1 Supergun (Asia) (Ja) (Unl)": {
-		"languages": "Ja"
+	"3 in 1 Supergun (Asia) (En) (Unl)": {
+		"languages": "En"
 	},
 	"3-D WorldRunner (USA)": {
 		"languages": "En"
@@ -1421,7 +1421,7 @@
 	"Chiller (Australia) (Unl)": {
 		"languages": "En"
 	},
-	"Chiller (USA) (Unl)": {
+	"Chiller (USA) (Unl) [b]": {
 		"languages": "En"
 	},
 	"Chinese Checkers (Asia) (Ja) (NTSC) (Unl)": {
@@ -2300,13 +2300,13 @@
 	"Dragon's Lair (USA)": {
 		"languages": "En"
 	},
-	"Dreamworld Pogie (Unknown) (Proto 1) (1993-10-19) (Unl)": {
+	"Dreamworld Pogie (Unknown) (Proto 1) (1993-10-19)": {
 		"languages": "En"
 	},
-	"Dreamworld Pogie (Unknown) (Proto 2) (2016-xx-xx) (Unl)": {
+	"Dreamworld Pogie (Unknown) (Proto 2) (2016-xx-xx)": {
 		"languages": "En"
 	},
-	"Dreamworld Pogie (Unknown) (Proto 3) (2017-xx-xx) (Unl)": {
+	"Dreamworld Pogie (Unknown) (Proto 3) (2017-xx-xx)": {
 		"languages": "En"
 	},
 	"Dropzone (Europe)": {
@@ -3048,6 +3048,9 @@
 		"languages": "En"
 	},
 	"Galaxy 5000 - Racing in the 51st Century (USA)": {
+		"languages": "En"
+	},
+	"Galf (World) (Aftermarket)": {
 		"languages": "En"
 	},
 	"Gambler Jiko Chuushinha (Japan)": {
@@ -4640,7 +4643,7 @@
 	"Lion King, The (Europe)": {
 		"languages": "En"
 	},
-	"Little Lancelot (World) (Aftermarket) (Unl)": {
+	"Little Lancelot (USA) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
 	"Little League Baseball - Championship Series (USA)": {
@@ -5885,9 +5888,6 @@
 	"Nintendo - NTF2 System Cartridge (USA)": {
 		"languages": "En"
 	},
-	"Nintendo - NTF2 Test Cartridge (USA) (Test Program)": {
-		"languages": "En"
-	},
 	"Nintendo - NTF2 Test Cartridge (USA) (Rev 1) (Test Program)": {
 		"languages": "En"
 	},
@@ -6161,7 +6161,7 @@
 	"Panic Restaurant (USA)": {
 		"languages": "En"
 	},
-	"Panic! Dizzy (Europe) (Proto)": {
+	"Panic! Dizzy (World) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
 	"Paperboy (Europe)": {
@@ -7805,8 +7805,8 @@
 	"Sukeban Deka III (Japan)": {
 		"languages": "Ja"
 	},
-	"Summer Carnival '92 - Recca (Japan)": {
-		"languages": "Ja"
+	"Summer Carnival '92 - Recca (Japan) (En)": {
+		"languages": "En"
 	},
 	"Sunday Funday - The Ride (USA) (Unl)": {
 		"languages": "En"
@@ -8780,10 +8780,10 @@
 	"Ufouria - The Saga (USA, Europe) (Wii Virtual Console)": {
 		"languages": "En"
 	},
-	"Ufouria - The Saga (USA) (Beta 1)": {
+	"Ufouria - The Saga (USA) (Proto 1)": {
 		"languages": "En"
 	},
-	"Ufouria - The Saga (USA) (Beta 2)": {
+	"Ufouria - The Saga (USA) (Proto 2)": {
 		"languages": "En"
 	},
 	"Ultima - Exodus (USA)": {
@@ -9131,7 +9131,7 @@
 	"Wolverine (USA)": {
 		"languages": "En"
 	},
-	"Wonderland Dizzy (Europe) (En,Fr,Es,Nl,Pt,Pl) (2015) (Unl)": {
+	"Wonderland Dizzy (Europe) (En,Fr,Es,Nl,Pt,Pl) (2015) (Aftermarket) (Unl)": {
 		"languages": "En,Fr,Es,Nl,Pt,Pl"
 	},
 	"Wonderland Dizzy (Europe) (En,Fr,Es,Nl,Pt,Pl) (Proto) (1993-09-24) (Unl)": {

@@ -1,15 +1,16 @@
 import argparse
 import re
 
-from modules.titleutils import get_languages, get_raw_title, remove_languages,\
-    remove_regions, remove_tags
+from modules.titleutils import get_languages, get_raw_title, get_short_name,\
+    get_tag_free_name, remove_languages, remove_regions
 from modules.utils import Font
 
 class CloneList:
     """ Returns a formatted clone list """
 
-    def __init__(self, min_version, overrides, renames, removes):
+    def __init__(self, min_version, categories, overrides, renames, removes):
         self.min_version = min_version
+        self.categories = categories
         self.overrides = overrides
         self.renames = renames
         self.removes = removes
@@ -47,22 +48,15 @@ class DatNode:
             self.online_languages = ''
 
 
-        # Set title with minimal tags, starting with normalizing disc names
-        tag_free_name = self.full_name
-
-        for key, value in user_input.tag_strings.disc_rename.items():
-            if key in tag_free_name:
-                tag_free_name = tag_free_name.replace(key, value)
-
-        # Strip out other tags found in tags.json
-        self.tag_free_name = remove_tags(tag_free_name, user_input, REGEX)
+        # Set title with minimal tags, including normalizing disc names
+        self.tag_free_name = get_tag_free_name(self.full_name, user_input, REGEX)
 
         # Set region free, language free title
         if re.search(' \((.*?,){0,} {0,}' + region + '(,.*?){0,}\)', self.full_name) != None:
             self.region_free_name = remove_regions(remove_languages(self.full_name, REGEX.languages), region_data)
 
             # Now set regionless title with minimal tags
-            self.short_name = remove_regions(remove_languages(self.tag_free_name, REGEX.languages), region_data)
+            self.short_name = get_short_name(region_data, REGEX, self.tag_free_name)
         else:
             self.region_free_name = self.full_name
             self.short_name = self.tag_free_name
@@ -106,29 +100,41 @@ class DatNode:
 
         # Reverse engineer category for No-Intro
         if node.category is None:
-            self.category = ''
+            self.categories = []
             for program in REGEX.programs:
                 if re.search(program, self.full_name) != None:
-                    self.category = 'Applications'
+                    if 'Applications' not in self.categories:
+                        self.categories.append('Applications')
+            for bios in [REGEX.bios]:
+                if re.search(bios, self.full_name) != None:
+                    if 'BIOS' not in self.categories:
+                        self.categories.append('BIOS')
             for demo in REGEX.demos:
                 if re.search(demo, self.full_name) != None:
-                    self.category = 'Demos'
+                    if 'Demos' not in self.categories:
+                        self.categories.append('Demos')
             for preproduction in REGEX.preproduction:
                 if re.search(preproduction, self.full_name) != None:
-                    self.category = 'Preproduction'
+                    if 'Preproduction' not in self.categories:
+                        self.categories.append('Preproduction')
             for video in REGEX.video:
                 if re.search(video, self.full_name) != None:
-                    self.category = 'Video'
+                    if 'Video' not in self.categories:
+                        self.categories.append('Video')
         else:
-            self.category = node.category.contents[0]
+            if node.category.contents == []:
+                self.categories = ['Unknown']
+            else:
+                self.categories = [node.category.contents[0]]
 
         # Some further category assignments
         if (
-            self.category == 'Console'
+            'Console' in self.categories
             or '[BIOS]' in self.full_name):
-                self.category = 'BIOS'
-        elif self.category == '':
-            self.category = 'Games'
+                if 'BIOS' not in self.categories:
+                    self.categories.append('BIOS')
+        elif self.categories == []:
+            self.categories.append('Games')
 
         self.description = node.description.contents[0]
         self.cloneof = ''
@@ -175,7 +181,7 @@ class DatNode:
         self.roms = roms
 
         # Check if the (Demo) tag is missing, and add it if so
-        if self.category == 'Demos' and '(Demo' not in self.full_name:
+        if 'Demos' in self.categories and '(Demo' not in self.full_name:
             self.short_name = self.short_name + ' (Demo)'
             self.region_free_name = self.region_free_name + ' (Demo)'
             self.tag_free_name = self.tag_free_name + ' (Demo)'
@@ -224,7 +230,7 @@ class DatNode:
         format_property(self.languages, 'languages', '\t\t\t')
         format_property(self.cloneof, 'cloneof', '\t\t\t')
         format_property(self.cloneof_group, 'cloneof_group', '\t\t')
-        ret_str.append(f'  ├ category:\t\t\t{self.category}\n')
+        ret_str.append(f'  ├ categories:\t\t\t{self.categories}\n')
         ret_str.append(f'  └ roms ┐\n')
         for i, rom in enumerate(self.roms):
             if i == len(self.roms) - 1:
@@ -267,7 +273,7 @@ class Regex:
         self.alpha = re.compile('\((?:(?!\(|Alpha( [0-9]{,2}){,1})[\s\S])*Alpha( [0-9]{,2}){,1}\)', re.IGNORECASE)
         self.beta = re.compile('\((?:(?!\(|Beta( [0-9]{,2}){,1})[\s\S])*Beta( [0-9]{,2}){,1}\)', re.IGNORECASE)
         self.proto = re.compile('\((?:(?!\(|Proto( [0-9]{,2}){,1})[\s\S])*Proto( [0-9]{,2}){,1}\)', re.IGNORECASE)
-        self.preprod = re.compile('\(Pre-production\)', re.IGNORECASE)
+        self.preprod = re.compile('\((Pre-production|Prerelease)\)', re.IGNORECASE)
         self.review = re.compile('\(Review Code\)', re.IGNORECASE)
 
         # Tags
@@ -287,8 +293,7 @@ class Regex:
 
         # Exclude filters
         self.demos = [
-            re.compile('\(Demo( [1-9])*\)', re.IGNORECASE),
-            re.compile('\(Demo-CD\)', re.IGNORECASE),
+            re.compile('\s?\((?:(?!\(|Demo([ -].*?| [1-9]){,1})[\s\S])*Demo([ -].*?| [1-9]){,1}\)', re.IGNORECASE),
             re.compile('Taikenban', re.IGNORECASE),
             re.compile('\(@barai\)', re.IGNORECASE),
             re.compile('\(GameCube Preview\)', re.IGNORECASE),
@@ -493,7 +498,7 @@ class UserInput:
                  no_video='', modern='', filter_languages='',
                  legacy='', user_options='', verbose='',
                  no_filters='', keep_remove='', list='',
-                 test=''):
+                 empty_titles='', test=''):
 
         self.input_file_name = input_file_name
         self.output_folder_name = output_folder_name
@@ -523,6 +528,7 @@ class UserInput:
         self.no_filters = no_filters
         self.keep_remove = keep_remove
         self.list = list
+        self.empty_titles = empty_titles
         self.test = test
 
         self.recovered_titles = {}

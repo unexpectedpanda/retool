@@ -22,7 +22,7 @@ from modules.importdata import build_clone_lists, build_regions, build_tags,\
     import_metadata
 from modules.output import generate_config, write_dat_file
 from modules.parentselection import assign_clones, choose_cross_region_parents
-from modules.titleutils import get_title_count, report_stats
+from modules.titleutils import get_title_count, report_stats#, set_categories
 from modules.userinput import check_input, import_user_config,\
     import_user_filters
 from modules.utils import Font, old_windows, printverbose, printwrap
@@ -31,14 +31,13 @@ from modules.xml import dat_to_dict, process_input_dat
 # Require at least Python 3.8
 assert sys.version_info >= (3, 8)
 
-__version__ = '0.91'
+__version__ = '0.92'
 
 def main(gui_input=''):
     # Start a timer from when the process started
     start_time = time.time()
 
     # Splash screen
-    os.system('cls' if os.name == 'nt' else 'clear')
     print(f'{Font.bold}\nRetool {__version__}{Font.end}')
     print('-----------')
 
@@ -169,6 +168,9 @@ def main(gui_input=''):
                     else:
                         print('')
 
+        # # Rewrite categories where needed
+        # set_categories(input_dat)
+
         # Import scraped Redump metadata for titles
         input_dat.metadata = import_metadata(input_dat)
 
@@ -255,6 +257,7 @@ def main(gui_input=''):
         titles = Titles()
 
         removes_found = set()
+        categories_found = set()
 
         for region in processing_region_order:
             if old_windows() != True:
@@ -264,7 +267,7 @@ def main(gui_input=''):
                 )
             titles.regions[region] = dat_to_dict(
                 region, region_data, input_dat, user_input,
-                removes_found, dat_numbered, REGEX)
+                removes_found, categories_found, dat_numbered, REGEX)
 
             if old_windows() != True:
                 sys.stdout.write("\033[K")
@@ -281,6 +284,16 @@ def main(gui_input=''):
                     f'{remove}{Font.end}')
 
             stats.remove_count = len(removes_found)
+
+            # Deal with category changes
+            missing_categories = {
+                category for category in input_dat.clone_lists.categories if category not in categories_found}
+
+            for category in missing_categories:
+                printverbose(
+                    user_input.verbose,
+                    f'{Font.warning_bold}* Title in categories list not found in dat: '
+                    f'{category}{Font.end}')
 
         print('* Finding titles in regions... done.')
 

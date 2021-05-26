@@ -3,12 +3,13 @@
 		"name": [
 			"Philips - CD-i"
 		],
-		"last updated": "10 April 2021",
+		"last updated": "19 May 2021",
 		"minimum version": "0.89"
 	},
 
 	"renames": {
 		"7th Guest, The (Disc 1) (The Game)": [
+			["7th Guest, The", 1],
 			["7th Guest, The (Disc 1) (Das Spiel)", 1],
 			["7th Guest, The (Disc 1) (Le Jeu)", 1]
 		],
@@ -46,23 +47,33 @@
 		"Dutch Masters of the Seventeenth Century": [
 			["Hollandse Meesters uit de Zeventiende Eeuw", 1],
 			["Maestri Olandesi del Seicento, I", 1],
-			["Maitres de la Peinture Hollandaise, Les", 1]
+			["Maitres de la Peinture Hollandaise, Les", 1],
+			["Niederlaendischen Meister des 17. Jahrhunderts, Die", 1]
 		],
 		"Harvest of the Sun - Van Gogh - Une Moisson de Soleils": [
+			["Ernte der Sonne - Vincent van Gogh", 1],
+			["Great Art Series, The - Taiyou o Karitoru Hito - Harvest of the Sun - Vincent van Gogh", 1],
 			["Harvest of the Sun", 1],
 			["Oogst van de Zon", 1],
 			["Raccolto del Sole, Il - Van Gogh", 1]
 		],
 		"Impressionnistes Francais, Les": [
 			["Franse Impressionisten, De", 1],
+			["Franzoesischen Impressionisten, Die", 1],
 			["Gli Impressionisti Francesi", 1]
 		],
 		"International Tennis Open": [
 			["International Tennis Open (8100082)", 1],
 			["International Tennis Open (8120040)", 2]
 		],
+		"Labyrinth of Crete": [
+			["Labyrinth von Kreta", 1]
+		],
 		"Link - The Faces of Evil": [
 			["Link - Die Fratzen des Boesen", 1]
+		],
+		"Mad Dog II - The Lost Gold": [
+			["Mad Dog 2 - Le Tresor Perdu", 1]
 		],
 		"Marco Polo (Disc 1) (The Game)": [
 			["Marco Polo (Disc 1) (Le Jeu)", 1]
@@ -73,8 +84,14 @@
 		"Mother Goose - Hidden Pictures": [
 			["Mother Goose - Images a Trouver", 1]
 		],
+		"Mozart - Eine Musikalische Biographie": [
+			["Mozart - La Vita e la Musica", 1],
+			["Mozart - Sono Ongaku to Shougai - A Musical Biography", 1]
+		],
 		"Paint School I": [
-			["Malarskolan", 1]
+			["Malarskolan", 1],
+			["Nuri e Asobi I - Paint School I", 1],
+			["Schilderschool", 1]
 		],
 		"Palm Springs Open, The": [
 			["Open de Palm Springs, L'", 1]
@@ -90,6 +107,7 @@
 			["Ritratto di Citta - Venezia", 1]
 		],
 		"Renaissance of Florence, The": [
+			["Great Art Series, The - Florence Renaissance - Renaissance of Florence, The", 1],
 			["Rinascimento a Firenze, Il", 1],
 			["Renaissance in Florenz, Die", 1],
 			["Renaissance van Florence, De", 1]
@@ -99,6 +117,14 @@
 			["Citta piu Felice del Mondo! di Richard Scarry, La", 1],
 			["Richard Scarry's Allerbeste Buurt Disc!", 1],
 			["Ville Surprise de Richard Scarry 1, La", 1]
+		],
+		"Richard Scarry's Busiest Neighborhood Disc Ever!": [
+			["Richard Scarry's Allerdrukste Buurt Disc!", 1],
+			["Richard Scarry's Allerwitzigste Geschichten aus Schaffenau", 1],
+			["Ville Surprise de Richard Scarry 2, La", 1]
+		],
+		"Rock Guitar - A Beginner's Guide": [
+			["Rock Gitaar - Handleiding voor Beginners", 1]
 		],
 		"Sandy's Circus Adventure": [
 			["Aventures de Sandy au Cirque, Les", 1],
@@ -127,15 +153,12 @@
 			["Tim & Beer in het Ziekenhuis", 1]
 		],
 		"Time Life Presents - 35mm Photography": [
-			["Time Life Photography", 1],
 			["Time Life Presenta - La Fotografia in 35mm", 1],
-			["Time Life Presente - La Photographie 24 x 36 mm", 1]
+			["Time Life Presente - La Photographie 24 x 36 mm", 1],
+			["Time-Life Praesentiert - Kleinbild-Fotografie", 1]
 		],
 		"Video Speedway - The Ultimate Racing Experience": [
 			["Video Speedway - Grand Prix", 1]
-		],
-		"Ville Surprise de Richard Scarry 2, La": [
-			["Richard Scarry's Allerdrukste Buurt Disc!", 1]
 		],
 		"Voyeur": [
 			["Voyeur ...Don't Get Caught", 1],

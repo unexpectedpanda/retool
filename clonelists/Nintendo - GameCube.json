@@ -6,7 +6,7 @@
 			"Nintendo - GameCube - NKit ISO",
 			"Nintendo - GameCube - NASOs"
 		],
-		"last updated": "9 April 2021",
+		"last updated": "24 May 2021",
 		"minimum version": "0.89"
 	},
 
@@ -15,16 +15,6 @@
 			"new group": "Disney Sports - Soccer",
 			"match": "tag free"
 		}
-	},
-
-	"removes": {
-		"2 Games in 1 - Disney-Pixar Die Unglaublichen + Disney-Pixar Findet Nemo (Germany) (Disc 1)": {},
-		"2 Games in 1 - Disney-Pixar Die Unglaublichen + Disney-Pixar Findet Nemo (Germany) (Disc 2)": {},
-		"2 Games in 1 - Disney-Pixar Les Indestructibles + Disney-Pixar Le Monde de Nemo (France) (Disc 1) (Les Indestructibles)": {},
-		"2 Games in 1 - Disney-Pixar Les Indestructibles + Disney-Pixar Le Monde de Nemo (France) (Disc 2) (Le Monde de Nemo)": {},
-		"2 Games in 1 - Nickelodeon SpongeBob Schwammkopf - Der Film + Nickelodeon Tak 2 - Der Stab der Traeume (Germany) (Disc 1)": {},
-		"2 Games in 1 - Nickelodeon SpongeBob Schwammkopf - Der Film + Nickelodeon Tak 2 - Der Stab der Traeume (Germany) (Disc 2)": {},
-		"Nickelodeon Tak 2 - Le Sceptre des Reves (France)": {}
 	},
 
 	"renames": {
@@ -125,7 +115,7 @@
 			["Crash Bandicoot 4 - Sakuretsu! Majin Power", 1]
 		],
 		"Crash Nitro Kart": [
-			["Crash Bandicoot - Bakuso! Nitro Kart", 1]
+			["Crash Bandicoot - Bakusou! Nitro Kart", 1]
 		],
 		"Crash Tag Team Racing": [
 			["Crash Bandicoot - Gatchanko World", 1]
@@ -155,12 +145,16 @@
 		"Disney-Pixar Finding Nemo": [
 			["Disney-Pixar Buscando a Nemo", 1],
 			["Disney-Pixar Findet Nemo", 1],
-			["Disney-Pixar Le Monde de Nemo", 1]
+			["Disney-Pixar Le Monde de Nemo", 1],
+			["2 Games in 1 - Disney-Pixar Die Unglaublichen + Disney-Pixar Findet Nemo (Disc 2)", 2],
+			["2 Games in 1 - Disney-Pixar Les Indestructibles + Disney-Pixar Le Monde de Nemo (Disc 2) (Le Monde de Nemo)", 2]
 		],
 		"Disney-Pixar The Incredibles": [
 			["Disney-Pixar Die Unglaublichen", 1],
 			["Disney-Pixar Les Indestructibles", 1],
-			["Disney-Pixar Mr. Incredible", 1]
+			["Disney-Pixar Mr. Incredible", 1],
+			["2 Games in 1 - Disney-Pixar Die Unglaublichen + Disney-Pixar Findet Nemo (Disc 1)", 2],
+			["2 Games in 1 - Disney-Pixar Les Indestructibles + Disney-Pixar Le Monde de Nemo (Disc 1) (Les Indestructibles)", 2]
 		],
 		"Disney-Pixar The Incredibles - Rise of the Underminer": [
 			["Disney-Pixar Mr. Incredible - Kyouteki Underminer Toujou", 1]
@@ -438,6 +432,9 @@
 		"Nickelodeon Rugrats - Royal Ransom": [
 			["Nickelodeon Les Razmoket - La Rancon Royale", 1]
 		],
+		"Nickelodeon SpongeBob SquarePants - Battle for Bikini Bottom": [
+			["2 Games in 1 - Nickelodeon SpongeBob Schwammkopf - Der Film + Nickelodeon SpongeBob Schwammkopf - Schlacht um Bikini Bottom (Disc 2)", 1]
+		],
 		"Nickelodeon SpongeBob SquarePants - Creature from the Krusty Krab": [
 			["Nickelodeon Bob L'eponge - La Creature du Crabe Croustillant", 1],
 			["Nick SpongeBob Schwammkopf - Die Kreatur aus der Krossen Krabbe", 1],
@@ -449,7 +446,10 @@
 			["Nickelodeon SpongeBob SquarePants - Licht uit, Camera aan!", 1]
 		],
 		"Nickelodeon SpongeBob SquarePants - The Movie": [
-			["Nickelodeon SpongeBob Schwammkopf - Der Film", 1]
+			["2 Games in 1 - Bob L'eponge - Le Film + Tak 2 - Le Sceptre des Reves (Disc 1) (Bob L'eponge - Le Film)", 1],
+			["2 Games in 1 - Nickelodeon SpongeBob Schwammkopf - Der Film + Nickelodeon SpongeBob Schwammkopf - Schlacht um Bikini Bottom (Disc 1)", 1],
+			["Nickelodeon SpongeBob Schwammkopf - Der Film", 2],
+			["2 Games in 1 - Nickelodeon SpongeBob Schwammkopf - Der Film + Nickelodeon Tak 2 - Der Stab der Traeume (Disc 1)", 3]
 		],
 		"Tak and the Power of Juju": [
 			["Tak & Le Pouvoir de Juju", 1],
@@ -457,7 +457,9 @@
 		],
 		"Nickelodeon Tak 2 - The Staff of Dreams": [
 			["Nickelodeon Tak 2 - Der Stab der Traeume", 1],
-			["2 Games in 1 - Bob L'eponge - Le Film + Tak 2 - Le Sceptre des Reves (Disc 2) (Tak 2 - Le Sceptre des Reves)", 1]
+			["Nickelodeon Tak 2 - Le Sceptre des Reves", 1],
+			["2 Games in 1 - Bob L'eponge - Le Film + Tak 2 - Le Sceptre des Reves (Disc 2) (Tak 2 - Le Sceptre des Reves)", 2],
+			["2 Games in 1 - Nickelodeon SpongeBob Schwammkopf - Der Film + Nickelodeon Tak 2 - Der Stab der Traeume (Disc 2)", 2]
 		],
 		"Nicktoons Unite!": [
 			["Nickelodeon SpongeBob SquarePants and Friends Unite!", 1]

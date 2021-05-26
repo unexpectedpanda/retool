@@ -3,8 +3,71 @@
         "name": [
 			"Nintendo - Game Boy Advance"
 		],
-        "last updated": "11 April 2021",
-		"minimum version": "0.89"
+        "last updated": "23 May 2021",
+		"minimum version": "0.92"
+    },
+
+    "categories": {
+        "Action Replay": {
+            "match": "short",
+            "categories": ["Applications"]
+        },
+        "Action Replay GBX": {
+            "match": "short",
+            "categories": ["Applications"]
+        },
+        "Action Replay MAX": {
+            "match": "short",
+            "categories": ["Applications"]
+        },
+        "AGS Aging Cartridge": {
+            "match": "short",
+            "categories": ["Applications"]
+        },
+        "CodeBreaker": {
+            "match": "short",
+            "categories": ["Applications"]
+        },
+        "e-Reader": {
+            "match": "short",
+            "categories": ["Applications"]
+        },
+        "GameShark GBA": {
+            "match": "short",
+            "categories": ["Applications"]
+        },
+        "GBA AV Adapter": {
+            "match": "short",
+            "categories": ["Applications"]
+        },
+        "GBA Movie Player 2 CF": {
+            "match": "short",
+            "categories": ["Applications"]
+        },
+        "GBA Personal Organizer": {
+            "match": "short",
+            "categories": ["Applications"]
+        },
+        "GBA TV Tuner PAL": {
+            "match": "short",
+            "categories": ["Applications"]
+        },
+        "iQue Reader": {
+            "match": "short",
+            "categories": ["Applications"]
+        },
+        "iQue Video & Audio": {
+            "match": "short",
+            "categories": ["Applications"]
+        },
+        "Nintendo MP3 Player": {
+            "match": "short",
+            "categories": ["Applications"]
+        },
+        "Viewpoint (Unknown) (Techo Demo)": {
+            "match": "full",
+            "categories": ["Demos"]
+        }
     },
 
     "overrides": {

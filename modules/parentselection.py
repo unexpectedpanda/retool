@@ -242,10 +242,10 @@ def choose_cross_region_parents(titles, user_input, dat_numbered, REGEX):
                                         if language in title_1.languages:
                                             if title_1 in parents: parents.remove(title_1)
 
-                # Check to see if titles are unlicensed or not. If so, favour
-                # production titles
-                unl_title_1 = bool(re.search('\(unl\)', title_1.full_name_lower))
-                unl_title_2 = bool(re.search('\(unl\)', title_2.full_name_lower))
+                # Check to see if titles are unlicensed/aftermarket or not. If so, favour
+                # production titles if they exist
+                unl_title_1 = bool(re.search('\((unl|aftermarket)\)', title_1.full_name_lower))
+                unl_title_2 = bool(re.search('\((unl|aftermarket)\)', title_2.full_name_lower))
 
                 if unl_title_1 == True and unl_title_2 == False:
                     if title_1 in parents: parents.remove(title_1)

@@ -3,7 +3,7 @@
 		"name": [
 			"Sega - Mega Drive - Genesis"
 		],
-		"last updated": "11 April 2021",
+		"last updated": "23 May 2021",
 		"minimum version": "0.89"
     },
 
@@ -195,10 +195,10 @@
         "F-117 Night Storm": [
             ["F-117 Stealth - Operation - Night Storm", 1]
         ],
-        "F-22 Interceptor - Advanced Tactical Fighter (F-205)": [
+        "F-22 Interceptor": [
             ["F-22 Interceptor - Advanced Tactical Fighter", 1],
             ["F-22 Interceptor - Advanced Tactical Fighter (F-202)", 2],
-            ["F-22 Interceptor", 3]
+            ["F-22 Interceptor - Advanced Tactical Fighter (F-205)", 2]
         ],
         "Fatal Fury": [
             ["Garou Densetsu - Shukumei no Tatakai", 1]
@@ -727,6 +727,9 @@
         ],
         "Zombies Ate My Neighbors": [
             ["Zombies", 1]
+        ],
+        "Zool - Ninja of the 'Nth' Dimension": [
+            ["Zool", 2]
         ]
 	}
 }

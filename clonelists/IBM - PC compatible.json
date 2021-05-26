@@ -3,7 +3,7 @@
 		"name": [
 			"IBM - PC compatible"
 		],
-		"last updated": "10 April 2021",
+		"last updated": "23 May 2021",
 		"minimum version": "0.89"
 	},
 
@@ -78,7 +78,7 @@
 			["18 Stal'nyh Koles - Konvoj", 1]
 		],
 		"18 Wheels of Steel - Pedal to the Metal": [
-			["18 Stal'nyh Koljos - Pyl' Dorog", 1]
+			["18 stal'nyx kolyos - Pyl' dorog", 1]
 		],
 		"3-D Ultra Minigolf": [
 			["3-D Ultra Minigolf Deluxe", 0],
@@ -231,6 +231,7 @@
 		"Alone in the Dark": [
 			["Alone in the Dark + Jack in the Dark", 0],
 			["Secret Service - Wydanie Specjalne Alone in the Dark", 1],
+			["Alone in the Dick", 1],
 			["Alone in the Dark (Pay as You Play Version) (CD-ROM User)", 2],
 			["Alone in the Dark (Pay as You Play Version) (PC Power)", 3]
 		],
@@ -365,6 +366,15 @@
 		"Another World - 15th Anniversary Edition": [
 			["Another World - 15th Anniversary Edition (Gra)", 1]
 		],
+		"Aoshi Sanguo (Disc 1)": [
+			["Fate of the Dragon", 0]
+		],
+		"Aoshi Sanguo (Disc 2)": [
+			["Fate of the Dragon", 0]
+		],
+		"Aoshi Sanguo - Sanfen Tianxia": [
+			["Dragon Throne - Battle of Red Cliffs", 1]
+		],
 		"AquaNox": [
 			["Bravo ScreenFun 12-2003", 2]
 		],
@@ -374,11 +384,11 @@
 		"AquaNox 2 - Revelation (Disc 2)": [
 			["AquaNox 2 - Otkrovenie (Disc 2)", 1]
 		],
-		"Arcanum - Of Steamworks & Magick Obscura (Disc 1)": [
+		"Arcanum - Of Steamworks & Magick Obscura (Install)": [
 			["Arcanum (Disc 1) (Install Disk)", 1],
 			["Arcanum - Of Steamworks & Magick Obscura (Install Disk)", 1]
 		],
-		"Arcanum - Of Steamworks & Magick Obscura (Disc 2)": [
+		"Arcanum - Of Steamworks & Magick Obscura (Play)": [
 			["Arcanum (Disc 2) (Play Disk)", 1],
 			["Arcanum - Of Steamworks & Magick Obscura (Play Disk)", 1]
 		],
@@ -462,16 +472,20 @@
 			["Asteroids - Der Durchbruch ins neue Jahrtausend!", 1]
 		],
 		"Atlantis - The Lost Tales (Disc 1)": [
-			["Atlantis - Segreti d'un Mondo Perduto (Disc 1)", 1]
+			["Atlantis - Segreti d'un Mondo Perduto (Disc 1)", 1],
+			["Atlantis - The Lost Tales (Di 1 Pian)", 1]
 		],
 		"Atlantis - The Lost Tales (Disc 2)": [
-			["Atlantis - Segreti d'un Mondo Perduto (Disc 3)", 1]
+			["Atlantis - Segreti d'un Mondo Perduto (Disc 2)", 1],
+			["Atlantis - The Lost Tales (Di 2 Pian)", 1]
 		],
 		"Atlantis - The Lost Tales (Disc 3)": [
-			["Atlantis - Segreti d'un Mondo Perduto (Disc 3)", 1]
+			["Atlantis - Segreti d'un Mondo Perduto (Disc 3)", 1],
+			["Atlantis - The Lost Tales (Di 3 Pian)", 1]
 		],
 		"Atlantis - The Lost Tales (Disc 4)": [
-			["Atlantis - Segreti d'un Mondo Perduto (Disc 4)", 1]
+			["Atlantis - Segreti d'un Mondo Perduto (Disc 4)", 1],
+			["Atlantis - The Lost Tales (Di 4 Pian)", 1]
 		],
 		"Atlantis Evolution (Disc 1)": [
 			["Atlantis Evolution", 0]
@@ -617,6 +631,24 @@
 		"Barbie of Swan Lake CD-ROM - The Enchanted Forest": [
 			["Barbie in het Zwanenmeer CD-ROM - Het Toverbos", 1]
 		],
+		"Bard's Tale, The (Disc 1)": [
+			["Bard's Tale, The", 0]
+		],
+		"Bard's Tale, The (Disc 2)": [
+			["Bard's Tale, The", 0]
+		],
+		"Bard's Tale, The (Disc 3)": [
+			["Bard's Tale, The", 0]
+		],
+		"Bard's Tale, The (Disc 4)": [
+			["Bard's Tale, The", 0]
+		],
+		"Bard's Tale, The (Disc 5)": [
+			["Bard's Tale, The", 0]
+		],
+		"Bard's Tale, The (Disc 6)": [
+			["Bard's Tale, The", 0]
+		],
 		"Barrow Hill - Curse of the Ancient Circle (Disc 1)": [
 			["Barrow Hill", 0]
 		],
@@ -646,10 +678,12 @@
 		"Battle Isle 2200": [
 			["Battle Isle 2", 1]
 		],
-		"Battle Isle 3 - Schatten des Imperators (Disc 1)": [
+		"Battle Isle 3 - Shadow of the Emperor (Disc 1)": [
+			["Battle Isle 3 - Schatten des Imperators (Disc 1)", 1],
 			["Bestseller Games Gold-Edition Ausgabe 12 (Disc 1)", 2]
 		],
-		"Battle Isle 3 - Schatten des Imperators (Disc 2)": [
+		"Battle Isle 3 - Shadow of the Emperor (Disc 2)": [
+			["Battle Isle 3 - Schatten des Imperators (Disc 2)", 1],
 			["Bestseller Games Gold-Edition Ausgabe 12 (Disc 2)", 2]
 		],
 		"Battlefield 1942 (Disc 1) (Game of the Year Edition)": [
@@ -726,6 +760,9 @@
 		],
 		"Battlefield Vietnam Redux (Disc 3)": [
 			["Battlefield Vietnam (Disc 3)", 2]
+		],
+		"Battleground - Ardennes": [
+			["Battleground Ardennes", 1]
 		],
 		"Beast Within, The - A Gabriel Knight Mystery (Disc 1)": [
 			["Beast Within, The - Ein Gabriel Knight-Krimi (Disc 1)", 1],
@@ -813,6 +850,8 @@
 			["Black & White - Special Creature CD - Horse", 1]
 		],
 		"Black & White - Creature Isle (Expansion Pack)": [
+			["Black & White - Creature Isle", 1],
+			["Black & White - Creature-tou Kakuchou Kit", 1],
 			["Black & White - Insel der Kreaturen", 1]
 		],
 		"Black & White 2 (Disc 1)": [
@@ -859,7 +898,8 @@
 			["Yinyi Shashou (Disc 1)", 1]
 		],
 		"Blade Runner (Disc 2)": [
-			["Blade Runner (DVD)", 0]
+			["Blade Runner (DVD)", 0],
+			["Yinyi Shashou (Disc 2)", 1]
 		],
 		"Blade Runner (Disc 3)": [
 			["Blade Runner (DVD)", 0]
@@ -867,8 +907,13 @@
 		"Blade Runner (Disc 4)": [
 			["Blade Runner (DVD)", 0]
 		],
-		"Blair Witch Volume I - Rustin Parr": [
-			["Blair Witch Czesc I - Rustin Parr", 1]
+		"Blair Witch Volume I - Rustin Parr (Disc 1)": [
+			["Blair Witch Volume I - Rustin Parr", 0],
+			["Blair Witch Czesc I - Rustin Parr", 0]
+		],
+		"Blair Witch Volume I - Rustin Parr (Disc 2)": [
+			["Blair Witch Volume I - Rustin Parr", 0],
+			["Blair Witch Czesc I - Rustin Parr", 0]
 		],
 		"Blitzkrieg (Disc 1)": [
 			["Blitzkrieg Anthology", 0]
@@ -904,6 +949,9 @@
 		],
 		"Blood (Disc 2)": [
 			["One Unit Whole Blood", 0]
+		],
+		"Forgotten Realms Archives - Silver Edition (Blood & Magic)": [
+			["Blood & Magic", 2]
 		],
 		"Blood - Plasma Pak": [
 			["One Unit Whole Blood", 0]
@@ -955,21 +1003,23 @@
 			["Broken Sword Complete", 0],
 			["Baphomets Fluch - Der Schlafende Drache (Disc 2)", 1]
 		],
-		"Broken Sword II - The Smoking Mirror (Disc 1)": [
+		"Broken Sword - The Smoking Mirror (Disc 1)": [
 			["Revolution - 25th Anniversary Collection (Disc 1) (Revolution Games 1992 - 2010)", 0],
 			["Broken Sword Complete", 0],
 			["Broken Sword II - The Smoking Mirror", 0],
 			["Baphomets Fluch II - Die Spiegel der Finsternis (Disc 1)", 1],
 			["Boucliers de Quetzalcoatl, Les - Les Chevaliers de Baphomet II (Disc 1)", 1],
-			["Broken Sword II - La Profezia dei Maya (Disc 1)", 1]
+			["Broken Sword II - La Profezia dei Maya (Disc 1)", 1],
+			["Broken Sword II - The Smoking Mirror (Disc 1)", 1]
 		],
-		"Broken Sword II - The Smoking Mirror (Disc 2)": [
+		"Broken Sword - The Smoking Mirror (Disc 2)": [
 			["Revolution - 25th Anniversary Collection (Disc 1) (Revolution Games 1992 - 2010)", 0],
 			["Broken Sword Complete", 0],
 			["Broken Sword II - The Smoking Mirror", 0],
 			["Baphomets Fluch II - Die Spiegel der Finsternis (Disc 2)", 1],
 			["Boucliers de Quetzalcoatl, Les - Les Chevaliers de Baphomet II (Disc 2)", 1],
-			["Broken Sword II - La Profezia dei Maya (Disc 2)", 1]
+			["Broken Sword II - La Profezia dei Maya (Disc 2)", 1],
+			["Broken Sword II - The Smoking Mirror (Disc 2)", 1]
 		],
 		"Brothers in Arms - Earned in Blood (Disc 1)": [
 			["Brothers in Arms - Earned in Blood", 0]
@@ -1002,6 +1052,9 @@
 		],
 		"Bust-A-Move 4": [
 			["Puzzle Bobble 4", 1]
+		],
+		"Byston Well Senki - Garzey no Tsubasa": [
+			["Bystonwell Saga - Garzey's Wing", 1]
 		],
 		"Caesar II": [
 			["Best of Sierra Nr. 15 (Disc 2)", 2],
@@ -1053,6 +1106,9 @@
 		],
 		"Call of Duty 4 - Modern Warfare": [
 			["Call of Duty 4 - Modern Warfare (Game of the Year Edition)", 0]
+		],
+		"Call to Power II": [
+			["Wenming - Quanqing-Tianxia II", 1]
 		],
 		"Capitalism": [
 			["Capitalism Plus", 0]
@@ -1149,8 +1205,25 @@
 			["Cronache di Narnia, Le - Il leone, la strega e l'armadio", 0],
 			["Opowiesci z Narnii - Lew, Czarownica i Stara Szafa (Disc 4)", 1]
 		],
-		"Chronicles of Riddick, The - Escape from Butcher Bay - Developer's Cut": [
-			["Kroniki Riddicka - Ucieczka z Butcher Bay - Edycja Rozszerzona", 1]
+		"Chronicles of Riddick, The - Escape from Butcher Bay - Developer's Cut (Disc 1)": [
+			["Chronicles of Riddick, The - Escape from Butcher Bay - Developer's Cut", 0],
+			["Kroniki Riddicka - Ucieczka z Butcher Bay - Edycja Rozszerzona", 0]
+		],
+		"Chronicles of Riddick, The - Escape from Butcher Bay - Developer's Cut (Disc 2)": [
+			["Chronicles of Riddick, The - Escape from Butcher Bay - Developer's Cut", 0],
+			["Kroniki Riddicka - Ucieczka z Butcher Bay - Edycja Rozszerzona", 0]
+		],
+		"Chronicles of Riddick, The - Escape from Butcher Bay - Developer's Cut (Disc 3)": [
+			["Chronicles of Riddick, The - Escape from Butcher Bay - Developer's Cut", 0],
+			["Kroniki Riddicka - Ucieczka z Butcher Bay - Edycja Rozszerzona", 0]
+		],
+		"Chronicles of Riddick, The - Escape from Butcher Bay - Developer's Cut (Disc 4)": [
+			["Chronicles of Riddick, The - Escape from Butcher Bay - Developer's Cut", 0],
+			["Kroniki Riddicka - Ucieczka z Butcher Bay - Edycja Rozszerzona", 0]
+		],
+		"Chronicles of Riddick, The - Escape from Butcher Bay - Developer's Cut (Disc 5)": [
+			["Chronicles of Riddick, The - Escape from Butcher Bay - Developer's Cut", 0],
+			["Kroniki Riddicka - Ucieczka z Butcher Bay - Edycja Rozszerzona", 0]
 		],
 		"Circle of Blood (Disc 1)": [
 			["Revolution - 25th Anniversary Collection (Disc 1) (Revolution Games 1992 - 2010)", 0],
@@ -1198,6 +1271,9 @@
 		],
 		"Civil War, The": [
 			["Amerika 1861-1865", 1]
+		],
+		"Civilization - Call to Power": [
+			["Wenming Zhi Quanqing-Tianxia", 1]
 		],
 		"Claw": [
 			["Kapitan Pix", 1]
@@ -1610,6 +1686,9 @@
 		"Dark Fall 2 - Il Segreto del Faro": [
 			["Dark Fall 1 & 2 DVD-ROM", 0]
 		],
+		"Dark Messiah - Might and Magic": [
+			["Dark Messiah - Might and Magic (Limited Edition)", 0]
+		],
 		"Dark Souls II (Disc 1)": [
 			["Dark Souls II - Scholar of the First Sin (Disc 1)", 0]
 		],
@@ -1642,7 +1721,8 @@
 			["Daytona USA Deluxe Special Edition", 0]
 		],
 		"Daytona USA Deluxe": [
-			["Daytona USA Deluxe Special Edition", 0]
+			["Daytona USA Deluxe Special Edition", 0],
+			["Daytona USA - Evolution", 1]
 		],
 		"Deadlock - Planetary Conquest": [
 			["Deadlock - Conquista Planetaria", 1],
@@ -1663,10 +1743,21 @@
 		"Deal or No Deal": [
 			["Affari Tuoi", 1]
 		],
-		"Deep Sea Tycoon 2": [
-			["CyberMycha 12-2006 (Disc 2)", 1]
+		"Deep Sea Tycoon - Diver's Paradise": [
+			["CyberMycha 12-2006 (Disc 2)", 1],
+			["Deep Sea Tycoon 2", 1]
+		],
+		"Deer Hunt Challenge": [
+			["Deer Hunt Challenge - Special Edition", 0]
+		],
+		"Defcon - Global Nuclear Domination Game": [
+			["Defcon - Everybody Dies", 1]
 		],
 		"Delta Force": [
+			["Delta Force - Xtreme", 0],
+			["Delta Force - Pervaya krov' (Install Disc)", 0]
+		],
+		"Delta Force - Pervaya krov' (Play Disc)": [
 			["Delta Force - Xtreme", 0]
 		],
 		"Demigod (Disc 1) (Game Disc)": [
@@ -1718,6 +1809,9 @@
 		"Desperate Housewives - The Game (Disc 2)": [
 			["Desperate Housewives - Il Videogioco (Disc 2)", 1]
 		],
+		"Destroyer Command - WWII Naval Combat Simulator": [
+			["Quzhujian Zhihuiguan", 1]
+		],
 		"Detroit": [
 			["Ruesselsheim", 2]
 		],
@@ -1743,6 +1837,10 @@
 		"Devil Inside, The (DVD)": [
 			["Devil Inside, The", 2]
 		],
+		"Devil May Cry 3 - Dante's Awakening": [
+			["Devil May Cry 3 - Dante's Awakening (Special Edition)", 0],
+			["Devil May Cry 3 (Special Edition)", 0]
+		],
 		"Devil May Cry 3 - Dante's Awakening (Disc 1) (Special Edition)": [
 			["Devil May Cry 3 - Dante's Awakening (Special Edition)", 0],
 			["Devil May Cry 3 (Special Edition)", 0]
@@ -1765,6 +1863,9 @@
 		],
 		"Devil May Cry 4 (Disc 1)": [
 			["Devil May Cry 4", 0]
+		],
+		"Dexter's Laboratory - Science Ain't Fair": [
+			["Dexter's Laboratory", 1]
 		],
 		"Diablo": [
 			["Diablo (70AA7258)", 2],
@@ -1814,6 +1915,7 @@
 			["Kicker Fussball Manager", 1]
 		],
 		"Disciples - Sacred Lands": [
+			["Disciples - Sacred Lands (Gold Edition)", 0],
 			["Shengzhan Qunyingzhuan - Shensheng Guodu", 1]
 		],
 		"Disciples II - Bunt Elfow (Disc 1)": [
@@ -1967,17 +2069,20 @@
 		"DIV Games Studio (Disc 2)": [
 			["DIV Games Studio", 0]
 		],
-		"Divine Divinity (Disc 1)": [
+		"Divine Divinity (Game Disc)": [
+			["Divine Divinity (Disc 1)", 1],
 			["Divine Divinity (Installations-CD 1)", 1],
 			["Divine Divinity - Create Your Own Destiny! (Disc 1) (Installation CD)", 1],
 			["Shenjie (Disc 1) (Installation CD 1)", 1]
 		],
-		"Divine Divinity (Disc 2)": [
+		"Divine Divinity (Installation Disc 1)": [
+			["Divine Divinity (Disc 2)", 1],
 			["Divine Divinity (Installations-CD 2)", 1],
 			["Divine Divinity - Create Your Own Destiny! (Disc 2) (Installation CD)", 1],
 			["Shenjie (Disc 2) (Installation CD 2)", 1]
 		],
-		"Divine Divinity (Disc 3)": [
+		"Divine Divinity (USA) (Installation Disc 2)": [
+			["Divine Divinity (Disc 3)", 1],
 			["Divine Divinity (Spiel-CD)", 1],
 			["Divine Divinity - Create Your Own Destiny! (Disc 3) (Play CD)", 1],
 			["Shenjie (Disc 3) (Game CD)", 1]
@@ -2238,6 +2343,9 @@
 		"Echelon": [
 			["Shtorm", 1]
 		],
+		"Echelon - Wind Warriors": [
+			["Shtorm - Soldaty neba", 1]
+		],
 		"Egypt 1156 B.C. - Tomb of the Pharaoh": [
 			["Egypt 1156 A.C. - L'Enigma della Tomba Reale", 1],
 			["Egypte 1156 AV. J.-C. - L'Enigme de la Tombe Royale", 1],
@@ -2452,11 +2560,11 @@
 		],
 		"EverQuest Trilogy (Disc 1)": [
 			["EverQuest - Gold Edition (Disc 1) (EverQuest Classic)", 0],
-			["EverQuest (Disc 1)", 1]
+			["Wujin De Renwu (Disc 1)", 1]
 		],
 		"EverQuest Trilogy (Disc 2)": [
 			["EverQuest - Gold Edition (Disc 1) (EverQuest Classic)", 0],
-			["EverQuest (Disc 2)", 1]
+			["Wujin De Renwu (Disc 2)", 1]
 		],
 		"EverQuest Trilogy (Disc 1) (Special Edition)": [
 			["EverQuest - Gold Edition (Disc 1) (EverQuest Classic)", 0]
@@ -2474,6 +2582,9 @@
 		],
 		"Evolva": [
 			["CD-Action 05-2002 (73) (Disc 1)", 1]
+		],
+		"Excessive Speed": [
+			["Ne Tormozi!", 1]
 		],
 		"Expendable": [
 			["Vozmeshhenie ushherba", 1]
@@ -2520,6 +2631,7 @@
 			["Fallout Trilogy", 0],
 			["Fallout Collection", 0],
 			["Fallout", 2],
+			["Fallout - Tuumasojajaergne Rollimaeng", 2],
 			["Fallout (9A6EFB7C)", 3]
 		],
 		"Fallout 2": [
@@ -2925,6 +3037,7 @@
 			["Gothic Universe (Gothic II Gold)", 0],
 			["Gothic II Gold", 0],
 			["Gothic II - Gold Edition", 0],
+			["Gothic II - Gold Edition (Disc 1)", 0],
 			["Gothic II (Disc 1) (Play Disc)", 1],
 			["Gothic II (Disc 1) (Game Disc)", 1],
 			["Gothic II (Spiel CD)", 2],
@@ -2935,6 +3048,7 @@
 			["Gothic Universe (Gothic II Gold)", 0],
 			["Gothic II Gold", 0],
 			["Gothic II - Gold Edition", 0],
+			["Gothic II - Gold Edition (Disc 2)", 0],
 			["Gothic II (Installations CD 1)", 2]
 		],
 		"Gothic II (Disc 3)": [
@@ -2942,7 +3056,14 @@
 			["Gothic Universe (Gothic II Gold)", 0],
 			["Gothic II Gold", 0],
 			["Gothic II - Gold Edition", 0],
+			["Gothic II - Gold Edition (Disc 3)", 0],
 			["Gothic II (Installations CD 2)", 2]
+		],
+		"Gothic II - Gold Edition (Disc 4)": [
+			["Gothic Universe (Disc 2)", 0],
+			["Gothic Universe (Gothic II Gold)", 0],
+			["Gothic II Gold", 0],
+			["Gothic II - Gold Edition", 0]
 		],
 		"Gothic Universe (Disc 1)": [
 			["Gothic Universe (Gothic I & Online Handbuecher)", 1]
@@ -2986,19 +3107,34 @@
 		"Grand Theft Auto III (Play)": [
 			["Grand Theft Auto Trylogia", 0]
 		],
-		"Grandia II (Install Disc)": [
-			["Grandia II (Disc 1) (Dysk Instalacyjny)", 1],
-			["Grandia II (Disc 1) (Install Disc)", 1]
+		"Grandia II (Disc 1) (Setup 1)": [
+			["Grandia II (Install Disc)", 0],
+			["Grandia II (Disc 1) (Dysk Instalacyjny)", 0],
+			["Grandia II (Disc 1) (Install Disc)", 0]
 		],
-		"Grandia II (Play Disc)": [
-			["Grandia II (Disc 2) (Gra)", 1],
-			["Grandia II (Disc 2) (Play Disc)", 1],
-			["Grandia II (Disc 2)", 1]
+		"Grandia II (Disc 2) (Setup 2)": [
+			["Grandia II (Install Disc)", 0],
+			["Grandia II (Disc 1) (Dysk Instalacyjny)", 0],
+			["Grandia II (Disc 1) (Install Disc)", 0]
+		],
+		"Grandia II (Disc 3) (Data CD 1)": [
+			["Grandia II (Play Disc)", 0],
+			["Grandia II (Disc 2)", 0],
+			["Grandia II (Disc 2) (Play Disc)", 0],
+			["Grandia II (Disc 2) (Gra)", 0]
+		],
+		"Grandia II (Disc 4) (Data CD 2)": [
+			["Grandia II (Play Disc)", 0],
+			["Grandia II (Disc 2)", 0],
+			["Grandia II (Disc 2) (Play Disc)", 0],
+			["Grandia II (Disc 2) (Gra)", 0]
 		],
 		"Great Battles of Alexander, The": [
 			["Alexander der Grosse - Die grossen Schlachten der Antike", 1]
 		],
 		"Great Series Vol. 20 - Rockman Dash - Hagane no Boukenshin": [
+			["Rockman Gangtie Zhi Xin", 1],
+			["Rockman Weiji", 1],
 			["Rockman Dash - Hagane no Boukenshin", 2]
 		],
 		"Gruntz": [
@@ -3294,10 +3430,12 @@
 		],
 		"Hobbit, The - The Prelude to the Lord of the Rings (Disc 1)": [
 			["Hobbit, Der (Disc 1)", 1],
+			["Hobbit, El - El Preludio de El Senor de los Anillos (Disc 1)", 1],
 			["Hobbit, The - Reuangraao Anbpen Teemaa kong the Lord of the Rings (Disc 1)", 1]
 		],
 		"Hobbit, The - The Prelude to the Lord of the Rings (Disc 2)": [
 			["Hobbit, Der (Disc 2)", 1],
+			["Hobbit, El - El Preludio de El Senor de los Anillos (Disc 2)", 1],
 			["Hobbit, The - Reuangraao Anbpen Teemaa kong the Lord of the Rings (Disc 1)", 2]
 		],
 		"Hogs of War - Nati per Soffritto": [
@@ -3311,6 +3449,12 @@
 		],
 		"Hotel Giant": [
 			["Hotel Gigant", 1]
+		],
+		"House of the Dead, The": [
+			["Siwang Zhi Wu", 1]
+		],
+		"House of the Dead 2, The": [
+			["Siwang Zhi Wu 2", 1]
 		],
 		"House of the Dead III, The": [
 			["House of the Dead 3, The", 1]
@@ -3329,7 +3473,7 @@
 		],
 		"I Spy Spooky Mansion": [
 			["I Spy Spooky Mansion Deluxe", 0],
-			["Iskatel' v Dome s Prividenijami", 1]
+			["Iskatel' v dome s privideniyami", 1]
 		],
 		"Ian Livingstone's Deathtrap Dungeon": [
 			["PC Player Weihnachten 13-2000 B", 2]
@@ -3338,12 +3482,14 @@
 			["Icewind Dale - Enhanced Edition", 0],
 			["Saga Icewind Dale", 0],
 			["Icewind Dale", 0],
+			["Bingfenggu (Disc 1)", 1],
 			["Bingfeng Zhi Gu (Disc 1)", 1]
 		],
 		"Icewind Dale (Disc 2)": [
 			["Icewind Dale - Enhanced Edition", 0],
 			["Saga Icewind Dale", 0],
 			["Icewind Dale", 0],
+			["Bingfenggu (Disc 2)", 1],
 			["Bingfeng Zhi Gu (Disc 2)", 1]
 		],
 		"Icewind Dale (Bonus Material)": [
@@ -3355,6 +3501,7 @@
 			["Icewind Dale - Enhanced Edition", 0],
 			["Saga Icewind Dale", 0],
 			["Icewind Dale - Herz des Winters", 1],
+			["Bingfenggu - Handong Zhi Xin", 1],
 			["Bingfeng Zhi Gu - Handong Zhi Xin", 1]
 		],
 		"Icewind Dale II (Disc 1)": [
@@ -3371,10 +3518,10 @@
 		],
 		"IL-2 Sturmovik - Forgotten Battles (Disc 1)": [
 			["IL-2 Sturmovik - Zabytye srazhenija (Disc 1) (53233E34)", 1],
-			["IL-2 Sturmovik - Zabytye srazhenija (Disc 1)", 1]
+			["IL-2 Sturmovik - Zabytye srazheniya (Disc 1)", 1]
 		],
 		"IL-2 Sturmovik - Forgotten Battles (Disc 2)": [
-			["IL-2 Sturmovik - Zabytye srazhenija (Disc 2)", 1],
+			["IL-2 Sturmovik - Zabytye srazheniya (Disc 2)", 1],
 			["IL-2 Sturmovik - Zabytye srazhenija (Disc 2) (CE9B9CC3)", 2]
 		],
 		"iM1A2 Abrams - America's Main Battle Tank": [
@@ -3410,19 +3557,19 @@
 			["Revolution - 25th Anniversary Collection (Disc 1) (Revolution Games 1992 - 2010)", 0],
 			["A Sangue Freddo (Disc 1)", 1],
 			["Cold Blood (Disc 1)", 1],
-			["Ne Znaja Straha (Disc 1)", 1]
+			["Ne znaya straxa (Disc 1)", 1]
 		],
 		"In Cold Blood (Disc 2)": [
 			["Revolution - 25th Anniversary Collection (Disc 1) (Revolution Games 1992 - 2010)", 0],
 			["A Sangue Freddo (Disc 2)", 1],
 			["Cold Blood (Disc 2)", 1],
-			["Ne Znaja Straha (Disc 2)", 1]
+			["Ne znaya straxa (Disc 2)", 1]
 		],
 		"In Cold Blood (Disc 3)": [
 			["Revolution - 25th Anniversary Collection (Disc 1) (Revolution Games 1992 - 2010)", 0],
 			["A Sangue Freddo (Disc 3)", 1],
 			["Cold Blood (Disc 3)", 1],
-			["Ne Znaja Straha (Disc 3)", 1]
+			["Ne znaya straxa (Disc 3)", 1]
 		],
 		"Incubation - Battle Isle Phase Four": [
 			["Incubation - Battle Isle Faza Czwarta", 1],
@@ -3516,7 +3663,8 @@
 		"Jack Orlando - A Cinematic Adventure": [
 			["Jack Orlando - A Cinematic Adventure - Director's Cut", 0]
 		],
-		"Jagged Alliance - Kampf um Metavira": [
+		"Jagged Alliance": [
+			["Jagged Alliance - Kampf um Metavira", 1],
 			["Bestseller Games Gold-Edition Ausgabe 11", 2]
 		],
 		"Jagged Alliance 2 (Disc 1) (Install Disk)": [
@@ -3530,7 +3678,7 @@
 			["Jagged Alliance 2 (Disc 2) (Play-CD)", 1]
 		],
 		"Jagged Alliance 2 - Unfinished Business": [
-			["Jagged Alliance 2 - Vozvrashchenie v Arul'ko", 1],
+			["Jagged Alliance 2 - Vozvrashhenie v Arul'ko", 1],
 			["Jagged Alliance 2.5 - Unfinished Business (Dysk Dodatkowy)", 1],
 			["Jagged Alliance 2.5 - Unfinished Business", 1]
 		],
@@ -3572,6 +3720,12 @@
 		],
 		"Jane's Combat Simulations - USNF '97": [
 			["Jane's Combat Simulations - Fighters Anthology (Disc 1)", 0]
+		],
+		"Jane's Combat Simulations - USNF Final Mission (Disc 1)": [
+			["Jane's Combat Simulations - USNF Final Mission", 0]
+		],
+		"Jane's Combat Simulations - USNF Final Mission (Disc 2)": [
+			["Jane's Combat Simulations - USNF Final Mission", 0]
 		],
 		"JAST USA Memorial Collection": [
 			["JAST USA Memorial Collection Special Edition", 0]
@@ -3649,8 +3803,13 @@
 		"K. Hawk - Survival Instinct (Game Disk)": [
 			["K.Hawk - Survival Instinct", 1]
 		],
-		"Kabus 22": [
-			["Fearzone - Strefa 22", 1]
+		"Kabus 22 (Disc 1)": [
+			["Kabus 22", 0],
+			["Fearzone - Strefa 22", 0]
+		],
+		"Kabus 22 (Disc 2)": [
+			["Kabus 22", 0],
+			["Fearzone - Strefa 22", 0]
 		],
 		"Kellogg's Football Tigers (2D6F5298)": [
 			["Kellogg's Football Tigers (0EC41D4B)", 2]
@@ -3659,13 +3818,14 @@
 			["Bestseller Games Ausgabe 28", 1]
 		],
 		"King of the Road": [
-			["Dal'nobojjshhiki-2", 1]
+			["Dal'nobojshhiki-2", 1]
 		],
 		"King's Quest - Collector's Edition (Disc 1)": [
 			["Roberta Williams Anthology, The (Disc 1)", 0]
 		],
 		"King's Quest - Collector's Edition (Disc 2)": [
-			["Roberta Williams Anthology, The (Disc 2)", 0]
+			["Roberta Williams Anthology, The (Disc 2)", 0],
+			["King's Quest Collection Series (Disc 2)", 1]
 		],
 		"King's Quest Collection (Disc 1)": [
 			["Roberta Williams Anthology, The (Disc 1)", 0]
@@ -3797,7 +3957,8 @@
 		],
 		"LEGO Island": [
 			["Isola LEGO", 1],
-			["LEGO Insel", 1]
+			["LEGO Insel", 1],
+			["LEGO Island no Daibouken", 1]
 		],
 		"LEGO Island 2 - The Brickster's Revenge": [
 			["LEGO Eiland 2 - De Wraak van Dondersteen", 1],
@@ -3985,6 +4146,7 @@
 			["Lords of the Realm II Deluxe", 0]
 		],
 		"Lost Files of Sherlock Holmes, The - Case of the Rose Tattoo": [
+			["Holmes Tan'an 2 - Meigui Wenshen", 1],
 			["Ungeloesten Faelle von Sherlock Holmes, Die - Das Geheimnis der taetowierten Rose", 1]
 		],
 		"Lost in Time": [
@@ -4065,7 +4227,7 @@
 		"Mage Knight - Apocalypse (Disc 6)": [
 			["Mage Knight - Apocalypse", 0]
 		],
-		"Magic & Mayhem": [
+		"Magic & Mayhem - The Art of Magic": [
 			["Mana - Der Weg der schwarzen Macht", 1]
 		],
 		"Magic - The Gathering": [
@@ -4217,10 +4379,12 @@
 			["Medal of Honor - Warfighter (Disc 2)", 1]
 		],
 		"Medieval - Total War (Disc 1)": [
-			["Medieval - Total War - The Complete Edition", 0]
+			["Medieval - Total War - The Complete Edition", 0],
+			["Medieval - Total War", 0]
 		],
 		"Medieval - Total War (Disc 2)": [
-			["Medieval - Total War - The Complete Edition", 0]
+			["Medieval - Total War - The Complete Edition", 0],
+			["Medieval - Total War", 0]
 		],
 		"Medieval - Total War - Viking Invasion Expansion Pack": [
 			["Medieval - Total War - The Complete Edition", 0]
@@ -4320,7 +4484,8 @@
 			["Chernyj Oazis (Disc 1)", 1]
 		],
 		"Midnight Nowhere (Disc 2)": [
-			["Chernyj Oazis (Disc 2)", 1]
+			["Chyornyj oazis (Disc 2)", 1]
+
 		],
 		"Might and Magic - Clouds of Xeen": [
 			["Ultimate Might and Magic Archives, The", 0],
@@ -4341,6 +4506,7 @@
 			["Swiat Gier Komputerowych 10-01 (Disc 1)", 1]
 		],
 		"Might and Magic VI - The Mandate of Heaven (Disc 2) (Play)": [
+			["Might and Magic VI - The Mandate of Heaven (Gioco)", 1],
 			["Mofamen VI - Tiantang Zhi Ling (Disc 2)", 1],
 			["Swiat Gier Komputerowych 10-01 (Disc 2)", 1]
 		],
@@ -4349,6 +4515,12 @@
 		],
 		"Might and Magic VII - For Blood and Honor (Disc 2) (Play)": [
 			["Might and Magic VII - For Blood and Honor (Disc 2)", 1]
+		],
+		"Might and Magic VIII - Day of the Destroyer (Disc 1) (Install)": [
+			["Might and Magic VIII - Day of the Destroyer (Disc 1)", 1]
+		],
+		"Might and Magic VIII - Day of the Destroyer (Disc 2) (Play)": [
+			["Might and Magic VIII - Day of the Destroyer (Disc 2)", 1]
 		],
 		"Minecraft - Story Mode - A Telltale Games Series": [
 			["Minecraft - Story Mode - A Telltale Games Series - The Complete Adventure", 0]
@@ -4371,6 +4543,18 @@
 		"Mods and Maps - More than 1000 Maps for Counter-Strike (Disc 2)": [
 			["Mods and Maps - More than 1000 Maps for Counter-Strike", 0]
 		],
+		"Moment of Silence, The (Disc 1)": [
+			["Moment of Silence, The", 0]
+		],
+		"Moment of Silence, The (Disc 2)": [
+			["Moment of Silence, The", 0]
+		],
+		"Moment of Silence, The (Disc 3)": [
+			["Moment of Silence, The", 0]
+		],
+		"Moment of Silence, The (Disc 4)": [
+			["Moment of Silence, The", 0]
+		],
 		"Monaco Grand Prix Racing Simulation 2": [
 			["Racing Simulation 2", 1]
 		],
@@ -4388,6 +4572,9 @@
 		],
 		"Montezuma's Return!": [
 			["Mystery Island - Der Fluch der Azteken", 1]
+		],
+		"Moon Tycoon": [
+			["Lunnyj magnat", 1]
 		],
 		"Mortal Kombat II": [
 			["Mortal Kombat & Mortal Kombat II", 0]
@@ -4433,7 +4620,8 @@
 			["Myst l'Apogee", 1]
 		],
 		"Myst III - Exile (Disc 1)": [
-			["Myst III - Exile", 0]
+			["Myst III - Exile", 0],
+			["Shenmidao III - Fangzhu (Disc 1)", 1]
 		],
 		"Myst III - Exile (Disc 2)": [
 			["Myst III - Exile", 0]
@@ -4445,7 +4633,8 @@
 			["Myst III - Exile", 0]
 		],
 		"Myst III - Exile (Behind the Scenes CD)": [
-			["Myst III - Exile", 0]
+			["Myst III - Exile", 0],
+			["Shenmidao III - Fangzhu (Youxi Zhizuo Neimu)", 1]
 		],
 		"Myst IV - Revelation (Disc 1)": [
 			["Myst IV - Revelation", 0]
@@ -4476,7 +4665,7 @@
 			["N.I.C.E. 2 - King Size", 0]
 		],
 		"Nancy Drew - Curse of Blackmoor Manor": [
-			["Nancy Drew - Prokljat'e Pomest'ja Blackmoor", 1]
+			["Nancy Drew - Proklyat'e pomest'ya Ble'kmur", 1]
 		],
 		"NASCAR Racing - 2002 Season": [
 			["Bravo ScreenFun 1-2004", 1]
@@ -4587,13 +4776,56 @@
 			["Neverwinter Nights - Der Schatten von Undernzit", 1],
 			["PC Games DVD 02-2007 (Disc 2) (Video Bereich)", 2]
 		],
-		"Neverwinter Nights 2 (Limited Edition)": [
+		"Neverwinter Nights 2 (Disc 1)": [
 			["Neverwinter Nights Complete (Disc 1)", 0],
 			["Neverwinter Nights 2 (Lawful Good)", 0],
-			["Neverwinter Nights 2", 2]
+			["Neverwinter Nights 2 (Limited Edition)", 0],
+			["Neverwinter Nights 2", 0]
+		],
+		"Neverwinter Nights 2 (Disc 2)": [
+			["Neverwinter Nights Complete (Disc 1)", 0],
+			["Neverwinter Nights 2 (Lawful Good)", 0],
+			["Neverwinter Nights 2 (Limited Edition)", 0],
+			["Neverwinter Nights 2", 0]
+		],
+		"Neverwinter Nights 2 (Disc 3)": [
+			["Neverwinter Nights Complete (Disc 1)", 0],
+			["Neverwinter Nights 2 (Lawful Good)", 0],
+			["Neverwinter Nights 2 (Limited Edition)", 0],
+			["Neverwinter Nights 2", 0]
+		],
+		"Neverwinter Nights 2 (Disc 4)": [
+			["Neverwinter Nights Complete (Disc 1)", 0],
+			["Neverwinter Nights 2 (Lawful Good)", 0],
+			["Neverwinter Nights 2 (Limited Edition)", 0],
+			["Neverwinter Nights 2", 0]
+		],
+		"Neverwinter Nights 2 (Disc 5)": [
+			["Neverwinter Nights Complete (Disc 1)", 0],
+			["Neverwinter Nights 2 (Lawful Good)", 0],
+			["Neverwinter Nights 2 (Limited Edition)", 0],
+			["Neverwinter Nights 2", 0]
+		],
+		"Neverwinter Nights 2 (Disc 6)": [
+			["Neverwinter Nights Complete (Disc 1)", 0],
+			["Neverwinter Nights 2 (Lawful Good)", 0],
+			["Neverwinter Nights 2 (Limited Edition)", 0],
+			["Neverwinter Nights 2", 0]
+		],
+		"Neverwinter Nights 2 (Disc 7)": [
+			["Neverwinter Nights Complete (Disc 1)", 0],
+			["Neverwinter Nights 2 (Lawful Good)", 0],
+			["Neverwinter Nights 2 (Limited Edition)", 0],
+			["Neverwinter Nights 2", 0]
 		],
 		"Neverwinter Nights 2 - Mask of the Betrayer": [
 			["Neverwinter Nights Complete (Disc 1)", 0]
+		],
+		"New Adventures of the Time Machine, The (Disc 1)": [
+			["As Novas Aventuras da Maquina do Tempo (Disc 1)", 1]
+		],
+		"New Adventures of the Time Machine, The (Disc 2)": [
+			["As Novas Aventuras da Maquina do Tempo (Disc 2)", 1]
 		],
 		"New World Order": [
 			["New World Order (Deluxe Edition)", 0]
@@ -4628,6 +4860,21 @@
 		"NYR - New York Race": [
 			["Fuenfte Element, Das - New York Race", 1],
 			["Pogonja za 5 Jelementom", 1]
+		],
+		"ObsCure (Disc 1)": [
+			["ObsCure", 0]
+		],
+		"ObsCure (Disc 2)": [
+			["ObsCure", 0]
+		],
+		"ObsCure (Disc 3)": [
+			["ObsCure", 0]
+		],
+		"ObsCure (Disc 4)": [
+			["ObsCure", 0]
+		],
+		"ObsCure (Disc 5)": [
+			["ObsCure", 0]
 		],
 		"Obsidian (Disc 1)": [
 			["Obsidian - Alla Frontiera della Logica (Disc 1)", 1]
@@ -4748,7 +4995,8 @@
 		],
 		"Painkiller": [
 			["Painkiller - Complete Collection (Disc 1)", 0],
-			["Painkiller - Black Edition", 0]
+			["Painkiller - Black Edition", 0],
+			["Painkiller - Verega Ristitud", 1]
 		],
 		"Painkiller - Battle out of Hell (Disc 1)": [
 			["Painkiller - Complete Collection (Disc 1)", 0],
@@ -4898,6 +5146,9 @@
 		"Physicus - Save the World with Science! (Disc 2)": [
 			["Physikus (Disc 2)", 1]
 		],
+		"Pinball Construction Kit": [
+			["Pinball Construction Kit (Special Edition)", 0]
+		],
 		"Pinguin Kelvin": [
 			["Penguin Kelvin", 1]
 		],
@@ -4972,7 +5223,11 @@
 		"Political Tycoon": [
 			["Economic War", 1]
 		],
+		"Pool of Radiance - Ruins of Myth Drannor (Disc 1)": [
+			["Guangmang Zhi Chi - Jian Yu Mofa De Chuanshuo (Disc 1)", 1]
+		],
 		"Populous - The Beginning": [
+			["Shangdi", 1],
 			["Shangdi Ye Fengkuang", 1],
 			["PC Action 11-98", 2]
 		],
@@ -5202,7 +5457,8 @@
 		"Railroad Tycoon II - The Second Century": [
 			["Railroad Tycoon II - Platinum", 0],
 			["Railroad Tycoon II - Gold Edition", 0],
-			["Railroad Tycoon II - The Next Millennium", 1]
+			["Railroad Tycoon II - The Next Millennium", 1],
+			["Tielu Daheng II - Ershiyi Shiji", 1]
 		],
 		"Rally Trophy": [
 			["Komputer Swiat Gry 10-2004 (Disc 2)", 1]
@@ -5458,27 +5714,32 @@
 		"Riven - The Sequel to Myst (Disc 1)": [
 			["Riven - The Sequel to Myst", 0],
 			["Riven - Il Seguito di Myst (Disc 1)", 1],
-			["Riven - La Suite de Myst (Disc 1)", 1]
+			["Riven - La Suite de Myst (Disc 1)", 1],
+			["Shenmidao II - Xingkong Duanceng (Disc 1)", 1]
 		],
 		"Riven - The Sequel to Myst (Disc 2)": [
 			["Riven - The Sequel to Myst", 0],
 			["Riven - Il Seguito di Myst (Disc 2)", 1],
-			["Riven - La Suite de Myst (Disc 2)", 1]
+			["Riven - La Suite de Myst (Disc 2)", 1],
+			["Shenmidao II - Xingkong Duanceng (Disc 2)", 1]
 		],
 		"Riven - The Sequel to Myst (Disc 3)": [
 			["Riven - The Sequel to Myst", 0],
 			["Riven - Il Seguito di Myst (Disc 3)", 1],
-			["Riven - La Suite de Myst (Disc 3)", 1]
+			["Riven - La Suite de Myst (Disc 3)", 1],
+			["Shenmidao II - Xingkong Duanceng (Disc 3)", 1]
 		],
 		"Riven - The Sequel to Myst (Disc 4)": [
 			["Riven - The Sequel to Myst", 0],
 			["Riven - Il Seguito di Myst (Disc 4)", 1],
-			["Riven - La Suite de Myst (Disc 4)", 1]
+			["Riven - La Suite de Myst (Disc 4)", 1],
+			["Shenmidao II - Xingkong Duanceng (Disc 4)", 1]
 		],
 		"Riven - The Sequel to Myst (Disc 5)": [
 			["Riven - The Sequel to Myst", 0],
 			["Riven - Il Seguito di Myst (Disc 5)", 1],
-			["Riven - La Suite de Myst (Disc 5)", 1]
+			["Riven - La Suite de Myst (Disc 5)", 1],
+			["Shenmidao II - Xingkong Duanceng (Disc 5)", 1]
 		],
 		"Road & Track Presents - The Need for Speed": [
 			["Road & Track Presents - The Need for Speed SE", 0],
@@ -5544,13 +5805,26 @@
 		"RollerCoaster World (F8E26303)": [
 			["RollerCoaster World", 2]
 		],
+		"Rome - Total War - Alexander": [
+			["Rome - Total War Anthology", 0]
+		],
+		"Rome - Total War - Barbarian Invasion": [
+			["Rome - Total War Anthology", 0],
+			["Rome - Total War - Gold Edition", 0]
+		],
 		"Rome - Total War (Disc 1)": [
+			["Rome - Total War Anthology", 0],
+			["Rome - Total War - Gold Edition", 0],
 			["Rome - Total War", 0]
 		],
 		"Rome - Total War (Disc 2)": [
+			["Rome - Total War Anthology", 0],
+			["Rome - Total War - Gold Edition", 0],
 			["Rome - Total War", 0]
 		],
 		"Rome - Total War (Disc 3)": [
+			["Rome - Total War Anthology", 0],
+			["Rome - Total War - Gold Edition", 0],
 			["Rome - Total War", 0]
 		],
 		"Runaway - A Road Adventure (Disc 1)": [
@@ -5598,6 +5872,7 @@
 			["Sacred Gold", 0],
 			["Sacred - Edizione Oro", 0],
 			["Sacred", 0],
+			["Sacred Gold (Disc 1)", 0],
 			["Sacred - La leggenda dell'Arma Sacra (Disc 1)", 1],
 			["Sacred (Disc 1) (A6933ECA)", 2]
 		],
@@ -5605,8 +5880,14 @@
 			["Sacred Gold", 0],
 			["Sacred - Edizione Oro", 0],
 			["Sacred", 0],
+			["Sacred Gold (Disc 2)", 0],
 			["Sacred - La leggenda dell'Arma Sacra (Disc 2)", 1],
 			["Sacred (Disc 2) (C86B2C4D)", 2]
+		],
+		"Sacred Gold (Disc 3)": [
+			["Sacred Gold", 0],
+			["Sacred - Edizione Oro", 0],
+			["Sacred", 0]
 		],
 		"Sacred - Underworld (Disc 1)": [
 			["Sacred Gold", 0],
@@ -5638,6 +5919,9 @@
 		],
 		"Sacred Gold": [
 			["Sacred - Edizione Oro", 1]
+		],
+		"Sacrifice": [
+			["Sacrifice - Kamigami no Hokou", 1]
 		],
 		"Saga - Rage of the Vikings": [
 			["Saga - Siegeszug der Wikinger", 1]
@@ -5672,8 +5956,12 @@
 		],
 		"Scratches": [
 			["Scratches - Director's Cut", 0],
+			["Scratches - Director's Cut (Disc 1)", 0],
 			["Scratches - Dans l'Antre de la Peur", 1],
 			["Scratches - Graffi Mortali", 1]
+		],
+		"Scratches - Director's Cut (Disc 2)": [
+			["Scratches - Director's Cut", 0]
 		],
 		"Screamer 4x4": [
 			["CD-Action 08-2002 (76) (Disc 2)", 2]
@@ -5699,6 +5987,15 @@
 		"Secret of Monkey Island, The": [
 			["Monkey Island - Special Edition Collection", 0],
 			["Bestseller Games Ausgabe 2", 1]
+		],
+		"Secrets of the Ark - A Broken Sword Game (Disc 1)": [
+			["Broken Sword - The Angel of Death", 0]
+		],
+		"Secrets of the Ark - A Broken Sword Game (Disc 2)": [
+			["Broken Sword - The Angel of Death", 0]
+		],
+		"Secrets of the Ark - A Broken Sword Game (Disc 3)": [
+			["Broken Sword - The Angel of Death", 0]
 		],
 		"Sega Rally 2 (Disc 1)": [
 			["Sega Rally 2 (Install Disc)", 1],
@@ -5729,13 +6026,13 @@
 		"Serious Sam - The First Encounter": [
 			["Serious Sam Gold (Disc 1)", 0],
 			["Serious Sam - The First Encounter (Gold Edition)", 0],
-			["Krutoj Sjem - Pervaja krov'", 1],
+			["Krutoj Se'm - Pervaya krov", 1],
 			["Play 1-2007 (Disc 1)", 1]
 		],
 		"Serious Sam - The Second Encounter": [
 			["Serious Sam - The Second Encounter (Gold Edition)", 0],
 			["Serious Sam Gold (Disc 2)", 0],
-			["Krutoj Sjem - Vtoroe prishestvie", 1]
+			["Krutoj Se'm - Vtoroe prishestvie", 1]
 		],
 		"Serious Sam II (Disc 1)": [
 			["Serious Sam II", 0]
@@ -6036,8 +6333,17 @@
 		"Silent Hunter": [
 			["Silent Hunter - Commander's Edition", 0]
 		],
+		"Silent Hunter II": [
+			["Liesha Qianhang II", 1]
+		],
 		"Silkolene Honda Motocross GP": [
 			["Swiat Gier Komputerowych 7-02 (Disc 2)", 1]
+		],
+		"Silver (Disc 1)": [
+			["Silver (Game Disk)", 1]
+		],
+		"Silver (Disc 2)": [
+			["Silver (Install Disk)", 1]
 		],
 		"SimCity 2000 - CD Collection (Windows 95)": [
 			["SimCity 2000 Network Edition", 0],
@@ -6069,7 +6375,7 @@
 			["Bestseller Games Ausgabe 14", 1]
 		],
 		"SimCoaster": [
-			["Theme Park Inc.", 1],
+			["Zhuti Gongyuan - Gongsi", 1],
 			["Theme Park Manager", 1]
 		],
 		"SimFarm - SimCity's Country Cousin": [
@@ -6284,10 +6590,12 @@
 			["Sonic Riders", 0]
 		],
 		"Soulbringer (Disc 1)": [
-			["Soulbringer", 0]
+			["Soulbringer", 0],
+			["Linghun Shizhe (Disc 1)", 1]
 		],
 		"Soulbringer (Disc 2)": [
-			["Soulbringer", 0]
+			["Soulbringer", 0],
+			["Linghun Shizhe (Disc 2)", 1]
 		],
 		"Space Ace": [
 			["Space Ace CD-ROM", 2]
@@ -6352,12 +6660,14 @@
 		"SpellForce - The Order of Dawn (Disc 1) (Install-Play CD)": [
 			["SpellForce - Universe (Disc 1)", 0],
 			["SpellForce", 0],
-			["SpellForce - Zakon Switu - Zlota Edycja", 0]
+			["SpellForce - Zakon Switu - Zlota Edycja", 0],
+			["SpellForce - The Order of Dawn (Disc 1)", 1]
 		],
 		"SpellForce - The Order of Dawn (Disc 2) (Install CD)": [
 			["SpellForce - Universe (Disc 1)", 0],
 			["SpellForce", 0],
-			["SpellForce - Zakon Switu - Zlota Edycja", 0]
+			["SpellForce - Zakon Switu - Zlota Edycja", 0],
+			["SpellForce - The Order of Dawn (Disc 2)", 1]
 		],
 		"SpellForce 2 - Shadow Wars": [
 			["SpellForce - Universe (Disc 1)", 0],
@@ -6368,6 +6678,9 @@
 		],
 		"Split-Second": [
 			["Split-Second - Velocity", 1]
+		],
+		"Spore": [
+			["Spore (Galactic Edition)", 0]
 		],
 		"Spy Fox in Dry Cereal": [
 			["Agent Fuchs in Das Milchkartell", 1],
@@ -6697,6 +7010,9 @@
 		"Syndicate": [
 			["Syndicate Plus", 0]
 		],
+		"Taikou Risshiden III": [
+			["Taige Lizhizhuan III", 1]
+		],
 		"Talonsoft's Eastern Front - Der Russland-Feldzug": [
 			["East Front", 1]
 		],
@@ -6724,9 +7040,18 @@
 		"Terrorist Takedown - Covert Operations": [
 			["Terrorist Takedown - Titkos hadmuveletek", 1]
 		],
+		"Terry Pratchett's Discworld": [
+			["Discworld", 1]
+		],
 		"Thandor - The Invasion": [
 			["Thandor - Die Invasion", 1],
 			["Vtorzhenie - Vyzhzhennaja zemlja", 1]
+		],
+		"Theocracy (Disc 1)": [
+			["Theocracy", 0]
+		],
+		"Theocracy (Disc 2)": [
+			["Theocracy", 0]
 		],
 		"Thief - The Dark Project": [
 			["Thief Gold (Disc 1) (Installation)", 0],
@@ -6767,10 +7092,14 @@
 			["Thrillville - Off the Rails", 0]
 		],
 		"Throne of Darkness (Install Disc)": [
-			["Throne of Darkness (Disc 1)", 1]
+			["Sem' Samuraev (Disc 1)", 1],
+			["Throne of Darkness (Disc 1)", 1],
+			["Throne of Darkness (Disc 1) (Disc di Installazione)", 1]
 		],
 		"Throne of Darkness (Play Disc)": [
-			["Throne of Darkness (Disc 2)", 1]
+			["Sem' Samuraev (Disc 2)", 1],
+			["Throne of Darkness (Disc 2)", 1],
+			["Throne of Darkness (Disc 2) (Disc di Gioco)", 1]
 		],
 		"Tiger Woods PGA Tour 2000 (Disc 1)": [
 			["Tiger Woods PGA Tour 2000", 0]
@@ -6784,6 +7113,15 @@
 		],
 		"Tiger Woods PGA Tour 2001 (Disc 2) (Course Architect)": [
 			["Tiger Woods PGA Tour 2001 (Course Architect)", 1]
+		],
+		"Tiger Woods PGA Tour 2003 (Courses Disc)": [
+			["Tiger Woods PGA Tour 2003 (Disc 3) (Courses Disc)", 1]
+		],
+		"Tiger Woods PGA Tour 2003 (Installation Disc)": [
+			["Tiger Woods PGA Tour 2003 (Disc 1) (Install Disc)", 1]
+		],
+		"Tiger Woods PGA Tour 2003 (Media Disc)": [
+			["Tiger Woods PGA Tour 2003 (Disc 2) (Media Disc)", 1]
 		],
 		"Titanic - Adventure Out of Time (Disc 1)": [
 			["Titanic - Avontuur in de Tijd (Disc 1)", 1]
@@ -6884,6 +7222,7 @@
 		],
 		"Tomb Raider - The Last Revelation": [
 			["Click! 09-2004 (Disc 1)", 1],
+			["Tomb Raider - La Revelation Finale", 1],
 			["Tomb Raider IV - The Last Revelation", 1]
 		],
 		"Tomb Raider - The Lost Artifact": [
@@ -6955,6 +7294,9 @@
 			["Total Annihilation - Contre Attaque", 1],
 			["Total Annihilation - Die Core-Offensive", 1]
 		],
+		"Total Mayhem": [
+			["Total Mania", 1]
+		],
 		"Total Victory - Victory or Defeat": [
 			["Total Victory - Sieg oder Niederlage", 1]
 		],
@@ -6972,6 +7314,21 @@
 		],
 		"Total War - Rome II (Disc 3)": [
 			["Total War - Rome II (Disc 3) (Spartan Edition)", 0]
+		],
+		"Total War - Shogun 2 (Disc 1)": [
+			["Total War - Shogun 2 - The Complete Edition (Disc 1) (Total War - Shogun 2)", 0]
+		],
+		"Total War - Shogun 2 (Disc 2)": [
+			["Total War - Shogun 2 - The Complete Edition (Disc 1) (Total War - Shogun 2)", 0]
+		],
+		"Total War - Shogun 2 - Fall of the Samurai (Disc 1)": [
+			["Total War - Shogun 2 - The Complete Edition (Disc 3) (Total War - Shogun 2 - Fall of the Samurai)", 0]
+		],
+		"Total War - Shogun 2 - Fall of the Samurai (Disc 2)": [
+			["Total War - Shogun 2 - The Complete Edition (Disc 3) (Total War - Shogun 2 - Fall of the Samurai)", 0]
+		],
+		"Total War - Shogun 2 - Fall of the Samurai (Disc 3)": [
+			["Total War - Shogun 2 - The Complete Edition (Disc 3) (Total War - Shogun 2 - Fall of the Samurai)", 0]
 		],
 		"Touche-Coule (Disc 1)": [
 			["Battleship - Surface Thunder", 0]
@@ -7082,6 +7439,9 @@
 		"Type da Puyo Puyo": [
 			["Great Series Vol. 31 - Type da Puyo Puyo", 2]
 		],
+		"Typing of the Dead, The": [
+			["Siwang Daziyuan", 1]
+		],
 		"Tzar - The Burden of the Crown": [
 			["Tzar - Die Schlacht um die Krone", 1],
 			["Tzar - Excalibur e il Re Artu", 1],
@@ -7100,6 +7460,12 @@
 		],
 		"Ubik (Disc 2)": [
 			["Swiat Gier Komputerowych 1-02 (Disc 2)", 1]
+		],
+		"UFO - Aftermath (Install CD)": [
+			["UFO - Aftermath (Disc di Installazione)", 1]
+		],
+		"UFO - Aftermath (Play CD)": [
+			["UFO - Aftermath (Disc di Gioco)", 1]
 		],
 		"UFO Trilogy": [
 			["UFO Trylogia", 1]
@@ -7363,6 +7729,9 @@
 		"Virgin Roster": [
 			["Altar' Strasti", 1]
 		],
+		"Virtua Cop 2": [
+			["VR Tejing 2", 1]
+		],
 		"Virtua Fighter 2 (Direct3D)": [
 			["Action Plus 10-2001 (43)", 1],
 			["Virtua Fighter 2", 1]
@@ -7372,6 +7741,9 @@
 			["Ultra 2000 Series Vol. 41 - Dennou Senki - Virtual On - Cyber Troopers", 1]
 		],
 		"Virtual Villagers - A New Home": [
+			["Virtual Villagers Double Pack", 0]
+		],
+		"Virtual Villagers - The Lost Children": [
 			["Virtual Villagers Double Pack", 0]
 		],
 		"Virus - The Game": [
@@ -7514,6 +7886,12 @@
 		"Warhammer Online - Age of Reckoning (Disc 2)": [
 			["Warhammer Online - Vremja vozmezdija (Disc 2)", 1]
 		],
+		"Warlords Battlecry III": [
+			["Zhanshen - Kuangshen Tianwei III", 1]
+		],
+		"Warlords III - Reign of Heroes": [
+			["Zhanshen III - Yingxiong Wangchao", 1]
+		],
 		"Warlords IV - Heroes of Etheria": [
 			["Warlords IV - Bohaterowie Etherii", 1]
 		],
@@ -7540,6 +7918,9 @@
 		],
 		"Whale's Voyage": [
 			["PC Games CD ROM 8-95", 1]
+		],
+		"Where in the World Is Carmen Sandiego Deluxe": [
+			["Where in the World Is Carmen Sandiego Deluxe (Deluxe Edition)", 0]
 		],
 		"Who Wants to Be a Millionaire": [
 			["Vem Vill Bli Miljonaer", 1],
@@ -7675,11 +8056,13 @@
 		],
 		"X2 - The Threat (Disc 1)": [
 			["X - Beyond the Frontier & X-Tension & X2 - The Threat & X3 - Reunion", 0],
-			["X2 - La Minaccia", 0]
+			["X2 - La Minaccia", 0],
+			["X2 - Die Bedrohung (Disc 1) (Installations-CD)", 1]
 		],
 		"X2 - The Threat (Disc 2)": [
 			["X - Beyond the Frontier & X-Tension & X2 - The Threat & X3 - Reunion", 0],
-			["X2 - La Minaccia", 0]
+			["X2 - La Minaccia", 0],
+			["X2 - Die Bedrohung (Disc 2) (Spiel-CD)", 1]
 		],
 		"X3 - Reunion (Disc 1)": [
 			["X3 - Gold Edition (Disc 1) (X3 Reunion 2.5)", 0],

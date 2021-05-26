@@ -4,7 +4,38 @@
 			"Nintendo - Nintendo Entertainment System"
 		],
 		"last updated": "9 April 2021",
-		"minimum version": "0.89"
+		"minimum version": "0.92"
+    },
+
+    "categories": {
+        "Game Genie": {
+            "match": "short",
+            "categories": ["Applications"]
+        },
+        "Nintendo - NTF2 System Cartridge": {
+            "match": "short",
+            "categories": ["Applications"]
+        },
+        "Nomolos - Storming the CATsle (World) (V1.00D) (Aftermarket) (Alt) (Unl)": {
+            "match": "full",
+            "categories": ["Demos"]
+        },
+        "Nomolos - Storming the CATsle (World) (V1.00D) (Aftermarket) (Unl)": {
+            "match": "full",
+            "categories": ["Demos"]
+        },
+        "Pro Action Replay": {
+            "match": "short",
+            "categories": ["Applications"]
+        },
+        "Pro Action Replay (Cart Present)": {
+            "match": "short",
+            "categories": ["Applications"]
+        },
+        "Pro Action Replay (No Cart Present)": {
+            "match": "short",
+            "categories": ["Applications"]
+        }
     },
 
     "overrides": {
@@ -618,8 +649,9 @@
         "Magic of Scheherazade, The": [
             ["Arabian Dream Scheherazade", 1]
         ],
-        "Mahjang Companion": [
-            ["Mahjang Companion (Hacker)", 2]
+        "Mahjang Companion (Hacker) (SA-016 PCB)": [
+            ["Mahjang Companion", 0],
+            ["Mahjang Companion (Hacker) (SA-002 3011 PCB)", 2]
         ],
         "Makai Island": [
             ["Higemaru - Makai-jima - Nanatsu no Shima Daibouken", 1]

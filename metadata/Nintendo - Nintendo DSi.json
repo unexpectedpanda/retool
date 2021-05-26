@@ -8,11 +8,14 @@
 	"Hair Salon (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
 	},
-	"Hidden Photo (Europe)": {
-		"languages": "En"
+	"Hidden Photo (Europe) (En,Fr,Es,It)": {
+		"languages": "En,Fr,Es,It"
 	},
 	"Monster Finder (Japan)": {
 		"languages": "Ja"
+	},
+	"[BIOS] Nintendo DSi ARM7 Boot ROM (World)": {
+		"languages": "En"
 	},
 	"Nintendo DSi XL Demo Video (USA)": {
 		"languages": "En"
@@ -23,8 +26,8 @@
 	"[BIOS] Nintendo Zone Box - NAND (USA) (En,Fr,Es)": {
 		"languages": "En,Fr,Es"
 	},
-	"NOE Movie Player Vol.1 (Europe)": {
-		"languages": "En"
+	"NOE Movie Player Vol.1 (Europe) (En,Fr,De,Es,It)": {
+		"languages": "En,Fr,De,Es,It"
 	},
 	"Picture Perfect Hair Salon (USA) (En,Fr,Es)": {
 		"languages": "En,Fr,Es"
@@ -32,8 +35,8 @@
 	"[BIOS] PWC DSi - NAND (Unknown)": {
 		"languages": "En"
 	},
-	"System - Flaw (Europe)": {
-		"languages": "En"
+	"System - Flaw (Europe) (En,Fr,De,Es,It)": {
+		"languages": "En,Fr,De,Es,It"
 	},
 	"System - Flaw (USA) (En,Fr,Es)": {
 		"languages": "En,Fr,Es"

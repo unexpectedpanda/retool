@@ -3,9 +3,20 @@
         "name": [
 			"Microsoft - MSX"
 		],
-        "last updated": "9 April 2021",
-		"minimum version": "0.89"
+        "last updated": "10 May 2021",
+		"minimum version": "0.92"
     },
+
+    "categories": {
+		"Basic Lessons 1": {
+			"match": "short",
+			"categories": ["Applications"]
+		},
+		"Basic Lessons 2": {
+			"match": "short",
+			"categories": ["Applications"]
+		}
+	},
 
     "renames": {
         "3-D Golf Simulation": [

@@ -93,6 +93,7 @@ def main():
 
         [sg.HorizontalSeparator()],
 
+        generate_checkbox(['Include titles that don\'t have hashes, ROMs, or disks specified'], 50*scale_multiplier, ['Not recommended\n\nBy default, Retool removes these titles from the output dat']),
         generate_checkbox(['Titles ripped from modern platform rereleases replace standard editions'], 50*scale_multiplier, ['Not recommended\n\nThese titles are ripped from modern platforms like Virtual Console,\nand might not work with emulators']),
         generate_checkbox(['Output dat in legacy parent/clone format'], 50*scale_multiplier, ['Not recommended for use with dat managers\n\nUse for the following things:\n\n* CloneRel\n* Manually analyzing parent/clone relationships created by Retool\n* Diffing outputs in order to update clone lists']),
         generate_checkbox(['Disable custom global and system filters'], 50*scale_multiplier, ['User-defined strings that include or exclude\ntitles Retool ordinarily wouldn\'t']),
@@ -481,6 +482,7 @@ def main():
             window['output-folder'].update(os.path.abspath(dict(setting)['output']))
             output_folder = os.path.abspath(dict(setting)['output'])
 
+    if 'emptytitles' in settings.user_config.data['gui settings']: window['checkbox-include-titles-that-dont-have-hashes-roms-or-disks-specified']
     if 'z' in settings.user_config.data['gui settings']: window['checkbox-titles-ripped-from-modern-platform-rereleases-replace-standard-editions'].update(True)
     if 'x' in settings.user_config.data['gui settings']: window['checkbox-output-dat-in-legacy-parent-clone-format'].update(True)
     if 'log' in settings.user_config.data['gui settings']: window['checkbox-also-output-lists-of-what-titles-have-been-kept-and-removed'].update(True)
@@ -607,6 +609,7 @@ def main():
                     values['checkbox-disable-custom-global-and-system-filters'],
                     values['checkbox-also-output-lists-of-what-titles-have-been-kept-and-removed'],
                     values['checkbox-also-output-a-list-of-just-the-1g1r-title-names'],
+                    values['checkbox-include-titles-that-dont-have-hashes-roms-or-disks-specified'],
                     False)
                 retool.main(gui_input)
 
@@ -789,6 +792,8 @@ def main():
                 excludes.append('u')
             if values['checkbox-video'] == True:
                 excludes.append('v')
+            if values['checkbox-include-titles-that-dont-have-hashes-roms-or-disks-specified'] == True:
+                gui_settings.append('emptytitles')
             if values['checkbox-titles-ripped-from-modern-platform-rereleases-replace-standard-editions'] == True:
                 gui_settings.append('z')
             if values['checkbox-output-dat-in-legacy-parent-clone-format'] == True:
@@ -915,12 +920,13 @@ def move_listbox_all_left(window, left_key, right_key):
 
 def generate_checkbox(labels, width, tips=None):
         checkboxes = []
+        single_quote = '\''
 
         for i, label in enumerate(labels):
             if tips == None:
                 checkboxes.append(sg.Checkbox(
                     enable_events=True,
-                    key=f'checkbox-{label.lower().replace(" ", "-").replace("/", "-").replace(",","")}',
+                    key=f'checkbox-{label.lower().replace(" ", "-").replace("/", "-").replace(",","").replace(single_quote,"")}',
                     font=(font, 9),
                     pad=(0,0),
                     size=(width,0.6),
@@ -928,7 +934,7 @@ def generate_checkbox(labels, width, tips=None):
             else:
                 checkboxes.append(sg.Checkbox(
                     enable_events=True,
-                    key=f'checkbox-{label.lower().replace(" ", "-").replace("/", "-").replace(",","")}',
+                    key=f'checkbox-{label.lower().replace(" ", "-").replace("/", "-").replace(",","").replace(single_quote,"")}',
                     font=(font, 9),
                     pad=(0,0),
                     size=(width,0.6),
