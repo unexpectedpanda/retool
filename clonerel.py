@@ -6,9 +6,7 @@
 # There isn't much error checking in here, it's rough and only intended to
 # work for a limited use case.
 
-import ctypes
 import html
-import msvcrt
 import os
 import platform
 import re
@@ -16,8 +14,6 @@ import sys
 import textwrap
 
 from bs4 import BeautifulSoup
-from ctypes import wintypes
-from colorama import init
 from openpyxl import Workbook
 from openpyxl.styles import Font, Alignment, PatternFill
 from openpyxl.utils import cell as Cell
@@ -25,10 +21,10 @@ from openpyxl.utils import cell as Cell
 def main():
 
     # Enable VT100 Escape Sequence for WINDOWS 10 Ver. 1607+
-    if old_windows() != True:
+    if old_windows() != True and sys.platform.startswith('win'):
         enable_vt_mode()
 
-    print(font.bold + '\nClonerel 0.15' + font.end)
+    print(font.bold + '\nClonerel 0.16' + font.end)
     print('-------------')
 
     if len(sys.argv) == 1:
@@ -211,6 +207,11 @@ def enable_vt_mode():
     """ Turns on VT-100 emulation mode for Windows
     https://bugs.python.org/issue30075
     """
+
+    import ctypes
+    import msvcrt
+
+    from ctypes import wintypes
 
     kernel32 = ctypes.WinDLL('kernel32', use_last_error=True)
 

@@ -1,3 +1,11 @@
+# 0.93
+
+- Fixed a crash for Linux users by adding conditionals to the new Windows CLI
+  code.
+- Removed Colorama import accidentally left in when fixing Windows formatting.
+
+
+
 # 0.92
 
 - Retool CLI no longer clears the screen on start. Turns out this was also

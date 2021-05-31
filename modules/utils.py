@@ -1,17 +1,18 @@
-import ctypes
-import msvcrt
 import os
 import platform
 import re
 import sys
 import textwrap
 
-from ctypes import wintypes
-
 def enable_vt_mode():
     """ Turns on VT-100 emulation mode for Windows
     https://bugs.python.org/issue30075
     """
+
+    import ctypes
+    import msvcrt
+
+    from ctypes import wintypes
 
     kernel32 = ctypes.WinDLL('kernel32', use_last_error=True)
 
