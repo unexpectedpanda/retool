@@ -3,7 +3,7 @@
 		"name": [
 			"IBM - PC compatible"
 		],
-		"last updated": "23 May 2021",
+		"last updated": "31 May 2021",
 		"minimum version": "0.89"
 	},
 
@@ -74,11 +74,19 @@
 		"007 - Quantum of Solace": [
 			["007 - Kvant miloserdija", 1]
 		],
+		"18 Wheels of Steel - American Long Haul": [
+			["Complete Collection of 3 Classic Franchises, The (Disc 1)", 0]
+		],
 		"18 Wheels of Steel - Convoy": [
+			["Complete Collection of 3 Classic Franchises, The (Disc 1)", 0],
 			["18 Stal'nyh Koles - Konvoj", 1]
 		],
 		"18 Wheels of Steel - Pedal to the Metal": [
-			["18 stal'nyx kolyos - Pyl' dorog", 1]
+			["Complete Collection of 3 Classic Franchises, The (Disc 1)", 0],
+			["18 Stal'nyx Kolyos - Pyl' dorog", 1]
+		],
+		"18 Stal'nyx Kolyos - Po Dorogam Ameriki": [
+			["Complete Collection of 3 Classic Franchises, The (Disc 1)", 0]
 		],
 		"3-D Ultra Minigolf": [
 			["3-D Ultra Minigolf Deluxe", 0],
@@ -108,13 +116,15 @@
 		"Adventures with Barbie - Ocean Discovery": [
 			["Aventures de Barbie, Les - Chasse au Tresor Sous-Marine CD-ROM", 1]
 		],
-		"Agatha Christie - E Non Ne Rimase Nessuno (Disc 1)": [
+		"Agatha Christie - And Then There Were None (Disc 1)": [
 			["Agatha Christie - Triple Murder Mystery Pack", 0],
-			["Agatha Christie - And Then There Were None", 0]
+			["Agatha Christie - And Then There Were None", 0],
+			["Agatha Christie - E Non Ne Rimase Nessuno (Disc 1)", 1]
 		],
-		"Agatha Christie - E Non Ne Rimase Nessuno (Disc 2)": [
+		"Agatha Christie - And Then There Were None (Disc 2)": [
 			["Agatha Christie - Triple Murder Mystery Pack", 0],
-			["Agatha Christie - And Then There Were None", 0]
+			["Agatha Christie - And Then There Were None", 0],
+			["Agatha Christie - E Non Ne Rimase Nessuno (Disc 2)", 1]
 		],
 		"Agatha Christie - Evil Under the Sun (Disc 1)": [
 			["Agatha Christie - Triple Murder Mystery Pack", 0],
@@ -546,6 +556,9 @@
 			["Aztec Empire (Disc 2)", 1],
 			["Azteken, Die (Disc 2)", 1]
 		],
+		"Aztec - Malediction au Coeur de la Cite d'Or": [
+			["Fluch der Azteken, Der", 1]
+		],
 		"B-17 Flying Fortress - The Mighty 8th": [
 			["Bestseller Games Collection Ausgabe 17", 2]
 		],
@@ -660,6 +673,9 @@
 		],
 		"Batman - Justice Unbalanced": [
 			["Batman - Sprawiedliwosc Ponad Wszystko", 1]
+		],
+		"Battle Arena Toshinden 2": [
+			["Battle Arena Toushinden 2", 1]
 		],
 		"Battle Chess": [
 			["Battle Chess Collection", 0],
@@ -934,7 +950,8 @@
 			["Blitzkrieg Anthology", 0]
 		],
 		"Blitzkrieg 2": [
-			["Blitzkrieg 2 Anthology", 0]
+			["Blitzkrieg 2 Anthology", 0],
+			["Blitzkrieg II", 1]
 		],
 		"Blitzkrieg 2 - Fall of the Reich": [
 			["Blitzkrieg 2 Anthology", 0],
@@ -1496,6 +1513,9 @@
 		"Commandos Complete (Disc 2)": [
 			["Commandos Antologia", 0]
 		],
+		"Companions of Xanth": [
+			["Lost Adventures of Legend, The", 0]
+		],
 		"Company of Heroes": [
 			["Company of Heroes (Game of the Year)", 0]
 		],
@@ -1694,6 +1714,9 @@
 		],
 		"Dark Souls II (Disc 2)": [
 			["Dark Souls II - Scholar of the First Sin (Disc 2)", 0]
+		],
+		"Darwinia": [
+			["Darviniya", 1]
 		],
 		"Daryl F. Gates Police Quest - Open Season": [
 			["Daryl F. Gates' Police Quest Collection - The 4 Most Wanted (Collection Series)", 0],
@@ -2508,6 +2531,9 @@
 		"Eraser Turnabout (Disc 2)": [
 			["Queima de Arquivo (Eraser Turnabout) (Disc 2)", 1]
 		],
+		"Eric the Unready": [
+			["Lost Adventures of Legend, The", 0]
+		],
 		"Escape from Monkey Island (Disc 1)": [
 			["Flucht von Monkey Island (Disc 1)", 1],
 			["Fuga da Monkey Island (Disc 1)", 1],
@@ -2973,8 +2999,14 @@
 			["Gangsters - Crimine Organizzato", 1],
 			["Gangsters - Organisiertes Verbrechen", 1]
 		],
+		"Gateway II - Homeworld": [
+			["Lost Adventures of Legend, The", 0]
+		],
 		"Gene Machine": [
 			["PC Player Plus 2-99 B", 2]
+		],
+		"Gene Troopers": [
+			["Gene Troopers - Sovershennye Ubijcy", 1]
 		],
 		"Get Medieval": [
 			["Komputer Swiat Gry 5-6-2000", 1]
@@ -3253,6 +3285,7 @@
 			["Halo - Kampf um die Zukunft", 1]
 		],
 		"Hard Truck - 18 Wheels of Steel": [
+			["Complete Collection of 3 Classic Franchises, The (Disc 1)", 0],
 			["Hard Truck - 18 Stal'nyh Koles", 1]
 		],
 		"Harry Potter - Quidditch World Cup": [
@@ -3468,7 +3501,11 @@
 		"Hulk (Install Disc)": [
 			["Hulk (Disc 1)", 1]
 		],
+		"Hunting Unlimited 2010": [
+			["Complete Collection of 3 Classic Franchises, The (Disc 1)", 0]
+		],
 		"Hype - The Time Quest": [
+			["Lost Adventures of Legend, The", 0],
 			["Komputer Swiat Gry 05-2002", 1]
 		],
 		"I Spy Spooky Mansion": [
@@ -3570,6 +3607,9 @@
 			["A Sangue Freddo (Disc 3)", 1],
 			["Cold Blood (Disc 3)", 1],
 			["Ne znaya straxa (Disc 3)", 1]
+		],
+		"In the Hunt": [
+			["Kaitei Daisensou - In the Hunt", 1]
 		],
 		"Incubation - Battle Isle Phase Four": [
 			["Incubation - Battle Isle Faza Czwarta", 1],
@@ -4839,6 +4879,14 @@
 		"Nickelodeon SpongeBob SquarePants - The Movie": [
 			["Gubka Bob Kvadratnye Shtany", 1]
 		],
+		"Nirvana - The Road to India (Disc 1)": [
+			["Road to India - Entre Mystere, Reve et Realite", 0],
+			["Road to India - Sacrificio alla Dea Kali (Disc 1)", 1]
+		],
+		"Nirvana - The Road to India (Disc 2)": [
+			["Road to India - Entre Mystere, Reve et Realite", 0],
+			["Road to India - Sacrificio alla Dea Kali (Disc 2)", 1]
+		],
 		"No One Lives Forever 2 - A Spy in H.A.R.M.'s Way (Disc 1)": [
 			["No One Lives Forever 2 - Agentin in geheimer Mission (Disc 1)", 1]
 		],
@@ -5334,6 +5382,12 @@
 		"Prince of Persia Collection - Limited Edition": [
 			["Prince of Persia CD Collection", 2]
 		],
+		"Prison Tycoon": [
+			["Complete Collection of 3 Classic Franchises, The (Disc 2)", 0]
+		],
+		"Prison Tycoon 3 - Lockdown": [
+			["Complete Collection of 3 Classic Franchises, The (Disc 3)", 0]
+		],
 		"Prisoner of Ice": [
 			["Call of Cthulhu - Prisoner of Ice", 1]
 		],
@@ -5746,12 +5800,6 @@
 			["Road & Track Presents - The Need for Speed - Special Edition", 0],
 			["Zhazhda skorosti", 1]
 		],
-		"Road to India - Sacrificio alla Dea Kali (Disc 1)": [
-			["Road to India - Entre Mystere, Reve et Realite", 0]
-		],
-		"Road to India - Sacrificio alla Dea Kali (Disc 2)": [
-			["Road to India - Entre Mystere, Reve et Realite", 0]
-		],
 		"Roberta Williams' Laura Bow - The Dagger of Amon Ra": [
 			["Roberta Williams Anthology, The (Disc 1)", 0],
 			["Laura Bow in the Dagger of Amon Ra", 2]
@@ -5846,7 +5894,11 @@
 			["Rune Gold (Disc 2)", 0]
 		],
 		"S.T.A.L.K.E.R. - Call of Pripyat": [
+			["S.T.A.L.K.E.R. - Silver Edition", 0],
 			["S.T.A.L.K.E.R.", 1]
+		],
+		"S.T.A.L.K.E.R. - Clear Sky": [
+			["S.T.A.L.K.E.R. - Silver Edition", 0]
 		],
 		"S.W.I.N.E. (Install Disk)": [
 			["S.V.I.N. (Disc 1)", 1],
@@ -6148,6 +6200,9 @@
 			["Settlers IV, The - Zlota Edycja", 0],
 			["Settlers IV, The - Trojanie i Eliksir Mocy", 1],
 			["Siedler IV, Die - Die Trojaner und das Elixier der Macht", 1]
+		],
+		"Settlers, The - Rise of an Empire": [
+			["The Settlers - Rascvet Imperii", 1]
 		],
 		"Seven Games of the Soul (Disc 1)": [
 			["Faust (Disc 1)", 1],
@@ -6657,6 +6712,9 @@
 		"SpeedRage (Game Disk)": [
 			["SpeedRage", 1]
 		],
+		"Spellcasting - Party Pak": [
+			["Lost Adventures of Legend, The", 0]
+		],
 		"SpellForce - The Order of Dawn (Disc 1) (Install-Play CD)": [
 			["SpellForce - Universe (Disc 1)", 0],
 			["SpellForce", 0],
@@ -6696,6 +6754,9 @@
 		"Star Control 2": [
 			["Star Control 1 & 2", 0]
 		],
+		"Star Scrambler": [
+			["Astro Assembler", 1]
+		],
 		"Star Trek - Deep Space Nine - The Fallen": [
 			["Otverzhennye - Tajna tjomnoj rasy (Disc 1)", 1]
 		],
@@ -6720,9 +6781,9 @@
 			["Star Trek - Starfleet Command (Gold Edition)", 0],
 			["Star Trek - Starfleet Command - Gold Edition", 0]
 		],
-		 "Star Trek - Starship Creator": [
-			 ["Star Trek - Starship Creator Deluxe", 0]
-		 ],
+		"Star Trek - Starship Creator": [
+			["Star Trek - Starship Creator Deluxe", 0]
+		],
 		 "Star Trek - Starship Creator (Add-On Pack)": [
 			["Star Trek - Starship Creator Deluxe", 0]
 		],
@@ -6888,6 +6949,7 @@
 			["StarCraft II - Heart of the Swarm", 1]
 		],
 		"Starship Titanic (Disc 1)": [
+			["Douglas Adams - Starship Titanic (Disc 1)", 1],
 			["Raumschiff Titanic (Disc 1)", 1]
 		],
 		"Starship Titanic (Disc 2)": [
@@ -7681,11 +7743,13 @@
 		"Vampire - The Masquerade - Redemption (Disc 1) (Install)" : [
 			["Vampire - The Masquerade - Redemption (Disc 1) (Install Disc)", 1],
 			["Vampire - The Masquerade - Redemption (Disc 1) (Instalacyjny)", 1],
+			["Vampire - The Masquerade - Redemption (Disc 1) (Installazione)", 1],
 			["Vampire - Die Maskerade - Redemption (Disc 1) (Installations-CD)", 1]
 		],
 		"Vampire - The Masquerade - Redemption (Disc 2) (Play)": [
 			["Vampire - The Masquerade - Redemption (Disc 2) (Play Disc)", 1],
 			["Vampire - The Masquerade - Redemption (Disc 2)", 1],
+			["Vampire - The Masquerade - Redemption (Disc 2) (Gioco)", 1],
 			["Vampire - Die Maskerade - Redemption (Disc 2) (Spiel-CD)", 1]
 		],
 		"Veil of Darkness": [
@@ -7786,7 +7850,8 @@
 		],
 		"WarCraft II - Beyond the Dark Portal (Expansion Set)": [
 			["WarCraft II - Battle.net Edition", 0],
-			["WarCraft II - Alem do Portal Escuro (Expansion Set)", 1]
+			["WarCraft II - Alem do Portal Escuro (Expansion Set)", 1],
+			["WarCraft II - Beyond the Dark Portal (Set di Espansione)", 1]
 		],
 		"WarCraft II - Tides of Darkness": [
 			["WarCraft II - Battle.net Edition", 0],
@@ -7935,6 +8000,27 @@
 		],
 		"Wildlife Park - Wild Creatures": [
 			["Wildlife Park (Gold Edition)", 0]
+		],
+		"Wing Commander": [
+			["Wing Commander - The Kilrathi Saga (Disc 1)", 0],
+			["Wing Commander & Wing Commander II", 0],
+			["Wing Commander - Deluxe Edition", 0]
+		],
+		"Wing Commander II - Deluxe Edition": [
+			["Wing Commander - The Kilrathi Saga (Disc 1)", 0],
+			["Wing Commander & Wing Commander II", 0]
+		],
+		"Wing Commander III - Heart of the Tiger (Disc 1)": [
+			["Wing Commander - The Kilrathi Saga (Disc 2)", 0]
+		],
+		"Wing Commander III - Heart of the Tiger (Disc 2)": [
+			["Wing Commander - The Kilrathi Saga (Disc 3)", 0]
+		],
+		"Wing Commander III - Heart of the Tiger (Disc 3)": [
+			["Wing Commander - The Kilrathi Saga (Disc 4)", 0]
+		],
+		"Wing Commander III - Heart of the Tiger (Disc 4)": [
+			["Wing Commander - The Kilrathi Saga (Disc 5)", 0]
 		],
 		"WipEout": [
 			["WipEout (ATI 3D Rage Edition)", 2]

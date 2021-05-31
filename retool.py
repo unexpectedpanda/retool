@@ -15,6 +15,7 @@ import time
 import traceback
 
 from itertools import permutations
+from colorama import init
 
 from modules.classes import Regex, RegionKeys, Stats, TagKeys, Titles
 from modules.customfilters import recover_titles_for_custom_filters
@@ -22,10 +23,10 @@ from modules.importdata import build_clone_lists, build_regions, build_tags,\
     import_metadata
 from modules.output import generate_config, write_dat_file
 from modules.parentselection import assign_clones, choose_cross_region_parents
-from modules.titleutils import get_title_count, report_stats#, set_categories
+from modules.titleutils import get_title_count, report_stats
 from modules.userinput import check_input, import_user_config,\
     import_user_filters
-from modules.utils import Font, old_windows, printverbose, printwrap
+from modules.utils import Font, old_windows, printverbose, printwrap, enable_vt_mode
 from modules.xml import dat_to_dict, process_input_dat
 
 # Require at least Python 3.8
@@ -34,6 +35,11 @@ assert sys.version_info >= (3, 8)
 __version__ = '0.92'
 
 def main(gui_input=''):
+
+    # Enable VT100 Escape Sequence for WINDOWS 10 Ver. 1607+
+    if old_windows() != True:
+        enable_vt_mode()
+
     # Start a timer from when the process started
     start_time = time.time()
 
@@ -167,9 +173,6 @@ def main(gui_input=''):
                         sys.exit()
                     else:
                         print('')
-
-        # # Rewrite categories where needed
-        # set_categories(input_dat)
 
         # Import scraped Redump metadata for titles
         input_dat.metadata = import_metadata(input_dat)

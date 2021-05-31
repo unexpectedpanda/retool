@@ -6,20 +6,29 @@
 # There isn't much error checking in here, it's rough and only intended to
 # work for a limited use case.
 
+import ctypes
 import html
+import msvcrt
 import os
+import platform
 import re
 import sys
 import textwrap
 
 from bs4 import BeautifulSoup
+from ctypes import wintypes
+from colorama import init
 from openpyxl import Workbook
 from openpyxl.styles import Font, Alignment, PatternFill
 from openpyxl.utils import cell as Cell
 
 def main():
-    os.system('cls' if os.name == 'nt' else 'clear')
-    print(font.bold + '\nClonerel 0.14' + font.end)
+
+    # Enable VT100 Escape Sequence for WINDOWS 10 Ver. 1607+
+    if old_windows() != True:
+        enable_vt_mode()
+
+    print(font.bold + '\nClonerel 0.15' + font.end)
     print('-------------')
 
     if len(sys.argv) == 1:
@@ -197,6 +206,59 @@ class font:
     underline = '\033[4m'
     end = '\033[0m'
     blink = '\033[5m'
+
+def enable_vt_mode():
+    """ Turns on VT-100 emulation mode for Windows
+    https://bugs.python.org/issue30075
+    """
+
+    kernel32 = ctypes.WinDLL('kernel32', use_last_error=True)
+
+    ERROR_INVALID_PARAMETER = 0x0057
+    ENABLE_VIRTUAL_TERMINAL_PROCESSING = 0x0004
+
+    def _check_bool(result, func, args):
+        if not result:
+            raise ctypes.WinError(ctypes.get_last_error())
+        return args
+
+    LPDWORD = ctypes.POINTER(wintypes.DWORD)
+    kernel32.GetConsoleMode.errcheck = _check_bool
+    kernel32.GetConsoleMode.argtypes = (wintypes.HANDLE, LPDWORD)
+    kernel32.SetConsoleMode.errcheck = _check_bool
+    kernel32.SetConsoleMode.argtypes = (wintypes.HANDLE, wintypes.DWORD)
+
+    def set_conout_mode(new_mode, mask=0xffffffff):
+        # Don't assume StandardOutput is a console.
+        # Open CONOUT$ instead
+        fdout = os.open('CONOUT$', os.O_RDWR)
+        try:
+            hout = msvcrt.get_osfhandle(fdout)
+            old_mode = wintypes.DWORD()
+            kernel32.GetConsoleMode(hout, ctypes.byref(old_mode))
+            mode = (new_mode & mask) | (old_mode.value & ~mask)
+            kernel32.SetConsoleMode(hout, mode)
+            return old_mode.value
+        finally:
+            os.close(fdout)
+
+    mode = mask = ENABLE_VIRTUAL_TERMINAL_PROCESSING
+
+    try:
+        return set_conout_mode(mode, mask)
+    except WindowsError as e:
+        if e.winerror == ERROR_INVALID_PARAMETER:
+            raise NotImplementedError
+        raise
+
+
+def old_windows():
+    if sys.platform.startswith('win'):
+        if (float(platform.release()) < 10):
+            return(True)
+
+    return(False)
+
 
 if __name__ == '__main__':
     main()

@@ -115,7 +115,7 @@ To install the modules, assuming you already have Python installed, open
 Terminal, Command Prompt, or whatever the CLI is on your system, and type:
 
 ```shell
-pip install bs4 lxml strictyaml pysimpleguiqt
+pip install bs4 lxml strictyaml pysimpleguiqt colorama
 ```
 
 On systems that have both Python 2 and 3 installed, you might need to run `pip3`
@@ -187,7 +187,7 @@ Clonerel uses openpyxl to generate an Excel file. You'll need at least OpenPyxl
 v3.03 to avoid a fun crash bug. Install it and other dependencies with `pip`.
 
 ```shell
-pip install openpyxl bs4 lxml
+pip install openpyxl bs4 lxml colorama
 ```
 
 ## Usage
