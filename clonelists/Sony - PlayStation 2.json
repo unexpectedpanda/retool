@@ -3,7 +3,7 @@
         "name": [
 			"Sony - PlayStation 2"
 		],
-        "last updated": "31 May 2021",
+        "last updated": "June 13, 2021",
 		"minimum version": "0.89"
     },
 
@@ -158,6 +158,14 @@
 		"Aqua Aqua": [
 			["Aqua Aqua - Wetrix 2", 1],
 			["Aquaqua", 1]
+		],
+	    	"Ar tonelico: Melody of Elemia": [
+			["Ar tonelico: Sekai no Owari de Utai Tsuzukeru Shoujo (PlayStation 2 the Best)", 1],
+			["Ar tonelico: Sekai no Owari de Utai Tsuzukeru Shoujo", 2]
+		],
+		"Ar tonelico II: Melody of Metafalica": [
+			["Ar tonelico II: Sekai ni Hibiku Shoujo-tachi no Metafalica (PlayStation 2 the Best)", 1],
+			["Ar tonelico II: Sekai ni Hibiku Shoujo-tachi no Metafalica", 2]
 		],
 		"Arc the Lad - End of Darkness": [
 			["Arc the Lad - Generation", 1]
