@@ -8,7 +8,15 @@
     },
 
     "categories": {
-        "Game Genie": {
+        "Aging Cassette": {
+            "match": "short",
+            "categories": ["Applications"]
+        },
+	"Controller Test Cassette": {
+            "match": "short",
+            "categories": ["Applications"]
+        },
+	"Game Genie": {
             "match": "short",
             "categories": ["Applications"]
         },
