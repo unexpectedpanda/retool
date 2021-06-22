@@ -8,131 +8,131 @@
 	},
 
 	"renames": {
-        "Ax Battler - A Legend of Golden Axe ~ Golden Axe": [
-            ["Ax Battler - A Legend of Golden Axe", 2],
-            ["Ax Battler - Golden Axe Densetsu", 1]
-        ],
-        "Baku Baku": [
-            ["Baku Baku Animal - Sekai Shiikugakari Senshu-ken", 1]
-        ],
-        "Batter Up": [
-            ["Gear Stadium", 1]
-        ],
-        "Bust-A-Move": [
+		"Ax Battler - A Legend of Golden Axe ~ Golden Axe": [
+			["Ax Battler - A Legend of Golden Axe", 2],
+			["Ax Battler - Golden Axe Densetsu", 1]
+		],
+		"Baku Baku": [
+			["Baku Baku Animal - Sekai Shiikugakari Senshu-ken", 1]
+		],
+		"Batter Up": [
+			["Gear Stadium", 1]
+		],
+		"Bust-A-Move": [
 			["Puzzle Bobble", 2]
-        ],
-        "Castle of Illusion Starring Mickey Mouse": [
-            ["Mickey Mouse no Castle Illusion", 1]
-        ],
-        "Chase H.Q.": [
-            ["Taito Chase H.Q.", 1]
-        ],
-        "Chicago Syndicate": [
-            ["Empire Syndicate", 2]
-        ],
-        "Crystal Warriors": [
-            ["Arliel - Crystal Densetsu", 1]
-        ],
-        "Deep Duck Trouble Starring Donald Duck": [
-            ["Donald Duck no 4-Tsu no Hihou", 1]
-        ],
-        "Defenders of Oasis": [
-            ["Shadam Crusader - Harukanaru Oukoku", 1]
-        ],
-        "Desert Strike - Return to the Gulf": [
-            ["Desert Strike", 1]
-        ],
-        "Dragon Crystal": [
-            ["Dragon Crystal - Tsurani no Meikyuu", 1]
-        ],
-        "Ecco - The Tides of Time": [
-            ["Ecco the Dolphin II", 1]
-        ],
-        "Factory Panic": [
-            ["Ganbare Gorby!", 1]
-        ],
-        "Fantasy Zone": [
-            ["Fantasy Zone Gear ~ Fantasy Zone", 1]
-        ],
-        "Fatal Fury Special": [
-            ["Garou Densetsu Special", 1]
-        ],
-        "G-Sonic ~ Sonic Blast": [
-            ["Sonic Blast", 1]
-        ],
-        "Galaga 2": [
-            ["Galaga '91", 1]
-        ],
-        "George Foreman's KO Boxing": [
-            ["Heavy Weight Champ", 1]
-        ],
-        "GG Shinobi, The ~ Shinobi": [
-            ["GG Shinobi, The", 1]
-        ],
-        "Land of Illusion Starring Mickey Mouse": [
-            ["Mickey Mouse no Mahou no Crystal", 1]
-        ],
-        "Legend of Illusion Starring Mickey Mouse": [
-            ["Mickey Mouse Densetsu no Oukoku - Legend of Illusion", 1]
-        ],
-        "Lucky Dime Caper Starring Donald Duck, The": [
-            ["Donald Duck no Lucky Dime", 1]
-        ],
-        "Mortal Kombat": [
-            ["Mortal Kombat - Shinken Kourin Densetsu", 1]
-        ],
-        "Putt & Putter - Miniature Golf ~ Putt & Putter ~ Minigolf": [
-            ["Putt & Putter", 1]
-        ],
-        "Revenge of Drancon": [
-            ["Wonder Boy", 1]
-        ],
-        "Ristar ~ Ristar - The Shooting Star": [
-            ["Ristar", 1]
-        ],
-        "Samurai Shodown": [
-            ["Samurai Spirits", 1]
-        ],
-        "Shining Force - The Sword of Hajya": [
-            ["Shining Force Gaiden II - Jashin no Kakusei", 1]
-        ],
-        "Slider": [
-            ["Skweek", 1]
-        ],
-        "Solitaire Poker": [
-            ["Ryuukyuu", 1]
-        ],
-        "Sonic Chaos": [
-            ["Sonic & Tails", 1]
-        ],
-        "Sonic The Hedgehog - Triple Trouble": [
-            ["Sonic & Tails 2", 1]
-        ],
-        "Street Battle": [
-            ["Jang Pung II", 1]
-        ],
-        "Tengen World Cup Soccer": [
-            ["Kick & Rush", 1]
-        ],
-        "Vampire - Master of Darkness": [
-            ["In the Wake of Vampire", 1],
-            ["Master of Darkness", 1]
-        ],
-        "Virtua Fighter Animation": [
-            ["Virtua Fighter Mini", 1]
-        ],
-        "Winter Olympic Games ~ Winter Olympics": [
-            ["Winter Olympics", 1]
-        ],
-        "Wonder Boy - The Dragon's Trap": [
-            ["Monster World II - Dragon no Wana", 1],
-            ["Wonder Boy III - The Dragon's Trap", 2]
-        ],
-        "World Series Baseball '95": [
-            ["Nomo Hideo no World Series Baseball", 1]
-        ],
-        "Zool - Ninja of the 'Nth' Dimension": [
-            ["Zool no Yume Bouken", 1]
-        ]
+		],
+		"Castle of Illusion Starring Mickey Mouse": [
+			["Mickey Mouse no Castle Illusion", 1]
+		],
+		"Chase H.Q.": [
+			["Taito Chase H.Q.", 1]
+		],
+		"Chicago Syndicate": [
+			["Empire Syndicate", 2]
+		],
+		"Crystal Warriors": [
+			["Arliel - Crystal Densetsu", 1]
+		],
+		"Deep Duck Trouble Starring Donald Duck": [
+			["Donald Duck no 4-Tsu no Hihou", 1]
+		],
+		"Defenders of Oasis": [
+			["Shadam Crusader - Harukanaru Oukoku", 1]
+		],
+		"Desert Strike - Return to the Gulf": [
+			["Desert Strike", 1]
+		],
+		"Dragon Crystal": [
+			["Dragon Crystal - Tsurani no Meikyuu", 1]
+		],
+		"Ecco - The Tides of Time": [
+			["Ecco the Dolphin II", 1]
+		],
+		"Factory Panic": [
+			["Ganbare Gorby!", 1]
+		],
+		"Fantasy Zone": [
+			["Fantasy Zone Gear ~ Fantasy Zone", 1]
+		],
+		"Fatal Fury Special": [
+			["Garou Densetsu Special", 1]
+		],
+		"G-Sonic ~ Sonic Blast": [
+			["Sonic Blast", 1]
+		],
+		"Galaga 2": [
+			["Galaga '91", 1]
+		],
+		"George Foreman's KO Boxing": [
+			["Heavy Weight Champ", 1]
+		],
+		"GG Shinobi, The ~ Shinobi": [
+			["GG Shinobi, The", 1]
+		],
+		"Land of Illusion Starring Mickey Mouse": [
+			["Mickey Mouse no Mahou no Crystal", 1]
+		],
+		"Legend of Illusion Starring Mickey Mouse": [
+			["Mickey Mouse Densetsu no Oukoku - Legend of Illusion", 1]
+		],
+		"Lucky Dime Caper Starring Donald Duck, The": [
+			["Donald Duck no Lucky Dime", 1]
+		],
+		"Mortal Kombat": [
+			["Mortal Kombat - Shinken Kourin Densetsu", 1]
+		],
+		"Putt & Putter - Miniature Golf ~ Putt & Putter ~ Minigolf": [
+			["Putt & Putter", 1]
+		],
+		"Revenge of Drancon": [
+			["Wonder Boy", 1]
+		],
+		"Ristar ~ Ristar - The Shooting Star": [
+			["Ristar", 1]
+		],
+		"Samurai Shodown": [
+			["Samurai Spirits", 1]
+		],
+		"Shining Force - The Sword of Hajya": [
+			["Shining Force Gaiden II - Jashin no Kakusei", 1]
+		],
+		"Slider": [
+			["Skweek", 1]
+		],
+		"Solitaire Poker": [
+			["Ryuukyuu", 1]
+		],
+		"Sonic Chaos": [
+			["Sonic & Tails", 1]
+		],
+		"Sonic The Hedgehog - Triple Trouble": [
+			["Sonic & Tails 2", 1]
+		],
+		"Street Battle": [
+			["Jang Pung II", 1]
+		],
+		"Tengen World Cup Soccer": [
+			["Kick & Rush", 1]
+		],
+		"Vampire - Master of Darkness": [
+			["In the Wake of Vampire", 1],
+			["Master of Darkness", 1]
+		],
+		"Virtua Fighter Animation": [
+			["Virtua Fighter Mini", 1]
+		],
+		"Winter Olympic Games ~ Winter Olympics": [
+			["Winter Olympics", 1]
+		],
+		"Wonder Boy - The Dragon's Trap": [
+			["Monster World II - Dragon no Wana", 1],
+			["Wonder Boy III - The Dragon's Trap", 2]
+		],
+		"World Series Baseball '95": [
+			["Nomo Hideo no World Series Baseball", 1]
+		],
+		"Zool - Ninja of the 'Nth' Dimension": [
+			["Zool no Yume Bouken", 1]
+		]
 	}
 }

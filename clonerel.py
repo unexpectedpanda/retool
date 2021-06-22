@@ -20,7 +20,7 @@ from openpyxl.utils import cell as Cell
 
 def main():
 
-    # Enable VT100 Escape Sequence for WINDOWS 10 Ver. 1607+
+    # Enable VT100 escape sequence for Windows 10 Ver. 1607+
     if old_windows() != True and sys.platform.startswith('win'):
         enable_vt_mode()
 

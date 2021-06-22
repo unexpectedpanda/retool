@@ -1,19 +1,19 @@
 {
-    "description": {
-        "name": [
+	"description": {
+		"name": [
 			"Fairchild - Channel F"
 		],
-        "last updated": "9 April 2021",
+		"last updated": "9 April 2021",
 		"minimum version": "0.89"
-    },
+	},
 
-    "renames": {
-        "Hangman": [
-            ["Ordtaevling", 1],
-            ["Rat' Mal", 1]
-        ],
-        "Tic-Tac-Toe, Shooting Gallery, Doodle, Quadra-Doodle": [
-           ["Muehle, Tontauben-Schiessen, Kreatives Malspiel, Videoscope", 1]
-        ]
-    }
+	"renames": {
+		"Hangman": [
+			["Ordtaevling", 1],
+			["Rat' Mal", 1]
+		],
+		"Tic-Tac-Toe, Shooting Gallery, Doodle, Quadra-Doodle": [
+		   ["Muehle, Tontauben-Schiessen, Kreatives Malspiel, Videoscope", 1]
+		]
+	}
 }

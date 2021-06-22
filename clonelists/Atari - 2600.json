@@ -1,108 +1,108 @@
 {
-    "description": {
-        "name": [
+	"description": {
+		"name": [
 			"Atari - 2600"
 		],
-        "last updated": "22 May 2021",
+		"last updated": "22 May 2021",
 		"minimum version": "0.92"
-    },
+	},
 
-    "categories": {
-        "Color Bar Generator": {
-            "match": "short",
-            "categories": ["Applications"]
-        },
-        "Frog Demo": {
-            "match": "short",
-            "categories": ["Demos"]
-        }
-    },
+	"categories": {
+		"Color Bar Generator": {
+			"match": "short",
+			"categories": ["Applications"]
+		},
+		"Frog Demo": {
+			"match": "short",
+			"categories": ["Demos"]
+		}
+	},
 
-    "renames": {
-        "Air-Sea Battle ~ Target Fun": [
-            ["Air-Sea Battle", 1]
-        ],
-        "Aliens Return": [
-            ["Col 'N'", 2]
-        ],
-        "Alpha Beam with Ernie": [
-            ["Alpha Beam", 2]
-        ],
-        "Assault": [
-            ["Sky Alien ~ Assault", 1]
-        ],
-        "Boxing": [
-            ["Boxen", 1]
-        ],
-        "Breakout ~ Breakaway IV": [
-            ["Breakout", 1]
-        ],
-        "Casino ~ Poker Plus": [
-            ["Casino", 1]
-        ],
-        "Challenge": [
-            ["Mein Weg", 1]
-        ],
-        "Championship Soccer ~ Soccer": [
-            ["Championship Soccer", 1]
-        ],
-        "Combat ~ Tank-Plus": [
-            ["Combat", 1]
-        ],
-        "Dodge 'Em ~ Dodger Cars": [
-            ["Dodge 'Em", 1]
-        ],
-        "Frisco": [
-            ["Peter Penguin", 1]
-        ],
-        "G.I. Joe - Cobra Strike": [
-            ["Action Man - Action Force", 1]
-        ],
-        "I.Q. 180": [
-            ["I.Q. Memory Teaser", 1]
-        ],
-        "Laser Gates": [
-            ["Laaser Voley", 1]
-        ],
-        "Missile War ~ Astro War": [
-            ["Astrowar", 1]
-        ],
-        "Open Sesame": [
-            ["Abre-te, Sesamo!", 1],
-            ["Apples and Dolls", 1]
-        ],
-        "Outlaw ~ Gunslinger": [
-            ["Outlaw", 1]
-        ],
-        "Racing Car": [
-            ["Hell Driver", 1]
-        ],
-        "Radar": [
-            ["Exocet", 1]
-        ],
-        "Rubik's Cube": [
-            ["Atari Video Cube", 2]
-        ],
-        "Sea Hawk": [
-            ["Seahawk", 1]
-        ],
-        "Sea Hunt ~ Scuba Diver": [
-            ["Skindiver", 1]
-        ],
-        "Sea Monster": [
-            ["O Monstro Marinho", 1]
-        ],
-        "Squirrel ~ O Esquilo": [
-            ["Snail against Squirrel", 1]
-        ],
-        "Stunt Man": [
-            ["Nightmare", 1]
-        ],
-        "Tanks But no Tanks": [
-            ["Phantom Tank", 1]
-        ],
-        "Wall-Defender": [
-            ["Wall Break", 1]
-        ]
-    }
+	"renames": {
+		"Air-Sea Battle ~ Target Fun": [
+			["Air-Sea Battle", 1]
+		],
+		"Aliens Return": [
+			["Col 'N'", 2]
+		],
+		"Alpha Beam with Ernie": [
+			["Alpha Beam", 2]
+		],
+		"Assault": [
+			["Sky Alien ~ Assault", 1]
+		],
+		"Boxing": [
+			["Boxen", 1]
+		],
+		"Breakout ~ Breakaway IV": [
+			["Breakout", 1]
+		],
+		"Casino ~ Poker Plus": [
+			["Casino", 1]
+		],
+		"Challenge": [
+			["Mein Weg", 1]
+		],
+		"Championship Soccer ~ Soccer": [
+			["Championship Soccer", 1]
+		],
+		"Combat ~ Tank-Plus": [
+			["Combat", 1]
+		],
+		"Dodge 'Em ~ Dodger Cars": [
+			["Dodge 'Em", 1]
+		],
+		"Frisco": [
+			["Peter Penguin", 1]
+		],
+		"G.I. Joe - Cobra Strike": [
+			["Action Man - Action Force", 1]
+		],
+		"I.Q. 180": [
+			["I.Q. Memory Teaser", 1]
+		],
+		"Laser Gates": [
+			["Laaser Voley", 1]
+		],
+		"Missile War ~ Astro War": [
+			["Astrowar", 1]
+		],
+		"Open Sesame": [
+			["Abre-te, Sesamo!", 1],
+			["Apples and Dolls", 1]
+		],
+		"Outlaw ~ Gunslinger": [
+			["Outlaw", 1]
+		],
+		"Racing Car": [
+			["Hell Driver", 1]
+		],
+		"Radar": [
+			["Exocet", 1]
+		],
+		"Rubik's Cube": [
+			["Atari Video Cube", 2]
+		],
+		"Sea Hawk": [
+			["Seahawk", 1]
+		],
+		"Sea Hunt ~ Scuba Diver": [
+			["Skindiver", 1]
+		],
+		"Sea Monster": [
+			["O Monstro Marinho", 1]
+		],
+		"Squirrel ~ O Esquilo": [
+			["Snail against Squirrel", 1]
+		],
+		"Stunt Man": [
+			["Nightmare", 1]
+		],
+		"Tanks But no Tanks": [
+			["Phantom Tank", 1]
+		],
+		"Wall-Defender": [
+			["Wall Break", 1]
+		]
+	}
 }

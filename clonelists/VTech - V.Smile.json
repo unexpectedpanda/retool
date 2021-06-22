@@ -9,141 +9,141 @@
 
 	"renames": {
 		"Aladdin - Aladdins Welt der Wunder": [
-            ["Aladdin - El Maravilloso Mundo de Aladdin", 1],
-            ["Aladdin - Il magico mondo di Aladdin", 1]
-        ],
-        "Alphabet Park Adventure": [
-            ["ABC Land Aventure", 1],
-            ["Abenteuer im ABC Park", 1],
-            ["Avventura nel Parco Alfabeto", 1]
-        ],
-        "Bob the Builder - Bob's Busy Day": [
-            ["Bob der Baumeister - Bobs spannender Arbeitstag", 1],
-            ["Byggare Bob - Bobs stressiga dag", 1],
-            ["Byggemand Bob - Bobs travle dag", 1]
-        ],
-        "Cars - Rev It Up in Radiator Springs": [
-            ["Bilar - Koer ikapp i Kylarkoeping", 1],
-            ["Biler - Raes i Kolerkildekobing", 1],
-            ["Cars - Quatre roues", 1],
-            ["Cars - Vollgas in Radiator Springs", 1]
-        ],
-        "Cinderella - Cinderella's Magic Wishes": [
-            ["Cendrillon - Le reve enchante de Cendrillon", 1],
-            ["Cenerentola - I desideri magici di Cenerentola", 1],
-            ["Cinderella - Askepots magiske onsker", 1],
-            ["Cinderella - Askungens magiska oenskningar", 1],
-            ["Cinderella - Cinderella's Magic Wishes", 1],
-            ["Cinderella - Lernen im Maerchenland", 1]
-        ],
-        "Dora the Explorer - Dora's Fix-It Adventure": [
-            ["Dora - Doras Reparatur-Abenteuer", 1],
-            ["Dora l'exploratrice - Les aventures de Dora Apprentie Mecano", 1],
-            ["Dora the Explorer - Dora's Fix-It Adventure", 1]
-        ],
-        "Elmos grosses Abenteuer": [
-            ["Grandes decouvertes d'Elmo, Les", 1]
-        ],
-        "Finding Nemo - Nemo's Ocean Discoveries": [
-            ["Finding Nemo - De wonderwereld van Nemo", 1]
-        ],
-        "Freds Zahlen Rallye": [
-            ["Apprenti' pilote", 1]
-        ],
-        "Fussball Schule": [
-            ["Football Club", 1]
-        ],
-        "Kung Fu Panda - Path of the Panda": [
-            ["Kung Fu Panda - Der Weg des Panda", 1]
-        ],
-        "Lion King, The - Simba's Big Adventure": [
-            ["Lejonkungen - Simbas stora aeventyr", 1],
-            ["Lovernes Konge - Simbas store eventyr", 1],
-            ["Re Leone, Il - La Grande Avventura di Simba", 1],
-            ["Roi Lion, Le - Simba decouvre la jungle", 1]
-        ],
-        "Little Mermaid, The - Ariel's Majestic Journey": [
-            ["Arielle die Meerjungfrau - Arielles aufregendes Abenteuer", 1],
-            ["Den lilla sjoejungfrun - Ariels majestaetiska resa!", 1],
-            ["Den lille havfrue - Ariels majestaetiske rejse!", 1],
-            ["Petite Sirene, La - Ariel devient une princesse", 1],
-            ["Sirenetta, La - Ariel e la Crociera Magica", 1]
-        ],
-        "Mein erster Hund": [
-            ["Min hundvalp", 1]
-        ],
-        "Micky - Mickys magisches Abenteuer": [
-            ["Musse Pigg - Musses magiska aeventyr", 1],
-            ["Topolino - Le Magiche Avventure di Topolino", 1]
-        ],
-        "Micky Maus Wunderhaus": [
-            ["Mickey Mouse Clubhouse", 1]
-        ],
-        "My Friends Tigger & Pooh - Die Honigjagd": [
-            ["Nalle Puh - Honungsjakten", 1],
-            ["Peter Plys - Honningjagten", 1],
-            ["Winnie l'Ourson - La Chasse au miel de Winnie", 1],
-            ["Winnie Puuh - Die Honigjagd", 1],
-            ["Winnie the Pooh e la caccia al miele", 1]
-        ],
-        "Noddy - Detective for a Day": [
-            ["Noddy - Detektiv fuer einen Tag", 1],
-            ["Oui-Oui - Detective d'un jour", 1]
-        ],
-        "Ratatouille - Remys neue Rezepte": [
-            ["Ratatouille - Le nuove Ricette di Remy", 1]
-        ],
-        "Scooby-Doo! - Funland Frenzy": [
-            ["Scooby-Doo - Panique a Funland", 1],
-            ["Scooby-Doo! - Avventura a Funland", 1],
-            ["Scooby-Doo! - Funland Frenzy", 1],
-            ["Scooby-Doo! - Im Lernpark", 1],
-            ["Scooby-Doo! - Sjov i forlystelsesparken", 1],
-            ["Scooby-Doo! - Tivoli-tokerier", 1]
-        ],
-        "Shrek - Die Geschichte des Drachen": [
-            ["Shrek - Het verhaal van draakje", 1],
-            ["Shrek - Le rhume de Dragonne", 1]
-        ],
-        "Shrek the Third - Arthur's School Day Adventure": [
-            ["Shrek de Derde - Arthurs Schooldag Avontuur", 1],
-            ["Shrek the Third - Arthur's School Day Adventure", 1]
-        ],
-        "Spider-Man & Freunde - Wettkampf im Space-Labor": [
-            ["Spider-Man & Friends - La Sfida del Dottor Ock", 1]
-        ],
-        "Spider-Man & ses amis - Missions secretes": [
-            ["Spider-Man & Friends - Missioni Segrete", 1]
-        ],
-        "Spongebob Squarepants - A Day in the Life of a Sponge": [
-            ["Spongebob - Un giorno da Spugna", 1],
-            ["Spongebob Schwammkopf - Der Tag des Schwamms", 1]
-        ],
-        "Superman - Der Superheld": [
-            ["Superman - A la rescousse !", 1]
-        ],
-        "Thomas & Friends - Engines Working Together": [
-            ["Thomas & Friends - Tagen hjaelps at", 1],
-            ["Thomas & seine Freunde - Freunde halten zusammen", 1],
-            ["Thomas et ses amis - Les locomotives s'entraident", 1]
-        ],
-        "TinkerBell": [
-            ["Tingeling", 1]
-        ],
-        "Toy Story 2 - Operation - Rescue Woody!": [
-            ["Toy Story 2 - Operation - Raedda Woody!", 1],
-            ["Toy Story 2 - Operazione - Salvataggio di Woody", 1],
-            ["Toy Story 2 - Woodys spannende Rettung", 1]
-        ],
-        "Up": [
-            ["Oben", 1]
-        ],
-        "V.Smile - Zeichenatelier": [
-            ["V.Smile - Tecknarstudio", 1]
-        ],
-        "Zayzoo - An Earth Adventure": [
-            ["Zayzoos Lernall", 1],
-            ["Zezou - Notre ami venu d'ailleurs", 1]
-        ]
+			["Aladdin - El Maravilloso Mundo de Aladdin", 1],
+			["Aladdin - Il magico mondo di Aladdin", 1]
+		],
+		"Alphabet Park Adventure": [
+			["ABC Land Aventure", 1],
+			["Abenteuer im ABC Park", 1],
+			["Avventura nel Parco Alfabeto", 1]
+		],
+		"Bob the Builder - Bob's Busy Day": [
+			["Bob der Baumeister - Bobs spannender Arbeitstag", 1],
+			["Byggare Bob - Bobs stressiga dag", 1],
+			["Byggemand Bob - Bobs travle dag", 1]
+		],
+		"Cars - Rev It Up in Radiator Springs": [
+			["Bilar - Koer ikapp i Kylarkoeping", 1],
+			["Biler - Raes i Kolerkildekobing", 1],
+			["Cars - Quatre roues", 1],
+			["Cars - Vollgas in Radiator Springs", 1]
+		],
+		"Cinderella - Cinderella's Magic Wishes": [
+			["Cendrillon - Le reve enchante de Cendrillon", 1],
+			["Cenerentola - I desideri magici di Cenerentola", 1],
+			["Cinderella - Askepots magiske onsker", 1],
+			["Cinderella - Askungens magiska oenskningar", 1],
+			["Cinderella - Cinderella's Magic Wishes", 1],
+			["Cinderella - Lernen im Maerchenland", 1]
+		],
+		"Dora the Explorer - Dora's Fix-It Adventure": [
+			["Dora - Doras Reparatur-Abenteuer", 1],
+			["Dora l'exploratrice - Les aventures de Dora Apprentie Mecano", 1],
+			["Dora the Explorer - Dora's Fix-It Adventure", 1]
+		],
+		"Elmos grosses Abenteuer": [
+			["Grandes decouvertes d'Elmo, Les", 1]
+		],
+		"Finding Nemo - Nemo's Ocean Discoveries": [
+			["Finding Nemo - De wonderwereld van Nemo", 1]
+		],
+		"Freds Zahlen Rallye": [
+			["Apprenti' pilote", 1]
+		],
+		"Fussball Schule": [
+			["Football Club", 1]
+		],
+		"Kung Fu Panda - Path of the Panda": [
+			["Kung Fu Panda - Der Weg des Panda", 1]
+		],
+		"Lion King, The - Simba's Big Adventure": [
+			["Lejonkungen - Simbas stora aeventyr", 1],
+			["Lovernes Konge - Simbas store eventyr", 1],
+			["Re Leone, Il - La Grande Avventura di Simba", 1],
+			["Roi Lion, Le - Simba decouvre la jungle", 1]
+		],
+		"Little Mermaid, The - Ariel's Majestic Journey": [
+			["Arielle die Meerjungfrau - Arielles aufregendes Abenteuer", 1],
+			["Den lilla sjoejungfrun - Ariels majestaetiska resa!", 1],
+			["Den lille havfrue - Ariels majestaetiske rejse!", 1],
+			["Petite Sirene, La - Ariel devient une princesse", 1],
+			["Sirenetta, La - Ariel e la Crociera Magica", 1]
+		],
+		"Mein erster Hund": [
+			["Min hundvalp", 1]
+		],
+		"Micky - Mickys magisches Abenteuer": [
+			["Musse Pigg - Musses magiska aeventyr", 1],
+			["Topolino - Le Magiche Avventure di Topolino", 1]
+		],
+		"Micky Maus Wunderhaus": [
+			["Mickey Mouse Clubhouse", 1]
+		],
+		"My Friends Tigger & Pooh - Die Honigjagd": [
+			["Nalle Puh - Honungsjakten", 1],
+			["Peter Plys - Honningjagten", 1],
+			["Winnie l'Ourson - La Chasse au miel de Winnie", 1],
+			["Winnie Puuh - Die Honigjagd", 1],
+			["Winnie the Pooh e la caccia al miele", 1]
+		],
+		"Noddy - Detective for a Day": [
+			["Noddy - Detektiv fuer einen Tag", 1],
+			["Oui-Oui - Detective d'un jour", 1]
+		],
+		"Ratatouille - Remys neue Rezepte": [
+			["Ratatouille - Le nuove Ricette di Remy", 1]
+		],
+		"Scooby-Doo! - Funland Frenzy": [
+			["Scooby-Doo - Panique a Funland", 1],
+			["Scooby-Doo! - Avventura a Funland", 1],
+			["Scooby-Doo! - Funland Frenzy", 1],
+			["Scooby-Doo! - Im Lernpark", 1],
+			["Scooby-Doo! - Sjov i forlystelsesparken", 1],
+			["Scooby-Doo! - Tivoli-tokerier", 1]
+		],
+		"Shrek - Die Geschichte des Drachen": [
+			["Shrek - Het verhaal van draakje", 1],
+			["Shrek - Le rhume de Dragonne", 1]
+		],
+		"Shrek the Third - Arthur's School Day Adventure": [
+			["Shrek de Derde - Arthurs Schooldag Avontuur", 1],
+			["Shrek the Third - Arthur's School Day Adventure", 1]
+		],
+		"Spider-Man & Freunde - Wettkampf im Space-Labor": [
+			["Spider-Man & Friends - La Sfida del Dottor Ock", 1]
+		],
+		"Spider-Man & ses amis - Missions secretes": [
+			["Spider-Man & Friends - Missioni Segrete", 1]
+		],
+		"Spongebob Squarepants - A Day in the Life of a Sponge": [
+			["Spongebob - Un giorno da Spugna", 1],
+			["Spongebob Schwammkopf - Der Tag des Schwamms", 1]
+		],
+		"Superman - Der Superheld": [
+			["Superman - A la rescousse !", 1]
+		],
+		"Thomas & Friends - Engines Working Together": [
+			["Thomas & Friends - Tagen hjaelps at", 1],
+			["Thomas & seine Freunde - Freunde halten zusammen", 1],
+			["Thomas et ses amis - Les locomotives s'entraident", 1]
+		],
+		"TinkerBell": [
+			["Tingeling", 1]
+		],
+		"Toy Story 2 - Operation - Rescue Woody!": [
+			["Toy Story 2 - Operation - Raedda Woody!", 1],
+			["Toy Story 2 - Operazione - Salvataggio di Woody", 1],
+			["Toy Story 2 - Woodys spannende Rettung", 1]
+		],
+		"Up": [
+			["Oben", 1]
+		],
+		"V.Smile - Zeichenatelier": [
+			["V.Smile - Tecknarstudio", 1]
+		],
+		"Zayzoo - An Earth Adventure": [
+			["Zayzoos Lernall", 1],
+			["Zezou - Notre ami venu d'ailleurs", 1]
+		]
 	}
 }

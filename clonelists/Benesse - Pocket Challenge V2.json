@@ -1,48 +1,48 @@
 {
-    "description": {
-        "name": [
+	"description": {
+		"name": [
 			"Benesse - Pocket Challenge V2"
 		],
-        "last updated": "9 April 2021",
+		"last updated": "9 April 2021",
 		"minimum version": "0.89"
-    },
+	},
 
-    "renames": {
-        "Shinkenzemi Chuugaku Kouza - Chuu 1 Eisuukoku Pack (6FP105)": [
-            ["Shinkenzemi Chuugaku Kouza - Chuu 1 Eisuukoku Pack (6FP103)", 2],
-            ["Shinkenzemi Chuugaku Kouza - Chuu 1 Eisuukoku Pack (6FP101)", 3]
-        ],
-        "Shinkenzemi Chuugaku Kouza - Chuu 1 English (3BB113)": [
-            ["Shinkenzemi Chuugaku Kouza - Chuu 1 English (2BB113)", 2]
-        ],
-        "Shinkenzemi Chuugaku Kouza - Chuu 2 Eisuukoku Pack (Sunshine, One World Taiou ban) (6FP212)": [
-            ["Shinkenzemi Chuugaku Kouza - Chuu 2 Eisuukoku Pack (New Crown, Total English Taiou ban) (6FP203)", 2],
-            ["Shinkenzemi Chuugaku Kouza - Chuu 2 Eisuukoku Pack (New Crown, Total English Taiou ban) (4BP203)", 3]
-        ],
-        "Shinkenzemi Chuugaku Kouza - Chuu 3 Ei-Suu-Koumin Pack (New Crown, Total English Taiou ban) (6FP313)": [
-            ["Shinkenzemi Chuugaku Kouza - Chuu 3 Ei-Suu-Koumin Pack (New Crown, Total English Taiou ban) (5FP303)", 2]
-        ],
-        "Shinkenzemi Chuugaku Kouza - Chuugaku Chiri - Chuugaku Rekishi Pack (6FD401)": [
-            ["Shinkenzemi Chuugaku Kouza - Chuugaku Chiri - Chuugaku Rekishi Pack (6FD400)", 2],
-            ["Shinkenzemi Chuugaku Kouza - Chuugaku Chiri - Chuugaku Rekishi Pack (4BD400)", 3],
-            ["Shinkenzemi Chuugaku Kouza - Chuugaku Chiri - Chuugaku Rekishi Pack (2BD400)", 4]
-        ],
-        "Shinkenzemi Chuugaku Kouza - Chuugaku Rika (1-bunya) (6FF421)": [
-            ["Shinkenzemi Chuugaku Kouza - Chuugaku Rika (1-bunya) (5FF411)", 2]
-        ],
-        "Shinkenzemi Chuugaku Kouza - Chuugaku Rika (2-bunya) (6FF422)": [
-            ["Shinkenzemi Chuugaku Kouza - Chuugaku Rika (2-bunya) (5FF412)", 2]
-        ],
-        "Shinkenzemi Chuugaku Kouza - Chuugaku Rika Pack (6FF420)": [
-            ["Shinkenzemi Chuugaku Kouza - Chuugaku Rika Pack (6FF401)", 2],
-            ["Shinkenzemi Chuugaku Kouza - Chuugaku Rika Pack (6FF400)", 3],
-            ["Shinkenzemi Chuugaku Kouza - Chuugaku Rika Pack (5FF400)", 4],
-            ["Shinkenzemi Chuugaku Kouza - Chuugaku Rika Pack (2BF400)", 5]
-        ],
-        "Shinkenzemi Chuugaku Kouza - Jitsugi 4 Kyouka (6FG402)": [
-            ["Shinkenzemi Chuugaku Kouza - Jitsugi 4 Kyouka (5FG410)", 2],
-            ["Shinkenzemi Chuugaku Kouza - Jitsugi 4 Kyouka (3BG410)", 3],
-            ["Shinkenzemi Chuugaku Kouza - Jitsugi 4 Kyouka (2BG410)", 4]
-        ]
-    }
+	"renames": {
+		"Shinkenzemi Chuugaku Kouza - Chuu 1 Eisuukoku Pack (6FP105)": [
+			["Shinkenzemi Chuugaku Kouza - Chuu 1 Eisuukoku Pack (6FP103)", 2],
+			["Shinkenzemi Chuugaku Kouza - Chuu 1 Eisuukoku Pack (6FP101)", 3]
+		],
+		"Shinkenzemi Chuugaku Kouza - Chuu 1 English (3BB113)": [
+			["Shinkenzemi Chuugaku Kouza - Chuu 1 English (2BB113)", 2]
+		],
+		"Shinkenzemi Chuugaku Kouza - Chuu 2 Eisuukoku Pack (Sunshine, One World Taiou ban) (6FP212)": [
+			["Shinkenzemi Chuugaku Kouza - Chuu 2 Eisuukoku Pack (New Crown, Total English Taiou ban) (6FP203)", 2],
+			["Shinkenzemi Chuugaku Kouza - Chuu 2 Eisuukoku Pack (New Crown, Total English Taiou ban) (4BP203)", 3]
+		],
+		"Shinkenzemi Chuugaku Kouza - Chuu 3 Ei-Suu-Koumin Pack (New Crown, Total English Taiou ban) (6FP313)": [
+			["Shinkenzemi Chuugaku Kouza - Chuu 3 Ei-Suu-Koumin Pack (New Crown, Total English Taiou ban) (5FP303)", 2]
+		],
+		"Shinkenzemi Chuugaku Kouza - Chuugaku Chiri - Chuugaku Rekishi Pack (6FD401)": [
+			["Shinkenzemi Chuugaku Kouza - Chuugaku Chiri - Chuugaku Rekishi Pack (6FD400)", 2],
+			["Shinkenzemi Chuugaku Kouza - Chuugaku Chiri - Chuugaku Rekishi Pack (4BD400)", 3],
+			["Shinkenzemi Chuugaku Kouza - Chuugaku Chiri - Chuugaku Rekishi Pack (2BD400)", 4]
+		],
+		"Shinkenzemi Chuugaku Kouza - Chuugaku Rika (1-bunya) (6FF421)": [
+			["Shinkenzemi Chuugaku Kouza - Chuugaku Rika (1-bunya) (5FF411)", 2]
+		],
+		"Shinkenzemi Chuugaku Kouza - Chuugaku Rika (2-bunya) (6FF422)": [
+			["Shinkenzemi Chuugaku Kouza - Chuugaku Rika (2-bunya) (5FF412)", 2]
+		],
+		"Shinkenzemi Chuugaku Kouza - Chuugaku Rika Pack (6FF420)": [
+			["Shinkenzemi Chuugaku Kouza - Chuugaku Rika Pack (6FF401)", 2],
+			["Shinkenzemi Chuugaku Kouza - Chuugaku Rika Pack (6FF400)", 3],
+			["Shinkenzemi Chuugaku Kouza - Chuugaku Rika Pack (5FF400)", 4],
+			["Shinkenzemi Chuugaku Kouza - Chuugaku Rika Pack (2BF400)", 5]
+		],
+		"Shinkenzemi Chuugaku Kouza - Jitsugi 4 Kyouka (6FG402)": [
+			["Shinkenzemi Chuugaku Kouza - Jitsugi 4 Kyouka (5FG410)", 2],
+			["Shinkenzemi Chuugaku Kouza - Jitsugi 4 Kyouka (3BG410)", 3],
+			["Shinkenzemi Chuugaku Kouza - Jitsugi 4 Kyouka (2BG410)", 4]
+		]
+	}
 }

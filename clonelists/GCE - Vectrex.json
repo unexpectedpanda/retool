@@ -1,30 +1,30 @@
 {
-    "description": {
-        "name": [
+	"description": {
+		"name": [
 			"GCE - Vectrex"
 		],
-        "last updated": "9 April 2021",
+		"last updated": "9 April 2021",
 		"minimum version": "0.89"
-    },
+	},
 
-    "renames": {
-        "Blitz! - Action Football (881B27C5)": [
-           ["Blitz! - Action Football (0F11CE0C)", 2]
-        ],
-        "Mail Plane (DA1AC0DB)": [
-            ["Mail Plane", 2]
-        ],
-        "Mine Storm II": [
-            ["Mine Storm", 1]
-        ],
-        "Pole Position (A00ED3D6)": [
-            ["Pole Position (C10F37D8)", 2]
-        ],
-        "Star Trek - The Motion Picture": [
-            ["Star Ship", 1]
-        ],
-        "WebWars": [
-            ["WebWarp", 1]
-        ]
-    }
+	"renames": {
+		"Blitz! - Action Football (881B27C5)": [
+		   ["Blitz! - Action Football (0F11CE0C)", 2]
+		],
+		"Mail Plane (DA1AC0DB)": [
+			["Mail Plane", 2]
+		],
+		"Mine Storm II": [
+			["Mine Storm", 1]
+		],
+		"Pole Position (A00ED3D6)": [
+			["Pole Position (C10F37D8)", 2]
+		],
+		"Star Trek - The Motion Picture": [
+			["Star Ship", 1]
+		],
+		"WebWars": [
+			["WebWarp", 1]
+		]
+	}
 }

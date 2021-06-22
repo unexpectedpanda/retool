@@ -1,112 +1,112 @@
 {
-    "description": {
-        "name": [
+	"description": {
+		"name": [
 			"Magnavox - Odyssey2"
 		],
-        "last updated": "9 April 2021",
+		"last updated": "9 April 2021",
 		"minimum version": "0.89"
-    },
+	},
 
-    "renames": {
-        "4 in 1 Row": [
-           ["4 en 1 Ligne", 1]
-        ],
-        "Alpine Skiing": [
-            ["Skiing", 1]
-        ],
-        "Blockout + Breakdown": [
-            ["Mur Magique, Le", 1]
-        ],
-        "Bowling + Basketball": [
-            ["Jeu de Quilles + Basketball", 2]
-        ],
-        "Casino Slot Machine": [
-            ["Las Vegas", 1]
-        ],
-        "Catch the Ball + Noughts and Crosses": [
-            ["O Malabarista + Jogo da Velha", 1]
-        ],
-        "Chinese Logic": [
-            ["Desafio Chines", 1]
-        ],
-        "Computer Golf": [
-            ["Golf", 1]
-        ],
-        "Computer Intro": [
-            ["Computer Programmer", 1]
-        ],
-        "Cosmic Conflict": [
-            ["Conflit Cosmique", 1]
-        ],
-        "Depth Charge + Marksman": [
-            ["Bombardeio Submarino + Tiro ao Alvo", 1]
-        ],
-        "Dynasty": [
-            ["Samurai", 1]
-        ],
-        "Great Wall Street Fortune Hunt, The": [
-            ["Wall Street", 1]
-        ],
-        "Hockey + Soccer": [
-            ["Football Electronique + Hockey Electronique", 1]
-        ],
-        "Invaders from Hyperspace": [
-            ["Guerre Laser", 1],
-            ["Laser War", 1]
-        ],
-        "K.C. Munchkin": [
-            ["Munchkin", 1]
-        ],
-        "Keyboard Creations": [
-            ["Newscaster", 1]
-        ],
-        "Las Vegas Blackjack": [
-            ["Blackjack", 1]
-        ],
-        "Math-A-Magic + Echo": [
-            ["Mathematicien + Echo", 1]
-        ],
-        "Neutron Star": [
-            ["Buraco Negro", 1]
-        ],
-        "Nightfighter": [
-            ["Comando Noturno", 1]
-        ],
-        "P.T. Barnum's Acrobats": [
-            ["Jumping Acrobats", 1]
-        ],
-        "Pocket Billiards": [
-            ["Billiard Americain", 1]
-        ],
-        "Quest for the Rings": [
-            ["La Quete des Anneaux", 1]
-        ],
-        "Secret of the Pharaohs": [
-            ["O Segredo do Farao", 1]
-        ],
-        "Showdown in 2100 A.D.": [
-            ["Gunfighter", 1]
-        ],
-        "Smithereens": [
-            ["Stone Sling", 1]
-        ],
-        "Speedway + Spin-out + Crypto-logic": [
-            ["Course de Voitures + Autodrome + Cryptogramme", 1]
-        ],
-        "Take the Money and Run": [
-            ["Prendre l'Argent et Fuir", 1]
-        ],
-        "Thunderball": [
-            ["Billard Electrique", 1]
-        ],
-        "UFO": [
-            ["Satellite Attack", 1]
-        ],
-        "Verkehrsspiele 1": [
-            ["Kinder im Verkehr 1", 2]
-        ],
-        "Volleyball": [
-            ["Volleyball Electronique", 1]
-        ]
-    }
+	"renames": {
+		"4 in 1 Row": [
+		   ["4 en 1 Ligne", 1]
+		],
+		"Alpine Skiing": [
+			["Skiing", 1]
+		],
+		"Blockout + Breakdown": [
+			["Mur Magique, Le", 1]
+		],
+		"Bowling + Basketball": [
+			["Jeu de Quilles + Basketball", 2]
+		],
+		"Casino Slot Machine": [
+			["Las Vegas", 1]
+		],
+		"Catch the Ball + Noughts and Crosses": [
+			["O Malabarista + Jogo da Velha", 1]
+		],
+		"Chinese Logic": [
+			["Desafio Chines", 1]
+		],
+		"Computer Golf": [
+			["Golf", 1]
+		],
+		"Computer Intro": [
+			["Computer Programmer", 1]
+		],
+		"Cosmic Conflict": [
+			["Conflit Cosmique", 1]
+		],
+		"Depth Charge + Marksman": [
+			["Bombardeio Submarino + Tiro ao Alvo", 1]
+		],
+		"Dynasty": [
+			["Samurai", 1]
+		],
+		"Great Wall Street Fortune Hunt, The": [
+			["Wall Street", 1]
+		],
+		"Hockey + Soccer": [
+			["Football Electronique + Hockey Electronique", 1]
+		],
+		"Invaders from Hyperspace": [
+			["Guerre Laser", 1],
+			["Laser War", 1]
+		],
+		"K.C. Munchkin": [
+			["Munchkin", 1]
+		],
+		"Keyboard Creations": [
+			["Newscaster", 1]
+		],
+		"Las Vegas Blackjack": [
+			["Blackjack", 1]
+		],
+		"Math-A-Magic + Echo": [
+			["Mathematicien + Echo", 1]
+		],
+		"Neutron Star": [
+			["Buraco Negro", 1]
+		],
+		"Nightfighter": [
+			["Comando Noturno", 1]
+		],
+		"P.T. Barnum's Acrobats": [
+			["Jumping Acrobats", 1]
+		],
+		"Pocket Billiards": [
+			["Billiard Americain", 1]
+		],
+		"Quest for the Rings": [
+			["La Quete des Anneaux", 1]
+		],
+		"Secret of the Pharaohs": [
+			["O Segredo do Farao", 1]
+		],
+		"Showdown in 2100 A.D.": [
+			["Gunfighter", 1]
+		],
+		"Smithereens": [
+			["Stone Sling", 1]
+		],
+		"Speedway + Spin-out + Crypto-logic": [
+			["Course de Voitures + Autodrome + Cryptogramme", 1]
+		],
+		"Take the Money and Run": [
+			["Prendre l'Argent et Fuir", 1]
+		],
+		"Thunderball": [
+			["Billard Electrique", 1]
+		],
+		"UFO": [
+			["Satellite Attack", 1]
+		],
+		"Verkehrsspiele 1": [
+			["Kinder im Verkehr 1", 2]
+		],
+		"Volleyball": [
+			["Volleyball Electronique", 1]
+		]
+	}
 }

@@ -1,51 +1,51 @@
 {
-    "description": {
-        "name": [
+	"description": {
+		"name": [
 			"Benesse - Pocket Challenge W"
 		],
-        "last updated": "9 April 2021",
+		"last updated": "9 April 2021",
 		"minimum version": "0.89"
-    },
+	},
 
-    "renames": {
-        "Shinkenzemi Chuugaku Kouza - Chuu 1 Eigo (7BB112SS)": [
-            ["Shinkenzemi Chuugaku Kouza - Chuu 1 Eigo (7BB111NH)", 2],
-            ["Shinkenzemi Chuugaku Kouza - Chuu 1 Eigo (0BB113NC)", 3],
-            ["Shinkenzemi Chuugaku Kouza - Chuu 1 Eigo (0BB111NH)", 4]
-        ],
-        "Shinkenzemi Chuugaku Kouza - Chuu 2 Eigo (7BB214TE)": [
-            ["Shinkenzemi Chuugaku Kouza - Chuu 2 Eigo (7BB212SS)", 2],
-            ["Shinkenzemi Chuugaku Kouza - Chuu 2 Eigo (7BB211NH)", 3]
-        ],
-        "Shinkenzemi Chuugaku Kouza - Chuu 3 Eigo (7BB317CB)": [
-            ["Shinkenzemi Chuugaku Kouza - Chuu 3 Eigo (7BB315OW)", 2],
-            ["Shinkenzemi Chuugaku Kouza - Chuu 3 Eigo (7BB313NC)", 3],
-            ["Shinkenzemi Chuugaku Kouza - Chuu 3 Eigo (7BB311NH)", 4]
-        ],
-        "Shinkenzemi Chuugaku Kouza - Chuugaku Chiri (9BD410)": [
-            ["Shinkenzemi Chuugaku Kouza - Chuugaku Chiri (7BD410)", 2]
-        ],
-        "Shinkenzemi Chuugaku Kouza - Chuugaku Chiri - Rekishi Pack (Chiri Soft - Rekishi Soft Kanzen Taiou Ban) (8BD400)": [
-            ["Shinkenzemi Chuugaku Kouza - Chuugaku Chiri - Rekishi Pack (0BD401)", 2],
-            ["Shinkenzemi Chuugaku Kouza - Chuugaku Chiri - Rekishi Pack (0BD400)", 3]
-        ],
-        "Shinkenzemi Chuugaku Kouza - Chuugaku Koumin (7BE310)": [
-            ["Shinkenzemi Chuugaku Kouza - Chuugaku Koumin (0BE311)", 2]
-        ],
-        "Shinkenzemi Chuugaku Kouza - Chuugaku Rika Pack (1-bunya - Soft 2-bunya Soft Kanzen Taiou Ban) (8BF400)": [
-            ["Shinkenzemi Chuugaku Kouza - Chuugaku Rika Pack (1BF400)", 2],
-            ["Shinkenzemi Chuugaku Kouza - Chuugaku Rika (1-bunya) (7BF411)", 2],
-            ["Shinkenzemi Chuugaku Kouza - Chuugaku Rika Pack (0BF400)", 3],
-            ["Shinkenzemi Chuugaku Kouza - Chuugaku Rika (2-bunya) (7BF412)", 3]
-        ],
-        "Shinkenzemi Chuugaku Kouza - Koukou Juken (Ei - Sha - Ri) (9BI711)": [
-            ["Shinkenzemi Chuugaku Kouza - Koukou Juken (Ei - Sha - Ri) (0BI711)", 2]
-        ],
-        "Shinkenzemi Koukou Kouza - Daigaku Juken Series - Hinshutsu Eitango (7BBD02)": [
-            ["Shinkenzemi Koukou Kouza - Daigaku Juken Series - Hinshutsu Eitango (7BBD01)", 2]
-        ],
-        "Shinkenzemi Koukou Kouza - Juuyou Kobun Kouryaku (8BKD01)": [
-            ["Shinkenzemi Koukou Kouza - Juuyou Kobun Kouryaku (0BKD01)", 2]
-        ]
-    }
+	"renames": {
+		"Shinkenzemi Chuugaku Kouza - Chuu 1 Eigo (7BB112SS)": [
+			["Shinkenzemi Chuugaku Kouza - Chuu 1 Eigo (7BB111NH)", 2],
+			["Shinkenzemi Chuugaku Kouza - Chuu 1 Eigo (0BB113NC)", 3],
+			["Shinkenzemi Chuugaku Kouza - Chuu 1 Eigo (0BB111NH)", 4]
+		],
+		"Shinkenzemi Chuugaku Kouza - Chuu 2 Eigo (7BB214TE)": [
+			["Shinkenzemi Chuugaku Kouza - Chuu 2 Eigo (7BB212SS)", 2],
+			["Shinkenzemi Chuugaku Kouza - Chuu 2 Eigo (7BB211NH)", 3]
+		],
+		"Shinkenzemi Chuugaku Kouza - Chuu 3 Eigo (7BB317CB)": [
+			["Shinkenzemi Chuugaku Kouza - Chuu 3 Eigo (7BB315OW)", 2],
+			["Shinkenzemi Chuugaku Kouza - Chuu 3 Eigo (7BB313NC)", 3],
+			["Shinkenzemi Chuugaku Kouza - Chuu 3 Eigo (7BB311NH)", 4]
+		],
+		"Shinkenzemi Chuugaku Kouza - Chuugaku Chiri (9BD410)": [
+			["Shinkenzemi Chuugaku Kouza - Chuugaku Chiri (7BD410)", 2]
+		],
+		"Shinkenzemi Chuugaku Kouza - Chuugaku Chiri - Rekishi Pack (Chiri Soft - Rekishi Soft Kanzen Taiou Ban) (8BD400)": [
+			["Shinkenzemi Chuugaku Kouza - Chuugaku Chiri - Rekishi Pack (0BD401)", 2],
+			["Shinkenzemi Chuugaku Kouza - Chuugaku Chiri - Rekishi Pack (0BD400)", 3]
+		],
+		"Shinkenzemi Chuugaku Kouza - Chuugaku Koumin (7BE310)": [
+			["Shinkenzemi Chuugaku Kouza - Chuugaku Koumin (0BE311)", 2]
+		],
+		"Shinkenzemi Chuugaku Kouza - Chuugaku Rika Pack (1-bunya - Soft 2-bunya Soft Kanzen Taiou Ban) (8BF400)": [
+			["Shinkenzemi Chuugaku Kouza - Chuugaku Rika Pack (1BF400)", 2],
+			["Shinkenzemi Chuugaku Kouza - Chuugaku Rika (1-bunya) (7BF411)", 2],
+			["Shinkenzemi Chuugaku Kouza - Chuugaku Rika Pack (0BF400)", 3],
+			["Shinkenzemi Chuugaku Kouza - Chuugaku Rika (2-bunya) (7BF412)", 3]
+		],
+		"Shinkenzemi Chuugaku Kouza - Koukou Juken (Ei - Sha - Ri) (9BI711)": [
+			["Shinkenzemi Chuugaku Kouza - Koukou Juken (Ei - Sha - Ri) (0BI711)", 2]
+		],
+		"Shinkenzemi Koukou Kouza - Daigaku Juken Series - Hinshutsu Eitango (7BBD02)": [
+			["Shinkenzemi Koukou Kouza - Daigaku Juken Series - Hinshutsu Eitango (7BBD01)", 2]
+		],
+		"Shinkenzemi Koukou Kouza - Juuyou Kobun Kouryaku (8BKD01)": [
+			["Shinkenzemi Koukou Kouza - Juuyou Kobun Kouryaku (0BKD01)", 2]
+		]
+	}
 }

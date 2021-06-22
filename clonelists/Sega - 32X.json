@@ -8,23 +8,23 @@
 	},
 
 	"renames": {
-        "After Burner Complete ~ After Burner": [
-            ["After Burner Complete", 1]
-        ],
-        "Chaotix ~ Knuckles' Chaotix": [
-            ["Knuckles' Chaotix", 1]
-        ],
-        "Cyber Brawl ~ Cosmic Carnage": [
-            ["Cosmic Carnage", 1]
-        ],
-        "Doom": [
+		"After Burner Complete ~ After Burner": [
+			["After Burner Complete", 1]
+		],
+		"Chaotix ~ Knuckles' Chaotix": [
+			["Knuckles' Chaotix", 1]
+		],
+		"Cyber Brawl ~ Cosmic Carnage": [
+			["Cosmic Carnage", 1]
+		],
+		"Doom": [
 			["Doom RR", 2]
-        ],
-        "Parasquad ~ Zaxxon's Motherbase 2000": [
-            ["Parasquad ~ Zaxxon's Motherbase", 1]
-        ],
-        "Shadow Squadron ~ Stellar Assault": [
-            ["Stellar Assault", 1]
-        ]
+		],
+		"Parasquad ~ Zaxxon's Motherbase 2000": [
+			["Parasquad ~ Zaxxon's Motherbase", 1]
+		],
+		"Shadow Squadron ~ Stellar Assault": [
+			["Stellar Assault", 1]
+		]
 	}
 }

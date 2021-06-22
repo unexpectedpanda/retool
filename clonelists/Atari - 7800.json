@@ -1,15 +1,15 @@
 {
-    "description": {
-        "name": [
+	"description": {
+		"name": [
 			"Atari - 7800"
 		],
-        "last updated": "9 April 2021",
+		"last updated": "9 April 2021",
 		"minimum version": "0.89"
-    },
+	},
 
-    "renames": {
-        "Pete Rose Baseball": [
-            ["Baseball", 1]
-        ]
-    }
+	"renames": {
+		"Pete Rose Baseball": [
+			["Baseball", 1]
+		]
+	}
 }

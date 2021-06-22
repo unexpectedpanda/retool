@@ -1,15 +1,15 @@
 {
-    "description": {
-        "name": [
+	"description": {
+		"name": [
 			"GamePark - GP32"
 		],
-        "last updated": "9 April 2021",
+		"last updated": "9 April 2021",
 		"minimum version": "0.89"
-    },
+	},
 
-    "renames": {
-        "Her Knights - All for the Princess": [
-            ["Her Knights - All for Princess - Deadline", 1]
-        ]
-    }
+	"renames": {
+		"Her Knights - All for the Princess": [
+			["Her Knights - All for Princess - Deadline", 1]
+		]
+	}
 }

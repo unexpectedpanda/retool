@@ -1,73 +1,73 @@
 {
-    "description": {
-        "name": [
+	"description": {
+		"name": [
 			"Nintendo - Family Computer Disk System (FDS)"
 		],
-        "last updated": "19 May 2021",
+		"last updated": "19 May 2021",
 		"minimum version": "0.92"
-    },
+	},
 
-    "categories": {
-        "Disk Hacker - Version 1.0": {
-            "match": "short",
-            "categories": ["Applications"]
-        },
-        "Disk Hacker - Version 1.2": {
-            "match": "short",
-            "categories": ["Applications"]
-        },
-        "Disk Hacker - Version 1.3": {
-            "match": "short",
-            "categories": ["Applications"]
-        },
-        "Disk Hacker II - Copy Plus 3": {
-            "match": "short",
-            "categories": ["Applications"]
-        },
-        "Disk Keeper": {
-            "match": "short",
-            "categories": ["Applications"]
-        },
-        "FMC Disk Card Checker Ver 1.3 (Developer Card)": {
-            "match": "short",
-            "categories": ["Applications"]
-        },
-        "Graphic Editor Hokusai - Ver 1.2": {
-            "match": "short",
-            "categories": ["Applications"]
-        },
-        "Kosodate Gokko": {
-            "match": "short",
-            "categories": ["Applications"]
-        },
-        "Quick Hunter": {
-            "match": "short",
-            "categories": ["Applications"]
-        },
-        "Quick Hunter - Parameter Disk Vol.1": {
-            "match": "short",
-            "categories": ["Applications"]
-        },
-        "Souseiki Fammy - ROM-QD for 256K+64K": {
-            "match": "short",
-            "categories": ["Applications"]
-        },
-        "Tonkachi Editor": {
-            "match": "short",
-            "categories": ["Applications"]
-        }
-    },
+	"categories": {
+		"Disk Hacker - Version 1.0": {
+			"match": "short",
+			"categories": ["Applications"]
+		},
+		"Disk Hacker - Version 1.2": {
+			"match": "short",
+			"categories": ["Applications"]
+		},
+		"Disk Hacker - Version 1.3": {
+			"match": "short",
+			"categories": ["Applications"]
+		},
+		"Disk Hacker II - Copy Plus 3": {
+			"match": "short",
+			"categories": ["Applications"]
+		},
+		"Disk Keeper": {
+			"match": "short",
+			"categories": ["Applications"]
+		},
+		"FMC Disk Card Checker Ver 1.3 (Developer Card)": {
+			"match": "short",
+			"categories": ["Applications"]
+		},
+		"Graphic Editor Hokusai - Ver 1.2": {
+			"match": "short",
+			"categories": ["Applications"]
+		},
+		"Kosodate Gokko": {
+			"match": "short",
+			"categories": ["Applications"]
+		},
+		"Quick Hunter": {
+			"match": "short",
+			"categories": ["Applications"]
+		},
+		"Quick Hunter - Parameter Disk Vol.1": {
+			"match": "short",
+			"categories": ["Applications"]
+		},
+		"Souseiki Fammy - ROM-QD for 256K+64K": {
+			"match": "short",
+			"categories": ["Applications"]
+		},
+		"Tonkachi Editor": {
+			"match": "short",
+			"categories": ["Applications"]
+		}
+	},
 
-    "renames": {
-        "Disk Hacker - Version 1.3": [
-            ["Disk Hacker - Version 1.2", 2],
-            ["Disk Hacker - Version 1.0", 3]
-        ],
-        "Golf - Japan Course": [
-            ["Golf - Japan Course (Prize Card)", 2]
-        ],
-        "Golf - US Course": [
-            ["Golf - Special Course (Prize Card)", 2]
-        ]
-    }
+	"renames": {
+		"Disk Hacker - Version 1.3": [
+			["Disk Hacker - Version 1.2", 2],
+			["Disk Hacker - Version 1.0", 3]
+		],
+		"Golf - Japan Course": [
+			["Golf - Japan Course (Prize Card)", 2]
+		],
+		"Golf - US Course": [
+			["Golf - Special Course (Prize Card)", 2]
+		]
+	}
 }

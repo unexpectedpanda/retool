@@ -6,7 +6,6 @@
 https://github.com/unexpectedpanda/retool
 """
 
-import ctypes
 import os
 import platform
 import PySimpleGUIQt as sg
@@ -29,6 +28,12 @@ font = 'Any'
 scale_multiplier = 1
 
 if sys.platform.startswith('win'):
+    import ctypes
+
+    if sys.argv[0].endswith('.exe') == False:
+        myappid = u'mycompany.myproduct.subproduct.version' # arbitrary string
+        ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(myappid)
+
     # Fonts
     font = 'Segoe UI, Tahoma, Arial'
 
@@ -410,7 +415,7 @@ def main():
 
     window = sg.Window('Retool - convert Redump and No-Intro dats to 1G1R!',
                        layout,
-                       icon=f'{os.path.abspath("retool.ico")}',
+                       icon='retool.ico',
                        resizable=False,
                        finalize=True)
 
@@ -978,7 +983,7 @@ def gate(window, notification_title, notification_message, button_name='Got it',
         notification_title,
         layout= dialog_layout,
         background_color='#aaa',
-        icon=f'{os.path.abspath("retool.ico")}',
+        icon='retool.ico',
         keep_on_top=True,
         no_titlebar=True,
         resizable=False,

@@ -1,18 +1,18 @@
 {
-    "description": {
-        "name": [
+	"description": {
+		"name": [
 			"Nintendo - New Nintendo 3DS"
 		],
-        "last updated": "9 April 2021",
+		"last updated": "9 April 2021",
 		"minimum version": "0.89"
-    },
+	},
 
-    "renames": {
-        "Fire Emblem Warriors": [
-            ["Fire Emblem Musou", 1]
-        ],
-        "Xenoblade Chronicles 3D": [
-            ["Xenoblade", 1]
-        ]
-    }
+	"renames": {
+		"Fire Emblem Warriors": [
+			["Fire Emblem Musou", 1]
+		],
+		"Xenoblade Chronicles 3D": [
+			["Xenoblade", 1]
+		]
+	}
 }

@@ -31,11 +31,11 @@ from modules.xml import dat_to_dict, process_input_dat
 # Require at least Python 3.8
 assert sys.version_info >= (3, 8)
 
-__version__ = '0.93'
+__version__ = '0.94'
 
 def main(gui_input=''):
 
-    # Enable VT100 Escape Sequence for WINDOWS 10 Ver. 1607+
+    # Enable VT100 escape sequence for Windows 10 Ver. 1607+
     if old_windows() != True and sys.platform.startswith('win'):
         from modules.utils import enable_vt_mode
         enable_vt_mode()

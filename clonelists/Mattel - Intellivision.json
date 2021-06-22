@@ -1,63 +1,63 @@
 {
-    "description": {
-        "name": [
+	"description": {
+		"name": [
 			"Mattel - Intellivision"
 		],
-        "last updated": "9 April 2021",
+		"last updated": "9 April 2021",
 		"minimum version": "0.89"
-    },
+	},
 
-    "renames": {
-        "Advanced Dungeons & Dragons": [
-            ["Adventure", 2]
-        ],
-        "Advanced Dungeons & Dragons - Treasure of Tarmin": [
-            ["Minotaur", 2]
-        ],
-        "Astrosmash": [
-            ["Meteor", 2]
-        ],
-        "BattleTanks": [
-            ["Triple Action", 0]
-        ],
-        "Biplanes": [
-            ["Triple Action", 0]
-        ],
-        "Crosswords": [
-            ["Learning Fun II - Word Wizard, Memory Fun", 0]
-        ],
-        "Factor Fun": [
-            ["Learning Fun I - Math Master, Factor Fun", 0]
-        ],
-        "Math Master": [
-            ["Learning Fun I - Math Master, Factor Fun", 0]
-        ],
-        "Memory Fun": [
-            ["Learning Fun II - Word Wizard, Memory Fun", 0]
-        ],
-        "Pac-Man (Atarisoft)": [
-            ["Pac-Man (INTV Corp.)", 2]
-        ],
-        "Racing Cars": [
-            ["Triple Action", 0]
-        ],
-        "Thin Ice": [
-            ["Duncan's Thin Ice", 2]
-        ],
-        "TRON Deadly Discs": [
-            ["Deadly Dogs", 2]
-        ],
-        "Word Hunt": [
-            ["Learning Fun II - Word Wizard, Memory Fun", 0]
-        ],
-        "Word Rockets": [
-            ["Learning Fun II - Word Wizard, Memory Fun", 0]
-        ],
-        "World Championship Baseball": [
-            ["All-Star Major League Baseball", 2]
-        ],
-        "World Cup Football": [
-            ["Super Soccer", 1]
-        ]
-    }
+	"renames": {
+		"Advanced Dungeons & Dragons": [
+			["Adventure", 2]
+		],
+		"Advanced Dungeons & Dragons - Treasure of Tarmin": [
+			["Minotaur", 2]
+		],
+		"Astrosmash": [
+			["Meteor", 2]
+		],
+		"BattleTanks": [
+			["Triple Action", 0]
+		],
+		"Biplanes": [
+			["Triple Action", 0]
+		],
+		"Crosswords": [
+			["Learning Fun II - Word Wizard, Memory Fun", 0]
+		],
+		"Factor Fun": [
+			["Learning Fun I - Math Master, Factor Fun", 0]
+		],
+		"Math Master": [
+			["Learning Fun I - Math Master, Factor Fun", 0]
+		],
+		"Memory Fun": [
+			["Learning Fun II - Word Wizard, Memory Fun", 0]
+		],
+		"Pac-Man (Atarisoft)": [
+			["Pac-Man (INTV Corp.)", 2]
+		],
+		"Racing Cars": [
+			["Triple Action", 0]
+		],
+		"Thin Ice": [
+			["Duncan's Thin Ice", 2]
+		],
+		"TRON Deadly Discs": [
+			["Deadly Dogs", 2]
+		],
+		"Word Hunt": [
+			["Learning Fun II - Word Wizard, Memory Fun", 0]
+		],
+		"Word Rockets": [
+			["Learning Fun II - Word Wizard, Memory Fun", 0]
+		],
+		"World Championship Baseball": [
+			["All-Star Major League Baseball", 2]
+		],
+		"World Cup Football": [
+			["Super Soccer", 1]
+		]
+	}
 }
