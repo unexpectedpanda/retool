@@ -1,3 +1,23 @@
+# 0.95
+
+- Fixed a bug where a combination of modern editions and the `(Unl)` tag caused
+  the wrong 1G1R title to be selected when the user preferred modern ripped
+  titles over the original.
+- Added an option to not replace `(Unl)` or `(Aftermarket)` titles if a
+  production version is found in another region.
+- The Retool version used to create a dat is now recorded in the dat header to
+  assist with troubleshooting.
+- Fixed a bug where "&amp; Retool" was added multiple times to the author field
+  of a dat previously processed by Retool.
+
+
+
+# 0.94
+
+- Fixed a QT issue where the Retool icon wouldn't load properly on Windows.
+
+
+
 # 0.93
 
 - Fixed a crash for Linux users by adding conditionals to the new Windows CLI
@@ -21,8 +41,8 @@
 - Files now write in UTF-8 to avoid characters causing crashes.
 - Enhancement chips are now set to the category `BIOS` in the output dat.
 - Added some new modern edition tags.
-- Titles with the `(Aftermarket)` tag are now demoted below official ones within
-  the same region.
+- Titles with the `(Aftermarket)` tags are now demoted below
+  official ones within the same region.
 - Titles with the `(Prerelease)` tag are now treated as preproduction.
 - The regex for capturing demo titles is now more comprehensive.
 - Added Estonia & Lithuania as regions, along with their languages.
@@ -188,8 +208,12 @@ Things of note for this release:
 
 ## Behavior changes
 - The demotion of modern ripped titles (for example, Virtual Console) is now
-  working cross-region. You'll still get them if the modern version is the only
-  one available.
+  working cross-region. You'll still get them if the modern edition is the only
+  one available with a language associated with a higher region priority. For
+  example, sometimes English versions of games were only released much later on
+  modern platforms, whereas previously they had exclusive Japanese releases. In
+  this case, if you have an implied English speaking region high up in your
+  region order, the modern edition will remain.
 
 
 

@@ -31,7 +31,7 @@ from modules.xml import dat_to_dict, process_input_dat
 # Require at least Python 3.8
 assert sys.version_info >= (3, 8)
 
-__version__ = '0.94'
+__version__ = '0.95'
 
 def main(gui_input=''):
 
@@ -371,7 +371,7 @@ def main(gui_input=''):
                     f'(Retool {datetime.datetime.now().strftime("%Y-%m-%d %H-%M-%SS")[:-1]}) ({str("{:,}".format(stats.final_title_count))}){user_input.user_options}.dat'))
 
             # Write the output dat file
-            write_dat_file(input_dat, user_input, output_file_name, stats, titles, dat_numbered)
+            write_dat_file(input_dat, user_input, output_file_name, stats, titles, dat_numbered, __version__)
 
             # Report stats
             stats = Stats(original_title_count, user_input, stats.final_title_count, stats.clone_count, stats.recovered_count)

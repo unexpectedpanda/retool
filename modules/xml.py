@@ -662,7 +662,7 @@ def process_input_dat(dat_file, is_folder, gui=False):
                 input_dat.url = input_dat.url[5:-6]
 
     # Remove Retool tag from name if it exists
-    input_dat.name = input_dat.name.replace(' (Retool)', '')
+    input_dat.name = re.sub(' \(Retool.*?\)', '', input_dat.name)
 
     # Sanitize some header details which are used in the output filename
     characters = [':', '\\', '/', '<', '>', '"', '|', '?', '*']
@@ -683,15 +683,17 @@ def process_input_dat(dat_file, is_folder, gui=False):
     return input_dat
 
 
-def header(input_dat, new_title_count, user_input):
+def header(input_dat, new_title_count, user_input, version):
     """ Creates a header for the output dat file """
 
     new_title_count = str('{:,}'.format(new_title_count))
 
-    name = f'\n\t\t<name>{html.escape(input_dat.name, quote=False)} (Retool)</name>'
+    name = f'\n\t\t<name>{html.escape(input_dat.name, quote=False)} (Retool {version})</name>'
     description = (
         f'\n\t\t<description>{html.escape(input_dat.name, quote=False)}{user_input.user_options}'
         f' ({new_title_count}) ({input_dat.version})</description>')
+
+    input_dat.author = input_dat.author.replace(' & Retool', '')
 
     if input_dat.author != '' and input_dat.author != None:
         input_dat.author = f'{html.escape(input_dat.author, quote=False)} &amp; Retool'

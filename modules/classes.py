@@ -495,10 +495,10 @@ class UserInput:
                  no_add_ons='', no_educational='', no_manuals='',
                  no_multimedia='', no_bonus_discs='', no_pirate='',
                  no_preproduction='', no_promotional='', no_unlicensed='',
-                 no_video='', modern='', filter_languages='',
-                 legacy='', user_options='', verbose='',
-                 no_filters='', keep_remove='', list='',
-                 empty_titles='', test=''):
+                 no_video='', modern='', no_demote_unl='',
+                 filter_languages='', legacy='', user_options='',
+                 verbose='', no_filters='', keep_remove='',
+                 list='', empty_titles='', test=''):
 
         self.input_file_name = input_file_name
         self.output_folder_name = output_folder_name
@@ -521,6 +521,7 @@ class UserInput:
         self.no_promotional = no_promotional
         self.no_unlicensed = no_unlicensed
         self.modern = modern
+        self.no_demote_unl = no_demote_unl
         self.filter_languages = filter_languages
         self.legacy = legacy
         self.user_options = user_options

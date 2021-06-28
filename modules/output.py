@@ -190,10 +190,10 @@ def generate_config(
             sys.exit()
 
 
-def write_dat_file(input_dat, user_input, output_file_name, stats, titles, dat_numbered):
+def write_dat_file(input_dat, user_input, output_file_name, stats, titles, dat_numbered, version):
     """ Output the final dat file """
 
-    dat_header = header(input_dat, stats.final_title_count, user_input)
+    dat_header = header(input_dat, stats.final_title_count, user_input, version)
 
     # Write the file
     try:

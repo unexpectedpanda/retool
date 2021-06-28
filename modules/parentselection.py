@@ -192,98 +192,118 @@ def choose_cross_region_parents(titles, user_input, dat_numbered, REGEX):
     # Find the cross-region parents
     for key, values in titles.all.items():
         parents = values.copy()
+        parents_temp = parents.copy()
 
-        for title_1, title_2 in itertools.combinations(parents, 2):
+        for title_1, title_2 in itertools.combinations(parents_temp, 2):
             if (
                 title_1.short_name_lower == title_2.short_name_lower
                 and title_1.regions != title_2.regions
                 and '[bios]' not in title_1.full_name_lower
                 and '[bios]' not in title_2.full_name_lower):
-
-                # Check to see if titles are preproduction/bad or not. If so, favour
-                # production titles
-                preprod_title_1 = bool(re.search(REGEX.preproduction_bad, title_1.full_name_lower))
-                preprod_title_2 = bool(re.search(REGEX.preproduction_bad, title_2.full_name_lower))
-
-                if preprod_title_1 == True and preprod_title_2 == False:
-                    if title_1 in parents: parents.remove(title_1)
-                elif preprod_title_2 == True and preprod_title_1 == False:
-                    if title_2 in parents: parents.remove(title_2)
-
-                # Check to see if titles are modern rips or not. If so, favour
-                # standard titles
-                modern_rip_1 = False
-                modern_rip_2 = False
-
-                for edition in user_input.tag_strings.modern_editions:
-                    if bool(re.search(re.compile(edition, re.IGNORECASE), title_1.full_name_lower)): modern_rip_1 = True
-                    if bool(re.search(re.compile(edition, re.IGNORECASE), title_2.full_name_lower)): modern_rip_2 = True
-
-                if not (
-                    modern_rip_1 == True
-                    and modern_rip_2 == True):
-                        for edition in user_input.tag_strings.modern_editions:
-                            if user_input.modern == False:
-                                if bool(re.search(re.compile(edition, re.IGNORECASE), title_1.full_name_lower)) == True:
-                                    for language in title_1.languages:
-                                        if language in title_2.languages:
-                                            if title_1 in parents: parents.remove(title_1)
-                                elif bool(re.search(re.compile(edition, re.IGNORECASE), title_2.full_name_lower)) == True:
-                                    for language in title_2.languages:
-                                        if language in title_1.languages:
-                                            if title_2 in parents: parents.remove(title_2)
-                            else:
-                                if bool(re.search(re.compile(edition, re.IGNORECASE), title_1.full_name_lower)) == True:
-                                    for language in title_1.languages:
-                                        if language in title_2.languages:
-                                            if title_2 in parents: parents.remove(title_2)
-                                elif bool(re.search(re.compile(edition, re.IGNORECASE), title_2.full_name_lower)) == True:
-                                    for language in title_2.languages:
-                                        if language in title_1.languages:
-                                            if title_1 in parents: parents.remove(title_1)
-
-                # Check to see if titles are unlicensed/aftermarket or not. If so, favour
-                # production titles if they exist
-                unl_title_1 = bool(re.search('\((unl|aftermarket)\)', title_1.full_name_lower))
-                unl_title_2 = bool(re.search('\((unl|aftermarket)\)', title_2.full_name_lower))
-
-                if unl_title_1 == True and unl_title_2 == False:
-                    if title_1 in parents: parents.remove(title_1)
-                elif unl_title_2 == True and unl_title_1 == False:
-                    if title_2 in parents: parents.remove(title_2)
-
-        for title_1, title_2 in itertools.combinations(parents, 2):
-            if (
-                title_1.short_name_lower == title_2.short_name_lower
-                and title_1.regions != title_2.regions
-                and '[bios]' not in title_1.full_name_lower
-                and '[bios]' not in title_2.full_name_lower):
-                for region in user_input.user_region_order:
                     if (
-                        region in title_1.regions
-                        and region not in title_2.regions
-                        and title_1.cloneof == ''):
-                        if title_2 in parents: parents.remove(title_2)
-                        break
-                    elif (
-                        region in title_2.regions
-                        and region not in title_1.regions
-                        and title_2.cloneof == ''):
-                        if title_1 in parents: parents.remove(title_1)
-                        break
-                    elif (
-                        region in title_1.regions
-                        and region in title_2.regions
-                        and title_1.primary_region != title_2.primary_region):
+                        title_1 in parents
+                        and title_2 in parents):
+                            # Check to see if titles are preproduction/bad or not. If so, favour
+                            # production titles
+                            preprod_title_1 = bool(re.search(REGEX.preproduction_bad, title_1.full_name_lower))
+                            preprod_title_2 = bool(re.search(REGEX.preproduction_bad, title_2.full_name_lower))
 
-                        if title_1.cloneof == '':
-                            if title_2 in parents:
-                                parents.remove(title_2)
+                            if preprod_title_1 == True and preprod_title_2 == False:
+                                if title_1 in parents: parents.remove(title_1)
+                            elif preprod_title_2 == True and preprod_title_1 == False:
+                                if title_2 in parents: parents.remove(title_2)
+
+
+                    if (
+                        title_1 in parents
+                        and title_2 in parents):
+                            if user_input.no_demote_unl == False:
+                                # Check to see if titles are unlicensed/aftermarket or not. If so, favour
+                                # production titles if they exist
+                                unl_title_1 = bool(re.search('\((unl|aftermarket)\)', title_1.full_name_lower))
+                                unl_title_2 = bool(re.search('\((unl|aftermarket)\)', title_2.full_name_lower))
+
+                                if unl_title_1 == True and unl_title_2 == False:
+                                    if title_1 in parents: parents.remove(title_1)
+                                elif unl_title_2 == True and unl_title_1 == False:
+                                    if title_2 in parents: parents.remove(title_2)
+
+                    if (
+                        title_1 in parents
+                        and title_2 in parents):
+                            # Check to see if titles are modern rips or not. If so, favour
+                            # standard titles
+                            modern_rip_1 = False
+                            modern_rip_2 = False
+
+                            for edition in user_input.tag_strings.modern_editions:
+                                if bool(re.search(re.compile(edition, re.IGNORECASE), title_1.full_name_lower)): modern_rip_1 = True
+                                if bool(re.search(re.compile(edition, re.IGNORECASE), title_2.full_name_lower)): modern_rip_2 = True
+
+                            if not (
+                                modern_rip_1 == True
+                                and modern_rip_2 == True):
+                                    for edition in user_input.tag_strings.modern_editions:
+                                        if (
+                                        title_1 in parents
+                                        and title_2 in parents):
+                                            if user_input.modern == False:
+                                                if modern_rip_1 == True:
+                                                    for language in title_1.languages:
+                                                        if language in title_2.languages:
+                                                            if title_1 in parents: parents.remove(title_1)
+                                                elif modern_rip_2 == True:
+                                                    for language in title_2.languages:
+                                                        if language in title_1.languages:
+                                                            if title_2 in parents: parents.remove(title_2)
+                                            else:
+                                                if modern_rip_1 == True:
+                                                    for language in title_1.languages:
+                                                        if language in title_2.languages:
+                                                            if title_2 in parents: parents.remove(title_2)
+                                                elif modern_rip_2 == True:
+                                                    for language in title_2.languages:
+                                                        if language in title_1.languages:
+                                                            if title_1 in parents: parents.remove(title_1)
+
+        for title_1, title_2 in itertools.combinations(parents_temp, 2):
+            if (
+                title_1 in parents
+                and title_2 in parents):
+                if (
+                    title_1.short_name_lower == title_2.short_name_lower
+                    and title_1.regions != title_2.regions
+                    and '[bios]' not in title_1.full_name_lower
+                    and '[bios]' not in title_2.full_name_lower):
+                    for region in user_input.user_region_order:
+                        if (
+                        title_1 in parents
+                        and title_2 in parents):
+                            if (
+                                region in title_1.regions
+                                and region not in title_2.regions
+                                and title_1.cloneof == ''):
+                                if title_2 in parents: parents.remove(title_2)
                                 break
-                        elif title_2.cloneof == '':
-                            if title_1 in parents:
-                                parents.remove(title_1)
+                            elif (
+                                region in title_2.regions
+                                and region not in title_1.regions
+                                and title_2.cloneof == ''):
+                                if title_1 in parents: parents.remove(title_1)
                                 break
+                            elif (
+                                region in title_1.regions
+                                and region in title_2.regions
+                                and title_1.primary_region != title_2.primary_region):
+
+                                if title_1.cloneof == '':
+                                    if title_2 in parents:
+                                        if title_2 in parents: parents.remove(title_2)
+                                        break
+                                elif title_2.cloneof == '':
+                                    if title_1 in parents:
+                                        if title_1 in parents: parents.remove(title_1)
+                                        break
 
         # Assign clones
         for parent in parents:
@@ -467,7 +487,7 @@ def choose_string(string, user_input, region_data, title_list, REGEX, choose_tit
                                             if len(title_2.full_name_lower) < len(title_1.full_name_lower):
                                                 if title_2 in title_list: title_list.remove(title_2)
                                             elif len(title_1.full_name_lower) < len(title_2.full_name_lower):
-                                                    if title_1 in title_list: title_list.remove(title_1)
+                                                if title_1 in title_list: title_list.remove(title_1)
 
 
 def choose_version_revision(string, title_list, REGEX, trim_start, trim_end, preproduction=False):

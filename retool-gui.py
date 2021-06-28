@@ -30,9 +30,9 @@ scale_multiplier = 1
 if sys.platform.startswith('win'):
     import ctypes
 
+    # Fix the taskbar icon not loading on Windows
     if sys.argv[0].endswith('.exe') == False:
-        myappid = u'mycompany.myproduct.subproduct.version' # arbitrary string
-        ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(myappid)
+        ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(u'retool.retool.retool.retool')
 
     # Fonts
     font = 'Segoe UI, Tahoma, Arial'
@@ -62,7 +62,7 @@ sg.SetOptions(font=(font, 10))
 
 
 def main():
-    __version__ = '0.10'
+    __version__ = '0.11'
 
     # Generate user config file if it's missing
     generate_config(region_data.languages_long, region_data.region_order, False, False, True)
@@ -99,6 +99,7 @@ def main():
         [sg.HorizontalSeparator()],
 
         generate_checkbox(['Include titles that don\'t have hashes, ROMs, or disks specified'], 50*scale_multiplier, ['Not recommended\n\nBy default, Retool removes these titles from the output dat']),
+        generate_checkbox(['Don\'t replace (Unl) and (Aftermarket) titles if a production version is found in another region'], 60*scale_multiplier, ['By default, Retool prefers production titles from lower regions over\n(Unl) and (Aftermarket) titles from higher regions']),
         generate_checkbox(['Titles ripped from modern platform rereleases replace standard editions'], 50*scale_multiplier, ['Not recommended\n\nThese titles are ripped from modern platforms like Virtual Console,\nand might not work with emulators']),
         generate_checkbox(['Output dat in legacy parent/clone format'], 50*scale_multiplier, ['Not recommended for use with dat managers\n\nUse for the following things:\n\n* CloneRel\n* Manually analyzing parent/clone relationships created by Retool\n* Diffing outputs in order to update clone lists']),
         generate_checkbox(['Disable custom global and system filters'], 50*scale_multiplier, ['User-defined strings that include or exclude\ntitles Retool ordinarily wouldn\'t']),
@@ -489,6 +490,7 @@ def main():
 
     if 'emptytitles' in settings.user_config.data['gui settings']: window['checkbox-include-titles-that-dont-have-hashes-roms-or-disks-specified']
     if 'z' in settings.user_config.data['gui settings']: window['checkbox-titles-ripped-from-modern-platform-rereleases-replace-standard-editions'].update(True)
+    if 'y' in settings.user_config.data['gui settings']: window['checkbox-dont-replace-unl-and-aftermarket-titles-if-a-production-version-is-found-in-another-region'].update(True)
     if 'x' in settings.user_config.data['gui settings']: window['checkbox-output-dat-in-legacy-parent-clone-format'].update(True)
     if 'log' in settings.user_config.data['gui settings']: window['checkbox-also-output-lists-of-what-titles-have-been-kept-and-removed'].update(True)
     if 'list' in settings.user_config.data['gui settings']:
@@ -607,6 +609,7 @@ def main():
                     values['checkbox-unlicensed'],
                     values['checkbox-video'],
                     values['checkbox-titles-ripped-from-modern-platform-rereleases-replace-standard-editions'],
+                    values['checkbox-dont-replace-unl-and-aftermarket-titles-if-a-production-version-is-found-in-another-region'],
                     filter_by_languages, # languages
                     values['checkbox-output-dat-in-legacy-parent-clone-format'],
                     gui_output_settings, # user options
@@ -801,6 +804,8 @@ def main():
                 gui_settings.append('emptytitles')
             if values['checkbox-titles-ripped-from-modern-platform-rereleases-replace-standard-editions'] == True:
                 gui_settings.append('z')
+            if values['checkbox-dont-replace-unl-and-aftermarket-titles-if-a-production-version-is-found-in-another-region'] == True:
+                gui_settings.append('y')
             if values['checkbox-output-dat-in-legacy-parent-clone-format'] == True:
                 gui_settings.append('x')
             if values['checkbox-also-output-lists-of-what-titles-have-been-kept-and-removed'] == True:
@@ -931,7 +936,7 @@ def generate_checkbox(labels, width, tips=None):
             if tips == None:
                 checkboxes.append(sg.Checkbox(
                     enable_events=True,
-                    key=f'checkbox-{label.lower().replace(" ", "-").replace("/", "-").replace(",","").replace(single_quote,"")}',
+                    key=f'checkbox-{label.lower().replace(" ", "-").replace("/", "-").replace(",","").replace(single_quote,"").replace("(","").replace(")","")}',
                     font=(font, 9),
                     pad=(0,0),
                     size=(width,0.6),
@@ -939,7 +944,7 @@ def generate_checkbox(labels, width, tips=None):
             else:
                 checkboxes.append(sg.Checkbox(
                     enable_events=True,
-                    key=f'checkbox-{label.lower().replace(" ", "-").replace("/", "-").replace(",","").replace(single_quote,"")}',
+                    key=f'checkbox-{label.lower().replace(" ", "-").replace("/", "-").replace(",","").replace(single_quote,"").replace("(","").replace(")","")}',
                     font=(font, 9),
                     pad=(0,0),
                     size=(width,0.6),

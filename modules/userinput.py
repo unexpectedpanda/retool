@@ -57,6 +57,10 @@ def check_input():
                         action='store_true',
                         help='output dat/s in legacy parent/clone format')
 
+    modes.add_argument('-y',
+                        action='store_true',
+                        help='R|don\'t demote (Unl) titles if a production version is found in another region')
+
     modes.add_argument('-z',
                         action='store_true',
                         help='R|titles ripped from modern platform rereleases, such as those found\nin Virtual Console, replace standard editions (ripped titles might\nnot work in emulators)')
@@ -151,6 +155,7 @@ def check_input():
             True if 'u' in user_options else False,
             True if 'v' in user_options else False,
             args.z,
+            args.y,
             args.l,
             args.x,
             user_options,
