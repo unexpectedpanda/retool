@@ -3,7 +3,7 @@
 		"name": [
 			"Nintendo - Super Nintendo Entertainment System"
 		],
-		"last updated": "23 May 2021",
+		"last updated": "28 June 2021",
 		"minimum version": "0.92"
 	},
 
@@ -600,6 +600,7 @@
 			["NFL Pro Football '94", 1]
 		],
 		"Magical Drop 2": [
+			["Magical Drop II", 1],
 			["Magical Drop 2 (Bunka Housou Special Version)", 2]
 		],
 		"Magical Quest Starring Mickey Mouse, The": [
@@ -1178,8 +1179,7 @@
 			["Larry Nixon's Super Bass Fishing", 1]
 		],
 		"Tom and Jerry": [
-			["Tom to Jerry", 1],
-			["Tom & Jerry", 2]
+			["Tom to Jerry", 1]
 		],
 		"Tommy Moe's Winter Extreme - Skiing and Snowboarding": [
 			["Ski Paradise with Snowboard", 1],
