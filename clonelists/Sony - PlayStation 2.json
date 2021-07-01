@@ -304,7 +304,7 @@
 			["Buzz! Svenska Genier", 1],
 			["Buzz! Norgesmester", 1],
 			["Buzz! Сокровища нации", 1],
-			["Buzz! Polskie Łamigłówki", 1],
+			["Buzz! Polskie Łamigłówki", 1]
 		],
 		"Buzz! The Big Quiz": [
 			["Buzz! Das grosse Quiz", 1],
@@ -327,6 +327,12 @@
 			["Buzz! Hollywood", 1],
 			["Buzz! Hollywood Leffavisa", 1],
 			["Buzz! Hollywood Quiz", 1]
+		],
+	    	"Buzz! The Pop Quiz": [
+			["Buzz! Pop Quiz", 1]
+		],
+	    	"Buzz! The Schools Quiz": [
+			["Buzz! Escuela de Talentos", 1]
 		],
 		"Buzz! The Sports Quiz": [
 			["Buzz! Das Sport-Quiz", 1],
