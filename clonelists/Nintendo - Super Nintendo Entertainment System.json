@@ -3,11 +3,19 @@
 		"name": [
 			"Nintendo - Super Nintendo Entertainment System"
 		],
-		"last updated": "28 June 2021",
+		"last updated": "July 3, 2021",
 		"minimum version": "0.92"
 	},
 
 	"categories": {
+		"Aging Cassette": {
+			"match": "short",
+			"categories": ["Applications"]
+        	},
+		"Controller Test Cassette": {
+			"match": "short",
+			"categories": ["Applications"]
+        	},
 		"Game Genie": {
 			"match": "short",
 			"categories": ["Applications"]
