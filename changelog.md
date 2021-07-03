@@ -1,3 +1,8 @@
+# 0.96
+
+- Fixed dats with an empty author field causing a crash.
+
+
 # 0.95
 
 - Fixed a bug where a combination of modern editions and the `(Unl)` tag caused

@@ -693,9 +693,9 @@ def header(input_dat, new_title_count, user_input, version):
         f'\n\t\t<description>{html.escape(input_dat.name, quote=False)}{user_input.user_options}'
         f' ({new_title_count}) ({input_dat.version})</description>')
 
-    input_dat.author = input_dat.author.replace(' & Retool', '')
 
     if input_dat.author != '' and input_dat.author != None:
+        input_dat.author = input_dat.author.replace(' & Retool', '')
         input_dat.author = f'{html.escape(input_dat.author, quote=False)} &amp; Retool'
     else:
         input_dat.author = 'Unknown &amp; Retool'

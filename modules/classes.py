@@ -19,7 +19,7 @@ class CloneList:
 class Dat:
     """ Returns an object that contains the input dat's details """
 
-    def __init__(self, contents='', name='Unknown', description='Unknown', version='Unknown', author='Unknown', url='Unknown', user_options=[]):
+    def __init__(self, contents='', name='Unknown', description='Unknown', version='Unknown', author='Unknown', url='Unknown', user_options=[], end=False):
         self.name = name
         self.description = description
         self.version = version
@@ -27,6 +27,7 @@ class Dat:
         self.url = url
         self.contents = contents
         self.user_options = user_options
+        self.end = end
 
 
 class DatNode:
