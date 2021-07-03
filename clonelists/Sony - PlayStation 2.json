@@ -682,7 +682,10 @@
 		"Dr. Seuss' The Cat in the Hat": [
 			["Cat in the Hat, The", 1]
 		],
-		"Dragon Ball Z - Budokai 2": [
+		"Dragon Ball Z - Budokai": [
+			["Dragon Ball Z", 1]
+		],
+	    	"Dragon Ball Z - Budokai 2": [
 			["Dragon Ball Z 2V", 0],
 			["Dragon Ball Z 2", 1]
 		],
