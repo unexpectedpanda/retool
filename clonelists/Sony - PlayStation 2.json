@@ -286,16 +286,16 @@
 			["Simple 2000 Series Vol. 5 - The Block Kuzushi Hyper", 1]
 		],
 		"Buzz! Brain of the World": [
-            ["Buzz! Brain of Oz", 1],
-            ["Buzz! Brain of Switzerland", 1],
-            ["Buzz! Brain of the UK", 1],
-            ["Buzz! De Slimste van Nederland", 1],
-            ["Buzz! Deutschlands Superquiz", 1],
-            ["Buzz! Il Quizzone Nazionale", 1],
-            ["Buzz! Le Plus Malin des Francais", 1],
-            ["Buzz! Norgesmester", 1],
-            ["Buzz! Que Sabes de tu Pais", 1]
-        ],
+			["Buzz! Brain of Oz", 1],
+			["Buzz! Brain of Switzerland", 1],
+			["Buzz! Brain of the UK", 1],
+			["Buzz! De Slimste van Nederland", 1],
+			["Buzz! Deutschlands Superquiz", 1],
+			["Buzz! Il Quizzone Nazionale", 1],
+			["Buzz! Le Plus Malin des Francais", 1],
+			["Buzz! Norgesmester", 1],
+			["Buzz! Que Sabes de tu Pais", 1]
+		],
 		"Buzz! The Big Quiz": [
 			["Buzz! Das grosse Quiz", 1],
 			["Buzz! El Gran Reto", 1],
@@ -321,7 +321,7 @@
 		"Buzz! The Pop Quiz": [
 			["Buzz! Pop Quiz", 1]
 		],
-	    "Buzz! The Schools Quiz": [
+		"Buzz! The Schools Quiz": [
 			["Buzz! Escuela de Talentos", 1]
 		],
 		"Buzz! The Sports Quiz": [
