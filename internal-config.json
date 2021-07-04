@@ -7,7 +7,7 @@
             "These are defaults that Retool requires, don't modify this file.",
             "Check user-config.yaml for user-editable settings."
         ],
-        "last updated": "23 May 2021"
+        "last updated": "4 July 2021"
     },
 
     "ignore_tags": [
@@ -218,6 +218,7 @@
         "\\s?\\(Konami Collector's Series\\)",
         "\\s?\\(Mega Drive Mini\\)",
         "\\s?\\(Mega Man Legacy Collection\\)",
+        "\\s?\\(Mega Man iam8bit 30th Anniversary\\)",
         "\\s?\\(Namcot Collection.*?\\)",
         "\\s?\\(Namco Museum Archives Vol [0-9]\\)",
         "\\s?\\(PC Rerelease\\)",
