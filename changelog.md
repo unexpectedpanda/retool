@@ -1,3 +1,8 @@
+# 0.97
+
+- Fixed titles with manually set categories in clone lists being erroneously
+  added to remove lists when the `--log` option was set.
+
 # 0.96
 
 - Fixed dats with an empty author field causing a crash.

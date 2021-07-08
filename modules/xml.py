@@ -228,10 +228,6 @@ def dat_to_dict(region, region_data, input_dat, user_input, removes_found, categ
                                 disc_title.categories = value['categories']
                                 categories_found.update([key])
 
-                                if 'Categories' not in user_input.removed_titles:
-                                    user_input.removed_titles['Categories'] = []
-                                user_input.removed_titles['Categories'].append(disc_title.full_name)
-
                                 # Check if the (Demo) tag is missing, and add it if so
                                 if 'Demos' in disc_title.categories and '(Demo' not in disc_title.full_name:
                                     if disc_title in groups[group_name]:

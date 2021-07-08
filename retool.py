@@ -31,7 +31,7 @@ from modules.xml import dat_to_dict, process_input_dat
 # Require at least Python 3.8
 assert sys.version_info >= (3, 8)
 
-__version__ = '0.96'
+__version__ = '0.97'
 
 def main(gui_input=''):
 
@@ -45,7 +45,7 @@ def main(gui_input=''):
 
     # Splash screen
     print(f'{Font.bold}\nRetool {__version__}{Font.end}')
-    print('-----------')
+    print('-'*len(f'Retool {__version__}'))
 
     if len(sys.argv) == 1 and gui_input == '':
         printwrap(
