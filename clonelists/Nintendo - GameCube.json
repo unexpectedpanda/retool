@@ -10,6 +10,13 @@
 		"minimum version": "0.89"
 	},
 
+	"categories": {
+		"Ribbit King Plus!": {
+			"match": "short",
+			"categories": ["Video"]
+		}
+	},
+	
 	"overrides": {
 		"Disney Sports - Football (Europe) (En,Fr,De,Es,It)": {
 			"new group": "Disney Sports - Soccer",
