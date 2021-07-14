@@ -3,7 +3,7 @@
         "name": [
 			"Sony - PlayStation 2"
 		],
-        "last updated": "4 July 2021",
+        "last updated": "14 July 2021",
 		"minimum version": "0.89"
     },
 
@@ -1697,6 +1697,9 @@
 		],
 		"Metal Gear Solid 3 - Subsistence (Disc 3) (Existence) (Limited Edition)": [
 			["Metal Gear Solid 3 - Subsistence (Disc 3) (Existence)", 2]
+		],
+		"Metal Saga": [
+			["Metal Saga - Sajin no Kusari", 1]
 		],
 		"Metal Slug Anthology": [
 			["Metal Slug Complete", 1]
