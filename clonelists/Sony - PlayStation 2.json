@@ -3,7 +3,7 @@
         "name": [
 			"Sony - PlayStation 2"
 		],
-        "last updated": "14 July 2021",
+        "last updated": "17 July 2021",
 		"minimum version": "0.89"
     },
 
@@ -2235,6 +2235,12 @@
 		],
 		"Romancing SaGa": [
 			["Romancing SaGa - Minstrel Song", 1]
+		],
+		"RPG Maker II": [
+			["RPG Tkool 5", 1]
+		],
+		"RPG Maker 3": [
+			["RPG Tkool", 1]
 		],
 		"RSII - Riding Spirits": [
 			["RSII - Riding Spirits 2", 1]
