@@ -6,13 +6,6 @@
 		"last updated": "8 July 2021",
 		"minimum version": "0.89"
 	},
-
-	"categories": {
-		"Killzone - Liberation (USA) (En,Fr,De,Es,It,Nl,Pt,Ru) (DEV)": {
-			"match": "full",
-			"categories": ["Preproduction"]
-		}
-	},
 	
 	"removes": {
 		"2 Games in 1! Archer Maclean's Mercury & Mercury Meltdown": {
