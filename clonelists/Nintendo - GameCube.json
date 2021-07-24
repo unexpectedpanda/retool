@@ -6,12 +6,12 @@
 			"Nintendo - GameCube - NKit ISO",
 			"Nintendo - GameCube - NASOs"
 		],
-		"last updated": "14 July 2021",
+		"last updated": "24 July 2021",
 		"minimum version": "0.89"
 	},
 
 	"categories": {
-		"Ribbit King Plus!": {
+		"Ribbit King Plus! (Bonus Disc)": {
 			"match": "short",
 			"categories": ["Video"]
 		}
