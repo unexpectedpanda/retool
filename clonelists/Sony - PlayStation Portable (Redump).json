@@ -3,10 +3,10 @@
 		"name": [
 			"Sony - PlayStation Portable (Redump)"
 		],
-		"last updated": "19 May 2021",
+		"last updated": "8 July 2021",
 		"minimum version": "0.89"
 	},
-
+	
 	"removes": {
 		"2 Games in 1! Archer Maclean's Mercury & Mercury Meltdown": {
 			"match": "short"
@@ -443,6 +443,9 @@
 		],
 		"SCEJ PSP Browser (UTST-99281)": [
 			["SCEJ PSP Browser (UTST-99261)", 2]
+		],
+		"Secret Agent Clank": [
+			["Clank & Ratchet - Maruhi Mission Ignition!", 1]
 		],
 		"Sega Genesis Collection": [
 			["Sega Mega Drive Collection", 1]
