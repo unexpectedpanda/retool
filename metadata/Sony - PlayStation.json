@@ -72,7 +72,7 @@
         "languages": "En"
     },
     "1 on 1 (Japan)": {
-        "languages": ""
+        "languages": "Ja"
     },
     "1 on 1 (Japan) (Demo)": {
         "languages": "Ja"
@@ -728,11 +728,14 @@
     "Alexi Lalas International Soccer (USA) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
+    "Alfred Chicken (Europe) (Beta 1)": {
+        "languages": "En"
+    },
+    "Alfred Chicken (Europe) (Beta 2)": {
+        "languages": "En"
+    },
     "Alfred Chicken (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
-    },
-    "Alfred Chicken (Europe) (Proto)": {
-        "languages": "En"
     },
     "Alice in Cyberland (Japan)": {
         "languages": "Ja"
@@ -1119,7 +1122,7 @@
         "languages": "Ja"
     },
     "Aoki Ookami to Shiroki Mejika - Genchou Hishi (Japan)": {
-        "languages": ""
+        "languages": "Ja"
     },
     "Aozora to Nakama-tachi - Yume no Bouken Plus (Japan)": {
         "languages": "Ja"
@@ -1332,7 +1335,7 @@
         "languages": "En"
     },
     "Arcana Senki Ludo (Japan)": {
-        "languages": ""
+        "languages": "Ja"
     },
     "Archer Maclean's 3D Pool (Europe)": {
         "languages": "En"
@@ -1545,13 +1548,13 @@
         "languages": "En"
     },
     "Asonde AIUEO (Japan)": {
-        "languages": ""
+        "languages": "Ja"
     },
     "Asonde Chinou Up (Japan)": {
         "languages": "Ja"
     },
     "Asonde Kazu Suuji (Japan)": {
-        "languages": ""
+        "languages": "Ja"
     },
     "Assault (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
@@ -1620,7 +1623,7 @@
         "languages": "En"
     },
     "Astro Trooper Vanark (Japan)": {
-        "languages": ""
+        "languages": "Ja"
     },
     "Astronoka (Japan) (Demo Movie)": {
         "languages": "Ja"
@@ -2052,7 +2055,7 @@
         "languages": "Ja"
     },
     "Baseball - Pro-nami Kusayakyuu! (Japan)": {
-        "languages": ""
+        "languages": "Ja"
     },
     "Baseball Navigator (Japan)": {
         "languages": "Ja"
@@ -2085,7 +2088,7 @@
         "languages": "Ja"
     },
     "Bassing Beat 2 (Japan)": {
-        "languages": ""
+        "languages": "Ja"
     },
     "Bastard!! Utsuronaru Kamigami no Utsuwa (Japan)": {
         "languages": "Ja"
@@ -2507,6 +2510,9 @@
     "Blade (Europe)": {
         "languages": "En"
     },
+    "Blade (Europe) (Beta)": {
+        "languages": "En"
+    },
     "Blade (France)": {
         "languages": "Fr"
     },
@@ -2610,7 +2616,7 @@
         "languages": "Ja"
     },
     "Block Kuzushi 2 (Japan)": {
-        "languages": ""
+        "languages": "Ja"
     },
     "Block Wars (Japan)": {
         "languages": "Ja"
@@ -2751,7 +2757,7 @@
         "languages": "Ja"
     },
     "Bokujou Monogatari - Harvest Moon (Japan)": {
-        "languages": ""
+        "languages": "Ja"
     },
     "Bokujou Monogatari - Harvest Moon (Japan) (Rev 1)": {
         "languages": "Ja"
@@ -2805,7 +2811,7 @@
         "languages": "En"
     },
     "Bombing Islands, The (Japan)": {
-        "languages": ""
+        "languages": "En"
     },
     "Bombing Islands, The (USA)": {
         "languages": "En"
@@ -2919,7 +2925,7 @@
         "languages": "Ja"
     },
     "Brave Prove (Japan)": {
-        "languages": ""
+        "languages": "Ja"
     },
     "Brave Saga 2 (Japan) (Disc 1)": {
         "languages": "Ja"
@@ -3206,10 +3212,10 @@
     "Bust-A-Groove (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
-    "Bust-A-Groove (Europe) (En,Fr,De,Es,It) (Beta)": {
+    "Bust-A-Groove (Europe) (En,Fr,De,Es,It) (Beta 1)": {
         "languages": "En, Fr, De, It, Es"
     },
-    "Bust-A-Groove (Europe) (En,Fr,De,Es,It) (Proto)": {
+    "Bust-A-Groove (Europe) (En,Fr,De,Es,It) (Beta 2)": {
         "languages": "En, Fr, De, It, Es"
     },
     "Bust-A-Move '99 (USA)": {
@@ -3258,6 +3264,9 @@
         "languages": "En"
     },
     "C-12 - Final Resistance (Europe)": {
+        "languages": "En"
+    },
+    "C-12 - Final Resistance (Europe) (Beta)": {
         "languages": "En"
     },
     "C-12 - Final Resistance (Europe) (En,Fr,De,Es,It) (Demo)": {
@@ -3504,7 +3513,7 @@
         "languages": "Ja"
     },
     "Carom Shot 2 (Japan)": {
-        "languages": ""
+        "languages": "Ja"
     },
     "Carom Shot 2 (Japan) (Demo)": {
         "languages": "Ja"
@@ -3606,7 +3615,7 @@
         "languages": "En"
     },
     "Championship Bass (Japan)": {
-        "languages": ""
+        "languages": "Ja"
     },
     "Championship Bass (USA)": {
         "languages": "En"
@@ -3653,7 +3662,13 @@
     "Chase the Express (Europe) (Disc 1)": {
         "languages": "En"
     },
+    "Chase the Express (Europe) (Disc 1) (Beta)": {
+        "languages": "En"
+    },
     "Chase the Express (Europe) (Disc 2)": {
+        "languages": "En"
+    },
+    "Chase the Express (Europe) (Disc 2) (Beta)": {
         "languages": "En"
     },
     "Chase the Express (France) (Disc 1)": {
@@ -3774,7 +3789,7 @@
         "languages": "Ja"
     },
     "Chibi Maruko-chan - Maruko Enikki World (Japan)": {
-        "languages": ""
+        "languages": "Ja"
     },
     "Chicken Run (Europe)": {
         "languages": "En"
@@ -3840,7 +3855,7 @@
         "languages": "En"
     },
     "Chocolate Kiss (Japan)": {
-        "languages": ""
+        "languages": "Ja"
     },
     "Choro Q (Japan)": {
         "languages": "Ja"
@@ -3849,6 +3864,9 @@
         "languages": "Ja"
     },
     "Choro Q 3 (Japan)": {
+        "languages": "Ja"
+    },
+    "Choro Q 3 (Japan) (Demo)": {
         "languages": "Ja"
     },
     "Choro Q Jet - Rainbow Wings (Japan)": {
@@ -4125,19 +4143,19 @@
         "languages": "Ja"
     },
     "Click Manga - Dynamic Robot Taisen 1 - Shutsugeki! Kyoui no Robot Gundan!! (Japan)": {
-        "languages": ""
+        "languages": "Ja"
     },
     "Click Manga - Dynamic Robot Taisen 2 - Kyoufu! Akuma Zoku Fukkatsu (Japan)": {
         "languages": "Ja"
     },
     "Click Manga - Ginga Eiyuu Densetsu 1 - Eien no Yoru no Naka de (Japan)": {
-        "languages": ""
+        "languages": "Ja"
     },
     "Click Manga - Ginga Eiyuu Densetsu 2 - Iserlohn Kouryaku (Japan)": {
-        "languages": ""
+        "languages": "Ja"
     },
     "Click Manga - Opera-za no Kaijin (Japan)": {
-        "languages": ""
+        "languages": "Ja"
     },
     "Click Medic (Japan)": {
         "languages": "Ja"
@@ -4580,10 +4598,10 @@
     "Cool Boarders 3 (USA)": {
         "languages": "En"
     },
-    "Cool Boarders 3 (USA) (Demo)": {
+    "Cool Boarders 3 (USA) (Beta)": {
         "languages": "En"
     },
-    "Cool Boarders 3 (USA) (Proto)": {
+    "Cool Boarders 3 (USA) (Demo)": {
         "languages": "En"
     },
     "Cool Boarders 4 (Europe)": {
@@ -4620,10 +4638,10 @@
         "languages": "Ja"
     },
     "Countdown Vampires (Japan) (Disc 1)": {
-        "languages": ""
+        "languages": "Ja"
     },
     "Countdown Vampires (Japan) (Disc 2)": {
-        "languages": ""
+        "languages": "Ja"
     },
     "Countdown Vampires (USA) (Disc 1)": {
         "languages": "En"
@@ -4788,7 +4806,7 @@
         "languages": "Ja"
     },
     "Crisis City (Japan)": {
-        "languages": ""
+        "languages": "Ja"
     },
     "Critical Blow (Japan)": {
         "languages": "Ja"
@@ -4878,7 +4896,7 @@
         "languages": "En"
     },
     "Crown Knights, The - Jaja-Uma! Quartet - Mega Dream Destruction (Japan)": {
-        "languages": ""
+        "languages": "Ja"
     },
     "Crusader - No Remorse (Europe)": {
         "languages": "En"
@@ -5001,10 +5019,10 @@
         "languages": "En"
     },
     "Cybernetic Empire (Japan) (Disc 1)": {
-        "languages": ""
+        "languages": "Ja"
     },
     "Cybernetic Empire (Japan) (Disc 2)": {
-        "languages": ""
+        "languages": "Ja"
     },
     "Cybernetic Tuning Master, The - Exhaust King (Japan)": {
         "languages": "Ja"
@@ -5097,7 +5115,7 @@
         "languages": "Ja"
     },
     "DX Okuman Chouja Game II - The Money Battle (Japan)": {
-        "languages": ""
+        "languages": "Ja"
     },
     "DX Shachou Game (Japan)": {
         "languages": "Ja"
@@ -5139,7 +5157,7 @@
         "languages": "Ja"
     },
     "Daiobake Yashiki - Hamamura Jun no Jitsuwa Kaidan (Japan)": {
-        "languages": ""
+        "languages": "Ja"
     },
     "Daiobake Yashiki - Hamamura Jun no Jitsuwa Kaidan (Japan) (Demo)": {
         "languages": "Ja"
@@ -5438,6 +5456,9 @@
     "Deep Freeze (Japan)": {
         "languages": "Ja"
     },
+    "Deep Sea Adventure - Kaitei-kyuu Pantarassa no Nazo (Japan) (Demo)": {
+        "languages": "Ja"
+    },
     "Deep Sea Adventure - Kaitei-kyuu Pantarassa no Nazo (Japan) (Disc 1)": {
         "languages": "Ja"
     },
@@ -5478,7 +5499,7 @@
         "languages": "En"
     },
     "Dekiru! Game Center (Japan)": {
-        "languages": ""
+        "languages": "Ja"
     },
     "Delta Force Urban Warfare (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
@@ -6575,7 +6596,7 @@
     "Disney's Treasure Planet (Europe)": {
         "languages": "En"
     },
-    "Disney's Treasure Planet (Europe) (Proto)": {
+    "Disney's Treasure Planet (Europe) (Beta)": {
         "languages": "En"
     },
     "Disney's Treasure Planet (USA)": {
@@ -6669,6 +6690,9 @@
         "languages": "It"
     },
     "Disney-Pixar Monsters en Co. - Schrik Eiland (Netherlands)": {
+        "languages": "Nl"
+    },
+    "Disney-Pixar Monsters en Co. - Schrik Eiland (Netherlands) (Beta)": {
         "languages": "Nl"
     },
     "Disney-Pixar Monsters, Inc. - Monstros e Companhia - Ilha Assustadora (Portugal)": {
@@ -6872,7 +6896,7 @@
     "Diver's Dream (Europe) (En,Fr,De)": {
         "languages": "En, Fr, De"
     },
-    "Diver's Dream (Europe) (En,Fr,De) (Proto)": {
+    "Diver's Dream (Europe) (En,Fr,De) (Beta)": {
         "languages": "En, Fr, De"
     },
     "Divide, The - Enemies Within (USA)": {
@@ -6945,7 +6969,7 @@
         "languages": "Ja"
     },
     "Doko Demo Hamster - Bi! Click Tanken-tai (Japan)": {
-        "languages": ""
+        "languages": "Ja"
     },
     "Doko Demo Hamster 2 (Japan)": {
         "languages": "Ja"
@@ -7502,7 +7526,7 @@
     "Dukes of Hazzard, The - Racing for Home (Europe)": {
         "languages": "En"
     },
-    "Dukes of Hazzard, The - Racing for Home (Europe) (Proto)": {
+    "Dukes of Hazzard, The - Racing for Home (Europe) (Beta)": {
         "languages": "En"
     },
     "Dukes of Hazzard, The - Racing for Home (USA)": {
@@ -7893,7 +7917,7 @@
         "languages": "Ja"
     },
     "Engacho! (Japan)": {
-        "languages": ""
+        "languages": "Ja"
     },
     "Enigma (Japan) (Disc 1)": {
         "languages": "Ja"
@@ -8868,7 +8892,7 @@
         "languages": "Ja"
     },
     "Exciting Pro Wres (Japan)": {
-        "languages": ""
+        "languages": "Ja"
     },
     "Exciting Pro Wres (Japan) (Demo)": {
         "languages": "Ja"
@@ -9249,7 +9273,7 @@
         "languages": "En"
     },
     "Family Chess (Japan)": {
-        "languages": ""
+        "languages": "Ja"
     },
     "Family Connection - A Guide to Lightspan (USA)": {
         "languages": "En"
@@ -9350,13 +9374,13 @@
     "Famitsuu Wave 9gatsu-gou Vol. 14 (Japan)": {
         "languages": "Ja"
     },
-    "Famitsuu Wave Soukangou Vol. 1 (Japan)": {
+    "Famitsuu Wave Soukan-gou Vol. 1 (Japan)": {
         "languages": "Ja"
     },
-    "Famitsuu Wave Soukangou Vol. 2 (Japan)": {
+    "Famitsuu Wave Soukan-gou Vol. 2 (Japan)": {
         "languages": "Ja"
     },
-    "Famitsuu Wave Soukangou Vol. 3 (Japan)": {
+    "Famitsuu Wave Soukan-gou Vol. 3 (Japan)": {
         "languages": "Ja"
     },
     "Fantastic Fortune (Japan)": {
@@ -9521,7 +9545,7 @@
     "Fighter Maker (USA)": {
         "languages": "En"
     },
-    "Fighter Maker (USA) (Proto)": {
+    "Fighter Maker (USA) (Beta)": {
         "languages": "En"
     },
     "Fighters' Impact (Japan)": {
@@ -9570,7 +9594,7 @@
         "languages": "En"
     },
     "Fighting Illusion - K-1 GP 2000 (Japan)": {
-        "languages": ""
+        "languages": "Ja"
     },
     "Fighting Illusion - K-1 Grand Prix '98 (Japan)": {
         "languages": "Ja"
@@ -9585,7 +9609,7 @@
         "languages": "Ja"
     },
     "Fighting Illusion V - K-1 Grand Prix '99 (Japan)": {
-        "languages": ""
+        "languages": "Ja"
     },
     "Fighting Network Rings (Japan)": {
         "languages": "Ja"
@@ -10053,10 +10077,10 @@
         "languages": "Ja"
     },
     "Fishing Freaks - BassRise (Japan) (Doukon Pack)": {
-        "languages": ""
+        "languages": "Ja"
     },
     "Fishing Freaks - BassRise Plus (Japan)": {
-        "languages": ""
+        "languages": "Ja"
     },
     "Fishing Koshien II (Japan)": {
         "languages": "Ja"
@@ -10178,6 +10202,9 @@
     "Formula Circus (Japan)": {
         "languages": "Ja"
     },
+    "Formula Circus (Japan) (Demo)": {
+        "languages": "En"
+    },
     "Formula GP (Europe)": {
         "languages": "En"
     },
@@ -10218,6 +10245,9 @@
         "languages": "En"
     },
     "Formula One 2001 (Europe) (En,Fi)": {
+        "languages": "En, Fi"
+    },
+    "Formula One 2001 (Europe) (En,Fi) (Beta)": {
         "languages": "En, Fi"
     },
     "Formula One 2001 (Europe) (Es,It)": {
@@ -10817,6 +10847,9 @@
     "GameShark - Metal Gear Solid 2 - Sons of Liberty (USA) (Disc 2) (Strategy in Action) (Unl)": {
         "languages": "En"
     },
+    "GameShark - Video Game Enhancer Version 5 (USA) (Unl)": {
+        "languages": "En"
+    },
     "GameShark 2 - Code Archive Disc (USA) (Unl)": {
         "languages": "En"
     },
@@ -10854,9 +10887,6 @@
         "languages": "En"
     },
     "GameShark Sampler (USA) (Sample GameShark and Bonus Savegames) (Unl)": {
-        "languages": "En"
-    },
-    "GameShark Video Game Enhancer Version 5 (USA) (Unl)": {
         "languages": "En"
     },
     "Gamera 2000 (Japan) (Demo)": {
@@ -11220,7 +11250,7 @@
         "languages": "Ja"
     },
     "Goryuujin Electro (Japan)": {
-        "languages": ""
+        "languages": "Ja"
     },
     "Gotha II - Tenkuu no Kishi (Japan)": {
         "languages": "Ja"
@@ -11238,6 +11268,9 @@
         "languages": "Ja"
     },
     "Gourmet Action Game - Manpuku!! Nabe Kazoku (Japan)": {
+        "languages": "Ja"
+    },
+    "Gourmet Action Game - Manpuku!! Nabe Kazoku (Japan) (Demo)": {
         "languages": "Ja"
     },
     "Grab des Pharao, Das (Germany)": {
@@ -11416,6 +11449,9 @@
     },
     "Granstream Saga, The (USA)": {
         "languages": "En"
+    },
+    "Gratis! Demo Disc! (Spain)": {
+        "languages": "Es"
     },
     "Great Battle VI, The (Japan)": {
         "languages": "Ja"
@@ -11958,7 +11994,7 @@
         "languages": "Ja"
     },
     "Heiwa Parlor! Pro - BunDori King SP (Japan)": {
-        "languages": ""
+        "languages": "Ja"
     },
     "Heiwa Parlor! Pro - Dolphin Ring Special (Japan)": {
         "languages": "Ja"
@@ -11970,7 +12006,7 @@
         "languages": "Ja"
     },
     "Heiwa Parlor! Pro - Lupin the IIIrd Special (Japan)": {
-        "languages": ""
+        "languages": "Ja"
     },
     "Heiwa Parlor! Pro - Tsunatori Special (Japan)": {
         "languages": "Ja"
@@ -11982,16 +12018,16 @@
         "languages": "Ja"
     },
     "Helix - Fear Effect (Japan) (Disc 1)": {
-        "languages": ""
+        "languages": "Ja"
     },
     "Helix - Fear Effect (Japan) (Disc 2)": {
-        "languages": ""
+        "languages": "Ja"
     },
     "Helix - Fear Effect (Japan) (Disc 3)": {
-        "languages": ""
+        "languages": "Ja"
     },
     "Helix - Fear Effect (Japan) (Disc 4)": {
-        "languages": ""
+        "languages": "Ja"
     },
     "Hellboy - Asylum Seeker (USA)": {
         "languages": "En"
@@ -12009,6 +12045,9 @@
         "languages": "Ja"
     },
     "Hello Kitty no Cube de Cute (Japan)": {
+        "languages": "Ja"
+    },
+    "Hello Kitty no Cube de Cute (Japan) (Demo)": {
         "languages": "Ja"
     },
     "Henry Explorers (Japan)": {
@@ -12048,6 +12087,9 @@
         "languages": "Ja"
     },
     "Heroine Dream 2 (Japan)": {
+        "languages": "Ja"
+    },
+    "Hexamoon Guardians (Japan) (Demo)": {
         "languages": "Ja"
     },
     "Hexamoon Guardians (Japan) (Disc 1)": {
@@ -12117,10 +12159,10 @@
         "languages": "Ja"
     },
     "Himitsu Sentai Metamor V Deluxe (Japan) (Disc 1)": {
-        "languages": ""
+        "languages": "Ja"
     },
     "Himitsu Sentai Metamor V Deluxe (Japan) (Disc 2)": {
-        "languages": ""
+        "languages": "Ja"
     },
     "Hissatsu Pachi-Slot Station - Meoshi Ichiban (Japan)": {
         "languages": "Ja"
@@ -12129,7 +12171,7 @@
         "languages": "Ja"
     },
     "Hissatsu Pachi-Slot Station 3 (Japan)": {
-        "languages": ""
+        "languages": "Ja"
     },
     "Hissatsu Pachi-Slot Station 4 - New Pulsar R & Hot Rod Queen (Japan)": {
         "languages": "Ja"
@@ -12201,10 +12243,10 @@
         "languages": "Ja"
     },
     "Hissatsu Pachinko Station Now 3 - Youkai Engei (Japan)": {
-        "languages": ""
+        "languages": "Ja"
     },
     "Hissatsu Pachinko Station Now 4 - Ore wa Nekketsu Bouken Ou da!! (Japan)": {
-        "languages": ""
+        "languages": "Ja"
     },
     "Hissatsu Pachinko Station Now 5 - GeGeGe no Kitarou (Japan)": {
         "languages": "Ja"
@@ -12213,10 +12255,10 @@
         "languages": "Ja"
     },
     "Hissatsu Pachinko Station Now 7 - Magical Circus (Japan)": {
-        "languages": ""
+        "languages": "Ja"
     },
     "Hissatsu Pachinko Station Now 8 - Jarinko Chie (Japan)": {
-        "languages": ""
+        "languages": "Ja"
     },
     "Hissatsu Pachinko Station Now 9 - Dirty Pair (Japan)": {
         "languages": "Ja"
@@ -12234,6 +12276,9 @@
         "languages": "Ja"
     },
     "Hit Back (Japan)": {
+        "languages": "Ja"
+    },
+    "Hit Back (Japan) (Demo)": {
         "languages": "Ja"
     },
     "Hive Wars, The (Japan) (Disc 1)": {
@@ -12294,7 +12339,7 @@
         "languages": "Ja"
     },
     "Honkaku Yonin Uchi Pro Mahjong - Mahjong Ou (Japan)": {
-        "languages": ""
+        "languages": "Ja"
     },
     "Honkakuha Yonin Uchi - Mahjong Club (Japan)": {
         "languages": "Ja"
@@ -12314,7 +12359,7 @@
     "Horned Owl (Japan)": {
         "languages": "Ja"
     },
-    "Hoshi de Hakken!! Tamagotchi (Japan)": {
+    "Hoshi de Hakken!! Tamagotchi (Japan, Asia)": {
         "languages": "Ja"
     },
     "Hoshi no Mahoroba (Japan)": {
@@ -12978,6 +13023,9 @@
         "languages": "En"
     },
     "International Superstar Soccer Pro (Europe) (Rev 1)": {
+        "languages": "En"
+    },
+    "International Track & Field (Asia)": {
         "languages": "En"
     },
     "International Track & Field (Europe)": {
@@ -13916,7 +13964,7 @@
     "Kensei - Sacred Fist (Europe)": {
         "languages": "En"
     },
-    "Kensei - Sacred Fist (Europe) (Proto)": {
+    "Kensei - Sacred Fist (Europe) (Beta)": {
         "languages": "En"
     },
     "Kensei - Sacred Fist (USA)": {
@@ -14669,6 +14717,9 @@
     "Kowai Shashin - Shinrei Shashin Kitan (Japan)": {
         "languages": "Ja"
     },
+    "Kowloon's Gate (Japan) (Demo)": {
+        "languages": "Ja"
+    },
     "Kowloon's Gate (Japan) (Special Disc)": {
         "languages": "Ja"
     },
@@ -15035,6 +15086,9 @@
     "Legaia Densetsu (Japan)": {
         "languages": "Ja"
     },
+    "Legaia Densetsu (Japan) (Demo 1)": {
+        "languages": "Ja"
+    },
     "Legaia Densetsu (Japan) (Demo)": {
         "languages": "Ja"
     },
@@ -15215,6 +15269,9 @@
     "Liberogrande International (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
+    "Liberogrande International (Europe) (En,Fr,De,Es,It) (Beta)": {
+        "languages": "En, Fr, De, It, Es"
+    },
     "LifeScape - Seimei 40-okunen Haruka na Tabi (Japan) (Disc 1) (Aquasphere)": {
         "languages": "Ja"
     },
@@ -15249,6 +15306,9 @@
         "languages": "Ja"
     },
     "Linda^3 Again (Japan)": {
+        "languages": "Ja"
+    },
+    "Linda^3 Again (Japan) (Demo)": {
         "languages": "Ja"
     },
     "Linda^3 Again (Japan) (Rev 1)": {
@@ -15572,6 +15632,9 @@
     "Lunatic Dawn - Odyssey (Japan)": {
         "languages": "Ja"
     },
+    "Lunatic Dawn III & Susume! Kaizoku Promotion Disc (Japan)": {
+        "languages": "Ja"
+    },
     "Lunatic Dawn III (Japan)": {
         "languages": "Ja"
     },
@@ -15722,10 +15785,10 @@
     "MTV Sports - Snowboarding (Europe)": {
         "languages": "En"
     },
-    "MTV Sports - Snowboarding (Europe) (Demo)": {
+    "MTV Sports - Snowboarding (Europe) (Beta)": {
         "languages": "En"
     },
-    "MTV Sports - Snowboarding (Europe) (Proto)": {
+    "MTV Sports - Snowboarding (Europe) (Demo)": {
         "languages": "En"
     },
     "MTV Sports - Snowboarding (USA)": {
@@ -16301,7 +16364,7 @@
     "Maximum Force (USA)": {
         "languages": "En"
     },
-    "Maximum Force (USA) (Proto)": {
+    "Maximum Force (USA) (Beta)": {
         "languages": "En"
     },
     "Maze Heroes - Meikyuu Densetsu (Japan)": {
@@ -17405,7 +17468,7 @@
     "Mortal Kombat 4 (USA)": {
         "languages": "En"
     },
-    "Mortal Kombat 4 (USA) (Proto)": {
+    "Mortal Kombat 4 (USA) (Beta)": {
         "languages": "En"
     },
     "Mortal Kombat II (Japan)": {
@@ -17429,7 +17492,7 @@
     "Mortal Kombat Trilogy (USA)": {
         "languages": "En"
     },
-    "Mortal Kombat Trilogy (USA) (Proto)": {
+    "Mortal Kombat Trilogy (USA) (Beta)": {
         "languages": "En"
     },
     "Mortal Kombat Trilogy (USA) (Rev 1)": {
@@ -18074,6 +18137,9 @@
     "NCAA Football GameBreaker (USA)": {
         "languages": "En"
     },
+    "NCAA Football GameBreaker (USA) (Beta)": {
+        "languages": ""
+    },
     "NCAA GameBreaker 2000 (USA)": {
         "languages": "En"
     },
@@ -18488,6 +18554,9 @@
     "Naniwa Wangan Battle - Tarzan Yamada & AutoSelect Sawa Kyoudai (Japan)": {
         "languages": "Ja"
     },
+    "Naniwa Wangan Battle - Tarzan Yamada & AutoSelect Sawa Kyoudai (Japan) (Demo)": {
+        "languages": "Ja"
+    },
     "Naniwa no Akindo - Futte Nanbo no Saikoro Jinsei (Japan)": {
         "languages": "Ja"
     },
@@ -18724,6 +18793,9 @@
     },
     "Next Tetris, The (Japan)": {
         "languages": "En"
+    },
+    "Next Tetris, The (Japan) (Demo)": {
+        "languages": "Ja"
     },
     "Next Tetris, The (USA)": {
         "languages": "En"
@@ -19739,6 +19811,9 @@
     "OverBlood 2 (Japan) (Disc 2)": {
         "languages": "Ja"
     },
+    "OverBlood 2 - The East Edge File (Japan)": {
+        "languages": "Ja"
+    },
     "Overboard! (Europe)": {
         "languages": "En"
     },
@@ -19869,6 +19944,9 @@
         "languages": "De"
     },
     "PSi2 Disc Five (UK) (Unl)": {
+        "languages": "En"
+    },
+    "PSi2 Disc Four (UK) (Unl)": {
         "languages": "En"
     },
     "PSi2 Disc Nine (UK) (Unl)": {
@@ -21746,7 +21824,7 @@
     "Psychic Force 2 (Europe)": {
         "languages": "En"
     },
-    "Psychic Force 2 (Europe) (Proto)": {
+    "Psychic Force 2 (Europe) (Beta)": {
         "languages": "En"
     },
     "Psychic Force 2 (Japan)": {
@@ -22427,6 +22505,9 @@
     "Reel Fishing II (Europe) (En,De)": {
         "languages": "En, De"
     },
+    "Reel Fishing II (Europe) (En,De) (Beta)": {
+        "languages": "En, De"
+    },
     "Reel Fishing II (USA)": {
         "languages": "En"
     },
@@ -22966,6 +23047,9 @@
     },
     "Robo Pit 2 (USA)": {
         "languages": "En"
+    },
+    "Robo-Pit 2 (Japan) (Demo 2)": {
+        "languages": "Ja"
     },
     "Robo-Pit 2 (Japan) (Demo)": {
         "languages": "Ja"
@@ -23605,6 +23689,9 @@
     },
     "Scooby-Doo et la Cybertraque (France)": {
         "languages": "Fr"
+    },
+    "Scooby-Doo! Night of 100 Frights (USA) (Proto)": {
+        "languages": "En"
     },
     "Scooter Racing (Europe)": {
         "languages": "En"
@@ -26099,7 +26186,7 @@
     "Streak Hoverboard Racing (USA)": {
         "languages": "En"
     },
-    "Streak Hoverboard Racing (USA) (Proto)": {
+    "Streak Hoverboard Racing (USA) (Beta)": {
         "languages": "En"
     },
     "Street Boarders (Japan)": {
@@ -26261,7 +26348,7 @@
     "Strider 2 (Europe)": {
         "languages": "En"
     },
-    "Strider 2 (Europe) (Proto)": {
+    "Strider 2 (Europe) (Beta)": {
         "languages": "En"
     },
     "Strider 2 (USA)": {
@@ -26351,7 +26438,7 @@
     "Stuart Little 2 (USA)": {
         "languages": "En"
     },
-    "Stuart Little 2 (USA) (Proto)": {
+    "Stuart Little 2 (USA) (Beta)": {
         "languages": "En"
     },
     "Studio P (Japan)": {
@@ -27008,6 +27095,9 @@
     "Suzuki Bakuhatsu (Japan)": {
         "languages": "Ja"
     },
+    "Suzuki Bakuhatsu (Japan) (Demo)": {
+        "languages": "Ja"
+    },
     "Sven-Goeran Eriksson's World Challenge (Europe)": {
         "languages": "En"
     },
@@ -27174,6 +27264,9 @@
         "languages": "Es"
     },
     "Syphon Filter 3 (Europe)": {
+        "languages": "En"
+    },
+    "Syphon Filter 3 (Europe) (Beta)": {
         "languages": "En"
     },
     "Syphon Filter 3 (France)": {
@@ -28085,7 +28178,10 @@
     "Time Crisis - Project Titan (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
-    "Time Crisis - Project Titan (Europe) (En,Fr,De,Es,It) (Proto)": {
+    "Time Crisis - Project Titan (Europe) (En,Fr,De,Es,It) (Beta)": {
+        "languages": "En, Fr, De, It, Es"
+    },
+    "Time Crisis - Project Titan (Europe) (En,Fr,De,Es,It) (Beta) (Alt)": {
         "languages": "En, Fr, De, It, Es"
     },
     "Time Crisis - Project Titan (Japan)": {
@@ -28772,10 +28868,10 @@
     "Tony Hawk's Pro Skater 2 (USA)": {
         "languages": "En"
     },
-    "Tony Hawk's Pro Skater 2 (USA) (Demo)": {
+    "Tony Hawk's Pro Skater 2 (USA) (Beta)": {
         "languages": "En"
     },
-    "Tony Hawk's Pro Skater 2 (USA) (Proto)": {
+    "Tony Hawk's Pro Skater 2 (USA) (Demo)": {
         "languages": "En"
     },
     "Tony Hawk's Pro Skater 3 (Europe)": {
@@ -28827,6 +28923,9 @@
         "languages": "Ja"
     },
     "Toro Channel - Zoukangou nano nya! SCEI Nenmatsu Shinsaku Soft Information Movie Disc (Japan)": {
+        "languages": "Ja"
+    },
+    "Toshiba Emi Egg & Zutto Issho Demo Disc (Japan)": {
         "languages": "Ja"
     },
     "Toshinden 4 (Europe)": {
@@ -29510,7 +29609,7 @@
     "V-Ball - Beach Volley Heroes (Europe)": {
         "languages": "En"
     },
-    "V-Beach Volleyball (Europe) (En,Fr,De,Es,It) (Proto)": {
+    "V-Beach Volleyball (Europe) (En,Fr,De,Es,It) (Beta)": {
         "languages": "En, Fr, De, It, Es"
     },
     "V-Jump Soukan 9-shuunen Kinen Special Disc!! (Japan)": {
@@ -30782,6 +30881,9 @@
     "World Soccer Jikkyou Winning Eleven 2000 - U-23 Medal e no Chousen (Japan)": {
         "languages": "Ja"
     },
+    "World Soccer Jikkyou Winning Eleven 2000 - U-23 Medal e no Chousen (Japan) (Demo)": {
+        "languages": "Ja"
+    },
     "World Soccer Jikkyou Winning Eleven 3 - Final Ver. (Japan)": {
         "languages": "Ja"
     },
@@ -30873,6 +30975,9 @@
         "languages": "En, Fr, De, It, Es"
     },
     "Worms World Party (Europe) (En,Fr,De,Es,It,Nl,Sv,Da)": {
+        "languages": "Da, Nl, En, Fr, De, It, Es, Sv"
+    },
+    "Worms World Party (Europe) (En,Fr,De,Es,It,Nl,Sv,Da) (Beta)": {
         "languages": "Da, Nl, En, Fr, De, It, Es, Sv"
     },
     "Worms World Party (USA) (En,Fr,De,Es,It,Nl,Sv,Da)": {
@@ -31217,6 +31322,9 @@
     "Yagami Hiroki no Game-Taste - Munasawagi no Yokan (Japan)": {
         "languages": ""
     },
+    "Yakiniku Action Game - Yakiniku Bugyou (Japan) (Demo)": {
+        "languages": "Ja"
+    },
     "Yakiniku Bugyou (Japan)": {
         "languages": "Ja"
     },
@@ -31524,7 +31632,7 @@
         "languages": "Ja"
     },
     "Zen'yasai - Kouyasai Special Preview Disc (Japan) (Demo)": {
-        "languages": ""
+        "languages": "Ja"
     },
     "Zera-chan Puzzle - Pitatto Pair (Japan)": {
         "languages": "Ja"

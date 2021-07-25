@@ -3,7 +3,7 @@
 		"name": [
 			"Nintendo - Nintendo Entertainment System"
 		],
-		"last updated": "9 April 2021",
+		"last updated": "21 July 2021",
 		"minimum version": "0.92"
 	},
 
@@ -59,6 +59,10 @@
 			"new group": "Double Strike - Aerial Attack Force",
 			"match": "full"
 		}
+	},
+
+	"removes": {
+		"Final Fantasy I, II (Japan)": {}
 	},
 
 	"renames": {

@@ -230,6 +230,9 @@
     "Area 51 (USA)": {
         "languages": ""
     },
+    "Area 51 (USA) (Beta)": {
+        "languages": "En"
+    },
     "Arthur to Astaroth no Nazo Makaimura - Incredible Toons (Japan)": {
         "languages": "Ja"
     },
@@ -731,10 +734,13 @@
     "Clockwork Knight 2 - Pepperouchau's Adventure (Europe)": {
         "languages": "En"
     },
-    "Clockwork Knight 2 - Pepperouchau's Adventure (USA)": {
+    "Clockwork Knight 2 - Pepperouchau's Adventure (Europe) (2S)": {
         "languages": "En"
     },
     "Clockwork Knight 2 - Pepperouchau's Adventure (USA) (Beta)": {
+        "languages": "En"
+    },
+    "Clockwork Knight 2 - Pepperouchau's Adventure (USA, Brazil)": {
         "languages": "En"
     },
     "Clockwork Knight Puzzle - Pengin War (Japan) (En,Ja) (Beta)": {
@@ -2030,6 +2036,9 @@
     "Game no Tetsujin - The Shanghai (Japan)": {
         "languages": "Ja"
     },
+    "Game of Life, The - DX Jinsei Game (Japan)": {
+        "languages": "Ja"
+    },
     "Game of Life, The - DX Jinsei Game (Japan) (Rev A)": {
         "languages": "Ja"
     },
@@ -2775,6 +2784,9 @@
         "languages": "En"
     },
     "Keiou Yuugekitai - Katsugeki-hen (Japan)": {
+        "languages": "Ja"
+    },
+    "Keiou Yuugekitai - Okiraku Tamatebako (Japan)": {
         "languages": "Ja"
     },
     "Kekkon - Marriage (Japan)": {
@@ -3755,7 +3767,7 @@
     "Night Warriors - Darkstalkers' Revenge (USA)": {
         "languages": "En"
     },
-    "Nightruth - Explanation of the Paranormal - Futatsu Dake no Shinjitsu (Japan)": {
+    "Nightruth - Explanation of the Paranormal - Futatsu dake no Shinjitsu (Japan)": {
         "languages": "Ja"
     },
     "Nightruth - Explanation of the Paranormal - Making of Nightruth II - Voice Selection (Japan)": {
@@ -4706,6 +4718,9 @@
     "Samurai Spirits - Amakusa Kourin (Japan) (En,Ja,Es,Pt)": {
         "languages": "En, Ja, Pt, Es"
     },
+    "Samurai Spirits - Amakusa Kourin (Japan) (En,Ja,Es,Pt) (Demo)": {
+        "languages": "En, Ja, Pt, Es"
+    },
     "Samurai Spirits - Zankurou Musouken (Japan)": {
         "languages": "Ja"
     },
@@ -4788,6 +4803,12 @@
         "languages": "Ja"
     },
     "Saturn Super Vol. 1 (Japan) (6M)": {
+        "languages": "Ja"
+    },
+    "Saturn Super Vol. 1 (Japan) (7M)": {
+        "languages": "Ja"
+    },
+    "Saturn Super Vol. 1 (Japan) (8M)": {
         "languages": "Ja"
     },
     "Saturn Super Vol. 10 Furoku CD-ROM (Japan) (2M, 3M)": {
@@ -6630,6 +6651,9 @@
         "languages": "Ja"
     },
     "Waku Waku 7 (Japan)": {
+        "languages": "Ja"
+    },
+    "Waku Waku 7 (Japan) (Demo)": {
         "languages": "Ja"
     },
     "Waku Waku Puyo Puyo Dungeon (Japan) (3M)": {

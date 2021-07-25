@@ -3,7 +3,7 @@
 		"name": [
 			"Philips - CD-i"
 		],
-		"last updated": "19 May 2021",
+		"last updated": "25 July 2021",
 		"minimum version": "0.89"
 	},
 
@@ -12,9 +12,6 @@
 			["7th Guest, The", 1],
 			["7th Guest, The (Disc 1) (Das Spiel)", 1],
 			["7th Guest, The (Disc 1) (Le Jeu)", 1]
-		],
-		"Child is Born, A": [
-			["Nasce un Bambino", 1]
 		],
 		"Alice in Wonderland": [
 			["Alice au Pays des Merveilles", 1]
@@ -37,8 +34,20 @@
 			["Burn-Cycle (Jeu)", 1],
 			["Burn-Cycle", 2]
 		],
+		"Child is Born, A": [
+			["Grote Wonder, Het - A Child is Born", 1],
+			["Nasce un Bambino", 1]
+		],
+		"Clue - The Mysteries Continue": [
+			["Cluedo - The Mystery Continues", 1]
+		],
+		"Compton's Interactive Encyclopedia (1995) (Digital Video)": [
+			["Compton's Interactive Encyclopedia (1995)", 2],
+			["Compton's Interactive Encyclopedia", 3]
+		],
 		"Dark Fables of Aesop, The": [
-			["Geheimnisvollen Fabeln von Aesop, Die", 1]
+			["Geheimnisvollen Fabeln von Aesop, Die", 1],
+			["Meer Duistere Fabels van Aesopus", 1]
 		],
 		"Dictionnaire Hachette Multimedia (1995) (Version Digital Video)": [
 			["Dictionnaire Hachette Multimedia (1995)", 2],
@@ -113,7 +122,7 @@
 			["Renaissance van Florence, De", 1]
 		],
 		"Richard Scarry's Best Neighborhood Disc Ever!": [
-			["Barrio Mas Divertido, El", 1],
+			["Barrio mas Divertido de Richard Scarry, El", 1],
 			["Citta piu Felice del Mondo! di Richard Scarry, La", 1],
 			["Richard Scarry's Allerbeste Buurt Disc!", 1],
 			["Ville Surprise de Richard Scarry 1, La", 1]
@@ -123,7 +132,7 @@
 			["Richard Scarry's Allerwitzigste Geschichten aus Schaffenau", 1],
 			["Ville Surprise de Richard Scarry 2, La", 1]
 		],
-		"Rock Guitar - A Beginner's Guide": [
+		"Private Lesson Series - Rock Guitar - A Beginner's Guide": [
 			["Rock Gitaar - Handleiding voor Beginners", 1]
 		],
 		"Sandy's Circus Adventure": [
@@ -152,6 +161,12 @@
 		"Tim et Ted a l'Hopital": [
 			["Tim & Beer in het Ziekenhuis", 1]
 		],
+		"Tim et Ted au Cinema": [
+			["Tim & Beer bij de Film", 1]
+		],
+		"Tim et Ted au Port": [
+			["Tim & Beer in de Haven", 1]
+		],
 		"Time Life Presents - 35mm Photography": [
 			["Time Life Presenta - La Fotografia in 35mm", 1],
 			["Time Life Presente - La Photographie 24 x 36 mm", 1],
@@ -168,6 +183,7 @@
 			["Zelda - Der Zauberstab von Gamelon", 1]
 		],
 		"Zombie Dinos from Planet Zeltoid": [
+			["Zombie Dinos van de Planeet Zeltoid", 1],
 			["Zombie Dinos vom Planeten Zeltoid", 1]
 		]
 	}

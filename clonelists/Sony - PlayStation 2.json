@@ -3,7 +3,7 @@
         "name": [
 			"Sony - PlayStation 2"
 		],
-        "last updated": "24 July 2021",
+        "last updated": "25 July 2021",
 		"minimum version": "0.89"
     },
 
@@ -228,6 +228,9 @@
 		],
 		"Beat Down - Fists of Vengeance": [
 			["Beat Down", 1]
+		],
+		"Berserk - Millennium Falcon-hen - Seima Senki no Shou": [
+			["Berserk - Millennium Falcon-hen - Seima Senki no Shou (Branded Box - Rakuin no Hako)", 2]
 		],
 		"Big Mutha Truckers": [
 			["Bakusou Convoy Densetsu - Otoko Hanamichi America Roman", 1]
@@ -895,6 +898,9 @@
 			["Project Zero 3", 1],
 			["Zero - Shisei no Koe", 1]
 		],
+		"Fatal Fury - Battle Archives Volume 2": [
+			["Garou Densetsu Battle Archives 2", 1]
+		],
 		"Fate-stay night - Realta Nua": [
 			["Fate-stay night - Realta Nua (Extra Edition)", 0]
 		],
@@ -1084,7 +1090,8 @@
 		"GameShark 2 V2 - Video Game Enhancer Version 2.22 (Disc 1)": [
 			["GameShark 2 V2 - Video Game Enhancer Version 2.21 (Disc 1)", 2],
 			["GameShark 2 V2 - Video Game Enhancer Version 2.11 (Disc 1)", 3],
-			["GameShark 2 V2 - Video Game Enhancer", 4]
+			["GameShark 2 - Video Game Enhancer V 1.0", 4],
+			["GameShark 2 V2 - Video Game Enhancer", 5]
 		],
 		"Garouden - Breakblow": [
 			["Arangjeon - Breakblow", 1]
@@ -1225,6 +1232,7 @@
 			["GunGrave", 2]
 		],
 		"Gungrave - Overdose": [
+			["Gungrave O.D.", 1],
 			["Gungrave OD", 1]
 		],
 		"Hanabi Hyakkei (Tokutenban)": [
@@ -1315,6 +1323,9 @@
 		],
 		"Hitman 2 - Silent Assassin": [
 			["Hitman - Silent Assassin", 1]
+		],
+		"Hobbit, The - The Prelude to the Lord of the Rings": [
+			["Khobbit - Predystoriya Sagi Vlastelin Kolets", 1]
 		],
 		"Horsez": [
 			["Pippa Funnell - Take the Reins", 1]
@@ -1725,7 +1736,8 @@
 			["Simple 2000 Series Vol. 39 - The Boku no Machi-zukuri - Machi-ing Maker++", 1]
 		],
 		"Metropolismania 2": [
-			["Machi-ing Maker 2 - Zoku Boku no Machi-zukuri", 1]
+			["Simple 2000 Series Vol. 121 - The Boku no Machi-zukuri 2 - Machi-ing Maker 2.1", 1],
+			["Machi-ing Maker 2 - Zoku Boku no Machi-zukuri", 2]
 		],
 		"Michigan - Report from Hell": [
 			["Michigan", 1]
@@ -2057,6 +2069,9 @@
 		"Pink Pong": [
 			["Simple 2000 Series Ultimate Vol. 15 - Love - Ping Pong!", 1]
 		],
+		"Pipe Mania": [
+			["Tube Mania", 1]
+		],
 		"Pirates - Legend of the Black Buccaneer": [
 			["Black Buccaneer", 1]
 		],
@@ -2181,11 +2196,11 @@
 		"Realm of the Dead": [
 			["Bakuen Kakusei - Neverland Senki Zero", 1]
 		],
-		"RedCard 20-03": [
-			["RedCard", 1]
-		],
 		"Red Ninja - End of Honor": [
 			["Red Ninja - Kekka no Mai", 1]
+		],
+		"RedCard 20-03": [
+			["RedCard", 1]
 		],
 		"Reel Fishing III": [
 			["Fish Eyes 3 - Kioku no Hahen-tachi", 1]
@@ -2867,7 +2882,7 @@
 			["Viewtiful Joe 2 - Black Film no Nazo", 1]
 		],
 		"Virtua Fighter - 10th Anniversary Edition": [
-			["Virtua Fighter - 10th Anniversary", 1]
+			["Virtua Fighter - 10th Anniversary Fukkoku-ban", 1]
 		],
 		"Virtua Pro Football": [
 			["World Football Climax", 1]

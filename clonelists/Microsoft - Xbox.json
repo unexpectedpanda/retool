@@ -3,8 +3,15 @@
 		"name": [
 			"Microsoft - Xbox"
 		],
-		"last updated": "24 May 2021",
+		"last updated": "25 July 2021",
 		"minimum version": "0.89"
+	},
+
+	"categories": {
+		"Official Xbox Magazine Game Disc 48 (Europe) (Fr,Es,It,Pt)": {
+			"match": "full",
+			"categories": ["Coverdiscs"]
+		}
 	},
 
 	"overrides": {
@@ -315,6 +322,9 @@
 		"Mashed - Drive to Survive": [
 			["Mashed - Fully Loaded", 0]
 		],
+		"Medal of Honor - European Assault": [
+			["Medal of Honor - Les Faucons de Guerre", 1]
+		],
 		"Medal of Honor - Frontline": [
 			["Medal of Honor - En Premiere Ligne", 1]
 		],
@@ -438,7 +448,7 @@
 			["V8 Supercars Australia 2", 1]
 		],
 		"TOCA Race Driver 3": [
-			["DTM Race Driver 3 - The Ultimate Racing Simulator", 1],
+			["DTM Race Driver 3", 1],
 			["V8 Supercars Australia 3", 1]
 		],
 		"Top Gear - RPM Tuning": [

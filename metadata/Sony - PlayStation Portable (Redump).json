@@ -791,6 +791,9 @@
     "Clank & Ratchet - Maru Hi Mission - Ignition! (Japan) (Beta)": {
         "languages": ""
     },
+    "Clank & Ratchet - Maruhi Mission Ignition! (Japan)": {
+        "languages": "Ja"
+    },
     "Class of Heroes (USA)": {
         "languages": "En"
     },
@@ -1516,6 +1519,9 @@
     },
     "Echochrome (Europe, Australia) (En,Fr,De,Es,It,Nl,Pt,Ru)": {
         "languages": "Nl, En, Fr, De, It, Pt, Ru, Es"
+    },
+    "Echochrome - Mugen Kairou (Korea) (En,Zh,Ko)": {
+        "languages": "Zh, En, Ko"
     },
     "Echoshift (Europe) (En,Fr,De,Es,It,Nl,Pt,Ru) (v1.00)": {
         "languages": "Nl, En, Fr, De, It, Pt, Ru, Es"
@@ -2273,8 +2279,8 @@
     "Gran Turismo (Europe) (En,Fr,De,Es,It) (v1.01)": {
         "languages": "En, Fr, De, It, Es"
     },
-    "Gran Turismo (Europe) (En,Fr,De,Es,It) (v2.00)": {
-        "languages": "En, Fr, De, It, Es"
+    "Gran Turismo (Europe) (En,Fr,De,Es,It,Nl,Pt,Ru) (v2.00)": {
+        "languages": "Nl, En, Fr, De, It, Pt, Ru, Es"
     },
     "Gran Turismo (USA) (En,Fr,Es) (v1.00)": {
         "languages": "En, Fr, Es"
@@ -2902,6 +2908,9 @@
     },
     "Key of Heaven (Europe) (En,Ja,Fr,De,Es,It) (Beta)": {
         "languages": "En, Fr, De, It, Ja, Es"
+    },
+    "Kidou Keisatsu Patlabor - Kamubakku MiniPato (Japan)": {
+        "languages": "Ja"
     },
     "Kidou Senshi Gundam - Gihren no Yabou - Axis no Kyoui V (Japan)": {
         "languages": "Ja"
@@ -5540,6 +5549,12 @@
     "Starry Sky - After Autumn Portable - Etsuran Shite Please Etsu Puritsu 2 (Japan)": {
         "languages": "Ja"
     },
+    "Starry Sky - After Summer Portable (Japan)": {
+        "languages": "Ja"
+    },
+    "Starry Sky - After Summer Portable - Etsuran Shite Please Etsu Puritsu 2 (Japan)": {
+        "languages": "Ja"
+    },
     "StateShift (Europe)": {
         "languages": "En"
     },
@@ -5672,11 +5687,11 @@
     "System Software Update Ver. 3.73 (Japan)": {
         "languages": ""
     },
+    "TMNT (Europe) (En,Fr,De,Es,It)": {
+        "languages": "En, Fr, De, It, Es"
+    },
     "TMNT (USA)": {
         "languages": ""
-    },
-    "TMNT - Teenage Mutant Ninja Turtles (Europe) (En,Fr,De,Es,It)": {
-        "languages": "En, Fr, De, It, Es"
     },
     "TNA Impact! Cross the Line (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
@@ -5723,6 +5738,9 @@
     "Tales of Phantasia - Full Voice Edition (Japan)": {
         "languages": "Ja"
     },
+    "Tales of Phantasia - Narikiri Dungeon X (Japan)": {
+        "languages": "Ja"
+    },
     "Tales of VS (Japan)": {
         "languages": "Ja"
     },
@@ -5739,6 +5757,9 @@
         "languages": "En"
     },
     "Tales of the World - Radiant Mythology 2 (Japan)": {
+        "languages": "Ja"
+    },
+    "Tales of the World - Radiant Mythology 3 (Japan)": {
         "languages": "Ja"
     },
     "TalkMan (Europe, Australia) (En,Ja,Fr,De,Es,It)": {
@@ -6206,8 +6227,8 @@
     "WTF - Work Time Fun (USA)": {
         "languages": "En"
     },
-    "WWE All Stars (Europe)": {
-        "languages": "En"
+    "WWE All Stars (Europe) (En,Fr,De,Es,It)": {
+        "languages": "En, Fr, De, It, Es"
     },
     "WWE All Stars (USA)": {
         "languages": "En"

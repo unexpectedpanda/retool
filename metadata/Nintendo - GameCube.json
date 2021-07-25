@@ -413,6 +413,9 @@
     "Beach Spikers - Virtua Beach Volleyball (Japan) (Rev 1)": {
         "languages": "Ja"
     },
+    "Beach Spikers - Virtua Beach Volleyball (Japan) (Taikenban)": {
+        "languages": ""
+    },
     "Beach Spikers - Virtua Beach Volleyball (USA)": {
         "languages": "En"
     },
@@ -461,16 +464,16 @@
     "Biohazard (Japan) (Disc 2)": {
         "languages": "Ja"
     },
+    "Biohazard (Japan) (Movie Demo Disc)": {
+        "languages": ""
+    },
+    "Biohazard (Japan) (Tokubetsu-ban)": {
+        "languages": "Ja"
+    },
     "Biohazard - Code - Veronica - Kanzenban (Japan) (Disc 1)": {
         "languages": "Ja"
     },
     "Biohazard - Code - Veronica - Kanzenban (Japan) (Disc 2)": {
-        "languages": "Ja"
-    },
-    "Biohazard - Movie Demo Disc (Japan)": {
-        "languages": ""
-    },
-    "Biohazard - Special Edition (Japan)": {
         "languages": "Ja"
     },
     "Biohazard 2 (Japan)": {
@@ -1100,9 +1103,6 @@
     "Disney Sports - Soccer (USA)": {
         "languages": "En"
     },
-    "Disney no Magical Park (Japan)": {
-        "languages": "Ja"
-    },
     "Disney's Chicken Little (Europe)": {
         "languages": "En"
     },
@@ -1144,6 +1144,12 @@
     },
     "Disney's Magical Mirror Starring Mickey Mouse (USA)": {
         "languages": "En"
+    },
+    "Disney's Magical Park (Japan)": {
+        "languages": "Ja"
+    },
+    "Disney's Magical Park (Japan) (Jitsuen-you Sample)": {
+        "languages": ""
     },
     "Disney's Mickey Mouse no Fushigi na Kagami (Japan) (Rev 1)": {
         "languages": "Ja"
@@ -1949,6 +1955,9 @@
     "Gekkan Nintendo Tentou Demo 2004.7.1 (Japan)": {
         "languages": "Ja"
     },
+    "Gekkan Nintendo Tentou Demo 2004.8.1 (Japan)": {
+        "languages": ""
+    },
     "Gekkan Nintendo Tentou Demo 2004.9.1 (Japan)": {
         "languages": ""
     },
@@ -1963,6 +1972,12 @@
     },
     "Gekkan Nintendo Tentou Demo 2006.6.1 (Japan)": {
         "languages": "Ja"
+    },
+    "Gekkan Nintendo Tentou Demo 2006.7.1 (Japan)": {
+        "languages": "Ja"
+    },
+    "Gekkan Nintendo Tentou Demo 2006.8.1 (Japan)": {
+        "languages": ""
     },
     "Gekkan Nintendo Tentou Demo 2006.9.1 (Japan)": {
         "languages": "Ja"
@@ -3515,6 +3530,9 @@
     "Naruto - Gekitou Ninja Taisen! 4 (Japan)": {
         "languages": "Ja"
     },
+    "Naruto - Gekitou Ninja Taisen! 4 (Japan) (Taikai Sen'you Disc) (Rev 1)": {
+        "languages": ""
+    },
     "Naruto Collection (Japan) (Demo)": {
         "languages": "Ja"
     },
@@ -3790,6 +3808,9 @@
     },
     "P.N. 03 (Japan)": {
         "languages": "Ja"
+    },
+    "P.N. 03 (Japan) (Demo Eizou)": {
+        "languages": ""
     },
     "P.N. 03 (USA)": {
         "languages": "En"
@@ -5366,6 +5387,9 @@
     "Ultimate Codes for Use with The Legend of Zelda - The Wind Waker (USA) (Unl)": {
         "languages": "En"
     },
+    "Ultimate Codes for Use with Tom Clancy's Splinter Cell (USA) (Unl)": {
+        "languages": "En"
+    },
     "Ultimate Muscle - Legends vs. New Generation (USA)": {
         "languages": "En"
     },
@@ -5673,6 +5697,9 @@
         "languages": "En, Fr, Es"
     },
     "Yu-Gi-Oh! Falsebound Kingdom - Kyokou ni Tozasareta Oukoku (Japan)": {
+        "languages": "Ja"
+    },
+    "Yu-Gi-Oh! Falsebound Kingdom - Kyokou ni Tozasareta Oukoku (Japan) (Taikenban)": {
         "languages": "Ja"
     },
     "Yu-Gi-Oh! The Falsebound Kingdom (Europe) (En,Fr,De,Es,It)": {

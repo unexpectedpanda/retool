@@ -3,10 +3,10 @@
 		"name": [
 			"Sony - PlayStation Portable (Redump)"
 		],
-		"last updated": "8 July 2021",
+		"last updated": "21 July 2021",
 		"minimum version": "0.89"
 	},
-	
+
 	"removes": {
 		"2 Games in 1! Archer Maclean's Mercury & Mercury Meltdown": {
 			"match": "short"
@@ -153,6 +153,7 @@
 			["Shin Sangoku Musou - Multi Raid", 1]
 		],
 		"Echochrome": [
+			["Echochrome - Mugen Kairou", 1],
 			["Mugen Kairou", 1]
 		],
 		"Echoshift": [
@@ -508,9 +509,6 @@
 		],
 		"Tenchu - Time of the Assassins": [
 			["Tenchu - Shinobi Taizen", 1]
-		],
-		"TMNT": [
-			["TMNT - Teenage Mutant Ninja Turtles", 1]
 		],
 		"TOCA Race Driver 2": [
 			["DTM Race Driver 2", 1],

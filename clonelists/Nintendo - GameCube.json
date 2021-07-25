@@ -6,7 +6,7 @@
 			"Nintendo - GameCube - NKit ISO",
 			"Nintendo - GameCube - NASOs"
 		],
-		"last updated": "24 July 2021",
+		"last updated": "24 May 2021",
 		"minimum version": "0.89"
 	},
 
@@ -16,7 +16,7 @@
 			"categories": ["Video"]
 		}
 	},
-	
+
 	"overrides": {
 		"Disney Sports - Football (Europe) (En,Fr,De,Es,It)": {
 			"new group": "Disney Sports - Soccer",

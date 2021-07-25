@@ -170,11 +170,11 @@
     "American Chopper 2 - Full Throttle (USA)": {
         "languages": "En"
     },
-    "American McGee Presents Scrapland (Europe)": {
-        "languages": "En"
-    },
     "American McGee Presents Scrapland (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
+    },
+    "American McGee Presents Scrapland (USA, Europe)": {
+        "languages": "En"
     },
     "Amped - Freestyle Snowboarding (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
@@ -1217,7 +1217,7 @@
     "DTM Race Driver 2 - Ultimate Racing Simulator (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
-    "DTM Race Driver 3 - The Ultimate Racing Simulator (Europe) (En,Fr,De,Es,It)": {
+    "DTM Race Driver 3 (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
     "DTM Race Driver Live (Europe) (En,Fr,De)": {
@@ -1538,7 +1538,7 @@
     "Doom 3 (Europe) (En,Fr,Es,It) (Limited Collector's Edition)": {
         "languages": "En, Fr, It, Es"
     },
-    "Doom 3 (USA)": {
+    "Doom 3 (USA, Asia)": {
         "languages": "En"
     },
     "Doom 3 (USA, Asia) (Limited Collector's Edition)": {
@@ -2327,14 +2327,14 @@
     "Grand Theft Auto - San Andreas (USA) (En,Es) (Rev 1)": {
         "languages": "En, Es"
     },
+    "Grand Theft Auto - Vice City (Australia) (Rev 1)": {
+        "languages": "En"
+    },
     "Grand Theft Auto - Vice City (Europe) (En,Fr,Es,It)": {
         "languages": "En, Fr, It, Es"
     },
     "Grand Theft Auto - Vice City (Europe) (En,Fr,Es,It) (Rev 1)": {
         "languages": "En, Fr, It, Es"
-    },
-    "Grand Theft Auto - Vice City (Europe) (Rev 2)": {
-        "languages": ""
     },
     "Grand Theft Auto - Vice City (Germany)": {
         "languages": "De"
@@ -2349,7 +2349,7 @@
         "languages": "En"
     },
     "Grand Theft Auto III (Australia)": {
-        "languages": ""
+        "languages": "En"
     },
     "Grand Theft Auto III (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
@@ -2834,7 +2834,7 @@
     "Jurassic Park - Operation Genesis (USA)": {
         "languages": "En"
     },
-    "Just Cause (Europe) (En,Fr,De)": {
+    "Just Cause (USA, Europe) (En,Fr,De)": {
         "languages": "En, Fr, De"
     },
     "Justice League Heroes (USA, Europe)": {
@@ -2891,7 +2891,7 @@
     "King of Fighters, The - Neowave (USA) (En,Ja,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Ja, Es"
     },
-    "Kingdom Under Fire - Heroes (Europe) (En,Fr,De,Es,It,Ko)": {
+    "Kingdom Under Fire - Heroes (USA, Europe) (En,Fr,De,Es,It,Ko)": {
         "languages": "En, Fr, De, It, Ko, Es"
     },
     "Kingdom Under Fire - The Crusaders (Europe) (En,Fr,De,It)": {
@@ -3272,11 +3272,11 @@
     "Marvel - Ultimate Alliance (USA, Europe)": {
         "languages": "En"
     },
+    "Marvel Nemesis - Rise of the Imperfects (Europe)": {
+        "languages": "En"
+    },
     "Marvel Nemesis - Rise of the Imperfects (Europe) (En,Fr,De,It)": {
         "languages": "En, Fr, De, It"
-    },
-    "Marvel Nemesis - Rise of the Imperfects (UK)": {
-        "languages": "En"
     },
     "Marvel Nemesis - Rise of the Imperfects (USA)": {
         "languages": ""
@@ -3394,6 +3394,9 @@
     },
     "Medal of Honor - Frontline (USA)": {
         "languages": "En"
+    },
+    "Medal of Honor - Les Faucons de Guerre (France)": {
+        "languages": ""
     },
     "Medal of Honor - Rising Sun (Europe) (En,Es,It,Nl,Sv)": {
         "languages": "Nl, En, It, Es, Sv"
@@ -3781,6 +3784,9 @@
     },
     "NBA Live 2002 (Europe)": {
         "languages": "En"
+    },
+    "NBA Live 2002 (France)": {
+        "languages": ""
     },
     "NBA Live 2002 (Germany)": {
         "languages": "De"
@@ -4907,6 +4913,9 @@
     "Panzer Dragoon Orta (USA) (Demo)": {
         "languages": "En"
     },
+    "Panzer Dragoon Orta (World) (Beta)": {
+        "languages": ""
+    },
     "Panzer Elite Action - Fields of Glory (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
@@ -5249,8 +5258,11 @@
     "Red Ninja - End of Honor (Germany)": {
         "languages": "En"
     },
-    "Red Star, The (USA) (Proto)": {
+    "Red Star, The (USA) (Proto 1)": {
         "languages": "En"
+    },
+    "Red Star, The (USA) (Proto 2)": {
+        "languages": ""
     },
     "RedCard (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
@@ -5675,7 +5687,7 @@
     "Shrek Super Party (USA)": {
         "languages": ""
     },
-    "Sid Meier's Pirates! (Europe) (En,Fr,De,Es,It)": {
+    "Sid Meier's Pirates! (USA, Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
     "Signore degli Anelli, Il - Il ritorno del Re (Italy)": {
@@ -6400,6 +6412,9 @@
     },
     "Thief - Deadly Shadows (USA)": {
         "languages": "En"
+    },
+    "Thief - Deadly Shadows (World) (Beta)": {
+        "languages": ""
     },
     "Thing, The (Europe) (En,Fr,Es,It)": {
         "languages": "En, Fr, It, Es"

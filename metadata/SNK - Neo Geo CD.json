@@ -11,7 +11,7 @@
     "Andro Dunos (France) (Unl)": {
         "languages": "En"
     },
-    "Art of Fighting - Ryuuko no Ken Gaiden ~ The Path of the Warrior - Art of Fighting 3 (Japan, USA) (En,Ja,Es,Pt)": {
+    "Art of Fighting - Ryuuko no Ken Gaiden ~ The Path of the Warrior - Art of Fighting 3 (World) (En,Ja,Es,Pt)": {
         "languages": "En, Ja, Pt, Es"
     },
     "Bakumatsu Roman - Gekka no Kenshi ~ The Last Blade (Japan) (En,Ja,Es,Pt)": {
@@ -19,6 +19,9 @@
     },
     "Bakumatsu Roman Daini Maku - Gekka no Kenshi - Tsuki ni Saku Hana, Chiri Yuku Hana ~ The Last Blade 2 (Japan) (En,Ja,Es,Pt)": {
         "languages": "En, Ja, Pt, Es"
+    },
+    "Bang^2 Busters (France) (En,Ja) (Unl)": {
+        "languages": "En, Ja"
     },
     "Baseball Stars 2 (Japan) (En,Ja)": {
         "languages": "En, Ja"
@@ -50,13 +53,13 @@
     "Cyber-Lip (Japan) (En,Ja)": {
         "languages": "En, Ja"
     },
+    "Double Dragon (Export) (En,Ja)": {
+        "languages": "En, Ja"
+    },
     "Double Dragon (Japan) (En,Ja) (Rev 1)": {
         "languages": "En, Ja"
     },
-    "Double Dragon (USA) (En,Ja)": {
-        "languages": "En, Ja"
-    },
-    "Dunk Dream ~ Street Slam ~ Street Hoop (Japan, USA)": {
+    "Dunk Dream ~ Street Slam ~ Street Hoop (World)": {
         "languages": "En"
     },
     "Far East of Eden - Tengai Makyou Shinden ~ Far East of Eden - Kabuki Klash (Japan) (En,Ja)": {
@@ -65,7 +68,7 @@
     "Fighter's History Dynamite ~ Karnov's Revenge (Japan) (En,Ja)": {
         "languages": "En, Ja"
     },
-    "Fire Suplex ~ 3 Count Bout (Japan, USA) (En,Ja)": {
+    "Fire Suplex ~ 3 Count Bout (World) (En,Ja)": {
         "languages": "En, Ja"
     },
     "Flying Power Disc ~ Windjammers (Japan) (En,Ja)": {
@@ -77,10 +80,10 @@
     "Futsal - 5 on 5 Mini Soccer ~ PleasureGoal - 5 on 5 Mini Soccer (Japan) (En,Ja)": {
         "languages": "En, Ja"
     },
-    "Fuuun Mokushiroku - Kakutou Sousei ~ Savage Reign (Japan) (En,Ja,Es,Pt)": {
+    "Fuuun Mokushiroku - Kakutou Sousei ~ Savage Reign (Export) (En,Ja,Es,Pt) (Rev 1)": {
         "languages": "En, Ja, Pt, Es"
     },
-    "Fuuun Mokushiroku - Kakutou Sousei ~ Savage Reign (USA) (En,Ja,Es,Pt) (Rev 1)": {
+    "Fuuun Mokushiroku - Kakutou Sousei ~ Savage Reign (Japan) (En,Ja,Es,Pt)": {
         "languages": "En, Ja, Pt, Es"
     },
     "Galaxy Fight - Universal Warriors (Japan) (En,Ja,Es)": {
@@ -92,22 +95,22 @@
     "Garou Densetsu 2 ~ Fatal Fury 2 (Japan) (En,Ja)": {
         "languages": "En, Ja"
     },
+    "Garou Densetsu 3 - Road to the Final Victory ~ Fatal Fury 3 - Road to the Final Victory (Export) (En,Ja,Es,Pt) (Rev 2)": {
+        "languages": "En, Ja, Pt, Es"
+    },
+    "Garou Densetsu 3 - Road to the Final Victory ~ Fatal Fury 3 - Road to the Final Victory (Export) (En,Ja,Es,Pt) (Rev 3)": {
+        "languages": "En, Ja, Pt, Es"
+    },
     "Garou Densetsu 3 - Road to the Final Victory ~ Fatal Fury 3 - Road to the Final Victory (Japan) (En,Ja,Es,Pt)": {
         "languages": "En, Ja, Pt, Es"
     },
-    "Garou Densetsu 3 - Road to the Final Victory ~ Fatal Fury 3 - Road to the Final Victory (Japan, USA) (En,Ja,Es,Pt) (Rev 1)": {
-        "languages": "En, Ja, Pt, Es"
-    },
-    "Garou Densetsu 3 - Road to the Final Victory ~ Fatal Fury 3 - Road to the Final Victory (USA) (En,Ja,Es,Pt) (Rev 2)": {
-        "languages": "En, Ja, Pt, Es"
-    },
-    "Garou Densetsu 3 - Road to the Final Victory ~ Fatal Fury 3 - Road to the Final Victory (USA) (En,Ja,Es,Pt) (Rev 3)": {
+    "Garou Densetsu 3 - Road to the Final Victory ~ Fatal Fury 3 - Road to the Final Victory (World) (En,Ja,Es,Pt) (Rev 1)": {
         "languages": "En, Ja, Pt, Es"
     },
     "Garou Densetsu Special ~ Fatal Fury Special (Japan) (En,Ja)": {
         "languages": "En, Ja"
     },
-    "Garou Densetsu Special ~ Fatal Fury Special (Japan, USA) (En,Ja) (Rev 1)": {
+    "Garou Densetsu Special ~ Fatal Fury Special (World) (En,Ja) (Rev 1)": {
         "languages": "En, Ja"
     },
     "Ghost Pilots (Japan)": {
@@ -125,19 +128,19 @@
     "King of Fighters '94, The (Japan) (En,Ja)": {
         "languages": "En, Ja"
     },
-    "King of Fighters '94, The (Japan, USA) (En,Ja) (Rev 1)": {
+    "King of Fighters '94, The (World) (En,Ja) (Rev 1)": {
         "languages": "En, Ja"
     },
     "King of Fighters '95, The (Japan) (En,Ja) (Rev 1)": {
         "languages": "En, Ja"
     },
-    "King of Fighters '95, The (Japan, USA) (En,Ja)": {
+    "King of Fighters '95, The (World) (En,Ja)": {
         "languages": "En, Ja"
     },
     "King of Fighters '96 NeoGeo Collection, The (Japan)": {
         "languages": "Ja"
     },
-    "King of Fighters '96, The (Japan, USA) (En,Ja)": {
+    "King of Fighters '96, The (World) (En,Ja)": {
         "languages": "En, Ja"
     },
     "King of Fighters '97, The (Japan) (En,Ja)": {
@@ -146,8 +149,11 @@
     "King of Fighters '98, The - Dream Match Never Ends ~ The King of Fighters '98 - The Slugfest (Japan) (En,Ja)": {
         "languages": "En, Ja"
     },
-    "King of Fighters '99, The ~ The King of Fighters '99 - Millennium Battle (Japan, USA) (En,Ja,Es,Pt)": {
+    "King of Fighters '99, The ~ The King of Fighters '99 - Millennium Battle (World) (En,Ja,Es,Pt)": {
         "languages": "En, Ja, Pt, Es"
+    },
+    "Last Hope (Germany) (Unl)": {
+        "languages": "En"
     },
     "Last Resort (Japan) (En,Ja)": {
         "languages": "En, Ja"
@@ -167,7 +173,7 @@
     "Metal Slug (Japan) (En,Ja)": {
         "languages": "En, Ja"
     },
-    "Metal Slug 2 (Japan, USA) (En,Ja)": {
+    "Metal Slug 2 (World) (En,Ja)": {
         "languages": "En, Ja"
     },
     "Mutation Nation (Japan) (En,Ja)": {
@@ -182,7 +188,7 @@
     "Neo-Geo CD Special (Japan)": {
         "languages": "Ja"
     },
-    "Next Thing, The - King of the Monsters 2 (Japan, USA) (En,Ja)": {
+    "Next Thing, The - King of the Monsters 2 (World) (En,Ja)": {
         "languages": "En, Ja"
     },
     "Ninja Combat (Japan) (En,Ja)": {
@@ -221,10 +227,10 @@
     "Rally Chase (Japan) (En,Ja)": {
         "languages": "En, Ja"
     },
-    "Real Bout Garou Densetsu Special ~ Real Bout Fatal Fury Special (Japan, USA) (En,Ja,Es,Pt)": {
+    "Real Bout Garou Densetsu Special ~ Real Bout Fatal Fury Special (World) (En,Ja,Es,Pt)": {
         "languages": "En, Ja, Pt, Es"
     },
-    "Real Bout Garou Densetsu ~ Real Bout Fatal Fury (Japan, USA) (En,Ja,Es,Pt)": {
+    "Real Bout Garou Densetsu ~ Real Bout Fatal Fury (World) (En,Ja,Es,Pt)": {
         "languages": "En, Ja, Pt, Es"
     },
     "Riding Hero (Japan) (En,Ja)": {
@@ -233,16 +239,16 @@
     "Robo Army (Japan) (En,Ja)": {
         "languages": "En, Ja"
     },
-    "Ryuuko no Ken 2 ~ Art of Fighting 2 (Japan, USA) (En,Ja,Es)": {
+    "Ryuuko no Ken 2 ~ Art of Fighting 2 (World) (En,Ja,Es)": {
         "languages": "En, Ja, Es"
     },
-    "Ryuuko no Ken ~ Art of Fighting (Japan, USA) (En,Ja,Es)": {
+    "Ryuuko no Ken ~ Art of Fighting (World) (En,Ja,Es)": {
         "languages": "En, Ja, Es"
     },
-    "Samurai Spirits - Amakusa Kourin ~ Samurai Shodown IV - Amakusa's Revenge (Japan, USA) (En,Ja,Es,Pt)": {
+    "Samurai Spirits - Amakusa Kourin ~ Samurai Shodown IV - Amakusa's Revenge (World) (En,Ja,Es,Pt)": {
         "languages": "En, Ja, Pt, Es"
     },
-    "Samurai Spirits - Zankurou Musouken ~ Samurai Shodown III (Japan, USA) (En,Ja,Es,Pt)": {
+    "Samurai Spirits - Zankurou Musouken ~ Samurai Shodown III (World) (En,Ja,Es,Pt)": {
         "languages": "En, Ja, Pt, Es"
     },
     "Samurai Spirits ~ Samurai Shodown (Japan) (En,Ja)": {
@@ -254,7 +260,7 @@
     "Sengoku Denshou ~ Sengoku (Japan) (En,Ja)": {
         "languages": "En, Ja"
     },
-    "Shin Samurai Spirits - Haoumaru Jigokuhen ~ Samurai Shodown II (Japan, USA) (En,Ja)": {
+    "Shin Samurai Spirits - Haoumaru Jigokuhen ~ Samurai Shodown II (World) (En,Ja)": {
         "languages": "En, Ja"
     },
     "Shinouken ~ Ragnagard (Japan) (En,Ja,Es)": {
@@ -287,7 +293,7 @@
     "Tokuten-ou 2 ~ Super Sidekicks 2 - The World Championship (Japan) (En,Ja,Es)": {
         "languages": "En, Ja, Es"
     },
-    "Tokuten-ou 3 - Eikou e no Chousen ~ Super Sidekicks 3 - The Next Glory (Japan, USA) (En,Ja,Fr,Es,It,Pt)": {
+    "Tokuten-ou 3 - Eikou e no Chousen ~ Super Sidekicks 3 - The Next Glory (World) (En,Ja,Fr,Es,It,Pt)": {
         "languages": "En, Fr, It, Ja, Pt, Es"
     },
     "Top Hunter - Roddy & Cathy (Japan) (En,Ja)": {
@@ -299,7 +305,10 @@
     "Treasure of the Caribbean (France) (En,Ja) (Unl)": {
         "languages": "En, Ja"
     },
-    "Tsuukai Gangan Koushinkyoku ~ Aggressors of Dark Kombat (Japan, USA) (En,Ja)": {
+    "Tsuukai Gangan Koushinkyoku ~ Aggressors of Dark Kombat (World) (En,Ja)": {
+        "languages": "En, Ja"
+    },
+    "Twinkle Star Sprites (Japan) (En,Ja)": {
         "languages": "En, Ja"
     },
     "Viewpoint (Japan)": {
@@ -314,7 +323,7 @@
     "World Heroes 2 Jet (Japan) (En,Ja)": {
         "languages": "En, Ja"
     },
-    "World Heroes Perfect (Japan, USA) (En,Ja)": {
+    "World Heroes Perfect (World) (En,Ja)": {
         "languages": "En, Ja"
     }
 }
