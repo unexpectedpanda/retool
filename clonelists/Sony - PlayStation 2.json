@@ -3,7 +3,7 @@
         "name": [
 			"Sony - PlayStation 2"
 		],
-        "last updated": "4 July 2021",
+        "last updated": "24 July 2021",
 		"minimum version": "0.89"
     },
 
@@ -93,7 +93,8 @@
 			["Energy Thieves, The", 1]
 		],
 		"Adventures of Darwin, The": [
-			["Darwin", 1]
+			["Darwin", 1],
+			["Simple 2000 Series Vol. 99 - The Genshijin", 1]
 		],
 		"Aero Elite - Combat Academy": [
 			["Aero Dancing 4 - New Generation", 1]
@@ -386,6 +387,9 @@
 		],
 		"Colosseum - Road to Freedom": [
 			["Gladiator - Road to Freedom", 1]
+		],
+		"Come on Baby": [
+			["Simple 2000 Series Vol. 94 - The Aka-Champion - Come on Baby", 1]
 		],
 		"Conflict - Desert Storm": [
 			["Conflict Delta - Wangan Sensou 1991", 1]
@@ -931,6 +935,9 @@
 		],
 		"FIFA Soccer 2005": [
 			["FIFA Football 2005", 1]
+		],
+		"Fighting Angels": [
+			["Simple 2000 Series Vol. 55 - The Catfight - Meneko Densetsu", 1]
 		],
 		"Fighting Fury": [
 			["Grappler Baki - Baki Saikyou Retsuden", 1]
@@ -1505,6 +1512,9 @@
 		"Legaia 2 - Duel Saga": [
 			["Legaia - Duel Saga", 1]
 		],
+		"Legacy of Kain - Soul Reaver 2": [
+			["Soul Reaver 2", 1]
+		],
 		"Lemony Snicket's A Series of Unfortunate Events": [
 			["Desastreuses Aventures des Orphelins Baudelaire, Les - D'Apres Lemony Snicket", 1],
 			["Lemony Snicket - Raetselhafte Ereignisse", 1],
@@ -1623,7 +1633,11 @@
 			["Maken Shao", 1]
 		],
 		"Mashed - Fully Loaded": [
-			["Drive to Survive", 1]
+			["Drive to Survive", 1],
+			["Simple 2000 Series Ultimate Vol. 28 - Tousou! Kenka Grand Prix - Drive to Survive", 1]
+		],
+		"Master Chess": [
+			["Simple 2000 Honkaku Shikou Series Vol. 3 - The Chess", 1]
 		],
 		"Maximo - Ghosts to Glory": [
 			["Maximo", 1]
@@ -1675,6 +1689,9 @@
 			["SuperLite 2000 Vol. 40 - Memories Off - After Rain Vol. 3 - Sotsugyou", 2],
 			["Memories Off - After Rain Vol. 3 - Sotsugyou", 3]
 		],
+		"Memories Off Mix": [
+			["SuperLite 2000 Vol. 29 - Memories Off Mix", 2]
+		],
 		"Mercenaries 2 - World in Flames": [
 			["Mercenaries 2 - Inferno di Fuoco", 1],
 			["Mercenaries 2 - L'enfer des Favelas", 1]
@@ -1698,8 +1715,17 @@
 		"Metal Gear Solid 3 - Subsistence (Disc 3) (Existence) (Limited Edition)": [
 			["Metal Gear Solid 3 - Subsistence (Disc 3) (Existence)", 2]
 		],
+		"Metal Saga": [
+			["Metal Saga - Sajin no Kusari", 1]
+		],
 		"Metal Slug Anthology": [
 			["Metal Slug Complete", 1]
+		],
+		"Metropolismania": [
+			["Simple 2000 Series Vol. 39 - The Boku no Machi-zukuri - Machi-ing Maker++", 1]
+		],
+		"Metropolismania 2": [
+			["Machi-ing Maker 2 - Zoku Boku no Machi-zukuri", 1]
 		],
 		"Michigan - Report from Hell": [
 			["Michigan", 1]
@@ -1778,7 +1804,8 @@
 			["MX World Tour", 1]
 		],
 		"Mystic Heroes": [
-			["Chou Battle Houshin", 1]
+			["Chou Battle Houshin", 1],
+			["Super Battle Bongsin", 1]
 		],
 		"Namco Museum 50th Anniversary": [
 			["Namco Museum Arcade Hits!", 1]
@@ -1928,6 +1955,9 @@
 		],
 		"Okage - Shadow King": [
 			["Boku to Maou", 1]
+		],
+		"Omoide ni Kawaru Kimi - Memories Off": [
+			["SuperLite 2000 Vol. 20 - Omoide ni Kawaru Kimi - Memories Off", 2]
 		],
 		"One Piece - Pirates Carnival (Multi Tap (SCPH-70120) Doukonban)": [
 			["One Piece - Pirates Carnival (Multi Tap (SCPH-10090) Doukonban)", 2],
@@ -2154,6 +2184,9 @@
 		"RedCard 20-03": [
 			["RedCard", 1]
 		],
+		"Red Ninja - End of Honor": [
+			["Red Ninja - Kekka no Mai", 1]
+		],
 		"Reel Fishing III": [
 			["Fish Eyes 3 - Kioku no Hahen-tachi", 1]
 		],
@@ -2233,11 +2266,20 @@
 		"Romancing SaGa": [
 			["Romancing SaGa - Minstrel Song", 1]
 		],
+		"RPG Maker II": [
+			["RPG Tkool 5", 1]
+		],
+		"RPG Maker 3": [
+			["RPG Tkool", 1]
+		],
 		"RSII - Riding Spirits": [
 			["RSII - Riding Spirits 2", 1]
 		],
 		"Rugby League 2": [
 			["Rugby League 2 - World Cup Edition", 0]
+		],
+		"Runabout 3 - Neo Age": [
+			["Simple 2000 Series Ultimate Vol. 9 - Bakusou! Manhattan - Runabout 3 - Neo Age", 1]
 		],
 		"Rygar - The Legendary Adventure": [
 			["Argus no Senshi", 1],
@@ -2245,7 +2287,12 @@
 			["Argus-ui Jeonsa", 1]
 		],
 		"Ryuu ga Gotoku 2 (Disc 1)": [
-			["Ryuu ga Gotoku 2", 2]
+			["Ryuu ga Gotoku 2", 0],
+			["Yakuza 2", 0]
+		],
+		"Ryuu ga Gotoku 2 (Disc 2)": [
+			["Ryuu ga Gotoku 2", 0],
+			["Yakuza 2", 0]
 		],
 		"Saint Seiya - The Hades": [
 			["Saint Seiya - Meiou Hades Juunikyuu-hen", 1]
@@ -2337,6 +2384,9 @@
 		"Shadow Hearts - From the New World (Premium Box)": [
 			["Shadow Hearts - From the New World", 2]
 		],
+		"Shepherd's Crossing": [
+			["SuperLite 2000 Vol. 36 - Youkoso Hitsuji-mura", 1]
+		],
 		"Shibai Michi (USB Mic Doukonban)": [
 			["Shibai Michi", 2]
 		],
@@ -2399,12 +2449,29 @@
 			["Silent Scope 2 - Fatal Judgement", 1],
 			["Silent Scope 2 - Innocent Sweeper", 1]
 		],
-		"Simple 2000 Series Vol. 94 - The Aka-Champion - Come on Baby": [
-			["Come on Baby", 1]
-		],
 		"Simpsons Game, The": [
 			["Simpson, Les - Le Jeu", 1],
 			["Simpsons, Die - Das Spiel", 1]
+		],
+		"SingStar Die groessten Solokuenstler": [
+			["SingStar Polskie Hity", 1]
+		],
+		"SingStar Legends": [
+			["SingStar Legendat", 1]
+		],
+		"SingStar Party": [
+			["SingStar NRJ Music Tour", 1]
+		],
+		"SingStar Pop": [
+			["SingStar Norske Hits", 1],
+			["SingStar Popworld", 1],
+			["SingStar Radio 105", 1],
+			["SingStar Svenska Hits", 1],
+			["SingStar The Dome", 1]
+		],
+		"SingStar Rocks!": [
+			["SingStar Rocks! TMF", 1],
+			["SingStar Rocks! with RTE 2fm", 1]
 		],
 		"SingStar Singalong with Disney": [
 			["SingStar Best of Disney", 1],
@@ -2412,8 +2479,12 @@
 			["SingStar Canciones Disney", 1],
 			["SingStar Cancoes Disney", 1],
 			["SingStar e la Magia Disney", 1],
+			["SingStar Sjung med Disney", 1],
 			["SingStar Syng med Disney", 1],
 			["SingStar Zingt met Disney", 1]
+		],
+		"SingStar Summer Party": [
+			["SingStar Party Hits", 1]
 		],
 		"Siren": [
 			["Forbidden Siren", 1],
@@ -2434,6 +2505,9 @@
 		],
 		"Sly 3 - Honor Among Thieves": [
 			["Sly 3 - Honour Among Thieves", 1]
+		],
+		"Smash Court Tennis - Pro Tournament": [
+			["Smash Court Pro Tournament", 1]
 		],
 		"Smash Court Tennis - Pro Tournament 2": [
 			["Smash Court Pro Tournament 2", 1]
@@ -2471,6 +2545,9 @@
 		],
 		"Space Invaders - Invasion Day": [
 			["Simple 2000 Series Vol. 52 - The Chikyuu Shinryakugun - Space Raiders", 1]
+		],
+		"Space War Attack": [
+			["Simple 2000 Series Vol. 78 - The Uchuu Daisensou", 1]
 		],
 		"Spartan - Total Warrior": [
 			["Spartan - Kodai Greece Eiyuuden", 1]
@@ -2621,6 +2698,9 @@
 		"Tengai Makyou II - Manji Maru (Picture Label Shiyou)": [
 			["Tengai Makyou II - Manji Maru", 2]
 		],
+		"Tennis Court Smash": [
+			["Simple 2000 Series Vol. 8 - The Tennis", 1]
+		],
 		"Tennis no Oujisama - Smash Hit! Original Anime Game (SLPM-62359)": [
 			["Tennis no Oujisama - Smash Hit! Original Anime Game (SLPM-62358)", 2],
 			["Tennis no Oujisama - Smash Hit! Original Anime Game (SLPM-62357)", 3]
@@ -2734,6 +2814,9 @@
 		"Tsugunai - Atonement": [
 			["Tsugunai", 1]
 		],
+		"Twenty 2 Party": [
+			["Simple 2000 Series Vol. 18 - The Party Sugoroku", 1]
+		],
 		"Typing Namidabashi - Ashita no Joe Touda (USB Keyboard Doukonban)": [
 			["Typing Namidabashi - Ashita no Joe Touda", 2]
 		],
@@ -2794,6 +2877,9 @@
 		],
 		"Volleyball Challenge": [
 			["Simple 2000 Series Vol. 41 - The Volleyball", 1]
+		],
+		"Volleyball Xciting": [
+			["SuperLite 2000 Vol. 18 - Waku Waku Volley 2", 1]
 		],
 		"Waga Ryuu o Miyo - Pride of the Dragon Peace": [
 			["Kan Wo Long Xian Shen Wei", 1]
@@ -2960,6 +3046,9 @@
 		"XIII": [
 			["XIII - Daitouryou o Koroshita Otoko", 1]
 		],
+		"Yakuza": [
+			["Ryuu ga Gotoku", 1]
+		],
 		"Yakuza Fury": [
 			["Simple 2000 Series Vol. 72 - The Ninkyou", 1]
 		],
@@ -2988,6 +3077,9 @@
 		"Zombie Attack": [
 			["Simple 2000 Series Vol. 65 - The Kyonshii Panic", 1]
 		],
+		"Zombie Virus": [
+			["Simple 2000 Series Vol. 95 - The Zombie vs. Kyuukyuusha", 1]
+		],
 		"Zombie Zone": [
 			["Simple 2000 Series Vol. 61 - The OneeChambara", 1]
 		],
@@ -3001,6 +3093,9 @@
 		],
 		"Zone of the Enders - The 2nd Runner - Special Edition": [
 			["Anubis - Zone of the Enders - Special Edition", 1]
+		],
+		"Zoo Puzzle": [
+			["SuperLite 2000 Vol. 15 - Zooo", 1]
 		]
 	}
 }
