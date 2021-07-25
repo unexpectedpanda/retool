@@ -1,0 +1,24 @@
+{
+	"description": {
+		"name": [
+			"Atari - 5200"
+		],
+		"last updated": "25 July 2021",
+		"minimum version": "0.89"
+	},
+	
+	"categories": {
+		"Atari PAM - Pete's Test": {
+			"match": "short",
+			"categories": ["Applications"]
+		},
+		"Atari PAM Diagnostics": {
+			"match": "short",
+			"categories": ["Applications"]
+		},
+		"Atari PAM System Test": {
+			"match": "short",
+			"categories": ["Applications"]
+		}
+	}
+}
