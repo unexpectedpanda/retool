@@ -1,0 +1,87 @@
+{
+	"description": {
+		"name": [
+			"Nintendo - Wii",
+			"Nintendo - Wii - NKit GCZ",
+			"Nintendo - Wii - NKit ISO",
+			"Nintendo - Wii - NASOs"
+		],
+		"last updated": "01 August 2021",
+		"minimum version": "0.89"
+	},
+
+	"renames": {
+		"007 - Quantum of Solace": [
+			["007 - Nagusame no Houshuu", 1]
+		],
+		"101-in-1 Party Megamix Wii": [
+			["101-in-1 Party Megamix", 1]
+		],
+		"2010 FIFA World Cup South Africa": [
+			["2010 FIFA World Cup - Minami Africa Taikai", 1]
+		],
+		"AC-DC Live - Rock Band": [
+			["AC-DC Live - Rock Band Track Pack", 1]
+		],
+		"Adventures of Tintin, The - The Secret of the Unicorn": [
+			["Adventures of Tintin, The - The Game", 1]
+		],
+		"AFL": [
+			["AFL - Game of the Year Edition", 0]
+		],
+		"ATV Fever": [
+			["Honda ATV Fever", 1]
+		],
+		"Academy of Champions - Football": [
+			["Academy of Champions - Soccer", 1]
+		],
+		"Aladin Magic Racer": [
+			["Aladdin Magic Racer", 1]
+		],
+		"All Star Cheerleader": [
+			["All Star Cheer Squad", 1]
+		],
+		"All Star Cheerleader 2": [
+			["All Star Cheer Squad 2", 1]
+		],
+		"Anno - Create a New World": [
+			["Dawn of Discovery", 1]
+		],
+		"Another Code R - A Journey into Lost Memories": [
+			["Another Code R - Kioku no Tobira", 1]
+		],
+		"Artlist Collection - The Dog Island": [
+			["Artlist Collection - The Dog Island - Hitotsu no Hana no Monogatari", 1]
+		],
+		"Ashes Cricket 2009": [
+			["Cricket", 1]
+		],
+		"Castlevania Judgment": [
+			["Akumajou Dracula Judgment", 1]
+		],
+		"Family Trainer": [
+			["Active Life - Outdoor Challenge", 1]
+		],
+		"Family Trainer - Extreme Challenge": [
+			["Active Life - Extreme Challenge", 1],
+			["Family Trainer 2", 1]
+		],
+		"Family Trainer - Magical Carnival": [
+			["Active Life - Magical Carnival", 1]
+		],
+		"Family Trainer - Treasure Adventure": [
+			["Active Life - Explorer", 1],
+			["Minna de Bouken! Family Trainer", 1]
+		],
+		"Mensa Academy": [
+			["American Mensa Academy", 1]
+		],
+		"Rygar - The Battle of Argus": [
+			["Argos no Senshi - Muscle Impact", 1]
+		],
+		"Safar'Wii": [
+			["Animal Kingdom - Wildlife Expedition", 1],
+			["Doubutsu Kisoutengai! Nazo no Rakuen de Scoop Shashin o Gekisha Seyo!", 1]
+		]
+	}
+}
