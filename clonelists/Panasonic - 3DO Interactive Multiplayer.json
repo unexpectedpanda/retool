@@ -4,13 +4,13 @@
 			"Panasonic - 3DO Interactive Multiplayer"
 		],
 		"last updated": "10 April 2021",
-		"minimum version": "0.89"
+		"minimum version": "0.92"
 	},
 	
 	"categories": {
 		"Panasonic REAL 3DO Interactive Multiplayer - Sampler CD": {
 			"match": "short",
-			"categories": ["Demos"]
+			"categories": ["Demos", "Multimedia"]
 		}
 	},
 
@@ -124,9 +124,6 @@
 		],
 		"Super Street Fighter II Turbo": [
 			["Super Street Fighter II X - Grand Master Challenge", 1]
-		],
-		"Supreme Warrior (Disc 2)": [
-			["Supreme Warrior (Japan) (Ja,Zh) (Disc 2) (Wind & Fang Tu)", 0]
 		],
 		"Total Eclipse": [
 			["Total Eclipse (DFJN5015ZAZ)", 2]
