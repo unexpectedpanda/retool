@@ -230,11 +230,12 @@ def dat_to_dict(region, region_data, input_dat, user_input, removes_found, categ
 
                                 # Check if the (Demo) tag is missing, and add it if so
                                 if 'Demos' in disc_title.categories and '(Demo' not in disc_title.full_name:
-                                    if disc_title in groups[group_name]:
-                                        groups[group_name].remove(disc_title)
-                                        if group_name + ' (Demo)' not in groups:
-                                            groups[group_name + ' (Demo)'] = []
-                                        groups[group_name + ' (Demo)'].append(disc_title)
+                                    disc_title.short_name = disc_title.short_name + ' (Demo)'
+                                    disc_title.region_free_name = disc_title.region_free_name + ' (Demo)'
+                                    disc_title.tag_free_name_lower = disc_title.tag_free_name + ' (Demo)'
+                                    disc_title.region_free_name_lower = disc_title.region_free_name.lower()
+                                    disc_title.tag_free_name_lower = disc_title.tag_free_name.lower()
+
 
         # Filter categories, if the option has been turned on
         def exclude_categories(category, regexes=[]):

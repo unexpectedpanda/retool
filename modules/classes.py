@@ -275,6 +275,7 @@ class Regex:
         self.beta = re.compile('\((?:(?!\(|Beta( [0-9]{,2}){,1})[\s\S])*Beta( [0-9]{,2}){,1}\)', re.IGNORECASE)
         self.proto = re.compile('\((?:(?!\(|Proto( [0-9]{,2}){,1})[\s\S])*Proto( [0-9]{,2}){,1}\)', re.IGNORECASE)
         self.preprod = re.compile('\((Pre-production|Prerelease)\)', re.IGNORECASE)
+        self.dev = re.compile('\(DEV\)', re.IGNORECASE)
         self.review = re.compile('\(Review Code\)', re.IGNORECASE)
 
         # Tags
@@ -309,6 +310,7 @@ class Regex:
             self.beta,
             self.proto,
             self.preprod,
+            self.dev,
             self.review,
             ]
         self.preproduction_bad = re.compile('\((?:(?!\(|(Alpha|Beta|Pre-production|Proto|Review Code)( [0-9]{,2}){,1})[\s\S])*(Alpha|Beta|Pre-production|Proto|Review Code)( [0-9]{,2}){,1}\)|(\[b\])', re.IGNORECASE)

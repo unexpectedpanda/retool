@@ -31,7 +31,7 @@ from modules.xml import dat_to_dict, process_input_dat
 # Require at least Python 3.8
 assert sys.version_info >= (3, 8)
 
-__version__ = '0.97'
+__version__ = '0.98'
 
 def main(gui_input=''):
 
