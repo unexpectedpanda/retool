@@ -1,3 +1,9 @@
+# 0.99
+
+- Fixed an issue where titles on the system include list wouldn't be recovered.
+
+
+
 # 0.98
 
 - Fixed an issue where if a title was reassigned to the `Demos` category, and
