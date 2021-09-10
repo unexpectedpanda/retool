@@ -629,7 +629,6 @@ def process_input_dat(dat_file, is_folder, gui=False):
         # Convert contents to BeautifulSoup object, remove original contents attribute
         print('* Converting dat file to a searchable format... ', sep=' ', end='', flush=True)
         input_dat.soup = BeautifulSoup(input_dat.contents, "lxml-xml")
-        del input_dat.contents
         print('done.')
 
         # Set input dat header details

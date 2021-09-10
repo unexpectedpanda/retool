@@ -1,6 +1,8 @@
 import re
 import sys
 
+from bs4 import BeautifulSoup
+
 from modules.classes import DatNode
 from modules.titleutils import get_raw_title
 from modules.utils import old_windows
@@ -96,6 +98,8 @@ def recover_titles_for_custom_filters(user_input, input_dat, dat_numbered, recov
         This can't be in titleutils.py due to circular import. """
 
     if user_input.global_includes != [] or user_input.system_includes != []:
+        input_dat.soup = BeautifulSoup(input_dat.contents, "lxml-xml")
+
         recover_xml = input_dat.soup.find_all('game')
 
         recover_xml_list = []
