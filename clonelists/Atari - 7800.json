@@ -3,8 +3,19 @@
 		"name": [
 			"Atari - 7800"
 		],
-		"last updated": "9 April 2021",
-		"minimum version": "0.89"
+		"last updated": "25 July 2021",
+		"minimum version": "0.92"
+	},
+	
+	"categories": {
+		"Atari 7800 Development Card": {
+			"match": "short",
+			"categories": ["Applications"]
+		},
+		"Diagnostic Test Cartrige": {
+			"match": "short",
+			"categories": ["Applications"]
+		}
 	},
 
 	"renames": {
