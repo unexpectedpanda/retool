@@ -2484,6 +2484,14 @@
 			["SingStar Svenska Hits", 1],
 			["SingStar The Dome", 1]
 		],
+		"SingStar Pop 2009": [
+			["SingStar SuomiPop", 1],
+			["SingStar Svenska Stjaernor", 1]
+		],
+		"SingStar Pop Hits": [
+			["SingStar Pop Hits - 40 Principales", 1],
+			["SingStar ESKA - Hity na Czasie", 1]
+		],
 		"SingStar Rocks!": [
 			["SingStar Rocks! TMF", 1],
 			["SingStar Rocks! with RTE 2fm", 1]
@@ -2667,6 +2675,9 @@
 		],
 		"Sword of the Samurai": [
 			["Kengou 2", 1]
+		],
+		"Taiko Drum Master": [
+			["Taiko no Tatsujin - Taiko Drum Master", 1]
 		],
 		"Taisen Hot Gimmick - Cosplay-jong (Special-ban)": [
 			["Taisen Hot Gimmick - Cosplay-jong", 2]
