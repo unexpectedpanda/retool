@@ -4,7 +4,14 @@
 			"Panasonic - 3DO Interactive Multiplayer"
 		],
 		"last updated": "10 April 2021",
-		"minimum version": "0.89"
+		"minimum version": "0.92"
+	},
+	
+	"categories": {
+		"Panasonic REAL 3DO Interactive Multiplayer - Sampler CD": {
+			"match": "short",
+			"categories": ["Demos", "Multimedia"]
+		}
 	},
 
 	"renames": {
