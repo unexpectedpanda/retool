@@ -3,7 +3,7 @@
 		"name": [
 			"Nintendo - Game Boy Color"
 		],
-		"last updated": "19 May 2021",
+		"last updated": "11 September 2021",
 		"minimum version": "0.92"
 	},
 
@@ -164,18 +164,25 @@
 		"GameShark Online": [
 			["Action Replay Online", 1]
 		],
-		"Gobs of Games": [
-			["Games Frenzy", 1]
-		],
 		"Gex 3 - Deep Pocket Gecko": [
 			["Gex 3 - Deep Cover Gecko", 1]
 		],
 		"Gift": [
 			["Gifty", 1]
 		],
+		"Gobs of Games": [
+			["Games Frenzy", 1]
+		],
 		"Golden Goal": [
 			["Pro Foot", 1],
 			["Three Lions", 2]
+		],
+		"Golf Daisuki!": [
+			["Pocket Golf!", 2]
+		],
+		"Golf Ou - The King of Golf": [
+			["Golf King", 2],
+			["Supershot Golf Robot", 2]
 		],
 		"Grinch, The": [
 			["Grinch", 1]
@@ -459,7 +466,8 @@
 			["Rocman X Gold + 4 in 1 (1B-002, 4B-003, Sachen)", 1]
 		],
 		"TNN Outdoors Fishing Champ": [
-			["Super Black Bass Pocket 3", 1]
+			["Super Black Bass Pocket 3", 1],
+			["EuroSport Pro Champ Fishing", 2]
 		],
 		"Tom and Jerry - Mouse Hunt": [
 			["Tom and Jerry - Mousehunt", 1]

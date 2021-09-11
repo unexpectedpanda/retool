@@ -3,7 +3,7 @@
 		"name": [
 			"Nintendo - Super Nintendo Entertainment System"
 		],
-		"last updated": "July 4, 2021",
+		"last updated": "11 September, 2021",
 		"minimum version": "0.92"
 	},
 
@@ -280,6 +280,9 @@
 		"Donkey Kong Country 3 - Dixie Kong's Double Trouble!": [
 			["Super Donkey Kong 3 - Nazo no Kremis-tou", 1]
 		],
+		"Doom Troopers": [
+			["Mutant Chronicles - Doom Troopers", 2]
+		],
 		"Doomsday Warrior": [
 			["Taiketsu!! Brass Numbers", 1]
 		],
@@ -533,7 +536,7 @@
 		],
 		"King Arthur's World": [
 			["Royal Conquest", 1],
-			["Havoc", 2]
+			["Havoc (Demo)", 2]
 		],
 		"King of Dragons": [
 			["King of Dragons, The", 1]
@@ -563,9 +566,6 @@
 		],
 		"Kyle Petty's No Fear Racing": [
 			["Circuit USA", 1]
-		],
-		"Lamborghini American Challenge": [
-			["Lamborghini - American Challenge", 1]
 		],
 		"Lawnmower Man, The": [
 			["Virtual Wars", 1]
@@ -1262,6 +1262,9 @@
 		"Virtual Soccer": [
 			["J.League Super Soccer", 1]
 		],
+		"We're Back! - A Dinosaur's Story": [
+			["Baby T-Rex", 2]
+		],
 		"Whirlo": [
 			["Xandra no Daibouken - Valkyrie to no Deai", 1]
 		],
@@ -1287,6 +1290,9 @@
 		],
 		"World Class Rugby": [
 			["Blanco World Class Rugby", 1]
+		],
+		"World Cup USA 94": [
+			["World Cup USA '94", 2]
 		],
 		"World League Soccer": [
 			["Pro Soccer", 1]
@@ -1322,7 +1328,8 @@
 			["Zombies", 1]
 		],
 		"Zool - Ninja of the 'Nth' Dimension": [
-			["Zool no Yume Bouken", 1]
+			["Zool no Yume Bouken", 1],
+			["Zool", 2]
 		]
 	}
 }

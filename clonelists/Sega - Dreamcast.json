@@ -3,7 +3,7 @@
 		"name": [
 			"Sega - Dreamcast"
 		],
-		"last updated": "9 April 2021",
+		"last updated": "11 September 2021",
 		"minimum version": "0.89"
 	},
 
@@ -84,6 +84,9 @@
 		],
 		"Ducati World - Racing Challenge": [
 			["Ducati World", 1]
+		],
+		"Dux Version 1.5": [
+			["Dux Version 1.5 (Limited Edition)", 1]
 		],
 		"Dynamite Cop!": [
 			["Dynamite Cop", 1],
@@ -338,6 +341,9 @@
 		"Virtua Tennis": [
 			["Power Smash - Sega Professional Tennis", 1],
 			["Virtua Tennis - Sega Professional Tennis", 1]
+		],
+		"Who Wants to Be a Millionaire": [
+			["Qui Veut Gagner des Millions", 1]
 		],
 		"Xtreme Sports": [
 			["Sega Extreme Sports", 1]

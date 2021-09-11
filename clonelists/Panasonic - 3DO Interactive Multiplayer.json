@@ -3,8 +3,27 @@
 		"name": [
 			"Panasonic - 3DO Interactive Multiplayer"
 		],
-		"last updated": "10 April 2021",
-		"minimum version": "0.89"
+		"last updated": "21 August 2021",
+		"minimum version": "0.92"
+	},
+
+	"categories": {
+		"Panasonic REAL 3DO Interactive Multiplayer - Sampler CD": {
+			"match": "short",
+			"categories": ["Demos", "Multimedia"]
+		},
+		"Panasonic REAL 3DO Interactive Multiplayer - Sampler CD (ZAZ)": {
+			"match": "short",
+			"categories": ["Demos", "Multimedia"]
+		},
+		"Panasonic REAL 3DO Interactive Multiplayer - Sampler CD (ZBZ)": {
+			"match": "short",
+			"categories": ["Demos", "Multimedia"]
+		},
+		"Panasonic REAL 3DO Interactive Multiplayer - Sampler CD for PAL System": {
+			"match": "short",
+			"categories": ["Demos", "Multimedia"]
+		}
 	},
 
 	"renames": {

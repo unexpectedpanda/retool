@@ -3,7 +3,7 @@
         "name": [
 			"Sony - PlayStation"
 		],
-        "last updated": "19 May 2021",
+        "last updated": "11 September 2021",
 		"minimum version": "0.89"
     },
 
@@ -516,6 +516,9 @@
 			["Chine - Intrigue dans la Cite Interdite", 1],
 			["Cina - Crimini nella Citta Proibita", 1],
 			["Verrat in der Verbotenen Stadt", 1]
+		],
+		"Chou Kousoku Gran Doll (Disc 1) (Premium Edition)": [
+			["Chou Kousoku Gran Doll", 2]
 		],
 		"Chocobo's Dungeon 2": [
 			["Chocobo no Fushigi na Dungeon 2", 1]
@@ -1161,6 +1164,9 @@
 		"Formula Karts - Special Edition": [
 			["Elf Masters presente Formula Karts - Special Edition", 1]
 		],
+		"Formula One 99": [
+			["Formula One '99", 2]
+		],
 		"FOX Sports Golf '99": [
 			["Actua Golf 2", 1]
 		],
@@ -1348,6 +1354,12 @@
 		],
 		"Independence Day": [
 			["Independence Day - The Game", 1]
+		],
+		"Interactive CD Sampler Pack Volume One (Demo)": [
+			["Interactive CD Sampler Pack Volume One (SCUS-94956) (Demo)", 2]
+		],
+		"Interactive CD Sampler Pack Volume Three (Demo)": [
+			["Interactive CD Sampler Pack Volume Three (SCUS-94177) (Demo)", 2]
 		],
 		"International Track & Field": [
 			["Hyper Olympic in Atlanta", 1]
@@ -2027,7 +2039,8 @@
 			["Simple 1500 Series Vol. 89 - The Power Shovel ni Norou!!", 2]
 		],
 		"Power Spike - Pro Beach Volleyball": [
-			["Beach Volleyball", 1]
+			["Beach Volleyball", 1],
+			["V-Beach Volleyball", 2]
 		],
 		"Power Serve 3D Tennis": [
 			["Power Serve", 1],

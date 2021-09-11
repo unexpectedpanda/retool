@@ -1,26 +1,30 @@
 {
 	"description": {
 		"name": [
-			"Atari - 7800"
+			"Atari - 5200"
 		],
 		"last updated": "11 September 2021",
 		"minimum version": "0.92"
 	},
 
 	"categories": {
-		"Atari 7800 Development Card": {
+		"Atari PAM - Pete's Test": {
 			"match": "short",
 			"categories": ["Applications"]
 		},
-		"Diagnostic Test Cartrige": {
+		"Atari PAM Diagnostics": {
+			"match": "short",
+			"categories": ["Applications"]
+		},
+		"Atari PAM System Test": {
 			"match": "short",
 			"categories": ["Applications"]
 		}
 	},
 
 	"renames": {
-		"Pete Rose Baseball": [
-			["Baseball", 1]
+		"Super Pac-Man": [
+			["Super Pacman", 2]
 		]
 	}
 }

@@ -3,7 +3,7 @@
 		"name": [
 			"Sega - 32X"
 		],
-		"last updated": "9 April 2021",
+		"last updated": "11 September 2021",
 		"minimum version": "0.89"
 	},
 
@@ -21,6 +21,7 @@
 			["Doom RR", 2]
 		],
 		"Parasquad ~ Zaxxon's Motherbase 2000": [
+			["Motherbase", 1],
 			["Parasquad ~ Zaxxon's Motherbase", 1]
 		],
 		"Shadow Squadron ~ Stellar Assault": [

@@ -3,7 +3,7 @@
 		"name": [
 			"Sega - Master System - Mark III"
 		],
-		"last updated": "23 May 2021",
+		"last updated": "11 September 2021",
 		"minimum version": "0.89"
 	},
 
@@ -90,7 +90,8 @@
 		"Alex Kidd in Miracle World": [
 			["Alex Kido", 1],
 			["Alex Kidd no Miracle World", 1],
-			["[BIOS] Alex Kidd in Miracle World", 2]
+			["[BIOS] Alex Kidd in Miracle World", 2],
+			["Alex Kidd in Miracle World (BIOS version)", 2]
 		],
 		"Argos no Juujiken": [
 			["Alocos", 1]
@@ -258,8 +259,7 @@
 			["Super Wonder Boy ~ Wonder Boy", 1]
 		],
 		"Wonder Boy III - The Dragon's Trap": [
-			["Turma da Monica em O Resgate", 1],
-			["Wonder Boy III - The Dragon's Trap (GOG)", 2]
+			["Turma da Monica em O Resgate", 1]
 		],
 		"Wonder Boy in Monster Land": [
 			["Monica no Castelo do Dragao", 1],

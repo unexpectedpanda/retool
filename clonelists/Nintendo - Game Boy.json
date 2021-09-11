@@ -3,7 +3,7 @@
 		"name": [
 			"Nintendo - Game Boy"
 		],
-		"last updated": "23 May 2021",
+		"last updated": "11 September 2021",
 		"minimum version": "0.92"
 	},
 
@@ -152,6 +152,9 @@
 			["Blaster Master Jr.", 1],
 			["Bomber King - Scenario 2", 1]
 		],
+		"Bobby's World": [
+			["Home Alone 2 - Kevin's Dream", 2]
+		],
 		"Boomer's Adventure in ASMIK World": [
 			["Teke Teke! Asmik-kun World", 1]
 		],
@@ -201,7 +204,8 @@
 			["Akumajou Dracula - Shikkoku Taru Zensoukyoku - Dark Night Prelude", 1]
 		],
 		"Catrap": [
-			["Pitman", 1]
+			["Pitman", 1],
+			["Power Paws", 2]
 		],
 		"Chase H.Q.": [
 			["Taito Chase H.Q.", 1]
@@ -405,6 +409,9 @@
 		],
 		"Lost World, The - Jurassic Park": [
 			["Monde Perdu, Le - Jurassic Park", 1]
+		],
+		"Magnetic Soccer": [
+			["Kick Attack", 2]
 		],
 		"Malibu Beach Volleyball": [
 			["Seaside Volley", 1]
@@ -648,6 +655,9 @@
 		"Taito Variety Pack": [
 			["Mani 4 in 1 - Bubble Bobble + Elevator Action + Chase H.Q. + Sagaia", 1]
 		],
+		"Taiyou no Tenshi Marlowe - Ohanabatake wa Dai-panic": [
+			["Philip & Marlowe in Bloomland", 2]
+		],
 		"Tamagotchi": [
 			["Game de Hakken!! Tamagotchi", 1]
 		],
@@ -728,7 +738,8 @@
 		"We're Back! - A Dinosaur's Story": [
 			["Agro Soar", 1],
 			["Baby T-Rex", 1],
-			["Bamse", 1]
+			["Bamse", 1],
+			["Edd the Duck", 1]
 		],
 		"Wheel of Fortune": [
 			["Gluecksrad", 1]
@@ -758,6 +769,9 @@
 		],
 		"Yoshi's Cookie": [
 			["Yoshi no Cookie", 1]
+		],
+		"Zool - Ninja of the 'Nth' Dimension": [
+			["Zool", 1]
 		]
 	}
 }

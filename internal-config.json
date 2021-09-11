@@ -7,7 +7,7 @@
             "These are defaults that Retool requires, don't modify this file.",
             "Check user-config.yaml for user-editable settings."
         ],
-        "last updated": "21 July 2021"
+        "last updated": "11 September 2021"
     },
 
     "ignore_tags": [
@@ -209,6 +209,7 @@
         "\\s?\\((?:(?!\\(|Virtual Console.*?)[\\s\\S])*Virtual Console.*?\\)",
         "\\s?\\(Wii\\)",
         "\\s?\\((?:(?!\\(|.*?GameCube.*?)[\\s\\S])*?GameCube.*?\\)",
+        "\\s?\\(Bomberman Collection\\)",
         "\\s?\\(Castlevania Anniversary Collection\\)",
         "\\s?\\(Collection of Mana\\)",
         "\\s?\\(Collection of SaGa\\)",
@@ -219,10 +220,12 @@
         "\\s?\\(Konami Collector's Series\\)",
         "\\s?\\(Mega Drive Mini\\)",
         "\\s?\\(Mega Man Legacy Collection\\)",
+        "\\s?\\(Mega Man X Legacy Collection\\)",
         "\\s?\\(Mega Man iam8bit 30th Anniversary\\)",
         "\\s?\\(Namcot Collection.*?\\)",
         "\\s?\\(Namco Museum Archives Vol [0-9]\\)",
         "\\s?\\(PC Rerelease\\)",
+        "\\s?\\(Sega Ages\\)",
         "\\s?\\(Sega Smash Pack( [0-9]){0,1}\\)",
         "\\s?\\(Seiken Densetsu Collection\\)",
         "\\s?\\(SNK 40th Anniversary Collection\\)",

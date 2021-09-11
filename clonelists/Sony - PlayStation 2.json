@@ -3,7 +3,7 @@
         "name": [
 			"Sony - PlayStation 2"
 		],
-        "last updated": "25 July 2021",
+        "last updated": "11 September 2021",
 		"minimum version": "0.89"
     },
 
@@ -85,6 +85,16 @@
 			["Action Replay 2 Version 2.34 (Disc 1)", 2],
 			["Action Replay 2 Version 2.33 (Disc 1)", 3],
 			["Action Replay 2 Version 2.30 (Disc 1)", 4]
+		],
+		"Action Replay Ultimate Codes for Use with Grand Theft Auto - Vice City": [
+			["CD avec les Codes Action Replay Exclusivement pour les Jeux Grand Theft Auto III et Grand Theft Auto - Vice City", 1]
+		],
+		"Action Replay Ultimate Codes for Use with Lara Croft Tomb Raider - The Angel of Darkness": [
+			["CD avec les Codes Action Replay Exclusivement pour le Jeu Lara Croft Tomb Raider - The Angel of Darkness", 1],
+			["Ultimate Cheats fuer Lara Croft Tomb Raider - The Angel of Darkness", 1]
+		],
+		"Action Replay Ultimate Codes for Use with True Crime - Streets of LA": [
+			["CD avec les Codes Action Replay Exclusivement pour le Jeu True Crime - Streets of LA", 1]
 		],
 		"Adventures of Cookie & Cream, The": [
 			["Kuri Kuri Mix", 1]
@@ -240,9 +250,6 @@
 		],
 		"Blood Will Tell - Tezuka Osamu's Dororo": [
 			["Dororo", 1]
-		],
-		"Bob the Builder - Festival of Fun": [
-			["Bob O Construtor - Festival do Divertimento", 1]
 		],
 		"Boboboubo Boubobo - Atsumare!! Taikan Boubobo (Doukonban)": [
 			["Boboboubo Boubobo - Atsumare!! Taikan Boubobo", 2]
@@ -535,11 +542,11 @@
 			["Devil May Cry 2 (Disc 2) (Lucia)", 1]
 		],
 		"Devil May Cry 3 - Dante's Awakening": [
-			["Devil May Cry 3 - Dante's Awakening (Special Edition)", 0],
+			["Devil May Cry 3 - Special Edition", 0],
 			["Devil May Cry 3", 1]
 		],
 		"Devil May Cry 3 - Dante's Awakening (Special Edition)": [
-			["Devil May Cry 3 (Special Edition)", 1]
+			["Devil May Cry 3 - Special Edition", 1]
 		],
 		"Di Gi Charat Fantasy Excellent (Premium-ban)": [
 			["Di Gi Charat Fantasy Excellent (Standard-ban)", 2]
@@ -860,7 +867,7 @@
 			["SuperLite 2000 Vol. 24 - Ever 17 - The Out of Infinity - Premium Edition", 2]
 		],
 		"Evil Dead - A Fistful of Boomstick": [
-			["Evil Dead - A Fistful of Boomstick (SLES-51588)", 2]
+			["Evil Dead - A Fistful of Boomstick (Special Movie Edition)", 2]
 		],
 		"EX Jinsei Game (Doukonban)": [
 			["EX Jinsei Game", 2]
@@ -1232,8 +1239,7 @@
 			["GunGrave", 2]
 		],
 		"Gungrave - Overdose": [
-			["Gungrave O.D.", 1],
-			["Gungrave OD", 1]
+			["Gungrave O.D.", 1]
 		],
 		"Hanabi Hyakkei (Tokutenban)": [
 			["Hanabi Hyakkei", 2]
@@ -2484,6 +2490,14 @@
 			["SingStar Svenska Hits", 1],
 			["SingStar The Dome", 1]
 		],
+		"SingStar Pop 2009": [
+			["SingStar Svenska Stjaernor", 1],
+			["SingStar SuomiPop", 1]
+		],
+		"SingStar Pop Hits": [
+			["SingStar Pop Hits - 40 Principales", 1],
+			["SingStar ESKA - Hity na Czasie", 1]
+		],
 		"SingStar Rocks!": [
 			["SingStar Rocks! TMF", 1],
 			["SingStar Rocks! with RTE 2fm", 1]
@@ -2668,6 +2682,9 @@
 		"Sword of the Samurai": [
 			["Kengou 2", 1]
 		],
+		"Taiko Drum Master": [
+			["Taiko no Tatsujin - Taiko Drum Master", 1]
+		],
 		"Taisen Hot Gimmick - Cosplay-jong (Special-ban)": [
 			["Taisen Hot Gimmick - Cosplay-jong", 2]
 		],
@@ -2766,6 +2783,9 @@
 		"Time Crisis II (With GunCon2)": [
 			["Time Crisis II", 2]
 		],
+		"Time Crisis 3 (With GunCon2)": [
+			["Time Crisis 3", 2]
+		],
 		"TOCA Race Driver 2": [
 			["TOCA Race Driver 2 - Ultimate Racing Simulator", 1],
 			["V8 Supercars Australia 2", 1],
@@ -2852,6 +2872,9 @@
 		],
 		"Ultimate Mind Games": [
 			["Simple 2000 Series Vol. 10 - The Table Game Sekai-hen - Chess, Backgammon, Diamond, Gunjin Shougi, etc.", 1]
+		],
+		"Ultimate Codes for Medal of Honor - Frontline": [
+			["Action Replay Ultimate Cheats for Medal of Honor - Frontline", 1]
 		],
 		"Ultimate Spider-Man": [
 			["Ultimate Spider-Man (Limited Edition)", 0]

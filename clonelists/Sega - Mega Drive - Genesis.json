@@ -3,7 +3,7 @@
 		"name": [
 			"Sega - Mega Drive - Genesis"
 		],
-		"last updated": "23 May 2021",
+		"last updated": "11 September 2021",
 		"minimum version": "0.89"
 	},
 
@@ -499,13 +499,9 @@
 		"Soldiers of Fortune": [
 			["Chaos Engine, The", 1]
 		],
-		"Sonic & Knuckles + Sonic The Hedgehog 2 + Sonic The Hedgehog 3": [
-			["Sonic & Knuckles + Sonic The Hedgehog 3", 2],
-			["Sonic The Hedgehog 3 Limited Edition", 3],
-			["Sonic & Knuckles", 4]
-		],
 		"Sonic The Hedgehog 3": [
-			["Sonic 3", 1]
+			["Sonic 3", 2],
+			["Sonic The Hedgehog 3 Limited Edition", 2]
 		],
 		"Sonic 3D Blast ~ Sonic 3D Flickies' Island": [
 			["Sonic 3D Blast", 2],
@@ -559,6 +555,9 @@
 		],
 		"Strider": [
 			["Strider Hiryuu", 1]
+		],
+		"Sub-Terrania": [
+			["Sub-Terrania (October, 1993, Alt)", 2]
 		],
 		"Super Baseball 2020": [
 			["2020 Nen Super Baseball", 1]
