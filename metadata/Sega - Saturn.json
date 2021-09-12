@@ -2456,7 +2456,10 @@
     "Horde, The (USA)": {
         "languages": "En"
     },
-    "Horror Tour (Japan) (1M)": {
+    "Horror Tour (Japan)": {
+        "languages": "Ja"
+    },
+    "Horror Tour (Japan) (Rev B) (12M)": {
         "languages": "Ja"
     },
     "Houkago Ren'ai Club - Koi no Etude (Japan) (Disc 1)": {
@@ -6281,7 +6284,7 @@
     "Ultraman Zukan 3 (Japan)": {
         "languages": "Ja"
     },
-    "Umanari 1 Furlong Gekijou (Japan)": {
+    "Umanari 1 Furlong Theater (Japan)": {
         "languages": "Ja"
     },
     "Universal Nuts (Japan)": {
@@ -6459,6 +6462,9 @@
         "languages": "Ja"
     },
     "Virtua Fighter CG Portrait Series Vol. 1 - Sarah Bryant (Japan) (1M)": {
+        "languages": "Ja"
+    },
+    "Virtua Fighter CG Portrait Series Vol. 1 - Sarah Bryant (Japan) (Rev A)": {
         "languages": "Ja"
     },
     "Virtua Fighter CG Portrait Series Vol. 10 - Jeffry McWild (Japan) (4M)": {
@@ -6898,6 +6904,9 @@
     },
     "Worms (USA)": {
         "languages": "En"
+    },
+    "X Japan - Virtual Shock 001 (Japan) (3M)": {
+        "languages": "Ja"
     },
     "X Japan - Virtual Shock 001 (Japan) (4M)": {
         "languages": "Ja"

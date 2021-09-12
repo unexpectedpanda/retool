@@ -278,6 +278,9 @@
     "AC-DC Live - Rock Band Track Pack (USA)": {
         "languages": "En"
     },
+    "ADK Tamashii (Japan)": {
+        "languages": "Ja"
+    },
     "AFL Live 2003 (Australia)": {
         "languages": "En"
     },
@@ -485,8 +488,14 @@
     "Action Replay Max Demo Disc (Europe) (Unl)": {
         "languages": "En"
     },
+    "Action Replay Ultimate Cheats for Medal of Honor - Frontline (UK) (Unl)": {
+        "languages": "En"
+    },
     "Action Replay Ultimate Cheats for Use with Final Fantasy X-2 (UK) (Unl)": {
         "languages": "En"
+    },
+    "Action Replay Ultimate Cheats fuer Die Sims (Germany) (Unl)": {
+        "languages": "De"
     },
     "Action Replay Ultimate Codes - Wrestling Max Pack (USA) (Unl)": {
         "languages": "En"
@@ -573,6 +582,9 @@
         "languages": "En"
     },
     "Action Replay Ultimate Codes for Use with True Crime - Streets of LA (USA) (Unl)": {
+        "languages": "En"
+    },
+    "Action Replay Ultimate Update for Use with Pro Evolution Soccer 3 (UK) (Unl)": {
         "languages": "En"
     },
     "Activision Anthology (Europe, Australia)": {
@@ -2294,9 +2306,6 @@
     "Board Games Gallery (Europe)": {
         "languages": "En"
     },
-    "Bob O Construtor - Festival do Divertimento (Portugal) (En,Pt,No,Da,Fi)": {
-        "languages": "Da, En, Fi, No, Pt"
-    },
     "Bob the Builder (Europe)": {
         "languages": "En"
     },
@@ -2317,6 +2326,9 @@
     },
     "Bob the Builder - Festival of Fun (Europe) (En,Nl,No,Da,Fi)": {
         "languages": "Da, Nl, En, Fi, No"
+    },
+    "Bob the Builder - Festival of Fun (Portugal) (En,Pt,No,Da,Fi)": {
+        "languages": "Da, En, Fi, No, Pt"
     },
     "Boboboubo Boubobo - Atsumare!! Taikan Boubobo (Japan)": {
         "languages": "Ja"
@@ -3047,6 +3059,21 @@
     "CART Fury - Championship Racing (USA)": {
         "languages": "En"
     },
+    "CD avec les Codes Action Replay Exclusivement pour le Jeu Driver 3 (France) (Unl)": {
+        "languages": "Fr"
+    },
+    "CD avec les Codes Action Replay Exclusivement pour le Jeu Lara Croft Tomb Raider - The Angel of Darkness (France) (Unl)": {
+        "languages": "Fr"
+    },
+    "CD avec les Codes Action Replay Exclusivement pour le Jeu True Crime - Streets of LA (France) (Unl)": {
+        "languages": "Fr"
+    },
+    "CD avec les Codes Action Replay Exclusivement pour les Jeux Grand Theft Auto III et Grand Theft Auto - Vice City (France) (Unl)": {
+        "languages": "Fr"
+    },
+    "CD avec les Codes Exclusifs et Inedits de Dragon Ball Z - Budokai (France) (Unl)": {
+        "languages": "Fr"
+    },
     "CID the Dummy (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
@@ -3515,6 +3542,9 @@
     "Chobits - Chii dake no Hito (Japan)": {
         "languages": "Ja"
     },
+    "Chocolat - Maid Cafe Curio (Japan)": {
+        "languages": "Ja"
+    },
     "Choro Q (Europe)": {
         "languages": "En"
     },
@@ -3849,6 +3879,9 @@
         "languages": "En, Fr, Es"
     },
     "Code of the Samurai (Europe)": {
+        "languages": "En"
+    },
+    "Codejunkies Action Replay Lite (USA) (Unl)": {
         "languages": "En"
     },
     "Codename - Kids Next Door - Operation - V.I.D.E.O.G.A.M.E. (Europe) (En,De)": {
@@ -5288,9 +5321,6 @@
     "Devil May Cry 3 (Europe) (En,Ja,Fr,De,Es,It,Ko) (Beta)": {
         "languages": "En, Fr, De, It, Ja, Ko, Es"
     },
-    "Devil May Cry 3 (Japan) (En,Ja) (Special Edition)": {
-        "languages": "En, Ja"
-    },
     "Devil May Cry 3 (Japan) (En,Ja,Ko)": {
         "languages": "En, Ja, Ko"
     },
@@ -5308,6 +5338,9 @@
     },
     "Devil May Cry 3 - Dante's Awakening (USA) (En,Ja,Ko)": {
         "languages": "En, Ja, Ko"
+    },
+    "Devil May Cry 3 - Special Edition (Japan) (En,Ja)": {
+        "languages": "En, Ja"
     },
     "Devil May Cry 3 - Trial Version (Japan) (En,Ja) (Taikenban)": {
         "languages": "En, Ja"
@@ -7235,10 +7268,10 @@
     "Everblue 2 (USA)": {
         "languages": "En"
     },
-    "Evergrace (Europe) (En,Fr,De,Es,It) (Beta)": {
+    "Evergrace (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
-    "Evergrace (Europe) (En,Fr,De,Es,It) (v1.10)": {
+    "Evergrace (Europe) (En,Fr,De,Es,It) (Beta)": {
         "languages": "En, Fr, De, It, Es"
     },
     "Evergrace (Japan)": {
@@ -7265,7 +7298,7 @@
     "Evil Dead - A Fistful of Boomstick (Europe)": {
         "languages": "En"
     },
-    "Evil Dead - A Fistful of Boomstick (Europe) (SLES-51588)": {
+    "Evil Dead - A Fistful of Boomstick (Europe) (Special Movie Edition)": {
         "languages": "En"
     },
     "Evil Dead - A Fistful of Boomstick (USA)": {
@@ -9182,9 +9215,6 @@
     "GameShark 2 - Video Game Enhancer (USA) (En,Fr,Es,Pt) (Unl) (v2.01)": {
         "languages": "En, Fr, Pt, Es"
     },
-    "GameShark 2 - Video Game Enhancer (USA) (En,Fr,Es,Pt) (Unl) (v2.01) (Alt)": {
-        "languages": "En, Fr, Pt, Es"
-    },
     "GameShark 2 - Video Game Enhancer (USA) (Unl) (v1.3)": {
         "languages": "En"
     },
@@ -9291,6 +9321,9 @@
         "languages": "Ja"
     },
     "Gecko Blaster (Europe)": {
+        "languages": "En"
+    },
+    "Geesen USA - Midway Arcade Treasures (Japan)": {
         "languages": "En"
     },
     "Gekikuukan Pro Yakyuu - At the End of the Century 1999 (Japan)": {
@@ -9848,6 +9881,12 @@
     "Graffiti Kingdom (USA) (En,Fr,Es)": {
         "languages": "En, Fr, Es"
     },
+    "Gran Turismo - Nissan Micra Edition (Europe)": {
+        "languages": ""
+    },
+    "Gran Turismo - Nissan Micra Edition (Europe) (Rev 2)": {
+        "languages": "En"
+    },
     "Gran Turismo 2000 (Japan) (Taikenban)": {
         "languages": "Ja"
     },
@@ -9924,9 +9963,6 @@
         "languages": "En, Ja"
     },
     "Gran Turismo 4 - Mazda MX-5 Edition (USA) (Demo)": {
-        "languages": "En"
-    },
-    "Gran Turismo 4 - Nissan Micra Edition (Europe)": {
         "languages": "En"
     },
     "Gran Turismo 4 - Online Test Version (Japan)": {
@@ -10538,17 +10574,17 @@
     "Gungrave - Overdose (USA)": {
         "languages": "En"
     },
+    "Gungrave O.D. (Asia)": {
+        "languages": "Zh"
+    },
     "Gungrave O.D. (Japan)": {
+        "languages": "Ja"
+    },
+    "Gungrave O.D. (Japan) (Taikenban)": {
         "languages": "Ja"
     },
     "Gungrave O.D. (Korea)": {
         "languages": "Ko"
-    },
-    "Gungrave OD (Asia)": {
-        "languages": "Zh"
-    },
-    "Gungrave OD (Japan) (Taikenban)": {
-        "languages": "Ja"
     },
     "Gungriffon Blaze & Silpheed - The Lost Planet (Japan) (Taikenban)": {
         "languages": "Ja"
@@ -11255,7 +11291,7 @@
     "Hisshou Pachinko Pachi-Slot Kouryaku Series Vol. 2 - Bomber Powerful & Mumu World DX (Japan)": {
         "languages": "Ja"
     },
-    "Hisshou Pachinko Pachi-Slot Kouryaku Series Vol. 4 - CR Ashita ga Arusa Yoshimoto World (Japan)": {
+    "Hisshou Pachinko Pachi-Slot Kouryaku Series Vol. 4 - CR Ashita ga Aru sa Yoshimoto World (Japan)": {
         "languages": "Ja"
     },
     "Hisshou Pachinko Pachi-Slot Kouryaku Series Vol. 5 - CR Shin Seiki Evangelion 2nd Impact & Pachi-Slot Shin Seiki Evangelion (Japan)": {
@@ -12056,6 +12092,9 @@
     "Jak II - Jak x Daxter 2 (Japan) (En,Ja,Fr,De,Es,It,Ko)": {
         "languages": "En, Fr, De, It, Ja, Ko, Es"
     },
+    "Jak II - Jak x Daxter 2 (Japan) (Taikenban)": {
+        "languages": "Ja"
+    },
     "Jak II - Renegade (Europe) (En,Fr,De,Es,It) (Demo)": {
         "languages": "En, Fr, De, It, Es"
     },
@@ -12242,7 +12281,7 @@
     "Jet de Go! 2 (Japan) (Taikenban)": {
         "languages": "Ja"
     },
-    "Jetix - Puzzle Buzzle (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da,Fi)": {
+    "Jetix Puzzle Buzzle (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da,Fi)": {
         "languages": "Da, Nl, En, Fi, Fr, De, It, No, Es, Sv"
     },
     "Jewels Ocean - Star of Sierra Leone (Japan)": {
@@ -12577,6 +12616,9 @@
     },
     "Junjou Romantica - Koi no Doki Doki Daisakusen (Japan)": {
         "languages": "Ja"
+    },
+    "Junk TV (UK) (Unl)": {
+        "languages": "En"
     },
     "Jurassic - The Hunted (USA)": {
         "languages": "En"
@@ -13688,7 +13730,7 @@
     "Konjiki no Gashbell!! Yuujou Tag Battle 2 (Japan)": {
         "languages": "Ja"
     },
-    "Kono Aozora ni Yakusoku wo - Melody of the Sun and Sea (Japan)": {
+    "Kono Aozora ni Yakusoku o - Melody of the Sun and Sea (Japan)": {
         "languages": "Ja"
     },
     "Kono Hareta Sora no Shita de - Under the Blue Sky (Japan)": {
@@ -13704,6 +13746,9 @@
         "languages": "Ja"
     },
     "Kotoba no Puzzle - Mojipittan (Japan)": {
+        "languages": "Ja"
+    },
+    "Kotoba no Puzzle - Mojipittan (Japan) (Taikenban)": {
         "languages": "Ja"
     },
     "Kou-rate Ura Mahjong Retsuden Mukoubuchi - Goburei, Last desu ne (Japan)": {
@@ -17612,6 +17657,9 @@
     "Need for Speed - Underground 2 (Japan)": {
         "languages": "Ja"
     },
+    "Need for Speed - Underground 2 (Japan) (Taikenban)": {
+        "languages": "Ja"
+    },
     "Need for Speed - Underground 2 (USA)": {
         "languages": "En"
     },
@@ -17951,7 +17999,10 @@
     "Nickelodeon SpongeBob Schwammkopf - Schlacht um Bikini Bottom (Germany)": {
         "languages": "De"
     },
-    "Nickelodeon SpongeBob SquarePants - Battle for Bikini Bottom (Europe)": {
+    "Nickelodeon SpongeBob SquarePants - Battle for Bikini Bottom (Europe) (v1.01)": {
+        "languages": ""
+    },
+    "Nickelodeon SpongeBob SquarePants - Battle for Bikini Bottom (Europe) (v2.00)": {
         "languages": "En"
     },
     "Nickelodeon SpongeBob SquarePants - Battle for Bikini Bottom (USA)": {
@@ -19553,6 +19604,9 @@
     "Otona no Gal-jong - Kimi ni Haneman! (Japan)": {
         "languages": "Ja"
     },
+    "Otostaz (Asia) (En,Zh)": {
+        "languages": "Zh, En"
+    },
     "Otostaz (Japan) (En,Ja)": {
         "languages": "En, Ja"
     },
@@ -19827,6 +19881,9 @@
         "languages": "En"
     },
     "PSi2 Disc 13 (UK) (Unl)": {
+        "languages": "En"
+    },
+    "PSi2 Disc 14 (UK) (Unl)": {
         "languages": "En"
     },
     "PSi2 Disc 17 (UK) (Disc 2) (Unl)": {
@@ -20799,7 +20856,7 @@
         "languages": "En"
     },
     "Pro Bull Riding - Out of the Chute (USA)": {
-        "languages": ""
+        "languages": "En"
     },
     "Pro Evolution Soccer (Europe) (En,Fr,De) (v1.02)": {
         "languages": "En, Fr, De"
@@ -21200,6 +21257,9 @@
     "R-Type Final (Korea)": {
         "languages": "Ko"
     },
+    "R-Type Final (Korea) (Cheheompan)": {
+        "languages": "Ko"
+    },
     "R-Type Final (USA)": {
         "languages": "En"
     },
@@ -21481,6 +21541,9 @@
     },
     "Ratchet & Clank 3 (Europe, Australia) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
+    },
+    "Ratchet & Clank 3 (Japan) (Taikenban)": {
+        "languages": "Ja"
     },
     "Ratchet & Clank 3 + Sly 2 - Band of Thieves (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
@@ -22247,6 +22310,9 @@
     "Rugby League 2 - World Cup Edition (Europe)": {
         "languages": "En"
     },
+    "Rule of Rose (Asia)": {
+        "languages": "Zh"
+    },
     "Rule of Rose (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
@@ -22419,7 +22485,7 @@
         "languages": "En"
     },
     "SNK Arcade Classics Vol. 1 (USA)": {
-        "languages": ""
+        "languages": "En"
     },
     "SNK vs. Capcom - SVC Chaos (Europe)": {
         "languages": "En"
@@ -22544,7 +22610,7 @@
     "SSX 3 (Korea)": {
         "languages": "Ko"
     },
-    "SSX 3 (Korea) (Demo)": {
+    "SSX 3 (Korea) (Cheheompan)": {
         "languages": ""
     },
     "SSX 3 (USA)": {
@@ -22922,6 +22988,9 @@
     "Scandal (Japan)": {
         "languages": "Ja"
     },
+    "Scandal (Japan) (Movie Disc)": {
+        "languages": "Ja"
+    },
     "Scared Rider Xechs (Japan)": {
         "languages": "Ja"
     },
@@ -23291,7 +23360,7 @@
     "Sekai Saikyou Ginsei Igo 6 (Japan)": {
         "languages": "Ja"
     },
-    "Sekirei - Mirai kara no Okuri Mono (Japan)": {
+    "Sekirei - Mirai kara no Okurimono (Japan)": {
         "languages": "Ja"
     },
     "Selector Demo 01 (Europe) (En,Fr,De,Es,It)": {
@@ -23708,13 +23777,13 @@
     "Shin Megami Tensei - Persona 4 (USA) (Demo)": {
         "languages": "En"
     },
-    "Shin Megami Tensei III - Nocturne (Japan)": {
-        "languages": "Ja"
-    },
     "Shin Megami Tensei III - Nocturne (Japan) (Deluxe Pack)": {
         "languages": "Ja"
     },
     "Shin Megami Tensei III - Nocturne (Japan) (Tsutaya Original Version)": {
+        "languages": "Ja"
+    },
+    "Shin Megami Tensei III - Nocturne (Japan, Asia)": {
         "languages": "Ja"
     },
     "Shin Megami Tensei III - Nocturne Maniax (Japan)": {
@@ -24221,6 +24290,9 @@
     "SimPeople - Ochanoma Gekijou (Japan)": {
         "languages": "Ja"
     },
+    "Simoun - Ibara Sensou - Fuuin no Ri Maajon (Japan) (Shokai Genteiban)": {
+        "languages": "Ja"
+    },
     "Simple 2000 Honkaku Shikou Series Vol. 1 - The Shougi - Morita Kazurou no Shougi Shinan (Japan)": {
         "languages": "Ja"
     },
@@ -24363,6 +24435,9 @@
         "languages": "Ja"
     },
     "Simple 2000 Series Vol. 117 - The Reisen (Japan)": {
+        "languages": "Ja"
+    },
+    "Simple 2000 Series Vol. 118 - The Ochimusha - Doemu Samurai Toujou (Japan)": {
         "languages": "Ja"
     },
     "Simple 2000 Series Vol. 119 - The Survival Game 2 (Japan)": {
@@ -25656,7 +25731,7 @@
         "languages": "Ja"
     },
     "Soul Cradle - Sekai o Kurau Mono (Japan) (Genteiban)": {
-        "languages": ""
+        "languages": "Ja"
     },
     "Soul Eater - Battle Resonance (Japan)": {
         "languages": "Ja"
@@ -27935,6 +28010,9 @@
     "Thomas & Friends - A Day at the Races (Europe)": {
         "languages": "En"
     },
+    "Thomas & Friends - A Day at the Races (Europe) (En,Fr,It,Nl)": {
+        "languages": "Nl, En, Fr, It"
+    },
     "Thomas & Friends - A Day at the Races (Europe) (En,Sv,No,Da,Fi)": {
         "languages": "Da, En, Fi, No, Sv"
     },
@@ -28110,6 +28188,9 @@
         "languages": "En, Fr, De, It, Es"
     },
     "Time Crisis 3 (Japan)": {
+        "languages": "Ja"
+    },
+    "Time Crisis 3 (Japan) (With GunCon2)": {
         "languages": "Ja"
     },
     "Time Crisis 3 (USA)": {
@@ -29027,6 +29108,9 @@
     "Ultimate Casino (Europe)": {
         "languages": "En"
     },
+    "Ultimate Cheats fuer Lara Croft Tomb Raider - The Angel of Darkness (Germany) (Unl)": {
+        "languages": ""
+    },
     "Ultimate Codes Demonstrator (USA) (Unl)": {
         "languages": "En"
     },
@@ -29036,7 +29120,7 @@
     "Ultimate Codes for Spider-Man (USA) (Unl)": {
         "languages": ""
     },
-    "Ultimate Codes for Use with Tom Clancy's Splinter Cell (USA)": {
+    "Ultimate Codes for Use with Tom Clancy's Splinter Cell (USA) (Unl)": {
         "languages": "En"
     },
     "Ultimate Film Quiz, The (Europe) (En,Fr,De,Es,It,Nl) (v1.00)": {
@@ -30742,6 +30826,9 @@
     },
     "Yappa RPG desho. (Japan) (Demo)": {
         "languages": "Ja"
+    },
+    "Yeosin Jeonsaeng Persona 4 (Korea)": {
+        "languages": "Ko"
     },
     "Yetisports Arctic Adventures (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"

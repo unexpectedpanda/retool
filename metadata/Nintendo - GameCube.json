@@ -341,13 +341,13 @@
     "Baten Kaitos - Eternal Wings and the Lost Ocean (USA) (Disc 2)": {
         "languages": "En"
     },
-    "Baten Kaitos - Eternal Wings and the Lost Ocean - Special Experience Disc (Japan)": {
-        "languages": "Ja"
-    },
     "Baten Kaitos - Owaranai Tsubasa to Ushinawareta Umi (Japan) (Disc 1)": {
         "languages": "Ja"
     },
     "Baten Kaitos - Owaranai Tsubasa to Ushinawareta Umi (Japan) (Disc 2)": {
+        "languages": "Ja"
+    },
+    "Baten Kaitos - Owaranai Tsubasa to Ushinawareta Umi (Japan) (Special Taiken Disc)": {
         "languages": "Ja"
     },
     "Baten Kaitos II - Hajimari no Tsubasa to Kamigami no Shishi (Japan) (Disc 1) (Rev 1)": {
@@ -2249,7 +2249,7 @@
     "Homeland (Japan) (Rev 1)": {
         "languages": ""
     },
-    "Homeland Test Disc (Japan)": {
+    "Homeland (Japan) (Test Disc)": {
         "languages": "Ja"
     },
     "Hot Wheels - Velocity X (Europe)": {
@@ -2600,10 +2600,13 @@
     "Kidou Senshi Gundam - Gundam vs. Z Gundam (Japan)": {
         "languages": "Ja"
     },
-    "Kidou Senshi Gundam - Senshitachi no Kiseki (Japan)": {
+    "Kidou Senshi Gundam - Senshi-tachi no Kiseki (Japan)": {
         "languages": "Ja"
     },
-    "Kidou Senshi Gundam - Senshitachi no Kiseki Special Disc (Japan)": {
+    "Kidou Senshi Gundam - Senshi-tachi no Kiseki (Japan) (Special Disc)": {
+        "languages": "Ja"
+    },
+    "Kidou Senshi Gundam - Senshi-tachi no Kiseki - Kadokawa Shoten Rengou Kikaku Tokubetsu-hen (Japan)": {
         "languages": "Ja"
     },
     "Killer7 (Europe) (En,Fr,De) (Disc 1)": {
@@ -3257,7 +3260,7 @@
     "Momotarou Dentetsu 12 - Nishi Nihon Hen mo Arimasse! (Japan)": {
         "languages": "Ja"
     },
-    "Monde de Narnia, Le - Le Lion, la Sorciere et l'Armoire Magique (France)": {
+    "Monde de Narnia, Le - Chapitre 1 - Le Lion, la Sorciere Blanche et l'Armoire Magique (France)": {
         "languages": "Fr"
     },
     "Monopoly - Mezase!! Daifugou Jinsei!! (Japan) (Rev 1)": {
@@ -3533,7 +3536,7 @@
     "Naruto - Gekitou Ninja Taisen! 4 (Japan) (Taikai Sen'you Disc) (Rev 1)": {
         "languages": ""
     },
-    "Naruto Collection (Japan) (Demo)": {
+    "Naruto Collection (Japan)": {
         "languages": "Ja"
     },
     "Need for Speed - Carbon (Europe)": {
@@ -4650,6 +4653,9 @@
         "languages": "En"
     },
     "Spider-Man (Europe)": {
+        "languages": "En"
+    },
+    "Spider-Man (Europe) (Rev 1)": {
         "languages": "En"
     },
     "Spider-Man (France)": {

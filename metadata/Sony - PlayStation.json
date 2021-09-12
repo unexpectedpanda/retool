@@ -680,16 +680,16 @@
     "Aitakute... - Your Smiles in My Heart - Oroshitate no Diary - Introduction Disc (Japan)": {
         "languages": "Ja"
     },
-    "Akagawa Jiro - Majo Tachi no Nemuri - Fukkatsusai (Japan)": {
+    "Akagawa Jirou - Majo-tachi no Nemuri - Fukkatsusai (Japan)": {
         "languages": "Ja"
     },
-    "Akagawa Jiro - Yasoukyoku (Japan)": {
+    "Akagawa Jirou - Yasoukyoku (Japan)": {
         "languages": "Ja"
     },
-    "Akagawa Jiro - Yasoukyoku (Japan) (Shokai Genteiban)": {
+    "Akagawa Jirou - Yasoukyoku (Japan) (Shokai Genteiban)": {
         "languages": "Ja"
     },
-    "Akagawa Jiro - Yasoukyoku 2 (Japan)": {
+    "Akagawa Jirou - Yasoukyoku 2 (Japan)": {
         "languages": "Ja"
     },
     "Akazu no Ma (Japan)": {
@@ -3716,7 +3716,7 @@
     "Cheat Master Volume 2 - Sports Master (Europe) (Unl)": {
         "languages": "En"
     },
-    "Cheat Master Volume 3 - Race Master (Europe) (Unl)": {
+    "Cheat Master Volume 3 - RaceMaster (Europe) (Unl)": {
         "languages": "En"
     },
     "Cheat Master Volume 4 - Strategy Master (Europe) (Unl)": {
@@ -3899,6 +3899,15 @@
     "Chou Jiryoku Senshi Microman - Generation 2000 (Japan)": {
         "languages": "Ja"
     },
+    "Chou Kousoku Gran Doll (Japan)": {
+        "languages": "Ja"
+    },
+    "Chou Kousoku Gran Doll (Japan) (Disc 1) (Premium Edition)": {
+        "languages": "Ja"
+    },
+    "Chou Kousoku Gran Doll (Japan) (Disc 2) (Tokusei Premium Disc) (Premium Edition)": {
+        "languages": "Ja"
+    },
     "Chou Mashin Eiyuuden Wataru - Another Step (Japan)": {
         "languages": "Ja"
     },
@@ -3906,15 +3915,6 @@
         "languages": "Ja"
     },
     "Chou Sentou Kyuugi Vanborg (Japan)": {
-        "languages": "Ja"
-    },
-    "Chou-Kousoku Gran Doll (Japan)": {
-        "languages": "Ja"
-    },
-    "Chou-Kousoku Gran Doll (Japan) (Disc 1) (Premium Edition)": {
-        "languages": "Ja"
-    },
-    "Chou-Kousoku Gran Doll (Japan) (Disc 2) (Tokusei Premium Disc) (Premium Edition)": {
         "languages": "Ja"
     },
     "Choujin Gakuen - Gowcaizer (Japan)": {
@@ -4895,7 +4895,7 @@
     "Crow, The - City of Angels (USA)": {
         "languages": "En"
     },
-    "Crown Knights, The - Jaja-Uma! Quartet - Mega Dream Destruction (Japan)": {
+    "Crown Knights, The - Jaja-uma! Quartet - Mega Dream Destruction+ (Japan)": {
         "languages": "Ja"
     },
     "Crusader - No Remorse (Europe)": {
@@ -6968,7 +6968,7 @@
     "Dokiou-ki (Japan)": {
         "languages": "Ja"
     },
-    "Doko Demo Hamster - Bi! Click Tanken-tai (Japan)": {
+    "Doko Demo Hamster - Bi! Click Tankentai (Japan)": {
         "languages": "Ja"
     },
     "Doko Demo Hamster 2 (Japan)": {
@@ -6983,7 +6983,10 @@
     "Doko Demo Issho (Japan) (Calpis Water Version)": {
         "languages": "Ja"
     },
-    "Doko Demo Issho (Japan) (Demo)": {
+    "Doko Demo Issho (Japan) (Demo 1)": {
+        "languages": "Ja"
+    },
+    "Doko Demo Issho (Japan) (Demo 2)": {
         "languages": "Ja"
     },
     "Doko Demo Issho (Japan) (Rev 1)": {
@@ -7730,7 +7733,7 @@
     "Ecsaform (Japan) (Disc 2)": {
         "languages": "Ja"
     },
-    "Efficus - Kono Omoi wo Kimi ni... (Japan)": {
+    "Efficus - Kono Omoi o Kimi ni... (Japan)": {
         "languages": "Ja"
     },
     "Egg (Japan)": {
@@ -7877,13 +7880,13 @@
     "Elf o Karu Monotachi - Kanzenban (Japan) (Disc 2)": {
         "languages": "Ja"
     },
-    "Elf wo Karu Monotachi II (Japan) (Disc 1)": {
+    "Elf o Karu Monotachi II (Japan) (Disc 1)": {
         "languages": "Ja"
     },
-    "Elf wo Karu Monotachi II (Japan) (Disc 2)": {
+    "Elf o Karu Monotachi II (Japan) (Disc 2)": {
         "languages": "Ja"
     },
-    "Elf wo Karu Monotachi II (Japan) (Disc 3)": {
+    "Elf o Karu Monotachi II (Japan) (Disc 3)": {
         "languages": "Ja"
     },
     "Elfin Paradise (Japan)": {
@@ -11249,7 +11252,7 @@
     "Goo-Cho de Park - Theme Park Monogatari (Japan) (Demo)": {
         "languages": "Ja"
     },
-    "Goryuujin Electro (Japan)": {
+    "Goryuujin + Electro (Japan)": {
         "languages": "Ja"
     },
     "Gotha II - Tenkuu no Kishi (Japan)": {
@@ -12005,7 +12008,7 @@
     "Heiwa Parlor! Pro - Inakappe Taishou Special (Japan)": {
         "languages": "Ja"
     },
-    "Heiwa Parlor! Pro - Lupin the IIIrd Special (Japan)": {
+    "Heiwa Parlor! Pro - Lupin Sansei Special (Japan)": {
         "languages": "Ja"
     },
     "Heiwa Parlor! Pro - Tsunatori Special (Japan)": {
@@ -12167,10 +12170,10 @@
     "Hissatsu Pachi-Slot Station - Meoshi Ichiban (Japan)": {
         "languages": "Ja"
     },
-    "Hissatsu Pachi-Slot Station 2 (Japan)": {
+    "Hissatsu Pachi-Slot Station 2 - Bakuto! Joushiki Yaburi no 2 Types (Japan)": {
         "languages": "Ja"
     },
-    "Hissatsu Pachi-Slot Station 3 (Japan)": {
+    "Hissatsu Pachi-Slot Station 3 - Tetra Reel e no Chousen (Japan)": {
         "languages": "Ja"
     },
     "Hissatsu Pachi-Slot Station 4 - New Pulsar R & Hot Rod Queen (Japan)": {
@@ -12245,7 +12248,7 @@
     "Hissatsu Pachinko Station Now 3 - Youkai Engei (Japan)": {
         "languages": "Ja"
     },
-    "Hissatsu Pachinko Station Now 4 - Ore wa Nekketsu Bouken Ou da!! (Japan)": {
+    "Hissatsu Pachinko Station Now 4 - Ore wa Nekketsu Bouken-ou da!! (Japan)": {
         "languages": "Ja"
     },
     "Hissatsu Pachinko Station Now 5 - GeGeGe no Kitarou (Japan)": {
@@ -12338,7 +12341,7 @@
     "Honkaku Shougi - Shougi-ou (Japan)": {
         "languages": "Ja"
     },
-    "Honkaku Yonin Uchi Pro Mahjong - Mahjong Ou (Japan)": {
+    "Honkaku Yonin Uchi Pro Mahjong - Mahjong-ou (Japan)": {
         "languages": "Ja"
     },
     "Honkakuha Yonin Uchi - Mahjong Club (Japan)": {
@@ -12944,16 +12947,7 @@
     "Interactive CD Sampler Pack Volume 2 (USA)": {
         "languages": "En"
     },
-    "Interactive CD Sampler Pack Volume 3.5 (USA)": {
-        "languages": "En"
-    },
-    "Interactive CD Sampler Pack Volume 3.5 (USA) (Rev 1)": {
-        "languages": "En"
-    },
-    "Interactive CD Sampler Pack Volume 3.5 (USA) (Rev 1) (Alt)": {
-        "languages": "En"
-    },
-    "Interactive CD Sampler Pack Volume 3.5 (USA) (Rev 1) (SCUS-94177)": {
+    "Interactive CD Sampler Pack Volume One (USA)": {
         "languages": "En"
     },
     "Interactive CD Sampler Pack Volume One (USA) (SCUS-94956)": {
@@ -12962,7 +12956,19 @@
     "Interactive CD Sampler Pack Volume Three (USA)": {
         "languages": "En"
     },
-    "Interactive CD Sampler Volume 1 (USA)": {
+    "Interactive CD Sampler Pack Volume Three (Version 3.5) (USA)": {
+        "languages": "En"
+    },
+    "Interactive CD Sampler Pack Volume Three (Version 3.5) (USA) (Rev 1)": {
+        "languages": "En"
+    },
+    "Interactive CD Sampler Pack Volume Three (Version 3.5) (USA) (Rev 2)": {
+        "languages": "En"
+    },
+    "Interactive CD Sampler Pack Volume Three (Version 3.5) (USA) (Rev 3)": {
+        "languages": "En"
+    },
+    "Interactive CD Sampler Pack Volume Three (Version 3.5) (USA) (SCUS-94177)": {
         "languages": "En"
     },
     "Interactive Preview Plus - PS2 Launch Guide & Playable GameShark Sampler (USA) (Unl)": {
@@ -13748,6 +13754,9 @@
     "Kagayaku Kisetsu e (Japan)": {
         "languages": "Ja"
     },
+    "Kagayaku Kisetsu e (Japan) (Demo)": {
+        "languages": "Ja"
+    },
     "Kagayaku Kisetsu e (Japan) (Disc 1) (Shokai Genteiban)": {
         "languages": "Ja"
     },
@@ -13839,6 +13848,9 @@
         "languages": "Ja"
     },
     "Karat PS PS2-you Pro Action Replay CDX2 (Japan) (Unl)": {
+        "languages": "Ja"
+    },
+    "Karat PS PS2-you Pro Action Replay CDX2 Demo-ban (Japan)": {
         "languages": "Ja"
     },
     "Karat PS-PS2-you Catalog & Taikenban (Japan) (Unl)": {
@@ -16259,6 +16271,12 @@
     "Mary-Kate and Ashley - Winners Circle (USA)": {
         "languages": "En"
     },
+    "MasMon Kids - The Another World of the Master of Monsters (Japan)": {
+        "languages": "Ja"
+    },
+    "MasMon Kids - The Another World of the Master of Monsters (Japan) (Major Wave)": {
+        "languages": "Ja"
+    },
     "Mass Destruction (Europe) (En,Fr,De,Es)": {
         "languages": "En, Fr, De, Es"
     },
@@ -16281,12 +16299,6 @@
         "languages": "Ja"
     },
     "Masters Fighter, The (Japan)": {
-        "languages": "Ja"
-    },
-    "Masumon Kids - The Another World of the Master of Monsters (Japan)": {
-        "languages": "Ja"
-    },
-    "Masumon Kids - The Another World of the Master of Monsters (Japan) (Major Wave)": {
         "languages": "Ja"
     },
     "Mat Hoffman's Pro BMX (Europe)": {
@@ -17075,6 +17087,9 @@
     "MiruMiru PlayStation Vol. 34 (Japan)": {
         "languages": "Ja"
     },
+    "MiruMiru PlayStation Vol. 4 (Japan) (Disc 3)": {
+        "languages": "Ja"
+    },
     "MiruMiru PlayStation Vol. 43 (Japan)": {
         "languages": "Ja"
     },
@@ -17698,6 +17713,9 @@
     },
     "Mushitarou (Japan)": {
         "languages": "Ja"
+    },
+    "Music - Music Creation for the PlayStation (Europe) (En,Fr,De) (Demo)": {
+        "languages": "En, Fr, De"
     },
     "Music - Music Creation for the PlayStation (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
@@ -19304,7 +19322,10 @@
     "Oddworld - Abe's Oddysee (USA)": {
         "languages": "En"
     },
-    "Oddworld - Abe's Oddysee (USA) (Demo)": {
+    "Oddworld - Abe's Oddysee (USA) (Demo 1)": {
+        "languages": "En"
+    },
+    "Oddworld - Abe's Oddysee (USA) (Demo 2)": {
         "languages": "En"
     },
     "Oddworld - Abe's Oddysee (USA) (Rev 1)": {
@@ -19676,6 +19697,9 @@
     "Ore no Shikabane o Koete Yuke (Japan)": {
         "languages": "Ja"
     },
+    "Ore no Shikabane o Koete Yuke (Japan) (Demo)": {
+        "languages": "Ja"
+    },
     "Ore no Yotto - Ganbare! Nippon Challenge (Japan) (En,Ja)": {
         "languages": "En, Ja"
     },
@@ -19997,6 +20021,9 @@
     "Pac-Man World (USA) (Demo) (Rev 1)": {
         "languages": "En"
     },
+    "Pac-Man World - 20th Anniversary (Japan)": {
+        "languages": "Ja"
+    },
     "Pac-Man World - 20th Anniversary (Japan) (Demo)": {
         "languages": "Ja"
     },
@@ -20014,9 +20041,6 @@
     },
     "Pac-Man World 20th Anniversary (Italy)": {
         "languages": "It"
-    },
-    "Pac-Man World 20th Anniversary (Japan)": {
-        "languages": ""
     },
     "Pac-Man World 20th Anniversary (Spain)": {
         "languages": "Es"
@@ -20793,13 +20817,13 @@
         "languages": "Ja"
     },
     "Play de Oboeru Eitango Deruderu 1700 - Center Shiken Level Taiou (Japan) (Rerelease)": {
-        "languages": ""
+        "languages": "Ja"
     },
     "Play de Oboeru Eitango Deruderu 1700 - Center Shiken Level Taiou (Japan) (Shotenban)": {
         "languages": "Ja"
     },
     "Play de Oboeru Series - Nihonshi Keyword Deruderu 1800 (Japan) (Reprint)": {
-        "languages": ""
+        "languages": "Ja"
     },
     "Play de Oboeru Series - Nihonshi Keyword Deruderu 1800 (Japan) (Shotenban)": {
         "languages": "Ja"
@@ -20811,7 +20835,7 @@
         "languages": "Ja"
     },
     "Play de Oboeru Series 6 - Play de Oboeru Kanji Kentei Deruderu 1100 (Japan) (Rev 1)": {
-        "languages": ""
+        "languages": "Ja"
     },
     "Play de Oboeru Series 6 - Play de Oboeru Kanji Kentei Deruderu 1100 (Japan) (Shotenban)": {
         "languages": "Ja"
@@ -21503,6 +21527,9 @@
     "Pour l'Or et la Gloire - La Route d'Eldorado (France)": {
         "languages": "Fr"
     },
+    "Power Cheats (UK) (Unl)": {
+        "languages": "En"
+    },
     "Power Diggerz (Europe) (En,Fr,De)": {
         "languages": "En, Fr, De"
     },
@@ -22097,6 +22124,9 @@
     "RC de Go! (Japan)": {
         "languages": "Ja"
     },
+    "RC de Go! (Japan) (Demo)": {
+        "languages": "Ja"
+    },
     "RC de Go! (USA)": {
         "languages": "En"
     },
@@ -22129,6 +22159,9 @@
     },
     "Race Drivin' a Go! Go! (Japan) (Rev 1)": {
         "languages": "Ja"
+    },
+    "RaceMaster - Gran Turismo Edition (USA) (Unl)": {
+        "languages": "En"
     },
     "Racing (USA) (En,Fr,Es)": {
         "languages": "En, Fr, Es"
@@ -23048,10 +23081,10 @@
     "Robo Pit 2 (USA)": {
         "languages": "En"
     },
-    "Robo-Pit 2 (Japan) (Demo 2)": {
+    "Robo-Pit 2 (Japan) (Demo 1)": {
         "languages": "Ja"
     },
-    "Robo-Pit 2 (Japan) (Demo)": {
+    "Robo-Pit 2 (Japan) (Demo 2)": {
         "languages": "Ja"
     },
     "Robo-Pit 2 (Japan, Asia)": {
@@ -23084,8 +23117,8 @@
     "Rock 'Em Sock 'Em Robots Arena (USA)": {
         "languages": "En"
     },
-    "Rock-Climbing - Mitouhou e no Chousen - Alps Hen (Japan)": {
-        "languages": ""
+    "Rock-Climbing - Mitouhou e no Chousen - Alps-hen (Japan)": {
+        "languages": "Ja"
     },
     "Rockman (Japan)": {
         "languages": "Ja"
@@ -24170,7 +24203,7 @@
     "Shinri Game 9, The (Japan)": {
         "languages": "Ja"
     },
-    "Shinri Game IV, The - Itsumo Kokoro ni Hoshizora wo (Japan)": {
+    "Shinri Game IV, The - Itsu mo Kokoro ni Hoshizora o (Japan)": {
         "languages": "Ja"
     },
     "Shinri Game, The (Japan)": {
@@ -24342,6 +24375,9 @@
         "languages": "Ja"
     },
     "Silent Hill (Japan) (Rev 1)": {
+        "languages": "Ja"
+    },
+    "Silent Hill (Japan) (Rev 2)": {
         "languages": "Ja"
     },
     "Silent Hill (USA)": {
@@ -25286,7 +25322,7 @@
     "Soukuu no Tsubasa - Gotha World (Japan) (Disc 2)": {
         "languages": "Ja"
     },
-    "Soukyuu Gurentai - Oubushutsugeki (Japan)": {
+    "Soukyuu Gurentai - Oubu Shutsugeki (Japan)": {
         "languages": "Ja"
     },
     "Soul Blade (Europe)": {
@@ -25443,6 +25479,9 @@
         "languages": "Ja"
     },
     "Space Invaders (USA)": {
+        "languages": "En"
+    },
+    "Space Invaders (USA) (Beta)": {
         "languages": "En"
     },
     "Space Invaders 2000 (Japan)": {
@@ -28845,6 +28884,9 @@
         "languages": "En"
     },
     "Tony Hawk's Pro Skater (USA)": {
+        "languages": "En"
+    },
+    "Tony Hawk's Pro Skater (USA) (Beta)": {
         "languages": "En"
     },
     "Tony Hawk's Pro Skater 2 (Australia) (Demo)": {

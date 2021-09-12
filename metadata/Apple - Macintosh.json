@@ -389,6 +389,9 @@
     "Berlin im Untergrund - Eine Interaktive Zeitreise unter den Potsdamer Platz (Germany)": {
         "languages": "De"
     },
+    "Big Top's Cartoon Toolbox Starring Felix the Cat (USA)": {
+        "languages": "En"
+    },
     "Black & White (Japan) (Data Disc)": {
         "languages": "Ja"
     },
@@ -674,6 +677,9 @@
     "Chu-Teng (Japan)": {
         "languages": "Ja"
     },
+    "Club KidSoft (USA)": {
+        "languages": "En"
+    },
     "Colin McRae Rally Mac (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
@@ -686,7 +692,7 @@
     "Conveni DX, The - Ano Machi o Dokusen seyo + The Conveni - Power-Up Kit Vol.1 For Macintosh (Japan)": {
         "languages": "Ja"
     },
-    "Cookie's Bustle - Mysterious Bombo World (Japan)": {
+    "Cookie's Bustle - Nazo no Bombo World (Japan)": {
         "languages": "Ja"
     },
     "Crescent Satsujin Jiken - Hyena no Jijou (Japan)": {
@@ -726,6 +732,9 @@
         "languages": "Fr, De"
     },
     "Descent (USA)": {
+        "languages": "En"
+    },
+    "Descent (USA) (OEM)": {
         "languages": "En"
     },
     "Descent - Levels of the World (USA)": {
@@ -857,13 +866,16 @@
     "Harry Potter and the Sorcerer's Stone (USA)": {
         "languages": "En"
     },
+    "Hell - A Cyberpunk Thriller (Japan)": {
+        "languages": "Ja"
+    },
     "Hell Cab (Japan)": {
         "languages": ""
     },
     "Heretic II (USA)": {
         "languages": ""
     },
-    "Heroes of Might and Magic - A Strategic Quest (USA)": {
+    "Heroes of Might and Magic (USA)": {
         "languages": "En"
     },
     "Heroes of Might and Magic II - The Succession Wars (USA)": {
@@ -877,6 +889,9 @@
     },
     "In Memoriam (Europe) (Mac Install)": {
         "languages": "En"
+    },
+    "In Memoriam (Germany) (MAC - Install)": {
+        "languages": ""
     },
     "Indiana Jones and the Fate of Atlantis (USA)": {
         "languages": "En"
@@ -950,6 +965,9 @@
     "Leisure Suit Larry 6 - Shape Up or Slip Out! (USA)": {
         "languages": "En"
     },
+    "Lemmings Paintball (Japan)": {
+        "languages": ""
+    },
     "Links Championship Edition (USA) (Disc 1)": {
         "languages": "En"
     },
@@ -975,6 +993,9 @@
         "languages": "En"
     },
     "Links Pro CD (USA)": {
+        "languages": "En"
+    },
+    "Lords Royal Collection (USA) (Disc 4) (Lords of the Realm II & Lords II Siege Pack & Caesar II Demo)": {
         "languages": "En"
     },
     "Lords of the Realm II + Siege Pack (USA)": {
@@ -1199,6 +1220,9 @@
     "MacUser - MacBin 20 (Japan)": {
         "languages": ""
     },
+    "MacUser - MacBin 29 (Japan)": {
+        "languages": ""
+    },
     "MacUser - MacBin 3 (Japan)": {
         "languages": ""
     },
@@ -1388,6 +1412,9 @@
     "Oceans Below (Japan)": {
         "languages": ""
     },
+    "Oni (USA)": {
+        "languages": ""
+    },
     "Pathways into Darkness (USA)": {
         "languages": "En"
     },
@@ -1493,6 +1520,9 @@
     "Rise of Nations - Gold Edition (USA)": {
         "languages": "En"
     },
+    "Rocksmith - All-New 2014 Edition (USA) (En,Ja,Fr,De,Es,It)": {
+        "languages": "En, Fr, De, It, Ja, Es"
+    },
     "RollerCoaster Tycoon 3 (USA)": {
         "languages": "En"
     },
@@ -1507,6 +1537,9 @@
     },
     "Secret du Templier, Le (France) (Covermount)": {
         "languages": "Fr"
+    },
+    "Sesame Street - Numbers (USA)": {
+        "languages": "En"
     },
     "Settlers II, The - Veni, Vidi, Vici (USA)": {
         "languages": "En"
@@ -1605,6 +1638,15 @@
         "languages": "En"
     },
     "Spider-Man (USA, Europe)": {
+        "languages": ""
+    },
+    "Spycraft - The Great Game (USA) (Disc 1)": {
+        "languages": ""
+    },
+    "Spycraft - The Great Game (USA) (Disc 2)": {
+        "languages": ""
+    },
+    "Spycraft - The Great Game (USA) (Disc 3)": {
         "languages": ""
     },
     "Star Fighter (USA)": {
@@ -1720,6 +1762,15 @@
     },
     "Thinkin' Things Collection 2 (USA)": {
         "languages": ""
+    },
+    "Thinkin' Things Collection 2 (USA) (OEM)": {
+        "languages": "En"
+    },
+    "Titanic - Adventure Out of Time (Japan) (Disc 1)": {
+        "languages": "Ja"
+    },
+    "Titanic - Adventure Out of Time (Japan) (Disc 2)": {
+        "languages": "Ja"
     },
     "Tomb Raider - The Last Revelation (Europe)": {
         "languages": "En"

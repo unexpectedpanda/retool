@@ -62,6 +62,9 @@
     "4x4 Evo 2 (USA)": {
         "languages": "En"
     },
+    "50 Cent - Bulletproof (France)": {
+        "languages": ""
+    },
     "50 Cent - Bulletproof (USA, Europe)": {
         "languages": "En"
     },
@@ -83,7 +86,7 @@
     "AMF Xtreme Bowling (USA)": {
         "languages": ""
     },
-    "AND 1 Streetball (Europe) (En,Fr,De,Es,It)": {
+    "AND 1 Streetball (USA, Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
     "ATV - Quad Power Racing 2 (Europe) (En,Fr,De,Es,It)": {
@@ -245,7 +248,7 @@
     "Armed and Dangerous (USA)": {
         "languages": "En"
     },
-    "Army Men - Major Malfunction (Europe)": {
+    "Army Men - Major Malfunction (USA, Europe)": {
         "languages": "En"
     },
     "Army Men - Sarge's War (Europe) (En,Fr,De,Es,It)": {
@@ -254,16 +257,16 @@
     "Army Men - Sarge's War (USA)": {
         "languages": ""
     },
-    "Arx Fatalis (Europe) (En,Fr,De,Es,It)": {
-        "languages": "En, Fr, De, It, Es"
-    },
     "Arx Fatalis (USA, Europe) (Beta 1)": {
         "languages": "En"
     },
     "Arx Fatalis (USA, Europe) (Beta 2)": {
         "languages": "En"
     },
-    "Atari Anthology (Japan, Europe) (En,Fr,De,Es,It)": {
+    "Arx Fatalis (USA, Europe) (En,Fr,De,Es,It)": {
+        "languages": "En, Fr, De, It, Es"
+    },
+    "Atari Anthology (World) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
     "Auto Modellista (USA, Japan)": {
@@ -1115,11 +1118,14 @@
     "Counter-Strike (USA) (En,Fr,Es,It,Ko)": {
         "languages": "En, Fr, It, Ko, Es"
     },
-    "Crash 'n' Burn (Europe) (En,Fr,De,It)": {
+    "Crash 'n' Burn (USA, Europe) (En,Fr,De,It)": {
         "languages": "En, Fr, De, It"
     },
     "Crash (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
+    },
+    "Crash Bandicoot - The Wrath of Cortex (Asia)": {
+        "languages": ""
     },
     "Crash Bandicoot - The Wrath of Cortex (Europe) (En,Fr,De,Es,It,Nl)": {
         "languages": "Nl, En, Fr, De, It, Es"
@@ -1145,7 +1151,7 @@
     "Crash Twinsanity (Europe) (En,Fr,De,It)": {
         "languages": "En, Fr, De, It"
     },
-    "Crash Twinsanity (USA)": {
+    "Crash Twinsanity (USA, Asia)": {
         "languages": ""
     },
     "Crazy Taxi 3 (Europe) (En,Fr,De,Es,It)": {
@@ -1313,6 +1319,9 @@
     "Dead or Alive 3 (Japan) (En,Ja,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Ja, Es"
     },
+    "Dead or Alive 3 (Japan) (Taikenban)": {
+        "languages": ""
+    },
     "Dead or Alive 3 (Korea)": {
         "languages": ""
     },
@@ -1451,11 +1460,11 @@
     "Dinotopia - The Sunstone Odyssey (USA)": {
         "languages": ""
     },
-    "Disney's Chicken Little (Europe)": {
-        "languages": "En"
-    },
     "Disney's Chicken Little (France)": {
         "languages": ""
+    },
+    "Disney's Chicken Little (USA, Europe)": {
+        "languages": "En"
     },
     "Disney's Extreme Skate Adventure (Europe)": {
         "languages": "En"
@@ -1554,7 +1563,7 @@
         "languages": "Ja"
     },
     "Double-S.T.E.A.L (Japan) (Demo 2)": {
-        "languages": ""
+        "languages": "Ja"
     },
     "Double-S.T.E.A.L - The Second Clash (Japan) (En,Ja)": {
         "languages": "En, Ja"
@@ -1580,14 +1589,14 @@
     "Drake of the 99 Dragons (USA)": {
         "languages": "En"
     },
-    "DreamWorks Madagascar (Europe)": {
-        "languages": "En"
-    },
     "DreamWorks Madagascar (Europe) (Fr,De,Es,Nl)": {
         "languages": "Nl, Fr, De, Es"
     },
     "DreamWorks Madagascar (Italy)": {
         "languages": "It"
+    },
+    "DreamWorks Madagascar (USA, Europe)": {
+        "languages": "En"
     },
     "DreamWorks Over the Hedge (Europe)": {
         "languages": "En"
@@ -1595,14 +1604,14 @@
     "DreamWorks Over the Hedge (Europe) (Fr,De)": {
         "languages": "Fr, De"
     },
-    "DreamWorks Shark Tale (Europe)": {
-        "languages": "En"
-    },
     "DreamWorks Shark Tale (Europe) (Fr,De)": {
         "languages": "Fr, De"
     },
     "DreamWorks Shark Tale (Italy)": {
         "languages": "It"
+    },
+    "DreamWorks Shark Tale (USA, Europe)": {
+        "languages": "En"
     },
     "DreamWorks Shrek - SuperSlam (Europe)": {
         "languages": "En"
@@ -1625,7 +1634,7 @@
     "Driver - Parallel Lines (USA, Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
-    "Dukes of Hazzard, The - Return of the General Lee (Europe) (En,Fr,Es)": {
+    "Dukes of Hazzard, The - Return of the General Lee (USA, Europe) (En,Fr,Es)": {
         "languages": "En, Fr, Es"
     },
     "Dungeons & Dragons - Heroes (Europe)": {
@@ -1787,10 +1796,10 @@
     "Eragon (USA, Europe)": {
         "languages": "En"
     },
-    "Evil Dead - A Fistful of Boomstick (Europe)": {
+    "Evil Dead - A Fistful of Boomstick (Germany)": {
         "languages": "En"
     },
-    "Evil Dead - A Fistful of Boomstick (Germany)": {
+    "Evil Dead - A Fistful of Boomstick (USA, Europe)": {
         "languages": "En"
     },
     "Evil Dead - Regeneration (Europe)": {
@@ -1967,7 +1976,7 @@
     "Fallout - Brotherhood of Steel (USA)": {
         "languages": "En"
     },
-    "Family Guy - Video Game! (Europe)": {
+    "Family Guy - Video Game! (USA, Europe)": {
         "languages": "En"
     },
     "Fantastic 4 (Europe) (De,Nl)": {
@@ -2006,7 +2015,7 @@
     "Fatal Frame II - Crimson Butterfly - Director's Cut (USA)": {
         "languages": "En"
     },
-    "Fight Club (Europe)": {
+    "Fight Club (USA, Europe)": {
         "languages": "En"
     },
     "Fight Night 2004 (Europe) (En,Fr,De)": {
@@ -2261,6 +2270,9 @@
     "Gladius (Europe) (En,Es,It)": {
         "languages": "En, It, Es"
     },
+    "Gladius (France)": {
+        "languages": "Fr"
+    },
     "Gladius (Germany)": {
         "languages": "De"
     },
@@ -2282,7 +2294,7 @@
     "Godzilla - Destroy All Monsters Melee (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
-    "Godzilla - Save the Earth (Europe)": {
+    "Godzilla - Save the Earth (USA, Europe)": {
         "languages": "En"
     },
     "GoldenEye - Agente Corrupto (Spain)": {
@@ -2320,6 +2332,9 @@
     },
     "Grand Theft Auto - San Andreas (Germany) (En,De)": {
         "languages": "En, De"
+    },
+    "Grand Theft Auto - San Andreas (Germany) (Rev 1)": {
+        "languages": ""
     },
     "Grand Theft Auto - San Andreas (USA) (En,Es)": {
         "languages": "En, Es"
@@ -2540,7 +2555,7 @@
     "Harry Potter and the Sorcerer's Stone (USA) (En,Es)": {
         "languages": "En, Es"
     },
-    "Headhunter - Redemption (Europe) (En,Fr,De,Es,It)": {
+    "Headhunter - Redemption (USA, Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
     "Hello Kitty - Mission Rescue (Asia) (En,Ja,Zh)": {
@@ -2565,6 +2580,9 @@
         "languages": "En"
     },
     "High Rollers Casino (USA)": {
+        "languages": ""
+    },
+    "Hitman - Blood Money (France)": {
         "languages": ""
     },
     "Hitman - Blood Money (Germany)": {
@@ -3200,6 +3218,9 @@
     "Mafia (Europe)": {
         "languages": "En"
     },
+    "Mafia (France)": {
+        "languages": ""
+    },
     "Mafia (Germany)": {
         "languages": "De"
     },
@@ -3266,7 +3287,7 @@
     "Manhunt (USA)": {
         "languages": "En"
     },
-    "Marc Ecko's Getting Up - Contents Under Pressure (Europe) (En,Fr,De,Es,It)": {
+    "Marc Ecko's Getting Up - Contents Under Pressure (USA, Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
     "Marvel - Ultimate Alliance (USA, Europe)": {
@@ -3524,13 +3545,13 @@
     "Midtown Madness 3 (USA)": {
         "languages": "En"
     },
-    "Midway Arcade Treasures (Europe)": {
+    "Midway Arcade Treasures (USA, Europe)": {
         "languages": "En"
     },
     "Midway Arcade Treasures 2 (USA, Europe)": {
         "languages": "En"
     },
-    "Midway Arcade Treasures 3 (Europe)": {
+    "Midway Arcade Treasures 3 (USA, Europe)": {
         "languages": "En"
     },
     "Migong Zhengfuzhe (Asia)": {
@@ -3568,6 +3589,9 @@
     },
     "Mojo! (USA)": {
         "languages": "En"
+    },
+    "Monde de Narnia, Le - Chapitre 1 - Le Lion, la Sorciere Blanche et l'Armoire Magique (France)": {
+        "languages": ""
     },
     "Monopoly Party (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
@@ -3620,11 +3644,11 @@
     "MotoGP (USA)": {
         "languages": "En"
     },
-    "MotoGP - Ultimate Racing Technology 3 (Europe) (En,Fr,De,Es)": {
-        "languages": "En, Fr, De, Es"
-    },
     "MotoGP - Ultimate Racing Technology 3 (Italy)": {
         "languages": "It"
+    },
+    "MotoGP - Ultimate Racing Technology 3 (USA, Europe) (En,Fr,De,Es)": {
+        "languages": "En, Fr, De, Es"
     },
     "MotoGP 2 (Asia) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
@@ -4085,6 +4109,9 @@
     "New Legends (Europe)": {
         "languages": "En"
     },
+    "New Legends (France)": {
+        "languages": ""
+    },
     "New Legends (USA)": {
         "languages": ""
     },
@@ -4119,7 +4146,10 @@
         "languages": ""
     },
     "Nickelodeon SpongeBob SquarePants - The Movie (Europe)": {
-        "languages": ""
+        "languages": "En"
+    },
+    "Nickelodeon SpongeBob SquarePants - The Movie (Europe) (Fr,Es,It,Nl)": {
+        "languages": "Nl, Fr, It, Es"
     },
     "Nickelodeon SpongeBob SquarePants - The Movie (USA)": {
         "languages": ""
@@ -5018,7 +5048,7 @@
     "Powerdrome (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
-    "Predator - Concrete Jungle (Europe)": {
+    "Predator - Concrete Jungle (USA, Europe)": {
         "languages": "En"
     },
     "Prince of Persia - Kenshi no Kokoro (Japan)": {
@@ -5138,6 +5168,9 @@
     "Punisher, The (Europe) (Es,It)": {
         "languages": "It, Es"
     },
+    "Punisher, The (France)": {
+        "languages": ""
+    },
     "Punisher, The (USA)": {
         "languages": "En"
     },
@@ -5198,7 +5231,7 @@
     "RalliSport Challenge (USA)": {
         "languages": "En"
     },
-    "RalliSport Challenge 2 (Japan, Europe) (En,Ja,Fr,De,Es,It)": {
+    "RalliSport Challenge 2 (World) (En,Ja,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Ja, Es"
     },
     "Rally Fusion - Race of Champions (Europe)": {
@@ -5252,10 +5285,10 @@
     "Red Faction II (USA)": {
         "languages": ""
     },
-    "Red Ninja - End of Honor (Europe)": {
+    "Red Ninja - End of Honor (Germany)": {
         "languages": "En"
     },
-    "Red Ninja - End of Honor (Germany)": {
+    "Red Ninja - End of Honor (USA, Europe)": {
         "languages": "En"
     },
     "Red Star, The (USA) (Proto 1)": {
@@ -5284,6 +5317,9 @@
     },
     "Reservoir Dogs (USA)": {
         "languages": "En"
+    },
+    "Return to Castle Wolfenstein - Tides of War (France)": {
+        "languages": ""
     },
     "Return to Castle Wolfenstein - Tides of War (World)": {
         "languages": "En"
@@ -5483,7 +5519,7 @@
     "Scarface - The World Is Yours (USA, Europe)": {
         "languages": "En"
     },
-    "Scooby-Doo! Mystery Mayhem (Europe) (En,Fr,De)": {
+    "Scooby-Doo! Mystery Mayhem (USA, Europe) (En,Fr,De)": {
         "languages": "En, Fr, De"
     },
     "Scooby-Doo! Night of 100 Frights (USA)": {
@@ -5588,7 +5624,7 @@
     "Serious Sam (USA)": {
         "languages": "En"
     },
-    "Serious Sam II (Europe) (En,Fr,De,It)": {
+    "Serious Sam II (USA, Europe) (En,Fr,De,It)": {
         "languages": "En, Fr, De, It"
     },
     "Shadow Ops - Red Mercury (Europe) (En,Fr,De,Es,It)": {
@@ -5618,7 +5654,7 @@
     "Shattered Union (USA)": {
         "languages": ""
     },
-    "ShellShock - Nam '67 (Europe) (En,Fr,Es,It)": {
+    "ShellShock - Nam '67 (USA, Europe) (En,Fr,Es,It)": {
         "languages": "En, Fr, It, Es"
     },
     "Shenmue II (Europe)": {
@@ -5855,10 +5891,16 @@
     "Spider-Man (Europe)": {
         "languages": "En"
     },
+    "Spider-Man (Europe) (Rev 1)": {
+        "languages": "En"
+    },
     "Spider-Man (France)": {
         "languages": "Fr"
     },
     "Spider-Man (Germany)": {
+        "languages": "De"
+    },
+    "Spider-Man (Germany) (Rev 1)": {
         "languages": "De"
     },
     "Spider-Man (Japan)": {
@@ -5927,7 +5969,7 @@
     "Stacked with Daniel Negreanu (USA)": {
         "languages": "En"
     },
-    "Stake - Fortune Fighters (Europe) (En,Fr,De,Es,It)": {
+    "Stake - Fortune Fighters (USA, Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
     "Star Trek - Shattered Universe (Europe) (En,Fr,De)": {
@@ -6188,11 +6230,11 @@
     "Suffering, The - Ties That Bind (Europe) (En,Es,It)": {
         "languages": "En, It, Es"
     },
-    "Suffering, The - Ties That Bind (Europe) (En,Fr)": {
-        "languages": "En, Fr"
-    },
     "Suffering, The - Ties That Bind (Germany)": {
         "languages": "De"
+    },
+    "Suffering, The - Ties That Bind (USA, Europe) (En,Fr)": {
+        "languages": "En, Fr"
     },
     "Super Bubble Pop (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
@@ -6217,6 +6259,9 @@
     },
     "Superman Returns (Europe)": {
         "languages": "En"
+    },
+    "Superman Returns (France)": {
+        "languages": "Fr"
     },
     "Superman Returns (USA)": {
         "languages": "En"
@@ -6254,7 +6299,7 @@
     "TOCA Race Driver 2 (USA)": {
         "languages": ""
     },
-    "TOCA Race Driver 3 (Europe) (En,Fr,De,Es,It)": {
+    "TOCA Race Driver 3 (USA, Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
     "TY the Tasmanian Tiger (Europe) (En,Fr,De,Es,It)": {
@@ -6854,6 +6899,9 @@
     "Unreal II - The Awakening (Europe) (En,Fr,Es,It)": {
         "languages": "En, Fr, It, Es"
     },
+    "Unreal II - The Awakening (Germany)": {
+        "languages": "De"
+    },
     "Unreal II - The Awakening (USA)": {
         "languages": "En"
     },
@@ -6944,11 +6992,17 @@
     "WWE WrestleMania 21 (USA) (Rev 1)": {
         "languages": ""
     },
+    "WWE WrestleMania 21 (USA) (Rev 2)": {
+        "languages": ""
+    },
     "WWF Raw (USA)": {
         "languages": ""
     },
     "Wakeboarding Unleashed featuring Shaun Murray (Europe)": {
         "languages": "En"
+    },
+    "Wakeboarding Unleashed featuring Shaun Murray (France)": {
+        "languages": ""
     },
     "Wakeboarding Unleashed featuring Shaun Murray (Japan)": {
         "languages": ""
@@ -7013,7 +7067,7 @@
     "Winter X Games Snowboarding 2002 (USA)": {
         "languages": ""
     },
-    "Without Warning (Europe) (En,Fr,De,Es,It)": {
+    "Without Warning (USA, Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
     "World Championship Poker (USA)": {
@@ -7115,11 +7169,11 @@
     "X-Men - Next Dimension (USA)": {
         "languages": "En"
     },
-    "X-Men - The Official Game (Europe)": {
-        "languages": "En"
-    },
     "X-Men - The Official Game (Europe) (Fr,It)": {
         "languages": "Fr, It"
+    },
+    "X-Men - The Official Game (USA, Europe)": {
+        "languages": "En"
     },
     "X-Men 2 - Wolverine's Revenge (Europe)": {
         "languages": "En"
@@ -7419,7 +7473,7 @@
         "languages": ""
     },
     "Xbox-ism - TGS2002 Playable Disc (Japan)": {
-        "languages": ""
+        "languages": "Ja"
     },
     "Xbox-ism - Tokyo Game Show 2003 (Japan) (Disc 1) (Eizou-shuu + Taikenban)": {
         "languages": ""

@@ -47,6 +47,9 @@
     "AIV - A Ressha de Ikou 4 (Japan)": {
         "languages": "Ja"
     },
+    "ARS Art RentaLease - Kaiga Fukugou Kensaku System (Japan)": {
+        "languages": "Ja"
+    },
     "AWESOME (Japan)": {
         "languages": "Ja"
     },
@@ -104,6 +107,9 @@
     "Alshark (Japan)": {
         "languages": "Ja"
     },
+    "Amaranth III (Japan)": {
+        "languages": "Ja"
+    },
     "AmbivalenZ - Niritsu Haihan (Japan)": {
         "languages": "Ja"
     },
@@ -152,6 +158,9 @@
     "Azure (Japan)": {
         "languages": "Ja"
     },
+    "Bacta 1&2 + Voice (Japan)": {
+        "languages": "Ja"
+    },
     "Ballade for Maria - Maria ni Sasageru Ballade (Japan)": {
         "languages": "Ja"
     },
@@ -194,6 +203,9 @@
     "Blandia Plus (Japan)": {
         "languages": "Ja"
     },
+    "Blue - Will To Power (Japan)": {
+        "languages": "Ja"
+    },
     "Bomberman - Panic Bomber (Japan)": {
         "languages": "Ja"
     },
@@ -227,6 +239,12 @@
     "CAL III - Kanketsu-hen (Japan)": {
         "languages": "Ja"
     },
+    "CD Learning System - New Horizon English Course 1 (Japan) (New Horizon Hearing Disc)": {
+        "languages": "Ja"
+    },
+    "CD Learning System - New Horizon English Course 2 (Japan) (New Horizon Hearing Disc)": {
+        "languages": "Ja"
+    },
     "CD Learning System II - New Horizon English Course 2 (Japan)": {
         "languages": "Ja"
     },
@@ -235,6 +253,9 @@
     },
     "CG Syndicate Vol. 1 - Lisa Northpoint (Japan) (En,Ja)": {
         "languages": "En, Ja"
+    },
+    "CRI Postman (Japan)": {
+        "languages": "Ja"
     },
     "CRISS Ver. 1.00 (Japan)": {
         "languages": "Ja"
@@ -437,6 +458,12 @@
     "Dungeon Master II - Skullkeep (Japan)": {
         "languages": "Ja"
     },
+    "Dynamic English 2 - Basic (Japan) (Disc 1)": {
+        "languages": "Ja"
+    },
+    "Dynamic English 3 - Upper Basic (Japan) (Disc 1) (Version 1.0)": {
+        "languages": "Ja"
+    },
     "Ed Bogas' Music Machine (Japan)": {
         "languages": "En"
     },
@@ -522,6 +549,24 @@
         "languages": "Ja"
     },
     "Exciting CD '94 Summer (Japan) (Disc 2)": {
+        "languages": "Ja"
+    },
+    "Exciting CD (Japan) (Disc 1)": {
+        "languages": "Ja"
+    },
+    "Exciting CD (Japan) (Disc 1) (Car Marty)": {
+        "languages": "Ja"
+    },
+    "Exciting CD (Japan) (Disc 2)": {
+        "languages": "Ja"
+    },
+    "Exciting CD (Japan) (Disc 2) (Car Marty)": {
+        "languages": "Ja"
+    },
+    "Exciting CD 20 (Japan) (Disc 1)": {
+        "languages": "Ja"
+    },
+    "Exciting CD 20 (Japan) (Disc 2)": {
         "languages": "Ja"
     },
     "Eye of the Beholder II - The Legend of Darkmoon (Japan)": {
@@ -821,7 +866,16 @@
     "Hyper Address Ver. 2.0 (Japan)": {
         "languages": "Ja"
     },
+    "Hyper Aquarium - Kaisui-hen (Japan)": {
+        "languages": "Ja"
+    },
+    "Hyper Aquarium - Tansui-hen (Japan)": {
+        "languages": "Ja"
+    },
     "Hyper Channel - Towns TV (Japan) (Rev 2)": {
+        "languages": "Ja"
+    },
+    "Hyper Eigo Gakushuu System - New Crown English Series 1 (Japan) (Rev A)": {
         "languages": "Ja"
     },
     "Hyper Eigo Gakushuu System - New Crown English Series 2 (Japan) (Rev B)": {
@@ -869,6 +923,9 @@
     "Igo Doujou Shodan (Japan) (Rev A)": {
         "languages": "Ja"
     },
+    "Igo Doujou Yaburi (Japan)": {
+        "languages": "Ja"
+    },
     "Igo II (Japan)": {
         "languages": "Ja"
     },
@@ -885,6 +942,9 @@
         "languages": "Ja"
     },
     "Illust Hyakka - Yamashita Hideki no Ikiiki Cut-shuu (Japan) (Rev A)": {
+        "languages": "Ja"
+    },
+    "Image Power (Japan)": {
         "languages": "Ja"
     },
     "ImageFight (Japan)": {
@@ -908,6 +968,9 @@
     "Inindou - Datou Nobunaga (Japan)": {
         "languages": "Ja"
     },
+    "Injuu Gakuen - La Blue Girl (Japan)": {
+        "languages": "Ja"
+    },
     "Iris-tei Serenade (Japan)": {
         "languages": "Ja"
     },
@@ -927,6 +990,9 @@
         "languages": "Ja"
     },
     "Jankirou (Japan)": {
+        "languages": "Ja"
+    },
+    "Japan Professional Football League - J.League 1994 Professional Soccer (Japan)": {
         "languages": "Ja"
     },
     "Jealousy (Japan)": {
@@ -1190,6 +1256,9 @@
     "Maruanki Eitango - Chuugaku 3-nensei (Japan)": {
         "languages": "Ja"
     },
+    "Master CD - Fresh Series-you (Japan)": {
+        "languages": "Ja"
+    },
     "Master CD - Install Model-you (Japan)": {
         "languages": "Ja"
     },
@@ -1206,6 +1275,9 @@
         "languages": "En"
     },
     "MegaSpectre (Japan)": {
+        "languages": "Ja"
+    },
+    "Meikyoku Master (Japan) (FM Towns Marty)": {
         "languages": "Ja"
     },
     "Meisou Toshi (Japan)": {
@@ -1256,7 +1328,7 @@
     "Mirrors (Japan)": {
         "languages": "Ja"
     },
-    "Mirumiru Sagasu Konchuu Series Vol. 4 - Noyama no Kensakuka (Japan)": {
+    "Mirumiru Sagasu Konchuu Series Vol. 4 - Noyama no Kenchikuka (Japan)": {
         "languages": "Ja"
     },
     "Misato-chan no Yume Nikki (Japan)": {
@@ -1409,10 +1481,16 @@
     "Nihon no Rekishi - Kodai-hen - Nihon Tanjou (Japan) (Rev 1)": {
         "languages": "Ja"
     },
+    "Nihon no Rekishi - Sengoku-hen - Oda Nobunaga (Japan)": {
+        "languages": "Ja"
+    },
     "Nihon no Yachou (Japan)": {
         "languages": "Ja"
     },
-    "Nihon no Yachou (Japan) (FM Towns Marty Rerelease)": {
+    "Nihon no Yachou (Japan) (FM Towns Marty)": {
+        "languages": "Ja"
+    },
+    "Nihongo Nyuumon Dai-1-kan - Fundamental Japanese (Japan)": {
         "languages": "Ja"
     },
     "Nijiiro Denshoku Musume (Japan)": {
@@ -1451,10 +1529,16 @@
     "Obaachan no Chiebukuro (Japan)": {
         "languages": "Ja"
     },
+    "Okiraku TownsGEAR (Japan)": {
+        "languages": "Ja"
+    },
     "Only You - Seikimatsu no Juliet-tachi (Japan)": {
         "languages": "Ja"
     },
     "Operation Wolf (Japan)": {
+        "languages": "Ja"
+    },
+    "Oshare Cooking (Japan) (Rev A)": {
         "languages": "Ja"
     },
     "Oshare Cooking II (Japan) (Rev B)": {
@@ -1634,6 +1718,9 @@
     "Rance IV - Kyoudan no Isan (Japan)": {
         "languages": "Ja"
     },
+    "Ravenloft - Aku no Keshin (Japan)": {
+        "languages": "Ja"
+    },
     "Rayxanber (Japan)": {
         "languages": "En"
     },
@@ -1686,6 +1773,9 @@
         "languages": "Ja"
     },
     "Samurai Spirits (Japan)": {
+        "languages": "Ja"
+    },
+    "Sangokushi II (Japan)": {
         "languages": "Ja"
     },
     "Sangokushi III (Japan)": {
@@ -1802,6 +1892,9 @@
     "Shooting Towns (Japan)": {
         "languages": "Ja"
     },
+    "Shougaku Ongaku (5-6-nensei-you) (Japan) (Rev A)": {
+        "languages": "Ja"
+    },
     "Shounen Magazine History (Japan)": {
         "languages": "Ja"
     },
@@ -1821,6 +1914,9 @@
         "languages": "Ja"
     },
     "SimCity (Japan) (En,Ja)": {
+        "languages": "En, Ja"
+    },
+    "SimCity (Japan) (En,Ja) (Rev A)": {
         "languages": "En, Ja"
     },
     "SimCity 2000 (Japan)": {
@@ -1865,10 +1961,16 @@
     "Special & Delicious! Original CD-ROM (Japan)": {
         "languages": "Ja"
     },
+    "Speech Trainer V1.0 L10 (Japan)": {
+        "languages": "Ja"
+    },
     "Splatterhouse (Japan)": {
         "languages": "En"
     },
     "StarCruiser II for CD-ROM (Japan)": {
+        "languages": "Ja"
+    },
+    "Steepia (Japan)": {
         "languages": "Ja"
     },
     "Steepia Lite (Japan)": {
@@ -2027,6 +2129,9 @@
     "Touch My Heart (Japan)": {
         "languages": "Ja"
     },
+    "Touch the Music by Casiopea (Japan)": {
+        "languages": "Ja"
+    },
     "Toudou Ryuunosuke Tantei Nikki - Ougon no Rashinban - Shouyoumaru San Francisco Kouro Satsujin Jiken (Japan)": {
         "languages": "Ja"
     },
@@ -2064,6 +2169,9 @@
         "languages": "Ja"
     },
     "Towns Paint V1.1 L20 (Japan)": {
+        "languages": "Ja"
+    },
+    "Towns Paint V1.1 L21 (Japan)": {
         "languages": "Ja"
     },
     "Towns Paint V1.1 L22 (Japan)": {
@@ -2172,6 +2280,9 @@
         "languages": "Ja"
     },
     "Ultima VI - The False Prophet (Japan)": {
+        "languages": "Ja"
+    },
+    "Uwaki na Anata - Switch o Irete (Japan)": {
         "languages": "Ja"
     },
     "Vain Dream (Japan)": {
@@ -2323,6 +2434,9 @@
     },
     "Z's Triphony DigitalCraft Towns (Japan) (Rev A)": {
         "languages": "Ja"
+    },
+    "Zak McKracken and the Alien Mindbenders (Japan) (En,Ja) (Rev A)": {
+        "languages": "En, Ja"
     },
     "Zan II - Towns Special (Japan)": {
         "languages": "Ja"

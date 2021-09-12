@@ -1,5 +1,14 @@
 {
-    "2 Unlimited - Beyond Limits (Netherlands)": {
+    "1994 CD-i Awards (USA)": {
+        "languages": ""
+    },
+    "1995 CD-i Awards (USA)": {
+        "languages": ""
+    },
+    "1996 Awards - International CD-i Association (USA)": {
+        "languages": ""
+    },
+    "2 Unlimited - Beyond Limits (Europe)": {
         "languages": "En"
     },
     "3rd Degree (USA)": {
@@ -53,6 +62,9 @@
     "Accelerator (Europe)": {
         "languages": ""
     },
+    "Adventure of the Space Ship Beagle, The (Japan)": {
+        "languages": ""
+    },
     "Affaire Morlov, L' (Europe) (En,Fr)": {
         "languages": "En, Fr"
     },
@@ -60,6 +72,9 @@
         "languages": ""
     },
     "Albero Azzurro, L' (Italy)": {
+        "languages": "It"
+    },
+    "Albero Azzurro, L' (Italy) (Beta)": {
         "languages": "It"
     },
     "Alfapet (Sweden)": {
@@ -100,6 +115,9 @@
     },
     "Alles over CD-i (Netherlands) (Apr-Mei 1995)": {
         "languages": "Nl"
+    },
+    "Amsterdam Airport Schiphol (Netherlands)": {
+        "languages": ""
     },
     "Amsterdam ArenA - Tour d'ArenA (Netherlands)": {
         "languages": ""
@@ -218,6 +236,9 @@
     "Bell Atlantic InfoTravel - Washington, D.C. (USA)": {
         "languages": "En"
     },
+    "Belle et la Bete, La (France)": {
+        "languages": "Fr"
+    },
     "Berenstain Bears, The - Bij de Berenstain Beren Thuis - Thuis en bij Jou (Netherlands)": {
         "languages": "Nl"
     },
@@ -242,6 +263,9 @@
     "Best Live, The (Netherlands)": {
         "languages": "En"
     },
+    "Best of Baby Songs, The (USA)": {
+        "languages": "En"
+    },
     "Big Bang Show (France) (En,Fr)": {
         "languages": "En, Fr"
     },
@@ -262,6 +286,12 @@
     },
     "Body Contour (Netherlands) (Disc 2)": {
         "languages": "Nl"
+    },
+    "Body Response (USA) (Disc 3) (Shoulder-Scapula)": {
+        "languages": ""
+    },
+    "Bose Home Cinema Sound System Demonstration Disc (Europe)": {
+        "languages": ""
     },
     "Bose Home Cinema Sound System Demonstration Disc (Germany)": {
         "languages": "De"
@@ -293,7 +323,7 @@
     "Burn-Cycle (Italy) (Il Gioco)": {
         "languages": "It"
     },
-    "Burn-Cycle (Spain)": {
+    "Burn-Cycle (Spain) (El Juego)": {
         "languages": "Es"
     },
     "Burn-Cycle (USA)": {
@@ -320,6 +350,9 @@
     "CD-Online - Issue 02 - The Internet Game Issue (UK)": {
         "languages": "En"
     },
+    "CD-Visuals Sample (Netherlands)": {
+        "languages": ""
+    },
     "CD-i & Video CD Titel-Neuheiten I-95 (Germany)": {
         "languages": "De"
     },
@@ -332,11 +365,17 @@
     "CD-i - Ready Steady Go! (Europe)": {
         "languages": "En"
     },
+    "CD-i Demo Disc Version 1.2 (Netherlands)": {
+        "languages": ""
+    },
     "CD-i Demodisc Fall 1996 & Spring 1997 (Europe)": {
         "languages": ""
     },
     "CD-i Demonstration Disc (USA)": {
         "languages": "En"
+    },
+    "CD-i Full Motion Video Technical Aspects (Europe)": {
+        "languages": ""
     },
     "CD-i Keydisc (Europe)": {
         "languages": ""
@@ -351,6 +390,9 @@
         "languages": "En"
     },
     "CD-i World (Germany)": {
+        "languages": "De"
+    },
+    "CD-i mit der Maus, Die - Auf dem Bauernhof (Germany) (Beta)": {
         "languages": "De"
     },
     "CD-i voor Demonstratie van Breedbeeld TV (Netherlands)": {
@@ -893,6 +935,9 @@
     "Cartoon Jukebox (Netherlands)": {
         "languages": ""
     },
+    "Cartoon Jukebox (Netherlands) (Beta)": {
+        "languages": "Nl"
+    },
     "Cartoon Jukebox (USA, Europe)": {
         "languages": "En"
     },
@@ -918,6 +963,9 @@
         "languages": "En"
     },
     "Child is Born, A (USA)": {
+        "languages": "En"
+    },
+    "Children's Musical Theatre (Europe)": {
         "languages": "En"
     },
     "Children's Musical Theatre (France)": {
@@ -959,6 +1007,9 @@
     "Cluedo - The Mystery Continues (Europe)": {
         "languages": "En"
     },
+    "Cluedo - The Mystery Continues (Europe) (Beta)": {
+        "languages": ""
+    },
     "Complete Your Financial Jigsaw (UK)": {
         "languages": ""
     },
@@ -980,6 +1031,9 @@
     "Concise Oxford Dictionary & Oxford Thesaurus, The (Europe)": {
         "languages": "En"
     },
+    "Concise Oxford Dictionary & Oxford Thesaurus, The (Europe) (Beta)": {
+        "languages": ""
+    },
     "Coneheads (USA) (Disc 1)": {
         "languages": ""
     },
@@ -998,11 +1052,20 @@
     "Cranberries, The - Doors and Windows (USA)": {
         "languages": "En"
     },
+    "Crayon Factory, The (Europe)": {
+        "languages": ""
+    },
     "Cream of Eric Clapton, The (Europe) (Disc 1)": {
         "languages": ""
     },
     "Cream of Eric Clapton, The (Europe) (Disc 2)": {
         "languages": ""
+    },
+    "Cream of Eric Clapton, The (USA) (Disc 1)": {
+        "languages": "En"
+    },
+    "Cream of Eric Clapton, The (USA) (Disc 2)": {
+        "languages": "En"
     },
     "Creature Shock (Europe) (Disc 1)": {
         "languages": "En"
@@ -1034,6 +1097,9 @@
     "Dark Castle (Europe)": {
         "languages": "En"
     },
+    "Dark Fables of Aesop, The (Europe)": {
+        "languages": "En"
+    },
     "Dark Fables of Aesop, The (USA)": {
         "languages": "En"
     },
@@ -1048,6 +1114,9 @@
     },
     "Defender of the Crown (USA, Europe)": {
         "languages": "En"
+    },
+    "Demo Disk - Spring Releases '97 (Europe)": {
+        "languages": ""
     },
     "Denkend Aan de Dapperstraat (Netherlands)": {
         "languages": "Nl"
@@ -1130,11 +1199,17 @@
     "Drug Wars (Europe)": {
         "languages": "En"
     },
+    "Duistere Fabels van Aesopus, De (Netherlands)": {
+        "languages": "Nl"
+    },
     "Dutch Masters of the Seventeenth Century (UK)": {
         "languages": "En"
     },
     "Dutch Masters of the Seventeenth Century (USA)": {
         "languages": ""
+    },
+    "Earth Command (Europe)": {
+        "languages": "En"
     },
     "Earth Command (France)": {
         "languages": "Fr"
@@ -1166,8 +1241,11 @@
     "Escape from CyberCity (USA, Europe)": {
         "languages": "En"
     },
-    "Etoiles et Galaxies - Astronomie Flamarion (France)": {
+    "Etoiles et Galaxies - Astronomie Flammarion (France)": {
         "languages": "Fr"
+    },
+    "European Party (Europe)": {
+        "languages": ""
     },
     "Everything You Ever Wanted to Know About CD-i (Europe)": {
         "languages": "En"
@@ -1177,6 +1255,12 @@
     },
     "Explorations of Space (USA)": {
         "languages": ""
+    },
+    "Fables d'Esope I, Les (France)": {
+        "languages": "Fr"
+    },
+    "Fables d'Esope II, Les (France)": {
+        "languages": "Fr"
     },
     "Face Kitchen (UK)": {
         "languages": ""
@@ -1235,6 +1319,9 @@
     "Fatal Attraction (Netherlands) (Disc 2)": {
         "languages": "En"
     },
+    "Felix the Cat's Giant Electronic Comic Book (Europe) (Proto)": {
+        "languages": ""
+    },
     "Firm, The (USA) (Disc 1)": {
         "languages": ""
     },
@@ -1289,10 +1376,13 @@
     "Frog Feast (USA) (Unl)": {
         "languages": ""
     },
+    "Fun Tower (Europe)": {
+        "languages": ""
+    },
     "Futuropolis (Netherlands)": {
         "languages": ""
     },
-    "Gardening by Choice - Flowers & Foliage (Europe)": {
+    "Gardening by Choice - Flowers & Foliage (USA, Europe)": {
         "languages": "En"
     },
     "Geheimnisvollen Fabeln von Aesop, Die (Germany)": {
@@ -1312,6 +1402,9 @@
     },
     "Gevaert 100 Jaar, een Terugblik... (Belgium)": {
         "languages": ""
+    },
+    "Gewetensvragen (Netherlands)": {
+        "languages": "Nl"
     },
     "Ghost (Netherlands) (Disc 1)": {
         "languages": "En"
@@ -1418,6 +1511,12 @@
     "Harvest of the Sun - Van Gogh - Une Moisson de Soleils (France)": {
         "languages": "Fr"
     },
+    "Head Crash - Cranium Error (Europe) (Beta)": {
+        "languages": ""
+    },
+    "Henri Des - Les Betises (France)": {
+        "languages": "Fr"
+    },
     "Hieperdepiep, Ik Lees! (Netherlands)": {
         "languages": "Nl"
     },
@@ -1487,6 +1586,12 @@
     "Hotel Mario (USA)": {
         "languages": ""
     },
+    "How the Camel Got His Hump (USA)": {
+        "languages": "En"
+    },
+    "How the Rhino Got His Skin (USA) (Beta)": {
+        "languages": "En"
+    },
     "How the Rhinoceros Got His Skin (Europe)": {
         "languages": "En"
     },
@@ -1539,6 +1644,9 @@
         "languages": ""
     },
     "Indecent Proposal (USA) (Disc 2)": {
+        "languages": ""
+    },
+    "Innovative Technologies - Simple Solutions (USA)": {
         "languages": ""
     },
     "Interactief Philips Magazine '92-'93 (Netherlands)": {
@@ -1604,10 +1712,13 @@
     "Jack Sprite vs. the Crimson Ghost (USA) (Unl)": {
         "languages": ""
     },
+    "James Brown - Non Stop Hit Machine (Europe)": {
+        "languages": "En"
+    },
     "Jan Pienkowski Haunted House (Europe) (En,Fr,De,Es,It,Nl)": {
         "languages": "Nl, En, Fr, De, It, Es"
     },
-    "Jazz Giants - From Big Band to Bossa Nova (USA)": {
+    "Jazz Giants - From Big Band to Bossa Nova (USA, Europe)": {
         "languages": "En"
     },
     "Je Parle l'Allemand - Junior (France)": {
@@ -1625,7 +1736,7 @@
     "Jigsaw - The Ultimate Electronic Puzzle (Europe)": {
         "languages": "En"
     },
-    "Jigsaw - The Ultimate Electronic Puzzle (Europe) (Rerelease)": {
+    "Jigsaw - The Ultimate Electronic Puzzle (Europe) (Rev 1)": {
         "languages": "En"
     },
     "Jigsaw - The Ultimate Electronic Puzzle (USA)": {
@@ -1651,6 +1762,9 @@
     },
     "Joy of Sex, The (Europe) (Rev 1)": {
         "languages": "En"
+    },
+    "Kabouter, De (Netherlands)": {
+        "languages": ""
     },
     "Karaoke Collection N.2 (Italy)": {
         "languages": "It"
@@ -1736,6 +1850,9 @@
     "Kingdom - The Far Reaches (USA)": {
         "languages": "En"
     },
+    "Kiss (Europe)": {
+        "languages": "En"
+    },
     "Kunstschaetze der Russischen Zaren, Die (Germany)": {
         "languages": "De"
     },
@@ -1751,6 +1868,12 @@
     "Labyrinth von Kreta (Germany)": {
         "languages": "De"
     },
+    "Language Director - Deutsch - Level 2 (Europe) (Disc 1)": {
+        "languages": "De"
+    },
+    "Language Director - Deutsch - Level 2 (Europe) (Disc 2)": {
+        "languages": "De"
+    },
     "Language Director - English - Level 1 (Europe) (Disc 1)": {
         "languages": ""
     },
@@ -1760,7 +1883,10 @@
     "Language Director - English - Level 1 (Europe) (Disc 2)": {
         "languages": ""
     },
-    "Language Director - English - Level 1 (Europe) (Disc 2) (Rerelease)": {
+    "Language Director - English - Level 1 (Europe) (Disc 2) (Rev 1)": {
+        "languages": "En"
+    },
+    "Language Director - English - Level 1 (Europe) (Disc 2) (Rev 2)": {
         "languages": ""
     },
     "Language Director - English - Level 2 (Europe) (Disc 1)": {
@@ -1781,10 +1907,13 @@
     "Language Director - English - Level 3 (Europe) (Disc 2)": {
         "languages": ""
     },
+    "Language Director - Guided Tour - Deutsch Level 2 (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Sk) (Disc 0)": {
+        "languages": "Zh, Da, Nl, En, Fi, Fr, De, It, Ja, No, Pt, Es, Sv"
+    },
     "Language Director - Guided Tour - English Level 1 (Europe)": {
         "languages": ""
     },
-    "Language Director - Guided Tour - English Level 1 (Europe) (Rerelease)": {
+    "Language Director - Guided Tour - English Level 1 (Europe) (Rev 1)": {
         "languages": ""
     },
     "Language Director - Guided Tour - English Level 2 (Europe)": {
@@ -1805,11 +1934,17 @@
     "Last Bounty Hunter, The (Europe)": {
         "languages": "En"
     },
+    "Lekker Lezen over Huisdieren (Netherlands)": {
+        "languages": "Nl"
+    },
     "Lemmings (Europe)": {
         "languages": "En"
     },
     "Lemmings (USA)": {
         "languages": ""
+    },
+    "Lenting van Etten Advertising (Netherlands)": {
+        "languages": "Nl"
     },
     "Let's Go Skiing with Alberto Tomba (Europe) (En,It)": {
         "languages": "En, It"
@@ -1818,6 +1953,9 @@
         "languages": "Nl"
     },
     "Lingo (Netherlands)": {
+        "languages": "Nl"
+    },
+    "Link - De Gezichten van het Kwaad (Netherlands)": {
         "languages": "Nl"
     },
     "Link - Die Fratzen des Boesen (Germany)": {
@@ -1833,6 +1971,9 @@
         "languages": "En"
     },
     "Litil Divil (Europe)": {
+        "languages": "En"
+    },
+    "Litil Divil (Italy)": {
         "languages": "En"
     },
     "Litil Divil (USA)": {
@@ -2027,6 +2168,9 @@
     "Monty Python's More Naughty Bits (Europe)": {
         "languages": ""
     },
+    "More Dark Fables from Aesop (Europe)": {
+        "languages": "En"
+    },
     "Moses - Bound for the Promised Land (Europe)": {
         "languages": "En"
     },
@@ -2042,6 +2186,12 @@
     "Mother Goose - Rhymes to Color (Europe)": {
         "languages": "En"
     },
+    "Mozart - A Musical Biography (Germany)": {
+        "languages": "En"
+    },
+    "Mozart - Een Muzikale Biografie (Netherlands)": {
+        "languages": "Nl"
+    },
     "Mozart - Eine Musikalische Biographie (Germany)": {
         "languages": "De"
     },
@@ -2050,6 +2200,9 @@
     },
     "Mozart - Sono Ongaku to Shougai - A Musical Biography (Japan) (En,Ja)": {
         "languages": "En, Ja"
+    },
+    "Multimedia Partner Program (Europe)": {
+        "languages": ""
     },
     "Mutant Rampage - Bodyslam (Europe)": {
         "languages": "En"
@@ -2201,6 +2354,9 @@
     "Page & Moy Ltd - Cruise Directory (UK)": {
         "languages": "En"
     },
+    "Paint School I (Asia) (Zh,Ko)": {
+        "languages": "Zh, Ko"
+    },
     "Paint School I (Europe) (En,Fr,De,Es,It,Nl)": {
         "languages": "Nl, En, Fr, De, It, Es"
     },
@@ -2252,7 +2408,7 @@
     "Pecos Bill (USA) (Rev 1)": {
         "languages": "En"
     },
-    "Pegasus (USA)": {
+    "Pegasus (USA, Europe)": {
         "languages": ""
     },
     "Pete Townshend Live (USA) (Demo)": {
@@ -2266,6 +2422,9 @@
     },
     "Philips Audio-Video Products '92-'93 on CD-Interactive (Europe) (En,Fr,De,Es,It,Nl)": {
         "languages": "Nl, En, Fr, De, It, Es"
+    },
+    "Philips Car Systems 3-94 (Germany)": {
+        "languages": ""
     },
     "Philips Competence Centre - The Evoluon (Europe)": {
         "languages": "En"
@@ -2298,6 +2457,12 @@
         "languages": "En"
     },
     "Pinball (USA, Europe)": {
+        "languages": "En"
+    },
+    "Planes, Trains and Automobiles (USA) (Disc 1)": {
+        "languages": "En"
+    },
+    "Planes, Trains and Automobiles (USA) (Disc 2)": {
         "languages": "En"
     },
     "Playboy's Complete Massage (Europe)": {
@@ -2372,10 +2537,10 @@
     "Raccolto del Sole, Il - Van Gogh (Italy)": {
         "languages": "It"
     },
-    "Rand McNally's America - United States Atlas (Europe)": {
+    "Rand McNally's America - United States Atlas (Europe) (1993)": {
         "languages": "En"
     },
-    "Rand McNally's America - United States Atlas (Europe) (1993)": {
+    "Rand McNally's America - United States Atlas (USA, Europe)": {
         "languages": "En"
     },
     "Reihe Privatunterricht - Die klassische Gitarre (Germany)": {
@@ -2383,6 +2548,9 @@
     },
     "Reihe Privatunterricht - Rockgitarre - Eine Anleitung fuer Anfaenger (Germany)": {
         "languages": "De"
+    },
+    "Rembrandt - His Art and the Music of His Era (Netherlands)": {
+        "languages": "En"
     },
     "Rembrandt - His Art and the Music of His Era (USA)": {
         "languages": ""
@@ -2423,13 +2591,16 @@
     "Richard Scarry's Allerwitzigste Geschichten aus Schaffenau (Germany)": {
         "languages": "De"
     },
-    "Richard Scarry's Best Neighborhood Disc Ever! (Europe) (Rerelease)": {
+    "Richard Scarry's Best Neighborhood Disc Ever! (Europe)": {
         "languages": ""
     },
     "Richard Scarry's Best Neighborhood Disc Ever! (USA)": {
         "languages": ""
     },
     "Richard Scarry's Busiest Neighborhood Disc Ever! (USA)": {
+        "languages": ""
+    },
+    "Richard Scarry's Busiest Neighborhood Disc Ever! (USA) (Rev 1)": {
         "languages": ""
     },
     "Rinascimento a Firenze, Il (Italy)": {
@@ -2453,7 +2624,13 @@
     "Rock Gitaar - Handleiding voor Beginners (Netherlands)": {
         "languages": "Nl"
     },
+    "Rollerbollen (Netherlands)": {
+        "languages": ""
+    },
     "Rosebud - The Director's Cut (Europe)": {
+        "languages": "En"
+    },
+    "Routes to Reading (Europe)": {
         "languages": "En"
     },
     "Royal Classics CDi Sampler - The Classics You Love (Europe)": {
@@ -2480,11 +2657,17 @@
     "Sandy's Circus Avontuur (Netherlands)": {
         "languages": "Nl"
     },
+    "Santa Claus' Mice (Europe) (En,Fr)": {
+        "languages": "En, Fr"
+    },
     "Sargon Chess (Europe)": {
         "languages": "En"
     },
     "Sargon Chess (USA)": {
         "languages": ""
+    },
+    "Sargon Chess (USA) (Beta)": {
+        "languages": "En"
     },
     "Schilderschool (Netherlands)": {
         "languages": "Nl"
@@ -2505,6 +2688,9 @@
         "languages": "De"
     },
     "Secret Mission (Europe)": {
+        "languages": ""
+    },
+    "Secret Mission (Europe) (Beta)": {
         "languages": ""
     },
     "Secret Mission (France)": {
@@ -2540,6 +2726,12 @@
     "Si Balla (Italy) (Beta)": {
         "languages": "It"
     },
+    "Sliver (USA) (Disc 1)": {
+        "languages": "En"
+    },
+    "Sliver (USA) (Disc 2)": {
+        "languages": "En"
+    },
     "Smithsonian Presents, The - Stamps - Windows on the World (France)": {
         "languages": "En"
     },
@@ -2549,13 +2741,16 @@
     "Solar System (Europe)": {
         "languages": "En"
     },
+    "Solitaire (Europe) (Proto)": {
+        "languages": ""
+    },
     "Somewhere - Une Envie de Naturel (France)": {
         "languages": "Fr"
     },
     "Somewhere - Une Envie de Naturel - Printemps 96 (France)": {
         "languages": "Fr"
     },
-    "Souris du Pere Noel, Les (France)": {
+    "Soundtrap (Europe)": {
         "languages": ""
     },
     "Space Ace (Europe)": {
@@ -2600,17 +2795,23 @@
     "Steel Machine (Europe)": {
         "languages": ""
     },
-    "Stickybear - Family Fun (Europe)": {
+    "Stickybear Family Fun (Europe)": {
         "languages": ""
     },
     "Stickybear Maths (Europe) (En,Es)": {
         "languages": "En, Es"
+    },
+    "Stickybear Preschool (Europe) (Beta)": {
+        "languages": "En"
     },
     "Stickybear Preschool (USA) (Beta)": {
         "languages": ""
     },
     "Stickybear Preschool (USA) (En,Es)": {
         "languages": "En, Es"
+    },
+    "Stickybear Reading (USA)": {
+        "languages": "En"
     },
     "Sting - Ten Summoner's Tales (Europe)": {
         "languages": "En"
@@ -2620,6 +2821,9 @@
     },
     "Story Machine - Magic Tales (USA)": {
         "languages": "En"
+    },
+    "Story Machine - Star Dreams (USA)": {
+        "languages": ""
     },
     "Story Maschine - Galaxis (Germany)": {
         "languages": ""
@@ -2648,7 +2852,13 @@
     "Stunde der Patrioten, Die (Germany) (Disc 2)": {
         "languages": "De"
     },
+    "Super Mario's Wacky Worlds (USA) (Proto)": {
+        "languages": "En"
+    },
     "SuperTest (Europe) (De,It)": {
+        "languages": "De, It"
+    },
+    "SuperTest (Europe) (De,It) (Beta)": {
         "languages": "De, It"
     },
     "Surf City (Europe)": {
@@ -2696,6 +2906,9 @@
     "Tesoro dell'Isola dei Giochi, Il (Italy)": {
         "languages": "It"
     },
+    "Tesoro dell'Isola dei Giochi, Il (Italy) (Beta)": {
+        "languages": "It"
+    },
     "Test Codoroute I (France)": {
         "languages": "Fr"
     },
@@ -2722,6 +2935,27 @@
     },
     "Thunder in Paradise (USA) (Disc 1) (The Game)": {
         "languages": ""
+    },
+    "TicTac (Europe) (Proto)": {
+        "languages": ""
+    },
+    "Tim & Baer auf dem Flughafen (Germany)": {
+        "languages": "De"
+    },
+    "Tim & Baer beim Film (Germany)": {
+        "languages": "De"
+    },
+    "Tim & Baer im Hafen (Germany)": {
+        "languages": "De"
+    },
+    "Tim & Bear at the Airport (UK)": {
+        "languages": "En"
+    },
+    "Tim & Bear at the Harbour (UK)": {
+        "languages": "En"
+    },
+    "Tim & Bear at the Movies (UK)": {
+        "languages": "En"
     },
     "Tim & Beer bij de Film (Netherlands)": {
         "languages": ""
@@ -2858,7 +3092,13 @@
     "Usine aux Crayons, L' (France)": {
         "languages": "Fr"
     },
+    "Valkieser Multi Media (Netherlands)": {
+        "languages": ""
+    },
     "Vegas Girls (Europe)": {
+        "languages": ""
+    },
+    "Vegas Girls (Europe) (Alt)": {
         "languages": ""
     },
     "Verhaengnisvolle Affaere, Eine (Germany) (Disc 1)": {
@@ -2866,6 +3106,9 @@
     },
     "Verhaengnisvolle Affaere, Eine (Germany) (Disc 2)": {
         "languages": "De"
+    },
+    "Verhalen Toverdoos - Magische Vertellingen (Netherlands)": {
+        "languages": "Nl"
     },
     "Video Speedway - Grand Prix (France)": {
         "languages": "Fr"
@@ -2912,6 +3155,9 @@
     "Volvo 850 - Colour & Upholstery (Europe)": {
         "languages": "En"
     },
+    "Volvo 850 - Farben & Bezuege (Germany)": {
+        "languages": "De"
+    },
     "Von der Elbe an die Spree (Germany)": {
         "languages": "De"
     },
@@ -2924,10 +3170,19 @@
     "Voyeur ...Don't Get Caught (Europe)": {
         "languages": "En"
     },
-    "Voyeur ...lass Dich nicht erwischen! (Germany)": {
+    "Voyeur ...Lass Dich Nicht Erwischen! (Germany)": {
         "languages": "De"
     },
+    "Wacky World of Miniature Golf with Eugene Levy, The (Europe)": {
+        "languages": "En"
+    },
     "Wacky World of Miniature Golf with Eugene Levy, The (USA)": {
+        "languages": "En"
+    },
+    "Wayne's World (USA) (Disc 1)": {
+        "languages": "En"
+    },
+    "Wayne's World (USA) (Disc 2)": {
         "languages": "En"
     },
     "Weather Kitchen, The (USA)": {
@@ -2951,14 +3206,20 @@
     "Who Shot Johnny Rock (Europe)": {
         "languages": "En"
     },
+    "Who Shot Johnny Rock (Europe) (Beta)": {
+        "languages": "En"
+    },
     "Who Shot Johnny Rock (France)": {
         "languages": "Fr"
+    },
+    "Who Shot Johnny Rock (Italy)": {
+        "languages": "It"
     },
     "Who Shot Johnny Rock (USA)": {
         "languages": "En"
     },
-    "Wie das Rhinozeros zu seiner Haut Kam (Germany)": {
-        "languages": "De"
+    "Wie das Rhinozeros zu seiner Haut kam (Germany) (En,De)": {
+        "languages": "En, De"
     },
     "Wimbledon Challenge (Europe) (En,Ja,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Ja, Es"
@@ -2990,8 +3251,14 @@
     "Worlds of..., The (Europe)": {
         "languages": ""
     },
-    "Xplora 1 - Peter Gabriel's Secret World (Europe)": {
+    "Wuzzo Goes on Holiday (Europe) (Proto)": {
+        "languages": ""
+    },
+    "Xplora 1 - Peter Gabriel's Secret World (USA, Europe)": {
         "languages": "En"
+    },
+    "Yamaha Brochure 1994 (Europe)": {
+        "languages": ""
     },
     "Yearn2Learn - Peanuts (Europe) (En,Fr,De,Nl)": {
         "languages": "Nl, En, Fr, De"
