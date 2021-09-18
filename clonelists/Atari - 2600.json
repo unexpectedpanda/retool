@@ -3,7 +3,7 @@
 		"name": [
 			"Atari - 2600"
 		],
-		"last updated": "22 May 2021",
+		"last updated": "19 September 2021",
 		"minimum version": "0.92"
 	},
 
@@ -91,6 +91,9 @@
 		],
 		"Sea Monster": [
 			["O Monstro Marinho", 1]
+		],
+		"Space Tunnel": [
+			["Tunnel de L'Espace, Le", 1]
 		],
 		"Squirrel ~ O Esquilo": [
 			["Snail against Squirrel", 1]
