@@ -3,10 +3,18 @@
         "name": [
 			"Sony - PlayStation"
 		],
-        "last updated": "11 September 2021",
-		"minimum version": "0.89"
+        "last updated": "24 September 2021",
+		"minimum version": "0.92"
     },
 
+	"categories": {
+		"Ace Combat 3 - Electrosphere - Direct Audio with AppenDisc": {
+			"match": "short",
+			"categories": ["Audio"]
+		}
+	},
+
+	
     "overrides": {
 		"Bishi Bashi Special 2 (Japan)": {
 			"new group": "Bishi Bashi Special 2 (Japan)",
@@ -135,6 +143,12 @@
 			["A.IV - Evolution Global", 1],
 			["A Ressha de Ikou 4 - Evolution Global", 1],
 			["SuperLite 1500 Series - A Ressha de Ikou 4 - Evolution Global", 1]
+		],
+	    	"Ace Combat 3 - Electrosphere (Disc 1)": [
+			["Ace Combat 3 - Electrosphere", 0]
+		],
+		"Ace Combat 3 - Electrosphere (Disc 2)": [
+			["Ace Combat 3 - Electrosphere", 0]
 		],
 		"Action Man - Operation Extreme": [
 			["Action Man - Mission Xtreme", 1]
