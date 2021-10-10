@@ -8,7 +8,7 @@
     "'99 Koushien (Japan)": {
         "languages": "Ja"
     },
-    "'99 Koushien (Japan) (Taikenban)": {
+    "'99 Koushien (Japan) (Demo)": {
         "languages": "Ja"
     },
     "'Butagee' de Iinja Nai (Japan)": {
@@ -112,9 +112,6 @@
     },
     "1Xtreme (USA)": {
         "languages": "En"
-    },
-    "2 Demos in 1 - Driver - You Are the Wheelman + V-Rally - Championship Edition 2 (Japan)": {
-        "languages": "Ja"
     },
     "20-seiki Striker Retsuden - The 20th Century's Real Strikers (Japan)": {
         "languages": "Ja"
@@ -434,20 +431,20 @@
     "Action Replay 2 (France) (Disc 2) (Unl)": {
         "languages": "Fr"
     },
-    "Action Replay 2 (USA) (Disc 2) (Bonus PSone Codes!) (Unl)": {
+    "Action Replay 2 - Bonus PSone Codes! (USA) (Disc 2) (Unl)": {
         "languages": "En"
+    },
+    "Action Replay 2 - Bonus PSone Codes! (USA) (En,Fr,Es,Pt) (Disc 2) (Unl) (Rev 1)": {
+        "languages": "En, Fr, Pt, Es"
     },
     "Action Replay 2 Code Archive Disk (Germany) (Disc 2) (German Edition) (Unl)": {
         "languages": "De"
     },
-    "Action Replay 2 V2 (USA) (Disc 2) (Bonus PSone Codes) (Unl)": {
+    "Action Replay 2 V2 - Bonus PSone Codes (USA) (Disc 2) (Unl)": {
         "languages": "En"
     },
     "Action Replay 2 Version 2.23 (Europe) (En,Fr,De,It) (Disc 2) (Bonus PSone Codes!) (Unl)": {
         "languages": "En, Fr, De, It"
-    },
-    "Action Replay 2 Version 2.30 (USA) (En,Fr,Es,Pt) (Disc 2) (Bonus PSone Codes!) (Unl)": {
-        "languages": "En, Fr, Pt, Es"
     },
     "Action Replay CDX Version 3.3 (France) (Unl)": {
         "languages": "Fr"
@@ -1844,7 +1841,7 @@
     "B. L. U. E. - Legend of Water (Japan)": {
         "languages": "Ja"
     },
-    "B. L. U. E. - Legend of Water (Japan) (Taikenban)": {
+    "B. L. U. E. - Legend of Water (Japan) (Demo)": {
         "languages": "Ja"
     },
     "BDFL Manager 2001 (Germany)": {
@@ -2072,7 +2069,7 @@
     "Bass Landing (Japan)": {
         "languages": "Ja"
     },
-    "Bass Landing (Japan) (Taikenban)": {
+    "Bass Landing (Japan) (Demo)": {
         "languages": "Ja"
     },
     "Bass Landing (USA)": {
@@ -2549,6 +2546,9 @@
     "Blast Lacrosse (USA)": {
         "languages": "En"
     },
+    "Blast Lacrosse (USA) (Alt)": {
+        "languages": "En"
+    },
     "Blast Radius (Europe)": {
         "languages": "En"
     },
@@ -2724,9 +2724,6 @@
         "languages": "En"
     },
     "Blue's Clues - Blue's Big Musical (USA)": {
-        "languages": "En"
-    },
-    "Board Game - Top Shop (USA)": {
         "languages": "En"
     },
     "Bob Aggiustatutto (Italy)": {
@@ -3033,6 +3030,9 @@
         "languages": "Ja"
     },
     "Broken Helix (USA)": {
+        "languages": "En"
+    },
+    "Broken Helix (USA) (Rev 1)": {
         "languages": "En"
     },
     "Broken Sword - La Leyenda de los Templarios (Spain)": {
@@ -4865,13 +4865,13 @@
     "Cross Romance - Koi to Mahjong to Hanafuda to (Japan)": {
         "languages": "Ja"
     },
+    "Cross Tantei Monogatari (Japan) (Demo)": {
+        "languages": "Ja"
+    },
     "Cross Tantei Monogatari (Japan) (Disc 1)": {
         "languages": "Ja"
     },
     "Cross Tantei Monogatari (Japan) (Disc 2)": {
-        "languages": "Ja"
-    },
-    "Cross Tantei Monogatari (Japan) (Taikenban)": {
         "languages": "Ja"
     },
     "Cross Tantei Monogatari 1 - Kouhen (Japan)": {
@@ -5183,7 +5183,7 @@
     "DamDam Stompland (Japan)": {
         "languages": "Ja"
     },
-    "DamDam Stompland (Japan) (Taikenban)": {
+    "DamDam Stompland (Japan) (Demo)": {
         "languages": "Ja"
     },
     "Dance Dance Revolution (Japan)": {
@@ -7373,6 +7373,9 @@
     "Driver - You Are the Wheelman (USA) (Rev 1)": {
         "languages": "En"
     },
+    "Driver - You Are the Wheelman + V-Rally - Championship Edition 2 (Japan) (Demo)": {
+        "languages": "Ja"
+    },
     "Driver 2 (USA) (Demo)": {
         "languages": "En"
     },
@@ -7859,7 +7862,7 @@
     "Elder Gate (Japan)": {
         "languages": "Ja"
     },
-    "Elder Gate (Japan) (Taikenban)": {
+    "Elder Gate (Japan) (Demo)": {
         "languages": "Ja"
     },
     "Elemental Gearbolt (USA)": {
@@ -10271,7 +10274,7 @@
     "Formula One 99 (Japan)": {
         "languages": "Ja"
     },
-    "Formula One 99 (USA) (En,Fr,Es)": {
+    "Formula One 99 (USA, Canada) (En,Fr,Es)": {
         "languages": "En, Fr, Es"
     },
     "Formula One Arcade (Europe) (En,Fr,De,Es,It)": {
@@ -10613,6 +10616,9 @@
     "GSi - GameShark Interactive Magazine (USA) (Unl)": {
         "languages": "En"
     },
+    "GT Circuit Breaker (Europe) (Unl)": {
+        "languages": "En"
+    },
     "GZSZ Quiz (Germany)": {
         "languages": "De"
     },
@@ -10850,40 +10856,40 @@
     "GameShark - Metal Gear Solid 2 - Sons of Liberty (USA) (Disc 2) (Strategy in Action) (Unl)": {
         "languages": "En"
     },
-    "GameShark - Video Game Enhancer Version 5 (USA) (Unl)": {
+    "GameShark - Video Game Enhancer - Version 5 (USA) (Unl)": {
         "languages": "En"
     },
-    "GameShark 2 - Code Archive Disc (USA) (Unl)": {
+    "GameShark 2 - Video Game Enhancer - Code Archive Disc (USA) (Disc 2) (Unl)": {
         "languages": "En"
     },
-    "GameShark 2 - Code Archive Disc (USA) (Unl) (Rev 1)": {
+    "GameShark 2 - Video Game Enhancer - Code Archive Disc (USA) (Disc 2) (Unl) (Rev 1)": {
         "languages": "En"
     },
-    "GameShark 2 V2 - Code Archive Disc (USA) (En,Fr,Es,Pt) (Unl)": {
+    "GameShark 2 V2 - Video Game Enhancer - Code Archive Disc (USA) (En,Fr,Es,Pt) (Unl) (v1.0)": {
         "languages": "En, Fr, Pt, Es"
     },
-    "GameShark CDX Version 3.3 (USA) (Unl)": {
-        "languages": "En"
-    },
-    "GameShark CDX Version 3.4 (USA) (Unl)": {
-        "languages": "En"
-    },
-    "GameShark CDX Version 3.41 (USA) (Unl)": {
-        "languages": "En"
-    },
-    "GameShark CDX Version 3.51 (USA) (Unl)": {
-        "languages": "En"
-    },
-    "GameShark CDX Version 4.0A (USA) (Unl)": {
-        "languages": "En"
-    },
-    "GameShark CDX Version 4.1 (USA) (En,Fr,Es,Pt) (Unl)": {
+    "GameShark CDX (USA) (En,Fr,Es,Pt) (Unl) (v4.1)": {
         "languages": "En, Fr, Pt, Es"
     },
-    "GameShark CDX Version 4.11A (USA)": {
+    "GameShark CDX (USA) (Unl) (v3.4)": {
         "languages": "En"
     },
-    "GameShark CDX Version 4.11B (USA) (Unl)": {
+    "GameShark CDX (USA) (Unl) (v3.41)": {
+        "languages": "En"
+    },
+    "GameShark CDX (USA) (Unl) (v3.51)": {
+        "languages": "En"
+    },
+    "GameShark CDX (USA) (Unl) (v4.0A)": {
+        "languages": "En"
+    },
+    "GameShark CDX (USA) (Unl) (v4.11A)": {
+        "languages": "En"
+    },
+    "GameShark CDX (USA) (Unl) (v4.11B)": {
+        "languages": "En"
+    },
+    "GameShark CDX - Version 3.3 (USA) (Unl) (v3.3)": {
         "languages": "En"
     },
     "GameShark Lite (USA) (Unl)": {
@@ -11606,15 +11612,6 @@
     "Gunbird (Japan)": {
         "languages": "Ja"
     },
-    "Gundam - The Battle Master (Japan)": {
-        "languages": "Ja"
-    },
-    "Gundam - The Battle Master (Japan) (Taikenban)": {
-        "languages": "Ja"
-    },
-    "Gundam - The Battle Master 2 (Japan)": {
-        "languages": "Ja"
-    },
     "Gundam 0079 - The War for Earth (Japan) (Disc 1)": {
         "languages": "Ja"
     },
@@ -11635,6 +11632,15 @@
     },
     "Gundam Battle Assault 2 (USA)": {
         "languages": "En"
+    },
+    "Gundam the Battle Master (Japan)": {
+        "languages": "Ja"
+    },
+    "Gundam the Battle Master (Japan) (Demo)": {
+        "languages": "Ja"
+    },
+    "Gundam the Battle Master 2 (Japan)": {
+        "languages": "Ja"
     },
     "Gundress (Japan)": {
         "languages": "Ja"
@@ -11867,7 +11873,7 @@
     "Harry Potter to Kenja no Ishi (Japan) (Coca-Cola Kenshouhin)": {
         "languages": "Ja"
     },
-    "Haru no BuruBuru (Japan) (Taikenban)": {
+    "Haru no Buru Buru Taikenban (Japan)": {
         "languages": "Ja"
     },
     "Harukanaru Toki no Naka de (Japan)": {
@@ -13775,7 +13781,7 @@
     "Kagerou - Kokumeikan Shinshou (Japan)": {
         "languages": "Ja"
     },
-    "Kagerou - Kokumeikan Shinshou (Japan) (Taikenban)": {
+    "Kagerou - Kokumeikan Shinshou (Japan) (Demo)": {
         "languages": "Ja"
     },
     "Kahen Soukou Gunbike - Speed Power Gunbike (Japan)": {
@@ -13953,6 +13959,9 @@
         "languages": "Ja"
     },
     "Kellogg Original Waku Waku Doki Doki Ninki Game Chara Daishuugou! (Japan)": {
+        "languages": "Ja"
+    },
+    "Kellogg Original Waku Waku Doki Doki Ninki Game Chara Daishuugou! Waku Waku-shou (Japan) (Demo)": {
         "languages": "Ja"
     },
     "Kenkaku Ibunroku - Yomigaerishi Souku no Yaiba - Samurai Spirits Shinshou (Japan) (Demo)": {
@@ -14639,6 +14648,12 @@
     "Koudelka (Italy) (Disc 4)": {
         "languages": "It"
     },
+    "Koudelka (Japan) (Demo 1)": {
+        "languages": "Ja"
+    },
+    "Koudelka (Japan) (Demo 2)": {
+        "languages": "Ja"
+    },
     "Koudelka (Japan) (Disc 1)": {
         "languages": "Ja"
     },
@@ -14649,12 +14664,6 @@
         "languages": "Ja"
     },
     "Koudelka (Japan) (Disc 4)": {
-        "languages": "Ja"
-    },
-    "Koudelka (Japan) (Promotion-ban)": {
-        "languages": "Ja"
-    },
-    "Koudelka (Japan) (Taikenban)": {
         "languages": "Ja"
     },
     "Koudelka (Spain) (Disc 1)": {
@@ -17088,6 +17097,9 @@
         "languages": "Ja"
     },
     "MiruMiru PlayStation Vol. 4 (Japan) (Disc 3)": {
+        "languages": "Ja"
+    },
+    "MiruMiru PlayStation Vol. 42 (Japan)": {
         "languages": "Ja"
     },
     "MiruMiru PlayStation Vol. 43 (Japan)": {
@@ -19679,6 +19691,12 @@
     "Option - Tuning Car Battle (Japan)": {
         "languages": "Ja"
     },
+    "Option - Tuning Car Battle (Japan) (Demo 1)": {
+        "languages": "Ja"
+    },
+    "Option - Tuning Car Battle (Japan) (Demo 2)": {
+        "languages": "Ja"
+    },
     "Option - Tuning Car Battle (Japan) (Rev 1)": {
         "languages": "Ja"
     },
@@ -20459,8 +20477,8 @@
     "Pastel Muses (Japan) (Demo)": {
         "languages": "Ja"
     },
-    "Patlabor - The Game - Taikenban Ver. 1.0 (Japan) (Demo)": {
-        "languages": ""
+    "Patlabor - The Game - Taikenban Ver. 1.0 (Japan)": {
+        "languages": "Ja"
     },
     "Patriotic Pinball (Europe) (En,Fr,De,It)": {
         "languages": "En, Fr, De, It"
@@ -20777,6 +20795,9 @@
     "Play Power 4 (Spain) (En,Es) (Demo)": {
         "languages": "En, Es"
     },
+    "Play Power 5 (Spain)": {
+        "languages": "Es"
+    },
     "Play Zone Vol. 18 (Germany)": {
         "languages": "De"
     },
@@ -20822,7 +20843,7 @@
     "Play de Oboeru Eitango Deruderu 1700 - Center Shiken Level Taiou (Japan) (Shotenban)": {
         "languages": "Ja"
     },
-    "Play de Oboeru Series - Nihonshi Keyword Deruderu 1800 (Japan) (Reprint)": {
+    "Play de Oboeru Series - Nihonshi Keyword Deruderu 1800 (Japan) (Rerelease)": {
         "languages": "Ja"
     },
     "Play de Oboeru Series - Nihonshi Keyword Deruderu 1800 (Japan) (Shotenban)": {
@@ -22378,6 +22399,9 @@
     },
     "RayCrisis (Japan)": {
         "languages": "Ja"
+    },
+    "RayCrisis (Japan) (Demo)": {
+        "languages": "En"
     },
     "RayCrisis - Series Termination (USA)": {
         "languages": "En"
@@ -24396,7 +24420,7 @@
         "languages": "Ja"
     },
     "Silent Moebius - Gen'ei no Datenshi (Japan)": {
-        "languages": ""
+        "languages": "Ja"
     },
     "Silhouette Mirage (USA)": {
         "languages": "En"
@@ -25222,6 +25246,9 @@
     },
     "Sony Double Impact Games (Europe)": {
         "languages": ""
+    },
+    "Sony Music Entertainment - PlayStation Title Digest (Japan)": {
+        "languages": "Ja"
     },
     "Sorcerer's Maze (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
@@ -28187,7 +28214,7 @@
     "Time Bokan Series - Bokan to Ippatsu! Doronboo (Japan)": {
         "languages": "Ja"
     },
-    "Time Bokan Series - Bokan to Ippatsu! Doronboo (Japan) (Taikenban)": {
+    "Time Bokan Series - Bokan to Ippatsu! Doronboo (Japan) (Demo)": {
         "languages": "Ja"
     },
     "Time Commando (Australia)": {
@@ -28956,6 +28983,9 @@
         "languages": "Ja"
     },
     "Top Gun - Fire at Will! (USA)": {
+        "languages": "En"
+    },
+    "Top Shop (USA)": {
         "languages": "En"
     },
     "Topolino e le Sue Avventure (Italy)": {
@@ -30254,7 +30284,7 @@
     "Waku Waku Volley (Japan)": {
         "languages": "Ja"
     },
-    "Waku Waku Volley (Japan) (Taikenban)": {
+    "Waku Waku Volley (Japan) (Demo)": {
         "languages": "Ja"
     },
     "Wakusei Koukitai - Little Cats (Japan)": {
@@ -31196,7 +31226,7 @@
     "X-Men - Children of the Atom (USA)": {
         "languages": "En"
     },
-    "X-Men - Mutant Academy & Spider-Man (Japan) (Taikenban)": {
+    "X-Men - Mutant Academy & Spider-Man (Japan) (Demo)": {
         "languages": "Ja"
     },
     "X-Men - Mutant Academy (Europe)": {

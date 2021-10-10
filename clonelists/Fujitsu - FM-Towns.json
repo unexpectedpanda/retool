@@ -3,8 +3,15 @@
 		"name": [
 			"Fujitsu - FM-Towns"
 		],
-		"last updated": "21 July 2021",
-		"minimum version": "0.89"
+		"last updated": "10 October 2021",
+		"minimum version": "0.92"
+	},
+
+	"categories": {
+		"FM Series Software Taikenban CD-ROM": {
+			"match": "short",
+			"categories": ["Applications", "Demos"]
+		}
 	},
 
 	"renames": {
@@ -38,26 +45,31 @@
 		"NHK Jissen Eikaiwa - English Conversation Program (FM Towns Marty Rerelease)": [
 			["NHK Jissen Eikaiwa - English Conversation Program", 2]
 		],
+		"Nihon no Yachou (FM Towns Marty)": [
+			["Nihon no Yachou", 2]
+		],
 		"Super Real Mahjong PII & PIII+": [
 			["Super Real Mahjong PII & PIII", 2]
 		],
 		"Towns Paint V1.1 L22": [
-			["Towns Paint V1.1 L20", 2],
-			["Towns Paint V1.1 L10", 3]
+			["Towns Paint V1.1 L21", 3],
+			["Towns Paint V1.1 L20", 3],
+			["Towns Paint V1.1 L10", 4]
 		],
 		"Towns Sound V2.1 L10": [
 			["Towns Sound V1.1 L20", 2],
 			["Towns Sound V1.1 L10", 3]
 		],
 		"Towns System Software V2.1 L51": [
-			["Towns System Software V1.1 L10", 2],
-			["Towns System Software V1.1 L20", 2],
-			["Towns System Software V1.1 L30", 2],
-			["Towns System Software V2.1 L10", 2],
-			["Towns System Software V2.1 L20", 2],
-			["Towns System Software V2.1 L30", 2],
-			["Towns System Software V2.1 L31", 2],
-			["Towns System Software V2.1 L40", 2]
+			["Towns System Software V2.1 L50", 2],
+			["Towns System Software V2.1 L40", 3],
+			["Towns System Software V2.1 L31", 4],
+			["Towns System Software V2.1 L30", 5],
+			["Towns System Software V2.1 L20", 6],
+			["Towns System Software V2.1 L10", 7],
+			["Towns System Software V1.1 L30", 8],
+			["Towns System Software V1.1 L20", 9],
+			["Towns System Software V1.1 L10", 10]
 		],
 		"Towns VNet V1.1 L20": [
 			["Towns VNet V1.1 L10", 2]

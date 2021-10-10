@@ -263,6 +263,9 @@
     "3DO Toolkit Update Version 1.3.1 (USA)": {
         "languages": "En"
     },
+    "5 A Day Adventures (USA)": {
+        "languages": "En"
+    },
     "7th Guest, The (USA) (Disc 1)": {
         "languages": "En"
     },
@@ -273,6 +276,9 @@
         "languages": "En"
     },
     "Activision's Atari 2600 Action Pack for Macintosh (USA)": {
+        "languages": ""
+    },
+    "Adventures with Oslo - Tools and Gadgets (USA)": {
         "languages": ""
     },
     "Afterlife (France)": {
@@ -302,8 +308,14 @@
     "Alone in the Dark (France) (Covermount)": {
         "languages": ""
     },
+    "Alone in the Dark 2 (France)": {
+        "languages": ""
+    },
     "Alone in the Dark 2 (France) (Covermount)": {
         "languages": "Fr"
+    },
+    "Alone in the Dark 3 (France)": {
+        "languages": ""
     },
     "Alone in the Dark 3 (France) (Covermount)": {
         "languages": "Fr"
@@ -677,6 +689,9 @@
     "Chu-Teng (Japan)": {
         "languages": "Ja"
     },
+    "Cinderella - The Original Fairy Tale (USA) (En,Es)": {
+        "languages": "En, Es"
+    },
     "Club KidSoft (USA)": {
         "languages": "En"
     },
@@ -749,6 +764,9 @@
     "Dig, The (UK)": {
         "languages": "En"
     },
+    "Dinosaur Adventure (USA)": {
+        "languages": "En"
+    },
     "Disney's Aladdin - Activity Center (USA)": {
         "languages": ""
     },
@@ -784,6 +802,9 @@
     },
     "Eberouge (Japan)": {
         "languages": ""
+    },
+    "Educorp CD Sampler, The (USA)": {
+        "languages": "En"
     },
     "Elemental Force (Japan)": {
         "languages": "Ja"
@@ -863,8 +884,17 @@
     "Halo - Combat Evolved (USA)": {
         "languages": "En"
     },
+    "Harry Potter and the Chamber of Secrets (USA)": {
+        "languages": ""
+    },
+    "Harry Potter and the Order of the Phoenix (USA)": {
+        "languages": ""
+    },
     "Harry Potter and the Sorcerer's Stone (USA)": {
         "languages": "En"
+    },
+    "Harry Potter and the Sorcerer's Stone (USA) (Deluxe Edition)": {
+        "languages": ""
     },
     "Hell - A Cyberpunk Thriller (Japan)": {
         "languages": "Ja"
@@ -995,6 +1025,9 @@
     "Links Pro CD (USA)": {
         "languages": "En"
     },
+    "Long Hard Day On The Ranch, A (USA)": {
+        "languages": "En"
+    },
     "Lords Royal Collection (USA) (Disc 4) (Lords of the Realm II & Lords II Siege Pack & Caesar II Demo)": {
         "languages": "En"
     },
@@ -1009,6 +1042,9 @@
     },
     "MDK (Europe)": {
         "languages": "En"
+    },
+    "Mac Board Games (USA)": {
+        "languages": ""
     },
     "MacAddict - The Disc 79 - March 2003 (USA)": {
         "languages": "En"
@@ -1301,6 +1337,15 @@
     "Monty Python's Complete Waste of Time (USA)": {
         "languages": "En"
     },
+    "Morton Subotnick's Making Music (USA)": {
+        "languages": "En"
+    },
+    "Mud Puddle (USA) (En,Es)": {
+        "languages": "En, Es"
+    },
+    "My Favorite Monster (USA)": {
+        "languages": "En"
+    },
     "Myst (Europe) (Rerelease)": {
         "languages": "En"
     },
@@ -1321,6 +1366,9 @@
     },
     "Myst - Masterpiece Edition (Germany) (Rerelease)": {
         "languages": "De"
+    },
+    "NFL Reading (USA)": {
+        "languages": "En"
     },
     "Need for Speed - Carbon (USA)": {
         "languages": ""
@@ -1415,6 +1463,9 @@
     "Oni (USA)": {
         "languages": ""
     },
+    "Paper Bag Princess, The (USA) (En,Es)": {
+        "languages": "En, Es"
+    },
     "Pathways into Darkness (USA)": {
         "languages": "En"
     },
@@ -1455,6 +1506,9 @@
         "languages": "En"
     },
     "Puyo Puyo Fever (Japan)": {
+        "languages": "Ja"
+    },
+    "Puyo Puyo for Macintosh (Japan)": {
         "languages": "Ja"
     },
     "Quake (Europe)": {
@@ -1505,6 +1559,9 @@
     "Rayman 3 - Hoodlum Havoc (USA, Europe) (En,Fr,De,Es,It) (Disc 2)": {
         "languages": "En, Fr, De, It, Es"
     },
+    "Reader Rabbit - 1st Grade (USA)": {
+        "languages": ""
+    },
     "Reader Rabbit - 1st Grade (USA) (Rerelease)": {
         "languages": ""
     },
@@ -1533,6 +1590,15 @@
         "languages": "Ja"
     },
     "Sam & Max Hit the Road (USA)": {
+        "languages": "En"
+    },
+    "San Diego Zoo Presents, The... The Animals! (USA)": {
+        "languages": ""
+    },
+    "Scavenger Hunt Adventure Series, The - Africa (USA)": {
+        "languages": ""
+    },
+    "Schoolhouse Rock! Grammar Rock (USA)": {
         "languages": "En"
     },
     "Secret du Templier, Le (France) (Covermount)": {
@@ -1564,6 +1630,9 @@
     },
     "Sid Meier's Civilization IV - Beyond the Sword (USA) (En,Fr,De)": {
         "languages": "En, Fr, De"
+    },
+    "Silly Noisy House, A (USA)": {
+        "languages": "En"
     },
     "SimCity 2000 - CD Collection (Europe)": {
         "languages": "En"
@@ -1607,6 +1676,12 @@
     "Sims, The (USA)": {
         "languages": "En"
     },
+    "Sims, The (USA) (Rerelease)": {
+        "languages": ""
+    },
+    "Sims, The - Livin' Large (Expansion Pack) (USA)": {
+        "languages": ""
+    },
     "Sims, The - Vacation (Expansion Pack) (USA)": {
         "languages": "En"
     },
@@ -1619,8 +1694,14 @@
     "Software Toolworks Presents, The - Maniac Sports (USA)": {
         "languages": "En"
     },
+    "Solitaire Mania (USA)": {
+        "languages": ""
+    },
     "Sotsugyou - Graduation (Japan)": {
         "languages": "Ja"
+    },
+    "Space Adventure - With Buzz Aldrin & Tom McDonough (USA)": {
+        "languages": "En"
     },
     "Space Bar, The (USA) (Disc 1)": {
         "languages": "En"
@@ -1635,6 +1716,9 @@
         "languages": "En"
     },
     "Space Quest 6 - Roger Wilco in the Spinal Frontier (France)": {
+        "languages": "En"
+    },
+    "Space Shuttle (USA)": {
         "languages": "En"
     },
     "Spider-Man (USA, Europe)": {
@@ -1751,6 +1835,9 @@
     "Stubbs the Zombie in Rebel Without a Pulse (USA) (En,Fr)": {
         "languages": "En, Fr"
     },
+    "Tale of Benjamin Bunny, The (USA) (En,Es)": {
+        "languages": "En, Es"
+    },
     "Terry Pratchett's Discworld (UK)": {
         "languages": "En"
     },
@@ -1765,6 +1852,9 @@
     },
     "Thinkin' Things Collection 2 (USA) (OEM)": {
         "languages": "En"
+    },
+    "Thomas' Snowsuit (USA) (En,Es)": {
+        "languages": "En, Es"
     },
     "Titanic - Adventure Out of Time (Japan) (Disc 1)": {
         "languages": "Ja"
@@ -1805,6 +1895,12 @@
     "Tony Hawk's Pro Skater 2 (USA)": {
         "languages": "En"
     },
+    "Tony Hawk's Pro Skater 4 (USA) (Install Disc) (OEM)": {
+        "languages": ""
+    },
+    "Tony Hawk's Pro Skater 4 (USA) (Play Disc) (OEM)": {
+        "languages": ""
+    },
     "Total Annihilation (USA) (Disc 1) (Install Disc)": {
         "languages": "En"
     },
@@ -1831,9 +1927,6 @@
     },
     "Ultimate Doom, The (USA)": {
         "languages": "En"
-    },
-    "Ultra 2000 Series for Mac Vol. 04 - Puyo Puyo for Macintosh (Japan)": {
-        "languages": "Ja"
     },
     "Unreal (USA)": {
         "languages": "En"
@@ -1867,6 +1960,12 @@
     },
     "Wacky Races (Japan)": {
         "languages": "Ja"
+    },
+    "What's the Secret Volume 2 (USA)": {
+        "languages": ""
+    },
+    "Where in the World is Carmen Sandiego CD-ROM (USA)": {
+        "languages": "En"
     },
     "WipEout 2097 (Europe)": {
         "languages": "En"

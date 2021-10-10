@@ -1115,10 +1115,10 @@
     "Disney's Donald Duck - Goin' Quackers (USA) (En,Fr)": {
         "languages": "En, Fr"
     },
-    "Disney's Donald Duck - Phantomias - Platyrhynchos Kineticus (Europe) (En,Fr,De,Es,It)": {
+    "Disney's Donald Duck - Quack Attack (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
-    "Disney's Donald Duck - Quack Attack (Europe) (En,Fr,De,Es,It)": {
+    "Disney's Donald Duck PK (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
     "Disney's Extreme Skate Adventure (Europe)": {
@@ -3050,7 +3050,7 @@
     "Max Drive (USA) (Unl)": {
         "languages": "En"
     },
-    "Max Drive Pro (USA) (Unl)": {
+    "Max Drive Pro (USA, Europe) (Unl)": {
         "languages": "En"
     },
     "MaxPlay (USA) (Unl)": {

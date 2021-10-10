@@ -2,6 +2,9 @@
     "1994 CD-i Awards (USA)": {
         "languages": ""
     },
+    "1995 - All the News and Views (UK)": {
+        "languages": "En"
+    },
     "1995 CD-i Awards (USA)": {
         "languages": ""
     },
@@ -386,11 +389,17 @@
     "CD-i Prototype Disc (Europe)": {
         "languages": ""
     },
+    "CD-i Title Sampler - Summer '94 (USA) (En,Fr,De,Nl)": {
+        "languages": "Nl, En, Fr, De"
+    },
     "CD-i Title Sampler - Winter '94 (USA)": {
         "languages": "En"
     },
     "CD-i World (Germany)": {
         "languages": "De"
+    },
+    "CD-i in Schools (UK)": {
+        "languages": "En"
     },
     "CD-i mit der Maus, Die - Auf dem Bauernhof (Germany) (Beta)": {
         "languages": "De"
@@ -1121,6 +1130,9 @@
     "Denkend Aan de Dapperstraat (Netherlands)": {
         "languages": "Nl"
     },
+    "Depression - The Search for NaSSA (USA)": {
+        "languages": "En"
+    },
     "Destination Great Britain - Central and Northern England (Canada)": {
         "languages": ""
     },
@@ -1385,10 +1397,16 @@
     "Gardening by Choice - Flowers & Foliage (USA, Europe)": {
         "languages": "En"
     },
+    "Gateshead 1900 - A Guide to Tyneside 100 Years Ago (UK)": {
+        "languages": "En"
+    },
     "Geheimnisvollen Fabeln von Aesop, Die (Germany)": {
         "languages": ""
     },
     "Getting Ahead - Making Time (Europe)": {
+        "languages": "En"
+    },
+    "Getting Ahead - Making Time (Europe) (Rev 1)": {
         "languages": "En"
     },
     "Getting Ahead - Managing Your Boss (Europe)": {
@@ -2309,6 +2327,9 @@
     "Night in Nylon City, A (Europe)": {
         "languages": ""
     },
+    "Nijmegen - 'n Rijk aan Mogelijkheden (Netherlands)": {
+        "languages": "Nl"
+    },
     "No Problem - All the Fun of the Fair (Netherlands)": {
         "languages": "En"
     },
@@ -2381,6 +2402,9 @@
     "Palm Springs Open, The (World)": {
         "languages": "En"
     },
+    "Paranasal Sinuses & Anterior Skull Base - Volume 1-I (Europe)": {
+        "languages": "En"
+    },
     "Patriot Games (USA) (Disc 1)": {
         "languages": "En"
     },
@@ -2395,6 +2419,9 @@
     },
     "Pavarotti - O Sole Mio (USA)": {
         "languages": ""
+    },
+    "Peaches (Europe)": {
+        "languages": "En"
     },
     "Pecos Bill (Europe)": {
         "languages": "En"
@@ -2726,6 +2753,9 @@
     "Si Balla (Italy) (Beta)": {
         "languages": "It"
     },
+    "Sinnaneun Susjanala 2 (Korea)": {
+        "languages": "Ko"
+    },
     "Sliver (USA) (Disc 1)": {
         "languages": "En"
     },
@@ -2761,6 +2791,9 @@
     },
     "Space Ranger (USA) (Unl)": {
         "languages": ""
+    },
+    "Space Safari (UK)": {
+        "languages": "En"
     },
     "Sport Freaks (Netherlands)": {
         "languages": "Nl"
@@ -3068,6 +3101,12 @@
     "USA '94 World Cup (Europe) (En,Es,It)": {
         "languages": "En, It, Es"
     },
+    "Ulihamkke Bulleoyo - Chinguwa Hamkke (Korea)": {
+        "languages": "Ko"
+    },
+    "Ulihamkke Bulleoyo - Jayeongwa Hamkke (Korea)": {
+        "languages": "Ko"
+    },
     "Ultimate Noah's Ark, The (UK)": {
         "languages": "En"
     },
@@ -3279,6 +3318,9 @@
         "languages": ""
     },
     "Zelda's Adventure (Europe)": {
+        "languages": "En"
+    },
+    "Zeneca Pharmaceuticals Group - Experts in Anti-Infectives - Pathogen Pursuit - An Interactive Medical Program (USA)": {
         "languages": "En"
     },
     "Zenith (Europe)": {

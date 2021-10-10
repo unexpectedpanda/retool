@@ -7,7 +7,7 @@
             "These are defaults that Retool requires, don't modify this file.",
             "Check user-config.yaml for user-editable settings."
         ],
-        "last updated": "11 September 2021"
+        "last updated": "10 October 2021"
     },
 
     "ignore_tags": [
@@ -148,6 +148,7 @@
         "\\s?\\(PSone Books\\)",
         "\\s?\\(PSP Essentials\\)",
         "\\s?\\(PSP The Best\\)",
+        "\\s?\\(PSP the Best\\)",
         "\\s?\\(Renkaban\\)",
         "\\s?\\(Sachen\\)",
         "\\s?\\(Sold Out Extreme\\)",
@@ -187,6 +188,7 @@
         "\\s?\\(Encrypted CIA\\)",
         "\\s?\\(Launch Cart\\)",
         "\\s?\\(Light Phaser\\)",
+        "\\s?\\(Not for Resale\\)",
         "\\s?\\(PAL\\)",
         "\\s?\\(Reprint\\)",
         "\\s\\((?:(?!\\(|Region Lock)[\\s\\S])*Region Lock\\)",
