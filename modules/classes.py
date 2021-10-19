@@ -67,8 +67,6 @@ class DatNode:
 
         # Set implied language for the region
         if region != 'Unknown':
-            self.implied_language = region_data.implied_language[region]
-
             self.regions = re.search('\((.*?,){0,} {0,}' + region + '(,.*?){0,}\)', self.full_name)[0][1:-1]
 
             region_list = self.regions.split(', ')
@@ -88,6 +86,9 @@ class DatNode:
             for i, x in enumerate(region_data.all):
                 if self.primary_region == x:
                     self.region_priority = i
+
+            self.implied_language = region_data.implied_language[self.primary_region]
+
         else:
             self.implied_language = ''
             self.regions = 'Unknown'

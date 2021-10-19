@@ -1,3 +1,9 @@
+# 1.00
+
+- Fixed an issue where multiple regions caused a crash when determining the
+  implied language of a title.
+
+
 # 0.99
 
 - Fixed an issue where titles on the system include list wouldn't be recovered.
