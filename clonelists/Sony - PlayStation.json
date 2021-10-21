@@ -3,7 +3,7 @@
         "name": [
 			"Sony - PlayStation"
 		],
-        "last updated": "24 September 2021",
+        "last updated": "22 October 2021",
 		"minimum version": "0.92"
     },
 
@@ -11,10 +11,13 @@
 		"Ace Combat 3 - Electrosphere - Direct Audio with AppenDisc": {
 			"match": "short",
 			"categories": ["Audio"]
+		},
+		"Dino Crisis (Europe) (Demo)": {
+			"match": "full",
+			"categories": ["Demos", "Preproduction"]
 		}
 	},
 
-	
     "overrides": {
 		"Bishi Bashi Special 2 (Japan)": {
 			"new group": "Bishi Bashi Special 2 (Japan)",
@@ -144,19 +147,12 @@
 			["A Ressha de Ikou 4 - Evolution Global", 1],
 			["SuperLite 1500 Series - A Ressha de Ikou 4 - Evolution Global", 1]
 		],
-	    	"Ace Combat 3 - Electrosphere (Disc 1)": [
-			["Ace Combat 3 - Electrosphere", 0]
-		],
-		"Ace Combat 3 - Electrosphere (Disc 2)": [
-			["Ace Combat 3 - Electrosphere", 0]
-		],
 		"Action Man - Operation Extreme": [
 			["Action Man - Mission Xtreme", 1]
 		],
-		"Action Replay 2 (Disc 2) (Bonus PSone Codes!)": [
+		"Action Replay 2 - Bonus PSone Codes!": [
 			["Action Replay 2 Version 2.23 (Disc 2) (Bonus PSone Codes!)", 1],
 			["Action Replay 2 Code Archive Disk (Disc 2) (German Edition)", 1],
-			["Action Replay 2 V2 (Disc 2) (Bonus PSone Codes)", 2],
 			["Action Replay 2 (Disc 2)", 1]
 		],
 		"Aces of the Air": [
@@ -397,10 +393,6 @@
 		],
 		"Bloody Roar II": [
 			["Bloody Roar 2 - Bringer of the New Age", 1]
-		],
-		"Board Game - Top Shop": [
-			["Tenant Wars", 1],
-			["SuperLite 1500 Series - Tenant Wars Alpha - SuperLite 1500 Version", 2]
 		],
 		"Bob the Builder - Can We Fix It": [
 			["Bob Aggiustatutto", 1],
@@ -1232,14 +1224,8 @@
 		"Ghoul Panic": [
 			["Oh! Bakyuuun", 1]
 		],
-		"GameShark CDX Version 4.11B": [
-			["GameShark CDX Version 4.11A", 2],
-			["GameShark CDX Version 4.1", 3],
-			["GameShark CDX Version 4.0A", 4],
-			["GameShark CDX Version 3.51", 5],
-			["GameShark CDX Version 3.41", 6],
-			["GameShark CDX Version 3.4", 7],
-			["GameShark CDX Version 3.3", 8]
+		"GameShark CDX": [
+			["GameShark CDX - Version 3.3", 2]
 		],
 		"Goal Storm": [
 			["World Soccer Winning Eleven", 1]
@@ -1278,7 +1264,7 @@
 			["Knight & Baby", 1]
 		],
 		"Gundam Battle Assault": [
-			["Gundam - The Battle Master 2", 2]
+			["Gundam The Battle Master 2", 2]
 		],
 		"Hard Boiled": [
 			["Hard Boiled - Neuro Tower o Hakai seyo", 1]
@@ -2667,6 +2653,10 @@
 		],
 		"Tony Hawk's Pro Skater": [
 			["Tony Hawk's Skateboarding", 1]
+		],
+		"Top Shop": [
+			["Tenant Wars", 1],
+			["SuperLite 1500 Series - Tenant Wars Alpha - SuperLite 1500 Version", 2]
 		],
 		"Toshinden 4": [
 			["Toushinden Subaru", 1]
