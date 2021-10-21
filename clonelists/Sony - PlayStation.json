@@ -3,11 +3,15 @@
         "name": [
 			"Sony - PlayStation"
 		],
-        "last updated": "10 October 2021",
+        "last updated": "22 October 2021",
 		"minimum version": "0.92"
     },
 
 	"categories": {
+		"Ace Combat 3 - Electrosphere - Direct Audio with AppenDisc": {
+			"match": "short",
+			"categories": ["Audio"]
+		},
 		"Dino Crisis (Europe) (Demo)": {
 			"match": "full",
 			"categories": ["Demos", "Preproduction"]
