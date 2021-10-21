@@ -3,16 +3,66 @@
 		"name": [
 			"Sega - Dreamcast"
 		],
-		"last updated": "11 September 2021",
-		"minimum version": "0.89"
+		"last updated": "21 October 2021",
+		"minimum version": "0.92"
+	},
+
+	"categories": {
+		"Checkicco no Miru CD": {
+			"match": "short",
+			"categories": ["Audio"]
+		},
+		"D2 - Original Sound Track": {
+			"match": "short",
+			"categories": ["Audio"]
+		},
+		"dps - Heartbreak Diary": {
+			"match": "short",
+			"categories": ["Audio"]
+		},
+		"Hang the DJ": {
+			"match": "short",
+			"categories": ["Audio"]
+		},
+		"Himitsu - Original Sound Track": {
+			"match": "short",
+			"categories": ["Audio"]
+		},
+		"Kita e. White Illumination - Pure Songs and Pictures": {
+			"match": "short",
+			"categories": ["Audio"]
+		},
+		"Project Berkley": {
+			"match": "short",
+			"categories": ["Demos"]
+		},
+		"Sakura Taisen 3 - Paris wa Moeteiru ka - Sakura Taisen 3 Movie Disc": {
+			"match": "short",
+			"categories": ["Video"]
+		},
+		"Snappers - 09 Chairs": {
+			"match": "short",
+			"categories": ["Audio"]
+		},
+		"Space Channel 5 Theme Music - Mexican Flyer": {
+			"match": "short",
+			"categories": ["Audio"]
+		},
+		"Virtua Fighter History & VF4": {
+			"match": "short",
+			"categories": ["Video"]
+		}
+	},
+
+	"removes": {
+		"Pro Yakyuu Team de Asobou! (Japan)": {},
+		"Pro Yakyuu Team de Asobou Net! (Japan)": {},
+		"Pro Yakyuu Team o Tsukurou! (Japan)": {}
 	},
 
 	"renames": {
 		"90 Minutes - Sega Championship Football": [
 			["J.League Spectacle Soccer", 1]
-		],
-		"Aero Dancing i": [
-			["Aero Dancing i - Jikai-saku made Matemasen", 0]
 		],
 		"AeroWings": [
 			["Aero Dancing featuring Blue Impulse", 1]
