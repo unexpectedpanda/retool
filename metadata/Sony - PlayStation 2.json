@@ -461,22 +461,28 @@
     "Action Man A.T.O.M. - Alpha Teens on Machines (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da,Fi)": {
         "languages": "Da, Nl, En, Fi, Fr, De, It, No, Es, Sv"
     },
-    "Action Replay 2 V2 Version 2.01 (USA) (Disc 1) (Unl)": {
+    "Action Man A.T.O.M. - Alpha Teens on Machines (Poland)": {
+        "languages": "Pl"
+    },
+    "Action Replay 2 (USA) (Disc 1) (Unl) (v2.33)": {
         "languages": "En"
     },
-    "Action Replay 2 Version 2.30 (USA) (En,Fr,Es,Pt) (Disc 1) (Unl)": {
+    "Action Replay 2 (USA) (En,Fr,Es,Pt) (Disc 1) (Unl) (v2.30)": {
         "languages": "En, Fr, Pt, Es"
     },
-    "Action Replay 2 Version 2.33 (USA) (Disc 1) (Unl)": {
+    "Action Replay 2 (USA) (En,Fr,Es,Pt) (Disc 1) (Unl) (v2.34)": {
+        "languages": "En, Fr, Pt, Es"
+    },
+    "Action Replay 2 (USA) (En,Fr,Es,Pt) (Disc 1) (Unl) (v2.35)": {
+        "languages": "En, Fr, Pt, Es"
+    },
+    "Action Replay 2 V2 (USA) (Disc 1) (Unl) (v2.01)": {
         "languages": "En"
-    },
-    "Action Replay 2 Version 2.34 (USA) (En,Fr,Es,Pt) (Disc 1) (Unl)": {
-        "languages": "En, Fr, Pt, Es"
-    },
-    "Action Replay 2 Version 2.35 (USA) (En,Fr,Es,Pt) (Disc 1) (Unl)": {
-        "languages": "En, Fr, Pt, Es"
     },
     "Action Replay Max (USA) (Unl) (v3.10)": {
+        "languages": "En"
+    },
+    "Action Replay Max (USA) (Unl) (v3.35)": {
         "languages": "En"
     },
     "Action Replay Max (USA) (Unl) (v3.36)": {
@@ -525,6 +531,9 @@
         "languages": "En"
     },
     "Action Replay Ultimate Codes for Use with Gran Turismo 4 (USA) (Unl)": {
+        "languages": "En"
+    },
+    "Action Replay Ultimate Codes for Use with Gran Turismo 4 (USA) (Unl) (Rev 1)": {
         "languages": "En"
     },
     "Action Replay Ultimate Codes for Use with Grand Theft Auto - San Andreas (USA) (Unl)": {
@@ -900,6 +909,9 @@
         "languages": "Ja"
     },
     "Amagoushi no Yakata - Ichiyanagi Nagomu, Saisho no Junan (Japan)": {
+        "languages": "Ja"
+    },
+    "America Oudan Ultra Quiz (Japan)": {
         "languages": "Ja"
     },
     "America's 10 Most Wanted (Europe) (En,Fr,De,Es,It)": {
@@ -1517,7 +1529,7 @@
     "Athens 2004 (Europe, Australia) (En,Fr,De,Es,It,Pt)": {
         "languages": "En, Fr, De, It, Pt, Es"
     },
-    "Athens 2004 (Japan)": {
+    "Athens 2004 (Japan, Asia)": {
         "languages": "Ja"
     },
     "Athens 2004 (USA)": {
@@ -2222,6 +2234,9 @@
     "Blitz - The League (USA)": {
         "languages": "En"
     },
+    "Blokus Club with Bumpy Trot (Japan)": {
+        "languages": "Ja"
+    },
     "Blood - The Last Vampire (Japan) (Trailer Disc)": {
         "languages": "Ja"
     },
@@ -2742,6 +2757,9 @@
         "languages": "Ja"
     },
     "Burnout Dominator (USA)": {
+        "languages": "En"
+    },
+    "Burnout Revenge (Asia)": {
         "languages": "En"
     },
     "Burnout Revenge (Europe) (En,Fr,De)": {
@@ -3290,6 +3308,9 @@
     "Captain Scarlet (Scandinavia) (En,Sv,No,Da,Fi)": {
         "languages": "Da, En, Fi, No, Sv"
     },
+    "Captain Tsubasa (Japan)": {
+        "languages": "Ja"
+    },
     "Car Racing Challenge (Europe)": {
         "languages": "En"
     },
@@ -3441,6 +3462,9 @@
         "languages": "En"
     },
     "Champions of Norrath (USA) (Demo)": {
+        "languages": "En"
+    },
+    "Champions of Norrath - Realms of Everquest (USA) (Beta)": {
         "languages": "En"
     },
     "Championship Manager 2006 (Europe) (En,Fr,Es,It,Pt)": {
@@ -5645,6 +5669,9 @@
     "Disney's Donald Duck - Quack Attack (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
+    "Disney's Donald Duck - Rescue Daisakusen!! (Japan)": {
+        "languages": "Ja"
+    },
     "Disney's Donald Duck PK (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
@@ -6010,6 +6037,9 @@
     },
     "Dogz (Europe, Australia) (En,Fr,De,Es,It,Nl)": {
         "languages": "Nl, En, Fr, De, It, Es"
+    },
+    "Dokapon DX - Wataru Sekai wa Oni Darake (Japan)": {
+        "languages": "Ja"
     },
     "Dokapon Kingdom (Japan)": {
         "languages": "Ja"
@@ -6422,9 +6452,6 @@
     "DreamWorks Bee Movie Game (USA)": {
         "languages": "En"
     },
-    "DreamWorks Hajar som Hajar (Sweden)": {
-        "languages": "Sv"
-    },
     "DreamWorks Kung Fu Panda (Europe) (De,Es)": {
         "languages": "De, Es"
     },
@@ -6511,6 +6538,9 @@
     },
     "DreamWorks Shark Tale (USA)": {
         "languages": "En"
+    },
+    "DreamWorks Shark Tale - Hajar som Hajar (Sweden)": {
+        "languages": "Sv"
     },
     "DreamWorks Shrek - Smash n' Crash Racing (Europe, Australia) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
@@ -7035,6 +7065,9 @@
         "languages": "En"
     },
     "Elemental Gelade - Matoe, Suifuu no Tsurugi (Japan)": {
+        "languages": "Ja"
+    },
+    "Elminage - Yami no Miko to Kamigami no Yubiwa (Japan)": {
         "languages": "Ja"
     },
     "Elvandia Story (Japan)": {
@@ -9209,40 +9242,49 @@
     "GameShark - Metal Gear Solid 2 - Sons of Liberty (USA) (Disc 1) (Codes and Saves) (Unl)": {
         "languages": "En"
     },
+    "GameShark 2 - Video Game Enhancer (USA) (Disc 1) (Unl) (v1.3)": {
+        "languages": "En"
+    },
+    "GameShark 2 - Video Game Enhancer (USA) (Disc 1) (Unl) (v1.6)": {
+        "languages": ""
+    },
+    "GameShark 2 - Video Game Enhancer (USA) (Disc 1) (Unl) (v1.7)": {
+        "languages": "En"
+    },
+    "GameShark 2 - Video Game Enhancer (USA) (Disc 1) (Unl) (v1.93)": {
+        "languages": "En"
+    },
     "GameShark 2 - Video Game Enhancer (USA) (En,Fr,Es,Pt) (Unl) (v2.00)": {
         "languages": "En, Fr, Pt, Es"
     },
     "GameShark 2 - Video Game Enhancer (USA) (En,Fr,Es,Pt) (Unl) (v2.01)": {
         "languages": "En, Fr, Pt, Es"
     },
-    "GameShark 2 - Video Game Enhancer (USA) (Unl) (v1.3)": {
-        "languages": "En"
-    },
-    "GameShark 2 - Video Game Enhancer (USA) (Unl) (v1.6)": {
-        "languages": ""
-    },
-    "GameShark 2 - Video Game Enhancer (USA) (Unl) (v1.93)": {
-        "languages": "En"
-    },
     "GameShark 2 - Video Game Enhancer (USA) (Unl) (v1.99d)": {
         "languages": "En"
     },
-    "GameShark 2 - Video Game Enhancer V 1.0 (USA) (Unl) (v1.1)": {
+    "GameShark 2 - Video Game Enhancer - V 1.0 (USA) (Disc 1) (Unl) (v1.1)": {
+        "languages": ""
+    },
+    "GameShark 2 - Video Game Enhancer - Version 2 (USA) (Disc 1) (Unl)": {
         "languages": ""
     },
     "GameShark 2 Ultimate Cheats for Grand Theft Auto III (USA) (Unl)": {
         "languages": ""
     },
-    "GameShark 2 V2 - Video Game Enhancer (USA) (Unl)": {
-        "languages": ""
+    "GameShark 2 V2 - Video Game Enhancer (USA) (Disc 1) (Unl) (v1.99d)": {
+        "languages": "En"
     },
-    "GameShark 2 V2 - Video Game Enhancer Version 2.11 (USA) (En,Fr,Es,Pt) (Disc 1) (Unl)": {
+    "GameShark 2 V2 - Video Game Enhancer (USA) (En,Fr,Es,Pt) (Unl) (v2.11)": {
         "languages": "En, Fr, Pt, Es"
     },
-    "GameShark 2 V2 - Video Game Enhancer Version 2.21 (USA) (En,Fr,Es,Pt) (Disc 1) (Unl)": {
+    "GameShark 2 V2 - Video Game Enhancer (USA) (En,Fr,Es,Pt) (Unl) (v2.12)": {
         "languages": "En, Fr, Pt, Es"
     },
-    "GameShark 2 V2 - Video Game Enhancer Version 2.22 (USA) (En,Fr,Es,Pt) (Disc 1) (Unl)": {
+    "GameShark 2 V2 - Video Game Enhancer (USA) (En,Fr,Es,Pt) (Unl) (v2.21)": {
+        "languages": "En, Fr, Pt, Es"
+    },
+    "GameShark 2 V2 - Video Game Enhancer (USA) (En,Fr,Es,Pt) (Unl) (v2.22)": {
         "languages": "En, Fr, Pt, Es"
     },
     "Games Galaxy 2 (Europe)": {
@@ -9340,6 +9382,9 @@
     },
     "Gekitou Pro Yakyuu - Mizushima Shinji All Stars vs. Pro Yakyuu (Japan) (Taikenban)": {
         "languages": "Ja"
+    },
+    "Gen Houzi Wan Ba! Shouwu Zuta Nao Fantian!! (Asia)": {
+        "languages": "Zh"
     },
     "Gene Troopers (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
@@ -10628,6 +10673,9 @@
     "Guts da!! Mori no Ishimatsu (Japan)": {
         "languages": "Ja"
     },
+    "Guwon (Korea)": {
+        "languages": "Ko"
+    },
     "Guy Game, The (USA)": {
         "languages": "En"
     },
@@ -10874,6 +10922,9 @@
     "Harry Potter and the Chamber of Secrets (USA)": {
         "languages": "En"
     },
+    "Harry Potter and the Goblet of Fire (Asia)": {
+        "languages": "En"
+    },
     "Harry Potter and the Goblet of Fire (Europe)": {
         "languages": "En"
     },
@@ -10910,7 +10961,13 @@
     "Harry Potter and the Order of the Phoenix (Europe) (Fr,De,Es,It,Pt)": {
         "languages": "Fr, De, It, Pt, Es"
     },
+    "Harry Potter and the Order of the Phoenix (Korea)": {
+        "languages": "En"
+    },
     "Harry Potter and the Order of the Phoenix (USA)": {
+        "languages": "En"
+    },
+    "Harry Potter and the Philosopher's Stone (Asia)": {
         "languages": "En"
     },
     "Harry Potter and the Philosopher's Stone (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da)": {
@@ -10918,6 +10975,9 @@
     },
     "Harry Potter and the Philosopher's Stone (Europe) (En,Pl,Cs)": {
         "languages": "Cs, En, Pl"
+    },
+    "Harry Potter and the Prisoner of Azkaban (Asia)": {
+        "languages": "En"
     },
     "Harry Potter and the Prisoner of Azkaban (Europe) (En,Fr,De,Es,It,Nl,Pt)": {
         "languages": "Nl, En, Fr, De, It, Pt, Es"
@@ -11465,6 +11525,9 @@
     "Hoshifuru - Hoshi no Furu Machi (Japan)": {
         "languages": "Ja"
     },
+    "Hot Shots Golf 3 (Korea)": {
+        "languages": "En"
+    },
     "Hot Shots Golf 3 (USA) (v1.01)": {
         "languages": "En"
     },
@@ -11678,7 +11741,7 @@
     "Ichigo 100 Percent Strawberry Diary (Japan)": {
         "languages": "Ja"
     },
-    "Ichigo Mashimaro (Japan) (Shokai Genteiban)": {
+    "Ichigo Marshmallow (Japan) (Shokai Genteiban)": {
         "languages": "Ja"
     },
     "Ico (Asia)": {
@@ -11694,6 +11757,9 @@
         "languages": "En, Fr, De, It, Es"
     },
     "Ico (Japan)": {
+        "languages": "Ja"
+    },
+    "Ico (Japan) (PlayStation 2 the Best)": {
         "languages": "Ja"
     },
     "Ico (Japan) (Taikenban)": {
@@ -12578,6 +12644,9 @@
     "Juiced (USA)": {
         "languages": "En"
     },
+    "Juiced (USA) (Demo)": {
+        "languages": "En"
+    },
     "Juiced - Tuned Car Densetsu (Japan)": {
         "languages": "Ja"
     },
@@ -13091,10 +13160,10 @@
     "Kessen III (Germany)": {
         "languages": "De"
     },
-    "Kessen III (Japan)": {
+    "Kessen III (Japan) (Taikenban)": {
         "languages": "Ja"
     },
-    "Kessen III (Japan) (Taikenban)": {
+    "Kessen III (Japan, Asia)": {
         "languages": "Ja"
     },
     "Kessen III (USA)": {
@@ -13116,9 +13185,6 @@
         "languages": "Ja"
     },
     "Kidou Senshi Gundam (Japan) (Tokubetsu-ban)": {
-        "languages": "Ja"
-    },
-    "Kidou Senshi Gundam - Climax U.C. (Japan)": {
         "languages": "Ja"
     },
     "Kidou Senshi Gundam - Gihren no Yabou - Axis no Kyoui V (Japan)": {
@@ -13173,12 +13239,6 @@
         "languages": "Ja"
     },
     "Kidou Senshi Gundam Seed Destiny - Rengou vs. Z.A.F.T. II Plus (Japan)": {
-        "languages": "Ja"
-    },
-    "Kidou Senshi Gundam Senki (Japan)": {
-        "languages": "Ja"
-    },
-    "Kidou Senshi Gundam Senki (Japan) (Limited Box)": {
         "languages": "Ja"
     },
     "Kidou Senshi Z Gundam - A.E.U.G. vs. Titans (Japan)": {
@@ -13412,7 +13472,7 @@
     "King of Fighters XI, The (Japan)": {
         "languages": "Ja"
     },
-    "King of Fighters XI, The (USA)": {
+    "King of Fighters XI, The (USA, Canada)": {
         "languages": "En"
     },
     "King of Fighters, The - Maximum Impact (Europe) (En,Ja)": {
@@ -13789,6 +13849,9 @@
     },
     "Kung Fu Fighting (USA) (Proto)": {
         "languages": "En"
+    },
+    "Kunoichi (Asia)": {
+        "languages": "Zh"
     },
     "Kunoichi (Japan)": {
         "languages": "Ja"
@@ -14336,6 +14399,9 @@
     "Lord of the Rings, The - The Return of the King (USA)": {
         "languages": "En"
     },
+    "Lord of the Rings, The - The Third Age (Asia)": {
+        "languages": "Zh"
+    },
     "Lord of the Rings, The - The Third Age (Europe) (En,Nl,Pt,Sv,Pl)": {
         "languages": "Nl, En, Pl, Pt, Sv"
     },
@@ -14358,6 +14424,9 @@
         "languages": "En"
     },
     "Lost Aya Sophia (Japan)": {
+        "languages": "Ja"
+    },
+    "Lost Aya Sophia (Japan) (Genteiban)": {
         "languages": "Ja"
     },
     "Lotus Challenge (Europe) (En,Fr,De,Es,It)": {
@@ -15632,6 +15701,9 @@
     "Memory Manager Plus (USA) (Unl)": {
         "languages": "En"
     },
+    "Memory Manager Plus (USA) (Unl) (Rev 1)": {
+        "languages": "En"
+    },
     "Memory Manager Plus (USA) (Unl) (Version 1.01)": {
         "languages": "En"
     },
@@ -16085,6 +16157,9 @@
     "MiruMiru 2000-nen 12-gatsudo Juchuugou (Japan)": {
         "languages": "Ja"
     },
+    "MiruMiru 2001-nen 10-gatsudo Juchuugou (Japan)": {
+        "languages": "Ja"
+    },
     "MiruMiru 2001-nen 5-gatsudo Juchuugou (Japan)": {
         "languages": "Ja"
     },
@@ -16145,6 +16220,9 @@
     "Mobile Light Force 2 (USA)": {
         "languages": "En"
     },
+    "Mobile Suit Gundam - Climax U.C. (Japan)": {
+        "languages": "Ja"
+    },
     "Mobile Suit Gundam - Encounters in Space (USA)": {
         "languages": "En"
     },
@@ -16159,6 +16237,12 @@
     },
     "Mobile Suit Gundam - Journey to Jaburo (USA)": {
         "languages": "En"
+    },
+    "Mobile Suit Gundam - Lost War Chronicles (Japan)": {
+        "languages": "Ja"
+    },
+    "Mobile Suit Gundam - Lost War Chronicles (Japan) (Limited Box)": {
+        "languages": "Ja"
     },
     "Mobile Suit Gundam - Zeonic Front (USA)": {
         "languages": "En"
@@ -19559,7 +19643,13 @@
     "Oretachi Geesen Zoku - Burger Time (Japan)": {
         "languages": "Ja"
     },
+    "Oretachi Geesen Zoku - Contra (Japan)": {
+        "languages": "Ja"
+    },
     "Oretachi Geesen Zoku - Karate-dou (Japan)": {
+        "languages": "Ja"
+    },
+    "Oretachi Geesen Zoku - Moon Cresta (Japan)": {
         "languages": "Ja"
     },
     "Oretachi Geesen Zoku - Nekketsu Kouha Kunio-kun (Japan)": {
@@ -19571,6 +19661,12 @@
     "Oretachi Geesen Zoku - Pooyan (Japan)": {
         "languages": "En"
     },
+    "Oretachi Geesen Zoku - Quarth (Japan)": {
+        "languages": "Ja"
+    },
+    "Oretachi Geesen Zoku - Rabio Lepus (Japan)": {
+        "languages": "Ja"
+    },
     "Oretachi Geesen Zoku - Scramble (Japan)": {
         "languages": "Ja"
     },
@@ -19581,6 +19677,9 @@
         "languages": "Ja"
     },
     "Oretachi Geesen Zoku - Time Pilot (Japan)": {
+        "languages": "Ja"
+    },
+    "Oretachi Geesen Zoku - Trio the Punch (Japan)": {
         "languages": "Ja"
     },
     "Oretachi Geesen Zoku - Yie Ar Kung Fu (Japan)": {
@@ -21842,6 +21941,9 @@
     "Resident Evil - Survivor 2 - Code - Veronica (Europe)": {
         "languages": "En"
     },
+    "Resident Evil 4 (Asia)": {
+        "languages": "En"
+    },
     "Resident Evil 4 (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
@@ -21938,7 +22040,7 @@
     "Rig Racer 2 (Europe)": {
         "languages": "En"
     },
-    "Rilakkuma - Ojama Shitemasu 2-shuukan (Japan)": {
+    "Rilakkuma - Ojama shite masu 2-shuukan (Japan)": {
         "languages": "Ja"
     },
     "Rim Runners (Japan)": {
@@ -22544,6 +22646,9 @@
     "SOCOM 3 - U.S. Navy SEALs (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
+    "SOCOM 3 - U.S. Navy SEALs (Korea)": {
+        "languages": "Ko"
+    },
     "SOCOM 3 - U.S. Navy SEALs (USA)": {
         "languages": "En"
     },
@@ -22895,7 +23000,7 @@
     "Samurai-dou 2 - Way of the Samurai 2 (Japan)": {
         "languages": "Ja"
     },
-    "San Guo Zhi Zhan Ji (Asia)": {
+    "San Guo Zhi Zhan Ji (Taiwan)": {
         "languages": "Zh"
     },
     "Sangokushi 11 (Japan)": {
@@ -23642,6 +23747,9 @@
     "ShellShock - Nam '67 (USA)": {
         "languages": "En"
     },
+    "Shenqi Jiqi Jingjichang - Bibohou Zhongji Rezhan (Asia)": {
+        "languages": "Zh"
+    },
     "Shepherd's Crossing (USA)": {
         "languages": ""
     },
@@ -24068,6 +24176,9 @@
     "Shounen Onmyouji - Tsubasa yo Ima, Sora e Kaere (Japan)": {
         "languages": "Ja"
     },
+    "Shouwangji - Project Altered Beast (Asia)": {
+        "languages": "Zh"
+    },
     "Showdown - Legends of Wrestling (Europe)": {
         "languages": "En"
     },
@@ -24145,6 +24256,9 @@
     },
     "Sidewinder F (Japan) (Taikenban)": {
         "languages": "Ja"
+    },
+    "Sidewinder F (Korea)": {
+        "languages": "En"
     },
     "Sidewinder Max (Japan)": {
         "languages": "Ja"
@@ -24468,7 +24582,7 @@
         "languages": "Ja"
     },
     "Simple 2000 Series Vol. 16 - The Sniper 2 - Akumu no Juudan (Japan)": {
-        "languages": ""
+        "languages": "Ja"
     },
     "Simple 2000 Series Vol. 17 - The Suiri - Aratanaru 20 no Jikenbo (Japan)": {
         "languages": "Ja"
@@ -24570,7 +24684,7 @@
         "languages": "Ja"
     },
     "Simple 2000 Series Vol. 5 - The Block Kuzushi Hyper (Japan)": {
-        "languages": ""
+        "languages": "Ja"
     },
     "Simple 2000 Series Vol. 50 - The Daibijin (Japan)": {
         "languages": "Ja"
@@ -24806,6 +24920,9 @@
     "Sims 2, The - Pets (USA)": {
         "languages": ""
     },
+    "Sims, The (Asia)": {
+        "languages": "Zh"
+    },
     "Sims, The (Europe) (En,Fr,De,Es,It,Nl,Sv,Da)": {
         "languages": "Da, Nl, En, Fr, De, It, Es, Sv"
     },
@@ -24814,6 +24931,9 @@
     },
     "Sims, The (USA)": {
         "languages": "En"
+    },
+    "Sims, The - Bustin' Out (Asia)": {
+        "languages": "Zh"
     },
     "Sims, The - Bustin' Out (Europe) (En,Fr,De,Es,It,Nl)": {
         "languages": "Nl, En, Fr, De, It, Es"
@@ -25495,6 +25615,9 @@
     },
     "Sly 3 - Honour Among Thieves (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi)": {
         "languages": "Da, Nl, En, Fi, Fr, De, It, No, Pt, Es, Sv"
+    },
+    "Sly Cooper - Jeonseolui Bibeobseoreul Chajaseo (Korea)": {
+        "languages": "Ko"
     },
     "Sly Cooper and the Thievius Raccoonus (USA)": {
         "languages": "En"
@@ -26843,10 +26966,10 @@
     "Super Robot Taisen - Scramble Commander the 2nd (Japan)": {
         "languages": "Ja"
     },
-    "Super Robot Taisen Impact (Japan)": {
+    "Super Robot Taisen Impact (Japan) (Genteiban)": {
         "languages": "Ja"
     },
-    "Super Robot Taisen Impact (Japan) (Genteiban)": {
+    "Super Robot Taisen Impact (Japan, Asia)": {
         "languages": "Ja"
     },
     "Super Robot Taisen MX (Japan)": {
@@ -27156,6 +27279,9 @@
         "languages": "En, Fr, De, It, Es"
     },
     "Syphon Filter - The Omega Strain (USA)": {
+        "languages": "En"
+    },
+    "Syphon Filter - The Omega Strain (USA) (Beta)": {
         "languages": "En"
     },
     "Syphon Filter - The Omega Strain (USA) (Demo)": {
@@ -28670,11 +28796,14 @@
     "Tour de France, Le - 1903 - 2003 - Centenary Edition (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
-    "Tourist Trophy (Japan)": {
-        "languages": "Ja"
+    "Tourist Trophy - The Real Riding Simulator (Asia)": {
+        "languages": "Zh"
     },
     "Tourist Trophy - The Real Riding Simulator (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
+    },
+    "Tourist Trophy - The Real Riding Simulator (Japan)": {
+        "languages": "Ja"
     },
     "Tourist Trophy - The Real Riding Simulator (USA)": {
         "languages": "En"
@@ -29891,6 +30020,9 @@
     "Warhammer 40,000 - Fire Warrior (USA)": {
         "languages": "En"
     },
+    "Warhammer 40,000 - Fire Warrior (USA) (Demo)": {
+        "languages": "En"
+    },
     "Warriors Orochi (Europe)": {
         "languages": "En"
     },
@@ -30638,6 +30770,9 @@
     "XGRA - Extreme G Racing Association (USA) (Beta)": {
         "languages": "En"
     },
+    "XI [sai] - XI-Go (Asia)": {
+        "languages": "Zh"
+    },
     "XI [sai] - XI-Go (Japan)": {
         "languages": "Ja"
     },
@@ -30645,6 +30780,9 @@
         "languages": "Ja"
     },
     "XI5 - Aqui Ohyeongje (Korea)": {
+        "languages": "Ko"
+    },
+    "XI5 - Aqui Ohyeongje (Korea) (Cheheompan)": {
         "languages": "Ko"
     },
     "XIGO - Zuihou de Touzi (China)": {
@@ -31040,10 +31178,16 @@
     "Zettai Zetsumei Toshi 2 - Itetsuita Kioku-tachi (Japan) (Taikenban Type-B)": {
         "languages": "Ja"
     },
-    "Zhen San Guo Wu Shuang 2 (Asia)": {
+    "Zhen San Guo Wu Shuang 2 (Taiwan)": {
+        "languages": "Zh"
+    },
+    "Zhen San Guo Wu Shuang 5 Special (Taiwan)": {
         "languages": "Zh"
     },
     "Zhen Sanguo Wushuang 2 (China)": {
+        "languages": "Zh"
+    },
+    "Zhuo Hou La - Baiwan Houjun Jingbao Da Chuji (Asia)": {
         "languages": "Zh"
     },
     "Zhuo Hou La 3 (Asia)": {

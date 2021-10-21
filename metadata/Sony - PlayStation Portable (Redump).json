@@ -83,6 +83,12 @@
     "AI Shougi (Japan) (v2.00)": {
         "languages": "Ja"
     },
+    "AKB1-149 - Ren'ai Sousenkyo (Japan) (Data Install Senyou Disc)": {
+        "languages": "Ja"
+    },
+    "AKB1-149 - Ren'ai Sousenkyo (Japan) (Game Disc)": {
+        "languages": "Ja"
+    },
     "AKB1-48 - Idol to Koishitara... (Japan)": {
         "languages": "Ja"
     },
@@ -211,6 +217,12 @@
     },
     "Ape Escape Academy (USA) (Demo)": {
         "languages": ""
+    },
+    "Arcana Famiglia - La Storia della Arcana Famiglia (Japan)": {
+        "languages": "Ja"
+    },
+    "Arcana Famiglia - Vascello Phantasma no Majutsushi (Japan)": {
+        "languages": "Ja"
     },
     "Archer Maclean's Mercury (Europe, Australia) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
@@ -560,6 +572,9 @@
     "Burnout Legends (Japan)": {
         "languages": "Ja"
     },
+    "Burnout Legends (Japan) (EA Best Hits)": {
+        "languages": "Ja"
+    },
     "Burnout Legends (USA) (En,Fr,De,Es,It,Nl)": {
         "languages": "Nl, En, Fr, De, It, Es"
     },
@@ -854,6 +869,9 @@
     "Coded Arms - Contagion (USA)": {
         "languages": "En"
     },
+    "Coded Soul - Uketsugareshi Idea (Japan)": {
+        "languages": "Ja"
+    },
     "Colin McRae - DiRT 2 (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
@@ -982,6 +1000,9 @@
     },
     "Cube (USA)": {
         "languages": "En"
+    },
+    "D.C. Girls Symphony Pocket (Japan)": {
+        "languages": "Ja"
     },
     "DJ Max Emotional Sense - Fever (USA)": {
         "languages": "En"
@@ -1196,6 +1217,12 @@
     "Disgaea Portable (Korea) (Zh,Ko)": {
         "languages": "Zh, Ko"
     },
+    "Disney - Pixar Ratatouille (Russia)": {
+        "languages": "Ru"
+    },
+    "Disney - Pixar Rottatouille (Norway)": {
+        "languages": "No"
+    },
     "Disney G-Force (Europe) (De,It)": {
         "languages": "De, It"
     },
@@ -1273,9 +1300,6 @@
     },
     "Disney-Pixar Ratatouille (Italy)": {
         "languages": "It"
-    },
-    "Disney-Pixar Ratatouille (Russia)": {
-        "languages": "Ru"
     },
     "Disney-Pixar Ratatouille (Spain)": {
         "languages": "Es"
@@ -1384,6 +1408,12 @@
     },
     "Downstream Panic! (USA)": {
         "languages": "En"
+    },
+    "Dragon Ball Tag VS (Japan)": {
+        "languages": "Ja"
+    },
+    "Dragon Ball Z - Jinmudohoe (Korea)": {
+        "languages": ""
     },
     "Dragon Ball Z - Shin Budokai (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
@@ -1556,7 +1586,16 @@
     "Eiyuu Densetsu - Sora no Kiseki FC (Japan)": {
         "languages": "Ja"
     },
+    "Eiyuu Densetsu - Sora no Kiseki SC (Japan) (Disc 1)": {
+        "languages": "Ja"
+    },
+    "Eiyuu Densetsu - Sora no Kiseki SC (Japan) (Disc 2)": {
+        "languages": "Ja"
+    },
     "Eiyuu Densetsu - Zero no Kiseki (Japan)": {
+        "languages": "Ja"
+    },
+    "Eiyuu Densetsu Gagharv Trilogy - Shiroki Majo (Japan)": {
         "languages": "Ja"
     },
     "Enkaku Sousa - Shinjitsu e no 23-nichi-kan (Japan)": {
@@ -2210,7 +2249,13 @@
     "God Eater (Japan)": {
         "languages": "Ja"
     },
+    "God Eater 2 (Japan)": {
+        "languages": "Ja"
+    },
     "God Eater Burst (Japan)": {
+        "languages": "Ja"
+    },
+    "God Eater Burst - Append-ban (Japan)": {
         "languages": "Ja"
     },
     "God of War - Chains of Olympus (Asia) (En,Zh)": {
@@ -2432,6 +2477,9 @@
     "Gun Showdown (USA) (Beta)": {
         "languages": "En"
     },
+    "Gundam Assault Survive (Japan)": {
+        "languages": "Ja"
+    },
     "Gundam Battle Royale (Japan, Asia)": {
         "languages": "Ja"
     },
@@ -2490,6 +2538,9 @@
         "languages": "En"
     },
     "Hanaoni - Yume no Tsuzuki (Japan)": {
+        "languages": "Ja"
+    },
+    "Hanayaka Nari, Wa ga Ichizoku (Japan)": {
         "languages": "Ja"
     },
     "Hannah Montana - Rock Out the Show (Europe) (En,Fr,De,Es,It)": {
@@ -2855,6 +2906,9 @@
     "Jikkyou Powerful Pro Yakyuu Portable 3 (Japan) (v2.00)": {
         "languages": "Ja"
     },
+    "Jikkyou Powerful Pro Yakyuu Portable 4 (Japan)": {
+        "languages": "Ja"
+    },
     "Jin Samguk Mussang (Korea)": {
         "languages": "Ko"
     },
@@ -2944,6 +2998,9 @@
     },
     "Kenka Bancho - Badass Rumble (USA)": {
         "languages": "En"
+    },
+    "Kenka Banchou 3 - Zenkoku Seiha (Japan) (PSP the Best)": {
+        "languages": "Ja"
     },
     "Kenka Banchou 3 - Zenkoku Seiha (Japan, Asia)": {
         "languages": "Ja"
@@ -3176,17 +3233,20 @@
     "Little Aid Portable (Japan)": {
         "languages": "Ja"
     },
-    "Little Big Planet (Asia) (En,Zh,Ko)": {
-        "languages": "Zh, En, Ko"
-    },
     "Little Britain - The Video Game (Europe)": {
         "languages": "En"
+    },
+    "LittleBigPlanet (Asia) (En,Zh,Ko)": {
+        "languages": "Zh, En, Ko"
     },
     "LittleBigPlanet (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru)": {
         "languages": "Da, Nl, En, Fi, Fr, De, It, No, Pl, Pt, Ru, Es, Sv"
     },
     "LittleBigPlanet (USA) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl)": {
         "languages": "Da, Nl, En, Fi, Fr, De, It, No, Pl, Pt, Es, Sv"
+    },
+    "LittleBigPlanet Portable (Japan)": {
+        "languages": "Ja"
     },
     "LocoRoco (Europe) (Demo)": {
         "languages": "En"
@@ -3433,6 +3493,9 @@
     },
     "Major League Baseball 2K9 (USA)": {
         "languages": "En"
+    },
+    "Makai Senki Disgaea Portable (Japan)": {
+        "languages": "Ja"
     },
     "Makai Senki Disgaea Portable - Tsuushin Taisen Hajimemashita. (Japan)": {
         "languages": "Ja"
@@ -4073,6 +4136,9 @@
     "Naruto - Narutimate Portable - Mugenjou no Maki (Japan)": {
         "languages": "Ja"
     },
+    "Naruto - Narutimate Portable - Muhwanseongui Gwon (Korea)": {
+        "languages": ""
+    },
     "Naruto - Ultimate Ninja Heroes (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
@@ -4224,6 +4290,9 @@
         "languages": "En"
     },
     "Nise no Chigiri (Japan)": {
+        "languages": "Ja"
+    },
+    "Nobunaga no Yabou - Shouseiroku (Japan)": {
         "languages": "Ja"
     },
     "Nogizaka Haruka no Himitsu - Cosplay, Hajimemashita - Himitsu no Radio (Japan)": {
@@ -4475,6 +4544,9 @@
     "Patapon (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
+    "Patapon (Japan)": {
+        "languages": "Ja"
+    },
     "Patapon (Japan) (Beta)": {
         "languages": ""
     },
@@ -4516,6 +4588,9 @@
     },
     "Persona (Japan)": {
         "languages": "Ja"
+    },
+    "Personal Utility Disc Ver. 1.0 (Korea)": {
+        "languages": "Ko"
     },
     "Peter Jackson's King Kong - The Official Game of the Movie (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da,Fi)": {
         "languages": "Da, Nl, En, Fi, Fr, De, It, No, Es, Sv"
@@ -4718,6 +4793,9 @@
     "Prinny - Can I Really Be the Hero (USA)": {
         "languages": "En"
     },
+    "Prinny - Ore ga Shujinkou de Iinsuka (Japan)": {
+        "languages": "Ja"
+    },
     "Prinny 2 - Dawn of Operation Panties, Dood! (USA)": {
         "languages": "En"
     },
@@ -4743,6 +4821,9 @@
         "languages": "Ja"
     },
     "Pro Yakyuu Spirits 2011 (Japan)": {
+        "languages": "Ja"
+    },
+    "Pro Yakyuu Spirits 2013 (Japan)": {
         "languages": "Ja"
     },
     "Pro Yakyuu Spirits 2014 (Japan)": {
@@ -4894,6 +4975,9 @@
     },
     "Ratchet & Clank - Size Matters (USA) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
+    },
+    "Ratchet & Clank 5 - Gekitotsu! Dodeka Ginga no MiriMiri Gundan (Japan)": {
+        "languages": "Ja"
     },
     "Ratchet & Clank 5 - Gekitotsu! Dodeka Ginga no MiriMiri Gundan (Japan) (Beta)": {
         "languages": ""
@@ -5138,6 +5222,12 @@
     "Samurai Warriors - State of War (USA)": {
         "languages": "En"
     },
+    "Sangoku-hime - Sangoku Ransei - Haten no Saihai (Japan)": {
+        "languages": "Ja"
+    },
+    "Sangokushi VIII (Japan)": {
+        "languages": "Ja"
+    },
     "Sanguozhi V (Asia)": {
         "languages": "Zh"
     },
@@ -5225,6 +5315,9 @@
     "Sengoku Cannon - Sengoku Ace Episode III (Japan, Asia) (En,Ja)": {
         "languages": "En, Ja"
     },
+    "Sengoku Musou 3 Z Special (Japan)": {
+        "languages": "Ja"
+    },
     "Senjou no Valkyria 2 - Gallia Ouritsu Shikan Gakkou (Japan)": {
         "languages": "Ja"
     },
@@ -5233,6 +5326,9 @@
     },
     "Senor de los Anillos, El - Tacticas (Spain)": {
         "languages": "Es"
+    },
+    "Senritsu no Stratus (Japan)": {
+        "languages": "Ja"
     },
     "Shadow of Destiny (USA)": {
         "languages": "En"
@@ -5286,6 +5382,9 @@
         "languages": "Ja"
     },
     "Shin Sangoku Musou 2nd Evolution (Japan)": {
+        "languages": "Ja"
+    },
+    "Shin Sangoku Musou 5 Empires (Japan)": {
         "languages": "Ja"
     },
     "Shin Sangoku Musou 5 Special (Japan)": {
@@ -5633,6 +5732,9 @@
     "Starry Sky - After Summer Portable - Etsuran Shite Please Etsu Puritsu 2 (Japan)": {
         "languages": "Ja"
     },
+    "Starry Sky - In Spring Portable (Japan)": {
+        "languages": "Ja"
+    },
     "StateShift (Europe)": {
         "languages": "En"
     },
@@ -5801,6 +5903,9 @@
     "Taiko no Tatsujin Portable (Japan) (v2.00)": {
         "languages": "Ja"
     },
+    "Taiko no Tatsujin Portable 2 (Japan)": {
+        "languages": "Ja"
+    },
     "Taikou Risshiden V (Japan) (v3.00)": {
         "languages": "Ja"
     },
@@ -5912,10 +6017,7 @@
     "Telly Addicts (Europe)": {
         "languages": "En"
     },
-    "Tenchi no Mon (Asia) (v1.00)": {
-        "languages": "Zh"
-    },
-    "Tenchi no Mon (Asia) (v1.01)": {
+    "Tenchi no Mon (Asia)": {
         "languages": "Ja"
     },
     "Tenchi no Mon (Japan)": {
@@ -5968,6 +6070,9 @@
     },
     "Thrillville - Off the Rails (USA)": {
         "languages": "En"
+    },
+    "Tiandi Zhi Men (Asia)": {
+        "languages": "Zh"
     },
     "Tiger & Bunny - Hero's Day (Japan)": {
         "languages": "Ja"
@@ -6128,6 +6233,9 @@
     "Trick x Logic - Season 2 (Japan)": {
         "languages": "Ja"
     },
+    "Twelve - Sengoku Fuushinden (Japan)": {
+        "languages": "Ja"
+    },
     "Twelve - Sengoku Houshinden (Japan) (Beta)": {
         "languages": ""
     },
@@ -6203,6 +6311,9 @@
     "Untold Legends - Brotherhood of the Blade (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
+    "Untold Legends - Brotherhood of the Blade (Korea)": {
+        "languages": "En"
+    },
     "Untold Legends - Brotherhood of the Blade (USA)": {
         "languages": "En"
     },
@@ -6225,6 +6336,12 @@
         "languages": "Ja"
     },
     "Uta no Prince-sama - Music (Japan)": {
+        "languages": "Ja"
+    },
+    "Uta no Prince-sama - Music 2 (Japan)": {
+        "languages": "Ja"
+    },
+    "Uta no Prince-sama - Sweet Serenade (Japan)": {
         "languages": "Ja"
     },
     "Utawarerumono Portable (Japan, Asia)": {
@@ -6373,6 +6490,9 @@
     },
     "WWII - Battle over the Pacific (Europe)": {
         "languages": "En"
+    },
+    "Wand of Fortune 2 - Jikuu ni Shizumu Mokushiroku (Japan)": {
+        "languages": "Ja"
     },
     "Wand of Fortune Portable (Japan)": {
         "languages": "Ja"
@@ -6557,6 +6677,9 @@
     "World Soccer Winning Eleven 2010 (Japan)": {
         "languages": "Ja"
     },
+    "World Soccer Winning Eleven 2010 - Aoki Samurai no Chousen (Japan)": {
+        "languages": "Ja"
+    },
     "World Soccer Winning Eleven 2011 (Asia) (En,Zh,Ko)": {
         "languages": "Zh, En, Ko"
     },
@@ -6565,6 +6688,9 @@
     },
     "World Soccer Winning Eleven 2012 (Asia) (En,Zh)": {
         "languages": "Zh, En"
+    },
+    "World Soccer Winning Eleven 2012 (Japan)": {
+        "languages": "Ja"
     },
     "World Soccer Winning Eleven 9 - Ubiquitous Evolution (Japan, Asia)": {
         "languages": "Ja"

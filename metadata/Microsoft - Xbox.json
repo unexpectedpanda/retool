@@ -276,7 +276,7 @@
         "languages": "En, Fr, De"
     },
     "Azurik - Rise of Perathia (USA)": {
-        "languages": ""
+        "languages": "En"
     },
     "BDFL Manager 2003 (Germany)": {
         "languages": "De"
@@ -663,6 +663,9 @@
         "languages": "Fr, De, It"
     },
     "Burnout 3 - Takedown (USA)": {
+        "languages": "En"
+    },
+    "Burnout Revenge (Asia)": {
         "languages": "En"
     },
     "Burnout Revenge (Europe) (Demo)": {
@@ -1482,7 +1485,7 @@
         "languages": ""
     },
     "Disney's The Haunted Mansion (USA)": {
-        "languages": ""
+        "languages": "En"
     },
     "Disney-Pixar Cars (Europe)": {
         "languages": "En"
@@ -1528,6 +1531,9 @@
     },
     "Disney-Pixar The Incredibles (Europe) (Fr,Nl)": {
         "languages": "Nl, Fr"
+    },
+    "Disney-Pixar The Incredibles (Scandinavia)": {
+        "languages": ""
     },
     "Disney-Pixar The Incredibles (USA)": {
         "languages": ""
@@ -1612,6 +1618,9 @@
     },
     "DreamWorks Shark Tale (USA, Europe)": {
         "languages": "En"
+    },
+    "DreamWorks Shark Tale - Hajar som Hajar (Sweden)": {
+        "languages": ""
     },
     "DreamWorks Shrek - SuperSlam (Europe)": {
         "languages": "En"
@@ -1846,6 +1855,9 @@
     },
     "FIFA 07 (Europe) (Fr,De)": {
         "languages": "Fr, De"
+    },
+    "FIFA 07 (Sweden)": {
+        "languages": ""
     },
     "FIFA Football 2003 (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
@@ -2252,8 +2264,8 @@
     "Genma Onimusha (Japan) (En,Ja) (Demo 1)": {
         "languages": "En, Ja"
     },
-    "Genma Onimusha (USA)": {
-        "languages": "En"
+    "Genma Onimusha (USA) (En,Ja)": {
+        "languages": "En, Ja"
     },
     "Ghost Master - The Gravenville Chronicles (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
@@ -2918,7 +2930,7 @@
     "Kingdom Under Fire - The Crusaders (Japan)": {
         "languages": ""
     },
-    "Kingdom Under Fire - The Crusaders (USA) (En,Ko)": {
+    "Kingdom Under Fire - The Crusaders (USA, Korea) (En,Ko)": {
         "languages": "En, Ko"
     },
     "Knight's Apprentice - Memorick's Adventures ~ Memorick - The Apprentice Knight (USA, Europe) (En,Fr,De,Es,It)": {
@@ -3067,6 +3079,9 @@
     },
     "Lord of the Rings, The - The Third Age (USA)": {
         "languages": "En"
+    },
+    "Lord of the Rings, The - The Two Towers (Asia) (En,Zh)": {
+        "languages": "Zh, En"
     },
     "Lord of the Rings, The - The Two Towers (Europe) (En,Fr,De,Es,It,Nl)": {
         "languages": "Nl, En, Fr, De, It, Es"
@@ -3513,6 +3528,9 @@
         "languages": "En, Fr, De, It, Es"
     },
     "Microsoft Game Studios New Year 2005 (Japan)": {
+        "languages": ""
+    },
+    "Microsoft Windows Media Center Extender for Xbox (USA)": {
         "languages": ""
     },
     "Midnight Club 3 - DUB Edition (Europe) (En,Fr,De,Es,It)": {
@@ -5153,6 +5171,9 @@
     "Psychonauts (USA)": {
         "languages": "En"
     },
+    "Psychonauts (USA) (Demo)": {
+        "languages": "En"
+    },
     "Psyvariar 2 - Extend Edition (Japan)": {
         "languages": ""
     },
@@ -5784,7 +5805,7 @@
         "languages": "Nl, En, Fr, De, It, Es"
     },
     "Sims, The - Bustin' Out (USA)": {
-        "languages": ""
+        "languages": "En"
     },
     "Ski Racing 2005 (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
@@ -5910,6 +5931,9 @@
         "languages": ""
     },
     "Spider-Man (USA)": {
+        "languages": "En"
+    },
+    "Spider-Man (USA) (Rev 1)": {
         "languages": "En"
     },
     "Spider-Man 2 (Europe) (Fr,De,Es)": {
@@ -6266,7 +6290,7 @@
     "Superman Returns (USA)": {
         "languages": "En"
     },
-    "Syberia (USA) (En,Fr,De,Es,It)": {
+    "Syberia (USA, Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
     "Syberia II (USA, Europe) (En,Fr,De,Es,It)": {
@@ -7470,7 +7494,7 @@
         "languages": "Ja"
     },
     "Xbox-ism - Summer 2004 (Japan)": {
-        "languages": ""
+        "languages": "Ja"
     },
     "Xbox-ism - TGS2002 Playable Disc (Japan)": {
         "languages": "Ja"

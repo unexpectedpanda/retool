@@ -3,7 +3,7 @@
 		"name": [
 			"Sony - PlayStation Portable (Redump)"
 		],
-		"last updated": "21 July 2021",
+		"last updated": "10 October 2021",
 		"minimum version": "0.89"
 	},
 
@@ -108,14 +108,16 @@
 		],
 		"Disgaea - Afternoon of Darkness": [
 			["Disgaea Portable", 1],
-			["Makai Senki Disgaea Portable - Tsuushin Taisen Hajimemashita.", 1]
+			["Makai Senki Disgaea Portable - Tsuushin Taisen Hajimemashita.", 1],
+			["Makai Senki Disgaea Portable", 2]
+		],
+		"Disney-Pixar Ratatouille": [
+			["Disney-Pixar Ratatui", 1],
+			["Disney - Pixar Ratatouille", 1]
 		],
 		"Disney-Pixar Up": [
 			["Disney-Pixar Oben", 1],
 			["Disney-Pixar Up - Altamente!", 1]
-		],
-		"Disney-Pixar Ratatouille": [
-			["Disney-Pixar Ratatui", 1]
 		],
 		"Disney-Pixar WALL-E": [
 			["Disney-Pixar WALL-E - Der Letzte raeumt die Erde auf", 1]
@@ -125,6 +127,9 @@
 		],
 		"DJ Max Portable - Black Square": [
 			["DJ Max Emotional Sense P - Black Square", 1]
+		],
+		"Dragon Ball Z - Shin Budokai": [
+			["Dragon Ball Z - Jinmudohoe", 1]
 		],
 		"Dragon Ball Z - Shin Budokai - Another Road": [
 			["Dragon Ball Z - Shin Budokai 2", 1]
@@ -147,7 +152,8 @@
 			["Shin Sangoku Musou", 1]
 		],
 		"Dynasty Warriors Vol. 2": [
-			["Jin Samguk Mussang 2nd Evolution", 1]
+			["Jin Samguk Mussang 2nd Evolution", 1],
+			["Shin Sangoku Musou 2nd Evolution", 1]
 		],
 		"Dynasty Warriors - Strikeforce": [
 			["Shin Sangoku Musou - Multi Raid", 1]
@@ -161,6 +167,9 @@
 		],
 		"Everybody's Stress Buster": [
 			["Minna no Sukkiri", 1]
+		],
+		"Everybody's Tennis": [
+			["Minna no Tennis Portable", 1]
 		],
 		"FIFA 14": [
 			["FIFA 14 - Edicion Legado", 1],
@@ -267,6 +276,9 @@
 		"Harvest Moon - Boy & Girl": [
 			["Bokujou Monogatari - Harvest Moon - Boy & Girl", 1]
 		],
+		"Hatsune Miku - Project Diva 2nd (Okaidoku-ban)": [
+			["Hatsune Miku - Project Diva 2nd", 2]
+		],
 		"Hot Shots Golf - Open Tee": [
 			["Everybody's Golf", 1],
 			["Minna no Golf Portable", 1]
@@ -300,13 +312,14 @@
 		],
 		"Kingdom of Paradise": [
 			["Key of Heaven", 1],
-			["Tenchi no Mon", 1]
+			["Tenchi no Mon", 1],
+			["Tiandi Zhi Men", 1]
 		],
 		"Legend of Heroes, The - Trails in the Sky": [
 			["Eiyuu Densetsu - Sora no Kiseki FC", 1]
 		],
 		"LittleBigPlanet": [
-			["Little Big Planet", 1]
+			["LittleBigPlanet Portable", 1]
 		],
 		"LocoRoco": [
 			["LocoRoco (Toku Toku Pack)", 2]
@@ -352,7 +365,8 @@
 			["Naruto Shippuuden - Narutimate Accel 3", 1]
 		],
 		"Naruto - Ultimate Ninja Heroes 2 - The Phantom Fortress": [
-			["Naruto - Narutimate Portable - Mugenjou no Maki", 1]
+			["Naruto - Narutimate Portable - Mugenjou no Maki", 1],
+			["Naruto - Narutimate Portable - Muhwanseongui Gwon", 1]
 		],
 		"Naruto Shippuden - Ultimate Ninja Impact": [
 			["Naruto - Narutimate Impact", 1]
@@ -409,6 +423,9 @@
 		"Prince of Persia - The Forgotten Sands": [
 			["Prince of Persia - Boukyaku no Suna", 1]
 		],
+		"Prinny - Can I Really Be the Hero": [
+			["Prinny - Ore ga Shujinkou de Iinsuka", 1]
+		],
 		"Pursuit Force": [
 			["Chase Cop - Pursuit Force", 1]
 		],
@@ -426,6 +443,9 @@
 		],
 		"Ragnarok Tactics": [
 			["Ragnarok - Hikari to Yami no Koujo", 1]
+		],
+		"Ratchet & Clank - Size Matters": [
+			["Ratchet & Clank 5 - Gekitotsu! Dodeka Ginga no MiriMiri Gundan", 1]
 		],
 		"Ridge Racer": [
 			["Ridge Racers", 1]

@@ -3,7 +3,7 @@
 		"name": [
 			"Philips - CD-i"
 		],
-		"last updated": "11 September 2021",
+		"last updated": "10 October 2021",
 		"minimum version": "0.89"
 	},
 
@@ -30,6 +30,7 @@
 		],
 		"Burn-Cycle (Disc 1) (The Game)": [
 			["Burn-Cycle (Das Spiel)", 1],
+			["Burn-Cycle (El Juego)", 1],
 			["Burn-Cycle (Il Gioco)", 1],
 			["Burn-Cycle (Jeu)", 1],
 			["Burn-Cycle", 2]
@@ -208,7 +209,7 @@
 		],
 		"Voyeur": [
 			["Voyeur ...Don't Get Caught", 1],
-			["Voyeur ...lass Dich nicht erwischen!", 1]
+			["Voyeur ...Lass Dich Nicht Erwischen!", 1]
 		],
 		"Zelda - The Wand of Gamelon": [
 			["Zelda - Der Zauberstab von Gamelon", 1]

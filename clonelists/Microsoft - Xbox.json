@@ -3,7 +3,7 @@
 		"name": [
 			"Microsoft - Xbox"
 		],
-		"last updated": "11 September 2021",
+		"last updated": "10 October 2021",
 		"minimum version": "0.89"
 	},
 
@@ -184,6 +184,9 @@
 		],
 		"Doom 3": [
 			["Doom 3 (Limited Collector's Edition)", 0]
+		],
+		"DreamWorks Shark Tale": [
+			["DreamWorks Shark Tale - Hajar som Hajar", 1]
 		],
 		"Dr. Seuss' The Cat in the Hat": [
 			["Cat in the Hat, The", 1]
