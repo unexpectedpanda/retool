@@ -3,7 +3,7 @@
 		"name": [
 			"Nintendo - Family Computer Disk System (FDS)"
 		],
-		"last updated": "19 May 2021",
+		"last updated": "22 October 2021",
 		"minimum version": "0.92"
 	},
 
@@ -28,6 +28,10 @@
 			"match": "short",
 			"categories": ["Applications"]
 		},
+		"Dot E Creator Contest": {
+			"match": "short",
+			"categories": ["Multimedia"]
+		},
 		"FMC Disk Card Checker Ver 1.3 (Developer Card)": {
 			"match": "short",
 			"categories": ["Applications"]
@@ -51,6 +55,70 @@
 		"Souseiki Fammy - ROM-QD for 256K+64K": {
 			"match": "short",
 			"categories": ["Applications"]
+		},
+		"Sunsoft Dev Disk Lot - 'D167B23' no. 1": {
+			"match": "short",
+			"categories": ["Preproduction"]
+		},
+		"Sunsoft Dev Disk Lot - 'D167B23' no. 2": {
+			"match": "short",
+			"categories": ["Preproduction"]
+		},
+		"Sunsoft Dev Disk Lot - 'D167B23' no. 3": {
+			"match": "short",
+			"categories": ["Preproduction"]
+		},
+		"Sunsoft Dev Disk Lot - 'D167B23' no. 4": {
+			"match": "short",
+			"categories": ["Preproduction"]
+		},
+		"Sunsoft Dev Disk Lot - 'D167B23' no. 5": {
+			"match": "short",
+			"categories": ["Preproduction"]
+		},
+		"Sunsoft Dev Disk Lot - 'D167B23' no. 6": {
+			"match": "short",
+			"categories": ["Preproduction"]
+		},
+		"Sunsoft Dev Disk Lot - 'E180L05' no. 1": {
+			"match": "short",
+			"categories": ["Preproduction"]
+		},
+		"Sunsoft Dev Disk Lot - 'E180L05' no. 4": {
+			"match": "short",
+			"categories": ["Preproduction"]
+		},
+		"Sunsoft Dev Disk Lot - 'F087D22'": {
+			"match": "short",
+			"categories": ["Preproduction"]
+		},
+		"Sunsoft Dev Disk Lot - 'F266F13'": {
+			"match": "short",
+			"categories": ["Preproduction"]
+		},
+		"Sunsoft Dev Disk Lot - 'G188D21N' no. 1": {
+			"match": "short",
+			"categories": ["Preproduction"]
+		},
+		"Sunsoft Dev Disk Lot - 'G188D21N' no. 2": {
+			"match": "short",
+			"categories": ["Preproduction"]
+		},
+		"Sunsoft Dev Disk Lot - 'G188D21N' no. 3": {
+			"match": "short",
+			"categories": ["Preproduction"]
+		},
+		"Sunsoft Dev Disk Lot - 'J226I22' no. 1": {
+			"match": "short",
+			"categories": ["Preproduction"]
+		},
+		"Sunsoft Dev Disk Lot - 'J226I22' no. 3": {
+			"match": "short",
+			"categories": ["Preproduction"]
+		},
+		"Sunsoft Dev Disk Lot - 'K057G06'": {
+			"match": "short",
+			"categories": ["Preproduction"]
 		},
 		"Tonkachi Editor": {
 			"match": "short",

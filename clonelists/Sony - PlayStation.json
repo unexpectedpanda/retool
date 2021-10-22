@@ -15,6 +15,10 @@
 		"Dino Crisis (Europe) (Demo)": {
 			"match": "full",
 			"categories": ["Demos", "Preproduction"]
+		},
+		"Kowloon's Gate (Special Disc)": {
+			"match": "short",
+			"categories": ["Demos"]
 		}
 	},
 
@@ -26,6 +30,9 @@
 				"higher than": ["Europe"],
 				"else group": "Bishi Bashi Special"
 			}
+		},
+		"Dance Dance Revolution (Japan)": {
+			"new group": "Dance Dance Revolution (Japan)"
 		},
 		"Gallop Racer (Japan)": {
 			"new group": "Gallop Racer (Japan)"
@@ -41,6 +48,9 @@
 		},
 		"Motor Toon Grand Prix (Japan) (Rev 1)": {
 			"new group": "Motor Toon Grand Prix (Japan)"
+		},
+		"Space Invaders (Japan)": {
+			"new group": "Space Invaders (Japan)"
 		},
 		"Strikers 1945 (Japan)": {
 			"new group": "Strikers 1945 (Japan)"
@@ -122,6 +132,13 @@
 		}
 	},
 
+	"removes": {
+		"Jackie Chan Stuntmaster (Europe) (Recalled)": {},
+		"SuperLite 1500 Series - Crossword (Japan)": {},
+		"SuperLite 1500 Series - Crossword 2 (Japan)": {},
+		"SuperLite 1500 Series - Crossword 3 (Japan)": {}
+	},
+
     "renames": {
         "007 - The World Is Not Enough": [
 			["007 - Die Welt Ist Nicht Genug", 1],
@@ -146,6 +163,12 @@
 			["A.IV - Evolution Global", 1],
 			["A Ressha de Ikou 4 - Evolution Global", 1],
 			["SuperLite 1500 Series - A Ressha de Ikou 4 - Evolution Global", 1]
+		],
+		"A Ressha de Ikou Z - Mezase! Tairiku Oudan": [
+			["SuperLite 1500 Series - A Ressha de Ikou Z - Mezase! Tairiku Oudan", 2]
+		],
+		"A5 - A Ressha de Ikou 5": [
+			["SuperLite 1500 Series - A5 - A Ressha de Ikou 5", 2]
 		],
 		"Action Man - Operation Extreme": [
 			["Action Man - Mission Xtreme", 1]
@@ -283,6 +306,9 @@
 		"Asteroids": [
 			["SuperLite 1500 Series - Asteroids", 1]
 		],
+		"Asuka 120% Final - Burning Fest. Final": [
+			["SuperLite 1500 Series - Asuka 120% Final - Burning Fest. Final", 2]
+		],
 		"Atlantis - The Lost Tales (Disc 1)": [
 			["Atlantis - Das sagenhafte Abenteuer (Disc 1)", 1],
 			["Atlantis - Secrets d'un Monde Oublie (Disc 1)", 1],
@@ -297,9 +323,6 @@
 			["Atlantis - Das sagenhafte Abenteuer (Disc 3)", 1],
 			["Atlantis - Secrets d'un Monde Oublie (Disc 3)", 1],
 			["Atlantis - Segreti d'un Mondo Perduto (Disc 3)", 1]
-		],
-		"Ayrton Senna Kart Duel Special": [
-			["Ayrton Senna Kart Duel", 2]
 		],
 		"Ayrton Senna Kart Duel 2": [
 			["Ayrton Senna KartDuel 2", 1]
@@ -359,6 +382,9 @@
 		"Beat-Em-Up Special (Demo)": [
 			["Beat-Em-Up Speziale (Demo)", 1]
 		],
+		"Beat Mania Append 3rdMix": [
+			["Beat Mania 3rd Mix Mini", 2]
+		],
 		"Beyond the Beyond": [
 			["Beyond the Beyond - Haruka naru Kanaan e", 1]
 		],
@@ -373,10 +399,14 @@
 			["Baseball - Pro-nami Kusayakyuu!", 2]
 		],
 		"Big Ol' Bass 2": [
+			["Exciting Bass 3", 1],
 			["Fisherman's Bait 3", 1]
 		],
 		"Blast Chamber": [
 			["Kyuu-bakku", 1]
+		],
+		"Blaster Master - Blasting Again": [
+			["Blaster Master", 1]
 		],
 		"Blaze & Blade - Eternal Quest": [
 			["Legend of Foresia - La Contree Interdite", 1]
@@ -384,6 +414,9 @@
 		"Block Buster": [
 			["Block Kuzushi 2", 1],
 			["Simple 1500 Series Vol. 45 - The Block Kuzushi 2", 2]
+		],
+		"Block Kuzushi": [
+			["Block Kuzushi - Kowashite Help!", 2]
 		],
 		"Blood Omen - Legacy of Kain": [
 			["Kain the Vampire", 1]
@@ -407,6 +440,9 @@
 		],
 		"Bomberman - Party Edition": [
 			["Bomberman", 1]
+		],
+		"Bottom of the 9th": [
+			["Bottom of the 9th - Major League Heroes", 1]
 		],
 		"Bottom of the 9th '97": [
 			["Jikkyou American Baseball", 1]
@@ -463,7 +499,8 @@
 		],
 		"Bust A Groove": [
 			["Bust-A-Groove", 1],
-			["Bust A Move", 1]
+			["Bust A Move (Disc 1)", 1],
+			["Bust A Move", 2]
 		],
 		"Bust A Groove 2": [
 			["Bust A Move 2 - Dance Tengoku Mix", 1]
@@ -591,11 +628,10 @@
 		],
 		"Contender": [
 			["Dynamite Boxing", 1],
-			["Victory Boxing Contender", 1],
 			["Victory Boxing 2", 2]
 		],
 		"Contender 2": [
-			["Victory Boxing Challenger", 1]
+			["Victory Boxing Contender", 1]
 		],
 		"Cool Boarders 2": [
 			["Cool Boarders 2 - Killing Session", 1]
@@ -617,6 +653,9 @@
 		"Covert Ops - Nuclear Dawn (Disc 2)": [
 			["Chase the Express (Disc 2)", 1],
 			["Chase the Express - El Expreso de la Muerte (Disc 2)", 1]
+		],
+		"Criticom": [
+			["Criticom - The Critical Combat", 1]
 		],
 		"Croc - Legend of the Gobbos": [
 			["Croc! Pau-Pau Island", 1]
@@ -694,7 +733,7 @@
 		],
 		"Digimon - Digital Card Battle": [
 			["Digimon Digital Card Battle", 1],
-			["DigimonWorld - Digital Card Battle", 1]
+			["DigimonWorld - Digital Card Arena", 1]
 		],
 		"Digimon Rumble Arena": [
 			["DigimonTamers - Battle Evolution", 1]
@@ -828,6 +867,7 @@
 		],
 		"Disney's Story Studio - Mulan": [
 			["Disney's Aventura Interactiva - Mulan", 1],
+			["Disney's Mulan - Story Studio", 1],
 			["Disney's Verhalenstudio - Mulan", 1],
 			["Disney Fais Ton Histoire! Mulan", 1],
 			["Disney Libro Animato Creativo - Mulan", 1],
@@ -892,6 +932,9 @@
 		"Diver's Dream": [
 			["Dolphin's Dream", 1]
 		],
+		"Doukyuusei 2 (Extra Box)": [
+			["Doukyuusei 2", 2]
+		],
 		"Dracula - The Last Sanctuary (Disc 1)": [
 			["Dracula 2 - Die letzte Zufluchtsstaette (Disc 1)", 1],
 			["Dracula 2 - El Ultimo Santuario (Disc 1)", 1],
@@ -952,6 +995,12 @@
 		"Dune 2000": [
 			["Dune", 1]
 		],
+		"Dungeon Creator (Disc 1)": [
+			["Dungeon Creator", 2]
+		],
+		"Dynamite Soccer 98": [
+			["Simple 1500 Series Vol. 67 - The Soccer - Dynamite Soccer 1500", 2]
+		],
 		"Dynasty Warriors": [
 			["Sangoku Musou", 1]
 		],
@@ -974,6 +1023,9 @@
 		],
 		"Elemental Pinball": [
 			["Nice Price Series Vol. 08 - Elemental Pinball", 1]
+		],
+		"Epidemic": [
+			["Kileak, The Blood 2 - Reason in Madness", 1]
 		],
 		"Equalizer Xtreme Ver 4.2": [
 			["Equalizer Xtreme Ver 4.1", 2],
@@ -1057,6 +1109,9 @@
 		],
 		"Famires, The": [
 			["SuperLite 1500 Series - The FamiRes", 2]
+		],
+		"Fantastic Night Dreams - Cotton Original": [
+			["SuperLite 1500 Series - Fantastic Night Dreams - Cotton Original", 2]
 		],
 		"Fatal Fury - Wild Ambition": [
 			["Garou Densetsu - Wild Ambition", 1]
@@ -1147,7 +1202,11 @@
 			["Konami Open Golf", 1]
 		],
 		"Fisherman's Bait - A Bass Challenge": [
+			["Exciting Bass", 1],
 			["Fisherman's Bait - Bass Challenge", 1]
+		],
+		"Fisherman's Bait 2 - Big Ol' Bass": [
+			["Exciting Bass 2", 1]
 		],
 		"Fishing Freaks - BassRise (Doukon Pack)": [
 			["Fishing Freaks - BassRise Plus", 0]
@@ -1163,6 +1222,9 @@
 		"Fluid": [
 			["Depth", 1],
 			["Sub", 1]
+		],
+		"Formation Soccer '98": [
+			["Formation Soccer '98 - Ganbare Nippon in France", 2]
 		],
 		"Formula 1 Championship Edition": [
 			["Formula 1 97", 1]
@@ -1264,7 +1326,10 @@
 			["Knight & Baby", 1]
 		],
 		"Gundam Battle Assault": [
-			["Gundam The Battle Master 2", 2]
+			["Gundam the Battle Master 2", 2]
+		],
+		"Hana to Ryuu - Hanafuda, Mahjong": [
+			["Hana to Ryuu", 1]
 		],
 		"Hard Boiled": [
 			["Hard Boiled - Neuro Tower o Hakai seyo", 1]
@@ -1361,6 +1426,9 @@
 		"Interactive CD Sampler Pack Volume Three (Demo)": [
 			["Interactive CD Sampler Pack Volume Three (SCUS-94177) (Demo)", 2]
 		],
+		"International Moto X": [
+			["International Moto-X", 1]
+		],
 		"International Track & Field": [
 			["Hyper Olympic in Atlanta", 1]
 		],
@@ -1455,6 +1523,9 @@
 			["Legend of Kartia", 1],
 			["Rebus", 1]
 		],
+		"Kensei - Sacred Fist": [
+			["Bugi", 1]
+		],
 		"Kickboxing": [
 			["Kickboxing Knockout", 1],
 			["Simple 1500 Series Vol. 64 - The Kick Boxing", 1]
@@ -1471,6 +1542,9 @@
 		],
 		"King of Bowling 2": [
 			["King of Bowling 2 - Professional Hen", 1]
+		],
+		"Kiwame Daidougi": [
+			["Kiwame Daidougi - Tsumuya Tsumazaruya", 2]
 		],
 		"Klonoa - Door to Phantomile": [
 			["Kaze no Klonoa - Door to Phantomile", 1]
@@ -1529,6 +1603,9 @@
 		"Liberogrande International": [
 			["LiberoGrande 2", 1]
 		],
+		"Little Princess - Marl Oukoku no Ningyou-hime 2 (Disc 1) (+1 Tasu Ichi)": [
+			["Little Princess - Marl Oukoku no Ningyou-hime 2", 2]
+		],
 		"LMA Manager": [
 			["Manager de Liga", 1]
 		],
@@ -1546,6 +1623,13 @@
 		],
 		"Loaded": [
 			["Blood Factory", 1]
+		],
+		"Lode Runner - The Legend Returns": [
+			["Lode Runner", 0],
+			["SuperLite 1500 Series - Lode Runner - The Legend Returns", 2]
+		],
+		"Lode Runner Extra": [
+			["Lode Runner", 0]
 		],
 		"Looney Tunes - Sheep Raider": [
 			["Sheep, Dog 'n' Wolf", 1]
@@ -1931,6 +2015,9 @@
 		],
 		"Pandemonium 2": [
 			["Miracle Jumpers", 1]
+		],
+		"Pao Leeming Kanshuu - Fuusui Nyuumon": [
+			["SuperLite 1500 Series - Pao Leeming Kanshuu - Fuusui Nyuumon", 2]
 		],
 		"Paradise Casino": [
 			["Nice Price Series Vol. 09 - Paradise Casino", 1]
@@ -2420,7 +2507,8 @@
 			["UEFA Striker", 1]
 		],
 		"Strikers 1945": [
-			["Strikers 1945 II", 1]
+			["Strikers 1945 II", 1],
+			["SuperLite 1500 Series - Strikers 1945 II", 2]
 		],
 		"Suikoden": [
 			["Gensou Suikoden", 1]
@@ -2745,6 +2833,9 @@
 			["Versailles - Complotto alla Corte del Re Sole", 1],
 			["Versailles - Verschwoerung am Hof", 1],
 			["Versalles - Complot en la Corte del Rey Sol", 1]
+		],
+		"Victory Boxing Challenger": [
+			["Victory Boxing", 1]
 		],
 		"Victory Boxing Champion Edition": [
 			["Kensei - The King of Boxing", 1]

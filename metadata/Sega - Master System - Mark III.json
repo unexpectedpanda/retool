@@ -110,6 +110,15 @@
 	"Alex Kidd in Miracle World (USA, Europe, Brazil) (Rev 1)": {
 		"languages": "En"
 	},
+	"Alex Kidd in Miracle World (World) (BIOS version) (Sega Ages)": {
+		"languages": "En"
+	},
+	"Alex Kidd in Miracle World (World) (Ja) (Sega Ages)": {
+		"languages": "Ja"
+	},
+	"Alex Kidd in Miracle World (World) (Sega Ages)": {
+		"languages": "En"
+	},
 	"Alex Kidd in Miracle World 2 (World) (Unl)": {
 		"languages": "En"
 	},
@@ -1130,6 +1139,12 @@
 	"Phantasy Star (Japan) (Virtual Console)": {
 		"languages": "Ja"
 	},
+	"Phantasy Star (World) (Sega Ages)": {
+		"languages": "En"
+	},
+	"Phantasy Star (World) (Ja) (Sega Ages)": {
+		"languages": "Ja"
+	},
 	"Pit-Fighter (Brazil)": {
 		"languages": "En"
 	},
@@ -1751,7 +1766,7 @@
 	"Wonder Boy III - The Dragon's Trap (USA, Europe)": {
 		"languages": "En"
 	},
-	"Wonder Boy III - The Dragon's Trap (USA, Europe) (GOG) (Unl)": {
+	"Wonder Boy III - The Dragon's Trap (USA, Europe) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
 	"Wonder Boy in Monster Land (USA, Europe) (Beta)": {

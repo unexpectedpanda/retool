@@ -1,4 +1,7 @@
 {
+	"007 - The World Is Not Enough (USA) (v2) (Beta)": {
+		"languages": "En"
+	},
 	"007 - The World Is Not Enough (Europe) (En,Fr,De)": {
 		"languages": "En,Fr,De"
 	},
@@ -6,9 +9,6 @@
 		"languages": "En"
 	},
 	"007 - The World Is Not Enough (USA) (v21) (Beta)": {
-		"languages": "En"
-	},
-	"007 - The World Is Not Enough (USA) (v2) (Beta)": {
 		"languages": "En"
 	},
 	"1080 Snowboarding (Europe) (En,Ja,Fr,De)": {
@@ -19,6 +19,9 @@
 	},
 	"40 Winks (Europe) (En,Es,It) (Proto) (1999-10-07)": {
 		"languages": "En,Es,It"
+	},
+	"40 Winks (USA) (Aftermarket) (Unl)": {
+		"languages": "En"
 	},
 	"64 de Hakken!! Tamagotchi - Minna de Tamagotchi World (Japan)": {
 		"languages": "Ja"
@@ -71,10 +74,10 @@
 	"Aidyn Chronicles - The First Mage (USA) (Rev 1)": {
 		"languages": "En"
 	},
-	"Aidyn Chronicles - The First Mage (USA) (Beta) (2000-02-10)": {
+	"Aidyn Chronicles - The First Mage (USA) (Beta) (2000-05-09)": {
 		"languages": "En"
 	},
-	"Aidyn Chronicles - The First Mage (USA) (Beta) (2000-05-09)": {
+	"Aidyn Chronicles - The First Mage (USA) (Beta) (2000-02-10)": {
 		"languages": "En"
 	},
 	"Air Boarder 64 (Japan)": {
@@ -242,8 +245,11 @@
 	"Blues Brothers 2000 (USA)": {
 		"languages": "En"
 	},
-	"Blues Brothers 2000 (USA) (Beta) (2000-01-15)": {
-		"languages": "En"
+	"Blues Brothers 2000 (Europe) (En,Fr,De,Es,It,Nl) (Beta) (2000-01-15)": {
+		"languages": "En,Fr,De,Es,It,Nl"
+	},
+	"Blues Brothers 2000 (Europe) (En,Fr,De,Es,It,Nl) (Beta) (2000-01-15, Alt)": {
+		"languages": "En,Fr,De,Es,It,Nl"
 	},
 	"Body Harvest (Europe) (En,Fr,De)": {
 		"languages": "En,Fr,De"
@@ -506,7 +512,7 @@
 	"Derby Stallion 64 (Japan)": {
 		"languages": "Ja"
 	},
-	"Derby Stallion 64 (Japan) (Beta)": {
+	"Derby Stallion 64 (Japan) (Beta) [b]": {
 		"languages": "Ja"
 	},
 	"Destruction Derby 64 (Europe) (En,Fr,De)": {
@@ -585,6 +591,9 @@
 		"languages": "Ja"
 	},
 	"Doraemon 3 - Nobita no Machi SOS! (Japan)": {
+		"languages": "Ja"
+	},
+	"Doubutsu Banchou (Japan) (Proto)": {
 		"languages": "Ja"
 	},
 	"Doubutsu no Mori (Japan)": {
@@ -812,10 +821,10 @@
 	"Freak Boy (Unknown) (Proto)": {
 		"languages": "En"
 	},
-	"Frogger 2 (USA) (Proto 2)": {
+	"Frogger 2 (USA) (Proto 1)": {
 		"languages": "En"
 	},
-	"Frogger 2 (USA) (Proto 1)": {
+	"Frogger 2 (USA) (Proto 2)": {
 		"languages": "En"
 	},
 	"Fushigi no Dungeon - Fuurai no Shiren 2 - Oni Shuurai! Shiren Jou! (Japan)": {
@@ -881,13 +890,16 @@
 	"Glover (USA)": {
 		"languages": "En"
 	},
-	"Glover (USA) (Beta) (1998-07-16)": {
+	"Glover (USA) (Beta) (1998-07-16) [b]": {
 		"languages": "En"
 	},
 	"Glover (USA) (Rev 1) (Proto)": {
 		"languages": "En"
 	},
-	"Glover 2 (USA) (Proto 2)": {
+	"Glover 2 (USA) (Unk Proto)": {
+		"languages": "En"
+	},
+	"Glover 2 (USA) (Proto 2) [b]": {
 		"languages": "En"
 	},
 	"Glover 2 (USA) (Proto 1)": {
@@ -1049,6 +1061,9 @@
 	"International Superstar Soccer '98 (Europe) (Beta) (1998-03-02)": {
 		"languages": "En"
 	},
+	"International Superstar Soccer 2000 (USA) (En,Es) (Rev 1)": {
+		"languages": "En,Es"
+	},
 	"International Superstar Soccer 2000 (Europe) (En,De)": {
 		"languages": "En,De"
 	},
@@ -1056,9 +1071,6 @@
 		"languages": "Fr,It"
 	},
 	"International Superstar Soccer 2000 (USA) (En,Es)": {
-		"languages": "En,Es"
-	},
-	"International Superstar Soccer 2000 (USA) (En,Es) (Rev 1)": {
 		"languages": "En,Es"
 	},
 	"International Superstar Soccer 64 (Europe)": {
@@ -1295,13 +1307,13 @@
 	"Legend of Zelda, The - Ocarina of Time (Europe) (GameCube)": {
 		"languages": "En"
 	},
-	"Legend of Zelda, The - Ocarina of Time (Europe) (Debug) (GameCube)": {
+	"Legend of Zelda, The - Ocarina of Time (Europe) (Beta) (2003-02-13) (GameCube)": {
 		"languages": "En"
 	},
 	"Legend of Zelda, The - Ocarina of Time (USA) (Beta)": {
 		"languages": "En"
 	},
-	"Legend of Zelda, The - Ocarina of Time (Europe) (Beta) (2003-02-13) (GameCube)": {
+	"Legend of Zelda, The - Ocarina of Time (Europe) (Debug) (GameCube)": {
 		"languages": "En"
 	},
 	"Legend of Zelda, The - Ocarina of Time - Master Quest (USA) (Debug) (GameCube)": {
@@ -1904,10 +1916,10 @@
 	"Perfect Dark (USA) (Rev 1)": {
 		"languages": "En"
 	},
-	"Perfect Dark (Europe) (Debug Version) (2000-04-26)": {
+	"Perfect Dark (USA) (Debug Version) (2000-03-22)": {
 		"languages": "En"
 	},
-	"Perfect Dark (USA) (Debug Version) (2000-03-22)": {
+	"Perfect Dark (Europe) (Debug Version) (2000-04-26)": {
 		"languages": "En"
 	},
 	"PGA European Tour (USA)": {
@@ -2339,7 +2351,7 @@
 	"Snow Speeder (Japan)": {
 		"languages": "Ja"
 	},
-	"Snowboard Kids (Europe)": {
+	"Snowboard Kids (Europe, Australia)": {
 		"languages": "En"
 	},
 	"Snowboard Kids (USA)": {
@@ -2513,6 +2525,9 @@
 	"Super Mario 64 (USA)": {
 		"languages": "En"
 	},
+	"Super Real Mahjong VS (Japan) (Rev 1) (Aleck 64)": {
+		"languages": "Ja"
+	},
 	"Super Robot Spirits (Japan)": {
 		"languages": "Ja"
 	},
@@ -2633,16 +2648,16 @@
 	"Tony Hawk's Pro Skater (USA) (Beta)": {
 		"languages": "En"
 	},
-	"Tony Hawk's Pro Skater 2 (Europe)": {
-		"languages": "En"
-	},
-	"Tony Hawk's Pro Skater 2 (USA)": {
+	"Tony Hawk's Pro Skater 2 (USA) (v012) (Beta) (2001-06-04)": {
 		"languages": "En"
 	},
 	"Tony Hawk's Pro Skater 2 (USA) (Beta) (2001-04-20)": {
 		"languages": "En"
 	},
-	"Tony Hawk's Pro Skater 2 (USA) (v012) (Beta) (2001-06-04)": {
+	"Tony Hawk's Pro Skater 2 (Europe)": {
+		"languages": "En"
+	},
+	"Tony Hawk's Pro Skater 2 (USA)": {
 		"languages": "En"
 	},
 	"Tony Hawk's Pro Skater 3 (USA)": {
@@ -2687,6 +2702,9 @@
 	"Top Gear Rally (Asia) (En)": {
 		"languages": "En"
 	},
+	"Top Gear Rally 2 (Europe) (Beta) (1999-08-31)": {
+		"languages": "En"
+	},
 	"Top Gear Rally 2 (Europe)": {
 		"languages": "En"
 	},
@@ -2694,9 +2712,6 @@
 		"languages": "Ja"
 	},
 	"Top Gear Rally 2 (USA)": {
-		"languages": "En"
-	},
-	"Top Gear Rally 2 (Europe) (Beta) (1999-08-31)": {
 		"languages": "En"
 	},
 	"Toy Story 2 - Buzz l'Eclair a la Rescousse! (France)": {
@@ -2798,19 +2813,22 @@
 	"Turok 3 - Shadow of Oblivion (USA)": {
 		"languages": "En"
 	},
-	"Turok 3 - Shadow of Oblivion (Europe) (Beta) (2000-07-10)": {
+	"Turok 3 - Shadow of Oblivion (Europe) (Beta) (2000-07-10) [b]": {
 		"languages": "En"
 	},
 	"Turok 3 - Shadow of Oblivion (Europe) (Beta) (2000-05-31)": {
 		"languages": "En"
 	},
-	"Turok 3 - Shadow of Oblivion (Europe) (Beta) (2000-06-06)": {
+	"Turok 3 - Shadow of Oblivion (Europe) (Beta) (2000-07-16)": {
+		"languages": "En"
+	},
+	"Turok 3 - Shadow of Oblivion (USA) (Beta) (2000-06-26)": {
 		"languages": "En"
 	},
 	"Turok 3 - Shadow of Oblivion (USA) (Beta) (2000-07-21)": {
 		"languages": "En"
 	},
-	"Turok 3 - Shadow of Oblivion (USA) (Beta) (2000-06-26)": {
+	"Turok 3 - Shadow of Oblivion (Europe) (Beta) (2000-06-06) [b]": {
 		"languages": "En"
 	},
 	"Twisted Edge - Extreme Snowboarding (USA)": {

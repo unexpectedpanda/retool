@@ -1689,7 +1689,7 @@
         "languages": ""
     },
     "ESPN College Hoops 2K5 (USA)": {
-        "languages": ""
+        "languages": "En"
     },
     "ESPN International Winter Sports (Europe) (En,Fr,De,It)": {
         "languages": "En, Fr, De, It"
@@ -4124,7 +4124,7 @@
     "Neighbours from Hell (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
-    "New Legends (Europe)": {
+    "New Legends (Europe, Australia)": {
         "languages": "En"
     },
     "New Legends (France)": {
@@ -4415,7 +4415,10 @@
     "Official Xbox Magazine Game Disc 18 (Australia)": {
         "languages": ""
     },
-    "Official Xbox Magazine Game Disc 18 (Europe)": {
+    "Official Xbox Magazine Game Disc 18 (Europe) (En,Fr,Es,It,Pt)": {
+        "languages": "En, Fr, It, Pt, Es"
+    },
+    "Official Xbox Magazine Game Disc 18 (UK)": {
         "languages": "En"
     },
     "Official Xbox Magazine Game Disc 18 (USA)": {
@@ -5784,7 +5787,7 @@
         "languages": "En, Fr, De"
     },
     "Simpsons, The - Road Rage (USA)": {
-        "languages": ""
+        "languages": "En"
     },
     "Sims 2, The (Europe) (En,Fr,De,Es,It,Nl,Sv)": {
         "languages": "Nl, En, Fr, De, It, Es, Sv"
@@ -7456,9 +7459,6 @@
     },
     "Xbox Live Starter Kit Disc + Zunou Taisen Live (Japan)": {
         "languages": ""
-    },
-    "Xbox Magazine Ufficiale Game Disc 18 - Luglio 2003 (Italy) (En,Fr,Es,It,Pt)": {
-        "languages": "En, Fr, It, Pt, Es"
     },
     "Xbox Magazine Ufficiale Game Disc 49 - Dicembre 2005 (Italy) (En,Fr,De,Es,It,Pt)": {
         "languages": "En, Fr, De, It, Pt, Es"

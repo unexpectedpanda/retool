@@ -62,7 +62,13 @@
 	},
 
 	"removes": {
-		"Final Fantasy I, II (Japan)": {}
+		"Final Fantasy I, II (Japan)": {},
+		"Jay and Silent Bob - Mall Brawl (World) (Steam) (Aftermarket) (Unl)": {
+			"match": "full"
+		},
+		"Jay and Silent Bob - Mall Brawl (World) (Switch) (Aftermarket) (Unl)": {
+			"match": "full"
+		}
 	},
 
 	"renames": {
@@ -990,7 +996,8 @@
 			["Superman", 1]
 		],
 		"Tag Team Wrestling": [
-			["Tag Team Pro-Wrestling", 1]
+			["Tag Team Pro-Wrestling", 1],
+			["Tag Team Pro-Wrestling Special", 2]
 		],
 		"Tagin' Dragon": [
 			["Colorful Dragon", 1]

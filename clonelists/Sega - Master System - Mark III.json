@@ -3,8 +3,19 @@
 		"name": [
 			"Sega - Master System - Mark III"
 		],
-		"last updated": "11 September 2021",
-		"minimum version": "0.89"
+		"last updated": "22 October 2021",
+		"minimum version": "0.92"
+	},
+
+	"categories": {
+		"Color & Switch Test": {
+			"match": "short",
+			"categories": ["Applications", "Preproduction"]
+		},
+		"Sega Graphic Board": {
+			"match": "short",
+			"categories": ["Applications", "Preproduction"]
+		}
 	},
 
 	"overrides": {

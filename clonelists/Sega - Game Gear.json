@@ -3,7 +3,7 @@
 		"name": [
 			"Sega - Game Gear"
 		],
-		"last updated": "9 April 2021",
+		"last updated": "22 October 2021",
 		"minimum version": "0.89"
 	},
 
@@ -65,6 +65,9 @@
 		],
 		"George Foreman's KO Boxing": [
 			["Heavy Weight Champ", 1]
+		],
+		"GG Aleste II ~ Power Strike II": [
+			["GG Aleste II", 1]
 		],
 		"GG Shinobi, The ~ Shinobi": [
 			["GG Shinobi, The", 1]

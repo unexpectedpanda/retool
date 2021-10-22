@@ -110,7 +110,7 @@
 	"King of Fighters R-2 - Pocket Fighting Series (World) (En,Ja) (Demo)": {
 		"languages": "En,Ja"
 	},
-	"King of Fighters R-2 Version 2 - Pocket Fighting Series (Japan) (En,Ja) (Beta)": {
+	"King of Fighters R-2 Version 2 - Pocket Fighting Series (Japan) (En,Ja) (Demo)": {
 		"languages": "En,Ja"
 	},
 	"King of Fighters, The - Battle de Paradise (Japan)": {
@@ -128,7 +128,7 @@
 	"Magical Drop Pocket (USA, Europe)": {
 		"languages": "En"
 	},
-	"Magical Drop Pocket (Japan) (Beta)": {
+	"Magical Drop Pocket (Japan) (Demo)": {
 		"languages": "Ja"
 	},
 	"Memories Off - Pure (Japan)": {
@@ -179,10 +179,10 @@
 	"Neo Mystery Bonus - Pocket Casino Series (World) (En,Ja)": {
 		"languages": "En,Ja"
 	},
-	"Neo Poke Pro Yakyuu (Japan)": {
+	"Neo Poke Pro Yakyuu (Japan) (v32)": {
 		"languages": "Ja"
 	},
-	"Neo Poke Pro Yakyuu (Japan) (v1.1)": {
+	"Neo Poke Pro Yakyuu (Japan) (v1F)": {
 		"languages": "Ja"
 	},
 	"Neo Turf Masters (World) (En,Ja)": {
@@ -221,13 +221,13 @@
 	"Pachi-Slot Aruze Oukoku Pocket - Hanabi (Japan)": {
 		"languages": "Ja"
 	},
-	"Pachi-Slot Aruze Oukoku Pocket - Ohhanabi (Japan)": {
-		"languages": "Ja"
-	},
-	"Pachi-Slot Aruze Oukoku Pocket - Porcano 2 (Japan)": {
+	"Pachi-Slot Aruze Oukoku Pocket - Ohanabi (Japan)": {
 		"languages": "Ja"
 	},
 	"Pachi-Slot Aruze Oukoku Pocket - Ward of Lights (Japan)": {
+		"languages": "Ja"
+	},
+	"Pachi-slot Aruze Oukoku Porcano 2 (Japan) [b]": {
 		"languages": "Ja"
 	},
 	"Pachinko Hisshou Guide - Pocket Parlor (Japan)": {
@@ -257,7 +257,7 @@
 	"PP-AA01 - Pusher - Program - Hontai Controller Gawa (Japan)": {
 		"languages": "Ja"
 	},
-	"Puyo Pop (World) (En,Ja) (Beta)": {
+	"Puyo Pop (World) (En,Ja) (v1.05)": {
 		"languages": "En,Ja"
 	},
 	"Puyo Pop (World) (En,Ja)": {
@@ -266,7 +266,7 @@
 	"Puzzle Bobble Mini (Japan, Europe)": {
 		"languages": "En"
 	},
-	"Puzzle Bobble Mini (Japan, Europe) (En,Ja) (Beta)": {
+	"Puzzle Bobble Mini (Japan, Europe) (En,Ja) (Demo)": {
 		"languages": "En,Ja"
 	},
 	"Puzzle Link (USA, Europe)": {
@@ -334,6 +334,9 @@
 	},
 	"SNK vs. Capcom - The Match of the Millennium (World) (En,Ja)": {
 		"languages": "En,Ja"
+	},
+	"SNK vs. Capcom - The Match of the Millennium (Japan) (Demo)": {
+		"languages": "Ja"
 	},
 	"Sonic The Hedgehog - Pocket Adventure (World)": {
 		"languages": "En"

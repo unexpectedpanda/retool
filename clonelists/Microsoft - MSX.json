@@ -3,7 +3,7 @@
 		"name": [
 			"Microsoft - MSX"
 		],
-		"last updated": "10 May 2021",
+		"last updated": "22 October 2021",
 		"minimum version": "0.92"
 	},
 
@@ -13,6 +13,10 @@
 			"categories": ["Applications"]
 		},
 		"Basic Lessons 2": {
+			"match": "short",
+			"categories": ["Applications"]
+		},
+		"Computer Nyuumon - Computer Lessons": {
 			"match": "short",
 			"categories": ["Applications"]
 		}

@@ -3,13 +3,9 @@
         "name": [
 			"Sony - PlayStation 2"
 		],
-        "last updated": "10 October 2021",
+        "last updated": "22 October 2021",
 		"minimum version": "0.89"
     },
-
-    "removes": {
-        "King of Fighters 2000-2001, The (Europe)": {}
-	},
 
 	"overrides": {
 		"Dragon Blaze (Europe)": {
@@ -45,6 +41,10 @@
 			"new group": "Silent Hill 2 - Director's Cut",
 			"match": "full"
 		}
+	},
+
+	"removes": {
+        "King of Fighters 2000-2001, The (Europe)": {}
 	},
 
     "renames": {
@@ -1188,15 +1188,6 @@
 		"Gran Turismo Concept - 2002 Tokyo-Geneva": [
 			["Gran Turismo Concept - 2002 Tokyo-Geneva (SCPS-55903)", 1],
 			["Gran Turismo Concept - 2002 Tokyo-Geneva (SCPS-55902)", 2]
-		],
-		"Grand Theft Auto - San Andreas (Rockstar Classics)": [
-			["Grand Theft Auto - San Andreas", 2]
-		],
-		"Grand Theft Auto - Vice City (Rockstar Classics)": [
-			["Grand Theft Auto - Vice City", 2]
-		],
-		"Grand Theft Auto III (Rockstar Classics)": [
-			["Grand Theft Auto III", 2]
 		],
 		"Great British Football Quiz, The": [
 			["Grande quiz sul calcio italiano, Il", 1],
@@ -3041,6 +3032,7 @@
 		"World Tour Soccer 2003": [
 			["Monde des Bleus 2003, Le - Un Nouveau Defi", 1],
 			["This Is Football 2003", 1],
+			["This Is Football - Segye Choegang Chukgu 2003", 1],
 			["This Is Football - Soccer Sekai Senki 2003", 1]
 		],
 		"World Tour Soccer 2005": [

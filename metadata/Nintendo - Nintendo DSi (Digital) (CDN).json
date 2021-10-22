@@ -2783,11 +2783,11 @@
 	"Jewel Legends - Tree of Life (USA) (En,Fr,Es)": {
 		"languages": "En,Fr,Es"
 	},
-	"Jewel Match (USA) (En,Fr)": {
-		"languages": "En,Fr"
-	},
 	"Jewel Match (Europe)": {
 		"languages": "En"
+	},
+	"Jewel Match (USA) (En,Fr)": {
+		"languages": "En,Fr"
 	},
 	"Jewel Quest 4 Heritage (Europe) (En,Fr,De,Nl)": {
 		"languages": "En,Fr,De,Nl"
@@ -3392,10 +3392,10 @@
 	"myNotebook Blue (USA)": {
 		"languages": "En"
 	},
-	"myNotebook Carbon (Europe, Australia)": {
+	"myNotebook Carbon (USA)": {
 		"languages": "En"
 	},
-	"myNotebook Carbon (USA)": {
+	"myNotebook Carbon (Europe, Australia)": {
 		"languages": "En"
 	},
 	"myNotebook Green (Europe, Australia)": {
@@ -3608,9 +3608,6 @@
 	"Nintendo DSi Tokei - Futo Sutando Taipu (Japan)": {
 		"languages": "Ja"
 	},
-	"Nintendo Zon (Japan) (System)": {
-		"languages": "Ja"
-	},
 	"Nintendo Zone (USA) (System)": {
 		"languages": "En"
 	},
@@ -3619,6 +3616,9 @@
 	},
 	"Nintendo Zone (Europe) (De) (System)": {
 		"languages": "De"
+	},
+	"Nintendo Zone (Japan) (System)": {
+		"languages": "Ja"
 	},
 	"Nokkuau to Pi Puruzu (Japan)": {
 		"languages": "Ja"
@@ -4331,7 +4331,7 @@
 	"Scrabble - Slam! (USA)": {
 		"languages": "En"
 	},
-	"Scrabble - Tools (USA)": {
+	"Scrabble Tools (USA)": {
 		"languages": "En"
 	},
 	"Sea Battle (Europe) (En,Fr,De,Es,It)": {
@@ -4505,7 +4505,7 @@
 	"Somnium - Art Style Shirizu (Japan)": {
 		"languages": "Ja"
 	},
-	"Sorao Kakeru Shoujo Shutengu (Japan)": {
+	"Sora o Kakeru Shoujo Shooting (Japan)": {
 		"languages": "Ja"
 	},
 	"Soritea DSi (Japan)": {

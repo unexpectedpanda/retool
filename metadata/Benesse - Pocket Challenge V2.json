@@ -1,4 +1,7 @@
 {
+	"Koukou Juken V Pack - Koukou Juken (5kamoku), Koukou Juken EX (Goukaku Tokukou 700) Kanzen Taiou Ban (Japan) (5FI900)": {
+		"languages": "Ja"
+	},
 	"Shinkenzemi Chuugaku Kouza - Chuu 1 Eisuukoku Pack (Japan) (6FP101)": {
 		"languages": "Ja"
 	},
@@ -8,16 +11,28 @@
 	"Shinkenzemi Chuugaku Kouza - Chuu 1 Eisuukoku Pack (Japan) (6FP105)": {
 		"languages": "Ja"
 	},
-	"Shinkenzemi Chuugaku Kouza - Chuu 1 English (Japan) (2BB113)": {
+	"Shinkenzemi Chuugaku Kouza - Chuu 1 Eisuukoku Pack (New Crown, Total English Taiou ban) (Japan) (4BB113)": {
+		"languages": "Ja"
+	},
+	"Shinkenzemi Chuugaku Kouza - Chuu 1 Eisuukoku Pack (Sunshine, One World Taiou ban) (Japan)": {
 		"languages": "Ja"
 	},
 	"Shinkenzemi Chuugaku Kouza - Chuu 1 English (Japan) (3BB113)": {
 		"languages": "Ja"
 	},
-	"Shinkenzemi Chuugaku Kouza - Chuu 1 Kokugo-Hyakunin Isshu (Japan)": {
+	"Shinkenzemi Chuugaku Kouza - Chuu 1 English (Japan) (2BB113)": {
 		"languages": "Ja"
 	},
-	"Shinkenzemi Chuugaku Kouza - Chuu 1 Suugaku (Japan)": {
+	"Shinkenzemi Chuugaku Kouza - Chuu 1 English (Japan) (3BB111)": {
+		"languages": "Ja"
+	},
+	"Shinkenzemi Chuugaku Kouza - Chuu 1 English (New Horizon, Columbus21 Taiou Ban) (Japan) (4BB111)": {
+		"languages": "Ja"
+	},
+	"Shinkenzemi Chuugaku Kouza - Chuu 1 Kokugo-Hyakunin Isshu (Japan) (2BK401)": {
+		"languages": "Ja"
+	},
+	"Shinkenzemi Chuugaku Kouza - Chuu 1 Suugaku (Japan) (2BM110)": {
 		"languages": "Ja"
 	},
 	"Shinkenzemi Chuugaku Kouza - Chuu 2 Eisuukoku Pack (New Crown, Total English Taiou ban) (Japan) (4BP203)": {
@@ -26,7 +41,19 @@
 	"Shinkenzemi Chuugaku Kouza - Chuu 2 Eisuukoku Pack (New Crown, Total English Taiou ban) (Japan) (6FP203)": {
 		"languages": "Ja"
 	},
+	"Shinkenzemi Chuugaku Kouza - Chuu 2 Eisuukoku Pack (New Horizon, Columbus21 Taiou ban) (Japan) (6FP211)": {
+		"languages": "Ja"
+	},
 	"Shinkenzemi Chuugaku Kouza - Chuu 2 Eisuukoku Pack (Sunshine, One World Taiou ban) (Japan) (6FP212)": {
+		"languages": "Ja"
+	},
+	"Shinkenzemi Chuugaku Kouza - Chuu 2 English (New Crown, Total English Taiou Ban) (Japan) (3BB213)": {
+		"languages": "Ja"
+	},
+	"Shinkenzemi Chuugaku Kouza - Chuu 2 Kokugo (Japan) (3BK210)": {
+		"languages": "Ja"
+	},
+	"Shinkenzemi Chuugaku Kouza - Chuu 2 Suugaku (Japan) (3BM210)": {
 		"languages": "Ja"
 	},
 	"Shinkenzemi Chuugaku Kouza - Chuu 3 Ei-Suu-Koumin Pack (New Crown, Total English Taiou ban) (Japan) (6FP313)": {
@@ -35,10 +62,22 @@
 	"Shinkenzemi Chuugaku Kouza - Chuu 3 Ei-Suu-Koumin Pack (New Crown, Total English Taiou ban) (Japan) (5FP303) [b]": {
 		"languages": "Ja"
 	},
+	"Shinkenzemi Chuugaku Kouza - Chuu 3 Ei-Suu-Koumin Pack (New Horizon, Columbus21 Taiou ban) (Japan) (5FP301)": {
+		"languages": "Ja"
+	},
+	"Shinkenzemi Chuugaku Kouza - Chuu 3 English (New Crown, Total English Taiou Ban) (Japan) (4BB313)": {
+		"languages": "Ja"
+	},
+	"Shinkenzemi Chuugaku Kouza - Chuu 3 Suugaku (Japan) (4BM310)": {
+		"languages": "Ja"
+	},
 	"Shinkenzemi Chuugaku Kouza - Chuugaku Chiri (Japan) (4BD410)": {
 		"languages": "Ja"
 	},
 	"Shinkenzemi Chuugaku Kouza - Chuugaku Chiri - Chuugaku Rekishi Pack (Japan) (2BD400)": {
+		"languages": "Ja"
+	},
+	"Shinkenzemi Chuugaku Kouza - Chuugaku Chiri - Chuugaku Rekishi Pack (Japan) (6FD401)": {
 		"languages": "Ja"
 	},
 	"Shinkenzemi Chuugaku Kouza - Chuugaku Chiri - Chuugaku Rekishi Pack (Japan) (4BD400)": {
@@ -47,7 +86,10 @@
 	"Shinkenzemi Chuugaku Kouza - Chuugaku Chiri - Chuugaku Rekishi Pack (Japan) (6FD400)": {
 		"languages": "Ja"
 	},
-	"Shinkenzemi Chuugaku Kouza - Chuugaku Chiri - Chuugaku Rekishi Pack (Japan) (6FD401)": {
+	"Shinkenzemi Chuugaku Kouza - Chuugaku Koumin (Japan) (4BE310)": {
+		"languages": "Ja"
+	},
+	"Shinkenzemi Chuugaku Kouza - Chuugaku Rekishi (Japan) (2BC410)": {
 		"languages": "Ja"
 	},
 	"Shinkenzemi Chuugaku Kouza - Chuugaku Rika (1-bunya) (Japan) (5FF411)": {
@@ -62,6 +104,9 @@
 	"Shinkenzemi Chuugaku Kouza - Chuugaku Rika (2-bunya) (Japan) (6FF422)": {
 		"languages": "Ja"
 	},
+	"Shinkenzemi Chuugaku Kouza - Chuugaku Rika Pack (Japan) (6FF401)": {
+		"languages": "Ja"
+	},
 	"Shinkenzemi Chuugaku Kouza - Chuugaku Rika Pack (Japan) (2BF400)": {
 		"languages": "Ja"
 	},
@@ -71,19 +116,10 @@
 	"Shinkenzemi Chuugaku Kouza - Chuugaku Rika Pack (Japan) (5FF400)": {
 		"languages": "Ja"
 	},
-	"Shinkenzemi Chuugaku Kouza - Chuugaku Rika Pack (Japan) (6FF401)": {
-		"languages": "Ja"
-	},
 	"Shinkenzemi Chuugaku Kouza - Chuugaku Rika Pack (Japan) (6FF420)": {
 		"languages": "Ja"
 	},
-	"Shinkenzemi Chuugaku Kouza - Eiken 3 Kyuu-4 Kyuu (Japan)": {
-		"languages": "Ja"
-	},
-	"Shinkenzemi Chuugaku Kouza - Jitsugi 4 Kyouka (Japan) (2BG410)": {
-		"languages": "Ja"
-	},
-	"Shinkenzemi Chuugaku Kouza - Jitsugi 4 Kyouka (Japan) (3BG410)": {
+	"Shinkenzemi Chuugaku Kouza - Eiken 3 Kyuu-4 Kyuu (Japan) (2BK931)": {
 		"languages": "Ja"
 	},
 	"Shinkenzemi Chuugaku Kouza - Jitsugi 4 Kyouka (Japan) (6FG402)": {
@@ -92,16 +128,34 @@
 	"Shinkenzemi Chuugaku Kouza - Jitsugi 4 Kyouka (Japan) (5FG410)": {
 		"languages": "Ja"
 	},
-	"Shinkenzemi Chuugaku Kouza - Kanken 3 Kyuu-4 Kyuu-5 Kyuu (Japan)": {
+	"Shinkenzemi Chuugaku Kouza - Jitsugi 4 Kyouka (Japan) (6FG410)": {
 		"languages": "Ja"
 	},
-	"Shinkenzemi Chuugaku Kouza - Koukou Juken 5 Kyouka Pack + Nyuushi Theme Betsu Tokkou (Japan)": {
+	"Shinkenzemi Chuugaku Kouza - Jitsugi 4 Kyouka (Japan) (3BG410)": {
 		"languages": "Ja"
 	},
-	"Shinkenzemi Chuugaku Kouza - Koukou Juken EX (Goukaku Tokkou 700) (Japan)": {
+	"Shinkenzemi Chuugaku Kouza - Jitsugi 4 Kyouka (Japan) (2BG410)": {
 		"languages": "Ja"
 	},
-	"Shinkenzemi Chuugaku Kouza - Shougakkou Soumatome (Koku San Ri Sha) + Chuu 1 Eisuukoku Pack (Japan)": {
+	"Shinkenzemi Chuugaku Kouza - Kanken 3 Kyuu-4 Kyuu-5 Kyuu (Japan) (6FK940)": {
+		"languages": "Ja"
+	},
+	"Shinkenzemi Chuugaku Kouza - Koukou Juken (5 Kyouka) (Japan) (5FI710)": {
+		"languages": "Ja"
+	},
+	"Shinkenzemi Chuugaku Kouza - Koukou Juken (5 Kyouka) (Japan) (4BI716)": {
+		"languages": "Ja"
+	},
+	"Shinkenzemi Chuugaku Kouza - Koukou Juken (5 Kyouka) (Japan) (4BI710)": {
+		"languages": "Ja"
+	},
+	"Shinkenzemi Chuugaku Kouza - Koukou Juken 5 Kyouka Pack + Nyuushi Theme Betsu Tokkou (Japan) (6FI901)": {
+		"languages": "Ja"
+	},
+	"Shinkenzemi Chuugaku Kouza - Koukou Juken EX (Goukaku Tokukou 700) (Japan) (4FI720)": {
+		"languages": "Ja"
+	},
+	"Shinkenzemi Chuugaku Kouza - Shougakkou Soumatome (Koku San Ri Sha) + Chuu 1 Eisuukoku Pack (Japan) (6FP104)": {
 		"languages": "Ja"
 	}
 }

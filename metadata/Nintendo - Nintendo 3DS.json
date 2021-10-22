@@ -101,10 +101,10 @@
 	"Adventure Time - Finn & Jake Investigations (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
 	},
-	"Adventure Time - Hey Ice King! Why'd You Steal Our Garbage!! (USA)": {
+	"Adventure Time - Hey Ice King! Why'd You Steal Our Garbage!! (USA) (Rev 1)": {
 		"languages": "En"
 	},
-	"Adventure Time - Hey Ice King! Why'd You Steal Our Garbage!! (USA) (Rev 1)": {
+	"Adventure Time - Hey Ice King! Why'd You Steal Our Garbage!! (USA)": {
 		"languages": "En"
 	},
 	"Adventure Time - Nameless Oukoku no Sannin no Princess (Japan)": {
@@ -239,11 +239,11 @@
 	"Armed Blue Gunvolt - Striker Pack (Japan)": {
 		"languages": "Ja"
 	},
-	"Around the World with Hello Kitty & Friends (Europe) (En,Fr,De,Es,It)": {
-		"languages": "En,Fr,De,Es,It"
-	},
 	"Around the World with Hello Kitty & Friends (Europe) (En,Sv,No,Da,Fi)": {
 		"languages": "En,Sv,No,Da,Fi"
+	},
+	"Around the World with Hello Kitty & Friends (Europe) (En,Fr,De,Es,It)": {
+		"languages": "En,Fr,De,Es,It"
 	},
 	"Art Academy - Lessons for Everyone (USA) (En,Fr,Es)": {
 		"languages": "En,Fr,Es"
@@ -251,13 +251,13 @@
 	"Asonde Shogi ga Tsuyokunaru! Ginsei Shogi DX (Japan)": {
 		"languages": "Ja"
 	},
+	"Asphalt 3D (USA) (En,Fr,Es) (Demo) (Kiosk)": {
+		"languages": "En,Fr,Es"
+	},
 	"Asphalt 3D (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
 	},
 	"Asphalt 3D (USA) (En,Fr,Es)": {
-		"languages": "En,Fr,Es"
-	},
-	"Asphalt 3D (USA) (En,Fr,Es) (Demo) (Kiosk)": {
 		"languages": "En,Fr,Es"
 	},
 	"Asphalt 3D - Nitro Racing (Japan)": {
@@ -371,10 +371,10 @@
 	"Beyblade Burst God (Japan)": {
 		"languages": "Ja"
 	},
-	"Bibi & Tina - Das Spiel zum Kinofilm (Germany)": {
+	"Bibi & Tina - Das Spiel zum Kinofilm (Germany) (Rev 1)": {
 		"languages": "De"
 	},
-	"Bibi & Tina - Das Spiel zum Kinofilm (Germany) (Rev 1)": {
+	"Bibi & Tina - Das Spiel zum Kinofilm (Germany)": {
 		"languages": "De"
 	},
 	"Bibi Blocksberg - Das grosse Hexenbesen-Rennen 2 (Germany)": {
@@ -407,13 +407,13 @@
 	"Biohazard - Revelations (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
-	"Biohazard - The Mercenaries 3D (Japan)": {
-		"languages": "Ja"
-	},
 	"Biohazard - The Mercenaries 3D (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
 	"Biohazard - The Mercenaries 3D (Japan) (Rev 2)": {
+		"languages": "Ja"
+	},
+	"Biohazard - The Mercenaries 3D (Japan)": {
 		"languages": "Ja"
 	},
 	"Bit.Trip Saga (USA)": {
@@ -470,10 +470,10 @@
 	"Bokujou Monogatari - Futago no Mura + (Japan)": {
 		"languages": "Ja"
 	},
-	"Bokujou Monogatari - Hajimari no Daichi (Japan)": {
+	"Bokujou Monogatari - Hajimari no Daichi (Japan) (Rev 2)": {
 		"languages": "Ja"
 	},
-	"Bokujou Monogatari - Hajimari no Daichi (Japan) (Rev 2)": {
+	"Bokujou Monogatari - Hajimari no Daichi (Japan)": {
 		"languages": "Ja"
 	},
 	"Bokujou Monogatari - Tsunagaru Shin Tenchi (Japan)": {
@@ -746,13 +746,13 @@
 	"Crash Time 3D (Europe) (En,Fr,De,It)": {
 		"languages": "En,Fr,De,It"
 	},
-	"Crayon Shin Chan - Arashi wo Yobu Kasukabe Eiga Stars! (Japan)": {
+	"Crayon Shin-chan - Arashi wo Yobu Kasukabe Eiga Stars! (Japan)": {
 		"languages": "Ja"
 	},
-	"Crayon Shin-Chan - Gekiatsu! Oden wa Rudo Dai Konran!! (Japan)": {
+	"Crayon Shin-chan - Gekiatsu! Oden wa Rudo Dai Konran!! (Japan)": {
 		"languages": "Ja"
 	},
-	"Crayon Shin-Chan - Uchuu de Achoo! - Yuujou no Oba-Karate!! (Japan)": {
+	"Crayon Shin-chan - Uchuu de Achoo! - Yuujou no Oba-Karate!! (Japan)": {
 		"languages": "Ja"
 	},
 	"Crazy Construction (Europe) (En,Fr,De)": {
@@ -839,10 +839,10 @@
 	"Daisenryaku Daitoua Koboshi DX - Dainiji Sekai Taisen (Japan)": {
 		"languages": "Ja"
 	},
-	"Danball Senki Baku Boost (Japan) (Rev 1)": {
+	"Danball Senki Baku Boost (Japan)": {
 		"languages": "Ja"
 	},
-	"Danball Senki Baku Boost (Japan)": {
+	"Danball Senki Baku Boost (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
 	"Danball Senki W Super Custom (Japan)": {
@@ -860,6 +860,9 @@
 	"Dead Heat Breakers, The (Japan)": {
 		"languages": "Ja"
 	},
+	"Dead or Alive - Dimensions (Europe) (En,Fr,De,Es,It) (Demo) (Kiosk)": {
+		"languages": "En,Fr,De,Es,It"
+	},
 	"Dead or Alive - Dimensions (Europe) (En,Ja,Fr,De,Es,It)": {
 		"languages": "En,Ja,Fr,De,Es,It"
 	},
@@ -871,9 +874,6 @@
 	},
 	"Dead or Alive - Dimensions (USA) (En,Fr,Es) (Demo) (Kiosk)": {
 		"languages": "En,Fr,Es"
-	},
-	"Dead or Alive - Dimensions (Europe) (En,Fr,De,Es,It) (Demo) (Kiosk)": {
-		"languages": "En,Fr,De,Es,It"
 	},
 	"Deca Sporta - 3D Sports (Japan)": {
 		"languages": "Ja"
@@ -896,10 +896,10 @@
 	"Detective Pikachu (USA) (En,Ja,Fr,De,Es,It,Zh)": {
 		"languages": "En,Ja,Fr,De,Es,It,Zh"
 	},
-	"Devil Summoner - Soul Hackers (Japan)": {
+	"Devil Summoner - Soul Hackers (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
-	"Devil Summoner - Soul Hackers (Japan) (Rev 1)": {
+	"Devil Summoner - Soul Hackers (Japan)": {
 		"languages": "Ja"
 	},
 	"Devil Survivor - Over Clock (Japan)": {
@@ -983,17 +983,23 @@
 	"Disney Magic Castle - My Happy Life 2 (Japan)": {
 		"languages": "Ja"
 	},
-	"Disney Magical World (USA)": {
-		"languages": "En"
-	},
 	"Disney Magical World (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
+	},
+	"Disney Magical World (USA)": {
+		"languages": "En"
 	},
 	"Disney Magical World 2 (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
 	},
 	"Disney Magical World 2 (USA)": {
 		"languages": "En"
+	},
+	"Disney Planes (Russia) (En,Ru)": {
+		"languages": "En,Ru"
+	},
+	"Disney Planes (Europe) (Fr,Nl)": {
+		"languages": "Fr,Nl"
 	},
 	"Disney Planes (Europe) (En,Fr,De,Es,It,Nl)": {
 		"languages": "En,Fr,De,Es,It,Nl"
@@ -1004,17 +1010,14 @@
 	"Disney Planes (Europe) (En,Sv,No,Da,Fi)": {
 		"languages": "En,Sv,No,Da,Fi"
 	},
-	"Disney Planes (Russia) (En,Ru)": {
-		"languages": "En,Ru"
-	},
-	"Disney Planes (Europe) (Fr,Nl)": {
-		"languages": "Fr,Nl"
-	},
 	"Disney Planes - Fire & Rescue (USA) (En,Fr,Es,Pt)": {
 		"languages": "En,Fr,Es,Pt"
 	},
 	"Disney Planes - Fire & Rescue (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
+	},
+	"Disney Princess - My Fairytale Adventure (Spain) (En,Es)": {
+		"languages": "En,Es"
 	},
 	"Disney Princess - My Fairytale Adventure (Europe) (Fr,De,It)": {
 		"languages": "Fr,De,It"
@@ -1295,14 +1298,14 @@
 	"Famicom Remix Best Choice (Japan)": {
 		"languages": "Ja"
 	},
-	"Fantasy Life (Japan)": {
-		"languages": "Ja"
-	},
 	"Fantasy Life (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
 	},
 	"Fantasy Life (USA)": {
 		"languages": "En"
+	},
+	"Fantasy Life (Japan)": {
+		"languages": "Ja"
 	},
 	"Fantasy Life Link! (Japan)": {
 		"languages": "Ja"
@@ -1343,17 +1346,17 @@
 	"Fate Kaleid Liner - Prisma Illya (Japan)": {
 		"languages": "Ja"
 	},
-	"FIFA 12 (Europe) (En,Fr,Nl)": {
-		"languages": "En,Fr,Nl"
-	},
-	"FIFA 12 (Europe) (De,Es,It)": {
-		"languages": "De,Es,It"
-	},
 	"FIFA 12 (Europe) (De,Es,It) (Rev 1)": {
 		"languages": "De,Es,It"
 	},
 	"FIFA 12 (Europe) (En,Fr,Nl) (Rev 1)": {
 		"languages": "En,Fr,Nl"
+	},
+	"FIFA 12 (Europe) (En,Fr,Nl)": {
+		"languages": "En,Fr,Nl"
+	},
+	"FIFA 12 (Europe) (De,Es,It)": {
+		"languages": "De,Es,It"
 	},
 	"FIFA 13 (Europe) (En,Fr,Nl)": {
 		"languages": "En,Fr,Nl"
@@ -1463,10 +1466,10 @@
 	"Fireman Sam - To the Rescue (Europe) (En,Fr,De,Es,It,Nl)": {
 		"languages": "En,Fr,De,Es,It,Nl"
 	},
-	"Fish Eyes 3D (Japan)": {
+	"Fish Eyes 3D (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
-	"Fish Eyes 3D (Japan) (Rev 1)": {
+	"Fish Eyes 3D (Japan)": {
 		"languages": "Ja"
 	},
 	"Fishing 3D (Japan)": {
@@ -1709,16 +1712,16 @@
 	"Harvest Moon 3D - The Lost Valley (USA)": {
 		"languages": "En"
 	},
-	"Harvest Moon 3D - The Tale of Two Towns (USA)": {
-		"languages": "En"
-	},
-	"Harvest Moon 3D - The Tale of Two Towns (Europe) (En,Fr,De)": {
-		"languages": "En,Fr,De"
-	},
 	"Harvest Moon 3D - The Tale of Two Towns (USA) (Rev 2)": {
 		"languages": "En"
 	},
 	"Harvest Moon 3D - The Tale of Two Towns (Europe) (En,Fr,De) (Rev 1)": {
+		"languages": "En,Fr,De"
+	},
+	"Harvest Moon 3D - The Tale of Two Towns (USA)": {
+		"languages": "En"
+	},
+	"Harvest Moon 3D - The Tale of Two Towns (Europe) (En,Fr,De)": {
 		"languages": "En,Fr,De"
 	},
 	"Hatsune Miku - Project Mirai 2 (Japan)": {
@@ -1835,10 +1838,10 @@
 	"Hoppe-chan - Punitto Shibotte Daibouken! (Japan)": {
 		"languages": "Ja"
 	},
-	"Hoppe-chan - Tsukutte! Asonde! Punipuni Town!! (Japan) (Rev 1)": {
+	"Hoppe-chan - Tsukutte! Asonde! Punipuni Town!! (Japan)": {
 		"languages": "Ja"
 	},
-	"Hoppe-chan - Tsukutte! Asonde! Punipuni Town!! (Japan)": {
+	"Hoppe-chan - Tsukutte! Asonde! Punipuni Town!! (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
 	"Horrid Henry - The Good, the Bad & the Bugly (Europe)": {
@@ -1967,11 +1970,11 @@
 	"Inazuma Eleven 3 - Lightning Bolt (Europe) (En,Es,It)": {
 		"languages": "En,Es,It"
 	},
-	"Inazuma Eleven 3 - Team Ogre Attacks! (Europe) (En,Fr,De)": {
-		"languages": "En,Fr,De"
-	},
 	"Inazuma Eleven 3 - Team Ogre Attacks! (Europe) (En,Es,It)": {
 		"languages": "En,Es,It"
+	},
+	"Inazuma Eleven 3 - Team Ogre Attacks! (Europe) (En,Fr,De)": {
+		"languages": "En,Fr,De"
 	},
 	"Inazuma Eleven GO - Chrono Stones - Thunderflash (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
@@ -2180,17 +2183,17 @@
 	"Kirby - Planet Robobot (Europe) (Demo) (Kiosk)": {
 		"languages": "En"
 	},
-	"Kirby - Triple Deluxe (USA) (En,Fr,Es)": {
-		"languages": "En,Fr,Es"
-	},
-	"Kirby - Triple Deluxe (Europe) (En,Fr,De,Es,It)": {
-		"languages": "En,Fr,De,Es,It"
-	},
 	"Kirby - Triple Deluxe (Europe) (En,Fr,De,Es,It) (Demo) (Kiosk)": {
 		"languages": "En,Fr,De,Es,It"
 	},
 	"Kirby - Triple Deluxe (USA) (En,Fr,Es) (Demo) (Kiosk)": {
 		"languages": "En,Fr,Es"
+	},
+	"Kirby - Triple Deluxe (USA) (En,Fr,Es)": {
+		"languages": "En,Fr,Es"
+	},
+	"Kirby - Triple Deluxe (Europe) (En,Fr,De,Es,It)": {
+		"languages": "En,Fr,De,Es,It"
 	},
 	"Kirby Battle Deluxe (Japan)": {
 		"languages": "Ja"
@@ -2210,8 +2213,8 @@
 	"Kirby's Extra Epic Yarn (USA) (En,Fr,Es)": {
 		"languages": "En,Fr,Es"
 	},
-	"Kirby's Extra Epic Yarn (World) (Demo) (Kiosk)": {
-		"languages": "En"
+	"Kirby's Extra Epic Yarn (USA) (En,Fr,Es) (Demo) (Kiosk)": {
+		"languages": "En,Fr,Es"
 	},
 	"Kobayashi ga Kawai Sugite Tsurai!! Game Demo Kyun Moe MAX ga Tomaranai (Japan)": {
 		"languages": "Ja"
@@ -2330,6 +2333,9 @@
 	"Legend of Legacy, The (Europe)": {
 		"languages": "En"
 	},
+	"Legend of Zelda, The - A Link Between Worlds (Europe) (En,Fr,De,Es,It,Nl) (Demo) (Kiosk)": {
+		"languages": "En,Fr,De,Es,It,Nl"
+	},
 	"Legend of Zelda, The - A Link Between Worlds (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
 	},
@@ -2338,9 +2344,6 @@
 	},
 	"Legend of Zelda, The - A Link Between Worlds (USA) (En,Fr,Es) (Demo) (Kiosk)": {
 		"languages": "En,Fr,Es"
-	},
-	"Legend of Zelda, The - A Link Between Worlds (Europe) (En,Fr,De,Es,It,Nl) (Demo) (Kiosk)": {
-		"languages": "En,Fr,De,Es,It,Nl"
 	},
 	"Legend of Zelda, The - Kamigami no Triforce 2 (Japan)": {
 		"languages": "Ja"
@@ -2363,6 +2366,15 @@
 	"Legend of Zelda, The - Majora's Mask 3D (Europe) (En,Fr,De,Es,It) (Rev 1)": {
 		"languages": "En,Fr,De,Es,It"
 	},
+	"Legend of Zelda, The - Ocarina of Time 3D (Europe) (En,Fr,De,Es,It) (Rev 1)": {
+		"languages": "En,Fr,De,Es,It"
+	},
+	"Legend of Zelda, The - Ocarina of Time 3D (USA) (En,Fr,Es) (Rev 1)": {
+		"languages": "En,Fr,Es"
+	},
+	"Legend of Zelda, The - Ocarina of Time 3D (Korea)": {
+		"languages": "Ko"
+	},
 	"Legend of Zelda, The - Ocarina of Time 3D (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
 	},
@@ -2377,15 +2389,6 @@
 	},
 	"Legend of Zelda, The - Ocarina of Time 3D (USA) (En,Fr,Es) (Demo) (Kiosk)": {
 		"languages": "En,Fr,Es"
-	},
-	"Legend of Zelda, The - Ocarina of Time 3D (Europe) (En,Fr,De,Es,It) (Rev 1)": {
-		"languages": "En,Fr,De,Es,It"
-	},
-	"Legend of Zelda, The - Ocarina of Time 3D (USA) (En,Fr,Es) (Rev 1)": {
-		"languages": "En,Fr,Es"
-	},
-	"Legend of Zelda, The - Ocarina of Time 3D (Korea)": {
-		"languages": "Ko"
 	},
 	"Legend of Zelda, The - Tri Force Heroes (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
@@ -2441,12 +2444,6 @@
 	"LEGO Batman 3 - The Game - Gotham kara Uchuu e (Japan)": {
 		"languages": "Ja"
 	},
-	"LEGO City Undercover - The Chase Begins (USA) (En,Fr,Es)": {
-		"languages": "En,Fr,Es"
-	},
-	"LEGO City Undercover - The Chase Begins (Europe) (En,Fr,De,Es,It,Nl,Pt,Da,Ru)": {
-		"languages": "En,Fr,De,Es,It,Nl,Pt,Da,Ru"
-	},
 	"LEGO City Undercover - The Chase Begins (Japan)": {
 		"languages": "Ja"
 	},
@@ -2455,6 +2452,12 @@
 	},
 	"LEGO City Undercover - The Chase Begins (USA) (Demo) (Kiosk)": {
 		"languages": "En"
+	},
+	"LEGO City Undercover - The Chase Begins (USA) (En,Fr,Es)": {
+		"languages": "En,Fr,Es"
+	},
+	"LEGO City Undercover - The Chase Begins (Europe) (En,Fr,De,Es,It,Nl,Pt,Da,Ru)": {
+		"languages": "En,Fr,De,Es,It,Nl,Pt,Da,Ru"
 	},
 	"LEGO Der Herr der Ringe (Germany) (En,Fr,De,Es,It,Nl,Da)": {
 		"languages": "En,Fr,De,Es,It,Nl,Da"
@@ -2537,14 +2540,14 @@
 	"LEGO Marvel Super Heroes - The Game (Japan)": {
 		"languages": "Ja"
 	},
+	"LEGO Marvel Super Heroes - Universe in Peril (USA) (En,Fr,Es,Pt) (Spanish-only Audio)": {
+		"languages": "En,Fr,Es,Pt"
+	},
 	"LEGO Marvel Super Heroes - Universe in Peril (USA) (En,Fr,Es,Pt) (English-only Audio)": {
 		"languages": "En,Fr,Es,Pt"
 	},
 	"LEGO Marvel Super Heroes - Universe in Peril (Europe) (En,Fr,De,Es,It,Nl,Da)": {
 		"languages": "En,Fr,De,Es,It,Nl,Da"
-	},
-	"LEGO Marvel Super Heroes - Universe in Peril (USA) (En,Fr,Es,Pt) (Spanish-only Audio)": {
-		"languages": "En,Fr,Es,Pt"
 	},
 	"LEGO Marvel Super Heroes - Universo en Peligro (Spain) (En,Fr,De,Es,It,Nl,Da)": {
 		"languages": "En,Fr,De,Es,It,Nl,Da"
@@ -2555,6 +2558,9 @@
 	"LEGO Marvel Vengadores (Spain) (En,Fr,De,Es,It,Nl,Da)": {
 		"languages": "En,Fr,De,Es,It,Nl,Da"
 	},
+	"LEGO Movie Videogame, The (Japan)": {
+		"languages": "Ja"
+	},
 	"LEGO Movie Videogame, The (USA) (En,Fr,Es,Pt)": {
 		"languages": "En,Fr,Es,Pt"
 	},
@@ -2563,9 +2569,6 @@
 	},
 	"LEGO Movie Videogame, The (Europe) (En,Fr,Es,It,Nl,Da)": {
 		"languages": "En,Fr,Es,It,Nl,Da"
-	},
-	"LEGO Movie Videogame, The (Japan)": {
-		"languages": "Ja"
 	},
 	"LEGO Ninjago - L'Ombre de Ronin (France) (En,Fr,De,Es,It,Nl,Da)": {
 		"languages": "En,Fr,De,Es,It,Nl,Da"
@@ -2606,16 +2609,16 @@
 	"LEGO Pelicula el Videojuego, La (Spain) (En,Fr,Es,It,Nl,Da)": {
 		"languages": "En,Fr,Es,It,Nl,Da"
 	},
-	"LEGO Pirates of the Caribbean - The Video Game (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da)": {
-		"languages": "En,Fr,De,Es,It,Nl,Sv,No,Da"
-	},
-	"LEGO Pirates of the Caribbean - The Video Game (USA) (En,Fr,Es)": {
-		"languages": "En,Fr,Es"
-	},
 	"LEGO Pirates of the Caribbean - The Video Game (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da) (Rev 1)": {
 		"languages": "En,Fr,De,Es,It,Nl,Sv,No,Da"
 	},
 	"LEGO Pirates of the Caribbean - The Video Game (USA) (En,Fr,Es) (Rev 1)": {
+		"languages": "En,Fr,Es"
+	},
+	"LEGO Pirates of the Caribbean - The Video Game (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da)": {
+		"languages": "En,Fr,De,Es,It,Nl,Sv,No,Da"
+	},
+	"LEGO Pirates of the Caribbean - The Video Game (USA) (En,Fr,Es)": {
 		"languages": "En,Fr,Es"
 	},
 	"LEGO Star Wars - Das Erwachen der Macht (Germany) (En,Fr,De,Es,It,Nl,Da)": {
@@ -2786,13 +2789,13 @@
 	"Mario & Luigi - Bowser's Inside Story + Bowser Jr.'s Journey (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
 	},
+	"Mario & Luigi - Dream Team (USA) (En,Fr,Es) (Rev 1)": {
+		"languages": "En,Fr,Es"
+	},
 	"Mario & Luigi - Dream Team (USA) (En,Fr,Es)": {
 		"languages": "En,Fr,Es"
 	},
 	"Mario & Luigi - Dream Team (USA) (En,Fr,Es) (Demo) (Kiosk)": {
-		"languages": "En,Fr,Es"
-	},
-	"Mario & Luigi - Dream Team (USA) (En,Fr,Es) (Rev 1)": {
 		"languages": "En,Fr,Es"
 	},
 	"Mario & Luigi - Dream Team Bros. (Europe) (En,Fr,De,Es,It,Nl,Pt,Ru)": {
@@ -2849,6 +2852,9 @@
 	"Mario & Sonic at the Rio 2016 Olympic Games (Europe) (Demo) (Kiosk)": {
 		"languages": "En"
 	},
+	"Mario Golf - World Tour (Europe) (En,Fr,De,Es,It,Nl,Pt,Ru) (Demo) (Kiosk)": {
+		"languages": "En,Fr,De,Es,It,Nl,Pt,Ru"
+	},
 	"Mario Golf - World Tour (Europe) (En,Fr,De,Es,It,Nl,Pt,Ru)": {
 		"languages": "En,Fr,De,Es,It,Nl,Pt,Ru"
 	},
@@ -2857,9 +2863,6 @@
 	},
 	"Mario Golf - World Tour (USA) (En,Fr,Es)": {
 		"languages": "En,Fr,Es"
-	},
-	"Mario Golf - World Tour (Europe) (En,Fr,De,Es,It,Nl,Pt,Ru) (Demo) (Kiosk)": {
-		"languages": "En,Fr,De,Es,It,Nl,Pt,Ru"
 	},
 	"Mario Kart 7 (Europe) (En,Fr,De,Es,It,Nl,Pt,Ru)": {
 		"languages": "En,Fr,De,Es,It,Nl,Pt,Ru"
@@ -2933,6 +2936,18 @@
 	"Mario Sports Superstars (Japan)": {
 		"languages": "Ja"
 	},
+	"Mario Tennis Open (USA) (Demo) (Kiosk)": {
+		"languages": "En"
+	},
+	"Mario Tennis Open (Europe) (En,Fr,De,Es,It,Nl,Pt,Ru) (Rev 1)": {
+		"languages": "En,Fr,De,Es,It,Nl,Pt,Ru"
+	},
+	"Mario Tennis Open (USA) (En,Fr,Es)": {
+		"languages": "En,Fr,Es"
+	},
+	"Mario Tennis Open (Japan) (Rev 1)": {
+		"languages": "Ja"
+	},
 	"Mario Tennis Open (Europe) (En,Fr,De,Es,It,Nl,Pt,Ru)": {
 		"languages": "En,Fr,De,Es,It,Nl,Pt,Ru"
 	},
@@ -2947,18 +2962,6 @@
 	},
 	"Mario Tennis Open (Europe) (En,Fr,De,Es,It,Nl,Pt,Ru) (Demo) (Kiosk)": {
 		"languages": "En,Fr,De,Es,It,Nl,Pt,Ru"
-	},
-	"Mario Tennis Open (USA) (Demo) (Kiosk)": {
-		"languages": "En"
-	},
-	"Mario Tennis Open (Europe) (En,Fr,De,Es,It,Nl,Pt,Ru) (Rev 1)": {
-		"languages": "En,Fr,De,Es,It,Nl,Pt,Ru"
-	},
-	"Mario Tennis Open (USA) (En,Fr,Es)": {
-		"languages": "En,Fr,Es"
-	},
-	"Mario Tennis Open (Japan) (Rev 1)": {
-		"languages": "Ja"
 	},
 	"Mario vs. Donkey Kong - Minna de Mini-Land (Japan)": {
 		"languages": "Ja"
@@ -3134,16 +3137,16 @@
 	"Monster High - New Ghoul in School (USA)": {
 		"languages": "En"
 	},
-	"Monster High - Skultimate Roller Maze (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da,Fi)": {
-		"languages": "En,Fr,De,Es,It,Nl,Sv,No,Da,Fi"
-	},
-	"Monster High - Skultimate Roller Maze (USA) (En,Fr,Es)": {
-		"languages": "En,Fr,Es"
-	},
 	"Monster High - Skultimate Roller Maze (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da,Fi) (Rev 1)": {
 		"languages": "En,Fr,De,Es,It,Nl,Sv,No,Da,Fi"
 	},
 	"Monster High - Skultimate Roller Maze (USA) (En,Fr,Es) (Rev 1)": {
+		"languages": "En,Fr,Es"
+	},
+	"Monster High - Skultimate Roller Maze (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da,Fi)": {
+		"languages": "En,Fr,De,Es,It,Nl,Sv,No,Da,Fi"
+	},
+	"Monster High - Skultimate Roller Maze (USA) (En,Fr,Es)": {
 		"languages": "En,Fr,Es"
 	},
 	"Monster Hunter 3 Ultimate (Europe) (En,Fr,De,Es,It)": {
@@ -3158,14 +3161,14 @@
 	"Monster Hunter 3G (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
-	"Monster Hunter 4 (Japan)": {
-		"languages": "Ja"
-	},
 	"Monster Hunter 4 (Taiwan) (Ja)": {
 		"languages": "Ja"
 	},
 	"Monster Hunter 4 (Korea)": {
 		"languages": "Ko"
+	},
+	"Monster Hunter 4 (Japan)": {
+		"languages": "Ja"
 	},
 	"Monster Hunter 4 Ultimate (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
@@ -3350,10 +3353,10 @@
 	"Navy Commander (Europe) (En,Fr,De,Es,It,Nl)": {
 		"languages": "En,Fr,De,Es,It,Nl"
 	},
-	"Nazo Waku Yakata - Oto no Ma ni Ma ni (Japan)": {
+	"Nazo Waku Yakata - Oto no Ma ni Ma ni (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
-	"Nazo Waku Yakata - Oto no Ma ni Ma ni (Japan) (Rev 1)": {
+	"Nazo Waku Yakata - Oto no Ma ni Ma ni (Japan)": {
 		"languages": "Ja"
 	},
 	"Nazotoki Battle TORE! Densetsu no Makyuu o Fukkatsu Saseyo! (Japan)": {
@@ -3409,6 +3412,9 @@
 	},
 	"New Super Mario Bros. 2 (Japan)": {
 		"languages": "Ja"
+	},
+	"New Super Mario Bros. 2 (Korea)": {
+		"languages": "Ko"
 	},
 	"Nickelodeon Teenage Mutant Ninja Turtles (USA) (En,Fr)": {
 		"languages": "En,Fr"
@@ -3512,11 +3518,8 @@
 	"Nintendogs + Cats - French Bulldog & New Friends (USA) (En,Fr,Es) (Rev 1)": {
 		"languages": "En,Fr,Es"
 	},
-	"Nintendogs + Cats - Golden Retriever & New Friends (USA) (En,Fr,Es)": {
+	"Nintendogs + Cats - French Bulldog & New Friends (USA) (En,Fr,Es) (Rev 2)": {
 		"languages": "En,Fr,Es"
-	},
-	"Nintendogs + Cats - Golden Retriever & New Friends (Europe) (En,Fr,De,Es,It,Nl,Pt,Ru) (Rev 1)": {
-		"languages": "En,Fr,De,Es,It,Nl,Pt,Ru"
 	},
 	"Nintendogs + Cats - Golden Retriever & New Friends (Europe) (En,Fr,De,Es,It,Nl,Pt,Ru) (Rev 2)": {
 		"languages": "En,Fr,De,Es,It,Nl,Pt,Ru"
@@ -3526,6 +3529,12 @@
 	},
 	"Nintendogs + Cats - Golden Retriever & New Friends (USA) (En,Fr,Es) (Rev 2)": {
 		"languages": "En,Fr,Es"
+	},
+	"Nintendogs + Cats - Golden Retriever & New Friends (USA) (En,Fr,Es)": {
+		"languages": "En,Fr,Es"
+	},
+	"Nintendogs + Cats - Golden Retriever & New Friends (Europe) (En,Fr,De,Es,It,Nl,Pt,Ru) (Rev 1)": {
+		"languages": "En,Fr,De,Es,It,Nl,Pt,Ru"
 	},
 	"Nintendogs + Cats - Shiba & New Friends (Taiwan) (Tw, Cn Region Lock)": {
 		"languages": "Zh"
@@ -3584,13 +3593,13 @@
 	"One Piece - Super Grand Battle! X (Japan)": {
 		"languages": "Ja"
 	},
+	"One Piece - Unlimited Cruise SP (Japan) (Rev 1)": {
+		"languages": "Ja"
+	},
 	"One Piece - Unlimited Cruise SP (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
 	},
 	"One Piece - Unlimited Cruise SP (Japan)": {
-		"languages": "Ja"
-	},
-	"One Piece - Unlimited Cruise SP (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
 	"One Piece - Unlimited Cruise SP2 (Europe) (En,Fr,De,Es,It)": {
@@ -3710,14 +3719,14 @@
 	"Paddington - Adventures in London (USA)": {
 		"languages": "En"
 	},
+	"Paper Mario - Sticker Star (Korea)": {
+		"languages": "Ko"
+	},
 	"Paper Mario - Sticker Star (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
 	},
 	"Paper Mario - Sticker Star (USA) (En,Fr,Es)": {
 		"languages": "En,Fr,Es"
-	},
-	"Paper Mario - Sticker Star (Korea)": {
-		"languages": "Ko"
 	},
 	"Paper Mario - Super Seal (Taiwan) (Tw, Cn Region Lock)": {
 		"languages": "Zh"
@@ -3758,9 +3767,6 @@
 	"Penguins of Madagascar (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
 	},
-	"Persona Q - Shadow of the Labyrinth (Japan)": {
-		"languages": "Ja"
-	},
 	"Persona Q - Shadow of the Labyrinth (USA)": {
 		"languages": "En"
 	},
@@ -3769,6 +3775,9 @@
 	},
 	"Persona Q - Shadow of the Labyrinth (Korea)": {
 		"languages": "Ko"
+	},
+	"Persona Q - Shadow of the Labyrinth (Japan)": {
+		"languages": "Ja"
 	},
 	"Persona Q2 - New Cinema Labyrinth (Japan)": {
 		"languages": "Ja"
@@ -3800,13 +3809,13 @@
 	"Petz Countryside (USA) (En,Fr,Es) (Rev 1)": {
 		"languages": "En,Fr,Es"
 	},
+	"Petz Fantasy 3D (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da) (Rev 1)": {
+		"languages": "En,Fr,De,Es,It,Nl,Sv,No,Da"
+	},
 	"Petz Fantasy 3D (USA) (En,Fr,Es)": {
 		"languages": "En,Fr,Es"
 	},
 	"Petz Fantasy 3D (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da)": {
-		"languages": "En,Fr,De,Es,It,Nl,Sv,No,Da"
-	},
-	"Petz Fantasy 3D (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da) (Rev 1)": {
 		"languages": "En,Fr,De,Es,It,Nl,Sv,No,Da"
 	},
 	"Phineas and Ferb - Quest for Cool Stuff (USA)": {
@@ -3866,6 +3875,9 @@
 	"Pippi Longstocking 3D (Europe) (En,Fr,De,Nl,Sv,No,Da,Fi)": {
 		"languages": "En,Fr,De,Nl,Sv,No,Da,Fi"
 	},
+	"Pocket Monster - Ultra Sun (Korea)": {
+		"languages": "Ko"
+	},
 	"Pocket Monsters Moon (Japan) (En,Ja,Fr,De,Es,It,Zh,Ko)": {
 		"languages": "En,Ja,Fr,De,Es,It,Zh,Ko"
 	},
@@ -3896,14 +3908,14 @@
 	"Pokemon Alpha Sapphire (Taiwan) (En,Ja,Fr,De,Es,It,Ko) (Rev 2)": {
 		"languages": "En,Ja,Fr,De,Es,It,Ko"
 	},
-	"Pokemon Art Academy (Japan)": {
-		"languages": "Ja"
-	},
 	"Pokemon Art Academy (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
 	},
 	"Pokemon Art Academy (USA) (En,Fr,Es) (Rev 2)": {
 		"languages": "En,Fr,Es"
+	},
+	"Pokemon Art Academy (Japan)": {
+		"languages": "Ja"
 	},
 	"Pokemon Chou Fushigi no Dungeon (Japan)": {
 		"languages": "Ja"
@@ -3995,6 +4007,12 @@
 	"Pokemon Ultra Sun (Taiwan) (En,Ja,Fr,De,Es,It,Zh-Hant,Zh-Hans,Ko)": {
 		"languages": "En,Ja,Fr,De,Es,It,Zh-Hant,Zh-Hans,Ko"
 	},
+	"Pokemon X (Taiwan) (En,Ja,Fr,De,Es,It,Ko)": {
+		"languages": "En,Ja,Fr,De,Es,It,Ko"
+	},
+	"Pokemon X (Korea) (En,Ja,Fr,De,Es,It,Ko)": {
+		"languages": "En,Ja,Fr,De,Es,It,Ko"
+	},
 	"Pokemon X (Europe) (En,Ja,Fr,De,Es,It,Ko)": {
 		"languages": "En,Ja,Fr,De,Es,It,Ko"
 	},
@@ -4002,12 +4020,6 @@
 		"languages": "En,Ja,Fr,De,Es,It,Ko"
 	},
 	"Pokemon X (Japan) (En,Ja,Fr,De,Es,It,Ko) (Rev 1)": {
-		"languages": "En,Ja,Fr,De,Es,It,Ko"
-	},
-	"Pokemon X (Taiwan) (En,Ja,Fr,De,Es,It,Ko)": {
-		"languages": "En,Ja,Fr,De,Es,It,Ko"
-	},
-	"Pokemon X (Korea) (En,Ja,Fr,De,Es,It,Ko)": {
 		"languages": "En,Ja,Fr,De,Es,It,Ko"
 	},
 	"Pokemon Y (Europe) (En,Ja,Fr,De,Es,It,Ko)": {
@@ -4082,14 +4094,14 @@
 	"PriPri Chi-chan! PriPri DecoRoom! (Japan)": {
 		"languages": "Ja"
 	},
+	"Pro Evolution Soccer 2011 3D (Europe) (Es,It)": {
+		"languages": "Es,It"
+	},
 	"Pro Evolution Soccer 2011 3D (Europe) (En,Fr,De)": {
 		"languages": "En,Fr,De"
 	},
 	"Pro Evolution Soccer 2011 3D (USA) (En,Fr,Es)": {
 		"languages": "En,Fr,Es"
-	},
-	"Pro Evolution Soccer 2011 3D (Europe) (Es,It)": {
-		"languages": "Es,It"
 	},
 	"Pro Evolution Soccer 2012 3D (USA) (En,Fr,Es,Pt)": {
 		"languages": "En,Fr,Es,Pt"
@@ -4145,13 +4157,13 @@
 	"Professeur Layton et le Masque des Miracles (France) (Demo) (Kiosk)": {
 		"languages": "Fr"
 	},
+	"Professor Layton and the Azran Legacy (Europe) (Demo) (Kiosk)": {
+		"languages": "En"
+	},
 	"Professor Layton and the Azran Legacy (Europe)": {
 		"languages": "En"
 	},
 	"Professor Layton and the Azran Legacy (USA)": {
-		"languages": "En"
-	},
-	"Professor Layton and the Azran Legacy (Europe) (Demo) (Kiosk)": {
 		"languages": "En"
 	},
 	"Professor Layton and the Miracle Mask (USA)": {
@@ -4319,17 +4331,20 @@
 	"Raishi - Konpeki no Shou (Japan)": {
 		"languages": "Ja"
 	},
+	"Rayman 3D (Europe) (En,Fr,De,Es,It) (Rev 1)": {
+		"languages": "En,Fr,De,Es,It"
+	},
 	"Rayman 3D (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
 	},
 	"Rayman 3D (USA) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
 	},
-	"Rayman 3D (Europe) (En,Fr,De,Es,It) (Rev 1)": {
-		"languages": "En,Fr,De,Es,It"
-	},
 	"Rayman and Rabbids Family Pack (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da) (Rev 1)": {
 		"languages": "En,Fr,De,Es,It,Nl,Pt,Sv,No,Da"
+	},
+	"Rayman Origins (Europe) (En,Fr,De,Es,It,Nl) (Rev 1)": {
+		"languages": "En,Fr,De,Es,It,Nl"
 	},
 	"Rayman Origins (Europe) (En,Fr,De,Es,It,Nl)": {
 		"languages": "En,Fr,De,Es,It,Nl"
@@ -4339,9 +4354,6 @@
 	},
 	"Rayman Origins (Japan)": {
 		"languages": "Ja"
-	},
-	"Rayman Origins (Europe) (En,Fr,De,Es,It,Nl) (Rev 1)": {
-		"languages": "En,Fr,De,Es,It,Nl"
 	},
 	"Real 3D Bass Fishing - Fish On (Japan)": {
 		"languages": "Ja"
@@ -4508,14 +4520,14 @@
 	"Scooby-Doo! & Looney Tunes Cartoon Universe - Adventure (USA) (En,Fr,Es,Pt)": {
 		"languages": "En,Fr,Es,Pt"
 	},
+	"Scribblenauts Unlimited (Europe)": {
+		"languages": "En"
+	},
 	"Scribblenauts Unlimited (USA) (En,Fr,Es,Pt)": {
 		"languages": "En,Fr,Es,Pt"
 	},
 	"Scribblenauts Unlimited (Europe) (En,Fr,De,Es,It,Nl) (Rev 2)": {
 		"languages": "En,Fr,De,Es,It,Nl"
-	},
-	"Scribblenauts Unlimited (Europe)": {
-		"languages": "En"
 	},
 	"Scribblenauts Unmasked - A DC Comics Adventure (USA) (En,Fr,Es,Pt)": {
 		"languages": "En,Fr,Es,Pt"
@@ -4703,10 +4715,10 @@
 	"Shin Tennis no Oujisama - Go to the top (Japan)": {
 		"languages": "Ja"
 	},
-	"Shingeki no Kyojin - Jinrui Saigo no Tsubasa (Japan)": {
+	"Shingeki no Kyojin - Jinrui Saigo no Tsubasa (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
-	"Shingeki no Kyojin - Jinrui Saigo no Tsubasa (Japan) (Rev 1)": {
+	"Shingeki no Kyojin - Jinrui Saigo no Tsubasa (Japan)": {
 		"languages": "Ja"
 	},
 	"Shingeki no Kyojin - Jinrui Saigo no Tsubasa CHAIN (Japan)": {
@@ -4829,6 +4841,9 @@
 	"Soni Pro (Japan)": {
 		"languages": "Ja"
 	},
+	"Sonic - Lost World (Europe) (En,Fr,De,Es,It) (Demo) (Kiosk)": {
+		"languages": "En,Fr,De,Es,It"
+	},
 	"Sonic - Lost World (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
 	},
@@ -4837,9 +4852,6 @@
 	},
 	"Sonic - Lost World (Japan)": {
 		"languages": "Ja"
-	},
-	"Sonic - Lost World (Europe) (En,Fr,De,Es,It) (Demo) (Kiosk)": {
-		"languages": "En,Fr,De,Es,It"
 	},
 	"Sonic & All-Stars Racing Transformed (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
@@ -4859,17 +4871,17 @@
 	"Sonic Boom - Shattered Crystal (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
 	},
-	"Sonic Generations (USA) (En,Fr,Es)": {
-		"languages": "En,Fr,Es"
-	},
-	"Sonic Generations (Europe) (En,Fr,De,Es,It)": {
-		"languages": "En,Fr,De,Es,It"
-	},
 	"Sonic Generations (Europe) (En,Fr,De,Es,It) (Rev 1)": {
 		"languages": "En,Fr,De,Es,It"
 	},
 	"Sonic Generations (USA) (En,Fr,Es) (Rev 1)": {
 		"languages": "En,Fr,Es"
+	},
+	"Sonic Generations (USA) (En,Fr,Es)": {
+		"languages": "En,Fr,Es"
+	},
+	"Sonic Generations (Europe) (En,Fr,De,Es,It)": {
+		"languages": "En,Fr,De,Es,It"
 	},
 	"Sonic Generations - Ao no Bouken (Japan)": {
 		"languages": "Ja"
@@ -4922,10 +4934,10 @@
 	"SpongeBob SquigglePants (Europe) (En,Fr,De,Es,It,Nl) (Rev 1)": {
 		"languages": "En,Fr,De,Es,It,Nl"
 	},
-	"SpongeBob SquigglePants 3D (USA) (En,Fr,Es)": {
+	"SpongeBob SquigglePants 3D (USA) (En,Fr,Es) (Rev 1)": {
 		"languages": "En,Fr,Es"
 	},
-	"SpongeBob SquigglePants 3D (USA) (En,Fr,Es) (Rev 1)": {
+	"SpongeBob SquigglePants 3D (USA) (En,Fr,Es)": {
 		"languages": "En,Fr,Es"
 	},
 	"Sports Island 3D (Europe) (En,Fr,De,Es,It)": {
@@ -5069,24 +5081,6 @@
 	"Super Mario (USA) (Beta) (E3 2011 demo)": {
 		"languages": "En"
 	},
-	"Super Mario 3D Land (Europe) (En,Fr,De,Es,It,Nl,Pt,Ru)": {
-		"languages": "En,Fr,De,Es,It,Nl,Pt,Ru"
-	},
-	"Super Mario 3D Land (USA) (En,Fr,Es)": {
-		"languages": "En,Fr,Es"
-	},
-	"Super Mario 3D Land (Japan)": {
-		"languages": "Ja"
-	},
-	"Super Mario 3D Land (Korea)": {
-		"languages": "Ko"
-	},
-	"Super Mario 3D Land (Taiwan)": {
-		"languages": "Zh"
-	},
-	"Super Mario 3D Land (Europe) (En,Fr,De,Es,It) (Demo) (Kiosk)": {
-		"languages": "En,Fr,De,Es,It"
-	},
 	"Super Mario 3D Land (Europe) (En,Fr,De,Es,It,Nl,Pt,Ru) (Rev 1)": {
 		"languages": "En,Fr,De,Es,It,Nl,Pt,Ru"
 	},
@@ -5104,6 +5098,24 @@
 	},
 	"Super Mario 3D Land (Taiwan) (Zh-Hant) (Jp Region Lock)": {
 		"languages": "Zh-Hant"
+	},
+	"Super Mario 3D Land (Europe) (En,Fr,De,Es,It,Nl,Pt,Ru)": {
+		"languages": "En,Fr,De,Es,It,Nl,Pt,Ru"
+	},
+	"Super Mario 3D Land (USA) (En,Fr,Es)": {
+		"languages": "En,Fr,Es"
+	},
+	"Super Mario 3D Land (Japan)": {
+		"languages": "Ja"
+	},
+	"Super Mario 3D Land (Korea)": {
+		"languages": "Ko"
+	},
+	"Super Mario 3D Land (Taiwan)": {
+		"languages": "Zh"
+	},
+	"Super Mario 3D Land (Europe) (En,Fr,De,Es,It) (Demo) (Kiosk)": {
+		"languages": "En,Fr,De,Es,It"
 	},
 	"Super Mario Maker for Nintendo 3DS (Japan)": {
 		"languages": "Ja"
@@ -5237,10 +5249,10 @@
 	"Syunsoku Mezase! Zenkoku Saikyou Runner (Japan)": {
 		"languages": "Ja"
 	},
-	"Taiko no Tatsujin - Chibi Dragon to Fushigi na Orb (Japan)": {
+	"Taiko no Tatsujin - Chibi Dragon to Fushigi na Orb (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
-	"Taiko no Tatsujin - Chibi Dragon to Fushigi na Orb (Japan) (Rev 1)": {
+	"Taiko no Tatsujin - Chibi Dragon to Fushigi na Orb (Japan)": {
 		"languages": "Ja"
 	},
 	"Taiko no Tatsujin - Doko Don! Mystery Adventure (Japan)": {
@@ -5303,6 +5315,9 @@
 	"Teenage Mutant Ninja Turtles - Master Splinter's Training Pack (USA) (En,Fr)": {
 		"languages": "En,Fr"
 	},
+	"Tekken 3D - Prime Edition (Korea)": {
+		"languages": "Ko"
+	},
 	"Tekken 3D - Prime Edition (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
 	},
@@ -5311,9 +5326,6 @@
 	},
 	"Tekken 3D - Prime Edition (Japan)": {
 		"languages": "Ja"
-	},
-	"Tekken 3D - Prime Edition (Korea)": {
-		"languages": "Ko"
 	},
 	"Tenkai Knights - Brave Battle (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
@@ -5336,14 +5348,14 @@
 	"Terraria (Japan)": {
 		"languages": "Ja"
 	},
+	"Tetris (Europe) (En,Fr,De,Es,It,Nl) (Rev 1)": {
+		"languages": "En,Fr,De,Es,It,Nl"
+	},
 	"Tetris (Europe) (En,Fr,De,Es,It,Nl)": {
 		"languages": "En,Fr,De,Es,It,Nl"
 	},
 	"Tetris (Japan)": {
 		"languages": "Ja"
-	},
-	"Tetris (Europe) (En,Fr,De,Es,It,Nl) (Rev 1)": {
-		"languages": "En,Fr,De,Es,It,Nl"
 	},
 	"Tetris Axis (USA) (En,Fr,Es)": {
 		"languages": "En,Fr,Es"
@@ -5465,12 +5477,6 @@
 	"Tomodachi Collection - Shin Seikatsu (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
-	"Tomodachi Life (Europe) (En,Fr,De,Es,It)": {
-		"languages": "En,Fr,De,Es,It"
-	},
-	"Tomodachi Life (USA)": {
-		"languages": "En"
-	},
 	"Tomodachi Life (USA) (Rev 1)": {
 		"languages": "En"
 	},
@@ -5479,6 +5485,12 @@
 	},
 	"Tomodachi Life (Europe) (En,Fr,De,Es,It,Nl) (Rev 2)": {
 		"languages": "En,Fr,De,Es,It,Nl"
+	},
+	"Tomodachi Life (Europe) (En,Fr,De,Es,It)": {
+		"languages": "En,Fr,De,Es,It"
+	},
+	"Tomodachi Life (USA)": {
+		"languages": "En"
 	},
 	"Tongari Boushi to Mahou no Machi (Japan)": {
 		"languages": "Ja"
@@ -5648,13 +5660,13 @@
 	"WRC - FIA World Rally Championship (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
 	},
+	"Wreck-It Ralph (Europe) (En,Fr,De,Es,It,Nl,Sv)": {
+		"languages": "En,Fr,De,Es,It,Nl,Sv"
+	},
 	"Wreck-It Ralph (USA) (En,Fr)": {
 		"languages": "En,Fr"
 	},
 	"Wreck-It Ralph (Europe) (En,Fr,De,Es,It,Nl,Sv) (Rev 1)": {
-		"languages": "En,Fr,De,Es,It,Nl,Sv"
-	},
-	"Wreck-It Ralph (Europe) (En,Fr,De,Es,It,Nl,Sv)": {
 		"languages": "En,Fr,De,Es,It,Nl,Sv"
 	},
 	"WWE All Stars (USA) (En,Fr,Es)": {
@@ -5756,6 +5768,12 @@
 	"Yo-Kai Watch Blasters - White Dog Squad (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
 	},
+	"Yoshi's New Island (Japan)": {
+		"languages": "Ja"
+	},
+	"Yoshi's New Island (Taiwan) (Ja)": {
+		"languages": "Ja"
+	},
 	"Yoshi's New Island (Europe) (En,Fr,De,Es,It,Nl,Pt,Ru)": {
 		"languages": "En,Fr,De,Es,It,Nl,Pt,Ru"
 	},
@@ -5767,12 +5785,6 @@
 	},
 	"Yoshi's New Island (Europe) (En,Fr,De,Es,It,Nl,Pt,Ru) (Demo) (Kiosk)": {
 		"languages": "En,Fr,De,Es,It,Nl,Pt,Ru"
-	},
-	"Yoshi's New Island (Japan)": {
-		"languages": "Ja"
-	},
-	"Yoshi's New Island (Taiwan) (Ja)": {
-		"languages": "Ja"
 	},
 	"Youkai Sangokushi (Japan)": {
 		"languages": "Ja"
@@ -5867,10 +5879,10 @@
 	"Zelda no Densetsu - Mujura no Kamen 3D (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
-	"Zelda no Densetsu - Toki no Ocarina 3D (Japan)": {
+	"Zelda no Densetsu - Toki no Ocarina 3D (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
-	"Zelda no Densetsu - Toki no Ocarina 3D (Japan) (Rev 1)": {
+	"Zelda no Densetsu - Toki no Ocarina 3D (Japan)": {
 		"languages": "Ja"
 	},
 	"Zelda no Densetsu - Tri Force 3-Juushi (Taiwan) (Ja)": {
@@ -5882,16 +5894,16 @@
 	"Zero Escape - Toki no Dilemma (Japan)": {
 		"languages": "Ja"
 	},
-	"Zero Escape - Virtue's Last Reward (USA)": {
-		"languages": "En"
-	},
-	"Zero Escape - Virtue's Last Reward (Europe) (Rev 2)": {
-		"languages": "En"
-	},
 	"Zero Escape - Virtue's Last Reward (USA) (Rev 2)": {
 		"languages": "En"
 	},
 	"Zero Escape - Virtue's Last Reward (Europe)": {
+		"languages": "En"
+	},
+	"Zero Escape - Virtue's Last Reward (USA)": {
+		"languages": "En"
+	},
+	"Zero Escape - Virtue's Last Reward (Europe) (Rev 2)": {
 		"languages": "En"
 	},
 	"Zero Escape - Zero Time Dilemma (USA)": {

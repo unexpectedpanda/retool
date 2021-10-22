@@ -1,44 +1,44 @@
 {
-	"Bubble Boy (Germany) (En)": {
+	"Bubble Boy (Europe)": {
 		"languages": "En"
 	},
-	"Continental Galaxy (Germany) (En)": {
+	"Car Racing (Europe)": {
 		"languages": "En"
 	},
-	"Dungeon Adventure (Germany) (En)": {
+	"Continental Galaxy (Europe)": {
 		"languages": "En"
 	},
-	"Falling Block (Germany) (En)": {
+	"Dungeon Advanture (Europe)": {
 		"languages": "En"
 	},
-	"Finite Zone (Germany) (En)": {
+	"Falling Block (Europe)": {
 		"languages": "En"
 	},
-	"Formel 1 (Germany) (En)": {
+	"Finite Zone (Europe)": {
 		"languages": "En"
 	},
-	"Fuss-ball (Germany) (En)": {
-		"languages": "En"
-	},
-	"Go Bang! (Germany) (En)": {
+	"Go Bang! (Europe)": {
 		"languages": "En"
 	},
 	"[BIOS] Hartung Game Master (Germany)": {
 		"languages": "De"
 	},
-	"Hyper Space (Germany) (En)": {
+	"Hyper Space (Europe)": {
 		"languages": "En"
 	},
-	"Kung Fu (Germany) (En)": {
+	"Kung Fu (Europe)": {
 		"languages": "En"
 	},
 	"Move It (Germany) (En)": {
 		"languages": "En"
 	},
-	"Pin Ball (Germany) (En)": {
+	"Pin Ball (Europe)": {
 		"languages": "En"
 	},
-	"Space Castle (Germany) (En)": {
+	"Soccer (Europe)": {
+		"languages": "En"
+	},
+	"Space Castle (Europe)": {
 		"languages": "En"
 	},
 	"Space Invader (Germany) (En)": {
@@ -50,10 +50,10 @@
 	"Tank War (Germany) (En)": {
 		"languages": "En"
 	},
-	"Tennis (Germany) (En)": {
+	"Tennis (Europe)": {
 		"languages": "En"
 	},
-	"Urban Champion (Germany) (En)": {
+	"Urban Champion (Europe)": {
 		"languages": "En"
 	}
 }

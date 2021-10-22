@@ -233,13 +233,16 @@
 	"Asterix (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
 	},
+	"Asterix (USA) (Proto)": {
+		"languages": "En"
+	},
+	"Asterix & Obelix (Europe) (Fr,De) (Beta) (SGB Enhanced)": {
+		"languages": "Fr,De"
+	},
 	"Asterix & Obelix (Spain) (En,Es) (SGB Enhanced)": {
 		"languages": "En,Es"
 	},
 	"Asterix & Obelix (Europe) (Fr,De) (SGB Enhanced)": {
-		"languages": "Fr,De"
-	},
-	"Asterix & Obelix (Europe) (Fr,De) (Beta) (SGB Enhanced)": {
 		"languages": "Fr,De"
 	},
 	"Asteroids (USA, Europe)": {
@@ -269,7 +272,13 @@
 	"B.C. Kid 2 (Europe) (SGB Enhanced)": {
 		"languages": "En"
 	},
+	"B.C. Kid 2 (Europe) (Beta) (SGB Enhanced)": {
+		"languages": "En"
+	},
 	"Baby T-Rex (Europe)": {
+		"languages": "En"
+	},
+	"Baby's Day Out (USA) (Proto)": {
 		"languages": "En"
 	},
 	"Bakenou TV '94 (Japan) (SGB Enhanced)": {
@@ -470,6 +479,9 @@
 	"Bo Jackson - Two Games in One (USA)": {
 		"languages": "En"
 	},
+	"Bobby's World (USA) (Proto) (SGB Enhanced)": {
+		"languages": "En"
+	},
 	"Boggle Plus (USA)": {
 		"languages": "En"
 	},
@@ -647,6 +659,9 @@
 	"Card Game (Japan)": {
 		"languages": "Ja"
 	},
+	"Card Games (USA) (Proto)": {
+		"languages": "En"
+	},
 	"Casino FunPak (USA, Europe)": {
 		"languages": "En"
 	},
@@ -662,6 +677,9 @@
 	"Castelian (USA)": {
 		"languages": "En"
 	},
+	"Castelian (USA) (Beta)": {
+		"languages": "En"
+	},
 	"Castle Quest (Europe)": {
 		"languages": "En"
 	},
@@ -674,10 +692,10 @@
 	"Castlevania - The Adventure (USA) (Castlevania Anniversary Collection)": {
 		"languages": "En"
 	},
-	"Castlevania II - Belmont's Revenge (USA, Europe)": {
+	"Castlevania II - Belmont's Revenge (USA, Europe) (Castlevania Anniversary Collection)": {
 		"languages": "En"
 	},
-	"Castlevania II - Belmont's Revenge (USA, Europe) (Castlevania Anniversary Collection)": {
+	"Castlevania II - Belmont's Revenge (USA, Europe)": {
 		"languages": "En"
 	},
 	"Castlevania Legends (USA, Europe) (SGB Enhanced)": {
@@ -911,6 +929,9 @@
 	"Death Track (Europe) (Proto)": {
 		"languages": "En"
 	},
+	"Dennis (Europe) (Beta) (1993-09-13)": {
+		"languages": "En"
+	},
 	"Dennis (Europe)": {
 		"languages": "En"
 	},
@@ -1061,10 +1082,10 @@
 	"Dr. Mario (World) (Beta)": {
 		"languages": "En"
 	},
-	"Dracula Densetsu (Japan)": {
+	"Dracula Densetsu (Japan) (Castlevania Anniversary Collection)": {
 		"languages": "Ja"
 	},
-	"Dracula Densetsu (Japan) (Castlevania Anniversary Collection)": {
+	"Dracula Densetsu (Japan)": {
 		"languages": "Ja"
 	},
 	"Dracula Densetsu II (Japan)": {
@@ -1151,6 +1172,9 @@
 	"Earthworm Jim (USA)": {
 		"languages": "En"
 	},
+	"Edd the Duck (USA) (Proto)": {
+		"languages": "En"
+	},
 	"Eddie's Puzzle Time (USA) (Proto)": {
 		"languages": "En"
 	},
@@ -1186,6 +1210,9 @@
 	},
 	"F1 Boy (Japan)": {
 		"languages": "Ja"
+	},
+	"F1 Challenge (Europe) (Beta)": {
+		"languages": "En"
 	},
 	"F1 Pole Position (USA, Europe)": {
 		"languages": "En"
@@ -1256,10 +1283,10 @@
 	"Final Fantasy Adventure (World) (Collection of Mana)": {
 		"languages": "En"
 	},
-	"Final Fantasy Legend II (USA)": {
+	"Final Fantasy Legend II (World) (Collection of SaGa)": {
 		"languages": "En"
 	},
-	"Final Fantasy Legend II (World) (Collection of SaGa)": {
+	"Final Fantasy Legend II (USA)": {
 		"languages": "En"
 	},
 	"Final Fantasy Legend III (USA)": {
@@ -1268,10 +1295,10 @@
 	"Final Fantasy Legend III (World) (Collection of SaGa)": {
 		"languages": "En"
 	},
-	"Final Fantasy Legend, The (USA)": {
+	"Final Fantasy Legend, The (World) (Collection of SaGa)": {
 		"languages": "En"
 	},
-	"Final Fantasy Legend, The (World) (Collection of SaGa)": {
+	"Final Fantasy Legend, The (USA)": {
 		"languages": "En"
 	},
 	"Final Reverse (Japan)": {
@@ -1300,6 +1327,9 @@
 	},
 	"Flintstones, The - King Rock Treasure Island (USA, Europe)": {
 		"languages": "En"
+	},
+	"Flintstones, The - King Rock Treasure Island (Japan) (Proto)": {
+		"languages": "Ja"
 	},
 	"Flipull (USA)": {
 		"languages": "En"
@@ -1442,6 +1472,9 @@
 	"Gargoyle's Quest (Europe) (Rev 1)": {
 		"languages": "En"
 	},
+	"Gargoyle's Quest II - The Demon Darkness (USA) (Proto)": {
+		"languages": "En"
+	},
 	"Gauntlet II (USA, Europe)": {
 		"languages": "En"
 	},
@@ -1553,10 +1586,10 @@
 	"Goukaku Boy GOLD - Shikakui Atama o Maruku Suru - Joushiki no Sho (Japan) (IE Institute)": {
 		"languages": "Ja"
 	},
-	"Goukaku Boy GOLD - Shikakui Atama o Maruku Suru - Kanji no Tatsujin (Japan) (Imagineer)": {
+	"Goukaku Boy GOLD - Shikakui Atama o Maruku Suru - Kanji no Tatsujin (Japan) (IE Institute)": {
 		"languages": "Ja"
 	},
-	"Goukaku Boy GOLD - Shikakui Atama o Maruku Suru - Kanji no Tatsujin (Japan) (IE Institute)": {
+	"Goukaku Boy GOLD - Shikakui Atama o Maruku Suru - Kanji no Tatsujin (Japan) (Imagineer)": {
 		"languages": "Ja"
 	},
 	"Goukaku Boy GOLD - Shikakui Atama o Maruku Suru - Keisan no Tatsujin (Japan) (Imagineer)": {
@@ -1622,10 +1655,10 @@
 	"Goukaku Boy Series - Shikakui Atama o Maruku Suru - Kokugo Battle Hen (Japan) (IE Institute)": {
 		"languages": "Ja"
 	},
-	"Goukaku Boy Series - Shikakui Atama o Maruku Suru - Rika Battle Hen (Japan) (Imagineer)": {
+	"Goukaku Boy Series - Shikakui Atama o Maruku Suru - Rika Battle Hen (Japan) (IE Institute)": {
 		"languages": "Ja"
 	},
-	"Goukaku Boy Series - Shikakui Atama o Maruku Suru - Rika Battle Hen (Japan) (IE Institute)": {
+	"Goukaku Boy Series - Shikakui Atama o Maruku Suru - Rika Battle Hen (Japan) (Imagineer)": {
 		"languages": "Ja"
 	},
 	"Goukaku Boy Series - Shikakui Atama o Maruku Suru - Sansuu Battle Hen (Japan) (Imagineer)": {
@@ -1634,10 +1667,10 @@
 	"Goukaku Boy Series - Shikakui Atama o Maruku Suru - Sansuu Battle Hen (Japan) (IE Institute)": {
 		"languages": "Ja"
 	},
-	"Goukaku Boy Series - Shikakui Atama o Maruku Suru - Shakai Battle Hen (Japan) (Imagineer)": {
+	"Goukaku Boy Series - Shikakui Atama o Maruku Suru - Shakai Battle Hen (Japan) (IE Institute)": {
 		"languages": "Ja"
 	},
-	"Goukaku Boy Series - Shikakui Atama o Maruku Suru - Shakai Battle Hen (Japan) (IE Institute)": {
+	"Goukaku Boy Series - Shikakui Atama o Maruku Suru - Shakai Battle Hen (Japan) (Imagineer)": {
 		"languages": "Ja"
 	},
 	"Goukaku Boy Series - Shikakui Atama o Maruku Suru - Suuji de Asobou Sansuu Hen (Japan)": {
@@ -1686,6 +1719,9 @@
 		"languages": "En"
 	},
 	"Hammerin' Harry (Europe)": {
+		"languages": "En"
+	},
+	"Hammerin' Harry - Ghost Building Company (USA) (Proto)": {
 		"languages": "En"
 	},
 	"Harvest Moon GB (USA) (SGB Enhanced)": {
@@ -1752,6 +1788,9 @@
 		"languages": "Ja"
 	},
 	"Home Alone (USA, Europe)": {
+		"languages": "En"
+	},
+	"Home Alone 2 - Kevin's Dream (USA) (Proto)": {
 		"languages": "En"
 	},
 	"Home Alone 2 - Lost in New York (USA, Europe)": {
@@ -1946,10 +1985,13 @@
 	"Jet Pack (USA, Europe) (Beta)": {
 		"languages": "En"
 	},
-	"Jetsons, The - Robot Panic (USA, Europe)": {
+	"Jetsons, The - Robot Panic (USA) (Rev 1) (Possible Proto)": {
 		"languages": "En"
 	},
-	"Jetsons, The - Robot Panic (USA) (Rev 1) (Possible Proto)": {
+	"Jetsons, The - Robot Panic (Japan) (Proto)": {
+		"languages": "Ja"
+	},
+	"Jetsons, The - Robot Panic (USA, Europe)": {
 		"languages": "En"
 	},
 	"Jikuu Senki Mu (Japan)": {
@@ -1972,6 +2014,9 @@
 	},
 	"Joe & Mac - Caveman Ninja (Europe) (En,Fr,De,Es,It,Nl,Sv)": {
 		"languages": "En,Fr,De,Es,It,Nl,Sv"
+	},
+	"John Madden Football (USA) (Proto) (SGB Enhanced)": {
+		"languages": "En"
 	},
 	"Jordan vs Bird - One on One (Japan)": {
 		"languages": "Ja"
@@ -2070,6 +2115,9 @@
 		"languages": "En"
 	},
 	"Kenyuu Densetsu Yaiba (Japan)": {
+		"languages": "Ja"
+	},
+	"Kick Attack (Japan) (Proto)": {
 		"languages": "Ja"
 	},
 	"Kick Boxing, The (Japan)": {
@@ -2255,6 +2303,9 @@
 	"Legend of the River King GB (Australia) (SGB Enhanced)": {
 		"languages": "En"
 	},
+	"Legend of Zelda, The - Link's Awakening (Canada)": {
+		"languages": "Fr"
+	},
 	"Legend of Zelda, The - Link's Awakening (France)": {
 		"languages": "Fr"
 	},
@@ -2269,9 +2320,6 @@
 	},
 	"Legend of Zelda, The - Link's Awakening (USA, Europe) (Rev 2)": {
 		"languages": "En"
-	},
-	"Legend of Zelda, The - Link's Awakening (Canada)": {
-		"languages": "Fr"
 	},
 	"Lemmings (Europe)": {
 		"languages": "En"
@@ -2354,7 +2402,10 @@
 	"Lucle (Japan, Europe)": {
 		"languages": "En"
 	},
-	"Lunar Chase (USA) (Proto)": {
+	"Lunar Chase (USA) (Proto 1)": {
+		"languages": "En"
+	},
+	"Lunar Chase (USA) (Proto 2)": {
 		"languages": "En"
 	},
 	"Lunar Lander (Japan)": {
@@ -2627,6 +2678,9 @@
 	"Mini 4 Boy II (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
+	"Mini Putt (USA)": {
+		"languages": "En"
+	},
 	"Mini Yonku GB Let's & Go!! (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
@@ -2653,6 +2707,9 @@
 	},
 	"Mole Mania (USA, Europe) (SGB Enhanced)": {
 		"languages": "En"
+	},
+	"Momoiro Zousan (Japan) (Proto)": {
+		"languages": "Ja"
 	},
 	"Momotarou Collection (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
@@ -2729,7 +2786,7 @@
 	"Mortal Kombat 3 (Europe)": {
 		"languages": "En"
 	},
-	"Mortal Kombat 3 (USA)": {
+	"Mortal Kombat 3 (USA, Europe)": {
 		"languages": "En"
 	},
 	"Mortal Kombat II (USA, Europe)": {
@@ -2971,6 +3028,9 @@
 	},
 	"Nichibutsu Mahjong - Yoshimoto Gekijou (Japan)": {
 		"languages": "Ja"
+	},
+	"Nick Faldo Championship Golf (Europe) (Proto)": {
+		"languages": "En"
 	},
 	"Nigel Mansell's World Championship (Europe)": {
 		"languages": "En"
@@ -3269,6 +3329,9 @@
 	"Phantom Air Mission (Europe)": {
 		"languages": "En"
 	},
+	"Philip & Marlowe in Bloomland (USA) (Proto)": {
+		"languages": "En"
+	},
 	"Picross 2 (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
@@ -3473,6 +3536,9 @@
 	"Popeye (Japan)": {
 		"languages": "Ja"
 	},
+	"Popeye (USA) (Proto)": {
+		"languages": "En"
+	},
 	"Popeye 2 (Europe)": {
 		"languages": "En"
 	},
@@ -3501,6 +3567,9 @@
 		"languages": "Ja"
 	},
 	"Power Mission (USA)": {
+		"languages": "En"
+	},
+	"Power Paws (Europe) (Proto)": {
 		"languages": "En"
 	},
 	"Power Pro GB (Japan) (SGB Enhanced)": {
@@ -3605,6 +3674,9 @@
 	"Puzznic (Japan)": {
 		"languages": "Ja"
 	},
+	"Puzznic (USA) (Proto)": {
+		"languages": "En"
+	},
 	"Pyramids of Ra (USA)": {
 		"languages": "En"
 	},
@@ -3682,6 +3754,9 @@
 	},
 	"Ranma 1-2 - Netsuretsu Kakutou Hen (Japan)": {
 		"languages": "Ja"
+	},
+	"Rap Quest (USA) (Proto)": {
+		"languages": "En"
 	},
 	"Ray-Thunder (Japan)": {
 		"languages": "Ja"
@@ -3896,6 +3971,9 @@
 	"Sea Battle (Europe) (En,Fr,De,Es)": {
 		"languages": "En,Fr,De,Es"
 	},
+	"Sea King GB (USA) (Proto) (SGB Enhanced)": {
+		"languages": "En"
+	},
 	"seaQuest DSV (USA, Europe) (SGB Enhanced)": {
 		"languages": "En"
 	},
@@ -4102,6 +4180,9 @@
 	},
 	"Soukoban 2 (Japan)": {
 		"languages": "Ja"
+	},
+	"Space Date (Europe) (Proto)": {
+		"languages": "En"
 	},
 	"Space Invaders (Europe) (SGB Enhanced)": {
 		"languages": "En"
@@ -4394,6 +4475,9 @@
 	"Superman (USA, Europe) (SGB Enhanced)": {
 		"languages": "En"
 	},
+	"Sutte Hakkun (Japan) (Proto) (SGB Enhanced)": {
+		"languages": "Ja"
+	},
 	"Suzuki Aguri no F-1 Super Driving (Japan)": {
 		"languages": "Ja"
 	},
@@ -4583,6 +4667,9 @@
 	"Tintin in Tibet (Europe) (En,Es,It,Sv) (SGB Enhanced)": {
 		"languages": "En,Es,It,Sv"
 	},
+	"Tintin in Tibet (Europe) (En,Es,It,Sv) (Beta) (SGB Enhanced)": {
+		"languages": "En,Es,It,Sv"
+	},
 	"Tiny Toon Adventures (Japan)": {
 		"languages": "Ja"
 	},
@@ -4693,6 +4780,9 @@
 	},
 	"Trip World (Japan)": {
 		"languages": "Ja"
+	},
+	"TripleA (USA) (Proto)": {
+		"languages": "En"
 	},
 	"Triumph (USA) (Proto)": {
 		"languages": "En"
@@ -4889,6 +4979,9 @@
 	"Wild Snake (USA) (SGB Enhanced)": {
 		"languages": "En"
 	},
+	"Wily & Right no Rockboard - That's Paradise (Japan) (Proto)": {
+		"languages": "Ja"
+	},
 	"Winner's Horse (Japan)": {
 		"languages": "Ja"
 	},
@@ -5039,6 +5132,9 @@
 	"Yu-Gi-Oh! Duel Monsters (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
+	"ZAS (USA) (Proto)": {
+		"languages": "En"
+	},
 	"Zelda no Densetsu - Yume o Miru Shima (Japan)": {
 		"languages": "Ja"
 	},
@@ -5064,6 +5160,9 @@
 		"languages": "Ja"
 	},
 	"Zoids Densetsu (Japan)": {
+		"languages": "Ja"
+	},
+	"Zool (Japan) (Proto)": {
 		"languages": "Ja"
 	},
 	"Zool - Ninja of the 'Nth' Dimension (Europe)": {

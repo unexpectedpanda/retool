@@ -3,8 +3,23 @@
 		"name": [
 			"GCE - Vectrex"
 		],
-		"last updated": "9 April 2021",
-		"minimum version": "0.89"
+		"last updated": "22 October 2021",
+		"minimum version": "0.92"
+	},
+
+	"categories": {
+		"Engine Analyzer": {
+			"match": "short",
+			"categories": ["Applications", "Preproduction"]
+		},
+		"RA+A Spectrum I+ Stress Tester": {
+			"match": "short",
+			"categories": ["Applications", "Preproduction"]
+		},
+		"Test Cartridge": {
+			"match": "short",
+			"categories": ["Applications", "Preproduction"]
+		}
 	},
 
 	"renames": {

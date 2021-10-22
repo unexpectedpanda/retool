@@ -284,6 +284,9 @@
 	"Bram Stoker's Dracula (USA)": {
 		"languages": "En"
 	},
+	"BreakThru! (USA) (Proto)": {
+		"languages": "En"
+	},
 	"Bubble Bobble (USA)": {
 		"languages": "En"
 	},
@@ -728,10 +731,16 @@
 	"George Foreman's KO Boxing (USA, Europe)": {
 		"languages": "En"
 	},
-	"GG Aleste (Japan)": {
-		"languages": "Ja"
+	"GG Aleste (Japan) (En)": {
+		"languages": "En"
 	},
-	"GG Aleste 3 (World) (Aleste Collection)": {
+	"GG Aleste (Japan) (En) (Aleste Collection)": {
+		"languages": "En"
+	},
+	"GG Aleste 3 (Japan) (En) (Aleste Collection)": {
+		"languages": "En"
+	},
+	"GG Aleste II (Japan) (En) (Aleste Collection)": {
 		"languages": "En"
 	},
 	"GG Aleste II ~ Power Strike II (Japan, Europe)": {

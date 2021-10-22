@@ -3,11 +3,15 @@
 		"name": [
 			"Nintendo - Nintendo 64"
 		],
-		"last updated": "22 May 2021",
+		"last updated": "22 October 2021",
 		"minimum version": "0.92"
 	},
 
 	"categories": {
+		"Action Replay Pro 64": {
+			"match": "short",
+			"categories": ["Applications"]
+		},
 		"GameBooster 64": {
 			"match": "short",
 			"categories": ["Applications"]
@@ -25,6 +29,12 @@
 	"overrides": {
 		"Bomberman 64 (Japan)": {
 			"new group": "Bomberman 64 (Japan)",
+			"match": "full"
+		}
+	},
+
+	"removes": {
+		"F-Zero X + The Legend of Zelda Ocarina of Time (USA) (Beta)": {
 			"match": "full"
 		}
 	},

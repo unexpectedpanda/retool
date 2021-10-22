@@ -3,7 +3,7 @@
 		"name": [
 			"Nintendo - Super Nintendo Entertainment System"
 		],
-		"last updated": "11 September, 2021",
+		"last updated": "22 October, 2021",
 		"minimum version": "0.92"
 	},
 
@@ -12,6 +12,10 @@
 			"match": "short",
 			"categories": ["Applications"]
 			},
+		"Cassette Kensaki - NUS-you S Cassette": {
+			"match": "short",
+			"categories": ["Applications"]
+		},
 		"Controller Test Cassette": {
 			"match": "short",
 			"categories": ["Applications"]
@@ -42,19 +46,23 @@
 		},
 		"SA1 Demonstration Program": {
 			"match": "short",
-			"categories": ["Applications"]
+			"categories": ["Demos"]
 		},
 		"SNES Burn-in Test Cartridge": {
 			"match": "short",
 			"categories": ["Applications"]
 		},
+		"Super 8": {
+			"match": "short",
+			"categories": ["BIOS"]
+		},
 		"Super Game Boy": {
 			"match": "short",
-			"categories": ["Applications"]
+			"categories": ["BIOS"]
 		},
 		"Super Game Boy 2": {
 			"match": "short",
-			"categories": ["Applications"]
+			"categories": ["BIOS"]
 		},
 		"World Class Service Super Nintendo Tester": {
 			"match": "short",
@@ -90,7 +98,8 @@
 	},
 
 	"removes": {
-		"Exertainment Mountain Bike Rally + Speed Racer (USA)": {}
+		"Exertainment Mountain Bike Rally + Speed Racer (USA)": {},
+		"Exertainment Mountain Bike Rally + Speed Racer (Europe) (En,Fr,De,Es,Nl)": {}
 	},
 
 	"renames": {
@@ -329,7 +338,8 @@
 			["Hakunetsu Pro Yakyuu - Ganba League", 1]
 		],
 		"F1 Pole Position 2": [
-			["Human Grand Prix II", 1]
+			["Human Grand Prix II", 1],
+			["Human Grand Prix 2", 2]
 		],
 		"F1 ROC - Race of Champions": [
 			["Exhaust Heat", 1]

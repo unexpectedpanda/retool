@@ -1,6 +1,12 @@
 {
+	"50 Cent - The Massacre (Special Edition) (World)": {
+		"languages": "En"
+	},
 	"Asian Kung-Fu Generation - Eizo Sakuhinshu - Vol1 (Japan, Europe)": {
 		"languages": "Ja"
+	},
+	"Audioslave - Live in Cuba (World)": {
+		"languages": "En"
 	},
 	"Big Snoop Dog's Puff Puff Pass Tour (World)": {
 		"languages": "En"
@@ -8,11 +14,14 @@
 	"Blink-182 - Greatest Hits (USA)": {
 		"languages": "En"
 	},
+	"Busta Rhymes - Everything Remains Raw (World) (Alt1)": {
+		"languages": "En"
+	},
 	"Busta Rhymes - Everything Remains Raw (World)": {
 		"languages": "En"
 	},
-	"Busta Rhymes - Everything Remains Raw (World) (Alt1)": {
-		"languages": "En"
+	"Crystal Kay (World) (Ja)": {
+		"languages": "Ja"
 	},
 	"Daft Punk & Leiji Matsumoto's - Interstella 5555 - The 5tory of the 5ecret 5tar 5ystem (World) (En,Fr)": {
 		"languages": "En,Fr"
@@ -23,7 +32,10 @@
 	"Depeche Mode - Devotional (Japan, Europe)": {
 		"languages": "En"
 	},
-	"Depeche Mode - One Night in Paris - The Exciter Tour 2001 (Japan, Europe)": {
+	"Depeche Mode - One Night in Paris - The Exciter Tour 2001 (Europe)": {
+		"languages": "En"
+	},
+	"Goldfrapp - Supernature (World)": {
 		"languages": "En"
 	},
 	"Goldfrapp - Wonderful Electric - Live in London (World)": {
@@ -38,16 +50,25 @@
 	"Iron Maiden - The Number of the Beast (World) (En,Fr,De,Es,It,Nl,Pt) (Classic Albums)": {
 		"languages": "En,Fr,De,Es,It,Nl,Pt"
 	},
+	"Jack Johnson and Friends - A Weekend at the Greek (World)": {
+		"languages": "En"
+	},
+	"Kylie Minogue - Showgirl (World)": {
+		"languages": "En"
+	},
 	"Marilyn Manson - Guns, God and Government World Tour (World)": {
 		"languages": "En"
 	},
-	"Metallica - Metallica (World) (Fr,De,Es,It,Nl,Pt) (Classic Albums)": {
-		"languages": "Fr,De,Es,It,Nl,Pt"
-	},
-	"Nirvana - Nevermind (World) (En,Fr,De,Es,It,Nl,Pt) (Classic Albums)": {
+	"Metallica - Metallica (World) (En,Fr,De,Es,It,Nl,Pt) (Classic Albums)": {
 		"languages": "En,Fr,De,Es,It,Nl,Pt"
 	},
+	"Mika Nakashima - Film Lotus IV (Japan)": {
+		"languages": "Ja"
+	},
 	"Nirvana - Nevermind (World) (En,Fr,De,Es,It,Nl,Pt) (USA Version) (Classic Albums)": {
+		"languages": "En,Fr,De,Es,It,Nl,Pt"
+	},
+	"Nirvana - Nevermind (World) (En,Fr,De,Es,It,Nl,Pt) (Classic Albums)": {
 		"languages": "En,Fr,De,Es,It,Nl,Pt"
 	},
 	"Nobody Knows + Mebae (Japan, Europe)": {
@@ -74,6 +95,12 @@
 	"Queen - The Making of A Night at the Opera (World) (En,Fr,De,Es,It,Nl,Pt) (Classic Albums)": {
 		"languages": "En,Fr,De,Es,It,Nl,Pt"
 	},
+	"Red Hot Chili Peppers - Live at Slane Castle (World)": {
+		"languages": "En"
+	},
+	"Rob Zombie - Hellbilly Deluxe (World)": {
+		"languages": "En"
+	},
 	"Scissor Sisters - We Are Scissor Sisters and So Are You (World) [b]": {
 		"languages": "En"
 	},
@@ -95,16 +122,19 @@
 	"Tupac - Live at the House of Blues (World)": {
 		"languages": "En"
 	},
+	"Up in Smoke Tour, The (World) (USA Version)": {
+		"languages": "En"
+	},
 	"Up in Smoke Tour, The (World)": {
 		"languages": "En"
 	},
-	"Up in Smoke Tour, The (World) (USA Version)": {
+	"We are Scissor Sisters and so are you (World)": {
 		"languages": "En"
 	},
 	"YUKI - YUKI VIDEO (Japan)": {
 		"languages": "Ja"
 	},
-	"Zakk Wylde's - Black Label Society - Boozed, Broozed & Broken-Boned (World)": {
+	"Zakk Wylde's Black Label Society - Boozed, Boozed & Broken-Boned - Live with the Detroit Chapter (World)": {
 		"languages": "En"
 	}
 }

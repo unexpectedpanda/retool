@@ -1,4 +1,7 @@
 {
+	"[BIOS] Sega Teradrive - TMSS (World)": {
+		"languages": "En"
+	},
 	"007 Shitou - The Duel (Japan)": {
 		"languages": "Ja"
 	},
@@ -14,10 +17,10 @@
 	"16Bit Rhythm Land (World) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
-	"16t (Japan) (SegaNet)": {
+	"16t (Japan) (Game no Kanzume Otokuyou)": {
 		"languages": "Ja"
 	},
-	"16t (Japan) (Game no Kanzume Otokuyou)": {
+	"16t (Japan) (SegaNet)": {
 		"languages": "Ja"
 	},
 	"2020 Nen Super Baseball (Japan)": {
@@ -74,12 +77,6 @@
 	"Advanced Daisenryaku - Deutsch Dengeki Sakusen (Japan) (Beta) (1991-03-07)": {
 		"languages": "Ja"
 	},
-	"Adventures of Batman & Robin, The (Europe)": {
-		"languages": "En"
-	},
-	"Adventures of Batman & Robin, The (USA)": {
-		"languages": "En"
-	},
 	"Adventures of Batman & Robin, The (USA) (Beta) (1995-04-06)": {
 		"languages": "En"
 	},
@@ -114,6 +111,12 @@
 		"languages": "En"
 	},
 	"Adventures of Batman & Robin, The (USA) (Beta) (1995-05-01)": {
+		"languages": "En"
+	},
+	"Adventures of Batman & Robin, The (Europe)": {
+		"languages": "En"
+	},
+	"Adventures of Batman & Robin, The (USA)": {
 		"languages": "En"
 	},
 	"Adventures of Mighty Max, The (Europe)": {
@@ -194,13 +197,22 @@
 	"Aladdin (USA) (Beta) (July, 1993)": {
 		"languages": "En"
 	},
+	"Aladdin (USA) (Final Cut)": {
+		"languages": "En"
+	},
+	"Aladdin (World) (Disney Classic Games)": {
+		"languages": "En"
+	},
+	"Aladdin (World) (Ja) (Disney Classic Games)": {
+		"languages": "Ja"
+	},
+	"Aladdin (World) (Beta) (Disney Classic Games)": {
+		"languages": "En"
+	},
 	"Aladdin (USA) (Beta) (1993-06-27)": {
 		"languages": "En"
 	},
 	"Aladdin (Japan) (En) (Beta) (1993-07-31)": {
-		"languages": "En"
-	},
-	"Aladdin (USA) (Final Cut)": {
 		"languages": "En"
 	},
 	"Aladdin II (Taiwan) (En) (Unl)": {
@@ -350,13 +362,13 @@
 	"Art Alive (World) (Beta) (1991-09-20)": {
 		"languages": "En"
 	},
+	"Art of Fighting (USA) (Beta) (1994-07-11)": {
+		"languages": "En"
+	},
 	"Art of Fighting (Europe)": {
 		"languages": "En"
 	},
 	"Art of Fighting (USA)": {
-		"languages": "En"
-	},
-	"Art of Fighting (USA) (Beta) (1994-07-11)": {
 		"languages": "En"
 	},
 	"Asterix and the Great Rescue (Europe) (En,Fr,De,Es,It)": {
@@ -410,10 +422,10 @@
 	"ATP Tour Championship Tennis (USA) (Beta) (1994-09-08)": {
 		"languages": "En"
 	},
-	"Australian Rugby League (Europe)": {
+	"Australian Rugby League (Europe) (Beta)": {
 		"languages": "En"
 	},
-	"Australian Rugby League (Europe) (Beta)": {
+	"Australian Rugby League (Europe)": {
 		"languages": "En"
 	},
 	"Awesome Possum (Japan) (En)": {
@@ -488,10 +500,10 @@
 	"Bao Xiao San Guo (Taiwan) (Alt 1) (Unl)": {
 		"languages": "Zh"
 	},
-	"Barbie Super Model (USA)": {
+	"Barbie Super Model (USA) (Beta) (1993-06-30)": {
 		"languages": "En"
 	},
-	"Barbie Super Model (USA) (Beta) (1993-06-30)": {
+	"Barbie Super Model (USA)": {
 		"languages": "En"
 	},
 	"Barbie Vacation Adventure (USA) (Proto)": {
@@ -716,13 +728,13 @@
 	"Bio Evil (World) (Demo) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
+	"Bio Hazard Battle (USA, Europe) (Beta 1)": {
+		"languages": "En"
+	},
 	"Bio Hazard Battle (USA, Europe) (Beta 2) (August, 1992)": {
 		"languages": "En"
 	},
 	"Bio Hazard Battle (USA, Europe)": {
-		"languages": "En"
-	},
-	"Bio Hazard Battle (USA, Europe) (Beta 1)": {
 		"languages": "En"
 	},
 	"Bishoujo Senshi Sailor Moon (Japan)": {
@@ -962,13 +974,16 @@
 	"Castlevania - Bloodlines (USA) (Castlevania Anniversary Collection)": {
 		"languages": "En"
 	},
+	"Castlevania - Bloodlines (USA) (Beta) (1993-10-07)": {
+		"languages": "En"
+	},
+	"Castlevania - The New Generation (Europe) (Mega Drive Mini)": {
+		"languages": "En"
+	},
 	"Castlevania - The New Generation (Europe)": {
 		"languages": "En"
 	},
 	"Castlevania - The New Generation (Europe) (Beta)": {
-		"languages": "En"
-	},
-	"Castlevania - The New Generation (Europe) (Mega Drive Mini)": {
 		"languages": "En"
 	},
 	"CDX Pro (World) (v1.70) (Program) (Unl) [b]": {
@@ -977,10 +992,10 @@
 	"CDX Pro (World) (v1.8I) (Program) (Unl)": {
 		"languages": "En"
 	},
-	"Centurion - Defender of Rome (USA, Europe)": {
+	"Centurion - Defender of Rome (USA, Europe) (Sega Channel)": {
 		"languages": "En"
 	},
-	"Centurion - Defender of Rome (USA, Europe) (Sega Channel)": {
+	"Centurion - Defender of Rome (USA, Europe)": {
 		"languages": "En"
 	},
 	"Chakan (USA, Europe)": {
@@ -1091,10 +1106,10 @@
 	"ClayFighter (Europe)": {
 		"languages": "En"
 	},
-	"Cliffhanger (USA)": {
+	"Cliffhanger (Europe)": {
 		"languages": "En"
 	},
-	"Cliffhanger (Europe)": {
+	"Cliffhanger (USA)": {
 		"languages": "En"
 	},
 	"Clue (USA)": {
@@ -1112,10 +1127,10 @@
 	"Coffee Crisis (World) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
-	"College Football USA 96 (USA)": {
+	"College Football USA 96 (USA) (Beta) (1995-06-21)": {
 		"languages": "En"
 	},
-	"College Football USA 96 (USA) (Beta) (1995-06-21)": {
+	"College Football USA 96 (USA)": {
 		"languages": "En"
 	},
 	"College Football USA 97 (USA)": {
@@ -1191,6 +1206,9 @@
 		"languages": "En"
 	},
 	"Columns (USA, Europe)": {
+		"languages": "En"
+	},
+	"Columns (World) (Sega Ages)": {
 		"languages": "En"
 	},
 	"Columns (USA, Europe) (1990-06-21) (Sega Channel)": {
@@ -1271,10 +1289,16 @@
 	"Contra - Hard Corps (USA) (Genesis Mini)": {
 		"languages": "En"
 	},
-	"Contra - The Hard Corps (Japan)": {
-		"languages": "Ja"
+	"Contra - Hard Corps (World) (Contra Anniversary Collection)": {
+		"languages": "En"
 	},
 	"Contra - The Hard Corps (Japan) (Mega Drive Mini)": {
+		"languages": "Ja"
+	},
+	"Contra - The Hard Corps (World) (Ja) (Contra Anniversary Collection)": {
+		"languages": "Ja"
+	},
+	"Contra - The Hard Corps (Japan)": {
 		"languages": "Ja"
 	},
 	"Cool Spot (Europe)": {
@@ -1379,11 +1403,11 @@
 	"Crystal's Pony Tale (USA) (Beta) (1994-07-13)": {
 		"languages": "En"
 	},
-	"Curse (Japan)": {
-		"languages": "Ja"
-	},
 	"Curse (USA) (Proto) (1990-06-26) (Sega Channel)": {
 		"languages": "En"
+	},
+	"Curse (Japan)": {
+		"languages": "Ja"
 	},
 	"Curse of Illmoore Bay, The (World) (Demo 3) (Aftermarket) (Unl)": {
 		"languages": "En"
@@ -1392,6 +1416,15 @@
 		"languages": "En"
 	},
 	"Curse of Illmoore Bay, The (World) (Demo 1) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Cursed Knight, The (World) (v2.1) (Demo) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Cursed Knight, The (World) (v2.0) (Demo) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Cursed Knight, The (World) (v1.1) (Demo) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
 	"Custodian (World) (Aftermarket) (Unl)": {
@@ -1451,10 +1484,10 @@
 	"Daimakaimura ~ Ghouls'n Ghosts (World) (Rev A) (Sega Channel)": {
 		"languages": "En"
 	},
-	"Daisenpuu ~ Twin Hawk (Japan, Europe)": {
+	"Daisenpuu ~ Twin Hawk (Japan, Europe) (Beta) (1990-04-06)": {
 		"languages": "En"
 	},
-	"Daisenpuu ~ Twin Hawk (Japan, Europe) (Beta) (1990-04-06)": {
+	"Daisenpuu ~ Twin Hawk (Japan, Europe)": {
 		"languages": "En"
 	},
 	"Dangerous Seed (Japan)": {
@@ -1464,6 +1497,9 @@
 		"languages": "En"
 	},
 	"Darius (World) (Genesis Mini, Mega Drive Mini)": {
+		"languages": "En"
+	},
+	"Darius II (World) (Darius Cozmic Collection)": {
 		"languages": "En"
 	},
 	"Darius II (Japan)": {
@@ -1478,13 +1514,13 @@
 	"Darwin 4081 (Japan, Korea) (Beta) (1990-02-21)": {
 		"languages": "En"
 	},
+	"Dashin' Desperadoes (USA) (Beta)": {
+		"languages": "En"
+	},
 	"Dashin' Desperadoes (USA)": {
 		"languages": "En"
 	},
 	"Dashin' Desperadoes (Europe) (Proto)": {
-		"languages": "En"
-	},
-	"Dashin' Desperadoes (USA) (Beta)": {
 		"languages": "En"
 	},
 	"David Crane's Amazing Tennis (USA)": {
@@ -1529,10 +1565,10 @@
 	"Death and Return of Superman, The (Europe)": {
 		"languages": "En"
 	},
-	"Death Duel (USA)": {
+	"Death Duel (USA) (Beta) (1992-05-06)": {
 		"languages": "En"
 	},
-	"Death Duel (USA) (Beta) (1992-05-06)": {
+	"Death Duel (USA)": {
 		"languages": "En"
 	},
 	"DEcapAttack (USA, Europe, Korea)": {
@@ -1548,6 +1584,9 @@
 		"languages": "En"
 	},
 	"Demons of Asteborg (World) (Demo 2) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Demons of Asteborg (World) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
 	"Desert Demolition (USA, Europe) (Beta) (1994-12-06)": {
@@ -1736,10 +1775,10 @@
 	"Dragon's Lair (USA) (Proto) (June, 1994)": {
 		"languages": "En"
 	},
-	"Dragon's Revenge (USA, Europe)": {
+	"Dragon's Revenge (Japan) (En)": {
 		"languages": "En"
 	},
-	"Dragon's Revenge (Japan) (En)": {
+	"Dragon's Revenge (USA, Europe)": {
 		"languages": "En"
 	},
 	"Dream Team USA (Japan)": {
@@ -1775,13 +1814,13 @@
 	"Dyna Brothers 2 Special (Japan) (Virtual Console)": {
 		"languages": "Ja"
 	},
+	"Dynamite Duke (World) (Beta) (1990-06-21)": {
+		"languages": "En"
+	},
 	"Dynamite Duke (World)": {
 		"languages": "En"
 	},
 	"Dynamite Duke (World) (Rev A)": {
-		"languages": "En"
-	},
-	"Dynamite Duke (World) (Beta) (1990-06-21)": {
 		"languages": "En"
 	},
 	"Dynamite Headdy (Japan)": {
@@ -1805,11 +1844,11 @@
 	"DynoBlaze (USA) (Proto) (1994-05-24)": {
 		"languages": "En"
 	},
-	"EA Hockey (Europe)": {
-		"languages": "En"
-	},
 	"EA Hockey (Japan)": {
 		"languages": "Ja"
+	},
+	"EA Hockey (Europe)": {
+		"languages": "En"
 	},
 	"EA Sports Double Header (Europe)": {
 		"languages": "En"
@@ -1832,13 +1871,13 @@
 	"Earthworm Jim (USA) (Beta) (1994-07-28)": {
 		"languages": "En"
 	},
+	"Earthworm Jim 2 (Europe) (Beta) (1995-08-24)": {
+		"languages": "En"
+	},
 	"Earthworm Jim 2 (Europe)": {
 		"languages": "En"
 	},
 	"Earthworm Jim 2 (USA)": {
-		"languages": "En"
-	},
-	"Earthworm Jim 2 (Europe) (Beta) (1995-08-24)": {
 		"languages": "En"
 	},
 	"Ecco - The Tides of Time (Europe) (En,Fr,De,Es)": {
@@ -2051,10 +2090,10 @@
 	"F-15 Strike Eagle II (USA) (Sample)": {
 		"languages": "En"
 	},
-	"F-22 Interceptor (USA) (Beta)": {
+	"F-22 Interceptor (USA) (1991-09-17) (Sega Channel)": {
 		"languages": "En"
 	},
-	"F-22 Interceptor (USA) (1991-09-17) (Sega Channel)": {
+	"F-22 Interceptor (USA) (Beta)": {
 		"languages": "En"
 	},
 	"F-22 Interceptor - Advanced Tactical Fighter (Japan)": {
@@ -2102,11 +2141,11 @@
 	"Fantasia (World) (1991-06-17) (Sega Channel)": {
 		"languages": "En"
 	},
-	"Fantastic Dizzy (USA, Europe) (En,Fr,De,Es,It)": {
-		"languages": "En,Fr,De,Es,It"
-	},
 	"Fantastic Dizzy (USA, Europe) (Beta)": {
 		"languages": "En"
+	},
+	"Fantastic Dizzy (USA, Europe) (En,Fr,De,Es,It)": {
+		"languages": "En,Fr,De,Es,It"
 	},
 	"Fastest 1 (Japan)": {
 		"languages": "Ja"
@@ -2225,6 +2264,15 @@
 	"Flink (Europe) (En,Fr,De)": {
 		"languages": "En,Fr,De"
 	},
+	"Flink (Europe) (En,Fr,De) (Beta)": {
+		"languages": "En,Fr,De"
+	},
+	"Flintstones, The (USA) (Beta) (1992-11-05) (Taito)": {
+		"languages": "En"
+	},
+	"Flintstones, The (USA) (Proto) (Ocean)": {
+		"languages": "En"
+	},
 	"Flintstones, The (Japan) (Taito)": {
 		"languages": "Ja"
 	},
@@ -2232,12 +2280,6 @@
 		"languages": "En"
 	},
 	"Flintstones, The (USA) (Taito)": {
-		"languages": "En"
-	},
-	"Flintstones, The (USA) (Beta) (1992-11-05) (Taito)": {
-		"languages": "En"
-	},
-	"Flintstones, The (USA) (Proto) (Ocean)": {
 		"languages": "En"
 	},
 	"Flux (Europe) (Program)": {
@@ -2264,10 +2306,10 @@
 	"Frog Dude (Europe) (Proto)": {
 		"languages": "En"
 	},
-	"Frogger (USA)": {
+	"Frogger (USA) (Rev 1)": {
 		"languages": "En"
 	},
-	"Frogger (USA) (Rev 1)": {
+	"Frogger (USA)": {
 		"languages": "En"
 	},
 	"From TV Animation Slam Dunk - Kyougou Makkou Taiketsu! (Japan)": {
@@ -2330,6 +2372,9 @@
 	"Gain Ground (USA) (Beta) (1990-07-27)": {
 		"languages": "En"
 	},
+	"Galaxy Force II (Japan) (En) (Virtual Console)": {
+		"languages": "En"
+	},
 	"Galaxy Force II (Japan) (En)": {
 		"languages": "En"
 	},
@@ -2337,9 +2382,6 @@
 		"languages": "En"
 	},
 	"Galaxy Force II (USA, Europe) (PC Rerelease)": {
-		"languages": "En"
-	},
-	"Galaxy Force II (Japan) (En) (Virtual Console)": {
 		"languages": "En"
 	},
 	"Gambler Jiko Chuushinha - Katayama Masayuki no Mahjong Doujou (Japan)": {
@@ -2375,10 +2417,10 @@
 	"Garry Kitchen's Super Battletank - War in the Gulf (USA)": {
 		"languages": "En"
 	},
-	"Gauntlet (Japan) (En,Ja)": {
+	"Gauntlet (Japan) (En,Ja) (Beta)": {
 		"languages": "En,Ja"
 	},
-	"Gauntlet (Japan) (En,Ja) (Beta)": {
+	"Gauntlet (Japan) (En,Ja)": {
 		"languages": "En,Ja"
 	},
 	"Gauntlet IV (USA, Europe) (En,Ja)": {
@@ -2450,13 +2492,13 @@
 	"Golden Axe (World) (Rev A)": {
 		"languages": "En"
 	},
-	"Golden Axe (World) (Rev B) (Sega Smash Pack)": {
-		"languages": "En"
-	},
 	"Golden Axe (World) (Beta) (1989-11-22)": {
 		"languages": "En"
 	},
 	"Golden Axe (World) (Beta) (1989-10-14)": {
+		"languages": "En"
+	},
+	"Golden Axe (World) (Rev B) (Sega Smash Pack)": {
 		"languages": "En"
 	},
 	"Golden Axe II (World)": {
@@ -2663,10 +2705,10 @@
 	"Hyper Marbles (Japan) (Game no Kanzume Otokuyou)": {
 		"languages": "Ja"
 	},
-	"I Love Mickey and Donald - Fushigi na Magic Box (Japan)": {
+	"I Love Mickey and Donald - Fushigi na Magic Box (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
-	"I Love Mickey and Donald - Fushigi na Magic Box (Japan) (Rev 1)": {
+	"I Love Mickey and Donald - Fushigi na Magic Box (Japan)": {
 		"languages": "Ja"
 	},
 	"I Love Mickey Mouse - Fushigi no Oshiro Daibouken (Japan)": {
@@ -3023,14 +3065,14 @@
 	"King of Fighters 98', The (Taiwan) (Unl)": {
 		"languages": "Zh"
 	},
+	"King of the Monsters (Japan)": {
+		"languages": "Ja"
+	},
 	"King of the Monsters (Europe)": {
 		"languages": "En"
 	},
 	"King of the Monsters (USA)": {
 		"languages": "En"
-	},
-	"King of the Monsters (Japan)": {
-		"languages": "Ja"
 	},
 	"King of the Monsters 2 (USA)": {
 		"languages": "En"
@@ -3104,10 +3146,10 @@
 	"Landstalker (USA) (Genesis Mini)": {
 		"languages": "En"
 	},
-	"Landstalker - Die Schatze von Konig Nolo (Germany)": {
+	"Landstalker - Die Schatze von Konig Nolo (Germany) (Mega Drive Mini)": {
 		"languages": "De"
 	},
-	"Landstalker - Die Schatze von Konig Nolo (Germany) (Mega Drive Mini)": {
+	"Landstalker - Die Schatze von Konig Nolo (Germany)": {
 		"languages": "De"
 	},
 	"Landstalker - Koutei no Zaihou (Japan)": {
@@ -3116,10 +3158,10 @@
 	"Landstalker - Koutei no Zaihou (Japan) (Mega Drive Mini)": {
 		"languages": "Ja"
 	},
-	"Landstalker - Le Tresor du Roi Nole (France)": {
+	"Landstalker - Le Tresor du Roi Nole (France) (Mega Drive Mini)": {
 		"languages": "Fr"
 	},
-	"Landstalker - Le Tresor du Roi Nole (France) (Mega Drive Mini)": {
+	"Landstalker - Le Tresor du Roi Nole (France)": {
 		"languages": "Fr"
 	},
 	"Landstalker - The Treasures of King Nole (Europe)": {
@@ -3239,6 +3281,9 @@
 	"Light Crusader (Japan) (Mega Drive Mini)": {
 		"languages": "Ja"
 	},
+	"Lightening Force - Quest for the Darkstar (World) (Sega Ages)": {
+		"languages": "En"
+	},
 	"Lightening Force - Quest for the Darkstar (USA)": {
 		"languages": "En"
 	},
@@ -3257,7 +3302,7 @@
 	"Lion King, The (World)": {
 		"languages": "En"
 	},
-	"Lion King, The (World) (Steam)": {
+	"Lion King, The (World) (Disney Classic Games)": {
 		"languages": "En"
 	},
 	"Little Medusa (World) (Aftermarket) (Unl)": {
@@ -3338,9 +3383,6 @@
 	"Magic Pockets (World) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
-	"Magic School Bus, The - Space Exploration Game (USA)": {
-		"languages": "En"
-	},
 	"Magic School Bus, The - Space Exploration Game (USA) (Beta) (1995-01-12)": {
 		"languages": "En"
 	},
@@ -3375,6 +3417,9 @@
 		"languages": "En"
 	},
 	"Magic School Bus, The - Space Exploration Game (USA) (Beta) (1995-05-05)": {
+		"languages": "En"
+	},
+	"Magic School Bus, The - Space Exploration Game (USA)": {
 		"languages": "En"
 	},
 	"Magical Hat no Buttobi Turbo! Daibouken (Japan)": {
@@ -3536,20 +3581,11 @@
 	"Mega Turrican (USA)": {
 		"languages": "En"
 	},
-	"Mega Turrican (USA, Europe) (Virtual Console)": {
-		"languages": "En"
-	},
 	"Mega Turrican (Japan) (En) (Proto) (1993-05-18)": {
 		"languages": "En"
 	},
-	"[BIOS] Mega-CD (Europe)": {
+	"Mega Turrican (USA, Europe) (Virtual Console)": {
 		"languages": "En"
-	},
-	"[BIOS] Mega-CD (Japan) (Rev E)": {
-		"languages": "Ja"
-	},
-	"[BIOS] Mega-CD (Asia) (Ja) (Rev H)": {
-		"languages": "Ja"
 	},
 	"[BIOS] Mega-CD (Japan) (Rev C)": {
 		"languages": "Ja"
@@ -3563,6 +3599,15 @@
 	"[BIOS] Mega-CD (Japan) (Rev D)": {
 		"languages": "Ja"
 	},
+	"[BIOS] Mega-CD (Europe)": {
+		"languages": "En"
+	},
+	"[BIOS] Mega-CD (Japan) (Rev E)": {
+		"languages": "Ja"
+	},
+	"[BIOS] Mega-CD (Asia) (Ja) (Rev H)": {
+		"languages": "Ja"
+	},
 	"[BIOS] Mega-CD (Japan) (v1.11B)": {
 		"languages": "Ja"
 	},
@@ -3572,23 +3617,26 @@
 	"[BIOS] Mega-CD (Japan) (Beta)": {
 		"languages": "Ja"
 	},
+	"[BIOS] Mega-CD 2 (Europe) (v2.11)": {
+		"languages": "En"
+	},
+	"[BIOS] Mega-CD 2 (Japan)": {
+		"languages": "Ja"
+	},
 	"[BIOS] Mega-CD 2 (Europe)": {
 		"languages": "En"
 	},
 	"[BIOS] Mega-CD 2 (Europe) (Rev A)": {
 		"languages": "En"
 	},
-	"[BIOS] Mega-CD 2 (Japan)": {
-		"languages": "Ja"
-	},
 	"Mega-lo-Mania (Europe)": {
+		"languages": "En"
+	},
+	"Mega-lo-Mania (Europe) (Beta)": {
 		"languages": "En"
 	},
 	"Mega-lo-Mania (France)": {
 		"languages": "Fr"
-	},
-	"Mega-lo-Mania (Europe) (Beta)": {
-		"languages": "En"
 	},
 	"MegaMind (Japan) (SegaNet)": {
 		"languages": "Ja"
@@ -3665,10 +3713,10 @@
 	"Micro Machines (USA)": {
 		"languages": "En"
 	},
-	"Micro Machines - Military (Europe) (J-Cart)": {
+	"Micro Machines - Military (Europe) (Beta) (1995)": {
 		"languages": "En"
 	},
-	"Micro Machines - Military (Europe) (Beta) (1995)": {
+	"Micro Machines - Military (Europe) (J-Cart)": {
 		"languages": "En"
 	},
 	"Micro Machines - Turbo Tournament 96 (Europe) (Rev 1) (J-Cart)": {
@@ -3797,11 +3845,11 @@
 	"Monster World IV (Japan)": {
 		"languages": "Ja"
 	},
-	"Monster World IV (USA, Europe) (En,Ja) (Virtual Console)": {
-		"languages": "En,Ja"
-	},
 	"Monster World IV (USA) (Genesis Mini)": {
 		"languages": "En"
+	},
+	"Monster World IV (USA, Europe) (En,Ja) (Virtual Console)": {
+		"languages": "En,Ja"
 	},
 	"Mortal Kombat (World)": {
 		"languages": "En"
@@ -3809,7 +3857,10 @@
 	"Mortal Kombat (USA, Europe) (Rev A) (Beta)": {
 		"languages": "En"
 	},
-	"Mortal Kombat (World) (Beta)": {
+	"Mortal Kombat (World) (Beta 2)": {
+		"languages": "En"
+	},
+	"Mortal Kombat (World) (Beta 1)": {
 		"languages": "En"
 	},
 	"Mortal Kombat 3 (Europe)": {
@@ -3893,9 +3944,6 @@
 	"NBA Action '94 (USA) (Beta) (1994-01-16)": {
 		"languages": "En"
 	},
-	"NBA Action '95 Starring David Robinson (USA, Europe)": {
-		"languages": "En"
-	},
 	"NBA Action '95 Starring David Robinson (USA, Europe) (Beta) (1994-11-18)": {
 		"languages": "En"
 	},
@@ -3969,6 +4017,9 @@
 		"languages": "En"
 	},
 	"NBA Action '95 Starring David Robinson (USA, Europe) (Beta) (1995-02-02)": {
+		"languages": "En"
+	},
+	"NBA Action '95 Starring David Robinson (USA, Europe)": {
 		"languages": "En"
 	},
 	"NBA All-Star Challenge (USA, Europe)": {
@@ -4301,7 +4352,10 @@
 	"Olympic Gold (Japan, USA) (En,Fr,De,Es,It,Nl,Pt,Sv)": {
 		"languages": "En,Fr,De,Es,It,Nl,Pt,Sv"
 	},
-	"Olympic Summer Games (USA, Europe)": {
+	"Olympic Summer Games (USA)": {
+		"languages": "En"
+	},
+	"Olympic Summer Games (Europe)": {
 		"languages": "En"
 	},
 	"On Dal Jang Goon (Korea)": {
@@ -4353,6 +4407,9 @@
 		"languages": "En"
 	},
 	"Out of This World (USA) (Beta)": {
+		"languages": "En"
+	},
+	"Outback Joey (USA)": {
 		"languages": "En"
 	},
 	"Outlander (USA)": {
@@ -4451,13 +4508,13 @@
 	"Pat Riley Basketball (USA) (Beta) (1990-06-14)": {
 		"languages": "En"
 	},
+	"Pebble Beach Golf Links (USA) (Rev A) (1994-02-14) (Sega Channel)": {
+		"languages": "En"
+	},
 	"Pebble Beach Golf Links (Europe)": {
 		"languages": "En"
 	},
 	"Pebble Beach Golf Links (USA)": {
-		"languages": "En"
-	},
-	"Pebble Beach Golf Links (USA) (Rev A) (1994-02-14) (Sega Channel)": {
 		"languages": "En"
 	},
 	"Pele II - World Tournament Soccer (USA, Europe)": {
@@ -4517,12 +4574,6 @@
 	"Phantasy Star Fukkokuban (Japan)": {
 		"languages": "Ja"
 	},
-	"Phantasy Star II (Brazil)": {
-		"languages": "En"
-	},
-	"Phantasy Star II (USA, Europe) (Rev A)": {
-		"languages": "En"
-	},
 	"Phantasy Star II (USA, Europe)": {
 		"languages": "En"
 	},
@@ -4533,6 +4584,12 @@
 		"languages": "En"
 	},
 	"Phantasy Star II (USA, Europe) (Rev A) (PC Rerelease)": {
+		"languages": "En"
+	},
+	"Phantasy Star II (Brazil)": {
+		"languages": "En"
+	},
+	"Phantasy Star II (USA, Europe) (Rev A)": {
 		"languages": "En"
 	},
 	"Phantasy Star II - Amia's Adventure (Japan) (SegaNet)": {
@@ -4571,15 +4628,6 @@
 	"Phantasy Star III - Generations of Doom (USA, Europe) (PC Rerelease)": {
 		"languages": "En"
 	},
-	"Phantasy Star IV (USA)": {
-		"languages": "En"
-	},
-	"Phantasy Star IV (Europe)": {
-		"languages": "En"
-	},
-	"Phantasy Star IV (USA) (Sample)": {
-		"languages": "En"
-	},
 	"Phantasy Star IV (USA) (Beta) (1994-05-30)": {
 		"languages": "En"
 	},
@@ -4596,6 +4644,15 @@
 		"languages": "En"
 	},
 	"Phantasy Star IV (USA) (Genesis Mini)": {
+		"languages": "En"
+	},
+	"Phantasy Star IV (Europe)": {
+		"languages": "En"
+	},
+	"Phantasy Star IV (USA) (Sample)": {
+		"languages": "En"
+	},
+	"Phantasy Star IV (USA)": {
 		"languages": "En"
 	},
 	"Phantom 2040 (Europe) (En,Fr,De)": {
@@ -4781,6 +4838,12 @@
 	"Probotector (Europe) (En,Fr,De) (Mega Drive Mini)": {
 		"languages": "En,Fr,De"
 	},
+	"Probotector (World) (En,Fr,De) (Contra Anniversary Collection)": {
+		"languages": "En,Fr,De"
+	},
+	"Probotector (World) (En,Fr,De) (60 Hz) (Contra Anniversary Collection)": {
+		"languages": "En,Fr,De"
+	},
 	"Psy-O-Blade (Japan)": {
 		"languages": "Ja"
 	},
@@ -4817,10 +4880,10 @@
 	"Putter Golf (Japan) (Game no Kanzume Otokuyou)": {
 		"languages": "Ja"
 	},
-	"Putty Squad (Europe) (Proto 2)": {
+	"Putty Squad (Europe) (Proto 1)": {
 		"languages": "En"
 	},
-	"Putty Squad (Europe) (Proto 1)": {
+	"Putty Squad (Europe) (Proto 2)": {
 		"languages": "En"
 	},
 	"Puyo Puyo (Japan)": {
@@ -4835,16 +4898,19 @@
 	"Puyo Puyo Tsuu (World) (Ja) (Rev A) (Virtual Console)": {
 		"languages": "Ja"
 	},
+	"Puzzle & Action - Ichidanto-R (World) (Ja) (Sega Ages)": {
+		"languages": "Ja"
+	},
 	"Puzzle & Action - Ichidanto-R (Japan)": {
 		"languages": "Ja"
 	},
 	"Puzzle & Action - Tanto-R (Japan)": {
 		"languages": "Ja"
 	},
-	"Pyramid Magic (Japan) (SegaNet)": {
+	"Pyramid Magic (Japan) (Game no Kanzume Otokuyou)": {
 		"languages": "Ja"
 	},
-	"Pyramid Magic (Japan) (Game no Kanzume Otokuyou)": {
+	"Pyramid Magic (Japan) (SegaNet)": {
 		"languages": "Ja"
 	},
 	"Pyramid Magic II (Japan) (SegaNet)": {
@@ -4883,14 +4949,14 @@
 	"R.B.I. Baseball 3 (USA) (Beta) (1991-07-18)": {
 		"languages": "En"
 	},
+	"R.B.I. Baseball 4 (USA) (Beta)": {
+		"languages": "En"
+	},
 	"R.B.I. Baseball 4 (USA)": {
 		"languages": "En"
 	},
 	"R.B.I. Baseball 4 (Japan)": {
 		"languages": "Ja"
-	},
-	"R.B.I. Baseball 4 (USA) (Beta)": {
-		"languages": "En"
 	},
 	"Race Drivin' (USA)": {
 		"languages": "En"
@@ -5057,13 +5123,13 @@
 	"Road Rash II (Japan) (Mega Drive Mini)": {
 		"languages": "Ja"
 	},
+	"RoadBlasters (USA) (Beta) (1991-06-27)": {
+		"languages": "En"
+	},
 	"RoadBlasters (Japan)": {
 		"languages": "Ja"
 	},
 	"RoadBlasters (USA)": {
-		"languages": "En"
-	},
-	"RoadBlasters (USA) (Beta) (1991-06-27)": {
 		"languages": "En"
 	},
 	"RoboCop 3 (USA, Europe)": {
@@ -5237,13 +5303,16 @@
 	"Second Samurai (Europe)": {
 		"languages": "En"
 	},
+	"Second Samurai (World) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
 	"Sega Art Tool (Japan) (En) (Program)": {
 		"languages": "En"
 	},
-	"[BIOS] Sega CD (USA) (Rev B)": {
+	"[BIOS] Sega CD (USA) (v1.00)": {
 		"languages": "En"
 	},
-	"[BIOS] Sega CD (USA) (v1.00)": {
+	"[BIOS] Sega CD (USA) (Rev B)": {
 		"languages": "En"
 	},
 	"[BIOS] Sega CD 2 (USA)": {
@@ -5354,10 +5423,10 @@
 	"Shi Jie Zhi Bang Zheng Ba Zhan - World Pro Baseball 94 (Taiwan) (Unl)": {
 		"languages": "Zh"
 	},
-	"Shi no Meikyuu - Labyrinth of Death (Japan) (SegaNet)": {
+	"Shi no Meikyuu - Labyrinth of Death (Japan) (Game no Kanzume Otokuyou)": {
 		"languages": "Ja"
 	},
-	"Shi no Meikyuu - Labyrinth of Death (Japan) (Game no Kanzume Otokuyou)": {
+	"Shi no Meikyuu - Labyrinth of Death (Japan) (SegaNet)": {
 		"languages": "Ja"
 	},
 	"Shi San Zhang Ma Jiang 98 - Mei Shao Nv (Taiwan) (Unl)": {
@@ -5393,10 +5462,10 @@
 	"Shining Force (USA) (Genesis Mini)": {
 		"languages": "En"
 	},
-	"Shining Force - Kamigami no Isan (Japan)": {
+	"Shining Force - Kamigami no Isan (Japan) (Mega Drive Mini)": {
 		"languages": "Ja"
 	},
-	"Shining Force - Kamigami no Isan (Japan) (Mega Drive Mini)": {
+	"Shining Force - Kamigami no Isan (Japan)": {
 		"languages": "Ja"
 	},
 	"Shining Force II (Europe)": {
@@ -5432,10 +5501,10 @@
 	"Shinobi III - Return of the Ninja Master (USA) (Genesis Mini)": {
 		"languages": "En"
 	},
-	"Ship (Unknown) (Proto) (GEMS 2.5)": {
+	"Ship (Unknown) (Proto) (Visitor)": {
 		"languages": "En"
 	},
-	"Ship (Unknown) (Proto) (Visitor)": {
+	"Ship (Unknown) (Proto) (GEMS 2.5)": {
 		"languages": "En"
 	},
 	"Shiten Myouou (Japan)": {
@@ -5504,10 +5573,10 @@
 	"Smart Mouse (World) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
-	"Smurfs, The (Europe) (En,Fr,De,Es,It)": {
+	"Smurfs, The (Brazil) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
 	},
-	"Smurfs, The (Brazil) (En,Fr,De,Es,It)": {
+	"Smurfs, The (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
 	},
 	"Snake Rattle n Roll (Europe)": {
@@ -5660,6 +5729,12 @@
 	"Sonic Spinball (Europe) (Mega Drive Mini)": {
 		"languages": "En"
 	},
+	"Sonic The Hedgehog (USA, Europe) (Sonic Classic Collection)": {
+		"languages": "En"
+	},
+	"Sonic The Hedgehog (Unknown) (Beta)": {
+		"languages": "En"
+	},
 	"Sonic The Hedgehog (Japan, Europe, Korea)": {
 		"languages": "En"
 	},
@@ -5667,12 +5742,6 @@
 		"languages": "En"
 	},
 	"Sonic The Hedgehog (Japan) (En) (Virtual Console)": {
-		"languages": "En"
-	},
-	"Sonic The Hedgehog (USA, Europe) (Sonic Classic Collection)": {
-		"languages": "En"
-	},
-	"Sonic The Hedgehog (Unknown) (Beta)": {
 		"languages": "En"
 	},
 	"Sonic The Hedgehog 2 (World)": {
@@ -5720,12 +5789,6 @@
 	"Sonic The Hedgehog 2 (World) (Rev A) (Sonic Classic Collection)": {
 		"languages": "En"
 	},
-	"Sonic The Hedgehog 3 (Japan, Korea)": {
-		"languages": "Ja"
-	},
-	"Sonic The Hedgehog 3 (USA)": {
-		"languages": "En"
-	},
 	"Sonic The Hedgehog 3 (USA) (1993-11-20) (Sega Channel)": {
 		"languages": "En"
 	},
@@ -5733,6 +5796,12 @@
 		"languages": "En"
 	},
 	"Sonic The Hedgehog 3 (USA) (Sonic Classic Collection)": {
+		"languages": "En"
+	},
+	"Sonic The Hedgehog 3 (Japan, Korea)": {
+		"languages": "Ja"
+	},
+	"Sonic The Hedgehog 3 (USA)": {
 		"languages": "En"
 	},
 	"Sonic The Hedgehog 3 Limited Edition (Japan) (En) (Proto) (1994-05-17)": {
@@ -5990,16 +6059,16 @@
 	"Street Fighter II' - Champion Edition (USA) (Beta) (1993-07-30)": {
 		"languages": "En"
 	},
-	"Street Fighter II' - Special Champion Edition (Europe)": {
-		"languages": "En"
-	},
-	"Street Fighter II' - Special Champion Edition (USA)": {
-		"languages": "En"
-	},
 	"Street Fighter II' - Special Champion Edition (USA) (Virtual Console)": {
 		"languages": "En"
 	},
 	"Street Fighter II' - Special Champion Edition (Europe) (Virtual Console)": {
+		"languages": "En"
+	},
+	"Street Fighter II' - Special Champion Edition (Europe)": {
+		"languages": "En"
+	},
+	"Street Fighter II' - Special Champion Edition (USA)": {
 		"languages": "En"
 	},
 	"Street Fighter II' Plus - Champion Edition (Japan, Korea)": {
@@ -6008,10 +6077,10 @@
 	"Street Fighter II' Plus - Champion Edition (Japan) (Virtual Console)": {
 		"languages": "Ja"
 	},
-	"Street Racer (Europe)": {
+	"Street Racer (Europe) (Beta) (1995-03-21)": {
 		"languages": "En"
 	},
-	"Street Racer (Europe) (Beta) (1995-03-21)": {
+	"Street Racer (Europe)": {
 		"languages": "En"
 	},
 	"Street Smart (Japan, USA)": {
@@ -6020,11 +6089,11 @@
 	"Street Smart (Japan, USA) (Beta) (1990-06-29)": {
 		"languages": "En"
 	},
-	"Streets of Rage 2 (USA)": {
-		"languages": "En"
-	},
 	"Streets of Rage 2 (Japan) (En,Ja) (Mega Drive Mini)": {
 		"languages": "En,Ja"
+	},
+	"Streets of Rage 2 (USA)": {
+		"languages": "En"
 	},
 	"Streets of Rage 3 (Asia) (En)": {
 		"languages": "En"
@@ -6080,10 +6149,10 @@
 	"Streets of Rage 3 (Europe) (Beta) (1994-04-25)": {
 		"languages": "En"
 	},
-	"Strider (USA, Europe)": {
+	"Strider (USA, Europe) (Virtual Console)": {
 		"languages": "En"
 	},
-	"Strider (USA, Europe) (Virtual Console)": {
+	"Strider (USA, Europe)": {
 		"languages": "En"
 	},
 	"Strider Hiryuu (Japan, Korea)": {
@@ -6092,7 +6161,7 @@
 	"Strider Hiryuu (Japan) (Rev A) (Virtual Console)": {
 		"languages": "Ja"
 	},
-	"Strider Hiryuu (Japan) (Mega Drive Mini)": {
+	"Strider Hiryuu (Japan) (Rev A) (Mega Drive Mini)": {
 		"languages": "Ja"
 	},
 	"Strider II (Europe)": {
@@ -6120,6 +6189,9 @@
 		"languages": "En"
 	},
 	"Sub-Terrania (Asia) (En) (Beta) (1994-02-02)": {
+		"languages": "En"
+	},
+	"Sub-Terrania (USA) (Beta) (October, 1993, Alt)": {
 		"languages": "En"
 	},
 	"Summer Challenge (USA, Europe) (Unl)": {
@@ -6275,10 +6347,10 @@
 	"Super Street Fighter II (Europe) (Virtual Console)": {
 		"languages": "En"
 	},
-	"Super Street Fighter II - The New Challengers (Japan)": {
+	"Super Street Fighter II - The New Challengers (Japan) (Virtual Console)": {
 		"languages": "Ja"
 	},
-	"Super Street Fighter II - The New Challengers (Japan) (Virtual Console)": {
+	"Super Street Fighter II - The New Challengers (Japan)": {
 		"languages": "Ja"
 	},
 	"Super Tank War (Taiwan) (En) (Unl)": {
@@ -6395,10 +6467,10 @@
 	"Tanzer (World) (Demo) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
-	"Target Earth (USA)": {
+	"Target Earth (USA) (Beta) (1990-02-16)": {
 		"languages": "En"
 	},
-	"Target Earth (USA) (Beta) (1990-02-16)": {
+	"Target Earth (USA)": {
 		"languages": "En"
 	},
 	"Task Force Harrier EX (Japan)": {
@@ -6563,6 +6635,9 @@
 	"Thunder Force III (Japan, USA) (Beta) (1990-08-01)": {
 		"languages": "En"
 	},
+	"Thunder Force IV (World) (Sega Ages)": {
+		"languages": "En"
+	},
 	"Thunder Force IV (Europe)": {
 		"languages": "En"
 	},
@@ -6677,10 +6752,10 @@
 	"Tom Clown (Taiwan) (En) (Unl)": {
 		"languages": "En"
 	},
-	"Tom Mason's Dinosaurs for Hire (USA)": {
+	"Tom Mason's Dinosaurs for Hire (USA) (Beta) (1993-04-26)": {
 		"languages": "En"
 	},
-	"Tom Mason's Dinosaurs for Hire (USA) (Beta) (1993-04-26)": {
+	"Tom Mason's Dinosaurs for Hire (USA)": {
 		"languages": "En"
 	},
 	"Tom Mason's Dinosaurs for Hire (USA) (Beta) (1993-04-27)": {
@@ -6692,10 +6767,10 @@
 	"Tom Mason's Dinosaurs for Hire (USA) (Beta) (March, 1993)": {
 		"languages": "En"
 	},
-	"Tommy Lasorda Baseball (USA)": {
+	"Tommy Lasorda Baseball (USA) (Beta) (1989-04-30)": {
 		"languages": "En"
 	},
-	"Tommy Lasorda Baseball (USA) (Beta) (1989-04-30)": {
+	"Tommy Lasorda Baseball (USA)": {
 		"languages": "En"
 	},
 	"Tony La Russa Baseball (USA, Australia)": {
@@ -6881,19 +6956,25 @@
 	"Valis III (USA)": {
 		"languages": "En"
 	},
-	"Vampire Killer (Japan)": {
-		"languages": "Ja"
-	},
 	"Vampire Killer (Japan) (Castlevania Anniversary Collection)": {
 		"languages": "Ja"
 	},
 	"Vampire Killer (Japan) (Mega Drive Mini)": {
 		"languages": "Ja"
 	},
+	"Vampire Killer (Japan)": {
+		"languages": "Ja"
+	},
 	"Vapor Trail (USA)": {
 		"languages": "En"
 	},
 	"Vapor Trail (USA) (Beta) (1991-05-26)": {
+		"languages": "En"
+	},
+	"Vectorman (USA, Europe) (Beta 1)": {
+		"languages": "En"
+	},
+	"Vectorman (USA) (Genesis Mini)": {
 		"languages": "En"
 	},
 	"Vectorman (USA, Europe) (Beta 2)": {
@@ -6906,12 +6987,6 @@
 		"languages": "En"
 	},
 	"Vectorman (USA, Europe) (Beta 3) (1995-07-24)": {
-		"languages": "En"
-	},
-	"Vectorman (USA, Europe) (Beta 1)": {
-		"languages": "En"
-	},
-	"Vectorman (USA) (Genesis Mini)": {
 		"languages": "En"
 	},
 	"Vectorman 2 (USA)": {
@@ -7316,11 +7391,11 @@
 	"World Heroes (USA) (Beta) (1994-03-31) (Alt 1)": {
 		"languages": "En"
 	},
-	"World of Illusion starring Mickey Mouse & Donald Duck (USA, Korea) (Beta 1)": {
-		"languages": "Ja"
-	},
 	"World of Illusion starring Mickey Mouse & Donald Duck (USA, Korea) (Beta 2)": {
 		"languages": "En"
+	},
+	"World of Illusion starring Mickey Mouse & Donald Duck (USA, Korea) (Beta 1)": {
+		"languages": "Ja"
 	},
 	"World of Illusion Starring Mickey Mouse and Donald Duck (Europe)": {
 		"languages": "En"
@@ -7359,9 +7434,6 @@
 		"languages": "En"
 	},
 	"World Series Baseball (USA) (Rev A) (Beta) (1994-05-27)": {
-		"languages": "En"
-	},
-	"World Series Baseball '95 (USA)": {
 		"languages": "En"
 	},
 	"World Series Baseball '95 (USA) (Beta) (1994-12-08)": {
@@ -7431,6 +7503,9 @@
 		"languages": "En"
 	},
 	"World Series Baseball '95 (USA) (Beta) (1995-02-14)": {
+		"languages": "En"
+	},
+	"World Series Baseball '95 (USA)": {
 		"languages": "En"
 	},
 	"World Series Baseball '96 (USA)": {

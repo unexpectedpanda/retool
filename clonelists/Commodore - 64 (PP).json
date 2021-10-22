@@ -1,22 +1,16 @@
 {
 	"description": {
 		"name": [
-			"VTech - CreatiVision"
+			"Commodore - 64 (PP)"
 		],
 		"last updated": "22 October 2021",
 		"minimum version": "0.92"
 	},
 
 	"categories": {
-		"CreatiVision Basic": {
+		"Activision Action Demonstration (Promo)": {
 			"match": "short",
-			"categories": ["Applications"]
+			"categories": ["Demos", "Promotional"]
 		}
-	},
-
-	"renames": {
-		"Tennis (VTL)": [
-			["Tennis (DSE)", 2]
-		]
 	}
 }

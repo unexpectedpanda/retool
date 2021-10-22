@@ -3989,6 +3989,9 @@
     "Cindy's Fashion World (Europe)": {
         "languages": "En"
     },
+    "Cinema Eikaiwa Series Dai-1-dan - Tengoku ni Ikenai Papa (Japan) (Demo)": {
+        "languages": "Ja"
+    },
     "Cinema Eikaiwa Series Dai-1-dan - Tengoku ni Ikenai Papa (Japan) (Disc 1) (Joukan)": {
         "languages": "Ja"
     },
@@ -4593,6 +4596,9 @@
         "languages": "En"
     },
     "Cool Boarders 3 (Japan)": {
+        "languages": "En"
+    },
+    "Cool Boarders 3 (Japan) (Demo)": {
         "languages": "En"
     },
     "Cool Boarders 3 (USA)": {
@@ -10859,14 +10865,14 @@
     "GameShark - Video Game Enhancer - Version 5 (USA) (Unl)": {
         "languages": "En"
     },
-    "GameShark 2 - Video Game Enhancer - Code Archive Disc (USA) (Disc 2) (Unl)": {
-        "languages": "En"
-    },
-    "GameShark 2 - Video Game Enhancer - Code Archive Disc (USA) (Disc 2) (Unl) (Rev 1)": {
-        "languages": "En"
-    },
-    "GameShark 2 V2 - Video Game Enhancer - Code Archive Disc (USA) (En,Fr,Es,Pt) (Unl) (v1.0)": {
+    "GameShark 2 - Video Game Enhancer - Code Archive Disc (USA) (En,Fr,Es,Pt) (Unl) (Rev 2)": {
         "languages": "En, Fr, Pt, Es"
+    },
+    "GameShark 2 - Video Game Enhancer - Code Archive Disc (USA) (Unl)": {
+        "languages": "En"
+    },
+    "GameShark 2 - Video Game Enhancer - Code Archive Disc (USA) (Unl) (Rev 1)": {
+        "languages": "En"
     },
     "GameShark CDX (USA) (En,Fr,Es,Pt) (Unl) (v4.1)": {
         "languages": "En, Fr, Pt, Es"
@@ -11033,9 +11039,6 @@
     "Gensou Suikoden (Japan) (PlayStation the Best)": {
         "languages": "Ja"
     },
-    "Gensou Suikoden II (Asia) (Demo)": {
-        "languages": "Ja"
-    },
     "Gensou Suikoden II (Japan)": {
         "languages": "Ja"
     },
@@ -11046,6 +11049,9 @@
         "languages": "Ja"
     },
     "Gensou Suikoden II (Japan) (Rev 1)": {
+        "languages": "Ja"
+    },
+    "Gensou Suikoden II (Japan, Asia) (Demo)": {
         "languages": "Ja"
     },
     "Gensou no Artemis (Japan)": {
@@ -16787,12 +16793,6 @@
     "Metal Gear Solid (Asia) (Demo)": {
         "languages": "Ja"
     },
-    "Metal Gear Solid (Asia) (Disc 1)": {
-        "languages": "Ja"
-    },
-    "Metal Gear Solid (Asia) (Disc 2)": {
-        "languages": "Ja"
-    },
     "Metal Gear Solid (Europe) (Demo 1)": {
         "languages": "En"
     },
@@ -16833,6 +16833,12 @@
         "languages": "Ja"
     },
     "Metal Gear Solid (Japan) (Disc 2) (Ni)": {
+        "languages": "Ja"
+    },
+    "Metal Gear Solid (Japan, Asia) (Disc 1)": {
+        "languages": "Ja"
+    },
+    "Metal Gear Solid (Japan, Asia) (Disc 2)": {
         "languages": "Ja"
     },
     "Metal Gear Solid (Spain) (Disc 1)": {
@@ -21428,6 +21434,9 @@
     "Point Blank 3 (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
+    "Point Blank 3 (Europe) (En,Fr,De,Es,It) (Beta)": {
+        "languages": "En, Fr, De, It, Es"
+    },
     "Point Blank 3 (USA)": {
         "languages": "En"
     },
@@ -25476,6 +25485,9 @@
         "languages": "Fr"
     },
     "Space Debris (Germany)": {
+        "languages": "De"
+    },
+    "Space Debris (Germany) (Beta)": {
         "languages": "De"
     },
     "Space Debris (Italy)": {

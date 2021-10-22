@@ -7,7 +7,7 @@
             "These are defaults that Retool requires, don't modify this file.",
             "Check user-config.yaml for user-editable settings."
         ],
-        "last updated": "10 October 2021"
+        "last updated": "22 October 2021"
     },
 
     "ignore_tags": [
@@ -107,6 +107,7 @@
         "\\s?\\(V.Smile Motion\\)",
         "\\s?\\(NTSC\\)",
         "\\s?\\(Aquaprice 2800\\)",
+        "\\s?\\(Artdink Best Choice\\)",
         "\\s?\\(Best of the Best\\)",
         "\\s?\\(Best Hit Selection\\)",
         "\\s?\\(Best Wing 2800\\)",
@@ -116,6 +117,7 @@
         "\\s?\\(C&E\\)",
         "\\s?\\(CCE\\)",
         "\\s?\\(Culture Publishers\\)",
+        "\\s?\\(Cyclone's Best\\)",
         "\\s?\\(DigiCube Best Selection\\)",
         "\\s?\\(DSI\\)",
         "\\s?\\(DX Pack\\)",
@@ -150,6 +152,7 @@
         "\\s?\\(PSP The Best\\)",
         "\\s?\\(PSP the Best\\)",
         "\\s?\\(Renkaban\\)",
+        "\\s?\\(Rockstar Classics\\)",
         "\\s?\\(Sachen\\)",
         "\\s?\\(Sold Out Extreme\\)",
         "\\s?\\(Sold Out Software\\)",
@@ -211,6 +214,8 @@
         "\\s?\\((?:(?!\\(|Virtual Console.*?)[\\s\\S])*Virtual Console.*?\\)",
         "\\s?\\(Wii\\)",
         "\\s?\\((?:(?!\\(|.*?GameCube.*?)[\\s\\S])*?GameCube.*?\\)",
+        "\\s?\\(Aleste Collection\\)",
+        "\\s?\\(Atari Anthology\\)",
         "\\s?\\(Bomberman Collection\\)",
         "\\s?\\(Castlevania Anniversary Collection\\)",
         "\\s?\\(Collection of Mana\\)",

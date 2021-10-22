@@ -3,7 +3,7 @@
 		"name": [
 			"Atari - 2600"
 		],
-		"last updated": "19 September 2021",
+		"last updated": "22 October 2021",
 		"minimum version": "0.92"
 	},
 
@@ -12,9 +12,25 @@
 			"match": "short",
 			"categories": ["Applications"]
 		},
+		"Colors": {
+			"match": "short",
+			"categories": ["Applications", "Preproduction"]
+		},
+		"Colours": {
+			"match": "short",
+			"categories": ["Applications", "Preproduction"]
+		},
 		"Frog Demo": {
 			"match": "short",
 			"categories": ["Demos"]
+		},
+		"Kid Vid Voice Module (Audio Tapes)": {
+			"match": "short",
+			"categories": ["BIOS"]
+		},
+		"Sound": {
+			"match": "short",
+			"categories": ["Applications", "Preproduction"]
 		}
 	},
 
@@ -46,8 +62,12 @@
 		"Championship Soccer ~ Soccer": [
 			["Championship Soccer", 1]
 		],
+		"Colours": [
+			["Colors", 1]
+		],
 		"Combat ~ Tank-Plus": [
-			["Combat", 1]
+			["Combat", 1],
+			["Tank AI", 2]
 		],
 		"Dodge 'Em ~ Dodger Cars": [
 			["Dodge 'Em", 1]

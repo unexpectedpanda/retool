@@ -53,6 +53,9 @@
 	"Bakutoushi Patton-kun (Japan)": {
 		"languages": "Ja"
 	},
+	"Balloon Fight (Japan) (En) (Proto)": {
+		"languages": "En"
+	},
 	"Baseball (Japan)": {
 		"languages": "Ja"
 	},
@@ -239,7 +242,7 @@
 	"Egger Land (Japan)": {
 		"languages": "Ja"
 	},
-	"Egger Land (Japan) (Rev 1)": {
+	"Egger Land (Japan) (Rev 1) (Possible Proto)": {
 		"languages": "Ja"
 	},
 	"Egger Land - Souzou e no Tabidachi (Japan) (Disk Writer)": {
@@ -362,7 +365,7 @@
 	"Family Composer (Japan) (Disk Writer)": {
 		"languages": "Ja"
 	},
-	"Family Composer (Japan) (Rev 1)": {
+	"Family Composer (Japan) (Rev 1) (Possible Proto)": {
 		"languages": "Ja"
 	},
 	"[BIOS] Family Computer Disk System (Japan) (Rev 1)": {
@@ -449,7 +452,7 @@
 	"Ginga Denshou - Galaxy Odyssey (Japan)": {
 		"languages": "Ja"
 	},
-	"Ginga Denshou - Galaxy Odyssey (Japan) (Rev 1)": {
+	"Ginga Denshou - Galaxy Odyssey (Japan) (Rev 1) (Possible Proto)": {
 		"languages": "Ja"
 	},
 	"Gokuraku Yuugi - Game Tengoku (Japan)": {
@@ -461,7 +464,7 @@
 	"Golf (Japan)": {
 		"languages": "Ja"
 	},
-	"Golf (Japan) (Rev 2)": {
+	"Golf (Japan) (Rev 2) (Possible Proto)": {
 		"languages": "Ja"
 	},
 	"Golf - Japan Course (Japan) (DV 2)": {
@@ -486,6 +489,9 @@
 		"languages": "Ja"
 	},
 	"Golf, The - Bishoujo Classic (Japan) (Unl)": {
+		"languages": "Ja"
+	},
+	"Gomoku Narabe (Japan) (Proto)": {
 		"languages": "Ja"
 	},
 	"Goonies (Japan) (Disk Writer)": {
@@ -725,10 +731,13 @@
 	"Moero TwinBee - Cinnamon Hakase wo Sukue! (Japan)": {
 		"languages": "Ja"
 	},
+	"Money Game, The (Japan) (Proto)": {
+		"languages": "Ja"
+	},
 	"Monitor Puzzle Kineko, The - Kinetic Connection (Japan)": {
 		"languages": "Ja"
 	},
-	"Monitor Puzzle Kineko, The - Kinetic Connection (Japan) (Rev 1)": {
+	"Monitor Puzzle Kineko, The - Kinetic Connection (Japan) (Rev 1) (Possible Proto)": {
 		"languages": "Ja"
 	},
 	"Monitor Puzzle Kineko, The - Kinetic Connection II (Japan) (Disk Writer)": {
@@ -774,6 +783,15 @@
 		"languages": "Ja"
 	},
 	"Neunzehn - 19 (Japan)": {
+		"languages": "Ja"
+	},
+	"Nomura no Famicom Trade (Japan) (Proto) (FTAJ)": {
+		"languages": "Ja"
+	},
+	"Nomura no Famicom Trade (Japan) (Proto) (FTEJ)": {
+		"languages": "Ja"
+	},
+	"Nomura no Famicom Trade (Japan) (Proto) (FTBJ)": {
 		"languages": "Ja"
 	},
 	"Omoikkiri Tanteidan HaadoGumi - Matenrou no Chousenjou (Japan)": {
@@ -950,10 +968,7 @@
 	"Sunsoft Dev Disk Lot - 'E180L05' no. 1 (Japan)": {
 		"languages": "Ja"
 	},
-	"Sunsoft Dev Disk Lot - 'E180L05' no. 2 (Japan)": {
-		"languages": "Ja"
-	},
-	"Sunsoft Dev Disk Lot - 'E180L05' no. 3 (Japan)": {
+	"Sunsoft Dev Disk Lot - 'E180L05' no. 2 and no. 3 (Japan)": {
 		"languages": "Ja"
 	},
 	"Sunsoft Dev Disk Lot - 'E180L05' no. 4 (Japan)": {
@@ -975,9 +990,6 @@
 		"languages": "Ja"
 	},
 	"Sunsoft Dev Disk Lot - 'J226I22' no. 1 (Japan)": {
-		"languages": "Ja"
-	},
-	"Sunsoft Dev Disk Lot - 'J226I22' no. 2 (Japan)": {
 		"languages": "Ja"
 	},
 	"Sunsoft Dev Disk Lot - 'J226I22' no. 3 (Japan)": {
@@ -1005,6 +1017,9 @@
 		"languages": "En"
 	},
 	"Super Mario Bros. 2 (World) (GameCube, Wii and Wii U Virtual Console)": {
+		"languages": "En"
+	},
+	"Super Mario Bros. 2 (Japan) (En) (Game & Watch - Super Mario Bros.)": {
 		"languages": "En"
 	},
 	"Tama & Friends - Sanchoume Daibouken (Japan)": {

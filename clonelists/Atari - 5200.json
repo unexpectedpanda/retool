@@ -3,7 +3,7 @@
 		"name": [
 			"Atari - 5200"
 		],
-		"last updated": "11 September 2021",
+		"last updated": "22 October 2021",
 		"minimum version": "0.92"
 	},
 
@@ -23,6 +23,9 @@
 	},
 
 	"renames": {
+		"Rescue on Fractalus!": [
+			["Behind Jaggi Lines!", 2]
+		],
 		"Super Pac-Man": [
 			["Super Pacman", 2]
 		]

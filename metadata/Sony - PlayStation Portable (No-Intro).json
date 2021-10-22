@@ -1805,6 +1805,9 @@
 	"Dissidia - Final Fantasy (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
 	},
+	"Dissidia - Final Fantasy (Europe) (En,Fr,De,Es,It) (Beta)": {
+		"languages": "En,Fr,De,Es,It"
+	},
 	"Dissidia - Final Fantasy - Universal Tuning (Japan)": {
 		"languages": "Ja"
 	},
@@ -2069,7 +2072,7 @@
 	"Echochrome (Europe) (En,Fr,De,Es,It) (Demo)": {
 		"languages": "En,Fr,De,Es,It"
 	},
-	"Echochrome - Mugen Kairou (Asia) (En,Zh,Ko)": {
+	"Echochrome - Mugen Kairou (Asia, Korea) (En,Zh,Ko)": {
 		"languages": "En,Zh,Ko"
 	},
 	"Echoshift (Europe) (En,Fr,De,Es,It,Nl,Pt,Ru)": {
@@ -8558,7 +8561,7 @@
 	"Starry Sky - After Summer Portable (Japan) (v1.01)": {
 		"languages": "Ja"
 	},
-	"Starry Sky - After Summer Portable (Japan) (v1.01) (Extra Disc)": {
+	"Starry Sky - After Summer Portable - Etsu Puritsu 2 (Japan) (v1.01) (Extra Disc)": {
 		"languages": "Ja"
 	},
 	"Starry Sky - After Winter Portable (Japan) (Extra Disc)": {
@@ -9656,7 +9659,7 @@
 	"Vantage Master Portable (Japan) (v1.01)": {
 		"languages": "Ja"
 	},
-	"Vecinos Invasores - Hammy Enloquece (Spain) (1.02)": {
+	"Vecinos Invasores - Hammy Enloquece (Spain) (v1.02)": {
 		"languages": "Es"
 	},
 	"Venus & Braves - Majo to Megami to Horobi no Yogen (Japan)": {

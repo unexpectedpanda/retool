@@ -3,7 +3,7 @@
 		"name": [
 			"Sony - PlayStation Portable (Redump)"
 		],
-		"last updated": "10 October 2021",
+		"last updated": "22 October 2021",
 		"minimum version": "0.89"
 	},
 
@@ -113,7 +113,8 @@
 		],
 		"Disney-Pixar Ratatouille": [
 			["Disney-Pixar Ratatui", 1],
-			["Disney - Pixar Ratatouille", 1]
+			["Disney - Pixar Ratatouille", 1],
+			["Disney - Pixar Rottatouille", 1]
 		],
 		"Disney-Pixar Up": [
 			["Disney-Pixar Oben", 1],
@@ -344,9 +345,6 @@
 		"Metal Slug Anthology": [
 			["Metal Slug Complete", 1]
 		],
-		"Midnight Club - L.A. Remix": [
-			["Midnight Club - L.A. Remix (Rockstar Classics)", 1]
-		],
 		"Monster Hunter Freedom": [
 			["Monster Hunter Portable", 1]
 		],
@@ -487,7 +485,7 @@
 			["Simpson, I - Il Videogioco", 1],
 			["Simpson, Les - Le Jeu", 1],
 			["Simpsons, Die - Das Spiel", 1],
-			["Simpsons, Los - El Videojuego", 1]
+			["Simpson, Los - El Videojuego", 1]
 		],
 		"Smart Bomb": [
 			["Baku-No", 1]

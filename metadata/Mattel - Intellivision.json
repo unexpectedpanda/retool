@@ -1,5 +1,5 @@
 {
-	"ABPA Backgammon ~ Backgammon (World)": {
+	"ABPA Backgammon ~ Backgammon (USA, Europe)": {
 		"languages": "En"
 	},
 	"Advanced Dungeons & Dragons (USA, Europe)": {
@@ -26,7 +26,7 @@
 	"Atlantis (USA, Europe)": {
 		"languages": "En"
 	},
-	"Auto Racing (World)": {
+	"Auto Racing (USA, Europe)": {
 		"languages": "En"
 	},
 	"B-17 Bomber (USA, Europe)": {
@@ -53,7 +53,7 @@
 	"Bomb Squad (USA)": {
 		"languages": "En"
 	},
-	"Boxing (World)": {
+	"Boxing (USA, Europe)": {
 		"languages": "En"
 	},
 	"Brickout! (USA) (Proto)": {
@@ -161,7 +161,7 @@
 	"Fathom (USA, Europe)": {
 		"languages": "En"
 	},
-	"Frog Bog (World)": {
+	"Frog Bog (USA, Europe)": {
 		"languages": "En"
 	},
 	"Frogger (USA, Europe)": {
@@ -185,7 +185,7 @@
 	"Happy Trails (USA, Europe)": {
 		"languages": "En"
 	},
-	"Horse Racing (World)": {
+	"Horse Racing (USA, Europe)": {
 		"languages": "En"
 	},
 	"Hover Force (USA)": {
@@ -230,10 +230,10 @@
 	"Land Battle (USA) (Proto)": {
 		"languages": "En"
 	},
-	"Las Vegas Poker & Blackjack (World)": {
+	"Las Vegas Poker & Blackjack (USA, Europe)": {
 		"languages": "En"
 	},
-	"Las Vegas Roulette (World)": {
+	"Las Vegas Roulette (USA, Europe)": {
 		"languages": "En"
 	},
 	"League of Light (USA) (Proto)": {
@@ -260,7 +260,7 @@
 	"Magic Carousel (USA) (Proto) (Alt 1)": {
 		"languages": "En"
 	},
-	"Major League Baseball ~ Big League Baseball ~ Baseball (World)": {
+	"Major League Baseball ~ Big League Baseball ~ Baseball (USA, Europe)": {
 		"languages": "En"
 	},
 	"Masters of the Universe - The Power of He-Man (USA, Europe)": {
@@ -305,19 +305,19 @@
 	"MTE201 Intellivision Test Cartridge (USA)": {
 		"languages": "En"
 	},
-	"NASL Soccer ~ Soccer (World)": {
+	"NASL Soccer ~ Soccer (USA, Europe)": {
 		"languages": "En"
 	},
 	"NBA Basketball ~ Basketball (USA, Europe)": {
 		"languages": "En"
 	},
-	"NFL Football ~ Football (World)": {
+	"NFL Football ~ Football (USA, Europe)": {
 		"languages": "En"
 	},
-	"NHL Hockey ~ Hockey (World)": {
+	"NHL Hockey ~ Hockey (USA, Europe)": {
 		"languages": "En"
 	},
-	"Night Stalker (World)": {
+	"Night Stalker (USA, Europe)": {
 		"languages": "En"
 	},
 	"Nova Blast (USA, Europe)": {
@@ -347,10 +347,10 @@
 	"Party Line - Space Cadet (USA) (Proto) (Alt 1)": {
 		"languages": "En"
 	},
-	"PBA Bowling ~ Bowling (World)": {
+	"PBA Bowling ~ Bowling (USA, Europe)": {
 		"languages": "En"
 	},
-	"PGA Golf ~ Golf (World)": {
+	"PGA Golf ~ Golf (USA, Europe)": {
 		"languages": "En"
 	},
 	"Pinball (USA)": {
@@ -404,7 +404,7 @@
 	"Scooby Doo's Maze Chase (USA, Europe)": {
 		"languages": "En"
 	},
-	"Sea Battle (World)": {
+	"Sea Battle (USA, Europe)": {
 		"languages": "En"
 	},
 	"[BIOS] Sears Super Video Arcade (USA, Europe)": {
@@ -425,13 +425,13 @@
 	"Slap Shot - Super Pro Hockey (USA)": {
 		"languages": "En"
 	},
-	"SNAFU (World)": {
+	"SNAFU (USA, Europe)": {
 		"languages": "En"
 	},
-	"Space Armada (World)": {
+	"Space Armada (USA, Europe)": {
 		"languages": "En"
 	},
-	"Space Battle (World)": {
+	"Space Battle (USA, Europe)": {
 		"languages": "En"
 	},
 	"Space Hawk (USA, Europe)": {
@@ -449,7 +449,7 @@
 	"Stampede (USA, Europe)": {
 		"languages": "En"
 	},
-	"Star Strike (World)": {
+	"Star Strike (USA, Europe)": {
 		"languages": "En"
 	},
 	"Star Wars - The Empire Strikes Back (USA, Europe)": {
@@ -485,7 +485,7 @@
 	"Takeover (USA) (Proto)": {
 		"languages": "En"
 	},
-	"Tennis (World)": {
+	"Tennis (USA, Europe)": {
 		"languages": "En"
 	},
 	"Thin Ice (USA) (Beta)": {
@@ -500,7 +500,7 @@
 	"Tower of Doom (USA)": {
 		"languages": "En"
 	},
-	"Triple Action (World)": {
+	"Triple Action (USA)": {
 		"languages": "En"
 	},
 	"Triple Challenge - Chess, Checkers, Backgammon (USA)": {
@@ -530,7 +530,7 @@
 	"Tutankham (Europe)": {
 		"languages": "En"
 	},
-	"US Ski Team Skiing ~ Skiing (World)": {
+	"US Ski Team Skiing ~ Skiing (USA, Europe)": {
 		"languages": "En"
 	},
 	"USCF Chess ~ Chess (USA, Europe)": {

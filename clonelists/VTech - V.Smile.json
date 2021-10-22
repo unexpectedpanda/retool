@@ -3,7 +3,7 @@
 		"name": [
 			"VTech - V.Smile"
 		],
-		"last updated": "9 April 2021",
+		"last updated": "22 October 2021",
 		"minimum version": "0.89"
 	},
 
@@ -138,8 +138,9 @@
 		"Up": [
 			["Oben", 1]
 		],
-		"V.Smile - Zeichenatelier": [
-			["V.Smile - Tecknarstudio", 1]
+		"V.Smile - Art Studio": [
+			["V.Smile - Tecknarstudio", 1],
+			["V.Smile - Zeichenatelier", 1]
 		],
 		"Zayzoo - An Earth Adventure": [
 			["Zayzoos Lernall", 1],

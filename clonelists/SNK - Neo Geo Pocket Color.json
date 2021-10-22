@@ -3,8 +3,15 @@
 		"name": [
 			"SNK Neo Geo Pocket Color"
 		],
-		"last updated": "9 April 2021",
-		"minimum version": "0.89"
+		"last updated": "22 October 2021",
+		"minimum version": "0.92"
+	},
+
+	"categories": {
+		"PP-AA01 - Pusher - Program - Hontai Controller Gawa": {
+			"match": "short",
+			"categories": ["Applications"]
+		}
 	},
 
 	"renames": {
@@ -22,9 +29,6 @@
 		],
 		"Evolution - Eternal Dungeons": [
 			["Shinki Sekai Evolution - Hateshinai Dungeon", 1]
-		],
-		"King of Fighters R-2 - Pocket Fighting Series": [
-			["King of Fighters R-2 Version 2 - Pocket Fighting Series", 2]
 		],
 		"Last Blade, The - Beyond the Destiny": [
 			["Bakumatsu Rouman Tokubetsu Hen - Gekka no Kenshi - Tsuki ni Saku Hana, Chiri Yuku Hana", 1]

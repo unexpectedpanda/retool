@@ -1868,6 +1868,9 @@
     "Batman - Vengeance (Europe) (En,Fr,De,Es,It,Nl)": {
         "languages": "Nl, En, Fr, De, It, Es"
     },
+    "Batman - Vengeance (Europe) (En,Fr,De,Es,It,Nl) (Beta)": {
+        "languages": "Nl, En, Fr, De, It, Es"
+    },
     "Batman - Vengeance (USA) (En,Fr)": {
         "languages": "En, Fr"
     },
@@ -9242,38 +9245,44 @@
     "GameShark - Metal Gear Solid 2 - Sons of Liberty (USA) (Disc 1) (Codes and Saves) (Unl)": {
         "languages": "En"
     },
-    "GameShark 2 - Video Game Enhancer (USA) (Disc 1) (Unl) (v1.3)": {
-        "languages": "En"
-    },
-    "GameShark 2 - Video Game Enhancer (USA) (Disc 1) (Unl) (v1.6)": {
-        "languages": ""
-    },
-    "GameShark 2 - Video Game Enhancer (USA) (Disc 1) (Unl) (v1.7)": {
-        "languages": "En"
-    },
-    "GameShark 2 - Video Game Enhancer (USA) (Disc 1) (Unl) (v1.93)": {
-        "languages": "En"
-    },
     "GameShark 2 - Video Game Enhancer (USA) (En,Fr,Es,Pt) (Unl) (v2.00)": {
         "languages": "En, Fr, Pt, Es"
     },
     "GameShark 2 - Video Game Enhancer (USA) (En,Fr,Es,Pt) (Unl) (v2.01)": {
         "languages": "En, Fr, Pt, Es"
     },
+    "GameShark 2 - Video Game Enhancer (USA) (Unl) (v1.3)": {
+        "languages": "En"
+    },
+    "GameShark 2 - Video Game Enhancer (USA) (Unl) (v1.6)": {
+        "languages": ""
+    },
+    "GameShark 2 - Video Game Enhancer (USA) (Unl) (v1.7)": {
+        "languages": "En"
+    },
+    "GameShark 2 - Video Game Enhancer (USA) (Unl) (v1.91)": {
+        "languages": "En"
+    },
+    "GameShark 2 - Video Game Enhancer (USA) (Unl) (v1.93)": {
+        "languages": "En"
+    },
+    "GameShark 2 - Video Game Enhancer (USA) (Unl) (v1.99c)": {
+        "languages": "En"
+    },
     "GameShark 2 - Video Game Enhancer (USA) (Unl) (v1.99d)": {
         "languages": "En"
     },
-    "GameShark 2 - Video Game Enhancer - V 1.0 (USA) (Disc 1) (Unl) (v1.1)": {
+    "GameShark 2 - Video Game Enhancer - V 1.0 (USA) (Unl) (v1.1)": {
         "languages": ""
     },
-    "GameShark 2 - Video Game Enhancer - Version 2 (USA) (Disc 1) (Unl)": {
+    "GameShark 2 - Video Game Enhancer - Version 2 (USA) (Unl)": {
         "languages": ""
     },
     "GameShark 2 Ultimate Cheats for Grand Theft Auto III (USA) (Unl)": {
         "languages": ""
     },
-    "GameShark 2 V2 - Video Game Enhancer (USA) (Disc 1) (Unl) (v1.99d)": {
-        "languages": "En"
+    "GameShark 2 V2 - Video Game Enhancer (USA) (En,Fr,Es,Pt) (Unl) (v2.03)": {
+        "languages": "En, Fr, Pt, Es"
     },
     "GameShark 2 V2 - Video Game Enhancer (USA) (En,Fr,Es,Pt) (Unl) (v2.11)": {
         "languages": "En, Fr, Pt, Es"
@@ -9286,6 +9295,9 @@
     },
     "GameShark 2 V2 - Video Game Enhancer (USA) (En,Fr,Es,Pt) (Unl) (v2.22)": {
         "languages": "En, Fr, Pt, Es"
+    },
+    "GameShark 2 V2 - Video Game Enhancer (USA) (Unl) (v1.99d)": {
+        "languages": "En"
     },
     "Games Galaxy 2 (Europe)": {
         "languages": "En"
@@ -15860,6 +15872,9 @@
     "Metal Gear Solid 3 - Snake Eater (Japan) (Premium Package)": {
         "languages": "Ja"
     },
+    "Metal Gear Solid 3 - Snake Eater (Korea)": {
+        "languages": "Ko"
+    },
     "Metal Gear Solid 3 - Snake Eater (Spain)": {
         "languages": "Es"
     },
@@ -16473,6 +16488,9 @@
         "languages": "En"
     },
     "Motion Gravure Series - Kitagawa Tomomi (Japan)": {
+        "languages": "Ja"
+    },
+    "Motion Gravure Series - Mori Hiroko (Japan)": {
         "languages": "Ja"
     },
     "Moto X Maniac (Europe)": {
@@ -19644,6 +19662,9 @@
         "languages": "Ja"
     },
     "Oretachi Geesen Zoku - Contra (Japan)": {
+        "languages": "Ja"
+    },
+    "Oretachi Geesen Zoku - Crazy Climber (Japan)": {
         "languages": "Ja"
     },
     "Oretachi Geesen Zoku - Karate-dou (Japan)": {
@@ -28070,6 +28091,9 @@
     "Thing, The (USA)": {
         "languages": "En"
     },
+    "This Is Football - Segye Choegang Chukgu 2003 (Korea)": {
+        "languages": "Ko"
+    },
     "This Is Football - Soccer Sekai Senki 2003 (Japan)": {
         "languages": "Ja"
     },
@@ -28696,6 +28720,9 @@
     },
     "Top Gun - Ace of the Sky (Japan)": {
         "languages": "Ja"
+    },
+    "Top Gun - Combat Zones (Europe) (Demo)": {
+        "languages": ""
     },
     "Top Gun - Combat Zones (Europe) (En,Fr,De,Es,It,Nl)": {
         "languages": "Nl, En, Fr, De, It, Es"

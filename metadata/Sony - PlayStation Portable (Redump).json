@@ -167,6 +167,9 @@
     "Air Conflicts - Aces of World War II (USA)": {
         "languages": "En"
     },
+    "Akiba's Trip (Japan)": {
+        "languages": "Ja"
+    },
     "Akumajou Dracula X - Chronicle (Japan)": {
         "languages": "Ja"
     },
@@ -1529,6 +1532,9 @@
     "Dungeons & Dragons - Tactics (USA)": {
         "languages": "En"
     },
+    "Durarara!! 3way Standoff (Japan)": {
+        "languages": "Ja"
+    },
     "Dynasty Warriors (Europe)": {
         "languages": "En"
     },
@@ -2036,7 +2042,7 @@
     "Final Fantasy Reishiki (Japan) (Disc 2)": {
         "languages": "Ja"
     },
-    "Final Fantasy Tactics - Shishi Sensou (Korea)": {
+    "Final Fantasy Tactics - Shishi Sensou (Japan, Korea)": {
         "languages": "Ja"
     },
     "Final Fantasy Tactics - The War of the Lions (Europe)": {
@@ -2116,6 +2122,9 @@
     },
     "Frogger - Helmet Chaos (USA)": {
         "languages": "En"
+    },
+    "Fukufuku no Shima (Japan)": {
+        "languages": "Ja"
     },
     "Full Auto 2 - Battlelines (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
@@ -2393,10 +2402,16 @@
     "Grand Theft Auto - Liberty City Stories (Japan)": {
         "languages": "Ja"
     },
+    "Grand Theft Auto - Liberty City Stories (Japan) (Rockstar Classics)": {
+        "languages": "Ja"
+    },
     "Grand Theft Auto - Liberty City Stories (Korea) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
     "Grand Theft Auto - Liberty City Stories (USA) (En,Fr,De,Es,It) (v1.05)": {
+        "languages": "En, Fr, De, It, Es"
+    },
+    "Grand Theft Auto - Liberty City Stories (USA) (En,Fr,De,Es,It) (v2.00)": {
         "languages": "En, Fr, De, It, Es"
     },
     "Grand Theft Auto - Liberty City Stories (USA) (En,Fr,De,Es,It) (v3.00)": {
@@ -2489,6 +2504,9 @@
     "Gundam Battle Universe (Asia)": {
         "languages": "Ja"
     },
+    "Gundam Memories - Tatakai no Kioku (Japan)": {
+        "languages": "Ja"
+    },
     "Gungnir (USA)": {
         "languages": "En"
     },
@@ -2541,6 +2559,9 @@
         "languages": "Ja"
     },
     "Hanayaka Nari, Wa ga Ichizoku (Japan)": {
+        "languages": "Ja"
+    },
+    "Hanayaka Nari, Wa ga Ichizoku - Kinema Mosaic (Japan)": {
         "languages": "Ja"
     },
     "Hannah Montana - Rock Out the Show (Europe) (En,Fr,De,Es,It)": {
@@ -2621,7 +2642,7 @@
     "Hatsune Miku - Project Diva 2nd (Japan) (Okaidoku-ban)": {
         "languages": "Ja"
     },
-    "Hatsune Miku - Project Diva Extend (Asia)": {
+    "Hatsune Miku - Project Diva Extend (Japan, Asia)": {
         "languages": "Ja"
     },
     "Hayarigami 2 Portable - Keishichou Kaii Jiken File (Japan)": {
@@ -2735,10 +2756,10 @@
     "Idolmaster SP, The - Missing Moon (Asia)": {
         "languages": "Ja"
     },
-    "Idolmaster SP, The - Perfect Sun (Asia)": {
+    "Idolmaster SP, The - Perfect Sun (Japan, Asia)": {
         "languages": "Ja"
     },
-    "Idolmaster SP, The - Wandering Star (Asia)": {
+    "Idolmaster SP, The - Wandering Star (Japan, Asia)": {
         "languages": "Ja"
     },
     "Idolmaster Shiny Festa, The - Groovy Tune (Japan)": {
@@ -2990,10 +3011,16 @@
     "Karakuri (Japan, Asia)": {
         "languages": "Ja"
     },
+    "Katei Kyoushi Hitman Reborn! Kizuna no Tag Battle (Japan)": {
+        "languages": "Ja"
+    },
     "Kazook (Europe) (En,Fr,De,It)": {
         "languages": "En, Fr, De, It"
     },
     "Kazuo (Japan)": {
+        "languages": "Ja"
+    },
+    "Ken to Mahou to Gakuen Mono. 3 (Japan)": {
         "languages": "Ja"
     },
     "Kenka Bancho - Badass Rumble (USA)": {
@@ -3005,7 +3032,7 @@
     "Kenka Banchou 3 - Zenkoku Seiha (Japan, Asia)": {
         "languages": "Ja"
     },
-    "Kenka Banchou 4 - Ichinen Sensou (Asia)": {
+    "Kenka Banchou 4 - Ichinen Sensou (Japan, Asia)": {
         "languages": "Ja"
     },
     "Key of Heaven (Europe) (En,Fr,De,Es,It)": {
@@ -3032,7 +3059,7 @@
     "Kidou Senshi Gundam Seed - Rengou vs. Z.A.F.T. Portable (Japan) (Demo)": {
         "languages": "Ja"
     },
-    "Kidou Senshi Gundam Seed - Rengou vs. Z.A.F.T. Portable (Korea)": {
+    "Kidou Senshi Gundam Seed - Rengou vs. Z.A.F.T. Portable (Japan, Korea)": {
         "languages": "Ja"
     },
     "Killzone - Liberation (Europe) (En,Fr,De,Es,It,Nl,Pl,Ru)": {
@@ -3108,6 +3135,9 @@
         "languages": "Ja"
     },
     "Kurohyou - Ryu ga Gotoku Shinshou (Japan, Asia)": {
+        "languages": "Ja"
+    },
+    "Kuroko no Basuke - Kiseki no Game (Japan)": {
         "languages": "Ja"
     },
     "Kuru Kuru Chameleon (Asia)": {
@@ -3497,7 +3527,7 @@
     "Makai Senki Disgaea Portable (Japan)": {
         "languages": "Ja"
     },
-    "Makai Senki Disgaea Portable - Tsuushin Taisen Hajimemashita. (Japan)": {
+    "Makai Senki Disgaea Portable - Tsuushin Taisen Hajimemashita. (Japan, Korea)": {
         "languages": "Ja"
     },
     "Mana Khemia - Student Alliance (Europe)": {
@@ -3763,6 +3793,9 @@
     },
     "Mind Quiz - Exercise Your Brain (USA)": {
         "languages": "En"
+    },
+    "Minna no Chizu 2 (Japan) (GPS Receiver Doukonban)": {
+        "languages": "Ja"
     },
     "Minna no Golf Jyou Vol. 2 (Japan) (Disc 1)": {
         "languages": "Ja"
@@ -4175,7 +4208,7 @@
     "Naruto Shippuden - Ultimate Ninja Impact (USA) (En,Fr,Es)": {
         "languages": "En, Fr, Es"
     },
-    "Naruto Shippuuden - Kizuna Drive (Asia)": {
+    "Naruto Shippuuden - Kizuna Drive (Japan, Asia)": {
         "languages": "Ja"
     },
     "Naruto Shippuuden - Narutimate Accel 3 (Japan)": {
@@ -4219,6 +4252,9 @@
     },
     "Need for Speed - ProStreet (Europe) (En,Fr,De,Es,It,Nl)": {
         "languages": "Nl, En, Fr, De, It, Es"
+    },
+    "Need for Speed - ProStreet (Japan)": {
+        "languages": "Ja"
     },
     "Need for Speed - ProStreet (USA)": {
         "languages": "En"
@@ -4877,6 +4913,9 @@
     "Puyo Puyo Fever 2 (Japan)": {
         "languages": "Ja"
     },
+    "Puyo Puyo! Puyopuyo 15th Anniversary (Japan)": {
+        "languages": "Ja"
+    },
     "Puzzle Bobble Pocket (Japan)": {
         "languages": "Ja"
     },
@@ -5231,6 +5270,9 @@
     "Sanguozhi V (Asia)": {
         "languages": "Zh"
     },
+    "Saru! Get You! P! (Japan)": {
+        "languages": "Ja"
+    },
     "Saru! Get You! P! (Japan) (Beta)": {
         "languages": ""
     },
@@ -5402,6 +5444,9 @@
     "Shining Ark (Japan)": {
         "languages": "Ja"
     },
+    "Shining Blade (Japan)": {
+        "languages": "Ja"
+    },
     "Shining Hearts (Japan)": {
         "languages": "Ja"
     },
@@ -5468,6 +5513,9 @@
     "Simpson, Les - Le Jeu (France)": {
         "languages": "Fr"
     },
+    "Simpson, Los - El Videojuego (Spain)": {
+        "languages": "Es"
+    },
     "Simpsons Game, The (Europe)": {
         "languages": "En"
     },
@@ -5476,9 +5524,6 @@
     },
     "Simpsons, Die - Das Spiel (Germany)": {
         "languages": "De"
-    },
-    "Simpsons, Los - El Videojuego (Spain)": {
-        "languages": "Es"
     },
     "Sims 2, The (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
@@ -5762,6 +5807,9 @@
     "Steel Horizon (USA)": {
         "languages": "En"
     },
+    "Steins;Gate (Japan)": {
+        "languages": "Ja"
+    },
     "Storm Lover (Japan)": {
         "languages": "Ja"
     },
@@ -5900,7 +5948,7 @@
     "Tactics Ogre - Unmei no Wa (Japan)": {
         "languages": "Ja"
     },
-    "Taiko no Tatsujin Portable (Japan) (v2.00)": {
+    "Taiko no Tatsujin Portable (Japan, Asia) (v2.00)": {
         "languages": "Ja"
     },
     "Taiko no Tatsujin Portable 2 (Japan)": {
@@ -5933,7 +5981,7 @@
     "Tales of VS (Japan)": {
         "languages": "Ja"
     },
-    "Tales of the Heroes - Twin Brave (Japan)": {
+    "Tales of the Heroes - Twin Brave (Japan, Korea)": {
         "languages": "Ja"
     },
     "Tales of the World - Radiant Mythology (Europe)": {
@@ -6341,6 +6389,9 @@
     "Uta no Prince-sama - Music 2 (Japan)": {
         "languages": "Ja"
     },
+    "Uta no Prince-sama - Repeat (Japan)": {
+        "languages": "Ja"
+    },
     "Uta no Prince-sama - Sweet Serenade (Japan)": {
         "languages": "Ja"
     },
@@ -6572,6 +6623,9 @@
     "Winning Eleven - Pro Evolution Soccer 2007 (USA)": {
         "languages": ""
     },
+    "Winning Post 7 2010 (Japan)": {
+        "languages": "Ja"
+    },
     "Winx Club - Join the Club (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
@@ -6693,6 +6747,9 @@
         "languages": "Ja"
     },
     "World Soccer Winning Eleven 9 - Ubiquitous Evolution (Japan, Asia)": {
+        "languages": "Ja"
+    },
+    "World Soccer Winning Eleven 9 - Ubiquitous Evolution (Korea)": {
         "languages": "Ja"
     },
     "World Tour Soccer (Europe) (En,Fr,De,Es,It)": {

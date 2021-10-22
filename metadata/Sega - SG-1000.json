@@ -50,6 +50,12 @@
 	"Borderline (Japan, Europe, Australia, New Zealand)": {
 		"languages": "En"
 	},
+	"C_So! (Taiwan)": {
+		"languages": "Zh"
+	},
+	"C_So! (Japan)": {
+		"languages": "Ja"
+	},
 	"Cabbage Patch Kids (Taiwan)": {
 		"languages": "Zh"
 	},
@@ -205,12 +211,6 @@
 	},
 	"Congo Bongo (Taiwan) (Rev 1)": {
 		"languages": "Zh"
-	},
-	"C_So! (Taiwan)": {
-		"languages": "Zh"
-	},
-	"C_So! (Japan)": {
-		"languages": "Ja"
 	},
 	"Disk BASIC (Japan) (Rev 1) (SF-7000) (Program)": {
 		"languages": "Ja"

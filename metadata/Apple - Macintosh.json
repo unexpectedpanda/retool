@@ -278,6 +278,9 @@
     "Activision's Atari 2600 Action Pack for Macintosh (USA)": {
         "languages": ""
     },
+    "Addison-Wesley's Real World Math - Adventures in Flight (USA)": {
+        "languages": "En"
+    },
     "Adventures with Oslo - Tools and Gadgets (USA)": {
         "languages": ""
     },
@@ -677,6 +680,9 @@
     "Call of Duty 4 - Modern Warfare (USA)": {
         "languages": "En"
     },
+    "Capitol Hill (USA)": {
+        "languages": ""
+    },
     "Carmageddon II - Carpocalypse Now (Europe)": {
         "languages": "En"
     },
@@ -686,8 +692,14 @@
     "Centipede (USA)": {
         "languages": "En"
     },
+    "Christmas Present (Japan) (En,Ja)": {
+        "languages": "En, Ja"
+    },
     "Chu-Teng (Japan)": {
         "languages": "Ja"
+    },
+    "Cinderella - The Original Fairy Tale (USA)": {
+        "languages": "En"
     },
     "Cinderella - The Original Fairy Tale (USA) (En,Es)": {
         "languages": "En, Es"
@@ -709,6 +721,12 @@
     },
     "Cookie's Bustle - Nazo no Bombo World (Japan)": {
         "languages": "Ja"
+    },
+    "Counting on Frank - A Math Adventure Game (USA)": {
+        "languages": ""
+    },
+    "Counting on Frank - A Math Adventure Game (USA) (Alt)": {
+        "languages": ""
     },
     "Crescent Satsujin Jiken - Hyena no Jijou (Japan)": {
         "languages": "Ja"
@@ -806,6 +824,9 @@
     "Educorp CD Sampler, The (USA)": {
         "languages": "En"
     },
+    "Educorp CD Sampler, The (USA) (Alt)": {
+        "languages": "En"
+    },
     "Elemental Force (Japan)": {
         "languages": "Ja"
     },
@@ -896,6 +917,9 @@
     "Harry Potter and the Sorcerer's Stone (USA) (Deluxe Edition)": {
         "languages": ""
     },
+    "Heather Hits Her First Home Run (USA) (En,Es)": {
+        "languages": "En, Es"
+    },
     "Hell - A Cyberpunk Thriller (Japan)": {
         "languages": "Ja"
     },
@@ -928,6 +952,9 @@
     },
     "Indiana Jones and the Fate of Atlantis (USA) (Rerelease)": {
         "languages": ""
+    },
+    "Initial D Second Stage - Typing Kanto Saisoku Project (Japan)": {
+        "languages": "Ja"
     },
     "International Tennis Open (Europe) (En,Fr)": {
         "languages": "En, Fr"
@@ -1025,8 +1052,14 @@
     "Links Pro CD (USA)": {
         "languages": "En"
     },
+    "Living Books - Aesop's Fable - The Tortoise and the Hare (USA)": {
+        "languages": ""
+    },
     "Long Hard Day On The Ranch, A (USA)": {
         "languages": "En"
+    },
+    "Long Hard Day On The Ranch, A (USA) (En,Es)": {
+        "languages": "En, Es"
     },
     "Lords Royal Collection (USA) (Disc 4) (Lords of the Realm II & Lords II Siege Pack & Caesar II Demo)": {
         "languages": "En"
@@ -1292,6 +1325,9 @@
     "Marathon 2 - Durandal (USA)": {
         "languages": ""
     },
+    "Marc Brown's Arthur's Teacher Trouble (USA)": {
+        "languages": ""
+    },
     "Mario Is Missing! CD-ROM Deluxe (USA)": {
         "languages": "En"
     },
@@ -1328,6 +1364,9 @@
     "Metal Gear Solid (Australia) (Artwork Vol. 2)": {
         "languages": "En"
     },
+    "Mindscape CD Pack Volume II For Mac (USA)": {
+        "languages": "En"
+    },
     "Monopoly Casino (USA)": {
         "languages": "En"
     },
@@ -1340,8 +1379,17 @@
     "Morton Subotnick's Making Music (USA)": {
         "languages": "En"
     },
+    "Moving Gives Me a Stomach Ache (USA)": {
+        "languages": "En"
+    },
+    "Mud Puddle (USA)": {
+        "languages": "En"
+    },
     "Mud Puddle (USA) (En,Es)": {
         "languages": "En, Es"
+    },
+    "Musical World of Professor Piccolo, The (USA)": {
+        "languages": ""
     },
     "My Favorite Monster (USA)": {
         "languages": "En"
@@ -1460,8 +1508,17 @@
     "Oceans Below (Japan)": {
         "languages": ""
     },
+    "Oceans Below (USA)": {
+        "languages": ""
+    },
+    "Odyssey - The Legend of Nemesis (USA)": {
+        "languages": "En"
+    },
     "Oni (USA)": {
         "languages": ""
+    },
+    "Paper Bag Princess, The (USA)": {
+        "languages": "En"
     },
     "Paper Bag Princess, The (USA) (En,Es)": {
         "languages": "En, Es"
@@ -1596,6 +1653,9 @@
         "languages": ""
     },
     "Scavenger Hunt Adventure Series, The - Africa (USA)": {
+        "languages": ""
+    },
+    "Scholastic's The Magic School Bus Explores the Ocean (USA)": {
         "languages": ""
     },
     "Schoolhouse Rock! Grammar Rock (USA)": {
@@ -1835,7 +1895,19 @@
     "Stubbs the Zombie in Rebel Without a Pulse (USA) (En,Fr)": {
         "languages": "En, Fr"
     },
+    "Tale of Benjamin Bunny, The (USA)": {
+        "languages": "En"
+    },
     "Tale of Benjamin Bunny, The (USA) (En,Es)": {
+        "languages": "En, Es"
+    },
+    "Tale of Peter Rabbit, The (USA)": {
+        "languages": "En"
+    },
+    "Tale of Peter Rabbit, The (USA) (En,Es)": {
+        "languages": "En, Es"
+    },
+    "Tale of Peter Rabbit, The (USA) (En,Es) (Alt)": {
         "languages": "En, Es"
     },
     "Terry Pratchett's Discworld (UK)": {
@@ -1851,6 +1923,9 @@
         "languages": ""
     },
     "Thinkin' Things Collection 2 (USA) (OEM)": {
+        "languages": "En"
+    },
+    "Thomas' Snowsuit (USA)": {
         "languages": "En"
     },
     "Thomas' Snowsuit (USA) (En,Es)": {
@@ -1967,7 +2042,16 @@
     "Where in the World is Carmen Sandiego CD-ROM (USA)": {
         "languages": "En"
     },
+    "WiggleWorks - Peanut Butter Rhino & Birds on Stage & Frog's Lunch (USA)": {
+        "languages": "En"
+    },
+    "Willy Wabbit & His Magical Books (USA)": {
+        "languages": "En"
+    },
     "WipEout 2097 (Europe)": {
+        "languages": "En"
+    },
+    "Word City (USA)": {
         "languages": "En"
     },
     "World Book - 2004 Edition (USA)": {

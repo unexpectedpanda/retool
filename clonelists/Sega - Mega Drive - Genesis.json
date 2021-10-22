@@ -3,7 +3,7 @@
 		"name": [
 			"Sega - Mega Drive - Genesis"
 		],
-		"last updated": "11 September 2021",
+		"last updated": "22 October 2021",
 		"minimum version": "0.89"
 	},
 
@@ -115,7 +115,8 @@
 		],
 		"Contra - Hard Corps": [
 			["Contra - The Hard Corps", 1],
-			["Probotector", 1]
+			["Probotector (60 Hz)", 1],
+			["Probotector", 2]
 		],
 		"CrossFire": [
 			["Super Airwolf", 1]

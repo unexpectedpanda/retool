@@ -3,7 +3,7 @@
 		"name": [
 			"Nintendo - Game Boy Advance"
 		],
-		"last updated": "23 May 2021",
+		"last updated": "22 October 2021",
 		"minimum version": "0.92"
 	},
 
@@ -67,6 +67,10 @@
 		"Viewpoint (Unknown) (Techo Demo)": {
 			"match": "full",
 			"categories": ["Demos"]
+		},
+		"Xploder Advance": {
+			"match": "short",
+			"categories": ["Applications"]
 		}
 	},
 

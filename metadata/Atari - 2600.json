@@ -71,6 +71,9 @@
 	"Air-Sea Battle ~ Target Fun (Japan, USA)": {
 		"languages": "En"
 	},
+	"Air-Sea Battle ~ Target Fun (Japan, USA) (Atari Anthology)": {
+		"languages": "En"
+	},
 	"Airlock (USA)": {
 		"languages": "En"
 	},
@@ -143,6 +146,9 @@
 	"Asteroids (Europe)": {
 		"languages": "En"
 	},
+	"Asteroids (USA) (Atari Anthology)": {
+		"languages": "En"
+	},
 	"Astroblast (USA) (v1.1)": {
 		"languages": "En"
 	},
@@ -156,6 +162,9 @@
 		"languages": "En"
 	},
 	"Atari Video Cube (USA)": {
+		"languages": "En"
+	},
+	"Atari Video Cube (USA, Europe) (Atari Anthology)": {
 		"languages": "En"
 	},
 	"Atlantis (USA)": {
@@ -524,7 +533,13 @@
 	"Colors (Europe) (Proto)": {
 		"languages": "En"
 	},
+	"Colours (USA, Europe) (Atari Anthology)": {
+		"languages": "En"
+	},
 	"Combat (Europe)": {
+		"languages": "En"
+	},
+	"Combat (USA, Europe) (Atari Anthology)": {
 		"languages": "En"
 	},
 	"Combat ~ Tank-Plus (USA)": {
@@ -698,7 +713,7 @@
 	"Dragster (USA)": {
 		"languages": "En"
 	},
-	"Dukes of Hazzard (USA)": {
+	"Dukes of Hazzard (USA) (Proto)": {
 		"languages": "En"
 	},
 	"Dumbo's Flying Circus (USA) (Proto)": {
@@ -1020,6 +1035,9 @@
 		"languages": "En"
 	},
 	"Keystone Kapers (USA)": {
+		"languages": "En"
+	},
+	"Kid Vid Voice Module (USA) (Audio Tapes)": {
 		"languages": "En"
 	},
 	"Killer Satellites (USA)": {
@@ -1427,6 +1445,9 @@
 	"Quadrun (USA)": {
 		"languages": "En"
 	},
+	"Quadrun (USA, Europe) (Atari Anthology)": {
+		"languages": "En"
+	},
 	"Quest for Quintana Roo (USA)": {
 		"languages": "En"
 	},
@@ -1682,6 +1703,9 @@
 	"Sorcerer's Apprentice (USA)": {
 		"languages": "En"
 	},
+	"Sound (USA, Europe) (Atari Anthology)": {
+		"languages": "En"
+	},
 	"Space Attack (USA)": {
 		"languages": "En"
 	},
@@ -1841,7 +1865,13 @@
 	"Super Baseball (USA)": {
 		"languages": "En"
 	},
+	"Super Baseball (USA, Europe) (Atari Anthology)": {
+		"languages": "En"
+	},
 	"Super Breakout (USA)": {
+		"languages": "En"
+	},
+	"Super Breakout (USA, Europe) (Atari Anthology)": {
 		"languages": "En"
 	},
 	"Super Challenge Baseball (USA)": {
@@ -1889,6 +1919,9 @@
 	"SwordQuest - EarthWorld (USA)": {
 		"languages": "En"
 	},
+	"SwordQuest - EarthWorld (USA, Europe) (Atari Anthology)": {
+		"languages": "En"
+	},
 	"SwordQuest - FireWorld (USA)": {
 		"languages": "En"
 	},
@@ -1896,6 +1929,9 @@
 		"languages": "En"
 	},
 	"Tac-Scan (USA)": {
+		"languages": "En"
+	},
+	"Tank AI (USA, Europe)": {
 		"languages": "En"
 	},
 	"Tanks But no Tanks (USA)": {
@@ -1917,6 +1953,9 @@
 		"languages": "En"
 	},
 	"Tempest (USA) (Proto)": {
+		"languages": "En"
+	},
+	"Tempest (USA) (Proto) (Atari Anthology)": {
 		"languages": "En"
 	},
 	"Tennis (USA)": {

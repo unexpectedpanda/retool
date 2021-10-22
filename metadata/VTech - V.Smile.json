@@ -182,7 +182,7 @@
 	"Lion King, The - Simba's Big Adventure (USA)": {
 		"languages": "En"
 	},
-	"Little Mermaid, The - Ariel's Majestic Journey (Europe) (En-GB)": {
+	"Little Mermaid, The - Ariel's Majestic Journey (USA, Europe) (En-GB)": {
 		"languages": "En-GB"
 	},
 	"Lovernes Konge - Simbas store eventyr (Denmark)": {
@@ -362,6 +362,9 @@
 	"Thomas & Friends - Engines Working Together (Europe) (En-GB)": {
 		"languages": "En-GB"
 	},
+	"Thomas & Friends - Engines Working Together (USA) (En-US)": {
+		"languages": "En-US"
+	},
 	"Thomas & Friends - Tagen hjaelps at (Sweden)": {
 		"languages": "Sv"
 	},
@@ -402,6 +405,9 @@
 		"languages": "Es"
 	},
 	"Up (Europe)": {
+		"languages": "En"
+	},
+	"V.Smile - Art Studio (USA)": {
 		"languages": "En"
 	},
 	"V.Smile - Lern- und Tanzmatte (Germany)": {

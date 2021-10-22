@@ -395,10 +395,10 @@
 	"Bit Boy!! Arcade (USA) (v1.2, v2112) (Embedded Update)": {
 		"languages": "En"
 	},
-	"Blast 'Em Bunnies (USA) (DLC)": {
+	"Blast 'Em Bunnies (USA) (v1.1, v1040) (Embedded Update)": {
 		"languages": "En"
 	},
-	"Blast 'Em Bunnies (USA) (v1.1, v1040) (Embedded Update)": {
+	"Blast 'Em Bunnies (USA) (DLC)": {
 		"languages": "En"
 	},
 	"Blaster Master Zero (USA) (v1.2, v1040) (Update)": {
@@ -521,6 +521,9 @@
 	"Bravely Default AR Experience App (Japan) (v1024) (Embedded Update)": {
 		"languages": "Ja"
 	},
+	"Bravely Second - End Layer (Korea) (DLC)": {
+		"languages": "Ko"
+	},
 	"Bravely Second - End Layer (Japan) (v1.0.2, v2096) (Update)": {
 		"languages": "Ja"
 	},
@@ -532,9 +535,6 @@
 	},
 	"Bravely Second - End Layer (Japan) (v1.0.1, v1056) (Update)": {
 		"languages": "Ja"
-	},
-	"Bravely Second - End Layer (Korea) (DLC)": {
-		"languages": "Ko"
 	},
 	"Bravely Second (Muryou de Asoberu Sanjyuushi Hen) (Japan) (v2.0.0, v1040) (Embedded Update)": {
 		"languages": "Ja"
@@ -632,13 +632,13 @@
 	"Chibi-Robo! Let's Go, Photo! (Europe) (v2096) (Embedded Update)": {
 		"languages": "En"
 	},
-	"Chou Chari-Sou - Atsumete! Choujuu Hunter (Japan) (v1.2, v2096) (Update)": {
-		"languages": "Ja"
-	},
 	"Chou Chari-Sou - Atsumete! Choujuu Hunter (Japan) (DLC)": {
 		"languages": "Ja"
 	},
 	"Chou Chari-Sou - Atsumete! Choujuu Hunter (Japan) (v1.1, v1056) (Update)": {
+		"languages": "Ja"
+	},
+	"Chou Chari-Sou - Atsumete! Choujuu Hunter (Japan) (v1.2, v2096) (Update)": {
 		"languages": "Ja"
 	},
 	"Chou Kagaku Dasshutsu - Gear Detective (Japan) (v1.1, v1040) (Embedded Update)": {
@@ -1583,16 +1583,16 @@
 	"Eurosport (Europe) (v16) (Embedded Update)": {
 		"languages": "En"
 	},
-	"Ever Oasis (Europe) (v1.1, v1040) (Update)": {
-		"languages": "En"
-	},
-	"Ever Oasis (USA) (v1.1, v1040) (Update)": {
-		"languages": "En"
-	},
 	"Ever Oasis (Europe) (v1.1, v2080) (Embedded Update)": {
 		"languages": "En"
 	},
 	"Ever Oasis (USA) (v1.1, v2080) (Embedded Update)": {
+		"languages": "En"
+	},
+	"Ever Oasis (Europe) (v1.1, v1040) (Update)": {
+		"languages": "En"
+	},
+	"Ever Oasis (USA) (v1.1, v1040) (Update)": {
 		"languages": "En"
 	},
 	"Excave - Unmei no Mugentou-Hen (Japan) (v1.1, v1040) (Update)": {
@@ -2045,6 +2045,24 @@
 	"Hyperlight EX (USA) (v1.0.1, v1072) (Embedded Update)": {
 		"languages": "En"
 	},
+	"Hyrule Warriors Legends (Korea) (DLC)": {
+		"languages": "Ko"
+	},
+	"Hyrule Warriors Legends (Korea) (v1040) (Update)": {
+		"languages": "Ko"
+	},
+	"Hyrule Warriors Legends (Korea) (v2080) (Update)": {
+		"languages": "Ko"
+	},
+	"Hyrule Warriors Legends (Korea) (v3120) (Update)": {
+		"languages": "Ko"
+	},
+	"Hyrule Warriors Legends (Korea) (v4160) (Update)": {
+		"languages": "Ko"
+	},
+	"Hyrule Warriors Legends (Korea) (v5200) (Update)": {
+		"languages": "Ko"
+	},
 	"Hyrule Warriors Legends (Europe) (v1.6.0, v5200) (Update)": {
 		"languages": "En"
 	},
@@ -2080,24 +2098,6 @@
 	},
 	"Hyrule Warriors Legends (USA) (v1.5.0, v4160) (Update)": {
 		"languages": "En"
-	},
-	"Hyrule Warriors Legends (Korea) (DLC)": {
-		"languages": "Ko"
-	},
-	"Hyrule Warriors Legends (Korea) (v1040) (Update)": {
-		"languages": "Ko"
-	},
-	"Hyrule Warriors Legends (Korea) (v2080) (Update)": {
-		"languages": "Ko"
-	},
-	"Hyrule Warriors Legends (Korea) (v3120) (Update)": {
-		"languages": "Ko"
-	},
-	"Hyrule Warriors Legends (Korea) (v4160) (Update)": {
-		"languages": "Ko"
-	},
-	"Hyrule Warriors Legends (Korea) (v5200) (Update)": {
-		"languages": "Ko"
 	},
 	"Hyu~ Stone (Japan) (v32) (Embedded Update)": {
 		"languages": "Ja"
@@ -2840,10 +2840,10 @@
 	"Mighty Switch Force! 2 (Europe) (v1040) (Embedded Update)": {
 		"languages": "En"
 	},
-	"Miitopia (Japan) (v1.1, v1056) (Update)": {
+	"Miitopia (Japan) (v16) (Embedded Update)": {
 		"languages": "Ja"
 	},
-	"Miitopia (Japan) (v16) (Embedded Update)": {
+	"Miitopia (Japan) (v1.1, v1056) (Update)": {
 		"languages": "Ja"
 	},
 	"Minecraft - New Nintendo 3DS Edition (Europe) (v1.9.19) (Update)": {
@@ -3431,9 +3431,6 @@
 	"Pinch 50 Renpatsu!! (Japan) (v1.0.2, v2080) (Update)": {
 		"languages": "Ja"
 	},
-	"Poke Transporter (World) (v1.2, v2080) (Update)": {
-		"languages": "En"
-	},
 	"Poke Transporter (World) (v1.1, v1040) (Embedded Update)": {
 		"languages": "En"
 	},
@@ -3441,6 +3438,12 @@
 		"languages": "En"
 	},
 	"Poke Transporter (World) (v1.4, v4160) (Embedded Update)": {
+		"languages": "En"
+	},
+	"Poke Transporter (World) (v1.5, v5200) (Embedded Update)": {
+		"languages": "En"
+	},
+	"Poke Transporter (World) (v1.2, v2080) (Update)": {
 		"languages": "En"
 	},
 	"Pokedex (World) (v16) (Embedded Update)": {
@@ -3470,9 +3473,6 @@
 	"Pokemon Art Academy (USA) (v2080) (Embedded Update)": {
 		"languages": "En"
 	},
-	"Pokemon Bank (World) (v1.2, v3152) (Update)": {
-		"languages": "En"
-	},
 	"Pokemon Bank (World) (v1.1, v1072) (Embedded Update)": {
 		"languages": "En"
 	},
@@ -3480,6 +3480,12 @@
 		"languages": "En"
 	},
 	"Pokemon Bank (World) (v1.4, v5232) (Embedded Update)": {
+		"languages": "En"
+	},
+	"Pokemon Bank (World) (v1.5, v6272) (Embedded Update)": {
+		"languages": "En"
+	},
+	"Pokemon Bank (World) (v1.2, v3152) (Update)": {
 		"languages": "En"
 	},
 	"Pokemon Chou Fushigi no Dungeon (Japan) (v1056) (Update)": {
@@ -3530,10 +3536,10 @@
 	"Pokemon Shuffle (World) (v1.5.0, v5216) (Embedded Update)": {
 		"languages": "En"
 	},
-	"Pokemon Sun (World) (v1.2, v2112) (Update)": {
+	"Pokemon Sun (World) (v1.1, v1072) (Update)": {
 		"languages": "En"
 	},
-	"Pokemon Sun (World) (v1.1, v1072) (Update)": {
+	"Pokemon Sun (World) (v1.2, v2112) (Update)": {
 		"languages": "En"
 	},
 	"Pokemon Super Mystery Dungeon (Europe) (v1040) (Update)": {
@@ -3548,16 +3554,22 @@
 	"Pokemon Tretta Lab - Main System (Japan) (v1.1, v1104) (Update)": {
 		"languages": "Ja"
 	},
-	"Pokemon Ultra Moon (World) (v1.2, v2080) (Update)": {
+	"Pokemon Ultra Moon (World) (v1.1, v1040) (Update)": {
 		"languages": "En"
 	},
-	"Pokemon Ultra Moon (World) (v1.1, v1040) (Update)": {
+	"Pokemon Ultra Moon (World) (v1.2, v2080) (Update)": {
 		"languages": "En"
 	},
 	"Pokemon Ultra Sun (World) (v1.2, v2080) (Update)": {
 		"languages": "En"
 	},
 	"Pokemon Ultra Sun (World) (v1.1, v1040) (Update)": {
+		"languages": "En"
+	},
+	"Pokemon X (World) (v1.1, v1072) (Update)": {
+		"languages": "En"
+	},
+	"Pokemon X (World) (v1.2, v2112) (Update)": {
 		"languages": "En"
 	},
 	"Pokemon X (World) (v1.5, v5232) (Update)": {
@@ -3567,12 +3579,6 @@
 		"languages": "En"
 	},
 	"Pokemon X (World) (v1.4, v4192) (Update)": {
-		"languages": "En"
-	},
-	"Pokemon X (World) (v1.1, v1072) (Update)": {
-		"languages": "En"
-	},
-	"Pokemon X (World) (v1.2, v2112) (Update)": {
 		"languages": "En"
 	},
 	"Pokemon Y (World) (v1.5, v5216) (Update)": {
@@ -3662,9 +3668,6 @@
 	"Proun+ (USA) (v1.1.0, v1040) (Embedded Update)": {
 		"languages": "En"
 	},
-	"Puchikon No. 3 SmileBASIC (Japan) (v3.6.0, v12576) (Update)": {
-		"languages": "Ja"
-	},
 	"Puchikon No. 3 SmileBASIC (Japan) (DLC)": {
 		"languages": "Ja"
 	},
@@ -3704,16 +3707,19 @@
 	"Puchikon No. 3 SmileBASIC (Japan) (v3.6.1, v13616) (Update)": {
 		"languages": "Ja"
 	},
+	"Puchikon No. 3 SmileBASIC (Japan) (v3.6.0, v12576) (Update)": {
+		"languages": "Ja"
+	},
 	"Pullblox (Europe) (v32) (Embedded Update)": {
 		"languages": "En"
 	},
 	"Punch Club (USA) (v1040) (Embedded Update)": {
 		"languages": "En"
 	},
-	"Pure Chess (USA) (DLC)": {
+	"Pure Chess (Europe) (DLC)": {
 		"languages": "En"
 	},
-	"Pure Chess (Europe) (DLC)": {
+	"Pure Chess (USA) (DLC)": {
 		"languages": "En"
 	},
 	"Pushmo (USA) (v32) (Embedded Update)": {
@@ -3758,6 +3764,9 @@
 	"Puzzle & Dragons X - Ryuu no Shou (Japan) (v4.0, v5264) (Update)": {
 		"languages": "Ja"
 	},
+	"Puzzle & Dragons Z + Puzzle & Dragons Super Mario Bros. Edition (Taiwan) (En) (v2.0, v1056) (Update)": {
+		"languages": "En"
+	},
 	"Puzzle & Dragons Z + Puzzle & Dragons Super Mario Bros. Edition (Europe) (v2.0, v1056) (Update)": {
 		"languages": "En"
 	},
@@ -3774,9 +3783,6 @@
 		"languages": "Ko"
 	},
 	"Puzzle & Dragons Z + Puzzle & Dragons Super Mario Bros. Edition (USA) (DLC)": {
-		"languages": "En"
-	},
-	"Puzzle & Dragons Z + Puzzle & Dragons Super Mario Bros. Edition (Taiwan) (En) (v2.0, v1056) (Update)": {
 		"languages": "En"
 	},
 	"Pyramids (Europe) (v16) (Embedded Update)": {
@@ -3905,6 +3911,9 @@
 	"Rodea the Sky Soldier (Korea) (v1.01, v1040) (Update)": {
 		"languages": "Ko"
 	},
+	"RPG Maker Fes (Europe) (v1.1.3, v1056) (Update)": {
+		"languages": "En"
+	},
 	"RPG Maker Fes (USA) (v1.1.3, v1056) (Update)": {
 		"languages": "En"
 	},
@@ -3920,20 +3929,11 @@
 	"RPG Maker Fes (USA) (DLC)": {
 		"languages": "En"
 	},
-	"RPG Maker Fes (Europe) (v1.1.3, v1056) (Update)": {
-		"languages": "En"
-	},
 	"RPG Maker Fes Player (Europe) (v1.1.5, v1040) (Embedded Update)": {
 		"languages": "En"
 	},
 	"RPG Maker Fes Player (USA) (v1.1.5, v1040) (Embedded Update)": {
 		"languages": "En"
-	},
-	"RPG Tsukuru Fes (Japan) (v1.1.3, v4176) (Update)": {
-		"languages": "Ja"
-	},
-	"RPG Tsukuru Fes (Japan) (DLC)": {
-		"languages": "Ja"
 	},
 	"RPG Tsukuru Fes (Japan) (v1.1.0, v1056) (Update)": {
 		"languages": "Ja"
@@ -3942,6 +3942,12 @@
 		"languages": "Ja"
 	},
 	"RPG Tsukuru Fes (Japan) (v1.1.2, v3136) (Update)": {
+		"languages": "Ja"
+	},
+	"RPG Tsukuru Fes (Japan) (v1.1.3, v4176) (Update)": {
+		"languages": "Ja"
+	},
+	"RPG Tsukuru Fes (Japan) (DLC)": {
 		"languages": "Ja"
 	},
 	"RPG Tsukuru Fes Player (Japan) (v1.1.2, v3136) (Update)": {
@@ -3974,6 +3980,9 @@
 	"Samurai Defender (Europe) (v2.0, v1040) (Embedded Update)": {
 		"languages": "En"
 	},
+	"Samurai Warriors Chronicles 3 (Europe) (v1.0.1, v1040) (Update)": {
+		"languages": "En"
+	},
 	"Samurai Warriors Chronicles 3 (Europe) (v1.0.2, v2080) (Update)": {
 		"languages": "En"
 	},
@@ -3987,9 +3996,6 @@
 		"languages": "En"
 	},
 	"Samurai Warriors Chronicles 3 (USA) (v1.0.1, v1040) (Update)": {
-		"languages": "En"
-	},
-	"Samurai Warriors Chronicles 3 (Europe) (v1.0.1, v1040) (Update)": {
 		"languages": "En"
 	},
 	"San Goku Shi (Japan) (DLC)": {
@@ -4049,17 +4055,17 @@
 	"Sengoku Musou Chronicle 3 (Japan) (v1.0.3, v3184) (Update)": {
 		"languages": "Ja"
 	},
-	"Senran Kagura 2 - Deep Crimson (Europe) (DLC)": {
-		"languages": "En"
-	},
-	"Senran Kagura 2 - Deep Crimson (USA) (DLC)": {
-		"languages": "En"
-	},
 	"Senran Kagura 2 - Deep Crimson (Korea) (DLC)": {
 		"languages": "Ko"
 	},
 	"Senran Kagura 2 - Deep Crimson (Korea) (v1.1, v1056) (Update)": {
 		"languages": "Ko"
+	},
+	"Senran Kagura 2 - Deep Crimson (Europe) (DLC)": {
+		"languages": "En"
+	},
+	"Senran Kagura 2 - Deep Crimson (USA) (DLC)": {
+		"languages": "En"
 	},
 	"Senran Kagura 2 - Shinku (Japan) (v1.3, v3216) (Update)": {
 		"languages": "Ja"
@@ -4073,13 +4079,13 @@
 	"Senran Kagura 2 - Shinku (Japan) (v1.2, v2176) (Update)": {
 		"languages": "Ja"
 	},
+	"Shantae and the Pirate's Curse (eShop version) (USA) (v01.01, v1056) (Embedded Update)": {
+		"languages": "En"
+	},
 	"Shantae and the Pirate's Curse (eShop version) (Europe) (v01.01, v1056) (Update)": {
 		"languages": "En"
 	},
 	"Shantae and the Pirate's Curse (eShop version) (USA) (v02.02, v2112) (Update)": {
-		"languages": "En"
-	},
-	"Shantae and the Pirate's Curse (eShop version) (USA) (v01.01, v1056) (Embedded Update)": {
 		"languages": "En"
 	},
 	"Shin Egokoro Kyoushitsu (Japan) (DLC)": {
@@ -4157,13 +4163,13 @@
 	"Shin Sangoku Musou VS (Japan) (v1.1, v1040) (Update)": {
 		"languages": "Ja"
 	},
-	"Shin Sekaiju no Meikyuu 2 - Fafnir no Kishi (Japan) (DLC)": {
-		"languages": "Ja"
-	},
 	"Shin Sekaiju no Meikyuu 2 - Fafnir no Kishi (Japan) (v1.1, v1040) (Update)": {
 		"languages": "Ja"
 	},
 	"Shin Sekaiju no Meikyuu 2 - Fafnir no Kishi (Japan) (v1.2, v2080) (Update)": {
+		"languages": "Ja"
+	},
+	"Shin Sekaiju no Meikyuu 2 - Fafnir no Kishi (Japan) (DLC)": {
 		"languages": "Ja"
 	},
 	"Shin Sekaiju no Meikyuu 2 - Fafnir-ui Gisa (Korea) (v1.1, v1072) (Update)": {
@@ -4205,18 +4211,6 @@
 	"Shovel Knight (Japan) (v2.3.1, v1040) (Update)": {
 		"languages": "Ja"
 	},
-	"Shovel Knight - Treasure Trove (Japan) (v3.0A, v2080) (Update)": {
-		"languages": "Ja"
-	},
-	"Shovel Knight - Treasure Trove (Europe) (v4.0A) (Update)": {
-		"languages": "En"
-	},
-	"Shovel Knight - Treasure Trove (Japan) (v4.0A) (Update)": {
-		"languages": "Ja"
-	},
-	"Shovel Knight - Treasure Trove (USA) (v4.0A) (Update)": {
-		"languages": "En"
-	},
 	"Shovel Knight - Treasure Trove (Europe) (v3.1, v3120) (Update)": {
 		"languages": "En"
 	},
@@ -4227,6 +4221,18 @@
 		"languages": "En"
 	},
 	"Shovel Knight - Treasure Trove (USA) (v3.2, v3120) (Update)": {
+		"languages": "En"
+	},
+	"Shovel Knight - Treasure Trove (Japan) (v3.0A, v2080) (Update)": {
+		"languages": "Ja"
+	},
+	"Shovel Knight - Treasure Trove (Europe) (v4.0A) (Update)": {
+		"languages": "En"
+	},
+	"Shovel Knight - Treasure Trove (Japan) (v4.0A) (Update)": {
+		"languages": "Ja"
+	},
+	"Shovel Knight - Treasure Trove (USA) (v4.0A) (Update)": {
 		"languages": "En"
 	},
 	"Shovel Knight - Treasure Trove (eShop version) (Europe) (v4.0A) (Embedded Update)": {
@@ -4247,9 +4253,6 @@
 	"Shovel Knight - Treasure Trove (eShop version) (USA) (v3.2, v6240) (Embedded Update)": {
 		"languages": "En"
 	},
-	"Shovel Knight (eShop version) (USA) (v1.1, v2080) (Update)": {
-		"languages": "En"
-	},
 	"Shovel Knight (eShop version) (Europe) (v2.0, v1040) (Embedded Update)": {
 		"languages": "En"
 	},
@@ -4266,6 +4269,9 @@
 		"languages": "En"
 	},
 	"Shovel Knight (eShop version) (USA) (v2.2, v4160) (Embedded Update)": {
+		"languages": "En"
+	},
+	"Shovel Knight (eShop version) (USA) (v1.1, v2080) (Update)": {
 		"languages": "En"
 	},
 	"Siesta Fiesta (Europe) (v1.1, v1040) (Update)": {
@@ -4286,10 +4292,10 @@
 	"Simple DL Series Vol. 20 - The Card (Japan) (v1.1, v1056) (Update)": {
 		"languages": "Ja"
 	},
-	"Simple DL Series Vol. 27 - The Illustration Puzzle (Japan) (v1.1.0, v1040) (Update)": {
+	"Simple DL Series Vol. 27 - The Illustration Puzzle (Japan) (DLC)": {
 		"languages": "Ja"
 	},
-	"Simple DL Series Vol. 27 - The Illustration Puzzle (Japan) (DLC)": {
+	"Simple DL Series Vol. 27 - The Illustration Puzzle (Japan) (v1.1.0, v1040) (Update)": {
 		"languages": "Ja"
 	},
 	"Simple Series for Nintendo 3DS Vol. 1 - The Mahjong (Japan) (v1.1, v1072) (Update)": {
@@ -4301,18 +4307,6 @@
 	"Simple Series for Nintendo 3DS Vol. 1 - The Mahjong (Japan) (v1.3, v5296) (Update)": {
 		"languages": "Ja"
 	},
-	"SmileBASIC (USA) (v3.6.0, v5248) (Update)": {
-		"languages": "En"
-	},
-	"SmileBASIC (Europe) (v3.6.0, v1040) (Update)": {
-		"languages": "En"
-	},
-	"SmileBASIC (Europe) (DLC)": {
-		"languages": "En"
-	},
-	"SmileBASIC (USA) (DLC)": {
-		"languages": "En"
-	},
 	"SmileBASIC (USA) (v3.3.0, v1056) (Update)": {
 		"languages": "En"
 	},
@@ -4323,6 +4317,18 @@
 		"languages": "En"
 	},
 	"SmileBASIC (USA) (v3.5.2, v4176) (Update)": {
+		"languages": "En"
+	},
+	"SmileBASIC (USA) (v3.6.0, v5248) (Update)": {
+		"languages": "En"
+	},
+	"SmileBASIC (Europe) (v3.6.0, v1040) (Update)": {
+		"languages": "En"
+	},
+	"SmileBASIC (Europe) (DLC)": {
+		"languages": "En"
+	},
+	"SmileBASIC (USA) (DLC)": {
 		"languages": "En"
 	},
 	"Snack World, The - TreJarers (Japan) (v3.2, v5264) (Update)": {
@@ -4388,6 +4394,9 @@
 	"Star Wars Pinball (USA) (v1.0, v1056) (Embedded Update)": {
 		"languages": "En"
 	},
+	"SteamWorld Heist (USA) (v2.0, v1040) (Embedded Update)": {
+		"languages": "En"
+	},
 	"SteamWorld Heist (Europe) (v2.0, v1040) (Embedded Update)": {
 		"languages": "En"
 	},
@@ -4395,9 +4404,6 @@
 		"languages": "En"
 	},
 	"SteamWorld Heist (USA) (DLC)": {
-		"languages": "En"
-	},
-	"SteamWorld Heist (USA) (v2.0, v1040) (Embedded Update)": {
 		"languages": "En"
 	},
 	"Steel Diver - Sub Wars (Europe) (v4.1, v5200) (Update)": {
@@ -4511,6 +4517,9 @@
 	"StreetPass Mii Plaza (Korea) (v3.3, v9216) (Update)": {
 		"languages": "Ko"
 	},
+	"StreetPass Mii Plaza - Paid Titles (Korea) (DLC)": {
+		"languages": "Ko"
+	},
 	"StreetPass Mii Plaza - Paid Titles (Europe) (v5.0) (DLC)": {
 		"languages": "En"
 	},
@@ -4528,9 +4537,6 @@
 	},
 	"StreetPass Mii Plaza - Paid Titles (USA) (v4.0) (DLC)": {
 		"languages": "En"
-	},
-	"StreetPass Mii Plaza - Paid Titles (Korea) (DLC)": {
-		"languages": "Ko"
 	},
 	"Stretchmo (USA) (DLC)": {
 		"languages": "En"
@@ -4555,15 +4561,6 @@
 	},
 	"Sumikko Gurashi - Omise Hajimerundesu (Japan) (v2.0, v3152) (Update)": {
 		"languages": "Ja"
-	},
-	"Super Mario Maker for Nintendo 3DS (Europe) (v1.04, v6256) (Update)": {
-		"languages": "En"
-	},
-	"Super Mario Maker for Nintendo 3DS (Japan) (v1.04, v6256) (Update)": {
-		"languages": "Ja"
-	},
-	"Super Mario Maker for Nintendo 3DS (USA) (v1.04, v6256) (Update)": {
-		"languages": "En"
 	},
 	"Super Mario Maker for Nintendo 3DS (Europe) (v1.01, v1056) (Update)": {
 		"languages": "En"
@@ -4599,6 +4596,15 @@
 		"languages": "En"
 	},
 	"Super Mario Maker for Nintendo 3DS (USA) (v1.03, v5216) (Update)": {
+		"languages": "En"
+	},
+	"Super Mario Maker for Nintendo 3DS (Europe) (v1.04, v6256) (Update)": {
+		"languages": "En"
+	},
+	"Super Mario Maker for Nintendo 3DS (Japan) (v1.04, v6256) (Update)": {
+		"languages": "Ja"
+	},
+	"Super Mario Maker for Nintendo 3DS (USA) (v1.04, v6256) (Update)": {
 		"languages": "En"
 	},
 	"Super Robot Taisen BX (Japan) (DLC)": {
@@ -4799,9 +4805,6 @@
 	"Surechigai Mii Hiroba (Japan) (v4.1, v13424) (Update)": {
 		"languages": "Ja"
 	},
-	"Surechigai Mii Hiroba - Paid Titles (Japan) (v4.0) (DLC)": {
-		"languages": "Ja"
-	},
 	"Surechigai Mii Hiroba - Paid Titles (Japan) (v0) (DLC)": {
 		"languages": "Ja"
 	},
@@ -4809,6 +4812,9 @@
 		"languages": "Ja"
 	},
 	"Surechigai Mii Hiroba - Paid Titles (Japan) (v32) (DLC)": {
+		"languages": "Ja"
+	},
+	"Surechigai Mii Hiroba - Paid Titles (Japan) (v4.0) (DLC)": {
 		"languages": "Ja"
 	},
 	"Swapdoodle (Europe) (DLC)": {
@@ -4961,14 +4967,14 @@
 	"Theatrhythm Dragon Quest (Japan) (DLC)": {
 		"languages": "Ja"
 	},
+	"Theatrhythm Final Fantasy (Japan) (DLC)": {
+		"languages": "Ja"
+	},
 	"Theatrhythm Final Fantasy (Europe) (DLC)": {
 		"languages": "En"
 	},
 	"Theatrhythm Final Fantasy (USA) (DLC)": {
 		"languages": "En"
-	},
-	"Theatrhythm Final Fantasy (Japan) (DLC)": {
-		"languages": "Ja"
 	},
 	"Theatrhythm Final Fantasy - Curtain Call (Japan) (v1.2, v2096) (Update)": {
 		"languages": "Ja"
@@ -4988,10 +4994,10 @@
 	"Thriller (USA) (v16) (Embedded Update)": {
 		"languages": "En"
 	},
-	"Time Avenger (Japan) (DLC)": {
+	"Time Avenger (Japan) (v1.1, v1040) (Update)": {
 		"languages": "Ja"
 	},
-	"Time Avenger (Japan) (v1.1, v1040) (Update)": {
+	"Time Avenger (Japan) (DLC)": {
 		"languages": "Ja"
 	},
 	"Titan Attacks (Europe) (v1.1, v1040) (Update)": {
@@ -5027,10 +5033,10 @@
 	"Tobidasu PuriKura - KiraDeko Revolution (Japan) (v33) (Embedded Update)": {
 		"languages": "Ja"
 	},
-	"Tohoku Daigaku Karei Igaku Kenkyuusho - Kawashima Ryuuta Kyouju Kanshuu - Monosugoku Nou wo Kitaeru 5-Funkan no Oni Training (Japan) (v1.1, v1024) (Update)": {
+	"Tohoku Daigaku Karei Igaku Kenkyuusho - Kawashima Ryuuta Kyouju Kanshuu - Monosugoku Nou wo Kitaeru 5-Funkan no Oni Training (Japan) (v1.1, v2048) (Embedded Update)": {
 		"languages": "Ja"
 	},
-	"Tohoku Daigaku Karei Igaku Kenkyuusho - Kawashima Ryuuta Kyouju Kanshuu - Monosugoku Nou wo Kitaeru 5-Funkan no Oni Training (Japan) (v1.1, v2048) (Embedded Update)": {
+	"Tohoku Daigaku Karei Igaku Kenkyuusho - Kawashima Ryuuta Kyouju Kanshuu - Monosugoku Nou wo Kitaeru 5-Funkan no Oni Training (Japan) (v1.1, v1024) (Update)": {
 		"languages": "Ja"
 	},
 	"Toki Tori 3D (Europe) (v1040) (Embedded Update)": {
@@ -5042,10 +5048,10 @@
 	"Tokyo Crash Mobs (USA) (v1024) (Embedded Update)": {
 		"languages": "En"
 	},
-	"Tomodachi Collection - Shin Seikatsu (Japan) (v1.2, v3152) (Update)": {
+	"Tomodachi Collection - Shin Seikatsu (Japan) (v1.1, v1072) (Update)": {
 		"languages": "Ja"
 	},
-	"Tomodachi Collection - Shin Seikatsu (Japan) (v1.1, v1072) (Update)": {
+	"Tomodachi Collection - Shin Seikatsu (Japan) (v1.2, v3152) (Update)": {
 		"languages": "Ja"
 	},
 	"Tomodachi Life (USA) (v1.1, v1040) (Update)": {
@@ -5186,16 +5192,16 @@
 	"Yeolhyeolgyeongpa Kunio-Kun SP - Nantu Hyeopjugog (Korea) (v1.2, v1040) (Update)": {
 		"languages": "Ko"
 	},
-	"Yo-Kai Watch (Europe) (v1.1, v1040) (Update)": {
-		"languages": "En"
-	},
-	"Yo-Kai Watch (USA) (v1.2, v2080) (Update)": {
-		"languages": "En"
-	},
 	"Yo-Kai Watch (USA) (v1.1, v1040) (Update)": {
 		"languages": "En"
 	},
 	"Yo-Kai Watch (Australia) (v1.1, v1040) (Update)": {
+		"languages": "En"
+	},
+	"Yo-Kai Watch (Europe) (v1.1, v1040) (Update)": {
+		"languages": "En"
+	},
+	"Yo-Kai Watch (USA) (v1.2, v2080) (Update)": {
 		"languages": "En"
 	},
 	"Yo-Kai Watch 2 - Bony Spirits (USA) (v2.0, v2128) (Update)": {
@@ -5216,16 +5222,16 @@
 	"Yo-Kai Watch 2 - Bony Spirits (Australia) (v2.0, v1056) (Update)": {
 		"languages": "En"
 	},
-	"Yo-Kai Watch 2 - Bony Spirits + Fleshy Souls (USA) (DLC)": {
-		"languages": "En"
-	},
-	"Yo-Kai Watch 2 - Bony Spirits + Fleshy Souls (Europe) (DLC)": {
-		"languages": "En"
-	},
 	"Yo-Kai Watch 2 - Bony Spirits + Fleshy Souls (Korea) (DLC)": {
 		"languages": "Ko"
 	},
 	"Yo-Kai Watch 2 - Bony Spirits + Fleshy Souls (Australia) (DLC)": {
+		"languages": "En"
+	},
+	"Yo-Kai Watch 2 - Bony Spirits + Fleshy Souls (USA) (DLC)": {
+		"languages": "En"
+	},
+	"Yo-Kai Watch 2 - Bony Spirits + Fleshy Souls (Europe) (DLC)": {
 		"languages": "En"
 	},
 	"Yo-Kai Watch 2 - Fleshy Souls (USA) (v2.0, v2128) (Update)": {
@@ -5285,22 +5291,19 @@
 	"Yoru no Majin to Ikusa no Kuni - Samayoeru Vampire (Japan) (v1024) (Embedded Update)": {
 		"languages": "Ja"
 	},
+	"Youkai Sangokushi (Japan) (v1.1, v1056) (Update)": {
+		"languages": "Ja"
+	},
 	"Youkai Sangokushi (Japan) (v1.2, v2096) (Update)": {
 		"languages": "Ja"
 	},
 	"Youkai Sangokushi (Japan) (DLC)": {
 		"languages": "Ja"
 	},
-	"Youkai Sangokushi (Japan) (v1.1, v1056) (Update)": {
-		"languages": "Ja"
-	},
 	"Youkai Watch (Japan) (v1.2, v2128) (Update)": {
 		"languages": "Ja"
 	},
 	"Youkai Watch (Japan) (v1.1, v1056) (Update)": {
-		"languages": "Ja"
-	},
-	"Youkai Watch 2 - Ganso (Japan) (v2.1, v8272) (Update)": {
 		"languages": "Ja"
 	},
 	"Youkai Watch 2 - Ganso (Japan) (DLC)": {
@@ -5318,6 +5321,9 @@
 	"Youkai Watch 2 - Ganso (Japan) (v2.0, v7232) (Update)": {
 		"languages": "Ja"
 	},
+	"Youkai Watch 2 - Ganso (Japan) (v2.1, v8272) (Update)": {
+		"languages": "Ja"
+	},
 	"Youkai Watch 2 - Honke (Japan) (v1.1, v1104) (Update)": {
 		"languages": "Ja"
 	},
@@ -5333,10 +5339,10 @@
 	"Youkai Watch 2 - Honke (Japan) (v2.1, v8272) (Update)": {
 		"languages": "Ja"
 	},
-	"Youkai Watch 2 - Shinuchi (Japan) (v1.2, v3136) (Update)": {
+	"Youkai Watch 2 - Shinuchi (Japan) (v1.1, v1056) (Update)": {
 		"languages": "Ja"
 	},
-	"Youkai Watch 2 - Shinuchi (Japan) (v1.1, v1056) (Update)": {
+	"Youkai Watch 2 - Shinuchi (Japan) (v1.2, v3136) (Update)": {
 		"languages": "Ja"
 	},
 	"Youkai Watch 3 (Japan) (DLC)": {
@@ -5355,9 +5361,6 @@
 		"languages": "Ja"
 	},
 	"Youkai Watch 3 - Sukiyaki (Japan) (v3.0, v4208) (Update)": {
-		"languages": "Ja"
-	},
-	"Youkai Watch 3 - Sushi (Japan) (v4.0, v13616) (Update)": {
 		"languages": "Ja"
 	},
 	"Youkai Watch 3 - Sushi (Japan) (v1.1, v3168) (Update)": {
@@ -5385,6 +5388,9 @@
 		"languages": "Ja"
 	},
 	"Youkai Watch 3 - Sushi (Japan) (v3.0, v12576) (Update)": {
+		"languages": "Ja"
+	},
+	"Youkai Watch 3 - Sushi (Japan) (v4.0, v13616) (Update)": {
 		"languages": "Ja"
 	},
 	"Youkai Watch 3 - Tempura (Japan) (v4.0, v13616) (Update)": {
@@ -5417,9 +5423,6 @@
 	"Youkai Watch 3 - Tempura (Japan) (v3.0, v12576) (Update)": {
 		"languages": "Ja"
 	},
-	"Youkai Watch Busters - Akanekodan (Japan) (v2.3, v7360) (Update)": {
-		"languages": "Ja"
-	},
 	"Youkai Watch Busters - Akanekodan (Japan) (v1.1, v1088) (Update)": {
 		"languages": "Ja"
 	},
@@ -5433,6 +5436,9 @@
 		"languages": "Ja"
 	},
 	"Youkai Watch Busters - Akanekodan (Japan) (v2.2, v6320) (Update)": {
+		"languages": "Ja"
+	},
+	"Youkai Watch Busters - Akanekodan (Japan) (v2.3, v7360) (Update)": {
 		"languages": "Ja"
 	},
 	"Youkai Watch Busters - Akanekodan + Shiroinutai (Japan) (DLC)": {
@@ -5456,9 +5462,6 @@
 	"Youkai Watch Busters - Shiroinutai (Japan) (v2.3, v7360) (Update)": {
 		"languages": "Ja"
 	},
-	"Youkai Watch Busters 2 - Hihou Densetsu Banbarayaa - Magnum (Japan) (v1.5, v6320) (Update)": {
-		"languages": "Ja"
-	},
 	"Youkai Watch Busters 2 - Hihou Densetsu Banbarayaa - Magnum (Japan) (v1.1, v1104) (Update)": {
 		"languages": "Ja"
 	},
@@ -5472,6 +5475,9 @@
 		"languages": "Ja"
 	},
 	"Youkai Watch Busters 2 - Hihou Densetsu Banbarayaa - Magnum (Japan) (v1.4, v5280) (Update)": {
+		"languages": "Ja"
+	},
+	"Youkai Watch Busters 2 - Hihou Densetsu Banbarayaa - Magnum (Japan) (v1.5, v6320) (Update)": {
 		"languages": "Ja"
 	},
 	"Youkai Watch Busters 2 - Hihou Densetsu Banbarayaa - Magnum + Sword (Japan) (DLC)": {
@@ -5519,6 +5525,15 @@
 	"Yu-Gi-Oh! Duel Monsters - Saikyo Card Battle! (Japan) (DLC)": {
 		"languages": "Ja"
 	},
+	"Zelda Musou - Hyrule All-Stars (Japan) (v1.4.0, v4192) (Update)": {
+		"languages": "Ja"
+	},
+	"Zelda Musou - Hyrule All-Stars (Japan) (v1.3.0, v3152) (Update)": {
+		"languages": "Ja"
+	},
+	"Zelda Musou - Hyrule All-Stars (Japan) (v1.5.0, v5232) (Update)": {
+		"languages": "Ja"
+	},
 	"Zelda Musou - Hyrule All-Stars (Japan) (v1.6.0, v6272) (Update)": {
 		"languages": "Ja"
 	},
@@ -5529,15 +5544,6 @@
 		"languages": "Ja"
 	},
 	"Zelda Musou - Hyrule All-Stars (Japan) (DLC)": {
-		"languages": "Ja"
-	},
-	"Zelda Musou - Hyrule All-Stars (Japan) (v1.4.0, v4192) (Update)": {
-		"languages": "Ja"
-	},
-	"Zelda Musou - Hyrule All-Stars (Japan) (v1.3.0, v3152) (Update)": {
-		"languages": "Ja"
-	},
-	"Zelda Musou - Hyrule All-Stars (Japan) (v1.5.0, v5232) (Update)": {
 		"languages": "Ja"
 	},
 	"Zelda no Densetsu - Mujura no Kamen 3D (Japan) (v1.1, v1040) (Update)": {
