@@ -8,11 +8,43 @@
 	},
 
 	"categories": {
-		"Amateur Teikyou CD-ROM": {
-			"match": "short",
+		"Amateur Teikyou CD-ROM (Japan) (DOS-V-you) (NEC PC-FXGA)": {
+			"match": "full",
 			"categories": ["Demos"]
 		},
-		"AnimeFreak FX Vol.": {
+		"Amateur Teikyou CD-ROM (Japan) (NEC PC-FXGA)": {
+			"match": "full",
+			"categories": ["Demos"]
+		},
+		"AnimeFreak FX Vol. 1": {
+			"match": "short",
+			"categories": ["Video"]
+		},
+		"AnimeFreak FX Vol. 2": {
+			"match": "short",
+			"categories": ["Video"]
+		},
+		"AnimeFreak FX Vol. 3": {
+			"match": "short",
+			"categories": ["Video"]
+		},
+		"AnimeFreak FX Vol. 4": {
+			"match": "short",
+			"categories": ["Video"]
+		},
+		"AnimeFreak FX Vol. 5 (Disc 1)": {
+			"match": "short",
+			"categories": ["Video"]
+		},
+		"AnimeFreak FX Vol. 5 (Disc 2)": {
+			"match": "short",
+			"categories": ["Video"]
+		},
+		"AnimeFreak FX Vol. 6 (Disc 1)": {
+			"match": "short",
+			"categories": ["Video"]
+		},
+		"AnimeFreak FX Vol. 6 (Disc 2)": {
 			"match": "short",
 			"categories": ["Video"]
 		}
