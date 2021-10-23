@@ -1,0 +1,20 @@
+{
+	"description": {
+		"name": [
+			"NEC - PC-FX & PC-FXGA"
+		],
+		"last updated": "23 October 2021",
+		"minimum version": "0.92"
+	},
+
+	"categories": {
+		"Amateur Teikyou CD-ROM": {
+			"match": "short",
+			"categories": ["Demos"]
+		},
+		"AnimeFreak FX Vol.": {
+			"match": "short",
+			"categories": ["Video"]
+		}
+	}
+}
