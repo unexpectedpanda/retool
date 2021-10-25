@@ -12,6 +12,10 @@
 			"match": "short",
 			"categories": ["Audio"]
 		},
+		"Arc-en-Ciel, L' - Light my Fire": {
+			"match": "short",
+			"categories": ["Video"]
+		},
 		"Dino Crisis (Europe) (Demo)": {
 			"match": "full",
 			"categories": ["Demos", "Preproduction"]
