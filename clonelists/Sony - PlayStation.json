@@ -1756,11 +1756,13 @@
 		],
 		"Metal Gear Solid (Disc 1)": [
 			["Metal Gear Solid - Integral (Disc 1)", 0],
-			["Metal Gear Solid (Disc 1) (Ichi)", 1]
+			["Metal Gear Solid (Disc 1) (Ichi) (Premium Package)", 1],
+			["Metal Gear Solid (Disc 1) (Ichi)", 2]
 		],
 		"Metal Gear Solid (Disc 2)": [
 			["Metal Gear Solid - Integral (Disc 2)", 0],
-			["Metal Gear Solid (Disc 2) (Ni)", 1]
+			["Metal Gear Solid (Disc 2) (Ni) (Premium Package)", 1],
+			["Metal Gear Solid (Disc 2) (Ni)", 2]
 		],
 		"Metal Gear Solid - VR Missions": [
 			["Metal Gear Solid - Integral (Disc 3) (VR-Disc)", 0],
