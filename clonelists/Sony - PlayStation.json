@@ -16,6 +16,90 @@
 			"match": "short",
 			"categories": ["Video"]
 		},
+		"Cinema Eikaiwa Series Dai-1-dan - Tengoku ni Ikenai Papa (Disc 1) (Joukan)": {
+			"match": "short",
+			"categories": ["Educational", "Video"]
+		},
+		"Cinema Eikaiwa Series Dai-1-dan - Tengoku ni Ikenai Papa (Disc 2) (Chuukan)": {
+			"match": "short",
+			"categories": ["Educational", "Video"]
+		},
+		"Cinema Eikaiwa Series Dai-1-dan - Tengoku ni Ikenai Papa (Disc 3) (Gekan)": {
+			"match": "short",
+			"categories": ["Educational", "Video"]
+		},
+		"Cinema Eikaiwa Series Dai-2-dan - Interceptor (Disc 1) (Joukan)": {
+			"match": "short",
+			"categories": ["Educational", "Video"]
+		},
+		"Cinema Eikaiwa Series Dai-2-dan - Interceptor (Disc 2) (Chuukan)": {
+			"match": "short",
+			"categories": ["Educational", "Video"]
+		},
+		"Cinema Eikaiwa Series Dai-2-dan - Interceptor (Disc 3) (Gekan)": {
+			"match": "short",
+			"categories": ["Educational", "Video"]
+		},
+		"Cinema Eikaiwa Series Dai-3-dan - Arashigaoka (Disc 1) (Joukan)": {
+			"match": "short",
+			"categories": ["Educational", "Video"]
+		},
+		"Cinema Eikaiwa Series Dai-3-dan - Arashigaoka (Disc 2) (Chuukan)": {
+			"match": "short",
+			"categories": ["Educational", "Video"]
+		},
+		"Cinema Eikaiwa Series Dai-3-dan - Arashigaoka (Disc 3) (Gekan)": {
+			"match": "short",
+			"categories": ["Educational", "Video"]
+		},
+		"Cinema Eikaiwa Series Dai-4-dan - Boy's Life (Disc 1)": {
+			"match": "short",
+			"categories": ["Educational", "Video"]
+		},
+		"Cinema Eikaiwa Series Dai-4-dan - Boy's Life (Disc 2)": {
+			"match": "short",
+			"categories": ["Educational", "Video"]
+		},
+		"Cinema Eikaiwa Series Dai-4-dan - Boy's Life (Disc 3)": {
+			"match": "short",
+			"categories": ["Educational", "Video"]
+		},
+		"Cinema Eikaiwa Series Dai-4-dan - Boy's Life (Disc 4)": {
+			"match": "short",
+			"categories": ["Educational", "Video"]
+		},
+		"Cinema Eikaiwa Series Dai-5-dan - Zombie (Disc 1)": {
+			"match": "short",
+			"categories": ["Educational", "Video"]
+		},
+		"Cinema Eikaiwa Series Dai-5-dan - Zombie (Disc 2)": {
+			"match": "short",
+			"categories": ["Educational", "Video"]
+		},
+		"Cinema Eikaiwa Series Dai-5-dan - Zombie (Disc 3)": {
+			"match": "short",
+			"categories": ["Educational", "Video"]
+		},
+		"Cinema Eikaiwa Series Dai-5-dan - Zombie (Disc 4)": {
+			"match": "short",
+			"categories": ["Educational", "Video"]
+		},
+		"Cinema Eikaiwa Series Dai-6-dan - Ai no Hate ni (Disc 1)": {
+			"match": "short",
+			"categories": ["Educational", "Video"]
+		},
+		"Cinema Eikaiwa Series Dai-6-dan - Ai no Hate ni (Disc 2)": {
+			"match": "short",
+			"categories": ["Educational", "Video"]
+		},
+		"Cinema Eikaiwa Series Dai-6-dan - Ai no Hate ni (Disc 3)": {
+			"match": "short",
+			"categories": ["Educational", "Video"]
+		},
+		"Cinema Eikaiwa Series Dai-6-dan - Ai no Hate ni (Disc 4)": {
+			"match": "short",
+			"categories": ["Educational", "Video"]
+		},
 		"Dino Crisis (Europe) (Demo)": {
 			"match": "full",
 			"categories": ["Demos", "Preproduction"]
