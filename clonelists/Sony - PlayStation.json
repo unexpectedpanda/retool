@@ -168,6 +168,10 @@
 			"match": "full",
 			"categories": ["Demos", "Preproduction"]
 		},
+		"Doko Demo Issho (Calpis Water Version)": {
+			"match": "short",
+			"categories": ["Demos", "Promotional"]
+		},
 		"Kowloon's Gate (Special Disc)": {
 			"match": "short",
 			"categories": ["Demos"]
