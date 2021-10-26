@@ -100,6 +100,70 @@
 			"match": "short",
 			"categories": ["Educational", "Video"]
 		},
+		"Derby Stallion Magazine 2000": {
+			"match": "short",
+			"categories": ["Coverdisc"]
+		},
+		"Derby Stallion Magazine 2000 Vol. 2": {
+			"match": "short",
+			"categories": ["Coverdisc"]
+		},
+		"Derby Stallion Magazine Furoku CD-ROM Soushuu-hen": {
+			"match": "short",
+			"categories": ["Coverdisc"]
+		},
+		"Derby Stallion Magazine Furoku CD-ROM Vol. 1": {
+			"match": "short",
+			"categories": ["Coverdisc"]
+		},
+		"Derby Stallion Magazine Furoku CD-ROM Vol. 2": {
+			"match": "short",
+			"categories": ["Coverdisc"]
+		},
+		"Derby Stallion Magazine Furoku CD-ROM Vol. 3": {
+			"match": "short",
+			"categories": ["Coverdisc"]
+		},
+		"Derby Stallion Magazine Furoku CD-ROM Vol. 4": {
+			"match": "short",
+			"categories": ["Coverdisc"]
+		},
+		"Derby Stallion Magazine Furoku CD-ROM Vol. 5": {
+			"match": "short",
+			"categories": ["Coverdisc"]
+		},
+		"Derby Stallion Magazine Furoku CD-ROM Vol. 5": {
+			"match": "short",
+			"categories": ["Coverdisc"]
+		},
+		"Derby Stallion Magazine Furoku CD-ROM Vol. 6": {
+			"match": "short",
+			"categories": ["Coverdisc"]
+		},
+		"Derby Stallion Magazine Furoku CD-ROM Vol. 7": {
+			"match": "short",
+			"categories": ["Coverdisc"]
+		},
+		"Derby Stallion Magazine Furoku CD-ROM Vol. 8": {
+			"match": "short",
+			"categories": ["Coverdisc"]
+		},
+		"Derby Stallion Magazine Furoku CD-ROM Vol. 9": {
+			"match": "short",
+			"categories": ["Coverdisc"]
+		},
+		"Derby Stallion Magazine Furoku CD-ROM Vol. 10": {
+			"match": "short",
+			"categories": ["Coverdisc"]
+		},
+		"Derby Stallion Magazine Furoku CD-ROM Vol. 11": {
+			"match": "short",
+			"categories": ["Coverdisc"]
+		},
+		"Derby Stallion Magazine Furoku CD-ROM Vol. 12": {
+			"match": "short",
+			"categories": ["Coverdisc"]
+		},
 		"Dino Crisis (Europe) (Demo)": {
 			"match": "full",
 			"categories": ["Demos", "Preproduction"]
