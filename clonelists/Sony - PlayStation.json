@@ -2271,6 +2271,10 @@
 			["PlayStation Programmer Tool - Runtime Library Version 3.0", 2],
 			["PlayStation Programmer Tool - Runtime Library Version 2.6", 3]
 		],
+		"Point Blank": [
+			["GunBullet (GunBullet + GunCon)", 1],
+			["GunBullet", 2]
+		],
 		"Point Blank 2": [
 			["Gunbarl", 1]
 		],
