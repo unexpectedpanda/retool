@@ -1,3 +1,8 @@
+# 1.01
+
+- Fixed an issue where titles assigned to `BIOS` in a clone list weren't
+  removed if a user had selected to remove BIOSes.
+
 # 1.00
 
 - Fixed an issue where multiple regions caused a crash when determining the

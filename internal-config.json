@@ -7,7 +7,7 @@
             "These are defaults that Retool requires, don't modify this file.",
             "Check user-config.yaml for user-editable settings."
         ],
-        "last updated": "22 October 2021"
+        "last updated": "28 October 2021"
     },
 
     "ignore_tags": [
@@ -217,6 +217,7 @@
         "\\s?\\(Aleste Collection\\)",
         "\\s?\\(Atari Anthology\\)",
         "\\s?\\(Bomberman Collection\\)",
+        "\\s?\\(Castlevania Advance Collection\\)",
         "\\s?\\(Castlevania Anniversary Collection\\)",
         "\\s?\\(Collection of Mana\\)",
         "\\s?\\(Collection of SaGa\\)",

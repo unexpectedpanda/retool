@@ -238,22 +238,13 @@ def dat_to_dict(region, region_data, input_dat, user_input, removes_found, categ
 
 
         # Filter categories, if the option has been turned on
-        def exclude_categories(category, regexes=[]):
-            if hasattr(user_input, 'no_' + category.lower().replace('-', '_').replace(' ', '_')):
-                if getattr(user_input, 'no_' + category.lower().replace('-', '_').replace(' ', '_')) == True:
-                    for disc_title in groups[group_name]:
-                        for disc_category in disc_title.categories:
-                            if disc_category == category:
-                                if category not in user_input.removed_titles:
-                                    user_input.removed_titles[category] = []
-                                    user_input.recovered_titles[category] = []
-                                user_input.removed_titles[category].append(disc_title.full_name)
-                                user_input.recovered_titles[category].append(disc_title)
-                                if disc_title in groups[group_name]: groups[group_name].remove(disc_title)
-                                return True
-                        if regexes != []:
-                            for regex in regexes:
-                                if re.search(regex, disc_title.full_name) != None:
+        def exclude_categories(categories, regexes=[]):
+            for category in categories:
+                if hasattr(user_input, 'no_' + category.lower().replace('-', '_').replace(' ', '_')):
+                    if getattr(user_input, 'no_' + category.lower().replace('-', '_').replace(' ', '_')) == True:
+                        for disc_title in groups[group_name]:
+                            for disc_category in disc_title.categories:
+                                if disc_category == category:
                                     if category not in user_input.removed_titles:
                                         user_input.removed_titles[category] = []
                                         user_input.recovered_titles[category] = []
@@ -261,23 +252,33 @@ def dat_to_dict(region, region_data, input_dat, user_input, removes_found, categ
                                     user_input.recovered_titles[category].append(disc_title)
                                     if disc_title in groups[group_name]: groups[group_name].remove(disc_title)
                                     return True
+                            if regexes != []:
+                                for regex in regexes:
+                                    if re.search(regex, disc_title.full_name) != None:
+                                        if category not in user_input.removed_titles:
+                                            user_input.removed_titles[category] = []
+                                            user_input.recovered_titles[category] = []
+                                        user_input.removed_titles[category].append(disc_title.full_name)
+                                        user_input.recovered_titles[category].append(disc_title)
+                                        if disc_title in groups[group_name]: groups[group_name].remove(disc_title)
+                                        return True
 
-        if exclude_categories('Add-Ons') == True: continue
-        if exclude_categories('Applications', REGEX.programs) == True: continue
-        if exclude_categories('Audio') == True: continue
-        if exclude_categories('Bad Dumps', [REGEX.bad]) == True: continue
-        if exclude_categories('Bonus Discs') == True: continue
-        if exclude_categories('Console', [REGEX.bios]) == True: continue
-        if exclude_categories('Coverdiscs') == True: continue
-        if exclude_categories('Demos', REGEX.demos) == True: continue
-        if exclude_categories('Educational') == True: continue
-        if exclude_categories('Manuals', REGEX.manuals) == True: continue
-        if exclude_categories('Multimedia') == True: continue
-        if exclude_categories('Pirate', [REGEX.pirate]) == True: continue
-        if exclude_categories('Preproduction', REGEX.preproduction) == True: continue
-        if exclude_categories('Promotional', REGEX.promotional) == True: continue
-        if exclude_categories('Unlicensed', REGEX.unlicensed) == True: continue
-        if exclude_categories('Video', REGEX.video) == True: continue
+        if exclude_categories(['Add-Ons']) == True: continue
+        if exclude_categories(['Applications'], REGEX.programs) == True: continue
+        if exclude_categories(['Audio']) == True: continue
+        if exclude_categories(['Bad Dumps'], [REGEX.bad]) == True: continue
+        if exclude_categories(['Bonus Discs']) == True: continue
+        if exclude_categories(['Console', 'BIOS'], [REGEX.bios]) == True: continue
+        if exclude_categories(['Coverdiscs']) == True: continue
+        if exclude_categories(['Demos'], REGEX.demos) == True: continue
+        if exclude_categories(['Educational']) == True: continue
+        if exclude_categories(['Manuals'], REGEX.manuals) == True: continue
+        if exclude_categories(['Multimedia']) == True: continue
+        if exclude_categories(['Pirate'], [REGEX.pirate]) == True: continue
+        if exclude_categories(['Preproduction'], REGEX.preproduction) == True: continue
+        if exclude_categories(['Promotional'], REGEX.promotional) == True: continue
+        if exclude_categories(['Unlicensed'], REGEX.unlicensed) == True: continue
+        if exclude_categories(['Video'], REGEX.video) == True: continue
 
         # Filter languages, if the option has been turned on
         if user_input.filter_languages == True:

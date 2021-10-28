@@ -3,7 +3,7 @@
 		"name": [
 			"Nintendo - Super Nintendo Entertainment System"
 		],
-		"last updated": "22 October, 2021",
+		"last updated": "28 October, 2021",
 		"minimum version": "0.92"
 	},
 
@@ -61,6 +61,10 @@
 			"categories": ["BIOS"]
 		},
 		"Super Game Boy 2": {
+			"match": "short",
+			"categories": ["BIOS"]
+		},
+		"Tri-Star": {
 			"match": "short",
 			"categories": ["BIOS"]
 		},
@@ -963,7 +967,7 @@
 		"Spider-Man - X-Men - Arcade's Revenge": [
 			["Spider-Man and the X-Men in Arcade's Revenge", 2]
 		],
-		"Sports Illustrated Championship Football & Baseball": [
+		"Sports Illustrated - Championship Football & Baseball": [
 			["All-American Championship Football", 1]
 		],
 		"Star Fox": [

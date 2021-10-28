@@ -444,10 +444,10 @@ def choose_string(string, user_input, region_data, title_list, REGEX, choose_tit
                         if (
                             re.search(string, title_1.full_name_lower) != None
                             and re.search(string, title_2.full_name_lower) == None):
-                            if choose_title_with_string == False:
-                                if title_1 in title_list: title_list.remove(title_1)
-                            else:
-                                if title_2 in title_list: title_list.remove(title_2)
+                                if choose_title_with_string == False:
+                                    if title_1 in title_list: title_list.remove(title_1)
+                                else:
+                                    if title_2 in title_list: title_list.remove(title_2)
                         elif (
                             re.search(string, title_2.full_name_lower) != None
                             and re.search(string, title_1.full_name_lower) == None):
