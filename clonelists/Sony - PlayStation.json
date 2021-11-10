@@ -175,6 +175,10 @@
 		"Kowloon's Gate (Special Disc)": {
 			"match": "short",
 			"categories": ["Demos"]
+		},
+		"Play-Pre Vol. 8": {
+			"match": "short",
+			"categories": ["Demos"]
 		}
 	},
 
@@ -1022,7 +1026,8 @@
 			["Disney's Winnie L'Ourson - C' Est La Recre!", 1],
 			["Disney Pooh e Tigro! E Qui la Festa", 1],
 			["Disney Ven a la Fiesta! con Winnie the Pooh", 1],
-			["Disneys Plys' Spil-og-Leg-Sted", 1]
+			["Disneys Plys' Spil-og-Leg-Sted", 1],
+			["Pooh-san no Minna de Mori no Daikyousou!", 1]
 		],
 		"Disney's Story Studio - Mulan": [
 			["Disney's Aventura Interactiva - Mulan", 1],
@@ -2181,6 +2186,10 @@
 		],
 		"Pac-Man World - 20th Anniversary": [
 			["Pac-Man World 20th Anniversary", 1]
+		],
+		"Pachi-Slot Aruze Oukoku 4 (PSone Books)": [
+			["Pachi-Slot Aruze Oukoku 4 (Deluxe Pack)", 2],
+			["Pachi-Slot Aruze Oukoku 4", 3]
 		],
 		"Pajama Sam - You Are What You Eat from Your Head to Your Feet": [
 			["Pyjama Sam - Heros du Gouter", 1],
