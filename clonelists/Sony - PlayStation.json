@@ -1901,7 +1901,8 @@
 			["MediEvil 2", 1]
 		],
 		"Megaman - Battle & Chase": [
-			["Rockman - Battle & Chase", 1]
+			["Rockman - Battle & Chase (PlayStation the Best for Family)", 1],
+			["Rockman - Battle & Chase", 2]
 		],
 		"Mega Man 8": [
 			["Rockman 8 - Metal Heroes", 1]
@@ -1916,7 +1917,8 @@
 			["Rockman X3", 1]
 		],
 		"Mega Man X4": [
-			["Rockman X4", 1]
+			["Rockman X4 (Special Limited Pack)", 1],
+			["Rockman X4", 2]
 		],
 		"Mega Man X5": [
 			["Rockman X5", 1]
@@ -2464,6 +2466,10 @@
 		"Risk - The Game of Global Domination": [
 			["Risk", 1]
 		],
+		"Rittai Ninja Katsugeki - Tenchu - Shinobi Gaisen": [
+			["Rittai Ninja Katsugeki - Tenchu", 2],
+			["Tenchu - Stealth Assassins", 2]
+		],
 		"Rival Schools - United by Fate (Disc 1) (Arcade Disc)": [
 			["Rival Schools - United by Fate (Disc 2) (Arcade Disc)", 1],
 			["Shiritsu Justice Gakuen - Legion of Heroes (Disc 2) (Arcade Disc)", 1]
@@ -2496,6 +2502,9 @@
 		],
 		"Romance of the Three Kingdoms VI - Awakening of the Dragon": [
 			["Sangokushi VI", 1]
+		],
+		"Rox": [
+			["RoX - 6 = Six", 1]
 		],
 		"RPG Maker": [
 			["RPG Tkool 3", 1]
@@ -2602,6 +2611,9 @@
 		],
 		"Soukou Kihei Votoms - Lightning Slash (Limited Edition)": [
 			["Soukou Kihei Votoms - Lightning Slash", 2]
+		],
+		"Soukou Kihei Votoms - Woodo Kummen (Limited Edition)": [
+			["Soukou Kihei Votoms - Woodo Kummen", 2]
 		],
 		"Soukou Kihei Votoms Gaiden - Ao no Kishi Berserga Monogatari (Limited Edition)": [
 			["Soukou Kihei Votoms Gaiden - Ao no Kishi Berserga Monogatari", 2]
@@ -2790,9 +2802,6 @@
 		],
 		"Ten Pin Alley": [
 			["Virtual Bowling - Ten Pin Alley no Kiseki", 1]
-		],
-		"Tenchu - Stealth Assassins": [
-			["Rittai Ninja Katsugeki - Tenchu", 1]
 		],
 		"Tenchu 2 - Birth of the Stealth Assassins": [
 			["Rittai Ninja Katsugeki - Tenchu 2", 1]
