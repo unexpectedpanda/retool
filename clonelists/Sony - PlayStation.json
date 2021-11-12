@@ -294,9 +294,33 @@
 
 	"removes": {
 		"Jackie Chan Stuntmaster (Europe) (Recalled)": {},
+		"SuperLite 1500 Series - Angolmois 99 (Japan)": {},
+		"SuperLite 1500 Series - Battle Sugoroku the Hunter - A.R.0062 (Japan)": {},
+		"SuperLite 1500 Series - Card II (Japan)": {},
+		"SuperLite 1500 Series - Chitty Chitty Chicken (Japan)": {},
+		"SuperLite 1500 Series - Crazy Balloon 2000 (Japan)": {},
 		"SuperLite 1500 Series - Crossword (Japan)": {},
 		"SuperLite 1500 Series - Crossword 2 (Japan)": {},
-		"SuperLite 1500 Series - Crossword 3 (Japan)": {}
+		"SuperLite 1500 Series - Crossword 3 (Japan)": {},
+		"SuperLite 1500 Series - Fishing Club - Boat no Tsuri-hen (Japan)": {},
+		"SuperLite 1500 Series - Fishing Club - Bouhatei no Tsuri-hen (Japan)": {},
+		"SuperLite 1500 Series - Fishing Club - Hama no Tsuri-hen (Japan)": {},
+		"SuperLite 1500 Series - Hanafuda II (Japan)": {},
+		"SuperLite 1500 Series - NumCro (Japan)": {},
+		"SuperLite 1500 Series - NumCro 2 (Japan)": {},
+		"SuperLite 1500 Series - NumCro 3 (Japan)": {},
+		"SuperLite 1500 Series - Oekaki Puzzle (Japan)": {},
+		"SuperLite 1500 Series - Oekaki Puzzle 2 (Japan)": {},
+		"SuperLite 1500 Series - Oekaki Puzzle 3 (Japan)": {},
+		"SuperLite 1500 Series - Pangaea (Japan)": {},
+		"SuperLite 1500 Series - Qix 2000 (Japan)": {},
+		"SuperLite 1500 Series - Quiz Master - Blue (Japan)": {},
+		"SuperLite 1500 Series - Quiz Master - Red (Japan)": {},
+		"SuperLite 1500 Series - Quiz Master - Yellow (Japan)": {},
+		"SuperLite 1500 Series - Space Chaser 2000 (Japan)": {},
+		"SuperLite 1500 Series - Suudoku (Japan)": {},
+		"SuperLite 1500 Series - Suudoku 2 (Japan)": {},
+		"SuperLite 1500 Series - Suudoku 3 (Japan)": {}
 	},
 
     "renames": {
@@ -322,7 +346,7 @@
 		"A-Train - Trains, Power, Money": [
 			["A.IV - Evolution Global", 1],
 			["A Ressha de Ikou 4 - Evolution Global", 1],
-			["SuperLite 1500 Series - A Ressha de Ikou 4 - Evolution Global", 1]
+			["SuperLite 1500 Series - A Ressha de Ikou 4 - Evolution Global", 2]
 		],
 		"A Ressha de Ikou Z - Mezase! Tairiku Oudan": [
 			["SuperLite 1500 Series - A Ressha de Ikou Z - Mezase! Tairiku Oudan", 2]
@@ -536,8 +560,7 @@
 			["Battle Arena Toushinden 3", 1]
 		],
 		"Battle Hunter": [
-			["Hunter, The", 1],
-			["SuperLite 1500 Series - Battle Sugoroku the Hunter - A.R.0062", 1]
+			["Hunter, The", 1]
 		],
 		"Beat-Em-Up Special (Demo)": [
 			["Beat-Em-Up Speziale (Demo)", 1]
@@ -825,9 +848,6 @@
 		],
 		"Croc 2": [
 			["Croc Adventure", 1]
-		],
-		"Crossroad Crisis": [
-			["SuperLite 1500 Series - Chitty Chitty Chicken", 1]
 		],
 		"Crypt Killer": [
 			["Henry Explorers", 1]
@@ -1926,6 +1946,9 @@
 		"Mega Man X6": [
 			["Rockman X6", 1]
 		],
+		"Memories Off": [
+			["SuperLite 1500 Series - Memories Off (Japan)", 2]
+		],
 		"Metal Gear Solid (Disc 1)": [
 			["Metal Gear Solid - Integral (Disc 1)", 0],
 			["Metal Gear Solid (Disc 1) (Ichi) (Premium Package)", 1],
@@ -2182,6 +2205,9 @@
 		],
 		"Onside Complete Soccer": [
 			["Complete Soccer Onside", 1]
+		],
+		"Option - Tuning Car Battle Spec R": [
+			["SuperLite 1500 Series - Option - Tuning Car Battle Spec R", 2]
 		],
 		"Oumagatoki (Premium Fan Disc)": [
 			["Oumagatoki", 2]
