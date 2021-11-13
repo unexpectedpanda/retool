@@ -820,10 +820,11 @@
 		],
 		"Contender": [
 			["Dynamite Boxing", 1],
-			["Victory Boxing 2", 2]
+			["Victory Boxing 2", 1]
 		],
 		"Contender 2": [
-			["Victory Boxing Contender", 1]
+			["Victory Boxing Contender", 1],
+			["Funky Boxers", 1]
 		],
 		"Cool Boarders 2": [
 			["Cool Boarders 2 - Killing Session", 1]
@@ -3248,6 +3249,21 @@
 		"Wizardry - Llylgamyn Saga": [
 			["SuperLite Gold Series - Wizardry - Llylgamyn Saga", 2]
 		],
+		"Wizardry - New Age of Llylgamyn": [
+			["SuperLite Gold Series - Wizardry - New Age of Llylgamyn", 2]
+		],
+		"Wizard's Harmony": [
+			["SuperLite 1500 Series - Wizard's Harmony", 2]
+		],
+		"Wizard's Harmony 2": [
+			["SuperLite 1500 Series - Wizard's Harmony 2", 2]
+		],
+		"Wizard's Harmony R": [
+			["SuperLite 1500 Series - Wizard's Harmony R", 2]
+		],
+		"Woody Woodpecker Racing": [
+			["Woody Woodpecker no Go! Go! Racing", 1]
+		],
 		"World's Scariest Police Chases": [
 			["Folles Poursuites", 1]
 		],
@@ -3288,6 +3304,9 @@
 		],
 		"Yeh Yeh Tennis": [
 			["Love Game's - Wai Wai Tennis 2", 1]
+		],
+		"Yoshimoto Mahjong Club Deluxe": [
+			["SuperLite 1500 Series - Yoshimoto Mahjong Club Deluxe", 2]
 		],
 		"You Don't Know Jack (Disc 1)": [
 			["You Don't Know Jack", 1]
