@@ -10,6 +10,12 @@
 	"removes": {
 		"2 Games in 1! Archer Maclean's Mercury & Mercury Meltdown": {
 			"match": "short"
+		},
+		"God Eater (Japan)": {
+			"match": "full"
+		},
+		"God Eater Burst - Append-ban (Japan)": {
+			"match": "full"
 		}
 	},
 
@@ -36,6 +42,9 @@
 		],
 		"Artlist Collection - The Dog Happy Life - Shiawase Wanko Seikatsu Dai-1-dan": [
 			["Artlist Collection - The Dog Happy Life - Shiawase Wanko Seikatsu Dai-1-dan - McDonald's Ver.", 2]
+		],
+		"BlazBlue - Calamity Trigger": [
+			["BlazBlue - Calamity Trigger Portable", 1]
 		],
 		"Bomberman Land": [
 			["Bomberman Land Portable", 1]
@@ -134,6 +143,9 @@
 		],
 		"Dragon Ball Z - Shin Budokai - Another Road": [
 			["Dragon Ball Z - Shin Budokai 2", 1]
+		],
+		"Dragon Ball Z - Tenkaichi Tag Team": [
+			["Dragon Ball Tag VS", 1]
 		],
 		"Dragoneer's Aria": [
 			["Dragoneer's Aria - Ryu ga Nemuru Made", 1]
@@ -234,9 +246,6 @@
 		"Go! Sudoku": [
 			["Kazuo", 1]
 		],
-		"God Eater": [
-			["God Eater Burst", 0]
-		],
 		"God of War - Ghost of Sparta": [
 			["God of War - Koutan no Kokuin", 1]
 		],
@@ -248,6 +257,9 @@
 			["Padrino, El", 1],
 			["Padrino, Il", 1],
 			["Pate, Der", 1]
+		],
+		"Gods Eater Burst": [
+			["God Eater Burst", 1]
 		],
 		"Golden Compass, The": [
 			["A la croisee des mondes - La Boussole d'or", 1],
@@ -264,6 +276,12 @@
 		],
 		"Half-Minute Hero": [
 			["Yuusha 30", 1]
+		],
+		"Hakuoki - Demon of the Fleeting Blossom": [
+			["Hakuouki - Reimeiroku Portable", 1]
+		],
+		"Hakuoki - Warriors of the Shinsengumi": [
+			["Hakuouki - Yuugiroku", 1]
 		],
 		"Hammerin' Hero": [
 			["Gensan", 1]
@@ -318,6 +336,9 @@
 		],
 		"Legend of Heroes, The - Trails in the Sky": [
 			["Eiyuu Densetsu - Sora no Kiseki FC", 1]
+		],
+		"Legend of Heroes II, The - Prophecy of the Moonlight Witch": [
+			["Eiyuu Densetsu Gagharv Trilogy - Shiroki Majo", 1]
 		],
 		"LittleBigPlanet": [
 			["LittleBigPlanet Portable", 1]
@@ -381,6 +402,9 @@
 		],
 		"Patapon 2": [
 			["Patapon 2 - Don-Chaka", 1]
+		],
+		"Shin Megami Tensei - Persona": [
+			["Persona", 1]
 		],
 		"PES 2008 - Pro Evolution Soccer": [
 			["World Soccer Winning Eleven - Ubiquitous Evolution 2008", 1]
@@ -457,6 +481,9 @@
 		"Samurai Warriors - State of War": [
 			["Geki Sengoku Musou", 1]
 		],
+		"Saru! Get You! SaruSaru Daisakusen": [
+			["Zhuo Hou La - Hou Zi Ai Zuo Zhan", 1]
+		],
 		"SBK - Superbike World Championship": [
 			["SBK 08 - Superbike World Championship", 1]
 		],
@@ -489,6 +516,9 @@
 		],
 		"Smart Bomb": [
 			["Baku-No", 1]
+		],
+		"SOCOM - U.S. Navy SEALs - Fireteam Bravo 2": [
+			["SOCOM - U.S. Navy SEALs - Fireteam Bravo 2 (Press Disc)", 2]
 		],
 		"SOCOM - U.S. Navy SEALs - Fireteam Bravo 2 (Demo) (UCUS-98692)": [
 			["SOCOM - U.S. Navy SEALs - Fireteam Bravo 2 (Demo) (UCUS-98691)", 2],
