@@ -12,11 +12,167 @@
 			"match": "short",
 			"categories": ["Audio"]
 		},
+		"Arc-en-Ciel, L' - Light my Fire": {
+			"match": "short",
+			"categories": ["Video"]
+		},
+		"Cinema Eikaiwa Series Dai-1-dan - Tengoku ni Ikenai Papa (Disc 1) (Joukan)": {
+			"match": "short",
+			"categories": ["Educational", "Video"]
+		},
+		"Cinema Eikaiwa Series Dai-1-dan - Tengoku ni Ikenai Papa (Disc 2) (Chuukan)": {
+			"match": "short",
+			"categories": ["Educational", "Video"]
+		},
+		"Cinema Eikaiwa Series Dai-1-dan - Tengoku ni Ikenai Papa (Disc 3) (Gekan)": {
+			"match": "short",
+			"categories": ["Educational", "Video"]
+		},
+		"Cinema Eikaiwa Series Dai-2-dan - Interceptor (Disc 1) (Joukan)": {
+			"match": "short",
+			"categories": ["Educational", "Video"]
+		},
+		"Cinema Eikaiwa Series Dai-2-dan - Interceptor (Disc 2) (Chuukan)": {
+			"match": "short",
+			"categories": ["Educational", "Video"]
+		},
+		"Cinema Eikaiwa Series Dai-2-dan - Interceptor (Disc 3) (Gekan)": {
+			"match": "short",
+			"categories": ["Educational", "Video"]
+		},
+		"Cinema Eikaiwa Series Dai-3-dan - Arashigaoka (Disc 1) (Joukan)": {
+			"match": "short",
+			"categories": ["Educational", "Video"]
+		},
+		"Cinema Eikaiwa Series Dai-3-dan - Arashigaoka (Disc 2) (Chuukan)": {
+			"match": "short",
+			"categories": ["Educational", "Video"]
+		},
+		"Cinema Eikaiwa Series Dai-3-dan - Arashigaoka (Disc 3) (Gekan)": {
+			"match": "short",
+			"categories": ["Educational", "Video"]
+		},
+		"Cinema Eikaiwa Series Dai-4-dan - Boy's Life (Disc 1)": {
+			"match": "short",
+			"categories": ["Educational", "Video"]
+		},
+		"Cinema Eikaiwa Series Dai-4-dan - Boy's Life (Disc 2)": {
+			"match": "short",
+			"categories": ["Educational", "Video"]
+		},
+		"Cinema Eikaiwa Series Dai-4-dan - Boy's Life (Disc 3)": {
+			"match": "short",
+			"categories": ["Educational", "Video"]
+		},
+		"Cinema Eikaiwa Series Dai-4-dan - Boy's Life (Disc 4)": {
+			"match": "short",
+			"categories": ["Educational", "Video"]
+		},
+		"Cinema Eikaiwa Series Dai-5-dan - Zombie (Disc 1)": {
+			"match": "short",
+			"categories": ["Educational", "Video"]
+		},
+		"Cinema Eikaiwa Series Dai-5-dan - Zombie (Disc 2)": {
+			"match": "short",
+			"categories": ["Educational", "Video"]
+		},
+		"Cinema Eikaiwa Series Dai-5-dan - Zombie (Disc 3)": {
+			"match": "short",
+			"categories": ["Educational", "Video"]
+		},
+		"Cinema Eikaiwa Series Dai-5-dan - Zombie (Disc 4)": {
+			"match": "short",
+			"categories": ["Educational", "Video"]
+		},
+		"Cinema Eikaiwa Series Dai-6-dan - Ai no Hate ni (Disc 1)": {
+			"match": "short",
+			"categories": ["Educational", "Video"]
+		},
+		"Cinema Eikaiwa Series Dai-6-dan - Ai no Hate ni (Disc 2)": {
+			"match": "short",
+			"categories": ["Educational", "Video"]
+		},
+		"Cinema Eikaiwa Series Dai-6-dan - Ai no Hate ni (Disc 3)": {
+			"match": "short",
+			"categories": ["Educational", "Video"]
+		},
+		"Cinema Eikaiwa Series Dai-6-dan - Ai no Hate ni (Disc 4)": {
+			"match": "short",
+			"categories": ["Educational", "Video"]
+		},
+		"Derby Stallion Magazine 2000": {
+			"match": "short",
+			"categories": ["Coverdisc"]
+		},
+		"Derby Stallion Magazine 2000 Vol. 2": {
+			"match": "short",
+			"categories": ["Coverdisc"]
+		},
+		"Derby Stallion Magazine Furoku CD-ROM Soushuu-hen": {
+			"match": "short",
+			"categories": ["Coverdisc"]
+		},
+		"Derby Stallion Magazine Furoku CD-ROM Vol. 1": {
+			"match": "short",
+			"categories": ["Coverdisc"]
+		},
+		"Derby Stallion Magazine Furoku CD-ROM Vol. 2": {
+			"match": "short",
+			"categories": ["Coverdisc"]
+		},
+		"Derby Stallion Magazine Furoku CD-ROM Vol. 3": {
+			"match": "short",
+			"categories": ["Coverdisc"]
+		},
+		"Derby Stallion Magazine Furoku CD-ROM Vol. 4": {
+			"match": "short",
+			"categories": ["Coverdisc"]
+		},
+		"Derby Stallion Magazine Furoku CD-ROM Vol. 5": {
+			"match": "short",
+			"categories": ["Coverdisc"]
+		},
+		"Derby Stallion Magazine Furoku CD-ROM Vol. 6": {
+			"match": "short",
+			"categories": ["Coverdisc"]
+		},
+		"Derby Stallion Magazine Furoku CD-ROM Vol. 7": {
+			"match": "short",
+			"categories": ["Coverdisc"]
+		},
+		"Derby Stallion Magazine Furoku CD-ROM Vol. 8": {
+			"match": "short",
+			"categories": ["Coverdisc"]
+		},
+		"Derby Stallion Magazine Furoku CD-ROM Vol. 9": {
+			"match": "short",
+			"categories": ["Coverdisc"]
+		},
+		"Derby Stallion Magazine Furoku CD-ROM Vol. 10": {
+			"match": "short",
+			"categories": ["Coverdisc"]
+		},
+		"Derby Stallion Magazine Furoku CD-ROM Vol. 11": {
+			"match": "short",
+			"categories": ["Coverdisc"]
+		},
+		"Derby Stallion Magazine Furoku CD-ROM Vol. 12": {
+			"match": "short",
+			"categories": ["Coverdisc"]
+		},
 		"Dino Crisis (Europe) (Demo)": {
 			"match": "full",
 			"categories": ["Demos", "Preproduction"]
 		},
+		"Doko Demo Issho (Calpis Water Version)": {
+			"match": "short",
+			"categories": ["Demos", "Promotional"]
+		},
 		"Kowloon's Gate (Special Disc)": {
+			"match": "short",
+			"categories": ["Demos"]
+		},
+		"Play-Pre Vol. 8": {
 			"match": "short",
 			"categories": ["Demos"]
 		}
@@ -134,9 +290,33 @@
 
 	"removes": {
 		"Jackie Chan Stuntmaster (Europe) (Recalled)": {},
+		"SuperLite 1500 Series - Angolmois 99 (Japan)": {},
+		"SuperLite 1500 Series - Battle Sugoroku the Hunter - A.R.0062 (Japan)": {},
+		"SuperLite 1500 Series - Card II (Japan)": {},
+		"SuperLite 1500 Series - Chitty Chitty Chicken (Japan)": {},
+		"SuperLite 1500 Series - Crazy Balloon 2000 (Japan)": {},
 		"SuperLite 1500 Series - Crossword (Japan)": {},
 		"SuperLite 1500 Series - Crossword 2 (Japan)": {},
-		"SuperLite 1500 Series - Crossword 3 (Japan)": {}
+		"SuperLite 1500 Series - Crossword 3 (Japan)": {},
+		"SuperLite 1500 Series - Fishing Club - Boat no Tsuri-hen (Japan)": {},
+		"SuperLite 1500 Series - Fishing Club - Bouhatei no Tsuri-hen (Japan)": {},
+		"SuperLite 1500 Series - Fishing Club - Hama no Tsuri-hen (Japan)": {},
+		"SuperLite 1500 Series - Hanafuda II (Japan)": {},
+		"SuperLite 1500 Series - NumCro (Japan)": {},
+		"SuperLite 1500 Series - NumCro 2 (Japan)": {},
+		"SuperLite 1500 Series - NumCro 3 (Japan)": {},
+		"SuperLite 1500 Series - Oekaki Puzzle (Japan)": {},
+		"SuperLite 1500 Series - Oekaki Puzzle 2 (Japan)": {},
+		"SuperLite 1500 Series - Oekaki Puzzle 3 (Japan)": {},
+		"SuperLite 1500 Series - Pangaea (Japan)": {},
+		"SuperLite 1500 Series - Qix 2000 (Japan)": {},
+		"SuperLite 1500 Series - Quiz Master - Blue (Japan)": {},
+		"SuperLite 1500 Series - Quiz Master - Red (Japan)": {},
+		"SuperLite 1500 Series - Quiz Master - Yellow (Japan)": {},
+		"SuperLite 1500 Series - Space Chaser 2000 (Japan)": {},
+		"SuperLite 1500 Series - Suudoku (Japan)": {},
+		"SuperLite 1500 Series - Suudoku 2 (Japan)": {},
+		"SuperLite 1500 Series - Suudoku 3 (Japan)": {}
 	},
 
     "renames": {
@@ -162,7 +342,7 @@
 		"A-Train - Trains, Power, Money": [
 			["A.IV - Evolution Global", 1],
 			["A Ressha de Ikou 4 - Evolution Global", 1],
-			["SuperLite 1500 Series - A Ressha de Ikou 4 - Evolution Global", 1]
+			["SuperLite 1500 Series - A Ressha de Ikou 4 - Evolution Global", 2]
 		],
 		"A Ressha de Ikou Z - Mezase! Tairiku Oudan": [
 			["SuperLite 1500 Series - A Ressha de Ikou Z - Mezase! Tairiku Oudan", 2]
@@ -376,8 +556,7 @@
 			["Battle Arena Toushinden 3", 1]
 		],
 		"Battle Hunter": [
-			["Hunter, The", 1],
-			["SuperLite 1500 Series - Battle Sugoroku the Hunter - A.R.0062", 1]
+			["Hunter, The", 1]
 		],
 		"Beat-Em-Up Special (Demo)": [
 			["Beat-Em-Up Speziale (Demo)", 1]
@@ -534,6 +713,15 @@
 		"Capcom vs. SNK Pro": [
 			["Capcom vs. SNK - Millennium Fight 2000 Pro", 1]
 		],
+		"Carnage Heart": [
+			["SuperLite 1500 Series - Carnage Heart", 2]
+		],
+		"Carnage Heart EZ (Easy Zapping)": [
+			["SuperLite 1500 Series - Carnage Heart EZ (Easy Zapping)", 2]
+		],
+		"Castlevania - Symphony of the Night": [
+			["Akumajou Dracula X - Gekka no Yasoukyoku", 1]
+		],
 		"Castlevania Chronicles": [
 			["Castlevania Chronicle - Akumajou Dracula", 1]
 		],
@@ -628,10 +816,11 @@
 		],
 		"Contender": [
 			["Dynamite Boxing", 1],
-			["Victory Boxing 2", 2]
+			["Victory Boxing 2", 1]
 		],
 		"Contender 2": [
-			["Victory Boxing Contender", 1]
+			["Victory Boxing Contender", 1],
+			["Funky Boxers", 1]
 		],
 		"Cool Boarders 2": [
 			["Cool Boarders 2 - Killing Session", 1]
@@ -663,9 +852,6 @@
 		"Croc 2": [
 			["Croc Adventure", 1]
 		],
-		"Crossroad Crisis": [
-			["SuperLite 1500 Series - Chitty Chitty Chicken", 1]
-		],
 		"Crypt Killer": [
 			["Henry Explorers", 1]
 		],
@@ -674,6 +860,9 @@
 		],
 		"Culdcept - Expansion": [
 			["Culdcept - Expansion Plus", 0]
+		],
+		"Cyber Daisenryaku - Shutsugeki! Haruka Tai": [
+			["SuperLite 1500 Series - Cyber Daisenryaku - Shutsugeki! Haruka Tai", 2]
 		],
 		"D (Disc 1)": [
 			["D no Shokutaku - Complete Graphics (Disc 1)", 1]
@@ -710,11 +899,17 @@
 		"Deception III - Dark Delusion": [
 			["Soumatou", 1]
 		],
+		"Deep Freeze": [
+			["SuperLite 1500 Series - Deep Freeze", 2]
+		],
 		"Defcon 5 - Peace Has a Price...": [
 			["Defcon 5", 1]
 		],
 		"Demo Codemasters (SLED-02246) (Demo)": [
 			["Demo Codemasters (SLED-01725) (Demo)", 2]
+		],
+		"Densetsu-juu no Ana - Monster Complete World Ver. 2": [
+			["SuperLite 1500 Series - Densetsu-juu no Ana - Monster Complete World Ver. 2", 2]
 		],
 		"Descent Maximum": [
 			["Descent II", 1]
@@ -863,7 +1058,8 @@
 			["Disney's Winnie L'Ourson - C' Est La Recre!", 1],
 			["Disney Pooh e Tigro! E Qui la Festa", 1],
 			["Disney Ven a la Fiesta! con Winnie the Pooh", 1],
-			["Disneys Plys' Spil-og-Leg-Sted", 1]
+			["Disneys Plys' Spil-og-Leg-Sted", 1],
+			["Pooh-san no Minna de Mori no Daikyousou!", 1]
 		],
 		"Disney's Story Studio - Mulan": [
 			["Disney's Aventura Interactiva - Mulan", 1],
@@ -904,7 +1100,7 @@
 			["Disneys Arielle 2", 1]
 		],
 		"Disney's Treasure Planet": [
-			["Disney's Skattkammarplaneten", 1],
+			["Disneys Skattkammarplaneten", 1],
 			["Disney's Piratenplaneet - De Schat van Kapitein Flint", 1],
 			["Disney El Planeta del Tesoro", 1],
 			["Disney La Planete au Tresor", 1],
@@ -970,6 +1166,9 @@
 		"Dragon Warrior VII (Disc 1)": [
 			["Dragon Quest VII - Eden no Senshi-tachi (Disc 1)", 1]
 		],
+		"Dragstars": [
+			["SuperLite 1500 Series - Burn Out", 1]
+		],
 		"Dragon Warrior VII (Disc 2)": [
 			["Dragon Quest VII - Eden no Senshi-tachi (Disc 2)", 1]
 		],
@@ -1023,6 +1222,9 @@
 		],
 		"Elemental Pinball": [
 			["Nice Price Series Vol. 08 - Elemental Pinball", 1]
+		],
+		"Emmyrea": [
+			["SuperLite 1500 Series - Emmyrea", 2]
 		],
 		"Epidemic": [
 			["Kileak, The Blood 2 - Reason in Madness", 1]
@@ -1084,6 +1286,9 @@
 		"Extreme Snow Break": [
 			["Snow Break", 1]
 		],
+		"F-1 Grand Prix 1996 - Team Un'ei Simulation": [
+			["SuperLite 1500 Series - F1 Grand Prix 1996 - Team Un'ei Simulation", 2]
+		],
 		"F.A. Premier League Football Manager 2000, The": [
 			["Bundesliga 2000 - Der Fussball-Manager", 1]
 		],
@@ -1112,6 +1317,12 @@
 		],
 		"Fantastic Night Dreams - Cotton Original": [
 			["SuperLite 1500 Series - Fantastic Night Dreams - Cotton Original", 2]
+		],
+		"Farland Saga - Toki no Michishirube": [
+			["SuperLite 1500 Series - Farland Saga - Toki no Michishirube", 2]
+		],
+		"Farland Story - Yottsu no Fuuin": [
+			["SuperLite 1500 Series - Farland Story - Yottsu no Fuuin", 2]
 		],
 		"Fatal Fury - Wild Ambition": [
 			["Garou Densetsu - Wild Ambition", 1]
@@ -1211,6 +1422,9 @@
 		"Fishing Freaks - BassRise (Doukon Pack)": [
 			["Fishing Freaks - BassRise Plus", 0]
 		],
+		"Flamberge no Seirei": [
+			["SuperLite 1500 Series - Flamberge no Seirei", 2]
+		],
 		"Flintstones, The - Bedrock Bowling": [
 			["Flintstones, Die - Bedrock Bowling", 1],
 			["Pierrafeu, Les - Bedrock Bowling", 1]
@@ -1249,6 +1463,9 @@
 			["Phat Air - Extreme Snowboarding", 1],
 			["Zap! Snowboarding Trix '98", 1]
 		],
+		"From TV Animation One Piece - Tobidase Kaizokudan! (PocketStation Doukon)": [
+			["From TV Animation One Piece - Tobidase Kaizokudan!", 2]
+		],
 		"Front Mission 1st (Front Mission History)": [
 			["Front Mission 1st", 2]
 		],
@@ -1261,6 +1478,9 @@
 		"Future Racer": [
 			["Defeat Lightning", 1]
 		],
+		"G. Darius": [
+			["G Darius", 1]
+		],
 		"Galaxy Fight": [
 			["Galaxy Fight - Universal Warriors", 1]
 		],
@@ -1269,6 +1489,9 @@
 		],
 		"Game de Seishun": [
 			["SuperLite 1500 Series - Game de Seishun", 2]
+		],
+		"Game Maker, The - Ureyuki 100-manbon Get da ze!": [
+			["SuperLite 1500 Series - The Game Maker", 2]
 		],
 		"Gekioh - Shooting King": [
 			["Geki-Oh - Shienryuu", 1]
@@ -1476,6 +1699,9 @@
 			["Jet Moto '98", 1],
 			["Jet Rider 2", 1]
 		],
+		"Jissen Pachi-Slot Hisshouhou! Sammy Revolution": [
+			["SuperLite 1500 Series - Pachi-Slot Hisshouhou! Sammy Revolution", 2]
+		],
 		"Johnny Bazookatone": [
 			["Johnny Bazooka", 1]
 		],
@@ -1512,6 +1738,9 @@
 		],
 		"K-1 The Arena Fighters": [
 			["Fighting Illusion - K-1 Grand Prix", 1]
+		],
+		"Kaette Kita Pachio-kun - Dream Collection": [
+			["SuperLite 1500 Series - Kaette kita Pachio-kun - Dream Collection", 2]
 		],
 		"Kagayaku Kisetsu e (Disc 1)": [
 			["Kagayaku Kisetsu e", 2]
@@ -1567,6 +1796,9 @@
 		],
 		"Kotobuki Grand Prix": [
 			["Kotobuki Grand Prix - Mezase! Genchari King", 1]
+		],
+		"Kouyasai - A Sherd of Youthful Memories": [
+			["SuperLite 1500 Series - Kouyasai - A Sherd of Youthful Memories", 2]
 		],
 		"Kurushi Final": [
 			["I.Q Final", 1]
@@ -1667,6 +1899,9 @@
 		"Lunar 2 - Eternal Blue Complete (Disc 3)": [
 			["Lunar 2 - Eternal Blue (Disc 3)", 1]
 		],
+		"Lunar Wing - Toki o Koeta Seisen": [
+			["SuperLite 1500 Series - Lunar Wing - Toki o Koeta Seisen", 2]
+		],
 		"M6 Turbo Racing": [
 			["Car and Driver Presents - Grand Tour Racing '98", 0],
 			["Gekisou!! Grand Racing - Total Drivin'", 1],
@@ -1692,6 +1927,12 @@
 			["Sfida al Tetris Magico", 1],
 			["Tetris Magiska Utmaning", 1]
 		],
+		"Mahjong Senjutsu - Andou Mitsuru Pro no Akuukan Sappou": [
+			["SuperLite 1500 Series - Mahjong Senjutsu - Andou Mitsuru Pro no Akuukan Sappou", 2]
+		],
+		"Mahjong Uranai Fortuna - Tsuki no Megami-tachi": [
+			["SuperLite 1500 Series - Mahjong Uranai Fortuna - Tsuki no Megami-tachi", 2]
+		],
 		"Marble Master": [
 			["Swing", 1]
 		],
@@ -1716,6 +1957,9 @@
 		"Master of Monsters - Disciples of Gaia": [
 			["Master of Monsters - Akatsuki no Kenja-tachi", 1]
 		],
+		"Mawatte Mucho!": [
+			["SuperLite 1500 Series - Mawatte Mucho!", 2]
+		],
 		"MechWarrior 2 - 31st Century Combat - Arcade Combat Edition": [
 			["MechWarrior 2 - Arcade Combat Edition", 1],
 			["MechWarrior 2 - Combat au 31ieme Siecle", 1],
@@ -1730,7 +1974,7 @@
 		"MediEvil II": [
 			["MediEvil 2", 1]
 		],
-		"Megaman - Battle & Chase": [
+	        "Megaman - Battle & Chase": [
 			["Rockman - Battle & Chase", 1]
 		],
 		"Mega Man 8": [
@@ -1746,7 +1990,8 @@
 			["Rockman X3", 1]
 		],
 		"Mega Man X4": [
-			["Rockman X4", 1]
+			["Rockman X4 (Special Limited Pack)", 1],
+			["Rockman X4", 2]
 		],
 		"Mega Man X5": [
 			["Rockman X5", 1]
@@ -1754,13 +1999,18 @@
 		"Mega Man X6": [
 			["Rockman X6", 1]
 		],
+		"Memories Off": [
+			["SuperLite 1500 Series - Memories Off", 2]
+		],
 		"Metal Gear Solid (Disc 1)": [
 			["Metal Gear Solid - Integral (Disc 1)", 0],
-			["Metal Gear Solid (Disc 1) (Ichi)", 1]
+			["Metal Gear Solid (Disc 1) (Ichi) (Premium Package)", 1],
+			["Metal Gear Solid (Disc 1) (Ichi)", 2]
 		],
 		"Metal Gear Solid (Disc 2)": [
 			["Metal Gear Solid - Integral (Disc 2)", 0],
-			["Metal Gear Solid (Disc 2) (Ni)", 1]
+			["Metal Gear Solid (Disc 2) (Ni) (Premium Package)", 1],
+			["Metal Gear Solid (Disc 2) (Ni)", 2]
 		],
 		"Metal Gear Solid - VR Missions": [
 			["Metal Gear Solid - Integral (Disc 3) (VR-Disc)", 0],
@@ -1812,6 +2062,9 @@
 		"Monster Bass": [
 			["Killer Bass", 1]
 		],
+		"Monster Complete World": [
+			["SuperLite 1500 Series - Monster Complete World", 2]
+		],
 		"Monster Rancher": [
 			["Monster Farm", 1]
 		],
@@ -1853,6 +2106,9 @@
 		],
 		"Namco Tennis Smash Court": [
 			["Smash Court", 1]
+		],
+		"Naniwa Wangan Battle - Tarzan Yamada & AutoSelect Sawa Kyoudai": [
+			["SuperLite 1500 Series - Naniwa Wangan Battle", 2]
 		],
 		"NASCAR 98": [
 			["NASCAR 98 Collector's Edition", 0]
@@ -1925,6 +2181,12 @@
 		"Need for Speed - V-Rally 2": [
 			["V-Rally - Championship Edition 2", 1]
 		],
+		"Neo Atlas": [
+			["SuperLite 1500 Series - Neo Atlas", 2]
+		],
+		"Neo Atlas II": [
+			["SuperLite 1500 Series - Neo Atlas II", 2]
+		],
 		"NHL Face Off '97": [
 			["NHL PowerRink '97", 1]
 		],
@@ -1960,6 +2222,18 @@
 		],
 		"No One Can Stop Mr. Domino": [
 			["Domino-kun o Tomenai de.", 1]
+		],
+		"Nobunaga Hiroku - Geten no Yume": [
+			["SuperLite 1500 Series - Nobunaga Hiroku - Geten no Yume", 2]
+		],
+		"Nobunaga no Yabou - Reppuuden with Power-Up Kit": [
+			["Nobunaga no Yabou - Reppuuden", 2]
+		],
+		"Nobunaga no Yabou - Shouseiroku with Power-Up Kit": [
+			["Nobunaga no Yabou - Shouseiroku", 2]
+		],
+		"Nobunaga no Yabou - Tenshouki with Power-Up Kit": [
+			["Nobunaga no Yabou - Tenshouki", 2]
 		],
 		"Noddy's Magic Adventure": [
 			["Noddy - Una Aventura Magica", 1]
@@ -2000,11 +2274,17 @@
 		"Onside Complete Soccer": [
 			["Complete Soccer Onside", 1]
 		],
+		"Option - Tuning Car Battle Spec R": [
+			["SuperLite 1500 Series - Option - Tuning Car Battle Spec R", 2]
+		],
 		"Oumagatoki (Premium Fan Disc)": [
 			["Oumagatoki", 2]
 		],
 		"Pac-Man World - 20th Anniversary": [
 			["Pac-Man World 20th Anniversary", 1]
+		],
+		"Pachi-Slot Aruze Oukoku 4": [
+			["Pachi-Slot Aruze Oukoku 4 (Deluxe Pack)", 2]
 		],
 		"Pajama Sam - You Are What You Eat from Your Head to Your Feet": [
 			["Pyjama Sam - Heros du Gouter", 1],
@@ -2104,6 +2384,10 @@
 			["PlayStation Programmer Tool - Runtime Library Version 3.0", 2],
 			["PlayStation Programmer Tool - Runtime Library Version 2.6", 3]
 		],
+		"Point Blank": [
+			["GunBullet (GunBullet + GunCon)", 1],
+			["GunBullet", 2]
+		],
 		"Point Blank 2": [
 			["Gunbarl", 1]
 		],
@@ -2151,6 +2435,9 @@
 			["Anstoss - Premier Manager", 1],
 			["Canal+ Premier Manager", 1]
 		],
+		"Prismaticallization": [
+			["SuperLite 1500 Series - Prismaticallization", 2]
+		],
 		"Pro-Pinball": [
 			["Pro Pinball - The Web", 1]
 		],
@@ -2181,6 +2468,9 @@
 		"R4 - Ridge Racer Type 4 (R4 + JogCon)": [
 			["Ridge Racer Type 4", 1],
 			["R4 - Ridge Racer Type 4", 2]
+		],
+		"R (Disc 1) (Shokai Genteiban)": [
+			["R", 2]
 		],
 		"Racing": [
 			["Pro Racer", 1],
@@ -2269,6 +2559,9 @@
 		"Rhapsody - A Musical Adventure": [
 			["Marl Oukoku no Ningyou-hime - The Adventure of Puppet Princess", 1]
 		],
+		"Ring of Sias": [
+			["SuperLite 1500 Series - Ring of Sias", 2]
+		],
 		"Risk - The Game of Global Domination": [
 			["Risk", 1]
 		],
@@ -2305,6 +2598,9 @@
 		"Romance of the Three Kingdoms VI - Awakening of the Dragon": [
 			["Sangokushi VI", 1]
 		],
+		"Rox": [
+			["RoX - 6 = Six", 1]
+		],
 		"RPG Maker": [
 			["RPG Tkool 3", 1]
 		],
@@ -2336,6 +2632,9 @@
 		],
 		"Scooby-Doo and the Cyber Chase": [
 			["Scooby-Doo et la Cybertraque", 1]
+		],
+		"Screen": [
+			["SuperLite 1500 Series - Screen", 2]
 		],
 		"SD Gundam - GGeneration (Premium Disc)": [
 			["SD Gundam - GGeneration", 2]
@@ -2411,6 +2710,9 @@
 		"Soukou Kihei Votoms - Lightning Slash (Limited Edition)": [
 			["Soukou Kihei Votoms - Lightning Slash", 2]
 		],
+		"Soukou Kihei Votoms - Woodo Kummen (Limited Edition)": [
+			["Soukou Kihei Votoms - Woodo Kummen", 2]
+		],
 		"Soukou Kihei Votoms Gaiden - Ao no Kishi Berserga Monogatari (Limited Edition)": [
 			["Soukou Kihei Votoms Gaiden - Ao no Kishi Berserga Monogatari", 2]
 		],
@@ -2440,13 +2742,15 @@
 			["Spider-Man 2 - La Revanche d'Electro", 1]
 		],
 		"Spyro 2 - Ripto's Rage!": [
-			["Spyro 2 - Gateway to Glimmer", 1]
+			["Spyro 2 - Gateway to Glimmer", 1],
+			["Spyro x Sparx - Tondemo Tours", 1]
 		],
 		"Star Fighter": [
 			["StarFighter 3000", 1]
 		],
 		"Star Sweep": [
-			["StarSweep", 1]
+			["StarSweep", 1],
+			["SuperLite 1500 Series - StarSweep", 2]
 		],
 		"Star Wars - Episode I - Jedi Power Battles": [
 			["Star Wars - Episodio I - Jedi Power Battles", 1]
@@ -2599,7 +2903,8 @@
 			["Virtual Bowling - Ten Pin Alley no Kiseki", 1]
 		],
 		"Tenchu - Stealth Assassins": [
-			["Rittai Ninja Katsugeki - Tenchu", 1]
+			["Rittai Ninja Katsugeki - Tenchu - Shinobi Gaisen", 0],
+			["Rittai Ninja Katsugeki - Tenchu", 2]
 		],
 		"Tenchu 2 - Birth of the Stealth Assassins": [
 			["Rittai Ninja Katsugeki - Tenchu 2", 1]
@@ -2752,6 +3057,9 @@
 		"Total Play (SLED-02126) (Demo)": [
 			["Total Play (SLED-01872) (Demo)", 2]
 		],
+		"Tower Dream 2": [
+			["SuperLite 1500 Series - Tower Dream 2", 2]
+		],
 		"Transport Tycoon": [
 			["Transport Tycoon 3D - Sl Kara Hajimeyou!!", 1]
 		],
@@ -2800,6 +3108,9 @@
 		],
 		"Ultimate Fighting Championship": [
 			["UFC - Ultimate Fighting Championship", 1]
+		],
+		"Uno": [
+			["SuperLite 1500 Series - Uno", 2]
 		],
 		"V-Ball - Beach Volley Heroes": [
 			["Chou Sentou Kyuugi Vanborg", 1]
@@ -2865,6 +3176,7 @@
 			["Chiki Chiki Machine Mou Race - Wacky Races", 1]
 		],
 		"Walt Disney's The Jungle Book - Rhythm n' Groove": [
+			["Livro da Selva, O - Uma Festa Divertida", 1],
 			["Walt Disney's Jungle Boek - Groove Party", 1],
 			["Walt Disney's The Jungle Book - Groove Party", 1],
 			["Walt Disney El Libro de la Selva - Muevete con Ritmo", 1],
@@ -2931,6 +3243,21 @@
 		"Wizardry - Llylgamyn Saga": [
 			["SuperLite Gold Series - Wizardry - Llylgamyn Saga", 2]
 		],
+		"Wizardry - New Age of Llylgamyn": [
+			["SuperLite Gold Series - Wizardry - New Age of Llylgamyn", 2]
+		],
+		"Wizard's Harmony": [
+			["SuperLite 1500 Series - Wizard's Harmony", 2]
+		],
+		"Wizard's Harmony 2": [
+			["SuperLite 1500 Series - Wizard's Harmony 2", 2]
+		],
+		"Wizard's Harmony R": [
+			["SuperLite 1500 Series - Wizard's Harmony R", 2]
+		],
+		"Woody Woodpecker Racing": [
+			["Woody Woodpecker no Go! Go! Racing", 1]
+		],
 		"World's Scariest Police Chases": [
 			["Folles Poursuites", 1]
 		],
@@ -2971,6 +3298,9 @@
 		],
 		"Yeh Yeh Tennis": [
 			["Love Game's - Wai Wai Tennis 2", 1]
+		],
+		"Yoshimoto Mahjong Club Deluxe": [
+			["SuperLite 1500 Series - Yoshimoto Mahjong Club Deluxe", 2]
 		],
 		"You Don't Know Jack (Disc 1)": [
 			["You Don't Know Jack", 1]
