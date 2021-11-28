@@ -1978,10 +1978,6 @@
 		"MediEvil II": [
 			["MediEvil 2", 1]
 		],
-		"Megaman - Battle & Chase": [
-			["Rockman - Battle & Chase (PlayStation the Best for Family)", 1],
-			["Rockman - Battle & Chase", 2]
-		],
 		"Mega Man 8": [
 			["Rockman 8 - Metal Heroes", 1]
 		],
@@ -2005,7 +2001,7 @@
 			["Rockman X6", 1]
 		],
 		"Memories Off": [
-			["SuperLite 1500 Series - Memories Off (Japan)", 2]
+			["SuperLite 1500 Series - Memories Off", 2]
 		],
 		"Metal Gear Solid (Disc 1)": [
 			["Metal Gear Solid - Integral (Disc 1)", 0],
@@ -2288,9 +2284,8 @@
 		"Pac-Man World - 20th Anniversary": [
 			["Pac-Man World 20th Anniversary", 1]
 		],
-		"Pachi-Slot Aruze Oukoku 4 (PSone Books)": [
-			["Pachi-Slot Aruze Oukoku 4 (Deluxe Pack)", 2],
-			["Pachi-Slot Aruze Oukoku 4", 3]
+		"Pachi-Slot Aruze Oukoku 4": [
+			["Pachi-Slot Aruze Oukoku 4 (Deluxe Pack)", 2]
 		],
 		"Pajama Sam - You Are What You Eat from Your Head to Your Feet": [
 			["Pyjama Sam - Heros du Gouter", 1],
@@ -2570,10 +2565,6 @@
 		],
 		"Risk - The Game of Global Domination": [
 			["Risk", 1]
-		],
-		"Rittai Ninja Katsugeki - Tenchu - Shinobi Gaisen": [
-			["Rittai Ninja Katsugeki - Tenchu", 2],
-			["Tenchu - Stealth Assassins", 2]
 		],
 		"Rival Schools - United by Fate (Disc 1) (Arcade Disc)": [
 			["Rival Schools - United by Fate (Disc 2) (Arcade Disc)", 1],
@@ -2911,6 +2902,10 @@
 		],
 		"Ten Pin Alley": [
 			["Virtual Bowling - Ten Pin Alley no Kiseki", 1]
+		],
+		"Tenchu - Stealth Assassins": [
+			["Rittai Ninja Katsugeki - Tenchu - Shinobi Gaisen", 0],
+			["Rittai Ninja Katsugeki - Tenchu", 2]
 		],
 		"Tenchu 2 - Birth of the Stealth Assassins": [
 			["Rittai Ninja Katsugeki - Tenchu 2", 1]
