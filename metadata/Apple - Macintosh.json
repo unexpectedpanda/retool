@@ -323,6 +323,9 @@
     "Alone in the Dark 3 (France) (Covermount)": {
         "languages": "Fr"
     },
+    "Alone in the Dark 3 (Japan)": {
+        "languages": ""
+    },
     "Another Ian and Stuart's Free (Australia)": {
         "languages": "En"
     },
@@ -359,6 +362,9 @@
     "Arcade Battles (USA)": {
         "languages": "En"
     },
+    "Around the World in 80 Days (USA)": {
+        "languages": "En"
+    },
     "Atlantis - Das sagenhafte Abenteuer (Germany) (Disc 1)": {
         "languages": "De"
     },
@@ -386,6 +392,9 @@
     "Bandai Visual CD-ROM Previews for Macintosh Vol. 1 (Japan)": {
         "languages": "Ja"
     },
+    "Bandai Visual CD-ROM Previews for Macintosh Vol. 1 (Japan) (Alt)": {
+        "languages": "Ja"
+    },
     "Bandai Visual CD-ROM Previews for Macintosh Vol. 2 (Japan)": {
         "languages": "Ja"
     },
@@ -403,6 +412,9 @@
     },
     "Berlin im Untergrund - Eine Interaktive Zeitreise unter den Potsdamer Platz (Germany)": {
         "languages": "De"
+    },
+    "Big Bug Alphabet Book, The (USA)": {
+        "languages": "En"
     },
     "Big Top's Cartoon Toolbox Starring Felix the Cat (USA)": {
         "languages": "En"
@@ -692,6 +704,9 @@
     "Centipede (USA)": {
         "languages": "En"
     },
+    "Cheerios - Play Time (USA)": {
+        "languages": "En"
+    },
     "Christmas Present (Japan) (En,Ja)": {
         "languages": "En, Ja"
     },
@@ -815,6 +830,9 @@
     "Dungeon Master II - The Legend of Skullkeep - The First Chapter (USA)": {
         "languages": "En"
     },
+    "Eagle Eye Mysteries in London (USA)": {
+        "languages": "En"
+    },
     "Eastern Mind - The Lost Souls of Tong Nou (USA)": {
         "languages": "En"
     },
@@ -874,6 +892,9 @@
     },
     "Full Throttle (Europe)": {
         "languages": ""
+    },
+    "Fun and Learning for Macintosh Performa (USA)": {
+        "languages": "En"
     },
     "Gadget - Invention, Travel, & Adventure (Japan)": {
         "languages": ""
@@ -935,6 +956,12 @@
     "Heroes of Might and Magic II - The Succession Wars (USA)": {
         "languages": "En"
     },
+    "Heroes of Might and Magic III Complete (USA) (Disc 1) (Install Disc)": {
+        "languages": "En"
+    },
+    "Heroes of Might and Magic III Complete (USA) (Disc 2) (Play Disc)": {
+        "languages": "En"
+    },
     "Ian and Stuart's One (Australia)": {
         "languages": "En"
     },
@@ -953,7 +980,7 @@
     "Indiana Jones and the Fate of Atlantis (USA) (Rerelease)": {
         "languages": ""
     },
-    "Initial D Second Stage - Typing Kanto Saisoku Project (Japan)": {
+    "Initial D Second Stage - Typing Kantou Saisoku Project (Japan)": {
         "languages": "Ja"
     },
     "International Tennis Open (Europe) (En,Fr)": {
@@ -983,6 +1010,9 @@
     "Kid Pix Deluxe 3X (USA)": {
         "languages": "En"
     },
+    "Kid Pix Studio Deluxe (USA)": {
+        "languages": "En"
+    },
     "Kidou Senshi Gundam Illustration World Vol. 1 (Japan)": {
         "languages": "Ja"
     },
@@ -992,7 +1022,7 @@
     "Klik & Play (Japan)": {
         "languages": "Ja"
     },
-    "Kyoto Sennen Monogatari - Cosmology of Kyoto (Japan, USA) (En,Ja)": {
+    "Kyoto Sennen Monogatari - Cosmology of Kyoto (USA, Japan) (En,Ja)": {
         "languages": "En, Ja"
     },
     "LEGO Star Wars - The Video Game (USA)": {
@@ -1079,6 +1109,18 @@
     "Mac Board Games (USA)": {
         "languages": ""
     },
+    "Mac Power 1997-01 (Japan)": {
+        "languages": ""
+    },
+    "Mac Power 1997-03 (Japan)": {
+        "languages": ""
+    },
+    "Mac Power 1997-04 (Japan)": {
+        "languages": ""
+    },
+    "Mac Power 1998-03 (Japan)": {
+        "languages": ""
+    },
     "MacAddict - The Disc 79 - March 2003 (USA)": {
         "languages": "En"
     },
@@ -1102,6 +1144,12 @@
     },
     "MacLife 50-gou Kinen Gouka CD-ROM (Japan)": {
         "languages": ""
+    },
+    "MacLife Data-ROM Vol. 1 (Japan) (Disc 1) (CD-ROM Daizukan)": {
+        "languages": "Ja"
+    },
+    "MacLife Data-ROM Vol. 1 (Japan) (Disc 2) (NIFTY-Serve Benri-bako)": {
+        "languages": "Ja"
     },
     "MacPeople 1997 No. 12 6.15 (Japan)": {
         "languages": ""
@@ -1250,6 +1298,12 @@
     "MacPeople 1999 No. 9 5.1 (Japan)": {
         "languages": ""
     },
+    "MacPeople 2000 No. 23 12.1 (Japan)": {
+        "languages": ""
+    },
+    "MacPeople 2001 10.1 (Japan)": {
+        "languages": ""
+    },
     "MacUser - MacBin 1 (Japan)": {
         "languages": ""
     },
@@ -1310,10 +1364,19 @@
     "MacUser - MacBin 9 (Japan)": {
         "languages": ""
     },
+    "MacUser ROM Vol. 46 1997-9 (Japan)": {
+        "languages": "Ja"
+    },
     "MacWorld - 20th Anniversary - February 2004 (USA)": {
         "languages": "En"
     },
+    "Macintosh - Demo Soft Zenshuu - Shinseihin Tokushuu-gou (Japan)": {
+        "languages": ""
+    },
     "Mad Dog McCree (USA)": {
+        "languages": "En"
+    },
+    "Manhole, The (USA)": {
         "languages": "En"
     },
     "Maniac Mansion - Day of the Tentacle (France)": {
@@ -1418,6 +1481,12 @@
     "NFL Reading (USA)": {
         "languages": "En"
     },
+    "Nautilus - Intro (USA) (Alt)": {
+        "languages": "En"
+    },
+    "Nautilus - Intro (USA) (Demo)": {
+        "languages": "En"
+    },
     "Need for Speed - Carbon (USA)": {
         "languages": ""
     },
@@ -1490,6 +1559,15 @@
     "Nikkei Mac CD 2000.1 Volume 30 (Japan)": {
         "languages": ""
     },
+    "Nikkei Mac CD Vol. 2 (Japan)": {
+        "languages": "Ja"
+    },
+    "Nikkei Mac CD Vol. 3 (Japan) (En,Ja)": {
+        "languages": "En, Ja"
+    },
+    "Nikkei Mac Tokubetsu Furoku CD-ROM 1994-2-17 (Japan)": {
+        "languages": "Ja"
+    },
     "Obsidian (Japan) (Disc 1)": {
         "languages": ""
     },
@@ -1547,6 +1625,12 @@
     "Phantasmagoria (Europe) (Disc 7)": {
         "languages": "En"
     },
+    "Phonics Alive! (USA)": {
+        "languages": "En"
+    },
+    "Pop Up Computer (Japan) (En,Ja)": {
+        "languages": "En, Ja"
+    },
     "Postal (Europe) (Postal Manual)": {
         "languages": "En"
     },
@@ -1567,6 +1651,9 @@
     },
     "Puyo Puyo for Macintosh (Japan)": {
         "languages": "Ja"
+    },
+    "QROM - Bringing Teachers & Technology Together (USA) (Demo)": {
+        "languages": "En"
     },
     "Quake (Europe)": {
         "languages": "En"
@@ -1652,6 +1739,15 @@
     "San Diego Zoo Presents, The... The Animals! (USA)": {
         "languages": ""
     },
+    "Scary Poems for Rotten Kids (USA)": {
+        "languages": "En"
+    },
+    "Scary Poems for Rotten Kids (USA) (En,Es)": {
+        "languages": "En, Es"
+    },
+    "Scary Poems for Rotten Kids (USA) (En,Es) (Alt)": {
+        "languages": "En, Es"
+    },
     "Scavenger Hunt Adventure Series, The - Africa (USA)": {
         "languages": ""
     },
@@ -1663,6 +1759,9 @@
     },
     "Secret du Templier, Le (France) (Covermount)": {
         "languages": "Fr"
+    },
+    "Sesame Street - Let's Make A Word! (USA)": {
+        "languages": "En"
     },
     "Sesame Street - Numbers (USA)": {
         "languages": "En"
@@ -1712,6 +1811,9 @@
     "SimCity 4 (USA) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Ko,Pl,Th) (Disc 2)": {
         "languages": "Zh, Da, Nl, En, Fi, Fr, De, It, Ja, Ko, No, Pl, Pt, Es, Sv, Th"
     },
+    "SimCity 4 Deluxe Edition (USA)": {
+        "languages": ""
+    },
     "SimCity Enhanced CD-ROM (USA)": {
         "languages": "En"
     },
@@ -1736,10 +1838,22 @@
     "Sims, The (USA)": {
         "languages": "En"
     },
+    "Sims, The (USA) (En,Fr,De) (Rerelease)": {
+        "languages": "En, Fr, De"
+    },
     "Sims, The (USA) (Rerelease)": {
         "languages": ""
     },
+    "Sims, The - Hot Date (Expansion Pack) (USA)": {
+        "languages": ""
+    },
     "Sims, The - Livin' Large (Expansion Pack) (USA)": {
+        "languages": ""
+    },
+    "Sims, The - Superstar (Expansion Pack) (USA) (Disc 1)": {
+        "languages": ""
+    },
+    "Sims, The - Superstar (Expansion Pack) (USA) (Disc 2)": {
         "languages": ""
     },
     "Sims, The - Vacation (Expansion Pack) (USA)": {
@@ -1919,6 +2033,9 @@
     "Theme Park (Japan)": {
         "languages": ""
     },
+    "Thinkin' Science - First and Second Grades! (USA)": {
+        "languages": "En"
+    },
     "Thinkin' Things Collection 2 (USA)": {
         "languages": ""
     },
@@ -1996,6 +2113,9 @@
     },
     "Transmigration (Japan) (Disc 2) (Transcript)": {
         "languages": "Ja"
+    },
+    "Travel the World with Timmy! Deluxe (USA)": {
+        "languages": "En"
     },
     "Ukiuki Tsuri Tengoku 2 - Hato no Gomokuzuri (Japan)": {
         "languages": ""

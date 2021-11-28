@@ -1,7 +1,4 @@
 {
-    ".hack--Link (Japan)": {
-        "languages": "Ja"
-    },
     "0-ji no Kane to Cinderella - Halloween Wedding (Japan)": {
         "languages": "Ja"
     },
@@ -455,7 +452,13 @@
     "Bleach - Heat the Soul 6 (Asia)": {
         "languages": "Zh"
     },
+    "Bleach - Heat the Soul 6 (Japan)": {
+        "languages": "Ja"
+    },
     "Bleach - Heat the Soul 7 (Japan)": {
+        "languages": "Ja"
+    },
+    "Bleach - Heat the Soul 7 (Korea)": {
         "languages": "Ja"
     },
     "Bliss Island (Europe) (En,Fr,De,Es,It)": {
@@ -1025,6 +1028,9 @@
     "DJ Max Portable - Black Square (Japan)": {
         "languages": "Ja"
     },
+    "DJ Max Portable - Hot Tunes (Korea) (En,Ja,Ko)": {
+        "languages": "En, Ja, Ko"
+    },
     "DJ Max Portable 3 (USA)": {
         "languages": "En"
     },
@@ -1407,6 +1413,9 @@
         "languages": "Ja"
     },
     "Dora-Slot - Oki Slot Ou! Pioneer 12 (Japan)": {
+        "languages": "Ja"
+    },
+    "Dot Hack Link (Japan)": {
         "languages": "Ja"
     },
     "Downstream Panic! (USA)": {
@@ -2510,6 +2519,9 @@
     "Gungnir (USA)": {
         "languages": "En"
     },
+    "Gungnir - Masou no Gunshin to Eiyuu Sensou (Japan)": {
+        "languages": "Ja"
+    },
     "Gunpey (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
@@ -2753,7 +2765,7 @@
     "IL-2 Sturmovik - Birds of Prey (USA) (En,Fr)": {
         "languages": "En, Fr"
     },
-    "Idolmaster SP, The - Missing Moon (Asia)": {
+    "Idolmaster SP, The - Missing Moon (Japan, Asia)": {
         "languages": "Ja"
     },
     "Idolmaster SP, The - Perfect Sun (Japan, Asia)": {
@@ -2981,6 +2993,9 @@
     "Kameleon (Europe)": {
         "languages": "En"
     },
+    "Kamen Rider - Climax Heroes OOO (Japan)": {
+        "languages": "Ja"
+    },
     "Kamen Rider - Super Climax Heroes (Japan)": {
         "languages": "Ja"
     },
@@ -3011,13 +3026,16 @@
     "Karakuri (Japan, Asia)": {
         "languages": "Ja"
     },
-    "Katei Kyoushi Hitman Reborn! Kizuna no Tag Battle (Japan)": {
+    "Katekyoo Hitman Reborn! Kizuna no Tag Battle (Japan)": {
         "languages": "Ja"
     },
     "Kazook (Europe) (En,Fr,De,It)": {
         "languages": "En, Fr, De, It"
     },
     "Kazuo (Japan)": {
+        "languages": "Ja"
+    },
+    "Ken to Mahou to Gakuen Mono. (Japan)": {
         "languages": "Ja"
     },
     "Ken to Mahou to Gakuen Mono. 3 (Japan)": {
@@ -3059,7 +3077,7 @@
     "Kidou Senshi Gundam Seed - Rengou vs. Z.A.F.T. Portable (Japan) (Demo)": {
         "languages": "Ja"
     },
-    "Kidou Senshi Gundam Seed - Rengou vs. Z.A.F.T. Portable (Japan, Korea)": {
+    "Kidou Senshi Gundam Seed - Rengou vs. Z.A.F.T. Portable (Japan, Asia)": {
         "languages": "Ja"
     },
     "Killzone - Liberation (Europe) (En,Fr,De,Es,It,Nl,Pl,Ru)": {
@@ -3131,13 +3149,16 @@
     "Kotoba no Puzzle - Mojipittan Daijiten (Japan)": {
         "languages": "Ja"
     },
+    "Koukyou Shihen Eureka Seven (Japan)": {
+        "languages": "Ja"
+    },
     "Kuon no Kizuna - Sairinshou Portable (Japan)": {
         "languages": "Ja"
     },
     "Kurohyou - Ryu ga Gotoku Shinshou (Japan, Asia)": {
         "languages": "Ja"
     },
-    "Kuroko no Basuke - Kiseki no Game (Japan)": {
+    "Kuroko no Baske - Kiseki no Game (Japan)": {
         "languages": "Ja"
     },
     "Kuru Kuru Chameleon (Asia)": {
@@ -4163,7 +4184,7 @@
     "Napoleon Dynamite - The Game (USA)": {
         "languages": "En"
     },
-    "Naruto - Narutimate Impact (Asia)": {
+    "Naruto - Narutimate Impact (Japan, Asia)": {
         "languages": "Ja"
     },
     "Naruto - Narutimate Portable - Mugenjou no Maki (Japan)": {
@@ -4610,6 +4631,9 @@
     "Patapon 3 (Europe) (En,Fr,De,Es,It,Nl,Pt,Pl,Ru)": {
         "languages": "Nl, En, Fr, De, It, Pl, Pt, Ru, Es"
     },
+    "Patapon 3 (Japan)": {
+        "languages": "Ja"
+    },
     "Patapon 3 (USA) (En,Fr,Es,Pt)": {
         "languages": "En, Fr, Pt, Es"
     },
@@ -4665,6 +4689,9 @@
         "languages": "En"
     },
     "Phantasy Star Portable 2 (Japan)": {
+        "languages": "Ja"
+    },
+    "Phantasy Star Portable 2 (Japan) (Taikenban)": {
         "languages": "Ja"
     },
     "Phantasy Star Portable 2 (USA)": {
@@ -5033,6 +5060,9 @@
     "Rei Chou Aniki (Japan)": {
         "languages": "Ja"
     },
+    "Ren'ai Banchou 2 - Midnight Lesson!!! (Japan)": {
+        "languages": "Ja"
+    },
     "Rengoku - The Tower of Purgatory (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
@@ -5279,7 +5309,7 @@
     "Saru! Get You! P! (Japan, Asia) (v2.00)": {
         "languages": "Ja"
     },
-    "Saru! Get You! Piposaru Racer (Asia)": {
+    "Saru! Get You! Piposaru Racer (Japan, Asia)": {
         "languages": "Ja"
     },
     "Saru! Get You! SaruSaru Daisakusen (Japan)": {
@@ -5354,6 +5384,9 @@
     "Sengoku Basara - Battle Heroes (Japan)": {
         "languages": "Ja"
     },
+    "Sengoku Basara - Chronicle Heroes (Korea)": {
+        "languages": "Ja"
+    },
     "Sengoku Cannon - Sengoku Ace Episode III (Japan, Asia) (En,Ja)": {
         "languages": "En, Ja"
     },
@@ -5411,7 +5444,7 @@
     "Shin Megami Tensei - Persona 3 Portable (USA) (Trade Demo)": {
         "languages": "En"
     },
-    "Shin Sangoku Musou (Japan)": {
+    "Shin Sangoku Musou (Japan, Asia)": {
         "languages": "Ja"
     },
     "Shin Sangoku Musou - Multi Raid (Japan)": {
@@ -5490,6 +5523,9 @@
         "languages": "En, Fr, De, It, Es"
     },
     "Silent Hill Zero (Japan)": {
+        "languages": "Ja"
+    },
+    "Silhwang Powerful Pro Yagu 2011 (Korea)": {
         "languages": "Ja"
     },
     "Silverfall (Europe) (En,Fr,De,Es)": {
@@ -5780,6 +5816,9 @@
     "Starry Sky - In Spring Portable (Japan)": {
         "languages": "Ja"
     },
+    "Starry Sky - In Summer Portable (Japan)": {
+        "languages": "Ja"
+    },
     "StateShift (Europe)": {
         "languages": "En"
     },
@@ -5876,6 +5915,9 @@
     "Super Pocket Tennis (Europe)": {
         "languages": "En"
     },
+    "Super Robot Taisen A Portable (Japan)": {
+        "languages": "Ja"
+    },
     "Super Robot Taisen MX Portable (Japan)": {
         "languages": "Ja"
     },
@@ -5952,6 +5994,9 @@
         "languages": "Ja"
     },
     "Taiko no Tatsujin Portable 2 (Japan)": {
+        "languages": "Ja"
+    },
+    "Taiko no Tatsujin Portable DX (Korea)": {
         "languages": "Ja"
     },
     "Taikou Risshiden V (Japan) (v3.00)": {
@@ -6381,6 +6426,9 @@
         "languages": "Ja"
     },
     "Uta no Prince-sama - All Star (Japan)": {
+        "languages": "Ja"
+    },
+    "Uta no Prince-sama - Amazing Aria (Japan)": {
         "languages": "Ja"
     },
     "Uta no Prince-sama - Music (Japan)": {

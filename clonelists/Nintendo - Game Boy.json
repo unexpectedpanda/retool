@@ -36,6 +36,26 @@
 			"match": "short",
 			"categories": ["Applications"]
 		},
+		"InfoGenius Productivity Pak - Berlitz French Translator": {
+			"match": "short",
+			"categories": ["Applications", "Educational"]
+		},
+		"InfoGenius Productivity Pak - Berlitz Spanish Translator": {
+			"match": "short",
+			"categories": ["Applications", "Educational"]
+		},
+		"InfoGenius Productivity Pak - Frommer's Travel Guide": {
+			"match": "short",
+			"categories": ["Applications", "Educational"]
+		},
+		"InfoGenius Productivity Pak - Spell Checker and Calculator": {
+			"match": "short",
+			"categories": ["Applications"]
+		},
+		"InfoGenius Systems - Personal Organizer with Phone Book": {
+			"match": "short",
+			"categories": ["Applications"]
+		},
 		"Pro Action Replay": {
 			"match": "short",
 			"categories": ["Applications"]

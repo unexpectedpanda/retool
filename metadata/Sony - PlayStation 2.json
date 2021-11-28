@@ -101,6 +101,9 @@
     "18 Wheeler - American Pro Trucker (USA)": {
         "languages": "En"
     },
+    "187 - Ride or Die (Europe) (Demo)": {
+        "languages": "En"
+    },
     "187 - Ride or Die (Europe, Australia) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
@@ -1182,6 +1185,9 @@
         "languages": "Ja"
     },
     "Arc the Lad - Jeongryeongui Hwanghon (Korea)": {
+        "languages": "Ko"
+    },
+    "Arc the Lad - Jeongryeongui Hwanghon (Korea) (Premiere Disc)": {
         "languages": "Ko"
     },
     "Arc the Lad - Jing Ling Zhi Huang Hun (Asia)": {
@@ -2564,6 +2570,9 @@
     "Bratz - The Movie (Europe) (Es,It)": {
         "languages": "It, Es"
     },
+    "Bratz - The Movie (Europe) (Sv,Da)": {
+        "languages": "Da, Sv"
+    },
     "Bratz - The Movie (Germany)": {
         "languages": "De"
     },
@@ -3203,7 +3212,10 @@
     "Call of Duty - Finest Hour (Japan)": {
         "languages": "Ja"
     },
-    "Call of Duty - Finest Hour (USA)": {
+    "Call of Duty - Finest Hour (USA) (v1.04)": {
+        "languages": "En"
+    },
+    "Call of Duty - Finest Hour (USA) (v2.02)": {
         "languages": "En"
     },
     "Call of Duty - World at War - Final Fronts (Europe) (En,Fr,Es,It)": {
@@ -7133,6 +7145,9 @@
     "Enter the Matrix (Japan)": {
         "languages": "Ja"
     },
+    "Enter the Matrix (Taiwan)": {
+        "languages": "Ja"
+    },
     "Enter the Matrix (USA) (v1.01)": {
         "languages": "En"
     },
@@ -7481,6 +7496,9 @@
     "EyeToy - Kinetic Combat (Europe) (Beta)": {
         "languages": "En"
     },
+    "EyeToy - Kinetic Combat (Europe) (Demo)": {
+        "languages": "En"
+    },
     "EyeToy - Kinetic Combat (Europe, Australia) (En,Fr,De,Es,It,Pt,No)": {
         "languages": "En, Fr, De, It, No, Pt, Es"
     },
@@ -7564,6 +7582,9 @@
     },
     "EyeToy Play - PomPom Party (Europe, Australia) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru,El,Cs)": {
         "languages": "Cs, Da, Nl, En, Fi, Fr, De, El, It, No, Pl, Pt, Ru, Es, Sv"
+    },
+    "EyeToy Special Demo (Europe)": {
+        "languages": "En"
     },
     "Eyeshield 21 - AmeFoot Yarou ze! Ya-! Ha-! (Japan)": {
         "languages": "Ja"
@@ -8099,7 +8120,7 @@
     "Fate-stay night - Realta Nua (Japan) (Extra Edition)": {
         "languages": "Ja"
     },
-    "Fatman & Slim (Europe) (Beta)": {
+    "Fatman & Slim (Europe) (Proto)": {
         "languages": "En"
     },
     "Fear, The (Japan) (Disc 1)": {
@@ -8873,6 +8894,9 @@
     "Full Spectrum Warrior 2 - Ten Hammers (Japan)": {
         "languages": ""
     },
+    "Fullmetal Alchemist - Dream Carnival (Korea)": {
+        "languages": "Ja"
+    },
     "Fullmetal Alchemist 2 - Curse of the Crimson Elixir (USA)": {
         "languages": "En"
     },
@@ -8893,6 +8917,9 @@
     },
     "Furry Tales (Europe) (En,Fr)": {
         "languages": "En, Fr"
+    },
+    "Fushigi Yuugi - Genbu Kaiden Gaiden - Kagami no Miko (Japan)": {
+        "languages": "Ja"
     },
     "Fushigi Yuugi - Suzaku Ibun (Japan)": {
         "languages": "Ja"
@@ -9263,7 +9290,7 @@
     "GameShark 2 - Video Game Enhancer (USA) (Unl) (v1.91)": {
         "languages": "En"
     },
-    "GameShark 2 - Video Game Enhancer (USA) (Unl) (v1.93)": {
+    "GameShark 2 - Video Game Enhancer (USA) (Unl) (v1.92)": {
         "languages": "En"
     },
     "GameShark 2 - Video Game Enhancer (USA) (Unl) (v1.99c)": {
@@ -9288,6 +9315,9 @@
         "languages": "En, Fr, Pt, Es"
     },
     "GameShark 2 V2 - Video Game Enhancer (USA) (En,Fr,Es,Pt) (Unl) (v2.12)": {
+        "languages": "En, Fr, Pt, Es"
+    },
+    "GameShark 2 V2 - Video Game Enhancer (USA) (En,Fr,Es,Pt) (Unl) (v2.20)": {
         "languages": "En, Fr, Pt, Es"
     },
     "GameShark 2 V2 - Video Game Enhancer (USA) (En,Fr,Es,Pt) (Unl) (v2.21)": {
@@ -9829,6 +9859,9 @@
     },
     "Godzilla - Unleashed (USA)": {
         "languages": "En"
+    },
+    "Goehon - Gulryeora! Wangjanim! (Korea) (Cheheompan)": {
+        "languages": "Ko"
     },
     "Gofungo no Sekai (Japan)": {
         "languages": "Ja"
@@ -11690,6 +11723,9 @@
     "Hyper Street Fighter II - The Anniversary Edition (Japan) (CapKore)": {
         "languages": "Ja"
     },
+    "I-Ninja (Europe) (Demo)": {
+        "languages": ""
+    },
     "I-Ninja (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
@@ -12504,6 +12540,9 @@
         "languages": "Ko"
     },
     "Jin Yeosin Jeonsaeng III - Nocturne (Korea)": {
+        "languages": "Ko"
+    },
+    "Jin Yeosin Jeonsaeng III - Nocturne Maniax (Korea)": {
         "languages": "Ko"
     },
     "Jissen Pachi-Slot Hisshouhou! Aladdin A (Japan)": {
@@ -13379,10 +13418,10 @@
     "Kin'iro no Corda 3 (Japan)": {
         "languages": "Ja"
     },
-    "Kindan no Pet - Seaman - Gaze Hakase no Jikken-tou (Japan) (Sea-Mic Controller Doukonban)": {
+    "Kindan no Pet - Seaman - Gasse Hakase no Jikken-tou (Japan) (Sea-Mic Controller Doukonban)": {
         "languages": "Ja"
     },
-    "Kindan no Pet - Seaman - Gaze Hakase no Jikken-tou (Japan) (Sea-Mic Controller Original Doukonban)": {
+    "Kindan no Pet - Seaman - Gasse Hakase no Jikken-tou (Japan) (Sea-Mic Controller Original Doukonban)": {
         "languages": "Ja"
     },
     "Kinetica (USA)": {
@@ -15569,6 +15608,9 @@
     "Medal of Honor - Les Faucons de Guerre (France)": {
         "languages": "Fr"
     },
+    "Medal of Honor - Rising Sun (Asia)": {
+        "languages": "Zh"
+    },
     "Medal of Honor - Rising Sun (Europe, Australia) (En,It,Nl,Sv,Da)": {
         "languages": "Da, Nl, En, It, Sv"
     },
@@ -16712,6 +16754,9 @@
     "Mystic Heroes (USA)": {
         "languages": "En"
     },
+    "Mystical Ninja Goemon Zero (USA) (Beta)": {
+        "languages": "En"
+    },
     "Myth Makers - Orbs of Doom (Europe)": {
         "languages": "En"
     },
@@ -17741,6 +17786,9 @@
     "Need for Speed - Underground (Korea)": {
         "languages": "Ko"
     },
+    "Need for Speed - Underground (Korea) (Cheheompan)": {
+        "languages": "En"
+    },
     "Need for Speed - Underground (USA)": {
         "languages": "En"
     },
@@ -18353,6 +18401,9 @@
     "Nogizaka Haruka no Himitsu - Cosplay, Hajimemashita (Japan)": {
         "languages": "Ja"
     },
+    "North Wind - Eien no Yakusoku (Japan)": {
+        "languages": "Ja"
+    },
     "Nuga-Cel! Nurture Garment Celebration (Japan)": {
         "languages": "Ja"
     },
@@ -18821,7 +18872,7 @@
     "Official PlayStation 2 Magazine Demo 54 (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
-    "Official PlayStation 2 Magazine Demo 54 (France) (En,Fr,De,Es,It)": {
+    "Official PlayStation 2 Magazine Demo 54 (Europe) (En,Fr,De,Es,It) (SCED-53068)": {
         "languages": "En, Fr, De, It, Es"
     },
     "Official PlayStation 2 Magazine Demo 54 (Germany) (En,De)": {
@@ -18947,7 +18998,7 @@
     "Official PlayStation 2 Magazine Demo 67 (Germany)": {
         "languages": "De"
     },
-    "Official PlayStation 2 Magazine Demo 67 (Spain) (En,Fr,De,Es,It)": {
+    "Official PlayStation 2 Magazine Demo 67 (Spain, Portugal) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
     "Official PlayStation 2 Magazine Demo 68 (Europe) (En,Fr,De,Es,It)": {
@@ -19680,7 +19731,7 @@
         "languages": "Ja"
     },
     "Oretachi Geesen Zoku - Pooyan (Japan)": {
-        "languages": "En"
+        "languages": "Ja"
     },
     "Oretachi Geesen Zoku - Quarth (Japan)": {
         "languages": "Ja"
@@ -19691,8 +19742,14 @@
     "Oretachi Geesen Zoku - Scramble (Japan)": {
         "languages": "Ja"
     },
+    "Oretachi Geesen Zoku - Sonic Wings (Japan)": {
+        "languages": "Ja"
+    },
     "Oretachi Geesen Zoku - Super Volleyball (Japan)": {
         "languages": "En"
+    },
+    "Oretachi Geesen Zoku - Terra Cresta (Japan)": {
+        "languages": "Ja"
     },
     "Oretachi Geesen Zoku - Thunder Cross (Japan)": {
         "languages": "Ja"
@@ -20768,6 +20825,9 @@
     "Power Drome (USA)": {
         "languages": "En"
     },
+    "Power Play for PlayStation 2 (UK) (Unl)": {
+        "languages": "En"
+    },
     "Power Rangers - Dino Thunder (Europe)": {
         "languages": "En"
     },
@@ -20989,6 +21049,9 @@
     },
     "Pro Evolution Soccer (Europe) (Es,It) (v2.00)": {
         "languages": "It, Es"
+    },
+    "Pro Evolution Soccer 2 (Europe) (Demo)": {
+        "languages": "En"
     },
     "Pro Evolution Soccer 2 (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
@@ -22635,6 +22698,9 @@
         "languages": "Ja"
     },
     "SOCOM - U.S. Navy SEALs (Korea)": {
+        "languages": "Ko"
+    },
+    "SOCOM - U.S. Navy SEALs (Korea) (Cheheompan)": {
         "languages": "Ko"
     },
     "SOCOM - U.S. Navy SEALs (Korea) (SCKA-24008)": {
@@ -25640,6 +25706,9 @@
     "Sly Cooper - Jeonseolui Bibeobseoreul Chajaseo (Korea)": {
         "languages": "Ko"
     },
+    "Sly Cooper - Jeonseolui Bibeobseoreul Chajaseo (Korea) (Cheheompan)": {
+        "languages": "Ko"
+    },
     "Sly Cooper and the Thievius Raccoonus (USA)": {
         "languages": "En"
     },
@@ -27446,7 +27515,7 @@
     "Taiko no Tatsujin - Atsumare! Matsuri da!! Yondaime (Japan, Asia)": {
         "languages": "Ja"
     },
-    "Taiko no Tatsujin - Doka! to Oomori Nanadaime (Japan)": {
+    "Taiko no Tatsujin - Doka! to Oomori Nanadaime (Japan) (Tatacon Doukon Set)": {
         "languages": "Ja"
     },
     "Taiko no Tatsujin - Doki! Shinkyoku Darake no Haru Matsuri (Japan)": {
@@ -27586,6 +27655,9 @@
     },
     "Tales of Destiny - Director's Cut (Japan, Asia)": {
         "languages": "Ja"
+    },
+    "Tales of Destiny 2 (Asia)": {
+        "languages": "Zh"
     },
     "Tales of Destiny 2 (Japan) (Mega Hits!)": {
         "languages": "Ja"
@@ -30268,6 +30340,9 @@
     },
     "WinBack (Japan)": {
         "languages": "Ja"
+    },
+    "WinBack (Taiwan) (En,Ja,Zh)": {
+        "languages": "Zh, En, Ja"
     },
     "WinBack - Covert Operations (USA) (En,Ja)": {
         "languages": "En, Ja"

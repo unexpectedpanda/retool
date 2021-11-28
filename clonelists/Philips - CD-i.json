@@ -3,7 +3,7 @@
 		"name": [
 			"Philips - CD-i"
 		],
-		"last updated": "10 October 2021",
+		"last updated": "28 November 2021",
 		"minimum version": "0.89"
 	},
 
@@ -16,6 +16,9 @@
 		"Alice in Wonderland": [
 			["Alice au Pays des Merveilles", 1]
 		],
+		"Around Atlanta - The Olympic City": [
+			["Around Atlanta", 1]
+		],
 		"Asterix - Caesar's Challenge": [
 			["Asterix - El Desafio de Cesar", 1],
 			["Asterix - De Uitdaging van Caesar", 1],
@@ -25,8 +28,12 @@
 			["Asterix - O Desafio de Cesar", 1]
 		],
 		"Berenstain Bears, The - On Their Own": [
+			["Berenstain-Baeren, Die - Selbst ist der Baer", 1],
 			["Berenstain Bears, The - Bij de Berenstain Beren Thuis - Thuis en bij Jou", 1],
 			["Ours Berenstain, Les - Comme des Grands", 1]
+		],
+		"Bertelsmann Universallexikon (Fuer CD-i Player mit Digital Video Cartridge)": [
+			["Bertelsmann Universal Lexikon", 1]
 		],
 		"Burn-Cycle (Disc 1) (The Game)": [
 			["Burn-Cycle (Das Spiel)", 1],
@@ -51,13 +58,16 @@
 			["Compton's Interactive Encyclopedia", 3]
 		],
 		"Crayon Factory, The": [
+			["Krijtjesfabriek, De", 1],
+			["Malstiftfabrik, Die", 1],
 			["Usine aux Crayons, L'", 1]
 		],
 		"Dark Fables of Aesop, The": [
 			["Duistere Fabels van Aesopus, De", 1],
 			["Geheimnisvollen Fabeln von Aesop, Die", 1],
 			["Fables d'Esope I, Les", 1],
-			["Meer Duistere Fabels van Aesopus", 1]
+			["Meer Duistere Fabels van Aesopus", 1],
+			["Weitere Geheimnisvolle Fabeln von Aesop", 1]
 		],
 		"Dictionnaire Hachette Multimedia (1995) (Version Digital Video)": [
 			["Dictionnaire Hachette Multimedia (1995)", 2],
@@ -68,6 +78,12 @@
 			["Maestri Olandesi del Seicento, I", 1],
 			["Maitres de la Peinture Hollandaise, Les", 1],
 			["Niederlaendischen Meister des 17. Jahrhunderts, Die", 1]
+		],
+		"Ghost (Disc 1)": [
+			["Ghost - Nachricht von Sam (Disc 1)", 1]
+		],
+		"Ghost (Disc 2)": [
+			["Ghost - Nachricht von Sam (Disc 2)", 1]
 		],
 		"Harvest of the Sun - Van Gogh - Une Moisson de Soleils": [
 			["Ernte der Sonne - Vincent van Gogh", 1],
@@ -130,6 +146,9 @@
 		"Patriot Games (Disc 2)": [
 			["Stunde der Patrioten, Die (Disc 2)", 1]
 		],
+		"Pegasus": [
+			["Pegase", 1]
+		],
 		"Portrait of a City - Venice": [
 			["Portrait d'une Ville - Venise", 1],
 			["Ritratto di Citta - Venezia", 1]
@@ -156,7 +175,8 @@
 		],
 		"Sandy's Circus Adventure": [
 			["Aventures de Sandy au Cirque, Les", 1],
-			["Sandy's Circus Avontuur", 1]
+			["Sandy's Circus Avontuur", 1],
+			["Sandy's Zirkus Abenteuer", 1]
 		],
 		"Schoene und das Tier, Die": [
 			["Belle et la Bete, La", 1]
@@ -167,7 +187,14 @@
 		"St. Petersbourg et les Tresors de l'Ermitage - The Art of the Czars": [
 			["Arte degli Zar, L' - San Pietroburgo e i Tesori dell'Ermitage", 1]
 		],
+		"Star Trek VI - The Undiscovered Country (Disc 1)": [
+			["Star Trek VI - Das unentdeckte Land (Disc 1)", 1]
+		],
+		"Star Trek VI - The Undiscovered Country (Disc 2)": [
+			["Star Trek VI - Das unentdeckte Land (Disc 2)", 1]
+		],
 		"Story Machine - Magic Tales": [
+			["Story Maschine - Maerchenzauber", 1],
 			["Verhalen Toverdoos - Magische Vertellingen", 1]
 		],
 		"Story Machine - Star Dreams": [
@@ -192,6 +219,7 @@
 			["Tim et Ted au Port", 1]
 		],
 		"Tim et Ted a l'Hopital": [
+			["Tim & Baer im Krankenhaus", 1],
 			["Tim & Beer in het Ziekenhuis", 1]
 		],
 		"Tim & Bear at the Movies": [
@@ -204,6 +232,9 @@
 			["Time Life Presente - La Photographie 24 x 36 mm", 1],
 			["Time-Life Praesentiert - Kleinbild-Fotografie", 1]
 		],
+		"Tom - Magic Picture Show": [
+			["Tom - Il Dizionario Magico", 1]
+		],
 		"Video Speedway - The Ultimate Racing Experience": [
 			["Video Speedway - Grand Prix", 1]
 		],
@@ -215,6 +246,7 @@
 			["Zelda - Der Zauberstab von Gamelon", 1]
 		],
 		"Zombie Dinos from Planet Zeltoid": [
+			["Zombie Dinos de la Planete Zeltoide", 1],
 			["Zombie Dinos van de Planeet Zeltoid", 1],
 			["Zombie Dinos vom Planeten Zeltoid", 1]
 		]

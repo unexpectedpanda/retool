@@ -24,6 +24,10 @@
 			"match": "short",
 			"categories": ["Applications"]
 		},
+		"Orbital Diagnostic System": {
+			"match": "short",
+			"categories": ["Applications"]
+		},
 		"Sewing Machine Operation Software": {
 			"match": "short",
 			"categories": ["Applications"]

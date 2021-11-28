@@ -3,8 +3,23 @@
 		"name": [
 			"Sony - PlayStation Portable (Redump)"
 		],
-		"last updated": "22 October 2021",
-		"minimum version": "0.89"
+		"last updated": "28 November 2021",
+		"minimum version": "0.92"
+	},
+
+	"categories": {
+		"CS Kensa Disc (J1)": {
+			"match": "short",
+			"categories": ["Applications"]
+		},
+		"Game Sharing Server Disc": {
+			"match": "short",
+			"categories": ["Applications", "Preproduction"]
+		},
+		"Metal Gear Solid - Digital Graphic Novel": {
+			"match": "short",
+			"categories": ["Multimedia"]
+		}
 	},
 
 	"removes": {
@@ -36,6 +51,9 @@
 		],
 		"Artlist Collection - The Dog Happy Life - Shiawase Wanko Seikatsu Dai-1-dan": [
 			["Artlist Collection - The Dog Happy Life - Shiawase Wanko Seikatsu Dai-1-dan - McDonald's Ver.", 2]
+		],
+		"BlazBlue - Calamity Trigger": [
+			["BlazBlue - Calamity Trigger Portable", 1]
 		],
 		"Bomberman Land": [
 			["Bomberman Land Portable", 1]
@@ -78,6 +96,9 @@
 		],
 		"Championship Manager 2006": [
 			["Scudetto 2006 - Championship Manager", 1]
+		],
+		"Class of Heroes": [
+			["Ken to Mahou to Gakuen Mono.", 1]
 		],
 		"Crimson Gem Saga": [
 			["Astonishia Story 2", 1]
@@ -134,6 +155,9 @@
 		],
 		"Dragon Ball Z - Shin Budokai - Another Road": [
 			["Dragon Ball Z - Shin Budokai 2", 1]
+		],
+		"Dragon Ball Z - Tenkaichi Tag Team": [
+			["Dragon Ball Tag VS", 1]
 		],
 		"Dragoneer's Aria": [
 			["Dragoneer's Aria - Ryu ga Nemuru Made", 1]
@@ -235,6 +259,7 @@
 			["Kazuo", 1]
 		],
 		"God Eater": [
+			["Gods Eater Burst", 0],
 			["God Eater Burst", 0]
 		],
 		"God of War - Ghost of Sparta": [
@@ -258,9 +283,18 @@
 		"Gradius Collection": [
 			["Gradius Portable", 1]
 		],
+		"Gungnir": [
+			["Gungnir - Masou no Gunshin to Eiyuu Sensou", 1]
+		],
 		"Gurumin - A Monstrous Adventure": [
 			["Gurumin - Une Aventure Monstrueuse", 1],
 			["Gurumin", 1]
+		],
+		"Hakuoki - Demon of the Fleeting Blossom": [
+			["Hakuouki - Reimeiroku Portable", 1]
+		],
+		"Hakuoki - Warriors of the Shinsengumi": [
+			["Hakuouki - Yuugiroku", 1]
 		],
 		"Half-Minute Hero": [
 			["Yuusha 30", 1]
@@ -302,6 +336,9 @@
 		"Jak and Daxter - The Lost Frontier": [
 			["Jak and Daxter - The Lost Frontier (UCES-01378)", 1]
 		],
+		"Jikkyou Powerful Pro Yakyuu 2011": [
+			["Silhwang Powerful Pro Yagu 2011", 1]
+		],
 		"Kazook": [
 			["X-treme Party", 1]
 		],
@@ -318,6 +355,9 @@
 		],
 		"Legend of Heroes, The - Trails in the Sky": [
 			["Eiyuu Densetsu - Sora no Kiseki FC", 1]
+		],
+		"Legend of Heroes II, The - Prophecy of the Moonlight Witch": [
+			["Eiyuu Densetsu Gagharv Trilogy - Shiroki Majo", 1]
 		],
 		"LittleBigPlanet": [
 			["LittleBigPlanet Portable", 1]
@@ -457,6 +497,9 @@
 		"Samurai Warriors - State of War": [
 			["Geki Sengoku Musou", 1]
 		],
+		"Saru! Get You! SaruSaru Daisakusen": [
+			["Zhuo Hou La - Hou Zi Ai Zuo Zhan", 1]
+		],
 		"SBK - Superbike World Championship": [
 			["SBK 08 - Superbike World Championship", 1]
 		],
@@ -475,6 +518,9 @@
 		"Shadow of Destiny": [
 			["Shadow of Memories", 1]
 		],
+		"Shin Megami Tensei - Persona": [
+			["Persona", 1]
+		],
 		"Shin Megami Tensei - Persona 3 Portable": [
 			["P3P - Yeosin Jeonsaeng - Persona 3 Portable", 1]
 		],
@@ -489,6 +535,9 @@
 		],
 		"Smart Bomb": [
 			["Baku-No", 1]
+		],
+		"SOCOM - U.S. Navy SEALs - Fireteam Bravo 2": [
+			["SOCOM - U.S. Navy SEALs - Fireteam Bravo 2 (Press Disc)", 2]
 		],
 		"SOCOM - U.S. Navy SEALs - Fireteam Bravo 2 (Demo) (UCUS-98692)": [
 			["SOCOM - U.S. Navy SEALs - Fireteam Bravo 2 (Demo) (UCUS-98691)", 2],

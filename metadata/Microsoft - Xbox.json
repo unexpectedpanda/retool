@@ -269,6 +269,9 @@
     "Atari Anthology (World) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
+    "August 2003 External Recovery (Build 5659) (USA)": {
+        "languages": "En"
+    },
     "Auto Modellista (USA, Japan)": {
         "languages": ""
     },
@@ -1604,11 +1607,11 @@
     "DreamWorks Madagascar (USA, Europe)": {
         "languages": "En"
     },
-    "DreamWorks Over the Hedge (Europe)": {
-        "languages": "En"
-    },
     "DreamWorks Over the Hedge (Europe) (Fr,De)": {
         "languages": "Fr, De"
+    },
+    "DreamWorks Over the Hedge (USA, Europe)": {
+        "languages": "En"
     },
     "DreamWorks Shark Tale (Europe) (Fr,De)": {
         "languages": "Fr, De"
@@ -1622,11 +1625,11 @@
     "DreamWorks Shark Tale - Hajar som Hajar (Sweden)": {
         "languages": ""
     },
-    "DreamWorks Shrek - SuperSlam (Europe)": {
-        "languages": "En"
-    },
     "DreamWorks Shrek - SuperSlam (Europe) (Fr,De,Es,It,Nl)": {
         "languages": "Nl, Fr, De, It, Es"
+    },
+    "DreamWorks Shrek - SuperSlam (USA, Europe)": {
+        "languages": "En"
     },
     "Dreamfall - The Longest Journey (Europe) (En,Fr,De)": {
         "languages": "En, Fr, De"
@@ -1674,7 +1677,7 @@
         "languages": "Fr, De"
     },
     "Dynasty Warriors 4 (USA)": {
-        "languages": ""
+        "languages": "En"
     },
     "Dynasty Warriors 5 (Europe)": {
         "languages": "En"
@@ -1682,8 +1685,8 @@
     "Dynasty Warriors 5 (Europe) (Fr,De)": {
         "languages": "Fr, De"
     },
-    "Dynasty Warriors 5 (USA)": {
-        "languages": ""
+    "Dynasty Warriors 5 (USA) (En,Ja)": {
+        "languages": "En, Ja"
     },
     "ESPN College Hoops (USA)": {
         "languages": ""
@@ -4763,8 +4766,14 @@
     "Offizielle Xbox-Magazin, Das - Cover-DVD 04-2005 (Germany) (En,Fr,De,Es,It,Pt)": {
         "languages": "En, Fr, De, It, Pt, Es"
     },
+    "Offizielle Xbox-Magazin, Das - Cover-DVD 05-2004 (Germany)": {
+        "languages": "De"
+    },
     "Offizielle Xbox-Magazin, Das - Cover-DVD 05-2005 (Germany) (En,Fr,De,Es,It,Pt)": {
         "languages": "En, Fr, De, It, Pt, Es"
+    },
+    "Offizielle Xbox-Magazin, Das - Cover-DVD 06-2003 (Germany)": {
+        "languages": "De"
     },
     "Offizielle Xbox-Magazin, Das - Cover-DVD 06-2004 (Germany) (En,Fr,De,Es,It,Pt)": {
         "languages": "En, Fr, De, It, Pt, Es"
@@ -5387,11 +5396,11 @@
     "Robotech - Invasion (USA)": {
         "languages": "En"
     },
-    "Robots (Asia)": {
-        "languages": "En"
-    },
     "Robots (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
+    },
+    "Robots (USA, Asia)": {
+        "languages": "En"
     },
     "Rocky (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
@@ -5738,7 +5747,7 @@
     "Shrek 2 (Italy)": {
         "languages": "It"
     },
-    "Shrek 2 (Japan)": {
+    "Shrek 2 (USA, Japan)": {
         "languages": "En"
     },
     "Shrek Super Party (Europe) (En,Fr,De,Es,It)": {
@@ -6209,7 +6218,7 @@
     "Still Life (USA) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
-    "Stolen (Europe) (En,Fr,De,Es,It)": {
+    "Stolen (USA, Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
     "Street Fighter Anniversary Collection (Japan, Europe) (En,Ja)": {
@@ -6361,6 +6370,9 @@
     },
     "Tao Feng - Fist of the Lotus (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
+    },
+    "Tao Feng - Fist of the Lotus (USA) (Demo)": {
+        "languages": ""
     },
     "Tao Feng - Fist of the Lotus (USA, Japan)": {
         "languages": "En"
@@ -7350,6 +7362,9 @@
         "languages": ""
     },
     "Xbox Demo Disc Version 4.1 (USA)": {
+        "languages": "En"
+    },
+    "Xbox Demo Disc Version 4.2 (USA)": {
         "languages": "En"
     },
     "Xbox Demo Disc Version 4.4 (USA)": {

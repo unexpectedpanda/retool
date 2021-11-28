@@ -3,7 +3,7 @@
         "name": [
 			"Sony - PlayStation"
 		],
-        "last updated": "22 October 2021",
+        "last updated": "28 November 2021",
 		"minimum version": "0.92"
     },
 
@@ -11,6 +11,10 @@
 		"Ace Combat 3 - Electrosphere - Direct Audio with AppenDisc": {
 			"match": "short",
 			"categories": ["Audio"]
+		},
+		"Arc the Lad III (Japan) (Demo 2)": {
+			"match": "full",
+			"categories": ["Demos", "Multimedia"]
 		},
 		"Arc-en-Ciel, L' - Light my Fire": {
 			"match": "short",
@@ -714,10 +718,8 @@
 			["Capcom vs. SNK - Millennium Fight 2000 Pro", 1]
 		],
 		"Carnage Heart": [
-			["SuperLite 1500 Series - Carnage Heart", 2]
-		],
-		"Carnage Heart EZ (Easy Zapping)": [
-			["SuperLite 1500 Series - Carnage Heart EZ (Easy Zapping)", 2]
+			["Carnage Heart EZ (Easy Zapping)", 0],
+			["SuperLite 1500 Series - Carnage Heart EZ (Easy Zapping)", 0]
 		],
 		"Castlevania - Symphony of the Night": [
 			["Akumajou Dracula X - Gekka no Yasoukyoku", 1]
@@ -819,8 +821,8 @@
 			["Victory Boxing 2", 1]
 		],
 		"Contender 2": [
-			["Victory Boxing Contender", 1],
-			["Funky Boxers", 1]
+			["Funky Boxers", 1],
+			["Victory Boxing Contender", 1]
 		],
 		"Cool Boarders 2": [
 			["Cool Boarders 2 - Killing Session", 1]
@@ -1030,7 +1032,7 @@
 			["Disney Pippo Giochi Pazzi", 1]
 		],
 		"Disney's Hercules Action Game": [
-			["Disney's Action spel med Herkules", 1],
+			["Disney's Action Spel med Herkules", 1],
 			["Disney's Action Game featuring Hercules", 1],
 			["Disney's Action Game met Hercules", 1],
 			["Disney Action Game Disney Presenta Hercules", 1],
@@ -1100,12 +1102,12 @@
 			["Disneys Arielle 2", 1]
 		],
 		"Disney's Treasure Planet": [
-			["Disneys Skattkammarplaneten", 1],
 			["Disney's Piratenplaneet - De Schat van Kapitein Flint", 1],
 			["Disney El Planeta del Tesoro", 1],
 			["Disney La Planete au Tresor", 1],
 			["Disney Il Pianeta del Tesoro", 1],
 			["Disneys Skatteplaneten", 1],
+			["Disneys Skattkammarplaneten", 1],
 			["Disneys Der Schatzplanet", 1]
 		],
 		"Disney's Winnie the Pooh - Kindergarten": [
@@ -1166,11 +1168,11 @@
 		"Dragon Warrior VII (Disc 1)": [
 			["Dragon Quest VII - Eden no Senshi-tachi (Disc 1)", 1]
 		],
-		"Dragstars": [
-			["SuperLite 1500 Series - Burn Out", 1]
-		],
 		"Dragon Warrior VII (Disc 2)": [
 			["Dragon Quest VII - Eden no Senshi-tachi (Disc 2)", 1]
+		],
+		"Dragstars": [
+			["SuperLite 1500 Series - Burn Out", 1]
 		],
 		"Driver - You Are the Wheelman": [
 			["Driver", 1],
@@ -1286,9 +1288,6 @@
 		"Extreme Snow Break": [
 			["Snow Break", 1]
 		],
-		"F-1 Grand Prix 1996 - Team Un'ei Simulation": [
-			["SuperLite 1500 Series - F1 Grand Prix 1996 - Team Un'ei Simulation", 2]
-		],
 		"F.A. Premier League Football Manager 2000, The": [
 			["Bundesliga 2000 - Der Fussball-Manager", 1]
 		],
@@ -1302,6 +1301,9 @@
 		"F.A. Premier League Stars 2001, The": [
 			["Bundesliga Stars 2001", 1],
 			["LNF Stars 2001", 1]
+		],
+		"F-1 Grand Prix 1996 - Team Un'ei Simulation": [
+			["SuperLite 1500 Series - F1 Grand Prix 1996 - Team Un'ei Simulation", 2]
 		],
 		"F1 World Grand Prix": [
 			["F1 World Grand Prix - Saison 2000", 1]
@@ -1974,7 +1976,7 @@
 		"MediEvil II": [
 			["MediEvil 2", 1]
 		],
-	        "Megaman - Battle & Chase": [
+		"Megaman - Battle & Chase": [
 			["Rockman - Battle & Chase", 1]
 		],
 		"Mega Man 8": [
@@ -2465,12 +2467,12 @@
 		"Qix Neo": [
 			["Simple 1500 Series Vol. 80 - The Jintori", 1]
 		],
+		"R (Disc 1) (Shokai Genteiban)": [
+			["R", 2]
+		],
 		"R4 - Ridge Racer Type 4 (R4 + JogCon)": [
 			["Ridge Racer Type 4", 1],
 			["R4 - Ridge Racer Type 4", 2]
-		],
-		"R (Disc 1) (Shokai Genteiban)": [
-			["R", 2]
 		],
 		"Racing": [
 			["Pro Racer", 1],
@@ -2904,7 +2906,7 @@
 		],
 		"Tenchu - Stealth Assassins": [
 			["Rittai Ninja Katsugeki - Tenchu - Shinobi Gaisen", 0],
-			["Rittai Ninja Katsugeki - Tenchu", 2]
+			["Rittai Ninja Katsugeki - Tenchu", 1]
 		],
 		"Tenchu 2 - Birth of the Stealth Assassins": [
 			["Rittai Ninja Katsugeki - Tenchu 2", 1]

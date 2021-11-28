@@ -14,9 +14,6 @@
     "'Butagee' de Iinja Nai (Japan)": {
         "languages": "Ja"
     },
-    "...Iru! (Japan)": {
-        "languages": "Ja"
-    },
     "0 kara no Mahjong - Mahjong Youchien Tamago-gumi (Japan)": {
         "languages": "Ja"
     },
@@ -1251,6 +1248,9 @@
         "languages": "Ja"
     },
     "Arc the Lad III (Japan) (Demo 2)": {
+        "languages": "Ja"
+    },
+    "Arc the Lad III (Japan) (Demo 3)": {
         "languages": "Ja"
     },
     "Arc the Lad III (Japan) (Disc 1)": {
@@ -3989,7 +3989,7 @@
     "Cindy's Fashion World (Europe)": {
         "languages": "En"
     },
-    "Cinema Eikaiwa Series Dai-1-dan - Tengoku ni Ikenai Papa (Japan) (Demo)": {
+    "Cinema Eikaiwa Series - Tengoku ni Ikenai Papa (Japan) (Demo)": {
         "languages": "Ja"
     },
     "Cinema Eikaiwa Series Dai-1-dan - Tengoku ni Ikenai Papa (Japan) (Disc 1) (Joukan)": {
@@ -6437,7 +6437,7 @@
     "Disney's Action Game met Hercules (Netherlands)": {
         "languages": "Nl"
     },
-    "Disney's Action spel med Herkules (Sweden)": {
+    "Disney's Action Spel med Herkules (Sweden)": {
         "languages": "Sv"
     },
     "Disney's Aladdin in Nasira's Revenge (Europe)": {
@@ -6550,9 +6550,6 @@
     },
     "Disney's Pooh's Party Game - In Search of the Treasure (USA)": {
         "languages": "En"
-    },
-    "Disney's Skattkammarplaneten (Sweden)": {
-        "languages": "Sv"
     },
     "Disney's Spelen met Winnie de Poeh en zijn Vriendjes! (Netherlands)": {
         "languages": "Nl"
@@ -6862,6 +6859,9 @@
     },
     "Disneys Skatteplaneten (Denmark)": {
         "languages": "Da"
+    },
+    "Disneys Skattkammarplaneten (Sweden)": {
+        "languages": "Sv"
     },
     "Disneys Tarzan (Denmark)": {
         "languages": "Da"
@@ -10340,6 +10340,9 @@
     "Free Spin Demo Disc! (Europe)": {
         "languages": ""
     },
+    "Free Spin Demo Disc! Voellig Gratis Demo Disc! (Germany)": {
+        "languages": "De"
+    },
     "Free Talk Studio - Mari no Kimamana Oshaberi (Japan)": {
         "languages": "Ja"
     },
@@ -10430,7 +10433,7 @@
     "Fun + Learning (Europe) (En,De,Es,It) (Unl)": {
         "languages": "En, De, It, Es"
     },
-    "Fun + Learning (USA) (En,De,Es,It)": {
+    "Fun + Learning (USA) (En,De,Es,It) (Unl)": {
         "languages": "En, De, It, Es"
     },
     "Fun + Learning 2 (Europe) (Unl)": {
@@ -11051,7 +11054,7 @@
     "Gensou Suikoden II (Japan) (Rev 1)": {
         "languages": "Ja"
     },
-    "Gensou Suikoden II (Japan, Asia) (Demo)": {
+    "Gensou Suikoden II (Japan, Asia) (Demo) (Premium Package)": {
         "languages": "Ja"
     },
     "Gensou no Artemis (Japan)": {
@@ -13115,6 +13118,9 @@
     "Irritating Stick (USA)": {
         "languages": "En"
     },
+    "Iru! (Japan)": {
+        "languages": "Ja"
+    },
     "Ishin no Arashi (Japan)": {
         "languages": "Ja"
     },
@@ -13862,7 +13868,7 @@
     "Karat PS PS2-you Pro Action Replay CDX2 (Japan) (Unl)": {
         "languages": "Ja"
     },
-    "Karat PS PS2-you Pro Action Replay CDX2 Demo-ban (Japan)": {
+    "Karat PS PS2-you Pro Action Replay CDX2 Demo-ban (Japan) (Unl)": {
         "languages": "Ja"
     },
     "Karat PS-PS2-you Catalog & Taikenban (Japan) (Unl)": {
@@ -16835,10 +16841,10 @@
     "Metal Gear Solid (Japan) (Disc 2) (Ni)": {
         "languages": "Ja"
     },
-    "Metal Gear Solid (Japan, Asia) (Disc 1)": {
+    "Metal Gear Solid (Japan, Asia) (Disc 1) (Ichi) (Premium Package)": {
         "languages": "Ja"
     },
-    "Metal Gear Solid (Japan, Asia) (Disc 2)": {
+    "Metal Gear Solid (Japan, Asia) (Disc 2) (Ni) (Premium Package)": {
         "languages": "Ja"
     },
     "Metal Gear Solid (Spain) (Disc 1)": {
@@ -20597,6 +20603,9 @@
     "Pet in TV - With My Dear Dog (Japan)": {
         "languages": "Ja"
     },
+    "Pet in TV - With My Dear Dog (Japan) (Demo)": {
+        "languages": "Ja"
+    },
     "Peter Jacobsen's Golden Tee Golf (USA)": {
         "languages": "En"
     },
@@ -22589,13 +22598,13 @@
     "Refrain Love 2 (Japan) (Disc 2)": {
         "languages": "Ja"
     },
-    "Registered Users Demo (Europe)": {
-        "languages": "En"
-    },
-    "Registered Users Demo 02 (Europe)": {
+    "Registered User Demo 02 (Europe)": {
         "languages": "En"
     },
     "Registered Users Demo 03 (Europe)": {
+        "languages": "En"
+    },
+    "Registered Users Demo 04 (Europe)": {
         "languages": "En"
     },
     "Registered Users Demo 05 (Europe) (En,Fr,De,Es,It)": {
@@ -26660,6 +26669,9 @@
     "Super Hero Sakusen - Diedal no Yabou (Japan) (Genteiban)": {
         "languages": "Ja"
     },
+    "Super Lite Best Vol.2 - Sanvein & Bomb Boat (Korea) (En,Ko)": {
+        "languages": "En, Ko"
+    },
     "Super Live Stadium (Japan)": {
         "languages": "Ja"
     },
@@ -28223,10 +28235,10 @@
     "Time Bokan Series - Bokan desu yo (Japan)": {
         "languages": "Ja"
     },
-    "Time Bokan Series - Bokan to Ippatsu! Doronboo (Japan)": {
+    "Time Bokan Series - Bokan to Ippatsu! Doronbow (Japan)": {
         "languages": "Ja"
     },
-    "Time Bokan Series - Bokan to Ippatsu! Doronboo (Japan) (Demo)": {
+    "Time Bokan Series - Bokan to Ippatsu! Doronbow (Japan) (Demo)": {
         "languages": "Ja"
     },
     "Time Commando (Australia)": {
@@ -30443,6 +30455,9 @@
     "Water Summer (Japan)": {
         "languages": "Ja"
     },
+    "Water Summer (Japan) (Shokai Genteiban)": {
+        "languages": "Ja"
+    },
     "Wayne Gretzky's 3D Hockey '98 (Europe) (En,Fr,De,Es)": {
         "languages": "En, Fr, De, Es"
     },
@@ -31461,6 +31476,9 @@
         "languages": "Ja"
     },
     "Yamasa Digi World - Tetra Master (Japan)": {
+        "languages": "Ja"
+    },
+    "Yamasa Digi World - Tetra Master (Japan) (Demo)": {
         "languages": "Ja"
     },
     "Yamifuku Natsu - Teito Monogatari Futatabi (Japan)": {

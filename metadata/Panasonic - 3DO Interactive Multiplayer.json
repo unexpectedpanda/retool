@@ -212,7 +212,7 @@
     "Crime Patrol (USA)": {
         "languages": "En"
     },
-    "Crystal Dynamics Best Selection ~ Sample This! (Japan, USA)": {
+    "Crystal Dynamics Best Selection ~ Sample This! (USA, Japan)": {
         "languages": "En"
     },
     "CyberDillo (USA)": {
@@ -292,6 +292,9 @@
     },
     "Defcon 5 (Japan)": {
         "languages": "Ja"
+    },
+    "Defcon 5 (Korea)": {
+        "languages": "Ko"
     },
     "Demolition Man (Japan)": {
         "languages": "Ja"
@@ -413,6 +416,9 @@
     "Fire Ball!! (Japan) (Rev 1)": {
         "languages": "En"
     },
+    "Firewall (Korea)": {
+        "languages": "Ko"
+    },
     "Flashback (Europe) (En,Fr)": {
         "languages": "En, Fr"
     },
@@ -518,7 +524,7 @@
     "Hirata Shougo Interactive Ehon - Sanbiki no Kobuta (Japan) (En,Ja,Fr)": {
         "languages": "En, Fr, Ja"
     },
-    "Hirata Shougo Interactive Ehon - Shirayukihime (Japan) (En,Ja,Fr)": {
+    "Hirata Shougo Interactive Ehon - Shirayuki-hime (Japan) (En,Ja,Fr)": {
         "languages": "En, Fr, Ja"
     },
     "Hitchcock ni Chousen (Japan)": {
@@ -713,7 +719,7 @@
     "Lost Dungeon (Japan)": {
         "languages": "Ja"
     },
-    "Lost Eden (USA)": {
+    "Lost Eden (USA, Korea)": {
         "languages": "En"
     },
     "Lost Files of Sherlock Holmes, The (Europe)": {
@@ -862,6 +868,9 @@
     },
     "Off-World Interceptor (Japan)": {
         "languages": "Ja"
+    },
+    "Off-World Interceptor (Korea)": {
+        "languages": "En"
     },
     "Off-World Interceptor (USA, Europe)": {
         "languages": "En"
@@ -1043,7 +1052,7 @@
     "Pyramid Intruder (Japan)": {
         "languages": "Ja"
     },
-    "Quarantine (Japan, USA) (En,Ja,Fr,De,Es) (RE3)": {
+    "Quarantine (USA, Japan) (En,Ja,Fr,De,Es) (RE3)": {
         "languages": "En, Fr, De, Ja, Es"
     },
     "Real Pinball (Canada)": {
@@ -1208,7 +1217,7 @@
     "Sid Meier's C.P.U. Bach (USA)": {
         "languages": "En"
     },
-    "Slam 'n Jam '95 (Japan)": {
+    "Slam 'n Jam '95 (Japan, Korea)": {
         "languages": "En"
     },
     "Slam 'n Jam '95 (USA, Europe)": {
@@ -1286,7 +1295,7 @@
     "Starblade (Canada)": {
         "languages": "En"
     },
-    "Starblade (Europe, Germany)": {
+    "Starblade (Europe)": {
         "languages": "En"
     },
     "Starblade (Japan)": {

@@ -71,6 +71,9 @@
     "Amiga Computer Studio Nr 08-99 (Poland)": {
         "languages": "Pl"
     },
+    "Amiga Computing - The Weird Science Multimedia Toolkit (UK)": {
+        "languages": "En"
+    },
     "Amiga Developer CD 1.1 - May 1996 (Europe)": {
         "languages": "En"
     },
@@ -83,7 +86,19 @@
     "Amiga FD Inside! Volume 1 (Germany)": {
         "languages": "De"
     },
+    "Amiga Format Disc 1 - June 1996 (UK)": {
+        "languages": "En"
+    },
+    "Amiga Format Disc 15 - July 1997 (UK)": {
+        "languages": "En"
+    },
     "Amiga Format Disc 16 - August 1997 (UK)": {
+        "languages": "En"
+    },
+    "Amiga Format Disc 17 - September 1997 (UK)": {
+        "languages": "En"
+    },
+    "Amiga Format Disc 18 - October 1997 (UK)": {
         "languages": "En"
     },
     "Amiga Format Disc 19 - November 1997 (UK)": {
@@ -92,13 +107,79 @@
     "Amiga Format Disc 20 - December 1997 (UK)": {
         "languages": "En"
     },
+    "Amiga Format Disc 21 - Christmas 1997 (UK)": {
+        "languages": "En"
+    },
+    "Amiga Format Disc 22 - January 1998 (UK)": {
+        "languages": "En"
+    },
+    "Amiga Format Disc 24 - March 1998 (UK)": {
+        "languages": "En"
+    },
+    "Amiga Format Disc 25 - April 1998 (UK)": {
+        "languages": "En"
+    },
+    "Amiga Format Disc 26 - May 1998 (UK)": {
+        "languages": "En"
+    },
     "Amiga Format Disc 29 - August 1998 (UK)": {
+        "languages": "En"
+    },
+    "Amiga Format Disc 3 - August 1996 (UK)": {
+        "languages": "En"
+    },
+    "Amiga Format Disc 31 - October 1998 (UK)": {
+        "languages": "En"
+    },
+    "Amiga Format Disc 32 - November 1998 (UK)": {
+        "languages": "En"
+    },
+    "Amiga Format Disc 33 - December 1998 (UK)": {
+        "languages": "En"
+    },
+    "Amiga Format Disc 34 - Christmas 1998 (UK)": {
         "languages": "En"
     },
     "Amiga Format Disc 35 - January 1999 (UK)": {
         "languages": "En"
     },
+    "Amiga Format Disc 36 - February 1999 (UK)": {
+        "languages": "En"
+    },
+    "Amiga Format Disc 37 - March 1999 (UK)": {
+        "languages": "En"
+    },
+    "Amiga Format Disc 38 - April 1999 (UK)": {
+        "languages": "En"
+    },
+    "Amiga Format Disc 4 - September 1996 (UK)": {
+        "languages": "En"
+    },
+    "Amiga Format Disc 40 - June 1999 (UK)": {
+        "languages": "En"
+    },
+    "Amiga Format Disc 41 - July 1999 (UK)": {
+        "languages": "En"
+    },
+    "Amiga Format Disc 42 - August 1999 (UK)": {
+        "languages": "En"
+    },
+    "Amiga Format Disc 43 - September 1999 (UK)": {
+        "languages": "En"
+    },
     "Amiga Format Disc 44 - October 1999 (UK)": {
+        "languages": "En"
+    },
+    "Amiga Format Disc 45 - November 1999 (UK)": {
+        "languages": "En"
+    },
+    "Amiga Format Disc 46 - December 1999 (UK)": {
+        "languages": "En"
+    },
+    "Amiga Format Disc 47 - Christmas 1999 (UK)": {
+        "languages": "En"
+    },
+    "Amiga Format Disc 48 - January 2000 (UK)": {
         "languages": "En"
     },
     "Amiga Format Disc 49 - February 2000 (UK)": {
@@ -108,6 +189,9 @@
         "languages": "En"
     },
     "Amiga Format Disc 8 - Christmas 1996 (UK)": {
+        "languages": "En"
+    },
+    "Amiga Format Disc 9 - January 1997 (UK)": {
         "languages": "En"
     },
     "Amiga Games CD-ROM & Mag 12-96 (Germany)": {
@@ -950,6 +1034,9 @@
     "Emulators Unlimited Plus (Germany) (En,De)": {
         "languages": "En, De"
     },
+    "Epic Interactive Encyclopedia, The - 1998 Edition (UK)": {
+        "languages": "En"
+    },
     "Erben der Erde - Die grosse Suche (Germany)": {
         "languages": "De"
     },
@@ -1198,6 +1285,9 @@
     },
     "Spielekiste 2 (Germany)": {
         "languages": "De"
+    },
+    "Strangers, The (UK) (En,De,Es,It,Nl,Sv,No,Da,Fi,Sk)": {
+        "languages": "Da, Nl, En, Fi, De, It, No, Es, Sv"
     },
     "Tales from Heaven (Europe)": {
         "languages": "En"

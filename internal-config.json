@@ -7,7 +7,7 @@
             "These are defaults that Retool requires, don't modify this file.",
             "Check user-config.yaml for user-editable settings."
         ],
-        "last updated": "28 October 2021"
+        "last updated": "28 November 2021"
     },
 
     "ignore_tags": [
@@ -143,6 +143,7 @@
         "\\s?\\(Mega Soft\\)",
         "\\s?\\(NP\\)",
         "\\s?\\(PlayStation the Best\\)",
+        "\\s?\\(PlayStation the Best for Family\\)",
         "\\s?\\(PlayStation 2 the Best\\)",
         "\\s?\\(PlayStation 3 the Best\\)",
         "\\s?\\(Platinum\\)",

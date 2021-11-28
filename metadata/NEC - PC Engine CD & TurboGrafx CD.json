@@ -479,7 +479,7 @@
     "Ginga Ojousama Densetsu Yuna (Japan) (Demo)": {
         "languages": "Ja"
     },
-    "Ginga Ojousama Densetsu Yuna (Japan) (FABT, FACT)": {
+    "Ginga Ojousama Densetsu Yuna (Japan) (FAAT, FABT, FACT)": {
         "languages": "Ja"
     },
     "Ginga Ojousama Densetsu Yuna (Japan) (FAFT)": {
@@ -738,6 +738,9 @@
         "languages": "Ja"
     },
     "Legion (Japan)": {
+        "languages": "En"
+    },
+    "Legion (Japan) (Rev 4)": {
         "languages": "En"
     },
     "Lemmings (Japan)": {
