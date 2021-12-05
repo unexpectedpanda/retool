@@ -25,12 +25,6 @@
 	"removes": {
 		"2 Games in 1! Archer Maclean's Mercury & Mercury Meltdown": {
 			"match": "short"
-		},
-		"God Eater (Japan)": {
-			"match": "full"
-		},
-		"God Eater Burst - Append-ban (Japan)": {
-			"match": "full"
 		}
 	},
 
@@ -267,8 +261,13 @@
 		"Go! Sudoku": [
 			["Kazuo", 1]
 		],
-		"Gods Eater Burst": [
-			["God Eater Burst", 1]
+		"God Eater": [
+			["Gods Eater Burst", 0],
+			["God Eater Burst", 0]
+		],
+		"God Eater Burst - Append-ban": [
+			["Gods Eater Burst", 0],
+			["God Eater Burst", 0]
 		],
 		"God of War - Ghost of Sparta": [
 			["God of War - Koutan no Kokuin", 1]
