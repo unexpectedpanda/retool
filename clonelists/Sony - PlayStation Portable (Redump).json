@@ -29,6 +29,7 @@
 	},
 
 	"renames": {
+		"Twang": ["Yep", "What"],
 		"Ape Escape - On the Loose": [
 			["Ape Escape", 1],
 			["Piposarugetchu P", 1],
@@ -259,6 +260,10 @@
 			["Kazuo", 1]
 		],
 		"God Eater": [
+			["Gods Eater Burst", 0],
+			["God Eater Burst", 0]
+		],
+		"God Eater Burst - Append-ban": [
 			["Gods Eater Burst", 0],
 			["God Eater Burst", 0]
 		],

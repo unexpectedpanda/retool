@@ -1,0 +1,18 @@
+{
+	"description": {
+		"name": [
+			"Arcade - Namco - System 246"
+		],
+		"last updated": "22 October 2021",
+		"minimum version": "0.89"
+	},
+
+	"renames": {
+		"Kidou Senshi Z Gundam - AEUG vs. Titans DX": [
+			["Kidou Senshi Z Gundam - AEUG vs. Titans", 2]
+		]
+	}
+}
+
+
+

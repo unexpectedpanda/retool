@@ -134,6 +134,9 @@
     "Ace Combat X - Skies of Deception (USA)": {
         "languages": "En"
     },
+    "Ace Combat X2 - Joint Assault (Japan)": {
+        "languages": "Ja"
+    },
     "Aces of War (Europe)": {
         "languages": "En"
     },
@@ -195,6 +198,9 @@
         "languages": "Ja"
     },
     "Angelique - Maren no Rokukishi (Japan)": {
+        "languages": "Ja"
+    },
+    "Another Century's Episode Portable (Japan)": {
         "languages": "Ja"
     },
     "Ape Academy (Europe) (En,Fr,De,Es,It)": {
@@ -404,6 +410,9 @@
     "Black Rock Shooter - The Game (Japan)": {
         "languages": "Ja"
     },
+    "Black Wolves Saga - Last Hope (Japan)": {
+        "languages": "Ja"
+    },
     "Blade Dancer - Lineage of Light (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
@@ -481,6 +490,9 @@
     },
     "Blood Bowl (USA)": {
         "languages": ""
+    },
+    "Boku no Natsuyasumi 4 - Setouchi Shounen Tanteidan - Boku to Himitsu no Chizu (Japan)": {
+        "languages": "Ja"
     },
     "Boku no Watashi no Katamari Damacy (Japan)": {
         "languages": "Ja"
@@ -1052,6 +1064,9 @@
     "Daito Giken Koushiki Pachi-Slot Simulator - Ossu! Banchou Portable (Japan)": {
         "languages": "Ja"
     },
+    "Daito Giken Koushiki Pachi-Slot Simulator - Ossu! Misao, Maguro Densetsu Portable (Japan)": {
+        "languages": "Ja"
+    },
     "Danball Senki (Japan)": {
         "languages": "Ja"
     },
@@ -1194,6 +1209,9 @@
         "languages": "Ja"
     },
     "Diabolik Lovers - More, Blood (Japan)": {
+        "languages": "Ja"
+    },
+    "Digimon Adventure (Japan)": {
         "languages": "Ja"
     },
     "Digimon World Re-Digitize (Japan)": {
@@ -1952,6 +1970,9 @@
     "Fading Shadows (USA) (En,Fr,De,Es,It,Nl,Ru)": {
         "languages": "Nl, En, Fr, De, It, Ru, Es"
     },
+    "Fairy Tail - Portable Guild (Japan)": {
+        "languages": "Ja"
+    },
     "Fairy Tail - Zerefu Kakusei (Japan)": {
         "languages": "Ja"
     },
@@ -2504,6 +2525,9 @@
     "Gundam Assault Survive (Japan)": {
         "languages": "Ja"
     },
+    "Gundam Battle Chronicle (Japan)": {
+        "languages": "Ja"
+    },
     "Gundam Battle Royale (Japan, Asia)": {
         "languages": "Ja"
     },
@@ -2687,6 +2711,9 @@
     "Hello Kitty - Puzzle Party (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
+    "Heroes Phantasia (Japan)": {
+        "languages": "Ja"
+    },
     "Herr der Ringe, Der - Taktiken (Germany)": {
         "languages": "De"
     },
@@ -2774,7 +2801,13 @@
     "Idolmaster SP, The - Wandering Star (Japan, Asia)": {
         "languages": "Ja"
     },
+    "Idolmaster Shiny Festa, The - Funky Note (Japan)": {
+        "languages": "Ja"
+    },
     "Idolmaster Shiny Festa, The - Groovy Tune (Japan)": {
+        "languages": "Ja"
+    },
+    "Idolmaster Shiny Festa, The - Honey Sound (Japan)": {
         "languages": "Ja"
     },
     "Imagine - Champion Rider (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da)": {
@@ -3026,6 +3059,9 @@
     "Karakuri (Japan, Asia)": {
         "languages": "Ja"
     },
+    "Katekyoo Hitman Reborn! Battle Arena 2 - Spirits Burst (Japan)": {
+        "languages": "Ja"
+    },
     "Katekyoo Hitman Reborn! Kizuna no Tag Battle (Japan)": {
         "languages": "Ja"
     },
@@ -3051,6 +3087,9 @@
         "languages": "Ja"
     },
     "Kenka Banchou 4 - Ichinen Sensou (Japan, Asia)": {
+        "languages": "Ja"
+    },
+    "Kenka Banchou Bros. Tokyo Battle Royale (Japan)": {
         "languages": "Ja"
     },
     "Key of Heaven (Europe) (En,Fr,De,Es,It)": {
@@ -3156,6 +3195,9 @@
         "languages": "Ja"
     },
     "Kurohyou - Ryu ga Gotoku Shinshou (Japan, Asia)": {
+        "languages": "Ja"
+    },
+    "Kurohyou 2 - Ryu ga Gotoku Ashura-hen (Japan)": {
         "languages": "Ja"
     },
     "Kuroko no Baske - Kiseki no Game (Japan)": {
@@ -3334,6 +3376,9 @@
     },
     "LocoRoco 2 (USA) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Ko,Ru)": {
         "languages": "Da, Nl, En, Fi, Fr, De, It, Ja, Ko, No, Pt, Ru, Es, Sv"
+    },
+    "Lord of Apocalypse (Japan)": {
+        "languages": "Ja"
     },
     "Lord of Arcana (Europe) (En,Fr,De,Es)": {
         "languages": "En, Fr, De, Es"
@@ -4133,6 +4178,9 @@
     "NBA Street Showdown (USA)": {
         "languages": "En"
     },
+    "NCAA Football 07 (USA)": {
+        "languages": ""
+    },
     "NCAA Football 07 (USA) (v2.00)": {
         "languages": "En"
     },
@@ -4570,6 +4618,9 @@
     },
     "Pangya - Fantasy Golf (USA)": {
         "languages": "En"
+    },
+    "Panic Palette Portable (Japan)": {
+        "languages": "Ja"
     },
     "Parodius Portable (Japan)": {
         "languages": "Ja"
@@ -5741,6 +5792,9 @@
     "Star Ocean - Second Evolution (Europe)": {
         "languages": "En"
     },
+    "Star Ocean - Second Evolution (Japan)": {
+        "languages": "Ja"
+    },
     "Star Ocean - Second Evolution (USA)": {
         "languages": "En"
     },
@@ -6287,6 +6341,9 @@
     "Tony Hawk's Underground 2 Remix (USA)": {
         "languages": "En"
     },
+    "Toriko - Gourmet Survival (Japan)": {
+        "languages": "Ja"
+    },
     "Toriko - Gourmet Survival! 2 (Japan)": {
         "languages": "Ja"
     },
@@ -6674,6 +6731,9 @@
     "Winning Post 7 2010 (Japan)": {
         "languages": "Ja"
     },
+    "Winning Post 7 2012 (Japan)": {
+        "languages": "Ja"
+    },
     "Winx Club - Join the Club (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
@@ -6877,6 +6937,9 @@
     },
     "Yarudora Portable - Sampaguita (Asia)": {
         "languages": "Zh"
+    },
+    "Yggdra Union (Japan)": {
+        "languages": "Ja"
     },
     "Yggdra Union (Japan) (Taikenban)": {
         "languages": "Ja"

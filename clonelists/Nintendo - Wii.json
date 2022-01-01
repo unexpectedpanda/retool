@@ -1,0 +1,1346 @@
+{
+	"description": {
+		"name": [
+			"Nintendo - Wii"
+		],
+		"last updated": "22 October 2021",
+		"minimum version": "0.89"
+	},
+
+	"overrides": {
+		"Super Swing Golf (Europe)": {
+			"new group": "Super Swing Golf Season 2",
+			"match": "tag free"
+		},
+		"Who Wants to Be a Millionaire (Europe) (En,Fr,De,Es,It,Nl)": {
+			"new group": "Who Wants to Be a Millionaire (Europe)",
+			"match": "tag free"
+		}
+	},
+
+	"removes": {
+		"DreamWorks The Croods - Prehistoric Party! & Rise of the Guardians - Combo Pack (Europe) (En,Fr,De,Es,It)": {},
+		"Mama's 2-Pack (USA)": {}
+	},
+
+	"renames": {
+		"007 - Quantum of Solace": [
+			["007 - Nagusame no Houshuu", 1]
+		],
+		"101-in-1 Party Megamix": [
+			["101-in-1 Party Megamix Wii", 1]
+		],
+		"2010 FIFA World Cup South Africa": [
+			["2010 FIFA World Cup - Minami Africa Taikai", 1]
+		],
+		"AC-DC Live - Rock Band Track Pack": [
+			["AC-DC Live - Rock Band", 1]
+		],
+		"Academy of Champions - Soccer": [
+			["Academy of Champions - Football", 1]
+		],
+		"Active Life - Explorer": [
+			["Family Trainer - Treasure Adventure", 1],
+			["Minna de Bouken! Family Trainer", 1]
+		],
+		"Active Life - Extreme Challenge": [
+			["Family Trainer - Extreme Challenge", 1],
+			["Family Trainer 2", 1]
+		],
+		"Active Life - Magical Carnival": [
+			["Family Trainer - Magical Carnival", 1]
+		],
+		"Active Life - Outdoor Challenge": [
+			["Family Trainer", 1]
+		],
+		"Adventures of Tintin, The - The Game": [
+			["Adventures of Tintin, The - The Secret of the Unicorn", 1]
+		],
+		"Aladdin Magic Racer": [
+			["Aladin Magic Racer", 1]
+		],
+		"All Star Cheer Squad": [
+			["All Star Cheerleader", 1]
+		],
+		"All Star Cheer Squad 2": [
+			["All Star Cheerleader 2", 1]
+		],
+		"American Mensa Academy": [
+			["Mensa Academy", 1]
+		],
+		"Animal Crossing - City Folk": [
+			["Animal Crossing - Let's Go to the City", 1],
+			["Machi e Ikou yo - Doubutsu no Mori", 1],
+			["Tauneuro Nolleogayo - Dongmurui Sup", 1]
+		],
+		"Animal Kingdom - Wildlife Expedition": [
+			["Doubutsu Kisoutengai! Nazo no Rakuen de Scoop Shashin o Gekisha Seyo!", 1],
+			["Safar'Wii", 1]
+		],
+		"Another Code R - A Journey into Lost Memories": [
+			["Another Code R - Kioku no Tobira", 1]
+		],
+		"Artlist Collection - The Dog Island": [
+			["Artlist Collection - The Dog Island - Hitotsu no Hana no Monogatari", 1]
+		],
+		"Ashes Cricket 2009": [
+			["Cricket", 1]
+		],
+		"Babysitting Mama": [
+			["Cooking Mama World - Babysitting Mama", 1],
+			["Babysitter Mama", 1]
+		],
+		"Balloon Pop": [
+			["Pop!", 1],
+			["Rainbow Pop", 1]
+		],
+		"Barbie - Groom and Glam Pups": [
+			["Barbie - Groom and Glam Pups (SB9P)", 1],
+			["Barbie - Groom and Glam Pups (SB9Y)", 2]
+		],
+		"Barbie - Jet, Set & Style!": [
+			["Barbie - Jet, Set & Style! (S3EP)", 1],
+			["Barbie - Jet, Set & Style! (S3EX)", 1]
+		],
+		"Baroque": [
+			["Baroque for Wii", 1]
+		],
+		"Bass Pro Shops - The Hunt": [
+			["Bass Pro Shops - The Hunt - Trophy Showdown", 0]
+		],
+		"Bass Pro Shops - The Strike": [
+			["Bass Pro Shops - The Strike - Tournament Edition", 0]
+		],
+		"Battle of Giants - Dinosaurs Strike": [
+			["Combat of Giants - Dinosaurs Strike", 1]
+		],
+		"Battalion Wars 2": [
+			["Totsugeki!! Famicom Wars VS", 1]
+		],
+		"Beyblade - Metal Fusion - Battle Fortress": [
+			["Beyblade - Metal Fusion - Counter Leone", 1],
+			["Metal Fight Beyblade - Gachinko Stadium", 1]
+		],
+		"Bermuda Triangle - Saving the Coral": [
+			["Bermuda Triangle", 1]
+		],
+		"Big Brain Academy - Wii Degree": [
+			["Big Brain Academy for Wii", 1],
+			["Wii de Yawaraka Atama Juku", 1],
+			["Wiiro Dahamkke! Mallangmallang Dunoegyosil", 1]
+		],
+		"Big League Sports": [
+			["World Championship Sports", 1]
+		],
+		"Big League Sports - Summer": [
+			["World Championship Sports - Summer", 1]
+		],
+		"Bigs 2, The": [
+			["Bigs 2, The - Baseball", 1]
+		],
+		"Birthday Party Bash": [
+			["It's My Birthday", 1]
+		],
+		"Black Eyed Peas Experience, The": [
+			["Black Eyed Peas Experience, The (Limited Edition)", 0],
+			["Black Eyed Peas Experience, The (Special Edition)", 0]
+		],
+		"Black Eyed Peas Experience, The (Limited Edition)": [
+			["Black Eyed Peas Experience, The (Special Edition)", 1]
+		],
+		"Bleach - Shattered Blade": [
+			["Bleach Wii - Hakujin Kirameku Rondo", 1]
+		],
+		"Bomberman Land": [
+			["Bomberman Land Wii", 1]
+		],
+		"Bratz Kidz": [
+			["Bratz Kidz - Party", 1]
+		],
+		"Brothers in Arms - Double Time (Disc 1) (Brothers in Arms - Road to Hill 30)": [
+			["Brothers in Arms - Road to Hill 30", 1]
+		],
+		"Brothers in Arms - Double Time (Disc 2) (Brothers in Arms - Earned in Blood)": [
+			["Brothers in Arms - Earned in Blood", 1]
+		],
+		"Bust-A-Move Bash!": [
+			["Bust-A-Move", 1]
+		],
+		"Cabela's Dangerous Hunts 2009": [
+			["Cabela's Dangerous Adventures", 1]
+		],
+		"Cages, The - Pro Style Batting Practice": [
+			["Nihon Yakyuu Kikou Shounin - Batting Revolution", 1]
+		],
+		"Calling": [
+			["Calling - Kuroki Chakushin", 1]
+		],
+		"Calvin Tucker's Redneck Farm Animals Racing Tournament": [
+			["Calvin Tucker's Farm Animal Racing", 1]
+		],
+		"Carnival Games": [
+			["Carnival Funfair Games", 1]
+		],
+		"Case Closed - The Mirapolis Investigation": [
+			["Meitantei Conan - Tsuioku no Mirage", 1],
+			["Myeongtamjeong Conan - Chueogui Hwansang", 1]
+		],
+		"Castle of Shikigami III": [
+			["Shikigami no Shiro III", 1]
+		],
+		"Castlevania Judgment": [
+			["Akumajou Dracula Judgment", 1]
+		],
+		"Celebrity Sports Showdown": [
+			["Tournoi des Celebrites, Le", 1]
+		],
+		"Champion Jockey - G1 Jockey & Gallop Racer": [
+			["Champion Jockey - Gallop Racer & GI Jockey", 1]
+		],
+		"Championship Foosball": [
+			["Table Football", 1]
+		],
+		"Charm Girls Club - Pajama Party": [
+			["Charm Girls Club - Pyjama Party", 1]
+		],
+		"Chronicles of Narnia, The - Prince Caspian": [
+			["Narnia Koku Monogatari - Dai-2 Shou - Caspian Ouji no Tsunobue", 1]
+		],
+		"Circus Games": [
+			["Funfair Party", 1]
+		],
+		"Cook Wars": [
+			["Cooking Party", 1]
+		],
+		"Cooking Mama - Cook Off": [
+			["Cooking Mama", 1],
+			["Cooking Mama - Minna to Issho ni Oryouri Taikai!", 1]
+		],
+		"Cooking Mama - World Kitchen": [
+			["Cooking Mama 2 - World Kitchen", 1],
+			["Cooking Mama 2 - Taihen!! Mama wa Ooisogashi!", 1]
+		],
+		"Countdown - The Game": [
+			["Chiffres & Des Lettres, Des - Le Jeu Officiel", 1]
+		],
+		"Crayon Shin-chan - Saikyou Kazoku Kasukabe King Wii": [
+			["Shin Chan - Las Nuevas Aventuras para Wii!", 1]
+		],
+		"Crazy Mini Golf 2": [
+			["Kidz Sports Crazy Mini Golf 2", 1]
+		],
+		"Crown of Midas, The": [
+			["Galileo Mystery - Die Krone des Midas", 1]
+		],
+		"Cruise Ship Vacation Games": [
+			["Cruise Ship Resort", 1],
+			["Holiday Games", 1]
+		],
+		"Dance Dance Revolution": [
+			["Dance Dance Revolution - Hottest Party 4", 1]
+		],
+		"Dance Dance Revolution - Hottest Party": [
+			["Dancing Stage - Hottest Party", 1]
+		],
+		"Dance Dance Revolution - Hottest Party 2": [
+			["Dance Dance Revolution - Furu Furu Party", 1]
+		],
+		"Dance Dance Revolution II": [
+			["Dance Dance Revolution - Hottest Party 5", 1]
+		],
+		"Dawn of Discovery": [
+			["Anno - Create a New World", 1]
+		],
+		"de Blob": [
+			["Blob - Colorful na Kibou", 1],
+			["de Blob - Color Revolution", 1]
+		],
+		"Dead Rising - Chop Till You Drop": [
+			["Dead Rising - Zombie no Ikenie", 1]
+		],
+		"Deal or No Deal": [
+			["Deal or No Deal - Special Edition", 0]
+		],
+		"Deal or No Deal - The Banker Is Back": [
+			["Deal or no Deal - Der Banker schlaegt zurueck", 1]
+		],
+		"Deca Sports": [
+			["Deca Sporta - Wii de Sports 10 Shumoku!", 1],
+			["Deca Sporta - Wiiro Jeulgineun Sports 10 Jongmok!", 1],
+			["Sports Island", 1]
+		],
+		"Deca Sports 2": [
+			["Deca Sporta 2 - Wii de Sports 10 Shumoku!", 1],
+			["Sports Island 2", 1]
+		],
+		"Deca Sports 3": [
+			["Deca Sporta 3 - Wii de Sports 10 Shumoku!", 1],
+			["Sports Island 3", 1]
+		],
+		"Dewy's Adventure": [
+			["Dewy's Adventure - Suishou Dewy no Daibouken!!", 1]
+		],
+		"DiRT 2": [
+			["Colin McRae - DiRT 2", 1]
+		],
+		"Disney-Pixar Cars 2": [
+			["Disney - Pixar Arabalar 2", 1]
+		],
+		"Disney-Pixar Ratatouille": [
+			["Disney-Pixar Remy no Oishii Restaurant", 1]
+		],
+		"Disney-Pixar Toy Story 3": [
+			["Disney-Pixar Toy Story 3 (Toy Box Special Edition)", 0]
+		],
+		"Disney-Pixar Up": [
+			["Disney-Pixar Carl Jiisan no Soratobu Ie", 1],
+			["Disney-Pixar Oben", 1]
+		],
+		"Disney-Pixar WALL-E": [
+			["Disney-Pixar WALL-E - Der Letzte raeumt die Erde auf", 1]
+		],
+		"Disney Epic Mickey": [
+			["Disney Epic Mickey - Mickey Mouse to Mahou no Fude", 1]
+		],
+		"Disney Epic Mickey 2 - The Power of Two": [
+			["Disney Epic Mickey 2 - Futatsu no Chikara", 1]
+		],
+		"Disney High School Musical 3 - Senior Year Dance!": [
+			["Disney High School Musical Dance!", 1]
+		],
+		"Disney Princess - Enchanted Journey": [
+			["Disney Princess - Mahou no Sekai e", 1]
+		],
+		"Disney The Princess and the Frog": [
+			["Disney The Princess and the Frog (Riverboat Jazz Edition)", 0]
+		],
+		"Disney Think Fast": [
+			["Disney Think - Das Schnelldenker-Quiz", 1],
+			["Disney Think - Haya Oshi Quiz", 1],
+			["Disney Think Fast - The Quiz Game", 1]
+		],
+		"Disney TRON - Evolution - Battle Grids": [
+			["Disney TRON - Evolution - Battle Grids (Championship Edition)", 0]
+		],
+		"Diva Girls - Divas on Ice": [
+			["Diva Girls - Princess on Ice", 1]
+		],
+		"Dokapon Kingdom": [
+			["Dokapon Kingdom for Wii", 1]
+		],
+		"Domino Rally": [
+			["Go! Go! Minon", 1],
+			["Minon - Everyday Hero", 1]
+		],
+		"Donkey Kong - Barrel Blast": [
+			["Donkey Kong - Jet Race", 1],
+			["Donkey Kong Taru Jet Race", 1]
+		],
+		"Donkey Kong Country Returns": [
+			["Donkey Kong Returns", 1]
+		],
+		"Dragon Ball - Revenge of King Piccolo": [
+			["Dragon Ball - Tenkaichi Daibouken", 1]
+		],
+		"Dragon Ball Z - Budokai Tenkaichi 2": [
+			["Dragon Ball Z - Sparking! Neo", 1]
+		],
+		"Dragon Ball Z - Budokai Tenkaichi 3": [
+			["Dragon Ball Z - Sparking! Meteor", 1]
+		],
+		"Dragon Blade - Wrath of Fire": [
+			["Dragon Blade", 1]
+		],
+		"Dragon Quest Swords - The Masked Queen and the Tower of Mirrors": [
+			["Dragon Quest Swords - Kamen no Joou to Kagami no Tou", 1]
+		],
+		"DreamWorks Kung Fu Panda 2 (SKUE)": [
+			["DreamWorks Kung Fu Panda 2", 1]
+		],
+		"DreamWorks Madagascar - Escape 2 Africa": [
+			["DreamWorks Madagaskar 2", 1]
+		],
+		"DreamWorks Madagascar 3 - The Video Game": [
+			["DreamWorks Madagascar 3 - Europe's Most Wanted", 1]
+		],
+		"DreamWorks Shrek Forever After": [
+			["DreamWorks Shrek e Vissero Felici e Contenti", 1]
+		],
+		"EA Playground": [
+			["Playground - Kouen de Asobou!", 1]
+		],
+		"EA Sports Active - More Workouts": [
+			["EA Sports Active - Personal Trainer Wii - 6-shuukan Shuuchuu Hikishime Program", 1]
+		],
+		"EA Sports Active - Personal Trainer": [
+			["EA Sports Active - Personal Trainer Wii - 30-nichi Seikatsu Kaizen Program", 1]
+		],
+		"Elebits": [
+			["Eledees", 1]
+		],
+		"Endless Ocean": [
+			["Forever Blue", 1]
+		],
+		"Endless Ocean - Blue World": [
+			["Endless Ocean 2 - Adventures of the Deep", 1],
+			["Forever Blue - Umi no Yobigoe", 1]
+		],
+		"Escape from Bug Island": [
+			["Necro-Nesia", 1]
+		],
+		"ExciteBots - Trick Racing": [
+			["Excite Mou Machine", 1]
+		],
+		"ExerBeat": [
+			["ExerBeat - Gym Class Workout", 1]
+		],
+		"Family Party - 30 Great Games": [
+			["Simple 2000 Series Wii Vol. 2 - The Party Game", 1]
+		],
+		"Family Party - Fitness Fun": [
+			["Fitness Party", 1]
+		],
+		"Family Quiz": [
+			["Galileo Family Quiz", 1]
+		],
+		"Fast Food Panic": [
+			["Takumi Restaurant wa Daihanjou!", 1]
+		],
+		"FIFA 15": [
+			["FIFA 15 - Legacy Edition", 1]
+		],
+		"FIFA Soccer 08": [
+			["FIFA 08", 1],
+			["FIFA 08 - World Class Soccer", 1]
+		],
+		"FIFA Soccer 09 - All-Play": [
+			["FIFA 09 - All-Play", 1]
+		],
+		"FIFA Soccer 10": [
+			["FIFA 10", 1],
+			["FIFA 10 - World Class Soccer", 1]
+		],
+		"FIFA Soccer 11": [
+			["FIFA 11", 1]
+		],
+		"FIFA Soccer 12": [
+			["FIFA 12", 1]
+		],
+		"FIFA Soccer 13": [
+			["FIFA 13", 1]
+		],
+		"FIFA 14 - Legacy Edition": [
+			["FIFA 14", 1]
+		],
+		"Final Fantasy Fables - Chocobo's Dungeon": [
+			["Chocobo no Fushigi na Dungeon - Toki-wasure no Meikyuu", 1]
+		],
+		"Fire Emblem - Radiant Dawn": [
+			["Fire Emblem - Akatsuki no Megami", 1]
+		],
+		"Fishing Master": [
+			["Mezase!! Tsuri Master", 1]
+		],
+		"Fishing Master World Tour": [
+			["Mezase!! Tsuri Master - Sekai ni Challenge! Hen", 1]
+		],
+		"Fishing Resort": [
+			["Family Fishing", 1]
+		],
+		"Fit in Six": [
+			["Fit in Six - Karada o Kitaeru 6-tsu no Youso", 1]
+		],
+		"FlingSmash": [
+			["Tataite Hazumu - Super Smash Ball Plus", 1]
+		],
+		"Ford Racing - Off Road": [
+			["Off Road", 1]
+		],
+		"Fortune Street": [
+			["Boom Street", 1],
+			["Itadaki Street Wii", 1]
+		],
+		"Fragile Dreams - Farewell Ruins of the Moon": [
+			["Fragile - Sayonara Tsuki no Haikyo", 1]
+		],
+		"Fit & Fun - Your Virtual Personal Coach": [
+			["Fit for Fun", 1]
+		],
+		"Freddi Fish - Kelp Seed Mystery": [
+			["Freddi Fish - The Case of the Missing Kelp Seeds", 1]
+		],
+		"G1 Jockey Wii": [
+			["GI Jockey Wii", 1]
+		],
+		"G1 Jockey Wii 2008": [
+			["GI Jockey Wii 2008", 1]
+		],
+		"Game Party 2": [
+			["More Game Party", 1]
+		],
+		"George of the Jungle and the Search for the Secret": [
+			["George of the Jungle", 1]
+		],
+		"Glacier 3 - The Meltdown": [
+			["Glacier 3", 1]
+		],
+		"Godfather, The - Blackhand Edition": [
+			["Padrino, El - El Chantaje", 1],
+			["Padrino, Il - Blackhand Edition", 1],
+			["Parrain, Le - Pouvoir et Manipulation", 1]
+		],
+		"Gold's Gym - Cardio Workout": [
+			["My Fitness Coach - Cardio Workout", 1],
+			["Shape Boxing - Wii de Enjoy Diet!", 1]
+		],
+		"Gold's Gym - Dance Workout": [
+			["My Fitness Coach - Dance Workout", 1],
+			["Shape Boxing 2 - Wii de Enjoy Diet!", 1]
+		],
+		"GTI Club Supermini Festa!": [
+			["GTI Club - World City Race", 1]
+		],
+		"Guitar Hero - Smash Hits": [
+			["Guitar Hero - Greatest Hits", 1]
+		],
+		"Gunslingers": [
+			["Western Heroes", 1]
+		],
+		"Harry Potter and the Half-Blood Prince": [
+			["Harry Potterwa Honhyeor-wangja", 1]
+		],
+		"Harry Potter and the Order of the Phoenix": [
+			["Harry Potter to Fushichou no Kishidan", 1]
+		],
+		"Harvest Moon - Animal Parade": [
+			["Bokujou Monogatari - Waku Waku Animal March", 1]
+		],
+		"Harvest Moon - Tree of Tranquility": [
+			["Bokujou Monogatari - Yasuragi no Ki", 1]
+		],
+		"Hasbro Family Game Night": [
+			["Hasbro Family Party", 1]
+		],
+		"Hasbro Family Game Night 2": [
+			["Hasbro Family Game Night Vol 2", 1]
+		],
+		"Hasbro Family Game Night 3": [
+			["Hasbro Family Game Night Vol 3", 1]
+		],
+		"Heavenly Guardian": [
+			["Legend of Sayuki", 1],
+			["Yukinko Daisenpuu - Sayuki to Koyuki no Hie Hie Daisoudou", 1]
+		],
+		"Help Wanted": [
+			["Hataraku Hito", 1],
+			["Job Island", 1]
+		],
+		"Honda ATV Fever": [
+			["ATV Fever", 1]
+		],
+		"Hooked! Real Motion Fishing": [
+			["Bass Fishing Wii - Rokumaru Densetsu", 1],
+			["Big Catch - Bass Fishing", 1]
+		],
+		"Hooked! Again - Real Motion Fishing": [
+			["Bass Fishing Wii - World Tournament", 1],
+			["Big Catch - Bass Fishing 2", 1]
+		],
+		"Horse & Pony - My Riding Stables": [
+			["Paard & Pony - Mijn Paardenstal - Al Jouw Ruiterdromen Komen Uit!", 1]
+		],
+		"Horse Life Adventures": [
+			["Horse Life 2", 1]
+		],
+		"Ice Age - Dawn of the Dinosaurs": [
+			["Era Glaciale 3, L' - L'Alba dei Dinosauri", 1],
+			["Ice Age 3 - Dawn of the Dinosaurs", 1]
+		],
+		"Ice Age - Continental Drift - Arctic Games": [
+			["Era Glaciale 4, L' - Continenti alla Deriva - Giochi Polari", 1],
+			["Ice Age 4 - Continental Drift - Arctic Games", 1]
+		],
+		"Imagine - Fashion Party": [
+			["Imagine - Fashion Idol", 1]
+		],
+		"Imagine - Party Babyz": [
+			["Babysitting Party", 1]
+		],
+		"Iron Man 2": [
+			["Iron Man 2 (Walmart)", 0]
+		],
+		"Jambo! Safari - Animal Rescue": [
+			["Jambo! Safari - Ranger Adventure", 1]
+		],
+		"Jelly Belly - Ballistic Beans": [
+			["Jelly Belly - Ballistic Beans!", 1]
+		],
+		"Ju-on - The Grudge - Haunted House Simulator": [
+			["Ju-on - The Grudge", 1],
+			["Kyoufu Taikan - Juon", 1]
+		],
+		"Just Dance 2": [
+			["Just Dance 2 (Best Buy Edition)", 0]
+		],
+		"Just Dance 3": [
+			["Just Dance 3 (Best Buy)", 0],
+			["Just Dance 3 (Special Edition)", 0]
+		],
+		"Just Dance 3 (Best Buy)": [
+			["Just Dance 3 (Special Edition)", 1]
+		],
+		"Just Dance 4": [
+			["Just Dance 4 (Special Edition)", 1]
+		],
+		"Just Dance Kids": [
+			["Dance Juniors", 1]
+		],
+		"Karaoke Joysound": [
+			["Karaoke Joysound Wii", 1]
+		],
+		"Kawasaki Snowmobiles": [
+			["Kawasaki Snow Mobiles", 1]
+		],
+		"Kid Adventures - Sky Captain": [
+			["Stunt Flyer - Hero of the Skies", 1]
+		],
+		"Kidz Sports Crazy Golf": [
+			["Kidz Sports Crazy Mini Golf", 1]
+		],
+		"Kidz Sports International Soccer": [
+			["Kidz Sports International Football", 1]
+		],
+		"Kirby's Dream Collection - Special Edition": [
+			["Hoshi no Kirby - 20 Shuunen Special Collection", 1]
+		],
+		"Kirby's Epic Yarn": [
+			["Keito no Kirby", 1],
+			["Teolsil Kirby Iyagi", 1]
+		],
+		"Kirby's Return to Dream Land": [
+			["Byeorui Kirby Wii", 1],
+			["Hoshi no Kirby Wii", 1],
+			["Kirby's Adventure Wii", 1]
+		],
+		"Klonoa": [
+			["Baramui Klonoa - Door to Phantomile", 1],
+			["Kaze no Klonoa - Door to Phantomile", 1]
+		],
+		"Kororinpa - Marble Mania": [
+			["Kororinpa", 1]
+		],
+		"Last Airbender, The (Toys R Us)": [
+			["Last Airbender, The (Special Edition)", 1]
+		],
+		"Legend of Zelda, The - Skyward Sword": [
+			["Zelda no Densetsu - Skyward Sword", 1]
+		],
+		"Legend of Zelda, The - Twilight Princess": [
+			["Zelda no Densetsu - Twilight Princess", 1]
+		],
+		"Line Rider 2 - Unbound": [
+			["Line Rider Freestyle", 1]
+		],
+		"Link's Crossbow Training": [
+			["Link no Bowgun Training", 1],
+			["Linkui Sagyeok Training", 1]
+		],
+		"Little King's Story": [
+			["Ousama Monogatari", 1]
+		],
+		"Lost in Blue - Shipwrecked": [
+			["Survival Kids Wii", 1]
+		],
+		"Lost in Shadow": [
+			["Kage no Tou", 1],
+			["Shadow's Tale, A", 1]
+		],
+		"Lost in Shadow (Demo) (DDWX)": [
+			["Lost in Shadow (Demo) (DDWE)", 2]
+		],
+		"Major Minor's Majestic March": [
+			["Meja-Maji March", 1]
+		],
+		"Marble Saga - Kororinpa": [
+			["Kororinpa 2 - Anthony to Kin'iro Himawari no Tane", 1],
+			["Marbles! Balance Challenge", 1]
+		],
+		"Mario & Sonic at the London 2012 Olympic Games": [
+			["Mario & Sonic at London Olympic", 1],
+			["Mariowa Sonic London Olympic", 1]
+		],
+		"Mario & Sonic at the Olympic Games": [
+			["Mario & Sonic at Bejing Olympic", 1],
+			["Mariowa Sonic Beijing Olympic", 1]
+		],
+		"Mario & Sonic at the Olympic Winter Games": [
+			["Mario & Sonic at Vancouver Olympic", 1],
+			["Mariowa Sonic Vancouver Donggye-olympic", 1]
+		],
+		"Mario Strikers Charged": [
+			["Mario Power Soccer", 1],
+			["Mario Strikers Charged Football", 1]
+		],
+		"Mario Super Sluggers": [
+			["Super Mario Stadium - Family Baseball", 1]
+		],
+		"Marvel Super Hero Squad (Walmart)": [
+			["Marvel Super Hero Squad", 2]
+		],
+		"Mary King's Riding School 2": [
+			["Ride", 1]
+		],
+		"Maximum Racing - Crash Car Racer": [
+			["Crash Car Racer", 1]
+		],
+		"Maximum Racing - Drag & Stock Racer": [
+			["Drag & Stock Racer", 1]
+		],
+		"Maximum Racing - GP Classic Racing": [
+			["GP Classic Racing", 1]
+		],
+		"Maximum Racing - Rally Racer": [
+			["Rally Racer", 1]
+		],
+		"Maximum Racing - Sprint Cars": [
+			["Sprint Cars", 1]
+		],
+		"Maximum Racing - Super Karts": [
+			["Super Karts", 1]
+		],
+		"Maximum Racing - Super Truck Racer": [
+			["Super Truck Racer", 1]
+		],
+		"Metal Slug Anthology": [
+			["Metal Slug Complete", 1]
+		],
+		"Metroid Prime 3 - Corruption": [
+			["Metroid Prime Trilogy", 0]
+		],
+		"Michael Jackson - The Experience": [
+			["Michael Jackson - The Experience (Walmart)", 0],
+			["Michael Jackson - The Experience (Special Edition)", 0]
+		],
+		"Michael Jackson - The Experience (Walmart)": [
+			["Michael Jackson - The Experience (Special Edition)", 1]
+		],
+		"MiniCopter Adventure Flight": [
+			["Puchi Copter Wii - Adventure Flight", 1],
+			["Radio Helicopter", 1]
+		],
+		"MLB Power Pros": [
+			["Jikkyou Powerful Major League 2 Wii", 1]
+		],
+		"MLB Power Pros 2008": [
+			["Jikkyou Powerful Major League 3", 1]
+		],
+		"Monkey King, The - The Legend Begins": [
+			["Shin Chuuka Taisen - Michael to Meimei no Bouken", 1],
+			["Sin Junghwa-daeseon - Michaelgwa Meimeiui Moheom", 1]
+		],
+		"Monkey Mischief! Party Time": [
+			["Monkey Mischief!", 1]
+		],
+		"Monster High - Ghoul Spirit": [
+			["Monster High - Scuola da Paura", 1]
+		],
+		"Monster Hunter Tri": [
+			["Monster Hunter 3 tri-", 1]
+		],
+		"Monster Trucks Mayhem": [
+			["Monster Trucks", 1]
+		],
+		"Monster Trux Arenas - Special Edition": [
+			["Monster Trux Arenas", 1]
+		],
+		"Movie Games": [
+			["Movie Studios Party", 1]
+		],
+		"Mr Bean's Wacky World": [
+			["Mr Bean's Wacky World of Wii", 1]
+		],
+		"Munchables, The": [
+			["Tabemon", 1]
+		],
+		"Muramasa - The Demon Blade": [
+			["Oboro Muramasa", 1]
+		],
+		"MX vs. ATV Untamed": [
+			["MX vs. ATV Extreme Limite", 1]
+		],
+		"My Baby First Steps": [
+			["My Baby 2", 1]
+		],
+		"My Ballet Studio": [
+			["Diva Ballerina", 1]
+		],
+		"My First Songs": [
+			["Meine ersten Mitsing-Lieder", 1],
+			["Mon Premier Karaoke", 1]
+		],
+		"My Fitness Coach": [
+			["My Fitness Coach - Get in Shape", 1]
+		],
+		"My Horse & Me - Riding for Gold": [
+			["My Horse & Me 2", 1]
+		],
+		"My Horse Club - On the Trail of the Mysterious Appaloosa": [
+			["Real Stories - Mission Equitation", 1]
+		],
+		"My Pet Hotel": [
+			["Meine Tierpension", 1],
+			["Mijn Dierenpension - Verzorg en Speel met de Leukste Dieren!", 1]
+		],
+		"MySims": [
+			["Boku to Sim no Machi", 1]
+		],
+		"MySims Agents": [
+			["Boku to Sim no Machi Agent - Gokuaku Shachou kara Sekai o Sukue Daisakusen!", 1]
+		],
+		"MySims Kingdom": [
+			["Boku to Sim no Machi Kingdom", 1],
+			["MySims Simdeurui Wangguk", 1]
+		],
+		"MySims Party": [
+			["Boku to Sim no Machi Party", 1]
+		],
+		"MySims Racing": [
+			["Boku to Sim no Machi Racing", 1]
+		],
+		"Namco Museum Remix": [
+			["Minna de Asobou! Namco Carnival", 1]
+		],
+		"Neighborhood Games": [
+			["Big Family Games", 1]
+		],
+		"Naruto - Clash of Ninja Revolution": [
+			["Naruto - Clash of Ninja Revolution - European Version", 1]
+		],
+		"Naruto Shippuden - Clash of Ninja Revolution III": [
+			["Naruto Shippuden - Clash of Ninja Revolution III - European Version", 1]
+		],
+		"Naruto - Clash of Ninja Revolution 2": [
+			["Naruto - Clash of Ninja Revolution 2 - European Version", 1]
+		],
+		"Naruto Shippuden - Dragon Blade Chronicles": [
+			["Naruto Shippuden - Dragon Blade Chronicles - European Version", 1],
+			["Naruto Shippuuden - Ryuu Jin-ki", 1]
+		],
+		"Nat Geo Challenge! Wild Life": [
+			["Nat Geo Quiz! Wild Life", 1]
+		],
+		"New Carnival Games": [
+			["New Carnival Funfair Games", 1]
+		],
+		"New Play Control! Donkey Kong Jungle Beat": [
+			["Wii de Asobu - Donkey Kong Jungle Beat", 1]
+		],
+		"New Play Control! Mario Power Tennis": [
+			["Wii de Asobu - Mario Tennis GC", 1]
+		],
+		"Nickelodeon Avatar - The Last Airbender": [
+			["Nickelodeon Avatar - The Legend of Aang", 1]
+		],
+		"Nickelodeon Avatar - The Last Airbender - Into the Inferno": [
+			["Nickelodeon Avatar - The Legend of Aang - Into the Inferno", 1]
+		],
+		"Nickelodeon Avatar - The Last Airbender - The Burning Earth": [
+			["Nickelodeon Avatar - The Legend of Aang - The Burning Earth", 1]
+		],
+		"Nickelodeon Barnyard": [
+			["Barnyard - Shuyaku wa Ore, Ushi", 1]
+		],
+		"Nickelodeon SpongeBob SquigglePants": [
+			["Nickelodeon SpongeBob SquarePants SquigglePants", 1]
+		],
+		"Nickelodeon SpongeBob's Boating Bash": [
+			["Nickelodeon Bob Esponja - Botes de Choque", 1],
+			["Nickelodeon SpongeBob SquarePants - Boating Bash", 1]
+		],
+		"Nickelodeon SpongeBob SquarePants - Creature from the Krusty Krab": [
+			["Nickelodeon SpongeBob SquarePants", 1]
+		],
+		"Nickelodeon SpongeBob's Truth or Square": [
+			["Nickelodeon Bob Esponja - Atrapados en el Congelador", 1],
+			["Nickelodeon SpongeBob SquarePants - SpongeBob's Truth or Square", 1]
+		],
+		"Nicktoons - Attack of the Toybots": [
+			["Nickelodeon SpongeBob and Friends - Attack of the Toybots", 1],
+			["Nickelodeon SpongeBob SquarePants - SpongeBob to Nakama-tachi - Toybot no Kougeki", 1]
+		],
+		"Night at the Museum - Battle of the Smithsonian - The Video Game": [
+			["Night at the Museum 2 - The Video Game", 1]
+		],
+		"Nights - Journey of Dreams": [
+			["NiGHTS - Hoshi Furu Yoru no Monogatari", 1]
+		],
+		"NPPL Championship Paintball 2009": [
+			["Millennium European Paintball Series, The - Championship Paintball 2009", 1]
+		],
+		"Octomania": [
+			["Modu Hamkke Takoron", 1],
+			["Sharuui Takoron", 1]
+		],
+		"Offroad Extreme! Special Edition": [
+			["Offroad Extreme!", 1]
+		],
+		"ObsCure - The Aftermath": [
+			["ObsCure II", 1]
+		],
+		"One Piece - Unlimited Cruise 1 - The Treasure Beneath the Waves": [
+			["One Piece - Unlimited Cruise - Episode 1 - Nami ni Yureru Hihou", 1]
+		],
+		"One Piece - Unlimited Cruise 2 - Awakening of a Hero": [
+			["One Piece - Unlimited Cruise - Episode 2 - Mezameru Yuusha", 1]
+		],
+		"Onechanbara - Bikini Zombie Slayers": [
+			["Oneechanbara Revolution", 1]
+		],
+		"Pajama Sam - Don't Fear the Dark": [
+			["Pajama Sam - No Need to Hide When It's Dark Outside", 1]
+		],
+		"Pandora's Tower": [
+			["Pandora no Tou - Kimi no Moto e Kaeru made", 1]
+		],
+		"Party Pigs Farmyard Games": [
+			["Farmyard Party", 1]
+		],
+		"Paws & Claws - Pet Resort": [
+			["Meine Tierpension", 1],
+			["Mijn Dierenpension - Verzorg en Speel met de Leukste Dieren!", 1],
+			["My Pet Hotel", 1]
+		],
+		"Paws & Claws - Pet Vet": [
+			["My Vet Practice", 1]
+		],
+		"PDC World Championship Darts": [
+			["PDC World Championship Darts 2008", 1]
+		],
+		"Penny Racers Party - Turbo-Q Speedway": [
+			["Choro Q Wii", 1]
+		],
+		"PES 2008 - Pro Evolution Soccer": [
+			["Winning Eleven Play Maker 2008", 1]
+		],
+		"PES 2009 - Pro Evolution Soccer": [
+			["Winning Eleven Play Maker 2009", 1]
+		],
+		"PES 2010 - Pro Evolution Soccer": [
+			["Winning Eleven Play Maker 2010", 1]
+		],
+		"PES 2011 - Pro Evolution Soccer": [
+			["Winning Eleven Play Maker 2011", 1]
+		],
+		"PES 2012 - Pro Evolution Soccer": [
+			["Winning Eleven Play Maker 2012", 1]
+		],
+		"PES 2013 - Pro Evolution Soccer": [
+			["Winning Eleven Play Maker 2013", 1]
+		],
+		"Petz - Catz 2": [
+			["Catz", 1],
+			["Nyanko to Mahou no Boushi", 1]
+		],
+		"Petz - Crazy Monkeyz": [
+			["Petz - Monkey Madness", 1]
+		],
+		"Petz - Dogz 2": [
+			["Dogz", 1],
+			["Wanko to Mahou no Boushi", 1]
+		],
+		"Petz - Horse Club": [
+			["Imagine - Champion Rider", 1]
+		],
+		"Petz - Horsez 2": [
+			["Pippa Funnell - Ranch Rescue", 1]
+		],
+		"Petz Rescue - Wildlife Vet": [
+			["Planet Rescue - Wildlife Vet", 1]
+		],
+		"Petz Sports": [
+			["Petz Sports - Dog Playground", 1]
+		],
+		"Phantom Brave - We Meet Again": [
+			["Phantom Brave Wii", 1]
+		],
+		"Pheasants Forever - Wingshooter": [
+			["Pheasants Forever", 1]
+		],
+		"Pikmin": [
+			["New Play Control! Pikmin", 1],
+			["Wii de Asobu - Pikmin", 1]
+		],
+		"Pikmin 2": [
+			["New Play Control! Pikmin 2", 1],
+			["Wii de Asobu - Pikmin 2", 1]
+		],
+		"Pinball Hall of Fame - The Gottlieb Collection": [
+			["Gottlieb Pinball Classics", 1]
+		],
+		"Pinball Hall of Fame - The Williams Collection": [
+			["Williams Pinball Classics", 1]
+		],
+		"PokePark 2 - Wonders Beyond": [
+			["PokePark 2 - Beyond the World", 1]
+		],
+		"PokePark Wii - Pikachu's Adventure": [
+			["PokePark Wii - Pikachu no Daibouken", 1]
+		],
+		"Pop'n Music": [
+			["Pop'n Rhythm", 1]
+		],
+		"Prince of Persia - The Forgotten Sands": [
+			["Prince of Persia - The Forgotten Sands + 1989", 1]
+		],
+		"Project Zero 2 - Wii Edition": [
+			["Zero - Shinku no Chou", 1]
+		],
+		"Puppy Luv - Your New Best Friend": [
+			["Tierbabys - Mein kleiner Welpe", 1]
+		],
+		"Racquet Sports": [
+			["Racket Sports Party", 1]
+		],
+		"Raving Rabbids - Travel in Time": [
+			["Rabbids Party - Time Travel", 1]
+		],
+		"Rayman - Raving Rabbids": [
+			["Rabbids Party", 1]
+		],
+		"Rayman - Raving Rabbids - TV Party": [
+			["Rabbids Party - TV Party", 1]
+		],
+		"Rayman - Raving Rabbids 2": [
+			["Rabbids Party Returns", 1]
+		],
+		"Ready Steady Cook - The Game": [
+			["Cuisine Party", 1],
+			["Prova del Cuoco, La", 1]
+		],
+		"Real Stories - Veterinaire": [
+			["Tierliebe - Gross Geschrieben ~ Veterinario - Cuccioli in Pericolo", 1]
+		],
+		"Reel Fishing - Angler's Dream": [
+			["Fish Eyes Wii", 1]
+		],
+		"Repetto Paris - Let's Play Ballerina": [
+			["Repetto Paris Ballerina", 1]
+		],
+		"Resident Evil Archives - Resident Evil": [
+			["Biohazard", 1]
+		],
+		"Resident Evil - The Darkside Chronicles": [
+			["Biohazard - The Darkside Chronicles", 1]
+		],
+		"Resident Evil - The Umbrella Chronicles": [
+			["Biohazard - The Umbrella Chronicles", 1],
+			["Biohazard - Umbrella Chronicles", 1]
+		],
+		"Resident Evil 4 - Wii Edition": [
+			["Biohazard 4 - Wii Edition", 1]
+		],
+		"Resident Evil Archives - Resident Evil Zero": [
+			["Biohazard Zero", 1]
+		],
+		"Rock Band - Track Pack Volume 1": [
+			["Rock Band - Song Pack 1", 1]
+		],
+		"Rock Band - Track Pack Volume 2": [
+			["Rock Band - Song Pack 2", 1]
+		],
+		"Rhythm Heaven Fever": [
+			["Beat the Beat - Rhythm Paradise", 1],
+			["Minna no Rhythm Tengoku", 1],
+			["Rhythm Sesang Wii", 1]
+		],
+		"Ringling Bros. and Barnum & Bailey": [
+			["It's My Circus", 1]
+		],
+		"Rodea the Sky Soldier": [
+			["Cheongongui Gisa Rodea", 1],
+			["Tenkuu no Kishi Rodea", 1]
+		],
+		"Rolling Stone - Drum King": [
+			["We Rock - Drum King", 1]
+		],
+		"Rooms - The Main Building": [
+			["Rooms - Fushigi na Ugoku Heya", 1]
+		],
+		"Rubik's World": [
+			["Rubik's Puzzle World", 1]
+		],
+		"Rune Factory - Tides of Destiny": [
+			["Rune Factory - Oceans", 1]
+		],
+		"Rygar - The Battle of Argus": [
+			["Argos no Senshi - Muscle Impact", 1]
+		],
+		"Samurai Shodown Anthology": [
+			["Samurai Spirits - Rokuban Shoubu", 1],
+			["Samurai Spirits - 6beonui Seungbu", 1]
+		],
+		"Samurai Warriors - Katana": [
+			["Sengoku Musou - Katana", 1]
+		],
+		"Samurai Warriors 3": [
+			["Sengoku Musou 3", 1]
+		],
+		"Scene It Bright Lights! Big Screen!": [
+			["Scene It Ciak! Si Gira!", 1],
+			["Scene It Estrellas en la Pantalla Gigante", 1],
+			["Scene It Ganz grosses Kino!", 1],
+			["Scene It Lumieres! Action!", 1]
+		],
+		"Score International Baja 1000 - The Official Game": [
+			["Score International Baja 1000 - World Championship Off Road Racing", 1]
+		],
+		"Sega Bass Fishing": [
+			["Uchi Tsuri! Sega Bass Fishing", 1]
+		],
+		"Sengoku Basara - Samurai Heroes": [
+			["Sengoku Basara 3", 1]
+		],
+		"Sesame Street - Ready, Set, Grover! with Elmo - The Videogame": [
+			["Barrio Sesamo - Preparados Listos Coco! El Videojuego ~ Sesamstraat - Klaar Voor de Start, Grover! De Game", 1],
+			["Sesame Street - Ready, Set, Grover! The Videogame", 1]
+		],
+		"Shaun White Snowboarding - Road Trip": [
+			["Shaun White Snowboarding - Road Trip (Target Limited Edition)", 0]
+		],
+		"Shimano Xtreme Fishing": [
+			["Shimano Extreme Fishing", 1]
+		],
+		"Shiren the Wanderer": [
+			["Fushigi no Dungeon - Fuurai no Shiren 3 - Karakuri Yashiki no Nemuri-hime", 1]
+		],
+		"Shonen Jump One Piece - Unlimited Adventure": [
+			["One Piece - Unlimited Adventure", 1]
+		],
+		"SimCity Creator": [
+			["SimCity Namanui Dosi", 1]
+		],
+		"Simpsons Game, The": [
+			["Simpson, Les - Le Jeu", 1],
+			["Simpsons, Die - Das Spiel", 1]
+		],
+		"Sin & Punishment - Star Successor": [
+			["Sin and Punishment - Successor of the Skies", 1],
+			["Tsumi to Batsu - Sora no Koukeisha", 1]
+		],
+		"Sky Crawlers, The - Innocent Aces": [
+			["Sky Crawlers - Innocent Aces", 1]
+		],
+		"Skylanders - Spyro's Adventure": [
+			["Skylanders - Spyro no Daibouken", 1]
+		],
+		"Sleepover Party": [
+			["Girls Life - Sleepover Party", 1]
+		],
+		"Smurfs, The - Dance Party": [
+			["Smurfs, The - Dance Party (Toys R Us)", 0]
+		],
+		"Sonic Colors": [
+			["Sonic Colours", 1]
+		],
+		"Sonic and the Black Knight": [
+			["Sonic to Ankoku no Kishi", 1]
+		],
+		"Sonic and the Secret Rings": [
+			["Sonic to Himitsu no Ring", 1]
+		],
+		"Sonic Riders - Zero Gravity": [
+			["Sonic Riders - Shooting Star Story", 1]
+		],
+		"Sonic Unleashed": [
+			["Sonic World Adventure", 1]
+		],
+		"Spectrobes - Origins": [
+			["Kaseki Monster - Spectrobes", 1]
+		],
+		"Speed Racer - The Videogame": [
+			["Speed Racer", 1]
+		],
+		"Speed Zone": [
+			["Wheelspin", 1]
+		],
+		"Spore Hero": [
+			["Spore - Kimi ga Tsukuru Hero", 1]
+		],
+		"Summer Athletics - The Ultimate Challenge": [
+			["Summer Athletics", 1]
+		],
+		"Summer Sports 2 - Island Sports Party": [
+			["Summer Sports Party", 1]
+		],
+		"Super Mario All-Stars": [
+			["Super Mario Collection", 1]
+		],
+		"Super Mario Galaxy": [
+			["Super Mario Wii - Galaxy Adventure", 1]
+		],
+		"Super Mario Galaxy 2": [
+			["Super Mario Wii 2 - Galaxy Adventure Together", 1]
+		],
+		"Super Monkey Ball - Banana Blitz": [
+			["Super Monkey Ball - Uki Uki Party Daishuugou", 1]
+		],
+		"Super Monkey Ball - Step & Roll": [
+			["Super Monkey Ball Athletic", 1]
+		],
+		"Super Smash Bros. Brawl": [
+			["Daenantu Smash Brothers X", 1],
+			["Dairantou Smash Brothers X", 1]
+		],
+		"Super Sonic Racer": [
+			["Supersonic Racer", 1]
+		],
+		"Super Swing Golf": [
+			["Pangya! Golf with Style", 1],
+			["Swing Golf Pangya", 1]
+		],
+		"Super Swing Golf Season 2": [
+			["Swing Golf Pangya 2nd Shot!", 1]
+		],
+		"Survivor": [
+			["Expeditie Robinson", 1],
+			["Isola dei Famosi, L'", 1],
+			["Koh-Lanta", 1],
+			["Supervivientes", 1]
+		],
+		"Tales of Symphonia - Dawn of the New World": [
+			["Tales of Symphonia - Ratatosk no Kishi", 1]
+		],
+		"Tamagotchi - Party On!": [
+			["Tamagotchi no Pika Pika Daitouryou!", 1]
+		],
+		"Tatsunoko vs. Capcom - Ultimate All-Stars": [
+			["Tatsunoko vs. Capcom - Cross Generation of Heroes", 2]
+		],
+		"Team Elimination Games": [
+			["Knockout Party", 1]
+		],
+		"Tenchu - Shadow Assassins": [
+			["Tenchu 4", 1]
+		],
+		"Tetris Party Deluxe": [
+			["Tetris Party Premium", 1]
+		],
+		"Think Logic Trainer": [
+			["Entraineur Cerebral et Sportif, L'", 1],
+			["Think - Logic Trainer", 1],
+			["Think - Logik Trainer", 1],
+			["Think - Train Je Brein", 1]
+		],
+		"TrackMania - Build to Race": [
+			["TrackMania", 1]
+		],
+		"Trauma Center - New Blood": [
+			["Caduceus - New Blood", 1]
+		],
+		"Trauma Center - Second Opinion": [
+			["Caduceus Z - Futatsu no Chou Shittou", 1]
+		],
+		"Trauma Team": [
+			["Hospital. 6-nin no Ishi", 1]
+		],
+		"Ultimate Shooting Collection": [
+			["Milestone Shooting Collection - Karous Wii", 1]
+		],
+		"Valhalla Knights - Eldar Saga": [
+			["Eldar Saga", 1]
+		],
+		"Victorious Boxers - Revolution": [
+			["Hajime no Ippo Revolution", 1],
+			["Victorious Boxers Challenge", 1]
+		],
+		"Wacky World of Sports": [
+			["Chin Sports", 1]
+		],
+		"Walk It Out!": [
+			["Step to the Beat", 1]
+		],
+		"Walt Disney Pictures Bolt": [
+			["Disney Bolt", 1]
+		],
+		"Walt Disney Pictures Presents Meet the Robinsons": [
+			["Walt Disney Pictures Presents Lewis to Mirai Dorobou - Wilbur no Kiken na Jikan Ryokou", 1]
+		],
+		"Wario Land - Shake It!": [
+			["Wario Land - The Shake Dimension", 1],
+			["Wario Land Shake", 1],
+			["Wario Land Shaking", 1]
+		],
+		"WarioWare - Smooth Moves": [
+			["Chumchwora Made in Wario", 1],
+			["Odoru Made in Wario", 1]
+		],
+		"We Cheer 2": [
+			["We Cheer - Dancing Spirits!", 1]
+		],
+		"We Ski": [
+			["Family Ski", 1]
+		],
+		"We Ski & Snowboard": [
+			["Family Ski & Snowboard", 1],
+			["Family Ski - World Ski & Snowboard", 1]
+		],
+		"Where the Wild Things Are": [
+			["Where the Wild Things Are - The Videogame", 1]
+		],
+		"Wii de Asobu - Metroid Prime": [
+			["Metroid Prime Trilogy", 0]
+		],
+		"Wii de Asobu - Metroid Prime 2 - Dark Echoes": [
+			["Metroid Prime Trilogy", 0]
+		],
+		"Wii Fit": [
+			["Wii Fit Plus", 0]
+		],
+		"Wii Play": [
+			["Cheoeum Mannaneun Wii", 1],
+			["Hajimete no Wii", 1]
+		],
+		"Wii Play - Motion": [
+			["Wii Remocon Plus - Variety", 1],
+			["Wii Remocon Plusro Jeulgineun - Variety Game Box", 1]
+		],
+		"Wii Sports": [
+			["Wii Sports + Wii Sports Resort", 0]
+		],
+		"Wii Sports Resort": [
+			["Wii Sports + Wii Sports Resort", 0]
+		],
+		"Winter Sports - The Ultimate Challenge": [
+			["RTL Winter Sports 2008 - The Ultimate Challenge", 1],
+			["Winter Sports 2008 - The Ultimate Challenge", 1]
+		],
+		"Winter Sports 2 - The Next Challenge": [
+			["Winter Sports 2009 - The Next Challenge", 1]
+		],
+		"Winter Sports 3 - The Great Tournament": [
+			["Winter Sports 2010 - The Great Tournament", 1]
+		],
+		"World Championship Athletics": [
+			["Summer Athletics 2009", 1]
+		],
+		"X Factor, The": [
+			["X Factor", 1]
+		],
+		"Xenoblade Chronicles": [
+			["Xenoblade", 1]
+		],
+		"Yogi Bear": [
+			["Yogi Bear - The Video Game", 1]
+		],
+		"Your Shape featuring Jenny McCarthy": [
+			["Your Shape", 1]
+		],
+		"Yu-Gi-Oh! 5D's - Duel Transer": [
+			["Yu-Gi-Oh! 5D's - Master of the Cards", 1]
+		],
+		"Zack & Wiki - Quest for Barbaros' Treasure": [
+			["Takarajima Z - Barbaros no Hihou", 1],
+			["Zack & Wiki - Barbarosui Bomul", 1]
+		]
+	}
+}

@@ -1187,7 +1187,7 @@
     "Arc the Lad - Jeongryeongui Hwanghon (Korea)": {
         "languages": "Ko"
     },
-    "Arc the Lad - Jeongryeongui Hwanghon (Korea) (Premiere Disc)": {
+    "Arc the Lad - Jeongryeongui Hwanghon - Premiere Disc (Korea)": {
         "languages": "Ko"
     },
     "Arc the Lad - Jing Ling Zhi Huang Hun (Asia)": {
@@ -9271,6 +9271,9 @@
     },
     "GameShark - Metal Gear Solid 2 - Sons of Liberty (USA) (Disc 1) (Codes and Saves) (Unl)": {
         "languages": "En"
+    },
+    "GameShark 2 - Video Game Enhancer (USA) (En,Fr,Es,Pt) (Unl) (v1.99b)": {
+        "languages": "En, Fr, Pt, Es"
     },
     "GameShark 2 - Video Game Enhancer (USA) (En,Fr,Es,Pt) (Unl) (v2.00)": {
         "languages": "En, Fr, Pt, Es"
@@ -28399,6 +28402,9 @@
     },
     "Time Crisis 2 & Vampire Night (Japan) (Taikenban)": {
         "languages": "Ja"
+    },
+    "Time Crisis 3 (Asia)": {
+        "languages": "Zh"
     },
     "Time Crisis 3 (Europe) (Beta 1)": {
         "languages": "En"
