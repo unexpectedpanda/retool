@@ -23,6 +23,10 @@
 		"Panasonic REAL 3DO Interactive Multiplayer - Sampler CD for PAL System": {
 			"match": "short",
 			"categories": ["Demos", "Multimedia"]
+		},
+		"Putt-Putt Goes to the Moon": {
+			"match": "short",
+			"categories": ["Educational"]
 		}
 	},
 
@@ -69,6 +73,9 @@
 		"Flashback - The Quest for Identity": [
 			["Flashback", 1]
 		],
+		"Fun 'n Games": [
+			["Fun 'n Games - Soft no Omochabako", 1]
+		],
 		"Guardian War": [
 			["Powers Kingdom", 1]
 		],
@@ -102,7 +109,8 @@
 			["Nova-Storm", 1]
 		],
 		"Out of this World (3DO Maniac Pack)": [
-			["Outer World", 1]
+			["Outer World", 1],
+			["Out of this World", 2]
 		],
 		"Panasonic REAL 3DO Interactive Multiplayer - Sampler CD (ZBZ)": [
 			["Panasonic REAL 3DO Interactive Multiplayer - Sampler CD (ZAZ)", 2]
