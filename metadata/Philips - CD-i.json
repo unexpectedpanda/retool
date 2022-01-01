@@ -260,6 +260,15 @@
     "Beauty Guide (Netherlands)": {
         "languages": "Nl"
     },
+    "Bedrijfshulpverlener Supermarkt - Brand Ontruiming (Netherlands) (Disc 3)": {
+        "languages": ""
+    },
+    "Bedrijfshulpverlener Supermarkt - EHBO1 (Netherlands) (Disc 2)": {
+        "languages": ""
+    },
+    "Bedrijfshulpverlener Supermarkt - Inleiding EHBO2 Toets (Netherlands) (Disc 1)": {
+        "languages": ""
+    },
     "Beer Is Los!, De (Netherlands)": {
         "languages": "Nl"
     },
@@ -368,9 +377,6 @@
     "BrainDead 13 (Europe)": {
         "languages": "En"
     },
-    "Brand Ontruiming (Netherlands) (Disc 3)": {
-        "languages": ""
-    },
     "Brantano - Version 5.02 (Belgium)": {
         "languages": ""
     },
@@ -468,6 +474,9 @@
         "languages": "En"
     },
     "CD-i Full Motion Video Technical Aspects (Europe)": {
+        "languages": ""
+    },
+    "CD-i Gang (Europe)": {
         "languages": ""
     },
     "CD-i Keydisc (Europe)": {
@@ -1346,9 +1355,6 @@
     "E-Z Play Today Keyboard (Europe)": {
         "languages": ""
     },
-    "EHBO1 (Netherlands) (Disc 2)": {
-        "languages": ""
-    },
     "Earth Command (Europe)": {
         "languages": "En"
     },
@@ -1387,6 +1393,9 @@
     },
     "Etoiles et Galaxies - Astronomie Flammarion (France)": {
         "languages": "Fr"
+    },
+    "Eureka - Gutenberg - L'Imprimerie et Ses Precurseurs (France) (Beta)": {
+        "languages": ""
     },
     "European Party (Europe)": {
         "languages": ""
@@ -1493,7 +1502,7 @@
     "Flashback (USA)": {
         "languages": ""
     },
-    "Flight - The Universal Dream (USA) (Beta)": {
+    "Flight - The Universal Dream (USA) (Proto)": {
         "languages": ""
     },
     "Flintstones-Jetsons Timewarp (Europe)": {
@@ -1670,6 +1679,9 @@
     "Grote Wonder, Het - A Child is Born (Netherlands)": {
         "languages": ""
     },
+    "Group 4 Securitas (Europe)": {
+        "languages": ""
+    },
     "Grubenhunt & Ofensau - Vom Reichtum der Erde (Germany)": {
         "languages": ""
     },
@@ -1796,6 +1808,9 @@
     "Hunt for Red October, The (USA) (Disc 2)": {
         "languages": "En"
     },
+    "IDP - Presentation de Memsoft - Aide a la Vente (France)": {
+        "languages": ""
+    },
     "Iberoamerica - Arte y Cultura Iberoamericana (Spain) (En,Es,It,Pt)": {
         "languages": "En, It, Pt, Es"
     },
@@ -1839,9 +1854,6 @@
         "languages": ""
     },
     "Indecent Proposal (USA) (Disc 2)": {
-        "languages": ""
-    },
-    "Inleiding EHBO2 Toets (Netherlands) (Disc 1)": {
         "languages": ""
     },
     "Innovative Technologies - Simple Solutions (USA)": {
@@ -2171,6 +2183,9 @@
     "Lettergreep (Netherlands)": {
         "languages": "Nl"
     },
+    "Levi's Trend 97 (Europe)": {
+        "languages": ""
+    },
     "Lingo (Netherlands)": {
         "languages": "Nl"
     },
@@ -2286,6 +2301,9 @@
         "languages": ""
     },
     "Magazine Interactif Peugeot - Numero 3 - Juillet 1996 (France)": {
+        "languages": ""
+    },
+    "Magazine Interactif Peugeot - Numero 5 - Janvier 1997 (France)": {
         "languages": ""
     },
     "Magic Eraser (Germany)": {
@@ -2678,26 +2696,26 @@
     "Pegasus (USA, Europe)": {
         "languages": ""
     },
-    "Peogeot - Excellence in Sales Leadership with Joe Verde (Europe) (Disc 1)": {
-        "languages": ""
-    },
-    "Peogeot - Excellence in Sales Leadership with Joe Verde (Europe) (Disc 2)": {
-        "languages": ""
-    },
-    "Peogeot - Selling for Real - Interactive Video Sales Training - Handling Telephone Sales Enquiries and Making Appraisals Pay (UK)": {
-        "languages": ""
-    },
-    "Peogeot - The Passport Experience (UK)": {
-        "languages": ""
-    },
-    "Peogeot Product Guide - June 1994 (UK)": {
-        "languages": ""
-    },
     "Pete Townshend Live (USA) (Demo)": {
         "languages": "En"
     },
+    "Peugeot - Excellence in Sales Leadership with Joe Verde (Europe) (Disc 1)": {
+        "languages": ""
+    },
+    "Peugeot - Excellence in Sales Leadership with Joe Verde (Europe) (Disc 2)": {
+        "languages": ""
+    },
+    "Peugeot - Selling for Real - Interactive Video Sales Training - Handling Telephone Sales Enquiries and Making Appraisals Pay (UK)": {
+        "languages": ""
+    },
+    "Peugeot - The Passport Experience (UK)": {
+        "languages": ""
+    },
     "Peugeot 406 en Val de Loire, La (France)": {
         "languages": "Fr"
+    },
+    "Peugeot Product Guide - June 1994 (UK)": {
+        "languages": ""
     },
     "Pharma-Laser Volume 2 (France)": {
         "languages": ""
@@ -2709,6 +2727,9 @@
         "languages": "Nl, En, Fr, De, It, Es"
     },
     "Philips CD-i Demo Disc - May 1988 (Germany)": {
+        "languages": ""
+    },
+    "Philips CD-i Product Preview (USA)": {
         "languages": ""
     },
     "Philips CDI Format Test Disc 1 (Germany)": {
@@ -2798,8 +2819,8 @@
     "Power Match (Europe) (Rev 1)": {
         "languages": ""
     },
-    "Prelude (Europe) (En,Ja,Fr,It,Nl)": {
-        "languages": "Nl, En, Fr, It, Ja"
+    "Prelude (Europe)": {
+        "languages": "En"
     },
     "Prelude (USA) (En,Ja,Fr,De,Es,It,Nl)": {
         "languages": "Nl, En, Fr, De, It, Ja, Es"
@@ -3253,6 +3274,9 @@
     },
     "Text Tiles (USA, Europe)": {
         "languages": "En"
+    },
+    "Thrombolyse dans Tous Ses Etats, La (France)": {
+        "languages": ""
     },
     "Thunder in Paradise (Europe) (Disc 1) (The Game)": {
         "languages": "En"

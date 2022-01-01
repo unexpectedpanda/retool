@@ -26195,8 +26195,11 @@
     "Station Demo Disc 9 (Europe)": {
         "languages": "En"
     },
-    "StationMaster 4-2001 Xploder (Germany) (En,De) (Unl)": {
+    "StationMaster 03-2001 Xploder (Germany) (En,De) (Unl)": {
         "languages": "En, De"
+    },
+    "StationMaster 04-2001 Xploder (Germany) (Demo) (Unl)": {
+        "languages": "De"
     },
     "Steel Harbinger (Europe)": {
         "languages": "En"
@@ -31390,9 +31393,6 @@
     },
     "Xevious 3D-G+ (USA)": {
         "languages": "En"
-    },
-    "Xploder CD9000 (Germany) (Demo) (Unl)": {
-        "languages": "De"
     },
     "Xploder CD9000 Directors Cut (Germany) (Unl)": {
         "languages": "De"

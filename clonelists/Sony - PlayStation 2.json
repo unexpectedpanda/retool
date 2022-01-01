@@ -160,6 +160,9 @@
 		"Angelique Trois (Premium Box)": [
 			["Angelique Trois", 2]
 		],
+		"Another Century's Episode 2": [
+			["Another Century's Episode 2 - Special Vocal Version", 0]
+		],
 		"Ape Escape - Pumped & Primed": [
 			["Gacha Mecha Stadium - Saru Battle", 1],
 			["Shenqi Jiqi Jingjichang - Bibohou Zhongji Rezhan", 1]
@@ -253,7 +256,8 @@
 			["Big Mutha Truckers 2 - Truck Me Harder", 1]
 		],
 		"Blood Will Tell - Tezuka Osamu's Dororo": [
-			["Dororo", 1]
+			["Dororo", 1],
+			["Duo Luo Luo", 1]
 		],
 		"Boboboubo Boubobo - Atsumare!! Taikan Boubobo (Doukonban)": [
 			["Boboboubo Boubobo - Atsumare!! Taikan Boubobo", 2]
@@ -463,10 +467,12 @@
 			["CSI - Crime Scene Investigation", 1]
 		],
 		"Cy Girls (Disc 1) (Ice)": [
-			["Cy Girls (Ice Disc)", 1]
+			["Cy Girls (Ice Disc)", 1],
+			["Cool Girl (Disc 1) (Ice Side)", 1]
 		],
 		"Cy Girls (Disc 2) (Aska)": [
-			["Cy Girls (Aska Disc)", 1]
+			["Cy Girls (Aska Disc)", 1],
+			["Cool Girl (Disc 2) (Aska Side)", 1]
 		],
 		"Cyber Troopers - Virtual-On Marz": [
 			["Dennou Senki - Virtual-On Marz", 1]
@@ -882,8 +888,12 @@
 		"EX Jinsei Game (Doukonban)": [
 			["EX Jinsei Game", 2]
 		],
-		"EyeToy - Furi Furi Dance Tengoku (EyeToy Camera Doukonban)": [
+		"EyeToy - Groove": [
+			["EyeToy - Furi Furi Dance Tengoku (EyeToy Camera Doukonban)", 1],
 			["EyeToy - Furi Furi Dance Tengoku", 2]
+		],
+		"EyeToy - Monkey Mania": [
+			["EyeToy - Saru EyeToy - Oosawagi! Ukkiuki Game Tenkomori!!", 1]
 		],
 		"EyeToy - Operation Spy": [
 			["SpyToy", 1]
