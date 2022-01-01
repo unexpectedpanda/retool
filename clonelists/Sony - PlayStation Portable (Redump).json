@@ -29,7 +29,9 @@
 	},
 
 	"renames": {
-		"Twang": ["Yep", "What"],
+		"Ace Combat - Joint Assault": [
+			["Ace Combat X2 - Joint Assault", 1]
+		],
 		"Ape Escape - On the Loose": [
 			["Ape Escape", 1],
 			["Piposarugetchu P", 1],
@@ -52,6 +54,9 @@
 		],
 		"Artlist Collection - The Dog Happy Life - Shiawase Wanko Seikatsu Dai-1-dan": [
 			["Artlist Collection - The Dog Happy Life - Shiawase Wanko Seikatsu Dai-1-dan - McDonald's Ver.", 2]
+		],
+		"Blade Dancer - Lineage of Light": [
+			["Blade Dancer - Sen'nen no Yakusoku", 1]
 		],
 		"BlazBlue - Calamity Trigger": [
 			["BlazBlue - Calamity Trigger Portable", 1]
@@ -81,6 +86,9 @@
 		"Buzz! Quiz World": [
 			["Buzz! Concurso Universal", 1]
 		],
+		"Buzz! The Schools Quiz": [
+			["Buzz! Escuela de Talentos", 1]
+		],
 		"Capcom Classics Collection Reloaded": [
 			["Capcom Classics Collection", 1]
 		],
@@ -100,6 +108,9 @@
 		],
 		"Class of Heroes": [
 			["Ken to Mahou to Gakuen Mono.", 1]
+		],
+		"Con, The": [
+			["Arnaqueur, L'", 1]
 		],
 		"Crimson Gem Saga": [
 			["Astonishia Story 2", 1]
@@ -315,6 +326,9 @@
 		],
 		"Harvest Moon - Boy & Girl": [
 			["Bokujou Monogatari - Harvest Moon - Boy & Girl", 1]
+		],
+		"Harvest Moon - Hero of Leaf Valley": [
+			["Bokujou Monogatari - Sugar Mura to Minna no Negai", 1]
 		],
 		"Hatsune Miku - Project Diva 2nd (Okaidoku-ban)": [
 			["Hatsune Miku - Project Diva 2nd", 2]
