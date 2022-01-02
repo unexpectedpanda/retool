@@ -398,7 +398,7 @@ def choose_ring_code(REGEX, title_list, user_input, region_data):
                             if (
                                 re.search('[0-9]', title_1_ring_code) != None
                                 and re.search('[0-9]', title_2_ring_code) == None):
-                                    if title_1 in title_list: title_list.remove(title_1)
+                                    if title_2 in title_list: title_list.remove(title_2)
                             elif (
                                 re.search('[0-9]', title_2_ring_code) != None
                                 and re.search('[0-9]', title_1_ring_code) == None):

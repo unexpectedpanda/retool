@@ -277,7 +277,7 @@ class Regex:
         self.proto = re.compile('\((?:(?!\(|Proto( [0-9]{,2}){,1})[\s\S])*Proto( [0-9]{,2}){,1}\)', re.IGNORECASE)
         self.preprod = re.compile('\((Pre-production|Prerelease)\)', re.IGNORECASE)
         self.dev = re.compile('\(DEV\)', re.IGNORECASE)
-        self.review = re.compile('\(Review Code\)', re.IGNORECASE)
+        self.review = re.compile('\(Review (Code|Kit [0-9]+)\)', re.IGNORECASE)
 
         # Tags
         self.alt = re.compile('\(Alt.*?\)', re.IGNORECASE)
@@ -302,6 +302,7 @@ class Regex:
             re.compile('\(GameCube Preview\)', re.IGNORECASE),
             re.compile('\(Preview\)', re.IGNORECASE),
             re.compile('\(Sample( [1-9])*\)', re.IGNORECASE),
+            re.compile('\(Full Trial\)', re.IGNORECASE),
             re.compile('Trial (Edition|Version|ver\.)', re.IGNORECASE),
             re.compile('\((.*Kiosk|Kiosk.*)\)|PSP System Kiosk|Kiosk Demo Disc|PS2 Kiosk', re.IGNORECASE)
             ]
@@ -314,7 +315,7 @@ class Regex:
             self.dev,
             self.review,
             ]
-        self.preproduction_bad = re.compile('\((?:(?!\(|(Alpha|Beta|Pre-production|Proto|Review Code)( [0-9]{,2}){,1})[\s\S])*(Alpha|Beta|Pre-production|Proto|Review Code)( [0-9]{,2}){,1}\)|(\[b\])', re.IGNORECASE)
+        self.preproduction_bad = re.compile('\((?:(?!\(|(Alpha|Beta|Pre-production|Proto|Review (Code|Kit [0-9]+))( [0-9]{,2}){,1})[\s\S])*(Alpha|Beta|Pre-production|Proto|Review (Code|Kit [0-9]+))( [0-9]{,2}){,1}\)|(\[b\])', re.IGNORECASE)
         self.programs = [
             re.compile('\(Program\)', re.IGNORECASE),
             re.compile('\(Test Program\)', re.IGNORECASE),
