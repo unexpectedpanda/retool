@@ -3,7 +3,7 @@
 		"name": [
 			"Microsoft - Xbox 360"
 		],
-		"last updated": "28 November 2021",
+		"last updated": "2 January 2022",
 		"minimum version": "0.89"
 	},
 
@@ -24,7 +24,8 @@
 			["Arcania - The Complete Tale", 0]
 		],
 		"Assassin's Creed II": [
-			["Assassin's Creed II - Game of the Year Edition", 0]
+			["Assassin's Creed II - Game of the Year Edition", 0],
+			["Assassin's Creed II - Special Edition", 0]
 		],
 		"Assassin's Creed III (Disc 1) (Single-player)": [
 			["Assassin's Creed III (Disc 1)", 1]
@@ -40,6 +41,9 @@
 		],
 		"Batman - Arkham City": [
 			["Batman - Arkham City - Game of the Year Edition (Disc 1)", 0]
+		],
+		"Battlefield - Bad Company": [
+			["Battlefield - Bad Company (Gold Edition)", 0]
 		],
 		"Battlefield - Bad Company 2": [
 			["Battlefield - Bad Company 2 (Limited Edition)", 0]
@@ -66,6 +70,9 @@
 		"Burnout Paradise": [
 			["Burnout Paradise - The Ultimate Box", 0]
 		],
+		"Cabela's Dangerous Hunts 2009": [
+			["Cabela's Dangerous Adventures", 1]
+		],
 		"Call of Duty - Advanced Warfare (Game Disc)": [
 			["Call of Duty - Advanced Warfare (Disc di Gioco)", 1],
 			["Call of Duty - Advanced Warfare (Spieldisc)", 1]
@@ -88,7 +95,8 @@
 			["Call of Duty - Ghosts (Disc 2) (Install Disc) (Fukikaeban)", 1]
 		],
 		"Call of Duty - Modern Warfare 3": [
-			["Call of Duty - Modern Warfare 3 (Jimakuban)", 1]
+			["Call of Duty - Modern Warfare 3 (Jimakuban)", 1],
+			["Call of Duty - Modern Warfare 3 (Fukikaeban)", 1]
 		],
 		"Command & Conquer - Red Alert 3": [
 			["Command & Conquer - Alarmstufe Rot 3", 1]
@@ -300,6 +308,9 @@
 			["Magna Carta II (Disc 2)", 1],
 			["Magnacarta II (Disc 2)", 1]
 		],
+		"Majin and the Forsaken Kingdom": [
+			["Majin to Ushinawareta Oukoku", 1]
+		],
 		"Mass Effect (Bonus Content Disc)": [
 			["Mass Effect (Bonus Disc)", 1],
 			["Mass Effect (Bonus DVD)", 1]
@@ -328,10 +339,6 @@
 		"Minecraft - Story Mode - A Telltale Games Series": [
 			["Minecraft - Story Mode - A Telltale Games Series - The Complete Adventure", 0]
 		],
-		"Need for Speed - Carbon": [
-			["Need for Speed - Carbon - Collector's Edition", 0],
-			["Need for Speed - Carbono", 1]
-		],
 		"Naruto Shippuden - Ultimate Ninja Storm 2": [
 			["Naruto Shippuuden - Narutimate Storm 2", 1]
 		],
@@ -344,11 +351,18 @@
 		"Naughty Bear": [
 			["Naughty Bear - Gold Edition", 0]
 		],
+		"Need for Speed - Carbon": [
+			["Need for Speed - Carbon - Collector's Edition", 0],
+			["Need for Speed - Carbono", 1]
+		],
 		"Need for Speed - Most Wanted": [
 			["Need for Speed - Most Wanted (2012)", 1]
 		],
 		"Need for Speed - The Run (651050A1)": [
 			["Need for Speed - The Run (264F3B05)", 2]
+		],
+		"Nier": [
+			["NieR Gestalt", 1]
 		],
 		"Ninja Gaiden 3": [
 			["Ninja Gaiden 3 - Razor's Edge", 0]
@@ -374,6 +388,9 @@
 		"PES 2011 - Pro Evolution Soccer": [
 			["World Soccer Winning Eleven 2011", 1]
 		],
+		"PES 2014 - Pro Evolution Soccer": [
+			["World Soccer Winning Eleven 2014", 1]
+		],
 		"Resident Evil 6 (Disc 1) (Game)": [
 			["Resident Evil 6 (Disc 1) (Game Disc)", 1]
 		],
@@ -391,6 +408,9 @@
 		],
 		"Rock Band - Track Pack Volume 2": [
 			["Rock Band - Song Pack 2", 1]
+		],
+		"Rocksmith": [
+			["Rocksmith - All-New 2014 Edition", 0]
 		],
 		"Saints Row IV": [
 			["Saints Row IV - Game of the Century Edition", 0],
@@ -427,6 +447,9 @@
 		"Sniper Elite III": [
 			["Sniper Elite III - Ultimate Edition", 0]
 		],
+		"Sniper Elite V2": [
+			["Sniper Elite V2 - Game of the Year Edition", 0]
+		],
 		"Sonic's Ultimate Genesis Collection": [
 			["Sega Mega Drive Ultimate Collection", 1]
 		],
@@ -444,6 +467,9 @@
 		],
 		"Stoked": [
 			["Stoked - Big Air Edition", 0]
+		],
+		"Tiger Woods PGA Tour 13": [
+			["Tiger Woods PGA Tour 13 (Masters Collector's Edition)", 0]
 		],
 		"Tom Clancy's Splinter Cell - Blacklist (Disc 1) (Campaign Part 1 & Multiplayer)": [
 			["Tom Clancy's Splinter Cell - Blacklist (Disc 1)", 1]

@@ -77,6 +77,9 @@
     "AFL Challenge (Australia)": {
         "languages": "En"
     },
+    "AI Mahjong (Japan)": {
+        "languages": "Ja"
+    },
     "AI Shougi (Japan) (v2.00)": {
         "languages": "Ja"
     },
@@ -260,6 +263,9 @@
     "Army of Two - The 40th Day (USA)": {
         "languages": "En"
     },
+    "Arnaqueur, L' (France)": {
+        "languages": "Fr"
+    },
     "Arthur and the Minimoys (Europe) (De,It)": {
         "languages": "De, It"
     },
@@ -419,6 +425,9 @@
     "Blade Dancer - Lineage of Light (USA)": {
         "languages": "En"
     },
+    "Blade Dancer - Sen'nen no Yakusoku (Japan)": {
+        "languages": "Ja"
+    },
     "BlazBlue - Calamity Trigger (Europe) (En,Ja,Fr,De,Es,Zh,Ko)": {
         "languages": "Zh, En, Fr, De, Ja, Ko, Es"
     },
@@ -498,6 +507,9 @@
         "languages": "Ja"
     },
     "Bokujou Monogatari - Harvest Moon - Boy & Girl (Japan)": {
+        "languages": "Ja"
+    },
+    "Bokujou Monogatari - Sugar Mura to Minna no Negai (Japan)": {
         "languages": "Ja"
     },
     "Bomberman (Europe) (En,Fr,De,Es,It)": {
@@ -663,7 +675,7 @@
         "languages": "En"
     },
     "Buzz! Polskie Lamiglowki ~ Buzz! Mozak Hrvatske (Europe) (Pl,Hr)": {
-        "languages": "Pl"
+        "languages": "Pl, Hr"
     },
     "Buzz! Que Sabes de tu Pais (Spain)": {
         "languages": "Es"
@@ -777,7 +789,7 @@
         "languages": "En, Fr, De, It, Es"
     },
     "Cart Kings (India) (En,Hi)": {
-        "languages": "En"
+        "languages": "En, Hi"
     },
     "Castlevania - The Dracula X Chronicles (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
@@ -801,7 +813,7 @@
         "languages": "En, Fr, It, Es"
     },
     "Chandragupta - Warrior Prince (India) (En,Hi)": {
-        "languages": "En"
+        "languages": "En, Hi"
     },
     "Chase Cop - Pursuit Force (Korea)": {
         "languages": "Ko"
@@ -3017,6 +3029,9 @@
     "Juusei to Diamond (Japan)": {
         "languages": "Ja"
     },
+    "K-ON! Houkago Live!! (Japan)": {
+        "languages": "Ja"
+    },
     "Kaleido-Eve (Japan)": {
         "languages": "Ja"
     },
@@ -3135,6 +3150,9 @@
         "languages": "Ja"
     },
     "Kin'iro no Corda (Japan)": {
+        "languages": "Ja"
+    },
+    "Kin'iro no Corda 3 - Another Sky feat. Jinnan (Japan)": {
         "languages": "Ja"
     },
     "King of Clubs (Europe) (En,Fr,De,Es,It,Nl)": {
@@ -4361,6 +4379,9 @@
     "Need for Speed - Underground Rivals (USA)": {
         "languages": "En"
     },
+    "Nendoroid Generation (Japan)": {
+        "languages": "Ja"
+    },
     "Neopets - Petpet Adventures - The Wand of Wishing (USA)": {
         "languages": "En"
     },
@@ -4801,6 +4822,9 @@
     },
     "PixelJunk Monsters UMD Limited Edition (Asia) (En,Ja)": {
         "languages": "En, Ja"
+    },
+    "Planetarium Creator Ohira Takayuki Kanshuu - Homestar Portable (Japan)": {
+        "languages": "Ja"
     },
     "Platypus (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
@@ -6104,6 +6128,9 @@
     "TalkMan (Japan) (En,Ja,Zh,Ko) (Microphone Doukonban)": {
         "languages": "Zh, En, Ja, Ko"
     },
+    "TalkMan (Japan) (Soft Tantaiban)": {
+        "languages": "Ja"
+    },
     "TalkMan Euro! TalkMan Europa Gengo-ban (Japan) (En,Ja,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Ja, Es"
     },
@@ -6279,6 +6306,9 @@
         "languages": "Ja"
     },
     "Toki no Kizuna - Hanamusubi Tsuzuri (Japan)": {
+        "languages": "Ja"
+    },
+    "Tokimeki Memorial 4 (Japan)": {
         "languages": "Ja"
     },
     "Tokobot (Europe) (En,Fr,De,Es,It)": {
@@ -6992,6 +7022,9 @@
     "Yu-Gi-Oh! 5D's - Tag Force 6 (Japan)": {
         "languages": "Ja"
     },
+    "Yu-Gi-Oh! 5D's Tag Force 5 (Japan)": {
+        "languages": "Ja"
+    },
     "Yu-Gi-Oh! Duel Monsters GX - Tag Force 2 (Japan)": {
         "languages": "Ja"
     },
@@ -7030,6 +7063,9 @@
     },
     "Zhuo Hou La - Hou Zi Ai Zuo Zhan (Asia)": {
         "languages": "Zh"
+    },
+    "Zill O'll Infinite Plus (Japan)": {
+        "languages": "Ja"
     },
     "unENDing Bloody Call (Japan)": {
         "languages": "Ja"

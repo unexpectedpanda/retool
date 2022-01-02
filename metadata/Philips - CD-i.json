@@ -74,6 +74,9 @@
     "Accelerator (Europe)": {
         "languages": ""
     },
+    "Adjustable Bed, The (Europe)": {
+        "languages": ""
+    },
     "Adventure of the Space Ship Beagle, The (Japan)": {
         "languages": ""
     },
@@ -371,6 +374,9 @@
     "Bose Home Cinema Sound System Demonstration Disc (Germany)": {
         "languages": "De"
     },
+    "Bose Lifestyle 12 Audio Home Entertainment System Demonstration CD-i, The (Europe)": {
+        "languages": ""
+    },
     "Bradley Fighting Vehicle - Operation Desert Storm - Sustainment Training (USA)": {
         "languages": "En"
     },
@@ -434,6 +440,27 @@
     "CD Shoot (USA)": {
         "languages": ""
     },
+    "CD-I Full Motion Video Update (USA)": {
+        "languages": ""
+    },
+    "CD-I Prototype Disc (Germany) (Green & Black)": {
+        "languages": ""
+    },
+    "CD-I Prototype Disc (Germany) (Green & Black) (Alt 2)": {
+        "languages": ""
+    },
+    "CD-I Prototype Disc (Germany) (Green & Black) (Alt)": {
+        "languages": ""
+    },
+    "CD-I Prototype Disc (Germany) (Silver & Black)": {
+        "languages": ""
+    },
+    "CD-I Prototype Disc (Germany) (Silver & Green)": {
+        "languages": ""
+    },
+    "CD-I Prototype Disc (Germany) (Silver & Red)": {
+        "languages": ""
+    },
     "CD-Online - Issue 01 - Internet on TV (UK)": {
         "languages": "En"
     },
@@ -457,6 +484,9 @@
     },
     "CD-i - Ready Steady Go! (Europe)": {
         "languages": "En"
+    },
+    "CD-i 700 - English Version - Schindler (Europe)": {
+        "languages": ""
     },
     "CD-i Demo Disc - Philips Interactive Media Systems Presents - Examples from Grolier Multimedia Encyclopedia (Europe)": {
         "languages": ""
@@ -485,9 +515,6 @@
     "CD-i Music Book - Classical Guitar Volume 1 (USA)": {
         "languages": ""
     },
-    "CD-i Prototype Disc (Europe)": {
-        "languages": ""
-    },
     "CD-i Title Sampler - Summer '94 (USA) (En,Fr,De,Nl)": {
         "languages": "Nl, En, Fr, De"
     },
@@ -499,6 +526,9 @@
     },
     "CD-i World ProSource 1.0 (UK)": {
         "languages": ""
+    },
+    "CD-i im Gewerblichen Einsatz... (Germany)": {
+        "languages": "De"
     },
     "CD-i in Schools (UK)": {
         "languages": "En"
@@ -1034,6 +1064,9 @@
     "Caesars World of Gambling (USA, Europe)": {
         "languages": "En"
     },
+    "Campman Tennekes de Jong Architekten - Scholenbouw (Netherlands)": {
+        "languages": ""
+    },
     "Caraibes Offshore (France)": {
         "languages": ""
     },
@@ -1088,7 +1121,10 @@
     "Chargeurs - Rapport Annuel 1993 (France)": {
         "languages": ""
     },
-    "Charting a New World (Belgium)": {
+    "Charting a New World (Canada) (En,Fr)": {
+        "languages": "En, Fr"
+    },
+    "Charting a New World (Europe) (Beta)": {
         "languages": ""
     },
     "Child is Born, A (Europe)": {
@@ -1124,6 +1160,9 @@
     "Citta piu Felice del Mondo! di Richard Scarry, La (Italy)": {
         "languages": "It"
     },
+    "Civil War, The - Four Years of War and Its Aftermath (USA)": {
+        "languages": "En"
+    },
     "Civil War, The - The South Secedes and War Begins (USA)": {
         "languages": "En"
     },
@@ -1145,6 +1184,9 @@
     "Cluedo - The Mystery Continues (Europe) (Beta)": {
         "languages": ""
     },
+    "Comando Tierra (Spain)": {
+        "languages": "Es"
+    },
     "Complete Your Financial Jigsaw (UK)": {
         "languages": ""
     },
@@ -1161,6 +1203,9 @@
         "languages": ""
     },
     "Compton's Interactive Encyclopedia (USA) (1995) (Digital Video)": {
+        "languages": ""
+    },
+    "Concept of Clustering, The (Europe)": {
         "languages": ""
     },
     "Concise Oxford Dictionary & Oxford Thesaurus, The (Europe)": {
@@ -1201,6 +1246,21 @@
     },
     "Cream of Eric Clapton, The (USA) (Disc 2)": {
         "languages": "En"
+    },
+    "Creation for the Imagination (USA)": {
+        "languages": ""
+    },
+    "Creation with Digital Video (USA) (Green)": {
+        "languages": ""
+    },
+    "Creation with Digital Video (USA) (Red)": {
+        "languages": ""
+    },
+    "Creation with MediaMogul (USA) (Blue)": {
+        "languages": ""
+    },
+    "Creation with MediaMogul (USA) (Grey)": {
+        "languages": ""
     },
     "Creature Shock (Europe) (Disc 1)": {
         "languages": "En"
@@ -1277,6 +1337,9 @@
     "Destination Great Britain - Wales (Canada)": {
         "languages": ""
     },
+    "Diamant Frituurtest (Netherlands)": {
+        "languages": ""
+    },
     "Dictionnaire Hachette Multimedia (France)": {
         "languages": "Fr"
     },
@@ -1287,6 +1350,9 @@
         "languages": "Fr"
     },
     "Dictionnaire Hachette Multimedia (France) (Demo)": {
+        "languages": ""
+    },
+    "Digital Video - Free Demo Disc (UK)": {
         "languages": ""
     },
     "Digital Video Demonstration Disc (Europe)": {
@@ -1373,6 +1439,12 @@
     "Earth Rhythms - Daichi no Hibiki (Japan)": {
         "languages": "En"
     },
+    "Ecosystems - Nature in Balance (USA)": {
+        "languages": "En"
+    },
+    "Effacer (USA)": {
+        "languages": ""
+    },
     "Effectief Communiceren I - School Version (Netherlands) (Beta)": {
         "languages": ""
     },
@@ -1395,6 +1467,9 @@
         "languages": "Fr"
     },
     "Eureka - Gutenberg - L'Imprimerie et Ses Precurseurs (France) (Beta)": {
+        "languages": ""
+    },
+    "European CD-i Association, The - CD-i Presentation (Europe)": {
         "languages": ""
     },
     "European Party (Europe)": {
@@ -1516,6 +1591,9 @@
     },
     "Football (Europe)": {
         "languages": "En"
+    },
+    "Football (Europe) (Beta)": {
+        "languages": ""
     },
     "Football (France)": {
         "languages": "Fr"
@@ -1709,10 +1787,10 @@
     "Head Crash - Cranium Error (Europe) (Beta)": {
         "languages": ""
     },
-    "Hello U.S.A. (Europe) (Disc 1) (Hit the Road!)": {
+    "Hello U.S.A. (Europe) (Disc 1) (Hit the Road!) (Proto)": {
         "languages": ""
     },
-    "Hello U.S.A. (Europe) (Disc 3) (The Heart of Country Music)": {
+    "Hello U.S.A. (Europe) (Disc 3) (The Heart of Country Music) (Proto)": {
         "languages": ""
     },
     "Henri Des - Les Betises (France)": {
@@ -1862,6 +1940,9 @@
     "Interactief Philips Magazine '92-'93 (Netherlands)": {
         "languages": "Nl"
     },
+    "Interactive Education - Adding & Subtracting Decimals (USA)": {
+        "languages": ""
+    },
     "Interactive Education - Converting Fractions to Decimals (USA)": {
         "languages": "En"
     },
@@ -1874,8 +1955,14 @@
     "Interactive Education - Learning To Read - People 1 (USA)": {
         "languages": "En"
     },
+    "Interactive Education - Meaning of a Fraction (USA)": {
+        "languages": ""
+    },
     "Interactive Education - Multiplying & Dividing Fractions (USA)": {
         "languages": "En"
+    },
+    "Interactive Education - Our Number System (USA)": {
+        "languages": ""
     },
     "Interactive Math - Decimals (USA) (En,Es)": {
         "languages": "En, Es"
@@ -1886,10 +1973,10 @@
     "Interactive Math - Whole Numbers (USA) (En,Es)": {
         "languages": "En, Es"
     },
-    "International Tennis Open (Europe) (En,Fr) (8100082)": {
+    "International Tennis Open (Europe) (En,Fr)": {
         "languages": "En, Fr"
     },
-    "International Tennis Open (Europe) (En,Fr) (8120040)": {
+    "International Tennis Open (Europe) (En,Fr) (Simultaneous 2 Player Game)": {
         "languages": "En, Fr"
     },
     "International Tennis Open (Germany) (En,De)": {
@@ -1898,17 +1985,23 @@
     "International Tennis Open (Germany) (En,De) (Version 2 Spieler)": {
         "languages": "En, De"
     },
-    "International Tennis Open (Italy) (En,It)": {
+    "International Tennis Open (Italy) (En,It) (Versione 2 Giocatori)": {
         "languages": "En, It"
     },
-    "International Tennis Open (USA)": {
-        "languages": ""
+    "International Tennis Open (Spain) (En,Es) (Version 2 Jugadores)": {
+        "languages": "En, Es"
     },
-    "International Tennis Open (USA) (En,Fr) (Rev 1)": {
+    "International Tennis Open (USA) (En,Fr)": {
+        "languages": "En, Fr"
+    },
+    "International Tennis Open (USA) (En,Fr) (Simultaneous 2 Player Game)": {
         "languages": "En, Fr"
     },
     "Internetten op je TV! (Netherlands)": {
         "languages": "Nl"
+    },
+    "Introducing Volvo S80 - 1999 (Europe)": {
+        "languages": ""
     },
     "Introduction to Photo CD, An - Version 2.0 (USA)": {
         "languages": "En"
@@ -2136,16 +2229,16 @@
         "languages": ""
     },
     "Language Director - Guided Tour - Deutsch Level 2 (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Sk) (Disc 0)": {
-        "languages": "Zh, Da, Nl, En, Fi, Fr, De, It, Ja, No, Pt, Es, Sv"
+        "languages": "Zh, Da, Nl, En, Fi, Fr, De, It, Ja, No, Pt, Es, Sv, Sk"
     },
     "Language Director - Guided Tour - English Level 1 (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Sk) (Disc 0)": {
-        "languages": "Zh, Da, Nl, En, Fi, Fr, De, It, Ja, No, Pt, Es, Sv"
+        "languages": "Zh, Da, Nl, En, Fi, Fr, De, It, Ja, No, Pt, Es, Sv, Sk"
     },
     "Language Director - Guided Tour - English Level 1 (Europe) (Rev 1)": {
         "languages": ""
     },
     "Language Director - Guided Tour - English Level 2 (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Sk) (Disc 0)": {
-        "languages": "Zh, Da, Nl, En, Fi, Fr, De, It, Ja, No, Pt, Es, Sv"
+        "languages": "Zh, Da, Nl, En, Fi, Fr, De, It, Ja, No, Pt, Es, Sv, Sk"
     },
     "Language Director - Guided Tour - English Level 3 (Europe)": {
         "languages": ""
@@ -2327,6 +2420,9 @@
     "Manna Space - Travel Business (Japan)": {
         "languages": "Ja"
     },
+    "Maquina de Cuentos, La - Cuentos Magicos (Spain)": {
+        "languages": "Es"
+    },
     "Marco Polo (Europe) (Disc 1) (The Game)": {
         "languages": "En"
     },
@@ -2382,6 +2478,9 @@
         "languages": "En"
     },
     "Mega Maze (Europe) (Beta)": {
+        "languages": ""
+    },
+    "Mega Maze (USA)": {
         "languages": ""
     },
     "Mega Popclassics (Netherlands) (En,Nl)": {
@@ -2597,6 +2696,9 @@
     "One Step Ahead (Germany)": {
         "languages": ""
     },
+    "Ontdek de Interactieve Wereld van Neckermann (Netherlands)": {
+        "languages": ""
+    },
     "Ontdek het Onbekende Nederland (Netherlands)": {
         "languages": "Nl"
     },
@@ -2609,6 +2711,9 @@
     "Open de Palm Springs, L' (France)": {
         "languages": "Fr"
     },
+    "OptImage CD-I Starter System - Sampler Disc (USA)": {
+        "languages": ""
+    },
     "Origami (Europe)": {
         "languages": ""
     },
@@ -2620,6 +2725,9 @@
     },
     "Ours Berenstain, Les - Comme des Grands (France)": {
         "languages": "Fr"
+    },
+    "Overval, De - Over Dwangmiddelen en Getuigenverhoor (Netherlands)": {
+        "languages": ""
     },
     "P.A.W.S - Personal Automated Wagging System (Europe)": {
         "languages": "En"
@@ -2725,6 +2833,9 @@
     },
     "Philips Audio-Video Products '92-'93 on CD-Interactive (Europe) (En,Fr,De,Es,It,Nl)": {
         "languages": "Nl, En, Fr, De, It, Es"
+    },
+    "Philips CD-I Demonstration Disc with FMV Version II (a) (Europe)": {
+        "languages": ""
     },
     "Philips CD-i Demo Disc - May 1988 (Germany)": {
         "languages": ""
@@ -2846,6 +2957,9 @@
     "Private Lesson Series - Rock Guitar - A Beginner's Guide (Europe)": {
         "languages": ""
     },
+    "Product Information - Volvo 960 - 1995 (Europe)": {
+        "languages": ""
+    },
     "Pyramid Adventures - Episode 1 - Treasures of the Lost Pyramid (USA)": {
         "languages": ""
     },
@@ -2902,6 +3016,9 @@
     },
     "Rhythm Maker (USA) (Beta)": {
         "languages": "En"
+    },
+    "Rhythm Maker (USA) (Beta) (Alt)": {
+        "languages": ""
     },
     "Richard Scarry's Allerbeste Buurt Disc! (Netherlands)": {
         "languages": "Nl"
@@ -2999,6 +3116,12 @@
     "Say What You Want (UK)": {
         "languages": ""
     },
+    "Scan & Teach - Thema 1-6 - Klasse 3 (Germany)": {
+        "languages": ""
+    },
+    "Scan & Teach - Thema 7-12 - Klasse 3 (Germany)": {
+        "languages": ""
+    },
     "Schilderschool (Netherlands) (En,Fr,De,Es,It,Nl)": {
         "languages": "Nl, En, Fr, De, It, Es"
     },
@@ -3035,6 +3158,12 @@
     "Secrets of Tatjana (Europe)": {
         "languages": "En"
     },
+    "Serie Privelessen - Klassieke Gitaar - Handleiding voor Beginners (Netherlands)": {
+        "languages": ""
+    },
+    "Serum-Werk Bernburg AG - Veterinaerpharmaka - Vol. 1 (Germany)": {
+        "languages": ""
+    },
     "Shadoan (Europe)": {
         "languages": ""
     },
@@ -3056,14 +3185,23 @@
     "Si Balla (Italy) (Beta)": {
         "languages": "It"
     },
+    "Silhouette - CD-i Demo Version (Austria)": {
+        "languages": ""
+    },
     "Sinnaneun Susjanala 2 (Korea)": {
         "languages": "Ko"
+    },
+    "Skin Style (USA)": {
+        "languages": ""
     },
     "Sliver (USA) (Disc 1)": {
         "languages": "En"
     },
     "Sliver (USA) (Disc 2)": {
         "languages": "En"
+    },
+    "Smithsonian Presents the Riches of Coins, The (USA)": {
+        "languages": ""
     },
     "Smithsonian Presents, The - Stamps - Windows on the World (France)": {
         "languages": "En"
@@ -3137,8 +3275,14 @@
     "Steel Machine (Europe)": {
         "languages": ""
     },
+    "Sticks 'n' Fire - Stop That Train (Europe)": {
+        "languages": ""
+    },
     "Stickybear Family Fun (Europe)": {
         "languages": ""
+    },
+    "Stickybear Math (USA) (En,Es)": {
+        "languages": "En, Es"
     },
     "Stickybear Maths (Europe) (En,Es)": {
         "languages": "En, Es"
@@ -3212,6 +3356,9 @@
     "Surf City (USA)": {
         "languages": ""
     },
+    "Swiss Click (Switzerland)": {
+        "languages": ""
+    },
     "TF1 - Le Journal Interactif 1995 et le Jeu des Stars de l'Info (France) (Disc 1) (Le Journal Interactif 1995)": {
         "languages": "Fr"
     },
@@ -3236,6 +3383,9 @@
     "TV Interactief - Site Seeing in Digitaal Eindhoven (Netherlands)": {
         "languages": "Nl"
     },
+    "Tandem Production (France)": {
+        "languages": ""
+    },
     "Tangram (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt)": {
         "languages": "Nl, En, Fr, De, It, Ja, Pt, Es"
     },
@@ -3245,10 +3395,19 @@
     "Teams & Leaders (UK)": {
         "languages": ""
     },
+    "Tekenen en Schilderen (Netherlands)": {
+        "languages": ""
+    },
+    "TeleApotheke - Winterprogramm 1995 (B) (Germany)": {
+        "languages": ""
+    },
     "Tell Me Why - One (USA)": {
         "languages": ""
     },
     "Tell Me Why - Two (USA, Europe)": {
+        "languages": "En"
+    },
+    "Temperature, Pressure and Humidity (USA)": {
         "languages": "En"
     },
     "Tesoro dell'Isola dei Giochi, Il (Italy)": {
@@ -3449,14 +3608,32 @@
     "Universal CD-ROM - New Age Television 5.1 (Italy)": {
         "languages": "It"
     },
+    "Update - Interactive Company Presentation - Philips Sound & Vision - Edition 1 - October 1994 (Europe)": {
+        "languages": ""
+    },
     "Uptown Blues, The (USA)": {
         "languages": "En"
     },
     "Usine aux Crayons, L' (France)": {
         "languages": "Fr"
     },
+    "Validation Disc (Germany) (Disc 1)": {
+        "languages": ""
+    },
+    "Validation Disc (Japan) (Disc 2)": {
+        "languages": ""
+    },
     "Valkieser Multi Media (Netherlands)": {
         "languages": ""
+    },
+    "Vapro - Basiskennis Natuurkunde en Techniek - Deel 1 - Meten (Netherlands)": {
+        "languages": ""
+    },
+    "Vapro - Basiskennis Natuurkunde en Techniek - Deel 2 - Eenheden (Netherlands)": {
+        "languages": ""
+    },
+    "Vapro - Transport von Stoffen 1 & Transport de Materiaux 1 (Netherlands) (Fr,De)": {
+        "languages": "Fr, De"
     },
     "Vegas Girls (Europe)": {
         "languages": ""
@@ -3472,6 +3649,9 @@
     },
     "Verhalen Toverdoos - Magische Vertellingen (Netherlands)": {
         "languages": "Nl"
+    },
+    "Video CD Music Sampler with Online Ordering (Europe)": {
+        "languages": ""
     },
     "Video Speedway - Grand Prix (France)": {
         "languages": "Fr"
@@ -3515,14 +3695,62 @@
     "Voetbal (Netherlands)": {
         "languages": "Nl"
     },
+    "Volvo - Clive Alive (Netherlands)": {
+        "languages": "Nl"
+    },
+    "Volvo - Films I - 1999 (Europe)": {
+        "languages": ""
+    },
+    "Volvo - Films II - 1999 (Europe)": {
+        "languages": ""
+    },
+    "Volvo - Films III - 1998 (Netherlands)": {
+        "languages": "Nl"
+    },
     "Volvo 850 - Colour & Upholstery (Europe)": {
         "languages": "En"
     },
     "Volvo 850 - Farben & Bezuege (Germany)": {
         "languages": "De"
     },
+    "Volvo C70 - Features - 2000 (Netherlands)": {
+        "languages": "Nl"
+    },
+    "Volvo Life - Volvo S80 - 1999 (Netherlands)": {
+        "languages": "Nl"
+    },
+    "Volvo S40-V40 - Features - 2001 (Netherlands)": {
+        "languages": "Nl"
+    },
+    "Volvo S40-V40 - Features - 2002 (Netherlands)": {
+        "languages": "Nl"
+    },
+    "Volvo S60 - Features - 2002 (Netherlands)": {
+        "languages": "Nl"
+    },
+    "Volvo S70 - 1998 (Netherlands)": {
+        "languages": "Nl"
+    },
+    "Volvo S70 - 2000 (Netherlands)": {
+        "languages": "Nl"
+    },
+    "Volvo S80 - Features - 2001 (Netherlands)": {
+        "languages": "Nl"
+    },
+    "Volvo V70 - 1999 (Netherlands)": {
+        "languages": "Nl"
+    },
+    "Volvo V70 - 2000 (Netherlands)": {
+        "languages": "Nl"
+    },
+    "Volvo V70 - Features - 2002 (Netherlands)": {
+        "languages": "Nl"
+    },
     "Von der Elbe an die Spree (Germany)": {
         "languages": "De"
+    },
+    "Voyeur (France)": {
+        "languages": ""
     },
     "Voyeur (USA)": {
         "languages": "En"
@@ -3542,6 +3770,9 @@
     "Wacky World of Miniature Golf with Eugene Levy, The (USA)": {
         "languages": "En"
     },
+    "Wacky World of Miniature Golf with Eugene Levy, The (USA) (Beta)": {
+        "languages": ""
+    },
     "Wayne's World (USA) (Disc 1)": {
         "languages": "En"
     },
@@ -3553,6 +3784,9 @@
     },
     "Weitere Geheimnisvolle Fabeln von Aesop (Germany)": {
         "languages": "De"
+    },
+    "Werndl Office Furniture Systems - CD-Interactive Catalogue & Presentation Disc (USA)": {
+        "languages": ""
     },
     "Whack a Bubble (Europe)": {
         "languages": "En"
@@ -3602,6 +3836,9 @@
     "Wining & Dining - De Spaanse Keuken Thuis (Netherlands)": {
         "languages": ""
     },
+    "Winning Spirit, The - Winning Spirit Workshops 1995 (Europe)": {
+        "languages": ""
+    },
     "Wordplay (Europe)": {
         "languages": "En"
     },
@@ -3616,6 +3853,9 @@
     },
     "World of Impressionism, The (Europe)": {
         "languages": "En"
+    },
+    "World of Number, The (Europe) (Disc 4) (Using and Applying Number)": {
+        "languages": ""
     },
     "Worlds of..., The (Europe)": {
         "languages": ""

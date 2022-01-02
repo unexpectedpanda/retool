@@ -83,6 +83,9 @@
     "Ballz - The Director's Cut (World) (En,Ja)": {
         "languages": "En, Ja"
     },
+    "Battle Blues (Korea)": {
+        "languages": "Ko"
+    },
     "Battle Chess (Europe)": {
         "languages": "En"
     },
@@ -109,6 +112,9 @@
     },
     "Blade Force (Japan)": {
         "languages": "Ja"
+    },
+    "Blade Force (Korea)": {
+        "languages": "En"
     },
     "Blade Force (USA)": {
         "languages": "En"
@@ -157,6 +163,9 @@
     },
     "Captain Quazar (Japan)": {
         "languages": "Ja"
+    },
+    "Captain Quazar (Korea)": {
+        "languages": "En"
     },
     "Captain Quazar (USA)": {
         "languages": "En"
@@ -257,6 +266,18 @@
     "Daedalus Encounter, The (Japan) (Demo)": {
         "languages": "Ja"
     },
+    "Daedalus Encounter, The (Korea) (Disc 1)": {
+        "languages": "Ko"
+    },
+    "Daedalus Encounter, The (Korea) (Disc 2)": {
+        "languages": "Ko"
+    },
+    "Daedalus Encounter, The (Korea) (Disc 3)": {
+        "languages": "Ko"
+    },
+    "Daedalus Encounter, The (Korea) (Disc 4)": {
+        "languages": "Ko"
+    },
     "Daedalus Encounter, The (USA) (Disc 1)": {
         "languages": "En"
     },
@@ -335,6 +356,9 @@
     "Dragon's Lair (Japan)": {
         "languages": ""
     },
+    "Dragon's Lair (Korea)": {
+        "languages": "En"
+    },
     "Dragon's Lair (USA) (RE1)": {
         "languages": "En"
     },
@@ -392,7 +416,7 @@
     "FIFA International Soccer (Europe)": {
         "languages": "En"
     },
-    "FIFA International Soccer (USA)": {
+    "FIFA International Soccer (USA, Korea)": {
         "languages": "En"
     },
     "Family Feud (USA)": {
@@ -402,6 +426,9 @@
         "languages": "En, Ja"
     },
     "Fatty Bear's Birthday Surprise (USA)": {
+        "languages": "En"
+    },
+    "Fatty Bear's Fun Pack (Korea)": {
         "languages": "En"
     },
     "Fatty Bear's Funpack (Japan)": {
@@ -444,6 +471,9 @@
         "languages": "En"
     },
     "Footie (USA) (Powerslide Bonus Disk) (Unl)": {
+        "languages": "En"
+    },
+    "Fun 'n Games (USA)": {
         "languages": "En"
     },
     "Fun 'n Games - Soft no Omochabako (Japan) (En,Ja)": {
@@ -610,6 +640,9 @@
     },
     "J.League Virtual Stadium (Japan)": {
         "languages": "Ja"
+    },
+    "Jammit (USA)": {
+        "languages": "En"
     },
     "Jikki Pachi-Slot Simulator Vol. 1 (Japan)": {
         "languages": "Ja"
@@ -899,7 +932,10 @@
     "Oukoku no Grand Chef (Japan)": {
         "languages": "Ja"
     },
-    "Out of this World (USA) (3DO Maniac Pack) (RE)": {
+    "Out of This World (USA)": {
+        "languages": ""
+    },
+    "Out of This World (USA) (3DO Maniac Pack) (RE)": {
         "languages": "En"
     },
     "Outer World (Japan)": {
@@ -1054,6 +1090,9 @@
     },
     "Quarantine (USA, Japan) (En,Ja,Fr,De,Es) (RE3)": {
         "languages": "En, Fr, De, Ja, Es"
+    },
+    "Quarterback Attack (USA)": {
+        "languages": "En"
     },
     "Real Pinball (Canada)": {
         "languages": "En"
@@ -1295,7 +1334,7 @@
     "Starblade (Canada)": {
         "languages": "En"
     },
-    "Starblade (Europe)": {
+    "Starblade (Europe, Germany)": {
         "languages": "En"
     },
     "Starblade (Japan)": {
@@ -1576,6 +1615,9 @@
     },
     "We Got It (Europe)": {
         "languages": "En"
+    },
+    "Who Shot Johnny Rock (USA)": {
+        "languages": ""
     },
     "Wicked 18 (USA)": {
         "languages": "En"

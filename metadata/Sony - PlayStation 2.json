@@ -482,6 +482,9 @@
     "Action Replay 2 V2 (USA) (Disc 1) (Unl) (v2.01)": {
         "languages": "En"
     },
+    "Action Replay Max (Europe) (Unl)": {
+        "languages": ""
+    },
     "Action Replay Max (USA) (Unl) (v3.10)": {
         "languages": "En"
     },
@@ -3351,7 +3354,7 @@
         "languages": "En"
     },
     "Cart Kings (India) (En,Hi)": {
-        "languages": "En"
+        "languages": "En, Hi"
     },
     "Cartagra - Tamashii no Kunou (Japan)": {
         "languages": "Ja"
@@ -3498,7 +3501,7 @@
         "languages": "Es"
     },
     "Chandragupta - Warrior Prince (India) (En,Hi)": {
-        "languages": "En"
+        "languages": "En, Hi"
     },
     "Chanter - Kimi no Uta ga Todoitara (Japan)": {
         "languages": "Ja"
@@ -3783,7 +3786,7 @@
         "languages": "En"
     },
     "Club Football - FC Barcelona (Europe) (En,Es,It,Ca)": {
-        "languages": "En, It, Es"
+        "languages": "En, It, Es, Ca"
     },
     "Club Football - FC Bayern Muenchen (Europe) (En,De,Es)": {
         "languages": "En, De, Es"
@@ -3840,7 +3843,7 @@
         "languages": "En"
     },
     "Club Football 2005 - FC Barcelona (Europe) (En,Es,It,Ca)": {
-        "languages": "En, It, Es"
+        "languages": "En, It, Es, Ca"
     },
     "Club Football 2005 - FC Bayern Muenchen (Europe) (En,De,Es)": {
         "languages": "En, De, Es"
@@ -5211,7 +5214,7 @@
         "languages": "Ja"
     },
     "Desi Adda - Games of India (India) (En,Hi,Pa,Ta)": {
-        "languages": "En"
+        "languages": "En, Hi, Pa, Ta"
     },
     "Desire (Japan)": {
         "languages": "Ja"
@@ -9114,13 +9117,13 @@
         "languages": "Ko"
     },
     "Gaelic Games - Football (Europe) (En,Gd)": {
-        "languages": "En"
+        "languages": "En, Gd"
     },
     "Gaelic Games - Football 2 (Europe) (En,Gd)": {
-        "languages": "En"
+        "languages": "En, Gd"
     },
     "Gaelic Games - Hurling (Europe) (En,Gd)": {
-        "languages": "En"
+        "languages": "En, Gd"
     },
     "Gaika no Gouhou - Air Land Force (Japan)": {
         "languages": "Ja"
@@ -10884,7 +10887,7 @@
         "languages": "En, Fr, De"
     },
     "Hanuman - Boy Warrior (India) (En,Hi)": {
-        "languages": "En"
+        "languages": "En, Hi"
     },
     "Happiness! de Lucks (Japan)": {
         "languages": "Ja"
@@ -11316,7 +11319,7 @@
         "languages": "En"
     },
     "High Rollers Casino (USA)": {
-        "languages": ""
+        "languages": "En"
     },
     "Higurashi no Naku Koro ni - Matsuri (Japan)": {
         "languages": "Ja"
@@ -20048,6 +20051,9 @@
     "PSi2 29 (UK) (Unl)": {
         "languages": ""
     },
+    "PSi2 31 (UK) (Unl)": {
+        "languages": ""
+    },
     "PSi2 32 (UK) (Unl)": {
         "languages": "En"
     },
@@ -20327,16 +20333,16 @@
     "Peter Pan (Europe) (En,Fr,De)": {
         "languages": "En, Fr, De"
     },
+    "Petit Copter (Japan)": {
+        "languages": "Ja"
+    },
+    "Petit Copter (Japan) (Controller Set)": {
+        "languages": "Ja"
+    },
     "Petit Four (Japan)": {
         "languages": "Ja"
     },
     "Petit Four (Japan) (Genteiban)": {
-        "languages": "Ja"
-    },
-    "PetitCopter (Japan)": {
-        "languages": "Ja"
-    },
-    "PetitCopter (Japan) (Controller Set)": {
         "languages": "Ja"
     },
     "Petz - Catz 2 (USA)": {
@@ -21699,7 +21705,7 @@
         "languages": "En"
     },
     "Ratchet & Clank - Size Matters (Europe, Australia) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Hr)": {
-        "languages": "Da, Nl, En, Fi, Fr, De, It, No, Pl, Pt, Es, Sv"
+        "languages": "Da, Nl, En, Fi, Fr, De, It, No, Pl, Pt, Es, Sv, Hr"
     },
     "Ratchet & Clank - Size Matters (USA)": {
         "languages": "En"
@@ -23555,6 +23561,9 @@
     "Sekai Saikyou Ginsei Igo 6 (Japan)": {
         "languages": "Ja"
     },
+    "Sekai no Subete - Two of Us (Japan)": {
+        "languages": "Ja"
+    },
     "Sekirei - Mirai kara no Okurimono (Japan)": {
         "languages": "Ja"
     },
@@ -24494,6 +24503,9 @@
     "SimPeople - Ochanoma Gekijou (Japan)": {
         "languages": "Ja"
     },
+    "Simoun - Ibara Sensou - Fuuin no Ri Maajon (Japan)": {
+        "languages": "Ja"
+    },
     "Simoun - Ibara Sensou - Fuuin no Ri Maajon (Japan) (Shokai Genteiban)": {
         "languages": "Ja"
     },
@@ -25008,7 +25020,7 @@
         "languages": "Da, Nl, En, Fi, Fr, De, It, No, Pl, Es, Sv"
     },
     "Sims 2, The - Pets (USA)": {
-        "languages": ""
+        "languages": "En"
     },
     "Sims, The (Asia)": {
         "languages": "Zh"
@@ -30201,7 +30213,7 @@
         "languages": "En, Fr, De"
     },
     "Way of the Samurai 2 (USA)": {
-        "languages": ""
+        "languages": "En"
     },
     "We Are- (Japan)": {
         "languages": "Ja"

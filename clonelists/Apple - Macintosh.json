@@ -3,8 +3,19 @@
 		"name": [
 			"Apple - Macintosh"
 		],
-		"last updated": "10 October 2021",
-		"minimum version": "0.89"
+		"last updated": "2 January 2022",
+		"minimum version": "0.92"
+	},
+
+	"overrides": {
+		"3-D Ultra Pinball & Trophy Bass (USA)": {
+			"new group": "3-D Ultra Pinball",
+			"condition": {
+				"region": ["USA"],
+				"higher than": ["Europe"],
+				"else group": "3-D Ultra Pinball & Trophy Bass (USA)"
+			}
+		}
 	},
 
 	"renames": {
@@ -17,11 +28,18 @@
 		"Dungeon Master II - The Legend of Skullkeep": [
 			["Dungeon Master II - Skullkeep", 1]
 		],
-		"Harry Potter and the Sorcerer's Stone (Deluxe Edition)": [
-			["Harry Potter and the Sorcerer's Stone", 2]
+		"Harry Potter and the Chamber of Secrets": [
+			["Harry Potter et la Chambre des Secrets", 1]
+		],
+		"Harry Potter and the Sorcerer's Stone": [
+			["Harry Potter and the Sorcerer's Stone (Deluxe Edition)", 0],
+			["Harry Potter a l'Ecole des Sorciers", 1]
 		],
 		"In Memoriam (Mac Install)": [
 			["In Memoriam (MAC - Install)", 1]
+		],
+		"Legend of Kyrandia, The - Book One": [
+			["Legend of Kyrandia, The", 2]
 		],
 		"Medal of Honor - Allied Assault (Disc 1)": [
 			["Medal of Honor - Allied Assault - War Chest", 0]
@@ -49,6 +67,12 @@
 		],
 		"Sims, The": [
 			["SimPeople", 1]
+		],
+		"Sims, The - Superstar (Expansion Pack) (Disc 1)": [
+			["Sims, Les - Superstar (Disc 1) (Disc Additionnel)", 1]
+		],
+		"Sims, The - Superstar (Expansion Pack) (Disc 2)": [
+			["Sims, Les - Superstar (Disc 2) (Disc Additionnel)", 1]
 		],
 		"Zork Nemesis (Disc 1)": [
 			["Zork Nemesis - The Forbidden Lands (Disc 1)", 1]

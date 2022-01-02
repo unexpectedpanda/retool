@@ -5405,7 +5405,10 @@
     "Slayers Royal (Japan)": {
         "languages": "Ja"
     },
-    "Slayers Royal 2 (Japan) (1M, 2M)": {
+    "Slayers Royal 2 (Japan) (1M)": {
+        "languages": "Ja"
+    },
+    "Slayers Royal 2 (Japan) (2M)": {
         "languages": "Ja"
     },
     "Snatcher (Japan)": {
@@ -6452,6 +6455,9 @@
     "Virtua Fighter 2 (Japan) (Rev C) (42M)": {
         "languages": "Ja"
     },
+    "Virtua Fighter 2 (Korea)": {
+        "languages": "En"
+    },
     "Virtua Fighter 2 (USA)": {
         "languages": "En"
     },
@@ -6532,6 +6538,9 @@
     },
     "Virtua Fighter Remix (Japan) (SegaNet)": {
         "languages": "Ja"
+    },
+    "Virtua Fighter Remix (Korea)": {
+        "languages": "En"
     },
     "Virtua Fighter Remix (USA)": {
         "languages": "En"

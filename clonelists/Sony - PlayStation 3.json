@@ -3,7 +3,7 @@
 		"name": [
 			"Sony - PlayStation 3"
 		],
-		"last updated": "28 November 2021",
+		"last updated": "2 January 2022",
 		"minimum version": "0.89"
 	},
 
@@ -167,6 +167,9 @@
 		"Call of Duty - Black Ops": [
 			["Call of Duty - Black Ops (Jimakuban)", 1],
 			["Call of Duty - Black Ops (Fukikaeban)", 2]
+		],
+		"Call of Duty - Black Ops II": [
+			["Call of Duty - Black Ops II (Jimakuban)", 1]
 		],
 		"Call of Duty - Ghosts": [
 			["Call of Duty - Ghosts (Jimakuban)", 1]
@@ -849,7 +852,8 @@
 		"Scene It Bright Lights! Big Screen!": [
 			["Scene It Ciak! Si Gira!", 1],
 			["Scene It Estrellas en la Pantalla Gigante", 1],
-			["Scene It Ganz grosses Kino!", 1]
+			["Scene It Ganz grosses Kino!", 1],
+			["Scene It Lumieres ! Action !", 1]
 		],
 		"Score International Baja 1000 - The Official Game": [
 			["Score International Baja 1000 - World Championship Off Road Racing", 1]
@@ -945,6 +949,13 @@
 		],
 		"Time and Eternity": [
 			["Toki to Towa - Tokitowa", 1]
+		],
+		"Time Crisis - Razing Storm": [
+			["Big 3 Gun Shooting", 1]
+		],
+		"Tom Clancy's EndWar (FW2.50)": [
+			["Tom Clancy's EndWar (FW2.42)", 2],
+			["Tom Clancy's EndWar", 3]
 		],
 		"Tom Clancy's Ghost Recon Anthology": [
 			["Tom Clancy's Ghost Recon Double Pack", 1]

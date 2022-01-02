@@ -7,7 +7,7 @@
             "These are defaults that Retool requires, don't modify this file.",
             "Check user-config.yaml for user-editable settings."
         ],
-        "last updated": "28 November 2021"
+        "last updated": "2 January 2022"
     },
 
     "ignore_tags": [
@@ -22,7 +22,7 @@
         "\\s?\\(Prerelease\\)",
         "\\s?\\(DEV\\)",
         "\\s?\\(Pre-Production\\)",
-        "\\s?\\(Review Code\\)",
+        "\\s?\\(Review (Code|Kit [0-9]+)\\)",
         "\\s?\\(Alt.*?\\)",
         "\\s?\\(Covermount\\)",
         "\\s?\\(eShop\\)",
@@ -247,6 +247,7 @@
     "languages": {
         "English": "En(-[A-Z][A-Z]){,1}",
         "Afrikaans": "Af",
+        "Albanian": "Sq",
         "Arabic": "Ar",
         "Bulgarian": "Bg",
         "Catalan": "Ca",
@@ -264,16 +265,20 @@
         "Hebrew": "He",
         "Hindi": "Hi",
         "Hungarian": "Hu",
+        "Indonesian": "Id",
         "Italian": "It",
         "Japanese": "Ja",
         "Korean": "Ko",
-        "Lithuania": "Lt",
+        "Latvian": "Lv",
+        "Lithuanian": "Lt",
+        "Macedonian": "Mk",
         "Norwegian": "No",
         "Polish": "Pl",
         "Portuguese": "Pt(-[A-Z][A-Z]){,1}",
         "Punjabi": "Pa",
         "Romanian": "Ro",
         "Russian": "Ru",
+        "Serbian": "Sr",
         "Slovak": "Sk",
         "Slovenian": "Sl",
         "Spanish": "Es(-[A-Z][A-Z]){,1}",
@@ -318,6 +323,7 @@
         "Ukraine": "",
         "Estonia": "",
         "Poland": "Pl",
+        "Latvia": "Lv",
         "Lithuania": "Lt",
         "Denmark": "Da",
         "Norway": "No",
@@ -327,6 +333,7 @@
         "Hungary": "Hu",
         "Czech": "Cs",
         "Greece": "El",
+        "Macedonia": "Mk",
         "India": "Hi",
         "South Africa": "",
         "Israel": "He",
@@ -337,6 +344,9 @@
         "United Arab Emirates": "Ar",
         "Bulgaria": "Bg",
         "Romania": "Ro",
+        "Albania": "Sq",
+        "Serbia": "Sr",
+        "Indonesia": "Id",
         "Unknown": ""
     },
 

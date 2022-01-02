@@ -3,7 +3,7 @@
 		"name": [
 			"Philips - CD-i"
 		],
-		"last updated": "28 November 2021",
+		"last updated": "2 January 2022",
 		"minimum version": "0.89"
 	},
 
@@ -79,6 +79,9 @@
 			["Maitres de la Peinture Hollandaise, Les", 1],
 			["Niederlaendischen Meister des 17. Jahrhunderts, Die", 1]
 		],
+		"Earth Command": [
+			["Comando Tierra", 1]
+		],
 		"Ghost (Disc 1)": [
 			["Ghost - Nachricht von Sam (Disc 1)", 1]
 		],
@@ -101,8 +104,9 @@
 			["Gli Impressionisti Francesi", 1]
 		],
 		"International Tennis Open": [
-			["International Tennis Open (8100082)", 1],
-			["International Tennis Open (8120040)", 2]
+			["International Tennis Open (Simultaneous 2 Player Game)", 0],
+			["International Tennis Open (Versione 2 Giocatori)", 0]
+
 		],
 		"Labyrinth of Crete": [
 			["Labyrinth von Kreta", 1]
@@ -194,6 +198,7 @@
 			["Star Trek VI - Das unentdeckte Land (Disc 2)", 1]
 		],
 		"Story Machine - Magic Tales": [
+			["Maquina de Cuentos, La - Cuentos Magicos", 1],
 			["Story Maschine - Maerchenzauber", 1],
 			["Verhalen Toverdoos - Magische Vertellingen", 1]
 		],

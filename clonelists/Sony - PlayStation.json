@@ -3,7 +3,7 @@
         "name": [
 			"Sony - PlayStation"
 		],
-        "last updated": "28 November 2021",
+        "last updated": "2 January 2022",
 		"minimum version": "0.92"
     },
 
@@ -179,6 +179,10 @@
 		"Play-Pre Vol. 8": {
 			"match": "short",
 			"categories": ["Demos"]
+		},
+		"StationMaster 04-2001 Xploder (Germany) (Demo) (Unl)": {
+			"match": "full",
+			"categories": ["Demos", "Applications"]
 		}
 	},
 
@@ -1451,7 +1455,7 @@
 		"Formula One 99": [
 			["Formula One '99", 2]
 		],
-		"FOX Sports Golf '99": [
+		"Fox Sports Golf '99": [
 			["Actua Golf 2", 1]
 		],
 		"FoxKids.com - Micro Maniacs Racing": [
@@ -3032,7 +3036,6 @@
 		],
 		"Tomba!": [
 			["Ore! Tomba", 1],
-			["Tombi", 1],
 			["Tombi!", 1]
 		],
 		"Tomba! 2 - The Evil Swine Return": [

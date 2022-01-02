@@ -3,12 +3,12 @@
         "name": [
 			"Sony - PlayStation 2"
 		],
-        "last updated": "28 November 2021",
+        "last updated": "2 January 2022",
 		"minimum version": "0.92"
     },
 
 	"categories": {
-		"Arc the Lad - Jeongryeongui Hwanghon (Korea) (Premiere Disc)": {
+		"Arc the Lad - Jeongryeongui Hwanghon - Premiere Disc (Korea)": {
 			"match": "full",
 			"categories": ["Promo", "Video"]
 		}
@@ -1115,8 +1115,8 @@
 			["Gallop Racer 8 - Live Horse Racing", 1]
 		],
 		"GameShark 2 - Video Game Enhancer": [
-			["GameShark 2 - Video Game Enhancer - Version 2", 1],
-			["GameShark 2 V2 - Video Game Enhancer", 2],
+			["GameShark 2 V2 - Video Game Enhancer", 0],
+			["GameShark 2 - Video Game Enhancer - Version 2", 2],
 			["GameShark 2 - Video Game Enhancer - V 1.0", 3]
 		],
 		"Garouden - Breakblow": [
@@ -1160,6 +1160,9 @@
 		],
 		"Global Touring Challenge - Africa": [
 			["GTC Africa", 1]
+		],
+		"Go Go Copter - Remote Control Helicopter": [
+			["Petit Copter", 1]
 		],
 		"Go Go Golf": [
 			["Magical Sports GoGoGolf", 1]
