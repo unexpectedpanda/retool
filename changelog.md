@@ -1,6 +1,12 @@
+# 1.03
+
+- The Satellaview-specific `(Magazine)` tag has been added to the multimedia
+  filter.
+- The `(DEBUG)` tag has been added to the preproudction filter.
+
 # 1.02
 
-- Fixed a SEGA ring code version comparison bug.
+- Fixed a Sega ring code version comparison bug.
 - The N-Gage-specific tag `(Full Trial)` has been added to the demos filter.
 - The N-Gage-specific tag `(Review Kit ##)` has been added to the preproduction
   filter.

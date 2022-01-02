@@ -21,6 +21,7 @@
         "\\s\\((?:(?!\\(|Proto( [0-9]{,2}){,1})[\\s\\S])*Proto( [0-9]{,2}){,1}\\)",
         "\\s?\\(Prerelease\\)",
         "\\s?\\(DEV\\)",
+        "\\s?\\(DEBUG\\)",
         "\\s?\\(Pre-Production\\)",
         "\\s?\\(Review (Code|Kit [0-9]+)\\)",
         "\\s?\\(Alt.*?\\)",
@@ -40,6 +41,7 @@
         "\\s\\((?:(?!\\(|OEM.*?)[\\s\\S])*OEM.*?\\)",
         "\\s?\\(Hibaihin\\)",
         "\\s?\\(Rerelease\\)",
+        "\\s?\\(Magazine\\)",
         "\\s?\\(Made in.*?\\)",
         "\\s?\\((\\d{8}|\\d{4}-\\d{2}-\\d{2}|\\d{2}-\\d{2}-\\d{4}|\\d{2}-\\d{2}-\\d{2}|(January|February|March|April|May|June|July|August|September|October|November|December), \\d{4})\\)",
         "\\s?\\(([0-9]{1,2}[A-Z]([ ,].[0-9]{1,2}[A-Z])*|R[E]{,1}[-]{,1}[0-9]{0,})\\)"
@@ -235,6 +237,7 @@
         "\\s?\\(Namco Museum Archives Vol [0-9]\\)",
         "\\s?\\(PC Rerelease\\)",
         "\\s?\\(Sega Ages\\)",
+        "\\s?\\(SEGA Classic Collection\\)",
         "\\s?\\(Sega Smash Pack( [0-9]){0,1}\\)",
         "\\s?\\(Seiken Densetsu Collection\\)",
         "\\s?\\(SNK 40th Anniversary Collection\\)",

@@ -73,7 +73,7 @@ def main():
 
             if hash_md5.hexdigest() != value:
                 file_count += 1
-                print(f'* Found an update for {key}. Downloading... ', sep=' ', end='', flush=True)
+                print(f'  * Found an update for {key}. Downloading... ', sep=' ', end='', flush=True)
                 req = urllib.request.Request(f'{update_url}/clonelists/{urllib.parse.quote(key)}', None, headers)
                 page = get_page(req)
 

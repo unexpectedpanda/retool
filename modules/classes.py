@@ -115,6 +115,9 @@ class DatNode:
                 if re.search(demo, self.full_name) != None:
                     if 'Demos' not in self.categories:
                         self.categories.append('Demos')
+            if re.search('\(Magazine\)', self.full_name) != None:
+                if 'Multimedia' not in self.categories:
+                        self.categories.append('Multimedia')
             for preproduction in REGEX.preproduction:
                 if re.search(preproduction, self.full_name) != None:
                     if 'Preproduction' not in self.categories:
@@ -276,7 +279,7 @@ class Regex:
         self.beta = re.compile('\((?:(?!\(|Beta( [0-9]{,2}){,1})[\s\S])*Beta( [0-9]{,2}){,1}\)', re.IGNORECASE)
         self.proto = re.compile('\((?:(?!\(|Proto( [0-9]{,2}){,1})[\s\S])*Proto( [0-9]{,2}){,1}\)', re.IGNORECASE)
         self.preprod = re.compile('\((Pre-production|Prerelease)\)', re.IGNORECASE)
-        self.dev = re.compile('\(DEV\)', re.IGNORECASE)
+        self.dev = re.compile('\(DEV|DEBUG\)', re.IGNORECASE)
         self.review = re.compile('\(Review (Code|Kit [0-9]+)\)', re.IGNORECASE)
 
         # Tags
@@ -315,7 +318,7 @@ class Regex:
             self.dev,
             self.review,
             ]
-        self.preproduction_bad = re.compile('\((?:(?!\(|(Alpha|Beta|Pre-production|Proto|Review (Code|Kit [0-9]+))( [0-9]{,2}){,1})[\s\S])*(Alpha|Beta|Pre-production|Proto|Review (Code|Kit [0-9]+))( [0-9]{,2}){,1}\)|(\[b\])', re.IGNORECASE)
+        self.preproduction_bad = re.compile('\((?:(?!\(|(Alpha|Beta|Pre-production|Proto|DEV|DEBUG|Review (Code|Kit [0-9]+))( [0-9]{,2}){,1})[\s\S])*(Alpha|Beta|Pre-production|Proto|DEV|DEBUG|Review (Code|Kit [0-9]+))( [0-9]{,2}){,1}\)|(\[b\])', re.IGNORECASE)
         self.programs = [
             re.compile('\(Program\)', re.IGNORECASE),
             re.compile('\(Test Program\)', re.IGNORECASE),
