@@ -2,7 +2,7 @@
 
 - The Satellaview-specific `(Magazine)` tag has been added to the multimedia
   filter.
-- The `(DEBUG)` tag has been added to the preproudction filter.
+- The `(DEBUG)` tag has been added to the preproduction filter.
 
 # 1.02
 
