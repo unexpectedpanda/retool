@@ -3,7 +3,7 @@
 		"name": [
 			"Nintendo - Nintendo 64"
 		],
-		"last updated": "22 October 2021",
+		"last updated": "2 January 2022",
 		"minimum version": "0.92"
 	},
 
@@ -69,6 +69,10 @@
 		],
 		"Blast Corps": [
 			["Blastdozer", 1]
+		],
+		"Blues Brothers 2000": [
+			["Blues Brothers 2000 (#53)", 2],
+			["Blues Brothers 2000 (#20)", 3]
 		],
 		"Bomberman 64": [
 			["Baku Bomberman", 1]
