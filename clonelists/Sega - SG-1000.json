@@ -3,7 +3,7 @@
 		"name": [
 			"Sega - SG-1000"
 		],
-		"last updated": "20 May 2021",
+		"last updated": "2 January 2022",
 		"minimum version": "0.92"
 	},
 
@@ -18,9 +18,6 @@
 		"Pitfall II - The Lost Caverns": [
 			["Pitfall II", 2]
 		],
-		"Sega Flipper ~ Video Flipper": [
-			["Sega Flipper", 2]
-        ],
         "Soukoban": [
             ["I.Q.", 1]
         ]

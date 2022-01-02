@@ -3,16 +3,12 @@
 		"name": [
 			"Nintendo - Nintendo Entertainment System"
 		],
-		"last updated": "11 September 2021",
+		"last updated": "2 January 2022",
 		"minimum version": "0.92"
 	},
 
 	"categories": {
 		"Game Genie": {
-			"match": "short",
-			"categories": ["Applications"]
-		},
-		"Nintendo - NTF2 System Cartridge": {
 			"match": "short",
 			"categories": ["Applications"]
 		},

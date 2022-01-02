@@ -3,7 +3,7 @@
 		"name": [
 			"Nintendo - Nintendo 3DS"
 		],
-		"last updated": "9 April 2021",
+		"last updated": "2 January 2022",
 		"minimum version": "0.89"
 	},
 
@@ -38,7 +38,8 @@
 			["Twieonawayo Dongmul-ui Sup", 1]
 		],
 		"Animal Crossing - New Leaf - Welcome Amiibo": [
-			["Tobidase Doubutsu no Mori - amiibo+", 1]
+			["Tobidase Doubutsu no Mori - amiibo+", 1],
+			["Twieonawayo Dongmul-ui Sup amiibo+", 1]
 		],
 		"Art Academy - Lessons for Everyone": [
 			["New Art Academy", 1],
@@ -61,7 +62,7 @@
 			["Disney Baymax - Heroes Battle", 1]
 		],
 		"Brain Training 3D": [
-			["Kuukan Sagashimono kei Nouryoku Kaihatsu 3D Nou Training", 1]
+			["Kuukan Sagashimono Kei Nouryoku Kaihatsu - 3D Nou Training", 1]
 		],
 		"Bravely Default": [
 			["Bravely Default - For the Sequel", 1]
@@ -139,7 +140,7 @@
 			["Dragon Ball Z - Extreme Butouden", 1]
 		],
 		"Dragon Quest VII - Fragments of the Forgotten Past": [
-			["Dragon Quest VII - Eden no Senshitachi", 1]
+			["Dragon Quest VII - Eden no Senshi-tachi", 1]
 		],
 		"Dragon Quest VIII - Journey of the Cursed King": [
 			["Dragon Quest VIII - Sora to Umi to Daichi to Norowareshi Himegimi", 1]
@@ -220,7 +221,7 @@
 		],
 		"Gardening Mama 2 - Forest Friends": [
 			["Gardening Mama - Forest Friends", 1],
-			["Gardening Mama - Mama to Mori no Nakama Tachi", 1]
+			["Gardening Mama - Mama to Mori no Nakama-tachi", 1]
 		],
 		"Girls' Fashion Shoot": [
 			["Nicola Kanshuu - Model Oshare Audition 2", 1]
@@ -321,8 +322,8 @@
 			["Danball Senki Baku Boost", 1]
 		],
 		"Legend of Zelda, The - A Link Between Worlds": [
-			["Legend of Zelda, The - Kamigami no Triforce 2", 1],
-			["Zelda Jeonseol Sindeul-ui Triforce 2", 1]
+			["Zelda Jeonseol Sindeul-ui Triforce 2", 1],
+			["Zelda no Densetsu - Kamigami no Triforce 2", 1]
 		],
 		"Legend of Zelda, The - Majora's Mask 3D": [
 			["Zelda Jeonseol Majora Gamyeon 3D", 1],
@@ -461,8 +462,7 @@
 			["Girls Mode 4 - Star & Stylist", 1]
 		],
 		"Nintendogs + Cats - Golden Retriever & New Friends": [
-			["Nintendogs + Cats - Shiba & New Friends", 1],
-			["Nintendogs + Cats - Shiba Inu & New Friends", 1]
+			["Nintendogs + Cats - Shiba & New Friends", 1]
 		],
 		"One Piece - Romance Dawn": [
 			["One Piece - Romance Dawn - Bouken no Yoake", 1]
@@ -523,6 +523,7 @@
 			["Pocket Monsters Ultra Moon", 1]
 		],
 		"Pokemon Ultra Sun": [
+			["Pocket Monster - Ultra Sun", 1],
 			["Pocket Monsters Ultra Sun", 1]
 		],
 		"Poochy & Yoshi's Woolly World": [
@@ -614,7 +615,7 @@
 			["Senran Kagura 2 - Shinku", 1]
 		],
 		"Senran Kagura Burst": [
-			["Senran Kagura Burst - Guren no Shoujotachi", 1]
+			["Senran Kagura Burst - Guren no Shoujo-tachi", 1]
 		],
 		"Shantae and the Pirate's Curse": [
 			["Shantae - Kaizoku no Noroi", 1]
@@ -671,7 +672,7 @@
 			["Bokujou Monogatari - 3-tsu no Sato no Taisetsu na Tomodachi", 1]
 		],
 		"Style Savvy - Fashion Forward": [
-			["Girls Mode 3 - Kirakira-Code", 1],
+			["Girls Mode 3 - Kirakira Code", 1],
 			["Nintendo presents - New Style Boutique 2 - Fashion Forward", 1]
 		],
 		"Style Savvy - Trendsetters": [
@@ -716,7 +717,8 @@
 			["Youkai Watch", 1]
 		],
 		"Yo-Kai Watch 2 - Bony Spirits": [
-			["Youkai Watch 2 - Ganso", 1]
+			["Youkai Watch 2 - Ganso", 1],
+			["Yo-Kai Watch Wonjo", 1]
 		],
 		"Yo-Kai Watch 2 - Fleshy Souls": [
 			["Youkai Watch 2 - Honke", 1]

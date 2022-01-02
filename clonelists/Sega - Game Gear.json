@@ -3,12 +3,12 @@
 		"name": [
 			"Sega - Game Gear"
 		],
-		"last updated": "22 October 2021",
+		"last updated": "2 January 2022",
 		"minimum version": "0.89"
 	},
 
 	"renames": {
-		"Ax Battler - A Legend of Golden Axe ~ Golden Axe": [
+		"Ax Battler - A Legend of Golden Axe": [
 			["Ax Battler - A Legend of Golden Axe", 2],
 			["Ax Battler - Golden Axe Densetsu", 1]
 		],
@@ -51,26 +51,14 @@
 		"Factory Panic": [
 			["Ganbare Gorby!", 1]
 		],
-		"Fantasy Zone": [
-			["Fantasy Zone Gear ~ Fantasy Zone", 1]
-		],
 		"Fatal Fury Special": [
 			["Garou Densetsu Special", 1]
-		],
-		"G-Sonic ~ Sonic Blast": [
-			["Sonic Blast", 1]
 		],
 		"Galaga 2": [
 			["Galaga '91", 1]
 		],
 		"George Foreman's KO Boxing": [
 			["Heavy Weight Champ", 1]
-		],
-		"GG Aleste II ~ Power Strike II": [
-			["GG Aleste II", 1]
-		],
-		"GG Shinobi, The ~ Shinobi": [
-			["GG Shinobi, The", 1]
 		],
 		"Land of Illusion Starring Mickey Mouse": [
 			["Mickey Mouse no Mahou no Crystal", 1]
@@ -84,20 +72,20 @@
 		"Mortal Kombat": [
 			["Mortal Kombat - Shinken Kourin Densetsu", 1]
 		],
-		"Putt & Putter - Miniature Golf ~ Putt & Putter ~ Minigolf": [
-			["Putt & Putter", 1]
+		"Power Strike II": [
+			["GG Aleste II", 1]
 		],
 		"Revenge of Drancon": [
 			["Wonder Boy", 1]
-		],
-		"Ristar ~ Ristar - The Shooting Star": [
-			["Ristar", 1]
 		],
 		"Samurai Shodown": [
 			["Samurai Spirits", 1]
 		],
 		"Shining Force - The Sword of Hajya": [
 			["Shining Force Gaiden II - Jashin no Kakusei", 1]
+		],
+		"Shinobi": [
+			["GG Shinobi, The", 1]
 		],
 		"Slider": [
 			["Skweek", 1]
@@ -123,9 +111,6 @@
 		],
 		"Virtua Fighter Animation": [
 			["Virtua Fighter Mini", 1]
-		],
-		"Winter Olympic Games ~ Winter Olympics": [
-			["Winter Olympics", 1]
 		],
 		"Wonder Boy - The Dragon's Trap": [
 			["Monster World II - Dragon no Wana", 1],

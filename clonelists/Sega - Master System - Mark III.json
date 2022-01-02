@@ -3,7 +3,7 @@
 		"name": [
 			"Sega - Master System - Mark III"
 		],
-		"last updated": "22 October 2021",
+		"last updated": "2 January 2022",
 		"minimum version": "0.92"
 	},
 
@@ -102,7 +102,7 @@
 			["Alex Kido", 1],
 			["Alex Kidd no Miracle World", 1],
 			["[BIOS] Alex Kidd in Miracle World", 2],
-			["Alex Kidd in Miracle World (BIOS version)", 2]
+			["[BIOS] Alex Kidd in Miracle World (BIOS version)", 2]
 		],
 		"Argos no Juujiken": [
 			["Alocos", 1]
@@ -111,18 +111,15 @@
 			["Hokuto no Ken", 1],
 			["Northen Ken", 1]
 		],
-		"Blade Eagle ~ Blade Eagle 3-D": [
+		"Blade Eagle 3-D": [
 			["Blade Eagle", 1]
 		],
-		"Bubble Bobble ~ Dragon Maze": [
+		"Bubble Bobble": [
 			["Bubble Bobble", 1],
 			["Final Bubble Bobble", 1]
 		],
 		"California Games II": [
 			["Jogos de Verao II", 1]
-		],
-		"Columns ~ Shapes and Columns": [
-			["Columns", 1]
 		],
 		"Cyborg Hunter": [
 			["Chouon Senshi Borgman", 1]
@@ -130,10 +127,7 @@
 		"Dinosaur Dooley, The": [
 			["Agigongnyong Dooly", 2]
 		],
-		"Enduro Racer ~ Super Cross": [
-			["Enduro Racer", 1]
-		],
-		"F-16 Fighting Falcon ~ F-16 Fighter ~ F16 Falcon Fighter": [
+		"F-16 Fighter": [
 			["F-16 Fighting Falcon", 2]
 		],
 		"Fantasy Zone - The Maze": [
@@ -169,9 +163,6 @@
 		],
 		"Lord of the Sword": [
 			["Lord of Sword", 1]
-		],
-		"Mahjong Sengoku Jidai ~ Mahjong": [
-			["Mahjong Sengoku Jidai", 2]
 		],
 		"Master of Darkness": [
 			["Vampire", 2]
@@ -209,9 +200,6 @@
 		"Pro Wrestling": [
 			["Gokuaku Doumei Dump Matsumoto", 1]
 		],
-		"Putt & Putter ~ Minigolf": [
-			["Putt & Putter", 2]
-		],
 		"Quartet": [
 			["Double Target - Cynthia no Nemuri", 1]
 		],
@@ -223,7 +211,7 @@
 		"Reggie Jackson Baseball": [
 			["American Baseball", 1]
 		],
-		"Shadow Dancer - The Secret of Shinobi ~ Shadow Dancer": [
+		"Shadow Dancer - The Secret of Shinobi": [
 			["Shadow Dancer", 1]
 		],
 		"Sky Jaguar": [
@@ -235,7 +223,7 @@
 		"Sonic The Hedgehog": [
 			["[BIOS] Sonic The Hedgehog", 2]
 		],
-		"Space Harrier 3-D ~ Space Harrier 3D": [
+		"Space Harrier 3-D": [
 			["Space Harrier 3D", 1]
 		],
 		"SpellCaster": [
@@ -243,9 +231,6 @@
 		],
 		"Strider": [
 			["Strider, The", 1]
-		],
-		"Summer Games ~ Jogos Olimpicos": [
-			["Summer Games", 1]
 		],
 		"Super Tennis": [
 			["Great Tennis", 1]
@@ -266,9 +251,6 @@
 		"Walter Payton Football": [
 			["American Pro Football", 1]
 		],
-		"Wonder Boy": [
-			["Super Wonder Boy ~ Wonder Boy", 1]
-		],
 		"Wonder Boy III - The Dragon's Trap": [
 			["Turma da Monica em O Resgate", 1]
 		],
@@ -282,14 +264,11 @@
 		"World Grand Prix": [
 			["Circuit, The", 1]
 		],
-		"World Soccer ~ Great Soccer ~ Super Futebol": [
+		"World Soccer": [
 			["Sports Pad Soccer", 1]
 		],
-		"Ys - The Vanished Omens ~ Y's": [
+		"Ys - The Vanished Omens": [
 			["Ys", 1]
-		],
-		"Zillion": [
-			["Akai Koudan Zillion ~ Zillion", 2]
 		]
 	}
 }
