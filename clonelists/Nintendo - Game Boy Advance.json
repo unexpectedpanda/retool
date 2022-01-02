@@ -3,7 +3,7 @@
 		"name": [
 			"Nintendo - Game Boy Advance"
 		],
-		"last updated": "22 October 2021",
+		"last updated": "2 January 2022",
 		"minimum version": "0.92"
 	},
 
@@ -75,6 +75,10 @@
 	},
 
 	"overrides": {
+		"Cat in the Hat, The (USA)": {
+			"new group": "Cat in the Hat, The (USA)",
+			"match": "tag free"
+		},
 		"Gadget Racers (Europe) (En,Fr,De)": {
 			"new group": "Shifting Gears - Road Trip",
 			"match": "tag free"
