@@ -1125,9 +1125,6 @@
 		"Generation of Chaos III - Toki no Fuuin (Eikyuu Hozon Box)": [
 			["Generation of Chaos III - Toki no Fuuin", 2]
 		],
-		"Gensou Suikoden III (Gensou Suikoden-sai Hakkou Kinen)": [
-			["Gensou Suikoden III", 2]
-		],
 		"Genji - Dawn of the Samurai": [
 			["Genji", 1]
 		],
@@ -2664,6 +2661,16 @@
 			["Freak Out", 1],
 			["Hippa Linda", 1]
 		],
+		"Suikoden III": [
+			["Gensou Suikoden III (Gensou Suikoden-sai Hakkou Kinen)", 1],
+			["Gensou Suikoden III", 2]
+		],
+		"Suikoden IV": [
+			["Gensou Suikoden IV", 1]
+		],
+		"Suikoden V": [
+			["Gensou Suikoden V", 1]
+		],
 		"Suikoden Tactics": [
 			["Rhapsodia", 1]
 		],
@@ -2704,7 +2711,8 @@
 			["Oz", 1]
 		],
 		"Sword of the Samurai": [
-			["Kengou 2", 1]
+			["Kengou 2", 1],
+			["Geomho 2", 1]
 		],
 		"Taiko Drum Master": [
 			["Taiko no Tatsujin - Taiko Drum Master", 1]
