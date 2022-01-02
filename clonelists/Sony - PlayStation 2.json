@@ -1134,6 +1134,9 @@
 		"Ghost in the Shell - Stand Alone Complex": [
 			["Gonggak Gidongdae - Stand Alone Complex", 1]
 		],
+		"Gift": [
+			["Giftie", 1]
+		],
 		"GigaWing Generations": [
 			["Yokushin - GigaWing Generations", 1]
 		],
@@ -1229,8 +1232,14 @@
 		"Growlanser IV - Wayfarer of the Time (Deluxe Pack)": [
 			["Growlanser IV - Wayfarer of the Time", 2]
 		],
+		"Guilty Gear X2": [
+			["Guilty Gear XX - The Midnight Carnival", 1]
+		],
 		"Guilty Gear X2 Reload - The Midnight Carnival": [
 			["Guilty Gear XX Reload - The Midnight Carnival", 1]
+		],
+		"Guilty Gear XX Accent Core Plus (Append Ban)": [
+			["Guilty Gear XX Accent Core Plus", 0]
 		],
 		"Guitar Hero - Smash Hits": [
 			["Guitar Hero - Greatest Hits", 1]
@@ -1336,6 +1345,15 @@
 		"Heavenly Guardian": [
 			["Legend of Sayuki", 1],
 			["Yukinko Daisenpuu - Sayuki to Koyuki no Hie Hie Daisoudou", 1]
+		],
+	    	"Higurashi no Naku Koro ni - Matsuri": [
+			["Higurashi no Naku Koro ni - Matsuri - Kakera Asobi", 0]
+		],
+		"Higurashi no Naku Koro ni - Matsuri - Kakera Asobi (Append-ban)": [
+			["Higurashi no Naku Koro ni - Matsuri - Kakera Asobi", 0]
+		],
+		"Hiiro no Kakera - Tamayori-hime Kitan": [
+			["Hiiro no Kakera - Tamayori-hime Kitan (Aizou-ban)", 0]
 		],
 		"Hitman 2 - Silent Assassin": [
 			["Hitman - Silent Assassin", 1]
@@ -1471,6 +1489,12 @@
 		],
 		"Keroro Gunsou - Mero Mero Battle Royale": [
 			["Gaeguri Jungsa Keroro - Bulkkottwineun Battle Royale Z", 1]
+		],
+		"Kessen": [
+			["Gyeoljeon", 1]
+		],
+		"Kessen II": [
+			["Gyeoljeon II", 1]
 		],
 		"Mobile Suit Gundam - Lost War Chronicles (Limited Box)": [
 			["Mobile Suit Gundam - Lost War Chronicles", 2]
@@ -2013,7 +2037,8 @@
 			["Onimusha 3", 1]
 		],
 		"Onimusha - Blade Warriors": [
-			["Onimusha Buraiden", 1]
+			["Onimusha Buraiden", 1],
+			["Gwimuja Muroejeon", 1]
 		],
 		"Online Start-Up Disc 4.0": [
 			["Online Start-Up Disc v3.0", 2],
