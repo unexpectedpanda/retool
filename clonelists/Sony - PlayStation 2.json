@@ -3,7 +3,7 @@
         "name": [
 			"Sony - PlayStation 2"
 		],
-        "last updated": "3 January 2022",
+        "last updated": "4 January 2022",
 		"minimum version": "0.92"
     },
 
@@ -15,7 +15,7 @@
 		"Jak and Daxter Complete Trilogy": {
 			"match": "short",
 			"categories": ["Video"]
-		},		
+		},
 		"Konami Kids Playground - Alphabet Circus": {
 			"match": "short",
 			"categories": ["Educational"]
