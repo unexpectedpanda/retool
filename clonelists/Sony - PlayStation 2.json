@@ -11,6 +11,26 @@
 		"Arc the Lad - Jeongryeongui Hwanghon - Premiere Disc (Korea)": {
 			"match": "full",
 			"categories": ["Promo", "Video"]
+		},
+		"Jak and Daxter Complete Trilogy": {
+			"match": "short",
+			"categories": ["Video"]
+		},		
+		"Konami Kids Playground - Alphabet Circus": {
+			"match": "short",
+			"categories": ["Educational"]
+		},
+		"Konami Kids Playground - Dinosaurs - Shapes & Colors": {
+			"match": "short",
+			"categories": ["Educational"]
+		},
+		"Konami Kids Playground - Frogger - Hop, Skip & Jumpin' Fun": {
+			"match": "short",
+			"categories": ["Educational"]
+		},
+		"Konami Kids Playground - Toy Pals Fun with Numbers": {
+			"match": "short",
+			"categories": ["Educational"]
 		}
 	},
 
@@ -1418,6 +1438,9 @@
 		"Iron Sea": [
 			["Simple 2000 Series Vol. 51 - The Senkan", 1]
 		],
+		"J.League Winning Eleven 8 - Asia Championship": [
+			["K-League Winning Eleven 8 - Asia Championship", 1]
+		],
 		"Jade Cocoon 2": [
 			["Tamamayu Monogatari 2 - Horobi no Mushi", 1]
 		],
@@ -1978,6 +2001,9 @@
 		],
 		"Nightmare of Druaga, The - Fushigino Dungeon": [
 			["Nightmare of Druaga, The - Fushigi no Dungeon", 1]
+		],
+		"Nightshade": [
+			["Kunoichi", 1]
 		],
 		"Nobunaga's Ambition - Iron Triangle": [
 			["Nobunaga no Yabou - Kakushin", 1],
@@ -2893,6 +2919,9 @@
 		],
 		"Total Overdose - A Gunslinger's Tale in Mexico": [
 			["Total Overdose", 1]
+		],
+		"Trapt": [
+			["Kagerou II - Dark Illusion", 1]
 		],
 		"Transformers": [
 			["Transformers (Director's Cut)", 0]
