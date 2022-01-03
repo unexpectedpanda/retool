@@ -11,7 +11,27 @@
 		"Arc the Lad - Jeongryeongui Hwanghon - Premiere Disc (Korea)": {
 			"match": "full",
 			"categories": ["Promo", "Video"]
-		}
+		},
+		"Jak and Daxter Complete Trilogy": {
+			"match": "short",
+			"categories": ["Video"]
+		},		
+		"Konami Kids Playground - Alphabet Circus": {
+			"match": "short",
+			"categories": ["Educational"]
+		},
+		"Konami Kids Playground - Dinosaurs - Shapes & Colors": {
+			"match": "short",
+			"categories": ["Educational"]
+		},
+		"Konami Kids Playground - Frogger - Hop, Skip & Jumpin' Fun": {
+			"match": "short",
+			"categories": ["Educational"]
+		},
+		"Konami Kids Playground - Toy Pals Fun with Numbers": {
+			"match": "short",
+			"categories": ["Educational"]
+		},
 	},
 
 	"overrides": {
