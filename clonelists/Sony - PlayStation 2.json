@@ -71,7 +71,20 @@
 	},
 
 	"removes": {
-        "King of Fighters 2000-2001, The (Europe)": {}
+		"King of Fighters 2000-2001, The (Europe)": {
+		},
+		"Metal Slug 3": {
+			"match": "short"
+		},
+		"Metal Slug 4": {
+			"match": "short"
+		},
+		"Metal Slug 5": {
+			"match": "short"
+		},
+		"Metal Slug 6": {
+			"match": "short"
+		},
 	},
 
     "renames": {
