@@ -85,6 +85,15 @@
 		"Metal Slug 6": {
 			"match": "short"
 		},
+		"Samurai Shodown V": {
+			"match": "short"
+		},
+		"Samurai Spirits Zero": {
+			"match": "short"
+		},
+		"Samurai Spirits - Tenka-ichi Kenkakuden": {
+			"match": "short"
+		}
 	},
 
     "renames": {
@@ -2435,9 +2444,6 @@
 		],
 		"Sakura Wars - So Long, My Love (Disc 2) (Japanese Voice Over)": [
 			["Sakura Taisen V - Saraba Itoshiki Hito yo", 1]
-		],
-		"Samurai Shodown V": [
-			["Samurai Spirits Zero", 1]
 		],
 		"Samurai Warriors": [
 			["Jeonguk Mussang", 1],
