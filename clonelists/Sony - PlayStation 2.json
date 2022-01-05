@@ -72,27 +72,6 @@
 
 	"removes": {
 		"King of Fighters 2000-2001, The (Europe)": {
-		},
-		"Metal Slug 3": {
-			"match": "short"
-		},
-		"Metal Slug 4": {
-			"match": "short"
-		},
-		"Metal Slug 5": {
-			"match": "short"
-		},
-		"Metal Slug 6": {
-			"match": "short"
-		},
-		"Samurai Shodown V": {
-			"match": "short"
-		},
-		"Samurai Spirits Zero": {
-			"match": "short"
-		},
-		"Samurai Spirits - Tenka-ichi Kenkakuden": {
-			"match": "short"
 		}
 	},
 
@@ -1836,6 +1815,18 @@
 		"Metal Saga": [
 			["Metal Saga - Sajin no Kusari", 1]
 		],
+		"Metal Slug 3": [
+			["Metal Slug Anthology", 0]
+		],
+		"Metal Slug 4": [
+			["Metal Slug Anthology", 0]
+		],
+		"Metal Slug 5": [
+			["Metal Slug Anthology", 0]
+		],
+		"Metal Slug 6": [
+			["Metal Slug Anthology", 0]
+		],
 		"Metal Slug Anthology": [
 			["Metal Slug Complete", 1]
 		],
@@ -2444,6 +2435,13 @@
 		],
 		"Sakura Wars - So Long, My Love (Disc 2) (Japanese Voice Over)": [
 			["Sakura Taisen V - Saraba Itoshiki Hito yo", 1]
+		],
+		"Samurai Shodown V": [
+			["Samurai Shodown Anthology", 0],
+			["Samurai Spirits Zero", 1]
+		],
+		"Samurai Spirits: Tenka-ichi Kenkakuden": [
+			["Samurai Shodown Anthology", 0]
 		],
 		"Samurai Warriors": [
 			["Jeonguk Mussang", 1],
