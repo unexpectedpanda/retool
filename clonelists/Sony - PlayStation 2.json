@@ -2127,6 +2127,9 @@
 		"Party Girls": [
 			["Simple 2000 Series Vol. 63 - Mogitate Mizugi! Onna Mamire no - The Suiei Taikai", 1]
 		],
+		"Persona 3 FES (Append-ban)": [
+			["Shin Megami Tensei - Persona 3 FES", 0]
+		],
 		"PES 2008 - Pro Evolution Soccer": [
 			["World Soccer Winning Eleven 2008", 1]
 		],
@@ -2549,9 +2552,11 @@
 		],
 		"Shin Megami Tensei - Persona 3": [
 			["Shin Megami Tensei - Persona 3 FES", 0],
-			["Persona 3 FES", 0],
 			["P3 - Persona 3", 1],
 			["Persona 3", 1]
+		],
+		"Shin Megami Tensei - Persona 3 FES": [
+			["Persona 3 FES", 1]
 		],
 		"Shin Megami Tensei - Persona 4": [
 			["Persona 4", 1],
