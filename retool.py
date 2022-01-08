@@ -31,7 +31,7 @@ from modules.xml import dat_to_dict, process_input_dat
 # Require at least Python 3.8
 assert sys.version_info >= (3, 8)
 
-__version__ = '1.03'
+__version__ = '1.04'
 
 def main(gui_input=''):
 
@@ -104,10 +104,15 @@ def main(gui_input=''):
     if 'UK' in user_input.user_region_order:
         uk_index = user_input.user_region_order.index('UK')
         user_input.user_region_order[uk_index + 1:uk_index + 1] = ['United Kingdom']
-        uk_index = region_data.all.index('UK')
-        region_data.all[uk_index + 1:uk_index + 1] = ['United Kingdom']
-        if 'UK' in region_data.implied_language:
-            region_data.implied_language['United Kingdom'] = 'En'
+
+    uk_index = region_data.all.index('UK')
+    region_data.all[uk_index + 1:uk_index + 1] = ['United Kingdom']
+
+    uk_index = region_data.region_order.index('UK')
+    region_data.region_order[uk_index + 1:uk_index + 1] = ['United Kingdom']
+
+    if 'UK' in region_data.implied_language:
+        region_data.implied_language['United Kingdom'] = 'En'
 
     # Based on region counts from redump.org. Used later to speed up processing
     # through altering the order.

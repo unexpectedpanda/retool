@@ -1,3 +1,8 @@
+# 1.04
+
+- Fixed a bug where _(United Kingdom)_ titles in No-Intro dats were being
+  recognized as _(Unknown)_ titles as well.
+
 # 1.03
 
 - The Satellaview-specific `(Magazine)` tag has been added to the multimedia
