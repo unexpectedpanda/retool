@@ -12,6 +12,10 @@
 			"match": "full",
 			"categories": ["Promo", "Video"]
 		},
+		"Buzz! Escuela de Talentos": {
+			"match": "full",
+			"categories": ["Educational"]
+		},
 		"Jak and Daxter Complete Trilogy": {
 			"match": "short",
 			"categories": ["Video"]
