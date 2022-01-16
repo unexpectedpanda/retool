@@ -19,7 +19,19 @@
 		"Metal Gear Solid - Digital Graphic Novel": {
 			"match": "short",
 			"categories": ["Multimedia"]
-		}
+		},
+		"Minna no Navi (Disc 1)": {
+			"match": "short",
+			"categories": ["Applications"]
+		},
+		"Minna no Navi (Disc 2)": {
+			"match": "short",
+			"categories": ["Applications"]
+		},
+		"Talkman": {
+			"match": "short",
+			"categories": ["Educational"]
+		},
 	},
 
 	"removes": {
