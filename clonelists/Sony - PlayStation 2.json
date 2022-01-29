@@ -75,8 +75,7 @@
 	},
 
 	"removes": {
-		"King of Fighters 2000-2001, The (Europe)": {
-		}
+		"King of Fighters 2000-2001, The (Europe)": {}
 	},
 
     "renames": {
@@ -1520,9 +1519,6 @@
 		"Karaoke Revolution Party": [
 			["Karaoke Stage 2", 1]
 		],
-		"Katana Action": [
-			["Simple 2000 Series Vol. 28 - The Bushidou - Tsujigiri Ichidai", 1]
-		],
 		"Kelly Slater's Pro Surfer": [
 			["Kelly Slater's Pro Surfer 2003", 1]
 		],
@@ -2468,7 +2464,7 @@
 			["Samurai Shodown Anthology", 0],
 			["Samurai Spirits Zero", 1]
 		],
-		"Samurai Spirits: Tenka-ichi Kenkakuden": [
+		"Samurai Spirits - Tenka-ichi Kenkakuden": [
 			["Samurai Shodown Anthology", 0]
 		],
 		"Samurai Warriors": [
@@ -2596,7 +2592,7 @@
 		"Shonen Jump's One Piece - Grand Battle": [
 			["One Piece - Grand Battle! Rush", 1]
 		],
-		"Shonen Jump's One Piece: Pirates' Carnival" :[
+		"Shonen Jump's One Piece - Pirates' Carnival" :[
 			["One Piece - Pirates Carnival (Multi Tap (SCPH-70120) Doukonban)", 1]
 		],
 		"Silent Hill 2": [
@@ -3179,7 +3175,7 @@
 			["Pro Evolution Soccer 3", 1]
 		],
 		"World Soccer Winning Eleven 8 - International": [
-			["Pro Evolution Soccer 4", 1],
+			["Pro Evolution Soccer 4", 1]
 		],
 		"World Soccer Winning Eleven 9": [
 			["Pro Evolution Soccer 5", 1]

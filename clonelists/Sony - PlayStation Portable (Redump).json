@@ -31,7 +31,7 @@
 		"Talkman": {
 			"match": "short",
 			"categories": ["Educational"]
-		},
+		}
 	},
 
 	"removes": {
@@ -550,8 +550,8 @@
 			["Persona", 1]
 		],
 		"Shin Megami Tensei - Persona 3 Portable": [
-			["P3P - Yeosin Jeonsaeng - Persona 3 Portable", 1]
-			["Persona 3 Portable (Japan)", 1]
+			["P3P - Yeosin Jeonsaeng - Persona 3 Portable", 1],
+			["Persona 3 Portable", 1]
 		],
 		"Silent Hill Origins": [
 			["Silent Hill Zero", 1]
@@ -682,6 +682,6 @@
 		],
 		"Yu-Gi-Oh! 5D's - Tag Force 5": [
 			["Yu-Gi-Oh! 5D's Tag Force 5", 1]
-		],
+		]
 	}
 }
