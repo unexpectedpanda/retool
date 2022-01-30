@@ -12,10 +12,6 @@
 			"match": "full",
 			"categories": ["Promo", "Video"]
 		},
-		"Buzz! Escuela de Talentos": {
-			"match": "full",
-			"categories": ["Educational"]
-		},
 		"Jak and Daxter Complete Trilogy": {
 			"match": "short",
 			"categories": ["Video"]
@@ -291,7 +287,7 @@
 		],
 		"Bombastic": [
 			["XI [sai] - XI-Go", 1],
-			["XI5 - Aqui Ohyeongje" 1],
+			["XI5 - Aqui Ohyeongje", 1],
 			["XIGO - Zuihou de Touzi", 1]
 		],
 		"Bomberman Hardball": [
@@ -2575,11 +2571,9 @@
 		],
 		"Shin Megami Tensei - Persona 3": [
 			["Shin Megami Tensei - Persona 3 FES", 0],
+			["Persona 3 FES", 0],
 			["P3 - Persona 3", 1],
 			["Persona 3", 1]
-		],
-		"Shin Megami Tensei - Persona 3 FES": [
-			["Persona 3 FES", 1]
 		],
 		"Shin Megami Tensei - Persona 4": [
 			["Persona 4", 1],
