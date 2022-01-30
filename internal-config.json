@@ -7,7 +7,7 @@
             "These are defaults that Retool requires, don't modify this file.",
             "Check user-config.yaml for user-editable settings."
         ],
-        "last updated": "2 January 2022"
+        "last updated": "30 January 2022"
     },
 
     "ignore_tags": [
