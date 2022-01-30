@@ -3,7 +3,7 @@
         "name": [
 			"Sony - PlayStation 2"
 		],
-        "last updated": "4 January 2022",
+        "last updated": "30 January 2022",
 		"minimum version": "0.92"
     },
 
@@ -71,7 +71,7 @@
 	},
 
 	"removes": {
-        "King of Fighters 2000-2001, The (Europe)": {}
+		"King of Fighters 2000-2001, The (Europe)": {}
 	},
 
     "renames": {
@@ -286,6 +286,8 @@
 			["Alpine Skiing 2006 featuring Bode Miller", 1]
 		],
 		"Bombastic": [
+			["XI [sai] - XI-Go", 1],
+			["XI5 - Aqui Ohyeongje", 1],
 			["XIGO - Zuihou de Touzi", 1]
 		],
 		"Bomberman Hardball": [
@@ -486,6 +488,9 @@
 		"CSI - Crime Scene Investigation - 3 Dimensions of Murder": [
 			["CSI - Crime Scene Investigation", 1]
 		],
+		"Culdcept": [
+			["Culdcept II Expansion", 1]
+		],
 		"Cy Girls (Disc 1) (Ice)": [
 			["Cy Girls (Ice Disc)", 1],
 			["Cool Girl (Disc 1) (Ice Side)", 1]
@@ -601,7 +606,13 @@
 		],
 		"Disaster Report": [
 			["SOS - The Final Escape", 1],
-			["Zettai Zetsumei Toshi 2 - Itetsuita Kioku-tachi", 1]
+			["Zettai Zetsumei Toshi", 1]
+		],
+		"Disgaea - Hour of Darkness": [
+			["Makai Senki Disgaea", 1]
+		],
+		"Disgaea 2 - Cursed Memories": [
+			["Makai Senki Disgaea 2", 1]
 		],
 		"Disney Golf": [
 			["Disney Golf Classic", 1]
@@ -1029,7 +1040,8 @@
 			["Final Fantasy XII International - Zodiac Job System", 0]
 		],
 		"Finny the Fish & the Seven Waters": [
-			["Uo - 7-tsu no Mizu to Densetsu no Nushi", 1]
+			["Uo - 7-tsu no Mizu to Densetsu no Nushi", 1],
+			["Yu Zi - Qiang Jiu Shui Tang Da Zuo Zhan", 1]
 		],
 		"Fire Pro Wrestling Z (Toujien Doukon Box Saishuu-ban)": [
 			["Fire Pro Wrestling Z", 2]
@@ -1086,6 +1098,9 @@
 		"Fugitive Hunter - War on Terror": [
 			["10 Most Wanted", 1],
 			["America's 10 Most Wanted", 1]
+		],
+		"Full Spectrum Warrior - Ten Hammers": [
+			["Full Spectrum Warrior 2 - Ten Hammers", 1]
 		],
 		"Fullmetal Alchemist 2 - Curse of the Crimson Elixir": [
 			["Hagane no Renkinjutsushi 2 - Akaki Elixir no Akuma", 1]
@@ -1439,7 +1454,8 @@
 			["Simple 2000 Series Vol. 51 - The Senkan", 1]
 		],
 		"J.League Winning Eleven 8 - Asia Championship": [
-			["K-League Winning Eleven 8 - Asia Championship", 1]
+			["K-League Winning Eleven 8 - Asia Championship", 1],
+			["World Soccer Winning Eleven 8 - Asia Championship", 1]
 		],
 		"Jade Cocoon 2": [
 			["Tamamayu Monogatari 2 - Horobi no Mushi", 1]
@@ -1607,6 +1623,9 @@
 		"Life Line": [
 			["Operator's Side", 1]
 		],
+		"Lilie no Atelier - Salburg no Renkinjutsushi 3": [
+			["Lilie no Atelier Plus - Salburg no Renkinjutsushi 3", 0]
+		],
 		"Linux (for PlayStation 2) Release 1.0 (Disc 1) (Runtime Environment)": [
 			["Linux for PlayStation 2 - Release 1.0 (Disc 1) (Runtime Environment)", 1]
 		],
@@ -1662,12 +1681,24 @@
 			["Signore degli Anelli, Il - Le Due Torri", 1],
 			["Lord of the Rings, The - Futatsu no Tou", 2]
 		],
+		"Love Songs - Idol ga Classmate": [
+			["Simple 2000 Series Ultimate Vol. 10 - Love - Songs - Idol ga Classmate", 2]
+		],
 		"Lowrider": [
 			["LowRider - Round the World", 1]
 		],
 		"Lupin the 3rd - Treasure of the Sorcerer King": [
 			["Avventure di Lupin III, Le - Il Tesoro del Re Stregone", 1],
 			["Lupin Sansei - Majutsu-ou no Isan", 1]
+		],
+		"Mad Maestro!": [
+			["Bravo Music", 1]
+		],
+		"Madden NFL 07": [
+			["Madden NFL 07 (Hall of Fame Edition)", 0]
+		],
+		"Madden NFL 08": [
+			["Madden NFL 08 en Espanol", 1]
 		],
 		"Madden NFL 2001": [
 			["Madden NFL Super Bowl 2001", 1]
@@ -1676,6 +1707,7 @@
 			["Madden NFL Super Bowl 2003", 1]
 		],
 		"Madden NFL 2005": [
+			["Madden NFL 2005 (Collector's Edition)", 0],
 			["Madden NFL Super Bowl 2005", 1]
 		],
 		"Maestromusic II, The (Doukonban)": [
@@ -1705,6 +1737,12 @@
 		],
 		"Maken Shao - Demon Sword": [
 			["Maken Shao", 1]
+		],
+		"Mana Khemia - Alchemists of Al-Revis": [
+			["Mana-Khemia - Gakuen no Renkinjutsushi-tachi", 1]
+		],
+		"Mana Khemia 2 - Fall of Alchemy": [
+			["Mana-Khemia 2 - Ochita Gakuen to Renkinjutsushi-tachi", 1]
 		],
 		"Mashed - Fully Loaded": [
 			["Drive to Survive", 1],
@@ -1791,6 +1829,18 @@
 		],
 		"Metal Saga": [
 			["Metal Saga - Sajin no Kusari", 1]
+		],
+		"Metal Slug 3": [
+			["Metal Slug Anthology", 0]
+		],
+		"Metal Slug 4": [
+			["Metal Slug Anthology", 0]
+		],
+		"Metal Slug 5": [
+			["Metal Slug Anthology", 0]
+		],
+		"Metal Slug 6": [
+			["Metal Slug Anthology", 0]
 		],
 		"Metal Slug Anthology": [
 			["Metal Slug Complete", 1]
@@ -1935,6 +1985,7 @@
 			["Need for Speed - Underground 2", 2]
 		],
 		"Neo Angelique (Premium Box)": [
+			["Neo Angelique - Full Voice", 1],
 			["Neo Angelique", 2]
 		],
 		"Network Adaptor Start-Up Disc Version 2.50": [
@@ -2091,6 +2142,9 @@
 		"Party Girls": [
 			["Simple 2000 Series Vol. 63 - Mogitate Mizugi! Onna Mamire no - The Suiei Taikai", 1]
 		],
+		"Persona 3 FES (Append-ban)": [
+			["Shin Megami Tensei - Persona 3 FES", 0]
+		],
 		"PES 2008 - Pro Evolution Soccer": [
 			["World Soccer Winning Eleven 2008", 1]
 		],
@@ -2207,6 +2261,9 @@
 		"Professional Drift - D1 Grand Prix Series 2005": [
 			["Professional Drift - D1 Grand Prix Series", 2]
 		],
+		"Project Minerva": [
+			["Project Minerva Professional", 0]
+		],
 		"ProStroke Golf - World Tour 2007": [
 			["ProStroke Golf", 1]
 		],
@@ -2252,6 +2309,9 @@
 		"Ratchet & Clank - Up Your Arsenal": [
 			["Ratchet & Clank 3", 1],
 			["Ratchet & Clank 3 - Totsugeki! Galactic Rangers", 1]
+		],
+		"Raw Danger": [
+			["Zettai Zetsumei Toshi 2 - Itetsuita Kioku-tachi", 1]
 		],
 		"Rayman 2 - Revolution": [
 			["Rayman Revolution", 1]
@@ -2392,13 +2452,18 @@
 			["Sakura Daejeon 3 - Paris-neun Bultago Issneunga", 1]
 		],
 		"Sakura Taisen V Episode 0 - Kouya no Samurai Musume": [
-			["Sakura Daejeon V Episode 0 - Hwangya-ui Samurai Agassi", 1]
+			["Sakura Daejeon V Episode 0 - Hwangya-ui Samurai Agassi", 1],
+			["Yinghua Dazhan V Episode 0 - Huangye de Shaonue Wushi", 1]
 		],
 		"Sakura Wars - So Long, My Love (Disc 2) (Japanese Voice Over)": [
 			["Sakura Taisen V - Saraba Itoshiki Hito yo", 1]
 		],
 		"Samurai Shodown V": [
+			["Samurai Shodown Anthology", 0],
 			["Samurai Spirits Zero", 1]
+		],
+		"Samurai Spirits - Tenka-ichi Kenkakuden": [
+			["Samurai Shodown Anthology", 0]
 		],
 		"Samurai Warriors": [
 			["Jeonguk Mussang", 1],
@@ -2523,6 +2588,9 @@
 		"Shonen Jump's One Piece - Grand Battle": [
 			["One Piece - Grand Battle! Rush", 1]
 		],
+		"Shonen Jump's One Piece - Pirates' Carnival" :[
+			["One Piece - Pirates Carnival (Multi Tap (SCPH-70120) Doukonban)", 1]
+		],
 		"Silent Hill 2": [
 			["Silent Hill 2 - Director's Cut", 0],
 			["Silent Hill 2 - Saigo no Uta", 0]
@@ -2540,6 +2608,9 @@
 		"Simpsons Game, The": [
 			["Simpson, Les - Le Jeu", 1],
 			["Simpsons, Die - Das Spiel", 1]
+		],
+		"Sims, The": [
+			["SimPeople - Ochanoma Gekijou", 1]
 		],
 		"SingStar Die groessten Solokuenstler": [
 			["SingStar Polskie Hity", 1]
@@ -2634,6 +2705,9 @@
 		],
 		"SOCOM - U.S. Navy SEALs": [
 			["SOCOM - U.S. Navy SEALs (SCKA-24008)", 2]
+		],
+		"Soul Nomad & the World Eaters": [
+			["Soul Cradle - Sekai o Kurau Mono", 1]
 		],
 		"Space Channel 5 - Special Edition (Disc 1)": [
 			["Space Channel 5", 1]
@@ -2944,6 +3018,9 @@
 		"Uchuujin tte Naani": [
 			["Simple 2000 Series Vol. 59 - The Uchuujin to Hanasou! Uchuujin tte Naani", 2]
 		],
+		"UFC - Ultimate Fighting Championship - Sudden Impact": [
+			["UFC 2004", 1]
+		],
 		"UFC - Throwdown": [
 			["UFC - Ultimate Fighting Championship 2 - Tapout", 1]
 		],
@@ -3094,9 +3171,7 @@
 			["Pro Evolution Soccer 3", 1]
 		],
 		"World Soccer Winning Eleven 8 - International": [
-			["Pro Evolution Soccer 4", 1],
-			["World Soccer Winning Eleven 8 - Asia Championship", 1],
-			["World Soccer Winning Eleven 8 - Liveware Evolution", 1]
+			["Pro Evolution Soccer 4", 1]
 		],
 		"World Soccer Winning Eleven 9": [
 			["Pro Evolution Soccer 5", 1]
