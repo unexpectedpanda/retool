@@ -125,6 +125,7 @@
         "\\s?\\(DSI\\)",
         "\\s?\\(DX Pack\\)",
         "\\s?\\(EA Best Hits\\)",
+	"\\s?\\(ebKore Plus\\)",
         "\\s?\\(Fukyuuban.*?\\)",
         "\\s?\\(Game no Kanzume Otokuyou\\)",
         "\\s?\\(Gluk Video\\)",
