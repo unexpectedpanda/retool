@@ -3,7 +3,7 @@
 		"name": [
 			"Sega - Mega Drive - Genesis"
 		],
-		"last updated": "2 January 2022",
+		"last updated": "22 January 2022",
 		"minimum version": "0.89"
 	},
 
@@ -545,7 +545,8 @@
 		],
 		"Street Fighter II' - Special Champion Edition": [
 			["Street Fighter II' Plus - Champion Edition", 1],
-			["ST II' Turbo", 2]
+			["ST II' Turbo", 2],
+			["Street Fighter II' - Champion Edition", 3]
 		],
 		"Streets of Rage 2": [
 			["Bare Knuckle II - Shitou e no Requiem ~ Streets of Rage II", 1],
