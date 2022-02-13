@@ -3,7 +3,7 @@
 		"name": [
 			"Sony - PlayStation Portable (Redump)"
 		],
-		"last updated": "30 January 2022",
+		"last updated": "31 January 2022",
 		"minimum version": "0.92"
 	},
 
@@ -152,6 +152,9 @@
 			["Disgaea Portable", 1],
 			["Makai Senki Disgaea Portable - Tsuushin Taisen Hajimemashita.", 1],
 			["Makai Senki Disgaea Portable", 2]
+		],
+		"Disgaea 2 - Dark Hero Days": [
+			["Makai Senki Disgaea 2 Portable", 1]
 		],
 		"Disney-Pixar Ratatouille": [
 			["Disney-Pixar Ratatui", 1],
@@ -516,6 +519,9 @@
 		"Ridge Racer": [
 			["Ridge Racers", 1]
 		],
+		"Ridge Racer 2": [
+			["Ridge Racers 2", 1]
+		],
 		"Riviera - The Promised Land": [
 			["Riviera - Yakusoku no Chi", 1]
 		],
@@ -549,6 +555,9 @@
 		"Shin Megami Tensei - Persona": [
 			["Persona", 1]
 		],
+		"Shin Megami Tensei - Persona 2 - Innocent Sin": [
+			["Persona 2 - Tsumi - Innocent Sin", 1]
+		],
 		"Shin Megami Tensei - Persona 3 Portable": [
 			["P3P - Yeosin Jeonsaeng - Persona 3 Portable", 1],
 			["Persona 3 Portable", 1]
@@ -571,6 +580,9 @@
 		"SOCOM - U.S. Navy SEALs - Fireteam Bravo 2 (Demo) (UCUS-98692)": [
 			["SOCOM - U.S. Navy SEALs - Fireteam Bravo 2 (Demo) (UCUS-98691)", 2],
 			["SOCOM - U.S. Navy SEALs - Fireteam Bravo 2 (Demo) (UCUS-98677)", 3]
+		],
+		"SOCOM - U.S. Navy SEALs - Fireteam Bravo 3": [
+			["SOCOM - U.S. Navy SEALs Portable", 1]
 		],
 		"Spectral Souls - Resurrection of the Ethereal Empires": [
 			["Shinki Gensou - SSII Unlimited Side", 1],
@@ -596,6 +608,9 @@
 		],
 		"Tactics Ogre - Let Us Cling Together": [
 			["Tactics Ogre - Unmei no Wa", 1]
+		],
+		"Tales of the World - Radiant Mythology": [
+			["Tales of the World - Radiant Mythology (PSP System Bundle)", 2]
 		],
 		"Talkman": [
 			["TalkMan (Soft Tantaiban)", 0]
@@ -649,7 +664,7 @@
 			["Yuusha no Kuse ni Namaikida or2", 1]
 		],
 		"Who Wants to Be a Millionaire - Party Edition": [
-			["Chi Vuol Essere Milionario - Party Edition", 1]
+			["Chi Vuol Essere Milionario Party Edition", 1]
 		],
 		"White Knight Chronicles - Origins": [
 			["Shirokishi Monogatari Episode Portable - Dogma Wars", 1]
