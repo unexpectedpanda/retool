@@ -3,7 +3,7 @@
         "name": [
 			"Sony - PlayStation 2"
 		],
-        "last updated": "30 January 2022",
+        "last updated": "13 February 2022",
 		"minimum version": "0.92"
     },
 
@@ -1108,6 +1108,9 @@
 		"Fullmetal Alchemist and the Broken Angel": [
 			["Hagane no Renkinjutsushi - Tobenai Tenshi", 1]
 		],
+		"Fullmetal Alchemist - Dream Carnival": [
+			["Hagane no Renkinjutsushi - Dream Carnival", 1]
+		],
 		"Fushigi no Umi no Nadia - Inherit the Blue Water (Collector's Edition)": [
 			["Fushigi no Umi no Nadia - Inherit the Blue Water", 2]
 		],
@@ -1391,7 +1394,7 @@
 			["Hitman - Silent Assassin", 1]
 		],
 		"Hobbit, The - The Prelude to the Lord of the Rings": [
-			["Khobbit - Predystoriya Sagi Vlastelin Kolets", 1]
+			["Hobbit - Predystoriya Sagi Vlastelin Kolets", 1]
 		],
 		"Horsez": [
 			["Pippa Funnell - Take the Reins", 1]
@@ -1491,9 +1494,14 @@
 		"Jurassic Park - Operation Genesis": [
 			["Keiei Simulation - Jurassic Park", 1]
 		],
+		"K-1 Premium Dynamite!!": [
+			["K-1 Premium 2004 Dynamite!!", 1]
+		],
+		"K-1 World GP": [
+			["K-1 World GP 2005", 1]
+		],
 		"K-1 World Grand Prix": [
-			["K-1 World GP", 1],
-			["K-1 World Grand Prix - The Beast Attack!", 1]
+			["K-1 World Grand Prix 2002", 1]
 		],
 		"Kaido Racer": [
 			["Kaidou Battle 2 - Chain Reaction", 1]
@@ -2327,6 +2335,7 @@
 			["Bakuen Kakusei - Neverland Senki Zero", 1]
 		],
 		"Red Ninja - End of Honor": [
+			["Red Ninja - End of Honour", 1],
 			["Red Ninja - Kekka no Mai", 1]
 		],
 		"RedCard 20-03": [
@@ -2839,11 +2848,15 @@
 		"Taiko Drum Master": [
 			["Taiko no Tatsujin - Taiko Drum Master", 1]
 		],
-		"Taisen Hot Gimmick - Cosplay-jong (Special-ban)": [
-			["Taisen Hot Gimmick - Cosplay-jong", 2]
+		"Taisen Hot Gimmick - Axes-jong": [
+			["Taisen Hot Gimmick - Axes-jong (Special-ban)", 0]
+		],
+		"Taisen Hot Gimmick - Cosplay-jong": [
+			["Taisen Hot Gimmick - Cosplay-jong (Special-ban)", 0]
 		],
 		"Taito Memories - Gekan (Eternal Hits)": [
-			["Taito Memories - Gekan (Taito Best)", 2]
+			["Taito Memories - Gekan", 2],
+			["Taito Memories - Gekan (Taito Best)", 3]
 		],
 		"Taito Memories - Joukan (Eternal Hits)": [
 			["Taito Memories - Joukan", 2],
@@ -3042,6 +3055,9 @@
 		"Under the Skin": [
 			["Meiwaku Seijin - Panic Maker", 1]
 		],
+		"Unison - Rebels of Rhythm & Dance": [
+			["Unison", 1]
+		],
 		"Urban Chaos - Riot Response": [
 			["Urban Chaos", 1]
 		],
@@ -3114,7 +3130,7 @@
 			["Wer wird Millionaer - 2. Edition", 1]
 		],
 		"Who Wants to Be a Millionaire - Party Edition": [
-			["Chi Vuol Essere Milionario - Party Edition", 1],
+			["Chi Vuol Essere Milionario Party Edition", 1],
 			["Wer wird Millionaer - Party Edition", 1]
 		],
 		"Wild Arms 3": [
@@ -3153,7 +3169,8 @@
 			["Winter Sports 2009 - The Next Challenge", 1]
 		],
 		"Winter X Games Snowboarding 2": [
-			["ESPN Winter X Games Snowboarding 2002", 1]
+			["ESPN Winter X Games Snowboarding 2002", 1],
+			["Winter X Games Snowboarding 2002", 1]
 		],
 		"Women's Volleyball Championship": [
 			["FIVB Volleyball World Cup - Venus Evolution", 1]
