@@ -3,7 +3,7 @@
 		"name": [
 			"Microsoft - Xbox"
 		],
-		"last updated": "30 January 2022",
+		"last updated": "30 January 2021",
 		"minimum version": "0.89"
 	},
 
@@ -374,6 +374,9 @@
 		],
 		"Otogi 2 - Immortal Warriors": [
 			["Otogi - Hyakki Toubatsu Emaki", 1]
+		],
+		"Phantasy Star Online Episode I & II": [
+			["Phantasy Star Online - Episode I & II", 2]
 		],
 		"Power Drome": [
 			["Powerdrome", 1]

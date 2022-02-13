@@ -7,7 +7,7 @@
             "These are defaults that Retool requires, don't modify this file.",
             "Check user-config.yaml for user-editable settings."
         ],
-        "last updated": "30 January 2022"
+        "last updated": "13 February 2022"
     },
 
     "ignore_tags": [
@@ -125,7 +125,7 @@
         "\\s?\\(DSI\\)",
         "\\s?\\(DX Pack\\)",
         "\\s?\\(EA Best Hits\\)",
-	"\\s?\\(ebKore Plus\\)",
+        "\\s?\\(ebKore Plus\\)",
         "\\s?\\(Fukyuuban.*?\\)",
         "\\s?\\(Game no Kanzume Otokuyou\\)",
         "\\s?\\(Gluk Video\\)",
@@ -142,7 +142,6 @@
         "\\s?\\(Infinity Plus\\)",
         "\\s?\\(Kixx\\)",
         "\\s?\\(Koei the Best\\)",
-	"\\s?\\(Limited Run Games\\)",
         "\\s?\\(Major Wave\\)",
         "\\s?\\(Mega Hits!\\)",
         "\\s?\\(Mega Soft\\)",
@@ -232,6 +231,7 @@
         "\\s?\\(Disney Classic Games\\)",
         "\\s?\\(Genesis Mini\\)",
         "\\s?\\(Konami Collector's Series\\)",
+        "\\s?\\(Limited Run Games\\)",
         "\\s?\\(Mega Drive Mini\\)",
         "\\s?\\(Mega Man Legacy Collection\\)",
         "\\s?\\(Mega Man X Legacy Collection\\)",

@@ -3,7 +3,7 @@
 		"name": [
 			"Sony - PlayStation Portable (Redump)"
 		],
-		"last updated": "31 January 2022",
+		"last updated": "13 February 2022",
 		"minimum version": "0.92"
 	},
 
@@ -90,6 +90,7 @@
 			["Buzz! De Strafste van Belgie", 1],
 			["Buzz! Deutschlands Superquiz", 1],
 			["Buzz! Il Quizzone Nazionale", 1],
+			["Buzz! Le Plus Malin des Francais", 1],
 			["Buzz! Polskie Lamiglowki ~ Buzz! Mozak Hrvatske", 1],
 			["Buzz! Que Sabes de tu Pais", 1],
 			["Buzz! Quem e o Genio Portugues ~ Buzz! Sokrovishha nacii", 1],
@@ -195,6 +196,9 @@
 		],
 		"Dungeon Maker - Hunting Ground": [
 			["Chronicle of Dungeon Maker", 1]
+		],
+		"Dungeon Maker II - The Hidden War": [
+			["Chronicle of Dungeon Maker II", 1]
 		],
 		"Dynasty Warriors": [
 			["Jin Samguk Mussang", 1],
@@ -485,6 +489,9 @@
 		],
 		"PixelJunk Monsters - Deluxe": [
 			["PixelJunk Monsters UMD Limited Edition", 1]
+		],
+		"PoPoLoCrois": [
+			["PoPoLoCrois Monogatari - Pietro Ouji no Bouken", 1]
 		],
 		"PQ2 - Practical Intelligence Quotient 2": [
 			["Practical IQ - Test Your Intelligence", 1]

@@ -161,9 +161,6 @@
 			["Juuouki - Project Altered Beast", 1],
 			["Shouwangji - Project Altered Beast", 1]
 		],
-		"Amagami (ebKore Plus)": [
-			["Amagami", 2]
-		],
 		"Amagoushi no Yakata": [
 			["Amagoushi no Yakata - Ichiyanagi Nagomu, Saisho no Junan", 2]
 		],
@@ -1501,7 +1498,7 @@
 			["K-1 World GP 2005", 1]
 		],
 		"K-1 World Grand Prix": [
-			["K-1 World Grand Prix 2002", 1]
+			["K-1 World GP", 1]
 		],
 		"Kaido Racer": [
 			["Kaidou Battle 2 - Chain Reaction", 1]
@@ -2386,6 +2383,9 @@
 		],
 		"Road Trip": [
 			["Road Trip Adventure", 1]
+		],
+		"Robot Alchemic Drive": [
+			["Gigantic Drive", 1]
 		],
 		"Robot Warlords": [
 			["Velvet File", 1]
