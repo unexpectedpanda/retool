@@ -53,7 +53,8 @@ class DatNode:
         self.tag_free_name = get_tag_free_name(self.full_name, user_input, REGEX)
 
         # Set region free, language free title
-        if re.search(' \((.*?,){0,} {0,}' + region + '(,.*?){0,}\)', self.full_name) != None:
+        if re.search('\((?:\w*,\s)*(?:' + region + ')(?:,\s\w*)*\)', self.full_name) != None:
+        # if re.search(' \((.*?,){0,} {0,}' + region + '(,.*?){0,}\)', self.full_name) != None:
             self.region_free_name = remove_regions(remove_languages(self.full_name, REGEX.languages), region_data)
 
             # Now set regionless title with minimal tags
@@ -67,7 +68,19 @@ class DatNode:
 
         # Set implied language for the region
         if region != 'Unknown':
-            self.regions = re.search('\((.*?,){0,} {0,}' + region + '(,.*?){0,}\)', self.full_name)[0][1:-1]
+            if not re.search('\((?:\w*,\s)*(?:' + region + ')(?:,\s\w*)*\)', self.full_name):
+                print(self.full_name)
+                print(f'self.region_free_name: {self.region_free_name}')
+                print(region)
+                input(f'search string:', re.search('\((?:\w*,\s)*(?:' + region + ')(?:,\s\w*)*\)'))
+
+
+            self.regions = re.search('\((?:\w*,\s)*(?:' + region + ')(?:,\s\w*)*\)', self.full_name).group()[1:-1]
+
+            # print('self.regions')
+            # print(self.regions)
+
+            # self.regions = re.search('\((.*?,){0,} {0,}' + region + '(,.*?){0,}\)', self.full_name)[0][1:-1]
 
             region_list = self.regions.split(', ')
             region_reorder = []

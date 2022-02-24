@@ -105,7 +105,7 @@ def dat_to_dict(region, region_data, input_dat, user_input, removes_found, categ
         # Now refine the region selection
         refined_region_xml = []
         for node in region_xml:
-            if re.search('game.*?name=.*?\((.*?,){0,} {0,}' + region + '(,.*?){0,}\)', str(node)) != None:
+            if re.search('game.*?name=.*?\((?:\w*,\s)*(?:' + region + ')(?:,\s\w*)*\)', str(node)) != None:
                 refined_region_xml.append(node)
         region_xml = None
 
@@ -407,7 +407,7 @@ def dat_to_dict(region, region_data, input_dat, user_input, removes_found, categ
                         groups[get_raw_title(key)] = []
 
                     if 'condition' in value:
-                        if re.search('\((.*?,){0,} {0,}' + region + '(,.*?){0,}\)', key) != None:
+                        if re.search('\((?:\w*,\s)*(?:' + region + ')(?:,\s\w*)*\)', key) != None:
 
                             # Check that the current region is available in the user's region order
                             higher_regions = []
@@ -465,7 +465,7 @@ def dat_to_dict(region, region_data, input_dat, user_input, removes_found, categ
                                                     f'{Font.warning_bold}{key}{Font.end}')
                     else:
                         try:
-                            if re.search('\((.*?,){0,} {0,}' + region + '(,.*?){0,}\)', key) != None:
+                            if re.search('\((?:\w*,\s)*(?:' + region + ')(?:,\s\w*)*\)', key) != None:
                                 override(value, groups[get_raw_title(key)].copy(), value['new group'].lower())
 
                         except:
@@ -618,9 +618,15 @@ def process_input_dat(dat_file, is_folder, gui=False):
                     return 'end_batch'
         else:
             print('failed.')
-            printwrap(
+
+            if not validation_tags[2]:
+                printwrap(
                 f'{Font.error_bold}* Error: "{dat_file}"{Font.error} '
-                f'isn\'t a compatible dat file.{next_status}{Font.end}', 'error')
+                f'doesn\'t have any <game> nodes. No titles to process.{next_status}{Font.end}', 'error')
+            else:
+                printwrap(
+                    f'{Font.error_bold}* Error: "{dat_file}"{Font.error} '
+                    f'isn\'t a compatible dat file.{next_status}{Font.end}', 'error')
             if is_folder == False:
                 sys.exit()
             else:

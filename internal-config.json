@@ -7,7 +7,7 @@
             "These are defaults that Retool requires, don't modify this file.",
             "Check user-config.yaml for user-editable settings."
         ],
-        "last updated": "13 February 2022"
+        "last updated": "20 February 2022"
     },
 
     "ignore_tags": [
@@ -20,8 +20,8 @@
         "\\s\\((?:(?!\\(|Beta( [0-9]{,2}){,1})[\\s\\S])*Beta( [0-9]{,2}){,1}\\)",
         "\\s\\((?:(?!\\(|Proto( [0-9]{,2}){,1})[\\s\\S])*Proto( [0-9]{,2}){,1}\\)",
         "\\s?\\(Prerelease\\)",
-        "\\s?\\(DEV\\)",
         "\\s?\\(DEBUG\\)",
+        "\\s?\\(DEV\\)",
         "\\s?\\(Pre-Production\\)",
         "\\s?\\(Review (Code|Kit [0-9]+)\\)",
         "\\s?\\(Alt.*?\\)",
@@ -39,7 +39,6 @@
         "\\s?\\(Pirate\\)",
         "\\s?\\(Essentials\\)",
         "\\s\\((?:(?!\\(|OEM.*?)[\\s\\S])*OEM.*?\\)",
-        "\\s?\\(Hibaihin\\)",
         "\\s?\\(Rerelease\\)",
         "\\s?\\(Magazine\\)",
         "\\s?\\(Made in.*?\\)",
@@ -194,6 +193,7 @@
         "\\s?\\(Earlier\\)",
         "\\s?\\(Early\\)",
         "\\s?\\(Encrypted CIA\\)",
+        "\\s?\\(Hibaihin\\)",
         "\\s?\\(Launch Cart\\)",
         "\\s?\\(Light Phaser\\)",
         "\\s?\\(Not for Resale\\)",

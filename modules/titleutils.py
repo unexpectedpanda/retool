@@ -135,7 +135,7 @@ def remove_languages(title, REGEX_LANGUAGES):
 def remove_regions(title, region_data):
     """ Removes regions from the input title, given the title and region_data object """
 
-    return title.replace(re.search(' \(((.*?,){0,} {0,})(' + '|'.join(region_data.all) + ').*?\)', title)[0],'')
+    return title.replace(re.search(' \((?:\w*,\s)*(?:' + '|'.join(region_data.all) + ')(?:,\s\w*)*\)', title).group(),'')
 
 
 def remove_tags(title, user_input, REGEX):

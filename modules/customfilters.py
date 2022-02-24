@@ -146,8 +146,8 @@ def recover_titles_for_custom_filters(user_input, input_dat, dat_numbered, recov
                 region = ''
 
                 for region in region_data.all:
-                    if re.search('\((.*?,){0,} {0,}' + region + '(,.*?){0,}\)', node.description.parent['name']) != None:
-                        region = re.search('\((.*?,){0,} {0,}' + region + '(,.*?){0,}\)', node.description.parent['name'])[0][1:-1]
+                    if re.search('\((?:\w*,\s)*(?:' + region + ')(?:,\s\w*)*\)', node.description.parent['name']) != None:
+                        region = re.search('\((?:\w*,\s)*(?:' + region + ')(?:,\s\w*)*\)', node.description.parent['name']).group()[1:-1]
                         break
 
                 if region == '': region = 'Unknown'

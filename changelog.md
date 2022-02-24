@@ -1,3 +1,10 @@
+# 1.05
+
+- Fixed a region selection regex bug which caused Retool to crash when
+  including files with specific regex custom filters.
+- Added a more specific error message for DATs with no games.
+- The DTD was updated to make `size` an optional attribute of `rom`.
+
 # 1.04
 
 - Fixed a bug where _(United Kingdom)_ titles in No-Intro dats were being
