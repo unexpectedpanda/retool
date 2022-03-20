@@ -1043,7 +1043,7 @@
     "Angelique - Tenkuu no Requiem (Japan)": {
         "languages": "Ja"
     },
-    "Angelique - Tenkuu no Requiem (Japan) (Angelique History)": {
+    "Angelique - Tenkuu no Requiem (Japan) (Premium Box)": {
         "languages": "Ja"
     },
     "Angelique Duet (Japan)": {
@@ -1243,6 +1243,9 @@
     },
     "Arc the Lad II (Japan) (Rev 1)": {
         "languages": "Ja"
+    },
+    "Arc the Lad II - Characters & World CG Movie Collection (Japan)": {
+        "languages": "En"
     },
     "Arc the Lad III (Japan) (Demo 1)": {
         "languages": "Ja"
@@ -3776,7 +3779,7 @@
     "Chi Vuol Essere Miliardario (Italy)": {
         "languages": "It"
     },
-    "Chi Vuol Essere Milionario - Seconda Edizione (Italy)": {
+    "Chi Vuol Essere Milionario Seconda Edizione (Italy)": {
         "languages": "It"
     },
     "Chibi Chara Game - Ginga Eiyuu Densetsu (Japan) (Disc 1) (Go! Go! Casino) (Shokai Tokuten Reinhart Genteiban)": {
@@ -6656,7 +6659,7 @@
     "Disney-Pixar A Bug's Life - Megaminimondo (Italy) (Rev 1)": {
         "languages": "It"
     },
-    "Disney-Pixar Bichos Una Aventura en Miniatura (Spain)": {
+    "Disney-Pixar Bichos - Una Aventura en Miniatura (Spain)": {
         "languages": "Es"
     },
     "Disney-Pixar Bottega dei Giochi - A Bug's Life Megaminimondo (Italy)": {
@@ -9521,6 +9524,9 @@
     "Fear Effect 2 - Retro Helix (USA) (Disc 4) (Rev 1)": {
         "languages": "En"
     },
+    "Fear Factor (USA) (Beta)": {
+        "languages": "En"
+    },
     "Feeding Frenzy Screensaver (Europe) (Unl)": {
         "languages": "En"
     },
@@ -10748,10 +10754,10 @@
     "Galerians (Japan) (Disc 3)": {
         "languages": "Ja"
     },
-    "Galerians (Japan) (En,Ja) (Disc 1) (Proto)": {
+    "Galerians (Japan) (En,Ja) (Disc 1) (Beta)": {
         "languages": "En, Ja"
     },
-    "Galerians (Japan) (En,Ja) (Disc 2) (Proto)": {
+    "Galerians (Japan) (En,Ja) (Disc 2) (Beta)": {
         "languages": "En, Ja"
     },
     "Galerians (UK) (Demo)": {
@@ -11654,10 +11660,16 @@
     "Gundam the Battle Master (Japan)": {
         "languages": "Ja"
     },
-    "Gundam the Battle Master (Japan) (Demo)": {
+    "Gundam the Battle Master (Japan) (Demo 1)": {
+        "languages": "Ja"
+    },
+    "Gundam the Battle Master (Japan) (Demo 2)": {
         "languages": "Ja"
     },
     "Gundam the Battle Master 2 (Japan)": {
+        "languages": "Ja"
+    },
+    "Gundam the Battle Master 2 (Japan) (Demo)": {
         "languages": "Ja"
     },
     "Gundress (Japan)": {
@@ -13799,10 +13811,10 @@
     "Kagero - Deception II (USA) (Demo)": {
         "languages": "En"
     },
-    "Kagerou - Kokumeikan Shinshou (Japan)": {
+    "Kagero - Kokumeikan Shinshou (Japan)": {
         "languages": "Ja"
     },
-    "Kagerou - Kokumeikan Shinshou (Japan) (Demo)": {
+    "Kagero - Kokumeikan Shinshou (Japan) (Demo)": {
         "languages": "Ja"
     },
     "Kahen Soukou Gunbike - Speed Power Gunbike (Japan)": {
@@ -15131,6 +15143,9 @@
     "Legacy of Kain - Soul Reaver (USA)": {
         "languages": "En"
     },
+    "Legacy of Kain - Soul Reaver (USA) (Beta)": {
+        "languages": "En"
+    },
     "Legaia Densetsu (Japan)": {
         "languages": "Ja"
     },
@@ -15200,16 +15215,16 @@
     "Legend of Dragoon, The (Japan) (Demo 3)": {
         "languages": "Ja"
     },
-    "Legend of Dragoon, The (Japan) (Disc 1)": {
+    "Legend of Dragoon, The (Japan, Asia) (Disc 1)": {
         "languages": "Ja"
     },
-    "Legend of Dragoon, The (Japan) (Disc 2)": {
+    "Legend of Dragoon, The (Japan, Asia) (Disc 2)": {
         "languages": "Ja"
     },
-    "Legend of Dragoon, The (Japan) (Disc 3)": {
+    "Legend of Dragoon, The (Japan, Asia) (Disc 3)": {
         "languages": "Ja"
     },
-    "Legend of Dragoon, The (Japan) (Disc 4)": {
+    "Legend of Dragoon, The (Japan, Asia) (Disc 4)": {
         "languages": "Ja"
     },
     "Legend of Dragoon, The (Spain) (Disc 1)": {
@@ -15435,7 +15450,7 @@
         "languages": "En"
     },
     "Lode Runner - The Legend Returns (Japan)": {
-        "languages": "Ja"
+        "languages": "En"
     },
     "Lode Runner Extra (Japan)": {
         "languages": "En"
@@ -15890,6 +15905,9 @@
     "Macross Plus - Game Edition (Japan)": {
         "languages": "Ja"
     },
+    "Macross Plus - Game Edition (Japan) (Demo)": {
+        "languages": "Ja"
+    },
     "Macross VF-X2 (Japan)": {
         "languages": "Ja"
     },
@@ -15926,7 +15944,7 @@
     "Madden NFL 2005 (USA)": {
         "languages": "En"
     },
-    "Madden NFL 96 (USA) (Beta)": {
+    "Madden NFL 96 (USA) (Proto)": {
         "languages": "En"
     },
     "Madden NFL 97 (Europe)": {
@@ -19970,6 +19988,9 @@
     "PO'ed (USA)": {
         "languages": "En"
     },
+    "PO'ed (USA) (Beta)": {
+        "languages": "En"
+    },
     "PS One Demo Disc 02 (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
@@ -22147,6 +22168,9 @@
     },
     "R4 - Ridge Racer Type 4 (Japan, Asia)": {
         "languages": "Ja"
+    },
+    "R4 - Ridge Racer Type 4 (Korea)": {
+        "languages": "En"
     },
     "R4 - Ridge Racer Type 4 (USA)": {
         "languages": "En"
@@ -26078,6 +26102,9 @@
     "Star Wars - Episodio I - La Amenaza Fantasma (Spain)": {
         "languages": "Es"
     },
+    "Star Wars - Episodio I - La Amenaza Fantasma (Spain) (Demo)": {
+        "languages": "Es"
+    },
     "Star Wars - Episodio I - La Minaccia Fantasma (Italy)": {
         "languages": "It"
     },
@@ -26209,6 +26236,9 @@
     },
     "Station Demo Disc 9 (Europe)": {
         "languages": "En"
+    },
+    "StationMaster 02-2001 Xploder (Germany) (En,De) (Unl)": {
+        "languages": "En, De"
     },
     "StationMaster 03-2001 Xploder (Germany) (En,De) (Unl)": {
         "languages": "En, De"
@@ -29720,6 +29750,9 @@
     "Urban Chaos (USA)": {
         "languages": "En"
     },
+    "Urban Chaos (USA) (Beta)": {
+        "languages": "En"
+    },
     "Utauta Woo - Seirei-Songs (Japan)": {
         "languages": "Ja"
     },
@@ -30056,6 +30089,9 @@
     "Vigilante 8 (USA)": {
         "languages": "En"
     },
+    "Vigilante 8 (USA) (Beta)": {
+        "languages": "En"
+    },
     "Vigilante 8 (USA) (Demo)": {
         "languages": "En"
     },
@@ -30270,6 +30306,9 @@
         "languages": "En"
     },
     "WWF SmackDown! (Europe)": {
+        "languages": "En"
+    },
+    "WWF SmackDown! (Europe) (Demo)": {
         "languages": "En"
     },
     "WWF SmackDown! (USA)": {
@@ -31508,7 +31547,7 @@
     "Yamifuku Natsu - Teito Monogatari Futatabi (Japan)": {
         "languages": "Ja"
     },
-    "Yaoi Junichi Gokuhi Project - UFO o Oe!! (Japan)": {
+    "Yaoi Jun'ichi Gokuhi Project - UFO o Oe!! (Japan)": {
         "languages": "Ja"
     },
     "Yarudora (Japan) (Demo)": {

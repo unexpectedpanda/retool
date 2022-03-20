@@ -3,7 +3,7 @@
         "name": [
 			"Sony - PlayStation 2"
 		],
-        "last updated": "13 February 2022",
+        "last updated": "20 March 2022",
 		"minimum version": "0.92"
     },
 
@@ -954,7 +954,7 @@
 			["Zero - Shisei no Koe", 1]
 		],
 		"Fatal Fury - Battle Archives Volume 2": [
-			["Garou Densetsu Battle Archives 2", 1]
+			["NeoGeo Online Collection Vol. 6 - Garou Densetsu Battle Archives 2", 1]
 		],
 		"Fate-stay night - Realta Nua": [
 			["Fate-stay night - Realta Nua (Extra Edition)", 0]
@@ -972,10 +972,12 @@
 			["FIFA 08", 1]
 		],
 		"FIFA Soccer 09": [
-			["FIFA 09", 1]
+			["FIFA 09", 1],
+			["FIFA 09 - World Class Soccer", 1]
 		],
 		"FIFA Soccer 10": [
-			["FIFA 10", 1]
+			["FIFA 10", 1],
+			["FIFA 10 - World Class Soccer", 1]
 		],
 		"FIFA Soccer 11": [
 			["FIFA 11", 1]
@@ -1348,9 +1350,10 @@
 		"Harukanaru Toki no Naka de 2 (Premium Box)": [
 			["Harukanaru Toki no Naka de 2", 2]
 		],
-		"Harukanaru Toki no Naka de 3 (Triple Pack)": [
-			["Harukanaru Toki no Naka de 3 (History Box)", 2],
-			["Harukanaru Toki no Naka de 3", 3]
+		"Harukanaru Toki no Naka de 3 - Izayoiki (Japan) (Premium Box)": [
+			["Harukanaru Toki no Naka de 3 (Triple Pack)", 2],
+			["Harukanaru Toki no Naka de 3 (History Box)", 3],
+			["Harukanaru Toki no Naka de 3", 4]
 		],
 		"Harukanaru Toki no Naka de 3 - Izayoiki (Triple Pack)": [
 			["Harukanaru Toki no Naka de 3 - Izayoiki", 2]
@@ -3007,8 +3010,11 @@
 		"Total Overdose - A Gunslinger's Tale in Mexico": [
 			["Total Overdose", 1]
 		],
+		"Tourist Trophy": [
+			["Tourist Trophy - The Real Riding Simulator", 1]
+		],
 		"Trapt": [
-			["Kagerou II - Dark Illusion", 1]
+			["Kagero II - Dark Illusion", 1]
 		],
 		"Transformers": [
 			["Transformers (Director's Cut)", 0]

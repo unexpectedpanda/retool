@@ -672,7 +672,7 @@
         "languages": "En"
     },
     "Burnout Revenge (Europe) (Demo)": {
-        "languages": ""
+        "languages": "En"
     },
     "Burnout Revenge (Europe) (En,Fr,De)": {
         "languages": "En, Fr, De"
@@ -684,7 +684,7 @@
         "languages": "En"
     },
     "Burnout Revenge (USA) (Demo)": {
-        "languages": ""
+        "languages": "En"
     },
     "C.A.T - Cyber Attack Team (Japan)": {
         "languages": "Ja"
@@ -710,7 +710,7 @@
     "Cabela's Deer Hunt - 2005 Season (USA, Australia)": {
         "languages": "En"
     },
-    "Cabela's Outdoor Adventures (USA)": {
+    "Cabela's Outdoor Adventures (USA, Australia)": {
         "languages": "En"
     },
     "Call of Cthulhu - Dark Corners of the Earth (Europe) (En,Fr,De)": {
@@ -1844,6 +1844,9 @@
     "FIFA 06 (Europe)": {
         "languages": "En"
     },
+    "FIFA 06 (Europe) (Demo)": {
+        "languages": ""
+    },
     "FIFA 06 (Europe) (En,Nl,Sv,No,Da,El)": {
         "languages": "Da, Nl, En, El, No, Sv"
     },
@@ -2309,7 +2312,7 @@
     "Godfather, The - The Game (USA)": {
         "languages": ""
     },
-    "Godzilla - Destroy All Monsters Melee (Europe) (En,Fr,De,Es,It)": {
+    "Godzilla - Destroy All Monsters Melee (USA, Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
     "Godzilla - Save the Earth (USA, Europe)": {
@@ -3380,6 +3383,9 @@
     "Maximum Chase (Japan)": {
         "languages": ""
     },
+    "Maximum Chase (Japan) (Demo)": {
+        "languages": "Ja"
+    },
     "Maximum Chase (USA)": {
         "languages": ""
     },
@@ -3443,6 +3449,9 @@
     "Medal of Honor - Les Faucons de Guerre (France)": {
         "languages": ""
     },
+    "Medal of Honor - Rising Sun (Asia)": {
+        "languages": ""
+    },
     "Medal of Honor - Rising Sun (Europe) (En,Es,It,Nl,Sv)": {
         "languages": "Nl, En, It, Es, Sv"
     },
@@ -3470,7 +3479,7 @@
     "Men of Valor (Italy)": {
         "languages": "It"
     },
-    "Men of Valor (USA)": {
+    "Men of Valor (USA, Asia)": {
         "languages": "En"
     },
     "Mercenaries (Europe) (Es,It)": {
@@ -4697,13 +4706,16 @@
     "Official Xbox Magazine Game Disc 53 (USA)": {
         "languages": "En"
     },
+    "Official Xbox Magazine Game Disc 54 (Australia)": {
+        "languages": "En"
+    },
     "Official Xbox Magazine Game Disc 54 (Europe) (En,Fr,De,It,Pt)": {
         "languages": "En, Fr, De, It, Pt"
     },
     "Official Xbox Magazine Game Disc 54 (USA)": {
         "languages": "En"
     },
-    "Official Xbox Magazine Game Disc 55 (Europe) (En,Fr,De,It,Pt)": {
+    "Official Xbox Magazine Game Disc 55 (Europe, Australia) (En,Fr,De,It,Pt)": {
         "languages": "En, Fr, De, It, Pt"
     },
     "Official Xbox Magazine Game Disc 55 (USA)": {
@@ -4796,6 +4808,9 @@
     "Offizielle Xbox-Magazin, Das - Cover-DVD 07-2005 (Germany) (En,Fr,De,Es,It,Pt)": {
         "languages": "En, Fr, De, It, Pt, Es"
     },
+    "Offizielle Xbox-Magazin, Das - Cover-DVD 08-2002 (Germany)": {
+        "languages": "De"
+    },
     "Offizielle Xbox-Magazin, Das - Cover-DVD 08-2003 (Germany) (En,Fr,De,Es,It,Pl)": {
         "languages": "En, Fr, De, It, Pl, Es"
     },
@@ -4847,7 +4862,7 @@
     "Open Season (USA)": {
         "languages": ""
     },
-    "Operation Flashpoint - Elite (Europe) (En,Fr,De,It)": {
+    "Operation Flashpoint - Elite (USA, Europe) (En,Fr,De,It)": {
         "languages": "En, Fr, De, It"
     },
     "Operation WinBack 2 - Project Poseidon (Europe)": {
@@ -5002,6 +5017,9 @@
     },
     "Petit Copter (Japan)": {
         "languages": "Ja"
+    },
+    "Phantasy Star Online - Episode I & II (Japan) (Beta)": {
+        "languages": ""
     },
     "Phantasy Star Online Episode I & II (Europe) (En,Ja,Fr,De,Es)": {
         "languages": "En, Fr, De, Ja, Es"
@@ -5265,7 +5283,7 @@
         "languages": "Ja"
     },
     "RalliSport Challenge (Japan) (Demo)": {
-        "languages": ""
+        "languages": "Ja"
     },
     "RalliSport Challenge (USA)": {
         "languages": "En"
@@ -5324,10 +5342,10 @@
     "Red Faction II (USA)": {
         "languages": ""
     },
-    "Red Ninja - End of Honor (Germany)": {
+    "Red Ninja - End of Honor (USA, Europe)": {
         "languages": "En"
     },
-    "Red Ninja - End of Honor (USA, Europe)": {
+    "Red Ninja - End of Honour (Germany)": {
         "languages": "En"
     },
     "Red Star, The (USA) (Proto 1)": {
@@ -5564,7 +5582,7 @@
     "Scooby-Doo! Night of 100 Frights (USA)": {
         "languages": ""
     },
-    "Scooby-Doo! Unmasked (Europe) (En,Fr,Es,It)": {
+    "Scooby-Doo! Unmasked (USA, Europe) (En,Fr,Es,It)": {
         "languages": "En, Fr, It, Es"
     },
     "Scudetto 5 (Italy)": {
@@ -6962,10 +6980,10 @@
     "Urbz, The - Sims in the City (USA)": {
         "languages": ""
     },
-    "V-Rally 3 (Asia) (En,Fr,De,Es,It)": {
+    "V-Rally 3 (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
-    "V-Rally 3 (Europe) (En,Fr,De,Es,It)": {
+    "V-Rally 3 (USA, Asia) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
     "V8 Supercars Australia - Race Driver (Australia)": {
@@ -7145,7 +7163,7 @@
     "World Racing (USA)": {
         "languages": "En"
     },
-    "World Racing 2 (Europe) (En,Fr,De,Es,It)": {
+    "World Racing 2 (USA, Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
     "World Series Baseball (USA)": {
@@ -7334,6 +7352,9 @@
     "Xbox Demo Disc Version 2.2 (USA)": {
         "languages": "En"
     },
+    "Xbox Demo Disc Version 2.2a (USA)": {
+        "languages": "En"
+    },
     "Xbox Demo Disc Version 2.3 (USA)": {
         "languages": "En"
     },
@@ -7367,6 +7388,9 @@
     "Xbox Demo Disc Version 3.5 (USA)": {
         "languages": ""
     },
+    "Xbox Demo Disc Version 3.5 (USA) (ESRB RP-M)": {
+        "languages": "En"
+    },
     "Xbox Demo Disc Version 3.6 (USA)": {
         "languages": "En"
     },
@@ -7374,6 +7398,9 @@
         "languages": ""
     },
     "Xbox Demo Disc Version 4.1 (USA)": {
+        "languages": "En"
+    },
+    "Xbox Demo Disc Version 4.1 (USA) (ESRB RP-M)": {
         "languages": "En"
     },
     "Xbox Demo Disc Version 4.2 (USA)": {
@@ -7387,6 +7414,9 @@
     },
     "Xbox Demo Disc Version 4.5 (USA)": {
         "languages": "En"
+    },
+    "Xbox Demo Disk Version 1.0 (USA)": {
+        "languages": ""
     },
     "Xbox Demo Disk Version 1.1 (USA)": {
         "languages": "En"

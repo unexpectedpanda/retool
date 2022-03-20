@@ -776,6 +776,9 @@
     "Boy and His Blob, A (USA)": {
         "languages": "En"
     },
+    "Bratz - Girlz Really Rock (Europe) (De,Es,It)": {
+        "languages": "De, It, Es"
+    },
     "Bratz - Girlz Really Rock (Europe) (En,Sv)": {
         "languages": "En, Sv"
     },
@@ -1289,6 +1292,9 @@
     "Cranium Kabookii (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
+    "Cranium Kabookii (USA) (En,Fr,Es)": {
+        "languages": "En, Fr, Es"
+    },
     "Crash - Mind over Mutant (USA) (En,Fr)": {
         "languages": "En, Fr"
     },
@@ -1432,6 +1438,9 @@
     },
     "Dance! It's Your Stage (Europe) (En,De)": {
         "languages": "En, De"
+    },
+    "Dance! It's Your Stage (Spain)": {
+        "languages": "Es"
     },
     "Dancing on Ice (Europe)": {
         "languages": "En"
@@ -2003,6 +2012,9 @@
     "Donkey Kong Country Returns (USA) (En,Fr,Es)": {
         "languages": "En, Fr, Es"
     },
+    "Donkey Kong Country Returns (USA) (En,Fr,Es) (Rev 1)": {
+        "languages": "En, Fr, Es"
+    },
     "Donkey Kong Returns (Japan)": {
         "languages": "Ja"
     },
@@ -2218,6 +2230,9 @@
     },
     "EA Sports Active - Personal Trainer (Europe) (En,Fr,De,Es,It,Nl)": {
         "languages": "Nl, En, Fr, De, It, Es"
+    },
+    "EA Sports Active - Personal Trainer (USA) (En,Fr)": {
+        "languages": "En, Fr"
     },
     "EA Sports Active 2 - Personal Trainer (Europe) (En,Fr,De,Es,It,Nl)": {
         "languages": "Nl, En, Fr, De, It, Es"
@@ -3112,6 +3127,9 @@
     },
     "Hasbro Family Game Night Value Pack (USA)": {
         "languages": "En"
+    },
+    "Hasbro Family Game Night Vol 2 (Europe) (En,Fr,De,Es,Nl)": {
+        "languages": "Nl, En, Fr, De, Es"
     },
     "Hasbro Family Game Night Vol 3 (Europe) (En,Fr,De,Es,It,Nl)": {
         "languages": "Nl, En, Fr, De, It, Es"
@@ -4271,7 +4289,7 @@
     "Mario Party 8 (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
-    "Mario Party 8 (Europe) (En,Fr,De,Es,It) (Rev 1)": {
+    "Mario Party 8 (Europe, Australia) (En,Fr,De,Es,It) (Rev 1)": {
         "languages": "En, Fr, De, It, Es"
     },
     "Mario Party 8 (Japan) (Rev 2)": {
@@ -4303,6 +4321,9 @@
     },
     "Mario Power Soccer (Korea)": {
         "languages": "Ko"
+    },
+    "Mario Sports Mix (Europe) (En,Fr,De,Es,It)": {
+        "languages": "En, Fr, De, It, Es"
     },
     "Mario Sports Mix (Japan)": {
         "languages": "Ja"
@@ -4411,6 +4432,9 @@
     },
     "Mercury Meltdown Revolution (USA) (En,Fr,Es)": {
         "languages": "En, Fr, Es"
+    },
+    "Merv Griffin's Crosswords (USA)": {
+        "languages": "En"
     },
     "Metal Fight Beyblade - Gachinko Stadium (Japan)": {
         "languages": ""
@@ -4716,6 +4740,9 @@
         "languages": "Da, Nl, En, Fi, Fr, De, It, No, Pt, Es, Sv"
     },
     "My First Songs (Europe)": {
+        "languages": "En"
+    },
+    "My Fitness Coach (USA)": {
         "languages": "En"
     },
     "My Fitness Coach - Cardio Workout (Europe) (En,Fr,De,Es,It)": {
@@ -6887,6 +6914,9 @@
     "Super Mario Collection (Korea)": {
         "languages": "En"
     },
+    "Super Mario Galaxy (Europe, Australia) (En,Fr,De,Es,It)": {
+        "languages": "En, Fr, De, It, Es"
+    },
     "Super Mario Galaxy (Japan)": {
         "languages": "Ja"
     },
@@ -7673,11 +7703,17 @@
     "Western Heroes (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da)": {
         "languages": "Da, Nl, En, Fr, De, It, No, Pt, Es, Sv"
     },
+    "Wheel of Fortune (Europe)": {
+        "languages": "En"
+    },
     "Wheelspin (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
     "Where the Wild Things Are (USA) (En,Fr,Es)": {
         "languages": "En, Fr, Es"
+    },
+    "Where's Waldo The Fantastic Journey (USA) (En,Fr)": {
+        "languages": "En, Fr"
     },
     "Who Wants to Be a Millionaire (Europe) (En,Fr,De,Es,It,Nl)": {
         "languages": "Nl, En, Fr, De, It, Es"
@@ -7693,6 +7729,9 @@
     },
     "Wicked Monsters Blast! (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
+    },
+    "Wii Auto Erase Disc (USA)": {
+        "languages": "En"
     },
     "Wii Chess (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"

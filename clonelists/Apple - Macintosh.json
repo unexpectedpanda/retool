@@ -3,7 +3,7 @@
 		"name": [
 			"Apple - Macintosh"
 		],
-		"last updated": "2 January 2022",
+		"last updated": "20 March 2022",
 		"minimum version": "0.92"
 	},
 
@@ -19,6 +19,12 @@
 	},
 
 	"renames": {
+		"Black & White (Data Disc)": [
+			["Black & White - Platinum Pack", 0]
+		],
+		"Black & White (Game Disc)": [
+			["Black & White - Platinum Pack", 0]
+		],
 		"Daedalus Encounter, The (Disc 1)": [
 			["Daedalus Encounter, The - Episode 1 - Nanpasen no Alien (Disc 1)", 1]
 		],
@@ -66,13 +72,25 @@
 			["Rayman 3 - Hoodlum Havoc", 0]
 		],
 		"Sims, The": [
+			["Sims, The - Complete Collection", 0],
 			["SimPeople", 1]
 		],
+		"Sims, The - Hot Date (Expansion Pack)": [
+			["Sims, The - Complete Collection", 0]
+		],
+		"Sims, The - Livin' Large (Expansion Pack)": [
+			["Sims, The - Complete Collection", 0]
+		],
 		"Sims, The - Superstar (Expansion Pack) (Disc 1)": [
+			["Sims, The - Complete Collection", 0],
 			["Sims, Les - Superstar (Disc 1) (Disc Additionnel)", 1]
 		],
 		"Sims, The - Superstar (Expansion Pack) (Disc 2)": [
+			["Sims, The - Complete Collection", 0],
 			["Sims, Les - Superstar (Disc 2) (Disc Additionnel)", 1]
+		],
+		"Sims, The - Vacation (Expansion Pack)": [
+			["Sims, The - Complete Collection", 0]
 		],
 		"Zork Nemesis (Disc 1)": [
 			["Zork Nemesis - The Forbidden Lands (Disc 1)", 1]

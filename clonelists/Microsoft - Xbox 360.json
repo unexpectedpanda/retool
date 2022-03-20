@@ -3,13 +3,21 @@
 		"name": [
 			"Microsoft - Xbox 360"
 		],
-		"last updated": "2 January 2022",
-		"minimum version": "0.89"
+		"last updated": "20 March 2022",
+		"minimum version": "0.92"
+	},
+
+	"categories": {
+		"Dead Rising 2 (Zombrex Edition Bonus Disc)": {
+			"match": "short",
+			"categories": ["Bonus Discs", "Video"]
+		}
 	},
 
 	"renames": {
 		"007 - Quantum of Solace": [
-			["007 - Ein Quantum Trost", 1]
+			["007 - Ein Quantum Trost", 1],
+			["007 - Nagusame no Houshuu", 1]
 		],
 		"2014 FIFA World Cup Brazil": [
 			["Copa do Mundo da FIFA Brasil 2014", 1]
@@ -57,12 +65,18 @@
 		"Beautiful Katamari": [
 			["Beautiful Katamari Damacy", 1]
 		],
+		"Blur": [
+			["Blur Racerz", 1]
+		],
 		"Borderlands - Double Game Add-On Pack": [
 			["Borderlands - Add-On Doppelpack", 1],
 			["Borderlands - Game of the Year Edition (Add-On Content Disc)", 2]
 		],
 		"Brian Lara International Cricket 2007": [
 			["Ricky Ponting International Cricket 2007", 1]
+		],
+		"Bullet Soul": [
+			["Bullet Soul - Infinite Burst", 0]
 		],
 		"Bully": [
 			["Bully - Scholarship Edition", 0]
@@ -133,6 +147,7 @@
 			["DiRT 3 - Complete Edition", 0]
 		],
 		"Disney Infinity 2.0 Edition": [
+			["Disney Infinity 2.0 - Igra bez Granic", 1],
 			["Disney Infinity 2.0 - Play Without Limits", 1]
 		],
 		"Disney-Pixar Up": [
@@ -253,10 +268,7 @@
 			["Forza Motorsport 3 - Ultimate Collection (Disc 2) (Content Install Disc)", 0]
 		],
 		"Forza Motorsport 4 (Disc 1) (Play Disc)": [
-			["Forza Motorsport 4 - Essentials Edition", 0]
-		],
-		"Forza Motorsport 4 (Disc 2) (Content Install Disc)": [
-			["Forza Motorsport 4 - Essentials Edition", 0]
+			["Forza Motorsport 4 - Essentials Edition", 2]
 		],
 		"Godfather, The": [
 			["Padrino, Il", 1]
@@ -266,6 +278,9 @@
 		],
 		"Halo 3 - ODST (Disc 1) (Campaign)": [
 			["Halo 3 - ODST (Disc 1) (Campanha)", 1]
+		],
+		"Hard Drive Transfer Disc": [
+			["Xbox 360 Hard Disk Data Transfer Disc", 1]
 		],
 		"Ice Age - Continental Drift - Arctic Games": [
 			["Era Glaciale 4, L' - Continenti alla Deriva - Giochi Polari", 1]
@@ -489,6 +504,9 @@
 		"Two Worlds II": [
 			["Two Worlds II - Game of the Year Edition", 0]
 		],
+		"Under Defeat HD - Deluxe Edition": [
+			["Under Defeat HD", 1]
+		],
 		"Virtua Fighter 5 Online ~ Virtua Fighter 5": [
 			["Virtua Fighter 5 - Live Arena", 1],
 			["Virtua Fighter 5", 1]
@@ -527,6 +545,9 @@
 		],
 		"Witcher 2, The - Assassins of Kings - Enhanced Edition (Disc 2)": [
 			["Witcher 2, The - Assassins of Kings - Enhanced Edition (Game Disc 2)", 1]
+		],
+		"Zoids Assault": [
+			["Zoids Alternative", 1]
 		]
 	}
 }

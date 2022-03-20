@@ -68,7 +68,7 @@
     "AutoBahn Tokio (Japan) (Demo)": {
         "languages": "En"
     },
-    "BC Racers (USA)": {
+    "BC Racers (USA, Europe)": {
         "languages": "En"
     },
     "BFS - Blue Forest Story (Japan)": {
@@ -149,6 +149,9 @@
     "Burning Soldier (USA, Korea)": {
         "languages": "En"
     },
+    "Bust-A-Move (USA)": {
+        "languages": "En"
+    },
     "Cannon Fodder (Europe)": {
         "languages": "En"
     },
@@ -203,11 +206,11 @@
     "Crash 'n Burn (Japan)": {
         "languages": "Ja"
     },
-    "Crash 'n Burn (Korea)": {
-        "languages": "Ko"
-    },
     "Crash 'n Burn (USA) (Not for Resale)": {
         "languages": "En"
+    },
+    "Crash 'n Burn (USA, Korea)": {
+        "languages": "Ko"
     },
     "Crayon Shin-chan - Puzzle Daimaou no Nazo (Japan)": {
         "languages": "Ja"
@@ -323,6 +326,9 @@
     "Demolition Man (USA)": {
         "languages": "En"
     },
+    "Dennis Miller - That's News to Me (USA)": {
+        "languages": "En"
+    },
     "Dennou Hyouryuu - Multimedia Cruising (Japan)": {
         "languages": "Ja"
     },
@@ -356,16 +362,19 @@
     "Dragon's Lair (Japan)": {
         "languages": ""
     },
-    "Dragon's Lair (Korea)": {
+    "Dragon's Lair (USA) (RE1)": {
         "languages": "En"
     },
-    "Dragon's Lair (USA) (RE1)": {
+    "Dragon's Lair (USA, Korea)": {
         "languages": "En"
     },
     "Drug Wars (USA)": {
         "languages": "En"
     },
     "ESPN Baseball - Hitting (USA)": {
+        "languages": "En"
+    },
+    "ESPN Fitness Pros - Step Aerobics (USA)": {
         "languages": "En"
     },
     "ESPN Golf - Lower Your Score with Tom Kite - Shot Making (USA) (Disc 1)": {
@@ -388,6 +397,18 @@
     },
     "ESPN Golf - Tom Kite no Kore ga Golf da! (Japan) (Disc 3) (Pro ni Kike!)": {
         "languages": "Ja"
+    },
+    "ESPN Let's Go Skiing with Picabo Street, A. J. Kitt & Holly Flanders (USA)": {
+        "languages": "En"
+    },
+    "ESPN Let's Play Beach Volleyball with Karch Kiraly and Karolyn Kirby (USA)": {
+        "languages": ""
+    },
+    "ESPN Let's Play Soccer with John Harkes and Mia Hamm (USA)": {
+        "languages": "En"
+    },
+    "ESPN Let's Play Tennis with Tracy Austin (USA)": {
+        "languages": "En"
     },
     "Emit Vol. 1 - Toki no Maigo (Japan)": {
         "languages": "Ja"
@@ -488,7 +509,7 @@
     "Gateway to English - Eigo de Go! (Japan)": {
         "languages": "Ja"
     },
-    "Gex (Japan)": {
+    "Gex (Japan, Korea)": {
         "languages": "Ja"
     },
     "Gex (USA, Europe)": {
@@ -701,19 +722,13 @@
     "Lemmings (USA)": {
         "languages": "En"
     },
-    "Let's Go Skiing (USA)": {
-        "languages": "En"
-    },
-    "Let's Play Beach Volleyball (USA)": {
-        "languages": ""
-    },
     "Life Stage, The - Virtual House (Japan)": {
         "languages": "Ja"
     },
     "Life Stage, The - Virtual House (Japan) (Rev 1)": {
         "languages": "Ja"
     },
-    "Life Stage, The - Virtual House (USA)": {
+    "Life Stage, The - Virtual House (USA, Korea)": {
         "languages": "En"
     },
     "Live! 3DO Magazine CD-ROM 1 (Japan)": {
@@ -797,16 +812,19 @@
     "MegaRace (Japan)": {
         "languages": "Ja"
     },
-    "MegaRace (USA) (En,Fr,De,Es,It)": {
+    "MegaRace (USA, Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
-    "MegaRace (USA, Europe) (En,Fr,De,Es,It)": {
+    "MegaRace (USA, Korea) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
     "Microcosm (Japan)": {
         "languages": "Ja"
     },
     "Microcosm (USA)": {
+        "languages": "En"
+    },
+    "Mind Teazzer (USA)": {
         "languages": "En"
     },
     "Mirai Shounen Conan - Digital Library (Japan)": {
@@ -914,8 +932,8 @@
     "Olympic Games (Europe) (Demo)": {
         "languages": "En"
     },
-    "Olympic Soccer (USA)": {
-        "languages": ""
+    "Olympic Soccer (USA) (En,Fr,De,Es,It)": {
+        "languages": "En, Fr, De, It, Es"
     },
     "Olympic Summer Games (USA)": {
         "languages": "En"
@@ -947,7 +965,7 @@
     "PGA Tour 96 (Europe)": {
         "languages": "En"
     },
-    "PGA Tour 96 (USA)": {
+    "PGA Tour 96 (USA) (RE-1)": {
         "languages": "En"
     },
     "PO'ed (USA, Europe)": {
@@ -955,6 +973,9 @@
     },
     "PaTaank (Japan)": {
         "languages": "Ja"
+    },
+    "PaTaank (Korea)": {
+        "languages": "En"
     },
     "PaTaank (USA, Europe)": {
         "languages": "En"
@@ -964,6 +985,9 @@
     },
     "Paddock Note '95 (Japan) (Rev 1)": {
         "languages": "Ja"
+    },
+    "Panasonic REAL 3DO Interactive Multiplayer - Demonstration CD (USA)": {
+        "languages": "En"
     },
     "Panasonic REAL 3DO Interactive Multiplayer - Sampler CD (Japan) (Rev 1)": {
         "languages": "Ja"
@@ -977,8 +1001,14 @@
     "Panasonic REAL 3DO Interactive Multiplayer - Sampler CD for PAL System (Europe) (Rev 1)": {
         "languages": "En"
     },
+    "Panasonic REAL 3DO Interactive Multiplayer - Sampler III and 3DO Storage Manager (USA)": {
+        "languages": "En"
+    },
     "Panasonic Special CD-ROM (Japan)": {
         "languages": "Ja"
+    },
+    "Panzer General (USA)": {
+        "languages": "En"
     },
     "Pebble Beach Golf Links (USA, Canada) (Rev 1)": {
         "languages": "En"
@@ -1071,13 +1101,16 @@
         "languages": "En, Ja"
     },
     "Putt-Putt Joins the Parade (USA)": {
+        "languages": "En"
+    },
+    "Putt-Putt Joins the Parade (USA) (Alt)": {
         "languages": ""
     },
     "Putt-Putt's Fun Pack (Japan) (En,Ja)": {
         "languages": "En, Ja"
     },
-    "Putt-Putt's Fun Pack (USA)": {
-        "languages": ""
+    "Putt-Putt's Fun Pack (USA, Korea)": {
+        "languages": "En"
     },
     "Puzzle Bobble (Japan)": {
         "languages": "Ja"
@@ -1127,6 +1160,9 @@
     "Road & Track Presents - OverDrivin' (Japan)": {
         "languages": "Ja"
     },
+    "Road & Track Presents - The Need for Speed (Korea)": {
+        "languages": "En"
+    },
     "Road & Track Presents - The Need for Speed (USA, Europe)": {
         "languages": "En"
     },
@@ -1161,6 +1197,9 @@
         "languages": "En, Ja"
     },
     "Samurai Shodown (USA, Europe)": {
+        "languages": "En"
+    },
+    "San Diego Zoo Presents... The Animals!, The (USA)": {
         "languages": "En"
     },
     "Sangokushi IV (Japan)": {
@@ -1274,10 +1313,16 @@
     "Slopestyle - An Interactive Learning Cube (USA)": {
         "languages": "En"
     },
-    "SnowJob (Europe) (Disc 1)": {
+    "SnowJob Starring Tracy Scoggins (Europe) (Disc 1)": {
         "languages": "En"
     },
-    "SnowJob (Europe) (Disc 2)": {
+    "SnowJob Starring Tracy Scoggins (Europe) (Disc 2)": {
+        "languages": "En"
+    },
+    "SnowJob Starring Tracy Scoggins (USA) (Disc 1)": {
+        "languages": "En"
+    },
+    "SnowJob Starring Tracy Scoggins (USA) (Disc 2)": {
         "languages": "En"
     },
     "Soccer Kid (Europe)": {
@@ -1352,9 +1397,6 @@
     "Stellar 7 - Draxon's Revenge (USA)": {
         "languages": "En"
     },
-    "Step Aerobics (USA)": {
-        "languages": "En"
-    },
     "Storage Manager - Memory Kanri (Japan)": {
         "languages": "Ja"
     },
@@ -1420,6 +1462,9 @@
     },
     "Supreme Warrior (Japan) (Ja,Zh) (Disc 2) (Wind & Fang Tu)": {
         "languages": "Zh, Ja"
+    },
+    "Supreme Warrior (USA) (Disc 1) (Fire & Earth)": {
+        "languages": "En"
     },
     "Supreme Warrior (USA) (Disc 2) (Wind & Fang Tu)": {
         "languages": "En"
@@ -1574,7 +1619,7 @@
     "VR Stalker (Europe) (Improved Version)": {
         "languages": "En"
     },
-    "VR Stalker (USA)": {
+    "VR Stalker (USA, Korea)": {
         "languages": "En"
     },
     "Virtual Cameraman Part 1 - Naomi Sawada & Anna Juri (Japan)": {
@@ -1599,6 +1644,9 @@
         "languages": "En, Fr, De"
     },
     "Virtuoso (Japan)": {
+        "languages": "En"
+    },
+    "Virtuoso (USA)": {
         "languages": "En"
     },
     "Waialae Country Club (USA, Canada)": {
@@ -1703,7 +1751,7 @@
     "Yuujou Densetsu - The Doraemons (Japan) (Demo)": {
         "languages": "Ja"
     },
-    "Zhadnost - The People's Party (USA)": {
+    "Zhadnost - The People's Party (USA, Europe)": {
         "languages": "En"
     }
 }

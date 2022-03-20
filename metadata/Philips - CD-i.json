@@ -41,7 +41,13 @@
     "7th Guest, The (USA) (Disc 1) (The Game)": {
         "languages": "En"
     },
+    "ACC'94 - Les Meilleurs Moments d'Atlanta (France)": {
+        "languages": ""
+    },
     "ACT College Search '92, The (USA)": {
+        "languages": ""
+    },
+    "ADI - Accompagnement Scolaire - Francais-Maths CE2 (France)": {
         "languages": ""
     },
     "ADI Francais-Maths 4eme (France)": {
@@ -62,16 +68,31 @@
     "ADI Spielerisch Lernen - Mathe Klasse 3+4 (Germany)": {
         "languages": "De"
     },
+    "AFT-IFTIM Transport Multimodal - Version 1 (France)": {
+        "languages": ""
+    },
     "AIDS Awareness Disc, The (USA)": {
         "languages": ""
     },
     "ASICS Interactive Catalogue on CD-I 1995 (Europe)": {
         "languages": ""
     },
+    "ATMS Pilot Disc - Architecture for Modular Technical Systems (Europe)": {
+        "languages": ""
+    },
+    "Aalborg Tekniske Skole (Denmark)": {
+        "languages": ""
+    },
     "Abrunhosa & Bandemonio (Portugal)": {
         "languages": "Pt"
     },
     "Accelerator (Europe)": {
+        "languages": ""
+    },
+    "Addams Family, The (USA) (Disc 1)": {
+        "languages": ""
+    },
+    "Addams Family, The (USA) (Disc 2)": {
         "languages": ""
     },
     "Adjustable Bed, The (Europe)": {
@@ -83,8 +104,11 @@
     "Affaire Morlov, L' (Europe) (En,Fr)": {
         "languages": "En, Fr"
     },
-    "Aida - Home Cinema Sound Demonstration Disc (Belgium)": {
+    "Agreed! (UK)": {
         "languages": ""
+    },
+    "Aida - Home Cinema Sound Demonstration Disc (Europe) (En,Fr,De,Nl)": {
+        "languages": "Nl, En, Fr, De"
     },
     "Albero Azzurro, L' (Italy)": {
         "languages": "It"
@@ -155,6 +179,9 @@
     "Angebote Bahn-Flug (Germany)": {
         "languages": ""
     },
+    "Animal Communities (USA)": {
+        "languages": "En"
+    },
     "Anne Willan Presents the Food of France (Europe)": {
         "languages": "En"
     },
@@ -176,6 +203,9 @@
     "Appraisal Interview, The (UK) (Disc 1)": {
         "languages": ""
     },
+    "Appraisal Interview, The (UK) (Disc 2)": {
+        "languages": ""
+    },
     "Apprentice, The (Europe)": {
         "languages": "En"
     },
@@ -187,6 +217,9 @@
     },
     "Archeon CD-i Quiz (Netherlands)": {
         "languages": "Nl"
+    },
+    "Arik Brauer - Von Haus zu Haus (Austria)": {
+        "languages": ""
     },
     "Around Atlanta (Europe) (Fr,Nl)": {
         "languages": "Nl, Fr"
@@ -205,6 +238,9 @@
     },
     "Arte degli Zar, L' - San Pietroburgo e i Tesori dell'Ermitage (Italy)": {
         "languages": "It"
+    },
+    "Asics Interactive Catalogue on CD-i 1996 (Netherlands)": {
+        "languages": ""
     },
     "Asterix - Caesar's Challenge (Europe)": {
         "languages": ""
@@ -242,6 +278,12 @@
     "Axis and Allies (USA)": {
         "languages": "En"
     },
+    "BMW Motorrad- und Fahrerausstattung - 1996 (Germany) (Disc 3)": {
+        "languages": ""
+    },
+    "BMW Motorrad- und Fahrerausstattung - 1996 (Germany) (Disc 4)": {
+        "languages": ""
+    },
     "Baby (France)": {
         "languages": ""
     },
@@ -251,8 +293,14 @@
     "Bande Annonce, La - Automne-Hiver 95-96 (France)": {
         "languages": ""
     },
+    "Bang & Olufsen - Test (Denmark)": {
+        "languages": ""
+    },
     "Barrio mas Divertido de Richard Scarry, El (Spain)": {
         "languages": "Es"
+    },
+    "Basistegn (Denmark)": {
+        "languages": ""
     },
     "Battleship (USA, Europe)": {
         "languages": "En"
@@ -283,6 +331,9 @@
     },
     "Belle et la Bete, La (France)": {
         "languages": "Fr"
+    },
+    "Beneteau - Gamme Voiliers 95-96 (France)": {
+        "languages": ""
     },
     "BeoCenter AV5 (Europe)": {
         "languages": ""
@@ -335,11 +386,17 @@
     "Best of Draw 50 with Lee Ames, The (USA) (Beta)": {
         "languages": ""
     },
+    "Best of Motives, The - Part One - Nobody Ever Tells Us (UK)": {
+        "languages": ""
+    },
     "Bhairavi Varnam - Word, Sound, Image - The Life of the Tamil Text (Netherlands)": {
         "languages": ""
     },
     "Big Bang Show (France) (En,Fr)": {
         "languages": "En, Fr"
+    },
+    "BioNova Badeteiche (Austria)": {
+        "languages": ""
     },
     "Black Rain (Europe) (Disc 1)": {
         "languages": "En"
@@ -359,6 +416,12 @@
     "Black Rain (Germany) (Disc 2)": {
         "languages": "De"
     },
+    "Black Rain (USA) (Disc 1)": {
+        "languages": ""
+    },
+    "Black Rain (USA) (Disc 2)": {
+        "languages": ""
+    },
     "Body Contour (Netherlands) (Disc 1)": {
         "languages": "Nl"
     },
@@ -368,7 +431,10 @@
     "Body Response (USA) (Disc 3) (Shoulder-Scapula)": {
         "languages": ""
     },
-    "Bose Home Cinema Sound System Demonstration Disc (Europe)": {
+    "Bose - Home Cinema Sound System - Demonstration Disc (Europe)": {
+        "languages": ""
+    },
+    "Bose - Home Cinema Sound System - Demonstration Disc (Europe) (Rev 1)": {
         "languages": ""
     },
     "Bose Home Cinema Sound System Demonstration Disc (Germany)": {
@@ -440,26 +506,41 @@
     "CD Shoot (USA)": {
         "languages": ""
     },
+    "CD-I Full Motion Video Demo - James Bond - 09-06-1992 (Europe)": {
+        "languages": ""
+    },
     "CD-I Full Motion Video Update (USA)": {
         "languages": ""
     },
-    "CD-I Prototype Disc (Germany) (Green & Black)": {
+    "CD-I Osteoporose Theramex - Les Magiciens d'Os (France)": {
         "languages": ""
     },
-    "CD-I Prototype Disc (Germany) (Green & Black) (Alt 2)": {
+    "CD-I Poids Lourd (France)": {
         "languages": ""
     },
-    "CD-I Prototype Disc (Germany) (Green & Black) (Alt)": {
+    "CD-I Prototype Disc (Europe) (Green & Black)": {
         "languages": ""
     },
-    "CD-I Prototype Disc (Germany) (Silver & Black)": {
+    "CD-I Prototype Disc (Europe) (Green & Black) (Alt 2)": {
         "languages": ""
     },
-    "CD-I Prototype Disc (Germany) (Silver & Green)": {
+    "CD-I Prototype Disc (Europe) (Green & Black) (Alt)": {
         "languages": ""
     },
-    "CD-I Prototype Disc (Germany) (Silver & Red)": {
+    "CD-I Prototype Disc (Europe) (Silver & Black)": {
         "languages": ""
+    },
+    "CD-I Prototype Disc (Europe) (Silver & Green)": {
+        "languages": ""
+    },
+    "CD-I Prototype Disc (Europe) (Silver & Red)": {
+        "languages": ""
+    },
+    "CD-I Test 4 (France)": {
+        "languages": ""
+    },
+    "CD-Interlink (USA)": {
+        "languages": "En"
     },
     "CD-Online - Issue 01 - Internet on TV (UK)": {
         "languages": "En"
@@ -482,10 +563,16 @@
     "CD-i - A Title Sampler (Europe) (En,Fr,De,Nl)": {
         "languages": "Nl, En, Fr, De"
     },
+    "CD-i - Cours A-AL Moto (France)": {
+        "languages": ""
+    },
     "CD-i - Ready Steady Go! (Europe)": {
         "languages": "En"
     },
     "CD-i 700 - English Version - Schindler (Europe)": {
+        "languages": ""
+    },
+    "CD-i Cours B Reglementation (France)": {
         "languages": ""
     },
     "CD-i Demo Disc - Philips Interactive Media Systems Presents - Examples from Grolier Multimedia Encyclopedia (Europe)": {
@@ -537,6 +624,9 @@
         "languages": "De"
     },
     "CD-i voor Demonstratie van Breedbeeld TV (Netherlands)": {
+        "languages": ""
+    },
+    "CD-i voor Demonstratie van Breedbeeld TV (Netherlands) (Rev 1)": {
         "languages": ""
     },
     "CDA - Ein Unternehmensportrait (Germany)": {
@@ -1055,10 +1145,10 @@
     "Caesars World of Boxing (France)": {
         "languages": "Fr"
     },
-    "Caesars World of Boxing (USA)": {
+    "Caesars World of Boxing (USA) (Beta)": {
         "languages": "En"
     },
-    "Caesars World of Boxing (USA) (Rev 2)": {
+    "Caesars World of Boxing (USA) (Rev 1)": {
         "languages": ""
     },
     "Caesars World of Gambling (USA, Europe)": {
@@ -1098,6 +1188,9 @@
         "languages": ""
     },
     "Centurion - Building the Winning Company (Europe)": {
+        "languages": ""
+    },
+    "Centurion - Werken aan The Winning Company - Deel I (Netherlands)": {
         "languages": ""
     },
     "Chaos Control (Europe)": {
@@ -1150,6 +1243,9 @@
     },
     "Christmas Songbook, A (Europe)": {
         "languages": "En"
+    },
+    "Cilag - Mycoses & Allergies - DRIM Communication - Septembre 1994 - Version 2 (Switzerland)": {
+        "languages": ""
     },
     "Cistercian Architecture (Europe) (En,Fr,De)": {
         "languages": "En, Fr, De"
@@ -1214,10 +1310,19 @@
     "Concise Oxford Dictionary & Oxford Thesaurus, The (Europe) (Beta)": {
         "languages": ""
     },
+    "Conduite dans des Conditions Difficiles, La (France)": {
+        "languages": ""
+    },
+    "Conduite dans une Circulation Dense (France)": {
+        "languages": ""
+    },
     "Coneheads (USA) (Disc 1)": {
         "languages": ""
     },
     "Coneheads (USA) (Disc 2)": {
+        "languages": ""
+    },
+    "Congress Innsbruck - Stadt Trifft Natur (Austria)": {
         "languages": ""
     },
     "Connect Four (Europe)": {
@@ -1225,6 +1330,9 @@
     },
     "Cours de Formation B No. 2 (France)": {
         "languages": "Fr"
+    },
+    "Cover Girl - 'Play Area' Programme I (UK)": {
+        "languages": ""
     },
     "Cranberries, The - Doors and Windows (Europe)": {
         "languages": "En"
@@ -1367,6 +1475,9 @@
     "Dimo's Quest (USA)": {
         "languages": "En"
     },
+    "Diriger le Vehicule (France)": {
+        "languages": ""
+    },
     "Discover Sport Fishing - Northern Edition (Canada)": {
         "languages": ""
     },
@@ -1406,6 +1517,9 @@
     "Dragon's Lair II - Time Warp (USA)": {
         "languages": "En"
     },
+    "Dreaded Appraisal, The (UK)": {
+        "languages": ""
+    },
     "Drug Wars (Europe)": {
         "languages": "En"
     },
@@ -1418,7 +1532,19 @@
     "Dutch Masters of the Seventeenth Century (USA)": {
         "languages": ""
     },
+    "E-Cat No 2 (Europe)": {
+        "languages": ""
+    },
+    "E-Cat No 3 (Europe)": {
+        "languages": ""
+    },
     "E-Z Play Today Keyboard (Europe)": {
+        "languages": ""
+    },
+    "ECCO Electronic Coaching - Erst Stirbt das Image... (Germany)": {
+        "languages": ""
+    },
+    "ECCO Electronic Coaching - Messegespraeche (Germany)": {
         "languages": ""
     },
     "Earth Command (Europe)": {
@@ -1438,6 +1564,21 @@
     },
     "Earth Rhythms - Daichi no Hibiki (Japan)": {
         "languages": "En"
+    },
+    "Ecolauto - DV No 4 - Cours de Formation B (France)": {
+        "languages": ""
+    },
+    "Ecolauto - Groupe Lourd No 1 - Epreuve Orale (France)": {
+        "languages": ""
+    },
+    "Ecolauto - Groupe Lourd No 2 - Question Ecrites (France)": {
+        "languages": ""
+    },
+    "Ecolauto - Moto 1 DV - Maniabilite (France)": {
+        "languages": ""
+    },
+    "Ecolauto - No 3 - Cours de Formation B (France)": {
+        "languages": ""
     },
     "Ecosystems - Nature in Balance (USA)": {
         "languages": "En"
@@ -1474,6 +1615,12 @@
     },
     "European Party (Europe)": {
         "languages": ""
+    },
+    "Everything You Always Wanted to Ask John Hawkins (Netherlands) (Proto)": {
+        "languages": "En"
+    },
+    "Everything You Always Wanted to Ask John Hawkins (Netherlands) (Proto) (Rev 1)": {
+        "languages": "En"
     },
     "Everything You Ever Wanted to Know About CD-i (Europe)": {
         "languages": "En"
@@ -1526,6 +1673,9 @@
     "Fahren Lernen B - Version Februar 2006 (Germany) (CD 6 - Lektion 14 - 16)": {
         "languages": ""
     },
+    "Fahren Lernen B - Version Maerz 2007 (Germany) (Disc 1) (Lektion 1-3)": {
+        "languages": ""
+    },
     "Family Games I (Europe)": {
         "languages": "En"
     },
@@ -1556,6 +1706,15 @@
     "Fendt - L'Innovation Tracteur - Septembre 1995 (France)": {
         "languages": ""
     },
+    "Final Production Delivery Specification (Europe) (En,Fr,De,Es,It,Nl,Pt) (v8.04)": {
+        "languages": "Nl, En, Fr, De, It, Pt, Es"
+    },
+    "Final Production Delivery Specification (Europe) (En,Fr,De,Es,It,Nl,Pt) (v8.05)": {
+        "languages": "Nl, En, Fr, De, It, Pt, Es"
+    },
+    "Finance and Accounting - For Business Managers (Europe)": {
+        "languages": ""
+    },
     "Firm, The (USA) (Disc 1)": {
         "languages": ""
     },
@@ -1564,6 +1723,12 @@
     },
     "Firm, The (USA) (Disc 3)": {
         "languages": ""
+    },
+    "First Look at Birds, A (USA)": {
+        "languages": "En"
+    },
+    "First Look at Mammals, A (USA)": {
+        "languages": "En"
     },
     "Fischer Tennis - Collection 94-95 (Austria)": {
         "languages": ""
@@ -1587,6 +1752,9 @@
         "languages": ""
     },
     "Follow Your Dreams (Germany)": {
+        "languages": ""
+    },
+    "Font Catalogue Autumn '91 (Europe)": {
         "languages": ""
     },
     "Football (Europe)": {
@@ -1625,6 +1793,9 @@
     "Futuropolis (Netherlands)": {
         "languages": ""
     },
+    "GOCA - Groupement des Organismes Agrees de Controle Automobile (Belgium) (Fr,Nl)": {
+        "languages": "Nl, Fr"
+    },
     "Gardening by Choice - Flowers & Foliage (USA, Europe)": {
         "languages": "En"
     },
@@ -1632,6 +1803,9 @@
         "languages": "En"
     },
     "Geheimnisvollen Fabeln von Aesop, Die (Germany)": {
+        "languages": ""
+    },
+    "Generation Inoxydable (France)": {
         "languages": ""
     },
     "Getting Ahead - Making Time (Europe)": {
@@ -1730,6 +1904,12 @@
     "Golf My Way (USA) (Disc 5)": {
         "languages": "En"
     },
+    "Golf Tips (Europe) (Beta)": {
+        "languages": ""
+    },
+    "Good Person to Do Business With, A (UK)": {
+        "languages": ""
+    },
     "Gouden Brief 1993 op CD-i, De (Netherlands)": {
         "languages": ""
     },
@@ -1764,6 +1944,18 @@
         "languages": ""
     },
     "Guignols de l'Info, Les... le Jeu! (France)": {
+        "languages": ""
+    },
+    "Guignols de l'Info, Les... le Jeu! (France) (Alt)": {
+        "languages": ""
+    },
+    "HAL90 - Demo Disc (Europe)": {
+        "languages": ""
+    },
+    "Halm - Super Jet - JP-TWOD-6D (Netherlands) (En,Fr,De,Es)": {
+        "languages": "En, Fr, De, Es"
+    },
+    "Halm - Super Jet - JP-TWOD-6D - Spare Parts (Netherlands)": {
         "languages": ""
     },
     "Hanna-Barbera Cartoon Carnival (USA, Europe)": {
@@ -1863,7 +2055,13 @@
         "languages": "Fr"
     },
     "Hotel Mario (USA)": {
-        "languages": ""
+        "languages": "En"
+    },
+    "How Animals Survive (USA)": {
+        "languages": "En"
+    },
+    "How We Classify Animals (USA)": {
+        "languages": "En"
     },
     "How the Camel Got His Hump (USA)": {
         "languages": "En"
@@ -1873,6 +2071,9 @@
     },
     "How the Rhinoceros Got His Skin (Europe)": {
         "languages": "En"
+    },
+    "Hubert Ebner - Verkehrslehrmittel Ges.m.b.H. Medien - Der Speditionskaufmann (Austria)": {
+        "languages": ""
     },
     "Hunt for Red October, The (Europe) (Disc 1)": {
         "languages": "En"
@@ -1916,6 +2117,9 @@
     "In-Store Attractor Disc (Europe)": {
         "languages": ""
     },
+    "Inca (Europe) (Beta)": {
+        "languages": ""
+    },
     "Inca (Europe) (En,Fr,De,Nl)": {
         "languages": "Nl, En, Fr, De"
     },
@@ -1934,11 +2138,17 @@
     "Indecent Proposal (USA) (Disc 2)": {
         "languages": ""
     },
+    "Inne (France)": {
+        "languages": ""
+    },
     "Innovative Technologies - Simple Solutions (USA)": {
         "languages": ""
     },
     "Interactief Philips Magazine '92-'93 (Netherlands)": {
         "languages": "Nl"
+    },
+    "Interactive Alpine-Katalog, Der - September '95 (Germany)": {
+        "languages": ""
     },
     "Interactive Education - Adding & Subtracting Decimals (USA)": {
         "languages": ""
@@ -1988,6 +2198,9 @@
     "International Tennis Open (Italy) (En,It) (Versione 2 Giocatori)": {
         "languages": "En, It"
     },
+    "International Tennis Open (Spain) (En,Es) (Version 1 Jugador)": {
+        "languages": "En, Es"
+    },
     "International Tennis Open (Spain) (En,Es) (Version 2 Jugadores)": {
         "languages": "En, Es"
     },
@@ -2012,6 +2225,9 @@
     "Irving Berlin's White Christmas (USA) (Disc 2)": {
         "languages": ""
     },
+    "Itineraires en Ophtalmologie (France)": {
+        "languages": ""
+    },
     "Jack Sprite vs. the Crimson Ghost (USA) (Unl)": {
         "languages": ""
     },
@@ -2021,7 +2237,7 @@
     "Jan Pienkowski Haunted House (Europe) (En,Fr,De,Es,It,Nl)": {
         "languages": "Nl, En, Fr, De, It, Es"
     },
-    "Japan Media System, Inc. - JNMS Test Disc (Germany)": {
+    "Japan Media System, Inc. - JNMS Test Disc (Japan)": {
         "languages": ""
     },
     "Jazz Giants - From Big Band to Bossa Nova (USA, Europe)": {
@@ -2132,6 +2348,9 @@
     "Keep the Faith - An Evening with Bon Jovi (Europe) (Disc 2)": {
         "languages": "En"
     },
+    "Keeping Customers Cool (UK)": {
+        "languages": ""
+    },
     "Kether (Europe) (En,Fr)": {
         "languages": "En, Fr"
     },
@@ -2162,6 +2381,12 @@
     "Kiss (Europe)": {
         "languages": "En"
     },
+    "Kiss (Europe) (Beta)": {
+        "languages": ""
+    },
+    "Koninklijke Luchtmacht (Netherlands)": {
+        "languages": ""
+    },
     "Krijtjesfabriek, De (Netherlands)": {
         "languages": "Nl"
     },
@@ -2178,6 +2403,9 @@
         "languages": "Nl"
     },
     "Kursbuch Gesundheit (Germany)": {
+        "languages": ""
+    },
+    "L'Oreal - Expert Technique - Interactief Salon Dialoog Programma (Netherlands)": {
         "languages": ""
     },
     "Labyrinth of Crete (Europe)": {
@@ -2246,11 +2474,17 @@
     "Laser Lords (Europe)": {
         "languages": "En"
     },
+    "Laser Lords (France)": {
+        "languages": ""
+    },
     "Laser Lords (Germany)": {
         "languages": "De"
     },
     "Laser Lords (Netherlands)": {
         "languages": "Nl"
+    },
+    "Laser Lords (USA)": {
+        "languages": ""
     },
     "Last Bounty Hunter, The (Europe)": {
         "languages": "En"
@@ -2270,6 +2504,9 @@
     "Leren Leren (Belgium)": {
         "languages": "Nl"
     },
+    "Let the Games Begin! 1995 National Training Camp (USA)": {
+        "languages": ""
+    },
     "Let's Go Skiing with Alberto Tomba (Europe) (En,It)": {
         "languages": "En, It"
     },
@@ -2278,6 +2515,9 @@
     },
     "Levi's Trend 97 (Europe)": {
         "languages": ""
+    },
+    "Liberto - Une Liberte Nouvelle ~ Liberto - Il Soffitto in Piena Libera (Europe) (Fr,It)": {
+        "languages": "Fr, It"
     },
     "Lingo (Netherlands)": {
         "languages": "Nl"
@@ -2387,6 +2627,9 @@
     "Maestri Olandesi del Seicento, I (Italy)": {
         "languages": "It"
     },
+    "Magazine Interactif Peugeot - Hors Serie - Mondial de l'Automobile - Octobre 1996 (France)": {
+        "languages": ""
+    },
     "Magazine Interactif Peugeot - Numero 1 - Fevrier 1996 (France)": {
         "languages": ""
     },
@@ -2394,6 +2637,9 @@
         "languages": ""
     },
     "Magazine Interactif Peugeot - Numero 3 - Juillet 1996 (France)": {
+        "languages": ""
+    },
+    "Magazine Interactif Peugeot - Numero 4 - Octobre 1996 (France)": {
         "languages": ""
     },
     "Magazine Interactif Peugeot - Numero 5 - Janvier 1997 (France)": {
@@ -2435,6 +2681,9 @@
     "Marco Polo (France) (Disc 2) (La Documentation)": {
         "languages": "Fr"
     },
+    "Marine Nationale - L'Encyclopedie - Edition 1996 (France)": {
+        "languages": ""
+    },
     "Master Labyrinth (Europe) (En,Fr,De,Nl)": {
         "languages": "Nl, En, Fr, De"
     },
@@ -2450,6 +2699,9 @@
     "Mathtrak K4 (USA)": {
         "languages": ""
     },
+    "Matrix CR 2030 - Interactive Training Disc (Belgium)": {
+        "languages": ""
+    },
     "Max Magic (Europe)": {
         "languages": "En"
     },
@@ -2463,6 +2715,18 @@
         "languages": ""
     },
     "McDonnell Douglas (Europe)": {
+        "languages": "En"
+    },
+    "MediaMogul (USA) (Demo)": {
+        "languages": "En"
+    },
+    "MediaMogul 1.0 (USA)": {
+        "languages": "En"
+    },
+    "MediaMogul 2.2 (USA) (Demo)": {
+        "languages": "En"
+    },
+    "MediaMogul Audition Scripts 2.2.1 (USA)": {
         "languages": "En"
     },
     "Mediterranea (Italy)": {
@@ -2491,6 +2755,9 @@
     },
     "Mercer Mayer's Little Monster at School (USA)": {
         "languages": "En"
+    },
+    "Mercer Mayer's Little Monster at School (USA) (Rev 1)": {
+        "languages": ""
     },
     "Merlin's Apprentice (Europe)": {
         "languages": "En"
@@ -2545,6 +2812,9 @@
     },
     "Mother Goose - Rhymes to Color (Europe)": {
         "languages": "En"
+    },
+    "Motivating the Team (UK)": {
+        "languages": ""
     },
     "Mozart - A Musical Biography (Germany)": {
         "languages": "En"
@@ -2603,6 +2873,9 @@
     "NFL Football Trivia Challenge '94-'95 Edition (Europe)": {
         "languages": "En"
     },
+    "NFL Football Trivia Challenge '94-'95 Edition (USA)": {
+        "languages": ""
+    },
     "NFL Football Trivia Challenge (USA)": {
         "languages": ""
     },
@@ -2629,6 +2902,9 @@
     },
     "Naftaline et ses Amis (France)": {
         "languages": "Fr"
+    },
+    "Naitre - A Child is Born (France)": {
+        "languages": ""
     },
     "Naked Gun 2 1-2, The - The Smell of Fear (Netherlands) (Disc 1)": {
         "languages": "En"
@@ -2669,11 +2945,23 @@
     "Nederlands Film Festival '95 (Netherlands)": {
         "languages": "Nl"
     },
+    "New 106, The - Une Nouvelle Reference (Europe)": {
+        "languages": ""
+    },
+    "Newcomers, The (UK)": {
+        "languages": ""
+    },
+    "Nicklaus Interactive (USA)": {
+        "languages": ""
+    },
     "Niederlaendischen Meister des 17. Jahrhunderts, Die (Germany)": {
         "languages": "De"
     },
     "Nieuw Strafvordering (Netherlands) (Disc 1)": {
         "languages": ""
+    },
+    "Nieuwe 106, De - Showroomversie (Belgium) (En,Fr)": {
+        "languages": "En, Fr"
     },
     "Night in Nylon City, A (Europe)": {
         "languages": ""
@@ -2693,6 +2981,12 @@
     "Nuri e Asobi I - Paint School I (Japan)": {
         "languages": "Ja"
     },
+    "Objectif Transparence (France)": {
+        "languages": ""
+    },
+    "Oil of Ulay - Colour Collection - Colour Consultant (UK)": {
+        "languages": ""
+    },
     "One Step Ahead (Germany)": {
         "languages": ""
     },
@@ -2708,10 +3002,19 @@
     "Op Jacht naar Vernuft (Netherlands)": {
         "languages": "Nl"
     },
+    "Open Universiteit - Practicum Toxicologische Histopathologie (Netherlands)": {
+        "languages": ""
+    },
     "Open de Palm Springs, L' (France)": {
         "languages": "Fr"
     },
-    "OptImage CD-I Starter System - Sampler Disc (USA)": {
+    "OptImage CD-I 220 Adjustment Disc (USA)": {
+        "languages": ""
+    },
+    "OptImage CD-I Starter System - Sampler Disc - Version 1.1 (USA)": {
+        "languages": ""
+    },
+    "OptImage Media Showcase (USA)": {
         "languages": ""
     },
     "Origami (Europe)": {
@@ -2721,6 +3024,9 @@
         "languages": ""
     },
     "Othello (Europe)": {
+        "languages": ""
+    },
+    "Otto Bock - Orthopaedische Industrie - Neuheiten Vol. 2 - Stand Januar 1997 (Germany)": {
         "languages": ""
     },
     "Ours Berenstain, Les - Comme des Grands (France)": {
@@ -2768,6 +3074,12 @@
     "Paranasal Sinuses & Anterior Skull Base - Volume 1-I (Europe)": {
         "languages": "En"
     },
+    "Patriot Games (UK) (Disc 1)": {
+        "languages": "En"
+    },
+    "Patriot Games (UK) (Disc 2)": {
+        "languages": "En"
+    },
     "Patriot Games (USA) (Disc 1)": {
         "languages": "En"
     },
@@ -2813,7 +3125,16 @@
     "Peugeot - Excellence in Sales Leadership with Joe Verde (Europe) (Disc 2)": {
         "languages": ""
     },
+    "Peugeot - Product Range Information - For Showroom Use - March 97 (UK)": {
+        "languages": ""
+    },
     "Peugeot - Selling for Real - Interactive Video Sales Training - Handling Telephone Sales Enquiries and Making Appraisals Pay (UK)": {
+        "languages": ""
+    },
+    "Peugeot - Selling for Real - Interactive Video Sales Training - Paperwork, Bloody Paperwork and Selling to Women (UK)": {
+        "languages": ""
+    },
+    "Peugeot - Selling for Real - Interactive Video Sales Training - Selling You to You and Taking Personal Control (UK)": {
         "languages": ""
     },
     "Peugeot - The Passport Experience (UK)": {
@@ -2821,6 +3142,9 @@
     },
     "Peugeot 406 en Val de Loire, La (France)": {
         "languages": "Fr"
+    },
+    "Peugeot 605 - Point of Sales Application on CD-I for the Introduction of the Peugeot 605 Model (Europe)": {
+        "languages": ""
     },
     "Peugeot Product Guide - June 1994 (UK)": {
         "languages": ""
@@ -2834,16 +3158,22 @@
     "Philips Audio-Video Products '92-'93 on CD-Interactive (Europe) (En,Fr,De,Es,It,Nl)": {
         "languages": "Nl, En, Fr, De, It, Es"
     },
+    "Philips Audio-Video Products '92-93 (Europe)": {
+        "languages": ""
+    },
     "Philips CD-I Demonstration Disc with FMV Version II (a) (Europe)": {
         "languages": ""
     },
-    "Philips CD-i Demo Disc - May 1988 (Germany)": {
+    "Philips CD-i Demo Disc - May 1988 (Europe)": {
         "languages": ""
     },
     "Philips CD-i Product Preview (USA)": {
         "languages": ""
     },
-    "Philips CDI Format Test Disc 1 (Germany)": {
+    "Philips CDI Format Test Disc 1 (Europe)": {
+        "languages": ""
+    },
+    "Philips Car Systems - The Interactive CarHifi Program 10-94 (Europe)": {
         "languages": ""
     },
     "Philips Car Systems 3-94 (Germany)": {
@@ -2861,6 +3191,9 @@
     "Philips HiFi 1992 (Europe)": {
         "languages": ""
     },
+    "Philips Honderd - 1891-1991 (Netherlands)": {
+        "languages": ""
+    },
     "Philips Media Interactieve Encyclopedie (Netherlands)": {
         "languages": "Nl"
     },
@@ -2874,6 +3207,12 @@
         "languages": ""
     },
     "Philips Professional CD-i - A World of Opportunities (USA)": {
+        "languages": ""
+    },
+    "Philips Sound & Vision - Replay - Winning Spirit Workshops CD-i - April 1995 (Netherlands)": {
+        "languages": ""
+    },
+    "Philips TASS Presentation - Development Sample (Europe)": {
         "languages": ""
     },
     "Photo CD Sample Disc (USA)": {
@@ -2903,6 +3242,15 @@
     "Plunderball (USA) (Unl) (Alt)": {
         "languages": "En"
     },
+    "Points de Vue - Sur le Glaucome (France)": {
+        "languages": ""
+    },
+    "Politie - Van Wieg tot Graf (Netherlands)": {
+        "languages": ""
+    },
+    "Politiebevoegdheden in het Opsporingsonderzoek (Netherlands) (Disc 1) (Dwangmiddelen op Straat)": {
+        "languages": ""
+    },
     "Portrait d'une Ville - Venise (France)": {
         "languages": "Fr"
     },
@@ -2924,10 +3272,16 @@
     "Power Hitter (USA)": {
         "languages": ""
     },
+    "Power Hitter (USA) (Rev 1)": {
+        "languages": ""
+    },
     "Power Match (Europe)": {
         "languages": ""
     },
     "Power Match (Europe) (Rev 1)": {
+        "languages": ""
+    },
+    "Praxicolor - Interactive Colour Training (UK)": {
         "languages": ""
     },
     "Prelude (Europe)": {
@@ -2943,6 +3297,9 @@
         "languages": ""
     },
     "Preparation a l'Examen du Permis de Chasser - Volume 1 - Connaissance de la Chasse (France)": {
+        "languages": ""
+    },
+    "Preparation a l'Examen du Permis de Chasser - Volume 2 - Connaissance des Especes (France)": {
         "languages": ""
     },
     "Private Lesson Series - Classical Guitar (USA, Europe)": {
@@ -2963,11 +3320,23 @@
     "Pyramid Adventures - Episode 1 - Treasures of the Lost Pyramid (USA)": {
         "languages": ""
     },
+    "Quality the Only Way (UK)": {
+        "languages": ""
+    },
+    "Quest for M-Powerment, A - A Journey into the World of Space Station Evoluon (UK)": {
+        "languages": ""
+    },
     "QuizMania (Italy)": {
         "languages": "It"
     },
+    "Rabobank TV - Versie 11 99 (Netherlands)": {
+        "languages": ""
+    },
     "Raccolto del Sole, Il - Van Gogh (Italy)": {
         "languages": "It"
+    },
+    "Raiffeisen Interaktiv - Alle Bankdienstleistungen auf Knopfdruck (Germany)": {
+        "languages": ""
     },
     "Rand McNally's America - United States Atlas (Europe) (1993)": {
         "languages": "En"
@@ -2993,6 +3362,9 @@
     "Renaissance Gallery, The (Europe)": {
         "languages": "En"
     },
+    "Renaissance by Aylesford Newsprint (UK)": {
+        "languages": ""
+    },
     "Renaissance in Florenz, Die (Germany)": {
         "languages": "De"
     },
@@ -3004,6 +3376,9 @@
     },
     "Renaissance van Florence, De (Netherlands)": {
         "languages": "Nl"
+    },
+    "Report Writing (UK)": {
+        "languages": ""
     },
     "Retratos de Cidades - Lisboa (Portugal)": {
         "languages": "Pt"
@@ -3061,6 +3436,9 @@
     },
     "Riviera Vaudoise, La (Switzerland) (En,Fr,De,It)": {
         "languages": "En, Fr, De, It"
+    },
+    "RoadWorthy (UK)": {
+        "languages": ""
     },
     "Rock Gitaar - Handleiding voor Beginners (Netherlands)": {
         "languages": "Nl"
@@ -3140,6 +3518,9 @@
     "Scotland Yard Interactive (Germany)": {
         "languages": "De"
     },
+    "Screendisc Interactive Preview Systems - The Preview System (USA)": {
+        "languages": ""
+    },
     "Secret Mission (Europe)": {
         "languages": ""
     },
@@ -3182,6 +3563,9 @@
     "Shorelines (USA)": {
         "languages": ""
     },
+    "ShowMaster (USA) (Demo)": {
+        "languages": "En"
+    },
     "Si Balla (Italy) (Beta)": {
         "languages": "It"
     },
@@ -3190,6 +3574,9 @@
     },
     "Sinnaneun Susjanala 2 (Korea)": {
         "languages": "Ko"
+    },
+    "Sipa Image - First Image Catalog on CD-I (France) (En,Fr,De)": {
+        "languages": "En, Fr, De"
     },
     "Skin Style (USA)": {
         "languages": ""
@@ -3236,6 +3623,9 @@
     "Space Safari (UK)": {
         "languages": "En"
     },
+    "Spine Sense - The Interactive Back Protection Program (USA)": {
+        "languages": ""
+    },
     "Sport Freaks (Netherlands)": {
         "languages": "Nl"
     },
@@ -3272,6 +3662,12 @@
     "Starring You - BZN (Netherlands)": {
         "languages": ""
     },
+    "Stars on CD-I - Rob Peetoom (Netherlands)": {
+        "languages": ""
+    },
+    "Stars on CD-i - Ad Peters (Netherlands)": {
+        "languages": ""
+    },
     "Steel Machine (Europe)": {
         "languages": ""
     },
@@ -3302,6 +3698,9 @@
     "Sting - Ten Summoner's Tales (Europe)": {
         "languages": "En"
     },
+    "Stomach in Motion (Belgium)": {
+        "languages": ""
+    },
     "Story Machine - Magic Tales (Europe)": {
         "languages": "En"
     },
@@ -3318,6 +3717,9 @@
         "languages": "De"
     },
     "Story of Samson, The (USA)": {
+        "languages": ""
+    },
+    "Stretch-Top System - Wasserbett-Information (Europe)": {
         "languages": ""
     },
     "Striker Pro (Europe)": {
@@ -3391,6 +3793,12 @@
     },
     "Tangram (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt) (Beta)": {
         "languages": "Nl, En, Fr, De, It, Ja, Pt, Es"
+    },
+    "Targeting for Performance (UK) (Disc 1)": {
+        "languages": ""
+    },
+    "Targeting for Performance (UK) (Disc 2)": {
+        "languages": ""
     },
     "Teams & Leaders (UK)": {
         "languages": ""
@@ -3527,6 +3935,9 @@
     "Tina Turner - Rio '88 (Europe) (Disc 2)": {
         "languages": "En"
     },
+    "Tissot - InfoKiosk CD-Interactive (Switzerland)": {
+        "languages": ""
+    },
     "Titanic - An Interactive Exploration (USA)": {
         "languages": "En"
     },
@@ -3560,11 +3971,20 @@
     "Top Gun (USA) (Disc 2)": {
         "languages": "En"
     },
+    "Touch Screen Calibration Disc (Europe)": {
+        "languages": "En"
+    },
+    "Toyota RAV4 (Canada)": {
+        "languages": ""
+    },
     "Treasures of the Smithsonian (USA, Europe)": {
         "languages": "En"
     },
     "Tresor de l'Ile aux Jeux, Le (France)": {
         "languages": "Fr"
+    },
+    "Triatec IDP (France)": {
+        "languages": ""
     },
     "Triunfo do Barroco, O (Portugal) (En,Pt)": {
         "languages": "En, Pt"
@@ -3617,7 +4037,10 @@
     "Usine aux Crayons, L' (France)": {
         "languages": "Fr"
     },
-    "Validation Disc (Germany) (Disc 1)": {
+    "Utility Company CD-i Applications (USA)": {
+        "languages": ""
+    },
+    "Validation Disc (Europe) (Disc 1)": {
         "languages": ""
     },
     "Validation Disc (Japan) (Disc 2)": {
@@ -3631,6 +4054,33 @@
     },
     "Vapro - Basiskennis Natuurkunde en Techniek - Deel 2 - Eenheden (Netherlands)": {
         "languages": ""
+    },
+    "Vapro - Fysische Scheidingsmethoden 1 - Inleiding en Drogen (Netherlands)": {
+        "languages": "Nl"
+    },
+    "Vapro - Fysische Scheidingsmethoden 2 - Destilleren en Rectificeren (Netherlands)": {
+        "languages": "Nl"
+    },
+    "Vapro - Fysische Scheidingsmethoden 3 - Extraheren en Kristalliseren (Netherlands)": {
+        "languages": "Nl"
+    },
+    "Vapro - Fysische Scheidingsmethoden 4 - Sorptieprocessen (Netherlands)": {
+        "languages": "Nl"
+    },
+    "Vapro - Inleiding Procestechniek & Introduction to Process Technology (Netherlands) (En,Nl)": {
+        "languages": "Nl, En"
+    },
+    "Vapro - Procesbeheersing Deel 2 (Netherlands)": {
+        "languages": ""
+    },
+    "Vapro - Procesbeheersing Deel 3 (Netherlands)": {
+        "languages": "Nl"
+    },
+    "Vapro - Procesbeheersing Deel 5 (Netherlands)": {
+        "languages": "Nl"
+    },
+    "Vapro - Procesbeheersing Deel 6 - Besturingstechniek (Netherlands)": {
+        "languages": "Nl"
     },
     "Vapro - Transport von Stoffen 1 & Transport de Materiaux 1 (Netherlands) (Fr,De)": {
         "languages": "Fr, De"
@@ -3650,7 +4100,13 @@
     "Verhalen Toverdoos - Magische Vertellingen (Netherlands)": {
         "languages": "Nl"
     },
+    "Vernieuwing van Agrarisch Nederland, De (Netherlands)": {
+        "languages": ""
+    },
     "Video CD Music Sampler with Online Ordering (Europe)": {
+        "languages": ""
+    },
+    "Video Preview Disc - Oktober November (Netherlands)": {
         "languages": ""
     },
     "Video Speedway - Grand Prix (France)": {
@@ -3704,19 +4160,100 @@
     "Volvo - Films II - 1999 (Europe)": {
         "languages": ""
     },
-    "Volvo - Films III - 1998 (Netherlands)": {
+    "Volvo - Films III - 1998 (Europe)": {
+        "languages": ""
+    },
+    "Volvo - S40 - 1997 (Netherlands)": {
         "languages": "Nl"
+    },
+    "Volvo - Safety 98 - 1998 (Netherlands)": {
+        "languages": "Nl"
+    },
+    "Volvo - Tirez le Meilleur Parti du CD-I - Edition 1 (France)": {
+        "languages": ""
+    },
+    "Volvo - V40 - 1998 (Netherlands)": {
+        "languages": "Nl"
+    },
+    "Volvo 440-460 - Colour & Upholstery - 1995 (Europe)": {
+        "languages": "Fr"
+    },
+    "Volvo 440-460 - Information Produit - 1995 (Europe)": {
+        "languages": "Fr"
     },
     "Volvo 850 - Colour & Upholstery (Europe)": {
         "languages": "En"
     },
+    "Volvo 850 - Colour & Upholstery - 1996 (Europe)": {
+        "languages": ""
+    },
     "Volvo 850 - Farben & Bezuege (Germany)": {
         "languages": "De"
+    },
+    "Volvo 850 - Product Information - 1996 (Europe)": {
+        "languages": ""
+    },
+    "Volvo 850 - Productinformatie - 1997 (Netherlands)": {
+        "languages": "Nl"
+    },
+    "Volvo 940 - Colour & Upholstery - 1996 (Europe)": {
+        "languages": ""
+    },
+    "Volvo 940 - Colour & Upholstery 1995 (France)": {
+        "languages": ""
+    },
+    "Volvo 940 - Information Produit - 1995 (Europe)": {
+        "languages": "Fr"
+    },
+    "Volvo 940 - Product Information - 1996 (Europe)": {
+        "languages": ""
+    },
+    "Volvo 960 - Colour & Upholstery - 1995 (Europe)": {
+        "languages": ""
+    },
+    "Volvo 960 - Colour & Upholstery - Edition 1 (France)": {
+        "languages": ""
+    },
+    "Volvo 960 - Information Produit - 1995 (France)": {
+        "languages": ""
     },
     "Volvo C70 - Features - 2000 (Netherlands)": {
         "languages": "Nl"
     },
+    "Volvo C70 Convertible - Colour, Upholstery, Option & Accessory - 2002 (Netherlands)": {
+        "languages": "Nl"
+    },
+    "Volvo C70 Coupe - 1999 (Netherlands)": {
+        "languages": "Nl"
+    },
+    "Volvo Coupe - Colour, Upholstery, Option & Accessory - 2001 (Netherlands)": {
+        "languages": "Nl"
+    },
+    "Volvo Cross Country - Colour, Upholstery, Option & Accessory - 2001 (Netherlands)": {
+        "languages": "Nl"
+    },
+    "Volvo Cross Country - Colour, Upholstery, Option & Accessory - 2002 (Netherlands)": {
+        "languages": "Nl"
+    },
     "Volvo Life - Volvo S80 - 1999 (Netherlands)": {
+        "languages": "Nl"
+    },
+    "Volvo S40 - 1998 (Netherlands)": {
+        "languages": "Nl"
+    },
+    "Volvo S40 - 2000 (Netherlands)": {
+        "languages": "Nl"
+    },
+    "Volvo S40 - Colour, Upholstery, Option & Accessory - 2000 (Netherlands)": {
+        "languages": "Nl"
+    },
+    "Volvo S40 - Colour, Upholstery, Option & Accessory - 2001 (Netherlands)": {
+        "languages": "Nl"
+    },
+    "Volvo S40 - Colour, Upholstery, Option & Accessory - 2002 (Netherlands)": {
+        "languages": "Nl"
+    },
+    "Volvo S40-V40 - Features - 2000 (Netherlands)": {
         "languages": "Nl"
     },
     "Volvo S40-V40 - Features - 2001 (Netherlands)": {
@@ -3725,22 +4262,91 @@
     "Volvo S40-V40 - Features - 2002 (Netherlands)": {
         "languages": "Nl"
     },
+    "Volvo S60 - Colour, Upholstery, Option & Accessory - 2001 (Netherlands)": {
+        "languages": "Nl"
+    },
+    "Volvo S60 - Colour, Upholstery, Option & Accessory - 2001 (Netherlands) (Rev 1)": {
+        "languages": "Nl"
+    },
+    "Volvo S60 - Features - 2001 (Netherlands)": {
+        "languages": "Nl"
+    },
     "Volvo S60 - Features - 2002 (Netherlands)": {
+        "languages": "Nl"
+    },
+    "Volvo S70 - 1997 (Netherlands)": {
         "languages": "Nl"
     },
     "Volvo S70 - 1998 (Netherlands)": {
         "languages": "Nl"
     },
+    "Volvo S70 - 1998 (Netherlands) (Rev 1)": {
+        "languages": "Nl"
+    },
+    "Volvo S70 - 1999 (Netherlands)": {
+        "languages": "Nl"
+    },
     "Volvo S70 - 2000 (Netherlands)": {
         "languages": "Nl"
     },
+    "Volvo S80 - 1999 (Europe)": {
+        "languages": "En"
+    },
+    "Volvo S80 - 1999 (Netherlands)": {
+        "languages": "Nl"
+    },
+    "Volvo S80 - Colour, Upholstery, Option & Accessory - 2000 (Netherlands)": {
+        "languages": "Nl"
+    },
+    "Volvo S80 - Colour, Upholstery, Option & Accessory - 2001 (Netherlands)": {
+        "languages": "Nl"
+    },
+    "Volvo S80 - Features - 2000 (Netherlands)": {
+        "languages": "Nl"
+    },
     "Volvo S80 - Features - 2001 (Netherlands)": {
+        "languages": "Nl"
+    },
+    "Volvo S80 - Kenmerken en Voordelen Interactieve Training - 1999 (Netherlands)": {
+        "languages": "Nl"
+    },
+    "Volvo Safety - 1999 (Netherlands)": {
+        "languages": "Nl"
+    },
+    "Volvo V40 - 1997 (Netherlands)": {
+        "languages": "Nl"
+    },
+    "Volvo V40 - 1999 (Netherlands)": {
+        "languages": "Nl"
+    },
+    "Volvo V40 - Colour, Upholstery, Option & Accessory - 2000 (Netherlands)": {
+        "languages": "Nl"
+    },
+    "Volvo V40 - Colour, Upholstery, Option & Accessory - 2001 (Netherlands)": {
+        "languages": "Nl"
+    },
+    "Volvo V40 - Colour, Upholstery, Option & Accessory - 2002 (Netherlands)": {
+        "languages": "Nl"
+    },
+    "Volvo V70 - 1997 (Netherlands)": {
+        "languages": "Nl"
+    },
+    "Volvo V70 - 1998 (Netherlands)": {
         "languages": "Nl"
     },
     "Volvo V70 - 1999 (Netherlands)": {
         "languages": "Nl"
     },
     "Volvo V70 - 2000 (Netherlands)": {
+        "languages": "Nl"
+    },
+    "Volvo V70 - Colour, Upholstery, Option & Accessory - 2001 (Netherlands)": {
+        "languages": "Nl"
+    },
+    "Volvo V70 - Colour, Upholstery, Option & Accessory - 2002 (Netherlands)": {
+        "languages": "Nl"
+    },
+    "Volvo V70 - Features - 2001 (Netherlands)": {
         "languages": "Nl"
     },
     "Volvo V70 - Features - 2002 (Netherlands)": {
@@ -3788,6 +4394,12 @@
     "Werndl Office Furniture Systems - CD-Interactive Catalogue & Presentation Disc (USA)": {
         "languages": ""
     },
+    "Weru - Fenster + Tueren (Germany)": {
+        "languages": ""
+    },
+    "Wet Milieubeheer, De - Handleiding voor Ondernemers (Netherlands)": {
+        "languages": ""
+    },
     "Whack a Bubble (Europe)": {
         "languages": "En"
     },
@@ -3820,6 +4432,9 @@
     },
     "Who Shot Johnny Rock (USA)": {
         "languages": "En"
+    },
+    "Who's Tommy, The - See Me, Feel Me, Hear Me (Europe)": {
+        "languages": ""
     },
     "Wie das Rhinozeros zu seiner Haut kam (Germany) (En,De)": {
         "languages": "En, De"
@@ -3869,7 +4484,16 @@
     "Yamaha - 1996 CD-i Programme - French Market (France)": {
         "languages": ""
     },
+    "Yamaha 1997 CD-i Programme - Belgium Market (Belgium)": {
+        "languages": ""
+    },
+    "Yamaha 1998 CD-i Programme - Dutch Market (Netherlands)": {
+        "languages": ""
+    },
     "Yamaha Brochure 1994 (Europe)": {
+        "languages": ""
+    },
+    "Yamaha Brochure 1994 (Netherlands)": {
         "languages": ""
     },
     "Yearn2Learn - Peanuts (Europe) (En,Fr,De,Nl)": {
@@ -3901,6 +4525,9 @@
     },
     "Zenith (Europe)": {
         "languages": "En"
+    },
+    "Zestril - Lisinopril ICI - 24 Hour Control of Blood Pressure (UK)": {
+        "languages": ""
     },
     "Zingstrip - 15 Bekende Kinderliedjes - Deel 1 (Netherlands)": {
         "languages": "Nl"
@@ -3934,6 +4561,9 @@
     },
     "eScape (Europe)": {
         "languages": "En"
+    },
+    "la Decouverte des Contes, A (France)": {
+        "languages": ""
     },
     "n-tv Gut zu Wissen - Jahresrueckblick 1995 (Germany)": {
         "languages": "De"

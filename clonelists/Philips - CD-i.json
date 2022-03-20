@@ -3,7 +3,7 @@
 		"name": [
 			"Philips - CD-i"
 		],
-		"last updated": "2 January 2022",
+		"last updated": "20 March 2022",
 		"minimum version": "0.89"
 	},
 
@@ -35,6 +35,9 @@
 		"Bertelsmann Universallexikon (Fuer CD-i Player mit Digital Video Cartridge)": [
 			["Bertelsmann Universal Lexikon", 1]
 		],
+		"Bose - Home Cinema Sound System - Demonstration Disc": [
+			["Bose Home Cinema Sound System Demonstration Disc", 1]
+		],
 		"Burn-Cycle (Disc 1) (The Game)": [
 			["Burn-Cycle (Das Spiel)", 1],
 			["Burn-Cycle (El Juego)", 1],
@@ -42,9 +45,13 @@
 			["Burn-Cycle (Jeu)", 1],
 			["Burn-Cycle", 2]
 		],
+		"Centurion - Building the Winning Company": [
+			["Centurion - Werken aan The Winning Company - Deel I", 1]
+		],
 		"Child is Born, A": [
 			["Grote Wonder, Het - A Child is Born", 1],
 			["Kind Entsteht, Ein - A Child is Born", 1],
+			["Naitre - A Child is Born", 1],
 			["Nasce un Bambino", 1]
 		],
 		"Clue": [
@@ -61,6 +68,12 @@
 			["Krijtjesfabriek, De", 1],
 			["Malstiftfabrik, Die", 1],
 			["Usine aux Crayons, L'", 1]
+		],
+		"Creation with Digital Video (Green)": [
+			["Creation with Digital Video (Red)", 2]
+		],
+		"Creation with MediaMogul (Blue)": [
+			["Creation with MediaMogul (Grey)", 2]
 		],
 		"Dark Fables of Aesop, The": [
 			["Duistere Fabels van Aesopus, De", 1],
@@ -197,6 +210,9 @@
 		"Star Trek VI - The Undiscovered Country (Disc 2)": [
 			["Star Trek VI - Das unentdeckte Land (Disc 2)", 1]
 		],
+		"Stickybear Math": [
+			["Stickybear Maths", 1]
+		],
 		"Story Machine - Magic Tales": [
 			["Maquina de Cuentos, La - Cuentos Magicos", 1],
 			["Story Maschine - Maerchenzauber", 1],
@@ -248,6 +264,7 @@
 			["Voyeur ...Lass Dich Nicht Erwischen!", 1]
 		],
 		"Zelda - The Wand of Gamelon": [
+			["Zelda - De Toverstaf van Gamelon", 1],
 			["Zelda - Der Zauberstab von Gamelon", 1]
 		],
 		"Zombie Dinos from Planet Zeltoid": [

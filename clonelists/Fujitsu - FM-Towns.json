@@ -3,7 +3,7 @@
 		"name": [
 			"Fujitsu - FM-Towns"
 		],
-		"last updated": "14 October 2021",
+		"last updated": "20 March 2022",
 		"minimum version": "0.92"
 	},
 
@@ -40,9 +40,13 @@
 			["Hyper Address", 2]
 		],
 		"Microsoft Windows Version 3.1 L12 Operating System (Setup CD-ROM)": [
-			["Microsoft Windows Version 3.1 L11 Operating System (Setup CD-ROM)", 2]
+			["Microsoft Windows Version 3.1 L11 Operating System (Setup CD-ROM)", 2],
+			["Microsoft Windows Version 3.1 L10 Operating System (Setup CD-ROM)", 3]
 		],
 		"Ms. Detective File 1 - Iwami Ginzan Satsujin Jiken (Disc 1)": [
+			["Ms. Detective File 1 - Iwami Ginzan Satsujin Jiken (FM Towns Marty)", 0]
+		],
+		"Ms. Detective File 1 - Iwami Ginzan Satsujin Jiken (Disc 2)": [
 			["Ms. Detective File 1 - Iwami Ginzan Satsujin Jiken (FM Towns Marty)", 0]
 		],
 		"NHK Jissen Eikaiwa - English Conversation Program (FM Towns Marty Rerelease)": [

@@ -56,12 +56,6 @@
     "Android Assault - The Revenge of Bari-Arm (USA)": {
         "languages": ""
     },
-    "Animals!, The (Europe)": {
-        "languages": "En"
-    },
-    "Animals!, The (USA)": {
-        "languages": "En"
-    },
     "Annett Futatabi (Japan)": {
         "languages": "Ja"
     },
@@ -998,6 +992,9 @@
     "Psychic Detective Series Vol. 3 - Aya (Japan)": {
         "languages": "Ja"
     },
+    "Psychic Detective Series Vol. 3 - Aya (Japan) (Demo)": {
+        "languages": "Ja"
+    },
     "Psychic Detective Series Vol. 4 - Orgel (Japan)": {
         "languages": "Ja"
     },
@@ -1079,11 +1076,20 @@
     "Samurai Shodown (USA) (RE)": {
         "languages": "En"
     },
+    "San Diego Zoo Presents... The Animals!, The (Europe)": {
+        "languages": "En"
+    },
+    "San Diego Zoo Presents... The Animals!, The (USA)": {
+        "languages": "En"
+    },
     "Sangokushi III (Japan)": {
         "languages": "Ja"
     },
     "Secret of Monkey Island, The (Japan)": {
         "languages": "Ja"
+    },
+    "Secret of Monkey Island, The (USA) (Limited Run Games)": {
+        "languages": "En"
     },
     "Secret of Monkey Island, The (USA) (RE)": {
         "languages": "En"

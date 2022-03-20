@@ -3,7 +3,7 @@
 		"name": [
 			"Sony - PlayStation 3"
 		],
-		"last updated": "2 January 2022",
+		"last updated": "20 March 2022",
 		"minimum version": "0.89"
 	},
 
@@ -29,6 +29,7 @@
 	"renames": {
 		"007 - Quantum of Solace": [
 			["007 - Quantum of Solace (Collector's Edition)", 0],
+			["007 - Kvant Miloserdiya", 1],
 			["007 - Nagusame no Houshuu", 1]
 		],
 		"2010 FIFA World Cup South Africa": [
@@ -57,6 +58,12 @@
 		],
 		"Aquanaut's Holiday - Hidden Memories": [
 			["Aquanaut's Holiday - Kakusareta Kiroku", 1]
+		],
+		"Amazing Spider-Man, The": [
+			["Novyj Chelovek-Pauk", 1]
+		],
+		"Ar nosurge - Ode to an Unborn Star": [
+			["Ar nosurge - Umareizuru Hoshi e Inoru Uta", 1]
 		],
 		"Ar tonelico Qoga - Knell of Ar Ciel": [
 			["Ar tonelico III - Sekai Shuuen no Hikigane wa Shoujo no Uta ga Hiku", 1]
@@ -153,6 +160,7 @@
 			["Buzz! Brain of Oz", 1],
 			["Buzz! Brain of the UK", 1],
 			["Buzz! Deutschlands Superquiz", 1],
+			["Buzz! Le Plus Malin des Francais", 1],
 			["Buzz! Il Quizzone Nazionale", 1],
 			["Buzz! Polskie Lamiglowki", 1],
 			["Buzz! Que Sabes de tu Pais", 1],
@@ -169,7 +177,8 @@
 			["Call of Duty - Black Ops (Fukikaeban)", 2]
 		],
 		"Call of Duty - Black Ops II": [
-			["Call of Duty - Black Ops II (Jimakuban)", 1]
+			["Call of Duty - Black Ops II (Jimakuban)", 1],
+			["Call of Duty - Modern Warfare 3 (Fukikaeban)", 2]
 		],
 		"Call of Duty - Ghosts": [
 			["Call of Duty - Ghosts (Jimakuban)", 1]
@@ -257,11 +266,15 @@
 		"Disney-Pixar Cars 2": [
 			["Disney - Pixar Arabalar 2", 1]
 		],
+		"Disney-Pixar Toy Story 3": [
+			["Disney-Pixar Istoriya igrushek. Bol'shoj pobeg", 1]
+		],
 		"Disney-Pixar Up": [
 			["Disney-Pixar Oben", 1]
 		],
 		"Dragon Age - Origins": [
-			["Dragon Age - Origins - Ultimate Edition", 0]
+			["Dragon Age - Origins - Ultimate Edition", 0],
+			["Dragon Age - Nachalo", 1]
 		],
 		"Dragon Age - Origins - Awakening": [
 			["Dragon Age - Origins - Ultimate Edition", 0]
@@ -307,6 +320,9 @@
 		],
 		"Dynasty Warriors 8": [
 			["Shin Sangoku Musou 7", 1]
+		],
+		"Dynasty Warriors 8 - Xtreme Legends": [
+			["Shin Sangoku Musou 7 - Moushouden", 1]
 		],
 		"Earth Defense Force 2025": [
 			["Chikyuu Boueigun 4", 1]
@@ -450,7 +466,8 @@
 		],
 		"Heavy Rain": [
 			["Heavy Rain - Director's Cut", 0],
-			["Heavy Rain - Move Edition", 2]
+			["Heavy Rain - Move Edition", 2],
+			["Heavy Rain - Edition Modifiee", 3]
 		],
 		"Heavy Rain - Director's Cut": [
 			["Heavy Rain - Move Edition", 2]
@@ -475,7 +492,8 @@
 		],
 		"Ice Age - Dawn of the Dinosaurs": [
 			["Era Glaciale 3, L' - L'Alba dei Dinosauri", 1],
-			["Ice Age 3 - Dawn of the Dinosaurs", 1]
+			["Ice Age 3 - Dawn of the Dinosaurs", 1],
+			["Lednikovyj period 3 - E'ra dinozavrov", 1]
 		],
 		"Ice Age 4 - Continental Drift - Arctic Games": [
 			["Era Glaciale 4, L' - Continenti alla Deriva - Giochi Polari", 1]
@@ -545,6 +563,9 @@
 		"LEGO Marvel Super Heroes": [
 			["LEGO Marvel Super Heroes - The Game", 1]
 		],
+		"LEGO Movie, The - Videogame": [
+			["LEGO Movie - The Game", 1]
+		],
 		"LEGO Star Wars - The Force Awakens": [
 			["LEGO Star Wars - Force no Kakusei", 1]
 		],
@@ -556,6 +577,9 @@
 		],
 		"LittleBigPlanet 2 - Extras Edition": [
 			["LittleBigPlanet 2 - Special Edition", 0]
+		],
+		"Lollipop Chainsaw - Premium Edition": [
+			["Lollipop Chainsaw", 2]
 		],
 		"Lord of the Rings, The - Aragorn's Quest (FW3.42)": [
 			["Lord of the Rings, The - Aragorn's Quest", 2]
@@ -624,6 +648,9 @@
 		"Musou Orochi Z": [
 			["Mussang Orochi Z", 1]
 		],
+		"MX vs. ATV Untamed": [
+			["MX vs. ATV Extreme Limite", 1]
+		],
 		"Naruto - Ultimate Ninja Storm": [
 			["Naruto Shippuden - Ultimate Ninja Storm Collection", 0],
 			["Naruto - Narutimate Storm", 1]
@@ -668,6 +695,9 @@
 			["Ni no Kuni - Shiroki Seihai no Joou - All in One Edition", 0],
 			["Ni no Kuni - Shiroki Seihai no Joou", 1]
 		],
+		"Nickelodeon SpongeBob SquarePants - Plankton's Robotic Revenge": [
+			["Nickelodeon Gubka Bob Kvadratnye Shtany - Plankton. Mest' robotov", 1]
+		],
 		"NieR": [
 			["NieR Replicant", 1]
 		],
@@ -677,6 +707,9 @@
 		"No More Heroes - Heroes' Paradise": [
 			["No More Heroes - Eiyuu-tachi no Rakuen", 1],
 			["No More Heroes - Red Zone Edition", 1]
+		],
+		"Nobunaga no Yabou - Tendou with Power-Up Kit": [
+			["Nobunaga no Yabou - Tendou", 2]
 		],
 		"NPPL Championship Paintball 2009": [
 			["Millennium European Paintball Series, The - Championship Paintball 2009", 1]
@@ -721,7 +754,7 @@
 			["World Soccer Winning Eleven 2014", 1]
 		],
 		"PES 2016 - Pro Evolution Soccer": [
-			["PES 2016 - Pro Evolution Soccer (UEFA Euro 2016 - France)", 1]
+			["UEFA Euro 2016 - PES 2016 - Pro Evolution Soccer", 1]
 		],
 		"Pinball Hall of Fame - The Williams Collection": [
 			["Williams Pinball Classics", 1]
@@ -759,6 +792,12 @@
 			["Ratchet & Clank - Tools of Destruction", 1],
 			["Ratchet & Clank Future", 1]
 		],
+		"Rayman Legends": [
+			["Rayman Legends + Rayman Origins", 0]
+		],
+		"Rayman Origins": [
+			["Rayman Legends + Rayman Origins", 0]
+		],
 		"Record of Agarest War 2": [
 			["Agarest - Generations of War 2", 1],
 			["Agarest Senki 2", 1]
@@ -781,6 +820,12 @@
 		"Resident Evil - Operation Raccoon City": [
 			["Biohazard - Operation Raccoon City", 1]
 		],
+		"Resident Evil - Revelations": [
+			["Biohazard - Revelations - Unveiled Edition", 0]
+		],
+		"Resident Evil - Revelations 2": [
+			["Biohazard - Revelations 2", 1]
+		],
 		"Resident Evil 5": [
 			["Resident Evil 5 - Gold Edition", 0],
 			["Biohazard 5 - Alternative Edition (PlayStation Move Taiou)", 0],
@@ -802,7 +847,8 @@
 			["End of Eternity", 1]
 		],
 		"Robert Ludlum's The Bourne Conspiracy": [
-			["Robert Ludlum's Das Bourne Komplott", 1]
+			["Robert Ludlum's Das Bourne Komplott", 1],
+			["Robert Ludlum's Konspiraciya Borna", 1]
 		],
 		"Rock Band - Track Pack Volume 2": [
 			["Rock Band - Song Pack 2", 1]

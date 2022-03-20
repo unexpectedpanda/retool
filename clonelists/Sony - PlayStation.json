@@ -3,7 +3,7 @@
         "name": [
 			"Sony - PlayStation"
 		],
-        "last updated": "15 January 2022",
+        "last updated": "20 March 2022",
 		"minimum version": "0.92"
     },
 
@@ -432,7 +432,7 @@
 			["Amerzone - Il Testamento dell'Esploratore (Disc 2)", 1],
 			["Amerzone - O Testamento do Explorador (Disc 2)", 1]
 		],
-		"Angelique - Tenkuu no Requiem (Angelique History)": [
+		"Angelique - Tenkuu no Requiem (Premium Box)": [
 			["Angelique - Tenkuu no Requiem", 2]
 		],
 		"Angelique Duet (Angelique History)": [
@@ -965,7 +965,7 @@
 		"Disney-Pixar A Bug's Life - Disney's Activity Centre": [
 			["Disney-Pixar A Bug's Life - Atelier de Jeux", 1],
 			["Disney-Pixar A Bug's Life - Disneys Malen und Spielen", 1],
-			["Disney-Pixar Bichos Una Aventura en Miniatura", 1],
+			["Disney-Pixar Bichos - Una Aventura en Miniatura", 1],
 			["Disney-Pixar Bottega dei Giochi - A Bug's Life Megaminimondo", 1],
 			["Disney-Pixar Een Luizenleven", 1]
 		],
@@ -1749,7 +1749,7 @@
 			["Kagayaku Kisetsu e", 2]
 		],
 		"Kagero - Deception II": [
-			["Kagerou - Kokumeikan Shinshou", 1]
+			["Kagero - Kokumeikan Shinshou", 1]
 		],
 		"Kartia - The Word of Fate": [
 			["Legend of Kartia", 1],
@@ -2527,12 +2527,9 @@
 		"Resident Evil": [
 			["Bio Hazard - Director's Cut - Dual Shock Ver.", 0],
 			["Resident Evil - Director's Cut - Dual Shock Ver.", 0],
+			["Bio Hazard - Director's Cut", 0],
+			["Resident Evil - Director's Cut", 0],
 			["Bio Hazard", 1]
-		],
-		"Resident Evil - Director's Cut": [
-			["Bio Hazard - Director's Cut - Dual Shock Ver.", 0],
-			["Resident Evil - Director's Cut - Dual Shock Ver.", 0],
-			["Bio Hazard - Director's Cut", 1]
 		],
 		"Resident Evil - Survivor": [
 			["Biohazard - Gun Survivor", 1]
@@ -2748,6 +2745,10 @@
 		],
 		"Star Wars - Episode I - Jedi Power Battles": [
 			["Star Wars - Episodio I - Jedi Power Battles", 1]
+		],
+		"Star Wars - Episode I - The Phantom Menace (Demo)": [
+			["Star Wars - Episode I - La Menace Fantome (Demo)", 1],
+			["Star Wars - Episodio I - La Amenaza Fantasma (Demo)", 1]
 		],
 		"Star Wars - Episode I - The Phantom Menace": [
 			["Star Wars - Episode I - Die dunkle Bedrohung", 1],
@@ -3201,7 +3202,7 @@
 			["Wer wird Millionaer", 1]
 		],
 		"Who Wants to Be a Millionaire - 2nd Edition": [
-			["Chi Vuol Essere Milionario - Seconda Edizione", 1],
+			["Chi Vuol Essere Milionario Seconda Edizione", 1],
 			["Qui Veut Gagner des Millions - Seconde Edition", 1],
 			["Wer wird Millionaer - 2. Edition", 1]
 		],

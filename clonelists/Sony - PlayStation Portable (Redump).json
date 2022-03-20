@@ -3,7 +3,7 @@
 		"name": [
 			"Sony - PlayStation Portable (Redump)"
 		],
-		"last updated": "13 February 2022",
+		"last updated": "20 March 2022",
 		"minimum version": "0.92"
 	},
 
@@ -417,6 +417,9 @@
 		"Mega Man - Powered Up": [
 			["Rockman Rockman", 1]
 		],
+		"Mercury Meltdown": [
+			["Mercury Meltdown (1.00)", 2]
+		],
 		"Metal Slug Anthology": [
 			["Metal Slug Complete", 1]
 		],
@@ -431,6 +434,9 @@
 		"Monster Hunter Freedom Unite": [
 			["Monster Hunter Portable 2nd G", 1]
 		],
+		"MX vs. ATV Untamed": [
+			["MX vs. ATV Extreme Limite", 1]
+		],
 		"Naruto Shippuden - Kizuna Drive": [
 			["Naruto Shippuuden - Kizuna Drive", 1]
 		],
@@ -443,6 +449,9 @@
 		],
 		"Naruto Shippuden - Ultimate Ninja Impact": [
 			["Naruto - Narutimate Impact", 1]
+		],
+		"NBA 09 - The Inside": [
+			["NBA 09 - The Inside (0.30)", 2]
 		],
 		"Nickelodeon Avatar - The Last Airbender": [
 			["Nickelodeon Avatar - The Legend of Aang", 1]
@@ -507,6 +516,9 @@
 		],
 		"Puyo Pop Fever": [
 			["Puyo Puyo Fever", 1]
+		],
+		"Puyo Puyo!! Puyopuyo 20th Anniversary": [
+			["Puyo Puyo! Puyopuyo 15th Anniversary", 2]
 		],
 		"Puzzle Guzzle": [
 			["Mawaskes Puzzle", 1]
@@ -668,7 +680,7 @@
 			["Musou Orochi - Maou Sairin", 1]
 		],
 		"What Did I Do to Deserve This, My Lord! 2": [
-			["Yuusha no Kuse ni Namaikida or2", 1]
+			["Yuusha no Kuse ni Namaiki da or2", 1]
 		],
 		"Who Wants to Be a Millionaire - Party Edition": [
 			["Chi Vuol Essere Milionario Party Edition", 1]

@@ -8,6 +8,9 @@
     "007 - Blood Stone (USA) (En,Fr)": {
         "languages": "En, Fr"
     },
+    "007 - Kvant Miloserdiya (Russia)": {
+        "languages": "Ru"
+    },
     "007 - Nagusame no Houshuu (Japan)": {
         "languages": "Ja"
     },
@@ -19,6 +22,9 @@
     },
     "007 Legends (Europe) (En,Fr,De)": {
         "languages": "En, Fr, De"
+    },
+    "007 Legends (Russia)": {
+        "languages": "Ru"
     },
     "007 Legends (USA) (En,Fr)": {
         "languages": "En, Fr"
@@ -194,6 +200,9 @@
     "Aliens vs. Predator (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
+    "Aliens vs. Predator (Russia)": {
+        "languages": "Ru"
+    },
     "All-Pro Football 2K8 (USA)": {
         "languages": "En"
     },
@@ -220,6 +229,9 @@
     },
     "Angry Birds Star Wars (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
+    },
+    "Angry Birds Star Wars (Europe) (Ru,Ar)": {
+        "languages": "Ar, Ru"
     },
     "Angry Birds Star Wars (USA) (En,Fr,Es,Pt)": {
         "languages": "En, Fr, Pt, Es"
@@ -250,6 +262,9 @@
     },
     "Ar nosurge - Ode to an Unborn Star (USA)": {
         "languages": ""
+    },
+    "Ar nosurge - Umareizuru Hoshi e Inoru Uta (Japan)": {
+        "languages": "Ja"
     },
     "Ar tonelico III - Sekai Shuuen no Hikigane wa Shoujo no Uta ga Hiku (Japan)": {
         "languages": "Ja"
@@ -323,6 +338,9 @@
     "Army of Two (USA)": {
         "languages": "En"
     },
+    "Army of Two - The 40th Day (Japan)": {
+        "languages": "Ja"
+    },
     "Army of Two - The 40th Day (USA) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
@@ -337,6 +355,9 @@
     },
     "Assassin's Creed (Japan)": {
         "languages": "Ja"
+    },
+    "Assassin's Creed (Russia)": {
+        "languages": "Ru"
     },
     "Assassin's Creed - Birth of a New World - The American Saga (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Ru)": {
         "languages": "Da, Nl, En, Fi, Fr, De, It, No, Pt, Ru, Es, Sv"
@@ -491,6 +512,9 @@
     "Awakened Fate Ultimatum, The (USA)": {
         "languages": "En"
     },
+    "Ayesha no Atelier - Tasogare no Daichi no Renkinjutsushi (Japan)": {
+        "languages": "Ja"
+    },
     "Back to the Future - The Game (Europe) (En,Fr,De)": {
         "languages": "En, Fr, De"
     },
@@ -608,6 +632,9 @@
     "Battlefield Hardline (Europe) (En,Fr,De,Es,It,Pl,Ru)": {
         "languages": "En, Fr, De, It, Pl, Ru, Es"
     },
+    "Battlefield Hardline (Japan) (En,Ja)": {
+        "languages": "En, Ja"
+    },
     "Battlefield Hardline (USA) (En,Fr,Es,Pt)": {
         "languages": "En, Fr, Pt, Es"
     },
@@ -621,6 +648,9 @@
         "languages": "En, Fr, De, It, Ja, Es"
     },
     "Bayonetta (Japan) (En,Ja,Fr,De,Es,It) (v01.00)": {
+        "languages": "En, Fr, De, It, Ja, Es"
+    },
+    "Bayonetta (Japan) (En,Ja,Fr,De,Es,It) (v02.00)": {
         "languages": "En, Fr, De, It, Ja, Es"
     },
     "Bayonetta (USA) (En,Ja,Fr,De,Es,It)": {
@@ -752,6 +782,18 @@
     "Biohazard - Chronicles HD Selection (Japan)": {
         "languages": "Ja"
     },
+    "Biohazard - HD Remaster (Japan, Asia) (En,Ja,Fr,De,Es,It)": {
+        "languages": "En, Fr, De, It, Ja, Es"
+    },
+    "Biohazard - Operation Raccoon City (Japan) (En,Ja,Fr,De,Es,It)": {
+        "languages": "En, Fr, De, It, Ja, Es"
+    },
+    "Biohazard - Revelations - Unveiled Edition (Japan) (En,Ja,Fr,De,Es,It,Nl,Pt,Pl,Ru)": {
+        "languages": "Nl, En, Fr, De, It, Ja, Pl, Pt, Ru, Es"
+    },
+    "Biohazard - Revelations 2 (Japan) (En,Ja,Fr,De,Es,It,Pt,Zh,Ko,Pl,Ru)": {
+        "languages": "Zh, En, Fr, De, It, Ja, Ko, Pl, Pt, Ru, Es"
+    },
     "Biohazard - Revival Selection (Japan)": {
         "languages": "Ja"
     },
@@ -799,6 +841,9 @@
     },
     "BlazBlue - Calamity Trigger (Europe) (En,Ja,Fr,De,Es,It,Zh,Ko)": {
         "languages": "Zh, En, Fr, De, It, Ja, Ko, Es"
+    },
+    "BlazBlue - Calamity Trigger (Japan)": {
+        "languages": "Ja"
     },
     "BlazBlue - Calamity Trigger (USA) (En,Ja,Zh,Ko)": {
         "languages": "Zh, En, Ja, Ko"
@@ -983,6 +1028,9 @@
     "Buzz! Deutschlands Superquiz (Germany)": {
         "languages": "De"
     },
+    "Buzz! Le Plus Malin des Francais (France)": {
+        "languages": "Fr"
+    },
     "Buzz! Polskie Lamiglowki (Poland) (En,Pl,Ru,Hr)": {
         "languages": "En, Pl, Ru, Hr"
     },
@@ -1070,6 +1118,9 @@
     "Cabela's Survival - Shadows of Katmai (USA) (En,Fr)": {
         "languages": "En, Fr"
     },
+    "Call of Duty - Advanced Warfare (Europe) (Pl,Ru)": {
+        "languages": "Pl, Ru"
+    },
     "Call of Duty - Advanced Warfare (Europe, Asia) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
@@ -1112,6 +1163,9 @@
     "Call of Duty - Black Ops II (Europe) (Es,It)": {
         "languages": "It, Es"
     },
+    "Call of Duty - Black Ops II (Europe) (Pl,Ru)": {
+        "languages": "Pl, Ru"
+    },
     "Call of Duty - Black Ops II (Japan) (Jimakuban)": {
         "languages": "Ja"
     },
@@ -1139,6 +1193,9 @@
     "Call of Duty - Modern Warfare 2 (Canada)": {
         "languages": "Fr"
     },
+    "Call of Duty - Modern Warfare 2 (France)": {
+        "languages": "Fr"
+    },
     "Call of Duty - Modern Warfare 2 (Italy)": {
         "languages": "It"
     },
@@ -1162,6 +1219,9 @@
     },
     "Call of Duty - Modern Warfare 3 (Italy)": {
         "languages": "It"
+    },
+    "Call of Duty - Modern Warfare 3 (Japan) (Fukikaeban)": {
+        "languages": "Ja"
     },
     "Call of Duty - Modern Warfare 3 (Japan) (Jimakuban)": {
         "languages": "Ja"
@@ -1739,8 +1799,8 @@
     "Devil May Cry 4 (Europe) (En,Ja,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Ja, Es"
     },
-    "Devil May Cry 4 (Japan)": {
-        "languages": "Ja"
+    "Devil May Cry 4 (Japan) (En,Ja,Fr,De,Es,It)": {
+        "languages": "En, Fr, De, It, Ja, Es"
     },
     "Devil May Cry 4 (USA) (En,Ja,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Ja, Es"
@@ -1823,6 +1883,9 @@
     "Dishonored (Europe) (Fr,De,Es,It)": {
         "languages": "Fr, De, It, Es"
     },
+    "Dishonored (Europe) (Pl,Ru,Cs,Hu)": {
+        "languages": "Cs, Hu, Pl, Ru"
+    },
     "Dishonored (Japan)": {
         "languages": ""
     },
@@ -1831,6 +1894,9 @@
     },
     "Dishonored - Game of the Year Edition (Europe) (Fr,De,Es,It)": {
         "languages": "Fr, De, It, Es"
+    },
+    "Dishonored - Game of the Year Edition (Europe) (Pl,Ru,Cs,Hu)": {
+        "languages": "Cs, Hu, Pl, Ru"
     },
     "Disney - Pixar Arabalar 2 (Turkey)": {
         "languages": "Tr"
@@ -1847,7 +1913,7 @@
     "Disney Epic Mickey 2 - The Power of Two (Europe) (En,Sv,No,Da,Pl,Cs,Ar,Tr)": {
         "languages": "Ar, Cs, Da, En, No, Pl, Sv, Tr"
     },
-    "Disney Epic Mickey 2 - The Power of Two (USA) (En,Fr,Es,Pt)": {
+    "Disney Epic Mickey 2 - The Power of Two (USA, Korea) (En,Fr,Es,Pt)": {
         "languages": "En, Fr, Pt, Es"
     },
     "Disney G-Force (Europe) (De,It)": {
@@ -1925,6 +1991,9 @@
     "Disney TRON - Evolution (Europe) (En,Fr,De,Es,It,Nl,Pl,Ru)": {
         "languages": "Nl, En, Fr, De, It, Pl, Ru, Es"
     },
+    "Disney TRON - Evolution (Europe) (Pl,Ru)": {
+        "languages": "Pl, Ru"
+    },
     "Disney TRON - Evolution (USA) (En,Fr,Es)": {
         "languages": "En, Fr, Es"
     },
@@ -1934,13 +2003,16 @@
     "Disney Universe (Europe) (Pl,Ru)": {
         "languages": "Pl, Ru"
     },
+    "Disney Universe (USA, Korea) (En,Fr,Es)": {
+        "languages": "En, Fr, Es"
+    },
     "Disney-Pixar Brave (Europe) (En,Fr,De,Es,It,Nl)": {
         "languages": "Nl, En, Fr, De, It, Es"
     },
     "Disney-Pixar Brave (Europe) (Pl,Ru)": {
         "languages": "Pl, Ru"
     },
-    "Disney-Pixar Brave (USA) (En,Fr,Es)": {
+    "Disney-Pixar Brave (USA, Asia) (En,Fr,Es)": {
         "languages": "En, Fr, Es"
     },
     "Disney-Pixar Cars - Mater-National Championship (Europe) (En,Fr,De,Es,It,Nl)": {
@@ -1966,6 +2038,9 @@
     },
     "Disney-Pixar Cars 3 - Driven to Win (Europe) (En,Fr,De,Es,It,Nl,Pl,Ru)": {
         "languages": "Nl, En, Fr, De, It, Pl, Ru, Es"
+    },
+    "Disney-Pixar Istoriya igrushek. Bol'shoj pobeg (Russia)": {
+        "languages": "Ru"
     },
     "Disney-Pixar Oben (Germany)": {
         "languages": "De"
@@ -2012,6 +2087,9 @@
     "Disney-Pixar WALL-E (Europe) (It,El)": {
         "languages": "El, It"
     },
+    "Disney-Pixar WALL-E (Russia)": {
+        "languages": "Ru"
+    },
     "Disney-Pixar WALL-E (UK)": {
         "languages": "En"
     },
@@ -2023,6 +2101,9 @@
     },
     "DmC - Devil May Cry (Europe) (En,Fr,De,Es,It,Nl,Pt,Pl,Ru) (Beta)": {
         "languages": "Nl, En, Fr, De, It, Pl, Pt, Ru, Es"
+    },
+    "DmC - Devil May Cry (Japan) (En,Ja)": {
+        "languages": "En, Ja"
     },
     "DmC - Devil May Cry (USA) (En,Fr,De,Es,It,Nl,Pt,Pl,Ru)": {
         "languages": "Nl, En, Fr, De, It, Pl, Pt, Ru, Es"
@@ -2057,6 +2138,9 @@
     "Dragon Age - Inquisition (USA) (En,Fr,Es)": {
         "languages": "En, Fr, Es"
     },
+    "Dragon Age - Nachalo (Russia)": {
+        "languages": "Ru"
+    },
     "Dragon Age - Origins (Europe, Australia) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
@@ -2080,6 +2164,9 @@
     },
     "Dragon Ball - Raging Blast (USA) (En,Fr,Es)": {
         "languages": "En, Fr, Es"
+    },
+    "Dragon Ball - Raging Blast 2 (Europe) (En,Fr,De,Es,It) (v01.00)": {
+        "languages": "En, Fr, De, It, Es"
     },
     "Dragon Ball - Raging Blast 2 (Europe) (En,Fr,De,Es,It) (v02.00)": {
         "languages": "En, Fr, De, It, Es"
@@ -2230,6 +2317,9 @@
     },
     "Driver - San Francisco (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da)": {
         "languages": "Da, Nl, En, Fr, De, It, No, Es, Sv"
+    },
+    "Driver - San Francisco (Europe) (Pl,Ru)": {
+        "languages": "Pl, Ru"
     },
     "Driver - San Francisco (Japan) (En,Ja)": {
         "languages": "En, Ja"
@@ -2438,6 +2528,9 @@
     "Enemy Territory - Quake Wars (USA) (En,Fr)": {
         "languages": "En, Fr"
     },
+    "Enslaved - Odyssey to the West (Europe) (En,Fr,De,Es,It)": {
+        "languages": "En, Fr, De, It, Es"
+    },
     "Enslaved - Odyssey to the West (USA) (En,Fr,Es)": {
         "languages": "En, Fr, Es"
     },
@@ -2534,11 +2627,17 @@
     "F.E.A.R. 2 - Project Origin (USA) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
+    "F.E.A.R. 3 (Europe) (En,Ja,Fr,De,Es,It,Pt,Ko,Pl,Ru)": {
+        "languages": "En, Fr, De, It, Ja, Ko, Pl, Pt, Ru, Es"
+    },
     "F.E.A.R. 3 (Germany) (En,Ja,Fr,De,Es,It,Pt,Ko,Pl,Ru)": {
         "languages": "En, Fr, De, It, Ja, Ko, Pl, Pt, Ru, Es"
     },
     "F1 2010 (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
+    },
+    "F1 2010 (Europe) (Pl,Ru)": {
+        "languages": "Pl, Ru"
     },
     "F1 2010 (USA) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
@@ -2551,6 +2650,9 @@
     },
     "F1 2012 (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
+    },
+    "F1 2012 (Europe) (Pl,Ru)": {
+        "languages": "Pl, Ru"
     },
     "F1 2012 (Japan)": {
         "languages": ""
@@ -2576,6 +2678,9 @@
     "FIFA 08 (Europe) (En,Fr,De,Es,It,Nl,Sv)": {
         "languages": "Nl, En, Fr, De, It, Es, Sv"
     },
+    "FIFA 08 (Russia)": {
+        "languages": "Ru"
+    },
     "FIFA 08 (UK)": {
         "languages": "En"
     },
@@ -2589,6 +2694,9 @@
         "languages": ""
     },
     "FIFA 10 (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Pl,Ru,Cs,Hu) (Demo)": {
+        "languages": "Cs, Da, Nl, En, Fr, De, Hu, It, No, Pl, Pt, Ru, Es, Sv"
+    },
+    "FIFA 10 (Europe, Asia) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Pl,Ru,Cs,Hu)": {
         "languages": "Cs, Da, Nl, En, Fr, De, Hu, It, No, Pl, Pt, Ru, Es, Sv"
     },
     "FIFA 10 - World Class Soccer (Japan)": {
@@ -2714,6 +2822,9 @@
     "Fallout - New Vegas (Europe)": {
         "languages": "En"
     },
+    "Fallout - New Vegas (France)": {
+        "languages": "Fr"
+    },
     "Fallout - New Vegas (Germany)": {
         "languages": "De"
     },
@@ -2774,6 +2885,9 @@
     "Fallout 3 - Game of the Year Edition (Canada) (En,Fr)": {
         "languages": "En, Fr"
     },
+    "Fallout 3 - Game of the Year Edition (France)": {
+        "languages": "Fr"
+    },
     "Fallout 3 - Game of the Year Edition (Italy)": {
         "languages": "It"
     },
@@ -2806,6 +2920,9 @@
     },
     "Far Cry 2 (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
+    },
+    "Far Cry 2 (Europe) (Pl,Ru)": {
+        "languages": "Pl, Ru"
     },
     "Far Cry 3 (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da)": {
         "languages": "Da, Nl, En, Fr, De, It, No, Pt, Es, Sv"
@@ -2843,6 +2960,9 @@
     "Fast & Furious - Showdown (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
+    "Fast & Furious - Showdown (Russia)": {
+        "languages": "Ru"
+    },
     "Fast & Furious - Showdown (USA) (En,Fr)": {
         "languages": "En, Fr"
     },
@@ -2854,6 +2974,9 @@
     },
     "Ferrari Challenge - Trofeo Pirelli with Supercar Challenge (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
+    },
+    "Fight Night Champion (Europe) (En,Fr,De)": {
+        "languages": "En, Fr, De"
     },
     "Fight Night Champion (USA) (En,Fr)": {
         "languages": "En, Fr"
@@ -3041,6 +3164,9 @@
     "Ghostbusters - The Video Game (USA) (En,Fr,De,Es,It,Nl)": {
         "languages": "Nl, En, Fr, De, It, Es"
     },
+    "God of War - Ascension (Europe, Australia) (En,Fr,De,Es,It,Nl,Pt,Pl,Ru,El,Tr)": {
+        "languages": "Nl, En, Fr, De, El, It, Pl, Pt, Ru, Es, Tr"
+    },
     "God of War - Ascension (Japan) (En,Ja)": {
         "languages": "En, Ja"
     },
@@ -3070,6 +3196,9 @@
     },
     "God of War Collection - Volume II (Europe) (En,Fr,De,Es,It,Pl,Ru)": {
         "languages": "En, Fr, De, It, Pl, Ru, Es"
+    },
+    "God of War III (Asia) (En,Zh)": {
+        "languages": "Zh, En"
     },
     "God of War III (Europe) (En,Fr,De,Es,It,Nl,Pt,Pl,Ru)": {
         "languages": "Nl, En, Fr, De, It, Pl, Pt, Ru, Es"
@@ -3145,6 +3274,9 @@
     },
     "Gran Turismo 6 (Brazil) (En,Es,Pt)": {
         "languages": "En, Pt, Es"
+    },
+    "Gran Turismo 6 (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt,Pl,Ru,El,Cs,Hu,Tr)": {
+        "languages": "Cs, Nl, En, Fr, De, El, Hu, It, Ja, Pl, Pt, Ru, Es, Tr"
     },
     "Gran Turismo 6 (Japan)": {
         "languages": ""
@@ -3226,6 +3358,9 @@
     },
     "Grid 2 (Europe)": {
         "languages": "En"
+    },
+    "Grid 2 (Europe) (Fr,De,Es,It,Pl)": {
+        "languages": "Fr, De, It, Pl, Es"
     },
     "Grid 2 (USA) (En,Fr,Es,Pt)": {
         "languages": "En, Fr, Pt, Es"
@@ -3320,6 +3455,9 @@
     "Hakuoki - Stories of the Shinsengumi (USA)": {
         "languages": "En"
     },
+    "Hakuouki - Reimeiroku Nagorigusa (Japan)": {
+        "languages": "Ja"
+    },
     "Handball 16 (Europe) (En,Fr,De,Es,Pt,Da)": {
         "languages": "Da, En, Fr, De, Pt, Es"
     },
@@ -3392,6 +3530,9 @@
     "Haze (Japan)": {
         "languages": ""
     },
+    "Haze (Russia)": {
+        "languages": "Ru"
+    },
     "Haze (USA) (En,Fr,Es)": {
         "languages": "En, Fr, Es"
     },
@@ -3421,6 +3562,9 @@
     },
     "Heavy Rain (USA) (En,Fr,Es,Pt)": {
         "languages": "En, Fr, Pt, Es"
+    },
+    "Heavy Rain - Edition Modifiee (France) (En,Fr,De,Es,It,Nl,Pt)": {
+        "languages": "Nl, En, Fr, De, It, Pt, Es"
     },
     "Heavy Rain - Move Edition (UK)": {
         "languages": "En"
@@ -3869,6 +4013,9 @@
     "Kidou Senshi Gundam Senki (Japan, Asia)": {
         "languages": "Ja"
     },
+    "Kidou Senshi Gundam UC (Japan)": {
+        "languages": "Ja"
+    },
     "Killer Is Dead (Europe) (En,Ja,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Ja, Es"
     },
@@ -3877,6 +4024,9 @@
     },
     "Killzone (Europe) (En,Fr,De,Es,It,Nl)": {
         "languages": "Nl, En, Fr, De, It, Es"
+    },
+    "Killzone 2 (Asia) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Ko,Pl,Ru)": {
+        "languages": "Zh, Da, Nl, En, Fi, Fr, De, It, Ja, Ko, No, Pl, Pt, Ru, Es, Sv"
     },
     "Killzone 2 (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru)": {
         "languages": "Da, Nl, En, Fi, Fr, De, It, No, Pl, Pt, Ru, Es, Sv"
@@ -3965,6 +4115,9 @@
     "LEGO Batman - The Videogame (Japan)": {
         "languages": "Ja"
     },
+    "LEGO Batman - The Videogame (USA) (En,Fr,Es)": {
+        "languages": "En, Fr, Es"
+    },
     "LEGO Batman 2 - DC Super Heroes (Europe) (En,Fr,De,Es,It,Nl,Da,Pl,Ru)": {
         "languages": "Da, Nl, En, Fr, De, It, Pl, Ru, Es"
     },
@@ -3996,6 +4149,9 @@
         "languages": "Da, En, Fr, De, It, Es"
     },
     "LEGO Harry Potter - Years 1-4 (USA) (En,Fr,De,Es,It,Da) (v01.01)": {
+        "languages": "Da, En, Fr, De, It, Es"
+    },
+    "LEGO Harry Potter - Years 1-4 (USA) (En,Fr,De,Es,It,Da) (v03.00)": {
         "languages": "Da, En, Fr, De, It, Es"
     },
     "LEGO Harry Potter - Years 5-7 (Europe) (En,Pl,Ru)": {
@@ -4030,6 +4186,9 @@
     },
     "LEGO Marvel Super Heroes (USA) (En,Fr,Es,Pt)": {
         "languages": "En, Fr, Pt, Es"
+    },
+    "LEGO Movie - The Game (Japan)": {
+        "languages": "Ja"
     },
     "LEGO Movie, The - Videogame (Europe) (En,Fr,Es,It,Nl,Da,Pl,Ru) (v01.00)": {
         "languages": "Da, Nl, En, Fr, It, Pl, Ru, Es"
@@ -4118,6 +4277,9 @@
     "Last of Us, The (USA) (En,Fr,Es,Pt)": {
         "languages": "En, Fr, Pt, Es"
     },
+    "Lednikovyj period 3 - E'ra dinozavrov (Russia)": {
+        "languages": "Ru"
+    },
     "Legend of Heroes, The - Trails of Cold Steel (USA)": {
         "languages": "En"
     },
@@ -4126,6 +4288,9 @@
     },
     "Legend of Spyro, The - Dawn of the Dragon (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da,Fi)": {
         "languages": "Da, Nl, En, Fi, Fr, De, It, No, Es, Sv"
+    },
+    "Legend of Spyro, The - Dawn of the Dragon (Russia) (En,Ru)": {
+        "languages": "En, Ru"
     },
     "Legend of Spyro, The - Dawn of the Dragon (USA) (En,Fr,De,Es,It,Nl,Sv,No,Da,Fi)": {
         "languages": "Da, Nl, En, Fi, Fr, De, It, No, Es, Sv"
@@ -4199,11 +4364,17 @@
     "LittleBigPlanet 2 - Extras Edition (UK)": {
         "languages": "En"
     },
+    "LittleBigPlanet 3 (Brazil) (En,Es,Pt)": {
+        "languages": "En, Pt, Es"
+    },
     "LittleBigPlanet 3 (UK)": {
         "languages": "En"
     },
     "LittleBigPlanet 3 (USA) (En,Fr)": {
         "languages": "En, Fr"
+    },
+    "LittleBigPlanet Karting (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru)": {
+        "languages": "Da, Nl, En, Fi, Fr, De, It, No, Pl, Pt, Ru, Es, Sv"
     },
     "LittleBigPlanet Karting (USA) (En,Fr,Es,Pt)": {
         "languages": "En, Fr, Pt, Es"
@@ -4211,8 +4382,14 @@
     "Lollipop Chainsaw (Europe) (En,Fr,De,Es,It,Pt,Ru)": {
         "languages": "En, Fr, De, It, Pt, Ru, Es"
     },
+    "Lollipop Chainsaw (Japan)": {
+        "languages": "Ja"
+    },
     "Lollipop Chainsaw (USA) (En,Fr,De,Es,It,Ru)": {
         "languages": "En, Fr, De, It, Ru, Es"
+    },
+    "Lollipop Chainsaw - Premium Edition (Japan) (En,Ja)": {
+        "languages": "En, Ja"
     },
     "London 2012 (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
@@ -4234,6 +4411,9 @@
     },
     "Lord of the Rings, The - Conquest (Europe) (En,Fr,De,Es,It,Sv,No)": {
         "languages": "En, Fr, De, It, No, Es, Sv"
+    },
+    "Lord of the Rings, The - War in the North (Asia) (En,Fr,Pt)": {
+        "languages": "En, Fr, Pt"
     },
     "Lost (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
@@ -4306,6 +4486,9 @@
     },
     "MX vs. ATV Alive (USA) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
+    },
+    "MX vs. ATV Extreme Limite (France)": {
+        "languages": "Fr"
     },
     "MX vs. ATV Reflex (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
@@ -4499,6 +4682,9 @@
     "Max Payne 3 (Germany) (En,De)": {
         "languages": "En, De"
     },
+    "Max Payne 3 (Japan)": {
+        "languages": "Ja"
+    },
     "Max Payne 3 (USA) (En,Fr,Es)": {
         "languages": "En, Fr, Es"
     },
@@ -4610,8 +4796,14 @@
     "Metal Gear Solid V - Ground Zeroes (Europe) (En,Ja,Fr,De,Es,It,Pt,Ru)": {
         "languages": "En, Fr, De, It, Ja, Pt, Ru, Es"
     },
+    "Metal Gear Solid V - Ground Zeroes (Japan) (En,Ja)": {
+        "languages": "En, Ja"
+    },
     "Metal Gear Solid V - The Phantom Pain (Europe) (En,Ja,Fr,De,Es,It,Pt,Ru)": {
         "languages": "En, Fr, De, It, Ja, Pt, Ru, Es"
+    },
+    "Metal Gear Solid V - The Phantom Pain (Japan) (En,Ja)": {
+        "languages": "En, Ja"
     },
     "Metal Gear Solid V - The Phantom Pain (USA) (En,Ja,Fr,De,Es,It,Pt,Ru)": {
         "languages": "En, Fr, De, It, Ja, Pt, Ru, Es"
@@ -4874,7 +5066,10 @@
     "Musou Orochi Z (Asia)": {
         "languages": "Zh"
     },
-    "Musou Orochi Z (Japan)": {
+    "Musou Orochi Z (Japan) (v01.01)": {
+        "languages": "Ja"
+    },
+    "Musou Orochi Z (Japan) (v02.01)": {
         "languages": "Ja"
     },
     "Mussang Orochi Z (Korea)": {
@@ -4998,6 +5193,9 @@
         "languages": "En"
     },
     "NBA Live 09 (Europe) (En,Fr,De,Es,It)": {
+        "languages": "En, Fr, De, It, Es"
+    },
+    "NBA Live 10 (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
     "NBA Live 10 (USA) (En,Fr)": {
@@ -5150,6 +5348,9 @@
     "Natural Doctrine (Europe)": {
         "languages": "En"
     },
+    "Natural Doctrine (Japan)": {
+        "languages": ""
+    },
     "Naughty Bear (Europe) (En,Fr,De,Es,It) (v01.02)": {
         "languages": "En, Fr, De, It, Es"
     },
@@ -5177,6 +5378,9 @@
     "Need for Speed - Most Wanted (Europe) (En,Fr,De,Es,It,Nl,Pl,Ru,Ar)": {
         "languages": "Ar, Nl, En, Fr, De, It, Pl, Ru, Es"
     },
+    "Need for Speed - Most Wanted (Japan)": {
+        "languages": "Ja"
+    },
     "Need for Speed - Most Wanted (USA) (Beta)": {
         "languages": ""
     },
@@ -5185,6 +5389,9 @@
     },
     "Need for Speed - ProStreet (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da,Fi)": {
         "languages": "Da, Nl, En, Fi, Fr, De, It, No, Es, Sv"
+    },
+    "Need for Speed - ProStreet (Japan)": {
+        "languages": "Ja"
     },
     "Need for Speed - ProStreet (Russia)": {
         "languages": "Ru"
@@ -5197,6 +5404,12 @@
     },
     "Need for Speed - Rivals (Europe) (En,Fr,De,Es,It,Nl,Pl,Ru)": {
         "languages": "Nl, En, Fr, De, It, Pl, Ru, Es"
+    },
+    "Need for Speed - Rivals (Japan) (En,Ja)": {
+        "languages": "En, Ja"
+    },
+    "Need for Speed - Shift (Japan)": {
+        "languages": "Ja"
     },
     "Need for Speed - Shift (UK)": {
         "languages": "En"
@@ -5212,6 +5425,9 @@
     },
     "Need for Speed - Undercover (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da,Fi,Pl,Ru,Cs,Hu)": {
         "languages": "Cs, Da, Nl, En, Fi, Fr, De, Hu, It, No, Pl, Ru, Es, Sv"
+    },
+    "Need for Speed - Undercover (Japan)": {
+        "languages": "Ja"
     },
     "Need for Speed - Undercover (UK)": {
         "languages": "En"
@@ -5240,6 +5456,9 @@
     "Ni no Kuni - Wrath of the White Witch (USA) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
+    "Nickelodeon Gubka Bob Kvadratnye Shtany - Plankton. Mest' robotov (Russia)": {
+        "languages": "Ru"
+    },
     "Nickelodeon SpongeBob SquarePants - Plankton's Robotic Revenge (Europe) (En,Fr,De,Es,It,Nl,Sv)": {
         "languages": "Nl, En, Fr, De, It, Es, Sv"
     },
@@ -5248,6 +5467,9 @@
     },
     "Nickelodeon Teenage Mutant Ninja Turtles - Danger of the Ooze (USA) (En,Fr)": {
         "languages": "En, Fr"
+    },
+    "NieR Replicant (Japan)": {
+        "languages": "Ja"
     },
     "Nier (USA) (En,Fr,De)": {
         "languages": "En, Fr, De"
@@ -5285,6 +5507,9 @@
     "Nitroplus Blasterz - Heroines Infinite Duel (Japan)": {
         "languages": "Ja"
     },
+    "No More Heroes - Eiyuu-tachi no Rakuen (Japan)": {
+        "languages": "Ja"
+    },
     "No More Heroes - Heroes' Paradise (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
@@ -5296,6 +5521,12 @@
     },
     "Nobunaga no Yabou - Tendou (Japan)": {
         "languages": "Ja"
+    },
+    "Nobunaga no Yabou - Tendou with Power-Up Kit (Japan)": {
+        "languages": "Ja"
+    },
+    "Novyj Chelovek-Pauk (Russia)": {
+        "languages": "Ru"
     },
     "Nurarihyon no Mago - Hyakki Ryouran Taisen (Japan)": {
         "languages": "Ja"
@@ -5480,11 +5711,17 @@
     "Official PlayStation Magazine Issue 83 - May 2013 (Europe)": {
         "languages": ""
     },
+    "One Piece - Kaizoku Musou (Japan, Asia)": {
+        "languages": "Ja"
+    },
     "One Piece - Kaizoku Musou 2 (Japan)": {
         "languages": "Ja"
     },
     "One Piece - Kaizoku Musou 3 (Japan)": {
         "languages": ""
+    },
+    "One Piece - Pirate Warriors (Europe) (En,Fr,De,Es,It) (v01.01)": {
+        "languages": "En, Fr, De, It, Es"
     },
     "One Piece - Pirate Warriors + One Piece - Pirate Warriors 2 (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
@@ -5678,6 +5915,9 @@
     "Persona 4 - The Ultimate in Mayonaka Arena (Japan) (En,Ja)": {
         "languages": "En, Ja"
     },
+    "Persona 4 - The Ultimax Ultra Suplex Hold (Japan)": {
+        "languages": "Ja"
+    },
     "Persona 4 Arena (Europe) (En,Ja)": {
         "languages": "En, Ja"
     },
@@ -5689,6 +5929,9 @@
     },
     "Persona 4 Arena Ultimax (USA)": {
         "languages": "En"
+    },
+    "Persona 5 (Japan)": {
+        "languages": "Ja"
     },
     "Pictionary - Ultimate Edition (Europe, Australia) (En,Fr,De,Es,It,Nl)": {
         "languages": "Nl, En, Fr, De, It, Es"
@@ -5713,6 +5956,9 @@
     },
     "Plants vs. Zombies - Garden Warfare (USA) (En,Ja,Fr,De,Es,It,Pt)": {
         "languages": "En, Fr, De, It, Ja, Pt, Es"
+    },
+    "PlayStation 3 Big Hit Titles' Demo Collection (Asia)": {
+        "languages": ""
     },
     "PlayStation 3 Big Hit Titles' Demo Collection Vol. 2 (Asia)": {
         "languages": ""
@@ -5789,6 +6035,9 @@
     "Prince of Persia (Europe) (En,Fr,De,Es,It,Nl)": {
         "languages": "Nl, En, Fr, De, It, Es"
     },
+    "Prince of Persia (Europe) (Pl,Ru)": {
+        "languages": "Pl, Ru"
+    },
     "Prince of Persia (USA) (En,Fr,De,Es,It,Nl)": {
         "languages": "Nl, En, Fr, De, It, Es"
     },
@@ -5828,6 +6077,9 @@
     "Pro Yakyuu Spirits 2013 (Japan)": {
         "languages": "Ja"
     },
+    "Pro Yakyuu Spirits 4 (Japan)": {
+        "languages": "Ja"
+    },
     "Pro Yakyuu Spirits 5 (Japan)": {
         "languages": ""
     },
@@ -5845,6 +6097,9 @@
     },
     "Prototype 2 (Poland)": {
         "languages": "Pl"
+    },
+    "Prototype 2 (Russia)": {
+        "languages": "Ru"
     },
     "Prototype 2 (USA) (En,Fr)": {
         "languages": "En, Fr"
@@ -5899,6 +6154,9 @@
     },
     "Rage (Europe) (Fr,De,Es,It)": {
         "languages": "Fr, De, It, Es"
+    },
+    "Rage (Russia)": {
+        "languages": "Ru"
     },
     "Rage (USA) (En,Fr,Es)": {
         "languages": "En, Fr, Es"
@@ -5996,6 +6254,9 @@
     "Rayman Legends (USA) (En,Fr,Es,Pt)": {
         "languages": "En, Fr, Pt, Es"
     },
+    "Rayman Legends + Rayman Origins (Russia) (En,Pl,Ru)": {
+        "languages": "En, Pl, Ru"
+    },
     "Rayman Origins (Europe) (En,Fr,De,Es,It,Nl)": {
         "languages": "Nl, En, Fr, De, It, Es"
     },
@@ -6010,6 +6271,9 @@
     },
     "Record of Agarest War Zero (USA)": {
         "languages": "En"
+    },
+    "Red Dead Redemption (Europe) (En,Fr,De,Es,It)": {
+        "languages": "En, Fr, De, It, Es"
     },
     "Red Dead Redemption - Game of the Year Edition (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
@@ -6034,6 +6298,9 @@
     },
     "Red Faction - Guerrilla (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
+    },
+    "Red Faction - Guerrilla (Europe) (En,Pl,Ru,Cs,Ar)": {
+        "languages": "Ar, Cs, En, Pl, Ru"
     },
     "Red Faction - Guerrilla (UK)": {
         "languages": "En"
@@ -6089,6 +6356,9 @@
     "Resistance 2 (Asia) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Ko)": {
         "languages": "Da, Nl, En, Fi, Fr, De, It, Ja, Ko, No, Pt, Es, Sv"
     },
+    "Resistance 2 (Japan) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Ko)": {
+        "languages": "Da, Nl, En, Fi, Fr, De, It, Ja, Ko, No, Pt, Es, Sv"
+    },
     "Resistance 3 (Asia) (En,Ko)": {
         "languages": "En, Ko"
     },
@@ -6116,8 +6386,8 @@
     "Ridge Racer 7 (Europe) (En,Ja,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Ja, Es"
     },
-    "Ridge Racer 7 (Japan)": {
-        "languages": ""
+    "Ridge Racer 7 (Japan) (En,Ja)": {
+        "languages": "En, Ja"
     },
     "Ridge Racer 7 (USA) (En,Ja)": {
         "languages": "En, Ja"
@@ -6130,6 +6400,9 @@
     },
     "Rio (Europe) (En,Fr,De,Es,It,Nl,Sv,Da)": {
         "languages": "Da, Nl, En, Fr, De, It, Es, Sv"
+    },
+    "Rio (Russia)": {
+        "languages": "En"
     },
     "Rio (USA) (En,Fr,Es)": {
         "languages": "En, Fr, Es"
@@ -6154,6 +6427,9 @@
     },
     "Risen 3 - Titan Lords (USA) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
+    },
+    "Robert Ludlum's Konspiraciya Borna (Russia) (En,Ru)": {
+        "languages": "En, Ru"
     },
     "Robotics;Notes (Japan)": {
         "languages": "Ja"
@@ -6296,6 +6572,9 @@
     "Saboteur, The (Europe) (En,Fr,De,It,Pl,Ru)": {
         "languages": "En, Fr, De, It, Pl, Ru"
     },
+    "Saboteur, The (France)": {
+        "languages": "Fr"
+    },
     "Saboteur, The (Germany)": {
         "languages": "De"
     },
@@ -6377,7 +6656,7 @@
     "Samurai Dou 3 Plus (Japan)": {
         "languages": "Ja"
     },
-    "Samurai Dou 4 (Asia)": {
+    "Samurai Dou 4 (Japan, Asia)": {
         "languages": "Ja"
     },
     "Samurai Dou 4 Plus (Japan)": {
@@ -6415,6 +6694,9 @@
     },
     "Sega Mega Drive Ultimate Collection (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
+    },
+    "Sega Rally (Russia)": {
+        "languages": "Ru"
     },
     "Sega Rally Revo (USA) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
@@ -6527,11 +6809,17 @@
     "Shin Sangoku Musou 6 - Empires (Asia)": {
         "languages": "Zh"
     },
+    "Shin Sangoku Musou 6 - Empires (Japan)": {
+        "languages": ""
+    },
     "Shin Sangoku Musou 6 - Moushouden (Japan)": {
         "languages": "Ja"
     },
     "Shin Sangoku Musou 7 (Japan)": {
         "languages": "Ja"
+    },
+    "Shin Sangoku Musou 7 - Moushouden (Japan)": {
+        "languages": ""
     },
     "Shining Resonance (Japan)": {
         "languages": ""
@@ -6650,6 +6938,9 @@
     "SingStar Hits (France) (En,Fr,De,Es,It,Nl,Sv,No,Da,Fi)": {
         "languages": "Da, Nl, En, Fi, Fr, De, It, No, Es, Sv"
     },
+    "SingStar Hits 2 (France) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Ru)": {
+        "languages": "Da, Nl, En, Fi, Fr, De, It, No, Pt, Ru, Es, Sv"
+    },
     "SingStar Intro (Italy) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru)": {
         "languages": "Da, Nl, En, Fi, Fr, De, It, No, Pl, Pt, Ru, Es, Sv"
     },
@@ -6749,6 +7040,9 @@
     "Siren - Blood Curse (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
+    "Siren - New Translation (Asia) (En,Ja)": {
+        "languages": "En, Ja"
+    },
     "Siren - New Translation (Japan)": {
         "languages": "Ja"
     },
@@ -6814,6 +7108,9 @@
     },
     "Sleeping Dogs (Europe) (Es,It)": {
         "languages": "It, Es"
+    },
+    "Sleeping Dogs (Europe) (Pl,Ru)": {
+        "languages": "Pl, Ru"
     },
     "Sleeping Dogs (Germany) (En,Fr,De)": {
         "languages": "En, Fr, De"
@@ -7004,11 +7301,17 @@
     "Splatterhouse (USA) (En,Fr,Es)": {
         "languages": "En, Fr, Es"
     },
+    "Split-Second (Asia) (En,Fr,Es)": {
+        "languages": "En, Fr, Es"
+    },
     "Split-Second (USA) (En,Fr,Es)": {
         "languages": "En, Fr, Es"
     },
     "Split-Second - Velocity (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
+    },
+    "Split-Second - Velocity (Russia)": {
+        "languages": "Ru"
     },
     "Sports Champions (Asia) (En,Zh)": {
         "languages": "Zh, En"
@@ -7083,7 +7386,7 @@
         "languages": "Da, Nl, En, Fi, Fr, De, It, No, Pl, Pt, Ru, Es, Sv"
     },
     "Starhawk (UK)": {
-        "languages": ""
+        "languages": "En"
     },
     "Start the Party! (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru)": {
         "languages": "Da, Nl, En, Fi, Fr, De, It, No, Pl, Pt, Ru, Es, Sv"
@@ -7111,6 +7414,9 @@
     },
     "Stormrise (Germany) (En,De)": {
         "languages": "En, De"
+    },
+    "Stormrise (Russia)": {
+        "languages": "Ru"
     },
     "Street Fighter IV (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
@@ -7595,6 +7901,9 @@
     "Transformers - Devastation (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
+    "Transformers - Fall of Cybertron (Europe, Australia) (En,Fr,De,Es,It)": {
+        "languages": "En, Fr, De, It, Es"
+    },
     "Transformers - Fall of Cybertron (USA) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
@@ -7684,6 +7993,9 @@
     },
     "UEFA Euro 2008 - Austria-Switzerland (USA) (En,Fr)": {
         "languages": "En, Fr"
+    },
+    "UEFA Euro 2016 - PES 2016 - Pro Evolution Soccer (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,Ru,El,Tr)": {
+        "languages": "Nl, En, Fr, De, El, It, Pt, Ru, Es, Sv, Tr"
     },
     "UFC Personal Trainer - The Ultimate Fitness System (Europe) (En,Fr,De,Es,Nl)": {
         "languages": "Nl, En, Fr, De, Es"
@@ -8198,6 +8510,9 @@
     "World Series of Poker 2008 - Battle for the Bracelets (USA)": {
         "languages": "En"
     },
+    "World Soccer Winning Eleven 2008 (Japan, Asia) (En,Ja)": {
+        "languages": "En, Ja"
+    },
     "World Soccer Winning Eleven 2009 (Japan) (En,Ja) (Taikenban Adidas Edition)": {
         "languages": "En, Ja"
     },
@@ -8212,6 +8527,9 @@
     },
     "World Soccer Winning Eleven 2012 (Japan)": {
         "languages": "Ja"
+    },
+    "World Soccer Winning Eleven 2013 (Japan) (En,Ja)": {
+        "languages": "En, Ja"
     },
     "World Soccer Winning Eleven 2014 (Asia) (En,Zh)": {
         "languages": "Zh, En"
@@ -8302,6 +8620,9 @@
     },
     "Yoostar 2 - In the Movies (USA) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
+    },
+    "Yoru no Nai Kuni (Japan)": {
+        "languages": "Ja"
     },
     "Young Justice - Legacy (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi)": {
         "languages": "Da, Nl, En, Fi, Fr, De, It, No, Pt, Es, Sv"

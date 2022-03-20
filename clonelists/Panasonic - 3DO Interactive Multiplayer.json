@@ -3,7 +3,7 @@
 		"name": [
 			"Panasonic - 3DO Interactive Multiplayer"
 		],
-		"last updated": "2 January 2022",
+		"last updated": "20 March 2022",
 		"minimum version": "0.92"
 	},
 
@@ -36,6 +36,9 @@
 		],
 		"Blood Angels": [
 			["Space Hulk - Vengeance of the Blood Angels", 1]
+		],
+		"Bust-A-Move": [
+			["Puzzle Bobble", 1]
 		],
 		"Crash 'n Burn (Not for Resale)": [
 			["Crash 'n Burn", 1]
