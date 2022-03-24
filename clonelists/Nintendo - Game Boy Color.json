@@ -3,7 +3,7 @@
 		"name": [
 			"Nintendo - Game Boy Color"
 		],
-		"last updated": "22 October 2021",
+		"last updated": "23 March 2022",
 		"minimum version": "0.92"
 	},
 
@@ -52,6 +52,10 @@
 		],
 		"AirForce Delta": [
 			["Deadly Skies", 1]
+		],
+		"All Star Tennis 2000 (AZTP)": [
+			["All Star Tennis 2000 (AZTX)", 2],
+			["All Star Tennis 2000", 2]
 		],
 		"Azure Dreams": [
 			["Other Life - Azure Dreams GB", 1]
@@ -131,7 +135,13 @@
 			["Dragon Ball Z - Guerreros de Leyenda", 1],
 			["Dragon Ball Z - I Leggendari Super Guerrieri", 1],
 			["Dragon Ball Z - Legendaere Superkaempfer", 1],
-			["Dragon Ball Z - Les Guerriers Legendaires", 1]
+			["Dragon Ball Z - Les Guerriers Legendaires", 1],
+			["Dragon Ball Z - Densetsu no Chou Senshi-tachi (All Unlocked)", 2],
+			["Dragon Ball Z - Guerreros de Leyenda (All Unlocked)", 2],
+			["Dragon Ball Z - I Leggendari Super Guerrieri (All Unlocked)", 2],
+			["Dragon Ball Z - Legendaere Superkaempfer (All Unlocked)", 2],
+			["Dragon Ball Z - Legendary Super Warriors (All Unlocked)", 2],
+			["Dragon Ball Z - Les Guerriers Legendaires (All Unlocked)", 2]
 		],
 		"Dragon Dance": [
 			["Pocket Color Block", 1]
@@ -164,6 +174,7 @@
 			["LNF Stars 2001", 1]
 		],
 		"Game & Watch Gallery 2": [
+			["Game Boy Gallery 2", 1],
 			["Game Boy Gallery 3", 1]
 		],
 		"Game & Watch Gallery 3": [
@@ -211,7 +222,8 @@
 			["Harvest Moon GB", 1]
 		],
 		"Hexcite - The Shapes of Victory": [
-			["Glocal Hexcite", 1]
+			["Glocal Hexcite", 1],
+			["Hexcite", 2]
 		],
 		"Hole in One Golf": [
 			["Golf de Ohasuta", 1]

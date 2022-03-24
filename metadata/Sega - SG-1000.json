@@ -1,23 +1,26 @@
 {
-	"007 James Bond (Taiwan) (Othello Multivision)": {
-		"languages": "Zh"
+	"007 James Bond (Japan) (Othello Multivision) (Alt)": {
+		"languages": "Ja"
 	},
 	"007 James Bond (Japan) (Othello Multivision)": {
 		"languages": "Ja"
 	},
-	"007 James Bond (Japan) (Alt 1) (Othello Multivision)": {
-		"languages": "Ja"
-	},
-	"Bank Panic (Taiwan)": {
+	"007 James Bond (Taiwan) (Othello Multivision) (Unl)": {
 		"languages": "Zh"
+	},
+	"[BIOS] Othello Multivision (Japan)": {
+		"languages": "Ja"
 	},
 	"Bank Panic (Japan)": {
 		"languages": "Ja"
 	},
+	"Bank Panic (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
 	"BASIC Level II (Japan) (SC-3000) (Program)": {
 		"languages": "Ja"
 	},
-	"BASIC Level III (Europe, Australia) (SC-3000) (Program)": {
+	"BASIC Level III (Europe, Australia, New Zealand) (SC-3000) (Program)": {
 		"languages": "En"
 	},
 	"BASIC Level III (Japan) (SC-3000) (Program)": {
@@ -26,143 +29,143 @@
 	"Black Onyx, The (Japan)": {
 		"languages": "Ja"
 	},
-	"Bomb Jack (Japan, Australia)": {
+	"Bomb Jack (Japan, Australia) (Ja)": {
 		"languages": "Ja"
 	},
-	"Bomb Jack (Taiwan) (English Logo)": {
-		"languages": "Zh"
-	},
-	"Bomb Jack (Taiwan) (Chinese Logo)": {
-		"languages": "Zh"
-	},
-	"Bomb Jack (Korea) (English Logo) (Unl)": {
+	"Bomb Jack (Korea) (En) (English Logo) (Unl)": {
 		"languages": "En"
 	},
-	"Bomb Jack (Korea) (Korean Logo) (Unl)": {
+	"Bomb Jack (Korea) (En) (Korean Logo) (Unl)": {
 		"languages": "En"
 	},
-	"Bomberman Special (Taiwan) (English Logo) (Unl)": {
+	"Bomb Jack (Taiwan) (Chinese Logo) (Unl)": {
+		"languages": "Zh"
+	},
+	"Bomb Jack (Taiwan) (English Logo) (Unl)": {
 		"languages": "Zh"
 	},
 	"Bomberman Special (Taiwan) (Chinese Logo) (Unl)": {
 		"languages": "Zh"
 	},
-	"Borderline (Japan, Europe, Australia, New Zealand)": {
-		"languages": "En"
-	},
-	"C_So! (Taiwan)": {
+	"Bomberman Special (Taiwan) (English Logo) (Unl)": {
 		"languages": "Zh"
+	},
+	"Borderline (Japan, Europe, Australia, New Zealand) (En)": {
+		"languages": "En"
 	},
 	"C_So! (Japan)": {
 		"languages": "Ja"
 	},
-	"Cabbage Patch Kids (Taiwan)": {
+	"C_So! (Taiwan) (Unl)": {
 		"languages": "Zh"
 	},
-	"Castle, The (Taiwan) (Unl) (Pirate)": {
+	"Cabbage Patch Kids (Taiwan) (Unl)": {
 		"languages": "Zh"
 	},
 	"Castle, The (Japan)": {
 		"languages": "Ja"
 	},
+	"Castle, The (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
 	"Chack'n Pop (Japan)": {
 		"languages": "Ja"
 	},
-	"Chack'n Pop (Taiwan)": {
+	"Chack'n Pop (Taiwan) (Unl)": {
 		"languages": "Zh"
 	},
 	"Challenge Derby (Japan) (Othello Multivision)": {
 		"languages": "Ja"
 	},
+	"Challenge Derby (Japan) (Rev 1) (Othello Multivision) (Alt)": {
+		"languages": "Ja"
+	},
 	"Challenge Derby (Japan) (Rev 1) (Othello Multivision)": {
 		"languages": "Ja"
-	},
-	"Challenge Derby (Japan) (Rev 1) (Alt 1) (Othello Multivision)": {
-		"languages": "Ja"
-	},
-	"Champion Baseball (Japan, Australia, New Zealand)": {
-		"languages": "Ja"
-	},
-	"Champion Baseball (Taiwan)": {
-		"languages": "Zh"
 	},
 	"Champion Baseball (Japan)": {
 		"languages": "Ja"
 	},
-	"Champion Billiards (Taiwan)": {
+	"Champion Baseball (Japan, Australia, New Zealand) (Ja)": {
+		"languages": "Ja"
+	},
+	"Champion Baseball (Taiwan) (Unl)": {
 		"languages": "Zh"
 	},
 	"Champion Billiards (Japan)": {
 		"languages": "Ja"
 	},
-	"Champion Boxing (Taiwan)": {
+	"Champion Billiards (Taiwan) (Unl)": {
 		"languages": "Zh"
-	},
-	"Champion Boxing (Japan, New Zealand)": {
-		"languages": "Ja"
 	},
 	"Champion Boxing (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
-	"Champion Golf (Japan, Europe, Australia, New Zealand)": {
+	"Champion Boxing (Japan, New Zealand) (Ja)": {
 		"languages": "Ja"
+	},
+	"Champion Boxing (Taiwan) (Unl)": {
+		"languages": "Zh"
 	},
 	"Champion Golf (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
-	"Champion Golf (Korea) (Unl)": {
-		"languages": "En"
+	"Champion Golf (Japan, Europe, Australia, New Zealand) (Ja)": {
+		"languages": "Ja"
 	},
-	"Champion Ice Hockey (Taiwan)": {
-		"languages": "Zh"
+	"Champion Golf (Korea) (En) (Unl)": {
+		"languages": "En"
 	},
 	"Champion Ice Hockey (Japan)": {
 		"languages": "Ja"
 	},
-	"Champion Ice Hockey (Korea) (Unl)": {
+	"Champion Ice Hockey (Korea) (En) (Unl)": {
 		"languages": "En"
 	},
-	"Champion Kendou (Taiwan)": {
+	"Champion Ice Hockey (Taiwan) (Unl)": {
 		"languages": "Zh"
 	},
 	"Champion Kendou (Japan)": {
 		"languages": "Ja"
 	},
+	"Champion Kendou (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
 	"Champion Pro Wrestling (Japan)": {
 		"languages": "Ja"
 	},
-	"Champion Soccer (Japan, Europe)": {
+	"Champion Soccer (Japan, Europe) (Ja)": {
 		"languages": "Ja"
 	},
-	"Champion Soccer (Taiwan)": {
+	"Champion Soccer (Taiwan) (Unl)": {
 		"languages": "Zh"
 	},
-	"Champion Tennis (Japan, Europe, Australia, New Zealand)": {
+	"Champion Tennis (Japan, Europe, Australia, New Zealand) (Ja)": {
 		"languages": "Ja"
 	},
-	"Championship Lode Runner (Taiwan)": {
+	"Championship Lode Runner (Japan, Australia) (Ja)": {
+		"languages": "Ja"
+	},
+	"Championship Lode Runner (Taiwan) (Unl)": {
 		"languages": "Zh"
 	},
-	"Championship Lode Runner (Japan, Australia)": {
+	"Choplifter (Japan, Australia) (Ja) (Beta)": {
 		"languages": "Ja"
 	},
-	"Choplifter (Japan, Australia) (Beta)": {
+	"Choplifter (Japan, Australia) (Ja)": {
 		"languages": "Ja"
 	},
-	"Choplifter (Korea) (Unl)": {
+	"Choplifter (Korea) (En) (Unl)": {
 		"languages": "En"
 	},
-	"Choplifter (Taiwan) (No Logo)": {
+	"Choplifter (Taiwan) (Chinese Logo) (Unl)": {
 		"languages": "Zh"
 	},
-	"Choplifter (Taiwan) (Chinese Logo)": {
+	"Choplifter (Taiwan) (English Logo) (Unl)": {
 		"languages": "Zh"
 	},
-	"Choplifter (Taiwan) (English Logo)": {
+	"Choplifter (Taiwan) (No Logo) (Unl)": {
 		"languages": "Zh"
-	},
-	"Choplifter (Japan, Australia)": {
-		"languages": "Ja"
 	},
 	"Chuugaku Hisshuu Eibunpou - Chuugaku 1-Nen (Japan) (SC-3000) (Program)": {
 		"languages": "Ja"
@@ -170,32 +173,32 @@
 	"Chuugaku Hisshuu Eibunpou - Chuugaku 2-Nen (Japan) (SC-3000) (Program)": {
 		"languages": "Ja"
 	},
+	"Chuugaku Hisshuu Eisakubun - Chuugaku 1-Nen (Japan) (SC-3000) (Program) (Alt)": {
+		"languages": "Ja"
+	},
 	"Chuugaku Hisshuu Eisakubun - Chuugaku 1-Nen (Japan) (SC-3000) (Program)": {
 		"languages": "Ja"
 	},
-	"Chuugaku Hisshuu Eisakubun - Chuugaku 1-Nen (Japan) (Alt 1) (SC-3000) (Program)": {
+	"Chuugaku Hisshuu Eisakubun - Chuugaku 2-Nen (Japan) (SC-3000) (Program) (Alt)": {
 		"languages": "Ja"
 	},
 	"Chuugaku Hisshuu Eisakubun - Chuugaku 2-Nen (Japan) (SC-3000) (Program)": {
 		"languages": "Ja"
 	},
-	"Chuugaku Hisshuu Eisakubun - Chuugaku 2-Nen (Japan) (Alt 1) (SC-3000) (Program)": {
-		"languages": "Ja"
-	},
 	"Chuugaku Hisshuu Eitango - Chuugaku 1-Nen (Japan) (SC-3000) (Program)": {
 		"languages": "Ja"
 	},
-	"Chuugaku Hisshuu Eitango - Chuugaku 2-Nen (Japan) (Alt 1) (SC-3000) (Program)": {
+	"Chuugaku Hisshuu Eitango - Chuugaku 2-Nen (Japan) (SC-3000) (Program) (Alt)": {
 		"languages": "Ja"
 	},
 	"Chuugaku Hisshuu Eitango - Chuugaku 2-Nen (Japan) (SC-3000) (Program)": {
 		"languages": "Ja"
 	},
-	"Circus Charlie (Taiwan)": {
-		"languages": "Zh"
-	},
 	"Circus Charlie (Korea) (Unl)": {
 		"languages": "Ko"
+	},
+	"Circus Charlie (Taiwan) (Unl)": {
+		"languages": "Zh"
 	},
 	"Complete Arcade Pack Collection, The (New Zealand) (SF-7000)": {
 		"languages": "En"
@@ -203,14 +206,17 @@
 	"Congo Bongo (Japan)": {
 		"languages": "Ja"
 	},
-	"Congo Bongo (Japan, Europe, Australia, New Zealand) (Rev 1)": {
-		"languages": "En"
-	},
-	"Congo Bongo (Japan) (Rev 1) (Alt 1)": {
+	"Congo Bongo (Japan, Europe) (Ja) (Rev 1) (Alt)": {
 		"languages": "Ja"
 	},
-	"Congo Bongo (Taiwan) (Rev 1)": {
+	"Congo Bongo (Japan, Europe, Australia, New Zealand) (En) (Rev 1)": {
+		"languages": "En"
+	},
+	"Congo Bongo (Taiwan) (Unl)": {
 		"languages": "Zh"
+	},
+	"Disk BASIC & Yeno Demo (Japan) (SF-7000) (Program)": {
+		"languages": "Ja"
 	},
 	"Disk BASIC (Japan) (Rev 1) (SF-7000) (Program)": {
 		"languages": "Ja"
@@ -218,35 +224,32 @@
 	"Disk BASIC (Japan) (SF-7000) (Program)": {
 		"languages": "Ja"
 	},
-	"Disk BASIC & Yeno Demo (Japan) (SF-7000) (Program)": {
-		"languages": "Ja"
-	},
 	"Doki Doki Penguin Land (Japan)": {
 		"languages": "Ja"
 	},
-	"Doki Doki Penguin Land (Taiwan)": {
-		"languages": "Zh"
-	},
-	"Dragon Wang (Japan)": {
-		"languages": "Ja"
-	},
-	"Dragon Wang (Taiwan) (English Logo)": {
+	"Doki Doki Penguin Land (Taiwan) (Unl)": {
 		"languages": "Zh"
 	},
 	"Dragon Wang (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
-	"Dragon Wang (Taiwan) (Chinese Logo)": {
+	"Dragon Wang (Japan)": {
+		"languages": "Ja"
+	},
+	"Dragon Wang (Taiwan) (Chinese Logo) (Unl)": {
 		"languages": "Zh"
 	},
-	"Drol (Taiwan)": {
+	"Dragon Wang (Taiwan) (English Logo) (Unl)": {
 		"languages": "Zh"
 	},
-	"Drol (Japan, Australia)": {
+	"Drol (Japan, Australia) (Ja)": {
 		"languages": "Ja"
 	},
 	"Drol (Korea) (Unl)": {
 		"languages": "Ko"
+	},
+	"Drol (Taiwan) (Unl)": {
+		"languages": "Zh"
 	},
 	"Electronic Salesman (Japan) (Proto) (SC-3000) (Program)": {
 		"languages": "Ja"
@@ -254,32 +257,32 @@
 	"Elevator Action (Japan)": {
 		"languages": "Ja"
 	},
-	"Elevator Action (Taiwan)": {
+	"Elevator Action (Taiwan) (Unl)": {
 		"languages": "Zh"
 	},
-	"Exerion (Japan, Europe, Australia, New Zealand)": {
+	"Exerion (Japan, Europe, Australia, New Zealand) (En)": {
 		"languages": "En"
-	},
-	"Exerion (Taiwan)": {
-		"languages": "Zh"
 	},
 	"Exerion (Korea) (Unl)": {
 		"languages": "Ko"
 	},
+	"Exerion (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
 	"Flicky (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
-	"Flicky (Taiwan) (Rev 1)": {
-		"languages": "Zh"
-	},
-	"Flicky (Japan, New Zealand)": {
+	"Flicky (Japan, New Zealand) (Ja)": {
 		"languages": "Ja"
 	},
-	"Girl's Garden (Taiwan)": {
+	"Flicky (Taiwan) (Unl)": {
 		"languages": "Zh"
 	},
-	"Girl's Garden (Japan, Australia)": {
+	"Girl's Garden (Japan, Australia) (Ja)": {
 		"languages": "Ja"
+	},
+	"Girl's Garden (Taiwan) (Unl)": {
+		"languages": "Zh"
 	},
 	"Golgo 13 (Japan)": {
 		"languages": "Ja"
@@ -290,7 +293,7 @@
 	"GP World (Japan)": {
 		"languages": "Ja"
 	},
-	"GP World (Taiwan)": {
+	"GP World (Taiwan) (Unl)": {
 		"languages": "Zh"
 	},
 	"Gulkave (Japan)": {
@@ -299,28 +302,28 @@
 	"Gulkave (Korea) (Unl)": {
 		"languages": "Ko"
 	},
-	"Guzzler (Taiwan) (Othello Multivision)": {
-		"languages": "Zh"
-	},
 	"Guzzler (Japan) (Othello Multivision)": {
 		"languages": "Ja"
 	},
-	"H.E.R.O. (Taiwan) (Chinese Logo)": {
+	"Guzzler (Taiwan) (Othello Multivision) (Unl)": {
 		"languages": "Zh"
 	},
 	"H.E.R.O. (Japan)": {
 		"languages": "Ja"
 	},
-	"H.E.R.O. (Taiwan) (English Logo)": {
+	"H.E.R.O. (Taiwan) (Chinese Logo) (Unl)": {
 		"languages": "Zh"
 	},
-	"Hang-On II (Taiwan) (Chinese Logo)": {
+	"H.E.R.O. (Taiwan) (English Logo) (Unl)": {
 		"languages": "Zh"
 	},
-	"Hang-On II (Japan, Australia)": {
+	"Hang On II (Japan, Australia) (Ja)": {
 		"languages": "Ja"
 	},
-	"Hang-On II (Taiwan) (English Logo)": {
+	"Hang On II (Taiwan) (Chinese Logo) (Unl)": {
+		"languages": "Zh"
+	},
+	"Hang On II (Taiwan) (English Logo) (Unl)": {
 		"languages": "Zh"
 	},
 	"Home BASIC (Japan) (SC-3000) (Program)": {
@@ -329,28 +332,28 @@
 	"Home Mahjong (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
-	"Home Mahjong (Taiwan)": {
-		"languages": "Zh"
-	},
 	"Home Mahjong (Japan)": {
 		"languages": "Ja"
+	},
+	"Home Mahjong (Taiwan) (Unl)": {
+		"languages": "Zh"
 	},
 	"Hustle Chumy (Japan)": {
 		"languages": "Ja"
 	},
-	"Hustle Chumy (Taiwan)": {
+	"Hustle Chumy (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
+	"Hyper Sports 2 (Taiwan) (Unl)": {
 		"languages": "Zh"
 	},
 	"Hyper Sports (Japan)": {
 		"languages": "Ja"
 	},
-	"Hyper Sports (Taiwan)": {
-		"languages": "Zh"
-	},
 	"Hyper Sports (Korea) (Unl)": {
 		"languages": "Ko"
 	},
-	"Hyper Sports 2 (Taiwan)": {
+	"Hyper Sports (Taiwan) (Unl)": {
 		"languages": "Zh"
 	},
 	"I.Q. (Korea) (Unl)": {
@@ -359,130 +362,127 @@
 	"Kagaku (Gensokigou Master) (Japan) (SC-3000) (Program)": {
 		"languages": "Ja"
 	},
-	"Kamikaze (France) (SF-7000)": {
+	"Kamikaze (France) (En) (SF-7000) (Unl)": {
 		"languages": "En"
 	},
-	"King's Valley (Taiwan)": {
+	"King's Valley (Taiwan) (Unl)": {
 		"languages": "Zh"
 	},
-	"Knightmare (Taiwan)": {
+	"Knightmare (Taiwan) (Unl)": {
 		"languages": "Zh"
 	},
-	"Legend of Kage, The (Taiwan)": {
+	"Legend of Kage, The (Taiwan) (Unl)": {
 		"languages": "Zh"
 	},
 	"LinkWord (Japan) (Proto) (SC3000) (Program)": {
 		"languages": "Ja"
 	},
-	"Lode Runner (Taiwan)": {
-		"languages": "Zh"
-	},
-	"Lode Runner (Japan, Europe, Australia)": {
+	"Lode Runner (Japan, Europe, Australia) (En)": {
 		"languages": "En"
 	},
 	"Lode Runner (Korea) (Unl)": {
 		"languages": "Ko"
 	},
-	"Magical Kid Wiz (Taiwan)": {
+	"Lode Runner (Taiwan) (Unl)": {
 		"languages": "Zh"
 	},
-	"Magical Tree (Taiwan)": {
+	"Magical Kid Wiz (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
+	"Magical Tree (Taiwan) (Unl)": {
 		"languages": "Zh"
 	},
 	"Mahjong (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
-	"Mahjong (Taiwan) (Rev 1)": {
-		"languages": "Zh"
-	},
 	"Mahjong (Japan)": {
 		"languages": "Ja"
+	},
+	"Mahjong (Taiwan) (Unl)": {
+		"languages": "Zh"
 	},
 	"Monaco GP (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
-	"Monaco GP (Japan, Europe, Australia, New Zealand)": {
+	"Monaco GP (Japan, Europe) (Ja) (Rev 2)": {
 		"languages": "Ja"
 	},
-	"Monaco GP (Japan, Europe) (Rev 2)": {
+	"Monaco GP (Japan, Europe, Australia, New Zealand) (Ja)": {
 		"languages": "Ja"
 	},
-	"Monaco GP (Taiwan) (Rev 1)": {
+	"Monaco GP (Taiwan) (Unl)": {
 		"languages": "Zh"
 	},
-	"Music (Japan) (SC-3000) (Program)": {
-		"languages": "Ja"
-	},
-	"Music (Europe, Australia, New Zealand) (SC-3000) (Program)": {
+	"Music Editor (Europe, Australia, New Zealand) (SC-3000) (Program)": {
 		"languages": "En"
 	},
-	"N-Sub (Taiwan)": {
+	"Music Editor (Japan) (SC-3000) (Program)": {
+		"languages": "Ja"
+	},
+	"N-Sub (Japan) (Alt)": {
+		"languages": "Ja"
+	},
+	"N-Sub (Japan, Europe, Australia, New Zealand) (Ja)": {
+		"languages": "Ja"
+	},
+	"N-Sub (Taiwan) (Unl)": {
 		"languages": "Zh"
-	},
-	"N-Sub (Japan, Europe, Australia, New Zealand, Taiwan)": {
-		"languages": "Ja"
-	},
-	"N-Sub (Japan) (Alt 1)": {
-		"languages": "Ja"
 	},
 	"Nihonshi Nenpyou (Japan) (SC-3000) (Program)": {
 		"languages": "Ja"
 	},
-	"Ninja Princess (Japan, Australia)": {
+	"Ninja Princess (Japan, Australia) (Ja)": {
 		"languages": "Ja"
 	},
-	"Ninja Princess (Taiwan)": {
+	"Ninja Princess (Taiwan) (Unl)": {
 		"languages": "Zh"
-	},
-	"Okamoto Ayako no Match Play Golf (Taiwan) (Rev 1) (Othello Multivision)": {
-		"languages": "Zh"
-	},
-	"Okamoto Ayako no Match Play Golf (Japan) (Rev 1) (Othello Multivision)": {
-		"languages": "Ja"
 	},
 	"Okamoto Ayako no Match Play Golf (Japan) (Othello Multivision)": {
 		"languages": "Ja"
 	},
-	"Orguss (Japan, Europe, Australia, New Zealand, Taiwan)": {
+	"Okamoto Ayako no Match Play Golf (Japan) (Rev 1) (Othello Multivision)": {
+		"languages": "Ja"
+	},
+	"Okamoto Ayako no Match Play Golf (Taiwan) (Othello Multivision) (Unl)": {
+		"languages": "Zh"
+	},
+	"Orguss (Japan, Europe, Australia, New Zealand) (En)": {
 		"languages": "En"
 	},
 	"Othello (Japan)": {
 		"languages": "Ja"
 	},
-	"Othello (Taiwan)": {
+	"Othello (Taiwan) (Unl)": {
 		"languages": "Zh"
 	},
-	"[BIOS] Othello Multivision (Japan)": {
+	"Pacar (Japan) (Alt)": {
 		"languages": "Ja"
 	},
-	"Pacar (Taiwan)": {
-		"languages": "Zh"
-	},
-	"Pacar (Japan, Europe, Australia, New Zealand)": {
+	"Pacar (Japan, Europe, Australia, New Zealand) (En)": {
 		"languages": "En"
 	},
-	"Pacar (Japan) (Alt 1)": {
-		"languages": "Ja"
+	"Pacar (Taiwan) (Unl)": {
+		"languages": "Zh"
 	},
 	"Pachinko (Japan)": {
 		"languages": "Ja"
 	},
-	"Pachinko II (Taiwan)": {
-		"languages": "Zh"
-	},
 	"Pachinko II (Japan)": {
 		"languages": "Ja"
 	},
-	"Ping Pong (Taiwan)": {
+	"Pachinko II (Taiwan) (Unl)": {
 		"languages": "Zh"
 	},
-	"Pippols (Taiwan)": {
+	"Ping Pong (Taiwan) (Unl)": {
 		"languages": "Zh"
 	},
-	"Pitfall II (Taiwan) (Chinese Logo)": {
+	"Pippols (Taiwan) (Unl)": {
 		"languages": "Zh"
 	},
-	"Pitfall II (Taiwan) (English Logo)": {
+	"Pitfall II (Taiwan) (Chinese Logo) (Unl)": {
+		"languages": "Zh"
+	},
+	"Pitfall II (Taiwan) (English Logo) (Unl)": {
 		"languages": "Zh"
 	},
 	"Pitfall II - The Lost Caverns (Japan) (Rev 1)": {
@@ -491,80 +491,80 @@
 	"Pitfall II - The Lost Caverns (Japan)": {
 		"languages": "Ja"
 	},
-	"Pop Flamer (Japan, Europe, Australia, New Zealand)": {
+	"Pop Flamer (Japan, Europe, Australia, New Zealand) (En)": {
 		"languages": "En"
 	},
-	"Pop Flamer (Taiwan)": {
+	"Pop Flamer (Taiwan) (Unl)": {
 		"languages": "Zh"
 	},
-	"Poseidon Wars + Space Panic + Rambo (France) (SF-7000)": {
+	"Poseidon Wars + Space Panic + Rambo (France) (En) (SF-7000) (Unl)": {
 		"languages": "En"
 	},
 	"Q-bert (Japan) (Othello Multivision)": {
 		"languages": "Ja"
 	},
-	"Rally-X (Taiwan) (Chinese Logo)": {
+	"Rally-X (Taiwan) (Chinese Logo) (Unl)": {
 		"languages": "Zh"
 	},
-	"Rally-X (Taiwan) (English Logo)": {
+	"Rally-X (Taiwan) (English Logo) (Unl)": {
 		"languages": "Zh"
 	},
-	"Road Fighter (Taiwan) (English Logo)": {
+	"Road Fighter (Taiwan) (Chinese Logo) (Unl)": {
 		"languages": "Zh"
 	},
-	"Road Fighter (Taiwan) (Chinese Logo)": {
+	"Road Fighter (Taiwan) (English Logo) (Unl)": {
 		"languages": "Zh"
 	},
 	"Rock n' Bolt (Japan)": {
 		"languages": "Ja"
 	},
-	"Rock n' Bolt (Taiwan) (Chinese Logo)": {
+	"Rock n' Bolt (Taiwan) (Chinese Logo) (Unl)": {
 		"languages": "Zh"
 	},
-	"Rock n' Bolt (Taiwan) (English Logo)": {
+	"Rock n' Bolt (Taiwan) (English Logo) (Unl)": {
 		"languages": "Zh"
 	},
-	"Safari Hunting (Taiwan)": {
-		"languages": "Zh"
-	},
-	"Safari Hunting (Japan, Europe, Australia, New Zealand)": {
+	"Safari Hunting (Japan, Europe, Australia, New Zealand) (Ja)": {
 		"languages": "Ja"
 	},
-	"Safari Race (Japan, Europe, Australia, New Zealand)": {
+	"Safari Hunting (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
+	"Safari Race (Japan, Europe, Australia, New Zealand) (Ja)": {
 		"languages": "Ja"
 	},
-	"Safari Race (Taiwan)": {
+	"Safari Race (Taiwan) (Unl)": {
 		"languages": "Zh"
+	},
+	"San-nin Mahjong (Japan) (Othello Multivision) (Alt)": {
+		"languages": "Ja"
 	},
 	"San-nin Mahjong (Japan) (Othello Multivision)": {
 		"languages": "Ja"
 	},
-	"San-nin Mahjong (Taiwan) (Othello Multivision)": {
+	"San-nin Mahjong (Taiwan) (Othello Multivision) (Unl)": {
 		"languages": "Zh"
 	},
-	"San-nin Mahjong (Japan) (Alt 1) (Othello Multivision)": {
+	"Sega Flipper (Japan) (Alt)": {
 		"languages": "Ja"
 	},
-	"Sega Flipper (Taiwan)": {
-		"languages": "Zh"
-	},
-	"Sega Flipper (Japan) (Alt 1)": {
-		"languages": "Ja"
-	},
-	"Sega Flipper ~ Video Flipper (Japan, Europe, Australia, New Zealand)": {
+	"Sega Flipper (Japan, Europe, Australia, New Zealand) (En)": {
 		"languages": "En"
+	},
+	"Sega Flipper (Taiwan) (Unl)": {
+		"languages": "Zh"
 	},
 	"Sega Logo (Japan) (SF-7000) (Program)": {
 		"languages": "Ja"
 	},
-	"Sega-Galaga (Taiwan)": {
-		"languages": "Zh"
-	},
 	"Sega-Galaga (Japan)": {
 		"languages": "Ja"
 	},
-	"Sega-Galaga (Japan, Australia)": {
+	"Sega-Galaga (Japan, Australia) (Ja)": {
 		"languages": "Ja"
+	},
+	"Sega-Galaga (Taiwan) (Unl)": {
+		"languages": "Zh"
 	},
 	"Sekaishi Nenpyou (Japan) (SC-3000) (Program)": {
 		"languages": "Ja"
@@ -578,38 +578,38 @@
 	"Shinnyushain Tooru-kun (Japan)": {
 		"languages": "Ja"
 	},
-	"Shinnyushain Tooru-kun (Taiwan)": {
+	"Shinnyushain Tooru-kun (Taiwan) (Unl)": {
 		"languages": "Zh"
 	},
-	"Sindbad Mystery (Japan, Europe, Australia, New Zealand)": {
+	"Sindbad Mystery (Japan, Europe, Australia, New Zealand) (En)": {
 		"languages": "En"
 	},
-	"Sindbad Mystery (Taiwan)": {
+	"Sindbad Mystery (Taiwan) (Unl)": {
 		"languages": "Zh"
 	},
-	"Soukoban (Taiwan)": {
-		"languages": "Zh"
-	},
-	"Soukoban (Japan, Australia)": {
+	"Soukoban (Japan, Australia) (Ja)": {
 		"languages": "Ja"
 	},
 	"Soukoban (Korea) (Unl)": {
 		"languages": "Ko"
 	},
-	"Space Armor (Japan, Taiwan) (Rev 1) (Othello Multivision)": {
+	"Soukoban (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
+	"Space Armor (Japan) (Othello Multivision) (Alt)": {
 		"languages": "Ja"
 	},
 	"Space Armor (Japan) (Othello Multivision)": {
 		"languages": "Ja"
 	},
-	"Space Armor (Japan) (Rev 2) (Othello Multivision)": {
+	"Space Armor (Japan) (Rev 1) (Othello Multivision)": {
 		"languages": "Ja"
-	},
-	"Space Invaders (Taiwan)": {
-		"languages": "Zh"
 	},
 	"Space Invaders (Japan)": {
 		"languages": "Ja"
+	},
+	"Space Invaders (Taiwan) (Unl)": {
+		"languages": "Zh"
 	},
 	"Space Mountain (Japan) (Othello Multivision)": {
 		"languages": "Ja"
@@ -617,46 +617,46 @@
 	"Space Slalom (Japan)": {
 		"languages": "Ja"
 	},
-	"Star Force (Taiwan) (Alt 1)": {
-		"languages": "Zh"
-	},
-	"Star Force (Japan, Australia)": {
+	"Star Force (Japan, Australia) (Ja)": {
 		"languages": "Ja"
 	},
-	"Star Force (Taiwan)": {
+	"Star Force (Taiwan) (Unl) (Alt)": {
 		"languages": "Zh"
 	},
-	"Star Jacker (Taiwan) (Rev 1)": {
+	"Star Force (Taiwan) (Unl)": {
 		"languages": "Zh"
-	},
-	"Star Jacker (Japan, Europe) (Rev 2)": {
-		"languages": "En"
-	},
-	"Star Jacker (Japan, Europe, Australia, New Zealand) (Rev 1)": {
-		"languages": "En"
 	},
 	"Star Jacker (Japan)": {
 		"languages": "Ja"
 	},
-	"Star Soldier (Taiwan)": {
+	"Star Jacker (Japan, Europe) (En) (Rev 2)": {
+		"languages": "En"
+	},
+	"Star Jacker (Japan, Europe, Australia, New Zealand) (En) (Rev 1)": {
+		"languages": "En"
+	},
+	"Star Jacker (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
+	"Star Soldier (Taiwan) (Unl)": {
 		"languages": "Zh"
 	},
 	"Super Tank (Japan)": {
 		"languages": "Ja"
 	},
-	"Super Tank (Taiwan)": {
-		"languages": "Zh"
-	},
 	"Super Tank (Korea) (Unl)": {
 		"languages": "Ko"
 	},
-	"Tank Battalion (Taiwan)": {
+	"Super Tank (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
+	"Tank Battalion (Taiwan) (Unl)": {
 		"languages": "Zh"
 	},
 	"Tanoshii Sansuu - Shougaku 4-Nen Ge (Japan) (SC-3000) (Program)": {
 		"languages": "Ja"
 	},
-	"Tanoshii Sansuu - Shougaku 4-Nen Jou (Japan) (Alt 1) (SC-3000) (Program)": {
+	"Tanoshii Sansuu - Shougaku 4-Nen Jou (Japan) (SC-3000) (Program) (Alt)": {
 		"languages": "Ja"
 	},
 	"Tanoshii Sansuu - Shougaku 4-Nen Jou (Japan) (SC-3000) (Program)": {
@@ -674,55 +674,55 @@
 	"Tanoshii Sansuu - Shougaku 6-Nen Jou (Japan) (SC-3000) (Program)": {
 		"languages": "Ja"
 	},
-	"Terebi Oekaki (Japan, Taiwan) (Program)": {
+	"Terebi Oekaki (Japan) (Program)": {
 		"languages": "Ja"
 	},
-	"TwinBee (Taiwan)": {
+	"TwinBee (Taiwan) (Unl)": {
 		"languages": "Zh"
 	},
 	"Uranai Angel Cutie (Japan) (SC-3000) (Program)": {
 		"languages": "Ja"
 	},
-	"Wonder Boy (Japan)": {
-		"languages": "Ja"
-	},
 	"Wonder Boy (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
-	"Wonder Boy (Taiwan) (Rev 1)": {
+	"Wonder Boy (Japan, Australia) (Ja)": {
+		"languages": "Ja"
+	},
+	"Wonder Boy (Taiwan) (Unl)": {
 		"languages": "Zh"
 	},
-	"Yamato (Japan, Europe, Australia, New Zealand)": {
+	"Yamato (Japan) (Alt)": {
+		"languages": "Ja"
+	},
+	"Yamato (Japan, Europe, Australia, New Zealand) (En)": {
 		"languages": "En"
 	},
-	"Yamato (Japan) (Alt 1)": {
+	"Yamato (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
+	"Yie Ar Kung-Fu (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
+	"Yie Ar Kung-Fu II (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
+	"Zaxxon (Japan)": {
 		"languages": "Ja"
 	},
-	"Yamato (Taiwan)": {
+	"Zaxxon (Taiwan) (Unl)": {
 		"languages": "Zh"
 	},
-	"Yie Ar Kung-Fu (Taiwan)": {
-		"languages": "Zh"
-	},
-	"Yie Ar Kung-Fu II (Taiwan)": {
-		"languages": "Zh"
-	},
-	"Zaxxon (Japan, Taiwan)": {
+	"Zippy Race (Japan, Australia) (Ja)": {
 		"languages": "Ja"
 	},
-	"Zaxxon (Taiwan)": {
+	"Zippy Race (Taiwan) (Unl)": {
 		"languages": "Zh"
 	},
-	"Zippy Race (Japan, Australia)": {
+	"Zoom 909 (Japan)": {
 		"languages": "Ja"
 	},
-	"Zippy Race (Taiwan)": {
-		"languages": "Zh"
-	},
-	"Zoom 909 (Japan, Taiwan)": {
-		"languages": "Ja"
-	},
-	"Zoom 909 (Taiwan)": {
+	"Zoom 909 (Taiwan) (Unl)": {
 		"languages": "Zh"
 	}
 }

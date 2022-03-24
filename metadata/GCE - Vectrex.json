@@ -8,6 +8,9 @@
 	"3D Narrow Escape (USA)": {
 		"languages": "En"
 	},
+	"[BIOS] GCE Vectrex (World)": {
+		"languages": "En"
+	},
 	"AnimAction - Advanced Animation (USA)": {
 		"languages": "En"
 	},
@@ -23,10 +26,10 @@
 	"Berzerk (World)": {
 		"languages": "En"
 	},
-	"Blitz! - Action Football (USA, Europe) (881B27C5)": {
+	"Blitz! - Action Football (USA, Europe) (0F11CE0C)": {
 		"languages": "En"
 	},
-	"Blitz! - Action Football (USA, Europe) (0F11CE0C)": {
+	"Blitz! - Action Football (USA, Europe) (881B27C5)": {
 		"languages": "En"
 	},
 	"Clean Sweep (World)": {
@@ -44,19 +47,16 @@
 	"Fortress of Narzod (USA, Europe)": {
 		"languages": "En"
 	},
-	"[BIOS] GCE Vectrex (World)": {
-		"languages": "En"
-	},
 	"Heads-Up - Action Soccer (USA)": {
 		"languages": "En"
 	},
 	"HyperChase - Auto Race (World)": {
 		"languages": "En"
 	},
-	"Mail Plane (USA) (Proto) (DA1AC0DB)": {
+	"Mail Plane (USA) (Proto) (05838962)": {
 		"languages": "En"
 	},
-	"Mail Plane (USA) (Proto) (05838962)": {
+	"Mail Plane (USA) (Proto) (DA1AC0DB)": {
 		"languages": "En"
 	},
 	"Melody Master - Music Composition and Entertainment (USA)": {
@@ -74,16 +74,16 @@
 	"Pitcher's Duel (USA) (Proto)": {
 		"languages": "En"
 	},
-	"Polar Rescue (USA)": {
-		"languages": "En"
-	},
 	"Polar Rescue (USA) (Beta)": {
 		"languages": "En"
 	},
-	"Pole Position (USA) (C10F37D8)": {
+	"Polar Rescue (USA)": {
 		"languages": "En"
 	},
 	"Pole Position (USA) (A00ED3D6)": {
+		"languages": "En"
+	},
+	"Pole Position (USA) (C10F37D8)": {
 		"languages": "En"
 	},
 	"RA+A Spectrum I+ Stress Tester (USA) (Proto)": {

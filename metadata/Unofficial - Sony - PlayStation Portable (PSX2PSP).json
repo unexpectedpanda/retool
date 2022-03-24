@@ -1,13 +1,4 @@
 {
-	"007 - The World is not Enough (USA) (Unl)": {
-		"languages": "En"
-	},
-	"007 - Tomorrow Never Dies (USA) (Unl)": {
-		"languages": "En"
-	},
-	"007 Racing (Europe) (Unl)": {
-		"languages": "En"
-	},
 	"2Xtreme (USA) (Unl)": {
 		"languages": "En"
 	},
@@ -15,6 +6,15 @@
 		"languages": "En"
 	},
 	"3Xtreme (USA) (Unl)": {
+		"languages": "En"
+	},
+	"007 - The World is not Enough (USA) (Unl)": {
+		"languages": "En"
+	},
+	"007 - Tomorrow Never Dies (USA) (Unl)": {
+		"languages": "En"
+	},
+	"007 Racing (Europe) (Unl)": {
 		"languages": "En"
 	},
 	"40 Winks (USA) (Unl)": {
@@ -122,10 +122,10 @@
 	"Batman Beyond - Return of the Joker (USA) (Unl)": {
 		"languages": "En"
 	},
-	"Battle Arena Toshinden (USA) (Unl)": {
+	"Battle Arena Toshinden 3 (USA) (Unl)": {
 		"languages": "En"
 	},
-	"Battle Arena Toshinden 3 (USA) (Unl)": {
+	"Battle Arena Toshinden (USA) (Unl)": {
 		"languages": "En"
 	},
 	"Bio Hazard - Director's Cut (Japan) (Unl)": {
@@ -164,10 +164,10 @@
 	"Bubsy 3D (USA) (Unl)": {
 		"languages": "En"
 	},
-	"Bushido Blade (USA) (Unl)": {
+	"Bushido Blade 2 (USA) (Unl)": {
 		"languages": "En"
 	},
-	"Bushido Blade 2 (USA) (Unl)": {
+	"Bushido Blade (USA) (Unl)": {
 		"languages": "En"
 	},
 	"Bust-a-Move 4 (USA) (Unl)": {
@@ -242,10 +242,10 @@
 	"Covert Ops - Nuclear Dawn (USA) (Unl)": {
 		"languages": "En"
 	},
-	"Crash Bandicoot (USA) (Unl)": {
+	"Crash Bandicoot 3 - Warped (USA) (Unl)": {
 		"languages": "En"
 	},
-	"Crash Bandicoot 3 - Warped (USA) (Unl)": {
+	"Crash Bandicoot (USA) (Unl)": {
 		"languages": "En"
 	},
 	"Crash Bash (USA) (Unl)": {
@@ -266,10 +266,10 @@
 	"Deception 3 - Death Delusion (USA) (Unl)": {
 		"languages": "En"
 	},
-	"Destruction Derby (USA) (Unl)": {
+	"Destruction Derby 2 (Europe) (Unl)": {
 		"languages": "En"
 	},
-	"Destruction Derby 2 (Europe) (Unl)": {
+	"Destruction Derby (USA) (Unl)": {
 		"languages": "En"
 	},
 	"Diablo (Europe) (Unl)": {
@@ -281,10 +281,10 @@
 	"Die Hard Trilogy (USA) (Unl)": {
 		"languages": "En"
 	},
-	"Digimon World (USA) (Unl)": {
+	"Digimon World 3 (USA) (Unl)": {
 		"languages": "En"
 	},
-	"Digimon World 3 (USA) (Unl)": {
+	"Digimon World (USA) (Unl)": {
 		"languages": "En"
 	},
 	"Dino Crisis (USA) (Unl)": {
@@ -320,16 +320,16 @@
 	"Driver (USA) (Unl)": {
 		"languages": "En"
 	},
-	"Duke Nukem - Land of the Babes (Europe) (Unl)": {
+	"Duke Nukem 3D (Europe) (Unl)": {
 		"languages": "En"
 	},
-	"Duke Nukem - Time to Kill (USA) (Unl)": {
+	"Duke Nukem - Land of the Babes (Europe) (Unl)": {
 		"languages": "En"
 	},
 	"Duke Nukem - Time to Kill (Europe) (Unl)": {
 		"languages": "En"
 	},
-	"Duke Nukem 3D (Europe) (Unl)": {
+	"Duke Nukem - Time to Kill (USA) (Unl)": {
 		"languages": "En"
 	},
 	"Dune 2000 (USA) (Unl)": {
@@ -341,11 +341,11 @@
 	"Ehrgeiz (USA) (Unl)": {
 		"languages": "En"
 	},
-	"Einhaender (USA) (Unl)": {
-		"languages": "En"
-	},
 	"Einhaender (Japan) (Unl)": {
 		"languages": "Ja"
+	},
+	"Einhaender (USA) (Unl)": {
+		"languages": "En"
 	},
 	"Eretzvaju (Japan) (Unl)": {
 		"languages": "Ja"
@@ -434,25 +434,25 @@
 	"Golden Tee Golf (USA) (Unl)": {
 		"languages": "En"
 	},
+	"Gran Turismo 2 (Europe) (Unl)": {
+		"languages": "En"
+	},
+	"Gran Turismo 2 (USA) (Unl)": {
+		"languages": "En"
+	},
 	"Gran Turismo (Europe) (Unl)": {
 		"languages": "En"
 	},
 	"Gran Turismo (USA) (Unl)": {
 		"languages": "En"
 	},
-	"Gran Turismo 2 (USA) (Unl)": {
-		"languages": "En"
-	},
-	"Gran Turismo 2 (Europe) (Unl)": {
-		"languages": "En"
-	},
-	"Grand Theft Auto (USA) (Unl)": {
-		"languages": "En"
-	},
 	"Grand Theft Auto 2 (Europe) (Unl)": {
 		"languages": "En"
 	},
 	"Grand Theft Auto 2 (USA) (Unl)": {
+		"languages": "En"
+	},
+	"Grand Theft Auto (USA) (Unl)": {
 		"languages": "En"
 	},
 	"Hogs of War (USA) (Unl)": {
@@ -557,10 +557,10 @@
 	"MegaMan 8 - Anniversary Collectors Edition (USA) (Unl)": {
 		"languages": "En"
 	},
-	"MegaMan Legends (USA) (Unl)": {
+	"MegaMan Legends 2 (USA) (Unl)": {
 		"languages": "En"
 	},
-	"MegaMan Legends 2 (USA) (Unl)": {
+	"MegaMan Legends (USA) (Unl)": {
 		"languages": "En"
 	},
 	"MegaMan X4 (USA) (Unl)": {
@@ -578,7 +578,7 @@
 	"Metal Gear Solid - VR Missions (USA) (Unl)": {
 		"languages": "En"
 	},
-	"Metal Slug X (USA) (Alt 1) (Unl)": {
+	"Metal Slug X (USA) (Unl) (Alt)": {
 		"languages": "En"
 	},
 	"Metal Slug X (USA) (Unl)": {
@@ -602,11 +602,11 @@
 	"Moon Remix - RPG Adventure (Japan) (Unl)": {
 		"languages": "Ja"
 	},
-	"Mortal Kombat - Special Forces (USA) (Unl)": {
-		"languages": "En"
-	},
 	"Mortal Kombat 2 (Japan) (Unl)": {
 		"languages": "Ja"
+	},
+	"Mortal Kombat - Special Forces (USA) (Unl)": {
+		"languages": "En"
 	},
 	"Moto Racer (USA) (Unl)": {
 		"languages": "En"
@@ -623,13 +623,13 @@
 	"NBA Live 2002 (USA) (Unl)": {
 		"languages": "En"
 	},
+	"Need for Speed 4 - High Stakes (USA) (Unl)": {
+		"languages": "En"
+	},
 	"Need for Speed - Porsche Unleashed (USA) (Unl)": {
 		"languages": "En"
 	},
 	"Need for Speed - V-Rally (USA) (Unl)": {
-		"languages": "En"
-	},
-	"Need for Speed 4 - High Stakes (USA) (Unl)": {
 		"languages": "En"
 	},
 	"Newman-Haas Racing (USA) (Unl)": {
@@ -650,10 +650,10 @@
 	"Nuclear Strike (USA) (Unl)": {
 		"languages": "En"
 	},
-	"Oddworld - Abe's Exodus (USA) (Unl)": {
+	"Oddworld - Abe's Exodus (Europe) (Unl)": {
 		"languages": "En"
 	},
-	"Oddworld - Abe's Exodus (Europe) (Unl)": {
+	"Oddworld - Abe's Exodus (USA) (Unl)": {
 		"languages": "En"
 	},
 	"PacMan World (USA) (Unl)": {
@@ -707,19 +707,22 @@
 	"Rascal Racers (USA) (Unl)": {
 		"languages": "En"
 	},
-	"Rayman (USA) (Unl)": {
+	"Rayman 2 The Great Escape (USA) (Unl)": {
 		"languages": "En"
 	},
 	"Rayman (Europe) (Unl)": {
 		"languages": "En"
 	},
-	"Rayman 2 The Great Escape (USA) (Unl)": {
+	"Rayman (USA) (Unl)": {
 		"languages": "En"
 	},
 	"Raystorm (USA) (Unl)": {
 		"languages": "En"
 	},
 	"ReLoaded (Europe) (Unl)": {
+		"languages": "En"
+	},
+	"Resident Evil 2 (USA) (Unl)": {
 		"languages": "En"
 	},
 	"Resident Evil - 3 Nemesis (USA) (Unl)": {
@@ -729,9 +732,6 @@
 		"languages": "En"
 	},
 	"Resident Evil - Survivor (Europe) (Unl)": {
-		"languages": "En"
-	},
-	"Resident Evil 2 (USA) (Unl)": {
 		"languages": "En"
 	},
 	"Ridge Racer - Revolution (USA) (Unl)": {
@@ -755,10 +755,10 @@
 	"Roll Away (USA) (Unl)": {
 		"languages": "En"
 	},
-	"Saga Frontier (USA) (Unl)": {
+	"Saga Frontier 2 (USA) (Unl)": {
 		"languages": "En"
 	},
-	"Saga Frontier 2 (USA) (Unl)": {
+	"Saga Frontier (USA) (Unl)": {
 		"languages": "En"
 	},
 	"Scooby Doo and the Cyber Chase (USA) (Unl)": {
@@ -803,10 +803,10 @@
 	"Spider (USA) (Unl)": {
 		"languages": "En"
 	},
-	"Spiderman (USA) (Unl)": {
+	"Spiderman 2 - Enter Electro (USA) (Unl)": {
 		"languages": "En"
 	},
-	"Spiderman 2 - Enter Electro (USA) (Unl)": {
+	"Spiderman (USA) (Unl)": {
 		"languages": "En"
 	},
 	"Spyro the Dragon 2 - Ripto's Rage (USA) (Unl)": {
@@ -824,10 +824,10 @@
 	"Street Fighters - Alpha 3 (USA) (Unl)": {
 		"languages": "En"
 	},
-	"Strider (USA) (Unl)": {
+	"Strider 2 (USA) (Unl)": {
 		"languages": "En"
 	},
-	"Strider 2 (USA) (Unl)": {
+	"Strider (USA) (Unl)": {
 		"languages": "En"
 	},
 	"Stuart Little 2 (USA) (Unl)": {
@@ -839,16 +839,16 @@
 	"Suikoden II (USA) (Unl)": {
 		"languages": "En"
 	},
-	"Syndicate Wars (USA) (Alt 1) (Unl)": {
+	"Syndicate Wars (USA) (Unl) (Alt)": {
 		"languages": "En"
 	},
 	"Syndicate Wars (USA) (Unl)": {
 		"languages": "En"
 	},
-	"Syphon Filter (USA) (Unl)": {
+	"Syphon Filter 2 (USA) (Unl)": {
 		"languages": "En"
 	},
-	"Syphon Filter 2 (USA) (Unl)": {
+	"Syphon Filter (USA) (Unl)": {
 		"languages": "En"
 	},
 	"Tactics Ogre (USA) (Unl)": {
@@ -926,19 +926,19 @@
 	"Tombi (Europe) (Unl)": {
 		"languages": "En"
 	},
-	"Tony Hawk's Pro Skater (USA) (Unl)": {
-		"languages": "En"
-	},
 	"Tony Hawk's Pro Skater 2 (USA) (Unl)": {
 		"languages": "En"
 	},
 	"Tony Hawk's Pro Skater 4 (USA) (Unl)": {
 		"languages": "En"
 	},
-	"Triple Play 2000 (USA) (Unl)": {
+	"Tony Hawk's Pro Skater (USA) (Unl)": {
 		"languages": "En"
 	},
 	"Triple Play 99 (USA) (Unl)": {
+		"languages": "En"
+	},
+	"Triple Play 2000 (USA) (Unl)": {
 		"languages": "En"
 	},
 	"Tunnel B1 (USA) (Unl)": {
@@ -959,13 +959,10 @@
 	"Unholy War, The (USA) (Unl)": {
 		"languages": "En"
 	},
-	"V Tennis (Europe) (Unl)": {
-		"languages": "En"
-	},
 	"V2000 (Europe) (Unl)": {
 		"languages": "En"
 	},
-	"Vagrant Story (USA) (Unl)": {
+	"V Tennis (Europe) (Unl)": {
 		"languages": "En"
 	},
 	"Vagrant Story (Europe) (Unl)": {
@@ -974,13 +971,16 @@
 	"Vagrant Story (France) (Unl)": {
 		"languages": "Fr"
 	},
+	"Vagrant Story (USA) (Unl)": {
+		"languages": "En"
+	},
 	"Vampire Hunter D (Europe) (Unl)": {
 		"languages": "En"
 	},
-	"Vandal Hearts (USA) (Unl)": {
+	"Vandal Hearts 2 (USA) (Unl)": {
 		"languages": "En"
 	},
-	"Vandal Hearts 2 (USA) (Unl)": {
+	"Vandal Hearts (USA) (Unl)": {
 		"languages": "En"
 	},
 	"Vanguard Bandits (USA) (Unl)": {
@@ -1004,7 +1004,7 @@
 	"Wild Thornberry's Animal Adventure, The (USA) (Unl)": {
 		"languages": "En"
 	},
-	"Wipeout (USA) (Alt 1) (Unl)": {
+	"Wipeout (USA) (Unl) (Alt)": {
 		"languages": "En"
 	},
 	"Wipeout (USA) (Unl)": {
@@ -1019,14 +1019,14 @@
 	"WWF Smackdown 2 - Know Your Role (USA) (Unl)": {
 		"languages": "En"
 	},
+	"X2 - No Relief (Japan) (Unl)": {
+		"languages": "Ja"
+	},
 	"X-Com - Ufo Defence (USA) (Unl)": {
 		"languages": "En"
 	},
 	"X-Men vs Street Fighter (USA) (Unl)": {
 		"languages": "En"
-	},
-	"X2 - No Relief (Japan) (Unl)": {
-		"languages": "Ja"
 	},
 	"Xenogears (Europe) (Unl)": {
 		"languages": "En"

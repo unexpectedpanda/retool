@@ -3,7 +3,7 @@
 		"name": [
 			"Nintendo - Nintendo 3DS"
 		],
-		"last updated": "2 January 2022",
+		"last updated": "24 March 2022",
 		"minimum version": "0.89"
 	},
 
@@ -511,7 +511,10 @@
 			["Super Pokemon Scramble", 1]
 		],
 		"Pokemon Rumble World": [
-			["Minna no Pokemon Scramble", 1]
+			["Minna no Pokemon Scramble", 1],
+			["Pokemon Rumble World (trunk, 34356M)", 2],
+			["Pokemon Rumble World (trunk, 34961M)", 3],
+			["Pokemon Rumble World (branches-TPC20150716, 36474)", 4]
 		],
 		"Pokemon Sun": [
 			["Pocket Monsters Sun", 1]

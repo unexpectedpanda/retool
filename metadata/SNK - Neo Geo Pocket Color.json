@@ -1,4 +1,7 @@
 {
+	"[BIOS] SNK Neo Geo Pocket Color (World) (En,Ja)": {
+		"languages": "En,Ja"
+	},
 	"Bakumatsu Rouman Tokubetsu Hen - Gekka no Kenshi - Tsuki ni Saku Hana, Chiri Yuku Hana (Japan)": {
 		"languages": "Ja"
 	},
@@ -11,19 +14,19 @@
 	"Bikkuriman 2000 - Viva! Pocket Festival! (Japan)": {
 		"languages": "Ja"
 	},
+	"Biomotor Unitron (Japan) (Demo)": {
+		"languages": "Ja"
+	},
 	"Biomotor Unitron (Japan)": {
 		"languages": "Ja"
 	},
 	"Biomotor Unitron (USA, Europe)": {
 		"languages": "En"
 	},
-	"Biomotor Unitron (Japan) (Demo)": {
-		"languages": "Ja"
-	},
-	"Bust-A-Move Pocket (USA)": {
+	"Bust-A-Move Pocket (USA) (Demo)": {
 		"languages": "En"
 	},
-	"Bust-A-Move Pocket (USA) (Beta)": {
+	"Bust-A-Move Pocket (USA)": {
 		"languages": "En"
 	},
 	"Cool Boarders Pocket (Japan, Europe) (En,Ja)": {
@@ -41,28 +44,28 @@
 	"Dark Arms - Beast Buster 1999 (World) (En,Ja)": {
 		"languages": "En,Ja"
 	},
+	"Delta Warp (Japan) (Demo)": {
+		"languages": "Ja"
+	},
 	"Delta Warp (Japan) (En,Ja)": {
 		"languages": "En,Ja"
 	},
-	"Delta Warp (Japan) (Beta)": {
-		"languages": "Ja"
-	},
 	"Densetsu no Ogre Battle Gaiden - Zenobia no Ouji (Japan)": {
-		"languages": "Ja"
-	},
-	"Densha de Go! 2 on Neo Geo Pocket (Japan)": {
 		"languages": "Ja"
 	},
 	"Densha de Go! 2 on Neo Geo Pocket (Japan) (Beta)": {
 		"languages": "Ja"
 	},
+	"Densha de Go! 2 on Neo Geo Pocket (Japan)": {
+		"languages": "Ja"
+	},
 	"Dive Alert - Becky's Version (USA, Europe)": {
 		"languages": "En"
 	},
-	"Dive Alert - Burn Hen (Japan)": {
+	"Dive Alert - Burn Hen (Japan) (Beta)": {
 		"languages": "Ja"
 	},
-	"Dive Alert - Burn Hen (Japan) (Beta)": {
+	"Dive Alert - Burn Hen (Japan)": {
 		"languages": "Ja"
 	},
 	"Dive Alert - Matt's Version (USA, Europe)": {
@@ -77,7 +80,10 @@
 	"Dynamite Slugger (Japan, Europe) (En,Ja)": {
 		"languages": "En,Ja"
 	},
-	"Evolution - Eternal Dungeons (Europe)": {
+	"Evolution - Eternal Dungeons (Europe) (v03)": {
+		"languages": "En"
+	},
+	"Evolution - Eternal Dungeons (Europe) (vA1)": {
 		"languages": "En"
 	},
 	"Fantastic Night Dreams - Cotton (Europe)": {
@@ -86,11 +92,11 @@
 	"Fantastic Night Dreams - Cotton (Japan)": {
 		"languages": "Ja"
 	},
-	"Faselei! (USA, Europe)": {
-		"languages": "En"
-	},
 	"Faselei! (Japan)": {
 		"languages": "Ja"
+	},
+	"Faselei! (USA, Europe)": {
+		"languages": "En"
 	},
 	"Fatal Fury F-Contact - Pocket Fighting Series (World) (En,Ja)": {
 		"languages": "En,Ja"
@@ -104,23 +110,29 @@
 	"Kikou Seiki Unitron - Sono Tsuide. Hikari Umareru Chi Yori. (Japan)": {
 		"languages": "Ja"
 	},
+	"King of Fighters R-2 - Pocket Fighting Series (Japan) (En,Ja) (Demo 1)": {
+		"languages": "En,Ja"
+	},
+	"King of Fighters R-2 - Pocket Fighting Series (Japan) (En,Ja) (Demo 2)": {
+		"languages": "En,Ja"
+	},
 	"King of Fighters R-2 - Pocket Fighting Series (World) (En,Ja)": {
-		"languages": "En,Ja"
-	},
-	"King of Fighters R-2 - Pocket Fighting Series (World) (En,Ja) (Demo)": {
-		"languages": "En,Ja"
-	},
-	"King of Fighters R-2 Version 2 - Pocket Fighting Series (Japan) (En,Ja) (Demo)": {
 		"languages": "En,Ja"
 	},
 	"King of Fighters, The - Battle de Paradise (Japan)": {
 		"languages": "Ja"
 	},
-	"Koi Koi Mahjong (Japan)": {
+	"Koi Koi Mahjong (Japan) (v0B)": {
+		"languages": "Ja"
+	},
+	"Koi Koi Mahjong (Japan) (v08)": {
 		"languages": "Ja"
 	},
 	"Last Blade, The - Beyond the Destiny (USA, Europe)": {
 		"languages": "En"
+	},
+	"Magical Drop Pocket (Japan) (Demo)": {
+		"languages": "Ja"
 	},
 	"Magical Drop Pocket (Japan)": {
 		"languages": "Ja"
@@ -128,19 +140,16 @@
 	"Magical Drop Pocket (USA, Europe)": {
 		"languages": "En"
 	},
-	"Magical Drop Pocket (Japan) (Demo)": {
-		"languages": "Ja"
-	},
 	"Memories Off - Pure (Japan)": {
 		"languages": "Ja"
 	},
 	"Metal Slug - 1st Mission (World) (En,Ja)": {
 		"languages": "En,Ja"
 	},
-	"Metal Slug - 2nd Mission (World) (En,Ja)": {
+	"Metal Slug - 2nd Mission (World) (En,Ja) (Demo)": {
 		"languages": "En,Ja"
 	},
-	"Metal Slug - 2nd Mission (World) (En,Ja) (Demo)": {
+	"Metal Slug - 2nd Mission (World) (En,Ja)": {
 		"languages": "En,Ja"
 	},
 	"Mezase! Kanji Ou (Japan)": {
@@ -152,43 +161,43 @@
 	"Neo 21 - Pocket Casino Series (World)": {
 		"languages": "En"
 	},
-	"Neo Baccarat - Pocket Casino Series (Japan, Europe)": {
+	"Neo Baccarat - Pocket Casino Series (Japan, Europe) (En) (Beta)": {
 		"languages": "En"
 	},
-	"Neo Baccarat - Pocket Casino Series (Japan, Europe) (Beta)": {
+	"Neo Baccarat - Pocket Casino Series (Japan, Europe) (En) (v11)": {
 		"languages": "En"
 	},
-	"Neo Baccarat - Pocket Casino Series (Japan, Europe) (v1.1)": {
+	"Neo Baccarat - Pocket Casino Series (Japan, Europe) (En) (v16)": {
 		"languages": "En"
 	},
-	"Neo Cherry Master Color - Pocket Casino Series (World) (En,Ja)": {
+	"Neo Cherry Master Color - Pocket Casino Series (World) (En,Ja) (Demo)": {
 		"languages": "En,Ja"
 	},
-	"Neo Cherry Master Color - Pocket Casino Series (World) (En,Ja) (Beta)": {
+	"Neo Cherry Master Color - Pocket Casino Series (World) (En,Ja)": {
 		"languages": "En,Ja"
 	},
 	"Neo Derby Champ Daiyosou (Japan)": {
 		"languages": "Ja"
 	},
-	"Neo Dragon's Wild - Pocket Casino Series (World) (En,Ja)": {
+	"Neo Dragon's Wild - Real Casino Series (World) (En,Ja) (v11)": {
 		"languages": "En,Ja"
 	},
-	"Neo Dragon's Wild - Real Casino Series (World) (En,Ja) (Beta)": {
+	"Neo Dragon's Wild - Real Casino Series (World) (En,Ja) (v13)": {
 		"languages": "En,Ja"
 	},
 	"Neo Mystery Bonus - Pocket Casino Series (World) (En,Ja)": {
 		"languages": "En,Ja"
 	},
-	"Neo Poke Pro Yakyuu (Japan) (v32)": {
-		"languages": "Ja"
-	},
 	"Neo Poke Pro Yakyuu (Japan) (v1F)": {
 		"languages": "Ja"
 	},
-	"Neo Turf Masters (World) (En,Ja)": {
-		"languages": "En,Ja"
+	"Neo Poke Pro Yakyuu (Japan) (v32)": {
+		"languages": "Ja"
 	},
 	"Neo Turf Masters (World) (En,Ja) (Demo)": {
+		"languages": "En,Ja"
+	},
+	"Neo Turf Masters (World) (En,Ja)": {
 		"languages": "En,Ja"
 	},
 	"NeoGeo Cup '98 Plus Color - Pocket Sports Series (World) (En,Ja)": {
@@ -203,7 +212,16 @@
 	"Pac-Man (World) (En,Ja)": {
 		"languages": "En,Ja"
 	},
-	"Pachi-Slot Aruze Oukoku Pocket - Azteca (Japan)": {
+	"Pachi-slot Aruze Oukoku - Porcano 2 (Japan)": {
+		"languages": "Ja"
+	},
+	"Pachi-Slot Aruze Oukoku Pocket - Azteca (Japan) (v03)": {
+		"languages": "Ja"
+	},
+	"Pachi-Slot Aruze Oukoku Pocket - Azteca (Japan) (v04)": {
+		"languages": "Ja"
+	},
+	"Pachi-Slot Aruze Oukoku Pocket - Azteca (Japan) (v06)": {
 		"languages": "Ja"
 	},
 	"Pachi-Slot Aruze Oukoku Pocket - Dekahel 2 (Japan)": {
@@ -212,31 +230,40 @@
 	"Pachi-Slot Aruze Oukoku Pocket - Delsol 2 (Japan)": {
 		"languages": "Ja"
 	},
-	"Pachi-Slot Aruze Oukoku Pocket - e-CUP (Japan)": {
+	"Pachi-Slot Aruze Oukoku Pocket - e-CUP (Japan) (v03)": {
 		"languages": "Ja"
 	},
-	"Pachi-Slot Aruze Oukoku Pocket - Hanabi (Japan) (Beta)": {
+	"Pachi-Slot Aruze Oukoku Pocket - e-CUP (Japan) (v04)": {
 		"languages": "Ja"
 	},
-	"Pachi-Slot Aruze Oukoku Pocket - Hanabi (Japan)": {
+	"Pachi-Slot Aruze Oukoku Pocket - Hanabi (Japan) (v03)": {
+		"languages": "Ja"
+	},
+	"Pachi-Slot Aruze Oukoku Pocket - Hanabi (Japan) (v04)": {
+		"languages": "Ja"
+	},
+	"Pachi-Slot Aruze Oukoku Pocket - Hanabi (Japan) (v05)": {
 		"languages": "Ja"
 	},
 	"Pachi-Slot Aruze Oukoku Pocket - Ohanabi (Japan)": {
 		"languages": "Ja"
 	},
-	"Pachi-Slot Aruze Oukoku Pocket - Ward of Lights (Japan)": {
+	"Pachi-Slot Aruze Oukoku Pocket - Ward of Lights (Japan) (v03)": {
 		"languages": "Ja"
 	},
-	"Pachi-slot Aruze Oukoku Porcano 2 (Japan) [b]": {
+	"Pachi-Slot Aruze Oukoku Pocket - Ward of Lights (Japan) (v04)": {
+		"languages": "Ja"
+	},
+	"Pachinko Hisshou Guide - Pocket Parlor (Japan) (Beta)": {
 		"languages": "Ja"
 	},
 	"Pachinko Hisshou Guide - Pocket Parlor (Japan)": {
 		"languages": "Ja"
 	},
-	"Party Mail (Japan)": {
+	"Party Mail (Japan) (Beta)": {
 		"languages": "Ja"
 	},
-	"Party Mail (Japan) (Beta)": {
+	"Party Mail (Japan)": {
 		"languages": "Ja"
 	},
 	"Picture Puzzle (Europe)": {
@@ -245,7 +272,10 @@
 	"Pocket Love - if (Japan)": {
 		"languages": "Ja"
 	},
-	"Pocket Reversi (Europe)": {
+	"Pocket Reversi (Europe) (v03)": {
+		"languages": "En"
+	},
+	"Pocket Reversi (Europe) (vA1)": {
 		"languages": "En"
 	},
 	"Pocket Reversi (Japan)": {
@@ -257,43 +287,43 @@
 	"PP-AA01 - Pusher - Program - Hontai Controller Gawa (Japan)": {
 		"languages": "Ja"
 	},
-	"Puyo Pop (World) (En,Ja) (v1.05)": {
+	"Puyo Pop (World) (En,Ja) (v05)": {
 		"languages": "En,Ja"
 	},
-	"Puyo Pop (World) (En,Ja)": {
+	"Puyo Pop (World) (En,Ja) (v06)": {
 		"languages": "En,Ja"
 	},
-	"Puzzle Bobble Mini (Japan, Europe)": {
+	"Puzzle Bobble Mini (Japan, Europe) (En)": {
 		"languages": "En"
 	},
 	"Puzzle Bobble Mini (Japan, Europe) (En,Ja) (Demo)": {
 		"languages": "En,Ja"
 	},
-	"Puzzle Link (USA, Europe)": {
+	"Puzzle Link 2 (USA, Europe)": {
 		"languages": "En"
 	},
-	"Puzzle Link 2 (USA, Europe)": {
+	"Puzzle Link (USA, Europe)": {
 		"languages": "En"
 	},
 	"Renketsu Puzzle Tsunagete Pon! Color (Japan)": {
 		"languages": "Ja"
 	},
+	"Rockman - Battle & Fighters (Japan) (Demo)": {
+		"languages": "Ja"
+	},
 	"Rockman - Battle & Fighters (Japan)": {
 		"languages": "Ja"
 	},
-	"Rockman - Battle & Fighters (Japan) (Beta)": {
-		"languages": "Ja"
-	},
 	"Samurai Shodown! 2 - Pocket Fighting Series (World) (En,Ja)": {
-		"languages": "En,Ja"
-	},
-	"Shanghai Mini (World) (En,Ja)": {
 		"languages": "En,Ja"
 	},
 	"Shanghai Mini (World) (En,Ja) (Beta 1)": {
 		"languages": "En,Ja"
 	},
 	"Shanghai Mini (World) (En,Ja) (Beta 2)": {
+		"languages": "En,Ja"
+	},
+	"Shanghai Mini (World) (En,Ja)": {
 		"languages": "En,Ja"
 	},
 	"Shinki Sekai Evolution - Hateshinai Dungeon (Japan)": {
@@ -307,9 +337,6 @@
 	},
 	"SNK Gals' Fighters (USA, Europe)": {
 		"languages": "En"
-	},
-	"[BIOS] SNK Neo Geo Pocket Color (World) (En,Ja)": {
-		"languages": "En,Ja"
 	},
 	"SNK vs. Capcom - Card Fighters 2 - Expand Edition (Japan)": {
 		"languages": "Ja"
@@ -326,25 +353,25 @@
 	"SNK vs. Capcom - Gekitotsu Card Fighters - Capcom Supporter Version (Japan)": {
 		"languages": "Ja"
 	},
+	"SNK vs. Capcom - Gekitotsu Card Fighters - SNK Supporter Version (Japan) (Beta)": {
+		"languages": "Ja"
+	},
 	"SNK vs. Capcom - Gekitotsu Card Fighters - SNK Supporter Version (Japan)": {
 		"languages": "Ja"
 	},
-	"SNK vs. Capcom - Gekitotsu Card Fighters - SNK Supporter Version (Japan) (Beta)": {
+	"SNK vs. Capcom - The Match of the Millennium (Japan) (Demo)": {
 		"languages": "Ja"
 	},
 	"SNK vs. Capcom - The Match of the Millennium (World) (En,Ja)": {
 		"languages": "En,Ja"
 	},
-	"SNK vs. Capcom - The Match of the Millennium (Japan) (Demo)": {
-		"languages": "Ja"
-	},
-	"Sonic The Hedgehog - Pocket Adventure (World)": {
+	"Sonic The Hedgehog - Pocket Adventure (World) (Beta) (1999-10-22)": {
 		"languages": "En"
 	},
 	"Sonic The Hedgehog - Pocket Adventure (World) (Demo)": {
 		"languages": "En"
 	},
-	"Sonic The Hedgehog - Pocket Adventure (World) (Beta) (1999-10-22)": {
+	"Sonic The Hedgehog - Pocket Adventure (World)": {
 		"languages": "En"
 	},
 	"Soreike!! Hanafuda Doujou (Japan)": {

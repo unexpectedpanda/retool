@@ -1,4 +1,7 @@
 {
+	"[BIOS] Super Cassette Vision (Japan, France)": {
+		"languages": "En"
+	},
 	"Astro Wars - Invaders from Space (Japan, France)": {
 		"languages": "En"
 	},
@@ -8,10 +11,10 @@
 	"Basic Nyuumon (Japan) (En)": {
 		"languages": "En"
 	},
-	"Boulder Dash (Japan) (En)": {
+	"Boulder Dash (France)": {
 		"languages": "En"
 	},
-	"Boulder Dash (France)": {
+	"Boulder Dash (Japan) (En)": {
 		"languages": "En"
 	},
 	"Comic Circus (Japan) (En)": {
@@ -44,10 +47,10 @@
 	"Miner 2049er (Japan) (En)": {
 		"languages": "En"
 	},
-	"Nebula (Japan) (En)": {
+	"Nebula (Japan) (En) (Alt)": {
 		"languages": "En"
 	},
-	"Nebula (Japan) (En) (Alt 1)": {
+	"Nebula (Japan) (En)": {
 		"languages": "En"
 	},
 	"Pole Position II (Japan) (En)": {
@@ -78,9 +81,6 @@
 		"languages": "En"
 	},
 	"Super Baseball (Japan) (En)": {
-		"languages": "En"
-	},
-	"[BIOS] Super Cassette Vision (Japan, France)": {
 		"languages": "En"
 	},
 	"Super Golf (Japan) (En)": {

@@ -5,26 +5,26 @@
 	"amiibo Kuji Biki Apuri (Japan)": {
 		"languages": "Ja"
 	},
-	"Binding of Isaac - Rebirth, The (USA) (eShop)": {
-		"languages": "En"
-	},
-	"Binding of Isaac - Rebirth, The (USA) (v1040) (eShop)": {
-		"languages": "En"
-	},
-	"Binding of Isaac - Rebirth, The (USA) (v3120) (eShop)": {
-		"languages": "En"
-	},
 	"Binding of Isaac - Rebirth, The (Europe) (eShop)": {
 		"languages": "En"
 	},
 	"Binding of Isaac - Rebirth, The (Japan) (eShop)": {
 		"languages": "Ja"
 	},
+	"Binding of Isaac - Rebirth, The (Japan) [b]": {
+		"languages": "Ja"
+	},
+	"Binding of Isaac - Rebirth, The (USA) (eShop)": {
+		"languages": "En"
+	},
+	"Binding of Isaac - Rebirth, The (USA) (v1040) (eShop)": {
+		"languages": "En"
+	},
 	"Binding of Isaac - Rebirth, The (USA) (v2080) (eShop)": {
 		"languages": "En"
 	},
-	"Binding of Isaac - Rebirth, The (Japan) [b]": {
-		"languages": "Ja"
+	"Binding of Isaac - Rebirth, The (USA) (v3120) (eShop)": {
+		"languages": "En"
 	},
 	"Binding of Isaac, The - Rebirth (Korea)": {
 		"languages": "Ko"
@@ -44,13 +44,19 @@
 	"Breath of Fire (USA, Europe) (SNES) (Virtual Console)": {
 		"languages": "En"
 	},
+	"Breath of Fire - Ryuu no Senshi (Japan) (SNES) (Virtual Console) (Encrypted CIA)": {
+		"languages": "Ja"
+	},
 	"Breath of Fire II (USA, Europe) (SNES) (Virtual Console)": {
 		"languages": "En"
 	},
-	"Brick Race (USA)": {
-		"languages": "En"
+	"Breath of Fire II - Shimei no Ko (Japan) (SNES) (Virtual Console) (Encrypted CIA)": {
+		"languages": "Ja"
 	},
 	"Brick Race (Europe)": {
+		"languages": "En"
+	},
+	"Brick Race (USA)": {
 		"languages": "En"
 	},
 	"Castlevania Dracula X (USA, Europe) (SNES) (Virtual Console)": {
@@ -77,16 +83,28 @@
 	"Cup Critters (USA)": {
 		"languages": "En"
 	},
+	"Demon's Blazon - Makai-Mura Monshou Hen (Japan) (SNES) (Virtual Console) (Encrypted CIA)": {
+		"languages": "Ja"
+	},
 	"Demon's Crest (USA, Europe) (SNES) (Virtual Console)": {
 		"languages": "En"
 	},
-	"Donkey Kong Country (USA, Europe) (SNES) (Virtual Console)": {
-		"languages": "En"
+	"Densetsu no Ogre Battle - The March of the Black Queen (Japan) (SNES) (Virtual Console) (Encrypted CIA)": {
+		"languages": "Ja"
 	},
 	"Donkey Kong Country 2 - Diddy's Kong Quest (USA, Europe) (SNES) (Virtual Console)": {
 		"languages": "En"
 	},
 	"Donkey Kong Country 3 - Dixie Kong's Double Trouble (USA, Europe) (SNES) (Virtual Console)": {
+		"languages": "En"
+	},
+	"Donkey Kong Country (USA, Europe) (SNES) (Virtual Console)": {
+		"languages": "En"
+	},
+	"Dragon Ball Z - Super Butoden 2 (Europe) (SNES) (Virtual Console) (Encrypted CIA)": {
+		"languages": "En"
+	},
+	"Dragon Ball Z - Super Butoden 2 (USA) (SNES) (Virtual Console) (Encrypted CIA)": {
 		"languages": "En"
 	},
 	"Dragon Fang (Japan) [b]": {
@@ -98,17 +116,17 @@
 	"EarthBound (USA, Europe) (SNES) (Virtual Console)": {
 		"languages": "En"
 	},
-	"F-Zero (USA, Europe) (SNES) (Virtual Console)": {
-		"languages": "En"
-	},
 	"F-Zero (Japan) (SNES) (Virtual Console)": {
 		"languages": "Ja"
 	},
-	"Final Fight (Japan) (SNES) (Virtual Console)": {
+	"F-Zero (USA, Europe) (SNES) (Virtual Console)": {
+		"languages": "En"
+	},
+	"Final Fantasy V (Japan) (SNES) (Virtual Console) (Encrypted CIA)": {
 		"languages": "Ja"
 	},
-	"Final Fight (USA, Europe) (SNES) (Virtual Console)": {
-		"languages": "En"
+	"Final Fantasy VI (Japan) (SNES) (Virtual Console) (Encrypted CIA)": {
+		"languages": "Ja"
 	},
 	"Final Fight 2 (Japan) (SNES) (Virtual Console)": {
 		"languages": "Ja"
@@ -117,6 +135,12 @@
 		"languages": "En"
 	},
 	"Final Fight 3 (USA, Europe) (SNES) (Virtual Console)": {
+		"languages": "En"
+	},
+	"Final Fight (Japan) (SNES) (Virtual Console)": {
+		"languages": "Ja"
+	},
+	"Final Fight (USA, Europe) (SNES) (Virtual Console)": {
 		"languages": "En"
 	},
 	"Final Fight Tough (Japan) (SNES) (Virtual Console)": {
@@ -145,6 +169,12 @@
 	},
 	"Galaxy Blaster (USA)": {
 		"languages": "En"
+	},
+	"Ganbare Goemon 2 - Kiteretsu Shougun McGuinness (Japan) (SNES) (Virtual Console) (Encrypted CIA)": {
+		"languages": "Ja"
+	},
+	"Ganbare Goemon 3 - Shishijyuurokubei no Karakuri Manji Katame (Japan) (SNES) (Virtual Console) (Encrypted CIA)": {
+		"languages": "Ja"
 	},
 	"Ganbare Goemon - Yukihime Kyuushutsu Emaki (Japan) (SNES) (Virtual Console)": {
 		"languages": "Ja"
@@ -191,22 +221,25 @@
 	"Mega Man 7 (USA, Europe) (SNES) (Virtual Console)": {
 		"languages": "En"
 	},
-	"Mega Man X (USA, Europe) (SNES) (Virtual Console)": {
-		"languages": "En"
-	},
 	"Mega Man X2 (USA, Europe) (SNES) (Virtual Console)": {
 		"languages": "En"
 	},
 	"Mega Man X3 (USA, Europe) (SNES) (Virtual Console)": {
 		"languages": "En"
 	},
+	"Mega Man X (USA, Europe) (SNES) (Virtual Console)": {
+		"languages": "En"
+	},
+	"Minecraft - New Nintendo 3DS Edition (Japan) (eShop) (Encrypted CIA)": {
+		"languages": "Ja"
+	},
 	"Mother 2 - Gyiyg no Gyakushuu (Japan) (SNES) (Virtual Console)": {
 		"languages": "Ja"
 	},
-	"Nejimaki Knight 2 (Japan)": {
+	"Nejimaki Knight 2 (Japan) (eShop) [b]": {
 		"languages": "Ja"
 	},
-	"Nejimaki Knight 2 (Japan) (eShop) [b]": {
+	"Nejimaki Knight 2 (Japan)": {
 		"languages": "Ja"
 	},
 	"New Nintendo 3DS Limited Sale Invitation Card (Japan)": {
@@ -215,11 +248,11 @@
 	"Panel de Pon (Japan) (SNES) (Virtual Console)": {
 		"languages": "Ja"
 	},
-	"Pilotwings (USA, Europe) (SNES) (Virtual Console)": {
-		"languages": "En"
-	},
 	"Pilotwings (Japan) (SNES) (Virtual Console)": {
 		"languages": "Ja"
+	},
+	"Pilotwings (USA, Europe) (SNES) (Virtual Console)": {
+		"languages": "En"
 	},
 	"Pirate Pop Plus (Europe)": {
 		"languages": "En"
@@ -236,13 +269,13 @@
 	"Rockman 7 - Shukumei no Taiketsu! (Japan) (SNES) (Virtual Console)": {
 		"languages": "Ja"
 	},
-	"RockMan X (Japan) (SNES) (Virtual Console)": {
-		"languages": "Ja"
-	},
 	"Rockman X2 (Japan) (SNES) (Virtual Console)": {
 		"languages": "Ja"
 	},
 	"RockMan X3 (Japan) (SNES) (Virtual Console)": {
+		"languages": "Ja"
+	},
+	"RockMan X (Japan) (SNES) (Virtual Console)": {
 		"languages": "Ja"
 	},
 	"Romancing SaGa (Japan) (SNES) (Virtual Console)": {
@@ -257,11 +290,11 @@
 	"Street Fighter Alpha 2 (USA, Europe) (SNES) (Virtual Console)": {
 		"languages": "En"
 	},
-	"Street Fighter II Turbo - Hyper Fighting (USA, Europe) (SNES) (Virtual Console)": {
-		"languages": "En"
-	},
 	"Street Fighter II Turbo - Hyper Fighting (Japan) (SNES) (Virtual Console)": {
 		"languages": "Ja"
+	},
+	"Street Fighter II Turbo - Hyper Fighting (USA, Europe) (SNES) (Virtual Console)": {
+		"languages": "En"
 	},
 	"Street Fighter Zero 2 (Japan) (SNES) (Virtual Console)": {
 		"languages": "Ja"
@@ -269,13 +302,13 @@
 	"Super Castlevania IV (USA, Europe) (SNES) (Virtual Console)": {
 		"languages": "En"
 	},
-	"Super Donkey Kong (Japan) (SNES) (Virtual Console)": {
-		"languages": "Ja"
-	},
 	"Super Donkey Kong 2 - Dixie & Diddy (Japan) (SNES) (Virtual Console)": {
 		"languages": "Ja"
 	},
 	"Super Donkey Kong 3 - Nazo no Krems Shima (Japan) (SNES) (Virtual Console)": {
+		"languages": "Ja"
+	},
+	"Super Donkey Kong (Japan) (SNES) (Virtual Console)": {
 		"languages": "Ja"
 	},
 	"Super Famicom Wars (Japan) (SNES) (Virtual Console)": {
@@ -284,43 +317,46 @@
 	"Super Ghouls'n Ghosts (USA, Europe) (SNES) (Virtual Console)": {
 		"languages": "En"
 	},
-	"Super Mario Kart (USA, Europe) (SNES) (Virtual Console)": {
-		"languages": "En"
-	},
 	"Super Mario Kart (Japan) (SNES) (Virtual Console)": {
 		"languages": "Ja"
 	},
-	"Super Mario World (USA, Europe) (SNES) (Virtual Console)": {
+	"Super Mario Kart (USA, Europe) (SNES) (Virtual Console)": {
 		"languages": "En"
 	},
 	"Super Mario World (Japan) (SNES) (Virtual Console)": {
 		"languages": "Ja"
 	},
-	"Super Metroid (USA, Europe) (SNES) (Virtual Console)": {
+	"Super Mario World (USA, Europe) (SNES) (Virtual Console)": {
 		"languages": "En"
 	},
 	"Super Metroid (Japan) (SNES) (Virtual Console)": {
 		"languages": "Ja"
 	},
-	"Super Punch-Out!! (USA, Europe) (SNES) (Virtual Console)": {
+	"Super Metroid (USA, Europe) (SNES) (Virtual Console)": {
+		"languages": "En"
+	},
+	"Super Metroid (World) (SNES) (Virtual Console) (Encrypted CIA)": {
 		"languages": "En"
 	},
 	"Super Punch-Out!! (Japan) (SNES) (Virtual Console)": {
 		"languages": "Ja"
 	},
-	"Super Street Fighter II - The New Challengers (USA, Europe) (SNES) (Virtual Console)": {
+	"Super Punch-Out!! (USA, Europe) (SNES) (Virtual Console)": {
 		"languages": "En"
 	},
 	"Super Street Fighter II - The New Challengers (Japan) (SNES) (Virtual Console)": {
 		"languages": "Ja"
 	},
+	"Super Street Fighter II - The New Challengers (USA, Europe) (SNES) (Virtual Console)": {
+		"languages": "En"
+	},
 	"Tactics Ogre - Let Us Cling Together (Japan) (SNES) (Virtual Console)": {
 		"languages": "Ja"
 	},
-	"Wind-up Knight 2 (USA)": {
+	"Wind-up Knight 2 (Europe)": {
 		"languages": "En"
 	},
-	"Wind-up Knight 2 (Europe)": {
+	"Wind-up Knight 2 (USA)": {
 		"languages": "En"
 	},
 	"Xenoblade (Japan) (v2080)": {

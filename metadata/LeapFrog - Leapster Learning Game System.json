@@ -26,22 +26,22 @@
 	"Bob l'eponge - Heros d'un jour (France)": {
 		"languages": "Fr"
 	},
-	"Cars (Germany)": {
-		"languages": "De"
-	},
-	"Cars (USA)": {
+	"Cars 2 (USA)": {
 		"languages": "En"
-	},
-	"Cars (Spain)": {
-		"languages": "Es"
 	},
 	"Cars (France)": {
 		"languages": "Fr"
 	},
-	"Cars - Supercharged (USA)": {
+	"Cars (Germany)": {
+		"languages": "De"
+	},
+	"Cars (Spain)": {
+		"languages": "Es"
+	},
+	"Cars (USA)": {
 		"languages": "En"
 	},
-	"Cars 2 (USA)": {
+	"Cars - Supercharged (USA)": {
 		"languages": "En"
 	},
 	"Clifford - The Big Red Dog - Reading (USA)": {
@@ -179,14 +179,14 @@
 	"Pet Pals (USA)": {
 		"languages": "En"
 	},
+	"Ratatouille (France)": {
+		"languages": "Fr"
+	},
 	"Ratatouille (Germany)": {
 		"languages": "De"
 	},
 	"Ratatouille (USA)": {
 		"languages": "En"
-	},
-	"Ratatouille (France)": {
-		"languages": "Fr"
 	},
 	"Reading with Phonics - Mole's Huge Nose (USA)": {
 		"languages": "En"
@@ -209,10 +209,10 @@
 	"Spider-Man - Schachmatt den Schildersaboteuren! (Germany)": {
 		"languages": "De"
 	},
-	"Spider-Man - The Case of the Sinister Speller (USA)": {
+	"Spider-Man - The Case of the Sinister Speller (USA) (L-MAX)": {
 		"languages": "En"
 	},
-	"Spider-Man - The Case of the Sinister Speller (USA) (L-MAX)": {
+	"Spider-Man - The Case of the Sinister Speller (USA)": {
 		"languages": "En"
 	},
 	"Spongebob Schwammkopf - Zeitreise durch das Wurmloch (Germany)": {
@@ -221,10 +221,10 @@
 	"Spongebob Schwammkopf hat alles im Griff (Germany)": {
 		"languages": "De"
 	},
-	"Spongebob Squarepants - Saves the Day (USA)": {
+	"Spongebob Squarepants - Saves the Day (USA) (L-MAX)": {
 		"languages": "En"
 	},
-	"Spongebob Squarepants - Saves the Day (USA) (L-MAX)": {
+	"Spongebob Squarepants - Saves the Day (USA)": {
 		"languages": "En"
 	},
 	"SpongeBob SquarePants - Through the Wormhole (USA)": {
@@ -248,11 +248,11 @@
 	"Toy Story 3 (USA)": {
 		"languages": "En"
 	},
-	"Up (USA)": {
-		"languages": "En"
-	},
 	"Up (Spain)": {
 		"languages": "Es"
+	},
+	"Up (USA)": {
+		"languages": "En"
 	},
 	"Vorschule (Germany)": {
 		"languages": "De"
@@ -260,11 +260,11 @@
 	"Wall-E (Germany)": {
 		"languages": "De"
 	},
-	"Wall-E (USA)": {
-		"languages": "En"
-	},
 	"Wall-E (Spain)": {
 		"languages": "Es"
+	},
+	"Wall-E (USA)": {
+		"languages": "En"
 	},
 	"Weltraum-Mathe (Germany)": {
 		"languages": "De"

@@ -1,4 +1,25 @@
 {
+	"[BIOS] GamePark GP32 (Europe) (v1.5.7)": {
+		"languages": "En"
+	},
+	"[BIOS] GamePark GP32 (Europe) (v1.6.6) (2003-05-21)": {
+		"languages": "En"
+	},
+	"[BIOS] GamePark GP32 (Europe) (v1.6.6) (2004-10-10)": {
+		"languages": "En"
+	},
+	"[BIOS] GamePark GP32 (Europe) (v1.6.6) (Beta)": {
+		"languages": "En"
+	},
+	"[BIOS] GamePark GP32 (Europe) (v1.6.6)": {
+		"languages": "En"
+	},
+	"[BIOS] GamePark GP32 (Korea) (v1.0.0)": {
+		"languages": "Ko"
+	},
+	"[BIOS] GamePark GP32 (Korea) (v1.5.6)": {
+		"languages": "Ko"
+	},
 	"Astonishia Story R (Korea)": {
 		"languages": "Ko"
 	},
@@ -20,27 +41,6 @@
 	"Dyhard - With Infinite Stairs (Korea)": {
 		"languages": "Ko"
 	},
-	"[BIOS] GamePark GP32 (Europe) (v1.5.7)": {
-		"languages": "En"
-	},
-	"[BIOS] GamePark GP32 (Korea) (v1.5.6)": {
-		"languages": "Ko"
-	},
-	"[BIOS] GamePark GP32 (Europe) (v1.6.6) (Beta)": {
-		"languages": "En"
-	},
-	"[BIOS] GamePark GP32 (Europe) (v1.6.6)": {
-		"languages": "En"
-	},
-	"[BIOS] GamePark GP32 (Korea) (v1.0.0)": {
-		"languages": "Ko"
-	},
-	"[BIOS] GamePark GP32 (Europe) (v1.6.6) (2004-10-10)": {
-		"languages": "En"
-	},
-	"[BIOS] GamePark GP32 (Europe) (v1.6.6) (2003-05-21)": {
-		"languages": "En"
-	},
 	"GP Fight (Korea)": {
 		"languages": "Ko"
 	},
@@ -59,11 +59,11 @@
 	"Little Girl Mill of a Gingko, The (Korea)": {
 		"languages": "Ko"
 	},
-	"Little Wizard (Korea)": {
-		"languages": "Ko"
-	},
 	"Little Wizard (Europe)": {
 		"languages": "En"
+	},
+	"Little Wizard (Korea)": {
+		"languages": "Ko"
 	},
 	"OneShot Voca (Korea)": {
 		"languages": "Ko"
@@ -98,10 +98,10 @@
 	"Wizard Slayer (Korea)": {
 		"languages": "Ko"
 	},
-	"Woody & Kunta - Treasure Island (Korea)": {
-		"languages": "Ko"
-	},
 	"Woody & Kunta - Treasure Island (Europe)": {
 		"languages": "En"
+	},
+	"Woody & Kunta - Treasure Island (Korea)": {
+		"languages": "Ko"
 	}
 }

@@ -1,4 +1,10 @@
 {
+	"[BIOS] SNK Neo Geo Pocket (Japan) (En) (Beta)": {
+		"languages": "En"
+	},
+	"[BIOS] SNK Neo Geo Pocket (Japan, Europe) (En)": {
+		"languages": "En"
+	},
 	"Baseball Stars - Pocket Sports Series (Japan, Europe) (En,Ja)": {
 		"languages": "En,Ja"
 	},
@@ -28,11 +34,5 @@
 	},
 	"Shougi no Tatsujin (Japan)": {
 		"languages": "Ja"
-	},
-	"[BIOS] SNK Neo Geo Pocket (Japan, Europe)": {
-		"languages": "En"
-	},
-	"[BIOS] SNK Neo Geo Pocket (Japan) (En) (Beta)": {
-		"languages": "En"
 	}
 }

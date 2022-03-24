@@ -1,4 +1,19 @@
 {
+	"[BIOS] Commodore 1540 (World)": {
+		"languages": "En"
+	},
+	"[BIOS] Commodore VIC-20 (Europe)": {
+		"languages": "En"
+	},
+	"[BIOS] Commodore VIC-20 (Sweden)": {
+		"languages": "Sv"
+	},
+	"[BIOS] Commodore VIC-20 (USA)": {
+		"languages": "En"
+	},
+	"[BIOS] Commodore VIC-1001 (Japan)": {
+		"languages": "Ja"
+	},
 	"A.E. (World)": {
 		"languages": "En"
 	},
@@ -23,10 +38,10 @@
 	"Alphabet Zoo (Japan, USA)": {
 		"languages": "En"
 	},
-	"Amazing Maze (World)": {
+	"Amazing Maze (World) (Alt)": {
 		"languages": "En"
 	},
-	"Amazing Maze (World) (Alt 1)": {
+	"Amazing Maze (World)": {
 		"languages": "En"
 	},
 	"Amidar (Europe)": {
@@ -35,10 +50,10 @@
 	"Amok! (World)": {
 		"languages": "En"
 	},
-	"Ape Escape (World)": {
+	"Ape Escape (World) (Alt)": {
 		"languages": "En"
 	},
-	"Ape Escape (World) (Alt 1)": {
+	"Ape Escape (World)": {
 		"languages": "En"
 	},
 	"Apple Panic (Japan, USA)": {
@@ -107,10 +122,10 @@
 	"Cannonball Blitz (Japan, USA)": {
 		"languages": "En"
 	},
-	"Capture the Flag (Japan, USA)": {
+	"Capture the Flag (Japan, USA) (Alt)": {
 		"languages": "En"
 	},
-	"Capture the Flag (Japan, USA) (Alt 1)": {
+	"Capture the Flag (Japan, USA)": {
 		"languages": "En"
 	},
 	"Cassette Turbo (World) (Program)": {
@@ -119,10 +134,10 @@
 	"Catch-a-Snatch (Europe)": {
 		"languages": "En"
 	},
-	"Cave-in (World)": {
+	"Cave-in (World) (Alt)": {
 		"languages": "En"
 	},
-	"Cave-in (World) (Alt 1)": {
+	"Cave-in (World)": {
 		"languages": "En"
 	},
 	"Centipede (Japan, USA)": {
@@ -131,10 +146,10 @@
 	"Choplifter (Europe)": {
 		"languages": "En"
 	},
-	"Choplifter (Japan, USA)": {
+	"Choplifter (Japan, USA) (Alt)": {
 		"languages": "En"
 	},
-	"Choplifter (Japan, USA) (Alt 1)": {
+	"Choplifter (Japan, USA)": {
 		"languages": "En"
 	},
 	"Chuck Norris Superkicks (World)": {
@@ -152,22 +167,7 @@
 	"Combasic (World) (SYS 45056) (Program)": {
 		"languages": "En"
 	},
-	"[BIOS] Commodore 1540 (World)": {
-		"languages": "En"
-	},
 	"Commodore Artist (Japan, USA) (Program)": {
-		"languages": "En"
-	},
-	"[BIOS] Commodore VIC-1001 (Japan)": {
-		"languages": "Ja"
-	},
-	"[BIOS] Commodore VIC-20 (Europe)": {
-		"languages": "En"
-	},
-	"[BIOS] Commodore VIC-20 (Sweden)": {
-		"languages": "Sv"
-	},
-	"[BIOS] Commodore VIC-20 (USA)": {
 		"languages": "En"
 	},
 	"Computer War (World)": {
@@ -176,13 +176,13 @@
 	"Congo Bongo (Japan, USA)": {
 		"languages": "En"
 	},
-	"Cosmic Cruncher (World)": {
-		"languages": "En"
-	},
 	"Cosmic Cruncher (World) (Alt 2)": {
 		"languages": "En"
 	},
-	"Cosmic Cruncher (World) (Alt 1)": {
+	"Cosmic Cruncher (World) (Alt)": {
+		"languages": "En"
+	},
+	"Cosmic Cruncher (World)": {
 		"languages": "En"
 	},
 	"Cosmic Jailbreak (Japan, USA)": {
@@ -227,10 +227,10 @@
 	"Donkey Kong (Japan, USA)": {
 		"languages": "En"
 	},
-	"Dot Gobbler (Japan, USA)": {
+	"Dot Gobbler (Japan, USA) (Alt)": {
 		"languages": "En"
 	},
-	"Dot Gobbler (Japan, USA) (Alt 1)": {
+	"Dot Gobbler (Japan, USA)": {
 		"languages": "En"
 	},
 	"Dragonfire (World)": {
@@ -239,28 +239,28 @@
 	"Droids (World)": {
 		"languages": "En"
 	},
-	"E.T. - The Extra-Terrestrial (Europe)": {
+	"E.T. - The Extra-Terrestrial (Europe) (Alt)": {
 		"languages": "En"
 	},
-	"E.T. - The Extra-Terrestrial (Europe) (Alt 1)": {
+	"E.T. - The Extra-Terrestrial (Europe)": {
 		"languages": "En"
 	},
 	"ExBASIC Level II (World) (Program)": {
 		"languages": "En"
 	},
-	"Face Maker (World)": {
+	"Face Maker (World) (Alt)": {
 		"languages": "En"
 	},
-	"Face Maker (World) (Alt 1)": {
+	"Face Maker (World)": {
 		"languages": "En"
 	},
 	"Fast Eddie (Japan, USA)": {
 		"languages": "En"
 	},
-	"Final Orbit + Bumper Bash (Japan, USA)": {
+	"Final Orbit + Bumper Bash (Japan, USA) (Alt)": {
 		"languages": "En"
 	},
-	"Final Orbit + Bumper Bash (Japan, USA) (Alt 1)": {
+	"Final Orbit + Bumper Bash (Japan, USA)": {
 		"languages": "En"
 	},
 	"Flipper 1.0 (Japan, USA)": {
@@ -278,10 +278,10 @@
 	"Galaxian (World)": {
 		"languages": "En"
 	},
-	"Garden Wars (Japan, USA)": {
+	"Garden Wars (Japan, USA) (Alt)": {
 		"languages": "En"
 	},
-	"Garden Wars (Japan, USA) (Alt 1)": {
+	"Garden Wars (Japan, USA)": {
 		"languages": "En"
 	},
 	"Ghost Manor (Japan, USA)": {
@@ -302,10 +302,10 @@
 	"Handy Toolkit (Netherlands) (Program)": {
 		"languages": "Nl"
 	},
-	"HesMon (World) (v1.1) (Program)": {
+	"HesMon (World) (v1.1) (Program) (Alt)": {
 		"languages": "En"
 	},
-	"HesMon (World) (v1.1) (Alt 1) (Program)": {
+	"HesMon (World) (v1.1) (Program)": {
 		"languages": "En"
 	},
 	"HesWriter (World) (v1.1) (Program)": {
@@ -320,10 +320,10 @@
 	"Household Finance (World) (Program)": {
 		"languages": "En"
 	},
-	"IFR (Flight Simulator) (World)": {
+	"IFR (Flight Simulator) (World) (Alt)": {
 		"languages": "En"
 	},
-	"IFR (Flight Simulator) (World) (Alt 1)": {
+	"IFR (Flight Simulator) (World)": {
 		"languages": "En"
 	},
 	"In the Chips (Japan, USA)": {
@@ -368,25 +368,25 @@
 	"Mastertype (World)": {
 		"languages": "En"
 	},
+	"Maze (Japan, USA) (Alt)": {
+		"languages": "En"
+	},
 	"Maze (Japan, USA)": {
 		"languages": "En"
 	},
-	"Maze (Japan, USA) (Alt 1)": {
+	"Medieval Joust (World) (Alt)": {
 		"languages": "En"
 	},
 	"Medieval Joust (World)": {
 		"languages": "En"
 	},
-	"Medieval Joust (World) (Alt 1)": {
-		"languages": "En"
-	},
-	"Menagerie (World)": {
-		"languages": "En"
-	},
 	"Menagerie (World) (Alt 2)": {
 		"languages": "En"
 	},
-	"Menagerie (World) (Alt 1)": {
+	"Menagerie (World) (Alt)": {
+		"languages": "En"
+	},
+	"Menagerie (World)": {
 		"languages": "En"
 	},
 	"Meteor Run (Europe)": {
@@ -395,22 +395,19 @@
 	"Mine Madness (Japan, USA)": {
 		"languages": "En"
 	},
-	"Miner 2049'er (Europe)": {
+	"Miner 2049'er (Europe) (Alt)": {
 		"languages": "En"
 	},
-	"Miner 2049'er (Europe) (Alt 1)": {
+	"Miner 2049'er (Europe)": {
 		"languages": "En"
 	},
 	"Mission Impossible Adventure (World) (SYS 32592)": {
 		"languages": "En"
 	},
+	"Mole Attack (Japan, USA) (Alt)": {
+		"languages": "En"
+	},
 	"Mole Attack (Japan, USA)": {
-		"languages": "En"
-	},
-	"Mole Attack (Japan, USA) (Alt 1)": {
-		"languages": "En"
-	},
-	"Money Wars (Japan, USA)": {
 		"languages": "En"
 	},
 	"Money Wars (Japan, USA) (Alt 2)": {
@@ -419,7 +416,10 @@
 	"Money Wars (Japan, USA) (Alt 3)": {
 		"languages": "En"
 	},
-	"Money Wars (Japan, USA) (Alt 1)": {
+	"Money Wars (Japan, USA) (Alt)": {
+		"languages": "En"
+	},
+	"Money Wars (Japan, USA)": {
 		"languages": "En"
 	},
 	"Monster Maze (World)": {
@@ -440,10 +440,10 @@
 	"Ms. Pac-Man (Japan, USA)": {
 		"languages": "En"
 	},
-	"Mutant Herd (Europe)": {
+	"Mutant Herd (Europe) (Alt)": {
 		"languages": "En"
 	},
-	"Mutant Herd (Europe) (Alt 1)": {
+	"Mutant Herd (Europe)": {
 		"languages": "En"
 	},
 	"Number Crunch (Japan, USA)": {
@@ -461,10 +461,10 @@
 	"Outworld (Japan, USA)": {
 		"languages": "En"
 	},
-	"Pac-Man (World)": {
+	"Pac-Man (World) (Alt)": {
 		"languages": "En"
 	},
-	"Pac-Man (World) (Alt 1)": {
+	"Pac-Man (World)": {
 		"languages": "En"
 	},
 	"Personal Finance (World) (Program)": {
@@ -473,10 +473,10 @@
 	"PET Loader (Europe) (Program)": {
 		"languages": "En"
 	},
-	"Pharaoh's Curse (World)": {
+	"Pharaoh's Curse (World) (Alt)": {
 		"languages": "En"
 	},
-	"Pharaoh's Curse (World) (Alt 1)": {
+	"Pharaoh's Curse (World)": {
 		"languages": "En"
 	},
 	"Pinball (Europe)": {
@@ -491,10 +491,10 @@
 	"Pirate's Cove Adventure (World) (SYS 32592)": {
 		"languages": "En"
 	},
-	"Poker (Japan, USA)": {
+	"Poker (Japan, USA) (Alt)": {
 		"languages": "En"
 	},
-	"Poker (Japan, USA) (Alt 1)": {
+	"Poker (Japan, USA)": {
 		"languages": "En"
 	},
 	"Polaris (Japan, USA)": {
@@ -521,58 +521,58 @@
 	"Q-bert (Japan, USA)": {
 		"languages": "En"
 	},
-	"Quackers (Europe)": {
+	"Quackers (Europe) (Alt)": {
 		"languages": "En"
 	},
-	"Quackers (Europe) (Alt 1)": {
+	"Quackers (Europe)": {
 		"languages": "En"
 	},
 	"Quick Brown Fox (World) (SYS 32692) (Program)": {
 		"languages": "En"
 	},
+	"Raid on Fort Knox (World) (Alt)": {
+		"languages": "En"
+	},
 	"Raid on Fort Knox (World)": {
-		"languages": "En"
-	},
-	"Raid on Fort Knox (World) (Alt 1)": {
-		"languages": "En"
-	},
-	"Rat Hotel (Japan, USA)": {
 		"languages": "En"
 	},
 	"Rat Hotel (Europe)": {
 		"languages": "En"
 	},
+	"Rat Hotel (Japan, USA)": {
+		"languages": "En"
+	},
 	"Renaissance (Japan, USA)": {
+		"languages": "En"
+	},
+	"River Rescue (World) (Alt)": {
 		"languages": "En"
 	},
 	"River Rescue (World)": {
 		"languages": "En"
 	},
-	"River Rescue (World) (Alt 1)": {
+	"Road Race (Japan, USA) (Alt 2)": {
+		"languages": "En"
+	},
+	"Road Race (Japan, USA) (Alt)": {
 		"languages": "En"
 	},
 	"Road Race (Japan, USA)": {
 		"languages": "En"
 	},
-	"Road Race (Japan, USA) (Alt 2)": {
-		"languages": "En"
-	},
-	"Road Race (Japan, USA) (Alt 1)": {
-		"languages": "En"
-	},
 	"Robin Hood (Japan, USA)": {
+		"languages": "En"
+	},
+	"Robot Panic (World) (Alt)": {
 		"languages": "En"
 	},
 	"Robot Panic (World)": {
 		"languages": "En"
 	},
-	"Robot Panic (World) (Alt 1)": {
+	"Sargon II Chess (Japan, USA) (Alt)": {
 		"languages": "En"
 	},
 	"Sargon II Chess (Japan, USA)": {
-		"languages": "En"
-	},
-	"Sargon II Chess (Japan, USA) (Alt 1)": {
 		"languages": "En"
 	},
 	"Satellite Patrol (Japan, USA)": {
@@ -584,10 +584,10 @@
 	"Satellites and Meteorites! (Japan, USA)": {
 		"languages": "En"
 	},
-	"Scorpion (Europe)": {
+	"Scorpion (Europe) (Alt)": {
 		"languages": "En"
 	},
-	"Scorpion (Europe) (Alt 1)": {
+	"Scorpion (Europe)": {
 		"languages": "En"
 	},
 	"Scram 20 (World)": {
@@ -632,16 +632,16 @@
 	"Space Snake (Netherlands)": {
 		"languages": "Nl"
 	},
+	"Speed Math & Bingo Math (Japan, USA) (Alt)": {
+		"languages": "En"
+	},
 	"Speed Math & Bingo Math (Japan, USA)": {
 		"languages": "En"
 	},
-	"Speed Math & Bingo Math (Japan, USA) (Alt 1)": {
+	"Spider City (Japan, USA) (Alt)": {
 		"languages": "En"
 	},
 	"Spider City (Japan, USA)": {
-		"languages": "En"
-	},
-	"Spider City (Japan, USA) (Alt 1)": {
 		"languages": "En"
 	},
 	"Spiders of Mars (Europe)": {
@@ -665,16 +665,16 @@
 	"Star Post (Japan, USA)": {
 		"languages": "En"
 	},
+	"Star Trek - Strategic Operations Simulator (World) (Alt)": {
+		"languages": "En"
+	},
 	"Star Trek - Strategic Operations Simulator (World)": {
 		"languages": "En"
 	},
-	"Star Trek - Strategic Operations Simulator (World) (Alt 1)": {
+	"Story Machine (World) (Alt)": {
 		"languages": "En"
 	},
 	"Story Machine (World)": {
-		"languages": "En"
-	},
-	"Story Machine (World) (Alt 1)": {
 		"languages": "En"
 	},
 	"Sub Chase (Europe)": {
@@ -683,10 +683,10 @@
 	"Submarine Commander (World)": {
 		"languages": "En"
 	},
-	"Super Amok (Japan, USA)": {
+	"Super Amok (Japan, USA) (Alt)": {
 		"languages": "En"
 	},
-	"Super Amok (Japan, USA) (Alt 1)": {
+	"Super Amok (Japan, USA)": {
 		"languages": "En"
 	},
 	"Super Expander (World) (Program)": {
@@ -695,10 +695,10 @@
 	"Super Smash (Europe)": {
 		"languages": "En"
 	},
-	"Super Smash (Japan, USA)": {
+	"Super Smash (Japan, USA) (Alt)": {
 		"languages": "En"
 	},
-	"Super Smash (Japan, USA) (Alt 1)": {
+	"Super Smash (Japan, USA)": {
 		"languages": "En"
 	},
 	"Synthesound (World) (Program)": {
@@ -734,13 +734,13 @@
 	"Turmoil (Japan, USA)": {
 		"languages": "En"
 	},
+	"Turtle Graphics (World) (Program) (Alt 2)": {
+		"languages": "En"
+	},
+	"Turtle Graphics (World) (Program) (Alt)": {
+		"languages": "En"
+	},
 	"Turtle Graphics (World) (Program)": {
-		"languages": "En"
-	},
-	"Turtle Graphics (World) (Alt 2) (Program)": {
-		"languages": "En"
-	},
-	"Turtle Graphics (World) (Alt 1) (Program)": {
 		"languages": "En"
 	},
 	"Tutankham (World)": {
@@ -758,10 +758,10 @@
 	"VC Song-Cartridge - Inventio-Pac (Germany) (Program) [b]": {
 		"languages": "De"
 	},
-	"VC Song-Cartridge - The Mad Boogy (Germany) (Program)": {
+	"VC Song-Cartridge - The Mad Boogy (Germany) (Program) (Alt)": {
 		"languages": "De"
 	},
-	"VC Song-Cartridge - The Mad Boogy (Germany) (Alt 1) (Program)": {
+	"VC Song-Cartridge - The Mad Boogy (Germany) (Program)": {
 		"languages": "De"
 	},
 	"VC Song-Cartridge - The Synthe-Song (Germany) (Program)": {
@@ -788,10 +788,10 @@
 	"VIC Graph (World) (Program)": {
 		"languages": "En"
 	},
-	"VIC Music Composer, The (Japan, USA) (Program)": {
+	"VIC Music Composer, The (Japan, USA) (Program) (Alt)": {
 		"languages": "En"
 	},
-	"VIC Music Composer, The (Japan, USA) (Alt 1) (Program)": {
+	"VIC Music Composer, The (Japan, USA) (Program)": {
 		"languages": "En"
 	},
 	"VIC Rabbit (World) (Program) [b]": {
@@ -800,10 +800,10 @@
 	"VIC Radar Rat Race (Europe)": {
 		"languages": "En"
 	},
-	"VIC Radar Rat Race (Japan, USA)": {
+	"VIC Radar Rat Race (Japan, USA) (Alt)": {
 		"languages": "En"
 	},
-	"VIC Radar Rat Race (Japan, USA) (Alt 1)": {
+	"VIC Radar Rat Race (Japan, USA)": {
 		"languages": "En"
 	},
 	"VIC Stat (World) (Program)": {
@@ -812,19 +812,19 @@
 	"VIC Super Lander (Japan, USA)": {
 		"languages": "En"
 	},
+	"VIC Super Slot (Japan, USA) (Alt)": {
+		"languages": "En"
+	},
 	"VIC Super Slot (Japan, USA)": {
 		"languages": "En"
 	},
-	"VIC Super Slot (Japan, USA) (Alt 1)": {
+	"VICMon 2 (World) (SYS 24576) (Program)": {
 		"languages": "En"
 	},
 	"VICMon (World) (SYS 24576) (Program)": {
 		"languages": "En"
 	},
 	"VICMon (World) (SYS 45056) (Program)": {
-		"languages": "En"
-	},
-	"VICMon 2 (World) (SYS 24576) (Program)": {
 		"languages": "En"
 	},
 	"Victerm 40 (World) (Program)": {
@@ -842,13 +842,13 @@
 	"Videomania (Japan, USA)": {
 		"languages": "En"
 	},
-	"Visible Solar System, The (World)": {
-		"languages": "En"
-	},
 	"Visible Solar System, The (World) (Alt 2)": {
 		"languages": "En"
 	},
-	"Visible Solar System, The (World) (Alt 1)": {
+	"Visible Solar System, The (World) (Alt)": {
+		"languages": "En"
+	},
+	"Visible Solar System, The (World)": {
 		"languages": "En"
 	},
 	"Voodoo Castle Adventure (World) (SYS 32592)": {
@@ -860,13 +860,13 @@
 	"Wacky Waiters (Europe) (SYS 48896)": {
 		"languages": "En"
 	},
+	"Wordcraft 20 (World) (Program) (Alt 2)": {
+		"languages": "En"
+	},
+	"Wordcraft 20 (World) (Program) (Alt)": {
+		"languages": "En"
+	},
 	"Wordcraft 20 (World) (Program)": {
-		"languages": "En"
-	},
-	"Wordcraft 20 (World) (Alt 2) (Program)": {
-		"languages": "En"
-	},
-	"Wordcraft 20 (World) (Alt 1) (Program)": {
 		"languages": "En"
 	},
 	"World at War, A (World)": {

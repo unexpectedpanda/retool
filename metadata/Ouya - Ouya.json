@@ -1,50 +1,8 @@
 {
-	"100 Rogues (World)": {
-		"languages": "En"
-	},
-	"123 Animal First Grade Math Games for Kids (World)": {
-		"languages": "En"
-	},
-	"123 Animal Math Games for Kids (World) (v1.2)": {
-		"languages": "En"
-	},
-	"123 Animal Preschool Games for Kids (World) (v1.1)": {
-		"languages": "En"
-	},
-	"123 Animal Second Grade Math Games for Kids (World)": {
-		"languages": "En"
-	},
 	"1v1 Arcade Soccer (World)": {
 		"languages": "En"
 	},
-	"20.8 Percent (World) (v1.1)": {
-		"languages": "En"
-	},
-	"2048 (World)": {
-		"languages": "En"
-	},
-	"24 Locks (World) (v1.0.13)": {
-		"languages": "En"
-	},
-	"2600.emu (World) (v1.5.12)": {
-		"languages": "En"
-	},
-	"2600.emu (World) (v1.5.19)": {
-		"languages": "En"
-	},
-	"2600.emu (World) (v1.5.21)": {
-		"languages": "En"
-	},
-	"2600.emu (World) (v1.5.28)": {
-		"languages": "En"
-	},
-	"27 Invisible Mazes (World) (v1.0.1)": {
-		"languages": "En"
-	},
 	"2player (World) (v2.0.63)": {
-		"languages": "En"
-	},
-	"360 Hover Parking (World)": {
 		"languages": "En"
 	},
 	"3D Checkers for OUYA (World) (v1.01)": {
@@ -71,16 +29,58 @@
 	"4th & Goal Football (World) (v1.3)": {
 		"languages": "En"
 	},
-	"80, The (World)": {
-		"languages": "En"
-	},
 	"8Bit Boulders (World)": {
 		"languages": "En"
 	},
 	"8Bit Ninjas (World)": {
 		"languages": "En"
 	},
+	"20.8 Percent (World) (v1.1)": {
+		"languages": "En"
+	},
+	"24 Locks (World) (v1.0.13)": {
+		"languages": "En"
+	},
+	"27 Invisible Mazes (World) (v1.0.1)": {
+		"languages": "En"
+	},
+	"80, The (World)": {
+		"languages": "En"
+	},
 	"99 Waves to Die (World) (v1.21)": {
+		"languages": "En"
+	},
+	"100 Rogues (World)": {
+		"languages": "En"
+	},
+	"123 Animal First Grade Math Games for Kids (World)": {
+		"languages": "En"
+	},
+	"123 Animal Math Games for Kids (World) (v1.2)": {
+		"languages": "En"
+	},
+	"123 Animal Preschool Games for Kids (World) (v1.1)": {
+		"languages": "En"
+	},
+	"123 Animal Second Grade Math Games for Kids (World)": {
+		"languages": "En"
+	},
+	"360 Hover Parking (World)": {
+		"languages": "En"
+	},
+	"2048 (World)": {
+		"languages": "En"
+	},
+	"2600.emu (World) (v1.5.12)": {
+		"languages": "En"
+	},
+	"2600.emu (World) (v1.5.19)": {
+		"languages": "En"
+	},
+	"2600.emu (World) (v1.5.21)": {
+		"languages": "En"
+	},
+	"2600.emu (World) (v1.5.28)": {
 		"languages": "En"
 	},
 	"A.D. 2442 (World) (v1.3.1)": {
@@ -158,16 +158,16 @@
 	"Alien Resource Battle (World) (v1.2)": {
 		"languages": "En"
 	},
-	"Alien Spindome (World)": {
+	"Alien Spindome (World) (Alt 2)": {
+		"languages": "En"
+	},
+	"Alien Spindome (World) (Alt)": {
 		"languages": "En"
 	},
 	"Alien Spindome (World) (v1.1)": {
 		"languages": "En"
 	},
-	"Alien Spindome (World) (Alt1)": {
-		"languages": "En"
-	},
-	"Alien Spindome (World) (Alt2)": {
+	"Alien Spindome (World)": {
 		"languages": "En"
 	},
 	"Alien Violator (World)": {
@@ -182,13 +182,13 @@
 	"Alley Cat Simulator (World) (v1.1)": {
 		"languages": "En"
 	},
-	"Alpha Collexion (World)": {
+	"Alpha Collexion (World) (Alt)": {
 		"languages": "En"
 	},
 	"Alpha Collexion (World) (v1.1)": {
 		"languages": "En"
 	},
-	"Alpha Collexion (World) (Alt)": {
+	"Alpha Collexion (World)": {
 		"languages": "En"
 	},
 	"Alpha Wave (World)": {
@@ -491,16 +491,16 @@
 	"Bit Dungeon (World) (v2.24)": {
 		"languages": "En"
 	},
-	"Bit of a Do (World) (v1.1)": {
-		"languages": "En"
-	},
 	"Bit of a Do (World) (v1.1) (Alt)": {
 		"languages": "En"
 	},
-	"Bit of a Do (World) (v1.2)": {
+	"Bit of a Do (World) (v1.1)": {
 		"languages": "En"
 	},
 	"Bit of a Do (World) (v1.2) (Alt)": {
+		"languages": "En"
+	},
+	"Bit of a Do (World) (v1.2)": {
 		"languages": "En"
 	},
 	"Bit of a Fist of Awesome, A (World)": {
@@ -512,9 +512,6 @@
 	"Black Friday Rush (World) (v1.2)": {
 		"languages": "En"
 	},
-	"Black Hole (World)": {
-		"languages": "En"
-	},
 	"Black Hole (World) (v0.8)": {
 		"languages": "En"
 	},
@@ -522,6 +519,9 @@
 		"languages": "En"
 	},
 	"Black Hole (World) (v1.01)": {
+		"languages": "En"
+	},
+	"Black Hole (World)": {
 		"languages": "En"
 	},
 	"Black Square (World) (v1.0.1)": {
@@ -542,19 +542,19 @@
 	"Blast Trax (World) (v1.2)": {
 		"languages": "En"
 	},
-	"Blast Trax (World) (v1.3)": {
+	"Blast Trax (World) (v1.3) (Alt)": {
 		"languages": "En"
 	},
-	"Blast Trax (World) (v1.3) (Alt)": {
+	"Blast Trax (World) (v1.3)": {
 		"languages": "En"
 	},
 	"Blob (World)": {
 		"languages": "En"
 	},
-	"Blobby (World) (v1.11)": {
+	"Blobby (World) (v1.9)": {
 		"languages": "En"
 	},
-	"Blobby (World) (v1.9)": {
+	"Blobby (World) (v1.11)": {
 		"languages": "En"
 	},
 	"Blobs Adventure (World) (v1.02)": {
@@ -575,34 +575,34 @@
 	"Block Push Championship (World)": {
 		"languages": "En"
 	},
-	"Blockman (World)": {
-		"languages": "En"
-	},
-	"Blockman (World) (v1.1)": {
+	"Blockman (World) (Alt)": {
 		"languages": "En"
 	},
 	"Blockman (World) (v1.1) (Alt)": {
 		"languages": "En"
 	},
-	"Blockman (World) (Alt)": {
+	"Blockman (World) (v1.1)": {
 		"languages": "En"
 	},
-	"Blockman Returns (World)": {
+	"Blockman (World)": {
 		"languages": "En"
 	},
 	"Blockman Returns (World) (Alt)": {
 		"languages": "En"
 	},
-	"Blockman Worlds (World)": {
+	"Blockman Returns (World)": {
 		"languages": "En"
 	},
-	"Blockman Worlds (World) (v1.1)": {
+	"Blockman Worlds (World) (Alt)": {
 		"languages": "En"
 	},
 	"Blockman Worlds (World) (v1.1) (Alt)": {
 		"languages": "En"
 	},
-	"Blockman Worlds (World) (Alt)": {
+	"Blockman Worlds (World) (v1.1)": {
+		"languages": "En"
+	},
+	"Blockman Worlds (World)": {
 		"languages": "En"
 	},
 	"BlockSlider (World)": {
@@ -650,16 +650,16 @@
 	"Bomb Squad (World) (v1.3.29)": {
 		"languages": "En"
 	},
-	"Bomb Squad (World) (v1.4.123)": {
-		"languages": "En"
-	},
-	"Bomb Squad (World) (v1.4.132)": {
-		"languages": "En"
-	},
 	"Bomb Squad (World) (v1.4.14)": {
 		"languages": "En"
 	},
 	"Bomb Squad (World) (v1.4.58)": {
+		"languages": "En"
+	},
+	"Bomb Squad (World) (v1.4.123)": {
+		"languages": "En"
+	},
+	"Bomb Squad (World) (v1.4.132)": {
 		"languages": "En"
 	},
 	"Bombball (World)": {
@@ -695,16 +695,16 @@
 	"BoulderJape (World)": {
 		"languages": "En"
 	},
-	"Bounce a Ball (World)": {
-		"languages": "En"
-	},
-	"Bounce a Ball (World) (v1.1)": {
+	"Bounce a Ball (World) (Alt)": {
 		"languages": "En"
 	},
 	"Bounce a Ball (World) (v1.1) (Alt)": {
 		"languages": "En"
 	},
-	"Bounce a Ball (World) (Alt)": {
+	"Bounce a Ball (World) (v1.1)": {
+		"languages": "En"
+	},
+	"Bounce a Ball (World)": {
 		"languages": "En"
 	},
 	"Bowling (World) (v1.1)": {
@@ -713,19 +713,16 @@
 	"Box Cat (World)": {
 		"languages": "En"
 	},
-	"Boxsplodings (World)": {
-		"languages": "En"
-	},
-	"Boxsplodings (World) (v1.2)": {
+	"Boxsplodings (World) (Alt)": {
 		"languages": "En"
 	},
 	"Boxsplodings (World) (v1.2) (Alt)": {
 		"languages": "En"
 	},
-	"Boxsplodings (World) (Alt)": {
+	"Boxsplodings (World) (v1.2)": {
 		"languages": "En"
 	},
-	"Brick Breaker Premium (World) (v1.5.0)": {
+	"Boxsplodings (World)": {
 		"languages": "En"
 	},
 	"Brick Breaker Premium 2 (World) (v1.4.0)": {
@@ -734,13 +731,16 @@
 	"Brick Breaker Premium 3 (World) (v1.3.0)": {
 		"languages": "En"
 	},
+	"Brick Breaker Premium (World) (v1.5.0)": {
+		"languages": "En"
+	},
 	"BrickBreakBlitz (World)": {
 		"languages": "En"
 	},
-	"Bridge (World)": {
+	"Bridge (World) (Alt)": {
 		"languages": "En"
 	},
-	"Bridge (World) (Alt)": {
+	"Bridge (World)": {
 		"languages": "En"
 	},
 	"Bridge, The (World)": {
@@ -785,10 +785,10 @@
 	"Bubblr (World) (v0.75.067)": {
 		"languages": "En"
 	},
-	"Bugsplodings (World)": {
+	"Bugsplodings (World) (Alt)": {
 		"languages": "En"
 	},
-	"Bugsplodings (World) (Alt)": {
+	"Bugsplodings (World)": {
 		"languages": "En"
 	},
 	"Build It Up (World) (v1.6)": {
@@ -827,9 +827,6 @@
 	"Butt (World)": {
 		"languages": "En"
 	},
-	"C. Kane (World) (v1.0.9)": {
-		"languages": "En"
-	},
 	"C64.emu (World) (v1.5.12)": {
 		"languages": "En"
 	},
@@ -842,19 +839,22 @@
 	"C64.emu (World) (v1.5.28)": {
 		"languages": "En"
 	},
+	"C. Kane (World) (v1.0.9)": {
+		"languages": "En"
+	},
 	"Cabs vs. Helicopter (World) (v2)": {
 		"languages": "En"
 	},
 	"Cactus Sam (World)": {
 		"languages": "En"
 	},
-	"Canabalt HD (World) (v3)": {
+	"Canabalt HD (World) (v2.1)": {
 		"languages": "En"
 	},
 	"Canabalt HD (World) (v2.02)": {
 		"languages": "En"
 	},
-	"Canabalt HD (World) (v2.1)": {
+	"Canabalt HD (World) (v3)": {
 		"languages": "En"
 	},
 	"Candy Raver (World) (v1.6.0)": {
@@ -875,10 +875,10 @@
 	"Card Match 3D (World) (v1.2)": {
 		"languages": "En"
 	},
-	"Card of Testing (World)": {
+	"Card of Testing (World) (Alt)": {
 		"languages": "En"
 	},
-	"Card of Testing (World) (Alt)": {
+	"Card of Testing (World)": {
 		"languages": "En"
 	},
 	"Cardsharp (World)": {
@@ -965,10 +965,10 @@
 	"ChromaSolidify (World)": {
 		"languages": "En"
 	},
-	"Chrono Blade (World)": {
+	"Chrono Blade (World) (Alt)": {
 		"languages": "En"
 	},
-	"Chrono Blade (World) (Alt)": {
+	"Chrono Blade (World)": {
 		"languages": "En"
 	},
 	"Chuck (World) (v1.0.3)": {
@@ -980,10 +980,10 @@
 	"ChuckaBall (World) (v1.5)": {
 		"languages": "En"
 	},
-	"ChuckaBall (World) (v1.6)": {
+	"ChuckaBall (World) (v1.6) (Alt)": {
 		"languages": "En"
 	},
-	"ChuckaBall (World) (v1.6) (Alt)": {
+	"ChuckaBall (World) (v1.6)": {
 		"languages": "En"
 	},
 	"Clam Digger (World) (v1.0.5)": {
@@ -1004,10 +1004,10 @@
 	"Clumsy Shark (World) (v1.5)": {
 		"languages": "En"
 	},
-	"Clusters of Hex (World) (v1.1)": {
+	"Clusters of Hex (World) (v1.1) (Alt)": {
 		"languages": "En"
 	},
-	"Clusters of Hex (World) (v1.1) (Alt)": {
+	"Clusters of Hex (World) (v1.1)": {
 		"languages": "En"
 	},
 	"Coconut Hut (World) (v1.1.1)": {
@@ -1016,16 +1016,16 @@
 	"Cogworks - Mayhem (World) (v2)": {
 		"languages": "En"
 	},
-	"Collector (World) (v1.2)": {
-		"languages": "En"
-	},
 	"Collector (World) (v1.2) (Alt)": {
 		"languages": "En"
 	},
-	"Collector (World) (v1.3)": {
+	"Collector (World) (v1.2)": {
 		"languages": "En"
 	},
 	"Collector (World) (v1.3) (Alt)": {
+		"languages": "En"
+	},
+	"Collector (World) (v1.3)": {
 		"languages": "En"
 	},
 	"Colour Combat (World)": {
@@ -1124,13 +1124,13 @@
 	"Crypto Miner (World) (v1.1.6)": {
 		"languages": "En"
 	},
-	"Crystal Picnic (World) (v1.10.0)": {
-		"languages": "En"
-	},
 	"Crystal Picnic (World) (v1.5)": {
 		"languages": "En"
 	},
 	"Crystal Picnic (World) (v1.8)": {
+		"languages": "En"
+	},
+	"Crystal Picnic (World) (v1.10.0)": {
 		"languages": "En"
 	},
 	"Crystaloid (World)": {
@@ -1154,10 +1154,10 @@
 	"Cubinator (World)": {
 		"languages": "En"
 	},
-	"Cuddly Cuddly Bears (World) (v1.4)": {
+	"Cuddly Cuddly Bears (World) (v1.4) (Alt)": {
 		"languages": "En"
 	},
-	"Cuddly Cuddly Bears (World) (v1.4) (Alt)": {
+	"Cuddly Cuddly Bears (World) (v1.4)": {
 		"languages": "En"
 	},
 	"Culina the Spirit of Cooking (World) (v0.91.4)": {
@@ -1181,10 +1181,10 @@
 	"D-GLES (World) (v1.2.31)": {
 		"languages": "En"
 	},
-	"Dangerous World of Castles, The (World)": {
+	"Dangerous World of Castles, The (World) (Alt)": {
 		"languages": "En"
 	},
-	"Dangerous World of Castles, The (World) (Alt)": {
+	"Dangerous World of Castles, The (World)": {
 		"languages": "En"
 	},
 	"Daring Escape (World) (v0.1.0)": {
@@ -1229,10 +1229,10 @@
 	"Deconstructed Horizons (World)": {
 		"languages": "En"
 	},
-	"Deep Dungeons of Doom (World) (v1.02)": {
+	"Deep Dungeons of Doom (World) (v1.1.0)": {
 		"languages": "En"
 	},
-	"Deep Dungeons of Doom (World) (v1.1.0)": {
+	"Deep Dungeons of Doom (World) (v1.02)": {
 		"languages": "En"
 	},
 	"Def (World) (v2.19)": {
@@ -1283,22 +1283,22 @@
 	"DireRPG (World) (v1.06.49)": {
 		"languages": "En"
 	},
-	"Disc Blaster (World)": {
-		"languages": "En"
-	},
 	"Disc Blaster (World) (v1.1)": {
-		"languages": "En"
-	},
-	"Disc Blaster (World) (v1.2)": {
 		"languages": "En"
 	},
 	"Disc Blaster (World) (v1.2) (Alt)": {
 		"languages": "En"
 	},
-	"Disco Bert and the Curse of the Evil Mummies (World)": {
+	"Disc Blaster (World) (v1.2)": {
+		"languages": "En"
+	},
+	"Disc Blaster (World)": {
 		"languages": "En"
 	},
 	"Disco Bert and the Curse of the Evil Mummies (World) (Alt)": {
+		"languages": "En"
+	},
+	"Disco Bert and the Curse of the Evil Mummies (World)": {
 		"languages": "En"
 	},
 	"Discouraged Workers (World) (v2.2.0.4) (Demo)": {
@@ -1331,13 +1331,13 @@
 	"Dogfight (World) (v4.4.33)": {
 		"languages": "En"
 	},
-	"Don (World)": {
-		"languages": "En"
-	},
 	"Don (World) (v1.1)": {
 		"languages": "En"
 	},
 	"Don (World) (v1.2.0)": {
+		"languages": "En"
+	},
+	"Don (World)": {
 		"languages": "En"
 	},
 	"Don't Eat Soap (World) (v1.1.15)": {
@@ -1412,13 +1412,13 @@
 	"Dropchord (World)": {
 		"languages": "En"
 	},
+	"DubWars (World) (Alt)": {
+		"languages": "En"
+	},
 	"DubWars (World) (v1.1)": {
 		"languages": "En"
 	},
 	"DubWars (World)": {
-		"languages": "En"
-	},
-	"DubWars (World) (Alt)": {
 		"languages": "En"
 	},
 	"Duck Game (World) (v1.03)": {
@@ -1460,16 +1460,16 @@
 	"EFMB (World) (v1.0.19)": {
 		"languages": "En"
 	},
-	"EGBDF (World)": {
-		"languages": "En"
-	},
-	"EGBDF (World) (v1.1)": {
+	"EGBDF (World) (Alt)": {
 		"languages": "En"
 	},
 	"EGBDF (World) (v1.1) (Alt)": {
 		"languages": "En"
 	},
-	"EGBDF (World) (Alt)": {
+	"EGBDF (World) (v1.1)": {
+		"languages": "En"
+	},
+	"EGBDF (World)": {
 		"languages": "En"
 	},
 	"EGGHEAD (World) (v1.01)": {
@@ -1481,13 +1481,13 @@
 	"Elliot Quest (World) (v1.1.6)": {
 		"languages": "En"
 	},
+	"Emoji World 2 (World) (v2.2.0)": {
+		"languages": "En"
+	},
 	"Emoji World (World) (v1.1.0)": {
 		"languages": "En"
 	},
 	"Emoji World (World) (v1.2.0)": {
-		"languages": "En"
-	},
-	"Emoji World 2 (World) (v2.2.0)": {
 		"languages": "En"
 	},
 	"EMUya (World) (v1.5.0)": {
@@ -1496,22 +1496,22 @@
 	"EMUya (World) (v1.5.1)": {
 		"languages": "En"
 	},
-	"EnbornX (World)": {
-		"languages": "En"
-	},
 	"EnbornX (World) (Alt)": {
 		"languages": "En"
 	},
-	"Endless Forest (World)": {
+	"EnbornX (World)": {
 		"languages": "En"
 	},
-	"Endless Forest (World) (v1.1)": {
+	"Endless Forest (World) (Alt)": {
 		"languages": "En"
 	},
 	"Endless Forest (World) (v1.1) (Alt)": {
 		"languages": "En"
 	},
-	"Endless Forest (World) (Alt)": {
+	"Endless Forest (World) (v1.1)": {
+		"languages": "En"
+	},
+	"Endless Forest (World)": {
 		"languages": "En"
 	},
 	"Endless Maze (World)": {
@@ -1625,16 +1625,16 @@
 	"Fast Manicz (World)": {
 		"languages": "En"
 	},
-	"FC-1986 (World)": {
-		"languages": "En"
-	},
-	"FC-1986 (World) (v1.1)": {
+	"FC-1986 (World) (Alt)": {
 		"languages": "En"
 	},
 	"FC-1986 (World) (v1.1) (Alt)": {
 		"languages": "En"
 	},
-	"FC-1986 (World) (Alt)": {
+	"FC-1986 (World) (v1.1)": {
+		"languages": "En"
+	},
+	"FC-1986 (World)": {
 		"languages": "En"
 	},
 	"Fenix Box (World) (v2.0.42)": {
@@ -1655,13 +1655,13 @@
 	"Final Fantasy III (World) (v1.0.1)": {
 		"languages": "En"
 	},
-	"Final Warrior, The (World)": {
-		"languages": "En"
-	},
 	"Final Warrior, The (World) (v1.1)": {
 		"languages": "En"
 	},
 	"Final Warrior, The (World) (v1.2)": {
+		"languages": "En"
+	},
+	"Final Warrior, The (World)": {
 		"languages": "En"
 	},
 	"Final Warriorfish, The (World)": {
@@ -1700,10 +1700,10 @@
 	"Flap for Life (World)": {
 		"languages": "En"
 	},
-	"Flappadiddle (World)": {
+	"Flappadiddle (World) (Alt)": {
 		"languages": "En"
 	},
-	"Flappadiddle (World) (Alt)": {
+	"Flappadiddle (World)": {
 		"languages": "En"
 	},
 	"Flappy Crow (World) (v1.0.1)": {
@@ -1793,16 +1793,16 @@
 	"Fotonica (World)": {
 		"languages": "En"
 	},
-	"FP Runner (World) (v1.06)": {
-		"languages": "En"
-	},
-	"FP Runner (World) (v1.11)": {
-		"languages": "En"
-	},
 	"FP Runner 2 (World) (v1.02)": {
 		"languages": "En"
 	},
 	"FP Runner 2 (World)": {
+		"languages": "En"
+	},
+	"FP Runner (World) (v1.06)": {
+		"languages": "En"
+	},
+	"FP Runner (World) (v1.11)": {
 		"languages": "En"
 	},
 	"FPse (World) (v0.11.135)": {
@@ -1832,10 +1832,10 @@
 	"Freecell Solitaire (World) (v1.2)": {
 		"languages": "En"
 	},
-	"Freedom Fall (World) (v1.02)": {
+	"Freedom Fall (World) (v1.1)": {
 		"languages": "En"
 	},
-	"Freedom Fall (World) (v1.1)": {
+	"Freedom Fall (World) (v1.02)": {
 		"languages": "En"
 	},
 	"Freedroid (World)": {
@@ -1865,10 +1865,10 @@
 	"Frustrating Tic Tac Toe (World) (v3.0.3)": {
 		"languages": "En"
 	},
-	"FullBlast (World) (v1.47)": {
+	"FullBlast (World) (v1.5)": {
 		"languages": "En"
 	},
-	"FullBlast (World) (v1.5)": {
+	"FullBlast (World) (v1.47)": {
 		"languages": "En"
 	},
 	"FullCourt Thunder (World)": {
@@ -1883,16 +1883,16 @@
 	"Furfur and Nublo (World)": {
 		"languages": "En"
 	},
-	"Futrino (World)": {
+	"Futrino (World) (Alt 2)": {
 		"languages": "En"
 	},
-	"Futrino (World) (Alt1)": {
+	"Futrino (World) (Alt)": {
 		"languages": "En"
 	},
 	"Futrino (World) (v1.1)": {
 		"languages": "En"
 	},
-	"Futrino (World) (Alt2)": {
+	"Futrino (World)": {
 		"languages": "En"
 	},
 	"Galactic Hero (World) (v1.1)": {
@@ -1901,10 +1901,10 @@
 	"Galaxa Gems OUYA (World) (v1.4)": {
 		"languages": "En"
 	},
-	"Galaxoid (World) (v1.3.1)": {
+	"Galaxoid (World) (v1.3.1) (Alt)": {
 		"languages": "En"
 	},
-	"Galaxoid (World) (v1.3.1) (Alt)": {
+	"Galaxoid (World) (v1.3.1)": {
 		"languages": "En"
 	},
 	"Galaxoid (World)": {
@@ -1934,10 +1934,10 @@
 	"Garnatron (World) (v1.0.3)": {
 		"languages": "En"
 	},
-	"Gaurodan (World) (v1.0.10)": {
+	"Gaurodan (World) (v1.0.6)": {
 		"languages": "En"
 	},
-	"Gaurodan (World) (v1.0.6)": {
+	"Gaurodan (World) (v1.0.10)": {
 		"languages": "En"
 	},
 	"GBA.emu (World) (v1.5.12)": {
@@ -1970,10 +1970,10 @@
 	"Geartography (World)": {
 		"languages": "En"
 	},
-	"Gee Liz (World)": {
+	"Gee Liz (World) (Alt)": {
 		"languages": "En"
 	},
-	"Gee Liz (World) (Alt)": {
+	"Gee Liz (World)": {
 		"languages": "En"
 	},
 	"Gem Crazy (World)": {
@@ -2084,10 +2084,10 @@
 	"Gravestompers (World) (v1.03)": {
 		"languages": "En"
 	},
-	"Gravi (World)": {
+	"Gravi (World) (Alt)": {
 		"languages": "En"
 	},
-	"Gravi (World) (Alt)": {
+	"Gravi (World)": {
 		"languages": "En"
 	},
 	"GraviBots (World) (v1.3)": {
@@ -2096,22 +2096,22 @@
 	"Gravity Gods (World) (v1.0.1)": {
 		"languages": "En"
 	},
-	"Greedy Mouse (World) (v16.01.13)": {
-		"languages": "En"
-	},
 	"Greedy Mouse (World) (v3.4)": {
 		"languages": "En"
 	},
 	"Greedy Mouse (World) (v3.7)": {
 		"languages": "En"
 	},
+	"Greedy Mouse (World) (v16.01.13)": {
+		"languages": "En"
+	},
+	"Greenies Little Adventure (World) (Alt)": {
+		"languages": "En"
+	},
 	"Greenies Little Adventure (World) (v1.1)": {
 		"languages": "En"
 	},
 	"Greenies Little Adventure (World)": {
-		"languages": "En"
-	},
-	"Greenies Little Adventure (World) (Alt)": {
 		"languages": "En"
 	},
 	"Greenies MiniQuest (World)": {
@@ -2159,13 +2159,13 @@
 	"Guns 'N Glory WW2 (World) (v1.4.2)": {
 		"languages": "En"
 	},
+	"Gunslugs 2 (World) (v1.3.2)": {
+		"languages": "En"
+	},
 	"Gunslugs (World) (v1.3.2)": {
 		"languages": "En"
 	},
 	"Gunslugs (World) (v2.0.5)": {
-		"languages": "En"
-	},
-	"Gunslugs 2 (World) (v1.3.2)": {
 		"languages": "En"
 	},
 	"Hamster Hellstorm (World) (v2.4)": {
@@ -2201,10 +2201,10 @@
 	"Heart Beyond Darkness, The (World) (v1.1)": {
 		"languages": "En"
 	},
-	"Heavy Recoil - Convoy Chaser (World) (v1.21)": {
+	"Heavy Recoil - Convoy Chaser (World) (v1.9)": {
 		"languages": "En"
 	},
-	"Heavy Recoil - Convoy Chaser (World) (v1.9)": {
+	"Heavy Recoil - Convoy Chaser (World) (v1.21)": {
 		"languages": "En"
 	},
 	"Helicopter (World) (v1.0.8)": {
@@ -2240,10 +2240,10 @@
 	"Hexicheckers (World) (v1.2) (Free)": {
 		"languages": "En"
 	},
-	"HexMiner (World)": {
+	"HexMiner (World) (Alt)": {
 		"languages": "En"
 	},
-	"HexMiner (World) (Alt)": {
+	"HexMiner (World)": {
 		"languages": "En"
 	},
 	"Hidden Garden (World)": {
@@ -2282,10 +2282,10 @@
 	"High Flyer (World) (v1.5)": {
 		"languages": "En"
 	},
-	"Highway Rally (World) (v1.08)": {
+	"Highway Rally (World) (v1.2)": {
 		"languages": "En"
 	},
-	"Highway Rally (World) (v1.2)": {
+	"Highway Rally (World) (v1.08)": {
 		"languages": "En"
 	},
 	"Hipster Zombies (World) (v1.2.6)": {
@@ -2309,7 +2309,7 @@
 	"Homeland Strike Force (World) (v0.72)": {
 		"languages": "En"
 	},
-	"Hoppy Bobby (World)": {
+	"Hoppy Bobby (World) (Alt)": {
 		"languages": "En"
 	},
 	"Hoppy Bobby (World) (v1.1)": {
@@ -2318,7 +2318,7 @@
 	"Hoppy Bobby (World) (v1.2)": {
 		"languages": "En"
 	},
-	"Hoppy Bobby (World) (Alt)": {
+	"Hoppy Bobby (World)": {
 		"languages": "En"
 	},
 	"HORRORble (World) (v2.0.0)": {
@@ -2348,10 +2348,10 @@
 	"Ice (World) (v1.0.2)": {
 		"languages": "En"
 	},
-	"Ice Brawlers (World) (v1.0.3)": {
+	"Ice Brawlers 3D (World) (v1.0.6)": {
 		"languages": "En"
 	},
-	"Ice Brawlers 3D (World) (v1.0.6)": {
+	"Ice Brawlers (World) (v1.0.3)": {
 		"languages": "En"
 	},
 	"Ice Brawlers Live (World) (v0.18)": {
@@ -2393,10 +2393,10 @@
 	"Inbotrination (World) (v0.1)": {
 		"languages": "En"
 	},
-	"Inbox Sheriff, The (World)": {
+	"Inbox Sheriff, The (World) (Alt)": {
 		"languages": "En"
 	},
-	"Inbox Sheriff, The (World) (Alt)": {
+	"Inbox Sheriff, The (World)": {
 		"languages": "En"
 	},
 	"Indian Escape (World)": {
@@ -2456,13 +2456,13 @@
 	"InvasionVS (World) (v1.0.1)": {
 		"languages": "En"
 	},
-	"Invisible Munky 2 (World)": {
+	"Invisible Munky 2 (World) (Alt)": {
 		"languages": "En"
 	},
 	"Invisible Munky 2 (World) (v1.1)": {
 		"languages": "En"
 	},
-	"Invisible Munky 2 (World) (Alt)": {
+	"Invisible Munky 2 (World)": {
 		"languages": "En"
 	},
 	"iO (World) (v1.1.4)": {
@@ -2489,13 +2489,13 @@
 	"It Takes Two (World)": {
 		"languages": "En"
 	},
+	"IttleDew (World) (Alt 2)": {
+		"languages": "En"
+	},
+	"IttleDew (World) (Alt)": {
+		"languages": "En"
+	},
 	"IttleDew (World)": {
-		"languages": "En"
-	},
-	"IttleDew (World) (Alt1)": {
-		"languages": "En"
-	},
-	"IttleDew (World) (Alt2)": {
 		"languages": "En"
 	},
 	"Jack N (World) (v1.0.8)": {
@@ -2525,10 +2525,10 @@
 	"JL OUYA (World)": {
 		"languages": "En"
 	},
-	"JNKBombers (World)": {
+	"JNKBombers (World) (v1.1)": {
 		"languages": "En"
 	},
-	"JNKBombers (World) (v1.1)": {
+	"JNKBombers (World)": {
 		"languages": "En"
 	},
 	"JNKPlat (World)": {
@@ -2570,10 +2570,10 @@
 	"Jumping Submarine (World) (v1.0.1)": {
 		"languages": "En"
 	},
-	"Jumpman Forever (World)": {
+	"Jumpman Forever (World) (Alt)": {
 		"languages": "En"
 	},
-	"Jumpman Forever (World) (Alt)": {
+	"Jumpman Forever (World)": {
 		"languages": "En"
 	},
 	"Jumpmaster (World) (v1.3.0)": {
@@ -2603,7 +2603,7 @@
 	"Kaptain Brawe (World)": {
 		"languages": "En"
 	},
-	"Karl's Tiny Adventure (World)": {
+	"Karl's Tiny Adventure (World) (Alt)": {
 		"languages": "En"
 	},
 	"Karl's Tiny Adventure (World) (v1.1)": {
@@ -2612,7 +2612,7 @@
 	"Karl's Tiny Adventure (World) (v1.2)": {
 		"languages": "En"
 	},
-	"Karl's Tiny Adventure (World) (Alt)": {
+	"Karl's Tiny Adventure (World)": {
 		"languages": "En"
 	},
 	"Karma Miwa (World) (v1.3)": {
@@ -2630,10 +2630,10 @@
 	"Key Chain (World) (v4.1.2-1427)": {
 		"languages": "En"
 	},
-	"Khaki Combat (World)": {
+	"Khaki Combat 2 - The Swarm OUYA (World)": {
 		"languages": "En"
 	},
-	"Khaki Combat 2 - The Swarm OUYA (World)": {
+	"Khaki Combat (World)": {
 		"languages": "En"
 	},
 	"Kids Card Matching - Featuring Colors and Shapes (World)": {
@@ -2684,10 +2684,10 @@
 	"Knightmare Tower (World) (v2.0.2)": {
 		"languages": "En"
 	},
-	"Knightmare Tower (World) (v2.1.0)": {
+	"Knightmare Tower (World) (v2.1.0) (Alt)": {
 		"languages": "En"
 	},
-	"Knightmare Tower (World) (v2.1.0) (Alt)": {
+	"Knightmare Tower (World) (v2.1.0)": {
 		"languages": "En"
 	},
 	"Knightmare Tower (World) (v2.1.1)": {
@@ -2738,10 +2738,10 @@
 	"Lazors (World) (v2.3.0)": {
 		"languages": "En"
 	},
-	"Lazy Caverns (World) (v1.02)": {
+	"Lazy Caverns 2 (World)": {
 		"languages": "En"
 	},
-	"Lazy Caverns 2 (World)": {
+	"Lazy Caverns (World) (v1.02)": {
 		"languages": "En"
 	},
 	"Lazy Caverns Attack (World)": {
@@ -2879,10 +2879,10 @@
 	"Marble Droid Classic (World)": {
 		"languages": "En"
 	},
-	"Marble Droid OUYA (World) (v1.1)": {
+	"Marble Droid OUYA (World) (v1.1) (Alt)": {
 		"languages": "En"
 	},
-	"Marble Droid OUYA (World) (v1.1) (Alt)": {
+	"Marble Droid OUYA (World) (v1.1)": {
 		"languages": "En"
 	},
 	"Marble GoGo (World) (v1.0.2)": {
@@ -2981,10 +2981,10 @@
 	"Minetest (World) (v0.4.10.3)": {
 		"languages": "En"
 	},
-	"Mini Clampett (World)": {
+	"Mini Clampett (World) (Alt)": {
 		"languages": "En"
 	},
-	"Mini Clampett (World) (Alt)": {
+	"Mini Clampett (World)": {
 		"languages": "En"
 	},
 	"Mini Quests (World) (v4.0.0)": {
@@ -3014,13 +3014,13 @@
 	"Mirror Moon EP (World) (v1.1)": {
 		"languages": "En"
 	},
-	"MLR-Helicopter (World)": {
+	"MLR-Helicopter (World) (Alt)": {
 		"languages": "En"
 	},
 	"MLR-Helicopter (World) (v1.1)": {
 		"languages": "En"
 	},
-	"MLR-Helicopter (World) (Alt)": {
+	"MLR-Helicopter (World)": {
 		"languages": "En"
 	},
 	"Mobile Data (World) (v4.1.2-1427)": {
@@ -3038,19 +3038,19 @@
 	"Monocle Man (World) (v1.2)": {
 		"languages": "En"
 	},
+	"Monster RPG 2 (World) (v2.5)": {
+		"languages": "En"
+	},
 	"Monster RPG 2 (World) (v2.11)": {
 		"languages": "En"
 	},
 	"Monster RPG 2 (World) (v2.13.0)": {
 		"languages": "En"
 	},
-	"Monster RPG 2 (World) (v2.5)": {
+	"Monsters Ate my Cheesecake (World) (Alt)": {
 		"languages": "En"
 	},
 	"Monsters Ate my Cheesecake (World)": {
-		"languages": "En"
-	},
-	"Monsters Ate my Cheesecake (World) (Alt)": {
 		"languages": "En"
 	},
 	"Moon Pest (World) (v1.5.1)": {
@@ -3140,16 +3140,16 @@
 	"Munch Face (World)": {
 		"languages": "En"
 	},
-	"Munky Blocks (World)": {
-		"languages": "En"
-	},
-	"Munky Blocks (World) (v1.1)": {
+	"Munky Blocks (World) (Alt)": {
 		"languages": "En"
 	},
 	"Munky Blocks (World) (v1.1) (Alt)": {
 		"languages": "En"
 	},
-	"Munky Blocks (World) (Alt)": {
+	"Munky Blocks (World) (v1.1)": {
+		"languages": "En"
+	},
+	"Munky Blocks (World)": {
 		"languages": "En"
 	},
 	"Mupen64 Plus AE (World) (v2.3.2)": {
@@ -3176,10 +3176,10 @@
 	"My Alessandria (World) (v1.2.1)": {
 		"languages": "En"
 	},
-	"My Little Underwater Treasure Collector (World) (v1.3)": {
+	"My Little Underwater Treasure Collector (World) (v1.3) (Alt)": {
 		"languages": "En"
 	},
-	"My Little Underwater Treasure Collector (World) (v1.3) (Alt)": {
+	"My Little Underwater Treasure Collector (World) (v1.3)": {
 		"languages": "En"
 	},
 	"My Nuclear Octopus (World) (v1.2.28)": {
@@ -3233,10 +3233,10 @@
 	"NEO.emu (World) (v1.5.28)": {
 		"languages": "En"
 	},
-	"Neon Bike (World)": {
+	"Neon Bike (World) (Alt)": {
 		"languages": "En"
 	},
-	"Neon Bike (World) (Alt)": {
+	"Neon Bike (World)": {
 		"languages": "En"
 	},
 	"Neon Caves (World)": {
@@ -3248,10 +3248,10 @@
 	"Neon Shadow (World) (v1.34)": {
 		"languages": "En"
 	},
-	"NeonPlat Extreme (World)": {
+	"NeonPlat Extreme (World) (v1.1)": {
 		"languages": "En"
 	},
-	"NeonPlat Extreme (World) (v1.1)": {
+	"NeonPlat Extreme (World)": {
 		"languages": "En"
 	},
 	"NeonPlat Raw (World)": {
@@ -3287,10 +3287,10 @@
 	"NGP.emu (World) (v1.5.28)": {
 		"languages": "En"
 	},
-	"Night Riders (World) (v1.023)": {
+	"Night Riders (World) (v1.02)": {
 		"languages": "En"
 	},
-	"Night Riders (World) (v1.02)": {
+	"Night Riders (World) (v1.023)": {
 		"languages": "En"
 	},
 	"Nimble Quest (World) (v1.0.5)": {
@@ -3317,13 +3317,13 @@
 	"No Floors (World)": {
 		"languages": "En"
 	},
+	"No Gravity (World) (v1.8.6)": {
+		"languages": "En"
+	},
 	"No Gravity (World) (v1.10.17)": {
 		"languages": "En"
 	},
 	"No Gravity (World) (v1.11.1)": {
-		"languages": "En"
-	},
-	"No Gravity (World) (v1.8.6)": {
 		"languages": "En"
 	},
 	"No Plumbing Required (World)": {
@@ -3392,10 +3392,10 @@
 	"Oh my Goat (World)": {
 		"languages": "En"
 	},
-	"Oh What a Dungeon (World)": {
+	"Oh What a Dungeon (World) (Alt)": {
 		"languages": "En"
 	},
-	"Oh What a Dungeon (World) (Alt)": {
+	"Oh What a Dungeon (World)": {
 		"languages": "En"
 	},
 	"Oiche Mhaith (World)": {
@@ -3437,10 +3437,10 @@
 	"Opta-x (World) (v0.0.52)": {
 		"languages": "En"
 	},
-	"Orbital Projectiles (World)": {
+	"Orbital Projectiles (World) (Alt)": {
 		"languages": "En"
 	},
-	"Orbital Projectiles (World) (Alt)": {
+	"Orbital Projectiles (World)": {
 		"languages": "En"
 	},
 	"Orbiter (World) (v1.0.1)": {
@@ -3581,10 +3581,10 @@
 	"Pfhonge (World) (v1.2.0)": {
 		"languages": "En"
 	},
-	"Pfhonge (World) (v2.0.14)": {
+	"Pfhonge (World) (v2.0.4)": {
 		"languages": "En"
 	},
-	"Pfhonge (World) (v2.0.4)": {
+	"Pfhonge (World) (v2.0.14)": {
 		"languages": "En"
 	},
 	"Pfhonge (World) (v2.2.0)": {
@@ -3599,13 +3599,13 @@
 	"Phoenix Revival (World) (v0.9.6)": {
 		"languages": "En"
 	},
-	"PiBO (World)": {
+	"PiBO (World) (Alt)": {
 		"languages": "En"
 	},
 	"PiBO (World) (v1.1)": {
 		"languages": "En"
 	},
-	"PiBO (World) (Alt)": {
+	"PiBO (World)": {
 		"languages": "En"
 	},
 	"Pico TTS (World)": {
@@ -3614,16 +3614,19 @@
 	"Pier Solar and the Great Architects (World) (v1.1)": {
 		"languages": "En"
 	},
-	"Pigeon's Treat (World)": {
+	"Pigeon's Treat (World) (Alt)": {
 		"languages": "En"
 	},
-	"Pigeon's Treat (World) (Alt)": {
+	"Pigeon's Treat (World)": {
 		"languages": "En"
 	},
 	"Pinata Rampage (World) (v1.4.1)": {
 		"languages": "En"
 	},
 	"Pinata Rampage (World) (v10.1.1)": {
+		"languages": "En"
+	},
+	"Pinball Arcade (World) (v1.0.4)": {
 		"languages": "En"
 	},
 	"Pinball Arcade (World) (v1.0.10)": {
@@ -3633,9 +3636,6 @@
 		"languages": "En"
 	},
 	"Pinball Arcade (World) (v1.0.32)": {
-		"languages": "En"
-	},
-	"Pinball Arcade (World) (v1.0.4)": {
 		"languages": "En"
 	},
 	"Pinball Arcade (World) (v1.0.46)": {
@@ -3683,46 +3683,46 @@
 	"PlatCross (World)": {
 		"languages": "En"
 	},
-	"Platdude in a Bit of a Spin (World) (v1.1)": {
+	"Platdude in a Bit of a Spin (World) (v1.1) (Alt)": {
 		"languages": "En"
 	},
-	"Platdude in a Bit of a Spin (World) (v1.1) (Alt)": {
+	"Platdude in a Bit of a Spin (World) (v1.1)": {
 		"languages": "En"
 	},
 	"Platdude in a Bit of a Spin (World)": {
 		"languages": "En"
 	},
-	"Platdude in a Go Kart (World) (v1.1)": {
+	"Platdude in a Go Kart (World) (v1.1) (Alt)": {
 		"languages": "En"
 	},
-	"Platdude in a Go Kart (World) (v1.1) (Alt)": {
+	"Platdude in a Go Kart (World) (v1.1)": {
 		"languages": "En"
 	},
 	"Platdude in a Go Kart (World)": {
 		"languages": "En"
 	},
-	"Platdude in a Tube (World)": {
-		"languages": "En"
-	},
-	"Platdude in a Tube (World) (v1.1)": {
+	"Platdude in a Tube (World) (Alt)": {
 		"languages": "En"
 	},
 	"Platdude in a Tube (World) (v1.1) (Alt)": {
 		"languages": "En"
 	},
-	"Platdude in a Tube (World) (Alt)": {
+	"Platdude in a Tube (World) (v1.1)": {
 		"languages": "En"
 	},
-	"Platdude in Space (World)": {
+	"Platdude in a Tube (World)": {
 		"languages": "En"
 	},
-	"Platdude in Space (World) (v1.1)": {
+	"Platdude in Space (World) (Alt)": {
 		"languages": "En"
 	},
 	"Platdude in Space (World) (v1.1) (Alt)": {
 		"languages": "En"
 	},
-	"Platdude in Space (World) (Alt)": {
+	"Platdude in Space (World) (v1.1)": {
+		"languages": "En"
+	},
+	"Platdude in Space (World)": {
 		"languages": "En"
 	},
 	"Plateformer (World)": {
@@ -3749,22 +3749,22 @@
 	"Pocket RPG (World) (v1.23)": {
 		"languages": "En"
 	},
-	"Poke 5n (World)": {
-		"languages": "En"
-	},
 	"Poke 5n (World) (Alt)": {
 		"languages": "En"
 	},
+	"Poke 5n (World)": {
+		"languages": "En"
+	},
 	"Poker Solitaire (World)": {
+		"languages": "En"
+	},
+	"Polarity (World) (v1.3)": {
 		"languages": "En"
 	},
 	"Polarity (World) (v1.13)": {
 		"languages": "En"
 	},
 	"Polarity (World) (v1.19)": {
-		"languages": "En"
-	},
-	"Polarity (World) (v1.3)": {
 		"languages": "En"
 	},
 	"Polarity - Partners in Crime (World)": {
@@ -3845,10 +3845,10 @@
 	"Puzzle Poker (World) (v1.1) (Prototype)": {
 		"languages": "En"
 	},
-	"Quadoban (World) (v1.1)": {
+	"Quadoban (World) (v1.1) (Alt)": {
 		"languages": "En"
 	},
-	"Quadoban (World) (v1.1) (Alt)": {
+	"Quadoban (World) (v1.1)": {
 		"languages": "En"
 	},
 	"Quadroville (World)": {
@@ -3872,13 +3872,16 @@
 	"Quiet, Please (World) (v1.8)": {
 		"languages": "En"
 	},
-	"Quintet (World) (v10)": {
-		"languages": "En"
-	},
 	"Quintet (World) (v4.4)": {
 		"languages": "En"
 	},
+	"Quintet (World) (v10)": {
+		"languages": "En"
+	},
 	"Quizania (World) (v0.1.6) (Beta)": {
+		"languages": "En"
+	},
+	"r0x - Extended Play (World) (v2.0.2)": {
 		"languages": "En"
 	},
 	"R-TYPE (World) (v2.1.1)": {
@@ -3894,9 +3897,6 @@
 		"languages": "En"
 	},
 	"R.O.M. (World) (v0.5.1)": {
-		"languages": "En"
-	},
-	"r0x - Extended Play (World) (v2.0.2)": {
 		"languages": "En"
 	},
 	"Raccoon Lagoon (World) (v1.2)": {
@@ -3929,10 +3929,10 @@
 	"Raiding Co. (World) (v2)": {
 		"languages": "En"
 	},
-	"Rainbows Shooting From my Balls (World)": {
+	"Rainbows Shooting From my Balls (World) (Alt)": {
 		"languages": "En"
 	},
-	"Rainbows Shooting From my Balls (World) (Alt)": {
+	"Rainbows Shooting From my Balls (World)": {
 		"languages": "En"
 	},
 	"Ramble Planet (World) (v1.1.1)": {
@@ -3944,10 +3944,10 @@
 	"Ravensword - Shadowlands (World) (v1.26)": {
 		"languages": "En"
 	},
-	"Read Error, A (World)": {
+	"Read Error, A (World) (Alt)": {
 		"languages": "En"
 	},
-	"Read Error, A (World) (Alt)": {
+	"Read Error, A (World)": {
 		"languages": "En"
 	},
 	"Read Only Memories (World) (v1.1.2)": {
@@ -3971,10 +3971,10 @@
 	"Reaper (World) (v1.3.0)": {
 		"languages": "En"
 	},
-	"Red (World) (v1.11)": {
+	"Red (World) (v1.2)": {
 		"languages": "En"
 	},
-	"Red (World) (v1.2)": {
+	"Red (World) (v1.11)": {
 		"languages": "En"
 	},
 	"Red Weed (World) (v1.2.36)": {
@@ -4004,9 +4004,6 @@
 	"RetroArch (World) (v1.0.0.2)": {
 		"languages": "En"
 	},
-	"Retroball (World)": {
-		"languages": "En"
-	},
 	"Retroball (World) (v1.1)": {
 		"languages": "En"
 	},
@@ -4016,13 +4013,16 @@
 	"Retroball (World) (v1.3)": {
 		"languages": "En"
 	},
+	"Retroball (World)": {
+		"languages": "En"
+	},
 	"RetroRacer Combat (World)": {
 		"languages": "En"
 	},
-	"RetroRaider - Three Crystals (World)": {
+	"RetroRaider - Three Crystals (World) (Alt)": {
 		"languages": "En"
 	},
-	"RetroRaider - Three Crystals (World) (Alt)": {
+	"RetroRaider - Three Crystals (World)": {
 		"languages": "En"
 	},
 	"Revball (World) (v1.3)": {
@@ -4070,10 +4070,10 @@
 	"Rogue AI (World) (v1.0.2)": {
 		"languages": "En"
 	},
-	"Rollyblob (World)": {
+	"Rollyblob (World) (Alt)": {
 		"languages": "En"
 	},
-	"Rollyblob (World) (Alt)": {
+	"Rollyblob (World)": {
 		"languages": "En"
 	},
 	"Roo (World) (v1.0.1)": {
@@ -4085,22 +4085,22 @@
 	"Rose (World) (v1.03)": {
 		"languages": "En"
 	},
-	"Rose and Time (World)": {
-		"languages": "En"
-	},
 	"Rose and Time (World) (Alt)": {
 		"languages": "En"
 	},
-	"Royal Heroes (World) (v1.041)": {
+	"Rose and Time (World)": {
 		"languages": "En"
 	},
 	"Royal Heroes (World) (v0.941)": {
 		"languages": "En"
 	},
-	"Royal Offense (World) (v1.751)": {
+	"Royal Heroes (World) (v1.041)": {
 		"languages": "En"
 	},
 	"Royal Offense (World) (v1.72)": {
+		"languages": "En"
+	},
+	"Royal Offense (World) (v1.751)": {
 		"languages": "En"
 	},
 	"Rubble 'N Strafe (World) (v1.0.74)": {
@@ -4121,10 +4121,10 @@
 	"Running Dead, The (World) (v1.15)": {
 		"languages": "En"
 	},
-	"Rush Hour - Mayhem (World)": {
+	"Rush Hour - Mayhem (World) (Alt)": {
 		"languages": "En"
 	},
-	"Rush Hour - Mayhem (World) (Alt)": {
+	"Rush Hour - Mayhem (World)": {
 		"languages": "En"
 	},
 	"Rush to Adventure (World) (v0.1.2)": {
@@ -4151,10 +4151,10 @@
 	"Salvage (World) (v1.0.4)": {
 		"languages": "En"
 	},
-	"Samurai Plat (World)": {
+	"Samurai Plat (World) (Alt)": {
 		"languages": "En"
 	},
-	"Samurai Plat (World) (Alt)": {
+	"Samurai Plat (World)": {
 		"languages": "En"
 	},
 	"Sandbox, The (World) (v1.501)": {
@@ -4235,25 +4235,25 @@
 	"SharkSketch (World) (v1.1)": {
 		"languages": "En"
 	},
-	"Sheep Goes Right (World)": {
+	"Sheep Goes Right (World) (Alt)": {
 		"languages": "En"
 	},
-	"Sheep Goes Right (World) (Alt)": {
+	"Sheep Goes Right (World)": {
 		"languages": "En"
 	},
 	"Sheep in Hell (World) (v1.1.1)": {
 		"languages": "En"
 	},
-	"Shelley the Frog (World)": {
-		"languages": "En"
-	},
 	"Shelley the Frog (World) (Alt)": {
 		"languages": "En"
 	},
-	"Sheriff of Cardington, The (World)": {
+	"Shelley the Frog (World)": {
 		"languages": "En"
 	},
 	"Sheriff of Cardington, The (World) (Alt)": {
+		"languages": "En"
+	},
+	"Sheriff of Cardington, The (World)": {
 		"languages": "En"
 	},
 	"Shmantis (World) (v1.0.20)": {
@@ -4334,10 +4334,10 @@
 	"Slender Last Sleep (World)": {
 		"languages": "En"
 	},
-	"SLF1989 (World) (v1.1)": {
+	"SLF2 (World)": {
 		"languages": "En"
 	},
-	"SLF2 (World)": {
+	"SLF1989 (World) (v1.1)": {
 		"languages": "En"
 	},
 	"Slide Tap Pop (World)": {
@@ -4397,10 +4397,10 @@
 	"So Many me (World)": {
 		"languages": "En"
 	},
-	"Soc-Car (World)": {
+	"Soc-Car (World) (v2.4)": {
 		"languages": "En"
 	},
-	"Soc-Car (World) (v2.4)": {
+	"Soc-Car (World)": {
 		"languages": "En"
 	},
 	"Soccertron (World) (v14.10.3)": {
@@ -4415,19 +4415,19 @@
 	"Somyeol HD (World) (v1.0.2)": {
 		"languages": "En"
 	},
-	"Sonic CD (World)": {
+	"Sonic4 EP I (World) (Alt)": {
 		"languages": "En"
 	},
 	"Sonic4 EP I (World)": {
 		"languages": "En"
 	},
-	"Sonic4 EP I (World) (Alt)": {
+	"Sonic4 EP II (World) (v1.4) (Alt)": {
 		"languages": "En"
 	},
 	"Sonic4 EP II (World) (v1.4)": {
 		"languages": "En"
 	},
-	"Sonic4 EP II (World) (v1.4) (Alt)": {
+	"Sonic CD (World)": {
 		"languages": "En"
 	},
 	"Soopah Doopah Poopah (World) (v7.8.11)": {
@@ -4463,7 +4463,7 @@
 	"Space Cat HD (World) (v2.0.6)": {
 		"languages": "En"
 	},
-	"Space Clusters DX (World)": {
+	"Space Clusters DX (World) (Alt)": {
 		"languages": "En"
 	},
 	"Space Clusters DX (World) (v1.1)": {
@@ -4472,7 +4472,7 @@
 	"Space Clusters DX (World) (v1.2)": {
 		"languages": "En"
 	},
-	"Space Clusters DX (World) (Alt)": {
+	"Space Clusters DX (World)": {
 		"languages": "En"
 	},
 	"Space Debris (World)": {
@@ -4490,16 +4490,16 @@
 	"Space Obelisk (World)": {
 		"languages": "En"
 	},
-	"Space Popcorn (World)": {
+	"Space Popcorn (World) (v1.2)": {
 		"languages": "En"
 	},
-	"Space Popcorn (World) (v1.2)": {
+	"Space Popcorn (World) (v1.3) (Alt)": {
 		"languages": "En"
 	},
 	"Space Popcorn (World) (v1.3)": {
 		"languages": "En"
 	},
-	"Space Popcorn (World) (v1.3) (Alt)": {
+	"Space Popcorn (World)": {
 		"languages": "En"
 	},
 	"Space Repair Inc. (World) (v1.01)": {
@@ -4508,16 +4508,16 @@
 	"Space Roads (World)": {
 		"languages": "En"
 	},
-	"Space Rocket Adventurers (World)": {
-		"languages": "En"
-	},
-	"Space Rocket Adventurers (World) (v1.1)": {
+	"Space Rocket Adventurers (World) (Alt)": {
 		"languages": "En"
 	},
 	"Space Rocket Adventurers (World) (v1.1) (Alt)": {
 		"languages": "En"
 	},
-	"Space Rocket Adventurers (World) (Alt)": {
+	"Space Rocket Adventurers (World) (v1.1)": {
+		"languages": "En"
+	},
+	"Space Rocket Adventurers (World)": {
 		"languages": "En"
 	},
 	"Space Rover (World) (Free)": {
@@ -4556,13 +4556,13 @@
 	"Spider Solitaire (World) (v1.3)": {
 		"languages": "En"
 	},
-	"Spike Dislike 2 (World)": {
+	"Spike Dislike 2 (World) (Alt)": {
 		"languages": "En"
 	},
 	"Spike Dislike 2 (World) (v1.5)": {
 		"languages": "En"
 	},
-	"Spike Dislike 2 (World) (Alt)": {
+	"Spike Dislike 2 (World)": {
 		"languages": "En"
 	},
 	"Spike Dislike 3 (World) (v1.6)": {
@@ -4574,13 +4574,13 @@
 	"Spikes Have Rage (World)": {
 		"languages": "En"
 	},
-	"Spiky Tower (World)": {
+	"Spiky Tower (World) (Alt)": {
 		"languages": "En"
 	},
 	"Spiky Tower (World) (v1.1)": {
 		"languages": "En"
 	},
-	"Spiky Tower (World) (Alt)": {
+	"Spiky Tower (World)": {
 		"languages": "En"
 	},
 	"SPiN WARS (World) (v1.06)": {
@@ -4712,10 +4712,10 @@
 	"Super Drake Tracker 2000 EX (World)": {
 		"languages": "En"
 	},
-	"Super Grid Run (World) (v1.1.1)": {
+	"Super Grid Run (World) (v1.0.6)": {
 		"languages": "En"
 	},
-	"Super Grid Run (World) (v1.0.6)": {
+	"Super Grid Run (World) (v1.1.1)": {
 		"languages": "En"
 	},
 	"Super Hexagon (World) (v1.0.7)": {
@@ -4751,10 +4751,10 @@
 	"Super Puzzle Guy Adventure (World) (v1.2)": {
 		"languages": "En"
 	},
-	"Super Puzzle Platformer (World)": {
+	"Super Puzzle Platformer (World) (Alt)": {
 		"languages": "En"
 	},
-	"Super Puzzle Platformer (World) (Alt)": {
+	"Super Puzzle Platformer (World)": {
 		"languages": "En"
 	},
 	"Super Pyro Runner (World)": {
@@ -4796,16 +4796,16 @@
 	"SushiFish (World) (v1.2)": {
 		"languages": "En"
 	},
-	"Swamp Golf (World)": {
-		"languages": "En"
-	},
-	"Swamp Golf (World) (v1.1)": {
+	"Swamp Golf (World) (Alt)": {
 		"languages": "En"
 	},
 	"Swamp Golf (World) (v1.1) (Alt)": {
 		"languages": "En"
 	},
-	"Swamp Golf (World) (Alt)": {
+	"Swamp Golf (World) (v1.1)": {
+		"languages": "En"
+	},
+	"Swamp Golf (World)": {
 		"languages": "En"
 	},
 	"Swindler (World)": {
@@ -4823,10 +4823,10 @@
 	"TadoToss (World)": {
 		"languages": "En"
 	},
-	"Tales of Illyria (World) (v3.57)": {
+	"Tales of Illyria (World) (v3.55)": {
 		"languages": "En"
 	},
-	"Tales of Illyria (World) (v3.55)": {
+	"Tales of Illyria (World) (v3.57)": {
 		"languages": "En"
 	},
 	"Tank Ace Reloaded (World) (v1.0.4)": {
@@ -4862,10 +4862,10 @@
 	"Tetris Battle Fusion (World) (v2.0.1r)": {
 		"languages": "En"
 	},
-	"Thanatopsis (World)": {
+	"Thanatopsis (World) (Alt)": {
 		"languages": "En"
 	},
-	"Thanatopsis (World) (Alt)": {
+	"Thanatopsis (World)": {
 		"languages": "En"
 	},
 	"That Dragon, Cancer (World) (v1a433de)": {
@@ -4904,10 +4904,10 @@
 	"Thundering Skies (World) (v1.4)": {
 		"languages": "En"
 	},
-	"Thwackity Puttz (World)": {
+	"Thwackity Puttz (World) (Alt)": {
 		"languages": "En"
 	},
-	"Thwackity Puttz (World) (Alt)": {
+	"Thwackity Puttz (World)": {
 		"languages": "En"
 	},
 	"Tiamat X (World) (v1.2.1)": {
@@ -4952,13 +4952,13 @@
 	"Total Commander LAN (World) (v2.06)": {
 		"languages": "En"
 	},
-	"Toto Temple Deluxe (World) (v1.7.2)": {
+	"Toto Temple Deluxe (World) (v1.5.1)": {
 		"languages": "En"
 	},
 	"Toto Temple Deluxe (World) (v1.7.2) (Alt)": {
 		"languages": "En"
 	},
-	"Toto Temple Deluxe (World) (v1.5.1)": {
+	"Toto Temple Deluxe (World) (v1.7.2)": {
 		"languages": "En"
 	},
 	"Tower Invaders (World) (v0.8)": {
@@ -4970,10 +4970,10 @@
 	"Tower Master (World)": {
 		"languages": "En"
 	},
-	"TowerFall (World) (v1.0.0.1)": {
+	"TowerFall (World) (v1.0.0.1) (Alt)": {
 		"languages": "En"
 	},
-	"TowerFall (World) (v1.0.0.1) (Alt)": {
+	"TowerFall (World) (v1.0.0.1)": {
 		"languages": "En"
 	},
 	"TowerFall (World)": {
@@ -4997,10 +4997,10 @@
 	"Tropical Treasures 2 Deluxe (World) (v2)": {
 		"languages": "En"
 	},
-	"Trouble with Vents, The (World)": {
+	"Trouble with Vents, The (World) (Alt)": {
 		"languages": "En"
 	},
-	"Trouble with Vents, The (World) (Alt)": {
+	"Trouble with Vents, The (World)": {
 		"languages": "En"
 	},
 	"Truck Monsters (World) (v1.01)": {
@@ -5111,16 +5111,16 @@
 	"Vault (World) (v1.0.1)": {
 		"languages": "En"
 	},
-	"Vector (World) (v1.0.5)": {
-		"languages": "En"
-	},
-	"Vector (World) (v1.0.7)": {
+	"Vector 360 (World) (Alt)": {
 		"languages": "En"
 	},
 	"Vector 360 (World)": {
 		"languages": "En"
 	},
-	"Vector 360 (World) (Alt)": {
+	"Vector (World) (v1.0.5)": {
+		"languages": "En"
+	},
+	"Vector (World) (v1.0.7)": {
 		"languages": "En"
 	},
 	"Vegas Bowling (World) (v1.0.3)": {
@@ -5252,13 +5252,13 @@
 	"Wrecking Balls Arena (World) (v1.08)": {
 		"languages": "En"
 	},
+	"Wrestling Revolution 3D (World) (v1.421)": {
+		"languages": "En"
+	},
 	"Wrestling Revolution (World) (v1.57)": {
 		"languages": "En"
 	},
 	"Wrestling Revolution (World) (v1.75)": {
-		"languages": "En"
-	},
-	"Wrestling Revolution 3D (World) (v1.421)": {
 		"languages": "En"
 	},
 	"X S.E.E.D (World) (v1.9)": {
@@ -5300,10 +5300,10 @@
 	"YouTube (World) (Developer Build)": {
 		"languages": "En"
 	},
-	"ZeptoRacer (World) (v1.2.0)": {
+	"ZeptoRacer 3D (World) (v1.2.0)": {
 		"languages": "En"
 	},
-	"ZeptoRacer 3D (World) (v1.2.0)": {
+	"ZeptoRacer (World) (v1.2.0)": {
 		"languages": "En"
 	},
 	"Zeus vs Zombies (World) (v1.3)": {
@@ -5336,13 +5336,13 @@
 	"Zombies and Trains (World) (v1.3)": {
 		"languages": "En"
 	},
-	"Zzap Lines (World)": {
+	"Zzap Lines (World) (Alt)": {
 		"languages": "En"
 	},
 	"Zzap Lines (World) (v1.1)": {
 		"languages": "En"
 	},
-	"Zzap Lines (World) (Alt)": {
+	"Zzap Lines (World)": {
 		"languages": "En"
 	}
 }

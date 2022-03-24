@@ -1,17 +1,14 @@
 {
-	"[BIOS] Sega Game Gear (USA) (Majesco)": {
+	"5 in One FunPak (USA)": {
 		"languages": "En"
 	},
-	"5 in One FunPak (USA)": {
+	"[BIOS] Sega Game Gear (USA) (Majesco)": {
 		"languages": "En"
 	},
 	"Aa Harimanada (Japan)": {
 		"languages": "Ja"
 	},
 	"Addams Family, The (World)": {
-		"languages": "En"
-	},
-	"Adventures of Batman & Robin, The (USA, Europe)": {
 		"languages": "En"
 	},
 	"Adventures of Batman & Robin, The (USA, Europe) (Beta) (1995-04-27)": {
@@ -23,13 +20,13 @@
 	"Adventures of Batman & Robin, The (USA, Europe) (Beta) (1995-04-30)": {
 		"languages": "En"
 	},
-	"Adventures of Batman & Robin, The (USA, Europe) (Beta) (1995-05-04)": {
-		"languages": "En"
-	},
 	"Adventures of Batman & Robin, The (USA, Europe) (Beta) (1995-05-02)": {
 		"languages": "En"
 	},
-	"Adventures of Batman & Robin, The (USA, Europe) (Beta) (1995-05-06) (Alt 1)": {
+	"Adventures of Batman & Robin, The (USA, Europe) (Beta) (1995-05-04)": {
+		"languages": "En"
+	},
+	"Adventures of Batman & Robin, The (USA, Europe) (Beta) (1995-05-06) (Alt)": {
 		"languages": "En"
 	},
 	"Adventures of Batman & Robin, The (USA, Europe) (Beta) (1995-05-06)": {
@@ -38,25 +35,28 @@
 	"Adventures of Batman & Robin, The (USA, Europe) (Beta) (1995-05-07)": {
 		"languages": "En"
 	},
-	"Aerial Assault (World)": {
+	"Adventures of Batman & Robin, The (USA, Europe)": {
 		"languages": "En"
 	},
 	"Aerial Assault (World) (Rev 1)": {
 		"languages": "En"
 	},
-	"Aladdin (USA, Europe, Brazil)": {
+	"Aerial Assault (World)": {
 		"languages": "En"
 	},
 	"Aladdin (Japan)": {
 		"languages": "Ja"
 	},
-	"Aladdin (USA, Europe, Brazil) (Beta) (1993-12-28)": {
+	"Aladdin (USA, Europe, Brazil) (En) (Beta) (1993-12-28)": {
 		"languages": "En"
 	},
-	"Aladdin (USA, Europe, Brazil) (Beta) (1994-01-11)": {
+	"Aladdin (USA, Europe, Brazil) (En) (Beta) (1994-01-11)": {
 		"languages": "En"
 	},
-	"Aladdin (USA, Europe, Brazil) (Beta) (1994-01-13)": {
+	"Aladdin (USA, Europe, Brazil) (En) (Beta) (1994-01-13)": {
+		"languages": "En"
+	},
+	"Aladdin (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Alien 3 (Japan)": {
@@ -71,10 +71,10 @@
 	"Alien Syndrome (Japan)": {
 		"languages": "Ja"
 	},
-	"Andre Agassi Tennis (USA)": {
+	"Andre Agassi Tennis (USA) (Beta)": {
 		"languages": "En"
 	},
-	"Andre Agassi Tennis (USA) (Beta)": {
+	"Andre Agassi Tennis (USA)": {
 		"languages": "En"
 	},
 	"Arcade Classics (USA)": {
@@ -83,20 +83,29 @@
 	"Arch Rivals - The Arcade Game (USA)": {
 		"languages": "En"
 	},
-	"Arena - Maze of Death ~ Arena (USA, Europe)": {
+	"Archer Maclean's Dropzone (Europe)": {
 		"languages": "En"
 	},
-	"Ariel the Little Mermaid (USA, Europe, Brazil)": {
+	"Arena (USA, Europe)": {
+		"languages": "En"
+	},
+	"Ariel - The Little Mermaid (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Arliel - Crystal Densetsu (Japan)": {
 		"languages": "Ja"
 	},
-	"Asterix and the Great Rescue (USA, Brazil)": {
-		"languages": "En"
-	},
 	"Asterix and the Great Rescue (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
+	},
+	"Asterix and the Great Rescue (USA) (Beta) (1994-02-22)": {
+		"languages": "En"
+	},
+	"Asterix and the Great Rescue (USA) (Beta) (1994-03-03)": {
+		"languages": "En"
+	},
+	"Asterix and the Great Rescue (USA) (Beta) (1994-03-15)": {
+		"languages": "En"
 	},
 	"Asterix and the Great Rescue (USA) (En,Fr,De,Es,It) (Beta) (1994-01-25)": {
 		"languages": "En,Fr,De,Es,It"
@@ -104,52 +113,40 @@
 	"Asterix and the Great Rescue (USA) (En,Fr,De,Es,It) (Beta) (1994-02-16)": {
 		"languages": "En,Fr,De,Es,It"
 	},
-	"Asterix and the Great Rescue (USA) (Beta) (1994-03-03)": {
-		"languages": "En"
-	},
-	"Asterix and the Great Rescue (USA) (Beta) (1994-02-22)": {
-		"languages": "En"
-	},
-	"Asterix and the Great Rescue (USA) (Beta) (1994-03-15)": {
+	"Asterix and the Great Rescue (USA, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Asterix and the Secret Mission (Europe) (En,Fr,De)": {
 		"languages": "En,Fr,De"
 	},
-	"Ax Battler - A Legend of Golden Axe (USA, Europe, Brazil) (Beta) (1991-08-10)": {
+	"Ax Battler - A Legend of Golden Axe (USA, Europe, Brazil) (En) (Beta) (1991-08-10)": {
 		"languages": "En"
 	},
-	"Ax Battler - A Legend of Golden Axe ~ Golden Axe (USA, Europe, Brazil)": {
+	"Ax Battler - A Legend of Golden Axe (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Ax Battler - Golden Axe Densetsu (Japan)": {
 		"languages": "Ja"
 	},
-	"Ayrton Senna's Super Monaco GP II (USA, Europe, Brazil)": {
-		"languages": "En"
-	},
 	"Ayrton Senna's Super Monaco GP II (Japan)": {
 		"languages": "Ja"
 	},
-	"Ayrton Senna's Super Monaco GP II (USA, Europe, Brazil) (Beta)": {
+	"Ayrton Senna's Super Monaco GP II (USA, Europe, Brazil) (En) (Beta)": {
 		"languages": "En"
 	},
-	"Baku Baku (USA)": {
+	"Ayrton Senna's Super Monaco GP II (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Baku Baku (Europe)": {
 		"languages": "En"
 	},
+	"Baku Baku (USA)": {
+		"languages": "En"
+	},
 	"Baku Baku Animal - Sekai Shiikugakari Senshu-ken (Japan)": {
 		"languages": "Ja"
 	},
-	"Barbie Super Model (USA) (Proto)": {
-		"languages": "En"
-	},
-	"Bare Knuckle ~ Streets of Rage (World)": {
-		"languages": "En"
-	},
-	"Bare Knuckle II ~ Streets of Rage 2 ~ Streets of Rage II (World)": {
+	"Barbie Super Model (USA) (Proto) (1994-08-25)": {
 		"languages": "En"
 	},
 	"Batman Forever (World)": {
@@ -164,19 +161,19 @@
 	"Battleship - The Classic Naval Combat Game (USA)": {
 		"languages": "En"
 	},
-	"Battletoads (Japan, Europe)": {
+	"Battletoads (Japan, Europe) (En)": {
 		"languages": "En"
 	},
 	"Battletoads (USA)": {
 		"languages": "En"
 	},
-	"Beavis and Butt-Head (USA, Europe)": {
-		"languages": "En"
-	},
 	"Beavis and Butt-Head (USA, Europe) (Beta)": {
 		"languages": "En"
 	},
-	"Berenstain Bears' Camping Adventure, The (USA)": {
+	"Beavis and Butt-Head (USA, Europe)": {
+		"languages": "En"
+	},
+	"Berenstain Bears' Camping Adventure, The (USA) (Beta) (1994-06-28)": {
 		"languages": "En"
 	},
 	"Berenstain Bears' Camping Adventure, The (USA) (Beta) (1994-07-15)": {
@@ -188,16 +185,13 @@
 	"Berenstain Bears' Camping Adventure, The (USA) (Beta) (1994-07-22)": {
 		"languages": "En"
 	},
-	"Berenstain Bears' Camping Adventure, The (USA) (Beta) (1994-06-28)": {
-		"languages": "En"
-	},
 	"Berenstain Bears' Camping Adventure, The (USA) (Beta) (1994-07-27)": {
 		"languages": "En"
 	},
 	"Berenstain Bears' Camping Adventure, The (USA) (Beta) (1994-08-01)": {
 		"languages": "En"
 	},
-	"Berenstain Bears' Camping Adventure, The (USA) (Beta) (1994-08-11) (Alt 1)": {
+	"Berenstain Bears' Camping Adventure, The (USA) (Beta) (1994-08-11) (Alt)": {
 		"languages": "En"
 	},
 	"Berenstain Bears' Camping Adventure, The (USA) (Beta) (1994-08-11)": {
@@ -215,19 +209,22 @@
 	"Berenstain Bears' Camping Adventure, The (USA) (Beta) (1994-08-19)": {
 		"languages": "En"
 	},
-	"Berenstain Bears' Camping Adventure, The (USA) (Beta) (1994-08-24)": {
+	"Berenstain Bears' Camping Adventure, The (USA) (Beta) (1994-08-20)": {
 		"languages": "En"
 	},
-	"Berenstain Bears' Camping Adventure, The (USA) (Beta) (1994-08-20)": {
+	"Berenstain Bears' Camping Adventure, The (USA) (Beta) (1994-08-24)": {
 		"languages": "En"
 	},
 	"Berenstain Bears' Camping Adventure, The (USA) (Beta) (1994-08-25)": {
 		"languages": "En"
 	},
-	"Berenstain Bears' Camping Adventure, The (USA) (Beta) (1994-08-26) (Alt 1)": {
+	"Berenstain Bears' Camping Adventure, The (USA) (Beta) (1994-08-26) (Alt)": {
 		"languages": "En"
 	},
 	"Berenstain Bears' Camping Adventure, The (USA) (Beta) (1994-08-26)": {
+		"languages": "En"
+	},
+	"Berenstain Bears' Camping Adventure, The (USA)": {
 		"languages": "En"
 	},
 	"Berlin no Kabe (Japan)": {
@@ -235,9 +232,6 @@
 	},
 	"Bishoujo Senshi Sailor Moon S (Japan)": {
 		"languages": "Ja"
-	},
-	"Bonkers Wax Up! (USA, Europe)": {
-		"languages": "En"
 	},
 	"Bonkers Wax Up! (USA, Europe) (Beta) (1994-10-31)": {
 		"languages": "En"
@@ -248,16 +242,16 @@
 	"Bonkers Wax Up! (USA, Europe) (Beta) (1994-11-21)": {
 		"languages": "En"
 	},
-	"Bonkers Wax Up! (USA, Europe) (Beta) (1994-12-03)": {
+	"Bonkers Wax Up! (USA, Europe) (Beta) (1994-11-23)": {
 		"languages": "En"
 	},
-	"Bonkers Wax Up! (USA, Europe) (Beta) (1994-11-23)": {
+	"Bonkers Wax Up! (USA, Europe) (Beta) (1994-11-26)": {
 		"languages": "En"
 	},
 	"Bonkers Wax Up! (USA, Europe) (Beta) (1994-11-29)": {
 		"languages": "En"
 	},
-	"Bonkers Wax Up! (USA, Europe) (Beta) (1994-11-26)": {
+	"Bonkers Wax Up! (USA, Europe) (Beta) (1994-12-03)": {
 		"languages": "En"
 	},
 	"Bonkers Wax Up! (USA, Europe) (Beta) (1994-12-05)": {
@@ -266,16 +260,19 @@
 	"Bonkers Wax Up! (USA, Europe) (Beta) (1994-12-07)": {
 		"languages": "En"
 	},
-	"Bonkers Wax Up! (USA, Europe) (Beta) (1994-12-08) (Alt 1)": {
-		"languages": "En"
-	},
-	"Bonkers Wax Up! (USA, Europe) (Beta) (1994-12-11)": {
+	"Bonkers Wax Up! (USA, Europe) (Beta) (1994-12-08) (Alt)": {
 		"languages": "En"
 	},
 	"Bonkers Wax Up! (USA, Europe) (Beta) (1994-12-08)": {
 		"languages": "En"
 	},
+	"Bonkers Wax Up! (USA, Europe) (Beta) (1994-12-11)": {
+		"languages": "En"
+	},
 	"Bonkers Wax Up! (USA, Europe) (Beta) (1994-12-12)": {
+		"languages": "En"
+	},
+	"Bonkers Wax Up! (USA, Europe)": {
 		"languages": "En"
 	},
 	"Bram Stoker's Dracula (Europe)": {
@@ -287,10 +284,10 @@
 	"BreakThru! (USA) (Proto)": {
 		"languages": "En"
 	},
-	"Bubble Bobble (USA)": {
+	"Bubble Bobble (USA) (Beta)": {
 		"languages": "En"
 	},
-	"Bubble Bobble (USA) (Beta)": {
+	"Bubble Bobble (USA)": {
 		"languages": "En"
 	},
 	"Bugs Bunny in Double Trouble (USA, Europe)": {
@@ -317,7 +314,7 @@
 	"Casino FunPak (USA)": {
 		"languages": "En"
 	},
-	"Castle of Illusion Starring Mickey Mouse (USA, Europe, Brazil)": {
+	"Castle of Illusion Starring Mickey Mouse (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Cave Dude (USA) (Proto)": {
@@ -335,103 +332,103 @@
 	"Cheese Cat-Astrophe Starring Speedy Gonzales (USA, Europe, Brazil) (En,Fr,De,Es)": {
 		"languages": "En,Fr,De,Es"
 	},
-	"Chessmaster, The (USA, Europe, Brazil)": {
+	"Chessmaster, The (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"Chicago Syndicate (USA, Brazil)": {
+	"Chicago Syndicate (USA, Brazil) (En) (Beta) (1995-05-05)": {
 		"languages": "En"
 	},
-	"Chicago Syndicate (USA, Brazil) (Beta) (1995-05-05)": {
+	"Chicago Syndicate (USA, Brazil) (En) (Beta) (1995-06-01)": {
 		"languages": "En"
 	},
-	"Chicago Syndicate (USA, Brazil) (Beta) (1995-06-01)": {
+	"Chicago Syndicate (USA, Brazil) (En) (Beta) (1995-06-05)": {
 		"languages": "En"
 	},
-	"Chicago Syndicate (USA, Brazil) (Beta) (1995-06-05)": {
+	"Chicago Syndicate (USA, Brazil) (En) (Beta) (1995-06-07)": {
 		"languages": "En"
 	},
-	"Chicago Syndicate (USA, Brazil) (Beta) (1995-06-07)": {
+	"Chicago Syndicate (USA, Brazil) (En) (Beta) (1995-06-08)": {
 		"languages": "En"
 	},
-	"Chicago Syndicate (USA, Brazil) (Beta) (1995-06-08)": {
+	"Chicago Syndicate (USA, Brazil) (En) (Beta) (1995-06-12)": {
 		"languages": "En"
 	},
-	"Chicago Syndicate (USA, Brazil) (Beta) (1995-06-14)": {
+	"Chicago Syndicate (USA, Brazil) (En) (Beta) (1995-06-14)": {
 		"languages": "En"
 	},
-	"Chicago Syndicate (USA, Brazil) (Beta) (1995-06-12)": {
+	"Chicago Syndicate (USA, Brazil) (En) (Beta) (1995-06-19)": {
 		"languages": "En"
 	},
-	"Chicago Syndicate (USA, Brazil) (Beta) (1995-06-19)": {
+	"Chicago Syndicate (USA, Brazil) (En) (Beta) (1995-06-20)": {
 		"languages": "En"
 	},
-	"Chicago Syndicate (USA, Brazil) (Beta) (1995-06-20)": {
+	"Chicago Syndicate (USA, Brazil) (En) (Beta) (1995-06-22)": {
 		"languages": "En"
 	},
-	"Chicago Syndicate (USA, Brazil) (Beta) (1995-06-22)": {
+	"Chicago Syndicate (USA, Brazil) (En) (Beta) (1995-06-26)": {
 		"languages": "En"
 	},
-	"Chicago Syndicate (USA, Brazil) (Beta) (1995-06-26)": {
+	"Chicago Syndicate (USA, Brazil) (En) (Beta) (1995-06-28)": {
 		"languages": "En"
 	},
-	"Chicago Syndicate (USA, Brazil) (Beta) (1995-06-29)": {
+	"Chicago Syndicate (USA, Brazil) (En) (Beta) (1995-06-29) (Alt)": {
 		"languages": "En"
 	},
-	"Chicago Syndicate (USA, Brazil) (Beta) (1995-06-29) (Alt 1)": {
+	"Chicago Syndicate (USA, Brazil) (En) (Beta) (1995-06-29)": {
 		"languages": "En"
 	},
-	"Chicago Syndicate (USA, Brazil) (Beta) (1995-06-30)": {
+	"Chicago Syndicate (USA, Brazil) (En) (Beta) (1995-06-30)": {
 		"languages": "En"
 	},
-	"Chicago Syndicate (USA, Brazil) (Beta) (1995-07-03)": {
+	"Chicago Syndicate (USA, Brazil) (En) (Beta) (1995-07-03)": {
 		"languages": "En"
 	},
-	"Chicago Syndicate (USA, Brazil) (Beta) (1995-06-28)": {
+	"Chicago Syndicate (USA, Brazil) (En) (Beta) (1995-07-05)": {
 		"languages": "En"
 	},
-	"Chicago Syndicate (USA, Brazil) (Beta) (1995-07-05)": {
+	"Chicago Syndicate (USA, Brazil) (En) (Beta) (1995-07-06)": {
 		"languages": "En"
 	},
-	"Chicago Syndicate (USA, Brazil) (Beta) (1995-07-06)": {
+	"Chicago Syndicate (USA, Brazil) (En) (Beta) (1995-07-10)": {
 		"languages": "En"
 	},
-	"Chicago Syndicate (USA, Brazil) (Beta) (1995-07-20)": {
+	"Chicago Syndicate (USA, Brazil) (En) (Beta) (1995-07-11)": {
 		"languages": "En"
 	},
-	"Chicago Syndicate (USA, Brazil) (Beta) (1995-07-21)": {
+	"Chicago Syndicate (USA, Brazil) (En) (Beta) (1995-07-19)": {
 		"languages": "En"
 	},
-	"Chicago Syndicate (USA, Brazil) (Beta) (1995-07-21) (Alt 1)": {
+	"Chicago Syndicate (USA, Brazil) (En) (Beta) (1995-07-20)": {
 		"languages": "En"
 	},
-	"Chicago Syndicate (USA, Brazil) (Beta) (1995-07-19)": {
+	"Chicago Syndicate (USA, Brazil) (En) (Beta) (1995-07-21) (Alt)": {
 		"languages": "En"
 	},
-	"Chicago Syndicate (USA, Brazil) (Beta) (1995-07-10)": {
+	"Chicago Syndicate (USA, Brazil) (En) (Beta) (1995-07-21)": {
 		"languages": "En"
 	},
-	"Chicago Syndicate (USA, Brazil) (Beta) (1995-07-11)": {
+	"Chicago Syndicate (USA, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Choplifter III (USA)": {
 		"languages": "En"
 	},
-	"Chuck Rock (World)": {
-		"languages": "En"
-	},
 	"Chuck Rock (World) (Beta)": {
 		"languages": "En"
 	},
-	"Chuck Rock II - Son of Chuck (Europe, Brazil)": {
+	"Chuck Rock (World)": {
+		"languages": "En"
+	},
+	"Chuck Rock II - Son of Chuck (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Chuck Rock II - Son of Chuck (USA)": {
 		"languages": "En"
 	},
-	"CJ Elephant Fugitive (USA, Europe)": {
+	"CJ Elephant Fugitive (USA, Europe) (Beta) (1993-10-22)": {
 		"languages": "En"
 	},
-	"CJ Elephant Fugitive (USA, Europe) (Beta) (1993-10-22)": {
+	"CJ Elephant Fugitive (USA, Europe)": {
 		"languages": "En"
 	},
 	"Cliffhanger (USA)": {
@@ -449,7 +446,7 @@
 	"Columns (Japan) (En)": {
 		"languages": "En"
 	},
-	"Columns (USA, Europe, Brazil) (Rev 2)": {
+	"Columns (USA, Europe, Brazil) (En) (Rev 2)": {
 		"languages": "En"
 	},
 	"Cool Spot (Europe)": {
@@ -470,10 +467,10 @@
 	"Crystal Warriors (USA, Europe)": {
 		"languages": "En"
 	},
-	"CutThroat Island (USA)": {
+	"CutThroat Island (USA) (Beta)": {
 		"languages": "En"
 	},
-	"CutThroat Island (USA) (Beta)": {
+	"CutThroat Island (USA)": {
 		"languages": "En"
 	},
 	"Daffy Duck in Hollywood (Europe, Brazil) (En,Fr,De,Es,It)": {
@@ -488,17 +485,17 @@
 	"Defenders of Oasis (USA, Europe) (Beta)": {
 		"languages": "En"
 	},
-	"Defenders of Oasis (USA, Europe)": {
-		"languages": "En"
-	},
 	"Defenders of Oasis (USA, Europe) (Virtual Console)": {
 		"languages": "En"
 	},
-	"Desert Speedtrap Starring Road Runner and Wile E. Coyote (USA, Brazil)": {
+	"Defenders of Oasis (USA, Europe)": {
 		"languages": "En"
 	},
 	"Desert Speedtrap Starring Road Runner and Wile E. Coyote (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
+	},
+	"Desert Speedtrap Starring Road Runner and Wile E. Coyote (USA, Brazil) (En)": {
+		"languages": "En"
 	},
 	"Desert Strike (Europe) (En,Fr,De,Es)": {
 		"languages": "En,Fr,De,Es"
@@ -506,11 +503,11 @@
 	"Desert Strike - Return to the Gulf (USA)": {
 		"languages": "En"
 	},
+	"Devilish (Europe, Brazil) (En)": {
+		"languages": "En"
+	},
 	"Devilish (Japan)": {
 		"languages": "Ja"
-	},
-	"Devilish (Europe, Brazil)": {
-		"languages": "En"
 	},
 	"Devilish (USA)": {
 		"languages": "En"
@@ -539,76 +536,76 @@
 	"Double Dragon (USA, Europe)": {
 		"languages": "En"
 	},
-	"Dr. Franken (Europe) (Proto)": {
+	"Dr. Franken (Europe) (Demo)": {
 		"languages": "En"
 	},
 	"Dr. Robotnik's Mean Bean Machine (USA, Europe)": {
 		"languages": "En"
 	},
-	"Dragon - The Bruce Lee Story (USA)": {
+	"Dragon - The Bruce Lee Story (Europe) (Beta)": {
 		"languages": "En"
 	},
 	"Dragon - The Bruce Lee Story (Europe)": {
 		"languages": "En"
 	},
-	"Dragon - The Bruce Lee Story (Europe) (Beta)": {
-		"languages": "En"
-	},
-	"Dragon Crystal (USA, Europe)": {
+	"Dragon - The Bruce Lee Story (USA)": {
 		"languages": "En"
 	},
 	"Dragon Crystal (USA, Europe) (Virtual Console)": {
 		"languages": "En"
 	},
-	"Dragon Crystal - Tsurani no Meikyuu (Japan)": {
-		"languages": "Ja"
+	"Dragon Crystal (USA, Europe)": {
+		"languages": "En"
 	},
 	"Dragon Crystal - Tsurani no Meikyuu (Japan) (Virtual Console)": {
 		"languages": "Ja"
 	},
-	"Dropzone (Europe)": {
-		"languages": "En"
+	"Dragon Crystal - Tsurani no Meikyuu (Japan)": {
+		"languages": "Ja"
 	},
 	"Dunk Kids (Japan)": {
 		"languages": "Ja"
 	},
-	"Dynamite Headdy (USA, Europe)": {
-		"languages": "En"
+	"Dynamite Headdy (Japan) (Beta)": {
+		"languages": "Ja"
 	},
 	"Dynamite Headdy (Japan)": {
 		"languages": "Ja"
 	},
-	"Dynamite Headdy (USA, Europe) (Beta) (1994-07-01)": {
+	"Dynamite Headdy (USA, Europe) (Beta) (1994-06-15)": {
 		"languages": "En"
 	},
-	"Dynamite Headdy (USA, Europe) (Beta) (1994-06-15)": {
+	"Dynamite Headdy (USA, Europe) (Beta) (1994-07-01)": {
 		"languages": "En"
 	},
 	"Dynamite Headdy (USA, Europe) (Beta) (1994-07-05)": {
 		"languages": "En"
 	},
-	"Earthworm Jim (USA)": {
+	"Dynamite Headdy (USA, Europe)": {
 		"languages": "En"
 	},
 	"Earthworm Jim (Europe)": {
 		"languages": "En"
 	},
-	"Ecco - The Tides of Time (USA, Europe, Brazil)": {
+	"Earthworm Jim (USA)": {
 		"languages": "En"
 	},
-	"Ecco the Dolphin (Japan)": {
+	"Ecco - The Tides of Time (USA, Europe, Brazil) (En)": {
+		"languages": "En"
+	},
+	"Ecco The Dolphin (Japan)": {
 		"languages": "Ja"
 	},
-	"Ecco the Dolphin (USA, Europe, Brazil)": {
+	"Ecco The Dolphin (USA, Europe, Brazil) (En) (Beta 1) (1993-06-14)": {
 		"languages": "En"
 	},
-	"Ecco the Dolphin (USA, Europe, Brazil) (Beta 1) (1993-06-14)": {
+	"Ecco The Dolphin (USA, Europe, Brazil) (En) (Beta 2) (July, 1993)": {
 		"languages": "En"
 	},
-	"Ecco the Dolphin (USA, Europe, Brazil) (Beta 2)": {
+	"Ecco The Dolphin (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"Ecco the Dolphin II (Japan)": {
+	"Ecco The Dolphin II (Japan)": {
 		"languages": "Ja"
 	},
 	"Empire Syndicate (Unknown) (Beta)": {
@@ -626,34 +623,34 @@
 	"Excellent Dizzy Collection, The (Europe)": {
 		"languages": "En"
 	},
-	"F-15 Strike Eagle (USA, Europe)": {
+	"F1 (USA, Europe)": {
 		"languages": "En"
 	},
 	"F1 - World Championship Edition (Europe)": {
 		"languages": "En"
 	},
-	"F1~ Formula One (USA, Europe)": {
+	"F-15 Strike Eagle (USA, Europe)": {
 		"languages": "En"
 	},
 	"Faceball 2000 (Japan)": {
 		"languages": "Ja"
 	},
-	"Factory Panic (Europe, Brazil)": {
+	"Factory Panic (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Fantastic Dizzy (USA, Europe) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
 	},
-	"Fantasy Zone (USA, Brazil)": {
+	"Fantasy Zone (Japan, Europe) (En)": {
 		"languages": "En"
 	},
-	"Fantasy Zone Gear ~ Fantasy Zone (Japan, Europe)": {
-		"languages": "En"
-	},
-	"Fatal Fury Special (USA)": {
+	"Fantasy Zone (USA, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Fatal Fury Special (Europe)": {
+		"languages": "En"
+	},
+	"Fatal Fury Special (USA)": {
 		"languages": "En"
 	},
 	"FIFA International Soccer (Japan)": {
@@ -665,7 +662,7 @@
 	"FIFA Soccer 96 (USA, Europe) (En,Fr,De,Es)": {
 		"languages": "En,Fr,De,Es"
 	},
-	"Foreman for Real (Japan, USA)": {
+	"Foreman for Real (Japan, USA) (En)": {
 		"languages": "En"
 	},
 	"Frank Thomas Big Hurt Baseball (USA)": {
@@ -686,23 +683,20 @@
 	"From TV Animation Slam Dunk - Shouri e no Starting 5 (Japan)": {
 		"languages": "Ja"
 	},
-	"G-LOC - Air Battle (Japan)": {
-		"languages": "Ja"
-	},
 	"G-LOC - Air Battle (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
-	"G-LOC - Air Battle (USA, Europe, Brazil)": {
+	"G-LOC - Air Battle (Japan)": {
+		"languages": "Ja"
+	},
+	"G-LOC - Air Battle (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"G-Sonic ~ Sonic Blast (World)": {
+	"Galaga 2 (Europe)": {
 		"languages": "En"
 	},
 	"Galaga '91 (Japan)": {
 		"languages": "Ja"
-	},
-	"Galaga 2 (Europe)": {
-		"languages": "En"
 	},
 	"Gamble Panic (Japan)": {
 		"languages": "Ja"
@@ -731,19 +725,16 @@
 	"George Foreman's KO Boxing (USA, Europe)": {
 		"languages": "En"
 	},
-	"GG Aleste (Japan) (En)": {
+	"GG Aleste 3 (Japan) (En) (Aleste Collection)": {
 		"languages": "En"
 	},
 	"GG Aleste (Japan) (En) (Aleste Collection)": {
 		"languages": "En"
 	},
-	"GG Aleste 3 (Japan) (En) (Aleste Collection)": {
+	"GG Aleste (Japan) (En)": {
 		"languages": "En"
 	},
 	"GG Aleste II (Japan) (En) (Aleste Collection)": {
-		"languages": "En"
-	},
-	"GG Aleste II ~ Power Strike II (Japan, Europe)": {
 		"languages": "En"
 	},
 	"GG Portrait - Pai Chen (Japan)": {
@@ -752,17 +743,8 @@
 	"GG Portrait - Yuuki Akira (Japan)": {
 		"languages": "Ja"
 	},
-	"GG Shinobi II, The ~ Shinobi II - The Silent Fury (World)": {
-		"languages": "En"
-	},
 	"GG Shinobi, The (Japan)": {
 		"languages": "Ja"
-	},
-	"GG Shinobi, The ~ Shinobi (World) (Rev 1)": {
-		"languages": "En"
-	},
-	"GG Shinobi, The ~ Shinobi (World) (Rev 1) (Virtual Console)": {
-		"languages": "En"
 	},
 	"Global Gladiators (Europe)": {
 		"languages": "En"
@@ -773,13 +755,13 @@
 	"GP Rider (Japan)": {
 		"languages": "Ja"
 	},
-	"GP Rider (World)": {
-		"languages": "En"
-	},
 	"GP Rider (World) (Beta) (1994-01-04)": {
 		"languages": "En"
 	},
-	"Greendog - The Beached Surfer Dude! (USA, Brazil)": {
+	"GP Rider (World)": {
+		"languages": "En"
+	},
+	"Greendog - The Beached Surfer Dude! (USA, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Griffin (Japan)": {
@@ -788,11 +770,11 @@
 	"Gunstar Heroes (Japan)": {
 		"languages": "Ja"
 	},
-	"Halley Wars (USA, Europe, Brazil)": {
-		"languages": "En"
-	},
 	"Halley Wars (Japan)": {
 		"languages": "Ja"
+	},
+	"Halley Wars (USA, Europe, Brazil) (En)": {
+		"languages": "En"
 	},
 	"Head Buster (Japan)": {
 		"languages": "Ja"
@@ -800,16 +782,16 @@
 	"Heavy Weight Champ (Japan)": {
 		"languages": "Ja"
 	},
-	"Home Alone (USA, Europe, Brazil)": {
+	"Home Alone (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Honoo no Toukyuuji - Dodge Danpei (Japan)": {
 		"languages": "Ja"
 	},
-	"Hook (USA)": {
+	"Hook (Europe)": {
 		"languages": "En"
 	},
-	"Hook (Europe)": {
+	"Hook (USA)": {
 		"languages": "En"
 	},
 	"Hurricanes (Europe)": {
@@ -821,19 +803,19 @@
 	"Hyper Pro Yakyuu '92 (Japan)": {
 		"languages": "Ja"
 	},
-	"In the Wake of Vampire (Japan) (En)": {
-		"languages": "En"
-	},
 	"In the Wake of Vampire (Japan) (En) (Virtual Console)": {
 		"languages": "En"
 	},
-	"Incredible Crash Dummies, The ~ Crash Dummy - Slick Bouya no Daichousen (World)": {
+	"In the Wake of Vampire (Japan) (En)": {
+		"languages": "En"
+	},
+	"Incredible Crash Dummies, The (World)": {
 		"languages": "En"
 	},
 	"Incredible Hulk, The (USA, Europe)": {
 		"languages": "En"
 	},
-	"Indiana Jones and the Last Crusade (USA, Europe, Brazil)": {
+	"Indiana Jones and the Last Crusade (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Iron Man X-O Manowar in Heavy Metal (USA)": {
@@ -854,13 +836,13 @@
 	"James Pond 3 - Operation Starfi5h (Europe)": {
 		"languages": "En"
 	},
-	"James Pond II - Codename RoboCod (USA)": {
-		"languages": "En"
-	},
 	"James Pond II - Codename RoboCod (Europe)": {
 		"languages": "En"
 	},
-	"Jang Pung II (Korea) (Unl)": {
+	"James Pond II - Codename RoboCod (USA)": {
+		"languages": "En"
+	},
+	"Jang Pung II (Korea) (En) (Unl)": {
 		"languages": "En"
 	},
 	"Jeopardy! (USA)": {
@@ -869,8 +851,8 @@
 	"Jeopardy! - Sports Edition (USA)": {
 		"languages": "En"
 	},
-	"Joe Montana Football (Japan)": {
-		"languages": "Ja"
+	"Joe Montana Football (Japan, Brazil) (En) (Rev 1)": {
+		"languages": "En"
 	},
 	"Joe Montana Football (USA, Europe)": {
 		"languages": "En"
@@ -881,10 +863,10 @@
 	"Judge Dredd (USA, Europe)": {
 		"languages": "En"
 	},
-	"Junction (USA)": {
+	"Junction (Japan) (En)": {
 		"languages": "En"
 	},
-	"Junction (Japan) (En)": {
+	"Junction (USA)": {
 		"languages": "En"
 	},
 	"Jungle Book, The (Europe)": {
@@ -899,7 +881,7 @@
 	"Jurassic Park (Japan)": {
 		"languages": "Ja"
 	},
-	"Jurassic Park (USA, Europe, Brazil)": {
+	"Jurassic Park (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Kaitou Saint Tail (Japan)": {
@@ -935,50 +917,47 @@
 	"Kuni-chan no Game Tengoku Part 2 (Japan)": {
 		"languages": "Ja"
 	},
-	"Land of Illusion Starring Mickey Mouse (USA, Europe, Brazil)": {
+	"Land of Illusion Starring Mickey Mouse (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Last Action Hero (USA)": {
 		"languages": "En"
 	},
-	"Legend of Illusion Starring Mickey Mouse (USA, Europe)": {
-		"languages": "En"
-	},
 	"Legend of Illusion Starring Mickey Mouse (USA, Europe) (Beta) (1994-09-22)": {
 		"languages": "En"
 	},
-	"Legend of Illusion Starring Mickey Mouse (USA, Europe) (Beta) (1994-09-30) (Alt 1)": {
-		"languages": "En"
-	},
-	"Legend of Illusion Starring Mickey Mouse (USA, Europe) (Beta) (1994-10-11)": {
+	"Legend of Illusion Starring Mickey Mouse (USA, Europe) (Beta) (1994-09-30) (Alt)": {
 		"languages": "En"
 	},
 	"Legend of Illusion Starring Mickey Mouse (USA, Europe) (Beta) (1994-09-30)": {
 		"languages": "En"
 	},
-	"Legend of Illusion Starring Mickey Mouse (USA, Europe) (Beta) (1994-10-17)": {
+	"Legend of Illusion Starring Mickey Mouse (USA, Europe) (Beta) (1994-10-11)": {
 		"languages": "En"
 	},
 	"Legend of Illusion Starring Mickey Mouse (USA, Europe) (Beta) (1994-10-14)": {
 		"languages": "En"
 	},
-	"Lemmings (World)": {
+	"Legend of Illusion Starring Mickey Mouse (USA, Europe) (Beta) (1994-10-17)": {
+		"languages": "En"
+	},
+	"Legend of Illusion Starring Mickey Mouse (USA, Europe)": {
+		"languages": "En"
+	},
+	"Lemmings 2 - The Tribes (Europe) (Proto) (1995-09-04)": {
 		"languages": "En"
 	},
 	"Lemmings (World) (Beta)": {
 		"languages": "En"
 	},
-	"Lemmings 2 - The Tribes (Europe) (Proto)": {
+	"Lemmings (World)": {
 		"languages": "En"
 	},
-	"Lion King, The (USA)": {
+	"Lion King, The (Europe)": {
 		"languages": "En"
 	},
 	"Lion King, The (Japan)": {
 		"languages": "Ja"
-	},
-	"Lion King, The (Europe)": {
-		"languages": "En"
 	},
 	"Lion King, The (USA) (Beta) (1994-08-03)": {
 		"languages": "En"
@@ -989,28 +968,31 @@
 	"Lion King, The (USA) (Beta) (1994-08-12)": {
 		"languages": "En"
 	},
-	"Lion King, The (USA) (Beta) (1994-08-14)": {
-		"languages": "En"
-	},
 	"Lion King, The (USA) (Beta) (1994-08-13)": {
 		"languages": "En"
 	},
-	"Lion King, The (USA) (Beta) (1994-08-17)": {
-		"languages": "En"
-	},
-	"Lion King, The (USA) (Beta) (1994-08-17) (Alt 1)": {
-		"languages": "En"
-	},
-	"Lion King, The (USA) (Beta) (1994-08-20)": {
+	"Lion King, The (USA) (Beta) (1994-08-14)": {
 		"languages": "En"
 	},
 	"Lion King, The (USA) (Beta) (1994-08-16)": {
 		"languages": "En"
 	},
+	"Lion King, The (USA) (Beta) (1994-08-17) (Alt)": {
+		"languages": "En"
+	},
+	"Lion King, The (USA) (Beta) (1994-08-17)": {
+		"languages": "En"
+	},
+	"Lion King, The (USA) (Beta) (1994-08-20)": {
+		"languages": "En"
+	},
+	"Lion King, The (USA)": {
+		"languages": "En"
+	},
 	"Lost World, The - Jurassic Park (USA)": {
 		"languages": "En"
 	},
-	"Lucky Dime Caper Starring Donald Duck, The (USA, Europe, Brazil)": {
+	"Lucky Dime Caper Starring Donald Duck, The (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Lunar - Sanposuru Gakuen (Japan)": {
@@ -1031,16 +1013,16 @@
 	"Madou Monogatari II - Arle 16-Sai (Japan)": {
 		"languages": "Ja"
 	},
-	"Madou Monogatari III - Kyuukyoku Joou-sama (Japan) (Rev 1)": {
+	"Madou Monogatari III - Kyuukyoku Joou-sama (Japan) (Rev A)": {
 		"languages": "Ja"
 	},
 	"Madou Monogatari III - Kyuukyoku Joou-sama (Japan)": {
 		"languages": "Ja"
 	},
-	"Magic Knight Rayearth (Japan)": {
+	"Magic Knight Rayearth 2 - Making of Magic Knight (Japan)": {
 		"languages": "Ja"
 	},
-	"Magic Knight Rayearth 2 - Making of Magic Knight (Japan)": {
+	"Magic Knight Rayearth (Japan)": {
 		"languages": "Ja"
 	},
 	"Magical Puzzle Popils (World) (En,Ja)": {
@@ -1064,10 +1046,10 @@
 	"Marko's Magic Football (Europe) (En,Fr,De,Es)": {
 		"languages": "En,Fr,De,Es"
 	},
-	"Master of Darkness (Europe, Brazil)": {
+	"Master of Darkness (Europe) (Virtual Console)": {
 		"languages": "En"
 	},
-	"Master of Darkness (Europe) (Virtual Console)": {
+	"Master of Darkness (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Mega Man (USA)": {
@@ -1091,22 +1073,22 @@
 	"Mickey's Ultimate Challenge (USA)": {
 		"languages": "En"
 	},
-	"Micro Machines (USA, Europe)": {
+	"Micro Machines 2 - Turbo Tournament (Europe)": {
 		"languages": "En"
 	},
 	"Micro Machines (USA, Europe) (Beta) (1993-10-22)": {
 		"languages": "En"
 	},
-	"Micro Machines 2 - Turbo Tournament (Europe)": {
-		"languages": "En"
-	},
-	"Mighty Morphin Power Rangers (USA, Europe)": {
+	"Micro Machines (USA, Europe)": {
 		"languages": "En"
 	},
 	"Mighty Morphin Power Rangers (USA, Europe) (Beta) (1994-07-16)": {
 		"languages": "En"
 	},
-	"Mighty Morphin Power Rangers - The Movie (USA, Europe)": {
+	"Mighty Morphin Power Rangers (USA, Europe)": {
+		"languages": "En"
+	},
+	"Mighty Morphin Power Rangers - The Movie (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"MLBPA Baseball (USA)": {
@@ -1121,14 +1103,17 @@
 	"Monster World II - Dragon no Wana (Japan)": {
 		"languages": "Ja"
 	},
+	"Mortal Kombat 3 (Europe)": {
+		"languages": "En"
+	},
+	"Mortal Kombat (USA, Europe) (Beta)": {
+		"languages": "En"
+	},
 	"Mortal Kombat (USA, Europe)": {
 		"languages": "En"
 	},
 	"Mortal Kombat - Shinken Kourin Densetsu (Japan)": {
 		"languages": "Ja"
-	},
-	"Mortal Kombat 3 (Europe)": {
-		"languages": "En"
 	},
 	"Mortal Kombat II (World)": {
 		"languages": "En"
@@ -1136,10 +1121,13 @@
 	"Ms. Pac-Man (USA)": {
 		"languages": "En"
 	},
-	"Nazo Puyo (Japan)": {
+	"Nazo Puyo 2 (Japan)": {
 		"languages": "Ja"
 	},
 	"Nazo Puyo (Japan) (Rev 1)": {
+		"languages": "Ja"
+	},
+	"Nazo Puyo (Japan)": {
 		"languages": "Ja"
 	},
 	"Nazo Puyo - Arle no Roux (Japan) (Beta)": {
@@ -1148,110 +1136,107 @@
 	"Nazo Puyo - Arle no Roux (Japan)": {
 		"languages": "Ja"
 	},
-	"Nazo Puyo 2 (Japan)": {
-		"languages": "Ja"
-	},
-	"NBA Action Starring David Robinson (USA, Brazil)": {
+	"NBA Action Starring David Robinson (USA, Brazil) (En) (Beta) (1993-11-28)": {
 		"languages": "En"
 	},
-	"NBA Action Starring David Robinson (USA, Brazil) (Beta) (1993-11-28)": {
+	"NBA Action Starring David Robinson (USA, Brazil) (En) (Beta) (1993-12-01)": {
 		"languages": "En"
 	},
-	"NBA Action Starring David Robinson (USA, Brazil) (Beta) (1993-12-01)": {
+	"NBA Action Starring David Robinson (USA, Brazil) (En) (Beta) (1994-01-04)": {
 		"languages": "En"
 	},
-	"NBA Action Starring David Robinson (USA, Brazil) (Beta) (1994-01-04)": {
+	"NBA Action Starring David Robinson (USA, Brazil) (En) (Beta) (1994-01-06)": {
 		"languages": "En"
 	},
-	"NBA Action Starring David Robinson (USA, Brazil) (Beta) (1994-01-06)": {
+	"NBA Action Starring David Robinson (USA, Brazil) (En) (Beta) (1994-01-10)": {
 		"languages": "En"
 	},
-	"NBA Action Starring David Robinson (USA, Brazil) (Beta) (1994-01-24)": {
+	"NBA Action Starring David Robinson (USA, Brazil) (En) (Beta) (1994-01-24)": {
 		"languages": "En"
 	},
-	"NBA Action Starring David Robinson (USA, Brazil) (Beta) (1994-01-10)": {
+	"NBA Action Starring David Robinson (USA, Brazil) (En) (Beta) (1994-01-29)": {
 		"languages": "En"
 	},
-	"NBA Action Starring David Robinson (USA, Brazil) (Beta) (1994-01-29)": {
+	"NBA Action Starring David Robinson (USA, Brazil) (En) (Beta) (1994-02-02)": {
 		"languages": "En"
 	},
-	"NBA Action Starring David Robinson (USA, Brazil) (Beta) (1994-02-03)": {
+	"NBA Action Starring David Robinson (USA, Brazil) (En) (Beta) (1994-02-03)": {
 		"languages": "En"
 	},
-	"NBA Action Starring David Robinson (USA, Brazil) (Beta) (1994-02-06)": {
+	"NBA Action Starring David Robinson (USA, Brazil) (En) (Beta) (1994-02-06)": {
 		"languages": "En"
 	},
-	"NBA Action Starring David Robinson (USA, Brazil) (Beta) (1994-02-02)": {
+	"NBA Action Starring David Robinson (USA, Brazil) (En) (Beta) (1994-02-08)": {
 		"languages": "En"
 	},
-	"NBA Action Starring David Robinson (USA, Brazil) (Beta) (1994-02-25) (Alt 1)": {
+	"NBA Action Starring David Robinson (USA, Brazil) (En) (Beta) (1994-02-12)": {
 		"languages": "En"
 	},
-	"NBA Action Starring David Robinson (USA, Brazil) (Beta) (1994-02-08)": {
+	"NBA Action Starring David Robinson (USA, Brazil) (En) (Beta) (1994-02-15)": {
 		"languages": "En"
 	},
-	"NBA Action Starring David Robinson (USA, Brazil) (Beta) (1994-02-15)": {
+	"NBA Action Starring David Robinson (USA, Brazil) (En) (Beta) (1994-02-17)": {
 		"languages": "En"
 	},
-	"NBA Action Starring David Robinson (USA, Brazil) (Beta) (1994-02-17)": {
+	"NBA Action Starring David Robinson (USA, Brazil) (En) (Beta) (1994-02-20)": {
 		"languages": "En"
 	},
-	"NBA Action Starring David Robinson (USA, Brazil) (Beta) (1994-02-12)": {
+	"NBA Action Starring David Robinson (USA, Brazil) (En) (Beta) (1994-02-21)": {
 		"languages": "En"
 	},
-	"NBA Action Starring David Robinson (USA, Brazil) (Beta) (1994-02-24)": {
+	"NBA Action Starring David Robinson (USA, Brazil) (En) (Beta) (1994-02-24)": {
 		"languages": "En"
 	},
-	"NBA Action Starring David Robinson (USA, Brazil) (Beta) (1994-02-21)": {
+	"NBA Action Starring David Robinson (USA, Brazil) (En) (Beta) (1994-02-25) (Alt)": {
 		"languages": "En"
 	},
-	"NBA Action Starring David Robinson (USA, Brazil) (Beta) (1994-02-25)": {
+	"NBA Action Starring David Robinson (USA, Brazil) (En) (Beta) (1994-02-25)": {
 		"languages": "En"
 	},
-	"NBA Action Starring David Robinson (USA, Brazil) (Beta) (1994-02-20)": {
+	"NBA Action Starring David Robinson (USA, Brazil) (En) (Beta) (1994-02-26)": {
 		"languages": "En"
 	},
-	"NBA Action Starring David Robinson (USA, Brazil) (Beta) (1994-02-26)": {
+	"NBA Action Starring David Robinson (USA, Brazil) (En) (Beta) (1994-02-27)": {
 		"languages": "En"
 	},
-	"NBA Action Starring David Robinson (USA, Brazil) (Beta) (1994-02-27)": {
+	"NBA Action Starring David Robinson (USA, Brazil) (En) (Beta) (1994-02-28) (Alt)": {
 		"languages": "En"
 	},
-	"NBA Action Starring David Robinson (USA, Brazil) (Beta) (1994-02-28) (Alt 1)": {
+	"NBA Action Starring David Robinson (USA, Brazil) (En) (Beta) (1994-02-28)": {
 		"languages": "En"
 	},
-	"NBA Action Starring David Robinson (USA, Brazil) (Beta) (1994-03-01)": {
+	"NBA Action Starring David Robinson (USA, Brazil) (En) (Beta) (1994-03-01)": {
 		"languages": "En"
 	},
-	"NBA Action Starring David Robinson (USA, Brazil) (Beta) (1994-03-02)": {
+	"NBA Action Starring David Robinson (USA, Brazil) (En) (Beta) (1994-03-02)": {
 		"languages": "En"
 	},
-	"NBA Action Starring David Robinson (USA, Brazil) (Beta) (1994-03-08)": {
+	"NBA Action Starring David Robinson (USA, Brazil) (En) (Beta) (1994-03-03)": {
 		"languages": "En"
 	},
-	"NBA Action Starring David Robinson (USA, Brazil) (Beta) (1994-02-28)": {
+	"NBA Action Starring David Robinson (USA, Brazil) (En) (Beta) (1994-03-04) (Alt)": {
 		"languages": "En"
 	},
-	"NBA Action Starring David Robinson (USA, Brazil) (Beta) (1994-03-05)": {
+	"NBA Action Starring David Robinson (USA, Brazil) (En) (Beta) (1994-03-04)": {
 		"languages": "En"
 	},
-	"NBA Action Starring David Robinson (USA, Brazil) (Beta) (1994-03-04)": {
+	"NBA Action Starring David Robinson (USA, Brazil) (En) (Beta) (1994-03-05)": {
 		"languages": "En"
 	},
-	"NBA Action Starring David Robinson (USA, Brazil) (Beta) (1994-03-03)": {
+	"NBA Action Starring David Robinson (USA, Brazil) (En) (Beta) (1994-03-08)": {
 		"languages": "En"
 	},
-	"NBA Action Starring David Robinson (USA, Brazil) (Beta) (1994-03-04) (Alt 1)": {
-		"languages": "En"
-	},
-	"NBA Jam (USA, Europe)": {
-		"languages": "En"
-	},
-	"NBA Jam (USA) (Rev 1)": {
+	"NBA Action Starring David Robinson (USA, Brazil) (En)": {
 		"languages": "En"
 	},
 	"NBA Jam (Japan)": {
 		"languages": "Ja"
+	},
+	"NBA Jam (USA) (Rev 1)": {
+		"languages": "En"
+	},
+	"NBA Jam (USA, Europe)": {
+		"languages": "En"
 	},
 	"NBA Jam - Tournament Edition (World)": {
 		"languages": "En"
@@ -1259,16 +1244,13 @@
 	"Neko Daisuki! (Japan)": {
 		"languages": "Ja"
 	},
-	"NFL '95 (USA)": {
-		"languages": "En"
-	},
 	"NFL '95 (USA) (Beta) (1994-08-08)": {
 		"languages": "En"
 	},
-	"NFL '95 (USA) (Beta) (1994-08-25)": {
+	"NFL '95 (USA) (Beta) (1994-08-25) (Alt)": {
 		"languages": "En"
 	},
-	"NFL '95 (USA) (Beta) (1994-08-25) (Alt 1)": {
+	"NFL '95 (USA) (Beta) (1994-08-25)": {
 		"languages": "En"
 	},
 	"NFL '95 (USA) (Beta) (1994-08-26)": {
@@ -1286,7 +1268,7 @@
 	"NFL '95 (USA) (Beta) (1994-09-10)": {
 		"languages": "En"
 	},
-	"NFL '95 (USA) (Beta) (1994-09-11) (Alt 1)": {
+	"NFL '95 (USA) (Beta) (1994-09-11) (Alt)": {
 		"languages": "En"
 	},
 	"NFL '95 (USA) (Beta) (1994-09-11)": {
@@ -1295,19 +1277,19 @@
 	"NFL '95 (USA) (Beta) (1994-09-12)": {
 		"languages": "En"
 	},
-	"NFL '95 (USA) (Beta) (1994-09-14) (Alt 1)": {
+	"NFL '95 (USA) (Beta) (1994-09-14) (Alt)": {
 		"languages": "En"
 	},
 	"NFL '95 (USA) (Beta) (1994-09-14)": {
 		"languages": "En"
 	},
-	"NFL Quarterback Club (World)": {
+	"NFL '95 (USA)": {
 		"languages": "En"
 	},
 	"NFL Quarterback Club 96 (USA)": {
 		"languages": "En"
 	},
-	"NHL All-Star Hockey (USA)": {
+	"NFL Quarterback Club (World)": {
 		"languages": "En"
 	},
 	"NHL All-Star Hockey (USA) (Beta) (1994-12-15)": {
@@ -1340,25 +1322,28 @@
 	"NHL All-Star Hockey (USA) (Beta) (1995-01-16)": {
 		"languages": "En"
 	},
-	"NHL All-Star Hockey (USA) (Beta) (1995-01-21)": {
-		"languages": "En"
-	},
-	"NHL All-Star Hockey (USA) (Beta) (1995-01-24) (Alt 3)": {
-		"languages": "En"
-	},
 	"NHL All-Star Hockey (USA) (Beta) (1995-01-20)": {
+		"languages": "En"
+	},
+	"NHL All-Star Hockey (USA) (Beta) (1995-01-21)": {
 		"languages": "En"
 	},
 	"NHL All-Star Hockey (USA) (Beta) (1995-01-24) (Alt 2)": {
 		"languages": "En"
 	},
-	"NHL All-Star Hockey (USA) (Beta) (1995-01-24) (Alt 1)": {
+	"NHL All-Star Hockey (USA) (Beta) (1995-01-24) (Alt 3)": {
+		"languages": "En"
+	},
+	"NHL All-Star Hockey (USA) (Beta) (1995-01-24) (Alt)": {
+		"languages": "En"
+	},
+	"NHL All-Star Hockey (USA) (Beta) (1995-01-24)": {
 		"languages": "En"
 	},
 	"NHL All-Star Hockey (USA) (Beta) (1995-01-25)": {
 		"languages": "En"
 	},
-	"NHL All-Star Hockey (USA) (Beta) (1995-01-24)": {
+	"NHL All-Star Hockey (USA)": {
 		"languages": "En"
 	},
 	"NHL Hockey (USA, Europe)": {
@@ -1367,13 +1352,13 @@
 	"Ninja Gaiden (Japan)": {
 		"languages": "Ja"
 	},
-	"Ninja Gaiden (USA, Europe, Brazil)": {
+	"Ninja Gaiden (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"Ninku (Japan)": {
+	"Ninku 2 - Tenkuuryuu e no Michi (Japan)": {
 		"languages": "Ja"
 	},
-	"Ninku 2 - Tenkuuryuu e no Michi (Japan)": {
+	"Ninku (Japan)": {
 		"languages": "Ja"
 	},
 	"Ninku Gaiden - Hiroyuki Daikatsugeki (Japan)": {
@@ -1385,28 +1370,28 @@
 	"Off the Wall (USA) (Proto) (1992-06-28)": {
 		"languages": "En"
 	},
-	"Olympic Gold (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv) (Rev 1)": {
+	"Olympic Gold (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv)": {
 		"languages": "En,Fr,De,Es,It,Nl,Pt,Sv"
 	},
 	"Olympic Gold (Japan, USA, Brazil) (En,Fr,De,Es,It,Nl,Pt,Sv)": {
 		"languages": "En,Fr,De,Es,It,Nl,Pt,Sv"
 	},
-	"Olympic Gold (Taiwan) (En,Fr,De,Es,It,Nl,Pt,Sv) (Unl) (Pirate)": {
+	"Olympic Gold (Taiwan) (En,Fr,De,Es,It,Nl,Pt,Sv) (Unl)": {
 		"languages": "En,Fr,De,Es,It,Nl,Pt,Sv"
 	},
 	"Ottifants, The (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
 	},
-	"OutRun (Europe, Brazil)": {
+	"OutRun (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"OutRun (Japan, Korea)": {
+	"OutRun (Japan, Europe, Korea) (Ja)": {
 		"languages": "Ja"
 	},
-	"OutRun Europa (USA)": {
+	"OutRun Europa (Europe)": {
 		"languages": "En"
 	},
-	"OutRun Europa (Europe)": {
+	"OutRun Europa (USA)": {
 		"languages": "En"
 	},
 	"Pac-Attack (USA)": {
@@ -1415,29 +1400,29 @@
 	"Pac-in-Time (USA) (Proto)": {
 		"languages": "En"
 	},
-	"Pac-Man (USA)": {
+	"Pac-Man (Japan) (En)": {
 		"languages": "En"
 	},
-	"Pac-Man (Japan) (En)": {
+	"Pac-Man (USA)": {
 		"languages": "En"
 	},
 	"Panzer Dragoon Mini (Japan)": {
 		"languages": "Ja"
 	},
-	"Paperboy (USA, Europe)": {
+	"Paperboy 2 (USA) (Beta)": {
 		"languages": "En"
 	},
 	"Paperboy 2 (USA)": {
 		"languages": "En"
 	},
-	"Paperboy 2 (USA) (Beta)": {
+	"Paperboy (USA, Europe)": {
+		"languages": "En"
+	},
+	"Pengo (Europe)": {
 		"languages": "En"
 	},
 	"Pengo (Japan)": {
 		"languages": "Ja"
-	},
-	"Pengo (Europe)": {
-		"languages": "En"
 	},
 	"Pet Club - Inu Daisuki! (Japan)": {
 		"languages": "Ja"
@@ -1448,10 +1433,10 @@
 	"PGA Tour 96 (USA, Europe)": {
 		"languages": "En"
 	},
-	"PGA Tour Golf (USA, Europe)": {
+	"PGA Tour Golf (USA) (Rev 1)": {
 		"languages": "En"
 	},
-	"PGA Tour Golf (USA) (Rev 1)": {
+	"PGA Tour Golf (USA, Europe)": {
 		"languages": "En"
 	},
 	"PGA Tour Golf II (USA, Europe)": {
@@ -1493,46 +1478,49 @@
 	"Power Drive (Europe)": {
 		"languages": "En"
 	},
+	"Power Strike II (Japan, Europe) (En)": {
+		"languages": "En"
+	},
 	"Predator 2 (USA, Europe)": {
 		"languages": "En"
 	},
 	"Primal Rage (USA, Europe)": {
 		"languages": "En"
 	},
-	"Prince of Persia (USA, Europe)": {
+	"Prince of Persia (USA, Europe) (Beta)": {
 		"languages": "En"
 	},
-	"Prince of Persia (USA, Europe) (Beta)": {
+	"Prince of Persia (USA, Europe)": {
 		"languages": "En"
 	},
 	"Pro Yakyuu '91, The (Japan)": {
 		"languages": "Ja"
 	},
-	"Pro Yakyuu GG League (Japan)": {
-		"languages": "Ja"
-	},
 	"Pro Yakyuu GG League '94 (Japan)": {
 		"languages": "Ja"
 	},
-	"Psychic World (USA, Europe, Brazil)": {
-		"languages": "En"
+	"Pro Yakyuu GG League (Japan)": {
+		"languages": "Ja"
 	},
 	"Psychic World (Japan) (En)": {
 		"languages": "En"
 	},
-	"Putt & Putter (Japan, Korea)": {
+	"Psychic World (USA, Europe, Brazil) (En) (Rev 1)": {
+		"languages": "En"
+	},
+	"Putt & Putter (Japan, Korea) (Ja)": {
 		"languages": "Ja"
 	},
-	"Putt & Putter - Miniature Golf ~ Putt & Putter ~ Minigolf (USA, Europe, Brazil)": {
+	"Putt & Putter (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Puyo Puyo (Japan) (En,Ja)": {
 		"languages": "En,Ja"
 	},
-	"Puyo Puyo Tsuu (Japan)": {
+	"Puyo Puyo Tsuu (Japan) (Virtual Console)": {
 		"languages": "Ja"
 	},
-	"Puyo Puyo Tsuu (Japan) (Virtual Console)": {
+	"Puyo Puyo Tsuu (Japan)": {
 		"languages": "Ja"
 	},
 	"Puzzle & Action - Ichidanto-R (Japan)": {
@@ -1559,7 +1547,7 @@
 	"Rastan Saga (Japan)": {
 		"languages": "Ja"
 	},
-	"Revenge of Drancon (USA, Brazil)": {
+	"Revenge of Drancon (USA, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Riddick Bowe Boxing (Japan)": {
@@ -1586,13 +1574,13 @@
 	"Ristar (World) (Beta) (1994-11-02)": {
 		"languages": "En"
 	},
-	"Ristar ~ Ristar - The Shooting Star (World)": {
-		"languages": "En"
-	},
-	"Road Rash (USA)": {
+	"Ristar (World)": {
 		"languages": "En"
 	},
 	"Road Rash (Europe)": {
+		"languages": "En"
+	},
+	"Road Rash (USA)": {
 		"languages": "En"
 	},
 	"RoboCop 3 (World)": {
@@ -1613,19 +1601,19 @@
 	"Samurai Spirits (Japan)": {
 		"languages": "Ja"
 	},
-	"Scratch Golf (USA)": {
-		"languages": "En"
-	},
 	"Scratch Golf (Japan)": {
 		"languages": "Ja"
+	},
+	"Scratch Golf (USA)": {
+		"languages": "En"
 	},
 	"SD Gundam - Winner's History (Japan)": {
 		"languages": "Ja"
 	},
-	"Sega Game Pack 4 in 1 (Europe)": {
+	"Sega Game Pack 4 in 1 (Europe) (Beta)": {
 		"languages": "En"
 	},
-	"Sega Game Pack 4 in 1 (Europe) (Beta)": {
+	"Sega Game Pack 4 in 1 (Europe)": {
 		"languages": "En"
 	},
 	"Sensible Soccer - European Champions (Europe)": {
@@ -1634,10 +1622,10 @@
 	"Shadam Crusader - Harukanaru Oukoku (Japan)": {
 		"languages": "Ja"
 	},
-	"Shanghai II (Japan)": {
+	"Shanghai II (Japan) (Rev A)": {
 		"languages": "Ja"
 	},
-	"Shanghai II (Japan) (Rev 1)": {
+	"Shanghai II (Japan)": {
 		"languages": "Ja"
 	},
 	"Shaq Fu (USA)": {
@@ -1645,9 +1633,6 @@
 	},
 	"Shikinjou (Japan)": {
 		"languages": "Ja"
-	},
-	"Shining Force - The Sword of Hajya (USA)": {
-		"languages": "En"
 	},
 	"Shining Force - The Sword of Hajya (USA) (Beta) (1994-04-27)": {
 		"languages": "En"
@@ -1661,20 +1646,32 @@
 	"Shining Force - The Sword of Hajya (USA) (Beta) (1994-07-08)": {
 		"languages": "En"
 	},
+	"Shining Force - The Sword of Hajya (USA)": {
+		"languages": "En"
+	},
 	"Shining Force - The Sword of Hajya (USA, Europe) (Virtual Console)": {
 		"languages": "En"
 	},
 	"Shining Force Gaiden - Ensei, Jashin no Kuni e (Japan)": {
 		"languages": "Ja"
 	},
-	"Shining Force Gaiden - Final Conflict (Japan)": {
+	"Shining Force Gaiden - Final Conflict (Japan) (Virtual Console)": {
 		"languages": "Ja"
 	},
-	"Shining Force Gaiden - Final Conflict (Japan) (Virtual Console)": {
+	"Shining Force Gaiden - Final Conflict (Japan)": {
 		"languages": "Ja"
 	},
 	"Shining Force Gaiden II - Jashin no Kakusei (Japan)": {
 		"languages": "Ja"
+	},
+	"Shinobi (World) (Rev A) (Virtual Console)": {
+		"languages": "En"
+	},
+	"Shinobi (World) (Rev A)": {
+		"languages": "En"
+	},
+	"Shinobi II - The Silent Fury (World)": {
+		"languages": "En"
 	},
 	"Side Pocket (USA)": {
 		"languages": "En"
@@ -1682,7 +1679,7 @@
 	"Simpsons, The - Bart vs. the Space Mutants (USA, Europe)": {
 		"languages": "En"
 	},
-	"Simpsons, The - Bart vs. the World ~ Bart World (World)": {
+	"Simpsons, The - Bart vs. the World (World)": {
 		"languages": "En"
 	},
 	"Simpsons, The - Bartman Meets Radioactive Man (USA)": {
@@ -1706,14 +1703,14 @@
 	"Solitaire Poker (USA, Europe)": {
 		"languages": "En"
 	},
-	"Sonic & Tails (Japan) (En)": {
-		"languages": "En"
+	"Sonic & Tails 2 (Japan)": {
+		"languages": "Ja"
 	},
 	"Sonic & Tails (Japan) (En) (Sample)": {
 		"languages": "En"
 	},
-	"Sonic & Tails 2 (Japan)": {
-		"languages": "Ja"
+	"Sonic & Tails (Japan) (En)": {
+		"languages": "En"
 	},
 	"Sonic Blast (World) (Beta) (1996-05-31)": {
 		"languages": "En"
@@ -1733,115 +1730,118 @@
 	"Sonic Blast (World) (Beta) (1996-09-02)": {
 		"languages": "En"
 	},
-	"Sonic Chaos (USA, Europe, Brazil)": {
+	"Sonic Blast (World)": {
 		"languages": "En"
 	},
-	"Sonic Chaos (USA, Europe, Brazil) (Beta) (1993-05-17)": {
+	"Sonic Chaos (USA, Europe, Brazil) (En) (Beta) (1993-05-17)": {
 		"languages": "En"
 	},
-	"Sonic Drift (Japan) (En)": {
+	"Sonic Chaos (USA, Europe, Brazil) (En)": {
+		"languages": "En"
+	},
+	"Sonic Drift 2 (World)": {
 		"languages": "En"
 	},
 	"Sonic Drift (Japan) (En) (Demo)": {
 		"languages": "En"
 	},
-	"Sonic Drift Racing ~ Sonic Drift 2 (World)": {
-		"languages": "En"
-	},
-	"Sonic Labyrinth (World)": {
+	"Sonic Drift (Japan) (En)": {
 		"languages": "En"
 	},
 	"Sonic Labyrinth (USA, Europe) (Virtual Console)": {
 		"languages": "En"
 	},
-	"Sonic Spinball (USA, Europe)": {
+	"Sonic Labyrinth (World)": {
 		"languages": "En"
 	},
-	"Sonic Spinball (USA, Europe) (Beta) (1994-03-07)": {
+	"Sonic Spinball (USA, Europe, Brazil) (En) (Beta) (1994-03-07)": {
 		"languages": "En"
 	},
-	"Sonic Spinball (USA, Europe) (Beta) (1994-03-10)": {
+	"Sonic Spinball (USA, Europe, Brazil) (En) (Beta) (1994-03-10)": {
 		"languages": "En"
 	},
-	"Sonic Spinball (USA, Europe) (Beta) (1994-03-11)": {
+	"Sonic Spinball (USA, Europe, Brazil) (En) (Beta) (1994-03-11)": {
 		"languages": "En"
 	},
-	"Sonic Spinball (USA, Europe) (Beta) (1994-03-21)": {
+	"Sonic Spinball (USA, Europe, Brazil) (En) (Beta) (1994-03-21)": {
 		"languages": "En"
 	},
-	"Sonic Spinball (USA, Europe) (Beta) (1994-03-28)": {
+	"Sonic Spinball (USA, Europe, Brazil) (En) (Beta) (1994-03-28)": {
 		"languages": "En"
 	},
-	"Sonic Spinball (USA, Europe) (Beta) (1994-03-29)": {
+	"Sonic Spinball (USA, Europe, Brazil) (En) (Beta) (1994-03-29)": {
 		"languages": "En"
 	},
-	"Sonic Spinball (USA, Europe) (Beta) (1994-03-30)": {
+	"Sonic Spinball (USA, Europe, Brazil) (En) (Beta) (1994-03-30)": {
 		"languages": "En"
 	},
-	"Sonic Spinball (USA, Europe) (Beta) (1994-04-05)": {
+	"Sonic Spinball (USA, Europe, Brazil) (En) (Beta) (1994-04-05)": {
 		"languages": "En"
 	},
-	"Sonic Spinball (USA, Europe) (Beta) (1994-04-12)": {
+	"Sonic Spinball (USA, Europe, Brazil) (En) (Beta) (1994-04-12)": {
 		"languages": "En"
 	},
-	"Sonic Spinball (USA, Europe) (Beta) (1994-04-13)": {
+	"Sonic Spinball (USA, Europe, Brazil) (En) (Beta) (1994-04-13)": {
 		"languages": "En"
 	},
-	"Sonic Spinball (USA, Europe) (Beta) (1994-04-15)": {
+	"Sonic Spinball (USA, Europe, Brazil) (En) (Beta) (1994-04-15)": {
 		"languages": "En"
 	},
-	"Sonic Spinball (USA, Europe) (Beta) (1994-04-21)": {
+	"Sonic Spinball (USA, Europe, Brazil) (En) (Beta) (1994-04-21)": {
 		"languages": "En"
 	},
-	"Sonic Spinball (USA, Europe) (Beta) (1994-04-27)": {
+	"Sonic Spinball (USA, Europe, Brazil) (En) (Beta) (1994-04-27)": {
 		"languages": "En"
 	},
-	"Sonic Spinball (USA, Europe) (Beta) (1994-04-29) (Alt 1)": {
+	"Sonic Spinball (USA, Europe, Brazil) (En) (Beta) (1994-04-29) (Alt)": {
 		"languages": "En"
 	},
-	"Sonic Spinball (USA, Europe) (Beta) (1994-04-29)": {
+	"Sonic Spinball (USA, Europe, Brazil) (En) (Beta) (1994-04-29)": {
 		"languages": "En"
 	},
-	"Sonic Spinball (USA, Europe) (Beta) (1994-05-03)": {
+	"Sonic Spinball (USA, Europe, Brazil) (En) (Beta) (1994-05-03)": {
 		"languages": "En"
 	},
-	"Sonic Spinball (USA, Europe) (Beta) (1994-05-05)": {
+	"Sonic Spinball (USA, Europe, Brazil) (En) (Beta) (1994-05-05)": {
 		"languages": "En"
 	},
-	"Sonic Spinball (USA, Europe) (Beta) (1994-05-06)": {
+	"Sonic Spinball (USA, Europe, Brazil) (En) (Beta) (1994-05-06)": {
 		"languages": "En"
 	},
-	"Sonic Spinball (USA, Europe) (Beta) (1994-05-25)": {
+	"Sonic Spinball (USA, Europe, Brazil) (En) (Beta) (1994-05-25)": {
 		"languages": "En"
 	},
-	"Sonic Spinball (USA, Europe) (Beta) (1994-05-30)": {
+	"Sonic Spinball (USA, Europe, Brazil) (En) (Beta) (1994-05-30)": {
 		"languages": "En"
 	},
-	"Sonic The Hedgehog (Japan, USA) (Beta)": {
-		"languages": "En"
-	},
-	"Sonic The Hedgehog (Japan, USA)": {
-		"languages": "En"
-	},
-	"Sonic The Hedgehog (Japan, Europe, Brazil) (Rev 1)": {
-		"languages": "En"
-	},
-	"Sonic The Hedgehog (World) (Rev 1) (Virtual Console)": {
-		"languages": "En"
-	},
-	"Sonic The Hedgehog - Triple Trouble (USA, Europe, Brazil)": {
-		"languages": "En"
-	},
-	"Sonic The Hedgehog - Triple Trouble (USA, Europe, Brazil) (Beta) (1994-08-08)": {
-		"languages": "En"
-	},
-	"Sonic The Hedgehog 2 (World)": {
+	"Sonic Spinball (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Sonic The Hedgehog 2 (World) (Auto Demo)": {
 		"languages": "En"
 	},
 	"Sonic The Hedgehog 2 (World) (Virtual Console)": {
+		"languages": "En"
+	},
+	"Sonic The Hedgehog 2 (World)": {
+		"languages": "En"
+	},
+	"Sonic The Hedgehog (Japan, Europe, Brazil) (En) (Rev 1)": {
+		"languages": "En"
+	},
+	"Sonic The Hedgehog (Japan, USA) (En) (Beta)": {
+		"languages": "En"
+	},
+	"Sonic The Hedgehog (Japan, USA) (En)": {
+		"languages": "En"
+	},
+	"Sonic The Hedgehog (World) (Rev 1) (Virtual Console)": {
+		"languages": "En"
+	},
+	"Sonic The Hedgehog - Triple Trouble (USA, Europe, Brazil) (En) (Beta) (1994-08-08)": {
+		"languages": "En"
+	},
+	"Sonic The Hedgehog - Triple Trouble (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Soukoban (Japan)": {
@@ -1865,9 +1865,6 @@
 	"Sports Illustrated - Championship Football & Baseball (USA)": {
 		"languages": "En"
 	},
-	"Sports Trivia (USA)": {
-		"languages": "En"
-	},
 	"Sports Trivia (USA) (Beta) (1995-03-08)": {
 		"languages": "En"
 	},
@@ -1877,10 +1874,10 @@
 	"Sports Trivia (USA) (Beta) (1995-03-16)": {
 		"languages": "En"
 	},
-	"Sports Trivia (USA) (Beta) (1995-04-25)": {
+	"Sports Trivia (USA) (Beta) (1995-04-25) (Alt)": {
 		"languages": "En"
 	},
-	"Sports Trivia (USA) (Beta) (1995-04-25) (Alt 1)": {
+	"Sports Trivia (USA) (Beta) (1995-04-25)": {
 		"languages": "En"
 	},
 	"Sports Trivia (USA) (Beta) (1995-04-27)": {
@@ -1889,10 +1886,7 @@
 	"Sports Trivia (USA) (Beta) (1995-05-04)": {
 		"languages": "En"
 	},
-	"Sports Trivia - Championship Edition (USA) (Beta) (1995-04-13)": {
-		"languages": "En"
-	},
-	"Sports Trivia - Championship Edition (USA)": {
+	"Sports Trivia (USA)": {
 		"languages": "En"
 	},
 	"Sports Trivia - Championship Edition (USA) (Beta) (1995-03-13)": {
@@ -1904,7 +1898,7 @@
 	"Sports Trivia - Championship Edition (USA) (Beta) (1995-03-17)": {
 		"languages": "En"
 	},
-	"Sports Trivia - Championship Edition (USA) (Beta) (1995-03-20) (Alt 1)": {
+	"Sports Trivia - Championship Edition (USA) (Beta) (1995-03-20) (Alt)": {
 		"languages": "En"
 	},
 	"Sports Trivia - Championship Edition (USA) (Beta) (1995-03-20)": {
@@ -1916,13 +1910,13 @@
 	"Sports Trivia - Championship Edition (USA) (Beta) (1995-03-23) (Alt 2)": {
 		"languages": "En"
 	},
-	"Sports Trivia - Championship Edition (USA) (Beta) (1995-03-23) (Alt 1)": {
+	"Sports Trivia - Championship Edition (USA) (Beta) (1995-03-23) (Alt)": {
 		"languages": "En"
 	},
 	"Sports Trivia - Championship Edition (USA) (Beta) (1995-03-23)": {
 		"languages": "En"
 	},
-	"Sports Trivia - Championship Edition (USA) (Beta) (1995-03-27) (Alt 1)": {
+	"Sports Trivia - Championship Edition (USA) (Beta) (1995-03-27) (Alt)": {
 		"languages": "En"
 	},
 	"Sports Trivia - Championship Edition (USA) (Beta) (1995-03-27)": {
@@ -1931,13 +1925,13 @@
 	"Sports Trivia - Championship Edition (USA) (Beta) (1995-03-29) (Alt 2)": {
 		"languages": "En"
 	},
-	"Sports Trivia - Championship Edition (USA) (Beta) (1995-03-29) (Alt 1)": {
+	"Sports Trivia - Championship Edition (USA) (Beta) (1995-03-29) (Alt)": {
 		"languages": "En"
 	},
 	"Sports Trivia - Championship Edition (USA) (Beta) (1995-03-29)": {
 		"languages": "En"
 	},
-	"Sports Trivia - Championship Edition (USA) (Beta) (1995-03-30) (Alt 1)": {
+	"Sports Trivia - Championship Edition (USA) (Beta) (1995-03-30) (Alt)": {
 		"languages": "En"
 	},
 	"Sports Trivia - Championship Edition (USA) (Beta) (1995-03-30)": {
@@ -1946,7 +1940,7 @@
 	"Sports Trivia - Championship Edition (USA) (Beta) (1995-04-03)": {
 		"languages": "En"
 	},
-	"Sports Trivia - Championship Edition (USA) (Beta) (1995-04-04) (Alt 1)": {
+	"Sports Trivia - Championship Edition (USA) (Beta) (1995-04-04) (Alt)": {
 		"languages": "En"
 	},
 	"Sports Trivia - Championship Edition (USA) (Beta) (1995-04-04)": {
@@ -1955,7 +1949,7 @@
 	"Sports Trivia - Championship Edition (USA) (Beta) (1995-04-05) (Alt 2)": {
 		"languages": "En"
 	},
-	"Sports Trivia - Championship Edition (USA) (Beta) (1995-04-05) (Alt 1)": {
+	"Sports Trivia - Championship Edition (USA) (Beta) (1995-04-05) (Alt)": {
 		"languages": "En"
 	},
 	"Sports Trivia - Championship Edition (USA) (Beta) (1995-04-05)": {
@@ -1964,7 +1958,7 @@
 	"Sports Trivia - Championship Edition (USA) (Beta) (1995-04-06)": {
 		"languages": "En"
 	},
-	"Sports Trivia - Championship Edition (USA) (Beta) (1995-04-07) (Alt 1)": {
+	"Sports Trivia - Championship Edition (USA) (Beta) (1995-04-07) (Alt)": {
 		"languages": "En"
 	},
 	"Sports Trivia - Championship Edition (USA) (Beta) (1995-04-07)": {
@@ -1976,7 +1970,13 @@
 	"Sports Trivia - Championship Edition (USA) (Beta) (1995-04-12)": {
 		"languages": "En"
 	},
+	"Sports Trivia - Championship Edition (USA) (Beta) (1995-04-13)": {
+		"languages": "En"
+	},
 	"Sports Trivia - Championship Edition (USA) (Beta) (1995-04-28)": {
+		"languages": "En"
+	},
+	"Sports Trivia - Championship Edition (USA)": {
 		"languages": "En"
 	},
 	"Star Trek - The Next Generation - The Advanced Holodeck Tutorial (USA)": {
@@ -1997,10 +1997,19 @@
 	"Street Battle (USA) (Proto) (Unl)": {
 		"languages": "En"
 	},
+	"Street Hero (USA) (Proto 1)": {
+		"languages": "En"
+	},
 	"Street Hero (USA) (Proto 2)": {
 		"languages": "En"
 	},
-	"Street Hero (USA) (Proto 1)": {
+	"Streets of Rage 2 (World) (Beta)": {
+		"languages": "En"
+	},
+	"Streets of Rage 2 (World)": {
+		"languages": "En"
+	},
+	"Streets of Rage (World)": {
 		"languages": "En"
 	},
 	"Striker (Europe) (En,Fr,De,Es,It)": {
@@ -2011,9 +2020,6 @@
 	},
 	"Super Columns (Japan)": {
 		"languages": "Ja"
-	},
-	"Super Columns (USA, Europe)": {
-		"languages": "En"
 	},
 	"Super Columns (USA, Europe) (Beta) (1994-11-11)": {
 		"languages": "En"
@@ -2036,11 +2042,14 @@
 	"Super Columns (USA, Europe) (Beta) (1995-01-06)": {
 		"languages": "En"
 	},
-	"Super Golf (USA)": {
+	"Super Columns (USA, Europe)": {
 		"languages": "En"
 	},
 	"Super Golf (Japan)": {
 		"languages": "Ja"
+	},
+	"Super Golf (USA)": {
+		"languages": "En"
 	},
 	"Super Kick Off (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv)": {
 		"languages": "En,Fr,De,Es,It,Nl,Pt,Sv"
@@ -2048,16 +2057,16 @@
 	"Super Momotarou Dentetsu III (Japan)": {
 		"languages": "Ja"
 	},
-	"Super Monaco GP (Japan, Korea)": {
+	"Super Monaco GP (Japan, Korea) (Ja)": {
 		"languages": "Ja"
 	},
-	"Super Monaco GP (USA, Europe, Brazil)": {
-		"languages": "En"
-	},
-	"Super Off Road (USA, Europe)": {
+	"Super Monaco GP (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Super Off Road (USA, Europe) (Beta)": {
+		"languages": "En"
+	},
+	"Super Off Road (USA, Europe)": {
 		"languages": "En"
 	},
 	"Super Smash T.V. (World)": {
@@ -2069,13 +2078,13 @@
 	"Super Star Wars - Return of the Jedi (USA, Europe)": {
 		"languages": "En"
 	},
-	"Superman - The Man of Steel (Europe)": {
-		"languages": "En"
-	},
 	"Superman - The Man of Steel (Europe) (Beta)": {
 		"languages": "En"
 	},
-	"Surf Ninjas (USA, Europe, Brazil)": {
+	"Superman - The Man of Steel (Europe)": {
+		"languages": "En"
+	},
+	"Surf Ninjas (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Sylvan Tale (Japan)": {
@@ -2087,19 +2096,19 @@
 	"T2 - The Arcade Game (USA, Europe)": {
 		"languages": "En"
 	},
-	"Tails Adventure ~ Tails Adventures (World) (En,Ja)": {
+	"Tails Adventure (World) (En,Ja) (Virtual Console)": {
 		"languages": "En,Ja"
 	},
-	"Tails Adventure ~ Tails Adventures (World) (En,Ja) (Virtual Console)": {
+	"Tails Adventure (World) (En,Ja)": {
 		"languages": "En,Ja"
 	},
 	"Tails no Skypatrol (Japan)": {
 		"languages": "Ja"
 	},
-	"Taisen Mahjong HaoPai (Japan)": {
+	"Taisen Mahjong HaoPai 2 (Japan)": {
 		"languages": "Ja"
 	},
-	"Taisen Mahjong HaoPai 2 (Japan)": {
+	"Taisen Mahjong HaoPai (Japan)": {
 		"languages": "Ja"
 	},
 	"Taisen-gata Daisenryaku G (Japan)": {
@@ -2108,7 +2117,7 @@
 	"Taito Chase H.Q. (Japan)": {
 		"languages": "Ja"
 	},
-	"TaleSpin (USA, Europe, Brazil)": {
+	"TaleSpin (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Tama & Friends - 3 Choume Kouen Tamalympic (Japan)": {
@@ -2123,9 +2132,6 @@
 	"Tatakae! Pro Yakyuu Twin League (Japan)": {
 		"languages": "Ja"
 	},
-	"Taz in Escape from Mars (USA, Europe)": {
-		"languages": "En"
-	},
 	"Taz in Escape from Mars (USA, Europe) (Beta) (1994-05-11)": {
 		"languages": "En"
 	},
@@ -2138,7 +2144,7 @@
 	"Taz in Escape from Mars (USA, Europe) (Beta) (1994-08-19)": {
 		"languages": "En"
 	},
-	"Taz in Escape from Mars (USA, Europe) (Beta) (1994-08-12)": {
+	"Taz in Escape from Mars (USA, Europe) (Beta) (1994-08-21)": {
 		"languages": "En"
 	},
 	"Taz in Escape from Mars (USA, Europe) (Beta) (1994-08-23)": {
@@ -2153,7 +2159,7 @@
 	"Taz in Escape from Mars (USA, Europe) (Beta) (1994-09-02)": {
 		"languages": "En"
 	},
-	"Taz in Escape from Mars (USA, Europe) (Beta) (1994-09-05) (Alt 1)": {
+	"Taz in Escape from Mars (USA, Europe) (Beta) (1994-09-05) (Alt)": {
 		"languages": "En"
 	},
 	"Taz in Escape from Mars (USA, Europe) (Beta) (1994-09-05)": {
@@ -2168,10 +2174,10 @@
 	"Taz in Escape from Mars (USA, Europe) (Beta) (1994-09-10)": {
 		"languages": "En"
 	},
-	"Taz-Mania (USA, Europe, Brazil)": {
+	"Taz in Escape from Mars (USA, Europe)": {
 		"languages": "En"
 	},
-	"Tempo Jr. (World)": {
+	"Taz-Mania (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Tempo Jr. (World) (Beta) (1994-11-28)": {
@@ -2201,10 +2207,13 @@
 	"Tempo Jr. (World) (Beta) (1995-02-15)": {
 		"languages": "En"
 	},
-	"Tengen World Cup Soccer (USA, Europe)": {
+	"Tempo Jr. (World)": {
 		"languages": "En"
 	},
 	"Tengen World Cup Soccer (USA, Europe) (Beta)": {
+		"languages": "En"
+	},
+	"Tengen World Cup Soccer (USA, Europe)": {
 		"languages": "En"
 	},
 	"Terminator 2 - Judgment Day (World)": {
@@ -2219,7 +2228,7 @@
 	"Tintin in Tibet (Europe) (En,Fr,De,Es,Nl,Sv)": {
 		"languages": "En,Fr,De,Es,Nl,Sv"
 	},
-	"Tom and Jerry - The Movie (Japan, Brazil)": {
+	"Tom and Jerry - The Movie (Japan, Brazil) (Ja)": {
 		"languages": "Ja"
 	},
 	"Tom and Jerry - The Movie (USA, Europe)": {
@@ -2237,10 +2246,10 @@
 	"Urban Strike (USA)": {
 		"languages": "En"
 	},
-	"Vampire - Master of Darkness (USA)": {
+	"Vampire - Master of Darkness (USA) (Virtual Console)": {
 		"languages": "En"
 	},
-	"Vampire - Master of Darkness (USA) (Virtual Console)": {
+	"Vampire - Master of Darkness (USA)": {
 		"languages": "En"
 	},
 	"Virtua Fighter Animation (USA, Europe)": {
@@ -2249,7 +2258,7 @@
 	"Virtua Fighter Mini (Japan)": {
 		"languages": "Ja"
 	},
-	"VR Troopers (USA, Europe, Brazil)": {
+	"VR Troopers (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Wagyan Land (Japan)": {
@@ -2264,10 +2273,10 @@
 	"Wimbledon (World)": {
 		"languages": "En"
 	},
-	"Winter Olympic Games ~ Winter Olympics (USA, Europe) (En,Fr,De,Es,It,Pt,Sv,No)": {
+	"Winter Olympics (Japan) (En,Fr,De,Es,It,Pt,Sv,No)": {
 		"languages": "En,Fr,De,Es,It,Pt,Sv,No"
 	},
-	"Winter Olympics (Japan) (En,Fr,De,Es,It,Pt,Sv,No)": {
+	"Winter Olympics (USA, Europe) (En,Fr,De,Es,It,Pt,Sv,No)": {
 		"languages": "En,Fr,De,Es,It,Pt,Sv,No"
 	},
 	"Wizard Pinball (Europe)": {
@@ -2288,29 +2297,20 @@
 	"Wonder Boy III - The Dragon's Trap (Europe) (Beta)": {
 		"languages": "En"
 	},
-	"Woody Pop (USA, Europe, Brazil)": {
-		"languages": "En"
-	},
 	"Woody Pop (Japan) (En)": {
 		"languages": "En"
 	},
-	"World Class Leaderboard Golf ~ World Class Leader Board (USA, Europe)": {
+	"Woody Pop (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"World Cup USA 94 (USA, Europe) (En,Fr,De,Es,It,Nl,Pt,Sv)": {
+	"World Class Leaderboard (USA, Europe)": {
+		"languages": "En"
+	},
+	"World Cup USA 94 (USA, Europe, Brazil) (En,Fr,De,Es,It,Nl,Pt,Sv)": {
 		"languages": "En,Fr,De,Es,It,Nl,Pt,Sv"
 	},
 	"World Derby (Japan)": {
 		"languages": "Ja"
-	},
-	"World Series Baseball (USA) (Rev 1)": {
-		"languages": "En"
-	},
-	"World Series Baseball (USA)": {
-		"languages": "En"
-	},
-	"World Series Baseball '95 (USA)": {
-		"languages": "En"
 	},
 	"World Series Baseball '95 (USA) (Beta) (1994-06-29)": {
 		"languages": "En"
@@ -2330,6 +2330,15 @@
 	"World Series Baseball '95 (USA) (Beta) (1994-07-29)": {
 		"languages": "En"
 	},
+	"World Series Baseball '95 (USA)": {
+		"languages": "En"
+	},
+	"World Series Baseball (USA) (Rev 1)": {
+		"languages": "En"
+	},
+	"World Series Baseball (USA)": {
+		"languages": "En"
+	},
 	"WWF Raw (USA, Europe)": {
 		"languages": "En"
 	},
@@ -2337,9 +2346,6 @@
 		"languages": "En"
 	},
 	"X-Men (USA)": {
-		"languages": "En"
-	},
-	"X-Men - Gamemaster's Legacy (USA, Europe)": {
 		"languages": "En"
 	},
 	"X-Men - GameMaster's Legacy (USA, Europe) (Beta) (1994-08-10)": {
@@ -2351,7 +2357,7 @@
 	"X-Men - GameMaster's Legacy (USA, Europe) (Beta) (1994-09-06)": {
 		"languages": "En"
 	},
-	"X-Men - Mojo World (USA)": {
+	"X-Men - Gamemaster's Legacy (USA, Europe)": {
 		"languages": "En"
 	},
 	"X-Men - Mojo World (USA) (Beta) (1996-06-05)": {
@@ -2373,6 +2379,9 @@
 		"languages": "En"
 	},
 	"X-Men - Mojo World (USA) (Beta) (1996-06-29)": {
+		"languages": "En"
+	},
+	"X-Men - Mojo World (USA)": {
 		"languages": "En"
 	},
 	"X-Terminator (Europe) (v2.1) (Program) (Unl)": {
@@ -2402,10 +2411,10 @@
 	"Zool no Yume Bouken (Japan)": {
 		"languages": "Ja"
 	},
-	"Zoop (USA)": {
+	"Zoop (USA) (Beta) (1995-08-11)": {
 		"languages": "En"
 	},
-	"Zoop (USA) (Beta)": {
+	"Zoop (USA)": {
 		"languages": "En"
 	}
 }

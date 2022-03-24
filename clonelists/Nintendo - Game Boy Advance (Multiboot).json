@@ -3,14 +3,11 @@
 		"name": [
 			"Nintendo - Game Boy Advance (Multiboot)"
 		],
-		"last updated": "9 April 2021",
+		"last updated": "24 March 2021",
 		"minimum version": "0.89"
 	},
 
 	"renames": {
-		"ChuChu Rocket! Challenge": [
-			["Chuchuroketto! Charenji", 2]
-		],
 		"Puyo Pop - Endless Version": [
 			["Minna de Puyo Puyo - Toko Puyo Genteiban", 2]
 		]

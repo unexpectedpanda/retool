@@ -1,38 +1,29 @@
 {
-	"2097 ROM Pack II (USA) (Test Program)": {
-		"languages": "En"
-	},
-	"2420 ROM Pack V (USA) (Test Program)": {
-		"languages": "En"
-	},
-	"2440 ROM Pack (USA) (Test Program)": {
-		"languages": "En"
-	},
 	"3 Choume no Tama - Tama and Friends - 3 Choume Obake Panic!! (Japan)": {
 		"languages": "Ja"
 	},
 	"3-pun Yosou - Umaban Club (Japan)": {
 		"languages": "Ja"
 	},
-	"4 in 1 (Europe) (4B-002, Sachen) (Unl)": {
-		"languages": "En"
-	},
-	"4 in 1 (Europe) (4B-005, Sachen-Commin) (Unl)": {
-		"languages": "En"
-	},
-	"4 in 1 (Europe) (4B-007, Sachen) (Unl)": {
-		"languages": "En"
-	},
 	"4 in 1 (Europe) (4B-001, Sachen-Commin) (Unl)": {
 		"languages": "En"
 	},
-	"4 in 1 (Europe) (4B-008, Sachen) (Unl)": {
+	"4 in 1 (Europe) (4B-002, Sachen) (Unl)": {
 		"languages": "En"
 	},
 	"4 in 1 (Europe) (4B-004, Sachen-Commin) (Unl)": {
 		"languages": "En"
 	},
+	"4 in 1 (Europe) (4B-005, Sachen-Commin) (Unl)": {
+		"languages": "En"
+	},
 	"4 in 1 (Europe) (4B-006, Sachen) (Unl)": {
+		"languages": "En"
+	},
+	"4 in 1 (Europe) (4B-007, Sachen) (Unl)": {
+		"languages": "En"
+	},
+	"4 in 1 (Europe) (4B-008, Sachen) (Unl)": {
 		"languages": "En"
 	},
 	"4 in 1 (Europe) (4B-009, Sachen) (Unl)": {
@@ -48,6 +39,27 @@
 		"languages": "En"
 	},
 	"4-in-1 Funpak - Volume II (USA, Europe)": {
+		"languages": "En"
+	},
+	"10-Pin Bowling (USA)": {
+		"languages": "En"
+	},
+	"2097 ROM Pack II (USA) (Test Program)": {
+		"languages": "En"
+	},
+	"2420 ROM Pack V (USA) (Test Program)": {
+		"languages": "En"
+	},
+	"2440 ROM Pack (USA) (Test Program)": {
+		"languages": "En"
+	},
+	"[BIOS] Nintendo Game Boy Boot ROM (Japan) (En)": {
+		"languages": "En"
+	},
+	"[BIOS] Nintendo Game Boy Boot ROM (World) (Rev 1)": {
+		"languages": "En"
+	},
+	"[BIOS] Nintendo Game Boy Pocket Boot ROM (World)": {
 		"languages": "En"
 	},
 	"A-mazing Tater (USA)": {
@@ -107,6 +119,9 @@
 	"Akumajou Special - Boku Dracula-kun (Japan)": {
 		"languages": "Ja"
 	},
+	"Aladdin (Europe) (Sample) (SGB Enhanced)": {
+		"languages": "En"
+	},
 	"Aladdin (Europe) (SGB Enhanced)": {
 		"languages": "En"
 	},
@@ -116,7 +131,7 @@
 	"Aladdin (World) (Disney Classic Games) (SGB Enhanced)": {
 		"languages": "En"
 	},
-	"Aladdin (Europe) (Sample)": {
+	"Alfred Chicken (Europe) (Beta)": {
 		"languages": "En"
 	},
 	"Alfred Chicken (Europe)": {
@@ -132,6 +147,9 @@
 		"languages": "Ja"
 	},
 	"Alien 3 (USA, Europe)": {
+		"languages": "En"
+	},
+	"Alien Games (USA) (Proto)": {
 		"languages": "En"
 	},
 	"Alien Olympics (Europe)": {
@@ -167,10 +185,10 @@
 	"America Oudan Ultra Quiz (Japan)": {
 		"languages": "Ja"
 	},
-	"America Oudan Ultra Quiz Part 2 (Japan)": {
+	"America Oudan Ultra Quiz Part 2 (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
-	"America Oudan Ultra Quiz Part 2 (Japan) (Rev 1)": {
+	"America Oudan Ultra Quiz Part 2 (Japan)": {
 		"languages": "Ja"
 	},
 	"America Oudan Ultra Quiz Part 3 - Champion Taikai (Japan)": {
@@ -182,10 +200,10 @@
 	"Amida (Japan)": {
 		"languages": "Ja"
 	},
-	"Animal Breeder (Japan) (SGB Enhanced)": {
+	"Animal Breeder 2 (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
-	"Animal Breeder 2 (Japan) (SGB Enhanced)": {
+	"Animal Breeder (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
 	"Animaniacs (Europe) (SGB Enhanced)": {
@@ -230,20 +248,29 @@
 	"Asmik-kun World 2 (Japan)": {
 		"languages": "Ja"
 	},
-	"Asterix (Europe) (En,Fr,De,Es,It)": {
-		"languages": "En,Fr,De,Es,It"
-	},
-	"Asterix (USA) (Proto)": {
-		"languages": "En"
-	},
 	"Asterix & Obelix (Europe) (Fr,De) (Beta) (SGB Enhanced)": {
+		"languages": "Fr,De"
+	},
+	"Asterix & Obelix (Europe) (Fr,De) (SGB Enhanced)": {
 		"languages": "Fr,De"
 	},
 	"Asterix & Obelix (Spain) (En,Es) (SGB Enhanced)": {
 		"languages": "En,Es"
 	},
-	"Asterix & Obelix (Europe) (Fr,De) (SGB Enhanced)": {
-		"languages": "Fr,De"
+	"Asterix (Europe) (En,Fr,De,Es,It)": {
+		"languages": "En,Fr,De,Es,It"
+	},
+	"Asterix (USA) (Proto 1)": {
+		"languages": "En"
+	},
+	"Asterix (USA) (Proto 2)": {
+		"languages": "En"
+	},
+	"Asterix (USA) (Proto 3)": {
+		"languages": "En"
+	},
+	"Asteroids (USA, Europe) (Beta)": {
+		"languages": "En"
 	},
 	"Asteroids (USA, Europe)": {
 		"languages": "En"
@@ -266,13 +293,13 @@
 	"Ayakashi no Shiro (Japan)": {
 		"languages": "Ja"
 	},
-	"B.C. Kid (Europe)": {
+	"B.C. Kid 2 (Europe) (Beta) (SGB Enhanced)": {
 		"languages": "En"
 	},
 	"B.C. Kid 2 (Europe) (SGB Enhanced)": {
 		"languages": "En"
 	},
-	"B.C. Kid 2 (Europe) (Beta) (SGB Enhanced)": {
+	"B.C. Kid (Europe)": {
 		"languages": "En"
 	},
 	"Baby T-Rex (Europe)": {
@@ -304,6 +331,9 @@
 	},
 	"Banishing Racer (Japan)": {
 		"languages": "Ja"
+	},
+	"Barbie - Game Girl (USA) (Beta)": {
+		"languages": "En"
 	},
 	"Barbie - Game Girl (USA, Europe)": {
 		"languages": "En"
@@ -374,6 +404,9 @@
 	"Battle Pingpong (Japan)": {
 		"languages": "Ja"
 	},
+	"Battle Ships (Spain) (En,Fr,De,Es) (Beta)": {
+		"languages": "En,Fr,De,Es"
+	},
 	"Battle Space (Japan)": {
 		"languages": "Ja"
 	},
@@ -385,6 +418,9 @@
 	},
 	"BattleCity (Japan)": {
 		"languages": "Ja"
+	},
+	"Battleship (USA, Europe) (Beta)": {
+		"languages": "En"
 	},
 	"Battleship (USA, Europe)": {
 		"languages": "En"
@@ -407,10 +443,13 @@
 	"Battletoads-Double Dragon (USA)": {
 		"languages": "En"
 	},
-	"Beavis and Butt-Head (USA, Europe)": {
+	"Beavis and Butt-head (USA, Europe)": {
 		"languages": "En"
 	},
 	"Beethoven (Europe) (SGB Enhanced)": {
+		"languages": "En"
+	},
+	"Beethoven (USA) (Proto) (SGB Enhanced)": {
 		"languages": "En"
 	},
 	"Beetlejuice (USA)": {
@@ -452,10 +491,16 @@
 	"Black Bass - Lure Fishing (USA)": {
 		"languages": "En"
 	},
+	"Blade Warrior (Europe) (Proto)": {
+		"languages": "En"
+	},
 	"Blades of Steel (Europe)": {
 		"languages": "En"
 	},
 	"Blades of Steel (USA)": {
+		"languages": "En"
+	},
+	"Blaster Master Boy (USA) (Beta)": {
 		"languages": "En"
 	},
 	"Blaster Master Boy (USA)": {
@@ -479,20 +524,29 @@
 	"Bo Jackson - Two Games in One (USA)": {
 		"languages": "En"
 	},
+	"Bobby's World (Europe) (Proto) (SGB Enhanced)": {
+		"languages": "En"
+	},
 	"Bobby's World (USA) (Proto) (SGB Enhanced)": {
 		"languages": "En"
 	},
 	"Boggle Plus (USA)": {
 		"languages": "En"
 	},
-	"Bokujou Monogatari GB (Japan) (SGB Enhanced)": {
-		"languages": "Ja"
-	},
 	"Bokujou Monogatari GB (Japan) (Rev 1) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
 	"Bokujou Monogatari GB (Japan) (SGB Enhanced) (NP)": {
 		"languages": "Ja"
+	},
+	"Bokujou Monogatari GB (Japan) (SGB Enhanced)": {
+		"languages": "Ja"
+	},
+	"Bomb Jack (Europe) (Beta 1)": {
+		"languages": "En"
+	},
+	"Bomb Jack (Europe) (Beta 2)": {
+		"languages": "En"
 	},
 	"Bomb Jack (Europe)": {
 		"languages": "En"
@@ -506,17 +560,20 @@
 	"Bomberman Collection (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
+	"Bomberman GB 2 (Japan) (SGB Enhanced)": {
+		"languages": "Ja"
+	},
+	"Bomberman GB 3 (Japan) (SGB Enhanced)": {
+		"languages": "Ja"
+	},
 	"Bomberman GB (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
 	"Bomberman GB (USA, Europe) (SGB Enhanced)": {
 		"languages": "En"
 	},
-	"Bomberman GB 2 (Japan) (SGB Enhanced)": {
-		"languages": "Ja"
-	},
-	"Bomberman GB 3 (Japan) (SGB Enhanced)": {
-		"languages": "Ja"
+	"Bonk's Adventure (USA) (Beta)": {
+		"languages": "En"
 	},
 	"Bonk's Adventure (USA)": {
 		"languages": "En"
@@ -542,10 +599,10 @@
 	"Boxing (Japan)": {
 		"languages": "Ja"
 	},
-	"Boxxle (USA, Europe) (Rev 1)": {
+	"Boxxle (USA)": {
 		"languages": "En"
 	},
-	"Boxxle (USA)": {
+	"Boxxle (USA, Europe) (Rev 1)": {
 		"languages": "En"
 	},
 	"Boxxle II (USA, Europe)": {
@@ -587,6 +644,9 @@
 	"Bubble Ghost (Japan)": {
 		"languages": "Ja"
 	},
+	"Bubble Ghost (USA, Europe) (Beta)": {
+		"languages": "En"
+	},
 	"Bubble Ghost (USA, Europe)": {
 		"languages": "En"
 	},
@@ -596,10 +656,10 @@
 	"Bubsy II (USA)": {
 		"languages": "En"
 	},
-	"Bugs Bunny Collection (Japan) (SGB Enhanced)": {
+	"Bugs Bunny Collection (Japan) (Rev 1) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
-	"Bugs Bunny Collection (Japan) (Rev 1) (SGB Enhanced)": {
+	"Bugs Bunny Collection (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
 	"Bugs Bunny Crazy Castle 2, The (USA)": {
@@ -638,10 +698,13 @@
 	"Caesars Palace (Japan)": {
 		"languages": "Ja"
 	},
+	"Caesars Palace (USA) (Rev 1)": {
+		"languages": "En"
+	},
 	"Caesars Palace (USA)": {
 		"languages": "En"
 	},
-	"Caesars Palace (USA) (Rev 1)": {
+	"Calculator (Unknown) (Proto)": {
 		"languages": "En"
 	},
 	"Capcom Quiz - Hatena no Daibouken (Japan)": {
@@ -674,10 +737,13 @@
 	"Castelian (Europe)": {
 		"languages": "En"
 	},
+	"Castelian (USA) (Beta)": {
+		"languages": "En"
+	},
 	"Castelian (USA)": {
 		"languages": "En"
 	},
-	"Castelian (USA) (Beta)": {
+	"Castle Quest (Europe) (Beta)": {
 		"languages": "En"
 	},
 	"Castle Quest (Europe)": {
@@ -686,10 +752,10 @@
 	"Castlevania - The Adventure (Europe)": {
 		"languages": "En"
 	},
-	"Castlevania - The Adventure (USA)": {
+	"Castlevania - The Adventure (USA) (Castlevania Anniversary Collection)": {
 		"languages": "En"
 	},
-	"Castlevania - The Adventure (USA) (Castlevania Anniversary Collection)": {
+	"Castlevania - The Adventure (USA)": {
 		"languages": "En"
 	},
 	"Castlevania II - Belmont's Revenge (USA, Europe) (Castlevania Anniversary Collection)": {
@@ -701,19 +767,19 @@
 	"Castlevania Legends (USA, Europe) (SGB Enhanced)": {
 		"languages": "En"
 	},
-	"Catrap (USA)": {
+	"Catrap (USA) (Beta)": {
 		"languages": "En"
 	},
-	"Catrap (USA) (Beta)": {
+	"Catrap (USA)": {
 		"languages": "En"
 	},
 	"Cave Noire (Japan)": {
 		"languages": "Ja"
 	},
-	"Centipede (USA)": {
+	"Centipede (USA) (Majesco)": {
 		"languages": "En"
 	},
-	"Centipede (USA, Europe)": {
+	"Centipede (USA, Europe) (Accolade)": {
 		"languages": "En"
 	},
 	"Chachamaru Boukenki 3 - Abyss no Tou (Japan)": {
@@ -737,17 +803,11 @@
 	"Chessmaster, The (Japan)": {
 		"languages": "Ja"
 	},
-	"Chessmaster, The (USA, Europe)": {
-		"languages": "En"
-	},
 	"Chessmaster, The (USA) (Rev 1)": {
 		"languages": "En"
 	},
-	"Chibi Maruko-chan - Maruko Deluxe Theater (Japan) (SGB Enhanced)": {
-		"languages": "Ja"
-	},
-	"Chibi Maruko-chan - Okozukai Daisakusen! (Japan)": {
-		"languages": "Ja"
+	"Chessmaster, The (USA, Europe)": {
+		"languages": "En"
 	},
 	"Chibi Maruko-chan 2 - Deluxe Maruko World (Japan)": {
 		"languages": "Ja"
@@ -756,6 +816,12 @@
 		"languages": "Ja"
 	},
 	"Chibi Maruko-chan 4 - Kore ga Nihon Da yo! Ouji-sama (Japan)": {
+		"languages": "Ja"
+	},
+	"Chibi Maruko-chan - Maruko Deluxe Theater (Japan) (SGB Enhanced)": {
+		"languages": "Ja"
+	},
+	"Chibi Maruko-chan - Okozukai Daisakusen! (Japan)": {
 		"languages": "Ja"
 	},
 	"Chiki Chiki Machine Mou Race (Japan)": {
@@ -779,13 +845,13 @@
 	"Choplifter III (Europe)": {
 		"languages": "En"
 	},
-	"Chou Mashin Eiyuu Den Wataru - Mazekko Monster (Japan) (SGB Enhanced)": {
+	"Chou Mashin Eiyuu Den Wataru - Mazekko Monster 2 (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
 	"Chou Mashin Eiyuu Den Wataru - Mazekko Monster (Japan) (Beta) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
-	"Chou Mashin Eiyuu Den Wataru - Mazekko Monster 2 (Japan) (SGB Enhanced)": {
+	"Chou Mashin Eiyuu Den Wataru - Mazekko Monster (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
 	"Chousoku Spinner (Japan) (SGB Enhanced)": {
@@ -818,11 +884,11 @@
 	"Cool Ball (USA)": {
 		"languages": "En"
 	},
-	"Cool Hand (Europe)": {
-		"languages": "En"
-	},
 	"Cool Hand (Europe) (Fr,De)": {
 		"languages": "Fr,De"
+	},
+	"Cool Hand (Europe)": {
+		"languages": "En"
 	},
 	"Cool Spot (Europe)": {
 		"languages": "En"
@@ -833,20 +899,17 @@
 	"Cool World (USA, Europe)": {
 		"languages": "En"
 	},
-	"Cosmo Tank (Japan)": {
-		"languages": "Ja"
-	},
-	"Cosmo Tank (USA)": {
-		"languages": "En"
-	},
 	"Cosmo Tank (Japan) (Beta)": {
 		"languages": "Ja"
 	},
-	"Crayon Shin-chan - Ora no Gokigen Collection (Japan) (SGB Enhanced)": {
+	"Cosmo Tank (Japan)": {
 		"languages": "Ja"
 	},
-	"Crayon Shin-chan - Ora to Shiro wa Otomodachi Da yo (Japan)": {
-		"languages": "Ja"
+	"Cosmo Tank (USA) (Beta)": {
+		"languages": "En"
+	},
+	"Cosmo Tank (USA)": {
+		"languages": "En"
 	},
 	"Crayon Shin-chan 2 - Ora to Wanpaku Gokko Dazo (Japan)": {
 		"languages": "Ja"
@@ -855,6 +918,12 @@
 		"languages": "Ja"
 	},
 	"Crayon Shin-chan 4 - Ora no Itazura Daihenshin (Japan) (SGB Enhanced)": {
+		"languages": "Ja"
+	},
+	"Crayon Shin-chan - Ora no Gokigen Collection (Japan) (SGB Enhanced)": {
+		"languages": "Ja"
+	},
+	"Crayon Shin-chan - Ora to Shiro wa Otomodachi Da yo (Japan)": {
 		"languages": "Ja"
 	},
 	"Crystal Quest (USA)": {
@@ -866,6 +935,9 @@
 	"Cult Master - Ultraman ni Miserarete (Japan)": {
 		"languages": "Ja"
 	},
+	"CutThroat Island (Japan) (En) (Proto)": {
+		"languages": "En"
+	},
 	"CutThroat Island (USA, Europe)": {
 		"languages": "En"
 	},
@@ -875,10 +947,10 @@
 	"Daedalian Opus (USA)": {
 		"languages": "En"
 	},
-	"Daffy Duck (USA, Europe) (SGB Enhanced)": {
+	"Daffy Duck (Europe)": {
 		"languages": "En"
 	},
-	"Daffy Duck (Europe)": {
+	"Daffy Duck (USA, Europe) (SGB Enhanced)": {
 		"languages": "En"
 	},
 	"Dai-2-ji Super Robot Taisen G (Japan) (SGB Enhanced)": {
@@ -902,14 +974,14 @@
 	"Darkwing Duck (Europe)": {
 		"languages": "En"
 	},
-	"Darkwing Duck (USA)": {
-		"languages": "En"
-	},
 	"Darkwing Duck (Germany)": {
 		"languages": "De"
 	},
 	"Darkwing Duck (Spain)": {
 		"languages": "Es"
+	},
+	"Darkwing Duck (USA)": {
+		"languages": "En"
 	},
 	"David Crane's The Rescue of Princess Blobette (Europe)": {
 		"languages": "En"
@@ -924,6 +996,12 @@
 		"languages": "Ja"
 	},
 	"Dead Heat Scramble (USA)": {
+		"languages": "En"
+	},
+	"Deadeus (World) (1.2.5) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Deadeus (World) (1.3.8) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
 	"Death Track (Europe) (Proto)": {
@@ -959,14 +1037,17 @@
 	"Dig Dug (USA)": {
 		"languages": "En"
 	},
-	"Dino Breeder (Japan) (SGB Enhanced)": {
+	"Dino Breeder 2 (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
 	"Dino Breeder (Japan) (Rev 1) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
-	"Dino Breeder 2 (Japan) (SGB Enhanced)": {
+	"Dino Breeder (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
+	},
+	"Dirty Racing (Europe) (Proto)": {
+		"languages": "En"
 	},
 	"Dirty Racing (Japan)": {
 		"languages": "Ja"
@@ -974,10 +1055,16 @@
 	"Dodge Boy (Japan)": {
 		"languages": "Ja"
 	},
-	"Donkey Kong (Japan, USA) (SGB Enhanced)": {
+	"Donkey Kong (Japan, USA) (En) (SGB Enhanced)": {
 		"languages": "En"
 	},
 	"Donkey Kong (World) (Rev 1) (SGB Enhanced)": {
+		"languages": "En"
+	},
+	"Donkey Kong Land 2 (Japan) (Proto) (SGB Enhanced)": {
+		"languages": "Ja"
+	},
+	"Donkey Kong Land 2 (USA, Europe) (SGB Enhanced)": {
 		"languages": "En"
 	},
 	"Donkey Kong Land (Japan) (SGB Enhanced)": {
@@ -986,22 +1073,22 @@
 	"Donkey Kong Land (USA, Europe) (SGB Enhanced)": {
 		"languages": "En"
 	},
-	"Donkey Kong Land 2 (USA, Europe) (SGB Enhanced)": {
-		"languages": "En"
-	},
-	"Donkey Kong Land III (USA, Europe) (SGB Enhanced)": {
+	"Donkey Kong Land III (USA, Europe) (Beta) (SGB Enhanced)": {
 		"languages": "En"
 	},
 	"Donkey Kong Land III (USA, Europe) (Rev 1) (SGB Enhanced)": {
 		"languages": "En"
 	},
-	"Donkey Kong Land III (USA, Europe) (Beta)": {
+	"Donkey Kong Land III (USA, Europe) (SGB Enhanced)": {
 		"languages": "En"
 	},
-	"Doraemon - Taiketsu HimitsuDougu!! (Japan)": {
-		"languages": "Ja"
+	"Doomsayer - A Hero's Crusade (USA) (Proto)": {
+		"languages": "En"
 	},
 	"Doraemon 2 - Animal Planet Densetsu (Japan)": {
+		"languages": "Ja"
+	},
+	"Doraemon - Taiketsu HimitsuDougu!! (Japan)": {
 		"languages": "Ja"
 	},
 	"Doraemon Kart (Japan) (SGB Enhanced)": {
@@ -1028,13 +1115,13 @@
 	"Doraemon no Study Boy 6 - Gakushuu Kanji Master 1006 (Japan)": {
 		"languages": "Ja"
 	},
+	"Double Dragon 3 - The Arcade Game (USA, Europe)": {
+		"languages": "En"
+	},
 	"Double Dragon (Japan)": {
 		"languages": "Ja"
 	},
 	"Double Dragon (USA, Europe)": {
-		"languages": "En"
-	},
-	"Double Dragon 3 - The Arcade Game (USA, Europe)": {
 		"languages": "En"
 	},
 	"Double Dragon II (USA, Europe)": {
@@ -1058,6 +1145,9 @@
 	"Downtown Special - Kunio-kun no Jidaigeki Da yo Zenin Shuugou! (Japan)": {
 		"languages": "Ja"
 	},
+	"Dr. Franken (Europe) (En,Fr,De,Es,It,Nl,Sv) (Beta)": {
+		"languages": "En,Fr,De,Es,It,Nl,Sv"
+	},
 	"Dr. Franken (Europe) (En,Fr,De,Es,It,Nl,Sv)": {
 		"languages": "En,Fr,De,Es,It,Nl,Sv"
 	},
@@ -1067,19 +1157,16 @@
 	"Dr. Franken (USA)": {
 		"languages": "En"
 	},
-	"Dr. Franken (Europe) (En,Fr,De,Es,It,Nl,Sv) (Beta)": {
-		"languages": "En,Fr,De,Es,It,Nl,Sv"
-	},
 	"Dr. Franken II (USA, Europe) (En,Fr,De,Es,It,Nl,Sv)": {
 		"languages": "En,Fr,De,Es,It,Nl,Sv"
 	},
-	"Dr. Mario (World)": {
+	"Dr. Mario (World) (Beta)": {
 		"languages": "En"
 	},
 	"Dr. Mario (World) (Rev 1)": {
 		"languages": "En"
 	},
-	"Dr. Mario (World) (Beta)": {
+	"Dr. Mario (World)": {
 		"languages": "En"
 	},
 	"Dracula Densetsu (Japan) (Castlevania Anniversary Collection)": {
@@ -1088,10 +1175,10 @@
 	"Dracula Densetsu (Japan)": {
 		"languages": "Ja"
 	},
-	"Dracula Densetsu II (Japan)": {
+	"Dracula Densetsu II (Japan) (Castlevania Anniversary Collection)": {
 		"languages": "Ja"
 	},
-	"Dracula Densetsu II (Japan) (Castlevania Anniversary Collection)": {
+	"Dracula Densetsu II (Japan)": {
 		"languages": "Ja"
 	},
 	"Dragon Ball Z - Gokuu Gekitouden (Japan) (SGB Enhanced)": {
@@ -1130,20 +1217,14 @@
 	"DragonHeart (USA, Europe)": {
 		"languages": "En"
 	},
+	"Dropzone (Europe) (Beta)": {
+		"languages": "En"
+	},
 	"Dropzone (Europe)": {
 		"languages": "En"
 	},
 	"Druaga no Tou (Japan)": {
 		"languages": "Ja"
-	},
-	"DuckTales (Europe)": {
-		"languages": "En"
-	},
-	"DuckTales (Japan)": {
-		"languages": "Ja"
-	},
-	"DuckTales (USA)": {
-		"languages": "En"
 	},
 	"DuckTales 2 (Europe)": {
 		"languages": "En"
@@ -1154,13 +1235,25 @@
 	"DuckTales 2 (USA)": {
 		"languages": "En"
 	},
+	"DuckTales (Europe)": {
+		"languages": "En"
+	},
+	"DuckTales (Japan)": {
+		"languages": "Ja"
+	},
+	"DuckTales (USA)": {
+		"languages": "En"
+	},
 	"Dungeon Land (Japan)": {
 		"languages": "Ja"
 	},
-	"DX Bakenou Z (Japan)": {
-		"languages": "Ja"
+	"Dungeon Warrior (Europe) (Proto)": {
+		"languages": "En"
 	},
 	"DX Bakenou Z (Japan) (Rev 1)": {
+		"languages": "Ja"
+	},
+	"DX Bakenou Z (Japan)": {
 		"languages": "Ja"
 	},
 	"Dynablaster (Europe)": {
@@ -1172,7 +1265,7 @@
 	"Earthworm Jim (USA)": {
 		"languages": "En"
 	},
-	"Edd the Duck (USA) (Proto)": {
+	"Edd the Duck (Europe) (Proto)": {
 		"languages": "En"
 	},
 	"Eddie's Puzzle Time (USA) (Proto)": {
@@ -1193,21 +1286,6 @@
 	"Extra Bases (USA)": {
 		"languages": "En"
 	},
-	"F-1 Race (World)": {
-		"languages": "En"
-	},
-	"F-1 Race (World) (Rev 1)": {
-		"languages": "En"
-	},
-	"F-1 Spirit (Japan)": {
-		"languages": "Ja"
-	},
-	"F-15 Strike Eagle (USA, Europe)": {
-		"languages": "En"
-	},
-	"F-15 Strike Eagle II (USA, Europe) (Beta) (1992-07)": {
-		"languages": "En"
-	},
 	"F1 Boy (Japan)": {
 		"languages": "Ja"
 	},
@@ -1217,16 +1295,28 @@
 	"F1 Pole Position (USA, Europe)": {
 		"languages": "En"
 	},
-	"Faceball 2000 (USA)": {
+	"F-1 Race (World) (Rev 1)": {
 		"languages": "En"
 	},
-	"Family Jockey (Japan)": {
+	"F-1 Race (World)": {
+		"languages": "En"
+	},
+	"F-1 Spirit (Japan)": {
 		"languages": "Ja"
+	},
+	"F-15 Strike Eagle (USA, Europe)": {
+		"languages": "En"
+	},
+	"F-15 Strike Eagle II (USA, Europe) (Beta) (July, 1992)": {
+		"languages": "En"
+	},
+	"Faceball 2000 (USA)": {
+		"languages": "En"
 	},
 	"Family Jockey 2 - Meiba no Kettou (Japan)": {
 		"languages": "Ja"
 	},
-	"Famista (Japan)": {
+	"Family Jockey (Japan)": {
 		"languages": "Ja"
 	},
 	"Famista 2 (Japan)": {
@@ -1235,16 +1325,19 @@
 	"Famista 3 (Japan)": {
 		"languages": "Ja"
 	},
-	"Fastest Lap (USA)": {
-		"languages": "En"
+	"Famista (Japan)": {
+		"languages": "Ja"
 	},
 	"Fastest Lap (Japan) (En)": {
 		"languages": "En"
 	},
-	"Felix the Cat (USA, Europe)": {
+	"Fastest Lap (USA)": {
 		"languages": "En"
 	},
 	"Felix the Cat (USA, Europe) (Beta)": {
+		"languages": "En"
+	},
+	"Felix the Cat (USA, Europe)": {
 		"languages": "En"
 	},
 	"Ferrari (Japan)": {
@@ -1259,10 +1352,10 @@
 	"Fidgetts, The (USA, Europe) (En,Fr,De,Es,It,Nl,Sv)": {
 		"languages": "En,Fr,De,Es,It,Nl,Sv"
 	},
-	"FIFA - Road to World Cup 98 (Europe) (SGB Enhanced)": {
+	"FIFA - Road to World Cup 98 (Europe) (Rev 1) (SGB Enhanced)": {
 		"languages": "En"
 	},
-	"FIFA - Road to World Cup 98 (Europe) (Rev 1) (SGB Enhanced)": {
+	"FIFA - Road to World Cup 98 (Europe) (SGB Enhanced)": {
 		"languages": "En"
 	},
 	"FIFA International Soccer (USA, Europe) (En,Fr,De,Es) (SGB Enhanced)": {
@@ -1283,10 +1376,10 @@
 	"Final Fantasy Adventure (World) (Collection of Mana)": {
 		"languages": "En"
 	},
-	"Final Fantasy Legend II (World) (Collection of SaGa)": {
+	"Final Fantasy Legend II (USA)": {
 		"languages": "En"
 	},
-	"Final Fantasy Legend II (USA)": {
+	"Final Fantasy Legend II (World) (Collection of SaGa)": {
 		"languages": "En"
 	},
 	"Final Fantasy Legend III (USA)": {
@@ -1295,10 +1388,10 @@
 	"Final Fantasy Legend III (World) (Collection of SaGa)": {
 		"languages": "En"
 	},
-	"Final Fantasy Legend, The (World) (Collection of SaGa)": {
+	"Final Fantasy Legend, The (USA)": {
 		"languages": "En"
 	},
-	"Final Fantasy Legend, The (USA)": {
+	"Final Fantasy Legend, The (World) (Collection of SaGa)": {
 		"languages": "En"
 	},
 	"Final Reverse (Japan)": {
@@ -1316,6 +1409,9 @@
 	"Flappy Special (Japan)": {
 		"languages": "Ja"
 	},
+	"Flappy Special (USA) (Proto)": {
+		"languages": "En"
+	},
 	"Flash, The (USA, Europe)": {
 		"languages": "En"
 	},
@@ -1325,11 +1421,11 @@
 	"Flintstones, The (USA, Europe)": {
 		"languages": "En"
 	},
-	"Flintstones, The - King Rock Treasure Island (USA, Europe)": {
-		"languages": "En"
-	},
 	"Flintstones, The - King Rock Treasure Island (Japan) (Proto)": {
 		"languages": "Ja"
+	},
+	"Flintstones, The - King Rock Treasure Island (USA, Europe)": {
+		"languages": "En"
 	},
 	"Flipull (USA)": {
 		"languages": "En"
@@ -1361,13 +1457,13 @@
 	"Frogger (USA)": {
 		"languages": "En"
 	},
-	"From TV Animation Slam Dunk - Gakeppuchi no Kesshou League (Japan) (SGB Enhanced)": {
-		"languages": "Ja"
-	},
 	"From TV Animation Slam Dunk 2 - Zenkoku e no Tip Off (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
-	"From TV Animation Slam Dunk Limited Edition (Japan)": {
+	"From TV Animation Slam Dunk - Gakeppuchi no Kesshou League (Japan) (SGB Enhanced)": {
+		"languages": "Ja"
+	},
+	"From TV Animation Slam Dunk Limited Edition (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
 	"Funny Field (Japan)": {
@@ -1388,11 +1484,14 @@
 	"Game & Watch Gallery (Europe) (SGB Enhanced)": {
 		"languages": "En"
 	},
+	"Game & Watch Gallery (USA) (Rev 1) (SGB Enhanced)": {
+		"languages": "En"
+	},
 	"Game & Watch Gallery (USA) (SGB Enhanced)": {
 		"languages": "En"
 	},
-	"Game & Watch Gallery (USA) (Rev 1) (SGB Enhanced)": {
-		"languages": "En"
+	"Game Boy Aging Cartridge (World) (En,Ja) (v1.1)": {
+		"languages": "En,Ja"
 	},
 	"Game Boy Camera (USA, Europe) (SGB Enhanced)": {
 		"languages": "En"
@@ -1409,17 +1508,17 @@
 	"Game Boy Digital Sampling Oscilloscope (Europe) (v3.6) (Unl)": {
 		"languages": "En"
 	},
-	"Game Boy Gallery (Japan) (SGB Enhanced)": {
-		"languages": "Ja"
-	},
-	"Game Boy Gallery - 5 Games in 1 (Europe) (SGB Enhanced)": {
-		"languages": "En"
-	},
 	"Game Boy Gallery 2 (Australia) (SGB Enhanced)": {
 		"languages": "En"
 	},
 	"Game Boy Gallery 2 (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
+	},
+	"Game Boy Gallery (Japan) (SGB Enhanced)": {
+		"languages": "Ja"
+	},
+	"Game Boy Gallery - 5 Games in 1 (Europe) (SGB Enhanced)": {
+		"languages": "En"
 	},
 	"Game Boy Test Cartridge (USA, Europe) (Proto) (Test Program)": {
 		"languages": "En"
@@ -1433,13 +1532,13 @@
 	"Game Boy Wars Turbo - Famitsu Version (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
+	"Game de Hakken!! Tamagotchi 2 (Japan) (SGB Enhanced)": {
+		"languages": "Ja"
+	},
 	"Game de Hakken!! Tamagotchi (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
 	"Game de Hakken!! Tamagotchi - Osutchi to Mesutchi (Japan) (SGB Enhanced)": {
-		"languages": "Ja"
-	},
-	"Game de Hakken!! Tamagotchi 2 (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
 	"Game Genie (USA) (v2.1) (Unl)": {
@@ -1463,13 +1562,19 @@
 	"Ganso!! Yancha Maru (Japan)": {
 		"languages": "Ja"
 	},
+	"Garfield Labyrinth (Europe) (Beta)": {
+		"languages": "En"
+	},
 	"Garfield Labyrinth (Europe)": {
+		"languages": "En"
+	},
+	"Gargoyle's Quest (Europe) (Rev 1)": {
 		"languages": "En"
 	},
 	"Gargoyle's Quest (USA, Europe)": {
 		"languages": "En"
 	},
-	"Gargoyle's Quest (Europe) (Rev 1)": {
+	"Gargoyle's Quest II - The Demon Darkness (Europe) (Proto)": {
 		"languages": "En"
 	},
 	"Gargoyle's Quest II - The Demon Darkness (USA) (Proto)": {
@@ -1481,10 +1586,10 @@
 	"GB Basketball (Japan)": {
 		"languages": "Ja"
 	},
-	"GB Genjin (Japan)": {
+	"GB Genjin 2 (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
-	"GB Genjin 2 (Japan) (SGB Enhanced)": {
+	"GB Genjin (Japan)": {
 		"languages": "Ja"
 	},
 	"GB Genjin Land - Viva! Chikkun Oukoku (Japan)": {
@@ -1529,6 +1634,9 @@
 	"Ghostbusters II (Japan)": {
 		"languages": "Ja"
 	},
+	"Ghostbusters II (USA, Europe) (Beta)": {
+		"languages": "En"
+	},
 	"Ghostbusters II (USA, Europe)": {
 		"languages": "En"
 	},
@@ -1547,14 +1655,14 @@
 	"Go! Go! Hitchhike (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
+	"Go! Go! Tank (Japan) (Beta)": {
+		"languages": "Ja"
+	},
 	"Go! Go! Tank (Japan)": {
 		"languages": "Ja"
 	},
 	"Go! Go! Tank (USA)": {
 		"languages": "En"
-	},
-	"Go! Go! Tank (Japan) (Beta)": {
-		"languages": "Ja"
 	},
 	"Goal! (Europe)": {
 		"languages": "En"
@@ -1580,10 +1688,10 @@
 	"Golf Classic (Europe) (SGB Enhanced)": {
 		"languages": "En"
 	},
-	"Goukaku Boy GOLD - Shikakui Atama o Maruku Suru - Joushiki no Sho (Japan) (Imagineer)": {
+	"Goukaku Boy GOLD - Shikakui Atama o Maruku Suru - Joushiki no Sho (Japan) (IE Institute)": {
 		"languages": "Ja"
 	},
-	"Goukaku Boy GOLD - Shikakui Atama o Maruku Suru - Joushiki no Sho (Japan) (IE Institute)": {
+	"Goukaku Boy GOLD - Shikakui Atama o Maruku Suru - Joushiki no Sho (Japan) (Imagineer)": {
 		"languages": "Ja"
 	},
 	"Goukaku Boy GOLD - Shikakui Atama o Maruku Suru - Kanji no Tatsujin (Japan) (IE Institute)": {
@@ -1592,10 +1700,10 @@
 	"Goukaku Boy GOLD - Shikakui Atama o Maruku Suru - Kanji no Tatsujin (Japan) (Imagineer)": {
 		"languages": "Ja"
 	},
-	"Goukaku Boy GOLD - Shikakui Atama o Maruku Suru - Keisan no Tatsujin (Japan) (Imagineer)": {
+	"Goukaku Boy GOLD - Shikakui Atama o Maruku Suru - Keisan no Tatsujin (Japan) (IE Institute)": {
 		"languages": "Ja"
 	},
-	"Goukaku Boy GOLD - Shikakui Atama o Maruku Suru - Keisan no Tatsujin (Japan) (IE Institute)": {
+	"Goukaku Boy GOLD - Shikakui Atama o Maruku Suru - Keisan no Tatsujin (Japan) (Imagineer)": {
 		"languages": "Ja"
 	},
 	"Goukaku Boy GOLD - Shikakui Atama o Maruku Suru - Nanmon no Sho (Japan)": {
@@ -1622,19 +1730,25 @@
 	"Goukaku Boy Series - Gakken - Rekishi 512 (Japan)": {
 		"languages": "Ja"
 	},
-	"Goukaku Boy Series - Gakken - Yojijukugo 288 (Japan)": {
+	"Goukaku Boy Series - Gakken - Yojijukugo 288 (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
-	"Goukaku Boy Series - Gakken - Yojijukugo 288 (Japan) (Rev 1)": {
+	"Goukaku Boy Series - Gakken - Yojijukugo 288 (Japan)": {
 		"languages": "Ja"
 	},
 	"Goukaku Boy Series - Kirihara Shoten Hinshutsu Eibunpou Gohou Mondai 1000 (Japan)": {
 		"languages": "Ja"
 	},
-	"Goukaku Boy Series - Koukou Nyuushi Derujun - Chuugaku Eijukugo 350 (Japan)": {
+	"Goukaku Boy Series - Koukou Nyuushi Derujun - Chuugaku Eijukugo 350 (Japan) (IE Institute)": {
 		"languages": "Ja"
 	},
-	"Goukaku Boy Series - Koukou Nyuushi Derujun - Chuugaku Eitango 1700 (Japan)": {
+	"Goukaku Boy Series - Koukou Nyuushi Derujun - Chuugaku Eijukugo 350 (Japan) (Imagineer)": {
+		"languages": "Ja"
+	},
+	"Goukaku Boy Series - Koukou Nyuushi Derujun - Chuugaku Eitango 1700 (Japan) (IE Institute)": {
+		"languages": "Ja"
+	},
+	"Goukaku Boy Series - Koukou Nyuushi Derujun - Chuugaku Eitango 1700 (Japan) (Imagineer)": {
 		"languages": "Ja"
 	},
 	"Goukaku Boy Series - Koukou Nyuushi Derujun - Kanji Mondai no Seifuku (Japan)": {
@@ -1649,10 +1763,10 @@
 	"Goukaku Boy Series - Nihonshi Target 201 (Japan)": {
 		"languages": "Ja"
 	},
-	"Goukaku Boy Series - Shikakui Atama o Maruku Suru - Kokugo Battle Hen (Japan) (Imagineer)": {
+	"Goukaku Boy Series - Shikakui Atama o Maruku Suru - Kokugo Battle Hen (Japan) (IE Institute)": {
 		"languages": "Ja"
 	},
-	"Goukaku Boy Series - Shikakui Atama o Maruku Suru - Kokugo Battle Hen (Japan) (IE Institute)": {
+	"Goukaku Boy Series - Shikakui Atama o Maruku Suru - Kokugo Battle Hen (Japan) (Imagineer)": {
 		"languages": "Ja"
 	},
 	"Goukaku Boy Series - Shikakui Atama o Maruku Suru - Rika Battle Hen (Japan) (IE Institute)": {
@@ -1661,10 +1775,10 @@
 	"Goukaku Boy Series - Shikakui Atama o Maruku Suru - Rika Battle Hen (Japan) (Imagineer)": {
 		"languages": "Ja"
 	},
-	"Goukaku Boy Series - Shikakui Atama o Maruku Suru - Sansuu Battle Hen (Japan) (Imagineer)": {
+	"Goukaku Boy Series - Shikakui Atama o Maruku Suru - Sansuu Battle Hen (Japan) (IE Institute)": {
 		"languages": "Ja"
 	},
-	"Goukaku Boy Series - Shikakui Atama o Maruku Suru - Sansuu Battle Hen (Japan) (IE Institute)": {
+	"Goukaku Boy Series - Shikakui Atama o Maruku Suru - Sansuu Battle Hen (Japan) (Imagineer)": {
 		"languages": "Ja"
 	},
 	"Goukaku Boy Series - Shikakui Atama o Maruku Suru - Shakai Battle Hen (Japan) (IE Institute)": {
@@ -1673,10 +1787,10 @@
 	"Goukaku Boy Series - Shikakui Atama o Maruku Suru - Shakai Battle Hen (Japan) (Imagineer)": {
 		"languages": "Ja"
 	},
-	"Goukaku Boy Series - Shikakui Atama o Maruku Suru - Suuji de Asobou Sansuu Hen (Japan)": {
+	"Goukaku Boy Series - Shikakui Atama o Maruku Suru - Suuji de Asobou Sansuu Hen (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
-	"Goukaku Boy Series - Shikakui Atama o Maruku Suru - Suuji de Asobou Sansuu Hen (Japan) (Rev 1)": {
+	"Goukaku Boy Series - Shikakui Atama o Maruku Suru - Suuji de Asobou Sansuu Hen (Japan)": {
 		"languages": "Ja"
 	},
 	"Goukaku Boy Series - Yamakawa Ichimonittou - Nihonshi B Yougo Mondaishuu (Japan)": {
@@ -1712,10 +1826,10 @@
 	"Gremlins 2 - The New Batch (World)": {
 		"languages": "En"
 	},
-	"HAL Wrestling (USA)": {
+	"HAL Wrestling (USA) (Beta)": {
 		"languages": "En"
 	},
-	"HAL Wrestling (USA) (Beta)": {
+	"HAL Wrestling (USA)": {
 		"languages": "En"
 	},
 	"Hammerin' Harry (Europe)": {
@@ -1727,7 +1841,7 @@
 	"Harvest Moon GB (USA) (SGB Enhanced)": {
 		"languages": "En"
 	},
-	"Hatris (Japan, USA)": {
+	"Hatris (Japan, USA) (En)": {
 		"languages": "En"
 	},
 	"Hayaoshi Quiz - Ouza Ketteisen (Japan) (SGB Enhanced)": {
@@ -1784,16 +1898,16 @@
 	"Hokuto no Ken - Seizetsu Juuban Shoubu (Japan)": {
 		"languages": "Ja"
 	},
-	"Home Alone (Japan)": {
-		"languages": "Ja"
-	},
-	"Home Alone (USA, Europe)": {
-		"languages": "En"
-	},
 	"Home Alone 2 - Kevin's Dream (USA) (Proto)": {
 		"languages": "En"
 	},
 	"Home Alone 2 - Lost in New York (USA, Europe)": {
+		"languages": "En"
+	},
+	"Home Alone (Japan)": {
+		"languages": "Ja"
+	},
+	"Home Alone (USA, Europe)": {
 		"languages": "En"
 	},
 	"Hon Shougi (Japan) (SGB Enhanced)": {
@@ -1817,14 +1931,17 @@
 	"Hook (USA)": {
 		"languages": "En"
 	},
-	"Hoshi no Kirby (Japan)": {
+	"Hoshi no Kirby 2 (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
 	"Hoshi no Kirby (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
-	"Hoshi no Kirby 2 (Japan) (SGB Enhanced)": {
+	"Hoshi no Kirby (Japan)": {
 		"languages": "Ja"
+	},
+	"Hudson Hawk (Europe) (Proto)": {
+		"languages": "En"
 	},
 	"Hudson Hawk (Japan)": {
 		"languages": "Ja"
@@ -1832,11 +1949,11 @@
 	"Hudson Hawk (USA)": {
 		"languages": "En"
 	},
-	"Hugo (Europe) (SGB Enhanced)": {
-		"languages": "En"
-	},
 	"Hugo 2 (Germany)": {
 		"languages": "De"
+	},
+	"Hugo (Europe) (SGB Enhanced)": {
+		"languages": "En"
 	},
 	"Humans, The (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
@@ -1850,25 +1967,25 @@
 	"Hunt for Red October, The (USA, Europe)": {
 		"languages": "En"
 	},
-	"Hyper Black Bass (Japan) (En,Ja)": {
+	"Hyper Black Bass '95 (Japan) (En,Ja)": {
 		"languages": "En,Ja"
 	},
-	"Hyper Black Bass '95 (Japan) (En,Ja)": {
+	"Hyper Black Bass (Japan) (En,Ja)": {
 		"languages": "En,Ja"
 	},
 	"Hyper Dunk (Europe)": {
 		"languages": "En"
 	},
-	"Hyper Lode Runner (World) (Rev 1)": {
-		"languages": "En"
-	},
 	"Hyper Lode Runner (Japan) (En) (Possible Proto)": {
 		"languages": "En"
 	},
-	"Ikari no Yousai (Japan)": {
-		"languages": "Ja"
+	"Hyper Lode Runner (World) (Rev 1)": {
+		"languages": "En"
 	},
 	"Ikari no Yousai 2 (Japan)": {
+		"languages": "Ja"
+	},
+	"Ikari no Yousai (Japan)": {
 		"languages": "Ja"
 	},
 	"In Your Face (USA)": {
@@ -1883,10 +2000,16 @@
 	"Indiana Jones and the Last Crusade (USA, Europe)": {
 		"languages": "En"
 	},
-	"Indien dans la Ville, Un (France) (SGB Enhanced)": {
-		"languages": "Fr"
+	"Indien dans la Ville, Un (Europe) (SGB Enhanced)": {
+		"languages": "En"
 	},
 	"InfoGenius Productivity Pak - Berlitz French Translator (USA, Europe)": {
+		"languages": "En"
+	},
+	"InfoGenius Productivity Pak - Berlitz German Translator (USA, Europe) (Proto)": {
+		"languages": "En"
+	},
+	"InfoGenius Productivity Pak - Berlitz Japanese Translator (USA, Europe) (Proto)": {
 		"languages": "En"
 	},
 	"InfoGenius Productivity Pak - Berlitz Spanish Translator (USA, Europe)": {
@@ -1964,6 +2087,9 @@
 	"Jantaku Boy (Japan)": {
 		"languages": "Ja"
 	},
+	"Jeep Jamboree - Off-Road Adventure (Europe) (Proto)": {
+		"languages": "En"
+	},
 	"Jeep Jamboree - Off-Road Adventure (USA)": {
 		"languages": "En"
 	},
@@ -1985,11 +2111,17 @@
 	"Jet Pack (USA, Europe) (Beta)": {
 		"languages": "En"
 	},
-	"Jetsons, The - Robot Panic (USA) (Rev 1) (Possible Proto)": {
+	"Jet Pak Jak (Europe) (Proto)": {
+		"languages": "En"
+	},
+	"Jet Pak Man (Europe) (Proto)": {
 		"languages": "En"
 	},
 	"Jetsons, The - Robot Panic (Japan) (Proto)": {
 		"languages": "Ja"
+	},
+	"Jetsons, The - Robot Panic (USA) (Rev 1) (Possible Proto)": {
+		"languages": "En"
 	},
 	"Jetsons, The - Robot Panic (USA, Europe)": {
 		"languages": "En"
@@ -1999,6 +2131,9 @@
 	},
 	"Jimmy Connors no Pro Tennis Tour (Japan)": {
 		"languages": "Ja"
+	},
+	"Jimmy Connors Tennis (USA, Europe) (Beta)": {
+		"languages": "En"
 	},
 	"Jimmy Connors Tennis (USA, Europe)": {
 		"languages": "En"
@@ -2012,10 +2147,16 @@
 	"Joe & Mac (USA)": {
 		"languages": "En"
 	},
+	"Joe & Mac - Caveman Ninja (Europe) (En,Fr,De,Es,It,Nl,Sv) (Beta)": {
+		"languages": "En,Fr,De,Es,It,Nl,Sv"
+	},
 	"Joe & Mac - Caveman Ninja (Europe) (En,Fr,De,Es,It,Nl,Sv)": {
 		"languages": "En,Fr,De,Es,It,Nl,Sv"
 	},
-	"John Madden Football (USA) (Proto) (SGB Enhanced)": {
+	"John Madden Football (USA) (Proto 1) (SGB Enhanced)": {
+		"languages": "En"
+	},
+	"John Madden Football (USA) (Proto 2) (SGB Enhanced)": {
 		"languages": "En"
 	},
 	"Jordan vs Bird - One on One (Japan)": {
@@ -2034,6 +2175,9 @@
 		"languages": "En"
 	},
 	"Jungle Book, The (USA, Europe)": {
+		"languages": "En"
+	},
+	"Jungle Book, The (World) (Disney Classic Games)": {
 		"languages": "En"
 	},
 	"Jungle no Ouja Tar-chan (Japan) (SGB Enhanced)": {
@@ -2072,10 +2216,10 @@
 	"Kaijuu Ou Gojira (Japan)": {
 		"languages": "Ja"
 	},
-	"Kaisen Game - Navyblue (Japan)": {
+	"Kaisen Game - Navyblue 90 (Japan)": {
 		"languages": "Ja"
 	},
-	"Kaisen Game - Navyblue 90 (Japan)": {
+	"Kaisen Game - Navyblue (Japan)": {
 		"languages": "Ja"
 	},
 	"Kaisen Game - Radarmission (Japan)": {
@@ -2096,10 +2240,10 @@
 	"Karamuchou no Daijiken (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
-	"Kaseki Sousei Reborn (Japan) (SGB Enhanced)": {
+	"Kaseki Sousei Reborn (Japan) (Rev 1) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
-	"Kaseki Sousei Reborn (Japan) (Rev 1) (SGB Enhanced)": {
+	"Kaseki Sousei Reborn (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
 	"Kattobi Road (Japan)": {
@@ -2156,16 +2300,16 @@
 	"Kingdom Crusade (USA)": {
 		"languages": "En"
 	},
-	"Kingyo Chuuihou! - Wapiko no Wakuwaku Stamp Rally! (Japan)": {
-		"languages": "Ja"
-	},
 	"Kingyo Chuuihou! 2 - Gyopi-chan o Sagase! (Japan)": {
 		"languages": "Ja"
 	},
-	"Kinin Koumaroku Oni (Japan)": {
+	"Kingyo Chuuihou! - Wapiko no Wakuwaku Stamp Rally! (Japan)": {
 		"languages": "Ja"
 	},
 	"Kinin Koumaroku Oni (Japan) (Rev 1)": {
+		"languages": "Ja"
+	},
+	"Kinin Koumaroku Oni (Japan)": {
 		"languages": "Ja"
 	},
 	"Kinnikuman - The Dream Match (Japan)": {
@@ -2183,10 +2327,10 @@
 	"Kirby's Block Ball (USA, Europe) (SGB Enhanced)": {
 		"languages": "En"
 	},
-	"Kirby's Dream Land (USA, Europe)": {
+	"Kirby's Dream Land 2 (USA, Europe) (SGB Enhanced)": {
 		"languages": "En"
 	},
-	"Kirby's Dream Land 2 (USA, Europe) (SGB Enhanced)": {
+	"Kirby's Dream Land (USA, Europe)": {
 		"languages": "En"
 	},
 	"Kirby's Pinball Land (USA, Europe)": {
@@ -2208,6 +2352,9 @@
 		"languages": "Ja"
 	},
 	"Klax (USA) (Mindscape)": {
+		"languages": "En"
+	},
+	"Klustar (Europe) (Proto)": {
 		"languages": "En"
 	},
 	"Knight Quest (Japan)": {
@@ -2246,10 +2393,10 @@
 	"Konamic Sports in Barcelona (Japan)": {
 		"languages": "Ja"
 	},
-	"Konchuu Hakase (Japan) (SGB Enhanced)": {
+	"Konchuu Hakase (Japan) (Rev 1) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
-	"Konchuu Hakase (Japan) (Rev 1) (SGB Enhanced)": {
+	"Konchuu Hakase (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
 	"Koro Dice (Japan)": {
@@ -2288,7 +2435,16 @@
 	"Lawnmower Man, The (Europe)": {
 		"languages": "En"
 	},
+	"Lawnmower Man, The (USA) (Proto 1) (1993-10-11) (Not For Resale)": {
+		"languages": "En"
+	},
+	"Lawnmower Man, The (USA) (Proto 2) (1993-11-10)": {
+		"languages": "En"
+	},
 	"Lazlos' Leap (USA)": {
+		"languages": "En"
+	},
+	"Learn and Play - Blackjack & Solitaire (USA) (1994-08-09) (Proto)": {
 		"languages": "En"
 	},
 	"Legend - Ashita e no Tsubasa (Japan)": {
@@ -2297,13 +2453,13 @@
 	"Legend of Prince Valiant, The (Europe) (En,Fr,De)": {
 		"languages": "En,Fr,De"
 	},
-	"Legend of the River King GB (USA) (SGB Enhanced)": {
-		"languages": "En"
-	},
 	"Legend of the River King GB (Australia) (SGB Enhanced)": {
 		"languages": "En"
 	},
-	"Legend of Zelda, The - Link's Awakening (Canada)": {
+	"Legend of the River King GB (USA) (SGB Enhanced)": {
+		"languages": "En"
+	},
+	"Legend of Zelda, The - Link's Awakening (Canada) (Fr)": {
 		"languages": "Fr"
 	},
 	"Legend of Zelda, The - Link's Awakening (France)": {
@@ -2312,13 +2468,25 @@
 	"Legend of Zelda, The - Link's Awakening (Germany)": {
 		"languages": "De"
 	},
-	"Legend of Zelda, The - Link's Awakening (USA, Europe)": {
-		"languages": "En"
-	},
 	"Legend of Zelda, The - Link's Awakening (USA, Europe) (Rev 1)": {
 		"languages": "En"
 	},
 	"Legend of Zelda, The - Link's Awakening (USA, Europe) (Rev 2)": {
+		"languages": "En"
+	},
+	"Legend of Zelda, The - Link's Awakening (USA, Europe)": {
+		"languages": "En"
+	},
+	"Legend of Zelda, The - Link's Awakening DX (Germany) (Beta) (1998-11-16)": {
+		"languages": "De"
+	},
+	"Lemmings 2 - The Tribes (Europe)": {
+		"languages": "En"
+	},
+	"Lemmings (Europe) (Beta) (1993-05-19)": {
+		"languages": "En"
+	},
+	"Lemmings (Europe) (Rev 1)": {
 		"languages": "En"
 	},
 	"Lemmings (Europe)": {
@@ -2330,13 +2498,7 @@
 	"Lemmings (USA)": {
 		"languages": "En"
 	},
-	"Lemmings (Europe) (Rev 1)": {
-		"languages": "En"
-	},
-	"Lemmings (Europe) (Beta) (1993-05-19)": {
-		"languages": "En"
-	},
-	"Lemmings 2 - The Tribes (Europe)": {
+	"Lethal Weapon (USA, Europe) (Beta)": {
 		"languages": "En"
 	},
 	"Lethal Weapon (USA, Europe)": {
@@ -2345,10 +2507,10 @@
 	"Lingo (Europe) (En,Fr,De,Nl)": {
 		"languages": "En,Fr,De,Nl"
 	},
-	"Lion King, The (USA)": {
+	"Lion King, The (Europe)": {
 		"languages": "En"
 	},
-	"Lion King, The (Europe)": {
+	"Lion King, The (USA)": {
 		"languages": "En"
 	},
 	"Lion King, The (World) (Disney Classic Games)": {
@@ -2357,14 +2519,17 @@
 	"Litti's Summer Sports (Germany)": {
 		"languages": "De"
 	},
-	"Little Master - Raikuban no Densetsu (Japan)": {
+	"Little Master 2 - Raikou no Kishi (Japan)": {
 		"languages": "Ja"
 	},
-	"Little Master 2 - Raikou no Kishi (Japan)": {
+	"Little Master - Raikuban no Densetsu (Japan)": {
 		"languages": "Ja"
 	},
 	"Little Mermaid, The (Europe)": {
 		"languages": "En"
+	},
+	"Little Mermaid, The (Spain) (Proto)": {
+		"languages": "Es"
 	},
 	"Little Mermaid, The (USA)": {
 		"languages": "En"
@@ -2375,17 +2540,20 @@
 	"Lolo no Daibouken (Japan)": {
 		"languages": "Ja"
 	},
+	"Looney Tunes 2 - Tasmanian Devil in Island Chase (USA, Europe)": {
+		"languages": "En"
+	},
 	"Looney Tunes (USA, Europe)": {
 		"languages": "En"
 	},
 	"Looney Tunes - Bugs Bunny to Yukai na Nakama-tachi (Japan)": {
 		"languages": "Ja"
 	},
-	"Looney Tunes 2 - Tasmanian Devil in Island Chase ~ Taz-Mania (USA, Europe)": {
-		"languages": "En"
-	},
 	"Looney Tunes Series - Daffy Duck (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
+	},
+	"Loopz (World) (Beta)": {
+		"languages": "En"
 	},
 	"Loopz (World)": {
 		"languages": "En"
@@ -2399,7 +2567,7 @@
 	"Lucky Monkey (Japan)": {
 		"languages": "Ja"
 	},
-	"Lucle (Japan, Europe)": {
+	"Lucle (Japan, Europe) (En)": {
 		"languages": "En"
 	},
 	"Lunar Chase (USA) (Proto 1)": {
@@ -2426,16 +2594,16 @@
 	"Maerchen Club (Japan)": {
 		"languages": "Ja"
 	},
-	"Magic Knight Rayearth (Japan) (SGB Enhanced)": {
-		"languages": "Ja"
-	},
 	"Magic Knight Rayearth 2nd. - The Missing Colors (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
-	"Magical Taruruuto-kun (Japan)": {
+	"Magic Knight Rayearth (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
 	"Magical Taruruuto-kun 2 - Raibaa Zone Panic!! (Japan)": {
+		"languages": "Ja"
+	},
+	"Magical Taruruuto-kun (Japan)": {
 		"languages": "Ja"
 	},
 	"Magnetic Soccer (Europe)": {
@@ -2444,10 +2612,10 @@
 	"Mahoujin GuruGuru - Yuusha to Kukuri no Daibouken (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
-	"Makai Toushi Sa-Ga (Japan)": {
+	"Makai Toushi Sa-Ga (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
-	"Makai Toushi Sa-Ga (Japan) (Rev 1)": {
+	"Makai Toushi Sa-Ga (Japan)": {
 		"languages": "Ja"
 	},
 	"Makai Toushi Sa-Ga (World) (Ja) (Rev 1) (Collection of SaGa)": {
@@ -2459,19 +2627,19 @@
 	"Malibu Beach Volleyball (USA)": {
 		"languages": "En"
 	},
-	"Mani 4 in 1 - Bubble Bobble + Elevator Action + Chase H.Q. + Sagaia (China)": {
+	"Mani 4 in 1 - Bubble Bobble + Elevator Action + Chase H.Q. + Sagaia (China) (En)": {
 		"languages": "En"
 	},
-	"Mani 4 in 1 - Genki Bakuhatsu Gambaruger + Zettai Muteki Raijin-Oh + Zoids Densetsu + Miracle Adventure of Esparks - Ushinawareta Seiseki Perivron (China)": {
+	"Mani 4 in 1 - Genki Bakuhatsu Gambaruger + Zettai Muteki Raijin-Oh + Zoids Densetsu + Miracle Adventure of Esparks - Ushinawareta Seiseki Perivron (China) (Ja)": {
 		"languages": "Ja"
 	},
-	"Mani 4 in 1 - R-Type II + Saigo no Nindou + Ganso!! Yancha Maru + Shisenshou - Match-Mania (China)": {
+	"Mani 4 in 1 - R-Type II + Saigo no Nindou + Ganso!! Yancha Maru + Shisenshou - Match-Mania (China) (Ja)": {
 		"languages": "Ja"
 	},
-	"Mani 4 in 1 - Takahashi Meijin no Bouken-jima II + GB Genjin + Bomber Boy + Milon no Meikyuu Kumikyoku (China)": {
+	"Mani 4 in 1 - Takahashi Meijin no Bouken-jima II + GB Genjin + Bomber Boy + Milon no Meikyuu Kumikyoku (China) (Ja)": {
 		"languages": "Ja"
 	},
-	"Mani 4 in 1 - Tetris + Alleyway + Yakuman + Tennis (China)": {
+	"Mani 4 in 1 - Tetris + Alleyway + Yakuman + Tennis (China) (Ja)": {
 		"languages": "Ja"
 	},
 	"Marble Madness (USA, Europe)": {
@@ -2516,22 +2684,22 @@
 	"McDonaldland (Europe)": {
 		"languages": "En"
 	},
-	"Medarot - Kabuto Version (Japan) (SGB Enhanced)": {
-		"languages": "Ja"
-	},
 	"Medarot - Kabuto Version (Japan) (Rev 1) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
-	"Medarot - Kuwagata Version (Japan) (SGB Enhanced)": {
+	"Medarot - Kabuto Version (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
 	"Medarot - Kuwagata Version (Japan) (Rev 1) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
-	"Medarot - Parts Collection (Japan) (SGB Enhanced)": {
+	"Medarot - Kuwagata Version (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
 	"Medarot - Parts Collection 2 (Japan) (SGB Enhanced)": {
+		"languages": "Ja"
+	},
+	"Medarot - Parts Collection (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
 	"Mega Man - Dr. Wily's Revenge (Europe)": {
@@ -2549,10 +2717,10 @@
 	"Mega Man III (Europe)": {
 		"languages": "En"
 	},
-	"Mega Man III (USA)": {
+	"Mega Man III (USA) (Sample)": {
 		"languages": "En"
 	},
-	"Mega Man III (USA) (Sample)": {
+	"Mega Man III (USA)": {
 		"languages": "En"
 	},
 	"Mega Man IV (Europe)": {
@@ -2588,6 +2756,9 @@
 	"Mercenary Force (USA, Europe)": {
 		"languages": "En"
 	},
+	"Metal Masters (USA) (Beta)": {
+		"languages": "En"
+	},
 	"Metal Masters (USA)": {
 		"languages": "En"
 	},
@@ -2621,10 +2792,10 @@
 	"Mickey Mouse IV - Mahou no Labyrinth (Japan)": {
 		"languages": "Ja"
 	},
-	"Mickey Mouse V (Japan)": {
+	"Mickey Mouse V (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
-	"Mickey Mouse V (Japan) (Rev 1)": {
+	"Mickey Mouse V (Japan)": {
 		"languages": "Ja"
 	},
 	"Mickey's Chase (Japan)": {
@@ -2636,17 +2807,23 @@
 	"Mickey's Dangerous Chase (USA)": {
 		"languages": "En"
 	},
-	"Mickey's Ultimate Challenge (USA, Europe)": {
+	"Mickey's Ultimate Challenge (USA, Europe) (Beta) (1993-11-12)": {
 		"languages": "En"
 	},
-	"Micro Machines (USA, Europe)": {
+	"Mickey's Ultimate Challenge (USA, Europe)": {
 		"languages": "En"
 	},
 	"Micro Machines 2 - Turbo Tournament (Europe)": {
 		"languages": "En"
 	},
+	"Micro Machines (USA, Europe)": {
+		"languages": "En"
+	},
 	"Midori no Makibaou (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
+	},
+	"Mighty Morphin Power Rangers (USA, Europe) (Beta) (SGB Enhanced)": {
+		"languages": "En"
 	},
 	"Mighty Morphin Power Rangers (USA, Europe) (SGB Enhanced)": {
 		"languages": "En"
@@ -2666,6 +2843,9 @@
 	"Milon's Secret Castle (USA, Europe)": {
 		"languages": "En"
 	},
+	"Mind Bender (USA) (Beta) (1991-03-04)": {
+		"languages": "En"
+	},
 	"Miner 2049er Starring Bounty Bob (USA)": {
 		"languages": "En"
 	},
@@ -2678,7 +2858,10 @@
 	"Mini 4 Boy II (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
-	"Mini Putt (USA)": {
+	"Mini Putt (Europe) (Proto)": {
+		"languages": "En"
+	},
+	"Mini Putt (USA) (Proto)": {
 		"languages": "En"
 	},
 	"Mini Yonku GB Let's & Go!! (Japan) (SGB Enhanced)": {
@@ -2711,16 +2894,16 @@
 	"Momoiro Zousan (Japan) (Proto)": {
 		"languages": "Ja"
 	},
-	"Momotarou Collection (Japan) (SGB Enhanced)": {
-		"languages": "Ja"
-	},
 	"Momotarou Collection 2 (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
-	"Momotarou Dengeki (Japan)": {
+	"Momotarou Collection (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
 	"Momotarou Dengeki 2 (Japan) (SGB Enhanced)": {
+		"languages": "Ja"
+	},
+	"Momotarou Dengeki (Japan)": {
 		"languages": "Ja"
 	},
 	"Momotarou Densetsu Gaiden (Japan)": {
@@ -2729,7 +2912,7 @@
 	"Momotarou Dentetsu jr. - Zenkoku Ramen Meguri no Maki (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
-	"Monde Perdu, Le - Jurassic Park (France) (SGB Enhanced)": {
+	"Monde Perdu, Le - Jurassic Park (France) (En) (SGB Enhanced)": {
 		"languages": "En"
 	},
 	"Money Idol Exchanger (Japan) (SGB Enhanced)": {
@@ -2744,14 +2927,17 @@
 	"Monopoly (USA)": {
 		"languages": "En"
 	},
+	"Monster Maker 2 - Uru no Hiken (Japan)": {
+		"languages": "Ja"
+	},
 	"Monster Maker (Japan)": {
 		"languages": "Ja"
 	},
 	"Monster Maker - Barcode Saga (Japan)": {
 		"languages": "Ja"
 	},
-	"Monster Maker 2 - Uru no Hiken (Japan)": {
-		"languages": "Ja"
+	"Monster Max (Europe) (En,Fr,De,Es,It,Nl) (Beta) (1993-04-01)": {
+		"languages": "En,Fr,De,Es,It,Nl"
 	},
 	"Monster Max (Europe) (En,Fr,De,Es,It,Nl)": {
 		"languages": "En,Fr,De,Es,It,Nl"
@@ -2771,11 +2957,11 @@
 	"Montezuma's Return! (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
 	},
-	"Mortal Kombat (USA, Europe)": {
+	"Mortal Kombat 3 (Europe)": {
 		"languages": "En"
 	},
-	"Mortal Kombat - Shinken Kourin Densetsu (Japan)": {
-		"languages": "Ja"
+	"Mortal Kombat 3 (USA, Europe)": {
+		"languages": "En"
 	},
 	"Mortal Kombat & Mortal Kombat II (Japan)": {
 		"languages": "Ja"
@@ -2783,17 +2969,23 @@
 	"Mortal Kombat & Mortal Kombat II (USA, Europe)": {
 		"languages": "En"
 	},
-	"Mortal Kombat 3 (Europe)": {
+	"Mortal Kombat (USA, Europe) (Beta)": {
 		"languages": "En"
 	},
-	"Mortal Kombat 3 (USA, Europe)": {
+	"Mortal Kombat (USA, Europe)": {
 		"languages": "En"
+	},
+	"Mortal Kombat - Shinken Kourin Densetsu (Japan)": {
+		"languages": "Ja"
 	},
 	"Mortal Kombat II (USA, Europe)": {
 		"languages": "En"
 	},
 	"Mortal Kombat II - Kyuukyoku Shinken (Japan)": {
 		"languages": "Ja"
+	},
+	"Motocross Maniacs (Europe) (Rev 1)": {
+		"languages": "En"
 	},
 	"Motocross Maniacs (Europe)": {
 		"languages": "En"
@@ -2802,9 +2994,6 @@
 		"languages": "Ja"
 	},
 	"Motocross Maniacs (USA)": {
-		"languages": "En"
-	},
-	"Motocross Maniacs (Europe) (Rev 1)": {
 		"languages": "En"
 	},
 	"Mouse Trap Hotel (USA)": {
@@ -2861,11 +3050,11 @@
 	"Mystic Quest (World) (Collection of Mana)": {
 		"languages": "En"
 	},
-	"Mystic Quest (World) (Fr) (Collection of Mana)": {
-		"languages": "Fr"
-	},
 	"Mystic Quest (World) (De) (Collection of Mana)": {
 		"languages": "De"
+	},
+	"Mystic Quest (World) (Fr) (Collection of Mana)": {
+		"languages": "Fr"
 	},
 	"Mystical Ninja Starring Goemon (Europe) (SGB Enhanced)": {
 		"languages": "En"
@@ -2903,6 +3092,9 @@
 	"Nangoku Shounen Papuwa-kun - Ganmadan no Yabou (Japan)": {
 		"languages": "Ja"
 	},
+	"Nanonote (Japan) (Rev 1) (Beta)": {
+		"languages": "Ja"
+	},
 	"Nanonote (Japan)": {
 		"languages": "Ja"
 	},
@@ -2912,13 +3104,13 @@
 	"Navyblue 98 (Japan)": {
 		"languages": "Ja"
 	},
-	"NBA All-Star Challenge (USA, Europe)": {
-		"languages": "En"
-	},
 	"NBA All-Star Challenge 2 (Japan)": {
 		"languages": "Ja"
 	},
 	"NBA All-Star Challenge 2 (USA, Europe)": {
+		"languages": "En"
+	},
+	"NBA All-Star Challenge (USA, Europe)": {
 		"languages": "En"
 	},
 	"NBA Jam (USA, Europe)": {
@@ -2957,6 +3149,9 @@
 	"Nemesis (Japan)": {
 		"languages": "Ja"
 	},
+	"Nemesis (USA) (Rev 1) (Beta)": {
+		"languages": "En"
+	},
 	"Nemesis (USA)": {
 		"languages": "En"
 	},
@@ -2972,10 +3167,10 @@
 	"Nettou Real Bout Garou Densetsu Special (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
-	"Nettou Samurai Spirits (Japan) (SGB Enhanced)": {
+	"Nettou Samurai Spirits (Japan) (Rev 1) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
-	"Nettou Samurai Spirits (Japan) (Rev 1) (SGB Enhanced)": {
+	"Nettou Samurai Spirits (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
 	"Nettou Samurai Spirits - Zankurou Musouken (Japan) (SGB Enhanced)": {
@@ -2987,16 +3182,16 @@
 	"Nettou The King of Fighters '96 (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
-	"Nettou Toushinden (Japan) (SGB Enhanced)": {
-		"languages": "Ja"
-	},
 	"Nettou Toushinden (Japan) (Rev 1) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
-	"Nettou World Heroes 2 Jet (Japan) (SGB Enhanced)": {
+	"Nettou Toushinden (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
 	"Nettou World Heroes 2 Jet (Japan) (Rev 1) (SGB Enhanced)": {
+		"languages": "Ja"
+	},
+	"Nettou World Heroes 2 Jet (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
 	"New Chessmaster, The (Japan) (En,Ja)": {
@@ -3008,13 +3203,16 @@
 	"NFL Football (USA)": {
 		"languages": "En"
 	},
-	"NFL Quarterback Club (USA, Europe)": {
+	"NFL Quarterback Club 96 (Japan) (En) (Proto)": {
+		"languages": "En"
+	},
+	"NFL Quarterback Club 96 (USA, Europe)": {
 		"languages": "En"
 	},
 	"NFL Quarterback Club '95 (Japan)": {
 		"languages": "Ja"
 	},
-	"NFL Quarterback Club 96 (USA, Europe)": {
+	"NFL Quarterback Club (USA, Europe)": {
 		"languages": "En"
 	},
 	"NFL Quarterback Club II (USA, Europe)": {
@@ -3029,16 +3227,16 @@
 	"Nichibutsu Mahjong - Yoshimoto Gekijou (Japan)": {
 		"languages": "Ja"
 	},
-	"Nick Faldo Championship Golf (Europe) (Proto)": {
+	"Nick Faldo Championship Golf (USA) (Proto)": {
 		"languages": "En"
 	},
 	"Nigel Mansell's World Championship (Europe)": {
 		"languages": "En"
 	},
-	"Nigel Mansell's World Championship (USA)": {
+	"Nigel Mansell's World Championship Racing (Europe)": {
 		"languages": "En"
 	},
-	"Nigel Mansell's World Championship Racing (Europe)": {
+	"Nigel Mansell's World Championship Racing (USA)": {
 		"languages": "En"
 	},
 	"Nihon Daihyou Team - Eikou no Eleven (Japan) (SGB Enhanced)": {
@@ -3050,10 +3248,10 @@
 	"Nikkan Berutomo Club (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
-	"Ninja Boy (USA, Europe)": {
+	"Ninja Boy 2 (USA, Europe)": {
 		"languages": "En"
 	},
-	"Ninja Boy 2 (USA, Europe)": {
+	"Ninja Boy (USA, Europe)": {
 		"languages": "En"
 	},
 	"Ninja Gaiden Shadow (USA)": {
@@ -3062,10 +3260,19 @@
 	"Ninja Ryuuken Den - Matenrou Kessen (Japan)": {
 		"languages": "Ja"
 	},
-	"Ninja Taro (USA)": {
+	"Ninja Spirit (Europe) (Proto)": {
 		"languages": "En"
 	},
-	"Ninja Taro (USA) (Beta)": {
+	"Ninja Spirit (USA) (Proto)": {
+		"languages": "En"
+	},
+	"Ninja Taro (USA) (Beta 1)": {
+		"languages": "En"
+	},
+	"Ninja Taro (USA) (Beta 2)": {
+		"languages": "En"
+	},
+	"Ninja Taro (USA)": {
 		"languages": "En"
 	},
 	"Ninku (Japan) (SGB Enhanced)": {
@@ -3079,15 +3286,6 @@
 	},
 	"Nintama Rantarou GB - Eawase Challenge Puzzle (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
-	},
-	"[BIOS] Nintendo Game Boy Boot ROM (World) (Rev 1)": {
-		"languages": "En"
-	},
-	"[BIOS] Nintendo Game Boy Boot ROM (Japan) (En)": {
-		"languages": "En"
-	},
-	"[BIOS] Nintendo Game Boy Pocket Boot ROM (World)": {
-		"languages": "En"
 	},
 	"Nintendo World Cup (USA, Europe)": {
 		"languages": "En"
@@ -3116,9 +3314,6 @@
 	"Olympic Summer Games (USA, Europe) (SGB Enhanced)": {
 		"languages": "En"
 	},
-	"Olympic Winter Games - Lillehammer '94 (USA)": {
-		"languages": "En"
-	},
 	"Oni II - Oni Densetsu (Japan)": {
 		"languages": "Ja"
 	},
@@ -3126,6 +3321,9 @@
 		"languages": "Ja"
 	},
 	"Oni IV (Japan) (Beta)": {
+		"languages": "Ja"
+	},
+	"Oni IV - Kijin no Ketsuzoku (Japan) (Rev 1) (Beta)": {
 		"languages": "Ja"
 	},
 	"Oni IV - Kijin no Ketsuzoku (Japan)": {
@@ -3158,13 +3356,16 @@
 	"Otogibanashi Taisen (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
+	"Otto's Ottifanten - Baby Bruno's Alptraum (Europe) (En,Fr,De,Es) (Beta)": {
+		"languages": "En,Fr,De,Es"
+	},
 	"Otto's Ottifanten - Baby Bruno's Alptraum (Europe) (En,Fr,De,Es)": {
 		"languages": "En,Fr,De,Es"
 	},
-	"Out of Gas (USA)": {
+	"Out of Gas (USA) (Beta)": {
 		"languages": "En"
 	},
-	"Out of Gas (USA) (Beta)": {
+	"Out of Gas (USA)": {
 		"languages": "En"
 	},
 	"Outburst (Japan)": {
@@ -3179,16 +3380,16 @@
 	"Pac-Attack (USA) (SGB Enhanced)": {
 		"languages": "En"
 	},
-	"Pac-In-Time (USA) (SGB Enhanced)": {
+	"Pac-In-Time (Europe) (Rev 1) (Possible Proto) (SGB Enhanced)": {
+		"languages": "En"
+	},
+	"Pac-In-Time (Europe) (SGB Enhanced)": {
 		"languages": "En"
 	},
 	"Pac-In-Time (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
-	"Pac-In-Time (Europe) (SGB Enhanced)": {
-		"languages": "En"
-	},
-	"Pac-In-Time (Europe) (Rev 1) (Possible Proto) (SGB Enhanced)": {
+	"Pac-In-Time (USA) (SGB Enhanced)": {
 		"languages": "En"
 	},
 	"Pac-Man (Europe)": {
@@ -3209,13 +3410,13 @@
 	"Pachi-Slot Hisshou Guide GB (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
-	"Pachi-Slot Kids (Japan)": {
-		"languages": "Ja"
-	},
 	"Pachi-Slot Kids 2 (Japan)": {
 		"languages": "Ja"
 	},
 	"Pachi-Slot Kids 3 (Japan)": {
+		"languages": "Ja"
+	},
+	"Pachi-Slot Kids (Japan)": {
 		"languages": "Ja"
 	},
 	"Pachi-Slot World Cup '94 (Japan)": {
@@ -3239,16 +3440,16 @@
 	"Pachinko Time (Japan)": {
 		"languages": "Ja"
 	},
-	"Pachio-kun (Japan)": {
-		"languages": "Ja"
-	},
-	"Pachio-kun - Puzzle Castle (Japan)": {
-		"languages": "Ja"
-	},
 	"Pachio-kun 2 (Japan)": {
 		"languages": "Ja"
 	},
 	"Pachio-kun 3 (Japan)": {
+		"languages": "Ja"
+	},
+	"Pachio-kun (Japan)": {
+		"languages": "Ja"
+	},
+	"Pachio-kun - Puzzle Castle (Japan)": {
 		"languages": "Ja"
 	},
 	"Pachio-kun Game Gallery (Japan)": {
@@ -3269,22 +3470,25 @@
 	"Palamedes (Japan)": {
 		"languages": "Ja"
 	},
+	"Palamedes (USA) (Proto)": {
+		"languages": "En"
+	},
 	"Panel Action Bingo (USA)": {
 		"languages": "En"
 	},
 	"Panel no Ninja Kesamaru (Japan)": {
 		"languages": "Ja"
 	},
-	"Pang (Europe)": {
-		"languages": "En"
-	},
 	"Pang (Europe) (Beta)": {
 		"languages": "En"
 	},
-	"Paperboy (USA, Europe)": {
+	"Pang (Europe)": {
 		"languages": "En"
 	},
 	"Paperboy 2 (USA, Europe)": {
+		"languages": "En"
+	},
+	"Paperboy (USA, Europe)": {
 		"languages": "En"
 	},
 	"Parasol Henbee (Japan)": {
@@ -3340,6 +3544,9 @@
 	},
 	"Pinball - 66hiki no Wani Daikoushin! (Japan)": {
 		"languages": "Ja"
+	},
+	"Pinball - Revenge of the 'Gator (USA, Europe) (Beta)": {
+		"languages": "En"
 	},
 	"Pinball - Revenge of the 'Gator (USA, Europe)": {
 		"languages": "En"
@@ -3413,31 +3620,28 @@
 	"Pocket Kyoro-chan (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
-	"Pocket Love (Japan) (SGB Enhanced)": {
+	"Pocket Love 2 (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
-	"Pocket Love 2 (Japan) (SGB Enhanced)": {
+	"Pocket Love (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
 	"Pocket Mahjong (Japan)": {
 		"languages": "Ja"
 	},
-	"Pocket Monsters - Aka (Japan) (SGB Enhanced)": {
+	"Pocket Monsters - Aka (Japan) (Rev 1) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
-	"Pocket Monsters - Aka (Japan) (Rev 1) (SGB Enhanced)": {
+	"Pocket Monsters - Aka (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
 	"Pocket Monsters - Ao (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
-	"Pocket Monsters - Midori (Japan) (SGB Enhanced)": {
-		"languages": "Ja"
-	},
 	"Pocket Monsters - Midori (Japan) (Rev 1) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
-	"Pocket Monsters - Pikachu (Japan) (SGB Enhanced)": {
+	"Pocket Monsters - Midori (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
 	"Pocket Monsters - Pikachu (Japan) (Rev 1) (SGB Enhanced)": {
@@ -3449,22 +3653,28 @@
 	"Pocket Monsters - Pikachu (Japan) (Rev 3) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
-	"Pocket Monsters Gin (Japan) (Demo) (Spaceworld 1997) (SGB Enhanced)": {
+	"Pocket Monsters - Pikachu (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
 	"Pocket Monsters Gin (Japan) (Demo) (Spaceworld 1997) (SGB Enhanced) (Debug)": {
 		"languages": "Ja"
 	},
-	"Pocket Monsters Kin (Japan) (Demo) (Spaceworld 1997) (SGB Enhanced)": {
+	"Pocket Monsters Gin (Japan) (Demo) (Spaceworld 1997) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
 	"Pocket Monsters Kin (Japan) (Demo) (Spaceworld 1997) (SGB Enhanced) (Debug)": {
 		"languages": "Ja"
 	},
-	"Pocket Puyo Puyo Tsuu (Japan) (SGB Enhanced)": {
+	"Pocket Monsters Kin (Japan) (Demo) (Spaceworld 1997) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
+	"Pocket Monsters Yellow (Hong Kong) (SGB Enhanced) (Unl) (Pirate)": {
+		"languages": "Zh"
+	},
 	"Pocket Puyo Puyo Tsuu (Japan) (Rev 1) (SGB Enhanced) (NP)": {
+		"languages": "Ja"
+	},
+	"Pocket Puyo Puyo Tsuu (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
 	"Pocket Shougi (Japan) (SGB Enhanced)": {
@@ -3478,6 +3688,9 @@
 	},
 	"Pokemon - Blaue Edition (Germany) (SGB Enhanced)": {
 		"languages": "De"
+	},
+	"Pokemon - Blue Version (Hong Kong) (SGB Enhanced) (Unl) (Pirate)": {
+		"languages": "Zh"
 	},
 	"Pokemon - Blue Version (USA, Europe) (SGB Enhanced)": {
 		"languages": "En"
@@ -3493,6 +3706,9 @@
 	},
 	"Pokemon - Gelbe Edition - Special Pikachu Edition (Germany) (CGB+SGB Enhanced)": {
 		"languages": "De"
+	},
+	"Pokemon - Red Version (Hong Kong) (SGB Enhanced) (Unl) (Pirate)": {
+		"languages": "Zh"
 	},
 	"Pokemon - Red Version (USA, Europe) (SGB Enhanced)": {
 		"languages": "En"
@@ -3533,14 +3749,11 @@
 	"Pop'n TwinBee (Europe)": {
 		"languages": "En"
 	},
-	"Popeye (Japan)": {
-		"languages": "Ja"
-	},
-	"Popeye (USA) (Proto)": {
-		"languages": "En"
-	},
 	"Popeye 2 (Europe)": {
 		"languages": "En"
+	},
+	"Popeye 2 (Japan) (Rev 1)": {
+		"languages": "Ja"
 	},
 	"Popeye 2 (Japan)": {
 		"languages": "Ja"
@@ -3548,34 +3761,40 @@
 	"Popeye 2 (USA)": {
 		"languages": "En"
 	},
-	"Popeye 2 (Japan) (Rev 1)": {
+	"Popeye (Japan)": {
 		"languages": "Ja"
 	},
-	"Populous (Europe)": {
+	"Popeye (USA) (Proto)": {
 		"languages": "En"
 	},
 	"Populous (Europe) (Sample)": {
 		"languages": "En"
 	},
-	"Populous Gaiden (Japan)": {
-		"languages": "Ja"
+	"Populous (Europe)": {
+		"languages": "En"
 	},
-	"Power Mission (Japan)": {
+	"Populous Gaiden (Japan)": {
 		"languages": "Ja"
 	},
 	"Power Mission (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
+	"Power Mission (Japan)": {
+		"languages": "Ja"
+	},
 	"Power Mission (USA)": {
 		"languages": "En"
 	},
-	"Power Paws (Europe) (Proto)": {
+	"Power Paws (Europe) (Proto 1)": {
 		"languages": "En"
 	},
-	"Power Pro GB (Japan) (SGB Enhanced)": {
-		"languages": "Ja"
+	"Power Paws (Europe) (Proto 2)": {
+		"languages": "En"
 	},
 	"Power Pro GB (Japan) (Rev 1) (SGB Enhanced)": {
+		"languages": "Ja"
+	},
+	"Power Pro GB (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
 	"Power Racer (Europe)": {
@@ -3590,11 +3809,14 @@
 	"Pri Pri - Primitive Princess! (Japan)": {
 		"languages": "Ja"
 	},
+	"Primal Rage (USA, Europe) (Beta)": {
+		"languages": "En"
+	},
 	"Primal Rage (USA, Europe)": {
 		"languages": "En"
 	},
-	"Primal Rage (USA, Europe) (Beta)": {
-		"languages": "En"
+	"Prince of Persia (Europe) (En,Fr,De,Es,It) (Beta)": {
+		"languages": "En,Fr,De,Es,It"
 	},
 	"Prince of Persia (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
@@ -3604,9 +3826,6 @@
 	},
 	"Prince of Persia (USA)": {
 		"languages": "En"
-	},
-	"Prince of Persia (Europe) (En,Fr,De,Es,It) (Beta)": {
-		"languages": "En,Fr,De,Es,It"
 	},
 	"Pro Action Replay (Europe) (Unl)": {
 		"languages": "En"
@@ -3620,16 +3839,16 @@
 	"Pro Wrestling (Japan)": {
 		"languages": "Ja"
 	},
-	"Probotector (Europe)": {
-		"languages": "En"
-	},
-	"Probotector (World) (Contra Anniversary Collection)": {
+	"Probotector 2 (Europe) (Beta) (SGB Enhanced)": {
 		"languages": "En"
 	},
 	"Probotector 2 (Europe) (SGB Enhanced)": {
 		"languages": "En"
 	},
-	"Probotector 2 (Europe) (Beta)": {
+	"Probotector (Europe)": {
+		"languages": "En"
+	},
+	"Probotector (World) (Contra Anniversary Collection)": {
 		"languages": "En"
 	},
 	"Prophecy - The Viking Child (Europe) (En,Fr,De,Es,It)": {
@@ -3641,22 +3860,25 @@
 	"Punisher, The - The Ultimate Payback (USA)": {
 		"languages": "En"
 	},
-	"Purikura Pocket - Fukanzen Joshikousei Manual (Japan) (SGB Enhanced)": {
-		"languages": "Ja"
-	},
-	"Purikura Pocket - Fukanzen Joshikousei Manual (Japan) (Rev 1) (NP)": {
-		"languages": "Ja"
-	},
 	"Purikura Pocket 2 - Kareshi Kaizou Daisakusen (Japan) (SGB Enhanced)": {
+		"languages": "Ja"
+	},
+	"Purikura Pocket 3 - Talent Debut Daisakusen (Japan) (Rev 1) (SGB Enhanced) (NP)": {
 		"languages": "Ja"
 	},
 	"Purikura Pocket 3 - Talent Debut Daisakusen (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
-	"Puyo Puyo (Japan) (SGB Enhanced)": {
+	"Purikura Pocket - Fukanzen Joshikousei Manual (Japan) (Rev 1) (NP)": {
+		"languages": "Ja"
+	},
+	"Purikura Pocket - Fukanzen Joshikousei Manual (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
 	"Puyo Puyo (Japan) (Rev 1) (SGB Enhanced)": {
+		"languages": "Ja"
+	},
+	"Puyo Puyo (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
 	"Puzzle Bobble GB (Japan)": {
@@ -3713,19 +3935,25 @@
 	"R-Type (USA, Europe)": {
 		"languages": "En"
 	},
+	"R-Type II (Europe) (Beta)": {
+		"languages": "En"
+	},
 	"R-Type II (Europe)": {
 		"languages": "En"
 	},
 	"R-Type II (Japan)": {
 		"languages": "Ja"
 	},
-	"R-Type II (Europe) (Beta)": {
+	"R-Type II (USA) (Proto)": {
+		"languages": "En"
+	},
+	"Race Days (Europe)": {
 		"languages": "En"
 	},
 	"Race Days (USA)": {
 		"languages": "En"
 	},
-	"Race Days (Europe)": {
+	"Race Drivin' (USA, Europe) (Beta)": {
 		"languages": "En"
 	},
 	"Race Drivin' (USA, Europe)": {
@@ -3797,10 +4025,10 @@
 	"Ring Rage (USA)": {
 		"languages": "En"
 	},
-	"Road Rash (USA, Europe)": {
+	"Road Rash (USA, Europe) (Beta)": {
 		"languages": "En"
 	},
-	"Road Rash (USA, Europe) (Beta)": {
+	"Road Rash (USA, Europe)": {
 		"languages": "En"
 	},
 	"Roadster (Japan)": {
@@ -3821,6 +4049,12 @@
 	"Robin Hood - Prince of Thieves (USA)": {
 		"languages": "En"
 	},
+	"RoboCop 2 (Japan)": {
+		"languages": "Ja"
+	},
+	"RoboCop 2 (USA, Europe)": {
+		"languages": "En"
+	},
 	"RoboCop (Japan)": {
 		"languages": "Ja"
 	},
@@ -3828,12 +4062,6 @@
 		"languages": "En"
 	},
 	"RoboCop (USA, Europe) (Rev 1)": {
-		"languages": "En"
-	},
-	"RoboCop 2 (Japan)": {
-		"languages": "Ja"
-	},
-	"RoboCop 2 (USA, Europe)": {
 		"languages": "En"
 	},
 	"RoboCop versus The Terminator (Europe)": {
@@ -3844,12 +4072,6 @@
 	},
 	"Rock'n! Monster!! (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
-	},
-	"Rockman World (Japan)": {
-		"languages": "Ja"
-	},
-	"Rockman World (Japan) (En) (Beta)": {
-		"languages": "En"
 	},
 	"Rockman World 2 (Japan)": {
 		"languages": "Ja"
@@ -3863,13 +4085,19 @@
 	"Rockman World 5 (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
+	"Rockman World (Japan) (En) (Beta)": {
+		"languages": "En"
+	},
+	"Rockman World (Japan)": {
+		"languages": "Ja"
+	},
 	"Rodland (Europe)": {
 		"languages": "En"
 	},
-	"Roger Clemens' MVP Baseball (USA)": {
+	"Roger Clemens' MVP Baseball (USA) (Rev 1)": {
 		"languages": "En"
 	},
-	"Roger Clemens' MVP Baseball (USA) (Rev 1)": {
+	"Roger Clemens' MVP Baseball (USA)": {
 		"languages": "En"
 	},
 	"Rolan's Curse (USA)": {
@@ -3887,10 +4115,10 @@
 	"Rugrats Movie, The (USA) (SGB Enhanced)": {
 		"languages": "En"
 	},
-	"Sa-Ga 2 - Hihou Densetsu (Japan)": {
+	"Sa-Ga 2 - Hihou Densetsu (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
-	"Sa-Ga 2 - Hihou Densetsu (Japan) (Rev 1)": {
+	"Sa-Ga 2 - Hihou Densetsu (Japan)": {
 		"languages": "Ja"
 	},
 	"Sa-Ga 2 - Hihou Densetsu (World) (Ja) (Rev 1) (Collection of SaGa)": {
@@ -3917,25 +4145,25 @@
 	"Same Game (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
-	"Samurai Shodown (USA, Europe) (SGB Enhanced)": {
+	"Samurai Shodown (USA, Europe) (Beta) (SGB Enhanced)": {
 		"languages": "En"
 	},
-	"Samurai Shodown (USA, Europe) (Beta) (SGB Enhanced)": {
+	"Samurai Shodown (USA, Europe) (SGB Enhanced)": {
 		"languages": "En"
 	},
 	"Sangokushi - Game Boy Ban (Japan)": {
 		"languages": "Ja"
 	},
-	"Sanrio Carnival (Japan)": {
-		"languages": "Ja"
-	},
 	"Sanrio Carnival 2 (Japan)": {
 		"languages": "Ja"
 	},
-	"Sanrio Uranai Party (Japan)": {
+	"Sanrio Carnival (Japan)": {
 		"languages": "Ja"
 	},
 	"Sanrio Uranai Party (Japan) (Rev 1)": {
+		"languages": "Ja"
+	},
+	"Sanrio Uranai Party (Japan)": {
 		"languages": "Ja"
 	},
 	"Sarakon (Europe) (Proto)": {
@@ -3953,10 +4181,10 @@
 	"SD Gundam Gaiden - Lacroan' Heroes (Japan)": {
 		"languages": "Ja"
 	},
-	"SD Hiryuu no Ken Gaiden (Japan) (SGB Enhanced)": {
+	"SD Hiryuu no Ken Gaiden 2 (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
-	"SD Hiryuu no Ken Gaiden 2 (Japan) (SGB Enhanced)": {
+	"SD Hiryuu no Ken Gaiden (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
 	"SD Lupin Sansei - Kinko Yaburi Daisakusen (Japan)": {
@@ -3974,19 +4202,19 @@
 	"Sea King GB (USA) (Proto) (SGB Enhanced)": {
 		"languages": "En"
 	},
-	"seaQuest DSV (USA, Europe) (SGB Enhanced)": {
+	"seaQuest DSV (USA, Europe) (Beta)": {
 		"languages": "En"
 	},
-	"seaQuest DSV (USA, Europe) (Beta)": {
+	"seaQuest DSV (USA, Europe) (SGB Enhanced)": {
 		"languages": "En"
 	},
 	"Seaside Volley (Japan)": {
 		"languages": "Ja"
 	},
-	"Seiken Densetsu - Final Fantasy Gaiden (Japan)": {
+	"Seiken Densetsu - Final Fantasy Gaiden (Japan) (Seiken Densetsu Collection)": {
 		"languages": "Ja"
 	},
-	"Seiken Densetsu - Final Fantasy Gaiden (Japan) (Seiken Densetsu Collection)": {
+	"Seiken Densetsu - Final Fantasy Gaiden (Japan)": {
 		"languages": "Ja"
 	},
 	"Selection - Erabareshi Mono (Japan)": {
@@ -4007,13 +4235,16 @@
 	"Serpent (USA)": {
 		"languages": "En"
 	},
+	"Severen (World) (Demo) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
 	"Shadow Warriors (Europe)": {
 		"languages": "En"
 	},
-	"Shanghai (Japan) (HAL Laboratory)": {
+	"Shanghai (Japan) (Activision)": {
 		"languages": "Ja"
 	},
-	"Shanghai (Japan) (Activision)": {
+	"Shanghai (Japan) (HAL Laboratory)": {
 		"languages": "Ja"
 	},
 	"Shanghai (USA)": {
@@ -4031,10 +4262,10 @@
 	"Shin Keiba Kizoku Pocket Jockey (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
-	"Shin Nihon Pro Wrestling - Toukon Sanjuushi (Japan)": {
+	"Shin Nihon Pro Wrestling - Toukon Sanjuushi (Japan) (Sample)": {
 		"languages": "Ja"
 	},
-	"Shin Nihon Pro Wrestling - Toukon Sanjuushi (Japan) (Sample)": {
+	"Shin Nihon Pro Wrestling - Toukon Sanjuushi (Japan)": {
 		"languages": "Ja"
 	},
 	"Shin SD Gundam Gaiden - Knight Gundam Monogatari (Japan) (SGB Enhanced)": {
@@ -4046,7 +4277,7 @@
 	"Shinri Game, The (Japan)": {
 		"languages": "Ja"
 	},
-	"Shinseiki GPX Cyber Formula (Japan)": {
+	"Shinseiki GPX - Cyber Formula (Japan)": {
 		"languages": "Ja"
 	},
 	"Shippo de Bun (Japan)": {
@@ -4061,10 +4292,10 @@
 	"Shougi (Japan)": {
 		"languages": "Ja"
 	},
-	"Shougi Saikyou (Japan) (SGB Enhanced)": {
+	"Shougi Saikyou (Japan) (Rev 1) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
-	"Shougi Saikyou (Japan) (Rev 1) (SGB Enhanced)": {
+	"Shougi Saikyou (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
 	"Shounen Ashibe - Yuuenchi Panic (Japan)": {
@@ -4076,9 +4307,6 @@
 	"Side Pocket (World)": {
 		"languages": "En"
 	},
-	"Simpsons Itchy & Scratchy, The - Miniature Golf Madness (USA, Europe)": {
-		"languages": "En"
-	},
 	"Simpsons, The - Bart & the Beanstalk (USA, Europe)": {
 		"languages": "En"
 	},
@@ -4086,6 +4314,12 @@
 		"languages": "Ja"
 	},
 	"Simpsons, The - Bart vs. the Juggernauts (USA, Europe)": {
+		"languages": "En"
+	},
+	"Simpsons, The - Itchy & Scratchy - Miniature Golf Madness (USA, Europe) (Beta)": {
+		"languages": "En"
+	},
+	"Simpsons, The - Itchy & Scratchy - Miniature Golf Madness (USA, Europe)": {
 		"languages": "En"
 	},
 	"Skate or Die - Bad 'N Rad (Europe)": {
@@ -4169,19 +4403,25 @@
 	"Solomon's Club (USA)": {
 		"languages": "En"
 	},
+	"Sonic 6 (Unknown) (En) (Unl) (Pirate)": {
+		"languages": "En"
+	},
 	"Soreyuke! Speedy Gonzales (Japan)": {
 		"languages": "Ja"
 	},
 	"Soreyuke!! Kid (Japan)": {
 		"languages": "Ja"
 	},
-	"Soukoban (Japan)": {
-		"languages": "Ja"
-	},
 	"Soukoban 2 (Japan)": {
 		"languages": "Ja"
 	},
+	"Soukoban (Japan)": {
+		"languages": "Ja"
+	},
 	"Space Date (Europe) (Proto)": {
+		"languages": "En"
+	},
+	"Space Invaders (Europe) (Beta) (SGB Enhanced)": {
 		"languages": "En"
 	},
 	"Space Invaders (Europe) (SGB Enhanced)": {
@@ -4202,22 +4442,28 @@
 	"Spartan X (Japan)": {
 		"languages": "Ja"
 	},
+	"Speedball 2 - Brutal Deluxe (Japan) (En)": {
+		"languages": "En"
+	},
 	"Speedball 2 - Brutal Deluxe (USA, Europe)": {
 		"languages": "En"
 	},
 	"Speedy Gonzales (USA, Europe)": {
 		"languages": "En"
 	},
-	"Spider-Man - X-Men - Arcade's Revenge (USA, Europe)": {
+	"Spider-Man 2 (USA, Europe)": {
 		"languages": "En"
 	},
-	"Spider-Man 2 (USA, Europe)": {
+	"Spider-Man 3 - Invasion of the Spider-Slayers (USA, Europe) (Beta 1)": {
+		"languages": "En"
+	},
+	"Spider-Man 3 - Invasion of the Spider-Slayers (USA, Europe) (Beta 2) (1993-04-11)": {
 		"languages": "En"
 	},
 	"Spider-Man 3 - Invasion of the Spider-Slayers (USA, Europe)": {
 		"languages": "En"
 	},
-	"Spider-Man 3 - Invasion of the Spider-Slayers (USA, Europe) (Beta)": {
+	"Spider-Man - X-Men - Arcade's Revenge (USA, Europe)": {
 		"languages": "En"
 	},
 	"Spirit of F-1, The (Europe)": {
@@ -4226,16 +4472,16 @@
 	"Spiritual Warfare (USA) (Unl)": {
 		"languages": "En"
 	},
-	"Spirou (Europe) (En,Fr,De,Es) (SGB Enhanced)": {
-		"languages": "En,Fr,De,Es"
-	},
 	"Spirou (Europe) (En,Fr,De,Es) (Beta) (SGB Enhanced)": {
 		"languages": "En,Fr,De,Es"
 	},
-	"Splitz (Europe)": {
-		"languages": "En"
+	"Spirou (Europe) (En,Fr,De,Es) (SGB Enhanced)": {
+		"languages": "En,Fr,De,Es"
 	},
 	"Splitz (Europe) (Beta)": {
+		"languages": "En"
+	},
+	"Splitz (Europe)": {
 		"languages": "En"
 	},
 	"Splitz - Nigaoe 15 Game (Japan)": {
@@ -4292,6 +4538,9 @@
 	"Star Trek - The Next Generation (Spain)": {
 		"languages": "Es"
 	},
+	"Star Trek - The Next Generation (USA, Europe) (Beta)": {
+		"languages": "En"
+	},
 	"Star Trek - The Next Generation (USA, Europe)": {
 		"languages": "En"
 	},
@@ -4310,10 +4559,13 @@
 	"Star Wars (USA, Europe) (Rev 1)": {
 		"languages": "En"
 	},
+	"Star Wars - The Empire Strikes Back (USA)": {
+		"languages": "En"
+	},
 	"Star Wars - The Empire Strikes Back (USA, Europe)": {
 		"languages": "En"
 	},
-	"Star Wars - The Empire Strikes Back (USA)": {
+	"Stargate (Japan) (En) (Possible Proto)": {
 		"languages": "En"
 	},
 	"Stargate (USA, Europe)": {
@@ -4331,7 +4583,7 @@
 	"Street Fighter II (USA, Europe) (Rev 1) (SGB Enhanced)": {
 		"languages": "En"
 	},
-	"Street Fighter II (USA) (SGB Enhanced)": {
+	"Street Fighter II (USA, Europe) (SGB Enhanced)": {
 		"languages": "En"
 	},
 	"Street Racer (Japan)": {
@@ -4349,6 +4601,12 @@
 	"Sunsoft Grand Prix (Europe)": {
 		"languages": "En"
 	},
+	"Super Ayanami Discovery SlideShow (Japan) (Unl)": {
+		"languages": "Ja"
+	},
+	"Super Ayanami Discovery SlideShow (Japan) (v1.1) (Unl)": {
+		"languages": "Ja"
+	},
 	"Super B-Daman - Fighting Phoenix (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
@@ -4364,10 +4622,10 @@
 	"Super Black Bass (USA)": {
 		"languages": "En"
 	},
-	"Super Black Bass Pocket (Japan) (SGB Enhanced)": {
+	"Super Black Bass Pocket 2 (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
-	"Super Black Bass Pocket 2 (Japan) (SGB Enhanced)": {
+	"Super Black Bass Pocket (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
 	"Super Bombliss (Japan) (SGB Enhanced)": {
@@ -4382,9 +4640,6 @@
 	"Super Chinese Fighter GB (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
-	"Super Chinese Land (Japan)": {
-		"languages": "Ja"
-	},
 	"Super Chinese Land 1-2-3' (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
@@ -4392,6 +4647,9 @@
 		"languages": "Ja"
 	},
 	"Super Chinese Land 3 (Japan) (SGB Enhanced)": {
+		"languages": "Ja"
+	},
+	"Super Chinese Land (Japan)": {
 		"languages": "Ja"
 	},
 	"Super Donkey Kong GB (Japan) (SGB Enhanced)": {
@@ -4409,17 +4667,14 @@
 	"Super James Pond (Europe)": {
 		"languages": "En"
 	},
+	"Super James Pond (USA) (Proto)": {
+		"languages": "En"
+	},
 	"Super Kick Off (Europe) (En,Fr,De,It,Nl)": {
 		"languages": "En,Fr,De,It,Nl"
 	},
-	"Super Mario Land (World)": {
-		"languages": "En"
-	},
-	"Super Mario Land (World) (Rev 1)": {
-		"languages": "En"
-	},
-	"Super Mario Land 2 - 6 Golden Coins (USA, Europe)": {
-		"languages": "En"
+	"Super Mario 4 (Unknown) (Ja) (Unl) (Pirate)": {
+		"languages": "Ja"
 	},
 	"Super Mario Land 2 - 6 Golden Coins (USA, Europe) (Rev 1)": {
 		"languages": "En"
@@ -4427,14 +4682,26 @@
 	"Super Mario Land 2 - 6 Golden Coins (USA, Europe) (Rev 2)": {
 		"languages": "En"
 	},
-	"Super Mario Land 2 - 6-tsu no Kinka (Japan)": {
+	"Super Mario Land 2 - 6 Golden Coins (USA, Europe)": {
+		"languages": "En"
+	},
+	"Super Mario Land 2 - 6-tsu no Kinka (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
 	"Super Mario Land 2 - 6-tsu no Kinka (Japan) (Rev 2)": {
 		"languages": "Ja"
 	},
-	"Super Mario Land 2 - 6-tsu no Kinka (Japan) (Rev 1)": {
+	"Super Mario Land 2 - 6-tsu no Kinka (Japan)": {
 		"languages": "Ja"
+	},
+	"Super Mario Land 4 (Unknown) (Ja) (Unl) (Pirate)": {
+		"languages": "Ja"
+	},
+	"Super Mario Land (World) (Rev 1)": {
+		"languages": "En"
+	},
+	"Super Mario Land (World)": {
+		"languages": "En"
 	},
 	"Super Momotarou Dentetsu (Japan)": {
 		"languages": "Ja"
@@ -4442,10 +4709,10 @@
 	"Super Momotarou Dentetsu II (Japan)": {
 		"languages": "Ja"
 	},
-	"Super Off Road (USA, Europe)": {
+	"Super Off Road (USA, Europe) (Beta)": {
 		"languages": "En"
 	},
-	"Super Off Road (USA, Europe) (Beta)": {
+	"Super Off Road (USA, Europe)": {
 		"languages": "En"
 	},
 	"Super Pachinko Taisen (Japan) (SGB Enhanced)": {
@@ -4466,16 +4733,19 @@
 	"Super Star Wars - Return of the Jedi (USA, Europe) (SGB Enhanced)": {
 		"languages": "En"
 	},
-	"Super Street Basketball (Japan)": {
+	"Super Street Basketball 2 (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
-	"Super Street Basketball 2 (Japan) (SGB Enhanced)": {
+	"Super Street Basketball (Japan)": {
 		"languages": "Ja"
 	},
 	"Superman (USA, Europe) (SGB Enhanced)": {
 		"languages": "En"
 	},
 	"Sutte Hakkun (Japan) (Proto) (SGB Enhanced)": {
+		"languages": "Ja"
+	},
+	"Suzuki Aguri no F-1 Super Driving (Japan) (Beta)": {
 		"languages": "Ja"
 	},
 	"Suzuki Aguri no F-1 Super Driving (Japan)": {
@@ -4485,6 +4755,9 @@
 		"languages": "En"
 	},
 	"Sword of Hope II, The (USA)": {
+		"languages": "En"
+	},
+	"Sword of Hope, The (Europe) (Proto)": {
 		"languages": "En"
 	},
 	"Sword of Hope, The (Germany)": {
@@ -4535,6 +4808,9 @@
 	"TaleSpin (Europe)": {
 		"languages": "En"
 	},
+	"TaleSpin (Spain) (Proto)": {
+		"languages": "Es"
+	},
 	"TaleSpin (USA)": {
 		"languages": "En"
 	},
@@ -4553,13 +4829,13 @@
 	"Tasmania Story (USA)": {
 		"languages": "En"
 	},
-	"Taz-Mania (Europe)": {
+	"Taz-Mania 2 (USA)": {
 		"languages": "En"
 	},
 	"Taz-Mania (Europe) (Beta)": {
 		"languages": "En"
 	},
-	"Taz-Mania 2 (USA)": {
+	"Taz-Mania (Europe)": {
 		"languages": "En"
 	},
 	"Tecmo Bowl (USA)": {
@@ -4574,16 +4850,13 @@
 	"Teenage Mutant Hero Turtles II - Back from the Sewers (Europe)": {
 		"languages": "En"
 	},
+	"Teenage Mutant Hero Turtles III - Radical Rescue (Europe) (Rev 1)": {
+		"languages": "En"
+	},
 	"Teenage Mutant Hero Turtles III - Radical Rescue (Europe)": {
 		"languages": "En"
 	},
-	"Teenage Mutant Hero Turtles III - Radical Rescue (Europe) (Rev 1) (Possible Proto)": {
-		"languages": "En"
-	},
-	"Teenage Mutant Ninja Turtles (Japan)": {
-		"languages": "Ja"
-	},
-	"Teenage Mutant Ninja Turtles - Fall of the Foot Clan (USA)": {
+	"Teenage Mutant Ninja Turtles 2 (Japan) (En) (Beta) (1991-05-20)": {
 		"languages": "En"
 	},
 	"Teenage Mutant Ninja Turtles 2 (Japan)": {
@@ -4592,7 +4865,19 @@
 	"Teenage Mutant Ninja Turtles 3 - Turtles Kikiippatsu (Japan)": {
 		"languages": "Ja"
 	},
+	"Teenage Mutant Ninja Turtles (Japan)": {
+		"languages": "Ja"
+	},
+	"Teenage Mutant Ninja Turtles - Fall of the Foot Clan (USA)": {
+		"languages": "En"
+	},
+	"Teenage Mutant Ninja Turtles II - Back from the Sewers (USA) (Beta)": {
+		"languages": "En"
+	},
 	"Teenage Mutant Ninja Turtles II - Back from the Sewers (USA)": {
+		"languages": "En"
+	},
+	"Teenage Mutant Ninja Turtles III - Radical Rescue (USA) (Rev 1) (Beta)": {
 		"languages": "En"
 	},
 	"Teenage Mutant Ninja Turtles III - Radical Rescue (USA)": {
@@ -4622,16 +4907,10 @@
 	"Tesserae (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
 	},
+	"Tesserae (USA) (Beta)": {
+		"languages": "En"
+	},
 	"Tesserae (USA)": {
-		"languages": "En"
-	},
-	"Tetris (Japan) (En)": {
-		"languages": "En"
-	},
-	"Tetris (World) (Rev 1)": {
-		"languages": "En"
-	},
-	"Tetris 2 (USA, Europe) (SGB Enhanced)": {
 		"languages": "En"
 	},
 	"Tetris 2 (USA)": {
@@ -4640,10 +4919,19 @@
 	"Tetris 2 (USA, Europe) (Rev 1) (SGB Enhanced)": {
 		"languages": "En"
 	},
-	"Tetris Attack (USA) (SGB Enhanced)": {
+	"Tetris 2 (USA, Europe) (SGB Enhanced)": {
+		"languages": "En"
+	},
+	"Tetris (Japan) (En)": {
+		"languages": "En"
+	},
+	"Tetris (World) (Rev 1)": {
 		"languages": "En"
 	},
 	"Tetris Attack (USA, Europe) (Rev 1) (SGB Enhanced)": {
+		"languages": "En"
+	},
+	"Tetris Attack (USA, Europe) (SGB Enhanced)": {
 		"languages": "En"
 	},
 	"Tetris Blast (USA, Europe) (SGB Enhanced)": {
@@ -4661,26 +4949,14 @@
 	"Tintin - Prisoners of the Sun (Europe) (En,Fr,De)": {
 		"languages": "En,Fr,De"
 	},
-	"Tintin in Tibet (Europe) (En,Fr,De,Nl) (SGB Enhanced)": {
-		"languages": "En,Fr,De,Nl"
+	"Tintin in Tibet (Europe) (En,Es,It,Sv) (Beta) (SGB Enhanced)": {
+		"languages": "En,Es,It,Sv"
 	},
 	"Tintin in Tibet (Europe) (En,Es,It,Sv) (SGB Enhanced)": {
 		"languages": "En,Es,It,Sv"
 	},
-	"Tintin in Tibet (Europe) (En,Es,It,Sv) (Beta) (SGB Enhanced)": {
-		"languages": "En,Es,It,Sv"
-	},
-	"Tiny Toon Adventures (Japan)": {
-		"languages": "Ja"
-	},
-	"Tiny Toon Adventures - Babs' Big Break (USA, Europe)": {
-		"languages": "En"
-	},
-	"Tiny Toon Adventures - Wacky Sports (Europe)": {
-		"languages": "En"
-	},
-	"Tiny Toon Adventures - Wacky Sports (USA)": {
-		"languages": "En"
+	"Tintin in Tibet (Europe) (En,Fr,De,Nl) (SGB Enhanced)": {
+		"languages": "En,Fr,De,Nl"
 	},
 	"Tiny Toon Adventures 2 - Buster Bunny no Kattobi Daibouken (Japan)": {
 		"languages": "Ja"
@@ -4690,6 +4966,24 @@
 	},
 	"Tiny Toon Adventures 3 - Dokidoki Sport Festival (Japan)": {
 		"languages": "Ja"
+	},
+	"Tiny Toon Adventures (Japan) (Beta) (1991-07-16)": {
+		"languages": "Ja"
+	},
+	"Tiny Toon Adventures (Japan)": {
+		"languages": "Ja"
+	},
+	"Tiny Toon Adventures - Babs' Big Break (USA, Europe) (Beta) (1991-09-06)": {
+		"languages": "En"
+	},
+	"Tiny Toon Adventures - Babs' Big Break (USA, Europe)": {
+		"languages": "En"
+	},
+	"Tiny Toon Adventures - Wacky Sports (Europe)": {
+		"languages": "En"
+	},
+	"Tiny Toon Adventures - Wacky Sports (USA)": {
+		"languages": "En"
 	},
 	"Tip Off (Europe)": {
 		"languages": "En"
@@ -4709,7 +5003,13 @@
 	"Tokyo Disneyland - Mickey no Cinderella-jou Mystery Tour (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
+	"Tom & Jerry (USA, Europe) (Beta) [b]": {
+		"languages": "En"
+	},
 	"Tom & Jerry (USA, Europe)": {
+		"languages": "En"
+	},
+	"Tom and Jerry - Frantic Antics! (USA, Europe) (Beta)": {
 		"languages": "En"
 	},
 	"Tom and Jerry - Frantic Antics! (USA, Europe)": {
@@ -4754,13 +5054,16 @@
 	"Toy Story (Europe) (SGB Enhanced)": {
 		"languages": "En"
 	},
-	"Toy Story (USA) (SGB Enhanced)": {
-		"languages": "En"
-	},
 	"Toy Story (USA) (Rev 1) (SGB Enhanced)": {
 		"languages": "En"
 	},
+	"Toy Story (USA) (SGB Enhanced)": {
+		"languages": "En"
+	},
 	"Track & Field (USA, Europe)": {
+		"languages": "En"
+	},
+	"Track Meet (USA, Europe) (Beta)": {
 		"languages": "En"
 	},
 	"Track Meet (USA, Europe)": {
@@ -4805,10 +5108,10 @@
 	"Tsumeshougi - Hyakuban Shoubu (Japan)": {
 		"languages": "Ja"
 	},
-	"Tsumeshougi - Kanki Godan (Japan) (SGB Enhanced)": {
+	"Tsumeshougi - Kanki Godan (Japan) (Beta) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
-	"Tsumeshougi - Kanki Godan (Japan) (Beta) (SGB Enhanced)": {
+	"Tsumeshougi - Kanki Godan (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
 	"Tsumeshougi - Mondai Teikyou Shougi Sekai (Japan)": {
@@ -4841,7 +5144,13 @@
 	"Twin (Japan)": {
 		"languages": "Ja"
 	},
+	"TwinBee da!! (Japan) (Beta)": {
+		"languages": "Ja"
+	},
 	"TwinBee da!! (Japan)": {
+		"languages": "Ja"
+	},
+	"Two Hearts (Japan) (Demo) (Unl)": {
 		"languages": "Ja"
 	},
 	"Uchiiwai - Kyoudaijingi no Puzzle Game (Japan)": {
@@ -4859,11 +5168,14 @@
 	"Ultima - Runes of Virtue II (USA)": {
 		"languages": "En"
 	},
+	"Ultima - Ushinawareta Runes 2 (Japan)": {
+		"languages": "Ja"
+	},
 	"Ultima - Ushinawareta Runes (Japan)": {
 		"languages": "Ja"
 	},
-	"Ultima - Ushinawareta Runes 2 (Japan)": {
-		"languages": "Ja"
+	"Ultra Golf (USA) (Beta) (1991-11-20)": {
+		"languages": "En"
 	},
 	"Ultra Golf (USA)": {
 		"languages": "En"
@@ -4889,10 +5201,10 @@
 	"Universal Soldier (USA, Europe)": {
 		"languages": "En"
 	},
-	"Uno - Small World (Japan)": {
+	"Uno 2 - Small World (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
-	"Uno 2 - Small World (Japan) (SGB Enhanced)": {
+	"Uno - Small World (Japan)": {
 		"languages": "Ja"
 	},
 	"Uoozu (Japan)": {
@@ -4970,11 +5282,11 @@
 	"Who Framed Roger Rabbit (Europe)": {
 		"languages": "En"
 	},
-	"Who Framed Roger Rabbit (USA)": {
-		"languages": "En"
-	},
 	"Who Framed Roger Rabbit (Spain)": {
 		"languages": "Es"
+	},
+	"Who Framed Roger Rabbit (USA)": {
+		"languages": "En"
 	},
 	"Wild Snake (USA) (SGB Enhanced)": {
 		"languages": "En"
@@ -4986,6 +5298,12 @@
 		"languages": "Ja"
 	},
 	"Winter Gold (Europe)": {
+		"languages": "En"
+	},
+	"Winter Olympic Games (USA) (Rev 1) (Beta)": {
+		"languages": "En"
+	},
+	"Winter Olympic Games (USA)": {
 		"languages": "En"
 	},
 	"Wizardry Gaiden I - Joou no Junan (Japan)": {
@@ -5000,17 +5318,35 @@
 	"Wizards & Warriors X - The Fortress of Fear (USA, Europe)": {
 		"languages": "En"
 	},
+	"Wordtris (Europe) (Proto)": {
+		"languages": "En"
+	},
+	"Wordtris (France) (Fr) (Proto)": {
+		"languages": "Fr"
+	},
+	"Wordtris (Germany) (De) (Proto)": {
+		"languages": "De"
+	},
+	"Wordtris (USA) (Beta)": {
+		"languages": "En"
+	},
 	"Wordtris (USA)": {
 		"languages": "En"
 	},
-	"Wordtris (USA) (Beta)": {
+	"WordZap (USA) (Beta)": {
 		"languages": "En"
 	},
 	"WordZap (USA)": {
 		"languages": "En"
 	},
+	"WorkBoy (USA) (Proto)": {
+		"languages": "En"
+	},
 	"World Beach Volley - 1991 GB Cup (Japan)": {
 		"languages": "Ja"
+	},
+	"World Beach Volley - 1992 GB Cup (Europe) (Beta)": {
+		"languages": "En"
 	},
 	"World Beach Volley - 1992 GB Cup (Europe)": {
 		"languages": "En"
@@ -5027,6 +5363,9 @@
 	"World Cup 98 (USA, Europe) (SGB Enhanced)": {
 		"languages": "En"
 	},
+	"World Cup Striker (Europe) (En,Fr,De) (Possible Proto)": {
+		"languages": "En,Fr,De"
+	},
 	"World Cup Striker (Japan)": {
 		"languages": "Ja"
 	},
@@ -5042,10 +5381,16 @@
 	"World Ice Hockey (Japan)": {
 		"languages": "Ja"
 	},
+	"World Ice Hockey (USA) (Proto)": {
+		"languages": "En"
+	},
 	"World Soccer GB (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
 	"Worms (Europe)": {
+		"languages": "En"
+	},
+	"Worms (World) (Aftermarket)": {
 		"languages": "En"
 	},
 	"WWF King of the Ring (Japan)": {
@@ -5057,16 +5402,16 @@
 	"WWF Raw (USA, Europe)": {
 		"languages": "En"
 	},
-	"WWF Superstars (Japan)": {
-		"languages": "Ja"
-	},
-	"WWF Superstars (USA, Europe)": {
-		"languages": "En"
-	},
 	"WWF Superstars 2 (Japan)": {
 		"languages": "Ja"
 	},
 	"WWF Superstars 2 (USA, Europe)": {
+		"languages": "En"
+	},
+	"WWF Superstars (Japan)": {
+		"languages": "Ja"
+	},
+	"WWF Superstars (USA, Europe)": {
 		"languages": "En"
 	},
 	"WWF War Zone (USA, Europe)": {
@@ -5081,14 +5426,14 @@
 	"Xenon 2 - Megablast (Japan)": {
 		"languages": "Ja"
 	},
-	"Yakuman (Japan)": {
-		"languages": "Ja"
-	},
 	"Yakuman (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
-	"Yannick Noah Tennis (France)": {
-		"languages": "Fr"
+	"Yakuman (Japan)": {
+		"languages": "Ja"
+	},
+	"Yannick Noah Tennis (France) (En)": {
+		"languages": "En"
 	},
 	"Yogi Bear's Gold Rush (Europe)": {
 		"languages": "En"
@@ -5132,13 +5477,13 @@
 	"Yu-Gi-Oh! Duel Monsters (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
-	"ZAS (USA) (Proto)": {
+	"ZAS (Europe) (Proto)": {
 		"languages": "En"
 	},
-	"Zelda no Densetsu - Yume o Miru Shima (Japan)": {
+	"Zelda no Densetsu - Yume o Miru Shima (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
-	"Zelda no Densetsu - Yume o Miru Shima (Japan) (Rev 1)": {
+	"Zelda no Densetsu - Yume o Miru Shima (Japan)": {
 		"languages": "Ja"
 	},
 	"Zen - Intergalactic Ninja (Europe)": {
@@ -5150,10 +5495,10 @@
 	"Zen-Nihon Pro Wrestling Jet (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
-	"Zerd no Densetsu (Japan)": {
+	"Zerd no Densetsu 2 - Xerd!! Gishin no Ryouiki (Japan)": {
 		"languages": "Ja"
 	},
-	"Zerd no Densetsu 2 - Xerd!! Gishin no Ryouiki (Japan)": {
+	"Zerd no Densetsu (Japan)": {
 		"languages": "Ja"
 	},
 	"Zettai Muteki Raijin-Oh (Japan)": {
@@ -5173,6 +5518,9 @@
 	},
 	"Zoop (Japan)": {
 		"languages": "Ja"
+	},
+	"Zoop (Unknown) (Beta)": {
+		"languages": "En"
 	},
 	"Zoop (USA, Europe)": {
 		"languages": "En"

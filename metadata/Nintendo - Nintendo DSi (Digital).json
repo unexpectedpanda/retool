@@ -1,71 +1,8 @@
 {
-	"10-Byou Sou (Japan)": {
-		"languages": "Ja"
-	},
-	"1001 Blockbusters (Europe)": {
-		"languages": "En"
-	},
-	"1001 BlockBusters (USA)": {
-		"languages": "En"
-	},
-	"1001 Crystal Mazes Collection (Europe)": {
-		"languages": "En"
-	},
-	"1001 Crystal Mazes Collection (USA)": {
-		"languages": "En"
-	},
-	"101 Dolphin Pets (USA)": {
-		"languages": "En"
-	},
-	"101 MiniGolf World (USA)": {
-		"languages": "En"
-	},
-	"101 Pinball World (Europe)": {
-		"languages": "En"
-	},
-	"101 Pinball World (USA)": {
-		"languages": "En"
-	},
-	"101 Shark Pets (USA)": {
-		"languages": "En"
-	},
-	"101 Shark Pets (Europe)": {
-		"languages": "En"
-	},
-	"16 Shot! Shooting Watch (USA)": {
-		"languages": "En"
-	},
-	"16 Shot! Shooting Watch (Europe, Australia)": {
-		"languages": "En"
-	},
-	"18th Gate (Europe, Australia)": {
-		"languages": "En"
-	},
-	"18th Gate (USA)": {
-		"languages": "En"
-	},
-	"1950s Lawn Mower Kids (Europe, Australia)": {
-		"languages": "En"
-	},
-	"1950s Lawn Mower Kids (USA)": {
-		"languages": "En"
-	},
 	"1st Class Poker & BlackJack (USA)": {
 		"languages": "En"
 	},
 	"2-in-1 Solitaire (Europe, Australia)": {
-		"languages": "En"
-	},
-	"21 - Blackjack (USA)": {
-		"languages": "En"
-	},
-	"21 - Blackjack (Europe)": {
-		"languages": "En"
-	},
-	"24-7 Solitaire (Europe)": {
-		"languages": "En"
-	},
-	"24-7 Solitaire (USA)": {
 		"languages": "En"
 	},
 	"2Puzzle It - Fantasy (Europe) (En,Fr,De,Es,It)": {
@@ -77,14 +14,11 @@
 	"3 Heroes - Crystal Soul (USA)": {
 		"languages": "En"
 	},
-	"3,2,1...WordsUp! (USA)": {
-		"languages": "En"
-	},
 	"3,2,1...WordsUp! (Europe)": {
 		"languages": "En"
 	},
-	"3450 Algo (Japan)": {
-		"languages": "Ja"
+	"3,2,1...WordsUp! (USA)": {
+		"languages": "En"
 	},
 	"3D Mahjong (USA)": {
 		"languages": "En"
@@ -92,10 +26,10 @@
 	"3D Space Tank (Europe, Australia)": {
 		"languages": "En"
 	},
-	"3D Twist & Match (USA)": {
+	"3D Twist & Match (Europe)": {
 		"languages": "En"
 	},
-	"3D Twist & Match (Europe)": {
+	"3D Twist & Match (USA)": {
 		"languages": "En"
 	},
 	"4 Elements (USA)": {
@@ -113,31 +47,52 @@
 	"5 in 1 Mahjong (USA)": {
 		"languages": "En"
 	},
-	"5 in 1 Solitaire (USA)": {
-		"languages": "En"
-	},
 	"5 in 1 Solitaire (Europe)": {
 		"languages": "En"
 	},
-	"505 Tangram (USA)": {
-		"languages": "En"
-	},
-	"505 Tangram (Europe)": {
+	"5 in 1 Solitaire (USA)": {
 		"languages": "En"
 	},
 	"7 Card Games (USA)": {
 		"languages": "En"
 	},
-	"90's Pool (USA)": {
+	"10-Byou Sou (Japan)": {
+		"languages": "Ja"
+	},
+	"16 Shot! Shooting Watch (Europe, Australia)": {
+		"languages": "En"
+	},
+	"16 Shot! Shooting Watch (USA)": {
+		"languages": "En"
+	},
+	"18th Gate (Europe, Australia)": {
+		"languages": "En"
+	},
+	"18th Gate (USA)": {
+		"languages": "En"
+	},
+	"21 - Blackjack (Europe)": {
+		"languages": "En"
+	},
+	"21 - Blackjack (USA)": {
+		"languages": "En"
+	},
+	"24-7 Solitaire (Europe)": {
+		"languages": "En"
+	},
+	"24-7 Solitaire (USA)": {
 		"languages": "En"
 	},
 	"90's Pool (Europe)": {
 		"languages": "En"
 	},
-	"99Bullets (USA)": {
+	"90's Pool (USA)": {
 		"languages": "En"
 	},
 	"99Bullets (Europe)": {
+		"languages": "En"
+	},
+	"99Bullets (USA)": {
 		"languages": "En"
 	},
 	"99Moves (Europe)": {
@@ -146,19 +101,64 @@
 	"99Moves (USA)": {
 		"languages": "En"
 	},
+	"99Seconds (Europe)": {
+		"languages": "En"
+	},
 	"99Seconds (USA)": {
 		"languages": "En"
 	},
-	"99Seconds (Europe)": {
+	"101 Dolphin Pets (USA)": {
 		"languages": "En"
+	},
+	"101 MiniGolf World (USA)": {
+		"languages": "En"
+	},
+	"101 Pinball World (Europe)": {
+		"languages": "En"
+	},
+	"101 Pinball World (USA)": {
+		"languages": "En"
+	},
+	"101 Shark Pets (Europe)": {
+		"languages": "En"
+	},
+	"101 Shark Pets (USA)": {
+		"languages": "En"
+	},
+	"505 Tangram (Europe)": {
+		"languages": "En"
+	},
+	"505 Tangram (USA)": {
+		"languages": "En"
+	},
+	"1001 Blockbusters (Europe)": {
+		"languages": "En"
+	},
+	"1001 BlockBusters (USA)": {
+		"languages": "En"
+	},
+	"1001 Crystal Mazes Collection (Europe)": {
+		"languages": "En"
+	},
+	"1001 Crystal Mazes Collection (USA)": {
+		"languages": "En"
+	},
+	"1950s Lawn Mower Kids (Europe, Australia)": {
+		"languages": "En"
+	},
+	"1950s Lawn Mower Kids (USA)": {
+		"languages": "En"
+	},
+	"3450 Algo (Japan)": {
+		"languages": "Ja"
 	},
 	"Aa Mujou Setsuna (Japan)": {
 		"languages": "Ja"
 	},
-	"Aahh! Spot the difference (USA)": {
+	"Aahh! Spot the difference (Europe)": {
 		"languages": "En"
 	},
-	"Aahh! Spot the difference (Europe)": {
+	"Aahh! Spot the difference (USA)": {
 		"languages": "En"
 	},
 	"Absolute Baseball (USA)": {
@@ -173,10 +173,10 @@
 	"Absolute Reversi (USA)": {
 		"languages": "En"
 	},
-	"Abyss (USA)": {
+	"Abyss (Europe)": {
 		"languages": "En"
 	},
-	"Abyss (Europe)": {
+	"Abyss (USA)": {
 		"languages": "En"
 	},
 	"Academy - Checkers (Europe)": {
@@ -185,10 +185,10 @@
 	"Academy - Checkers (USA)": {
 		"languages": "En"
 	},
-	"Academy - Chess Puzzles (USA)": {
+	"Academy - Chess Puzzles (Europe)": {
 		"languages": "En"
 	},
-	"Academy - Chess Puzzles (Europe)": {
+	"Academy - Chess Puzzles (USA)": {
 		"languages": "En"
 	},
 	"Academy - Tic-Tac-Toe (USA)": {
@@ -200,58 +200,58 @@
 	"Accel Knights - Na ga Tame Ware wa Ken o Toru (Japan)": {
 		"languages": "Ja"
 	},
-	"Ace Mathician (USA)": {
-		"languages": "En"
-	},
 	"Ace Mathician (Europe, Australia)": {
 		"languages": "En"
 	},
-	"Advanced Circuits (USA)": {
+	"Ace Mathician (USA)": {
 		"languages": "En"
 	},
 	"Advanced Circuits (Europe, Australia)": {
 		"languages": "En"
 	},
-	"Adventure in Vegas - Slot Machine (USA)": {
+	"Advanced Circuits (USA)": {
 		"languages": "En"
 	},
 	"Adventure in Vegas - Slot Machine (Europe, Australia)": {
 		"languages": "En"
 	},
-	"Afterzoom (USA)": {
+	"Adventure in Vegas - Slot Machine (USA)": {
 		"languages": "En"
 	},
 	"Afterzoom (Europe)": {
 		"languages": "En"
 	},
-	"Ah! Heaven (USA)": {
+	"Afterzoom (USA)": {
 		"languages": "En"
 	},
 	"Ah! Heaven (Europe)": {
 		"languages": "En"
 	},
-	"AiRace (USA)": {
+	"Ah! Heaven (USA)": {
 		"languages": "En"
 	},
 	"AiRace (Europe, Australia)": {
 		"languages": "En"
 	},
-	"AiRace - Tunnel (USA)": {
+	"AiRace (USA)": {
 		"languages": "En"
 	},
 	"AiRace - Tunnel (Europe, Australia)": {
 		"languages": "En"
 	},
-	"Airport Mania - First Flight (USA)": {
+	"AiRace - Tunnel (USA)": {
 		"languages": "En"
 	},
 	"Airport Mania - First Flight (Europe, Australia)": {
 		"languages": "En"
 	},
-	"Airport Mania - Non-Stop Flights (USA)": {
+	"Airport Mania - First Flight (USA)": {
 		"languages": "En"
 	},
 	"Airport Mania - Non-Stop Flights (Europe, Australia)": {
+		"languages": "En"
+	},
+	"Airport Mania - Non-Stop Flights (USA)": {
 		"languages": "En"
 	},
 	"Al to Harapeko Monster (Japan)": {
@@ -269,10 +269,10 @@
 	"AlphaBounce (USA)": {
 		"languages": "En"
 	},
-	"Alt-Play - Jason Rohrer Anthology (USA)": {
+	"Alt-Play - Jason Rohrer Anthology (Europe)": {
 		"languages": "En"
 	},
-	"Alt-Play - Jason Rohrer Anthology (Europe)": {
+	"Alt-Play - Jason Rohrer Anthology (USA)": {
 		"languages": "En"
 	},
 	"Amakuchi! Dairoujou (Japan)": {
@@ -299,23 +299,23 @@
 	"Ancient Tribe (USA)": {
 		"languages": "En"
 	},
-	"Animal Crossing Calculator (USA)": {
-		"languages": "En"
+	"Animal Crossing Calculator (China) (iQue)": {
+		"languages": "Zh"
 	},
 	"Animal Crossing Calculator (Europe, Australia) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
 	},
-	"Animal Crossing Calculator (China) (iQue)": {
-		"languages": "Zh"
-	},
-	"Animal Crossing Clock (USA)": {
+	"Animal Crossing Calculator (USA)": {
 		"languages": "En"
+	},
+	"Animal Crossing Clock (China) (iQue)": {
+		"languages": "Zh"
 	},
 	"Animal Crossing Clock (Europe, Australia) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
 	},
-	"Animal Crossing Clock (China) (iQue)": {
-		"languages": "Zh"
+	"Animal Crossing Clock (USA)": {
+		"languages": "En"
 	},
 	"Animal Puzzle Adventure (USA)": {
 		"languages": "En"
@@ -324,6 +324,24 @@
 		"languages": "En"
 	},
 	"Anne's Doll Studio - Tokyo Collection (USA)": {
+		"languages": "En"
+	},
+	"Anonymous Notes 1 - From the Abyss (Europe)": {
+		"languages": "En"
+	},
+	"Anonymous Notes 1 - From the Abyss (USA)": {
+		"languages": "En"
+	},
+	"Anonymous Notes 2 - From the Abyss (Europe)": {
+		"languages": "En"
+	},
+	"Anonymous Notes 2 - From the Abyss (USA)": {
+		"languages": "En"
+	},
+	"Anonymous Notes 3 - From the Abyss (USA)": {
+		"languages": "En"
+	},
+	"Anonymous Notes 4 - From the Abyss (USA)": {
 		"languages": "En"
 	},
 	"Anonymous Notes - Dai-i-shou - From the Abyss (Japan) (Rev 1)": {
@@ -335,28 +353,10 @@
 	"Anonymous Notes - Dai-san-shou - From the Abyss (Japan)": {
 		"languages": "Ja"
 	},
-	"Anonymous Notes 1 - From the Abyss (USA)": {
-		"languages": "En"
-	},
-	"Anonymous Notes 1 - From the Abyss (Europe)": {
-		"languages": "En"
-	},
-	"Anonymous Notes 2 - From the Abyss (USA)": {
-		"languages": "En"
-	},
-	"Anonymous Notes 2 - From the Abyss (Europe)": {
-		"languages": "En"
-	},
-	"Anonymous Notes 3 - From the Abyss (USA)": {
-		"languages": "En"
-	},
-	"Anonymous Notes 4 - From the Abyss (USA)": {
+	"Antipole (Europe)": {
 		"languages": "En"
 	},
 	"Antipole (USA)": {
-		"languages": "En"
-	},
-	"Antipole (Europe)": {
 		"languages": "En"
 	},
 	"Aquarium of Luck, The (Europe)": {
@@ -383,10 +383,10 @@
 	"Armageddon Operation Dragon (Europe)": {
 		"languages": "En"
 	},
-	"Army Defender (USA)": {
+	"Army Defender (Europe)": {
 		"languages": "En"
 	},
-	"Army Defender (Europe)": {
+	"Army Defender (USA)": {
 		"languages": "En"
 	},
 	"Around the World in 80 Days (Europe, Australia) (En,Fr,De)": {
@@ -395,16 +395,16 @@
 	"Arrow of Laputa (Japan)": {
 		"languages": "Ja"
 	},
-	"Art Academy - First Semester (USA)": {
-		"languages": "En"
-	},
 	"Art Academy - First Semester (Europe, Australia)": {
 		"languages": "En"
 	},
-	"Art Academy - Second Semester (USA)": {
+	"Art Academy - First Semester (USA)": {
 		"languages": "En"
 	},
 	"Art Academy - Second Semester (Europe, Australia)": {
+		"languages": "En"
+	},
+	"Art Academy - Second Semester (USA)": {
 		"languages": "En"
 	},
 	"Art of Ink (Europe)": {
@@ -422,10 +422,10 @@
 	"Art Style - BASE 10 (USA)": {
 		"languages": "En"
 	},
-	"Art Style - BOXLIFE (USA)": {
+	"Art Style - BOXLIFE (Europe, Australia)": {
 		"languages": "En"
 	},
-	"Art Style - BOXLIFE (Europe, Australia)": {
+	"Art Style - BOXLIFE (USA)": {
 		"languages": "En"
 	},
 	"Art Style - CODE (Europe, Australia)": {
@@ -455,10 +455,10 @@
 	"Art Style - ZENGAGE (USA)": {
 		"languages": "En"
 	},
-	"Art Style Series - DECODE (Japan)": {
+	"Art Style Series - DECODE (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
-	"Art Style Series - DECODE (Japan) (Rev 1)": {
+	"Art Style Series - DECODE (Japan)": {
 		"languages": "Ja"
 	},
 	"Art Style Series - DIGIDRIVE (Japan)": {
@@ -473,10 +473,10 @@
 	"Artillery - Knights vs. Orcs (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
 	},
-	"Asphalt 4 - Elite Racing (USA)": {
+	"Asphalt 4 - Elite Racing (Europe, Australia)": {
 		"languages": "En"
 	},
-	"Asphalt 4 - Elite Racing (Europe, Australia)": {
+	"Asphalt 4 - Elite Racing (USA)": {
 		"languages": "En"
 	},
 	"Astro (USA)": {
@@ -512,11 +512,11 @@
 	"ATV Quad Kings (USA)": {
 		"languages": "En"
 	},
-	"Aura-Aura Climber (USA)": {
-		"languages": "En"
-	},
 	"Aura-Aura Climber (Europe, Australia) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
+	},
+	"Aura-Aura Climber (USA)": {
+		"languages": "En"
 	},
 	"Battle of Giants - Dinosaurs - Fight for Survival (USA) (En,Fr,Es)": {
 		"languages": "En,Fr,Es"
@@ -527,10 +527,10 @@
 	"Battle of the Elements (Europe)": {
 		"languages": "En"
 	},
-	"Bejeweled Twist (USA)": {
+	"Bejeweled Twist (Europe, Australia)": {
 		"languages": "En"
 	},
-	"Bejeweled Twist (Europe, Australia)": {
+	"Bejeweled Twist (USA)": {
 		"languages": "En"
 	},
 	"Big Bass Arcade (USA)": {
@@ -539,11 +539,11 @@
 	"Biorhythm (USA)": {
 		"languages": "En"
 	},
-	"Bird & Beans (USA) (En,Fr,Es)": {
-		"languages": "En,Fr,Es"
-	},
 	"Bird & Beans (China) (iQue)": {
 		"languages": "Zh"
+	},
+	"Bird & Beans (USA) (En,Fr,Es)": {
+		"languages": "En,Fr,Es"
 	},
 	"Bird & Bombs (Europe, Australia)": {
 		"languages": "En"
@@ -557,40 +557,40 @@
 	"Bloons (USA)": {
 		"languages": "En"
 	},
-	"Bloons TD (USA)": {
-		"languages": "En"
-	},
 	"Bloons TD 4 (Europe)": {
 		"languages": "En"
 	},
 	"Bloons TD 4 (USA)": {
 		"languages": "En"
 	},
-	"Boardwalk Ball Toss (USA)": {
+	"Bloons TD (USA)": {
 		"languages": "En"
 	},
-	"Bomberman Blitz (USA)": {
+	"Boardwalk Ball Toss (USA)": {
 		"languages": "En"
 	},
 	"Bomberman Blitz (Europe, Australia)": {
 		"languages": "En"
 	},
-	"Bookstore Dream (USA)": {
+	"Bomberman Blitz (USA)": {
 		"languages": "En"
 	},
 	"Bookstore Dream (Europe, Australia)": {
 		"languages": "En"
 	},
-	"Bookworm (USA)": {
+	"Bookstore Dream (USA)": {
 		"languages": "En"
 	},
 	"Bookworm (Europe, Australia)": {
 		"languages": "En"
 	},
-	"Boom Boom Squaries (USA)": {
+	"Bookworm (USA)": {
 		"languages": "En"
 	},
 	"Boom Boom Squaries (Europe, Australia)": {
+		"languages": "En"
+	},
+	"Boom Boom Squaries (USA)": {
 		"languages": "En"
 	},
 	"Bounce & Break (Europe)": {
@@ -605,34 +605,37 @@
 	"Brain Age Express - Arts & Letters (USA)": {
 		"languages": "En"
 	},
+	"Brain Age Express - Math (USA) (Rev 1)": {
+		"languages": "En"
+	},
 	"Brain Age Express - Math (USA) (Rev 2)": {
 		"languages": "En"
 	},
 	"Brain Age Express - Math (USA)": {
 		"languages": "En"
 	},
-	"Brain Age Express - Math (USA) (Rev 1)": {
-		"languages": "En"
-	},
 	"Brain Age Express - Sudoku (USA) (Rev 2)": {
-		"languages": "En"
-	},
-	"Brain Challenge (USA)": {
 		"languages": "En"
 	},
 	"Brain Challenge (Europe, Australia) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
 	},
-	"Break Tactics (USA)": {
+	"Brain Challenge (USA)": {
 		"languages": "En"
 	},
 	"Break Tactics (Europe)": {
+		"languages": "En"
+	},
+	"Break Tactics (USA)": {
 		"languages": "En"
 	},
 	"Bugs'N'Balls (Europe)": {
 		"languages": "En"
 	},
 	"Bugs'N'Balls (USA)": {
+		"languages": "En"
+	},
+	"Cake Ninja 2 (Europe)": {
 		"languages": "En"
 	},
 	"Cake Ninja (USA)": {
@@ -644,22 +647,19 @@
 	"Cake Ninja - XMAS (USA)": {
 		"languages": "En"
 	},
-	"Cake Ninja 2 (Europe)": {
+	"Calculator (Europe, Australia)": {
 		"languages": "En"
 	},
 	"Calculator (USA) (Rev 1)": {
 		"languages": "En"
 	},
-	"Calculator (Europe, Australia)": {
-		"languages": "En"
-	},
 	"Camara Glamour (Spain)": {
 		"languages": "Es"
 	},
-	"Candle Route (USA)": {
+	"Candle Route (Europe)": {
 		"languages": "En"
 	},
-	"Candle Route (Europe)": {
+	"Candle Route (USA)": {
 		"languages": "En"
 	},
 	"Car Jack Streets (Europe) (En,Fr,De,Es,It)": {
@@ -683,25 +683,25 @@
 	"Castle Conqueror - Against (USA)": {
 		"languages": "En"
 	},
-	"Castle Conqueror - Heroes (Europe, Australia)": {
+	"Castle Conqueror - Heroes 2 (Europe, Australia)": {
 		"languages": "En"
 	},
-	"Castle Conqueror - Heroes 2 (Europe, Australia)": {
+	"Castle Conqueror - Heroes (Europe, Australia)": {
 		"languages": "En"
 	},
 	"Castle Conqueror - Revolution (Europe, Australia)": {
 		"languages": "En"
 	},
-	"Castle of Magic (USA)": {
-		"languages": "En"
-	},
 	"Castle of Magic (Europe, Australia)": {
 		"languages": "En"
 	},
-	"Cat Frenzy (USA)": {
+	"Castle of Magic (USA)": {
 		"languages": "En"
 	},
 	"Cat Frenzy (Europe)": {
+		"languages": "En"
+	},
+	"Cat Frenzy (USA)": {
 		"languages": "En"
 	},
 	"Cave Story (USA)": {
@@ -737,10 +737,10 @@
 	"Chotto Panel de Pon (Japan)": {
 		"languages": "Ja"
 	},
-	"Christmas Wonderland (Europe)": {
+	"Christmas Wonderland 2 (Europe)": {
 		"languages": "En"
 	},
-	"Christmas Wonderland 2 (Europe)": {
+	"Christmas Wonderland (Europe)": {
 		"languages": "En"
 	},
 	"Chronos Twins - One Hero in Two Times (Europe)": {
@@ -761,10 +761,10 @@
 	"Chuukara! Dairoujou (Japan)": {
 		"languages": "Ja"
 	},
-	"Clash of Elementalists (USA)": {
+	"Clash of Elementalists (Europe)": {
 		"languages": "En"
 	},
-	"Clash of Elementalists (Europe)": {
+	"Clash of Elementalists (USA)": {
 		"languages": "En"
 	},
 	"Clubhouse Games Express - Card Classics (USA, Australia) (Rev 1)": {
@@ -779,28 +779,28 @@
 	"Clubhouse Games Express - Strategy Pack (USA, Australia)": {
 		"languages": "En"
 	},
-	"Color Commando (USA)": {
+	"Color Commando (Europe) (Rev 1)": {
 		"languages": "En"
 	},
 	"Color Commando (Europe)": {
 		"languages": "En"
 	},
-	"Color Commando (Europe) (Rev 1)": {
+	"Color Commando (USA)": {
 		"languages": "En"
 	},
 	"Combat of Giants - Fight for Survival (Europe, Australia)": {
 		"languages": "En"
 	},
-	"Come On! Dragons (USA)": {
-		"languages": "En"
-	},
 	"Come On! Dragons (Europe)": {
 		"languages": "En"
 	},
-	"Come On! Heroes (USA)": {
+	"Come On! Dragons (USA)": {
 		"languages": "En"
 	},
 	"Come On! Heroes (Europe, Australia)": {
+		"languages": "En"
+	},
+	"Come On! Heroes (USA)": {
 		"languages": "En"
 	},
 	"Cosmo Fighters (USA)": {
@@ -839,16 +839,16 @@
 	"Crazy Pinball (USA)": {
 		"languages": "En"
 	},
-	"Crazy Sudoku (USA)": {
-		"languages": "En"
-	},
 	"Crazy Sudoku (Europe, Australia)": {
 		"languages": "En"
 	},
-	"Crazy Train (USA)": {
+	"Crazy Sudoku (USA)": {
 		"languages": "En"
 	},
 	"Crazy Train (USA) (Rev 1)": {
+		"languages": "En"
+	},
+	"Crazy Train (USA)": {
 		"languages": "En"
 	},
 	"Crystal Adventure (Europe)": {
@@ -860,19 +860,19 @@
 	"Crystal Caverns of Amon-Ra (Europe)": {
 		"languages": "En"
 	},
-	"Crystal Monsters (USA)": {
+	"Crystal Monsters (Europe, Australia)": {
 		"languages": "En"
 	},
-	"Crystal Monsters (Europe, Australia)": {
+	"Crystal Monsters (USA)": {
 		"languages": "En"
 	},
 	"Curling Super Championship (Europe)": {
 		"languages": "En"
 	},
-	"Cut the Rope (USA)": {
+	"Cut the Rope (Europe, Australia)": {
 		"languages": "En"
 	},
-	"Cut the Rope (Europe, Australia)": {
+	"Cut the Rope (USA)": {
 		"languages": "En"
 	},
 	"Cute Witch! Runner (Europe)": {
@@ -884,10 +884,10 @@
 	"Dairojo! Samurai Defenders (USA)": {
 		"languages": "En"
 	},
-	"Dark Void Zero (USA)": {
+	"Dark Void Zero (Europe, Australia)": {
 		"languages": "En"
 	},
-	"Dark Void Zero (Europe, Australia)": {
+	"Dark Void Zero (USA)": {
 		"languages": "En"
 	},
 	"Datamine (Europe)": {
@@ -911,10 +911,10 @@
 	"Dekisugi Tincle Pack (Japan)": {
 		"languages": "Ja"
 	},
-	"Delbo (USA)": {
+	"Delbo (Europe, Australia)": {
 		"languages": "En"
 	},
-	"Delbo (Europe, Australia)": {
+	"Delbo (USA)": {
 		"languages": "En"
 	},
 	"Dentaku + TCG-You Tool - Duel Dentaku Custom (Japan)": {
@@ -977,10 +977,10 @@
 	"Doodle Fit (USA)": {
 		"languages": "En"
 	},
-	"DotMan (USA)": {
+	"DotMan (Europe)": {
 		"languages": "En"
 	},
-	"DotMan (Europe)": {
+	"DotMan (USA)": {
 		"languages": "En"
 	},
 	"Doukutsu Monogatari (Japan)": {
@@ -989,14 +989,14 @@
 	"Downtown Texas Hold'em (USA)": {
 		"languages": "En"
 	},
-	"Dr. Mario Express (USA)": {
-		"languages": "En"
+	"Dr. Mario Express (China) (iQue)": {
+		"languages": "Zh"
 	},
 	"Dr. Mario Express (USA) (Rev 1)": {
 		"languages": "En"
 	},
-	"Dr. Mario Express (China) (iQue)": {
-		"languages": "Zh"
+	"Dr. Mario Express (USA)": {
+		"languages": "En"
 	},
 	"Dracula - Undead Awakening (USA)": {
 		"languages": "En"
@@ -1007,14 +1007,14 @@
 	"Dragon Quest Monsters - Battle Road Victory - Senyou Color Code Scanner (Japan)": {
 		"languages": "Ja"
 	},
-	"Dragon Quest Wars (USA)": {
-		"languages": "En"
-	},
 	"Dragon Quest Wars (Europe, Australia)": {
 		"languages": "En"
 	},
 	"Dragon Quest Wars (Japan)": {
 		"languages": "Ja"
+	},
+	"Dragon Quest Wars (USA)": {
+		"languages": "En"
 	},
 	"Dragon's Lair (Europe, Australia)": {
 		"languages": "En"
@@ -1046,43 +1046,40 @@
 	"EJ Puzzles - Hooked (USA)": {
 		"languages": "En"
 	},
-	"Electroplankton - Beatnes (USA)": {
+	"Electroplankton - Beatnes (Europe, Australia)": {
 		"languages": "En"
 	},
-	"Electroplankton - Beatnes (Europe, Australia)": {
+	"Electroplankton - Beatnes (USA)": {
 		"languages": "En"
 	},
 	"Electroplankton - Hanenbon (Japan)": {
 		"languages": "Ja"
 	},
-	"Electroplankton - Hanenbow (USA)": {
-		"languages": "En"
-	},
 	"Electroplankton - Hanenbow (Europe, Australia)": {
 		"languages": "En"
 	},
-	"Electroplankton - Lumiloop (USA)": {
+	"Electroplankton - Hanenbow (USA)": {
 		"languages": "En"
 	},
 	"Electroplankton - Lumiloop (Europe, Australia)": {
 		"languages": "En"
 	},
-	"Electroplankton - Luminarrow (USA)": {
+	"Electroplankton - Lumiloop (USA)": {
 		"languages": "En"
 	},
 	"Electroplankton - Luminarrow (Europe, Australia)": {
 		"languages": "En"
 	},
+	"Electroplankton - Luminarrow (USA)": {
+		"languages": "En"
+	},
 	"Electroplankton - Marine Snow (Japan) (Rev 1)": {
 		"languages": "Ja"
-	},
-	"Electroplankton - Marine-Crystals (USA)": {
-		"languages": "En"
 	},
 	"Electroplankton - Marine-Crystals (Europe, Australia)": {
 		"languages": "En"
 	},
-	"Electroplankton - Nanocarp (USA)": {
+	"Electroplankton - Marine-Crystals (USA)": {
 		"languages": "En"
 	},
 	"Electroplankton - Nanocarp (Europe, Australia)": {
@@ -1091,31 +1088,34 @@
 	"Electroplankton - Nanocarp (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
-	"Electroplankton - Rec-Rec (USA)": {
+	"Electroplankton - Nanocarp (USA)": {
 		"languages": "En"
 	},
 	"Electroplankton - Rec-Rec (Europe, Australia)": {
 		"languages": "En"
 	},
-	"Electroplankton - Sun-Animalcule (USA)": {
+	"Electroplankton - Rec-Rec (USA)": {
 		"languages": "En"
 	},
 	"Electroplankton - Sun-Animalcule (Europe, Australia)": {
 		"languages": "En"
 	},
-	"Electroplankton - Trapy (USA)": {
+	"Electroplankton - Sun-Animalcule (USA)": {
 		"languages": "En"
 	},
 	"Electroplankton - Trapy (Europe, Australia)": {
 		"languages": "En"
 	},
+	"Electroplankton - Trapy (USA)": {
+		"languages": "En"
+	},
 	"Electroplankton - Tsurigane Mushi (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
-	"Electroplankton - Varvoice (USA)": {
+	"Electroplankton - Varvoice (Europe, Australia)": {
 		"languages": "En"
 	},
-	"Electroplankton - Varvoice (Europe, Australia)": {
+	"Electroplankton - Varvoice (USA)": {
 		"languages": "En"
 	},
 	"Elemental Masters (Europe) (En,De)": {
@@ -1124,10 +1124,10 @@
 	"Elemental Masters (USA)": {
 		"languages": "En"
 	},
-	"Escape the Virus - Shoot'em Up! (USA)": {
+	"Escape the Virus - Shoot'em Up! (Europe)": {
 		"languages": "En"
 	},
-	"Escape the Virus - Shoot'em Up! (Europe)": {
+	"Escape the Virus - Shoot'em Up! (USA)": {
 		"languages": "En"
 	},
 	"Escape the Virus - Swarm Survival (Europe)": {
@@ -1154,34 +1154,34 @@
 	"Even Tijd Voor... Brain Training - Woorden en Beelden (Netherlands) (Rev 1)": {
 		"languages": "Nl"
 	},
-	"Extreme Hangman (USA)": {
-		"languages": "En"
-	},
-	"Extreme Hangman (Europe, Australia)": {
+	"Extreme Hangman 2 (Europe, Australia)": {
 		"languages": "En"
 	},
 	"Extreme Hangman 2 (USA)": {
 		"languages": "En"
 	},
-	"Extreme Hangman 2 (Europe, Australia)": {
+	"Extreme Hangman (Europe, Australia)": {
 		"languages": "En"
 	},
-	"Face Pilot - Fly with Your Nintendo DSi Camera! (USA)": {
+	"Extreme Hangman (USA)": {
 		"languages": "En"
 	},
 	"Face Pilot - Fly with Your Nintendo DSi Camera! (Europe, Australia)": {
 		"languages": "En"
 	},
-	"Faceez (USA)": {
+	"Face Pilot - Fly with Your Nintendo DSi Camera! (USA)": {
 		"languages": "En"
 	},
 	"Faceez (Europe, Australia)": {
 		"languages": "En"
 	},
-	"Faceez - Monsters! (Europe)": {
+	"Faceez (USA)": {
 		"languages": "En"
 	},
 	"Faceez - Monsters! (Australia)": {
+		"languages": "En"
+	},
+	"Faceez - Monsters! (Europe)": {
 		"languages": "En"
 	},
 	"Faceez - Monsters! (USA)": {
@@ -1199,10 +1199,10 @@
 	"Fantasy Slots - Adventure Slots and Games (USA)": {
 		"languages": "En"
 	},
-	"Fashion Tycoon (USA)": {
+	"Fashion Tycoon (Europe)": {
 		"languages": "En"
 	},
-	"Fashion Tycoon (Europe)": {
+	"Fashion Tycoon (USA)": {
 		"languages": "En"
 	},
 	"Ferrari GT - Evolution (Europe, Australia) (Rev 1)": {
@@ -1214,10 +1214,10 @@
 	"Ferryman Puzzle (Europe)": {
 		"languages": "En"
 	},
-	"Fieldrunners (USA)": {
+	"Fieldrunners (Europe, Australia)": {
 		"languages": "En"
 	},
-	"Fieldrunners (Europe, Australia)": {
+	"Fieldrunners (USA)": {
 		"languages": "En"
 	},
 	"Fire Panic (Europe, Australia) (En,Fr,De,Es,It)": {
@@ -1232,16 +1232,16 @@
 	"Fizz (USA)": {
 		"languages": "En"
 	},
-	"Flashlight (USA)": {
-		"languages": "En"
-	},
 	"Flashlight (Europe)": {
 		"languages": "En"
 	},
-	"Flight Control (USA)": {
+	"Flashlight (USA)": {
 		"languages": "En"
 	},
 	"Flight Control (Europe, Australia)": {
+		"languages": "En"
+	},
+	"Flight Control (USA)": {
 		"languages": "En"
 	},
 	"Flip the Core (Europe)": {
@@ -1256,13 +1256,13 @@
 	"Flipnote Studio (USA) (En,Fr,Es)": {
 		"languages": "En,Fr,Es"
 	},
+	"Flipper 2 - Flush the Goldfish (USA)": {
+		"languages": "En"
+	},
 	"Flipper (Europe) (En,Fr,De,Es)": {
 		"languages": "En,Fr,De,Es"
 	},
 	"Flipper (USA)": {
-		"languages": "En"
-	},
-	"Flipper 2 - Flush the Goldfish (USA)": {
 		"languages": "En"
 	},
 	"Forgotten Legions (USA)": {
@@ -1307,10 +1307,10 @@
 	"G.G Series - Black x Block (USA)": {
 		"languages": "En"
 	},
-	"G.G Series - Chou Hero Ouga (Japan)": {
+	"G.G Series - Chou Hero Ouga 2 (Japan)": {
 		"languages": "Ja"
 	},
-	"G.G Series - Chou Hero Ouga 2 (Japan)": {
+	"G.G Series - Chou Hero Ouga (Japan)": {
 		"languages": "Ja"
 	},
 	"G.G Series - Conveyor Toy Packing (USA)": {
@@ -1364,10 +1364,10 @@
 	"G.G Series - Score Attacker (Japan)": {
 		"languages": "Ja"
 	},
-	"G.G Series - Score Attacker (USA)": {
+	"G.G Series - Score Attacker (USA) (Rev 1)": {
 		"languages": "En"
 	},
-	"G.G Series - Score Attacker (USA) (Rev 1)": {
+	"G.G Series - Score Attacker (USA)": {
 		"languages": "En"
 	},
 	"G.G Series - Shadow Army (USA)": {
@@ -1394,10 +1394,10 @@
 	"G.G Series - Throw Out (USA)": {
 		"languages": "En"
 	},
-	"G.G Series - Vector (USA)": {
+	"G.G Series - Vector (USA) (Rev 1)": {
 		"languages": "En"
 	},
-	"G.G Series - Vector (USA) (Rev 1)": {
+	"G.G Series - Vector (USA)": {
 		"languages": "En"
 	},
 	"G.G Series - Vertex (Japan)": {
@@ -1406,26 +1406,26 @@
 	"G.G Series - Vertex (USA)": {
 		"languages": "En"
 	},
-	"G.G Series - Wonder Land (USA)": {
-		"languages": "En"
-	},
 	"G.G Series - Wonder Land (Japan)": {
 		"languages": "Ja"
 	},
 	"G.G Series - Wonder Land (Korea)": {
 		"languages": "Ko"
 	},
+	"G.G Series - Wonder Land (USA)": {
+		"languages": "En"
+	},
+	"G.G Series - Z-One 2 (Japan)": {
+		"languages": "Ja"
+	},
+	"G.G Series - Z-One (Japan)": {
+		"languages": "Ja"
+	},
 	"G.G Series - Z-One (Korea)": {
 		"languages": "Ko"
 	},
 	"G.G Series - Z-One (USA)": {
 		"languages": "En"
-	},
-	"G.G Series - Z-One (Japan)": {
-		"languages": "Ja"
-	},
-	"G.G Series - Z-One 2 (Japan)": {
-		"languages": "Ja"
 	},
 	"G.G Series DRIFT CIRCUIT (Korea)": {
 		"languages": "Ko"
@@ -1442,83 +1442,83 @@
 	"Game & Watch - Anquan Mao (China) (iQue)": {
 		"languages": "Zh"
 	},
-	"Game & Watch - Ball (USA, Europe)": {
-		"languages": "En"
+	"Game & Watch - Ball (China) (iQue)": {
+		"languages": "Zh"
 	},
 	"Game & Watch - Ball (Japan)": {
 		"languages": "Ja"
 	},
-	"Game & Watch - Ball (China) (iQue)": {
-		"languages": "Zh"
-	},
-	"Game & Watch - Chef (USA, Europe)": {
+	"Game & Watch - Ball (USA, Europe)": {
 		"languages": "En"
-	},
-	"Game & Watch - Chef (Japan)": {
-		"languages": "Ja"
 	},
 	"Game & Watch - Chef (China) (iQue)": {
 		"languages": "Zh"
 	},
-	"Game & Watch - Donkey Kong Jr. (USA, Europe)": {
-		"languages": "En"
-	},
-	"Game & Watch - Donkey Kong Jr. (Japan)": {
+	"Game & Watch - Chef (Japan)": {
 		"languages": "Ja"
+	},
+	"Game & Watch - Chef (USA, Europe)": {
+		"languages": "En"
 	},
 	"Game & Watch - Donkey Kong Jr. (China) (iQue)": {
 		"languages": "Zh"
 	},
-	"Game & Watch - Flagman (USA, Europe)": {
-		"languages": "En"
-	},
-	"Game & Watch - Flagman (Japan)": {
+	"Game & Watch - Donkey Kong Jr. (Japan)": {
 		"languages": "Ja"
+	},
+	"Game & Watch - Donkey Kong Jr. (USA, Europe)": {
+		"languages": "En"
 	},
 	"Game & Watch - Flagman (China) (iQue)": {
 		"languages": "Zh"
 	},
-	"Game & Watch - Helmet (USA, Europe)": {
+	"Game & Watch - Flagman (Japan)": {
+		"languages": "Ja"
+	},
+	"Game & Watch - Flagman (USA, Europe)": {
 		"languages": "En"
 	},
 	"Game & Watch - Helmet (Japan)": {
 		"languages": "Ja"
 	},
-	"Game & Watch - Judge (USA, Europe)": {
+	"Game & Watch - Helmet (USA, Europe)": {
 		"languages": "En"
-	},
-	"Game & Watch - Judge (Japan)": {
-		"languages": "Ja"
 	},
 	"Game & Watch - Judge (China) (iQue)": {
 		"languages": "Zh"
 	},
-	"Game & Watch - Manhole (USA, Europe)": {
-		"languages": "En"
-	},
-	"Game & Watch - Manhole (Japan)": {
+	"Game & Watch - Judge (Japan)": {
 		"languages": "Ja"
+	},
+	"Game & Watch - Judge (USA, Europe)": {
+		"languages": "En"
 	},
 	"Game & Watch - Manhole (China) (iQue)": {
 		"languages": "Zh"
 	},
-	"Game & Watch - Mario's Cement Factory (USA, Europe)": {
-		"languages": "En"
-	},
-	"Game & Watch - Mario's Cement Factory (Japan)": {
+	"Game & Watch - Manhole (Japan)": {
 		"languages": "Ja"
+	},
+	"Game & Watch - Manhole (USA, Europe)": {
+		"languages": "En"
 	},
 	"Game & Watch - Mario's Cement Factory (China) (iQue)": {
 		"languages": "Zh"
 	},
-	"Game & Watch - Vermin (USA, Europe)": {
+	"Game & Watch - Mario's Cement Factory (Japan)": {
+		"languages": "Ja"
+	},
+	"Game & Watch - Mario's Cement Factory (USA, Europe)": {
 		"languages": "En"
+	},
+	"Game & Watch - Vermin (China) (iQue)": {
+		"languages": "Zh"
 	},
 	"Game & Watch - Vermin (Japan)": {
 		"languages": "Ja"
 	},
-	"Game & Watch - Vermin (China) (iQue)": {
-		"languages": "Zh"
+	"Game & Watch - Vermin (USA, Europe)": {
+		"languages": "En"
 	},
 	"Gangstar 2 - Kings of L.A. (Europe, Australia)": {
 		"languages": "En"
@@ -1544,19 +1544,19 @@
 	"Glory Days - Tactical Defense (USA)": {
 		"languages": "En"
 	},
-	"Glow Artisan (USA)": {
+	"Glow Artisan (Europe, Australia)": {
 		"languages": "En"
 	},
-	"Glow Artisan (Europe, Australia)": {
+	"Glow Artisan (USA)": {
 		"languages": "En"
 	},
 	"Go Fetch! 2 (USA)": {
 		"languages": "En"
 	},
-	"GO Series - 10 Second Run (USA)": {
+	"GO Series - 10 Second Run (Europe)": {
 		"languages": "En"
 	},
-	"GO Series - 10 Second Run (Europe)": {
+	"GO Series - 10 Second Run (USA)": {
 		"languages": "En"
 	},
 	"GO Series - Captain Sub (USA)": {
@@ -1574,19 +1574,19 @@
 	"GO Series - Fatal Blow (Europe)": {
 		"languages": "En"
 	},
-	"GO Series - Fishing Resort (USA)": {
+	"GO Series - Fishing Resort (Europe)": {
 		"languages": "En"
 	},
-	"GO Series - Fishing Resort (Europe)": {
+	"GO Series - Fishing Resort (USA)": {
 		"languages": "En"
 	},
 	"GO Series - Ivy the Kiwi mini (Europe, Australia)": {
 		"languages": "En"
 	},
-	"GO Series - Picdun (USA) (Rev 1)": {
+	"GO Series - Picdun (Europe) (Rev 1)": {
 		"languages": "En"
 	},
-	"GO Series - Picdun (Europe) (Rev 1)": {
+	"GO Series - Picdun (USA) (Rev 1)": {
 		"languages": "En"
 	},
 	"GO Series - Pinball Attack! (Europe)": {
@@ -1595,26 +1595,20 @@
 	"GO Series - Portable Shrine Wars (USA)": {
 		"languages": "En"
 	},
-	"GO Series - Tower of Deus (USA)": {
-		"languages": "En"
-	},
 	"GO Series - Tower of Deus (Europe)": {
 		"languages": "En"
 	},
-	"GO Series - Undead Storm (USA)": {
+	"GO Series - Tower of Deus (USA)": {
 		"languages": "En"
 	},
 	"GO Series - Undead Storm (Europe)": {
 		"languages": "En"
 	},
+	"GO Series - Undead Storm (USA)": {
+		"languages": "En"
+	},
 	"Go! Go! Island Rescue! (Europe, Australia) (En,Fr,De)": {
 		"languages": "En,Fr,De"
-	},
-	"Go! Go! Kokopolo (USA) (Rev 1)": {
-		"languages": "En"
-	},
-	"Go! Go! Kokopolo (USA)": {
-		"languages": "En"
 	},
 	"Go! Go! Kokopolo (Europe) (Rev 1)": {
 		"languages": "En"
@@ -1622,22 +1616,28 @@
 	"Go! Go! Kokopolo (Europe)": {
 		"languages": "En"
 	},
-	"Gold Fever (Europe, Australia)": {
+	"Go! Go! Kokopolo (USA) (Rev 1)": {
 		"languages": "En"
 	},
-	"Goony (USA)": {
+	"Go! Go! Kokopolo (USA)": {
+		"languages": "En"
+	},
+	"Gold Fever (Europe, Australia)": {
 		"languages": "En"
 	},
 	"Goony (Europe)": {
 		"languages": "En"
 	},
+	"Goony (USA)": {
+		"languages": "En"
+	},
 	"Goooooal America (USA)": {
 		"languages": "En"
 	},
-	"Guitar Rock Tour (USA)": {
+	"Guitar Rock Tour (Europe, Australia)": {
 		"languages": "En"
 	},
-	"Guitar Rock Tour (Europe, Australia)": {
+	"Guitar Rock Tour (USA)": {
 		"languages": "En"
 	},
 	"Hakokoro (Japan)": {
@@ -1652,10 +1652,10 @@
 	"Heathcliff - Spot On (USA)": {
 		"languages": "En"
 	},
-	"Hellokids - Vol. 1 - Coloring and Painting! (USA)": {
+	"Hellokids - Vol. 1 - Coloring and Painting! (Europe)": {
 		"languages": "En"
 	},
-	"Hellokids - Vol. 1 - Coloring and Painting! (Europe)": {
+	"Hellokids - Vol. 1 - Coloring and Painting! (USA)": {
 		"languages": "En"
 	},
 	"Hero of Sparta (Europe, Australia) (En,Fr,De,Es,It)": {
@@ -1679,10 +1679,10 @@
 	"Hobonichi no Kenkou Techou (Japan)": {
 		"languages": "Ja"
 	},
-	"Hooked on Bass Fishing (USA)": {
+	"Hooked on Bass Fishing (Europe)": {
 		"languages": "En"
 	},
-	"Hooked on Bass Fishing (Europe)": {
+	"Hooked on Bass Fishing (USA)": {
 		"languages": "En"
 	},
 	"Hospital Havoc (Europe)": {
@@ -1706,10 +1706,10 @@
 	"House M.D. - Episode 5 - Under the Big Top (USA)": {
 		"languages": "En"
 	},
-	"I am in the Movie (USA)": {
+	"I Am in the Movie (Europe)": {
 		"languages": "En"
 	},
-	"I Am in the Movie (Europe)": {
+	"I am in the Movie (USA)": {
 		"languages": "En"
 	},
 	"I Must Run! (Europe)": {
@@ -1724,13 +1724,13 @@
 	"Ichimoudajin! Nekoking (Japan)": {
 		"languages": "Ja"
 	},
+	"Inchworm Animation (Australia)": {
+		"languages": "En"
+	},
 	"Inchworm Animation (Europe)": {
 		"languages": "En"
 	},
 	"Inchworm Animation (USA)": {
-		"languages": "En"
-	},
-	"Inchworm Animation (Australia)": {
 		"languages": "En"
 	},
 	"Invasion of the Alien Blobs! (USA)": {
@@ -1739,10 +1739,10 @@
 	"Ipche Sum-eun Geurim Chatgi - At! Boyeotda (Korea)": {
 		"languages": "Ko"
 	},
-	"iSpot Japan (USA)": {
+	"iSpot Japan (Europe)": {
 		"languages": "En"
 	},
-	"iSpot Japan (Europe)": {
+	"iSpot Japan (USA)": {
 		"languages": "En"
 	},
 	"Itsudemo Bomberman (Japan)": {
@@ -1769,11 +1769,11 @@
 	"Jaseiken Necromancer - Nightmare Reborn (Japan)": {
 		"languages": "Ja"
 	},
-	"Jazzy Billiards (USA)": {
-		"languages": "En"
-	},
 	"Jazzy Billiards (Korea)": {
 		"languages": "Ko"
+	},
+	"Jazzy Billiards (USA)": {
+		"languages": "En"
 	},
 	"JellyCar 2 (USA)": {
 		"languages": "En"
@@ -1784,10 +1784,10 @@
 	"Jewel Quest 4 Heritage (USA)": {
 		"languages": "En"
 	},
-	"Jewel Quest 5 - The Sleepless Star (USA)": {
+	"Jewel Quest 5 - The Sleepless Star (Europe, Australia)": {
 		"languages": "En"
 	},
-	"Jewel Quest 5 - The Sleepless Star (Europe, Australia)": {
+	"Jewel Quest 5 - The Sleepless Star (USA)": {
 		"languages": "En"
 	},
 	"Jibun de Tsukuru Nintendo DS Guide (Japan)": {
@@ -1826,10 +1826,10 @@
 	"Korogashi Puzzle Katamari Damacy (Japan)": {
 		"languages": "Ja"
 	},
-	"Kung Fu Dragon (USA)": {
+	"Kung Fu Dragon (Europe)": {
 		"languages": "En"
 	},
-	"Kung Fu Dragon (Europe)": {
+	"Kung Fu Dragon (USA)": {
 		"languages": "En"
 	},
 	"Kuuki Yomi. DS (Japan)": {
@@ -1841,10 +1841,10 @@
 	"Legend of Zelda, The - Four Swords Anniversary Edition (USA) (En,Fr,Es)": {
 		"languages": "En,Fr,Es"
 	},
-	"Legends of Exidia (USA)": {
+	"Legends of Exidia (Europe, Australia)": {
 		"languages": "En"
 	},
-	"Legends of Exidia (Europe, Australia)": {
+	"Legends of Exidia (USA)": {
 		"languages": "En"
 	},
 	"Let's Create! Pottery (Europe, Australia) (En,Fr,De,Es,It)": {
@@ -1868,10 +1868,10 @@
 	"Libera Wing (USA)": {
 		"languages": "En"
 	},
-	"Link 'n' Launch (USA)": {
+	"Link 'n' Launch (Europe, Australia)": {
 		"languages": "En"
 	},
-	"Link 'n' Launch (Europe, Australia)": {
+	"Link 'n' Launch (USA)": {
 		"languages": "En"
 	},
 	"Liti Yincanghua - Tonghua Xun Zong Ji (China) (iQue)": {
@@ -1889,11 +1889,11 @@
 	"Little Bit of... Magic Made Fun, A - Deep Psyche (Europe)": {
 		"languages": "En"
 	},
-	"Little Bit of... Magic Made Fun, A - Funny Face (Europe) (Fr,De,It) (Rev 1)": {
-		"languages": "Fr,De,It"
-	},
 	"Little Bit of... Magic Made Fun, A - Funny Face (Europe) (En,Es)": {
 		"languages": "En,Es"
+	},
+	"Little Bit of... Magic Made Fun, A - Funny Face (Europe) (Fr,De,It) (Rev 1)": {
+		"languages": "Fr,De,It"
 	},
 	"Little Bit of... Magic Made Fun, A - Matchmaker (Europe)": {
 		"languages": "En"
@@ -1925,10 +1925,10 @@
 	"Littlest Pet Shop (USA)": {
 		"languages": "En"
 	},
-	"Lola's Alphabet Train (USA)": {
+	"Lola's Alphabet Train (Europe)": {
 		"languages": "En"
 	},
-	"Lola's Alphabet Train (Europe)": {
+	"Lola's Alphabet Train (USA)": {
 		"languages": "En"
 	},
 	"Lola's Fruit Shop Sudoku (Europe)": {
@@ -1946,10 +1946,10 @@
 	"Lost Town - The Jungle, The (Europe, Australia)": {
 		"languages": "En"
 	},
-	"Lost Treasures of Alexandria (USA)": {
+	"Lost Treasures of Alexandria (Europe)": {
 		"languages": "En"
 	},
-	"Lost Treasures of Alexandria (Europe)": {
+	"Lost Treasures of Alexandria (USA)": {
 		"languages": "En"
 	},
 	"Maestro! Green Groove (Europe, Australia)": {
@@ -1967,10 +1967,10 @@
 	"Magical fantasista (Japan)": {
 		"languages": "Ja"
 	},
-	"Magical Whip (USA)": {
+	"Magical Whip (Europe)": {
 		"languages": "En"
 	},
-	"Magical Whip (Europe)": {
+	"Magical Whip (USA)": {
 		"languages": "En"
 	},
 	"Magnetic Joe (USA)": {
@@ -1985,31 +1985,31 @@
 	"Mainichi Sodateru Nikki Calendar (Japan)": {
 		"languages": "Ja"
 	},
-	"Mario Calculator (USA) (Rev 1)": {
-		"languages": "En"
+	"Mario Calculator (China) (iQue)": {
+		"languages": "Zh"
 	},
 	"Mario Calculator (Europe, Australia)": {
 		"languages": "En"
 	},
-	"Mario Calculator (China) (iQue)": {
-		"languages": "Zh"
-	},
-	"Mario Clock (USA) (Rev 1)": {
-		"languages": "En"
-	},
-	"Mario Clock (Europe, Australia)": {
+	"Mario Calculator (USA) (Rev 1)": {
 		"languages": "En"
 	},
 	"Mario Clock (China) (iQue)": {
 		"languages": "Zh"
 	},
+	"Mario Clock (Europe, Australia)": {
+		"languages": "En"
+	},
+	"Mario Clock (USA) (Rev 1)": {
+		"languages": "En"
+	},
 	"Mario vs. Donkey Kong - Mini Mini Sai Koushin! (Japan)": {
 		"languages": "Ja"
 	},
-	"Mario vs. Donkey Kong - Minis March Again! (USA) (Rev 1)": {
+	"Mario vs. Donkey Kong - Minis March Again! (Europe, Australia)": {
 		"languages": "En"
 	},
-	"Mario vs. Donkey Kong - Minis March Again! (Europe, Australia)": {
+	"Mario vs. Donkey Kong - Minis March Again! (USA) (Rev 1)": {
 		"languages": "En"
 	},
 	"Mario vs. Donkey Kong - Minis March Again! (USA)": {
@@ -2033,10 +2033,10 @@
 	"Master of Illusion Express - Shuffle Games (USA, Australia)": {
 		"languages": "En"
 	},
-	"Match Up! (USA)": {
+	"Match Up! (Europe)": {
 		"languages": "En"
 	},
-	"Match Up! (Europe)": {
+	"Match Up! (USA)": {
 		"languages": "En"
 	},
 	"Mega Words (Europe)": {
@@ -2045,13 +2045,13 @@
 	"Meikyou Kokugo - Rakubiki Jiten (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
-	"Metal Torrent (USA)": {
-		"languages": "En"
-	},
 	"Metal Torrent (China) (iQue)": {
 		"languages": "Zh"
 	},
 	"Metal Torrent (Europe, Australia)": {
+		"languages": "En"
+	},
+	"Metal Torrent (USA)": {
 		"languages": "En"
 	},
 	"Miami Nights - Life in the Spotlight (USA)": {
@@ -2060,25 +2060,25 @@
 	"Micro no Seimeitai (Japan)": {
 		"languages": "Ja"
 	},
-	"Mighty Flip Champs! (USA)": {
-		"languages": "En"
-	},
 	"Mighty Flip Champs! (Europe, Australia)": {
 		"languages": "En"
 	},
-	"Mighty Milky Way (USA)": {
+	"Mighty Flip Champs! (USA)": {
 		"languages": "En"
 	},
 	"Mighty Milky Way (Europe)": {
 		"languages": "En"
 	},
+	"Mighty Milky Way (USA)": {
+		"languages": "En"
+	},
 	"Missy Mila - Twisted Tales (Europe)": {
 		"languages": "En"
 	},
-	"Mixed Messages (USA)": {
+	"Mixed Messages (Europe, Australia)": {
 		"languages": "En"
 	},
-	"Mixed Messages (Europe, Australia)": {
+	"Mixed Messages (USA)": {
 		"languages": "En"
 	},
 	"Moke Moke (USA)": {
@@ -2096,40 +2096,40 @@
 	"Mr. Brain (Japan)": {
 		"languages": "Ja"
 	},
-	"Mr. Driller - Drill Till You Drop (USA)": {
-		"languages": "En"
-	},
 	"Mr. Driller - Drill till you Drop (Europe, Australia)": {
 		"languages": "En"
 	},
-	"Music on - Acoustic Guitar (USA)": {
+	"Mr. Driller - Drill Till You Drop (USA)": {
 		"languages": "En"
 	},
 	"Music on - Acoustic Guitar (Europe, Australia)": {
 		"languages": "En"
 	},
-	"Music on - Electric Guitar (USA)": {
+	"Music on - Acoustic Guitar (USA)": {
 		"languages": "En"
 	},
 	"Music on - Electric Guitar (Europe, Australia)": {
 		"languages": "En"
 	},
-	"Music on - Electronic Keyboard (USA)": {
+	"Music on - Electric Guitar (USA)": {
 		"languages": "En"
 	},
 	"Music on - Electronic Keyboard (Europe, Australia)": {
 		"languages": "En"
 	},
-	"Music on - Learning Piano (USA)": {
+	"Music on - Electronic Keyboard (USA)": {
 		"languages": "En"
 	},
 	"Music on - Learning Piano (Europe)": {
 		"languages": "En"
 	},
-	"Music on - Learning Piano Vol. 2 (USA)": {
+	"Music on - Learning Piano (USA)": {
 		"languages": "En"
 	},
 	"Music on - Learning Piano Vol. 2 (Europe)": {
+		"languages": "En"
+	},
+	"Music on - Learning Piano Vol. 2 (USA)": {
 		"languages": "En"
 	},
 	"Music on - Playing Piano (Europe)": {
@@ -2138,10 +2138,10 @@
 	"Music on - Playing Piano (USA)": {
 		"languages": "En"
 	},
-	"Music On - Retro Keyboard (USA)": {
+	"Music On - Retro Keyboard (Europe, Australia)": {
 		"languages": "En"
 	},
-	"Music On - Retro Keyboard (Europe, Australia)": {
+	"Music On - Retro Keyboard (USA)": {
 		"languages": "En"
 	},
 	"My Aquarium - Seven Oceans (Europe)": {
@@ -2174,16 +2174,16 @@
 	"My Little Restaurant (Europe, Australia)": {
 		"languages": "En"
 	},
-	"myDiary (USA)": {
-		"languages": "En"
-	},
 	"myDiary (Europe, Australia)": {
 		"languages": "En"
 	},
-	"myNotebook - Blue (USA)": {
+	"myDiary (USA)": {
 		"languages": "En"
 	},
 	"myNotebook - Blue (Europe, Australia)": {
+		"languages": "En"
+	},
+	"myNotebook - Blue (USA)": {
 		"languages": "En"
 	},
 	"myNotebook - Carbon (Europe, Australia)": {
@@ -2192,10 +2192,10 @@
 	"myNotebook - Carbon (USA)": {
 		"languages": "En"
 	},
-	"myNotebook - Green (USA)": {
+	"myNotebook - Green (Europe, Australia)": {
 		"languages": "En"
 	},
-	"myNotebook - Green (Europe, Australia)": {
+	"myNotebook - Green (USA)": {
 		"languages": "En"
 	},
 	"myNotebook - Pearl (USA)": {
@@ -2210,16 +2210,16 @@
 	"myNotebook - Tan (USA)": {
 		"languages": "En"
 	},
-	"myPostcards (USA)": {
-		"languages": "En"
-	},
 	"myPostcards (Europe, Australia)": {
 		"languages": "En"
 	},
-	"MySims Camera (USA)": {
+	"myPostcards (USA)": {
 		"languages": "En"
 	},
 	"MySims Camera (Europe, Australia)": {
+		"languages": "En"
+	},
+	"MySims Camera (USA)": {
 		"languages": "En"
 	},
 	"Mysterious Case of Dr. Jekyll & Mr. Hyde, The (USA)": {
@@ -2255,10 +2255,10 @@
 	"New English Training - Learning with Tempo - Beginners Edition (China) (iQue)": {
 		"languages": "Zh"
 	},
-	"Nintendo 3DS Transfer Tool (USA)": {
+	"Nintendo 3DS Transfer Tool (USA) (Rev 1)": {
 		"languages": "En"
 	},
-	"Nintendo 3DS Transfer Tool (USA) (Rev 1)": {
+	"Nintendo 3DS Transfer Tool (USA)": {
 		"languages": "En"
 	},
 	"Nintendo Countdown Calendar (Europe, Australia)": {
@@ -2267,26 +2267,26 @@
 	"Nintendo Countdown Calendar (USA)": {
 		"languages": "En"
 	},
+	"Nintendo DSi + Internet (Australia) (Pre-install)": {
+		"languages": "En"
+	},
+	"Nintendo DSi + Internet (Europe) (En,Fr,De,Es,It) (Rev 1) (Pre-install)": {
+		"languages": "En,Fr,De,Es,It"
+	},
+	"Nintendo DSi + Internet (Japan) (Rev 1) (Pre-install)": {
+		"languages": "Ja"
+	},
+	"Nintendo DSi + Internet (Japan) (Rev 2) (Pre-install)": {
+		"languages": "Ja"
+	},
+	"Nintendo DSi + Internet (USA) (Pre-install)": {
+		"languages": "En"
+	},
 	"Nintendo DSi - Instrument Tuner (USA)": {
 		"languages": "En"
 	},
-	"Nintendo DSi + Internet (Australia) (Pre-install Only)": {
+	"Nintendo DSi Browser (Australia) (Rev 2)": {
 		"languages": "En"
-	},
-	"Nintendo DSi + Internet (Europe) (En,Fr,De,Es,It) (Rev 1) (Pre-install Only)": {
-		"languages": "En,Fr,De,Es,It"
-	},
-	"Nintendo DSi + Internet (Japan) (Rev 1) (Pre-install Only)": {
-		"languages": "Ja"
-	},
-	"Nintendo DSi + Internet (USA) (Pre-install Only)": {
-		"languages": "En"
-	},
-	"Nintendo DSi + Internet (Japan) (Rev 2) (Pre-install Only)": {
-		"languages": "Ja"
-	},
-	"Nintendo DSi Browser (Japan) (Rev 1)": {
-		"languages": "Ja"
 	},
 	"Nintendo DSi Browser (Australia) (Rev 3)": {
 		"languages": "En"
@@ -2294,23 +2294,23 @@
 	"Nintendo DSi Browser (Europe) (En,Fr,De,Es,It) (Rev 3)": {
 		"languages": "En,Fr,De,Es,It"
 	},
+	"Nintendo DSi Browser (Europe) (Rev 2)": {
+		"languages": "En"
+	},
+	"Nintendo DSi Browser (Japan) (Rev 1)": {
+		"languages": "Ja"
+	},
 	"Nintendo DSi Browser (Japan) (Rev 3)": {
 		"languages": "Ja"
 	},
-	"Nintendo DSi Browser (USA) (Rev 3)": {
-		"languages": "En"
+	"Nintendo DSi Browser (Japan)": {
+		"languages": "Ja"
 	},
 	"Nintendo DSi Browser (USA) (Rev 2)": {
 		"languages": "En"
 	},
-	"Nintendo DSi Browser (Europe) (Rev 2)": {
+	"Nintendo DSi Browser (USA) (Rev 3)": {
 		"languages": "En"
-	},
-	"Nintendo DSi Browser (Australia) (Rev 2)": {
-		"languages": "En"
-	},
-	"Nintendo DSi Browser (Japan)": {
-		"languages": "Ja"
 	},
 	"Nintendo DSi Camera (USA) (Rev 4)": {
 		"languages": "En"
@@ -2321,11 +2321,11 @@
 	"Nintendo DSi Gakki Tuner (Japan)": {
 		"languages": "Ja"
 	},
-	"Nintendo DSi Metronome (USA)": {
-		"languages": "En"
-	},
 	"Nintendo DSi Metronome (Japan)": {
 		"languages": "Ja"
+	},
+	"Nintendo DSi Metronome (USA)": {
+		"languages": "En"
 	},
 	"Nintendo DSi Shop (USA) (Rev 12)": {
 		"languages": "En"
@@ -2369,10 +2369,10 @@
 	"Oscar in Movieland (Europe, Australia)": {
 		"languages": "En"
 	},
-	"Oscar in Toyland (USA)": {
+	"Oscar in Toyland 2 (Europe)": {
 		"languages": "En"
 	},
-	"Oscar in Toyland 2 (Europe)": {
+	"Oscar in Toyland (USA)": {
 		"languages": "En"
 	},
 	"Oscar's World Tour (Europe)": {
@@ -2384,16 +2384,16 @@
 	"Paper Airplane Chase (USA)": {
 		"languages": "En"
 	},
-	"Paper Plane (Europe, Australia)": {
-		"languages": "En"
-	},
 	"Paper Plane (China) (iQue)": {
 		"languages": "Zh"
 	},
-	"Paul's Shooting Adventure (USA)": {
+	"Paper Plane (Europe, Australia)": {
 		"languages": "En"
 	},
 	"Paul's Shooting Adventure 2 (USA)": {
+		"languages": "En"
+	},
+	"Paul's Shooting Adventure (USA)": {
 		"languages": "En"
 	},
 	"peakvox - Mew Mew Chamber (Japan)": {
@@ -2405,10 +2405,10 @@
 	"Penguin Patrol (USA)": {
 		"languages": "En"
 	},
-	"Petit Computer (USA)": {
+	"Petit Computer (Europe)": {
 		"languages": "En"
 	},
-	"Petit Computer (Europe)": {
+	"Petit Computer (USA)": {
 		"languages": "En"
 	},
 	"Petz - Dog Superstar (Europe, Australia)": {
@@ -2420,6 +2420,9 @@
 	"PHANTASY STAR 0 Mini (Japan)": {
 		"languages": "Ja"
 	},
+	"Photo Clock (China) (iQue)": {
+		"languages": "Zh"
+	},
 	"Photo Clock (Europe, Australia) (Rev 1)": {
 		"languages": "En"
 	},
@@ -2429,14 +2432,14 @@
 	"Photo Clock (USA)": {
 		"languages": "En"
 	},
-	"Photo Clock (China) (iQue)": {
-		"languages": "Zh"
-	},
-	"Photo Dojo (USA)": {
-		"languages": "En"
-	},
 	"Photo Dojo (Europe, Australia)": {
 		"languages": "En"
+	},
+	"Photo Dojo (France)": {
+		"languages": "Fr"
+	},
+	"Photo Dojo (Germany)": {
+		"languages": "De"
 	},
 	"Photo Dojo (Italy)": {
 		"languages": "It"
@@ -2444,11 +2447,8 @@
 	"Photo Dojo (Spain)": {
 		"languages": "Es"
 	},
-	"Photo Dojo (Germany)": {
-		"languages": "De"
-	},
-	"Photo Dojo (France)": {
-		"languages": "Fr"
+	"Photo Dojo (USA)": {
+		"languages": "En"
 	},
 	"Photo Stand Tsuki - Ban-Bro DX Radio (Japan)": {
 		"languages": "Ja"
@@ -2456,28 +2456,28 @@
 	"PickDun (Japan)": {
 		"languages": "Ja"
 	},
-	"PictoChat (World) (En,Ja,Fr,De,Es,It) (Pre-install Only)": {
+	"PictoChat (World) (En,Ja,Fr,De,Es,It) (Pre-install)": {
 		"languages": "En,Ja,Fr,De,Es,It"
 	},
 	"PictureBook Games - The Royal Bluff (USA)": {
 		"languages": "En"
 	},
-	"Pinball Pulse - The Ancients Beckon (USA)": {
-		"languages": "En"
-	},
 	"Pinball Pulse - The Ancients Beckon (Europe, Australia)": {
 		"languages": "En"
 	},
-	"Pirates Assault (USA)": {
+	"Pinball Pulse - The Ancients Beckon (USA)": {
 		"languages": "En"
 	},
 	"Pirates Assault (Europe, Australia)": {
 		"languages": "En"
 	},
-	"Plants vs. Zombies (USA)": {
+	"Pirates Assault (USA)": {
 		"languages": "En"
 	},
 	"Plants vs. Zombies (Europe, Australia)": {
+		"languages": "En"
+	},
+	"Plants vs. Zombies (USA)": {
 		"languages": "En"
 	},
 	"Pocket Pack - Words & Numbers (Europe)": {
@@ -2489,28 +2489,28 @@
 	"Pop Island (USA)": {
 		"languages": "En"
 	},
-	"Pop Island - Paperfield (USA)": {
+	"Pop Island - Paperfield (Europe)": {
 		"languages": "En"
 	},
-	"Pop Island - Paperfield (Europe)": {
+	"Pop Island - Paperfield (USA)": {
 		"languages": "En"
 	},
 	"Pop Superstar - Road to Celebrity (Europe, Australia)": {
 		"languages": "En"
 	},
-	"Pop+ Solo (USA)": {
+	"Pop+ Solo (Europe, Australia)": {
 		"languages": "En"
 	},
-	"Pop+ Solo (Europe, Australia)": {
+	"Pop+ Solo (USA)": {
 		"languages": "En"
 	},
 	"Prehistorik Man (Europe, Australia)": {
 		"languages": "En"
 	},
-	"Primrose (USA)": {
+	"Primrose (Europe)": {
 		"languages": "En"
 	},
-	"Primrose (Europe)": {
+	"Primrose (USA)": {
 		"languages": "En"
 	},
 	"Pro Jumper! Guilty Gear Tangent! (USA)": {
@@ -2519,17 +2519,14 @@
 	"Pro-Putt Domo (USA)": {
 		"languages": "En"
 	},
-	"Publisher Dream (USA)": {
+	"Publisher Dream (Europe)": {
 		"languages": "En"
 	},
-	"Publisher Dream (Europe)": {
+	"Publisher Dream (USA)": {
 		"languages": "En"
 	},
 	"Pucca - Noodle Rush (Europe)": {
 		"languages": "En"
-	},
-	"Puchicon (Japan)": {
-		"languages": "Ja"
 	},
 	"Puchicon (Japan) (Rev 1)": {
 		"languages": "Ja"
@@ -2537,10 +2534,13 @@
 	"Puchicon (Japan) (Rev 2)": {
 		"languages": "Ja"
 	},
-	"Puchicon mkII (Japan) (Rev 2)": {
+	"Puchicon (Japan)": {
 		"languages": "Ja"
 	},
 	"Puchicon mkII (Japan) (Rev 1)": {
+		"languages": "Ja"
+	},
+	"Puchicon mkII (Japan) (Rev 2)": {
 		"languages": "Ja"
 	},
 	"Puchicon mkII (Japan)": {
@@ -2561,10 +2561,10 @@
 	"Puzzle League - Express (USA)": {
 		"languages": "En"
 	},
-	"Puzzle Quest - Challenge of the Warlords (USA)": {
+	"Puzzle Quest - Challenge of the Warlords (Europe)": {
 		"languages": "En"
 	},
-	"Puzzle Quest - Challenge of the Warlords (Europe)": {
+	"Puzzle Quest - Challenge of the Warlords (USA)": {
 		"languages": "En"
 	},
 	"Puzzle Rocks (Europe) (En,Fr,De,Es,It)": {
@@ -2573,34 +2573,34 @@
 	"Pyoro (Europe, Australia)": {
 		"languages": "En"
 	},
-	"Quick Fill Q (USA)": {
+	"Quick Fill Q (Europe)": {
 		"languages": "En"
 	},
-	"Quick Fill Q (Europe)": {
+	"Quick Fill Q (USA)": {
 		"languages": "En"
 	},
 	"QuickPick Farmer (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
 	},
-	"Rabi Laby (USA)": {
-		"languages": "En"
-	},
-	"Rabi Laby (Europe)": {
+	"Rabi Laby 2 (Europe)": {
 		"languages": "En"
 	},
 	"Rabi Laby 2 (USA)": {
 		"languages": "En"
 	},
-	"Rabi Laby 2 (Europe)": {
+	"Rabi Laby (Europe)": {
+		"languages": "En"
+	},
+	"Rabi Laby (USA)": {
 		"languages": "En"
 	},
 	"Radar War Series - Gunjin Shogi (Japan)": {
 		"languages": "Ja"
 	},
-	"Rayman (USA)": {
+	"Rayman (Europe, Australia)": {
 		"languages": "En"
 	},
-	"Rayman (Europe, Australia)": {
+	"Rayman (USA)": {
 		"languages": "En"
 	},
 	"Real Soccer 2009 (USA)": {
@@ -2621,31 +2621,31 @@
 	"Retro Pocket (USA)": {
 		"languages": "En"
 	},
+	"Rhythm Core Alpha 2 (Europe, Australia)": {
+		"languages": "En"
+	},
+	"Rhythm Core Alpha 2 (USA)": {
+		"languages": "En"
+	},
 	"Rhythm Core Alpha (Europe, Australia) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
 	},
 	"Rhythm Core Alpha (USA)": {
 		"languages": "En"
 	},
-	"Rhythm Core Alpha 2 (USA)": {
-		"languages": "En"
-	},
-	"Rhythm Core Alpha 2 (Europe, Australia)": {
-		"languages": "En"
-	},
 	"Rittai Kakushi E - Attakoreda (Japan)": {
 		"languages": "Ja"
 	},
-	"Robot Rescue (USA)": {
-		"languages": "En"
-	},
-	"Robot Rescue (Europe, Australia)": {
+	"Robot Rescue 2 (Europe)": {
 		"languages": "En"
 	},
 	"Robot Rescue 2 (USA)": {
 		"languages": "En"
 	},
-	"Robot Rescue 2 (Europe)": {
+	"Robot Rescue (Europe, Australia)": {
+		"languages": "En"
+	},
+	"Robot Rescue (USA)": {
 		"languages": "En"
 	},
 	"Rock-n-Roll Domo (USA) (Rev 1)": {
@@ -2657,28 +2657,28 @@
 	"Rummikub (Europe)": {
 		"languages": "En"
 	},
-	"Rytmik (USA)": {
-		"languages": "En"
-	},
 	"Rytmik (Europe, Australia)": {
 		"languages": "En"
 	},
-	"Rytmik Retrobits (USA)": {
+	"Rytmik (USA)": {
 		"languages": "En"
 	},
 	"Rytmik Retrobits (Europe, Australia)": {
 		"languages": "En"
 	},
-	"Rytmik Rock Edition (USA)": {
+	"Rytmik Retrobits (USA)": {
 		"languages": "En"
 	},
 	"Rytmik Rock Edition (Europe, Australia)": {
 		"languages": "En"
 	},
-	"Rytmik World Music (USA)": {
+	"Rytmik Rock Edition (USA)": {
 		"languages": "En"
 	},
 	"Rytmik World Music (Europe, Australia)": {
+		"languages": "En"
+	},
+	"Rytmik World Music (USA)": {
 		"languages": "En"
 	},
 	"Sagittarius-A-Star (Japan)": {
@@ -2714,10 +2714,10 @@
 	"Sepas Channel (Japan)": {
 		"languages": "Ja"
 	},
-	"Shantae - Risky's Revenge (USA)": {
+	"Shantae - Risky's Revenge (Europe)": {
 		"languages": "En"
 	},
-	"Shantae - Risky's Revenge (Europe)": {
+	"Shantae - Risky's Revenge (USA)": {
 		"languages": "En"
 	},
 	"Shapo (USA)": {
@@ -2750,16 +2750,16 @@
 	"Simply Mahjong (USA)": {
 		"languages": "En"
 	},
-	"Simply Minesweeper (USA)": {
-		"languages": "En"
-	},
 	"Simply Minesweeper (Europe)": {
 		"languages": "En"
 	},
-	"Simply Solitaire (USA)": {
+	"Simply Minesweeper (USA)": {
 		"languages": "En"
 	},
 	"Simply Solitaire (Europe)": {
+		"languages": "En"
+	},
+	"Simply Solitaire (USA)": {
 		"languages": "En"
 	},
 	"Simply Sudoku (Europe)": {
@@ -2792,16 +2792,10 @@
 	"Snapdots (USA, Australia)": {
 		"languages": "En"
 	},
-	"SnowBoard Xtreme (USA)": {
-		"languages": "En"
-	},
 	"SnowBoard Xtreme (Europe)": {
 		"languages": "En"
 	},
-	"Sokomania (Europe)": {
-		"languages": "En"
-	},
-	"Sokomania (USA)": {
+	"SnowBoard Xtreme (USA)": {
 		"languages": "En"
 	},
 	"Sokomania 2 - Cool Job (Europe)": {
@@ -2810,11 +2804,14 @@
 	"Sokomania 2 - Cool Job (USA)": {
 		"languages": "En"
 	},
+	"Sokomania (Europe)": {
+		"languages": "En"
+	},
+	"Sokomania (USA)": {
+		"languages": "En"
+	},
 	"Solitaire DSi (Japan)": {
 		"languages": "Ja"
-	},
-	"Soul of Darkness (USA)": {
-		"languages": "En"
 	},
 	"Soul of Darkness (Europe, Australia)": {
 		"languages": "En"
@@ -2822,25 +2819,28 @@
 	"Soul of Darkness (Japan)": {
 		"languages": "Ja"
 	},
+	"Soul of Darkness (USA)": {
+		"languages": "En"
+	},
 	"Space Ace (USA)": {
 		"languages": "En"
 	},
 	"Space Invaders Extreme Z (Japan)": {
 		"languages": "Ja"
 	},
-	"Sparkle Snapshots (USA)": {
-		"languages": "En"
+	"Sparkle Snapshots (China) (iQue)": {
+		"languages": "Zh"
 	},
 	"Sparkle Snapshots (Europe, Australia)": {
 		"languages": "En"
 	},
-	"Sparkle Snapshots (China) (iQue)": {
-		"languages": "Zh"
-	},
-	"Spin Six (USA)": {
+	"Sparkle Snapshots (USA)": {
 		"languages": "En"
 	},
 	"Spin Six (Europe, Australia)": {
+		"languages": "En"
+	},
+	"Spin Six (USA)": {
 		"languages": "En"
 	},
 	"Spirit Hunters Inc - Light (USA)": {
@@ -2855,11 +2855,11 @@
 	"Spot It! Mean Machines (USA)": {
 		"languages": "En"
 	},
-	"Spotto! (USA)": {
-		"languages": "En"
-	},
 	"Spotto! (China) (iQue)": {
 		"languages": "Zh"
+	},
+	"Spotto! (USA)": {
+		"languages": "En"
 	},
 	"Starship Defender (Japan)": {
 		"languages": "Ja"
@@ -2885,25 +2885,25 @@
 	"Successfully Learning Mathematics - Year 3 (Europe)": {
 		"languages": "En"
 	},
-	"Sudoku (USA)": {
+	"Sudoku 4Pockets (Europe)": {
 		"languages": "En"
 	},
-	"Sudoku (USA) (Rev 1)": {
+	"Sudoku 50! For Beginners (Europe, Australia)": {
 		"languages": "En"
 	},
-	"Sudoku (Europe, Australia) (Rev 1)": {
+	"Sudoku 150! For Challengers (Europe, Australia)": {
 		"languages": "En"
 	},
 	"Sudoku 150-Mon! (Japan)": {
 		"languages": "Ja"
 	},
-	"Sudoku 150! For Challengers (Europe, Australia)": {
+	"Sudoku (Europe, Australia) (Rev 1)": {
 		"languages": "En"
 	},
-	"Sudoku 4Pockets (Europe)": {
+	"Sudoku (USA) (Rev 1)": {
 		"languages": "En"
 	},
-	"Sudoku 50! For Beginners (Europe, Australia)": {
+	"Sudoku (USA)": {
 		"languages": "En"
 	},
 	"Sudoku Master (USA)": {
@@ -2939,10 +2939,10 @@
 	"Surfacer+ (Europe) (En,Fr,Es)": {
 		"languages": "En,Fr,Es"
 	},
-	"Surviving High School (USA)": {
+	"Surviving High School (Europe, Australia)": {
 		"languages": "En"
 	},
-	"Surviving High School (Europe, Australia)": {
+	"Surviving High School (USA)": {
 		"languages": "En"
 	},
 	"Sutjarang Nolja! - Magic Squarewa Imagegyesan (Korea)": {
@@ -2972,31 +2972,31 @@
 	"Telegraph Sudoku & Kakuro (USA)": {
 		"languages": "En"
 	},
-	"Tetris Party Live (USA)": {
-		"languages": "En"
-	},
 	"Tetris Party Live (Europe, Australia)": {
 		"languages": "En"
 	},
-	"Thorium Wars (USA)": {
+	"Tetris Party Live (USA)": {
 		"languages": "En"
 	},
 	"Thorium Wars (Europe)": {
 		"languages": "En"
 	},
-	"Titanic Mystery (USA)": {
+	"Thorium Wars (USA)": {
 		"languages": "En"
 	},
 	"Titanic Mystery (Europe)": {
 		"languages": "En"
 	},
+	"Titanic Mystery (USA)": {
+		"languages": "En"
+	},
 	"Tohoku Daigaku Karei Igaku Kenkyuujo Kawashima Ryuuta Kyouju Kanshuu - Chotto Nou o Kitaeru Otona no DSi Training - Bunkei-Hen (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
-	"Tohoku Daigaku Karei Igaku Kenkyuujo Kawashima Ryuuta Kyouju Kanshuu - Chotto Nou o Kitaeru Otona no DSi Training - Rikei-Hen (Japan)": {
+	"Tohoku Daigaku Karei Igaku Kenkyuujo Kawashima Ryuuta Kyouju Kanshuu - Chotto Nou o Kitaeru Otona no DSi Training - Rikei-Hen (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
-	"Tohoku Daigaku Karei Igaku Kenkyuujo Kawashima Ryuuta Kyouju Kanshuu - Chotto Nou o Kitaeru Otona no DSi Training - Rikei-Hen (Japan) (Rev 1)": {
+	"Tohoku Daigaku Karei Igaku Kenkyuujo Kawashima Ryuuta Kyouju Kanshuu - Chotto Nou o Kitaeru Otona no DSi Training - Rikei-Hen (Japan)": {
 		"languages": "Ja"
 	},
 	"Tohoku Daigaku Karei Igaku Kenkyuujo Kawashima Ryuuta Kyouju Kanshuu - Chotto Nou o Kitaeru Otona no DSi Training - Sudoku-Hen (Japan)": {
@@ -3005,10 +3005,10 @@
 	"Topoloco (Europe)": {
 		"languages": "En"
 	},
-	"Topsy Turvy Life, A - The Turvys Strike Back (USA)": {
+	"Topsy Turvy Life, A - The Turvys Strike Back (Europe)": {
 		"languages": "En"
 	},
-	"Topsy Turvy Life, A - The Turvys Strike Back (Europe)": {
+	"Topsy Turvy Life, A - The Turvys Strike Back (USA)": {
 		"languages": "En"
 	},
 	"Topsy Turvy Life, A - Turvy Drops (Europe)": {
@@ -3056,17 +3056,14 @@
 	"Tsukutte Utau Saru Band (Japan)": {
 		"languages": "Ja"
 	},
-	"Ugoku Memo Chou (Japan)": {
+	"Ugoku Memo Chou (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
 	"Ugoku Memo Chou (Japan) (Rev 2)": {
 		"languages": "Ja"
 	},
-	"Ugoku Memo Chou (Japan) (Rev 1)": {
+	"Ugoku Memo Chou (Japan)": {
 		"languages": "Ja"
-	},
-	"Uno (USA)": {
-		"languages": "En"
 	},
 	"Uno (Europe, Australia) (Rev 1)": {
 		"languages": "En"
@@ -3074,16 +3071,19 @@
 	"Uno (Japan)": {
 		"languages": "Ja"
 	},
+	"Uno (USA)": {
+		"languages": "En"
+	},
 	"Utsusu Made in Wario (Japan)": {
 		"languages": "Ja"
 	},
 	"Valet Parking 1989 (Europe, Australia)": {
 		"languages": "En"
 	},
-	"Viking Invasion (USA)": {
+	"Viking Invasion (Europe, Australia)": {
 		"languages": "En"
 	},
-	"Viking Invasion (Europe, Australia)": {
+	"Viking Invasion (USA)": {
 		"languages": "En"
 	},
 	"Wakugumi - Monochrome Puzzle (Europe, Australia)": {
@@ -3092,19 +3092,19 @@
 	"Wari to Honkakuteki - Egokoro Kyoushitsu Kouki (Japan)": {
 		"languages": "Ja"
 	},
+	"WarioWare - Snapped! (Europe, Australia) (En,Fr,De,Es,It)": {
+		"languages": "En,Fr,De,Es,It"
+	},
 	"WarioWare - Snapped! (USA) (Rev 1)": {
 		"languages": "En"
 	},
 	"WarioWare - Snapped! (USA)": {
 		"languages": "En"
 	},
-	"WarioWare - Snapped! (Europe, Australia) (En,Fr,De,Es,It)": {
-		"languages": "En,Fr,De,Es,It"
-	},
-	"WarioWare - Touched! DL (USA, Australia) (3DS Only)": {
+	"WarioWare - Touched! DL (Europe) (3DS Only)": {
 		"languages": "En"
 	},
-	"WarioWare - Touched! DL (Europe) (3DS Only)": {
+	"WarioWare - Touched! DL (USA, Australia) (3DS Only)": {
 		"languages": "En"
 	},
 	"Whack-A-Friend (USA)": {
@@ -3179,16 +3179,16 @@
 	"Zimo - Mahjong Fanatic (USA)": {
 		"languages": "En"
 	},
-	"Zombie Blaster (USA)": {
-		"languages": "En"
-	},
 	"Zombie Blaster (USA) (Rev 1)": {
 		"languages": "En"
 	},
-	"Zombie Skape (USA)": {
+	"Zombie Blaster (USA)": {
 		"languages": "En"
 	},
 	"Zombie Skape (Europe)": {
+		"languages": "En"
+	},
+	"Zombie Skape (USA)": {
 		"languages": "En"
 	},
 	"Zomgeri Panic (Japan)": {

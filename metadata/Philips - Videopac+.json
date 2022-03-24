@@ -1,4 +1,10 @@
 {
+	"[BIOS] Brandt Jopac (France)": {
+		"languages": "Fr"
+	},
+	"[BIOS] Philips Videopac+ (Europe)": {
+		"languages": "En"
+	},
 	"Air Battle (Europe)": {
 		"languages": "En"
 	},
@@ -8,16 +14,13 @@
 	"Billard Electrique (France)": {
 		"languages": "Fr"
 	},
-	"[BIOS] Brandt Jopac (France)": {
-		"languages": "Fr"
-	},
 	"Chez Maxime (France)": {
 		"languages": "Fr"
 	},
-	"Clay Pigeon (Europe) (Proto)": {
+	"Clay Pigeon (Europe) (Proto) (Alt)": {
 		"languages": "En"
 	},
-	"Clay Pigeon (Europe) (Proto) (Alt 1)": {
+	"Clay Pigeon (Europe) (Proto)": {
 		"languages": "En"
 	},
 	"Cosmic Conflict (Europe)": {
@@ -66,9 +69,6 @@
 		"languages": "En"
 	},
 	"Norseman (Europe)": {
-		"languages": "En"
-	},
-	"[BIOS] Philips Videopac+ (Europe)": {
 		"languages": "En"
 	},
 	"Pickaxe Pete (Europe)": {

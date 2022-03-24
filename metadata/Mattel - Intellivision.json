@@ -1,4 +1,19 @@
 {
+	"[BIOS] Entertainment Computer System EXEC-BASIC (USA, Europe)": {
+		"languages": "En"
+	},
+	"[BIOS] Intellivision Executive ROM (World)": {
+		"languages": "En"
+	},
+	"[BIOS] Intellivision Graphic ROM (World)": {
+		"languages": "En"
+	},
+	"[BIOS] Intellivoice (USA, Europe)": {
+		"languages": "En"
+	},
+	"[BIOS] Sears Super Video Arcade (USA, Europe)": {
+		"languages": "En"
+	},
 	"ABPA Backgammon ~ Backgammon (USA, Europe)": {
 		"languages": "En"
 	},
@@ -65,7 +80,7 @@
 	"BurgerTime (USA, Europe)": {
 		"languages": "En"
 	},
-	"Buzz Bombers (USA, Europe) (Alt 1)": {
+	"Buzz Bombers (USA, Europe) (Alt)": {
 		"languages": "En"
 	},
 	"Buzz Bombers (USA, Europe)": {
@@ -152,9 +167,6 @@
 	"Electric Company, The - Word Fun (USA, Europe)": {
 		"languages": "En"
 	},
-	"[BIOS] Entertainment Computer System EXEC-BASIC (USA, Europe)": {
-		"languages": "En"
-	},
 	"Factor Fun (USA)": {
 		"languages": "En"
 	},
@@ -203,15 +215,6 @@
 	"IMI Test Cartridge (USA)": {
 		"languages": "En"
 	},
-	"[BIOS] Intellivision Executive ROM (World)": {
-		"languages": "En"
-	},
-	"[BIOS] Intellivision Graphic ROM (World)": {
-		"languages": "En"
-	},
-	"[BIOS] Intellivoice (USA, Europe)": {
-		"languages": "En"
-	},
 	"International Demonstration Cartridge (World)": {
 		"languages": "En"
 	},
@@ -254,10 +257,10 @@
 	"Loco-Motion (USA)": {
 		"languages": "En"
 	},
-	"Magic Carousel (USA) (Proto)": {
+	"Magic Carousel (USA) (Proto) (Alt)": {
 		"languages": "En"
 	},
-	"Magic Carousel (USA) (Proto) (Alt 1)": {
+	"Magic Carousel (USA) (Proto)": {
 		"languages": "En"
 	},
 	"Major League Baseball ~ Big League Baseball ~ Baseball (USA, Europe)": {
@@ -323,10 +326,10 @@
 	"Nova Blast (USA, Europe)": {
 		"languages": "En"
 	},
-	"Number Jumble (USA) (Proto)": {
+	"Number Jumble (USA) (Proto) (Alt)": {
 		"languages": "En"
 	},
-	"Number Jumble (USA) (Proto) (Alt 1)": {
+	"Number Jumble (USA) (Proto)": {
 		"languages": "En"
 	},
 	"Pac-Man (USA) (Atarisoft)": {
@@ -341,10 +344,10 @@
 	"Party Line - Hard Hat (USA) (Proto)": {
 		"languages": "En"
 	},
-	"Party Line - Space Cadet (USA) (Proto)": {
+	"Party Line - Space Cadet (USA) (Proto) (Alt)": {
 		"languages": "En"
 	},
-	"Party Line - Space Cadet (USA) (Proto) (Alt 1)": {
+	"Party Line - Space Cadet (USA) (Proto)": {
 		"languages": "En"
 	},
 	"PBA Bowling ~ Bowling (USA, Europe)": {
@@ -405,9 +408,6 @@
 		"languages": "En"
 	},
 	"Sea Battle (USA, Europe)": {
-		"languages": "En"
-	},
-	"[BIOS] Sears Super Video Arcade (USA, Europe)": {
 		"languages": "En"
 	},
 	"Sewer Sam (USA)": {
@@ -539,10 +539,10 @@
 	"Utopia (USA, Europe)": {
 		"languages": "En"
 	},
-	"Vectron (USA, Europe)": {
+	"Vectron (USA, Europe) (Alt)": {
 		"languages": "En"
 	},
-	"Vectron (USA, Europe) (Alt 1)": {
+	"Vectron (USA, Europe)": {
 		"languages": "En"
 	},
 	"Venture (USA, Europe)": {

@@ -5,13 +5,13 @@
 	"40 Winks (Europe)": {
 		"languages": "En"
 	},
+	"A5 - A-Ressha de Ikou 5 (Japan)": {
+		"languages": "Ja"
+	},
 	"A-Ressha de Ikou Z - Mezase! Tairiku Oudan (Japan)": {
 		"languages": "Ja"
 	},
 	"A. IV Evolution Global (Japan)": {
-		"languages": "Ja"
-	},
-	"A5 - A-Ressha de Ikou 5 (Japan)": {
 		"languages": "Ja"
 	},
 	"Abe '99 (Japan)": {
@@ -23,6 +23,9 @@
 	"Aces in the Air (USA)": {
 		"languages": "En"
 	},
+	"Acid (Japan)": {
+		"languages": "Ja"
+	},
 	"Actua Golf 3 (Europe)": {
 		"languages": "En"
 	},
@@ -32,16 +35,19 @@
 	"Advanced V.G. 2 (Japan)": {
 		"languages": "Ja"
 	},
-	"Adventure of Little Ralph, The (Japan)": {
-		"languages": "Ja"
-	},
 	"Adventure of Little Ralph, The (Asia)": {
 		"languages": "Zh"
+	},
+	"Adventure of Little Ralph, The (Japan)": {
+		"languages": "Ja"
 	},
 	"Adventure of Puppet Princess, The - Marl Oukoku no Ningyou Hime (Japan)": {
 		"languages": "Ja"
 	},
 	"Aero Dive (Japan)": {
+		"languages": "Ja"
+	},
+	"AirAssault (Japan)": {
 		"languages": "Ja"
 	},
 	"Akagawa Jirou - Majotachi no Nemuri - Fukkatsusai (Japan)": {
@@ -68,19 +74,19 @@
 	"Alundra (Europe)": {
 		"languages": "En"
 	},
-	"Alundra (USA)": {
-		"languages": "En"
-	},
 	"Alundra (Japan)": {
 		"languages": "Ja"
 	},
-	"Aquanaut no Kyuujitsu - Memories of Summer 1996 (Japan)": {
-		"languages": "Ja"
+	"Alundra (USA)": {
+		"languages": "En"
 	},
 	"Aquanaut no Kyuujitsu 2 (Japan) (PS3 v2.41)": {
 		"languages": "Ja"
 	},
 	"Aquanaut no Kyuujitsu 2 (Japan) (PS3 v4.46)": {
+		"languages": "Ja"
+	},
+	"Aquanaut no Kyuujitsu - Memories of Summer 1996 (Japan)": {
 		"languages": "Ja"
 	},
 	"Arc Arena - Monster Tournament (Europe)": {
@@ -137,11 +143,11 @@
 	"Arcade Hits - Shienryu (Asia)": {
 		"languages": "Zh"
 	},
-	"Arcade Hits - Shienryu (Japan)": {
-		"languages": "Ja"
-	},
 	"Arcade Hits - Shienryu (Europe)": {
 		"languages": "En"
+	},
+	"Arcade Hits - Shienryu (Japan)": {
+		"languages": "Ja"
 	},
 	"Arcade Hits - Sonic Wings Special (Asia)": {
 		"languages": "Zh"
@@ -194,10 +200,10 @@
 	"Atari Anniversary Edition Redux (Europe)": {
 		"languages": "En"
 	},
-	"Atelier Marie - The Alchemist of Salburg (Japan)": {
+	"Atelier Marie - The Alchemist of Salburg 2 (Japan)": {
 		"languages": "Ja"
 	},
-	"Atelier Marie - The Alchemist of Salburg 2 (Japan)": {
+	"Atelier Marie - The Alchemist of Salburg (Japan)": {
 		"languages": "Ja"
 	},
 	"Athena - Awakening from the Ordinary Life (Japan)": {
@@ -206,7 +212,10 @@
 	"Athena no Kateiban - Family Game (Japan) (PS3 v2.20)": {
 		"languages": "Ja"
 	},
-	"Athena no Kateiban - Family Game (Japan) (PS3 v4.70)": {
+	"Athena no Kateiban - Family Game (Japan) (PS3 v4.70, PSP v6.60)": {
+		"languages": "Ja"
+	},
+	"Athena no Kateiban - Family Game (Japan) (PS3 v4.70, PSP v6.61)": {
 		"languages": "Ja"
 	},
 	"ATV Racers (Germany)": {
@@ -230,13 +239,13 @@
 	"Baroque Syndrome (Japan)": {
 		"languages": "Ja"
 	},
-	"Battle Arena Toshinden (Japan)": {
-		"languages": "Ja"
-	},
 	"Battle Arena Toshinden 2 Plus (Japan)": {
 		"languages": "Ja"
 	},
 	"Battle Arena Toshinden 3 (Japan)": {
+		"languages": "Ja"
+	},
+	"Battle Arena Toshinden (Japan)": {
 		"languages": "Ja"
 	},
 	"Battle Athletess - Daiundoukai Alternative (Japan)": {
@@ -248,13 +257,31 @@
 	"Battle Hunter (USA)": {
 		"languages": "En"
 	},
-	"Bealphareth (Japan)": {
-		"languages": "Ja"
-	},
 	"Bealphareth (Asia)": {
 		"languages": "Zh"
 	},
+	"Bealphareth (Japan)": {
+		"languages": "Ja"
+	},
 	"Beltlogger 9 (Japan)": {
+		"languages": "Ja"
+	},
+	"Biohazard 2 (Asia)": {
+		"languages": "Zh"
+	},
+	"Biohazard 2 (Japan) (2007-12-19)": {
+		"languages": "Ja"
+	},
+	"Biohazard 2 (Japan) (2010-01-13)": {
+		"languages": "Ja"
+	},
+	"Biohazard 3 - Last Escape (Asia)": {
+		"languages": "Zh"
+	},
+	"Biohazard 3 - Last Escape (Japan) (0BF89145)": {
+		"languages": "Ja"
+	},
+	"Biohazard 3 - Last Escape (Japan) (FC51B1F3)": {
 		"languages": "Ja"
 	},
 	"Biohazard - Director's Cut (Asia) (PS3 v1.70)": {
@@ -264,21 +291,6 @@
 		"languages": "Zh"
 	},
 	"Biohazard - Director's Cut (Japan)": {
-		"languages": "Ja"
-	},
-	"Biohazard 2 (Asia)": {
-		"languages": "Zh"
-	},
-	"Biohazard 2 (Japan) (2010-01-13)": {
-		"languages": "Ja"
-	},
-	"Biohazard 2 (Japan) (2007-12-19)": {
-		"languages": "Ja"
-	},
-	"Biohazard 3 - Last Escape (Japan) (0BF89145)": {
-		"languages": "Ja"
-	},
-	"Biohazard 3 - Last Escape (Japan) (FC51B1F3)": {
 		"languages": "Ja"
 	},
 	"Bishi Bashi Special (Europe)": {
@@ -317,11 +329,11 @@
 	"Blood Omen - Legacy of Kain (USA)": {
 		"languages": "En"
 	},
-	"Bloody Roar (USA)": {
-		"languages": "En"
-	},
 	"Bloody Roar (Japan)": {
 		"languages": "Ja"
+	},
+	"Bloody Roar (USA)": {
+		"languages": "En"
 	},
 	"Bloody Roar II (USA)": {
 		"languages": "En"
@@ -332,11 +344,11 @@
 	"Bokujou Monogatari - Harvest Moon (Japan)": {
 		"languages": "Ja"
 	},
-	"Bomberman - Party Edition (USA)": {
-		"languages": "En"
-	},
 	"Bomberman - Party Edition (Japan)": {
 		"languages": "Ja"
+	},
+	"Bomberman - Party Edition (USA)": {
+		"languages": "En"
 	},
 	"Bomberman Fantasy Race (Japan)": {
 		"languages": "Ja"
@@ -371,11 +383,11 @@
 	"Brightis (Japan)": {
 		"languages": "Ja"
 	},
-	"Bugriders - The Race of Kings (Russia)": {
-		"languages": "Ru"
-	},
 	"Bugriders - The Race of Kings (Europe)": {
 		"languages": "En"
+	},
+	"Bugriders - The Race of Kings (Russia)": {
+		"languages": "Ru"
 	},
 	"Building Crush! (Japan)": {
 		"languages": "Ja"
@@ -404,14 +416,14 @@
 	"Castlevania - Symphony of the Night (France)": {
 		"languages": "Fr"
 	},
-	"Castlevania - Symphony of the Night (USA)": {
-		"languages": "En"
+	"Castlevania - Symphony of the Night (Germany) (En,De)": {
+		"languages": "En,De"
 	},
 	"Castlevania - Symphony of the Night (United Kingdom)": {
 		"languages": "En"
 	},
-	"Castlevania - Symphony of the Night (Germany) (En,De)": {
-		"languages": "En,De"
+	"Castlevania - Symphony of the Night (USA)": {
+		"languages": "En"
 	},
 	"Castlevania Chronicle - Akumajou Dracula (Japan)": {
 		"languages": "Ja"
@@ -458,22 +470,22 @@
 	"Chrono Cross (USA)": {
 		"languages": "En"
 	},
-	"Chrono Trigger (USA)": {
-		"languages": "En"
-	},
 	"Chrono Trigger (Japan)": {
 		"languages": "Ja"
 	},
+	"Chrono Trigger (USA)": {
+		"languages": "En"
+	},
 	"Circadia (Japan)": {
+		"languages": "Ja"
+	},
+	"Clock Tower 2 (Japan)": {
 		"languages": "Ja"
 	},
 	"Clock Tower - Ghost Head (Japan)": {
 		"languages": "Ja"
 	},
 	"Clock Tower - The First Fear (Japan)": {
-		"languages": "Ja"
-	},
-	"Clock Tower 2 (Japan)": {
 		"languages": "Ja"
 	},
 	"Command & Conquer (Europe)": {
@@ -515,6 +527,21 @@
 	"Conveni 2, The - Zenkoku Chain Tenkai da! (Japan)": {
 		"languages": "Ja"
 	},
+	"Cool Boarders 2 (Europe)": {
+		"languages": "En"
+	},
+	"Cool Boarders 2 (France)": {
+		"languages": "Fr"
+	},
+	"Cool Boarders 2 (USA)": {
+		"languages": "En"
+	},
+	"Cool Boarders 2 - Killing Session (Japan)": {
+		"languages": "Ja"
+	},
+	"Cool Boarders 3 (USA)": {
+		"languages": "En"
+	},
 	"Cool Boarders (Europe)": {
 		"languages": "En"
 	},
@@ -524,49 +551,16 @@
 	"Cool Boarders (Japan)": {
 		"languages": "Ja"
 	},
-	"Cool Boarders (USA) (v1.00)": {
-		"languages": "En"
-	},
 	"Cool Boarders (USA) (v0.00)": {
 		"languages": "En"
 	},
-	"Cool Boarders 2 (France)": {
-		"languages": "Fr"
-	},
-	"Cool Boarders 2 (USA)": {
+	"Cool Boarders (USA) (v1.00)": {
 		"languages": "En"
 	},
-	"Cool Boarders 2 (Europe)": {
-		"languages": "En"
-	},
-	"Cool Boarders 2 - Killing Session (Japan)": {
+	"Crash Bandicoot 2 - Cortex no Gyakushuu! (Japan) (PS3 v1.90)": {
 		"languages": "Ja"
 	},
-	"Cool Boarders 3 (USA)": {
-		"languages": "En"
-	},
-	"Crash Bandicoot (Europe)": {
-		"languages": "En"
-	},
-	"Crash Bandicoot (Germany)": {
-		"languages": "De"
-	},
-	"Crash Bandicoot (Japan)": {
-		"languages": "Ja"
-	},
-	"Crash Bandicoot (USA)": {
-		"languages": "En"
-	},
-	"Crash Bandicoot (USA) (v0.00)": {
-		"languages": "En"
-	},
-	"Crash Bandicoot (France)": {
-		"languages": "Fr"
-	},
-	"Crash Bandicoot - Warped (USA)": {
-		"languages": "En"
-	},
-	"Crash Bandicoot 2 (Japan)": {
+	"Crash Bandicoot 2 - Cortex no Gyakushuu! (Japan) (PS3 v4.65)": {
 		"languages": "Ja"
 	},
 	"Crash Bandicoot 2 - Cortex Strikes Back (Europe)": {
@@ -578,11 +572,17 @@
 	"Crash Bandicoot 2 - Cortex Strikes Back (USA)": {
 		"languages": "En"
 	},
-	"Crash Bandicoot 3 - Buttobi! Sekai Isshuu (Japan)": {
+	"Crash Bandicoot 3 - Buttobi! Sekai Isshuu (Japan) (PS3 v1.90)": {
+		"languages": "Ja"
+	},
+	"Crash Bandicoot 3 - Buttobi! Sekai Isshuu (Japan) (PS3 v4.65)": {
 		"languages": "Ja"
 	},
 	"Crash Bandicoot 3 - Warped (Europe)": {
 		"languages": "En"
+	},
+	"Crash Bandicoot 3 - Warped (France)": {
+		"languages": "Fr"
 	},
 	"Crash Bandicoot 3 - Warped (Germany)": {
 		"languages": "De"
@@ -593,8 +593,29 @@
 	"Crash Bandicoot 3 - Warped (Spain)": {
 		"languages": "Es"
 	},
-	"Crash Bandicoot 3 - Warped (France)": {
+	"Crash Bandicoot (Europe)": {
+		"languages": "En"
+	},
+	"Crash Bandicoot (France)": {
 		"languages": "Fr"
+	},
+	"Crash Bandicoot (Germany)": {
+		"languages": "De"
+	},
+	"Crash Bandicoot (Japan) (PS3 v1.80)": {
+		"languages": "Ja"
+	},
+	"Crash Bandicoot (Japan) (PS3 v4.65)": {
+		"languages": "Ja"
+	},
+	"Crash Bandicoot (USA) (v0.00)": {
+		"languages": "En"
+	},
+	"Crash Bandicoot (USA)": {
+		"languages": "En"
+	},
+	"Crash Bandicoot - Warped (USA)": {
+		"languages": "En"
 	},
 	"Crash Bandicoot Carnival (Japan)": {
 		"languages": "Ja"
@@ -602,11 +623,11 @@
 	"Crash Bandicoot Racing (Japan)": {
 		"languages": "Ja"
 	},
-	"Crash Team Racing (France)": {
-		"languages": "Fr"
-	},
 	"Crash Team Racing (Europe)": {
 		"languages": "En"
+	},
+	"Crash Team Racing (France)": {
+		"languages": "Fr"
 	},
 	"Crash Team Racing (Germany)": {
 		"languages": "De"
@@ -620,20 +641,20 @@
 	"Creatures 3 - Raised in Space (Spain)": {
 		"languages": "Es"
 	},
-	"Crime Crackers (Japan)": {
+	"Crime Crackers 2 (Japan)": {
 		"languages": "Ja"
 	},
-	"Crime Crackers 2 (Japan)": {
+	"Crime Crackers (Japan)": {
 		"languages": "Ja"
 	},
 	"Crisis Beat (Europe)": {
 		"languages": "En"
 	},
-	"Critical Depth (Netherlands)": {
-		"languages": "Nl"
-	},
 	"Critical Depth (Europe)": {
 		"languages": "En"
+	},
+	"Critical Depth (Netherlands)": {
+		"languages": "Nl"
 	},
 	"Crossroad Crisis (USA)": {
 		"languages": "En"
@@ -642,6 +663,9 @@
 		"languages": "En"
 	},
 	"Culdcept Expansion Plus (Japan)": {
+		"languages": "Ja"
+	},
+	"Cyber Sled (Japan)": {
 		"languages": "Ja"
 	},
 	"Cyber Sled (USA)": {
@@ -659,13 +683,16 @@
 	"Dai-4-Ji Super Robot Taisen S (Japan)": {
 		"languages": "Ja"
 	},
+	"DamDam StompLand (Japan)": {
+		"languages": "Ja"
+	},
 	"Dangan (Japan)": {
 		"languages": "Ja"
 	},
-	"Darkstalkers (USA)": {
+	"Darkstalkers 3 (USA)": {
 		"languages": "En"
 	},
-	"Darkstalkers 3 (USA)": {
+	"Darkstalkers (USA)": {
 		"languages": "En"
 	},
 	"Dead in the Water (USA)": {
@@ -698,11 +725,14 @@
 	"Destruction Derby (France)": {
 		"languages": "Fr"
 	},
-	"Destruction Derby (USA)": {
-		"languages": "En"
+	"Destruction Derby (Germany)": {
+		"languages": "De"
 	},
 	"Destruction Derby (Japan)": {
 		"languages": "Ja"
+	},
+	"Destruction Derby (USA)": {
+		"languages": "En"
 	},
 	"DewPrism (Japan)": {
 		"languages": "Ja"
@@ -734,71 +764,26 @@
 	"Digital Glider Airman (Japan)": {
 		"languages": "Ja"
 	},
-	"Dino Crisis (Asia)": {
-		"languages": "Zh"
-	},
-	"Dino Crisis (USA)": {
-		"languages": "En"
-	},
-	"Dino Crisis (Japan)": {
-		"languages": "Ja"
-	},
 	"Dino Crisis 2 (Japan)": {
 		"languages": "Ja"
 	},
 	"Dino Crisis 2 (USA)": {
 		"languages": "En"
 	},
+	"Dino Crisis (Asia)": {
+		"languages": "Zh"
+	},
+	"Dino Crisis (Japan)": {
+		"languages": "Ja"
+	},
+	"Dino Crisis (USA)": {
+		"languages": "En"
+	},
 	"Dirt Jockey (USA)": {
 		"languages": "En"
 	},
-	"Disney-Pixar A Bug's Life (Europe)": {
-		"languages": "En"
-	},
-	"Disney-Pixar A Bug's Life (Germany)": {
-		"languages": "De"
-	},
-	"Disney-Pixar A Bug's Life (Italy)": {
-		"languages": "It"
-	},
-	"Disney-Pixar A Bug's Life (USA)": {
-		"languages": "En"
-	},
-	"Disney-Pixar Buzz Lightyear of Star Command (Europe)": {
-		"languages": "En"
-	},
-	"Disney-Pixar Captain Buzz Lightyear - Star Command (Germany)": {
-		"languages": "De"
-	},
-	"Disney-Pixar Monsters & Co. - L'Isola dello Spavento (Italy)": {
-		"languages": "It"
-	},
-	"Disney-Pixar Monsters, Inc. - Scare Island (Europe)": {
-		"languages": "En"
-	},
-	"Disney-Pixar Monsters, Inc. - Scare Island (Germany)": {
-		"languages": "De"
-	},
-	"Disney-Pixar Monsters, Inc. - Scream Team (USA)": {
-		"languages": "En"
-	},
-	"Disney-Pixar Toy Story 2 (Europe)": {
-		"languages": "En"
-	},
-	"Disney-Pixar Toy Story 2 (Germany)": {
-		"languages": "De"
-	},
-	"Disney-Pixar Toy Story 2 (Italy)": {
-		"languages": "It"
-	},
-	"Disney-Pixar Toy Story 2 (USA)": {
-		"languages": "En"
-	},
-	"Disney-Pixar Toy Story Racer (Europe)": {
-		"languages": "En"
-	},
-	"Disney-Pixar Toy Story Racer (USA)": {
-		"languages": "En"
+	"Disney Lilo & Stitch - Sarilhos no Paraiso (Portugal)": {
+		"languages": "Pt"
 	},
 	"Disney's Atlantis - The Lost Empire (Europe)": {
 		"languages": "En"
@@ -849,6 +834,54 @@
 		"languages": "De"
 	},
 	"Disney's The Little Mermaid II (USA)": {
+		"languages": "En"
+	},
+	"Disney-Pixar A Bug's Life (Europe)": {
+		"languages": "En"
+	},
+	"Disney-Pixar A Bug's Life (Germany)": {
+		"languages": "De"
+	},
+	"Disney-Pixar A Bug's Life (Italy)": {
+		"languages": "It"
+	},
+	"Disney-Pixar A Bug's Life (USA)": {
+		"languages": "En"
+	},
+	"Disney-Pixar Buzz Lightyear of Star Command (Europe)": {
+		"languages": "En"
+	},
+	"Disney-Pixar Captain Buzz Lightyear - Star Command (Germany)": {
+		"languages": "De"
+	},
+	"Disney-Pixar Monsters & Co. - L'Isola dello Spavento (Italy)": {
+		"languages": "It"
+	},
+	"Disney-Pixar Monsters, Inc. - Scare Island (Europe)": {
+		"languages": "En"
+	},
+	"Disney-Pixar Monsters, Inc. - Scare Island (Germany)": {
+		"languages": "De"
+	},
+	"Disney-Pixar Monsters, Inc. - Scream Team (USA)": {
+		"languages": "En"
+	},
+	"Disney-Pixar Toy Story 2 (Europe)": {
+		"languages": "En"
+	},
+	"Disney-Pixar Toy Story 2 (Germany)": {
+		"languages": "De"
+	},
+	"Disney-Pixar Toy Story 2 (Italy)": {
+		"languages": "It"
+	},
+	"Disney-Pixar Toy Story 2 (USA)": {
+		"languages": "En"
+	},
+	"Disney-Pixar Toy Story Racer (Europe)": {
+		"languages": "En"
+	},
+	"Disney-Pixar Toy Story Racer (USA)": {
 		"languages": "En"
 	},
 	"Disneys Lilo & Stitch - Zoff auf Hawaii (Germany)": {
@@ -905,14 +938,14 @@
 	"Dungeon Shoutenkai - Densetsu no Ken Hajimemashita (Japan)": {
 		"languages": "Ja"
 	},
+	"Echo Night #2 - Nemuri no Shihaisha (Japan)": {
+		"languages": "Ja"
+	},
 	"Echo Night (Japan)": {
 		"languages": "Ja"
 	},
 	"Echo Night (USA)": {
 		"languages": "En"
-	},
-	"Echo Night #2 - Nemuri no Shihaisha (Japan)": {
-		"languages": "Ja"
 	},
 	"Ehrgeiz - God Bless the Ring (Japan)": {
 		"languages": "Ja"
@@ -965,32 +998,32 @@
 	"Favorite Dear - Junshiro no Yogenmono (Japan)": {
 		"languages": "Ja"
 	},
-	"Fear Effect (Europe)": {
-		"languages": "En"
-	},
-	"Fear Effect (Germany)": {
-		"languages": "De"
-	},
 	"Fear Effect 2 (Germany)": {
 		"languages": "De"
 	},
 	"Fear Effect 2 - Retro Helix (Europe)": {
 		"languages": "En"
 	},
+	"Fear Effect (Europe)": {
+		"languages": "En"
+	},
+	"Fear Effect (Germany)": {
+		"languages": "De"
+	},
 	"Fighters' Impact (Japan)": {
 		"languages": "Ja"
-	},
-	"Fighting Force (Europe)": {
-		"languages": "En"
-	},
-	"Fighting Force (USA)": {
-		"languages": "En"
 	},
 	"Fighting Force 2 (Europe)": {
 		"languages": "En"
 	},
 	"Fighting Force 2 (Germany)": {
 		"languages": "De"
+	},
+	"Fighting Force (Europe)": {
+		"languages": "En"
+	},
+	"Fighting Force (USA)": {
+		"languages": "En"
 	},
 	"Final Fantasy (Japan)": {
 		"languages": "Ja"
@@ -1025,11 +1058,11 @@
 	"Final Fantasy Origins (USA)": {
 		"languages": "En"
 	},
-	"Final Fantasy Tactics (USA)": {
-		"languages": "En"
-	},
 	"Final Fantasy Tactics (Japan)": {
 		"languages": "Ja"
+	},
+	"Final Fantasy Tactics (USA)": {
+		"languages": "En"
 	},
 	"Final Fantasy V (Asia)": {
 		"languages": "Zh"
@@ -1079,7 +1112,13 @@
 	"Final Fantasy VIII (Germany)": {
 		"languages": "De"
 	},
+	"Final Fantasy VIII (Italy)": {
+		"languages": "It"
+	},
 	"Final Fantasy VIII (Japan) (PS3 v2.80)": {
+		"languages": "Ja"
+	},
+	"Final Fantasy VIII (Japan) (PS3 v4.46)": {
 		"languages": "Ja"
 	},
 	"Final Fantasy VIII (Spain)": {
@@ -1087,12 +1126,6 @@
 	},
 	"Final Fantasy VIII (USA)": {
 		"languages": "En"
-	},
-	"Final Fantasy VIII (Italy)": {
-		"languages": "It"
-	},
-	"Final Fantasy VIII (Japan) (PS3 v4.46)": {
-		"languages": "Ja"
 	},
 	"Final Round (Japan)": {
 		"languages": "Ja"
@@ -1124,14 +1157,14 @@
 	"Front Mission 2 (Japan)": {
 		"languages": "Ja"
 	},
-	"Front Mission 3 (Japan)": {
-		"languages": "Ja"
+	"Front Mission 3 (Europe)": {
+		"languages": "En"
 	},
 	"Front Mission 3 (Germany)": {
 		"languages": "De"
 	},
-	"Front Mission 3 (Europe)": {
-		"languages": "En"
+	"Front Mission 3 (Japan)": {
+		"languages": "Ja"
 	},
 	"Front Mission 3 (USA)": {
 		"languages": "En"
@@ -1139,14 +1172,17 @@
 	"Front Mission Alternative (Japan)": {
 		"languages": "Ja"
 	},
-	"Future Cop - L.A.P.D. (Europe)": {
-		"languages": "En"
+	"Fushigi Deka (Japan)": {
+		"languages": "Ja"
 	},
-	"Future Cop - L.A.P.D. (USA)": {
+	"Future Cop - L.A.P.D. (Europe)": {
 		"languages": "En"
 	},
 	"Future Cop - L.A.P.D. (Germany)": {
 		"languages": "De"
+	},
+	"Future Cop - L.A.P.D. (USA)": {
+		"languages": "En"
 	},
 	"Fuuraiki (Japan)": {
 		"languages": "Ja"
@@ -1193,18 +1229,6 @@
 	"Gensou no Artemis - Actress School Mystery Adventure (Japan)": {
 		"languages": "Ja"
 	},
-	"Gex (Europe)": {
-		"languages": "En"
-	},
-	"Gex (USA)": {
-		"languages": "En"
-	},
-	"Gex - Deep Cover Gecko (Germany) (Fr,De)": {
-		"languages": "Fr,De"
-	},
-	"Gex - Deep Cover Gecko (France) (Fr,De)": {
-		"languages": "Fr,De"
-	},
 	"Gex 2 - Enter The Gecko (Europe)": {
 		"languages": "En"
 	},
@@ -1216,6 +1240,18 @@
 	},
 	"Gex 3 - Deep Cover Gecko (USA)": {
 		"languages": "En"
+	},
+	"Gex (Europe)": {
+		"languages": "En"
+	},
+	"Gex (USA)": {
+		"languages": "En"
+	},
+	"Gex - Deep Cover Gecko (France) (Fr,De)": {
+		"languages": "Fr,De"
+	},
+	"Gex - Deep Cover Gecko (Germany) (Fr,De)": {
+		"languages": "Fr,De"
 	},
 	"Goiken Muyou II (Japan)": {
 		"languages": "Ja"
@@ -1229,14 +1265,14 @@
 	"Grandia (Japan) (PS3 v2.60)": {
 		"languages": "Ja"
 	},
-	"Grandia (USA)": {
-		"languages": "En"
+	"Grandia (Japan) (PS3 v4.46)": {
+		"languages": "Ja"
 	},
 	"Grandia (United Kingdom)": {
 		"languages": "En"
 	},
-	"Grandia (Japan) (PS3 v4.46)": {
-		"languages": "Ja"
+	"Grandia (USA)": {
+		"languages": "En"
 	},
 	"Grille Logic (Japan)": {
 		"languages": "Ja"
@@ -1247,14 +1283,14 @@
 	"Guilty Gear (Europe)": {
 		"languages": "En"
 	},
-	"Guilty Gear (Japan)": {
-		"languages": "Ja"
-	},
 	"Guilty Gear (France)": {
 		"languages": "Fr"
 	},
 	"Guilty Gear (Italy)": {
 		"languages": "It"
+	},
+	"Guilty Gear (Japan)": {
+		"languages": "Ja"
 	},
 	"Gunbare! Game Tengoku - The Game Paradise 2 (Japan)": {
 		"languages": "Ja"
@@ -1283,11 +1319,11 @@
 	"Harmful Park (Japan)": {
 		"languages": "Ja"
 	},
-	"Harvest Moon - Back to Nature (USA)": {
-		"languages": "En"
-	},
 	"Harvest Moon - Back to Nature (Germany) (En,De)": {
 		"languages": "En,De"
+	},
+	"Harvest Moon - Back to Nature (USA)": {
+		"languages": "En"
 	},
 	"Hashiriya - Ookami Tachi no Densetsu (Japan)": {
 		"languages": "Ja"
@@ -1301,20 +1337,20 @@
 	"Herc's Adventure (USA)": {
 		"languages": "En"
 	},
-	"Heroine Dream (Japan)": {
+	"Heroine Dream 2 (Japan)": {
 		"languages": "Ja"
 	},
-	"Heroine Dream 2 (Japan)": {
+	"Heroine Dream (Japan)": {
 		"languages": "Ja"
 	},
 	"Hi Takara O (Japan)": {
 		"languages": "Ja"
 	},
-	"Hi-Octane (Japan)": {
-		"languages": "Ja"
-	},
 	"Hi-Octane (Europe)": {
 		"languages": "En"
+	},
+	"Hi-Octane (Japan)": {
+		"languages": "Ja"
 	},
 	"Hi-Octane - The Track Fights Back (USA)": {
 		"languages": "En"
@@ -1330,6 +1366,9 @@
 	},
 	"Hot Shots Golf 2 (USA)": {
 		"languages": "En"
+	},
+	"Hydlide Special (Japan)": {
+		"languages": "Ja"
 	},
 	"Hyouryuu Ki - The Reportage Beyond the Sea (Japan)": {
 		"languages": "Ja"
@@ -1364,10 +1403,10 @@
 	"International Track & Field (Germany)": {
 		"languages": "De"
 	},
-	"International Track & Field (USA)": {
+	"International Track & Field (United Kingdom)": {
 		"languages": "En"
 	},
-	"International Track & Field (United Kingdom)": {
+	"International Track & Field (USA)": {
 		"languages": "En"
 	},
 	"Irem Arcade Classics (Japan)": {
@@ -1382,10 +1421,16 @@
 	"Jet Copter X (Japan)": {
 		"languages": "Ja"
 	},
+	"Jet Moto 2 (USA)": {
+		"languages": "En"
+	},
+	"Jet Moto (Japan)": {
+		"languages": "Ja"
+	},
 	"Jet Moto (USA)": {
 		"languages": "En"
 	},
-	"Jet Moto 2 (USA)": {
+	"Jet Rider 2 (Europe)": {
 		"languages": "En"
 	},
 	"Jet Rider (Europe)": {
@@ -1393,9 +1438,6 @@
 	},
 	"Jet Rider (Germany)": {
 		"languages": "De"
-	},
-	"Jet Rider 2 (Europe)": {
-		"languages": "En"
 	},
 	"Jigsaw Madness (Europe)": {
 		"languages": "En"
@@ -1406,10 +1448,19 @@
 	"Jiisan 2 Tabi Bikkuri - CG Mukashibanashi (Japan)": {
 		"languages": "Ja"
 	},
+	"Judge Dredd (Europe)": {
+		"languages": "En"
+	},
 	"Judge Dredd (France)": {
 		"languages": "Fr"
 	},
-	"Judge Dredd (Europe)": {
+	"Jumping Flash! 2 (USA)": {
+		"languages": "En"
+	},
+	"Jumping Flash! 2 - Aloha Danshaku Ooyowari no Kan (Japan)": {
+		"languages": "Ja"
+	},
+	"Jumping Flash! (Europe)": {
 		"languages": "En"
 	},
 	"Jumping Flash! (Japan)": {
@@ -1417,15 +1468,6 @@
 	},
 	"Jumping Flash! (USA)": {
 		"languages": "En"
-	},
-	"Jumping Flash! (Europe)": {
-		"languages": "En"
-	},
-	"Jumping Flash! 2 (USA)": {
-		"languages": "En"
-	},
-	"Jumping Flash! 2 - Aloha Danshaku Ooyowari no Kan (Japan)": {
-		"languages": "Ja"
 	},
 	"Kagero (Japan)": {
 		"languages": "Ja"
@@ -1448,10 +1490,10 @@
 	"Kickboxing (USA)": {
 		"languages": "En"
 	},
-	"Kileak - The Blood (Japan)": {
+	"Kileak - The Blood 2 (Japan)": {
 		"languages": "Ja"
 	},
-	"Kileak - The Blood 2 (Japan)": {
+	"Kileak - The Blood (Japan)": {
 		"languages": "Ja"
 	},
 	"King of Fighters '95, The (Asia)": {
@@ -1499,16 +1541,19 @@
 	"Kitchen Panic (Japan)": {
 		"languages": "Ja"
 	},
+	"Klonoa - Door to Phantomile (Europe)": {
+		"languages": "En"
+	},
 	"Klonoa - Door to Phantomile (Germany)": {
 		"languages": "De"
 	},
-	"Klonoa - Door to Phantomile (USA)": {
-		"languages": "En"
+	"Klonoa - Door to Phantomile (Italy)": {
+		"languages": "It"
 	},
 	"Klonoa - Door to Phantomile (United Kingdom)": {
 		"languages": "En"
 	},
-	"Klonoa - Door to Phantomile (Europe)": {
+	"Klonoa - Door to Phantomile (USA)": {
 		"languages": "En"
 	},
 	"Knight & Baby (Japan)": {
@@ -1574,10 +1619,10 @@
 	"Kyuiin (Japan)": {
 		"languages": "Ja"
 	},
-	"Kyuutenkai (Japan)": {
+	"Kyuutenkai (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
-	"Kyuutenkai (Japan) (Rev 1)": {
+	"Kyuutenkai (Japan)": {
 		"languages": "Ja"
 	},
 	"LandMaker (Japan)": {
@@ -1592,6 +1637,9 @@
 	"Legacy of Kain - Soul Reaver (Europe)": {
 		"languages": "En"
 	},
+	"Legacy of Kain - Soul Reaver (France)": {
+		"languages": "Fr"
+	},
 	"Legacy of Kain - Soul Reaver (Germany)": {
 		"languages": "De"
 	},
@@ -1600,9 +1648,6 @@
 	},
 	"Legacy of Kain - Soul Reaver (USA)": {
 		"languages": "En"
-	},
-	"Legacy of Kain - Soul Reaver (France)": {
-		"languages": "Fr"
 	},
 	"Legend of Dragoon, The (Japan) (PS3 v3.50)": {
 		"languages": "Ja"
@@ -1679,10 +1724,10 @@
 	"Mahjong Uranai Fortuna - Tsuki no Megami Tachi (Japan)": {
 		"languages": "Ja"
 	},
-	"Mahjong Youchien - Tamago-Gumi - Jong for Beginners (Japan)": {
+	"Mahjong Youchien - Tamago-Gumi 2 - Taikai e Ikou! (Japan)": {
 		"languages": "Ja"
 	},
-	"Mahjong Youchien - Tamago-Gumi 2 - Taikai e Ikou! (Japan)": {
+	"Mahjong Youchien - Tamago-Gumi - Jong for Beginners (Japan)": {
 		"languages": "Ja"
 	},
 	"Mahoutsukai ni Naru Houhou (Japan)": {
@@ -1694,10 +1739,10 @@
 	"Manpuku!! Nabe Kazoku (Japan)": {
 		"languages": "Ja"
 	},
-	"Marionette Company (Japan)": {
+	"Marionette Company 2 (Japan)": {
 		"languages": "Ja"
 	},
-	"Marionette Company 2 (Japan)": {
+	"Marionette Company (Japan)": {
 		"languages": "Ja"
 	},
 	"Marl Jong!! (Japan)": {
@@ -1709,10 +1754,10 @@
 	"Mass Destruction (USA)": {
 		"languages": "En"
 	},
-	"Max Surfing 2000 (Japan)": {
+	"Max Surfing 2nd (Japan)": {
 		"languages": "Ja"
 	},
-	"Max Surfing 2nd (Japan)": {
+	"Max Surfing 2000 (Japan)": {
 		"languages": "Ja"
 	},
 	"Medal of Honor (USA)": {
@@ -1727,14 +1772,17 @@
 	"MediEvil (Germany)": {
 		"languages": "De"
 	},
-	"MediEvil (USA)": {
+	"MediEvil (Italy)": {
+		"languages": "It"
+	},
+	"MediEvil (USA) (Unlock Key)": {
 		"languages": "En"
 	},
 	"MediEvil (USA) (v0.00)": {
 		"languages": "En"
 	},
-	"MediEvil (Italy)": {
-		"languages": "It"
+	"MediEvil (USA)": {
+		"languages": "En"
 	},
 	"MediEvil - Yomigaetta Gallowmere no Yuusha (Japan)": {
 		"languages": "Ja"
@@ -1742,10 +1790,10 @@
 	"Mega Man 8 (USA)": {
 		"languages": "En"
 	},
-	"Mega Man Legends (USA)": {
+	"Mega Man Legends 2 (USA)": {
 		"languages": "En"
 	},
-	"Mega Man Legends 2 (USA)": {
+	"Mega Man Legends (USA)": {
 		"languages": "En"
 	},
 	"Mega Man X4 (USA)": {
@@ -1772,14 +1820,29 @@
 	"Memorial Series - Sunsoft Vol. 6 (Japan)": {
 		"languages": "Ja"
 	},
+	"Metal Gear Solid (Asia)": {
+		"languages": "Zh"
+	},
+	"Metal Gear Solid (Europe) (Rev 1)": {
+		"languages": "En"
+	},
 	"Metal Gear Solid (Europe)": {
 		"languages": "En"
+	},
+	"Metal Gear Solid (France) (Rev 1)": {
+		"languages": "Fr"
 	},
 	"Metal Gear Solid (France)": {
 		"languages": "Fr"
 	},
+	"Metal Gear Solid (Germany) (Rev 1)": {
+		"languages": "De"
+	},
 	"Metal Gear Solid (Germany)": {
 		"languages": "De"
+	},
+	"Metal Gear Solid (Italy) (Rev 1)": {
+		"languages": "It"
 	},
 	"Metal Gear Solid (Italy)": {
 		"languages": "It"
@@ -1787,32 +1850,17 @@
 	"Metal Gear Solid (Japan) (PS3 v2.10, PSP v3.90)": {
 		"languages": "Ja"
 	},
+	"Metal Gear Solid (Japan) (PS3 v2.17, PSP v3.93)": {
+		"languages": "Ja"
+	},
+	"Metal Gear Solid (Spain) (Rev 1)": {
+		"languages": "Es"
+	},
 	"Metal Gear Solid (Spain)": {
 		"languages": "Es"
 	},
 	"Metal Gear Solid (USA)": {
 		"languages": "En"
-	},
-	"Metal Gear Solid (Europe) (Rev 1)": {
-		"languages": "En"
-	},
-	"Metal Gear Solid (France) (Rev 1)": {
-		"languages": "Fr"
-	},
-	"Metal Gear Solid (Germany) (Rev 1)": {
-		"languages": "De"
-	},
-	"Metal Gear Solid (Italy) (Rev 1)": {
-		"languages": "It"
-	},
-	"Metal Gear Solid (Spain) (Rev 1)": {
-		"languages": "Es"
-	},
-	"Metal Gear Solid (Japan) (PS3 v2.17, PSP v3.93)": {
-		"languages": "Ja"
-	},
-	"Metal Gear Solid (Asia)": {
-		"languages": "Zh"
 	},
 	"Metal Gear Solid - Integral (Japan)": {
 		"languages": "Ja"
@@ -1880,14 +1928,14 @@
 	"Misadventures of Tron Bonne, The (USA)": {
 		"languages": "En"
 	},
-	"Missile Command (USA)": {
-		"languages": "En"
-	},
 	"Missile Command (Germany)": {
 		"languages": "De"
 	},
 	"Missile Command (Russia)": {
 		"languages": "Ru"
+	},
+	"Missile Command (USA)": {
+		"languages": "En"
 	},
 	"Mobile Light Force (USA)": {
 		"languages": "En"
@@ -1907,14 +1955,14 @@
 	"Monster Farm 2 (Japan)": {
 		"languages": "Ja"
 	},
+	"Motor Toon Grand Prix 2 (Europe)": {
+		"languages": "En"
+	},
 	"Motor Toon Grand Prix (USA)": {
 		"languages": "En"
 	},
 	"Motor Toon Grand Prix - USA Edition (Japan)": {
 		"languages": "Ja"
-	},
-	"Motor Toon Grand Prix 2 (Europe)": {
-		"languages": "En"
 	},
 	"Motorhead (Europe)": {
 		"languages": "En"
@@ -1928,11 +1976,11 @@
 	"Motto Trump Shiyou yo! (Japan)": {
 		"languages": "Ja"
 	},
-	"Mr. Driller (USA)": {
-		"languages": "En"
-	},
 	"Mr. Driller (Japan)": {
 		"languages": "Ja"
+	},
+	"Mr. Driller (USA)": {
+		"languages": "En"
 	},
 	"Mr. Driller G (Japan)": {
 		"languages": "Ja"
@@ -1967,35 +2015,35 @@
 	"Namco Museum Encore (Japan)": {
 		"languages": "Ja"
 	},
-	"Namco Museum Vol. 1 (USA)": {
-		"languages": "En"
-	},
 	"Namco Museum Vol. 1 (Japan)": {
 		"languages": "Ja"
 	},
-	"Namco Museum Vol. 2 (USA)": {
+	"Namco Museum Vol. 1 (USA)": {
 		"languages": "En"
 	},
 	"Namco Museum Vol. 2 (Japan)": {
 		"languages": "Ja"
 	},
-	"Namco Museum Vol. 3 (USA)": {
+	"Namco Museum Vol. 2 (USA)": {
 		"languages": "En"
 	},
 	"Namco Museum Vol. 3 (Japan)": {
 		"languages": "Ja"
 	},
-	"Namco Museum Vol. 4 (USA)": {
+	"Namco Museum Vol. 3 (USA)": {
 		"languages": "En"
 	},
 	"Namco Museum Vol. 4 (Japan)": {
 		"languages": "Ja"
 	},
-	"Namco Museum Vol. 5 (USA)": {
+	"Namco Museum Vol. 4 (USA)": {
 		"languages": "En"
 	},
 	"Namco Museum Vol. 5 (Japan)": {
 		"languages": "Ja"
+	},
+	"Namco Museum Vol. 5 (USA)": {
+		"languages": "En"
 	},
 	"Nectaris (Japan)": {
 		"languages": "Ja"
@@ -2015,19 +2063,19 @@
 	"Neo Planet (Japan)": {
 		"languages": "Ja"
 	},
+	"Neorude 2 (Japan)": {
+		"languages": "Ja"
+	},
 	"Neorude (Japan)": {
 		"languages": "Ja"
 	},
 	"Neorude - Kizamareta Monshou (Japan)": {
 		"languages": "Ja"
 	},
-	"Neorude 2 (Japan)": {
+	"Nippon Pro Mahjong Renmei Kounin - Doujou Yaburi 2 (Japan)": {
 		"languages": "Ja"
 	},
 	"Nippon Pro Mahjong Renmei Kounin - Doujou Yaburi (Japan)": {
-		"languages": "Ja"
-	},
-	"Nippon Pro Mahjong Renmei Kounin - Doujou Yaburi 2 (Japan)": {
 		"languages": "Ja"
 	},
 	"Nippon Pro Mahjong Renmei Kounin - Shin Tetsuman (Japan)": {
@@ -2042,6 +2090,9 @@
 	"Nobunaga no Yabou - Zenkokuban (Japan)": {
 		"languages": "Ja"
 	},
+	"NOeL 3 - Mission on the Line (Japan)": {
+		"languages": "Ja"
+	},
 	"Noel - La Neige (Japan)": {
 		"languages": "Ja"
 	},
@@ -2049,9 +2100,6 @@
 		"languages": "Ja"
 	},
 	"NOeL - Not Digital (Japan)": {
-		"languages": "Ja"
-	},
-	"NOeL 3 - Mission on the Line (Japan)": {
 		"languages": "Ja"
 	},
 	"Noon - New Type Action Game (Japan)": {
@@ -2108,16 +2156,16 @@
 	"OverBlood (Japan)": {
 		"languages": "Ja"
 	},
-	"Pac-Man World 20th Anniversary (USA)": {
-		"languages": "En"
-	},
 	"Pac-Man World 20th Anniversary (Japan)": {
 		"languages": "Ja"
 	},
-	"Pacapaca Passion (Japan)": {
-		"languages": "Ja"
+	"Pac-Man World 20th Anniversary (USA)": {
+		"languages": "En"
 	},
 	"Pacapaca Passion 2 (Japan)": {
+		"languages": "Ja"
+	},
+	"Pacapaca Passion (Japan)": {
 		"languages": "Ja"
 	},
 	"Pacapaca Passion Special (Japan)": {
@@ -2126,13 +2174,13 @@
 	"Pandemonium 2 (Germany)": {
 		"languages": "De"
 	},
+	"Pandemonium! 2 (Europe)": {
+		"languages": "En"
+	},
 	"Pandemonium! (Europe)": {
 		"languages": "En"
 	},
 	"Pandemonium! (USA)": {
-		"languages": "En"
-	},
-	"Pandemonium! 2 (Europe)": {
 		"languages": "En"
 	},
 	"Panekit (Japan)": {
@@ -2143,6 +2191,9 @@
 	},
 	"Panzer Bandit (Japan)": {
 		"languages": "Ja"
+	},
+	"Parasite Eve (Asia)": {
+		"languages": "Zh"
 	},
 	"Parasite Eve (Japan)": {
 		"languages": "Ja"
@@ -2159,14 +2210,14 @@
 	"Parasite Eve II (Germany)": {
 		"languages": "De"
 	},
+	"Parasite Eve II (Italy)": {
+		"languages": "It"
+	},
 	"Parasite Eve II (Japan)": {
 		"languages": "Ja"
 	},
 	"Parasite Eve II (USA)": {
 		"languages": "En"
-	},
-	"Parasite Eve II (Italy)": {
-		"languages": "It"
 	},
 	"Perfect Weapon (USA)": {
 		"languages": "En"
@@ -2189,6 +2240,9 @@
 	"Pocket Jiman (Japan)": {
 		"languages": "Ja"
 	},
+	"Pocket MuuMuu (Japan)": {
+		"languages": "Ja"
+	},
 	"Pocket Tuner (Japan) (PS3 v3.60)": {
 		"languages": "Ja"
 	},
@@ -2198,10 +2252,10 @@
 	"Poitters' Point (Japan)": {
 		"languages": "Ja"
 	},
-	"Policenauts (Japan)": {
+	"Policenauts (Japan) (Alt)": {
 		"languages": "Ja"
 	},
-	"Policenauts (Japan) (Alt)": {
+	"Policenauts (Japan)": {
 		"languages": "Ja"
 	},
 	"Pong (USA)": {
@@ -2249,10 +2303,10 @@
 	"Pro Mahjong Kiwame Plus II (Japan)": {
 		"languages": "Ja"
 	},
-	"Pro Wrestling Sengokuden - Hyper Tag Match (Japan)": {
+	"Pro Wrestling Sengokuden 2 (Japan)": {
 		"languages": "Ja"
 	},
-	"Pro Wrestling Sengokuden 2 (Japan)": {
+	"Pro Wrestling Sengokuden - Hyper Tag Match (Japan)": {
 		"languages": "Ja"
 	},
 	"Project GaiaRay (Japan)": {
@@ -2264,13 +2318,16 @@
 	"Puchi Carat (Japan)": {
 		"languages": "Ja"
 	},
-	"Pukunpa - Joshikousei no Houkago (Japan) (PS3 v4.70, PSP v6.61)": {
-		"languages": "Ja"
-	},
 	"Pukunpa - Joshikousei no Houkago (Japan) (PS3 v3.10, PSP v3.95)": {
 		"languages": "Ja"
 	},
 	"Pukunpa - Joshikousei no Houkago (Japan) (PS3 v4.70, PSP v6.60)": {
+		"languages": "Ja"
+	},
+	"Pukunpa - Joshikousei no Houkago (Japan) (PS3 v4.70, PSP v6.61)": {
+		"languages": "Ja"
+	},
+	"Puppet Zoo Pilomy (Japan)": {
 		"languages": "Ja"
 	},
 	"Putter Golf (USA)": {
@@ -2300,6 +2357,9 @@
 	"Quiz Nanairo Dreams - Nijiiro Machi no Kiseki (Japan)": {
 		"languages": "Ja"
 	},
+	"R4 - Ridge Racer Type 4 (Japan)": {
+		"languages": "Ja"
+	},
 	"R-4 Ridge Racer Type 4 (Europe)": {
 		"languages": "En"
 	},
@@ -2314,9 +2374,6 @@
 	},
 	"R-Types (USA)": {
 		"languages": "En"
-	},
-	"R4 - Ridge Racer Type 4 (Japan)": {
-		"languages": "Ja"
 	},
 	"Racing (USA)": {
 		"languages": "En"
@@ -2333,11 +2390,11 @@
 	"Rally Cross (Europe)": {
 		"languages": "En"
 	},
-	"Rally Cross (USA)": {
-		"languages": "En"
-	},
 	"Rally Cross (Japan)": {
 		"languages": "Ja"
+	},
+	"Rally Cross (USA)": {
+		"languages": "En"
 	},
 	"Rapid Angel (Japan)": {
 		"languages": "Ja"
@@ -2354,34 +2411,37 @@
 	"Raycrisis (Japan) (PS3 v4.46)": {
 		"languages": "Ja"
 	},
-	"Rayman (Europe)": {
-		"languages": "En"
-	},
-	"Rayman (Germany)": {
-		"languages": "De"
-	},
-	"Rayman (Japan)": {
-		"languages": "Ja"
-	},
-	"Rayman (USA)": {
-		"languages": "En"
-	},
-	"Rayman (France)": {
-		"languages": "Fr"
-	},
-	"Rayman (Spain)": {
-		"languages": "Es"
-	},
-	"Rayman 2 - The Great Escape (Europe)": {
-		"languages": "En"
-	},
 	"Rayman 2 - The Great Escape (Europe) (En,Es,It)": {
 		"languages": "En,Es,It"
 	},
 	"Rayman 2 - The Great Escape (Europe) (Fr,De)": {
 		"languages": "Fr,De"
 	},
+	"Rayman 2 - The Great Escape (Europe)": {
+		"languages": "En"
+	},
 	"Rayman 2 - The Great Escape (USA)": {
+		"languages": "En"
+	},
+	"Rayman (Europe)": {
+		"languages": "En"
+	},
+	"Rayman (France)": {
+		"languages": "Fr"
+	},
+	"Rayman (Germany)": {
+		"languages": "De"
+	},
+	"Rayman (Italy)": {
+		"languages": "It"
+	},
+	"Rayman (Japan)": {
+		"languages": "Ja"
+	},
+	"Rayman (Spain)": {
+		"languages": "Es"
+	},
+	"Rayman (USA)": {
 		"languages": "En"
 	},
 	"Raystorm (Japan)": {
@@ -2405,16 +2465,43 @@
 	"Reel Fishing II (USA)": {
 		"languages": "En"
 	},
-	"Reloaded (USA)": {
-		"languages": "En"
-	},
 	"Reloaded (Germany)": {
 		"languages": "De"
 	},
 	"Reloaded (United Kingdom)": {
 		"languages": "En"
 	},
-	"Resident Evil - Director's Cut (USA)": {
+	"Reloaded (USA)": {
+		"languages": "En"
+	},
+	"Resident Evil 2 (Europe)": {
+		"languages": "En"
+	},
+	"Resident Evil 2 (France)": {
+		"languages": "Fr"
+	},
+	"Resident Evil 2 (Germany)": {
+		"languages": "De"
+	},
+	"Resident Evil 2 (Italy)": {
+		"languages": "It"
+	},
+	"Resident Evil 2 - Dual Shock Ver. (USA)": {
+		"languages": "En"
+	},
+	"Resident Evil 3 - Nemesis (Europe)": {
+		"languages": "En"
+	},
+	"Resident Evil 3 - Nemesis (France)": {
+		"languages": "Fr"
+	},
+	"Resident Evil 3 - Nemesis (Germany)": {
+		"languages": "De"
+	},
+	"Resident Evil 3 - Nemesis (Italy)": {
+		"languages": "It"
+	},
+	"Resident Evil 3 - Nemesis (USA)": {
 		"languages": "En"
 	},
 	"Resident Evil - Director's Cut (Europe) (2011-03-18)": {
@@ -2423,44 +2510,17 @@
 	"Resident Evil - Director's Cut (Europe) (2012-09-03)": {
 		"languages": "En"
 	},
-	"Resident Evil - Director's Cut (Germany)": {
-		"languages": "De"
-	},
 	"Resident Evil - Director's Cut (France)": {
 		"languages": "Fr"
+	},
+	"Resident Evil - Director's Cut (Germany)": {
+		"languages": "De"
 	},
 	"Resident Evil - Director's Cut (Italy)": {
 		"languages": "It"
 	},
-	"Resident Evil 2 (Italy)": {
-		"languages": "It"
-	},
-	"Resident Evil 2 (Europe)": {
+	"Resident Evil - Director's Cut (USA)": {
 		"languages": "En"
-	},
-	"Resident Evil 2 (Germany)": {
-		"languages": "De"
-	},
-	"Resident Evil 2 (France)": {
-		"languages": "Fr"
-	},
-	"Resident Evil 2 - Dual Shock Ver. (USA)": {
-		"languages": "En"
-	},
-	"Resident Evil 3 - Nemesis (Europe)": {
-		"languages": "En"
-	},
-	"Resident Evil 3 - Nemesis (USA)": {
-		"languages": "En"
-	},
-	"Resident Evil 3 - Nemesis (Germany)": {
-		"languages": "De"
-	},
-	"Resident Evil 3 - Nemesis (France)": {
-		"languages": "Fr"
-	},
-	"Resident Evil 3 - Nemesis (Italy)": {
-		"languages": "It"
 	},
 	"Reverthion (Japan)": {
 		"languages": "Ja"
@@ -2472,15 +2532,6 @@
 		"languages": "Ja"
 	},
 	"Robin Lloyd no Bouken (Japan)": {
-		"languages": "Ja"
-	},
-	"RockMan (Japan)": {
-		"languages": "Ja"
-	},
-	"RockMan (Japan) (PS3 v4.46)": {
-		"languages": "Ja"
-	},
-	"Rockman - Battle & Chase (Japan)": {
 		"languages": "Ja"
 	},
 	"RockMan 2 - Dr. Wily no Nazo (Japan) (PS3 v2.80)": {
@@ -2516,6 +2567,15 @@
 	"RockMan 8 - Metal Heroes (Japan)": {
 		"languages": "Ja"
 	},
+	"RockMan (Japan) (PS3 v4.46)": {
+		"languages": "Ja"
+	},
+	"RockMan (Japan)": {
+		"languages": "Ja"
+	},
+	"Rockman - Battle & Chase (Japan)": {
+		"languages": "Ja"
+	},
 	"RockMan X4 (Japan)": {
 		"languages": "Ja"
 	},
@@ -2534,10 +2594,10 @@
 	"Ryuki Densyo - Dragoon (Japan)": {
 		"languages": "Ja"
 	},
-	"SaGa Frontier (Japan)": {
+	"SaGa Frontier 2 (Japan)": {
 		"languages": "Ja"
 	},
-	"SaGa Frontier 2 (Japan)": {
+	"SaGa Frontier (Japan)": {
 		"languages": "Ja"
 	},
 	"Saikyou Ginsei Chess (Japan)": {
@@ -2558,9 +2618,6 @@
 	"Salary Man Champ - Tatakau Salary Man (Japan)": {
 		"languages": "Ja"
 	},
-	"Samurai Shodown - Warrior's Rage (Japan)": {
-		"languages": "Ja"
-	},
 	"Samurai Shodown 1 & 2 (Japan)": {
 		"languages": "Ja"
 	},
@@ -2573,7 +2630,7 @@
 	"Samurai Shodown 4 - Amakusa's Revenge Special (Japan)": {
 		"languages": "Ja"
 	},
-	"Sanyo Pachinko Paradise (Japan)": {
+	"Samurai Shodown - Warrior's Rage (Japan)": {
 		"languages": "Ja"
 	},
 	"Sanyo Pachinko Paradise 2 (Japan)": {
@@ -2589,6 +2646,9 @@
 		"languages": "Ja"
 	},
 	"Sanyo Pachinko Paradise 5 (Japan)": {
+		"languages": "Ja"
+	},
+	"Sanyo Pachinko Paradise (Japan)": {
 		"languages": "Ja"
 	},
 	"Saru! Get You! (Japan)": {
@@ -2669,6 +2729,9 @@
 	"Silent Hill (Germany)": {
 		"languages": "De"
 	},
+	"Silent Hill (Italy)": {
+		"languages": "It"
+	},
 	"Silent Hill (USA)": {
 		"languages": "En"
 	},
@@ -2684,14 +2747,14 @@
 	"Sim Theme Park (USA)": {
 		"languages": "En"
 	},
-	"SimCity 2000 (USA)": {
-		"languages": "En"
-	},
 	"SimCity 2000 (Europe)": {
 		"languages": "En"
 	},
-	"Simple 1500 Series Vol. 101 - The Sentou (Japan)": {
-		"languages": "Ja"
+	"SimCity 2000 (Germany)": {
+		"languages": "De"
+	},
+	"SimCity 2000 (USA)": {
+		"languages": "En"
 	},
 	"Simple 1500 Series Vol. 14 - The Block Kuzushi (Japan)": {
 		"languages": "Ja"
@@ -2825,6 +2888,9 @@
 	"Simple 1500 Series Vol. 99 - The Kendo - Ken no Hanamichi (Japan)": {
 		"languages": "Ja"
 	},
+	"Simple 1500 Series Vol. 101 - The Sentou (Japan)": {
+		"languages": "Ja"
+	},
 	"Slap Happy Rhythm Busters (Japan)": {
 		"languages": "Ja"
 	},
@@ -2879,25 +2945,22 @@
 	"Spec Ops - Stealth Patrol (USA)": {
 		"languages": "En"
 	},
-	"Spectral Force (Japan)": {
-		"languages": "Ja"
-	},
 	"Spectral Force 2 - Eien naru Kiseki (Japan)": {
 		"languages": "Ja"
 	},
-	"Spectral Tower (Japan)": {
+	"Spectral Force (Japan)": {
 		"languages": "Ja"
 	},
 	"Spectral Tower 2 (Japan)": {
+		"languages": "Ja"
+	},
+	"Spectral Tower (Japan)": {
 		"languages": "Ja"
 	},
 	"Spin Jam (Europe)": {
 		"languages": "En"
 	},
 	"Sports Superbike (Europe)": {
-		"languages": "En"
-	},
-	"Spyro - Year of the Dragon (USA)": {
 		"languages": "En"
 	},
 	"Spyro 2 - Gateway to Glimmer (Europe)": {
@@ -2921,13 +2984,19 @@
 	"Spyro 3 - Year of the Dragon (Russia)": {
 		"languages": "Ru"
 	},
+	"Spyro - Year of the Dragon (USA)": {
+		"languages": "En"
+	},
 	"Spyro the Dragon (Europe)": {
 		"languages": "En"
 	},
 	"Spyro the Dragon (Germany)": {
 		"languages": "De"
 	},
-	"Spyro the Dragon (Japan)": {
+	"Spyro the Dragon (Japan) (PS3 v4.46)": {
+		"languages": "Ja"
+	},
+	"Spyro the Dragon (Japan) (PS3 v4.65)": {
 		"languages": "Ja"
 	},
 	"Spyro the Dragon (Russia)": {
@@ -2960,24 +3029,6 @@
 	"Street Boarders 2 (Japan)": {
 		"languages": "Ja"
 	},
-	"Street Fighter Alpha - Warrior's Dream (Spain)": {
-		"languages": "Es"
-	},
-	"Street Fighter Alpha - Warriors' Dreams (Germany)": {
-		"languages": "De"
-	},
-	"Street Fighter Alpha - Warriors' Dreams (USA)": {
-		"languages": "En"
-	},
-	"Street Fighter Alpha - Warriors' Dreams (France)": {
-		"languages": "Fr"
-	},
-	"Street Fighter Alpha - Warriors' Dreams (Japan)": {
-		"languages": "Ja"
-	},
-	"Street Fighter Alpha - Warriors' Dreams (Europe)": {
-		"languages": "En"
-	},
 	"Street Fighter Alpha 2 (Europe)": {
 		"languages": "En"
 	},
@@ -2987,17 +3038,41 @@
 	"Street Fighter Alpha 2 (USA)": {
 		"languages": "En"
 	},
+	"Street Fighter Alpha 3 (Japan)": {
+		"languages": "Ja"
+	},
 	"Street Fighter Alpha 3 (USA)": {
 		"languages": "En"
 	},
-	"Street Fighter Alpha 3 (Japan)": {
+	"Street Fighter Alpha - Warrior's Dream (Spain)": {
+		"languages": "Es"
+	},
+	"Street Fighter Alpha - Warriors' Dreams (Europe)": {
+		"languages": "En"
+	},
+	"Street Fighter Alpha - Warriors' Dreams (France)": {
+		"languages": "Fr"
+	},
+	"Street Fighter Alpha - Warriors' Dreams (Germany)": {
+		"languages": "De"
+	},
+	"Street Fighter Alpha - Warriors' Dreams (Japan)": {
 		"languages": "Ja"
+	},
+	"Street Fighter Alpha - Warriors' Dreams (USA)": {
+		"languages": "En"
 	},
 	"Street Fighter Zero 2 (Japan)": {
 		"languages": "Ja"
 	},
 	"Street Racquet Ball (USA)": {
 		"languages": "En"
+	},
+	"Street Skater 2 (Europe)": {
+		"languages": "En"
+	},
+	"Street Skater 2 (Germany) (En,Fr,De)": {
+		"languages": "En,Fr,De"
 	},
 	"Street Skater (Europe)": {
 		"languages": "En"
@@ -3014,17 +3089,14 @@
 	"Street Skater (Spain)": {
 		"languages": "Es"
 	},
-	"Street Skater 2 (Europe)": {
-		"languages": "En"
-	},
-	"Street Skater 2 (Germany) (En,Fr,De)": {
-		"languages": "En,Fr,De"
-	},
-	"Strider 1 & 2 (Japan)": {
-		"languages": "Ja"
-	},
 	"Strider 1 & 2 (USA)": {
 		"languages": "En"
+	},
+	"Strider Hiryuu 1 & 2 (Japan) (Alt)": {
+		"languages": "Ja"
+	},
+	"Strider Hiryuu 1 & 2 (Japan)": {
+		"languages": "Ja"
 	},
 	"Suikoden (Europe)": {
 		"languages": "En"
@@ -3038,10 +3110,10 @@
 	"Suikoden II (USA)": {
 		"languages": "En"
 	},
-	"Summon Night (Japan)": {
+	"Summon Night 2 (Japan)": {
 		"languages": "Ja"
 	},
-	"Summon Night 2 (Japan)": {
+	"Summon Night (Japan)": {
 		"languages": "Ja"
 	},
 	"Suna no Embrace - Eden no Sato no Never (Japan)": {
@@ -3098,9 +3170,6 @@
 	"SuperLite 1500 Series - Hanafuda II (Japan)": {
 		"languages": "Ja"
 	},
-	"SuperLite 1500 Series - Oekaki Puzzle (Japan)": {
-		"languages": "Ja"
-	},
 	"SuperLite 1500 Series - Oekaki Puzzle 3 (Japan)": {
 		"languages": "Ja"
 	},
@@ -3108,6 +3177,9 @@
 		"languages": "Ja"
 	},
 	"SuperLite 1500 Series - Oekaki Puzzle 5 (Japan)": {
+		"languages": "Ja"
+	},
+	"SuperLite 1500 Series - Oekaki Puzzle (Japan)": {
 		"languages": "Ja"
 	},
 	"SuperLite 1500 Series - Pinball Golden Logres (Japan)": {
@@ -3131,25 +3203,10 @@
 	"Syndicate Wars (Germany)": {
 		"languages": "De"
 	},
-	"Syphon Filter (Europe)": {
-		"languages": "En"
-	},
-	"Syphon Filter (Germany)": {
-		"languages": "De"
-	},
-	"Syphon Filter (Italy)": {
-		"languages": "It"
-	},
-	"Syphon Filter (USA) (v1.00)": {
-		"languages": "En"
-	},
-	"Syphon Filter (USA) (v0.00)": {
+	"Syphon Filter 2 (Europe)": {
 		"languages": "En"
 	},
 	"Syphon Filter 2 (USA)": {
-		"languages": "En"
-	},
-	"Syphon Filter 2 (Europe)": {
 		"languages": "En"
 	},
 	"Syphon Filter 3 (Europe)": {
@@ -3165,6 +3222,21 @@
 		"languages": "Es"
 	},
 	"Syphon Filter 3 (USA)": {
+		"languages": "En"
+	},
+	"Syphon Filter (Europe)": {
+		"languages": "En"
+	},
+	"Syphon Filter (Germany)": {
+		"languages": "De"
+	},
+	"Syphon Filter (Italy)": {
+		"languages": "It"
+	},
+	"Syphon Filter (USA) (v0.00)": {
+		"languages": "En"
+	},
+	"Syphon Filter (USA) (v1.00)": {
 		"languages": "En"
 	},
 	"Taiyou no Shippo - Wild, Pure, Simple Life (Japan)": {
@@ -3197,10 +3269,31 @@
 	"Tehodoki Mahjong - Nyuumon-hen (Japan)": {
 		"languages": "Ja"
 	},
-	"Tekken (Europe)": {
+	"Tekken 2 (Canada)": {
 		"languages": "En"
 	},
-	"Tekken (USA)": {
+	"Tekken 2 (Europe)": {
+		"languages": "En"
+	},
+	"Tekken 2 (France)": {
+		"languages": "Fr"
+	},
+	"Tekken 2 (Germany)": {
+		"languages": "De"
+	},
+	"Tekken 2 (Japan)": {
+		"languages": "Ja"
+	},
+	"Tekken 2 (USA) (PSP v3.01) (PARAM.SFO)": {
+		"languages": "En"
+	},
+	"Tekken 2 (USA) (PSP v3.01)": {
+		"languages": "En"
+	},
+	"Tekken 2 (USA) (PSP v3.40)": {
+		"languages": "En"
+	},
+	"Tekken (Europe)": {
 		"languages": "En"
 	},
 	"Tekken (Germany)": {
@@ -3209,26 +3302,8 @@
 	"Tekken (Japan)": {
 		"languages": "Ja"
 	},
-	"Tekken 2 (France)": {
-		"languages": "Fr"
-	},
-	"Tekken 2 (Canada)": {
+	"Tekken (USA)": {
 		"languages": "En"
-	},
-	"Tekken 2 (Europe)": {
-		"languages": "En"
-	},
-	"Tekken 2 (Japan)": {
-		"languages": "Ja"
-	},
-	"Tekken 2 (USA)": {
-		"languages": "En"
-	},
-	"Tekken 2 (USA) (v0.00)": {
-		"languages": "En"
-	},
-	"Tekken 2 (Germany)": {
-		"languages": "De"
 	},
 	"Ten Pin Alley (USA)": {
 		"languages": "En"
@@ -3296,12 +3371,6 @@
 	"TNN Motorsports HardCore TR (USA)": {
 		"languages": "En"
 	},
-	"Tokimeki Memorial - Forever with You (Japan)": {
-		"languages": "Ja"
-	},
-	"Tokimeki Memorial - Taisen Puzzle-dama (Japan)": {
-		"languages": "Ja"
-	},
 	"Tokimeki Memorial 2 (Japan) (PS3 v3.01)": {
 		"languages": "Ja"
 	},
@@ -3312,6 +3381,12 @@
 		"languages": "Ja"
 	},
 	"Tokimeki Memorial 2 - Taisen Puzzle-dama (Japan)": {
+		"languages": "Ja"
+	},
+	"Tokimeki Memorial - Forever with You (Japan)": {
+		"languages": "Ja"
+	},
+	"Tokimeki Memorial - Taisen Puzzle-dama (Japan)": {
 		"languages": "Ja"
 	},
 	"Tokimeki no Houkago - Ne Quiz Shiyo (Japan)": {
@@ -3377,16 +3452,16 @@
 	"Tomb Raider III - Adventures of Lara Croft (USA)": {
 		"languages": "En"
 	},
-	"Tomba! (Europe)": {
-		"languages": "En"
-	},
-	"Tomba! (USA)": {
-		"languages": "En"
-	},
 	"Tomba! 2 - The Evil Swine Return (Europe)": {
 		"languages": "En"
 	},
 	"Tomba! 2 - The Evil Swine Return (USA)": {
+		"languages": "En"
+	},
+	"Tomba! (Europe)": {
+		"languages": "En"
+	},
+	"Tomba! (USA)": {
 		"languages": "En"
 	},
 	"Tomba! The Wild Adventures (Japan)": {
@@ -3395,10 +3470,10 @@
 	"ToPoLo (Japan)": {
 		"languages": "Ja"
 	},
-	"Touge Max - Saisoku Driver Master (Japan)": {
+	"Touge Max 2 (Japan)": {
 		"languages": "Ja"
 	},
-	"Touge Max 2 (Japan)": {
+	"Touge Max - Saisoku Driver Master (Japan)": {
 		"languages": "Ja"
 	},
 	"Toys Dream (Japan)": {
@@ -3419,6 +3494,9 @@
 	"Twins Story (Japan)": {
 		"languages": "Ja"
 	},
+	"Twisted Metal 2 (USA)": {
+		"languages": "En"
+	},
 	"Twisted Metal (Europe)": {
 		"languages": "En"
 	},
@@ -3426,9 +3504,6 @@
 		"languages": "It"
 	},
 	"Twisted Metal (USA)": {
-		"languages": "En"
-	},
-	"Twisted Metal 2 (USA)": {
 		"languages": "En"
 	},
 	"Twisted Metal EX (Japan)": {
@@ -3443,14 +3518,14 @@
 	"Um Jammer Lammy (Germany)": {
 		"languages": "De"
 	},
-	"Um Jammer Lammy (USA)": {
-		"languages": "En"
+	"Um Jammer Lammy (Japan)": {
+		"languages": "Ja"
 	},
 	"Um Jammer Lammy (United Kingdom)": {
 		"languages": "En"
 	},
-	"Um Jammer Lammy (Japan)": {
-		"languages": "Ja"
+	"Um Jammer Lammy (USA)": {
+		"languages": "En"
 	},
 	"Umi no Nushi Tsuri - Takarajima ni Mukatte (Japan)": {
 		"languages": "Ja"
@@ -3473,16 +3548,19 @@
 	"Urban Chaos (Germany)": {
 		"languages": "De"
 	},
+	"Vagrant Story (Asia) (Ja)": {
+		"languages": "Ja"
+	},
 	"Vagrant Story (Germany)": {
 		"languages": "De"
 	},
 	"Vagrant Story (Japan)": {
 		"languages": "Ja"
 	},
-	"Vagrant Story (USA)": {
+	"Vagrant Story (United Kingdom)": {
 		"languages": "En"
 	},
-	"Vagrant Story (United Kingdom)": {
+	"Vagrant Story (USA)": {
 		"languages": "En"
 	},
 	"Vampire - Kyuuketsuki Densetsu (Japan) (PS3 v1.90)": {
@@ -3506,10 +3584,13 @@
 	"Vib-Ribbon (Germany)": {
 		"languages": "De"
 	},
-	"Vib-Ribbon (USA)": {
-		"languages": "En"
+	"Vib-Ribbon (Japan)": {
+		"languages": "Ja"
 	},
 	"Vib-Ribbon (United Kingdom)": {
+		"languages": "En"
+	},
+	"Vib-Ribbon (USA)": {
 		"languages": "En"
 	},
 	"Vigilante 8 (Japan)": {
@@ -3563,6 +3644,15 @@
 	"Weltorv Estleia (Japan)": {
 		"languages": "Ja"
 	},
+	"Wild Arms 2 (USA)": {
+		"languages": "En"
+	},
+	"Wild Arms (Europe)": {
+		"languages": "En"
+	},
+	"Wild Arms (France)": {
+		"languages": "Fr"
+	},
 	"Wild Arms (Germany)": {
 		"languages": "De"
 	},
@@ -3572,17 +3662,8 @@
 	"Wild Arms (USA)": {
 		"languages": "En"
 	},
-	"Wild Arms (France)": {
-		"languages": "Fr"
-	},
-	"Wild Arms (Europe)": {
-		"languages": "En"
-	},
 	"Wild Arms - 2nd Ignition (Japan)": {
 		"languages": "Ja"
-	},
-	"Wild Arms 2 (USA)": {
-		"languages": "En"
 	},
 	"Wing Commander IV - The Price of Freedom (USA)": {
 		"languages": "En"
@@ -3599,16 +3680,19 @@
 	"WipEout (Germany)": {
 		"languages": "De"
 	},
+	"WipEout (Japan)": {
+		"languages": "Ja"
+	},
 	"WipEout (Spain)": {
 		"languages": "Es"
 	},
 	"WipEout (USA)": {
 		"languages": "En"
 	},
-	"Wizard's Harmony (Japan)": {
+	"Wizard's Harmony 2 (Japan)": {
 		"languages": "Ja"
 	},
-	"Wizard's Harmony 2 (Japan)": {
+	"Wizard's Harmony (Japan)": {
 		"languages": "Ja"
 	},
 	"Wizard's Harmony R (Japan)": {
@@ -3626,14 +3710,14 @@
 	"Xevious 3D-G+ (Japan)": {
 		"languages": "Ja"
 	},
-	"Xevious 3D-G+ (USA)": {
-		"languages": "En"
-	},
 	"Xevious 3D-G+ (USA) (Placeholder)": {
 		"languages": "En"
 	},
-	"XI [sai] (Japan)": {
-		"languages": "Ja"
+	"Xevious 3D-G+ (USA)": {
+		"languages": "En"
+	},
+	"XI [sai] (Asia) (Demo)": {
+		"languages": "Zh"
 	},
 	"XI [sai] (Japan) (73EFE306) (Demo)": {
 		"languages": "Ja"
@@ -3644,8 +3728,8 @@
 	"XI [sai] (Japan) (PS3 v4.50) (Demo)": {
 		"languages": "Ja"
 	},
-	"XI [sai] (Asia) (Demo)": {
-		"languages": "Zh"
+	"XI [sai] (Japan)": {
+		"languages": "Ja"
 	},
 	"XI [sai] Jumbo (Japan) (PS3 v1.92)": {
 		"languages": "Ja"
@@ -3689,10 +3773,10 @@
 	"Zanac x Zanac (Japan)": {
 		"languages": "Ja"
 	},
-	"Zero Divide (Japan)": {
+	"Zero Divide 2 (Japan)": {
 		"languages": "Ja"
 	},
-	"Zero Divide 2 (Japan)": {
+	"Zero Divide (Japan)": {
 		"languages": "Ja"
 	},
 	"Zero Kara no Shogi - Shogi Youchien Ayumi Kumi (Japan)": {

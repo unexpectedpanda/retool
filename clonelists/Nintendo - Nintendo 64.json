@@ -3,7 +3,7 @@
 		"name": [
 			"Nintendo - Nintendo 64"
 		],
-		"last updated": "2 January 2022",
+		"last updated": "24 March 2022",
 		"minimum version": "0.92"
 	},
 
@@ -29,12 +29,6 @@
 	"overrides": {
 		"Bomberman 64 (Japan)": {
 			"new group": "Bomberman 64 (Japan)",
-			"match": "full"
-		}
-	},
-
-	"removes": {
-		"F-Zero X + The Legend of Zelda Ocarina of Time (USA) (Beta)": {
 			"match": "full"
 		}
 	},
@@ -127,7 +121,8 @@
 			["Yueye Motuo", 1]
 		],
 		"F-Zero X": [
-			["F-Zero X - Weilai Saiche", 1]
+			["F-Zero X - Weilai Saiche", 1],
+			["F-Zero X (The Legend of Zelda Ocarina of Time Overdump)", 2]
 		],
 		"F1 Pole Position 64": [
 			["Human Grand Prix - The New Generation", 1]

@@ -26,19 +26,13 @@
 	"0War (Japan) (En,Ja) (v9.00)": {
 		"languages": "En,Ja"
 	},
+	"1 Chicken 2 Bullets (USA) (v1.00) (Unity)": {
+		"languages": "En"
+	},
 	"1 Chicken 2 Bullets (USA) (v1.01) (Unity)": {
 		"languages": "En"
 	},
 	"1 Chicken 2 Bullets (USA) (v2.00) (Unity)": {
-		"languages": "En"
-	},
-	"1 Chicken 2 Bullets (USA) (v1.00) (Unity)": {
-		"languages": "En"
-	},
-	"16bit Trader (Japan) (En,Fr,De,Es) (v1.02)": {
-		"languages": "En,Fr,De,Es"
-	},
-	"25 Invisible Mazes (USA) (v1.00) (Unity)": {
 		"languages": "En"
 	},
 	"2chSharp (Japan) (v1.00)": {
@@ -74,10 +68,10 @@
 	"3D Checkers (USA) (v1.00) (Unity)": {
 		"languages": "En"
 	},
-	"3D Gems (Europe) (v1.20) (Unity)": {
+	"3D Gems (Europe) (v1.00) (Unity)": {
 		"languages": "En"
 	},
-	"3D Gems (Europe) (v1.00) (Unity)": {
+	"3D Gems (Europe) (v1.20) (Unity)": {
 		"languages": "En"
 	},
 	"3D Reversi (USA) (v1.00) (Unity)": {
@@ -100,6 +94,12 @@
 	},
 	"4PhotoTweet (Japan) (v2.10)": {
 		"languages": "Ja"
+	},
+	"16bit Trader (Japan) (En,Fr,De,Es) (v1.02)": {
+		"languages": "En,Fr,De,Es"
+	},
+	"25 Invisible Mazes (USA) (v1.00) (Unity)": {
+		"languages": "En"
 	},
 	"About Turn (Europe) (v1.00)": {
 		"languages": "En"
@@ -155,10 +155,10 @@
 	"Air HockeyZ - Zoo of Madness (Europe) (v1.01) (Unity)": {
 		"languages": "En"
 	},
-	"Alien (Japan) (En,Ja) (v2.00) (Augmented Reality)": {
+	"Alien (Japan) (En,Ja) (v1.00) (Augmented Reality)": {
 		"languages": "En,Ja"
 	},
-	"Alien (Japan) (En,Ja) (v1.00) (Augmented Reality)": {
+	"Alien (Japan) (En,Ja) (v2.00) (Augmented Reality)": {
 		"languages": "En,Ja"
 	},
 	"Alien Breed (Europe) (En,Fr,De,Es,It) (v1.00)": {
@@ -290,16 +290,13 @@
 	"Appli Archives - Jaleco Momoko 1200% (Japan) (v1.00)": {
 		"languages": "Ja"
 	},
-	"Appli Archives - Nikoli Crossword (Japan) (v1.00)": {
-		"languages": "Ja"
-	},
 	"Appli Archives - Nikoli Crossword 2 (Japan) (v1.00)": {
 		"languages": "Ja"
 	},
 	"Appli Archives - Nikoli Crossword 3 (Japan) (v1.00)": {
 		"languages": "Ja"
 	},
-	"Appli Archives - Nikoli Slitherlink (Japan) (v1.00)": {
+	"Appli Archives - Nikoli Crossword (Japan) (v1.00)": {
 		"languages": "Ja"
 	},
 	"Appli Archives - Nikoli Slitherlink 2 (Japan) (v1.00)": {
@@ -323,6 +320,9 @@
 	"Appli Archives - Nikoli Slitherlink 8 (Japan) (v1.00)": {
 		"languages": "Ja"
 	},
+	"Appli Archives - Nikoli Slitherlink (Japan) (v1.00)": {
+		"languages": "Ja"
+	},
 	"Appli Archives - Nippon Ichi Software Duologue (Japan) (v1.00)": {
 		"languages": "Ja"
 	},
@@ -333,12 +333,6 @@
 		"languages": "Ja"
 	},
 	"Appli Archives - Team Rise Vol.1 (Japan) (v1.00)": {
-		"languages": "Ja"
-	},
-	"Appli Archives - Team Rise Vol.10 (Japan) (v1.00)": {
-		"languages": "Ja"
-	},
-	"Appli Archives - Team Rise Vol.11 (Japan) (v1.00)": {
 		"languages": "Ja"
 	},
 	"Appli Archives - Team Rise Vol.2 (Japan) (v1.00)": {
@@ -363,6 +357,12 @@
 		"languages": "Ja"
 	},
 	"Appli Archives - Team Rise Vol.9 (Japan) (v1.00)": {
+		"languages": "Ja"
+	},
+	"Appli Archives - Team Rise Vol.10 (Japan) (v1.00)": {
+		"languages": "Ja"
+	},
+	"Appli Archives - Team Rise Vol.11 (Japan) (v1.00)": {
 		"languages": "Ja"
 	},
 	"Aqua Kitty - Milk Mine Defender (Europe) (v1.02)": {
@@ -473,6 +473,9 @@
 	"Beauty Weather (USA) (v1.00)": {
 		"languages": "En"
 	},
+	"Behind You (Japan) (v1.00) (Unity)": {
+		"languages": "Ja"
+	},
 	"Behind You (Japan) (v1.10) (Unity)": {
 		"languages": "Ja"
 	},
@@ -485,19 +488,16 @@
 	"Behind You (Japan) (v1.31) (Unity)": {
 		"languages": "Ja"
 	},
-	"Behind You (Japan) (v1.00) (Unity)": {
+	"Bike Rider DX (Japan) (v1.00)": {
 		"languages": "Ja"
 	},
-	"Bike Rider DX (Japan) (v1.00)": {
+	"Blast Ninja (Japan) (v1.00)": {
 		"languages": "Ja"
 	},
 	"Blast Ninja (Japan) (v1.10)": {
 		"languages": "Ja"
 	},
 	"Blast Ninja (Japan) (v2.00)": {
-		"languages": "Ja"
-	},
-	"Blast Ninja (Japan) (v1.00)": {
 		"languages": "Ja"
 	},
 	"Blinkin Blobs (Europe) (v1.00)": {
@@ -518,10 +518,10 @@
 	"Block Buster (Japan) (v1.00)": {
 		"languages": "Ja"
 	},
-	"Bloodred Wyvern (Japan) (v1.00)": {
+	"Bloodred Wyvern 2 (Japan) (v1.00)": {
 		"languages": "Ja"
 	},
-	"Bloodred Wyvern 2 (Japan) (v1.00)": {
+	"Bloodred Wyvern (Japan) (v1.00)": {
 		"languages": "Ja"
 	},
 	"Blue Beacon (USA) (v1.00)": {
@@ -566,10 +566,10 @@
 	"Boot Hill Heroes - Part One (USA) (v1.05)": {
 		"languages": "En"
 	},
-	"Breaker Stones (Japan) (v2.00) (Unity)": {
+	"Breaker Stones (Japan) (v1.00) (Unity)": {
 		"languages": "Ja"
 	},
-	"Breaker Stones (Japan) (v1.00) (Unity)": {
+	"Breaker Stones (Japan) (v2.00) (Unity)": {
 		"languages": "Ja"
 	},
 	"Breakout (USA) (v1.00) (Unity)": {
@@ -716,13 +716,13 @@
 	"CollectOrb (Europe) (v1.00) (Unity)": {
 		"languages": "En"
 	},
+	"ComicStation (USA) (v1.00)": {
+		"languages": "En"
+	},
 	"ComicStation (USA) (v1.10)": {
 		"languages": "En"
 	},
 	"ComicStation (USA) (v1.20)": {
-		"languages": "En"
-	},
-	"ComicStation (USA) (v1.00)": {
 		"languages": "En"
 	},
 	"Console Saga (Europe) (v1.00)": {
@@ -770,13 +770,13 @@
 	"Cosmos (USA) (v1.12)": {
 		"languages": "En"
 	},
+	"Crash Planets (Japan) (v1.00)": {
+		"languages": "Ja"
+	},
 	"Crash Planets (Japan) (v1.10)": {
 		"languages": "Ja"
 	},
 	"Crash Planets (Japan) (v1.20)": {
-		"languages": "Ja"
-	},
-	"Crash Planets (Japan) (v1.00)": {
 		"languages": "Ja"
 	},
 	"Creatures & Castles VX (USA) (v2.01)": {
@@ -797,6 +797,9 @@
 	"Crow, The (Japan) (v1.00) (Unity)": {
 		"languages": "Ja"
 	},
+	"Crystal Ice (Europe) (v1.00)": {
+		"languages": "En"
+	},
 	"Crystal Ice (Europe) (v1.10)": {
 		"languages": "En"
 	},
@@ -804,9 +807,6 @@
 		"languages": "En"
 	},
 	"Crystal Ice (Europe) (v1.30)": {
-		"languages": "En"
-	},
-	"Crystal Ice (Europe) (v1.00)": {
 		"languages": "En"
 	},
 	"Cube Dasher (Europe) (v1.00) (Unity)": {
@@ -818,10 +818,10 @@
 	"Cube, The (Europe) (v1.00)": {
 		"languages": "En"
 	},
-	"CubexCube (Japan) (v2.00)": {
+	"CubexCube (Japan) (v1.00)": {
 		"languages": "Ja"
 	},
-	"CubexCube (Japan) (v1.00)": {
+	"CubexCube (Japan) (v2.00)": {
 		"languages": "Ja"
 	},
 	"Cubixx (Europe) (En,Fr,De,Es,It) (v1.00)": {
@@ -962,13 +962,13 @@
 	"Dynamic Visual Acuity Test (Japan) (v1.01)": {
 		"languages": "Ja"
 	},
+	"Dynamite Dude (USA) (v1.00)": {
+		"languages": "En"
+	},
 	"Dynamite Dude (USA) (v1.50)": {
 		"languages": "En"
 	},
 	"Dynamite Dude (USA) (v1.51)": {
-		"languages": "En"
-	},
-	"Dynamite Dude (USA) (v1.00)": {
 		"languages": "En"
 	},
 	"Earth Assault (USA) (v1.01)": {
@@ -992,13 +992,13 @@
 	"Ega (Europe) (v1.00)": {
 		"languages": "En"
 	},
+	"Ele-Mental (Europe) (v1.00)": {
+		"languages": "En"
+	},
 	"Ele-Mental (Europe) (v1.01)": {
 		"languages": "En"
 	},
 	"Ele-Mental (Europe) (v1.30)": {
-		"languages": "En"
-	},
-	"Ele-Mental (Europe) (v1.00)": {
 		"languages": "En"
 	},
 	"Eleconnect (Japan) (v1.00)": {
@@ -1010,13 +1010,13 @@
 	"ElementEnsemble BattleExam (Japan) (v1.01)": {
 		"languages": "Ja"
 	},
+	"Emil's Task (Japan) (v1.00)": {
+		"languages": "Ja"
+	},
 	"Emil's Task (Japan) (v1.01)": {
 		"languages": "Ja"
 	},
 	"Emil's Task (Japan) (v1.20)": {
-		"languages": "Ja"
-	},
-	"Emil's Task (Japan) (v1.00)": {
 		"languages": "Ja"
 	},
 	"Energy Skate (Europe) (v1.00) (Unity)": {
@@ -1202,13 +1202,13 @@
 	"FlapperPrincess (Japan) (v1.03)": {
 		"languages": "Ja"
 	},
+	"Flappig 3D (Europe) (v1.00) (Unity)": {
+		"languages": "En"
+	},
 	"Flappig 3D (Europe) (v1.10) (Unity)": {
 		"languages": "En"
 	},
 	"Flappig 3D (Europe) (v1.20) (Unity)": {
-		"languages": "En"
-	},
-	"Flappig 3D (Europe) (v1.00) (Unity)": {
 		"languages": "En"
 	},
 	"Flappy 2048 (USA) (v1.01) (Unity)": {
@@ -1298,6 +1298,15 @@
 	"Fractopia (USA) (v1.00)": {
 		"languages": "En"
 	},
+	"Fragment's Note2 Side - Setsugetsu (Japan) (v1.00)": {
+		"languages": "Ja"
+	},
+	"Fragment's Note2 Side - Shizuku (Japan) (v1.00)": {
+		"languages": "Ja"
+	},
+	"Fragment's Note2 Side - Shizuku (Japan) (v1.01)": {
+		"languages": "Ja"
+	},
 	"Fragment's Note (Japan) (En) (v1.00)": {
 		"languages": "En"
 	},
@@ -1316,25 +1325,16 @@
 	"Fragment's Note Memories (Japan) (v1.00)": {
 		"languages": "Ja"
 	},
-	"Fragment's Note2 Side - Setsugetsu (Japan) (v1.00)": {
-		"languages": "Ja"
-	},
-	"Fragment's Note2 Side - Shizuku (Japan) (v1.00)": {
-		"languages": "Ja"
-	},
-	"Fragment's Note2 Side - Shizuku (Japan) (v1.01)": {
-		"languages": "Ja"
-	},
 	"Frederic - Resurrection of Music (Japan) (v1.03)": {
 		"languages": "Ja"
 	},
 	"Frisky Derby Online (Europe) (v1.00) (Unity)": {
 		"languages": "En"
 	},
-	"Frog Ninja (Europe) (v1.20)": {
+	"Frog Ninja (Europe) (v1.00)": {
 		"languages": "En"
 	},
-	"Frog Ninja (Europe) (v1.00)": {
+	"Frog Ninja (Europe) (v1.20)": {
 		"languages": "En"
 	},
 	"Front Wars - World War II Turn-Based Strategy Game (USA) (v1.17) (Unity)": {
@@ -1406,6 +1406,9 @@
 	"Galatea (Japan) (v1.00)": {
 		"languages": "Ja"
 	},
+	"Game Lab Project, The (USA) (v1.00) (Unity)": {
+		"languages": "En"
+	},
 	"Game Lab Project, The (USA) (v1.01) (Unity)": {
 		"languages": "En"
 	},
@@ -1416,9 +1419,6 @@
 		"languages": "En"
 	},
 	"Game Lab Project, The (USA) (v2.02) (Unity)": {
-		"languages": "En"
-	},
-	"Game Lab Project, The (USA) (v1.00) (Unity)": {
 		"languages": "En"
 	},
 	"Geroneko (Japan) (v1.00)": {
@@ -1433,13 +1433,13 @@
 	"Gorillas 3D (Europe) (v1.10)": {
 		"languages": "En"
 	},
+	"Grand Sun R.Y.E.Z. (USA) (v1.00)": {
+		"languages": "En"
+	},
 	"Grand Sun R.Y.E.Z. (USA) (v2.00)": {
 		"languages": "En"
 	},
 	"Grand Sun R.Y.E.Z. (USA) (v2.01)": {
-		"languages": "En"
-	},
-	"Grand Sun R.Y.E.Z. (USA) (v1.00)": {
 		"languages": "En"
 	},
 	"GraviBots (USA) (v1.00)": {
@@ -1592,6 +1592,9 @@
 	"Hungry Snake (Europe) (v1.00) (Unity)": {
 		"languages": "En"
 	},
+	"Hyper Reminder (Japan) (v1.00)": {
+		"languages": "Ja"
+	},
 	"Hyper Reminder (Japan) (v1.01)": {
 		"languages": "Ja"
 	},
@@ -1602,9 +1605,6 @@
 		"languages": "Ja"
 	},
 	"Hyper Reminder (Japan) (v1.20)": {
-		"languages": "Ja"
-	},
-	"Hyper Reminder (Japan) (v1.00)": {
 		"languages": "Ja"
 	},
 	"iBomber Defense (Europe) (En,Ja,Fr,De,Es,It,Pt,Zh,Ko,Pl,Ru) (v1.00)": {
@@ -1664,10 +1664,10 @@
 	"Instant Memory Test (Japan) (v1.00)": {
 		"languages": "Ja"
 	},
-	"IronTowerDefense (Europe) (v1.20) (Unity)": {
+	"IronTowerDefense (Europe) (v1.00) (Unity)": {
 		"languages": "En"
 	},
-	"IronTowerDefense (Europe) (v1.00) (Unity)": {
+	"IronTowerDefense (Europe) (v1.20) (Unity)": {
 		"languages": "En"
 	},
 	"IVE (Europe) (v1.00) (Unity)": {
@@ -1937,6 +1937,9 @@
 	"Merry Christmas Lady Santa (Japan) (v1.00) (Unity)": {
 		"languages": "Ja"
 	},
+	"Merum (Japan) (v1.00)": {
+		"languages": "Ja"
+	},
 	"Merum (Japan) (v1.01)": {
 		"languages": "Ja"
 	},
@@ -1958,22 +1961,19 @@
 	"Merum (Japan) (v1.13)": {
 		"languages": "Ja"
 	},
-	"Merum (Japan) (v1.00)": {
-		"languages": "Ja"
-	},
 	"Microbe Chain (USA) (v1.00) (Unity)": {
 		"languages": "En"
 	},
 	"Miko Gakkou - Second Year (Japan) (En,Ja) (v1.03)": {
 		"languages": "En,Ja"
 	},
+	"Miko Gakkou Monogatari - Kaede Episode (Japan) (v1.00)": {
+		"languages": "Ja"
+	},
 	"Miko Gakkou Monogatari - Kaede Episode (Japan) (v1.10)": {
 		"languages": "Ja"
 	},
 	"Miko Gakkou Monogatari - Kaede Episode (Japan) (v1.20)": {
-		"languages": "Ja"
-	},
-	"Miko Gakkou Monogatari - Kaede Episode (Japan) (v1.00)": {
 		"languages": "Ja"
 	},
 	"Miko Gakkou Monogatari - Sanae Episode (Japan) (v1.00)": {
@@ -2090,6 +2090,9 @@
 	"Mussoumano Saving Latifas (USA) (v1.00) (Unity)": {
 		"languages": "En"
 	},
+	"Musync (Japan) (v1.00)": {
+		"languages": "Ja"
+	},
 	"Musync (Japan) (v1.05)": {
 		"languages": "Ja"
 	},
@@ -2121,9 +2124,6 @@
 		"languages": "Ja"
 	},
 	"Musync (Japan) (v1.18)": {
-		"languages": "Ja"
-	},
-	"Musync (Japan) (v1.00)": {
 		"languages": "Ja"
 	},
 	"Mute Camera (Japan) (v1.00)": {
@@ -2213,6 +2213,9 @@
 	"Numblast (Japan) (v1.01)": {
 		"languages": "Ja"
 	},
+	"Nunnageddon (Europe) (v1.00)": {
+		"languages": "En"
+	},
 	"Nunnageddon (Europe) (v1.01)": {
 		"languages": "En"
 	},
@@ -2220,9 +2223,6 @@
 		"languages": "En"
 	},
 	"Nunnageddon (Europe) (v1.50)": {
-		"languages": "En"
-	},
-	"Nunnageddon (Europe) (v1.00)": {
 		"languages": "En"
 	},
 	"Nyoqix (Japan) (v1.00)": {
@@ -2342,6 +2342,9 @@
 	"Picbox (Europe) (v1.12)": {
 		"languages": "En"
 	},
+	"Pinky Spots Leg Massage (Japan) (En,Ja) (v1.00)": {
+		"languages": "En,Ja"
+	},
 	"Pinky Spots Leg Massage (Japan) (En,Ja) (v1.01)": {
 		"languages": "En,Ja"
 	},
@@ -2349,9 +2352,6 @@
 		"languages": "En,Ja"
 	},
 	"Pinky Spots Leg Massage (Japan) (En,Ja) (v2.01)": {
-		"languages": "En,Ja"
-	},
-	"Pinky Spots Leg Massage (Japan) (En,Ja) (v1.00)": {
 		"languages": "En,Ja"
 	},
 	"Pirates vs. Monsters (Europe) (v1.00) (Unity)": {
@@ -2378,6 +2378,18 @@
 	"Pocket Farm (USA) (v1.01)": {
 		"languages": "En"
 	},
+	"PocketDefense2 (Japan) (v1.00) (Unity)": {
+		"languages": "Ja"
+	},
+	"PocketDefense2 (Japan) (v2.00) (Unity)": {
+		"languages": "Ja"
+	},
+	"PocketDefense2 (Japan) (v3.00) (Unity)": {
+		"languages": "Ja"
+	},
+	"PocketDefense2 (Japan) (v4.00) (Unity)": {
+		"languages": "Ja"
+	},
 	"PocketDefense (Japan) (v1.00) (Unity)": {
 		"languages": "Ja"
 	},
@@ -2399,18 +2411,6 @@
 	"PocketDefense (Japan) (v2.03) (Unity)": {
 		"languages": "Ja"
 	},
-	"PocketDefense2 (Japan) (v1.00) (Unity)": {
-		"languages": "Ja"
-	},
-	"PocketDefense2 (Japan) (v2.00) (Unity)": {
-		"languages": "Ja"
-	},
-	"PocketDefense2 (Japan) (v3.00) (Unity)": {
-		"languages": "Ja"
-	},
-	"PocketDefense2 (Japan) (v4.00) (Unity)": {
-		"languages": "Ja"
-	},
 	"Pojong (Europe) (v1.00) (Unity)": {
 		"languages": "En"
 	},
@@ -2429,6 +2429,9 @@
 	"Popopo Garden (Japan) (v1.00)": {
 		"languages": "Ja"
 	},
+	"Primary Laser 2 (Japan) (v1.00) (Unity)": {
+		"languages": "Ja"
+	},
 	"Primary Laser (Japan) (v1.00) (Unity)": {
 		"languages": "Ja"
 	},
@@ -2439,9 +2442,6 @@
 		"languages": "Ja"
 	},
 	"Primary Laser (Japan) (v1.03) (Unity)": {
-		"languages": "Ja"
-	},
-	"Primary Laser 2 (Japan) (v1.00) (Unity)": {
 		"languages": "Ja"
 	},
 	"Princess Revolution (USA) (v1.00)": {
@@ -2657,10 +2657,10 @@
 	"Saicoro Puzzle Classic (Japan) (En,Ja) (v1.11)": {
 		"languages": "En,Ja"
 	},
-	"Sakura Flow (Europe) (v2.00) (Unity)": {
+	"Sakura Flow (Europe) (v1.00) (Unity)": {
 		"languages": "En"
 	},
-	"Sakura Flow (Europe) (v1.00) (Unity)": {
+	"Sakura Flow (Europe) (v2.00) (Unity)": {
 		"languages": "En"
 	},
 	"Samurai Beatdown (Europe) (En,Ja,Fr,De,Es,It) (v1.02)": {
@@ -2747,9 +2747,6 @@
 	"Shooting Star Featured (Japan) (En,Ja) (v1.00)": {
 		"languages": "En,Ja"
 	},
-	"Shooting Star Featured (Japan) (En,Ja) (v10.00)": {
-		"languages": "En,Ja"
-	},
 	"Shooting Star Featured (Japan) (En,Ja) (v2.00)": {
 		"languages": "En,Ja"
 	},
@@ -2769,6 +2766,9 @@
 		"languages": "En,Ja"
 	},
 	"Shooting Star Featured (Japan) (En,Ja) (v9.00)": {
+		"languages": "En,Ja"
+	},
+	"Shooting Star Featured (Japan) (En,Ja) (v10.00)": {
 		"languages": "En,Ja"
 	},
 	"Shovel Shuffle (Europe) (v1.00)": {
@@ -3092,13 +3092,13 @@
 	"Star Adventures (USA) (v1.00) (Unity)": {
 		"languages": "En"
 	},
-	"Star Sabotage (USA) (v1.00)": {
-		"languages": "En"
-	},
 	"Star Sabotage 2 (USA) (v2.00)": {
 		"languages": "En"
 	},
 	"Star Sabotage 2.1 (USA) (v2.10) (Unity)": {
+		"languages": "En"
+	},
+	"Star Sabotage (USA) (v1.00)": {
 		"languages": "En"
 	},
 	"Star Sabotage Demo (USA) (v1.00)": {
@@ -3218,6 +3218,9 @@
 	"Tilt-A-Maze (USA) (v1.00) (Unity)": {
 		"languages": "En"
 	},
+	"Tobipen (Japan) (En,Ja) (v1.00)": {
+		"languages": "En,Ja"
+	},
 	"Tobipen (Japan) (En,Ja) (v1.01)": {
 		"languages": "En,Ja"
 	},
@@ -3231,9 +3234,6 @@
 		"languages": "En,Ja"
 	},
 	"Tobipen (Japan) (En,Ja) (v1.24)": {
-		"languages": "En,Ja"
-	},
-	"Tobipen (Japan) (En,Ja) (v1.00)": {
 		"languages": "En,Ja"
 	},
 	"Tobipen Fly (Japan) (v1.00)": {
@@ -3266,16 +3266,16 @@
 	"Touch Treasure (Europe) (v1.00)": {
 		"languages": "En"
 	},
-	"Tower & Shooting (Japan) (v1.00)": {
-		"languages": "Ja"
-	},
-	"Tower & Shooting (Japan) (v1.10)": {
-		"languages": "Ja"
-	},
 	"Tower & Shooting 2 (Japan) (v1.00)": {
 		"languages": "Ja"
 	},
 	"Tower & Shooting 2 (Japan) (v1.10)": {
+		"languages": "Ja"
+	},
+	"Tower & Shooting (Japan) (v1.00)": {
+		"languages": "Ja"
+	},
+	"Tower & Shooting (Japan) (v1.10)": {
 		"languages": "Ja"
 	},
 	"Tractor Trails (Europe) (En,Fr,De,Es,It) (v1.00)": {
@@ -3425,10 +3425,10 @@
 	"Warasseru Suman - Ma no Su de Shanghai Puzzle (Japan) (v1.01)": {
 		"languages": "Ja"
 	},
-	"Warfare Shooter (USA) (v1.10) (Unity)": {
+	"Warfare Shooter 2 (USA) (v1.00) (Unity)": {
 		"languages": "En"
 	},
-	"Warfare Shooter 2 (USA) (v1.00) (Unity)": {
+	"Warfare Shooter (USA) (v1.10) (Unity)": {
 		"languages": "En"
 	},
 	"Wing Warriors (Europe) (v1.00)": {

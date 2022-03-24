@@ -3,7 +3,7 @@
 		"name": [
 			"Nintendo - Game Boy"
 		],
-		"last updated": "11 September 2021",
+		"last updated": "23 March 2022",
 		"minimum version": "0.92"
 	},
 
@@ -13,6 +13,10 @@
 			"categories": ["Applications"]
 		},
 		"Game Boy Camera Gold": {
+			"match": "short",
+			"categories": ["Applications"]
+		},
+		"Game Boy Aging Cartridge": {
 			"match": "short",
 			"categories": ["Applications"]
 		},
@@ -117,11 +121,18 @@
 		"Adventures of Star Saver, The": [
 			["Rubble Saver", 1]
 		],
+		"Alien Olympics": [
+			["Alien Games", 2]
+		],
 		"Alien vs Predator - The Last of His Clan": [
 			["Alien vs Predator", 1]
 		],
 		"Amazing Penguin": [
 			["Osawagase! Penguin Boy", 1]
+		],
+		"Arcade Classic No. 2 - Centipede & Millipede": [
+			["Centipede (Accolade)", 2],
+			["Centipede (Majesco)", 3]
 		],
 		"Arcade Classic No. 3 - Galaga & Galaxian": [
 			["Galaga & Galaxian", 1]
@@ -185,7 +196,8 @@
 			["Soukoban 2", 1]
 		],
 		"Brain Bender": [
-			["Migrain", 1]
+			["Migrain", 1],
+			["Mind Bender", 2]
 		],
 		"Bubble Bobble Part 2": [
 			["Bubble Bobble Junior", 1]
@@ -230,6 +242,9 @@
 		"Chase H.Q.": [
 			["Taito Chase H.Q.", 1]
 		],
+		"Chikyuu Kaihou Gun ZAS": [
+			["ZAS", 2]
+		],
 		"Choplifter II - Rescue & Survive": [
 			["Choplifter II", 1]
 		],
@@ -251,6 +266,9 @@
 		],
 		"David Crane's The Rescue of Princess Blobette": [
 			["Fushigi na Blobby - Princess Blob o Sukue!", 1]
+		],
+		"Deadeus (1.3.8)": [
+			["Deadeus (1.2.5)", 2]
 		],
 		"Dennis the Menace": [
 			["Dennis", 1]
@@ -279,7 +297,7 @@
 			["Famista", 1]
 		],
 		"F-15 Strike Eagle": [
-			["F-15 Strike Eagle II (1992-07)", 2]
+			["F-15 Strike Eagle II", 2]
 		],
 		"F1 Pole Position": [
 			["Nakajima Satoru Kanshuu - F-1 Hero GB '92 - The Graded Driver", 1]
@@ -369,6 +387,9 @@
 		"J.League Big Wave Soccer": [
 			["Matthias Sammer Soccer", 1]
 		],
+		"Jet Pak Jak": [
+			["Jet Pak Man", 2]
+		],
 		"Jimmy Connors Tennis": [
 			["Jimmy Connors no Pro Tennis Tour", 1],
 			["Yannick Noah Tennis", 1]
@@ -419,7 +440,8 @@
 			["Solitaire", 1]
 		],
 		"Legend of Zelda, The - Link's Awakening": [
-			["Zelda no Densetsu - Yume o Miru Shima", 1]
+			["Zelda no Densetsu - Yume o Miru Shima", 1],
+			["Legend of Zelda, The - Link's Awakening DX", 2]
 		],
 		"Legend of the River King GB": [
 			["Kawa no Nushi Tsuri 3", 1]
@@ -512,7 +534,7 @@
 		"Nobunaga's Ambition": [
 			["Nobunaga no Yabou - Game Boy Ban", 1]
 		],
-		"Olympic Winter Games - Lillehammer '94": [
+		"Winter Olympic Games": [
 			["Winter Gold", 1]
 		],
 		"Operation C": [
@@ -598,7 +620,8 @@
 		],
 		"Sea Battle": [
 			["Bataille Navale", 1],
-			["Schiffe Versenken", 1]
+			["Schiffe Versenken", 1],
+			["Battle Ships", 2]
 		],
 		"Serpent": [
 			["Kakomunja", 1]

@@ -1,11 +1,11 @@
 {
+	"5th Gear (Europe)": {
+		"languages": "En"
+	},
 	"10th Frame (Europe)": {
 		"languages": "En"
 	},
 	"500cc Grand Prix (Europe)": {
-		"languages": "En"
-	},
-	"5th Gear (Europe)": {
 		"languages": "En"
 	},
 	"Academy - Tau Ceti II (Europe)": {
@@ -353,6 +353,9 @@
 	"Face-Off Ice Hockey (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
 	},
+	"Ferrari Formula One (Unknown)": {
+		"languages": "En"
+	},
 	"Fire and Brimstone (Europe)": {
 		"languages": "En"
 	},
@@ -365,16 +368,16 @@
 	"Flimbo's Quest (Europe)": {
 		"languages": "En"
 	},
-	"Football Manager (Europe)": {
-		"languages": "En"
-	},
 	"Football Manager 2 (Europe)": {
 		"languages": "En"
 	},
-	"Foundation's Waste (Europe) (Coverdisk - The One - Issue 22) (Amiga + ST)": {
+	"Football Manager (Europe)": {
 		"languages": "En"
 	},
 	"Foundation's Waste (Europe) (Budget - Klassix)": {
+		"languages": "En"
+	},
+	"Foundation's Waste (Europe) (Coverdisk - The One - Issue 22) (Amiga + ST)": {
 		"languages": "En"
 	},
 	"Full Metal Planete (Europe)": {
@@ -452,10 +455,10 @@
 	"Hill Street Blues (Europe) (En,Fr,De,Es,It) (v1.11 26.3.1991) (Budget - Buzz)": {
 		"languages": "En,Fr,De,Es,It"
 	},
-	"Hostages (Europe)": {
+	"Hostages (Europe) (American Dreams)": {
 		"languages": "En"
 	},
-	"Hostages (Europe) (American Dreams)": {
+	"Hostages (Europe)": {
 		"languages": "En"
 	},
 	"Hotshot (Europe)": {
@@ -482,10 +485,10 @@
 	"Indiana Jones and the Temple of Doom (USA)": {
 		"languages": "En"
 	},
-	"International Karate (Europe)": {
+	"International Karate (Europe) (Summer Pack)": {
 		"languages": "En"
 	},
-	"International Karate (Europe) (Summer Pack)": {
+	"International Karate (Europe)": {
 		"languages": "En"
 	},
 	"International Ninja Rabbits (Europe)": {
@@ -591,6 +594,9 @@
 		"languages": "En"
 	},
 	"Mach 3 (Europe)": {
+		"languages": "En"
+	},
+	"Mad Professor Mariarti (France) (En)": {
 		"languages": "En"
 	},
 	"Mafdet and the Book of the Dead (Europe)": {
@@ -701,10 +707,10 @@
 	"Outcast (Europe)": {
 		"languages": "En"
 	},
-	"Overlander (Europe)": {
+	"Overlander (Europe) (Compilation - Finale)": {
 		"languages": "En"
 	},
-	"Overlander (Europe) (Compilation - Finale)": {
+	"Overlander (Europe)": {
 		"languages": "En"
 	},
 	"Oxford Softworks Go Player, The (Europe) (En,Fr,De)": {
@@ -962,11 +968,11 @@
 	"StarFlight (Europe)": {
 		"languages": "En"
 	},
-	"Starglider (Europe)": {
-		"languages": "En"
-	},
 	"Starglider 2 (Europe) (En,Fr,De) (Amiga + ST)": {
 		"languages": "En,Fr,De"
+	},
+	"Starglider (Europe)": {
+		"languages": "En"
 	},
 	"StarGoose! (Europe)": {
 		"languages": "En"
@@ -975,6 +981,9 @@
 		"languages": "En"
 	},
 	"StarRay (Europe)": {
+		"languages": "En"
+	},
+	"STE Language Disk (Sweden) (Sw) (Unknown)": {
 		"languages": "En"
 	},
 	"Steel (Europe)": {

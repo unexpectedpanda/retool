@@ -5,52 +5,52 @@
 	"7800 Monitor Cart (USA) (Program) (Unl)": {
 		"languages": "En"
 	},
-	"Ace of Aces (USA)": {
-		"languages": "En"
-	},
-	"Ace of Aces (Europe)": {
-		"languages": "En"
-	},
-	"Alien Brigade (USA)": {
-		"languages": "En"
-	},
-	"Alien Brigade (Europe)": {
-		"languages": "En"
-	},
-	"Asteroids (USA)": {
-		"languages": "En"
-	},
-	"Asteroids (USA) (Beta)": {
+	"[BIOS] Atari 7800 (Europe)": {
 		"languages": "En"
 	},
 	"[BIOS] Atari 7800 (USA)": {
 		"languages": "En"
 	},
-	"[BIOS] Atari 7800 (Europe)": {
+	"Ace of Aces (Europe)": {
+		"languages": "En"
+	},
+	"Ace of Aces (USA)": {
+		"languages": "En"
+	},
+	"Alien Brigade (Europe)": {
+		"languages": "En"
+	},
+	"Alien Brigade (USA)": {
+		"languages": "En"
+	},
+	"Asteroids (USA) (Beta)": {
+		"languages": "En"
+	},
+	"Asteroids (USA)": {
 		"languages": "En"
 	},
 	"Atari 7800 Development Card (USA)": {
 		"languages": "En"
 	},
-	"Ballblazer (USA)": {
-		"languages": "En"
-	},
 	"Ballblazer (Europe)": {
 		"languages": "En"
 	},
-	"Barnyard Blaster (USA)": {
+	"Ballblazer (USA)": {
 		"languages": "En"
 	},
 	"Barnyard Blaster (Europe)": {
 		"languages": "En"
 	},
+	"Barnyard Blaster (USA)": {
+		"languages": "En"
+	},
 	"Baseball (Europe)": {
 		"languages": "En"
 	},
-	"Basketbrawl (USA)": {
+	"Basketbrawl (Europe)": {
 		"languages": "En"
 	},
-	"Basketbrawl (Europe)": {
+	"Basketbrawl (USA)": {
 		"languages": "En"
 	},
 	"Centipede (Europe)": {
@@ -65,10 +65,10 @@
 	"Choplifter! (USA)": {
 		"languages": "En"
 	},
-	"Commando (USA)": {
+	"Commando (Europe)": {
 		"languages": "En"
 	},
-	"Commando (Europe)": {
+	"Commando (USA)": {
 		"languages": "En"
 	},
 	"Crack'ed (Europe)": {
@@ -83,10 +83,10 @@
 	"Crossbow (USA)": {
 		"languages": "En"
 	},
-	"Dark Chambers (USA)": {
+	"Dark Chambers (Europe)": {
 		"languages": "En"
 	},
-	"Dark Chambers (Europe)": {
+	"Dark Chambers (USA)": {
 		"languages": "En"
 	},
 	"Desert Falcon (Europe)": {
@@ -95,10 +95,10 @@
 	"Desert Falcon (USA)": {
 		"languages": "En"
 	},
-	"Diagnostic Test Cartrige (USA)": {
+	"Diagnostic Test Cartrige (USA) (Beta)": {
 		"languages": "En"
 	},
-	"Diagnostic Test Cartrige (USA) (Beta)": {
+	"Diagnostic Test Cartrige (USA)": {
 		"languages": "En"
 	},
 	"Dig Dug (Europe)": {
@@ -107,10 +107,10 @@
 	"Dig Dug (USA)": {
 		"languages": "En"
 	},
-	"Donkey Kong (USA)": {
+	"Donkey Kong (Europe)": {
 		"languages": "En"
 	},
-	"Donkey Kong (Europe)": {
+	"Donkey Kong (USA)": {
 		"languages": "En"
 	},
 	"Donkey Kong Junior (Europe)": {
@@ -119,16 +119,16 @@
 	"Donkey Kong Junior (USA)": {
 		"languages": "En"
 	},
-	"Double Dragon (USA)": {
-		"languages": "En"
-	},
 	"Double Dragon (Europe)": {
 		"languages": "En"
 	},
-	"F-18 Hornet (USA)": {
+	"Double Dragon (USA)": {
 		"languages": "En"
 	},
 	"F-18 Hornet (Europe)": {
+		"languages": "En"
+	},
+	"F-18 Hornet (USA)": {
 		"languages": "En"
 	},
 	"Fatal Run (Europe)": {
@@ -137,19 +137,19 @@
 	"Fatal Run (USA)": {
 		"languages": "En"
 	},
-	"Fight Night (USA)": {
-		"languages": "En"
-	},
 	"Fight Night (Europe)": {
 		"languages": "En"
 	},
-	"Food Fight (USA)": {
+	"Fight Night (USA)": {
 		"languages": "En"
 	},
 	"Food Fight (Europe)": {
 		"languages": "En"
 	},
 	"Food Fight (USA) (Beta)": {
+		"languages": "En"
+	},
+	"Food Fight (USA)": {
 		"languages": "En"
 	},
 	"Galaga (Europe)": {
@@ -182,16 +182,16 @@
 	"Impossible Mission (USA)": {
 		"languages": "En"
 	},
-	"Jinks (USA)": {
-		"languages": "En"
-	},
 	"Jinks (Europe)": {
 		"languages": "En"
 	},
-	"Joust (USA)": {
+	"Jinks (USA)": {
 		"languages": "En"
 	},
 	"Joust (Europe)": {
+		"languages": "En"
+	},
+	"Joust (USA)": {
 		"languages": "En"
 	},
 	"Karateka (Europe)": {
@@ -209,16 +209,16 @@
 	"Kung-Fu Master (USA)": {
 		"languages": "En"
 	},
-	"Mario Bros. (USA)": {
-		"languages": "En"
-	},
 	"Mario Bros. (Europe)": {
 		"languages": "En"
 	},
-	"Mat Mania Challenge (USA)": {
+	"Mario Bros. (USA)": {
 		"languages": "En"
 	},
 	"Mat Mania Challenge (Europe)": {
+		"languages": "En"
+	},
+	"Mat Mania Challenge (USA)": {
 		"languages": "En"
 	},
 	"Mean 18 Ultimate Golf (Europe)": {
@@ -227,10 +227,10 @@
 	"Mean 18 Ultimate Golf (USA)": {
 		"languages": "En"
 	},
-	"Meltdown (USA)": {
+	"Meltdown (Europe)": {
 		"languages": "En"
 	},
-	"Meltdown (Europe)": {
+	"Meltdown (USA)": {
 		"languages": "En"
 	},
 	"Midnight Mutants (Europe)": {
@@ -242,10 +242,10 @@
 	"Missing in Action (USA) (Proto)": {
 		"languages": "En"
 	},
-	"Motor Psycho (USA)": {
+	"Motor Psycho (Europe)": {
 		"languages": "En"
 	},
-	"Motor Psycho (Europe)": {
+	"Motor Psycho (USA)": {
 		"languages": "En"
 	},
 	"Ms. Pac-Man (Europe)": {
@@ -254,16 +254,16 @@
 	"Ms. Pac-Man (USA)": {
 		"languages": "En"
 	},
-	"Ninja Golf (USA)": {
-		"languages": "En"
-	},
 	"Ninja Golf (Europe)": {
 		"languages": "En"
 	},
-	"One-on-One Basketball (USA)": {
+	"Ninja Golf (USA)": {
 		"languages": "En"
 	},
 	"One-on-One Basketball (Europe)": {
+		"languages": "En"
+	},
+	"One-on-One Basketball (USA)": {
 		"languages": "En"
 	},
 	"Pete Rose Baseball (USA)": {
@@ -281,13 +281,13 @@
 	"Plutos (USA) (Proto)": {
 		"languages": "En"
 	},
-	"Pole Position II (USA)": {
-		"languages": "En"
-	},
 	"Pole Position II (Europe)": {
 		"languages": "En"
 	},
 	"Pole Position II (USA) (Beta)": {
+		"languages": "En"
+	},
+	"Pole Position II (USA)": {
 		"languages": "En"
 	},
 	"Rampage (USA)": {
@@ -332,19 +332,19 @@
 	"Super Huey UH-IX (USA)": {
 		"languages": "En"
 	},
-	"Super Skateboardin' (USA)": {
+	"Super Skateboardin' (Europe)": {
 		"languages": "En"
 	},
-	"Super Skateboardin' (Europe)": {
+	"Super Skateboardin' (USA)": {
 		"languages": "En"
 	},
 	"Tank Command (USA)": {
 		"languages": "En"
 	},
-	"Title Match Pro Wrestling (USA)": {
+	"Title Match Pro Wrestling (Europe)": {
 		"languages": "En"
 	},
-	"Title Match Pro Wrestling (Europe)": {
+	"Title Match Pro Wrestling (USA)": {
 		"languages": "En"
 	},
 	"Tomcat - The F-14 Fighter Simulator (Europe)": {
@@ -368,19 +368,19 @@
 	"Winter Games (USA)": {
 		"languages": "En"
 	},
-	"Xenophobe (USA)": {
+	"Xenophobe (Europe)": {
 		"languages": "En"
 	},
-	"Xenophobe (Europe)": {
+	"Xenophobe (USA)": {
 		"languages": "En"
 	},
 	"Xevious (Europe)": {
 		"languages": "En"
 	},
-	"Xevious (USA)": {
+	"Xevious (USA) (Beta)": {
 		"languages": "En"
 	},
-	"Xevious (USA) (Beta)": {
+	"Xevious (USA)": {
 		"languages": "En"
 	}
 }

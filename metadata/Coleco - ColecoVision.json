@@ -1,8 +1,11 @@
 {
+	"2010 - The Graphic Action Game (USA) (Beta)": {
+		"languages": "En"
+	},
 	"2010 - The Graphic Action Game (USA)": {
 		"languages": "En"
 	},
-	"2010 - The Graphic Action Game (USA) (Beta)": {
+	"[BIOS] ColecoVision (USA, Europe)": {
 		"languages": "En"
 	},
 	"A.E. (USA) (Proto)": {
@@ -23,10 +26,10 @@
 	"Amazing Bumpman (USA)": {
 		"languages": "En"
 	},
-	"Antarctic Adventure (USA, Europe)": {
+	"Antarctic Adventure (USA, Europe) (Beta)": {
 		"languages": "En"
 	},
-	"Antarctic Adventure (USA, Europe) (Beta)": {
+	"Antarctic Adventure (USA, Europe)": {
 		"languages": "En"
 	},
 	"Aquattack (USA)": {
@@ -35,10 +38,10 @@
 	"Artillery Duel (USA)": {
 		"languages": "En"
 	},
-	"BC's Quest for Tires (USA)": {
+	"BC's Quest for Tires (Canada)": {
 		"languages": "En"
 	},
-	"BC's Quest for Tires (Canada)": {
+	"BC's Quest for Tires (USA)": {
 		"languages": "En"
 	},
 	"BC's Quest for Tires II - Grog's Revenge (Canada)": {
@@ -56,10 +59,10 @@
 	"Blockade Runner (USA)": {
 		"languages": "En"
 	},
-	"Boulder Dash (USA)": {
+	"Boulder Dash (USA) (Beta)": {
 		"languages": "En"
 	},
-	"Boulder Dash (USA) (Beta)": {
+	"Boulder Dash (USA)": {
 		"languages": "En"
 	},
 	"Brain Strainers (USA)": {
@@ -80,13 +83,13 @@
 	"BurgerTime (USA, Europe)": {
 		"languages": "En"
 	},
-	"Cabbage Patch Kids - Adventures in the Park (USA, Europe)": {
-		"languages": "En"
-	},
 	"Cabbage Patch Kids - Adventures in the Park (USA, Europe) (Beta 1)": {
 		"languages": "En"
 	},
 	"Cabbage Patch Kids - Adventures in the Park (USA, Europe) (Beta 2)": {
+		"languages": "En"
+	},
+	"Cabbage Patch Kids - Adventures in the Park (USA, Europe)": {
 		"languages": "En"
 	},
 	"Cabbage Patch Kids - Picture Show (USA)": {
@@ -113,9 +116,6 @@
 	"Chuck Norris - Superkicks (USA)": {
 		"languages": "En"
 	},
-	"[BIOS] ColecoVision (USA, Europe)": {
-		"languages": "En"
-	},
 	"ColecoVision Monitor Test (USA, Europe)": {
 		"languages": "En"
 	},
@@ -137,6 +137,9 @@
 	"Dance Fantasy (USA)": {
 		"languages": "En"
 	},
+	"Defender (USA) (BUG Fixed)": {
+		"languages": "En"
+	},
 	"Defender (USA)": {
 		"languages": "En"
 	},
@@ -146,10 +149,10 @@
 	"Dig Dug (USA) (Proto)": {
 		"languages": "En"
 	},
-	"Donkey Kong (USA, Europe) (v1.1)": {
+	"Donkey Kong (USA)": {
 		"languages": "En"
 	},
-	"Donkey Kong (USA)": {
+	"Donkey Kong (USA, Europe) (v1.1)": {
 		"languages": "En"
 	},
 	"Donkey Kong Junior (USA, Europe)": {
@@ -179,7 +182,7 @@
 	"Facemaker (USA)": {
 		"languages": "En"
 	},
-	"Fall Guy (Europe) (Proto)": {
+	"Fall Guy (USA) (Proto)": {
 		"languages": "En"
 	},
 	"Fathom (USA)": {
@@ -188,7 +191,7 @@
 	"Final Test Cartridge (USA)": {
 		"languages": "En"
 	},
-	"Fireman (Europe) (Proto)": {
+	"Fireman (USA) (Proto)": {
 		"languages": "En"
 	},
 	"Flipper Slipper (USA) (Unl)": {
@@ -215,10 +218,10 @@
 	"Frogger II - ThreeeDeep! (USA)": {
 		"languages": "En"
 	},
-	"Front Line (USA, Europe)": {
+	"Front Line (USA, Europe) (Standard Controller)": {
 		"languages": "En"
 	},
-	"Front Line (USA, Europe) (Green Version)": {
+	"Front Line (USA, Europe) (Super Action Controller)": {
 		"languages": "En"
 	},
 	"Galaxian (USA)": {
@@ -233,10 +236,10 @@
 	"Gust Buster (USA)": {
 		"languages": "En"
 	},
-	"Gyruss (USA)": {
+	"Gyruss (USA) (Beta)": {
 		"languages": "En"
 	},
-	"Gyruss (USA) (Beta)": {
+	"Gyruss (USA)": {
 		"languages": "En"
 	},
 	"H.E.R.O. - Helicopter Emergency Rescue Operation (USA)": {
@@ -296,10 +299,10 @@
 	"M.A.S.H (Europe) (Proto)": {
 		"languages": "En"
 	},
-	"Matt Patrol (USA) (Proto)": {
+	"Matt Patrol (USA) (Proto) (Alt)": {
 		"languages": "En"
 	},
-	"Matt Patrol (USA) (Proto) (Alt 1)": {
+	"Matt Patrol (USA) (Proto)": {
 		"languages": "En"
 	},
 	"Memory Manor (USA)": {
@@ -308,16 +311,16 @@
 	"Meteoric Shower (Europe)": {
 		"languages": "En"
 	},
-	"Miner 2049er Starring Bounty Bob (USA, Europe)": {
-		"languages": "En"
-	},
 	"Miner 2049er Starring Bounty Bob (USA, Europe) (v1.1)": {
 		"languages": "En"
 	},
-	"Monkey Academy (USA)": {
+	"Miner 2049er Starring Bounty Bob (USA, Europe)": {
 		"languages": "En"
 	},
 	"Monkey Academy (USA) (Beta)": {
+		"languages": "En"
+	},
+	"Monkey Academy (USA)": {
 		"languages": "En"
 	},
 	"Montezuma's Revenge (USA)": {
@@ -452,13 +455,16 @@
 	"Spectron (USA)": {
 		"languages": "En"
 	},
-	"Spy Hunter (USA)": {
-		"languages": "En"
-	},
 	"Spy Hunter (USA) (Beta)": {
 		"languages": "En"
 	},
+	"Spy Hunter (USA)": {
+		"languages": "En"
+	},
 	"Squish'em Featuring Sam (USA)": {
+		"languages": "En"
+	},
+	"Star Fire (USA) (Unreleased)": {
 		"languages": "En"
 	},
 	"Star Trek - Strategic Operations Simulator (USA)": {
@@ -479,10 +485,10 @@
 	"Super Action Baseball (USA)": {
 		"languages": "En"
 	},
-	"Super Action Football (USA)": {
+	"Super Action Football (Europe)": {
 		"languages": "En"
 	},
-	"Super Action Football (Europe)": {
+	"Super Action Football (USA)": {
 		"languages": "En"
 	},
 	"Super Cobra (USA)": {
@@ -500,7 +506,7 @@
 	"Super DK! Junior (USA) (Proto)": {
 		"languages": "En"
 	},
-	"Super Sketch - Sketch Master (USA) (Program)": {
+	"Super Sketch - Sketch Master (USA) (Program) (Unl)": {
 		"languages": "En"
 	},
 	"Sword and the Sorcerer, The (USA) (Demo)": {
@@ -542,16 +548,16 @@
 	"Venture (USA, Europe)": {
 		"languages": "En"
 	},
-	"Victory (USA)": {
-		"languages": "En"
-	},
 	"Victory (Europe)": {
 		"languages": "En"
 	},
-	"Video Hustler (Europe) (Proto 2)": {
+	"Victory (USA)": {
 		"languages": "En"
 	},
-	"Video Hustler (Europe) (Proto 1)": {
+	"Video Hustler (USA) (Proto 1)": {
+		"languages": "En"
+	},
+	"Video Hustler (USA) (Proto 2)": {
 		"languages": "En"
 	},
 	"War Room (USA)": {
@@ -569,13 +575,13 @@
 	"Word Feud (USA)": {
 		"languages": "En"
 	},
-	"Yolk's on You, The (Europe) (Proto)": {
-		"languages": "En"
-	},
-	"Zaxxon (USA, Europe)": {
+	"Yolk's on you, The (Europe) (Proto)": {
 		"languages": "En"
 	},
 	"Zaxxon (Taiwan) (En) (Unl)": {
+		"languages": "En"
+	},
+	"Zaxxon (USA, Europe)": {
 		"languages": "En"
 	},
 	"Zenji (USA)": {

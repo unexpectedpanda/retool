@@ -1,11 +1,11 @@
 {
+	"[BIOS] Atari Lynx (USA, Europe)": {
+		"languages": "En"
+	},
 	"A.P.B. (USA, Europe)": {
 		"languages": "En"
 	},
 	"Alien vs Predator (USA) (Proto) (1993-12-17)": {
-		"languages": "En"
-	},
-	"[BIOS] Atari Lynx (USA, Europe)": {
 		"languages": "En"
 	},
 	"Awesome Golf (USA, Europe)": {
@@ -95,10 +95,10 @@
 	"Gates of Zendocon (USA, Europe)": {
 		"languages": "En"
 	},
-	"Gauntlet - The Third Encounter (USA, Europe)": {
+	"Gauntlet - The Third Encounter (USA, Europe) (Beta) (1990-06-04)": {
 		"languages": "En"
 	},
-	"Gauntlet - The Third Encounter (USA, Europe) (Beta) (1990-06-04)": {
+	"Gauntlet - The Third Encounter (USA, Europe)": {
 		"languages": "En"
 	},
 	"Gordo 106 (USA, Europe)": {
@@ -122,10 +122,10 @@
 	"Joust (USA, Europe)": {
 		"languages": "En"
 	},
-	"Klax (USA, Europe)": {
+	"Klax (USA, Europe) (Beta)": {
 		"languages": "En"
 	},
-	"Klax (USA, Europe) (Beta)": {
+	"Klax (USA, Europe)": {
 		"languages": "En"
 	},
 	"Krazy Ace - Miniature Golf (USA, Europe)": {
@@ -140,10 +140,13 @@
 	"Lexis (USA)": {
 		"languages": "En"
 	},
-	"Lode Runner (USA) (Proto) (Unl)": {
+	"Lode Runner (USA) (Proto 1)": {
 		"languages": "En"
 	},
-	"Loopz (USA) (Proto)": {
+	"Lode Runner (USA) (Proto 2)": {
+		"languages": "En"
+	},
+	"Loopz (USA) (Proto) (1992-11-05)": {
 		"languages": "En"
 	},
 	"Lynx Casino (USA, Europe)": {
@@ -152,10 +155,10 @@
 	"Lynx II Production Test Program (USA)": {
 		"languages": "En"
 	},
-	"Malibu Bikini Volleyball (USA, Europe)": {
+	"Malibu Bikini Volleyball (USA, Europe) (Beta) (1993-05-11)": {
 		"languages": "En"
 	},
-	"Malibu Bikini Volleyball (USA, Europe) (Beta) (1993-05-11)": {
+	"Malibu Bikini Volleyball (USA, Europe)": {
 		"languages": "En"
 	},
 	"Marlboro Go! (Europe) (Proto)": {
@@ -182,6 +185,9 @@
 	"Pinball Jam (USA, Europe)": {
 		"languages": "En"
 	},
+	"Pit-Fighter (USA, Europe) (Beta) (1992-10-13)": {
+		"languages": "En"
+	},
 	"Pit-Fighter (USA, Europe)": {
 		"languages": "En"
 	},
@@ -200,13 +206,13 @@
 	"Rampart (USA, Europe)": {
 		"languages": "En"
 	},
-	"Road Riot 4WD (USA) (Proto 3)": {
+	"Road Riot 4WD (USA) (Proto 1)": {
 		"languages": "En"
 	},
 	"Road Riot 4WD (USA) (Proto 2)": {
 		"languages": "En"
 	},
-	"Road Riot 4WD (USA) (Proto 1)": {
+	"Road Riot 4WD (USA) (Proto 3)": {
 		"languages": "En"
 	},
 	"RoadBlasters (USA, Europe)": {
@@ -275,10 +281,10 @@
 	"Xybots (USA, Europe)": {
 		"languages": "En"
 	},
-	"Zaku (USA) (Unl)": {
+	"Zaku (USA) (Beta) (Unl)": {
 		"languages": "En"
 	},
-	"Zaku (USA) (Beta) (Unl)": {
+	"Zaku (USA) (Unl)": {
 		"languages": "En"
 	},
 	"Zarlor Mercenary (USA, Europe)": {

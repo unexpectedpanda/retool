@@ -1,26 +1,23 @@
 {
-	"007 - The World Is Not Enough (USA) (v2) (Beta)": {
-		"languages": "En"
-	},
 	"007 - The World Is Not Enough (Europe) (En,Fr,De)": {
 		"languages": "En,Fr,De"
 	},
-	"007 - The World Is Not Enough (USA)": {
+	"007 - The World Is Not Enough (USA) (v2) (Beta)": {
 		"languages": "En"
 	},
 	"007 - The World Is Not Enough (USA) (v21) (Beta)": {
 		"languages": "En"
 	},
-	"1080 Snowboarding (Europe) (En,Ja,Fr,De)": {
-		"languages": "En,Ja,Fr,De"
-	},
-	"1080 Snowboarding (Japan, USA) (En,Ja)": {
-		"languages": "En,Ja"
+	"007 - The World Is Not Enough (USA)": {
+		"languages": "En"
 	},
 	"40 Winks (Europe) (En,Es,It) (Proto) (1999-10-07)": {
 		"languages": "En,Es,It"
 	},
 	"40 Winks (USA) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"40 Winks (USA) (Proto)": {
 		"languages": "En"
 	},
 	"64 de Hakken!! Tamagotchi - Minna de Tamagotchi World (Japan)": {
@@ -29,14 +26,20 @@
 	"64 Hanafuda - Tenshi no Yakusoku (Japan)": {
 		"languages": "Ja"
 	},
-	"64 Oozumou (Japan)": {
+	"64 Oozumou 2 (Japan)": {
 		"languages": "Ja"
 	},
-	"64 Oozumou 2 (Japan)": {
+	"64 Oozumou (Japan)": {
 		"languages": "Ja"
 	},
 	"64 Trump Collection - Alice no Wakuwaku Trump World (Japan)": {
 		"languages": "Ja"
+	},
+	"1080 Snowboarding (Europe) (En,Ja,Fr,De)": {
+		"languages": "En,Ja,Fr,De"
+	},
+	"1080 Snowboarding (Japan, USA) (En,Ja)": {
+		"languages": "En,Ja"
 	},
 	"Action Replay Pro 64 (Europe) (v3.0) (Unl)": {
 		"languages": "En"
@@ -59,6 +62,9 @@
 	"AeroGauge (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
+	"AeroGauge (Japan) (Rev 2)": {
+		"languages": "Ja"
+	},
 	"AeroGauge (USA)": {
 		"languages": "En"
 	},
@@ -68,16 +74,16 @@
 	"Aidyn Chronicles - The First Mage (Europe)": {
 		"languages": "En"
 	},
-	"Aidyn Chronicles - The First Mage (USA)": {
-		"languages": "En"
-	},
-	"Aidyn Chronicles - The First Mage (USA) (Rev 1)": {
+	"Aidyn Chronicles - The First Mage (USA) (Beta) (2000-02-10)": {
 		"languages": "En"
 	},
 	"Aidyn Chronicles - The First Mage (USA) (Beta) (2000-05-09)": {
 		"languages": "En"
 	},
-	"Aidyn Chronicles - The First Mage (USA) (Beta) (2000-02-10)": {
+	"Aidyn Chronicles - The First Mage (USA) (Rev 1)": {
+		"languages": "En"
+	},
+	"Aidyn Chronicles - The First Mage (USA)": {
 		"languages": "En"
 	},
 	"Air Boarder 64 (Japan)": {
@@ -92,10 +98,16 @@
 	"Akumajou Dracula Mokushiroku Gaiden - Legend of Cornell (Japan)": {
 		"languages": "Ja"
 	},
+	"All Star Tennis 99 (USA)": {
+		"languages": "En"
+	},
 	"All Star Tennis '99 (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
 	},
-	"All Star Tennis 99 (USA)": {
+	"All-Star Baseball 99 (Europe)": {
+		"languages": "En"
+	},
+	"All-Star Baseball 99 (USA)": {
 		"languages": "En"
 	},
 	"All-Star Baseball 2000 (Europe)": {
@@ -105,12 +117,6 @@
 		"languages": "En"
 	},
 	"All-Star Baseball 2001 (USA)": {
-		"languages": "En"
-	},
-	"All-Star Baseball 99 (Europe)": {
-		"languages": "En"
-	},
-	"All-Star Baseball 99 (USA)": {
 		"languages": "En"
 	},
 	"Armorines - Project S.W.A.R.M. (Europe)": {
@@ -125,13 +131,13 @@
 	"Army Men - Air Combat (USA)": {
 		"languages": "En"
 	},
+	"Army Men - Sarge's Heroes 2 (USA)": {
+		"languages": "En"
+	},
 	"Army Men - Sarge's Heroes (Europe) (En,Fr,De)": {
 		"languages": "En,Fr,De"
 	},
 	"Army Men - Sarge's Heroes (USA)": {
-		"languages": "En"
-	},
-	"Army Men - Sarge's Heroes 2 (USA)": {
 		"languages": "En"
 	},
 	"Asteroids Hyper 64 (USA)": {
@@ -143,10 +149,10 @@
 	"Automobili Lamborghini (USA)": {
 		"languages": "En"
 	},
-	"Baku Bomberman (Japan)": {
+	"Baku Bomberman 2 (Japan)": {
 		"languages": "Ja"
 	},
-	"Baku Bomberman 2 (Japan)": {
+	"Baku Bomberman (Japan)": {
 		"languages": "Ja"
 	},
 	"Bakuretsu Muteki Bangaioh (Japan)": {
@@ -155,19 +161,19 @@
 	"Bakushou Jinsei 64 - Mezase! Resort Ou (Japan)": {
 		"languages": "Ja"
 	},
-	"Banjo to Kazooie no Daibouken (Japan)": {
+	"Banjo to Kazooie no Daibouken 2 (Japan)": {
 		"languages": "Ja"
 	},
-	"Banjo to Kazooie no Daibouken 2 (Japan)": {
+	"Banjo to Kazooie no Daibouken (Japan)": {
 		"languages": "Ja"
 	},
 	"Banjo-Kazooie (Europe) (En,Fr,De)": {
 		"languages": "En,Fr,De"
 	},
-	"Banjo-Kazooie (USA)": {
+	"Banjo-Kazooie (USA) (Rev 1)": {
 		"languages": "En"
 	},
-	"Banjo-Kazooie (USA) (Rev 1)": {
+	"Banjo-Kazooie (USA)": {
 		"languages": "En"
 	},
 	"Banjo-Tooie (Australia)": {
@@ -182,10 +188,10 @@
 	"Bass Rush - ECOGEAR PowerWorm Championship (Japan)": {
 		"languages": "Ja"
 	},
-	"Bassmasters 2000 (USA)": {
+	"Bassmasters 2000 (USA) (Beta)": {
 		"languages": "En"
 	},
-	"Bassmasters 2000 (USA) (Beta)": {
+	"Bassmasters 2000 (USA)": {
 		"languages": "En"
 	},
 	"Batman Beyond - Return of the Joker (USA)": {
@@ -230,14 +236,20 @@
 	"Blast Corps (Europe) (En,De)": {
 		"languages": "En,De"
 	},
-	"Blast Corps (USA)": {
+	"Blast Corps (USA) (Rev 1)": {
 		"languages": "En"
 	},
-	"Blast Corps (USA) (Rev 1)": {
+	"Blast Corps (USA)": {
 		"languages": "En"
 	},
 	"Blastdozer (Japan)": {
 		"languages": "Ja"
+	},
+	"Blues Brothers 2000 (Europe) (En,Fr,De,Es,It,Nl) (Beta) (2000-01-15) (#20)": {
+		"languages": "En,Fr,De,Es,It,Nl"
+	},
+	"Blues Brothers 2000 (Europe) (En,Fr,De,Es,It,Nl) (Beta) (2000-01-15) (#53)": {
+		"languages": "En,Fr,De,Es,It,Nl"
 	},
 	"Blues Brothers 2000 (Europe) (En,Fr,De,Es,It,Nl)": {
 		"languages": "En,Fr,De,Es,It,Nl"
@@ -245,25 +257,19 @@
 	"Blues Brothers 2000 (USA)": {
 		"languages": "En"
 	},
-	"Blues Brothers 2000 (Europe) (En,Fr,De,Es,It,Nl) (Beta) (2000-01-15)": {
-		"languages": "En,Fr,De,Es,It,Nl"
-	},
-	"Blues Brothers 2000 (Europe) (En,Fr,De,Es,It,Nl) (Beta) (2000-01-15, Alt)": {
-		"languages": "En,Fr,De,Es,It,Nl"
-	},
 	"Body Harvest (Europe) (En,Fr,De)": {
 		"languages": "En,Fr,De"
 	},
 	"Body Harvest (USA)": {
 		"languages": "En"
 	},
-	"Bokujou Monogatari 2 (Japan)": {
-		"languages": "Ja"
-	},
 	"Bokujou Monogatari 2 (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
 	"Bokujou Monogatari 2 (Japan) (Rev 2)": {
+		"languages": "Ja"
+	},
+	"Bokujou Monogatari 2 (Japan)": {
 		"languages": "Ja"
 	},
 	"Bomberman 64 (Europe)": {
@@ -317,9 +323,6 @@
 	"Bug's Life, A (USA)": {
 		"languages": "En"
 	},
-	"Bust-A-Move '99 (USA)": {
-		"languages": "En"
-	},
 	"Bust-A-Move 2 - Arcade Edition (Europe)": {
 		"languages": "En"
 	},
@@ -329,10 +332,13 @@
 	"Bust-A-Move 3 DX (Europe)": {
 		"languages": "En"
 	},
-	"California Speed (USA)": {
+	"Bust-A-Move '99 (USA)": {
 		"languages": "En"
 	},
 	"California Speed (Europe) (Proto)": {
+		"languages": "En"
+	},
+	"California Speed (USA)": {
 		"languages": "En"
 	},
 	"Carmageddon 64 (Europe) (En,Fr,De,Es)": {
@@ -347,13 +353,13 @@
 	"Castlevania (Europe) (En,Fr,De)": {
 		"languages": "En,Fr,De"
 	},
-	"Castlevania (USA)": {
+	"Castlevania (USA) (Rev 1)": {
 		"languages": "En"
 	},
 	"Castlevania (USA) (Rev 2)": {
 		"languages": "En"
 	},
-	"Castlevania (USA) (Rev 1)": {
+	"Castlevania (USA)": {
 		"languages": "En"
 	},
 	"Castlevania - Legacy of Darkness (Europe) (En,Fr,De)": {
@@ -365,18 +371,6 @@
 	"Centre Court Tennis (Europe)": {
 		"languages": "En"
 	},
-	"Chameleon Twist (Europe)": {
-		"languages": "En"
-	},
-	"Chameleon Twist (Japan)": {
-		"languages": "Ja"
-	},
-	"Chameleon Twist (USA)": {
-		"languages": "En"
-	},
-	"Chameleon Twist (USA) (Rev 1)": {
-		"languages": "En"
-	},
 	"Chameleon Twist 2 (Europe)": {
 		"languages": "En"
 	},
@@ -384,6 +378,18 @@
 		"languages": "Ja"
 	},
 	"Chameleon Twist 2 (USA)": {
+		"languages": "En"
+	},
+	"Chameleon Twist (Europe)": {
+		"languages": "En"
+	},
+	"Chameleon Twist (Japan)": {
+		"languages": "Ja"
+	},
+	"Chameleon Twist (USA) (Rev 1)": {
+		"languages": "En"
+	},
+	"Chameleon Twist (USA)": {
 		"languages": "En"
 	},
 	"Charlie Blast's Territory (Europe)": {
@@ -398,16 +404,16 @@
 	"Chopper Attack (USA)": {
 		"languages": "En"
 	},
-	"Choro Q 64 (Japan)": {
-		"languages": "Ja"
-	},
 	"Choro Q 64 2 - Hacha Mecha Grand Prix Race (Japan)": {
 		"languages": "Ja"
 	},
-	"Chou Kuukan Nighter Pro Yakyuu King (Japan)": {
+	"Choro Q 64 (Japan)": {
 		"languages": "Ja"
 	},
 	"Chou Kuukan Nighter Pro Yakyuu King 2 (Japan)": {
+		"languages": "Ja"
+	},
+	"Chou Kuukan Nighter Pro Yakyuu King (Japan)": {
 		"languages": "Ja"
 	},
 	"Chou Snobo Kids (Japan)": {
@@ -416,16 +422,16 @@
 	"City-Tour GP - Zen-Nihon GT Senshuken (Japan)": {
 		"languages": "Ja"
 	},
-	"Clay Fighter - Sculptor's Cut (USA)": {
+	"Clay Fighter 63 1-3 (Europe)": {
 		"languages": "En"
 	},
-	"Clay Fighter 63 1-3 (Europe)": {
+	"Clay Fighter 63 1-3 (USA) (Beta) (1997-08-21)": {
 		"languages": "En"
 	},
 	"Clay Fighter 63 1-3 (USA)": {
 		"languages": "En"
 	},
-	"Clay Fighter 63 1-3 (USA) (Beta) (1997-08-21)": {
+	"Clay Fighter - Sculptor's Cut (USA)": {
 		"languages": "En"
 	},
 	"Command & Conquer (Europe) (En,Fr)": {
@@ -440,22 +446,25 @@
 	"Conker's Bad Fur Day (Europe)": {
 		"languages": "En"
 	},
-	"Conker's Bad Fur Day (USA)": {
+	"Conker's Bad Fur Day (USA) (Beta) (2000-10-25)": {
 		"languages": "En"
 	},
 	"Conker's Bad Fur Day (USA) (Beta) (ECTS 2000) (2000-08-26)": {
 		"languages": "En"
 	},
-	"Conker's Bad Fur Day (USA) (Beta) (2000-10-25)": {
+	"Conker's Bad Fur Day (USA)": {
+		"languages": "En"
+	},
+	"Controller Kensa-ki NUS-yo N Cassette (Japan) (Test Program)": {
+		"languages": "Ja"
+	},
+	"Controller Pak Test (Unknown)": {
 		"languages": "En"
 	},
 	"Cruis'n Exotica (USA)": {
 		"languages": "En"
 	},
 	"Cruis'n USA (Europe)": {
-		"languages": "En"
-	},
-	"Cruis'n USA (USA)": {
 		"languages": "En"
 	},
 	"Cruis'n USA (USA) (Rev 1)": {
@@ -467,13 +476,16 @@
 	"Cruis'n USA (USA) (Wii Virtual Console)": {
 		"languages": "En"
 	},
+	"Cruis'n USA (USA)": {
+		"languages": "En"
+	},
+	"Cruis'n World (Europe) (Rev 1)": {
+		"languages": "En"
+	},
 	"Cruis'n World (Europe)": {
 		"languages": "En"
 	},
 	"Cruis'n World (USA)": {
-		"languages": "En"
-	},
-	"Cruis'n World (Europe) (Rev 1)": {
 		"languages": "En"
 	},
 	"Custom Robo (Japan)": {
@@ -509,10 +521,10 @@
 	"Densha de Go! 64 (Japan)": {
 		"languages": "Ja"
 	},
-	"Derby Stallion 64 (Japan)": {
+	"Derby Stallion 64 (Japan) (Beta) [b]": {
 		"languages": "Ja"
 	},
-	"Derby Stallion 64 (Japan) (Beta) [b]": {
+	"Derby Stallion 64 (Japan)": {
 		"languages": "Ja"
 	},
 	"Destruction Derby 64 (Europe) (En,Fr,De)": {
@@ -524,19 +536,19 @@
 	"Dezaemon 3D (Japan)": {
 		"languages": "Ja"
 	},
-	"Diddy Kong Racing (Europe) (En,Fr,De)": {
+	"Diddy Kong Racing (Europe) (En,Fr,De) (Rev 1)": {
 		"languages": "En,Fr,De"
 	},
-	"Diddy Kong Racing (Europe) (En,Fr,De) (Rev 1)": {
+	"Diddy Kong Racing (Europe) (En,Fr,De)": {
 		"languages": "En,Fr,De"
 	},
 	"Diddy Kong Racing (Japan)": {
 		"languages": "Ja"
 	},
-	"Diddy Kong Racing (USA) (En,Fr)": {
+	"Diddy Kong Racing (USA) (En,Fr) (Rev 1)": {
 		"languages": "En,Fr"
 	},
-	"Diddy Kong Racing (USA) (En,Fr) (Rev 1)": {
+	"Diddy Kong Racing (USA) (En,Fr)": {
 		"languages": "En,Fr"
 	},
 	"Die Hard 64 (USA) (Proto) (Level 1)": {
@@ -566,10 +578,10 @@
 	"Donkey Kong 64 (Japan)": {
 		"languages": "Ja"
 	},
-	"Donkey Kong 64 (USA)": {
+	"Donkey Kong 64 (USA) (Demo) (Kiosk)": {
 		"languages": "En"
 	},
-	"Donkey Kong 64 (USA) (Demo) (Kiosk)": {
+	"Donkey Kong 64 (USA)": {
 		"languages": "En"
 	},
 	"Doom 64 (Europe)": {
@@ -578,19 +590,19 @@
 	"Doom 64 (Japan)": {
 		"languages": "Ja"
 	},
-	"Doom 64 (USA)": {
-		"languages": "En"
-	},
 	"Doom 64 (USA) (Rev 1)": {
 		"languages": "En"
 	},
-	"Doraemon - Nobita to 3tsu no Seireiseki (Japan)": {
-		"languages": "Ja"
+	"Doom 64 (USA)": {
+		"languages": "En"
 	},
 	"Doraemon 2 - Nobita to Hikari no Shinden (Japan)": {
 		"languages": "Ja"
 	},
 	"Doraemon 3 - Nobita no Machi SOS! (Japan)": {
+		"languages": "Ja"
+	},
+	"Doraemon - Nobita to 3tsu no Seireiseki (Japan)": {
 		"languages": "Ja"
 	},
 	"Doubutsu Banchou (Japan) (Proto)": {
@@ -617,19 +629,13 @@
 	"Dual Heroes (USA)": {
 		"languages": "En"
 	},
-	"Duck Dodgers Starring Daffy Duck (USA) (En,Fr,Es)": {
-		"languages": "En,Fr,Es"
-	},
 	"Duck Dodgers Starring Daffy Duck (USA) (En,Fr,Es) (Beta) (2000-03-07)": {
 		"languages": "En,Fr,Es"
 	},
-	"Duke Nukem - Zero Hour (Europe)": {
-		"languages": "En"
+	"Duck Dodgers Starring Daffy Duck (USA) (En,Fr,Es)": {
+		"languages": "En,Fr,Es"
 	},
-	"Duke Nukem - Zero Hour (France)": {
-		"languages": "Fr"
-	},
-	"Duke Nukem - Zero Hour (USA)": {
+	"Duke Nukem 64 (Europe) (Beta)": {
 		"languages": "En"
 	},
 	"Duke Nukem 64 (Europe)": {
@@ -641,7 +647,13 @@
 	"Duke Nukem 64 (USA)": {
 		"languages": "En"
 	},
-	"Duke Nukem 64 (Europe) (Beta)": {
+	"Duke Nukem - Zero Hour (Europe)": {
+		"languages": "En"
+	},
+	"Duke Nukem - Zero Hour (France)": {
+		"languages": "Fr"
+	},
+	"Duke Nukem - Zero Hour (USA)": {
 		"languages": "En"
 	},
 	"Earthworm Jim 3D (Europe) (En,Fr,De,Es,It)": {
@@ -653,11 +665,11 @@
 	"ECW Hardcore Revolution (Europe)": {
 		"languages": "En"
 	},
-	"ECW Hardcore Revolution (USA)": {
-		"languages": "En"
-	},
 	"ECW Hardcore Revolution (Germany)": {
 		"languages": "De"
+	},
+	"ECW Hardcore Revolution (USA)": {
+		"languages": "En"
 	},
 	"Eikou no Saint Andrews (Japan)": {
 		"languages": "Ja"
@@ -671,13 +683,13 @@
 	"Excitebike 64 (Japan)": {
 		"languages": "Ja"
 	},
-	"Excitebike 64 (USA)": {
-		"languages": "En"
-	},
 	"Excitebike 64 (USA) (Demo) (Kiosk)": {
 		"languages": "En"
 	},
 	"Excitebike 64 (USA) (Rev 1)": {
+		"languages": "En"
+	},
+	"Excitebike 64 (USA)": {
 		"languages": "En"
 	},
 	"Extreme-G (Europe) (En,Fr,De,Es,It)": {
@@ -698,6 +710,24 @@
 	"Extreme-G XG2 (USA)": {
 		"languages": "En"
 	},
+	"F1 Pole Position 64 (Europe) (En,Fr,De)": {
+		"languages": "En,Fr,De"
+	},
+	"F1 Pole Position 64 (USA) (En,Fr,De)": {
+		"languages": "En,Fr,De"
+	},
+	"F1 Racing Championship (Brazil) (En,Fr)": {
+		"languages": "En,Fr"
+	},
+	"F1 Racing Championship (Europe) (En,Fr,De,Es,It)": {
+		"languages": "En,Fr,De,Es,It"
+	},
+	"F1 Racing Championship (Unknown) (Beta)": {
+		"languages": "En"
+	},
+	"F-1 World Grand Prix (Europe) (Beta)": {
+		"languages": "En"
+	},
 	"F-1 World Grand Prix (Europe)": {
 		"languages": "En"
 	},
@@ -713,9 +743,6 @@
 	"F-1 World Grand Prix (USA)": {
 		"languages": "En"
 	},
-	"F-1 World Grand Prix (Europe) (Beta)": {
-		"languages": "En"
-	},
 	"F-1 World Grand Prix II (Europe) (En,Fr,De,Es)": {
 		"languages": "En,Fr,De,Es"
 	},
@@ -724,6 +751,9 @@
 	},
 	"F-Zero X (Japan)": {
 		"languages": "Ja"
+	},
+	"F-Zero X (USA) (Beta) (The Legend of Zelda Ocarina of Time Overdump)": {
+		"languages": "En"
 	},
 	"F-Zero X (USA)": {
 		"languages": "En"
@@ -737,31 +767,7 @@
 	"F-Zero X - Weilai Saiche (China) (v4) (iQue) (Manual)": {
 		"languages": "Zh"
 	},
-	"F-Zero X + The Legend of Zelda Ocarina of Time (USA) (Beta)": {
-		"languages": "En"
-	},
-	"F1 Pole Position 64 (Europe) (En,Fr,De)": {
-		"languages": "En,Fr,De"
-	},
-	"F1 Pole Position 64 (USA) (En,Fr,De)": {
-		"languages": "En,Fr,De"
-	},
-	"F1 Racing Championship (Europe) (En,Fr,De,Es,It)": {
-		"languages": "En,Fr,De,Es,It"
-	},
-	"F1 Racing Championship (Brazil) (En,Fr)": {
-		"languages": "En,Fr"
-	},
 	"Famista 64 (Japan)": {
-		"languages": "Ja"
-	},
-	"FIFA - Road to World Cup 98 (Europe) (En,Fr,De,Es,It,Nl,Sv)": {
-		"languages": "En,Fr,De,Es,It,Nl,Sv"
-	},
-	"FIFA - Road to World Cup 98 (USA) (En,Fr,De,Es,It,Nl,Sv)": {
-		"languages": "En,Fr,De,Es,It,Nl,Sv"
-	},
-	"FIFA - Road to World Cup 98 - World Cup e no Michi (Japan)": {
 		"languages": "Ja"
 	},
 	"FIFA 64 (Europe) (En,Fr,De)": {
@@ -772,6 +778,15 @@
 	},
 	"FIFA 99 (USA) (En,Fr,De,Es,It,Nl,Pt,Sv)": {
 		"languages": "En,Fr,De,Es,It,Nl,Pt,Sv"
+	},
+	"FIFA - Road to World Cup 98 (Europe) (En,Fr,De,Es,It,Nl,Sv)": {
+		"languages": "En,Fr,De,Es,It,Nl,Sv"
+	},
+	"FIFA - Road to World Cup 98 (USA) (En,Fr,De,Es,It,Nl,Sv)": {
+		"languages": "En,Fr,De,Es,It,Nl,Sv"
+	},
+	"FIFA - Road to World Cup 98 - World Cup e no Michi (Japan)": {
+		"languages": "Ja"
 	},
 	"FIFA Soccer 64 (USA) (En,Fr,De)": {
 		"languages": "En,Fr,De"
@@ -806,14 +821,14 @@
 	"Flying Dragon (USA)": {
 		"languages": "En"
 	},
+	"Forsaken 64 (USA)": {
+		"languages": "En"
+	},
 	"Forsaken (Europe) (En,Fr,Es,It)": {
 		"languages": "En,Fr,Es,It"
 	},
 	"Forsaken (Germany)": {
 		"languages": "De"
-	},
-	"Forsaken 64 (USA)": {
-		"languages": "En"
 	},
 	"Fox Sports College Hoops '99 (USA)": {
 		"languages": "En"
@@ -851,6 +866,9 @@
 	"Ganbare Goemon - Dero Dero Douchuu Obake Tenkomori (Japan)": {
 		"languages": "Ja"
 	},
+	"Ganbare Goemon - Neo Momoyama Bakufu no Odori (Japan) (Rev 1)": {
+		"languages": "Ja"
+	},
 	"Ganbare Goemon - Neo Momoyama Bakufu no Odori (Japan)": {
 		"languages": "Ja"
 	},
@@ -884,25 +902,22 @@
 	"Gex 64 - Enter the Gecko (USA)": {
 		"languages": "En"
 	},
+	"Glover 2 (USA) (Proto 1)": {
+		"languages": "En"
+	},
+	"Glover 2 (USA) (Proto 2)": {
+		"languages": "En"
+	},
 	"Glover (Europe) (En,Fr,De)": {
 		"languages": "En,Fr,De"
-	},
-	"Glover (USA)": {
-		"languages": "En"
 	},
 	"Glover (USA) (Beta) (1998-07-16) [b]": {
 		"languages": "En"
 	},
-	"Glover (USA) (Rev 1) (Proto)": {
+	"Glover (USA) (Proto) (1998-09-04)": {
 		"languages": "En"
 	},
-	"Glover 2 (USA) (Unk Proto)": {
-		"languages": "En"
-	},
-	"Glover 2 (USA) (Proto 2) [b]": {
-		"languages": "En"
-	},
-	"Glover 2 (USA) (Proto 1)": {
+	"Glover (USA)": {
 		"languages": "En"
 	},
 	"Goemon - Mononoke Sugoroku (Japan)": {
@@ -926,10 +941,10 @@
 	"GT 64 - Championship Edition (Europe) (En,Fr,De)": {
 		"languages": "En,Fr,De"
 	},
-	"GT 64 - Championship Edition (USA)": {
+	"GT 64 - Championship Edition (USA) (Beta) (1998-05-25)": {
 		"languages": "En"
 	},
-	"GT 64 - Championship Edition (USA) (Beta) (1998-05-25)": {
+	"GT 64 - Championship Edition (USA)": {
 		"languages": "En"
 	},
 	"Hamster Monogatari 64 (Japan)": {
@@ -946,6 +961,9 @@
 	},
 	"Hercules - The Legendary Journeys (Europe) (En,Fr,De,Es,It,Nl)": {
 		"languages": "En,Fr,De,Es,It,Nl"
+	},
+	"Hercules - The Legendary Journeys (Unknown) (Beta)": {
+		"languages": "En"
 	},
 	"Hercules - The Legendary Journeys (USA)": {
 		"languages": "En"
@@ -980,9 +998,6 @@
 	"Holy Magic Century (Germany)": {
 		"languages": "De"
 	},
-	"Hoshi no Kirby 64 (Japan)": {
-		"languages": "Ja"
-	},
 	"Hoshi no Kirby 64 (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
@@ -990,6 +1005,9 @@
 		"languages": "Ja"
 	},
 	"Hoshi no Kirby 64 (Japan) (Rev 3)": {
+		"languages": "Ja"
+	},
+	"Hoshi no Kirby 64 (Japan)": {
 		"languages": "Ja"
 	},
 	"Hot Wheels - Turbo Racing (Europe) (En,Fr,De)": {
@@ -1028,14 +1046,14 @@
 	"Ide Yosuke no Mahjong Juku (Japan)": {
 		"languages": "Ja"
 	},
-	"Iggy-kun no Bura Bura Poyon (Japan)": {
-		"languages": "Ja"
-	},
 	"Iggy's Reckin' Balls (Europe)": {
 		"languages": "En"
 	},
 	"Iggy's Reckin' Balls (USA)": {
 		"languages": "En"
+	},
+	"Iggy-kun no Bura Bura Poyon (Japan)": {
+		"languages": "Ja"
 	},
 	"In-Fisherman - Bass Hunter 64 (Europe)": {
 		"languages": "En"
@@ -1043,13 +1061,34 @@
 	"In-Fisherman - Bass Hunter 64 (USA)": {
 		"languages": "En"
 	},
-	"Indiana Jones and the Infernal Machine (USA)": {
-		"languages": "En"
-	},
 	"Indiana Jones and the Infernal Machine (Australia) (Proto)": {
 		"languages": "En"
 	},
+	"Indiana Jones and the Infernal Machine (USA)": {
+		"languages": "En"
+	},
 	"Indy Racing 2000 (USA)": {
+		"languages": "En"
+	},
+	"International Superstar Soccer 64 (Europe)": {
+		"languages": "En"
+	},
+	"International Superstar Soccer 64 (USA)": {
+		"languages": "En"
+	},
+	"International Superstar Soccer 2000 (Europe) (En,De)": {
+		"languages": "En,De"
+	},
+	"International Superstar Soccer 2000 (Europe) (Fr,It)": {
+		"languages": "Fr,It"
+	},
+	"International Superstar Soccer 2000 (USA) (En,Es) (Rev 1)": {
+		"languages": "En,Es"
+	},
+	"International Superstar Soccer 2000 (USA) (En,Es)": {
+		"languages": "En,Es"
+	},
+	"International Superstar Soccer '98 (Europe) (Beta) (1998-03-02)": {
 		"languages": "En"
 	},
 	"International Superstar Soccer '98 (Europe)": {
@@ -1058,32 +1097,11 @@
 	"International Superstar Soccer '98 (USA)": {
 		"languages": "En"
 	},
-	"International Superstar Soccer '98 (Europe) (Beta) (1998-03-02)": {
-		"languages": "En"
-	},
-	"International Superstar Soccer 2000 (USA) (En,Es) (Rev 1)": {
-		"languages": "En,Es"
-	},
-	"International Superstar Soccer 2000 (Europe) (En,De)": {
-		"languages": "En,De"
-	},
-	"International Superstar Soccer 2000 (Europe) (Fr,It)": {
-		"languages": "Fr,It"
-	},
-	"International Superstar Soccer 2000 (USA) (En,Es)": {
-		"languages": "En,Es"
-	},
-	"International Superstar Soccer 64 (Europe)": {
-		"languages": "En"
-	},
-	"International Superstar Soccer 64 (USA)": {
+	"International Track & Field 2000 (USA)": {
 		"languages": "En"
 	},
 	"International Track & Field - Summer Games (Europe) (En,Fr,De)": {
 		"languages": "En,Fr,De"
-	},
-	"International Track & Field 2000 (USA)": {
-		"languages": "En"
 	},
 	"iQue Club (China) (v3) (iQue)": {
 		"languages": "Zh"
@@ -1100,10 +1118,10 @@
 	"J.League Live 64 (Japan)": {
 		"languages": "Ja"
 	},
-	"J.League Tactics Soccer (Japan)": {
+	"J.League Tactics Soccer (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
-	"J.League Tactics Soccer (Japan) (Rev 1)": {
+	"J.League Tactics Soccer (Japan)": {
 		"languages": "Ja"
 	},
 	"Jangou Simulation Mahjong Dou 64 (Japan)": {
@@ -1121,58 +1139,43 @@
 	"Jet Force Gemini (Europe) (En,Fr,De,Es)": {
 		"languages": "En,Fr,De,Es"
 	},
-	"Jet Force Gemini (USA)": {
-		"languages": "En"
-	},
 	"Jet Force Gemini (USA) (Demo) (Kiosk)": {
 		"languages": "En"
 	},
-	"Jikkyou G1 Stable (Japan)": {
-		"languages": "Ja"
+	"Jet Force Gemini (USA)": {
+		"languages": "En"
 	},
 	"Jikkyou G1 Stable (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
-	"Jikkyou J.League 1999 - Perfect Striker 2 (Japan)": {
+	"Jikkyou G1 Stable (Japan)": {
 		"languages": "Ja"
 	},
 	"Jikkyou J.League 1999 - Perfect Striker 2 (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
+	"Jikkyou J.League 1999 - Perfect Striker 2 (Japan)": {
+		"languages": "Ja"
+	},
 	"Jikkyou J.League Perfect Striker (Japan)": {
-		"languages": "Ja"
-	},
-	"Jikkyou Powerful Pro Yakyuu - Basic Ban 2001 (Japan)": {
-		"languages": "Ja"
-	},
-	"Jikkyou Powerful Pro Yakyuu - Basic Ban 2001 (Japan) (Rev 1)": {
-		"languages": "Ja"
-	},
-	"Jikkyou Powerful Pro Yakyuu 2000 (Japan)": {
-		"languages": "Ja"
-	},
-	"Jikkyou Powerful Pro Yakyuu 2000 (Japan) (Rev 1)": {
-		"languages": "Ja"
-	},
-	"Jikkyou Powerful Pro Yakyuu 4 (Japan)": {
-		"languages": "Ja"
-	},
-	"Jikkyou Powerful Pro Yakyuu 4 (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
 	"Jikkyou Powerful Pro Yakyuu 4 (Japan) (Beta) (1996-11-30)": {
 		"languages": "Ja"
 	},
-	"Jikkyou Powerful Pro Yakyuu 5 (Japan)": {
+	"Jikkyou Powerful Pro Yakyuu 4 (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
-	"Jikkyou Powerful Pro Yakyuu 5 (Japan) (Rev 2)": {
+	"Jikkyou Powerful Pro Yakyuu 4 (Japan)": {
 		"languages": "Ja"
 	},
 	"Jikkyou Powerful Pro Yakyuu 5 (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
-	"Jikkyou Powerful Pro Yakyuu 6 (Japan)": {
+	"Jikkyou Powerful Pro Yakyuu 5 (Japan) (Rev 2)": {
+		"languages": "Ja"
+	},
+	"Jikkyou Powerful Pro Yakyuu 5 (Japan)": {
 		"languages": "Ja"
 	},
 	"Jikkyou Powerful Pro Yakyuu 6 (Japan) (Rev 1)": {
@@ -1181,7 +1184,22 @@
 	"Jikkyou Powerful Pro Yakyuu 6 (Japan) (Rev 2)": {
 		"languages": "Ja"
 	},
-	"Jikkyou World Soccer - World Cup France '98 (Japan)": {
+	"Jikkyou Powerful Pro Yakyuu 6 (Japan)": {
+		"languages": "Ja"
+	},
+	"Jikkyou Powerful Pro Yakyuu 2000 (Japan) (Rev 1)": {
+		"languages": "Ja"
+	},
+	"Jikkyou Powerful Pro Yakyuu 2000 (Japan)": {
+		"languages": "Ja"
+	},
+	"Jikkyou Powerful Pro Yakyuu - Basic Ban 2001 (Japan) (Rev 1)": {
+		"languages": "Ja"
+	},
+	"Jikkyou Powerful Pro Yakyuu - Basic Ban 2001 (Japan)": {
+		"languages": "Ja"
+	},
+	"Jikkyou World Soccer 3 (Japan)": {
 		"languages": "Ja"
 	},
 	"Jikkyou World Soccer - World Cup France '98 (Japan) (Rev 1)": {
@@ -1190,7 +1208,7 @@
 	"Jikkyou World Soccer - World Cup France '98 (Japan) (Rev 2)": {
 		"languages": "Ja"
 	},
-	"Jikkyou World Soccer 3 (Japan)": {
+	"Jikkyou World Soccer - World Cup France '98 (Japan)": {
 		"languages": "Ja"
 	},
 	"Jikuu Senshi Turok (Japan)": {
@@ -1217,13 +1235,13 @@
 	"Killer Instinct Gold (Europe)": {
 		"languages": "En"
 	},
-	"Killer Instinct Gold (USA)": {
-		"languages": "En"
-	},
 	"Killer Instinct Gold (USA) (Rev 1)": {
 		"languages": "En"
 	},
 	"Killer Instinct Gold (USA) (Rev 2)": {
+		"languages": "En"
+	},
+	"Killer Instinct Gold (USA)": {
 		"languages": "En"
 	},
 	"King Hill 64 - Extreme Snowboarding (Japan)": {
@@ -1262,37 +1280,49 @@
 	"Last Legion UX (Japan)": {
 		"languages": "Ja"
 	},
-	"Legend of Zelda, The - Majora's Mask (Europe) (En,Fr,De,Es)": {
+	"Legend of Zelda, The - Majora's Mask (Europe) (En,Fr,De,Es) (Rev 1) (Debug)": {
+		"languages": "En,Fr,De,Es"
+	},
+	"Legend of Zelda, The - Majora's Mask (Europe) (En,Fr,De,Es) (Rev 1) (Wii Virtual Console)": {
 		"languages": "En,Fr,De,Es"
 	},
 	"Legend of Zelda, The - Majora's Mask (Europe) (En,Fr,De,Es) (Rev 1)": {
 		"languages": "En,Fr,De,Es"
 	},
-	"Legend of Zelda, The - Majora's Mask (USA)": {
+	"Legend of Zelda, The - Majora's Mask (Europe) (En,Fr,De,Es)": {
+		"languages": "En,Fr,De,Es"
+	},
+	"Legend of Zelda, The - Majora's Mask (Europe) (GameCube)": {
 		"languages": "En"
 	},
 	"Legend of Zelda, The - Majora's Mask (USA) (Demo) (Kiosk)": {
 		"languages": "En"
 	},
-	"Legend of Zelda, The - Majora's Mask (Europe) (En,Fr,De,Es) (Rev 1) (Debug)": {
-		"languages": "En,Fr,De,Es"
-	},
 	"Legend of Zelda, The - Majora's Mask (USA) (GameCube)": {
 		"languages": "En"
 	},
-	"Legend of Zelda, The - Majora's Mask (Europe) (GameCube)": {
+	"Legend of Zelda, The - Majora's Mask (USA)": {
 		"languages": "En"
 	},
-	"Legend of Zelda, The - Majora's Mask (Europe) (En,Fr,De,Es) (Rev 1) (Wii Virtual Console)": {
-		"languages": "En,Fr,De,Es"
+	"Legend of Zelda, The - Ocarina of Time (Europe) (Beta) (2003-02-13) (GameCube)": {
+		"languages": "En"
 	},
-	"Legend of Zelda, The - Ocarina of Time (Europe) (En,Fr,De)": {
-		"languages": "En,Fr,De"
+	"Legend of Zelda, The - Ocarina of Time (Europe) (Debug) (GameCube)": {
+		"languages": "En"
 	},
 	"Legend of Zelda, The - Ocarina of Time (Europe) (En,Fr,De) (Rev 1)": {
 		"languages": "En,Fr,De"
 	},
-	"Legend of Zelda, The - Ocarina of Time (USA)": {
+	"Legend of Zelda, The - Ocarina of Time (Europe) (En,Fr,De)": {
+		"languages": "En,Fr,De"
+	},
+	"Legend of Zelda, The - Ocarina of Time (Europe) (GameCube)": {
+		"languages": "En"
+	},
+	"Legend of Zelda, The - Ocarina of Time (USA) (Beta)": {
+		"languages": "En"
+	},
+	"Legend of Zelda, The - Ocarina of Time (USA) (GameCube)": {
 		"languages": "En"
 	},
 	"Legend of Zelda, The - Ocarina of Time (USA) (Rev 1)": {
@@ -1301,28 +1331,16 @@
 	"Legend of Zelda, The - Ocarina of Time (USA) (Rev 2)": {
 		"languages": "En"
 	},
-	"Legend of Zelda, The - Ocarina of Time (USA) (GameCube)": {
+	"Legend of Zelda, The - Ocarina of Time (USA)": {
 		"languages": "En"
 	},
-	"Legend of Zelda, The - Ocarina of Time (Europe) (GameCube)": {
-		"languages": "En"
-	},
-	"Legend of Zelda, The - Ocarina of Time (Europe) (Beta) (2003-02-13) (GameCube)": {
-		"languages": "En"
-	},
-	"Legend of Zelda, The - Ocarina of Time (USA) (Beta)": {
-		"languages": "En"
-	},
-	"Legend of Zelda, The - Ocarina of Time (Europe) (Debug) (GameCube)": {
-		"languages": "En"
-	},
-	"Legend of Zelda, The - Ocarina of Time - Master Quest (USA) (Debug) (GameCube)": {
-		"languages": "En"
-	},
-	"Legend of Zelda, The - Ocarina of Time - Master Quest (USA) (GameCube)": {
+	"Legend of Zelda, The - Ocarina of Time - Master Quest (Europe) (Debug) (GameCube)": {
 		"languages": "En"
 	},
 	"Legend of Zelda, The - Ocarina of Time - Master Quest (Europe) (GameCube)": {
+		"languages": "En"
+	},
+	"Legend of Zelda, The - Ocarina of Time - Master Quest (USA) (GameCube)": {
 		"languages": "En"
 	},
 	"LEGO Racers (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da,Fi)": {
@@ -1352,16 +1370,28 @@
 	"Mace - The Dark Age (Europe)": {
 		"languages": "En"
 	},
-	"Mace - The Dark Age (USA)": {
+	"Mace - The Dark Age (Unknown) (Beta)": {
 		"languages": "En"
 	},
-	"Mace - The Dark Age (Unknown) (Beta)": {
+	"Mace - The Dark Age (USA)": {
 		"languages": "En"
 	},
 	"Madden Football 64 (Europe)": {
 		"languages": "En"
 	},
 	"Madden Football 64 (USA)": {
+		"languages": "En"
+	},
+	"Madden NFL 99 (Europe)": {
+		"languages": "En"
+	},
+	"Madden NFL 99 (USA) (Beta) (1998-08-05)": {
+		"languages": "En"
+	},
+	"Madden NFL 99 (USA) (Rev 1)": {
+		"languages": "En"
+	},
+	"Madden NFL 99 (USA)": {
 		"languages": "En"
 	},
 	"Madden NFL 2000 (USA)": {
@@ -1371,18 +1401,6 @@
 		"languages": "En"
 	},
 	"Madden NFL 2002 (USA)": {
-		"languages": "En"
-	},
-	"Madden NFL 99 (Europe)": {
-		"languages": "En"
-	},
-	"Madden NFL 99 (USA)": {
-		"languages": "En"
-	},
-	"Madden NFL 99 (USA) (Beta) (1998-08-05)": {
-		"languages": "En"
-	},
-	"Madden NFL 99 (USA) (Rev 1)": {
 		"languages": "En"
 	},
 	"Magical Tetris Challenge (Europe)": {
@@ -1412,17 +1430,20 @@
 	"Major League Baseball Featuring Ken Griffey Jr. (USA)": {
 		"languages": "En"
 	},
+	"Mario Golf 64 (Japan) (Rev 1)": {
+		"languages": "Ja"
+	},
+	"Mario Golf 64 (Japan)": {
+		"languages": "Ja"
+	},
 	"Mario Golf (Europe)": {
 		"languages": "En"
 	},
 	"Mario Golf (USA)": {
 		"languages": "En"
 	},
-	"Mario Golf 64 (Japan)": {
-		"languages": "Ja"
-	},
-	"Mario Golf 64 (Japan) (Rev 1)": {
-		"languages": "Ja"
+	"Mario Kadingche (China) (v2) (iQue) (Manual)": {
+		"languages": "Zh"
 	},
 	"Mario Kadingche (China) (v4) (iQue)": {
 		"languages": "Zh"
@@ -1430,22 +1451,19 @@
 	"Mario Kadingche (China) (v5) (iQue)": {
 		"languages": "Zh"
 	},
-	"Mario Kadingche (China) (v2) (iQue) (Manual)": {
-		"languages": "Zh"
-	},
 	"Mario Kadingche (China) (v6) (iQue) (Manual)": {
 		"languages": "Zh"
-	},
-	"Mario Kart 64 (Europe)": {
-		"languages": "En"
 	},
 	"Mario Kart 64 (Europe) (Rev 1)": {
 		"languages": "En"
 	},
-	"Mario Kart 64 (Japan)": {
-		"languages": "Ja"
+	"Mario Kart 64 (Europe)": {
+		"languages": "En"
 	},
 	"Mario Kart 64 (Japan) (Rev 1)": {
+		"languages": "Ja"
+	},
+	"Mario Kart 64 (Japan)": {
 		"languages": "Ja"
 	},
 	"Mario Kart 64 (USA)": {
@@ -1453,6 +1471,36 @@
 	},
 	"Mario no Photopie (Japan)": {
 		"languages": "Ja"
+	},
+	"Mario Party 2 (Europe) (En,Fr,De,Es,It) (Wii Virtual Console)": {
+		"languages": "En,Fr,De,Es,It"
+	},
+	"Mario Party 2 (Europe) (En,Fr,De,Es,It)": {
+		"languages": "En,Fr,De,Es,It"
+	},
+	"Mario Party 2 (Japan) (Wii Virtual Console)": {
+		"languages": "Ja"
+	},
+	"Mario Party 2 (Japan)": {
+		"languages": "Ja"
+	},
+	"Mario Party 2 (USA) (Wii Virtual Console)": {
+		"languages": "En"
+	},
+	"Mario Party 2 (USA)": {
+		"languages": "En"
+	},
+	"Mario Party 3 (Europe) (En,Fr,De,Es)": {
+		"languages": "En,Fr,De,Es"
+	},
+	"Mario Party 3 (Japan)": {
+		"languages": "Ja"
+	},
+	"Mario Party 3 (USA) (Beta)": {
+		"languages": "En"
+	},
+	"Mario Party 3 (USA)": {
+		"languages": "En"
 	},
 	"Mario Party (Europe) (En,Fr,De)": {
 		"languages": "En,Fr,De"
@@ -1463,53 +1511,26 @@
 	"Mario Party (USA)": {
 		"languages": "En"
 	},
-	"Mario Party 2 (Europe) (En,Fr,De,Es,It)": {
-		"languages": "En,Fr,De,Es,It"
-	},
-	"Mario Party 2 (Japan)": {
-		"languages": "Ja"
-	},
-	"Mario Party 2 (USA)": {
-		"languages": "En"
-	},
-	"Mario Party 2 (Europe) (En,Fr,De,Es,It) (Wii Virtual Console)": {
-		"languages": "En,Fr,De,Es,It"
-	},
-	"Mario Party 2 (Japan) (Wii Virtual Console)": {
-		"languages": "Ja"
-	},
-	"Mario Party 2 (USA) (Wii Virtual Console)": {
-		"languages": "En"
-	},
-	"Mario Party 3 (Europe) (En,Fr,De,Es)": {
-		"languages": "En,Fr,De,Es"
-	},
-	"Mario Party 3 (Japan)": {
-		"languages": "Ja"
-	},
-	"Mario Party 3 (USA)": {
-		"languages": "En"
-	},
 	"Mario Story (Japan)": {
 		"languages": "Ja"
 	},
-	"Mario Tennis (Europe)": {
-		"languages": "En"
+	"Mario Tennis 64 (Japan) (Wii Virtual Console)": {
+		"languages": "Ja"
 	},
-	"Mario Tennis (USA)": {
-		"languages": "En"
+	"Mario Tennis 64 (Japan)": {
+		"languages": "Ja"
 	},
 	"Mario Tennis (Europe) (Wii Virtual Console)": {
+		"languages": "En"
+	},
+	"Mario Tennis (Europe)": {
 		"languages": "En"
 	},
 	"Mario Tennis (USA) (Wii Virtual Console)": {
 		"languages": "En"
 	},
-	"Mario Tennis 64 (Japan)": {
-		"languages": "Ja"
-	},
-	"Mario Tennis 64 (Japan) (Wii Virtual Console)": {
-		"languages": "Ja"
+	"Mario Tennis (USA)": {
+		"languages": "En"
 	},
 	"Mario Yisheng (China) (iQue)": {
 		"languages": "Zh"
@@ -1520,10 +1541,10 @@
 	"Mario Yisheng (China) (v4) (iQue) (Manual)": {
 		"languages": "Zh"
 	},
-	"Mega Man 64 (USA)": {
+	"Mega Man 64 (USA) (Beta)": {
 		"languages": "En"
 	},
-	"Mega Man 64 (USA) (Beta)": {
+	"Mega Man 64 (USA)": {
 		"languages": "En"
 	},
 	"Mia Hamm Soccer 64 (USA) (En,Es)": {
@@ -1565,10 +1586,10 @@
 	"Mischief Makers (Europe)": {
 		"languages": "En"
 	},
-	"Mischief Makers (USA)": {
+	"Mischief Makers (USA) (Rev 1)": {
 		"languages": "En"
 	},
-	"Mischief Makers (USA) (Rev 1)": {
+	"Mischief Makers (USA)": {
 		"languages": "En"
 	},
 	"Mission - Impossible (Europe)": {
@@ -1583,14 +1604,14 @@
 	"Mission - Impossible (Italy)": {
 		"languages": "It"
 	},
+	"Mission - Impossible (Spain) (Rev 1)": {
+		"languages": "Es"
+	},
 	"Mission - Impossible (Spain)": {
 		"languages": "Es"
 	},
 	"Mission - Impossible (USA)": {
 		"languages": "En"
-	},
-	"Mission - Impossible (Spain) (Rev 1)": {
-		"languages": "Es"
 	},
 	"Monaco Grand Prix (USA)": {
 		"languages": "En"
@@ -1625,16 +1646,16 @@
 	"Mortal Kombat Trilogy (Europe)": {
 		"languages": "En"
 	},
-	"Mortal Kombat Trilogy (USA)": {
-		"languages": "En"
-	},
-	"Mortal Kombat Trilogy (USA) (Rev 2)": {
+	"Mortal Kombat Trilogy (USA) (Beta) (1996-05-13)": {
 		"languages": "En"
 	},
 	"Mortal Kombat Trilogy (USA) (Rev 1)": {
 		"languages": "En"
 	},
-	"Mortal Kombat Trilogy (USA) (Beta) (1996-05-13)": {
+	"Mortal Kombat Trilogy (USA) (Rev 2)": {
+		"languages": "En"
+	},
+	"Mortal Kombat Trilogy (USA)": {
 		"languages": "En"
 	},
 	"MRC - Multi-Racing Championship (Europe) (En,Fr,De)": {
@@ -1667,13 +1688,13 @@
 	"Namco Museum 64 (USA)": {
 		"languages": "En"
 	},
-	"NASCAR 2000 (USA)": {
-		"languages": "En"
-	},
 	"NASCAR 99 (Europe) (En,Fr,De)": {
 		"languages": "En,Fr,De"
 	},
 	"NASCAR 99 (USA)": {
+		"languages": "En"
+	},
+	"NASCAR 2000 (USA)": {
 		"languages": "En"
 	},
 	"NBA Courtside 2 featuring Kobe Bryant (USA)": {
@@ -1685,15 +1706,6 @@
 	"NBA Hangtime (USA)": {
 		"languages": "En"
 	},
-	"NBA in the Zone '98 (Japan)": {
-		"languages": "Ja"
-	},
-	"NBA in the Zone '98 (USA)": {
-		"languages": "En"
-	},
-	"NBA in the Zone '99 (USA)": {
-		"languages": "En"
-	},
 	"NBA in the Zone 2 (Japan)": {
 		"languages": "Ja"
 	},
@@ -1703,10 +1715,13 @@
 	"NBA in the Zone 2000 (USA)": {
 		"languages": "En"
 	},
-	"NBA Jam 2000 (Europe)": {
+	"NBA in the Zone '98 (Japan)": {
+		"languages": "Ja"
+	},
+	"NBA in the Zone '98 (USA)": {
 		"languages": "En"
 	},
-	"NBA Jam 2000 (USA)": {
+	"NBA in the Zone '99 (USA)": {
 		"languages": "En"
 	},
 	"NBA Jam 99 (Europe)": {
@@ -1715,17 +1730,23 @@
 	"NBA Jam 99 (USA)": {
 		"languages": "En"
 	},
-	"NBA Live 2000 (Europe) (En,Fr,De,Es)": {
-		"languages": "En,Fr,De,Es"
+	"NBA Jam 2000 (Europe)": {
+		"languages": "En"
 	},
-	"NBA Live 2000 (USA) (En,Fr,De,Es)": {
-		"languages": "En,Fr,De,Es"
+	"NBA Jam 2000 (USA)": {
+		"languages": "En"
 	},
 	"NBA Live 99 (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
 	},
 	"NBA Live 99 (USA) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
+	},
+	"NBA Live 2000 (Europe) (En,Fr,De,Es)": {
+		"languages": "En,Fr,De,Es"
+	},
+	"NBA Live 2000 (USA) (En,Fr,De,Es)": {
+		"languages": "En,Fr,De,Es"
 	},
 	"NBA Pro 98 (Europe)": {
 		"languages": "En"
@@ -1745,28 +1766,22 @@
 	"New Tetris, The (USA)": {
 		"languages": "En"
 	},
+	"NFL Blitz 2000 (USA) (Rev 1)": {
+		"languages": "En"
+	},
+	"NFL Blitz 2000 (USA)": {
+		"languages": "En"
+	},
+	"NFL Blitz 2001 (USA)": {
+		"languages": "En"
+	},
 	"NFL Blitz (USA)": {
 		"languages": "En"
 	},
 	"NFL Blitz - Special Edition (USA)": {
 		"languages": "En"
 	},
-	"NFL Blitz 2000 (USA)": {
-		"languages": "En"
-	},
-	"NFL Blitz 2000 (USA) (Rev 1)": {
-		"languages": "En"
-	},
-	"NFL Blitz 2001 (USA)": {
-		"languages": "En"
-	},
 	"NFL QB Club 2001 (USA)": {
-		"languages": "En"
-	},
-	"NFL Quarterback Club 2000 (Europe)": {
-		"languages": "En"
-	},
-	"NFL Quarterback Club 2000 (USA)": {
 		"languages": "En"
 	},
 	"NFL Quarterback Club 98 (Europe)": {
@@ -1779,6 +1794,12 @@
 		"languages": "En"
 	},
 	"NFL Quarterback Club 99 (USA)": {
+		"languages": "En"
+	},
+	"NFL Quarterback Club 2000 (Europe)": {
+		"languages": "En"
+	},
+	"NFL Quarterback Club 2000 (USA)": {
 		"languages": "En"
 	},
 	"NHL 99 (Europe) (En,De,Sv,Fi)": {
@@ -1817,19 +1838,19 @@
 	"Nuclear Strike 64 (Europe) (En,Fr)": {
 		"languages": "En,Fr"
 	},
+	"Nuclear Strike 64 (Germany) (Beta) (1999-11-17)": {
+		"languages": "De"
+	},
 	"Nuclear Strike 64 (Germany)": {
 		"languages": "De"
 	},
 	"Nuclear Strike 64 (USA)": {
 		"languages": "En"
 	},
-	"Nuclear Strike 64 (Germany) (Beta) (1999-11-17)": {
-		"languages": "De"
-	},
-	"Nushi Zuri 64 (Japan)": {
+	"Nushi Zuri 64 (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
-	"Nushi Zuri 64 (Japan) (Rev 1)": {
+	"Nushi Zuri 64 (Japan)": {
 		"languages": "Ja"
 	},
 	"Nushi Zuri 64 - Shiokaze ni Notte (Japan)": {
@@ -1847,20 +1868,20 @@
 	"Off Road Challenge (USA)": {
 		"languages": "En"
 	},
-	"Ogre Battle 64 - Person of Lordly Caliber (Japan) (Rev 1)": {
+	"Ogre Battle 64 - Person of Lordly Caliber (Japan) (Rev 1) (Wii Virtual Console)": {
 		"languages": "Ja"
 	},
-	"Ogre Battle 64 - Person of Lordly Caliber (USA)": {
-		"languages": "En"
+	"Ogre Battle 64 - Person of Lordly Caliber (Japan) (Rev 1)": {
+		"languages": "Ja"
 	},
 	"Ogre Battle 64 - Person of Lordly Caliber (USA) (Rev 1)": {
 		"languages": "En"
 	},
-	"Ogre Battle 64 - Person of Lordly Caliber (USA, Europe) (Rev 1) (Wii Virtual Console)": {
+	"Ogre Battle 64 - Person of Lordly Caliber (USA)": {
 		"languages": "En"
 	},
-	"Ogre Battle 64 - Person of Lordly Caliber (Japan) (Rev 1) (Wii Virtual Console)": {
-		"languages": "Ja"
+	"Ogre Battle 64 - Person of Lordly Caliber (USA, Europe) (Rev 1) (Wii Virtual Console)": {
+		"languages": "En"
 	},
 	"Olympic Hockey 98 (Europe) (En,Fr,De,Es)": {
 		"languages": "En,Fr,De,Es"
@@ -1904,22 +1925,22 @@
 	"Penny Racers (USA)": {
 		"languages": "En"
 	},
+	"Perfect Dark (Europe) (Debug Version) (2000-04-26)": {
+		"languages": "En"
+	},
 	"Perfect Dark (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
 	},
 	"Perfect Dark (Japan)": {
 		"languages": "Ja"
 	},
-	"Perfect Dark (USA)": {
+	"Perfect Dark (USA) (Debug Version) (2000-03-22)": {
 		"languages": "En"
 	},
 	"Perfect Dark (USA) (Rev 1)": {
 		"languages": "En"
 	},
-	"Perfect Dark (USA) (Debug Version) (2000-03-22)": {
-		"languages": "En"
-	},
-	"Perfect Dark (Europe) (Debug Version) (2000-04-26)": {
+	"Perfect Dark (USA)": {
 		"languages": "En"
 	},
 	"PGA European Tour (USA)": {
@@ -1940,32 +1961,29 @@
 	"Pilotwings 64 (USA)": {
 		"languages": "En"
 	},
-	"Pokemon Puzzle League (Europe)": {
-		"languages": "En"
-	},
-	"Pokemon Puzzle League (France)": {
-		"languages": "Fr"
-	},
-	"Pokemon Puzzle League (Germany)": {
-		"languages": "De"
-	},
-	"Pokemon Puzzle League (USA)": {
-		"languages": "En"
-	},
 	"Pokemon Puzzle League (Europe) (Wii Virtual Console)": {
+		"languages": "En"
+	},
+	"Pokemon Puzzle League (Europe)": {
 		"languages": "En"
 	},
 	"Pokemon Puzzle League (France) (Wii Virtual Console)": {
 		"languages": "Fr"
 	},
+	"Pokemon Puzzle League (France)": {
+		"languages": "Fr"
+	},
 	"Pokemon Puzzle League (Germany) (Wii Virtual Console)": {
+		"languages": "De"
+	},
+	"Pokemon Puzzle League (Germany)": {
 		"languages": "De"
 	},
 	"Pokemon Puzzle League (USA) (Wii Virtual Console)": {
 		"languages": "En"
 	},
-	"Pokemon Snap (Japan)": {
-		"languages": "Ja"
+	"Pokemon Puzzle League (USA)": {
+		"languages": "En"
 	},
 	"Pokemon Snap (Australia)": {
 		"languages": "En"
@@ -1982,50 +2000,20 @@
 	"Pokemon Snap (Italy)": {
 		"languages": "It"
 	},
+	"Pokemon Snap (Japan) (Rev 1) (Wii Virtual Console)": {
+		"languages": "Ja"
+	},
+	"Pokemon Snap (Japan)": {
+		"languages": "Ja"
+	},
 	"Pokemon Snap (Spain)": {
 		"languages": "Es"
 	},
 	"Pokemon Snap (USA)": {
 		"languages": "En"
 	},
-	"Pokemon Snap (Japan) (Rev 1) (Wii Virtual Console)": {
-		"languages": "Ja"
-	},
 	"Pokemon Snap Station (USA) (Demo) (Kiosk)": {
 		"languages": "En"
-	},
-	"Pokemon Stadium (Japan)": {
-		"languages": "Ja"
-	},
-	"Pokemon Stadium (Europe)": {
-		"languages": "En"
-	},
-	"Pokemon Stadium (Europe) (Rev 1)": {
-		"languages": "En"
-	},
-	"Pokemon Stadium (France)": {
-		"languages": "Fr"
-	},
-	"Pokemon Stadium (Germany)": {
-		"languages": "De"
-	},
-	"Pokemon Stadium (Italy)": {
-		"languages": "It"
-	},
-	"Pokemon Stadium (Spain)": {
-		"languages": "Es"
-	},
-	"Pokemon Stadium (USA)": {
-		"languages": "En"
-	},
-	"Pokemon Stadium (USA) (Rev 1)": {
-		"languages": "En"
-	},
-	"Pokemon Stadium (USA) (Rev 2)": {
-		"languages": "En"
-	},
-	"Pokemon Stadium 2 (Japan)": {
-		"languages": "Ja"
 	},
 	"Pokemon Stadium 2 (Europe)": {
 		"languages": "En"
@@ -2039,10 +2027,43 @@
 	"Pokemon Stadium 2 (Italy)": {
 		"languages": "It"
 	},
+	"Pokemon Stadium 2 (Japan)": {
+		"languages": "Ja"
+	},
 	"Pokemon Stadium 2 (Spain)": {
 		"languages": "Es"
 	},
 	"Pokemon Stadium 2 (USA)": {
+		"languages": "En"
+	},
+	"Pokemon Stadium (Europe) (Rev 1)": {
+		"languages": "En"
+	},
+	"Pokemon Stadium (Europe)": {
+		"languages": "En"
+	},
+	"Pokemon Stadium (France)": {
+		"languages": "Fr"
+	},
+	"Pokemon Stadium (Germany)": {
+		"languages": "De"
+	},
+	"Pokemon Stadium (Italy)": {
+		"languages": "It"
+	},
+	"Pokemon Stadium (Japan)": {
+		"languages": "Ja"
+	},
+	"Pokemon Stadium (Spain)": {
+		"languages": "Es"
+	},
+	"Pokemon Stadium (USA) (Rev 1)": {
+		"languages": "En"
+	},
+	"Pokemon Stadium (USA) (Rev 2)": {
+		"languages": "En"
+	},
+	"Pokemon Stadium (USA)": {
 		"languages": "En"
 	},
 	"Pokemon Stadium Kin Gin (Japan)": {
@@ -2066,10 +2087,10 @@
 	"Premier Manager 64 (Europe)": {
 		"languages": "En"
 	},
-	"Pro Mahjong Kiwame 64 (Japan)": {
+	"Pro Mahjong Kiwame 64 (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
-	"Pro Mahjong Kiwame 64 (Japan) (Rev 1)": {
+	"Pro Mahjong Kiwame 64 (Japan)": {
 		"languages": "Ja"
 	},
 	"Pro Mahjong Tsuwamono 64 - Jansou Battle ni Chousen (Japan)": {
@@ -2114,16 +2135,16 @@
 	"Rally Challenge 2000 (USA)": {
 		"languages": "En"
 	},
-	"Rampage - World Tour (Europe)": {
-		"languages": "En"
-	},
-	"Rampage - World Tour (USA)": {
-		"languages": "En"
-	},
 	"Rampage 2 - Universal Tour (Europe)": {
 		"languages": "En"
 	},
 	"Rampage 2 - Universal Tour (USA)": {
+		"languages": "En"
+	},
+	"Rampage - World Tour (Europe)": {
+		"languages": "En"
+	},
+	"Rampage - World Tour (USA)": {
 		"languages": "En"
 	},
 	"Rat Attack (Europe) (En,Fr,De,Es,It,Nl)": {
@@ -2159,10 +2180,10 @@
 	"Ready 2 Rumble Boxing - Round 2 (USA)": {
 		"languages": "En"
 	},
-	"Rentiantang Mingxing - Daluan Dou (China) (iQue)": {
+	"Rentiantang Mingxing - Daluan Dou (China) (iQue) (Manual)": {
 		"languages": "Zh"
 	},
-	"Rentiantang Mingxing - Daluan Dou (China) (iQue) (Manual)": {
+	"Rentiantang Mingxing - Daluan Dou (China) (iQue)": {
 		"languages": "Zh"
 	},
 	"Resident Evil 2 (Europe) (En,Fr)": {
@@ -2174,13 +2195,13 @@
 	"Resident Evil 2 (USA)": {
 		"languages": "En"
 	},
+	"Road Rash 64 (Europe) (Beta) (1999-10-12)": {
+		"languages": "En"
+	},
 	"Road Rash 64 (Europe)": {
 		"languages": "En"
 	},
 	"Road Rash 64 (USA)": {
-		"languages": "En"
-	},
-	"Road Rash 64 (Europe) (Beta) (1999-10-12)": {
 		"languages": "En"
 	},
 	"Roadsters (Europe) (En,Fr,De,Es,It,Nl)": {
@@ -2192,10 +2213,10 @@
 	"Robot Poncots 64 - 7tsu no Umi no Caramel (Japan)": {
 		"languages": "Ja"
 	},
-	"Robotech - Crystal Dreams (USA) (Proto 2)": {
+	"Robotech - Crystal Dreams (USA) (Proto 1)": {
 		"languages": "En"
 	},
-	"Robotech - Crystal Dreams (USA) (Proto 1)": {
+	"Robotech - Crystal Dreams (USA) (Proto 2)": {
 		"languages": "En"
 	},
 	"Robotron 64 (Europe)": {
@@ -2204,13 +2225,13 @@
 	"Robotron 64 (USA)": {
 		"languages": "En"
 	},
+	"Rocket - Robot on Wheels (Europe) (Beta) (1999-09-29)": {
+		"languages": "En"
+	},
 	"Rocket - Robot on Wheels (Europe) (En,Fr,De)": {
 		"languages": "En,Fr,De"
 	},
 	"Rocket - Robot on Wheels (USA)": {
-		"languages": "En"
-	},
-	"Rocket - Robot on Wheels (Europe) (Beta) (1999-09-29)": {
 		"languages": "En"
 	},
 	"Rockman Dash - Hagane no Boukenshin (Japan)": {
@@ -2258,28 +2279,28 @@
 	"Saikyou Habu Shougi (Japan)": {
 		"languages": "Ja"
 	},
-	"San Francisco Rush - Extreme Racing (Europe) (En,Fr,De)": {
-		"languages": "En,Fr,De"
-	},
-	"San Francisco Rush - Extreme Racing (USA) (En,Fr,De)": {
-		"languages": "En,Fr,De"
-	},
-	"San Francisco Rush - Extreme Racing (USA) (En,Fr,De) (Rev 1)": {
-		"languages": "En,Fr,De"
-	},
 	"San Francisco Rush 2049 (Europe) (En,Fr,De,Es,It,Nl)": {
 		"languages": "En,Fr,De,Es,It,Nl"
 	},
 	"San Francisco Rush 2049 (USA)": {
 		"languages": "En"
 	},
+	"San Francisco Rush - Extreme Racing (Europe) (En,Fr,De)": {
+		"languages": "En,Fr,De"
+	},
+	"San Francisco Rush - Extreme Racing (USA) (En,Fr,De) (Rev 1)": {
+		"languages": "En,Fr,De"
+	},
+	"San Francisco Rush - Extreme Racing (USA) (En,Fr,De)": {
+		"languages": "En,Fr,De"
+	},
 	"Scooby-Doo! - Classic Creep Capers (Europe)": {
 		"languages": "En"
 	},
-	"Scooby-Doo! - Classic Creep Capers (USA)": {
+	"Scooby-Doo! - Classic Creep Capers (USA) (Rev 1)": {
 		"languages": "En"
 	},
-	"Scooby-Doo! - Classic Creep Capers (USA) (Rev 1)": {
+	"Scooby-Doo! - Classic Creep Capers (USA)": {
 		"languages": "En"
 	},
 	"SD Hiryuu no Ken Densetsu (Japan)": {
@@ -2290,6 +2311,9 @@
 	},
 	"Sesame Street - Elmo's Number Journey (USA)": {
 		"languages": "En"
+	},
+	"Shadow Man (Brazil)": {
+		"languages": "Pt"
 	},
 	"Shadow Man (Europe) (En,Es,It)": {
 		"languages": "En,Es,It"
@@ -2303,17 +2327,14 @@
 	"Shadow Man (USA)": {
 		"languages": "En"
 	},
-	"Shadow Man (Brazil)": {
-		"languages": "Pt"
-	},
-	"Shadowgate 64 - Trials of the Four Towers (Europe)": {
-		"languages": "En"
-	},
 	"Shadowgate 64 - Trials of the Four Towers (Europe) (Es,It)": {
 		"languages": "Es,It"
 	},
 	"Shadowgate 64 - Trials of the Four Towers (Europe) (Fr,De,Nl)": {
 		"languages": "Fr,De,Nl"
+	},
+	"Shadowgate 64 - Trials of the Four Towers (Europe)": {
+		"languages": "En"
 	},
 	"Shadowgate 64 - Trials of the Four Towers (Japan)": {
 		"languages": "Ja"
@@ -2327,10 +2348,10 @@
 	"Shen You Mario (China) (v6) (iQue) (Manual)": {
 		"languages": "Zh"
 	},
-	"Shin Nihon Pro Wrestling Toukon Road - Brave Spirits (Japan)": {
+	"Shin Nihon Pro Wrestling Toukon Road 2 - The Next Generation (Japan)": {
 		"languages": "Ja"
 	},
-	"Shin Nihon Pro Wrestling Toukon Road 2 - The Next Generation (Japan)": {
+	"Shin Nihon Pro Wrestling Toukon Road - Brave Spirits (Japan)": {
 		"languages": "Ja"
 	},
 	"Shuishang Motuo (China) (iQue)": {
@@ -2351,20 +2372,23 @@
 	"Snow Speeder (Japan)": {
 		"languages": "Ja"
 	},
-	"Snowboard Kids (Europe, Australia)": {
-		"languages": "En"
-	},
-	"Snowboard Kids (USA)": {
-		"languages": "En"
-	},
 	"Snowboard Kids 2 (Australia)": {
 		"languages": "En"
 	},
 	"Snowboard Kids 2 (USA)": {
 		"languages": "En"
 	},
+	"Snowboard Kids (Europe, Australia)": {
+		"languages": "En"
+	},
+	"Snowboard Kids (USA)": {
+		"languages": "En"
+	},
 	"Sonic Wings Assault (Japan)": {
 		"languages": "Ja"
+	},
+	"South Park (Brazil)": {
+		"languages": "Pt"
 	},
 	"South Park (Europe) (En,Fr,Es)": {
 		"languages": "En,Fr,Es"
@@ -2375,22 +2399,19 @@
 	"South Park (USA)": {
 		"languages": "En"
 	},
-	"South Park (Brazil)": {
-		"languages": "Pt"
-	},
 	"South Park - Chef's Luv Shack (Europe)": {
 		"languages": "En"
 	},
 	"South Park - Chef's Luv Shack (USA)": {
 		"languages": "En"
 	},
+	"South Park Rally (Europe) (Beta)": {
+		"languages": "En"
+	},
 	"South Park Rally (Europe)": {
 		"languages": "En"
 	},
 	"South Park Rally (USA)": {
-		"languages": "En"
-	},
-	"South Park Rally (Europe) (Beta)": {
 		"languages": "En"
 	},
 	"Space Dynamites (Japan)": {
@@ -2405,26 +2426,26 @@
 	"SpaceStation Silicon Valley (Japan) (Proto)": {
 		"languages": "Ja"
 	},
-	"SpaceStation Silicon Valley (USA)": {
+	"SpaceStation Silicon Valley (USA) (Rev 1)": {
 		"languages": "En"
 	},
-	"SpaceStation Silicon Valley (USA) (Rev 1)": {
+	"SpaceStation Silicon Valley (USA)": {
 		"languages": "En"
 	},
 	"Spider-Man (USA)": {
 		"languages": "En"
 	},
-	"Star Fox 64 (Japan)": {
+	"Star Fox 64 (Japan) (Rev 1) (Wii Virtual Console)": {
 		"languages": "Ja"
 	},
-	"Star Fox 64 (USA)": {
-		"languages": "En"
+	"Star Fox 64 (Japan)": {
+		"languages": "Ja"
 	},
 	"Star Fox 64 (USA) (Rev 1)": {
 		"languages": "En"
 	},
-	"Star Fox 64 (Japan) (Rev 1) (Wii Virtual Console)": {
-		"languages": "Ja"
+	"Star Fox 64 (USA)": {
+		"languages": "En"
 	},
 	"Star Soldier - Vanishing Earth (Japan)": {
 		"languages": "Ja"
@@ -2435,22 +2456,25 @@
 	"Star Twins (Japan)": {
 		"languages": "Ja"
 	},
-	"Star Wars - Rogue Squadron (Europe) (En,Fr,De)": {
-		"languages": "En,Fr,De"
-	},
 	"Star Wars - Rogue Squadron (Europe) (En,Fr,De) (Rev 1)": {
 		"languages": "En,Fr,De"
 	},
-	"Star Wars - Rogue Squadron (USA)": {
-		"languages": "En"
+	"Star Wars - Rogue Squadron (Europe) (En,Fr,De)": {
+		"languages": "En,Fr,De"
 	},
 	"Star Wars - Rogue Squadron (USA) (Rev 1)": {
+		"languages": "En"
+	},
+	"Star Wars - Rogue Squadron (USA)": {
 		"languages": "En"
 	},
 	"Star Wars - Shadows of the Empire (Europe)": {
 		"languages": "En"
 	},
-	"Star Wars - Shadows of the Empire (USA)": {
+	"Star Wars - Shadows of the Empire (USA) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Star Wars - Shadows of the Empire (USA) (Beta) (1996-10-15)": {
 		"languages": "En"
 	},
 	"Star Wars - Shadows of the Empire (USA) (Rev 1)": {
@@ -2459,7 +2483,7 @@
 	"Star Wars - Shadows of the Empire (USA) (Rev 2)": {
 		"languages": "En"
 	},
-	"Star Wars - Shadows of the Empire (USA) (Beta) (1996-10-15)": {
+	"Star Wars - Shadows of the Empire (USA)": {
 		"languages": "En"
 	},
 	"Star Wars - Shutsugeki! Rogue Chuutai (Japan)": {
@@ -2480,20 +2504,23 @@
 	"Star Wars Episode I - Racer (Japan)": {
 		"languages": "Ja"
 	},
+	"Star Wars Episode I - Racer (USA) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
 	"Star Wars Episode I - Racer (USA)": {
 		"languages": "En"
 	},
 	"StarCraft 64 (Australia)": {
 		"languages": "En"
 	},
-	"StarCraft 64 (USA)": {
-		"languages": "En"
+	"StarCraft 64 (Germany) (Proto)": {
+		"languages": "De"
 	},
 	"StarCraft 64 (USA) (Beta)": {
 		"languages": "En"
 	},
-	"StarCraft 64 (Germany) (Proto)": {
-		"languages": "De"
+	"StarCraft 64 (USA)": {
+		"languages": "En"
 	},
 	"Starshot - Space Circus Fever (Europe) (En,Fr,De)": {
 		"languages": "En,Fr,De"
@@ -2516,17 +2543,14 @@
 	"Super Mario 64 (Europe) (En,Fr,De)": {
 		"languages": "En,Fr,De"
 	},
-	"Super Mario 64 (Japan)": {
+	"Super Mario 64 (Japan) (Rev 3) (Shindou Edition)": {
 		"languages": "Ja"
 	},
-	"Super Mario 64 (Japan) (Rev 3) (Shindou Edition)": {
+	"Super Mario 64 (Japan)": {
 		"languages": "Ja"
 	},
 	"Super Mario 64 (USA)": {
 		"languages": "En"
-	},
-	"Super Real Mahjong VS (Japan) (Rev 1) (Aleck 64)": {
-		"languages": "Ja"
 	},
 	"Super Robot Spirits (Japan)": {
 		"languages": "Ja"
@@ -2639,28 +2663,28 @@
 	"Tonic Trouble (USA) (Rev 1)": {
 		"languages": "En"
 	},
-	"Tony Hawk's Pro Skater (USA)": {
-		"languages": "En"
-	},
-	"Tony Hawk's Pro Skater (USA) (Rev 1)": {
-		"languages": "En"
-	},
-	"Tony Hawk's Pro Skater (USA) (Beta)": {
-		"languages": "En"
-	},
-	"Tony Hawk's Pro Skater 2 (USA) (v012) (Beta) (2001-06-04)": {
+	"Tony Hawk's Pro Skater 2 (Europe)": {
 		"languages": "En"
 	},
 	"Tony Hawk's Pro Skater 2 (USA) (Beta) (2001-04-20)": {
 		"languages": "En"
 	},
-	"Tony Hawk's Pro Skater 2 (Europe)": {
+	"Tony Hawk's Pro Skater 2 (USA) (v012) (Beta) (2001-06-04)": {
 		"languages": "En"
 	},
 	"Tony Hawk's Pro Skater 2 (USA)": {
 		"languages": "En"
 	},
 	"Tony Hawk's Pro Skater 3 (USA)": {
+		"languages": "En"
+	},
+	"Tony Hawk's Pro Skater (USA) (Beta)": {
+		"languages": "En"
+	},
+	"Tony Hawk's Pro Skater (USA) (Rev 1)": {
+		"languages": "En"
+	},
+	"Tony Hawk's Pro Skater (USA)": {
 		"languages": "En"
 	},
 	"Tony Hawk's Skateboarding (Europe)": {
@@ -2675,10 +2699,10 @@
 	"Top Gear Hyper Bike (Japan)": {
 		"languages": "Ja"
 	},
-	"Top Gear Hyper-Bike (USA)": {
+	"Top Gear Hyper-Bike (USA) (Beta)": {
 		"languages": "En"
 	},
-	"Top Gear Hyper-Bike (USA) (Beta)": {
+	"Top Gear Hyper-Bike (USA)": {
 		"languages": "En"
 	},
 	"Top Gear Overdrive (Europe)": {
@@ -2688,18 +2712,6 @@
 		"languages": "Ja"
 	},
 	"Top Gear Overdrive (USA)": {
-		"languages": "En"
-	},
-	"Top Gear Rally (Europe)": {
-		"languages": "En"
-	},
-	"Top Gear Rally (Japan)": {
-		"languages": "Ja"
-	},
-	"Top Gear Rally (USA)": {
-		"languages": "En"
-	},
-	"Top Gear Rally (Asia) (En)": {
 		"languages": "En"
 	},
 	"Top Gear Rally 2 (Europe) (Beta) (1999-08-31)": {
@@ -2714,22 +2726,34 @@
 	"Top Gear Rally 2 (USA)": {
 		"languages": "En"
 	},
+	"Top Gear Rally (Asia) (En)": {
+		"languages": "En"
+	},
+	"Top Gear Rally (Europe)": {
+		"languages": "En"
+	},
+	"Top Gear Rally (Japan)": {
+		"languages": "Ja"
+	},
+	"Top Gear Rally (USA)": {
+		"languages": "En"
+	},
 	"Toy Story 2 - Buzz l'Eclair a la Rescousse! (France)": {
 		"languages": "Fr"
 	},
 	"Toy Story 2 - Buzz Lightyear to the Rescue! (Europe)": {
 		"languages": "En"
 	},
-	"Toy Story 2 - Buzz Lightyear to the Rescue! (USA)": {
-		"languages": "En"
-	},
 	"Toy Story 2 - Buzz Lightyear to the Rescue! (USA) (Rev 1)": {
 		"languages": "En"
 	},
-	"Toy Story 2 - Captain Buzz Lightyear auf Rettungsmission! (Germany)": {
-		"languages": "De"
+	"Toy Story 2 - Buzz Lightyear to the Rescue! (USA)": {
+		"languages": "En"
 	},
 	"Toy Story 2 - Captain Buzz Lightyear auf Rettungsmission! (Germany) (Rev 1)": {
+		"languages": "De"
+	},
+	"Toy Story 2 - Captain Buzz Lightyear auf Rettungsmission! (Germany)": {
 		"languages": "De"
 	},
 	"Transformers - Beast Wars Metals 64 (Japan)": {
@@ -2744,62 +2768,17 @@
 	"Tsumi to Batsu - Hoshi no Keishousha (Japan)": {
 		"languages": "Ja"
 	},
-	"Turok - Dinosaur Hunter (Europe)": {
-		"languages": "En"
-	},
-	"Turok - Dinosaur Hunter (Europe) (Rev 1)": {
-		"languages": "En"
-	},
-	"Turok - Dinosaur Hunter (Europe) (Rev 2)": {
-		"languages": "En"
-	},
-	"Turok - Dinosaur Hunter (Germany)": {
-		"languages": "De"
-	},
-	"Turok - Dinosaur Hunter (USA)": {
-		"languages": "En"
-	},
-	"Turok - Dinosaur Hunter (USA) (Rev 1)": {
-		"languages": "En"
-	},
-	"Turok - Dinosaur Hunter (USA) (Rev 2)": {
-		"languages": "En"
-	},
-	"Turok - Dinosaur Hunter (Germany) (Rev 1)": {
-		"languages": "De"
-	},
-	"Turok - Dinosaur Hunter (Germany) (Rev 2)": {
-		"languages": "De"
-	},
-	"Turok - Legenden des Verlorenen Landes (Germany)": {
-		"languages": "De"
-	},
-	"Turok - Rage Wars (Europe)": {
-		"languages": "En"
-	},
-	"Turok - Rage Wars (Europe) (En,Fr,It)": {
-		"languages": "En,Fr,It"
-	},
-	"Turok - Rage Wars (USA)": {
-		"languages": "En"
-	},
-	"Turok - Rage Wars (USA) (Rev 1)": {
-		"languages": "En"
-	},
-	"Turok 2 - Seeds of Evil (Europe)": {
+	"Turok 2 - Seeds of Evil (Europe) (Demo) (Kiosk)": {
 		"languages": "En"
 	},
 	"Turok 2 - Seeds of Evil (Europe) (En,Fr,Es,It)": {
 		"languages": "En,Fr,Es,It"
 	},
-	"Turok 2 - Seeds of Evil (Europe) (Demo) (Kiosk)": {
+	"Turok 2 - Seeds of Evil (Europe)": {
 		"languages": "En"
 	},
 	"Turok 2 - Seeds of Evil (Germany)": {
 		"languages": "De"
-	},
-	"Turok 2 - Seeds of Evil (USA)": {
-		"languages": "En"
 	},
 	"Turok 2 - Seeds of Evil (USA) (Demo) (Kiosk)": {
 		"languages": "En"
@@ -2807,19 +2786,22 @@
 	"Turok 2 - Seeds of Evil (USA) (Rev 1)": {
 		"languages": "En"
 	},
-	"Turok 3 - Shadow of Oblivion (Europe)": {
-		"languages": "En"
-	},
-	"Turok 3 - Shadow of Oblivion (USA)": {
-		"languages": "En"
-	},
-	"Turok 3 - Shadow of Oblivion (Europe) (Beta) (2000-07-10) [b]": {
+	"Turok 2 - Seeds of Evil (USA)": {
 		"languages": "En"
 	},
 	"Turok 3 - Shadow of Oblivion (Europe) (Beta) (2000-05-31)": {
 		"languages": "En"
 	},
+	"Turok 3 - Shadow of Oblivion (Europe) (Beta) (2000-06-06) [b]": {
+		"languages": "En"
+	},
+	"Turok 3 - Shadow of Oblivion (Europe) (Beta) (2000-07-10) [b]": {
+		"languages": "En"
+	},
 	"Turok 3 - Shadow of Oblivion (Europe) (Beta) (2000-07-16)": {
+		"languages": "En"
+	},
+	"Turok 3 - Shadow of Oblivion (Europe)": {
 		"languages": "En"
 	},
 	"Turok 3 - Shadow of Oblivion (USA) (Beta) (2000-06-26)": {
@@ -2828,7 +2810,49 @@
 	"Turok 3 - Shadow of Oblivion (USA) (Beta) (2000-07-21)": {
 		"languages": "En"
 	},
-	"Turok 3 - Shadow of Oblivion (Europe) (Beta) (2000-06-06) [b]": {
+	"Turok 3 - Shadow of Oblivion (USA)": {
+		"languages": "En"
+	},
+	"Turok - Dinosaur Hunter (Europe) (Rev 1)": {
+		"languages": "En"
+	},
+	"Turok - Dinosaur Hunter (Europe) (Rev 2)": {
+		"languages": "En"
+	},
+	"Turok - Dinosaur Hunter (Europe)": {
+		"languages": "En"
+	},
+	"Turok - Dinosaur Hunter (Germany) (Rev 1)": {
+		"languages": "De"
+	},
+	"Turok - Dinosaur Hunter (Germany) (Rev 2)": {
+		"languages": "De"
+	},
+	"Turok - Dinosaur Hunter (Germany)": {
+		"languages": "De"
+	},
+	"Turok - Dinosaur Hunter (USA) (Rev 1)": {
+		"languages": "En"
+	},
+	"Turok - Dinosaur Hunter (USA) (Rev 2)": {
+		"languages": "En"
+	},
+	"Turok - Dinosaur Hunter (USA)": {
+		"languages": "En"
+	},
+	"Turok - Legenden des Verlorenen Landes (Germany)": {
+		"languages": "De"
+	},
+	"Turok - Rage Wars (Europe) (En,Fr,It)": {
+		"languages": "En,Fr,It"
+	},
+	"Turok - Rage Wars (Europe)": {
+		"languages": "En"
+	},
+	"Turok - Rage Wars (USA) (Rev 1)": {
+		"languages": "En"
+	},
+	"Turok - Rage Wars (USA)": {
 		"languages": "En"
 	},
 	"Twisted Edge - Extreme Snowboarding (USA)": {
@@ -2891,16 +2915,16 @@
 	"Virtual Pro Wrestling 64 (Japan)": {
 		"languages": "Ja"
 	},
-	"Waialae Country Club - True Golf Classics (Europe)": {
-		"languages": "En"
-	},
 	"Waialae Country Club - True Golf Classics (Europe) (Rev 1)": {
 		"languages": "En"
 	},
-	"Waialae Country Club - True Golf Classics (USA)": {
+	"Waialae Country Club - True Golf Classics (Europe)": {
 		"languages": "En"
 	},
 	"Waialae Country Club - True Golf Classics (USA) (Rev 1)": {
+		"languages": "En"
+	},
+	"Waialae Country Club - True Golf Classics (USA)": {
 		"languages": "En"
 	},
 	"War Gods (Europe)": {
@@ -2912,20 +2936,26 @@
 	"Wave Race 64 - Kawasaki Jet Ski (Europe) (En,De)": {
 		"languages": "En,De"
 	},
-	"Wave Race 64 - Kawasaki Jet Ski (Japan)": {
+	"Wave Race 64 - Kawasaki Jet Ski (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
 	"Wave Race 64 - Kawasaki Jet Ski (Japan) (Rev 2) (Shindou Edition)": {
 		"languages": "Ja"
 	},
-	"Wave Race 64 - Kawasaki Jet Ski (USA)": {
-		"languages": "En"
+	"Wave Race 64 - Kawasaki Jet Ski (Japan)": {
+		"languages": "Ja"
 	},
 	"Wave Race 64 - Kawasaki Jet Ski (USA) (Rev 1)": {
 		"languages": "En"
 	},
-	"Wave Race 64 - Kawasaki Jet Ski (Japan) (Rev 1)": {
-		"languages": "Ja"
+	"Wave Race 64 - Kawasaki Jet Ski (USA)": {
+		"languages": "En"
+	},
+	"Wayne Gretzky's 3D Hockey '98 (Europe) (En,Fr,De,Es)": {
+		"languages": "En,Fr,De,Es"
+	},
+	"Wayne Gretzky's 3D Hockey '98 (USA)": {
+		"languages": "En"
 	},
 	"Wayne Gretzky's 3D Hockey (Europe) (En,Fr,De,Es)": {
 		"languages": "En,Fr,De,Es"
@@ -2933,16 +2963,10 @@
 	"Wayne Gretzky's 3D Hockey (Japan)": {
 		"languages": "Ja"
 	},
-	"Wayne Gretzky's 3D Hockey (USA)": {
-		"languages": "En"
-	},
 	"Wayne Gretzky's 3D Hockey (USA) (Rev 1)": {
 		"languages": "En"
 	},
-	"Wayne Gretzky's 3D Hockey '98 (Europe) (En,Fr,De,Es)": {
-		"languages": "En,Fr,De,Es"
-	},
-	"Wayne Gretzky's 3D Hockey '98 (USA)": {
+	"Wayne Gretzky's 3D Hockey (USA)": {
 		"languages": "En"
 	},
 	"WCW Backstage Assault (USA)": {
@@ -2960,10 +2984,10 @@
 	"WCW vs. nWo - World Tour (Europe)": {
 		"languages": "En"
 	},
-	"WCW vs. nWo - World Tour (USA)": {
+	"WCW vs. nWo - World Tour (USA) (Rev 1)": {
 		"languages": "En"
 	},
-	"WCW vs. nWo - World Tour (USA) (Rev 1)": {
+	"WCW vs. nWo - World Tour (USA)": {
 		"languages": "En"
 	},
 	"WCW-nWo Revenge (Europe)": {
@@ -2981,7 +3005,7 @@
 	"Wetrix (USA) (En,Fr,De,Es,It,Nl)": {
 		"languages": "En,Fr,De,Es,It,Nl"
 	},
-	"Whack 'n' Roll (Unknown) (Beta) (1998-02-05)": {
+	"Whack 'n' Roll (USA) (Beta) (1998-02-05)": {
 		"languages": "En"
 	},
 	"Wheel of Fortune (USA)": {
@@ -2993,22 +3017,22 @@
 	"Wildwaters (USA) (Proto) (1999-06-15)": {
 		"languages": "En"
 	},
-	"WinBack (Japan)": {
-		"languages": "Ja"
-	},
 	"WinBack (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
+	"WinBack (Japan)": {
+		"languages": "Ja"
+	},
 	"WinBack - Covert Operations (USA)": {
+		"languages": "En"
+	},
+	"Wipeout 64 (Europe) (Beta)": {
 		"languages": "En"
 	},
 	"Wipeout 64 (Europe)": {
 		"languages": "En"
 	},
 	"Wipeout 64 (USA)": {
-		"languages": "En"
-	},
-	"Wipeout 64 (Europe) (Beta)": {
 		"languages": "En"
 	},
 	"Wonder Project J2 - Koruro no Mori no Jozet (Japan)": {
@@ -3041,16 +3065,16 @@
 	"WWF Attitude (USA)": {
 		"languages": "En"
 	},
-	"WWF No Mercy (Europe)": {
-		"languages": "En"
-	},
 	"WWF No Mercy (Europe) (Rev 1)": {
 		"languages": "En"
 	},
-	"WWF No Mercy (USA)": {
+	"WWF No Mercy (Europe)": {
 		"languages": "En"
 	},
 	"WWF No Mercy (USA) (Rev 1)": {
+		"languages": "En"
+	},
+	"WWF No Mercy (USA)": {
 		"languages": "En"
 	},
 	"WWF War Zone (Europe)": {
@@ -3068,16 +3092,19 @@
 	"WWF WrestleMania 2000 (USA)": {
 		"languages": "En"
 	},
+	"X'treme Roller (Unknown) (Proto)": {
+		"languages": "En"
+	},
 	"Xena - Warrior Princess - The Talisman of Fate (Europe)": {
 		"languages": "En"
 	},
 	"Xena - Warrior Princess - The Talisman of Fate (USA)": {
 		"languages": "En"
 	},
-	"Xingji Huohu (China) (v5) (iQue)": {
+	"Xingji Huohu (China) (v4) (iQue) (Manual)": {
 		"languages": "Zh"
 	},
-	"Xingji Huohu (China) (v4) (iQue) (Manual)": {
+	"Xingji Huohu (China) (v5) (iQue)": {
 		"languages": "Zh"
 	},
 	"Xplorer 64 (Germany) (v1.067) (Unl)": {
@@ -3107,19 +3134,19 @@
 	"Yoshi's Story (USA) (En,Ja)": {
 		"languages": "En,Ja"
 	},
-	"Yueye Motuo (China) (iQue)": {
+	"Yueye Motuo (China) (iQue) (Manual)": {
 		"languages": "Zh"
 	},
-	"Yueye Motuo (China) (iQue) (Manual)": {
+	"Yueye Motuo (China) (iQue)": {
 		"languages": "Zh"
 	},
 	"Yuke Yuke!! Trouble Makers (Japan)": {
 		"languages": "Ja"
 	},
-	"Zelda Chuanshuo Shiguang Zhi Di (China) (iQue)": {
+	"Zelda Chuanshuo Shiguang Zhi Di (China) (Chinese Traditional) (iQue)": {
 		"languages": "Zh"
 	},
-	"Zelda Chuanshuo Shiguang Zhi Di (China) (Chinese Traditional) (iQue)": {
+	"Zelda Chuanshuo Shiguang Zhi Di (China) (iQue)": {
 		"languages": "Zh"
 	},
 	"Zelda Chuanshuo Shiguang Zhi Di (China) (v2) (iQue) (Manual)": {
@@ -3128,16 +3155,16 @@
 	"Zelda Chuanshuo Shiguang Zhi Di (China) (v4) (iQue) (Manual)": {
 		"languages": "Zh"
 	},
-	"Zelda no Densetsu - Mujura no Kamen (Japan)": {
+	"Zelda no Densetsu - Mujura no Kamen (Japan) (GameCube)": {
 		"languages": "Ja"
 	},
 	"Zelda no Densetsu - Mujura no Kamen (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
-	"Zelda no Densetsu - Mujura no Kamen (Japan) (GameCube)": {
+	"Zelda no Densetsu - Mujura no Kamen (Japan)": {
 		"languages": "Ja"
 	},
-	"Zelda no Densetsu - Toki no Ocarina (Japan)": {
+	"Zelda no Densetsu - Toki no Ocarina (Japan) (GameCube, Zelda Collection)": {
 		"languages": "Ja"
 	},
 	"Zelda no Densetsu - Toki no Ocarina (Japan) (Rev 1)": {
@@ -3146,7 +3173,7 @@
 	"Zelda no Densetsu - Toki no Ocarina (Japan) (Rev 2)": {
 		"languages": "Ja"
 	},
-	"Zelda no Densetsu - Toki no Ocarina (Japan) (GameCube, Zelda Collection)": {
+	"Zelda no Densetsu - Toki no Ocarina (Japan)": {
 		"languages": "Ja"
 	},
 	"Zelda no Densetsu - Toki no Ocarina GC (Japan) (GameCube)": {
@@ -3170,10 +3197,10 @@
 	"Zuhe Jiqiren (China) (iQue)": {
 		"languages": "Zh"
 	},
-	"Zui Yu Fa Diqiu De Jicheng Zhe (China) (iQue)": {
+	"Zui Yu Fa Diqiu De Jicheng Zhe (China) (iQue) (Manual)": {
 		"languages": "Zh"
 	},
-	"Zui Yu Fa Diqiu De Jicheng Zhe (China) (iQue) (Manual)": {
+	"Zui Yu Fa Diqiu De Jicheng Zhe (China) (iQue)": {
 		"languages": "Zh"
 	}
 }

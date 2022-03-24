@@ -1,4 +1,7 @@
 {
+	"[BIOS] VTech CreatiVision (Europe, Asia)": {
+		"languages": "En"
+	},
 	"Air Sea Attack (Europe, Asia)": {
 		"languages": "En"
 	},
@@ -8,10 +11,10 @@
 	"Auto Chase (Europe, Asia)": {
 		"languages": "En"
 	},
-	"Chopper Rescue (Europe, Asia)": {
+	"Chopper Rescue (Europe, Asia) (Alt)": {
 		"languages": "En"
 	},
-	"Chopper Rescue (Europe, Asia) (Alt 1)": {
+	"Chopper Rescue (Europe, Asia)": {
 		"languages": "En"
 	},
 	"Crazy Chicky (Europe, Asia)": {
@@ -35,7 +38,7 @@
 	"Music Maker (Europe, Asia)": {
 		"languages": "En"
 	},
-	"Planet Defender (Europe, Asia) (Alt 1)": {
+	"Planet Defender (Europe, Asia) (Alt)": {
 		"languages": "En"
 	},
 	"Planet Defender (Europe, Asia)": {
@@ -53,13 +56,10 @@
 	"Tank Attack (Europe, Asia)": {
 		"languages": "En"
 	},
-	"Tennis (Europe, Asia) (VTL)": {
-		"languages": "En"
-	},
 	"Tennis (Europe, Asia) (DSE)": {
 		"languages": "En"
 	},
-	"[BIOS] VTech CreatiVision (Europe, Asia)": {
+	"Tennis (Europe, Asia) (VTL)": {
 		"languages": "En"
 	}
 }

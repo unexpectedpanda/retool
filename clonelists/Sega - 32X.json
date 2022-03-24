@@ -3,8 +3,15 @@
 		"name": [
 			"Sega - 32X"
 		],
-		"last updated": "2 January 2022",
-		"minimum version": "0.89"
+		"last updated": "24 March 2022",
+		"minimum version": "0.92"
+	},
+
+	"categories": {
+		"Time Warner 32X CMD Download Cartridge": {
+			"match": "short",
+			"categories": ["Applications"]
+		}
 	},
 
 	"renames": {

@@ -1,4 +1,7 @@
 {
+	"[BIOS] WonderSwan Boot ROM (Japan) (En)": {
+		"languages": "En"
+	},
 	"Anchorz Field (Japan)": {
 		"languages": "Ja"
 	},
@@ -23,10 +26,10 @@
 	"Chaos Gear - Michibikareshi Mono (Japan)": {
 		"languages": "Ja"
 	},
-	"Chocobo no Fushigi na Dungeon for WonderSwan (Japan) (Rev 2)": {
+	"Chocobo no Fushigi na Dungeon for WonderSwan (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
-	"Chocobo no Fushigi na Dungeon for WonderSwan (Japan) (Rev 1)": {
+	"Chocobo no Fushigi na Dungeon for WonderSwan (Japan) (Rev 2)": {
 		"languages": "Ja"
 	},
 	"Chocobo no Fushigi na Dungeon for WonderSwan (Japan) (Rev 3)": {
@@ -47,14 +50,20 @@
 	"D's Garage 21 Koubo Game - Tane o Maku Tori (Japan)": {
 		"languages": "Ja"
 	},
-	"Densha de Go! (Japan) (Rev 1)": {
-		"languages": "Ja"
-	},
 	"Densha de Go! 2 (Japan)": {
 		"languages": "Ja"
 	},
-	"Digimon - Ver. WonderSwan (Hong Kong)": {
+	"Densha de Go! (Japan) (Rev 1)": {
+		"languages": "Ja"
+	},
+	"Digimon - Ver. WonderSwan (Hong Kong) (En)": {
 		"languages": "En"
+	},
+	"Digimon Adventure 02 - Tag Tamers (Japan) (Rev 1)": {
+		"languages": "Ja"
+	},
+	"Digimon Adventure 02 - Tag Tamers (Japan)": {
+		"languages": "Ja"
 	},
 	"Digimon Adventure - Anode Tamer (Japan) (Rev 1)": {
 		"languages": "Ja"
@@ -63,12 +72,6 @@
 		"languages": "Ja"
 	},
 	"Digimon Adventure - Cathode Tamer (Japan)": {
-		"languages": "Ja"
-	},
-	"Digimon Adventure 02 - Tag Tamers (Japan) (Rev 1)": {
-		"languages": "Ja"
-	},
-	"Digimon Adventure 02 - Tag Tamers (Japan)": {
 		"languages": "Ja"
 	},
 	"Digimon Adventure Campaign (Japan) (Limited Version)": {
@@ -119,16 +122,16 @@
 	"Hanafuda Shiyouyo (Japan)": {
 		"languages": "Ja"
 	},
-	"Harobots (Japan)": {
-		"languages": "Ja"
-	},
 	"Harobots (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
-	"Hunter X Hunter - Ishi o Tsugu Mono (Japan) (Rev 2)": {
+	"Harobots (Japan)": {
 		"languages": "Ja"
 	},
 	"Hunter X Hunter - Ishi o Tsugu Mono (Japan) (Rev 1)": {
+		"languages": "Ja"
+	},
+	"Hunter X Hunter - Ishi o Tsugu Mono (Japan) (Rev 2)": {
 		"languages": "Ja"
 	},
 	"Kakutou Ryouri Densetsu Bistro Recipe - Wonder Battle Hen (Japan)": {
@@ -164,10 +167,10 @@
 	"Magical Drop for WonderSwan (Japan)": {
 		"languages": "Ja"
 	},
-	"Mahjong Touryuumon (Japan) (Rev 3)": {
+	"Mahjong Touryuumon (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
-	"Mahjong Touryuumon (Japan) (Rev 1)": {
+	"Mahjong Touryuumon (Japan) (Rev 3)": {
 		"languages": "Ja"
 	},
 	"Makaimura for WonderSwan (Japan)": {
@@ -239,11 +242,11 @@
 	"Ring Infinity (Japan)": {
 		"languages": "Ja"
 	},
-	"Robot Works (Japan)": {
-		"languages": "Ja"
-	},
 	"Robot Works (Hong Kong) (En,Ja) (Rev 1)": {
 		"languages": "En,Ja"
+	},
+	"Robot Works (Japan)": {
+		"languages": "Ja"
 	},
 	"Rockman & Forte - Mirai Kara no Chousensha (Japan)": {
 		"languages": "Ja"
@@ -254,19 +257,19 @@
 	"Sangokushi II for WonderSwan (Japan)": {
 		"languages": "Ja"
 	},
-	"SD Gundam - Emotional Jam (Japan) (Rev 3)": {
+	"SD Gundam - Emotional Jam (Japan) (Rev 2)": {
 		"languages": "Ja"
 	},
-	"SD Gundam - Emotional Jam (Japan) (Rev 2)": {
+	"SD Gundam - Emotional Jam (Japan) (Rev 3)": {
 		"languages": "Ja"
 	},
 	"SD Gundam G Generation - Gather Beat (Japan)": {
 		"languages": "Ja"
 	},
-	"SD Gundam Gashapon Senki - Episode 1 (Japan)": {
+	"SD Gundam Gashapon Senki - Episode 1 (Japan) (Alt)": {
 		"languages": "Ja"
 	},
-	"SD Gundam Gashapon Senki - Episode 1 (Japan) (Alt)": {
+	"SD Gundam Gashapon Senki - Episode 1 (Japan)": {
 		"languages": "Ja"
 	},
 	"Senkaiden - TV Animation Senkaiden Houshin Engi Yori (Japan)": {
@@ -299,15 +302,6 @@
 	"Space Invaders (Japan)": {
 		"languages": "Ja"
 	},
-	"Super Robot Taisen Compact (Japan) (Rev 2)": {
-		"languages": "Ja"
-	},
-	"Super Robot Taisen Compact (Japan)": {
-		"languages": "Ja"
-	},
-	"Super Robot Taisen Compact (Japan) (Rev 1)": {
-		"languages": "Ja"
-	},
 	"Super Robot Taisen Compact 2 - Dai-1-bu - Chijou Gekidou Hen (Japan)": {
 		"languages": "Ja"
 	},
@@ -315,6 +309,15 @@
 		"languages": "Ja"
 	},
 	"Super Robot Taisen Compact 2 - Dai-3-bu - Ginga Kessen Hen (Japan) (Rev 2)": {
+		"languages": "Ja"
+	},
+	"Super Robot Taisen Compact (Japan) (Rev 1)": {
+		"languages": "Ja"
+	},
+	"Super Robot Taisen Compact (Japan) (Rev 2)": {
+		"languages": "Ja"
+	},
+	"Super Robot Taisen Compact (Japan)": {
 		"languages": "Ja"
 	},
 	"Taikyoku Igo - Heisei Kiin (Japan)": {
@@ -344,10 +347,10 @@
 	"Tokyo Majin Gakuen - Fuju Houroku (Japan)": {
 		"languages": "Ja"
 	},
-	"Trump Collection - Bottom-Up Teki Trump Seikatsu (Japan) (Rev 1)": {
+	"Trump Collection 2 - Bottom-Up Teki Sekaiisshuu no Tabi (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
-	"Trump Collection 2 - Bottom-Up Teki Sekaiisshuu no Tabi (Japan) (Rev 1)": {
+	"Trump Collection - Bottom-Up Teki Trump Seikatsu (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
 	"Turntablist - DJ Battle (Japan)": {
@@ -368,14 +371,11 @@
 	"Wasabi Produce - Street Dancer (Japan)": {
 		"languages": "Ja"
 	},
-	"Wonder Stadium (Japan)": {
-		"languages": "Ja"
-	},
 	"Wonder Stadium '99 (Japan)": {
 		"languages": "Ja"
 	},
-	"[BIOS] WonderSwan Boot ROM (Japan) (En)": {
-		"languages": "En"
+	"Wonder Stadium (Japan)": {
+		"languages": "Ja"
 	},
 	"WonderSwan Handy Sonar (Japan) (Rev 1)": {
 		"languages": "Ja"
@@ -384,12 +384,6 @@
 		"languages": "Ja"
 	},
 	"WonderWitch (Japan) (FreyaOS 1.0.0) (Program)": {
-		"languages": "Ja"
-	},
-	"WonderWitch (Japan) (FreyaOS 1.2.0) (Program)": {
-		"languages": "Ja"
-	},
-	"WonderWitch (Japan) (FreyaOS 1.1.5) (Program)": {
 		"languages": "Ja"
 	},
 	"WonderWitch (Japan) (FreyaOS 1.0.2) (Program)": {
@@ -410,7 +404,13 @@
 	"WonderWitch (Japan) (FreyaOS 1.1.4) (Program)": {
 		"languages": "Ja"
 	},
+	"WonderWitch (Japan) (FreyaOS 1.1.5) (Program)": {
+		"languages": "Ja"
+	},
 	"WonderWitch (Japan) (FreyaOS 1.1.6b1) (Program)": {
+		"languages": "Ja"
+	},
+	"WonderWitch (Japan) (FreyaOS 1.2.0) (Program)": {
 		"languages": "Ja"
 	}
 }

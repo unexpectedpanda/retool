@@ -1,4 +1,7 @@
 {
+	"[BIOS] Toshiba Visicom (Japan)": {
+		"languages": "Ja"
+	},
 	"Gambler I (Japan) (En)": {
 		"languages": "En"
 	},
@@ -13,8 +16,5 @@
 	},
 	"Sports Fan (Japan) (En)": {
 		"languages": "En"
-	},
-	"[BIOS] Toshiba Visicom (Japan)": {
-		"languages": "Ja"
 	}
 }

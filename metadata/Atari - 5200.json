@@ -2,6 +2,9 @@
 	"5200 Menu (USA) (Proto)": {
 		"languages": "En"
 	},
+	"[BIOS] Atari 5200 (USA)": {
+		"languages": "En"
+	},
 	"A.E. (USA) (Proto)": {
 		"languages": "En"
 	},
@@ -15,9 +18,6 @@
 		"languages": "En"
 	},
 	"Astrogrover (USA) (Proto)": {
-		"languages": "En"
-	},
-	"[BIOS] Atari 5200 (USA)": {
 		"languages": "En"
 	},
 	"Atari PAM - Pete's Test (USA)": {
@@ -38,10 +38,10 @@
 	"Barroom Baseball (USA) (Proto)": {
 		"languages": "En"
 	},
-	"Battlezone (USA) (Proto)": {
+	"Battlezone (USA) (Proto) (Alt)": {
 		"languages": "En"
 	},
-	"Battlezone (USA) (Proto) (Alt)": {
+	"Battlezone (USA) (Proto)": {
 		"languages": "En"
 	},
 	"Beamrider (USA)": {
@@ -65,7 +65,13 @@
 	"Boogie (USA) (Demo)": {
 		"languages": "En"
 	},
+	"Boulder Dash (USA) (Aftermarket)": {
+		"languages": "En"
+	},
 	"Bounty Bob Strikes Back! (USA)": {
+		"languages": "En"
+	},
+	"Bristles (USA) (Aftermarket)": {
 		"languages": "En"
 	},
 	"Buck Rogers - Planet of Zoom (USA)": {
@@ -84,6 +90,9 @@
 		"languages": "En"
 	},
 	"Choplifter! (USA)": {
+		"languages": "En"
+	},
+	"Combat 2 Advanced (USA) (Aftermarket)": {
 		"languages": "En"
 	},
 	"Congo Bongo (USA)": {
@@ -105,6 +114,9 @@
 		"languages": "En"
 	},
 	"Final Legacy (USA) (Proto)": {
+		"languages": "En"
+	},
+	"Flip and Flop (USA) (Aftermarket)": {
 		"languages": "En"
 	},
 	"Frisky Tom (USA) (Proto)": {
@@ -129,6 +141,9 @@
 		"languages": "En"
 	},
 	"H.E.R.O. (USA)": {
+		"languages": "En"
+	},
+	"Haunted House II (USA) (Aftermarket)": {
 		"languages": "En"
 	},
 	"James Bond 007 (USA)": {
@@ -162,6 +177,9 @@
 		"languages": "En"
 	},
 	"Looney Tunes Hotel (USA) (Proto)": {
+		"languages": "En"
+	},
+	"M.U.L.E. (USA) (Aftermarket)": {
 		"languages": "En"
 	},
 	"Mario Bros. (USA)": {
@@ -215,10 +233,10 @@
 	"Pitfall! (USA)": {
 		"languages": "En"
 	},
-	"Pole Position (USA)": {
+	"Pole Position (USA) (Proto)": {
 		"languages": "En"
 	},
-	"Pole Position (USA) (Proto)": {
+	"Pole Position (USA)": {
 		"languages": "En"
 	},
 	"Popeye (USA)": {
@@ -236,13 +254,13 @@
 	"RealSports Baseball (USA)": {
 		"languages": "En"
 	},
-	"RealSports Basketball (USA)": {
-		"languages": "En"
-	},
 	"RealSports Basketball (USA) (82-11-05) (Proto)": {
 		"languages": "En"
 	},
 	"RealSports Basketball (USA) (83-10-31) (Proto)": {
+		"languages": "En"
+	},
+	"RealSports Basketball (USA)": {
 		"languages": "En"
 	},
 	"RealSports Football (USA)": {
@@ -252,6 +270,9 @@
 		"languages": "En"
 	},
 	"RealSports Tennis (USA)": {
+		"languages": "En"
+	},
+	"Rent Wars (USA) (Aftermarket)": {
 		"languages": "En"
 	},
 	"Rescue on Fractalus! (USA)": {

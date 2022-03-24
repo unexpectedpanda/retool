@@ -1,39 +1,39 @@
 {
-	"20 em 1 (Brazil)": {
-		"languages": "Pt"
-	},
-	"3 in 1 - The Best Game Collection (A) (Korea) (Unl)": {
+	"3 in 1 - The Best Game Collection (A) (Korea) (En) (Unl)": {
 		"languages": "En"
 	},
-	"3 in 1 - The Best Game Collection (B) (Korea) (Unl)": {
+	"3 in 1 - The Best Game Collection (B) (Korea) (En) (Unl)": {
 		"languages": "En"
 	},
-	"3 in 1 - The Best Game Collection (C) (Korea) (Unl)": {
+	"3 in 1 - The Best Game Collection (C) (Korea) (En) (Unl)": {
 		"languages": "En"
 	},
-	"3 in 1 - The Best Game Collection (D) (Korea) (Unl)": {
+	"3 in 1 - The Best Game Collection (D) (Korea) (En) (Unl)": {
 		"languages": "En"
 	},
-	"3 in 1 - The Best Game Collection (E) (Korea) (Unl)": {
+	"3 in 1 - The Best Game Collection (E) (Korea) (En) (Unl)": {
 		"languages": "En"
 	},
-	"3 in 1 - The Best Game Collection (F) (Korea) (Unl)": {
+	"3 in 1 - The Best Game Collection (F) (Korea) (En) (Unl)": {
 		"languages": "En"
 	},
-	"3D Gunner (USA) (Demo)": {
+	"3D Gunner (USA) (Beta)": {
 		"languages": "En"
 	},
 	"4 PAK All Action (Australia) (Unl)": {
 		"languages": "En"
 	},
-	"8 in 1 - The Best Game Collection (A) (Korea) (Unl)": {
+	"8 in 1 - The Best Game Collection (A) (Korea) (En) (Unl)": {
 		"languages": "En"
 	},
-	"8 in 1 - The Best Game Collection (B) (Korea) (Unl)": {
+	"8 in 1 - The Best Game Collection (B) (Korea) (En) (Unl)": {
 		"languages": "En"
 	},
-	"8 in 1 - The Best Game Collection (C) (Korea) (Unl)": {
+	"8 in 1 - The Best Game Collection (C) (Korea) (En) (Unl)": {
 		"languages": "En"
+	},
+	"20 em 1 (Brazil)": {
+		"languages": "Pt"
 	},
 	"94 Super World Cup Soccer (Korea) (Unl)": {
 		"languages": "Ko"
@@ -41,64 +41,7 @@
 	"94-Nen Super Basketball (Taiwan) (En) (Unl)": {
 		"languages": "En"
 	},
-	"Ace of Aces (Europe, Brazil)": {
-		"languages": "En"
-	},
-	"Action Boy (Taiwan) (En) (Unl)": {
-		"languages": "En"
-	},
-	"Action Fighter (Japan, Europe) (Beta)": {
-		"languages": "En"
-	},
-	"Action Fighter (USA, Europe, Brazil) (Rev 1)": {
-		"languages": "En"
-	},
-	"Action Fighter (Japan, Europe)": {
-		"languages": "Ja"
-	},
-	"Action Fighter (Taiwan) (Unl)": {
-		"languages": "Zh"
-	},
-	"Addams Family, The (Europe)": {
-		"languages": "En"
-	},
-	"Aerial Assault (Europe, Brazil)": {
-		"languages": "En"
-	},
-	"Aerial Assault (USA)": {
-		"languages": "En"
-	},
-	"Aerial Assault (Taiwan) (En) (Unl)": {
-		"languages": "En"
-	},
-	"After Burner (World)": {
-		"languages": "En"
-	},
-	"Agigongnyong Dooly (Korea) (Unl)": {
-		"languages": "Ko"
-	},
-	"Air Rescue (Europe, Brazil)": {
-		"languages": "En"
-	},
-	"Akai Koudan Zillion ~ Zillion (Japan, Europe) (En,Ja)": {
-		"languages": "En,Ja"
-	},
-	"Aladdin (Europe, Brazil)": {
-		"languages": "En"
-	},
-	"Aleste (Japan)": {
-		"languages": "Ja"
-	},
-	"Alex Kidd - High-Tech World (USA, Europe, Brazil)": {
-		"languages": "En"
-	},
-	"Alex Kidd - High-Tech World (USA, Europe, Brazil) (Beta)": {
-		"languages": "En"
-	},
-	"Alex Kidd - The Lost Stars (World)": {
-		"languages": "En"
-	},
-	"Alex Kidd in Miracle World (USA, Europe)": {
+	"[BIOS] Alex Kidd in Miracle World (BIOS Version) (World) (Sega Ages)": {
 		"languages": "En"
 	},
 	"[BIOS] Alex Kidd in Miracle World (Korea) (Unl)": {
@@ -107,10 +50,97 @@
 	"[BIOS] Alex Kidd in Miracle World (USA, Europe)": {
 		"languages": "En"
 	},
-	"Alex Kidd in Miracle World (USA, Europe, Brazil) (Rev 1)": {
+	"[BIOS] Hang On & Safari Hunt (USA, Europe, Brazil) (En) (v2.4)": {
 		"languages": "En"
 	},
-	"Alex Kidd in Miracle World (World) (BIOS version) (Sega Ages)": {
+	"[BIOS] Hang On (USA, Europe) (v3.4)": {
+		"languages": "En"
+	},
+	"[BIOS] Missile Defense 3-D (USA, Europe) (v4.4)": {
+		"languages": "En"
+	},
+	"[BIOS] Sega Master System (Europe) (v2.0)": {
+		"languages": "En"
+	},
+	"[BIOS] Sega Master System (Japan) (v2.1)": {
+		"languages": "Ja"
+	},
+	"[BIOS] Sega Master System (USA) (M404) (Proto)": {
+		"languages": "En"
+	},
+	"[BIOS] Sega Master System (USA) (Store Display Unit)": {
+		"languages": "En"
+	},
+	"[BIOS] Sega Master System (USA) (v1.0) (Proto)": {
+		"languages": "En"
+	},
+	"[BIOS] Sega Master System (USA, Europe) (v1.3)": {
+		"languages": "En"
+	},
+	"[BIOS] Sonic The Hedgehog (Europe)": {
+		"languages": "En"
+	},
+	"Ace of Aces (Europe, Brazil) (En)": {
+		"languages": "En"
+	},
+	"Action Boy (Taiwan) (En) (Unl)": {
+		"languages": "En"
+	},
+	"Action Fighter (Japan, Europe) (En) (Beta)": {
+		"languages": "En"
+	},
+	"Action Fighter (Japan, Europe) (Ja)": {
+		"languages": "Ja"
+	},
+	"Action Fighter (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
+	"Action Fighter (USA, Europe, Brazil) (En) (Rev 1)": {
+		"languages": "En"
+	},
+	"Addams Family, The (Europe)": {
+		"languages": "En"
+	},
+	"Aerial Assault (Europe, Brazil) (En)": {
+		"languages": "En"
+	},
+	"Aerial Assault (Taiwan) (En) (Unl)": {
+		"languages": "En"
+	},
+	"Aerial Assault (USA)": {
+		"languages": "En"
+	},
+	"After Burner (World)": {
+		"languages": "En"
+	},
+	"Agigongnyong Dooly (Korea) (Unl)": {
+		"languages": "Ko"
+	},
+	"Air Rescue (Europe, Brazil) (En)": {
+		"languages": "En"
+	},
+	"Aladdin (Europe, Brazil) (En)": {
+		"languages": "En"
+	},
+	"Aleste (Japan)": {
+		"languages": "Ja"
+	},
+	"Alex Kidd - High-Tech World (USA, Europe, Brazil) (En) (Beta)": {
+		"languages": "En"
+	},
+	"Alex Kidd - High-Tech World (USA, Europe, Brazil) (En)": {
+		"languages": "En"
+	},
+	"Alex Kidd - The Lost Stars (World)": {
+		"languages": "En"
+	},
+	"Alex Kidd in Miracle World 2 (World) (Unl)": {
+		"languages": "En"
+	},
+	"Alex Kidd in Miracle World (USA, Europe)": {
+		"languages": "En"
+	},
+	"Alex Kidd in Miracle World (USA, Europe, Brazil) (En) (Rev 1)": {
 		"languages": "En"
 	},
 	"Alex Kidd in Miracle World (World) (Ja) (Sega Ages)": {
@@ -119,10 +149,7 @@
 	"Alex Kidd in Miracle World (World) (Sega Ages)": {
 		"languages": "En"
 	},
-	"Alex Kidd in Miracle World 2 (World) (Unl)": {
-		"languages": "En"
-	},
-	"Alex Kidd in Shinobi World (USA, Europe, Brazil)": {
+	"Alex Kidd in Shinobi World (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Alex Kidd no Miracle World (Japan)": {
@@ -134,37 +161,37 @@
 	"Alf (USA)": {
 		"languages": "En"
 	},
-	"Alibaba and 40 Thieves (Korea) (Unl)": {
+	"Alibaba and 40 Thieves (Korea) (En) (Unl)": {
 		"languages": "En"
 	},
-	"Alien 3 (Europe, Brazil)": {
+	"Alien 3 (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"Alien Storm (Europe, Brazil)": {
-		"languages": "En"
-	},
-	"Alien Syndrome (USA, Europe, Brazil)": {
-		"languages": "En"
-	},
-	"Alien Syndrome (USA, Europe, Brazil) (Beta)": {
+	"Alien Storm (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Alien Syndrome (Japan)": {
 		"languages": "Ja"
 	},
+	"Alien Syndrome (USA, Europe, Brazil) (En) (Beta)": {
+		"languages": "En"
+	},
+	"Alien Syndrome (USA, Europe, Brazil) (En)": {
+		"languages": "En"
+	},
 	"Alocos (Taiwan) (En) (Unl)": {
 		"languages": "En"
 	},
-	"Altered Beast (USA, Europe, Brazil)": {
+	"Altered Beast (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"American Baseball (Europe, Brazil)": {
+	"American Baseball (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"American Pro Football (Europe)": {
 		"languages": "En"
 	},
-	"Andre Agassi Tennis (Europe, Brazil)": {
+	"Andre Agassi Tennis (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Anmitsu Hime (Japan)": {
@@ -176,22 +203,22 @@
 	"Argos no Juujiken (Japan)": {
 		"languages": "Ja"
 	},
-	"Ariel the Little Mermaid (Brazil)": {
+	"Ariel - The Little Mermaid (Brazil) (En)": {
 		"languages": "En"
 	},
 	"Ashura (Japan)": {
 		"languages": "Ja"
 	},
-	"Assault City (USA, Europe, Brazil) (Light Phaser)": {
-		"languages": "En"
-	},
 	"Assault City (Europe) (Joypad)": {
 		"languages": "En"
 	},
-	"Asterix (Europe, Brazil) (En,Fr)": {
-		"languages": "En,Fr"
+	"Assault City (USA, Europe, Brazil) (En) (Light Phaser)": {
+		"languages": "En"
 	},
 	"Asterix (Europe, Brazil) (En,Fr) (Rev 1)": {
+		"languages": "En,Fr"
+	},
+	"Asterix (Europe, Brazil) (En,Fr)": {
 		"languages": "En,Fr"
 	},
 	"Asterix and the Great Rescue (Europe, Brazil) (En,Fr,De,Es,It)": {
@@ -206,106 +233,106 @@
 	"Astro Flash (Japan)": {
 		"languages": "Ja"
 	},
-	"Astro Warrior (Japan, USA, Brazil)": {
+	"Astro Warrior & Pit Pot (Europe)": {
 		"languages": "En"
 	},
-	"Astro Warrior & Pit Pot (Europe)": {
+	"Astro Warrior (Japan, USA, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Aventuras da TV Colosso, As (Brazil)": {
 		"languages": "Pt"
 	},
-	"Ayrton Senna's Super Monaco GP II (Europe, Brazil)": {
+	"Ayrton Senna's Super Monaco GP II (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"Aztec Adventure ~ Nazca '88 - The Golden Road to Paradise (World)": {
+	"Aztec Adventure (World)": {
 		"languages": "En"
 	},
-	"Back to the Future Part II (Europe, Brazil)": {
+	"Back to the Future Part II (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Back to the Future Part III (Europe)": {
 		"languages": "En"
 	},
-	"Baku Baku (Brazil)": {
+	"Baku Baku (Brazil) (En)": {
 		"languages": "En"
 	},
-	"Bank Panic (Europe, Brazil)": {
+	"Bank Panic (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"Basketball Nightmare (Europe, Brazil)": {
+	"Basketball Nightmare (Europe, Brazil) (En) (Beta)": {
 		"languages": "En"
 	},
-	"Basketball Nightmare (Europe, Brazil) (Beta)": {
+	"Basketball Nightmare (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"Batman Returns (Europe, Brazil)": {
+	"Batman Returns (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"Battle Out Run (Europe, Brazil)": {
+	"Battle Out Run (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"Battle Wings (World) (Sample)": {
+	"Battle Wings (World) (Beta) (1988-09-07)": {
 		"languages": "En"
 	},
-	"Battlemaniacs (Brazil)": {
-		"languages": "En"
-	},
-	"Black Belt (USA, Europe, Brazil)": {
+	"Battlemaniacs (Brazil) (En)": {
 		"languages": "En"
 	},
 	"Black Belt (Taiwan) (En) (Unl)": {
 		"languages": "En"
 	},
-	"Blade Eagle (World) (Beta)": {
+	"Black Belt (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"Blade Eagle ~ Blade Eagle 3-D (World)": {
+	"Blade Eagle 3-D (World)": {
+		"languages": "En"
+	},
+	"Blade Eagle (World) (Beta)": {
 		"languages": "En"
 	},
 	"BMX Trial - Alex Kidd (Japan)": {
 		"languages": "Ja"
 	},
-	"Bobble Bobble (Korea) (Unl)": {
+	"Bobble Bobble (Korea) (En) (Unl)": {
 		"languages": "En"
 	},
 	"Bomber Raid (World)": {
 		"languages": "En"
 	},
-	"Bonanza Bros. (Europe, Brazil)": {
+	"Bonanza Bros. (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"Bonkers Wax Up! (Brazil)": {
+	"Bonkers Wax Up! (Brazil) (En)": {
 		"languages": "En"
 	},
 	"Bram Stoker's Dracula (Europe)": {
 		"languages": "En"
 	},
+	"Bubble Bobble (Europe, Brazil) (En)": {
+		"languages": "En"
+	},
 	"Bubble Bobble (Taiwan) (En) (Unl)": {
 		"languages": "En"
 	},
-	"Bubble Bobble ~ Dragon Maze (Europe, Brazil)": {
-		"languages": "En"
-	},
-	"Buggy Run (Europe, Brazil)": {
+	"Buggy Run (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"C_So! (Korea) (Unl)": {
 		"languages": "Ko"
 	},
-	"California Games ~ Jogos de Verao (USA, Europe, Brazil)": {
+	"California Games (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"California Games II (Europe)": {
 		"languages": "En"
 	},
-	"Captain Silver (USA)": {
+	"Captain Silver (Japan, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Captain Silver (USA) (Beta)": {
 		"languages": "En"
 	},
-	"Captain Silver (Japan, Europe, Brazil)": {
+	"Captain Silver (USA)": {
 		"languages": "En"
 	},
 	"Casino Games (USA, Europe)": {
@@ -314,16 +341,16 @@
 	"Castelo Ra-Tim-Bum (Brazil)": {
 		"languages": "Pt"
 	},
-	"Castle of Illusion Starring Mickey Mouse (USA, Brazil) (Demo)": {
+	"Castle of Illusion Starring Mickey Mouse (USA, Europe, Brazil) (En) (Demo)": {
 		"languages": "En"
 	},
-	"Castle of Illusion Starring Mickey Mouse (USA, Europe, Brazil) (Rev 1)": {
+	"Castle of Illusion Starring Mickey Mouse (USA, Europe, Brazil) (En) (Rev 1)": {
 		"languages": "En"
 	},
-	"Castle of Illusion Starring Mickey Mouse (USA, Brazil)": {
+	"Castle of Illusion Starring Mickey Mouse (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"Champions of Europe (Europe)": {
+	"Champions of Europe (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Championship Hockey (Europe)": {
@@ -335,25 +362,25 @@
 	"Cheese Cat-astrophe Starring Speedy Gonzales (Europe, Brazil) (En,Fr,De,Es)": {
 		"languages": "En,Fr,De,Es"
 	},
-	"Choplifter (USA, Europe, Brazil)": {
-		"languages": "En"
-	},
-	"Choplifter (USA, Europe, Brazil) (Beta)": {
-		"languages": "En"
-	},
 	"Choplifter (Japan) (Proto)": {
+		"languages": "Ja"
+	},
+	"Choplifter (USA, Europe, Brazil) (En) (Beta)": {
+		"languages": "En"
+	},
+	"Choplifter (USA, Europe, Brazil) (En)": {
+		"languages": "En"
+	},
+	"Chouon Senshi Borgman (Japan) (Beta)": {
 		"languages": "Ja"
 	},
 	"Chouon Senshi Borgman (Japan)": {
 		"languages": "Ja"
 	},
-	"Chouon Senshi Borgman (Japan) (Beta)": {
-		"languages": "Ja"
-	},
-	"Chuck Rock (Europe, Brazil)": {
+	"Chuck Rock (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"Chuck Rock II - Son of Chuck (Brazil)": {
+	"Chuck Rock II - Son of Chuck (Brazil) (En)": {
 		"languages": "En"
 	},
 	"Chuck Rock II - Son of Chuck (Europe)": {
@@ -362,20 +389,17 @@
 	"Circuit, The (Japan)": {
 		"languages": "Ja"
 	},
-	"Cloud Master (USA, Europe, Brazil)": {
+	"Cloud Master (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Color & Switch Test (Japan) (En) (Proto)": {
 		"languages": "En"
 	},
-	"Columns (USA, Europe, Brazil) (Beta)": {
+	"Columns (USA, Europe, Brazil) (En) (Beta)": {
 		"languages": "En"
 	},
-	"Columns ~ Shapes and Columns (USA, Europe, Brazil)": {
+	"Columns (USA, Europe, Brazil) (En)": {
 		"languages": "En"
-	},
-	"Comical Machine Gun Joe (Taiwan) (Unl)": {
-		"languages": "Zh"
 	},
 	"Comical Machine Gun Joe (Japan)": {
 		"languages": "Ja"
@@ -383,25 +407,28 @@
 	"Comical Machine Gun Joe (Korea) (Unl)": {
 		"languages": "Ko"
 	},
+	"Comical Machine Gun Joe (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
 	"Cool Spot (Europe)": {
 		"languages": "En"
 	},
 	"Cosmic Spacehead (Europe) (En,Fr,De,Es)": {
 		"languages": "En,Fr,De,Es"
 	},
-	"Cyber Shinobi, The (Europe, Brazil) (Beta)": {
+	"Cyber Shinobi, The (Europe, Brazil) (En) (Beta)": {
 		"languages": "En"
 	},
-	"Cyber Shinobi, The (Europe, Brazil)": {
+	"Cyber Shinobi, The (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Cyber Shinobi, The (Taiwan) (En) (Unl)": {
 		"languages": "En"
 	},
-	"Cyborg Hunter (USA, Europe, Brazil)": {
+	"Cyborg Hunter (USA, Europe, Brazil) (En) (Sample) (1988-09-12)": {
 		"languages": "En"
 	},
-	"Cyborg Hunter (USA, Europe, Brazil) (Sample)": {
+	"Cyborg Hunter (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Cyborg Z (Korea) (Unl)": {
@@ -413,13 +440,16 @@
 	"Dallyeora Pigu-Wang (Korea) (Unl)": {
 		"languages": "Ko"
 	},
-	"Danan - The Jungle Fighter (Europe, Brazil)": {
+	"Danan - The Jungle Fighter (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"Dead Angle (USA, Europe, Brazil)": {
+	"Dead Angle (USA, Europe, Brazil) (En) (Beta)": {
 		"languages": "En"
 	},
-	"Deep Duck Trouble Starring Donald Duck (Europe, Brazil)": {
+	"Dead Angle (USA, Europe, Brazil) (En)": {
+		"languages": "En"
+	},
+	"Deep Duck Trouble Starring Donald Duck (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Desert Speedtrap Starring Road Runner and Wile E. Coyote (Europe, Brazil) (En,Fr,De,Es,It)": {
@@ -428,13 +458,13 @@
 	"Desert Strike (Europe) (En,Fr,De,Es)": {
 		"languages": "En,Fr,De,Es"
 	},
-	"Dick Tracy (USA, Europe, Brazil)": {
+	"Dick Tracy (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"Dinobasher Starring Bignose the Caveman (Europe) (Proto)": {
+	"DINOBASHER - Starring Bignose the Caveman (Europe) (Proto)": {
 		"languages": "En"
 	},
-	"Dinosaur Dooley, The (Korea) (Unl)": {
+	"Dinosaur Dooley, The (Korea) (En) (Unl)": {
 		"languages": "En"
 	},
 	"Doki Doki Penguin Land - Uchuu Daibouken (Japan) (Beta)": {
@@ -443,16 +473,16 @@
 	"Doki Doki Penguin Land - Uchuu Daibouken (Japan)": {
 		"languages": "Ja"
 	},
-	"Double Dragon (World)": {
-		"languages": "En"
-	},
 	"Double Dragon (Taiwan) (En) (Unl)": {
 		"languages": "En"
 	},
-	"Double Hawk (Europe)": {
+	"Double Dragon (World)": {
 		"languages": "En"
 	},
 	"Double Hawk (Europe) (Beta)": {
+		"languages": "En"
+	},
+	"Double Hawk (Europe)": {
 		"languages": "En"
 	},
 	"Double Target - Cynthia no Nemuri (Japan)": {
@@ -461,64 +491,70 @@
 	"Dr. HELLO (Korea) (Unl)": {
 		"languages": "Ko"
 	},
-	"Dr. Robotnik's Mean Bean Machine (Europe, Brazil)": {
+	"Dr. Robotnik's Mean Bean Machine (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Dragon - The Bruce Lee Story (Europe)": {
 		"languages": "En"
 	},
-	"Dragon Crystal (Europe, Brazil)": {
+	"Dragon Crystal (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"Dynamite Duke (Europe, Brazil)": {
+	"Dynamite Duke (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"Dynamite Dux (Europe, Brazil)": {
+	"Dynamite Dux (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"Dynamite Headdy (Brazil)": {
+	"Dynamite Headdy (Brazil) (En)": {
 		"languages": "En"
 	},
-	"E-SWAT (USA, Europe, Brazil) (Rev 1)": {
+	"E-SWAT (USA, Europe, Brazil) (En) (Beta 1)": {
 		"languages": "En"
 	},
-	"E-SWAT (USA, Europe, Brazil) (Beta 3)": {
+	"E-SWAT (USA, Europe, Brazil) (En) (Beta 2)": {
 		"languages": "En"
 	},
-	"E-SWAT (USA, Europe, Brazil) (Beta 2)": {
+	"E-SWAT (USA, Europe, Brazil) (En) (Beta 3)": {
 		"languages": "En"
 	},
-	"E-SWAT (USA, Europe, Brazil)": {
+	"E-SWAT (USA, Europe, Brazil) (En) (Rev A)": {
 		"languages": "En"
 	},
-	"E-SWAT (USA, Europe, Brazil) (Beta 1)": {
+	"E-SWAT (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"E.I. - Exa Innova (Korea) (Unl)": {
+	"E.I. - Exa Innova (Korea) (En) (Unl)": {
 		"languages": "En"
 	},
 	"Eagles 5 (Korea) (Unl)": {
 		"languages": "Ko"
 	},
-	"Earthworm Jim (Brazil)": {
+	"Earthworm Jim (Brazil) (En)": {
 		"languages": "En"
 	},
 	"Ecco - The Tides of Time (Brazil)": {
 		"languages": "Pt"
 	},
-	"Ecco the Dolphin (Europe, Brazil)": {
+	"Ecco The Dolphin (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Enduro Racer (Japan)": {
 		"languages": "Ja"
 	},
-	"Enduro Racer ~ Super Cross (USA, Europe, Brazil)": {
+	"Enduro Racer (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Excellent Dizzy Collection, The (Europe) (En,Fr,De,Es,It) (Proto)": {
 		"languages": "En,Fr,De,Es,It"
 	},
-	"F-1 Spirit - The Way to Formula-1 (Korea) (Unl)": {
+	"F1 (Europe, Brazil) (En)": {
+		"languages": "En"
+	},
+	"F-1 Spirit - The Way to Formula-1 (Korea) (En) (Unl)": {
+		"languages": "En"
+	},
+	"F-16 Fighter (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"F-16 Fighting Falcon (Japan)": {
@@ -528,12 +564,6 @@
 		"languages": "Zh"
 	},
 	"F-16 Fighting Falcon (USA)": {
-		"languages": "En"
-	},
-	"F-16 Fighting Falcon ~ F-16 Fighter ~ F16 Falcon Fighter (USA, Europe, Brazil)": {
-		"languages": "En"
-	},
-	"F1 (Europe, Brazil)": {
 		"languages": "En"
 	},
 	"FA Tetris (Korea) (Unl)": {
@@ -548,19 +578,19 @@
 	"Fantasy Zone (Japan)": {
 		"languages": "Ja"
 	},
-	"Fantasy Zone (World) (Beta)": {
-		"languages": "En"
-	},
 	"Fantasy Zone (Taiwan) (Unl)": {
 		"languages": "Zh"
+	},
+	"Fantasy Zone (World) (Beta)": {
+		"languages": "En"
 	},
 	"Fantasy Zone (World) (Rev 1)": {
 		"languages": "En"
 	},
-	"Fantasy Zone - The Maze (USA, Europe, Brazil)": {
+	"Fantasy Zone - The Maze (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"Fantasy Zone II (USA, Europe, Brazil)": {
+	"Fantasy Zone II (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Fantasy Zone II - Opa-Opa no Namida (Japan)": {
@@ -578,19 +608,19 @@
 	"Fire & Forget II (Europe)": {
 		"languages": "En"
 	},
-	"Fire & Ice (Brazil)": {
+	"Fire & Ice (Brazil) (En)": {
 		"languages": "En"
 	},
-	"Flash, The (Europe, Brazil)": {
+	"Flash, The (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Flashpoint (Korea) (Unl)": {
 		"languages": "Ko"
 	},
-	"Flintstones, The (Europe, Brazil)": {
+	"Flintstones, The (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"Forgotten Worlds (Europe, Brazil)": {
+	"Forgotten Worlds (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Forgotten Worlds (Taiwan) (En) (Unl)": {
@@ -599,16 +629,16 @@
 	"Fushigi no Oshiro Pit Pot (Japan)": {
 		"languages": "Ja"
 	},
-	"G-LOC Air Battle (Europe, Brazil)": {
+	"G-LOC Air Battle (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Gaegujangi Ggachi (Korea) (Unl)": {
 		"languages": "Ko"
 	},
-	"Gain Ground (Europe, Brazil)": {
+	"Gain Ground (Europe, Brazil) (En) (Beta)": {
 		"languages": "En"
 	},
-	"Gain Ground (Europe, Brazil) (Beta)": {
+	"Gain Ground (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Galactic Protector (Japan)": {
@@ -617,86 +647,86 @@
 	"Galaxian (Korea) (Unl)": {
 		"languages": "Ko"
 	},
-	"Galaxy Force (Europe, Brazil)": {
+	"Galaxy Force (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Galaxy Force (USA)": {
 		"languages": "En"
 	},
-	"Game Box Serie Esportes Radicais (Brazil)": {
+	"Game Box Serie Esportes Radicais (Brazil) (En)": {
 		"languages": "En"
 	},
 	"Game de Check! Koutsuu Anzen (Japan) (Proto)": {
 		"languages": "Ja"
 	},
-	"Gangcheol RoboCop (Korea) (Unl)": {
+	"Gangcheol RoboCop (Korea) (En) (Unl)": {
 		"languages": "En"
 	},
-	"Gangster Town (USA, Europe, Brazil)": {
+	"Gangster Town (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"Gauntlet (Europe, Brazil)": {
+	"Gauntlet (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"George Foreman's KO Boxing (Europe, Brazil)": {
+	"George Foreman's KO Boxing (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"Geraldinho (Brazil)": {
-		"languages": "En"
-	},
-	"Ghost House (USA, Europe, Brazil)": {
+	"Geraldinho (Brazil) (En)": {
 		"languages": "En"
 	},
 	"Ghost House (Japan)": {
 		"languages": "Ja"
 	},
-	"Ghost House (USA, Europe, Brazil) (Beta)": {
+	"Ghost House (USA, Europe, Brazil) (En) (Beta)": {
 		"languages": "En"
 	},
-	"Ghostbusters (USA, Europe, Brazil)": {
+	"Ghost House (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"Ghouls'n Ghosts (USA, Europe, Brazil) (Demo)": {
+	"Ghostbusters (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"Ghouls'n Ghosts (USA, Europe, Brazil)": {
+	"Ghouls'n Ghosts (USA, Europe, Brazil) (En) (Demo)": {
 		"languages": "En"
 	},
-	"Global Defense (USA, Europe, Brazil)": {
+	"Ghouls'n Ghosts (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"Global Defense (USA, Europe, Brazil) (Beta)": {
+	"Global Defense (USA, Europe, Brazil) (En) (Beta)": {
 		"languages": "En"
 	},
-	"Global Gladiators (Europe, Brazil)": {
+	"Global Defense (USA, Europe, Brazil) (En)": {
+		"languages": "En"
+	},
+	"Global Gladiators (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Gokuaku Doumei Dump Matsumoto (Japan)": {
 		"languages": "Ja"
 	},
-	"Golden Axe (USA, Europe, Brazil)": {
+	"Golden Axe (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"Golden Axe Warrior (USA, Europe, Brazil)": {
+	"Golden Axe Warrior (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Golfamania (Europe) (Beta)": {
 		"languages": "En"
 	},
-	"Golfamania (Europe, Brazil)": {
+	"Golfamania (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"Golvellius - Valley of Doom (USA, Europe, Brazil)": {
+	"Golvellius - Valley of Doom (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"GP Rider (Europe, Brazil)": {
-		"languages": "En"
-	},
-	"Great Baseball (USA, Europe)": {
+	"GP Rider (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Great Baseball (Japan)": {
 		"languages": "Ja"
+	},
+	"Great Baseball (USA, Europe)": {
+		"languages": "En"
 	},
 	"Great Basketball (World)": {
 		"languages": "En"
@@ -704,26 +734,26 @@
 	"Great Football (World)": {
 		"languages": "En"
 	},
-	"Great Golf (Korea) (Unl)": {
+	"Great Golf (Japan)": {
+		"languages": "Ja"
+	},
+	"Great Golf (Korea) (En) (Unl)": {
 		"languages": "En"
 	},
 	"Great Golf (World) (Beta)": {
 		"languages": "En"
 	},
-	"Great Golf (Japan)": {
-		"languages": "Ja"
-	},
-	"Great Golf ~ Masters Golf (World)": {
+	"Great Golf (World)": {
 		"languages": "En"
 	},
-	"Great Ice Hockey (Japan, USA)": {
+	"Great Ice Hockey (Japan, USA) (En)": {
+		"languages": "En"
+	},
+	"Great Soccer (Europe)": {
 		"languages": "En"
 	},
 	"Great Soccer (Japan)": {
 		"languages": "Ja"
-	},
-	"Great Soccer (Europe)": {
-		"languages": "En"
 	},
 	"Great Soccer (Taiwan) (Unl)": {
 		"languages": "Zh"
@@ -734,53 +764,50 @@
 	"Great Volleyball (Japan)": {
 		"languages": "Ja"
 	},
-	"Great Volleyball (USA, Europe, Brazil)": {
+	"Great Volleyball (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"Gun.Smoke (Korea) (Unl)": {
+	"Gun.Smoke (Korea) (En) (Unl)": {
 		"languages": "En"
 	},
 	"Haja no Fuuin (Japan)": {
 		"languages": "Ja"
 	},
-	"Hang On (Europe)": {
-		"languages": "En"
-	},
-	"[BIOS] Hang On (USA, Europe) (v3.4)": {
-		"languages": "En"
-	},
-	"Hang On (Japan)": {
-		"languages": "Ja"
-	},
-	"Hang On (Europe) (Beta)": {
-		"languages": "En"
-	},
 	"Hang On & Astro Warrior (USA)": {
-		"languages": "En"
-	},
-	"[BIOS] Hang On & Safari Hunt (USA, Europe, Brazil) (v2.4)": {
 		"languages": "En"
 	},
 	"Hang On & Safari Hunt (USA) (Beta)": {
 		"languages": "En"
 	},
-	"Hang-On & Safari Hunt (USA)": {
+	"Hang On & Safari Hunt (USA)": {
 		"languages": "En"
 	},
-	"Heavyweight Champ (Europe)": {
+	"Hang On (Europe) (Beta)": {
 		"languages": "En"
 	},
-	"Heroes of the Lance (Europe, Brazil)": {
+	"Hang On (Europe)": {
+		"languages": "En"
+	},
+	"Hang On (Japan)": {
+		"languages": "Ja"
+	},
+	"Heavyweight Champ (Europe, Brazil) (En)": {
+		"languages": "En"
+	},
+	"Heroes of the Lance (Europe, Brazil) (En) (Beta)": {
+		"languages": "En"
+	},
+	"Heroes of the Lance (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"High School! Kimengumi (Japan)": {
 		"languages": "Ja"
 	},
-	"Hokuto no Ken (Taiwan) (Unl)": {
-		"languages": "Zh"
-	},
 	"Hokuto no Ken (Japan)": {
 		"languages": "Ja"
+	},
+	"Hokuto no Ken (Taiwan) (Unl)": {
+		"languages": "Zh"
 	},
 	"Home Alone (Europe)": {
 		"languages": "En"
@@ -797,37 +824,37 @@
 	"Hwarang-ui Geom (Korea) (Unl)": {
 		"languages": "Ko"
 	},
-	"Impossible Mission (Europe, Brazil) (Beta)": {
+	"Impossible Mission (Europe, Brazil) (En) (Beta)": {
 		"languages": "En"
 	},
-	"Impossible Mission (Europe, Brazil)": {
+	"Impossible Mission (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"Incredible Crash Dummies, The (Europe, Brazil)": {
+	"Incredible Crash Dummies, The (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"Incredible Hulk, The (Europe, Brazil)": {
+	"Incredible Hulk, The (Europe, Brazil) (En)": {
+		"languages": "En"
+	},
+	"Indiana Jones and the Last Crusade (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Indiana Jones and the Last Crusade (USA) (Proto)": {
 		"languages": "En"
 	},
-	"Indiana Jones and the Last Crusade (Europe, Brazil)": {
-		"languages": "En"
-	},
-	"James 'Buster' Douglas Knockout Boxing (USA) (Beta)": {
+	"James 'Buster' Douglas Knockout Boxing (USA) (Sample)": {
 		"languages": "En"
 	},
 	"James 'Buster' Douglas Knockout Boxing (USA)": {
 		"languages": "En"
 	},
-	"James Bond 007 - The Duel (Brazil)": {
+	"James Bond 007 - The Duel (Brazil) (En)": {
 		"languages": "En"
 	},
 	"James Bond 007 - The Duel (Europe)": {
 		"languages": "En"
 	},
-	"James Pond 2 - Codename RoboCod (Europe, Brazil)": {
+	"James Pond 2 - Codename RoboCod (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Jang Pung 3 (Korea) (Unl)": {
@@ -839,31 +866,31 @@
 	"Janggun-ui Adeul (Korea) (Unl)": {
 		"languages": "Ko"
 	},
-	"Joe Montana Football (USA, Europe, Brazil)": {
+	"Joe Montana Football (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"Jogos de Verao II (Brazil)": {
+	"Jogos de Verao II (Brazil) (En)": {
 		"languages": "En"
 	},
-	"Jungle Book, The (Europe, Brazil)": {
+	"Jungle Book, The (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"Jurassic Park (Europe, Brazil)": {
-		"languages": "En"
-	},
-	"Kenseiden (USA, Europe, Brazil)": {
+	"Jurassic Park (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Kenseiden (Japan)": {
 		"languages": "Ja"
 	},
-	"King & Balloon (Korea) (Unl)": {
+	"Kenseiden (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"King's Quest - Quest for the Crown (USA)": {
+	"King & Balloon (Korea) (En) (Unl)": {
 		"languages": "En"
 	},
 	"King's Quest - Quest for the Crown (USA) (Beta)": {
+		"languages": "En"
+	},
+	"King's Quest - Quest for the Crown (USA)": {
 		"languages": "En"
 	},
 	"KLAX (Europe)": {
@@ -872,40 +899,40 @@
 	"Knightmare II - The Maze of Galious (Korea) (Unl)": {
 		"languages": "Ko"
 	},
-	"Krusty's Fun House (Europe, Brazil)": {
+	"Krusty's Fun House (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Kujaku Ou (Japan)": {
 		"languages": "Ja"
 	},
-	"Kung Fu Kid (USA, Europe, Brazil)": {
-		"languages": "En"
-	},
 	"Kung Fu Kid (Taiwan) (En) (Unl)": {
 		"languages": "En"
 	},
-	"Land of Illusion Starring Mickey Mouse (Europe, Brazil)": {
+	"Kung Fu Kid (USA, Europe, Brazil) (En)": {
+		"languages": "En"
+	},
+	"Land of Illusion Starring Mickey Mouse (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Laser Ghost (Europe)": {
 		"languages": "En"
 	},
-	"Legend of Illusion Starring Mickey Mouse (Brazil)": {
-		"languages": "En"
-	},
-	"Lemmings (Europe) (Beta)": {
-		"languages": "En"
-	},
-	"Lemmings (Europe, Brazil)": {
+	"Legend of Illusion Starring Mickey Mouse (Brazil) (En)": {
 		"languages": "En"
 	},
 	"Lemmings 2 - The Tribes (Europe) (Proto) (1995-09-04)": {
 		"languages": "En"
 	},
-	"Line of Fire (Europe, Brazil)": {
+	"Lemmings (Europe) (Beta)": {
 		"languages": "En"
 	},
-	"Lion King, The (Europe, Brazil)": {
+	"Lemmings (Europe, Brazil) (En)": {
+		"languages": "En"
+	},
+	"Line of Fire (Europe, Brazil) (En)": {
+		"languages": "En"
+	},
+	"Lion King, The (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Lord of Sword (Japan)": {
@@ -914,49 +941,49 @@
 	"Lord of Sword (Taiwan) (Ja) (Unl)": {
 		"languages": "Ja"
 	},
-	"Lord of the Sword (USA, Europe, Brazil)": {
+	"Lord of the Sword (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Loretta no Shouzou - Sherlock Holmes (Japan)": {
 		"languages": "Ja"
 	},
-	"Lucky Dime Caper Starring Donald Duck, The (Europe, Brazil)": {
+	"Lucky Dime Caper Starring Donald Duck, The (Europe, Brazil) (En) (Beta)": {
 		"languages": "En"
 	},
-	"Lucky Dime Caper Starring Donald Duck, The (Europe, Brazil) (Beta)": {
+	"Lucky Dime Caper Starring Donald Duck, The (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Mahjong Sengoku Jidai (Japan) (Beta)": {
 		"languages": "Ja"
 	},
-	"Mahjong Sengoku Jidai ~ Mahjong (Japan, Hong Kong)": {
+	"Mahjong Sengoku Jidai (Japan, Hong Kong) (Ja)": {
 		"languages": "Ja"
 	},
 	"Makai Retsuden (Japan)": {
 		"languages": "Ja"
 	},
-	"Maou Golvellius (Japan)": {
+	"Maou Golvellius (Japan) (Beta)": {
 		"languages": "Ja"
 	},
-	"Maou Golvellius (Japan) (Beta)": {
+	"Maou Golvellius (Japan)": {
 		"languages": "Ja"
 	},
 	"Marble Madness (Europe)": {
 		"languages": "En"
 	},
-	"Marksman Shooting & Trap Shooting (USA, Brazil)": {
-		"languages": "En"
-	},
 	"Marksman Shooting & Trap Shooting & Safari Hunt (Europe)": {
 		"languages": "En"
 	},
-	"Master of Darkness (Europe, Brazil)": {
+	"Marksman Shooting & Trap Shooting (USA, Brazil) (En)": {
 		"languages": "En"
 	},
-	"Masters of Combat (Europe, Brazil)": {
+	"Master of Darkness (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"Maze Hunter 3-D (USA, Europe, Brazil)": {
+	"Masters of Combat (Europe, Brazil) (En)": {
+		"languages": "En"
+	},
+	"Maze Hunter 3-D (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Maze Walker (Japan)": {
@@ -965,16 +992,16 @@
 	"Megumi Rescue (Japan)": {
 		"languages": "Ja"
 	},
-	"Mercs (Europe, Brazil)": {
+	"Mercs (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"Michael Jackson's Moonwalker (USA, Europe, Brazil)": {
+	"Michael Jackson's Moonwalker (USA, Europe, Brazil) (En) (Beta)": {
 		"languages": "En"
 	},
-	"Michael Jackson's Moonwalker (USA, Europe, Brazil) (Beta)": {
+	"Michael Jackson's Moonwalker (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"Mickey's Ultimate Challenge (Brazil)": {
+	"Mickey's Ultimate Challenge (Brazil) (En)": {
 		"languages": "En"
 	},
 	"Micro Machines (Europe)": {
@@ -983,55 +1010,52 @@
 	"Micro Xevious, The (Korea) (Unl)": {
 		"languages": "Ko"
 	},
-	"Miracle Warriors - Seal of the Dark Lord (USA, Europe, Brazil) (Beta)": {
+	"Miracle Warriors - Seal of The Dark Lord (USA, Europe, Brazil) (En) (Beta)": {
 		"languages": "En"
 	},
-	"Miracle Warriors - Seal of the Dark Lord (USA, Europe, Brazil)": {
+	"Miracle Warriors - Seal of The Dark Lord (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"[BIOS] Missile Defense 3-D (USA, Europe) (v4.4)": {
+	"Missile Defense 3-D (USA, Europe, Brazil) (En) (Sample)": {
 		"languages": "En"
 	},
-	"Missile Defense 3-D (USA, Europe, Brazil)": {
-		"languages": "En"
-	},
-	"Missile Defense 3-D (USA, Europe, Brazil) (Sample)": {
+	"Missile Defense 3-D (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Monica no Castelo do Dragao (Brazil)": {
 		"languages": "Pt"
 	},
+	"Monopoly (Europe) (Rev A)": {
+		"languages": "En"
+	},
 	"Monopoly (USA) (Beta)": {
 		"languages": "En"
 	},
-	"Monopoly (USA)": {
+	"Monopoly (USA, Europe)": {
 		"languages": "En"
 	},
-	"Monopoly (Europe)": {
+	"Montezuma's Revenge - Featuring PANAMA JOE (USA) (Beta)": {
 		"languages": "En"
 	},
-	"Montezuma's Revenge - Featuring Panama Joe (USA) (Beta)": {
+	"Montezuma's Revenge - Featuring PANAMA JOE (USA)": {
 		"languages": "En"
 	},
-	"Montezuma's Revenge - Featuring Panama Joe (USA)": {
+	"Mopiranger (Korea) (En) (Unl)": {
 		"languages": "En"
 	},
-	"Mopiranger (Korea) (Unl)": {
+	"Mortal Kombat 3 (Brazil) (En)": {
 		"languages": "En"
 	},
-	"Mortal Kombat (Europe, Brazil)": {
+	"Mortal Kombat (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"Mortal Kombat 3 (Brazil)": {
+	"Mortal Kombat II (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"Mortal Kombat II (Europe, Brazil)": {
+	"Ms. Pac-Man (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"Ms. Pac-Man (Europe, Brazil)": {
-		"languages": "En"
-	},
-	"My Hero (USA, Europe, Brazil)": {
+	"My Hero (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"NBA Jam (Europe) (Proto)": {
@@ -1040,13 +1064,13 @@
 	"Nekkyuu Koushien (Japan)": {
 		"languages": "Ja"
 	},
+	"Nemesis 2 (Korea) (En) (Unl)": {
+		"languages": "En"
+	},
 	"Nemesis (Korea) (Unl)": {
 		"languages": "Ko"
 	},
-	"Nemesis 2 (Korea) (Unl)": {
-		"languages": "En"
-	},
-	"New Boggle Boggle 2 (Korea) (Unl)": {
+	"New Boggle Boggle 2 (Korea) (En) (Unl)": {
 		"languages": "En"
 	},
 	"NewZealand Story, The (Europe)": {
@@ -1055,13 +1079,13 @@
 	"Ninja (Japan)": {
 		"languages": "Ja"
 	},
-	"Ninja Gaiden (Europe, Brazil)": {
+	"Ninja Gaiden (Europe, Brazil) (En) (Beta)": {
 		"languages": "En"
 	},
-	"Ninja Gaiden (Europe, Brazil) (Beta)": {
+	"Ninja Gaiden (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"Ninja, The (USA, Europe, Brazil)": {
+	"Ninja, The (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Northen Ken (Taiwan) (Ja) (Unl)": {
@@ -1076,22 +1100,22 @@
 	"Opa Opa (Japan)": {
 		"languages": "Ja"
 	},
-	"Operation Wolf (Europe, Brazil)": {
+	"Operation Wolf (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Ottifants, The (Europe, Brazil) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
 	},
+	"OutRun 3-D (Europe, Brazil) (En) (Beta)": {
+		"languages": "En"
+	},
+	"OutRun 3-D (Europe, Brazil) (En)": {
+		"languages": "En"
+	},
 	"OutRun (World)": {
 		"languages": "En"
 	},
-	"OutRun 3-D (Europe, Brazil)": {
-		"languages": "En"
-	},
-	"OutRun 3-D (Europe, Brazil) (Sample)": {
-		"languages": "En"
-	},
-	"OutRun Europa (Europe, Brazil)": {
+	"OutRun Europa (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Pac-Mania (Europe)": {
@@ -1100,10 +1124,10 @@
 	"Paper Boy (Taiwan) (En) (Unl)": {
 		"languages": "En"
 	},
-	"Paperboy (USA, Brazil)": {
+	"Paperboy (Europe)": {
 		"languages": "En"
 	},
-	"Paperboy (Europe)": {
+	"Paperboy (USA, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Parlour Games (USA, Europe)": {
@@ -1112,7 +1136,7 @@
 	"Pat Riley Basketball (USA) (Proto)": {
 		"languages": "En"
 	},
-	"Penguin Adventure (Korea) (Unl)": {
+	"Penguin Adventure (Korea) (En) (Unl)": {
 		"languages": "En"
 	},
 	"Penguin Land (USA, Europe)": {
@@ -1121,14 +1145,11 @@
 	"PGA Tour Golf (Europe)": {
 		"languages": "En"
 	},
-	"Phantasy Star (USA, Europe) (Rev 1)": {
+	"Phantasy Star (Brazil) (En)": {
 		"languages": "En"
 	},
-	"Phantasy Star (Brazil)": {
-		"languages": "En"
-	},
-	"Phantasy Star (USA, Europe)": {
-		"languages": "En"
+	"Phantasy Star (Japan) (Virtual Console)": {
+		"languages": "Ja"
 	},
 	"Phantasy Star (Japan)": {
 		"languages": "Ja"
@@ -1136,55 +1157,58 @@
 	"Phantasy Star (Korea) (Unl)": {
 		"languages": "Ko"
 	},
-	"Phantasy Star (Japan) (Virtual Console)": {
-		"languages": "Ja"
+	"Phantasy Star (USA, Europe) (Rev A)": {
+		"languages": "En"
 	},
-	"Phantasy Star (World) (Sega Ages)": {
+	"Phantasy Star (USA, Europe)": {
 		"languages": "En"
 	},
 	"Phantasy Star (World) (Ja) (Sega Ages)": {
 		"languages": "Ja"
 	},
-	"Pit-Fighter (Brazil)": {
+	"Phantasy Star (World) (Sega Ages)": {
+		"languages": "En"
+	},
+	"Pit-Fighter (Brazil) (En)": {
 		"languages": "En"
 	},
 	"Pit-Fighter (Europe)": {
 		"languages": "En"
 	},
-	"Pooyan (Korea) (Unl)": {
+	"Pooyan (Korea) (En) (Unl)": {
 		"languages": "En"
 	},
-	"Populous (Europe, Brazil)": {
+	"Populous (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"Poseidon Wars 3-D (USA, Europe, Brazil)": {
+	"Poseidon Wars 3-D (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"Power Boggle Boggle (Korea) (Unl)": {
+	"Power Boggle Boggle (Korea) (En) (Unl)": {
 		"languages": "En"
 	},
-	"Power Strike (USA, Europe, Brazil)": {
+	"Power Strike (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"Power Strike II (Europe, Brazil)": {
+	"Power Strike II (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"Ppang Gongjang (Korea) (Unl)": {
+	"Ppang Gongjang (Korea) (En) (Unl)": {
 		"languages": "En"
 	},
-	"Predator 2 (Brazil)": {
+	"Predator 2 (Brazil) (En)": {
 		"languages": "En"
 	},
 	"Predator 2 (Europe)": {
 		"languages": "En"
 	},
-	"Prince of Persia (Europe, Brazil)": {
+	"Prince of Persia (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Prince of Persia (Taiwan) (En) (Unl)": {
 		"languages": "En"
 	},
-	"Pro Wrestling (USA, Europe, Brazil)": {
+	"Pro Wrestling (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Pro Yakyuu, The - Pennant Race (Japan)": {
@@ -1193,28 +1217,31 @@
 	"Promocao Especial M. System III Compact (Brazil) (Sample)": {
 		"languages": "Pt"
 	},
-	"Psychic World (Europe, Brazil)": {
+	"Psychic World (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"Psycho Fox (USA, Europe, Brazil)": {
+	"Psycho Fox (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"Putt & Putter (Europe, Brazil) (Beta)": {
+	"Putt & Putter (Europe, Brazil) (En) (Beta)": {
 		"languages": "En"
 	},
-	"Putt & Putter ~ Minigolf (Europe, Brazil)": {
+	"Putt & Putter (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"Puzzle (Korea) (Unl)": {
-		"languages": "En"
-	},
-	"Quartet (USA, Europe)": {
+	"Puzzle Game (Korea) (En) (Unl)": {
 		"languages": "En"
 	},
 	"Quartet (Taiwan) (En) (Unl)": {
 		"languages": "En"
 	},
-	"Quest for the Shaven Yak Starring Ren Hoek & Stimpy (Brazil)": {
+	"Quartet (USA, Europe)": {
+		"languages": "En"
+	},
+	"Quest for the Shaven Yak Starring Ren Hoek & Stimpy (Brazil) (En)": {
+		"languages": "En"
+	},
+	"R-Type (Taiwan) (En) (Unl)": {
 		"languages": "En"
 	},
 	"R-Type (World) (Beta)": {
@@ -1223,16 +1250,13 @@
 	"R-Type (World)": {
 		"languages": "En"
 	},
-	"R-Type (Taiwan) (En) (Unl)": {
+	"R.C. Grand Prix (USA, Europe, Brazil) (En) (Beta)": {
 		"languages": "En"
 	},
-	"R.C. Grand Prix (USA, Europe, Brazil) (Beta)": {
+	"R.C. Grand Prix (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"R.C. Grand Prix (USA, Europe, Brazil)": {
-		"languages": "En"
-	},
-	"Rainbow Islands (Brazil)": {
+	"Rainbow Islands (Brazil) (En)": {
 		"languages": "En"
 	},
 	"Rainbow Islands (Europe)": {
@@ -1241,52 +1265,52 @@
 	"Rambo - First Blood Part II (USA)": {
 		"languages": "En"
 	},
-	"Rambo III (USA, Europe, Brazil)": {
+	"Rambo III (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"Rampage (USA, Europe, Brazil)": {
+	"Rampage (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Rampart (Europe)": {
 		"languages": "En"
 	},
-	"Rastan (USA, Europe, Brazil)": {
+	"Rastan (USA, Europe, Brazil) (En) (Beta)": {
 		"languages": "En"
 	},
-	"Rastan (USA, Europe, Brazil) (Beta)": {
+	"Rastan (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Reggie Jackson Baseball (USA)": {
 		"languages": "En"
 	},
-	"Renegade (Europe, Brazil)": {
+	"Renegade (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"Rescue Mission (USA, Europe, Brazil)": {
+	"Rescue Mission (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"Road Fighter (Korea) (Unl)": {
+	"Road Fighter (Korea) (En) (Unl)": {
 		"languages": "En"
 	},
-	"Road Rash (Europe, Brazil)": {
+	"Road Rash (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"RoboCop 3 (Europe, Brazil)": {
+	"RoboCop 3 (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"RoboCop versus The Terminator (Europe, Brazil)": {
+	"RoboCop versus The Terminator (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Rocky (World)": {
 		"languages": "En"
 	},
-	"Running Battle (Europe, Brazil)": {
+	"Running Battle (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"Sagaia (Europe, Brazil)": {
+	"Sagaia (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"Sagak-ui Bimil (Korea) (Unl)": {
+	"Sagak-ui Bimil (Korea) (En) (Unl)": {
 		"languages": "En"
 	},
 	"Samgukji 3 (Korea) (Unl)": {
@@ -1295,7 +1319,7 @@
 	"Sapo Xule - O Mestre do Kung Fu (Brazil)": {
 		"languages": "Pt"
 	},
-	"Sapo Xule - S.O.S. Lagoa Poluida (Brazil, Portugal)": {
+	"Sapo Xule - S.O.S. Lagoa Poluida (Brazil, Portugal) (Pt)": {
 		"languages": "Pt"
 	},
 	"Sapo Xule vs. Os Invasores do Brejo (Brazil)": {
@@ -1310,7 +1334,7 @@
 	"Schtroumpfs Autour du Monde, Les (Europe) (En,Fr,De,Es)": {
 		"languages": "En,Fr,De,Es"
 	},
-	"Scramble Spirits (Europe, Brazil)": {
+	"Scramble Spirits (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Scramble Spirits (Taiwan) (En) (Unl)": {
@@ -1322,31 +1346,13 @@
 	"Secret Command (Europe)": {
 		"languages": "En"
 	},
-	"Sega Chess (Europe, Brazil)": {
+	"Sega Chess (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Sega Graphic Board (USA) (v2.0) (Proto)": {
 		"languages": "En"
 	},
-	"[BIOS] Sega Master System (Japan) (v2.1)": {
-		"languages": "Ja"
-	},
-	"[BIOS] Sega Master System (USA) (M404) (Proto)": {
-		"languages": "En"
-	},
-	"[BIOS] Sega Master System (USA) (v1.0) (Proto)": {
-		"languages": "En"
-	},
-	"[BIOS] Sega Master System (USA, Europe) (v1.3)": {
-		"languages": "En"
-	},
-	"[BIOS] Sega Master System (USA) (Store Display Unit)": {
-		"languages": "En"
-	},
-	"[BIOS] Sega Master System (Europe) (v2.0)": {
-		"languages": "En"
-	},
-	"Sega World Tournament Golf (Europe, Brazil)": {
+	"Sega World Tournament Golf (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Seishun Scandal (Japan)": {
@@ -1358,10 +1364,10 @@
 	"Shadow Dancer (Taiwan) (En) (Unl)": {
 		"languages": "En"
 	},
-	"Shadow Dancer - The Secret of Shinobi ~ Shadow Dancer (Europe, Brazil)": {
+	"Shadow Dancer - The Secret of Shinobi (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"Shadow of the Beast (Europe, Brazil)": {
+	"Shadow of the Beast (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Shadow of the Beast (Taiwan) (En) (Unl)": {
@@ -1376,79 +1382,76 @@
 	"Shangwei Mingling (Taiwan) (En) (Unl)": {
 		"languages": "En"
 	},
-	"Shinobi (USA, Europe, Brazil) (Rev 1)": {
-		"languages": "En"
-	},
-	"Shinobi (Japan, Brazil)": {
+	"Shinobi (Japan, Brazil) (Ja)": {
 		"languages": "Ja"
 	},
-	"Shooting Gallery ~ Shooting G. (USA, Europe, Brazil)": {
+	"Shinobi (USA, Europe, Brazil) (En) (Rev 1)": {
 		"languages": "En"
 	},
-	"Simpsons, The - Bart vs. the Space Mutants (Europe, Brazil)": {
+	"Shooting Gallery (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"Simpsons, The - Bart vs. the World (Europe, Brazil)": {
+	"Simpsons, The - Bart vs. The Space Mutants (Europe, Brazil) (En)": {
+		"languages": "En"
+	},
+	"Simpsons, The - Bart vs. The World (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Sitio do Picapau Amarelo (Brazil)": {
 		"languages": "Pt"
 	},
-	"Sky Fighter (Korea) (Unl)": {
+	"Sky Fighter (Korea) (En) (Unl)": {
 		"languages": "En"
 	},
-	"Sky Jaguar (Korea) (Unl)": {
+	"Sky Jaguar (Korea) (Clover) (Unl)": {
 		"languages": "Ko"
 	},
-	"Sky Jaguar (Korea) (Clover) (Unl)": {
+	"Sky Jaguar (Korea) (Unl)": {
 		"languages": "Ko"
 	},
 	"Slap Shoot (USA) (Beta)": {
 		"languages": "En"
 	},
-	"Slap Shot (USA, Brazil)": {
-		"languages": "En"
-	},
-	"Slap Shot (Europe) (Rev 1)": {
+	"Slap Shot (Europe) (Sample)": {
 		"languages": "En"
 	},
 	"Slap Shot (Europe)": {
 		"languages": "En"
 	},
+	"Slap Shot (USA, Europe, Brazil) (En)": {
+		"languages": "En"
+	},
 	"Smurfs, The (Europe, Brazil) (En,Fr,De,Es)": {
 		"languages": "En,Fr,De,Es"
-	},
-	"Solomon no Kagi - Oujo Rihita no Namida (Japan)": {
-		"languages": "Ja"
 	},
 	"Solomon no Kagi - Oujo Rihita no Namida (Japan) (Beta)": {
 		"languages": "Ja"
 	},
-	"Sonic Blast (Brazil)": {
+	"Solomon no Kagi - Oujo Rihita no Namida (Japan)": {
+		"languages": "Ja"
+	},
+	"Sonic Blast (Brazil) (En)": {
 		"languages": "En"
 	},
-	"Sonic Chaos (Europe, Brazil)": {
+	"Sonic Chaos (Europe, Brazil) (En) (Beta) (1993-06-30)": {
 		"languages": "En"
 	},
-	"Sonic Chaos (Europe, Brazil) (Beta) (1993-06-30)": {
+	"Sonic Chaos (Europe, Brazil) (En) (Beta) (1993-07-13)": {
 		"languages": "En"
 	},
-	"Sonic Chaos (Europe, Brazil) (Beta) (1993-07-13)": {
+	"Sonic Chaos (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"Sonic Spinball (Europe, Brazil)": {
+	"Sonic Spinball (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"[BIOS] Sonic The Hedgehog (Europe)": {
+	"Sonic The Hedgehog 2 (Europe, Brazil) (En) (Rev 1)": {
 		"languages": "En"
 	},
-	"Sonic The Hedgehog (USA, Europe, Brazil)": {
+	"Sonic The Hedgehog 2 (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"Sonic The Hedgehog 2 (Europe, Brazil) (Rev 1)": {
-		"languages": "En"
-	},
-	"Sonic The Hedgehog 2 (Europe, Brazil)": {
+	"Sonic The Hedgehog (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Sonic's Edusoft (Unknown) (Proto)": {
@@ -1457,16 +1460,16 @@
 	"Space Gun (Europe)": {
 		"languages": "En"
 	},
-	"Space Harrier (Japan, USA)": {
+	"Space Harrier 3-D (USA, Europe, Brazil) (En)": {
+		"languages": "En"
+	},
+	"Space Harrier 3D (Japan)": {
 		"languages": "Ja"
 	},
 	"Space Harrier (Europe)": {
 		"languages": "En"
 	},
-	"Space Harrier 3-D ~ Space Harrier 3D (USA, Europe, Brazil)": {
-		"languages": "En"
-	},
-	"Space Harrier 3D (Japan)": {
+	"Space Harrier (Japan, USA) (Ja)": {
 		"languages": "Ja"
 	},
 	"Special Criminal Investigation (Europe) (Beta)": {
@@ -1475,67 +1478,67 @@
 	"Special Criminal Investigation (Europe)": {
 		"languages": "En"
 	},
+	"Speedball 2 (Europe)": {
+		"languages": "En"
+	},
 	"Speedball (Europe) (Rev 1)": {
 		"languages": "En"
 	},
 	"Speedball (Europe)": {
 		"languages": "En"
 	},
-	"Speedball 2 (Europe)": {
+	"SpellCaster (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"SpellCaster (USA, Europe, Brazil)": {
+	"Spider-Man (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"Spider-Man (USA, Europe, Brazil)": {
-		"languages": "En"
-	},
-	"Spider-Man - Return of the Sinister Six (Europe, Brazil)": {
+	"Spider-Man - Return of the Sinister Six (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Sports Pad Football (USA)": {
 		"languages": "En"
 	},
-	"Sports Pad Soccer (Japan) (Rev 1)": {
+	"Sports Pad Soccer (Japan)": {
 		"languages": "Ja"
 	},
 	"Spy vs Spy (Japan)": {
 		"languages": "Ja"
 	},
-	"Spy vs Spy (USA, Europe, Brazil)": {
-		"languages": "En"
-	},
 	"Spy vs Spy (Taiwan) (Unl)": {
 		"languages": "Zh"
 	},
-	"Star Wars (Europe, Brazil)": {
+	"Spy vs Spy (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"Street Fighter II' (Brazil)": {
+	"Star Wars (Europe, Brazil) (En)": {
+		"languages": "En"
+	},
+	"Street Fighter II' (Brazil) (En)": {
 		"languages": "En"
 	},
 	"Street Master (Korea) (Unl)": {
 		"languages": "Ko"
 	},
-	"Streets of Rage (Europe, Brazil)": {
+	"Streets of Rage (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"Streets of Rage II (Europe, Brazil)": {
+	"Streets of Rage II (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"Strider (USA, Europe, Brazil) (Demo)": {
+	"Strider (USA, Europe, Brazil) (En) (Demo)": {
 		"languages": "En"
 	},
-	"Strider (USA, Europe, Brazil)": {
+	"Strider (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"Strider II (Europe, Brazil)": {
+	"Strider II (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Strider, The (Taiwan) (En) (Unl)": {
 		"languages": "En"
 	},
-	"Submarine Attack (Europe, Brazil)": {
+	"Submarine Attack (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Submarine Attack (Taiwan) (En) (Unl)": {
@@ -1547,10 +1550,10 @@
 	"Sukeban Deka II - Shoujo Tekkamen Densetsu (Japan)": {
 		"languages": "Ja"
 	},
-	"Summer Games (Europe, Brazil) (Beta)": {
+	"Summer Games (Europe, Brazil) (En) (Beta)": {
 		"languages": "En"
 	},
-	"Summer Games ~ Jogos Olimpicos (Europe, Brazil)": {
+	"Summer Games (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Super Arkanoid (Korea) (Unl)": {
@@ -1565,16 +1568,16 @@
 	"Super Boy 4 (Korea) (Unl)": {
 		"languages": "Ko"
 	},
-	"Super Boy I (Korea) (Unl)": {
+	"Super Boy I (Korea) (En) (Unl)": {
 		"languages": "En"
 	},
-	"Super Boy II (Korea) (Unl)": {
+	"Super Boy II (Korea) (En) (Unl)": {
 		"languages": "En"
 	},
-	"Super Boy III (Korea) (Unl)": {
+	"Super Boy III (Korea) (En) (Unl)": {
 		"languages": "En"
 	},
-	"Super Bubble Bobble (Korea) (Unl)": {
+	"Super Bubble Bobble (Korea) (En) (Unl)": {
 		"languages": "En"
 	},
 	"Super Columns & Tetris (Korea) (Unl)": {
@@ -1586,22 +1589,22 @@
 	"Super Kick Off (Europe, Brazil) (En,Fr,De,Es,It,Nl,Pt,Sv)": {
 		"languages": "En,Fr,De,Es,It,Nl,Pt,Sv"
 	},
-	"Super Monaco GP (USA)": {
+	"Super Monaco GP (Europe, Brazil) (En) (Beta)": {
 		"languages": "En"
 	},
-	"Super Monaco GP (Europe, Brazil) (Beta)": {
+	"Super Monaco GP (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Super Monaco GP (USA) (Beta)": {
 		"languages": "En"
 	},
-	"Super Monaco GP (Europe, Brazil)": {
-		"languages": "En"
-	},
-	"Super Off Road (Europe)": {
+	"Super Monaco GP (USA)": {
 		"languages": "En"
 	},
 	"Super Off Road (Europe) (Beta)": {
+		"languages": "En"
+	},
+	"Super Off Road (Europe)": {
 		"languages": "En"
 	},
 	"Super Racing (Japan)": {
@@ -1622,28 +1625,25 @@
 	"Super Wonder Boy - Monster World (Japan)": {
 		"languages": "Ja"
 	},
-	"Super Wonder Boy ~ Wonder Boy (Japan, Europe)": {
-		"languages": "En"
-	},
-	"Superman - The Man of Steel (Europe, Brazil)": {
+	"Superman - The Man of Steel (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"T2 - The Arcade Game (Europe)": {
 		"languages": "En"
 	},
-	"Taito Chase H.Q. (Europe)": {
-		"languages": "En"
-	},
 	"Taito Chase H.Q. (Europe) (Beta)": {
 		"languages": "En"
 	},
-	"Taz in Escape from Mars (Brazil)": {
+	"Taito Chase H.Q. (Europe)": {
 		"languages": "En"
 	},
-	"Taz-Mania (Europe, Brazil) (Beta)": {
+	"Taz in Escape from Mars (Brazil) (En)": {
 		"languages": "En"
 	},
-	"Taz-Mania (Europe, Brazil)": {
+	"Taz-Mania (Europe, Brazil) (En) (Beta)": {
+		"languages": "En"
+	},
+	"Taz-Mania (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Tecmo World Cup '92 (Europe) (Beta)": {
@@ -1652,7 +1652,7 @@
 	"Tecmo World Cup '93 (Europe)": {
 		"languages": "En"
 	},
-	"Teddy Boy (USA, Europe, Brazil)": {
+	"Teddy Boy (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Teddy Boy Blues (Japan) (Proto) (Ep-MyCard)": {
@@ -1661,7 +1661,7 @@
 	"Teddy Boy Blues (Japan)": {
 		"languages": "Ja"
 	},
-	"Tennis Ace ~ Super Tennis (Europe, Brazil)": {
+	"Tennis Ace (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Tensai Bakabon (Japan)": {
@@ -1670,7 +1670,7 @@
 	"Terminator 2 - Judgment Day (Europe)": {
 		"languages": "En"
 	},
-	"Terminator, The (Brazil) (Rev 1)": {
+	"Terminator, The (Brazil) (En)": {
 		"languages": "En"
 	},
 	"Terminator, The (Europe)": {
@@ -1679,46 +1679,49 @@
 	"Three Dragon Story, The (Korea) (Unl)": {
 		"languages": "Ko"
 	},
-	"Thunder Blade (USA, Europe, Brazil)": {
-		"languages": "En"
-	},
 	"Thunder Blade (Japan)": {
 		"languages": "Ja"
 	},
 	"Thunder Blade (Taiwan) (En) (Unl)": {
 		"languages": "En"
 	},
-	"Time Soldiers (USA, Europe, Brazil)": {
+	"Thunder Blade (USA, Europe, Brazil) (En) (Beta)": {
 		"languages": "En"
 	},
-	"Tom & Jerry (Europe, Brazil) (Beta)": {
+	"Thunder Blade (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"Tom and Jerry - The Movie (Europe, Brazil)": {
+	"Time Soldiers (USA, Europe, Brazil) (En)": {
+		"languages": "En"
+	},
+	"Tom & Jerry (Europe, Brazil) (En) (Beta)": {
+		"languages": "En"
+	},
+	"Tom and Jerry - The Movie (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Toto World 3 (Korea) (Unl)": {
 		"languages": "Ko"
 	},
-	"TransBot (USA, Europe, Brazil)": {
+	"TransBot (USA, Europe, Brazil) (En) (Beta)": {
 		"languages": "En"
 	},
-	"TransBot (USA, Europe, Brazil) (Beta)": {
+	"TransBot (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Trivial Pursuit - Genus Edition (Europe) (En,Fr,De,Es)": {
 		"languages": "En,Fr,De,Es"
 	},
-	"Ttoriui Moheom (Korea) (Unl)": {
+	"Ttoriui Moheom (Korea) (En) (Unl)": {
 		"languages": "En"
 	},
 	"Turma da Monica em O Resgate (Brazil)": {
 		"languages": "Pt"
 	},
-	"Ultima IV - Quest of the Avatar (Europe, Brazil)": {
+	"Ultima IV - Quest of the Avatar (Europe, Brazil) (En) (Beta)": {
 		"languages": "En"
 	},
-	"Ultima IV - Quest of the Avatar (Europe, Brazil) (Beta)": {
+	"Ultima IV - Quest of the Avatar (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Ultimate Soccer (Europe, Brazil) (En,Fr,De,Es,It)": {
@@ -1727,46 +1730,49 @@
 	"Vampire (Europe) (Beta)": {
 		"languages": "En"
 	},
-	"Vigilante (USA, Europe, Brazil)": {
+	"Vigilante (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"Virtua Fighter Animation (Brazil)": {
+	"Virtua Fighter Animation (Brazil) (En)": {
 		"languages": "En"
 	},
 	"Walter Payton Football (USA)": {
 		"languages": "En"
 	},
-	"Wanted (USA, Europe, Brazil)": {
+	"Wanted (USA, Europe, Brazil) (En)": {
+		"languages": "En"
+	},
+	"Where in the World is Carmen Sandiego (Brazil) (En)": {
 		"languages": "En"
 	},
 	"Where in the World is Carmen Sandiego (USA)": {
 		"languages": "En"
 	},
-	"Where in the World is Carmen Sandiego (Brazil)": {
-		"languages": "En"
-	},
 	"Wimbledon (Europe)": {
 		"languages": "En"
 	},
-	"Wimbledon II ~ Wimbledon (Europe, Brazil)": {
+	"Wimbledon II (Europe, Brazil) (En)": {
 		"languages": "En"
-	},
-	"Winter Olympics (Europe) (En,Fr,De,Es,It,Pt,Sv,No)": {
-		"languages": "En,Fr,De,Es,It,Pt,Sv,No"
 	},
 	"Winter Olympics (Brazil) (En,Fr,De,Es,It,Pt,Sv,No)": {
 		"languages": "En,Fr,De,Es,It,Pt,Sv,No"
 	},
-	"Wolfchild (Europe, Brazil)": {
+	"Winter Olympics (Europe) (En,Fr,De,Es,It,Pt,Sv,No)": {
+		"languages": "En,Fr,De,Es,It,Pt,Sv,No"
+	},
+	"Wolfchild (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"Wonder Boy (USA, Europe, Brazil) (Rev 1)": {
+	"Wonder Boy (Japan, Europe) (En)": {
 		"languages": "En"
 	},
-	"Wonder Boy III - The Dragon's Trap (USA, Europe)": {
+	"Wonder Boy (USA, Europe, Brazil) (En) (Rev 1)": {
 		"languages": "En"
 	},
 	"Wonder Boy III - The Dragon's Trap (USA, Europe) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Wonder Boy III - The Dragon's Trap (USA, Europe)": {
 		"languages": "En"
 	},
 	"Wonder Boy in Monster Land (USA, Europe) (Beta)": {
@@ -1787,58 +1793,58 @@
 	"Woody Pop - Shinjinrui no Block Kuzushi (Japan)": {
 		"languages": "Ja"
 	},
-	"World Class Leader Board (Europe, Brazil)": {
+	"World Class Leaderboard (Europe, Brazil) (En)": {
+		"languages": "En"
+	},
+	"World Cup Italia '90 (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"World Cup Italia '90 (USA) (Demo)": {
 		"languages": "En"
 	},
-	"World Cup Italia '90 ~ Super Futebol II (Europe, Brazil)": {
-		"languages": "En"
-	},
 	"World Cup USA 94 (Europe, Brazil) (En,Fr,De,Es,It,Nl,Pt,Sv)": {
 		"languages": "En,Fr,De,Es,It,Nl,Pt,Sv"
 	},
-	"World Games (Europe, Brazil)": {
+	"World Games (Europe, Brazil) (En) (Beta)": {
 		"languages": "En"
 	},
-	"World Games (Europe) (Beta)": {
-		"languages": "En"
-	},
-	"World Grand Prix (USA, Brazil) (Beta)": {
+	"World Games (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"World Grand Prix (Europe)": {
 		"languages": "En"
 	},
-	"World Grand Prix (USA, Brazil)": {
+	"World Grand Prix (USA, Brazil) (En) (Beta)": {
 		"languages": "En"
 	},
-	"World Soccer ~ Great Soccer ~ Super Futebol (World)": {
+	"World Grand Prix (USA, Brazil) (En)": {
 		"languages": "En"
 	},
-	"WWF Wrestlemania - Steel Cage Challenge (Europe, Brazil)": {
+	"World Soccer (World)": {
 		"languages": "En"
 	},
-	"X-Men - Mojo World (Brazil)": {
+	"WWF Wrestlemania - Steel Cage Challenge (Europe, Brazil) (En)": {
 		"languages": "En"
 	},
-	"Xenon 2 - Megablast (Europe)": {
+	"X-Men - Mojo World (Brazil) (En)": {
 		"languages": "En"
 	},
 	"Xenon 2 - Megablast (Europe) (Rev 1)": {
 		"languages": "En"
 	},
-	"Xyzolog (Korea) (Unl)": {
+	"Xenon 2 - Megablast (Europe)": {
+		"languages": "En"
+	},
+	"Xyzolog (Korea) (En) (Unl)": {
 		"languages": "En"
 	},
 	"Ys (Japan)": {
 		"languages": "Ja"
 	},
-	"Ys - The Vanished Omens (USA, Europe) (Demo)": {
+	"Ys - The Vanished Omens (USA, Europe) (Ja) (Demo)": {
 		"languages": "Ja"
 	},
-	"Ys - The Vanished Omens ~ Y's (USA, Europe, Brazil)": {
+	"Ys - The Vanished Omens (USA, Europe, Brazil) (En)": {
 		"languages": "En"
 	},
 	"Yuyryeong-ui Jip (Korea) (Unl)": {
@@ -1850,16 +1856,19 @@
 	"Zaxxon 3-D (World)": {
 		"languages": "En"
 	},
+	"Zillion (Europe, Brazil) (En) (Rev 2)": {
+		"languages": "En"
+	},
+	"Zillion (Japan, Europe) (En,Ja)": {
+		"languages": "En,Ja"
+	},
 	"Zillion (USA, Europe) (Rev 1)": {
 		"languages": "En"
 	},
-	"Zillion (Europe, Brazil) (Rev 2)": {
+	"Zillion II - The Tri Formation (World) (Beta)": {
 		"languages": "En"
 	},
 	"Zillion II - The Tri Formation (World)": {
-		"languages": "En"
-	},
-	"Zillion II - The Tri Formation (World) (Beta)": {
 		"languages": "En"
 	},
 	"Zool - Ninja of the 'Nth' Dimension (Europe)": {

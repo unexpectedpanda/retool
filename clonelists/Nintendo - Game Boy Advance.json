@@ -3,7 +3,7 @@
 		"name": [
 			"Nintendo - Game Boy Advance"
 		],
-		"last updated": "2 January 2022",
+		"last updated": "23 March 2022",
 		"minimum version": "0.92"
 	},
 
@@ -17,6 +17,10 @@
 			"categories": ["Applications"]
 		},
 		"Action Replay MAX": {
+			"match": "short",
+			"categories": ["Applications"]
+		},
+		"Advanced Music Player": {
 			"match": "short",
 			"categories": ["Applications"]
 		},
@@ -37,6 +41,10 @@
 			"categories": ["Applications"]
 		},
 		"GBA AV Adapter": {
+			"match": "short",
+			"categories": ["Applications"]
+		},
+		"GBA Jukebox":  {
 			"match": "short",
 			"categories": ["Applications"]
 		},

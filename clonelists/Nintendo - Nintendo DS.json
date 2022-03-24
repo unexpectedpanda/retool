@@ -3,7 +3,7 @@
 		"name": [
 			"Nintendo - Nintendo DS"
 		],
-		"last updated": "2 January 2022",
+		"last updated": "24 March 2022",
 		"minimum version": "0.89"
 	},
 
@@ -550,6 +550,10 @@
 		],
 		"Diary Girl": [
 			["Winx Club - Secret Diary 2009", 1]
+		],
+		"Diddy Kong Racing DS": [
+			["Diddy Kong Racing (Climax, 2004-05-31)", 2],
+			["Diddy Kong Racing (Climax, 2004-05-27)", 3]
 		],
 		"Digimon World DS": [
 			["Digimon Story", 1]

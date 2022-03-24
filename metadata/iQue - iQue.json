@@ -1,26 +1,32 @@
 {
+	"[BIOS] Shenyou Julebu (China)": {
+		"languages": "Zh"
+	},
 	"Dongwu Senlin (China) (v8)": {
-		"languages": "Zh"
-	},
-	"F-Zero X Weilai Saiche (China) (v3)": {
-		"languages": "Zh"
-	},
-	"F-Zero X Weilai Saiche (China) (v2) (Manual)": {
-		"languages": "Zh"
-	},
-	"F-Zero X Weilai Saiche (China) (v4) (Manual)": {
 		"languages": "Zh"
 	},
 	"F-Zero X Weilai Saiche (China) (Trailer)": {
 		"languages": "Zh"
 	},
-	"iQue Club (China)": {
+	"F-Zero X Weilai Saiche (China) (v2) (Manual)": {
+		"languages": "Zh"
+	},
+	"F-Zero X Weilai Saiche (China) (v3)": {
+		"languages": "Zh"
+	},
+	"F-Zero X Weilai Saiche (China) (v4) (Manual)": {
 		"languages": "Zh"
 	},
 	"iQue Club (China) (v2)": {
 		"languages": "Zh"
 	},
 	"iQue Club (China) (v3)": {
+		"languages": "Zh"
+	},
+	"iQue Club (China)": {
+		"languages": "Zh"
+	},
+	"Maliou Kadingche (China) (Trailer)": {
 		"languages": "Zh"
 	},
 	"Maliou Kadingche (China) (v2) (Manual)": {
@@ -35,10 +41,7 @@
 	"Maliou Kadingche (China) (v6) (Manual)": {
 		"languages": "Zh"
 	},
-	"Maliou Kadingche (China) (Trailer)": {
-		"languages": "Zh"
-	},
-	"Maliou Yisheng (China) (v4)": {
+	"Maliou Yisheng (China) (Trailer)": {
 		"languages": "Zh"
 	},
 	"Maliou Yisheng (China) (v2) (Manual)": {
@@ -47,16 +50,16 @@
 	"Maliou Yisheng (China) (v4) (Manual)": {
 		"languages": "Zh"
 	},
-	"Maliou Yisheng (China) (Trailer)": {
-		"languages": "Zh"
-	},
-	"Rentiantang Mingxing Daluan Dou (China) (v5)": {
+	"Maliou Yisheng (China) (v4)": {
 		"languages": "Zh"
 	},
 	"Rentiantang Mingxing Daluan Dou (China) (Manual)": {
 		"languages": "Zh"
 	},
-	"Saierda Chuanshuo - Shiguang zhi Di (China) (v4)": {
+	"Rentiantang Mingxing Daluan Dou (China) (v5)": {
+		"languages": "Zh"
+	},
+	"Saierda Chuanshuo - Shiguang zhi Di (China) (Trailer)": {
 		"languages": "Zh"
 	},
 	"Saierda Chuanshuo - Shiguang zhi Di (China) (v2) (Manual)": {
@@ -65,13 +68,16 @@
 	"Saierda Chuanshuo - Shiguang zhi Di (China) (v4) (Manual)": {
 		"languages": "Zh"
 	},
+	"Saierda Chuanshuo - Shiguang zhi Di (China) (v4)": {
+		"languages": "Zh"
+	},
 	"Saierda Chuanshuo - Shiguang zhi Di (China)": {
 		"languages": "Zh"
 	},
-	"Saierda Chuanshuo - Shiguang zhi Di (China) (Trailer)": {
+	"Shenyou Maliou (China) (Trailer) (Alt)": {
 		"languages": "Zh"
 	},
-	"[BIOS] Shenyou Julebu (China)": {
+	"Shenyou Maliou (China) (Trailer)": {
 		"languages": "Zh"
 	},
 	"Shenyou Maliou (China) (v2) (Manual)": {
@@ -83,13 +89,10 @@
 	"Shenyou Maliou (China) (v6) (Manual)": {
 		"languages": "Zh"
 	},
-	"Shenyou Maliou (China) (Trailer)": {
+	"Shuishang Motuo (China) (Trailer) (Alt)": {
 		"languages": "Zh"
 	},
-	"Shenyou Maliou (China) (Alt) (Trailer)": {
-		"languages": "Zh"
-	},
-	"Shuishang Motuo (China) (v4)": {
+	"Shuishang Motuo (China) (Trailer)": {
 		"languages": "Zh"
 	},
 	"Shuishang Motuo (China) (v2) (Manual)": {
@@ -98,22 +101,16 @@
 	"Shuishang Motuo (China) (v4) (Manual)": {
 		"languages": "Zh"
 	},
-	"Shuishang Motuo (China) (Trailer)": {
+	"Shuishang Motuo (China) (v4)": {
 		"languages": "Zh"
 	},
-	"Shuishang Motuo (China) (Alt) (Trailer)": {
+	"SKSA (China) (1009) (Firmware)": {
 		"languages": "Zh"
 	},
 	"SKSA (China) (1010) (Firmware)": {
 		"languages": "Zh"
 	},
-	"SKSA (China) (1042) (Firmware)": {
-		"languages": "Zh"
-	},
 	"SKSA (China) (1011) (Firmware)": {
-		"languages": "Zh"
-	},
-	"SKSA (China) (1009) (Firmware)": {
 		"languages": "Zh"
 	},
 	"SKSA (China) (1012) (Firmware)": {
@@ -123,6 +120,9 @@
 		"languages": "Zh"
 	},
 	"SKSA (China) (1041) (Firmware)": {
+		"languages": "Zh"
+	},
+	"SKSA (China) (1042) (Firmware)": {
 		"languages": "Zh"
 	},
 	"SKSA (China) (1043) (Firmware)": {
@@ -188,6 +188,12 @@
 	"SKSA (China) (1106) (Firmware)": {
 		"languages": "Zh"
 	},
+	"Xingji Huohu (China) (Trailer)": {
+		"languages": "Zh"
+	},
+	"Xingji Huohu (China) (v2) (Manual)": {
+		"languages": "Zh"
+	},
 	"Xingji Huohu (China) (v4) (Manual)": {
 		"languages": "Zh"
 	},
@@ -195,15 +201,6 @@
 		"languages": "Zh"
 	},
 	"Xingji Huohu (China) (v5)": {
-		"languages": "Zh"
-	},
-	"Xingji Huohu (China) (v2) (Manual)": {
-		"languages": "Zh"
-	},
-	"Xingji Huohu (China) (Trailer)": {
-		"languages": "Zh"
-	},
-	"Yaoxi Gushi (China)": {
 		"languages": "Zh"
 	},
 	"Yaoxi Gushi (China) (v2) (Manual)": {
@@ -215,13 +212,13 @@
 	"Yaoxi Gushi (China) (v6) (Manual)": {
 		"languages": "Zh"
 	},
-	"Yueye Motuo (China) (v8)": {
+	"Yaoxi Gushi (China)": {
 		"languages": "Zh"
 	},
 	"Yueye Motuo (China) (v2) (Manual)": {
 		"languages": "Zh"
 	},
-	"Zhipian Maliou (China) (v4)": {
+	"Yueye Motuo (China) (v8)": {
 		"languages": "Zh"
 	},
 	"Zhipian Maliou (China) (v2) (Manual)": {
@@ -230,13 +227,16 @@
 	"Zhipian Maliou (China) (v4) (Manual)": {
 		"languages": "Zh"
 	},
+	"Zhipian Maliou (China) (v4)": {
+		"languages": "Zh"
+	},
 	"Zuhe Jiqiren (China) (v3)": {
 		"languages": "Zh"
 	},
-	"Zui yu Fa - Diqiu de Jicheng Zhe (China) (v3)": {
+	"Zui yu Fa - Diqiu de Jicheng Zhe (China) (Manual)": {
 		"languages": "Zh"
 	},
-	"Zui yu Fa - Diqiu de Jicheng Zhe (China) (Manual)": {
+	"Zui yu Fa - Diqiu de Jicheng Zhe (China) (v3)": {
 		"languages": "Zh"
 	}
 }

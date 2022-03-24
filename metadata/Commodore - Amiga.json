@@ -1,36 +1,12 @@
 {
-	"'Allo 'Allo - Cartoon Fun! (Europe)": {
-		"languages": "En"
-	},
-	"'Allo 'Allo - Cartoon Fun! (Europe) (Alt 1)": {
-		"languages": "En"
-	},
-	"'Nam 1965-1975 (Europe) (En,Fr,De,It)": {
-		"languages": "En,Fr,De,It"
-	},
-	"10 out of 10 - Early Essentials (Europe)": {
-		"languages": "En"
-	},
-	"10 out of 10 - Essential Science (Europe)": {
-		"languages": "En"
-	},
-	"10 out of 10 - Maths Number (Europe)": {
-		"languages": "En"
-	},
-	"1869 - Erlebte Geschichte Teil I (Germany)": {
-		"languages": "De"
-	},
-	"1869 - Erlebte Geschichte Teil I (Germany) (AGA)": {
-		"languages": "De"
-	},
 	"1st Division Manager (Europe)": {
+		"languages": "En"
+	},
+	"3D Construction Kit 2 (Europe) (r2.01)": {
 		"languages": "En"
 	},
 	"3D Construction Kit (Europe) (En,Fr,De,It) (r01.1000)": {
 		"languages": "En,Fr,De,It"
-	},
-	"3D Construction Kit 2 (Europe) (r2.01)": {
-		"languages": "En"
 	},
 	"3D Galax (Europe) (Compilation - Action Amiga)": {
 		"languages": "En"
@@ -56,16 +32,7 @@
 	"4x4 Off-Road Racing (USA)": {
 		"languages": "En"
 	},
-	"50 Great Games (Europe)": {
-		"languages": "En"
-	},
-	"500 C.C MotoManager (Europe) (En,It)": {
-		"languages": "En,It"
-	},
 	"5th Gear (Europe)": {
-		"languages": "En"
-	},
-	"688 Attack Sub (Europe)": {
 		"languages": "En"
 	},
 	"7 Colors (Europe) (En,Fr,De,Es,It)": {
@@ -74,17 +41,128 @@
 	"9 Lives (Europe)": {
 		"languages": "En"
 	},
-	"A-10 Tank Killer (Europe)": {
+	"10 out of 10 - Early Essentials (Europe)": {
 		"languages": "En"
 	},
-	"A-Train (Germany) (v1.01)": {
+	"10 out of 10 - Essential Science (Europe)": {
+		"languages": "En"
+	},
+	"10 out of 10 - Maths Number (Europe)": {
+		"languages": "En"
+	},
+	"50 Great Games (Europe)": {
+		"languages": "En"
+	},
+	"500 C.C MotoManager (Europe) (En,It)": {
+		"languages": "En,It"
+	},
+	"590 Setup Disk - Seagate Harddisk (Unknown)": {
+		"languages": "En"
+	},
+	"688 Attack Sub (Europe)": {
+		"languages": "En"
+	},
+	"1869 - Erlebte Geschichte Teil I (Germany) (AGA)": {
 		"languages": "De"
+	},
+	"1869 - Erlebte Geschichte Teil I (Germany)": {
+		"languages": "De"
+	},
+	"'Allo 'Allo - Cartoon Fun! (Europe) (Alt)": {
+		"languages": "En"
+	},
+	"'Allo 'Allo - Cartoon Fun! (Europe)": {
+		"languages": "En"
+	},
+	"'Nam 1965-1975 (Europe) (En,Fr,De,It)": {
+		"languages": "En,Fr,De,It"
+	},
+	"[BIOS] Amiga 1000 Bootstrap (USA, Europe) (8k)": {
+		"languages": "En"
+	},
+	"[BIOS] Amiga 1000 Bootstrap (USA, Europe) (64k)": {
+		"languages": "En"
+	},
+	"[BIOS] Kickstart (USA, Europe) (v1.2 Rev 33.180) (A500, A2000)": {
+		"languages": "En"
+	},
+	"[BIOS] Kickstart (USA, Europe) (v1.3 Rev 34.005) (A500, A2000)": {
+		"languages": "En"
+	},
+	"[BIOS] Kickstart (USA, Europe) (v1.4 Rev 36.015) (Beta) (A500, A2000)": {
+		"languages": "En"
+	},
+	"[BIOS] Kickstart (USA, Europe) (v1.4 Rev 36.016) (A3000)": {
+		"languages": "En"
+	},
+	"[BIOS] Kickstart (USA, Europe) (v2.04 Rev 37.175) (A500 Plus, A2000)": {
+		"languages": "En"
+	},
+	"[BIOS] Kickstart (USA, Europe) (v2.04 Rev 37.175) (A3000)": {
+		"languages": "En"
+	},
+	"[BIOS] Kickstart (USA, Europe) (v2.04 Rev 37.175) (Proto) (A500 Plus, A2000)": {
+		"languages": "En"
+	},
+	"[BIOS] Kickstart (USA, Europe) (v2.05 Rev 37.210) (Proto) (A600)": {
+		"languages": "En"
+	},
+	"[BIOS] Kickstart (USA, Europe) (v2.05 Rev 37.299) (A600)": {
+		"languages": "En"
+	},
+	"[BIOS] Kickstart (USA, Europe) (v2.05 Rev 37.300) (A600HD)": {
+		"languages": "En"
+	},
+	"[BIOS] Kickstart (USA, Europe) (v2.05 Rev 37.350) (A600HD)": {
+		"languages": "En"
+	},
+	"[BIOS] Kickstart (USA, Europe) (v3.0 Rev 39.065) (Beta) (A3000)": {
+		"languages": "En"
+	},
+	"[BIOS] Kickstart (USA, Europe) (v3.0 Rev 39.106) (A1200)": {
+		"languages": "En"
+	},
+	"[BIOS] Kickstart (USA, Europe) (v3.0 Rev 39.106) (A4000)": {
+		"languages": "En"
+	},
+	"[BIOS] Kickstart (USA, Europe) (v3.1 Rev 40.055) (Beta) (A3000)": {
+		"languages": "En"
+	},
+	"[BIOS] Kickstart (USA, Europe) (v3.1 Rev 40.063) (A500, A600, A2000)": {
+		"languages": "En"
+	},
+	"[BIOS] Kickstart (USA, Europe) (v3.1 Rev 40.068) (A1200)": {
+		"languages": "En"
+	},
+	"[BIOS] Kickstart (USA, Europe) (v3.1 Rev 40.068) (A3000)": {
+		"languages": "En"
+	},
+	"[BIOS] Kickstart (USA, Europe) (v3.1 Rev 40.068) (A4000)": {
+		"languages": "En"
+	},
+	"[BIOS] Kickstart (USA, Europe) (v3.1 Rev 40.068) (Proto) (A600)": {
+		"languages": "En"
+	},
+	"[BIOS] Kickstart (USA, Europe) (v3.1 Rev 40.070) (A4000)": {
+		"languages": "En"
+	},
+	"[BIOS] Kickstart (USA, Europe) (v3.1 Rev 40.070) (A4000T)": {
+		"languages": "En"
+	},
+	"A320 Airbus Vol. 2 (Europe)": {
+		"languages": "En"
+	},
+	"A-10 Tank Killer (Europe)": {
+		"languages": "En"
 	},
 	"A-Train (Europe) (v1.01)": {
 		"languages": "En"
 	},
 	"A-Train (France) (v1.01)": {
 		"languages": "Fr"
+	},
+	"A-Train (Germany) (v1.01)": {
+		"languages": "De"
 	},
 	"A-Train Construction Set (Europe) (v1.00) (Compilation - Classics - A-Train)": {
 		"languages": "En"
@@ -95,11 +173,11 @@
 	"A.G.E. - Advanced Galactic Empire (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
 	},
-	"A320 Airbus Vol. 2 (Europe)": {
-		"languages": "En"
-	},
 	"AAARGH! (Europe)": {
 		"languages": "En"
+	},
+	"Abandoned Places 2 (Europe) (En,De)": {
+		"languages": "En,De"
 	},
 	"Abandoned Places (Europe) (v1.17) (Demo) (Coverdisk - Amiga Action - Issue 30)": {
 		"languages": "En"
@@ -109,9 +187,6 @@
 	},
 	"Abandoned Places - Zeit fuer Helden (Germany)": {
 		"languages": "De"
-	},
-	"Abandoned Places 2 (Europe) (En,De)": {
-		"languages": "En,De"
 	},
 	"ABC Monday Night Football (USA) (v1.1)": {
 		"languages": "En"
@@ -125,11 +200,11 @@
 	"Accordion (Europe) (v1.1)": {
 		"languages": "En"
 	},
-	"Action Fighter (France) (Compilation - Les Fous du Volant)": {
-		"languages": "Fr"
-	},
 	"Action Fighter (Europe) (Amiga + PC) (Budget - Kixx)": {
 		"languages": "En"
+	},
+	"Action Fighter (France) (Compilation - Les Fous du Volant)": {
+		"languages": "Fr"
 	},
 	"Action Service (Europe) (Compilation - European Dreams)": {
 		"languages": "En"
@@ -188,11 +263,11 @@
 	"Advanced Dungeons & Dragons - Heroes of the Lance - A DragonLance Action Game (Europe) (v1.0)": {
 		"languages": "En"
 	},
-	"Advanced Dungeons & Dragons - Hillsfar - A Forgotten Realms Action Adventure (Germany) (v1.0)": {
-		"languages": "De"
-	},
 	"Advanced Dungeons & Dragons - Hillsfar - A Forgotten Realms Action Adventure (Europe) (v1.0)": {
 		"languages": "En"
+	},
+	"Advanced Dungeons & Dragons - Hillsfar - A Forgotten Realms Action Adventure (Germany) (v1.0)": {
+		"languages": "De"
 	},
 	"Advanced Dungeons & Dragons - Pool of Radiance - A Forgotten Realms Fantasy Role-Playing Epic, Vol.I (Europe) (v1.0)": {
 		"languages": "En"
@@ -200,10 +275,10 @@
 	"Advanced Dungeons & Dragons - Pools of Darkness - A Forgotten Realms Fantasy Role-Playing Epic, Vol.IV (Europe) (v1.0 March 9,1992)": {
 		"languages": "En"
 	},
-	"Advanced Dungeons & Dragons - Secret of the Silver Blades - A Forgotten Realms Fantasy Role-Playing Epic, Vol.III (Europe) (v1.0 June 12,1991)": {
+	"Advanced Dungeons & Dragons - Secret of the Silver Blades - A Forgotten Realms Fantasy Role-Playing Epic, Vol.III (Europe) (v1.0 June 12,1991) (Alt)": {
 		"languages": "En"
 	},
-	"Advanced Dungeons & Dragons - Secret of the Silver Blades - A Forgotten Realms Fantasy Role-Playing Epic, Vol.III (Europe) (v1.0 June 12,1991) (Alt 1)": {
+	"Advanced Dungeons & Dragons - Secret of the Silver Blades - A Forgotten Realms Fantasy Role-Playing Epic, Vol.III (Europe) (v1.0 June 12,1991)": {
 		"languages": "En"
 	},
 	"Advanced Dungeons & Dragons - Shadow Sorcerer - A DragonLance Role-Playing Adventure Vol,1 (Europe) (UK-B 1.0)": {
@@ -218,10 +293,10 @@
 	"Advanced Fruit Machine Simulator (Europe)": {
 		"languages": "En"
 	},
-	"Advanced Ski Simulator (Europe)": {
+	"Advanced Ski Simulator (Europe) (Alt)": {
 		"languages": "En"
 	},
-	"Advanced Ski Simulator (Europe) (Alt 1)": {
+	"Advanced Ski Simulator (Europe)": {
 		"languages": "En"
 	},
 	"Advantage Tennis (Europe) (En,Fr,De)": {
@@ -263,10 +338,10 @@
 	"Aigle d'Or, L' - Le Retour (France)": {
 		"languages": "Fr"
 	},
-	"Air Bucks (Europe) (v1.2)": {
+	"Air Bucks (Europe) (v1.2) (AGA)": {
 		"languages": "En"
 	},
-	"Air Bucks (Europe) (v1.2) (AGA)": {
+	"Air Bucks (Europe) (v1.2)": {
 		"languages": "En"
 	},
 	"Air Support (Europe)": {
@@ -296,16 +371,19 @@
 	"Alert (Europe)": {
 		"languages": "En"
 	},
-	"Alfred Chicken (Europe)": {
+	"Alfred Chicken (Europe) (AGA)": {
 		"languages": "En"
 	},
-	"Alfred Chicken (Europe) (AGA)": {
+	"Alfred Chicken (Europe)": {
 		"languages": "En"
 	},
 	"Alianator (Europe) (Coverdisk - Amiga Fun - Issue 12)": {
 		"languages": "En"
 	},
 	"Alien 3 (Europe)": {
+		"languages": "En"
+	},
+	"Alien Breed 3D (Europe) (AGA)": {
 		"languages": "En"
 	},
 	"Alien Breed (Europe)": {
@@ -318,9 +396,6 @@
 		"languages": "En"
 	},
 	"Alien Breed - Tower Assault (Europe) (v1.1) (OCS, AGA)": {
-		"languages": "En"
-	},
-	"Alien Breed 3D (Europe) (AGA)": {
 		"languages": "En"
 	},
 	"Alien Breed II - The Horror Continues (Europe) (AGA)": {
@@ -386,22 +461,22 @@
 	"Amberstar (Germany) (v1.73)": {
 		"languages": "De"
 	},
-	"Amegas (Europe) (Compilation - TenStar Pack)": {
+	"Amegas (Europe) (Compilation - TenStar Pack) (Alt)": {
 		"languages": "En"
 	},
-	"Amegas (Europe) (Alt 1) (Compilation - TenStar Pack)": {
+	"Amegas (Europe) (Compilation - TenStar Pack)": {
 		"languages": "En"
 	},
 	"American Tag-Team Wrestling (Europe)": {
 		"languages": "En"
 	},
-	"[BIOS] Amiga 1000 Bootstrap (USA, Europe) (8k)": {
-		"languages": "En"
-	},
-	"[BIOS] Amiga 1000 Bootstrap (USA, Europe) (64k)": {
+	"Amiga Appetizer (Unknown)": {
 		"languages": "En"
 	},
 	"Amiga Encounter (Europe)": {
+		"languages": "En"
+	},
+	"Amiga Extras - Amiga Basic (v1.3 - v1.2) (World) (Unknown)": {
 		"languages": "En"
 	},
 	"Amiga Karate (USA)": {
@@ -419,10 +494,10 @@
 	"Ancient Art of War in the Skies, The (Europe) (v1.12)": {
 		"languages": "En"
 	},
-	"Another World (Europe)": {
+	"Another World (Europe) (Compilation - The Delphine Collection)": {
 		"languages": "En"
 	},
-	"Another World (Europe) (Compilation - The Delphine Collection)": {
+	"Another World (Europe)": {
 		"languages": "En"
 	},
 	"Another World (France)": {
@@ -440,19 +515,22 @@
 	"Apache + Overdrive (Europe) (Demo)": {
 		"languages": "En"
 	},
-	"APB (Europe)": {
+	"APB (Europe) (Compilation - Tengen Arcade Hits)": {
 		"languages": "En"
 	},
-	"APB (Europe) (Compilation - Tengen Arcade Hits)": {
+	"APB (Europe)": {
 		"languages": "En"
 	},
 	"APB + Xybots (Europe) (Compilation - TNT)": {
 		"languages": "En"
 	},
+	"Apidya (Europe)": {
+		"languages": "En"
+	},
 	"Apidya (Germany) (En)": {
 		"languages": "En"
 	},
-	"Apidya (Europe)": {
+	"Apidya (Unknown)": {
 		"languages": "En"
 	},
 	"Apocalypse (Europe)": {
@@ -491,43 +569,43 @@
 	"Archipelagos (USA)": {
 		"languages": "En"
 	},
-	"Archon - The Light and the Dark (USA)": {
-		"languages": "En"
-	},
 	"Archon - The Light and the Dark (Europe) (Compilation - The Archon Collection)": {
 		"languages": "En"
 	},
-	"Archon II - Adept (USA)": {
+	"Archon - The Light and the Dark (USA)": {
 		"languages": "En"
 	},
 	"Archon II - Adept (Europe) (Compilation - The Archon Collection)": {
 		"languages": "En"
 	},
+	"Archon II - Adept (USA)": {
+		"languages": "En"
+	},
 	"Arctic Fox (USA)": {
 		"languages": "En"
 	},
-	"Arena (USA)": {
+	"Arena (Europe) (Alt)": {
 		"languages": "En"
 	},
 	"Arena (Europe)": {
 		"languages": "En"
 	},
-	"Arena (Europe) (Alt 1)": {
+	"Arena (USA)": {
 		"languages": "En"
 	},
 	"Arkanoid (Europe) (v1.04 2.28.88)": {
 		"languages": "En"
 	},
-	"Arkanoid (USA) (v1.05 1988-03-31)": {
-		"languages": "En"
-	},
 	"Arkanoid (USA) (v1.05 3.31.88) (AmigaDOS)": {
 		"languages": "En"
 	},
-	"Arkanoid - Revenge of Doh (Europe)": {
+	"Arkanoid (USA) (v1.05 1988-03-31)": {
 		"languages": "En"
 	},
 	"Arkanoid - Revenge of Doh (Europe) (Budget - The Hit Squad)": {
+		"languages": "En"
+	},
+	"Arkanoid - Revenge of Doh (Europe)": {
 		"languages": "En"
 	},
 	"Armada (Europe)": {
@@ -548,10 +626,10 @@
 	"Arnhem - The 'Market Garden' Operation (Europe) (v1.0e)": {
 		"languages": "En"
 	},
-	"Arnie (Europe)": {
+	"Arnie 2 (Europe)": {
 		"languages": "En"
 	},
-	"Arnie 2 (Europe)": {
+	"Arnie (Europe)": {
 		"languages": "En"
 	},
 	"Art of Chess, The (Europe)": {
@@ -596,6 +674,9 @@
 	"Asterix und Operation Hinkelstein (Germany)": {
 		"languages": "De"
 	},
+	"Astro Marine Corps (Spain)": {
+		"languages": "Es"
+	},
 	"Atax (Europe)": {
 		"languages": "En"
 	},
@@ -638,10 +719,10 @@
 	"Aventures de Moktar, Les (France)": {
 		"languages": "Fr"
 	},
-	"Awesome (Europe)": {
+	"Awesome (Europe) (Demo, Promo)": {
 		"languages": "En"
 	},
-	"Awesome (Europe) (Demo, Promo)": {
+	"Awesome (Europe)": {
 		"languages": "En"
 	},
 	"Axe of Rage (USA)": {
@@ -653,29 +734,29 @@
 	"Axel's Magic Hammer + Switchblade (Europe) (Compilation - 16 Bit Hit Machine)": {
 		"languages": "En"
 	},
+	"B17 Flying Fortress (Europe) (En,Fr,De) (v1.02)": {
+		"languages": "En,Fr,De"
+	},
 	"B.A.T. (Europe)": {
 		"languages": "En"
+	},
+	"B.A.T. (France)": {
+		"languages": "Fr"
 	},
 	"B.A.T. (Germany)": {
 		"languages": "De"
 	},
-	"B.A.T. (France)": {
+	"B.A.T. II (Europe)": {
+		"languages": "En"
+	},
+	"B.A.T. II (France)": {
 		"languages": "Fr"
 	},
 	"B.A.T. II (Germany)": {
 		"languages": "De"
 	},
-	"B.A.T. II (France)": {
-		"languages": "Fr"
-	},
-	"B.A.T. II (Europe)": {
-		"languages": "En"
-	},
 	"B.C. Kid (Europe)": {
 		"languages": "En"
-	},
-	"B17 Flying Fortress (Europe) (En,Fr,De) (v1.02)": {
-		"languages": "En,Fr,De"
 	},
 	"Baal (Europe)": {
 		"languages": "En"
@@ -713,10 +794,10 @@
 	"Bad Dudes vs. Dragon Ninja (Europe)": {
 		"languages": "En"
 	},
-	"Badlands (Europe)": {
+	"Badlands (Europe) (Budget - The Hit Squad)": {
 		"languages": "En"
 	},
-	"Badlands (Europe) (Budget - The Hit Squad)": {
+	"Badlands (Europe)": {
 		"languages": "En"
 	},
 	"BadLands + Skull & Crossbones + S.T.U.N. Runner (Europe) (Compilation - TNT 2)": {
@@ -755,25 +836,25 @@
 	"Bar Games (Europe)": {
 		"languages": "En"
 	},
-	"Barbarian (Europe)": {
+	"Barbarian (Europe) (Alt)": {
 		"languages": "En"
 	},
-	"Barbarian (Europe) (Alt 1)": {
+	"Barbarian (Europe)": {
 		"languages": "En"
 	},
 	"Barbarian - The Ultimate Warrior (Europe)": {
 		"languages": "En"
 	},
-	"Barbarian II (Europe) (En,Fr,De,It) (Psygnosis)": {
-		"languages": "En,Fr,De,It"
-	},
 	"Barbarian II (Europe) (Demo, Promo) (Psygnosis)": {
 		"languages": "En"
 	},
-	"Barbarian II (Europe) (Palace) (Compilation - NRJ - La Compil'Action Vol.4)": {
-		"languages": "En"
+	"Barbarian II (Europe) (En,Fr,De,It) (Psygnosis)": {
+		"languages": "En,Fr,De,It"
 	},
 	"Barbarian II (Europe) (Palace) (Compilation - Heroes)": {
+		"languages": "En"
+	},
+	"Barbarian II (Europe) (Palace) (Compilation - NRJ - La Compil'Action Vol.4)": {
 		"languages": "En"
 	},
 	"Barbarian II (Europe) (Palace)": {
@@ -806,19 +887,22 @@
 	"Base Jumpers (Europe)": {
 		"languages": "En"
 	},
-	"Batman (Europe)": {
-		"languages": "En"
-	},
 	"Batman (Europe) (1 Disk)": {
 		"languages": "En"
 	},
 	"Batman (Europe) (Budget - The Hit Squad)": {
 		"languages": "En"
 	},
-	"Batman - The Caped Crusader (Europe)": {
+	"Batman (Europe)": {
+		"languages": "En"
+	},
+	"Batman (Unknown)": {
 		"languages": "En"
 	},
 	"Batman - The Caped Crusader (Europe) (Budget - The Hit Squad)": {
+		"languages": "En"
+	},
+	"Batman - The Caped Crusader (Europe)": {
 		"languages": "En"
 	},
 	"Batman Returns (Europe)": {
@@ -827,10 +911,10 @@
 	"Battle Bound (Europe)": {
 		"languages": "En"
 	},
-	"Battle Chess (Europe)": {
+	"Battle Chess (Europe) (Alt)": {
 		"languages": "En"
 	},
-	"Battle Chess (Europe) (Alt 1)": {
+	"Battle Chess (Europe)": {
 		"languages": "En"
 	},
 	"Battle Chess II - Chinese Chess (Europe)": {
@@ -845,17 +929,20 @@
 	"Battle for the Ashes (Europe)": {
 		"languages": "En"
 	},
-	"Battle Isle (Germany)": {
-		"languages": "De"
-	},
 	"Battle Isle (Europe)": {
 		"languages": "En"
+	},
+	"Battle Isle (Germany)": {
+		"languages": "De"
 	},
 	"Battle Isle - Data Disk I - Air-Land-Sea (Germany) (Addon)": {
 		"languages": "De"
 	},
 	"Battle Isle - Data Disk II - Der Mond von Chromos (Germany)": {
 		"languages": "De"
+	},
+	"Battle Squadron (Unknown)": {
+		"languages": "En"
 	},
 	"Battle Squadron - The Destruction of the Barrax Empire! (Europe)": {
 		"languages": "En"
@@ -866,10 +953,10 @@
 	"Battle Tec (Germany) (Coverdisk - Amiga Special - Issue xx)": {
 		"languages": "De"
 	},
-	"Battle Valley (Europe)": {
+	"Battle Valley (Europe) (v3.0) (Budget - The 16 Bit Pocket Power Collection)": {
 		"languages": "En"
 	},
-	"Battle Valley (Europe) (v3.0) (Budget - The 16 Bit Pocket Power Collection)": {
+	"Battle Valley (Europe)": {
 		"languages": "En"
 	},
 	"Battlehawks 1942 (Europe)": {
@@ -914,11 +1001,11 @@
 	"Beneath a Steel Sky (Europe)": {
 		"languages": "En"
 	},
-	"Beneath a Steel Sky (Germany)": {
-		"languages": "De"
-	},
 	"Beneath a Steel Sky (France)": {
 		"languages": "Fr"
+	},
+	"Beneath a Steel Sky (Germany)": {
+		"languages": "De"
 	},
 	"Benefactor (Europe)": {
 		"languages": "En"
@@ -950,10 +1037,10 @@
 	"Beyond Dark Castle (Europe)": {
 		"languages": "En"
 	},
-	"Beyond the Ice Palace (Europe)": {
+	"Beyond the Ice Palace (Europe) (Budget - Encore)": {
 		"languages": "En"
 	},
-	"Beyond the Ice Palace (Europe) (Budget - Encore)": {
+	"Beyond the Ice Palace (Europe)": {
 		"languages": "En"
 	},
 	"Beyond the Ice Palace + Battleships (Europe) (Compilation - The Story So Far - Vol 1)": {
@@ -968,10 +1055,10 @@
 	"Bi-Fi Roll - SnackZone (Germany) (Promo)": {
 		"languages": "De"
 	},
-	"Big Business (Europe)": {
+	"Big Business (Europe) (Alt)": {
 		"languages": "En"
 	},
-	"Big Business (Europe) (Alt 1)": {
+	"Big Business (Europe)": {
 		"languages": "En"
 	},
 	"Big Run (Europe)": {
@@ -998,10 +1085,10 @@
 	"Billiards Simulator (Europe) (En,Fr,De)": {
 		"languages": "En,Fr,De"
 	},
-	"Bio Challenge (Europe)": {
+	"Bio Challenge (Europe) (Compilation - Light Force)": {
 		"languages": "En"
 	},
-	"Bio Challenge (Europe) (Compilation - Light Force)": {
+	"Bio Challenge (Europe)": {
 		"languages": "En"
 	},
 	"Bionic Commando (Europe)": {
@@ -1013,11 +1100,11 @@
 	"Birds of Prey (Europe)": {
 		"languages": "En"
 	},
-	"Bismarck (France)": {
-		"languages": "Fr"
-	},
 	"Bismarck (Europe)": {
 		"languages": "En"
+	},
+	"Bismarck (France)": {
+		"languages": "Fr"
 	},
 	"Black Cauldron, The (Europe) (v2.00) (HLS)": {
 		"languages": "En"
@@ -1040,10 +1127,10 @@
 	"Black Sect (France)": {
 		"languages": "Fr"
 	},
-	"Black Shadow (Europe)": {
+	"Black Shadow (Europe) (Compilation - Computer Hits - Volume Two)": {
 		"languages": "En"
 	},
-	"Black Shadow (Europe) (Compilation - Computer Hits - Volume Two)": {
+	"Black Shadow (Europe)": {
 		"languages": "En"
 	},
 	"Black Tiger (Europe)": {
@@ -1055,10 +1142,10 @@
 	"Blade (Europe)": {
 		"languages": "En"
 	},
-	"Blade Warrior (Europe)": {
+	"Blade Warrior (Europe) (Budget - Zeppelin Platinum)": {
 		"languages": "En"
 	},
-	"Blade Warrior (Europe) (Budget - Zeppelin Platinum)": {
+	"Blade Warrior (Europe)": {
 		"languages": "En"
 	},
 	"Blastaball (Europe)": {
@@ -1100,13 +1187,13 @@
 	"BloodNet - A Cyberpunk Gothic (Europe)": {
 		"languages": "En"
 	},
-	"Bloodwych (Europe)": {
-		"languages": "En"
-	},
-	"Bloodwych (Europe) (Alt 1)": {
+	"Bloodwych (Europe) (Alt)": {
 		"languages": "En"
 	},
 	"Bloodwych (Europe) (Compilation - The Power Pack)": {
+		"languages": "En"
+	},
+	"Bloodwych (Europe)": {
 		"languages": "En"
 	},
 	"Bloodwych - Data Disks Vol. 1 (Europe) (Addon)": {
@@ -1121,10 +1208,10 @@
 	"Blue Max - Aces of the Great War (Europe)": {
 		"languages": "En"
 	},
-	"Blues Brothers, The (Europe)": {
+	"Blues Brothers, The (Europe) (Alt)": {
 		"languages": "En"
 	},
-	"Blues Brothers, The (Europe) (Alt 1)": {
+	"Blues Brothers, The (Europe)": {
 		"languages": "En"
 	},
 	"BMX Simulator (Europe)": {
@@ -1142,10 +1229,10 @@
 	"Bodo Illgner's Super Soccer (Germany)": {
 		"languages": "De"
 	},
-	"Body Blows (Europe) (v2.0)": {
+	"Body Blows (Europe) (AGA)": {
 		"languages": "En"
 	},
-	"Body Blows (Europe) (AGA)": {
+	"Body Blows (Europe) (v2.0)": {
 		"languages": "En"
 	},
 	"Body Blows Galactic (Europe) (AGA)": {
@@ -1163,13 +1250,13 @@
 	"Bomber Bob (Europe)": {
 		"languages": "En"
 	},
-	"Bombuzal (Europe)": {
-		"languages": "En"
-	},
 	"Bombuzal (Europe) (Compilation - Brainblasters)": {
 		"languages": "En"
 	},
 	"Bombuzal (Europe) (Coverdisk - Amiga Power - Issue 01)": {
+		"languages": "En"
+	},
+	"Bombuzal (Europe)": {
 		"languages": "En"
 	},
 	"Bonanza Bros. (Europe)": {
@@ -1205,6 +1292,9 @@
 	"Bozuma (Germany)": {
 		"languages": "De"
 	},
+	"Brain Blaster (Unknown)": {
+		"languages": "En"
+	},
 	"Brain Blasters (Europe)": {
 		"languages": "En"
 	},
@@ -1223,10 +1313,10 @@
 	"Bravo Romeo Delta (Europe)": {
 		"languages": "En"
 	},
-	"Breach (USA)": {
+	"Breach 2 (Europe) (v2.0)": {
 		"languages": "En"
 	},
-	"Breach 2 (Europe) (v2.0)": {
+	"Breach (USA)": {
 		"languages": "En"
 	},
 	"Breathless (Europe) (AGA)": {
@@ -1235,13 +1325,13 @@
 	"Brian Lara's Cricket (Europe)": {
 		"languages": "En"
 	},
-	"Brian the Lion (Europe)": {
+	"Brian the Lion (Europe) (Demo, Promo)": {
 		"languages": "En"
 	},
 	"Brian the Lion (Europe) (En,Fr,De,It) (AGA)": {
 		"languages": "En,Fr,De,It"
 	},
-	"Brian the Lion (Europe) (Demo, Promo)": {
+	"Brian the Lion (Europe)": {
 		"languages": "En"
 	},
 	"Brides of Dracula (Europe) (En,Fr,De,It)": {
@@ -1277,25 +1367,25 @@
 	"Bubble and Squeak (Europe)": {
 		"languages": "En"
 	},
-	"Bubble Bobble (USA)": {
+	"Bubble Bobble (Europe) (Budget - The Hit Squad)": {
 		"languages": "En"
 	},
 	"Bubble Bobble (Europe) (Compilation - Jatte Hits)": {
 		"languages": "En"
 	},
-	"Bubble Bobble (Europe) (Budget - The Hit Squad)": {
+	"Bubble Bobble (Europe)": {
 		"languages": "En"
 	},
-	"Bubble Bobble (Europe)": {
+	"Bubble Bobble (USA)": {
 		"languages": "En"
 	},
 	"Bubble Dizzy (Europe) (v1.01)": {
 		"languages": "En"
 	},
-	"Bubble Ghost (Europe)": {
+	"Bubble Ghost (Europe) (Compilation - Super Quintet)": {
 		"languages": "En"
 	},
-	"Bubble Ghost (Europe) (Compilation - Super Quintet)": {
+	"Bubble Ghost (Europe)": {
 		"languages": "En"
 	},
 	"Buck Rogers - Countdown to Doomsday - Science Fiction Role-Playing Computer Game, Vol.I (Germany)": {
@@ -1316,14 +1406,14 @@
 	"Bug Bomber (Europe)": {
 		"languages": "En"
 	},
+	"Buggy Boy (Europe) (Compilation - TenStar Pack)": {
+		"languages": "En"
+	},
 	"Buggy Boy (Europe)": {
 		"languages": "En"
 	},
 	"Buggy Boy (France) (Compilation - Les Fous du Volant)": {
 		"languages": "Fr"
-	},
-	"Buggy Boy (Europe) (Compilation - TenStar Pack)": {
-		"languages": "En"
 	},
 	"Builderland (Europe)": {
 		"languages": "En"
@@ -1355,9 +1445,6 @@
 	"Burning Rubber (Europe) (AGA)": {
 		"languages": "En"
 	},
-	"Burntime (Germany)": {
-		"languages": "De"
-	},
 	"Burntime (Europe) (AGA)": {
 		"languages": "En"
 	},
@@ -1365,6 +1452,9 @@
 		"languages": "En"
 	},
 	"Burntime (Germany) (AGA)": {
+		"languages": "De"
+	},
+	"Burntime (Germany)": {
 		"languages": "De"
 	},
 	"Bush Buck - A Global Treasure Hunt (Europe)": {
@@ -1385,10 +1475,10 @@
 	"Cadaver (Europe) (En,Fr,De) (v1.03) (Compilation - The Bitmap Brothers - Volume 1)": {
 		"languages": "En,Fr,De"
 	},
-	"Cadaver - The Payoff (Europe) (En,Fr,De) (Addon)": {
+	"Cadaver + Cadaver - The Payoff (Europe) (En,Fr,De) (v1.03) (Budget - Kixx)": {
 		"languages": "En,Fr,De"
 	},
-	"Cadaver + Cadaver - The Payoff (Europe) (En,Fr,De) (v1.03) (Budget - Kixx)": {
+	"Cadaver - The Payoff (Europe) (En,Fr,De) (Addon)": {
 		"languages": "En,Fr,De"
 	},
 	"Caesar (Europe) (En,Fr,De)": {
@@ -1400,10 +1490,10 @@
 	"Calephar (Europe) (Proto)": {
 		"languages": "En"
 	},
-	"California Games (Europe)": {
+	"California Games (Europe) (Alt)": {
 		"languages": "En"
 	},
-	"California Games (Europe) (Alt 1)": {
+	"California Games (Europe)": {
 		"languages": "En"
 	},
 	"California Games II (Europe)": {
@@ -1415,6 +1505,15 @@
 	"Campaign II - 50 Years of Global Conflict (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
 	},
+	"Cannon Fodder 2 (Europe)": {
+		"languages": "En"
+	},
+	"Cannon Fodder 2 (France)": {
+		"languages": "Fr"
+	},
+	"Cannon Fodder 2 (Germany)": {
+		"languages": "De"
+	},
 	"Cannon Fodder (Europe)": {
 		"languages": "En"
 	},
@@ -1423,15 +1522,6 @@
 	},
 	"Cannon Fodder (Germany)": {
 		"languages": "De"
-	},
-	"Cannon Fodder 2 (Europe)": {
-		"languages": "En"
-	},
-	"Cannon Fodder 2 (Germany)": {
-		"languages": "De"
-	},
-	"Cannon Fodder 2 (France)": {
-		"languages": "Fr"
 	},
 	"Cannon Fodder Plus! (Europe) (Coverdisk - Amiga Power - Issue 31)": {
 		"languages": "En"
@@ -1469,10 +1559,10 @@
 	"Captive (Europe) (1MB)": {
 		"languages": "En"
 	},
-	"Captive (Europe)": {
+	"Captive (Europe) (v1.2)": {
 		"languages": "En"
 	},
-	"Captive (Europe) (v1.2)": {
+	"Captive (Europe)": {
 		"languages": "En"
 	},
 	"Captive II - Liberation (Europe) (OCS, AGA)": {
@@ -1481,10 +1571,10 @@
 	"Carcharodon - White Sharks (Europe)": {
 		"languages": "En"
 	},
-	"Cardiaxx (Europe)": {
+	"Cardiaxx (Europe) (Budget - Team 17)": {
 		"languages": "En"
 	},
-	"Cardiaxx (Europe) (Budget - Team 17)": {
+	"Cardiaxx (Europe)": {
 		"languages": "En"
 	},
 	"Carl Lewis Challenge, The (Europe)": {
@@ -1493,13 +1583,13 @@
 	"Carlos (Europe) (En,Fr,De)": {
 		"languages": "En,Fr,De"
 	},
-	"Carrier Command (Europe) (vA1.2 1988-08-19)": {
-		"languages": "En"
-	},
 	"Carrier Command (Europe) (Compilation - Virtual Reality - Vol. 1)": {
 		"languages": "En"
 	},
 	"Carrier Command (Europe) (v13.08.90) (Budget - Mirror Image)": {
+		"languages": "En"
+	},
+	"Carrier Command (Europe) (vA1.2 1988-08-19)": {
 		"languages": "En"
 	},
 	"Carthage (Europe)": {
@@ -1511,10 +1601,10 @@
 	"CarVup (Europe)": {
 		"languages": "En"
 	},
-	"Castle Master (Europe) (En,Fr,De)": {
+	"Castle Master (Europe) (En,Fr,De) (Budget - The Hit Squad)": {
 		"languages": "En,Fr,De"
 	},
-	"Castle Master (Europe) (En,Fr,De) (Budget - The Hit Squad)": {
+	"Castle Master (Europe) (En,Fr,De)": {
 		"languages": "En,Fr,De"
 	},
 	"Castle Master + Castle Master II - The Crypt (Europe)": {
@@ -1529,11 +1619,11 @@
 	"Castle Warrior (Europe)": {
 		"languages": "En"
 	},
-	"Castles (Germany)": {
-		"languages": "De"
-	},
 	"Castles (Europe)": {
 		"languages": "En"
+	},
+	"Castles (Germany)": {
+		"languages": "De"
 	},
 	"Catch'em (Europe)": {
 		"languages": "En"
@@ -1571,10 +1661,10 @@
 	"Chamber of the Sci-Mutant Priestess (USA)": {
 		"languages": "En"
 	},
-	"Chambers of Shaolin (Europe)": {
+	"Chambers of Shaolin (Europe) (Compilation - The First Year)": {
 		"languages": "En"
 	},
-	"Chambers of Shaolin (Europe) (Compilation - The First Year)": {
+	"Chambers of Shaolin (Europe)": {
 		"languages": "En"
 	},
 	"Chamonix Challenge (Europe) (Compilation - Super Quintet)": {
@@ -1598,10 +1688,13 @@
 	"Championship Cricket (Europe)": {
 		"languages": "En"
 	},
+	"Championship Golf - The Great Courses of the World - Volume I - Pebble Beach (Europe) (Budget - Prism Leisure)": {
+		"languages": "En"
+	},
 	"Championship Golf - The Great Courses of the World - Volume I - Pebble Beach (Europe)": {
 		"languages": "En"
 	},
-	"Championship Golf - The Great Courses of the World - Volume I - Pebble Beach (Europe) (Budget - Prism Leisure)": {
+	"Championship Manager 2 + Season 96-97 Updates (Europe) (v1.57) (ECS)": {
 		"languages": "En"
 	},
 	"Championship Manager '93 (Europe)": {
@@ -1613,25 +1706,22 @@
 	"Championship Manager '94 Season Disk - End of Season '93-'94 (Europe) (Data Update Disk) (Addon)": {
 		"languages": "En"
 	},
-	"Championship Manager 2 + Season 96-97 Updates (Europe) (v1.57) (ECS)": {
-		"languages": "En"
-	},
 	"Championship Manager Italia (Europe)": {
 		"languages": "En"
 	},
 	"Championship Run (Europe)": {
 		"languages": "En"
 	},
-	"Chaos Engine 2, The (Europe)": {
-		"languages": "En"
-	},
 	"Chaos Engine 2, The (Europe) (AGA)": {
 		"languages": "En"
 	},
-	"Chaos Engine, The (Europe)": {
+	"Chaos Engine 2, The (Europe)": {
 		"languages": "En"
 	},
 	"Chaos Engine, The (Europe) (AGA)": {
+		"languages": "En"
+	},
+	"Chaos Engine, The (Europe)": {
 		"languages": "En"
 	},
 	"Chaos in Andromeda - Eyes of the Eagle (Europe)": {
@@ -1643,10 +1733,13 @@
 	"Charon 5 (Europe)": {
 		"languages": "En"
 	},
-	"Chase H.Q. (Europe)": {
+	"Charon 5 (Unknown)": {
 		"languages": "En"
 	},
 	"Chase H.Q. (Europe) (Budget - Kixx)": {
+		"languages": "En"
+	},
+	"Chase H.Q. (Europe)": {
 		"languages": "En"
 	},
 	"Chase H.Q. + Hard Drivin' (Europe) (Compilation - Wheels of Fire - The Ultimate Driving Compilation)": {
@@ -1655,14 +1748,14 @@
 	"Chase H.Q. II - Special Criminal Investigation (Europe)": {
 		"languages": "En"
 	},
-	"Chess Player 2150 (Germany)": {
-		"languages": "De"
-	},
 	"Chess Player 2150 (Europe) (Compilation - Arcade Action)": {
 		"languages": "En"
 	},
 	"Chess Player 2150 (Europe) (En,Fr,De)": {
 		"languages": "En,Fr,De"
+	},
+	"Chess Player 2150 (Germany)": {
+		"languages": "De"
 	},
 	"Chess Simulator (Europe) (En,Fr)": {
 		"languages": "En,Fr"
@@ -1685,28 +1778,28 @@
 	"Chip's Challenge (USA)": {
 		"languages": "En"
 	},
-	"Christoph Kolumbus (Germany)": {
+	"Christoph Kolumbus (Germany) (AGA)": {
 		"languages": "De"
 	},
-	"Christoph Kolumbus (Germany) (AGA)": {
+	"Christoph Kolumbus (Germany)": {
 		"languages": "De"
 	},
 	"Chronicles of Omega, The (Europe)": {
 		"languages": "En"
 	},
-	"Chrono Quest (Germany)": {
-		"languages": "De"
-	},
 	"Chrono Quest (Europe)": {
 		"languages": "En"
+	},
+	"Chrono Quest (Germany)": {
+		"languages": "De"
 	},
 	"Chrono Quest II (Europe)": {
 		"languages": "En"
 	},
-	"Chuck Rock (Europe)": {
+	"Chuck Rock 2 - Son of Chuck (Europe)": {
 		"languages": "En"
 	},
-	"Chuck Rock 2 - Son of Chuck (Europe)": {
+	"Chuck Rock (Europe)": {
 		"languages": "En"
 	},
 	"Chuck Yeager's Advanced Flight Trainer 2.0 (Europe) (En,Fr,De,It)": {
@@ -1718,10 +1811,10 @@
 	"Chuckie Egg II (Europe)": {
 		"languages": "En"
 	},
-	"Circus Attractions (Europe)": {
+	"Circus Attractions (Europe) (Compilation - Milestones)": {
 		"languages": "En"
 	},
-	"Circus Attractions (Europe) (Compilation - Milestones)": {
+	"Circus Attractions (Europe)": {
 		"languages": "En"
 	},
 	"Cisco Heat (Europe)": {
@@ -1733,20 +1826,20 @@
 	"City Defence + Karate King (Europe) (Compilation - Sextett)": {
 		"languages": "En"
 	},
-	"Civilization (Germany) (v855.01)": {
-		"languages": "De"
-	},
-	"Civilization (Germany) (v855.04)": {
-		"languages": "De"
-	},
 	"Civilization (Europe) (v855.01)": {
+		"languages": "En"
+	},
+	"Civilization (Europe) (v855.04) (Compilation - Award Winners - Platinum Edition)": {
 		"languages": "En"
 	},
 	"Civilization (Europe) (v855e.01) (AGA)": {
 		"languages": "En"
 	},
-	"Civilization (Europe) (v855.04) (Compilation - Award Winners - Platinum Edition)": {
-		"languages": "En"
+	"Civilization (Germany) (v855.01)": {
+		"languages": "De"
+	},
+	"Civilization (Germany) (v855.04)": {
+		"languages": "De"
 	},
 	"CJ in the USA (Europe)": {
 		"languages": "En"
@@ -1763,10 +1856,10 @@
 	"Cliffhanger (Europe)": {
 		"languages": "En"
 	},
-	"Clockwiser (Europe)": {
+	"Clockwiser (Europe) (AGA)": {
 		"languages": "En"
 	},
-	"Clockwiser (Europe) (AGA)": {
+	"Clockwiser (Europe)": {
 		"languages": "En"
 	},
 	"Clou!, Der (Germany) (AGA)": {
@@ -1774,6 +1867,9 @@
 	},
 	"Clou!, Der (Germany)": {
 		"languages": "De"
+	},
+	"Cloud Kingdoms (Unknown)": {
+		"languages": "En"
 	},
 	"Cloud Kingdoms + Kid Gloves (Europe) (Demo)": {
 		"languages": "En"
@@ -1817,10 +1913,10 @@
 	"Colony, The (Europe)": {
 		"languages": "En"
 	},
-	"Colorado (Europe) (En,De)": {
+	"Colorado (Europe) (En,De) (Alt)": {
 		"languages": "En,De"
 	},
-	"Colorado (Europe) (En,De) (Alt 1)": {
+	"Colorado (Europe) (En,De)": {
 		"languages": "En,De"
 	},
 	"Colossus Bridge 4 (Europe)": {
@@ -1835,10 +1931,10 @@
 	"Combat Course (USA) (v1.4)": {
 		"languages": "En"
 	},
-	"Combo Racer (Europe)": {
+	"Combo Racer (Europe) (Budget - GBH)": {
 		"languages": "En"
 	},
-	"Combo Racer (Europe) (Budget - GBH)": {
+	"Combo Racer (Europe)": {
 		"languages": "En"
 	},
 	"Commando (Europe)": {
@@ -1862,13 +1958,13 @@
 	"Conflict - Middle East - Arab-Israeli Wars - 1973-x (USA)": {
 		"languages": "En"
 	},
-	"Conqueror (Europe) (En,De)": {
+	"Conqueror (Europe) (En,De) (Budget - Kixx)": {
 		"languages": "En,De"
 	},
 	"Conqueror (Europe) (En,De) (Compilation - Mega Box)": {
 		"languages": "En,De"
 	},
-	"Conqueror (Europe) (En,De) (Budget - Kixx)": {
+	"Conqueror (Europe) (En,De)": {
 		"languages": "En,De"
 	},
 	"Conquests of Camelot - The Search for the Grail (Europe) (v1.009)": {
@@ -1886,10 +1982,10 @@
 	"Cool World (Europe)": {
 		"languages": "En"
 	},
-	"Corporation (Europe)": {
+	"Corporation (Europe) (Alt)": {
 		"languages": "En"
 	},
-	"Corporation (Europe) (Alt 1)": {
+	"Corporation (Europe)": {
 		"languages": "En"
 	},
 	"Corporation - Mission Disk (Europe) (Addon)": {
@@ -1925,11 +2021,11 @@
 	"Cover Girl Poker (Europe) (En,Fr,De,It)": {
 		"languages": "En,Fr,De,It"
 	},
-	"Covert Action (Germany) (v447.101)": {
-		"languages": "De"
-	},
 	"Covert Action (Europe) (v447.101)": {
 		"languages": "En"
+	},
+	"Covert Action (Germany) (v447.101)": {
+		"languages": "De"
 	},
 	"Crack (Europe)": {
 		"languages": "En"
@@ -1943,13 +2039,13 @@
 	"Crash Garrett (USA)": {
 		"languages": "En"
 	},
-	"Crazy Cars (Europe)": {
+	"Crazy Cars 3 (Europe)": {
 		"languages": "En"
 	},
 	"Crazy Cars (Europe) (Compilation - Action d'Enfer)": {
 		"languages": "En"
 	},
-	"Crazy Cars 3 (Europe)": {
+	"Crazy Cars (Europe)": {
 		"languages": "En"
 	},
 	"Crazy Cars II (Europe)": {
@@ -1997,14 +2093,14 @@
 	"Crown (Europe)": {
 		"languages": "En"
 	},
+	"Cruise for a Corpse (Europe) (Compilation - The Delphine Collection)": {
+		"languages": "En"
+	},
 	"Cruise for a Corpse (Europe)": {
 		"languages": "En"
 	},
 	"Cruise for a Corpse (Germany)": {
 		"languages": "De"
-	},
-	"Cruise for a Corpse (Europe) (Compilation - The Delphine Collection)": {
-		"languages": "En"
 	},
 	"Crystal Dragon (Europe)": {
 		"languages": "En"
@@ -2039,10 +2135,10 @@
 	"Cyber World (Europe)": {
 		"languages": "En"
 	},
-	"Cyberball (Europe)": {
+	"Cyberball (Europe) (Compilation - Winning Team)": {
 		"languages": "En"
 	},
-	"Cyberball (Europe) (Compilation - Winning Team)": {
+	"Cyberball (Europe)": {
 		"languages": "En"
 	},
 	"Cyberblast (Europe)": {
@@ -2093,10 +2189,10 @@
 	"Dalek Attack (Europe)": {
 		"languages": "En"
 	},
-	"Daley Thompson's Olympic Challenge (Europe)": {
+	"Daley Thompson's Olympic Challenge (Europe) (Budget - The Hit Squad)": {
 		"languages": "En"
 	},
-	"Daley Thompson's Olympic Challenge (Europe) (Budget - The Hit Squad)": {
+	"Daley Thompson's Olympic Challenge (Europe)": {
 		"languages": "En"
 	},
 	"Damocles - Mercenary II (Europe)": {
@@ -2117,10 +2213,10 @@
 	"Danger Freak (Europe)": {
 		"languages": "En"
 	},
-	"Dangerous Streets (Europe)": {
+	"Dangerous Streets (Europe) (AGA)": {
 		"languages": "En"
 	},
-	"Dangerous Streets (Europe) (AGA)": {
+	"Dangerous Streets (Europe)": {
 		"languages": "En"
 	},
 	"Darius+ (Europe)": {
@@ -2137,6 +2233,9 @@
 	},
 	"Dark Fusion + Steel + Turbo Trax (Europe) (Compilation - Turbo Pack)": {
 		"languages": "En"
+	},
+	"Dark Seed (Spain)": {
+		"languages": "Es"
 	},
 	"Dark Side (Europe)": {
 		"languages": "En"
@@ -2156,23 +2255,23 @@
 	"Darkseed (Europe)": {
 		"languages": "En"
 	},
+	"Datastorm (Europe) (Compilation - Astra Pack)": {
+		"languages": "En"
+	},
 	"Datastorm (Europe)": {
 		"languages": "En"
 	},
-	"Datastorm (Europe) (Compilation - Astra Pack)": {
+	"Dawn Patrol (Europe)": {
 		"languages": "En"
 	},
 	"Dawn Patrol (Germany)": {
 		"languages": "De"
 	},
-	"Dawn Patrol (Europe)": {
+	"Day of the Pharaoh (Europe)": {
 		"languages": "En"
 	},
 	"Day of the Pharaoh (Germany)": {
 		"languages": "De"
-	},
-	"Day of the Pharaoh (Europe)": {
-		"languages": "En"
 	},
 	"Day of the Viper (Europe)": {
 		"languages": "En"
@@ -2204,10 +2303,10 @@
 	"Deep Core (Europe)": {
 		"languages": "En"
 	},
-	"Deep Space (USA) (v1.00a)": {
+	"Deep Space (Europe) (v1.00a)": {
 		"languages": "En"
 	},
-	"Deep Space (Europe) (v1.00a)": {
+	"Deep Space (USA) (v1.00a)": {
 		"languages": "En"
 	},
 	"Deep, The (Europe)": {
@@ -2240,10 +2339,10 @@
 	"Deluxe Monopoly (Europe) (Compilation - Board Genius)": {
 		"languages": "En"
 	},
-	"Deluxe Strip Poker (Europe)": {
+	"Deluxe Strip Poker 2 (Europe)": {
 		"languages": "En"
 	},
-	"Deluxe Strip Poker 2 (Europe)": {
+	"Deluxe Strip Poker (Europe)": {
 		"languages": "En"
 	},
 	"Demolition (Europe)": {
@@ -2261,25 +2360,28 @@
 	"Demoniak (Europe) (v1.0)": {
 		"languages": "En"
 	},
-	"Denaris (Europe)": {
+	"Denaris (Europe) (Compilation - 5th Anniversary)": {
 		"languages": "En"
 	},
-	"Denaris (Europe) (Compilation - 5th Anniversary)": {
+	"Denaris (Europe)": {
 		"languages": "En"
 	},
 	"Dennis (Europe) (AGA) (Amiga 1200 Bundle - Desktop Dynamite)": {
 		"languages": "En"
 	},
-	"Dennis (Europe)": {
+	"Dennis (Europe) (AGA)": {
 		"languages": "En"
 	},
-	"Dennis (Europe) (AGA)": {
+	"Dennis (Europe)": {
 		"languages": "En"
 	},
 	"Denver Presente - Je Decouvre les Couleurs (France)": {
 		"languages": "Fr"
 	},
 	"Desert Strike - Return to the Gulf (Europe)": {
+		"languages": "En"
+	},
+	"Desktop Budget (Unknown)": {
 		"languages": "En"
 	},
 	"Destroyer (Europe)": {
@@ -2315,22 +2417,22 @@
 	"Dingsda (Germany)": {
 		"languages": "De"
 	},
-	"Dino Wars (Germany)": {
-		"languages": "De"
-	},
 	"Dino Wars (Europe)": {
 		"languages": "En"
 	},
-	"Dinosaur Detective Agency (Europe)": {
-		"languages": "En"
+	"Dino Wars (Germany)": {
+		"languages": "De"
 	},
-	"Disc (Europe)": {
+	"Dinosaur Detective Agency (Europe)": {
 		"languages": "En"
 	},
 	"Disc (Europe) (Budget - Action Sixteen)": {
 		"languages": "En"
 	},
 	"Disc (Europe) (Compilation - Podium)": {
+		"languages": "En"
+	},
+	"Disc (Europe)": {
 		"languages": "En"
 	},
 	"Discovery - In the Steps of Columbus (Europe) (En,Fr,De,Es,It)": {
@@ -2387,16 +2489,16 @@
 	"Doofus (Europe)": {
 		"languages": "En"
 	},
-	"Double Dragon (Europe)": {
-		"languages": "En"
-	},
 	"Double Dragon (Europe) (v2.16)": {
 		"languages": "En"
 	},
-	"Double Dragon II - The Revenge (Europe) (v4.01) (OCS, ECS)": {
+	"Double Dragon (Europe)": {
 		"languages": "En"
 	},
 	"Double Dragon II - The Revenge (Europe) (v3.84)": {
+		"languages": "En"
+	},
+	"Double Dragon II - The Revenge (Europe) (v4.01) (OCS, ECS)": {
 		"languages": "En"
 	},
 	"Double Dragon II - The Revenge (USA) (v4.16ecs)": {
@@ -2426,25 +2528,25 @@
 	"Dragon Lord (USA)": {
 		"languages": "En"
 	},
+	"Dragon Spirit (Europe) (Compilation - TNT)": {
+		"languages": "En"
+	},
 	"Dragon Spirit (Europe)": {
 		"languages": "En"
 	},
-	"Dragon Spirit (Europe) (Compilation - TNT)": {
+	"Dragon Wars (Europe) (v1.2)": {
 		"languages": "En"
 	},
 	"Dragon Wars (Germany) (v1.2-G)": {
 		"languages": "De"
 	},
-	"Dragon Wars (Europe) (v1.2)": {
-		"languages": "En"
-	},
 	"Dragon's Lair (Europe)": {
 		"languages": "En"
 	},
-	"Dragon's Lair - Escape from Singe's Castle (Europe)": {
+	"Dragon's Lair - Escape from Singe's Castle (Europe) (Alt)": {
 		"languages": "En"
 	},
-	"Dragon's Lair - Escape from Singe's Castle (Europe) (Alt 1)": {
+	"Dragon's Lair - Escape from Singe's Castle (Europe)": {
 		"languages": "En"
 	},
 	"Dragon's Lair II - Time Warp (Europe)": {
@@ -2453,56 +2555,56 @@
 	"Dragon's Lair III - The Curse of Mordread (Europe)": {
 		"languages": "En"
 	},
-	"Dragonflight (Germany)": {
-		"languages": "De"
-	},
 	"Dragonflight (Europe)": {
 		"languages": "En"
 	},
 	"Dragonflight (France)": {
 		"languages": "Fr"
 	},
-	"Dragonflight (Germany) (Alt - 0058)": {
+	"Dragonflight (Germany) (0058) (Alt)": {
+		"languages": "De"
+	},
+	"Dragonflight (Germany)": {
 		"languages": "De"
 	},
 	"Dragons Breath (Europe)": {
 		"languages": "En"
 	},
-	"Dragons Breath (Germany)": {
-		"languages": "De"
-	},
-	"Dragons Breath (Germany) (Alt 1)": {
-		"languages": "De"
-	},
 	"Dragons Breath (France) (Compilation - Magic Worlds)": {
 		"languages": "Fr"
+	},
+	"Dragons Breath (Germany) (Alt)": {
+		"languages": "De"
+	},
+	"Dragons Breath (Germany)": {
+		"languages": "De"
 	},
 	"Dragonstone (Europe) (En,Fr,De)": {
 		"languages": "En,Fr,De"
 	},
-	"Drakkhen (Germany)": {
-		"languages": "De"
-	},
 	"Drakkhen (Europe) (v1.1)": {
-		"languages": "En"
-	},
-	"Drakkhen (USA) (v1.1)": {
 		"languages": "En"
 	},
 	"Drakkhen (France)": {
 		"languages": "Fr"
 	},
-	"Dreadnoughts (Europe) (v1.11)": {
-		"languages": "En"
-	},
-	"DreamWeb (Germany)": {
+	"Drakkhen (Germany)": {
 		"languages": "De"
 	},
-	"DreamWeb (Europe)": {
+	"Drakkhen (USA) (v1.1)": {
+		"languages": "En"
+	},
+	"Dreadnoughts (Europe) (v1.11)": {
 		"languages": "En"
 	},
 	"DreamWeb (Europe) (AGA)": {
 		"languages": "En"
+	},
+	"DreamWeb (Europe)": {
+		"languages": "En"
+	},
+	"DreamWeb (Germany)": {
+		"languages": "De"
 	},
 	"Driller (Europe) (Budget - Kixx)": {
 		"languages": "En"
@@ -2513,35 +2615,35 @@
 	"Driller + Total Eclipse (Europe) (Compilation - Virtual Worlds)": {
 		"languages": "En"
 	},
-	"Drivin' Force (Europe)": {
+	"Drivin' Force (Europe) (1504) (Alt)": {
 		"languages": "En"
 	},
 	"Drivin' Force (Europe) (Compilation - Powerplay)": {
 		"languages": "En"
 	},
-	"Drivin' Force (Europe) (Alt - 1504)": {
+	"Drivin' Force (Europe)": {
 		"languages": "En"
 	},
 	"Drole d'Ecole (France)": {
 		"languages": "Fr"
 	},
-	"DuckTales - The Quest for Gold (Europe)": {
+	"DuckTales - The Quest for Gold (Europe) (0299) (Alt)": {
 		"languages": "En"
 	},
-	"DuckTales - The Quest for Gold (Europe) (Alt - 0299)": {
+	"DuckTales - The Quest for Gold (Europe)": {
 		"languages": "En"
 	},
 	"Dugger - Starring Herbie Stone (Europe)": {
 		"languages": "En"
-	},
-	"Dune (Germany)": {
-		"languages": "De"
 	},
 	"Dune (Europe)": {
 		"languages": "En"
 	},
 	"Dune (France)": {
 		"languages": "Fr"
+	},
+	"Dune (Germany)": {
+		"languages": "De"
 	},
 	"Dune (Italy)": {
 		"languages": "It"
@@ -2570,12 +2672,6 @@
 	"Dungeons, Amethysts, Alchemists 'n' Everythin' (Europe)": {
 		"languages": "En"
 	},
-	"Dylan Dog 12 - Il Lungo Addio (Italy)": {
-		"languages": "It"
-	},
-	"Dylan Dog 13 - I Killers Venuti dal Buio (Italy)": {
-		"languages": "It"
-	},
 	"Dylan Dog 2 - Ritorno al Crepuscolo (Italy)": {
 		"languages": "It"
 	},
@@ -2591,13 +2687,19 @@
 	"Dylan Dog 6 - Maelstrom (Italy)": {
 		"languages": "It"
 	},
+	"Dylan Dog 12 - Il Lungo Addio (Italy)": {
+		"languages": "It"
+	},
+	"Dylan Dog 13 - I Killers Venuti dal Buio (Italy)": {
+		"languages": "It"
+	},
 	"Dyna Blaster (Europe)": {
 		"languages": "En"
 	},
-	"Dynamite Dux (Europe)": {
+	"Dynamite Dux (Europe) (Compilation - Sega Master Mix)": {
 		"languages": "En"
 	},
-	"Dynamite Dux (Europe) (Compilation - Sega Master Mix)": {
+	"Dynamite Dux (Europe)": {
 		"languages": "En"
 	},
 	"Dynasty Wars (Europe)": {
@@ -2663,23 +2765,23 @@
 	"Eliminator (Europe)": {
 		"languages": "En"
 	},
-	"Elite (Europe)": {
+	"Elite (Europe) (v2.0) (Compilation - Space Legends)": {
 		"languages": "En"
 	},
 	"Elite (Europe) (v2.0)": {
 		"languages": "En"
 	},
-	"Elite (Europe) (v2.0) (Compilation - Space Legends)": {
+	"Elite (Europe)": {
 		"languages": "En"
 	},
 	"Elvira - Mistress of the Dark (Europe)": {
 		"languages": "En"
 	},
-	"Elvira - Mistress of the Dark (Germany)": {
-		"languages": "De"
-	},
 	"Elvira - Mistress of the Dark (France)": {
 		"languages": "Fr"
+	},
+	"Elvira - Mistress of the Dark (Germany)": {
+		"languages": "De"
 	},
 	"Elvira II - The Jaws of Cerberus (Europe)": {
 		"languages": "En"
@@ -2693,13 +2795,13 @@
 	"Embryo (Europe) (En,Fr,Hr)": {
 		"languages": "En,Fr,Hr"
 	},
-	"Emerald Mine (Europe)": {
+	"Emerald Mine 3 - Professional (Europe) (Alt)": {
 		"languages": "En"
 	},
 	"Emerald Mine 3 - Professional (Europe)": {
 		"languages": "En"
 	},
-	"Emerald Mine 3 - Professional (Europe) (Alt 1)": {
+	"Emerald Mine (Europe)": {
 		"languages": "En"
 	},
 	"Emerald Mine II (Europe)": {
@@ -2708,11 +2810,11 @@
 	"Emlyn Hughes International Soccer (Europe)": {
 		"languages": "En"
 	},
-	"Emmanuelle (Germany)": {
-		"languages": "De"
-	},
 	"Emmanuelle (France)": {
 		"languages": "Fr"
+	},
+	"Emmanuelle (Germany)": {
+		"languages": "De"
 	},
 	"Empire Soccer '94 (Europe)": {
 		"languages": "En"
@@ -2741,10 +2843,10 @@
 	"Entity (Europe)": {
 		"languages": "En"
 	},
-	"Epic (Europe)": {
+	"Epic (Europe) (ECS) (Amiga 600 HD Bundles - Epic + Language Lab)": {
 		"languages": "En"
 	},
-	"Epic (Europe) (ECS) (Amiga 600 HD Bundles - Epic + Language Lab)": {
+	"Epic (Europe)": {
 		"languages": "En"
 	},
 	"Equality (Europe)": {
@@ -2762,10 +2864,10 @@
 	"Escape from Colditz (Europe)": {
 		"languages": "En"
 	},
-	"Escape from the Planet of the Robot Monsters (Europe)": {
+	"Escape from the Planet of the Robot Monsters (Europe) (Compilation - Tengen Arcade Hits)": {
 		"languages": "En"
 	},
-	"Escape from the Planet of the Robot Monsters (Europe) (Compilation - Tengen Arcade Hits)": {
+	"Escape from the Planet of the Robot Monsters (Europe)": {
 		"languages": "En"
 	},
 	"Eskimo Games (Europe)": {
@@ -2780,11 +2882,11 @@
 	"ESWAT (Europe) (Compilation - Super Sega)": {
 		"languages": "En"
 	},
-	"Euro Soccer (Europe)": {
-		"languages": "En"
-	},
 	"Euro Soccer '88 (Germany)": {
 		"languages": "De"
+	},
+	"Euro Soccer (Europe)": {
+		"languages": "En"
 	},
 	"European Champions (Europe)": {
 		"languages": "En"
@@ -2810,10 +2912,10 @@
 	"Excellent Card Games (Europe)": {
 		"languages": "En"
 	},
-	"Exile (Europe) (En,Fr,De)": {
+	"Exile (Europe) (En,Fr,De) (AGA)": {
 		"languages": "En,Fr,De"
 	},
-	"Exile (Europe) (En,Fr,De) (AGA)": {
+	"Exile (Europe) (En,Fr,De)": {
 		"languages": "En,Fr,De"
 	},
 	"Exile - Discovery Disk (Europe) (En,Fr,De) (AGA) (Addon)": {
@@ -2822,10 +2924,10 @@
 	"Exodus 3010 - The First Chapter (Germany)": {
 		"languages": "De"
 	},
-	"Exolon (Europe)": {
+	"Exolon (Europe) (Budget - Black Edition)": {
 		"languages": "En"
 	},
-	"Exolon (Europe) (Budget - Black Edition)": {
+	"Exolon (Europe)": {
 		"languages": "En"
 	},
 	"Explora II (France)": {
@@ -2840,28 +2942,13 @@
 	"Exterminator (Europe)": {
 		"languages": "En"
 	},
-	"Eye of Horus (Europe)": {
+	"Extras (Unknown) (v2.05)": {
 		"languages": "En"
 	},
 	"Eye of Horus (Europe) (Budget - The 16 Bit Pocket Power Collection)": {
 		"languages": "En"
 	},
-	"F-15 Strike Eagle II (Europe)": {
-		"languages": "En"
-	},
-	"F-16 Combat Pilot (Europe)": {
-		"languages": "En"
-	},
-	"F-19 Stealth Fighter (Europe)": {
-		"languages": "En"
-	},
-	"F-19 Stealth Fighter (USA)": {
-		"languages": "En"
-	},
-	"F-19 Stealth Fighter (Europe) (Compilation - Combat Classics 2)": {
-		"languages": "En"
-	},
-	"F-29 Retaliator (Europe)": {
+	"Eye of Horus (Europe)": {
 		"languages": "En"
 	},
 	"F1 (Europe)": {
@@ -2876,28 +2963,58 @@
 	"F17 Challenge (Europe)": {
 		"languages": "En"
 	},
+	"F-15 Strike Eagle II (Europe)": {
+		"languages": "En"
+	},
+	"F-16 Combat Pilot (Europe)": {
+		"languages": "En"
+	},
+	"F-19 Stealth Fighter (Europe) (Compilation - Combat Classics 2)": {
+		"languages": "En"
+	},
+	"F-19 Stealth Fighter (Europe)": {
+		"languages": "En"
+	},
+	"F-19 Stealth Fighter (USA)": {
+		"languages": "En"
+	},
+	"F-29 Retaliator (Europe)": {
+		"languages": "En"
+	},
+	"F-A 18 Interceptor (Unknown)": {
+		"languages": "En"
+	},
 	"FA-18 Interceptor (Europe)": {
 		"languages": "En"
 	},
-	"Face-Off Ice Hockey (Europe) (En,Fr,De,Es,It)": {
+	"Face-Off Ice Hockey (Europe) (En,Fr,De,Es,It) (1670) (Alt)": {
 		"languages": "En,Fr,De,Es,It"
 	},
-	"Face-Off Ice Hockey (Europe) (En,Fr,De,Es,It) (Alt - 1670)": {
+	"Face-Off Ice Hockey (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
 	},
 	"Faery Tale Adventure, The (Europe)": {
 		"languages": "En"
 	},
+	"Falcon (Alt 2) (Unknown)": {
+		"languages": "En"
+	},
+	"Falcon (Alt) (Unknown)": {
+		"languages": "En"
+	},
 	"Falcon (Europe) (v1.00)": {
 		"languages": "En"
 	},
-	"Falcon (USA) (v1.1)": {
+	"Falcon (Europe) (v1.1)": {
+		"languages": "En"
+	},
+	"Falcon (Unknown)": {
 		"languages": "En"
 	},
 	"Falcon (USA) (v1.00)": {
 		"languages": "En"
 	},
-	"Falcon (Europe) (v1.1)": {
+	"Falcon (USA) (v1.1)": {
 		"languages": "En"
 	},
 	"Falcon - Mission Disk Vol. 1 (Europe) (Addon)": {
@@ -2939,14 +3056,14 @@
 	"Fatal Heritage (Germany)": {
 		"languages": "De"
 	},
-	"Fate - Gates of Dawn (Germany) (v1.7)": {
-		"languages": "De"
+	"Fate - Gates of Dawn (Europe) (v1.6)": {
+		"languages": "En"
 	},
 	"Fate - Gates of Dawn (Germany) (v1.4)": {
 		"languages": "De"
 	},
-	"Fate - Gates of Dawn (Europe) (v1.6)": {
-		"languages": "En"
+	"Fate - Gates of Dawn (Germany) (v1.7)": {
+		"languages": "De"
 	},
 	"Fatman - The Caped Consumer (Europe) (AGA)": {
 		"languages": "En"
@@ -2987,11 +3104,11 @@
 	"FIFA International Soccer (Europe) (En,Fr,De)": {
 		"languages": "En,Fr,De"
 	},
-	"Fighter Bomber (Europe) (En,Fr)": {
-		"languages": "En,Fr"
-	},
 	"Fighter Bomber (Europe) (Compilation - Power Hits)": {
 		"languages": "En"
+	},
+	"Fighter Bomber (Europe) (En,Fr)": {
+		"languages": "En,Fr"
 	},
 	"Fighter Bomber - Advanced Mission Disk (Europe) (Addon)": {
 		"languages": "En"
@@ -3065,11 +3182,11 @@
 	"FireTeam 2200 (Europe)": {
 		"languages": "En"
 	},
-	"FireZone (USA)": {
-		"languages": "En"
-	},
 	"FireZone (Germany)": {
 		"languages": "De"
+	},
+	"FireZone (USA)": {
+		"languages": "En"
 	},
 	"First Contact (Europe) (En,Fr,De)": {
 		"languages": "En,Fr,De"
@@ -3077,10 +3194,10 @@
 	"First Person Pinball (Europe)": {
 		"languages": "En"
 	},
-	"First Samurai (Europe)": {
+	"First Samurai (Europe) (Demo) (Compilation - Double Confrontation)": {
 		"languages": "En"
 	},
-	"First Samurai (Europe) (Demo) (Compilation - Double Confrontation)": {
+	"First Samurai (Europe)": {
 		"languages": "En"
 	},
 	"Fish! (Europe) (v1.03)": {
@@ -3092,17 +3209,17 @@
 	"Flamingo Tours (Germany)": {
 		"languages": "De"
 	},
-	"Flashback (Germany)": {
-		"languages": "De"
-	},
 	"Flashback (Europe) (1993-04-22)": {
+		"languages": "En"
+	},
+	"Flashback (Europe) (Compilation - The Delphine Collection)": {
 		"languages": "En"
 	},
 	"Flashback (France)": {
 		"languages": "Fr"
 	},
-	"Flashback (Europe) (Compilation - The Delphine Collection)": {
-		"languages": "En"
+	"Flashback (Germany)": {
+		"languages": "De"
 	},
 	"Flies - Attack on Earth (Germany)": {
 		"languages": "De"
@@ -3113,10 +3230,10 @@
 	"Flight of the Intruder (Europe)": {
 		"languages": "En"
 	},
-	"Flight Path 737 (Europe)": {
+	"Flight Path 737 (Europe) (Budget - The 16 Bit Pocket Power Collection)": {
 		"languages": "En"
 	},
-	"Flight Path 737 (Europe) (Budget - The 16 Bit Pocket Power Collection)": {
+	"Flight Path 737 (Europe)": {
 		"languages": "En"
 	},
 	"Flight Simulator II (Europe) (v1.1)": {
@@ -3128,13 +3245,13 @@
 	"Flight Simulator II (USA) (v1.0)": {
 		"languages": "En"
 	},
-	"Flight Simulator II - Scenery Disk - Western European Tour (Europe) (Addon)": {
+	"Flight Simulator II - Scenery Disk 7 (Europe) (Addon)": {
 		"languages": "En"
 	},
 	"Flight Simulator II - Scenery Disk 11 (Europe) (Addon)": {
 		"languages": "En"
 	},
-	"Flight Simulator II - Scenery Disk 7 (Europe) (Addon)": {
+	"Flight Simulator II - Scenery Disk - Western European Tour (Europe) (Addon)": {
 		"languages": "En"
 	},
 	"Flimbo's Quest (Europe)": {
@@ -3149,6 +3266,9 @@
 	"Flood (Europe)": {
 		"languages": "En"
 	},
+	"Flood (Unknown)": {
+		"languages": "En"
+	},
 	"Flowers of Crystal (Europe) (v2.0)": {
 		"languages": "En"
 	},
@@ -3161,6 +3281,9 @@
 	"FOFT - Federation of Free Traders (Europe) (En,Fr,De)": {
 		"languages": "En,Fr,De"
 	},
+	"Fonts (World) (Unknown) (v2.05)": {
+		"languages": "En"
+	},
 	"Fool's Errand, The (Europe)": {
 		"languages": "En"
 	},
@@ -3170,16 +3293,10 @@
 	"Football Glory (Europe) (AGA)": {
 		"languages": "En"
 	},
-	"Football Manager (Europe)": {
-		"languages": "En"
-	},
-	"Football Manager - World Cup Edition (Germany)": {
-		"languages": "De"
-	},
-	"Football Manager - World Cup Edition (Europe)": {
-		"languages": "En"
-	},
 	"Football Manager 2 (Europe)": {
+		"languages": "En"
+	},
+	"Football Manager 2 + Football Manager - World Cup Edition (Europe) (Compilation - Soccer Mania)": {
 		"languages": "En"
 	},
 	"Football Manager 2 - Expansion Kit (Europe) (Bundled With FM2) (Addon)": {
@@ -3188,8 +3305,14 @@
 	"Football Manager 2 - Expansion Kit (Europe) (Compilation - Amiga Sports Pack)": {
 		"languages": "En"
 	},
-	"Football Manager 2 + Football Manager - World Cup Edition (Europe) (Compilation - Soccer Mania)": {
+	"Football Manager (Europe)": {
 		"languages": "En"
+	},
+	"Football Manager - World Cup Edition (Europe)": {
+		"languages": "En"
+	},
+	"Football Manager - World Cup Edition (Germany)": {
+		"languages": "De"
 	},
 	"Football Masters (Europe) (v5.13)": {
 		"languages": "En"
@@ -3209,10 +3332,10 @@
 	"Formula 1 Grand Prix (Europe) (Compilation - Mega Pack II)": {
 		"languages": "En"
 	},
-	"Foundation's Waste (Europe) (Budget - PC Hits)": {
+	"Foundation's Waste (Europe) (Amiga + ST) (Coverdisk - The One - Issue 22)": {
 		"languages": "En"
 	},
-	"Foundation's Waste (Europe) (Amiga + ST) (Coverdisk - The One - Issue 22)": {
+	"Foundation's Waste (Europe) (Budget - PC Hits)": {
 		"languages": "En"
 	},
 	"Four Crystals of Trazere, The (USA)": {
@@ -3239,9 +3362,6 @@
 	"Frontier - Elite II (Europe) (2.9.1992)": {
 		"languages": "En"
 	},
-	"Frontier - Elite II (Germany)": {
-		"languages": "De"
-	},
 	"Frontier - Elite II (Europe) (06.10.1993)": {
 		"languages": "En"
 	},
@@ -3251,19 +3371,22 @@
 	"Frontier - Elite II (France) (02.09.1992)": {
 		"languages": "Fr"
 	},
+	"Frontier - Elite II (Germany)": {
+		"languages": "De"
+	},
 	"Frost Byte (Europe)": {
 		"languages": "En"
 	},
 	"Full Contact (Europe)": {
 		"languages": "En"
 	},
+	"Full Metal Planete (Europe) (Alt)": {
+		"languages": "En"
+	},
 	"Full Metal Planete (Europe)": {
 		"languages": "En"
 	},
 	"Full Metal Planete (USA)": {
-		"languages": "En"
-	},
-	"Full Metal Planete (Europe) (Alt 1)": {
 		"languages": "En"
 	},
 	"Fun School 2 - For the Over-8s (Europe)": {
@@ -3302,20 +3425,20 @@
 	"Future Space (Germany)": {
 		"languages": "De"
 	},
-	"Future Wars - Time Travellers (Germany)": {
-		"languages": "De"
+	"Future Wars - Time Travellers (Europe) (Compilation - The Delphine Collection)": {
+		"languages": "En"
 	},
 	"Future Wars - Time Travellers (Europe)": {
 		"languages": "En"
 	},
-	"Future Wars - Time Travellers (Europe) (Compilation - The Delphine Collection)": {
-		"languages": "En"
-	},
-	"Future Wars - Time Travellers (USA)": {
-		"languages": "En"
+	"Future Wars - Time Travellers (Germany)": {
+		"languages": "De"
 	},
 	"Future Wars - Time Travellers (Spain)": {
 		"languages": "Es"
+	},
+	"Future Wars - Time Travellers (USA)": {
+		"languages": "En"
 	},
 	"Fuzzball (Europe)": {
 		"languages": "En"
@@ -3332,11 +3455,11 @@
 	"Galactic Conqueror (Europe) (Compilation - Titus Action II)": {
 		"languages": "En"
 	},
-	"Galactic Empire (Europe) (Fr,De)": {
-		"languages": "Fr,De"
-	},
 	"Galactic Empire (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
+	},
+	"Galactic Empire (Europe) (Fr,De)": {
+		"languages": "Fr,De"
 	},
 	"Galactic Invasion (Europe)": {
 		"languages": "En"
@@ -3353,10 +3476,10 @@
 	"Galdregon's Domain (Europe)": {
 		"languages": "En"
 	},
-	"Games, The - Summer Edition (Europe)": {
+	"Games, The - Summer Edition (Europe) (Alt)": {
 		"languages": "En"
 	},
-	"Games, The - Summer Edition (Europe) (Alt)": {
+	"Games, The - Summer Edition (Europe)": {
 		"languages": "En"
 	},
 	"Games, The - Winter Edition (Europe) (Compilation - Sporting Gold)": {
@@ -3473,34 +3596,34 @@
 	"Goal! (Europe) (En,Fr,De,Es,It,No) (v1.1)": {
 		"languages": "En,Fr,De,Es,It,No"
 	},
-	"Gobliiins (Germany)": {
-		"languages": "De"
-	},
 	"Gobliiins (Europe) (En,Fr,De,Es,It) (Compilation - Kings of Adventure 1)": {
 		"languages": "En,Fr,De,Es,It"
+	},
+	"Gobliiins (Germany)": {
+		"languages": "De"
 	},
 	"Gobliins 2 - The Prince Buffoon (Europe)": {
 		"languages": "En"
 	},
-	"Gobliins 2 - The Prince Buffoon (Germany)": {
-		"languages": "De"
-	},
 	"Gobliins 2 - The Prince Buffoon (France)": {
 		"languages": "Fr"
 	},
-	"Goblins 3 (Germany)": {
+	"Gobliins 2 - The Prince Buffoon (Germany)": {
 		"languages": "De"
 	},
 	"Goblins 3 (France)": {
 		"languages": "Fr"
 	},
+	"Goblins 3 (Germany)": {
+		"languages": "De"
+	},
 	"Godfather, The (Europe)": {
 		"languages": "En"
 	},
-	"Gods (Europe)": {
+	"Gods (Europe) (Alt)": {
 		"languages": "En"
 	},
-	"Gods (Europe) (Alt 1)": {
+	"Gods (Europe)": {
 		"languages": "En"
 	},
 	"Gold of the Aztecs, The (Europe)": {
@@ -3515,10 +3638,10 @@
 	"Golden Oldies Vol. 1 (Europe) (v2.4)": {
 		"languages": "En"
 	},
-	"Golden Path (Europe)": {
+	"Golden Path (Europe) (Compilation - Computer Hits - Volume Two)": {
 		"languages": "En"
 	},
-	"Golden Path (Europe) (Compilation - Computer Hits - Volume Two)": {
+	"Golden Path (Europe)": {
 		"languages": "En"
 	},
 	"Goldrunner (Europe)": {
@@ -3563,11 +3686,11 @@
 	"Grand Prix Circuit (Europe)": {
 		"languages": "En"
 	},
-	"Grand Prix Master (France) (Compilation - Les Fous du Volant)": {
-		"languages": "Fr"
-	},
 	"Grand Prix Master (Europe) (Compilation - Amiga Sports Pack)": {
 		"languages": "En"
+	},
+	"Grand Prix Master (France) (Compilation - Les Fous du Volant)": {
+		"languages": "Fr"
 	},
 	"Grand Slam (Germany)": {
 		"languages": "De"
@@ -3578,13 +3701,13 @@
 	"Gravity Force (Europe)": {
 		"languages": "En"
 	},
-	"Great Courts (Europe)": {
+	"Great Courts 2 (Europe) (Compilation - Commodore Pack)": {
 		"languages": "En"
 	},
 	"Great Courts 2 (Europe)": {
 		"languages": "En"
 	},
-	"Great Courts 2 (Europe) (Compilation - Commodore Pack)": {
+	"Great Courts (Europe)": {
 		"languages": "En"
 	},
 	"Great Giana Sisters, The (Europe) (First Release)": {
@@ -3599,10 +3722,10 @@
 	"Greens - The Ultimate 3-D Golf Simulation (Europe) (v2.3)": {
 		"languages": "En"
 	},
-	"Gremlins 2 - The New Batch (Europe)": {
+	"Gremlins 2 - The New Batch (Europe) (Alt)": {
 		"languages": "En"
 	},
-	"Gremlins 2 - The New Batch (Europe) (Alt 1)": {
+	"Gremlins 2 - The New Batch (Europe)": {
 		"languages": "En"
 	},
 	"Grid Start (Europe) (Compilation - Sextett)": {
@@ -3611,10 +3734,13 @@
 	"Gridiron! (Europe)": {
 		"languages": "En"
 	},
+	"Grimblood (Europe) (Alt)": {
+		"languages": "En"
+	},
 	"Grimblood (Europe)": {
 		"languages": "En"
 	},
-	"Grimblood (Europe) (Alt 1)": {
+	"Grimblood (Unknown)": {
 		"languages": "En"
 	},
 	"Growth (Europe)": {
@@ -3638,16 +3764,16 @@
 	"Gunboat - River Combat Simulation (Europe)": {
 		"languages": "En"
 	},
-	"Gunship (Europe) (v832.02)": {
-		"languages": "En"
-	},
-	"Gunship (USA) (v832.03)": {
-		"languages": "En"
-	},
 	"Gunship 2000 (Europe) (AGA)": {
 		"languages": "En"
 	},
 	"Gunship 2000 (Europe) (v3.01)": {
+		"languages": "En"
+	},
+	"Gunship (Europe) (v832.02)": {
+		"languages": "En"
+	},
+	"Gunship (USA) (v832.03)": {
 		"languages": "En"
 	},
 	"Gunshoot (Europe)": {
@@ -3662,10 +3788,10 @@
 	"Hacker (USA)": {
 		"languages": "En"
 	},
-	"Hacker II - The Doomsday Papers (Europe)": {
+	"Hacker II - The Doomsday Papers (Europe) (Compilation - Power Hits)": {
 		"languages": "En"
 	},
-	"Hacker II - The Doomsday Papers (Europe) (Compilation - Power Hits)": {
+	"Hacker II - The Doomsday Papers (Europe)": {
 		"languages": "En"
 	},
 	"Hagar (Germany)": {
@@ -3695,10 +3821,10 @@
 	"Hard Drivin' + Toobin' (Europe) (Compilation - TNT)": {
 		"languages": "En"
 	},
-	"Hard Drivin' II - Drive Harder (Europe)": {
+	"Hard Drivin' II - Drive Harder (Europe) (Compilation - Tengen Arcade Hits)": {
 		"languages": "En"
 	},
-	"Hard Drivin' II - Drive Harder (Europe) (Compilation - Tengen Arcade Hits)": {
+	"Hard Drivin' II - Drive Harder (Europe)": {
 		"languages": "En"
 	},
 	"Hard Drivin' II - Drive Harder + Hydra (Europe) (Compilation - TNT 2)": {
@@ -3725,6 +3851,9 @@
 	"Harley-Davidson - The Road to Sturgis (Europe)": {
 		"languages": "En"
 	},
+	"Harpoon + Battleset 1 - Showdown in the North Atlantic (Europe)": {
+		"languages": "En"
+	},
 	"Harpoon - Battleset 2 - The North Atlantic Convoys (Europe) (Addon)": {
 		"languages": "En"
 	},
@@ -3732,9 +3861,6 @@
 		"languages": "En"
 	},
 	"Harpoon - Battleset 4 - The Indian Ocean (Europe) (Addon)": {
-		"languages": "En"
-	},
-	"Harpoon + Battleset 1 - Showdown in the North Atlantic (Europe)": {
 		"languages": "En"
 	},
 	"Harrier Combat Simulator (USA)": {
@@ -3758,14 +3884,14 @@
 	"Heavy Metal (Europe)": {
 		"languages": "En"
 	},
-	"Heimdall (Europe)": {
-		"languages": "En"
+	"Heimdall 2 (Europe) (En,Fr,De,It) (AGA)": {
+		"languages": "En,Fr,De,It"
 	},
 	"Heimdall 2 (Europe) (En,Fr,De,It)": {
 		"languages": "En,Fr,De,It"
 	},
-	"Heimdall 2 (Europe) (En,Fr,De,It) (AGA)": {
-		"languages": "En,Fr,De,It"
+	"Heimdall (Europe)": {
+		"languages": "En"
 	},
 	"Helicopter Mission (Germany) (Promo)": {
 		"languages": "De"
@@ -3824,23 +3950,23 @@
 	"Highway Patrol 2 (Europe)": {
 		"languages": "En"
 	},
-	"Hill Street Blues (Europe) (En,Fr,De,Es,It)": {
+	"Hill Street Blues (Europe) (En,Fr,De,Es,It) (Budget - Buzz)": {
 		"languages": "En,Fr,De,Es,It"
 	},
-	"Hill Street Blues (Europe) (En,Fr,De,Es,It) (Budget - Buzz)": {
+	"Hill Street Blues (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
 	},
 	"Hired Guns (Europe) (En,Fr,De,Es,It) (v1.08.39.25) (OCS, ECS)": {
 		"languages": "En,Fr,De,Es,It"
-	},
-	"Historyline 1914-1918 (Germany) (ECS)": {
-		"languages": "De"
 	},
 	"Historyline 1914-1918 (Europe) (ECS)": {
 		"languages": "En"
 	},
 	"Historyline 1914-1918 (France) (ECS)": {
 		"languages": "Fr"
+	},
+	"Historyline 1914-1918 (Germany) (ECS)": {
+		"languages": "De"
 	},
 	"Hoi (Europe)": {
 		"languages": "En"
@@ -3860,10 +3986,10 @@
 	"Hollywood Pictures - Der Kinomanager (Germany)": {
 		"languages": "De"
 	},
-	"Hollywood Poker (Europe)": {
+	"Hollywood Poker (Europe) (Budget - Smash 16)": {
 		"languages": "En"
 	},
-	"Hollywood Poker (Europe) (Budget - Smash 16)": {
+	"Hollywood Poker (Europe)": {
 		"languages": "En"
 	},
 	"Hollywood Poker Pro (Europe)": {
@@ -3887,7 +4013,7 @@
 	"Hostages (Europe)": {
 		"languages": "En"
 	},
-	"Hostile Breed (Europe) (En,Fr,De) (Unreleased) (Alt 1)": {
+	"Hostile Breed (Europe) (En,Fr,De) (Unreleased) (Alt)": {
 		"languages": "En,Fr,De"
 	},
 	"Hot Rod (Europe)": {
@@ -3896,10 +4022,10 @@
 	"HotBall (Europe)": {
 		"languages": "En"
 	},
-	"Hotshot (Europe)": {
+	"Hotshot (Europe) (Compilation - Hits for Six - Volume Two)": {
 		"languages": "En"
 	},
-	"Hotshot (Europe) (Compilation - Hits for Six - Volume Two)": {
+	"Hotshot (Europe)": {
 		"languages": "En"
 	},
 	"Hound of Shadow, The (Europe)": {
@@ -3929,38 +4055,38 @@
 	"Huey (Europe)": {
 		"languages": "En"
 	},
+	"Hugo 2 (Finland)": {
+		"languages": "Fi"
+	},
 	"Hugo (Germany)": {
 		"languages": "De"
 	},
 	"Hugo (Sweden)": {
 		"languages": "Sv"
 	},
-	"Hugo - Pa Nye Eventyr (Denmark)": {
-		"languages": "Da"
-	},
 	"Hugo - Pa Nye Eventyr 2 (Denmark)": {
 		"languages": "Da"
 	},
-	"Hugo 2 (Finland)": {
-		"languages": "Fi"
-	},
-	"Human Race - The Jurassic Levels (Germany)": {
-		"languages": "De"
+	"Hugo - Pa Nye Eventyr (Denmark)": {
+		"languages": "Da"
 	},
 	"Human Race - The Jurassic Levels (Europe)": {
 		"languages": "En"
 	},
+	"Human Race - The Jurassic Levels (Germany)": {
+		"languages": "De"
+	},
 	"Humans III - Evolution - Lost in Time (Europe) (AGA)": {
 		"languages": "En"
-	},
-	"Humans, The (Germany)": {
-		"languages": "De"
 	},
 	"Humans, The (Europe) (Compilation - Help!)": {
 		"languages": "En"
 	},
 	"Humans, The (France)": {
 		"languages": "Fr"
+	},
+	"Humans, The (Germany)": {
+		"languages": "De"
 	},
 	"Hungary for Fun - Logic + Zarcan + Kid Pool (Europe)": {
 		"languages": "En"
@@ -4001,16 +4127,16 @@
 	"Ice Runner (Europe)": {
 		"languages": "En"
 	},
-	"IK+ (Europe)": {
-		"languages": "En"
-	},
 	"IK+ (Europe) (Budget - The Hit Squad)": {
 		"languages": "En"
 	},
-	"Ikari Warriors (Europe)": {
+	"IK+ (Europe)": {
 		"languages": "En"
 	},
 	"Ikari Warriors (Europe) (Compilation - TenStar Pack)": {
+		"languages": "En"
+	},
+	"Ikari Warriors (Europe)": {
 		"languages": "En"
 	},
 	"Ikari Warriors + Buggy Boy (Europe) (Compilation - The Story So Far - Vol 1)": {
@@ -4031,10 +4157,10 @@
 	"Impossamole (Europe)": {
 		"languages": "En"
 	},
-	"Impossible Mission 2025 - The Special Edition (Europe) (En,Fr,De,Es,It)": {
+	"Impossible Mission 2025 - The Special Edition (Europe) (En,Fr,De,Es,It) (AGA)": {
 		"languages": "En,Fr,De,Es,It"
 	},
-	"Impossible Mission 2025 - The Special Edition (Europe) (En,Fr,De,Es,It) (AGA)": {
+	"Impossible Mission 2025 - The Special Edition (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
 	},
 	"Impossible Mission II (Europe)": {
@@ -4067,11 +4193,11 @@
 	"Indiana Jones and the Last Crusade - The Graphic Adventure (France) (v1.4 10.6.89) (Compilation - Fun Radio - La Compil Micro 3)": {
 		"languages": "Fr"
 	},
-	"Indiana Jones and the Last Crusade - The Graphic Adventure (USA) (v1.4 10.4.89)": {
-		"languages": "En"
-	},
 	"Indiana Jones and the Last Crusade - The Graphic Adventure (Italy) (v1.5 29.12.89)": {
 		"languages": "It"
+	},
+	"Indiana Jones and the Last Crusade - The Graphic Adventure (USA) (v1.4 10.4.89)": {
+		"languages": "En"
 	},
 	"Indiana Jones and the Temple of Doom (Europe) (v3.28)": {
 		"languages": "En"
@@ -4106,10 +4232,10 @@
 	"International 3D Tennis (Europe) (Compilation - Super Sim Pack)": {
 		"languages": "En"
 	},
-	"International Championship Athletics (Europe) (En,Fr,De,Es,It) (16.2.1992)": {
+	"International Championship Athletics (Europe) (En,Fr,De,Es,It) (9.6.1987)": {
 		"languages": "En,Fr,De,Es,It"
 	},
-	"International Championship Athletics (Europe) (En,Fr,De,Es,It) (9.6.1987)": {
+	"International Championship Athletics (Europe) (En,Fr,De,Es,It) (16.2.1992)": {
 		"languages": "En,Fr,De,Es,It"
 	},
 	"International Championship Wrestling (Europe)": {
@@ -4127,10 +4253,10 @@
 	"International Soccer (Europe)": {
 		"languages": "En"
 	},
-	"International Soccer Challenge (Europe)": {
+	"International Soccer Challenge (Europe) (Compilation - Virtual Reality - Vol. 1)": {
 		"languages": "En"
 	},
-	"International Soccer Challenge (Europe) (Compilation - Virtual Reality - Vol. 1)": {
+	"International Soccer Challenge (Europe)": {
 		"languages": "En"
 	},
 	"International Sports Challenge (Europe)": {
@@ -4148,17 +4274,14 @@
 	"Invasion (Europe)": {
 		"languages": "En"
 	},
-	"Inve$t (Germany) (Compilation - World of Business)": {
+	"Inve$t (Germany) (Compilation - No. 1 Collection)": {
 		"languages": "De"
 	},
-	"Inve$t (Germany) (Compilation - No. 1 Collection)": {
+	"Inve$t (Germany) (Compilation - World of Business)": {
 		"languages": "De"
 	},
 	"Iridon (Europe)": {
 		"languages": "En"
-	},
-	"Iron Lord (Germany)": {
-		"languages": "De"
 	},
 	"Iron Lord (Europe)": {
 		"languages": "En"
@@ -4166,26 +4289,26 @@
 	"Iron Lord (France)": {
 		"languages": "Fr"
 	},
+	"Iron Lord (Germany)": {
+		"languages": "De"
+	},
 	"Iron Tracker (Europe) (Budget - Smash 16)": {
 		"languages": "En"
 	},
-	"Ishar - Legend of the Fortress (Europe) (En,Fr,De,It)": {
-		"languages": "En,Fr,De,It"
-	},
-	"Ishar - Legend of the Fortress (Europe) (En,Fr,De,It) (Compilation - Ishar Trilogy)": {
-		"languages": "En,Fr,De,It"
-	},
 	"Ishar 2 - Messengers of Doom (Europe) (En,Fr,De) (AGA)": {
+		"languages": "En,Fr,De"
+	},
+	"Ishar 2 - Messengers of Doom (Europe) (En,Fr,De)": {
 		"languages": "En,Fr,De"
 	},
 	"Ishar 2 - Messengers of Doom (Europe)": {
 		"languages": "En"
 	},
-	"Ishar 2 - Messengers of Doom (Europe) (En,Fr,De)": {
-		"languages": "En,Fr,De"
-	},
 	"Ishar 2 - Messengers of Doom (Germany)": {
 		"languages": "De"
+	},
+	"Ishar 3 - The Seven Gates of Infinity (Europe) (ECS)": {
+		"languages": "En"
 	},
 	"Ishar 3 - The Seven Gates of Infinity (Europe) (En,Fr,De) (AGA)": {
 		"languages": "En,Fr,De"
@@ -4193,8 +4316,11 @@
 	"Ishar 3 - The Seven Gates of Infinity (France) (ECS) (Equipe Speciale)": {
 		"languages": "Fr"
 	},
-	"Ishar 3 - The Seven Gates of Infinity (Europe) (ECS)": {
-		"languages": "En"
+	"Ishar - Legend of the Fortress (Europe) (En,Fr,De,It) (Compilation - Ishar Trilogy)": {
+		"languages": "En,Fr,De,It"
+	},
+	"Ishar - Legend of the Fortress (Europe) (En,Fr,De,It)": {
+		"languages": "En,Fr,De,It"
 	},
 	"Ishido - The Way of Stones (Europe)": {
 		"languages": "En"
@@ -4214,10 +4340,10 @@
 	"Italian Night 1999 (Italy)": {
 		"languages": "It"
 	},
-	"Italy 1990 (Europe)": {
+	"Italy 1990 (Europe) (Budget - Kixx)": {
 		"languages": "En"
 	},
-	"Italy 1990 (Europe) (Budget - Kixx)": {
+	"Italy 1990 (Europe)": {
 		"languages": "En"
 	},
 	"Italy 1990 - Winners Edition (Europe) (Compilation - Super Sim Pack)": {
@@ -4227,6 +4353,9 @@
 		"languages": "En"
 	},
 	"Ivanhoe (Europe)": {
+		"languages": "En"
+	},
+	"Ivanhoe (Unknown)": {
 		"languages": "En"
 	},
 	"Jack Nicklaus - The Great Courses of the U.S. Open (Europe) (Addon)": {
@@ -4256,46 +4385,46 @@
 	"Jahangir Khan World Championship Squash (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
 	},
-	"James Bond - The Stealth Affair (USA)": {
-		"languages": "En"
-	},
 	"James Bond 007 - Licence to Kill (Europe)": {
 		"languages": "En"
 	},
 	"James Bond 007 - Live and Let Die (Europe) (Compilation - The James Bond Collection)": {
 		"languages": "En"
 	},
+	"James Bond 007 - The Spy Who Loved Me (Europe) (Compilation - Superheroes)": {
+		"languages": "En"
+	},
 	"James Bond 007 - The Spy Who Loved Me (Europe) (Compilation - The James Bond Collection)": {
 		"languages": "En"
 	},
-	"James Bond 007 - The Spy Who Loved Me (Europe) (Compilation - Superheroes)": {
+	"James Bond - The Stealth Affair (USA)": {
 		"languages": "En"
 	},
 	"James Clavell's Shogun (Europe)": {
 		"languages": "En"
 	},
-	"James Pond - Underwater Agent (Europe)": {
+	"James Pond 3 - Operation Starfish (Europe) (AGA)": {
 		"languages": "En"
 	},
 	"James Pond - Underwater Agent (Europe) (Compilation - Chart Attack)": {
 		"languages": "En"
 	},
-	"James Pond 3 - Operation Starfish (Europe) (AGA)": {
-		"languages": "En"
-	},
-	"James Pond II - Codename RoboCod (Europe)": {
-		"languages": "En"
-	},
-	"James Pond II - Codename RoboCod (Europe) (Budget - Kixx)": {
+	"James Pond - Underwater Agent (Europe)": {
 		"languages": "En"
 	},
 	"James Pond II - Codename RoboCod (Europe) (AGA)": {
 		"languages": "En"
 	},
-	"Jaws (Europe)": {
+	"James Pond II - Codename RoboCod (Europe) (Budget - Kixx)": {
 		"languages": "En"
 	},
-	"Jaws (Europe) (Alt 1)": {
+	"James Pond II - Codename RoboCod (Europe)": {
+		"languages": "En"
+	},
+	"Jaws (Europe) (Alt)": {
+		"languages": "En"
+	},
+	"Jaws (Europe)": {
 		"languages": "En"
 	},
 	"Jeanne d'Arc (Germany)": {
@@ -4322,13 +4451,13 @@
 	"Jim Power in Mutant Planet (Europe)": {
 		"languages": "En"
 	},
-	"Jimmy White's Whirlwind Snooker (Europe)": {
+	"Jimmy White's Whirlwind Snooker (Europe) (Compilation - Award Winners - Gold Edition)": {
 		"languages": "En"
 	},
 	"Jimmy White's Whirlwind Snooker (Europe) (v3)": {
 		"languages": "En"
 	},
-	"Jimmy White's Whirlwind Snooker (Europe) (Compilation - Award Winners - Gold Edition)": {
+	"Jimmy White's Whirlwind Snooker (Europe)": {
 		"languages": "En"
 	},
 	"Jimmy's Fantastic Journey (Europe) (v1.3) (Coverdisk)": {
@@ -4337,10 +4466,10 @@
 	"Jinks (Europe)": {
 		"languages": "En"
 	},
-	"Jinxter (Europe) (v1.2)": {
+	"Jinxter (Europe) (v1.0)": {
 		"languages": "En"
 	},
-	"Jinxter (Europe) (v1.0)": {
+	"Jinxter (Europe) (v1.2)": {
 		"languages": "En"
 	},
 	"Joan of Arc (Europe)": {
@@ -4352,10 +4481,10 @@
 	"Joe & Mac - Caveman Ninja (Europe)": {
 		"languages": "En"
 	},
-	"Joe Blade (Europe)": {
+	"Joe Blade 2 (Europe) (Budget - Smash 16)": {
 		"languages": "En"
 	},
-	"Joe Blade 2 (Europe) (Budget - Smash 16)": {
+	"Joe Blade (Europe)": {
 		"languages": "En"
 	},
 	"John Barnes European Football (Europe) (En,Fr,De,Es,It)": {
@@ -4385,10 +4514,13 @@
 	"Jungle Book, The (Europe)": {
 		"languages": "En"
 	},
+	"Jungle Strike (Europe) (AGA)": {
+		"languages": "En"
+	},
 	"Jungle Strike (Europe)": {
 		"languages": "En"
 	},
-	"Jungle Strike (Europe) (AGA)": {
+	"Jungle Strike (Unknown) (AGA)": {
 		"languages": "En"
 	},
 	"Jupiter Probe (Europe)": {
@@ -4397,10 +4529,10 @@
 	"Jupiter's Masterdrive (Europe)": {
 		"languages": "En"
 	},
-	"Jurassic Park (Europe) (En,Fr,De,Es,It)": {
+	"Jurassic Park (Europe) (En,Fr,De,Es,It) (AGA)": {
 		"languages": "En,Fr,De,Es,It"
 	},
-	"Jurassic Park (Europe) (En,Fr,De,Es,It) (AGA)": {
+	"Jurassic Park (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
 	},
 	"K240 (Europe) (En,Fr,De)": {
@@ -4421,10 +4553,10 @@
 	"Karting Grand Prix + Las Vegas (Europe) (Compilation - Sextett)": {
 		"languages": "En"
 	},
-	"Katakis (Europe) (v1.1)": {
+	"Katakis (Europe) (Compilation - Highlights)": {
 		"languages": "En"
 	},
-	"Katakis (Europe) (Compilation - Highlights)": {
+	"Katakis (Europe) (v1.1)": {
 		"languages": "En"
 	},
 	"Kathedrale, Die (Germany)": {
@@ -4460,31 +4592,37 @@
 	"Khalaan (USA)": {
 		"languages": "En"
 	},
-	"Kick Off (Europe) (En,Fr,De,It,Nl) (v1.1)": {
-		"languages": "En,Fr,De,It,Nl"
-	},
-	"Kick Off - Extra Time (Europe) (v2.2) (Addon)": {
+	"Kick Off 2 (Europe) (AGA) (Bundled with v1.4e)": {
 		"languages": "En"
-	},
-	"Kick Off + Extra Time (Europe) (En,Fr,De,It,Nl)": {
-		"languages": "En,Fr,De,It,Nl"
 	},
 	"Kick Off 2 (Europe) (v1.4e)": {
 		"languages": "En"
 	},
-	"Kick Off 2 (Europe) (AGA) (Bundled with v1.4e)": {
+	"Kick Off 2 (Europe) (v1.6e)": {
 		"languages": "En"
 	},
 	"Kick Off 2 (Germany) (v1.4g)": {
 		"languages": "De"
 	},
-	"Kick Off 2 (Europe) (v1.6e)": {
-		"languages": "En"
+	"Kick Off 2 (Italy) (v1.4i)": {
+		"languages": "It"
 	},
 	"Kick Off 2 (Spain) (v1.4s)": {
 		"languages": "Es"
 	},
-	"Kick Off 2 (Italy) (v1.4i)": {
+	"Kick Off 2 + World Cup '90 (Europe) (Alt)": {
+		"languages": "En"
+	},
+	"Kick Off 2 + World Cup '90 (Europe)": {
+		"languages": "En"
+	},
+	"Kick Off 2 + World Cup '90 (Germany) (Alt)": {
+		"languages": "De"
+	},
+	"Kick Off 2 + World Cup '90 (Germany)": {
+		"languages": "De"
+	},
+	"Kick Off 2 + World Cup '90 (Italy)": {
 		"languages": "It"
 	},
 	"Kick Off 2 - Giants of Europe (Europe) (Addon)": {
@@ -4493,109 +4631,37 @@
 	"Kick Off 2 - Return to Europe (Europe) (Addon)": {
 		"languages": "En"
 	},
-	"Kick Off 2 - The Final Whistle (Europe) (v2.1e) (Addon)": {
-		"languages": "En"
-	},
 	"Kick Off 2 - The Final Whistle (Europe) (v1.9e) (Addon)": {
 		"languages": "En"
 	},
 	"Kick Off 2 - The Final Whistle (Europe) (v1.9g)": {
 		"languages": "En"
 	},
+	"Kick Off 2 - The Final Whistle (Europe) (v2.1e) (Addon)": {
+		"languages": "En"
+	},
 	"Kick Off 2 - Winning Tactics (Europe) (Addon)": {
-		"languages": "En"
-	},
-	"Kick Off 2 + World Cup '90 (Europe)": {
-		"languages": "En"
-	},
-	"Kick Off 2 + World Cup '90 (Germany)": {
-		"languages": "De"
-	},
-	"Kick Off 2 + World Cup '90 (Germany) (Alt 1)": {
-		"languages": "De"
-	},
-	"Kick Off 2 + World Cup '90 (Europe) (Alt 1)": {
-		"languages": "En"
-	},
-	"Kick Off 2 + World Cup '90 (Italy)": {
-		"languages": "It"
-	},
-	"Kick Off 3 (Europe)": {
 		"languages": "En"
 	},
 	"Kick Off 3 (Europe) (AGA)": {
 		"languages": "En"
 	},
-	"Kick Off 3 - European Challenge (Europe) (En,Fr,De,Es,It)": {
-		"languages": "En,Fr,De,Es,It"
+	"Kick Off 3 (Europe)": {
+		"languages": "En"
 	},
 	"Kick Off 3 - European Challenge (Europe) (En,Fr,De,Es,It) (AGA)": {
 		"languages": "En,Fr,De,Es,It"
 	},
-	"[BIOS] Kickstart (USA, Europe) (v1.2 Rev 33.180) (A500, A2000)": {
-		"languages": "En"
+	"Kick Off 3 - European Challenge (Europe) (En,Fr,De,Es,It)": {
+		"languages": "En,Fr,De,Es,It"
 	},
-	"[BIOS] Kickstart (USA, Europe) (v1.3 Rev 34.005) (A500, A2000)": {
-		"languages": "En"
+	"Kick Off (Europe) (En,Fr,De,It,Nl) (v1.1)": {
+		"languages": "En,Fr,De,It,Nl"
 	},
-	"[BIOS] Kickstart (USA, Europe) (v1.4 Rev 36.015) (Beta) (A500, A2000)": {
-		"languages": "En"
+	"Kick Off + Extra Time (Europe) (En,Fr,De,It,Nl)": {
+		"languages": "En,Fr,De,It,Nl"
 	},
-	"[BIOS] Kickstart (USA, Europe) (v1.4 Rev 36.016) (A3000)": {
-		"languages": "En"
-	},
-	"[BIOS] Kickstart (USA, Europe) (v2.04 Rev 37.175) (Proto) (A500 Plus, A2000)": {
-		"languages": "En"
-	},
-	"[BIOS] Kickstart (USA, Europe) (v2.04 Rev 37.175) (A500 Plus, A2000)": {
-		"languages": "En"
-	},
-	"[BIOS] Kickstart (USA, Europe) (v2.04 Rev 37.175) (A3000)": {
-		"languages": "En"
-	},
-	"[BIOS] Kickstart (USA, Europe) (v2.05 Rev 37.210) (Proto) (A600)": {
-		"languages": "En"
-	},
-	"[BIOS] Kickstart (USA, Europe) (v2.05 Rev 37.299) (A600)": {
-		"languages": "En"
-	},
-	"[BIOS] Kickstart (USA, Europe) (v2.05 Rev 37.300) (A600HD)": {
-		"languages": "En"
-	},
-	"[BIOS] Kickstart (USA, Europe) (v2.05 Rev 37.350) (A600HD)": {
-		"languages": "En"
-	},
-	"[BIOS] Kickstart (USA, Europe) (v3.0 Rev 39.065) (Beta) (A3000)": {
-		"languages": "En"
-	},
-	"[BIOS] Kickstart (USA, Europe) (v3.0 Rev 39.106) (A1200)": {
-		"languages": "En"
-	},
-	"[BIOS] Kickstart (USA, Europe) (v3.0 Rev 39.106) (A4000)": {
-		"languages": "En"
-	},
-	"[BIOS] Kickstart (USA, Europe) (v3.1 Rev 40.055) (Beta) (A3000)": {
-		"languages": "En"
-	},
-	"[BIOS] Kickstart (USA, Europe) (v3.1 Rev 40.063) (A500, A600, A2000)": {
-		"languages": "En"
-	},
-	"[BIOS] Kickstart (USA, Europe) (v3.1 Rev 40.068) (Proto) (A600)": {
-		"languages": "En"
-	},
-	"[BIOS] Kickstart (USA, Europe) (v3.1 Rev 40.068) (A1200)": {
-		"languages": "En"
-	},
-	"[BIOS] Kickstart (USA, Europe) (v3.1 Rev 40.068) (A3000)": {
-		"languages": "En"
-	},
-	"[BIOS] Kickstart (USA, Europe) (v3.1 Rev 40.068) (A4000)": {
-		"languages": "En"
-	},
-	"[BIOS] Kickstart (USA, Europe) (v3.1 Rev 40.070) (A4000)": {
-		"languages": "En"
-	},
-	"[BIOS] Kickstart (USA, Europe) (v3.1 Rev 40.070) (A4000T)": {
+	"Kick Off - Extra Time (Europe) (v2.2) (Addon)": {
 		"languages": "En"
 	},
 	"Kid Chaos (Europe)": {
@@ -4616,11 +4682,11 @@
 	"Killerball (France)": {
 		"languages": "Fr"
 	},
-	"Killing Cloud, The (USA)": {
-		"languages": "En"
-	},
 	"Killing Cloud, The (Europe) (En,Fr,De)": {
 		"languages": "En,Fr,De"
+	},
+	"Killing Cloud, The (USA)": {
+		"languages": "En"
 	},
 	"Killing Game Show, The (Europe, Australia)": {
 		"languages": "En"
@@ -4631,25 +4697,25 @@
 	"Killing Machine (Europe)": {
 		"languages": "En"
 	},
+	"King of Chicago, The (Europe) (Alt)": {
+		"languages": "En"
+	},
 	"King of Chicago, The (Europe)": {
-		"languages": "En"
-	},
-	"King of Chicago, The (Europe) (Alt 1)": {
-		"languages": "En"
-	},
-	"King's Quest - Quest for the Crown (Europe) (v1.0U) (HLS)": {
 		"languages": "En"
 	},
 	"King's Quest - Quest for the Crown (Europe) (v1.000.054) (SCI)": {
 		"languages": "En"
 	},
-	"King's Quest II - Romancing the Throne (Europe) (v2.0J)": {
+	"King's Quest - Quest for the Crown (Europe) (v1.0U) (HLS)": {
 		"languages": "En"
 	},
 	"King's Quest II - Romancing the Throne (Europe) (v2.0J) (Budget - Kixx XL)": {
 		"languages": "En"
 	},
 	"King's Quest II - Romancing the Throne (Europe) (v2.0J) (HLS)": {
+		"languages": "En"
+	},
+	"King's Quest II - Romancing the Throne (Europe) (v2.0J)": {
 		"languages": "En"
 	},
 	"King's Quest III - To Heir is Human (Europe) (v1.01)": {
@@ -4679,10 +4745,10 @@
 	"Kingpin - Arcade Sports Bowling (Europe)": {
 		"languages": "En"
 	},
-	"Klax (Europe)": {
+	"Klax (Europe) (Compilation - Tengen Arcade Hits)": {
 		"languages": "En"
 	},
-	"Klax (Europe) (Compilation - Tengen Arcade Hits)": {
+	"Klax (Europe)": {
 		"languages": "En"
 	},
 	"Knight Force (Europe)": {
@@ -4700,20 +4766,20 @@
 	"Knights of the Crystallion (Germany)": {
 		"languages": "De"
 	},
-	"Knights of the Sky (Europe) (v3.04)": {
+	"Knights of the Sky (Europe) (v3.01)": {
 		"languages": "En"
 	},
-	"Knights of the Sky (Europe) (v3.01)": {
+	"Knights of the Sky (Europe) (v3.04)": {
 		"languages": "En"
 	},
 	"Kristal, The (Europe)": {
 		"languages": "En"
 	},
-	"Kristal, The (USA)": {
-		"languages": "En"
-	},
 	"Kristal, The (Germany)": {
 		"languages": "De"
+	},
+	"Kristal, The (USA)": {
+		"languages": "En"
 	},
 	"Krusty's Fun House (Europe)": {
 		"languages": "En"
@@ -4721,10 +4787,10 @@
 	"Krypton Egg (Europe) (Compilation - Big Box)": {
 		"languages": "En"
 	},
-	"Kult - The Temple of Flying Saucers (Europe) (En,Fr,De)": {
+	"Kult - The Temple of Flying Saucers (Europe) (En,Fr,De) (Budget - Bit Star)": {
 		"languages": "En,Fr,De"
 	},
-	"Kult - The Temple of Flying Saucers (Europe) (En,Fr,De) (Budget - Bit Star)": {
+	"Kult - The Temple of Flying Saucers (Europe) (En,Fr,De)": {
 		"languages": "En,Fr,De"
 	},
 	"Kwasimodo (Europe)": {
@@ -4760,20 +4826,20 @@
 	"Lancelot (Europe)": {
 		"languages": "En"
 	},
-	"Las Vegas (Europe)": {
+	"Las Vegas (Europe) (Budget - The 16 Bit Pocket Power Collection)": {
 		"languages": "En"
 	},
-	"Las Vegas (Europe) (Budget - The 16 Bit Pocket Power Collection)": {
+	"Las Vegas (Europe)": {
 		"languages": "En"
 	},
 	"Laser Squad (Europe)": {
 		"languages": "En"
 	},
-	"Laser Squad (USA)": {
-		"languages": "En"
-	},
 	"Laser Squad (Italy)": {
 		"languages": "It"
+	},
+	"Laser Squad (USA)": {
+		"languages": "En"
 	},
 	"Last Action Hero (Europe)": {
 		"languages": "En"
@@ -4814,29 +4880,29 @@
 	"Legend (Europe)": {
 		"languages": "En"
 	},
-	"Legend of Djel (Germany)": {
-		"languages": "De"
-	},
 	"Legend of Djel (Europe)": {
 		"languages": "En"
 	},
-	"Legend of Faerghail (Germany) (v1.8 1990-06-07)": {
+	"Legend of Djel (Germany)": {
 		"languages": "De"
 	},
 	"Legend of Faerghail (Europe) (v2.0e 1990-07-24)": {
 		"languages": "En"
 	},
+	"Legend of Faerghail (Europe) (v2.0e 1990-10-17)": {
+		"languages": "En"
+	},
+	"Legend of Faerghail (Germany) (v1.8 1990-06-07)": {
+		"languages": "De"
+	},
 	"Legend of Faerghail (USA) (v2.0e 1990-10-17)": {
 		"languages": "En"
 	},
-	"Legend of Faerghail (Europe) (v2.0e 1990-10-17)": {
+	"Legend of Kyrandia, The - Book One (Europe)": {
 		"languages": "En"
 	},
 	"Legend of Kyrandia, The - Book One (Germany)": {
 		"languages": "De"
-	},
-	"Legend of Kyrandia, The - Book One (Europe)": {
-		"languages": "En"
 	},
 	"Legend of Robin Hood, The - Conquests of the Longbow (Europe) (v1.000)": {
 		"languages": "En"
@@ -4850,11 +4916,11 @@
 	"Legends (Europe) (En,Fr,De) (AGA)": {
 		"languages": "En,Fr,De"
 	},
-	"Legends of Valour (Germany)": {
-		"languages": "De"
-	},
 	"Legends of Valour (France)": {
 		"languages": "Fr"
+	},
+	"Legends of Valour (Germany)": {
+		"languages": "De"
 	},
 	"Legends of Valour - Volume 1 - The Dawning (Europe) (Menu - DOS)": {
 		"languages": "En"
@@ -4880,34 +4946,40 @@
 	"Leisure Suit Larry in - The Land of the Lounge Lizards (Europe) (v1.05)": {
 		"languages": "En"
 	},
-	"Lemmings (Europe)": {
-		"languages": "En"
-	},
-	"Lemmings (Europe) (Amiga 500 Bundle - Cartoon Classics)": {
-		"languages": "En"
-	},
-	"Lemmings (USA)": {
-		"languages": "En"
-	},
-	"Lemmings (USA) (Alt 1)": {
-		"languages": "En"
-	},
-	"Lemmings (Europe) (Compilation - Award Winners - Platinum Edition)": {
-		"languages": "En"
-	},
-	"Lemmings (Europe) (Book Club)": {
-		"languages": "En"
-	},
-	"Lemmings (Europe) (Promo)": {
-		"languages": "En"
-	},
-	"Lemmings 2 - The Tribes (Europe)": {
+	"Lemmings 2 (Unknown)": {
 		"languages": "En"
 	},
 	"Lemmings 2 - The Tribes (Europe) (Demo) (Promo - The Future Entertainment Show)": {
 		"languages": "En"
 	},
+	"Lemmings 2 - The Tribes (Europe)": {
+		"languages": "En"
+	},
 	"Lemmings 2 - The Tribes (USA)": {
+		"languages": "En"
+	},
+	"Lemmings (Europe) (Amiga 500 Bundle - Cartoon Classics)": {
+		"languages": "En"
+	},
+	"Lemmings (Europe) (Book Club)": {
+		"languages": "En"
+	},
+	"Lemmings (Europe) (Compilation - Award Winners - Platinum Edition)": {
+		"languages": "En"
+	},
+	"Lemmings (Europe) (Promo)": {
+		"languages": "En"
+	},
+	"Lemmings (Europe)": {
+		"languages": "En"
+	},
+	"Lemmings (Unknown)": {
+		"languages": "En"
+	},
+	"Lemmings (USA) (Alt)": {
+		"languages": "En"
+	},
+	"Lemmings (USA)": {
 		"languages": "En"
 	},
 	"Leonardo (Europe)": {
@@ -4943,10 +5015,10 @@
 	"Line of Fire (Europe)": {
 		"languages": "En"
 	},
-	"Links - The Challenge of Golf (USA) (v1.50)": {
+	"Links - The Challenge of Golf (Europe) (v1.53)": {
 		"languages": "En"
 	},
-	"Links - The Challenge of Golf (Europe) (v1.53)": {
+	"Links - The Challenge of Golf (USA) (v1.50)": {
 		"languages": "En"
 	},
 	"Links Championship Course 1 - Firestone Country Club Akron, Ohio (Europe) (Addon)": {
@@ -4958,10 +5030,10 @@
 	"Lionheart (Europe)": {
 		"languages": "En"
 	},
-	"Little Computer People (USA)": {
+	"Little Computer People (Europe) (Budget - Ricochet 16)": {
 		"languages": "En"
 	},
-	"Little Computer People (Europe) (Budget - Ricochet 16)": {
+	"Little Computer People (USA)": {
 		"languages": "En"
 	},
 	"Little Puff in Dragonland (Europe)": {
@@ -4979,20 +5051,23 @@
 	"Lollypop (Europe)": {
 		"languages": "En"
 	},
-	"Lombard RAC Rally (Europe)": {
+	"Lombard RAC Rally (Europe) (Budget - The Hit Squad)": {
 		"languages": "En"
 	},
-	"Lombard RAC Rally (Europe) (Budget - The Hit Squad)": {
+	"Lombard RAC Rally (Europe)": {
 		"languages": "En"
 	},
 	"Lombard RAC Rally (Germany) (Compilation - The Power Pack)": {
 		"languages": "De"
 	},
+	"Loom (Europe) (v1.2)": {
+		"languages": "En"
+	},
 	"Loom (Germany) (v1.2)": {
 		"languages": "De"
 	},
-	"Loom (Europe) (v1.2)": {
-		"languages": "En"
+	"Loom (Spain)": {
+		"languages": "Es"
 	},
 	"Loom (Spain)": {
 		"languages": "Es"
@@ -5027,11 +5102,11 @@
 	"Lords of the Rising Sun (USA)": {
 		"languages": "En"
 	},
-	"Lost Patrol (USA)": {
-		"languages": "En"
-	},
 	"Lost Patrol (Europe) (En,Fr,De)": {
 		"languages": "En,Fr,De"
+	},
+	"Lost Patrol (USA)": {
+		"languages": "En"
 	},
 	"Lost Treasures of Infocom, The (USA)": {
 		"languages": "En"
@@ -5051,13 +5126,13 @@
 	"Lothar Matthaus Super Soccer (Germany) (v2.1 24.10.1994)": {
 		"languages": "De"
 	},
-	"Lotus Esprit Turbo Challenge (Europe)": {
+	"Lotus Esprit Turbo Challenge (Europe) (Compilation - Chart Attack)": {
 		"languages": "En"
 	},
 	"Lotus Esprit Turbo Challenge (Europe) (Promo)": {
 		"languages": "En"
 	},
-	"Lotus Esprit Turbo Challenge (Europe) (Compilation - Chart Attack)": {
+	"Lotus Esprit Turbo Challenge (Europe)": {
 		"languages": "En"
 	},
 	"Lotus III - The Ultimate Challenge (Europe)": {
@@ -5066,22 +5141,25 @@
 	"Lotus Turbo Challenge 2 (Europe)": {
 		"languages": "En"
 	},
-	"Lure of the Temptress (Italy)": {
-		"languages": "It"
-	},
 	"Lure of the Temptress (Europe) (06.08.1992) (Compilation - The Greatest)": {
 		"languages": "En"
 	},
 	"Lure of the Temptress (Europe) (17.06.1992)": {
 		"languages": "En"
 	},
-	"Lure of the Temptress (France)": {
-		"languages": "Fr"
-	},
 	"Lure of the Temptress (Europe) (v2) (6-8-1992)": {
 		"languages": "En"
 	},
+	"Lure of the Temptress (France)": {
+		"languages": "Fr"
+	},
+	"Lure of the Temptress (Italy)": {
+		"languages": "It"
+	},
 	"Lurking Horror, The (USA) (r221)": {
+		"languages": "En"
+	},
+	"M1 Tank Platoon (Europe) (v849.01)": {
 		"languages": "En"
 	},
 	"M.U.D.S. - Mean Ugly Dirty Sport (Europe) (En,Fr,De)": {
@@ -5089,9 +5167,6 @@
 	},
 	"M.U.D.S. - Mean Ugly Dirty Sport (Spain)": {
 		"languages": "Es"
-	},
-	"M1 Tank Platoon (Europe) (v849.01)": {
-		"languages": "En"
 	},
 	"Mach 3 (Europe)": {
 		"languages": "En"
@@ -5102,11 +5177,11 @@
 	"Mad Professor Mariarti (Europe) (En,Fr,De,It)": {
 		"languages": "En,Fr,De,It"
 	},
-	"Mad Show (France)": {
-		"languages": "Fr"
-	},
 	"Mad Show (Europe) (Budget)": {
 		"languages": "En"
+	},
+	"Mad Show (France)": {
+		"languages": "Fr"
 	},
 	"Mad TV (Germany)": {
 		"languages": "De"
@@ -5165,29 +5240,29 @@
 	"Manchester United - The Double (Europe) (ECS)": {
 		"languages": "En"
 	},
-	"Manchester United - The Official Computer Game (Europe)": {
+	"Manchester United - The Official Computer Game (Europe) (Budget - GBH)": {
 		"languages": "En"
 	},
-	"Manchester United - The Official Computer Game (Europe) (Budget - GBH)": {
+	"Manchester United - The Official Computer Game (Europe)": {
 		"languages": "En"
 	},
 	"Manhattan Dealers (Europe)": {
 		"languages": "En"
 	},
-	"Manhunter - New York (Europe) (v1.06)": {
-		"languages": "En"
-	},
 	"Manhunter 2 - San Francisco (USA) (v3.06)": {
 		"languages": "En"
 	},
-	"Maniac Mansion (Germany)": {
-		"languages": "De"
+	"Manhunter - New York (Europe) (v1.06)": {
+		"languages": "En"
 	},
 	"Maniac Mansion (Europe)": {
 		"languages": "En"
 	},
 	"Maniac Mansion (France)": {
 		"languages": "Fr"
+	},
+	"Maniac Mansion (Germany)": {
+		"languages": "De"
 	},
 	"Maniax (Europe)": {
 		"languages": "En"
@@ -5225,14 +5300,14 @@
 	"Matrix Marauders (Europe)": {
 		"languages": "En"
 	},
-	"Maupiti Island (Germany)": {
-		"languages": "De"
+	"Maupiti Island (Europe)": {
+		"languages": "En"
 	},
 	"Maupiti Island (France)": {
 		"languages": "Fr"
 	},
-	"Maupiti Island (Europe)": {
-		"languages": "En"
+	"Maupiti Island (Germany)": {
+		"languages": "De"
 	},
 	"Maya (Europe)": {
 		"languages": "En"
@@ -5249,14 +5324,14 @@
 	"Medieval Warriors (Europe)": {
 		"languages": "En"
 	},
-	"Mega lo Mania (Germany)": {
-		"languages": "De"
-	},
 	"Mega lo Mania (Europe)": {
 		"languages": "En"
 	},
 	"Mega lo Mania (France)": {
 		"languages": "Fr"
+	},
+	"Mega lo Mania (Germany)": {
+		"languages": "De"
 	},
 	"Mega Motion (Europe)": {
 		"languages": "En"
@@ -5273,11 +5348,11 @@
 	"MegaTraveller 1 - The Zhodani Conspiracy (Europe)": {
 		"languages": "En"
 	},
-	"MegaTraveller 2 - Quest for the Ancients (Germany) (v1.04)": {
-		"languages": "De"
-	},
 	"MegaTraveller 2 - Quest for the Ancients (Europe) (v1.05)": {
 		"languages": "En"
+	},
+	"MegaTraveller 2 - Quest for the Ancients (Germany) (v1.04)": {
+		"languages": "De"
 	},
 	"Menace (Europe)": {
 		"languages": "En"
@@ -5339,23 +5414,23 @@
 	"Midnight Resistance (Europe)": {
 		"languages": "En"
 	},
-	"Midwinter (Europe)": {
+	"Midwinter (Europe) (Compilation - Virtual Reality - Vol. 1)": {
 		"languages": "En"
 	},
-	"Midwinter (Germany)": {
-		"languages": "De"
-	},
-	"Midwinter (Europe) (Compilation - Virtual Reality - Vol. 1)": {
+	"Midwinter (Europe)": {
 		"languages": "En"
 	},
 	"Midwinter (France)": {
 		"languages": "Fr"
 	},
-	"Midwinter II - Flames of Freedom (Germany) (v1 1991-09-07) (1MB)": {
+	"Midwinter (Germany)": {
 		"languages": "De"
 	},
 	"Midwinter II - Flames of Freedom (Europe) (1MB, v1 1991-09-07)": {
 		"languages": "En"
+	},
+	"Midwinter II - Flames of Freedom (Germany) (v1 1991-09-07) (1MB)": {
+		"languages": "De"
 	},
 	"MiG-29 Fulcrum (Europe)": {
 		"languages": "En"
@@ -5381,19 +5456,19 @@
 	"Mike the Magic Dragon (Europe)": {
 		"languages": "En"
 	},
-	"Milky Way Cafe (Europe) (v1.2 8.1.92)": {
+	"Milky Way Cafe (Europe) (v0.2 8.1.92) (Beta)": {
 		"languages": "En"
 	},
-	"Milky Way Cafe (Europe) (v0.2 8.1.92) (Beta)": {
+	"Milky Way Cafe (Europe) (v1.2 8.1.92)": {
 		"languages": "En"
 	},
 	"Millenium - Return to Earth (USA)": {
 		"languages": "En"
 	},
-	"Millennium 2.2 (Europe)": {
+	"Millennium 2.2 (Europe) (Budget - Bit Star)": {
 		"languages": "En"
 	},
-	"Millennium 2.2 (Europe) (Budget - Bit Star)": {
+	"Millennium 2.2 (Europe)": {
 		"languages": "En"
 	},
 	"Mind Forever Voyaging, A (USA) (r79)": {
@@ -5435,14 +5510,17 @@
 	"Moebius - The Orb of Celestial Harmony (USA)": {
 		"languages": "En"
 	},
+	"Monkey Business (USA)": {
+		"languages": "En"
+	},
 	"Monkey Island 2 - LeChuck's Revenge (Europe)": {
 		"languages": "En"
 	},
-	"Monkey Island 2 - LeChuck's Revenge (Germany)": {
-		"languages": "De"
-	},
 	"Monkey Island 2 - LeChuck's Revenge (France)": {
 		"languages": "Fr"
+	},
+	"Monkey Island 2 - LeChuck's Revenge (Germany)": {
+		"languages": "De"
 	},
 	"Monopoly (Europe)": {
 		"languages": "En"
@@ -5531,10 +5609,10 @@
 	"Munsters, The (Europe) (Compilation - Kids Pack)": {
 		"languages": "En"
 	},
-	"Murder! (Europe)": {
+	"Murder! (Europe) (Alt)": {
 		"languages": "En"
 	},
-	"Murder! (Europe) (Alt 1)": {
+	"Murder! (Europe)": {
 		"languages": "En"
 	},
 	"Murders in Space (Europe) (En,Fr,De,It)": {
@@ -5558,10 +5636,10 @@
 	"Myth (Europe)": {
 		"languages": "En"
 	},
-	"Myth - History in the Making (Europe)": {
+	"Myth - History in the Making (Europe) (Amiga 600 HD Bundles - Epic + Language Lab)": {
 		"languages": "En"
 	},
-	"Myth - History in the Making (Europe) (Amiga 600 HD Bundles - Epic + Language Lab)": {
+	"Myth - History in the Making (Europe)": {
 		"languages": "En"
 	},
 	"Napoleon I - The Campaigns 1805-1814 (Europe)": {
@@ -5576,28 +5654,28 @@
 	"Nathan Never (Italy)": {
 		"languages": "It"
 	},
-	"Naughty Ones (Europe)": {
-		"languages": "En"
-	},
 	"Naughty Ones (Europe) (AGA)": {
 		"languages": "En"
 	},
-	"Navy Moves (Europe)": {
+	"Naughty Ones (Europe)": {
 		"languages": "En"
 	},
 	"Navy Moves (Europe) (Budget - The Hit Squad)": {
 		"languages": "En"
 	},
+	"Navy Moves (Europe)": {
+		"languages": "En"
+	},
 	"Navy SEALs (Europe)": {
 		"languages": "En"
 	},
-	"Nebulus (Europe)": {
+	"Nebulus 2 - Pogo a Gogo (Europe)": {
 		"languages": "En"
 	},
 	"Nebulus (Europe) (Budget - Black Edition)": {
 		"languages": "En"
 	},
-	"Nebulus 2 - Pogo a Gogo (Europe)": {
+	"Nebulus (Europe)": {
 		"languages": "En"
 	},
 	"Necronom (Europe)": {
@@ -5606,10 +5684,10 @@
 	"Neighbours (Europe)": {
 		"languages": "En"
 	},
-	"Netherworld (Europe)": {
+	"Netherworld (Europe) (Compilation - Premier Collection)": {
 		"languages": "En"
 	},
-	"Netherworld (Europe) (Compilation - Premier Collection)": {
+	"Netherworld (Europe)": {
 		"languages": "En"
 	},
 	"Neuromancer (Europe)": {
@@ -5630,10 +5708,10 @@
 	"New York Warriors (USA) (1MB)": {
 		"languages": "En"
 	},
-	"NewZealand Story, The (Europe)": {
+	"NewZealand Story, The (Europe) (Alt)": {
 		"languages": "En"
 	},
-	"NewZealand Story, The (Europe) (Alt 1)": {
+	"NewZealand Story, The (Europe)": {
 		"languages": "En"
 	},
 	"Nick Faldo's Championship Golf (Europe)": {
@@ -5645,10 +5723,10 @@
 	"Nigel Mansell's Grand Prix (Europe)": {
 		"languages": "En"
 	},
-	"Nigel Mansell's World Championship (Europe)": {
+	"Nigel Mansell's World Championship (Europe) (AGA)": {
 		"languages": "En"
 	},
-	"Nigel Mansell's World Championship (Europe) (AGA)": {
+	"Nigel Mansell's World Championship (Europe)": {
 		"languages": "En"
 	},
 	"Night Hunter (Europe) (Compilation - 10 Great Games)": {
@@ -5660,10 +5738,10 @@
 	"Night Walk (Europe)": {
 		"languages": "En"
 	},
-	"Nightbreed - The Action Game (Europe)": {
+	"Nightbreed - The Action Game (Europe) (Budget - The Hit Squad)": {
 		"languages": "En"
 	},
-	"Nightbreed - The Action Game (Europe) (Budget - The Hit Squad)": {
+	"Nightbreed - The Action Game (Europe)": {
 		"languages": "En"
 	},
 	"Nightbreed - The Interactive Movie (Europe) (En,Fr,De)": {
@@ -5679,6 +5757,9 @@
 		"languages": "En"
 	},
 	"Ninja Mission (Europe)": {
+		"languages": "En"
+	},
+	"Ninja Mission (Unknown)": {
 		"languages": "En"
 	},
 	"Ninja Rabbits (Europe) (Compilation - Mega Collection)": {
@@ -5729,14 +5810,14 @@
 	"Nord and Bert Couldn't Make Head or Tail of It (USA) (r19)": {
 		"languages": "En"
 	},
+	"North & South (Europe) (En,Fr,De,Es,It) (Compilation - Le Temps des Heros)": {
+		"languages": "En,Fr,De,Es,It"
+	},
 	"North & South (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
 	},
 	"North & South (USA)": {
 		"languages": "En"
-	},
-	"North & South (Europe) (En,Fr,De,Es,It) (Compilation - Le Temps des Heros)": {
-		"languages": "En,Fr,De,Es,It"
 	},
 	"North Sea Inferno, The (Europe)": {
 		"languages": "En"
@@ -5753,16 +5834,19 @@
 	"Obitus (Europe, Australia)": {
 		"languages": "En"
 	},
+	"Obitus (Unknown)": {
+		"languages": "En"
+	},
 	"Obliterator (Europe)": {
 		"languages": "En"
 	},
 	"Obsession (Europe)": {
 		"languages": "En"
 	},
-	"Odyssey (Europe) (aud304312b 02.01.96)": {
+	"Odyssey (Europe) (aud304312a 1995-05-23)": {
 		"languages": "En"
 	},
-	"Odyssey (Europe) (aud304312a 1995-05-23)": {
+	"Odyssey (Europe) (aud304312b 02.01.96)": {
 		"languages": "En"
 	},
 	"Odyssey (Europe) (aud304312c 02.06.97)": {
@@ -5777,20 +5861,20 @@
 	"Ogre (USA)": {
 		"languages": "En"
 	},
-	"Oh No! More Lemmings (Europe)": {
+	"Oh No! More Lemmings (Europe) (Addon)": {
 		"languages": "En"
 	},
-	"Oh No! More Lemmings (Europe) (Addon)": {
+	"Oh No! More Lemmings (Europe)": {
 		"languages": "En"
 	},
 	"Oh No! More Lemmings (USA) (Addon)": {
 		"languages": "En"
 	},
-	"Oil Imperium (Germany)": {
-		"languages": "De"
-	},
 	"Oil Imperium (Europe) (v3)": {
 		"languages": "En"
+	},
+	"Oil Imperium (Germany)": {
+		"languages": "De"
 	},
 	"Oldtimer - Erlebte Geschichte Teil II (Germany)": {
 		"languages": "De"
@@ -5804,28 +5888,28 @@
 	"Omni-Play Basketball (Europe)": {
 		"languages": "En"
 	},
-	"Omnicron Conspiracy (Germany) (v1.0 191090)": {
-		"languages": "De"
-	},
 	"Omnicron Conspiracy (Europe) (v1.0 191090)": {
 		"languages": "En"
 	},
 	"Omnicron Conspiracy (France) (v1.0 191090)": {
 		"languages": "Fr"
 	},
-	"Omnicron Conspiracy (Germany) (v1.0 191090) (Alt 1)": {
+	"Omnicron Conspiracy (Germany) (v1.0 191090) (Alt)": {
 		"languages": "De"
 	},
-	"On the Ball - League Edition (Europe)": {
-		"languages": "En"
+	"Omnicron Conspiracy (Germany) (v1.0 191090)": {
+		"languages": "De"
 	},
 	"On the Ball - League Edition (Europe) (AGA)": {
 		"languages": "En"
 	},
-	"On the Ball - World Cup Edition (Europe)": {
+	"On the Ball - League Edition (Europe)": {
 		"languages": "En"
 	},
 	"On the Ball - World Cup Edition (Europe) (AGA)": {
+		"languages": "En"
+	},
+	"On the Ball - World Cup Edition (Europe)": {
 		"languages": "En"
 	},
 	"One Step Beyond (Europe)": {
@@ -5861,8 +5945,8 @@
 	"Operation Neptune (Europe)": {
 		"languages": "En"
 	},
-	"Operation Stealth (Germany)": {
-		"languages": "De"
+	"Operation Stealth (Europe) (Compilation - The Delphine Collection)": {
+		"languages": "En"
 	},
 	"Operation Stealth (Europe)": {
 		"languages": "En"
@@ -5870,16 +5954,16 @@
 	"Operation Stealth (France) (Compilation - Les Maitres de l'Aventure)": {
 		"languages": "Fr"
 	},
-	"Operation Stealth (Europe) (Compilation - The Delphine Collection)": {
-		"languages": "En"
+	"Operation Stealth (Germany)": {
+		"languages": "De"
 	},
 	"Operation Thunderbolt (Europe)": {
 		"languages": "En"
 	},
-	"Operation Wolf (Europe)": {
+	"Operation Wolf (Europe) (Compilation - Magnum 4)": {
 		"languages": "En"
 	},
-	"Operation Wolf (Europe) (Compilation - Magnum 4)": {
+	"Operation Wolf (Europe)": {
 		"languages": "En"
 	},
 	"Orbital Destroyer (Europe)": {
@@ -5891,13 +5975,13 @@
 	"Oriental Games (Europe)": {
 		"languages": "En"
 	},
+	"Ork (Europe) (Demo, Promo)": {
+		"languages": "En"
+	},
 	"Ork (Europe)": {
 		"languages": "En"
 	},
 	"Ork (USA)": {
-		"languages": "En"
-	},
-	"Ork (Europe) (Demo, Promo)": {
 		"languages": "En"
 	},
 	"Oscar (Europe) (AGA) (Amiga 1200 Bundle - Desktop Dynamite)": {
@@ -5915,13 +5999,13 @@
 	"Out of This World (USA)": {
 		"languages": "En"
 	},
+	"OutRun (Europe) (1987) (Compilation - Giants)": {
+		"languages": "En"
+	},
 	"OutRun (Europe) (1987)": {
 		"languages": "En"
 	},
 	"OutRun (USA) (1988)": {
-		"languages": "En"
-	},
-	"OutRun (Europe) (1987) (Compilation - Giants)": {
 		"languages": "En"
 	},
 	"OutRun Europa (Europe)": {
@@ -5951,6 +6035,12 @@
 	"Oxxonian (Europe)": {
 		"languages": "En"
 	},
+	"P47 Thunderbolt (Europe) (Compilation - Air-Sea Supremacy)": {
+		"languages": "En"
+	},
+	"P47 Thunderbolt (Europe)": {
+		"languages": "En"
+	},
 	"P.O.W. (Europe)": {
 		"languages": "En"
 	},
@@ -5958,12 +6048,6 @@
 		"languages": "En"
 	},
 	"P.P. Hammer and His Pneumatic Weapon (Europe)": {
-		"languages": "En"
-	},
-	"P47 Thunderbolt (Europe)": {
-		"languages": "En"
-	},
-	"P47 Thunderbolt (Europe) (Compilation - Air-Sea Supremacy)": {
 		"languages": "En"
 	},
 	"Pac-Land (Europe)": {
@@ -5993,16 +6077,16 @@
 	"Panza Kick Boxing (France) (Compilation - Podium)": {
 		"languages": "Fr"
 	},
-	"Paperboy (Europe) (Mastering Errors)": {
-		"languages": "En"
-	},
 	"Paperboy 2 (Europe)": {
 		"languages": "En"
 	},
-	"Paradroid 90 (Europe)": {
+	"Paperboy (Europe) (Mastering Errors)": {
 		"languages": "En"
 	},
 	"Paradroid 90 (Europe) (Compilation - Amiga Challenge)": {
+		"languages": "En"
+	},
+	"Paradroid 90 (Europe)": {
 		"languages": "En"
 	},
 	"Paragliding Simulation (Europe) (En,Fr,De,Es)": {
@@ -6011,16 +6095,16 @@
 	"Paramax (Europe)": {
 		"languages": "En"
 	},
-	"Paranoia Complex, The (Germany)": {
-		"languages": "De"
-	},
 	"Paranoia Complex, The (Europe)": {
 		"languages": "En"
 	},
-	"Parasol Stars - Rainbow Islands 2 (Europe)": {
+	"Paranoia Complex, The (Germany)": {
+		"languages": "De"
+	},
+	"Parasol Stars - Rainbow Islands 2 (Europe) (Alt)": {
 		"languages": "En"
 	},
-	"Parasol Stars - Rainbow Islands 2 (Europe) (Alt 1)": {
+	"Parasol Stars - Rainbow Islands 2 (Europe)": {
 		"languages": "En"
 	},
 	"Passing Shot (Europe)": {
@@ -6044,11 +6128,11 @@
 	"Perfect General, The (Europe) (v1.02 11.19.1991)": {
 		"languages": "En"
 	},
-	"Perfect General, The (Germany) (v1.02 11.19.1991) (Compilation - The Lords of Power)": {
-		"languages": "De"
-	},
 	"Perfect General, The (France) (v1.02 11.19.1991) (Compilation - Battles of Time)": {
 		"languages": "Fr"
+	},
+	"Perfect General, The (Germany) (v1.02 11.19.1991) (Compilation - The Lords of Power)": {
+		"languages": "De"
 	},
 	"Perfect General, The - Scenario Disk - World War II Battle Set (Europe) (Addon)": {
 		"languages": "En"
@@ -6071,10 +6155,10 @@
 	"Peter Pan (Germany)": {
 		"languages": "De"
 	},
-	"PGA European Tour (Europe)": {
+	"PGA European Tour (Europe) (AGA)": {
 		"languages": "En"
 	},
-	"PGA European Tour (Europe) (AGA)": {
+	"PGA European Tour (Europe)": {
 		"languages": "En"
 	},
 	"PGA Tour Golf (Europe)": {
@@ -6125,10 +6209,10 @@
 	"Pinball Dreams (Europe)": {
 		"languages": "En"
 	},
-	"Pinball Fantasies (Europe)": {
+	"Pinball Fantasies (Europe) (AGA)": {
 		"languages": "En"
 	},
-	"Pinball Fantasies (Europe) (AGA)": {
+	"Pinball Fantasies (Europe)": {
 		"languages": "En"
 	},
 	"Pinball Fantasies (USA) (AGA)": {
@@ -6137,10 +6221,10 @@
 	"Pinball Illusions (Europe) (AGA)": {
 		"languages": "En"
 	},
-	"Pinball Magic (Europe)": {
+	"Pinball Magic (Europe) (Alt)": {
 		"languages": "En"
 	},
-	"Pinball Magic (Europe) (Alt 1)": {
+	"Pinball Magic (Europe)": {
 		"languages": "En"
 	},
 	"Pinball Mania (Europe) (AGA) (Amiga 1200 Bundle - Amiga Magic)": {
@@ -6149,10 +6233,10 @@
 	"Pinball Mania (Europe) (AGA)": {
 		"languages": "En"
 	},
-	"Pinball Prelude (Europe) (OCS, ECS)": {
+	"Pinball Prelude (Europe) (AGA)": {
 		"languages": "En"
 	},
-	"Pinball Prelude (Europe) (AGA)": {
+	"Pinball Prelude (Europe) (OCS, ECS)": {
 		"languages": "En"
 	},
 	"Pinball Wizard (Europe)": {
@@ -6191,6 +6275,9 @@
 	"Plan 9 from Outer Space (Europe) (En,Fr,De)": {
 		"languages": "En,Fr,De"
 	},
+	"Plan 9 From Outer Space (Unknown)": {
+		"languages": "En"
+	},
 	"Planetfall (Europe) (r37)": {
 		"languages": "En"
 	},
@@ -6200,20 +6287,20 @@
 	"Playdays (Europe)": {
 		"languages": "En"
 	},
-	"Player Manager (Europe)": {
-		"languages": "En"
-	},
-	"Player Manager (Italy)": {
-		"languages": "It"
-	},
-	"Player Manager (Germany)": {
-		"languages": "De"
-	},
 	"Player Manager 2 (Europe) (v28.7.1995)": {
 		"languages": "En"
 	},
 	"Player Manager 2 Extra - The Chase for Glory (Europe) (AGA)": {
 		"languages": "En"
+	},
+	"Player Manager (Europe)": {
+		"languages": "En"
+	},
+	"Player Manager (Germany)": {
+		"languages": "De"
+	},
+	"Player Manager (Italy)": {
+		"languages": "It"
 	},
 	"Playroom, The - La Chambre de Peppy (France)": {
 		"languages": "Fr"
@@ -6221,20 +6308,14 @@
 	"Plotting (Europe)": {
 		"languages": "En"
 	},
-	"Plutos (USA)": {
+	"Plutos (Europe)": {
 		"languages": "En"
 	},
-	"Plutos (Europe)": {
+	"Plutos (USA)": {
 		"languages": "En"
 	},
 	"Poker Nights - Teresa Personally (Germany)": {
 		"languages": "De"
-	},
-	"Police Quest - In Pursuit of the Death Angel (USA) (v2.0B 2.22.89)": {
-		"languages": "En"
-	},
-	"Police Quest - In Pursuit of the Death Angel (Europe) (v2.0B 2.22.89) (Budget - Kixx XL)": {
-		"languages": "En"
 	},
 	"Police Quest 2 - The Vengeance (Europe) (v1.024)": {
 		"languages": "En"
@@ -6242,16 +6323,22 @@
 	"Police Quest 3 - The Kindred (USA) (v1.000)": {
 		"languages": "En"
 	},
+	"Police Quest - In Pursuit of the Death Angel (Europe) (v2.0B 2.22.89) (Budget - Kixx XL)": {
+		"languages": "En"
+	},
+	"Police Quest - In Pursuit of the Death Angel (USA) (v2.0B 2.22.89)": {
+		"languages": "En"
+	},
 	"Pool (Europe)": {
+		"languages": "En"
+	},
+	"Populous (Europe) (v2.7, 1989-03-17) (Budget)": {
 		"languages": "En"
 	},
 	"Populous (Europe)": {
 		"languages": "En"
 	},
 	"Populous (USA)": {
-		"languages": "En"
-	},
-	"Populous (Europe) (v2.7, 1989-03-17) (Budget)": {
 		"languages": "En"
 	},
 	"Populous - The Promised Lands (Europe) (Addon) (Budget - The Hit Squad)": {
@@ -6275,19 +6362,19 @@
 	"Ports of Call (Europe) (v1.1) (Amiga 600 Bundle - Smart Start)": {
 		"languages": "En"
 	},
-	"Postman Pat (Europe) (Compilation - Kids Pack)": {
+	"Postman Pat 3 - To the Rescue! (Europe)": {
 		"languages": "En"
 	},
-	"Postman Pat 3 - To the Rescue! (Europe)": {
+	"Postman Pat (Europe) (Compilation - Kids Pack)": {
 		"languages": "En"
 	},
 	"Pot Panic (Europe)": {
 		"languages": "En"
 	},
-	"Power Drift (Europe)": {
+	"Power Drift (Europe) (Compilation - Wheels of Fire - The Ultimate Driving Compilation)": {
 		"languages": "En"
 	},
-	"Power Drift (Europe) (Compilation - Wheels of Fire - The Ultimate Driving Compilation)": {
+	"Power Drift (Europe)": {
 		"languages": "En"
 	},
 	"Power Drive (Europe) (En,Fr,De,Es,It)": {
@@ -6305,19 +6392,19 @@
 	"Powerdrome (Europe)": {
 		"languages": "En"
 	},
-	"PowerMonger (Europe)": {
+	"PowerMonger (Europe) (Budget - Kixx)": {
 		"languages": "En"
 	},
-	"PowerMonger (Europe) (Budget - Kixx)": {
+	"PowerMonger (Europe)": {
 		"languages": "En"
 	},
 	"PowerMonger - WW1 Edition (Europe) (Addon)": {
 		"languages": "En"
 	},
-	"Powerplay - The Game of the Gods (Europe)": {
+	"Powerplay - The Game of the Gods (Europe) (Compilation - Astra Pack)": {
 		"languages": "En"
 	},
-	"Powerplay - The Game of the Gods (Europe) (Compilation - Astra Pack)": {
+	"Powerplay - The Game of the Gods (Europe)": {
 		"languages": "En"
 	},
 	"Powerstyx (Europe)": {
@@ -6338,9 +6425,6 @@
 	"Preis ist heiss, Der (Germany)": {
 		"languages": "De"
 	},
-	"Premier Manager (Europe)": {
-		"languages": "En"
-	},
 	"Premier Manager 2 - The New Season (Europe) (En,De)": {
 		"languages": "En,De"
 	},
@@ -6351,6 +6435,9 @@
 		"languages": "En"
 	},
 	"Premier Manager 3 Deluxe (Europe)": {
+		"languages": "En"
+	},
+	"Premier Manager (Europe)": {
 		"languages": "En"
 	},
 	"Premier Manager Multi-Edit System (Europe)": {
@@ -6371,17 +6458,17 @@
 	"Prince (Europe)": {
 		"languages": "En"
 	},
-	"Prince of Persia (Germany)": {
-		"languages": "De"
-	},
-	"Prince of Persia (USA)": {
-		"languages": "En"
-	},
 	"Prince of Persia (Europe)": {
 		"languages": "En"
 	},
 	"Prince of Persia (France) (Compilation - Super Heros)": {
 		"languages": "Fr"
+	},
+	"Prince of Persia (Germany)": {
+		"languages": "De"
+	},
+	"Prince of Persia (USA)": {
+		"languages": "En"
 	},
 	"Prison (Europe) (En,Fr,De,It)": {
 		"languages": "En,Fr,De,It"
@@ -6398,13 +6485,13 @@
 	"Pro Tennis Simulator (Europe)": {
 		"languages": "En"
 	},
-	"Pro Tennis Tour (Europe)": {
+	"Pro Tennis Tour 2 (Europe)": {
 		"languages": "En"
 	},
 	"Pro Tennis Tour (Europe) (Budget - The Hit Squad)": {
 		"languages": "En"
 	},
-	"Pro Tennis Tour 2 (Europe)": {
+	"Pro Tennis Tour (Europe)": {
 		"languages": "En"
 	},
 	"Produzent, Der - Die Welt des Films (Germany) (ECS)": {
@@ -6497,16 +6584,16 @@
 	"QIX (USA)": {
 		"languages": "En"
 	},
-	"Quadralien (Europe) (En,Fr,De)": {
-		"languages": "En,Fr,De"
-	},
 	"Quadralien (Europe) (En,Fr,De) (With StarRay Demo)": {
 		"languages": "En,Fr,De"
 	},
-	"Quadrel (Europe) (En,Fr) (v1.0)": {
-		"languages": "En,Fr"
+	"Quadralien (Europe) (En,Fr,De)": {
+		"languages": "En,Fr,De"
 	},
 	"Quadrel (Europe) (En,Fr) (Q.I. 1992, v1.0)": {
+		"languages": "En,Fr"
+	},
+	"Quadrel (Europe) (En,Fr) (v1.0)": {
 		"languages": "En,Fr"
 	},
 	"Quantox (Europe)": {
@@ -6551,10 +6638,10 @@
 	"R-Type II (Europe)": {
 		"languages": "En"
 	},
-	"R.B.I. Two Baseball (Europe)": {
+	"R.B.I. Two Baseball (Europe) (Budget - The Hit Squad)": {
 		"languages": "En"
 	},
-	"R.B.I. Two Baseball (Europe) (Budget - The Hit Squad)": {
+	"R.B.I. Two Baseball (Europe)": {
 		"languages": "En"
 	},
 	"Raffles (Europe)": {
@@ -6563,8 +6650,8 @@
 	"Raider (Europe)": {
 		"languages": "En"
 	},
-	"Railroad Tycoon (Germany) (v855.02)": {
-		"languages": "De"
+	"Railroad Tycoon (Europe) (v855.01)": {
+		"languages": "En"
 	},
 	"Railroad Tycoon (Europe) (v855.02)": {
 		"languages": "En"
@@ -6572,31 +6659,31 @@
 	"Railroad Tycoon (Germany) (v855.01)": {
 		"languages": "De"
 	},
-	"Railroad Tycoon (Europe) (v855.01)": {
-		"languages": "En"
+	"Railroad Tycoon (Germany) (v855.02)": {
+		"languages": "De"
 	},
-	"Rainbow Islands (Europe)": {
-		"languages": "En"
-	},
-	"Rainbow Islands (Europe) (Alt 1)": {
+	"Rainbow Islands (Europe) (Alt)": {
 		"languages": "En"
 	},
 	"Rainbow Islands (Europe) (Budget - The Hit Squad)": {
 		"languages": "En"
 	},
-	"Rally Championships (Europe) (En,Fr,De,Es,It,Nl,Pt,Pl) (ECS)": {
-		"languages": "En,Fr,De,Es,It,Nl,Pt,Pl"
+	"Rainbow Islands (Europe)": {
+		"languages": "En"
 	},
 	"Rally Championships (Europe) (En,Fr,De,Es,It,Nl,Pt,Pl) (AGA)": {
+		"languages": "En,Fr,De,Es,It,Nl,Pt,Pl"
+	},
+	"Rally Championships (Europe) (En,Fr,De,Es,It,Nl,Pt,Pl) (ECS)": {
 		"languages": "En,Fr,De,Es,It,Nl,Pt,Pl"
 	},
 	"Rally Cross Challenge (Europe)": {
 		"languages": "En"
 	},
-	"Rambo III (USA)": {
+	"Rambo III (Europe) (Budget - The Hit Squad)": {
 		"languages": "En"
 	},
-	"Rambo III (Europe) (Budget - The Hit Squad)": {
+	"Rambo III (USA)": {
 		"languages": "En"
 	},
 	"Rampage (USA)": {
@@ -6614,10 +6701,10 @@
 	"Reach for the Skies (Europe) (v1.1)": {
 		"languages": "En"
 	},
-	"Reach for the Stars - The Conquest of the Galaxy (USA) (v3.0)": {
+	"Reach for the Stars - The Conquest of the Galaxy (Europe) (v3.01)": {
 		"languages": "En"
 	},
-	"Reach for the Stars - The Conquest of the Galaxy (Europe) (v3.01)": {
+	"Reach for the Stars - The Conquest of the Galaxy (USA) (v3.0)": {
 		"languages": "En"
 	},
 	"Real Ghostbusters, The (Europe)": {
@@ -6635,19 +6722,19 @@
 	"Recognize Me (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
 	},
-	"Red Baron (Europe)": {
+	"Red Baron (Europe) (Compilation - The Lords of Power)": {
 		"languages": "En"
 	},
-	"Red Baron (Europe) (Compilation - The Lords of Power)": {
+	"Red Baron (Europe)": {
 		"languages": "En"
 	},
 	"Red Baron (Germany)": {
 		"languages": "De"
 	},
-	"Red Heat (Europe)": {
+	"Red Heat (Europe) (Budget - The Hit Squad)": {
 		"languages": "En"
 	},
-	"Red Heat (Europe) (Budget - The Hit Squad)": {
+	"Red Heat (Europe)": {
 		"languages": "En"
 	},
 	"Red Lightning (USA)": {
@@ -6656,10 +6743,10 @@
 	"Red Storm Rising (Europe) (v843.02)": {
 		"languages": "En"
 	},
-	"Reeder, Der (Germany) (v1.12 - 1995-08-24)": {
+	"Reeder, Der (Germany) (v1.00 24.08.1995) (AGA)": {
 		"languages": "De"
 	},
-	"Reeder, Der (Germany) (v1.00 24.08.1995) (AGA)": {
+	"Reeder, Der (Germany) (v1.12 - 1995-08-24)": {
 		"languages": "De"
 	},
 	"Reederei (Germany)": {
@@ -6671,10 +6758,10 @@
 	"Renaissance (Europe)": {
 		"languages": "En"
 	},
-	"Renegade (Europe)": {
+	"Renegade (Europe) (Budget - The Hit Squad)": {
 		"languages": "En"
 	},
-	"Renegade (Europe) (Budget - The Hit Squad)": {
+	"Renegade (Europe)": {
 		"languages": "En"
 	},
 	"Renegade Legion - Interceptor (Europe)": {
@@ -6698,22 +6785,22 @@
 	"Revelation! (Europe)": {
 		"languages": "En"
 	},
-	"Rick Dangerous (Europe)": {
-		"languages": "En"
-	},
-	"Rick Dangerous (Europe) (Alt 1 - Level Select)": {
-		"languages": "En"
-	},
-	"Rick Dangerous (Europe) (Alt 2 - Unlimited Lives)": {
-		"languages": "En"
-	},
-	"Rick Dangerous (Europe) (Amiga + PC) (Budget - Kixx)": {
+	"Rick Dangerous 2 (Europe) (Budget - Kixx)": {
 		"languages": "En"
 	},
 	"Rick Dangerous 2 (Europe)": {
 		"languages": "En"
 	},
-	"Rick Dangerous 2 (Europe) (Budget - Kixx)": {
+	"Rick Dangerous (Europe) (Amiga + PC) (Budget - Kixx)": {
+		"languages": "En"
+	},
+	"Rick Dangerous (Europe) (Level Select) (Alt)": {
+		"languages": "En"
+	},
+	"Rick Dangerous (Europe) (Unlimited Lives) (Alt 2)": {
+		"languages": "En"
+	},
+	"Rick Dangerous (Europe)": {
 		"languages": "En"
 	},
 	"Rick Davis's World Trophy Soccer (Europe)": {
@@ -6722,8 +6809,8 @@
 	"Ringling Bros. and Barnum & Bailey Circus Games (Europe) (Compilation - Mega Pack II)": {
 		"languages": "En"
 	},
-	"Rings of Medusa (Germany) (v1.6)": {
-		"languages": "De"
+	"Rings of Medusa (Europe) (v1.6)": {
+		"languages": "En"
 	},
 	"Rings of Medusa (Germany) (v1.02)": {
 		"languages": "De"
@@ -6731,8 +6818,8 @@
 	"Rings of Medusa (Germany) (v1.04)": {
 		"languages": "De"
 	},
-	"Rings of Medusa (Europe) (v1.6)": {
-		"languages": "En"
+	"Rings of Medusa (Germany) (v1.6)": {
+		"languages": "De"
 	},
 	"Rings of Medusa II - The Return of Medusa (Germany) (v1.07C+ AUG 28 1991) (Coverdisk - Amiga Fun - Issue xx)": {
 		"languages": "De"
@@ -6746,10 +6833,10 @@
 	"Rise of the Dragon (Germany)": {
 		"languages": "De"
 	},
-	"Rise of the Robots (Europe) (ECS)": {
+	"Rise of the Robots (Europe) (AGA)": {
 		"languages": "En"
 	},
-	"Rise of the Robots (Europe) (AGA)": {
+	"Rise of the Robots (Europe) (ECS)": {
 		"languages": "En"
 	},
 	"Risk - The World Conquest Game (Europe) (v1.9) (Compilation - Board Genius)": {
@@ -6761,10 +6848,10 @@
 	"Risky Woods (Europe)": {
 		"languages": "En"
 	},
-	"Road Blasters (Europe)": {
+	"Road Blasters (Europe) (Budget - Kixx)": {
 		"languages": "En"
 	},
-	"Road Blasters (Europe) (Budget - Kixx)": {
+	"Road Blasters (Europe)": {
 		"languages": "En"
 	},
 	"Road Rash (Europe)": {
@@ -6788,15 +6875,6 @@
 	"Robinson's Requiem (Europe) (En,Fr,De) (AGA)": {
 		"languages": "En,Fr,De"
 	},
-	"RoboCop (Europe) (Compilation - Hollywood Collection)": {
-		"languages": "En"
-	},
-	"RoboCop (Europe) (Budget - The Hit Squad)": {
-		"languages": "En"
-	},
-	"RoboCop (Europe)": {
-		"languages": "En"
-	},
 	"RoboCop 2 (Europe)": {
 		"languages": "En"
 	},
@@ -6809,6 +6887,15 @@
 	"RoboCop 3D (USA)": {
 		"languages": "En"
 	},
+	"RoboCop (Europe) (Budget - The Hit Squad)": {
+		"languages": "En"
+	},
+	"RoboCop (Europe) (Compilation - Hollywood Collection)": {
+		"languages": "En"
+	},
+	"RoboCop (Europe)": {
+		"languages": "En"
+	},
 	"RoboSport (Europe)": {
 		"languages": "En"
 	},
@@ -6818,10 +6905,10 @@
 	"Robozone (Europe)": {
 		"languages": "En"
 	},
-	"Rock 'n Roll (Europe)": {
+	"Rock 'n Roll (Europe) (Compilation - 5th Anniversary)": {
 		"languages": "En"
 	},
-	"Rock 'n Roll (Europe) (Compilation - 5th Anniversary)": {
+	"Rock 'n Roll (Europe)": {
 		"languages": "En"
 	},
 	"Rock Star Ate My Hamster (Europe)": {
@@ -6830,16 +6917,16 @@
 	"Rock-A-Doodle - The Computerized Coloring Book (Europe)": {
 		"languages": "En"
 	},
-	"Rocket Ranger (Germany) (En)": {
+	"Rocket Ranger (Europe) (Budget - Mirror Image)": {
+		"languages": "En"
+	},
+	"Rocket Ranger (Europe)": {
 		"languages": "En"
 	},
 	"Rocket Ranger (Germany) (En) (Budget - Mirror Image)": {
 		"languages": "En"
 	},
-	"Rocket Ranger (Europe) (Budget - Mirror Image)": {
-		"languages": "En"
-	},
-	"Rocket Ranger (Europe)": {
+	"Rocket Ranger (Germany) (En)": {
 		"languages": "En"
 	},
 	"Rocky (Europe)": {
@@ -6884,26 +6971,26 @@
 	"Rollerball (Europe) (Coverdisk - Amiga Special - Issue xx)": {
 		"languages": "En"
 	},
-	"Rolling Ronny (Europe)": {
-		"languages": "En"
-	},
 	"Rolling Ronny (Europe) (Coverdisk)": {
 		"languages": "En"
 	},
-	"Rolling Thunder (Europe)": {
+	"Rolling Ronny (Europe)": {
 		"languages": "En"
 	},
 	"Rolling Thunder (Europe) (Budget - KlassiX)": {
 		"languages": "En"
 	},
+	"Rolling Thunder (Europe)": {
+		"languages": "En"
+	},
 	"Romantic Encounters at the Dome (Europe)": {
+		"languages": "En"
+	},
+	"Rome AD 92 - The Pathway to Power (Europe) (Amiga 600 HD Bundles - Epic + Language Lab)": {
 		"languages": "En"
 	},
 	"Rome AD 92 - The Pathway to Power (Europe) (En,Fr,De,It)": {
 		"languages": "En,Fr,De,It"
-	},
-	"Rome AD 92 - The Pathway to Power (Europe) (Amiga 600 HD Bundles - Epic + Language Lab)": {
-		"languages": "En"
 	},
 	"Rotor (Europe)": {
 		"languages": "En"
@@ -6941,10 +7028,10 @@
 	"Rugby League Coach (Europe)": {
 		"languages": "En"
 	},
-	"Rules of Engagement (USA) (v1.03 10.14.91)": {
+	"Rules of Engagement (Europe) (v1.06 11.26.91)": {
 		"languages": "En"
 	},
-	"Rules of Engagement (Europe) (v1.06 11.26.91)": {
+	"Rules of Engagement (USA) (v1.03 10.14.91)": {
 		"languages": "En"
 	},
 	"Run the Gauntlet (Europe) (Compilation - Party Time)": {
@@ -6959,6 +7046,9 @@
 	"RVF Honda (Europe) (Compilation - Magnum)": {
 		"languages": "En"
 	},
+	"RVF Honda (Unknown)": {
+		"languages": "En"
+	},
 	"Ryder Cup - Johnnie Walker (Europe) (AGA)": {
 		"languages": "En"
 	},
@@ -6971,10 +7061,10 @@
 	"S.T.U.N. Runner (Europe)": {
 		"languages": "En"
 	},
-	"Sabre Team (Europe) (En,Fr,De,Es,It)": {
+	"Sabre Team (Europe) (En,Fr,De,Es,It) (AGA)": {
 		"languages": "En,Fr,De,Es,It"
 	},
-	"Sabre Team (Europe) (En,Fr,De,Es,It) (AGA)": {
+	"Sabre Team (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
 	},
 	"Saddam Hussein Game, The (USA)": {
@@ -7011,6 +7101,9 @@
 		"languages": "En"
 	},
 	"Savage (Europe)": {
+		"languages": "En"
+	},
+	"Savage (Unknown)": {
 		"languages": "En"
 	},
 	"Scary Mutant Space Aliens from Mars (Europe)": {
@@ -7052,23 +7145,23 @@
 	"Seastalker (Europe)": {
 		"languages": "En"
 	},
-	"Second Samurai (Europe)": {
+	"Second Samurai (Europe) (AGA)": {
 		"languages": "En"
 	},
-	"Second Samurai (Europe) (AGA)": {
+	"Second Samurai (Europe)": {
 		"languages": "En"
 	},
 	"Seconds Out (Europe) (Budget - The 16 Bit Pocket Power Collection)": {
 		"languages": "En"
-	},
-	"Secret of Monkey Island, The (Germany) (v1.2r 1991-03-26)": {
-		"languages": "De"
 	},
 	"Secret of Monkey Island, The (Europe) (v1.2)": {
 		"languages": "En"
 	},
 	"Secret of Monkey Island, The (France) (v1.0 4-26-91)": {
 		"languages": "Fr"
+	},
+	"Secret of Monkey Island, The (Germany) (v1.2r 1991-03-26)": {
+		"languages": "De"
 	},
 	"Secret of Monkey Island, The (Italy) (v1.0 07-2-91)": {
 		"languages": "It"
@@ -7082,13 +7175,13 @@
 	"Sensible Soccer (Europe) (En,Fr,De,It) (v1.0)": {
 		"languages": "En,Fr,De,It"
 	},
-	"Sensible Soccer - European Champions (Europe) (En,Fr,De,It) (v1.1)": {
+	"Sensible Soccer - European Champions (Europe) (En,Fr,De,It) (v1.1) (Alt)": {
 		"languages": "En,Fr,De,It"
 	},
 	"Sensible Soccer - European Champions (Europe) (En,Fr,De,It) (v1.1) (Compilation - Award Winners - Gold Edition)": {
 		"languages": "En,Fr,De,It"
 	},
-	"Sensible Soccer - European Champions (Europe) (En,Fr,De,It) (v1.1) (Alt 1)": {
+	"Sensible Soccer - European Champions (Europe) (En,Fr,De,It) (v1.1)": {
 		"languages": "En,Fr,De,It"
 	},
 	"Sensible Soccer - International Edition (Europe) (En,Fr,De,It) (v1.2) (Compilation - Help!)": {
@@ -7097,15 +7190,6 @@
 	"Sensible Soccer - International Edition - World Champions (Europe) (En,Fr,De,It) (v1.2)": {
 		"languages": "En,Fr,De,It"
 	},
-	"Sensible World of Soccer (Europe) (v1.1)": {
-		"languages": "En"
-	},
-	"Sensible World of Soccer (Europe)": {
-		"languages": "En"
-	},
-	"Sensible World of Soccer - Update Disk (Europe) (v1.1) (Addon)": {
-		"languages": "En"
-	},
 	"Sensible World of Soccer '95-'96 (Europe)": {
 		"languages": "En"
 	},
@@ -7113,6 +7197,15 @@
 		"languages": "En"
 	},
 	"Sensible World of Soccer '96-'97 (Europe)": {
+		"languages": "En"
+	},
+	"Sensible World of Soccer (Europe) (v1.1)": {
+		"languages": "En"
+	},
+	"Sensible World of Soccer (Europe)": {
+		"languages": "En"
+	},
+	"Sensible World of Soccer - Update Disk (Europe) (v1.1) (Addon)": {
 		"languages": "En"
 	},
 	"Sentinel, The (Europe)": {
@@ -7148,19 +7241,22 @@
 	"Shadow Fighter (Europe)": {
 		"languages": "En"
 	},
-	"Shadow of the Beast (Europe)": {
+	"Shadow of the Beast (Europe) (Alt)": {
 		"languages": "En"
 	},
-	"Shadow of the Beast (Europe) (Alt 1)": {
+	"Shadow of the Beast (Europe)": {
 		"languages": "En"
 	},
 	"Shadow of the Beast + Blood Money (Europe) (Demo, Promo)": {
 		"languages": "En"
 	},
+	"Shadow of the Beast II (Europe) (Alt)": {
+		"languages": "En"
+	},
 	"Shadow of the Beast II (Europe)": {
 		"languages": "En"
 	},
-	"Shadow of the Beast II (Europe) (Alt 1)": {
+	"Shadow of the Beast II (Unknown)": {
 		"languages": "En"
 	},
 	"Shadow of the Beast III (Europe)": {
@@ -7169,10 +7265,13 @@
 	"Shadow of the Beast III (USA)": {
 		"languages": "En"
 	},
+	"Shadow Warriors (Europe) (Alt)": {
+		"languages": "En"
+	},
 	"Shadow Warriors (Europe)": {
 		"languages": "En"
 	},
-	"Shadow Warriors (Europe) (Alt 1)": {
+	"Shadow Warriors (Unknown)": {
 		"languages": "En"
 	},
 	"Shadowgate (Europe)": {
@@ -7184,19 +7283,19 @@
 	"Shadoworlds (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
 	},
-	"Shanghai (USA)": {
-		"languages": "En"
+	"Shanghai '98 (Germany) (Coverdisk - Amiga Special - Issue xx)": {
+		"languages": "De"
 	},
 	"Shanghai (Europe) (Compilation - Power Hits)": {
 		"languages": "En"
 	},
-	"Shanghai '98 (Germany) (Coverdisk - Amiga Special - Issue xx)": {
-		"languages": "De"
-	},
-	"Shaq-Fu (Europe)": {
+	"Shanghai (USA)": {
 		"languages": "En"
 	},
 	"Shaq-Fu (Europe) (AGA)": {
+		"languages": "En"
+	},
+	"Shaq-Fu (Europe)": {
 		"languages": "En"
 	},
 	"Sharkey's Moll (Europe)": {
@@ -7220,10 +7319,10 @@
 	"ShockWave (Europe)": {
 		"languages": "En"
 	},
-	"Shoot'Em-Up Construction Kit (Europe)": {
+	"Shoot'Em-Up Construction Kit (Europe) (Alt)": {
 		"languages": "En"
 	},
-	"Shoot'Em-Up Construction Kit (Europe) (Alt 1)": {
+	"Shoot'Em-Up Construction Kit (Europe)": {
 		"languages": "En"
 	},
 	"Shooting Star (Europe)": {
@@ -7241,10 +7340,10 @@
 	"Shufflepuck Cafe (France) (v1.0) (Compilation - NRJ - La Compil'Action Vol.2)": {
 		"languages": "Fr"
 	},
-	"Shuttle - The Space Flight Simulator (Europe) (En,Fr,De) (v1.0)": {
+	"Shuttle - The Space Flight Simulator (Europe) (En,Fr,De) (v1.0) (No Title Screen)": {
 		"languages": "En,Fr,De"
 	},
-	"Shuttle - The Space Flight Simulator (Europe) (En,Fr,De) (v1.0) (No Title Screen)": {
+	"Shuttle - The Space Flight Simulator (Europe) (En,Fr,De) (v1.0)": {
 		"languages": "En,Fr,De"
 	},
 	"Side Arms (Europe)": {
@@ -7274,17 +7373,14 @@
 	"Silicon Dreams (USA)": {
 		"languages": "En"
 	},
-	"Silkworm (Europe)": {
+	"Silkworm (Europe) (Alt)": {
 		"languages": "En"
 	},
-	"Silkworm (Europe) (Alt 1)": {
+	"Silkworm (Europe)": {
 		"languages": "En"
 	},
 	"Silly Putty (Europe) (ECS)": {
 		"languages": "En"
-	},
-	"SimAnt (Germany)": {
-		"languages": "De"
 	},
 	"SimAnt (Europe)": {
 		"languages": "En"
@@ -7292,22 +7388,31 @@
 	"SimAnt (France)": {
 		"languages": "Fr"
 	},
+	"SimAnt (Germany)": {
+		"languages": "De"
+	},
+	"SimCity 2000 (Europe) (AGA)": {
+		"languages": "En"
+	},
+	"SimCity 2000 (Germany) (AGA)": {
+		"languages": "De"
+	},
+	"SimCity (Europe) (512KB) (Alt 2)": {
+		"languages": "En"
+	},
+	"SimCity (Europe) (512KB) (Alt)": {
+		"languages": "En"
+	},
 	"SimCity (Europe) (512KB)": {
 		"languages": "En"
 	},
-	"SimCity (Europe) (512KB) (Alt 1)": {
-		"languages": "En"
-	},
-	"SimCity (USA) (v1.2)": {
+	"SimCity (Europe) (v1.2)": {
 		"languages": "En"
 	},
 	"SimCity (USA) (v1.0)": {
 		"languages": "En"
 	},
-	"SimCity (Europe) (512KB) (Alt 2)": {
-		"languages": "En"
-	},
-	"SimCity (Europe) (v1.2)": {
+	"SimCity (USA) (v1.2)": {
 		"languages": "En"
 	},
 	"SimCity - Architecture 1 - Future Cities (USA) (v1.00)": {
@@ -7319,58 +7424,52 @@
 	"SimCity - Terrain Editor (USA) (v1.0)": {
 		"languages": "En"
 	},
-	"SimCity 2000 (Germany) (AGA)": {
-		"languages": "De"
-	},
-	"SimCity 2000 (Europe) (AGA)": {
-		"languages": "En"
-	},
 	"SimEarth - The Living Planet (Europe) (v1.0 1992-07-08)": {
 		"languages": "En"
 	},
 	"SimEarth - The Living Planet (France) (v1.0 1992-07-08)": {
 		"languages": "Fr"
 	},
-	"SimLife (Germany)": {
-		"languages": "De"
-	},
 	"SimLife (Europe) (AGA)": {
 		"languages": "En"
-	},
-	"SimLife (France)": {
-		"languages": "Fr"
-	},
-	"SimLife (France) (AGA)": {
-		"languages": "Fr"
 	},
 	"SimLife (Europe)": {
 		"languages": "En"
 	},
+	"SimLife (France) (AGA)": {
+		"languages": "Fr"
+	},
+	"SimLife (France)": {
+		"languages": "Fr"
+	},
 	"SimLife (Germany) (AGA)": {
 		"languages": "De"
 	},
-	"Simon the Sorcerer (Germany) (AGA)": {
+	"SimLife (Germany)": {
 		"languages": "De"
 	},
 	"Simon the Sorcerer (Europe) (AGA)": {
 		"languages": "En"
 	},
-	"Simon the Sorcerer (Germany)": {
-		"languages": "De"
-	},
-	"Simon the Sorcerer (France)": {
-		"languages": "Fr"
+	"Simon the Sorcerer (Europe)": {
+		"languages": "En"
 	},
 	"Simon the Sorcerer (France) (AGA)": {
 		"languages": "Fr"
 	},
-	"Simon the Sorcerer (Europe)": {
+	"Simon the Sorcerer (France)": {
+		"languages": "Fr"
+	},
+	"Simon the Sorcerer (Germany) (AGA)": {
+		"languages": "De"
+	},
+	"Simon the Sorcerer (Germany)": {
+		"languages": "De"
+	},
+	"Simpsons, The - Bart vs. The Space Mutants (Europe) (Amiga 500 Plus Bundle - Cartoon Classics)": {
 		"languages": "En"
 	},
 	"Simpsons, The - Bart vs. The Space Mutants (Europe)": {
-		"languages": "En"
-	},
-	"Simpsons, The - Bart vs. The Space Mutants (Europe) (Amiga 500 Plus Bundle - Cartoon Classics)": {
 		"languages": "En"
 	},
 	"Simpsons, The - Bart vs. The World (Europe)": {
@@ -7436,16 +7535,16 @@
 	"Skyblaster (Europe) (Compilation - Amiga Star Collection)": {
 		"languages": "En"
 	},
-	"SkyChase (Europe)": {
-		"languages": "En"
-	},
 	"SkyChase (Europe) (Compilation - Supreme Challenge - Flight Command)": {
 		"languages": "En"
 	},
-	"Skyfox (USA)": {
+	"SkyChase (Europe)": {
 		"languages": "En"
 	},
 	"Skyfox (USA) (HLS)": {
+		"languages": "En"
+	},
+	"Skyfox (USA)": {
 		"languages": "En"
 	},
 	"Skyfox II - The Cygnus Conflict (Europe)": {
@@ -7454,10 +7553,13 @@
 	"Slamtilt (Europe) (AGA)": {
 		"languages": "En"
 	},
-	"Slayer (Europe)": {
+	"Slamtilt (Unknown)": {
 		"languages": "En"
 	},
 	"Slayer (Europe) (Budget - The 16 Bit Pocket Power Collection)": {
+		"languages": "En"
+	},
+	"Slayer (Europe)": {
 		"languages": "En"
 	},
 	"Slaygon (USA) (v1.1)": {
@@ -7469,10 +7571,10 @@
 	"Sleepwalker (Europe) (A1200 Bundle - Comic Relief Pack)": {
 		"languages": "En"
 	},
-	"Sleepwalker (Europe) (AGA)": {
+	"Sleepwalker (Europe) (AGA) (A1200 Bundle - Comic Relief Pack)": {
 		"languages": "En"
 	},
-	"Sleepwalker (Europe) (AGA) (A1200 Bundle - Comic Relief Pack)": {
+	"Sleepwalker (Europe) (AGA)": {
 		"languages": "En"
 	},
 	"Sleepwalker (Europe)": {
@@ -7496,10 +7598,10 @@
 	"Snapperazzi - The Alien Who Invades Your Space! (Europe)": {
 		"languages": "En"
 	},
-	"Snoopy - The Cool Computer Game (Europe)": {
+	"Snoopy - The Cool Computer Game (Europe) (Alt)": {
 		"languages": "En"
 	},
-	"Snoopy - The Cool Computer Game (Europe) (Alt 1)": {
+	"Snoopy - The Cool Computer Game (Europe)": {
 		"languages": "En"
 	},
 	"Snow Bros. (Europe)": {
@@ -7508,10 +7610,10 @@
 	"Snow Strike (Europe)": {
 		"languages": "En"
 	},
-	"Soccer Kid (Europe) (En,Fr,De,Es,It)": {
+	"Soccer Kid (Europe) (En,Fr,De,Es,It) (AGA)": {
 		"languages": "En,Fr,De,Es,It"
 	},
-	"Soccer Kid (Europe) (En,Fr,De,Es,It) (AGA)": {
+	"Soccer Kid (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
 	},
 	"Soccer King (Germany) (Compilation - Shooting Stars 1)": {
@@ -7566,6 +7668,9 @@
 		"languages": "En"
 	},
 	"Space Ace (Europe)": {
+		"languages": "En"
+	},
+	"Space Ace (Unknown)": {
 		"languages": "En"
 	},
 	"Space Ace II - Borf's Revenge (Europe)": {
@@ -7664,22 +7769,22 @@
 	"Special Forces (Europe) (En,Fr,De) (v1 1992-02-10) (1MB)": {
 		"languages": "En,Fr,De"
 	},
-	"Speedball (USA) (v1.05)": {
+	"Speedball 2 - Brutal Deluxe (Europe) (Budget - Kixx)": {
 		"languages": "En"
 	},
-	"Speedball (Europe) (v1.10)": {
+	"Speedball 2 - Brutal Deluxe (Europe) (v1.00) (Compilation - The Bitmap Brothers - Volume 1)": {
 		"languages": "En"
 	},
 	"Speedball 2 - Brutal Deluxe (Europe)": {
 		"languages": "En"
 	},
-	"Speedball 2 - Brutal Deluxe (Europe) (Budget - Kixx)": {
-		"languages": "En"
-	},
 	"Speedball 2 - Brutal Deluxe (USA)": {
 		"languages": "En"
 	},
-	"Speedball 2 - Brutal Deluxe (Europe) (v1.00) (Compilation - The Bitmap Brothers - Volume 1)": {
+	"Speedball (Europe) (v1.10)": {
+		"languages": "En"
+	},
+	"Speedball (USA) (v1.05)": {
 		"languages": "En"
 	},
 	"Speedboat Assassins (Europe)": {
@@ -7721,13 +7826,13 @@
 	"Spirit of Adventure (Germany) (Coverdisk - Amiga Fun - Issue xx)": {
 		"languages": "De"
 	},
+	"Spirit of Excalibur (Europe) (Compilation - Strategy Masters)": {
+		"languages": "En"
+	},
 	"Spirit of Excalibur (Europe)": {
 		"languages": "En"
 	},
 	"Spirit of Excalibur (USA)": {
-		"languages": "En"
-	},
-	"Spirit of Excalibur (Europe) (Compilation - Strategy Masters)": {
 		"languages": "En"
 	},
 	"Spitting Image (Europe)": {
@@ -7746,6 +7851,9 @@
 		"languages": "En"
 	},
 	"St Dragon (Europe)": {
+		"languages": "En"
+	},
+	"St. Dragon (Unknown)": {
 		"languages": "En"
 	},
 	"Stack Up (Europe)": {
@@ -7775,31 +7883,31 @@
 	"Star Trek - 25th Anniversary (Europe) (AGA)": {
 		"languages": "En"
 	},
-	"Star Trek - 25th Anniversary (Germany) (AGA)": {
-		"languages": "De"
-	},
 	"Star Trek - 25th Anniversary (France) (AGA)": {
 		"languages": "Fr"
 	},
-	"Star Wars (Europe) (Tengen)": {
-		"languages": "En"
+	"Star Trek - 25th Anniversary (Germany) (AGA)": {
+		"languages": "De"
 	},
 	"Star Wars (Europe) (Atari)": {
 		"languages": "En"
 	},
-	"Star Wars - Return of the Jedi (Europe)": {
+	"Star Wars (Europe) (Tengen)": {
+		"languages": "En"
+	},
+	"Star Wars + James Bond 007 - Licence to Kill (Europe) (Compilation - Heroes)": {
 		"languages": "En"
 	},
 	"Star Wars - Return of the Jedi (Europe) (Compilation - The Star Wars Trilogy)": {
 		"languages": "En"
 	},
-	"Star Wars - The Empire Strikes Back (Europe)": {
+	"Star Wars - Return of the Jedi (Europe)": {
 		"languages": "En"
 	},
 	"Star Wars - The Empire Strikes Back (Europe) (Compilation - The Star Wars Trilogy)": {
 		"languages": "En"
 	},
-	"Star Wars + James Bond 007 - Licence to Kill (Europe) (Compilation - Heroes)": {
+	"Star Wars - The Empire Strikes Back (Europe)": {
 		"languages": "En"
 	},
 	"Starball (Europe)": {
@@ -7814,10 +7922,10 @@
 	"Starcross (USA) (r17)": {
 		"languages": "En"
 	},
-	"Stardust (Europe)": {
+	"Stardust (Europe) (Alt)": {
 		"languages": "En"
 	},
-	"Stardust (Europe) (Alt 1)": {
+	"Stardust (Europe)": {
 		"languages": "En"
 	},
 	"StarFlight (Europe)": {
@@ -7826,28 +7934,28 @@
 	"StarFlight II (Europe)": {
 		"languages": "En"
 	},
-	"StarGlider (Europe)": {
-		"languages": "En"
-	},
 	"Starglider 2 (Europe) (En,Fr,De) (Amiga + ST)": {
 		"languages": "En,Fr,De"
 	},
+	"StarGlider (Europe)": {
+		"languages": "En"
+	},
 	"StarGoose! (Europe)": {
+		"languages": "En"
+	},
+	"Starlord (Europe)": {
 		"languages": "En"
 	},
 	"Starlord (Germany)": {
 		"languages": "De"
 	},
-	"Starlord (Europe)": {
-		"languages": "En"
-	},
-	"StarRay (Europe)": {
+	"StarRay (Europe) (Budget - The 16 Bit Pocket Power Collection)": {
 		"languages": "En"
 	},
 	"StarRay (Europe) (Compilation - Hyperaction)": {
 		"languages": "En"
 	},
-	"StarRay (Europe) (Budget - The 16 Bit Pocket Power Collection)": {
+	"StarRay (Europe)": {
 		"languages": "En"
 	},
 	"Starush (Europe)": {
@@ -7859,10 +7967,10 @@
 	"Stationfall (USA) (r107)": {
 		"languages": "En"
 	},
-	"Steel (Europe)": {
+	"Steel (Europe) (Budget - Black Edition)": {
 		"languages": "En"
 	},
-	"Steel (Europe) (Budget - Black Edition)": {
+	"Steel (Europe)": {
 		"languages": "En"
 	},
 	"Steel Empire (Europe) (En,Fr,De,It)": {
@@ -7910,16 +8018,16 @@
 	"Strange New World (Europe)": {
 		"languages": "En"
 	},
-	"Street Fighter (Europe)": {
-		"languages": "En"
-	},
 	"Street Fighter (Europe) (Amiga + PC) (Budget - Kixx)": {
 		"languages": "En"
 	},
-	"Street Fighter II - The World Warrior (Europe)": {
+	"Street Fighter (Europe)": {
 		"languages": "En"
 	},
-	"Street Fighter II - The World Warrior (Europe) (Alt 1)": {
+	"Street Fighter II - The World Warrior (Europe) (Alt)": {
+		"languages": "En"
+	},
+	"Street Fighter II - The World Warrior (Europe)": {
 		"languages": "En"
 	},
 	"Street Racer (Europe) (AGA)": {
@@ -7982,10 +8090,10 @@
 	"Subtrade - Return to Irata (Europe)": {
 		"languages": "En"
 	},
-	"Suburban Commando (Europe)": {
+	"Suburban Commando (Europe) (Compilation - The Sci-Fi Collection)": {
 		"languages": "En"
 	},
-	"Suburban Commando (Europe) (Compilation - The Sci-Fi Collection)": {
+	"Suburban Commando (Europe)": {
 		"languages": "En"
 	},
 	"SubVersion 1.0 (Europe)": {
@@ -8021,13 +8129,13 @@
 	"Supaplex (Europe)": {
 		"languages": "En"
 	},
+	"Super Cars (Europe) (Budget - GBH)": {
+		"languages": "En"
+	},
 	"Super Cars (Europe) (Compilation - 16 Bit Hit Machine)": {
 		"languages": "En"
 	},
 	"Super Cars (Europe)": {
-		"languages": "En"
-	},
-	"Super Cars (Europe) (Budget - GBH)": {
 		"languages": "En"
 	},
 	"Super Cars II (Europe)": {
@@ -8042,10 +8150,10 @@
 	"Super Huey - UH-1X (Europe)": {
 		"languages": "En"
 	},
-	"Super League Manager (Europe)": {
+	"Super League Manager (Europe) (AGA)": {
 		"languages": "En"
 	},
-	"Super League Manager (Europe) (AGA)": {
+	"Super League Manager (Europe)": {
 		"languages": "En"
 	},
 	"Super Monaco GP (Europe)": {
@@ -8072,10 +8180,10 @@
 	"Super Skweek (France) (Compilation - Les Stars)": {
 		"languages": "Fr"
 	},
-	"Super Space Invaders (Europe)": {
+	"Super Space Invaders (Europe) (Alt)": {
 		"languages": "En"
 	},
-	"Super Space Invaders (Europe) (Alt 1)": {
+	"Super Space Invaders (Europe)": {
 		"languages": "En"
 	},
 	"Super Sport Challenge (Europe)": {
@@ -8084,10 +8192,10 @@
 	"Super Stardust (Europe) (AGA)": {
 		"languages": "En"
 	},
-	"Super Street Fighter II - The New Challengers (Europe)": {
+	"Super Street Fighter II - The New Challengers (Europe) (AGA)": {
 		"languages": "En"
 	},
-	"Super Street Fighter II - The New Challengers (Europe) (AGA)": {
+	"Super Street Fighter II - The New Challengers (Europe)": {
 		"languages": "En"
 	},
 	"Super Street Fighter II Turbo (Europe) (AGA)": {
@@ -8104,6 +8212,9 @@
 	},
 	"Super Zocker + Blackjack II (Germany) (Coverdisk)": {
 		"languages": "De"
+	},
+	"SuperDuper (v2.02) (Unknown)": {
+		"languages": "En"
 	},
 	"Superfrog (Europe)": {
 		"languages": "En"
@@ -8132,6 +8243,9 @@
 	"Suspicious Cargo - Special Edition (Europe)": {
 		"languages": "En"
 	},
+	"Sveriges geografi II (v2.01) (Unknown)": {
+		"languages": "En"
+	},
 	"Swap (Europe) (v2.1)": {
 		"languages": "En"
 	},
@@ -8145,6 +8259,9 @@
 		"languages": "En"
 	},
 	"SWIV (Europe)": {
+		"languages": "En"
+	},
+	"SWIV (Unknown)": {
 		"languages": "En"
 	},
 	"Swooper (Europe)": {
@@ -8168,28 +8285,28 @@
 	"Swords of Twilight (Europe)": {
 		"languages": "En"
 	},
-	"Syndicate (Germany)": {
-		"languages": "De"
+	"Syndicate (Europe) (En,Fr,It) (Compilation - Chaos Pack)": {
+		"languages": "En,Fr,It"
 	},
 	"Syndicate (Europe) (En,Fr,It)": {
 		"languages": "En,Fr,It"
 	},
-	"Syndicate (Europe) (En,Fr,It) (Compilation - Chaos Pack)": {
-		"languages": "En,Fr,It"
+	"Syndicate (Germany)": {
+		"languages": "De"
 	},
 	"Table Tennis Simulation (Europe)": {
-		"languages": "En"
-	},
-	"Tactical Manager (Europe) (v2.36)": {
-		"languages": "En"
-	},
-	"Tactical Manager - Italia (Europe)": {
 		"languages": "En"
 	},
 	"Tactical Manager 2 (Europe) (v2.43)": {
 		"languages": "En"
 	},
 	"Tactical Manager 94-95 Season (Europe)": {
+		"languages": "En"
+	},
+	"Tactical Manager (Europe) (v2.36)": {
+		"languages": "En"
+	},
+	"Tactical Manager - Italia (Europe)": {
 		"languages": "En"
 	},
 	"Takado (Germany)": {
@@ -8255,10 +8372,10 @@
 	"Tennis Cup II (Europe)": {
 		"languages": "En"
 	},
-	"Terminator 2 - Judgment Day (Europe)": {
+	"Terminator 2 - Judgment Day (Europe) (Alt)": {
 		"languages": "En"
 	},
-	"Terminator 2 - Judgment Day (Europe) (Alt 1)": {
+	"Terminator 2 - Judgment Day (Europe)": {
 		"languages": "En"
 	},
 	"Terminator 2 - The Arcade Game (Europe)": {
@@ -8276,10 +8393,10 @@
 	"Terry's Big Adventure (Europe)": {
 		"languages": "En"
 	},
-	"Test Drive (Europe)": {
+	"Test Drive (Europe) (Alt)": {
 		"languages": "En"
 	},
-	"Test Drive (Europe) (Alt 1)": {
+	"Test Drive (Europe)": {
 		"languages": "En"
 	},
 	"Test Drive II - The Duel (Europe)": {
@@ -8312,10 +8429,16 @@
 	"Tetris + Joe Blade (Europe) (Compilation - Computer Hits - Volume Two)": {
 		"languages": "En"
 	},
+	"Thai Boxing (Europe) (Anco)": {
+		"languages": "En"
+	},
 	"Thai Boxing (Europe) (Budget)": {
 		"languages": "En"
 	},
-	"Thai Boxing (Europe) (Anco)": {
+	"The 3 Stooges (Unknown)": {
+		"languages": "En"
+	},
+	"The New Zealand Story (Jubileum) (Unknown)": {
 		"languages": "En"
 	},
 	"Theatre of Death (Europe)": {
@@ -8330,10 +8453,10 @@
 	"Their Finest Missions - Volume 1 (Europe) (Addon)": {
 		"languages": "En"
 	},
-	"Theme Park (Europe) (En,Fr,De,It)": {
+	"Theme Park (Europe) (En,Fr,De,It) (AGA)": {
 		"languages": "En,Fr,De,It"
 	},
-	"Theme Park (Europe) (En,Fr,De,It) (AGA)": {
+	"Theme Park (Europe) (En,Fr,De,It)": {
 		"languages": "En,Fr,De,It"
 	},
 	"Theme Park Mystery (Europe)": {
@@ -8351,31 +8474,31 @@
 	"Third Courier, The (Europe)": {
 		"languages": "En"
 	},
-	"Thomas the Tank Engine (Europe)": {
+	"Thomas the Tank Engine 2 (Europe)": {
 		"languages": "En"
 	},
 	"Thomas the Tank Engine & Friends - Pinball (Europe) (AGA)": {
 		"languages": "En"
 	},
-	"Thomas the Tank Engine 2 (Europe)": {
+	"Thomas the Tank Engine (Europe)": {
 		"languages": "En"
 	},
 	"Three Bears, The (Europe)": {
 		"languages": "En"
 	},
+	"Three Stooges, The (Europe)": {
+		"languages": "En"
+	},
 	"Three Stooges, The (USA)": {
 		"languages": "En"
 	},
-	"Three Stooges, The (Europe)": {
+	"Thunder Blade (Europe) (Budget - Kixx)": {
 		"languages": "En"
 	},
 	"Thunder Blade (Europe)": {
 		"languages": "En"
 	},
 	"Thunder Blade (USA) (Budget - Kixx)": {
-		"languages": "En"
-	},
-	"Thunder Blade (Europe) (Budget - Kixx)": {
 		"languages": "En"
 	},
 	"Thunder Boy (Europe)": {
@@ -8411,11 +8534,11 @@
 	"Tilt (Europe)": {
 		"languages": "En"
 	},
-	"Time (Germany)": {
-		"languages": "De"
-	},
 	"Time (France)": {
 		"languages": "Fr"
+	},
+	"Time (Germany)": {
+		"languages": "De"
 	},
 	"Time and Magik (Europe)": {
 		"languages": "En"
@@ -8430,6 +8553,30 @@
 		"languages": "En"
 	},
 	"Time Runners 1 - Gateways in Time (Europe) (En,Fr,De,Es,It)": {
+		"languages": "En,Fr,De,Es,It"
+	},
+	"Time Runners 2 - The Space Stone (Europe) (En,Fr,De,Es,It)": {
+		"languages": "En,Fr,De,Es,It"
+	},
+	"Time Runners 3 - The Big Run (Europe) (En,Fr,De,Es,It)": {
+		"languages": "En,Fr,De,Es,It"
+	},
+	"Time Runners 4 - The Castle of Fear (Europe) (En,Fr,De,Es,It)": {
+		"languages": "En,Fr,De,Es,It"
+	},
+	"Time Runners 5 - The Black Knight (Europe) (En,Fr,De,Es,It)": {
+		"languages": "En,Fr,De,Es,It"
+	},
+	"Time Runners 6 - The Bewitched Forest (Europe) (En,Fr,De,Es,It)": {
+		"languages": "En,Fr,De,Es,It"
+	},
+	"Time Runners 7 - In the Land of the Invaders (Europe) (En,Fr,De,Es,It)": {
+		"languages": "En,Fr,De,Es,It"
+	},
+	"Time Runners 8 - The Impregnable Fortress (Europe) (En,Fr,De,Es,It)": {
+		"languages": "En,Fr,De,Es,It"
+	},
+	"Time Runners 9 - The Time Demon (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
 	},
 	"Time Runners 11 - The Steel City (Europe) (En,Fr,De,Es,It)": {
@@ -8457,9 +8604,6 @@
 		"languages": "En,Fr,De,Es,It"
 	},
 	"Time Runners 19 - The Nightmare Prince (Europe) (En,Fr,De,Es,It)": {
-		"languages": "En,Fr,De,Es,It"
-	},
-	"Time Runners 2 - The Space Stone (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
 	},
 	"Time Runners 20 - The Mountains of Death (Europe) (En,Fr,De,Es,It)": {
@@ -8492,28 +8636,7 @@
 	"Time Runners 29 - The Last Revelation (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
 	},
-	"Time Runners 3 - The Big Run (Europe) (En,Fr,De,Es,It)": {
-		"languages": "En,Fr,De,Es,It"
-	},
 	"Time Runners 30 - The Final Duel (Europe) (En,Fr,De,Es,It)": {
-		"languages": "En,Fr,De,Es,It"
-	},
-	"Time Runners 4 - The Castle of Fear (Europe) (En,Fr,De,Es,It)": {
-		"languages": "En,Fr,De,Es,It"
-	},
-	"Time Runners 5 - The Black Knight (Europe) (En,Fr,De,Es,It)": {
-		"languages": "En,Fr,De,Es,It"
-	},
-	"Time Runners 6 - The Bewitched Forest (Europe) (En,Fr,De,Es,It)": {
-		"languages": "En,Fr,De,Es,It"
-	},
-	"Time Runners 7 - In the Land of the Invaders (Europe) (En,Fr,De,Es,It)": {
-		"languages": "En,Fr,De,Es,It"
-	},
-	"Time Runners 8 - The Impregnable Fortress (Europe) (En,Fr,De,Es,It)": {
-		"languages": "En,Fr,De,Es,It"
-	},
-	"Time Runners 9 - The Time Demon (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
 	},
 	"Time Scanner (Europe)": {
@@ -8558,13 +8681,13 @@
 	"Toki (Europe)": {
 		"languages": "En"
 	},
+	"Tom & Jerry 2 (Europe)": {
+		"languages": "En"
+	},
 	"Tom & Jerry (Europe)": {
 		"languages": "En"
 	},
 	"Tom & Jerry - Hunting High and Low (Europe)": {
-		"languages": "En"
-	},
-	"Tom & Jerry 2 (Europe)": {
 		"languages": "En"
 	},
 	"Tom and the Ghost (Europe) (En,Fr,De)": {
@@ -8582,10 +8705,10 @@
 	"Top Banana (Europe)": {
 		"languages": "En"
 	},
-	"Top Gear 2 (Europe)": {
+	"Top Gear 2 (Europe) (AGA)": {
 		"languages": "En"
 	},
-	"Top Gear 2 (Europe) (AGA)": {
+	"Top Gear 2 (Europe)": {
 		"languages": "En"
 	},
 	"Torch 2081 (Europe)": {
@@ -8609,10 +8732,10 @@
 	"Total Football (Europe)": {
 		"languages": "En"
 	},
-	"Total Recall (Europe) (Compilation - 2 Hot 2 Handle)": {
+	"Total Recall (Europe) (Budget - The Hit Squad)": {
 		"languages": "En"
 	},
-	"Total Recall (Europe) (Budget - The Hit Squad)": {
+	"Total Recall (Europe) (Compilation - 2 Hot 2 Handle)": {
 		"languages": "En"
 	},
 	"Tournament Golf (Europe)": {
@@ -8639,11 +8762,11 @@
 	"Tracker (Europe)": {
 		"languages": "En"
 	},
+	"Traders (Germany) (Alt)": {
+		"languages": "De"
+	},
 	"Traders (Germany) (En)": {
 		"languages": "En"
-	},
-	"Traders (Germany) (Alt 1)": {
-		"languages": "De"
 	},
 	"Trained Assassin (Europe)": {
 		"languages": "En"
@@ -8699,17 +8822,17 @@
 	"Trivia Trove (Germany)": {
 		"languages": "De"
 	},
-	"Trivial Pursuit - A New Beginning (Germany)": {
-		"languages": "De"
-	},
 	"Trivial Pursuit - A New Beginning (Europe) (Compilation - Arcade Action)": {
 		"languages": "En"
 	},
-	"Trivial Pursuit - The Computer Game - Genus Edition (Germany)": {
+	"Trivial Pursuit - A New Beginning (Germany)": {
 		"languages": "De"
 	},
 	"Trivial Pursuit - The Computer Game - Genus Edition (France) (Compilation - 10 Megahits Vol. 3)": {
 		"languages": "Fr"
+	},
+	"Trivial Pursuit - The Computer Game - Genus Edition (Germany)": {
+		"languages": "De"
 	},
 	"Trivial Pursuit - The Language Laboratory Edition + Amiga Text (Europe) (ECS) (Amiga 600 HD Bundles - Epic + Language Lab)": {
 		"languages": "En"
@@ -8720,13 +8843,13 @@
 	"Trojan LightPen Driver and KwikDraw Program (Europe)": {
 		"languages": "En"
 	},
-	"Trolls (Europe) (ECS)": {
-		"languages": "En"
-	},
 	"Trolls (Europe) (AGA)": {
 		"languages": "En"
 	},
-	"Trolls (Europe) (ECS) (Alt 1)": {
+	"Trolls (Europe) (ECS) (Alt)": {
+		"languages": "En"
+	},
+	"Trolls (Europe) (ECS)": {
 		"languages": "En"
 	},
 	"Turbo (Europe)": {
@@ -8750,20 +8873,26 @@
 	"Turn 'n' Burn (Europe)": {
 		"languages": "En"
 	},
+	"Turrican 2 (Unknown)": {
+		"languages": "En"
+	},
+	"Turrican 3 (Europe)": {
+		"languages": "En"
+	},
+	"Turrican 3 (Unknown)": {
+		"languages": "En"
+	},
 	"Turrican (Europe)": {
 		"languages": "En"
 	},
 	"Turrican (USA)": {
 		"languages": "En"
 	},
-	"Turrican 3 (Europe)": {
+	"Turrican II - The Final Fight (Europe)": {
 		"languages": "En"
 	},
 	"Turrican II - The Final Fight (Italy)": {
 		"languages": "It"
-	},
-	"Turrican II - The Final Fight (Europe)": {
-		"languages": "En"
 	},
 	"Turrican III - Payment Day (Germany)": {
 		"languages": "De"
@@ -8777,13 +8906,16 @@
 	"TV Sports Basketball (Europe)": {
 		"languages": "En"
 	},
+	"TV Sports Basketball (Unknown)": {
+		"languages": "En"
+	},
 	"TV Sports Boxing (Europe)": {
 		"languages": "En"
 	},
-	"TV Sports Football (Europe)": {
+	"TV Sports Football (Europe) (0407) (Alt)": {
 		"languages": "En"
 	},
-	"TV Sports Football (Europe) (Alt - 0407)": {
+	"TV Sports Football (Europe)": {
 		"languages": "En"
 	},
 	"Twilight Zone, The (USA)": {
@@ -8798,10 +8930,10 @@
 	"Twylyte (Europe)": {
 		"languages": "En"
 	},
-	"Typhoon (Europe) (v1.01)": {
+	"Typhoon (Europe) (v1.01) (Alt)": {
 		"languages": "En"
 	},
-	"Typhoon (Europe) (v1.01) (Alt 1)": {
+	"Typhoon (Europe) (v1.01)": {
 		"languages": "En"
 	},
 	"Typhoon Thompson in Search for the Sea Child (USA)": {
@@ -8861,11 +8993,11 @@
 	"Universal Warrior (Europe)": {
 		"languages": "En"
 	},
-	"Universe (Europe) (En,Fr,De,It)": {
-		"languages": "En,Fr,De,It"
-	},
 	"Universe 3 (USA)": {
 		"languages": "En"
+	},
+	"Universe (Europe) (En,Fr,De,It)": {
+		"languages": "En,Fr,De,It"
 	},
 	"Unreal (Europe)": {
 		"languages": "En"
@@ -8879,10 +9011,13 @@
 	"Uridium 2 (Europe) (v1.04)": {
 		"languages": "En"
 	},
+	"Uridium 2 (Europe) (vP1.01, D1.01)": {
+		"languages": "En"
+	},
 	"Uridium 2 (Europe)": {
 		"languages": "En"
 	},
-	"Uridium 2 (Europe) (vP1.01, D1.01)": {
+	"Uridium 2 (Unknown)": {
 		"languages": "En"
 	},
 	"Utopia - Scenario Disk - The New Worlds (Europe) (Addon)": {
@@ -8918,10 +9053,10 @@
 	"Vengeance of Excalibur (Europe)": {
 		"languages": "En"
 	},
-	"Venus - The Flytrap (Europe)": {
+	"Venus - The Flytrap (Europe) (Alt)": {
 		"languages": "En"
 	},
-	"Venus - The Flytrap (Europe) (Alt 1)": {
+	"Venus - The Flytrap (Europe)": {
 		"languages": "En"
 	},
 	"Vermeer (Germany)": {
@@ -8951,10 +9086,10 @@
 	"Violator + Super Grand Prix (Europe) (Compilation - Quattro Power Machines)": {
 		"languages": "En"
 	},
-	"Virocop (Europe)": {
+	"Virocop (Europe) (AGA)": {
 		"languages": "En"
 	},
-	"Virocop (Europe) (AGA)": {
+	"Virocop (Europe)": {
 		"languages": "En"
 	},
 	"Virtual Karting (Europe) (AGA)": {
@@ -8981,19 +9116,19 @@
 	"Volleyball Simulator (Europe)": {
 		"languages": "En"
 	},
-	"Voodoo Nightmare (Europe)": {
+	"Voodoo Nightmare (Europe) (Budget - GBH)": {
 		"languages": "En"
 	},
-	"Voodoo Nightmare (Europe) (Budget - GBH)": {
+	"Voodoo Nightmare (Europe)": {
 		"languages": "En"
 	},
 	"Vortex (USA)": {
 		"languages": "En"
 	},
-	"Voyager (Europe) (En,Fr,De)": {
+	"Voyager (Europe) (En,Fr,De) (Budget - The Hit Squad)": {
 		"languages": "En,Fr,De"
 	},
-	"Voyager (Europe) (En,Fr,De) (Budget - The Hit Squad)": {
+	"Voyager (Europe) (En,Fr,De)": {
 		"languages": "En,Fr,De"
 	},
 	"Voyages of Discovery (Europe) (v1.00 20.2.1995)": {
@@ -9056,19 +9191,19 @@
 	"Warlock the Avenger (Europe)": {
 		"languages": "En"
 	},
-	"Warlock's Quest (Europe)": {
+	"Warlock's Quest (Europe) (Compilation - Super Quintet)": {
 		"languages": "En"
 	},
-	"Warlock's Quest (Europe) (Compilation - Super Quintet)": {
+	"Warlock's Quest (Europe)": {
 		"languages": "En"
 	},
 	"Warlords (Europe) (v2.00)": {
 		"languages": "En"
 	},
-	"Warp (Europe)": {
+	"Warp (Europe) (Compilation - The First Year)": {
 		"languages": "En"
 	},
-	"Warp (Europe) (Compilation - The First Year)": {
+	"Warp (Europe)": {
 		"languages": "En"
 	},
 	"Warriors of Releyne (Europe) (En,Fr,De,Es,It) (v1.00)": {
@@ -9080,14 +9215,11 @@
 	"Watchtower (Europe) (AGA)": {
 		"languages": "En"
 	},
-	"Waterloo (Europe)": {
-		"languages": "En"
-	},
 	"Waterloo (Europe) (Compilation - Turning Points)": {
 		"languages": "En"
 	},
-	"Waxworks (Germany)": {
-		"languages": "De"
+	"Waterloo (Europe)": {
+		"languages": "En"
 	},
 	"Waxworks (Europe)": {
 		"languages": "En"
@@ -9095,19 +9227,22 @@
 	"Waxworks (France)": {
 		"languages": "Fr"
 	},
+	"Waxworks (Germany)": {
+		"languages": "De"
+	},
 	"Way of the Little Dragon, The (Europe)": {
 		"languages": "En"
 	},
 	"Way of the Little Dragon, The + Spinworld (Europe) (Compilation - Amiga Star Collection)": {
 		"languages": "En"
 	},
+	"Wayne Gretzky Hockey 2 (Europe)": {
+		"languages": "En"
+	},
 	"Wayne Gretzky Hockey (Europe)": {
 		"languages": "En"
 	},
 	"Wayne Gretzky Hockey - 1989 NHL Data Disk (Europe) (Addon)": {
-		"languages": "En"
-	},
-	"Wayne Gretzky Hockey 2 (Europe)": {
 		"languages": "En"
 	},
 	"Ween - The Prophecy (France)": {
@@ -9128,22 +9263,22 @@
 	"Western Games (Europe)": {
 		"languages": "En"
 	},
-	"Whale's Voyage (Germany) (v1.2)": {
+	"Whale's Voyage 2 (Germany)": {
 		"languages": "De"
 	},
 	"Whale's Voyage (Europe) (v1.2)": {
 		"languages": "En"
 	},
-	"Whale's Voyage (Germany) (v1.2) (Alt 1)": {
+	"Whale's Voyage (Germany) (v1.2) (Alt)": {
 		"languages": "De"
 	},
-	"Whale's Voyage 2 (Germany)": {
-		"languages": "De"
-	},
-	"When Two Worlds War (Germany) (v1.01)": {
+	"Whale's Voyage (Germany) (v1.2)": {
 		"languages": "De"
 	},
 	"When Two Worlds War (Germany) (v1.01) (AGA)": {
+		"languages": "De"
+	},
+	"When Two Worlds War (Germany) (v1.01)": {
 		"languages": "De"
 	},
 	"Where in the World is Carmen Sandiego (USA) (v1.1)": {
@@ -9155,22 +9290,22 @@
 	"White Death - Battle for Velikiye Luki, November 1942 (Europe) (v1.3.6)": {
 		"languages": "En"
 	},
-	"Whizz (Europe) (ECS)": {
-		"languages": "En"
-	},
 	"Whizz (Europe) (AGA) (Amiga 1200 Bundle - Amiga Magic)": {
 		"languages": "En"
 	},
 	"Whizz (Europe) (AGA)": {
 		"languages": "En"
 	},
+	"Whizz (Europe) (ECS)": {
+		"languages": "En"
+	},
 	"Who Framed Roger Rabbit (Europe)": {
 		"languages": "En"
 	},
-	"Wicked (Europe)": {
+	"Wicked (Europe) (Compilation - Power Hits)": {
 		"languages": "En"
 	},
-	"Wicked (Europe) (Compilation - Power Hits)": {
+	"Wicked (Europe)": {
 		"languages": "En"
 	},
 	"Wikinger + Bliff + Quadriga (Germany) (Coverdisk - Amiga Spiele 1)": {
@@ -9197,11 +9332,11 @@
 	"Wind in the Willows (Europe)": {
 		"languages": "En"
 	},
-	"Wind Surf Willy (France)": {
-		"languages": "Fr"
-	},
 	"Wind Surf Willy (Europe) (Hits for Six - Volume 7)": {
 		"languages": "En"
+	},
+	"Wind Surf Willy (France)": {
+		"languages": "Fr"
 	},
 	"Window Wizard (Europe)": {
 		"languages": "En"
@@ -9209,11 +9344,11 @@
 	"Windwalker (USA)": {
 		"languages": "En"
 	},
-	"Wing Commander (Germany)": {
-		"languages": "De"
-	},
 	"Wing Commander (Europe)": {
 		"languages": "En"
+	},
+	"Wing Commander (Germany)": {
+		"languages": "De"
 	},
 	"Wings (Europe)": {
 		"languages": "En"
@@ -9263,19 +9398,19 @@
 	"Wizard Warz (Europe)": {
 		"languages": "En"
 	},
-	"Wizardry - Bane of the Cosmic Forge (Germany)": {
-		"languages": "De"
-	},
 	"Wizardry - Bane of the Cosmic Forge (Europe)": {
 		"languages": "En"
 	},
-	"Wizball (Europe)": {
+	"Wizardry - Bane of the Cosmic Forge (Germany)": {
+		"languages": "De"
+	},
+	"Wizball (Europe) (Budget - The Hit Squad)": {
 		"languages": "En"
 	},
 	"Wizball (Europe) (Compilation - TenStar Pack)": {
 		"languages": "En"
 	},
-	"Wizball (Europe) (Budget - The Hit Squad)": {
+	"Wizball (Europe)": {
 		"languages": "En"
 	},
 	"Wizkid (Europe) (En,Fr,De)": {
@@ -9296,16 +9431,22 @@
 	"Woody's World (Europe)": {
 		"languages": "En"
 	},
+	"Workbench (Sweden, Finland) (Unknown) (v1.3)": {
+		"languages": "En"
+	},
+	"Workbench (Unknown) (v2.05)": {
+		"languages": "En"
+	},
 	"World Championship Boxing Manager (Europe)": {
 		"languages": "En"
 	},
 	"World Championship Soccer (Europe)": {
 		"languages": "En"
 	},
-	"World Class Rugby (Europe)": {
+	"World Class Rugby '95 (Europe)": {
 		"languages": "En"
 	},
-	"World Class Rugby '95 (Europe)": {
+	"World Class Rugby (Europe)": {
 		"languages": "En"
 	},
 	"World Cricket (Europe)": {
@@ -9359,25 +9500,25 @@
 	"Wreckers (Europe)": {
 		"languages": "En"
 	},
+	"WWF European Rampage Tour (Europe) (Alt)": {
+		"languages": "En"
+	},
 	"WWF European Rampage Tour (Europe)": {
-		"languages": "En"
-	},
-	"WWF European Rampage Tour (Europe) (Alt 1)": {
-		"languages": "En"
-	},
-	"WWF WrestleMania (Europe)": {
 		"languages": "En"
 	},
 	"WWF WrestleMania (Europe) (Budget - The Hit Squad)": {
 		"languages": "En"
 	},
+	"WWF WrestleMania (Europe)": {
+		"languages": "En"
+	},
 	"X-It (Europe)": {
 		"languages": "En"
 	},
-	"X-Out (Europe)": {
+	"X-Out (Europe) (Budget - Kixx)": {
 		"languages": "En"
 	},
-	"X-Out (Europe) (Budget - Kixx)": {
+	"X-Out (Europe)": {
 		"languages": "En"
 	},
 	"Xenomorph (Europe)": {
@@ -9386,13 +9527,7 @@
 	"Xenomorph (Germany)": {
 		"languages": "De"
 	},
-	"Xenon (Europe)": {
-		"languages": "En"
-	},
-	"Xenon (Europe) (Compilation - Precious Metal)": {
-		"languages": "En"
-	},
-	"Xenon 2 - Megablast (Europe)": {
+	"Xenon 2 - Megablast (Europe) (Alt)": {
 		"languages": "En"
 	},
 	"Xenon 2 - Megablast (Europe) (Compilation - Brainblasters)": {
@@ -9401,7 +9536,13 @@
 	"Xenon 2 - Megablast (Europe) (Compilation - The Power Pack)": {
 		"languages": "En"
 	},
-	"Xenon 2 - Megablast (Europe) (Alt 1)": {
+	"Xenon 2 - Megablast (Europe)": {
+		"languages": "En"
+	},
+	"Xenon (Europe) (Compilation - Precious Metal)": {
+		"languages": "En"
+	},
+	"Xenon (Europe)": {
 		"languages": "En"
 	},
 	"Xenophobe (Europe)": {
@@ -9413,13 +9554,13 @@
 	"XP8 (Europe)": {
 		"languages": "En"
 	},
+	"XR35 Fighter Mission (Europe) (0034) (Alt)": {
+		"languages": "En"
+	},
+	"XR35 Fighter Mission (Europe) (Alt)": {
+		"languages": "En"
+	},
 	"XR35 Fighter Mission (Europe)": {
-		"languages": "En"
-	},
-	"XR35 Fighter Mission (Europe) (Alt 1)": {
-		"languages": "En"
-	},
-	"XR35 Fighter Mission (Europe) (Alt - 0034)": {
 		"languages": "En"
 	},
 	"XTreme Racing (Europe) (AGA)": {
@@ -9449,14 +9590,14 @@
 	"Z-Out (Europe)": {
 		"languages": "En"
 	},
-	"Zak McKracken and the Alien Mindbenders (Germany)": {
-		"languages": "De"
-	},
 	"Zak McKracken and the Alien Mindbenders (Europe)": {
 		"languages": "En"
 	},
 	"Zak McKracken and the Alien Mindbenders (France)": {
 		"languages": "Fr"
+	},
+	"Zak McKracken and the Alien Mindbenders (Germany)": {
+		"languages": "De"
 	},
 	"Zany Golf (USA)": {
 		"languages": "En"
@@ -9467,10 +9608,10 @@
 	"Zargon (Germany) (Coverdisk - Amiga Software Extra Nr. 12 - Disk 2 of 2)": {
 		"languages": "De"
 	},
-	"Zeewolf (Europe) (v1.02)": {
+	"Zeewolf 2 - Wild Justice (Europe)": {
 		"languages": "En"
 	},
-	"Zeewolf 2 - Wild Justice (Europe)": {
+	"Zeewolf (Europe) (v1.02)": {
 		"languages": "En"
 	},
 	"Ziriax (Europe)": {
@@ -9482,13 +9623,7 @@
 	"Zone Warrior (Europe)": {
 		"languages": "En"
 	},
-	"Zool - Ninja of the 'Nth' Dimension (Europe)": {
-		"languages": "En"
-	},
-	"Zool - Ninja of the 'Nth' Dimension (Europe) (AGA)": {
-		"languages": "En"
-	},
-	"Zool - Ninja of the 'Nth' Dimension (Europe) (Compilation - Award Winners - Gold Edition)": {
+	"Zool 2 (Europe) (AGA) (Amiga 1200 Bundle - Computer Combat)": {
 		"languages": "En"
 	},
 	"Zool 2 (Europe) (AGA)": {
@@ -9497,7 +9632,13 @@
 	"Zool 2 (Europe)": {
 		"languages": "En"
 	},
-	"Zool 2 (Europe) (AGA) (Amiga 1200 Bundle - Computer Combat)": {
+	"Zool - Ninja of the 'Nth' Dimension (Europe) (AGA)": {
+		"languages": "En"
+	},
+	"Zool - Ninja of the 'Nth' Dimension (Europe) (Compilation - Award Winners - Gold Edition)": {
+		"languages": "En"
+	},
+	"Zool - Ninja of the 'Nth' Dimension (Europe)": {
 		"languages": "En"
 	},
 	"Zoom! (Europe)": {

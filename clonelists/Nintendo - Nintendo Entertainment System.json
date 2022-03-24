@@ -3,16 +3,24 @@
 		"name": [
 			"Nintendo - Nintendo Entertainment System"
 		],
-		"last updated": "8 January 2022",
+		"last updated": "24 March 2022",
 		"minimum version": "0.92"
 	},
 
 	"categories": {
+		"FamicomBox (Menu Cart)": {
+			"match": "short",
+			"categories": ["Applications"]
+		},
+		"FamicomStation (Menu Cart)": {
+			"match": "short",
+			"categories": ["Applications"]
+		},
 		"Game Genie": {
 			"match": "short",
 			"categories": ["Applications"]
 		},
-		"Nomolos - Storming the CATsle (World) (V1.00D) (Aftermarket) (Alt) (Unl)": {
+		"Nomolos - Storming the CATsle (World) (V1.00D) (Aftermarket) (Unl) (Alt)": {
 			"match": "full",
 			"categories": ["Demos"]
 		},
@@ -294,7 +302,8 @@
 			["Dead Fox", 1]
 		],
 		"Commando": [
-			["Senjou no Ookami", 1]
+			["Senjou no Ookami", 1],
+			["Senjou no Ookami (EPROM)", 2]
 		],
 		"Contra": [
 			["Probotector", 1]
@@ -370,7 +379,6 @@
 			["Jekyll Hakase no Houma ga Toki", 1]
 		],
 		"Dr. Mario": [
-			["Dr. Mario (After 1990-04-27)", 2],
 			["Virus (1990-03-xx)", 3],
 			["Virus", 4],
 			["Virus (1989-xx-xx)", 5]
@@ -460,6 +468,9 @@
 		],
 		"Galaga - Demons of Death": [
 			["Galaga", 2]
+		],
+		"Galaxy 5000 - Racing in the 51st Century": [
+			["Galaxy 5000", 2]
 		],
 		"Game Master Kid (RAM)": [
 			["Game Master Kid", 2]
@@ -756,7 +767,8 @@
 		],
 		"Ninja Gaiden": [
 			["Ninja Ryuuken Den", 1],
-			["Shadow Warriors - Ninja Gaiden", 1]
+			["Shadow Warriors - Ninja Gaiden", 1],
+			["Ninja Ryuukenden", 2]
 		],
 		"Ninja Gaiden II - The Dark Sword of Chaos": [
 			["Ninja Ryuuken Den II - Ankoku no Jashin Ken", 1],
@@ -821,16 +833,13 @@
 			["USA Ice Hockey in FC", 1]
 		],
 		"Pro Wrestling": [
-			["Pro Wres (FamicomBox)", 1]
+			["Pro Wres", 1]
 		],
 		"Pyramid": [
 			["Pyramid - Cleopatra Kikiippatsu", 1]
 		],
 		"Qi Wang - Chinese Chess": [
 			["Zhong Guo Xiang Qi - Chinese Chese", 2]
-		],
-		"Quarter Back Scramble": [
-			["Mike Ditka's Big Play Football", 2]
 		],
 		"Quattro Adventure": [
 			["Super Adventure Quests", 1]
@@ -890,7 +899,8 @@
 			["Sangokushi II", 1]
 		],
 		"Rygar": [
-			["Argos no Senshi - Hachamecha Daishingeki", 1]
+			["Argos no Senshi - Hachamecha Daishingeki", 1],
+			["Argos no Senshi", 2]
 		],
 		"S.C.A.T. - Special Cybernetic Attack Team": [
 			["Action in New York", 1],

@@ -1,4 +1,13 @@
 {
+	"[BIOS] Fairchild Channel F (USA) (SL31253)": {
+		"languages": "En"
+	},
+	"[BIOS] Fairchild Channel F (USA) (SL31254)": {
+		"languages": "En"
+	},
+	"[BIOS] Fairchild Channel F (USA) (SL90025)": {
+		"languages": "En"
+	},
 	"Alien Invasion (USA)": {
 		"languages": "En"
 	},
@@ -17,10 +26,10 @@
 	"Checkers (USA)": {
 		"languages": "En"
 	},
-	"Demonstration Cartridge (USA)": {
+	"Demonstration Cartridge 2 (USA)": {
 		"languages": "En"
 	},
-	"Demonstration Cartridge 2 (USA)": {
+	"Demonstration Cartridge (USA)": {
 		"languages": "En"
 	},
 	"Desert Fox, Shooting Gallery (USA)": {
@@ -30,15 +39,6 @@
 		"languages": "En"
 	},
 	"Drag Race (USA)": {
-		"languages": "En"
-	},
-	"[BIOS] Fairchild Channel F (USA) (SL90025)": {
-		"languages": "En"
-	},
-	"[BIOS] Fairchild Channel F (USA) (SL31253)": {
-		"languages": "En"
-	},
-	"[BIOS] Fairchild Channel F (USA) (SL31254)": {
 		"languages": "En"
 	},
 	"Galactic Space Wars, Lunar Lander (USA)": {
@@ -56,7 +56,7 @@
 	"Math Quiz II - Multiplication + Division (USA)": {
 		"languages": "En"
 	},
-	"Maze, Jailbreak, Blind-man's-bluff, Trailblazer (USA) (Alt 1)": {
+	"Maze, Jailbreak, Blind-man's-bluff, Trailblazer (USA) (Alt)": {
 		"languages": "En"
 	},
 	"Maze, Jailbreak, Blind-man's-bluff, Trailblazer (USA)": {
@@ -71,7 +71,7 @@
 	"Ordtaevling (Sweden)": {
 		"languages": "Sv"
 	},
-	"Pinball Challenge (USA) (Alt 1)": {
+	"Pinball Challenge (USA) (Alt)": {
 		"languages": "En"
 	},
 	"Pinball Challenge (USA)": {

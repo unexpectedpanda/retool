@@ -1,4 +1,7 @@
 {
+	"[BIOS] WonderSwan Color Boot ROM (Japan) (En)": {
+		"languages": "En"
+	},
 	"Alchemist Marie & Elie - Futari no Atelier (Japan)": {
 		"languages": "Ja"
 	},
@@ -23,16 +26,16 @@
 	"Dicing Knight. (Japan)": {
 		"languages": "Ja"
 	},
-	"Digimon - Anode Tamer & Cathode Tamer - Veedramon Version (Hong Kong)": {
+	"Digimon - Anode Tamer & Cathode Tamer - Veedramon Version (Hong Kong) (En)": {
 		"languages": "En"
 	},
-	"Digimon - Anode Tamer & Cathode Tamer - Veedramon Version (Korea)": {
+	"Digimon - Anode Tamer & Cathode Tamer - Veedramon Version (Korea) (En)": {
 		"languages": "En"
-	},
-	"Digimon Adventure 02 - D1 Tamers (Japan)": {
-		"languages": "Ja"
 	},
 	"Digimon Adventure 02 - D1 Tamers (Japan) (Rev 1)": {
+		"languages": "Ja"
+	},
+	"Digimon Adventure 02 - D1 Tamers (Japan)": {
 		"languages": "Ja"
 	},
 	"Digimon Tamers - Battle Spirit (Japan, Korea) (En,Ja)": {
@@ -44,16 +47,10 @@
 	"Digimon Tamers - Brave Tamer (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
-	"Digimon Tamers - Digimon Medley (Japan)": {
-		"languages": "Ja"
-	},
-	"Digimon Tamers - Digimon Medley (Japan) (Sample)": {
-		"languages": "Ja"
-	},
 	"Digimon Tamers - Digimon Medley (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
-	"Digital Monster - D-Project (Japan)": {
+	"Digimon Tamers - Digimon Medley (Japan)": {
 		"languages": "Ja"
 	},
 	"Digital Monster - D-Project (Japan) (Rev 1)": {
@@ -62,10 +59,13 @@
 	"Digital Monster - D-Project (Japan) (Rev 2)": {
 		"languages": "Ja"
 	},
-	"Digital Monster Card Game - Ver. WonderSwan Color (Japan)": {
+	"Digital Monster - D-Project (Japan)": {
 		"languages": "Ja"
 	},
 	"Digital Monster Card Game - Ver. WonderSwan Color (Japan) (Rev 2)": {
+		"languages": "Ja"
+	},
+	"Digital Monster Card Game - Ver. WonderSwan Color (Japan)": {
 		"languages": "Ja"
 	},
 	"Dokodemo Hamster 3 - Odekake Saffron (Japan) (Rev 2)": {
@@ -86,40 +86,40 @@
 	"Final Lap Special - GT & Formula Machine (Japan)": {
 		"languages": "Ja"
 	},
-	"Fire Lancer (USA) (Demo) (2019-01-03) (Aftermarket) (Unl)": {
+	"Fire Lancer (USA) (Demo) (2018-12-25) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
-	"Fire Lancer (USA) (Demo) (2018-12-25) (Aftermarket) (Unl)": {
+	"Fire Lancer (USA) (Demo) (2019-01-03) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
 	"Flash Koibito-kun (Japan)": {
 		"languages": "Ja"
 	},
-	"Flash Masta Firmware (USA) (2016-08-29) (Unl)": {
+	"Flash Masta Firmware (USA) (2016-05-13)": {
 		"languages": "En"
 	},
-	"Flash Masta Firmware (USA) (2016-05-13)": {
+	"Flash Masta Firmware (USA) (2016-08-29) (Unl)": {
 		"languages": "En"
 	},
 	"From TV Animation One Piece - Chopper no Daibouken (Japan)": {
 		"languages": "Ja"
 	},
-	"From TV Animation One Piece - Grand Battle Swan Colosseum (Japan)": {
+	"From TV Animation One Piece - Grand Battle Swan Colosseum (Japan) (Sample)": {
 		"languages": "Ja"
 	},
-	"From TV Animation One Piece - Grand Battle Swan Colosseum (Japan) (Sample)": {
+	"From TV Animation One Piece - Grand Battle Swan Colosseum (Japan)": {
 		"languages": "Ja"
 	},
 	"From TV Animation One Piece - Niji no Shima Densetsu (Japan)": {
 		"languages": "Ja"
 	},
-	"From TV Animation One Piece - Treasure Wars (Japan)": {
+	"From TV Animation One Piece - Treasure Wars 2 - Buggy Land e Youkoso (Japan)": {
 		"languages": "Ja"
 	},
 	"From TV Animation One Piece - Treasure Wars (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
-	"From TV Animation One Piece - Treasure Wars 2 - Buggy Land e Youkoso (Japan)": {
+	"From TV Animation One Piece - Treasure Wars (Japan)": {
 		"languages": "Ja"
 	},
 	"Front Mission (Japan)": {
@@ -137,10 +137,10 @@
 	"Gransta Chronicle (Japan)": {
 		"languages": "Ja"
 	},
-	"Guilty Gear Petit (Japan)": {
+	"Guilty Gear Petit 2 (Japan)": {
 		"languages": "Ja"
 	},
-	"Guilty Gear Petit 2 (Japan)": {
+	"Guilty Gear Petit (Japan)": {
 		"languages": "Ja"
 	},
 	"GunPey EX (Japan)": {
@@ -152,10 +152,10 @@
 	"Hataraku Chocobo (Japan)": {
 		"languages": "Ja"
 	},
-	"Hunter X Hunter - Greed Island (Japan)": {
+	"Hunter X Hunter - Greed Island (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
-	"Hunter X Hunter - Greed Island (Japan) (Rev 1)": {
+	"Hunter X Hunter - Greed Island (Japan)": {
 		"languages": "Ja"
 	},
 	"Hunter X Hunter - Michibikareshi Mono (Japan)": {
@@ -173,10 +173,10 @@
 	"Inuyasha - Kagome no Yume Nikki (Japan)": {
 		"languages": "Ja"
 	},
-	"Judgement Silversword - Rebirth Edition (Japan) (Rev 4321)": {
+	"Judgement Silversword - Rebirth Edition (Japan) (Rev 5C21)": {
 		"languages": "Ja"
 	},
-	"Judgement Silversword - Rebirth Edition (Japan) (Rev 5C21)": {
+	"Judgement Silversword - Rebirth Edition (Japan) (Rev 4321)": {
 		"languages": "Ja"
 	},
 	"Kidou Senshi Gundam - Giren no Yabou - Tokubetsu Hen - Aoki Hoshi no Hasha (Japan)": {
@@ -215,7 +215,7 @@
 	"mama Mitte (Japan) (Program)": {
 		"languages": "Ja"
 	},
-	"mama Mitte (Japan) (D) (Program)": {
+	"mama Mitte (Japan) (Rev D) (Program)": {
 		"languages": "Ja"
 	},
 	"Meitantei Conan - Yuugure no Oujo (Japan)": {
@@ -236,10 +236,16 @@
 	"Naruto - Konoha Ninpouchou (Japan)": {
 		"languages": "Ja"
 	},
-	"NAVI GET 400 Million (Japan) (Version 3.0) (Program)": {
+	"NAVI GET 400 Million (Japan) (Version 1.0) (Program)": {
 		"languages": "Ja"
 	},
 	"NAVI GET 400 Million (Japan) (Version 2.1) (Program)": {
+		"languages": "Ja"
+	},
+	"NAVI GET 400 Million (Japan) (Version 3.0) (Program)": {
+		"languages": "Ja"
+	},
+	"NAVI GET 400 Million (Japan) (Version 9) (Program)": {
 		"languages": "Ja"
 	},
 	"Pocket no Naka no Doraemon (Japan)": {
@@ -251,10 +257,10 @@
 	"Rhyme Rider Kerorican (Japan)": {
 		"languages": "Ja"
 	},
-	"Riviera - Yakusoku no Chi Riviera (Japan)": {
+	"Riviera - Yakusoku no Chi Riviera (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
-	"Riviera - Yakusoku no Chi Riviera (Japan) (Rev 1)": {
+	"Riviera - Yakusoku no Chi Riviera (Japan)": {
 		"languages": "Ja"
 	},
 	"Rockman EXE - N1 Battle (Japan) (Rev 1)": {
@@ -284,19 +290,19 @@
 	"SD Gundam G Generation - Gather Beat 2 (Japan)": {
 		"languages": "Ja"
 	},
-	"SD Gundam G Generation - Mono-Eye Gundams (Japan)": {
+	"SD Gundam G Generation - Mono-Eye Gundams (Japan) (Rev 2)": {
 		"languages": "Ja"
 	},
-	"SD Gundam G Generation - Mono-Eye Gundams (Japan) (Rev 2)": {
+	"SD Gundam G Generation - Mono-Eye Gundams (Japan)": {
 		"languages": "Ja"
 	},
 	"Senkaiden Ni - TV Animation Senkaiden Houshin Engi Yori (Japan)": {
 		"languages": "Ja"
 	},
-	"Shaman King - Asu e no Ishi (Japan)": {
+	"Shaman King - Asu e no Ishi (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
-	"Shaman King - Asu e no Ishi (Japan) (Rev 1)": {
+	"Shaman King - Asu e no Ishi (Japan)": {
 		"languages": "Ja"
 	},
 	"Sorobang (Japan) (Rev 1)": {
@@ -343,9 +349,6 @@
 	},
 	"Wonder Classic (Japan)": {
 		"languages": "Ja"
-	},
-	"[BIOS] WonderSwan Color Boot ROM (Japan) (En)": {
-		"languages": "En"
 	},
 	"X - Card of Fate (Japan)": {
 		"languages": "Ja"

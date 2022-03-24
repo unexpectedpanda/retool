@@ -89,8 +89,8 @@
 		"[BIOS] Hang On": {
 			"match": "short"
 		},
-		"[BIOS] Hang On & Safari Hunt (USA, Europe, Brazil)": {
-			"match": "tag free"
+		"[BIOS] Hang On & Safari Hunt (USA, Europe, Brazil) (En) (v2.4)": {
+			"match": "full"
 		}
 	},
 

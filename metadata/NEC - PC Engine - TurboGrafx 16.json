@@ -1,9 +1,33 @@
 {
+	"21 Emon - Mezase Hotel Ou!! (Japan)": {
+		"languages": "Ja"
+	},
 	"1943 Kai (Japan)": {
 		"languages": "Ja"
 	},
-	"21 Emon - Mezase Hotel Ou!! (Japan)": {
+	"[BIOS] CD-ROM System (Japan) (v1.0)": {
 		"languages": "Ja"
+	},
+	"[BIOS] CD-ROM System (Japan) (v2.0)": {
+		"languages": "Ja"
+	},
+	"[BIOS] CD-ROM System (Japan) (v2.1)": {
+		"languages": "Ja"
+	},
+	"[BIOS] Games Express CD Card (Japan) (Blue Version)": {
+		"languages": "Ja"
+	},
+	"[BIOS] Games Express CD Card (Japan) (Green Version)": {
+		"languages": "Ja"
+	},
+	"[BIOS] Super CD-ROM System (Japan) (v3.0)": {
+		"languages": "Ja"
+	},
+	"[BIOS] TurboGrafx CD Super System Card (USA) (v3.0)": {
+		"languages": "En"
+	},
+	"[BIOS] TurboGrafx CD System Card (USA) (v2.0)": {
+		"languages": "En"
 	},
 	"Adventure Island (Japan)": {
 		"languages": "Ja"
@@ -17,14 +41,17 @@
 	"After Burner II (Japan)": {
 		"languages": "Ja"
 	},
-	"Air Zonk (USA)": {
+	"Air Zonk (USA) (Beta)": {
 		"languages": "En"
 	},
-	"Alien Crush (USA)": {
+	"Air Zonk (USA)": {
 		"languages": "En"
 	},
 	"Alien Crush (Japan)": {
 		"languages": "Ja"
+	},
+	"Alien Crush (USA)": {
+		"languages": "En"
 	},
 	"All Star Power League (Japan)": {
 		"languages": "Ja"
@@ -77,10 +104,10 @@
 	"Be Ball (Japan)": {
 		"languages": "Ja"
 	},
-	"Benkei Gaiden (Japan)": {
+	"Benkei Gaiden (Japan) (Virtual Console)": {
 		"languages": "Ja"
 	},
-	"Benkei Gaiden (Japan) (Virtual Console)": {
+	"Benkei Gaiden (Japan)": {
 		"languages": "Ja"
 	},
 	"Bikkuriman World (Japan)": {
@@ -98,18 +125,6 @@
 	"Bodycon Quest II (Japan) (Unl)": {
 		"languages": "Ja"
 	},
-	"Bomberman (USA)": {
-		"languages": "En"
-	},
-	"Bomberman (Japan)": {
-		"languages": "Ja"
-	},
-	"Bomberman (USA) (Bomberman Collection)": {
-		"languages": "En"
-	},
-	"Bomberman - Users Battle (Japan)": {
-		"languages": "Ja"
-	},
 	"Bomberman '93 (Japan)": {
 		"languages": "Ja"
 	},
@@ -125,16 +140,28 @@
 	"Bomberman '94 (Japan)": {
 		"languages": "Ja"
 	},
+	"Bomberman (Japan)": {
+		"languages": "Ja"
+	},
+	"Bomberman (USA) (Bomberman Collection)": {
+		"languages": "En"
+	},
+	"Bomberman (USA)": {
+		"languages": "En"
+	},
+	"Bomberman - Users Battle (Japan)": {
+		"languages": "Ja"
+	},
 	"Bonk 3 - Bonk's Big Adventure (USA)": {
 		"languages": "En"
 	},
 	"Bonk's Adventure (USA)": {
 		"languages": "En"
 	},
-	"Bonk's Revenge (USA, Europe) (Virtual Console)": {
+	"Bonk's Revenge (USA)": {
 		"languages": "En"
 	},
-	"Bonk's Revenge (USA)": {
+	"Bonk's Revenge (USA, Europe) (Virtual Console)": {
 		"languages": "En"
 	},
 	"Bouken Danshaku Don - The Lost Sunheart (Japan)": {
@@ -161,20 +188,11 @@
 	"Busou Keiji - Cyber Cross (Japan)": {
 		"languages": "Ja"
 	},
-	"Cadash (USA)": {
-		"languages": "En"
-	},
 	"Cadash (Japan)": {
 		"languages": "Ja"
 	},
-	"[BIOS] CD-ROM System (Japan) (v1.0)": {
-		"languages": "Ja"
-	},
-	"[BIOS] CD-ROM System (Japan) (v2.0)": {
-		"languages": "Ja"
-	},
-	"[BIOS] CD-ROM System (Japan) (v2.1)": {
-		"languages": "Ja"
+	"Cadash (USA)": {
+		"languages": "En"
 	},
 	"Champion Wrestler (Japan)": {
 		"languages": "Ja"
@@ -287,11 +305,11 @@
 	"Doraemon - Nobita no Dorabian Night (Japan)": {
 		"languages": "Ja"
 	},
-	"Double Dungeons (USA)": {
-		"languages": "En"
-	},
 	"Double Dungeons (Japan)": {
 		"languages": "Ja"
+	},
+	"Double Dungeons (USA)": {
+		"languages": "En"
 	},
 	"Download (Japan)": {
 		"languages": "Ja"
@@ -332,32 +350,32 @@
 	"Eternal City - Toshi Tensou Keikaku (Japan)": {
 		"languages": "Ja"
 	},
-	"F-1 Dream (Japan)": {
-		"languages": "Ja"
-	},
-	"F-1 Pilot - You're King of Kings (Japan)": {
-		"languages": "Ja"
-	},
-	"F1 Circus (Japan)": {
-		"languages": "Ja"
-	},
 	"F1 Circus '91 (Japan)": {
 		"languages": "Ja"
 	},
 	"F1 Circus '92 - The Speed of Sound (Japan)": {
 		"languages": "Ja"
 	},
+	"F1 Circus (Japan)": {
+		"languages": "Ja"
+	},
 	"F1 Triple Battle (Japan)": {
+		"languages": "Ja"
+	},
+	"F-1 Dream (Japan)": {
+		"languages": "Ja"
+	},
+	"F-1 Pilot - You're King of Kings (Japan)": {
 		"languages": "Ja"
 	},
 	"Falcon (USA)": {
 		"languages": "En"
 	},
-	"Fantasy Zone (USA)": {
-		"languages": "En"
-	},
 	"Fantasy Zone (Japan)": {
 		"languages": "Ja"
+	},
+	"Fantasy Zone (USA)": {
+		"languages": "En"
 	},
 	"Fighting Run (Japan)": {
 		"languages": "Ja"
@@ -380,13 +398,13 @@
 	"Final Soldier - Special Version (Japan) (En)": {
 		"languages": "En"
 	},
-	"Fire Pro Wrestling - Combination Tag (Japan)": {
-		"languages": "Ja"
-	},
 	"Fire Pro Wrestling 2 - 2nd Bout (Japan)": {
 		"languages": "Ja"
 	},
 	"Fire Pro Wrestling 3 - Legend Bout (Japan)": {
+		"languages": "Ja"
+	},
+	"Fire Pro Wrestling - Combination Tag (Japan)": {
 		"languages": "Ja"
 	},
 	"Formation Soccer - Human Cup '90 (Japan)": {
@@ -409,12 +427,6 @@
 	},
 	"Galaga '90 (USA)": {
 		"languages": "En"
-	},
-	"[BIOS] Games Express CD Card (Japan) (Blue Version)": {
-		"languages": "Ja"
-	},
-	"[BIOS] Games Express CD Card (Japan) (Green Version)": {
-		"languages": "Ja"
 	},
 	"Ganbare! Golf Boys (Japan)": {
 		"languages": "Ja"
@@ -506,10 +518,10 @@
 	"Jackie Chan's Action Kung Fu (USA)": {
 		"languages": "En"
 	},
-	"Jaseiken Necromancer (Japan)": {
+	"Jaseiken Necromancer (Japan) (Virtual Console)": {
 		"languages": "Ja"
 	},
-	"Jaseiken Necromancer (Japan) (Virtual Console)": {
+	"Jaseiken Necromancer (Japan)": {
 		"languages": "Ja"
 	},
 	"Jigoku Meguri (Japan)": {
@@ -521,10 +533,10 @@
 	"Juuouki (Japan)": {
 		"languages": "Ja"
 	},
-	"Kaizou Choujin Shubibinman (Japan)": {
+	"Kaizou Choujin Shubibinman 2 - Aratanaru Teki (Japan)": {
 		"languages": "Ja"
 	},
-	"Kaizou Choujin Shubibinman 2 - Aratanaru Teki (Japan)": {
+	"Kaizou Choujin Shubibinman (Japan)": {
 		"languages": "Ja"
 	},
 	"Kato-chan Ken-chan (Japan)": {
@@ -542,11 +554,11 @@
 	"Kiki Kaikai (Japan)": {
 		"languages": "Ja"
 	},
-	"King of Casino (USA)": {
-		"languages": "En"
-	},
 	"King of Casino (Japan)": {
 		"languages": "Ja"
+	},
+	"King of Casino (USA)": {
+		"languages": "En"
 	},
 	"Klax (Japan)": {
 		"languages": "Ja"
@@ -563,10 +575,10 @@
 	"Kore ga Pro Yakyuu '90 (Japan)": {
 		"languages": "Ja"
 	},
-	"Kung Fu, The (Japan)": {
+	"Kung Fu, The (Japan) (Virtual Console)": {
 		"languages": "Ja"
 	},
-	"Kung Fu, The (Japan) (Virtual Console)": {
+	"Kung Fu, The (Japan)": {
 		"languages": "Ja"
 	},
 	"Kyuukyoku Mahjong - Idol Graphics (Japan) (Unl)": {
@@ -581,11 +593,11 @@
 	"Lady Sword - Ryakudatsu Sareta 10-nin no Otome (Japan) (Unl)": {
 		"languages": "Ja"
 	},
-	"Legend of Hero Tonma (USA)": {
-		"languages": "En"
-	},
 	"Legend of Hero Tonma (Japan)": {
 		"languages": "Ja"
+	},
+	"Legend of Hero Tonma (USA)": {
+		"languages": "En"
 	},
 	"Legendary Axe II (USA)": {
 		"languages": "En"
@@ -668,11 +680,11 @@
 	"Morita Shougi PC (Japan)": {
 		"languages": "Ja"
 	},
-	"Moto Roader (USA)": {
-		"languages": "En"
-	},
 	"Moto Roader (Japan)": {
 		"languages": "Ja"
+	},
+	"Moto Roader (USA)": {
+		"languages": "En"
 	},
 	"Moto Roader II (Japan)": {
 		"languages": "Ja"
@@ -710,11 +722,11 @@
 	"Neutopia (USA)": {
 		"languages": "En"
 	},
-	"Neutopia II (USA)": {
-		"languages": "En"
-	},
 	"Neutopia II (Japan)": {
 		"languages": "Ja"
+	},
+	"Neutopia II (USA)": {
+		"languages": "En"
 	},
 	"New Adventure Island (USA)": {
 		"languages": "En"
@@ -767,11 +779,11 @@
 	"P-47 - The Freedom Fighter (Japan)": {
 		"languages": "Ja"
 	},
-	"Pac-Land (USA)": {
-		"languages": "En"
-	},
 	"Pac-Land (Japan)": {
 		"languages": "Ja"
+	},
+	"Pac-Land (USA)": {
+		"languages": "En"
 	},
 	"Pachio-kun - Juuban Shoubu (Japan)": {
 		"languages": "Ja"
@@ -791,19 +803,19 @@
 	"PC Denjin - Punkic Cyborgs (Japan)": {
 		"languages": "Ja"
 	},
-	"PC Genjin - Pithecanthropus Computerurus (Japan)": {
+	"PC Genjin 2 - Pithecanthropus Computerurus (Japan) (Virtual Console)": {
 		"languages": "Ja"
 	},
 	"PC Genjin 2 - Pithecanthropus Computerurus (Japan)": {
 		"languages": "Ja"
 	},
-	"PC Genjin 2 - Pithecanthropus Computerurus (Japan) (Virtual Console)": {
+	"PC Genjin 3 - Pithecanthropus Computerurus (Japan) (Sample)": {
 		"languages": "Ja"
 	},
 	"PC Genjin 3 - Pithecanthropus Computerurus (Japan)": {
 		"languages": "Ja"
 	},
-	"PC Genjin 3 - Pithecanthropus Computerurus (Japan) (Sample)": {
+	"PC Genjin - Pithecanthropus Computerurus (Japan)": {
 		"languages": "Ja"
 	},
 	"PC Pachi-Slot - Idol Gambler (Japan) (Unl)": {
@@ -821,22 +833,22 @@
 	"Power Gate (Japan)": {
 		"languages": "Ja"
 	},
-	"Power Golf (USA)": {
-		"languages": "En"
-	},
 	"Power Golf (Japan)": {
 		"languages": "Ja"
 	},
-	"Power League (Japan)": {
-		"languages": "Ja"
-	},
-	"Power League '93 (Japan)": {
-		"languages": "Ja"
+	"Power Golf (USA)": {
+		"languages": "En"
 	},
 	"Power League 4 (Japan)": {
 		"languages": "Ja"
 	},
 	"Power League 5 (Japan)": {
+		"languages": "Ja"
+	},
+	"Power League '93 (Japan)": {
+		"languages": "Ja"
+	},
+	"Power League (Japan)": {
 		"languages": "Ja"
 	},
 	"Power League II (Japan)": {
@@ -854,10 +866,10 @@
 	"Pro Tennis - World Court (Japan)": {
 		"languages": "Ja"
 	},
-	"Pro Yakyuu World Stadium (Japan)": {
+	"Pro Yakyuu World Stadium '91 (Japan)": {
 		"languages": "Ja"
 	},
-	"Pro Yakyuu World Stadium '91 (Japan)": {
+	"Pro Yakyuu World Stadium (Japan)": {
 		"languages": "Ja"
 	},
 	"Psycho Chaser (Japan)": {
@@ -968,11 +980,11 @@
 	"Skweek (Japan)": {
 		"languages": "Ja"
 	},
-	"Soldier Blade (USA)": {
-		"languages": "En"
-	},
 	"Soldier Blade (Japan)": {
 		"languages": "Ja"
+	},
+	"Soldier Blade (USA)": {
+		"languages": "En"
 	},
 	"Soldier Blade - Special Version (Japan)": {
 		"languages": "Ja"
@@ -1019,13 +1031,10 @@
 	"Strip Fighter II (Japan) (Unl)": {
 		"languages": "Ja"
 	},
-	"[BIOS] Super CD-ROM System (Japan) (v3.0)": {
-		"languages": "Ja"
-	},
 	"Super Metal Crusher (Japan)": {
 		"languages": "Ja"
 	},
-	"Super Momotarou Dentetsu (Japan) (Alt 1)": {
+	"Super Momotarou Dentetsu (Japan) (Alt)": {
 		"languages": "Ja"
 	},
 	"Super Momotarou Dentetsu (Japan)": {
@@ -1064,10 +1073,10 @@
 	"TaleSpin (USA)": {
 		"languages": "En"
 	},
-	"Tatsujin (Japan)": {
+	"Tatsujin (Japan) (Beta)": {
 		"languages": "Ja"
 	},
-	"Tatsujin (Japan) (Beta)": {
+	"Tatsujin (Japan)": {
 		"languages": "Ja"
 	},
 	"Tatsunoko Fighter (Japan)": {
@@ -1124,32 +1133,29 @@
 	"Tsuru Teruhito no Jissen Kabushiki Bai Bai Game (Japan)": {
 		"languages": "Ja"
 	},
-	"[BIOS] TurboGrafx CD Super System Card (USA) (v3.0)": {
-		"languages": "En"
-	},
-	"[BIOS] TurboGrafx CD System Card (USA) (v2.0)": {
-		"languages": "En"
-	},
 	"Turrican (USA)": {
 		"languages": "En"
 	},
-	"TV Sports Basketball (USA)": {
+	"TV Sports Baseball (USA) (Proto)": {
 		"languages": "En"
 	},
 	"TV Sports Basketball (Japan)": {
 		"languages": "Ja"
 	},
-	"TV Sports Football (USA)": {
+	"TV Sports Basketball (USA)": {
 		"languages": "En"
 	},
 	"TV Sports Football (Japan)": {
 		"languages": "Ja"
 	},
-	"TV Sports Hockey (USA)": {
+	"TV Sports Football (USA)": {
 		"languages": "En"
 	},
 	"TV Sports Hockey (Japan)": {
 		"languages": "Ja"
+	},
+	"TV Sports Hockey (USA)": {
+		"languages": "En"
 	},
 	"USA Pro Basketball (Japan)": {
 		"languages": "Ja"
@@ -1157,11 +1163,11 @@
 	"Valkyrie no Densetsu (Japan)": {
 		"languages": "Ja"
 	},
-	"Veigues - Tactical Gladiator (USA)": {
-		"languages": "En"
-	},
 	"Veigues - Tactical Gladiator (Japan)": {
 		"languages": "Ja"
+	},
+	"Veigues - Tactical Gladiator (USA)": {
+		"languages": "En"
 	},
 	"Victory Run (USA)": {
 		"languages": "En"
@@ -1202,10 +1208,10 @@
 	"World Circuit (Japan)": {
 		"languages": "Ja"
 	},
-	"World Class Baseball (USA, Europe) (Virtual Console)": {
+	"World Class Baseball (USA)": {
 		"languages": "En"
 	},
-	"World Class Baseball (USA)": {
+	"World Class Baseball (USA, Europe) (Virtual Console)": {
 		"languages": "En"
 	},
 	"World Court Tennis (USA)": {
@@ -1229,10 +1235,10 @@
 	"Youkai Douchuuki (Japan)": {
 		"languages": "Ja"
 	},
-	"Zero4 Champ (Japan)": {
+	"Zero4 Champ (Japan) (Alt)": {
 		"languages": "Ja"
 	},
-	"Zero4 Champ (Japan) (Alt 1)": {
+	"Zero4 Champ (Japan)": {
 		"languages": "Ja"
 	},
 	"Zipang (Japan)": {

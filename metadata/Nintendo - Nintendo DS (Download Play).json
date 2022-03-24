@@ -1,4 +1,19 @@
 {
+	"8BallAllstars - Multiplayer (Europe) (Demo) (DS Broadcast)": {
+		"languages": "En"
+	},
+	"42 All-Time Classics - Checkers (Europe) (Demo) (Download Station)": {
+		"languages": "En"
+	},
+	"42 All-Time Classics - Checkers (Europe) (Demo) (Nintendo Channel)": {
+		"languages": "En"
+	},
+	"42 All-Time Classics - Darts (Europe) (Demo) (Download Station)": {
+		"languages": "En"
+	},
+	"42 All-Time Classics - Texas Hold'Em (Europe) (Demo) (Download Station)": {
+		"languages": "En"
+	},
 	"100 Classic Book Collection - Alice's Adventures in Wonderland (Europe) (Demo) (DS Broadcast)": {
 		"languages": "En"
 	},
@@ -29,25 +44,10 @@
 	"100 Livres Classiques - La Maison du chat-qui-pelote (France) (Demo) (DS Broadcast)": {
 		"languages": "Fr"
 	},
-	"42 All-Time Classics - Checkers (Europe) (Demo) (Download Station)": {
-		"languages": "En"
-	},
-	"42 All-Time Classics - Checkers (Europe) (Demo) (Nintendo Channel)": {
-		"languages": "En"
-	},
-	"42 All-Time Classics - Darts (Europe) (Demo) (Download Station)": {
-		"languages": "En"
-	},
-	"42 All-Time Classics - Texas Hold'Em (Europe) (Demo) (Download Station)": {
-		"languages": "En"
-	},
-	"8BallAllstars - Multiplayer (Europe) (Demo) (DS Broadcast)": {
+	"Ace Attorney Investigations - Miles Edgeworth (Europe) (Demo) (Nintendo Channel)": {
 		"languages": "En"
 	},
 	"Ace Attorney Investigations - Miles Edgeworth (USA) (Demo) (Nintendo Channel)": {
-		"languages": "En"
-	},
-	"Ace Attorney Investigations - Miles Edgeworth (Europe) (Demo) (Nintendo Channel)": {
 		"languages": "En"
 	},
 	"Actionloop - Multiplayer (Europe) (DS Broadcast)": {
@@ -68,10 +68,10 @@
 	"Advance Wars - Dual Strike - Multiplayer (USA) (DS Broadcast)": {
 		"languages": "En"
 	},
-	"America's Test Kitchen - Let's Get Cooking - Featured Recipe - Chocolate Pots de Creme (USA) (Demo) (Nintendo Channel)": {
+	"America's Test Kitchen - Let's Get Cooking - Featured Recipe - Chocolate Pots de Creme (USA) (Demo) (Nintendo Channel) (Smaller)": {
 		"languages": "En"
 	},
-	"America's Test Kitchen - Let's Get Cooking - Featured Recipe - Chocolate Pots de Creme (USA) (Demo) (Nintendo Channel) (Smaller)": {
+	"America's Test Kitchen - Let's Get Cooking - Featured Recipe - Chocolate Pots de Creme (USA) (Demo) (Nintendo Channel)": {
 		"languages": "En"
 	},
 	"America's Test Kitchen - Let's Get Cooking - Featured Recipe - Roasted Red Potatoes (USA) (Demo) (DS Download Station)": {
@@ -107,11 +107,11 @@
 	"Bakugan - Battle Brawlers (USA) (Demo) (Nintendo Channel)": {
 		"languages": "En"
 	},
-	"Battle of Giants - Mutant Insects (USA) (En,Fr,Es) (Demo) (Download Station)": {
-		"languages": "En,Fr,Es"
-	},
 	"Battle of Giants - Mutant Insects (USA) (Demo) (Nintendo Channel)": {
 		"languages": "En"
+	},
+	"Battle of Giants - Mutant Insects (USA) (En,Fr,Es) (Demo) (Download Station)": {
+		"languages": "En,Fr,Es"
 	},
 	"Bee Movie Game - Video (USA) (Demo) (Download Station)": {
 		"languages": "En"
@@ -128,43 +128,31 @@
 	"Big Beach Sports - Face Paint (USA, Europe) (Wii Broadcast)": {
 		"languages": "En"
 	},
-	"Big Brain Academy (Europe) (Demo) (Nintendo Channel)": {
-		"languages": "En"
-	},
-	"Big Brain Academy (USA) (Demo) (DS Download Station)": {
-		"languages": "En"
-	},
 	"Big Brain Academy (Europe) (Demo) (DS Download Station)": {
 		"languages": "En"
 	},
-	"Big Brain Academy (Netherlands) (Demo) (DS Download Station)": {
-		"languages": "Nl"
+	"Big Brain Academy (Europe) (Demo) (Nintendo Channel)": {
+		"languages": "En"
 	},
 	"Big Brain Academy (Germany) (Demo) (DS Download Station)": {
 		"languages": "De"
 	},
-	"Big Brain Academy (Spain) (Demo) (DS Download Station)": {
-		"languages": "Es"
-	},
 	"Big Brain Academy (Italy) (Demo) (DS Download Station)": {
 		"languages": "It"
 	},
-	"Brain Age - Train Your Brain in Minutes a Day! (USA) (Demo) (Download Station Vol. 1)": {
-		"languages": "En"
+	"Big Brain Academy (Netherlands) (Demo) (DS Download Station)": {
+		"languages": "Nl"
 	},
-	"Brain Age - Train Your Brain in Minutes a Day! (USA) (Demo) (Download Station Vol. 1 Alt)": {
-		"languages": "En"
+	"Big Brain Academy (Spain) (Demo) (DS Download Station)": {
+		"languages": "Es"
 	},
-	"Brain Age - Train Your Brain in Minutes a Day! (USA) (Demo) (Nintendo Channel)": {
-		"languages": "En"
-	},
-	"Brain Age - Train Your Brain in Minutes a Day! (USA) (Demo) (DS Broadcast)": {
-		"languages": "En"
-	},
-	"Brain Age - Train Your Brain in Minutes a Day! - Calculation Battle x 30 (USA) (DS Broadcast)": {
+	"Big Brain Academy (USA) (Demo) (DS Download Station)": {
 		"languages": "En"
 	},
 	"Brain Age 2 - More Training in Minutes a Day! (USA) (Demo) (Download Station)": {
+		"languages": "En"
+	},
+	"Brain Age 2 - More Training in Minutes a Day! (USA) (Demo) (DS Broadcast)": {
 		"languages": "En"
 	},
 	"Brain Age 2 - More Training in Minutes a Day! (USA) (Demo) (Nintendo Channel)": {
@@ -173,25 +161,31 @@
 	"Brain Age 2 - More Training in Minutes a Day! (USA) (Es) (Demo) (DS Broadcast)": {
 		"languages": "Es"
 	},
-	"Brain Age 2 - More Training in Minutes a Day! (USA) (Demo) (DS Broadcast)": {
-		"languages": "En"
-	},
 	"Brain Age 2 - More Training in Minutes a Day! (USA) (Fr) (Demo) (DS Broadcast)": {
 		"languages": "Fr"
 	},
 	"Brain Age 2 - More Training in Minutes a Day! - Vs. Training (USA) (DS Broadcast)": {
 		"languages": "En"
 	},
-	"Cake Mania (USA) (Demo) (DS Download Station)": {
+	"Brain Age - Train Your Brain in Minutes a Day! (USA) (Demo) (Download Station Vol. 1) (Alt)": {
+		"languages": "En"
+	},
+	"Brain Age - Train Your Brain in Minutes a Day! (USA) (Demo) (Download Station Vol. 1)": {
+		"languages": "En"
+	},
+	"Brain Age - Train Your Brain in Minutes a Day! (USA) (Demo) (DS Broadcast)": {
+		"languages": "En"
+	},
+	"Brain Age - Train Your Brain in Minutes a Day! (USA) (Demo) (Nintendo Channel)": {
+		"languages": "En"
+	},
+	"Brain Age - Train Your Brain in Minutes a Day! - Calculation Battle x 30 (USA) (DS Broadcast)": {
 		"languages": "En"
 	},
 	"Cake Mania 2 (USA) (Demo) (DS Download Station)": {
 		"languages": "En"
 	},
-	"Camping Mama - Outdoor Adventures - Barbecue (USA) (Demo) (DS Broadcast)": {
-		"languages": "En"
-	},
-	"Camping Mama - Outdoor Adventures - Fishing (USA) (Demo) (DS Broadcast)": {
+	"Cake Mania (USA) (Demo) (DS Download Station)": {
 		"languages": "En"
 	},
 	"Camping Mama + Papa - Barbecue (Japan) (Demo) (DS Broadcast)": {
@@ -200,16 +194,22 @@
 	"Camping Mama + Papa - Fishing (Japan) (Demo) (DS Broadcast)": {
 		"languages": "Ja"
 	},
+	"Camping Mama - Outdoor Adventures - Barbecue (USA) (Demo) (DS Broadcast)": {
+		"languages": "En"
+	},
+	"Camping Mama - Outdoor Adventures - Fishing (USA) (Demo) (DS Broadcast)": {
+		"languages": "En"
+	},
 	"Carnival Games (USA) (Demo) (DS Download Station)": {
 		"languages": "En"
 	},
-	"Cars - Race-O-Rama (USA) (Demo) (Nintendo Channel)": {
+	"Cars - Race-O-Rama (Europe) (Demo) (Nintendo Channel) (Alt)": {
 		"languages": "En"
 	},
 	"Cars - Race-O-Rama (Europe) (Demo) (Nintendo Channel)": {
 		"languages": "En"
 	},
-	"Cars - Race-O-Rama (Europe) (Demo) (Nintendo Channel, Alt)": {
+	"Cars - Race-O-Rama (USA) (Demo) (Nintendo Channel)": {
 		"languages": "En"
 	},
 	"Castlevania - Portrait of Ruin - Preview Trailer (USA) (Demo) (DS Download Station)": {
@@ -245,26 +245,11 @@
 	"Cookie & Cream (USA) (Demo) (DS Download Station)": {
 		"languages": "En"
 	},
-	"Cooking Mama (USA) (Demo) (DS Broadcast)": {
-		"languages": "En"
-	},
-	"Cooking Mama (Europe) (Demo) (DS Broadcast)": {
-		"languages": "En"
-	},
-	"Cooking Mama (Japan) (Demo) (DS Broadcast)": {
-		"languages": "Ja"
-	},
-	"Cooking Mama (Korea) (Demo) (DS Broadcast)": {
-		"languages": "Ko"
-	},
-	"Cooking Mama - Salisbury Steak (USA) (Demo) (DS Download Station)": {
+	"Cooking Mama 2 (Europe) (Demo) (DS Broadcast)": {
 		"languages": "En"
 	},
 	"Cooking Mama 2 (Japan) (Demo) (DS Broadcast)": {
 		"languages": "Ja"
-	},
-	"Cooking Mama 2 (Europe) (Demo) (DS Broadcast)": {
-		"languages": "En"
 	},
 	"Cooking Mama 2 - Cook Off (Europe) (DS Broadcast)": {
 		"languages": "En"
@@ -281,14 +266,14 @@
 	"Cooking Mama 2 - Dinner with Friends - Make An Apple Pie (USA) (Demo) (DS Download Station)": {
 		"languages": "En"
 	},
-	"Cooking Mama 3 (Japan) (Demo) (Nintendo Channel)": {
-		"languages": "Ja"
+	"Cooking Mama 3 (Europe) (Demo) (DS Broadcast)": {
+		"languages": "En"
 	},
 	"Cooking Mama 3 (Japan) (Demo) (DS Broadcast)": {
 		"languages": "Ja"
 	},
-	"Cooking Mama 3 (Europe) (Demo) (DS Broadcast)": {
-		"languages": "En"
+	"Cooking Mama 3 (Japan) (Demo) (Nintendo Channel)": {
+		"languages": "Ja"
 	},
 	"Cooking Mama 3 - Let's Make Marshmallows (Europe) (Demo) (Nintendo Channel)": {
 		"languages": "En"
@@ -308,11 +293,26 @@
 	"Cooking Mama 3 - Shop and Chop - Let's Make Marshmallows (USA) (Demo) (Nintendo Channel)": {
 		"languages": "En"
 	},
-	"Cooking Mama World - Hobbies & Fun (Europe) (En,Fr,De,Es,It) (Demo)": {
-		"languages": "En,Fr,De,Es,It"
+	"Cooking Mama (Europe) (Demo) (DS Broadcast)": {
+		"languages": "En"
+	},
+	"Cooking Mama (Japan) (Demo) (DS Broadcast)": {
+		"languages": "Ja"
+	},
+	"Cooking Mama (Korea) (Demo) (DS Broadcast)": {
+		"languages": "Ko"
+	},
+	"Cooking Mama (USA) (Demo) (DS Broadcast)": {
+		"languages": "En"
+	},
+	"Cooking Mama - Salisbury Steak (USA) (Demo) (DS Download Station)": {
+		"languages": "En"
 	},
 	"Cooking Mama World - Hobbies & Fun (Europe) (Demo) (DS Broadcast)": {
 		"languages": "En"
+	},
+	"Cooking Mama World - Hobbies & Fun (Europe) (En,Fr,De,Es,It) (Demo)": {
+		"languages": "En,Fr,De,Es,It"
 	},
 	"Cooking Mama World - Hobbies & Fun - Multiplayer (Europe) (Demo) (DS Broadcast)": {
 		"languages": "En"
@@ -335,10 +335,10 @@
 	"Crafting Mama (Japan) (Demo)": {
 		"languages": "Ja"
 	},
-	"Crafting Mama (USA) (Demo) (Nintendo Channel)": {
+	"Crafting Mama (USA) (Demo) (DS Broadcast)": {
 		"languages": "En"
 	},
-	"Crafting Mama (USA) (Demo) (DS Broadcast)": {
+	"Crafting Mama (USA) (Demo) (Nintendo Channel)": {
 		"languages": "En"
 	},
 	"Crafting Mama - Multiplayer (USA) (DS Broadcast)": {
@@ -371,20 +371,20 @@
 	"Custom Robo Arena (Europe) (Demo) (DS Download Station)": {
 		"languages": "En"
 	},
-	"Custom Robo Arena (USA) (Demo) (DS Download Station)": {
-		"languages": "En"
+	"Custom Robo Arena (France) (Demo) (DS Download Station)": {
+		"languages": "Fr"
 	},
 	"Custom Robo Arena (Germany) (Demo) (DS Download Station)": {
 		"languages": "De"
 	},
-	"Custom Robo Arena (France) (Demo) (DS Download Station)": {
-		"languages": "Fr"
+	"Custom Robo Arena (Italy) (Demo) (DS Download Station)": {
+		"languages": "It"
 	},
 	"Custom Robo Arena (Spain) (Demo) (DS Download Station)": {
 		"languages": "Es"
 	},
-	"Custom Robo Arena (Italy) (Demo) (DS Download Station)": {
-		"languages": "It"
+	"Custom Robo Arena (USA) (Demo) (DS Download Station)": {
+		"languages": "En"
 	},
 	"Daigassou! Band Brothers DX (Japan) (Demo) (Nintendo Channel)": {
 		"languages": "Ja"
@@ -395,16 +395,16 @@
 	"Danny Phantom - Urban Jungle (USA) (Demo) (DS Download Station)": {
 		"languages": "En"
 	},
-	"Deca Sports DS - Cheerleading (USA) (Demo)": {
-		"languages": "En"
-	},
 	"Deca Sports DS - Cheerleading (USA) (Demo) (Nintendo Channel)": {
 		"languages": "En"
 	},
-	"Deca Sports DS - Ping Pong (USA) (Demo)": {
+	"Deca Sports DS - Cheerleading (USA) (Demo)": {
 		"languages": "En"
 	},
 	"Deca Sports DS - Ping Pong (USA) (Demo) (Nintendo Channel)": {
+		"languages": "En"
+	},
+	"Deca Sports DS - Ping Pong (USA) (Demo)": {
 		"languages": "En"
 	},
 	"Densetsu no Stafy - Taiketsu! Dile Kaizoku Dan - Minigame Multiplayer (Japan) (DS Broadcast)": {
@@ -443,10 +443,10 @@
 	"Dr Kawashima's Brain Training - How Old Is Your Brain (Europe) (Demo) (Download Station Vol. 2)": {
 		"languages": "En"
 	},
-	"Dr Kawashima's Brain Training - How Old Is Your Brain (Europe) (Demo) (Nintendo Channel)": {
+	"Dr Kawashima's Brain Training - How Old Is Your Brain (Europe) (Demo) (DS Broadcast)": {
 		"languages": "En"
 	},
-	"Dr Kawashima's Brain Training - How Old Is Your Brain (Europe) (Demo) (DS Broadcast)": {
+	"Dr Kawashima's Brain Training - How Old Is Your Brain (Europe) (Demo) (Nintendo Channel)": {
 		"languages": "En"
 	},
 	"Dr Kawashima's Brain Training - How Old Is Your Brain - Calculation Battle x 30 (Europe) (DS Broadcast)": {
@@ -467,10 +467,10 @@
 	"Dragon Quest Monsters - Joker 2 - Shinigami Suraidaku Distribution (Japan)": {
 		"languages": "Ja"
 	},
-	"DS Bimoji Training (Japan) (Demo) (Nintendo Channel)": {
+	"DS Bimoji Training (Japan) (Demo) (Nintendo Channel) (Alt)": {
 		"languages": "Ja"
 	},
-	"DS Bimoji Training (Japan) (Demo) (Nintendo Channel, Alt)": {
+	"DS Bimoji Training (Japan) (Demo) (Nintendo Channel)": {
 		"languages": "Ja"
 	},
 	"DS Bungaku Zenshuu (Japan) (Demo) (Nintendo Channel)": {
@@ -572,13 +572,13 @@
 	"Final Fantasy IV - Video (USA) (Demo) (DS Download Station)": {
 		"languages": "En"
 	},
-	"Flash Focus - Vision Training in Minutes a Day (USA) (Demo)": {
-		"languages": "En"
-	},
 	"Flash Focus - Vision Training in Minutes a Day (USA) (Demo) (DS Download Station)": {
 		"languages": "En"
 	},
 	"Flash Focus - Vision Training in Minutes a Day (USA) (Demo) (Nintendo Channel)": {
+		"languages": "En"
+	},
+	"Flash Focus - Vision Training in Minutes a Day (USA) (Demo)": {
 		"languages": "En"
 	},
 	"Flash Focus - Vision Training in Minutes a Day! (USA) (Demo) (DS Broadcast)": {
@@ -614,28 +614,28 @@
 	"Fossil Fighters - Gift Fossil - Air (USA) (Nintendo Channel)": {
 		"languages": "En"
 	},
-	"Fossil Fighters - Gift Fossil - Earth (USA)": {
-		"languages": "En"
-	},
 	"Fossil Fighters - Gift Fossil - Earth (USA) (Nintendo Channel)": {
 		"languages": "En"
 	},
-	"Fossil Fighters - Gift Fossil - Fire (USA)": {
+	"Fossil Fighters - Gift Fossil - Earth (USA)": {
 		"languages": "En"
 	},
 	"Fossil Fighters - Gift Fossil - Fire (USA) (Nintendo Channel)": {
 		"languages": "En"
 	},
-	"Fossil Fighters - Gift Fossil - Neutral (USA)": {
+	"Fossil Fighters - Gift Fossil - Fire (USA)": {
 		"languages": "En"
 	},
 	"Fossil Fighters - Gift Fossil - Neutral (USA) (Nintendo Channel)": {
 		"languages": "En"
 	},
-	"Fossil Fighters - Gift Fossil - Water (USA)": {
+	"Fossil Fighters - Gift Fossil - Neutral (USA)": {
 		"languages": "En"
 	},
 	"Fossil Fighters - Gift Fossil - Water (USA) (Nintendo Channel)": {
+		"languages": "En"
+	},
+	"Fossil Fighters - Gift Fossil - Water (USA)": {
 		"languages": "En"
 	},
 	"Fresh Pretty Cure! Collection Asobi (Japan) (Demo) (Nintendo Channel)": {
@@ -680,11 +680,14 @@
 	"Ganbare Goemon - TokaiDouchuu Ooedo Tengurigaeshi no Maki (Japan) (Demo) (Unknown JPN Download Station)": {
 		"languages": "Ja"
 	},
+	"Ganbaru Watashi no Kakei Diary (Japan) (Demo) (Nintendo Channel)": {
+		"languages": "Ja"
+	},
 	"Ganbaru Watashi no Kakei Diary (Japan) (Demo)": {
 		"languages": "Ja"
 	},
-	"Ganbaru Watashi no Kakei Diary (Japan) (Demo) (Nintendo Channel)": {
-		"languages": "Ja"
+	"Gardening Mama (Europe) (Demo) (DS Broadcast)": {
+		"languages": "En"
 	},
 	"Gardening Mama (Japan) (Demo) (DS Broadcast)": {
 		"languages": "Ja"
@@ -692,7 +695,7 @@
 	"Gardening Mama (USA) (Demo) (DS Broadcast)": {
 		"languages": "En"
 	},
-	"Gardening Mama (Europe) (Demo) (DS Broadcast)": {
+	"Gardening Mama - Multiplayer (Europe) (DS Broadcast)": {
 		"languages": "En"
 	},
 	"Gardening Mama - Multiplayer (Japan) (DS Broadcast)": {
@@ -701,22 +704,19 @@
 	"Gardening Mama - Multiplayer (USA) (DS Broadcast)": {
 		"languages": "En"
 	},
-	"Gardening Mama - Multiplayer (Europe) (DS Broadcast)": {
-		"languages": "En"
-	},
 	"Gauntlet (USA) (Demo) (DS Download Station)": {
 		"languages": "En"
 	},
 	"Geometry Wars - Retro Evolved (Europe) (DS Broadcast)": {
 		"languages": "En"
 	},
-	"Geometry Wars - Retro Evolved (USA) (Wii Broadcast)": {
-		"languages": "En"
-	},
 	"Geometry Wars - Retro Evolved (Europe) (Wii Broadcast)": {
 		"languages": "En"
 	},
 	"Geometry Wars - Retro Evolved (USA) (DS Broadcast)": {
+		"languages": "En"
+	},
+	"Geometry Wars - Retro Evolved (USA) (Wii Broadcast)": {
 		"languages": "En"
 	},
 	"Ghost Trick (Japan) (Demo) (Nintendo Channel)": {
@@ -755,10 +755,10 @@
 	"Gym des Yeux - Exercer et Relaxer vos Yeux (France) (Demo) (DS Download Station)": {
 		"languages": "Fr"
 	},
-	"High School Musical - Makin' the Cut (USA, Europe) (Demo) (DS Download Station)": {
+	"High School Musical 2 (USA) (Demo) (DS Download Station)": {
 		"languages": "En"
 	},
-	"High School Musical 2 (USA) (Demo) (DS Download Station)": {
+	"High School Musical - Makin' the Cut (USA, Europe) (Demo) (DS Download Station)": {
 		"languages": "En"
 	},
 	"Hotel Dusk - Room 215 (Europe) (Demo) (DS Download Station)": {
@@ -779,14 +779,17 @@
 	"Iron Man (USA) (Demo) (DS Download Station)": {
 		"languages": "En"
 	},
-	"Ivy the Kiwi (USA) (Demo) (Nintendo Channel)": {
-		"languages": "En"
-	},
 	"Ivy the Kiwi (Japan) (Demo) (Nintendo Channel)": {
 		"languages": "Ja"
 	},
+	"Ivy the Kiwi (USA) (Demo) (Nintendo Channel)": {
+		"languages": "En"
+	},
 	"Jam Sessions (USA) (Demo) (DS Download Station)": {
 		"languages": "En"
+	},
+	"James Cameron's Avatar - The Game (Europe) (En,Fr,De,Es,It,Nl) (Demo) (Nintendo Channel)": {
+		"languages": "En,Fr,De,Es,It,Nl"
 	},
 	"James Cameron's Avatar - The Game (Japan) (Demo) (Nintendo Channel)": {
 		"languages": "Ja"
@@ -794,13 +797,10 @@
 	"James Cameron's Avatar - The Game (USA) (Demo) (Nintendo Channel)": {
 		"languages": "En"
 	},
-	"James Cameron's Avatar - The Game (Europe) (En,Fr,De,Es,It,Nl) (Demo) (Nintendo Channel)": {
-		"languages": "En,Fr,De,Es,It,Nl"
-	},
-	"James Patterson Women's Murder Club - Games of Passion (USA) (Demo)": {
+	"James Patterson Women's Murder Club - Games of Passion (USA) (Demo) (Nintendo Channel)": {
 		"languages": "En"
 	},
-	"James Patterson Women's Murder Club - Games of Passion (USA) (Demo) (Nintendo Channel)": {
+	"James Patterson Women's Murder Club - Games of Passion (USA) (Demo)": {
 		"languages": "En"
 	},
 	"Jump Super Stars (Japan) (Demo) (DS Download Station)": {
@@ -839,8 +839,14 @@
 	"Kyokugen Dasshutsu - 9-jikan, 9-nin, 9 no Tobira (Japan) (Demo) (Nintendo Channel)": {
 		"languages": "Ja"
 	},
-	"Legend of Zelda - Spirit Tracks, The - Multiplayer (USA) (Fr) (DS Broadcast)": {
-		"languages": "Fr"
+	"Legend of Zelda - Spirit Tracks, The - Multiplayer (Europe) (De) (DS Broadcast)": {
+		"languages": "De"
+	},
+	"Legend of Zelda - Spirit Tracks, The - Multiplayer (Europe) (DS Broadcast)": {
+		"languages": "En"
+	},
+	"Legend of Zelda - Spirit Tracks, The - Multiplayer (Europe) (Es) (DS Broadcast)": {
+		"languages": "Es"
 	},
 	"Legend of Zelda - Spirit Tracks, The - Multiplayer (Europe) (Fr) (DS Broadcast)": {
 		"languages": "Fr"
@@ -848,20 +854,14 @@
 	"Legend of Zelda - Spirit Tracks, The - Multiplayer (Europe) (It) (DS Broadcast)": {
 		"languages": "It"
 	},
-	"Legend of Zelda - Spirit Tracks, The - Multiplayer (Europe) (Es) (DS Broadcast)": {
-		"languages": "Es"
-	},
 	"Legend of Zelda - Spirit Tracks, The - Multiplayer (USA) (DS Broadcast)": {
 		"languages": "En"
 	},
 	"Legend of Zelda - Spirit Tracks, The - Multiplayer (USA) (Es) (DS Broadcast)": {
 		"languages": "Es"
 	},
-	"Legend of Zelda - Spirit Tracks, The - Multiplayer (Europe) (DS Broadcast)": {
-		"languages": "En"
-	},
-	"Legend of Zelda - Spirit Tracks, The - Multiplayer (Europe) (De) (DS Broadcast)": {
-		"languages": "De"
+	"Legend of Zelda - Spirit Tracks, The - Multiplayer (USA) (Fr) (DS Broadcast)": {
+		"languages": "Fr"
 	},
 	"Legend of Zelda, The - Phantom Hourglass - Video (USA) (Dwnld Sttn)": {
 		"languages": "En"
@@ -944,10 +944,10 @@
 	"Mario & Sonic at Vancouver Olympic - Speed Skating 500m (Japan) (Demo) (Nintendo Channel)": {
 		"languages": "Ja"
 	},
-	"Mario Kart DS (Europe) (Demo) (Nintendo Channel)": {
+	"Mario Kart DS (Europe) (Demo) (Download Station Vol. 1)": {
 		"languages": "En"
 	},
-	"Mario Kart DS (Europe) (Demo) (Download Station Vol. 1)": {
+	"Mario Kart DS (Europe) (Demo) (Nintendo Channel)": {
 		"languages": "En"
 	},
 	"Mario Kart DS (USA) (Demo) (Download Station Vol. 1)": {
@@ -955,6 +955,27 @@
 	},
 	"Mario Party DS - Video (USA) (Download Station)": {
 		"languages": "En"
+	},
+	"Mario vs. Donkey Kong 2 - March of the Minis (Europe) (Demo) (Download Station Vol. 3)": {
+		"languages": "En"
+	},
+	"Mario vs. Donkey Kong 2 - March of the Minis (Europe) (Demo) (DS Broadcast)": {
+		"languages": "En"
+	},
+	"Mario vs. Donkey Kong 2 - March of the Minis (Europe) (En,Fr,De,Es,It) (Demo) (In-game) [b]": {
+		"languages": "En,Fr,De,Es,It"
+	},
+	"Mario vs. Donkey Kong 2 - March of the Minis (USA) (Demo) (Download Station Vol. 3)": {
+		"languages": "En"
+	},
+	"Mario vs. Donkey Kong 2 - March of the Minis (USA) (Demo) (DS Broadcast) (In-game)": {
+		"languages": "En"
+	},
+	"Mario vs. Donkey Kong 2 - MiniMini Daikoushin! (Japan) (Demo) (DS Broadcast)": {
+		"languages": "Ja"
+	},
+	"Mario vs. Donkey Kong 2 - MiniMini Daikoushin! (Japan) (Demo) (In-game) [b]": {
+		"languages": "Ja"
 	},
 	"Mario vs. Donkey Kong - Mini-Land Mayhem! (Europe) (En,Fr,De,Es,It) (Demo) (Nintendo Channel)": {
 		"languages": "En,Fr,De,Es,It"
@@ -974,30 +995,6 @@
 	"Mario vs. Donkey Kong - Mini-Land Mayhem! (Spain) (En,Fr,De,Es,It) (Demo) (Nintendo Channel)": {
 		"languages": "En,Fr,De,Es,It"
 	},
-	"Mario vs. Donkey Kong 2 - March of the Minis (Europe) (Demo) (Download Station Vol. 3)": {
-		"languages": "En"
-	},
-	"Mario vs. Donkey Kong 2 - March of the Minis (USA) (Demo) (Download Station Vol. 3)": {
-		"languages": "En"
-	},
-	"Mario vs. Donkey Kong 2 - March of the Minis (Europe) (En,Fr,De,Es,It) (Demo) (In-game) [b]": {
-		"languages": "En,Fr,De,Es,It"
-	},
-	"Mario vs. Donkey Kong 2 - March of the Minis (USA) (Demo) (In-game) [b]": {
-		"languages": "En"
-	},
-	"Mario vs. Donkey Kong 2 - March of the Minis (Europe) (Demo) (DS Broadcast)": {
-		"languages": "En"
-	},
-	"Mario vs. Donkey Kong 2 - March of the Minis (USA) (Demo) (DS Broadcast)": {
-		"languages": "En"
-	},
-	"Mario vs. Donkey Kong 2 - MiniMini Daikoushin! (Japan) (Demo) (In-game) [b]": {
-		"languages": "Ja"
-	},
-	"Mario vs. Donkey Kong 2 - MiniMini Daikoushin! (Japan) (Demo) (DS Broadcast)": {
-		"languages": "Ja"
-	},
 	"Meer Brain Training van Dr Kawashima - Hoe oud is jouw brein (Netherlands) (Demo) (DS Download Station)": {
 		"languages": "Nl"
 	},
@@ -1016,8 +1013,11 @@
 	"Metal Fight Beyblade - Choujou Kessen! - Big Bang Bladers (Japan) (Demo)": {
 		"languages": "Ja"
 	},
-	"Meteos (USA) (Demo) (Kiosk) (E3 2005)": {
+	"Meteos (Europe) (Demo) (DS Broadcast)": {
 		"languages": "En"
+	},
+	"Meteos (Japan) (Demo) (DS Broadcast)": {
+		"languages": "Ja"
 	},
 	"Meteos (Japan) (Demo) (Undumped Japanese Download Station)": {
 		"languages": "Ja"
@@ -1025,16 +1025,13 @@
 	"Meteos (USA) (Demo) (Download Station)": {
 		"languages": "En"
 	},
-	"Meteos (Japan) (Demo) (DS Broadcast)": {
-		"languages": "Ja"
-	},
 	"Meteos (USA) (Demo) (DS Broadcast)": {
 		"languages": "En"
 	},
-	"Meteos (Europe) (Demo) (DS Broadcast)": {
+	"Meteos (USA) (Demo) (Kiosk) (E3 2005)": {
 		"languages": "En"
 	},
-	"Meteos - Disney Magic (USA) (Demo) (DS Download Station)": {
+	"Meteos - Disney Magic (Europe) (Demo) (DS Broadcast)": {
 		"languages": "En"
 	},
 	"Meteos - Disney Magic (Japan) (Demo) (DS Broadcast)": {
@@ -1043,26 +1040,26 @@
 	"Meteos - Disney Magic (USA) (Demo) (DS Broadcast)": {
 		"languages": "En"
 	},
-	"Meteos - Disney Magic (Europe) (Demo) (DS Broadcast)": {
+	"Meteos - Disney Magic (USA) (Demo) (DS Download Station)": {
 		"languages": "En"
 	},
 	"Meteos - Vs. Anasaze (Europe) (DS Broadcast)": {
 		"languages": "En"
 	},
-	"Meteos - Vs. Anasaze (USA) (DS Broadcast)": {
-		"languages": "En"
-	},
 	"Meteos - Vs. Anasaze (Japan) (DS Broadcast)": {
 		"languages": "Ja"
+	},
+	"Meteos - Vs. Anasaze (USA) (DS Broadcast)": {
+		"languages": "En"
 	},
 	"Meteos - Vs. Firen (Europe) (DS Broadcast)": {
 		"languages": "En"
 	},
-	"Meteos - Vs. Firen (USA) (DS Broadcast)": {
-		"languages": "En"
-	},
 	"Meteos - Vs. Firen (Japan) (DS Broadcast)": {
 		"languages": "Ja"
+	},
+	"Meteos - Vs. Firen (USA) (DS Broadcast)": {
+		"languages": "En"
 	},
 	"Meteos - Vs. Geolyte (Europe) (DS Broadcast)": {
 		"languages": "En"
@@ -1076,11 +1073,11 @@
 	"Meteos - Vs. Oleana (Europe) (DS Broadcast)": {
 		"languages": "En"
 	},
-	"Meteos - Vs. Oleana (USA) (DS Broadcast)": {
-		"languages": "En"
-	},
 	"Meteos - Vs. Oleana (Japan) (DS Broadcast)": {
 		"languages": "Ja"
+	},
+	"Meteos - Vs. Oleana (USA) (DS Broadcast)": {
+		"languages": "En"
 	},
 	"Metroid Prime - Hunters (USA, Europe) (Demo) (DS Download Station)": {
 		"languages": "En"
@@ -1091,10 +1088,10 @@
 	"Minna no Suizokukan (Japan) (Demo) (Nintendo Channel)": {
 		"languages": "Ja"
 	},
-	"Miru Chikara o Jissen de Kitaeru - DS Medikara Training (Japan) (Demo)": {
+	"Miru Chikara o Jissen de Kitaeru - DS Medikara Training (Japan) (Demo) (DS Broadcast)": {
 		"languages": "Ja"
 	},
-	"Miru Chikara o Jissen de Kitaeru - DS Medikara Training (Japan) (Demo) (DS Broadcast)": {
+	"Miru Chikara o Jissen de Kitaeru - DS Medikara Training (Japan) (Demo)": {
 		"languages": "Ja"
 	},
 	"Mirudake Ugoku Memo Chou (Japan) (Nintendo Channel)": {
@@ -1103,26 +1100,26 @@
 	"More Brain Training del Dr Kawashima - Quanti anni ha il tuo cervello (Italy) (Demo) (DS Download Station)": {
 		"languages": "It"
 	},
-	"More Brain Training from Dr Kawashima - How Old is Your Brain (Europe) (Demo) (DS Download Station)": {
-		"languages": "En"
-	},
 	"More Brain Training from Dr Kawashima - How Old Is Your Brain (Europe) (De) (Demo) (DS Broadcast)": {
 		"languages": "De"
-	},
-	"More Brain Training from Dr Kawashima - How Old Is Your Brain (Europe) (Es) (Demo) (DS Broadcast)": {
-		"languages": "Es"
 	},
 	"More Brain Training from Dr Kawashima - How Old Is Your Brain (Europe) (Demo) (DS Broadcast)": {
 		"languages": "En"
 	},
+	"More Brain Training from Dr Kawashima - How Old is Your Brain (Europe) (Demo) (DS Download Station)": {
+		"languages": "En"
+	},
+	"More Brain Training from Dr Kawashima - How Old Is Your Brain (Europe) (Es) (Demo) (DS Broadcast)": {
+		"languages": "Es"
+	},
 	"More Brain Training from Dr Kawashima - How Old Is Your Brain (Europe) (Fr) (Demo) (DS Broadcast)": {
 		"languages": "Fr"
 	},
-	"More Brain Training from Dr Kawashima - How Old Is Your Brain (Europe) (Nl) (Demo) (DS Broadcast)": {
-		"languages": "Nl"
-	},
 	"More Brain Training from Dr Kawashima - How Old Is Your Brain (Europe) (It) (Demo) (DS Broadcast)": {
 		"languages": "It"
+	},
+	"More Brain Training from Dr Kawashima - How Old Is Your Brain (Europe) (Nl) (Demo) (DS Broadcast)": {
+		"languages": "Nl"
 	},
 	"More Brain Training from Dr Kawashima - How Old Is Your Brain - Vs. Training (Europe) (DS Broadcast)": {
 		"languages": "En"
@@ -1160,22 +1157,22 @@
 	"MySims SkyHeroes DS - Multiplayer (USA) (DS Broadcast)": {
 		"languages": "En"
 	},
-	"Mystery Case Files - MillionHeir (USA) (Demo)": {
+	"Mystery Case Files - MillionHeir (USA) (Demo) (DS Download Station)": {
 		"languages": "En"
 	},
 	"Mystery Case Files - MillionHeir (USA) (Demo) (Nintendo Channel)": {
 		"languages": "En"
 	},
-	"Mystery Case Files - MillionHeir (USA) (Demo) (DS Download Station)": {
+	"Mystery Case Files - MillionHeir (USA) (Demo)": {
 		"languages": "En"
 	},
 	"Naruto Shippuden - Ninja Destiny 2 (USA) (Demo) (Nintendo Channel)": {
 		"languages": "En"
 	},
-	"New York Times Crosswords, The - Multiplayer (USA) (DS Broadcast)": {
+	"New York Times Crosswords, The - Multiplayer (Europe) (DS Broadcast)": {
 		"languages": "En"
 	},
-	"New York Times Crosswords, The - Multiplayer (Europe) (DS Broadcast)": {
+	"New York Times Crosswords, The - Multiplayer (USA) (DS Broadcast)": {
 		"languages": "En"
 	},
 	"Nicktoons - Battle for Volcano Island - Multiplayer (USA) (DS Broadcast)": {
@@ -1187,10 +1184,10 @@
 	"Nihon Keizai Shinbunsha Kanshuu - Shiranai Mama dewa Son wo Suru - 'Mono ya Okane no Shikumi' DS (Japan) (Demo)": {
 		"languages": "Ja"
 	},
-	"Ninja Gaiden - Dragon Sword (USA) (Demo) (DS Download Station)": {
+	"Ninja Gaiden - Dragon Sword (USA) (Demo) (DS Download Station) (Alt)": {
 		"languages": "En"
 	},
-	"Ninja Gaiden - Dragon Sword (USA) (Demo) (Alt1) (DS Download Station)": {
+	"Ninja Gaiden - Dragon Sword (USA) (Demo) (DS Download Station)": {
 		"languages": "En"
 	},
 	"Nintendo DS Title Recommendation Program (USA) (Nintendo Channel)": {
@@ -1238,10 +1235,10 @@
 	"Personal Trainer - Cooking - Macaroni and Cheese (USA) (Demo) (Nintendo Channel)": {
 		"languages": "En"
 	},
-	"Personal Trainer - Math (USA) (Demo)": {
+	"Personal Trainer - Math (USA) (Demo) (Nintendo Channel)": {
 		"languages": "En"
 	},
-	"Personal Trainer - Math (USA) (Demo) (Nintendo Channel)": {
+	"Personal Trainer - Math (USA) (Demo)": {
 		"languages": "En"
 	},
 	"Personal Trainer - Math - Study Together (USA) (DS Broadcast)": {
@@ -1253,28 +1250,28 @@
 	"Personal Trainer - Math - Study Together (USA) (Fr) (DS Broadcast)": {
 		"languages": "Fr"
 	},
-	"Picross 3D (USA) (Demo)": {
+	"Picross 3D (Europe) (Demo) (DS Broadcast)": {
 		"languages": "En"
 	},
 	"Picross 3D (Europe) (Demo) (Nintendo Channel)": {
 		"languages": "En"
 	},
-	"Picross 3D (USA) (Demo) (Nintendo Channel)": {
-		"languages": "En"
-	},
 	"Picross 3D (USA) (Demo) (DS Broadcast)": {
 		"languages": "En"
 	},
-	"Picross 3D (Europe) (Demo) (DS Broadcast)": {
+	"Picross 3D (USA) (Demo) (Nintendo Channel)": {
 		"languages": "En"
 	},
-	"Picross DS (Europe) (Demo) (Nintendo Channel)": {
+	"Picross 3D (USA) (Demo)": {
+		"languages": "En"
+	},
+	"Picross DS (Europe) (Demo) (DS Download Station) (Alt)": {
 		"languages": "En"
 	},
 	"Picross DS (Europe) (Demo) (DS Download Station)": {
 		"languages": "En"
 	},
-	"Picross DS (Europe) (Demo) (Alt1) (DS Download Station)": {
+	"Picross DS (Europe) (Demo) (Nintendo Channel)": {
 		"languages": "En"
 	},
 	"Picross DS (USA) (Demo) (DS Download Station)": {
@@ -1289,28 +1286,28 @@
 	"Ping Pals - Multiplayer (Europe) (DS Broadcast)": {
 		"languages": "En"
 	},
-	"Ping Pals - Multiplayer (USA) (DS Broadcast)": {
-		"languages": "En"
+	"Ping Pals - Multiplayer (France) (DS Broadcast)": {
+		"languages": "Ja"
 	},
 	"Ping Pals - Multiplayer (Germany) (En) (DS Broadcast)": {
 		"languages": "En"
 	},
-	"Ping Pals - Multiplayer (France) (DS Broadcast)": {
-		"languages": "Ja"
-	},
-	"Pirates of the Caribbean - At World's End (USA, Europe) (Demo) (DS Download Station)": {
+	"Ping Pals - Multiplayer (USA) (DS Broadcast)": {
 		"languages": "En"
 	},
-	"Planet 51 - The Game - Multiplayer (USA) (DS Broadcast)": {
+	"Pirates of the Caribbean - At World's End (USA, Europe) (Demo) (DS Download Station)": {
 		"languages": "En"
 	},
 	"Planet 51 - The Game - Multiplayer (Europe) (DS Broadcast)": {
 		"languages": "En"
 	},
-	"Planet Puzzle League (USA) (Demo) (DS Download Station)": {
+	"Planet 51 - The Game - Multiplayer (USA) (DS Broadcast)": {
 		"languages": "En"
 	},
 	"Planet Puzzle League (USA) (Demo) (DS Broadcast)": {
+		"languages": "En"
+	},
+	"Planet Puzzle League (USA) (Demo) (DS Download Station)": {
 		"languages": "En"
 	},
 	"Planet Puzzle League - Multiplayer (USA) (DS Broadcast)": {
@@ -1382,19 +1379,13 @@
 	"Practise English! - For Beginners (France) (Demo) (DS Broadcast)": {
 		"languages": "Fr"
 	},
-	"Practise English! - For Beginners (Spain) (Demo) (DS Broadcast)": {
-		"languages": "Es"
-	},
 	"Practise English! - For Beginners (Germany) (Demo) (DS Broadcast)": {
 		"languages": "De"
 	},
 	"Practise English! - For Beginners (Italy) (Demo) (DS Broadcast)": {
 		"languages": "It"
 	},
-	"Practise English! - For Experts (Japan) (Demo) (DS Broadcast)": {
-		"languages": "Ja"
-	},
-	"Practise English! - For Experts (Spain) (Demo) (DS Broadcast)": {
+	"Practise English! - For Beginners (Spain) (Demo) (DS Broadcast)": {
 		"languages": "Es"
 	},
 	"Practise English! - For Experts (Germany) (Demo) (DS Broadcast)": {
@@ -1402,6 +1393,12 @@
 	},
 	"Practise English! - For Experts (Italy) (Demo) (DS Broadcast)": {
 		"languages": "It"
+	},
+	"Practise English! - For Experts (Japan) (Demo) (DS Broadcast)": {
+		"languages": "Ja"
+	},
+	"Practise English! - For Experts (Spain) (Demo) (DS Broadcast)": {
+		"languages": "Es"
 	},
 	"Prince of Persia - The Forgotten Sands (Europe) (Demo) (Nintendo Channel)": {
 		"languages": "En"
@@ -1415,12 +1412,6 @@
 	"Professor Kageyama's Maths Training - The Hundred Cell Calculation Method (Europe) (Demo) (Nintendo Channel)": {
 		"languages": "En"
 	},
-	"Professor Kageyama's Maths Training - The Hundred Cell Calculation Method - Study Together (Europe) (It) (DS Broadcast)": {
-		"languages": "It"
-	},
-	"Professor Kageyama's Maths Training - The Hundred Cell Calculation Method - Study Together (Europe) (Fr) (DS Broadcast)": {
-		"languages": "Fr"
-	},
 	"Professor Kageyama's Maths Training - The Hundred Cell Calculation Method - Study Together (Europe) (De) (DS Broadcast)": {
 		"languages": "De"
 	},
@@ -1430,16 +1421,22 @@
 	"Professor Kageyama's Maths Training - The Hundred Cell Calculation Method - Study Together (Europe) (Es) (DS Broadcast)": {
 		"languages": "Es"
 	},
+	"Professor Kageyama's Maths Training - The Hundred Cell Calculation Method - Study Together (Europe) (Fr) (DS Broadcast)": {
+		"languages": "Fr"
+	},
+	"Professor Kageyama's Maths Training - The Hundred Cell Calculation Method - Study Together (Europe) (It) (DS Broadcast)": {
+		"languages": "It"
+	},
 	"Professor Layton and the Curious Village - Video (USA) (Demo) (DS Download Station)": {
 		"languages": "En"
 	},
 	"Programme d'Entrainement Cerebral Avance du Dr Kawashima - Quel age a votre cerveau (France) (Demo) (DS Download Station)": {
 		"languages": "Fr"
 	},
-	"Puzzle League DS (Europe) (Demo) (DS Download Station)": {
+	"Puzzle League DS (Europe) (Demo) (DS Broadcast)": {
 		"languages": "En"
 	},
-	"Puzzle League DS (Europe) (Demo) (DS Broadcast)": {
+	"Puzzle League DS (Europe) (Demo) (DS Download Station)": {
 		"languages": "En"
 	},
 	"Puzzle League DS - Multiplayer (Europe) (DS Broadcast)": {
@@ -1448,28 +1445,28 @@
 	"Rayman Raving Rabbids 2 (Europe) (Demo) (DS Download Station)": {
 		"languages": "En"
 	},
-	"Rhythm Heaven (USA) (Demo)": {
+	"Rhythm Heaven (USA) (Demo) (Nintendo Channel)": {
 		"languages": "En"
 	},
-	"Rhythm Heaven (USA) (Demo) (Nintendo Channel)": {
+	"Rhythm Heaven (USA) (Demo)": {
 		"languages": "En"
 	},
 	"Rhythm Paradise (Europe) (Demo) (Nintendo Channel)": {
 		"languages": "En"
 	},
-	"Rhythm Tengoku Gold (Japan) (Demo)": {
-		"languages": "Ja"
-	},
 	"Rhythm Tengoku Gold (Japan) (Demo) (Nintendo Channel)": {
 		"languages": "Ja"
 	},
-	"Rittai Picross (Japan) (Demo)": {
+	"Rhythm Tengoku Gold (Japan) (Demo)": {
+		"languages": "Ja"
+	},
+	"Rittai Picross (Japan) (Demo) (DS Broadcast)": {
 		"languages": "Ja"
 	},
 	"Rittai Picross (Japan) (Demo) (Nintendo Channel)": {
 		"languages": "Ja"
 	},
-	"Rittai Picross (Japan) (Demo) (DS Broadcast)": {
+	"Rittai Picross (Japan) (Demo)": {
 		"languages": "Ja"
 	},
 	"Rockman EXE - Operate Shooting Star (Japan) (Demo) (Nintendo Channel)": {
@@ -1484,10 +1481,10 @@
 	"Rooms - Fushigi na Ugoku Heya (Japan) (Demo) (Nintendo Channel)": {
 		"languages": "Ja"
 	},
-	"Rooms - The Main Building (USA) (Demo)": {
+	"Rooms - The Main Building (USA) (Demo) (Nintendo Channel)": {
 		"languages": "En"
 	},
-	"Rooms - The Main Building (USA) (Demo) (Nintendo Channel)": {
+	"Rooms - The Main Building (USA) (Demo)": {
 		"languages": "En"
 	},
 	"Sarainneun Yeongeoro Ganghaejineun Siljeon! - DS Yeongeo Sammaegyeong - For Beginners (Korea) (Demo) (DS Broadcast)": {
@@ -1499,10 +1496,10 @@
 	"SD Gundam Sangoku Den - Brave Battle Warriors - Shin Militia Taisen (Japan) (Demo)": {
 		"languages": "Ja"
 	},
-	"Sekai no Gohan - Chicken Chilindron (Japan) (Demo) (Nintendo Channel)": {
+	"Sekai no Gohan - Chicken Chilindron (Japan) (Demo) (Nintendo Channel) (Alt)": {
 		"languages": "Ja"
 	},
-	"Sekai no Gohan - Chicken Chilindron (Japan) (Demo) (Nintendo Channel, Alt)": {
+	"Sekai no Gohan - Chicken Chilindron (Japan) (Demo) (Nintendo Channel)": {
 		"languages": "Ja"
 	},
 	"Shiranai Mama dewa Son wo Suru 'Mono ya Okane no Shikumi' DS (Japan) (Demo) (Nintendo Channel)": {
@@ -1517,23 +1514,23 @@
 	"Shunkan Puzz Loop - Multiplayer (Japan) (DS Broadcast)": {
 		"languages": "Ja"
 	},
-	"Sight Training - Enjoy Exercising And Relaxing Your Eyes (Europe) (Demo) (DS Download Station)": {
-		"languages": "En"
-	},
-	"Sight Training - Enjoy Exercising and Relaxing Your Eyes (Europe) (Es) (Demo) (DS Broadcast)": {
-		"languages": "Es"
-	},
 	"Sight Training - Enjoy Exercising and Relaxing Your Eyes (Europe) (De) (Demo) (DS Broadcast)": {
 		"languages": "De"
 	},
 	"Sight Training - Enjoy Exercising and Relaxing Your Eyes (Europe) (Demo) (DS Broadcast)": {
 		"languages": "En"
 	},
-	"Sight Training - Enjoy Exercising and Relaxing Your Eyes (Europe) (It) (Demo) (DS Broadcast)": {
-		"languages": "It"
+	"Sight Training - Enjoy Exercising And Relaxing Your Eyes (Europe) (Demo) (DS Download Station)": {
+		"languages": "En"
+	},
+	"Sight Training - Enjoy Exercising and Relaxing Your Eyes (Europe) (Es) (Demo) (DS Broadcast)": {
+		"languages": "Es"
 	},
 	"Sight Training - Enjoy Exercising and Relaxing Your Eyes (Europe) (Fr) (Demo) (DS Broadcast)": {
 		"languages": "Fr"
+	},
+	"Sight Training - Enjoy Exercising and Relaxing Your Eyes (Europe) (It) (Demo) (DS Broadcast)": {
+		"languages": "It"
 	},
 	"Simple Wii Series Vol. 3 - The Casino Party (Japan) (Wii Broadcast)": {
 		"languages": "Ja"
@@ -1571,29 +1568,20 @@
 	"Sonic Rush (USA) (Demo) (DS Broadcast)": {
 		"languages": "En"
 	},
-	"Sonic Rush - Multiplayer (USA) (DS Broadcast)": {
-		"languages": "En"
-	},
 	"Sonic Rush - Multiplayer (Europe) (DS Broadcast)": {
 		"languages": "En"
 	},
 	"Sonic Rush - Multiplayer (Japan) (DS Broadcast)": {
 		"languages": "Ja"
 	},
+	"Sonic Rush - Multiplayer (USA) (DS Broadcast)": {
+		"languages": "En"
+	},
 	"Space Bust-a-Move - Multiplayer (Europe) (De) (DS Broadcast)": {
 		"languages": "De"
 	},
 	"Space Bust-a-Move - Multiplayer (Europe) (DS Broadcast)": {
 		"languages": "En"
-	},
-	"Space Bust-a-Move - Multiplayer (USA) (Es) (DS Broadcast)": {
-		"languages": "Es"
-	},
-	"Space Bust-a-Move - Multiplayer (USA) (DS Broadcast)": {
-		"languages": "En"
-	},
-	"Space Bust-a-Move - Multiplayer (USA) (De) (DS Broadcast)": {
-		"languages": "De"
 	},
 	"Space Bust-a-Move - Multiplayer (Europe) (Es) (DS Broadcast)": {
 		"languages": "Es"
@@ -1604,6 +1592,15 @@
 	"Space Bust-a-Move - Multiplayer (Europe) (It) (DS Broadcast)": {
 		"languages": "It"
 	},
+	"Space Bust-a-Move - Multiplayer (USA) (De) (DS Broadcast)": {
+		"languages": "De"
+	},
+	"Space Bust-a-Move - Multiplayer (USA) (DS Broadcast)": {
+		"languages": "En"
+	},
+	"Space Bust-a-Move - Multiplayer (USA) (Es) (DS Broadcast)": {
+		"languages": "Es"
+	},
 	"Space Bust-a-Move - Multiplayer (USA) (Fr) (DS Broadcast)": {
 		"languages": "Fr"
 	},
@@ -1613,10 +1610,10 @@
 	"Space Puzzle Bobble - Multiplayer (Japan) (DS Broadcast)": {
 		"languages": "Ja"
 	},
-	"Spectrobes - Video (USA) (Download Station Vol. 3)": {
+	"Spectrobes - Video (Europe) (Demo) (DS Download Station)": {
 		"languages": "En"
 	},
-	"Spectrobes - Video (Europe) (Demo) (DS Download Station)": {
+	"Spectrobes - Video (USA) (Download Station Vol. 3)": {
 		"languages": "En"
 	},
 	"Spider-Man - Friend or Foe - Video (USA) (Demo) (DS Download Station)": {
@@ -1625,10 +1622,10 @@
 	"Spiderwick Chronicles, The (USA, Europe) (Demo) (DS Download Station)": {
 		"languages": "En"
 	},
-	"SpongeBob - Surf & Skate Roadtrip - Multiplayer - Skate Half-Pipe (USA) (DS Broadcast)": {
+	"SpongeBob - Surf & Skate Roadtrip - Multiplayer - Skate Half-Pipe (Europe) (DS Broadcast)": {
 		"languages": "En"
 	},
-	"SpongeBob - Surf & Skate Roadtrip - Multiplayer - Skate Half-Pipe (Europe) (DS Broadcast)": {
+	"SpongeBob - Surf & Skate Roadtrip - Multiplayer - Skate Half-Pipe (USA) (DS Broadcast)": {
 		"languages": "En"
 	},
 	"SpongeBob - Surf & Skate Roadtrip - Multiplayer - Surf (Europe) (DS Broadcast)": {
@@ -1640,10 +1637,10 @@
 	"SpongeBob SquarePants - SpongeBob to Nakama-tachi - Multiplayer (Japan) (DS Broadcast)": {
 		"languages": "Ja"
 	},
-	"SpongeBob's Truth or Square (USA) (Demo) (Nintendo Channel)": {
+	"SpongeBob's Truth or Square (Europe) (Demo) (Nintendo Channel)": {
 		"languages": "En"
 	},
-	"SpongeBob's Truth or Square (Europe) (Demo) (Nintendo Channel)": {
+	"SpongeBob's Truth or Square (USA) (Demo) (Nintendo Channel)": {
 		"languages": "En"
 	},
 	"Spore Creatures (USA) (En,Fr,De,Es,It) (Demo) (DS Download Station)": {
@@ -1727,34 +1724,34 @@
 	"Time Ace (USA) (Demo) (DS Download Station)": {
 		"languages": "En"
 	},
-	"Tomb Raider - Legend (USA) (En,Fr,De,Es,It) (Demo) (DS Download Station)": {
-		"languages": "En,Fr,De,Es,It"
-	},
 	"Tomb Raider - Legend (Europe) (En,Fr,De,Es,It) (Demo) (DS Download Station)": {
 		"languages": "En,Fr,De,Es,It"
 	},
-	"Tomodachi Collection (Japan) (Demo) (Nintendo Channel)": {
+	"Tomb Raider - Legend (USA) (En,Fr,De,Es,It) (Demo) (DS Download Station)": {
+		"languages": "En,Fr,De,Es,It"
+	},
+	"Tomodachi Collection (Japan) (Demo) (Nintendo Channel) (Alt)": {
 		"languages": "Ja"
 	},
-	"Tomodachi Collection (Japan) (Demo) (Nintendo Channel, Alt)": {
+	"Tomodachi Collection (Japan) (Demo) (Nintendo Channel)": {
 		"languages": "Ja"
 	},
 	"Touchmaster - Crystal Ball (USA) (Demo) (DS Download Station)": {
 		"languages": "En"
 	},
-	"Touhoku Daigaku Mirai Kagaku Gijutsu Kyoudou Kenkyuu Center - Kawashima Ryuuta Kyouju Kanshuu - Motto Nou o Kitaeru Otona no DS Training (Japan) (Demo)": {
+	"Touhoku Daigaku Mirai Kagaku Gijutsu Kyoudou Kenkyuu Center - Kawashima Ryuuta Kyouju Kanshuu - Motto Nou o Kitaeru Otona no DS Training (Japan) (Demo) (DS Broadcast)": {
 		"languages": "Ja"
 	},
-	"Touhoku Daigaku Mirai Kagaku Gijutsu Kyoudou Kenkyuu Center - Kawashima Ryuuta Kyouju Kanshuu - Motto Nou o Kitaeru Otona no DS Training (Japan) (Demo) (DS Broadcast)": {
+	"Touhoku Daigaku Mirai Kagaku Gijutsu Kyoudou Kenkyuu Center - Kawashima Ryuuta Kyouju Kanshuu - Motto Nou o Kitaeru Otona no DS Training (Japan) (Demo)": {
 		"languages": "Ja"
 	},
 	"Touhoku Daigaku Mirai Kagaku Gijutsu Kyoudou Kenkyuu Center - Kawashima Ryuuta Kyouju Kanshuu - Motto Nou o Kitaeru Otona no DS Training - Vs. Training (Japan) (DS Broadcast)": {
 		"languages": "Ja"
 	},
-	"Touhoku Daigaku Mirai Kagaku Gijutsu Kyoudou Kenkyuu Center - Kawashima Ryuuta Kyouju Kanshuu - Nou o Kitaeru Otona no DS Training (Japan) (Demo) (DS Download Station)": {
+	"Touhoku Daigaku Mirai Kagaku Gijutsu Kyoudou Kenkyuu Center - Kawashima Ryuuta Kyouju Kanshuu - Nou o Kitaeru Otona no DS Training (Japan) (Demo) (DS Broadcast)": {
 		"languages": "Ja"
 	},
-	"Touhoku Daigaku Mirai Kagaku Gijutsu Kyoudou Kenkyuu Center - Kawashima Ryuuta Kyouju Kanshuu - Nou o Kitaeru Otona no DS Training (Japan) (Demo) (DS Broadcast)": {
+	"Touhoku Daigaku Mirai Kagaku Gijutsu Kyoudou Kenkyuu Center - Kawashima Ryuuta Kyouju Kanshuu - Nou o Kitaeru Otona no DS Training (Japan) (Demo) (DS Download Station)": {
 		"languages": "Ja"
 	},
 	"Touhoku Daigaku Mirai Kagaku Gijutsu Kyoudou Kenkyuu Center - Kawashima Ryuuta Kyouju Kanshuu - Nou o Kitaeru Otona no DS Training - Calculation x 30 (Japan) (DS Broadcast)": {
@@ -1772,11 +1769,8 @@
 	"Transformers - Decepticons + Transformers - Autobots - Video 2 (USA) (Demo) (DS Download Station)": {
 		"languages": "En"
 	},
-	"Trauma Center - Under the Knife (Spain) (Demo) (DS Download Station)": {
-		"languages": "Es"
-	},
-	"Trauma Center - Under the Knife (Italy) (Demo) (DS Download Station)": {
-		"languages": "It"
+	"Trauma Center - Under the Knife (Europe) (Demo) (DS Download Station)": {
+		"languages": "En"
 	},
 	"Trauma Center - Under the Knife (France) (Demo) (DS Download Station)": {
 		"languages": "Fr"
@@ -1784,8 +1778,11 @@
 	"Trauma Center - Under the Knife (Germany) (Demo) (DS Download Station)": {
 		"languages": "De"
 	},
-	"Trauma Center - Under the Knife (Europe) (Demo) (DS Download Station)": {
-		"languages": "En"
+	"Trauma Center - Under the Knife (Italy) (Demo) (DS Download Station)": {
+		"languages": "It"
+	},
+	"Trauma Center - Under the Knife (Spain) (Demo) (DS Download Station)": {
+		"languages": "Es"
 	},
 	"True Swing Golf (USA) (Demo) (DS Download Station)": {
 		"languages": "En"
@@ -1793,10 +1790,10 @@
 	"Wacky Races - Crash & Dash (USA) (Demo) (DS Download Station)": {
 		"languages": "En"
 	},
-	"Wagamama Fashion - Girls Mode (Japan) (Demo)": {
+	"Wagamama Fashion - Girls Mode (Japan) (Demo) (Nintendo Channel)": {
 		"languages": "Ja"
 	},
-	"Wagamama Fashion - Girls Mode (Japan) (Demo) (Nintendo Channel)": {
+	"Wagamama Fashion - Girls Mode (Japan) (Demo)": {
 		"languages": "Ja"
 	},
 	"Wall-E (USA) (Demo) (DS Download Station)": {

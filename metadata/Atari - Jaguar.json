@@ -1,25 +1,4 @@
 {
-	"Aircars (USA)": {
-		"languages": "En"
-	},
-	"Aircars (USA) (Beta) (1994-11-14)": {
-		"languages": "En"
-	},
-	"Alien vs Predator (World)": {
-		"languages": "En"
-	},
-	"Alien vs Predator (World) (Beta) (1993-08-18)": {
-		"languages": "En"
-	},
-	"Alien vs Predator (World) (Beta) (1993-10-13)": {
-		"languages": "En"
-	},
-	"Alien vs Predator (World) (Beta) (1994-04-08)": {
-		"languages": "En"
-	},
-	"Arena Football '95 (World)": {
-		"languages": "En"
-	},
 	"[BIOS] Atari Jaguar (World)": {
 		"languages": "En"
 	},
@@ -35,19 +14,40 @@
 	"[BIOS] Atari Jaguar Stubulator '94 (World)": {
 		"languages": "En"
 	},
-	"Atari Karts (World)": {
+	"Aircars (USA) (Beta) (1994-11-14)": {
+		"languages": "En"
+	},
+	"Aircars (USA)": {
+		"languages": "En"
+	},
+	"Alien vs Predator (World) (Beta) (1993-08-18)": {
+		"languages": "En"
+	},
+	"Alien vs Predator (World) (Beta) (1993-10-13)": {
+		"languages": "En"
+	},
+	"Alien vs Predator (World) (Beta) (1994-04-08)": {
+		"languages": "En"
+	},
+	"Alien vs Predator (World)": {
+		"languages": "En"
+	},
+	"Arena Football '95 (World)": {
 		"languages": "En"
 	},
 	"Atari Karts (World) (Beta)": {
 		"languages": "En"
 	},
+	"Atari Karts (World)": {
+		"languages": "En"
+	},
 	"Attack of the Mutant Penguins (World)": {
 		"languages": "En"
 	},
-	"Barkley Shut Up and Jam (World)": {
+	"Barkley Shut Up and Jam (World) (Beta)": {
 		"languages": "En"
 	},
-	"Barkley Shut Up and Jam (World) (Beta)": {
+	"Barkley Shut Up and Jam (World)": {
 		"languages": "En"
 	},
 	"Battle Sphere (World)": {
@@ -56,10 +56,10 @@
 	"Battle Sphere Gold (World)": {
 		"languages": "En"
 	},
-	"Breakout 2000 (USA, Europe)": {
+	"Breakout 2000 (USA, Europe) (Beta)": {
 		"languages": "En"
 	},
-	"Breakout 2000 (USA, Europe) (Beta)": {
+	"Breakout 2000 (USA, Europe)": {
 		"languages": "En"
 	},
 	"Brett Hull Hockey (World)": {
@@ -74,16 +74,19 @@
 	"Cannon Fodder (World)": {
 		"languages": "En"
 	},
+	"Checkered Flag (World) (Beta) (CES 1993)": {
+		"languages": "En"
+	},
 	"Checkered Flag (World)": {
 		"languages": "En"
 	},
-	"Checkered Flag (World) (Beta) (CES 1993)": {
+	"Club Drive (World) (Beta)": {
 		"languages": "En"
 	},
 	"Club Drive (World)": {
 		"languages": "En"
 	},
-	"Club Drive (World) (Beta)": {
+	"Cybermorph (World) (Beta) (1993-08-23)": {
 		"languages": "En"
 	},
 	"Cybermorph (World) (Rev A)": {
@@ -92,13 +95,10 @@
 	"Cybermorph (World) (Rev B)": {
 		"languages": "En"
 	},
-	"Cybermorph (World) (Beta) (1993-08-23)": {
+	"Defender 2000 (World) (Beta)": {
 		"languages": "En"
 	},
 	"Defender 2000 (World)": {
-		"languages": "En"
-	},
-	"Defender 2000 (World) (Beta)": {
 		"languages": "En"
 	},
 	"Doom (World)": {
@@ -107,13 +107,13 @@
 	"Double Dragon V - The Shadow Falls (World)": {
 		"languages": "En"
 	},
-	"Dragon - The Bruce Lee Story (World)": {
-		"languages": "En"
-	},
 	"Dragon - The Bruce Lee Story (World) (Beta) (1994-09-26)": {
 		"languages": "En"
 	},
 	"Dragon - The Bruce Lee Story (World) (Beta) (1994-10-06)": {
+		"languages": "En"
+	},
+	"Dragon - The Bruce Lee Story (World)": {
 		"languages": "En"
 	},
 	"Evolution - Dino Dudes (World)": {
@@ -122,13 +122,13 @@
 	"Fever Pitch Soccer (World) (En,Fr,De,Es,It)": {
 		"languages": "En,Fr,De,Es,It"
 	},
-	"Fight for Life (USA, Europe)": {
-		"languages": "En"
-	},
 	"Fight for Life (USA, Europe) (Beta) (1995-03-22)": {
 		"languages": "En"
 	},
 	"Fight for Life (USA, Europe) (Beta) (1995-09-07)": {
+		"languages": "En"
+	},
+	"Fight for Life (USA, Europe)": {
 		"languages": "En"
 	},
 	"Flashback - The Quest for Identity (World) (En,Fr)": {
@@ -155,13 +155,10 @@
 	"International Sensible Soccer (World)": {
 		"languages": "En"
 	},
-	"Iron Soldier (World)": {
-		"languages": "En"
-	},
 	"Iron Soldier 2 (USA, Europe)": {
 		"languages": "En"
 	},
-	"Jack Nicklaus Cyber Golf (USA) (Proto) (1994-07-04)": {
+	"Iron Soldier (World)": {
 		"languages": "En"
 	},
 	"Jack Nicklaus Cyber Golf (USA) (Demo) (1995-01-13)": {
@@ -170,10 +167,13 @@
 	"Jack Nicklaus Cyber Golf (USA) (Demo) (1995-01-16)": {
 		"languages": "En"
 	},
-	"Kasumi Ninja (World)": {
+	"Jack Nicklaus Cyber Golf (USA) (Proto) (1994-07-04)": {
 		"languages": "En"
 	},
 	"Kasumi Ninja (World) (Demo)": {
+		"languages": "En"
+	},
+	"Kasumi Ninja (World)": {
 		"languages": "En"
 	},
 	"Missile Command 3D (World)": {
@@ -209,19 +209,19 @@
 	"Protector - Special Edition (World)": {
 		"languages": "En"
 	},
-	"Raiden (World)": {
-		"languages": "En"
-	},
 	"Raiden (World) (Rev A)": {
 		"languages": "En"
 	},
-	"Rayman (World)": {
+	"Raiden (World)": {
+		"languages": "En"
+	},
+	"Rayman (World) (Beta 1)": {
 		"languages": "En"
 	},
 	"Rayman (World) (Beta 2)": {
 		"languages": "En"
 	},
-	"Rayman (World) (Beta 1)": {
+	"Rayman (World)": {
 		"languages": "En"
 	},
 	"Ruiner Pinball (USA, Europe)": {
@@ -242,10 +242,13 @@
 	"Space War 2000 (World)": {
 		"languages": "En"
 	},
-	"Super Burnout (World)": {
+	"Speedster II (USA) (Proto)": {
 		"languages": "En"
 	},
 	"Super Burnout (World) (Demo) (WCES 1995)": {
+		"languages": "En"
+	},
+	"Super Burnout (World)": {
 		"languages": "En"
 	},
 	"Supercross 3D (USA, Europe)": {
@@ -269,19 +272,19 @@
 	"Tiny Toon Adventures (USA) (Proto)": {
 		"languages": "En"
 	},
-	"Total Carnage (World)": {
+	"Total Carnage (World) (Beta)": {
 		"languages": "En"
 	},
-	"Total Carnage (World) (Beta)": {
+	"Total Carnage (World)": {
 		"languages": "En"
 	},
 	"Towers II - Plight of the Stargazer (USA, Europe)": {
 		"languages": "En"
 	},
-	"Trevor McFur in the Crescent Galaxy (World) (Rev A)": {
+	"Trevor McFur in the Crescent Galaxy (World) (Beta)": {
 		"languages": "En"
 	},
-	"Trevor McFur in the Crescent Galaxy (World) (Beta)": {
+	"Trevor McFur in the Crescent Galaxy (World) (Rev A)": {
 		"languages": "En"
 	},
 	"Trevor McFur in the Crescent Galaxy (World)": {
@@ -311,10 +314,10 @@
 	"Worms (USA, Europe)": {
 		"languages": "En"
 	},
-	"Zero 5 (USA, Europe)": {
+	"Zero 5 (USA, Europe) (Beta)": {
 		"languages": "En"
 	},
-	"Zero 5 (USA, Europe) (Beta)": {
+	"Zero 5 (USA, Europe)": {
 		"languages": "En"
 	},
 	"Zool 2 (World)": {

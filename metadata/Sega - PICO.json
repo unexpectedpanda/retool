@@ -1,14 +1,14 @@
 {
-	"101-piki Wan-chan - Wan-chan Daikoushin! (Japan)": {
+	"3-choume no Tama - Momo-chan wa Doko! (Japan) (Rev 1)": {
+		"languages": "Ja"
+	},
+	"3-choume no Tama - Momo-chan wa Doko! (Japan)": {
 		"languages": "Ja"
 	},
 	"101-piki Wan-chan - Wan-chan Daikoushin! (Japan) (Beta) (1996-08-17)": {
 		"languages": "Ja"
 	},
-	"3-choume no Tama - Momo-chan wa Doko! (Japan) (Rev 1)": {
-		"languages": "Ja"
-	},
-	"3-choume no Tama - Momo-chan wa Doko! (Japan)": {
+	"101-piki Wan-chan - Wan-chan Daikoushin! (Japan)": {
 		"languages": "Ja"
 	},
 	"6000-nin no Sensei-tachi ga Tsukutta Tanoshii Shougakkou Tanken 1 (Japan)": {
@@ -77,9 +77,6 @@
 	"Beogseu Laipeu (Korea)": {
 		"languages": "Ko"
 	},
-	"Berenstain Bears, The - A School Day (USA)": {
-		"languages": "En"
-	},
 	"Berenstain Bears, The - A School Day (USA) (Beta) (1994-12-20)": {
 		"languages": "En"
 	},
@@ -99,6 +96,9 @@
 		"languages": "En"
 	},
 	"Berenstain Bears, The - A School Day (USA) (Beta) (1995-01-30)": {
+		"languages": "En"
+	},
+	"Berenstain Bears, The - A School Day (USA)": {
 		"languages": "En"
 	},
 	"Bioneun Nal (Korea)": {
@@ -146,13 +146,13 @@
 	"Crayola Crayons - Create a World (USA)": {
 		"languages": "En"
 	},
-	"Crayon Shin-chan no Oekaki Note (Japan)": {
-		"languages": "Ja"
-	},
 	"Crayon Shin-chan no Oekaki Note (Japan) (Beta 1)": {
 		"languages": "Ja"
 	},
 	"Crayon Shin-chan no Oekaki Note (Japan) (Beta 2)": {
+		"languages": "Ja"
+	},
+	"Crayon Shin-chan no Oekaki Note (Japan)": {
 		"languages": "Ja"
 	},
 	"Crayon Shin-chan no Ora to Issho ni Asobou yo! (Japan)": {
@@ -179,10 +179,10 @@
 	"Disney Princess - Ariel (Japan)": {
 		"languages": "Ja"
 	},
-	"Disney Princess - Princess ni Naritai! (Japan)": {
+	"Disney Princess - Princess ni Naritai! (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
-	"Disney Princess - Princess ni Naritai! (Japan) (Rev 1)": {
+	"Disney Princess - Princess ni Naritai! (Japan)": {
 		"languages": "Ja"
 	},
 	"Disney Princess - Suteki ni Lesson! Hiragana-Katakana (Japan)": {
@@ -269,10 +269,10 @@
 	"Ecco Jr. - No fundo do mar! (Brazil)": {
 		"languages": "Pt"
 	},
-	"Ecco Jr. and the Great Ocean Treasure Hunt! (USA)": {
+	"Ecco Jr. and the Great Ocean Treasure Hunt! (United Kingdom)": {
 		"languages": "En"
 	},
-	"Ecco Jr. and the Great Ocean Treasure Hunt! (United Kingdom)": {
+	"Ecco Jr. and the Great Ocean Treasure Hunt! (USA)": {
 		"languages": "En"
 	},
 	"Ecco Jr. e la Grande Caccia al Tesoro nell'Oceano! (Italy)": {
@@ -425,10 +425,10 @@
 	"Kero Kero Keroppi no Harikiri Undoukai (Japan)": {
 		"languages": "Ja"
 	},
-	"Keyboard Pico - Kantan Waku Waku Keyboard (Japan)": {
+	"Keyboard Pico 2 - Sawattemiyou! Yoiko no Hajimete Keyboard (Japan)": {
 		"languages": "Ja"
 	},
-	"Keyboard Pico 2 - Sawattemiyou! Yoiko no Hajimete Keyboard (Japan)": {
+	"Keyboard Pico - Kantan Waku Waku Keyboard (Japan)": {
 		"languages": "Ja"
 	},
 	"Kibodeu Piko (Korea)": {
@@ -488,9 +488,6 @@
 	"Licca-chan ni Naritai! (Japan)": {
 		"languages": "Ja"
 	},
-	"Lion King Adventures, The (United Kingdom)": {
-		"languages": "En"
-	},
 	"Lion King Adventures, The (United Kingdom) (Beta) (1995-05-22)": {
 		"languages": "En"
 	},
@@ -500,10 +497,7 @@
 	"Lion King Adventures, The (United Kingdom) (Beta) (1995-06-16)": {
 		"languages": "En"
 	},
-	"Lion King, The - Adventures at Pride Rock (USA)": {
-		"languages": "En"
-	},
-	"Lion King, The - Adventures at Pride Rock (USA) (Beta) (1995-05-16)": {
+	"Lion King Adventures, The (United Kingdom)": {
 		"languages": "En"
 	},
 	"Lion King, The - Adventures at Pride Rock (USA) (Beta) (1995-04-19)": {
@@ -515,13 +509,28 @@
 	"Lion King, The - Adventures at Pride Rock (USA) (Beta) (1995-05-01)": {
 		"languages": "En"
 	},
+	"Lion King, The - Adventures at Pride Rock (USA) (Beta) (1995-05-16)": {
+		"languages": "En"
+	},
 	"Lion King, The - Adventures at Pride Rock (USA) (Beta) (1995-05-17)": {
 		"languages": "En"
 	},
-	"Magic Crayons (USA)": {
+	"Lion King, The - Adventures at Pride Rock (USA)": {
 		"languages": "En"
 	},
-	"Magic Crayons (United Kingdom, Sweden)": {
+	"Magic Crayons (United Kingdom) (Beta) (1994-09-26)": {
+		"languages": "En"
+	},
+	"Magic Crayons (United Kingdom, Sweden) (En) (Beta) (1994-10-06)": {
+		"languages": "En"
+	},
+	"Magic Crayons (United Kingdom, Sweden) (En) (Beta) (1994-10-11)": {
+		"languages": "En"
+	},
+	"Magic Crayons (United Kingdom, Sweden) (En) (Beta) (1994-10-12)": {
+		"languages": "En"
+	},
+	"Magic Crayons (United Kingdom, Sweden) (En)": {
 		"languages": "En"
 	},
 	"Magic Crayons (USA) (Beta) (1994-06-14)": {
@@ -530,25 +539,13 @@
 	"Magic Crayons (USA) (Beta) (1994-06-23)": {
 		"languages": "En"
 	},
-	"Magic Crayons (United Kingdom, Sweden) (Beta) (1994-10-06)": {
-		"languages": "En"
-	},
-	"Magic Crayons (United Kingdom) (Beta) (1994-09-26)": {
-		"languages": "En"
-	},
-	"Magic Crayons (United Kingdom, Sweden) (Beta) (1994-10-11)": {
-		"languages": "En"
-	},
-	"Magic Crayons (United Kingdom, Sweden) (Beta) (1994-10-12)": {
+	"Magic Crayons (USA)": {
 		"languages": "En"
 	},
 	"Magic Knight Rayearth - Magic Knight Tanjou (Japan)": {
 		"languages": "Ja"
 	},
 	"Magic School Bus, The (USA)": {
-		"languages": "En"
-	},
-	"Math Antics with Disney's 101 Dalmatians (USA)": {
 		"languages": "En"
 	},
 	"Math Antics with Disney's 101 Dalmatians (USA) (Beta) (1996-05-21)": {
@@ -575,16 +572,19 @@
 	"Math Antics with Disney's 101 Dalmatians (USA) (Beta) (1996-08-17)": {
 		"languages": "En"
 	},
+	"Math Antics with Disney's 101 Dalmatians (USA)": {
+		"languages": "En"
+	},
 	"McDonald's de Asobo! (Japan)": {
 		"languages": "Ja"
 	},
 	"Melody Land (Japan) (Copera)": {
 		"languages": "Ja"
 	},
-	"Mezase Pro Yakyuu (Japan)": {
+	"Mezase Pro Yakyuu (Japan) (Beta)": {
 		"languages": "Ja"
 	},
-	"Mezase Pro Yakyuu (Japan) (Beta)": {
+	"Mezase Pro Yakyuu (Japan)": {
 		"languages": "Ja"
 	},
 	"Mickey - Ausflug in die Vergangenheit (Germany)": {
@@ -608,25 +608,22 @@
 	"Mickey no Tokyo Disneyland Stamp Rally (Japan)": {
 		"languages": "Ja"
 	},
+	"Mickey no Yukai na Bouken (Japan) (Rev 1)": {
+		"languages": "Ja"
+	},
 	"Mickey no Yukai na Bouken (Japan)": {
 		"languages": "Ja"
 	},
-	"Mickey no Yukai na Bouken (Japan) (Rev 1)": {
+	"Mickey to Ooki na Furudokei (Japan) (Rev 2)": {
 		"languages": "Ja"
 	},
 	"Mickey to Ooki na Furudokei (Taiwan)": {
 		"languages": "Zh"
 	},
-	"Mickey to Ooki na Furudokei (Japan) (Rev 2)": {
-		"languages": "Ja"
-	},
 	"Mickey to Utau Tori no Shima - Minnie wo Sagashite Waku Waku Daibouken! (Japan)": {
 		"languages": "Ja"
 	},
 	"Mickey's Blast into the Past (United Kingdom)": {
-		"languages": "En"
-	},
-	"Mickey's Blast into the Past (USA)": {
 		"languages": "En"
 	},
 	"Mickey's Blast into the Past (USA) (Beta) (1994-06-08)": {
@@ -645,6 +642,9 @@
 		"languages": "En"
 	},
 	"Mickey's Blast into the Past (USA) (Beta) (1994-08-09)": {
+		"languages": "En"
+	},
+	"Mickey's Blast into the Past (USA)": {
 		"languages": "En"
 	},
 	"Mickys lustiges Abenteuer (Germany) (Proto)": {
@@ -686,12 +686,6 @@
 	"Muppets, The - On the Go! (USA)": {
 		"languages": "En"
 	},
-	"Musical Zoo (USA)": {
-		"languages": "En"
-	},
-	"Musical Zoo (USA) (Beta) (1994-12-20)": {
-		"languages": "En"
-	},
 	"Musical Zoo (USA) (Beta) (1994-01-04)": {
 		"languages": "En"
 	},
@@ -705,6 +699,12 @@
 		"languages": "En"
 	},
 	"Musical Zoo (USA) (Beta) (1994-02-17)": {
+		"languages": "En"
+	},
+	"Musical Zoo (USA) (Beta) (1994-12-20)": {
+		"languages": "En"
+	},
+	"Musical Zoo (USA)": {
 		"languages": "En"
 	},
 	"My Grandfather's Farm (Korea)": {
@@ -776,9 +776,6 @@
 	"Pengin Ukiuki Bikkuri Suizokukan - Meiro Puzzle (Japan)": {
 		"languages": "Ja"
 	},
-	"Pepe's Puzzles (USA)": {
-		"languages": "En"
-	},
 	"Pepe's Puzzles (USA) (Beta) (1995-02-10)": {
 		"languages": "En"
 	},
@@ -789,6 +786,9 @@
 		"languages": "En"
 	},
 	"Pepe's Puzzles (USA) (Beta) (1995-02-24)": {
+		"languages": "En"
+	},
+	"Pepe's Puzzles (USA)": {
 		"languages": "En"
 	},
 	"Pet to Issho ni Tanoshiku Asobo - Pasokon Pico (Japan)": {
@@ -833,13 +833,13 @@
 	"Pooh-san no Hajimete no Eigo (Japan)": {
 		"languages": "Ja"
 	},
-	"Pooh-san no Ichinichi (Japan)": {
+	"Pooh-san no Ichinichi (Japan) (Beta)": {
 		"languages": "Ja"
 	},
 	"Pooh-san no Ichinichi (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
-	"Pooh-san no Ichinichi (Japan) (Beta)": {
+	"Pooh-san no Ichinichi (Japan)": {
 		"languages": "Ja"
 	},
 	"Pooh-san to Tanoshii Nakama-tachi (Japan)": {
@@ -881,16 +881,13 @@
 	"Richard Scarry's Huckle and Lowly's Busiest Day Ever (United Kingdom)": {
 		"languages": "En"
 	},
-	"Richard Scarry's Huckle and Lowly's Busiest Day Ever (USA)": {
-		"languages": "En"
-	},
 	"Richard Scarry's Huckle and Lowly's Busiest Day Ever (USA) (Beta) (1994-03-02)": {
 		"languages": "En"
 	},
 	"Richard Scarry's Huckle and Lowly's Busiest Day Ever (USA) (Beta) (1994-04-22)": {
 		"languages": "En"
 	},
-	"Richard Scarry's Huckle and Lowly's Busiest Day Ever (USA) (Beta) (1994-04-26) (Alt 1)": {
+	"Richard Scarry's Huckle and Lowly's Busiest Day Ever (USA) (Beta) (1994-04-24)": {
 		"languages": "En"
 	},
 	"Richard Scarry's Huckle and Lowly's Busiest Day Ever (USA) (Beta) (1994-04-26) (Alt 2)": {
@@ -899,7 +896,7 @@
 	"Richard Scarry's Huckle and Lowly's Busiest Day Ever (USA) (Beta) (1994-04-26) (Alt 3) [b]": {
 		"languages": "En"
 	},
-	"Richard Scarry's Huckle and Lowly's Busiest Day Ever (USA) (Beta) (1994-04-24)": {
+	"Richard Scarry's Huckle and Lowly's Busiest Day Ever (USA) (Beta) (1994-04-26) (Alt)": {
 		"languages": "En"
 	},
 	"Richard Scarry's Huckle and Lowly's Busiest Day Ever (USA) (Beta) (1994-04-26)": {
@@ -908,25 +905,22 @@
 	"Richard Scarry's Huckle and Lowly's Busiest Day Ever (USA) (Beta) (1994-04-27)": {
 		"languages": "En"
 	},
-	"Richard Scarry's Huckle and Lowly's Busiest Day Ever (USA) (Beta) (1994-05-03)": {
-		"languages": "En"
-	},
 	"Richard Scarry's Huckle and Lowly's Busiest Day Ever (USA) (Beta) (1994-05-03) (Alt 2)": {
 		"languages": "En"
 	},
 	"Richard Scarry's Huckle and Lowly's Busiest Day Ever (USA) (Beta) (1994-05-03) (Alt 3)": {
 		"languages": "En"
 	},
+	"Richard Scarry's Huckle and Lowly's Busiest Day Ever (USA) (Beta) (1994-05-03) (Alt)": {
+		"languages": "En"
+	},
+	"Richard Scarry's Huckle and Lowly's Busiest Day Ever (USA) (Beta) (1994-05-03)": {
+		"languages": "En"
+	},
+	"Richard Scarry's Huckle and Lowly's Busiest Day Ever (USA) (Beta) (1994-05-06) (Alt)": {
+		"languages": "En"
+	},
 	"Richard Scarry's Huckle and Lowly's Busiest Day Ever (USA) (Beta) (1994-05-06)": {
-		"languages": "En"
-	},
-	"Richard Scarry's Huckle and Lowly's Busiest Day Ever (USA) (Beta) (1994-05-06) (Alt 1)": {
-		"languages": "En"
-	},
-	"Richard Scarry's Huckle and Lowly's Busiest Day Ever (USA) (Beta) (1994-05-09)": {
-		"languages": "En"
-	},
-	"Richard Scarry's Huckle and Lowly's Busiest Day Ever (USA) (Beta) (1994-05-09) (Alt 1)": {
 		"languages": "En"
 	},
 	"Richard Scarry's Huckle and Lowly's Busiest Day Ever (USA) (Beta) (1994-05-09) (Alt 2)": {
@@ -935,7 +929,13 @@
 	"Richard Scarry's Huckle and Lowly's Busiest Day Ever (USA) (Beta) (1994-05-09) (Alt 3)": {
 		"languages": "En"
 	},
-	"Richard Scarry's Huckle and Lowly's Busiest Day Ever (USA) (Beta) (1994-05-03) (Alt 1)": {
+	"Richard Scarry's Huckle and Lowly's Busiest Day Ever (USA) (Beta) (1994-05-09) (Alt)": {
+		"languages": "En"
+	},
+	"Richard Scarry's Huckle and Lowly's Busiest Day Ever (USA) (Beta) (1994-05-09)": {
+		"languages": "En"
+	},
+	"Richard Scarry's Huckle and Lowly's Busiest Day Ever (USA)": {
 		"languages": "En"
 	},
 	"Richard Scarry's La Giornata Indaffaratissima di Sandrino e Zigo-Zago (Italy)": {
@@ -971,10 +971,10 @@
 	"Sanrio Festival - Tanoshii Card-zukuri (Japan)": {
 		"languages": "Ja"
 	},
-	"Sanrio Puroland de Dance Carnival - Minna de Oryouri Osaihou (Japan)": {
+	"Sanrio Puroland de Dance Carnival - Minna de Oryouri Osaihou (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
-	"Sanrio Puroland de Dance Carnival - Minna de Oryouri Osaihou (Japan) (Rev 1)": {
+	"Sanrio Puroland de Dance Carnival - Minna de Oryouri Osaihou (Japan)": {
 		"languages": "Ja"
 	},
 	"Satonaka Machiko no Tanoshii Origami (Japan)": {
@@ -1019,9 +1019,6 @@
 	"Sodatete Manabu Doubutsu Oukoku (Japan)": {
 		"languages": "Ja"
 	},
-	"Sonic The Hedgehog's Gameworld (USA)": {
-		"languages": "En"
-	},
 	"Sonic The Hedgehog's Gameworld (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
@@ -1038,6 +1035,9 @@
 		"languages": "En"
 	},
 	"Sonic the Hedgehog's Gameworld (USA) (Beta) (1996-08-08)": {
+		"languages": "En"
+	},
+	"Sonic The Hedgehog's Gameworld (USA)": {
 		"languages": "En"
 	},
 	"Sootjanara Yeohaeng! (Korea)": {
@@ -1070,13 +1070,13 @@
 	"Soreike! Anpanman no Game de Asobou Anpanman (Japan)": {
 		"languages": "Ja"
 	},
-	"Soreike! Anpanman no Medalympic World (Japan)": {
+	"Soreike! Anpanman no Medalympic World 2 (Japan) (Best Selection)": {
 		"languages": "Ja"
 	},
 	"Soreike! Anpanman no Medalympic World 2 (Japan)": {
 		"languages": "Ja"
 	},
-	"Soreike! Anpanman no Medalympic World 2 (Japan) (Best Selection)": {
+	"Soreike! Anpanman no Medalympic World (Japan)": {
 		"languages": "Ja"
 	},
 	"Soreike! Anpanman no Minna de Kyousou Anpanman! (Japan)": {
@@ -1085,13 +1085,13 @@
 	"Soreike! Anpanman no Ohanashi Daisuki Anpanman (Japan)": {
 		"languages": "Ja"
 	},
+	"Storyware Sampler (USA) (Demo) (1996-06-07)": {
+		"languages": "En"
+	},
 	"Storyware Sampler (USA) (Demo) (1996-06-14)": {
 		"languages": "En"
 	},
 	"Storyware Sampler (USA) (Demo) (1996-06-25)": {
-		"languages": "En"
-	},
-	"Storyware Sampler (USA) (Demo) (1996-06-07)": {
 		"languages": "En"
 	},
 	"Susie-chan to Marvy Otetsudai Daaisuki! (Japan)": {
@@ -1100,7 +1100,16 @@
 	"Sylvanian Families - Mori no Nakama to Tanoshii (Japan)": {
 		"languages": "Ja"
 	},
-	"Tails and the Music Maker (USA)": {
+	"Tails and the Music Maker (United Kingdom) (Beta) (1994-06-25)": {
+		"languages": "En"
+	},
+	"Tails and the Music Maker (United Kingdom) (Beta) (1994-07-22)": {
+		"languages": "En"
+	},
+	"Tails and the Music Maker (United Kingdom) (Beta) (1994-09-27)": {
+		"languages": "En"
+	},
+	"Tails and the Music Maker (United Kingdom) (Beta) (1994-10-05)": {
 		"languages": "En"
 	},
 	"Tails and the Music Maker (United Kingdom)": {
@@ -1115,16 +1124,7 @@
 	"Tails and the Music Maker (USA) (Beta) (1994-06-23)": {
 		"languages": "En"
 	},
-	"Tails and the Music Maker (United Kingdom) (Beta) (1994-06-25)": {
-		"languages": "En"
-	},
-	"Tails and the Music Maker (United Kingdom) (Beta) (1994-07-22)": {
-		"languages": "En"
-	},
-	"Tails and the Music Maker (United Kingdom) (Beta) (1994-09-27)": {
-		"languages": "En"
-	},
-	"Tails and the Music Maker (United Kingdom) (Beta) (1994-10-05)": {
+	"Tails and the Music Maker (USA)": {
 		"languages": "En"
 	},
 	"Tails et le Faiseur de Musique (France)": {
@@ -1139,10 +1139,10 @@
 	"Tails y el Musico (Spain)": {
 		"languages": "Es"
 	},
-	"Tanoshiku Asonde Nouryoku Up!! - Tanoshii Youchien (Japan)": {
+	"Tanoshiku Asonde Nouryoku Up!! - Tanoshii Youchien '95 Nendo Ban (Japan)": {
 		"languages": "Ja"
 	},
-	"Tanoshiku Asonde Nouryoku Up!! - Tanoshii Youchien '95 Nendo Ban (Japan)": {
+	"Tanoshiku Asonde Nouryoku Up!! - Tanoshii Youchien (Japan)": {
 		"languages": "Ja"
 	},
 	"Tingawa Haenggoeui Toongtang Toongtang Doshi (Korea)": {
@@ -1202,9 +1202,6 @@
 	"Ultraman vs Kaijuu Gundan!! (Japan)": {
 		"languages": "Ja"
 	},
-	"Unou Kaihatsu Series 1 - Richard Scarry's Huckle to Lowly (Japan)": {
-		"languages": "Ja"
-	},
 	"Unou Kaihatsu Series 1 - Richard Scarry's Huckle to Lowly (Japan) (En) (Beta) (1994-07-21)": {
 		"languages": "En"
 	},
@@ -1214,10 +1211,7 @@
 	"Unou Kaihatsu Series 1 - Richard Scarry's Huckle to Lowly (Japan) (En) (Beta) (1994-10-04)": {
 		"languages": "En"
 	},
-	"Unou Kaihatsu Series 10 - Nontan to Issho - Wai Wai Nippon (Japan)": {
-		"languages": "Ja"
-	},
-	"Unou Kaihatsu Series 11 - Heisei Kyouiku Iinkai Jr. (Japan)": {
+	"Unou Kaihatsu Series 1 - Richard Scarry's Huckle to Lowly (Japan)": {
 		"languages": "Ja"
 	},
 	"Unou Kaihatsu Series 2 - ECCO Jr. (Japan)": {
@@ -1244,6 +1238,12 @@
 	"Unou Kaihatsu Series 9 - Nihon Mukashibanashi (Japan)": {
 		"languages": "Ja"
 	},
+	"Unou Kaihatsu Series 10 - Nontan to Issho - Wai Wai Nippon (Japan)": {
+		"languages": "Ja"
+	},
+	"Unou Kaihatsu Series 11 - Heisei Kyouiku Iinkai Jr. (Japan)": {
+		"languages": "Ja"
+	},
 	"Unten Thomas Deluxe Set (Japan)": {
 		"languages": "Ja"
 	},
@@ -1252,9 +1252,6 @@
 	},
 	"Yasashiku Oteate Pico Clinic! - Kangofu-san Pico (Japan)": {
 		"languages": "Ja"
-	},
-	"Year at Pooh Corner, A (USA)": {
-		"languages": "En"
 	},
 	"Year at Pooh Corner, A (United Kingdom)": {
 		"languages": "En"
@@ -1275,6 +1272,9 @@
 		"languages": "En"
 	},
 	"Year at Pooh Corner, A (USA) (Beta) (1994-08-09)": {
+		"languages": "En"
+	},
+	"Year at Pooh Corner, A (USA)": {
 		"languages": "En"
 	},
 	"Yobeba Kotaeru - Doraemon - Nobita to Himitsu Dougu o Mitsukeyou! (Japan)": {
