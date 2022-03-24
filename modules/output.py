@@ -300,7 +300,7 @@ def write_dat_file(input_dat, user_input, output_file_name, stats, titles, dat_n
 
                             for region in region_list:
                                 for language in sorted(language_list):
-                                    release.append(f'\n\t\t<release name="{html.escape(title.description, quote=False)}" region="{region}" language="{language}"/>')
+                                    release.append(f'\n\t\t<release name="{html.escape(final_name, quote=False)}" region="{region}" language="{language}"/>')
 
                             release = ''.join(release)
 

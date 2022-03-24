@@ -1,3 +1,11 @@
+# 1.06
+
+- The `release` tag now copies the `game name` attribute, instead of the
+  `description` tag. This is because No-Intro started using descriptions in the
+  GBA DAT that were different from the name.
+- The `(Deprecated)` tag is now ignored in DAT file names when matching to
+  clone lists and metadata.
+
 # 1.05
 
 - Fixed a region selection regex bug which caused Retool to crash when

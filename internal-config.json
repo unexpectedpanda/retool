@@ -7,7 +7,7 @@
             "These are defaults that Retool requires, don't modify this file.",
             "Check user-config.yaml for user-editable settings."
         ],
-        "last updated": "20 February 2022"
+        "last updated": "23 March 2022"
     },
 
     "ignore_tags": [
@@ -95,7 +95,7 @@
 
     "promote_editions": [
         "\\s?\\(CGB\\+SGB Enhanced\\)",
-        "\\s?\\(SGB Enhanced\\)",
+        "\\s?\\(SGB Enhanced.*?\\)",
         "\\s?\\(NDSi Enhanced\\)",
         "\\s?\\(Rumble Version\\)",
         "\\s?\\(Shindou Edition\\)",
@@ -193,10 +193,12 @@
         "\\s?\\(Earlier\\)",
         "\\s?\\(Early\\)",
         "\\s?\\(Encrypted CIA\\)",
+        "\\s?\\(FamicomBox\\)",
         "\\s?\\(Hibaihin\\)",
         "\\s?\\(Launch Cart\\)",
         "\\s?\\(Light Phaser\\)",
         "\\s?\\(Not for Resale\\)",
+        "\\s?\\(Not For Resale\\)",
         "\\s?\\(PAL\\)",
         "\\s?\\(Reprint\\)",
         "\\s\\((?:(?!\\(|Region Lock)[\\s\\S])*Region Lock\\)",
@@ -247,7 +249,8 @@
         "\\s?\\(Sonic Classic Collection\\)",
         "\\s?\\(Steam\\)",
         "\\s?\\(Steam Version\\)",
-        "\\s?\\(The Disney Afternoon Collection\\)"
+        "\\s?\\(The Disney Afternoon Collection\\)",
+        "\\s?\\(e-Reader Edition\\)"
     ],
 
     "languages": {
