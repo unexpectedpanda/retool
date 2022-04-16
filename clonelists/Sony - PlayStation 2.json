@@ -1,9 +1,9 @@
 {
     "description": {
         "name": [
-			"Sony - PlayStation 2"
+		"Sony - PlayStation 2"
 		],
-        "last updated": "20 March 2022",
+        "last updated": "16 April 2022",
 		"minimum version": "0.92"
     },
 
@@ -140,6 +140,9 @@
 		"AirForce Delta Strike": [
 			["AirForce Delta - Blue Wing Knights", 1],
 			["Deadly Skies III", 1]
+		],
+		"Air Ranger 2 - Rescue Helicopter": [
+			["Air Ranger 2 - Rescue Helicopter", 2]
 		],
 		"Alarm for Cobra 11 - Vol. II": [
 			["Alarm for Cobra 11 Vol. 2 - Hot Pursuit", 1]
@@ -290,6 +293,9 @@
 		"Bomberman Hardball": [
 			["Bomberman Battles", 1]
 		],
+		"Bowling Xciting": [
+			["Simple 2000 Series Vol. 24 - The Bowling Hyper", 1]
+		],
 		"Boxing Champions": [
 			["Simple 2000 Series Vol. 7 - The Boxing - Real Fist Fighter", 1]
 		],
@@ -308,6 +314,9 @@
 		],
 		"Brothers in Arms - Earned in Blood": [
 			["Brothers in Arms - Meiyo no Daishou", 1]
+		],
+		"Buccaneer": [
+			["Simple 2000 Series Vol. 96 - The Kaizoku - Gaikotsu Ippai-rates!", 1]
 		],
 		"Bujingai - The Forsaken City": [
 			["Bujingai", 1],
@@ -420,6 +429,7 @@
 			["Cronache di Narnia, Le - Il leone, la strega e l'armadio", 1],
 			["Cronicas de Narnia, Las - El Leon, la Bruja y el Armario", 1],
 			["Chroniken von Narnia, Die - Der Koenig von Narnia", 1],
+			["Narnia-koku Monogatari - Dai-1-shou - Lion to Majo", 1],
 			["Opowiesci z Narnii - Lew, Czarownica i Stara Szafa", 1]
 		],
 		"Code of the Samurai": [
@@ -601,6 +611,9 @@
 		"Dino Stalker": [
 			["Gun Survivor 3 - Dino Crisis", 1]
 		],
+		"Dirt Track Devils": [
+			["Simple 2000 Series Vol. 11 - The Off-Road Buggy", 1]
+		],
 		"Disaster Report": [
 			["SOS - The Final Escape", 1],
 			["Zettai Zetsumei Toshi", 1]
@@ -613,6 +626,9 @@
 		],
 		"Disney Golf": [
 			["Disney Golf Classic", 1]
+		],
+		"Disney Think Fast": [
+			["Disney Otvechaj - ne zevaj!", 1]
 		],
 		"Disney Presents Piglet's Big Game": [
 			["Disney's Piglet's Big Game", 1],
@@ -660,6 +676,7 @@
 			["Disney-Pixar WALL-E - Der Letzte raeumt die Erde auf", 1]
 		],
 		"Disney's Chicken Little": [
+			["Chicken Little", 1],
 			["Disney Chicken Little", 1],
 			["Disneys Himmel und Huhn", 1]
 		],
@@ -690,6 +707,9 @@
 		],
 		"Dead or Alive 2": [
 			["DOA2 - Hardcore", 0]
+		],
+		"Dodgeball": [
+			["Simple 2000 Series Vol. 49 - The Dodgeball - World Champion Dodge Baller", 1]
 		],
 		"Dot Hack Fraegment (Senkou Release-ban)": [
 			["Dot Hack Fraegment", 2]
@@ -1156,6 +1176,9 @@
 			["GameShark 2 - Video Game Enhancer - Version 2", 2],
 			["GameShark 2 - Video Game Enhancer - V 1.0", 3]
 		],
+		"Garfield - Saving Arlene": [
+			["Garfield - Arleene o Sukue!", 1]
+		],
 		"Garouden - Breakblow": [
 			["Arangjeon - Breakblow", 1]
 		],
@@ -1300,6 +1323,9 @@
 		"Hanabi Hyakkei (Tokutenban)": [
 			["Hanabi Hyakkei", 2]
 		],
+		"Hanjuku Hero 4 - 7-nin no Hanjuku Hero": [
+			["Hanjuku Hero 4 - 7-nin no Hanjuku Hero (Ginga Hanjuku Bentou)", 0]
+		],
 		"Hanjuku Hero tai 3D": [
 			["Bansuk Yeongung vs. 3D", 1]
 		],
@@ -1441,6 +1467,9 @@
 		"Innocent Life - A Futuristic Harvest Moon - Special Edition": [
 			["Shin Bokujou Monogatari - Pure - Innocent Life", 1]
 		],
+		"Inuyasha - Feudal Combat": [
+			["Inuyasha - Ougi Ranbu", 1]
+		],
 		"Inuyasha - The Secret of the Cursed Mask": [
 			["Inuyasha - Juso no Kamen", 1]
 		],
@@ -1459,6 +1488,9 @@
 		"J.League Winning Eleven 8 - Asia Championship": [
 			["K-League Winning Eleven 8 - Asia Championship", 1],
 			["World Soccer Winning Eleven 8 - Asia Championship", 1]
+		],
+		"Jacked": [
+			["Simple 2000 Series Vol. 111 - The Itadaki Rider - Omae no Bike wa Ore no Mono & Jacked", 1]
 		],
 		"Jade Cocoon 2": [
 			["Tamamayu Monogatari 2 - Horobi no Mushi", 1]
@@ -1501,7 +1533,7 @@
 			["K-1 World GP 2005", 1]
 		],
 		"K-1 World Grand Prix": [
-			["K-1 World GP", 1]
+			["K-1 World Grand Prix 2002", 1]
 		],
 		"Kaido Racer": [
 			["Kaidou Battle 2 - Chain Reaction", 1]
@@ -1711,6 +1743,9 @@
 		"Madden NFL 2001": [
 			["Madden NFL Super Bowl 2001", 1]
 		],
+		"Madden NFL 2002": [
+			["Madden NFL Super Bowl 2002", 1]
+		],
 		"Madden NFL 2003": [
 			["Madden NFL Super Bowl 2003", 1]
 		],
@@ -1759,6 +1794,9 @@
 		"Master Chess": [
 			["Simple 2000 Honkaku Shikou Series Vol. 3 - The Chess", 1]
 		],
+		"Mat Hoffman's Pro BMX 2": [
+			["Mat Hoffman's Pro BMX 2003", 1]
+		],
 		"Maximo - Ghosts to Glory": [
 			["Maximo", 1]
 		],
@@ -1767,6 +1805,9 @@
 		],
 		"Maxxed Out Racing": [
 			["Simple 2000 Series Ultimate Vol. 3 - Saisoku! Zokusha King - Butchigiri Densetsu", 1]
+		],
+		"Maxxed Out Racing Nitro": [
+			["Simple 2000 Series Ultimate Vol. 30 - Kourin! Zokusha God - Butchigiri I Love You", 1]
 		],
 		"Maze Action": [
 			["Simple 2000 Series Ultimate Vol. 8 - Gekitou! Meiro King", 1]
@@ -1817,7 +1858,7 @@
 			["Mercenaries 2 - L'enfer des Favelas", 1]
 		],
 		"Mermaid Prism": [
-			["Simple 2000 Series Vol. 122 - The Ningyo-hime Monogatari - Mermaid Prism", 2]
+			["Simple 2000 Series Vol. 122 - Onna no Ko Sen'you - The Ningyo-hime Monogatari - Mermaid Prism", 2]
 		],
 		"Metal Gear & Metal Gear 2 - Solid Snake": [
 			["Metal Gear Solid 3 - Subsistence (Disc 2) (Persistence)", 0]
@@ -2147,6 +2188,9 @@
 		"Paparazzi": [
 			["Simple 2000 Series Vol. 53 - The Camera Kozou", 1]
 		],
+		"Party Carnival": [
+			["Simple 2000 Series Vol. 89 - The Party Game 2", 1]
+		],
 		"Party Girls": [
 			["Simple 2000 Series Vol. 63 - Mogitate Mizugi! Onna Mamire no - The Suiei Taikai", 1]
 		],
@@ -2297,6 +2341,9 @@
 			["R-Racing Evolution - Life in the Fast Lane", 1]
 		],
 		"Radio Helicopter": [
+			["Petit Copter 2", 1]
+		],
+		"Radio Helicopter II": [
 			["Simple 2000 Series Vol. 35 - The Helicopter", 1]
 		],
 		"Raging Blades": [
@@ -2376,7 +2423,8 @@
 			["Simple 2000 Series Vol. 74 - Onna no Ko Sen'you - The Oujisama to Romance - Ripuru no Tamago", 2]
 		],
 		"River King - A Wonderful Journey": [
-			["Harvest Fishing", 1]
+			["Harvest Fishing", 1],
+			["Kawa no Nushi Tsuri - Wonderful Journey (Japan)", 1]
 		],
 		"RLH - Run Like Hell": [
 			["Run Like Hell", 1]
@@ -2401,6 +2449,9 @@
 		],
 		"Rogue Galaxy - Director's Cut": [
 			["Rogue Galaxy", 2]
+		],
+		"RollerCoaster World": [
+			["Simple 2000 Series Vol. 33 - The Jet Coaster - Yuuenchi o Tsukurou!", 1]
 		],
 		"Romance of the Three Kingdoms IX": [
 			["Sangokushi IX with Power-Up Kit", 1],
@@ -2470,6 +2521,9 @@
 		"Sakura Wars - So Long, My Love (Disc 2) (Japanese Voice Over)": [
 			["Sakura Taisen V - Saraba Itoshiki Hito yo", 1]
 		],
+		"Samurai Champloo - Sidetracked": [
+			["Samurai Champloo", 1]
+		],
 		"Samurai Shodown V": [
 			["Samurai Shodown Anthology", 0],
 			["Samurai Spirits Zero", 1]
@@ -2511,6 +2565,9 @@
 		],
 		"Score International Baja 1000 - The Official Game": [
 			["Score International Baja 1000 - World Championship Off Road Racing", 1]
+		],
+		"SD Gundam Force - Showdown!": [
+			["SD Gundam Force - Daikessen! Jigen Kaizoku De Scar!!", 1]
 		],
 		"Seed, The - Warzone": [
 			["Seed, The", 1]
@@ -3293,6 +3350,9 @@
 		],
 		"Zombie Attack": [
 			["Simple 2000 Series Vol. 65 - The Kyonshii Panic", 1]
+		],
+		"Zombie Hunters 2": [
+			["Simple 2000 Series Vol. 101 - The OneeChampon - The Nee-chan 2 Tokubetsu-hen", 1]
 		],
 		"Zombie Virus": [
 			["Simple 2000 Series Vol. 95 - The Zombie vs. Kyuukyuusha", 1]
