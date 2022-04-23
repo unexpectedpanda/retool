@@ -1,3 +1,10 @@
+# 1.07
+
+- Changed the way Retool handles versions to deal with more complex version
+  systems introduced in recent No-Intro DATs. Some version selections are now
+  more accurate as a result.
+- Retool can now handle empty `<url>` tags in DAT headers.
+
 # 1.06
 
 - The `release` tag now copies the `game name` attribute, instead of the

@@ -4,6 +4,8 @@ import operator
 import re
 import sys
 
+from typing import Any
+
 from modules.titleutils import check_date, get_raw_title
 from modules.utils import Font, old_windows, printverbose
 
@@ -32,13 +34,13 @@ def choose_parent(titles, region_data, user_input, dat_numbered, REGEX, ring_cod
             choose_string(re.compile(edition, re.IGNORECASE), user_input, region_data, parents, REGEX, True, clonelist)
 
     # 2) Check for versions and revisions, and select the highest of each
-    choose_version_revision(REGEX.version, parents, REGEX, 2, -1)
-    choose_version_revision(REGEX.long_version, parents, REGEX, 8, -1)
-    choose_version_revision(REGEX.fds_version, parents, REGEX, 3, -1)
-    choose_version_revision(REGEX.revision, parents, REGEX, 5, -1)
-    choose_version_revision(REGEX.beta, parents, REGEX, 6, -1, True)
-    choose_version_revision(REGEX.alpha, parents, REGEX, 7, -1, True)
-    choose_version_revision(REGEX.proto, parents, REGEX, 7, -1, True)
+    choose_version_revision(REGEX.version, parents, REGEX)
+    choose_version_revision(REGEX.long_version, parents, REGEX)
+    choose_version_revision(REGEX.fds_version, parents, REGEX)
+    choose_version_revision(REGEX.revision, parents, REGEX)
+    choose_version_revision(REGEX.beta, parents, REGEX, True)
+    choose_version_revision(REGEX.alpha, parents, REGEX, True)
+    choose_version_revision(REGEX.proto, parents, REGEX, True)
 
     # 3) Check for Sega/Panasonic ring codes
     if ring_code == True:
@@ -490,7 +492,7 @@ def choose_string(string, user_input, region_data, title_list, REGEX, choose_tit
                                                 if title_1 in title_list: title_list.remove(title_1)
 
 
-def choose_version_revision(string, title_list, REGEX, trim_start, trim_end, preproduction=False):
+def choose_version_revision(string, title_list, REGEX, preproduction=False):
     """ Checks two titles from a list to see which one has a version/revision tag, or
     which has the highest version. Removes the appropriate title from the supplied
     list.
@@ -531,31 +533,159 @@ def choose_version_revision(string, title_list, REGEX, trim_start, trim_end, pre
 
                     # Now the normal version comparisons
                     elif (
-                            re.search(string, title_1.region_free_name_lower) != None
-                            and re.search(string, title_2.region_free_name_lower) != None):
+                        re.search(string, title_1.region_free_name_lower) != None
+                        and re.search(string, title_2.region_free_name_lower) != None):
 
-                            # Find the highest version
-                            ver_1 = re.search(string, title_1.region_free_name_lower)[0][trim_start:trim_end]
-                            ver_2 = re.search(string, title_2.region_free_name_lower)[0][trim_start:trim_end]
+                        # Find the highest version
+                        ver_1 = re.search(string, title_1.region_free_name_lower)[0].replace('(', '').replace(')', '')
+                        ver_2 = re.search(string, title_2.region_free_name_lower)[0].replace('(', '').replace(')', '')
 
-                            if string == re.compile('\(DV [0-9].*?\)', re.IGNORECASE):
-                                ver_1 = int(re.search('\d+\)', title_1.full_name_lower)[0][:-1])
-                                ver_2 = int(re.search('\d+\)', title_2.full_name_lower)[0][:-1])
-                            elif (
-                                bool(re.search('[A-Za-z]', ver_1)) == False
-                                and bool(re.search('[A-Za-z]', ver_2)) == False
-                                and (
-                                    len(ver_1) == 2
-                                    or len(ver_2) == 2
-                                )
-                            ):
-                                ver_1 = float(ver_1)
-                                ver_2 = float(ver_2)
+                        def process_versions(ver_1: str, ver_2: str) -> list[Any]:
+                            """ Attempts to convert versions into a comparable format """
 
-                            if ver_1 > ver_2:
-                                if title_2 in title_list: title_list.remove(title_2)
-                            elif ver_2 > ver_1:
-                                if title_1 in title_list: title_list.remove(title_1)
+                            version_compare_normalize: list[Any] = []
+
+                            if (
+                                '.' in ver_1
+                                or '.' in ver_2):
+                                    ver_1_parsed: list[Any] = [ver_1]
+                                    ver_2_parsed: list[Any] = [ver_2]
+
+                                    if '.' in ver_1:
+                                        ver_1_parsed = list(map(lambda x: re.findall('(\d+|[A-za-z]+)', x), ver_1.split('.')))
+
+                                    if '.' in ver_2:
+                                        ver_2_parsed = list(map(lambda x: re.findall('(\d+|[A-za-z]+)', x), ver_2.split('.')))
+
+                                    def normalize_version(version: list[Any]) -> list[Any]:
+                                        """ Formats versions so they can be compared """
+
+                                        ver_normalized: list[Any] = []
+
+                                        for split_version in version:
+                                            sub_version_group: list[Any] = []
+
+                                            for subversion in split_version:
+                                                try:
+                                                    sub_version_group.append(int(subversion))
+                                                except:
+                                                    sub_version_group.append(subversion)
+
+                                            ver_normalized.append(sub_version_group)
+
+                                        return ver_normalized
+
+                                    ver_1_normalized = normalize_version(ver_1_parsed)
+                                    ver_2_normalized = normalize_version(ver_2_parsed)
+
+                                    version_compare_zip: list[Any] = list(itertools.zip_longest(ver_1_normalized, ver_2_normalized, fillvalue=[0]))
+
+                                    # Convert tuples to list
+                                    for version_pairs in version_compare_zip:
+                                        version_compare_normalize.append(list(version_pairs))
+
+                                    # Equalize the list lengths
+                                    for version_pairs_normalized in version_compare_normalize:
+                                        shorter: int
+                                        longer: int
+
+                                        if len(version_pairs_normalized[0]) != len(version_pairs_normalized[1]):
+                                            if len(version_pairs_normalized[0]) < len(version_pairs_normalized[1]):
+                                                shorter = 0
+                                                longer = 1
+
+                                            elif len(version_pairs_normalized[1]) < len(version_pairs_normalized[0]):
+                                                shorter = 1
+                                                longer = 0
+
+                                            for i, version_pairs_item in enumerate(version_pairs_normalized[longer]):
+                                                if i != 0:
+                                                    if type(version_pairs_item) == str:
+                                                        version_pairs_normalized[shorter].append('0')
+                                                    else:
+                                                        version_pairs_normalized[shorter].append(0)
+                            else:
+                                # Process versions that don't contain '.'
+                                try:
+                                    versions: list[Any] = []
+                                    versions.append(int(ver_1))
+                                    versions.append(int(ver_2))
+                                except:
+                                    versions = []
+                                    versions.append(ver_1)
+                                    versions.append(ver_2)
+
+                                version_compare_normalize.append(versions)
+
+                            return version_compare_normalize
+
+                        # Process double versions that turn up in 3DS (Digital) and Commodore Amiga
+                        match_1_length: int = len(re.findall('v[\d+\.\-]+', ver_1))
+                        match_2_length: int = len(re.findall('v[\d+\.\-]+', ver_2))
+
+                        if re.search('v[\d+\.]+(?:, )\d{4}-\d{2}-\d{2}', ver_1):
+                            match_1_length = len(re.findall('(v[\d+\.]+|\d{4}-\d{2}-\d{2})', ver_1))
+
+                        if re.search('v[\d+\.]+(?:, )\d{4}-\d{2}-\d{2}', ver_2):
+                            match_2_length = len(re.findall('(v[\d+\.]+|\d{4}-\d{2}-\d{2})', ver_2))
+
+                        if (
+                            match_1_length == 2
+                            and match_2_length == 2):
+
+                                # Split the versions
+                                ver_1_1 = re.findall('[\d+\.\-]+', ver_1)[0]
+                                ver_1_2 = str(re.findall('[\d+\.\-]+', ver_1)[1]).replace('-', '.')
+                                ver_2_1 = re.findall('[\d+\.\-]+', ver_2)[0]
+                                ver_2_2 = str(re.findall('[\d+\.\-]+', ver_2)[1]).replace('-', '.')
+
+                                # Normalize the primary version lengths
+                                ver_1_1_parsed = list(map(lambda x: re.findall('[\d+\.\-]+', x), ver_1_1.split('.')))
+                                ver_2_1_parsed = list(map(lambda x: re.findall('[\d+\.\-]+', x), ver_2_1.split('.')))
+
+                                primary_version_zip: list[Any] = list(itertools.zip_longest(ver_1_1_parsed, ver_2_1_parsed, fillvalue=['0']))
+
+                                ver_1 = '.'.join([i[0][0] for i in primary_version_zip])
+                                ver_2 = '.'.join([i[1][0] for i in primary_version_zip])
+
+                                # Add the secondary version to the primary
+                                ver_1 = f'{ver_1}.{ver_1_2}'
+                                ver_2 = f'{ver_2}.{ver_2_2}'
+
+                        # Remove known prefixes and strip whitespace
+                        ver_1 = re.sub('\s|version|^(v|Rev|Version|Beta|Alpha|Proto)', '', ver_1, flags=re.I)
+                        ver_2 = re.sub('\s|version|^(v|Rev|Version|Beta|Alpha|Proto)', '', ver_2, flags=re.I)
+
+                        # Process versions that contain 'DV'
+                        if (
+                            'dv' in ver_1
+                            or 'dv' in ver_2):
+                                ver_1 = max(re.findall('\d+', ver_1))
+                                ver_2 = max(re.findall('\d+', ver_2))
+
+                        version_compare_normalize: list[Any] = process_versions(ver_1, ver_2)
+
+                        # Compare the normalized versions
+                        for subversion in version_compare_normalize:
+                            try:
+                                if subversion[0] < subversion[1]:
+                                    if title_1 in title_list: title_list.remove(title_1)
+                                    break
+
+                                if subversion[1] < subversion[0]:
+                                    if title_2 in title_list: title_list.remove(title_2)
+                                    break
+                            except:
+                                # If there's a combination string and int, convert the int as a fallback.
+                                # This might result in the wrong version being chosen.
+
+                                if str(subversion[0]) < str(subversion[1]):
+                                    if title_1 in title_list: title_list.remove(title_1)
+                                    break
+
+                                if str(subversion[1]) < str(subversion[0]):
+                                    if title_2 in title_list: title_list.remove(title_2)
+                                    break
                     elif (
                         re.search(string, title_1.region_free_name_lower) != None
                         or re.search(string, title_2.region_free_name_lower) != None):

@@ -31,7 +31,7 @@ from modules.xml import dat_to_dict, process_input_dat
 # Require at least Python 3.8
 assert sys.version_info >= (3, 8)
 
-__version__ = '1.06'
+__version__ = '1.07'
 
 def main(gui_input=''):
 
@@ -217,20 +217,23 @@ def main(gui_input=''):
         # Check if the dat is numbered
         dat_numbered = False
 
-        if 'no-intro' in input_dat.url.lower():
-            print(
-                '* Checking if the input dat is numbered... ', sep=' ', end='', flush=True)
+        if input_dat.url:
+            if 'no-intro' in input_dat.url.lower():
+                print(
+                    '* Checking if the input dat is numbered... ', sep=' ', end='', flush=True)
 
-            dat_numbered = True
+                dat_numbered = True
 
-            for line in input_dat.soup.find_all('game', {'name': re.compile('.*')}):
-                if not re.search('game.*?name="([0-9]|x|z)([0-9]|B)[0-9]{2,2} - ', str(line)):
-                    dat_numbered = False
+                for line in input_dat.soup.find_all('game', {'name': re.compile('.*')}):
+                    if not re.search('game.*?name="([0-9]|x|z)([0-9]|B)[0-9]{2,2} - ', str(line)):
+                        dat_numbered = False
 
-            if dat_numbered == False:
-                print('this isn\'t a numbered dat.')
-            else:
-                print('this is a numbered dat.')
+                if dat_numbered == False:
+                    print('this isn\'t a numbered dat.')
+                else:
+                    print('this is a numbered dat.')
+        else:
+            input_dat.url = 'Unknown'
 
         # Get the stats from the original soup object before it's changed later
         print('* Gathering stats... ', sep=' ', end='', flush=True)
