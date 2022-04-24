@@ -467,6 +467,9 @@
     "Alone in the Dark 3 (Japan)": {
         "languages": ""
     },
+    "Ankh - Pyramid no Nazo (Japan)": {
+        "languages": "Ja"
+    },
     "Another Ian and Stuart's Free (Australia)": {
         "languages": "En"
     },
@@ -974,6 +977,9 @@
     "Disney's Aladdin - Activity Center (USA)": {
         "languages": ""
     },
+    "Disney-Pixar Toy Story 2 (USA)": {
+        "languages": "En"
+    },
     "Doom 3 (USA)": {
         "languages": "En"
     },
@@ -1172,6 +1178,12 @@
     "In Memoriam (Germany) (MAC - Install)": {
         "languages": ""
     },
+    "Indiana Jones and the Emperor's Tomb (USA) (Disc 1)": {
+        "languages": "En"
+    },
+    "Indiana Jones and the Emperor's Tomb (USA) (Disc 2)": {
+        "languages": "En"
+    },
     "Indiana Jones and the Fate of Atlantis (USA)": {
         "languages": "En"
     },
@@ -1198,6 +1210,15 @@
     },
     "Jeopardy! Deluxe (USA)": {
         "languages": "En"
+    },
+    "Journeyman Project 2, The - Buried in Time (Japan) (Disc 1)": {
+        "languages": "Ja"
+    },
+    "Journeyman Project 2, The - Buried in Time (Japan) (Disc 2)": {
+        "languages": "Ja"
+    },
+    "Journeyman Project 2, The - Buried in Time (Japan) (Disc 3)": {
+        "languages": "Ja"
     },
     "Jump Raven (Japan)": {
         "languages": "Ja"
@@ -1313,11 +1334,20 @@
     "Lost Eden (France)": {
         "languages": "Fr"
     },
+    "Lua (Japan)": {
+        "languages": "Ja"
+    },
     "Lunicus (Japan)": {
         "languages": "Ja"
     },
     "MDK (Europe)": {
         "languages": "En"
+    },
+    "Ma-ri-a - Ningyoukan no Noroi (Japan) (Disc 1)": {
+        "languages": "Ja"
+    },
+    "Ma-ri-a - Ningyoukan no Noroi (Japan) (Disc 2)": {
+        "languages": "Ja"
     },
     "Mac Board Games (USA)": {
         "languages": ""
@@ -1627,6 +1657,12 @@
     },
     "Mario's Time Machine Deluxe (USA)": {
         "languages": "En"
+    },
+    "Master of Orion 3 (USA) (Disc 1)": {
+        "languages": ""
+    },
+    "Master of Orion 3 (USA) (Disc 2)": {
+        "languages": ""
     },
     "Medal of Honor - Allied Assault (USA) (Disc 1)": {
         "languages": "En"
@@ -2015,6 +2051,9 @@
     "San Diego Zoo Presents, The... The Animals! (USA)": {
         "languages": ""
     },
+    "Sanzennen Shokudou - Shoku Culture Simulation Game (Japan)": {
+        "languages": "Ja"
+    },
     "Satsui no Shoumei - In the 1st Degree (Japan) (Disc 1)": {
         "languages": "Ja"
     },
@@ -2160,6 +2199,9 @@
         "languages": ""
     },
     "Sims, The - Livin' Large (Expansion Pack) (USA)": {
+        "languages": ""
+    },
+    "Sims, The - Party Pack (USA)": {
         "languages": ""
     },
     "Sims, The - Superstar (Expansion Pack) (USA) (Disc 1)": {
@@ -2558,13 +2600,13 @@
     "Youkai Ningen Bem - Aratanaru Tamashii no Meikyuu (Japan) (Disc 2) (Data Base) (Alt)": {
         "languages": "Ja"
     },
-    "Zork Nemesis (Japan) (Disc I)": {
+    "Zork Nemesis (Japan) (Disc 1)": {
         "languages": ""
     },
-    "Zork Nemesis (Japan) (Disc II)": {
+    "Zork Nemesis (Japan) (Disc 2)": {
         "languages": ""
     },
-    "Zork Nemesis (Japan) (Disc III)": {
+    "Zork Nemesis (Japan) (Disc 3)": {
         "languages": ""
     },
     "Zork Nemesis - The Forbidden Lands (France) (Disc 1)": {

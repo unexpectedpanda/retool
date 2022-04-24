@@ -3,7 +3,7 @@
 		"name": [
 			"Sony - PlayStation 3"
 		],
-		"last updated": "20 March 2022",
+		"last updated": "24 April 2022",
 		"minimum version": "0.89"
 	},
 
@@ -149,6 +149,9 @@
 		],
 		"BlazBlue - Chrono Phantasma": [
 			["BlazBlue - Chronophantasma", 1]
+		],
+		"Blur": [
+			["Blur Racerz", 1]
 		],
 		"Borderlands": [
 			["Borderlands - Game of the Year Edition", 0]
@@ -353,6 +356,9 @@
 		"Everybody's Golf 6": [
 			["Minna no Golf 6", 1]
 		],
+		"Evil Within, The": [
+			["Psycho Break", 1]
+		],
 		"EyePet": [
 			["EyePet - Move Edition", 0]
 		],
@@ -506,7 +512,7 @@
 			["Ico & Shadow of the Colossus", 1]
 		],
 		"IL-2 Sturmovik - Birds of Prey": [
-			["IL-2 Shturmovik - Krylatye Hishhniki", 1]
+			["Il-2 Shturmovik - Krylatye xishhniki", 1]
 		],
 		"Injustice - Gods Among Us": [
 			["Injustice - Gods Among Us - Ultimate Edition", 0]
@@ -887,10 +893,15 @@
 			["Saints Row IV - Ultra Super Ultimate Deluxe Edition", 0]
 		],
 		"Saint Seiya - Brave Soldiers - Knights of the Zodiac": [
-			["Cavaleiros do Zodiaco, Os - Bravos Soldados", 1]
+			["Cavaleiros do Zodiaco, Os - Bravos Soldados", 1],
+			["Saint Seiya - Brave Soldiers", 1]
+		],
+		"Saint Seiya - Sanctuary Battle": [
+			["Saint Seiya Senki", 1]
 		],
 		"Saint Seiya - Soldiers' Soul - Knights of the Zodiac": [
-			["Cavaleiros do Zodiaco, Os - Alma dos Soldados", 1]
+			["Cavaleiros do Zodiaco, Os - Alma dos Soldados", 1],
+			["Saint Seiya - Soldiers' Soul", 1]
 		],
 		"SBK - Superbike World Championship": [
 			["SBK 08 - Superbike World Championship", 1]

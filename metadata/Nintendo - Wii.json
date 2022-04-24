@@ -191,6 +191,9 @@
     "All Star Karate (USA) (En,Fr,Es)": {
         "languages": "En, Fr, Es"
     },
+    "Alvin and the Chipmunks (Europe) (En,Fr,De,Es,It)": {
+        "languages": "En, Fr, De, It, Es"
+    },
     "Alvin and the Chipmunks (USA) (En,Fr)": {
         "languages": "En, Fr"
     },
@@ -1114,6 +1117,9 @@
     },
     "Charm Girls Club - Pyjama Party (Europe, Australia) (En,Fr,De,Es,It,Nl)": {
         "languages": "Nl, En, Fr, De, It, Es"
+    },
+    "Chavo, El (Latin America) (En,Es,Pt)": {
+        "languages": "En, Pt, Es"
     },
     "Cheggers Party Quiz (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
@@ -2184,6 +2190,9 @@
         "languages": "En"
     },
     "DreamWorks Shrek the Third (USA)": {
+        "languages": "En"
+    },
+    "DreamWorks Shrek the Third (USA) (Rev 1)": {
         "languages": "En"
     },
     "DreamWorks Shrek's Carnival Craze - Party Games (Europe) (Es,It,Nl)": {
@@ -3890,7 +3899,7 @@
     "LEGO Star Wars - The Complete Saga (USA) (En,Fr,Es) (Rev 1)": {
         "languages": "En, Fr, Es"
     },
-    "LEGO Star Wars III - The Clone Wars (Europe) (En,Fr,De,Es,It,Da) (Rev 1)": {
+    "LEGO Star Wars III - The Clone Wars (Europe, Australia) (En,Fr,De,Es,It,Da) (Rev 1)": {
         "languages": "Da, En, Fr, De, It, Es"
     },
     "LEGO Star Wars III - The Clone Wars (USA) (En,Fr,Es)": {
@@ -4666,6 +4675,9 @@
     },
     "Monster Trux Offroad (UK)": {
         "languages": "En"
+    },
+    "More Game Party (Europe) (En,Fr,De,Es,It)": {
+        "languages": "En, Fr, De, It, Es"
     },
     "Mortal Kombat - Armageddon (USA)": {
         "languages": "En"
@@ -5879,6 +5891,9 @@
     "Raving Rabbids - Travel in Time (USA) (En,Fr,Es)": {
         "languages": "En, Fr, Es"
     },
+    "Rayman - Raving Rabbids (Europe) (En,Fr,De,Es,It,Nl)": {
+        "languages": "Nl, En, Fr, De, It, Es"
+    },
     "Rayman - Raving Rabbids (USA) (En,Fr,Es)": {
         "languages": "En, Fr, Es"
     },
@@ -6452,7 +6467,7 @@
     "SimAnimals (USA) (En,Fr,Es)": {
         "languages": "En, Fr, Es"
     },
-    "SimAnimals - Africa (Europe) (En,Fr,De,Nl,Pt)": {
+    "SimAnimals - Africa (Europe, Australia) (En,Fr,De,Nl,Pt)": {
         "languages": "Nl, En, Fr, De, Pt"
     },
     "SimAnimals - Africa (Japan)": {
@@ -6627,6 +6642,9 @@
         "languages": "En, De"
     },
     "Skylanders - Trap Team (Europe) (Es,It)": {
+        "languages": "It, Es"
+    },
+    "Skylanders - Trap Team (Europe) (Es,It) (Rev 1)": {
         "languages": "It, Es"
     },
     "Skylanders - Trap Team (Europe) (Fr,Nl)": {
@@ -7754,6 +7772,9 @@
     "Wii Fit Plus (Asia)": {
         "languages": "Zh"
     },
+    "Wii Fit Plus (Europe, Australia) (En,Fr,De,Es,It)": {
+        "languages": "En, Fr, De, It, Es"
+    },
     "Wii Fit Plus (Japan)": {
         "languages": ""
     },
@@ -7918,6 +7939,9 @@
     },
     "Winter Sports 2008 - The Ultimate Challenge (Europe) (En,Fr)": {
         "languages": "En, Fr"
+    },
+    "Winter Sports 2009 - The Next Challenge (Europe) (En,De)": {
+        "languages": "En, De"
     },
     "Winter Sports 2009 - The Next Challenge (France) (En,Fr)": {
         "languages": "En, Fr"
@@ -8116,6 +8140,9 @@
     },
     "de Blob 2 (Europe) (En,Fr,De,Es,It,Nl)": {
         "languages": "Nl, En, Fr, De, It, Es"
+    },
+    "uDraw Studio (Europe) (En,Fr,De,Es,It,Nl,Pt)": {
+        "languages": "Nl, En, Fr, De, It, Pt, Es"
     },
     "uDraw Studio (USA) (En,Fr,Es)": {
         "languages": "En, Fr, Es"

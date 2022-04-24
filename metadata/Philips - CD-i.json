@@ -1,15 +1,15 @@
 {
     "1994 CD-i Awards (USA)": {
-        "languages": ""
+        "languages": "En"
     },
     "1995 - All the News and Views (UK)": {
         "languages": "En"
     },
     "1995 CD-i Awards (USA)": {
-        "languages": ""
+        "languages": "En"
     },
     "1996 Awards - International CD-i Association (USA)": {
-        "languages": ""
+        "languages": "En"
     },
     "2 Unlimited - Beyond Limits (Europe)": {
         "languages": "En"
@@ -36,7 +36,7 @@
         "languages": "De"
     },
     "7th Guest, The (USA) (Beta)": {
-        "languages": ""
+        "languages": "En"
     },
     "7th Guest, The (USA) (Disc 1) (The Game)": {
         "languages": "En"
@@ -45,7 +45,7 @@
         "languages": ""
     },
     "ACT College Search '92, The (USA)": {
-        "languages": ""
+        "languages": "En"
     },
     "ADI - Accompagnement Scolaire - Francais-Maths CE2 (France)": {
         "languages": ""
@@ -72,7 +72,7 @@
         "languages": ""
     },
     "AIDS Awareness Disc, The (USA)": {
-        "languages": ""
+        "languages": "En"
     },
     "ASICS Interactive Catalogue on CD-I 1995 (Europe)": {
         "languages": ""
@@ -90,10 +90,10 @@
         "languages": ""
     },
     "Addams Family, The (USA) (Disc 1)": {
-        "languages": ""
+        "languages": "En"
     },
     "Addams Family, The (USA) (Disc 2)": {
-        "languages": ""
+        "languages": "En"
     },
     "Adjustable Bed, The (Europe)": {
         "languages": ""
@@ -132,7 +132,7 @@
         "languages": "Nl"
     },
     "Alice in Wonderland (USA)": {
-        "languages": ""
+        "languages": "En"
     },
     "Alien Gate (Europe) (Rev 2)": {
         "languages": ""
@@ -210,7 +210,7 @@
         "languages": "En"
     },
     "Apprentice, The (USA)": {
-        "languages": ""
+        "languages": "En"
     },
     "Arcade Classics (Europe)": {
         "languages": ""
@@ -307,6 +307,9 @@
     },
     "Bavaria Film - Eine Interaktive Entdeckungsreise (Germany)": {
         "languages": "De"
+    },
+    "Beauty & the Beast (USA)": {
+        "languages": ""
     },
     "Beauty Guide (Netherlands)": {
         "languages": "Nl"
@@ -417,10 +420,10 @@
         "languages": "De"
     },
     "Black Rain (USA) (Disc 1)": {
-        "languages": ""
+        "languages": "En"
     },
     "Black Rain (USA) (Disc 2)": {
-        "languages": ""
+        "languages": "En"
     },
     "Body Contour (Netherlands) (Disc 1)": {
         "languages": "Nl"
@@ -429,7 +432,7 @@
         "languages": "Nl"
     },
     "Body Response (USA) (Disc 3) (Shoulder-Scapula)": {
-        "languages": ""
+        "languages": "En"
     },
     "Bose - Home Cinema Sound System - Demonstration Disc (Europe)": {
         "languages": ""
@@ -458,7 +461,7 @@
     "Breast Self-Examination - Auto-Examen Del Seno (USA) (En,Es)": {
         "languages": "En, Es"
     },
-    "Brer Rabbit and the Wonderful Tar Baby (Europe)": {
+    "Brer Rabbit and the Wonderful Tar Baby (USA, Europe)": {
         "languages": "En"
     },
     "British-American Tobacco (Germany)": {
@@ -488,7 +491,7 @@
     "Burn-Cycle (Spain) (El Juego)": {
         "languages": "Es"
     },
-    "Burn-Cycle (USA)": {
+    "Burn-Cycle (USA) (Beta)": {
         "languages": ""
     },
     "Burn-Cycle (USA, Europe) (Disc 1) (The Game)": {
@@ -503,8 +506,8 @@
     "CD Shoot (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt)": {
         "languages": "Nl, En, Fr, De, It, Ja, Pt, Es"
     },
-    "CD Shoot (USA)": {
-        "languages": ""
+    "CD Shoot (USA) (En,Ja,Fr,De,Es,It,Nl,Pt)": {
+        "languages": "Nl, En, Fr, De, It, Ja, Pt, Es"
     },
     "CD-I Full Motion Video Demo - James Bond - 09-06-1992 (Europe)": {
         "languages": ""
@@ -1149,7 +1152,7 @@
         "languages": "En"
     },
     "Caesars World of Boxing (USA) (Rev 1)": {
-        "languages": ""
+        "languages": "En"
     },
     "Caesars World of Gambling (USA, Europe)": {
         "languages": "En"
@@ -1232,6 +1235,9 @@
     "Children's Musical Theatre (France)": {
         "languages": "En"
     },
+    "Children's Musical Theatre (USA)": {
+        "languages": "En"
+    },
     "Christmas Country (Europe)": {
         "languages": "En"
     },
@@ -1266,10 +1272,10 @@
         "languages": "En"
     },
     "Clue (USA)": {
-        "languages": ""
+        "languages": "En"
     },
     "Clue - The Mysteries Continue (USA)": {
-        "languages": ""
+        "languages": "En"
     },
     "Cluedo (Europe)": {
         "languages": "En"
@@ -1296,10 +1302,10 @@
         "languages": "En"
     },
     "Compton's Interactive Encyclopedia (USA) (1995)": {
-        "languages": ""
+        "languages": "En"
     },
     "Compton's Interactive Encyclopedia (USA) (1995) (Digital Video)": {
-        "languages": ""
+        "languages": "En"
     },
     "Concept of Clustering, The (Europe)": {
         "languages": ""
@@ -1317,15 +1323,15 @@
         "languages": ""
     },
     "Coneheads (USA) (Disc 1)": {
-        "languages": ""
+        "languages": "En"
     },
     "Coneheads (USA) (Disc 2)": {
-        "languages": ""
+        "languages": "En"
     },
     "Congress Innsbruck - Stadt Trifft Natur (Austria)": {
         "languages": ""
     },
-    "Connect Four (Europe)": {
+    "Connect Four (USA, Europe)": {
         "languages": "En"
     },
     "Cours de Formation B No. 2 (France)": {
@@ -1343,6 +1349,9 @@
     "Crayon Factory, The (Europe)": {
         "languages": ""
     },
+    "Crayon Factory, The (USA)": {
+        "languages": "En"
+    },
     "Cream of Eric Clapton, The (Europe) (Disc 1)": {
         "languages": ""
     },
@@ -1359,16 +1368,16 @@
         "languages": ""
     },
     "Creation with Digital Video (USA) (Green)": {
-        "languages": ""
+        "languages": "En"
     },
     "Creation with Digital Video (USA) (Red)": {
-        "languages": ""
+        "languages": "En"
     },
     "Creation with MediaMogul (USA) (Blue)": {
-        "languages": ""
+        "languages": "En"
     },
     "Creation with MediaMogul (USA) (Grey)": {
-        "languages": ""
+        "languages": "En"
     },
     "Creature Shock (Europe) (Disc 1)": {
         "languages": "En"
@@ -1499,6 +1508,9 @@
     "Do You Remember the '60s (UK)": {
         "languages": "En"
     },
+    "Dom zu St. Stephan in Wien, Der (Austria)": {
+        "languages": "De"
+    },
     "Domino (Netherlands)": {
         "languages": "Nl"
     },
@@ -1515,6 +1527,9 @@
         "languages": "En"
     },
     "Dragon's Lair II - Time Warp (USA)": {
+        "languages": "En"
+    },
+    "Dragon's Lair II - Time Warp (USA) (Alt)": {
         "languages": "En"
     },
     "Dreaded Appraisal, The (UK)": {
@@ -1590,6 +1605,9 @@
         "languages": ""
     },
     "Emperor's New Clothes, The (Europe)": {
+        "languages": ""
+    },
+    "Emperor's New Clothes, The (USA)": {
         "languages": ""
     },
     "Engineering 5.0 (USA) (Beta)": {
@@ -1801,6 +1819,9 @@
     },
     "Gateshead 1900 - A Guide to Tyneside 100 Years Ago (UK)": {
         "languages": "En"
+    },
+    "Geants du Jazz, Les (France)": {
+        "languages": "Fr"
     },
     "Geheimnisvollen Fabeln von Aesop, Die (Germany)": {
         "languages": ""
@@ -2024,6 +2045,9 @@
     "Historia del Arte Espanol (Spain) (Disc 9) (La Epoca de las Revoluciones - De Goya a la Modernidad)": {
         "languages": "Es"
     },
+    "Hit Karaoke - Volume 1 - Nostalgie (France)": {
+        "languages": "Fr"
+    },
     "Hit Karaoke - Volume 4 - Annees 70 (France)": {
         "languages": "Fr"
     },
@@ -2066,10 +2090,16 @@
     "How the Camel Got His Hump (USA)": {
         "languages": "En"
     },
+    "How the Camel Got His Hump (USA) (En,Es)": {
+        "languages": "En, Es"
+    },
     "How the Rhino Got His Skin (USA) (Beta)": {
         "languages": "En"
     },
-    "How the Rhinoceros Got His Skin (Europe)": {
+    "How the Rhinoceros Got His Skin (USA) (En,Es)": {
+        "languages": "En, Es"
+    },
+    "How the Rhinoceros Got His Skin (USA, Europe)": {
         "languages": "En"
     },
     "Hubert Ebner - Verkehrslehrmittel Ges.m.b.H. Medien - Der Speditionskaufmann (Austria)": {
@@ -2510,6 +2540,9 @@
     "Let's Go Skiing with Alberto Tomba (Europe) (En,It)": {
         "languages": "En, It"
     },
+    "Let's Go Skiing with Alberto Tomba (Europe) (En,It) (Rev 1)": {
+        "languages": "En, It"
+    },
     "Lettergreep (Netherlands)": {
         "languages": "Nl"
     },
@@ -2798,6 +2831,9 @@
     "More Dark Fables from Aesop (Europe)": {
         "languages": "En"
     },
+    "More Dark Fables from Aesop (USA)": {
+        "languages": ""
+    },
     "Moses - Bound for the Promised Land (Europe)": {
         "languages": "En"
     },
@@ -2812,6 +2848,9 @@
     },
     "Mother Goose - Rhymes to Color (Europe)": {
         "languages": "En"
+    },
+    "Mother Goose - Rhymes to Color (USA)": {
+        "languages": ""
     },
     "Motivating the Team (UK)": {
         "languages": ""
@@ -2851,6 +2890,9 @@
     },
     "Muzzy (Europe) (Beta)": {
         "languages": "En"
+    },
+    "Muzzy (USA)": {
+        "languages": ""
     },
     "Myst (Europe)": {
         "languages": "En"
@@ -2978,11 +3020,29 @@
     "Noah's Ark (USA)": {
         "languages": ""
     },
+    "Nobelia (USA, Europe) (Unl)": {
+        "languages": "En"
+    },
+    "Nuits Fauves, Les (France) (Disc 1)": {
+        "languages": ""
+    },
+    "Nuits Fauves, Les (France) (Disc 2)": {
+        "languages": ""
+    },
     "Nuri e Asobi I - Paint School I (Japan)": {
         "languages": "Ja"
     },
     "Objectif Transparence (France)": {
         "languages": ""
+    },
+    "Oesterreichische Nationalbibliothek - Multimediale Enzyklopaedie auf 3 CD-i's (Austria) (Disc 1) (Prunksaal-Impressionen)": {
+        "languages": "De"
+    },
+    "Oesterreichische Nationalbibliothek - Multimediale Enzyklopaedie auf 3 CD-i's (Austria) (Disc 2) (Sammlungen)": {
+        "languages": "De"
+    },
+    "Oesterreichische Nationalbibliothek - Multimediale Enzyklopaedie auf 3 CD-i's (Austria) (Disc 3) (Apokalypse)": {
+        "languages": "De"
     },
     "Oil of Ulay - Colour Collection - Colour Consultant (UK)": {
         "languages": ""
@@ -3362,6 +3422,9 @@
     "Renaissance Gallery, The (Europe)": {
         "languages": "En"
     },
+    "Renaissance a Florence, La (France)": {
+        "languages": "Fr"
+    },
     "Renaissance by Aylesford Newsprint (UK)": {
         "languages": ""
     },
@@ -3413,10 +3476,16 @@
     "Richard Scarry's Best Neighborhood Disc Ever! (USA)": {
         "languages": ""
     },
+    "Richard Scarry's Best Neighborhood Disc Ever! (USA) (Rev 1)": {
+        "languages": ""
+    },
     "Richard Scarry's Busiest Neighborhood Disc Ever! (USA)": {
         "languages": ""
     },
     "Richard Scarry's Busiest Neighborhood Disc Ever! (USA) (Rev 1)": {
+        "languages": ""
+    },
+    "Richard Scarry's Busiest Neighborhood Disc Ever! (USA) (Rev 2)": {
         "languages": ""
     },
     "Rinascimento a Firenze, Il (Italy)": {
@@ -3675,7 +3744,10 @@
         "languages": ""
     },
     "Stickybear Family Fun (Europe)": {
-        "languages": ""
+        "languages": "En"
+    },
+    "Stickybear Family Fun (USA)": {
+        "languages": "En"
     },
     "Stickybear Math (USA) (En,Es)": {
         "languages": "En, Es"
@@ -3683,17 +3755,17 @@
     "Stickybear Maths (Europe) (En,Es)": {
         "languages": "En, Es"
     },
-    "Stickybear Preschool (Europe) (Beta)": {
-        "languages": "En"
-    },
-    "Stickybear Preschool (USA) (Beta)": {
-        "languages": ""
+    "Stickybear Preschool (Europe) (En,Es) (Beta)": {
+        "languages": "En, Es"
     },
     "Stickybear Preschool (USA) (En,Es)": {
         "languages": "En, Es"
     },
-    "Stickybear Reading (USA)": {
-        "languages": "En"
+    "Stickybear Preschool (USA) (En,Es) (Beta)": {
+        "languages": "En, Es"
+    },
+    "Stickybear Reading (USA) (En,Es)": {
+        "languages": "En, Es"
     },
     "Sting - Ten Summoner's Tales (Europe)": {
         "languages": "En"
@@ -3982,6 +4054,9 @@
     },
     "Tresor de l'Ile aux Jeux, Le (France)": {
         "languages": "Fr"
+    },
+    "Tresors du Smithsonian (France)": {
+        "languages": ""
     },
     "Triatec IDP (France)": {
         "languages": ""
@@ -4546,6 +4621,9 @@
     },
     "Zombie Dinos from Planet Zeltoid (Europe)": {
         "languages": "En"
+    },
+    "Zombie Dinos from Planet Zeltoid (USA)": {
+        "languages": ""
     },
     "Zombie Dinos from Planet Zeltoid (USA, Europe) (Rev 1)": {
         "languages": "En"

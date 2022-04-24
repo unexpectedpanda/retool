@@ -596,11 +596,17 @@
     "Bunmei Kaika - Aoiza Ibunroku (Japan)": {
         "languages": "Ja"
     },
+    "Burnout Dominator (Asia)": {
+        "languages": "En"
+    },
     "Burnout Dominator (Europe)": {
         "languages": "En"
     },
     "Burnout Dominator (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
+    },
+    "Burnout Dominator (Japan)": {
+        "languages": "Ja"
     },
     "Burnout Dominator (USA)": {
         "languages": "En"
@@ -620,7 +626,7 @@
     "Burnout Legends (Japan) (EA Best Hits)": {
         "languages": "Ja"
     },
-    "Burnout Legends (USA) (En,Fr,De,Es,It,Nl)": {
+    "Burnout Legends (USA) (En,Fr,De,Es,It,Nl) (v1.00)": {
         "languages": "Nl, En, Fr, De, It, Es"
     },
     "Burnout Legends (USA) (En,Fr,De,Es,It,Nl) (v2.00)": {
@@ -1643,6 +1649,9 @@
     "Dynasty Warriors Vol. 2 (USA)": {
         "languages": "En"
     },
+    "E'ragon (Russia)": {
+        "languages": "Ru"
+    },
     "EA Replay (Europe) (En,De,Es,It,Nl)": {
         "languages": "Nl, En, De, It, Es"
     },
@@ -1907,6 +1916,9 @@
     "FIFA 11 (Portugal)": {
         "languages": "Pt"
     },
+    "FIFA 11 (Russia)": {
+        "languages": "Ru"
+    },
     "FIFA 11 (Spain) (v1.00)": {
         "languages": "Es"
     },
@@ -2000,13 +2012,16 @@
     "FIFA Soccer 08 (USA)": {
         "languages": "En"
     },
+    "FIFA Soccer 09 (Canada) (En,Fr)": {
+        "languages": "En, Fr"
+    },
     "FIFA Soccer 09 (USA) (En,Es)": {
         "languages": "En, Es"
     },
     "FIFA Soccer 10 (USA) (En,Es)": {
         "languages": "En, Es"
     },
-    "FIFA Soccer 11 (USA) (En,Es)": {
+    "FIFA Soccer 11 (USA) (En,Es) (v1.00)": {
         "languages": "En, Es"
     },
     "FIFA Soccer 11 (USA) (En,Es) (v2.00)": {
@@ -2900,8 +2915,14 @@
     "Idolmaster Shiny Festa, The - Honey Sound (Japan)": {
         "languages": "Ja"
     },
+    "Il-2 Shturmovik - Krylatye xishhniki (Russia)": {
+        "languages": "Ru"
+    },
     "Imagine - Champion Rider (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da)": {
         "languages": "Da, Nl, En, Fr, De, It, No, Es, Sv"
+    },
+    "Imagine - Champion Rider (Russia)": {
+        "languages": "Ru"
     },
     "Impossible Mission (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
@@ -3062,7 +3083,7 @@
     "Jikkyou Powerful Pro Yakyuu Portable 2 (Japan)": {
         "languages": "Ja"
     },
-    "Jikkyou Powerful Pro Yakyuu Portable 3 (Japan)": {
+    "Jikkyou Powerful Pro Yakyuu Portable 3 (Japan) (v1.04)": {
         "languages": "Ja"
     },
     "Jikkyou Powerful Pro Yakyuu Portable 3 (Japan) (v2.00)": {
@@ -3370,6 +3391,9 @@
     },
     "LEGO Pirates of the Caribbean - The Video Game (USA) (En,Fr,Es)": {
         "languages": "En, Fr, Es"
+    },
+    "LEGO Piraty Karibskogo morya - Videoigra (Russia)": {
+        "languages": "Ru"
     },
     "LEGO Star Wars II - The Original Trilogy (Europe) (En,Fr,De,Es,It,Da)": {
         "languages": "Da, En, Fr, De, It, Es"
@@ -3986,7 +4010,7 @@
     "Midnight Club 3 - DUB Edition (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
-    "Midnight Club 3 - DUB Edition (USA)": {
+    "Midnight Club 3 - DUB Edition (USA) (v1.00)": {
         "languages": "En"
     },
     "Midnight Club 3 - DUB Edition (USA) (v2.02)": {
@@ -4022,7 +4046,7 @@
     "Minna no Golf Portable - Coca-Cola Special Edition (Japan)": {
         "languages": "Ja"
     },
-    "Minna no Golf Portable 2 (Japan)": {
+    "Minna no Golf Portable 2 (Japan) (v1.09)": {
         "languages": "Ja"
     },
     "Minna no Golf Portable 2 (Japan) (v2.01)": {
@@ -4352,7 +4376,7 @@
     "NBA Street Showdown (USA)": {
         "languages": "En"
     },
-    "NCAA Football 07 (USA)": {
+    "NCAA Football 07 (USA) (v1.00)": {
         "languages": ""
     },
     "NCAA Football 07 (USA) (v2.00)": {
@@ -4594,6 +4618,9 @@
     },
     "O.G.A Onigokko Royal - Hunter wa Field de Koi o Suru (Japan)": {
         "languages": "Ja"
+    },
+    "Oblachno, vozmozhny osadki v vide frikadelek (Russia)": {
+        "languages": "Ru"
     },
     "ObsCure - The Aftermath (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
@@ -5105,6 +5132,9 @@
     "Prince of Persia - The Forgotten Sands (USA) (En,Fr,Es)": {
         "languages": "En, Fr, Es"
     },
+    "Prince of Persia - Zabytye peski (Russia)": {
+        "languages": "Ru"
+    },
     "Princess Crown (Japan)": {
         "languages": "Ja"
     },
@@ -5582,11 +5612,11 @@
     "Sanguozhi V (Asia)": {
         "languages": "Zh"
     },
-    "Saru! Get You! P! (Japan)": {
-        "languages": "Ja"
-    },
     "Saru! Get You! P! (Japan) (Beta)": {
         "languages": ""
+    },
+    "Saru! Get You! P! (Japan) (v1.06)": {
+        "languages": "Ja"
     },
     "Saru! Get You! P! (Japan, Asia) (v2.00)": {
         "languages": "Ja"
@@ -5662,6 +5692,9 @@
     },
     "Sega Rally (Europe) (En,Fr,De,Es,It) (v2.00)": {
         "languages": "En, Fr, De, It, Es"
+    },
+    "Sega Rally (Russia)": {
+        "languages": "Ru"
     },
     "Sega Rally Revo (USA)": {
         "languages": "En"
@@ -5848,6 +5881,9 @@
     },
     "Simpson, Los - El Videojuego (Spain)": {
         "languages": "Es"
+    },
+    "Simpsons Game, The (Asia)": {
+        "languages": "En"
     },
     "Simpsons Game, The (Europe)": {
         "languages": "En"
@@ -6296,6 +6332,9 @@
     "TOCA Race Driver 3 Challenge (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
+    "TRON - Evolution (Russia)": {
+        "languages": "Ru"
+    },
     "Tactics Ogre - Let Us Cling Together (Europe)": {
         "languages": "En"
     },
@@ -6305,7 +6344,7 @@
     "Tactics Ogre - Unmei no Wa (Japan)": {
         "languages": "Ja"
     },
-    "Taiko no Tatsujin Portable (Japan)": {
+    "Taiko no Tatsujin Portable (Japan) (v1.01)": {
         "languages": "Ja"
     },
     "Taiko no Tatsujin Portable (Japan, Asia) (v2.00)": {
@@ -7307,7 +7346,7 @@
     "Yu-Gi-Oh! GX - Tag Force (USA)": {
         "languages": "En"
     },
-    "Yu-Gi-Oh! GX - Tag Force 2 (Europe) (En,Fr,De,Es,It)": {
+    "Yu-Gi-Oh! GX - Tag Force 2 (Europe) (En,Fr,De,Es,It) (v1.01)": {
         "languages": "En, Fr, De, It, Es"
     },
     "Yu-Gi-Oh! GX - Tag Force 2 (Europe) (En,Fr,De,Es,It) (v2.00)": {

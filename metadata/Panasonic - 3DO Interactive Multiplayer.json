@@ -1121,7 +1121,10 @@
     "Pyramid Intruder (Japan)": {
         "languages": "Ja"
     },
-    "Quarantine (USA, Japan) (En,Ja,Fr,De,Es) (RE3)": {
+    "Quarantine (USA) (En,Fr,De,Es) (RE)": {
+        "languages": "En, Fr, De, Es"
+    },
+    "Quarantine (USA, Japan) (En,Ja,Fr,De,Es)": {
         "languages": "En, Fr, De, Ja, Es"
     },
     "Quarterback Attack (USA)": {

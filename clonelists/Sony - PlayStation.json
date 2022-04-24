@@ -3,7 +3,7 @@
         "name": [
 			"Sony - PlayStation"
 		],
-        "last updated": "20 March 2022",
+        "last updated": "24 April 2022",
 		"minimum version": "0.92"
     },
 
@@ -864,8 +864,8 @@
 		"Culdcept - Expansion": [
 			["Culdcept - Expansion Plus", 0]
 		],
-		"Cyber Daisenryaku - Shutsugeki! Haruka Tai": [
-			["SuperLite 1500 Series - Cyber Daisenryaku - Shutsugeki! Haruka Tai", 2]
+		"Cyber Daisenryaku - Shutsugeki! Haruka-tai": [
+			["SuperLite 1500 Series - Cyber Daisenryaku - Shutsugeki! Haruka-tai", 2]
 		],
 		"D (Disc 1)": [
 			["D no Shokutaku - Complete Graphics (Disc 1)", 1]
@@ -1773,7 +1773,7 @@
 			["King's Field III", 1]
 		],
 		"King of Bowling 2": [
-			["King of Bowling 2 - Professional Hen", 1]
+			["King of Bowling 2 - Professional-hen", 1]
 		],
 		"Kiwame Daidougi": [
 			["Kiwame Daidougi - Tsumuya Tsumazaruya", 2]
@@ -2121,6 +2121,9 @@
 		],
 		"NASCAR Racing": [
 			["NASCAR Racing - Season 96", 1]
+		],
+		"Natsuiro Kenjutsu Komachi": [
+			["Natsuiro Kenjutsu Komachi (Disc 1)", 0]
 		],
 		"NBA in the Zone": [
 			["NBA Power Dunkers", 1]
@@ -3055,7 +3058,7 @@
 			["SuperLite 1500 Series - Tower Dream 2", 2]
 		],
 		"Transport Tycoon": [
-			["Transport Tycoon 3D - Sl Kara Hajimeyou!!", 1]
+			["Transport Tycoon 3D - SL Kara Hajimeyou!!", 1]
 		],
 		"Trap Gunner": [
 			["Trap Runner", 1]
@@ -3294,7 +3297,7 @@
 			["Love Game's - Wai Wai Tennis 2", 1]
 		],
 		"Yoshimoto Mahjong Club Deluxe": [
-			["SuperLite 1500 Series - Yoshimoto Mahjong Club Deluxe", 2]
+			["SuperLite 1500 Series - Yoshimoto Mahjong Club", 2]
 		],
 		"You Don't Know Jack (Disc 1)": [
 			["You Don't Know Jack", 1]

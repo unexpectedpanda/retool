@@ -3,7 +3,7 @@
 		"name": [
 			"Philips - CD-i"
 		],
-		"last updated": "20 March 2022",
+		"last updated": "24 April 2022",
 		"minimum version": "0.89"
 	},
 
@@ -26,6 +26,10 @@
 			["Asterix - La Sfida di Cesare", 1],
 			["Asterix - Le Defi de Cesar", 1],
 			["Asterix - O Desafio de Cesar", 1]
+		],
+		"Beauty & the Beast": [
+			["Belle et la Bete, La", 1],
+			["Schoene und das Tier, Die", 1]
 		],
 		"Berenstain Bears, The - On Their Own": [
 			["Berenstain-Baeren, Die - Selbst ist der Baer", 1],
@@ -109,7 +113,8 @@
 			["Raccolto del Sole, Il - Van Gogh", 1]
 		],
 		"How the Rhinoceros Got His Skin": [
-			["Wie das Rhinozeros zu seiner Haut kam", 1]
+			["Wie das Rhinozeros zu seiner Haut kam", 1],
+			["How the Rhino Got His Skin", 2]
 		],
 		"Impressionnistes Francais, Les": [
 			["Franse Impressionisten, De", 1],
@@ -120,6 +125,9 @@
 			["International Tennis Open (Simultaneous 2 Player Game)", 0],
 			["International Tennis Open (Versione 2 Giocatori)", 0]
 
+		],
+		"Jazz Giants - From Big Band to Bossa Nova": [
+			["Geants du Jazz, Les", 1]
 		],
 		"Labyrinth of Crete": [
 			["Labyrinth von Kreta", 1]
@@ -173,6 +181,7 @@
 		"Renaissance of Florence, The": [
 			["Great Art Series, The - Florence Renaissance - Renaissance of Florence, The", 1],
 			["Rinascimento a Firenze, Il", 1],
+			["Renaissance a Florence, La", 1],
 			["Renaissance in Florenz, Die", 1],
 			["Renaissance van Florence, De", 1]
 		],
@@ -194,9 +203,6 @@
 			["Aventures de Sandy au Cirque, Les", 1],
 			["Sandy's Circus Avontuur", 1],
 			["Sandy's Zirkus Abenteuer", 1]
-		],
-		"Schoene und das Tier, Die": [
-			["Belle et la Bete, La", 1]
 		],
 		"Scotland Yard Interactive": [
 			["Scotland Yard Interactif", 1]
@@ -255,6 +261,9 @@
 		],
 		"Tom - Magic Picture Show": [
 			["Tom - Il Dizionario Magico", 1]
+		],
+		"Treasures of the Smithsonian": [
+			["Tresors du Smithsonian", 1]
 		],
 		"Video Speedway - The Ultimate Racing Experience": [
 			["Video Speedway - Grand Prix", 1]

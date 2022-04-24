@@ -3,7 +3,7 @@
 		"name": [
 			"Microsoft - Xbox 360"
 		],
-		"last updated": "20 March 2022",
+		"last updated": "24 April 2022",
 		"minimum version": "0.92"
 	},
 
@@ -65,6 +65,9 @@
 		"Beautiful Katamari": [
 			["Beautiful Katamari Damacy", 1]
 		],
+		"Bladestorm - The Hundred Years' War": [
+			["Bladestorm - Hyakunen Sensou", 1]
+		],
 		"Blur": [
 			["Blur Racerz", 1]
 		],
@@ -112,6 +115,9 @@
 			["Call of Duty - Modern Warfare 3 (Jimakuban)", 1],
 			["Call of Duty - Modern Warfare 3 (Fukikaeban)", 1]
 		],
+		"Champion Jockey - G1 Jockey & Gallop Racer": [
+			["Champion Jockey - Gallop Racer & GI Jockey", 1]
+		],
 		"Command & Conquer - Red Alert 3": [
 			["Command & Conquer - Alarmstufe Rot 3", 1]
 		],
@@ -156,8 +162,15 @@
 		"Divinity II - Ego Draconis": [
 			["Divinity II - The Dragon Knight Saga", 0]
 		],
+		"Dragon Age - Origins": [
+			["Dragon Age - Origins (Disc 1)", 1]
+		],
 		"Dragon Age - Origins - Ultimate Edition (Disc 2) (Additional Content Packs Install Disc)": [
-			["Dragon Age - Origins - Ultimate Edition (Disc 2) (Zusaetzliche Inhaltspacks Installations-Disc)", 1]
+			["Dragon Age - Origins - Ultimate Edition (Disc 2) (Zusaetzliche Inhaltspacks Installations-Disc)", 1],
+			["Dragon Age - Origins (Disc 2) (Tsuika Contents Disc)", 1]
+		],
+		"Dragon Ball Z - Ultimate Tenkaichi": [
+			["Dragon Ball - Ultimate Blast", 1]
 		],
 		"DreamWorks Shrek Forever After": [
 			["DreamWorks Shrek e Vissero Felici e Contenti", 1]
@@ -197,6 +210,9 @@
 		],
 		"Enchanted Arms": [
 			["[eM] - eNCHANT arM", 1]
+		],
+		"Family Games (Demo)": [
+			["Family Games (Toys R Us) (Demo)", 2]
 		],
 		"F1 2013": [
 			["F1 2013 - Complete Edition", 0]
@@ -261,6 +277,9 @@
 		"Fist of the North Star - Ken's Rage": [
 			["Hokuto Musou", 1]
 		],
+		"Fist of the North Star - Ken's Rage 2": [
+			["Shin Hokuto Musou", 1]
+		],
 		"Forza Motorsport 3 (Disc 1) (Play Disc)": [
 			["Forza Motorsport 3 - Ultimate Collection (Disc 1) (Play Disc)", 0]
 		],
@@ -293,6 +312,9 @@
 		],
 		"Injustice - Gods Among Us": [
 			["Injustice - Gods Among Us - Ultimate Edition", 0]
+		],
+		"James Cameron's Avatar - The Game": [
+			["James Cameron's Avatar The Game", 1]
 		],
 		"Just Cause": [
 			["Just Cause - Viva Revolution", 1]
@@ -354,6 +376,9 @@
 		"Minecraft - Story Mode - A Telltale Games Series": [
 			["Minecraft - Story Mode - A Telltale Games Series - The Complete Adventure", 0]
 		],
+		"Murdered - Soul Suspect": [
+			["Murdered - Tamashii no Yobu Koe", 1]
+		],
 		"Naruto Shippuden - Ultimate Ninja Storm 2": [
 			["Naruto Shippuuden - Narutimate Storm 2", 1]
 		],
@@ -369,9 +394,6 @@
 		"Need for Speed - Carbon": [
 			["Need for Speed - Carbon - Collector's Edition", 0],
 			["Need for Speed - Carbono", 1]
-		],
-		"Need for Speed - Most Wanted": [
-			["Need for Speed - Most Wanted (2012)", 1]
 		],
 		"Need for Speed - The Run (651050A1)": [
 			["Need for Speed - The Run (264F3B05)", 2]
@@ -405,6 +427,9 @@
 		],
 		"PES 2014 - Pro Evolution Soccer": [
 			["World Soccer Winning Eleven 2014", 1]
+		],
+		"Pure": [
+			["Extreme Racing Pure", 1]
 		],
 		"Resident Evil 6 (Disc 1) (Game)": [
 			["Resident Evil 6 (Disc 1) (Game Disc)", 1]
@@ -468,6 +493,9 @@
 		"Sonic's Ultimate Genesis Collection": [
 			["Sega Mega Drive Ultimate Collection", 1]
 		],
+		"Sonic Unleashed": [
+			["Sonic World Adventure", 1]
+		],
 		"South Park - The Stick of Truth": [
 			["South Park - Der Stab der Wahrheit", 1]
 		],
@@ -482,6 +510,9 @@
 		],
 		"Stoked": [
 			["Stoked - Big Air Edition", 0]
+		],
+		"Tenchu Z": [
+			["Tenchu Senran", 1]
 		],
 		"Tiger Woods PGA Tour 13": [
 			["Tiger Woods PGA Tour 13 (Masters Collector's Edition)", 0]

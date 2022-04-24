@@ -1116,7 +1116,7 @@
         "languages": "En"
     },
     "Corvette (USA)": {
-        "languages": ""
+        "languages": "En"
     },
     "Counter Terrorist Special Forces - Fire for Effect (USA, Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
@@ -1242,7 +1242,7 @@
         "languages": "En, Fr, De, It, Es"
     },
     "Dai Senryaku VII - Modern Military Tactics (USA)": {
-        "languages": ""
+        "languages": "En"
     },
     "Daisenryaku VII (Japan)": {
         "languages": "Ja"
@@ -1256,14 +1256,14 @@
     "Dance Dance Revolution Ultramix (USA)": {
         "languages": ""
     },
-    "Dance Dance Revolution Ultramix 2 (USA)": {
-        "languages": ""
+    "Dance Dance Revolution Ultramix 2 (USA) (En,Fr,De,Es,It)": {
+        "languages": "En, Fr, De, It, Es"
     },
     "Dance Dance Revolution Ultramix 3 (USA)": {
         "languages": ""
     },
-    "Dance Dance Revolution Ultramix 4 (USA)": {
-        "languages": ""
+    "Dance Dance Revolution Ultramix 4 (USA) (En,Fr,Es)": {
+        "languages": "En, Fr, Es"
     },
     "Dance-UK (UK)": {
         "languages": ""
@@ -4652,6 +4652,9 @@
     "Official Xbox Magazine Game Disc 45 (USA)": {
         "languages": "En"
     },
+    "Official Xbox Magazine Game Disc 46 (Australia)": {
+        "languages": "En"
+    },
     "Official Xbox Magazine Game Disc 46 (Europe) (En,Fr,Es,It,Pt)": {
         "languages": "En, Fr, It, Pt, Es"
     },
@@ -5055,7 +5058,7 @@
         "languages": "En, Fr, De, It, Es"
     },
     "Pinball Hall of Fame - The Gottlieb Collection (USA)": {
-        "languages": ""
+        "languages": "En"
     },
     "Pirates - The Legend of Black Kat (Europe)": {
         "languages": "En"
@@ -7408,6 +7411,9 @@
     },
     "Xbox Demo Disc Version 4.2 (USA) (ESRB RP-M)": {
         "languages": ""
+    },
+    "Xbox Demo Disc Version 4.3 (USA)": {
+        "languages": "En"
     },
     "Xbox Demo Disc Version 4.4 (USA)": {
         "languages": "En"

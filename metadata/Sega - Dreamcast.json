@@ -27,7 +27,7 @@
         "languages": "En, Fr, De, It, Es"
     },
     "AM2 of CRI 2001 New Lineup Movie Collection (Japan)": {
-        "languages": ""
+        "languages": "Ja"
     },
     "Action Replay CDX - Demo Version (UK) (Unl)": {
         "languages": ""
@@ -860,6 +860,12 @@
     "Dream Preview Vol. 5 (Japan)": {
         "languages": "Ja"
     },
+    "Dream Preview Vol. 6 (Japan)": {
+        "languages": "Ja"
+    },
+    "Dream Preview Vol. 7 (Japan)": {
+        "languages": "Ja"
+    },
     "Dream Preview Vol. 8 (Japan)": {
         "languages": "Ja"
     },
@@ -1188,6 +1194,9 @@
         "languages": "Ja"
     },
     "Ever 17 - The Out of Infinity (Japan)": {
+        "languages": "Ja"
+    },
+    "Ever 17 - The Out of Infinity - Premium Edition (Japan)": {
         "languages": "Ja"
     },
     "Evil Dead - Hail to the King (Europe)": {
@@ -1819,6 +1828,9 @@
     },
     "Kao the Kangaroo (USA) (En,Es)": {
         "languages": "En, Es"
+    },
+    "Karat DC-you - Pro Action Replay DC PAR - Sampler - Nyuumon-hen (Japan) (Unl)": {
+        "languages": "Ja"
     },
     "Karous (Japan)": {
         "languages": "Ja"
@@ -2852,6 +2864,9 @@
     "Reel Fishing + Wild (USA)": {
         "languages": "En"
     },
+    "Remember 11 - The Age of Infinity - Promotion Disc (Japan)": {
+        "languages": "Ja"
+    },
     "Ren'ai Chu! Happy Perfect (Japan)": {
         "languages": "Ja"
     },
@@ -3029,6 +3044,9 @@
     "Sakura Taisen 4 - Koi seyo Otome (Japan)": {
         "languages": "Ja"
     },
+    "Sakura Taisen 4 - Koi seyo Otome (Japan) (Tentou-you Demo Movie)": {
+        "languages": "Ja"
+    },
     "Sakura Taisen 4 - Koi seyo Otome - Preview Disc (Japan)": {
         "languages": "Ja"
     },
@@ -3102,6 +3120,9 @@
         "languages": "En"
     },
     "Sega GT - Homologation Special (Japan)": {
+        "languages": "Ja"
+    },
+    "Sega GT - Homologation Special (Japan) (Taikenban)": {
         "languages": "Ja"
     },
     "Sega Marine Fishing (Japan)": {
@@ -3399,6 +3420,9 @@
         "languages": "En, Fr, De, Ja, Es"
     },
     "Sonic Adventure 2 (Japan) (En,Ja,Fr,De,Es)": {
+        "languages": "En, Fr, De, Ja, Es"
+    },
+    "Sonic Adventure 2 (Japan) (En,Ja,Fr,De,Es) (Taikenban)": {
         "languages": "En, Fr, De, Ja, Es"
     },
     "Sonic Adventure 2 (USA) (En,Ja,Fr,De,Es)": {

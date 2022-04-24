@@ -410,6 +410,9 @@
     "Battle Fantasia (Europe)": {
         "languages": ""
     },
+    "Battle Fantasia (Japan)": {
+        "languages": "Ja"
+    },
     "Battle Fantasia (USA) (En,Ja)": {
         "languages": "En, Ja"
     },
@@ -542,6 +545,12 @@
     "Biohazard - Operation Raccoon City (Japan)": {
         "languages": ""
     },
+    "Biohazard - Revival Selection (Japan) (Biohazard - Code - Veronica - Kanzenban)": {
+        "languages": "Ja"
+    },
+    "Biohazard - Revival Selection (Japan) (Biohazard 4)": {
+        "languages": "Ja"
+    },
     "Bionic Commando (USA, Europe) (En,Fr,De,Es,It,Ko)": {
         "languages": "En, Fr, De, It, Ko, Es"
     },
@@ -567,6 +576,9 @@
         "languages": ""
     },
     "Blades of Time (USA)": {
+        "languages": ""
+    },
+    "Bladestorm - Hyakunen Sensou (Japan)": {
         "languages": ""
     },
     "Bladestorm - The Hundred Years' War (Europe) (En,Fr,De,Es,It)": {
@@ -757,6 +769,9 @@
     },
     "Burnout Revenge (Japan)": {
         "languages": "Ja"
+    },
+    "Burnout Revenge (Korea) (En,Zh,Ko)": {
+        "languages": "Zh, En, Ko"
     },
     "CSI - Crime Scene Investigation - Deadly Intent (Europe)": {
         "languages": ""
@@ -974,6 +989,9 @@
     "Champion Jockey - G1 Jockey & Gallop Racer (Europe)": {
         "languages": ""
     },
+    "Champion Jockey - Gallop Racer & GI Jockey (Japan)": {
+        "languages": ""
+    },
     "Championship Manager 2007 (Europe)": {
         "languages": ""
     },
@@ -1163,7 +1181,7 @@
     "Dance Dance Revolution Universe 3 (USA)": {
         "languages": ""
     },
-    "Dance Evolution (Europe)": {
+    "Dance Evolution (Japan, Europe)": {
         "languages": ""
     },
     "Dance Masters (USA)": {
@@ -1637,6 +1655,12 @@
     "Dragon Age - Origins (Germany)": {
         "languages": "De"
     },
+    "Dragon Age - Origins (Japan) (Disc 1)": {
+        "languages": ""
+    },
+    "Dragon Age - Origins (Japan) (Disc 2) (Tsuika Contents Disc)": {
+        "languages": ""
+    },
     "Dragon Age - Origins - Ultimate Edition (Germany) (Disc 2) (Zusaetzliche Inhaltspacks Installations-Disc)": {
         "languages": "De"
     },
@@ -1656,6 +1680,9 @@
         "languages": ""
     },
     "Dragon Ball - Raging Blast 2 (USA)": {
+        "languages": ""
+    },
+    "Dragon Ball - Ultimate Blast (Japan)": {
         "languages": ""
     },
     "Dragon Ball Xenoverse (Europe)": {
@@ -1743,6 +1770,9 @@
         "languages": "Da, Nl, En, Fr, De, It, No, Es, Sv"
     },
     "Duck Dynasty (USA)": {
+        "languages": ""
+    },
+    "Duke Nukem Forever (Japan)": {
         "languages": ""
     },
     "Duke Nukem Forever (UK)": {
@@ -2000,6 +2030,9 @@
     "Experience Disc Version 7.2 (USA)": {
         "languages": "En"
     },
+    "Extreme Racing Pure (Japan)": {
+        "languages": ""
+    },
     "F.E.A.R. - First Encounter Assault Recon (USA, Europe) (En,Fr,Es,It)": {
         "languages": "En, Fr, It, Es"
     },
@@ -2219,6 +2252,9 @@
     "FIFA Street 3 (Asia) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
+    "FIFA Street 3 (Japan)": {
+        "languages": ""
+    },
     "FIFA World Cup Germany 2006 (Europe)": {
         "languages": "En"
     },
@@ -2369,10 +2405,16 @@
     "Family Games (USA)": {
         "languages": ""
     },
+    "Family Games (USA) (Toys R Us)": {
+        "languages": "En"
+    },
     "Family Guy - Back to the Multiverse (USA)": {
         "languages": ""
     },
     "Fantastic Four - Rise of the Silver Surfer (Europe)": {
+        "languages": ""
+    },
+    "Far Cry 2 (Japan)": {
         "languages": ""
     },
     "Far Cry 2 (USA, Europe) (En,Fr,De,Es,It)": {
@@ -2410,6 +2452,9 @@
     },
     "Fight Night Round 3 (Europe)": {
         "languages": "En"
+    },
+    "Fight Night Round 3 (Japan)": {
+        "languages": ""
     },
     "Fight Night Round 3 (USA)": {
         "languages": ""
@@ -2618,6 +2663,9 @@
     "Gears of War 2 (Japan)": {
         "languages": ""
     },
+    "Gears of War 2 (Japan) (Limited Edition Bonus Disc)": {
+        "languages": ""
+    },
     "Gears of War 2 (USA) (En,Fr,De,Es,It,Zh,Ko,Pl,Ru,Cs,Hu)": {
         "languages": "Zh, Cs, En, Fr, De, Hu, It, Ko, Pl, Ru, Es"
     },
@@ -2642,10 +2690,16 @@
     "Ghostbusters - The Video Game (USA) (En,Fr,De,Es,It,Nl)": {
         "languages": "Nl, En, Fr, De, It, Es"
     },
+    "Ginga Force (Japan)": {
+        "languages": ""
+    },
     "Godfather II, The (Europe) (Es,It)": {
         "languages": "It, Es"
     },
     "Godfather, The (Europe)": {
+        "languages": ""
+    },
+    "Godfather, The (Japan)": {
         "languages": ""
     },
     "Golden Axe - Beast Rider (USA, Europe) (En,Fr,Es,It)": {
@@ -3002,6 +3056,9 @@
     "Incredible Hulk, The (USA) (En,Fr)": {
         "languages": "En, Fr"
     },
+    "Infernal - Hell's Vengeance (Japan)": {
+        "languages": ""
+    },
     "Infernal - Hell's Vengeance (USA, Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
@@ -3043,6 +3100,9 @@
     },
     "James Cameron's Avatar - The Game (USA, Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
+    },
+    "James Cameron's Avatar The Game (Japan)": {
+        "languages": ""
     },
     "Jeopardy! (USA)": {
         "languages": ""
@@ -3149,6 +3209,9 @@
     "Kengo Zero (Europe)": {
         "languages": ""
     },
+    "Kengo Zero (Japan)": {
+        "languages": ""
+    },
     "Ketsui - Kizuna Jigoku-tachi Extra (Japan)": {
         "languages": "Ja"
     },
@@ -3197,11 +3260,11 @@
     "Kinect Sesame Street TV (Europe, Asia) (Volume 2 - Science)": {
         "languages": "En"
     },
-    "Kinect Sports (USA, Europe) (En,Ja,Fr,De,Es,It,Nl,Pt,Zh,Ko,Pl,Ru) (Rev 1)": {
-        "languages": "Zh, Nl, En, Fr, De, It, Ja, Ko, Pl, Pt, Ru, Es"
-    },
     "Kinect Sports (World)": {
         "languages": ""
+    },
+    "Kinect Sports (World) (En,Ja,Fr,De,Es,It,Nl,Pt,Zh,Ko,Pl,Ru) (Rev 1)": {
+        "languages": "Zh, Nl, En, Fr, De, It, Ja, Ko, Pl, Pt, Ru, Es"
     },
     "Kinect Sports - Season Two (World) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Ko,Pl,Ru)": {
         "languages": "Zh, Da, Nl, En, Fi, Fr, De, It, Ja, Ko, No, Pl, Pt, Ru, Es, Sv"
@@ -3353,7 +3416,7 @@
     "Left 4 Dead 2 (Germany)": {
         "languages": "De"
     },
-    "Left 4 Dead 2 (USA, Europe) (En,Ja,Fr,De,Es,It,Pt,Zh,Ko,Pl,Ru)": {
+    "Left 4 Dead 2 (World) (En,Ja,Fr,De,Es,It,Pt,Zh,Ko,Pl,Ru)": {
         "languages": "Zh, En, Fr, De, It, Ja, Ko, Pl, Pt, Ru, Es"
     },
     "Legend of Spyro, The - Dawn of the Dragon (USA) (En,Fr,De,Es,It,Nl)": {
@@ -3914,6 +3977,9 @@
     "Muchi Muchi Pork! & Pink Sweets (Japan)": {
         "languages": "Ja"
     },
+    "Murdered - Tamashii no Yobu Koe (Japan)": {
+        "languages": ""
+    },
     "Mushi-hime-sama Futari Ver 1.5 (Japan)": {
         "languages": "Ja"
     },
@@ -3949,6 +4015,9 @@
     },
     "N3 - Ninety-Nine Nights (Japan) (Demo)": {
         "languages": "Ja"
+    },
+    "N3 - Ninety-Nine Nights (USA, Europe) (En,Fr,De,Es,It)": {
+        "languages": "En, Fr, De, It, Es"
     },
     "N3II - Ninety-Nine Nights (Europe)": {
         "languages": ""
@@ -4029,6 +4098,9 @@
         "languages": ""
     },
     "NBA Live 10 (Europe)": {
+        "languages": ""
+    },
+    "NBA Live 10 (Japan)": {
         "languages": ""
     },
     "NBA Street Homecourt (Europe)": {
@@ -4205,11 +4277,17 @@
     "Need for Speed - Most Wanted (Spain)": {
         "languages": "Es"
     },
-    "Need for Speed - Most Wanted (UK) (2012)": {
-        "languages": "En"
-    },
     "Need for Speed - Most Wanted (USA)": {
         "languages": "En"
+    },
+    "Need for Speed - Most Wanted - A Criterion Game (Japan)": {
+        "languages": "Ja"
+    },
+    "Need for Speed - Most Wanted - A Criterion Game (UK)": {
+        "languages": "En"
+    },
+    "Need for Speed - Most Wanted - A Criterion Game (USA, Europe) (En,Fr,De,Es,It,Nl,Ar)": {
+        "languages": "Ar, Nl, En, Fr, De, It, Es"
     },
     "Need for Speed - ProStreet (Europe) (En,Nl,Sv,No,Da,Fi,Pl,Cs,Hu)": {
         "languages": "Cs, Da, Nl, En, Fi, Hu, No, Pl, Sv"
@@ -4284,6 +4362,9 @@
         "languages": ""
     },
     "Ninja Gaiden 3 - Razor's Edge (USA)": {
+        "languages": ""
+    },
+    "No Fate! Only the Power of Will (Japan)": {
         "languages": ""
     },
     "No More Heroes - Eiyuu-tachi no Rakuen (Japan)": {
@@ -4464,6 +4545,9 @@
         "languages": ""
     },
     "Open Season (USA)": {
+        "languages": ""
+    },
+    "Operation Darkness (Japan)": {
         "languages": ""
     },
     "Operation Flashpoint - Dragon Rising (USA, Europe) (En,Fr,De,Es,It)": {
@@ -4676,6 +4760,9 @@
     "Phantasy Star Universe (USA, Europe) (En,Fr,De)": {
         "languages": "En, Fr, De"
     },
+    "Phantom - Phantom of Inferno (Japan)": {
+        "languages": ""
+    },
     "Phantom Breaker (Japan)": {
         "languages": ""
     },
@@ -4799,8 +4886,8 @@
     "R.U.S.E. (UK)": {
         "languages": ""
     },
-    "R.U.S.E. (USA, Europe) (En,Fr,De,Es,It)": {
-        "languages": "En, Fr, De, It, Es"
+    "R.U.S.E. (USA, Europe) (En,Fr,De,Es,It,Pl)": {
+        "languages": "En, Fr, De, It, Pl, Es"
     },
     "Rabbids - Alive & Kicking (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Pl)": {
         "languages": "Da, Nl, En, Fr, De, It, No, Pl, Pt, Es, Sv"
@@ -4909,6 +4996,9 @@
     },
     "Red Faction - Armageddon (World) (Beta)": {
         "languages": "En"
+    },
+    "Red Faction - Guerrilla (Europe) (En,Fr,Es,It,Nl) (Demo)": {
+        "languages": "Nl, En, Fr, It, Es"
     },
     "Red Faction - Guerrilla (Europe) (Es,It)": {
         "languages": "It, Es"
@@ -5117,6 +5207,9 @@
     "Saints Row - The Third - The Full Package (Germany) (Disc 1) (DLC Installer)": {
         "languages": ""
     },
+    "Saints Row - The Third - The Full Package (Japan) (Disc 2) (Install Disc)": {
+        "languages": ""
+    },
     "Saints Row 2 (Germany)": {
         "languages": ""
     },
@@ -5219,6 +5312,9 @@
     "Shadowrun (USA) (En,Fr,Es)": {
         "languages": "En, Fr, Es"
     },
+    "Shadows of the Damned (Japan)": {
+        "languages": ""
+    },
     "Shadows of the Damned (USA, Europe)": {
         "languages": ""
     },
@@ -5239,6 +5335,9 @@
     },
     "Shift 2 - Unleashed (Europe) (En,Fr,De,Es,It,Pl,Ru)": {
         "languages": "En, Fr, De, It, Pl, Ru, Es"
+    },
+    "Shin Hokuto Musou (Japan)": {
+        "languages": ""
     },
     "Shin Sangoku Musou - Multi Raid Special (Japan)": {
         "languages": ""
@@ -5272,6 +5371,9 @@
     },
     "Silent Hill - Homecoming (USA) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
+    },
+    "Simpsons Game, The (Asia)": {
+        "languages": "En"
     },
     "Simpsons Game, The (Europe) (En,No,Da,Fi)": {
         "languages": "Da, En, Fi, No"
@@ -5401,6 +5503,9 @@
     },
     "Sonic Unleashed (USA) (En,Ja,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Ja, Es"
+    },
+    "Sonic World Adventure (Japan)": {
+        "languages": ""
     },
     "Soulcalibur IV (USA, Europe) (En,Ja,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Ja, Es"
@@ -5624,6 +5729,9 @@
     "Tekken Tag Tournament 2 (USA, Europe)": {
         "languages": ""
     },
+    "Tenchu Senran (Japan)": {
+        "languages": ""
+    },
     "Tenchu Z (USA) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
@@ -5696,6 +5804,9 @@
     "Tiger Woods PGA Tour 08 (Europe)": {
         "languages": "En"
     },
+    "Tiger Woods PGA Tour 09 (World)": {
+        "languages": "En"
+    },
     "Tiger Woods PGA Tour 10 (Europe)": {
         "languages": "En"
     },
@@ -5709,6 +5820,9 @@
         "languages": ""
     },
     "Tiger Woods PGA Tour 14 (Europe)": {
+        "languages": ""
+    },
+    "Time Leap (Japan)": {
         "languages": ""
     },
     "TimeShift (Europe) (En,Fr,Es,It)": {
@@ -5756,6 +5870,9 @@
     "Tom Clancy's H.A.W.X (USA, Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
+    "Tom Clancy's H.A.W.X. 2 (Japan)": {
+        "languages": ""
+    },
     "Tom Clancy's H.A.W.X. 2 (UK)": {
         "languages": "En"
     },
@@ -5787,6 +5904,9 @@
         "languages": "Da, Nl, En, Fr, No, Es, Sv"
     },
     "Tom Clancy's Splinter Cell - Conviction (Japan)": {
+        "languages": ""
+    },
+    "Tom Clancy's Splinter Cell - Double Agent (Japan)": {
         "languages": ""
     },
     "Tom Clancy's Splinter Cell - Double Agent (USA, Europe) (En,Fr,De,Es,It)": {
@@ -5957,6 +6077,9 @@
     "Two Worlds (Europe)": {
         "languages": ""
     },
+    "Two Worlds II (Japan)": {
+        "languages": ""
+    },
     "Two Worlds II (USA)": {
         "languages": ""
     },
@@ -6077,6 +6200,9 @@
     "WRC - FIA World Rally Championship (Europe)": {
         "languages": ""
     },
+    "WRC - FIA World Rally Championship (Japan)": {
+        "languages": ""
+    },
     "WRC 2 - FIA World Rally Championship (Europe)": {
         "languages": ""
     },
@@ -6102,6 +6228,9 @@
         "languages": ""
     },
     "WWE Legends of WrestleMania (Europe)": {
+        "languages": ""
+    },
+    "WWE Legends of WrestleMania (Japan)": {
         "languages": ""
     },
     "WWE SmackDown vs. Raw 2007 (Italy)": {
@@ -6159,6 +6288,9 @@
         "languages": "En, Ja"
     },
     "Warhammer - Battle March (USA)": {
+        "languages": ""
+    },
+    "Warhammer 40,000 - Space Marine (Japan)": {
         "languages": ""
     },
     "Warhammer 40,000 - Space Marine (USA, Europe)": {
@@ -6623,8 +6755,8 @@
     "Xbox 360 Hard Disk Data Transfer Disc (Japan)": {
         "languages": ""
     },
-    "Xbox 360 Trial Disk (USA)": {
-        "languages": ""
+    "Xbox 360 Trial Disk (USA) (En,Es)": {
+        "languages": "En, Es"
     },
     "Xbox 360 Wireless Racing Wheel Demo Disc (USA, Asia)": {
         "languages": ""
