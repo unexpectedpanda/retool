@@ -540,7 +540,7 @@ def choose_version_revision(string, title_list, REGEX, preproduction=False):
                         ver_1 = re.search(string, title_1.region_free_name_lower)[0].replace('(', '').replace(')', '')
                         ver_2 = re.search(string, title_2.region_free_name_lower)[0].replace('(', '').replace(')', '')
 
-                        def process_versions(ver_1: str, ver_2: str)-> List[Any]:
+                        def process_versions(ver_1: str, ver_2: str) -> List[Any]:
                             """ Attempts to convert versions into a comparable format """
 
                             version_compare_normalize: List[Any] = []
@@ -575,8 +575,8 @@ def choose_version_revision(string, title_list, REGEX, preproduction=False):
 
                                         return ver_normalized
 
-                                    ver_1_normalized = normalize_version(ver_1_parsed)
-                                    ver_2_normalized = normalize_version(ver_2_parsed)
+                                    ver_1_normalized: List[Any] = normalize_version(ver_1_parsed)
+                                    ver_2_normalized: List[Any] = normalize_version(ver_2_parsed)
 
                                     version_compare_zip: List[Any] = list(itertools.zip_longest(ver_1_normalized, ver_2_normalized, fillvalue=[0]))
 
