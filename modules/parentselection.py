@@ -4,7 +4,7 @@ import operator
 import re
 import sys
 
-from typing import Any
+from typing import Any, List
 
 from modules.titleutils import check_date, get_raw_title
 from modules.utils import Font, old_windows, printverbose
@@ -540,16 +540,16 @@ def choose_version_revision(string, title_list, REGEX, preproduction=False):
                         ver_1 = re.search(string, title_1.region_free_name_lower)[0].replace('(', '').replace(')', '')
                         ver_2 = re.search(string, title_2.region_free_name_lower)[0].replace('(', '').replace(')', '')
 
-                        def process_versions(ver_1: str, ver_2: str) -> list[Any]:
+                        def process_versions(ver_1: str, ver_2: str) -> List[Any]:
                             """ Attempts to convert versions into a comparable format """
 
-                            version_compare_normalize: list[Any] = []
+                            version_compare_normalize: List[Any] = []
 
                             if (
                                 '.' in ver_1
                                 or '.' in ver_2):
-                                    ver_1_parsed: list[Any] = [ver_1]
-                                    ver_2_parsed: list[Any] = [ver_2]
+                                    ver_1_parsed: List[Any] = [ver_1]
+                                    ver_2_parsed: List[Any] = [ver_2]
 
                                     if '.' in ver_1:
                                         ver_1_parsed = list(map(lambda x: re.findall('(\d+|[A-za-z]+)', x), ver_1.split('.')))
@@ -557,13 +557,13 @@ def choose_version_revision(string, title_list, REGEX, preproduction=False):
                                     if '.' in ver_2:
                                         ver_2_parsed = list(map(lambda x: re.findall('(\d+|[A-za-z]+)', x), ver_2.split('.')))
 
-                                    def normalize_version(version: list[Any]) -> list[Any]:
+                                    def normalize_version(version: List[Any]) -> List[Any]:
                                         """ Formats versions so they can be compared """
 
-                                        ver_normalized: list[Any] = []
+                                        ver_normalized: List[Any] = []
 
                                         for split_version in version:
-                                            sub_version_group: list[Any] = []
+                                            sub_version_group: List[Any] = []
 
                                             for subversion in split_version:
                                                 try:
@@ -575,10 +575,10 @@ def choose_version_revision(string, title_list, REGEX, preproduction=False):
 
                                         return ver_normalized
 
-                                    ver_1_normalized = normalize_version(ver_1_parsed)
-                                    ver_2_normalized = normalize_version(ver_2_parsed)
+                                    ver_1_normalized: List[Any] = normalize_version(ver_1_parsed)
+                                    ver_2_normalized: List[Any] = normalize_version(ver_2_parsed)
 
-                                    version_compare_zip: list[Any] = list(itertools.zip_longest(ver_1_normalized, ver_2_normalized, fillvalue=[0]))
+                                    version_compare_zip: List[Any] = list(itertools.zip_longest(ver_1_normalized, ver_2_normalized, fillvalue=[0]))
 
                                     # Convert tuples to list
                                     for version_pairs in version_compare_zip:
@@ -607,7 +607,7 @@ def choose_version_revision(string, title_list, REGEX, preproduction=False):
                             else:
                                 # Process versions that don't contain '.'
                                 try:
-                                    versions: list[Any] = []
+                                    versions: List[Any] = []
                                     versions.append(int(ver_1))
                                     versions.append(int(ver_2))
                                 except:
@@ -643,7 +643,7 @@ def choose_version_revision(string, title_list, REGEX, preproduction=False):
                                 ver_1_1_parsed = list(map(lambda x: re.findall('[\d+\.\-]+', x), ver_1_1.split('.')))
                                 ver_2_1_parsed = list(map(lambda x: re.findall('[\d+\.\-]+', x), ver_2_1.split('.')))
 
-                                primary_version_zip: list[Any] = list(itertools.zip_longest(ver_1_1_parsed, ver_2_1_parsed, fillvalue=['0']))
+                                primary_version_zip: List[Any] = list(itertools.zip_longest(ver_1_1_parsed, ver_2_1_parsed, fillvalue=['0']))
 
                                 ver_1 = '.'.join([i[0][0] for i in primary_version_zip])
                                 ver_2 = '.'.join([i[1][0] for i in primary_version_zip])
@@ -663,7 +663,7 @@ def choose_version_revision(string, title_list, REGEX, preproduction=False):
                                 ver_1 = max(re.findall('\d+', ver_1))
                                 ver_2 = max(re.findall('\d+', ver_2))
 
-                        version_compare_normalize: list[Any] = process_versions(ver_1, ver_2)
+                        version_compare_normalize: List[Any] = process_versions(ver_1, ver_2)
 
                         # Compare the normalized versions
                         for subversion in version_compare_normalize:
