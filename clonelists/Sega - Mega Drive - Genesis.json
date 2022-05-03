@@ -3,7 +3,7 @@
 		"name": [
 			"Sega - Mega Drive - Genesis"
 		],
-		"last updated": "22 January 2022",
+		"last updated": "03 May 2022",
 		"minimum version": "0.89"
 	},
 
@@ -367,6 +367,9 @@
 		"NFL Football '94 Starring Joe Montana": [
 			["NFL Football '94", 1]
 		],
+		"NHL Hockey": [
+			["EA Hockey", 1]
+		],
 		"Nobunaga's Ambition": [
 			["Nobunaga no Yabou - Zenkoku Ban", 1]
 		],
@@ -716,6 +719,9 @@
 		"World of Illusion Starring Mickey Mouse and Donald Duck": [
 			["I Love Mickey and Donald - Fushigi na Magic Box", 1],
 			["World of Illusion starring Mickey Mouse & Donald Duck", 2]
+		],
+		"World Trophy Soccer": [
+			["European Club Soccer", 1]
 		],
 		"Ys III": [
 			["Ys - Wanderers from Ys", 1]

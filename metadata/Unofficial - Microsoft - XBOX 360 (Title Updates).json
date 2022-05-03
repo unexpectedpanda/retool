@@ -330,10 +330,10 @@
 		"languages": "En"
 	},
 	"Brink (Europe) (Fr,De,Es,It) (v1)": {
-		"languages": "Fr,De,Es,It"
+		"languages": "Fr, De, Es, It"
 	},
 	"Brink (Europe) (Fr,De,Es,It) (v2)": {
-		"languages": "Fr,De,Es,It"
+		"languages": "Fr, De, Es, It"
 	},
 	"Brink (Europe) (v1)": {
 		"languages": "En"
@@ -366,10 +366,10 @@
 		"languages": "En"
 	},
 	"Burnout Paradise (Europe) (Fr,De,Es,It) (v4)": {
-		"languages": "Fr,De,Es,It"
+		"languages": "Fr, De, Es, It"
 	},
 	"Burnout Paradise (Europe) (Fr,De,Es,It) (v5)": {
-		"languages": "Fr,De,Es,It"
+		"languages": "Fr, De, Es, It"
 	},
 	"Burnout Paradise (Europe) (v4)": {
 		"languages": "En"
@@ -384,10 +384,10 @@
 		"languages": "En"
 	},
 	"Burnout Revenge (Europe) (En,Es,Nl,Sv,Fi) (v1)": {
-		"languages": "En,Es,Nl,Sv,Fi"
+		"languages": "En, Es, Nl, Sv, Fi"
 	},
 	"Burnout Revenge (Europe) (Fr,De,It) (v1)": {
-		"languages": "Fr,De,It"
+		"languages": "Fr, De, It"
 	},
 	"Call of Duty 2 (France) (v3)": {
 		"languages": "Fr"
@@ -408,7 +408,7 @@
 		"languages": "En"
 	},
 	"Call of Duty 3 (Europe) (Fr,Es,It) (v3)": {
-		"languages": "Fr,Es,It"
+		"languages": "Fr, Es, It"
 	},
 	"Call of Duty 3 (Germany) (v3)": {
 		"languages": "De"
@@ -672,10 +672,10 @@
 		"languages": "En"
 	},
 	"Cars (Europe) (En,Es,It) (v1)": {
-		"languages": "En,Es,It"
+		"languages": "En, Es, It"
 	},
 	"Cars (Europe) (Fr,De) (v1)": {
-		"languages": "Fr,De"
+		"languages": "Fr, De"
 	},
 	"Cars - Race-o-Rama (World) (v1)": {
 		"languages": "En"
@@ -765,25 +765,25 @@
 		"languages": "En"
 	},
 	"Crysis 2 (Europe) (De,Tr) (v1)": {
-		"languages": "De,Tr"
+		"languages": "De, Tr"
 	},
 	"Crysis 2 (Europe) (De,Tr) (v2)": {
-		"languages": "De,Tr"
+		"languages": "De, Tr"
 	},
 	"Crysis 2 (Europe) (De,Tr) (v3)": {
-		"languages": "De,Tr"
+		"languages": "De, Tr"
 	},
 	"Crysis 2 (Europe) (De,Tr) (v4)": {
-		"languages": "De,Tr"
+		"languages": "De, Tr"
 	},
 	"Crysis 2 (Europe) (Es,It) (v2)": {
-		"languages": "Es,It"
+		"languages": "Es, It"
 	},
 	"Crysis 2 (Europe) (Es,It) (v3)": {
-		"languages": "Es,It"
+		"languages": "Es, It"
 	},
 	"Crysis 2 (Europe) (Pl,Ru) (v4)": {
-		"languages": "Pl,Ru"
+		"languages": "Pl, Ru"
 	},
 	"Crysis 2 (World) (v1)": {
 		"languages": "En"
@@ -867,10 +867,10 @@
 		"languages": "En"
 	},
 	"Dead Space 2 (Europe) (Es,It) (v1)": {
-		"languages": "Es,It"
+		"languages": "Es, It"
 	},
 	"Dead Space 2 (Europe) (Es,It) (v2)": {
-		"languages": "Es,It"
+		"languages": "Es, It"
 	},
 	"Dead Space 2 (Russia) (v1)": {
 		"languages": "Ru"
@@ -1236,7 +1236,7 @@
 		"languages": "En"
 	},
 	"Far Cry 2 (Europe) (Pl,Ru) (v1)": {
-		"languages": "Pl,Ru"
+		"languages": "Pl, Ru"
 	},
 	"Far Cry 2 (World) (v1)": {
 		"languages": "En"
@@ -1266,13 +1266,13 @@
 		"languages": "En"
 	},
 	"FIFA 09 (Europe) (Fr,De,It) (v1)": {
-		"languages": "Fr,De,It"
+		"languages": "Fr, De, It"
 	},
 	"FIFA 09 (Europe) (Fr,De,It) (v2)": {
-		"languages": "Fr,De,It"
+		"languages": "Fr, De, It"
 	},
 	"FIFA 09 (Europe) (Fr,De,It) (v3)": {
-		"languages": "Fr,De,It"
+		"languages": "Fr, De, It"
 	},
 	"FIFA 09 (Europe) (v1)": {
 		"languages": "En"
@@ -1521,10 +1521,10 @@
 		"languages": "En"
 	},
 	"Gears of War 3 (Germany) (En,De) (v1)": {
-		"languages": "En,De"
+		"languages": "En, De"
 	},
 	"Gears of War 3 (Spain) (En,Es) (v1)": {
-		"languages": "En,Es"
+		"languages": "En, Es"
 	},
 	"Gears of War 3 (United Kingdom) (v1)": {
 		"languages": "En"
@@ -2121,7 +2121,7 @@
 		"languages": "De"
 	},
 	"Medal of Honor (Europe) (Pl,Ru) (v1)": {
-		"languages": "Pl,Ru"
+		"languages": "Pl, Ru"
 	},
 	"Medal of Honor (Europe) (v1)": {
 		"languages": "En"
@@ -2136,16 +2136,16 @@
 		"languages": "En"
 	},
 	"Mercenaries 2 - World in Flames (Europe) (En,Es,Ru) (v1)": {
-		"languages": "En,Es,Ru"
+		"languages": "En, Es, Ru"
 	},
 	"Mercenaries 2 - World in Flames (Europe) (En,Es,Ru) (v3)": {
-		"languages": "En,Es,Ru"
+		"languages": "En, Es, Ru"
 	},
 	"Mercenaries 2 - World in Flames (Europe) (En,Es,Ru) (v4)": {
-		"languages": "En,Es,Ru"
+		"languages": "En, Es, Ru"
 	},
 	"Mercenaries 2 - World in Flames (Europe) (Fr,De,It) (v4)": {
-		"languages": "Fr,De,It"
+		"languages": "Fr, De, It"
 	},
 	"Mercenaries 2 - World in Flames (Germany) (v1)": {
 		"languages": "De"
@@ -2370,13 +2370,13 @@
 		"languages": "En"
 	},
 	"Need for Speed - Pro Street (Europe) (En,Nl,Sv,No,Da,Fi,Pl,Cs,Hu) (v2)": {
-		"languages": "En,Nl,Sv,No,Da,Fi,Pl,Cs,Hu"
+		"languages": "En, Nl, Sv, No, Da, Fi, Pl, Cs, Hu"
 	},
 	"Need for Speed - Pro Street (Europe) (Es,It) (v2)": {
-		"languages": "Es,It"
+		"languages": "Es, It"
 	},
 	"Need for Speed - Pro Street (Europe) (Fr,De) (v2)": {
-		"languages": "Fr,De"
+		"languages": "Fr, De"
 	},
 	"Need for Speed - Pro Street (USA) (v2)": {
 		"languages": "En"
@@ -2400,16 +2400,16 @@
 		"languages": "En"
 	},
 	"Need for Speed - Undercover (Europe) (Es,It) (v3)": {
-		"languages": "Es,It"
+		"languages": "Es, It"
 	},
 	"Need for Speed - Undercover (Europe) (Fr,De) (v1)": {
-		"languages": "Fr,De"
+		"languages": "Fr, De"
 	},
 	"Need for Speed - Undercover (Europe) (Fr,De) (v2)": {
-		"languages": "Fr,De"
+		"languages": "Fr, De"
 	},
 	"Need for Speed - Undercover (Europe) (Fr,De) (v3)": {
-		"languages": "Fr,De"
+		"languages": "Fr, De"
 	},
 	"Need for Speed - Undercover (Europe) (v1)": {
 		"languages": "En"
@@ -2532,13 +2532,13 @@
 		"languages": "En"
 	},
 	"Perfect Dark Zero (Europe) (En,Es,It) (v3)": {
-		"languages": "En,Es,It"
+		"languages": "En, Es, It"
 	},
 	"Perfect Dark Zero (Europe) (En,Fr,De) (v3) (Alt)": {
-		"languages": "En,Fr,De"
+		"languages": "En, Fr, De"
 	},
 	"Perfect Dark Zero (Europe) (En,Fr,De) (v3)": {
-		"languages": "En,Fr,De"
+		"languages": "En, Fr, De"
 	},
 	"Perfect Dark Zero (USA) (v3)": {
 		"languages": "En"
@@ -2613,19 +2613,19 @@
 		"languages": "En"
 	},
 	"Pro Evolution Soccer 2010 (Europe) (En,Nl,Sv,Ru,El) (v1)": {
-		"languages": "En,Nl,Sv,Ru,El"
+		"languages": "En, Nl, Sv, Ru, El"
 	},
 	"Pro Evolution Soccer 2010 (Europe) (En,Nl,Sv,Ru,El) (v3)": {
-		"languages": "En,Nl,Sv,Ru,El"
+		"languages": "En, Nl, Sv, Ru, El"
 	},
 	"Pro Evolution Soccer 2010 (Europe) (Es,Pt) (v3)": {
-		"languages": "Es,Pt"
+		"languages": "Es, Pt"
 	},
 	"Pro Evolution Soccer 2010 (Europe) (Fr,De) (v1)": {
-		"languages": "Fr,De"
+		"languages": "Fr, De"
 	},
 	"Pro Evolution Soccer 2010 (Europe) (Fr,De) (v3)": {
-		"languages": "Fr,De"
+		"languages": "Fr, De"
 	},
 	"Pro Evolution Soccer 2010 (Italy) (v1)": {
 		"languages": "It"
@@ -2769,13 +2769,13 @@
 		"languages": "En"
 	},
 	"Red Faction - Guerrilla (Europe) (Fr,De) (v1)": {
-		"languages": "Fr,De"
+		"languages": "Fr, De"
 	},
 	"Red Faction - Guerrilla (World) (v1)": {
 		"languages": "En"
 	},
 	"Red Faction - Guerrilla Disc (Europe) (Pl,Ru,Cs) (v1)": {
-		"languages": "Pl,Ru,Cs"
+		"languages": "Pl, Ru, Cs"
 	},
 	"Red Faction - Guerrilla Disc (Europe) (v1)": {
 		"languages": "En"
@@ -3336,7 +3336,7 @@
 		"languages": "En"
 	},
 	"Turok (Europe) (Fr,De) (v2)": {
-		"languages": "Fr,De"
+		"languages": "Fr, De"
 	},
 	"Turok (Europe) (v1)": {
 		"languages": "En"

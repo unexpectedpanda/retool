@@ -93,7 +93,7 @@
 		"languages": "Ja"
 	},
 	"Actraiser 2 (Europe) (En,Fr,De)": {
-		"languages": "En,Fr,De"
+		"languages": "En, Fr, De"
 	},
 	"ActRaiser 2 (USA)": {
 		"languages": "En"
@@ -102,13 +102,13 @@
 		"languages": "Ja"
 	},
 	"Addams Family Values (Europe) (En,Fr,De)": {
-		"languages": "En,Fr,De"
+		"languages": "En, Fr, De"
 	},
 	"Addams Family Values (USA) (En,Fr,De)": {
-		"languages": "En,Fr,De"
+		"languages": "En, Fr, De"
 	},
 	"Addams Family, The (Europe) (En,Fr,De)": {
-		"languages": "En,Fr,De"
+		"languages": "En, Fr, De"
 	},
 	"Addams Family, The (Japan)": {
 		"languages": "Ja"
@@ -138,13 +138,13 @@
 		"languages": "En"
 	},
 	"Adventures of Dr. Franken, The (Europe) (En,Fr,De,Es,It,Nl,Sv)": {
-		"languages": "En,Fr,De,Es,It,Nl,Sv"
+		"languages": "En, Fr, De, Es, It, Nl, Sv"
 	},
 	"Adventures of Dr. Franken, The (USA)": {
 		"languages": "En"
 	},
 	"Adventures of Kid Kleets, The (USA) (En,Fr,Es)": {
-		"languages": "En,Fr,Es"
+		"languages": "En, Fr, Es"
 	},
 	"Adventures of Mighty Max, The (Europe)": {
 		"languages": "En"
@@ -471,10 +471,10 @@
 		"languages": "Ja"
 	},
 	"Asterix (Europe) (En,Fr,De,Es)": {
-		"languages": "En,Fr,De,Es"
+		"languages": "En, Fr, De, Es"
 	},
 	"Asterix & Obelix (Europe) (En,Fr,De,Es)": {
-		"languages": "En,Fr,De,Es"
+		"languages": "En, Fr, De, Es"
 	},
 	"Atlas, The - Renaissance Voyager (Japan)": {
 		"languages": "Ja"
@@ -831,7 +831,7 @@
 		"languages": "Ja"
 	},
 	"Blackhawk (Europe) (En,Fr,De)": {
-		"languages": "En,Fr,De"
+		"languages": "En, Fr, De"
 	},
 	"Blackthorne (USA)": {
 		"languages": "En"
@@ -1002,13 +1002,13 @@
 		"languages": "En"
 	},
 	"Bronkie the Bronchiasaurus (USA) (En,Es)": {
-		"languages": "En,Es"
+		"languages": "En, Es"
 	},
 	"Brunswick World Tournament of Champions (USA)": {
 		"languages": "En"
 	},
 	"Brutal - Paws of Fury (Europe) (En,Fr,De)": {
-		"languages": "En,Fr,De"
+		"languages": "En, Fr, De"
 	},
 	"Brutal - Paws of Fury (USA)": {
 		"languages": "En"
@@ -1092,10 +1092,10 @@
 		"languages": "En"
 	},
 	"California Games II (Europe) (En,Fr,De)": {
-		"languages": "En,Fr,De"
+		"languages": "En, Fr, De"
 	},
 	"California Games II (Japan) (En,Ja)": {
-		"languages": "En,Ja"
+		"languages": "En, Ja"
 	},
 	"California Games II (USA)": {
 		"languages": "En"
@@ -1134,7 +1134,7 @@
 		"languages": "En"
 	},
 	"Captain Novolin (USA) (En,Fr,Es)": {
-		"languages": "En,Fr,Es"
+		"languages": "En, Fr, Es"
 	},
 	"Captain Tsubasa III - Koutei no Chousen (Japan)": {
 		"languages": "Ja"
@@ -1185,13 +1185,13 @@
 		"languages": "Ja"
 	},
 	"Champions - World Class Soccer (Europe) (En,Fr,De,Es)": {
-		"languages": "En,Fr,De,Es"
+		"languages": "En, Fr, De, Es"
 	},
 	"Champions - World Class Soccer (Japan)": {
 		"languages": "Ja"
 	},
 	"Champions - World Class Soccer (USA) (En,Fr,De,Es)": {
-		"languages": "En,Fr,De,Es"
+		"languages": "En, Fr, De, Es"
 	},
 	"Championship Pool (Europe)": {
 		"languages": "En"
@@ -1200,7 +1200,7 @@
 		"languages": "En"
 	},
 	"Championship Soccer '94 (USA) (En,Fr,De,It)": {
-		"languages": "En,Fr,De,It"
+		"languages": "En, Fr, De, It"
 	},
 	"Chaos Engine, The (Europe)": {
 		"languages": "En"
@@ -1746,7 +1746,7 @@
 		"languages": "En"
 	},
 	"Dino Dini's Soccer! (Europe) (En,Fr,De)": {
-		"languages": "En,Fr,De"
+		"languages": "En, Fr, De"
 	},
 	"DinoCity (Europe)": {
 		"languages": "En"
@@ -1758,7 +1758,7 @@
 		"languages": "Ja"
 	},
 	"Dirt Racer (Europe) (En,Fr,De)": {
-		"languages": "En,Fr,De"
+		"languages": "En, Fr, De"
 	},
 	"Dirt Trax FX (Europe)": {
 		"languages": "En"
@@ -1797,10 +1797,10 @@
 		"languages": "En"
 	},
 	"Donkey Kong Country (Europe) (En,Fr,De)": {
-		"languages": "En,Fr,De"
+		"languages": "En, Fr, De"
 	},
 	"Donkey Kong Country (Europe) (En,Fr,De) (Rev 1)": {
-		"languages": "En,Fr,De"
+		"languages": "En, Fr, De"
 	},
 	"Donkey Kong Country (USA)": {
 		"languages": "En"
@@ -1818,37 +1818,37 @@
 		"languages": "En"
 	},
 	"Donkey Kong Country 2 - Diddy's Kong Quest (Europe) (En,Fr) (Rev 1)": {
-		"languages": "En,Fr"
+		"languages": "En, Fr"
 	},
 	"Donkey Kong Country 2 - Diddy's Kong Quest (Germany) (En,De)": {
-		"languages": "En,De"
+		"languages": "En, De"
 	},
 	"Donkey Kong Country 2 - Diddy's Kong Quest (Germany) (En,De) (Rev 1)": {
-		"languages": "En,De"
+		"languages": "En, De"
 	},
 	"Donkey Kong Country 2 - Diddy's Kong Quest (USA) (En,Fr)": {
-		"languages": "En,Fr"
+		"languages": "En, Fr"
 	},
 	"Donkey Kong Country 2 - Diddy's Kong Quest (USA) (En,Fr) (Rev 1)": {
-		"languages": "En,Fr"
+		"languages": "En, Fr"
 	},
 	"Donkey Kong Country 2 - Diddy's Kong Quest (Europe) (En,Fr) (Rev 1) (Virtual Console)": {
-		"languages": "En,Fr"
+		"languages": "En, Fr"
 	},
 	"Donkey Kong Country 2 - Diddy's Kong Quest (Germany) (En,De) (Rev 1) (Virtual Console)": {
-		"languages": "En,De"
+		"languages": "En, De"
 	},
 	"Donkey Kong Country 2 - Diddy's Kong Quest (USA) (En,Fr) (Rev 1) (Virtual Console)": {
-		"languages": "En,Fr"
+		"languages": "En, Fr"
 	},
 	"Donkey Kong Country 2 - Diddy's Kong Quest (USA, Europe) (En,Fr) (Rev 1) (Switch Online)": {
-		"languages": "En,Fr"
+		"languages": "En, Fr"
 	},
 	"Donkey Kong Country 3 - Dixie Kong's Double Trouble! (Europe) (En,Fr,De)": {
-		"languages": "En,Fr,De"
+		"languages": "En, Fr, De"
 	},
 	"Donkey Kong Country 3 - Dixie Kong's Double Trouble! (USA) (En,Fr)": {
-		"languages": "En,Fr"
+		"languages": "En, Fr"
 	},
 	"Doom (Europe)": {
 		"languages": "En"
@@ -2013,7 +2013,7 @@
 		"languages": "En"
 	},
 	"Dragon's Lair (Europe) (En,Fr,De,Es,It,Nl,Sv)": {
-		"languages": "En,Fr,De,Es,It,Nl,Sv"
+		"languages": "En, Fr, De, Es, It, Nl, Sv"
 	},
 	"Dragon's Lair (USA)": {
 		"languages": "En"
@@ -2214,7 +2214,7 @@
 		"languages": "En"
 	},
 	"Eric Cantona Football Challenge (France) (En,Fr,De,Es,It,Nl,Sv)": {
-		"languages": "En,Fr,De,Es,It,Nl,Sv"
+		"languages": "En, Fr, De, Es, It, Nl, Sv"
 	},
 	"Esparks - Ijikuu kara no Raihousha (Japan)": {
 		"languages": "Ja"
@@ -2262,7 +2262,7 @@
 		"languages": "En"
 	},
 	"Exertainment Mountain Bike Rally + Speed Racer (Europe) (En,Fr,De,Es,Nl) (Proto)": {
-		"languages": "En,Fr,De,Es,Nl"
+		"languages": "En, Fr, De, Es, Nl"
 	},
 	"Exertainment Mountain Bike Rally + Speed Racer (USA)": {
 		"languages": "En"
@@ -2400,19 +2400,19 @@
 		"languages": "En"
 	},
 	"Fever Pitch Soccer (Europe) (En,Fr,De,Es,It)": {
-		"languages": "En,Fr,De,Es,It"
+		"languages": "En, Fr, De, Es, It"
 	},
 	"FIFA - A Caminho Da Copa 98 (Brazil) (En,Fr,De,Es,It,Sv)": {
-		"languages": "En,Fr,De,Es,It,Sv"
+		"languages": "En, Fr, De, Es, It, Sv"
 	},
 	"FIFA - Road to World Cup 98 (Europe) (En,Fr,De,Es,It,Sv) (A8FE)": {
-		"languages": "En,Fr,De,Es,It,Sv"
+		"languages": "En, Fr, De, Es, It, Sv"
 	},
 	"FIFA - Road to World Cup 98 (Europe) (En,Fr,De,Es,It,Sv) (A8FP)": {
-		"languages": "En,Fr,De,Es,It,Sv"
+		"languages": "En, Fr, De, Es, It, Sv"
 	},
 	"FIFA 97 (Europe) (En,Fr,De,Es,It,Sv)": {
-		"languages": "En,Fr,De,Es,It,Sv"
+		"languages": "En, Fr, De, Es, It, Sv"
 	},
 	"FIFA International Soccer (Europe)": {
 		"languages": "En"
@@ -2424,13 +2424,13 @@
 		"languages": "En"
 	},
 	"FIFA Soccer 96 (Europe) (En,Fr,De,Es,It,Sv)": {
-		"languages": "En,Fr,De,Es,It,Sv"
+		"languages": "En, Fr, De, Es, It, Sv"
 	},
 	"FIFA Soccer 96 (USA) (En,Fr,De,Es,It,Sv)": {
-		"languages": "En,Fr,De,Es,It,Sv"
+		"languages": "En, Fr, De, Es, It, Sv"
 	},
 	"FIFA Soccer 97 (USA) (En,Fr,De,Es,It,Sv)": {
-		"languages": "En,Fr,De,Es,It,Sv"
+		"languages": "En, Fr, De, Es, It, Sv"
 	},
 	"Fighter's History (Japan)": {
 		"languages": "Ja"
@@ -2589,7 +2589,7 @@
 		"languages": "En"
 	},
 	"Firemen, The (Europe) (En,Fr,De)": {
-		"languages": "En,Fr,De"
+		"languages": "En, Fr, De"
 	},
 	"Firemen, The (Japan)": {
 		"languages": "Ja"
@@ -2631,28 +2631,28 @@
 		"languages": "Ja"
 	},
 	"Flashback (Europe) (En,Fr) (Beta)": {
-		"languages": "En,Fr"
+		"languages": "En, Fr"
 	},
 	"Flashback (Europe) (En,Fr,De)": {
-		"languages": "En,Fr,De"
+		"languages": "En, Fr, De"
 	},
 	"Flashback (Japan)": {
 		"languages": "Ja"
 	},
 	"Flashback - The Quest for Identity (USA) (En,Fr,De)": {
-		"languages": "En,Fr,De"
+		"languages": "En, Fr, De"
 	},
 	"Flintstones, The (Europe) (En,Fr,De,Es,It)": {
-		"languages": "En,Fr,De,Es,It"
+		"languages": "En, Fr, De, Es, It"
 	},
 	"Flintstones, The (Europe) (En,Fr,De,Es,It) (Beta)": {
-		"languages": "En,Fr,De,Es,It"
+		"languages": "En, Fr, De, Es, It"
 	},
 	"Flintstones, The (USA) (Beta)": {
 		"languages": "En"
 	},
 	"Flintstones, The (USA) (En,Fr,De,Es,It)": {
-		"languages": "En,Fr,De,Es,It"
+		"languages": "En, Fr, De, Es, It"
 	},
 	"Flintstones, The - The Treasure of Sierra Madrock (Europe)": {
 		"languages": "En"
@@ -3390,10 +3390,10 @@
 		"languages": "En"
 	},
 	"Hong Kong '97 (Japan) (En,Ja,Zh-Hant) (Unl)": {
-		"languages": "En,Ja,Zh-Hant"
+		"languages": "En, Ja, Zh-Hant"
 	},
 	"Hong Kong '97 (Japan) (En,Ja,Zh-Hant) (CM) (Unl)": {
-		"languages": "En,Ja,Zh-Hant"
+		"languages": "En, Ja, Zh-Hant"
 	},
 	"Honkaku Mahjong - Tetsuman (Japan)": {
 		"languages": "Ja"
@@ -3612,7 +3612,7 @@
 		"languages": "En"
 	},
 	"International Sensible Soccer - World Champions (Europe) (En,Fr,De,It) (Rev 1)": {
-		"languages": "En,Fr,De,It"
+		"languages": "En, Fr, De, It"
 	},
 	"International Superstar Soccer (Europe)": {
 		"languages": "En"
@@ -3915,10 +3915,10 @@
 		"languages": "En"
 	},
 	"Joe & Mac - Caveman Ninja (Europe) (En,Fr,De,Es,It,Nl)": {
-		"languages": "En,Fr,De,Es,It,Nl"
+		"languages": "En, Fr, De, Es, It, Nl"
 	},
 	"Joe & Mac - Caveman Ninja (Europe) (En,Fr,De,Es,It,Nl) (Beta)": {
-		"languages": "En,Fr,De,Es,It,Nl"
+		"languages": "En, Fr, De, Es, It, Nl"
 	},
 	"Joe & Mac - Tatakae Genshijin (Japan)": {
 		"languages": "Ja"
@@ -3933,10 +3933,10 @@
 		"languages": "En"
 	},
 	"Joe & Mac 3 - Lost in the Tropics (Europe) (En,Fr,De)": {
-		"languages": "En,Fr,De"
+		"languages": "En, Fr, De"
 	},
 	"Joe & Mac 3 - Lost in the Tropics (Europe) (En,Fr,De) (Beta)": {
-		"languages": "En,Fr,De"
+		"languages": "En, Fr, De"
 	},
 	"John Madden Football (USA)": {
 		"languages": "En"
@@ -4047,13 +4047,13 @@
 		"languages": "En"
 	},
 	"Jurassic Park II - The Chaos Continues (USA) (En,Fr,De,It) (Beta)": {
-		"languages": "En,Fr,De,It"
+		"languages": "En, Fr, De, It"
 	},
 	"Jurassic Park Part 2 - The Chaos Continues (Europe) (En,Fr,De,It)": {
-		"languages": "En,Fr,De,It"
+		"languages": "En, Fr, De, It"
 	},
 	"Jurassic Park Part 2 - The Chaos Continues (USA) (En,Fr,De,It)": {
-		"languages": "En,Fr,De,It"
+		"languages": "En, Fr, De, It"
 	},
 	"Justice League Task Force (Europe)": {
 		"languages": "En"
@@ -4197,7 +4197,7 @@
 		"languages": "En"
 	},
 	"Kick Off 3 - European Challenge (Europe) (En,Fr,De,Es,It)": {
-		"languages": "En,Fr,De,Es,It"
+		"languages": "En, Fr, De, Es, It"
 	},
 	"Kid Klown in Crazy Chase (Europe)": {
 		"languages": "En"
@@ -4701,13 +4701,13 @@
 		"languages": "En"
 	},
 	"Lost Vikings II, The - Norse by Norsewest (Europe) (En,Fr,De)": {
-		"languages": "En,Fr,De"
+		"languages": "En, Fr, De"
 	},
 	"Lost Vikings, The (Europe)": {
 		"languages": "En"
 	},
 	"Lost Vikings, The (France) (En,Fr)": {
-		"languages": "En,Fr"
+		"languages": "En, Fr"
 	},
 	"Lost Vikings, The (Germany)": {
 		"languages": "De"
@@ -4731,10 +4731,10 @@
 		"languages": "Ja"
 	},
 	"Lucky Luke (Europe) (En,Fr,De,Es)": {
-		"languages": "En,Fr,De,Es"
+		"languages": "En, Fr, De, Es"
 	},
 	"Lucky Luke (Europe) (En,Fr,De,Es) (Beta)": {
-		"languages": "En,Fr,De,Es"
+		"languages": "En, Fr, De, Es"
 	},
 	"Lufia (Europe)": {
 		"languages": "En"
@@ -4986,7 +4986,7 @@
 		"languages": "En"
 	},
 	"Marko's Magic Football (Europe) (En,Fr,De,Es)": {
-		"languages": "En,Fr,De,Es"
+		"languages": "En, Fr, De, Es"
 	},
 	"Marmalade Boy (Japan)": {
 		"languages": "Ja"
@@ -5094,7 +5094,7 @@
 		"languages": "En"
 	},
 	"Mega lo Mania (Europe) (En,Fr,De) (Beta)": {
-		"languages": "En,Fr,De"
+		"languages": "En, Fr, De"
 	},
 	"Mega lo Mania - Jikuu Daisenryaku (Japan)": {
 		"languages": "Ja"
@@ -5130,7 +5130,7 @@
 		"languages": "En"
 	},
 	"Mega-lo-Mania (Europe) (En,Fr,De)": {
-		"languages": "En,Fr,De"
+		"languages": "En, Fr, De"
 	},
 	"Melfand Stories (Japan)": {
 		"languages": "Ja"
@@ -5424,25 +5424,25 @@
 		"languages": "En"
 	},
 	"Mr. Nutz (Europe) (En,Fr)": {
-		"languages": "En,Fr"
+		"languages": "En, Fr"
 	},
 	"Mr. Nutz (Japan) (En)": {
 		"languages": "En"
 	},
 	"Mr. Nutz (USA) (En,Fr)": {
-		"languages": "En,Fr"
+		"languages": "En, Fr"
 	},
 	"Mr. Nutz (USA) (En,Fr) (Beta 2)": {
-		"languages": "En,Fr"
+		"languages": "En, Fr"
 	},
 	"Mr. Nutz (USA) (Beta 1) (1993-06-10)": {
 		"languages": "En"
 	},
 	"Mr. Tuff (Europe) (En,Fr,De,Es,It) (Proto) (1994-12-05)": {
-		"languages": "En,Fr,De,Es,It"
+		"languages": "En, Fr, De, Es, It"
 	},
 	"Mr. Tuff (Europe) (En,Fr,De) (Proto) (1994-07-12)": {
-		"languages": "En,Fr,De"
+		"languages": "En, Fr, De"
 	},
 	"Ms. Pac-Man (Europe)": {
 		"languages": "En"
@@ -5751,7 +5751,7 @@
 		"languages": "Ja"
 	},
 	"NHL Stanley Cup (USA) (En,Fr)": {
-		"languages": "En,Fr"
+		"languages": "En, Fr"
 	},
 	"NHLPA Hockey 93 (Europe)": {
 		"languages": "En"
@@ -6117,7 +6117,7 @@
 		"languages": "Ja"
 	},
 	"Packy & Marlon (USA) (En,Fr,Es)": {
-		"languages": "En,Fr,Es"
+		"languages": "En, Fr, Es"
 	},
 	"Pagemaster, The (Europe)": {
 		"languages": "En"
@@ -6258,7 +6258,7 @@
 		"languages": "En"
 	},
 	"Phantom 2040 (Europe) (En,Fr,De)": {
-		"languages": "En,Fr,De"
+		"languages": "En, Fr, De"
 	},
 	"Phantom 2040 (USA)": {
 		"languages": "En"
@@ -6453,7 +6453,7 @@
 		"languages": "En"
 	},
 	"Plok (France) (En,Fr)": {
-		"languages": "En,Fr"
+		"languages": "En, Fr"
 	},
 	"Plok (Germany)": {
 		"languages": "De"
@@ -6552,10 +6552,10 @@
 		"languages": "En"
 	},
 	"Power Drive (Europe) (En,Fr,De,Es,Pt)": {
-		"languages": "En,Fr,De,Es,Pt"
+		"languages": "En, Fr, De, Es, Pt"
 	},
 	"Power Drive (USA) (En,Fr,De,Es,Pt) (Proto)": {
-		"languages": "En,Fr,De,Es,Pt"
+		"languages": "En, Fr, De, Es, Pt"
 	},
 	"Power Instinct (USA)": {
 		"languages": "En"
@@ -6618,10 +6618,10 @@
 		"languages": "Ja"
 	},
 	"Prehistorik Man (Europe) (En,Fr,De)": {
-		"languages": "En,Fr,De"
+		"languages": "En, Fr, De"
 	},
 	"Prehistorik Man (USA) (En,Fr,Es)": {
-		"languages": "En,Fr,Es"
+		"languages": "En, Fr, Es"
 	},
 	"Primal Rage (Europe)": {
 		"languages": "En"
@@ -6726,13 +6726,13 @@
 		"languages": "Ja"
 	},
 	"Push-Over (Europe) (En,Fr,De,Es)": {
-		"languages": "En,Fr,De,Es"
+		"languages": "En, Fr, De, Es"
 	},
 	"Push-Over (USA)": {
 		"languages": "En"
 	},
 	"Push-Over (Europe) (En,Fr,De,Es) (Beta) (1992-06-29)": {
-		"languages": "En,Fr,De,Es"
+		"languages": "En, Fr, De, Es"
 	},
 	"Putty Moon (Japan) (En)": {
 		"languages": "En"
@@ -6852,7 +6852,7 @@
 		"languages": "En"
 	},
 	"Rap Jam - Volume One (USA) (En,Fr,Es)": {
-		"languages": "En,Fr,Es"
+		"languages": "En, Fr, Es"
 	},
 	"Rayman (USA) (Proto)": {
 		"languages": "En"
@@ -6924,7 +6924,7 @@
 		"languages": "En"
 	},
 	"Rex Ronan - Experimental Surgeon (USA) (En,Es)": {
-		"languages": "En,Es"
+		"languages": "En, Es"
 	},
 	"RHI Roller Hockey '95 (USA) (Proto)": {
 		"languages": "En"
@@ -7368,10 +7368,10 @@
 		"languages": "Ja"
 	},
 	"Sensible Soccer - European Champions (Europe) (En,Fr,De,It)": {
-		"languages": "En,Fr,De,It"
+		"languages": "En, Fr, De, It"
 	},
 	"Sensible Soccer - European Champions (Europe) (En,Fr,De,It) (Beta)": {
-		"languages": "En,Fr,De,It"
+		"languages": "En, Fr, De, It"
 	},
 	"Septentrion (Japan)": {
 		"languages": "Ja"
@@ -7398,7 +7398,7 @@
 		"languages": "De"
 	},
 	"Shadowrun (Japan) (En,Ja)": {
-		"languages": "En,Ja"
+		"languages": "En, Ja"
 	},
 	"Shadowrun (Sweden)": {
 		"languages": "Sv"
@@ -7746,10 +7746,10 @@
 		"languages": "En"
 	},
 	"Smurfs Travel the World, The (Europe) (En,Fr,De,Es)": {
-		"languages": "En,Fr,De,Es"
+		"languages": "En, Fr, De, Es"
 	},
 	"Smurfs, The (Europe) (En,Fr,De,Es,It)": {
-		"languages": "En,Fr,De,Es,It"
+		"languages": "En, Fr, De, Es, It"
 	},
 	"SNES Burn-in Test Cartridge (USA) (Rev D)": {
 		"languages": "En"
@@ -7761,7 +7761,7 @@
 		"languages": "En"
 	},
 	"Soccer Kid (Europe) (En,Fr,De,Es,It)": {
-		"languages": "En,Fr,De,Es,It"
+		"languages": "En, Fr, De, Es, It"
 	},
 	"Soccer Kid (Japan)": {
 		"languages": "Ja"
@@ -7983,7 +7983,7 @@
 		"languages": "En"
 	},
 	"Spirou (Europe) (En,Fr,De,Es)": {
-		"languages": "En,Fr,De,Es"
+		"languages": "En, Fr, De, Es"
 	},
 	"Sporting News Baseball, The (USA)": {
 		"languages": "En"
@@ -8097,7 +8097,7 @@
 		"languages": "Ja"
 	},
 	"Stargate (Europe) (En,Fr,De)": {
-		"languages": "En,Fr,De"
+		"languages": "En, Fr, De"
 	},
 	"Stargate (Japan)": {
 		"languages": "Ja"
@@ -8238,13 +8238,13 @@
 		"languages": "En"
 	},
 	"Striker (Europe) (En,Fr,De,Es,It,Nl,Sv)": {
-		"languages": "En,Fr,De,Es,It,Nl,Sv"
+		"languages": "En, Fr, De, Es, It, Nl, Sv"
 	},
 	"Striker (Europe) (En,Fr,De,Es,It,Nl,Sv) (Beta 2)": {
-		"languages": "En,Fr,De,Es,It,Nl,Sv"
+		"languages": "En, Fr, De, Es, It, Nl, Sv"
 	},
 	"Striker (Europe) (En,Fr,De,Es,It,Nl,Sv) (Beta 1)": {
-		"languages": "En,Fr,De,Es,It,Nl,Sv"
+		"languages": "En, Fr, De, Es, It, Nl, Sv"
 	},
 	"Stunt Race FX (Europe)": {
 		"languages": "En"
@@ -8541,10 +8541,10 @@
 		"languages": "En"
 	},
 	"Super Copa (Brazil) (Es,Pt)": {
-		"languages": "Es,Pt"
+		"languages": "Es, Pt"
 	},
 	"Super Copa (Brazil) (Es,Pt) (Beta) (1994-02-28)": {
-		"languages": "Es,Pt"
+		"languages": "Es, Pt"
 	},
 	"Super Cup Soccer (Japan) (En)": {
 		"languages": "En"
@@ -8739,7 +8739,7 @@
 		"languages": "Ja"
 	},
 	"Super Full Metal (Europe) (It,Sv) (Proto)": {
-		"languages": "It,Sv"
+		"languages": "It, Sv"
 	},
 	"Super Gachapon World - SD Gundam X (Japan)": {
 		"languages": "Ja"
@@ -8829,7 +8829,7 @@
 		"languages": "En"
 	},
 	"Super Hockey (France) (En,Fr)": {
-		"languages": "En,Fr"
+		"languages": "En, Fr"
 	},
 	"Super Hockey '94 (Japan) (En)": {
 		"languages": "En"
@@ -9054,10 +9054,10 @@
 		"languages": "Ja"
 	},
 	"Super Mario World 2 - Yoshi's Island (Europe) (En,Fr,De)": {
-		"languages": "En,Fr,De"
+		"languages": "En, Fr, De"
 	},
 	"Super Mario World 2 - Yoshi's Island (Europe) (En,Fr,De) (Rev 1)": {
-		"languages": "En,Fr,De"
+		"languages": "En, Fr, De"
 	},
 	"Super Mario World 2 - Yoshi's Island (USA)": {
 		"languages": "En"
@@ -9066,19 +9066,19 @@
 		"languages": "En"
 	},
 	"Super Mario World 2 - Yoshi's Island (Europe) (En,Fr,De) (Rev 2)": {
-		"languages": "En,Fr,De"
+		"languages": "En, Fr, De"
 	},
 	"Super Metroid (Europe) (En,Fr,De)": {
-		"languages": "En,Fr,De"
+		"languages": "En, Fr, De"
 	},
 	"Super Metroid (Japan, USA) (En,Ja)": {
-		"languages": "En,Ja"
+		"languages": "En, Ja"
 	},
 	"Super Metroid (Japan) (En,Ja) (Virtual Console, Switch Online)": {
-		"languages": "En,Ja"
+		"languages": "En, Ja"
 	},
 	"Super Metroid (USA, Europe) (En,Ja) (Virtual Console, Classic Mini, Switch Online)": {
-		"languages": "En,Ja"
+		"languages": "En, Ja"
 	},
 	"Super Moero!! Pro Yakyuu (Japan)": {
 		"languages": "Ja"
@@ -9378,10 +9378,10 @@
 		"languages": "En"
 	},
 	"Super Solitaire (Europe) (En,Fr,De,Es,It) (Proto)": {
-		"languages": "En,Fr,De,Es,It"
+		"languages": "En, Fr, De, Es, It"
 	},
 	"Super Solitaire (USA) (En,Fr,De,Es,It)": {
-		"languages": "En,Fr,De,Es,It"
+		"languages": "En, Fr, De, Es, It"
 	},
 	"Super Soukoban (Japan)": {
 		"languages": "Ja"
@@ -9471,7 +9471,7 @@
 		"languages": "Ja"
 	},
 	"Super Strike Eagle (Europe) (En,Fr,De,Es,It)": {
-		"languages": "En,Fr,De,Es,It"
+		"languages": "En, Fr, De, Es, It"
 	},
 	"Super Strike Eagle (USA)": {
 		"languages": "En"
@@ -9672,10 +9672,10 @@
 		"languages": "En"
 	},
 	"Syndicate (Europe) (En,Fr,De)": {
-		"languages": "En,Fr,De"
+		"languages": "En, Fr, De"
 	},
 	"Syndicate (Europe) (En,Fr,De) (Beta)": {
-		"languages": "En,Fr,De"
+		"languages": "En, Fr, De"
 	},
 	"Syndicate (Japan)": {
 		"languages": "Ja"
@@ -9723,7 +9723,7 @@
 		"languages": "Ja"
 	},
 	"Taekwon-Do (Japan) (Ja,Ko)": {
-		"languages": "Ja,Ko"
+		"languages": "Ja, Ko"
 	},
 	"Taekwon-Do (Korea)": {
 		"languages": "Ko"
@@ -9975,10 +9975,10 @@
 		"languages": "En"
 	},
 	"Tetris Attack (Europe) (En,Ja)": {
-		"languages": "En,Ja"
+		"languages": "En, Ja"
 	},
 	"Tetris Attack (USA) (En,Ja)": {
-		"languages": "En,Ja"
+		"languages": "En, Ja"
 	},
 	"Tetris Battle Gaiden (Japan)": {
 		"languages": "Ja"
@@ -9990,7 +9990,7 @@
 		"languages": "Ja"
 	},
 	"Theme Park (Europe) (En,Fr,De)": {
-		"languages": "En,Fr,De"
+		"languages": "En, Fr, De"
 	},
 	"Theme Park (Japan)": {
 		"languages": "Ja"
@@ -10059,13 +10059,13 @@
 		"languages": "En"
 	},
 	"Tintin - Prisoners of the Sun (Europe) (En,Fr,De,Es)": {
-		"languages": "En,Fr,De,Es"
+		"languages": "En, Fr, De, Es"
 	},
 	"Tintin in Tibet (Europe) (En,Fr,De,Nl)": {
-		"languages": "En,Fr,De,Nl"
+		"languages": "En, Fr, De, Nl"
 	},
 	"Tintin in Tibet (Europe) (En,Es,Sv)": {
-		"languages": "En,Es,Sv"
+		"languages": "En, Es, Sv"
 	},
 	"Tiny Toon Adventures (Japan)": {
 		"languages": "Ja"
@@ -10227,7 +10227,7 @@
 		"languages": "Ja"
 	},
 	"Toy Story (Europe) (En,Fr,De)": {
-		"languages": "En,Fr,De"
+		"languages": "En, Fr, De"
 	},
 	"Toy Story (Japan)": {
 		"languages": "Ja"
@@ -10599,13 +10599,13 @@
 		"languages": "En"
 	},
 	"Vortex (Europe) (En,Es)": {
-		"languages": "En,Es"
+		"languages": "En, Es"
 	},
 	"Vortex (Japan) (En,Ja)": {
-		"languages": "En,Ja"
+		"languages": "En, Ja"
 	},
 	"Vortex (USA) (En,Es)": {
-		"languages": "En,Es"
+		"languages": "En, Es"
 	},
 	"Vs. Collection (Japan)": {
 		"languages": "Ja"
@@ -10704,13 +10704,13 @@
 		"languages": "En"
 	},
 	"Where in the World Is Carmen Sandiego (Europe) (En,Fr,De,Es,It)": {
-		"languages": "En,Fr,De,Es,It"
+		"languages": "En, Fr, De, Es, It"
 	},
 	"Where in the World Is Carmen Sandiego (USA) (En,Fr,De,Es,It)": {
-		"languages": "En,Fr,De,Es,It"
+		"languages": "En, Fr, De, Es, It"
 	},
 	"Where in Time Is Carmen Sandiego (USA) (En,Fr,De,Es,It)": {
-		"languages": "En,Fr,De,Es,It"
+		"languages": "En, Fr, De, Es, It"
 	},
 	"Whirlo (Europe)": {
 		"languages": "En"
@@ -10800,10 +10800,10 @@
 		"languages": "En"
 	},
 	"Winter Olympic Games - Lillehammer '94 (USA) (En,Fr,De,Es,It,Pt,Sv,No)": {
-		"languages": "En,Fr,De,Es,It,Pt,Sv,No"
+		"languages": "En, Fr, De, Es, It, Pt, Sv, No"
 	},
 	"Winter Olympics - Lillehammer '94 (Europe) (En,Fr,De,Es,It,Pt,Sv,No)": {
-		"languages": "En,Fr,De,Es,It,Pt,Sv,No"
+		"languages": "En, Fr, De, Es, It, Pt, Sv, No"
 	},
 	"Wizap! - Ankoku no Ou (Japan)": {
 		"languages": "Ja"
@@ -10821,13 +10821,13 @@
 		"languages": "Ja"
 	},
 	"Wizardry I-II-III - Story of Llylgamyn (Japan) (En,Ja) (NP)": {
-		"languages": "En,Ja"
+		"languages": "En, Ja"
 	},
 	"Wizardry V - Heart of the Maelstrom (USA)": {
 		"languages": "En"
 	},
 	"Wizardry V - Saika no Chuushin (Japan) (En,Ja)": {
-		"languages": "En,Ja"
+		"languages": "En, Ja"
 	},
 	"Wizardry VI - Kindan no Mahitsu (Japan)": {
 		"languages": "Ja"
@@ -10887,22 +10887,22 @@
 		"languages": "En"
 	},
 	"World Cup Striker (Europe) (En,Fr,De)": {
-		"languages": "En,Fr,De"
+		"languages": "En, Fr, De"
 	},
 	"World Cup Striker (Europe) (En,Fr,De) (Beta)": {
-		"languages": "En,Fr,De"
+		"languages": "En, Fr, De"
 	},
 	"World Cup Striker (Japan)": {
 		"languages": "Ja"
 	},
 	"World Cup USA 94 (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv)": {
-		"languages": "En,Fr,De,Es,It,Nl,Pt,Sv"
+		"languages": "En, Fr, De, Es, It, Nl, Pt, Sv"
 	},
 	"World Cup USA 94 (Japan) (En,Fr,De,Es,It,Nl,Pt,Sv)": {
-		"languages": "En,Fr,De,Es,It,Nl,Pt,Sv"
+		"languages": "En, Fr, De, Es, It, Nl, Pt, Sv"
 	},
 	"World Cup USA 94 (USA) (En,Fr,De,Es,It,Nl,Pt,Sv)": {
-		"languages": "En,Fr,De,Es,It,Nl,Pt,Sv"
+		"languages": "En, Fr, De, Es, It, Nl, Pt, Sv"
 	},
 	"World Heroes (Europe)": {
 		"languages": "En"

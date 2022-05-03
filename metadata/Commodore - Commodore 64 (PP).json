@@ -231,7 +231,7 @@
 		"languages": "En"
 	},
 	"Amazing Spider-Man, The (Europe) (En,Fr,De,Es,It)": {
-		"languages": "En,Fr,De,Es,It"
+		"languages": "En, Fr, De, Es, It"
 	},
 	"Amazing Spider-Man, The (USA)": {
 		"languages": "En"
@@ -681,10 +681,10 @@
 		"languages": "En"
 	},
 	"Captain Blood (Europe) (En,Fr,De) (Alt)": {
-		"languages": "En,Fr,De"
+		"languages": "En, Fr, De"
 	},
 	"Captain Blood (Europe) (En,Fr,De)": {
-		"languages": "En,Fr,De"
+		"languages": "En, Fr, De"
 	},
 	"Captain Zzap (USA, Europe)": {
 		"languages": "En"
@@ -705,10 +705,10 @@
 		"languages": "En"
 	},
 	"Castle Master (USA, Europe) (En,Fr,De)": {
-		"languages": "En,Fr,De"
+		"languages": "En, Fr, De"
 	},
 	"Castle Master + Castle Master II - The Crypt (USA, Europe) (En,Fr,De)": {
-		"languages": "En,Fr,De"
+		"languages": "En, Fr, De"
 	},
 	"Castle Wolfenstein (USA, Europe) (v1) (Alt)": {
 		"languages": "En"
@@ -1224,7 +1224,7 @@
 		"languages": "En"
 	},
 	"Elvira's Magical Queendom (USA, Europe) (En,De,It)": {
-		"languages": "En,De,It"
+		"languages": "En, De, It"
 	},
 	"Emerald Mine II (USA, Europe)": {
 		"languages": "En"
@@ -1287,7 +1287,7 @@
 		"languages": "En"
 	},
 	"F-16 Combat Pilot (USA, Europe) (En,Fr,De,Es,It)": {
-		"languages": "En,Fr,De,Es,It"
+		"languages": "En, Fr, De, Es, It"
 	},
 	"Factory, The (USA, Europe)": {
 		"languages": "En"
@@ -1620,7 +1620,7 @@
 		"languages": "En"
 	},
 	"Gazza II (Europe) (En,De,It)": {
-		"languages": "En,De,It"
+		"languages": "En, De, It"
 	},
 	"Gazza's Super Soccer (USA, Europe)": {
 		"languages": "En"
@@ -2253,10 +2253,10 @@
 		"languages": "En"
 	},
 	"Kick Off 2 (Europe) (En,De,It,Nl)": {
-		"languages": "En,De,It,Nl"
+		"languages": "En, De, It, Nl"
 	},
 	"Kick Off (Europe) (En,Fr,De,It,Nl)": {
-		"languages": "En,Fr,De,It,Nl"
+		"languages": "En, Fr, De, It, Nl"
 	},
 	"Kikstart (USA, Europe) (Budget)": {
 		"languages": "En"
@@ -4350,7 +4350,7 @@
 		"languages": "En"
 	},
 	"Terminator 2 - Judgment Day (Europe) (En,De)": {
-		"languages": "En,De"
+		"languages": "En, De"
 	},
 	"Terra Cresta (Europe)": {
 		"languages": "En"

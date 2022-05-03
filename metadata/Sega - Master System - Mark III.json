@@ -216,16 +216,16 @@
 		"languages": "En"
 	},
 	"Asterix (Europe, Brazil) (En,Fr) (Rev 1)": {
-		"languages": "En,Fr"
+		"languages": "En, Fr"
 	},
 	"Asterix (Europe, Brazil) (En,Fr)": {
-		"languages": "En,Fr"
+		"languages": "En, Fr"
 	},
 	"Asterix and the Great Rescue (Europe, Brazil) (En,Fr,De,Es,It)": {
-		"languages": "En,Fr,De,Es,It"
+		"languages": "En, Fr, De, Es, It"
 	},
 	"Asterix and the Secret Mission (Europe, Brazil) (En,Fr,De)": {
-		"languages": "En,Fr,De"
+		"languages": "En, Fr, De"
 	},
 	"Astro Adventure (Taiwan) (En) (Unl)": {
 		"languages": "En"
@@ -360,7 +360,7 @@
 		"languages": "Pt"
 	},
 	"Cheese Cat-astrophe Starring Speedy Gonzales (Europe, Brazil) (En,Fr,De,Es)": {
-		"languages": "En,Fr,De,Es"
+		"languages": "En, Fr, De, Es"
 	},
 	"Choplifter (Japan) (Proto)": {
 		"languages": "Ja"
@@ -414,7 +414,7 @@
 		"languages": "En"
 	},
 	"Cosmic Spacehead (Europe) (En,Fr,De,Es)": {
-		"languages": "En,Fr,De,Es"
+		"languages": "En, Fr, De, Es"
 	},
 	"Cyber Shinobi, The (Europe, Brazil) (En) (Beta)": {
 		"languages": "En"
@@ -435,7 +435,7 @@
 		"languages": "Ko"
 	},
 	"Daffy Duck in Hollywood (Europe, Brazil) (En,Fr,De,Es,It)": {
-		"languages": "En,Fr,De,Es,It"
+		"languages": "En, Fr, De, Es, It"
 	},
 	"Dallyeora Pigu-Wang (Korea) (Unl)": {
 		"languages": "Ko"
@@ -453,10 +453,10 @@
 		"languages": "En"
 	},
 	"Desert Speedtrap Starring Road Runner and Wile E. Coyote (Europe, Brazil) (En,Fr,De,Es,It)": {
-		"languages": "En,Fr,De,Es,It"
+		"languages": "En, Fr, De, Es, It"
 	},
 	"Desert Strike (Europe) (En,Fr,De,Es)": {
-		"languages": "En,Fr,De,Es"
+		"languages": "En, Fr, De, Es"
 	},
 	"Dick Tracy (USA, Europe, Brazil) (En)": {
 		"languages": "En"
@@ -546,7 +546,7 @@
 		"languages": "En"
 	},
 	"Excellent Dizzy Collection, The (Europe) (En,Fr,De,Es,It) (Proto)": {
-		"languages": "En,Fr,De,Es,It"
+		"languages": "En, Fr, De, Es, It"
 	},
 	"F1 (Europe, Brazil) (En)": {
 		"languages": "En"
@@ -573,7 +573,7 @@
 		"languages": "Ja"
 	},
 	"Fantastic Dizzy (Europe) (En,Fr,De,Es,It)": {
-		"languages": "En,Fr,De,Es,It"
+		"languages": "En, Fr, De, Es, It"
 	},
 	"Fantasy Zone (Japan)": {
 		"languages": "Ja"
@@ -600,7 +600,7 @@
 		"languages": "Pt"
 	},
 	"FIFA International Soccer (Brazil) (En,Es,Pt)": {
-		"languages": "En,Es,Pt"
+		"languages": "En, Es, Pt"
 	},
 	"Final Bubble Bobble (Japan)": {
 		"languages": "Ja"
@@ -1092,10 +1092,10 @@
 		"languages": "Ja"
 	},
 	"Olympic Gold (Brazil) (En,Fr,De,Es,It,Nl,Pt,Sv)": {
-		"languages": "En,Fr,De,Es,It,Nl,Pt,Sv"
+		"languages": "En, Fr, De, Es, It, Nl, Pt, Sv"
 	},
 	"Olympic Gold (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv)": {
-		"languages": "En,Fr,De,Es,It,Nl,Pt,Sv"
+		"languages": "En, Fr, De, Es, It, Nl, Pt, Sv"
 	},
 	"Opa Opa (Japan)": {
 		"languages": "Ja"
@@ -1104,7 +1104,7 @@
 		"languages": "En"
 	},
 	"Ottifants, The (Europe, Brazil) (En,Fr,De,Es,It)": {
-		"languages": "En,Fr,De,Es,It"
+		"languages": "En, Fr, De, Es, It"
 	},
 	"OutRun 3-D (Europe, Brazil) (En) (Beta)": {
 		"languages": "En"
@@ -1329,10 +1329,10 @@
 		"languages": "Ja"
 	},
 	"Schtroumpfs Autour du Monde, Les (Europe) (En,Fr,De,Es) (Beta) (1996-08-12)": {
-		"languages": "En,Fr,De,Es"
+		"languages": "En, Fr, De, Es"
 	},
 	"Schtroumpfs Autour du Monde, Les (Europe) (En,Fr,De,Es)": {
-		"languages": "En,Fr,De,Es"
+		"languages": "En, Fr, De, Es"
 	},
 	"Scramble Spirits (Europe, Brazil) (En)": {
 		"languages": "En"
@@ -1422,7 +1422,7 @@
 		"languages": "En"
 	},
 	"Smurfs, The (Europe, Brazil) (En,Fr,De,Es)": {
-		"languages": "En,Fr,De,Es"
+		"languages": "En, Fr, De, Es"
 	},
 	"Solomon no Kagi - Oujo Rihita no Namida (Japan) (Beta)": {
 		"languages": "Ja"
@@ -1587,7 +1587,7 @@
 		"languages": "En"
 	},
 	"Super Kick Off (Europe, Brazil) (En,Fr,De,Es,It,Nl,Pt,Sv)": {
-		"languages": "En,Fr,De,Es,It,Nl,Pt,Sv"
+		"languages": "En, Fr, De, Es, It, Nl, Pt, Sv"
 	},
 	"Super Monaco GP (Europe, Brazil) (En) (Beta)": {
 		"languages": "En"
@@ -1710,7 +1710,7 @@
 		"languages": "En"
 	},
 	"Trivial Pursuit - Genus Edition (Europe) (En,Fr,De,Es)": {
-		"languages": "En,Fr,De,Es"
+		"languages": "En, Fr, De, Es"
 	},
 	"Ttoriui Moheom (Korea) (En) (Unl)": {
 		"languages": "En"
@@ -1725,7 +1725,7 @@
 		"languages": "En"
 	},
 	"Ultimate Soccer (Europe, Brazil) (En,Fr,De,Es,It)": {
-		"languages": "En,Fr,De,Es,It"
+		"languages": "En, Fr, De, Es, It"
 	},
 	"Vampire (Europe) (Beta)": {
 		"languages": "En"
@@ -1755,10 +1755,10 @@
 		"languages": "En"
 	},
 	"Winter Olympics (Brazil) (En,Fr,De,Es,It,Pt,Sv,No)": {
-		"languages": "En,Fr,De,Es,It,Pt,Sv,No"
+		"languages": "En, Fr, De, Es, It, Pt, Sv, No"
 	},
 	"Winter Olympics (Europe) (En,Fr,De,Es,It,Pt,Sv,No)": {
-		"languages": "En,Fr,De,Es,It,Pt,Sv,No"
+		"languages": "En, Fr, De, Es, It, Pt, Sv, No"
 	},
 	"Wolfchild (Europe, Brazil) (En)": {
 		"languages": "En"
@@ -1803,7 +1803,7 @@
 		"languages": "En"
 	},
 	"World Cup USA 94 (Europe, Brazil) (En,Fr,De,Es,It,Nl,Pt,Sv)": {
-		"languages": "En,Fr,De,Es,It,Nl,Pt,Sv"
+		"languages": "En, Fr, De, Es, It, Nl, Pt, Sv"
 	},
 	"World Games (Europe, Brazil) (En) (Beta)": {
 		"languages": "En"
@@ -1860,7 +1860,7 @@
 		"languages": "En"
 	},
 	"Zillion (Japan, Europe) (En,Ja)": {
-		"languages": "En,Ja"
+		"languages": "En, Ja"
 	},
 	"Zillion (USA, Europe) (Rev 1)": {
 		"languages": "En"

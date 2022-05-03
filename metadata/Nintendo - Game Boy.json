@@ -30,7 +30,7 @@
 		"languages": "En"
 	},
 	"4 in 1 (Taiwan) (En,Zh) (4B-003, Sachen-Commin) (Unl)": {
-		"languages": "En,Zh"
+		"languages": "En, Zh"
 	},
 	"4-in-1 Fun Pak (Japan)": {
 		"languages": "Ja"
@@ -69,7 +69,7 @@
 		"languages": "Ja"
 	},
 	"Addams Family, The (Europe) (En,Fr,De)": {
-		"languages": "En,Fr,De"
+		"languages": "En, Fr, De"
 	},
 	"Addams Family, The (Japan)": {
 		"languages": "Ja"
@@ -249,16 +249,16 @@
 		"languages": "Ja"
 	},
 	"Asterix & Obelix (Europe) (Fr,De) (Beta) (SGB Enhanced)": {
-		"languages": "Fr,De"
+		"languages": "Fr, De"
 	},
 	"Asterix & Obelix (Europe) (Fr,De) (SGB Enhanced)": {
-		"languages": "Fr,De"
+		"languages": "Fr, De"
 	},
 	"Asterix & Obelix (Spain) (En,Es) (SGB Enhanced)": {
-		"languages": "En,Es"
+		"languages": "En, Es"
 	},
 	"Asterix (Europe) (En,Fr,De,Es,It)": {
-		"languages": "En,Fr,De,Es,It"
+		"languages": "En, Fr, De, Es, It"
 	},
 	"Asterix (USA) (Proto 1)": {
 		"languages": "En"
@@ -357,7 +357,7 @@
 		"languages": "Ja"
 	},
 	"Bataille Navale (France) (En,Fr,De,Es)": {
-		"languages": "En,Fr,De,Es"
+		"languages": "En, Fr, De, Es"
 	},
 	"Batman - Return of the Joker (Japan)": {
 		"languages": "Ja"
@@ -399,13 +399,13 @@
 		"languages": "Ja"
 	},
 	"Battle of Olympus, The (Europe) (En,Fr,De,Es,It)": {
-		"languages": "En,Fr,De,Es,It"
+		"languages": "En, Fr, De, Es, It"
 	},
 	"Battle Pingpong (Japan)": {
 		"languages": "Ja"
 	},
 	"Battle Ships (Spain) (En,Fr,De,Es) (Beta)": {
-		"languages": "En,Fr,De,Es"
+		"languages": "En, Fr, De, Es"
 	},
 	"Battle Space (Japan)": {
 		"languages": "Ja"
@@ -693,7 +693,7 @@
 		"languages": "Ja"
 	},
 	"Caesars Palace (Europe) (En,Fr,De,Es,It)": {
-		"languages": "En,Fr,De,Es,It"
+		"languages": "En, Fr, De, Es, It"
 	},
 	"Caesars Palace (Japan)": {
 		"languages": "Ja"
@@ -885,7 +885,7 @@
 		"languages": "En"
 	},
 	"Cool Hand (Europe) (Fr,De)": {
-		"languages": "Fr,De"
+		"languages": "Fr, De"
 	},
 	"Cool Hand (Europe)": {
 		"languages": "En"
@@ -1146,10 +1146,10 @@
 		"languages": "Ja"
 	},
 	"Dr. Franken (Europe) (En,Fr,De,Es,It,Nl,Sv) (Beta)": {
-		"languages": "En,Fr,De,Es,It,Nl,Sv"
+		"languages": "En, Fr, De, Es, It, Nl, Sv"
 	},
 	"Dr. Franken (Europe) (En,Fr,De,Es,It,Nl,Sv)": {
-		"languages": "En,Fr,De,Es,It,Nl,Sv"
+		"languages": "En, Fr, De, Es, It, Nl, Sv"
 	},
 	"Dr. Franken (Japan)": {
 		"languages": "Ja"
@@ -1158,7 +1158,7 @@
 		"languages": "En"
 	},
 	"Dr. Franken II (USA, Europe) (En,Fr,De,Es,It,Nl,Sv)": {
-		"languages": "En,Fr,De,Es,It,Nl,Sv"
+		"languages": "En, Fr, De, Es, It, Nl, Sv"
 	},
 	"Dr. Mario (World) (Beta)": {
 		"languages": "En"
@@ -1350,7 +1350,7 @@
 		"languages": "Ja"
 	},
 	"Fidgetts, The (USA, Europe) (En,Fr,De,Es,It,Nl,Sv)": {
-		"languages": "En,Fr,De,Es,It,Nl,Sv"
+		"languages": "En, Fr, De, Es, It, Nl, Sv"
 	},
 	"FIFA - Road to World Cup 98 (Europe) (Rev 1) (SGB Enhanced)": {
 		"languages": "En"
@@ -1359,10 +1359,10 @@
 		"languages": "En"
 	},
 	"FIFA International Soccer (USA, Europe) (En,Fr,De,Es) (SGB Enhanced)": {
-		"languages": "En,Fr,De,Es"
+		"languages": "En, Fr, De, Es"
 	},
 	"FIFA Soccer 96 (USA, Europe) (En,Fr,De,Es) (SGB Enhanced)": {
-		"languages": "En,Fr,De,Es"
+		"languages": "En, Fr, De, Es"
 	},
 	"FIFA Soccer 97 (USA, Europe) (SGB Enhanced)": {
 		"languages": "En"
@@ -1449,7 +1449,7 @@
 		"languages": "En"
 	},
 	"Franky, Joe & Dirk - On the Tiles (Europe) (En,Fr,De,Es,It,Nl)": {
-		"languages": "En,Fr,De,Es,It,Nl"
+		"languages": "En, Fr, De, Es, It, Nl"
 	},
 	"Frisky Tom (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
@@ -1491,7 +1491,7 @@
 		"languages": "En"
 	},
 	"Game Boy Aging Cartridge (World) (En,Ja) (v1.1)": {
-		"languages": "En,Ja"
+		"languages": "En, Ja"
 	},
 	"Game Boy Camera (USA, Europe) (SGB Enhanced)": {
 		"languages": "En"
@@ -1644,7 +1644,7 @@
 		"languages": "Ja"
 	},
 	"Ginga - Card & Puzzle Collection (Japan) (En,Ja)": {
-		"languages": "En,Ja"
+		"languages": "En, Ja"
 	},
 	"Gluecksrad (Germany)": {
 		"languages": "De"
@@ -1956,7 +1956,7 @@
 		"languages": "En"
 	},
 	"Humans, The (Europe) (En,Fr,De,Es,It)": {
-		"languages": "En,Fr,De,Es,It"
+		"languages": "En, Fr, De, Es, It"
 	},
 	"Humans, The (USA)": {
 		"languages": "En"
@@ -1968,10 +1968,10 @@
 		"languages": "En"
 	},
 	"Hyper Black Bass '95 (Japan) (En,Ja)": {
-		"languages": "En,Ja"
+		"languages": "En, Ja"
 	},
 	"Hyper Black Bass (Japan) (En,Ja)": {
-		"languages": "En,Ja"
+		"languages": "En, Ja"
 	},
 	"Hyper Dunk (Europe)": {
 		"languages": "En"
@@ -2148,10 +2148,10 @@
 		"languages": "En"
 	},
 	"Joe & Mac - Caveman Ninja (Europe) (En,Fr,De,Es,It,Nl,Sv) (Beta)": {
-		"languages": "En,Fr,De,Es,It,Nl,Sv"
+		"languages": "En, Fr, De, Es, It, Nl, Sv"
 	},
 	"Joe & Mac - Caveman Ninja (Europe) (En,Fr,De,Es,It,Nl,Sv)": {
-		"languages": "En,Fr,De,Es,It,Nl,Sv"
+		"languages": "En, Fr, De, Es, It, Nl, Sv"
 	},
 	"John Madden Football (USA) (Proto 1) (SGB Enhanced)": {
 		"languages": "En"
@@ -2193,13 +2193,13 @@
 		"languages": "Ja"
 	},
 	"Jurassic Park (Europe) (En,Fr,De,Es,It)": {
-		"languages": "En,Fr,De,Es,It"
+		"languages": "En, Fr, De, Es, It"
 	},
 	"Jurassic Park (USA)": {
 		"languages": "En"
 	},
 	"Jurassic Park Part 2 - The Chaos Continues (USA, Europe) (En,Fr,De,It)": {
-		"languages": "En,Fr,De,It"
+		"languages": "En, Fr, De, It"
 	},
 	"Kachiuma Yosou Keiba Kizoku (Japan)": {
 		"languages": "Ja"
@@ -2451,7 +2451,7 @@
 		"languages": "Ja"
 	},
 	"Legend of Prince Valiant, The (Europe) (En,Fr,De)": {
-		"languages": "En,Fr,De"
+		"languages": "En, Fr, De"
 	},
 	"Legend of the River King GB (Australia) (SGB Enhanced)": {
 		"languages": "En"
@@ -2505,7 +2505,7 @@
 		"languages": "En"
 	},
 	"Lingo (Europe) (En,Fr,De,Nl)": {
-		"languages": "En,Fr,De,Nl"
+		"languages": "En, Fr, De, Nl"
 	},
 	"Lion King, The (Europe)": {
 		"languages": "En"
@@ -2562,7 +2562,7 @@
 		"languages": "En"
 	},
 	"Lucky Luke (Europe) (En,Fr,De,Es)": {
-		"languages": "En,Fr,De,Es"
+		"languages": "En, Fr, De, Es"
 	},
 	"Lucky Monkey (Japan)": {
 		"languages": "Ja"
@@ -2676,7 +2676,7 @@
 		"languages": "En"
 	},
 	"Maus, Die (Europe) (En,Fr,De,Es)": {
-		"languages": "En,Fr,De,Es"
+		"languages": "En, Fr, De, Es"
 	},
 	"Max (Europe)": {
 		"languages": "En"
@@ -2919,7 +2919,7 @@
 		"languages": "Ja"
 	},
 	"Monopoly (Europe) (En,Fr,De)": {
-		"languages": "En,Fr,De"
+		"languages": "En, Fr, De"
 	},
 	"Monopoly (Japan)": {
 		"languages": "Ja"
@@ -2937,10 +2937,10 @@
 		"languages": "Ja"
 	},
 	"Monster Max (Europe) (En,Fr,De,Es,It,Nl) (Beta) (1993-04-01)": {
-		"languages": "En,Fr,De,Es,It,Nl"
+		"languages": "En, Fr, De, Es, It, Nl"
 	},
 	"Monster Max (Europe) (En,Fr,De,Es,It,Nl)": {
-		"languages": "En,Fr,De,Es,It,Nl"
+		"languages": "En, Fr, De, Es, It, Nl"
 	},
 	"Monster Race (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
@@ -2955,7 +2955,7 @@
 		"languages": "En"
 	},
 	"Montezuma's Return! (Europe) (En,Fr,De,Es,It)": {
-		"languages": "En,Fr,De,Es,It"
+		"languages": "En, Fr, De, Es, It"
 	},
 	"Mortal Kombat 3 (Europe)": {
 		"languages": "En"
@@ -3195,7 +3195,7 @@
 		"languages": "Ja"
 	},
 	"New Chessmaster, The (Japan) (En,Ja)": {
-		"languages": "En,Ja"
+		"languages": "En, Ja"
 	},
 	"New Chessmaster, The (USA, Europe)": {
 		"languages": "En"
@@ -3357,10 +3357,10 @@
 		"languages": "Ja"
 	},
 	"Otto's Ottifanten - Baby Bruno's Alptraum (Europe) (En,Fr,De,Es) (Beta)": {
-		"languages": "En,Fr,De,Es"
+		"languages": "En, Fr, De, Es"
 	},
 	"Otto's Ottifanten - Baby Bruno's Alptraum (Europe) (En,Fr,De,Es)": {
-		"languages": "En,Fr,De,Es"
+		"languages": "En, Fr, De, Es"
 	},
 	"Out of Gas (USA) (Beta)": {
 		"languages": "En"
@@ -3816,10 +3816,10 @@
 		"languages": "En"
 	},
 	"Prince of Persia (Europe) (En,Fr,De,Es,It) (Beta)": {
-		"languages": "En,Fr,De,Es,It"
+		"languages": "En, Fr, De, Es, It"
 	},
 	"Prince of Persia (Europe) (En,Fr,De,Es,It)": {
-		"languages": "En,Fr,De,Es,It"
+		"languages": "En, Fr, De, Es, It"
 	},
 	"Prince of Persia (Japan)": {
 		"languages": "Ja"
@@ -3852,7 +3852,7 @@
 		"languages": "En"
 	},
 	"Prophecy - The Viking Child (Europe) (En,Fr,De,Es,It)": {
-		"languages": "En,Fr,De,Es,It"
+		"languages": "En, Fr, De, Es, It"
 	},
 	"Prophecy - The Viking Child (USA)": {
 		"languages": "En"
@@ -4011,7 +4011,7 @@
 		"languages": "Ja"
 	},
 	"Reservoir Rat (Europe) (En,Fr,De,Es,It)": {
-		"languages": "En,Fr,De,Es,It"
+		"languages": "En, Fr, De, Es, It"
 	},
 	"Riddick Bowe Boxing (Europe)": {
 		"languages": "En"
@@ -4170,7 +4170,7 @@
 		"languages": "En"
 	},
 	"Schiffe Versenken (Germany) (En,Fr,De,Es)": {
-		"languages": "En,Fr,De,Es"
+		"languages": "En, Fr, De, Es"
 	},
 	"Scotland Yard (Japan)": {
 		"languages": "Ja"
@@ -4197,7 +4197,7 @@
 		"languages": "Ja"
 	},
 	"Sea Battle (Europe) (En,Fr,De,Es)": {
-		"languages": "En,Fr,De,Es"
+		"languages": "En, Fr, De, Es"
 	},
 	"Sea King GB (USA) (Proto) (SGB Enhanced)": {
 		"languages": "En"
@@ -4338,16 +4338,16 @@
 		"languages": "En"
 	},
 	"Smurfs Nightmare, The (Europe) (En,Fr,De,Es)": {
-		"languages": "En,Fr,De,Es"
+		"languages": "En, Fr, De, Es"
 	},
 	"Smurfs Travel the World, The (Europe) (En,Fr,De,Es)": {
-		"languages": "En,Fr,De,Es"
+		"languages": "En, Fr, De, Es"
 	},
 	"Smurfs, The (Europe) (En,Fr,De,Es)": {
-		"languages": "En,Fr,De,Es"
+		"languages": "En, Fr, De, Es"
 	},
 	"Smurfs, The (USA, Europe) (En,Fr,De) (Rev 1) (SGB Enhanced)": {
-		"languages": "En,Fr,De"
+		"languages": "En, Fr, De"
 	},
 	"Sneaky Snakes (USA, Europe)": {
 		"languages": "En"
@@ -4371,7 +4371,7 @@
 		"languages": "En"
 	},
 	"Soccer (Europe, Australia) (En,Fr,De) (SGB Enhanced)": {
-		"languages": "En,Fr,De"
+		"languages": "En, Fr, De"
 	},
 	"Soccer (Japan)": {
 		"languages": "Ja"
@@ -4473,10 +4473,10 @@
 		"languages": "En"
 	},
 	"Spirou (Europe) (En,Fr,De,Es) (Beta) (SGB Enhanced)": {
-		"languages": "En,Fr,De,Es"
+		"languages": "En, Fr, De, Es"
 	},
 	"Spirou (Europe) (En,Fr,De,Es) (SGB Enhanced)": {
-		"languages": "En,Fr,De,Es"
+		"languages": "En, Fr, De, Es"
 	},
 	"Splitz (Europe) (Beta)": {
 		"languages": "En"
@@ -4671,7 +4671,7 @@
 		"languages": "En"
 	},
 	"Super Kick Off (Europe) (En,Fr,De,It,Nl)": {
-		"languages": "En,Fr,De,It,Nl"
+		"languages": "En, Fr, De, It, Nl"
 	},
 	"Super Mario 4 (Unknown) (Ja) (Unl) (Pirate)": {
 		"languages": "Ja"
@@ -4779,7 +4779,7 @@
 		"languages": "En"
 	},
 	"Taikyoku Renju (Japan) (En,Ja)": {
-		"languages": "En,Ja"
+		"languages": "En, Ja"
 	},
 	"Tail 'Gator (USA, Europe)": {
 		"languages": "En"
@@ -4905,7 +4905,7 @@
 		"languages": "En"
 	},
 	"Tesserae (Europe) (En,Fr,De,Es,It)": {
-		"languages": "En,Fr,De,Es,It"
+		"languages": "En, Fr, De, Es, It"
 	},
 	"Tesserae (USA) (Beta)": {
 		"languages": "En"
@@ -4947,16 +4947,16 @@
 		"languages": "En"
 	},
 	"Tintin - Prisoners of the Sun (Europe) (En,Fr,De)": {
-		"languages": "En,Fr,De"
+		"languages": "En, Fr, De"
 	},
 	"Tintin in Tibet (Europe) (En,Es,It,Sv) (Beta) (SGB Enhanced)": {
-		"languages": "En,Es,It,Sv"
+		"languages": "En, Es, It, Sv"
 	},
 	"Tintin in Tibet (Europe) (En,Es,It,Sv) (SGB Enhanced)": {
-		"languages": "En,Es,It,Sv"
+		"languages": "En, Es, It, Sv"
 	},
 	"Tintin in Tibet (Europe) (En,Fr,De,Nl) (SGB Enhanced)": {
-		"languages": "En,Fr,De,Nl"
+		"languages": "En, Fr, De, Nl"
 	},
 	"Tiny Toon Adventures 2 - Buster Bunny no Kattobi Daibouken (Japan)": {
 		"languages": "Ja"
@@ -5133,7 +5133,7 @@
 		"languages": "Ja"
 	},
 	"Turok - Battle of the Bionosaurs (USA, Europe) (En,Fr,De,Es)": {
-		"languages": "En,Fr,De,Es"
+		"languages": "En, Fr, De, Es"
 	},
 	"Turrican (USA, Europe)": {
 		"languages": "En"
@@ -5217,7 +5217,7 @@
 		"languages": "Ja"
 	},
 	"V-Rally - Championship Edition (Europe) (En,Fr,De)": {
-		"languages": "En,Fr,De"
+		"languages": "En, Fr, De"
 	},
 	"Vattle Giuce (Japan)": {
 		"languages": "Ja"
@@ -5364,16 +5364,16 @@
 		"languages": "En"
 	},
 	"World Cup Striker (Europe) (En,Fr,De) (Possible Proto)": {
-		"languages": "En,Fr,De"
+		"languages": "En, Fr, De"
 	},
 	"World Cup Striker (Japan)": {
 		"languages": "Ja"
 	},
 	"World Cup USA 94 (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv)": {
-		"languages": "En,Fr,De,Es,It,Nl,Pt,Sv"
+		"languages": "En, Fr, De, Es, It, Nl, Pt, Sv"
 	},
 	"World Cup USA 94 (Japan) (En,Fr,De,Es,It,Nl,Pt,Sv)": {
-		"languages": "En,Fr,De,Es,It,Nl,Pt,Sv"
+		"languages": "En, Fr, De, Es, It, Nl, Pt, Sv"
 	},
 	"World Heroes 2 Jet (USA, Europe) (SGB Enhanced)": {
 		"languages": "En"

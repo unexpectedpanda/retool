@@ -123,7 +123,7 @@
 		"languages": "En"
 	},
 	"Addams Family, The (Europe) (En,Fr,De)": {
-		"languages": "En,Fr,De"
+		"languages": "En, Fr, De"
 	},
 	"Addams Family, The (USA)": {
 		"languages": "En"
@@ -501,7 +501,7 @@
 		"languages": "En"
 	},
 	"Asterix (Europe) (En,Fr,De,Es,It)": {
-		"languages": "En,Fr,De,Es,It"
+		"languages": "En, Fr, De, Es, It"
 	},
 	"Astro Fang - Super Machine (Japan)": {
 		"languages": "Ja"
@@ -846,7 +846,7 @@
 		"languages": "En"
 	},
 	"Battle Kid - Fortress of Peril (Japan) (En,Ja) (V2.000) (Aftermarket) (Unl)": {
-		"languages": "En,Ja"
+		"languages": "En, Ja"
 	},
 	"Battle Kid - Fortress of Peril (USA) (V1.000) (Aftermarket) (Unl)": {
 		"languages": "En"
@@ -873,7 +873,7 @@
 		"languages": "Ja"
 	},
 	"Battleship (Europe) (En,Fr,De,Es)": {
-		"languages": "En,Fr,De,Es"
+		"languages": "En, Fr, De, Es"
 	},
 	"Battleship (USA)": {
 		"languages": "En"
@@ -1707,7 +1707,7 @@
 		"languages": "Ja"
 	},
 	"Cosmic Spacehead (Europe) (En,Fr,De,Es) (Unl)": {
-		"languages": "En,Fr,De,Es"
+		"languages": "En, Fr, De, Es"
 	},
 	"Cosmic Wars (Japan)": {
 		"languages": "Ja"
@@ -2523,7 +2523,7 @@
 		"languages": "En"
 	},
 	"Elite (Europe) (En,Fr,De)": {
-		"languages": "En,Fr,De"
+		"languages": "En, Fr, De"
 	},
 	"Elite (USA) (Proto)": {
 		"languages": "En"
@@ -2652,7 +2652,7 @@
 		"languages": "En"
 	},
 	"F-15 Strike Eagle (France) (En,Fr,Nl)": {
-		"languages": "En,Fr,Nl"
+		"languages": "En, Fr, Nl"
 	},
 	"F-15 Strike Eagle (Germany)": {
 		"languages": "De"
@@ -2661,7 +2661,7 @@
 		"languages": "It"
 	},
 	"F-15 Strike Eagle (Sweden) (Sv,Da,Fi)": {
-		"languages": "Sv,Da,Fi"
+		"languages": "Sv, Da, Fi"
 	},
 	"F-15 Strike Eagle (USA)": {
 		"languages": "En"
@@ -2835,7 +2835,7 @@
 		"languages": "Zh"
 	},
 	"Fantastic Adventures of Dizzy, The (Europe) (En,Fr,De) (Unl)": {
-		"languages": "En,Fr,De"
+		"languages": "En, Fr, De"
 	},
 	"Fantastic Adventures of Dizzy, The (USA) (Aladdin Compact Cartridge) (Unl)": {
 		"languages": "En"
@@ -4272,7 +4272,7 @@
 		"languages": "Ja"
 	},
 	"Jurassic Park (Europe) (En,Fr,De,Es)": {
-		"languages": "En,Fr,De,Es"
+		"languages": "En, Fr, De, Es"
 	},
 	"Jurassic Park (USA)": {
 		"languages": "En"
@@ -4677,10 +4677,10 @@
 		"languages": "Ja"
 	},
 	"L'Abbaye des Morts (World) (En,Ja,Fr,Es,Pt) (Aftermarket) (Unl)": {
-		"languages": "En,Ja,Fr,Es,Pt"
+		"languages": "En, Ja, Fr, Es, Pt"
 	},
 	"L'Abbaye des Morts (World) (En,Ja,Fr,Es,Pt) (Beta) (Aftermarket) (Unl)": {
-		"languages": "En,Ja,Fr,Es,Pt"
+		"languages": "En, Ja, Fr, Es, Pt"
 	},
 	"L.A Cop - Miss. Peach World (Japan) (Unl)": {
 		"languages": "Ja"
@@ -4812,7 +4812,7 @@
 		"languages": "Zh"
 	},
 	"Linus Spacehead's Cosmic Crusade (USA) (En,Fr,De,Es) (Unl)": {
-		"languages": "En,Fr,De,Es"
+		"languages": "En, Fr, De, Es"
 	},
 	"Lion King, The (Europe)": {
 		"languages": "En"
@@ -5859,7 +5859,7 @@
 		"languages": "En"
 	},
 	"Mystery World Dizzy (Europe) (En,Pt,Pl) (Unl)": {
-		"languages": "En,Pt,Pl"
+		"languages": "En, Pt, Pl"
 	},
 	"Nagagutsu o Haita Neko - Sekai Isshuu 80 Nichi Daibouken (Japan) (Beta)": {
 		"languages": "Ja"
@@ -6003,7 +6003,7 @@
 		"languages": "Ja"
 	},
 	"Nigel Mansell's World Championship (Europe) (En,Fr,De,Es,It)": {
-		"languages": "En,Fr,De,Es,It"
+		"languages": "En, Fr, De, Es, It"
 	},
 	"Nigel Mansell's World Championship Racing (USA) (Beta)": {
 		"languages": "En"
@@ -7707,10 +7707,10 @@
 		"languages": "En"
 	},
 	"Smurfs, The (Europe) (En,Fr,De,Es) (Beta)": {
-		"languages": "En,Fr,De,Es"
+		"languages": "En, Fr, De, Es"
 	},
 	"Smurfs, The (Europe) (En,Fr,De,Es)": {
-		"languages": "En,Fr,De,Es"
+		"languages": "En, Fr, De, Es"
 	},
 	"Snake Rattle n Roll (Europe)": {
 		"languages": "En"
@@ -9117,10 +9117,10 @@
 		"languages": "En"
 	},
 	"Ultimate Air Combat (Europe) (En,Fr,De) (Beta)": {
-		"languages": "En,Fr,De"
+		"languages": "En, Fr, De"
 	},
 	"Ultimate Air Combat (Europe) (En,Fr,De)": {
-		"languages": "En,Fr,De"
+		"languages": "En, Fr, De"
 	},
 	"Ultimate Air Combat (USA)": {
 		"languages": "En"
@@ -9459,10 +9459,10 @@
 		"languages": "En"
 	},
 	"Wonderland Dizzy (Europe) (En,Fr,Es,Nl,Pt,Pl) (2015) (Aftermarket) (Unl)": {
-		"languages": "En,Fr,Es,Nl,Pt,Pl"
+		"languages": "En, Fr, Es, Nl, Pt, Pl"
 	},
 	"Wonderland Dizzy (Europe) (En,Fr,Es,Nl,Pt,Pl) (Proto) (1993-09-24) (Unl)": {
-		"languages": "En,Fr,Es,Nl,Pt,Pl"
+		"languages": "En, Fr, Es, Nl, Pt, Pl"
 	},
 	"Woody Poko (Japan)": {
 		"languages": "Ja"

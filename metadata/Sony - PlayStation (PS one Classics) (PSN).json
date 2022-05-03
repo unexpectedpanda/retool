@@ -417,7 +417,7 @@
 		"languages": "Fr"
 	},
 	"Castlevania - Symphony of the Night (Germany) (En,De)": {
-		"languages": "En,De"
+		"languages": "En, De"
 	},
 	"Castlevania - Symphony of the Night (United Kingdom)": {
 		"languages": "En"
@@ -1248,10 +1248,10 @@
 		"languages": "En"
 	},
 	"Gex - Deep Cover Gecko (France) (Fr,De)": {
-		"languages": "Fr,De"
+		"languages": "Fr, De"
 	},
 	"Gex - Deep Cover Gecko (Germany) (Fr,De)": {
-		"languages": "Fr,De"
+		"languages": "Fr, De"
 	},
 	"Goiken Muyou II (Japan)": {
 		"languages": "Ja"
@@ -1320,7 +1320,7 @@
 		"languages": "Ja"
 	},
 	"Harvest Moon - Back to Nature (Germany) (En,De)": {
-		"languages": "En,De"
+		"languages": "En, De"
 	},
 	"Harvest Moon - Back to Nature (USA)": {
 		"languages": "En"
@@ -2412,10 +2412,10 @@
 		"languages": "Ja"
 	},
 	"Rayman 2 - The Great Escape (Europe) (En,Es,It)": {
-		"languages": "En,Es,It"
+		"languages": "En, Es, It"
 	},
 	"Rayman 2 - The Great Escape (Europe) (Fr,De)": {
-		"languages": "Fr,De"
+		"languages": "Fr, De"
 	},
 	"Rayman 2 - The Great Escape (Europe)": {
 		"languages": "En"
@@ -3072,7 +3072,7 @@
 		"languages": "En"
 	},
 	"Street Skater 2 (Germany) (En,Fr,De)": {
-		"languages": "En,Fr,De"
+		"languages": "En, Fr, De"
 	},
 	"Street Skater (Europe)": {
 		"languages": "En"
