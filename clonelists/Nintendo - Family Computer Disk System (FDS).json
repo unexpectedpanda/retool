@@ -3,7 +3,7 @@
 		"name": [
 			"Nintendo - Family Computer Disk System (FDS)"
 		],
-		"last updated": "2 January 2022",
+		"last updated": "3 May 2022",
 		"minimum version": "0.92"
 	},
 
@@ -143,9 +143,6 @@
 		"Nomura no Famicom Trade (FTEJ)": [
 			["Nomura no Famicom Trade (FTBJ)", 2],
 			["Nomura no Famicom Trade (FTAJ)", 3]
-		],
-		"Super Mario Bros. 2": [
-			["Super Mario Bros. 2 (Game & Watch - Super Mario Bros.)", 2]
 		],
 		"Zelda no Densetsu - The Hyrule Fantasy (Collector's Edition)": [
 			["Zelda no Densetsu - The Hyrule Fantasy", 2]
