@@ -1,3 +1,8 @@
+# 1.08
+
+- Updated Retool to support SHA256 hashes.
+
+
 # 1.07
 
 - Changed the way Retool handles versions to deal with more complex version

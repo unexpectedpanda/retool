@@ -283,9 +283,15 @@ def write_dat_file(input_dat, user_input, output_file_name, stats, titles, dat_n
                             sha1_string = ''
                         else:
                             sha1_string = f'sha1="{rom.sha1}" '
+
+                        if rom.sha256 == '':
+                            sha256_string = ''
+                        else:
+                            sha256_string = f'sha256="{rom.sha256}" '
+
                         rom_xml.append(
                             f'\n\t\t<rom {crc_string}{md5_string}'
-                            f'name="{html.escape(rom.name, quote=False)}" {sha1_string}'
+                            f'name="{html.escape(rom.name, quote=False)}" {sha1_string}{sha256_string}'
                             f'size="{rom.size}"/>')
 
                     rom_xml = ''.join(rom_xml)

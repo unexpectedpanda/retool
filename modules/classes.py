@@ -74,13 +74,7 @@ class DatNode:
                 print(region)
                 input(f'search string:', re.search('\((?:\w*,\s)*(?:' + region + ')(?:,\s\w*)*\)'))
 
-
             self.regions = re.search('\((?:\w*,\s)*(?:' + region + ')(?:,\s\w*)*\)', self.full_name).group()[1:-1]
-
-            # print('self.regions')
-            # print(self.regions)
-
-            # self.regions = re.search('\((.*?,){0,} {0,}' + region + '(,.*?){0,}\)', self.full_name)[0][1:-1]
 
             region_list = self.regions.split(', ')
             region_reorder = []
@@ -194,7 +188,12 @@ class DatNode:
             else:
                 sha1_string = rom['sha1']
 
-            roms.append(DatNodeRom('rom', crc_string, md5_string, rom['name'], sha1_string, rom['size']))
+            if 'sha256' not in (str(rom)):
+                sha256_string = ''
+            else:
+                sha256_string = rom['sha256']
+
+            roms.append(DatNodeRom(crc_string, md5_string, rom['name'], sha1_string, sha256_string, rom['size']))
 
         self.roms = roms
 
@@ -252,9 +251,9 @@ class DatNode:
         ret_str.append(f'  └ roms ┐\n')
         for i, rom in enumerate(self.roms):
             if i == len(self.roms) - 1:
-                ret_str.append(f'         └ name: {rom.name} | crc: {rom.crc} | md5: {rom.md5} | sha1: {rom.sha1} | size: {rom.size}\n\n')
+                ret_str.append(f'         └ name: {rom.name} | crc: {rom.crc} | md5: {rom.md5} | sha1: {rom.sha1} | sha256: {rom.sha256} | size: {rom.size}\n\n')
             else:
-                ret_str.append(f'         ├ name: {rom.name} | crc: {rom.crc} | md5: {rom.md5} | sha1: {rom.sha1} | size: {rom.size}\n')
+                ret_str.append(f'         ├ name: {rom.name} | crc: {rom.crc} | md5: {rom.md5} | sha1: {rom.sha1} | sha256: {rom.sha256} | size: {rom.size}\n')
 
         ret_str = ''.join(ret_str)
 
@@ -264,11 +263,12 @@ class DatNode:
 class DatNodeRom:
     """ Returns an object that contains a title's rom properties """
 
-    def __init__(self, rom, crc, md5, name, sha1, size):
+    def __init__(self, crc, md5, name, sha1, sha256, size):
         self.crc = crc.lower()
         self.md5 = md5.lower()
         self.name = name
         self.sha1 = sha1.lower()
+        self.sha256 = sha256.lower()
         self.size = size
 
 

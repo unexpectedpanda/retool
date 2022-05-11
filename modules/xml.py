@@ -71,6 +71,7 @@ def convert_clrmame_dat(input_dat, is_folder):
                     node = re.sub(' crc ', '" crc="', node.strip())
                     node = re.sub(' md5 ', '" md5="', node.strip())
                     node = re.sub(' sha1 ', '" sha1="', node.strip())
+                    node = re.sub(' sha256 ', '" sha256="', node.strip())
                     node = re.sub(' \)$', '" />', node.strip())
                     convert_dat.append('\t\t' + node)
             convert_dat.append('\t</game>')
@@ -163,6 +164,7 @@ def dat_to_dict(region, region_data, input_dat, user_input, removes_found, categ
             'crc' not in str(node.rom)
             and 'md5' not in str(node.rom)
             and 'sha1' not in str(node.rom)
+            and 'sha256' not in str(node.rom)
             and user_input.empty_titles != True
         ):
             continue
