@@ -7,10 +7,10 @@
    This DTD module is identified by the PUBLIC and SYSTEM identifiers:
 
    PUBLIC "-//Logiqx//DTD ROM Management Datafile//EN"
-   SYSTEM "http://www.logiqx.com/Dats/datafile.dtd"
+   SYSTEM "https://raw.githubusercontent.com/unexpectedpanda/retool/main/datafile.dtd"
 
-   $Revision: 1.9 $
-   $Date: 2022/05/12 07:33:45 $
+   $Revision: 2.0 $
+   $Date: 2022/05/14 13:07:00 $
 
 -->
 
@@ -67,6 +67,7 @@
 			<!ATTLIST rom name CDATA #REQUIRED>
 			<!ATTLIST rom size CDATA #IMPLIED>
 			<!ATTLIST rom crc CDATA #IMPLIED>
+			<!ATTLIST rom header CDATA #IMPLIED>
 			<!ATTLIST rom sha1 CDATA #IMPLIED>
 			<!ATTLIST rom sha256 CDATA #IMPLIED>
 			<!ATTLIST rom md5 CDATA #IMPLIED>
@@ -85,4 +86,3 @@
 			<!ATTLIST sample name CDATA #REQUIRED>
 		<!ELEMENT archive EMPTY>
 			<!ATTLIST archive name CDATA #REQUIRED>
-

@@ -193,7 +193,12 @@ class DatNode:
             else:
                 sha256_string = rom['sha256']
 
-            roms.append(DatNodeRom(crc_string, md5_string, rom['name'], sha1_string, sha256_string, rom['size']))
+            if 'header' not in (str(rom)):
+                header_string = ''
+            else:
+                header_string = rom['header']
+
+            roms.append(DatNodeRom(crc_string, header_string, md5_string, rom['name'], sha1_string, sha256_string, rom['size']))
 
         self.roms = roms
 
@@ -251,9 +256,9 @@ class DatNode:
         ret_str.append(f'  └ roms ┐\n')
         for i, rom in enumerate(self.roms):
             if i == len(self.roms) - 1:
-                ret_str.append(f'         └ name: {rom.name} | crc: {rom.crc} | md5: {rom.md5} | sha1: {rom.sha1} | sha256: {rom.sha256} | size: {rom.size}\n\n')
+                ret_str.append(f'         └ name: {rom.name} | header: {rom.header} | crc: {rom.crc} | md5: {rom.md5} | sha1: {rom.sha1} | sha256: {rom.sha256} | size: {rom.size}\n\n')
             else:
-                ret_str.append(f'         ├ name: {rom.name} | crc: {rom.crc} | md5: {rom.md5} | sha1: {rom.sha1} | sha256: {rom.sha256} | size: {rom.size}\n')
+                ret_str.append(f'         ├ name: {rom.name} | header: {rom.header} | crc: {rom.crc} | md5: {rom.md5} | sha1: {rom.sha1} | sha256: {rom.sha256} | size: {rom.size}\n')
 
         ret_str = ''.join(ret_str)
 
@@ -263,8 +268,9 @@ class DatNode:
 class DatNodeRom:
     """ Returns an object that contains a title's rom properties """
 
-    def __init__(self, crc, md5, name, sha1, sha256, size):
+    def __init__(self, crc, header, md5, name, sha1, sha256, size):
         self.crc = crc.lower()
+        self.header = header.lower()
         self.md5 = md5.lower()
         self.name = name
         self.sha1 = sha1.lower()

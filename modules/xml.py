@@ -69,6 +69,7 @@ def convert_clrmame_dat(input_dat, is_folder):
                     node = re.sub('^rom \( name ', '<rom name="', node.strip())
                     node = re.sub(' size ', '" size="', node.strip())
                     node = re.sub(' crc ', '" crc="', node.strip())
+                    node = re.sub(' header ', '" header="', node.strip())
                     node = re.sub(' md5 ', '" md5="', node.strip())
                     node = re.sub(' sha1 ', '" sha1="', node.strip())
                     node = re.sub(' sha256 ', '" sha256="', node.strip())
@@ -590,8 +591,8 @@ def process_input_dat(dat_file, is_folder, gui=False):
                         if dtd.validate(root) == False:
                             print('failed.')
                             printwrap(
-                                f'{Font.error_bold}* Error: {Font.error}XML file '
-                                f'doesn\'t conform to Logiqx dtd. '
+                                f'{Font.error_bold}* Error: {Font.error}DAT file '
+                                f'violates Logiqx DTD. '
                                 f'{dtd.error_log.last_error}.'
                                 f'{next_status}{Font.end}', 'error')
                             if is_folder == False:
@@ -601,7 +602,7 @@ def process_input_dat(dat_file, is_folder, gui=False):
                     except etree.XMLSyntaxError as e:
                         print('failed.')
                         printwrap(
-                            f'{Font.error_bold}* Error: {Font.error}XML file is '
+                            f'{Font.error_bold}* Error: {Font.error}DAT file is '
                             f'malformed. {e}.{next_status}{Font.end}', 'error')
                         if is_folder == False:
                             sys.exit()

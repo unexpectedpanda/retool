@@ -1,3 +1,8 @@
+# 1.09
+
+- Updated Retool to support `header` attributes on `rom` elements.
+
+
 # 1.08
 
 - Updated Retool to support SHA256 hashes.
@@ -10,6 +15,7 @@
   more accurate as a result.
 - Retool can now handle empty `<url>` tags in DAT headers.
 
+
 # 1.06
 
 - The `release` tag now copies the `game name` attribute, instead of the
@@ -18,6 +24,7 @@
 - The `(Deprecated)` tag is now ignored in DAT file names when matching to
   clone lists and metadata.
 
+
 # 1.05
 
 - Fixed a region selection regex bug which caused Retool to crash when
@@ -25,16 +32,19 @@
 - Added a more specific error message for DATs with no games.
 - The DTD was updated to make `size` an optional attribute of `rom`.
 
+
 # 1.04
 
 - Fixed a bug where _(United Kingdom)_ titles in No-Intro dats were being
   recognized as _(Unknown)_ titles as well.
+
 
 # 1.03
 
 - The Satellaview-specific `(Magazine)` tag has been added to the multimedia
   filter.
 - The `(DEBUG)` tag has been added to the preproduction filter.
+
 
 # 1.02
 
@@ -47,6 +57,7 @@
 - Added new languages: Albanian, Indonesian, Latvian, Macedonian, Serbian.
 - Added metadata languages: Catalan, Estonian, Gaelic, Hindi, Lithuanian,
   Punjabi, Tamil, Ukranian.
+
 
 # 1.01
 
