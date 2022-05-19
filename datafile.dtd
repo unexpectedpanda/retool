@@ -9,8 +9,8 @@
    PUBLIC "-//Logiqx//DTD ROM Management Datafile//EN"
    SYSTEM "https://raw.githubusercontent.com/unexpectedpanda/retool/main/datafile.dtd"
 
-   $Revision: 2.0 $
-   $Date: 2022/05/14 13:07:00 $
+   $Revision: 2.1 $
+   $Date: 2022/05/20 08:39:00 $
 
 -->
 
@@ -68,6 +68,7 @@
 			<!ATTLIST rom size CDATA #IMPLIED>
 			<!ATTLIST rom crc CDATA #IMPLIED>
 			<!ATTLIST rom header CDATA #IMPLIED>
+			<!ATTLIST rom mia CDATA #IMPLIED>
 			<!ATTLIST rom sha1 CDATA #IMPLIED>
 			<!ATTLIST rom sha256 CDATA #IMPLIED>
 			<!ATTLIST rom md5 CDATA #IMPLIED>

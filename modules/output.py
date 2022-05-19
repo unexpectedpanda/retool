@@ -294,8 +294,13 @@ def write_dat_file(input_dat, user_input, output_file_name, stats, titles, dat_n
                         else:
                             header_string = f'header="{rom.header}" '
 
+                        if rom.mia == '':
+                            mia_string = ''
+                        else:
+                            mia_string = f'mia="{rom.mia}" '
+
                         rom_xml.append(
-                            f'\n\t\t<rom {crc_string}{md5_string}'
+                            f'\n\t\t<rom {crc_string}{md5_string}{mia_string}'
                             f'name="{html.escape(rom.name, quote=False)}" {sha1_string}{sha256_string}{header_string}'
                             f'size="{rom.size}"/>')
 

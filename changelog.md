@@ -1,3 +1,8 @@
+# 1.10
+
+- Updated Retool to support `mia` attributes on `rom` elements.
+
+
 # 1.09
 
 - Updated Retool to support `header` attributes on `rom` elements.
