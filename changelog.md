@@ -1,3 +1,9 @@
+# 1.11
+
+- Fixed how Retool searches for `rom` attributes to avoid incorrect substring
+  matches. Retool should no longer crash on game names that contain `mia`.
+
+
 # 1.10
 
 - Updated Retool to support `mia` attributes on `rom` elements.

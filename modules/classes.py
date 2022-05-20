@@ -173,32 +173,32 @@ class DatNode:
         node_roms = node.findChildren('rom', recursive=False)
         roms = []
         for rom in node_roms:
-            if 'crc' not in (str(rom)):
+            if 'crc=' not in (str(rom)):
                 crc_string = ''
             else:
                 crc_string = rom['crc']
 
-            if 'md5' not in (str(rom)):
+            if 'md5=' not in (str(rom)):
                 md5_string = ''
             else:
                 md5_string = rom['md5']
 
-            if 'sha1' not in (str(rom)):
+            if 'sha1=' not in (str(rom)):
                 sha1_string = ''
             else:
                 sha1_string = rom['sha1']
 
-            if 'sha256' not in (str(rom)):
+            if 'sha256=' not in (str(rom)):
                 sha256_string = ''
             else:
                 sha256_string = rom['sha256']
 
-            if 'header' not in (str(rom)):
+            if 'header=' not in (str(rom)):
                 header_string = ''
             else:
                 header_string = rom['header']
 
-            if 'mia' not in (str(rom)):
+            if 'mia=' not in (str(rom)):
                 mia_string = ''
             else:
                 mia_string = rom['mia']
