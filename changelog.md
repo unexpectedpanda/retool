@@ -1,3 +1,8 @@
+# 1.12
+
+- Retool now brings over DAT manager directives in headers, including header
+  skippers. This should resolve issues around things like headered DATs.
+
 # 1.11
 
 - Fixed how Retool searches for `rom` attributes to avoid incorrect substring

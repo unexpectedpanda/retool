@@ -564,8 +564,9 @@ def process_input_dat(dat_file, is_folder, gui=False):
                     # Remove unexpected XML declarations from the file to avoid DTD check failures
                     if bool(re.search('<\?xml.*?>', line)) == True:
                         input_dat.contents[i] = input_dat.contents[i].replace(re.search('<\?xml.*?>', input_dat.contents[0])[0], '<?xml version="1.0"?>')
-                    # Remove CLRMAMEPro and Romcenter declarations to avoid DTD check failures
+                    # Capture, then remove CLRMAMEPro and Romcenter declarations to avoid DTD check failures
                     if bool(re.search('.*?<(clrmamepro|romcenter).*?>', line)) == True:
+                        input_dat.dat_manager_directives.append(input_dat.contents[i])
                         input_dat.contents[i] = ''
                     if bool(re.search('.*?</header>', line)) == True:
                         break
@@ -706,29 +707,13 @@ def header(input_dat, new_title_count, user_input, version):
     else:
         input_dat.author = 'Unknown &amp; Retool'
 
-    # Add rom headers if required
-    rom_header = ''
+     # Add DAT manager directives that were in the original DAT
+    rom_header: list[str] = []
 
-    if 'Atari - 7800' in input_dat.name:
-        rom_header = (
-            f'\n\t\t<clrmamepro header="No-Intro_A7800.xml"/>'
-            f'\n\t\t<romcenter plugin="a7800.dll"/>'
-        )
-    if 'Atari - Lynx' in input_dat.name:
-        rom_header = (
-            f'\n\t\t<clrmamepro header="No-Intro_LNX.xml"/>'
-            f'\n\t\t<romcenter plugin="lynx.dll"/>'
-            )
-    if 'Nintendo - Family Computer Disk System' in input_dat.name:
-        rom_header = (
-            f'\n\t\t<clrmamepro header="No-Intro_FDS.xml"/>'
-            f'\n\t\t<romcenter plugin="fds.dll"/>'
-            )
-    if 'Nintendo - Nintendo Entertainment System' in input_dat.name:
-        rom_header = (
-            f'\n\t\t<clrmamepro header="No-Intro_NES.xml"/>'
-            f'\n\t\t<romcenter plugin="nes.dll"/>'
-            )
+    for directive in input_dat.dat_manager_directives:
+        rom_header.append(f'\n\t\t{directive.strip()}')
+
+    rom_header_str: str = ''.join(sorted(rom_header))
 
     header = [
         '<?xml version="1.0"?>',
@@ -743,6 +728,6 @@ def header(input_dat, new_title_count, user_input, version):
         f'\n\t\t<author>{input_dat.author}</author>',
         '\n\t\t<homepage>http://www.github.com/unexpectedpanda/retool</homepage>',
         f'\n\t\t<url>{html.escape(input_dat.url, quote=False)}</url>',
-        rom_header,
+        rom_header_str,
         '\n\t</header>\n']
     return header
