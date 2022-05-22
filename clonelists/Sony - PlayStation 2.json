@@ -2655,10 +2655,11 @@
 			["Shin Megami Tensei III - Nocturne (Deluxe Pack)", 4]
 		],
 		"Shin Megami Tensei - Persona 3": [
-			["Shin Megami Tensei - Persona 3 FES", 0],
-			["Persona 3 FES", 0],
 			["P3 - Persona 3", 1],
 			["Persona 3", 1]
+		],
+		"Shin Megami Tensei - Persona 3 FES": [
+			["Persona 3 FES", 1]
 		],
 		"Shin Megami Tensei - Persona 4": [
 			["Persona 4", 1],
