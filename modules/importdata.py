@@ -113,7 +113,7 @@ def build_clone_lists(input_dat):
     """ Formats a clone list appriopriately """
 
     # Import JSON files that have the same name as dat_name + .json
-    remove_string = ' \((Parent-Clone|J64|ROM|Decrypted|Encrypted|BigEndian|ByteSwapped|Deprecated)\)'
+    remove_string = ' \((Parent-Clone|J64|ROM|Decrypted|Encrypted|BigEndian|ByteSwapped|Deprecated|Headered|Headerless)\)'
     if re.search(remove_string, input_dat.name) != None:
         dat_name = re.sub(remove_string, '', input_dat.name)
     else:
