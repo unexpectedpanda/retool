@@ -1,0 +1,26 @@
+{
+	"description": {
+		"name": [
+			"Atari - 7800"
+		],
+		"last updated": "11 September 2021",
+		"minimum version": "0.92"
+	},
+
+	"categories": {
+		"Atari 7800 Development Card": {
+			"match": "short",
+			"categories": ["Applications"]
+		},
+		"Diagnostic Test Cartrige": {
+			"match": "short",
+			"categories": ["Applications"]
+		}
+	},
+
+	"renames": {
+		"Pete Rose Baseball": [
+			["Baseball", 1]
+		]
+	}
+}

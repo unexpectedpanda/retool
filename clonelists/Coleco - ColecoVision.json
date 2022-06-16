@@ -1,0 +1,43 @@
+{
+    "description": {
+        "name": [
+			"Coleco - ColecoVision"
+		],
+        "last updated": "2 January 2022",
+		"minimum version": "0.92"
+    },
+
+    "categories": {
+		"ColecoVision Monitor Test": {
+			"match": "short",
+			"categories": ["Applications"]
+		},
+		"Final Test Cartridge": {
+			"match": "short",
+			"categories": ["Applications"]
+		},
+        "Super Controller Tester": {
+			"match": "short",
+			"categories": ["Applications"]
+		}
+	},
+
+	"overrides": {
+		"Super Action Football (Europe)": {
+			"new group": "Super Action Football (Europe)",
+			"match": "tag free"
+		}
+	},
+
+    "renames": {
+        "Amazing Bumpman": [
+           ["Number Bumper", 2]
+        ],
+		"Defender (BUG Fixed)": [
+			["Defender", 2]
+		],
+        "Front Line (Standard Controller)": [
+            ["Front Line (Super Action Controller)", 2]
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+{
+	"description": {
+		"name": [
+			"VTech - CreatiVision"
+		],
+		"last updated": "22 October 2021",
+		"minimum version": "0.92"
+	},
+
+	"categories": {
+		"CreatiVision Basic": {
+			"match": "short",
+			"categories": ["Applications"]
+		}
+	},
+
+	"renames": {
+		"Tennis (VTL)": [
+			["Tennis (DSE)", 2]
+		]
+	}
+}

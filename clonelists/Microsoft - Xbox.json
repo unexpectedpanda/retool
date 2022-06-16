@@ -1,0 +1,499 @@
+{
+	"description": {
+		"name": [
+			"Microsoft - Xbox"
+		],
+		"last updated": "30 January 2021",
+		"minimum version": "0.89"
+	},
+
+	"categories": {
+		"Official Xbox Magazine Game Disc 48 (Europe) (Fr,Es,It,Pt)": {
+			"match": "full",
+			"categories": ["Coverdiscs"]
+		}
+	},
+
+	"overrides": {
+		"Star Wars - The Clone Wars (Europe)": {
+			"new group": "Star Wars - The Clone Wars + Tetris Worlds",
+			"condition": {
+				"region": ["Asia"],
+				"higher than": ["USA", "Europe", "Germany", "France"]
+			}
+		},
+		"Star Wars - The Clone Wars (France)": {
+			"new group": "Star Wars - The Clone Wars + Tetris Worlds",
+			"condition": {
+				"region": ["Asia"],
+				"higher than": ["USA", "Europe", "Germany", "France"]
+			}
+		},
+		"Star Wars - The Clone Wars (Germany)": {
+			"new group": "Star Wars - The Clone Wars + Tetris Worlds",
+			"condition": {
+				"region": ["Asia"],
+				"higher than": ["USA", "Europe", "Germany", "France"]
+			}
+		},
+		"Star Wars - The Clone Wars (USA)": {
+			"new group": "Star Wars - The Clone Wars + Tetris Worlds",
+			"condition": {
+				"region": ["Asia"],
+				"higher than": ["USA", "Europe", "Germany", "France"]
+			}
+		},
+		"Star Wars - The Clone Wars + Tetris Worlds (Asia)": {
+			"new group": "Star Wars - The Clone Wars",
+			"condition": {
+				"region": ["USA", "Europe", "Germany", "France"],
+				"higher than": ["Asia"]
+			}
+		},
+		"Tetris Worlds (Europe) (En,Fr,De)": {
+			"new group": "Star Wars - The Clone Wars + Tetris Worlds",
+			"condition": {
+				"region": ["Asia"],
+				"higher than": ["USA", "Europe", "Germany", "France"]
+			}
+		},
+		"Tetris Worlds (Europe) (En,Fr,De,Is,It) (Online Enabled)": {
+			"new group": "Star Wars - The Clone Wars + Tetris Worlds",
+			"condition": {
+				"region": ["Asia"],
+				"higher than": ["USA", "Europe", "Germany", "France"]
+			}
+		},
+		"Tetris Worlds (Japan)": {
+			"new group": "Star Wars - The Clone Wars + Tetris Worlds",
+			"condition": {
+				"region": ["Asia"],
+				"higher than": ["USA", "Europe", "Germany", "France"]
+			}
+		},
+		"Tetris Worlds (USA)": {
+			"new group": "Star Wars - The Clone Wars + Tetris Worlds",
+			"condition": {
+				"region": ["Asia"],
+				"higher than": ["USA", "Europe", "Germany", "France"]
+			}
+		},
+		"Tetris Worlds (USA) (Online Enabled)": {
+			"new group": "Star Wars - The Clone Wars + Tetris Worlds",
+			"condition": {
+				"region": ["Asia"],
+				"higher than": ["USA", "Europe", "Germany", "France"]
+			}
+		}
+	},
+
+	"removes": {
+		"NCAA Football 2005 + Top Spin (USA) (En,Fr,De)": {},
+		"Sega GT 2002 + JSRF - Jet Set Radio Future (USA) (En,Ja)": {},
+		"Sega GT 2002 + JSRF - Jet Set Radio Future (Europe) (En,Fr,De,Es,It)": {},
+		"Star Wars - The Clone Wars + Tetris Worlds (USA)": {}
+	},
+
+	"renames": {
+		"AirForce Delta Storm": [
+			["AirForce Delta II", 1],
+			["Deadly Skies", 1]
+		],
+		"Amped - Freestyle Snowboarding": [
+			["Tenku - Freestyle Snowboarding", 1]
+		],
+		"Amped 2": [
+			["Tenku 2", 1]
+		],
+		"Apex": [
+			["Racing Evoluzione", 1]
+		],
+		"Bad Boys - Miami Takedown": [
+			["Bad Boys II", 1]
+		],
+		"Beat Down - Fists of Vengeance": [
+			["Beat Down", 1]
+		],
+		"Big Mutha Truckers 2": [
+			["Big Mutha Truckers 2 - Truck Me Harder", 1]
+		],
+		"Black Stone - Magic & Steel": [
+			["Ex-Chaser", 1]
+		],
+		"Brian Lara International Cricket 2005": [
+			["Ricky Ponting International Cricket 2005", 1]
+		],
+		"Call of Duty 2 - Big Red One": [
+			["Call of Duty 2 - Big Red One (Collector's Edition)", 0]
+		],
+		"Capcom vs. SNK 2 EO": [
+			["Capcom vs. SNK 2 EO - Mark of the Millennium 2001", 1]
+		],
+		"Championship Manager 5": [
+			["Entraineur 5, L' - Saison 04-05", 1],
+			["Scudetto 5", 1]
+		],
+		"Chronicles of Narnia, The - The Lion, the Witch and the Wardrobe": [
+			["Chroniken von Narnia, Die - Der Koenig von Narnia", 1],
+			["Monde de Narnia, Le - Chapitre 1 - Le Lion, la Sorciere Blanche et l'Armoire Magique", 1]
+		],
+		"Conflict - Desert Storm II - Back to Baghdad": [
+			["Conflict - Desert Storm II", 1]
+		],
+		"Conflict - Global Terror": [
+			["Conflict - Global Storm", 1]
+		],
+		"Crazy Taxi 3 - High Roller": [
+			["Crazy Taxi 3", 1]
+		],
+		"Crash Bandicoot - The Wrath of Cortex": [
+			["Crash Bandicoot 4 - Sakuretsu! Majin Power", 1]
+		],
+		"Crimson Sea": [
+			["Kurenai no Umi - Crimson Sea", 1]
+		],
+		"Dai Senryaku VII - Modern Military Tactics": [
+			["Daisenryaku VII", 1]
+		],
+		"Dakar 2 - The World's Ultimate Rally": [
+			["Dakar 2", 1]
+		],
+		"Dance Dance Revolution Ultramix": [
+			["Dancing Stage Unleashed", 1]
+		],
+		"Dance Dance Revolution Ultramix 2": [
+			["Dancing Stage Unleashed 2", 1]
+		],
+		"Dance Dance Revolution Ultramix 3": [
+			["Dancing Stage Unleashed 3", 1]
+		],
+		"Digimon Rumble Arena 2": [
+			["Digimon Battle Chronicle", 1]
+		],
+		"Digimon World 4": [
+			["Digimon World X", 1]
+		],
+		"Disney-Pixar The Incredibles": [
+			["Disney-Pixar Die Unglaublichen", 1],
+			["Disney-Pixar Gli Incredibili", 1],
+			["Disney-Pixar Los Increibles", 1],
+			["Disney-Pixar Mr. Incredible", 1]
+		],
+		"Disney's Chicken Little": [
+			["Disneys Himmel und Huhn", 1]
+		],
+		"Doom 3": [
+			["Doom 3 (Limited Collector's Edition)", 0]
+		],
+		"DreamWorks Shark Tale": [
+			["DreamWorks Shark Tale - Hajar som Hajar", 1]
+		],
+		"Dr. Seuss' The Cat in the Hat": [
+			["Cat in the Hat, The", 1]
+		],
+		"Dynasty Warriors 3": [
+			["Shin Sangoku Musou 2", 1]
+		],
+		"Dynasty Warriors 4": [
+			["Shin Sangoku Musou 3", 1]
+		],
+		"Dynasty Warriors 5": [
+			["Shin Sangoku Musou 4", 1]
+		],
+		"Egg Mania - Eggstreme Madness": [
+			["Egg Mania - Tsukande! Mawashite! Dossun Puzzle!!", 1],
+			["Eggo Mania", 1]
+		],
+		"Elder Scrolls III, The - Morrowind": [
+			["Elder Scrolls III, The - Morrowind - Game of the Year Edition", 0]
+		],
+		"ESPN International Winter Sports 2002": [
+			["ESPN International Winter Sports", 1],
+			["Hyper Sports 2002 Winter", 1]
+		],
+		"Fable": [
+			["Fable - The Lost Chapters", 0]
+		],
+		"Indigo Prophecy": [
+			["Fahrenheit", 0]
+		],
+		"Fantastic 4": [
+			["Fantastici 4, I", 1]
+		],
+		"Fatal Frame": [
+			["Fatal Frame - Zero Special Edition", 1],
+			["Project Zero", 1]
+		],
+		"Fatal Frame II - Crimson Butterfly - Director's Cut": [
+			["Project Zero II - Crimson Butterfly - Director's Cut", 1],
+			["Fatal Frame II - Crimson Butterfly", 1]
+		],
+		"FIFA Soccer 06": [
+			["FIFA 06", 1]
+		],
+		"FIFA Soccer 07": [
+			["FIFA 07", 1]
+		],
+		"FIFA Soccer 2003": [
+			["FIFA Football 2003", 1]
+		],
+		"FIFA Soccer 2004": [
+			["FIFA Football 2004", 1]
+		],
+		"FIFA Soccer 2005": [
+			["FIFA Football 2005", 1]
+		],
+		"Freestyle Street Soccer": [
+			["Urban Freestyle Soccer", 1]
+		],
+		"Gladiator - Sword of Vengeance": [
+			["Gladiator - Schwert der Rache", 1]
+		],
+		"Godfather, The - The Game": [
+			["Godfather, The", 1],
+			["Padrino, El", 1],
+			["Padrino, Il", 1],
+			["Parrain, Le", 1],
+			["Pate, Der", 1]
+		],
+		"GoldenEye - Rogue Agent": [
+			["GoldenEye - Agente Corrupto", 1],
+			["GoldenEye - Au Service du Mal", 1]
+		],
+		"Group S Challenge": [
+			["Circus Drive", 1]
+		],
+		"Guilty Gear X2 Reload - The Midnight Carnival": [
+			["Guilty Gear XX Reload - The Midnight Carnival", 1]
+		],
+		"Halo - Combat Evolved": [
+			["Halo", 1],
+			["Halo - Jeonjaengui Seomak", 1]
+		],
+		"Harry Potter and the Sorcerer's Stone": [
+			["Harry Potter and the Philosopher's Stone", 1]
+		],
+		"Hello Kitty - Roller Rescue": [
+			["Hello Kitty - Mission Rescue", 1]
+		],
+		"Hitman 2 - Silent Assassin": [
+			["Hitman - Silent Assassin", 1]
+		],
+		"Jade Empire": [
+			["Jade Empire - Hisui no Teikoku", 1]
+		],
+		"Kabuki Warriors": [
+			["Zan Kabuki", 1]
+		],
+		"Kung Fu Chaos": [
+			["Kung Fu Panic", 1]
+		],
+		"Lemony Snicket's A Series of Unfortunate Events": [
+			["Desastreuses Aventures des Orphelins Baudelaire, Les - D'Apres Lemony Snicket", 1],
+			["Lemony Snicket - Raetselhafte Ereignisse", 1],
+			["Una Serie de Catastroficas Desdichas de Lemony Snicket", 1]
+		],
+		"LMA Manager 2003": [
+			["BDFL Manager 2003", 1],
+			["Football Manager Campionato 2003", 1],
+			["Manager de Liga 2003", 1]
+		],
+		"LMA Manager 2004": [
+			["BDFL Manager 2004", 1],
+			["Football Manager Campionato 2004", 1],
+			["Manager de Liga 2004", 1]
+		],
+		"LMA Manager 2005": [
+			["BDFL Manager 2005", 1],
+			["Football Manager Campionato 2005", 1],
+			["Manager de Liga 2005", 1]
+		],
+		"Lord of the Rings, The - The Return of the King": [
+			["Herr der Ringe, Der - Die Rueckkehr des Koenigs", 1],
+			["Seigneur des Anneaux, Le - Le Retour du Roi", 1],
+			["Senor de los Anillos, El - El Retorno del Rey", 1],
+			["Signore degli Anelli, Il - Il ritorno del Re", 1]
+		],
+		"Lord of the Rings, The - The Third Age": [
+			["Herr der Ringe, Der - Das dritte Zeitalter", 1],
+			["Seigneur des Anneaux, Le - Le Tiers Age", 1],
+			["Senor de los Anillos, El - La Tercera Edad", 1],
+			["Signore degli Anelli, Il - La Terza Era", 1]
+		],
+		"Major League Baseball 2K5": [
+			["Major League Baseball 2K5 - World Series Edition", 0]
+		],
+		"Mashed - Drive to Survive": [
+			["Mashed - Fully Loaded", 0]
+		],
+		"Medal of Honor - European Assault": [
+			["Medal of Honor - Les Faucons de Guerre", 1]
+		],
+		"Medal of Honor - Frontline": [
+			["Medal of Honor - En Premiere Ligne", 1]
+		],
+		"Medal of Honor - Rising Sun": [
+			["Medal of Honor - Soleil Levant", 1]
+		],
+		"Metal Dungeon": [
+			["Migong Zhengfuzhe", 1]
+		],
+		"Midnight Club 3 - DUB Edition": [
+			["Midnight Club 3 - DUB Edition Remix", 0]
+		],
+		"Minority Report - Everybody Runs": [
+			["Minority Report - Le Futur vous Rattrape", 1]
+		],
+		"Motor Trend Presents Lotus Challenge": [
+			["Lotus Challenge", 1]
+		],
+		"MTV Music Generator 3 - This Is the Remix": [
+			["MTV Music Generator 3", 1]
+		],
+		"Murakumo - Renegade Mech Pursuit": [
+			["Murakumo", 1]
+		],
+		"Need for Speed - Most Wanted": [
+			["Need for Speed - Most Wanted - Black Edition", 0]
+		],
+		"Nickelodeon SpongeBob SquarePants - The Movie": [
+			["Nickelodeon SpongeBob Schwammkopf - Der Film", 1]
+		],
+		"Nickelodeon Tak - The Great Juju Challenge": [
+			["Nickelodeon Tak - Die grosse Juju-Jagd", 1]
+		],
+		"Ninja Gaiden": [
+			["Ninja Gaiden Black", 0]
+		],
+		"Oddworld - Stranger's Wrath": [
+			["Oddworld - La Fureur de l'Etranger", 1],
+			["Oddworld - Strangers Vergeltung", 1]
+		],
+		"Otogi - Myth of Demons": [
+			["Otogi", 2]
+		],
+		"Otogi 2 - Immortal Warriors": [
+			["Otogi - Hyakki Toubatsu Emaki", 1]
+		],
+		"Phantasy Star Online Episode I & II": [
+			["Phantasy Star Online - Episode I & II", 2]
+		],
+		"Power Drome": [
+			["Powerdrome", 1]
+		],
+		"Prince of Persia - Warrior Within": [
+			["Prince of Persia - Kenshi no Kokoro", 1]
+		],
+		"Pro Race Driver": [
+			["DTM Race Driver - Director's Cut", 1],
+			["TOCA Race Driver", 1],
+			["V8 Supercars Australia - Race Driver", 1]
+		],
+		"Project Gotham Racing": [
+			["Project Gotham - World Street Racer", 1]
+		],
+		"Puyo Pop Fever": [
+			["Puyo Puyo Fever", 1]
+		],
+		"Quantum Redshift": [
+			["Quantum Redshift - Chou Kousoku Kuukan Battle Race", 1]
+		],
+		"R-Racing": [
+			["R-Racing Evolution", 1],
+			["R-Racing Evolution - Life in the Fast Lane", 1]
+		],
+		"RedCard 20-03": [
+			["RedCard", 1]
+		],
+		"Red Ninja - End of Honor": [
+			["Red Ninja - End of Honour", 1]
+		],
+		"Samurai Warriors": [
+			["Sengoku Musou", 1]
+		],
+		"Silent Hill 2 - Restless Dreams": [
+			["Silent Hill 2 - Inner Fears", 1],
+			["Silent Hill 2 - Saigo no Uta", 1]
+		],
+		"Sneakers": [
+			["Nezmix", 1]
+		],
+		"Star Wars - Episode III - Revenge of the Sith": [
+			["Star Wars - Episode III - Die Rache der Sith", 1],
+			["Star Wars - Episode III - La Revanche des Sith", 1]
+		],
+		"Star Wars - Knights of the Old Republic": [
+			["Star Wars - Caballeros de la Antigua Republica", 1]
+		],
+		"Star Wars - Knights of the Old Republic II - The Sith Lords": [
+			["Star Wars - Caballeros de la Antigua Republica 2 - Los Senores Siths", 1]
+		],
+		"Star Wars - The Clone Wars": [
+			["Star Wars - La Guerra dei Cloni", 1],
+			["Star Wars - Las Guerras Clon", 1]
+		],
+		"Steel Battalion": [
+			["Tekki", 1]
+		],
+		"Sudeki": [
+			["Sudeki - Sennen no Akatsuki no Monogatari", 1]
+		],
+		"Tenchu - Return from Darkness": [
+			["Tenchu 3 - Kaiki no Shou", 1]
+		],
+		"Test Drive": [
+			["TD Overdrive - The Brotherhood of Speed", 1]
+		],
+		"Test Drive Off-Road - Wide Open": [
+			["Off-Road - Wide Open", 1]
+		],
+		"Tetris Worlds (Online Enabled)": [
+			["Tetris Worlds", 2]
+		],
+		"TOCA Race Driver (Online Enabled)": [
+			["DTM Race Driver Live", 2]
+		],
+		"TOCA Race Driver 2": [
+			["DTM Race Driver 2 - Ultimate Racing Simulator", 1],
+			["V8 Supercars Australia 2", 1]
+		],
+		"TOCA Race Driver 3": [
+			["DTM Race Driver 3", 1],
+			["V8 Supercars Australia 3", 1]
+		],
+		"Top Gear - RPM Tuning": [
+			["RPM Tuning", 1]
+		],
+		"UFC - Ultimate Fighting Championship - Tapout 2": [
+			["UFC - Ultimate Fighting Championship 2 - Tapout", 1]
+		],
+		"Ultra Bust-A-Move": [
+			["Ultra Puzzle Bobble", 1]
+		],
+		"WinBack 2 - Project Poseidon": [
+			["Operation WinBack 2 - Project Poseidon", 1]
+		],
+		"Winter X Games Snowboarding 2002": [
+			["Winter X Games Snowboarding 2", 1]
+		],
+		"World Soccer Winning Eleven 8 - International": [
+			["Pro Evolution Soccer 4", 1]
+		],
+		"World Soccer Winning Eleven 9": [
+			["Pro Evolution Soccer 5", 1]
+		],
+		"Wreckless - The Yakuza Missions": [
+			["Wreckless - Mission Yakusas", 1]
+		],
+		"WTA Tour Tennis": [
+			["Pro Tennis WTA Tour", 1],
+			["WTA Tour Tennis Pro Evolution", 1]
+		],
+		"WWF Raw": [
+			["WWE Raw", 1]
+		],
+		"XIII": [
+			["XIII - Daitouryou o Koroshita Otoko", 1]
+		]
+	}
+}

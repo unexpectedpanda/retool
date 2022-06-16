@@ -1,0 +1,274 @@
+{
+	"description": {
+		"name": [
+			"Sega - Master System - Mark III"
+		],
+		"last updated": "2 January 2022",
+		"minimum version": "0.92"
+	},
+
+	"categories": {
+		"Color & Switch Test": {
+			"match": "short",
+			"categories": ["Applications", "Preproduction"]
+		},
+		"Sega Graphic Board": {
+			"match": "short",
+			"categories": ["Applications", "Preproduction"]
+		}
+	},
+
+	"overrides": {
+		"Astro Warrior & Pit Pot (Europe)": {
+			"new group": "Astro Warrior",
+			"condition": {
+				"region": ["Japan"],
+				"higher than": ["Europe"]
+			}
+		},
+		"Astro Warrior (Japan, USA, Brazil)": {
+			"new group": "Astro Warrior & Pit Pot",
+			"condition": {
+				"region": ["Europe"],
+				"higher than": ["Japan", "USA", "Brazil"]
+			}
+		},
+		"Fushigi no Oshiro Pit Pot (Japan)": {
+			"new group": "Astro Warrior & Pit Pot",
+			"condition": {
+				"region": ["Europe"],
+				"higher than": ["Japan"]
+			}
+		},
+		"Great Baseball (Japan)": {
+			"new group": "Great Baseball (Japan)",
+			"match": "full"
+		},
+		"Great Golf (World) (Beta)": {
+			"new group": "Great Golf ~ Masters Golf",
+			"match": "full"
+		},
+		"Hang-On & Safari Hunt (USA)": {
+			"new group": "Safari Hunt",
+			"condition": {
+				"region": ["Japan"],
+				"higher than": ["USA"],
+				"else group": "Hang On"
+			}
+		},
+		"Hang On & Safari Hunt (USA) (Beta)": {
+			"new group": "Safari Hunt",
+			"match": "full",
+			"condition": {
+				"region": ["Japan"],
+				"higher than": ["USA"],
+				"else group": "Hang On"
+			}
+		},
+		"Marksman Shooting & Trap Shooting (USA, Brazil)": {
+			"new group": "Safari Hunt",
+			"condition": {
+				"region": ["Europe"],
+				"higher than": ["USA"]
+			}
+		},
+		"Marksman Shooting & Trap Shooting & Safari Hunt (Europe)": {
+			"new group": "Marksman Shooting & Trap Shooting",
+			"condition": {
+				"region": ["USA"],
+				"higher than": ["Europe"],
+				"else group": "Safari Hunt"
+			}
+		}
+	},
+
+	"removes": {
+		"Hang On & Astro Warrior": {
+			"match": "short"
+		},
+		"[BIOS] Hang On": {
+			"match": "short"
+		},
+		"[BIOS] Hang On & Safari Hunt (USA, Europe, Brazil) (En) (v2.4)": {
+			"match": "full"
+		}
+	},
+
+	"renames": {
+		"Alex Kidd - High-Tech World": [
+			["Anmitsu Hime", 1]
+		],
+		"Alex Kidd in Miracle World": [
+			["Alex Kido", 1],
+			["Alex Kidd no Miracle World", 1],
+			["[BIOS] Alex Kidd in Miracle World", 2],
+			["[BIOS] Alex Kidd in Miracle World (BIOS version)", 2]
+		],
+		"Argos no Juujiken": [
+			["Alocos", 1]
+		],
+		"Black Belt": [
+			["Hokuto no Ken", 1],
+			["Northen Ken", 1]
+		],
+		"Blade Eagle 3-D": [
+			["Blade Eagle", 1]
+		],
+		"Bubble Bobble": [
+			["Bubble Bobble", 1],
+			["Final Bubble Bobble", 1]
+		],
+		"California Games II": [
+			["Jogos de Verao II", 1]
+		],
+		"Cyborg Hunter": [
+			["Chouon Senshi Borgman", 1]
+		],
+		"Dinosaur Dooley, The": [
+			["Agigongnyong Dooly", 2]
+		],
+		"F-16 Fighter": [
+			["F-16 Fighting Falcon", 2]
+		],
+		"Fantasy Zone - The Maze": [
+			["Opa Opa", 1]
+		],
+		"Fantasy Zone II": [
+			["Fantasy Zone II - Opa-Opa no Namida", 1]
+		],
+		"Ghost House": [
+			["Yuyryeong-ui Jip", 1]
+		],
+		"Global Defense": [
+			["SDI", 1]
+		],
+		"Golfamania": [
+			["Super Golf", 2]
+		],
+		"Golvellius - Valley of Doom": [
+			["Maou Golvellius", 1]
+		],
+		"Great Basketball": [
+			["94-Nen Super Basketball", 1]
+		],
+		"James 'Buster' Douglas Knockout Boxing": [
+			["George Foreman's KO Boxing", 1],
+			["Heavyweight Champ", 2]
+		],
+		"Kenseiden": [
+			["Hwarang-ui Geom", 1]
+		],
+		"Kung Fu Kid": [
+			["Makai Retsuden", 1]
+		],
+		"Lord of the Sword": [
+			["Lord of Sword", 1]
+		],
+		"Master of Darkness": [
+			["Vampire", 2]
+		],
+		"Maze Hunter 3-D": [
+			["Maze Walker", 1]
+		],
+		"Miracle Warriors - Seal of the Dark Lord": [
+			["Haja no Fuuin", 1]
+		],
+		"Missile Defense 3-D": [
+			["[BIOS] Missile Defense 3-D", 2]
+		],
+		"My Hero": [
+			["Action Boy", 1],
+			["Seishun Scandal", 1],
+			["Ttoriui Moheom", 1]
+		],
+		"Ninja, The": [
+			["Ninja", 1]
+		],
+		"Paperboy": [
+			["Paper Boy", 1]
+		],
+		"Parlour Games": [
+			["Family Games", 1]
+		],
+		"Penguin Land": [
+			["Astro Adventure", 1],
+			["Doki Doki Penguin Land - Uchuu Daibouken", 1]
+		],
+		"Power Strike": [
+			["Aleste", 1]
+		],
+		"Pro Wrestling": [
+			["Gokuaku Doumei Dump Matsumoto", 1]
+		],
+		"Quartet": [
+			["Double Target - Cynthia no Nemuri", 1]
+		],
+		"Rambo - First Blood Part II": [
+			["Ashura", 1],
+			["Secret Command", 1],
+			["Shangwei Mingling", 1]
+		],
+		"Reggie Jackson Baseball": [
+			["American Baseball", 1]
+		],
+		"Shadow Dancer - The Secret of Shinobi": [
+			["Shadow Dancer", 1]
+		],
+		"Sky Jaguar": [
+			["Sky Jaguar (Clover)", 2]
+		],
+		"Slap Shot": [
+			["Slap Shoot", 2]
+		],
+		"Sonic The Hedgehog": [
+			["[BIOS] Sonic The Hedgehog", 2]
+		],
+		"Space Harrier 3-D": [
+			["Space Harrier 3D", 1]
+		],
+		"SpellCaster": [
+			["Kujaku Ou", 1]
+		],
+		"Strider": [
+			["Strider, The", 1]
+		],
+		"Super Tennis": [
+			["Great Tennis", 1]
+		],
+		"Tecmo World Cup '93": [
+			["Tecmo World Cup '92", 2]
+		],
+		"Teddy Boy": [
+			["Teddy Boy Blues", 1],
+			["Teddy Boy Blues (Ep-MyCard)", 2]
+		],
+		"Tom and Jerry - The Movie": [
+			["Tom & Jerry", 2]
+		],
+		"TransBot": [
+			["Astro Flash", 1]
+		],
+		"Walter Payton Football": [
+			["American Pro Football", 1]
+		],
+		"Wonder Boy III - The Dragon's Trap": [
+			["Turma da Monica em O Resgate", 1]
+		],
+		"Wonder Boy in Monster Land": [
+			["Monica no Castelo do Dragao", 1],
+			["Super Wonder Boy - Monster World", 1]
+		],
+		"Woody Pop - Shinjinrui no Block Kuzushi": [
+			["Super Arkanoid", 1]
+		],
+		"World Grand Prix": [
+			["Circuit, The", 1]
+		],
+		"World Soccer": [
+			["Sports Pad Soccer", 1]
+		],
+		"Ys - The Vanished Omens": [
+			["Ys", 1]
+		]
+	}
+}

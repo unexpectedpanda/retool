@@ -1,0 +1,14 @@
+{
+	"description": {
+		"name": [
+			"SNK - Neo Geo CD"
+		],
+		"last updated": "11 September 2021",
+		"minimum version": "0.89"
+	},
+    "removes": {
+            "Double Dragon (Export) (En,Ja)": {},
+            "Fuuun Mokushiroku - Kakutou Sousei ~ Savage Reign (Export) (En,Ja,Es,Pt)": {},
+            "Garou Densetsu 3 - Road to the Final Victory ~ Fatal Fury 3 - Road to the Final Victory (Export) (En,Ja,Es,Pt)": {}
+    }
+}

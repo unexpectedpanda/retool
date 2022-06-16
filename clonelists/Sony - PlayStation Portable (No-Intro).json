@@ -1,0 +1,156 @@
+{
+	"description": {
+		"name": [
+			"Sony - PlayStation Portable (No-Intro)"
+		],
+		"last updated": "24 March 2022",
+		"minimum version": "0.89"
+	},
+
+	"overrides": {
+		"TalkMan EURO - TalkMan Europa Gengo Ban (Asia) (En,Fr,De,Es,It,Ko) (v1.03) (Microphone Doukonban)": {
+			"new group": "TalkMan EURO - TalkMan Europa Gengo Ban",
+			"match": "full"
+		},
+		"TalkMan Euro (Asia) (En,Fr,De,Es,It,Zh) (v1.03) (Software Doukonban)": {
+			"new group": "TalkMan EURO - TalkMan Europa Gengo Ban",
+			"match": "full"
+		}
+	},
+
+	"renames": {
+		"007 - From Russia with Love": [
+			["007 - Russia Yori Ai o Komete", 1]
+		],
+		"Bubble Bobble - Evolution": [
+			["Bubble Bobble - Magical Tower Daisakusen!!", 1]
+		],
+		"Buzz! Brain of the World": [
+			["Buzz! Il Quizzone Nazionale", 1]
+		],
+		"Cars": [
+			["Bilar", 1],
+			["Biler", 1]
+		],
+		"Coded Arms - Contagion": [
+			["Coded Gun - Contagion", 1]
+		],
+		"Coded Soul - Uke Keigareshi Idea": [
+			["Coded Soul", 1]
+		],
+		"Con - Gamble Fight, The": [
+			["Gamble Con Fight", 1]
+		],
+		"Crash Tag Team Racing": [
+			["Crash Bandicoot - Gacchanko World", 1]
+		],
+		"Crimsongem Saga": [
+			["Garnet Chronicle - Kouki no Maseki", 1]
+		],
+		"Crisis Core - Final Fantasy VII (10th Anniversary Limited Edition)": [
+			["Crisis Core - Final Fantasy VII", 2]
+		],
+		"Dante's Inferno": [
+			["Dante's Inferno - Shinkyoku Jigoku-Hen", 1]
+		],
+		"Dead Head Fred": [
+			["Dead Head Fred - Kubinashi Tantei no Akumu", 1]
+		],
+		"Dokodemo Issho - Let's Gakkou!": [
+			["Dokodemo Issho - Let's Gakkou! (Obenkyou Pack)", 2]
+		],
+		"Dynasty Warriors Vol. 2": [
+			["Shin Sangoku Musou - 2nd Evolution", 1]
+		],
+		"FIFA 10": [
+			["FIFA 10 - World Class Soccer", 1]
+		],
+		"FIFA 11 (Platinum Edition)": [
+			["FIFA 11 - World Class Soccer", 1],
+			["FIFA 11", 2]
+		],
+		"FIFA 12": [
+			["FIFA 12 - World Class Soccer", 1]
+		],
+		"FIFA 14": [
+			["FIFA 14 - World Class Soccer", 1]
+		],
+		"FIFA Soccer 13": [
+			["FIFA 13", 1],
+			["FIFA 13 - World Class Soccer", 1]
+		],
+		"Final Approach 2 - 1st Priority Portable": [
+			["Final Approach 2 - 1st Priority Portable (Limited Edition)", 2]
+		],
+		"Fullmetal Alchemist - Brotherhood": [
+			["Hagane no Renkinjutsushi - Fullmetal Alchemist - Senaka o Takuseshi Mono", 1]
+		],
+		"Heart no Kuni no Alice Anniversary Ver. - Wonderful Wonder World": [
+			["Heart no Kuni no Alice", 2]
+		],
+		"King of Fighters Collection, The - The Orochi Saga": [
+			["King of Fighters Portable '94-'98, The - Chapter of Orochi", 1]
+		],
+		"Koukaku Kidoutai - Stand Alone Complex": [
+			["Koukaku Kidoutai - Stand Alone Complex - Kariudo no Ryouiki", 1]
+		],
+		"Lost Regnum - Makutsu no Koutei": [
+			["Lost Regnum - The Emperor of Theives", 1]
+		],
+		"Magic Sudoku": [
+			["Sudoku & Nemonemo Logic", 1]
+		],
+		"Moeru Mahjong - Moejong (Premium Box)": [
+			["Moeru Mahjong - Moejong", 2]
+		],
+		"MotorStorm - Arctic Edge": [
+			["MotorStorm - Raging Ice", 1]
+		],
+		"Patapon 2": [
+			["Patapon 2 - Don-Chaka", 1],
+			["Patapon 2 (PSN & Store)", 2]
+		],
+		"Planetarian - Chiisana Hoshi no Yume (Touhoku-Chihou Taiheiyou-Oki Jishin Hisaichi Charity Ban)": [
+			["Planetarian - Chiisana Hoshi no Yume", 2]
+		],
+		"Pro Evolution Soccer 2013": [
+			["World Soccer Winning Eleven 2013", 1]
+		],
+		"Pursuit Force": [
+			["Pursuit Force - Daitsuiseki", 1]
+		],
+		"Ratatouille": [
+			["Ratatooee", 1]
+		],
+		"Ratchet & Clank - Size Matters": [
+			["Ratchet & Clank 5 - Gekitotsu! Dodeka Ginga no MiriMiri Gundan", 1]
+		],
+		"Resistance - Retribution": [
+			["Resistance - Houfuku no Toki", 1]
+		],
+		"Sampler Disc for PSP Vol. 1": [
+			["Sampler Disc for PSP Vol. 1 (Demo)", 1]
+		],
+		"Sega Rally Revo": [
+			["Sega Rally", 1]
+		],
+		"Shinseiki Evangelion 2 - Tsukurareshi Sekai - Another Cases (10 Shuunen Kinen Memorial Box)": [
+			["Shinseiki Evangelion 2 - Tsukurareshi Sekai - Another Cases", 2]
+		],
+		"Sims 2, The": [
+			["Sims 2, The - Dr. Dominic no Inbou", 1]
+		],
+		"Strikers 1945 Plus Portable": [
+			["Strikers 1945 Plus", 1]
+		],
+		"Up": [
+			["Psila Ston Ourano", 1]
+		],
+		"Warriors Orochi": [
+			["Musou Orochi", 1]
+		],
+		"WTF - Work Time Fun": [
+			["Beit Hell 2000", 1]
+		]
+	}
+}

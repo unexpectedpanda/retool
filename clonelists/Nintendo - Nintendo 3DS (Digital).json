@@ -1,0 +1,227 @@
+{
+	"description": {
+		"name": [
+			"Nintendo - Nintendo 3DS (Digital)"
+		],
+		"last updated": "9 April 2021",
+		"minimum version": "0.89"
+	},
+
+	"renames": {
+		"101 Pony Pets 3D": [
+			["Pony Pets 3D", 1]
+		],
+		"2 Fast 4 Gnomz": [
+			["Gekiyaba Runner", 1]
+		],
+		"3D Fantasy Zone - Opa-Opa Bros.": [
+			["3D Fantasy Zone", 1]
+		],
+		"3D Streets of Rage 2": [
+			["3D Bare Knuckle II - Shitou e no Requiem", 1]
+		],
+		"AeternoBlade": [
+			["Time Avenger", 1]
+		],
+		"Attack of the Friday Monsters! A Tokyo Tale": [
+			["Guild02 - Kaijuu ga Deru Kinyoubi", 1]
+		],
+		"Attack on Titan - Humanity in Chains": [
+			["Shingeki no Kyojin - Humanity in Chains", 1]
+		],
+		"Azure Striker Gunvolt": [
+			["Armed Blue - Gunvolt", 1]
+		],
+		"Bike Rider DX": [
+			["Chari-Sou DX", 1]
+		],
+		"BOXBOY!": [
+			["Hako Boy!", 1]
+		],
+		"Chibi-Robo! Photo Finder": [
+			["Chibi-Robo! Let's Go, Photo!", 1]
+		],
+		"Crashmo": [
+			["Fallblox", 1],
+			["Hikuotsu", 1]
+		],
+		"Dillon's Rolling Western": [
+			["Rolling Western, The", 1]
+		],
+		"Dillon's Rolling Western - The Last Ranger": [
+			["Rolling Western, The - Saigo no Youjinbou", 1]
+		],
+		"F-Zero - Maximum Velocity": [
+			["F-Zero for Game Boy Advance", 1]
+		],
+		"Fire Emblem - The Sacred Stones": [
+			["Fire Emblem - Seima no Kouseki", 1]
+		],
+		"Flipnote Studio 3D": [
+			["Ugoku Memo Chou 3D", 1]
+		],
+		"Fluidity - Spin Cycle": [
+			["Hydroventure - Spin Cycle", 1]
+		],
+		"Gunman Clive": [
+			["Gumman Story", 1],
+			["Gunman Story", 1]
+		],
+		"Gunman Clive 2": [
+			["Gumman Story 2", 1]
+		],
+		"Iron Combat - War in the Air": [
+			["Rinkou no Lantse", 1]
+		],
+		"Japanese Rail Sim 3D - Journey in Suburbs #1": [
+			["Tetsudou Nippon! Rosen Tabi - Nagaragawa Tetsudou Hen", 1]
+		],
+		"Johnny's Payday Panic": [
+			["Gekidou! Arbeiter Koji", 1]
+		],
+		"Kersploosh!": [
+			["Splash or Crash", 1]
+		],
+		"Ketzal's Corridors": [
+			["SpeedThru - Potzol's Puzzle", 1]
+		],
+		"Kirby & The Amazing Mirror": [
+			["Hoshi no Kirby - Kagami no Daimeikyuu", 1]
+		],
+		"Legend of Dark Witch, The": [
+			["Legend of Dark Witch, The - Chronicle 2D ACT", 1]
+		],
+		"Legend of Zelda, The - The Minish Cap": [
+			["Zelda no Densetsu - Fushigi no Boushi", 1]
+		],
+		"Luigi's Mansion - Dark Moon": [
+			["Luigi's Mansion 2", 1]
+		],
+		"Mario Kart - Super Circuit": [
+			["Mario Kart Advance", 1]
+		],
+		"Mario and Donkey Kong - Minis on the Move": [
+			["Mario and Donkey Kong - Mini Mini Carnival", 1]
+		],
+		"Mutant Mudds": [
+			["Mud Attack! Max vs Dorodoro Seijin", 1]
+		],
+		"New Super Mario Bros. 2": [
+			["New Super Mario Bros. 2 Gold Edition", 0],
+			["New Super Mario Bros. 2 Special Edition", 0]
+		],
+		"New Super Mario Bros. 2 Gold Edition": [
+			["New Super Mario Bros. 2 Special Edition", 1]
+		],
+		"Ninja Usagimaru - The Gem of Blessings": [
+			["Shippuu no Usagi-Maru - Megumi no Tama to Fuuma no Shirushi", 1]
+		],
+		"Nintendo Badge Arcade": [
+			["Home Menu ni Kazareru Badge Toreru Center", 1]
+		],
+		"Photos with Animal Crossing": [
+			["Isshoni Photo Doubutsu no Mori", 1]
+		],
+		"Photos with Mario": [
+			["Isshoni Photo Super Mario", 1]
+		],
+		"Pocket Card Jockey": [
+			["SolitiBa", 1]
+		],
+		"Pokedex 3D": [
+			["Pokedex", 2]
+		],
+		"Pokemon Link - Battle!": [
+			["Pokemon Battle Trozei", 1]
+		],
+		"Proun+": [
+			["Loop Line Racing", 1]
+		],
+		"Pushmo": [
+			["Hikuosu", 1],
+			["Pullblox", 1]
+		],
+		"PUZZLEBOX setup": [
+			["Puzzle Bottle", 1]
+		],
+		"Quell Memento": [
+			["Shizuku Memory", 1]
+		],
+		"Rabi Laby 3": [
+			["Rabi x Rabi - Episode 3", 1]
+		],
+		"Sadame": [
+			["Ishi Sengokuden Sadame", 1]
+		],
+		"Sakura Samurai - Art of the Sword": [
+			["Hana Samurai - Art of the Sword", 1]
+		],
+		"Shovel Knight": [
+			["Shovel Knight + Shovel Knight - Plague of Shadows", 0]
+		],
+		"Skater Cat": [
+			["peakvox - Mew Mew Train", 1]
+		],
+		"SmileBASIC": [
+			["Puchikon No. 3 SmileBASIC", 1]
+		],
+		"Soccer Up Online": [
+			["Football Up Online", 1]
+		],
+		"Sparkle Snapshots 3D": [
+			["Deco Photo 3D", 1],
+			["Foto-Zauber 3D", 1]
+		],
+		"Stretchmo": [
+			["Fullblox", 1],
+			["Hikudasu - Hippa Land", 1]
+		],
+		"Swapnote": [
+			["Nintendo Letter Box", 1]
+		],
+		"Tangram Attack": [
+			["Tangram Style", 1]
+		],
+		"THE DENPA MEN - They Came By Wave": [
+			["DENPA MEN, The - They Came By Wave", 1],
+			["Denpa Ningen no RPG", 1]
+		],
+		"THE DENPA MEN 3 - The Rise of Digitoll": [
+			["Denpa Ningen no RPG 3", 1]
+		],
+		"Thorium Wars - Attack of the Skyfighter": [
+			["Sky Fighters - Thorium Sensou, The", 1]
+		],
+		"Tokyo Crash Mobs": [
+			["Gyouretsu NageLoop", 1]
+		],
+		"Tomodachi Life": [
+			["Tomodachi Collection - Shin Seikatsu", 1]
+		],
+		"Tomodachi Life - Move-In Version": [
+			["Tomodachi Life - Welcome Version", 1]
+		],
+		"Van Helsing Sniper Zx100": [
+			["Vampire Sniper", 1]
+		],
+		"Wario Land 4": [
+			["Wario Land Advance - Youki no Otakara", 1]
+		],
+		"WarioWare, Inc. - Mega Microgame$!": [
+			["Made in Wario", 1],
+			["Wario Ware, Inc - Minigame Mania", 1]
+		],
+		"Witch & Hero": [
+			["Majo to Yuusha", 1]
+		],
+		"Yoshi's Island - Super Mario Advance 3": [
+			["Super Mario Advance 3 - Yoshi's Island + Mario Brothers", 1]
+		],
+		"Yumi's Odd Odyssey": [
+			["Sayonara Umihara Kawase", 1]
+		],
+		"Zen Pinball": [
+			["Zen Pinball 3D", 1]
+		]
+	}
+}

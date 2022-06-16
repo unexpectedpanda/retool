@@ -1,0 +1,658 @@
+{
+	"description": {
+		"name": [
+			"Nintendo - GameCube",
+			"Nintendo - GameCube - NKit GCZ",
+			"Nintendo - GameCube - NKit ISO",
+			"Nintendo - GameCube - NASOs"
+		],
+		"last updated": "2 January 2022",
+		"minimum version": "0.89"
+	},
+
+	"categories": {
+		"Kidou Senshi Gundam - Senshi-tachi no Kiseki - Kadokawa Shoten Rengou Kikaku Tokubetsu-hen": {
+			"match": "short",
+			"categories": ["Promotional"]
+		},
+		"Ribbit King Plus! (Bonus Disc)": {
+			"match": "short",
+			"categories": ["Video"]
+		},
+		"SmaBro DX Event-you Disc": {
+			"match": "short",
+			"categories": ["Promotional"]
+		}
+	},
+
+	"overrides": {
+		"Disney Sports - Football (Europe) (En,Fr,De,Es,It)": {
+			"new group": "Disney Sports - Soccer",
+			"match": "tag free"
+		}
+	},
+
+	"renames": {
+		"007 - Agent Under Fire": [
+			["007 - Agent im Kreuzfeuer", 1],
+			["007 - Espion pour Cible", 1]
+		],
+		"007 - Everything or Nothing": [
+			["007 - Alles oder Nichts", 1],
+			["007 - Quitte ou Double", 1],
+			["007 - Todo o Nada", 1]
+		],
+		"007 - From Russia with Love": [
+			["007 - Bons Baisers de Russie", 1],
+			["007 - Liebesgruesse aus Moskau", 1]
+		],
+		"1080 Avalanche": [
+			["1080 Silver Storm", 1]
+		],
+		"Action Replay Ultimate Cheats for Use with Pokemon Colosseum": [
+			["Action Replay Ultimate Cheats fuer Pokemon Colosseum", 1]
+		],
+		"Action Replay Ultimate Codes for Use with Enter the Matrix": [
+			["Action Replay Ultimate Cheats for Use with Enter the Matrix", 1],
+			["Action Replay Ultimate Cheats fuer Enter the Matrix", 1]
+		],
+		"Action Replay Ultimate Codes for Use with Final Fantasy - Crystal Chronicles": [
+			["Action Replay Ultimative Cheatcodes fuer Final Fantasy - Crystal Chronicles", 1]
+		],
+		"Action Replay Ultimate Codes Max Pack": [
+			["Action Replay Ultimative Cheats Greatest Hits 2003", 1]
+		],
+		"Amazing Island": [
+			["Kaijuu no Shima - Amazing Island", 1]
+		],
+		"Animal Crossing": [
+			["Doubutsu no Mori +", 1]
+		],
+		"Auto Modellista": [
+			["Auto Modellista - U.S.-tuned", 1]
+		],
+		"Bad Boys - Miami Takedown": [
+			["Bad Boys II", 1]
+		],
+		"Baten Kaitos - Eternal Wings and the Lost Ocean (Disc 1)": [
+			["Baten Kaitos - Owaranai Tsubasa to Ushinawareta Umi (Disc 1)", 1]
+		],
+		"Baten Kaitos - Eternal Wings and the Lost Ocean (Disc 2)": [
+			["Baten Kaitos - Owaranai Tsubasa to Ushinawareta Umi (Disc 2)", 1]
+		],
+		"Baten Kaitos Origins (Disc 1)": [
+			["Baten Kaitos II - Hajimari no Tsubasa to Kamigami no Shishi (Disc 1)", 1]
+		],
+		"Baten Kaitos Origins (Disc 2)": [
+			["Baten Kaitos II - Hajimari no Tsubasa to Kamigami no Shishi (Disc 2)", 1]
+		],
+		"Battalion Wars": [
+			["Totsugeki!! Famicom Wars", 1]
+		],
+		"Beyblade VForce - Super Tournament Battle": [
+			["Bakuten Shoot Beyblade 2002 - Nettou! Magne Tag Battle!", 1]
+		],
+		"Billy Hatcher and the Giant Egg": [
+			["Giant Egg - Billy Hatcher no Daibouken", 1]
+		],
+		"Bloody Roar - Primal Fury": [
+			["Bloody Roar - Extreme", 1]
+		],
+		"Buffy the Vampire Slayer - Chaos Bleeds": [
+			["Buffy contre les Vampires - Chaos Bleeds", 1],
+			["Buffy im Bann der Daemonen - Chaos Bleeds", 1]
+		],
+		"Bust-A-Move 3000": [
+			["Super Bust-A-Move All Stars", 1],
+			["Super Puzzle Bobble All Stars", 1]
+		],
+		"Capcom vs. SNK 2 EO": [
+			["Capcom vs. SNK 2 EO - Millionaire Fighting 2001", 1]
+		],
+		"Chaos Field": [
+			["Chaos Field Expanded", 1]
+		],
+		"Chibi-Robo! Plug into Adventure!": [
+			["Chibi-Robo!", 1],
+			["ChibiRobo!", 1]
+		],
+		"Chronicles of Narnia, The - The Lion, the Witch and the Wardrobe": [
+			["Chroniken von Narnia, Die - Der Koenig von Narnia", 1],
+			["Monde de Narnia, Le - Chapitre 1 - Le Lion, la Sorciere Blanche et l'Armoire Magique", 1]
+		],
+		"Codename - Kids Next Door - Operation - V.I.D.E.O.G.A.M.E.": [
+			["Codename - Kids Next Door - Operation - V.I.D.E.O.S.P.I.E.L.", 1]
+		],
+		"Conflict - Desert Storm II - Back to Baghdad": [
+			["Conflict - Desert Storm II", 1]
+		],
+		"Crash Bandicoot - The Wrath of Cortex": [
+			["Crash Bandicoot 4 - Sakuretsu! Majin Power", 1]
+		],
+		"Crash Nitro Kart": [
+			["Crash Bandicoot - Bakusou! Nitro Kart", 1]
+		],
+		"Crash Tag Team Racing": [
+			["Crash Bandicoot - Gatchanko World", 1]
+		],
+		"Cubivore - Survival of the Fittest": [
+			["Doubutsu Banchou", 1]
+		],
+		"Custom Robo": [
+			["Custom Robo - Battle Revolution", 1]
+		],
+		"Dakar 2 - The World's Ultimate Rally": [
+			["Dakar 2", 1]
+		],
+		"Dance Dance Revolution - Mario Mix": [
+			["Dance Dance Revolution with Mario", 1],
+			["Dancing Stage Mario Mix", 1]
+		],
+		"Defender": [
+			["Defender - For All Mankind", 1]
+		],
+		"Digimon Rumble Arena 2": [
+			["Digimon Battle Chronicle", 1]
+		],
+		"Digimon World 4": [
+			["Digimon World X", 1]
+		],
+		"Disney-Pixar Finding Nemo": [
+			["Disney-Pixar Buscando a Nemo", 1],
+			["Disney-Pixar Findet Nemo", 1],
+			["Disney-Pixar Le Monde de Nemo", 1],
+			["2 Games in 1 - Disney-Pixar Die Unglaublichen + Disney-Pixar Findet Nemo (Disc 2)", 2],
+			["2 Games in 1 - Disney-Pixar Les Indestructibles + Disney-Pixar Le Monde de Nemo (Disc 2) (Le Monde de Nemo)", 2]
+		],
+		"Disney-Pixar The Incredibles": [
+			["Disney-Pixar Die Unglaublichen", 1],
+			["Disney-Pixar Les Indestructibles", 1],
+			["Disney-Pixar Mr. Incredible", 1],
+			["2 Games in 1 - Disney-Pixar Die Unglaublichen + Disney-Pixar Findet Nemo (Disc 1)", 2],
+			["2 Games in 1 - Disney-Pixar Les Indestructibles + Disney-Pixar Le Monde de Nemo (Disc 1) (Les Indestructibles)", 2]
+		],
+		"Disney-Pixar The Incredibles - Rise of the Underminer": [
+			["Disney-Pixar Mr. Incredible - Kyouteki Underminer Toujou", 1]
+		],
+		"Disney's Chicken Little": [
+			["Disney Chicken Little", 1],
+			["Disneys Himmel und Huhn", 1]
+		],
+		"Disney's Donald Duck - Goin' Quackers": [
+			["Disney's Donald Duck - Quack Attack", 1]
+		],
+		"Disney's Hide & Sneak": [
+			["Disney's Mickey to Minnie Trick & Chase", 1]
+		],
+		"Disney's Magical Mirror Starring Mickey Mouse": [
+			["Disney's Mickey Mouse no Fushigi na Kagami", 1]
+		],
+		"Disney's Party": [
+			["Disney's Magical Park", 1]
+		],
+		"Disney's Piglet's Big Game": [
+			["Disney Les Aventures de Porcinet", 1],
+			["Disneys Ferkels grosses Abenteuer-Spiel", 1]
+		],
+		"Disney's PK - Out of the Shadows": [
+			["Disney's Donald Duck PK", 1]
+		],
+		"Disney's Tarzan - Untamed": [
+			["Disney's Tarzan - Freeride", 1]
+		],
+		"Disney Sports - Football": [
+			["Disney Sports - American Football", 1]
+		],
+		"Donkey Konga 2": [
+			["Donkey Konga 2 - Hit Song Parade", 1]
+		],
+		"Doshin the Giant": [
+			["Kyojin no Doshin", 1]
+		],
+		"Dragon's Lair 3D - Return to the Lair": [
+			["Dragon's Lair 3D - Special Edition", 1]
+		],
+		"Dragon Ball Z - Budokai": [
+			["Dragon Ball Z", 1]
+		],
+		"DreamWorks Over the Hedge": [
+			["DreamWorks Ab durch die Hecke", 1],
+			["DreamWorks Nos Voisins, les Hommes", 1]
+		],
+		"DreamWorks Shark Tale": [
+			["DreamWorks Gang de Requins", 1],
+			["DreamWorks Grosse Haie - Kleine Fische", 1]
+		],
+		"Egg Mania - Eggstreme Madness": [
+			["Egg Mania - Tsukande! Mawashite! Dossun Puzzle!!", 1],
+			["Eggo Mania", 1]
+		],
+		"ESPN International Winter Sports 2002": [
+			["ESPN International Winter Sports", 1],
+			["Hyper Sports 2002 Winter", 1]
+		],
+		"Eternal Darkness - Sanity's Requiem": [
+			["Eternal Darkness - Manekareta 13-nin", 1]
+		],
+		"Evolution Worlds": [
+			["Shinki Sekai Evolutia", 1]
+		],
+		"Fantastic 4": [
+			["4 Fantastiques, Les", 1],
+			["Fantastici 4, I", 1]
+		],
+		"FIFA Soccer 06": [
+			["FIFA 06", 1]
+		],
+		"FIFA Soccer 07": [
+			["FIFA 07", 1]
+		],
+		"FIFA Soccer 2002": [
+			["FIFA 2002 - Road to FIFA World Cup", 1]
+		],
+		"FIFA Soccer 2003": [
+			["FIFA 2003", 1],
+			["FIFA Football 2003", 1]
+		],
+		"FIFA Soccer 2004": [
+			["FIFA Football 2004", 1]
+		],
+		"FIFA Soccer 2005": [
+			["FIFA Football 2005", 1]
+		],
+		"FIFA World Cup Germany 2006": [
+			["FIFA Fussball-Weltmeisterschaft Deutschland 2006", 1]
+		],
+		"Fire Emblem - Path of Radiance": [
+			["Fire Emblem - Souen no Kiseki", 1]
+		],
+		"Freestyle Street Soccer": [
+			["Urban Freestyle Soccer", 1]
+		],
+		"Frogger Beyond": [
+			["Frogger", 1]
+		],
+		"Godzilla - Destroy All Monsters Melee": [
+			["Godzilla - Kaijuu Dairantou", 1]
+		],
+		"GoldenEye - Rogue Agent (Disc 1)": [
+			["GoldenEye - Agente Corrupto (Disc 1)", 1],
+			["GoldenEye - Dark Agent (Disc 1)", 1]
+		],
+		"GoldenEye - Rogue Agent (Disc 2)": [
+			["GoldenEye - Agente Corrupto (Disc 2)", 1],
+			["GoldenEye - Dark Agent (Disc 2)", 1]
+		],
+		"Harry Potter and the Chamber of Secrets": [
+			["Harry Potter to Himitsu no Heya", 1]
+		],
+		"Harry Potter and the Goblet of Fire": [
+			["Harry Potter e il Calice di Fuoco", 1],
+			["Harry Potter en de Vuurbeker", 1],
+			["Harry Potter et la Coupe de Feu", 1],
+			["Harry Potter och den flammande baegaren", 1],
+			["Harry Potter to Honoo no Goblet", 1],
+			["Harry Potter und der Feuerkelch", 1],
+			["Harry Potter y el Caliz de Fuego", 1]
+		],
+		"Harry Potter and the Prisoner of Azkaban": [
+			["Harry Potter e il Prigioniero di Azkaban", 1],
+			["Harry Potter en de gevangene van Azkaban", 1],
+			["Harry Potter et le Prisonnier d'Azkaban", 1],
+			["Harry Potter och fangen fran Azkaban", 1],
+			["Harry Potter to Azkaban no Shuujin", 1],
+			["Harry Potter und der Gefangene von Askaban", 1],
+			["Harry Potter y el prisionero de Azkaban", 1]
+		],
+		"Harry Potter and the Sorcerer's Stone": [
+			["Harry Potter and the Philosopher's Stone", 1],
+			["Harry Potter to Kenja no Ishi", 1]
+		],
+		"Harvest Moon - A Wonderful Life": [
+			["Bokujou Monogatari - Wonderful Life", 1]
+		],
+		"Harvest Moon - Another Wonderful Life": [
+			["Bokujou Monogatari - Wonderful Life for Girl", 1]
+		],
+		"Harvest Moon - Magical Melody": [
+			["Bokujou Monogatari - Shiawase no Uta for World", 1],
+			["Bokujou Monogatari - Shiawase no Uta", 2]
+		],
+		"International Superstar Soccer 2": [
+			["Jikkyou World Soccer 2002", 1]
+		],
+		"Kirby Air Ride": [
+			["Kirby's Airride", 1]
+		],
+		"Legend of Zelda, The - Collector's Edition": [
+			["Zelda Collection", 1]
+		],
+		"Legend of Zelda, The - Four Swords Adventures": [
+			["Zelda no Densetsu - 4-tsu no Tsurugi+", 1]
+		],
+		"Legend of Zelda, The - Ocarina of Time & Master Quest": [
+			["Zelda no Densetsu - Toki no Ocarina GC", 1]
+		],
+		"Legend of Zelda, The - The Wind Waker": [
+			["Zelda no Densetsu - Kaze no Takuto", 1]
+		],
+		"Legend of Zelda, The - Twilight Princess": [
+			["Zelda no Densetsu - Twilight Princess", 1]
+		],
+		"Lemony Snicket's A Series of Unfortunate Events": [
+			["Desastreuses Aventures des Orphelins Baudelaire, Les - D'Apres Lemony Snicket", 1],
+			["Lemony Snicket - Raetselhafte Ereignisse", 1],
+			["Una Serie de Catastroficas Desdichas de Lemony Snicket", 1]
+		],
+		"Lord of the Rings, The - The Return of the King": [
+			["Herr der Ringe, Der - Die Rueckkehr des Koenigs", 1],
+			["Lord of the Rings - Ou no Kikan", 1],
+			["Senor de los Anillos, El - El Retorno del Rey", 1],
+			["Seigneur des Anneaux, Le - Le Retour du Roi", 1],
+			["Signore degli Anelli, Il - Il ritorno del Re", 1]
+		],
+		"Lord of the Rings, The - The Third Age (Disc 1)": [
+			["Herr der Ringe, Der - Das dritte Zeitalter (Disc 1)", 1],
+			["Lord of the Rings - Nakatsu Kuni Daisanki (Disc 1)", 1],
+			["Seigneur des Anneaux, Le - Le Tiers Age (Disc 1)", 1],
+			["Senor de los Anillos, El - La Tercera Edad (Disc 1)", 1]
+		],
+		"Lord of the Rings, The - The Third Age (Disc 2)": [
+			["Herr der Ringe, Der - Das dritte Zeitalter (Disc 2)", 1],
+			["Lord of the Rings - Nakatsu Kuni Daisanki (Disc 2)", 1],
+			["Seigneur des Anneaux, Le - Le Tiers Age (Disc 2)", 1],
+			["Senor de los Anillos, El - La Tercera Edad (Disc 2)", 1]
+		],
+		"Lord of the Rings, The - The Two Towers": [
+			["Herr der Ringe, Der - Die zwei Tuerme", 1],
+			["Lord of the Rings - Futatsu no Tou", 1],
+			["Seigneur des Anneaux, Le - Les Deux Tours", 1],
+			["Senor de los Anillos, El - Las Dos Torres", 1],
+			["Signore degli Anelli, Il - Le Due Torri", 1]
+		],
+		"Lost Kingdoms": [
+			["Rune", 1]
+		],
+		"Lost Kingdoms II": [
+			["Rune II - Koruten no Kagi no Himitsu", 1]
+		],
+		"Luigi's Mansion": [
+			["Luigi Mansion", 1]
+		],
+		"Mario Golf - Toadstool Tour": [
+			["Mario Golf - Family Tour", 1]
+		],
+		"Mario Power Tennis": [
+			["Mario Tennis GC", 1]
+		],
+		"Mario Superstar Baseball": [
+			["Super Mario Stadium - Miracle Baseball", 1]
+		],
+		"Marvel Nemesis - Rise of the Imperfects": [
+			["Marvel Nemesis - L'Avenement des Imparfaits", 1]
+		],
+		"Medabots Infinity": [
+			["Medarot Brave", 1]
+		],
+		"Medal of Honor - European Assault": [
+			["Medal of Honor - Europa Kyoushuu", 1],
+			["Medal of Honor - Les Faucons de Guerre", 1]
+		],
+		"Medal of Honor - Frontline": [
+			["Medal of Honor - En Premiere Ligne", 1]
+		],
+		"Medal of Honor - Rising Sun (Disc 1)": [
+			["Medal of Honor - Soleil Levant (Disc 1)", 1]
+		],
+		"Medal of Honor - Rising Sun (Disc 2)": [
+			["Medal of Honor - Soleil Levant (Disc 2)", 1]
+		],
+		"Mega Man Network Transmission": [
+			["Rockman EXE Transmission", 1]
+		],
+		"Mega Man X - Command Mission": [
+			["Rockman X - Command Mission", 1]
+		],
+		"Metroid Prime 2 - Echoes": [
+			["Metroid Prime 2 - Dark Echoes", 1]
+		],
+		"Minority Report - Everybody Runs": [
+			["Minority Report - Le Futur vous Rattrape", 1]
+		],
+		"Monopoly Party": [
+			["Monopoly - Mezase!! Daifugou Jinsei!!", 1]
+		],
+		"Mystic Heroes": [
+			["Battle Houshin", 1]
+		],
+		"Naruto - Clash of Ninja": [
+			["Naruto - Clash of Ninja - European Version", 1],
+			["Naruto - Gekitou Ninja Taisen!", 1]
+		],
+		"Naruto - Clash of Ninja 2": [
+			["Naruto - Gekitou Ninja Taisen! 2", 1]
+		],
+		"NBA Street V3": [
+			["NBA Street V3 - Mario de Dunk", 1]
+		],
+		"Nickelodeon Avatar - The Last Airbender": [
+			["Nickelodeon Avatar - The Legend of Aang", 1]
+		],
+		"Nickelodeon Barnyard": [
+			["Tierisch verrueckte Bauernhof, Der", 1]
+		],
+		"Nickelodeon Jimmy Neutron - Boy Genius": [
+			["Nickelodeon Jimmy Neutron - Der mutige Erfinder", 1]
+		],
+		"Nickelodeon Rugrats - Royal Ransom": [
+			["Nickelodeon Les Razmoket - La Rancon Royale", 1]
+		],
+		"Nickelodeon SpongeBob SquarePants - Battle for Bikini Bottom": [
+			["2 Games in 1 - Nickelodeon SpongeBob Schwammkopf - Der Film + Nickelodeon SpongeBob Schwammkopf - Schlacht um Bikini Bottom (Disc 2)", 1]
+		],
+		"Nickelodeon SpongeBob SquarePants - Creature from the Krusty Krab": [
+			["Nickelodeon Bob L'eponge - La Creature du Crabe Croustillant", 1],
+			["Nick SpongeBob Schwammkopf - Die Kreatur aus der Krossen Krabbe", 1],
+			["Nickelodeon SpongeBob SquarePants - Creatuur van de Krokante Krab", 1]
+		],
+		"Nickelodeon SpongeBob SquarePants - Lights, Camera, Pants!": [
+			["Nickelodeon Bob L'eponge - Silence on Tourne!", 1],
+			["Nickelodeon SpongeBob Schwammkopf - Film ab!", 1],
+			["Nickelodeon SpongeBob SquarePants - Licht uit, Camera aan!", 1]
+		],
+		"Nickelodeon SpongeBob SquarePants - The Movie": [
+			["2 Games in 1 - Bob L'eponge - Le Film + Tak 2 - Le Sceptre des Reves (Disc 1) (Bob L'eponge - Le Film)", 1],
+			["2 Games in 1 - Nickelodeon SpongeBob Schwammkopf - Der Film + Nickelodeon SpongeBob Schwammkopf - Schlacht um Bikini Bottom (Disc 1)", 1],
+			["Nickelodeon SpongeBob Schwammkopf - Der Film", 2],
+			["2 Games in 1 - Nickelodeon SpongeBob Schwammkopf - Der Film + Nickelodeon Tak 2 - Der Stab der Traeume (Disc 1)", 3]
+		],
+		"Tak and the Power of Juju": [
+			["Tak & Le Pouvoir de Juju", 1],
+			["Tak und die Macht des Juju", 1]
+		],
+		"Nickelodeon Tak 2 - The Staff of Dreams": [
+			["Nickelodeon Tak 2 - Der Stab der Traeume", 1],
+			["Nickelodeon Tak 2 - Le Sceptre des Reves", 1],
+			["2 Games in 1 - Bob L'eponge - Le Film + Tak 2 - Le Sceptre des Reves (Disc 2) (Tak 2 - Le Sceptre des Reves)", 2],
+			["2 Games in 1 - Nickelodeon SpongeBob Schwammkopf - Der Film + Nickelodeon Tak 2 - Der Stab der Traeume (Disc 2)", 2]
+		],
+		"Nicktoons Unite!": [
+			["Nickelodeon SpongeBob SquarePants and Friends Unite!", 1]
+		],
+		"Paper Mario - The Thousand-Year Door": [
+			["Paper Mario RPG", 1]
+		],
+		"Phantasy Star Online Episode I & II": [
+			["Phantasy Star Online Episode I & II Plus", 0]
+		],
+		"Pokemon Channel": [
+			["Pokemon Channel - Pikachu to Issho!", 1]
+		],
+		"Pokemon XD - Gale of Darkness": [
+			["Pokemon XD - Yami no Kaze Dark Lugia", 1]
+		],
+		"Power Rangers - Dino Thunder": [
+			["Power Rangers - Dino Tonnerre", 1]
+		],
+		"Puyo Pop Fever": [
+			["Puyo Puyo Fever", 1]
+		],
+		"R-Racing Evolution": [
+			["R-Racing", 1],
+			["R-Racing Evolution - Life in the Fast Lane", 1]
+		],
+		"Rave Master": [
+			["Groove Adventure Rave - Fighting Live", 1]
+		],
+		"RedCard 20-03": [
+			["RedCard", 1]
+		],
+		"Resident Evil (Disc 1)": [
+			["Biohazard (Disc 1)", 1]
+		],
+		"Resident Evil (Disc 2)": [
+			["Biohazard (Disc 2)", 1]
+		],
+		"Resident Evil - Code - Veronica X (Disc 1)": [
+			["Biohazard - Code - Veronica - Kanzenban (Disc 1)", 1]
+		],
+		"Resident Evil - Code - Veronica X (Disc 2)": [
+			["Biohazard - Code - Veronica - Kanzenban (Disc 2)", 1]
+		],
+		"Resident Evil 2": [
+			["Biohazard 2", 1]
+		],
+		"Resident Evil 3 - Nemesis": [
+			["Biohazard 3 - Last Escape", 1]
+		],
+		"Resident Evil 4 (Disc 1)": [
+			["Biohazard 4 (Disc 1)", 1]
+		],
+		"Resident Evil 4 (Disc 2)": [
+			["Biohazard 4 (Disc 2)", 1]
+		],
+		"Resident Evil Zero (Disc 1)": [
+			["Biohazard Zero (Disc 1)", 1]
+		],
+		"Resident Evil Zero (Disc 2)": [
+			["Biohazard Zero (Disc 2)", 1]
+		],
+		"Ribbit King": [
+			["Kero Kero King DX", 1]
+		],
+		"Road Trip - The Arcade Edition": [
+			["Choro Q!", 1],
+			["Gadget Racers", 1]
+		],
+		"Scooby-Doo! Mystery Mayhem": [
+			["Scooby-Doo! Fluch der Folianten", 1],
+			["Scooby-Doo! Le Livre des Tenebres", 1]
+		],
+		"Scooby-Doo! Night of 100 Frights": [
+			["Scooby-Doo! La Nuit des 100 Frissons", 1],
+			["Scooby-Doo! Nacht der 100 Schrecken", 1]
+		],
+		"Shonen Jump's One Piece - Grand Battle": [
+			["One Piece - Grand Battle! Rush", 1]
+		],
+		"Shonen Jump's One Piece - Pirates' Carnival": [
+			["One Piece - Pirates Carnival", 1]
+		],
+		"Skies of Arcadia Legends": [
+			["Eternal Arcadia Legends", 1]
+		],
+		"Sonic Adventure DX - Director's Cut": [
+			["Sonic Adventure DX", 1]
+		],
+		"Spirits & Spells": [
+			["Castleween", 1],
+			["Mahou no Pumpkin - An to Greg no Daibouken", 1]
+		],
+		"SSX On Tour": [
+			["SSX On Tour with Mario", 1]
+		],
+		"Star Wars - Rogue Squadron II - Rogue Leader": [
+			["Star Wars - Rogue Squadron II", 1]
+		],
+		"Star Wars - Rogue Squadron III - Rebel Strike": [
+			["Star Wars - Rogue Squadron III", 1]
+		],
+		"Star Wars - The Clone Wars": [
+			["Star Wars - La Guerra dei Cloni", 1],
+			["Star Wars - Las Guerras Clon", 1]
+		],
+		"Summoner - A Goddess Reborn": [
+			["Summoner - La Deesse Reincarnee", 1]
+		],
+		"Super Mario Strikers": [
+			["Mario Smash Football", 1]
+		],
+		"Super Smash Bros. Melee": [
+			["Dairantou Smash Brothers DX", 1]
+		],
+		"Swingerz Golf": [
+			["Ace Golf", 1],
+			["Wai Wai Golf", 1]
+		],
+		"TimeSplitters - Future Perfect": [
+			["TimeSplitters - Futuro Perfecto", 1]
+		],
+		"Top Gun - Combat Zones": [
+			["Top Gun - Ace of the Sky", 1]
+		],
+		"Ultimate Codes for Use with The Legend of Zelda - The Wind Waker": [
+			["CD avec les Codes Action Replay Exclusivement pour le Jeu The Legend of Zelda - The Wind Waker", 1],
+			["Ultimate Cheats for Use with The Legend of Zelda - The Wind Waker", 1],
+			["Ultimate Cheats fuer The Legend of Zelda - The Wind Waker", 1]
+		],
+		"UFC - Throwdown": [
+			["UFC - Ultimate Fighting Championship 2 - Tapout - Final Spec", 1]
+		],
+		"Ultimate Codes for Use with Metroid Prime": [
+			["Ultimate Cheats for Use with Metroid Prime", 1]
+		],
+		"Ultimate Muscle - Legends vs. New Generation": [
+			["Kinnikuman Nisei - Shinsedai Choujin vs. Densetsu Choujin", 1]
+		],
+		"Universal Studios Theme Park Adventure": [
+			["Universal Studios Japan Adventure", 1]
+		],
+		"Viewtiful Joe Revival": [
+			["Viewtiful Joe", 2]
+		],
+		"Viewtiful Joe - Red Hot Rumble": [
+			["Viewtiful Joe - Battle Carnival", 1]
+		],
+		"Viewtiful Joe 2": [
+			["Viewtiful Joe 2 - Black Film no Nazo", 1]
+		],
+		"Virtua Quest": [
+			["Virtua Fighter Cyber Generation - Judgment Six no Yabou", 1]
+		],
+		"Virtua Striker 2002": [
+			["Virtua Striker 3 Ver. 2002", 1]
+		],
+		"WarioWare, Inc. - Mega Party Game$!": [
+			["Atsumare!! Made in Wario", 1]
+		],
+		"WTA Tour Tennis": [
+			["Pro Tennis WTA Tour", 1],
+			["WTA Tour Tennis Pro Evolution", 1]
+		],
+		"X-Men Legends II - Rise of Apocalypse": [
+			["X-Men Legends II - El Ascenso de Apocalipsis", 1]
+		],
+		"X2 - Wolverine's Revenge": [
+			["X-Men 2 - Wolverine's Revenge", 1]
+		],
+		"Yu-Gi-Oh! The Falsebound Kingdom": [
+			["Yu-Gi-Oh! Falsebound Kingdom - Kyokou ni Tozasareta Oukoku", 1]
+		],
+		"Zatch Bell! Mamodo Battles": [
+			["Konjiki no Gashbell!! Yuujou Tag Battle 2", 1]
+		],
+		"Zoids - Battle Legends": [
+			["Zoids vs. II", 1]
+		]
+	}
+}

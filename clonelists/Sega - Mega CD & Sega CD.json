@@ -1,0 +1,173 @@
+{
+	"description": {
+		"name": [
+			"Sega - Mega CD & Sega CD"
+		],
+		"last updated": "13 February 2022",
+		"minimum version": "0.92"
+	},
+
+	"categories": {
+		"Make My Video - INXS (USA) (Beta)": {
+			"match": "full",
+			"categories": ["Multimedia", "Preproduction"]
+		},
+		"Make My Video - Marky Mark and the Funky Bunch (USA) (Beta)": {
+			"match": "full",
+			"categories": ["Multimedia", "Preproduction"]
+		}
+	},
+
+	"renames": {
+		"A-X-101": [
+			["AX-101", 1]
+		],
+		"AH3 - Thunderstrike": [
+			["Thunderhawk", 1]
+		],
+		"Android Assault - The Revenge of Bari-Arm": [
+			["Bari-Arm", 1]
+		],
+		"Battle Frenzy": [
+			["Bloodshot ~ Battle Frenzy", 1]
+		],
+		"Blackhole Assault": [
+			["Black Hole Assault", 1]
+		],
+		"Championship Soccer '94": [
+			["Sensible Soccer", 1]
+		],
+		"Cobra Command": [
+			["Thunder Storm FX", 1]
+		],
+		"Corpse Killer": [
+			["Corpse Killer (Sega CD 32X)", 0],
+			["Corpse Killer (Mega-CD 32X)", 0]
+		],
+		"Dark Wizard": [
+			["Dark Wizard - Yomigaerishi Yami no Madoushi", 1]
+		],
+		"Ecco the Dolphin": [
+			["Ecco the Dolphin CD (Disc 1) (Ecco the Dolphin)", 1]
+		],
+		"Ecco - The Tides of Time": [
+			["Ecco the Dolphin CD (Disc 2) (Ecco the Dolphin II)", 1]
+		],
+		"Fahrenheit (Disc 1) (Key Disc) (Sega CD)": [
+			["Fahrenheit", 1]
+		],
+		"Fatal Fury Special": [
+			["Garou Densetsu Special", 1]
+		],
+		"FIFA International Soccer": [
+			["FIFA International Soccer - Championship Edition", 1]
+		],
+		"Formula One World Championship - Beyond the Limit": [
+			["Heavenly Symphony - Formula One World Championship 1993", 1]
+		],
+		"Keio Flying Squadron": [
+			["Keiou Yuugekitai", 1]
+		],
+		"Lethal Enforcers II - Gun Fighters": [
+			["Lethal Enforcers II - The Western", 1]
+		],
+		"Mansion of Hidden Souls": [
+			["Yumemi Mystery Mansion", 1],
+			["Yumemi Yakata no Monogatari", 1]
+		],
+		"Marko": [
+			["Marko's Magic Football", 0]
+		],
+		"Masked Rider, The - Kamen Rider ZO": [
+			["Kamen Rider ZO", 1]
+		],
+		"Mickey Mania - The Timeless Adventures of Mickey Mouse": [
+			["Mickey Mania", 1]
+		],
+		"Mortal Kombat": [
+			["Mortal Kombat Kanzenban", 1]
+		],
+		"NHL '94": [
+			["NHL Hockey '94", 1]
+		],
+		"Night Trap (Disc 1)": [
+			["Night Trap (Disc 1) (Sega CD 32X)", 0],
+			["Night Trap (Disc 1) (Mega-CD 32X)", 0]
+		],
+		"Night Trap (Disc 2)": [
+			["Night Trap (Disc 2) (Sega CD 32X)", 0],
+			["Night Trap (Disc 2) (Mega-CD 32X)", 0]
+		],
+		"Panic!": [
+			["Switch", 1]
+		],
+		"Popful Mail": [
+			["PopfulMail", 1]
+		],
+		"Power Monger": [
+			["PowerMonger", 1]
+		],
+		"Revengers of Vengeance": [
+			["Battle Fantasy", 1]
+		],
+		"Rise of the Dragon": [
+			["Rise of the Dragon - A Blade Hunter Mystery", 1]
+		],
+		"Road Avenger": [
+			["Road Blaster FX", 1]
+		],
+		"Robo Aleste": [
+			["Dennin Aleste - Nobunaga and His Ninja Force", 1]
+		],
+		"Sega Classics Arcade Collection (5-in-1)": [
+			["Sega Classics Arcade Collection (4-in-1)", 2],
+			["Sega Classic Arcade Collection - Limited Edition", 2],
+			["Sega Classics Arcade Collection - Limited Edition", 2]
+		],
+		"Shadow of the Beast II": [
+			["Beast II", 1],
+			["Shadow of the Beast II - Juushin no Jubaku", 1]
+		],
+		"Slam City with Scottie Pippen (Disc 1) (Fingers)": [
+			["Slam City with Scottie Pippen (Disc 1) (Fingers) (Sega CD 32X)", 0],
+			["Slam City with Scottie Pippen (Disc 1) (Fingers) (Mega-CD 32X)", 0]
+		],
+		"Slam City with Scottie Pippen (Disc 2) (Juice)": [
+			["Slam City with Scottie Pippen (Disc 2) (Juice) (Sega CD 32X)", 0],
+			["Slam City with Scottie Pippen (Disc 2) (Juice) (Mega-CD 32X)", 0]
+		],
+		"Slam City with Scottie Pippen (Disc 3) (Mad Dog)": [
+			["Slam City with Scottie Pippen (Disc 3) (Mad Dog) (Sega CD 32X)", 0],
+			["Slam City with Scottie Pippen (Disc 3) (Mad Dog) (Mega-CD 32X)", 0]
+		],
+		"Slam City with Scottie Pippen (Disc 4) (Smash)": [
+			["Slam City with Scottie Pippen (Disc 4) (Smash) (Sega CD 32X)", 0],
+			["Slam City with Scottie Pippen (Disc 4) (Smash) (Mega-CD 32X)", 0]
+		],
+		"Supreme Warrior (Disc 1) (Fire & Earth)": [
+			["Supreme Warrior (Disc 1) (Fire & Earth) (Sega CD 32X)", 0],
+			["Supreme Warrior (Disc 1) (Mega-CD 32X)", 0],
+			["Supreme Warrior (Disc 1)", 1]
+		],
+		"Supreme Warrior (Disc 2) (Wind & Fang Tu)": [
+			["Supreme Warrior (Disc 2) (Wind & Fang Tu) (Sega CD 32X)", 0],
+			["Supreme Warrior (Disc 2) (Mega-CD 32X)", 0],
+			["Supreme Warrior (Disc 2)", 1]
+		],
+		"Surgical Strike": [
+			["Surgical Strike (Sega CD 32X)", 0]
+		],
+		"Sonic CD": [
+			["Sonic The Hedgehog CD", 1]
+		],
+		"Third World War": [
+			["IIIrd World War, The", 1]
+		],
+		"Vay": [
+			["Vay - Ryuusei no Yoroi", 1]
+		],
+		"WWF - Rage in the Cage": [
+			["WWF Mania Tour - WWF - Rage in the Cage", 1]
+		]
+	}
+}

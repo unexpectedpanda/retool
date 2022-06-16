@@ -1,0 +1,26 @@
+{
+	"description": {
+		"name": [
+			"Bandai - WonderSwan"
+		],
+		"last updated": "11 September 2021",
+		"minimum version": "0.89"
+	},
+
+	"renames": {
+		"Digital Monster - Ver. WonderSwan": [
+		   ["Digimon - Ver. WonderSwan", 1]
+		],
+		"WonderWitch (FreyaOS 1.2.0) (Program)": [
+			["WonderWitch (FreyaOS 1.1.6b1) (Program)", 2],
+			["WonderWitch (FreyaOS 1.1.5) (Program)", 3],
+			["WonderWitch (FreyaOS 1.1.4) (Program)", 4],
+			["WonderWitch (FreyaOS 1.1.3) (Program)", 5],
+			["WonderWitch (FreyaOS 1.1.2) (Program)", 6],
+			["WonderWitch (FreyaOS 1.1.1) (Program)", 7],
+			["WonderWitch (FreyaOS 1.0.3) (Program)", 8],
+			["WonderWitch (FreyaOS 1.0.2) (Program)", 9],
+			["WonderWitch (FreyaOS 1.0.0) (Program)", 10]
+		]
+	}
+}

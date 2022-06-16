@@ -1,0 +1,45 @@
+{
+	"description": {
+		"name": [
+			"GCE - Vectrex"
+		],
+		"last updated": "22 October 2021",
+		"minimum version": "0.92"
+	},
+
+	"categories": {
+		"Engine Analyzer": {
+			"match": "short",
+			"categories": ["Applications", "Preproduction"]
+		},
+		"RA+A Spectrum I+ Stress Tester": {
+			"match": "short",
+			"categories": ["Applications", "Preproduction"]
+		},
+		"Test Cartridge": {
+			"match": "short",
+			"categories": ["Applications", "Preproduction"]
+		}
+	},
+
+	"renames": {
+		"Blitz! - Action Football (881B27C5)": [
+		   ["Blitz! - Action Football (0F11CE0C)", 2]
+		],
+		"Mail Plane (DA1AC0DB)": [
+			["Mail Plane", 2]
+		],
+		"Mine Storm II": [
+			["Mine Storm", 1]
+		],
+		"Pole Position (A00ED3D6)": [
+			["Pole Position (C10F37D8)", 2]
+		],
+		"Star Trek - The Motion Picture": [
+			["Star Ship", 1]
+		],
+		"WebWars": [
+			["WebWarp", 1]
+		]
+	}
+}
