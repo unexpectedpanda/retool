@@ -1,7 +1,15 @@
+# 1.13
+
+- Because of the (Headered) and (Headerless) tags No-Intro were adding to the
+  new NES DATs, Retool wasn't associating them with the NES clone list. This
+  has now been fixed.
+
+
 # 1.12
 
 - Retool now brings over DAT manager directives in headers, including header
   skippers. This should resolve issues around things like headered DATs.
+
 
 # 1.11
 

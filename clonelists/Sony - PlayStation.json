@@ -515,6 +515,12 @@
 		"Azure Dreams": [
 			["Other Life Azure Dreams", 1]
 		],
+		"Baby Universe": [
+			["3D-Kaleidoscope - Baby Universe", 1]
+		],
+		"Backstreet Billiards": [
+			["Carom Shot 2", 1]
+		],
 		"Backyard Soccer": [
 			["Junior Sports Football", 1],
 			["Junior Sports Fussball", 1]
@@ -763,6 +769,7 @@
 		"City of Lost Children, The": [
 			["Cite des Enfants Perdus, La", 1],
 			["Ciudad de los Ninos Perdidos, La", 1],
+			["Lost Children - The City of Lost Children", 1],
 			["Stadt der verlorenen Kinder, Die", 1]
 		],
 		"Cleopatra's Fortune": [
@@ -773,6 +780,9 @@
 		],
 		"Clock Tower II - The Struggle Within": [
 			["Clock Tower - Ghost Head", 1]
+		],
+		"Cocktail Harmony": [
+			["Simple 1500 Jitsuyou Series Vol. 06 - Cocktail no Recipe", 2]
 		],
 		"Code Breaker Version 3": [
 			["Code Breaker Version 2", 2],
@@ -931,7 +941,8 @@
 		],
 		"Digimon - Digital Card Battle": [
 			["Digimon Digital Card Battle", 1],
-			["DigimonWorld - Digital Card Arena", 1]
+			["DigimonWorld - Digital Card Arena", 1],
+			["DigimonWorld - Digital Card Battle", 1]
 		],
 		"Digimon Rumble Arena": [
 			["DigimonTamers - Battle Evolution", 1]
@@ -1280,6 +1291,9 @@
 		"Expendable": [
 			["Millennium Soldier - Expendable", 1]
 		],
+		"Explosive Racing": [
+			["X.Racing", 1]
+		],
 		"Extreme 500": [
 			["Suzuki Alstare Challenge", 1]
 		],
@@ -1312,8 +1326,14 @@
 		"Fade to Black": [
 			["Fade to Black (SLES-00339)", 1]
 		],
-		"Family Card Games Fun Pack": [
-			["Card Shark", 1]
+	    	"Family Games Compendium (Disc 1)": [
+			["Super Casino Special", 1],
+			["Vegas Casino", 2]
+		],
+		"Family Games Compendium (Disc 2)": [
+			["Card Shark", 1],
+			["Family Card Games Fun Pack", 1],
+			["Trump Shiyou yo!", 1]
 		],
 		"Famires, The": [
 			["SuperLite 1500 Series - The FamiRes", 2]
@@ -1497,6 +1517,7 @@
 			["SuperLite 1500 Series - The Game Maker", 2]
 		],
 		"Gekioh - Shooting King": [
+			["Arcade Hits - Shienryuu", 1],
 			["Geki-Oh - Shienryuu", 1]
 		],
 		"Gex - Enter the Gecko": [
@@ -1734,7 +1755,7 @@
 			["Zeitgeist", 1]
 		],
 		"K-1 Grand Prix": [
-			["Fighting Illusion V - K-1 Grand Prix '99", 1]
+			["Fighting Illusion - K-1 Grand Prix '98", 1]
 		],
 		"K-1 Revenge": [
 			["Fighting Illusion - K-1 Revenge", 1]
@@ -1915,6 +1936,9 @@
 		],
 		"Machine Head": [
 			["Blam! Machinehead", 1]
+		],
+		"Magical Drop": [
+			["Arcade Hits - Magical Drop", 1]
 		],
 		"Magical Drop III (Disc 1) (Magical Drop III)": [
 			["Magical Drop III - Yokubari Tokudai-gou!", 1]
@@ -2403,6 +2427,9 @@
 		"Pong - The Next Level": [
 			["Pong", 1]
 		],
+		"Pool Academy": [
+			["Doukyuu re-mix - Billiards Multiple", 1]
+		],
 		"Pool Hustler": [
 			["Doukyuu - Billiard Master", 1]
 		],
@@ -2450,6 +2477,9 @@
 		"Pro Backgammon": [
 			["Backgammon", 1]
 		],
+		"Pro Evolution Soccer 2": [
+			["World Soccer Winning Eleven 2002", 1]
+		],
 		"Pro Mahjong Tsuwamono 2": [
 			["Pro Mahjong Tsuwamono 2 (BPV)", 2]
 		],
@@ -2487,6 +2517,9 @@
 		],
 		"Rapid Reload": [
 			["Gunners Heaven", 1]
+		],
+		"Rascal": [
+			["Bubblegun Kid", 1]
 		],
 		"Rat Attack!": [
 			["Rat Attack", 1]
@@ -2599,6 +2632,7 @@
 			["RPG Tkool 3", 1]
 		],
 		"Rush Hour": [
+			["BattleRound USA", 1],
 			["Speedster", 1]
 		],
 		"Saban's Power Rangers - Time Force": [
@@ -2674,6 +2708,9 @@
 		],
 		"Skullmonkeys": [
 			["Klaymen Klaymen 2 - Skullmonkey no Gyakushuu", 1]
+		],
+		"Skydiving Extreme": [
+			["Aerodive", 1]
 		],
 		"Slam 'n Jam '96 featuring Magic & Kareem": [
 			["Magic Johnson to Kareem Abdul-Jabbar no Slam 'n Jam '96", 1]
@@ -2977,6 +3014,7 @@
 			["Tiny Toon Adventures - Toonenstein - Le Chateau hante", 1]
 		],
 		"TNN Motor Sports HardCore 4X4": [
+			["Deka Yonku - Tough the Truck", 1],
 			["Hardcore 4x4", 1]
 		],
 		"TNN Motorsports HardCore TR": [
@@ -3130,9 +3168,6 @@
 		"Vanguard Bandits": [
 			["Epica Stella", 1]
 		],
-		"Vegas Casino": [
-			["Super Casino Special", 1]
-		],
 		"Vegas Games 2000": [
 			["Midnight in Vegas", 1]
 		],
@@ -3158,9 +3193,6 @@
 		],
 		"Virtual Golf": [
 			["Tournament Leader", 1]
-		],
-		"Virus - It Is Aware": [
-			["Virus - The Battle Field", 1]
 		],
 		"VR Soccer '96": [
 			["Actua Soccer", 1],
@@ -3252,6 +3284,9 @@
 		"Wizard's Harmony R": [
 			["SuperLite 1500 Series - Wizard's Harmony R", 2]
 		],
+		"Wolf Fang - Kuuga 2001": [
+			["Arcade Hits - Wolf Fang - Kuuga 2001", 1]
+		],
 		"Woody Woodpecker Racing": [
 			["Woody Woodpecker no Go! Go! Racing", 1]
 		],
@@ -3265,6 +3300,9 @@
 			["Frankreich 98 - Die Fussball-WM", 1],
 			["World Cup 98 - Coppa del Mondo", 1]
 		],
+		"World Cup Golf - Professional Edition": [
+			["World Cup Golf - In Hyatt Dorado Beach", 1]
+		],
 		"World League Soccer '98": [
 			["World League Soccer", 1]
 		],
@@ -3273,6 +3311,9 @@
 		],
 		"Wu-Tang - Shaolin Style": [
 			["Wu-Tang - Taste the Pain", 1]
+		],
+		"WWF SmackDown!": [
+			["Exciting Pro Wres", 1]
 		],
 		"WWF SmackDown! 2 - Know Your Role": [
 			["Exciting Pro Wres 2", 1]
@@ -3307,6 +3348,9 @@
 		],
 		"Yusha - Heaven's Gate": [
 			["Heaven's Gate", 1]
+		],
+		"Yu-Gi-Oh! Forbidden Memories": [
+			["Yu-Gi-Oh! Shin Duel Monsters - Fuuin Sareshi Kioku", 1]
 		],
 		"Zoop - America's Largest Killer of Time!": [
 			["Zoop", 1]
