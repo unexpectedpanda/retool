@@ -1,11 +1,11 @@
 {
-    "description": {
-        "name": [
+	"description": {
+		"name": [
 			"Sony - PlayStation 2"
 		],
-        "last updated": "22 May 2022",
+		"last updated": "22 May 2022",
 		"minimum version": "0.92"
-    },
+	},
 
 	"categories": {
 		"Arc the Lad - Jeongryeongui Hwanghon - Premiere Disc (Korea)": {
@@ -74,8 +74,8 @@
 		"King of Fighters 2000-2001, The (Europe)": {}
 	},
 
-    "renames": {
-        "007 - From Russia with Love": [
+	"renames": {
+		"007 - From Russia with Love": [
 			["007 - Russia yori Ai o Komete", 1]
 		],
 		"007 - Quantum of Solace": [
@@ -253,6 +253,10 @@
 		],
 		"ATV Offroad Fury": [
 			["ATV Offroad - All Terrain Vehicle", 1]
+		],
+		"ATV Offroad Fury 4": [
+			["ATV Offroad Fury 4 (Layer 0)", 2],
+			["ATV Offroad Fury 4 (Layer 1)", 2]
 		],
 		"Bakufuu Slash! Kizuna Arashi (EyeToy Camera Doukonban)": [
 			["Bakufuu Slash! Kizuna Arashi", 2]
@@ -1200,6 +1204,9 @@
 		"Ghost in the Shell - Stand Alone Complex": [
 			["Gonggak Gidongdae - Stand Alone Complex", 1]
 		],
+		"Ghost Master - The Gravenville Chronicles": [
+			["Gravenville - Ghost Master Chronicles", 1]
+		],
 		"Gift": [
 			["Giftie", 1]
 		],
@@ -1671,7 +1678,8 @@
 			["Sidewinder F", 1]
 		],
 		"Lethal Skies II": [
-			["Sidewinder V", 1]
+			["Sidewinder V", 1],
+			["Sidewinder V (Flight Box)", 1]
 		],
 		"Life Line": [
 			["Operator's Side", 1]
@@ -1680,7 +1688,8 @@
 			["Lilie no Atelier Plus - Salburg no Renkinjutsushi 3", 0]
 		],
 		"Linux (for PlayStation 2) Release 1.0 (Disc 1) (Runtime Environment)": [
-			["Linux for PlayStation 2 - Release 1.0 (Disc 1) (Runtime Environment)", 1]
+			["Linux for PlayStation 2 - Release 1.0 (Disc 1) (Runtime Environment)", 1],
+			["PS2 Linux Beta Release 1", 2]
 		],
 		"Linux (for PlayStation 2) Release 1.0 (Disc 2) (Software Packages)": [
 			["Linux for PlayStation 2 - Release 1.0 (Disc 2) (Software Packages)", 1]
@@ -1884,7 +1893,8 @@
 		"Metal Gear Solid 3 - Snake Eater": [
 			["Metal Gear Solid 3 - Subsistence (Disc 1) (Subsistence)", 0],
 			["Metal Gear Solid 3 - Snake Eater (Kabunushi Goyuutai-ban)", 1],
-			["Metal Gear Solid 3 - Snake Eater (Premium Package)", 2]
+			["Metal Gear Solid 3 - Snake Eater (Premium Package)", 2],
+			["Metal Gear Solid 3 - Subsistence", 3]
 		],
 		"Metal Gear Solid 3 - Subsistence (Disc 3) (Existence) (Limited Edition)": [
 			["Metal Gear Solid 3 - Subsistence (Disc 3) (Existence)", 2]
@@ -2335,10 +2345,6 @@
 		"Psi-Ops - The Mindgate Conspiracy": [
 			["Psi-Ops - Psychic Operation", 1]
 		],
-		"Psyvariar - Complete Edition (Special Capture Box)": [
-			["Psyvariar - Complete Edition (Special Sound Box)", 2],
-			["Psyvariar - Complete Edition", 3]
-		],
 		"Puyo Pop Fever": [
 			["Puyo Puyo Fever", 1]
 		],
@@ -2563,6 +2569,9 @@
 		"Samurai Western": [
 			["Samurai Western - Katsugeki Samurai-dou", 1]
 		],
+		"Sidewinder Max": [
+			["Iron Eagle Max", 1]
+		],
 		"Saru! Get You! Million Monkeys": [
 			["Zhuo Hou La - Baiwan Houjun Jingbao Da Chuji", 1]
 		],
@@ -2655,11 +2664,10 @@
 			["Shin Megami Tensei III - Nocturne (Deluxe Pack)", 4]
 		],
 		"Shin Megami Tensei - Persona 3": [
+			["Shin Megami Tensei - Persona 3 FES", 0],
+			["Persona 3 FES", 0],
 			["P3 - Persona 3", 1],
 			["Persona 3", 1]
-		],
-		"Shin Megami Tensei - Persona 3 FES": [
-			["Persona 3 FES", 1]
 		],
 		"Shin Megami Tensei - Persona 4": [
 			["Persona 4", 1],
@@ -2896,6 +2904,16 @@
 		],
 		"Super Bust-A-Move 2": [
 			["Super Puzzle Bobble 2", 1]
+		],
+		"SuperLite 2000 Vol. 8 - Psyvariar - Medium Unit": [
+			["Psyvariar - Complete Edition", 0],
+			["Psyvariar - Complete Edition (Special Capture Box)", 0],
+			["Psyvariar - Complete Edition (Special Sound Box)", 0]
+		],
+		"SuperLite 2000 Vol. 10 - Psyvariar - Revision": [
+			["Psyvariar - Complete Edition", 0],
+			["Psyvariar - Complete Edition (Special Capture Box)", 0],
+			["Psyvariar - Complete Edition (Special Sound Box)", 0]
 		],
 		"Surfing H3O": [
 			["Surfroid - Densetsu no Surfer", 1]
@@ -3306,7 +3324,8 @@
 			["This Is Soccer 2005", 1]
 		],
 		"WRC - Rally Evolved": [
-			["WRC avec Sebastien Loeb Edition 2005", 1]
+			["WRC avec Sebastien Loeb Edition 2005", 1],
+			["WRC 5 WT", 2]
 		],
 		"WTA Tour Tennis": [
 			["Pro Tennis WTA Tour", 1]
@@ -3395,6 +3414,7 @@
 		],
 		"Zone of the Enders - The 2nd Runner": [
 			["Zone of the Enders - The 2nd Runner - Special Edition", 0],
+			["Zone of the Enders - The 2nd Runner (Special Edition)", 0],
 			["Anubis - Zone of the Enders - Special Edition", 0],
 			["Anubis - Zone of the Enders", 1]
 		],
