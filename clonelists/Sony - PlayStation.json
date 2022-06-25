@@ -1326,9 +1326,14 @@
 		"Fade to Black": [
 			["Fade to Black (SLES-00339)", 1]
 		],
-		"Family Card Games Fun Pack": [
+	    	"Family Games Compendium (Disc 1)": [
+			["Super Casino Special", 1],
+			["Vegas Casino", 2]
+		],
+		"Family Games Compendium (Disc 2)": [
 			["Card Shark", 1],
-			["Family Games Compendium (Disc 2)", 1]
+			["Family Card Games Fun Pack", 1],
+			["Trump Shiyou yo!", 1]
 		],
 		"Famires, The": [
 			["SuperLite 1500 Series - The FamiRes", 2]
@@ -3162,10 +3167,6 @@
 		],
 		"Vanguard Bandits": [
 			["Epica Stella", 1]
-		],
-		"Vegas Casino": [
-			["Family Games Compendium (Disc 1)", 2],
-			["Super Casino Special", 1]
 		],
 		"Vegas Games 2000": [
 			["Midnight in Vegas", 1]
