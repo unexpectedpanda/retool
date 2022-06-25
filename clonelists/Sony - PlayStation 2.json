@@ -3,7 +3,7 @@
 		"name": [
 			"Sony - PlayStation 2"
 		],
-		"last updated": "01 May 2022",
+		"last updated": "22 May 2022",
 		"minimum version": "0.92"
 	},
 
@@ -140,8 +140,8 @@
 		"Ai yori Aoshi": [
 			["SuperLite 2000 Vol. 32 - Ai yori Aoshi", 1]
 		],
-		"Air Ranger 2 - Rescue Helicopter Plus":[
-			["Air Ranger 2 - Rescue Helicopter", 2]
+		"Air Ranger 2 - Rescue Helicopter":[
+			["Air Ranger 2 Plus - Rescue Helicopter", 0]
 		],
 		"AirForce Delta Strike": [
 			["AirForce Delta - Blue Wing Knights", 1],
@@ -1340,6 +1340,7 @@
 			["Hanabi Hyakkei", 2]
 		],
 		"Hanjuku Hero tai 3D": [
+			["Hanjuku Hero tai 3D (Tokudaigou)", 0],
 			["Bansuk Yeongung vs. 3D", 1]
 		],
 		"Hannspree Ten Kate Honda SBK - Superbike World Championship": [
@@ -1600,9 +1601,15 @@
 		"Kindan no Pet - Seaman - Gasse Hakase no Jikken-tou (Sea-Mic Controller Original Doukonban)": [
 			["Kindan no Pet - Seaman - Gasse Hakase no Jikken-tou (Sea-Mic Controller Doukonban)", 2]
 		],
+		"King of Fighters '98, The - Ultimate Match": [
+			["NeoGeo Online Collection Vol. 10 - The King of Fighters '98 - Ultimate Match", 1]
+		],
 		"King of Fighters 2002, The - Challenge to Ultimate Battle": [
 			["King of Fighters 2002, The (SNK Best Collection)", 1],
 			["King of Fighters 2002, The", 2]
+		],
+		"King of Fighters 2002, The - Unlimited Match": [
+			["King of Fighters 2002, The - Unlimited Match - Tougeki Ver.", 0]
 		],
 		"King of Fighters 2006, The": [
 			["King of Fighters, The - Maximum Impact 2", 1],
@@ -3027,7 +3034,8 @@
 			["Thrillville - Le Parc en Folie", 1],
 			["Thrillville - Verrueckte Achterbahn", 1]
 		],
-		"Thunder Strike - Operation Phoenix": [
+		"Thunderstrike - Operation Phoenix": [
+			["Thunder Strike - Operation Phoenix", 1],
 			["Thunderhawk - Operation Phoenix", 1]
 		],
 		"Tiger Woods PGA Tour 2001": [
@@ -3359,6 +3367,9 @@
 		],
 		"XIII": [
 			["XIII - Daitouryou o Koroshita Otoko", 1]
+		],
+		"Xyanide - Resurrection": [
+			["Xyanide", 1]
 		],
 		"Yakuza": [
 			["Ryuu ga Gotoku", 1]
