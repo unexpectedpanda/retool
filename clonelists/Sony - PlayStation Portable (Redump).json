@@ -3,7 +3,7 @@
 		"name": [
 			"Sony - PlayStation Portable (Redump)"
 		],
-		"last updated": "22 April 2022",
+		"last updated": "22 May 2022",
 		"minimum version": "0.92"
 	},
 
@@ -167,6 +167,9 @@
 			["Disney-Pixar Ratatui", 1],
 			["Disney - Pixar Ratatouille", 1],
 			["Disney - Pixar Rottatouille", 1]
+		],
+		"Disney-Pixar Toy Story 3": [
+			["Disney-Pixar Istoriya igrushek - Bol'shoj pobeg", 1]
 		],
 		"Disney-Pixar Up": [
 			["Disney-Pixar Oben", 1],
@@ -496,6 +499,9 @@
 		],
 		"PES 2012 - Pro Evolution Soccer": [
 			["World Soccer Winning Eleven 2012", 1]
+		],
+		"PES 2014 - Pro Evolution Soccer": [
+			["World Soccer Winning Eleven 2014", 1]
 		],
 		"Petz - Dogz Family": [
 			["Petz - My Puppy Family", 1]
