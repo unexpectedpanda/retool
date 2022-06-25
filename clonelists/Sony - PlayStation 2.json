@@ -71,8 +71,6 @@
 	},
 
 	"removes": {
-		"ATV Offroad Fury 4 (USA) (Layer 0)": {},
-		"ATV Offroad Fury 4 (USA) (Layer 1)": {},
 		"King of Fighters 2000-2001, The (Europe)": {}
 	},
 
@@ -255,6 +253,10 @@
 		],
 		"ATV Offroad Fury": [
 			["ATV Offroad - All Terrain Vehicle", 1]
+		],
+		"ATV Offroad Fury 4": [
+			["ATV Offroad Fury 4 (Layer 0)", 2],
+			["ATV Offroad Fury 4 (Layer 1)", 2]
 		],
 		"Bakufuu Slash! Kizuna Arashi (EyeToy Camera Doukonban)": [
 			["Bakufuu Slash! Kizuna Arashi", 2]
@@ -2336,12 +2338,6 @@
 		"Psi-Ops - The Mindgate Conspiracy": [
 			["Psi-Ops - Psychic Operation", 1]
 		],
-		"Psyvariar - Complete Edition (Special Capture Box)": [
-			["Psyvariar - Complete Edition (Special Sound Box)", 2],
-			["Psyvariar - Complete Edition", 3],
-			["SuperLite 2000 Vol. 8 - Psyvariar - Medium Unit", 4],
-			["SuperLite 2000 Vol. 10 - Psyvariar - Revision", 4]
-		],
 		"Puyo Pop Fever": [
 			["Puyo Puyo Fever", 1]
 		],
@@ -2904,6 +2900,16 @@
 		],
 		"Super Bust-A-Move 2": [
 			["Super Puzzle Bobble 2", 1]
+		],
+		"SuperLite 2000 Vol. 8 - Psyvariar - Medium Unit": [
+			["Psyvariar - Complete Edition", 0],
+			["Psyvariar - Complete Edition (Special Capture Box)", 0],
+			["Psyvariar - Complete Edition (Special Sound Box)", 0]
+		],
+		"SuperLite 2000 Vol. 10 - Psyvariar - Revision": [
+			["Psyvariar - Complete Edition", 0],
+			["Psyvariar - Complete Edition (Special Capture Box)", 0],
+			["Psyvariar - Complete Edition (Special Sound Box)", 0]
 		],
 		"Surfing H3O": [
 			["Surfroid - Densetsu no Surfer", 1]
