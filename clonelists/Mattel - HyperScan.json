@@ -1,0 +1,18 @@
+{
+    "description": {
+        "name": [
+			"Mattel - HyperScan"
+		],
+        "last updated": "25 June 2022",
+		"minimum version": "0.92"
+    },
+
+    "renames": {
+        "Ben 10 (USA) (USE2)": [
+            ["Ben 10 (USA) (USE1)", 2]
+        ],
+        "IWL - Interstellar Wrestling League (USA) (USE2)": [
+            ["IWL - Interstellar Wrestling League (USA) (USE1)", 2]
+        ]
+    }
+}

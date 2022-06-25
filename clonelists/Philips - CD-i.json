@@ -3,7 +3,7 @@
 		"name": [
 			"Philips - CD-i"
 		],
-		"last updated": "20 June 2022",
+		"last updated": "25 June 2022",
 		"minimum version": "0.89"
 	},
 
@@ -83,6 +83,7 @@
 			["Duistere Fabels van Aesopus, De", 1],
 			["Geheimnisvollen Fabeln von Aesop, Die", 1],
 			["Fables d'Esope I, Les", 1],
+			["Fabulas de Esopo, Las", 1],
 			["Meer Duistere Fabels van Aesopus", 1],
 			["Weitere Geheimnisvolle Fabeln von Aesop", 1]
 		],
@@ -92,6 +93,7 @@
 		],
 		"Dutch Masters of the Seventeenth Century": [
 			["Hollandse Meesters uit de Zeventiende Eeuw", 1],
+			["Maestros Holandeses del Siglo XVII, Los", 1],
 			["Maestri Olandesi del Seicento, I", 1],
 			["Maitres de la Peinture Hollandaise, Les", 1],
 			["Niederlaendischen Meister des 17. Jahrhunderts, Die", 1]
@@ -120,6 +122,7 @@
 			["How the Rhino Got His Skin", 2]
 		],
 		"Impressionnistes Francais, Les": [
+			["Franceses Impresionistas, Los", 1],
 			["Franse Impressionisten, De", 1],
 			["Franzoesischen Impressionisten, Die", 1],
 			["Gli Impressionisti Francesi", 1]
@@ -258,6 +261,7 @@
 			["Tim et Ted au Cinema", 1]
 		],
 		"Time Life Presents - 35mm Photography": [
+			["Time Life Presenta - 35mm Fotografia", 1],
 			["Time Life Presenta - La Fotografia in 35mm", 1],
 			["Time Life Presente - La Photographie 24 x 36 mm", 1],
 			["Time-Life Praesentiert - Kleinbild-Fotografie", 1]

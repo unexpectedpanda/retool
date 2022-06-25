@@ -1,0 +1,18 @@
+{
+    "description": {
+        "name": [
+			"Bandai - Pippin"
+		],
+        "last updated": "25 June 2022",
+		"minimum version": "0.92"
+    },
+
+    "renames": {
+        "Pippin Navigator CD": [
+            ["Pippin Navigator CD Ver. 1.1", 0]
+        ],
+        "Pippin Network CD": [
+            ["Pippin Network CD Ver. 2.1", 0]
+        ]
+    }
+}
