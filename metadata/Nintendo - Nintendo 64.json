@@ -1,4 +1,7 @@
 {
+	"3D Model RGB Test Program (USA) (Test Program)": {
+		"languages": "En"
+	},
 	"007 - The World Is Not Enough (Europe) (En,Fr,De)": {
 		"languages": "En, Fr, De"
 	},
@@ -17,7 +20,10 @@
 	"40 Winks (USA) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
-	"40 Winks (USA) (Proto)": {
+	"40 Winks (USA) (Proto) (2000-01-10)": {
+		"languages": "En"
+	},
+	"40 Winks (World) (Aftermarket)": {
 		"languages": "En"
 	},
 	"64 de Hakken!! Tamagotchi - Minna de Tamagotchi World (Japan)": {
@@ -114,6 +120,9 @@
 		"languages": "En"
 	},
 	"All-Star Baseball 2000 (USA)": {
+		"languages": "En"
+	},
+	"All-Star Baseball 2001 (Unknown) (Beta)": {
 		"languages": "En"
 	},
 	"All-Star Baseball 2001 (USA)": {
@@ -275,7 +284,7 @@
 	"Bomberman 64 (Europe)": {
 		"languages": "En"
 	},
-	"Bomberman 64 (Japan)": {
+	"Bomberman 64 (Japan) [b]": {
 		"languages": "Ja"
 	},
 	"Bomberman 64 (USA)": {
@@ -332,6 +341,9 @@
 	"Bust-A-Move 3 DX (Europe)": {
 		"languages": "En"
 	},
+	"Bust-A-Move 3 DX (Unknown) (Beta)": {
+		"languages": "En"
+	},
 	"Bust-A-Move '99 (USA)": {
 		"languages": "En"
 	},
@@ -348,6 +360,9 @@
 		"languages": "En, Fr, Es, It"
 	},
 	"Carmageddon 64 (USA)": {
+		"languages": "En"
+	},
+	"Carnivale - Cenzo's Adventure (USA) (Proto)": {
 		"languages": "En"
 	},
 	"Castlevania (Europe) (En,Fr,De)": {
@@ -458,9 +473,6 @@
 	"Controller Kensa-ki NUS-yo N Cassette (Japan) (Test Program)": {
 		"languages": "Ja"
 	},
-	"Controller Pak Test (Unknown)": {
-		"languages": "En"
-	},
 	"Cruis'n Exotica (USA)": {
 		"languages": "En"
 	},
@@ -563,14 +575,11 @@
 	"Dinosaur Planet (USA) (Proto) (2000-12-01)": {
 		"languages": "En"
 	},
-	"Donald Duck - Goin' Quackers (USA) (En,Fr,De,Es,It)": {
+	"Donald Duck - Goin' Quackers (USA) (En,Fr,De,Es,It) [b]": {
 		"languages": "En, Fr, De, Es, It"
 	},
 	"Donald Duck - Quack Attack (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En, Fr, De, Es, It"
-	},
-	"Dongwu Senlin (China) (iQue)": {
-		"languages": "Zh"
 	},
 	"Donkey Kong 64 (Europe) (En,Fr,De,Es)": {
 		"languages": "En, Fr, De, Es"
@@ -668,6 +677,9 @@
 	"ECW Hardcore Revolution (Germany)": {
 		"languages": "De"
 	},
+	"ECW Hardcore Revolution (USA) (Beta)": {
+		"languages": "En"
+	},
 	"ECW Hardcore Revolution (USA)": {
 		"languages": "En"
 	},
@@ -722,7 +734,7 @@
 	"F1 Racing Championship (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En, Fr, De, Es, It"
 	},
-	"F1 Racing Championship (Unknown) (Beta)": {
+	"F1 Racing Championship (USA) (Beta)": {
 		"languages": "En"
 	},
 	"F-1 World Grand Prix (Europe) (Beta)": {
@@ -757,15 +769,6 @@
 	},
 	"F-Zero X (USA)": {
 		"languages": "En"
-	},
-	"F-Zero X - Weilai Saiche (China) (iQue)": {
-		"languages": "Zh"
-	},
-	"F-Zero X - Weilai Saiche (China) (v2) (iQue) (Manual)": {
-		"languages": "Zh"
-	},
-	"F-Zero X - Weilai Saiche (China) (v4) (iQue) (Manual)": {
-		"languages": "Zh"
 	},
 	"Famista 64 (Japan)": {
 		"languages": "Ja"
@@ -1103,9 +1106,6 @@
 	"International Track & Field - Summer Games (Europe) (En,Fr,De)": {
 		"languages": "En, Fr, De"
 	},
-	"iQue Club (China) (v3) (iQue)": {
-		"languages": "Zh"
-	},
 	"Itoi Shigesato no Bass Tsuri No. 1 Kettei Ban! (Japan)": {
 		"languages": "Ja"
 	},
@@ -1131,6 +1131,9 @@
 		"languages": "En"
 	},
 	"Jeremy McGrath Supercross 2000 (Europe)": {
+		"languages": "En"
+	},
+	"Jeremy McGrath Supercross 2000 (Unknown) (Beta)": {
 		"languages": "En"
 	},
 	"Jeremy McGrath Supercross 2000 (USA)": {
@@ -1370,7 +1373,7 @@
 	"Mace - The Dark Age (Europe)": {
 		"languages": "En"
 	},
-	"Mace - The Dark Age (Unknown) (Beta)": {
+	"Mace - The Dark Age (USA) (Beta)": {
 		"languages": "En"
 	},
 	"Mace - The Dark Age (USA)": {
@@ -1441,18 +1444,6 @@
 	},
 	"Mario Golf (USA)": {
 		"languages": "En"
-	},
-	"Mario Kadingche (China) (v2) (iQue) (Manual)": {
-		"languages": "Zh"
-	},
-	"Mario Kadingche (China) (v4) (iQue)": {
-		"languages": "Zh"
-	},
-	"Mario Kadingche (China) (v5) (iQue)": {
-		"languages": "Zh"
-	},
-	"Mario Kadingche (China) (v6) (iQue) (Manual)": {
-		"languages": "Zh"
 	},
 	"Mario Kart 64 (Europe) (Rev 1)": {
 		"languages": "En"
@@ -1531,15 +1522,6 @@
 	},
 	"Mario Tennis (USA)": {
 		"languages": "En"
-	},
-	"Mario Yisheng (China) (iQue)": {
-		"languages": "Zh"
-	},
-	"Mario Yisheng (China) (v2) (iQue) (Manual)": {
-		"languages": "Zh"
-	},
-	"Mario Yisheng (China) (v4) (iQue) (Manual)": {
-		"languages": "Zh"
 	},
 	"Mega Man 64 (USA) (Beta)": {
 		"languages": "En"
@@ -1727,6 +1709,9 @@
 	"NBA Jam 99 (Europe)": {
 		"languages": "En"
 	},
+	"NBA Jam 99 (Unknown) (Beta)": {
+		"languages": "En"
+	},
 	"NBA Jam 99 (USA)": {
 		"languages": "En"
 	},
@@ -1830,6 +1815,9 @@
 		"languages": "En"
 	},
 	"Nintama Rantarou 64 Game Gallery (Japan)": {
+		"languages": "Ja"
+	},
+	"Nintendo 64 Modem (Japan) (Add-on)": {
 		"languages": "Ja"
 	},
 	"Nintendo All-Star! Dairantou Smash Brothers (Japan)": {
@@ -2129,7 +2117,7 @@
 	"Rakugakids (Japan)": {
 		"languages": "Ja"
 	},
-	"Rally '99 (Japan)": {
+	"Rally '99 (Japan) [b]": {
 		"languages": "Ja"
 	},
 	"Rally Challenge 2000 (USA)": {
@@ -2179,12 +2167,6 @@
 	},
 	"Ready 2 Rumble Boxing - Round 2 (USA)": {
 		"languages": "En"
-	},
-	"Rentiantang Mingxing - Daluan Dou (China) (iQue) (Manual)": {
-		"languages": "Zh"
-	},
-	"Rentiantang Mingxing - Daluan Dou (China) (iQue)": {
-		"languages": "Zh"
 	},
 	"Resident Evil 2 (Europe) (En,Fr)": {
 		"languages": "En, Fr"
@@ -2237,7 +2219,7 @@
 	"Rockman Dash - Hagane no Boukenshin (Japan)": {
 		"languages": "Ja"
 	},
-	"Ronaldinho's Soccer 64 (Brazil) (Unl) (Pirate)": {
+	"Ronaldinho's Soccer 64 (Brazil) (Pirate)": {
 		"languages": "Pt"
 	},
 	"RR64 - Ridge Racer 64 (Europe)": {
@@ -2342,29 +2324,20 @@
 	"Shadowgate 64 - Trials of the Four Towers (USA) (En,Es)": {
 		"languages": "En, Es"
 	},
-	"Shen You Mario (China) (iQue)": {
-		"languages": "Zh"
-	},
-	"Shen You Mario (China) (v6) (iQue) (Manual)": {
-		"languages": "Zh"
-	},
 	"Shin Nihon Pro Wrestling Toukon Road 2 - The Next Generation (Japan)": {
 		"languages": "Ja"
 	},
 	"Shin Nihon Pro Wrestling Toukon Road - Brave Spirits (Japan)": {
 		"languages": "Ja"
 	},
-	"Shuishang Motuo (China) (iQue)": {
-		"languages": "Zh"
-	},
-	"Shuishang Motuo (China) (v2) (iQue) (Manual)": {
-		"languages": "Zh"
-	},
-	"Shuishang Motuo (China) (v4) (iQue) (Manual)": {
-		"languages": "Zh"
-	},
 	"SimCity 2000 (Japan)": {
 		"languages": "Ja"
+	},
+	"SimCopter 64 (USA) (Proto) (1997-06-16)": {
+		"languages": "En"
+	},
+	"SimCopter 64 (USA) (Proto) (1997-12-26)": {
+		"languages": "En"
 	},
 	"Snobo Kids (Japan)": {
 		"languages": "Ja"
@@ -2409,6 +2382,12 @@
 		"languages": "En"
 	},
 	"South Park Rally (Europe)": {
+		"languages": "En"
+	},
+	"South Park Rally (Unknown) (Beta 1)": {
+		"languages": "En"
+	},
+	"South Park Rally (Unknown) (Beta 2)": {
 		"languages": "En"
 	},
 	"South Park Rally (USA)": {
@@ -2471,9 +2450,6 @@
 	"Star Wars - Shadows of the Empire (Europe)": {
 		"languages": "En"
 	},
-	"Star Wars - Shadows of the Empire (USA) (Aftermarket) (Unl)": {
-		"languages": "En"
-	},
 	"Star Wars - Shadows of the Empire (USA) (Beta) (1996-10-15)": {
 		"languages": "En"
 	},
@@ -2481,6 +2457,9 @@
 		"languages": "En"
 	},
 	"Star Wars - Shadows of the Empire (USA) (Rev 2)": {
+		"languages": "En"
+	},
+	"Star Wars - Shadows of the Empire (USA) (Rev 3) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
 	"Star Wars - Shadows of the Empire (USA)": {
@@ -2504,7 +2483,7 @@
 	"Star Wars Episode I - Racer (Japan)": {
 		"languages": "Ja"
 	},
-	"Star Wars Episode I - Racer (USA) (Aftermarket) (Unl)": {
+	"Star Wars Episode I - Racer (USA) (Rev 1) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
 	"Star Wars Episode I - Racer (USA)": {
@@ -2617,6 +2596,9 @@
 	},
 	"Telefoot Soccer 2000 (France)": {
 		"languages": "Fr"
+	},
+	"Telocation - Gemini (World) (Aftermarket)": {
+		"languages": "En"
 	},
 	"Tetris 64 (Japan) (En)": {
 		"languages": "En"
@@ -2787,6 +2769,9 @@
 		"languages": "En"
 	},
 	"Turok 2 - Seeds of Evil (USA)": {
+		"languages": "En"
+	},
+	"Turok 3 (Unknown) (Beta)": {
 		"languages": "En"
 	},
 	"Turok 3 - Shadow of Oblivion (Europe) (Beta) (2000-05-31)": {
@@ -3056,6 +3041,9 @@
 	"Worms Armageddon (USA) (En,Fr,Es)": {
 		"languages": "En, Fr, Es"
 	},
+	"Worms Armageddon (World) (Aftermarket)": {
+		"languages": "En"
+	},
 	"WWF Attitude (Europe)": {
 		"languages": "En"
 	},
@@ -3092,7 +3080,7 @@
 	"WWF WrestleMania 2000 (USA)": {
 		"languages": "En"
 	},
-	"X'treme Roller (Unknown) (Proto)": {
+	"X'treme Roller (USA) (Proto)": {
 		"languages": "En"
 	},
 	"Xena - Warrior Princess - The Talisman of Fate (Europe)": {
@@ -3101,29 +3089,11 @@
 	"Xena - Warrior Princess - The Talisman of Fate (USA)": {
 		"languages": "En"
 	},
-	"Xingji Huohu (China) (v4) (iQue) (Manual)": {
-		"languages": "Zh"
-	},
-	"Xingji Huohu (China) (v5) (iQue)": {
-		"languages": "Zh"
-	},
 	"Xplorer 64 (Germany) (v1.067) (Unl)": {
 		"languages": "De"
 	},
 	"Yakouchuu II - Satsujin Kouro (Japan)": {
 		"languages": "Ja"
-	},
-	"Yaoxi Gushi (China) (iQue)": {
-		"languages": "Zh"
-	},
-	"Yaoxi Gushi (China) (v2) (iQue) (Manual)": {
-		"languages": "Zh"
-	},
-	"Yaoxi Gushi (China) (v4) (iQue) (Manual)": {
-		"languages": "Zh"
-	},
-	"Yaoxi Gushi (China) (v6) (iQue) (Manual)": {
-		"languages": "Zh"
 	},
 	"Yoshi Story (Japan)": {
 		"languages": "Ja"
@@ -3134,26 +3104,8 @@
 	"Yoshi's Story (USA) (En,Ja)": {
 		"languages": "En, Ja"
 	},
-	"Yueye Motuo (China) (iQue) (Manual)": {
-		"languages": "Zh"
-	},
-	"Yueye Motuo (China) (iQue)": {
-		"languages": "Zh"
-	},
 	"Yuke Yuke!! Trouble Makers (Japan)": {
 		"languages": "Ja"
-	},
-	"Zelda Chuanshuo Shiguang Zhi Di (China) (Chinese Traditional) (iQue)": {
-		"languages": "Zh"
-	},
-	"Zelda Chuanshuo Shiguang Zhi Di (China) (iQue)": {
-		"languages": "Zh"
-	},
-	"Zelda Chuanshuo Shiguang Zhi Di (China) (v2) (iQue) (Manual)": {
-		"languages": "Zh"
-	},
-	"Zelda Chuanshuo Shiguang Zhi Di (China) (v4) (iQue) (Manual)": {
-		"languages": "Zh"
 	},
 	"Zelda no Densetsu - Mujura no Kamen (Japan) (GameCube)": {
 		"languages": "Ja"
@@ -3182,25 +3134,7 @@
 	"Zelda no Densetsu - Toki no Ocarina GC Ura (Japan) (GameCube)": {
 		"languages": "Ja"
 	},
-	"Zhi Pian Mario (China) (iQue)": {
-		"languages": "Zh"
-	},
-	"Zhi Pian Mario (China) (v2) (iQue) (Manual)": {
-		"languages": "Zh"
-	},
-	"Zhi Pian Mario (China) (v4) (iQue) (Manual)": {
-		"languages": "Zh"
-	},
 	"Zool - Majuu Tsukai Densetsu (Japan)": {
 		"languages": "Ja"
-	},
-	"Zuhe Jiqiren (China) (iQue)": {
-		"languages": "Zh"
-	},
-	"Zui Yu Fa Diqiu De Jicheng Zhe (China) (iQue) (Manual)": {
-		"languages": "Zh"
-	},
-	"Zui Yu Fa Diqiu De Jicheng Zhe (China) (iQue)": {
-		"languages": "Zh"
 	}
 }

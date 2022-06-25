@@ -1,9 +1,24 @@
 {
+	"0-to-X (USA) (Limited Edition) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"0-to-X (USA) (Numbered Edition) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"2 in 1 Geminim-Siamond (World) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"2A03 Puritans (World) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
 	"3 in 1 Supergun (Asia) (En) (Unl)": {
 		"languages": "En"
 	},
 	"3-D WorldRunner (USA)": {
 		"languages": "En"
+	},
+	"3-in-1 2p Pak (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"3D Block (Asia) (En) (Hwang Shinwei) (Unl)": {
 		"languages": "En"
@@ -29,10 +44,82 @@
 	"8-BIT ADV STEINS;GATE (USA) (Nintendo Switch)": {
 		"languages": "En"
 	},
+	"8-Bit Hero Trainer (World) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"8-BIT XMAS 2008 (World) (Demo) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"8-BIT XMAS 2009 (World) (Demo) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"8-BIT XMAS 2010 (World) (Demo) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"8-BIT XMAS 2011 (World) (Demo) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"8-BIT XMAS 2012 (World) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"8-BIT XMAS 2012 (World) (Demo) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"8-BIT XMAS 2013 (World) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"8-BIT XMAS 2013 (World) (Demo 1) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"8-BIT XMAS 2013 (World) (Demo 2) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"8-BIT XMAS 2014 (World) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"8-BIT XMAS 2014 (World) (Demo) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"8-BIT XMAS 2015 (World) (Demo) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"8-BIT XMAS 2016 (World) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"8-BIT XMAS 2016 (World) (Demo) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"8-BIT XMAS 2017 (World) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"8-BIT XMAS 2018 (World) (Aftermarket) (Unl)": {
+		"languages": "En-US"
+	},
+	"8-BIT XMAS 2019 (World) (Aftermarket) (Unl)": {
+		"languages": "En-US"
+	},
+	"8-BIT XMAS 2020 (World) (Aftermarket) (Unl)": {
+		"languages": "En-US"
+	},
+	"8-BIT XMAS 2021 (World) (Aftermarket) (Unl)": {
+		"languages": "En-US"
+	},
+	"8Bit Music Power (World) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"8Bit Music Power (World) (Famicom) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"8Bit Music Power Encore (World) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
 	"8Bit Music Power Final (World) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
 	"8BIT Rhythm Land (World) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"8Bit RIKI Illustrations (World) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
 	"10-Yard Fight (Japan) (Rev 1)": {
@@ -47,10 +134,13 @@
 	"100 Man Dollar Kid - Maboroshi no Teiou Hen (Japan)": {
 		"languages": "Ja"
 	},
-	"110 in 1 (Asia) (En) (Unl) (Pirate)": {
+	"110 in 1 (Asia) (En) (Pirate)": {
 		"languages": "En"
 	},
 	"720 Degrees (USA)": {
+		"languages": "En"
+	},
+	"1007 Bolts (World) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
 	"1942 (Japan, USA) (En)": {
@@ -80,14 +170,29 @@
 	"2010 Street Fighter (Japan)": {
 		"languages": "Ja"
 	},
+	"2048 (World) (Rev 5) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
 	"'89 Dennou Kyuusei Uranai (Japan)": {
 		"languages": "Ja"
+	},
+	"[BIOS] Demo Vision (USA) (Rev 2) (Program)": {
+		"languages": "En"
 	},
 	"[BIOS] Sharp Famicom Titler (Japan)": {
 		"languages": "Ja"
 	},
 	"[BIOS] Sharp My Computer TV C1 (Japan)": {
 		"languages": "Ja"
+	},
+	"[BIOS] Wide Boy (World) (Rev 1)": {
+		"languages": "En"
+	},
+	"[BIOS] Wide Boy-3 (Unknown)": {
+		"languages": "En"
+	},
+	"[Welcome To] Eville (USA) (Aftermarket) (Homebrew)": {
+		"languages": "En"
 	},
 	"A Ressha de Ikou (Japan)": {
 		"languages": "Ja"
@@ -113,6 +218,30 @@
 	"Action 52 (USA) (Unl)": {
 		"languages": "En"
 	},
+	"Action 53 Function 16 Volume One (World) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Action 53 Function 16 Volume One (World) (Cartridge) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Action 53 Vol. 3 - Revenge of the Twins (World) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Action 53 Vol. 4 - Actually 54 (World) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Action 53 Vol. 4 - Actually 54 (World) (Disk 1) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Action 53 Vol. 4 - Actually 54 (World) (Disk 2) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Action 53 Vol. 4 - Actually 54 (World) (Disk 3) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Action 53 Vol. 4 - Actually 54 (World) (Disk 4) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
 	"Action in New York (Europe)": {
 		"languages": "En"
 	},
@@ -124,6 +253,9 @@
 	},
 	"Addams Family, The (Europe) (En,Fr,De)": {
 		"languages": "En, Fr, De"
+	},
+	"Addams Family, The (Unknown) (Beta)": {
+		"languages": "En"
 	},
 	"Addams Family, The (USA)": {
 		"languages": "En"
@@ -221,6 +353,9 @@
 	"Adventures of Gilligan's Island, The (USA)": {
 		"languages": "En"
 	},
+	"Adventures of Lex and Grim, The (World) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
 	"Adventures of Lolo 2 (Europe) (Virtual Console)": {
 		"languages": "En"
 	},
@@ -296,6 +431,9 @@
 	"Air Fortress (USA)": {
 		"languages": "En"
 	},
+	"Airball (USA) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
 	"Airball (USA) (Proto 1)": {
 		"languages": "En"
 	},
@@ -359,6 +497,9 @@
 	"Alfombra Magica, La (Spain) (En) (Rev 1) (Gluk Video) (Unl)": {
 		"languages": "En"
 	},
+	"Alfonzo Melee! (World) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
 	"Alfonzo's Arctic Adventure (World) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
@@ -392,10 +533,25 @@
 	"Alpha Mission (USA)": {
 		"languages": "En"
 	},
+	"Alter Ego (World) (Aftermarket) (Homebrew) (Alt)": {
+		"languages": "En"
+	},
+	"Alter Ego (World) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Alwa's Awakening (World) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
 	"Alwa's Awakening (World) (Proto) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
+	"Alwa's Awakening Soundtrack (World) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
 	"Amagon (USA)": {
+		"languages": "En"
+	},
+	"Amazon's Training Road (World) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
 	"America Daitouryou Senkyo (Japan)": {
@@ -416,8 +572,29 @@
 	"American Gladiators (USA)": {
 		"languages": "En"
 	},
+	"Anguna - Scourge of the Goblin King (USA) (Beta) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Anguna - Scourge of the Goblin King (USA) (Patreon Demo 0320) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Anguna - Scourge of the Goblin King (USA, Europe) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Anguna - Scourge of the Goblin King (USA, Europe) (Limited Edition) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Animal Clipper (World) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
 	"Ankoku Shinwa - Yamato Takeru Densetsu (Japan)": {
 		"languages": "Ja"
+	},
+	"Ankoro Mochi Manufacturing Factory (World) (Ja) (Aftermarket) (Homebrew)": {
+		"languages": "Ja"
+	},
+	"Antenna Antics (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Anticipation (Europe)": {
 		"languages": "En"
@@ -464,6 +641,15 @@
 	"Argus (Japan)": {
 		"languages": "Ja"
 	},
+	"Arkade Rush (World) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Arkade Rush (World) (Alt 2) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Arkade Rush (World) (Alt) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
 	"Arkanoid (Japan) (En)": {
 		"languages": "En"
 	},
@@ -479,11 +665,62 @@
 	"Arkista's Ring (USA)": {
 		"languages": "En"
 	},
+	"Arm Wrestling Classic, The (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Armadillo (Japan)": {
 		"languages": "Ja"
 	},
+	"Armed for Battle (World) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Armed for Battle (World) (Beta) (2011-09-24) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Armed for Battle (World) (Beta) (2011-09-30) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Armed for Battle (World) (Beta) (2011-10-06) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Armed for Battle (World) (Beta) (2011-10-31) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Armed for Battle (World) (Beta) (2011-11-24) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Armed for Battle (World) (Beta) (2012-01-03) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Armed for Battle (World) (Beta) (2012-02-08) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Armed for Battle (World) (Beta) (2012-03-21) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Armed for Battle (World) (Beta) (2012-04-03) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Armed for Battle (World) (Beta) (2012-04-25) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Armed for Battle (World) (Beta) (2012-09-06) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Armed for Battle (World) (Beta) (2012-10-26) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Armed for Battle (World) (Beta) (2013-03-04) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
 	"Armed for Battle (World) (Demo) (Aftermarket) (Unl)": {
 		"languages": "En"
+	},
+	"Armed for Battle (World) (Limited Edition) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Armed for Battle (World) (Newer 2016 Demo) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Artelius (Japan)": {
 		"languages": "Ja"
@@ -500,6 +737,18 @@
 	"ASO - Armored Scrum Object (Japan) (En)": {
 		"languages": "En"
 	},
+	"Aspect Star 'N' (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Assimilate (USA) (RetroUSB) (Aftermarket) (Homebrew) (Alt)": {
+		"languages": "En"
+	},
+	"Assimilate (USA) (RetroUSB) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Assimilate (World) (Nessylum Games) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
 	"Asterix (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En, Fr, De, Es, It"
 	},
@@ -509,10 +758,16 @@
 	"Astro Ninja Man (Japan) (Aftermarket) (Unl)": {
 		"languages": "Ja"
 	},
+	"Astro Ninja Man DX (Japan) (En) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
 	"Astro Robo Sasa (Japan)": {
 		"languages": "Ja"
 	},
 	"Astyanax (Europe)": {
+		"languages": "En"
+	},
+	"Astyanax (Unknown) (Beta)": {
 		"languages": "En"
 	},
 	"Astyanax (USA) (Beta)": {
@@ -601,6 +856,12 @@
 	},
 	"B-Wings (Japan)": {
 		"languages": "Ja"
+	},
+	"Babel Blox (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Babel Blox (World) (Demo) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Babel no Tou (Japan) (Namcot Collection)": {
 		"languages": "Ja"
@@ -794,6 +1055,9 @@
 	"Bashi Bazook - Morphoid Masher (USA) (Proto) (1989-05-29)": {
 		"languages": "En"
 	},
+	"Basse Def Adventures (USA, Europe) (Fr) (Aftermarket) (Homebrew)": {
+		"languages": "Fr"
+	},
 	"Batman (Japan)": {
 		"languages": "Ja"
 	},
@@ -842,7 +1106,7 @@
 	"Battle Formula (Japan)": {
 		"languages": "Ja"
 	},
-	"Battle Kid 2 - Mountain of Torment (USA) (V1.000) (Aftermarket)": {
+	"Battle Kid 2 - Mountain of Torment (USA) (V1.000) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
 	"Battle Kid - Fortress of Peril (Japan) (En,Ja) (V2.000) (Aftermarket) (Unl)": {
@@ -853,6 +1117,9 @@
 	},
 	"Battle Kid - Fortress of Peril (USA) (V1.100) (Aftermarket) (Unl)": {
 		"languages": "En"
+	},
+	"Battle Kid - Fortress of Peril (World) (v2.100) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Battle of Olympus, The (Europe)": {
 		"languages": "En"
@@ -881,7 +1148,7 @@
 	"Battletoads (Europe)": {
 		"languages": "En"
 	},
-	"Battletoads (Japan) (Aftermarket)": {
+	"Battletoads (Japan) (Aftermarket) (Unl)": {
 		"languages": "Ja"
 	},
 	"Battletoads (Japan)": {
@@ -894,6 +1161,9 @@
 		"languages": "En"
 	},
 	"Battletoads-Double Dragon (USA)": {
+		"languages": "En"
+	},
+	"Battletoads-Double Dragon (World) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
 	"BB Car (Asia) (En) (Unl)": {
@@ -913,6 +1183,15 @@
 	},
 	"Beetlejuice (USA)": {
 		"languages": "En"
+	},
+	"Berzerk (World) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Berzerk (World) (NES Mini Version) (2019-07-10) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Berzerk (World) (Standard Version) (2019-07-02) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Best Keiba - Derby Stallion (Japan) (Rev 1)": {
 		"languages": "Ja"
@@ -944,6 +1223,9 @@
 	"Best Play Pro Yakyuu Special (Japan)": {
 		"languages": "Ja"
 	},
+	"Beyond the Pins (USA) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
 	"Bible Adventures (USA) (Unl)": {
 		"languages": "En"
 	},
@@ -964,6 +1246,9 @@
 	},
 	"Bible Buffet (USA) (v6.0) (Unl)": {
 		"languages": "En"
+	},
+	"Big City Sliding Blaster (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Big Nose and the Witchdoctor (USA) (Beta) (Unl)": {
 		"languages": "En"
@@ -1019,6 +1304,9 @@
 	"Bio Senshi Dan - Increaser Tono Tatakai (Japan)": {
 		"languages": "Ja"
 	},
+	"Biocats (World) (v1.04) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Bionic Commando (Europe)": {
 		"languages": "En"
 	},
@@ -1037,10 +1325,22 @@
 	"Black Bass, The (USA)": {
 		"languages": "En"
 	},
+	"Black Box Challenge (USA) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Black Box Challenge (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Black Dragon (Korea) (Unl)": {
 		"languages": "Ko"
 	},
 	"Blackjack (USA) (Unl)": {
+		"languages": "En"
+	},
+	"Blade Buster (Japan) (En) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Blade Buster (Japan) (En) (v1.1) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
 	"Blades of Steel (Europe) (Virtual Console)": {
@@ -1082,8 +1382,11 @@
 	"Bloque Magico, El (Spain) (En) (Gluk Video) (Unl)": {
 		"languages": "En"
 	},
-	"Blow'em Out (World) (Aftermarket) (Unl)": {
+	"Blow'em Out (USA) (Second Dimension) (Aftermarket) (Unl)": {
 		"languages": "En"
+	},
+	"Blow'em Out! (USA) (GreetingCarts) (Aftermarket) (Unl)": {
+		"languages": "En-US"
 	},
 	"Blue Marlin, The (Japan)": {
 		"languages": "Ja"
@@ -1106,8 +1409,26 @@
 	"Bo Jackson Baseball (USA)": {
 		"languages": "En"
 	},
+	"Bobl (World) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Bobl (World) (v1.1) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Bobl (World) (v1.1) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Bobl (World) (v1.2) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Bobl (World) (v1.2) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
 	"Bokosuka Wars (Japan)": {
 		"languages": "Ja"
+	},
+	"Bomb Sweeper (World) (Aftermarket) (Homebrew)": {
+		"languages": "En"
 	},
 	"Bomber King (Japan)": {
 		"languages": "Ja"
@@ -1136,6 +1457,9 @@
 	"Booky Man (Spain) (En) (Gluk Video) (Unl)": {
 		"languages": "En"
 	},
+	"Bootee (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Boulder Dash (Europe)": {
 		"languages": "En"
 	},
@@ -1145,7 +1469,16 @@
 	"Boulder Dash (USA)": {
 		"languages": "En"
 	},
+	"Bovinium Quest - Batteries Not Included (USA) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Bovinium Quest - Batteries Not Included (USA) (Midwest Gaming Classic VIG Package) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
 	"Bowling (USA) (Proto)": {
+		"languages": "En"
+	},
+	"Box Boy (World) (Aftermarket) (Homebrew)": {
 		"languages": "En"
 	},
 	"Bram Stoker's Dracula (Europe)": {
@@ -1165,6 +1498,9 @@
 	},
 	"Brilliant Com Cocoma Pack 2 (Korea) (Unl)": {
 		"languages": "Ko"
+	},
+	"Brilliant Pebbles (USA) (Aftermarket) (Unl)": {
+		"languages": "En"
 	},
 	"Brush Roller (Asia) (Ja) (Unl)": {
 		"languages": "Ja"
@@ -1241,6 +1577,12 @@
 	"Business Wars (Japan)": {
 		"languages": "Ja"
 	},
+	"Bust A Nut - The Flight of the Harbinger (USA) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Bustina and the Search for Booty (World) (v0.2a) (Demo) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Buzz & Waldog (USA) (Proto) (Unl)": {
 		"languages": "En"
 	},
@@ -1262,6 +1604,12 @@
 	"Caesars Palace (USA)": {
 		"languages": "En"
 	},
+	"cajoNES (World) (Music Program) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"cajoNES Deluxe (World) (Music Program) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
 	"California Games (Europe)": {
 		"languages": "En"
 	},
@@ -1279,6 +1627,24 @@
 	},
 	"Caltron - 9 in 1 (USA) (Proto) (Unl)": {
 		"languages": "En"
+	},
+	"Candelabra Epic Trilogy, The - Candelabra - Estoscerro (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Candelabra Epic Trilogy, The - Candelabra - Estoscerro (World) (Demo) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Candelabra Epic Trilogy, The - The Mad Wizard - A Candelabra Chronicle (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Candelabra Epic Trilogy, The - The Mad Wizard - A Candelabra Chronicle (World) (Demo) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Candelabra Epic Trilogy, The - The Rise of Amondus (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Candelabra Epic Trilogy, The - The Rise of Amondus (World) (Demo) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Capcom Barcelona '92 (Japan)": {
 		"languages": "Ja"
@@ -1327,6 +1693,9 @@
 	},
 	"Captain Tsubasa II - Super Striker (Japan)": {
 		"languages": "Ja"
+	},
+	"Carpet Shark (World) (Aftermarket) (Unl)": {
+		"languages": "En"
 	},
 	"Casino Derby (Japan)": {
 		"languages": "Ja"
@@ -1412,6 +1781,9 @@
 	"Cat Ninden Teyandee (Japan)": {
 		"languages": "Ja"
 	},
+	"Cave Driller (World) (v2.0) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Caveman Games (USA)": {
 		"languages": "En"
 	},
@@ -1445,8 +1817,29 @@
 	"Chaos World (Japan)": {
 		"languages": "Ja"
 	},
+	"CHE-MAN (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Cheetahmen - The Creation (USA) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
 	"Cheetahmen II (USA) (Unl)": {
 		"languages": "En"
+	},
+	"Cheril in Cadaverion (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Cheril in the Cave (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Cheril Perils Classic (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Cheril the Goddess (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Cheril the Writer (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Chess Academy (Asia) (Ja) (NTSC) (Unl)": {
 		"languages": "Ja"
@@ -1465,6 +1858,9 @@
 	},
 	"Chester Field - Ankoku Shin e no Chousen (Japan)": {
 		"languages": "Ja"
+	},
+	"Chesterfield (Unknown) (Beta)": {
+		"languages": "En"
 	},
 	"Chevaliers du Zodiaque, Les - La Legende d'Or (France)": {
 		"languages": "Fr"
@@ -1526,6 +1922,12 @@
 	"Chip's Challenge (USA) (v0.924B) (Proto)": {
 		"languages": "En"
 	},
+	"Chiptune Hell (World) (Ja) (Aftermarket) (Homebrew)": {
+		"languages": "Ja"
+	},
+	"Chiptune Hell (World) (Ja) (Demo) (Aftermarket) (Homebrew)": {
+		"languages": "Ja"
+	},
 	"Chitei Senkuu Vazolder (Japan)": {
 		"languages": "Ja"
 	},
@@ -1568,6 +1970,12 @@
 	"Chuck Yeager's Fighter Combat (USA) (Proto)": {
 		"languages": "En"
 	},
+	"Chumlee's Adventure - The Quest for Pinky (USA) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Chunkout 2 (World) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
 	"Chuugoku Janshi Story - Tonfuu (Japan)": {
 		"languages": "Ja"
 	},
@@ -1601,6 +2009,9 @@
 	"City Connection (USA)": {
 		"languages": "En"
 	},
+	"City Trouble (World) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
 	"Clash at Demonhead (USA)": {
 		"languages": "En"
 	},
@@ -1608,6 +2019,18 @@
 		"languages": "En"
 	},
 	"Cliffhanger (USA)": {
+		"languages": "En"
+	},
+	"Closing In! Barney's Daring Escape (World) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Closing In! Barney's Daring Escape (World) (v1.1) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Closing In! Barney's Daring Escape (World) (v1.2) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Closing In! Barney's Daring Escape (World) (v1.3) (Aftermarket) (Homebrew)": {
 		"languages": "En"
 	},
 	"Clu Clu Land (USA) (e-Reader Edition)": {
@@ -1649,6 +2072,9 @@
 	"Color a Dinosaur (USA)": {
 		"languages": "En"
 	},
+	"Color Caves (USA) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
 	"Colorful Dragon (Asia) (Ja) (Unl)": {
 		"languages": "Ja"
 	},
@@ -1659,6 +2085,12 @@
 		"languages": "Ja"
 	},
 	"Commando (USA)": {
+		"languages": "En"
+	},
+	"Commie Killer (USA) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Computers Are Easy, Love is Kind (World) (Aftermarket) (Homebrew)": {
 		"languages": "En"
 	},
 	"Conan (USA)": {
@@ -1694,7 +2126,22 @@
 	"Contra Force (USA)": {
 		"languages": "En"
 	},
+	"Controller Test Program (Japan) (En) (Test Program)": {
+		"languages": "En"
+	},
+	"Convention Quest (USA) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
 	"Cool World (USA)": {
+		"languages": "En"
+	},
+	"Copper Jacket (World) (Demo 1) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Copper Jacket (World) (Demo 2) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Cornball Cocksuckers (USA) (Aftermarket) (Homebrew)": {
 		"languages": "En"
 	},
 	"Corre Benny (Spain) (En) (Gluk Video) (Unl)": {
@@ -1727,11 +2174,23 @@
 	"Cowboy Kid (USA)": {
 		"languages": "En"
 	},
+	"Cowlitz Gamers' 1st Adventure, The (Unknown) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Cowlitz Gamers' 2nd Adventure, The (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Cowlitz Gamers' Lost Adventure, The (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Crackout (Europe)": {
 		"languages": "En"
 	},
 	"Crackout (USA) (Proto)": {
 		"languages": "En"
+	},
+	"Crap Job! (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Crash 'n' the Boys - Street Challenge (USA)": {
 		"languages": "En"
@@ -1742,7 +2201,16 @@
 	"Crazy Climber (Japan)": {
 		"languages": "Ja"
 	},
+	"CrazyBus (World) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
 	"Creatom (Spain) (En) (Gluk Video) (Unl)": {
+		"languages": "En"
+	},
+	"Creeping It Reel (USA) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Creepy Brawlers (USA) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
 	"Creepy Brawlers (World) (Demo) (Aftermarket) (Unl)": {
@@ -1756,6 +2224,9 @@
 	},
 	"Crisis Force (Japan)": {
 		"languages": "Ja"
+	},
+	"Cross-Strait Independence (Taiwan) (En) (Aftermarket) (Homebrew)": {
+		"languages": "En"
 	},
 	"CrossFire (Japan)": {
 		"languages": "Ja"
@@ -1789,6 +2260,15 @@
 	},
 	"Cycle Race - Road Man (Japan)": {
 		"languages": "Ja"
+	},
+	"D+Pad Hero (USA) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"D+Pad Hero (USA) (v1.1) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"D+Pad Hero II (USA) (Aftermarket) (Unl)": {
+		"languages": "En"
 	},
 	"Dai-2-ji Super Robot Taisen (Japan)": {
 		"languages": "Ja"
@@ -1826,6 +2306,9 @@
 	"Dao Shuai (Asia) (Unl)": {
 		"languages": "Zh"
 	},
+	"Dark (Japan) (En) (Family BASIC) (Homebrew)": {
+		"languages": "En"
+	},
 	"Dark Lord (Japan)": {
 		"languages": "Ja"
 	},
@@ -1855,6 +2338,9 @@
 	},
 	"Dash Yarou (Japan)": {
 		"languages": "Ja"
+	},
+	"Data East All-Star Collection (USA) (Aftermarket) (Unl)": {
+		"languages": "En"
 	},
 	"Datach - Battle Rush - Build Up Robot Tournament (Japan)": {
 		"languages": "Ja"
@@ -1889,6 +2375,9 @@
 	"David Crane's A Boy and His Blob - Trouble on Blobolonia (USA)": {
 		"languages": "En"
 	},
+	"David Crane's A Boy and His Blob - Trouble on Blobolonia (World) (Aftermarket)": {
+		"languages": "En"
+	},
 	"Day Dreamin' Davey (USA)": {
 		"languages": "En"
 	},
@@ -1906,6 +2395,9 @@
 	},
 	"Dead Fox (Japan)": {
 		"languages": "Ja"
+	},
+	"Dead Tomb (USA, Europe) (En,Fr) (Aftermarket) (Unl)": {
+		"languages": "En, Fr"
 	},
 	"Deadly Towers (USA)": {
 		"languages": "En"
@@ -1940,6 +2432,9 @@
 	"Defender of the Crown (USA)": {
 		"languages": "En"
 	},
+	"Defenders of Dynatron City (Unknown) (Beta)": {
+		"languages": "En"
+	},
 	"Defenders of Dynatron City (USA)": {
 		"languages": "En"
 	},
@@ -1952,10 +2447,10 @@
 	"Deja Vu - A Nightmare Comes True!! (Japan)": {
 		"languages": "Ja"
 	},
-	"Demo Vision (USA) (Program)": {
+	"Demon Sword (USA)": {
 		"languages": "En"
 	},
-	"Demon Sword (USA)": {
+	"DENDYcompoII (World) (Aftermarket) (Homebrew)": {
 		"languages": "En"
 	},
 	"Dengeki - Big Bang! (Japan) (Beta)": {
@@ -1966,6 +2461,12 @@
 	},
 	"Densetsu no Kishi - Elrond (Japan)": {
 		"languages": "Ja"
+	},
+	"Depths (World) (Ludum Dare 44 Version) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Depths (World) (v2.0) (Aftermarket) (Homebrew)": {
+		"languages": "En"
 	},
 	"Derby Stallion - Zenkoku Ban (Japan)": {
 		"languages": "Ja"
@@ -1988,9 +2489,6 @@
 	"Devil Man (Japan)": {
 		"languages": "Ja"
 	},
-	"Devil World (Europe)": {
-		"languages": "En"
-	},
 	"Devil World (Japan) (FamicomBox)": {
 		"languages": "Ja"
 	},
@@ -2000,6 +2498,9 @@
 	"Devil World (Japan)": {
 		"languages": "Ja"
 	},
+	"Devil World (Scandinavia) (En)": {
+		"languages": "En"
+	},
 	"Dick Tracy (USA)": {
 		"languages": "En"
 	},
@@ -2008,6 +2509,12 @@
 	},
 	"Die Hard (Japan)": {
 		"languages": "Ja"
+	},
+	"Die Hard (Unknown) (Beta) (CES)": {
+		"languages": "En"
+	},
+	"Die Hard (Unknown) (Beta)": {
+		"languages": "En"
 	},
 	"Die Hard (USA)": {
 		"languages": "En"
@@ -2048,6 +2555,9 @@
 	"Digital Devil Story - Megami Tensei II (Japan)": {
 		"languages": "Ja"
 	},
+	"Dikki Paingun in - TKO for the Third Reich (World) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
 	"Dino Hockey (USA) (Proto 1)": {
 		"languages": "En"
 	},
@@ -2058,6 +2568,9 @@
 		"languages": "En"
 	},
 	"Disk Writer EEPROM Pak (Japan) (En) (Program) [b]": {
+		"languages": "En"
+	},
+	"Dizzy Sheep Disaster (World) (Aftermarket) (Homebrew)": {
 		"languages": "En"
 	},
 	"Dizzy the Adventurer (USA) (Aladdin Compact Cartridge) (Unl)": {
@@ -2147,6 +2660,9 @@
 	"Donkey Kong Jr. no Sansuu Asobi (Japan)": {
 		"languages": "Ja"
 	},
+	"Doodle World (World) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
 	"Dooly Bravo Land (Korea) (Unl)": {
 		"languages": "Ko"
 	},
@@ -2164,6 +2680,9 @@
 	},
 	"Dou Zhi Pin Pan - Wisdom Boy (Asia) (Unl)": {
 		"languages": "Zh"
+	},
+	"Double Action 53 - Volume 2 (World) (Aftermarket) (Unl)": {
+		"languages": "En"
 	},
 	"Double Dare (USA)": {
 		"languages": "En"
@@ -2288,6 +2807,9 @@
 	"Dragon Ball Z III - Ressen Jinzou Ningen (Japan)": {
 		"languages": "Ja"
 	},
+	"Dragon Boat Festival (Taiwan) (En,Zh-Hant) (Aftermarket) (Unl)": {
+		"languages": "En, Zh-Hant"
+	},
 	"Dragon Buster (Japan) (Virtual Console)": {
 		"languages": "Ja"
 	},
@@ -2303,10 +2825,19 @@
 	"Dragon Buster II - Yami no Fuuin (USA, Europe) (Namco Museum Archives Vol 2)": {
 		"languages": "En"
 	},
+	"Dragon Feet (USA) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
 	"Dragon Fighter (Japan)": {
 		"languages": "Ja"
 	},
 	"Dragon Fighter (USA)": {
+		"languages": "En"
+	},
+	"Dragon Leap (USA) (v1.0) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Dragon Leap (USA) (v2.0) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
 	"Dragon Ninja (Japan) (Rev A)": {
@@ -2390,6 +2921,18 @@
 	"Dragon's Lair (USA)": {
 		"languages": "En"
 	},
+	"Draiocht (USA) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Dream Dog Dilemma (World) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Dream Dog Dilemma (World) (v1.1) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Dream Dog Dilemma (World) (v1.1) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Dreamworld Pogie (Unknown) (Proto 1) (1993-10-19)": {
 		"languages": "En"
 	},
@@ -2418,6 +2961,9 @@
 		"languages": "En"
 	},
 	"Duck Maze (Australia) (Unl)": {
+		"languages": "En"
+	},
+	"Duck Tails (USA) (Aftermarket) (Homebrew)": {
 		"languages": "En"
 	},
 	"DuckTales 2 (Europe) (Beta)": {
@@ -2471,11 +3017,17 @@
 	"Dungeon Magic - Sword of the Elements (USA)": {
 		"languages": "En"
 	},
+	"Dungeons & Doomknights (USA) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
 	"Dushlan (World) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
 	"Dusty Diamond's All-Star Softball (USA)": {
 		"languages": "En"
+	},
+	"DVD Screensaver for NES (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Dynablaster (Europe)": {
 		"languages": "En"
@@ -2490,6 +3042,12 @@
 		"languages": "Ja"
 	},
 	"Dynowarz - The Destruction of Spondylus (USA)": {
+		"languages": "En"
+	},
+	"E.T. - The Extra Terrestrial (USA) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"E.T. - The Extra Terrestrial (USA) (Alt) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
 	"EarthBound Beginnings (USA, Europe) (Virtual Console)": {
@@ -2549,11 +3107,17 @@
 	"Enigmacore (USA) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
+	"Enormous Adventures (World) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
 	"Eric Cantona Football Challenge - Goal! 2 (Europe)": {
 		"languages": "En"
 	},
 	"Erika to Satoru no Yume Bouken (Japan)": {
 		"languages": "Ja"
+	},
+	"Escape From Atlantis (USA) (Piko Interactive) (Aftermarket) (Unl)": {
+		"languages": "En"
 	},
 	"Escape from Atlantis, The (USA) (Proto 1) (Unl)": {
 		"languages": "En"
@@ -2572,6 +3136,12 @@
 	},
 	"Esper Dream 2 - Aratanaru Tatakai (Japan)": {
 		"languages": "Ja"
+	},
+	"Espitene (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Espitenen und Herr Pimponen (Spain) (Aftermarket) (Homebrew)": {
+		"languages": "Es"
 	},
 	"Excitebike (Europe) (Virtual Console)": {
 		"languages": "En"
@@ -2609,10 +3179,16 @@
 	"Exerion (Japan) (En)": {
 		"languages": "En"
 	},
+	"Exit Loop (USA) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
 	"Exodus - Journey to the Promised Land (USA) (v4.0) (Unl)": {
 		"languages": "En"
 	},
 	"Exodus - Journey to the Promised Land (USA) (v5.0) (Unl)": {
+		"languages": "En"
+	},
+	"Expedition (USA) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
 	"Exploding Fist (USA) (Proto) (1990-05-22)": {
@@ -2622,6 +3198,12 @@
 		"languages": "En"
 	},
 	"Eyra - The Crow Maiden (World) (Demo) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Eyra, The Crow Maiden (World) (Aftermarket) (Unl) (Alt)": {
+		"languages": "En"
+	},
+	"Eyra, The Crow Maiden (World) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
 	"F1 Circus (Japan)": {
@@ -2660,13 +3242,22 @@
 	"F-15 Strike Eagle (Italy)": {
 		"languages": "It"
 	},
-	"F-15 Strike Eagle (Sweden) (Sv,Da,Fi)": {
-		"languages": "Sv, Da, Fi"
+	"F-15 Strike Eagle (Scandinavia) (En,Sv,Da,Fi)": {
+		"languages": "En, Sv, Da, Fi"
 	},
 	"F-15 Strike Eagle (USA)": {
 		"languages": "En"
 	},
 	"F-117A Stealth Fighter (USA)": {
+		"languages": "En"
+	},
+	"F-Theta (Japan) (En) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Fairyland Story (Japan) (En) (Proto)": {
+		"languages": "En"
+	},
+	"Famicom de Pon (World) (Aftermarket) (Homebrew)": {
 		"languages": "En"
 	},
 	"Famicom Doubutsu Seitai Zukan! - Katte ni Shirokuma - Mori o Sukue no Maki! (Japan)": {
@@ -2708,8 +3299,17 @@
 	"FamicomBox (Japan) (Menu Cart)": {
 		"languages": "Ja"
 	},
+	"Famicompo Pico 1 (World) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Famicompo Pico 2 (World) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
 	"FamicomStation (Japan) (Menu Cart)": {
 		"languages": "Ja"
+	},
+	"FamiDepth (World) (Aftermarket) (Unl)": {
+		"languages": "En"
 	},
 	"Family BASIC (Japan) (Rev 1)": {
 		"languages": "Ja"
@@ -2873,6 +3473,9 @@
 	"FC Genjin - Freakthoropus Computerus (Japan)": {
 		"languages": "Ja"
 	},
+	"Feline Flood Fiasco (World) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
 	"Felix the Cat (Europe)": {
 		"languages": "En"
 	},
@@ -2981,6 +3584,9 @@
 	"Fire 'n Ice (USA)": {
 		"languages": "En"
 	},
+	"Fire and Rescue (USA) (v1.1) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
 	"Fire Dragon (Asia) (En) (Unl)": {
 		"languages": "En"
 	},
@@ -3008,14 +3614,32 @@
 	"Fisher-Price - Perfect Fit (USA)": {
 		"languages": "En"
 	},
+	"Fisraduth - Castle of Tyramis (Japan) (Easy Version) (Family BASIC)": {
+		"languages": "Ja"
+	},
+	"Fisraduth - Castle of Tyramis (Japan) (Family BASIC) (Homebrew)": {
+		"languages": "Ja"
+	},
+	"Fisraduth - Castle of Tyramis (Japan) (Very Easy Version) (Family BASIC) (Homebrew)": {
+		"languages": "Ja"
+	},
 	"Fist of the North Star (USA)": {
 		"languages": "En"
 	},
 	"Flappy (Japan)": {
 		"languages": "Ja"
 	},
+	"Flea! (World) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Flea! (World) (Demo) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
 	"Fleet Commander (Japan)": {
 		"languages": "Ja"
+	},
+	"Flies (Japan) (En) (Family BASIC) (Homebrew)": {
+		"languages": "En"
 	},
 	"Flight of the Intruder (USA)": {
 		"languages": "En"
@@ -3039,6 +3663,12 @@
 		"languages": "En"
 	},
 	"Flipull - An Exciting Cube Game (Japan) (En)": {
+		"languages": "En"
+	},
+	"Fluffy Space Escape (World) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Fly A Way (World) (Aftermarket) (Homebrew)": {
 		"languages": "En"
 	},
 	"Flying Dragon - The Secret Scroll (USA)": {
@@ -3071,6 +3701,9 @@
 	"Formula One - Built to Win (USA)": {
 		"languages": "En"
 	},
+	"Four (USA) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
 	"Four Players' Tennis (Europe)": {
 		"languages": "En"
 	},
@@ -3083,13 +3716,25 @@
 	"Free Fall (USA) (Proto)": {
 		"languages": "En"
 	},
+	"Freecell (USA) (Limited Edition) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
 	"Freedom Force (USA) (Beta)": {
 		"languages": "En"
 	},
 	"Freedom Force (USA)": {
 		"languages": "En"
 	},
+	"Frenzy (World) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
 	"Friday the 13th (USA)": {
+		"languages": "En"
+	},
+	"Frog (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"From Below (USA) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
 	"Front Line (Japan)": {
@@ -3097,6 +3742,9 @@
 	},
 	"Fudou Myouou Den (Japan)": {
 		"languages": "Ja"
+	},
+	"Full Quiet (Backer Test Cartridge) (USA) (Proto) (Aftermarket) (Unl)": {
+		"languages": "En-US"
 	},
 	"Fun House (USA)": {
 		"languages": "En"
@@ -3131,6 +3779,9 @@
 	"Gaiapolis (Asia) (Ja) (Unl)": {
 		"languages": "Ja"
 	},
+	"Galactic Ascension (USA) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
 	"Galactic Crusader (Asia) (Ja) (Unl)": {
 		"languages": "Ja"
 	},
@@ -3158,6 +3809,9 @@
 	"Galaxian (World) (Namcot Collection, Namco Museum Archives Vol 1)": {
 		"languages": "En"
 	},
+	"Galaxxon - The Third War (World) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
 	"Galaxy 5000 (USA) (Beta)": {
 		"languages": "En"
 	},
@@ -3167,7 +3821,7 @@
 	"Galaxy 5000 - Racing in the 51st Century (USA)": {
 		"languages": "En"
 	},
-	"Galf (World) (Aftermarket)": {
+	"Galf (World) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
 	"Gambler Jiko Chuushinha 2 (Japan)": {
@@ -3181,6 +3835,9 @@
 	},
 	"Game Genie (USA) (Unl)": {
 		"languages": "En"
+	},
+	"Game Gyaru EX (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Game Master Kid (Unknown) (Proto) (RAM) (Unl)": {
 		"languages": "En"
@@ -3287,6 +3944,12 @@
 	"Gemfire (USA)": {
 		"languages": "En"
 	},
+	"GemVenture (USA) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"GemVenture (USA) (Beta) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
 	"Genghis Khan (USA)": {
 		"languages": "En"
 	},
@@ -3297,6 +3960,9 @@
 		"languages": "En"
 	},
 	"George Foreman's KO Boxing (USA)": {
+		"languages": "En"
+	},
+	"Germ Squashers (USA) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
 	"Get'em Gary (World) (Aftermarket) (Unl)": {
@@ -3338,6 +4004,9 @@
 	"Ghosts'n Goblins (USA)": {
 		"languages": "En"
 	},
+	"Ghoul Grind - Night of the Necromancer (USA, Europe) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
 	"Ghoul School (USA)": {
 		"languages": "En"
 	},
@@ -3358,6 +4027,21 @@
 	},
 	"Ginga no Sannin (Japan)": {
 		"languages": "Ja"
+	},
+	"Glider (USA) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"glitchNES 2022 (USA) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"glitchNES (World) (v0.1) (Program) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"glitchNES (World) (v0.2) (Program) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"glitchNES (World) (v0.15) (Program) (Aftermarket) (Homebrew)": {
+		"languages": "En"
 	},
 	"Gluk the Thunder Warrior (Spain) (En) (Gluk Video) (Unl)": {
 		"languages": "En"
@@ -3395,13 +4079,13 @@
 	"Gojira (Japan)": {
 		"languages": "Ja"
 	},
+	"Gold Guardian Gun Girl (Japan) (En) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
 	"Golf '92, The (Japan)": {
 		"languages": "Ja"
 	},
 	"Golf (Europe) (GameCube Edition)": {
-		"languages": "En"
-	},
-	"Golf (Europe) (Yard Display)": {
 		"languages": "En"
 	},
 	"Golf (Europe)": {
@@ -3461,6 +4145,9 @@
 	"Goonies II, The - Fratelli Saigo no Chousen (Japan) (Sample)": {
 		"languages": "Ja"
 	},
+	"Gorby no Pipeline Daisakusen (Japan) (Project EGG) (Unl)": {
+		"languages": "Ja"
+	},
 	"Gorby no Pipeline Daisakusen (Japan)": {
 		"languages": "Ja"
 	},
@@ -3469,6 +4156,12 @@
 	},
 	"Gotcha! - The Sport! (USA)": {
 		"languages": "En"
+	},
+	"Gotta Protectors - Amazon's Running Diet (World) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Gotta Protectors - Amazon's Running Diet (World) (Ja) (Aftermarket) (Unl)": {
+		"languages": "Ja"
 	},
 	"Gozonji - Yaji Kita Chin Douchuu (Japan)": {
 		"languages": "Ja"
@@ -3506,6 +4199,9 @@
 	"Great Deal (Japan)": {
 		"languages": "Ja"
 	},
+	"Great Gatsby, The (World) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
 	"Great Tank (Japan) (SNK 40th Anniversary Collection)": {
 		"languages": "Ja"
 	},
@@ -3535,6 +4231,18 @@
 	},
 	"Gremlins 2 - The New Batch (USA)": {
 		"languages": "En"
+	},
+	"Grind, The (USA) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Gruniozerca 2 (World) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Gruniozerca 3 (World) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Gruniozerca (Poland) (En,Pl) (Unl)": {
+		"languages": "En, Pl"
 	},
 	"Guardian Legend, The (Europe)": {
 		"languages": "En"
@@ -3578,6 +4286,12 @@
 	"Gunhed - Aratanaru Tatakai (Japan)": {
 		"languages": "Ja"
 	},
+	"GunTner (USA) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"GunTner (USA) (v1.3) (Demo) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
 	"Gyrodine (Japan)": {
 		"languages": "Ja"
 	},
@@ -3587,8 +4301,29 @@
 	"Gyruss (USA)": {
 		"languages": "En"
 	},
+	"HACK MATCH (Europe) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"HACK MATCH (USA) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"HACK-MATCH (USA, Europe) (NTSC) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"HACK-MATCH (USA, Europe) (PAL) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
 	"Haja no Fuuin (Japan)": {
 		"languages": "Ja"
+	},
+	"Halloween 2015 NA Scare Cart (USA) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Halloween 2016 NA Scare Cart (USA) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Halloween 2017 NA Scare Cart (USA) (Aftermarket) (Homebrew)": {
+		"languages": "En"
 	},
 	"Hammerin' Harry (Europe)": {
 		"languages": "En"
@@ -3614,8 +4349,17 @@
 	"Happy Camper (USA) (Proto) (Unl) [b]": {
 		"languages": "En"
 	},
+	"Happy Hour (World) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
 	"Happy Pairs (Asia) (Ja) (PAL) (Unl)": {
 		"languages": "Ja"
+	},
+	"Haratyler HG (Japan) (En) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Harbinger 2 - Cunt Punch (USA) (Proto) (Aftermarket) (Unl)": {
+		"languages": "En"
 	},
 	"Hard Drivin' (USA) (Proto) (Unl)": {
 		"languages": "En"
@@ -3632,10 +4376,16 @@
 	"Haunted - Halloween '85 (World) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
+	"Haunted - Halloween '86 (World) (Aftermarket) (Unl) (Alt)": {
+		"languages": "En"
+	},
 	"Haunted - Halloween '86 (World) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
 	"Haunted - Halloween '86 (World) (Beta) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Haunted - Halloween '86 (World) (Remastered Onslaught Edition) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
 	"Hayauchi Super Igo (Japan) (Rev 1)": {
@@ -3776,6 +4526,9 @@
 	"Hokuto no Ken (Japan)": {
 		"languages": "Ja"
 	},
+	"Hole New World Soundtrack, A (USA) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
 	"Hollywood Squares (USA)": {
 		"languages": "En"
 	},
@@ -3795,6 +4548,9 @@
 		"languages": "En"
 	},
 	"Home Alone (USA)": {
+		"languages": "En"
+	},
+	"Homebrew World Championships 2012 (USA) (Aftermarket) (Homebrew)": {
 		"languages": "En"
 	},
 	"Honey Peach (Asia) (Ja) (Unl)": {
@@ -3901,6 +4657,9 @@
 	},
 	"Hyper Sports (Japan)": {
 		"languages": "Ja"
+	},
+	"Hyperbeatz (World) (v1.2.1) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"I Love Softball (Japan)": {
 		"languages": "Ja"
@@ -4016,6 +4775,15 @@
 	"Incantation (Asia) (Unl) [b]": {
 		"languages": "Zh"
 	},
+	"Incident, The (USA) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Incident, The (USA) (Remastered) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Incident, The - Standalone Level Creator (USA) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
 	"Incredible Crash Dummies, The (Europe)": {
 		"languages": "En"
 	},
@@ -4039,6 +4807,9 @@
 	},
 	"Indiana Jones and the Temple of Doom (USA)": {
 		"languages": "En"
+	},
+	"Indivisible (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Indora no Hikari (Japan)": {
 		"languages": "Ja"
@@ -4072,6 +4843,15 @@
 	},
 	"Ishin no Arashi (Japan)": {
 		"languages": "Ja"
+	},
+	"Isle Quest (World) (v0.1) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Isle Quest (World) (v0.1b) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Isle Quest (World) (v0.1c) (Aftermarket) (Homebrew)": {
+		"languages": "En"
 	},
 	"Isolated Warrior (Europe)": {
 		"languages": "En"
@@ -4110,6 +4890,9 @@
 		"languages": "Ja"
 	},
 	"Jackie Chan's Action Kung Fu (Europe)": {
+		"languages": "En"
+	},
+	"Jackie Chan's Action Kung Fu (Unknown) (Beta)": {
 		"languages": "En"
 	},
 	"Jackie Chan's Action Kung Fu (USA)": {
@@ -4154,6 +4937,9 @@
 	"Jay and Silent Bob - Mall Brawl (World) (Switch) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
+	"Jeffrey Wittenhagen's Black Box Challenge (USA) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
 	"Jekyll Hakase no Houma ga Toki (Japan)": {
 		"languages": "Ja"
 	},
@@ -4172,11 +4958,17 @@
 	"Jesus - Kyoufu no Bio Monster (Japan)": {
 		"languages": "Ja"
 	},
+	"Jet-Paco, Hyper Special Space Agent! (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Jetsons, The - Cogswell's Caper (Europe)": {
 		"languages": "En"
 	},
 	"Jetsons, The - Cogswell's Caper (Japan)": {
 		"languages": "Ja"
+	},
+	"Jetsons, The - Cogswell's Caper (Unknown) (Beta)": {
+		"languages": "En"
 	},
 	"Jetsons, The - Cogswell's Caper (USA)": {
 		"languages": "En"
@@ -4223,11 +5015,20 @@
 	"Joshua & the Battle of Jericho (USA) (v6.0) (Unl)": {
 		"languages": "En"
 	},
+	"Journey (USA) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
 	"Journey to Silius (Europe)": {
 		"languages": "En"
 	},
 	"Journey to Silius (USA)": {
 		"languages": "En"
+	},
+	"Journey to the Centre of the Alien (World) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Journey to the Centre of the Alien (World) (Es) (Aftermarket) (Homebrew)": {
+		"languages": "Es"
 	},
 	"Journey to the West (Asia) (Ja) (Unl)": {
 		"languages": "Ja"
@@ -4249,6 +5050,9 @@
 	},
 	"Joy Mech Fight (Japan)": {
 		"languages": "Ja"
+	},
+	"Juhannussauna 2016 (Finland) (Aftermarket) (Unl)": {
+		"languages": "Fi"
 	},
 	"JuJu Densetsu (Japan)": {
 		"languages": "Ja"
@@ -4279,6 +5083,12 @@
 	},
 	"Just Breed (Japan)": {
 		"languages": "Ja"
+	},
+	"Justice Duel (USA) (RetroGameCon 5 Edition) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Justice Duel (World) (Aftermarket) (Unl)": {
+		"languages": "En"
 	},
 	"Justice Duel (World) (Demo 1) (Aftermarket) (Unl)": {
 		"languages": "En"
@@ -4421,6 +5231,12 @@
 	"Keroppi to Keroriinu no Splash Bomb! (Japan)": {
 		"languages": "Ja"
 	},
+	"Kevin Power in Concert Carnage (USA) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Kevin Power in Too Many Games (USA) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
 	"KHAN Games 4-in-1 Retro Gamepak (World) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
@@ -4526,7 +5342,22 @@
 	"Kinnikuman - Muscle Tag Match (Japan)": {
 		"languages": "Ja"
 	},
-	"Kirakira Star Night DX (Japan) (En) (Aftermarket) (Unl)": {
+	"Kira Kira Star Night (Japan) (En) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Kira Kira Star Night - Furusato Nouzei Fujimino-ban (Japan) (Disc) (Aftermarket) (Homebrew)": {
+		"languages": "Ja"
+	},
+	"Kira Kira Star Night AC (Japan) (En) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Kira Kira Star Night DX (Japan) (En) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Kira Kira Star Night DX (Japan) (En) (Tournament Edition) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Kira Kira Star Night DX (USA) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
 	"Kirby's Adventure (Canada) (Fr)": {
@@ -4545,6 +5376,9 @@
 		"languages": "En"
 	},
 	"Kirby's Adventure (USA)": {
+		"languages": "En"
+	},
+	"KIRU! (World) (Aftermarket) (Homebrew)": {
 		"languages": "En"
 	},
 	"Kiteretsu Daihyakka (Japan)": {
@@ -4583,6 +5417,9 @@
 	"Knight Rider (USA)": {
 		"languages": "En"
 	},
+	"Knurps Egg Rescue (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Koko Adventure (Korea) (En) (Unl)": {
 		"languages": "En"
 	},
@@ -4618,6 +5455,24 @@
 	},
 	"Krusty's Fun House (USA)": {
 		"languages": "En"
+	},
+	"KUBO 2 - L'Aventurier Courageux (World) (Fr) (Aftermarket) (Homebrew)": {
+		"languages": "Fr"
+	},
+	"KUBO 3 (Japan) (En,Ja) (Rev D) (2021-06-09) (Aftermarket) (Homebrew)": {
+		"languages": "En, Ja"
+	},
+	"KUBO 3 (World) (En,Fr) (Rev F) (2020-08-06) (Aftermarket) (Homebrew)": {
+		"languages": "En, Fr"
+	},
+	"KUBO 3 (World) (En,Fr) (Rev H) (2021-07-22) (Aftermarket) (Homebrew)": {
+		"languages": "En, Fr"
+	},
+	"KUBO 3 (World) (Limited Run Games) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"KUBO (World) (Fr) (Aftermarket) (Homebrew)": {
+		"languages": "Fr"
 	},
 	"Kujaku Ou (Japan)": {
 		"languages": "Ja"
@@ -4691,6 +5546,18 @@
 	"Lagrange Point (Japan)": {
 		"languages": "Ja"
 	},
+	"Lala The Magical (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"LAN Master (World) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Larry and the Long Look for a Luscious Lover (USA) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Larry and the Long Look for a Luscious Lover (USA) (Engagement Edition) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
 	"Lasalle Ishii no Child's Quest (Japan)": {
 		"languages": "Ja"
 	},
@@ -4711,6 +5578,12 @@
 	},
 	"Law of the West (Japan)": {
 		"languages": "Ja"
+	},
+	"Lawn Mower (World) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Lawn Mower (World) (NESDev 2011) (Aftermarket) (Homebrew)": {
+		"languages": "En"
 	},
 	"Layla (Japan)": {
 		"languages": "Ja"
@@ -4737,6 +5610,12 @@
 		"languages": "En"
 	},
 	"Legend of Robin Hood, The (USA) (Proto)": {
+		"languages": "En"
+	},
+	"Legend of Weed N' Stiff, The (World) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Legend of Weed N' Stiff, The (World) (Super Deluxe Version) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
 	"Legend of Zelda, The (Europe) (Rev 1) (Virtual Console)": {
@@ -4826,6 +5705,9 @@
 	"Little Magic (Japan)": {
 		"languages": "Ja"
 	},
+	"Little Medusa (USA) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
 	"Little Medusa (World) (Demo) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
@@ -4881,6 +5763,9 @@
 		"languages": "En"
 	},
 	"Lode Runner (USA, Europe) (Virtual Console)": {
+		"languages": "En"
+	},
+	"Log Jammers (USA) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
 	"Log Jammers (World) (Demo) (Aftermarket) (Unl)": {
@@ -4960,6 +5845,15 @@
 	},
 	"Mach Rider (Japan, USA) (En)": {
 		"languages": "En"
+	},
+	"Machine Cave (World) (v1.15) (Digital Edition) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Machine Cave (World) (v1.18b) (Digital Edition) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Machine Cave (World) (v1.19) (Digital Edition) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Mad City (Japan) (Beta)": {
 		"languages": "Ja"
@@ -5063,6 +5957,24 @@
 	"Magmax (USA)": {
 		"languages": "En"
 	},
+	"Magnilo Case, The (World) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Magnilo Case, The (World) (Byte Off 2020 Demo) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Magnilo Case, The (World) (Demo) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Magnilo Case, The (World) (Digital Version) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Magnilo Case, The (World) (v1.1) (Digital Version) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Magnilo Case, The (World) (v5.0) (Demo) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
 	"Magnum Kikiippatsu - Empire City - 1931 (Japan)": {
 		"languages": "Ja"
 	},
@@ -5077,9 +5989,6 @@
 	},
 	"Mahjang Companion (Japan) (Hacker) (SA-016 PCB) (Unl)": {
 		"languages": "Ja"
-	},
-	"Mahjong (Hong Kong) (En)": {
-		"languages": "En"
 	},
 	"Mahjong (Japan) (Rev 1)": {
 		"languages": "Ja"
@@ -5133,9 +6042,6 @@
 		"languages": "Ja"
 	},
 	"Majaventure - Mahjong Senki (Japan)": {
-		"languages": "Ja"
-	},
-	"Majong (Hong Kong) (Ja)": {
 		"languages": "Ja"
 	},
 	"Major League (Japan)": {
@@ -5274,6 +6180,12 @@
 		"languages": "Ja"
 	},
 	"Matsumoto Tooru no Kabushiki Hisshou Gaku - Part II (Japan)": {
+		"languages": "Ja"
+	},
+	"Mawthorne (World) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Mawthorne (World) (Ja) (Aftermarket) (Homebrew)": {
 		"languages": "Ja"
 	},
 	"Max Warrior - Wakusei Kaigenrei (Japan)": {
@@ -5435,6 +6347,12 @@
 	"Mermaids of Atlantis - The Riddle of the Magic Bubble (USA) (Unl)": {
 		"languages": "En"
 	},
+	"Metal Arms (Japan) (En) (Family BASIC) (Homebrew)": {
+		"languages": "En"
+	},
+	"Metal Arms (Japan) (Family BASIC) (Ending Credits Program) (Homebrew)": {
+		"languages": "Ja"
+	},
 	"Metal Fighter (Asia) (Ja) (Sachen) (Unl)": {
 		"languages": "Ja"
 	},
@@ -5459,11 +6377,17 @@
 	"Metal Gear (USA)": {
 		"languages": "En"
 	},
+	"Metal Max (Japan) (Beta) (1991-01-31)": {
+		"languages": "Ja"
+	},
 	"Metal Max (Japan) (Virtual Console)": {
 		"languages": "Ja"
 	},
 	"Metal Max (Japan)": {
 		"languages": "Ja"
+	},
+	"Metal Mech (Unknown) (Proto)": {
+		"languages": "En"
 	},
 	"Metal Slader Glory (Japan) (Virtual Console)": {
 		"languages": "Ja"
@@ -5478,6 +6402,9 @@
 		"languages": "En"
 	},
 	"MetalMech - Man & Machine (USA)": {
+		"languages": "En"
+	},
+	"Meteor Swarm (USA) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
 	"Metro-Cross (Japan) (Namcot Collection)": {
@@ -5507,10 +6434,13 @@
 	"Mezase! Top Pro - Green ni Kakeru Yume (Japan)": {
 		"languages": "Ja"
 	},
+	"MGC Arcade Pack (USA) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
 	"Michael Andretti's World GP (USA)": {
 		"languages": "En"
 	},
-	"Mick & Mack as the Global Gladiators (USA) (1993-05-28) (Proto) (Alt)": {
+	"Mick & Mack as the Global Gladiators (USA) (Proto) (1993-05-28) (Alt)": {
 		"languages": "En"
 	},
 	"Mick & Mack as the Global Gladiators (USA) (Proto) (1993-05-28)": {
@@ -5555,6 +6485,12 @@
 	"Micro Mages (World) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
+	"Micro Mages (World) (Cartridge) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"MiedoW (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"MiG 29 - Soviet Fighter (USA) (Unl)": {
 		"languages": "En"
 	},
@@ -5588,7 +6524,10 @@
 	"Mighty Final Fight (USA)": {
 		"languages": "En"
 	},
-	"Mike Tyson's Intergalactic Power Punch (USA) (Beta) [b]": {
+	"Mike Ditka's Big Play Football (USA) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Mike Tyson's Intergalactic Power Punch (USA) (Beta)": {
 		"languages": "En"
 	},
 	"Mike Tyson's Punch-Out!! (Europe) (Rev 1)": {
@@ -5627,6 +6566,9 @@
 	"Mindseeker (Japan)": {
 		"languages": "Ja"
 	},
+	"Mine Mayhem (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Minelvaton Saga - Ragon no Fukkatsu (Japan)": {
 		"languages": "Ja"
 	},
@@ -5645,9 +6587,6 @@
 	"Miracle Piano Teaching System, The (Germany)": {
 		"languages": "De"
 	},
-	"Miracle Piano Teaching System, The (United Kingdom)": {
-		"languages": "En"
-	},
 	"Miracle Piano Teaching System, The (USA)": {
 		"languages": "En"
 	},
@@ -5656,6 +6595,12 @@
 	},
 	"Mirai Shinwa Jarvas (Japan)": {
 		"languages": "Ja"
+	},
+	"Missing Lands (World) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Missing Lands (World) (v2.0) (Aftermarket) (Homebrew)": {
+		"languages": "En"
 	},
 	"Mission - Impossible (Europe)": {
 		"languages": "En"
@@ -5738,6 +6683,18 @@
 	"Moeru! Oniisan (Japan)": {
 		"languages": "Ja"
 	},
+	"Mojon Twins Gran Sabiduria - 31 in 1 REAL GAME! (World) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Mojon Twins Gran Sabiduria - 31 in 1 REAL GAME! (World) (v2.0) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Mojonian Tales (World) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Mojonian Tales (World) (Demo) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
 	"Momotarou Densetsu (Japan)": {
 		"languages": "Ja"
 	},
@@ -5789,10 +6746,25 @@
 	"Monstruo de los Globos, El (Spain) (En) (Rev 1) (Gluk Video) (Unl)": {
 		"languages": "En"
 	},
+	"Montezuma's Revenge (USA) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Montezuma's Revenge (USA) (Demo) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"MOON8 (World) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
 	"Moon Crystal (Japan)": {
 		"languages": "Ja"
 	},
 	"Moon Ranger (USA) (Unl)": {
+		"languages": "En"
+	},
+	"Moonfall - A Legend of Zelda Compilation (USA) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"More Glider (USA) (Aftermarket) (Homebrew)": {
 		"languages": "En"
 	},
 	"Morita Shougi (Japan)": {
@@ -5819,10 +6791,16 @@
 	"Mouryou Senki Madara (Japan)": {
 		"languages": "Ja"
 	},
-	"Mr. Gimmick (Europe)": {
+	"Mr. Gimmick (Scandinavia) (En)": {
 		"languages": "En"
 	},
 	"Mr. Gimmick (USA) (Proto)": {
+		"languages": "En"
+	},
+	"Mr. Maymunshine's Christmas Land (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Mr. Maymunshine's Christmas Land (World) (Alt) (Aftermarket) (Homebrew)": {
 		"languages": "En"
 	},
 	"Ms. Pac-Man (USA) (Namco)": {
@@ -5860,6 +6838,12 @@
 	},
 	"Mystery World Dizzy (Europe) (En,Pt,Pl) (Unl)": {
 		"languages": "En, Pt, Pl"
+	},
+	"Mystic Origins (USA) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Mystic PIllars (USA) (Aftermarket) (Homebrew)": {
+		"languages": "En"
 	},
 	"Nagagutsu o Haita Neko - Sekai Isshuu 80 Nichi Daibouken (Japan) (Beta)": {
 		"languages": "Ja"
@@ -5918,6 +6902,18 @@
 	"Nebs 'n Debs (World) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
+	"Nebs 'n Debs (World) (Cartridge) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Nebs 'n Debs (World) (Demo) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Nebs 'n Debs (World) (Kaizo) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Nebs 'n Debs (World) (Rev 1) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
 	"Nekketsu Kakutou Densetsu (Japan)": {
 		"languages": "Ja"
 	},
@@ -5942,8 +6938,29 @@
 	"Nekketsu! Street Basket - Ganbare Dunk Heroes (Japan)": {
 		"languages": "Ja"
 	},
+	"neMULEsis (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"neMULEsis (World) (Demo) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"NEO Heiankyo Alien (World) (Ja) (Aftermarket) (Unl)": {
 		"languages": "Ja"
+	},
+	"Neotoxin (World) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Neotoxin (World) (Beta) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Neotoxin (World) (Demo) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"NES Calculator (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"NES Hangman (World) (Aftermarket) (Unl)": {
+		"languages": "En"
 	},
 	"NES Open Tournament Golf (Europe) (Virtual Console)": {
 		"languages": "En"
@@ -5969,8 +6986,26 @@
 	"NES Play Action Football (USA)": {
 		"languages": "En"
 	},
-	"NES Virus Cleaner (World) (Aftermarket) (Unl)": {
+	"NES Virus Cleaner (World) (Airwalk Studios) (Aftermarket) (Homebrew)": {
 		"languages": "En"
+	},
+	"NES Virus Cleaner (World) (Non-Published Version) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"NES Virus Cleaner (World) (Second Dimension) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"NEScape! (USA) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"NESDev '19 Compo Cart (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"NESert Golfing (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"NESert Golfing (World) (Tournament Edition) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"New Ghostbusters II (Europe)": {
 		"languages": "En"
@@ -6011,6 +7046,12 @@
 	"Nigel Mansell's World Championship Racing (USA)": {
 		"languages": "En"
 	},
+	"Nightman vs. Justice Incarnate (USA) (Proto 2) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Nightman vs. Justice Incarnate (USA) (Proto) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
 	"Nightmare on Elm Street, A (USA)": {
 		"languages": "En"
 	},
@@ -6020,11 +7061,17 @@
 	"Nightshade (World) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
+	"Nighttime Bastards (USA) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
 	"Nihonichi no Mei Kantoku (Japan)": {
 		"languages": "Ja"
 	},
 	"Niji no Silk Road (Japan)": {
 		"languages": "Ja"
+	},
+	"Ninja (USA) (Aftermarket) (Homebrew)": {
+		"languages": "En"
 	},
 	"Ninja Cop Saizou (Japan)": {
 		"languages": "Ja"
@@ -6033,9 +7080,6 @@
 		"languages": "En"
 	},
 	"Ninja Crusaders - Ryuuga (Japan)": {
-		"languages": "Ja"
-	},
-	"Ninja Gaiden (Japan) (Wii U Virtual Console)": {
 		"languages": "Ja"
 	},
 	"Ninja Gaiden (USA) (Beta)": {
@@ -6071,6 +7115,12 @@
 	"Ninja Hattori-kun - Ninja wa Syugyou de Gozaru no Maki (Japan)": {
 		"languages": "Ja"
 	},
+	"Ninja I & II (World) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Ninja II (USA) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
 	"Ninja Jajamaru - Ginga Daisakusen (Japan) (Beta)": {
 		"languages": "Ja"
 	},
@@ -6086,6 +7136,12 @@
 	"Ninja Kid (USA)": {
 		"languages": "En"
 	},
+	"Ninja Ryuuken Den (Japan) (FamicomBox)": {
+		"languages": "Ja"
+	},
+	"Ninja Ryuuken Den (Japan) (Wii U Virtual Console)": {
+		"languages": "Ja"
+	},
 	"Ninja Ryuuken Den (Japan) (Wii Virtual Console)": {
 		"languages": "Ja"
 	},
@@ -6096,9 +7152,6 @@
 		"languages": "Ja"
 	},
 	"Ninja Ryuuken Den III - Yomi no Hakobune (Japan)": {
-		"languages": "Ja"
-	},
-	"Ninja Ryuukenden (Japan) (FamicomBox)": {
 		"languages": "Ja"
 	},
 	"Ninja-kun - Ashura no Shou (Japan)": {
@@ -6113,16 +7166,19 @@
 	"Ninjara Hoi! (Japan)": {
 		"languages": "Ja"
 	},
-	"Nintendo - NTF2 System Cartridge (USA) (Test Program)": {
-		"languages": "En"
-	},
-	"Nintendo - NTF2 Test Cartridge (USA) (Rev 1) (Test Program)": {
-		"languages": "En"
-	},
-	"Nintendo - NTF2 Test Cartridge (USA) (Test Program)": {
-		"languages": "En"
+	"Nintencat - The Parody (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Nintendo Campus Challenge 1991 (USA) (Competition Cart) [b]": {
+		"languages": "En"
+	},
+	"Nintendo NTF2 System Cartridge (USA) (v1.1) (Test Program)": {
+		"languages": "En"
+	},
+	"Nintendo NTF2 Test Cartridge (USA) (Test Program)": {
+		"languages": "En"
+	},
+	"Nintendo NTF2 Test Cartridge (USA) (v1.1) (Test Program)": {
 		"languages": "En"
 	},
 	"Nintendo World Championships 1990 (USA) (Competition Cart)": {
@@ -6155,11 +7211,20 @@
 	"Nintendo World Cup (USA)": {
 		"languages": "En"
 	},
+	"NintendoAge Halloween 2009 (USA) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
 	"Nishimura Kyoutarou Mystery - Blue Train Satsujin Jiken (Japan)": {
 		"languages": "Ja"
 	},
 	"Nishimura Kyoutarou Mystery - Super Express Satsujin Jiken (Japan)": {
 		"languages": "Ja"
+	},
+	"Nix - The Paradox Relic (USA, Europe) (v1.9) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Nix - The Paradox Relic (World) (v1.2) (Demo) (Aftermarket) (Homebrew)": {
+		"languages": "En"
 	},
 	"Noah's Ark (Europe)": {
 		"languages": "En"
@@ -6188,13 +7253,19 @@
 	"Nobunaga's Ambition II (USA)": {
 		"languages": "En"
 	},
-	"Nomolos - Storming the CATsle (World) (V1.00) (Aftermarket) (Unl)": {
+	"NOFX Cover Cart Vol. 1 (USA) (Limited Edition) (Aftermarket) (Homebrew)": {
 		"languages": "En"
 	},
-	"Nomolos - Storming the CATsle (World) (V1.00D) (Aftermarket) (Unl) (Alt)": {
+	"NOFX Cover Cart Vol. 1 (World) (Aftermarket) (Homebrew)": {
 		"languages": "En"
 	},
-	"Nomolos - Storming the CATsle (World) (V1.00D) (Aftermarket) (Unl)": {
+	"Nomolos - Storming the CATsle (World) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Nomolos - Storming the CATsle (World) (V1.00D) (Demo) (Aftermarket) (Unl) (Alt)": {
+		"languages": "En"
+	},
+	"Nomolos - Storming the CATsle (World) (V1.00D) (Demo) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
 	"Nomolos - Storming the CATsle (World) (V1.01) (Aftermarket) (Unl)": {
@@ -6207,6 +7278,39 @@
 		"languages": "Ja"
 	},
 	"North and South (USA)": {
+		"languages": "En"
+	},
+	"Nova the Squirrel (World) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Nova the Squirrel (World) (Alt) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Nova the Squirrel (World) (v1.01) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Nova the Squirrel (World) (v1.02) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Nova the Squirrel (World) (v1.03) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Nova the Squirrel (World) (v1.04) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Nova the Squirrel (World) (v1.05) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Nova the Squirrel (World) (v1.06) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Noxious Liquid (World) (Proto) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"NTRQ (World) (v1.9) (NTSC) (Music Program) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"NTRQ (World) (v1.9) (PAL) (Music Program) (Aftermarket) (Homebrew)": {
 		"languages": "En"
 	},
 	"Nuts & Milk (Japan)": {
@@ -6227,6 +7331,9 @@
 	"Oishinbo - Kyuukyoku no Menu Sanbon Shoubu (Japan)": {
 		"languages": "Ja"
 	},
+	"Okkotoshi Puzzle - Tonjan! (Japan) (Beta)": {
+		"languages": "Ja"
+	},
 	"Okkotoshi Puzzle - Tonjan! (Japan)": {
 		"languages": "Ja"
 	},
@@ -6237,12 +7344,6 @@
 		"languages": "Ja"
 	},
 	"Olympus no Tatakai (Japan)": {
-		"languages": "Ja"
-	},
-	"Onigiri Daisuki (Japan) (Demo 1) (Aftermarket) (Unl)": {
-		"languages": "Ja"
-	},
-	"Onigiri Daisuki (Japan) (Demo 2) (Aftermarket) (Unl)": {
 		"languages": "Ja"
 	},
 	"Onyanko Town (Japan)": {
@@ -6272,7 +7373,7 @@
 	"Othello (Australia) (HES) (Unl)": {
 		"languages": "En"
 	},
-	"Othello (Japan) (Rev 1)": {
+	"Othello (Japan) (Rev 1) (Possible Proto)": {
 		"languages": "Ja"
 	},
 	"Othello (Japan)": {
@@ -6335,10 +7436,10 @@
 	"Pac-Man (World) (Rev A) (Namcot Collection, Namco Museum Archives Vol 1)": {
 		"languages": "En"
 	},
-	"Pac-Man Championship Edition (Japan) (En) (Namcot Collection) (Aftermarket)": {
+	"Pac-Man Championship Edition (Japan) (En) (Namcot Collection)": {
 		"languages": "En"
 	},
-	"Pac-Man Championship Edition (USA, Europe) (Namco Museum Archives Vol 1) (Aftermarket)": {
+	"Pac-Man Championship Edition (USA, Europe) (Namco Museum Archives Vol 1)": {
 		"languages": "En"
 	},
 	"Pac-Mania (USA) (Unl)": {
@@ -6386,7 +7487,13 @@
 	"Palamedes II - Star Twinkle, Hoshi no Mabataki (Japan)": {
 		"languages": "Ja"
 	},
+	"Panesian Power (World) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
 	"Panic Restaurant (Europe)": {
+		"languages": "En"
+	},
+	"Panic Restaurant (Unknown) (Beta)": {
 		"languages": "En"
 	},
 	"Panic Restaurant (USA)": {
@@ -6446,6 +7553,9 @@
 	"Peepar Time (Japan)": {
 		"languages": "Ja"
 	},
+	"Pen Pen (Japan) (En) (Family BASIC) (Homebrew)": {
+		"languages": "En"
+	},
 	"Penguin-kun Wars (Japan)": {
 		"languages": "Ja"
 	},
@@ -6478,6 +7588,9 @@
 	},
 	"Phantom Fighter (USA)": {
 		"languages": "En"
+	},
+	"Pico Pico Grand Adventure (Japan) (Aftermarket) (Homebrew)": {
+		"languages": "Ja"
 	},
 	"Pictionary - The Game of Video Quick Draw (USA)": {
 		"languages": "En"
@@ -6512,6 +7625,12 @@
 	"Pinball Quest (USA)": {
 		"languages": "En"
 	},
+	"Pinky (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Pinky Xmas (World) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
 	"Pipe Dream (USA)": {
 		"languages": "En"
 	},
@@ -6530,11 +7649,29 @@
 	"Pirates! (USA)": {
 		"languages": "En"
 	},
+	"Pixel Poops - Number Two (World) (Rev B) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Pixel Poops - Number Two (World) (Rev B) (Demo) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Pizza Party! (World) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Pizza Party! (World) (v1.1) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
 	"Pizza Pop! (Japan)": {
 		"languages": "Ja"
 	},
 	"Plasma Ball (Japan)": {
 		"languages": "Ja"
+	},
+	"Platoon (Unknown) (Demo 1)": {
+		"languages": "En"
+	},
+	"Platoon (Unknown) (Demo 2)": {
+		"languages": "En"
 	},
 	"Platoon (USA) (Rev 1)": {
 		"languages": "En"
@@ -6547,6 +7684,15 @@
 	},
 	"Playbox BASIC (Japan)": {
 		"languages": "Ja"
+	},
+	"PLOID (USA, Europe) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Plummet Challenge Game (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Plummet Challenge Game - Mapper 2 (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Pocket Zaurus - Juu Ouken no Nazo (Japan)": {
 		"languages": "Ja"
@@ -6567,6 +7713,9 @@
 		"languages": "En"
 	},
 	"Polygondwanaland - 2nd Edition (World) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Pong and Head Bounce (World) (Aftermarket) (Homebrew)": {
 		"languages": "En"
 	},
 	"Pooyan (Japan)": {
@@ -6590,6 +7739,18 @@
 	"Portopia Renzoku Satsujin Jiken (Japan)": {
 		"languages": "Ja"
 	},
+	"Porun-chan no Onigiri Daisuki (World) (Ja) (Amabie Edition) (Aftermarket) (Unl)": {
+		"languages": "Ja"
+	},
+	"Porun-chan no Onigiri Daisuki (World) (Ja) (Limited Edition) (Aftermarket) (Unl)": {
+		"languages": "Ja"
+	},
+	"Porun-chan no Onigiri Daisuki (World) (Ja) (v2.0) (Trial) (Aftermarket) (Unl)": {
+		"languages": "Ja"
+	},
+	"Porun-chan no Onigiri Daisuki (World) (v1.1) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
 	"Power Blade 2 (USA)": {
 		"languages": "En"
 	},
@@ -6602,11 +7763,20 @@
 	"Power Blazer (Japan)": {
 		"languages": "Ja"
 	},
+	"Power Coloring (USA) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Power Pad Test (World) (Test Program) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
 	"Power Punch II (USA)": {
 		"languages": "En"
 	},
 	"Power Soccer (Japan)": {
 		"languages": "Ja"
+	},
+	"PR8 (World) (v1.01) (Music Program) (Aftermarket) (Homebrew)": {
+		"languages": "En"
 	},
 	"Predator (Australia)": {
 		"languages": "En"
@@ -6689,14 +7859,44 @@
 	"Probotector II - Return of the Evil Forces (World) (Contra Anniversary Collection)": {
 		"languages": "En"
 	},
+	"Project Blue (World) (2017-12-03) (NESDev Compo Edition) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Project Blue (World) (2018-05-01) (NESDev Comp Edition) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Project Blue (World) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Project Blue (World) (Beta) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Project Blue (World) (Gender Swap Version) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Project Blue (World) (Kickstarter Demo) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Project DART (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Project Q (Japan)": {
 		"languages": "Ja"
 	},
-	"PROTO DERE .NES (World) (Proto) (Aftermarket)": {
+	"PROTO DERE .NES (World) (Proto) (Aftermarket) (Unl)": {
 		"languages": "En"
+	},
+	"Prying Eye, The (World) (Demo) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Pu Ke Jing Ling (Asia) (Unl)": {
 		"languages": "Zh"
+	},
+	"Pulsar (World) (v1.04) (Music Program) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Pulsewave Invitation (World) (2007-11-03) (Aftermarket) (Homebrew)": {
+		"languages": "En"
 	},
 	"Punch-Out!! (Europe) (Virtual Console)": {
 		"languages": "En"
@@ -6779,6 +7979,9 @@
 	"QIX (USA)": {
 		"languages": "En"
 	},
+	"Quadralords (USA) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
 	"Quarter Back Scramble (Japan)": {
 		"languages": "Ja"
 	},
@@ -6795,6 +7998,9 @@
 		"languages": "En"
 	},
 	"Quattro Sports (USA) (Unl)": {
+		"languages": "En"
+	},
+	"Quiet (USA) (Aftermarket) (Homebrew)": {
 		"languages": "En"
 	},
 	"Quinty (Japan) (Namcot Collection)": {
@@ -6878,16 +8084,13 @@
 	"Rad Racket - Deluxe Tennis II (USA) (Unl)": {
 		"languages": "En"
 	},
-	"Radac Tailor-Made (Japan) (Rev 1)": {
+	"Radac Tailor-Made (Japan) (Rev 1) (Possible Proto)": {
 		"languages": "Ja"
 	},
 	"Radac Tailor-Made (Japan)": {
 		"languages": "Ja"
 	},
 	"Radia Senki - Reimei Hen (Japan)": {
-		"languages": "Ja"
-	},
-	"Raf World (Japan)": {
 		"languages": "Ja"
 	},
 	"Raid 2020 (USA) (Beta) (1989-12-xx) (Unl)": {
@@ -6905,6 +8108,9 @@
 	"Raid on Bungeling Bay (USA)": {
 		"languages": "En"
 	},
+	"Rainbow Brite - Journey to Rainbow Land (USA, Europe) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
 	"Rainbow Islands (USA)": {
 		"languages": "En"
 	},
@@ -6919,6 +8125,12 @@
 	},
 	"Rally Bike (USA)": {
 		"languages": "En"
+	},
+	"Ralph 4 (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Ralph 4 (World) (Beta) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Rambo (Japan)": {
 		"languages": "Ja"
@@ -6947,11 +8159,20 @@
 	"Rampart (USA) (Jaleco)": {
 		"languages": "En"
 	},
+	"Randy in Sokobanland (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Red Arremer II (Japan)": {
 		"languages": "Ja"
 	},
 	"Reigen Doushi (Japan)": {
 		"languages": "Ja"
+	},
+	"Reknum - Souls Adventure (USA, Europe) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Reknum - The Awakening (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Remote Control (USA)": {
 		"languages": "En"
@@ -6977,6 +8198,24 @@
 	"Rescue - The Embassy Mission (USA)": {
 		"languages": "En"
 	},
+	"Retro Puzzle Maker (World) (v1.1) (Program) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Retroplayer.nl Championship 2015 (World) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Retroplayer.nl Championship 2015 (World) (Beta 1) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Retroplayer.nl Championship 2015 (World) (Beta 2) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"RGB (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Rick Rolled! (World) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
 	"Ring King (USA)": {
 		"languages": "En"
 	},
@@ -6984,6 +8223,9 @@
 		"languages": "Ja"
 	},
 	"River City Ransom (USA)": {
+		"languages": "En"
+	},
+	"RNDM (USA) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
 	"Road Fighter (Europe)": {
@@ -7022,11 +8264,17 @@
 	"Robin Hood - Prince of Thieves (USA)": {
 		"languages": "En"
 	},
+	"Robo Ninja Climb (World) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
 	"Robo Warrior (Europe)": {
 		"languages": "En"
 	},
 	"Robo Warrior (USA)": {
 		"languages": "En"
+	},
+	"Robo-Ninja Climb (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Robocco Wars (Japan)": {
 		"languages": "Ja"
@@ -7175,7 +8423,7 @@
 	"Romance of the Three Kingdoms II (USA)": {
 		"languages": "En"
 	},
-	"Romancia (Japan) (Rev 1)": {
+	"Romancia (Japan) (Rev 1) (Possible Proto)": {
 		"languages": "Ja"
 	},
 	"Romancia (Japan)": {
@@ -7183,6 +8431,9 @@
 	},
 	"Roniu's Tale (World) (Demo) (Aftermarket) (Unl)": {
 		"languages": "En"
+	},
+	"Rough World (Japan)": {
+		"languages": "Ja"
 	},
 	"Roundball - 2-on-2 Challenge (Europe)": {
 		"languages": "En"
@@ -7202,6 +8453,9 @@
 	"Rumble Station - 15 in 1 (USA) (Unl)": {
 		"languages": "En"
 	},
+	"Rumblefest '89 (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Rush'n Attack (Europe)": {
 		"languages": "En"
 	},
@@ -7215,6 +8469,9 @@
 		"languages": "En"
 	},
 	"Rygar (USA)": {
+		"languages": "En"
+	},
+	"S.C.A.T. - Special Cybernetic Attack Team (Unknown) (Sample)": {
 		"languages": "En"
 	},
 	"S.C.A.T. - Special Cybernetic Attack Team (USA) (Beta)": {
@@ -7331,7 +8588,16 @@
 	"Satsui no Kaisou - Soft House Renzoku Satsujin Jiken (Japan)": {
 		"languages": "Ja"
 	},
+	"SaturdayMan (World) (Fr) (Demo) (Aftermarket) (Unl)": {
+		"languages": "Fr"
+	},
+	"Saturn Smash (World) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
 	"Scarabeus (USA) (Sample)": {
+		"languages": "En"
+	},
+	"Scramble (USA) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
 	"SD Battle Oozumou - Heisei Hero Basho (Japan)": {
@@ -7438,6 +8704,9 @@
 	},
 	"Sesame Street - Countdown (USA)": {
 		"languages": "En"
+	},
+	"Sgt. Helmet Training Day (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Shadow Brain (Japan)": {
 		"languages": "Ja"
@@ -7604,6 +8873,9 @@
 	"Silent Service (USA)": {
 		"languages": "En"
 	},
+	"Silicon Statue (USA) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
 	"Silk Worm (USA)": {
 		"languages": "En"
 	},
@@ -7645,6 +8917,12 @@
 	},
 	"Simpsons, The - Bartman Meets Radioactive Man (USA)": {
 		"languages": "En"
+	},
+	"Sir Ababol (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Sir Ababol Remastered (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Skate Boy (Spain) (En) (Gluk Video) (Unl)": {
 		"languages": "En"
@@ -7700,10 +8978,25 @@
 	"Slalom (USA)": {
 		"languages": "En"
 	},
+	"Slappin' Bitches (USA) (First Edition) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Slappin' Bitches (USA) (Mass Market) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Slow Mole (World) (v1.2b) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Slow Mole (World) (v1.2b) (NES Classic and PowerPak) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Smash T.V. (Europe)": {
 		"languages": "En"
 	},
 	"Smash T.V. (USA)": {
+		"languages": "En"
+	},
+	"SMMM (World) (v1.01) (Music Program) (Aftermarket) (Homebrew)": {
 		"languages": "En"
 	},
 	"Smurfs, The (Europe) (En,Fr,De,Es) (Beta)": {
@@ -7722,6 +9015,9 @@
 		"languages": "En"
 	},
 	"Snake's Revenge (USA)": {
+		"languages": "En"
+	},
+	"Sneak 'n Peak (USA) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
 	"Snoopy's Silly Sports Spectacular! (USA)": {
@@ -7758,6 +9054,24 @@
 		"languages": "En"
 	},
 	"Solar Jetman - Hunt for the Golden Warpship (USA)": {
+		"languages": "En"
+	},
+	"Solar Wars (World) (Aftermarket) (Homebrew) (Alt)": {
+		"languages": "En"
+	},
+	"Solar Wars (World) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Solar Wars (World) (v1.5) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Solar Wars (World) (v.1) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Solar Wars (World) (v.2) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Solaris (USA) (Aftermarket) (Homebrew)": {
 		"languages": "En"
 	},
 	"Solitaire (USA) (Unl)": {
@@ -7811,6 +9125,12 @@
 	"Sou Setsu Ryuu III - The Rosetta Stone (Japan)": {
 		"languages": "Ja"
 	},
+	"Space Gulls (World) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Space Gulls (World) (v1.1) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Space Harrier (Japan)": {
 		"languages": "Ja"
 	},
@@ -7819,6 +9139,9 @@
 	},
 	"Space Invaders (Japan)": {
 		"languages": "Ja"
+	},
+	"Space Raft (World) (Aftermarket) (Homebrew)": {
+		"languages": "En"
 	},
 	"Space Shadow (Japan)": {
 		"languages": "Ja"
@@ -7856,6 +9179,9 @@
 	"Spirit Impel (World) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
+	"Spirit of Satan, The (Japan) (En) (Family BASIC) (Homebrew)": {
+		"languages": "En"
+	},
 	"Spiritual Warfare (USA) (Beta) (Unl)": {
 		"languages": "En"
 	},
@@ -7872,6 +9198,15 @@
 		"languages": "Ja"
 	},
 	"Splatterhouse - Wanpaku Graffiti (World) (Namcot Collection, Namco Museum Archives Vol 1)": {
+		"languages": "En"
+	},
+	"Spook-o'-tron (USA) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Spook-o'-tron (USA) (Limited Edition) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Spook-o'-tron (USA) (Numbered Edition) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
 	"Spot (Japan)": {
@@ -7909,6 +9244,9 @@
 	},
 	"Squashed (USA) (Proto)": {
 		"languages": "En"
+	},
+	"Squirell Chaser (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Stack-Up (World)": {
 		"languages": "En"
@@ -7964,6 +9302,9 @@
 	"Star Trek - 25th Anniversary (USA)": {
 		"languages": "En"
 	},
+	"Star Trek - The Next Generation (Unknown) (Beta)": {
+		"languages": "En"
+	},
 	"Star Trek - The Next Generation (USA)": {
 		"languages": "En"
 	},
@@ -7991,6 +9332,9 @@
 	"Star Wars (USA)": {
 		"languages": "En"
 	},
+	"Star Wars (World) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
 	"Star Wars - The Empire Strikes Back (Europe)": {
 		"languages": "En"
 	},
@@ -8001,6 +9345,9 @@
 		"languages": "En"
 	},
 	"Star Wars - The Empire Strikes Back (USA)": {
+		"languages": "En"
+	},
+	"Star Wars - The Empire Strikes Back (World) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
 	"Starship Hector (USA)": {
@@ -8075,7 +9422,19 @@
 	"Strike Wolf (Asia) (Unl)": {
 		"languages": "Zh"
 	},
+	"Study Hall (USA) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
 	"Stunt Kids (USA) (Unl)": {
+		"languages": "En"
+	},
+	"Sudoku 2007 (USA) (Aftermarket) (Unl)": {
+		"languages": "En-US"
+	},
+	"Sudoku 2007 (World) (v1.1) (RetroZone) (Aftermarket) (Unl)": {
+		"languages": "En-US"
+	},
+	"Sudoku (World) (NESWORLD Edition) (Aftermarket) (Homebrew)": {
 		"languages": "En"
 	},
 	"Sugoro Quest - Dice no Senshitachi (Japan) (Virtual Console)": {
@@ -8099,7 +9458,7 @@
 	"Sunman (Europe) (Proto)": {
 		"languages": "En"
 	},
-	"Super 190-in-1 (Asia) (En) (Unl) (Pirate)": {
+	"Super 190-in-1 (Asia) (En) (Pirate)": {
 		"languages": "En"
 	},
 	"Super Adventure Quests (Europe) (Unl)": {
@@ -8168,6 +9527,9 @@
 	"Super Contra (Japan)": {
 		"languages": "Ja"
 	},
+	"Super Crusher Fighters (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Super Dodge Ball (USA) (Virtual Console)": {
 		"languages": "En"
 	},
@@ -8180,6 +9542,15 @@
 	"Super Glove Ball (USA)": {
 		"languages": "En"
 	},
+	"Super Homebrew War (World) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Super Homebrew War (World) (Alt) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Super Insect Swatter (World) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
 	"Super Jeopardy! (USA)": {
 		"languages": "En"
 	},
@@ -8188,9 +9559,6 @@
 	},
 	"Super Mario Bros. 2 (Europe)": {
 		"languages": "En"
-	},
-	"Super Mario Bros. 2 (Japan) (Virtual Console)": {
-		"languages": "Ja"
 	},
 	"Super Mario Bros. 2 (USA) (Beta)": {
 		"languages": "En"
@@ -8258,6 +9626,9 @@
 	"Super Mario Bros. - 25th Anniversary (Japan) (En) (Virtual Console)": {
 		"languages": "En"
 	},
+	"Super Mario USA (Japan) (Virtual Console)": {
+		"languages": "Ja"
+	},
 	"Super Mario USA (Japan)": {
 		"languages": "Ja"
 	},
@@ -8266,6 +9637,12 @@
 	},
 	"Super Momotarou Dentetsu (Japan)": {
 		"languages": "Ja"
+	},
+	"Super NeSnake 2 (USA) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Super NeSnake 2 (World) (Demo) (Aftermarket) (Homebrew)": {
+		"languages": "En"
 	},
 	"Super Painter (World) (Aftermarket) (Unl)": {
 		"languages": "En"
@@ -8296,6 +9673,12 @@
 	},
 	"Super Rugby (Japan)": {
 		"languages": "Ja"
+	},
+	"Super Russian Roulette (World) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Super Snake Off (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Super Spike V'Ball (Europe)": {
 		"languages": "En"
@@ -8330,8 +9713,14 @@
 	"Super Team Games (USA)": {
 		"languages": "En"
 	},
+	"Super Tilt Bros. (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Super Turrican (Europe)": {
 		"languages": "En"
+	},
+	"Super Uwol (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Super Xevious - Gump no Nazo (Japan)": {
 		"languages": "Ja"
@@ -8375,7 +9764,22 @@
 	"Sword Master (Japan)": {
 		"languages": "Ja"
 	},
+	"Sword Master (Unknown) (Beta) (1991-05-15)": {
+		"languages": "En"
+	},
+	"Sword Master (Unknown) (Beta) (CES)": {
+		"languages": "En"
+	},
 	"Sword Master (USA)": {
+		"languages": "En"
+	},
+	"Swords and Runes (USA) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Swords and Runes (USA) (Limited Edition) (Aftermarket)": {
+		"languages": "En"
+	},
+	"Swords and Runes III (USA) (Numbered Edition) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
 	"Swords and Serpents (Europe)": {
@@ -8403,6 +9807,18 @@
 		"languages": "En"
 	},
 	"Tagin' Dragon (USA) (Unl)": {
+		"languages": "En"
+	},
+	"Tailgate Party (USA) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Tailgate Party (USA) (Alt) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Tailgate Party (USA) (Demo) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Tailgate Party (USA) (Let's Play Gaming Expo Edition) (Aftermarket) (Homebrew)": {
 		"languages": "En"
 	},
 	"Taito Basketball (Japan)": {
@@ -8639,6 +10055,12 @@
 	"Teenage Mutant Ninja Turtles III - The Manhattan Project (USA)": {
 		"languages": "En"
 	},
+	"Teletime (World) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Temple Dilemma (USA) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
 	"Tenchi o Kurau (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
@@ -8692,6 +10114,9 @@
 	},
 	"Terra Cresta (Japan)": {
 		"languages": "Ja"
+	},
+	"Terra Cresta (Unknown) (Beta)": {
+		"languages": "En"
 	},
 	"Terra Cresta (USA)": {
 		"languages": "En"
@@ -8756,10 +10181,22 @@
 	"Thomas the Tank Engine & Friends (USA) (Proto)": {
 		"languages": "En"
 	},
+	"Thornby (USA) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
 	"Three Stooges, The (USA) (Beta) (1989-02-23)": {
 		"languages": "En"
 	},
 	"Three Stooges, The (USA)": {
+		"languages": "En"
+	},
+	"Through Dimensions (World) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Through Dimensions (World) (v1.1) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Through Dimensions (World) (v1.2) (Aftermarket) (Homebrew)": {
 		"languages": "En"
 	},
 	"Thunder & Lightning (USA)": {
@@ -8785,6 +10222,9 @@
 	},
 	"Tiger-Heli (Japan)": {
 		"languages": "Ja"
+	},
+	"Tiger-Heli (USA) (Rev 1) (Possible Proto)": {
+		"languages": "En"
 	},
 	"Tiger-Heli (USA)": {
 		"languages": "En"
@@ -8840,6 +10280,9 @@
 	"Titan (Japan)": {
 		"languages": "Ja"
 	},
+	"Titan Warriors (Unknown) (Beta)": {
+		"languages": "En"
+	},
 	"Titan Warriors (USA) (Proto)": {
 		"languages": "En"
 	},
@@ -8867,6 +10310,9 @@
 	"Tokoro-san no Mamoru mo Semeru mo (Japan)": {
 		"languages": "Ja"
 	},
+	"Tola (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Tom & Jerry (Japan)": {
 		"languages": "Ja"
 	},
@@ -8878,6 +10324,9 @@
 	},
 	"Tom Sawyer no Bouken (Japan)": {
 		"languages": "Ja"
+	},
+	"Tomb of Ice (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Tombs & Treasure (USA)": {
 		"languages": "En"
@@ -8918,6 +10367,9 @@
 	"Top Striker (Japan)": {
 		"languages": "Ja"
 	},
+	"Tortoises (USA) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
 	"Total Funpak (Australia) (Unl)": {
 		"languages": "En"
 	},
@@ -8954,8 +10406,14 @@
 	"Toukyou Pachi-Slot Adventure (Japan)": {
 		"languages": "Ja"
 	},
+	"Tower Defense 1990 (USA) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
 	"Tower of Radia (USA) (Proto)": {
 		"languages": "En"
+	},
+	"Tower of Turmoil, The (World) (v1.03) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Town & Country Surf Designs - Thrilla's Surfari (USA)": {
 		"languages": "En"
@@ -8980,6 +10438,15 @@
 	},
 	"Track & Field in Barcelona (Europe)": {
 		"languages": "En"
+	},
+	"TRACK+FEEL II (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Tracy's NEScapades (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Tragedy of Ryohyukan, The (Japan) (Family BASIC) (Homebrew)": {
+		"languages": "Ja"
 	},
 	"Treasure Master (USA)": {
 		"languages": "En"
@@ -9029,6 +10496,12 @@
 	"Turbo Racing (Europe)": {
 		"languages": "En"
 	},
+	"Turtle Rescue - Unwrapped Holiday Edition (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Twelve Seconds (USA) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
 	"Twin Cobra (USA)": {
 		"languages": "En"
 	},
@@ -9062,6 +10535,9 @@
 	"TwinBee (Japan)": {
 		"languages": "Ja"
 	},
+	"TYMKRS Rabbit Hole (World) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
 	"U-Force Power Games (USA) (Proto 1)": {
 		"languages": "En"
 	},
@@ -9076,6 +10552,9 @@
 	},
 	"U.S. Championship V'Ball (Japan)": {
 		"languages": "Ja"
+	},
+	"Uchusen - Ultimate PLOID Battle (USA, Europe) (Aftermarket) (Unl)": {
+		"languages": "En"
 	},
 	"Uchuu Keibitai SDF (Japan)": {
 		"languages": "Ja"
@@ -9122,11 +10601,17 @@
 	"Ultimate Air Combat (Europe) (En,Fr,De)": {
 		"languages": "En, Fr, De"
 	},
+	"Ultimate Air Combat (Unknown) (Beta)": {
+		"languages": "En"
+	},
 	"Ultimate Air Combat (USA)": {
 		"languages": "En"
 	},
 	"Ultimate Basketball (USA)": {
 		"languages": "En"
+	},
+	"Ultimate Frogger Champion (USA) (Aftermarket) (Unl)": {
+		"languages": "En-US"
 	},
 	"Ultimate League Soccer (Europe) (Unl)": {
 		"languages": "En"
@@ -9153,6 +10638,12 @@
 		"languages": "En"
 	},
 	"Uncharted Waters (USA)": {
+		"languages": "En"
+	},
+	"Underground Adventure (World) (Prototype) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Uninvited (USA) (Beta) (1990-08-30)": {
 		"languages": "En"
 	},
 	"Uninvited (USA)": {
@@ -9191,10 +10682,19 @@
 	"Ushio to Tora - Shinen no Taiyou (Japan)": {
 		"languages": "Ja"
 	},
+	"UTACO (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Utakata Synopsis (Japan) (Aftermarket) (Unl)": {
+		"languages": "Ja"
+	},
 	"Utsurun Desu - Kawauso Hawaii e Iku (Japan)": {
 		"languages": "Ja"
 	},
 	"UWC (USA) (Proto)": {
+		"languages": "En"
+	},
+	"UXO - Unexploded Ordnance (USA) (Aftermarket) (Homebrew)": {
 		"languages": "En"
 	},
 	"Valkyrie no Bouken - Toki no Kagi Densetsu (Japan) (Namcot Collection)": {
@@ -9212,6 +10712,12 @@
 	"Vegas Dream (USA)": {
 		"languages": "En"
 	},
+	"Vegavox (USA) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Vegavox II (USA) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
 	"Venice Beach Volleyball (Asia) (En) (Idea-Tek) (Unl)": {
 		"languages": "En"
 	},
@@ -9226,6 +10732,9 @@
 	},
 	"Venus Senki - Back the City (Japan)": {
 		"languages": "Ja"
+	},
+	"VGBS Gaming Podcast - Season 1 (USA) (Aftermarket) (Unl)": {
+		"languages": "En"
 	},
 	"Vice - Project Doom (USA)": {
 		"languages": "En"
@@ -9266,6 +10775,9 @@
 	"Wacky Races (USA)": {
 		"languages": "En"
 	},
+	"Waddles the Duck (World) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
 	"Wagyan Land 2 (Japan) (Virtual Console)": {
 		"languages": "Ja"
 	},
@@ -9293,6 +10805,9 @@
 	"Wait and See! (Asia) (En) (Unl)": {
 		"languages": "En"
 	},
+	"Waldos Forever (USA) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
 	"Wall Street Kid (USA)": {
 		"languages": "En"
 	},
@@ -9301,6 +10816,12 @@
 	},
 	"Wally Bear and the No! Gang (USA) (Unl)": {
 		"languages": "En"
+	},
+	"Wampus DX (World) (Aftermarket) (Homebrew) (Alt)": {
+		"languages": "nolang"
+	},
+	"Wampus DX (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Wang Zi Fu Chou Ji (Asia) (Unl)": {
 		"languages": "Zh"
@@ -9335,6 +10856,9 @@
 	"Warpman (Japan)": {
 		"languages": "Ja"
 	},
+	"Wart Worm Wingding! (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Way of the Exploding Fist (World) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
@@ -9345,6 +10869,9 @@
 		"languages": "En"
 	},
 	"WCW World Championship Wrestling (USA)": {
+		"languages": "En"
+	},
+	"Weed N'Stiff 2 - Bobson's Revenge (World) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
 	"Wei Lai Xiao Zi - Joy Van Kid (Asia) (En) (Unl)": {
@@ -9358,6 +10885,9 @@
 	},
 	"Western Kids (Japan)": {
 		"languages": "Ja"
+	},
+	"What Remains (World) (v1.02) (Aftermarket) (Unl)": {
+		"languages": "En"
 	},
 	"Wheel of Fortune (USA) (Rev 1)": {
 		"languages": "En"
@@ -9389,9 +10919,6 @@
 	"Whomp 'Em (USA)": {
 		"languages": "En"
 	},
-	"Wide Boy (World) (Rev 1) (Program)": {
-		"languages": "En"
-	},
 	"Widget (USA)": {
 		"languages": "En"
 	},
@@ -9416,6 +10943,9 @@
 	"Win, Lose or Draw (USA)": {
 		"languages": "En"
 	},
+	"Winner Is You, A (World) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
 	"Winter Games (USA) (Rev 1)": {
 		"languages": "En"
 	},
@@ -9424,6 +10954,15 @@
 	},
 	"Wit's (Japan)": {
 		"languages": "Ja"
+	},
+	"Witch n' Wiz (World) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Witch n' Wiz (World) (Beta) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Witch n' Wiz (World) (Beta) (Cartridge) (Aftermarket) (Unl)": {
+		"languages": "En"
 	},
 	"Wizardry - Knight of Diamonds - The Second Scenario (USA)": {
 		"languages": "En"
@@ -9455,6 +10994,18 @@
 	"Wizards & Warriors III - Kuros...Visions of Power (USA)": {
 		"languages": "En"
 	},
+	"Wo xiang niao niao (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Wolf Spirit (World) (Demo) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Wolf Spirit (World) (v1.1) (Demo) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Wolfling (World) (Aftermarket) (Homebrew)": {
+		"languages": "En-US"
+	},
 	"Wolverine (USA)": {
 		"languages": "En"
 	},
@@ -9466,6 +11017,9 @@
 	},
 	"Woody Poko (Japan)": {
 		"languages": "Ja"
+	},
+	"Wordle (World) (v1.1) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"World Boxing (Japan)": {
 		"languages": "Ja"
@@ -9587,6 +11141,9 @@
 	"Yasuda Fire & Marine - Safety Rally (Japan) (Not For Resale)": {
 		"languages": "Ja"
 	},
+	"Yeah Yeah Beebiss II (World) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
 	"Yie Ar Kung-Fu (Japan) (Rev 1.2)": {
 		"languages": "Ja"
 	},
@@ -9596,7 +11153,7 @@
 	"Ying Lie Qun Xia Zhuan (Asia) (Unl)": {
 		"languages": "Zh"
 	},
-	"Ying Xiong Yuan Yi Jing Chuan Qi (Asia) (Unl) (Pirate)": {
+	"Ying Xiong Yuan Yi Jing Chuan Qi (Asia) (Pirate)": {
 		"languages": "Zh"
 	},
 	"Yo! Noid (USA) (Beta)": {
@@ -9658,6 +11215,12 @@
 	},
 	"Yume Penguin Monogatari (Japan)": {
 		"languages": "Ja"
+	},
+	"Yun (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Yun (World) (v5.0) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Zanac (USA)": {
 		"languages": "En"
@@ -9744,6 +11307,9 @@
 		"languages": "Ja"
 	},
 	"Zombie Nation (USA)": {
+		"languages": "En"
+	},
+	"Zooming Secretary (World) (v1.02) (Aftermarket) (Homebrew)": {
 		"languages": "En"
 	},
 	"Zunou Senkan Galg (Japan) (En) (Beta)": {

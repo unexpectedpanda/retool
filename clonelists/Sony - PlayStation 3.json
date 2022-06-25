@@ -3,7 +3,7 @@
 		"name": [
 			"Sony - PlayStation 3"
 		],
-		"last updated": "24 April 2022",
+		"last updated": "25 June 2022",
 		"minimum version": "0.89"
 	},
 
@@ -161,6 +161,7 @@
 		],
 		"Buzz! Brain of the World": [
 			["Buzz! Brain of Oz", 1],
+			["Buzz! Brain of Switzerland", 1],
 			["Buzz! Brain of the UK", 1],
 			["Buzz! Deutschlands Superquiz", 1],
 			["Buzz! Le Plus Malin des Francais", 1],
@@ -236,7 +237,8 @@
 			["Red Seeds Profile", 1]
 		],
 		"Deus Ex - Human Revolution": [
-			["Deus Ex - Human Revolution - Director's Cut", 0]
+			["Deus Ex - Human Revolution - Director's Cut", 0],
+			["Deus Ex", 1]
 		],
 		"DiRT 3": [
 			["DiRT 3 - Complete Edition", 0]
@@ -270,7 +272,7 @@
 			["Disney - Pixar Arabalar 2", 1]
 		],
 		"Disney-Pixar Toy Story 3": [
-			["Disney-Pixar Istoriya igrushek. Bol'shoj pobeg", 1]
+			["Disney-Pixar Istoriya igrushek - Bol'shoj pobeg", 1]
 		],
 		"Disney-Pixar Up": [
 			["Disney-Pixar Oben", 1]
@@ -451,6 +453,7 @@
 		"Godfather, The - The Don's Edition": [
 			["Padrino, El - Don Corleone", 1],
 			["Padrino, Il - The Don's Edition", 1],
+			["Parrain, Le - Edition du Don", 1],
 			["Pate, Der - Die Don-Edition", 1]
 		],
 		"Gran Turismo 5 - Spec II": [

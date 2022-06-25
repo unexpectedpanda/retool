@@ -326,6 +326,21 @@
 	"[BIOS] PSP Testing Tool Software Update (World) (v6.60)": {
 		"languages": "En"
 	},
+	"[MIA] Dot Defense (Japan) (v1.01) (Update)": {
+		"languages": "Ja"
+	},
+	"[MIA] God Eater 2 (Japan) (v1.01) (Update)": {
+		"languages": "Ja"
+	},
+	"[MIA] God Eater 2 (Japan) (v1.10) (Update)": {
+		"languages": "Ja"
+	},
+	"[MIA] Invizimals (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru) (v1.01) (Update)": {
+		"languages": "En, Fr, De, Es, It, Nl, Pt, Sv, No, Da, Fi, Pl, Ru"
+	},
+	"[MIA] Toukiden - Kiwami (Japan) (v1.01) (Update)": {
+		"languages": "Ja"
+	},
 	"Ace Armstrong vs. the Alien Scumbags! (Europe) (En,Fr,De,Es,It) (Minis)": {
 		"languages": "En, Fr, De, Es, It"
 	},
@@ -1295,7 +1310,7 @@
 	"Buzz! The Ultimate Music Quiz (Europe) (De,It)": {
 		"languages": "De, It"
 	},
-	"Buzz! The Ultimate Music Quiz (Greece)": {
+	"Buzz! The Ultimate Music Quiz (Greece) (En)": {
 		"languages": "En"
 	},
 	"Buzz! The Ultimate Music Quiz - 00's Quiz (Italy) (DLC)": {
@@ -2281,9 +2296,6 @@
 	},
 	"Doodle Pool (USA) (Minis)": {
 		"languages": "En"
-	},
-	"Dot Defense (Japan) (v1.01) (Update)": {
-		"languages": "Ja"
 	},
 	"Dot Defense (Japan) (v1.02) (Update)": {
 		"languages": "Ja"
@@ -3542,12 +3554,6 @@
 	"God Eater 2 (Japan) (Demo)": {
 		"languages": "Ja"
 	},
-	"God Eater 2 (Japan) (v1.01) (Update)": {
-		"languages": "Ja"
-	},
-	"God Eater 2 (Japan) (v1.10) (Update)": {
-		"languages": "Ja"
-	},
 	"God Eater 2 (Japan) (v1.40) (Update)": {
 		"languages": "Ja"
 	},
@@ -4504,9 +4510,6 @@
 	},
 	"Invizimals (Asia) (En,Zh) (v1.01) (Update)": {
 		"languages": "En, Zh"
-	},
-	"Invizimals (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru) (v1.01) (Update)": {
-		"languages": "En, Fr, De, Es, It, Nl, Pt, Sv, No, Da, Fi, Pl, Ru"
 	},
 	"Invizimals (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru)": {
 		"languages": "En, Fr, De, Es, It, Nl, Pt, Sv, No, Da, Fi, Pl, Ru"
@@ -7307,16 +7310,16 @@
 	"Legend of Heroes, The - Trails in the Sky (USA)": {
 		"languages": "En"
 	},
+	"Legend of Heroes, The - Trails in the Sky SC (Europe) (Disc 1)": {
+		"languages": "En"
+	},
+	"Legend of Heroes, The - Trails in the Sky SC (Europe) (Disc 2)": {
+		"languages": "En"
+	},
 	"Legend of Heroes, The - Trails in the Sky SC (USA) (Disc 1)": {
 		"languages": "En"
 	},
 	"Legend of Heroes, The - Trails in the Sky SC (USA) (Disc 2)": {
-		"languages": "En"
-	},
-	"Legend of Heroes, The - Trails in the Sky SC - Disk 1 (Europe)": {
-		"languages": "En"
-	},
-	"Legend of Heroes, The - Trails in the Sky SC - Disk 2 (Europe)": {
 		"languages": "En"
 	},
 	"Legend of Kunoichi (USA) (Minis)": {
@@ -10235,13 +10238,13 @@
 	"Rapala Trophies (USA)": {
 		"languages": "En"
 	},
-	"Rasmus Klump i Pingonesien (Denmark) (Minis)": {
+	"Rasmus Klump i Pingonesien (Denmark) (En) (Minis)": {
 		"languages": "En"
 	},
-	"Rasmus Klump og den Store Labyrint (Denmark) (Minis)": {
+	"Rasmus Klump og den Store Labyrint (Denmark) (En) (Minis)": {
 		"languages": "En"
 	},
-	"Rasmus Klump Redder Kyllingerne (Denmark) (Minis)": {
+	"Rasmus Klump Redder Kyllingerne (Denmark) (En) (Minis)": {
 		"languages": "En"
 	},
 	"Ratchet & Clank 5 - Gekitotsu! Dodeka Ginga no MiriMiri Gundan (Japan)": {
@@ -12459,9 +12462,6 @@
 		"languages": "Ja"
 	},
 	"Toukiden - Kiwami (Japan) (v1.01) (Demo) (Update)": {
-		"languages": "Ja"
-	},
-	"Toukiden - Kiwami (Japan) (v1.01) (Update)": {
 		"languages": "Ja"
 	},
 	"Toukiden - Kiwami (Japan) (v1.06) (Update)": {

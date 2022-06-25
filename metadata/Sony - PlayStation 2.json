@@ -176,7 +176,7 @@
     "25 to Life (USA) (Beta)": {
         "languages": "En"
     },
-    "3 Title Special Disc - Saru! Get You! 2 + PoPoLoCrois - Hajimari no Bouken + Boku no Natsuyasumi 2 (Japan) (Taikenban)": {
+    "3 Title Special Disc - Saru! Get You! 2 & PoPoLoCrois - Hajimari no Bouken & Boku no Natsuyasumi 2 (Japan) (Taikenban)": {
         "languages": "Ja"
     },
     "3-nen B-gumi Kinpachi Sensei - Densetsu no Kyoudan ni Tate! (Japan)": {
@@ -218,7 +218,7 @@
     "50 Cent - Bulletproof (USA)": {
         "languages": "En"
     },
-    "6-gatsu Hatsubai Title Promotion Disc - Aconcagua + Boku no Natsuyasumi + TVDJ (Japan)": {
+    "6-gatsu Hatsubai Title Promotion Disc - Aconcagua & Boku no Natsuyasumi & TVDJ (Japan)": {
         "languages": "Ja"
     },
     "7 (Seven) - Molmorth no Kiheitai (Japan) (v1.20)": {
@@ -470,6 +470,9 @@
     "Action Man A.T.O.M. - Alpha Teens on Machines (Poland)": {
         "languages": "Pl"
     },
+    "Action Replay - Tom Clancy's Splinter Cell (USA) (Unl)": {
+        "languages": "En"
+    },
     "Action Replay 2 (Germany) (Disc 1) (German Edition) (Unl)": {
         "languages": "De"
     },
@@ -506,11 +509,20 @@
     "Action Replay Max Demo Disc (Europe) (Unl)": {
         "languages": "En"
     },
+    "Action Replay Sblocca Codici PS2 - Tutti i Trucchi per Need for Speed - ProStreet (Italy) (Unl)": {
+        "languages": "It"
+    },
     "Action Replay Ultimate Cheats for Medal of Honor - Frontline (UK) (Unl)": {
         "languages": "En"
     },
     "Action Replay Ultimate Cheats for Use with Final Fantasy X-2 (UK) (Unl)": {
         "languages": "En"
+    },
+    "Action Replay Ultimate Cheats for Use with Gran Turismo 4 (UK) (Unl)": {
+        "languages": ""
+    },
+    "Action Replay Ultimate Cheats for Use with Grand Theft Auto - San Andreas (UK) (Unl)": {
+        "languages": ""
     },
     "Action Replay Ultimate Cheats fuer Die Sims (Germany) (Unl)": {
         "languages": "De"
@@ -722,7 +734,7 @@
     "Air Ranger 2 - Rescue Helicopter (Japan)": {
         "languages": "Ja"
     },
-    "Air Ranger 2 - Rescue Helicopter Plus (Japan)": {
+    "Air Ranger 2 Plus - Rescue Helicopter (Japan)": {
         "languages": "Ja"
     },
     "AirBlade (Europe) (En,Fr,De,Es,It) (Beta)": {
@@ -1301,6 +1313,9 @@
     "Argus-ui Jeonsa (Korea)": {
         "languages": "Ko"
     },
+    "Aria - The Natural - Tooi Yume no Mirage (Japan)": {
+        "languages": "Ja"
+    },
     "Aria - The Origination - Aoi Hoshi no El Cielo (Japan)": {
         "languages": "Ja"
     },
@@ -1561,6 +1576,9 @@
     },
     "Athens 2004 (Japan, Asia)": {
         "languages": "Ja"
+    },
+    "Athens 2004 (Korea)": {
+        "languages": "En"
     },
     "Athens 2004 (USA)": {
         "languages": "En"
@@ -1840,6 +1858,9 @@
     },
     "Bard's Tale, The (Europe) (En,Fr,De,Es)": {
         "languages": "En, Fr, De, Es"
+    },
+    "Bard's Tale, The (Korea)": {
+        "languages": "Ko"
     },
     "Bard's Tale, The (USA)": {
         "languages": "En"
@@ -2161,6 +2182,9 @@
     },
     "Billy the Wizard - Rocket Broomstick Racing (Europe)": {
         "languages": "En"
+    },
+    "Binchou-tan - Shiawase Goyomi (Japan) (Shokai Genteiban)": {
+        "languages": "Ja"
     },
     "Biohazard - Code - Veronica - Kanzenban (Japan)": {
         "languages": "Ja"
@@ -2495,6 +2519,9 @@
     "Bonus Demo 5 (Europe) (En,Fr,De,Es,It) (SCED-51941)": {
         "languages": "En, Fr, De, It, Es"
     },
+    "Bonus Demo 6 (Australia)": {
+        "languages": ""
+    },
     "Bonus Demo 6 (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
@@ -2678,8 +2705,8 @@
     "Brothers in Arms - Earned in Blood (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
-    "Brothers in Arms - Earned in Blood (Europe, Australia) (Demo)": {
-        "languages": ""
+    "Brothers in Arms - Earned in Blood (Europe, Australia) (En,Fr,De,Es,It) (Demo)": {
+        "languages": "En, Fr, De, It, Es"
     },
     "Brothers in Arms - Earned in Blood (USA)": {
         "languages": "En"
@@ -4292,6 +4319,9 @@
     "Crash Tag Team Racing (USA)": {
         "languages": "En"
     },
+    "Crash Twinsanity & Spyro - A Hero's Tail (USA) (Demo)": {
+        "languages": "En"
+    },
     "Crash Twinsanity (Europe, Australia) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
@@ -4303,9 +4333,6 @@
     },
     "Crash Twinsanity + Spyro - A Hero's Tail (Europe) (Demo)": {
         "languages": ""
-    },
-    "Crash Twinsanity + Spyro - A Hero's Tail (USA) (Demo)": {
-        "languages": "En"
     },
     "Crash of the Titans (Europe, Australia) (En,Fr,De,Es,It,Nl)": {
         "languages": "Nl, En, Fr, De, It, Es"
@@ -4526,19 +4553,19 @@
     "D.C.F.S. - Da Capo - Four Seasons (Japan) (DX Pack)": {
         "languages": "Ja"
     },
-    "D.C.I.F. - Da Capo Innocent Finale (Japan)": {
+    "D.C.I.F. - Da Capo - Innocent Finale (Japan)": {
         "languages": "Ja"
     },
-    "D.C.II P.S. (Japan) (Disc 1)": {
+    "D.C.II P.S. - Da Capo II - Plus Situation (Japan) (Disc 1)": {
         "languages": "Ja"
     },
-    "D.C.II P.S. (Japan) (Disc 1) (DX Pack)": {
+    "D.C.II P.S. - Da Capo II - Plus Situation (Japan) (Disc 1) (DX Pack)": {
         "languages": "Ja"
     },
-    "D.C.II P.S. (Japan) (Disc 2)": {
+    "D.C.II P.S. - Da Capo II - Plus Situation (Japan) (Disc 2)": {
         "languages": "Ja"
     },
-    "D.C.II P.S. (Japan) (Disc 2) (DX Pack)": {
+    "D.C.II P.S. - Da Capo II - Plus Situation (Japan) (Disc 2) (DX Pack)": {
         "languages": "Ja"
     },
     "D.C.P.S. - Da Capo - Plus Situation (Japan)": {
@@ -7988,8 +8015,8 @@
     "FIFA Soccer 09 (USA)": {
         "languages": ""
     },
-    "FIFA Soccer 10 (USA)": {
-        "languages": ""
+    "FIFA Soccer 10 (USA) (En,Fr,Es)": {
+        "languages": "En, Fr, Es"
     },
     "FIFA Soccer 11 (USA) (En,Fr,Es)": {
         "languages": "En, Fr, Es"
@@ -8042,6 +8069,9 @@
     "FIFA Street 2 (Japan)": {
         "languages": "Ja"
     },
+    "FIFA Street 2 (Korea) (En,Es)": {
+        "languages": "En, Es"
+    },
     "FIFA Street 2 (USA) (En,Es)": {
         "languages": "En, Es"
     },
@@ -8056,6 +8086,9 @@
     },
     "FIFA World Cup Germany 2006 (Europe) (En,Es,Pt)": {
         "languages": "En, Pt, Es"
+    },
+    "FIFA World Cup Germany 2006 (Europe) (En,Fr,De,Es,It) (Demo)": {
+        "languages": "En, Fr, De, It, Es"
     },
     "FIFA World Cup Germany 2006 (Europe) (En,It,Sv)": {
         "languages": "En, It, Sv"
@@ -8244,7 +8277,7 @@
         "languages": "En, Fr, De, It, Es"
     },
     "Ferrari Challenge - Trofeo Pirelli (USA)": {
-        "languages": ""
+        "languages": "En"
     },
     "Ferrari F355 Challenge (Europe, Australia) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
@@ -8367,6 +8400,9 @@
         "languages": "Es"
     },
     "Final Fantasy X (USA)": {
+        "languages": "En"
+    },
+    "Final Fantasy X International (Asia)": {
         "languages": "En"
     },
     "Final Fantasy X International (Japan) (En,Ja)": {
@@ -9812,6 +9848,9 @@
     "Girl Zone (Europe, Australia)": {
         "languages": "En"
     },
+    "Girls Bravo - Romance 15's (Japan)": {
+        "languages": "Ja"
+    },
     "Girls Bravo - Romance 15's (Japan) (DX Pack)": {
         "languages": "Ja"
     },
@@ -10375,6 +10414,9 @@
     },
     "Grandia III (USA) (Disc 2)": {
         "languages": "En"
+    },
+    "Grandia Xtreme (Japan) (Limited Box)": {
+        "languages": "Ja"
     },
     "Grandia Xtreme (Japan, Asia)": {
         "languages": "Ja"
@@ -11018,6 +11060,9 @@
     "Hanjuku Hero tai 3D (Japan) (Hatsu Taikenban)": {
         "languages": "Ja"
     },
+    "Hanjuku Hero tai 3D (Japan) (Tokudaigou)": {
+        "languages": "Ja"
+    },
     "Hannspree Ten Kate Honda SBK - Superbike World Championship (USA)": {
         "languages": "En"
     },
@@ -11039,7 +11084,7 @@
     "Happy Feet (USA)": {
         "languages": ""
     },
-    "Happy! Happy!! Boarders in Hokkaidou Rusutsu Resort (Japan)": {
+    "Happy! Happy!! Boarders in Hokkaido Rusutsu Resort (Japan)": {
         "languages": "Ja"
     },
     "Hard Hitter (Japan)": {
@@ -11279,7 +11324,7 @@
     "Harukanaru Toki no Naka de 4 (Japan)": {
         "languages": "Ja"
     },
-    "Harukaze P. S. (Plus Situation) (Japan)": {
+    "Harukaze P. S. - Plus Situation (Japan)": {
         "languages": "Ja"
     },
     "Harvest Fishing (Europe)": {
@@ -11387,7 +11432,7 @@
     "Heavenly Guardian (USA)": {
         "languages": "En"
     },
-    "Heavy Metal Thunder (Japan, Asia)": {
+    "Heavy Metal Thunder. (Japan, Asia)": {
         "languages": "Ja"
     },
     "Hello Kitty - Roller Rescue (Europe) (En,Fr,De,Es,It)": {
@@ -11446,6 +11491,9 @@
     },
     "High Heat Major League Baseball 2003 (Japan)": {
         "languages": "Ja"
+    },
+    "High Heat Major League Baseball 2003 (Korea)": {
+        "languages": "En"
     },
     "High Heat Major League Baseball 2003 (USA)": {
         "languages": "En"
@@ -11573,6 +11621,9 @@
     "Hisui no Shizuku - Hiiro no Kakera 2 (Japan) (Genteiban)": {
         "languages": "Ja"
     },
+    "Hitman - Blood Money & Urban Chaos - Riot Response (USA) (Demo)": {
+        "languages": "En"
+    },
     "Hitman - Blood Money (Europe)": {
         "languages": "En"
     },
@@ -11589,9 +11640,6 @@
         "languages": "Es"
     },
     "Hitman - Blood Money (USA)": {
-        "languages": "En"
-    },
-    "Hitman - Blood Money + Urban Chaos - Riot Response (USA)": {
         "languages": "En"
     },
     "Hitman - Contracts (Europe)": {
@@ -11822,6 +11870,9 @@
     "Hugo - CannonCruise (Europe) (Fr,De,It,Nl)": {
         "languages": "Nl, Fr, De, It"
     },
+    "Hugo - CannonCruise (Russia)": {
+        "languages": "Ru"
+    },
     "Hugo - CannonCruise (Scandinavia) (Sv,No,Da,Fi)": {
         "languages": "Da, Fi, No, Sv"
     },
@@ -12022,6 +12073,9 @@
     },
     "Ikusagami (Japan) (Tentou-you Taikenban)": {
         "languages": "Ja"
+    },
+    "Ilgyeok Salchung!! Hoihoi-san (Korea)": {
+        "languages": "Ko"
     },
     "Impossible Mission (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
@@ -12527,6 +12581,9 @@
     "Jelly Belly - Ballistic Beans (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
+    "Jeolche Jeolmyeong Dosi (Korea)": {
+        "languages": "Ko"
+    },
     "Jeonguk Mussang (Korea)": {
         "languages": "Ko"
     },
@@ -12992,6 +13049,9 @@
     "K-League Winning Eleven 8 - Asia Championship (Korea)": {
         "languages": "Ko"
     },
+    "K-League Winning Eleven 9 - Asia Championship (Korea)": {
+        "languages": "Ko"
+    },
     "K.O. King (Europe)": {
         "languages": "En"
     },
@@ -13061,10 +13121,10 @@
     "Kaidou - Touge no Densetsu (Japan) (Taikenban)": {
         "languages": "Ja"
     },
-    "Kaidou Battle - Nikkou, Haruna, Rokkou, Hakone (Japan)": {
+    "Kaidou Battle - Nikko, Haruna, Rokko, Hakone (Japan)": {
         "languages": "Ja"
     },
-    "Kaidou Battle - Nikkou, Haruna, Rokkou, Hakone (Japan) (Taikenban)": {
+    "Kaidou Battle - Nikko, Haruna, Rokko, Hakone (Japan) (Taikenban)": {
         "languages": "Ja"
     },
     "Kaidou Battle 2 - Chain Reaction (Japan)": {
@@ -13187,6 +13247,9 @@
     "Karaoke Revolution - J-Pop Best Vol. 1 (Japan)": {
         "languages": "Ja"
     },
+    "Karaoke Revolution - J-Pop Best Vol. 3 (Japan)": {
+        "languages": "Ja"
+    },
     "Karaoke Revolution - J-Pop Best Vol. 4 (Japan)": {
         "languages": "Ja"
     },
@@ -13245,6 +13308,9 @@
         "languages": "Ja"
     },
     "Karat PS2-you Pro Action Replay 2 (Japan) (Unl) (Version 2.23)": {
+        "languages": "Ja"
+    },
+    "Karat PS2-you Pro Action Replay 2 Taikenban (Japan) (Unl)": {
         "languages": "Ja"
     },
     "Karat Pro Action Replay - Best Price Soku Kouryaku PS2-you Vol. 2 (Japan) (Unl)": {
@@ -13446,7 +13512,7 @@
         "languages": "Ja"
     },
     "Kidou Senshi Gundam - Gihren no Yabou - Zeon Dokuritsu Sensouki - Kouryaku Shireisho (Japan)": {
-        "languages": ""
+        "languages": "Ja"
     },
     "Kidou Senshi Gundam - Gundam vs. Z Gundam (Japan)": {
         "languages": "Ja"
@@ -13472,7 +13538,7 @@
     "Kidou Senshi Gundam - Ver. 1.5 (Japan)": {
         "languages": "Ja"
     },
-    "Kidou Senshi Gundam 00 - Gundam Meisters (Japan)": {
+    "Kidou Senshi Gundam 00 - Gundam Meisters (Japan, Korea)": {
         "languages": "Ja"
     },
     "Kidou Senshi Gundam Seed (Japan)": {
@@ -13826,6 +13892,9 @@
     "Kinniku Banzuke - Muscle Wars 21 (Japan)": {
         "languages": "Ja"
     },
+    "Kinnikuman - Muscle Grand Prix 2 - Tokumori (Japan)": {
+        "languages": "Ja"
+    },
     "Kinnikuman - Muscle Grand Prix Max (Japan)": {
         "languages": "Ja"
     },
@@ -14100,6 +14169,9 @@
         "languages": "Ja"
     },
     "Kujibiki Unbalance - Kaichou Onegai Smash Fight (Japan) (Shokai Genteiban)": {
+        "languages": "Ja"
+    },
+    "Kuma Uta (Japan) (v1.01)": {
         "languages": "Ja"
     },
     "Kuma Uta (Japan) (v2.01)": {
@@ -14825,10 +14897,16 @@
     "MDK2 - Armageddon (USA) (En,Fr,De,Es,It) (Beta)": {
         "languages": "En, Fr, De, It, Es"
     },
+    "MLB 06 - The Show (Korea)": {
+        "languages": "En"
+    },
     "MLB 06 - The Show (USA)": {
         "languages": "En"
     },
     "MLB 06 - The Show (USA) (Demo)": {
+        "languages": "En"
+    },
+    "MLB 07 - The Show (Korea)": {
         "languages": "En"
     },
     "MLB 07 - The Show (USA) (Demo)": {
@@ -15782,6 +15860,9 @@
     "Maxim - Instant Messenger (USA) (Unl)": {
         "languages": "En"
     },
+    "Maximo (Australia) (Demo)": {
+        "languages": "En"
+    },
     "Maximo (Japan)": {
         "languages": "Ja"
     },
@@ -16413,7 +16494,7 @@
         "languages": "En"
     },
     "Midway Arcade Treasures 3 (USA)": {
-        "languages": ""
+        "languages": "En"
     },
     "Might and Magic - Day of the Destroyer (Japan)": {
         "languages": "Ja"
@@ -16616,13 +16697,13 @@
     "Momotarou Dentetsu 15 - Godai Bombee Toujou! no Maki (Japan) (v2.00)": {
         "languages": "Ja"
     },
-    "Momotarou Dentetsu 16 - Hokkaidou Daiidou no Maki! (Japan)": {
+    "Momotarou Dentetsu 16 - Hokkaido Daiidou no Maki! (Japan)": {
+        "languages": "Ja"
+    },
+    "Momotarou Dentetsu Batten - Kyushu-hen mo Arubai (Japan)": {
         "languages": "Ja"
     },
     "Momotarou Dentetsu USA (Japan)": {
-        "languages": "Ja"
-    },
-    "Momotarou Dentetsu X - Kyuushuu-hen mo Arubai (Japan)": {
         "languages": "Ja"
     },
     "Monde des Bleus 2002, Le (France)": {
@@ -17222,6 +17303,9 @@
     "NBA Live 06 (Japan)": {
         "languages": "Ja"
     },
+    "NBA Live 06 (Korea)": {
+        "languages": "Ko"
+    },
     "NBA Live 06 (Spain)": {
         "languages": "Es"
     },
@@ -17245,6 +17329,9 @@
     },
     "NBA Live 07 (Japan)": {
         "languages": "Ja"
+    },
+    "NBA Live 07 (Korea)": {
+        "languages": "En"
     },
     "NBA Live 07 (Spain)": {
         "languages": "Es"
@@ -17344,6 +17431,9 @@
     },
     "NBA Live 2004 (Japan)": {
         "languages": "Ja"
+    },
+    "NBA Live 2004 (Korea)": {
+        "languages": "Ko"
     },
     "NBA Live 2004 (USA)": {
         "languages": "En"
@@ -18191,10 +18281,10 @@
     "NeoGeo Online Collection Vol. 2 - Bakumatsu Roman - Gekka no Kenshi 1, 2 (Japan) (En,Ja,Es,Pt)": {
         "languages": "En, Ja, Pt, Es"
     },
-    "NeoGeo Online Collection Vol. 3 - The King of Fighters - Orochi-hen (Japan) (En,Ja,Es,Pt)": {
+    "NeoGeo Online Collection Vol. 3 - The King of Fighters - Orochi (Japan) (En,Ja,Es,Pt)": {
         "languages": "En, Ja, Pt, Es"
     },
-    "NeoGeo Online Collection Vol. 3 - The King of Fighters - Orochi-hen (Japan) (En,Ja,Es,Pt) (Tokubetsu Genteiban - Nichirin Version)": {
+    "NeoGeo Online Collection Vol. 3 - The King of Fighters - Orochi (Japan) (En,Ja,Es,Pt) (Tokubetsu Genteiban - Nichirin Version)": {
         "languages": "En, Ja, Pt, Es"
     },
     "NeoGeo Online Collection Vol. 4 - Ryuuko no Ken - Ten Chi Jin (Japan)": {
@@ -18203,7 +18293,7 @@
     "NeoGeo Online Collection Vol. 6 - Garou Densetsu Battle Archives 2 (Japan)": {
         "languages": "Ja"
     },
-    "NeoGeo Online Collection Vol. 7 - The King of Fighters - Nests Hen (Japan) (En,Ja,Es,Pt)": {
+    "NeoGeo Online Collection Vol. 7 - The King of Fighters - Nests (Japan) (En,Ja,Es,Pt)": {
         "languages": "En, Ja, Pt, Es"
     },
     "NeoGeo Online Collection Vol. 8 - Fuuun Super Combo (Japan) (En,Ja,Es,Pt)": {
@@ -18578,7 +18668,7 @@
     "Nickelodeon The Naked Brothers Band - The Video Game (USA)": {
         "languages": "En"
     },
-    "Nicktoons - Attack of the Toybots (Australia)": {
+    "Nicktoons - Attack of the Toybots (Europe, Australia)": {
         "languages": "En"
     },
     "Nicktoons - Attack of the Toybots (USA)": {
@@ -19805,6 +19895,9 @@
     "Offizielle PlayStation 2 Magazin 12-2003, Das (Germany)": {
         "languages": "En"
     },
+    "Offizielle PlayStation 2 Magazin, Das - Special Edition 2 (Germany)": {
+        "languages": "En"
+    },
     "Offroad Extreme! (Europe)": {
         "languages": "En"
     },
@@ -20222,6 +20315,9 @@
     "PES 2009 - Pro Evolution Soccer (Europe) (Fr,De)": {
         "languages": "Fr, De"
     },
+    "PES 2009 - Pro Evolution Soccer (Italy) (En,Fr,De,Es,It,Pt) (Demo)": {
+        "languages": "En, Fr, De, It, Pt, Es"
+    },
     "PES 2009 - Pro Evolution Soccer (USA) (En,Fr,Es,Pt)": {
         "languages": "En, Fr, Pt, Es"
     },
@@ -20343,6 +20439,9 @@
         "languages": ""
     },
     "PS Mania 2.0 Spaccacodici - Spider-Man 2 (Italy) (Unl)": {
+        "languages": ""
+    },
+    "PS Mania 2.0 Spaccacodici - Tekken 5 (Italy) (Unl)": {
         "languages": ""
     },
     "PS Mania 2.0 Spaccacodici - Ultimate Spider-Man (Italy) (Unl)": {
@@ -20632,6 +20731,9 @@
     },
     "Persona 3 (Japan)": {
         "languages": "Ja"
+    },
+    "Persona 3 (Korea)": {
+        "languages": "Ko"
     },
     "Persona 3 FES (Europe)": {
         "languages": "En"
@@ -20981,8 +21083,14 @@
     "PlayStation 2 Cheats - Volume 3 (UK) (Unl)": {
         "languages": "En"
     },
+    "PlayStation 2 Cheats - Volume 4 (UK) (Unl)": {
+        "languages": ""
+    },
     "PlayStation 2 Cheats - Volume 5 (UK) (Unl)": {
         "languages": "En"
+    },
+    "PlayStation 2 Cheats - Volume 6 (UK) (Unl)": {
+        "languages": ""
     },
     "PlayStation 2 Christmas Special 2003 (Europe)": {
         "languages": ""
@@ -21142,6 +21250,9 @@
     },
     "Pop Star Academy (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
+    },
+    "Pop'n Music 10 (Japan) (Controller Set)": {
+        "languages": "Ja"
     },
     "Pop'n Music 10 (Japan) (v1.01)": {
         "languages": "Ja"
@@ -21335,6 +21446,9 @@
     "Prince of Persia - Jikan no Suna (Japan) (Taikenban)": {
         "languages": "Ja"
     },
+    "Prince of Persia - Kenshi no Kokoro (Japan)": {
+        "languages": "Ja"
+    },
     "Prince of Persia - The Sands of Time (Europe) (Demo)": {
         "languages": "En"
     },
@@ -21503,6 +21617,12 @@
     "Pro Evolution Soccer Management (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
+    "Pro Mahjong Kiwame Next (Japan) (v1.00)": {
+        "languages": "Ja"
+    },
+    "Pro Mahjong Kiwame Next (Japan) (v3.01)": {
+        "languages": "Ja"
+    },
     "Pro Race Driver (USA)": {
         "languages": ""
     },
@@ -21558,12 +21678,6 @@
         "languages": "Ja"
     },
     "Pro Yakyuu Team o Tsukurou! 3 (Japan)": {
-        "languages": "Ja"
-    },
-    "Pro-Mahjong Kiwame Next (Japan) (v1.00)": {
-        "languages": "Ja"
-    },
-    "Pro-Mahjong Kiwame Next (Japan) (v3.01)": {
         "languages": "Ja"
     },
     "ProStroke Golf (Europe, Australia) (En,Fr,De,Es,It)": {
@@ -21979,6 +22093,9 @@
     },
     "Raging Bless - Gouma Mokushiroku (Asia)": {
         "languages": "Ja"
+    },
+    "Raging Bless - Hangma Muksirok (Korea)": {
+        "languages": "Ko"
     },
     "Raiden III (Europe)": {
         "languages": "En"
@@ -22656,7 +22773,7 @@
         "languages": "En"
     },
     "Rock Band - Track Pack Volume 2 (USA)": {
-        "languages": ""
+        "languages": "En"
     },
     "Rock Band 2 (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
@@ -22760,9 +22877,6 @@
     "Rogue Trooper (USA)": {
         "languages": "En"
     },
-    "Roland Garros 2005 (France) (Demo)": {
-        "languages": "Fr"
-    },
     "Roland Garros 2005 - Powered by Smash Court Tennis (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
@@ -22771,6 +22885,12 @@
     },
     "Roland Garros French Open 2003 (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
+    },
+    "Roland Garros Virtual Tour '06 (France) (Demo)": {
+        "languages": "Fr"
+    },
+    "Roland Garros Virtual Tour (France) (Demo)": {
+        "languages": "Fr"
     },
     "Roller Coaster Funfare (Europe)": {
         "languages": "En"
@@ -23627,6 +23747,12 @@
     "Scarlet - Nichijou no Kyoukaisen (Japan)": {
         "languages": "Ja"
     },
+    "School Love! Koi to Kibou no Metronome (Japan)": {
+        "languages": "Ja"
+    },
+    "School Love! Koi to Kibou no Metronome (Japan) (Shokai Genteiban)": {
+        "languages": "Ja"
+    },
     "School Rumble - Neru Musume wa Sodatsu. (Japan)": {
         "languages": "Ja"
     },
@@ -24284,7 +24410,7 @@
     "Shibai Michi (Japan)": {
         "languages": "Ja"
     },
-    "Shibai Michi (Japan) (USB Mic Doukonban)": {
+    "Shibai Michi (Japan) (Doukonban)": {
         "languages": "Ja"
     },
     "Shield, The - The Game (Europe) (En,Fr,De,Es,It)": {
@@ -24986,7 +25112,7 @@
     "Simple 2000 Series Ultimate Vol. 10 - Love - Songs - Idol ga Classmate (Japan)": {
         "languages": "Ja"
     },
-    "Simple 2000 Series Ultimate Vol. 11 - Wandaba Style - Totsugeki! Mix Nama Juice (Japan)": {
+    "Simple 2000 Series Ultimate Vol. 11 - Wandaba Style - Totsugeki! Mix Live Juice (Japan)": {
         "languages": "Ja"
     },
     "Simple 2000 Series Ultimate Vol. 12 - Street Golfer (Japan)": {
@@ -25979,8 +26105,14 @@
     "SingStar Sjung med Disney (Sweden)": {
         "languages": "Sv"
     },
+    "SingStar Store Dromme (Denmark)": {
+        "languages": "Da"
+    },
     "SingStar Studio 100 (Netherlands)": {
         "languages": "Nl"
+    },
+    "SingStar Summer Party (Denmark)": {
+        "languages": "Da"
     },
     "SingStar Summer Party (Europe)": {
         "languages": "En"
@@ -26465,10 +26597,10 @@
     "Soshite Bokura wa, ... and He Said (Japan)": {
         "languages": "Ja"
     },
-    "Soshite Kono Sora ni Kirameku Kimi no Uta XXX (Japan)": {
+    "Soshite Kono Sora ni Kirameku Kimi no Uta (Japan)": {
         "languages": "Ja"
     },
-    "Soshite Kono Uchuu ni Kirameku Kimi no Uta (Japan)": {
+    "Soshite Kono Sora ni Kirameku Kimi no Uta XXX (Japan)": {
         "languages": "Ja"
     },
     "Soukoku no Kusabi - Hiiro no Kakera 3 (Japan)": {
@@ -26540,7 +26672,7 @@
     "Soulcalibur III (Europe, Australia) (En,Fr,De,Es,It) (v2.00)": {
         "languages": "En, Fr, De, It, Es"
     },
-    "Soulcalibur III (Japan) (Famitsuu Playable Taikenban Special Disk)": {
+    "Soulcalibur III (Japan) (Taikenban Special Disk)": {
         "languages": "Ja"
     },
     "Soulcalibur III (Japan) (v1.01)": {
@@ -26692,6 +26824,9 @@
     },
     "Sphinx and the Cursed Mummy (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
+    },
+    "Sphinx and the Cursed Mummy (France) (Demo)": {
+        "languages": ""
     },
     "Sphinx and the Cursed Mummy (Korea)": {
         "languages": "Ko"
@@ -27332,6 +27467,9 @@
     "Strike Witches - Anata to Dekiru Koto - A Little Peaceful Days (Japan)": {
         "languages": "Ja"
     },
+    "Strikers 1945 I & II (Korea)": {
+        "languages": "En"
+    },
     "Stuart Little 3 - Big Photo Adventure (Europe) (En,Fr,De,Es,It,Nl,Pt,Fi,Pl)": {
         "languages": "Nl, En, Fi, Fr, De, It, Pl, Pt, Es"
     },
@@ -27598,6 +27736,9 @@
     },
     "Super Puzzle Bobble (Japan) (Taikenban)": {
         "languages": "Ja"
+    },
+    "Super Puzzle Bobble (Korea)": {
+        "languages": "En"
     },
     "Super Puzzle Bobble 2 (China)": {
         "languages": "Zh"
@@ -28280,6 +28421,9 @@
     "Tamamayu Monogatari 2 - Horobi no Mushi (Japan) (Taikenban)": {
         "languages": "Ja"
     },
+    "Tamayura - Mitama Okuri no Uta (Japan) (Shokai Genteiban)": {
+        "languages": "Ja"
+    },
     "Tango - Game On Demo Disc 1 (Europe)": {
         "languages": ""
     },
@@ -28865,17 +29009,20 @@
     "Thunder Strike - Operation Phoenix (Japan)": {
         "languages": "Ja"
     },
-    "Thunder Strike - Operation Phoenix (USA) (v1.00)": {
-        "languages": "En"
-    },
-    "Thunder Strike - Operation Phoenix (USA) (v2.00)": {
-        "languages": "En"
-    },
     "Thunderbirds (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi)": {
         "languages": "Da, Nl, En, Fi, Fr, De, It, No, Pt, Es, Sv"
     },
     "Thunderhawk - Operation Phoenix (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
+    },
+    "Thunderstrike - Operation Phoenix (Asia)": {
+        "languages": "En"
+    },
+    "Thunderstrike - Operation Phoenix (USA) (v1.00)": {
+        "languages": "En"
+    },
+    "Thunderstrike - Operation Phoenix (USA) (v2.00)": {
+        "languages": "En"
     },
     "Tianzhu Hong (Asia)": {
         "languages": "Zh"
@@ -28950,6 +29097,9 @@
         "languages": "En"
     },
     "Tiger Woods PGA Tour 2004 (Europe) (v2.00)": {
+        "languages": "En"
+    },
+    "Tiger Woods PGA Tour 2004 (Korea)": {
         "languages": "En"
     },
     "Tiger Woods PGA Tour 2004 (USA)": {
@@ -29206,6 +29356,9 @@
     },
     "Tom Clancy's Splinter Cell (Japan)": {
         "languages": "Ja"
+    },
+    "Tom Clancy's Splinter Cell (Korea)": {
+        "languages": "Ko"
     },
     "Tom Clancy's Splinter Cell (USA)": {
         "languages": "En"
@@ -30056,11 +30209,11 @@
     "Unison (Japan)": {
         "languages": "Ja"
     },
+    "Unison - Rebels of Rhythm & Dance & DOA2 - Hardcore (USA) (Demo)": {
+        "languages": ""
+    },
     "Unison - Rebels of Rhythm & Dance (USA)": {
         "languages": "En"
-    },
-    "Unison - Rebels of Rhythm & Dance + DOA2 - Hardcore (USA) (Demo)": {
-        "languages": ""
     },
     "Unlimited Saga (Europe)": {
         "languages": "En"
@@ -31549,6 +31702,9 @@
     },
     "XII Stag (Japan)": {
         "languages": "Ja"
+    },
+    "XII Stag (Korea)": {
+        "languages": "Ko"
     },
     "XIII (Europe) (Demo)": {
         "languages": "En"

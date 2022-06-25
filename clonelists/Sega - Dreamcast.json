@@ -3,7 +3,7 @@
 		"name": [
 			"Sega - Dreamcast"
 		],
-		"last updated": "24 April 2022",
+		"last updated": "20 June 2022",
 		"minimum version": "0.92"
 	},
 
@@ -258,6 +258,9 @@
 		"Rippin' Riders": [
 			["Cool Boarders Burrrn!", 1],
 			["Snow Surfers", 1]
+		],
+		"Rush Rush Rally Racing": [
+			["Rush Rush Rally Reloaded", 0]
 		],
 		"Sangokushi VI": [
 			["Sangokushi VI with Power-Up Kit", 0]

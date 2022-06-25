@@ -113,7 +113,7 @@
 	"2 Games in 1 - Hot Wheels - Velocity X + Hot Wheels - World Race (USA)": {
 		"languages": "En"
 	},
-	"2 Games in 1 - Les Razmoket Rencontrent les Delajungle + SpongeBob SquarePants - SuperSponge (France)": {
+	"2 Games in 1 - Les Razmoket Rencontrent les Delajungle + SpongeBob SquarePants - SuperSponge (France) (Fr+En)": {
 		"languages": "Fr+En"
 	},
 	"2 Games in 1 - Monsters & Co. + Alla Ricerca di Nemo (Italy) (En,Fr,It+Es,It)": {
@@ -458,6 +458,9 @@
 	"Advanced Music Player (Europe) (Unl) [b]": {
 		"languages": "En"
 	},
+	"Advanced Music Player (USA) (Unl) [b]": {
+		"languages": "En"
+	},
 	"Adventure of Tokyo Disney Sea (Japan)": {
 		"languages": "Ja"
 	},
@@ -491,6 +494,9 @@
 	"Agassi Tennis Generation (USA)": {
 		"languages": "En"
 	},
+	"AGB-Parallel Interface Cartridge (Unknown) (Program)": {
+		"languages": "En"
+	},
 	"Agent Hugo - Roborumble (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi)": {
 		"languages": "En, Fr, De, Es, It, Nl, Pt, Sv, No, Da, Fi"
 	},
@@ -500,10 +506,13 @@
 	"Aggressive Inline (USA)": {
 		"languages": "En"
 	},
-	"AGS Aging Cartridge (World) (v7.0)": {
+	"AGS Aging Cartridge (World) (v7.0) (Test Program)": {
 		"languages": "En"
 	},
-	"AGS Aging Cartridge (World) (v7.1)": {
+	"AGS Aging Cartridge (World) (v7.1) (Test Program)": {
+		"languages": "En"
+	},
+	"AGS Aging Cartridge (World) (v10.0) (Test Program)": {
 		"languages": "En"
 	},
 	"Aigle de Guerre, L' (France)": {
@@ -604,6 +613,9 @@
 	},
 	"Angelique (Japan)": {
 		"languages": "Ja"
+	},
+	"Anguna - Warriors of Virtue (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Animal Mania - Dokidoki Aishou Check (Japan)": {
 		"languages": "Ja"
@@ -764,6 +776,12 @@
 	"Back Track (USA, Europe)": {
 		"languages": "En"
 	},
+	"Backup LIB Sample (Unknown) (v1.04) (Program)": {
+		"languages": "En"
+	},
+	"Backup Mem. Quick-Copy (Unknown) (v1.04) (Program)": {
+		"languages": "En"
+	},
 	"Backyard Baseball 2006 (USA)": {
 		"languages": "En"
 	},
@@ -836,14 +854,14 @@
 	"Banjo-Kazooie - La Venganza de Grunty (Spain)": {
 		"languages": "Es"
 	},
-	"Banjo-Pilot (Europe) (En,Fr,De,Es,It) (Beta) (2004-09-29)": {
+	"Banjo-Pilot (Europe) (Beta 1)": {
+		"languages": "En"
+	},
+	"Banjo-Pilot (Europe) (En,Fr,De,Es,It) (Beta 2) (2004-09-29)": {
 		"languages": "En, Fr, De, Es, It"
 	},
 	"Banjo-Pilot (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En, Fr, De, Es, It"
-	},
-	"Banjo-Pilot (Unknown) (Beta)": {
-		"languages": "En"
 	},
 	"Banjo-Pilot (USA)": {
 		"languages": "En"
@@ -1433,6 +1451,12 @@
 	"Cars - Motori Ruggenti (Italy)": {
 		"languages": "It"
 	},
+	"CART, AGS BURN-IN CARTRIDGE (USA) (Test Program)": {
+		"languages": "En"
+	},
+	"CART, OPERATION TEST NTR (USA) (Test Program)": {
+		"languages": "En"
+	},
 	"Cartoon Network Block Party (USA)": {
 		"languages": "En"
 	},
@@ -1533,6 +1557,9 @@
 		"languages": "En"
 	},
 	"Chaoji Maliou 2 (China)": {
+		"languages": "Zh"
+	},
+	"Chaoji Maliou DX (Taiwan) (Unl)": {
 		"languages": "Zh"
 	},
 	"Chaoji Maliou Shijie (China)": {
@@ -1764,6 +1791,9 @@
 		"languages": "En"
 	},
 	"Crash & Spyro Superpack - Spyro Orange - The Cortex Conspiracy + Crash Bandicoot Purple - Ripto's Rampage (USA)": {
+		"languages": "En"
+	},
+	"Crash Advance IV (USA) (Unl)": {
 		"languages": "En"
 	},
 	"Crash Bandicoot 2 - N-Tranced (Europe) (En,Fr,De,Es,It,Nl)": {
@@ -2108,6 +2138,9 @@
 	"Digimon - Battle Spirit (USA)": {
 		"languages": "En"
 	},
+	"Digimon - Ruby and Sapphire (USA) (Unl)": {
+		"languages": "En"
+	},
 	"Digimon Racing (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En, Fr, De, Es, It"
 	},
@@ -2117,10 +2150,16 @@
 	"Digimon Racing (USA) (En,Fr,De,Es,It)": {
 		"languages": "En, Fr, De, Es, It"
 	},
+	"Digimon Rury (USA) (Unl)": {
+		"languages": "En"
+	},
+	"Digimon Sapphire (USA) (Unl)": {
+		"languages": "En"
+	},
 	"Dinotopia - The Timestone Pirates (USA, Europe) (En,Fr,De,Es,It,Nl)": {
 		"languages": "En, Fr, De, Es, It, Nl"
 	},
-	"Disney Cart (Unknown) (Unl) [b]": {
+	"Disney Cart (USA) (Unl) [b]": {
 		"languages": "En"
 	},
 	"Disney Princesas (Spain)": {
@@ -2276,6 +2315,9 @@
 	"Donchan Puzzle - Hanabi de Dohn! Advance (Japan)": {
 		"languages": "Ja"
 	},
+	"Donkey Kong 2 (USA) (Unl)": {
+		"languages": "En"
+	},
 	"Donkey Kong Country 2 (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En, Fr, De, Es, It"
 	},
@@ -2285,7 +2327,7 @@
 	"Donkey Kong Country 3 (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En, Fr, De, Es, It"
 	},
-	"Donkey Kong Country 3 (USA) (Beta)": {
+	"Donkey Kong Country 3 (USA) (Beta) (2005-05-06)": {
 		"languages": "En"
 	},
 	"Donkey Kong Country 3 (USA)": {
@@ -2477,7 +2519,7 @@
 	"Drill Dozer (USA)": {
 		"languages": "En"
 	},
-	"Driv3r (Europe) (Beta 1)": {
+	"Driv3r (Europe) (Beta 1) [b]": {
 		"languages": "En"
 	},
 	"Driv3r (Europe) (Beta 3)": {
@@ -3110,6 +3152,9 @@
 	"Finding Nemo (Japan)": {
 		"languages": "Ja"
 	},
+	"Finding Nemo (Unknown) (Beta)": {
+		"languages": "En"
+	},
 	"Finding Nemo (USA, Europe)": {
 		"languages": "En"
 	},
@@ -3374,133 +3419,133 @@
 	"Game & Watch Gallery Advance (Europe)": {
 		"languages": "En"
 	},
-	"Game Boy Advance Video - All Grown Up! - Volume 1 (USA)": {
+	"Game Boy Advance Video - All Grown Up! - Volume 1 (USA) (Video)": {
 		"languages": "En"
 	},
-	"Game Boy Advance Video - Cartoon Network Collection - Edition Platinum (France)": {
+	"Game Boy Advance Video - Cartoon Network Collection - Edition Platinum (France) (Video)": {
 		"languages": "Fr"
 	},
-	"Game Boy Advance Video - Cartoon Network Collection - Edition Premium (France)": {
+	"Game Boy Advance Video - Cartoon Network Collection - Edition Premium (France) (Video)": {
 		"languages": "Fr"
 	},
-	"Game Boy Advance Video - Cartoon Network Collection - Edition Speciale (France)": {
+	"Game Boy Advance Video - Cartoon Network Collection - Edition Speciale (France) (Video)": {
 		"languages": "Fr"
 	},
-	"Game Boy Advance Video - Cartoon Network Collection - Limited Edition (USA)": {
+	"Game Boy Advance Video - Cartoon Network Collection - Limited Edition (USA) (Video)": {
 		"languages": "En"
 	},
-	"Game Boy Advance Video - Cartoon Network Collection - Platinum Edition (USA, Europe)": {
+	"Game Boy Advance Video - Cartoon Network Collection - Platinum Edition (USA, Europe) (Video)": {
 		"languages": "En"
 	},
-	"Game Boy Advance Video - Cartoon Network Collection - Premium Edition (USA, Europe)": {
+	"Game Boy Advance Video - Cartoon Network Collection - Premium Edition (USA, Europe) (Video)": {
 		"languages": "En"
 	},
-	"Game Boy Advance Video - Cartoon Network Collection - Special Edition (USA, Europe)": {
+	"Game Boy Advance Video - Cartoon Network Collection - Special Edition (USA, Europe) (Video)": {
 		"languages": "En"
 	},
-	"Game Boy Advance Video - Cartoon Network Collection - Volume 1 (USA, Europe)": {
+	"Game Boy Advance Video - Cartoon Network Collection - Volume 1 (USA, Europe) (Video)": {
 		"languages": "En"
 	},
-	"Game Boy Advance Video - Cartoon Network Collection - Volume 2 (USA, Europe)": {
+	"Game Boy Advance Video - Cartoon Network Collection - Volume 2 (USA, Europe) (Video)": {
 		"languages": "En"
 	},
-	"Game Boy Advance Video - Codename - Kids Next Door - Volume 1 (USA, Europe)": {
+	"Game Boy Advance Video - Codename - Kids Next Door - Volume 1 (USA, Europe) (Video)": {
 		"languages": "En"
 	},
-	"Game Boy Advance Video - Disney Channel Collection - Volume 1 (USA)": {
+	"Game Boy Advance Video - Disney Channel Collection - Volume 1 (USA) (Video)": {
 		"languages": "En"
 	},
-	"Game Boy Advance Video - Disney Channel Collection - Volume 2 (USA) (Rev 5)": {
+	"Game Boy Advance Video - Disney Channel Collection - Volume 2 (USA) (Rev 5) (Video)": {
 		"languages": "En"
 	},
-	"Game Boy Advance Video - Dora the Explorer - Volume 1 (USA)": {
+	"Game Boy Advance Video - Dora the Explorer - Volume 1 (USA) (Video)": {
 		"languages": "En"
 	},
-	"Game Boy Advance Video - Dragon Ball GT - Volume 1 (USA)": {
+	"Game Boy Advance Video - Dragon Ball GT - Volume 1 (USA) (Video)": {
 		"languages": "En"
 	},
-	"Game Boy Advance Video - Nicktoons - Volume 3 (USA)": {
+	"Game Boy Advance Video - Nicktoons - Volume 3 (USA) (Video)": {
 		"languages": "En"
 	},
-	"Game Boy Advance Video - Nicktoons Collection - Volume 1 (USA)": {
+	"Game Boy Advance Video - Nicktoons Collection - Volume 1 (USA) (Video)": {
 		"languages": "En"
 	},
-	"Game Boy Advance Video - Nicktoons Collection - Volume 2 (USA)": {
+	"Game Boy Advance Video - Nicktoons Collection - Volume 2 (USA) (Video)": {
 		"languages": "En"
 	},
-	"Game Boy Advance Video - Pokemon - Volume 1 (USA)": {
+	"Game Boy Advance Video - Pokemon - Volume 1 (USA) (Video)": {
 		"languages": "En"
 	},
-	"Game Boy Advance Video - Pokemon - Volume 2 (USA)": {
+	"Game Boy Advance Video - Pokemon - Volume 2 (USA) (Video)": {
 		"languages": "En"
 	},
-	"Game Boy Advance Video - Pokemon - Volume 3 (USA)": {
+	"Game Boy Advance Video - Pokemon - Volume 3 (USA) (Video)": {
 		"languages": "En"
 	},
-	"Game Boy Advance Video - Pokemon - Volume 4 (USA)": {
+	"Game Boy Advance Video - Pokemon - Volume 4 (USA) (Video)": {
 		"languages": "En"
 	},
-	"Game Boy Advance Video - Shark Tale (USA) (Rev 5)": {
+	"Game Boy Advance Video - Shark Tale (USA) (Rev 5) (Video)": {
 		"languages": "En"
 	},
-	"Game Boy Advance Video - Shark Tale (USA) (Rev 6)": {
+	"Game Boy Advance Video - Shark Tale (USA) (Rev 6) (Video)": {
 		"languages": "En"
 	},
-	"Game Boy Advance Video - Shrek 2 (USA) (Rev 5)": {
+	"Game Boy Advance Video - Shrek 2 (USA) (Rev 5) (Video)": {
 		"languages": "En"
 	},
-	"Game Boy Advance Video - Shrek 2 (USA) (Rev 6)": {
+	"Game Boy Advance Video - Shrek 2 (USA) (Rev 6) (Video)": {
 		"languages": "En"
 	},
-	"Game Boy Advance Video - Shrek (USA) (Rev 5)": {
+	"Game Boy Advance Video - Shrek (USA) (Rev 5) (Video)": {
 		"languages": "En"
 	},
-	"Game Boy Advance Video - Shrek (USA) (Rev 6)": {
+	"Game Boy Advance Video - Shrek (USA) (Rev 6) (Video)": {
 		"languages": "En"
 	},
-	"Game Boy Advance Video - Shrek + Shark Tale (USA) (Rev 5)": {
+	"Game Boy Advance Video - Shrek + Shark Tale (USA) (Rev 5) (Video)": {
 		"languages": "En"
 	},
-	"Game Boy Advance Video - Sonic X - Volume 1 (USA)": {
+	"Game Boy Advance Video - Sonic X - Volume 1 (USA) (Video)": {
 		"languages": "En"
 	},
-	"Game Boy Advance Video - SpongeBob SquarePants - Volume 1 (USA) (Rev 1)": {
+	"Game Boy Advance Video - SpongeBob SquarePants - Volume 1 (USA) (Rev 1) (Video)": {
 		"languages": "En"
 	},
-	"Game Boy Advance Video - SpongeBob SquarePants - Volume 2 (USA) (Rev 1)": {
+	"Game Boy Advance Video - SpongeBob SquarePants - Volume 2 (USA) (Rev 1) (Video)": {
 		"languages": "En"
 	},
-	"Game Boy Advance Video - SpongeBob SquarePants - Volume 3 (USA)": {
+	"Game Boy Advance Video - SpongeBob SquarePants - Volume 3 (USA) (Video)": {
 		"languages": "En"
 	},
-	"Game Boy Advance Video - Strawberry Shortcake - Volume 1 (USA)": {
+	"Game Boy Advance Video - Strawberry Shortcake - Volume 1 (USA) (Video)": {
 		"languages": "En"
 	},
-	"Game Boy Advance Video - Super Robot Monkey Team - Hyper Force Go! - Volume 1 (USA)": {
+	"Game Boy Advance Video - Super Robot Monkey Team - Hyper Force Go! - Volume 1 (USA) (Video)": {
 		"languages": "En"
 	},
-	"Game Boy Advance Video - Teenage Mutant Ninja Turtles - Le Demenagement (France)": {
+	"Game Boy Advance Video - Teenage Mutant Ninja Turtles - Le Demenagement (France) (Video)": {
 		"languages": "Fr"
 	},
-	"Game Boy Advance Video - Teenage Mutant Ninja Turtles - Things Change (USA, Europe)": {
+	"Game Boy Advance Video - Teenage Mutant Ninja Turtles - Things Change (USA, Europe) (Video)": {
 		"languages": "En"
 	},
-	"Game Boy Advance Video - The Adventures of Jimmy Neutron Boy Genius - Volume 1 (USA)": {
+	"Game Boy Advance Video - The Adventures of Jimmy Neutron Boy Genius - Volume 1 (USA) (Video)": {
 		"languages": "En"
 	},
-	"Game Boy Advance Video - The Fairly OddParents! - Volume 1 (USA)": {
+	"Game Boy Advance Video - The Fairly OddParents! - Volume 1 (USA) (Video)": {
 		"languages": "En"
 	},
-	"Game Boy Advance Video - The Fairly OddParents! - Volume 2 (USA) (Rev 1)": {
+	"Game Boy Advance Video - The Fairly OddParents! - Volume 2 (USA) (Rev 1) (Video)": {
 		"languages": "En"
 	},
-	"Game Boy Advance Video - The Proud Family - Volume 1 (USA)": {
+	"Game Boy Advance Video - The Proud Family - Volume 1 (USA) (Video)": {
 		"languages": "En"
 	},
-	"Game Boy Advance Video - Yu-Gi-Oh! - Yugi vs. Joey (France)": {
+	"Game Boy Advance Video - Yu-Gi-Oh! - Yugi vs. Joey (France) (Video)": {
 		"languages": "Fr"
 	},
-	"Game Boy Advance Video - Yu-Gi-Oh! - Yugi vs. Joey (USA, Europe)": {
+	"Game Boy Advance Video - Yu-Gi-Oh! - Yugi vs. Joey (USA, Europe) (Video)": {
 		"languages": "En"
 	},
 	"Game Boy Gallery 4 (Japan) (Virtual Console)": {
@@ -3767,6 +3812,9 @@
 	"GT Racers (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En, Fr, De, Es, It"
 	},
+	"Gu Huo Lang 4 (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
 	"Guilty Gear X - Advance Edition (Europe)": {
 		"languages": "En"
 	},
@@ -3823,6 +3871,9 @@
 	},
 	"Gyakuten Saiban (Japan)": {
 		"languages": "Ja"
+	},
+	"Ha Li Bo Te IV (Taiwan) (Unl)": {
+		"languages": "Zh"
 	},
 	"Hachiemon (Japan)": {
 		"languages": "Ja"
@@ -3931,6 +3982,9 @@
 	},
 	"Harry Potter Collection (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da)": {
 		"languages": "En, Fr, De, Es, It, Nl, Pt, Sv, No, Da"
+	},
+	"Harry Potter IV (USA) (Unl)": {
+		"languages": "En"
 	},
 	"Harry Potter to Azkaban no Shuujin (Japan)": {
 		"languages": "Ja"
@@ -4325,6 +4379,9 @@
 	"JGTO Kounin Golf Master Mobile - Japan Golf Tour Game (Japan)": {
 		"languages": "Ja"
 	},
+	"Ji Xie Ren Da Zhan - Zhong Jie Ban (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
 	"Jikkyou World Soccer Pocket 2 (Japan)": {
 		"languages": "Ja"
 	},
@@ -4354,6 +4411,9 @@
 	},
 	"Jonny Moseley Mad Trix (USA, Europe) (En,Fr,De,Es,It)": {
 		"languages": "En, Fr, De, Es, It"
+	},
+	"Juezhan Sanguo (Taiwan) (Unl)": {
+		"languages": "Zh"
 	},
 	"Juka and the Monophonic Menace (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En, Fr, De, Es, It"
@@ -4493,13 +4553,13 @@
 	"Kessaku Sen! - Ganbare Goemon 1, 2 - Yuki Hime to Magginesu (Japan)": {
 		"languages": "Ja"
 	},
-	"Kid Paddle (Europe) (Fr,Nl) (Beta) (2005-06-28)": {
+	"Kid Paddle (Europe) (Fr,Nl) (Beta 1) (2005-06-28)": {
 		"languages": "Fr, Nl"
 	},
-	"Kid Paddle (Europe) (Fr,Nl) (Beta) (2005-07-08)": {
+	"Kid Paddle (Europe) (Fr,Nl) (Beta 2) (2005-07-08)": {
 		"languages": "Fr, Nl"
 	},
-	"Kid Paddle (Europe) (Fr,Nl) (Beta)": {
+	"Kid Paddle (Europe) (Fr,Nl) (Beta 3)": {
 		"languages": "Fr, Nl"
 	},
 	"Kid Paddle (Europe) (Fr,Nl)": {
@@ -4913,6 +4973,9 @@
 	"LEGO Star Wars II - The Original Trilogy (USA)": {
 		"languages": "En"
 	},
+	"Leiman IV - Guangming Zhi Lv (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
 	"Lemony Snicket - Raetselhafte Ereignisse (Germany)": {
 		"languages": "De"
 	},
@@ -5003,6 +5066,9 @@
 	"Looney Tunes Double Pack (USA)": {
 		"languages": "En"
 	},
+	"Lord of the Rings IV, The - The Fellowship of the Ring (USA) (Unl)": {
+		"languages": "En"
+	},
 	"Lord of the Rings, The - Futatsu no Tou (Japan)": {
 		"languages": "Ja"
 	},
@@ -5019,6 +5085,9 @@
 		"languages": "En"
 	},
 	"Lord of the Rings, The - The Fellowship of the Ring (USA)": {
+		"languages": "En"
+	},
+	"Lord of the Rings, The - The Return of the King (USA) (Unl)": {
 		"languages": "En"
 	},
 	"Lord of the Rings, The - The Return of the King (USA, Europe) (En,Fr,De,Es,It)": {
@@ -5201,11 +5270,11 @@
 	"Maniac Racers Advance (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En, Fr, De, Es, It"
 	},
+	"Manic Miner (Europe) (Beta)": {
+		"languages": "En"
+	},
 	"Manic Miner (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En, Fr, De, Es, It"
-	},
-	"Manic Miner (Unknown) (Beta)": {
-		"languages": "En"
 	},
 	"March of the Penguins (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En, Fr, De, Es, It"
@@ -5236,6 +5305,9 @@
 	},
 	"Mario & Luigi RPG (Japan)": {
 		"languages": "Ja"
+	},
+	"Mario DX (USA) (Unl)": {
+		"languages": "En"
 	},
 	"Mario Golf - Advance Tour (Australia)": {
 		"languages": "En"
@@ -5936,6 +6008,9 @@
 	"MLB SlugFest 20-04 (USA)": {
 		"languages": "En"
 	},
+	"Mo Jie Qibing (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
 	"Mobile Pro Yakyuu - Kantoku no Saihai (Japan)": {
 		"languages": "Ja"
 	},
@@ -6179,6 +6254,9 @@
 	"My Little Pony - Crystal Princess - The Runaway Rainbow (USA)": {
 		"languages": "En"
 	},
+	"Mythri (USA) (Proto)": {
+		"languages": "En"
+	},
 	"Nakayoshi Mahjong - KabuReach (Japan)": {
 		"languages": "Ja"
 	},
@@ -6289,6 +6367,9 @@
 	},
 	"Need for Speed Carbon - Own the City (USA, Europe) (En,Fr,De,Es,It)": {
 		"languages": "En, Fr, De, Es, It"
+	},
+	"Nekketsu Monogatari Advance (Japan) (Demo) (Aftermarket) (Unl)": {
+		"languages": "Ja"
 	},
 	"Neoromance Game - Harukanaru Toki no Naka de (Japan) (Rev 1)": {
 		"languages": "Ja"
@@ -6812,7 +6893,7 @@
 	"Pokemon - Blattgruene Edition (Germany)": {
 		"languages": "De"
 	},
-	"Pokemon - Doel Deoxys Distribution (Netherlands) (Kiosk)": {
+	"Pokemon - Doel Deoxys Distribution (Netherlands) (En) (Kiosk)": {
 		"languages": "En"
 	},
 	"Pokemon - Edicion Esmeralda (Spain)": {
@@ -6846,6 +6927,9 @@
 		"languages": "En"
 	},
 	"Pokemon - FireRed Version (USA, Europe) (Rev 1)": {
+		"languages": "En"
+	},
+	"Pokemon - Leaf Green (USA) (Pirate)": {
 		"languages": "En"
 	},
 	"Pokemon - LeafGreen Version (USA)": {
@@ -6888,6 +6972,18 @@
 		"languages": "En"
 	},
 	"Pokemon - Sapphire Version (USA, Europe) (Rev 2)": {
+		"languages": "En"
+	},
+	"Pokemon - Sapphire Version - Gotta Catch 'em All! (USA) (Unl)": {
+		"languages": "En"
+	},
+	"Pokemon - Slot 2 Distribution (Japan) (En) (B5BJ)": {
+		"languages": "En"
+	},
+	"Pokemon - Slot 2 Distribution (Japan) (En) (B5CJ)": {
+		"languages": "En"
+	},
+	"Pokemon - Slot 2 Distribution (Japan) (En) (B5DJ)": {
 		"languages": "En"
 	},
 	"Pokemon - Slot 2 Distribution (Japan) (Proto)": {
@@ -7184,6 +7280,9 @@
 	"Quad Desert Fury (USA, Europe)": {
 		"languages": "En"
 	},
+	"Quake (USA) (Proto)": {
+		"languages": "En"
+	},
 	"Qui Veut Gagner des Millions (France)": {
 		"languages": "Fr"
 	},
@@ -7274,6 +7373,12 @@
 	"Rayman Advance (USA) (En,Fr,De,Es,It)": {
 		"languages": "En, Fr, De, Es, It"
 	},
+	"Rayman IV (Russia) (Unl)": {
+		"languages": "Ru"
+	},
+	"Rayman IV (USA) (Unl)": {
+		"languages": "En"
+	},
 	"Razbitume! - Restez Branches! (Europe) (En,Fr)": {
 		"languages": "En, Fr"
 	},
@@ -7315,6 +7420,9 @@
 	},
 	"Relaxuma na Mainichi (Japan)": {
 		"languages": "Ja"
+	},
+	"Ren Zhe Shen Gui 2 (Taiwan) (Unl)": {
+		"languages": "Zh"
 	},
 	"Rescue Heroes - Billy Blazes! (USA)": {
 		"languages": "En"
@@ -7428,6 +7536,9 @@
 		"languages": "Fr"
 	},
 	"Rocket Power - Zero Gravity Zone (USA)": {
+		"languages": "En"
+	},
+	"Rockman & Crystal (USA) (Unl)": {
 		"languages": "En"
 	},
 	"Rockman & Forte (Japan) (Virtual Console)": {
@@ -7790,6 +7901,9 @@
 	"Sheep (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En, Fr, De, Es, It"
 	},
+	"Shi Rui Ke II - Yu Mei Ren (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
 	"Shifting Gears - Road Trip (USA)": {
 		"languages": "En"
 	},
@@ -7946,11 +8060,17 @@
 	"Shrek - Swamp Kart Speedway (USA, Europe) (En,Fr,De,Es,It,Nl)": {
 		"languages": "En, Fr, De, Es, It, Nl"
 	},
+	"Shrek Prezessin (Russia) (Unl)": {
+		"languages": "Ru"
+	},
 	"Shrek the Third (Europe) (En,Fr,De,Es,It,Nl)": {
 		"languages": "En, Fr, De, Es, It, Nl"
 	},
 	"Shrek the Third (USA)": {
 		"languages": "En"
+	},
+	"Shuma Guaishou - Hongbaoshi Ban (Taiwan) (Unl)": {
+		"languages": "Zh"
 	},
 	"Sigma Star Saga (USA, Europe)": {
 		"languages": "En"
@@ -8087,6 +8207,9 @@
 	"Soccer Kid (USA, Europe)": {
 		"languages": "En"
 	},
+	"Sonic 3 - Fighter Sonic (USA) (Unl)": {
+		"languages": "En"
+	},
 	"Sonic Advance 2 (Europe) (En,Ja,Fr,De,Es,It)": {
 		"languages": "En, Ja, Fr, De, Es, It"
 	},
@@ -8095,6 +8218,9 @@
 	},
 	"Sonic Advance 2 (Japan) (En,Ja,Fr,De,Es,It)": {
 		"languages": "En, Ja, Fr, De, Es, It"
+	},
+	"Sonic Advance 2 (Unknown) (Beta)": {
+		"languages": "En"
 	},
 	"Sonic Advance 2 (USA) (En,Ja,Fr,De,Es,It)": {
 		"languages": "En, Ja, Fr, De, Es, It"
@@ -8203,6 +8329,9 @@
 	},
 	"Spider-Man 3 (Spain)": {
 		"languages": "Es"
+	},
+	"Spider-Man 3 (USA) (Unl)": {
+		"languages": "En"
 	},
 	"Spider-Man 3 (USA)": {
 		"languages": "En"
@@ -8450,6 +8579,9 @@
 	"Star Wars Trilogy - Apprentice of the Force (Europe) (En,Fr,De,Es,It,Nl)": {
 		"languages": "En, Fr, De, Es, It, Nl"
 	},
+	"Star Wars Trilogy - Apprentice of the Force (USA) (Beta)": {
+		"languages": "En"
+	},
 	"Star Wars Trilogy - Apprentice of the Force (USA) (En,Fr,Es)": {
 		"languages": "En, Fr, Es"
 	},
@@ -8511,6 +8643,9 @@
 		"languages": "En"
 	},
 	"Strike Force Hydra (USA)": {
+		"languages": "En"
+	},
+	"Stuart Little 2 (Europe) (Rev 1)": {
 		"languages": "En"
 	},
 	"Stuart Little 2 (France)": {
@@ -8717,6 +8852,9 @@
 	"Super Monkey Ball Jr. (USA)": {
 		"languages": "En"
 	},
+	"Super Panda (USA) (Unl)": {
+		"languages": "En"
+	},
 	"Super Puzzle Bobble Advance (Japan) (En)": {
 		"languages": "En"
 	},
@@ -8908,6 +9046,9 @@
 	},
 	"Teen Titans (USA) (En,Fr)": {
 		"languages": "En, Fr"
+	},
+	"Teenage Mutant Ninja Turtles 2 (USA) (Unl)": {
+		"languages": "En"
 	},
 	"Teenage Mutant Ninja Turtles 2 - Battle Nexus (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En, Fr, De, Es, It"
@@ -9413,6 +9554,9 @@
 	"Ultra Keibitai - Monster Attack (Japan)": {
 		"languages": "Ja"
 	},
+	"Ultraman - Confrontation Between Justice and Evil (Russia) (Unl)": {
+		"languages": "Ru"
+	},
 	"Unfabulous (USA)": {
 		"languages": "En"
 	},
@@ -9734,11 +9878,17 @@
 	"X2 - Wolverine's Revenge (USA, Europe)": {
 		"languages": "En"
 	},
+	"X Zhan Jing (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
 	"X-Bladez - Inline Skater (Europe)": {
 		"languages": "En"
 	},
 	"X-Bladez - Inline Skater (USA)": {
 		"languages": "En"
+	},
+	"X-Man - Armour of Might (Russia) (Unl)": {
+		"languages": "Ru"
 	},
 	"X-Men 2 - La Vengeance de Wolverine (France)": {
 		"languages": "Fr"
@@ -10021,6 +10171,9 @@
 	},
 	"ZooCube (USA)": {
 		"languages": "En"
+	},
+	"Zook Man ZX4 (Taiwan) (Unl)": {
+		"languages": "Zh"
 	},
 	"Zooo - Action Puzzle Game (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En, Fr, De, Es, It"

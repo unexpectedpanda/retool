@@ -41,6 +41,9 @@
 	"4-in-1 Funpak - Volume II (USA, Europe)": {
 		"languages": "En"
 	},
+	"8-in-1 (Unknown) (Unl)": {
+		"languages": "En"
+	},
 	"10-Pin Bowling (USA)": {
 		"languages": "En"
 	},
@@ -61,6 +64,9 @@
 	},
 	"[BIOS] Nintendo Game Boy Pocket Boot ROM (World)": {
 		"languages": "En"
+	},
+	"[MIA] Oni IV (Japan) (Beta)": {
+		"languages": "Ja"
 	},
 	"A-mazing Tater (USA)": {
 		"languages": "En"
@@ -167,6 +173,9 @@
 	"Alleyway (World)": {
 		"languages": "En"
 	},
+	"Alphamax (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Altered Space - A 3-D Alien Adventure (Europe)": {
 		"languages": "En"
 	},
@@ -177,6 +186,9 @@
 		"languages": "En"
 	},
 	"Amazing Penguin (USA, Europe)": {
+		"languages": "En"
+	},
+	"Amazing Penguin (World) (Aftermarket)": {
 		"languages": "En"
 	},
 	"Amazing Spider-Man, The (USA, Europe)": {
@@ -212,6 +224,9 @@
 	"Animaniacs (USA) (SGB Enhanced)": {
 		"languages": "En"
 	},
+	"Another Adventure (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Another Bible (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
@@ -244,6 +259,18 @@
 	},
 	"Aretha III (Japan)": {
 		"languages": "Ja"
+	},
+	"Art School Pocket (France) (Aftermarket) (Homebrew)": {
+		"languages": "Fr"
+	},
+	"Art School Pocket (Germany) (Aftermarket) (Homebrew)": {
+		"languages": "De"
+	},
+	"Art School Pocket (Spain) (Aftermarket) (Homebrew)": {
+		"languages": "Es"
+	},
+	"Art School Pocket (World) (Aftermarket) (Homebrew)": {
+		"languages": "En"
 	},
 	"Asmik-kun World 2 (Japan)": {
 		"languages": "Ja"
@@ -278,6 +305,12 @@
 	"Astro Rabby (Japan)": {
 		"languages": "Ja"
 	},
+	"Astro-Jump (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Astro-Jump - The Sequel (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Atomic Punk (USA)": {
 		"languages": "En"
 	},
@@ -286,6 +319,12 @@
 	},
 	"Attack of the Killer Tomatoes (USA, Europe)": {
 		"languages": "En"
+	},
+	"Auto Zone (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Autumn With You, An (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Avenging Spirit (USA, Europe)": {
 		"languages": "En"
@@ -350,7 +389,7 @@
 	"Baseball Kids (Japan)": {
 		"languages": "Ja"
 	},
-	"Bases Loaded for Game Boy (USA)": {
+	"Bases Loaded (USA)": {
 		"languages": "En"
 	},
 	"Bass Fishing Tatsujin Techou (Japan)": {
@@ -491,6 +530,12 @@
 	"Black Bass - Lure Fishing (USA)": {
 		"languages": "En"
 	},
+	"Black Castle GB (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Black Tape (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Blade Warrior (Europe) (Proto)": {
 		"languages": "En"
 	},
@@ -509,8 +554,14 @@
 	"Blaster Master Jr. (Europe)": {
 		"languages": "En"
 	},
+	"Blitz Bomber (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Block Kuzushi GB (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
+	},
+	"Blockade (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Blodia (Japan)": {
 		"languages": "Ja"
@@ -532,6 +583,9 @@
 	},
 	"Boggle Plus (USA)": {
 		"languages": "En"
+	},
+	"BOING! (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Bokujou Monogatari GB (Japan) (Rev 1) (SGB Enhanced)": {
 		"languages": "Ja"
@@ -586,6 +640,9 @@
 	},
 	"Boomer's Adventure in ASMIK World (USA)": {
 		"languages": "En"
+	},
+	"Borbo's Quest (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Bouken! Puzzle Road (Japan)": {
 		"languages": "Ja"
@@ -689,6 +746,9 @@
 	"Buster Bros. (USA)": {
 		"languages": "En"
 	},
+	"Busty Bunny the Bounty Babe (World) (v1.02) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Cadillac II (Japan)": {
 		"languages": "Ja"
 	},
@@ -703,6 +763,9 @@
 	},
 	"Caesars Palace (USA)": {
 		"languages": "En"
+	},
+	"Caihong Zhanshi - Rainbow Prince (Taiwan) (Unl)": {
+		"languages": "Zh"
 	},
 	"Calculator (Unknown) (Proto)": {
 		"languages": "En"
@@ -729,6 +792,9 @@
 		"languages": "En"
 	},
 	"Casper (Europe)": {
+		"languages": "En"
+	},
+	"Casper (USA) (Beta)": {
 		"languages": "En"
 	},
 	"Casper (USA)": {
@@ -797,6 +863,9 @@
 	"Chase H.Q. (USA, Europe)": {
 		"languages": "En"
 	},
+	"Cherry Rescue! (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Chessmaster, The (Europe)": {
 		"languages": "En"
 	},
@@ -857,17 +926,38 @@
 	"Chousoku Spinner (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
+	"Christmas Carols (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Chuck Rock (USA, Europe)": {
 		"languages": "En"
 	},
+	"Ciao Nonna (World) (v1.0) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Ciao Nonna (World) (v1.1) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Ciao Nonna (World) (v2.0) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Ciao Nonna (World) (v2.1) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Cliffhanger (USA, Europe)": {
 		"languages": "En"
+	},
+	"Clockmaker's Tale, A (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Collection Pocket (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
 	"College Slam (USA)": {
 		"languages": "En"
+	},
+	"Commando (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Contra (Japan) (En)": {
 		"languages": "En"
@@ -880,6 +970,9 @@
 	},
 	"Contra Spirits (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
+	},
+	"Cookie's Bakery (World) (v1.0.3) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Cool Ball (USA)": {
 		"languages": "En"
@@ -899,6 +992,12 @@
 	"Cool World (USA, Europe)": {
 		"languages": "En"
 	},
+	"Coria and the Sunken City (Unknown) (Demo)": {
+		"languages": "nolang"
+	},
+	"Cosmic Courier - Trapped in Limbo (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Cosmo Tank (Japan) (Beta)": {
 		"languages": "Ja"
 	},
@@ -910,6 +1009,9 @@
 	},
 	"Cosmo Tank (USA)": {
 		"languages": "En"
+	},
+	"coucou (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Crayon Shin-chan 2 - Ora to Wanpaku Gokko Dazo (Japan)": {
 		"languages": "Ja"
@@ -934,6 +1036,9 @@
 	},
 	"Cult Master - Ultraman ni Miserarete (Japan)": {
 		"languages": "Ja"
+	},
+	"Cuthbert in the Cooler (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"CutThroat Island (Japan) (En) (Proto)": {
 		"languages": "En"
@@ -968,6 +1073,9 @@
 	"Daisenryaku (Japan)": {
 		"languages": "Ja"
 	},
+	"Dark Winter Wander, A (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Darkman (USA, Europe)": {
 		"languages": "En"
 	},
@@ -983,11 +1091,20 @@
 	"Darkwing Duck (USA)": {
 		"languages": "En"
 	},
+	"Dash (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"David Crane's The Rescue of Princess Blobette (Europe)": {
 		"languages": "En"
 	},
 	"David Crane's The Rescue of Princess Blobette (USA)": {
 		"languages": "En"
+	},
+	"David Crane's The Rescue of Princess Blobette (World) (Aftermarket)": {
+		"languages": "En"
+	},
+	"Dawn Will Come (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Days of Thunder (USA, Europe)": {
 		"languages": "En"
@@ -1028,6 +1145,9 @@
 	"Diablo (USA) (Proto)": {
 		"languages": "En"
 	},
+	"DiaMaze (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Dick Tracy (USA)": {
 		"languages": "En"
 	},
@@ -1052,8 +1172,17 @@
 	"Dirty Racing (Japan)": {
 		"languages": "Ja"
 	},
+	"Disco Elysium - Game Boy Edition (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Dodge Boy (Japan)": {
 		"languages": "Ja"
+	},
+	"Dog's Muck Island (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Don't Forget About Me (World) (Prototype) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Donkey Kong (Japan, USA) (En) (SGB Enhanced)": {
 		"languages": "En"
@@ -1180,6 +1309,9 @@
 	},
 	"Dracula Densetsu II (Japan)": {
 		"languages": "Ja"
+	},
+	"Dragon Ball Z 3 (USA) (SGB Enhanced) (Unl)": {
+		"languages": "En"
 	},
 	"Dragon Ball Z - Gokuu Gekitouden (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
@@ -1310,6 +1442,9 @@
 	"F-15 Strike Eagle II (USA, Europe) (Beta) (July, 1992)": {
 		"languages": "En"
 	},
+	"F-Zero - Project (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Faceball 2000 (USA)": {
 		"languages": "En"
 	},
@@ -1327,6 +1462,9 @@
 	},
 	"Famista (Japan)": {
 		"languages": "Ja"
+	},
+	"Farm, The (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Fastest Lap (Japan) (En)": {
 		"languages": "En"
@@ -1397,6 +1535,9 @@
 	"Final Reverse (Japan)": {
 		"languages": "Ja"
 	},
+	"Finders Keepers (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Fire Fighter (Europe)": {
 		"languages": "En"
 	},
@@ -1406,6 +1547,9 @@
 	"Fist of the North Star (USA)": {
 		"languages": "En"
 	},
+	"Fix My Heart (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Flappy Special (Japan)": {
 		"languages": "Ja"
 	},
@@ -1414,6 +1558,9 @@
 	},
 	"Flash, The (USA, Europe)": {
 		"languages": "En"
+	},
+	"Flashin' (World) (v3.0) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Fleet Commander VS. (Japan)": {
 		"languages": "Ja"
@@ -1433,6 +1580,9 @@
 	"Flipull - An Exciting Cube Game (Japan)": {
 		"languages": "Ja"
 	},
+	"Flooder (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Football International (Europe)": {
 		"languages": "En"
 	},
@@ -1442,6 +1592,9 @@
 	"Foreman for Real (USA, Europe)": {
 		"languages": "En"
 	},
+	"Forest of Fallen Knights (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Fortified Zone (USA, Europe)": {
 		"languages": "En"
 	},
@@ -1450,6 +1603,9 @@
 	},
 	"Franky, Joe & Dirk - On the Tiles (Europe) (En,Fr,De,Es,It,Nl)": {
 		"languages": "En, Fr, De, Es, It, Nl"
+	},
+	"Friday the 13th - The GB Game (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Frisky Tom (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
@@ -1478,6 +1634,12 @@
 	"G Arms - Operation Gundam (Japan)": {
 		"languages": "Ja"
 	},
+	"G-Man (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"G-ZERO (World) (v2.6) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Galaga & Galaxian (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
@@ -1495,6 +1657,9 @@
 	},
 	"Game Boy Camera (USA, Europe) (SGB Enhanced)": {
 		"languages": "En"
+	},
+	"Game Boy Camera Gallery 2022, The (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Game Boy Camera Gold (USA) (SGB Enhanced)": {
 		"languages": "En"
@@ -1580,6 +1745,9 @@
 	"Gargoyle's Quest II - The Demon Darkness (USA) (Proto)": {
 		"languages": "En"
 	},
+	"Gauntlet II (USA, Europe) (Beta)": {
+		"languages": "En"
+	},
 	"Gauntlet II (USA, Europe)": {
 		"languages": "En"
 	},
@@ -1613,6 +1781,9 @@
 	"Gem Gem (Japan)": {
 		"languages": "Ja"
 	},
+	"Genesis (World) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
 	"Genjin Collection (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
@@ -1630,6 +1801,9 @@
 	},
 	"Getaway, The - High Speed II (USA)": {
 		"languages": "En"
+	},
+	"Ghost Town (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Ghostbusters II (Japan)": {
 		"languages": "Ja"
@@ -1688,6 +1862,9 @@
 	"Golf Classic (Europe) (SGB Enhanced)": {
 		"languages": "En"
 	},
+	"Gorf the Ghost Saves Halloween (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Goukaku Boy GOLD - Shikakui Atama o Maruku Suru - Joushiki no Sho (Japan) (IE Institute)": {
 		"languages": "Ja"
 	},
@@ -1706,7 +1883,10 @@
 	"Goukaku Boy GOLD - Shikakui Atama o Maruku Suru - Keisan no Tatsujin (Japan) (Imagineer)": {
 		"languages": "Ja"
 	},
-	"Goukaku Boy GOLD - Shikakui Atama o Maruku Suru - Nanmon no Sho (Japan)": {
+	"Goukaku Boy GOLD - Shikakui Atama o Maruku Suru - Nanmon no Sho (Japan) (Imagineer)": {
+		"languages": "Ja"
+	},
+	"Goukaku Boy GOLD - Shikakui Atama o Maruku Suru - Nanmon no Sho (Japan) (Proto) (IE Institute)": {
 		"languages": "Ja"
 	},
 	"Goukaku Boy GOLD - Shikakui Atama o Maruku Suru - Zukei no Tatsujin (Japan)": {
@@ -1799,19 +1979,19 @@
 	"Goukaku Boy Series - Yamakawa Ichimonittou - Sekaishi B Yougo Mondaishuu (Japan)": {
 		"languages": "Ja"
 	},
-	"Goukaku Boy Series - Z Kai Kyuukyoku no Eigo Koubun 285 (Japan)": {
+	"Goukaku Boy Series - Z-Kai Kyuukyoku no Eigo Koubun 285 (Japan)": {
 		"languages": "Ja"
 	},
-	"Goukaku Boy Series - Z Kai Kyuukyoku no Eijukugo 1017 (Japan)": {
+	"Goukaku Boy Series - Z-Kai Kyuukyoku no Eijukugo 1017 (Japan)": {
 		"languages": "Ja"
 	},
-	"Goukaku Boy Series - Z Kai Kyuukyoku no Eitango 1500 (Japan)": {
-		"languages": "Ja"
-	},
-	"Goukaku Boy Series - Z Kai Reibun de Oboeru - Kyuukyoku no Kobun Tango (Japan)": {
+	"Goukaku Boy Series - Z-Kai Kyuukyoku no Eitango 1500 (Japan)": {
 		"languages": "Ja"
 	},
 	"Goukaku Boy Series - Z-Kai Reibun de Oboeru - Chuugaku Eitango 1132 (Japan)": {
+		"languages": "Ja"
+	},
+	"Goukaku Boy Series - Z-Kai Reibun de Oboeru - Kyuukyoku no Kobun Tango (Japan)": {
 		"languages": "Ja"
 	},
 	"Gradius - The Interstellar Assault (USA)": {
@@ -1825,6 +2005,9 @@
 	},
 	"Gremlins 2 - The New Batch (World)": {
 		"languages": "En"
+	},
+	"Gun Law (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"HAL Wrestling (USA) (Beta)": {
 		"languages": "En"
@@ -1844,11 +2027,17 @@
 	"Hatris (Japan, USA) (En)": {
 		"languages": "En"
 	},
+	"Hauntsfield (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Hayaoshi Quiz - Ouza Ketteisen (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
 	"Head On (Japan)": {
 		"languages": "Ja"
+	},
+	"Heart Knight (World) (v1.0) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Heavyweight Championship Boxing (USA)": {
 		"languages": "En"
@@ -1860,6 +2049,9 @@
 		"languages": "Ja"
 	},
 	"Heisei Tensai Bakabon (Japan)": {
+		"languages": "Ja"
+	},
+	"Hello Kitty - Pocket Camera (Japan) (Proto) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
 	"Heracles no Eikou - Ugokidashita Kamigami (Japan)": {
@@ -1982,6 +2174,9 @@
 	"Hyper Lode Runner (World) (Rev 1)": {
 		"languages": "En"
 	},
+	"If (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Ikari no Yousai 2 (Japan)": {
 		"languages": "Ja"
 	},
@@ -2063,6 +2258,9 @@
 	"J.League Winning Goal (Japan)": {
 		"languages": "Ja"
 	},
+	"Jabberwocky (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Jack Nicklaus Golf (France)": {
 		"languages": "Fr"
 	},
@@ -2074,6 +2272,9 @@
 	},
 	"James Bond 007 (USA, Europe) (SGB Enhanced)": {
 		"languages": "En"
+	},
+	"Jana of the Jungle (World) (Demo) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Jankenman (Japan)": {
 		"languages": "Ja"
@@ -2261,6 +2462,9 @@
 	"Kenyuu Densetsu Yaiba (Japan)": {
 		"languages": "Ja"
 	},
+	"Kenzie's Birthday Dash (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Kick Attack (Japan) (Proto)": {
 		"languages": "Ja"
 	},
@@ -2429,8 +2633,20 @@
 	"Lamborghini American Challenge (USA, Europe)": {
 		"languages": "En"
 	},
+	"Lasama Chuanqi - Story of Lasama (Taiwan) (Unl) (Alt)": {
+		"languages": "Zh"
+	},
+	"Lasama Chuanqi - Story of Lasama (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
+	"Laser Squad Alter (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Last Action Hero (USA, Europe)": {
 		"languages": "En"
+	},
+	"Lawn Mower Land (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Lawnmower Man, The (Europe)": {
 		"languages": "En"
@@ -2477,7 +2693,7 @@
 	"Legend of Zelda, The - Link's Awakening (USA, Europe)": {
 		"languages": "En"
 	},
-	"Legend of Zelda, The - Link's Awakening DX (Germany) (Beta) (1998-11-16)": {
+	"Legend of Zelda, The - Link's Awakening DX (Germany) (Proto) (1998-11-16)": {
 		"languages": "De"
 	},
 	"Lemmings 2 - The Tribes (Europe)": {
@@ -2540,6 +2756,9 @@
 	"Lolo no Daibouken (Japan)": {
 		"languages": "Ja"
 	},
+	"Long Xing Tianxia (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
 	"Looney Tunes 2 - Tasmanian Devil in Island Chase (USA, Europe)": {
 		"languages": "En"
 	},
@@ -2569,6 +2788,9 @@
 	},
 	"Lucle (Japan, Europe) (En)": {
 		"languages": "En"
+	},
+	"Lucy and the Gem Dungeon (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Lunar Chase (USA) (Proto 1)": {
 		"languages": "En"
@@ -2624,6 +2846,9 @@
 	"Makaimura Gaiden - The Demon Darkness (Japan)": {
 		"languages": "Ja"
 	},
+	"Make Way (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Malibu Beach Volleyball (USA)": {
 		"languages": "En"
 	},
@@ -2657,6 +2882,9 @@
 	"Marmalade Boy (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
+	"Marron Helps a Friend (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Maru's Mission (USA)": {
 		"languages": "En"
 	},
@@ -2668,6 +2896,9 @@
 	},
 	"Master Karateka (Japan)": {
 		"languages": "Ja"
+	},
+	"Matchless 23 in 1 A (Taiwan) (Unl)": {
+		"languages": "Zh"
 	},
 	"Matthias Sammer Soccer (Germany) (SGB Enhanced)": {
 		"languages": "De"
@@ -2753,6 +2984,9 @@
 	"Meitantei Conan - Giwaku no Gouka Ressha (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
+	"Melanie and the Magic Forest (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Mercenary Force (USA, Europe)": {
 		"languages": "En"
 	},
@@ -2760,6 +2994,9 @@
 		"languages": "En"
 	},
 	"Metal Masters (USA)": {
+		"languages": "En"
+	},
+	"Metal Masters (World) (Aftermarket)": {
 		"languages": "En"
 	},
 	"Metroid II - Return of Samus (World)": {
@@ -2822,6 +3059,9 @@
 	"Midori no Makibaou (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
+	"Midterm Moments (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Mighty Morphin Power Rangers (USA, Europe) (Beta) (SGB Enhanced)": {
 		"languages": "En"
 	},
@@ -2879,6 +3119,12 @@
 	"Missile Command (USA, Europe)": {
 		"languages": "En"
 	},
+	"Mission to Mars (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Mofa Qiu (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
 	"Mogu Mogu Gombo - Harukanaru Chou Ryouri Densetsu (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
@@ -2911,6 +3157,9 @@
 	},
 	"Momotarou Dentetsu jr. - Zenkoku Ramen Meguri no Maki (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
+	},
+	"Mona and the Witch's Hat (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Monde Perdu, Le - Jurassic Park (France) (En) (SGB Enhanced)": {
 		"languages": "En"
@@ -2957,6 +3206,9 @@
 	"Montezuma's Return! (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En, Fr, De, Es, It"
 	},
+	"Monty on the Run (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Mortal Kombat 3 (Europe)": {
 		"languages": "En"
 	},
@@ -2996,6 +3248,9 @@
 	"Motocross Maniacs (USA)": {
 		"languages": "En"
 	},
+	"Mountain Climber (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Mouse Trap Hotel (USA)": {
 		"languages": "En"
 	},
@@ -3020,6 +3275,9 @@
 	"Ms. Pac-Man (USA)": {
 		"languages": "En"
 	},
+	"Mud Warriors (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Muhammad Ali Heavyweight Boxing (USA, Europe)": {
 		"languages": "En"
 	},
@@ -3034,6 +3292,9 @@
 	},
 	"Mysterium (Japan)": {
 		"languages": "Ja"
+	},
+	"Mysterium (USA) (Beta)": {
+		"languages": "En"
 	},
 	"Mysterium (USA)": {
 		"languages": "En"
@@ -3308,8 +3569,14 @@
 	"Oddworld Adventures (USA, Europe)": {
 		"languages": "En"
 	},
+	"Office Combat (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Oira Jajamaru! Sekai Daibouken (Japan)": {
 		"languages": "Ja"
+	},
+	"Olympic Skier (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Olympic Summer Games (USA, Europe) (SGB Enhanced)": {
 		"languages": "En"
@@ -3318,9 +3585,6 @@
 		"languages": "Ja"
 	},
 	"Oni III - Kuro no Hakaishin (Japan)": {
-		"languages": "Ja"
-	},
-	"Oni IV (Japan) (Beta)": {
 		"languages": "Ja"
 	},
 	"Oni IV - Kijin no Ketsuzoku (Japan) (Rev 1) (Beta)": {
@@ -3494,6 +3758,9 @@
 	"Parasol Henbee (Japan)": {
 		"languages": "Ja"
 	},
+	"Parasol Islands (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Parasol Stars - Rainbow Islands II (Europe)": {
 		"languages": "En"
 	},
@@ -3521,6 +3788,12 @@
 	"Penta Dragon (Japan)": {
 		"languages": "Ja"
 	},
+	"Perfect Blend (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Perfect Blend (World) (Rev 1) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"PGA European Tour (USA, Europe) (SGB Enhanced)": {
 		"languages": "En"
 	},
@@ -3532,6 +3805,9 @@
 	},
 	"Phantom Air Mission (Europe)": {
 		"languages": "En"
+	},
+	"Phantom Fright (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Philip & Marlowe in Bloomland (USA) (Proto)": {
 		"languages": "En"
@@ -3584,8 +3860,14 @@
 	"Pitman (Japan)": {
 		"languages": "Ja"
 	},
+	"Pixel Who - The Lost Legions (World) (v1.0) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Play Action Football (USA)": {
 		"languages": "En"
+	},
+	"Pluto's Corner (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Pocahontas (USA, Europe) (SGB Enhanced)": {
 		"languages": "En"
@@ -3668,7 +3950,7 @@
 	"Pocket Monsters Kin (Japan) (Demo) (Spaceworld 1997) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
-	"Pocket Monsters Yellow (Hong Kong) (SGB Enhanced) (Unl) (Pirate)": {
+	"Pocket Monsters Yellow (Hong Kong) (SGB Enhanced) (Pirate)": {
 		"languages": "Zh"
 	},
 	"Pocket Puyo Puyo Tsuu (Japan) (Rev 1) (SGB Enhanced) (NP)": {
@@ -3686,10 +3968,13 @@
 	"Pocket Stadium (Japan)": {
 		"languages": "Ja"
 	},
+	"Pogo Pete (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Pokemon - Blaue Edition (Germany) (SGB Enhanced)": {
 		"languages": "De"
 	},
-	"Pokemon - Blue Version (Hong Kong) (SGB Enhanced) (Unl) (Pirate)": {
+	"Pokemon - Blue Version (Hong Kong) (SGB Enhanced) (Pirate)": {
 		"languages": "Zh"
 	},
 	"Pokemon - Blue Version (USA, Europe) (SGB Enhanced)": {
@@ -3707,7 +3992,7 @@
 	"Pokemon - Gelbe Edition - Special Pikachu Edition (Germany) (CGB+SGB Enhanced)": {
 		"languages": "De"
 	},
-	"Pokemon - Red Version (Hong Kong) (SGB Enhanced) (Unl) (Pirate)": {
+	"Pokemon - Red Version (Hong Kong) (SGB Enhanced) (Pirate)": {
 		"languages": "Zh"
 	},
 	"Pokemon - Red Version (USA, Europe) (SGB Enhanced)": {
@@ -3776,6 +4061,9 @@
 	"Populous Gaiden (Japan)": {
 		"languages": "Ja"
 	},
+	"Porklike (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Power Mission (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
@@ -3827,6 +4115,9 @@
 	"Prince of Persia (USA)": {
 		"languages": "En"
 	},
+	"Prince YehRude (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
 	"Pro Action Replay (Europe) (Unl)": {
 		"languages": "En"
 	},
@@ -3875,6 +4166,9 @@
 	"Purikura Pocket - Fukanzen Joshikousei Manual (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
+	"Pushingo (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Puyo Puyo (Japan) (Rev 1) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
@@ -3917,11 +4211,17 @@
 	"QIX (World)": {
 		"languages": "En"
 	},
+	"Quartet (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Quarth (Japan)": {
 		"languages": "Ja"
 	},
 	"Quarth (USA, Europe)": {
 		"languages": "En"
+	},
+	"Quest Arrest (World) (v1.1) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Quiz Nihon Mukashibanashi - Athena no Hatena (Japan)": {
 		"languages": "Ja"
@@ -4013,11 +4313,26 @@
 	"Reservoir Rat (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En, Fr, De, Es, It"
 	},
+	"Rewind Time (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Rhythm Land (World) (v1.0) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Rhythm Land (World) (v1.01) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Riddick Bowe Boxing (Europe)": {
+		"languages": "En"
+	},
+	"Riddick Bowe Boxing (USA) (Beta)": {
 		"languages": "En"
 	},
 	"Riddick Bowe Boxing (USA)": {
 		"languages": "En"
+	},
+	"Rig Attack (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Ring Rage (Japan)": {
 		"languages": "Ja"
@@ -4033,6 +4348,9 @@
 	},
 	"Roadster (Japan)": {
 		"languages": "Ja"
+	},
+	"Robby's Day Out (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Robin Hood - Prince of Thieves (Europe)": {
 		"languages": "En"
@@ -4070,8 +4388,14 @@
 	"RoboCop versus The Terminator (USA)": {
 		"languages": "En"
 	},
+	"Robot Ponkots - Sun Version - Comic Bom Bom Special Version (Japan) (SGB Enhanced)": {
+		"languages": "Ja"
+	},
 	"Rock'n! Monster!! (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
+	},
+	"Rockman 8 (Taiwan) (Unl)": {
+		"languages": "Zh"
 	},
 	"Rockman World 2 (Japan)": {
 		"languages": "Ja"
@@ -4289,6 +4613,9 @@
 	"Shisenshou - Match-Mania (Japan)": {
 		"languages": "Ja"
 	},
+	"Shootris (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Shougi (Japan)": {
 		"languages": "Ja"
 	},
@@ -4331,6 +4658,9 @@
 	"Skate or Die - Tour de Thrash (USA)": {
 		"languages": "En"
 	},
+	"Sloth Story (World) (v1.0) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Small Soldiers (USA, Europe) (SGB Enhanced)": {
 		"languages": "En"
 	},
@@ -4349,6 +4679,15 @@
 	"Smurfs, The (USA, Europe) (En,Fr,De) (Rev 1) (SGB Enhanced)": {
 		"languages": "En, Fr, De"
 	},
+	"Snail DX, The (World) (v1.0) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Snail, The (World) (v1.3) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Snakebird (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Sneaky Snakes (USA, Europe)": {
 		"languages": "En"
 	},
@@ -4360,6 +4699,9 @@
 	},
 	"Snoopy's Magic Show (USA, Europe)": {
 		"languages": "En"
+	},
+	"Snooze (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Snow Bros. Jr. (Japan)": {
 		"languages": "Ja"
@@ -4403,7 +4745,7 @@
 	"Solomon's Club (USA)": {
 		"languages": "En"
 	},
-	"Sonic 6 (Unknown) (En) (Unl) (Pirate)": {
+	"Sonic 6 (Unknown) (En) (Pirate)": {
 		"languages": "En"
 	},
 	"Soreyuke! Speedy Gonzales (Japan)": {
@@ -4437,6 +4779,9 @@
 		"languages": "En"
 	},
 	"Spanky's Quest (USA)": {
+		"languages": "En"
+	},
+	"Spanky's Quest (World) (Aftermarket)": {
 		"languages": "En"
 	},
 	"Spartan X (Japan)": {
@@ -4553,10 +4898,16 @@
 	"Star Wars (Europe)": {
 		"languages": "En"
 	},
+	"Star Wars (USA) (Beta)": {
+		"languages": "En"
+	},
 	"Star Wars (USA)": {
 		"languages": "En"
 	},
 	"Star Wars (USA, Europe) (Rev 1)": {
+		"languages": "En"
+	},
+	"Star Wars (World) (Aftermarket)": {
 		"languages": "En"
 	},
 	"Star Wars - The Empire Strikes Back (USA)": {
@@ -4565,6 +4916,12 @@
 	"Star Wars - The Empire Strikes Back (USA, Europe)": {
 		"languages": "En"
 	},
+	"Star Wars - The Empire Strikes Back (World) (Aftermarket)": {
+		"languages": "En"
+	},
+	"StarFox - Grounded (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Stargate (Japan) (En) (Possible Proto)": {
 		"languages": "En"
 	},
@@ -4572,6 +4929,9 @@
 		"languages": "En"
 	},
 	"StarHawk (Europe)": {
+		"languages": "En"
+	},
+	"StarHawk (World) (Aftermarket)": {
 		"languages": "En"
 	},
 	"Stop That Roach! (USA)": {
@@ -4599,6 +4959,9 @@
 		"languages": "Ja"
 	},
 	"Sunsoft Grand Prix (Europe)": {
+		"languages": "En"
+	},
+	"Super 69 in 1 (World) (Unl)": {
 		"languages": "En"
 	},
 	"Super Ayanami Discovery SlideShow (Japan) (Unl)": {
@@ -4652,6 +5015,12 @@
 	"Super Chinese Land (Japan)": {
 		"languages": "Ja"
 	},
+	"Super Covid Go Get Biscuits Adventure (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Super Donkey Kong 3 (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
 	"Super Donkey Kong GB (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
@@ -4673,7 +5042,7 @@
 	"Super Kick Off (Europe) (En,Fr,De,It,Nl)": {
 		"languages": "En, Fr, De, It, Nl"
 	},
-	"Super Mario 4 (Unknown) (Ja) (Unl) (Pirate)": {
+	"Super Mario 4 (Unknown) (Ja) (Pirate)": {
 		"languages": "Ja"
 	},
 	"Super Mario Land 2 - 6 Golden Coins (USA, Europe) (Rev 1)": {
@@ -4694,7 +5063,7 @@
 	"Super Mario Land 2 - 6-tsu no Kinka (Japan)": {
 		"languages": "Ja"
 	},
-	"Super Mario Land 4 (Unknown) (Ja) (Unl) (Pirate)": {
+	"Super Mario Land 4 (Unknown) (Ja) (Pirate)": {
 		"languages": "Ja"
 	},
 	"Super Mario Land (World) (Rev 1)": {
@@ -4702,6 +5071,9 @@
 	},
 	"Super Mario Land (World)": {
 		"languages": "En"
+	},
+	"Super Mario World 7 (Taiwan) (Unl)": {
+		"languages": "Zh"
 	},
 	"Super Momotarou Dentetsu (Japan)": {
 		"languages": "Ja"
@@ -4742,6 +5114,9 @@
 	"Superman (USA, Europe) (SGB Enhanced)": {
 		"languages": "En"
 	},
+	"Sushi Gun (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Sutte Hakkun (Japan) (Proto) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
@@ -4753,6 +5128,9 @@
 	},
 	"Swamp Thing (USA, Europe)": {
 		"languages": "En"
+	},
+	"SWAPLATFORMER (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Sword of Hope II, The (USA)": {
 		"languages": "En"
@@ -4782,6 +5160,9 @@
 		"languages": "En, Ja"
 	},
 	"Tail 'Gator (USA, Europe)": {
+		"languages": "En"
+	},
+	"Tail 'Gator (World) (Aftermarket)": {
 		"languages": "En"
 	},
 	"Taito Chase H.Q. (Japan)": {
@@ -4837,6 +5218,9 @@
 	},
 	"Taz-Mania (Europe)": {
 		"languages": "En"
+	},
+	"Tech and Blood (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Tecmo Bowl (USA)": {
 		"languages": "En"
@@ -4946,6 +5330,9 @@
 	"Tetris Plus (USA, Europe) (SGB Enhanced)": {
 		"languages": "En"
 	},
+	"There's Nothing To Do In This Town (World) (v1.0) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Tintin - Prisoners of the Sun (Europe) (En,Fr,De)": {
 		"languages": "En, Fr, De"
 	},
@@ -4957,6 +5344,12 @@
 	},
 	"Tintin in Tibet (Europe) (En,Fr,De,Nl) (SGB Enhanced)": {
 		"languages": "En, Fr, De, Nl"
+	},
+	"Tiny Grasshopper Goes Away (World) (v1.2) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Tiny Grasshopper Goes Away (World) (v1.4) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Tiny Toon Adventures 2 - Buster Bunny no Kattobi Daibouken (Japan)": {
 		"languages": "Ja"
@@ -4990,6 +5383,9 @@
 	},
 	"Titus the Fox (USA, Europe)": {
 		"languages": "En"
+	},
+	"Tobu Tobu Girl (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Tokio Senki - Eiyuu Retsuden (Japan)": {
 		"languages": "Ja"
@@ -5078,6 +5474,9 @@
 	"Trax (USA, Europe)": {
 		"languages": "En"
 	},
+	"Treasure Island (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Trip World (Europe)": {
 		"languages": "En"
 	},
@@ -5089,6 +5488,9 @@
 	},
 	"Triumph (USA) (Proto)": {
 		"languages": "En"
+	},
+	"Trouble City - Pocket Mission (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"True Lies (USA, Europe)": {
 		"languages": "En"
@@ -5198,6 +5600,9 @@
 	"Undercover Cops Gaiden - Hakaishin Garumaa (Japan)": {
 		"languages": "Ja"
 	},
+	"Ungrateful Son, The (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Universal Soldier (USA, Europe)": {
 		"languages": "En"
 	},
@@ -5306,6 +5711,9 @@
 	"Winter Olympic Games (USA)": {
 		"languages": "En"
 	},
+	"Wizard of Wor (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Wizardry Gaiden I - Joou no Junan (Japan)": {
 		"languages": "Ja"
 	},
@@ -5317,6 +5725,9 @@
 	},
 	"Wizards & Warriors X - The Fortress of Fear (USA, Europe)": {
 		"languages": "En"
+	},
+	"Woolball's Backyard (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Wordtris (Europe) (Proto)": {
 		"languages": "En"
@@ -5477,6 +5888,9 @@
 	"Yu-Gi-Oh! Duel Monsters (Japan) (SGB Enhanced)": {
 		"languages": "Ja"
 	},
+	"Yuuto Ichika Makes Friends (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"ZAS (Europe) (Proto)": {
 		"languages": "En"
 	},
@@ -5519,10 +5933,13 @@
 	"Zoop (Japan)": {
 		"languages": "Ja"
 	},
-	"Zoop (Unknown) (Beta)": {
+	"Zoop (USA, Europe) (Beta)": {
 		"languages": "En"
 	},
 	"Zoop (USA, Europe)": {
 		"languages": "En"
+	},
+	"Zuigao Jimi - Top Secret (Taiwan) (Unl)": {
+		"languages": "Zh"
 	}
 }

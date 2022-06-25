@@ -11,6 +11,12 @@
 	"[BIOS] Othello Multivision (Japan)": {
 		"languages": "Ja"
 	},
+	"Arno Dash (World) (v1.00) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Arno Dash (World) (v1.03) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Bank Panic (Japan)": {
 		"languages": "Ja"
 	},
@@ -148,6 +154,12 @@
 	},
 	"Championship Lode Runner (Taiwan) (Unl)": {
 		"languages": "Zh"
+	},
+	"Cheril Perils Classic (Europe) (Aftermarket) (Homebrew)": {
+		"languages": "En"
+	},
+	"Cheril Perils Classic (USA) (Aftermarket) (Homebrew)": {
+		"languages": "En"
 	},
 	"Choplifter (Japan, Australia) (Ja) (Beta)": {
 		"languages": "Ja"

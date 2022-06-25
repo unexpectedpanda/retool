@@ -1,11 +1,11 @@
 {
-    "description": {
-        "name": [
+	"description": {
+		"name": [
 			"Sony - PlayStation 2"
 		],
-        "last updated": "01 May 2022",
+		"last updated": "24 June 2022",
 		"minimum version": "0.92"
-    },
+	},
 
 	"categories": {
 		"Arc the Lad - Jeongryeongui Hwanghon - Premiere Disc (Korea)": {
@@ -74,8 +74,8 @@
 		"King of Fighters 2000-2001, The (Europe)": {}
 	},
 
-    "renames": {
-        "007 - From Russia with Love": [
+	"renames": {
+		"007 - From Russia with Love": [
 			["007 - Russia yori Ai o Komete", 1]
 		],
 		"007 - Quantum of Solace": [
@@ -85,7 +85,8 @@
 			["Tsukiyo ni Saraba", 1]
 		],
 		"1945 I & II": [
-			["Psikyo Shooting Collection Vol. 1 - Strikers 1945 I & II", 1]
+			["Psikyo Shooting Collection Vol. 1 - Strikers 1945 I & II", 1],
+			["Strikers 1945 I & II", 1]
 		],
 		"3-nen B-gumi Kinpachi Sensei - Densetsu no Kyoudan ni Tate!": [
 			["3-nen B-gumi Kinpachi Sensei - Densetsu no Kyoudan ni Tate! Kanzenban", 0]
@@ -140,8 +141,8 @@
 		"Ai yori Aoshi": [
 			["SuperLite 2000 Vol. 32 - Ai yori Aoshi", 1]
 		],
-		"Air Ranger 2 - Rescue Helicopter Plus":[
-			["Air Ranger 2 - Rescue Helicopter", 2]
+		"Air Ranger 2 - Rescue Helicopter":[
+			["Air Ranger 2 Plus - Rescue Helicopter", 0]
 		],
 		"AirForce Delta Strike": [
 			["AirForce Delta - Blue Wing Knights", 1],
@@ -253,6 +254,10 @@
 		],
 		"ATV Offroad Fury": [
 			["ATV Offroad - All Terrain Vehicle", 1]
+		],
+		"ATV Offroad Fury 4": [
+			["ATV Offroad Fury 4 (Layer 0)", 2],
+			["ATV Offroad Fury 4 (Layer 1)", 2]
 		],
 		"Bakufuu Slash! Kizuna Arashi (EyeToy Camera Doukonban)": [
 			["Bakufuu Slash! Kizuna Arashi", 2]
@@ -624,6 +629,7 @@
 			["Simple 2000 Series Vol. 11 - The Off-Road Buggy", 2]
 		],
 		"Disaster Report": [
+			["Jeolche Jeolmyeong Dosi", 1],
 			["SOS - The Final Escape", 1],
 			["Zettai Zetsumei Toshi", 1]
 		],
@@ -1200,6 +1206,9 @@
 		"Ghost in the Shell - Stand Alone Complex": [
 			["Gonggak Gidongdae - Stand Alone Complex", 1]
 		],
+		"Ghost Master - The Gravenville Chronicles": [
+			["Gravenville - Ghost Master Chronicles", 1]
+		],
 		"Gift": [
 			["Giftie", 1]
 		],
@@ -1263,6 +1272,9 @@
 		],
 		"Graffiti Kingdom": [
 			["Rakugaki Oukoku 2 - Maou-jou no Tatakai", 1]
+		],
+		"Grandia Xtreme": [
+			["Grandia Xtreme (Limited Box)", 2]
 		],
 		"Gran Turismo 4 (Doukonban)": [
 			["Gran Turismo 4", 2]
@@ -1333,6 +1345,7 @@
 			["Hanabi Hyakkei", 2]
 		],
 		"Hanjuku Hero tai 3D": [
+			["Hanjuku Hero tai 3D (Tokudaigou)", 0],
 			["Bansuk Yeongung vs. 3D", 1]
 		],
 		"Hannspree Ten Kate Honda SBK - Superbike World Championship": [
@@ -1454,6 +1467,9 @@
 		"Ice Age - Dawn of the Dinosaurs": [
 			["Era Glaciale 3, L' - L'Alba dei Dinosauri", 1],
 			["Ice Age 3 - Dawn of the Dinosaurs", 1]
+		],
+		"Ichigeki Satchuu!! Hoihoi-san": [
+			["Ilgyeok Salchung!! Hoihoi-san", 1]
 		],
 		"Idol Janshi Suchie-Pai IV (Collector's Edition)": [
 			["Idol Janshi Suchie-Pai IV", 2]
@@ -1593,9 +1609,15 @@
 		"Kindan no Pet - Seaman - Gasse Hakase no Jikken-tou (Sea-Mic Controller Original Doukonban)": [
 			["Kindan no Pet - Seaman - Gasse Hakase no Jikken-tou (Sea-Mic Controller Doukonban)", 2]
 		],
+		"King of Fighters '98, The - Ultimate Match": [
+			["NeoGeo Online Collection Vol. 10 - The King of Fighters '98 - Ultimate Match", 1]
+		],
 		"King of Fighters 2002, The - Challenge to Ultimate Battle": [
 			["King of Fighters 2002, The (SNK Best Collection)", 1],
 			["King of Fighters 2002, The", 2]
+		],
+		"King of Fighters 2002, The - Unlimited Match": [
+			["King of Fighters 2002, The - Unlimited Match - Tougeki Ver.", 0]
 		],
 		"King of Fighters 2006, The": [
 			["King of Fighters, The - Maximum Impact 2", 1],
@@ -1664,7 +1686,8 @@
 			["Sidewinder F", 1]
 		],
 		"Lethal Skies II": [
-			["Sidewinder V", 1]
+			["Sidewinder V", 1],
+			["Sidewinder V (Flight Box)", 1]
 		],
 		"Life Line": [
 			["Operator's Side", 1]
@@ -1673,7 +1696,8 @@
 			["Lilie no Atelier Plus - Salburg no Renkinjutsushi 3", 0]
 		],
 		"Linux (for PlayStation 2) Release 1.0 (Disc 1) (Runtime Environment)": [
-			["Linux for PlayStation 2 - Release 1.0 (Disc 1) (Runtime Environment)", 1]
+			["Linux for PlayStation 2 - Release 1.0 (Disc 1) (Runtime Environment)", 1],
+			["PS2 Linux Beta Release 1", 2]
 		],
 		"Linux (for PlayStation 2) Release 1.0 (Disc 2) (Software Packages)": [
 			["Linux for PlayStation 2 - Release 1.0 (Disc 2) (Software Packages)", 1]
@@ -1877,7 +1901,8 @@
 		"Metal Gear Solid 3 - Snake Eater": [
 			["Metal Gear Solid 3 - Subsistence (Disc 1) (Subsistence)", 0],
 			["Metal Gear Solid 3 - Snake Eater (Kabunushi Goyuutai-ban)", 1],
-			["Metal Gear Solid 3 - Snake Eater (Premium Package)", 2]
+			["Metal Gear Solid 3 - Snake Eater (Premium Package)", 2],
+			["Metal Gear Solid 3 - Subsistence", 3]
 		],
 		"Metal Gear Solid 3 - Subsistence (Disc 3) (Existence) (Limited Edition)": [
 			["Metal Gear Solid 3 - Subsistence (Disc 3) (Existence)", 2]
@@ -2042,6 +2067,9 @@
 		"Neo Angelique (Premium Box)": [
 			["Neo Angelique - Full Voice", 1],
 			["Neo Angelique", 2]
+		],
+		"NeoGeo Online Collection Vol. 3 - The King of Fighters - Orochi": [
+			["King of Fighters Collection, The - The Orochi Saga", 0]
 		],
 		"Network Adaptor Start-Up Disc Version 2.50": [
 			["Network Adaptor Start-Up Disc v2.0 (Rev)", 2],
@@ -2302,6 +2330,9 @@
 		"Prince of Persia - The Sands of Time": [
 			["Prince of Persia - Jikan no Suna", 1]
 		],
+		"Prince of Persia - Warrior Within": [
+			["Prince of Persia - Kenshi no Kokoro", 1]
+		],
 		"Princess Maker 4": [
 			["Princess Maker 4 (Collector's Edition)", 0]
 		],
@@ -2328,10 +2359,6 @@
 		"Psi-Ops - The Mindgate Conspiracy": [
 			["Psi-Ops - Psychic Operation", 1]
 		],
-		"Psyvariar - Complete Edition (Special Capture Box)": [
-			["Psyvariar - Complete Edition (Special Sound Box)", 2],
-			["Psyvariar - Complete Edition", 3]
-		],
 		"Puyo Pop Fever": [
 			["Puyo Puyo Fever", 1]
 		],
@@ -2353,7 +2380,8 @@
 			["Petit Copter 2", 1]
 		],
 		"Raging Blades": [
-			["Raging Bless - Gouma Mokushiroku", 1]
+			["Raging Bless - Gouma Mokushiroku", 1],
+			["Raging Bless - Hangma Muksirok", 1]
 		],
 		"Ratchet & Clank - Going Commando": [
 			["Ratchet & Clank 2", 1],
@@ -2455,6 +2483,9 @@
 		],
 		"Rogue Galaxy - Director's Cut": [
 			["Rogue Galaxy", 2]
+		],
+		"Roland Garros French Open 2002": [
+			["US Open 2002 - A USTA Event", 1]
 		],
 		"Rollercoaster World": [
 			["Simple 2000 Series Vol. 33 - The Jet Coaster - Yuuenchi o Tsukurou!", 1]
@@ -2668,6 +2699,9 @@
 		],
 		"Shonen Jump's One Piece - Pirates' Carnival" :[
 			["One Piece - Pirates Carnival (Multi Tap (SCPH-70120) Doukonban)", 1]
+		],
+		"Sidewinder Max": [
+			["Iron Eagle Max", 1]
 		],
 		"Silent Hill 2": [
 			["Silent Hill 2 - Director's Cut", 0],
@@ -2889,6 +2923,16 @@
 		"Super Bust-A-Move 2": [
 			["Super Puzzle Bobble 2", 1]
 		],
+		"SuperLite 2000 Vol. 8 - Psyvariar - Medium Unit": [
+			["Psyvariar - Complete Edition", 0],
+			["Psyvariar - Complete Edition (Special Capture Box)", 0],
+			["Psyvariar - Complete Edition (Special Sound Box)", 0]
+		],
+		"SuperLite 2000 Vol. 10 - Psyvariar - Revision": [
+			["Psyvariar - Complete Edition", 0],
+			["Psyvariar - Complete Edition (Special Capture Box)", 0],
+			["Psyvariar - Complete Edition (Special Sound Box)", 0]
+		],
 		"Surfing H3O": [
 			["Surfroid - Densetsu no Surfer", 1]
 		],
@@ -3005,7 +3049,8 @@
 			["Thrillville - Le Parc en Folie", 1],
 			["Thrillville - Verrueckte Achterbahn", 1]
 		],
-		"Thunder Strike - Operation Phoenix": [
+		"Thunderstrike - Operation Phoenix": [
+			["Thunder Strike - Operation Phoenix", 1],
 			["Thunderhawk - Operation Phoenix", 1]
 		],
 		"Tiger Woods PGA Tour 2001": [
@@ -3047,7 +3092,7 @@
 			["Tokyo Xtreme Racer", 1]
 		],
 		"Tokyo Xtreme Racer - Drift": [
-			["Kaidou Battle - Nikkou, Haruna, Rokkou, Hakone", 1]
+			["Kaidou Battle - Nikko, Haruna, Rokko, Hakone", 1]
 		],
 		"Tokyo Xtreme Racer - Drift 2": [
 			["Kaido Racer 2", 1],
@@ -3297,7 +3342,8 @@
 			["This Is Soccer 2005", 1]
 		],
 		"WRC - Rally Evolved": [
-			["WRC avec Sebastien Loeb Edition 2005", 1]
+			["WRC avec Sebastien Loeb Edition 2005", 1],
+			["WRC 5 WT", 2]
 		],
 		"WTA Tour Tennis": [
 			["Pro Tennis WTA Tour", 1]
@@ -3336,6 +3382,9 @@
 		],
 		"XIII": [
 			["XIII - Daitouryou o Koroshita Otoko", 1]
+		],
+		"Xyanide - Resurrection": [
+			["Xyanide", 1]
 		],
 		"Yakuza": [
 			["Ryuu ga Gotoku", 1]
@@ -3383,6 +3432,7 @@
 		],
 		"Zone of the Enders - The 2nd Runner": [
 			["Zone of the Enders - The 2nd Runner - Special Edition", 0],
+			["Zone of the Enders - The 2nd Runner (Special Edition)", 0],
 			["Anubis - Zone of the Enders - Special Edition", 0],
 			["Anubis - Zone of the Enders", 1]
 		],

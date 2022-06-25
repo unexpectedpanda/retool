@@ -3,7 +3,7 @@
 		"name": [
 			"Philips - CD-i"
 		],
-		"last updated": "24 April 2022",
+		"last updated": "20 June 2022",
 		"minimum version": "0.89"
 	},
 
@@ -98,6 +98,9 @@
 		],
 		"Earth Command": [
 			["Comando Tierra", 1]
+		],
+		"Earth Rhythms": [
+			["Earth Rhythms - Daichi no Hibiki", 1]
 		],
 		"Ghost (Disc 1)": [
 			["Ghost - Nachricht von Sam (Disc 1)", 1]
@@ -271,6 +274,9 @@
 		"Voyeur": [
 			["Voyeur ...Don't Get Caught", 1],
 			["Voyeur ...Lass Dich Nicht Erwischen!", 1]
+		],
+		"Wines of France": [
+			["Vins de France, Les", 1]
 		],
 		"Zelda - The Wand of Gamelon": [
 			["Zelda - De Toverstaf van Gamelon", 1],

@@ -29,6 +29,9 @@
     "3DO Multi Game Sampler Number 3, The (Europe)": {
         "languages": "En"
     },
+    "3DO de Shiru Miru Asobu - Nakajima Miyuki (Japan)": {
+        "languages": "Ja"
+    },
     "AI Shougi (Japan)": {
         "languages": "Ja"
     },
@@ -61,6 +64,9 @@
     },
     "Aqua World - Umi Monogatari (Japan)": {
         "languages": "Ja"
+    },
+    "Armageddon (Korea)": {
+        "languages": "Ko"
     },
     "AutoBahn Tokio (Japan)": {
         "languages": "En"
@@ -123,6 +129,9 @@
         "languages": "En"
     },
     "Blood Angels (Japan)": {
+        "languages": "Ja"
+    },
+    "Bodyconscious Digital Rave! Part 1 - Shinjuku & Takasaki (Japan)": {
         "languages": "Ja"
     },
     "Bonogurashi (Japan)": {
@@ -311,6 +320,9 @@
     "Decathlon (USA) (Unl)": {
         "languages": "En"
     },
+    "Defcon 5 (Europe)": {
+        "languages": "En"
+    },
     "Defcon 5 (Germany)": {
         "languages": "De"
     },
@@ -431,7 +443,13 @@
     "Escape from Monster Manor (USA)": {
         "languages": "En"
     },
+    "Eye of Typhoon, The (Korea)": {
+        "languages": "En"
+    },
     "F1GP (Japan)": {
+        "languages": "Ja"
+    },
+    "FB Battery Navi Ver. II (Japan)": {
         "languages": "Ja"
     },
     "FIFA International Soccer (Europe)": {
@@ -477,6 +495,9 @@
         "languages": "En, Fr"
     },
     "Flopon World (Japan)": {
+        "languages": "Ja"
+    },
+    "Flopon World (Japan) (Demo)": {
         "languages": "Ja"
     },
     "Flying Nightmares (Europe)": {
@@ -665,6 +686,12 @@
     "Jammit (USA)": {
         "languages": "En"
     },
+    "Jiei Shoubou Katsudou no Gakushuu - 3DO TES (3DO Training Educational System) (Japan)": {
+        "languages": "Ja"
+    },
+    "Jietai World (Japan)": {
+        "languages": "Ja"
+    },
     "Jikki Pachi-Slot Simulator Vol. 1 (Japan)": {
         "languages": "Ja"
     },
@@ -701,6 +728,9 @@
     "Killing Time (USA) (RE1)": {
         "languages": "En"
     },
+    "Killing Time (USA) (RE2)": {
+        "languages": "En"
+    },
     "Kingdom - The Far Reaches (USA, Europe)": {
         "languages": "En"
     },
@@ -708,6 +738,9 @@
         "languages": "Ja"
     },
     "Konpeki no Kantai (Japan) (Rev 1)": {
+        "languages": "Ja"
+    },
+    "Kyuumei Kyuukyuu Teate no ABC (Japan)": {
         "languages": "Ja"
     },
     "Kyuusei Senjutsu ni Yoru - Heisei Kaiun Koyomi (Japan)": {
@@ -730,6 +763,9 @@
     },
     "Life Stage, The - Virtual House (USA, Korea)": {
         "languages": "En"
+    },
+    "Little House, The (Japan)": {
+        "languages": "Ja"
     },
     "Live! 3DO Magazine CD-ROM 1 (Japan)": {
         "languages": "Ja"
@@ -842,6 +878,9 @@
     "Moon Cradle - Igyou no Hanayome (Japan)": {
         "languages": "Ja"
     },
+    "Multimedia Shinsho - Driving School - Futsuu Menkyo Gakka-hen (Japan)": {
+        "languages": "Ja"
+    },
     "Murphy da yo Zen'in Shuugou!! (Japan) (En,Ja)": {
         "languages": "En, Ja"
     },
@@ -849,6 +888,9 @@
         "languages": "De"
     },
     "Myst (Japan)": {
+        "languages": "Ja"
+    },
+    "Myst (Japan) (Rev A)": {
         "languages": "Ja"
     },
     "Myst (USA)": {
@@ -860,6 +902,9 @@
     "NFL Madden Football (Japan)": {
         "languages": "Ja"
     },
+    "Nais How's 1 - Front How's ('95.8.1 Version 1.0 R2.0) (Japan)": {
+        "languages": "Ja"
+    },
     "Naoko to Hide-bou - Kanji no Tensai 1 - Bushu-hen, Bushu no Namae ga Tanoshii Chou Kioku-hou (Japan)": {
         "languages": "Ja"
     },
@@ -869,11 +914,17 @@
     "Naoko to Hide-bou - Sansuu no Tensai 2 - Hayasa no Bunshoudai Tsuukasan Part I (Japan)": {
         "languages": "Ja"
     },
+    "National-Panasonic Collection (Japan)": {
+        "languages": "Ja"
+    },
     "Nemurenu Yoru no Chiisana Ohanashi (Japan)": {
         "languages": "Ja"
     },
     "NeuroDancer - Journey into the Neuronet! (USA)": {
         "languages": "En"
+    },
+    "New How's 1 - Front How's ('94.9.1 Version 1.0) (Japan) (Rev A)": {
+        "languages": "Ja"
     },
     "Nice Body - For Professional Use (Japan)": {
         "languages": "Ja"
@@ -927,6 +978,9 @@
         "languages": "En"
     },
     "Ogura Hyakunin Isshu (Japan)": {
+        "languages": "Ja"
+    },
+    "Oilman (Japan)": {
         "languages": "Ja"
     },
     "Olympic Games (Europe) (Demo)": {
@@ -988,6 +1042,9 @@
     },
     "Panasonic REAL 3DO Interactive Multiplayer - Demonstration CD (USA)": {
         "languages": "En"
+    },
+    "Panasonic REAL 3DO Interactive Multiplayer - Sampler CD (Japan)": {
+        "languages": "Ja"
     },
     "Panasonic REAL 3DO Interactive Multiplayer - Sampler CD (Japan) (Rev 1)": {
         "languages": "Ja"
@@ -1163,6 +1220,9 @@
     "Road & Track Presents - OverDrivin' (Japan)": {
         "languages": "Ja"
     },
+    "Road & Track Presents - OverDrivin' (Japan) (Demo)": {
+        "languages": "Ja"
+    },
     "Road & Track Presents - The Need for Speed (Korea)": {
         "languages": "En"
     },
@@ -1265,6 +1325,9 @@
     "Shock Wave (Japan) (Demo)": {
         "languages": "Ja"
     },
+    "Shock Wave (Korea)": {
+        "languages": "Ko"
+    },
     "Shock Wave (USA) (RE1)": {
         "languages": "En"
     },
@@ -1299,6 +1362,9 @@
         "languages": "En"
     },
     "Slam 'n Jam '95 (Japan, Korea)": {
+        "languages": "En"
+    },
+    "Slam 'n Jam '95 (USA) (Alt)": {
         "languages": "En"
     },
     "Slam 'n Jam '95 (USA, Europe)": {
@@ -1349,6 +1415,9 @@
     "Space Ace (USA)": {
         "languages": "En"
     },
+    "Space Ace (USA) (RE-1)": {
+        "languages": "En"
+    },
     "Space Hulk - Vengeance of the Blood Angels (Europe)": {
         "languages": "En"
     },
@@ -1391,7 +1460,7 @@
     "Starblade (Japan) (Demo)": {
         "languages": "En"
     },
-    "Starblade (USA)": {
+    "Starblade (USA, Korea)": {
         "languages": "En"
     },
     "Stellar 7 - Draxon's Revenge (Japan)": {
@@ -1413,6 +1482,9 @@
         "languages": "En"
     },
     "Super Model, The - Gail McKenna (Japan)": {
+        "languages": "Ja"
+    },
+    "Super Nova - Battery Navi (Japan)": {
         "languages": "Ja"
     },
     "Super Real Mahjong P.V (Japan)": {
@@ -1490,6 +1562,9 @@
     "Syndicate (USA)": {
         "languages": "En"
     },
+    "System Catalog - Kigyou-muke System no Goannai (Japan)": {
+        "languages": "Ja"
+    },
     "T&E VR Golf - Devil's Course (Japan)": {
         "languages": "Ja"
     },
@@ -1538,6 +1613,9 @@
     "Theme Park (Japan)": {
         "languages": "Ja"
     },
+    "Theme Park (Japan) (Demo)": {
+        "languages": "Ja"
+    },
     "Theme Park (USA)": {
         "languages": "En"
     },
@@ -1578,6 +1656,12 @@
         "languages": "Ja"
     },
     "Tower, The (Japan)": {
+        "languages": "Ja"
+    },
+    "Toyopet Outdoor World (Japan)": {
+        "languages": "Ja"
+    },
+    "Toyopet RV Paddock (Japan)": {
         "languages": "Ja"
     },
     "Tozasareta Yakata (Japan)": {
@@ -1631,6 +1715,15 @@
     "Virtual Cameraman Part 2 - Natsumi Kawai & Kimi Tachihara (Japan)": {
         "languages": "Ja"
     },
+    "Virtual Cameraman Part 3 - Yumika Sugimoto (Japan)": {
+        "languages": "Ja"
+    },
+    "Virtual Cameraman Part 4 - Shiori Fujitani (Japan)": {
+        "languages": "Ja"
+    },
+    "Virtual Cameraman Part 5 - Yuri Andou (Japan)": {
+        "languages": "Ja"
+    },
     "Virtual Horror - Norowareta Yakata (Japan) (En,Ja)": {
         "languages": "En, Ja"
     },
@@ -1639,6 +1732,9 @@
     },
     "Virtual Quest - Pharaoh no Fuuin (Japan)": {
         "languages": "Ja"
+    },
+    "Virtual Vivid (USA)": {
+        "languages": "En"
     },
     "Virtual Vivid (USA) (RE-1)": {
         "languages": "En"
@@ -1683,6 +1779,12 @@
         "languages": "En"
     },
     "Wing Commander III - Heart of the Tiger (Germany) (Disc 4)": {
+        "languages": "En"
+    },
+    "Wing Commander III - Heart of the Tiger (USA) (Disc 1)": {
+        "languages": "En"
+    },
+    "Wing Commander III - Heart of the Tiger (USA) (Disc 2)": {
         "languages": "En"
     },
     "Wing Commander III - Heart of the Tiger (USA, Europe) (Disc 1)": {

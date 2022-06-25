@@ -161,9 +161,6 @@
 	"Addams Family, The (USA, Europe)": {
 		"languages": "En"
 	},
-	"Advanced Busterhawk Gleylancer (Japan)": {
-		"languages": "Ja"
-	},
 	"Advanced Daisenryaku - Deutsch Dengeki Sakusen (Japan) (Beta) (1991-03-07)": {
 		"languages": "Ja"
 	},
@@ -326,6 +323,9 @@
 	"Alien 3 (USA, Europe)": {
 		"languages": "En"
 	},
+	"Alien Cat (World) (Demo) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
 	"Alien Soldier (Europe)": {
 		"languages": "En"
 	},
@@ -333,6 +333,9 @@
 		"languages": "Ja"
 	},
 	"Alien Soldier (USA) (Virtual Console)": {
+		"languages": "En"
+	},
+	"Alien Soldier (USA, Europe) (Switch Online)": {
 		"languages": "En"
 	},
 	"Alien Storm (World) (SEGA Classic Collection)": {
@@ -464,6 +467,9 @@
 	"Art of Fighting (USA)": {
 		"languages": "En"
 	},
+	"ASAP PLZ (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Asterix and the Great Rescue (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En, Fr, De, Es, It"
 	},
@@ -515,6 +521,9 @@
 	"ATP Tour Championship Tennis (USA)": {
 		"languages": "En"
 	},
+	"Attack of the Petscii Robots (World) (Aftermarket) (Unl)": {
+		"languages": "nolang"
+	},
 	"Australian Rugby League (Europe) (Beta)": {
 		"languages": "En"
 	},
@@ -527,7 +536,10 @@
 	"Awesome Possum Kicks Dr Machino's Butt! (USA) (Beta 1)": {
 		"languages": "En"
 	},
-	"Awesome Possum Kicks Dr Machino's Butt! (USA) (Beta 2)": {
+	"Awesome Possum Kicks Dr Machino's Butt! (USA) (Beta 2) (1993-07-12)": {
+		"languages": "En"
+	},
+	"Awesome Possum Kicks Dr Machino's Butt! (USA) (Beta 3)": {
 		"languages": "En"
 	},
 	"Awesome Possum... ...Kicks Dr. Machino's Butt (USA)": {
@@ -569,8 +581,8 @@
 	"Back to the Future Part III (USA)": {
 		"languages": "En"
 	},
-	"Bad Omen (Japan, Korea) (Ja)": {
-		"languages": "Ja"
+	"Bad Omen (Japan, Korea) (En)": {
+		"languages": "En"
 	},
 	"Bahamut Senki (Japan)": {
 		"languages": "Ja"
@@ -884,6 +896,12 @@
 	"Body Count (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En, Fr, De, Es, It"
 	},
+	"Bomb on Basic City (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Bomb on Basic City (World) (Special Edition) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Bomber (Brazil) (En) (Unl)": {
 		"languages": "En"
 	},
@@ -898,6 +916,12 @@
 	},
 	"Bonanza Bros. (USA, Europe, Korea) (En) (Rev B)": {
 		"languages": "En"
+	},
+	"Bone Marrow (World) (En,Ru) (Demo) (Aftermarket) (Unl)": {
+		"languages": "En, Ru"
+	},
+	"Bone Marrow Rebirth (World) (En,Ru) (Demo) (Aftermarket) (Unl)": {
+		"languages": "En, Ru"
 	},
 	"Bonkers (USA, Europe) (Beta) (1994-03-28)": {
 		"languages": "En"
@@ -1526,6 +1550,9 @@
 	"Curse of Illmoore Bay, The (World) (Demo 3) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
+	"Cursed Knight, The (World) (v1.0) (Demo) (Aftermarket)": {
+		"languages": "En"
+	},
 	"Cursed Knight, The (World) (v1.1) (Demo) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
@@ -1533,6 +1560,9 @@
 		"languages": "En"
 	},
 	"Cursed Knight, The (World) (v2.1) (Demo) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Cursed Knight, The (World) (v3.0) (Demo) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
 	"Custodian (World) (Aftermarket) (Unl)": {
@@ -1607,7 +1637,7 @@
 	"Darius (World) (Genesis Mini, Mega Drive Mini)": {
 		"languages": "En"
 	},
-	"Darius - Extra Edition (World) (Aftermarket) (Unl)": {
+	"Darius - Extra Version (World) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
 	"Darius II (Japan)": {
@@ -1637,8 +1667,8 @@
 	"David Crane's Amazing Tennis (USA)": {
 		"languages": "En"
 	},
-	"David Robinson Basketball (Japan) (Beta) (1992-04-15)": {
-		"languages": "Ja"
+	"David Robinson Basketball (Japan) (En) (Beta) (1992-04-15)": {
+		"languages": "En"
 	},
 	"David Robinson Basketball (Japan)": {
 		"languages": "Ja"
@@ -1680,6 +1710,9 @@
 		"languages": "En"
 	},
 	"Death Duel (USA)": {
+		"languages": "En"
+	},
+	"Debtor (World) (Demo 4) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
 	"DEcapAttack (USA, Europe, Korea) (En)": {
@@ -1901,13 +1934,19 @@
 	"Dream Team USA (Japan)": {
 		"languages": "Ja"
 	},
+	"drunk as i like - gensokyo drinking attitude (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Du Shen Zhi Meng Huan Poker (Taiwan) (Unl)": {
 		"languages": "Zh"
 	},
 	"Duke Nukem 3D (Brazil) (En)": {
 		"languages": "En"
 	},
-	"Dune - The Battle for Arrakis (Unknown) (Beta)": {
+	"Duke Nukem 3D (USA) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Dune - The Battle for Arrakis (USA) (Beta)": {
 		"languages": "En"
 	},
 	"Dune - The Battle for Arrakis (USA)": {
@@ -2141,11 +2180,11 @@
 	"Eternal Champions (Europe)": {
 		"languages": "En"
 	},
-	"Eternal Champions (Japan, Korea) (Ja) (Beta) (1993-11-17)": {
-		"languages": "Ja"
+	"Eternal Champions (Japan, Korea) (En) (Beta) (1993-11-17)": {
+		"languages": "En"
 	},
-	"Eternal Champions (Japan, Korea) (Ja)": {
-		"languages": "Ja"
+	"Eternal Champions (Japan, Korea) (En)": {
+		"languages": "En"
 	},
 	"Eternal Champions (USA)": {
 		"languages": "En"
@@ -2216,8 +2255,8 @@
 	"F1 - World Championship Edition (USA) (Proto 2)": {
 		"languages": "En"
 	},
-	"F1 Circus MD (Japan)": {
-		"languages": "Ja"
+	"F1 Circus MD (Japan) (En)": {
+		"languages": "En"
 	},
 	"F1 Circus MD (USA) (Proto) (1991-12-28) (Sega Channel)": {
 		"languages": "En"
@@ -2324,7 +2363,7 @@
 	"FIFA 98 - Road to World Cup (Europe) (En,Fr,Es,It,Sv)": {
 		"languages": "En, Fr, Es, It, Sv"
 	},
-	"FIFA 2003 (Unknown) (Es) (Unl) (Pirate)": {
+	"FIFA 2003 (Unknown) (Es) (Pirate)": {
 		"languages": "Es"
 	},
 	"FIFA International Soccer (Japan) (En,Ja)": {
@@ -2345,17 +2384,17 @@
 	"FIFA Soccer 97 (USA, Europe) (En,Fr,De,Es,It,Sv)": {
 		"languages": "En, Fr, De, Es, It, Sv"
 	},
-	"FIFA Soccer 99 (Unknown) (Unl) (Pirate)": {
+	"FIFA Soccer 99 (Unknown) (Pirate)": {
 		"languages": "En"
 	},
-	"FIFA Soccer 2000 (Russia) (En,Fr,De,Es,It,Sv) (Unl) (Pirate)": {
+	"FIFA Soccer 2000 (Russia) (En,Fr,De,Es,It,Sv) (Pirate)": {
 		"languages": "En, Fr, De, Es, It, Sv"
 	},
 	"Fight for Vengeance (World) (Demo) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
-	"Fighting Masters (Japan, Korea) (Ja)": {
-		"languages": "Ja"
+	"Fighting Masters (Japan, Korea) (En)": {
+		"languages": "En"
 	},
 	"Fighting Masters (USA)": {
 		"languages": "En"
@@ -2373,6 +2412,9 @@
 		"languages": "En"
 	},
 	"Fire Shark (USA)": {
+		"languages": "En"
+	},
+	"Fire Shark (World) (Aftermarket)": {
 		"languages": "En"
 	},
 	"Flash Point (Japan) (En) (Proto)": {
@@ -2432,6 +2474,9 @@
 	"Formula One (USA)": {
 		"languages": "En"
 	},
+	"Foxy Land (World) (Demo) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
 	"Frank Thomas Big Hurt Baseball (USA, Europe)": {
 		"languages": "En"
 	},
@@ -2462,13 +2507,13 @@
 	"Fushigi no Umi no Nadia (Japan)": {
 		"languages": "Ja"
 	},
-	"Futbol Argentino 96 (Argentina) (Unl) (Pirate)": {
+	"Futbol Argentino 96 (Argentina) (Pirate)": {
 		"languages": "Es"
 	},
-	"Futbol Argentino 98 - Pasion de Multitudes (Argentina) (Unl) (Pirate)": {
+	"Futbol Argentino 98 - Pasion de Multitudes (Argentina) (Pirate)": {
 		"languages": "Es"
 	},
-	"Futbol Argentino (Argentina) (Unl) (Pirate)": {
+	"Futbol Argentino (Argentina) (Pirate)": {
 		"languages": "Es"
 	},
 	"FX Unit Yuki - The Henshin Engine (World) (Aftermarket) (Unl)": {
@@ -2490,6 +2535,9 @@
 		"languages": "En"
 	},
 	"Gaiares (Japan, USA) (En)": {
+		"languages": "En"
+	},
+	"Gaiares (World) (Aftermarket)": {
 		"languages": "En"
 	},
 	"Gain Ground (Europe)": {
@@ -2597,6 +2645,12 @@
 	"Ghostbusters (USA, Europe)": {
 		"languages": "En"
 	},
+	"Gleylancer (Japan) (Aftermarket)": {
+		"languages": "Ja"
+	},
+	"Gleylancer (Japan)": {
+		"languages": "Ja"
+	},
 	"Global Gladiators (Europe)": {
 		"languages": "En"
 	},
@@ -2665,6 +2719,12 @@
 	},
 	"GrandSlam - The Tennis Tournament (Europe)": {
 		"languages": "En"
+	},
+	"Gravibots (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Gravibots (World) (DMA-SAFE) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Great Circus Mystery - Mickey to Minnie Magical Adventure 2 (Japan)": {
 		"languages": "Ja"
@@ -2763,6 +2823,9 @@
 		"languages": "Ja"
 	},
 	"Hellfire (USA)": {
+		"languages": "En"
+	},
+	"Hellfire (World) (Aftermarket)": {
 		"languages": "En"
 	},
 	"Hercules 2 (Taiwan) (En) (Unl)": {
@@ -3185,8 +3248,8 @@
 	"Kawasaki Superbike Challenge (USA, Europe)": {
 		"languages": "En"
 	},
-	"Kick Boxing, The (Japan, Korea) (Ja)": {
-		"languages": "Ja"
+	"Kick Boxing, The (Japan, Korea) (En)": {
+		"languages": "En"
 	},
 	"Kick Off 3 - European Challenge (Europe) (Beta)": {
 		"languages": "En"
@@ -3454,6 +3517,9 @@
 	},
 	"Little Medusa (World) (Demo) (Aftermarket) (Unl)": {
 		"languages": "En"
+	},
+	"LIZARDPAINT (World) (v0.3) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Lobo (USA) (Proto) (Alt)": {
 		"languages": "En"
@@ -3737,6 +3803,9 @@
 	"Mega Turrican (USA, Europe) (Virtual Console)": {
 		"languages": "En"
 	},
+	"Mega Turrican - Director's Cut (World) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
 	"Mega-lo-Mania (Europe) (Beta)": {
 		"languages": "En"
 	},
@@ -3916,6 +3985,9 @@
 	},
 	"Mike Ditka Power Football (USA, Europe) (Unl)": {
 		"languages": "En"
+	},
+	"mikeyeldey - the album (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Minato no Traysia (Japan)": {
 		"languages": "Ja"
@@ -5066,6 +5138,9 @@
 	"Puzzle & Action - Tanto-R (Japan)": {
 		"languages": "Ja"
 	},
+	"Puzzli (World) (v1.1) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Pyramid Magic (Japan) (Game no Kanzume Otokuyou)": {
 		"languages": "Ja"
 	},
@@ -5171,6 +5246,12 @@
 	"Red Zone (USA, Europe)": {
 		"languages": "En"
 	},
+	"Reknum (World) (Demo 1) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Reknum (World) (Demo 2) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
 	"Ren & Stimpy Show Presents, The - Stimpy's Invention (Europe) (1993-12-09) (Sega Channel)": {
 		"languages": "En"
 	},
@@ -5230,6 +5311,12 @@
 	},
 	"Richard Scarry's Busytown (USA)": {
 		"languages": "En"
+	},
+	"Rick Dangerous 2 (Unknown) (v1.1)": {
+		"languages": "nolang"
+	},
+	"Rick Dangerous (Unknown)": {
+		"languages": "nolang"
 	},
 	"Riddle Wired (Japan) (SegaNet)": {
 		"languages": "Ja"
@@ -5375,7 +5462,7 @@
 	"Romance of the Three Kingdoms III - Dragon of Destiny (USA)": {
 		"languages": "En"
 	},
-	"Ronaldinho 98 (Unknown) (Pt) (Unl) (Pirate)": {
+	"Ronaldinho 98 (Unknown) (Pt) (Pirate)": {
 		"languages": "Pt"
 	},
 	"Royal Blood (Japan)": {
@@ -5387,10 +5474,19 @@
 	"Runark (Japan, Korea) (En)": {
 		"languages": "En"
 	},
+	"Runes (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Ryuuko no Ken (Japan)": {
 		"languages": "Ja"
 	},
 	"Sacred Line Genesis (World) (1.1.9) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Sacred Line Genesis (World) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Sacred Line Zero (World) (Proto) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
 	"Sagaia (USA)": {
@@ -5494,6 +5590,9 @@
 	},
 	"Sega Channel Demo (USA) (Program)": {
 		"languages": "En"
+	},
+	"SEGA Master System Brawl (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Sega Sound Tool (USA) (v2.2) (Program)": {
 		"languages": "En"
@@ -5626,6 +5725,12 @@
 	},
 	"Shining Force II (USA)": {
 		"languages": "En"
+	},
+	"Shining Force II (USA, Europe) (Switch Online)": {
+		"languages": "En"
+	},
+	"Shining Force II - Inishie no Fuuin (Japan) (Switch Online)": {
+		"languages": "Ja"
 	},
 	"Shining Force II - Inishie no Fuuin (Japan)": {
 		"languages": "Ja"
@@ -5819,16 +5924,13 @@
 	"Sonic & Knuckles + Sonic The Hedgehog 2 (World) (Beta) (1994-05-24)": {
 		"languages": "En"
 	},
-	"Sonic & Knuckles + Sonic The Hedgehog 2 (World)": {
-		"languages": "En"
-	},
 	"Sonic & Knuckles + Sonic The Hedgehog 2 + Sonic The Hedgehog 3 (World) (Virtual Console)": {
 		"languages": "En"
 	},
 	"Sonic & Knuckles + Sonic The Hedgehog 3 (Europe)": {
 		"languages": "En"
 	},
-	"Sonic & Knuckles + Sonic The Hedgehog 3 (Japan) (En)": {
+	"Sonic & Knuckles + Sonic The Hedgehog 3 (Japan) (En) (Sonic Mega Collection)": {
 		"languages": "En"
 	},
 	"Sonic & Knuckles + Sonic The Hedgehog 3 (USA)": {
@@ -5879,9 +5981,6 @@
 	"Sonic Spinball (USA)": {
 		"languages": "En"
 	},
-	"Sonic The Hedgehog 2 (USA, Europe) (Rev A) (Virtual Console)": {
-		"languages": "En"
-	},
 	"Sonic The Hedgehog 2 (World) (Beta) (1992-08-21)": {
 		"languages": "En"
 	},
@@ -5915,6 +6014,9 @@
 	"Sonic The Hedgehog 2 (World) (Rev A) (Sonic Classic Collection)": {
 		"languages": "En"
 	},
+	"Sonic The Hedgehog 2 (World) (Rev A) (Sonic Mega Collection)": {
+		"languages": "En"
+	},
 	"Sonic The Hedgehog 2 (World) (Rev A)": {
 		"languages": "En"
 	},
@@ -5945,9 +6047,6 @@
 	"Sonic The Hedgehog 3 Limited Edition (Japan) (En) (Proto) (1994-05-17)": {
 		"languages": "En"
 	},
-	"Sonic The Hedgehog (Japan) (En) (Virtual Console)": {
-		"languages": "En"
-	},
 	"Sonic The Hedgehog (Japan, Europe, Korea) (En)": {
 		"languages": "En"
 	},
@@ -5958,6 +6057,9 @@
 		"languages": "En"
 	},
 	"Sonic The Hedgehog (USA, Europe)": {
+		"languages": "En"
+	},
+	"Sonic The Hedgehog (World) (Sonic Mega Collection)": {
 		"languages": "En"
 	},
 	"Sorcer Kingdom (Japan) (Beta) (1991-11-08)": {
@@ -6086,7 +6188,7 @@
 	"Squirrel King (Taiwan) (En) (Unl)": {
 		"languages": "En"
 	},
-	"ST II' Turbo (USA) (Proto) (Unl) (Pirate)": {
+	"ST II' Turbo (USA) (Proto) (Pirate)": {
 		"languages": "En"
 	},
 	"Star Control (USA, Europe) (Unl)": {
@@ -6158,6 +6260,9 @@
 	"Steel Talons (Japan, Korea) (Ja)": {
 		"languages": "Ja"
 	},
+	"Steel Talons (USA, Europe) (Beta) (Alt)": {
+		"languages": "En"
+	},
 	"Steel Talons (USA, Europe) (Beta)": {
 		"languages": "En"
 	},
@@ -6166,6 +6271,9 @@
 	},
 	"Stone Protectors (USA) (Proto)": {
 		"languages": "En"
+	},
+	"Stone Protectors (World) (Steam)": {
+		"languages": "nolang"
 	},
 	"Stormlord (Japan)": {
 		"languages": "Ja"
@@ -6542,6 +6650,9 @@
 	"Swamp Thing (USA) (Proto)": {
 		"languages": "En"
 	},
+	"sweetsdigger (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Switchblade (World) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
@@ -6605,22 +6716,22 @@
 	"Tanglewood (World) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
-	"Tanglewood (World) (Demo) (Aftermarket) (0.0.11) (Unl)": {
+	"Tanglewood (World) (Demo) (0.0.11) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
-	"Tanglewood (World) (Demo) (Aftermarket) (0.0.14) (Unl)": {
+	"Tanglewood (World) (Demo) (0.0.14) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
-	"Tanglewood (World) (Demo) (Aftermarket) (0.0.15) (Unl)": {
+	"Tanglewood (World) (Demo) (0.0.15) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
-	"Tanglewood (World) (Demo) (Aftermarket) (0.1.04) (Unl)": {
+	"Tanglewood (World) (Demo) (0.1.04) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
-	"Tanglewood (World) (Demo) (Aftermarket) (0.8.01) (Unl)": {
+	"Tanglewood (World) (Demo) (0.8.01) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
-	"Tanglewood (World) (Demo) (Aftermarket) (0.9.37) (Unl)": {
+	"Tanglewood (World) (Demo) (0.9.37) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
 	"Tanglewood (World) (Rev 1) (Aftermarket) (Unl)": {
@@ -6662,7 +6773,7 @@
 	"Taz-Mania (World)": {
 		"languages": "En"
 	},
-	"TC 2000 (Argentina) (Unl) (Pirate)": {
+	"TC 2000 (Argentina) (Pirate)": {
 		"languages": "Es"
 	},
 	"Team USA Basketball (USA, Europe)": {
@@ -6815,6 +6926,12 @@
 	"Thunder Fox (USA)": {
 		"languages": "En"
 	},
+	"Thunder Paw (World) (Demo 1) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
+	"Thunder Paw (World) (Demo 2) (Aftermarket) (Unl)": {
+		"languages": "En"
+	},
 	"Thunder Pro Wrestling Retsuden (Japan)": {
 		"languages": "Ja"
 	},
@@ -6965,6 +7082,9 @@
 	"Tougiou King Colossus (Japan)": {
 		"languages": "Ja"
 	},
+	"Tourmaline (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Toxic Crusaders (USA)": {
 		"languages": "En"
 	},
@@ -7008,6 +7128,9 @@
 		"languages": "Es"
 	},
 	"True Lies (World)": {
+		"languages": "En"
+	},
+	"Truxton (World) (Aftermarket)": {
 		"languages": "En"
 	},
 	"Tun Shi Tian Di 3 - San Guo Wai Chuan (Taiwan) (Unl)": {
@@ -7817,6 +7940,15 @@
 	"Xin Qi Gai Wang Zi (Taiwan) (Unl)": {
 		"languages": "Zh"
 	},
+	"Xump 2 - Back to Space (World) (v1.00) (Alternative Edition) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Xump 2 - Back to Space (World) (v1.00) (Digital Edition) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Xump 2 - Back to Space (World) (v1.00) (Physical Edition) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Ya Se Chuan Shuo (Taiwan) (Unl) (Alt)": {
 		"languages": "Zh"
 	},
@@ -7874,6 +8006,9 @@
 	"Zero Tolerance (USA, Europe) (Rev A)": {
 		"languages": "En"
 	},
+	"Zero Tolerance (World) (GOG) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Zero Wing (Europe)": {
 		"languages": "En"
 	},
@@ -7899,6 +8034,9 @@
 		"languages": "En"
 	},
 	"Zombies Ate My Neighbors (USA)": {
+		"languages": "En"
+	},
+	"Zombies Ate My Neighbors (World) (Aftermarket)": {
 		"languages": "En"
 	},
 	"Zool (Unknown) (Beta) [b]": {

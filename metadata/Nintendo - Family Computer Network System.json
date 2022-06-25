@@ -5,16 +5,49 @@
 	"[BIOS] RF5A18 CPU2 ROM (Japan)": {
 		"languages": "Ja"
 	},
-	"Cosmo no Famicom Trade (Japan) (FCN003-03)": {
+	"[MIA] Cosmo no Famicom Trade (Japan) (FCN003-03)": {
 		"languages": "Ja"
 	},
-	"Famicom ANSER (Japan) (FCN000-05)": {
+	"[MIA] Famicom ANSER (Japan) (FCN000-05)": {
 		"languages": "Ja"
 	},
-	"Heart no Benrikun Mini (Japan) (FCN014-01 A)": {
+	"[MIA] Heart no Benrikun Mini (Japan) (FCN014-01 A)": {
 		"languages": "Ja"
 	},
-	"JRA-PAT (Japan) (FCN027-03 P)": {
+	"[MIA] JRA-PAT (Japan) (FCN027-03 P)": {
+		"languages": "Ja"
+	},
+	"[MIA] Kangyou Sumimaru no Famicom Trade (Japan) (FCN007-01 A)": {
+		"languages": "Ja"
+	},
+	"[MIA] Nomura no Famicom Trade (Japan) (FCN001-01 A)": {
+		"languages": "Ja"
+	},
+	"[MIA] Nomura no Famicom Trade (Japan) (FCN001-01 B)": {
+		"languages": "Ja"
+	},
+	"[MIA] Nomura no Famicom Trade (Japan) (FCN001-05)": {
+		"languages": "Ja"
+	},
+	"[MIA] Okasan no Famicom Trade (Japan) (FCN005-01)": {
+		"languages": "Ja"
+	},
+	"[MIA] PiT - Motorboat Race (Japan) (FCN030-02)": {
+		"languages": "Ja"
+	},
+	"[MIA] PiT - Motorboat Race (Japan) (FCN030-03)": {
+		"languages": "Ja"
+	},
+	"[MIA] Shin Nihon no Famicom Home Trade (Japan) (FCN006-03)": {
+		"languages": "Ja"
+	},
+	"[MIA] Sumitomo Homeline (Japan) (FCN050-01 P)": {
+		"languages": "Ja"
+	},
+	"[MIA] Wako no Famicom Trade (Japan) (FCN004-03)": {
+		"languages": "Ja"
+	},
+	"[MIA] Yamatane no Famicom Trade (Japan) (FCN002-01)": {
 		"languages": "Ja"
 	},
 	"JRA-PAT (Japan) (FCN027-05)": {
@@ -23,43 +56,10 @@
 	"JRA-PAT (Japan) (FCN027-06)": {
 		"languages": "Ja"
 	},
-	"Kangyou Sumimaru no Famicom Trade (Japan) (FCN007-01 A)": {
-		"languages": "Ja"
-	},
-	"Nomura no Famicom Trade (Japan) (FCN001-01 A)": {
-		"languages": "Ja"
-	},
-	"Nomura no Famicom Trade (Japan) (FCN001-01 B)": {
-		"languages": "Ja"
-	},
 	"Nomura no Famicom Trade (Japan) (FCN001-03)": {
 		"languages": "Ja"
 	},
-	"Nomura no Famicom Trade (Japan) (FCN001-05)": {
-		"languages": "Ja"
-	},
-	"Okasan no Famicom Trade (Japan) (FCN005-01)": {
-		"languages": "Ja"
-	},
-	"PiT - Motorboat Race (Japan) (FCN030-02)": {
-		"languages": "Ja"
-	},
-	"PiT - Motorboat Race (Japan) (FCN030-03)": {
-		"languages": "Ja"
-	},
-	"Shin Nihon no Famicom Home Trade (Japan) (FCN006-03)": {
-		"languages": "Ja"
-	},
-	"Sumitomo Homeline (Japan) (FCN050-01 P)": {
-		"languages": "Ja"
-	},
 	"Super Mario Club (Japan) (FCN000-09 P)": {
-		"languages": "Ja"
-	},
-	"Wako no Famicom Trade (Japan) (FCN004-03)": {
-		"languages": "Ja"
-	},
-	"Yamatane no Famicom Trade (Japan) (FCN002-01)": {
 		"languages": "Ja"
 	}
 }

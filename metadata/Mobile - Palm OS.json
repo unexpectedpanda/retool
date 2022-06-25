@@ -1,11 +1,71 @@
 {
+	"16 MB Expansion Card (USA)": {
+		"languages": "nolang"
+	},
+	"Atari Retro (USA)": {
+		"languages": "En"
+	},
+	"Madden NFL 06 (USA)": {
+		"languages": "En"
+	},
+	"Madden NFL 2005 (USA)": {
+		"languages": "En"
+	},
+	"Merriam-Webster - Crosswords & Word Challenges (USA)": {
+		"languages": "En"
+	},
+	"Midway Arcade Classics (USA)": {
+		"languages": "En"
+	},
 	"Monopoly + Scrabble + Battleship + Yahtzee (USA)": {
+		"languages": "En"
+	},
+	"Palm Tungsten E and Tungsten T3 Demo (USA) (Kiosk)": {
+		"languages": "En"
+	},
+	"PalmPak Game Card - Rayman (USA)": {
+		"languages": "En"
+	},
+	"PalmPak Game Essentials (USA)": {
+		"languages": "En"
+	},
+	"PalmPak Games Card (USA)": {
+		"languages": "En"
+	},
+	"PalmPak Games Card - PopCap (USA) (En,Fr,De,Es,It,Pt)": {
+		"languages": "En, Fr, De, Es, It, Pt"
+	},
+	"PalmPak Productivity Card (USA)": {
+		"languages": "En"
+	},
+	"Pocket Express Entertainment Pack (USA)": {
+		"languages": "En"
+	},
+	"Pocket Express PocketChess Deluxe 2.5 - Special Edition (USA)": {
+		"languages": "En"
+	},
+	"Scrabble (USA)": {
+		"languages": "En"
+	},
+	"Scrabble + Monopoly (USA)": {
 		"languages": "En"
 	},
 	"SEGA Classics (USA)": {
 		"languages": "En"
 	},
 	"Tetris Classic Game Pak (USA)": {
+		"languages": "En"
+	},
+	"Tiger Woods PGA Tour Golf (USA) (Beta)": {
+		"languages": "En"
+	},
+	"Tiger Woods PGA Tour Golf (USA) (v1.1)": {
+		"languages": "En"
+	},
+	"Tiger Woods PGA Tour Golf (USA)": {
+		"languages": "En"
+	},
+	"V-Rally - Championship Edition (USA)": {
 		"languages": "En"
 	}
 }

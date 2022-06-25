@@ -26,7 +26,7 @@
 	"32 in 1 Game Cartridge (Europe)": {
 		"languages": "En"
 	},
-	"Abre-te, Sesamo! (Brazil) (Unl)": {
+	"Abre-te, Sesamo! (Brazil) (En) (Unl)": {
 		"languages": "En"
 	},
 	"Acid Drop (Europe)": {
@@ -68,10 +68,10 @@
 	"Air-Sea Battle (Europe)": {
 		"languages": "En"
 	},
-	"Air-Sea Battle ~ Target Fun (Japan, USA) (Atari Anthology)": {
+	"Air-Sea Battle ~ Target Fun (Japan, USA) (En) (Atari Anthology)": {
 		"languages": "En"
 	},
-	"Air-Sea Battle ~ Target Fun (Japan, USA)": {
+	"Air-Sea Battle ~ Target Fun (Japan, USA) (En)": {
 		"languages": "En"
 	},
 	"Airlock (Europe)": {
@@ -83,7 +83,7 @@
 	"Airlock (USA)": {
 		"languages": "En"
 	},
-	"Alien (Brazil) (Unl)": {
+	"Alien (Brazil) (En) (Unl)": {
 		"languages": "En"
 	},
 	"Alien (USA)": {
@@ -98,13 +98,13 @@
 	"Alpha Beam (Europe) (Beta) (1983-06-03)": {
 		"languages": "En"
 	},
-	"Alpha Beam (Japan, USA) (Beta) (1982-12-22)": {
+	"Alpha Beam (Japan, USA) (En) (Beta) (1982-12-22)": {
 		"languages": "En"
 	},
 	"Alpha Beam with Ernie (Europe)": {
 		"languages": "En"
 	},
-	"Alpha Beam with Ernie (Japan, USA)": {
+	"Alpha Beam with Ernie (Japan, USA) (En)": {
 		"languages": "En"
 	},
 	"Amidar (Europe)": {
@@ -116,10 +116,13 @@
 	"AndroMan on the Moon (USA) (Proto)": {
 		"languages": "En"
 	},
-	"Apples and Dolls (Brazil) (Unl)": {
+	"Anguna 2600 (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Apples and Dolls (Brazil) (En) (Unl)": {
 		"languages": "En"
 	},
-	"Aquaventure (Brazil) (Proto) (Unl)": {
+	"Aquaventure (Brazil) (En) (Proto) (Unl)": {
 		"languages": "En"
 	},
 	"Aquaventure (USA) (Proto) (1983-08-12)": {
@@ -143,7 +146,7 @@
 	"Asteroids (Europe)": {
 		"languages": "En"
 	},
-	"Asteroids (Japan, USA)": {
+	"Asteroids (Japan, USA) (En)": {
 		"languages": "En"
 	},
 	"Asteroids (USA) (Atari Anthology)": {
@@ -158,7 +161,7 @@
 	"Astroblast (USA)": {
 		"languages": "En"
 	},
-	"Astrowar (Brazil) (Unl)": {
+	"Astrowar (Brazil) (En) (Unl)": {
 		"languages": "En"
 	},
 	"Atari Video Cube (USA)": {
@@ -197,7 +200,7 @@
 	"Bank Heist (USA)": {
 		"languages": "En"
 	},
-	"Barnstorming (Brazil) (Unl)": {
+	"Barnstorming (Brazil) (En) (Unl)": {
 		"languages": "En"
 	},
 	"Barnstorming (Europe)": {
@@ -207,6 +210,9 @@
 		"languages": "En"
 	},
 	"Base Attack (Europe)": {
+		"languages": "En"
+	},
+	"Baseball (USA) (Activision Anthology - Remix Edition)": {
 		"languages": "En"
 	},
 	"Basic Math (Europe)": {
@@ -230,13 +236,13 @@
 	"Battlezone (Europe)": {
 		"languages": "En"
 	},
-	"Battlezone (Japan, USA) (Beta) (1983-05-02)": {
+	"Battlezone (Japan, USA) (En) (Beta) (1983-05-02)": {
 		"languages": "En"
 	},
-	"Battlezone (Japan, USA) (Beta) (1983-05-12)": {
+	"Battlezone (Japan, USA) (En) (Beta) (1983-05-12)": {
 		"languages": "En"
 	},
-	"Battlezone (Japan, USA)": {
+	"Battlezone (Japan, USA) (En)": {
 		"languages": "En"
 	},
 	"Beamrider (Europe)": {
@@ -245,13 +251,13 @@
 	"Beamrider (USA)": {
 		"languages": "En"
 	},
-	"Beany Bopper (Brazil) (Unl)": {
+	"Beany Bopper (Brazil) (En) (Unl)": {
 		"languages": "En"
 	},
 	"Beany Bopper (USA)": {
 		"languages": "En"
 	},
-	"Beat'Em & Eat'Em (Brazil) (Unl)": {
+	"Beat'Em & Eat'Em (Brazil) (En) (Unl)": {
 		"languages": "En"
 	},
 	"Beat'Em & Eat'Em (Europe)": {
@@ -269,37 +275,46 @@
 	"Bermuda Triangle (USA)": {
 		"languages": "En"
 	},
-	"Berzerk (Brazil) (Unl)": {
+	"Berzerk (Brazil) (En) (Unl)": {
 		"languages": "En"
 	},
 	"Berzerk (Europe)": {
 		"languages": "En"
 	},
-	"Berzerk (Japan, USA)": {
+	"Berzerk (Japan, USA) (En)": {
 		"languages": "En"
 	},
 	"Big Bird's Egg Catch (Europe)": {
 		"languages": "En"
 	},
-	"Big Bird's Egg Catch (Japan, USA) (Beta) (1982-12-08)": {
+	"Big Bird's Egg Catch (Japan, USA) (En) (Beta) (1982-12-08)": {
 		"languages": "En"
 	},
-	"Big Bird's Egg Catch (Japan, USA) (Beta) (1983-05-02)": {
+	"Big Bird's Egg Catch (Japan, USA) (En) (Beta) (1983-05-02)": {
 		"languages": "En"
 	},
-	"Big Bird's Egg Catch (Japan, USA) (Beta) (1983-05-17)": {
+	"Big Bird's Egg Catch (Japan, USA) (En) (Beta) (1983-05-17)": {
 		"languages": "En"
 	},
-	"Big Bird's Egg Catch (Japan, USA)": {
+	"Big Bird's Egg Catch (Japan, USA) (En)": {
 		"languages": "En"
 	},
 	"Bionic Breakthrough (USA) (Proto)": {
+		"languages": "En"
+	},
+	"Birthday Mania (USA) (Cartridge)": {
+		"languages": "En"
+	},
+	"Birthday Mania (USA) (Robert A. Tokar)": {
 		"languages": "En"
 	},
 	"Black Jack (Europe)": {
 		"languages": "En"
 	},
 	"Black Jack (USA)": {
+		"languages": "En"
+	},
+	"Bloody Human Freeway (USA) (Proto)": {
 		"languages": "En"
 	},
 	"Blueprint (Europe)": {
@@ -320,10 +335,10 @@
 	"BMX Air Master (USA)": {
 		"languages": "En"
 	},
-	"Bobby Is Going Home (Brazil) (NTSC) (Unl)": {
+	"Bobby Is Going Home (Brazil) (En) (NTSC) (Unl)": {
 		"languages": "En"
 	},
-	"Bobby Is Going Home (Brazil) (PAL) (Unl)": {
+	"Bobby Is Going Home (Brazil) (En) (PAL) (Unl)": {
 		"languages": "En"
 	},
 	"Bobby Is Going Home (Europe) (Beta)": {
@@ -356,7 +371,7 @@
 	"Boxen (Germany) (En)": {
 		"languages": "En"
 	},
-	"Boxing (Brazil) (Unl)": {
+	"Boxing (Brazil) (En) (Unl)": {
 		"languages": "En"
 	},
 	"Boxing (Europe)": {
@@ -374,7 +389,7 @@
 	"Breakout (Europe)": {
 		"languages": "En"
 	},
-	"Breakout ~ Breakaway IV (Japan, USA)": {
+	"Breakout ~ Breakaway IV (Japan, USA) (En)": {
 		"languages": "En"
 	},
 	"Bridge (Europe)": {
@@ -470,7 +485,7 @@
 	"Centipede (Europe)": {
 		"languages": "En"
 	},
-	"Centipede (Japan, USA)": {
+	"Centipede (Japan, USA) (En)": {
 		"languages": "En"
 	},
 	"Challenge (Canada)": {
@@ -512,7 +527,7 @@
 	"Circus Atari (Europe)": {
 		"languages": "En"
 	},
-	"Circus Atari (Japan, USA)": {
+	"Circus Atari (Japan, USA) (En)": {
 		"languages": "En"
 	},
 	"Coco Nuts (USA)": {
@@ -992,6 +1007,18 @@
 	"International Soccer (USA)": {
 		"languages": "En"
 	},
+	"INV+ (World) (2004-04-08) (Beta) (Aftermarket)": {
+		"languages": "En"
+	},
+	"INV+ (World) (2004-04-29) (Beta) (Aftermarket)": {
+		"languages": "En"
+	},
+	"INV+ (World) (Aftermarket)": {
+		"languages": "En"
+	},
+	"INV+ (World) (Cartridge) (Aftermarket)": {
+		"languages": "En"
+	},
 	"IQ 180 (USA)": {
 		"languages": "En"
 	},
@@ -1433,7 +1460,7 @@
 	"Private Eye (USA)": {
 		"languages": "En"
 	},
-	"Pursuit of the Pink Panther (USA) (Proto)": {
+	"Pursuit of the Pink Panther (USA) (Proto) [b]": {
 		"languages": "En"
 	},
 	"Pygmy (Europe)": {
@@ -1541,6 +1568,9 @@
 	"Robin Hood (USA)": {
 		"languages": "En"
 	},
+	"Robo-Ninja Climb (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Robot Tank (USA)": {
 		"languages": "En"
 	},
@@ -1629,6 +1659,9 @@
 		"languages": "En"
 	},
 	"Six Pack (USA) (Proto)": {
+		"languages": "En"
+	},
+	"Skate Boardin' (USA) (Activision Anthology - Remix Edition)": {
 		"languages": "En"
 	},
 	"Skate Boardin' (USA)": {
@@ -1988,10 +2021,16 @@
 	"Time Warp (USA)": {
 		"languages": "En"
 	},
+	"Title Match Pro Wrestling (USA) (Activision Anthology - Remix Edition)": {
+		"languages": "En"
+	},
 	"Title Match Pro Wrestling (USA)": {
 		"languages": "En"
 	},
 	"Tomarc the Barbarian (USA)": {
+		"languages": "En"
+	},
+	"Tomcat - The F-14 Fighter Simulator (Europe) (Activision Anthology - Remix Edition) (PAL)": {
 		"languages": "En"
 	},
 	"Tomcat - The F-14 Fighter Simulator (USA)": {
@@ -2132,10 +2171,10 @@
 	"Xenophobe (USA)": {
 		"languages": "En"
 	},
-	"Xevious (USA) (1983-08-02) (Proto)": {
+	"Xevious (USA) (Proto) (1983-08-02)": {
 		"languages": "En"
 	},
-	"Xevious (USA) (1984-01-18) (Proto)": {
+	"Xevious (USA) (Proto) (1984-01-18)": {
 		"languages": "En"
 	},
 	"Yars' Revenge (USA)": {

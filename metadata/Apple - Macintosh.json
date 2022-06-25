@@ -467,6 +467,9 @@
     "Alone in the Dark 3 (Japan)": {
         "languages": ""
     },
+    "America's Greatest Solitaire Games - All Time 37 Favorites (USA)": {
+        "languages": "En"
+    },
     "Ankh - Pyramid no Nazo (Japan)": {
         "languages": "Ja"
     },
@@ -726,10 +729,10 @@
         "languages": ""
     },
     "CD-ROM MacLife No. 160 (Japan)": {
-        "languages": ""
+        "languages": "Ja"
     },
     "CD-ROM MacLife No. 161 (Japan)": {
-        "languages": ""
+        "languages": "Ja"
     },
     "CD-ROM MacLife No. 17 (Japan)": {
         "languages": ""
@@ -971,6 +974,9 @@
     "Dig, The (UK)": {
         "languages": "En"
     },
+    "Dink - Interactive Nanpa Special (Japan)": {
+        "languages": "Ja"
+    },
     "Dinosaur Adventure (USA)": {
         "languages": "En"
     },
@@ -979,6 +985,9 @@
     },
     "Disney-Pixar Toy Story 2 (USA)": {
         "languages": "En"
+    },
+    "Doki Doki On Air Drama Series vol. 3 - Chougoushin Zanguard (Japan)": {
+        "languages": "Ja"
     },
     "Doom 3 (USA)": {
         "languages": "En"
@@ -1019,6 +1028,9 @@
     "Eberouge (Japan)": {
         "languages": ""
     },
+    "Eberouge (Japan) (Alt)": {
+        "languages": "Ja"
+    },
     "Educorp CD Sampler, The (USA)": {
         "languages": "En"
     },
@@ -1028,8 +1040,26 @@
     "Elemental Force (Japan)": {
         "languages": "Ja"
     },
+    "Emit Value Pack (Japan) (Disc 2) (Vol. 2 - Inochigake no Tabi)": {
+        "languages": "Ja"
+    },
+    "Emit Value Pack (Japan) (Disc 3) (Vol. 3 - Watashi ni Sayonara wo)": {
+        "languages": "Ja"
+    },
+    "Emit Vol. 1 - Toki no Maigo (Japan) (En,Ja)": {
+        "languages": "En, Ja"
+    },
     "Enemy Engaged - RAH-66 Comanche Versus KA-52 Hokum (Europe) (En,Fr,De,It)": {
         "languages": "En, Fr, De, It"
+    },
+    "Enemy Territory - Quake Wars (USA)": {
+        "languages": ""
+    },
+    "Escape from Monkey Island (UK) (Disc 1)": {
+        "languages": ""
+    },
+    "Escape from Monkey Island (UK) (Disc 2)": {
+        "languages": ""
     },
     "EvE Online (USA)": {
         "languages": ""
@@ -1163,6 +1193,9 @@
     "Hexen II (USA)": {
         "languages": "En"
     },
+    "Highschool Terra Story (Japan)": {
+        "languages": "Ja"
+    },
     "I Have No Mouth, and I Must Scream (USA) (En,Fr,De,Es)": {
         "languages": "En, Fr, De, Es"
     },
@@ -1195,6 +1228,9 @@
     },
     "International Tennis Open (Europe) (En,Fr)": {
         "languages": "En, Fr"
+    },
+    "Iron Helix (Japan)": {
+        "languages": "Ja"
     },
     "Ishido - The Way of Stones (USA)": {
         "languages": "En"
@@ -1267,6 +1303,9 @@
     },
     "Lara Croft Tomb Raider - The Angel of Darkness (USA) (Disc 2)": {
         "languages": ""
+    },
+    "Last War (Japan)": {
+        "languages": "Ja"
     },
     "Learn to Play Chess with Fritz & Chesster 2 - Chess in the Black Castle (USA)": {
         "languages": "En"
@@ -1364,6 +1403,51 @@
     "Mac Power 1998-03 (Japan)": {
         "languages": ""
     },
+    "MacAddict - The Disc 08 - April 1997 (USA)": {
+        "languages": ""
+    },
+    "MacAddict - The Disc 09 - May 1997 (USA)": {
+        "languages": ""
+    },
+    "MacAddict - The Disc 10 - June 1997 (USA)": {
+        "languages": ""
+    },
+    "MacAddict - The Disc 11 - July 1997 (USA)": {
+        "languages": ""
+    },
+    "MacAddict - The Disc 13 - September 1997 (USA)": {
+        "languages": ""
+    },
+    "MacAddict - The Disc 14 - October 1997 (USA)": {
+        "languages": ""
+    },
+    "MacAddict - The Disc 15 - November 1997 (USA)": {
+        "languages": ""
+    },
+    "MacAddict - The Disc 16 - December 1997 (USA)": {
+        "languages": ""
+    },
+    "MacAddict - The Disc 17 - January 1998 (USA)": {
+        "languages": ""
+    },
+    "MacAddict - The Disc 18 - February 1998 (USA)": {
+        "languages": ""
+    },
+    "MacAddict - The Disc 19 - March 1998 (USA)": {
+        "languages": ""
+    },
+    "MacAddict - The Disc 21 - May 1998 (USA)": {
+        "languages": ""
+    },
+    "MacAddict - The Disc 22 - June 1998 (USA)": {
+        "languages": ""
+    },
+    "MacAddict - The Disc 23 - July 1998 (USA)": {
+        "languages": ""
+    },
+    "MacAddict - The Disc 24 - August 1998 (USA)": {
+        "languages": ""
+    },
     "MacAddict - The Disc 48 - August 2000 (USA)": {
         "languages": ""
     },
@@ -1377,19 +1461,19 @@
         "languages": ""
     },
     "MacAddict - The Disc 79 - March 2003 (USA)": {
-        "languages": "En"
+        "languages": ""
     },
     "MacAddict - The Disc 80 - April 2003 (USA)": {
-        "languages": "En"
+        "languages": ""
     },
     "MacAddict - The Disc 81 - May 2003 (USA)": {
-        "languages": "En"
+        "languages": ""
     },
     "MacAddict - The Disc 84 - August 2003 (USA)": {
-        "languages": "En"
+        "languages": ""
     },
     "MacAddict - The Disc 85 - September 2003 (USA)": {
-        "languages": "En"
+        "languages": ""
     },
     "MacAttack (Europe)": {
         "languages": "En"
@@ -1751,6 +1835,9 @@
     "Myst - Masterpiece Edition (Germany) (Rerelease)": {
         "languages": "De"
     },
+    "Myst Language Conversion Kit (Europe)": {
+        "languages": ""
+    },
     "NFL Reading (USA)": {
         "languages": "En"
     },
@@ -1979,6 +2066,24 @@
     "Quantum Gate I - Akumu no Joshou (Japan)": {
         "languages": ""
     },
+    "Racing Days (Japan)": {
+        "languages": ""
+    },
+    "Racing Days (Japan) (v1.1)": {
+        "languages": ""
+    },
+    "Racing Days - Shashu Data Disc Vol. 1 - Integra Type-R (Japan)": {
+        "languages": ""
+    },
+    "Racing Days - Shashu-Circuit Kakuchou Disc - Opel Version (Japan)": {
+        "languages": ""
+    },
+    "Racing Days - Shashu-Circuit Kakuchou Disc - Supra Version (Japan)": {
+        "languages": ""
+    },
+    "Racing Days - Special Bonus CD-ROM (Japan)": {
+        "languages": ""
+    },
     "Racing Days R (Europe) (En,Fr,De)": {
         "languages": "En, Fr, De"
     },
@@ -2090,6 +2195,9 @@
     "Settlers II, The - Veni, Vidi, Vici (USA)": {
         "languages": "En"
     },
+    "Sexy PK - World Cup-ban (Japan)": {
+        "languages": "Ja"
+    },
     "Shadow Warrior (USA, Europe)": {
         "languages": "En"
     },
@@ -2119,6 +2227,9 @@
     },
     "Sid Meier's Civilization IV - Beyond the Sword (USA) (En,Fr,De)": {
         "languages": "En, Fr, De"
+    },
+    "Sid Meier's Colonization (Japan)": {
+        "languages": ""
     },
     "Silly Noisy House, A (USA)": {
         "languages": "En"
@@ -2383,6 +2494,9 @@
     },
     "Terry Pratchett's Discworld (UK)": {
         "languages": "En"
+    },
+    "The Nanpa - Tokyo Tadaman Monogatari (Japan)": {
+        "languages": "Ja"
     },
     "Theme Park (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"

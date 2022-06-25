@@ -218,6 +218,9 @@
     "Advance Game Port (USA, Europe) (Unl) (Rev 2)": {
         "languages": "En"
     },
+    "Aggressive Inline (Europe) (Beta)": {
+        "languages": "En"
+    },
     "Aggressive Inline (Europe) (En,Fr,De,Es)": {
         "languages": "En, Fr, De, Es"
     },
@@ -1223,9 +1226,6 @@
     "Disney-Pixar Finding Nemo (Japan)": {
         "languages": "Ja"
     },
-    "Disney-Pixar Finding Nemo (Korea)": {
-        "languages": "Ko"
-    },
     "Disney-Pixar Finding Nemo (USA)": {
         "languages": "En"
     },
@@ -1249,6 +1249,9 @@
     },
     "Disney-Pixar Mr. Incredible - Kyouteki Underminer Toujou (Japan)": {
         "languages": "Ja"
+    },
+    "Disney-Pixar Nemo-reul Chajaseo (Korea)": {
+        "languages": "Ko"
     },
     "Disney-Pixar Ratatouille (France)": {
         "languages": "Fr"
@@ -1940,6 +1943,9 @@
     "Gekkan Nintendo Tentou Demo 2003.8.1 (Japan) (Disc B)": {
         "languages": "Ja"
     },
+    "Gekkan Nintendo Tentou Demo 2003.9.1 (Japan)": {
+        "languages": "Ja"
+    },
     "Gekkan Nintendo Tentou Demo 2004-2005 Nenmatsunenshi-gou (Japan)": {
         "languages": ""
     },
@@ -1991,7 +1997,19 @@
     "Gekkan Nintendo Tentou Demo 2005.2.1 (Japan)": {
         "languages": "Ja"
     },
+    "Gekkan Nintendo Tentou Demo 2005.3.1 (Japan)": {
+        "languages": "Ja"
+    },
+    "Gekkan Nintendo Tentou Demo 2005.4.1 (Japan)": {
+        "languages": "Ja"
+    },
     "Gekkan Nintendo Tentou Demo 2005.5.1 (Japan)": {
+        "languages": "Ja"
+    },
+    "Gekkan Nintendo Tentou Demo 2005.6.1 (Japan)": {
+        "languages": "Ja"
+    },
+    "Gekkan Nintendo Tentou Demo 2005.8.1 (Japan)": {
         "languages": "Ja"
     },
     "Gekkan Nintendo Tentou Demo 2005.9.1 (Japan)": {
@@ -2984,6 +3002,9 @@
     "Mario Kart - Double Dash!! (USA) (Bonus Disc)": {
         "languages": "En"
     },
+    "Mario Kart - Double Dash!! (USA) (Debug)": {
+        "languages": "En"
+    },
     "Mario Party 4 (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
@@ -3296,7 +3317,7 @@
     "Momotarou Dentetsu 11 - Black Bombee Shutsugen! no Maki (Japan)": {
         "languages": "Ja"
     },
-    "Momotarou Dentetsu 12 - Nishi Nihon Hen mo Arimasse! (Japan)": {
+    "Momotarou Dentetsu 12 - Nishi Nihon-hen mo Arimasse! (Japan)": {
         "languages": "Ja"
     },
     "Monde de Narnia, Le - Chapitre 1 - Le Lion, la Sorciere Blanche et l'Armoire Magique (France)": {

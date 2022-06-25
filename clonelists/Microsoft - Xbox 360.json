@@ -3,7 +3,7 @@
 		"name": [
 			"Microsoft - Xbox 360"
 		],
-		"last updated": "24 April 2022",
+		"last updated": "20 June 2022",
 		"minimum version": "0.92"
 	},
 
@@ -92,6 +92,7 @@
 		],
 		"Call of Duty - Advanced Warfare (Game Disc)": [
 			["Call of Duty - Advanced Warfare (Disc di Gioco)", 1],
+			["Call of Duty - Advanced Warfare (Disc de Juego)", 1],
 			["Call of Duty - Advanced Warfare (Spieldisc)", 1]
 		],
 		"Call of Duty - Black Ops": [
@@ -103,6 +104,7 @@
 		],
 		"Call of Duty - Ghosts (Disc 1) (Game Disc)": [
 			["Call of Duty - Ghosts (Disc 1) (Disc do Jogo)", 1],
+			["Call of Duty - Ghosts (Disc 1) (Disc de Juego)", 1],
 			["Call of Duty - Ghosts (Disc 1) (Disc di Gioco)", 1],
 			["Call of Duty - Ghosts (Disc 1) (Game Disc) (Fukikaeban)", 1],
 			["Call of Duty - Ghosts (Disc 1) (Igrovoj)", 1],
@@ -131,6 +133,9 @@
 		"Dance Masters": [
 			["Dance Evolution", 1]
 		],
+		"Dante's Inferno": [
+			["Dante's Inferno - Shinkyoku Jigoku-hen", 1]
+		],
 		"Dark Souls": [
 			["Dark Souls - Prepare to Die Edition", 0]
 		],
@@ -158,6 +163,10 @@
 		],
 		"Disney-Pixar Up": [
 			["Disney-Pixar Oben", 1]
+		],
+		"Disney-Pixar WALL-E": [
+			["Disney-Pixar WALL-E - Batallon de Limpieza", 1],
+			["Disney-Pixar WALL-E - Der Letzte raeumt die Erde auf", 1]
 		],
 		"Divinity II - Ego Draconis": [
 			["Divinity II - The Dragon Knight Saga", 0]
@@ -198,6 +207,9 @@
 		],
 		"Earth Defense Force 2025": [
 			["Chikyuu Boueigun 4", 1]
+		],
+		"Eat Lead - The Return of Matt Hazard": [
+			["Eat Lead - Matt Hazard no Gyakushuu", 1]
 		],
 		"Elder Scrolls IV, The - Oblivion": [
 			["Elder Scrolls IV, The - Oblivion - Game of the Year Edition (Disc 1)", 0],
@@ -296,7 +308,8 @@
 			["Pate II, Der", 1]
 		],
 		"Halo 3 - ODST (Disc 1) (Campaign)": [
-			["Halo 3 - ODST (Disc 1) (Campanha)", 1]
+			["Halo 3 - ODST (Disc 1) (Campanha)", 1],
+			["Halo 3 - ODST (Campaign)", 1]
 		],
 		"Hard Drive Transfer Disc": [
 			["Xbox 360 Hard Disk Data Transfer Disc", 1]
@@ -320,7 +333,7 @@
 			["Just Cause - Viva Revolution", 1]
 		],
 		"Kengo - Legend of the 9": [
-			["Kengo Zero", 1]
+			["Kengou Zero", 1]
 		],
 		"Kinectimals": [
 			["Kinectimals - Now with Bears!", 0]
@@ -407,6 +420,9 @@
 		"Onechanbara - Bikini Samurai Squad": [
 			["Oneechanbara VorteX - Imichi o Tsugu Mono-tachi", 1]
 		],
+		"Otomedius Excellent": [
+			["Otomedius Excellent!", 1]
+		],
 		"Over G Fighters": [
 			["Over G - Energy Airforce", 1]
 		],
@@ -467,12 +483,14 @@
 		],
 		"Scene It Bright Lights! Big Screen!": [
 			["Scene It Ciak! Si Gira!", 1],
+			["Scene It Estrellas en la Pantalla Gigante", 1],
 			["Scene It Ganz grosses Kino!", 1]
 		],
 		"Scene It Lights, Camera, Action": [
 			["Scene It Lights, Camera, Action!", 1]
 		],
 		"Scene It Box Office Smash!": [
+			["Scene It Grandes Exitos de Taquilla", 1],
 			["Scene It Kinohits", 1]
 		],
 		"Serious Sam HD": [

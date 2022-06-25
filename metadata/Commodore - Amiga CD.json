@@ -8,6 +8,15 @@
     "17 Bit - The Fifth Dimension (Europe)": {
         "languages": "En"
     },
+    "A-News Numero 1 (France)": {
+        "languages": ""
+    },
+    "A-News Numero 2 (France)": {
+        "languages": ""
+    },
+    "A-News Numero 3 (France)": {
+        "languages": ""
+    },
     "Amiga CD! Magazine No. 3 (Europe)": {
         "languages": "En"
     },
@@ -683,6 +692,9 @@
     "Amiga Plus Sonderheft 24 (Germany)": {
         "languages": "De"
     },
+    "Amiga Plus Sonderheft 25 (Germany)": {
+        "languages": ""
+    },
     "Amiga Plus Sonderheft 26 (Germany)": {
         "languages": "De"
     },
@@ -708,6 +720,9 @@
         "languages": "De"
     },
     "Amiga Special Spiele Hits 1-98 (Germany)": {
+        "languages": "De"
+    },
+    "Amiga Times (Germany)": {
         "languages": "De"
     },
     "Amiga Vademecum Numer 2 (Poland)": {
@@ -986,6 +1001,9 @@
     "Arktis Edition Vol. 1 (Germany)": {
         "languages": "De"
     },
+    "Beauty of Chaos, The - Vol. 1 (Germany) (En,De)": {
+        "languages": "En, De"
+    },
     "Berliner Spielekiste (Germany)": {
         "languages": "De"
     },
@@ -1067,6 +1085,9 @@
     "Cedric (Europe) (En,De)": {
         "languages": "En, De"
     },
+    "Dekubi (Germany)": {
+        "languages": "De"
+    },
     "Demomania I (Germany) (En,De)": {
         "languages": "En, De"
     },
@@ -1075,6 +1096,12 @@
     },
     "Diamond's & Pearl's are the Users Best Friends - Grafik Volume Nr. 1 (Germany) (Grafik Collection 94 Nr. 1)": {
         "languages": "De"
+    },
+    "Dream Numero 41 (France)": {
+        "languages": ""
+    },
+    "Dream Numero 42 (France)": {
+        "languages": ""
     },
     "Eagle Linux M68K 1.02.33 - 32 Bit Betriebs System auf CD-ROM (Germany)": {
         "languages": "De"
@@ -1088,8 +1115,17 @@
     "Erben der Erde - Die grosse Suche (Germany)": {
         "languages": "De"
     },
+    "Essential Utilities - Volume 1 (Europe)": {
+        "languages": "En"
+    },
     "Euroscene 1 (Europe)": {
         "languages": "En"
+    },
+    "Feeble Files, The (Europe) (En,De) (Disc 1)": {
+        "languages": "En, De"
+    },
+    "Feeble Files, The (Europe) (En,De) (Disc 2)": {
+        "languages": "En, De"
     },
     "Final Odyssey - Theseus Verses the Minotaur (Europe) (En,De,Es,It,No,Da,Fi)": {
         "languages": "Da, En, Fi, De, It, No, Es"
@@ -1099,6 +1135,9 @@
     },
     "Foundation (Europe) (En,De)": {
         "languages": "En, De"
+    },
+    "French Storm - Volume 1 (France)": {
+        "languages": "Fr"
     },
     "Fresh Fish July-August 1994 (USA)": {
         "languages": "En"
@@ -1214,6 +1253,9 @@
     "LSD and 17 Bit - Compendium Deluxe Volume 2 (Europe)": {
         "languages": "En"
     },
+    "Light Works, The - Digital Imagery (Germany) (En,De)": {
+        "languages": "En, De"
+    },
     "Linux (Europe)": {
         "languages": "En"
     },
@@ -1304,6 +1346,9 @@
     "OnEscapee (Europe) (En,Fr,De,It,Nl,Pt,Sv,Da,Fi,Hr,Sk,Tr)": {
         "languages": "Da, Nl, En, Fi, Fr, De, It, Pt, Sv, Tr, Hr, Sk"
     },
+    "P.OS PreRelease (Germany) (En,De)": {
+        "languages": "En, De"
+    },
     "Pinball Brain Damage (Europe)": {
         "languages": "En"
     },
@@ -1325,8 +1370,17 @@
     "SAAR AMOK II Oktober 1994 (Germany)": {
         "languages": "De"
     },
+    "Scene Archive, The - 1988-1998 (Germany)": {
+        "languages": ""
+    },
     "Scene Xplorer '97 (Poland)": {
         "languages": "Pl"
+    },
+    "Software 2000 - Volume 1 (UK) (Disc 1)": {
+        "languages": ""
+    },
+    "Software 2000 - Volume 1 (UK) (Disc 2)": {
+        "languages": ""
     },
     "Spherical Worlds (Europe)": {
         "languages": "En"
@@ -1339,6 +1393,9 @@
     },
     "Tales from Heaven (Europe)": {
         "languages": "En"
+    },
+    "Tele-Info - Volume 2 (Germany)": {
+        "languages": "De"
     },
     "Textikon - Wie schreibe ich's (Germany)": {
         "languages": "De"
@@ -1354,6 +1411,9 @@
     },
     "Trapped II (Europe)": {
         "languages": "En"
+    },
+    "TurboCalc (Europe) (En,Fr,De,It)": {
+        "languages": "En, Fr, De, It"
     },
     "Ultimate Super Skidmarks (Europe)": {
         "languages": "En"

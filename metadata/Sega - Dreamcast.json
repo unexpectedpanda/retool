@@ -839,6 +839,9 @@
     "Dream Passport (Japan)": {
         "languages": "Ja"
     },
+    "Dream Passport 2 (Japan) (Rev A)": {
+        "languages": "Ja"
+    },
     "Dream Passport 2 (Japan) (Rev B)": {
         "languages": "Ja"
     },
@@ -2417,6 +2420,9 @@
     "Nomad Soul, The (Germany)": {
         "languages": "De"
     },
+    "Non Casual Encounter - Prologue (USA, Europe) (Unl)": {
+        "languages": "En"
+    },
     "O-to-i-re - Dreamcast Sequencer (Japan) (En,Ja)": {
         "languages": "En, Ja"
     },
@@ -2971,6 +2977,9 @@
     },
     "Rush 2049 (Europe) (En,De,Es,It,Nl,Fi) (Beta)": {
         "languages": "Nl, En, Fi, De, It, Es"
+    },
+    "Rush Rush Rally Racing (Europe) (Unl)": {
+        "languages": "En"
     },
     "Rush Rush Rally Reloaded (USA) (Unl)": {
         "languages": ""

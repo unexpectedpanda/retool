@@ -5,6 +5,9 @@
 	"3D Pocket Pool (Europe) (En,Fr,De,Es,It,Nl)": {
 		"languages": "En, Fr, De, Es, It, Nl"
 	},
+	"3D Pool Allstars (USA) (En,Fr,Es) (Proto)": {
+		"languages": "En, Fr, Es"
+	},
 	"4 in 1 + 8 in 1 (World) (4B-001, 4B-009, 8B-001, Sachen) (Unl)": {
 		"languages": "En"
 	},
@@ -29,11 +32,17 @@
 	"10-Pin Bowling (USA) (Rumble Version)": {
 		"languages": "En"
 	},
+	"23 in 1 (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
 	"31 in 1 (Taiwan) (31B-001, Sachen) (Unl)": {
 		"languages": "Zh"
 	},
 	"31-in-1 Mighty Mix (Australia) (31B-001, Sachen) (Unl)": {
 		"languages": "En"
+	},
+	"36 in 1 (Taiwan) (SL36-0032) (Unl)": {
+		"languages": "Zh"
 	},
 	"102 Dalmatas - Cachorros Al Rescate (Spain)": {
 		"languages": "Es"
@@ -53,6 +62,12 @@
 	"1942 (USA, Europe)": {
 		"languages": "En"
 	},
+	"[BIOS] Challenger GB (USA) (Unl)": {
+		"languages": "En"
+	},
+	"[BIOS] Genius GB Backup Station (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
 	"[BIOS] Nintendo Game Boy Color Boot ROM (Japan) (En)": {
 		"languages": "En"
 	},
@@ -65,10 +80,25 @@
 	"[BIOS] Nintendo Game Boy Color Boot ROM (World) (Rev 1)": {
 		"languages": "En"
 	},
+	"[BIOS] Touch Boy System ROM (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
+	"Aardvark (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Absolute X (Europe) (Proto)": {
+		"languages": "En"
+	},
 	"Action Man - Search for Base X (USA, Europe)": {
 		"languages": "En"
 	},
 	"Action Replay Online (Europe) (Unl)": {
+		"languages": "En"
+	},
+	"Action Replay Xtreme - Special Edition for Pokemon Crystal (Europe) (Unl)": {
+		"languages": "En"
+	},
+	"Adventure Digimon 7 2002 (Taiwan) (En) (Unl)": {
 		"languages": "En"
 	},
 	"Adventures of the Smurfs, The (Europe) (En,Fr,De,Es,It,Nl)": {
@@ -239,6 +269,9 @@
 	"Austin Powers Episode IV (Europe) (En,Fr,De,Es,It) (Proto)": {
 		"languages": "En, Fr, De, Es, It"
 	},
+	"Auto Zone (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Aventures de Buzz l'Eclair, Les (France)": {
 		"languages": "Fr"
 	},
@@ -269,6 +302,9 @@
 	"Back to Earth 3D (Europe) (Demo)": {
 		"languages": "En"
 	},
+	"Back to Nature (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Backgammon (Europe) (En,Fr,De,Es) (GB Compatible)": {
 		"languages": "En, Fr, De, Es"
 	},
@@ -277,6 +313,9 @@
 	},
 	"Bad Badtz-Maru Robo Battle (Japan)": {
 		"languages": "Ja"
+	},
+	"Baiwan Dafuweng - Jin Ban (Taiwan) (Unl)": {
+		"languages": "Zh"
 	},
 	"Bakukyuu Renpatsu!! Super B-Daman - Gekitan! Rising Valkyrie!! (Japan) (SGB Enhanced) (GB Compatible)": {
 		"languages": "Ja"
@@ -298,6 +337,9 @@
 	},
 	"Balloon Fight GB (Japan) (SGB Enhanced, GB Compatible) (NP)": {
 		"languages": "Ja"
+	},
+	"Bandits at Zero (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Barbie - Aventura Submarina (Spain) (GB Compatible)": {
 		"languages": "Es"
@@ -398,6 +440,9 @@
 	"Benjamin Bluemchen - Ein verrueckter Tag im Zoo (Germany)": {
 		"languages": "De"
 	},
+	"Berks (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Beyblade - Fighting Tournament (Japan)": {
 		"languages": "Ja"
 	},
@@ -415,6 +460,15 @@
 	},
 	"Billy Bob's Huntin' 'n' Fishin' (USA, Europe)": {
 		"languages": "En"
+	},
+	"Bing Yuan Li Xian Ji (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
+	"Bing Yuan Li Xian Ji II (Taiwan) (Unl) (Alt)": {
+		"languages": "Zh"
+	},
+	"Bing Yuan Li Xian Ji II (Taiwan) (Unl)": {
+		"languages": "Zh"
 	},
 	"Biohazard Gaiden (Japan)": {
 		"languages": "Ja"
@@ -470,6 +524,9 @@
 	"Bokujou Monogatari 3 GB - Boy Meets Girl (Japan)": {
 		"languages": "Ja"
 	},
+	"Bomberman 3 (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
 	"Bomberman Max - Ain Version (Japan)": {
 		"languages": "Ja"
 	},
@@ -494,17 +551,29 @@
 	"Bomberman Quest (USA) (SGB Enhanced) (GB Compatible)": {
 		"languages": "En"
 	},
+	"Bomberman Selection (Korea) (Beta 1)": {
+		"languages": "Ko"
+	},
+	"Bomberman Selection (Korea) (Beta 2)": {
+		"languages": "Ko"
+	},
 	"Bomberman Selection (Korea)": {
 		"languages": "Ko"
+	},
+	"Booty (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Bouken! Dondoko-tou (Japan)": {
 		"languages": "Ja"
 	},
-	"Bounced! (USA) (Proto)": {
+	"Bounced! (Europe) (Proto)": {
 		"languages": "En"
 	},
 	"Brave Saga - Shinshou Astaria (Japan)": {
 		"languages": "Ja"
+	},
+	"Bubble Trouble (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Buffy the Vampire Slayer (USA, Europe)": {
 		"languages": "En"
@@ -560,6 +629,12 @@
 	"Caesars Palace II (USA, Europe)": {
 		"languages": "En"
 	},
+	"Caise Gedou 24 in 1 Diannao Huamian Xuan Game (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
+	"Caise Gedou 29 in 1 Diannao Huamian Xuan Game (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
 	"Cannon Fodder (Europe) (En,Fr,De,Es,It) (Beta)": {
 		"languages": "En, Fr, De, Es, It"
 	},
@@ -568,6 +643,9 @@
 	},
 	"Cannon Fodder (USA) (En,Fr,De,Es,It)": {
 		"languages": "En, Fr, De, Es, It"
+	},
+	"Capcom vs SNK - Millennium Fight 2001 (Taiwan) (En) (Unl)": {
+		"languages": "En"
 	},
 	"Captain Buzz Lightyear - Star Command (Germany)": {
 		"languages": "De"
@@ -605,8 +683,14 @@
 	"Carmageddon - Carpocalypse Now (USA, Europe) (En,Fr,Es,It)": {
 		"languages": "En, Fr, Es, It"
 	},
+	"Carmageddon TDR 2000 (Europe) (En,Fr,De,Es,It) (Proto)": {
+		"languages": "En, Fr, De, Es, It"
+	},
 	"Carnivale (USA) (Proto)": {
 		"languages": "En"
+	},
+	"Carrera (Europe) (En,Fr,De) (Proto)": {
+		"languages": "En, Fr, De"
 	},
 	"Casper (Europe) (En,Es,It)": {
 		"languages": "En, Es, It"
@@ -626,6 +710,9 @@
 	"Catwoman (Europe)": {
 		"languages": "En"
 	},
+	"Catwoman (Japan) (Proto)": {
+		"languages": "Ja"
+	},
 	"Catwoman (USA)": {
 		"languages": "En"
 	},
@@ -644,11 +731,26 @@
 	"CGB Test Cartridge (Japan) (En)": {
 		"languages": "En"
 	},
-	"Challenger GB (USA) (Unl)": {
-		"languages": "En"
-	},
 	"Championship Motocross 2001 featuring Ricky Carmichael (USA, Europe)": {
 		"languages": "En"
+	},
+	"Chao Ji Ji Qi Ren Da Zhan X - Super Robot War X (Taiwan) (Unl) (Alt)": {
+		"languages": "Zh"
+	},
+	"Chao Ji Ji Qi Ren Da Zhan X - Super Robot War X (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
+	"Chao Jin Hua - Shu Ma Bao Bei D-3 (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
+	"Chao Jinhua Shuma Baolong - Zuanshi Ban (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
+	"Chaoji Gedou 2001 Alpha (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
+	"Chaoji Yinsu Xiaozi II - Super Sonik II (Taiwan) (Unl)": {
+		"languages": "Zh"
 	},
 	"Chase H.Q. - Secret Police (Europe) (SGB Enhanced) (GB Compatible)": {
 		"languages": "En"
@@ -677,8 +779,14 @@
 	"Chiki Chiki Machine Mou Race (Japan)": {
 		"languages": "Ja"
 	},
+	"Chong Wu Xiao Jing Ling - Jie Jin Ta Zhi Wang (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
 	"Choro Q - Hyper Customable GB (Japan) (SGB Enhanced) (GB Compatible)": {
 		"languages": "Ja"
+	},
+	"Chuan Shuo (Taiwan) (Unl)": {
+		"languages": "Zh"
 	},
 	"Classic Bubble Bobble (Europe) (SGB Enhanced) (GB Compatible)": {
 		"languages": "En"
@@ -698,6 +806,9 @@
 	"Commander Keen (USA, Europe)": {
 		"languages": "En"
 	},
+	"Commando (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Conker's Pocket Tales (USA, Europe) (En,Fr,De) (SGB Enhanced) (GB Compatible)": {
 		"languages": "En, Fr, De"
 	},
@@ -707,6 +818,9 @@
 	"Cool Hand (Europe) (En,Fr,De) (GB Compatible)": {
 		"languages": "En, Fr, De"
 	},
+	"Crash II Advance 2003 (USA) (Unl)": {
+		"languages": "En"
+	},
 	"Crazy Bikers (Europe)": {
 		"languages": "En"
 	},
@@ -715,6 +829,9 @@
 	},
 	"Crazy Climber (USA) (Proto 2) (2000-11-21)": {
 		"languages": "En"
+	},
+	"Crazy Golf (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Croc 2 (USA, Europe)": {
 		"languages": "En"
@@ -742,6 +859,9 @@
 	},
 	"Cubix - Robots for Everyone - Race 'n Robots (USA) (En,Fr,De,Es,It)": {
 		"languages": "En, Fr, De, Es, It"
+	},
+	"Cuthbert in the Cooler (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"CyberTiger (USA, Europe)": {
 		"languages": "En"
@@ -809,6 +929,9 @@
 	"David Beckham Soccer (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En, Fr, De, Es, It"
 	},
+	"David Beckham Soccer (USA) (En,Es) (Proto)": {
+		"languages": "En, Es"
+	},
 	"David O'Leary's Total Soccer 2000 (Europe) (En,Fr,De,Es,It,Nl)": {
 		"languages": "En, Fr, De, Es, It, Nl"
 	},
@@ -842,6 +965,9 @@
 	"Denki Blocks! (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En, Fr, De, Es, It"
 	},
+	"Denki Blocks! (USA) (En,Es) (Proto)": {
+		"languages": "En, Es"
+	},
 	"Densha de Go! 2 (Japan)": {
 		"languages": "Ja"
 	},
@@ -849,6 +975,36 @@
 		"languages": "Ja"
 	},
 	"Dexter's Laboratory - Robot Rampage (USA, Europe)": {
+		"languages": "En"
+	},
+	"Digimom Sapphii 2003 (Taiwan) (En) (Unl)": {
+		"languages": "En"
+	},
+	"Digimon 02 4 (Taiwan) (En) (Unl)": {
+		"languages": "En"
+	},
+	"Digimon 2 (Taiwan) (En) (Unl)": {
+		"languages": "En"
+	},
+	"Digimon 3 Crystal (Taiwan) (En) (Unl)": {
+		"languages": "En"
+	},
+	"Digimon - Yellow Jade (USA) (Unl)": {
+		"languages": "En"
+	},
+	"Digimon Adventure 6 2002 (Taiwan) (En) (Unl)": {
+		"languages": "En"
+	},
+	"Digimon Adventure 2001 (USA) (Unl)": {
+		"languages": "En"
+	},
+	"Digimon Crystal II (USA) (Unl)": {
+		"languages": "En"
+	},
+	"Digimon Pocket (Taiwan) (En) (Unl)": {
+		"languages": "En"
+	},
+	"Digimon Saphire (USA) (Unl)": {
 		"languages": "En"
 	},
 	"Dino Breeder 3 - Gaia Fukkatsu (Japan) (SGB Enhanced) (GB Compatible)": {
@@ -905,8 +1061,14 @@
 	"Donald Duck - Quack Attack (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En, Fr, De, Es, It"
 	},
+	"Donkey Kong 5 - The Journey of Over Time and Space (Taiwan) (En) (Unl)": {
+		"languages": "En"
+	},
 	"Donkey Kong 2001 (Japan)": {
 		"languages": "Ja"
+	},
+	"Donkey Kong Country (USA) (En,Fr,De,Es,It) (Kiosk Demo)": {
+		"languages": "En, Fr, De, Es, It"
 	},
 	"Donkey Kong Country (USA, Europe) (En,Fr,De,Es,It) (Sample)": {
 		"languages": "En, Fr, De, Es, It"
@@ -947,6 +1109,9 @@
 	"Doraemon no Study Boy - Kuku Game (Japan)": {
 		"languages": "Ja"
 	},
+	"Dork's Dilemma (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Doug - La Grande Aventure (France)": {
 		"languages": "Fr"
 	},
@@ -966,6 +1131,12 @@
 		"languages": "En, Fr, De, Es, It"
 	},
 	"Dracula - Crazy Vampire (USA)": {
+		"languages": "En"
+	},
+	"Dragon Ball - Final Bout (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
+	"Dragon Ball Z 3 2002 Fighting (Taiwan) (En) (Unl)": {
 		"languages": "En"
 	},
 	"Dragon Ball Z - Densetsu no Chou Senshi-tachi (Japan) (Beta) (All Unlocked)": {
@@ -1022,7 +1193,16 @@
 	"Dragon Ball Z - Les Guerriers Legendaires (France)": {
 		"languages": "Fr"
 	},
+	"Dragon Ball Z Fighting 2002 (Taiwan) (Zh) (Unl)": {
+		"languages": "Zh"
+	},
 	"Dragon Dance (Europe) (Proto) (SGB Enhanced) (GB Compatible)": {
+		"languages": "En"
+	},
+	"Dragon Dance (USA) (Beta 1) (SGB Enhanced) (GB Compatible)": {
+		"languages": "En"
+	},
+	"Dragon Dance (USA) (Beta 2) (SGB Enhanced) (GB Compatible)": {
 		"languages": "En"
 	},
 	"Dragon Dance (USA) (SGB Enhanced) (GB Compatible)": {
@@ -1082,16 +1262,19 @@
 	"Dragon's Lair (USA, Europe) (En,Ja,Fr,De,Es,Zh)": {
 		"languages": "En, Ja, Fr, De, Es, Zh"
 	},
-	"Driver (Europe) (En,Fr,De,Es,It)": {
+	"Driver (Europe) (En,Fr,De,Es,It) (Beta)": {
 		"languages": "En, Fr, De, Es, It"
 	},
-	"Driver - You Are the Wheelman (Europe) (En,Fr,De,Es,It) (Beta)": {
+	"Driver (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En, Fr, De, Es, It"
 	},
 	"Driver - You Are the Wheelman (USA) (En,Fr,De,Es,It)": {
 		"languages": "En, Fr, De, Es, It"
 	},
 	"Dropzone (Europe) (GB Compatible)": {
+		"languages": "En"
+	},
+	"DryMouth (USA) (Unl)": {
 		"languages": "En"
 	},
 	"DT - Lords of Genomes (Japan) (SGB Enhanced) (GB Compatible)": {
@@ -1124,6 +1307,12 @@
 	"DynaMike (Europe) (Proto)": {
 		"languages": "En"
 	},
+	"E Mo Dao (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
+	"E.T. - The Extra-Terrestrial - Digital Companion (Europe) (Proto)": {
+		"languages": "En"
+	},
 	"E.T. - The Extra-Terrestrial - Digital Companion (USA)": {
 		"languages": "En"
 	},
@@ -1145,6 +1334,9 @@
 	"ECW Hardcore Revolution (USA, Europe)": {
 		"languages": "En"
 	},
+	"Elang Chuanshuo - Shiji Zhi Zhan (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
 	"Elemental Fighter (USA) (Proto)": {
 		"languages": "En"
 	},
@@ -1157,13 +1349,19 @@
 	"Elie no Atelier GB (Japan) (SGB Enhanced) (GB Compatible)": {
 		"languages": "Ja"
 	},
+	"Emo Cheng 2 - Fengyun Pian (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
+	"Emo Cheng DX (Taiwan) (Beta) (Unl)": {
+		"languages": "Zh"
+	},
 	"Emperor's New Groove, The (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En, Fr, De, Es, It"
 	},
 	"Emperor's New Groove, The (USA)": {
 		"languages": "En"
 	},
-	"Equestriad 2001 (USA) (Proto)": {
+	"Equestriad 2001 (Europe) (Proto)": {
 		"languages": "En"
 	},
 	"ESPN International Track & Field (USA)": {
@@ -1190,6 +1388,12 @@
 	"Evel Knievel (USA) (GB Compatible)": {
 		"languages": "En"
 	},
+	"Expiration Date (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Exploits of Fingers Malone, The (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Extreme Ghostbusters (Europe) (En,Fr,De,Es,It,Pt)": {
 		"languages": "En, Fr, De, Es, It, Pt"
 	},
@@ -1202,10 +1406,13 @@
 	"F1 Championship Season 2000 (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En, Fr, De, Es, It"
 	},
-	"F1 Racing Championship (Europe) (En,Fr,De,Es,It) (Beta) (February, 2000)": {
+	"F1 Racing Championship (Europe) (En,Fr,De,Es,It) (Beta)": {
 		"languages": "En, Fr, De, Es, It"
 	},
 	"F1 Racing Championship (Europe) (En,Fr,De,Es,It)": {
+		"languages": "En, Fr, De, Es, It"
+	},
+	"F1 Racing Championship (USA) (En,Fr,De,Es,It) (Proto)": {
 		"languages": "En, Fr, De, Es, It"
 	},
 	"F1 World Grand Prix II for Game Boy Color (Europe) (En,Fr,De,Es)": {
@@ -1223,7 +1430,13 @@
 	"F-1 World Grand Prix (Europe) (En,Fr,De,Es)": {
 		"languages": "En, Fr, De, Es"
 	},
-	"F-1 World Grand Prix (Japan) (En) (NP)": {
+	"F-1 World Grand Prix (Japan) (En) (Beta 1)": {
+		"languages": "En"
+	},
+	"F-1 World Grand Prix (Japan) (En) (Beta 2)": {
+		"languages": "En"
+	},
+	"F-18 Thunder Strike (USA, Europe) (Beta) (Rumble Version)": {
 		"languages": "En"
 	},
 	"F-18 Thunder Strike (USA, Europe)": {
@@ -1238,20 +1451,44 @@
 	"Fairy Kitty no Kaiun Jiten - Yousei no Kuni no Uranai Shugyou (Japan) (SGB Enhanced) (GB Compatible)": {
 		"languages": "Ja"
 	},
+	"Feng Kuang Da Fu Weng (Taiwan) (Unl) (Alt)": {
+		"languages": "Zh"
+	},
+	"Feng Kuang Da Fu Weng (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
+	"Feng Zhi Gou II (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
 	"Ferret Monogatari (Japan)": {
 		"languages": "Ja"
 	},
-	"FGB (USA) (Proto)": {
+	"FGB (USA) (Proto) (2001-05-15)": {
 		"languages": "En"
 	},
 	"FIFA 2000 (USA, Europe) (SGB Enhanced) (GB Compatible)": {
 		"languages": "En"
+	},
+	"Fillo - Crystal Version (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Finders Keepers (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Fire Ant (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Firemen (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Fish Files, The (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En, Fr, De, Es, It"
 	},
 	"Fix & Foxi - Episode 1 - Lupo (Europe) (En,Fr,De)": {
 		"languages": "En, Fr, De"
+	},
+	"Fix It Felix Jr. (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Flintstones, The - Burgertime in Bedrock (Europe) (En,Fr,De,Es,It) (Beta)": {
 		"languages": "En, Fr, De, Es, It"
@@ -1334,6 +1571,9 @@
 	"Fushigi no Dungeon - Fuurai no Shiren GB 2 - Sabaku no Majou (Japan) (BFWJ)": {
 		"languages": "Ja"
 	},
+	"G-Man (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Gaiamaster Duel - Card Attackers (Japan)": {
 		"languages": "Ja"
 	},
@@ -1388,7 +1628,7 @@
 	"Games Frenzy (Europe) (En,Fr,De)": {
 		"languages": "En, Fr, De"
 	},
-	"GameShark MX (USA) (US v1.02) (Unl)": {
+	"GameShark MX (USA) (v1.02) (Unl)": {
 		"languages": "En"
 	},
 	"GameShark Online (USA) (Unl)": {
@@ -1406,6 +1646,9 @@
 	"Ganbare! Nippon! Olympic 2000 (Japan)": {
 		"languages": "Ja"
 	},
+	"Gangdan Wuyu 2 (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
 	"Ganso! Doubutsu Uranai (Japan) (Proto)": {
 		"languages": "Ja"
 	},
@@ -1418,10 +1661,13 @@
 	"GB Memory Multi Menu (Japan) (SGB Enhanced, GB Compatible) (NP)": {
 		"languages": "Ja"
 	},
+	"Gedou Jian Shen - Soul Falchion (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
 	"Geheimnis der Happy Hippo-Insel, Das (Germany)": {
 		"languages": "De"
 	},
-	"Gekido (Europe) (Proto)": {
+	"Gekido (Europe) (Proto) (2000-09-04)": {
 		"languages": "En"
 	},
 	"Gekisou Dangun Racer - Onsoku Buster Dangun Dan (Japan)": {
@@ -1444,6 +1690,9 @@
 	},
 	"Gex - Enter the Gecko (USA, Europe) (GB Compatible)": {
 		"languages": "En"
+	},
+	"Ghost Town (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Ghosts'n Goblins (USA, Europe) (GB Compatible)": {
 		"languages": "En"
@@ -1541,6 +1790,15 @@
 	"Great Battle Pocket, The (Japan) (SGB Enhanced) (GB Compatible)": {
 		"languages": "Ja"
 	},
+	"Green Beret (Unknown) (Proto 1)": {
+		"languages": "En"
+	},
+	"Green Beret (Unknown) (Proto 2)": {
+		"languages": "En"
+	},
+	"Green Beret (Unknown) (Proto 3)": {
+		"languages": "En"
+	},
 	"Gremlins - Unleashed (Europe) (En,Fr,De,Es,It,Pt) (Beta)": {
 		"languages": "En, Fr, De, Es, It, Pt"
 	},
@@ -1556,6 +1814,18 @@
 	"Grinch, The (USA)": {
 		"languages": "En"
 	},
+	"Gu Huo Lang II 2003 (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
+	"Guai Shou Go! Go! II (Taiwan)": {
+		"languages": "Zh"
+	},
+	"Gui Wu Zhe 2 (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
+	"Gun Law (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Guruguru Garakutas (Japan) (SGB Enhanced) (GB Compatible)": {
 		"languages": "Ja"
 	},
@@ -1567,6 +1837,18 @@
 	},
 	"Gyouten Ningen Batseelor - Doctor Guy no Yabou (Japan)": {
 		"languages": "Ja"
+	},
+	"Ha Li Bo Te 2 - Xiao Shi De Mi Shi 2003 (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
+	"Ha Li Xiao Zi Di Er Bu - Mi Shi De Mi (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
+	"Ha Li Xiao Zi IV 2003 (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
+	"Hai Zhan Qi Bing (Taiwan) (Unl)": {
+		"languages": "Zh"
 	},
 	"Hajimari no Mori (Japan) (Proto)": {
 		"languages": "Ja"
@@ -1628,11 +1910,29 @@
 	"Harley-Davidson Motor Cycles - Race Across America (USA)": {
 		"languages": "En"
 	},
+	"Harry Potter 2 - The Black Art Wrestle Edition (USA) (Unl)": {
+		"languages": "En"
+	},
+	"Harry Potter 3 2003 (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
+	"Harry Potter 3 (USA) (Unl)": {
+		"languages": "En"
+	},
+	"Harry Potter 3 - Shen Qi Zhi Guang Lun (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
+	"Harry Potter (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
 	"Harry Potter and the Chamber of Secrets (USA, Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,Da)": {
 		"languages": "En, Fr, De, Es, It, Nl, Pt, Sv, Da"
 	},
 	"Harry Potter and the Sorcerer's Stone (USA, Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi)": {
 		"languages": "En, Fr, De, Es, It, Nl, Pt, Sv, No, Da, Fi"
+	},
+	"Harry Potter II (USA) (Unl)": {
+		"languages": "En"
 	},
 	"Harry Potter to Kenja no Ishi (Japan)": {
 		"languages": "Ja"
@@ -1657,6 +1957,9 @@
 	},
 	"Harvest Moon GBC (USA) (SGB Enhanced) (GB Compatible)": {
 		"languages": "En"
+	},
+	"He Jin Zhuang Bei II (Taiwan) (Unl)": {
+		"languages": "Zh"
 	},
 	"Hello Kitty no Beads Factory (Japan) (SGB Enhanced) (GB Compatible)": {
 		"languages": "Ja"
@@ -1745,6 +2048,9 @@
 	"Hugo 2 1-2 (Germany) (GB Compatible)": {
 		"languages": "De"
 	},
+	"Hugo (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Hugo - Black Diamond Fever (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi)": {
 		"languages": "En, Fr, De, Es, It, Nl, Pt, Sv, No, Da, Fi"
 	},
@@ -1829,6 +2135,12 @@
 	"Jagainu-kun (Japan) (GB Compatible)": {
 		"languages": "Ja"
 	},
+	"Jaguar Mishin Sashi Senyou Soft - Kirby Family (Japan) (Proto)": {
+		"languages": "Ja"
+	},
+	"Jaguar Mishin Sashi Senyou Soft - Mario Family (Japan)": {
+		"languages": "Ja"
+	},
 	"Jankyuusei - Cosplay Paradise (Japan)": {
 		"languages": "Ja"
 	},
@@ -1853,6 +2165,9 @@
 	"Jibaku-kun - Rei no Itsuki no Kajitsu (Japan) (Proto)": {
 		"languages": "Ja"
 	},
+	"Jieba Tianwang 4 (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
 	"Jim Henson's Bear in the Big Blue House (Europe) (En,Fr,De,Es,It,Nl)": {
 		"languages": "En, Fr, De, Es, It, Nl"
 	},
@@ -1874,16 +2189,19 @@
 	"Jimmy White's Cueball (USA) (Proto)": {
 		"languages": "En"
 	},
+	"Jing Ling Wang III (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
 	"Jinsei Game - Tomodachi Takusan Tsukurou yo! (Japan) (SGB Enhanced) (GB Compatible)": {
 		"languages": "Ja"
 	},
 	"Jisedai Begoma Battle Beyblade (Japan)": {
 		"languages": "Ja"
 	},
-	"Jissen ni Yakudatsu Tsumego (Japan) (Possible Proto)": {
+	"Jissen ni Yakudatsu Tsumego (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
-	"Jissen ni Yakudatsu Tsumego (Japan) (Rev 1)": {
+	"Jissen ni Yakudatsu Tsumego (Japan)": {
 		"languages": "Ja"
 	},
 	"John Romero's Daikatana (Europe) (En,Fr,It)": {
@@ -1904,10 +2222,10 @@
 	"Jungle Book, The - Mowgli's Wild Adventure (USA) (En,Fr,De,Es,It)": {
 		"languages": "En, Fr, De, Es, It"
 	},
-	"Jurassic Boy 2 (World) (Rev 1) (Sachen) (Unl)": {
+	"Jurassic Boy 2 (Taiwan) (En) (Rev 1) (Sachen) (Unl)": {
 		"languages": "En"
 	},
-	"Jurassic Boy 2 + Thunder Blast Man (World) (1B-002, 1B-003, Sachen) (Unl)": {
+	"Jurassic Boy 2 + Thunder Blast Man (Taiwan) (En) (1B-002, 1B-003, Sachen) (Unl)": {
 		"languages": "En"
 	},
 	"Juukou Senki Bullet Battlers (Japan) (SGB Enhanced) (GB Compatible)": {
@@ -1934,6 +2252,9 @@
 	"Kanji Boy 2 (Japan) (SGB Enhanced) (GB Compatible)": {
 		"languages": "Ja"
 	},
+	"Kanji Boy 3 (Japan) (Beta)": {
+		"languages": "Ja"
+	},
 	"Kanji Boy 3 (Japan)": {
 		"languages": "Ja"
 	},
@@ -1941,6 +2262,9 @@
 		"languages": "Ja"
 	},
 	"Kanji de Puzzle (Japan) (GB Compatible)": {
+		"languages": "Ja"
+	},
+	"Kanji Shishuu (Japan) (Proto)": {
 		"languages": "Ja"
 	},
 	"Kanzume Monsters Parfait (Japan) (SGB Enhanced) (GB Compatible)": {
@@ -2003,8 +2327,14 @@
 	"Kikansha Thomas - Sodor-tou no Nakama-tachi (Japan)": {
 		"languages": "Ja"
 	},
+	"Kikstart (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Kindaichi Shounen no Jikenbo - 10 Nenme no Shoutaijou (Japan) (SGB Enhanced) (GB Compatible)": {
 		"languages": "Ja"
+	},
+	"King Lion Advance III 2003 (USA) (Unl)": {
+		"languages": "En"
 	},
 	"Kinniku Banzuke GB 2 - Mezase! Muscle Champion (Japan) (SGB Enhanced) (GB Compatible)": {
 		"languages": "Ja"
@@ -2048,6 +2378,9 @@
 	"Klustar (USA) (GB Compatible)": {
 		"languages": "En"
 	},
+	"Knit-Wit (World) (v1.1) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Knockout Kings (USA, Europe)": {
 		"languages": "En"
 	},
@@ -2090,6 +2423,18 @@
 	"Koto Battle - Tengai no Moribito (Japan)": {
 		"languages": "Ja"
 	},
+	"Kou Dai Guai Shou - Dong Zuo Pian (Taiwan) (En) (Unl) (Alt)": {
+		"languages": "En"
+	},
+	"Kou Dai Guai Shou - Dong Zuo Pian (Taiwan) (En) (Unl)": {
+		"languages": "En"
+	},
+	"Kou Dai Guai Shou - Lan Bao Shi 2003 (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
+	"Kou Dai Yao Guai - Bai Jin Ban (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
 	"Koushien Pocket (Japan) (SGB Enhanced) (GB Compatible)": {
 		"languages": "Ja"
 	},
@@ -2099,8 +2444,17 @@
 	"Land Before Time, The (USA)": {
 		"languages": "En"
 	},
+	"Langrsr II (Taiwan) (En) (Unl)": {
+		"languages": "En"
+	},
+	"Lao Fuzi Chuanqi (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
 	"Las Vegas Cool Hand (USA) (GB Compatible)": {
 		"languages": "En"
+	},
+	"Laser Squad (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Laura (Europe) (En,Fr,De,Es,It,Nl,Sv,Da) (Beta)": {
 		"languages": "En, Fr, De, Es, It, Nl, Sv, Da"
@@ -2228,6 +2582,9 @@
 	"Lemmings VS (Japan)": {
 		"languages": "Ja"
 	},
+	"Liberator (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Lil' Monster (USA) (SGB Enhanced) (GB Compatible)": {
 		"languages": "En"
 	},
@@ -2336,6 +2693,9 @@
 	"Loppi Puzzle Magazine - Kangaeru Puzzle Soukangou (Japan) (SGB Enhanced, GB Compatible) (NP)": {
 		"languages": "Ja"
 	},
+	"Lord of the Rings, The - The Fellowship of the Ring (Taiwan) (En) (Unl)": {
+		"languages": "En"
+	},
 	"Love Hina Party (Japan)": {
 		"languages": "Ja"
 	},
@@ -2365,6 +2725,18 @@
 	},
 	"Lufia - The Legend Returns (USA)": {
 		"languages": "En"
+	},
+	"Luke Yingxiong 2 - Zook Hero 2 (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
+	"Luke Yingxiong Z (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
+	"Lunar Docking (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Luo Ke Ying Xiong EXE5 (Taiwan) (Unl)": {
+		"languages": "Zh"
 	},
 	"M&M's Minis Madness (Europe)": {
 		"languages": "En"
@@ -2414,13 +2786,16 @@
 	"Magical Tetris Challenge (USA)": {
 		"languages": "En"
 	},
+	"Magician's Curse, The (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Mahjong Joou (Japan) (SGB Enhanced) (GB Compatible)": {
 		"languages": "Ja"
 	},
 	"Mahjong Quest (Japan) (SGB Enhanced) (GB Compatible)": {
 		"languages": "Ja"
 	},
-	"Mail Junkies World Port (United Kingdom) (UK v1.01) (Unl)": {
+	"Mail Junkies World Port (United Kingdom) (v1.01) (Unl)": {
 		"languages": "En"
 	},
 	"Majokko Mari-chan no Kisekae Monogatari (Japan) (Rev 1) (SGB Enhanced) (GB Compatible)": {
@@ -2433,9 +2808,6 @@
 		"languages": "En"
 	},
 	"Marie no Atelier GB (Japan) (SGB Enhanced) (GB Compatible)": {
-		"languages": "Ja"
-	},
-	"Mario Family (Japan)": {
 		"languages": "Ja"
 	},
 	"Mario Golf (Europe)": {
@@ -2481,6 +2853,9 @@
 		"languages": "En"
 	},
 	"Matchbox Emergency Patrol (USA, Europe)": {
+		"languages": "En"
+	},
+	"Matel Gear II (Taiwan) (En) (Unl)": {
 		"languages": "En"
 	},
 	"Maus, Die (Europe) (En,Fr,De,Es) (Beta)": {
@@ -2549,6 +2924,12 @@
 	"Mega Man Xtreme (USA, Europe) (GB Compatible)": {
 		"languages": "En"
 	},
+	"Mega Memory Card (USA) (GB Compatible) (Unl)": {
+		"languages": "En"
+	},
+	"Megaman X4 (Taiwan) (En) (Rumble Version) (Unl)": {
+		"languages": "En"
+	},
 	"Megami Tensei Gaiden - Last Bible (Japan) (SGB Enhanced) (GB Compatible)": {
 		"languages": "Ja"
 	},
@@ -2564,6 +2945,9 @@
 	"Meitantei Conan - Norowareta Kouro (Japan) (SGB Enhanced) (GB Compatible)": {
 		"languages": "Ja"
 	},
+	"Memory Mania Challenge (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Men in Black 2 - The Series (Europe) (En,Fr,De)": {
 		"languages": "En, Fr, De"
 	},
@@ -2572,6 +2956,9 @@
 	},
 	"Men in Black - The Series (USA, Europe) (SGB Enhanced) (GB Compatible)": {
 		"languages": "En"
+	},
+	"Menghuan Moni Zhan II (Taiwan) (Zh) (Unl)": {
+		"languages": "Zh"
 	},
 	"Merlin (Europe) (En,Fr,De,Es,It,Nl)": {
 		"languages": "En, Fr, De, Es, It, Nl"
@@ -2639,6 +3026,12 @@
 	"Millennium Winter Sports (USA)": {
 		"languages": "En"
 	},
+	"Mingzhu Koudai Guaishou 2 (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
+	"Mingzhu Koudai Guaishou 3 (Taiwan) (En,Es,Zh) (Unl)": {
+		"languages": "En, Es, Zh"
+	},
 	"Minna no Shougi - Shokyuu Hen (Japan) (GB Compatible)": {
 		"languages": "Ja"
 	},
@@ -2654,7 +3047,7 @@
 	"Missile Command (USA) (Rumble Version)": {
 		"languages": "En"
 	},
-	"Mission - Impossible (Europe) (En,Fr,De,Es,It) (Rev 1) (Possible Proto)": {
+	"Mission - Impossible (Europe) (En,Fr,De,Es,It) (Rev 1)": {
 		"languages": "En, Fr, De, Es, It"
 	},
 	"Mission - Impossible (Europe) (En,Fr,De,Es,It)": {
@@ -2663,8 +3056,23 @@
 	"Mission - Impossible (USA) (En,Fr,Es)": {
 		"languages": "En, Fr, Es"
 	},
+	"Mission Bravo (USA) (Proto)": {
+		"languages": "En"
+	},
+	"Mission to Mars (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Mizuki Shigeru no Shin Youkaiden (Japan)": {
 		"languages": "Ja"
+	},
+	"Mo Jie 3 - Bu Wanme De Shijie (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
+	"Mo Jie Chuan Shuo (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
+	"Mo Shou Shi Ji - Zhan Shen (Taiwan) (Unl)": {
+		"languages": "Zh"
 	},
 	"Mobile Golf (Japan)": {
 		"languages": "Ja"
@@ -2674,6 +3082,9 @@
 	},
 	"Momotarou Densetsu 1-2 (Japan)": {
 		"languages": "Ja"
+	},
+	"Mona and the Witch's Hat Deluxe (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Monkey Puncher (Europe) (SGB Enhanced) (GB Compatible)": {
 		"languages": "En"
@@ -2690,6 +3101,9 @@
 	"Monster Farm Battle Card GB (Japan) (SGB Enhanced) (GB Compatible)": {
 		"languages": "Ja"
 	},
+	"Monster Go! Go! Go!! (Taiwan) (En) (Unl)": {
+		"languages": "En"
+	},
 	"Monster Race 2 (Japan) (SGB Enhanced) (GB Compatible)": {
 		"languages": "Ja"
 	},
@@ -2699,10 +3113,10 @@
 	"Monster Rancher Explorer (USA)": {
 		"languages": "En"
 	},
-	"Monster Traveler (Japan) (Possible Proto)": {
+	"Monster Traveler (Japan) (Rev 1)": {
 		"languages": "Ja"
 	},
-	"Monster Traveler (Japan) (Rev 1)": {
+	"Monster Traveler (Japan)": {
 		"languages": "Ja"
 	},
 	"Monsters, Inc. (Europe) (En,Es,Nl)": {
@@ -2722,6 +3136,9 @@
 	},
 	"Montezuma's Return! (USA) (En,Es) (GB Compatible)": {
 		"languages": "En, Es"
+	},
+	"Monty on the Run (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Moomin no Daibouken (Japan) (Beta)": {
 		"languages": "Ja"
@@ -2780,6 +3197,9 @@
 	"MTV Sports - T.J. Lavin's Ultimate BMX (USA, Europe)": {
 		"languages": "En"
 	},
+	"Mu Chang Wu Yu GB 6 (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
 	"Mummy Returns, The (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En, Fr, De, Es, It"
 	},
@@ -2795,7 +3215,10 @@
 	"Muteki Ou Tri-Zenon (Japan)": {
 		"languages": "Ja"
 	},
-	"Mythri (USA) (Proto)": {
+	"Mythri (USA) (Proto 1) (2000-08-02)": {
+		"languages": "En"
+	},
+	"Mythri (USA) (Proto 2) (2001-03-31)": {
 		"languages": "En"
 	},
 	"Nakayoshi Cooking Series 1 - Oishii Cake-ya-san (Japan)": {
@@ -2808,6 +3231,12 @@
 		"languages": "Ja"
 	},
 	"Nakayoshi Cooking Series 4 - Tanoshii Dessert (Japan)": {
+		"languages": "Ja"
+	},
+	"Nakayoshi Cooking Series 5 - Cake o Tsukurou (Japan) (Beta 1)": {
+		"languages": "Ja"
+	},
+	"Nakayoshi Cooking Series 5 - Cake o Tsukurou (Japan) (Beta 2)": {
 		"languages": "Ja"
 	},
 	"Nakayoshi Cooking Series 5 - Cake o Tsukurou (Japan)": {
@@ -2858,10 +3287,10 @@
 	"NBA in the Zone 2000 (USA)": {
 		"languages": "En"
 	},
-	"NBA in the Zone (USA) (Possible Proto) (SGB Enhanced) (GB Compatible)": {
+	"NBA in the Zone (USA) (Rev 1) (SGB Enhanced) (GB Compatible)": {
 		"languages": "En"
 	},
-	"NBA in the Zone (USA) (Rev 1) (SGB Enhanced) (GB Compatible)": {
+	"NBA in the Zone (USA) (SGB Enhanced) (GB Compatible)": {
 		"languages": "En"
 	},
 	"NBA Jam 99 (USA, Europe) (GB Compatible)": {
@@ -2873,8 +3302,17 @@
 	"NBA Pro 99 (Europe) (SGB Enhanced) (GB Compatible)": {
 		"languages": "En"
 	},
+	"NBA Show Time - NBA on NBC (USA) (Rev 1) (Proto)": {
+		"languages": "En"
+	},
 	"NBA Show Time - NBA on NBC (USA)": {
 		"languages": "En"
+	},
+	"Neclaus' Quest (World) (v1.0) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Neclaus' Quest (World) (v1.1) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Net de Get - Minigame @ 100 (Japan)": {
 		"languages": "Ja"
@@ -2885,11 +3323,17 @@
 	"Network Boukenki Bugsite - Beta Version (Japan)": {
 		"languages": "Ja"
 	},
+	"New Addams Family Series, The (Europe) (En,Fr,De,Es,It,Pt) (Rev 1) (Proto)": {
+		"languages": "En, Fr, De, Es, It, Pt"
+	},
 	"New Addams Family Series, The (Europe) (En,Fr,De,Es,It,Pt)": {
 		"languages": "En, Fr, De, Es, It, Pt"
 	},
 	"New Adventures of Mary-Kate & Ashley, The (USA, Europe) (GB Compatible)": {
 		"languages": "En"
+	},
+	"New Super Color 145 in 1 (Taiwan) (Unl)": {
+		"languages": "Zh"
 	},
 	"NFL Blitz 2000 (USA)": {
 		"languages": "En"
@@ -2936,6 +3380,9 @@
 	"Nushi Tsuri Adventure - Kite no Bouken (Japan) (Rumble Version)": {
 		"languages": "Ja"
 	},
+	"Nuwang Gedou (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
 	"NYR - New York Race (Europe) (En,Fr,De,Es,It,Pt)": {
 		"languages": "En, Fr, De, Es, It, Pt"
 	},
@@ -2963,10 +3410,16 @@
 	"Ojarumaru - Tsukiyo ga Ike no Takaramono (Japan) (GB Compatible)": {
 		"languages": "Ja"
 	},
+	"Olympic Skier (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Opossum Country (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Orbital Diagnostic System (Unknown) (Alt) (Unl)": {
 		"languages": "En"
 	},
-	"Orbital Diagnostic System (Unknown) (Unl)": {
+	"Orbital Diagnostic System (Unknown) (Unl) [b]": {
 		"languages": "En"
 	},
 	"Original Moorhuhn Jagd, Die (Germany)": {
@@ -3008,6 +3461,9 @@
 	"Painter (Europe) (Unl)": {
 		"languages": "En"
 	},
+	"Panik!16 (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Paperboy (USA, Europe)": {
 		"languages": "En"
 	},
@@ -3028,6 +3484,12 @@
 	},
 	"Pia Carrot e Youkoso!! 2.2 (Japan)": {
 		"languages": "Ja"
+	},
+	"Pian Wai Zhang Huang Jin Tai Yang - Feng Yin De Yuan Gu Lian Jin Shu (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
+	"Pinecone Pizza Party (World) (Prototype) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Pitfall - Beyond the Jungle (USA, Europe) (GB Compatible)": {
 		"languages": "En"
@@ -3086,6 +3548,9 @@
 	"Pocket GT (Japan)": {
 		"languages": "Ja"
 	},
+	"Pocket GT (USA) (Proto)": {
+		"languages": "En"
+	},
 	"Pocket Hanafuda (Japan)": {
 		"languages": "Ja"
 	},
@@ -3095,8 +3560,17 @@
 	"Pocket Lure Boy (Japan)": {
 		"languages": "Ja"
 	},
+	"Pocket Monster Carbuncle 2003 (USA) (Unl)": {
+		"languages": "En"
+	},
 	"Pocket Monsters - Crystal Version (Japan)": {
 		"languages": "Ja"
+	},
+	"Pocket Monsters - Crystal Version (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
+	"Pocket Monsters Diamond (Taiwan) (En) (Unl)": {
+		"languages": "En"
 	},
 	"Pocket Monsters Eun (Korea)": {
 		"languages": "Ko"
@@ -3117,6 +3591,9 @@
 		"languages": "Ja"
 	},
 	"Pocket Music (Europe) (En,Fr,De,Es,It)": {
+		"languages": "En, Fr, De, Es, It"
+	},
+	"Pocket Music (USA) (En,Fr,De,Es,It) (Proto)": {
 		"languages": "En, Fr, De, Es, It"
 	},
 	"Pocket no Naka no Oukoku (Japan) (Proto)": {
@@ -3152,6 +3629,9 @@
 	"Pocket Soccer (Europe) (En,Fr,De,Es,It,Pt)": {
 		"languages": "En, Fr, De, Es, It, Pt"
 	},
+	"Pogo Pete (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Pokemon - Crystal Version (Australia)": {
 		"languages": "En"
 	},
@@ -3178,6 +3658,12 @@
 	},
 	"Pokemon - Kristall-Edition (Germany)": {
 		"languages": "De"
+	},
+	"Pokemon - Mewtwo Strikes Back (Taiwan) (En) (Unl)": {
+		"languages": "En"
+	},
+	"Pokemon - Sapphire Version (USA) (Unl)": {
+		"languages": "En"
 	},
 	"Pokemon - Silberne Edition (Germany) (Beta) (SGB Enhanced) (GB Compatible)": {
 		"languages": "De"
@@ -3206,6 +3692,9 @@
 	"Pokemon - Versione Oro (Italy) (SGB Enhanced) (GB Compatible)": {
 		"languages": "It"
 	},
+	"Pokemon Adventure (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
 	"Pokemon Card GB 2 - GR Dan Sanjou! (Japan)": {
 		"languages": "Ja"
 	},
@@ -3214,6 +3703,21 @@
 	},
 	"Pokemon de Panepon (Japan)": {
 		"languages": "Ja"
+	},
+	"Pokemon Diamond (Taiwan) (En) (Unl)": {
+		"languages": "En"
+	},
+	"Pokemon Gold Version 2 (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
+	"Pokemon Jade (Taiwan) (En) (Pirate)": {
+		"languages": "En"
+	},
+	"Pokemon Jade Version - Special Pikachu Edition (USA) (Pirate)": {
+		"languages": "En"
+	},
+	"Pokemon Pearl (Taiwan) (En) (Unl)": {
+		"languages": "En"
 	},
 	"Pokemon Picross (Japan) (Proto)": {
 		"languages": "Ja"
@@ -3248,6 +3752,9 @@
 	"Pokemon Trading Card Game (USA, Australia) (SGB Enhanced) (GB Compatible)": {
 		"languages": "En"
 	},
+	"Pokemon Vision Jade (Taiwan) (De) (Unl)": {
+		"languages": "De"
+	},
 	"Polaris SnoCross (USA) (Rumble Version)": {
 		"languages": "En"
 	},
@@ -3278,6 +3785,15 @@
 	"Portal Runner (USA)": {
 		"languages": "En"
 	},
+	"Powa! (Europe)": {
+		"languages": "En"
+	},
+	"Powa! (Japan)": {
+		"languages": "Ja"
+	},
+	"Powa! (Unknown) (Demo)": {
+		"languages": "nolang"
+	},
 	"Power Pro Kun Pocket 2 (Japan) (SGB Enhanced) (GB Compatible)": {
 		"languages": "Ja"
 	},
@@ -3287,16 +3803,19 @@
 	"Power Pro Kun Pocket (Japan) (SGB Enhanced) (GB Compatible)": {
 		"languages": "Ja"
 	},
-	"Power Quest (Europe) (En,Fr,De,Es,It) (SGB Enhanced) (GB Compatible)": {
-		"languages": "En, Fr, De, Es, It"
+	"Power Quest (Europe) (En-US,En-GB,Fr,De,Es,It) (SGB Enhanced) (GB Compatible)": {
+		"languages": "En-US, En-GB, Fr, De, Es, It"
 	},
-	"Power Quest (USA) (En,Fr,De,Es,It) (SGB Enhanced) (GB Compatible)": {
-		"languages": "En, Fr, De, Es, It"
+	"Power Quest (USA) (En-US,En-GB,Fr,De,Es,It) (SGB Enhanced) (GB Compatible)": {
+		"languages": "En-US, En-GB, Fr, De, Es, It"
 	},
 	"Power Spike - Pro Beach Volleyball (USA)": {
 		"languages": "En"
 	},
-	"Powerpuff Girls, The - Bad Mojo Jojo (Europe)": {
+	"Powerpuff Girls, The - Bad Mojo Jojo (Europe) (BJJP)": {
+		"languages": "En"
+	},
+	"Powerpuff Girls, The - Bad Mojo Jojo (Europe) (BJJX) (Proto)": {
 		"languages": "En"
 	},
 	"Powerpuff Girls, The - Bad Mojo Jojo (USA) (Rev 1)": {
@@ -3323,7 +3842,10 @@
 	"Powerpuff Girls, The - L'Affreux Mojo Jojo (France)": {
 		"languages": "Fr"
 	},
-	"Powerpuff Girls, The - Paint the Townsville Green (Europe)": {
+	"Powerpuff Girls, The - Paint the Townsville Green (Europe) (BPTP)": {
+		"languages": "En"
+	},
+	"Powerpuff Girls, The - Paint the Townsville Green (Europe) (BPTX) (Proto)": {
 		"languages": "En"
 	},
 	"Powerpuff Girls, The - Paint the Townsville Green (USA) (Rev 1)": {
@@ -3337,6 +3859,9 @@
 	},
 	"Powerpuff Girls, The - Panique a Townsville (France)": {
 		"languages": "Fr"
+	},
+	"Primera Division Stars 2001 (Spain) (Proto)": {
+		"languages": "Es"
 	},
 	"Prince Naseem Boxing (Europe) (En,Fr,De)": {
 		"languages": "En, Fr, De"
@@ -3374,11 +3899,17 @@
 	"Project S-11 (USA)": {
 		"languages": "En"
 	},
+	"Proof of Destruction (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Puchi Carat (Europe) (SGB Enhanced) (GB Compatible)": {
 		"languages": "En"
 	},
 	"Puchi Carat (Japan) (SGB Enhanced) (GB Compatible)": {
 		"languages": "Ja"
+	},
+	"Puchi Carat (USA) (Proto) (SGB Enhanced) (GB Compatible)": {
+		"languages": "En"
 	},
 	"Pumuckls Abenteuer bei den Piraten (Germany)": {
 		"languages": "De"
@@ -3413,11 +3944,23 @@
 	"Q-bert (USA)": {
 		"languages": "En"
 	},
+	"Qi Long Zhu Z 3 (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
+	"Qi Tian Da Sheng - Sun Wu Kong (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
 	"Qix Adventure (Europe)": {
 		"languages": "En"
 	},
 	"Qix Adventure (Japan)": {
 		"languages": "Ja"
+	},
+	"Qix Adventure (USA) (Proto)": {
+		"languages": "En"
+	},
+	"Quan Ba Tian Xia (Taiwan) (Unl)": {
+		"languages": "Zh"
 	},
 	"Quest - Brian's Journey (USA) (GB Compatible)": {
 		"languages": "En"
@@ -3428,11 +3971,14 @@
 	"Quest for Camelot (Europe) (En,Fr,De,Es,It,Nl) (SGB Enhanced) (GB Compatible)": {
 		"languages": "En, Fr, De, Es, It, Nl"
 	},
-	"Quest for Camelot (USA) (En,Fr,Es) (SGB Enhanced) (GB Compatible)": {
+	"Quest for Camelot (USA, Australia) (En,Fr,Es) (SGB Enhanced) (GB Compatible)": {
 		"languages": "En, Fr, Es"
 	},
 	"Qui Qui (Japan) (GB Compatible)": {
 		"languages": "Ja"
+	},
+	"Qunxia Zhuan II (Taiwan) (Unl)": {
+		"languages": "Zh"
 	},
 	"R-Type DX (Japan) (En) (GB Compatible)": {
 		"languages": "En"
@@ -3539,7 +4085,7 @@
 	"Return of the Ninja (USA)": {
 		"languages": "En"
 	},
-	"Return of the Ninja (World) (Aftermarket)": {
+	"Return of the Ninja (World) (Aftermarket) (Unl)": {
 		"languages": "En"
 	},
 	"Revelations - The Demon Slayer (USA) (SGB Enhanced) (GB Compatible)": {
@@ -3547,6 +4093,9 @@
 	},
 	"Rhino Rumble (USA, Europe)": {
 		"languages": "En"
+	},
+	"Rig Attack (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Rip-Tide Racer (Europe) (En,Fr,De,Es,It) (GB Compatible)": {
 		"languages": "En, Fr, De, Es, It"
@@ -3568,6 +4117,9 @@
 	},
 	"Robin Hood (Europe) (En,Fr,De,Es,It,Nl)": {
 		"languages": "En, Fr, De, Es, It, Nl"
+	},
+	"Robin to the Rescue (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"RoboCop (Europe) (En,Fr,De,Es,It,Nl)": {
 		"languages": "En, Fr, De, Es, It, Nl"
@@ -3602,13 +4154,28 @@
 	"Rocket Power - La Glisse de l'Extreme (France)": {
 		"languages": "Fr"
 	},
+	"Rockman 3 (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
+	"Rockman (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Rockman DX6 (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
+	"Rockman DX8 (Taiwan) (En) (Unl)": {
+		"languages": "En"
+	},
 	"Rockman X2 - Soul Eraser (Japan)": {
 		"languages": "Ja"
+	},
+	"Rockman X3 (Taiwan) (Unl)": {
+		"languages": "Zh"
 	},
 	"Rockman X - Cyber Mission (Japan) (GB Compatible)": {
 		"languages": "Ja"
 	},
-	"Rocky Mountain Trophy Hunter (USA)": {
+	"Rocky Mountain - Trophy Hunter (USA)": {
 		"languages": "En"
 	},
 	"Rocman X Gold + 4 in 1 (Taiwan) (1B-002, 4B-003, Sachen) (Unl)": {
@@ -3644,8 +4211,20 @@
 	"Rox (USA, Europe) (GB Compatible)": {
 		"languages": "En"
 	},
+	"RPG Tsukuru GB (Japan) (Rev 1) (NP)": {
+		"languages": "Ja"
+	},
 	"RPG Tsukuru GB (Japan)": {
 		"languages": "Ja"
+	},
+	"Ruby & Rusty Save the Crows (World) (Beta 3) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Ruby & Rusty Save the Crows (World) (v1.0) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Ruby & Rusty Save the Crows (World) (v2.0) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Rugrats - Time Travelers (USA, Europe) (GB Compatible)": {
 		"languages": "En"
@@ -3707,8 +4286,17 @@
 	"San Francisco Rush - Extreme Racing (USA) (Proto)": {
 		"languages": "En"
 	},
+	"San Guo Wu Shang 5 (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
 	"Sangokushi - Game Boy Ban 2 (Japan) (SGB Enhanced) (GB Compatible)": {
 		"languages": "Ja"
+	},
+	"Sanguozhi - Aoshi Tianxia (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
+	"Sanguozhi Wudai (Taiwan) (Unl)": {
+		"languages": "Zh"
 	},
 	"Sanrio Timenet - Kako Hen (Japan) (Rev 1) (SGB Enhanced) (GB Compatible)": {
 		"languages": "Ja"
@@ -3773,8 +4361,14 @@
 	"Sesame Street Sports (USA)": {
 		"languages": "En"
 	},
+	"Sewing Machine Operation Software (Europe) (En,De,It,Nl) (Proto) (GB Compatible)": {
+		"languages": "En, De, It, Nl"
+	},
 	"Sewing Machine Operation Software (Europe) (En,Fr,De,It) (GB Compatible)": {
 		"languages": "En, Fr, De, It"
+	},
+	"Sewing Machine Operation Software (Europe) (En,Fr,Es,Pt) (Proto) (GB Compatible)": {
+		"languages": "En, Fr, Es, Pt"
 	},
 	"Sewing Machine Operation Software (USA) (En,Fr,Es) (GB Compatible)": {
 		"languages": "En, Fr, Es"
@@ -3782,10 +4376,10 @@
 	"Sgt. Rock - On the Frontline (USA)": {
 		"languages": "En"
 	},
-	"Shadowgate Classic (USA, Europe) (En,Fr,De,Es,Sv) (GB Compatible)": {
+	"Shadowgate Classic (Europe) (En,Fr,De,Es,Sv) (Rev 1) (GB Compatible)": {
 		"languages": "En, Fr, De, Es, Sv"
 	},
-	"Shadowgate Classic (USA, Europe) (En,Fr,De,Es,Sv) (Rev 1) (GB Compatible)": {
+	"Shadowgate Classic (USA, Europe) (En,Fr,De,Es,Sv) (GB Compatible)": {
 		"languages": "En, Fr, De, Es, Sv"
 	},
 	"Shadowgate Return (Japan) (GB Compatible)": {
@@ -3806,6 +4400,9 @@
 	"Shanghai Pocket (Europe) (SGB Enhanced) (GB Compatible)": {
 		"languages": "En"
 	},
+	"Shanghai Pocket (USA) (Rev 1) (Proto) (SGB Enhanced) (GB Compatible)": {
+		"languages": "En"
+	},
 	"Shanghai Pocket (USA) (SGB Enhanced) (GB Compatible)": {
 		"languages": "En"
 	},
@@ -3818,11 +4415,29 @@
 	"Shantae (World) (Aftermarket)": {
 		"languages": "En"
 	},
+	"Shao Lin Shi San Gun - Ying Xiong Jiu Zhu (Taiwan) (Zh) (Unl)": {
+		"languages": "Zh"
+	},
+	"Shaoling Legend - Hero, the Saver (Taiwan) (En) (Unl)": {
+		"languages": "En"
+	},
 	"Shaun Palmer's Pro Snowboarder (USA, Australia)": {
 		"languages": "En"
 	},
 	"Shelly Club (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En, Fr, De, Es, It"
+	},
+	"Sheng Shou Wu Yu - Shen Long Chuan Shuo (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
+	"Shengui Diguo Zhi Emo Cheng (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
+	"Shi Kong Xing Shou (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
+	"Shi Mian Maifu - Fengyun Pian (Taiwan) (Unl)": {
+		"languages": "Zh"
 	},
 	"Shin Megami Tensei Devil Children - Aka no Sho (Japan) (Rev 1) (SGB Enhanced) (GB Compatible)": {
 		"languages": "Ja"
@@ -3848,6 +4463,9 @@
 	"Shinseiki Evangelion - Mahjong Hokan Keikaku (Japan)": {
 		"languages": "Ja"
 	},
+	"Shishang Chaoqiang RPG + Gedou + Yizhi Ban Zuhe Ka 18 in 1 (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
 	"Shougi 2 (Japan) (GB Compatible)": {
 		"languages": "Ja"
 	},
@@ -3857,11 +4475,68 @@
 	"Shrek - Fairy Tale Freakdown (USA, Europe) (En,Fr,De,Es,It)": {
 		"languages": "En, Fr, De, Es, It"
 	},
+	"Shu Ma Bao Long 9 - Bao Long Pian 2002 (Taiwan) (Zh) (Unl)": {
+		"languages": "Zh"
+	},
+	"Shu Ma Bao Long - Ge Dou Ban 2003 (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
+	"Shu Ma Bao Long - Shui Jing Ban II (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
+	"Shu Ma Bao Long Zhuan Ji 10 in 1 (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
+	"Shuihu Shenshou (Taiwan) (Unl) (Alt)": {
+		"languages": "Zh"
+	},
+	"Shuihu Shenshou (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
+	"Shuihu Zhuan - Jingdian Ban (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
+	"Shuihu Zhuan Zhi Qunmo Fengyun Lu (China) (Unl)": {
+		"languages": "Zh"
+	},
+	"Shuma Baobei - Chao Mengmeng Fanji Zhan (Taiwan) (Zh)": {
+		"languages": "Zh"
+	},
+	"Shuma Baobei - Hai Zhi Shen (Taiwan) (Zh) (Unl)": {
+		"languages": "Zh"
+	},
+	"Shuma Baobei - Huojian Bingtuan (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
+	"Shuma Baobei DX6 (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
+	"Shuma Baolong 02 4 (Taiwan) (Zh) (Unl)": {
+		"languages": "Zh"
+	},
+	"Shuma Baolong - Diannao Pian (Taiwan) (Zh) (Unl)": {
+		"languages": "Zh"
+	},
+	"Shuma Baolong - Koudai Ban (Taiwan) (Unl) (Alt)": {
+		"languages": "Zh"
+	},
+	"Shuma Baolong - Koudai Ban (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
+	"Shuma Baolong - Shuijing Ban (Taiwan) (Li Cheng) (Unl)": {
+		"languages": "Zh"
+	},
+	"Shuma Baolong - Shuijing Ban (Taiwan) (Vast Fame) (Unl)": {
+		"languages": "Zh"
+	},
 	"Shutokou Racing, The (Japan) (SGB Enhanced) (GB Compatible)": {
 		"languages": "Ja"
 	},
 	"Simpsons, The - Night of the Living Treehouse of Horror (USA, Europe)": {
 		"languages": "En"
+	},
+	"Skelby (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Smurfs Nightmare, The (Europe) (En,Fr,De,Es)": {
 		"languages": "En, Fr, De, Es"
@@ -3899,6 +4574,12 @@
 	"Solomon (Japan)": {
 		"languages": "Ja"
 	},
+	"Sonic Adventure 7 (Taiwan) (En) (Unl)": {
+		"languages": "En"
+	},
+	"Sonic Adventure 8 (Taiwan) (En) (Rumble Version) (Unl)": {
+		"languages": "En"
+	},
 	"Soreike! Anpanman - 5-tsu no Tou no Ousama (Japan)": {
 		"languages": "Ja"
 	},
@@ -3912,6 +4593,9 @@
 		"languages": "Ja"
 	},
 	"South Park (USA) (Proto)": {
+		"languages": "En"
+	},
+	"Space Baby (USA) (Unl)": {
 		"languages": "En"
 	},
 	"Space Invaders (USA, Europe) (GB Compatible)": {
@@ -3947,10 +4631,16 @@
 	"Spawn (USA)": {
 		"languages": "En"
 	},
+	"Speedy Gonzales - Aztec Adventure (Japan) (Proto) (GB Compatible)": {
+		"languages": "Ja"
+	},
 	"Speedy Gonzales - Aztec Adventure (USA, Europe) (GB Compatible)": {
 		"languages": "En"
 	},
 	"Spider-Man 2 - The Sinister Six (USA, Europe)": {
+		"languages": "En"
+	},
+	"Spider-Man 3 - Movie Version (USA) (Unl)": {
 		"languages": "En"
 	},
 	"Spider-Man (France)": {
@@ -3968,6 +4658,9 @@
 	"SpongeBob SquarePants - Legend of the Lost Spatula (USA, Europe)": {
 		"languages": "En"
 	},
+	"Spy vs Spy (Europe) (En,Fr,De,Es,It,Nl,Sv) (Rev 1) (Proto)": {
+		"languages": "En, Fr, De, Es, It, Nl, Sv"
+	},
 	"Spy vs Spy (Europe) (En,Fr,De,Es,It,Nl,Sv)": {
 		"languages": "En, Fr, De, Es, It, Nl, Sv"
 	},
@@ -3976,6 +4669,9 @@
 	},
 	"Spy vs Spy (Japan)": {
 		"languages": "Ja"
+	},
+	"Spy vs Spy (USA) (En,Fr,De,Es,It,Nl,Sv) (Rev 1) (Proto)": {
+		"languages": "En, Fr, De, Es, It, Nl, Sv"
 	},
 	"Spy vs Spy (USA)": {
 		"languages": "En"
@@ -4004,8 +4700,17 @@
 	"Star Wars Episode I - Racer (USA, Europe) (Rumble Version)": {
 		"languages": "En"
 	},
+	"Startled 911 (Taiwan) (En) (Unl)": {
+		"languages": "En"
+	},
+	"Stellar Wars (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Stranded Kids (Europe) (En,Fr,De) (SGB Enhanced) (GB Compatible)": {
 		"languages": "En, Fr, De"
+	},
+	"Street Fighter Alpha - Warriors' Dreams (Europe) (Rev 1) (Proto)": {
+		"languages": "En"
 	},
 	"Street Fighter Alpha - Warriors' Dreams (Europe)": {
 		"languages": "En"
@@ -4052,11 +4757,26 @@
 	"Super Doll Licca-chan - Kisekae Daisakusen (Japan)": {
 		"languages": "Ja"
 	},
+	"Super Donkey Kong 5 (Taiwan) (En) (Rumble Version) (Unl) (Alt)": {
+		"languages": "En"
+	},
+	"Super Donkey Kong 5 (Taiwan) (En) (Rumble Version) (Unl)": {
+		"languages": "En"
+	},
+	"Super Fighters 99 (Taiwan) (SGB Enhanced) (Unl)": {
+		"languages": "Zh"
+	},
 	"Super Gals! Kotobuki Ran 2 - Miracle Getting (Japan)": {
 		"languages": "Ja"
 	},
 	"Super Gals! Kotobuki Ran (Japan)": {
 		"languages": "Ja"
+	},
+	"Super Jacked Up Tomato Face Johnson (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Super Mario Bros. Deluxe (Europe) (Rev 2)": {
+		"languages": "En"
 	},
 	"Super Mario Bros. Deluxe (Japan) (En) (Rev 1) (NP)": {
 		"languages": "En"
@@ -4067,10 +4787,13 @@
 	"Super Mario Bros. Deluxe (USA, Europe) (Rev 1)": {
 		"languages": "En"
 	},
-	"Super Mario Bros. Deluxe (USA, Europe) (Rev 2)": {
+	"Super Mario Bros. Deluxe (USA, Europe)": {
 		"languages": "En"
 	},
-	"Super Mario Bros. Deluxe (USA, Europe)": {
+	"Super Mario Special 3 (Taiwan) (En) (Unl)": {
+		"languages": "En"
+	},
+	"Super Marrio Sunshine (Taiwan) (En) (Unl)": {
 		"languages": "En"
 	},
 	"Super Me-Mail GB - Me-Mail Bear no Happy Mail Town (Japan)": {
@@ -4106,6 +4829,9 @@
 	"Supreme Snowboarding (Europe) (En,Fr,De)": {
 		"languages": "En, Fr, De"
 	},
+	"Survival Kids 2 - Dasshutsu!! Futago-Jima! (Japan) (Rev 1) (SGB Enhanced, GB Compatible) (NP)": {
+		"languages": "Ja"
+	},
 	"Survival Kids 2 - Dasshutsu!! Futago-Jima! (Japan) (SGB Enhanced) (GB Compatible)": {
 		"languages": "Ja"
 	},
@@ -4127,14 +4853,23 @@
 	"Suzuki Alstare Extreme Racing (Europe) (En,Fr,De,Es,It,Nl)": {
 		"languages": "En, Fr, De, Es, It, Nl"
 	},
+	"Suzuki Alstare Extreme Racing (USA) (Proto)": {
+		"languages": "En"
+	},
 	"Sweet Ange (Japan) (SGB Enhanced) (GB Compatible)": {
 		"languages": "Ja"
+	},
+	"Swing (Europe) (En,Fr,De,Es,It) (Proto)": {
+		"languages": "En, Fr, De, Es, It"
 	},
 	"Swing (Germany)": {
 		"languages": "De"
 	},
-	"SWIV (Europe) (En,Fr,De,Es,It)": {
+	"SWiV (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En, Fr, De, Es, It"
+	},
+	"Sylvanian Families 2 - Irozuku Mori no Fantasy (Japan) (Rev 1) (NP)": {
+		"languages": "Ja"
 	},
 	"Sylvanian Families 2 - Irozuku Mori no Fantasy (Japan)": {
 		"languages": "Ja"
@@ -4153,6 +4888,18 @@
 	},
 	"Tabaluga (Germany) (GB Compatible)": {
 		"languages": "De"
+	},
+	"Taikong Baobei (Taiwan) (Li Cheng) (Unl)": {
+		"languages": "Zh"
+	},
+	"Taikong Baobei (Taiwan) (Sintax) (Unl)": {
+		"languages": "Zh"
+	},
+	"Taikong Zhanshi - Jingdian Ban (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
+	"Taikong Zhanshi DX3 - Zuizhong Huanxiang (Taiwan) (Unl)": {
+		"languages": "Zh"
 	},
 	"Taisen Tsume Shougi (Japan) (NP) (GB Compatible)": {
 		"languages": "Ja"
@@ -4187,6 +4934,9 @@
 	"Tasmanian Devil - Munching Madness (USA) (En,Fr,De,Es,It) (GB Compatible)": {
 		"languages": "En, Fr, De, Es, It"
 	},
+	"Taxi 2 (Europe) (En,Fr,De,Es,It,Nl) (Proto)": {
+		"languages": "En, Fr, De, Es, It, Nl"
+	},
 	"Taxi 2 (France)": {
 		"languages": "Fr"
 	},
@@ -4196,6 +4946,12 @@
 	"Tech Deck Skateboarding (USA, Europe)": {
 		"languages": "En"
 	},
+	"Telefang - Power Version (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
+	"Terrifying 911 (China) (En) (Unl)": {
+		"languages": "En"
+	},
 	"Test Drive 6 (Europe) (En,Fr,De,Es,It) (GB Compatible)": {
 		"languages": "En, Fr, De, Es, It"
 	},
@@ -4203,6 +4959,9 @@
 		"languages": "En, Fr, De, Es, It"
 	},
 	"Test Drive 6 (USA) (GB Compatible)": {
+		"languages": "En"
+	},
+	"Test Drive 6 (USA) (Rev 1) (Proto)": {
 		"languages": "En"
 	},
 	"Test Drive 2001 (USA)": {
@@ -4226,10 +4985,22 @@
 	"Tetris DX (World) (SGB Enhanced) (GB Compatible)": {
 		"languages": "En"
 	},
-	"Tezhong Budui 2 - Jidi (China) (Li Cheng) (Unl)": {
+	"Tezhong Budui 2 - Jidi (Taiwan) (Unl)": {
 		"languages": "Zh"
 	},
-	"TG Rally 2 (Europe)": {
+	"Tezhong Budui (Taiwan) (Unl) (Alt)": {
+		"languages": "Zh"
+	},
+	"Tezhong Budui (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
+	"TG Rally 2 (United Kingdom)": {
+		"languages": "En"
+	},
+	"The Powerpuff Girls - Il Terribile Mojo Jojo (Italy) (Proto)": {
+		"languages": "It"
+	},
+	"The Second Edition Harry Boy - The Secret of the Chamber of Secrets (USA) (Unl)": {
 		"languages": "En"
 	},
 	"Three Lions (United Kingdom) (En,Fr,De,Es,It,Nl,Sv) (GB Compatible)": {
@@ -4280,6 +5051,9 @@
 	"TNN Outdoors Fishing Champ (USA) (SGB Enhanced) (GB Compatible)": {
 		"languages": "En"
 	},
+	"Tobu Tobu Girl Deluxe (World) (GB Compatible) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"TOCA Touring Car Championship (USA, Europe)": {
 		"languages": "En"
 	},
@@ -4322,6 +5096,12 @@
 	"Tom Clancy's Rainbow Six (USA, Europe) (En,Fr,De)": {
 		"languages": "En, Fr, De"
 	},
+	"Tomb Raider 2 (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
+	"Tomb Raider (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
 	"Tomb Raider (USA, Europe) (En,Fr,De,Es,It) (Beta)": {
 		"languages": "En, Fr, De, Es, It"
 	},
@@ -4333,6 +5113,9 @@
 	},
 	"Tonic Trouble (Europe) (En,Fr,De,Es,It,Nl)": {
 		"languages": "En, Fr, De, Es, It, Nl"
+	},
+	"Tonka Construction Site (USA) (Beta)": {
+		"languages": "En"
 	},
 	"Tonka Construction Site (USA)": {
 		"languages": "En"
@@ -4355,7 +5138,7 @@
 	"Tony Hawk's Pro Skater (Japan) (Proto)": {
 		"languages": "Ja"
 	},
-	"Tony Hawk's Skateboarding ~ Tony Hawk's Pro Skater (USA, Europe)": {
+	"Tony Hawk's Pro Skater (USA, Europe)": {
 		"languages": "En"
 	},
 	"Toobin' (USA)": {
@@ -4373,8 +5156,14 @@
 	"Tootuff (Europe) (En,Fr,De,Es,It,Nl)": {
 		"languages": "En, Fr, De, Es, It, Nl"
 	},
+	"Top Gear Pocket 2 (Japan) (Rev 1) (Proto) (Rumble Version)": {
+		"languages": "Ja"
+	},
 	"Top Gear Pocket 2 (Japan) (Rumble Version)": {
 		"languages": "Ja"
+	},
+	"Top Gear Pocket 2 (USA) (Rev 1) (Proto)": {
+		"languages": "En"
 	},
 	"Top Gear Pocket 2 (USA)": {
 		"languages": "En"
@@ -4406,16 +5195,19 @@
 	"Tottoko Hamutarou - Tomodachi Daisakusen Dechu (Japan)": {
 		"languages": "Ja"
 	},
+	"Tower of Evil (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Towers - Lord Baniff's Deceit (USA, Europe)": {
 		"languages": "En"
 	},
-	"Towers II - Plight of the Stargazer (USA) (2001-12-09) (Proto 1) (Alt)": {
+	"Towers II - Plight of the Stargazer (USA) (Proto 1) (2000-05-07)": {
 		"languages": "En"
 	},
-	"Towers II - Plight of the Stargazer (USA) (Proto 1) (2001-12-09)": {
+	"Towers II - Plight of the Stargazer (USA) (Proto 2) (2000-08-05)": {
 		"languages": "En"
 	},
-	"Towers II - Plight of the Stargazer (USA) (Proto 2)": {
+	"Towers II - Plight of the Stargazer (USA) (Proto 3) (2001-12-09)": {
 		"languages": "En"
 	},
 	"Toy Story 2 (USA, Europe) (SGB Enhanced) (GB Compatible)": {
@@ -4433,6 +5225,9 @@
 	"Trade & Battle Card Hero (Japan) (SGB Enhanced) (GB Compatible)": {
 		"languages": "Ja"
 	},
+	"Treasure Island Color (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"Trick Boarder (Europe)": {
 		"languages": "En"
 	},
@@ -4447,6 +5242,9 @@
 	},
 	"Trouballs (USA)": {
 		"languages": "En"
+	},
+	"True Color 25 in 1 (Taiwan) (Unl)": {
+		"languages": "Zh"
 	},
 	"Tsuri Sensei 2 (Japan) (SGB Enhanced) (GB Compatible)": {
 		"languages": "Ja"
@@ -4492,6 +5290,9 @@
 	},
 	"Tweety's High-Flying Adventure (USA)": {
 		"languages": "En"
+	},
+	"Tycoon Tex (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Tyrannosaurus Tex (USA) (Proto)": {
 		"languages": "En"
@@ -4542,6 +5343,9 @@
 		"languages": "En, Fr, Es"
 	},
 	"Vegas Games (Europe) (En,Fr,De)": {
+		"languages": "En, Fr, De"
+	},
+	"Vegas Games (USA) (En,Fr,De) (Rev 1) (Proto)": {
 		"languages": "En, Fr, De"
 	},
 	"Vegas Games (USA)": {
@@ -4598,8 +5402,26 @@
 	"Watashi no Kitchen (Japan)": {
 		"languages": "Ja"
 	},
+	"Watashi no Restaurant (Japan) (Beta 1)": {
+		"languages": "Ja"
+	},
+	"Watashi no Restaurant (Japan) (Beta 2)": {
+		"languages": "Ja"
+	},
+	"Watashi no Restaurant (Japan) (Beta 3)": {
+		"languages": "Ja"
+	},
 	"Watashi no Restaurant (Japan)": {
 		"languages": "Ja"
+	},
+	"Waternet (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Waternet (World) (Batteryless Generic Save Flash Cartridge Version) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
+	"Waternet (World) (Batteryless Save Flash Cartridge Version) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"WCW Mayhem (USA, Europe)": {
 		"languages": "En"
@@ -4609,6 +5431,9 @@
 	},
 	"WDL - World Destruction League - Thunder Tanks (USA) (En,Fr,De)": {
 		"languages": "En, Fr, De"
+	},
+	"Wendy - Der Traum von Arizona (Germany) (Beta)": {
+		"languages": "De"
 	},
 	"Wendy - Der Traum von Arizona (Germany)": {
 		"languages": "De"
@@ -4639,6 +5464,9 @@
 	},
 	"Winnie the Pooh - Adventures in the 100 Acre Wood (USA)": {
 		"languages": "En"
+	},
+	"Wizard of Wor (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
 	},
 	"Wizardry Empire (Japan) (Rev 1)": {
 		"languages": "Ja"
@@ -4673,17 +5501,20 @@
 	"Woody Woodpecker Racing (USA)": {
 		"languages": "En"
 	},
+	"World Cup (World) (Aftermarket) (Homebrew)": {
+		"languages": "nolang"
+	},
 	"World Soccer GB 2 (Japan) (SGB Enhanced) (GB Compatible)": {
 		"languages": "Ja"
 	},
 	"World Soccer GB 2000 (Japan)": {
 		"languages": "Ja"
 	},
+	"Worms Armageddon (Europe) (Beta)": {
+		"languages": "En"
+	},
 	"Worms Armageddon (Europe) (En,Fr,De,Es,It,Nl)": {
 		"languages": "En, Fr, De, Es, It, Nl"
-	},
-	"Worms Armageddon (USA) (Beta)": {
-		"languages": "En"
 	},
 	"Worms Armageddon (USA) (En,Fr,Es)": {
 		"languages": "En, Fr, Es"
@@ -4721,11 +5552,38 @@
 	"Xena - Warrior Princess (USA, Europe) (En,Fr,De,Es,It,Nl)": {
 		"languages": "En, Fr, De, Es, It, Nl"
 	},
+	"Xi You Ji (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
+	"Xiao Tai Ji - Shen Hua Li Xian (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
+	"Xin Feng Shen Bang (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
+	"Xin Guangming Yu Hei'an 2 - Zhushen De Yichan (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
+	"Xin Shediao Yingxiong Chuan (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
+	"Xin Tiao Hui Yi (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
+	"Xing Qiu Da Zhan II - Ke Long Ren Zhan Yi (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
+	"Xploder GB (Germany) (v1.2.2G) (GB Compatible) (Unl)": {
+		"languages": "De"
+	},
 	"Xtreme Sports (USA)": {
 		"languages": "En"
 	},
 	"Xtreme Wheels (Europe)": {
 		"languages": "En"
+	},
+	"Xtreme Wheels (Japan) (NP)": {
+		"languages": "Ja"
 	},
 	"Xtreme Wheels (USA)": {
 		"languages": "En"
@@ -4736,7 +5594,22 @@
 	"Yars' Revenge (USA, Europe) (GB Compatible)": {
 		"languages": "En"
 	},
+	"Yin Ban Zhongwen RPG Zhanlve + Dongzuo + Yizhi 12 in 1 (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
+	"Yingxiong Jian 2 (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
+	"Yingxiong Tianxia (Taiwan) (Zh) (Unl)": {
+		"languages": "Zh"
+	},
 	"Yogi Bear - Great Balloon Blast (USA)": {
+		"languages": "En"
+	},
+	"Yong Zhe Dou E Long VIII (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
+	"Yu-Gi-Oh! - Dark Duel Stories (Europe) (Beta)": {
 		"languages": "En"
 	},
 	"Yu-Gi-Oh! - Dark Duel Stories (Europe)": {
@@ -4747,6 +5620,9 @@
 	},
 	"Yu-Gi-Oh! - Das Dunkle Duell (Germany)": {
 		"languages": "De"
+	},
+	"Yu-Gi-Oh! - Duel des Tenebres (France) (Beta)": {
+		"languages": "Fr"
 	},
 	"Yu-Gi-Oh! - Duel des Tenebres (France)": {
 		"languages": "Fr"
@@ -4774,6 +5650,15 @@
 	},
 	"Yu-Gi-Oh! Duel Monsters III - Tri Holy God Advant (Japan)": {
 		"languages": "Ja"
+	},
+	"Yue Nan Zhan Yi 3 (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
+	"Yuenan Zhanyi - Chong Jian Tian Ri (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
+	"Yuenan Zhanyi X - Shenru Dihou (Taiwan) (Unl)": {
+		"languages": "Zh"
 	},
 	"Zebco Fishing! (USA) (Rumble Version)": {
 		"languages": "En"
@@ -4811,7 +5696,16 @@
 	"Zen-Nihon Shounen Soccer Taikai - Mezase Nihon Ichi! (Japan)": {
 		"languages": "Ja"
 	},
-	"Zidane Football Generation (Europe) (En,Fr,De,Es,It)": {
+	"Zhen San Guo Wu Shuang 2 - Shin Sangokumusou (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
+	"Zhi Huan Wang - Shou Bu Qu (Taiwan) (Zh) (Unl)": {
+		"languages": "Zh"
+	},
+	"Zhi Zhu Xia III - Dian Ying Ban (Taiwan) (Unl)": {
+		"languages": "Zh"
+	},
+	"Zidane - Football Generation (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En, Fr, De, Es, It"
 	},
 	"Zoboomafoo - Playtime in Zobooland (USA)": {
@@ -4828,5 +5722,8 @@
 	},
 	"Zok Zok Heroes (Japan)": {
 		"languages": "Ja"
+	},
+	"Zook Z (USA) (Unl)": {
+		"languages": "En"
 	}
 }

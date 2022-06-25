@@ -191,6 +191,9 @@
     "Aliens vs. Predator - Requiem (USA)": {
         "languages": "En"
     },
+    "Amagami (Japan)": {
+        "languages": "Ja"
+    },
     "Amagoushi no Yakata Portable - Ichiyanagi Nagomu, Saisho no Junan (Japan)": {
         "languages": "Ja"
     },
@@ -1235,10 +1238,13 @@
     "Densetsu no Yuusha no Densetsu - Legendary Saga (Japan)": {
         "languages": "Ja"
     },
-    "Densha de Go! Pocket - Osaka Kanjousen Hen (Japan)": {
+    "Densha de Go! Pocket - Osaka Kanjousen-hen (Japan)": {
         "languages": "Ja"
     },
-    "Densha de Go! Pocket - Yamanotesen Hen (Japan)": {
+    "Densha de Go! Pocket - Tokaidosen-hen (Japan)": {
+        "languages": "Ja"
+    },
+    "Densha de Go! Pocket - Yamanotesen-hen (Japan)": {
         "languages": "Ja"
     },
     "Derby Time 2006 (Japan)": {
@@ -1255,6 +1261,9 @@
     },
     "DiRT 2 (USA)": {
         "languages": ""
+    },
+    "Dia no Kuni no Alice - Wonderful Mirror World (Japan)": {
+        "languages": "Ja"
     },
     "Diabolik - The Original Sin (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
@@ -1331,6 +1340,9 @@
     "Disney TRON - Evolution (Europe) (En,Fr,De,Es,It,Nl)": {
         "languages": "Nl, En, Fr, De, It, Es"
     },
+    "Disney TRON - Evolution (Russia)": {
+        "languages": "Ru"
+    },
     "Disney TRON - Evolution (USA) (En,Fr,Es)": {
         "languages": "En, Fr, Es"
     },
@@ -1366,6 +1378,9 @@
     },
     "Disney-Pixar Cars 2 (USA)": {
         "languages": ""
+    },
+    "Disney-Pixar Istoriya igrushek - Bol'shoj pobeg (Russia)": {
+        "languages": "Ru"
     },
     "Disney-Pixar Oben (Germany)": {
         "languages": "De"
@@ -1503,7 +1518,7 @@
         "languages": "Ja"
     },
     "Dragon Ball Z - Jinmudohoe (Korea)": {
-        "languages": ""
+        "languages": "Ja"
     },
     "Dragon Ball Z - Shin Budokai (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
@@ -1694,6 +1709,15 @@
     "Eiyuu Densetsu Gagharv Trilogy - Shiroki Majo (Japan)": {
         "languages": "Ja"
     },
+    "Elminage II - Sousei no Megami to Unmei no Daichi (Japan)": {
+        "languages": "Ja"
+    },
+    "Elminage III - Ankoku no Shito to Taiyou no Kyuuden (Japan)": {
+        "languages": "Ja"
+    },
+    "Elminage Original - Yami no Miko to Kamigami no Yubiwa (Japan)": {
+        "languages": "Ja"
+    },
     "Enkaku Sousa - Shinjitsu e no 23-nichi-kan (Japan)": {
         "languages": "Ja"
     },
@@ -1721,7 +1745,7 @@
     "Everybody's Golf (Korea)": {
         "languages": "En"
     },
-    "Everybody's Golf 2 (Europe, Australia) (En,Fr,De,Es,It)": {
+    "Everybody's Golf 2 (Europe, Canada) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
     "Everybody's Stress Buster (Asia) (En,Zh)": {
@@ -1825,6 +1849,9 @@
     },
     "FIFA 08 (Portugal)": {
         "languages": "Pt"
+    },
+    "FIFA 08 (Russia)": {
+        "languages": "Ru"
     },
     "FIFA 08 (Spain)": {
         "languages": "Es"
@@ -2915,6 +2942,9 @@
     "Idolmaster Shiny Festa, The - Honey Sound (Japan)": {
         "languages": "Ja"
     },
+    "Ikuze! Gen-san - Yuuyake Daiku Monogatari (Korea)": {
+        "languages": "Ja"
+    },
     "Il-2 Shturmovik - Krylatye xishhniki (Russia)": {
         "languages": "Ru"
     },
@@ -3077,6 +3107,9 @@
     "Jikkyou Powerful Pro Yakyuu 2012 (Japan)": {
         "languages": "Ja"
     },
+    "Jikkyou Powerful Pro Yakyuu 2013 (Japan)": {
+        "languages": "Ja"
+    },
     "Jikkyou Powerful Pro Yakyuu Portable (Japan)": {
         "languages": "Ja"
     },
@@ -3215,6 +3248,9 @@
     "Kenka Banchou 4 - Ichinen Sensou (Japan, Asia)": {
         "languages": "Ja"
     },
+    "Kenka Banchou 5 - Otoko no Rule (Japan) (v1.02)": {
+        "languages": "Ja"
+    },
     "Kenka Banchou 5 - Otoko no Rule (Japan) (v2.00)": {
         "languages": ""
     },
@@ -3290,6 +3326,12 @@
     "King of Pool (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
+    "King's Field - Additional I (Asia)": {
+        "languages": "Ja"
+    },
+    "King's Field - Additional II (Asia)": {
+        "languages": "Ja"
+    },
     "Kingdom Hearts - Birth by Sleep (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
@@ -3342,6 +3384,9 @@
         "languages": "Ja"
     },
     "Kuroko no Baske - Kiseki no Game (Japan)": {
+        "languages": "Ja"
+    },
+    "Kuroyuki-hime - Snow Black (Japan)": {
         "languages": "Ja"
     },
     "Kuru Kuru Chameleon (Asia)": {
@@ -3560,6 +3605,9 @@
     "Lumines II (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
+    "Lumines II (Japan)": {
+        "languages": "Ja"
+    },
     "Lumines II (USA)": {
         "languages": "En"
     },
@@ -3577,6 +3625,9 @@
     },
     "M.A.C.H. - Modified Air Combat Heroes (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
+    },
+    "M.A.C.H. - Modified Air Combat Heroes (Russia)": {
+        "languages": "Ru"
     },
     "M.A.C.H. - Modified Air Combat Heroes (USA)": {
         "languages": ""
@@ -4085,7 +4136,7 @@
     "Mobile Train Simulator - Keisei Toei Asakusa Keikyuusen (Japan)": {
         "languages": "Ja"
     },
-    "Mobile Train Simulator plus Densha de Go! Tokyo Kyuukou Hen (Japan)": {
+    "Mobile Train Simulator plus Densha de Go! Tokyo Kyuukou-hen (Japan)": {
         "languages": "Ja"
     },
     "ModNation Racers (Asia) (En,Zh)": {
@@ -4667,6 +4718,9 @@
     "Ore no Imouto ga Konna ni Kawaii Wake ga Nai Portable ga Tsuzuku Wake ga Nai (Japan) (Disc 2)": {
         "languages": "Ja"
     },
+    "Ore no Imouto ga Konna ni Kawaii wake ga Nai Portable (Japan)": {
+        "languages": "Ja"
+    },
     "Ore no Shikabane o Koete Yuke (Japan)": {
         "languages": "Ja"
     },
@@ -4886,6 +4940,9 @@
     "Patapon 2 (USA)": {
         "languages": "En"
     },
+    "Patapon 2 - Don-Chaka (Japan)": {
+        "languages": "Ja"
+    },
     "Patapon 2 - Don-Chaka (Japan) (Demo)": {
         "languages": "Ja"
     },
@@ -5020,6 +5077,9 @@
     },
     "PixelJunk Monsters UMD Limited Edition (Asia) (En,Ja)": {
         "languages": "En, Ja"
+    },
+    "Planetarian - Chiisa na Hoshi no Yume (Japan)": {
+        "languages": "Ja"
     },
     "Planetarium Creator Oohira Takayuki Kanshuu - Homestar Portable (Japan)": {
         "languages": "Ja"
@@ -5369,6 +5429,9 @@
     "Rengoku II - The Stairway to H.E.A.V.E.N. (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
+    "Rengoku II - The Stairway to H.E.A.V.E.N. (Japan)": {
+        "languages": "Ja"
+    },
     "Rengoku II - The Stairway to H.E.A.V.E.N. (USA)": {
         "languages": "En"
     },
@@ -5568,6 +5631,9 @@
         "languages": "En"
     },
     "Saigo no Yakusoku no Monogatari (Japan)": {
+        "languages": "Ja"
+    },
+    "Saki Portable (Japan)": {
         "languages": "Ja"
     },
     "Sakura Taisen 1 & 2 (Japan, Asia)": {
@@ -5981,6 +6047,9 @@
     "Soukyuu no Fafner (Japan)": {
         "languages": "Ja"
     },
+    "Soul Eater - Battle Resonance (Japan)": {
+        "languages": "Ja"
+    },
     "Soulcalibur - Broken Destiny (Europe) (En,Ja,Fr,De,Es,It,Ru)": {
         "languages": "En, Fr, De, It, Ja, Ru, Es"
     },
@@ -6332,9 +6401,6 @@
     "TOCA Race Driver 3 Challenge (Europe) (En,Fr,De,Es,It)": {
         "languages": "En, Fr, De, It, Es"
     },
-    "TRON - Evolution (Russia)": {
-        "languages": "Ru"
-    },
     "Tactics Ogre - Let Us Cling Together (Europe)": {
         "languages": "En"
     },
@@ -6665,6 +6731,9 @@
     "Tony Hawk's Underground 2 Remix (USA)": {
         "languages": "En"
     },
+    "ToraDora Portable! (Japan)": {
+        "languages": "Ja"
+    },
     "Toriko - Gourmet Survival (Japan)": {
         "languages": "Ja"
     },
@@ -6714,6 +6783,9 @@
         "languages": ""
     },
     "TwinBee Portable (Japan)": {
+        "languages": "Ja"
+    },
+    "Twinkle Crusaders Starlit Brave (Japan)": {
         "languages": "Ja"
     },
     "Twisted Metal - Head-On (Europe) (En,Fr,De,Es,It)": {
@@ -6772,6 +6844,9 @@
     },
     "Ultimate Ghosts'n Goblins (USA)": {
         "languages": "En"
+    },
+    "Ultraman All-Star Chronicle (Japan)": {
+        "languages": "Ja"
     },
     "Umihara Kawase Portable (Japan)": {
         "languages": "Ja"
@@ -6875,6 +6950,9 @@
     "Vampire Chronicle - The Chaos Tower (Japan) (En,Ja)": {
         "languages": "En, Ja"
     },
+    "Venus & Braves - Majo to Megami to Horobi no Yogen (Japan)": {
+        "languages": "Ja"
+    },
     "Viewtiful Joe - Battle Carnival (Japan)": {
         "languages": "Ja"
     },
@@ -6942,7 +7020,7 @@
         "languages": "En"
     },
     "WWE SmackDown vs. Raw 2007 (Korea)": {
-        "languages": "Ko"
+        "languages": "En"
     },
     "WWE SmackDown vs. Raw 2007 (USA)": {
         "languages": ""
@@ -7194,6 +7272,9 @@
         "languages": "Zh, En"
     },
     "World Soccer Winning Eleven 2012 (Japan)": {
+        "languages": "Ja"
+    },
+    "World Soccer Winning Eleven 2014 (Japan)": {
         "languages": "Ja"
     },
     "World Soccer Winning Eleven 9 - Ubiquitous Evolution (Japan, Asia)": {

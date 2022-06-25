@@ -83,7 +83,7 @@
     "Fuuun Mokushiroku - Kakutou Sousei ~ Savage Reign (Export) (En,Ja,Es,Pt) (Rev 1)": {
         "languages": "En, Ja, Pt, Es"
     },
-    "Fuuun Mokushiroku - Kakutou Sousei ~ Savage Reign (Japan) (En,Ja,Es,Pt)": {
+    "Fuuun Mokushiroku - Kakutou Sousei ~ Savage Reign (World) (En,Ja,Es,Pt)": {
         "languages": "En, Ja, Pt, Es"
     },
     "Galaxy Fight - Universal Warriors (Japan) (En,Ja,Es)": {
@@ -113,7 +113,7 @@
     "Garou Densetsu Special ~ Fatal Fury Special (World) (En,Ja) (Rev 1)": {
         "languages": "En, Ja"
     },
-    "Ghost Pilots (Japan)": {
+    "Ghost Pilots (World)": {
         "languages": "En"
     },
     "Idol Mahjong - Final Romance 2 (Japan)": {
@@ -122,10 +122,10 @@
     "Janshin Densetsu - Quest of Jongmaster (Japan)": {
         "languages": "Ja"
     },
-    "Joy Joy Kid ~ Puzzled (Japan) (En,Ja)": {
+    "Joy Joy Kid ~ Puzzled (World) (En,Ja)": {
         "languages": "En, Ja"
     },
-    "King of Fighters '94, The (Japan) (En,Ja)": {
+    "King of Fighters '94, The (World) (En,Ja)": {
         "languages": "En, Ja"
     },
     "King of Fighters '94, The (World) (En,Ja) (Rev 1)": {
@@ -272,10 +272,10 @@
     "Shougi no Tatsujin - Master of Syougi (Japan)": {
         "languages": "Ja"
     },
-    "Soccer Brawl (Japan)": {
+    "Soccer Brawl (World)": {
         "languages": "En"
     },
-    "Sonic Wings 2 ~ Aero Fighters 2 (Japan) (En,Ja)": {
+    "Sonic Wings 2 ~ Aero Fighters 2 (World) (En,Ja)": {
         "languages": "En, Ja"
     },
     "Sonic Wings 3 ~ Aero Fighters 3 (Japan) (En,Ja)": {
@@ -321,6 +321,9 @@
         "languages": "En, Ja"
     },
     "World Heroes 2 Jet (Japan) (En,Ja)": {
+        "languages": "En, Ja"
+    },
+    "World Heroes Perfect (Export) (En,Ja) (Rev 1)": {
         "languages": "En, Ja"
     },
     "World Heroes Perfect (World) (En,Ja)": {

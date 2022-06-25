@@ -29,6 +29,9 @@
 	"Actua Golf 3 (Europe)": {
 		"languages": "En"
 	},
+	"Actua Tennis (Europe)": {
+		"languages": "En"
+	},
 	"Advanced V.G (Japan)": {
 		"languages": "Ja"
 	},
@@ -49,6 +52,9 @@
 	},
 	"AirAssault (Japan)": {
 		"languages": "Ja"
+	},
+	"Airboat Racing (Europe)": {
+		"languages": "En"
 	},
 	"Akagawa Jirou - Majotachi no Nemuri - Fukkatsusai (Japan)": {
 		"languages": "Ja"
@@ -431,7 +437,13 @@
 	"Castlevania Chronicles (USA)": {
 		"languages": "En"
 	},
+	"Centipede (Europe)": {
+		"languages": "En"
+	},
 	"Centipede (USA)": {
+		"languages": "En"
+	},
+	"Championship Bass (Europe)": {
 		"languages": "En"
 	},
 	"Championship Bass (Japan)": {
@@ -490,6 +502,9 @@
 	},
 	"Command & Conquer (Europe)": {
 		"languages": "En"
+	},
+	"Command & Conquer (France)": {
+		"languages": "Fr"
 	},
 	"Command & Conquer (USA)": {
 		"languages": "En"
@@ -1178,6 +1193,9 @@
 	"Future Cop - L.A.P.D. (Europe)": {
 		"languages": "En"
 	},
+	"Future Cop - L.A.P.D. (France)": {
+		"languages": "Fr"
+	},
 	"Future Cop - L.A.P.D. (Germany)": {
 		"languages": "De"
 	},
@@ -1301,6 +1319,9 @@
 	"Gunparade March (Japan)": {
 		"languages": "Ja"
 	},
+	"Gunship (Europe)": {
+		"languages": "En"
+	},
 	"Gunship (USA)": {
 		"languages": "En"
 	},
@@ -1313,11 +1334,17 @@
 	"Hardcore 4x4 (Europe)": {
 		"languages": "En"
 	},
+	"Hardcore 4x4 (Germany)": {
+		"languages": "De"
+	},
 	"Hardcore 4x4 (USA)": {
 		"languages": "En"
 	},
 	"Harmful Park (Japan)": {
 		"languages": "Ja"
+	},
+	"Harvest Moon - Back to Nature (Europe)": {
+		"languages": "En"
 	},
 	"Harvest Moon - Back to Nature (Germany) (En,De)": {
 		"languages": "En, De"
@@ -1348,6 +1375,9 @@
 	},
 	"Hi-Octane (Europe)": {
 		"languages": "En"
+	},
+	"Hi-Octane (Germany)": {
+		"languages": "De"
 	},
 	"Hi-Octane (Japan)": {
 		"languages": "Ja"
@@ -1446,6 +1476,87 @@
 		"languages": "En"
 	},
 	"Jiisan 2 Tabi Bikkuri - CG Mukashibanashi (Japan)": {
+		"languages": "Ja"
+	},
+	"JP0013-NPJJ00568_00-0000000000000001 (Japan)": {
+		"languages": "Ja"
+	},
+	"JP0013-NPJJ00577_00-0000000000000001 (Japan)": {
+		"languages": "Ja"
+	},
+	"JP0102-NPJJ00623_00-0000000000000001 (Japan)": {
+		"languages": "Ja"
+	},
+	"JP0240-NPJJ00292_00-0000000000000001 (Japan)": {
+		"languages": "Ja"
+	},
+	"JP0325-NPJJ00217_00-0000000000000001 (Japan)": {
+		"languages": "Ja"
+	},
+	"JP0325-NPJJ00227_00-0000000000000001 (Japan)": {
+		"languages": "Ja"
+	},
+	"JP0325-NPJJ00240_00-0000000000000001 (Japan)": {
+		"languages": "Ja"
+	},
+	"JP0507-NPJJ00205_00-0000000000000001 (Japan)": {
+		"languages": "Ja"
+	},
+	"JP0507-NPJJ00237_00-0000000000000001 (Japan)": {
+		"languages": "Ja"
+	},
+	"JP0507-NPJJ00238_00-0000000000000001 (Japan)": {
+		"languages": "Ja"
+	},
+	"JP0507-NPJJ00246_00-0000000000000001 (Japan)": {
+		"languages": "Ja"
+	},
+	"JP0571-NPJJ00010_00-0000000000000001 (Japan)": {
+		"languages": "Ja"
+	},
+	"JP0571-NPJJ00159_00-0000000000000001 (Japan)": {
+		"languages": "Ja"
+	},
+	"JP0571-NPJJ00426_00-0000000000000001 (Japan)": {
+		"languages": "Ja"
+	},
+	"JP0571-NPJJ00438_00-0000000000000001 (Japan)": {
+		"languages": "Ja"
+	},
+	"JP0571-NPJJ00452_00-0000000000000001 (Japan)": {
+		"languages": "Ja"
+	},
+	"JP0571-NPJJ00530_00-0000000000000001 (Japan)": {
+		"languages": "Ja"
+	},
+	"JP0700-NPJJ00560_00-0000000000000001 (Japan)": {
+		"languages": "Ja"
+	},
+	"JP0700-NPJJ00676_00-0000000000000001 (Japan)": {
+		"languages": "Ja"
+	},
+	"JP0700-NPJJ00696_00-0000000000000001 (Japan)": {
+		"languages": "Ja"
+	},
+	"JP0700-NPJJ00706_00-0000000000000001 (Japan)": {
+		"languages": "Ja"
+	},
+	"JP0747-NPJJ00532_00-0000000000000001 (Japan)": {
+		"languages": "Ja"
+	},
+	"JP0747-NPJJ00535_00-0000000000000001 (Japan)": {
+		"languages": "Ja"
+	},
+	"JP0747-NPJJ00589_00-0000000000000001 (Japan)": {
+		"languages": "Ja"
+	},
+	"JP0747-NPJJ00779_00-0000000000000001 (Japan)": {
+		"languages": "Ja"
+	},
+	"JP1091-NPJJ00740_00-0000000000000001 (Japan)": {
+		"languages": "Ja"
+	},
+	"JP9000-NPJI00006_00-0000000000000001 (Japan)": {
 		"languages": "Ja"
 	},
 	"Judge Dredd (Europe)": {
@@ -1706,6 +1817,9 @@
 	"Mad Stalker - Full Metal Force (Japan)": {
 		"languages": "Ja"
 	},
+	"Magic Carpet (Europe)": {
+		"languages": "En"
+	},
 	"Magic Carpet (Germany)": {
 		"languages": "De"
 	},
@@ -1926,6 +2040,9 @@
 		"languages": "En"
 	},
 	"Misadventures of Tron Bonne, The (USA)": {
+		"languages": "En"
+	},
+	"Missile Command (Europe)": {
 		"languages": "En"
 	},
 	"Missile Command (Germany)": {
@@ -2258,6 +2375,9 @@
 	"Policenauts (Japan)": {
 		"languages": "Ja"
 	},
+	"Pong (Europe)": {
+		"languages": "En"
+	},
 	"Pong (USA)": {
 		"languages": "En"
 	},
@@ -2399,6 +2519,9 @@
 	"Rapid Angel (Japan)": {
 		"languages": "Ja"
 	},
+	"Rapid Racer (Japan)": {
+		"languages": "Ja"
+	},
 	"Rascal Racers (Europe)": {
 		"languages": "En"
 	},
@@ -2460,6 +2583,9 @@
 		"languages": "En"
 	},
 	"Reel Fishing (USA)": {
+		"languages": "En"
+	},
+	"Reel Fishing II (Europe)": {
 		"languages": "En"
 	},
 	"Reel Fishing II (USA)": {
@@ -3538,6 +3664,9 @@
 	},
 	"Ungra Walker (Japan)": {
 		"languages": "Ja"
+	},
+	"UP9000-NPUI94308_00-0000000000000002 (USA)": {
+		"languages": "En"
 	},
 	"Urawaza Mahjong - Korette Tenwatte Yatsukai (Japan)": {
 		"languages": "Ja"

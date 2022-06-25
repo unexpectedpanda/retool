@@ -17,20 +17,20 @@
 	"3 Heroes - Crystal Soul (USA)": {
 		"languages": "En"
 	},
-	"3 Punten Katou Itsu - Bakumatsu Quiz He (Japan)": {
-		"languages": "Ja"
-	},
-	"3 Punten Katou Itsu - Higashi Nihon Sengoku Kuizu He (Japan)": {
-		"languages": "Ja"
-	},
-	"3 Punten Katou Itsu - Nishinihon Sengoku Quiz He (Japan)": {
-		"languages": "Ja"
-	},
 	"3, 2, 1... WordsUp! (Europe) (En,Fr,De,Es,It,Pt)": {
 		"languages": "En, Fr, De, Es, It, Pt"
 	},
 	"3, 2, 1... WordsUp! (USA) (En,Fr,Es)": {
 		"languages": "En, Fr, Es"
+	},
+	"3-Pun Tenka Touitsu - Bakumatsu Quiz-hen (Japan)": {
+		"languages": "Ja"
+	},
+	"3-Pun Tenka Touitsu - Higashi Nihon Sengoku Quiz-hen (Japan)": {
+		"languages": "Ja"
+	},
+	"3-Pun Tenka Touitsu - Nishi Nihon Sengoku Quiz-hen (Japan)": {
+		"languages": "Ja"
 	},
 	"3D Mahjong (Europe) (En,Fr,De,Es)": {
 		"languages": "En, Fr, De, Es"
@@ -53,9 +53,6 @@
 	"4 Elements (USA) (En,Fr)": {
 		"languages": "En, Fr"
 	},
-	"4 Ninde Taisen!! - Texas Hold'em (Japan)": {
-		"languages": "Ja"
-	},
 	"4 Travellers - Play French (Australia) (En,Fr,De,Es,It)": {
 		"languages": "En, Fr, De, Es, It"
 	},
@@ -73,6 +70,9 @@
 	},
 	"4 Travellers - Play Spanish (USA) (En,Fr,Es)": {
 		"languages": "En, Fr, Es"
+	},
+	"4-nin de Taisen!! - Texas Hold'em (Japan)": {
+		"languages": "Ja"
 	},
 	"5 in 1 Mahjong (Europe) (En,Fr,De,Es)": {
 		"languages": "En, Fr, De, Es"
@@ -92,14 +92,14 @@
 	"7 Wonders II (USA)": {
 		"languages": "En"
 	},
-	"10 Byou Sou (Japan)": {
-		"languages": "Ja"
-	},
 	"10 Second Run - GO Series (Europe)": {
 		"languages": "En"
 	},
 	"10 Second Run - GO Series (USA)": {
 		"languages": "En"
+	},
+	"10-Byou Sou (Japan)": {
+		"languages": "Ja"
 	},
 	"16 Shot! - Shooting Watch (Europe, Australia) (En,Fr,De,Es)": {
 		"languages": "En, Fr, De, Es"
@@ -182,7 +182,7 @@
 	"101 Shark Pets (USA)": {
 		"languages": "En"
 	},
-	"200 Vmaja - Charen Ji Supirittsu (Japan)": {
+	"200V Mahjong - Challenge Spirits (Japan)": {
 		"languages": "Ja"
 	},
 	"505 Tangram (Europe)": {
@@ -212,61 +212,16 @@
 	"1950s Lawn Mower Kids (USA)": {
 		"languages": "En"
 	},
-	"3450 Arugo (Japan)": {
+	"3450 Algo (Japan)": {
 		"languages": "Ja"
 	},
-	"A Kumu no Youkai Mura (Japan)": {
-		"languages": "Ja"
-	},
-	"A Little Bit of Magic Made Fun - Shuffle Games (Europe) (En,Es)": {
-		"languages": "En, Es"
-	},
-	"A Little Bit of... - Puzzle League (Europe, Australia) (En,Fr,De,It)": {
-		"languages": "En, Fr, De, It"
-	},
-	"A Little Bit of... All-Time - Classics Card Classics (Europe) (En,Fr,De,Es,It,Zh)": {
-		"languages": "En, Fr, De, Es, It, Zh"
-	},
-	"A Little Bit of... All-Time - Classics Family Games (Europe) (En,Fr,De,Es,It,Zh)": {
-		"languages": "En, Fr, De, Es, It, Zh"
-	},
-	"A Little Bit of... All-Time - Classics Strategy Games (Europe) (En,Fr,De,Es,It,Zh,Ko)": {
-		"languages": "En, Fr, De, Es, It, Zh, Ko"
-	},
-	"A Little Bit of... Brain Training - Arts Edition (Europe, Australia) (En,Fr,De,Es,It)": {
-		"languages": "En, Fr, De, Es, It"
-	},
-	"A Little Bit of... Brain Training - Maths Edition (Europe, Australia) (En,Fr,De,Es,It)": {
-		"languages": "En, Fr, De, Es, It"
-	},
-	"A Little Bit of... Brain Training - Sudoku (Europe, Australia) (En,Fr,De,Es,It)": {
-		"languages": "En, Fr, De, Es, It"
-	},
-	"A Little Bit Of... Dr. Mario (Europe, Australia) (En,Ja,Fr,De,Es,It,Zh)": {
-		"languages": "En, Ja, Fr, De, Es, It, Zh"
-	},
-	"A Little Bit of... Magic Made Fun - Deep Psyche (Europe) (De,Es)": {
-		"languages": "De, Es"
-	},
-	"A Little Bit of... Magic Made Fun - Funny Face (Europe) (En,Es)": {
-		"languages": "En, Es"
-	},
-	"A Little Bit of... Magic Made Fun - Matchmaker (Europe) (En,Ja,Fr,De,Es,It)": {
-		"languages": "En, Ja, Fr, De, Es, It"
-	},
-	"A Little Bit of... Magic Made Fun - Mind Probe (Europe) (En,Fr,De,Es,It)": {
-		"languages": "En, Fr, De, Es, It"
-	},
-	"A Little Bit of... Magic Made Fun - Psychic Camera (Europe) (En,Fr,De,Es,It)": {
-		"languages": "En, Fr, De, Es, It"
-	},
-	"A Little Bit of... Nintendo Touch Golf (Europe, Australia) (En,Fr,De,It)": {
-		"languages": "En, Fr, De, It"
-	},
-	"A Mujou Setsuna (Japan)": {
+	"Aa Mujou Setsuna (Japan)": {
 		"languages": "Ja"
 	},
 	"Aa! Nikaku Dori (Japan)": {
+		"languages": "Ja"
+	},
+	"Aaa no Natsukashi no Shuuotchi (Japan)": {
 		"languages": "Ja"
 	},
 	"Aahh! Spot the difference (Europe)": {
@@ -274,9 +229,6 @@
 	},
 	"Aahh! Spot the Difference (USA)": {
 		"languages": "En"
-	},
-	"Aanonatsu Kashino - Shuutchi (Japan)": {
-		"languages": "Ja"
 	},
 	"Absolute Baseball (USA)": {
 		"languages": "En"
@@ -314,6 +266,9 @@
 	"Academy Tic-Tac-Toe - Noughts and Crosses (Europe, Australia) (En,Fr,De,Es,Nl)": {
 		"languages": "En, Fr, De, Es, Nl"
 	},
+	"Accel Knights - Imashi ga Tame Ware wa Tsurugi o Toru (Japan)": {
+		"languages": "Ja"
+	},
 	"Ace Mathician (Europe, Australia)": {
 		"languages": "En"
 	},
@@ -326,19 +281,25 @@
 	"Acoustic Guitar (USA) (En,Fr,Es)": {
 		"languages": "En, Fr, Es"
 	},
-	"ACT Shirizu - Tangochou - Ni Chie Ihen (Japan)": {
+	"ACT Series Tangochou - Nichiei-hen (Japan)": {
 		"languages": "Ja"
 	},
-	"ACT Shirizu - Tangochou - Nikkan-Hen (Japan)": {
+	"ACT Series Tangochou - Nikkan-hen (Japan)": {
 		"languages": "Ja"
 	},
-	"ACT Shirizu - Tangochou Nitchuuhen (Japan)": {
+	"ACT Series Tangochou - Nitchuu-hen (Japan)": {
 		"languages": "Ja"
 	},
-	"Adobencha Kizzu 2 - Poru no Dai Bouken (Japan)": {
+	"Action Game - Magical Whip (Japan)": {
 		"languages": "Ja"
 	},
-	"Adobencha Kizzu - Poru no Bouken (Japan)": {
+	"Action Game - Tobeyo!! Dragon! (Japan)": {
+		"languages": "Ja"
+	},
+	"Action Puzzle - Rabi x Rabi (Japan)": {
+		"languages": "Ja"
+	},
+	"Action Puzzle - Rabi x Rabi Episode 2 (Japan)": {
 		"languages": "Ja"
 	},
 	"Advanced Circuits (Europe, Australia) (En,Fr,De,Es)": {
@@ -353,6 +314,12 @@
 	"Adventure in Vegas - Slot Machine (USA)": {
 		"languages": "En"
 	},
+	"Adventure Kids 2 - Paul no Daibouken (Japan)": {
+		"languages": "Ja"
+	},
+	"Adventure Kids - Paul no Bouken (Japan)": {
+		"languages": "Ja"
+	},
 	"AfterZoom (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En, Fr, De, Es, It"
 	},
@@ -365,9 +332,6 @@
 	"Ah! Heaven (USA)": {
 		"languages": "En"
 	},
-	"Ai Masuto Ran! (Japan)": {
-		"languages": "Ja"
-	},
 	"Ai Sengoku Spirits EX - Gunshiden (Japan)": {
 		"languages": "Ja"
 	},
@@ -377,22 +341,16 @@
 	"Ai Sengoku Spirits EX - Shukunden (Japan)": {
 		"languages": "Ja"
 	},
-	"Ai Sengoku Spirits Gaide - Hideyoshi-Hen (Japan)": {
+	"Ai Sengoku Spirits Gaiden - Hideyoshi-hen (Japan)": {
 		"languages": "Ja"
 	},
-	"Ai Sengoku Spirits Gaide - Kenshin-Hen (Japan)": {
+	"Ai Sengoku Spirits Gaiden - Kenshin-hen (Japan)": {
 		"languages": "Ja"
 	},
-	"Ai Sengoku Spirits Gaide - Nobunaga-Hen (Japan)": {
+	"Ai Sengoku Spirits Gaiden - Nobunaga-hen (Japan)": {
 		"languages": "Ja"
 	},
-	"Ai Shiteiruka - Ai Sareteiruka (Japan)": {
-		"languages": "Ja"
-	},
-	"Aibizakiu Mini (Japan)": {
-		"languages": "Ja"
-	},
-	"Aidoru Naitsu (Japan)": {
+	"Ai Shite Iruka - Ai Sarete Iruka (Japan)": {
 		"languages": "Ja"
 	},
 	"AiRace (Europe, Australia) (En,Fr,De,Es)": {
@@ -419,22 +377,10 @@
 	"Airport Mania - Non-Stop Flights (USA)": {
 		"languages": "En"
 	},
-	"Aitakute Monki (Japan)": {
+	"Aitakute Monkey (Japan)": {
 		"languages": "Ja"
 	},
-	"Akuseru Naitsu - Nagatame Ware Haken' O Toru (Japan)": {
-		"languages": "Ja"
-	},
-	"Akushon Gemu - Majikaruuppu (Japan)": {
-		"languages": "Ja"
-	},
-	"Akushon Gemu - Tobeyo!! Dorago! (Japan)": {
-		"languages": "Ja"
-	},
-	"Akushon Pazuru - Rabi x Rabi (Japan)": {
-		"languages": "Ja"
-	},
-	"Akushon Pazuru - Rabi x Rabi Episodo 2 (Japan)": {
+	"Akumu no Youkai Mura (Japan)": {
 		"languages": "Ja"
 	},
 	"Alien Puzzle Adventure (Europe, Australia) (En,Fr,De,Es)": {
@@ -464,7 +410,7 @@
 	"Amenra no - Kurisutaru dou Kutsu (Japan)": {
 		"languages": "Ja"
 	},
-	"American Popstar - Road to celebrity (USA)": {
+	"American Popstar - Road to Celebrity (USA)": {
 		"languages": "En"
 	},
 	"Amida (Japan)": {
@@ -476,16 +422,16 @@
 	"Amoebattle (USA)": {
 		"languages": "En"
 	},
-	"Anata no Kyuu o Chikku! - Kanken Mini Tesuto (Japan)": {
+	"Anata no Kyuu o Check! - Kanken Mini Test (Japan)": {
 		"languages": "Ja"
 	},
-	"Anata no Raku Raku - Doramu Mashin (Japan)": {
+	"Anata no Raku Raku - Drum Machine (Japan)": {
 		"languages": "Ja"
 	},
-	"Anata no Rakuraku - Erekutorikku Gita (Japan)": {
+	"Anata no Raku Raku - Electric Guitar (Japan)": {
 		"languages": "Ja"
 	},
-	"Anata no Rakuraku - Erekutoronikku Kibodo (Japan)": {
+	"Anata no Raku Raku - Electronic Keyboard (Japan)": {
 		"languages": "Ja"
 	},
 	"Anaume Pazuru Gemu Q (Japan)": {
@@ -551,34 +497,37 @@
 	"Anne's Doll Studio - Tokyo Collection (USA)": {
 		"languages": "En"
 	},
-	"Anonymous Notes 1 - From The Abyss (Europe)": {
-		"languages": "En"
-	},
-	"Anonymous Notes 1 - From The Abyss (Japan)": {
+	"Annyeonghaseyo! - Kankokugo Word Puzzle (Japan)": {
 		"languages": "Ja"
 	},
-	"Anonymous Notes 1 - From The Abyss (USA)": {
+	"Anonymous Notes 1 - From the Abyss (Europe)": {
 		"languages": "En"
 	},
-	"Anonymous Notes 2 - From The Abyss (Europe)": {
-		"languages": "En"
-	},
-	"Anonymous Notes 2 - From The Abyss (Japan)": {
+	"Anonymous Notes 1 - From the Abyss (Japan)": {
 		"languages": "Ja"
 	},
-	"Anonymous Notes 2 - From The Abyss (USA)": {
+	"Anonymous Notes 1 - From the Abyss (USA)": {
 		"languages": "En"
 	},
-	"Anonymous Notes 3 - From The Abyss (Japan)": {
-		"languages": "Ja"
-	},
-	"Anonymous Notes 3 - From The Abyss (USA)": {
+	"Anonymous Notes 2 - From the Abyss (Europe)": {
 		"languages": "En"
 	},
-	"Anonymous Notes 4 - From The Abyss (Japan)": {
+	"Anonymous Notes 2 - From the Abyss (Japan)": {
 		"languages": "Ja"
 	},
-	"Anonymous Notes 4 - From The Abyss (USA)": {
+	"Anonymous Notes 2 - From the Abyss (USA)": {
+		"languages": "En"
+	},
+	"Anonymous Notes 3 - From the Abyss (Japan)": {
+		"languages": "Ja"
+	},
+	"Anonymous Notes 3 - From the Abyss (USA)": {
+		"languages": "En"
+	},
+	"Anonymous Notes 4 - From the Abyss (Japan)": {
+		"languages": "Ja"
+	},
+	"Anonymous Notes 4 - From the Abyss (USA)": {
 		"languages": "En"
 	},
 	"Ante Up Texas Hold'em (USA)": {
@@ -590,16 +539,13 @@
 	"Antipole (USA)": {
 		"languages": "En"
 	},
-	"Anyohaseyo! - Kankokugo Wado Pazuru (Japan)": {
-		"languages": "Ja"
-	},
-	"Aquario - Art Style Shirizu (Japan)": {
+	"Aquario - Art Style Series (Japan)": {
 		"languages": "Ja"
 	},
 	"Aquarium of Luck, The (Europe) (En,Fr,De,Nl)": {
 		"languages": "En, Fr, De, Nl"
 	},
-	"Aquarium With Kurokku (Japan)": {
+	"Aquarium with Clock (Japan)": {
 		"languages": "Ja"
 	},
 	"Aquia - Art Style Series (USA)": {
@@ -614,22 +560,22 @@
 	"ARC Style - Everyday Football (Europe, Australia)": {
 		"languages": "En"
 	},
-	"ARC Style - Jurashikku Warudo (Japan)": {
+	"ARC Style - Jurassic World (Japan)": {
 		"languages": "Ja"
 	},
-	"ARC Style - Rizu Mikkusu (Japan)": {
+	"ARC Style - Robot Rescue (Japan)": {
 		"languages": "Ja"
 	},
-	"ARC Style - Robotto Resukyu (Japan)": {
+	"ARC Style - Rytmik (Japan)": {
 		"languages": "Ja"
 	},
-	"ARC Style - Sakka! (Japan)": {
+	"ARC Style - Soccer! (Japan)": {
 		"languages": "Ja"
 	},
 	"ARC Style - Totsugeki! - Castle Attackers (Japan)": {
 		"languages": "Ja"
 	},
-	"ARC Style Furojanpu!! - Girutegia Gaiden! (Japan)": {
+	"ARC Style Furo Jump!! - Guilty Gear Gaiden! (Japan)": {
 		"languages": "Ja"
 	},
 	"Arcade Bowling (USA)": {
@@ -644,10 +590,10 @@
 	"Arctic Escape (USA)": {
 		"languages": "En"
 	},
-	"Are + DSi Sakasadesukedo - Gyaku Shutengu (Japan)": {
+	"Are - DS ga Sakasa Desu kedo - Gyaku Shooting (Japan)": {
 		"languages": "Ja"
 	},
-	"Are + DSi Sakasadesukedo - Sakasa Doroppusu (Japan)": {
+	"Are - DS ga Sakasa Desu kedo - Sakasa Drops (Japan)": {
 		"languages": "Ja"
 	},
 	"Armada (USA)": {
@@ -665,14 +611,14 @@
 	"Army Defender (USA) (En,Ja)": {
 		"languages": "En, Ja"
 	},
-	"Aro Obu Rapyuta (Japan) (En,Ja)": {
-		"languages": "En, Ja"
-	},
 	"Around the World in 80 Days (Europe, Australia) (En,Fr)": {
 		"languages": "En, Fr"
 	},
 	"Around the World in 80 Days (USA) (En,Fr)": {
 		"languages": "En, Fr"
+	},
+	"Arrow of Laputa (Japan) (En,Ja)": {
+		"languages": "En, Ja"
 	},
 	"Art Academy - First Semester (Europe, Australia) (En,Fr,De,Es)": {
 		"languages": "En, Fr, De, Es"
@@ -695,17 +641,38 @@
 	"Artillery Knights vs. Orcs (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En, Fr, De, Es, It"
 	},
+	"Artist ni Narou! - Kigaru ni Sketch (Japan)": {
+		"languages": "Ja"
+	},
+	"Artist ni Narou! - Minna no Nurie - Inu-hen (Japan)": {
+		"languages": "Ja"
+	},
+	"Artist ni Narou! - Minna no Nurie - Joukyuu (Japan)": {
+		"languages": "Ja"
+	},
+	"Artist ni Narou! - Minna no Nurie - Mucha-hen (Japan)": {
+		"languages": "Ja"
+	},
+	"Artist ni Narou! - Minna no Nurie - Neko-hen (Japan)": {
+		"languages": "Ja"
+	},
+	"Artist ni Narou! - Minna no Nurie - Shokyuu (Japan)": {
+		"languages": "Ja"
+	},
 	"Aru Seishun no Monogatari - Kouenji Joshi Sakka (Japan)": {
 		"languages": "Ja"
 	},
-	"Aru to Harapeko Monsuta (Japan)": {
+	"Aru to Harapeko Monster (Japan)": {
 		"languages": "Ja"
 	},
 	"Aseupalteu 4 Elliteu Racing (Korea) (En,Ja,Ko)": {
 		"languages": "En, Ja, Ko"
 	},
-	"Asoberu e Ho - Maindo Te (Japan)": {
+	"Asoberu Ehon - Mind Ten (Japan)": {
 		"languages": "Ja"
+	},
+	"Asphalt 4 - Elite Racing (Japan) (En,Ja)": {
+		"languages": "En, Ja"
 	},
 	"Asphalt 4 Elite Racing (Europe, Australia)": {
 		"languages": "En"
@@ -716,55 +683,43 @@
 	"Astro (USA) (En,Fr,Es)": {
 		"languages": "En, Fr, Es"
 	},
-	"Asufuruto 4 Erito Reshingu (Japan) (En,Ja)": {
-		"languages": "En, Ja"
-	},
-	"Asuseiba - Inseki Bakuha Dai Sakuse (Japan)": {
+	"At Chess - Challenge Spirits (Japan)": {
 		"languages": "Ja"
 	},
-	"Asuseiba Purasu - Inseki Bakuha Dai Sakuse (Japan)": {
+	"At Enter! - Block Kuzushi (Japan)": {
 		"languages": "Ja"
 	},
-	"Asuwamu Jimu (Japan)": {
+	"At Enter! - Taisen Hanafuda Koi Koi Gassen (Japan)": {
 		"languages": "Ja"
 	},
-	"At Chisu - Charenji Supirittsu (Japan)": {
+	"At Enter! - Taisen Igo (Japan)": {
 		"languages": "Ja"
 	},
-	"At Enta! - Burokku Kuzushi (Japan)": {
+	"At Enter! - Taisen Mahjong 2 (Japan)": {
 		"languages": "Ja"
 	},
-	"At Enta! - Taisen Hanafuda Koikoigasse (Japan)": {
+	"At Enter! - Taisen Reversi (Japan)": {
 		"languages": "Ja"
 	},
-	"At Enta! - Taisen Maja 2 (Japan)": {
+	"At Enter! - Taisen Shougi 2 (Japan)": {
 		"languages": "Ja"
 	},
-	"At Enta! - Taisen Ribashi (Japan)": {
+	"At Kanji Jukugo Game - Kanjuku Kenkan-shuu (Japan)": {
 		"languages": "Ja"
 	},
-	"At Enta! - Taisen Shougi 2 (Japan)": {
+	"At Shougi - Challenge Spirits (Japan)": {
 		"languages": "Ja"
 	},
-	"At Enta! - Taisen' Igo (Japan)": {
+	"At Sports! - Koushien 2010 (Japan)": {
 		"languages": "Ja"
 	},
-	"At Kanji Jukugogemu - Kanjukukenkanshuu (Japan)": {
+	"At Sports! - Pro Yakyuu 2010 (Japan)": {
 		"languages": "Ja"
 	},
-	"At Shougi - Charenjisupirittsu (Japan)": {
+	"At Sports! - Pro Yakyuu 2011 (Japan)": {
 		"languages": "Ja"
 	},
-	"At Supotsu! - Koushien 2010 (Japan)": {
-		"languages": "Ja"
-	},
-	"At Supotsu! - Puroyakyuu 2010 (Japan)": {
-		"languages": "Ja"
-	},
-	"At Supotsu! - Puroyakyuu 2011 (Japan)": {
-		"languages": "Ja"
-	},
-	"Atama IQ Panikku (Japan) (En,Ja)": {
+	"Atama IQ Panic (Japan) (En,Ja)": {
 		"languages": "En, Ja"
 	},
 	"Atama o Yoku Suru Anzan DS - Zou no Hana Fuusen (Japan)": {
@@ -773,49 +728,31 @@
 	"Atamago (Japan)": {
 		"languages": "Ja"
 	},
-	"Atamago Monsutazu (Japan)": {
+	"Atamago Monsters (Japan)": {
 		"languages": "Ja"
 	},
-	"Atesuto ni Narou! - Kigaru ni Suketchi (Japan)": {
+	"Atelier Deco Ra Doll (Japan)": {
 		"languages": "Ja"
 	},
-	"Atesuto ni Narou! - Minna no Nurie Inu-Hen (Japan)": {
+	"Atelier Deco Ra Doll - Antique (Japan)": {
 		"languages": "Ja"
 	},
-	"Atesuto ni Narou! - Minna no Nurie Joukyuu (Japan)": {
+	"Atelier Deco Ra Doll - Gothic (Japan)": {
 		"languages": "Ja"
 	},
-	"Atesuto ni Narou! - Minna no Nurie Myusha-Hen (Japan)": {
+	"Atelier Deco Ra Doll - Lolita (Japan)": {
 		"languages": "Ja"
 	},
-	"Atesuto ni Narou! - Minna no Nurie Neko-Hen (Japan)": {
+	"Atelier Deco Ra Doll - Princess (Japan)": {
 		"languages": "Ja"
 	},
-	"Atesuto ni Narou! - Minna no Nurie Shokyuu (Japan)": {
-		"languages": "Ja"
-	},
-	"Atonannichi Kazoeru - Nintendo DSi Karenda (Japan)": {
-		"languages": "Ja"
-	},
-	"Atorie Deko Ra Doru (Japan)": {
-		"languages": "Ja"
-	},
-	"Atorie Deko Ra Doru - Anteku (Japan)": {
-		"languages": "Ja"
-	},
-	"Atorie Deko Ra Doru - Goshikku (Japan)": {
-		"languages": "Ja"
-	},
-	"Atorie Deko Ra Doru - Purinsesu (Japan)": {
-		"languages": "Ja"
-	},
-	"Atorie Deko Ra Doru - Rorita (Japan)": {
+	"Ato Nannichi - Kazoeru - Nintendo DSi Calendar (Japan)": {
 		"languages": "Ja"
 	},
 	"Atsumeru Egao Chou (Japan)": {
 		"languages": "Ja"
 	},
-	"Atta! - Supotto za Defurensu (Japan)": {
+	"Atta! - Spot the Difference (Japan)": {
 		"languages": "Ja"
 	},
 	"ATV - Quad Kings (USA) (En,Fr,Es)": {
@@ -830,10 +767,10 @@
 	"Aura-Aura Climber (USA)": {
 		"languages": "En"
 	},
-	"B Team - Episode 1 Dust and Steel (USA)": {
+	"B-Team - Episode 1 - Dust and Steel (USA)": {
 		"languages": "En"
 	},
-	"B-Team Episode 2 - Ice and Venom (USA)": {
+	"B-Team - Episode 2 - Ice and Venom (USA)": {
 		"languages": "En"
 	},
 	"Ball Fighter (Europe) (En,Fr,De,Es)": {
@@ -848,7 +785,7 @@
 	"Batoriru - Aozakura (Japan)": {
 		"languages": "Ja"
 	},
-	"Batoriru - Riruga (Japan)": {
+	"Batoriru - Rirugan (Japan)": {
 		"languages": "Ja"
 	},
 	"Battle of Elemental (Japan)": {
@@ -857,7 +794,7 @@
 	"Battle of Giants - Dragons - Bronze Edition (USA) (En,Fr,Es)": {
 		"languages": "En, Fr, Es"
 	},
-	"Battle of Giants - Fight For Survival (USA) (En,Fr,Es)": {
+	"Battle of Giants - Fight for Survival (USA) (En,Fr,Es)": {
 		"languages": "En, Fr, Es"
 	},
 	"Battle of Giants - Mutant Insects - Revenge (USA) (En,Fr,Es)": {
@@ -878,6 +815,9 @@
 	"Bejeweled Twist (Europe, Australia) (En,Fr,De,Es,Nl)": {
 		"languages": "En, Fr, De, Es, Nl"
 	},
+	"Bejeweled Twist (Japan)": {
+		"languages": "Ja"
+	},
 	"Bejeweled Twist (USA)": {
 		"languages": "En"
 	},
@@ -886,9 +826,6 @@
 	},
 	"Big Bass Arcade (USA)": {
 		"languages": "En"
-	},
-	"Bijuerudo Tsuisuto (Japan)": {
-		"languages": "Ja"
 	},
 	"Biorhythm (Europe)": {
 		"languages": "En"
@@ -907,6 +844,9 @@
 	},
 	"BlayzBloo (USA)": {
 		"languages": "En"
+	},
+	"BlazBlue - Battle x Battle (Japan)": {
+		"languages": "Ja"
 	},
 	"Blockado - Puzzle Island (USA) (En,Fr,Es)": {
 		"languages": "En, Fr, Es"
@@ -932,7 +872,7 @@
 	"Boardwalk Ball Toss (USA)": {
 		"languages": "En"
 	},
-	"Boku to Shimu no Machi Kamera (Japan) (En,Ja)": {
+	"Boku to Sim no Machi - Camera (Japan) (En,Ja)": {
 		"languages": "En, Ja"
 	},
 	"Bomberman Blitz (Europe, Australia) (En,Fr,De,Es)": {
@@ -946,6 +886,9 @@
 	},
 	"Bookstore Dream (Europe, Australia)": {
 		"languages": "En"
+	},
+	"Bookstore Dream (Japan)": {
+		"languages": "Ja"
 	},
 	"Bookstore Dream (USA)": {
 		"languages": "En"
@@ -983,14 +926,17 @@
 	"Brain Age Express - Arts Letters (USA) (En,Fr,Es)": {
 		"languages": "En, Fr, Es"
 	},
-	"Brain Age Express Math (USA) (En,Fr,Es)": {
+	"Brain Age Express - Math (USA) (En,Fr,Es)": {
 		"languages": "En, Fr, Es"
 	},
-	"Brain Age Express Sudoku (USA) (En,Fr,Es)": {
+	"Brain Age Express - Sudoku (USA) (En,Fr,Es)": {
 		"languages": "En, Fr, Es"
 	},
 	"Brain Challenge (Europe, Australia) (En,Fr,De,Es,It)": {
 		"languages": "En, Fr, De, Es, It"
+	},
+	"Brain Challenge (Japan)": {
+		"languages": "Ja"
 	},
 	"Brain Challenge (USA) (En,Fr,Es)": {
 		"languages": "En, Fr, Es"
@@ -1003,6 +949,9 @@
 	},
 	"Break Tactics (Europe)": {
 		"languages": "En"
+	},
+	"Break Tactics (Japan)": {
+		"languages": "Ja"
 	},
 	"Break Tactics (USA)": {
 		"languages": "En"
@@ -1022,19 +971,7 @@
 	"Build-a-lot (USA)": {
 		"languages": "En"
 	},
-	"Bukku Suto Adorimu (Japan)": {
-		"languages": "Ja"
-	},
 	"Bun Bun Sukueazu (Japan)": {
-		"languages": "Ja"
-	},
-	"Bureiburu - Batoru x Batoru (Japan)": {
-		"languages": "Ja"
-	},
-	"Bureiku Takutekusu (Japan)": {
-		"languages": "Ja"
-	},
-	"Burein Charenji (Japan)": {
 		"languages": "Ja"
 	},
 	"Cake Ninja 2 (Europe) (En,Fr,De,Es,It)": {
@@ -1087,6 +1024,9 @@
 	},
 	"Car Jack Streets (USA)": {
 		"languages": "En"
+	},
+	"Card Hero - Speed Battle Custom (Japan)": {
+		"languages": "Ja"
 	},
 	"Castle Conqueror (Europe) (En,Fr,De,Es)": {
 		"languages": "En, Fr, De, Es"
@@ -1151,31 +1091,52 @@
 	"Cave Story (USA)": {
 		"languages": "En"
 	},
+	"Chara Pasha! - Hello Kitty (Japan)": {
+		"languages": "Ja"
+	},
+	"Chara Pasha! - Kaiten Mutenmaru (Japan)": {
+		"languages": "Ja"
+	},
+	"Chara Pasha! - Kikansha Thomas (Japan)": {
+		"languages": "Ja"
+	},
+	"Chara Pasha! - Shinamororu (Japan)": {
+		"languages": "Ja"
+	},
+	"Chara Pasha! - SpongeBob (Japan)": {
+		"languages": "Ja"
+	},
+	"Chara Pasha! My Melody (Japan)": {
+		"languages": "Ja"
+	},
 	"Chess Challenge! (Europe, Australia)": {
 		"languages": "En"
 	},
 	"Chess Challenge! (USA)": {
 		"languages": "En"
 	},
-	"Chibi Shounen no - Mahou Dai Bouken (Japan)": {
+	"Chibi Shounen no Mahou Daibouken (Japan)": {
 		"languages": "Ja"
 	},
-	"Chiri Kuizu - Shouga Kusei (Japan)": {
+	"Chiri Quiz - Shouga Kusei (Japan)": {
 		"languages": "Ja"
 	},
-	"Chotto Asobi Taizen - Jikkuri Toranpu (Japan)": {
+	"Chotto Asobi Taizen - Jikkuri Trump (Japan)": {
 		"languages": "Ja"
 	},
-	"Chotto Asobi Taizen - Otegaru Toranpu (Japan)": {
+	"Chotto Asobi Taizen - Otegaru Trump (Japan)": {
 		"languages": "Ja"
 	},
-	"Chotto Asobitaizen - Onajimi Teburu (Japan)": {
+	"Chotto Asobitaizen - Onajimi Table (Japan)": {
+		"languages": "Ja"
+	},
+	"Chotto Dr. Mario (Japan)": {
 		"languages": "Ja"
 	},
 	"Chotto DS Bun ga Kuzenshuu - Sekai no Bungaku 20 (Japan)": {
 		"languages": "Ja"
 	},
-	"Chotto Majikku Taizen - 3ttsu no Shaffuru Gemu (Japan)": {
+	"Chotto Majikku Taizen - 3-tsu no Shuffle Game (Japan)": {
 		"languages": "Ja"
 	},
 	"Chotto Majikku Taizen - Deto Uranai (Japan)": {
@@ -1193,16 +1154,16 @@
 	"Chotto Majikku Taizen - Suki Kirai Hakkenki (Japan)": {
 		"languages": "Ja"
 	},
-	"Chotto nou o Kitaeru Otona no - DSi Toreningu Bunkeihe (Japan)": {
+	"Chotto Nou o Kitaeru Otona no DSi Training - Bunkei-hen (Japan)": {
 		"languages": "Ja"
 	},
-	"Chotto nou o Kitaeru Otona no - DSi Toreningu Suudoku-Hen (Japan)": {
+	"Chotto Nou o Kitaeru Otona no DSi Training - Rikei-hen (Japan)": {
 		"languages": "Ja"
 	},
-	"Chotto nou o Kitaeru Otona no DSi Toreningu Rikei-Hen (Japan)": {
+	"Chotto Nou o Kitaeru Otona no DSi Training - Suudoku-hen (Japan)": {
 		"languages": "Ja"
 	},
-	"Chotto Paneru de Pon (Japan)": {
+	"Chotto Panel de Pon (Japan)": {
 		"languages": "Ja"
 	},
 	"Chotto Sujin Taisen (Japan)": {
@@ -1238,13 +1199,13 @@
 	"Chuck E Cheese's - Arcade Room (USA)": {
 		"languages": "En"
 	},
-	"Chuuga Kukihon' Eitango - Wado Pazuru (Japan)": {
-		"languages": "Ja"
-	},
-	"Chuugaku e Itango - Kiho 400 Go Master (Japan)": {
-		"languages": "Ja"
-	},
 	"Chuugaku Eijukugo - Kiho 150 Go Master (Japan)": {
+		"languages": "Ja"
+	},
+	"Chuugaku Eitango - Kihon 400 Go Master (Japan)": {
+		"languages": "Ja"
+	},
+	"Chuugaku Kihon Eitango - Word Puzzle (Japan)": {
 		"languages": "Ja"
 	},
 	"Chuukara! Dairoujou (Japan)": {
@@ -1310,6 +1271,9 @@
 	"Commando - Steel Disaster (USA)": {
 		"languages": "En"
 	},
+	"Coropata (Japan)": {
+		"languages": "Ja"
+	},
 	"Cosmo Fighters (Europe) (En,Fr,De,Es)": {
 		"languages": "En, Fr, De, Es"
 	},
@@ -1352,6 +1316,9 @@
 	"Crazy Hamster (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En, Fr, De, Es, It"
 	},
+	"Crazy Hamster (Japan)": {
+		"languages": "Ja"
+	},
 	"Crazy Hamster (USA)": {
 		"languages": "En"
 	},
@@ -1375,6 +1342,9 @@
 	},
 	"Crazy Train (USA)": {
 		"languages": "En"
+	},
+	"Cross, The (Japan)": {
+		"languages": "Ja"
 	},
 	"Crystal Adventure (Europe)": {
 		"languages": "En"
@@ -1439,14 +1409,11 @@
 	"Datamine (USA) (En,Fr,Es)": {
 		"languages": "En, Fr, Es"
 	},
-	"Date Or Ditch (Europe, Australia) (En,Ja,Fr,De,Es,It)": {
+	"Date or Ditch (Europe, Australia) (En,Ja,Fr,De,Es,It)": {
 		"languages": "En, Ja, Fr, De, Es, It"
 	},
-	"Date Or Ditch (USA) (En,Fr,Es)": {
+	"Date or Ditch (USA) (En,Fr,Es)": {
 		"languages": "En, Fr, Es"
-	},
-	"Debiru Bando - Rokku Za Anda Warudo (Japan)": {
-		"languages": "Ja"
 	},
 	"Decathlon 2012 (Europe)": {
 		"languages": "En"
@@ -1457,14 +1424,14 @@
 	"Deco Photo (France)": {
 		"languages": "Fr"
 	},
-	"Decode - Art Style Shirizu (Japan)": {
+	"Decode - Art Style Series (Japan)": {
+		"languages": "Ja"
+	},
+	"Deep Aquarium - Kiseki no Shinkai (Japan)": {
 		"languages": "Ja"
 	},
 	"Deep Sea Creatures (USA)": {
 		"languages": "En"
-	},
-	"Deeru Dentaku Kasutamu - Dentaku+ TCG-You Tsuru (Japan)": {
-		"languages": "Ja"
 	},
 	"Defence Wars - GO Series (Europe)": {
 		"languages": "En"
@@ -1475,7 +1442,7 @@
 	"Defense Wars - GO Series (USA)": {
 		"languages": "En"
 	},
-	"Dekisugi Chinkuru Pakku (Japan)": {
+	"Dekisugi Tingle Pack (Japan)": {
 		"languages": "Ja"
 	},
 	"Delbo (Europe, Australia) (En,Fr,De,Es,It)": {
@@ -1490,16 +1457,16 @@
 	"Deonjyeoseo Ssok! Yuryeong Toechi (Korea)": {
 		"languages": "Ko"
 	},
-	"Depuakuariumu - Kiseki No Shinkai (Japan)": {
-		"languages": "Ja"
-	},
 	"Devil Band - Rock the Underworld (Europe, Australia)": {
 		"languages": "En"
+	},
+	"Devil Band - Rock the Underworld (Japan)": {
+		"languages": "Ja"
 	},
 	"Devil Band - Rock the Underworld (USA)": {
 		"languages": "En"
 	},
-	"Dictionary 6 in 1 - With Camera Function (Europe, Australia) (En,Fr,De,Es,It)": {
+	"Dictionary 6 in 1 with Camera Function (Europe, Australia) (En,Fr,De,Es,It)": {
 		"languages": "En, Fr, De, Es, It"
 	},
 	"Did It Myself - ABC123 (USA)": {
@@ -1511,11 +1478,11 @@
 	"Digger Dan Kaboom (USA) (En,Fr,Es)": {
 		"languages": "En, Fr, Es"
 	},
+	"Digidrive - Art Style Series (Japan)": {
+		"languages": "Ja"
+	},
 	"Digidrive - Art Style Series (USA)": {
 		"languages": "En"
-	},
-	"Digidrive - Art Style Shirizu (Japan)": {
-		"languages": "Ja"
 	},
 	"Discolight (Europe)": {
 		"languages": "En"
@@ -1541,7 +1508,7 @@
 	"DodoGo! (USA) (En,Fr,Es)": {
 		"languages": "En, Fr, Es"
 	},
-	"DodoGo! - Sukue! Rakuen No Tamago (Japan)": {
+	"DodoGo! - Sukue! Rakuen no Tamago (Japan)": {
 		"languages": "Ja"
 	},
 	"DodoGo! Challenge (Europe, Australia) (En,Fr,De,Es,Nl)": {
@@ -1562,10 +1529,10 @@
 	"Dodoru Futto (Japan)": {
 		"languages": "Ja"
 	},
-	"Doko Demo Wii No Ma (Japan)": {
+	"Doko Demo Wii no Ma (Japan)": {
 		"languages": "Ja"
 	},
-	"Don't Cross The Line (USA)": {
+	"Don't Cross the Line (USA)": {
 		"languages": "En"
 	},
 	"Don't Feed the Animals (USA)": {
@@ -1576,9 +1543,6 @@
 	},
 	"Doodle Fit (USA)": {
 		"languages": "En"
-	},
-	"Doragon Kuesuto Uzu (Japan)": {
-		"languages": "Ja"
 	},
 	"Dot Man (Europe)": {
 		"languages": "En"
@@ -1595,7 +1559,7 @@
 	"Double Bloob (USA)": {
 		"languages": "En"
 	},
-	"Doubutsuen' Otsu Kurou (Japan)": {
+	"Doubutsuen o Tsukurou (Japan)": {
 		"languages": "Ja"
 	},
 	"Downtown Texas Hold'em (Europe, Australia) (En,Fr,De,Es,It)": {
@@ -1604,10 +1568,7 @@
 	"Downtown Texas Hold'em (USA) (En,Fr,Es)": {
 		"languages": "En, Fr, Es"
 	},
-	"DQ Monsutabatorurodo V - Sen'you Karakodosukyana (Japan)": {
-		"languages": "Ja"
-	},
-	"Dr. Mario (Japan)": {
+	"DQ Monster Battle Road V - Sen'you Color Code Scanner (Japan)": {
 		"languages": "Ja"
 	},
 	"Dr. Mario Express (USA) (En,Fr,Es)": {
@@ -1621,6 +1582,9 @@
 	},
 	"Dragon Quest Wars (Europe, Australia) (En,Fr,De,Es)": {
 		"languages": "En, Fr, De, Es"
+	},
+	"Dragon Quest Wars (Japan)": {
+		"languages": "Ja"
 	},
 	"Dragon Quest Wars (USA) (En,Fr,Es)": {
 		"languages": "En, Fr, Es"
@@ -1652,14 +1616,26 @@
 	"DS Kokoro Nurie (Japan)": {
 		"languages": "Ja"
 	},
+	"Duel Dentaku Custom - Dentaku + TCG-you Tool (Japan)": {
+		"languages": "Ja"
+	},
 	"Earth Saver - GO Series (Europe)": {
 		"languages": "En"
 	},
 	"Earth Saver - GO Series (USA)": {
 		"languages": "En"
 	},
+	"Earth Saver - Inseki Bakuha Daisakusen (Japan)": {
+		"languages": "Ja"
+	},
+	"Earth Saver Plus - Inseki Bakuha Daisakusen (Japan)": {
+		"languages": "Ja"
+	},
 	"Earthworm Jim (Europe, Australia) (En,Fr,De,Es,It,Nl,Pt,Ru)": {
 		"languages": "En, Fr, De, Es, It, Nl, Pt, Ru"
+	},
+	"Earthworm Jim (Japan)": {
+		"languages": "Ja"
 	},
 	"Earthworm Jim (USA) (En,Fr,Es)": {
 		"languages": "En, Fr, Es"
@@ -1675,9 +1651,6 @@
 	},
 	"EJ Puzzles Hooked (USA)": {
 		"languages": "En"
-	},
-	"Ekushidea Senki (Japan)": {
-		"languages": "Ja"
 	},
 	"Electric Guitar (Europe, Australia) (En,Fr,De,Es)": {
 		"languages": "En, Fr, De, Es"
@@ -1700,8 +1673,14 @@
 	"Electroplankton - Hanenbow (Europe, Australia) (En,Ja)": {
 		"languages": "En, Ja"
 	},
+	"Electroplankton - Hanenbow (Japan)": {
+		"languages": "Ja"
+	},
 	"Electroplankton - Hanenbow (USA)": {
 		"languages": "En"
+	},
+	"Electroplankton - Hikarinowa (Japan)": {
+		"languages": "Ja"
 	},
 	"Electroplankton - Lumiloop (Europe, Australia) (En,Ja)": {
 		"languages": "En, Ja"
@@ -1709,11 +1688,17 @@
 	"Electroplankton - Lumiloop (USA)": {
 		"languages": "En"
 	},
+	"Electroplankton - Luminarian (Japan)": {
+		"languages": "Ja"
+	},
 	"Electroplankton - Luminarrow (Europe, Australia) (En,Fr,De,Es)": {
 		"languages": "En, Fr, De, Es"
 	},
 	"Electroplankton - Luminarrow (USA)": {
 		"languages": "En"
+	},
+	"Electroplankton - Marine Snow (Japan)": {
+		"languages": "Ja"
 	},
 	"Electroplankton - Marine-Crystals (Europe, Australia) (En,Ja)": {
 		"languages": "En, Ja"
@@ -1724,8 +1709,17 @@
 	"Electroplankton - Nanocarp (Europe, Australia) (En,Ja)": {
 		"languages": "En, Ja"
 	},
+	"Electroplankton - Nanocarp (Japan)": {
+		"languages": "Ja"
+	},
+	"Electroplankton - Nanocarp (USA)": {
+		"languages": "En"
+	},
 	"Electroplankton - Rec-Rec (Europe, Australia) (En,Ja)": {
 		"languages": "En, Ja"
+	},
+	"Electroplankton - Rec-Rec (Japan)": {
+		"languages": "Ja"
 	},
 	"Electroplankton - Rec-Rec (USA)": {
 		"languages": "En"
@@ -1733,14 +1727,29 @@
 	"Electroplankton - Sun-Animalcule (Europe, Australia) (En,Fr,De,Es)": {
 		"languages": "En, Fr, De, Es"
 	},
+	"Electroplankton - Sun-Animalcule (USA)": {
+		"languages": "En"
+	},
+	"Electroplankton - Taiyouchuu (Japan)": {
+		"languages": "Ja"
+	},
 	"Electroplankton - Trapy (Europe, Australia) (En,Ja)": {
 		"languages": "En, Ja"
+	},
+	"Electroplankton - Trapy (Japan)": {
+		"languages": "Ja"
 	},
 	"Electroplankton - Trapy (USA)": {
 		"languages": "En"
 	},
+	"Electroplankton - Tsurigane Mushi (Japan)": {
+		"languages": "Ja"
+	},
 	"Electroplankton - Varvoice (Europe, Australia) (En,Ja)": {
 		"languages": "En, Ja"
+	},
+	"Electroplankton - Varvoice (Japan)": {
+		"languages": "Ja"
 	},
 	"Electroplankton - Varvoice (USA)": {
 		"languages": "En"
@@ -1756,42 +1765,6 @@
 	},
 	"Elite Forces Unit 77 (USA) (En,Fr,Es)": {
 		"languages": "En, Fr, Es"
-	},
-	"Erekutoropurankuto - Boruboisu (Japan)": {
-		"languages": "Ja"
-	},
-	"Erekutoropurankuto - Hanenbo (Japan)": {
-		"languages": "Ja"
-	},
-	"Erekutoropurankuto - Hikarinowa (Japan)": {
-		"languages": "Ja"
-	},
-	"Erekutoropurankuto - Marinsuno (Japan)": {
-		"languages": "Ja"
-	},
-	"Erekutoropurankuto - Nanokapu (Japan)": {
-		"languages": "Ja"
-	},
-	"Erekutoropurankuto - Nanokapu (USA)": {
-		"languages": "En"
-	},
-	"Erekutoropurankuto - Rekkurekku (Japan)": {
-		"languages": "Ja"
-	},
-	"Erekutoropurankuto - Ruminaria (Japan)": {
-		"languages": "Ja"
-	},
-	"Erekutoropurankuto - Taiyouchuu (Japan)": {
-		"languages": "Ja"
-	},
-	"Erekutoropurankuto - Taiyouchuu (USA)": {
-		"languages": "En"
-	},
-	"Erekutoropurankuto - Torepi (Japan)": {
-		"languages": "Ja"
-	},
-	"Erekutoropurankuto - Tsuriganemushi (Japan)": {
-		"languages": "Ja"
 	},
 	"Escape the Virus - Shoot'em Up! (Europe) (En,Fr,De,Es,It)": {
 		"languages": "En, Fr, De, Es, It"
@@ -1837,6 +1810,9 @@
 	},
 	"Everyday Soccer (USA)": {
 		"languages": "En"
+	},
+	"Exidia Senki (Japan)": {
+		"languages": "Ja"
 	},
 	"Extreme Hangman 2 (Europe, Australia)": {
 		"languages": "En"
@@ -1903,6 +1879,9 @@
 	},
 	"Fatal Blow - GO Series (Europe)": {
 		"languages": "En"
+	},
+	"Ferrari GT - Evolution (Japan)": {
+		"languages": "Ja"
 	},
 	"Ferrari GT Evolution (Europe, Australia) (En,Fr,De,Es,Nl)": {
 		"languages": "En, Fr, De, Es, Nl"
@@ -2048,35 +2027,38 @@
 	"Frogger Returns (USA) (En,Fr,Es)": {
 		"languages": "En, Fr, Es"
 	},
-	"Furari GT Eboryusho (Japan)": {
-		"languages": "Ja"
-	},
-	"Furi Rejinzu (Japan)": {
-		"languages": "Ja"
-	},
 	"Furry Legends (Europe)": {
 		"languages": "En"
+	},
+	"Furry Legends (Japan)": {
+		"languages": "Ja"
 	},
 	"Furry Legends (USA)": {
 		"languages": "En"
 	},
+	"Fushigi na Ten Tsunagi - Edo Risshin Shusse-hen (Japan)": {
+		"languages": "Ja"
+	},
+	"Fushigi na Ten Tsunagi Shouwa - Yojouhan Monogatari-hen (Japan)": {
+		"languages": "Ja"
+	},
 	"Fushigina Ten Tsunagi - Chuusei Meruhenhe (Japan)": {
-		"languages": "Ja"
-	},
-	"Fushigina Ten Tsunagi - Edo Risshin Shusse-Hen (Japan)": {
-		"languages": "Ja"
-	},
-	"Fushigina Ten Tsunagi Shouwa - Yojouhan Monogatari-Hen (Japan)": {
 		"languages": "Ja"
 	},
 	"Futo Sutando Tsuki - Banbura DX Rajio (Japan)": {
 		"languages": "Ja"
 	},
-	"Fuuu! Dairoujou Kai (Japan)": {
+	"Fuuun! Dairoujou Kai (Japan)": {
+		"languages": "Ja"
+	},
+	"G.G Series - Air Pinball Hockey (Japan)": {
 		"languages": "Ja"
 	},
 	"G.G Series - Air Pinball Hockey (USA)": {
 		"languages": "En"
+	},
+	"G.G Series - All Breaker (Japan)": {
+		"languages": "Ja"
 	},
 	"G.G Series - All Breaker (USA)": {
 		"languages": "En"
@@ -2084,11 +2066,26 @@
 	"G.G Series - Altered Weapon (USA)": {
 		"languages": "En"
 	},
+	"G.G Series - Assault Buster (Japan)": {
+		"languages": "Ja"
+	},
 	"G.G Series - Assault Buster (USA)": {
 		"languages": "En"
 	},
+	"G.G Series - Black x Block (Japan)": {
+		"languages": "Ja"
+	},
 	"G.G Series - Black x Block (USA)": {
 		"languages": "En"
+	},
+	"G.G Series - Chou Hero Ouga 2 (Japan)": {
+		"languages": "Ja"
+	},
+	"G.G Series - Chou Hero Ouga (Japan)": {
+		"languages": "Ja"
+	},
+	"G.G Series - Conveyor Konpou (Japan)": {
+		"languages": "Ja"
 	},
 	"G.G Series - Conveyor Toy Packing (USA)": {
 		"languages": "En"
@@ -2096,20 +2093,41 @@
 	"G.G Series - Cosmo Rally!! (USA)": {
 		"languages": "En"
 	},
+	"G.G Series - D-Tank (Japan)": {
+		"languages": "Ja"
+	},
 	"G.G Series - D-Tank (USA)": {
 		"languages": "En"
+	},
+	"G.G Series - Dark Spirits (Japan)": {
+		"languages": "Ja"
 	},
 	"G.G Series - Dark Spirits (USA)": {
 		"languages": "En"
 	},
+	"G.G Series - Drift Circuit 2 (Japan)": {
+		"languages": "Ja"
+	},
+	"G.G Series - Drift Circuit (Japan)": {
+		"languages": "Ja"
+	},
 	"G.G Series - Drift Circuit (USA)": {
 		"languages": "En"
+	},
+	"G.G Series - Drilling Attack!! (Japan)": {
+		"languages": "Ja"
 	},
 	"G.G Series - Drilling Attack!! (USA)": {
 		"languages": "En"
 	},
+	"G.G Series - Energy Chain (Japan)": {
+		"languages": "Ja"
+	},
 	"G.G Series - Energy Chain (USA)": {
 		"languages": "En"
+	},
+	"G.G Series - Exciting River (Japan)": {
+		"languages": "Ja"
 	},
 	"G.G Series - Exciting River (USA)": {
 		"languages": "En"
@@ -2117,32 +2135,62 @@
 	"G.G Series - Great Whip Adventure (USA)": {
 		"languages": "En"
 	},
+	"G.G Series - Harisen Bon! (Japan)": {
+		"languages": "Ja"
+	},
 	"G.G Series - Hero Puzzle (USA)": {
 		"languages": "En"
 	},
 	"G.G Series - Horizontal Bar (USA)": {
 		"languages": "En"
 	},
+	"G.G Series - Kakure Ninja Kagemaru (Japan)": {
+		"languages": "Ja"
+	},
 	"G.G Series - Ninja Karakuri Den (USA)": {
 		"languages": "En"
+	},
+	"G.G Series - Nyokki (Japan)": {
+		"languages": "Ja"
 	},
 	"G.G Series - Nyokki (USA)": {
 		"languages": "En"
 	},
+	"G.G Series - Run & Strike (Japan)": {
+		"languages": "Ja"
+	},
 	"G.G Series - Run Strike (USA)": {
 		"languages": "En"
+	},
+	"G.G Series - Score Attacker (Japan)": {
+		"languages": "Ja"
 	},
 	"G.G Series - Score Attacker (USA)": {
 		"languages": "En"
 	},
+	"G.G Series - Shadow Army (Japan)": {
+		"languages": "Ja"
+	},
 	"G.G Series - Shadow Army (USA)": {
 		"languages": "En"
+	},
+	"G.G Series - Shinobi Karakuri-den 2 (Japan)": {
+		"languages": "Ja"
+	},
+	"G.G Series - Shinobi Karakuri-den (Japan)": {
+		"languages": "Ja"
 	},
 	"G.G Series - Super Hero Ogre (USA)": {
 		"languages": "En"
 	},
+	"G.G Series - Tetsubou (Japan)": {
+		"languages": "Ja"
+	},
 	"G.G Series - The Hidden Ninja Kagemaru (USA)": {
 		"languages": "En"
+	},
+	"G.G Series - The Last Knight (Japan)": {
+		"languages": "Ja"
 	},
 	"G.G Series - The Last Knight (USA)": {
 		"languages": "En"
@@ -2156,116 +2204,44 @@
 	"G.G Series - Throw Out (USA)": {
 		"languages": "En"
 	},
+	"G.G Series - Uchuu Race (Japan)": {
+		"languages": "Ja"
+	},
+	"G.G Series - Variable Arms (Japan)": {
+		"languages": "Ja"
+	},
+	"G.G Series - Vector (Japan)": {
+		"languages": "Ja"
+	},
 	"G.G Series - Vector (USA)": {
 		"languages": "En"
+	},
+	"G.G Series - Vertex (Japan)": {
+		"languages": "Ja"
 	},
 	"G.G Series - Vertex (USA)": {
 		"languages": "En"
 	},
+	"G.G Series - Whipper no Daibouken (Japan)": {
+		"languages": "Ja"
+	},
+	"G.G Series - Wonder Land (Japan)": {
+		"languages": "Ja"
+	},
 	"G.G Series - Wonder Land (USA)": {
 		"languages": "En"
 	},
+	"G.G Series - Yuusha Puzzle (Japan)": {
+		"languages": "Ja"
+	},
+	"G.G Series - Z One 2 (Japan)": {
+		"languages": "Ja"
+	},
+	"G.G Series - Z One (Japan)": {
+		"languages": "Ja"
+	},
 	"G.G Series - Zone (USA)": {
 		"languages": "En"
-	},
-	"G.G Shirizu - Air Pinball Hockey (Japan)": {
-		"languages": "Ja"
-	},
-	"G.G Shirizu - All Breaker (Japan)": {
-		"languages": "Ja"
-	},
-	"G.G Shirizu - Assault Buster (Japan)": {
-		"languages": "Ja"
-	},
-	"G.G Shirizu - Bekutoru (Japan)": {
-		"languages": "Ja"
-	},
-	"G.G Shirizu - Black Block (Japan)": {
-		"languages": "Ja"
-	},
-	"G.G Shirizu - Chouhiro Ouga 2 (Japan)": {
-		"languages": "Ja"
-	},
-	"G.G Shirizu - Chouhiro Ouga (Japan)": {
-		"languages": "Ja"
-	},
-	"G.G Shirizu - D-Tank (Japan)": {
-		"languages": "Ja"
-	},
-	"G.G Shirizu - Dark Spirits (Japan)": {
-		"languages": "Ja"
-	},
-	"G.G Shirizu - Dorifuto Sakitto 2 (Japan)": {
-		"languages": "Ja"
-	},
-	"G.G Shirizu - Doriringu Atakku!! (Japan)": {
-		"languages": "Ja"
-	},
-	"G.G Shirizu - Drift Circuit (Japan)": {
-		"languages": "Ja"
-	},
-	"G.G Shirizu - Energy Chain (Japan)": {
-		"languages": "Ja"
-	},
-	"G.G Shirizu - Exciting River (Japan)": {
-		"languages": "Ja"
-	},
-	"G.G Shirizu - Harise Bon! (Japan)": {
-		"languages": "Ja"
-	},
-	"G.G Shirizu - Kakure Ninja Kagemaru (Japan)": {
-		"languages": "Ja"
-	},
-	"G.G Shirizu - Konbea Konpou (Japan)": {
-		"languages": "Ja"
-	},
-	"G.G Shirizu - Nyokki (Japan)": {
-		"languages": "Ja"
-	},
-	"G.G Shirizu - Run Strike (Japan)": {
-		"languages": "Ja"
-	},
-	"G.G Shirizu - Score Attacker (Japan)": {
-		"languages": "Ja"
-	},
-	"G.G Shirizu - Shadow Army (Japan)": {
-		"languages": "Ja"
-	},
-	"G.G Shirizu - Shinobi Karakuri De (Japan)": {
-		"languages": "Ja"
-	},
-	"G.G Shirizu - Shinobi Karakuri-Den 2 (Japan)": {
-		"languages": "Ja"
-	},
-	"G.G Shirizu - Tetsubou (Japan)": {
-		"languages": "Ja"
-	},
-	"G.G Shirizu - The Last Knight (Japan)": {
-		"languages": "Ja"
-	},
-	"G.G Shirizu - Uchuu Resu (Japan)": {
-		"languages": "Ja"
-	},
-	"G.G Shirizu - Uppa no Daibouke (Japan)": {
-		"languages": "Ja"
-	},
-	"G.G Shirizu - Variable Arms (Japan)": {
-		"languages": "Ja"
-	},
-	"G.G Shirizu - Vertex (Japan)": {
-		"languages": "Ja"
-	},
-	"G.G Shirizu - Wonder Land (Japan)": {
-		"languages": "Ja"
-	},
-	"G.G Shirizu - Yuu Sha Pazuru (Japan)": {
-		"languages": "Ja"
-	},
-	"G.G Shirizu - Z One 2 (Japan)": {
-		"languages": "Ja"
-	},
-	"G.G Shirizu - Z One (Japan)": {
-		"languages": "Ja"
 	},
 	"G.G Sirijeu - D-Tank (Korea)": {
 		"languages": "Ko"
@@ -2300,11 +2276,17 @@
 	"Game + Watch - Ball (China) (En)": {
 		"languages": "En"
 	},
+	"Game + Watch - Ball (Japan)": {
+		"languages": "Ja"
+	},
 	"Game + Watch - Ball (USA, Europe)": {
 		"languages": "En"
 	},
 	"Game + Watch - Chef (China) (En)": {
 		"languages": "En"
+	},
+	"Game + Watch - Chef (Japan)": {
+		"languages": "Ja"
 	},
 	"Game + Watch - Chef (USA, Europe)": {
 		"languages": "En"
@@ -2315,6 +2297,12 @@
 	"Game + Watch - Donkey Kong Jr (USA, Europe)": {
 		"languages": "En"
 	},
+	"Game + Watch - Donkey Kong Jr. (Japan)": {
+		"languages": "Ja"
+	},
+	"Game + Watch - Flag Man (Japan)": {
+		"languages": "Ja"
+	},
 	"Game + Watch - Flagman (China) (En)": {
 		"languages": "En"
 	},
@@ -2324,11 +2312,17 @@
 	"Game + Watch - Helmet (China) (En)": {
 		"languages": "En"
 	},
+	"Game + Watch - Helmet (Japan)": {
+		"languages": "Ja"
+	},
 	"Game + Watch - Helmet (USA, Europe)": {
 		"languages": "En"
 	},
 	"Game + Watch - Judge (China) (En)": {
 		"languages": "En"
+	},
+	"Game + Watch - Judge (Japan)": {
+		"languages": "Ja"
 	},
 	"Game + Watch - Judge (USA, Europe)": {
 		"languages": "En"
@@ -2339,8 +2333,14 @@
 	"Game + Watch - Manhole (China) (En)": {
 		"languages": "En"
 	},
+	"Game + Watch - Manhole (Japan)": {
+		"languages": "Ja"
+	},
 	"Game + Watch - Manhole (USA, Europe)": {
 		"languages": "En"
+	},
+	"Game + Watch - Mario's Cement Factory (Japan)": {
+		"languages": "Ja"
 	},
 	"Game + Watch - Mario's Cement Factory (USA, Europe)": {
 		"languages": "En"
@@ -2348,17 +2348,23 @@
 	"Game + Watch - Vermin (China) (En)": {
 		"languages": "En"
 	},
+	"Game + Watch - Vermin (Japan)": {
+		"languages": "Ja"
+	},
 	"Game + Watch - Vermin (USA, Europe)": {
 		"languages": "En"
 	},
 	"Ganbaru Watashi no Osaifu Ouenda (Japan)": {
 		"languages": "Ja"
 	},
-	"Gangstar 2 - Kings of L.A (Europe, Australia) (En,Fr,De,Es,Nl)": {
+	"Gangstar 2 - Kings of L.A. (Europe, Australia) (En,Fr,De,Es,Nl)": {
 		"languages": "En, Fr, De, Es, Nl"
 	},
-	"Gangstar 2 - Kings of L.A (USA) (En,Fr,Es)": {
+	"Gangstar 2 - Kings of L.A. (USA) (En,Fr,Es)": {
 		"languages": "En, Fr, Es"
+	},
+	"Gangster 2 - Kings of L.A. (Japan)": {
+		"languages": "Ja"
 	},
 	"Gareuchyeojwodalling (Korea)": {
 		"languages": "Ko"
@@ -2366,35 +2372,14 @@
 	"Gekitsu Iou (Japan)": {
 		"languages": "Ja"
 	},
-	"Gemu + Uotchi - Bami (Japan)": {
-		"languages": "Ja"
-	},
-	"Gemu + Uotchi - Boru (Japan)": {
-		"languages": "Ja"
-	},
-	"Gemu + Uotchi - Donkey Kong Jr (Japan)": {
-		"languages": "Ja"
-	},
-	"Gemu + Uotchi - Furagguma (Japan)": {
-		"languages": "Ja"
-	},
-	"Gemu + Uotchi - Herumetto (Japan)": {
-		"languages": "Ja"
-	},
-	"Gemu + Uotchi - Jajji (Japan)": {
-		"languages": "Ja"
-	},
-	"Gemu + Uotchi - Manhoru (Japan)": {
-		"languages": "Ja"
-	},
-	"Gemu + Uotchi - Mariozu Semento Fukutori (Japan)": {
-		"languages": "Ja"
-	},
-	"Gemu + Uotchi - Shifu (Japan)": {
-		"languages": "Ja"
-	},
 	"Gene Labs (USA) (En,Fr,Es)": {
 		"languages": "En, Fr, Es"
+	},
+	"Genius Personal - Eiwa Rakubiki Jiten (Japan)": {
+		"languages": "Ja"
+	},
+	"Genius Personal - Waei Rakubiki Jiten (Japan)": {
+		"languages": "Ja"
 	},
 	"Genzhuo Jiezou Duanlian Man Dangdang Yingyu - Jiandan Huihua Pian (China) (Ja,Zh)": {
 		"languages": "Ja, Zh"
@@ -2480,22 +2465,19 @@
 	"Gurutto! Seiba (Japan)": {
 		"languages": "Ja"
 	},
-	"Gyangusuta 2 - Kings of L.A (Japan)": {
+	"Hachi-One Diver DS - Naruzou-kun Hasami Shougi (Japan)": {
 		"languages": "Ja"
 	},
-	"Hachiwandaiba DS - Naru Zouku Ha Samishougi (Japan)": {
+	"Hachi-One Diver DS Story (Japan)": {
 		"languages": "Ja"
 	},
-	"Hachiwandaiba DS Sutori (Japan)": {
-		"languages": "Ja"
-	},
-	"Hacolife - Art Style Shirizu (Japan)": {
+	"Hacolife - Art Style Series (Japan)": {
 		"languages": "Ja"
 	},
 	"Hair Salon - Pocket Stylist (Europe, Australia) (En,Fr,De,Es)": {
 		"languages": "En, Fr, De, Es"
 	},
-	"Hajimete no mo Jiren Shuu (Japan)": {
+	"Hajimete no Mojirenshuu (Japan)": {
 		"languages": "Ja"
 	},
 	"Hakokoro (Japan)": {
@@ -2507,10 +2489,10 @@
 	"Halloween Trick or Treat (USA) (En,Fr,Es)": {
 		"languages": "En, Fr, Es"
 	},
-	"Hande Hokke (Japan)": {
+	"Handy Hockey (Japan)": {
 		"languages": "Ja"
 	},
-	"Hande Maja (Japan)": {
+	"Handy Mahjong (Japan)": {
 		"languages": "Ja"
 	},
 	"Happy Birthday Mart (USA) (En,Fr,Es)": {
@@ -2636,14 +2618,17 @@
 	"Hyakunin' Isshu - Chotto DSi Shigureden (Japan)": {
 		"languages": "Ja"
 	},
-	"I Am In the Movie (Europe)": {
+	"I Am in the Movie (Europe)": {
 		"languages": "En"
 	},
-	"I Am In the Movie (USA)": {
+	"I Am in the Movie (USA)": {
 		"languages": "En"
 	},
 	"I Must Run! (Europe)": {
 		"languages": "En"
+	},
+	"I Must Run! (Japan)": {
+		"languages": "Ja"
 	},
 	"I Must Run! (USA)": {
 		"languages": "En"
@@ -2651,10 +2636,13 @@
 	"Ice Hockey Slovakia 2011 (Europe) (En,Fr,De,Es)": {
 		"languages": "En, Fr, De, Es"
 	},
-	"Ichi Moudaji! - Neko Kingu (Japan)": {
+	"Ichimoudajin! - Neko King (Japan)": {
 		"languages": "Ja"
 	},
-	"Ideyou Sukeno - Kenkou Maja Dsi (Japan)": {
+	"Ide Yousuke no Kenkou Mahjong DSi (Japan)": {
+		"languages": "Ja"
+	},
+	"Idol Nights (Japan)": {
 		"languages": "Ja"
 	},
 	"Ike! Ike!! Hamusuta (Japan)": {
@@ -2665,6 +2653,12 @@
 	},
 	"Ikibago (USA) (En,Fr,Es)": {
 		"languages": "En, Fr, Es"
+	},
+	"Illust Logic (Japan)": {
+		"languages": "Ja"
+	},
+	"Illust Logic + Nihon no Mukashi Banashi (Japan)": {
+		"languages": "Ja"
 	},
 	"Inchiwamu Animesho (Japan)": {
 		"languages": "Ja"
@@ -2705,12 +2699,6 @@
 	"iQue DSi Shizhong - Xiang Jia Kuan (China) (En,Zh)": {
 		"languages": "En, Zh"
 	},
-	"Irasuto Rojikku (Japan)": {
-		"languages": "Ja"
-	},
-	"Irasuto Rojikku + Nihon no Mukashi Banashi (Japan)": {
-		"languages": "Ja"
-	},
 	"iSpot Japan (Europe) (En,Fr,Es)": {
 		"languages": "En, Fr, Es"
 	},
@@ -2726,11 +2714,14 @@
 	"Itsu Demo Tsuri Biyori (Japan)": {
 		"languages": "Ja"
 	},
-	"Itsu Demo Tsuri Biyori - Omoide no Burakku Basu (Japan)": {
+	"Itsu Demo Tsuri Biyori - Omoide no Black Bass (Japan)": {
 		"languages": "Ja"
 	},
 	"Ivy the Kiwi Mini (Europe) (En,Fr,Es)": {
 		"languages": "En, Fr, Es"
+	},
+	"Ivy the Kiwi Mini (Japan)": {
+		"languages": "Ja"
 	},
 	"Ivy the Kiwi Mini - GO Series (Europe, Australia) (En,Fr,De,Es)": {
 		"languages": "En, Fr, De, Es"
@@ -2747,6 +2738,9 @@
 	"Jamkkan! Ganpyeon! Dunoe Teureining (Korea)": {
 		"languages": "Ko"
 	},
+	"Jazzy Billiard (Japan)": {
+		"languages": "Ja"
+	},
 	"Jazzy Billiards (Europe, Australia)": {
 		"languages": "En"
 	},
@@ -2755,9 +2749,6 @@
 	},
 	"Jazzy Billieodeu (Korea)": {
 		"languages": "Ko"
-	},
-	"Jazzy Biriyado (Japan)": {
-		"languages": "Ja"
 	},
 	"JellyCar 2 (USA)": {
 		"languages": "En"
@@ -2801,22 +2792,16 @@
 	"Jewel Quest 5 - The Sleepless Star (USA) (En,Fr)": {
 		"languages": "En, Fr"
 	},
-	"Ji Bun de Tsukuru - Nintendo DS Gaido (Japan)": {
+	"Jibun de Tsukuru - Nintendo DS Guide (Japan)": {
 		"languages": "Ja"
 	},
-	"Jinia Supasonaru - Eiwa Rakubiki Jite (Japan)": {
-		"languages": "Ja"
-	},
-	"Jinia Supasonaru - Waei Rakubiki Jite (Japan)": {
-		"languages": "Ja"
-	},
-	"Jjigeora Meideu In Wario (Korea)": {
+	"Jjigeora Meideu in Wario (Korea)": {
 		"languages": "Ko"
 	},
 	"Jong-Ibihaeng-Gi (Korea)": {
 		"languages": "Ko"
 	},
-	"Joshikou Dasshu (Japan)": {
+	"Joshikou Dash (Japan)": {
 		"languages": "Ja"
 	},
 	"Jukugo Quiz (Japan)": {
@@ -2858,28 +2843,25 @@
 	"Just Sing! - National Anthems (USA)": {
 		"languages": "En"
 	},
-	"Kadohiro - Supidobatorukasutamu (Japan)": {
+	"Kaisen Game - Radar War (Japan)": {
 		"languages": "Ja"
 	},
-	"Kaisen Gemu - Redau (Japan)": {
+	"Kaite Oboeru - Eitango-chou (Japan)": {
 		"languages": "Ja"
 	},
-	"Kaite Oboeru - Eitango-Chou (Japan)": {
-		"languages": "Ja"
-	},
-	"Kaite Oboeru - Shashintango-Chou (Japan) (En,Ja)": {
+	"Kaite Oboeru - Shashintango-chou (Japan) (En,Ja)": {
 		"languages": "En, Ja"
 	},
-	"Kaiten' Irasuto Pazuru - Guru Guru Rojikku (Japan)": {
+	"Kaiten Illust Puzzle - Guru Guru Logic (Japan)": {
 		"languages": "Ja"
 	},
 	"Kakitori Rekishi - Shougakusei (Japan)": {
 		"languages": "Ja"
 	},
-	"Kakonde Ke Shite - Wakugumi Nojika (Japan)": {
+	"Kakonde Keshite - Wakugumi no Jikan (Japan)": {
 		"languages": "Ja"
 	},
-	"Kame nin Machanto! (Japan)": {
+	"Kamenin Merchant! (Japan)": {
 		"languages": "Ja"
 	},
 	"Kamera De Asobu Kao Guraida (Japan)": {
@@ -2888,7 +2870,7 @@
 	"Kamera mo Tsukaeru - Tango Hon' Yakujite (Japan)": {
 		"languages": "Ja"
 	},
-	"Kami Hikoki (Japan)": {
+	"Kami Hikouki (Japan)": {
 		"languages": "Ja"
 	},
 	"Kappa Michi (Japan)": {
@@ -2903,46 +2885,46 @@
 	"Kart Krashers (USA)": {
 		"languages": "En"
 	},
-	"Katamukusho (Japan)": {
+	"Katamukushon (Japan)": {
 		"languages": "Ja"
 	},
 	"Katanuki (Japan)": {
 		"languages": "Ja"
 	},
-	"Kazu De Asobu - Mahoujin To Imeji Kei-san (Japan)": {
+	"Kazu de Asobu - Mahoujin to Image Keisan (Japan)": {
 		"languages": "Ja"
 	},
-	"Keibadou Uma no Suke 2012 (Japan)": {
+	"Keibadou - Uma no Suke 2012 (Japan)": {
 		"languages": "Ja"
 	},
-	"Keisa 100 Renda (Japan)": {
+	"Keisan 100 Renda (Japan)": {
 		"languages": "Ja"
 	},
-	"Kemo no Mikusu Kemonomix (Japan)": {
+	"Kemonomix (Japan)": {
 		"languages": "Ja"
 	},
 	"Kigaru ni Oekaki Koubou (Japan)": {
 		"languages": "Ja"
 	},
-	"Kiwami Birei Akuariumu - Sekai no Sakana to Kujiratachi (Japan)": {
+	"Kiwami - Birei Aquarium - Sekai no Sakana to Kujira-tachi (Japan)": {
 		"languages": "Ja"
 	},
-	"Kokoro no Herusumeta - Kokoron (Japan)": {
+	"Knockout Peoples (Japan)": {
 		"languages": "Ja"
 	},
-	"Koneko no ie - Kiri Shima Keto-San Biki no Koneko (Japan)": {
+	"Kokoro no Health Meter - Kokoron (Japan)": {
 		"languages": "Ja"
 	},
-	"Korogashi Pazuru - Katamari Damacy (Japan)": {
+	"Koneko no Ie - Kirishima-ke to Sanbiki no Koneko (Japan)": {
 		"languages": "Ja"
 	},
-	"Koropata (Japan)": {
+	"Korogashi Puzzle - Katamari Damacy (Japan)": {
 		"languages": "Ja"
 	},
-	"Koukou e Itango - Kiho 400 Go Master (Japan)": {
+	"Koukou e Itango - Kiho 400-Go Master (Japan)": {
 		"languages": "Ja"
 	},
-	"Koukou Eijukugo - Kiho 200 Go Master (Japan)": {
+	"Koukou Eijukugo - Kihon 200-Go Master (Japan)": {
 		"languages": "Ja"
 	},
 	"Koumin Kuizu - Shougakusei (Japan)": {
@@ -2951,61 +2933,37 @@
 	"KuBos - Art Style Series (Europe, Australia) (En,Ja,Fr,De,It)": {
 		"languages": "En, Ja, Fr, De, It"
 	},
-	"Kuizu Ongaku Nojika (Japan)": {
-		"languages": "Ja"
-	},
 	"Kung Fu Dragon (Europe)": {
 		"languages": "En"
 	},
 	"Kung Fu Dragon (USA)": {
 		"languages": "En"
 	},
-	"Kuniyaburete-San Ga Ari (Japan) (En,Ja)": {
+	"Kuniyaburete-san ga Ari (Japan) (En,Ja)": {
 		"languages": "En, Ja"
 	},
-	"Kureiji Hamusuta (Japan)": {
-		"languages": "Ja"
-	},
-	"Kuru Kuru Akushon - Kuru Pachi 6 (Japan)": {
+	"Kuru Kuru Action - Kuru Pachi 6 (Japan)": {
 		"languages": "Ja"
 	},
 	"Kuukiyomi DS (Japan)": {
 		"languages": "Ja"
 	},
-	"Kyara Pasha! - Harokite (Japan)": {
+	"Kyou kara Hajimeru Facening - 1 Sukkiri Kogao Course (Japan)": {
 		"languages": "Ja"
 	},
-	"Kyara Pasha! - Kaiten Mutenmaru (Japan)": {
+	"Kyou kara Hajimeru Facening - 2 Sutekina Egao Course (Japan)": {
 		"languages": "Ja"
 	},
-	"Kyara Pasha! - Kikansha Thomas (Japan)": {
+	"Kyou kara Hajimeru Facening - 3 Wakawakashii Kao Course (Japan)": {
 		"languages": "Ja"
 	},
-	"Kyara Pasha! - Shinamororu (Japan)": {
+	"Kyou kara Hajimeru Facening - 4 Me to Kuchi no Kenkou Course (Japan)": {
 		"languages": "Ja"
 	},
-	"Kyara Pasha! - SpongeBob (Japan)": {
+	"Kyou kara Hajimeru Fuisuningu - 5 Kao no Refresh Course (Japan)": {
 		"languages": "Ja"
 	},
-	"Kyara Pasha! Maimerode (Japan)": {
-		"languages": "Ja"
-	},
-	"Kyou Hanan no hi Hyakka - Hyakkajiten Maipedea Yori (Japan)": {
-		"languages": "Ja"
-	},
-	"Kyou Kara Hajimeru Fuisuningu - 1 Sukkiri Kogao Kosu (Japan)": {
-		"languages": "Ja"
-	},
-	"Kyou Kara Hajimeru Fuisuningu - 2 Sutekina Egao Kosu (Japan)": {
-		"languages": "Ja"
-	},
-	"Kyou Kara Hajimeru Fuisuningu - 3 Wakawakashii Kao Kosu (Japan)": {
-		"languages": "Ja"
-	},
-	"Kyou Kara Hajimeru Fuisuningu - 4 Me to Kuchi no Kenkou Kosu (Japan)": {
-		"languages": "Ja"
-	},
-	"Kyou Kara Hajimeru Fuisuningu - 5 Kao no Rifuresshu Kosu (Japan)": {
+	"Kyou wa Nan no Hi - Hyakka - Hyakka Jiten Mypedia yori (Japan)": {
 		"languages": "Ja"
 	},
 	"Learning Piano (Europe) (En,Fr,De,Es)": {
@@ -3047,6 +3005,9 @@
 	"Let's Swing - GO Series (Europe)": {
 		"languages": "En"
 	},
+	"Let's! Golf (Japan)": {
+		"languages": "Ja"
+	},
 	"Letter Challenge (USA) (En,Fr,Es)": {
 		"languages": "En, Fr, Es"
 	},
@@ -3065,13 +3026,58 @@
 	"Liti Yincang Hua - Tonghua Xun Zong Ji (China) (En,Ja,Fr,De,Es,It,Zh,Ko)": {
 		"languages": "En, Ja, Fr, De, Es, It, Zh, Ko"
 	},
+	"Little Bit of..., A - All-Time Classics - Card Classics (Europe) (En,Fr,De,Es,It,Zh)": {
+		"languages": "En, Fr, De, Es, It, Zh"
+	},
+	"Little Bit of..., A - All-Time Classics - Family Games (Europe) (En,Fr,De,Es,It,Zh)": {
+		"languages": "En, Fr, De, Es, It, Zh"
+	},
+	"Little Bit of..., A - All-Time Classics - Strategy Games (Europe) (En,Fr,De,Es,It,Zh,Ko)": {
+		"languages": "En, Fr, De, Es, It, Zh, Ko"
+	},
+	"Little Bit of..., A - Brain Training - Arts Edition (Europe, Australia) (En,Fr,De,Es,It)": {
+		"languages": "En, Fr, De, Es, It"
+	},
+	"Little Bit of..., A - Brain Training - Maths Edition (Europe, Australia) (En,Fr,De,Es,It)": {
+		"languages": "En, Fr, De, Es, It"
+	},
+	"Little Bit of..., A - Brain Training - Sudoku (Europe, Australia) (En,Fr,De,Es,It)": {
+		"languages": "En, Fr, De, Es, It"
+	},
+	"Little Bit of..., A - Dr. Mario (Europe, Australia) (En,Ja,Fr,De,Es,It,Zh)": {
+		"languages": "En, Ja, Fr, De, Es, It, Zh"
+	},
+	"Little Bit of..., A - Magic Made Fun - Deep Psyche (Europe) (De,Es)": {
+		"languages": "De, Es"
+	},
+	"Little Bit of..., A - Magic Made Fun - Funny Face (Europe) (En,Es)": {
+		"languages": "En, Es"
+	},
+	"Little Bit of..., A - Magic Made Fun - Matchmaker (Europe) (En,Ja,Fr,De,Es,It)": {
+		"languages": "En, Ja, Fr, De, Es, It"
+	},
+	"Little Bit of..., A - Magic Made Fun - Mind Probe (Europe) (En,Fr,De,Es,It)": {
+		"languages": "En, Fr, De, Es, It"
+	},
+	"Little Bit of..., A - Magic Made Fun - Psychic Camera (Europe) (En,Fr,De,Es,It)": {
+		"languages": "En, Fr, De, Es, It"
+	},
+	"Little Bit of..., A - Magic Made Fun - Shuffle Games (Europe) (En,Es)": {
+		"languages": "En, Es"
+	},
+	"Little Bit of..., A - Nintendo Touch Golf (Europe, Australia) (En,Fr,De,It)": {
+		"languages": "En, Fr, De, It"
+	},
+	"Little Bit of..., A - Puzzle League (Europe, Australia) (En,Fr,De,It)": {
+		"languages": "En, Fr, De, It"
+	},
 	"Little Red Riding Hood's Zombie BBQ (Europe) (En,Fr,De,Es)": {
 		"languages": "En, Fr, De, Es"
 	},
 	"Little Red Riding Hood's Zombie BBQ (USA) (En,Fr,Es)": {
 		"languages": "En, Fr, Es"
 	},
-	"Little Twin Stars - (Japan)": {
+	"Little Twin Stars to Minna no Nurie (Japan)": {
 		"languages": "Ja"
 	},
 	"Littlest Pet Shop (Europe, Australia)": {
@@ -3128,6 +3134,12 @@
 	"Magical Diary - Secrets Sharing (USA)": {
 		"languages": "En"
 	},
+	"Magical Drop Yurutto (Japan)": {
+		"languages": "Ja"
+	},
+	"Magical Fantasy Star (Japan)": {
+		"languages": "Ja"
+	},
 	"Magical Whip (Europe)": {
 		"languages": "En"
 	},
@@ -3143,22 +3155,7 @@
 	"Mahjong (USA) (En,Fr,Es)": {
 		"languages": "En, Fr, Es"
 	},
-	"Maimero de to - Minna no Nurie (Japan)": {
-		"languages": "Ja"
-	},
-	"Mainichi Sodateru Nikki Karenda (Japan)": {
-		"languages": "Ja"
-	},
-	"Maite Furippu Chanpu (Japan)": {
-		"languages": "Ja"
-	},
-	"Maite Miruki Ui (Japan)": {
-		"languages": "Ja"
-	},
-	"Majikaru Doroppu Yurutto (Japan)": {
-		"languages": "Ja"
-	},
-	"Majikaru Funtajisuta (Japan)": {
+	"Mainichi Sodateru Nikki Calendar (Japan)": {
 		"languages": "Ja"
 	},
 	"Make Up Style (Europe)": {
@@ -3233,7 +3230,7 @@
 	"Mehr Kreuzwortratsel - Welt Edition (Germany)": {
 		"languages": "De"
 	},
-	"Meikyou Kokugo - Rakubiki Jite (Japan)": {
+	"Meikyou Kokugo - Rakubiki Jiten (Japan)": {
 		"languages": "Ja"
 	},
 	"Metal Torrent (Europe, Australia) (En,Fr,De,Es)": {
@@ -3242,7 +3239,7 @@
 	"Metal Torrent (USA)": {
 		"languages": "En"
 	},
-	"Miami Naitsu - Serebuhe (Japan)": {
+	"Miami Nights - Celeb-hen (Japan)": {
 		"languages": "Ja"
 	},
 	"Miami Nights - Life in the Spotlight! (Europe, Australia) (En,Fr,De,Es)": {
@@ -3254,6 +3251,9 @@
 	"Miao Miao Zhong Zhong! (China) (En,Zh)": {
 		"languages": "En, Zh"
 	},
+	"Mighty Flip Champ (Japan)": {
+		"languages": "Ja"
+	},
 	"Mighty Flip Champs! (Europe, Australia)": {
 		"languages": "En"
 	},
@@ -3262,6 +3262,9 @@
 	},
 	"Mighty Milky Way (Europe)": {
 		"languages": "En"
+	},
+	"Mighty Milky Way (Japan)": {
+		"languages": "Ja"
 	},
 	"Mighty Milky Way (USA)": {
 		"languages": "En"
@@ -3272,7 +3275,7 @@
 	"Missy Mila Twisted Tales (Europe) (En,Fr,De,Es,Nl)": {
 		"languages": "En, Fr, De, Es, Nl"
 	},
-	"Misuta Dorira (Japan)": {
+	"Mister Driller (Japan)": {
 		"languages": "Ja"
 	},
 	"Mixed Messages (Europe, Australia)": {
@@ -3296,7 +3299,7 @@
 	"Monster Buster Club (USA) (En,Fr,Es)": {
 		"languages": "En, Fr, Es"
 	},
-	"Monsuta Kuronikuru (Japan)": {
+	"Monster Chronicle (Japan)": {
 		"languages": "Ja"
 	},
 	"Moto eXtreme (Europe, Australia)": {
@@ -3308,10 +3311,10 @@
 	"Mots Croises (France)": {
 		"languages": "Fr"
 	},
-	"Motto Medeu nou o Kitaeru - DS Soku do Kujutsu Light (Japan)": {
+	"Motto Me de Unou o Kitaeru - DS Sokudoku Jutsu Light (Japan)": {
 		"languages": "Ja"
 	},
-	"Motto! - Shunkan Janpu Kentei (Japan)": {
+	"Motto! - Shunkan Jump Kentei (Japan)": {
 		"languages": "Ja"
 	},
 	"Move your Brain - Rollway Puzzle (Europe) (En,Fr,De,Es)": {
@@ -3320,10 +3323,10 @@
 	"Move your Brain - Rollway Puzzle (USA) (En,Fr,Es)": {
 		"languages": "En, Fr, Es"
 	},
-	"Moyasu Pazuru - Fureimuteiru (Japan)": {
+	"Moyasu Puzzle - Frame Tail (Japan)": {
 		"languages": "Ja"
 	},
-	"Mr. Brain - Misutaburei (Japan)": {
+	"Mr. Brain (Japan)": {
 		"languages": "Ja"
 	},
 	"Mr. Driller - Drill Till You Drop (Europe, Australia) (En,Fr,De,Es)": {
@@ -3373,6 +3376,9 @@
 	},
 	"My Little Restaurant (USA)": {
 		"languages": "En"
+	},
+	"My Melody to Minna no Nurie (Japan)": {
+		"languages": "Ja"
 	},
 	"My Postcards (Europe, Australia)": {
 		"languages": "En"
@@ -3455,22 +3461,22 @@
 	"Naeireun Taeksiwang - Innaneun Daeguyeohaeng (Korea)": {
 		"languages": "Ko"
 	},
-	"Nagameru Dakede Kashikoku Nareru! - Mojipitta Shiritori Dokei (Japan)": {
+	"Nagameru Dake de Kashikoku Nareru! - Mojipitta Shiritori Dokei (Japan)": {
 		"languages": "Ja"
 	},
-	"Nalaku - Art Style Shirizu (Japan)": {
+	"Nalaku - Art Style Series (Japan)": {
 		"languages": "Ja"
 	},
-	"Nandoku 500 Kanji - Wado Pazuru (Japan)": {
+	"Nandoku 500 Kanji - Word Puzzle (Japan)": {
 		"languages": "Ja"
 	},
-	"Nari Kyara Reborn! (Japan)": {
+	"Nari Chara - Naruto - Naruto Shippuuden (Japan)": {
 		"languages": "Ja"
 	},
-	"Narikyara - Naruto - Naruto-Shippuden (Japan)": {
+	"Nari Chara Reborn! (Japan)": {
 		"languages": "Ja"
 	},
-	"Nazo no Mini Gemu (Japan)": {
+	"Nazo no Mini Game (Japan)": {
 		"languages": "Ja"
 	},
 	"Necromancer - Nightmare Reborn (Japan)": {
@@ -3482,10 +3488,10 @@
 	"Need For Speed Nitro-X (USA) (En,Fr,Es)": {
 		"languages": "En, Fr, Es"
 	},
-	"Neko Neko Bekari - Pan de Pazurunya! (Japan)": {
+	"Neko Neko Bakery - Pan de Puzzle-nya! (Japan)": {
 		"languages": "Ja"
 	},
-	"Neko no Irutan Guramu (Japan)": {
+	"Neko no Iru Tangram (Japan)": {
 		"languages": "Ja"
 	},
 	"Nekori Bashi (Japan)": {
@@ -3494,19 +3500,19 @@
 	"Nemrem - Art Style Series (Europe, Australia) (En,Ja,Fr,De,It,Zh,Ko)": {
 		"languages": "En, Ja, Fr, De, It, Zh, Ko"
 	},
-	"Neratte Supotto! (Japan)": {
+	"Neratte Spot! (Japan)": {
 		"languages": "Ja"
 	},
 	"New English Training Apprenez - Le Bon Tempo - Pour Debutants (Europe) (Ja,Fr,De,Es,It)": {
 		"languages": "Ja, Fr, De, Es, It"
 	},
-	"New English Training Apprenez - le Bon Tempo - Pour Inities (Europe) (Ja,Fr,De,Es,It)": {
+	"New English Training Apprenez - Le Bon Tempo - Pour Inities (Europe) (Ja,Fr,De,Es,It)": {
 		"languages": "Ja, Fr, De, Es, It"
 	},
 	"Niao he Dou (China) (En,Zh)": {
 		"languages": "En, Zh"
 	},
-	"Nintendo 3DS Heno Hikkoshi (Japan) (System)": {
+	"Nintendo 3DS e no Hikkoshi (Japan) (System)": {
 		"languages": "Ja"
 	},
 	"Nintendo 3DS Ro Isa (Korea) (System)": {
@@ -3536,7 +3542,7 @@
 	"Nintendo DSi - Instrument Tuner (USA)": {
 		"languages": "En"
 	},
-	"Nintendo DSi - Metoronomu (Japan)": {
+	"Nintendo DSi - Metronome (Japan)": {
 		"languages": "Ja"
 	},
 	"Nintendo DSi - Metronome (USA)": {
@@ -3560,19 +3566,16 @@
 	"Nintendo DSi Camera (Europe) (En,Fr,De,Es,It) (System)": {
 		"languages": "En, Fr, De, Es, It"
 	},
+	"Nintendo DSi Camera (Japan) (System)": {
+		"languages": "Ja"
+	},
 	"Nintendo DSi Camera (USA) (En,Fr,Es) (System)": {
 		"languages": "En, Fr, Es"
 	},
-	"Nintendo DSi Dentaku - Doubutsu no Mori Taipu (Japan)": {
+	"Nintendo DSi Dentaku - Doubutsu no Mori Type (Japan)": {
 		"languages": "Ja"
 	},
-	"Nintendo DSi Dentaku - Fumikon Mario Taipu (Japan)": {
-		"languages": "Ja"
-	},
-	"Nintendo DSi Kamera (Japan) (System)": {
-		"languages": "Ja"
-	},
-	"Nintendo DSi Saundo (Japan) (System)": {
+	"Nintendo DSi Dentaku - Fumikon Mario Type (Japan)": {
 		"languages": "Ja"
 	},
 	"Nintendo DSi Shop (Australia) (System)": {
@@ -3581,11 +3584,11 @@
 	"Nintendo DSi Shop (Europe) (En,Fr,Es) (System)": {
 		"languages": "En, Fr, Es"
 	},
+	"Nintendo DSi Shop (Japan) (System)": {
+		"languages": "Ja"
+	},
 	"Nintendo DSi Shop (USA) (En,Fr,Es) (System)": {
 		"languages": "En, Fr, Es"
-	},
-	"Nintendo DSi Shoppu (Japan) (System)": {
-		"languages": "Ja"
 	},
 	"Nintendo DSi Sound (Australia) (System)": {
 		"languages": "En"
@@ -3593,19 +3596,22 @@
 	"Nintendo DSi Sound (Europe) (En,Fr) (System)": {
 		"languages": "En, Fr"
 	},
+	"Nintendo DSi Sound (Japan) (System)": {
+		"languages": "Ja"
+	},
 	"Nintendo DSi Sound (USA) (En,Fr) (System)": {
 		"languages": "En, Fr"
 	},
 	"Nintendo DSi Syop (Korea) (System)": {
 		"languages": "Ko"
 	},
-	"Nintendo DSi Tokei - Doubutsu no Mori Taipu (Japan)": {
+	"Nintendo DSi Tokei - Doubutsu no Mori Type (Japan)": {
 		"languages": "Ja"
 	},
-	"Nintendo DSi Tokei - Fumikon Mario Taipu (Japan)": {
+	"Nintendo DSi Tokei - Famicom Mario Type (Japan)": {
 		"languages": "Ja"
 	},
-	"Nintendo DSi Tokei - Futo Sutando Taipu (Japan)": {
+	"Nintendo DSi Tokei - Photo Stand Type (Japan)": {
 		"languages": "Ja"
 	},
 	"Nintendo Zone (Australia) (System)": {
@@ -3620,13 +3626,10 @@
 	"Nintendo Zone (USA) (System)": {
 		"languages": "En"
 	},
-	"Nokkuau to Pi Puruzu (Japan)": {
+	"Noroi no Game - Chi (Japan)": {
 		"languages": "Ja"
 	},
-	"Noroi no Geemu Chi (Japan)": {
-		"languages": "Ja"
-	},
-	"Noroi no Geemu Goku (Japan)": {
+	"Noroi no Game - Goku (Japan)": {
 		"languages": "Ja"
 	},
 	"Number Battle (USA)": {
@@ -3638,16 +3641,13 @@
 	"Nyueiseu Teochi! Yeonghansajeon (Korea) (En,Ko)": {
 		"languages": "En, Ko"
 	},
-	"O Dekake! Asushika (Japan)": {
+	"Odekake Takorin (Japan)": {
 		"languages": "Ja"
 	},
-	"O Tegaru Pazuru Shirizu - Chiria no Doubutsu Goya (Japan)": {
+	"Odekake! Earth Seeker (Japan)": {
 		"languages": "Ja"
 	},
-	"Odeka Ketakori (Japan)": {
-		"languages": "Ja"
-	},
-	"Omiko Shiuzu (Japan)": {
+	"Omikoshi Wars (Japan)": {
 		"languages": "Ja"
 	},
 	"Oregon Trail, The (USA)": {
@@ -3680,40 +3680,37 @@
 	"Oscar's World Tour (USA) (En,Fr,Es)": {
 		"languages": "En, Fr, Es"
 	},
-	"Ose Ose! Kyassuru Hirozu - Kaku Meihen (Japan)": {
+	"Ose Ose! Castle Heroes - Kakumei-hen (Japan)": {
 		"languages": "Ja"
 	},
-	"Osero (Japan)": {
-		"languages": "Ja"
-	},
-	"Oshiete Dari (Japan)": {
+	"Oshiete Darling (Japan)": {
 		"languages": "Ja"
 	},
 	"Otakara Hanta - Sabumarin Kiddo no Bouken (Japan)": {
 		"languages": "Ja"
 	},
-	"Otegaru Pazuru Shirizu - Yurito Fushigina Meikyuu (Japan)": {
+	"Otegaru Puzzle Series - Chiria no Doubutsu Goya (Japan)": {
+		"languages": "Ja"
+	},
+	"Otegaru Puzzle Series - Yuritto Fushigi na Meikyuu (Japan)": {
 		"languages": "Ja"
 	},
 	"Otegaru Shashin Memo (Japan)": {
 		"languages": "Ja"
 	},
-	"Otona no Nihonshi Pazuru (Japan)": {
+	"Othello (Japan)": {
 		"languages": "Ja"
 	},
-	"Otona no Sekaishi Pazuru (Japan)": {
+	"Otona no Nihonshi Puzzle (Japan)": {
 		"languages": "Ja"
 	},
-	"Otona no Tame no - Kei-san Toreningu DS (Japan)": {
+	"Otona no Sekaishi Puzzle (Japan)": {
+		"languages": "Ja"
+	},
+	"Otona no Tame no Keisan Training DS (Japan)": {
 		"languages": "Ja"
 	},
 	"Otona no Tame no Renjuku Kanji (Japan)": {
-		"languages": "Ja"
-	},
-	"Paburissha Dorimu (Japan)": {
-		"languages": "Ja"
-	},
-	"Pairetsu Asaruto (Japan)": {
 		"languages": "Ja"
 	},
 	"Panda Craze (Europe, Australia)": {
@@ -3722,7 +3719,7 @@
 	"Panda Craze (USA)": {
 		"languages": "En"
 	},
-	"Paneru Renketsu 3 Punroketto (Japan)": {
+	"Panel Renketsu 3-pun Rocket (Japan)": {
 		"languages": "Ja"
 	},
 	"Panewa! (Japan)": {
@@ -3746,24 +3743,6 @@
 	"Paul's Shooting Adventure (USA)": {
 		"languages": "En"
 	},
-	"Pazuru Iro Iro - Gekkan Kurosu Wado Hausu Vol. 1 (Japan)": {
-		"languages": "Ja"
-	},
-	"Pazuru Iro Iro - Gekkan Kurosu Wado Hausu Vol. 2 (Japan)": {
-		"languages": "Ja"
-	},
-	"Pazuru Iro Iro - Gekkan Kurosu Wado Hausu Vol. 3 (Japan)": {
-		"languages": "Ja"
-	},
-	"Pazuru Iro Iro - Gekkan Kurosu Wado Hausu Vol. 4 (Japan)": {
-		"languages": "Ja"
-	},
-	"Pazuru Iro Iro - Gekkan Kurosu Wado Hausu Vol. 5 (Japan) (En,Ja)": {
-		"languages": "En, Ja"
-	},
-	"Pazuru Iro Iro - Gekkan Kurosu Wado Hausu Vol. 6 (Japan)": {
-		"languages": "Ja"
-	},
 	"Peakvox - Majimajo (Japan)": {
 		"languages": "Ja"
 	},
@@ -3776,7 +3755,7 @@
 	"Peakvox Myuu Myuu Chanba (Japan)": {
 		"languages": "Ja"
 	},
-	"Peakvox Route Kyandoru I (Japan)": {
+	"Peakvox Route Candle I (Japan)": {
 		"languages": "Ja"
 	},
 	"Peg Solitaire (Europe)": {
@@ -3857,7 +3836,7 @@
 	"Picopict - Art Style Series (Europe, Australia) (En,Ja,Fr,De,It)": {
 		"languages": "En, Ja, Fr, De, It"
 	},
-	"Picopict - Art Style shirizu (Japan)": {
+	"Picopict - Art Style Series (Japan)": {
 		"languages": "Ja"
 	},
 	"Pictobits - Art Style Series (USA)": {
@@ -3875,6 +3854,9 @@
 	"Pikkuda (Japan)": {
 		"languages": "Ja"
 	},
+	"Pinball Attack! (Japan)": {
+		"languages": "Ja"
+	},
 	"Pinball Attack! - GO Series (Europe) (En,Ja)": {
 		"languages": "En, Ja"
 	},
@@ -3887,11 +3869,11 @@
 	"Pinball Pulse - The Ancients Beckon (USA)": {
 		"languages": "En"
 	},
-	"Pinboru Atakku! (Japan)": {
-		"languages": "Ja"
-	},
 	"Pirates Assault (Europe, Australia)": {
 		"languages": "En"
+	},
+	"Pirates Assault (Japan)": {
+		"languages": "Ja"
 	},
 	"Pirates Assault (USA)": {
 		"languages": "En"
@@ -3920,34 +3902,34 @@
 	"Pocket Pack Words Numbers (Europe)": {
 		"languages": "En"
 	},
-	"Poketto Rurubu - Hokkaido (Japan) (En,Ja)": {
+	"Pocket Rurubu - Hokkaido (Japan) (En,Ja)": {
 		"languages": "En, Ja"
 	},
-	"Poketto Rurubu - Izu Hakone (Japan) (En,Ja)": {
+	"Pocket Rurubu - Izu Hakone (Japan) (En,Ja)": {
 		"languages": "En, Ja"
 	},
-	"Poketto Rurubu - Kobe (Japan) (En,Ja)": {
+	"Pocket Rurubu - Kobe (Japan) (En,Ja)": {
 		"languages": "En, Ja"
 	},
-	"Poketto Rurubu - Kyouto (Japan) (En,Ja)": {
+	"Pocket Rurubu - Kyouto (Japan) (En,Ja)": {
 		"languages": "En, Ja"
 	},
-	"Poketto Rurubu - Nagoya (Japan) (En,Ja)": {
+	"Pocket Rurubu - Nagoya (Japan) (En,Ja)": {
 		"languages": "En, Ja"
 	},
-	"Poketto Rurubu - Okinawa (Japan) (En,Ja)": {
+	"Pocket Rurubu - Okinawa (Japan) (En,Ja)": {
 		"languages": "En, Ja"
 	},
-	"Poketto Rurubu - Osaka (Japan) (En,Ja)": {
+	"Pocket Rurubu - Osaka (Japan) (En,Ja)": {
 		"languages": "En, Ja"
 	},
-	"Poketto Rurubu - Shinshu (Japan) (En,Ja)": {
+	"Pocket Rurubu - Shinshu (Japan) (En,Ja)": {
 		"languages": "En, Ja"
 	},
-	"Poketto Rurubu - Tokyo (Japan) (En,Ja)": {
+	"Pocket Rurubu - Tokyo (Japan) (En,Ja)": {
 		"languages": "En, Ja"
 	},
-	"Poketto Rurubu - Yokohama Kamakura (Japan) (En,Ja)": {
+	"Pocket Rurubu - Yokohama Kamakura (Japan) (En,Ja)": {
 		"languages": "En, Ja"
 	},
 	"Ponjan (Japan)": {
@@ -3965,7 +3947,7 @@
 	"Pop Island - Paperfield (USA) (En,Fr,Es)": {
 		"languages": "En, Fr, Es"
 	},
-	"Pop Superstar - Road to celebrity (Europe, Australia) (En,Fr,De,Es,It,Zh)": {
+	"Pop Superstar - Road to Celebrity (Europe, Australia) (En,Fr,De,Es,It,Zh)": {
 		"languages": "En, Fr, De, Es, It, Zh"
 	},
 	"Pop+ Solo (Europe, Australia)": {
@@ -4007,16 +3989,19 @@
 	"Publisher Dream (Europe)": {
 		"languages": "En"
 	},
+	"Publisher Dream (Japan)": {
+		"languages": "Ja"
+	},
 	"Publisher Dream (USA)": {
 		"languages": "En"
 	},
 	"Pucca - Noodle Rush (Europe) (En,Fr,De,Es,Nl)": {
 		"languages": "En, Fr, De, Es, Nl"
 	},
-	"Puchiko (Japan)": {
+	"Puchikon (Japan)": {
 		"languages": "Ja"
 	},
-	"Puchiko mkII (Japan)": {
+	"Puchikon mkII (Japan)": {
 		"languages": "Ja"
 	},
 	"Puffins - Let's Fish! (Europe) (En,Fr,De,Es)": {
@@ -4045,6 +4030,24 @@
 	},
 	"Puzzle Fever (USA) (En,Fr,Es)": {
 		"languages": "En, Fr, Es"
+	},
+	"Puzzle Iro Iro - Gekkan Crossword House Vol. 1 (Japan)": {
+		"languages": "Ja"
+	},
+	"Puzzle Iro Iro - Gekkan Crossword House Vol. 2 (Japan)": {
+		"languages": "Ja"
+	},
+	"Puzzle Iro Iro - Gekkan Crossword House Vol. 3 (Japan)": {
+		"languages": "Ja"
+	},
+	"Puzzle Iro Iro - Gekkan Crossword House Vol. 4 (Japan)": {
+		"languages": "Ja"
+	},
+	"Puzzle Iro Iro - Gekkan Crossword House Vol. 5 (Japan) (En,Ja)": {
+		"languages": "En, Ja"
+	},
+	"Puzzle Iro Iro - Gekkan Crossword House Vol. 6 (Japan)": {
+		"languages": "Ja"
 	},
 	"Puzzle League - Express (USA)": {
 		"languages": "En"
@@ -4103,6 +4106,9 @@
 	"QuickPick Farmer (USA) (En,Fr,Es)": {
 		"languages": "En, Fr, Es"
 	},
+	"Quiz Ongaki no Jikan (Japan)": {
+		"languages": "Ja"
+	},
 	"Rabi Laby 2 (Europe)": {
 		"languages": "En"
 	},
@@ -4114,6 +4120,9 @@
 	},
 	"Rabi Laby (USA)": {
 		"languages": "En"
+	},
+	"Radar War Series - Gunjin Shougi (Japan)": {
+		"languages": "Ja"
 	},
 	"Rasu Begasu no Bouken - Surotto Mashin (Japan)": {
 		"languages": "Ja"
@@ -4136,17 +4145,23 @@
 	"Real Football 2010 (Europe, Australia) (En,Fr,De,Es,Nl)": {
 		"languages": "En, Fr, De, Es, Nl"
 	},
+	"Real Soccer 2009 (Japan) (En,Ja)": {
+		"languages": "En, Ja"
+	},
 	"Real Soccer 2009 (USA) (En,Ja)": {
+		"languages": "En, Ja"
+	},
+	"Real Soccer 2010 (Japan) (En,Ja)": {
 		"languages": "En, Ja"
 	},
 	"Real Soccer 2010 (USA) (En,Ja)": {
 		"languages": "En, Ja"
 	},
-	"Redau Shirizu - Gunjin Shougi (Japan)": {
-		"languages": "Ja"
-	},
 	"Reflect Missile (Europe, Australia)": {
 		"languages": "En"
+	},
+	"Reflect Missile (Japan)": {
+		"languages": "Ja"
 	},
 	"Remote Racers (Europe, Australia)": {
 		"languages": "En"
@@ -4193,9 +4208,6 @@
 	"Retro Pocket (USA)": {
 		"languages": "En"
 	},
-	"Rettsu! Gorufu (Japan)": {
-		"languages": "Ja"
-	},
 	"Rhythm Core Alpha 2 (Europe, Australia)": {
 		"languages": "En"
 	},
@@ -4208,34 +4220,22 @@
 	"Rhythm Core Alpha (USA) (En,Fr,Es)": {
 		"languages": "En, Fr, Es"
 	},
-	"Riaru Sakka 2009 (Japan) (En,Ja)": {
-		"languages": "En, Ja"
+	"Rhythm de Kitaeru Eigozuke - Native Kaiwa-hen (Japan)": {
+		"languages": "Ja"
 	},
-	"Riaru Sakka 2010 (Japan) (En,Ja)": {
-		"languages": "En, Ja"
+	"Rhythm de Kitaeru Eigozuke - Yasashii Kaiwa-hen (Japan)": {
+		"languages": "Ja"
 	},
 	"Rieol Sakeo 2010 (Korea) (En,Ja,Ko)": {
 		"languages": "En, Ja, Ko"
 	},
-	"Rifurekuto Misairu (Japan)": {
-		"languages": "Ja"
-	},
-	"Rika Quiz Shougaku Sei - Seibutsu Chigaku He (Japan)": {
+	"Rika Quiz Shougakusei - Seibutsu Chigaku-hen (Japan)": {
 		"languages": "Ja"
 	},
 	"Rikishi (Japan)": {
 		"languages": "Ja"
 	},
 	"Rittai Kakushie - Atta Koreda (Japan)": {
-		"languages": "Ja"
-	},
-	"Rizumikku Sureto Robittsu (Japan) (En,Ja)": {
-		"languages": "En, Ja"
-	},
-	"Rizumu de Kitaeru Eigozuke - Neitebu Kaiwa-Hen (Japan)": {
-		"languages": "Ja"
-	},
-	"Rizumu de Kitaeru Eigozuke - Yasashii Kaiwa-Hen (Japan)": {
 		"languages": "Ja"
 	},
 	"Robot Rescue 2 (Europe) (En,Fr,De,Es,It)": {
@@ -4262,10 +4262,10 @@
 	"Roller Angels (USA)": {
 		"languages": "En"
 	},
-	"Rora Enjirusu - Pashatto Dai Sakusen (Japan)": {
+	"Roller Angels - Pashatto Daisakusen (Japan)": {
 		"languages": "Ja"
 	},
-	"RPG Dasshutsu Gemu (Japan)": {
+	"RPG Dasshutsu Game (Japan)": {
 		"languages": "Ja"
 	},
 	"Rummikub - Games Factory Online (Europe) (En,Fr,De,Es,It,Nl)": {
@@ -4282,6 +4282,9 @@
 	},
 	"Rytmik Retrobits (Europe, Australia)": {
 		"languages": "De"
+	},
+	"Rytmik Retrobits (Japan) (En,Ja)": {
+		"languages": "En, Ja"
 	},
 	"Rytmik Retrobits (USA)": {
 		"languages": "En"
@@ -4301,22 +4304,22 @@
 	"Saekong-Alkong (Korea)": {
 		"languages": "Ko"
 	},
+	"Sagittarius-A-Star (Japan)": {
+		"languages": "Ja"
+	},
+	"Saikyou Ginsei Igo (Japan)": {
+		"languages": "Ja"
+	},
 	"Saikyou Ginsei Shougi (Japan)": {
 		"languages": "Ja"
 	},
-	"Saikyou Ginseiigo (Japan)": {
-		"languages": "Ja"
-	},
-	"Sajitariusu e Suta (Japan)": {
-		"languages": "Ja"
-	},
-	"Sakurai Miho No Kouun No - Me Ga Mi Serapi Uranai (Japan)": {
+	"Sakurai Miho no Kouun no Megami Therapy Uranai (Japan)": {
 		"languages": "Ja"
 	},
 	"Sangoku Daifugou (Japan)": {
 		"languages": "Ja"
 	},
-	"Sangoku Shi Tawa Defunsu - Doushou Teppeki (Japan)": {
+	"Sangokushi Tower Defense - Doushou Teppeki (Japan)": {
 		"languages": "Ja"
 	},
 	"Save the Turtles (Europe, Australia) (En,Fr,De,Es)": {
@@ -4340,25 +4343,25 @@
 	"Sea Battle (USA)": {
 		"languages": "En"
 	},
-	"Sekai Tanken - Kokki Warudo Mappu 3 (Japan)": {
+	"Sekai Tanken - Kokki World Map 3 (Japan)": {
 		"languages": "Ja"
 	},
-	"Sekai Tanken - Kokki Warudo Mappu 2012 (Japan)": {
+	"Sekai Tanken - Kokki World Map 2012 (Japan)": {
 		"languages": "Ja"
 	},
-	"Sekai Tanken - Kokki Warudo Mappu (Japan)": {
+	"Sekai Tanken - Kokki World Map (Japan)": {
 		"languages": "Ja"
 	},
 	"Seller, The (Europe)": {
 		"languages": "En"
 	},
+	"Seller, The (Japan)": {
+		"languages": "Ja"
+	},
 	"Seller, The (USA)": {
 		"languages": "En"
 	},
 	"Sengoku Tactics (Japan)": {
-		"languages": "Ja"
-	},
-	"Sepasu Channeru (Japan)": {
 		"languages": "Ja"
 	},
 	"Shantae - Risky's Revenge (Europe)": {
@@ -4373,43 +4376,43 @@
 	"Shapo (USA)": {
 		"languages": "En"
 	},
-	"Shashin de Kakutou! - Futofuita-X (Japan)": {
+	"Shashin de Kakutou! - Photo Fighter X (Japan)": {
 		"languages": "Ja"
 	},
 	"Shawn Johnson Gymnastics (USA)": {
 		"languages": "En"
 	},
-	"Shikakui Atama wo Maruku Suru - Hime Kuri Calendar DS (Japan)": {
+	"Shikakui Atama o Maruku Suru. Hime Kuri Calendar DS (Japan)": {
 		"languages": "Ja"
 	},
-	"Shin Sangoku Maja - Kokushimusou (Japan)": {
+	"Shin Sangoku Mahjong - Kokushimusou (Japan)": {
 		"languages": "Ja"
 	},
-	"Shunkan Janpu Kentei (Japan)": {
+	"Shunkan Jump Kentei (Japan)": {
 		"languages": "Ja"
 	},
-	"Shunkan Tsubutsubu Tsubushi (Japan)": {
+	"Shunkan Tsubu Tsubu Tsubushi (Japan)": {
 		"languages": "Ja"
 	},
 	"Shuzhen Duizhan (China) (En,Ja,Zh)": {
 		"languages": "En, Ja, Zh"
 	},
-	"Simple DS Shirizu Vol. 1 - The Misshitsukara no Dasshutsu (Japan)": {
+	"Simple DS Series Vol. 1 - The Misshitsu kara no Dasshutsu (Japan)": {
 		"languages": "Ja"
 	},
-	"Simple DS Shirizu Vol. 2 - The Misshitsukara no Dasshutsu (Japan)": {
+	"Simple DS Series Vol. 2 - The Misshitsu kara no Dasshutsu (Japan)": {
 		"languages": "Ja"
 	},
-	"Simple DS Shirizu Vol. 3 - The Misshitsukara no Dasshutsu (Japan)": {
+	"Simple DS Series Vol. 3 - The Misshitsu kara no Dasshutsu (Japan)": {
 		"languages": "Ja"
 	},
-	"Simple DS Shirizu Vol. 4 - The Misshitsukara no Dasshutsu (Japan)": {
+	"Simple DS Series Vol. 4 - The Misshitsu kara no Dasshutsu (Japan)": {
 		"languages": "Ja"
 	},
-	"Simple DS Shirizu Vol. 5 - The Misshitsukara no Dasshutsu (Japan)": {
+	"Simple DS Series Vol. 5 - The Misshitsu kara no Dasshutsu (Japan)": {
 		"languages": "Ja"
 	},
-	"Simple DS Shirizu Vol. 6 - The Misshitsukara no Dasshutsu (Japan)": {
+	"Simple DS Series Vol. 6 - The Misshitsu kara no Dasshutsu (Japan)": {
 		"languages": "Ja"
 	},
 	"Simply Mahjong (Europe) (En,Fr,De,Es,Nl)": {
@@ -4441,6 +4444,9 @@
 	},
 	"Simsimtalchul Geimjeonjip - Matgogoseutop Pyeon (Korea)": {
 		"languages": "Ko"
+	},
+	"Sky Jumper Soru (Japan)": {
+		"languages": "Ja"
 	},
 	"Sleep Clock (Europe, Australia) (En,Ja,Fr,De,It)": {
 		"languages": "En, Ja, Fr, De, It"
@@ -4481,37 +4487,37 @@
 	"Sokomania (USA)": {
 		"languages": "En"
 	},
-	"Sokuren Keisa - Nanmon-Hen (Japan)": {
+	"Sokuren Keisan - Nanmon-hen (Japan)": {
 		"languages": "Ja"
 	},
-	"Sokuren Keisa - Shougaku 1 Nensei (Japan)": {
+	"Sokuren Keisan - Shougaku 1 Nensei (Japan)": {
 		"languages": "Ja"
 	},
-	"Sokuren Keisa - Shougaku 2 Nensei (Japan)": {
+	"Sokuren Keisan - Shougaku 2 Nensei (Japan)": {
 		"languages": "Ja"
 	},
-	"Sokuren Keisa - Shougaku 3 Nensei (Japan)": {
+	"Sokuren Keisan - Shougaku 3 Nensei (Japan)": {
 		"languages": "Ja"
 	},
-	"Sokuren Keisa - Shougaku 4 Nensei (Japan)": {
+	"Sokuren Keisan - Shougaku 4 Nensei (Japan)": {
 		"languages": "Ja"
 	},
-	"Sokuren Keisa - Shougaku 5 Nensei (Japan)": {
+	"Sokuren Keisan - Shougaku 5 Nensei (Japan)": {
 		"languages": "Ja"
 	},
-	"Sokuren Keisa - Shougaku 6 Nensei (Japan)": {
+	"Sokuren Keisan - Shougaku 6 Nensei (Japan)": {
 		"languages": "Ja"
 	},
-	"Somnium - Art Style Shirizu (Japan)": {
+	"Solitaire Collection (Japan)": {
+		"languages": "Ja"
+	},
+	"Solitaire DSi (Japan)": {
+		"languages": "Ja"
+	},
+	"Somnium - Art Style Series (Japan)": {
 		"languages": "Ja"
 	},
 	"Sora o Kakeru Shoujo Shooting (Japan)": {
-		"languages": "Ja"
-	},
-	"Soritea DSi (Japan)": {
-		"languages": "Ja"
-	},
-	"Soritea Korekusho (Japan)": {
 		"languages": "Ja"
 	},
 	"Soul of Darkness (Europe, Australia) (En,Fr,De,Es)": {
@@ -4529,6 +4535,9 @@
 	"Space Ace (USA) (En,Fr,Es)": {
 		"languages": "En, Fr, Es"
 	},
+	"Space Channel (Japan)": {
+		"languages": "Ja"
+	},
 	"Space Invaders Extreme Z (Japan)": {
 		"languages": "Ja"
 	},
@@ -4543,6 +4552,9 @@
 	},
 	"Sparkle Snapshots (USA)": {
 		"languages": "En"
+	},
+	"Speech Support DS (Japan)": {
+		"languages": "Ja"
 	},
 	"Spin Six (Europe, Australia) (En,Fr,De,Es)": {
 		"languages": "En, Fr, De, Es"
@@ -4592,7 +4604,7 @@
 	"Stratego - Next Edition (USA) (En,Fr,Es)": {
 		"languages": "En, Fr, Es"
 	},
-	"Subete ga Tsunagaruki Mochi Yosa! - Kotoba Shiru (Japan)": {
+	"Subete ga Tsunagaruki Mochi Yosa! - Kotobashi-ru (Japan)": {
 		"languages": "Ja"
 	},
 	"Successfully Learning - English, Year 2 (Europe) (En,Fr,De,Es)": {
@@ -4670,22 +4682,19 @@
 	"Sudoku Sensei (USA) (Es)": {
 		"languages": "Es"
 	},
-	"Sudoku Shokyuu 50mo! (Japan)": {
+	"Sudoku Shokyuu 50-mon! (Japan)": {
 		"languages": "Ja"
 	},
 	"Sudoku Student (USA)": {
 		"languages": "En"
 	},
-	"Suimin Kiroku Mezamashi Dokei (Japan)": {
+	"Suimin Kiroku Mezamashidokei (Japan)": {
 		"languages": "Ja"
 	},
 	"Sujin Taisen - Number Battles (Europe, Australia) (En,Ja,Fr,De,Es,It,Zh)": {
 		"languages": "En, Ja, Fr, De, Es, It, Zh"
 	},
-	"Sukai Janpa Soru (Japan)": {
-		"languages": "Ja"
-	},
-	"Sukusuku Neitebu - Eigo Nikki Karenda (Japan)": {
+	"Suku Suku Native - Eigo Nikki Calendar (Japan)": {
 		"languages": "Ja"
 	},
 	"Sun-Ganui Gyesan! - Dunoehoejeoni Ppallajineun Gyesan Training (Korea)": {
@@ -4708,9 +4717,6 @@
 	},
 	"Supermarket Mania (USA) (En,Fr,Es)": {
 		"languages": "En, Fr, Es"
-	},
-	"Supichi Sapoto DS (Japan)": {
-		"languages": "Ja"
 	},
 	"Surfacer+ (Europe) (En,Fr,Es)": {
 		"languages": "En, Fr, Es"
@@ -4793,10 +4799,10 @@
 	"Tangrams (USA)": {
 		"languages": "En"
 	},
-	"Tantei Jinguuji Saburou - Akenaiyoru ni (Japan)": {
+	"Tantei Jinguuji Saburou - Akenai Yoru ni (Japan)": {
 		"languages": "Ja"
 	},
-	"Tantei Jinguuji Saburou - Kadannoitte (Japan)": {
+	"Tantei Jinguuji Saburou - Kadan no Itte (Japan)": {
 		"languages": "Ja"
 	},
 	"Tantei Jinguuji Saburou - Nakiko no Shouzou (Japan)": {
@@ -4874,13 +4880,13 @@
 	"Touch Solitaire (USA)": {
 		"languages": "En"
 	},
-	"Tower DS, The - Hoteru (Japan)": {
+	"Tower DS, The - Classic (Japan)": {
 		"languages": "Ja"
 	},
-	"Tower DS, The - Kurashikku (Japan)": {
+	"Tower DS, The - Hotel (Japan)": {
 		"languages": "Ja"
 	},
-	"Tower DS, The - Shoppingu Senta (Japan)": {
+	"Tower DS, The - Shopping Center (Japan)": {
 		"languages": "Ja"
 	},
 	"Tower of Deus - GO Series (Europe)": {
@@ -4910,7 +4916,7 @@
 	"True Swing Golf Express (USA)": {
 		"languages": "En"
 	},
-	"Tsukutte Utau Saru Bando (Japan)": {
+	"Tsukutte Utau Saru Band (Japan)": {
 		"languages": "Ja"
 	},
 	"Turn - The Lost Artifact (USA) (En,Fr,Es)": {
@@ -4922,16 +4928,16 @@
 	"Ubongo (USA) (En,Fr,Es)": {
 		"languages": "En, Fr, Es"
 	},
-	"Uchi Makure! Tatchi Pen' Uzu (Japan)": {
+	"Uchi Makure! - Touch de Chameleon (Japan)": {
 		"languages": "Ja"
 	},
-	"Uchimakure! - Tatchi de Kamereo (Japan)": {
+	"Uchi Makure! Touch Pen Wars (Japan)": {
 		"languages": "Ja"
 	},
-	"Ugoite Asobu Bokushingu (Japan)": {
+	"Ugoite Asobu Boxing (Japan)": {
 		"languages": "Ja"
 	},
-	"Ugoite Asobu Daietto (Japan)": {
+	"Ugoite Asobu Diet (Japan)": {
 		"languages": "Ja"
 	},
 	"Ugoku Memochou (Japan) (En,Ja)": {
@@ -4952,16 +4958,16 @@
 	"UNO (USA) (En,Fr,Es)": {
 		"languages": "En, Fr, Es"
 	},
-	"Unou to Sanou ga Rensa Suru - Uranoura (Japan)": {
+	"Unou to Sanou ga Rensa Suru - UraNoura (Japan)": {
 		"languages": "Ja"
 	},
-	"Uso Hakkenki - Kokoro no Naka o no Zoichao (Japan)": {
+	"Uso Hakkenki - Kokoro no Naka o Nozoichao (Japan)": {
 		"languages": "Ja"
 	},
-	"Utsu Shiteji Kkan! - Daietto Memo (Japan)": {
+	"Utsushite Jikkan! - Diet Memo (Japan)": {
 		"languages": "Ja"
 	},
-	"Utsusu Meido In Wario (Japan)": {
+	"Utsusu Made in Wario (Japan)": {
 		"languages": "Ja"
 	},
 	"Valet Parking 1989 (Europe, Australia)": {
@@ -5003,16 +5009,13 @@
 	"Wakugumi - Monochrome Puzzle (Europe, Australia)": {
 		"languages": "De"
 	},
-	"Wandafuru Supotsu - Bouringu (Japan)": {
-		"languages": "Ja"
-	},
 	"Wanko to Issho (Japan)": {
 		"languages": "Ja"
 	},
-	"Wari to Hon Kakute Ki - E-gokoro Kyoushitsu Kouki (Japan)": {
+	"Wari to Honkakuteki - Egokoro Kyoushitsu Kouki (Japan)": {
 		"languages": "Ja"
 	},
-	"Wari to Hon Kakute Ki - E-gokoro Kyoushitsu Zenki (Japan)": {
+	"Wari to Honkakuteki - Egokoro Kyoushitsu Zenki (Japan)": {
 		"languages": "Ja"
 	},
 	"WarioWare Snapped! (Europe, Australia) (En,Ja)": {
@@ -5044,6 +5047,9 @@
 	},
 	"Wizard Defenders (USA)": {
 		"languages": "En"
+	},
+	"Wonderful Sports - Bowling (Japan)": {
+		"languages": "Ja"
 	},
 	"Word Searcher (Europe) (En,Fr,De)": {
 		"languages": "En, Fr, De"
@@ -5102,16 +5108,10 @@
 	"Yummy Yummy Cooking Jam (USA)": {
 		"languages": "En"
 	},
-	"Za Kurosu (Japan)": {
-		"languages": "Ja"
-	},
-	"Za Sera (Japan)": {
-		"languages": "Ja"
-	},
 	"Zaojiao Lewan Wo Di Tonghua Huiben - Xiaohai Tu Di Gushi (China) (Ja,Zh)": {
 		"languages": "Ja, Zh"
 	},
-	"Zekkyou Genshiji - Samu no Daibouken (Japan)": {
+	"Zekkyou Genshijin - Sam no Daibouken (Japan)": {
 		"languages": "Ja"
 	},
 	"Zelda no Densetsu - 4-tsu no Tsurugi - 25th Kinen Edition (Japan)": {
@@ -5141,7 +5141,7 @@
 	"Zimo - Mahjong Fanatic (USA)": {
 		"languages": "En"
 	},
-	"Zimo - Majan Pazuru (Japan)": {
+	"Zimo - Mahjong Puzzle (Japan)": {
 		"languages": "Ja"
 	},
 	"Zombie Blaster (USA) (En,Fr,Es)": {
