@@ -3,7 +3,7 @@
 		"name": [
 			"Microsoft - Xbox 360"
 		],
-		"last updated": "20 June 2022",
+		"last updated": "25 June 2022",
 		"minimum version": "0.92"
 	},
 
@@ -266,6 +266,9 @@
 		"FIFA Soccer 13": [
 			["FIFA 13", 1],
 			["FIFA 13 - World Class Soccer", 1]
+		],
+		"FIFA 19 - Legacy Edition": [
+			["FIFA 19 - Edicao Legacy", 1]
 		],
 		"Final Fantasy XI - Online": [
 			["Final Fantasy XI - Online - Ultimate Collection - Seekers Edition", 0]
