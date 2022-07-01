@@ -55,7 +55,6 @@ class DatNode:
 
         # Set region free, language free title
         if re.search('\((?:\w*,\s)*(?:' + region + ')(?:,\s\w*)*\)', self.full_name) != None:
-        # if re.search(' \((.*?,){0,} {0,}' + region + '(,.*?){0,}\)', self.full_name) != None:
             self.region_free_name = remove_regions(remove_languages(self.full_name, REGEX.languages), region_data)
 
             # Now set regionless title with minimal tags
@@ -357,7 +356,7 @@ class Regex:
             re.compile('\(Promo\)', re.IGNORECASE)
         ]
         self.unlicensed = [
-            re.compile('\(Unl\)', re.IGNORECASE)
+            re.compile('\((?:Unl|Aftermarket|Homebrew\))', re.IGNORECASE)
         ]
         self.video = [
             re.compile('Game Boy Advance Video', re.IGNORECASE),

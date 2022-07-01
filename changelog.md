@@ -1,8 +1,21 @@
+# 1.14
+
+- Ring code version checking is now turned on for FM-Towns.
+- The _(Homebrew)_ tag is now recognized.
+- When you exclude unlicensed titles, that now includes aftermarket and
+  homebrew titles.
+- Unlicensed titles now get demoted if there's a production title in the same
+  region.
+- Clone lists and metadata have been moved to their own [repository](https://github.com/unexpectedpanda/retool-clonelists-metadata).
+  This is in preparation for the shift to Retool v2.
+- Retool CLI now prompts you to download clone lists and metadata if it finds
+  the `clonelists` or `metadata` folders missing.
+
 # 1.13
 
-- Because of the (Headered) and (Headerless) tags No-Intro were adding to the
-  new NES DATs, Retool wasn't associating them with the NES clone list. This
-  has now been fixed.
+- The `(Headered)` and `(Headerless)` tags No-Intro were adding to the new NES
+  DATs caused Retool to not associate them with the NES clone list. This has
+  now been fixed.
 
 
 # 1.12

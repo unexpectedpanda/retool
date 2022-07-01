@@ -86,7 +86,7 @@ def main():
         generate_checkbox(['Bad dumps', 'Pirate'], 30*scale_multiplier, ['Exclude titles with "[b]" in the name', 'Exclude titles with "(Pirate)" in the name']),
         generate_checkbox(['BIOS and other chips', 'Preproduction'], 30*scale_multiplier, ['Exclude titles with the dat category "Console"\nor with the following text in the name:\n\n* [BIOS]\n* (Enhancement Chip)', 'Exclude titles with the dat category "Preproduction" or with the\nfollowing text in the name:\n\n* (Alpha [0-99])\n* (Beta [0-99])\n* (Pre-Production)\n* (Possible Proto)\n* (Proto [0-99])\n* (Review Code)']),
         generate_checkbox(['Bonus discs', 'Promotional'], 30*scale_multiplier, ['Exclude titles with the dat category "Bonus Discs" -- these\ncould be anything other than the main title content,\nlike patches, manuals, collector discs, or otherwise', 'Exclude titles with the dat category "Promotional" or with the\nfollowing text in the name:\n\n* (Promo)\n* EPK\n* Press Kit']),
-        generate_checkbox(['Coverdiscs', 'Unlicensed'], 30*scale_multiplier, ['Exclude titles with the dat category "Coverdiscs" -- these\nwere discs that were attached to the front of magazines', 'Exclude titles with "(Unl)" in the name']),
+        generate_checkbox(['Coverdiscs', 'Unlicensed'], 30*scale_multiplier, ['Exclude titles with the dat category "Coverdiscs" -- these\nwere discs that were attached to the front of magazines', 'Exclude titles with "(Unl), (Aftermarket), or (Homebrew) in the name']),
         generate_checkbox(['Demos, kiosks, and samples', 'Video'], 30*scale_multiplier, ['Exclude titles with the dat category "Demos" or with the\nfollowing text in the name:\n\n* @barai\n* (Demo [1-9])\n* (Demo-CD)\n* (GameCube Preview\n* (Kiosk *|* Kiosk)\n* (Preview)\n* Kiosk Demo Disc\n* PS2 Kiosk\n* PSP System Kiosk\n* Sample\n* Taikenban\n* Trial Edition', 'Exclude titles with the dat category "Video"']),
     ]
 
@@ -99,7 +99,7 @@ def main():
         [sg.HorizontalSeparator()],
 
         generate_checkbox(['Include titles that don\'t have hashes, ROMs, or disks specified'], 50*scale_multiplier, ['Not recommended\n\nBy default, Retool removes these titles from the output dat']),
-        generate_checkbox(['Don\'t replace (Unl) and (Aftermarket) titles if a production version is found in another region'], 60*scale_multiplier, ['By default, Retool prefers production titles from lower regions over\n(Unl) and (Aftermarket) titles from higher regions']),
+        generate_checkbox(['Don\'t replace Unl/Aftermarket/Homebrew titles if a production version is in another region'], 60*scale_multiplier, ['By default, Retool prefers production titles from lower regions over\n(Unl) and (Aftermarket) titles from higher regions']),
         generate_checkbox(['Titles ripped from modern platform rereleases replace standard editions'], 50*scale_multiplier, ['Not recommended\n\nThese titles are ripped from modern platforms like Virtual Console,\nand might not work with emulators']),
         generate_checkbox(['Output dat in legacy parent/clone format'], 50*scale_multiplier, ['Not recommended for use with dat managers\n\nUse for the following things:\n\n* CloneRel\n* Manually analyzing parent/clone relationships created by Retool\n* Diffing outputs in order to update clone lists']),
         generate_checkbox(['Disable custom global and system filters'], 50*scale_multiplier, ['User-defined strings that include or exclude\ntitles Retool ordinarily wouldn\'t']),
@@ -490,7 +490,7 @@ def main():
 
     if 'emptytitles' in settings.user_config.data['gui settings']: window['checkbox-include-titles-that-dont-have-hashes-roms-or-disks-specified']
     if 'z' in settings.user_config.data['gui settings']: window['checkbox-titles-ripped-from-modern-platform-rereleases-replace-standard-editions'].update(True)
-    if 'y' in settings.user_config.data['gui settings']: window['checkbox-dont-replace-unl-and-aftermarket-titles-if-a-production-version-is-found-in-another-region'].update(True)
+    if 'y' in settings.user_config.data['gui settings']: window['checkbox-dont-replace-unl-aftermarket-homebrew-titles-if-a-production-version-is-in-another-region'].update(True)
     if 'x' in settings.user_config.data['gui settings']: window['checkbox-output-dat-in-legacy-parent-clone-format'].update(True)
     if 'log' in settings.user_config.data['gui settings']: window['checkbox-also-output-lists-of-what-titles-have-been-kept-and-removed'].update(True)
     if 'list' in settings.user_config.data['gui settings']:
@@ -609,7 +609,7 @@ def main():
                     values['checkbox-unlicensed'],
                     values['checkbox-video'],
                     values['checkbox-titles-ripped-from-modern-platform-rereleases-replace-standard-editions'],
-                    values['checkbox-dont-replace-unl-and-aftermarket-titles-if-a-production-version-is-found-in-another-region'],
+                    values['checkbox-dont-replace-unl-aftermarket-homebrew-titles-if-a-production-version-is-in-another-region'],
                     filter_by_languages, # languages
                     values['checkbox-output-dat-in-legacy-parent-clone-format'],
                     gui_output_settings, # user options
@@ -804,7 +804,7 @@ def main():
                 gui_settings.append('emptytitles')
             if values['checkbox-titles-ripped-from-modern-platform-rereleases-replace-standard-editions'] == True:
                 gui_settings.append('z')
-            if values['checkbox-dont-replace-unl-and-aftermarket-titles-if-a-production-version-is-found-in-another-region'] == True:
+            if values['checkbox-dont-replace-unl-aftermarket-homebrew-titles-if-a-production-version-is-in-another-region'] == True:
                 gui_settings.append('y')
             if values['checkbox-output-dat-in-legacy-parent-clone-format'] == True:
                 gui_settings.append('x')

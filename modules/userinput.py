@@ -83,7 +83,7 @@ def check_input():
                                 '\np\tpirate titles'
                                 '\nP\tpreproduction titles (alphas, betas, prototypes)'
                                 '\nr\tpromotional titles'
-                                '\nu\tunlicensed titles'
+                                '\nu\tunlicensed, aftermarket, and homebrew titles'
                                 '\nv\tvideo\n\n',
                                 nargs='+')
 

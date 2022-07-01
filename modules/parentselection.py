@@ -33,7 +33,10 @@ def choose_parent(titles, region_data, user_input, dat_numbered, REGEX, ring_cod
         else:
             choose_string(re.compile(edition, re.IGNORECASE), user_input, region_data, parents, REGEX, True, clonelist)
 
-    # 2) Check for versions and revisions, and select the highest of each
+    # 2) Prefer production versions over unlicensed/aftermarket/homebrew
+    choose_string(REGEX.unlicensed[0], user_input, region_data, parents, REGEX, False, clonelist)
+
+    # 3) Check for versions and revisions, and select the highest of each
     choose_version_revision(REGEX.version, parents, REGEX)
     choose_version_revision(REGEX.long_version, parents, REGEX)
     choose_version_revision(REGEX.fds_version, parents, REGEX)
@@ -42,11 +45,11 @@ def choose_parent(titles, region_data, user_input, dat_numbered, REGEX, ring_cod
     choose_version_revision(REGEX.alpha, parents, REGEX, True)
     choose_version_revision(REGEX.proto, parents, REGEX, True)
 
-    # 3) Check for Sega/Panasonic ring codes
+    # 4) Check for Sega/Panasonic ring codes
     if ring_code == True:
         choose_ring_code(REGEX, parents, user_input, region_data)
 
-    # 4) If one title supports different languages to another, cycle through the implied
+    # 5) If one title supports different languages to another, cycle through the implied
     # language order until one title doesn't have the required language
     parents_temp = parents.copy()
 
@@ -62,7 +65,7 @@ def choose_parent(titles, region_data, user_input, dat_numbered, REGEX, ring_cod
                 )):
                     choose_implied_language(title_1, title_2, parents, user_input, region_data)
 
-    # 5) Preference titles with more regions. In the case of equal number of regions,
+    # 6) Preference titles with more regions. In the case of equal number of regions,
     # check for the current region as the primary region, then take the title with the
     # highest priority secondary region.
     parents_temp = parents.copy()
@@ -102,10 +105,10 @@ def choose_parent(titles, region_data, user_input, dat_numbered, REGEX, ring_cod
                                     if title_1 in parents: parents.remove(title_1)
                                     break
 
-    # 6) Choose higher dates where possible
+    # 7) Choose higher dates where possible
     choose_date(REGEX.dates, parents)
 
-    # 7) Choose good, original versions over alternates
+    # 8) Choose good, original versions over alternates
     choose_string(REGEX.alt, user_input, region_data, parents, REGEX, False, clonelist)
     choose_string(REGEX.oem, user_input, region_data, parents, REGEX, False, clonelist)
     choose_string(REGEX.bad, user_input, region_data, parents, REGEX, False, clonelist)
@@ -114,14 +117,14 @@ def choose_parent(titles, region_data, user_input, dat_numbered, REGEX, ring_cod
     choose_string(REGEX.rerelease, user_input, region_data, parents, REGEX, False, clonelist)
     choose_string(REGEX.edc, user_input, region_data, parents, REGEX, True, clonelist)
 
-    # 8) Deal with promotions and demotions of editions
+    # 9) Deal with promotions and demotions of editions
     for edition in user_input.tag_strings.promote_editions:
         choose_string(re.compile(edition, re.IGNORECASE), user_input, region_data, parents, REGEX, True, clonelist)
 
     for edition in user_input.tag_strings.demote_editions:
         choose_string(re.compile(edition, re.IGNORECASE), user_input, region_data, parents, REGEX, False, clonelist)
 
-    # 9) Deal with "Made in" titles for Sega CD and Sega Saturn
+    # 10) Deal with "Made in" titles for Sega CD and Sega Saturn
     if ring_code == True:
         for title_1, title_2 in itertools.combinations(parents_temp, 2):
             if 'Made in' in title_1.full_name and 'Made in' in title_2.full_name:
@@ -222,8 +225,8 @@ def choose_cross_region_parents(titles, user_input, dat_numbered, REGEX):
                             if user_input.no_demote_unl == False:
                                 # Check to see if titles are unlicensed/aftermarket or not. If so, favour
                                 # production titles if they exist
-                                unl_title_1 = bool(re.search('\((unl|aftermarket)\)', title_1.full_name_lower))
-                                unl_title_2 = bool(re.search('\((unl|aftermarket)\)', title_2.full_name_lower))
+                                unl_title_1 = bool(re.search('\((unl|aftermarket|homebrew)\)', title_1.full_name_lower))
+                                unl_title_2 = bool(re.search('\((unl|aftermarket|homebrew)\)', title_2.full_name_lower))
 
                                 if unl_title_1 == True and unl_title_2 == False:
                                     if title_1 in parents: parents.remove(title_1)
@@ -434,6 +437,23 @@ def choose_string(string, user_input, region_data, title_list, REGEX, choose_tit
     title_list_temp = title_list.copy()
 
     for title_1, title_2 in itertools.combinations(title_list_temp, 2):
+        # Make sure preproduction doesn't get accidentally promoted above unlicensed
+        if string is REGEX.unlicensed[0]:
+            title_1_preprod: bool = False
+            title_2_preprod: bool = False
+
+            for preproduction in REGEX.preproduction:
+                if re.search(preproduction, title_1.full_name):
+                    title_1_preprod = True
+                if re.search(preproduction, title_2.full_name):
+                    title_2_preprod = True
+
+            if title_1_preprod and not title_2_preprod:
+                return
+
+            if title_2_preprod and not title_1_preprod:
+                return
+
         if (
             (
                 title_1.short_name_lower == title_2.short_name_lower
@@ -949,6 +969,7 @@ def assign_clones(titles, input_dat, region_data, user_input, dat_numbered, REGE
                         and found_superset == False):
                             if (
                                 'Dreamcast' in input_dat.name
+                                or 'Fujitsu - FM-Towns' in input_dat.name
                                 or 'Saturn' in input_dat.name
                                 or 'Sega CD' in input_dat.name
                                 or 'Panasonic - 3DO' in input_dat.name):

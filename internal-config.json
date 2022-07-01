@@ -7,7 +7,7 @@
             "These are defaults that Retool requires, don't modify this file.",
             "Check user-config.yaml for user-editable settings."
         ],
-        "last updated": "25 June 2022"
+        "last updated": "30 June 2022"
     },
 
     "ignore_tags": [
@@ -42,6 +42,7 @@
         "\\s?\\(Rerelease\\)",
         "\\s?\\(Magazine\\)",
         "\\s?\\(Made in.*?\\)",
+        "\\s?\\(Video\\)",
         "\\s?\\((\\d{8}|\\d{4}-\\d{2}-\\d{2}|\\d{2}-\\d{2}-\\d{4}|\\d{2}-\\d{2}-\\d{2}|(January|February|March|April|May|June|July|August|September|October|November|December), \\d{4})\\)",
         "\\s?\\(([0-9]{1,2}[A-Z]([ ,].[0-9]{1,2}[A-Z])*|R[E]{,1}[-]{,1}[0-9]{0,})\\)"
     ],
@@ -107,6 +108,7 @@
         "\\s?\\(Joypad\\)",
         "\\s?\\(V.Smile Motion\\)",
         "\\s?\\(NTSC\\)",
+        "\\s?\\(Current\\)",
         "\\s?\\(Aquaprice 2800\\)",
         "\\s?\\(Artdink Best Choice\\)",
         "\\s?\\(Best Collection\\)",
@@ -190,6 +192,7 @@
         "\\s?\\(Arcade\\)",
         "\\s?\\(Debug\\)",
         "\\s?\\(Debug Version\\)",
+        "\\s?\\(Deprecated\\)",
         "\\s?\\(Earlier\\)",
         "\\s?\\(Early\\)",
         "\\s?\\(Encrypted CIA\\)",
@@ -222,6 +225,7 @@
         "\\s?\\((?:(?!\\(|Virtual Console.*?)[\\s\\S])*Virtual Console.*?\\)",
         "\\s?\\(Wii\\)",
         "\\s?\\((?:(?!\\(|.*?GameCube.*?)[\\s\\S])*?GameCube.*?\\)",
+        "\\s?\\(Activision Anthology - Remix Edition\\)",
         "\\s?\\(Aleste Collection\\)",
         "\\s?\\(Atari Anthology\\)",
         "\\s?\\(Bomberman Collection\\)",
@@ -249,6 +253,7 @@
         "\\s?\\(Seiken Densetsu Collection\\)",
         "\\s?\\(SNK 40th Anniversary Collection\\)",
         "\\s?\\(Sonic Classic Collection\\)",
+        "\\s?\\(Sonic Mega Collection\\)",
         "\\s?\\(Steam\\)",
         "\\s?\\(Steam Version\\)",
         "\\s?\\(The Disney Afternoon Collection\\)",
@@ -362,6 +367,6 @@
     },
 
     "clonelist_updates": {
-        "url": "https://raw.githubusercontent.com/unexpectedpanda/retool/main"
+        "url": "https://raw.githubusercontent.com/unexpectedpanda/retool-clonelists-metadata/main"
     }
 }

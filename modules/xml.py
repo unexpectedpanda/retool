@@ -481,6 +481,7 @@ def dat_to_dict(region, region_data, input_dat, user_input, removes_found, categ
     for group, titles in groups.items():
         if (
             'Dreamcast' in input_dat.name
+            or 'Fujitsu - FM-Towns' in input_dat.name
             or 'Saturn' in input_dat.name
             or 'Sega CD' in input_dat.name
             or 'Panasonic - 3DO' in input_dat.name):

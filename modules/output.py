@@ -163,6 +163,29 @@ def generate_config(
     if (
         overwrite == False
         and gui == False):
+        if (
+            not os.path.exists('clonelists')
+            or not os.path.exists('metadata')):
+                if new_user_config or new_global_filter:
+                    printwrap(f'{Font.warning}Retool needs to download clone lists and '
+                            'metadata files, and generate some configuration files '
+                            'before continuing. It can\'t be used without them.', 'no_indent')
+                else:
+                    printwrap(f'{Font.warning}Retool needs to download clone lists and '
+                            'metadata files before continuing. It can\'t be used without '
+                            'them.', 'no_indent')
+
+                download = input(f'\nContinue? (y/n) {Font.end}')
+
+                if download == 'n':
+                    sys.exit()
+                else:
+                    import updateclonelists
+                    updateclonelists.main()
+                    print()
+                    if not (new_user_config or new_global_filter):
+                        printwrap(f'{Font.warning}You can now run Retool normally.{Font.end}', 'no_indent')
+
         if new_user_config == True or new_global_filter == True:
             file_list = []
             if new_user_config == True:
@@ -172,8 +195,7 @@ def generate_config(
 
             file_list = '\n'.join(file_list)
 
-            printwrap(f'{Font.warning}It\'s likely this is the first time '
-                      'you\'ve run Retool. The following system files were '
+            printwrap(f'\n{Font.warning}The following system files were '
                       f'missing and have been created:', 'no_indent')
 
             print(f'\n{file_list}\n')

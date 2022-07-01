@@ -12,7 +12,7 @@ import urllib.request
 from datetime import datetime
 from urllib.error import HTTPError, URLError
 
-update_url = 'https://raw.githubusercontent.com/unexpectedpanda/retool/main'
+update_url = 'https://raw.githubusercontent.com/unexpectedpanda/retool-clonelists-metadata/main'
 
 if len(sys.argv) > 1:
     update_url = sys.argv[1]
@@ -165,12 +165,12 @@ def get_page(req):
             print(f'* [{now.strftime("%m/%d/%Y, %H:%M:%S")}]: Something unexpected happened: {error}')
             print(f'* [{now.strftime("%m/%d/%Y, %H:%M:%S")}]: Trying again in 5 seconds...')
             time.sleep(5)
-        except socket.error as error:
+        except socket.timeout as error:
             now = datetime.now()
             print(f'* [{now.strftime("%m/%d/%Y, %H:%M:%S")}]: Socket error: {error}')
             print(f'* [{now.strftime("%m/%d/%Y, %H:%M:%S")}]: Trying again in 5 seconds...')
             time.sleep(5)
-        except socket.timeout as error:
+        except socket.error as error:
             now = datetime.now()
             print(f'* [{now.strftime("%m/%d/%Y, %H:%M:%S")}]: Socket error: {error}')
             print(f'* [{now.strftime("%m/%d/%Y, %H:%M:%S")}]: Trying again in 5 seconds...')
