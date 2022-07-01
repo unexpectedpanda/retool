@@ -1,6 +1,4 @@
-> **Retool 0.89 introduces a breaking change for clone lists. Please update**
-> **for clone lists to continue working properly.**
-
+> **Looking for clone lists and metadata? They now live in their own [repository](https://github.com/unexpectedpanda/retool-clonelists-metadata).**
 # Retool
 
 * [What it does](#what-it-does)
