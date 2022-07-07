@@ -1,0 +1,19 @@
+# . files
+.*
+!.gitignore
+
+# Distribution
+build/
+dist/
+
+# PyInstaller
+__pycache__/
+*.spec
+
+# Retool/CloneRel-specific
+*.dat
+*.xlsx
+clonelists/
+metadata/
+user-config.yaml
+user-filters/*.yaml
