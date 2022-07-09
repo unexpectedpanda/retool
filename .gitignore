@@ -2,13 +2,11 @@
 .*
 !.gitignore
 
-# Distribution
-build/
-dist/
-
 # PyInstaller
 __pycache__/
 *.spec
+build/
+dist/
 
 # Retool/CloneRel-specific
 *.dat

@@ -42,6 +42,21 @@ class DatNode:
             self.full_name = str(node.description.parent['name'])[7:]
             self.numbered_name = str(node.description.parent['name'])
 
+        # Replace invalid characters in filenames
+        reserved_characters = [':', '\\', '/', '<', '>', '"', '|', '?', '*']
+
+        for character in reserved_characters:
+            if character in self.full_name:
+                if character == ':':
+                    if re.search('(\S):\s', self.full_name):
+                        self.full_name = re.sub('(\S):\s', '\\1 - ', self.full_name)
+                    else:
+                        self.full_name = self.full_name.replace(character, '-')
+                elif character == '"':
+                    self.full_name = self.full_name.replace(character, '\'')
+                else:
+                    self.full_name = self.full_name.replace(character, '-')
+
         metadata = input_dat.metadata
 
         if self.full_name in metadata:

@@ -1,3 +1,10 @@
+# 1.15
+
+- Titles that have invalid filename characters
+  (:, \, /, <, >, ", |, ?, *) in DATs now have those characters removed
+  or replaced with valid ones. No-Intro metadata is also checked for
+  invalid filename characters.
+
 # 1.14
 
 - Ring code version checking is now turned on for FM-Towns.

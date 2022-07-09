@@ -673,14 +673,26 @@ def process_input_dat(dat_file, is_folder, gui=False):
     input_dat.name = re.sub(' \(Retool.*?\)', '', input_dat.name)
 
     # Sanitize some header details which are used in the output filename
-    characters = [':', '\\', '/', '<', '>', '"', '|', '?', '*']
+    reserved_characters = [':', '\\', '/', '<', '>', '"', '|', '?', '*']
     reserved_filenames = ['con', 'prn', 'aux', 'nul', 'com[1-9]', 'lpt[1-9]']
 
-    for character in characters:
-        if character in input_dat.name:
-            input_dat.name = input_dat.name.replace(character, '-')
-        if character in input_dat.version:
-            input_dat.version = input_dat.version.replace(character, '-')
+    def replace_reserved_characters(string: str) -> str:
+        for character in reserved_characters:
+            if character in string:
+                if character == ':':
+                    if re.search('(\S):\s', string):
+                        string = re.sub('(\S):\s', '\\1 - ', string)
+                    else:
+                        string = string.replace(character, '-')
+                elif character == '"':
+                    string = string.replace(character, '\'')
+                else:
+                    string = string.replace(character, '-')
+
+        return string
+
+    input_dat.name = replace_reserved_characters(input_dat.name)
+    input_dat.version = replace_reserved_characters(input_dat.version)
 
     for filename in reserved_filenames:
         if re.search('^' + filename + '$', input_dat.name) != None:
