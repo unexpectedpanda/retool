@@ -20,9 +20,9 @@ def check_input():
     exclusions = parser.add_argument_group('exclusions')
 
     parser.add_argument('Input',
-                        metavar='<input dat>',
+                        metavar='<input DAT>',
                         type=str,
-                        help='R|the path to the dat file, or folder of dat files you want\nto process')
+                        help='R|the path to the DAT file, or folder of DAT files you want\nto process')
 
     parser.add_argument('--output',
                         metavar='<output folder>',
@@ -100,7 +100,7 @@ def check_input():
     args = parser.parse_args()
 
     if not os.path.isfile(args.Input) and not os.path.isdir(args.Input):
-        print(f'Can\'t find the specified input dat or folder {Font.bold}"{args.Input}"{Font.end}.')
+        print(f'Can\'t find the specified input DAT or folder {Font.bold}"{args.Input}"{Font.end}.')
         sys.exit()
 
     if args.output is not None:
@@ -168,7 +168,7 @@ def check_input():
 
 
 def import_user_config(region_data, user_input):
-    """ Import user config data for use in creating the output dat """
+    """ Import user config data for use in creating the output DAT """
 
     # Import user-config.yaml settings
     try:

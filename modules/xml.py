@@ -16,14 +16,14 @@ from modules.utils import Font, old_windows, printverbose, printwrap
 
 
 def convert_clrmame_dat(input_dat, is_folder):
-    """ Converts CLRMAMEPro dat format to LogiqX dat format """
+    """ Converts CLRMAMEPro DAT format to LogiqX DAT format """
 
     input_dat.contents = ''.join(input_dat.contents)
 
     clrmame_header = re.search('^clrmamepro \($.*?^\)$', input_dat.contents, re.M|re.S)
 
     def header_details(find_string, replace_string):
-        """ Gets values for CLRMAMEPro dat header details """
+        """ Gets values for CLRMAMEPro DAT header details """
 
         search_string = re.search(find_string, clrmame_header[0])
 
@@ -82,7 +82,7 @@ def convert_clrmame_dat(input_dat, is_folder):
     else:
         printwrap(
             f'{Font.error_bold} * Error: {Font.error}file isn\'t Logiqx XML or '
-            f'CLRMAMEPro dat.{Font.end}', 'error')
+            f'CLRMAMEPro DAT.{Font.end}', 'error')
         if is_folder == False:
             sys.exit()
         else:
@@ -91,7 +91,7 @@ def convert_clrmame_dat(input_dat, is_folder):
 
 
 def dat_to_dict(region, region_data, input_dat, user_input, removes_found, categories_found, dat_numbered, REGEX):
-    """ Converts an input dat file to a dict """
+    """ Converts an input DAT file to a dict """
 
     # Find all titles in the soup object that belong to the current region
     if region == 'Unknown':
@@ -452,7 +452,7 @@ def dat_to_dict(region, region_data, input_dat, user_input, removes_found, categ
                                             except:
                                                 printverbose(
                                                     user_input.verbose,
-                                                    f'{Font.warning}* Conditional override title not found in dat or current region: '
+                                                    f'{Font.warning}* Conditional override title not found in DAT or current region: '
                                                     f'{Font.warning_bold}{key}{Font.end}')
 
                                         # Otherwise, if the region is lower and there's an "else group" property,
@@ -464,7 +464,7 @@ def dat_to_dict(region, region_data, input_dat, user_input, removes_found, categ
                                             except:
                                                 printverbose(
                                                     user_input.verbose,
-                                                    f'{Font.warning}* Conditional override title not found in dat or current region: '
+                                                    f'{Font.warning}* Conditional override title not found in DAT or current region: '
                                                     f'{Font.warning_bold}{key}{Font.end}')
                     else:
                         try:
@@ -474,7 +474,7 @@ def dat_to_dict(region, region_data, input_dat, user_input, removes_found, categ
                         except:
                             printverbose(
                                 user_input.verbose,
-                                f'{Font.warning}* Override title not found in dat or current region: '
+                                f'{Font.warning}* Override title not found in DAT or current region: '
                                 f'{Font.warning_bold}{key}{Font.end}')
 
     # Identify the parents for the region
@@ -495,7 +495,7 @@ def dat_to_dict(region, region_data, input_dat, user_input, removes_found, categ
 
 
 def process_input_dat(dat_file, is_folder, gui=False):
-    """ Prepares input dat file and converts to an object
+    """ Prepares input DAT file and converts to an object
 
     Returns a Dat object with the following populated:
 
@@ -517,11 +517,11 @@ def process_input_dat(dat_file, is_folder, gui=False):
         next_status = ''
 
     if gui == False:
-        printwrap(f'* Reading dat file: "{Font.bold}{os.path.abspath(dat_file)}{Font.end}"')
+        printwrap(f'* Reading DAT file: "{Font.bold}{os.path.abspath(dat_file)}{Font.end}"')
     try:
         with open(dat_file, 'r', encoding='utf8') as input_file:
             if gui == False:
-                print('* Validating dat file... ', sep=' ', end='', flush=True)
+                print('* Validating DAT file... ', sep=' ', end='', flush=True)
             input_dat = Dat()
             input_dat.contents = input_file.readlines()
     except OSError as e:
@@ -533,10 +533,10 @@ def process_input_dat(dat_file, is_folder, gui=False):
         else:
             return 'end_batch'
 
-    # Check the dat file format -- if it's CLRMAMEPro format, convert it to LogiqX
+    # Check the DAT file format -- if it's CLRMAMEPro format, convert it to LogiqX
     if 'clrmamepro' in input_dat.contents[0]:
         if gui == False:
-            print('file is a CLRMAMEPro dat file.')
+            print('file is a CLRMAMEPro DAT file.')
         input_dat = convert_clrmame_dat(input_dat, is_folder)
 
         # Go to the next file in a batch operation if something went wrong.
@@ -549,10 +549,10 @@ def process_input_dat(dat_file, is_folder, gui=False):
                 print('failed.')
                 printwrap(
                     f'{Font.error_bold} Error: {Font.error}Entity and element tags '
-                    f'aren\'t supported in dat files.{Font.end}{next_status}', 'error')
+                    f'aren\'t supported in DAT files.{Font.end}{next_status}', 'error')
                 sys.exit()
 
-        # Check for a valid Redump XML dat that follows the Logiqx dtd
+        # Check for a valid Redump XML DAT that follows the Logiqx dtd
         validation_tags = ['<datafile>', '<?xml', '<game', '<header']
 
         for i, validation_tag in enumerate(validation_tags):
@@ -575,7 +575,7 @@ def process_input_dat(dat_file, is_folder, gui=False):
                 print('failed.')
                 printwrap(
                     f'{Font.error_bold}* Error: {Font.error}File is missing an XML '
-                    f'declaration. It\'s probably not a dat file.'
+                    f'declaration. It\'s probably not a DAT file.'
                     f'{next_status}{Font.end}', 'error')
                 if is_folder == False:
                     sys.exit()
@@ -612,7 +612,7 @@ def process_input_dat(dat_file, is_folder, gui=False):
                             return 'end_batch'
                     else:
                         if gui == False:
-                            print('file is a Logiqx dat file.')
+                            print('file is a Logiqx DAT file.')
 
             except OSError as e:
                 printwrap(f'{Font.error_bold}* Error: {str(e)}{next_status}{Font.end}',
@@ -631,7 +631,7 @@ def process_input_dat(dat_file, is_folder, gui=False):
             else:
                 printwrap(
                     f'{Font.error_bold}* Error: "{dat_file}"{Font.error} '
-                    f'isn\'t a compatible dat file.{next_status}{Font.end}', 'error')
+                    f'isn\'t a compatible DAT file.{next_status}{Font.end}', 'error')
             if is_folder == False:
                 sys.exit()
             else:
@@ -639,11 +639,11 @@ def process_input_dat(dat_file, is_folder, gui=False):
 
     if gui == False:
         # Convert contents to BeautifulSoup object, remove original contents attribute
-        print('* Converting dat file to a searchable format... ', sep=' ', end='', flush=True)
+        print('* Converting DAT file to a searchable format... ', sep=' ', end='', flush=True)
         input_dat.soup = BeautifulSoup(input_dat.contents, "lxml-xml")
         print('done.')
 
-        # Set input dat header details
+        # Set input DAT header details
         if input_dat.soup.find('header') != None:
             for key, value in input_dat.__dict__.items():
                 if (
@@ -655,7 +655,7 @@ def process_input_dat(dat_file, is_folder, gui=False):
                 elif value == '':
                     setattr(input_dat, key, 'Unknown')
     else:
-        # Hacky quick search of the dat so we can set a system filter name
+        # Hacky quick search of the DAT so we can set a system filter name
         # quickly on larger files.
         for line in input_dat.contents.splitlines():
             if bool(re.search('<name>.*</name>', line)) == True:
@@ -704,14 +704,15 @@ def process_input_dat(dat_file, is_folder, gui=False):
 
 
 def header(input_dat, new_title_count, user_input, version):
-    """ Creates a header for the output dat file """
+    """ Creates a header for the output DAT file """
 
     new_title_count = str('{:,}'.format(new_title_count))
 
-    name = f'\n\t\t<name>{html.escape(input_dat.name, quote=False)} (Retool {version})</name>'
+    name = f'\n\t\t<name>{html.escape(input_dat.name, quote=False)} (Retool)</name>'
     description = (
-        f'\n\t\t<description>{html.escape(input_dat.name, quote=False)}{user_input.user_options}'
-        f' ({new_title_count}) ({input_dat.version})</description>')
+        f'\n\t\t<description>{html.escape(input_dat.name, quote=False)}'
+        f' ({new_title_count}){user_input.user_options} ({input_dat.version})'
+        f' (Retool {version})</description>')
 
 
     if input_dat.author != '' and input_dat.author != None:
@@ -731,7 +732,7 @@ def header(input_dat, new_title_count, user_input, version):
     header = [
         '<?xml version="1.0"?>',
         '\n<!DOCTYPE datafile PUBLIC "-//Logiqx//DTD ROM Management Datafile//EN" '
-        '"http://www.logiqx.com/Dats/datafile.dtd">',
+        '"https://raw.githubusercontent.com/unexpectedpanda/retool/main/datafile.dtd">',
         '\n<datafile>',
         '\n\t<header>',
         name,

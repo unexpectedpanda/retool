@@ -438,7 +438,7 @@ class SmartFormatter(argparse.HelpFormatter):
 
 
 class Stats():
-    """ Stores stats before processing the dat """
+    """ Stores stats before processing the DAT """
 
     def __init__(self, original_title_count, user_input=False, final_title_count=0, clone_count=0, recovered_count=0):
 

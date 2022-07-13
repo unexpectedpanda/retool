@@ -828,11 +828,11 @@ def assign_clones(titles, input_dat, region_data, user_input, dat_numbered, REGE
                 print(f'* Assigning clones from clone lists... [{str(progress_percent)}%]', sep='', end='\r', flush=True)
 
             # Compensate if the key title is missing, either because it's been
-            # removed by Retool, or doesn't exist in the dat.
+            # removed by Retool, or doesn't exist in the DAT.
             if not get_raw_title(key) in titles.all:
                 printverbose(
                     user_input.verbose,
-                    f'{Font.warning}* Title in clone list not found in dat or selected regions: '
+                    f'{Font.warning}* Title in clone list not found in DAT or selected regions: '
                     f'{Font.warning_bold}{key}{Font.end}')
                 key = f'|* Missing *|: {key}'
                 titles.all[get_raw_title(key)] = []
@@ -873,12 +873,12 @@ def assign_clones(titles, input_dat, region_data, user_input, dat_numbered, REGE
                         if clone_title.lower() not in group:
                             printverbose(
                                 user_input.verbose,
-                                f'{Font.warning}* Title in clone list not found in dat or selected regions: '
+                                f'{Font.warning}* Title in clone list not found in DAT or selected regions: '
                                 f'{Font.warning_bold}{clone_title}{Font.end}')
                     else:
                         printverbose(
                             user_input.verbose,
-                            f'{Font.warning}* Title in clone list not found in dat or selected regions: '
+                            f'{Font.warning}* Title in clone list not found in DAT or selected regions: '
                             f'{Font.warning_bold}{clone_title}{Font.end}')
 
             # Figure out which clone to make a parent, based on region and language

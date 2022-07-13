@@ -31,7 +31,7 @@ from modules.xml import dat_to_dict, process_input_dat
 # Require at least Python 3.8
 assert sys.version_info >= (3, 8)
 
-__version__ = '1.15'
+__version__ = '1.16'
 
 def main(gui_input=''):
 
@@ -51,13 +51,13 @@ def main(gui_input=''):
         printwrap(
             f'Creates 1G1R versions of Redump ({Font.underline}'
             f'http://redump.org/{Font.end}) and No-Intro '
-            f'({Font.underline}https://www.no-intro.org/{Font.end}) dats. '
-            f'A new dat file is automatically generated, the original file '
+            f'({Font.underline}https://www.no-intro.org/{Font.end}) DATs. '
+            f'A new DAT file is automatically generated, the original file '
             f'isn\'t altered.', 'no_indent'
         )
 
         print(
-            f'\nusage: {os.path.basename(sys.argv[0])} <input dat/folder> '
+            f'\nusage: {os.path.basename(sys.argv[0])} <input DAT/folder> '
             '<options>')
 
         print(
@@ -125,7 +125,7 @@ def main(gui_input=''):
 
     # An easy way to always enable dev mode, which enables -x and --error by
     # default. This makes it easier to update clone lists, through diffing a new
-    # output dat against the previous one.
+    # output DAT against the previous one.
     if os.path.isfile('.dev'):
         printverbose(
             user_input.verbose,
@@ -214,13 +214,13 @@ def main(gui_input=''):
             user_input.system_excludes = []
             user_input.system_includes = []
 
-        # Check if the dat is numbered
+        # Check if the DAT is numbered
         dat_numbered = False
 
         if input_dat.url:
             if 'no-intro' in input_dat.url.lower():
                 print(
-                    '* Checking if the input dat is numbered... ', sep=' ', end='', flush=True)
+                    '* Checking if the input DAT is numbered... ', sep=' ', end='', flush=True)
 
                 dat_numbered = True
 
@@ -229,9 +229,9 @@ def main(gui_input=''):
                         dat_numbered = False
 
                 if dat_numbered == False:
-                    print('this isn\'t a numbered dat.')
+                    print('this isn\'t a numbered DAT.')
                 else:
-                    print('this is a numbered dat.')
+                    print('this is a numbered DAT.')
         else:
             input_dat.url = 'Unknown'
 
@@ -242,7 +242,7 @@ def main(gui_input=''):
         stats = Stats(original_title_count)
         print('done.')
 
-        # Provide dat details to reassure the user the correct file is being processed
+        # Provide DAT details to reassure the user the correct file is being processed
         print(f'\n|  {Font.bold}DAT DETAILS{Font.end}')
         print(f'|  Description: {input_dat.description}')
         print(f'|  Author: {input_dat.author}')
@@ -378,7 +378,7 @@ def main(gui_input=''):
                     f'{input_dat.name} ({input_dat.version}) '
                     f'(Retool {datetime.datetime.now().strftime("%Y-%m-%d %H-%M-%SS")[:-1]}) ({str("{:,}".format(stats.final_title_count))}){user_input.user_options}.dat'))
 
-            # Write the output dat file
+            # Write the output DAT file
             write_dat_file(input_dat, user_input, output_file_name, stats, titles, dat_numbered, __version__)
 
             # Report stats
@@ -386,7 +386,7 @@ def main(gui_input=''):
             report_stats(stats, titles, user_input, input_dat)
 
         else:
-            print(f'{Font.warning}\n* No titles found. No dat file has been created.{Font.end}')
+            printwrap(f'{Font.warning}* No titles in the input DAT match your preferences. No DAT file has been created.{Font.end}', 'error')
 
         # Start the loop again if processing a folder
         if is_folder == True: continue

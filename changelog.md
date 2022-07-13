@@ -1,3 +1,13 @@
+# 1.16
+
+- The `<name>` tag in the output DAT header has been changed so CLRMAMEPro
+  recognizes DAT updates between Retool versions.
+- The order of `<rom>` attributes has been changed in the output DAT to match
+  that of the in-progress Retool v2. This is mainly to help with internal
+  testing.
+- A message has been improved that tells a user when Retool can't find titles
+  that match their preferences.
+
 # 1.15
 
 - Titles that have invalid filename characters

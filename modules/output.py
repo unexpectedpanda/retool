@@ -100,7 +100,7 @@ def generate_config(
                         output_file.writelines('---\n# Contains user defined strings that can be used to include or exclude')
                         output_file.writelines('\n# titles that Retool ordinarily wouldn\'t.')
                         output_file.writelines('\n#')
-                        output_file.writelines(f'\n# This is the include/exclude file for the {filters.system_file} dat.')
+                        output_file.writelines(f'\n# This is the include/exclude file for the {filters.system_file} DAT.')
                         output_file.writelines('\n#')
                         output_file.writelines('\n# Refer to the readme-cli.md file in this folder for how to set up this file,')
                         output_file.writelines('\n# along with system include/exclude files.')
@@ -213,7 +213,7 @@ def generate_config(
 
 
 def write_dat_file(input_dat, user_input, output_file_name, stats, titles, dat_numbered, version):
-    """ Output the final dat file """
+    """ Output the final DAT file """
 
     dat_header = header(input_dat, stats.final_title_count, user_input, version)
 
@@ -226,7 +226,7 @@ def write_dat_file(input_dat, user_input, output_file_name, stats, titles, dat_n
             user_remove_list = output_file_name[:-4] + ' user remove list.txt'
 
             with open(keep_remove_list, 'a', encoding='utf-8') as list_output:
-                list_output.writelines(f'This file shows which titles have been kept in the output dat with a `+`,\n')
+                list_output.writelines(f'This file shows which titles have been kept in the output DAT with a `+`,\n')
                 list_output.writelines(f'and which have been automatically removed by Retool with a `-`. If the\n')
                 list_output.writelines(f'`-` is indented, then the title was removed because it was a clone of the\n')
                 list_output.writelines(f'title above it with a `+`.\n\n')
@@ -266,7 +266,7 @@ def write_dat_file(input_dat, user_input, output_file_name, stats, titles, dat_n
                     if progress_old != progress_percent:
                         if old_windows() != True:
                             sys.stdout.write("\033[K")
-                        print(f'* Writing dat file... [{str(progress_percent)}%]', sep='', end='\r', flush=True)
+                        print(f'* Writing DAT file... [{str(progress_percent)}%]', sep='', end='\r', flush=True)
 
                     game_xml = ''
 
@@ -291,40 +291,54 @@ def write_dat_file(input_dat, user_input, output_file_name, stats, titles, dat_n
                     rom_xml = []
 
                     for rom in title.roms:
-                        if rom.crc == '':
+                        if rom.crc:
+                            crc_string = f'crc="{rom.crc}"'
+                        else:
                             crc_string = ''
-                        else:
-                            crc_string = f'crc="{rom.crc}" '
 
-                        if rom.md5 == '':
+                        if rom.md5:
+                            md5_string = f'md5="{rom.md5}"'
+                        else:
                             md5_string = ''
-                        else:
-                            md5_string = f'md5="{rom.md5}" '
 
-                        if rom.sha1 == '':
+                        if rom.sha1:
+                            sha1_string = f'sha1="{rom.sha1}"'
+                        else:
                             sha1_string = ''
-                        else:
-                            sha1_string = f'sha1="{rom.sha1}" '
 
-                        if rom.sha256 == '':
+                        if rom.sha256:
+                            sha256_string = f'sha256="{rom.sha256}"'
+                        else:
                             sha256_string = ''
-                        else:
-                            sha256_string = f'sha256="{rom.sha256}" '
 
-                        if rom.header == '':
+                        if rom.header:
+                            header_string = f'header="{rom.header}"'
+                        else:
                             header_string = ''
-                        else:
-                            header_string = f'header="{rom.header}" '
 
-                        if rom.mia == '':
-                            mia_string = ''
+                        if rom.mia:
+                            mia_string = f'mia="{rom.mia}"'
                         else:
-                            mia_string = f'mia="{rom.mia}" '
+                            mia_string = ''
+
+                        name_string = f'name="{html.escape(rom.name, quote=False)}"'
+                        size_string = f'size="{rom.size}"'
+
+                        rom_xml_elements = [
+                            name_string,
+                            size_string,
+                            mia_string,
+                            header_string,
+                            crc_string,
+                            md5_string,
+                            sha1_string,
+                            sha256_string,
+                            ]
+
+                        rom_xml_elements = [x for x in rom_xml_elements if x != '']
 
                         rom_xml.append(
-                            f'\n\t\t<rom {crc_string}{md5_string}{mia_string}'
-                            f'name="{html.escape(rom.name, quote=False)}" {sha1_string}{sha256_string}{header_string}'
-                            f'size="{rom.size}"/>')
+                            f'\n\t\t<rom {" ".join(rom_xml_elements)}/>')
 
                     rom_xml = ''.join(rom_xml)
 
@@ -485,7 +499,7 @@ def write_dat_file(input_dat, user_input, output_file_name, stats, titles, dat_n
 
         if old_windows() != True:
             sys.stdout.write("\033[K")
-        print('* Writing dat file... done. ') # Intentional trailing space for Win 7
+        print('* Writing DAT file... done. ') # Intentional trailing space for Win 7
     except OSError as e:
         print(f'\n{Font.error_bold}* Error: {Font.end}{str(e)}\n')
         raise
