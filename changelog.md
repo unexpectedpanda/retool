@@ -1,3 +1,7 @@
+# 1.17
+
+- Retool can now handle No-Intro DATs that reference an XSD file.
+
 # 1.16
 
 - The `<name>` tag in the output DAT header has been changed so CLRMAMEPro

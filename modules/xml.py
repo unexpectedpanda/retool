@@ -553,7 +553,7 @@ def process_input_dat(dat_file, is_folder, gui=False):
                 sys.exit()
 
         # Check for a valid Redump XML DAT that follows the Logiqx dtd
-        validation_tags = ['<datafile>', '<?xml', '<game', '<header']
+        validation_tags = ['<datafile', '<?xml', '<game', '<header']
 
         for i, validation_tag in enumerate(validation_tags):
             validation_tags[i] = bool(list(filter(lambda x: validation_tag in x, input_dat.contents)))
@@ -565,6 +565,15 @@ def process_input_dat(dat_file, is_folder, gui=False):
                     # Remove unexpected XML declarations from the file to avoid DTD check failures
                     if bool(re.search('<\?xml.*?>', line)) == True:
                         input_dat.contents[i] = input_dat.contents[i].replace(re.search('<\?xml.*?>', input_dat.contents[0])[0], '<?xml version="1.0"?>')
+
+                    # Check if the LogiqX DTD is present
+                    if '<!DOCTYPE datafile PUBLIC "-//Logiqx//DTD ROM Management Datafile//EN"' in line:
+                        input_dat.is_dtd = True
+
+                    # Grab <datafile> tag in case an XSD reference is present
+                    if '<datafile' in line:
+                        input_dat.datafile_tag = line.strip()
+
                     # Capture, then remove CLRMAMEPro and Romcenter declarations to avoid DTD check failures
                     if bool(re.search('.*?<(clrmamepro|romcenter).*?>', line)) == True:
                         input_dat.dat_manager_directives.append(input_dat.contents[i])
@@ -584,43 +593,46 @@ def process_input_dat(dat_file, is_folder, gui=False):
 
             input_dat.contents = ''.join(input_dat.contents)
 
-            try:
-                with open('datafile.dtd') as dtdfile:
-                    dtd = etree.DTD(dtdfile)
-                    try:
-                        root = etree.XML(input_dat.contents)
+            if 'datafile.dtd' in input_dat.contents:
+                try:
+                    with open('datafile.dtd') as dtdfile:
+                        dtd = etree.DTD(dtdfile)
+                        try:
+                            root = etree.XML(input_dat.contents)
 
-                        if dtd.validate(root) == False:
+                            if dtd.validate(root) == False:
+                                print('failed.')
+                                printwrap(
+                                    f'{Font.error_bold}* Error: {Font.error}DAT file '
+                                    f'violates Logiqx DTD. '
+                                    f'{dtd.error_log.last_error}.'
+                                    f'{next_status}{Font.end}', 'error')
+                                if is_folder == False:
+                                    sys.exit()
+                                else:
+                                    return 'end_batch'
+                        except etree.XMLSyntaxError as e:
                             print('failed.')
                             printwrap(
-                                f'{Font.error_bold}* Error: {Font.error}DAT file '
-                                f'violates Logiqx DTD. '
-                                f'{dtd.error_log.last_error}.'
-                                f'{next_status}{Font.end}', 'error')
+                                f'{Font.error_bold}* Error: {Font.error}DAT file is '
+                                f'malformed. {e}.{next_status}{Font.end}', 'error')
                             if is_folder == False:
                                 sys.exit()
                             else:
                                 return 'end_batch'
-                    except etree.XMLSyntaxError as e:
-                        print('failed.')
-                        printwrap(
-                            f'{Font.error_bold}* Error: {Font.error}DAT file is '
-                            f'malformed. {e}.{next_status}{Font.end}', 'error')
-                        if is_folder == False:
-                            sys.exit()
                         else:
-                            return 'end_batch'
-                    else:
-                        if gui == False:
-                            print('file is a Logiqx DAT file.')
+                            if gui == False:
+                                print('done.')
 
-            except OSError as e:
-                printwrap(f'{Font.error_bold}* Error: {str(e)}{next_status}{Font.end}',
-                          'error')
-                if is_folder == False:
-                    raise
-                else:
-                    return 'end_batch'
+                except OSError as e:
+                    printwrap(f'{Font.error_bold}* Error: {str(e)}{next_status}{Font.end}',
+                            'error')
+                    if is_folder == False:
+                        raise
+                    else:
+                        return 'end_batch'
+            elif gui == False:
+                print('done.')
         else:
             print('failed.')
 
@@ -729,11 +741,15 @@ def header(input_dat, new_title_count, user_input, version):
 
     rom_header_str: str = ''.join(sorted(rom_header))
 
+    dtd_line = ''
+
+    if input_dat.is_dtd:
+        dtd_line = '\n<!DOCTYPE datafile PUBLIC "-//Logiqx//DTD ROM Management Datafile//EN" "https://raw.githubusercontent.com/unexpectedpanda/retool/main/datafile.dtd">'
+
     header = [
         '<?xml version="1.0"?>',
-        '\n<!DOCTYPE datafile PUBLIC "-//Logiqx//DTD ROM Management Datafile//EN" '
-        '"https://raw.githubusercontent.com/unexpectedpanda/retool/main/datafile.dtd">',
-        '\n<datafile>',
+        f'{dtd_line}',
+        f'\n{input_dat.datafile_tag}',
         '\n\t<header>',
         name,
         description,

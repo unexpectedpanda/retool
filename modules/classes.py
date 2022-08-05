@@ -25,7 +25,9 @@ class Dat:
         self.version = version
         self.author = author
         self.url = url
+        self.datafile_tag = ''
         self.dat_manager_directives = []
+        self.is_dtd = False
         self.contents = contents
         self.user_options = user_options
         self.end = end
