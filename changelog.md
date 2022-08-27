@@ -1,3 +1,7 @@
+# 1.18
+
+- A small change to handle a new versioning system in No-Intro.
+
 # 1.17
 
 - Retool can now handle No-Intro DATs that reference an XSD file.

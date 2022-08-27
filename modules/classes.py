@@ -320,6 +320,7 @@ class Regex:
         self.alpha = re.compile('\((?:(?!\(|Alpha( [0-9]{,2}){,1})[\s\S])*Alpha( [0-9]{,2}){,1}\)', re.IGNORECASE)
         self.beta = re.compile('\((?:(?!\(|Beta( [0-9]{,2}){,1})[\s\S])*Beta( [0-9]{,2}){,1}\)', re.IGNORECASE)
         self.proto = re.compile('\((?:(?!\(|Proto( [0-9]{,2}){,1})[\s\S])*Proto( [0-9]{,2}){,1}\)', re.IGNORECASE)
+        self.prototype = re.compile("\\s?\\(Prototype\\)", re.IGNORECASE)
         self.preprod = re.compile('\((Pre-production|Prerelease)\)', re.IGNORECASE)
         self.dev = re.compile('\(DEV|DEBUG\)', re.IGNORECASE)
         self.review = re.compile('\(Review (Code|Kit [0-9]+)\)', re.IGNORECASE)
@@ -356,11 +357,12 @@ class Regex:
             self.alpha,
             self.beta,
             self.proto,
+            self.prototype,
             self.preprod,
             self.dev,
             self.review,
             ]
-        self.preproduction_bad = re.compile('\((?:(?!\(|(Alpha|Beta|Pre-production|Proto|DEV|DEBUG|Review (Code|Kit [0-9]+))( [0-9]{,2}){,1})[\s\S])*(Alpha|Beta|Pre-production|Proto|DEV|DEBUG|Review (Code|Kit [0-9]+))( [0-9]{,2}){,1}\)|(\[b\])', re.IGNORECASE)
+        self.preproduction_bad = re.compile('\((?:(?!\(|(Alpha|Beta|Pre-production|Proto|Prototype|DEV|DEBUG|Review (Code|Kit [0-9]+))( [0-9]{,2}){,1})[\s\S])*(Alpha|Beta|Pre-production|Proto|DEV|DEBUG|Review (Code|Kit [0-9]+))( [0-9]{,2}){,1}\)|(\[b\])', re.IGNORECASE)
         self.programs = [
             re.compile('\(Program\)', re.IGNORECASE),
             re.compile('\(Test Program\)', re.IGNORECASE),
@@ -383,7 +385,7 @@ class Regex:
         ]
 
         # Versions
-        self.version = re.compile('\(v[0-9].*?\)', re.IGNORECASE)
+        self.version = re.compile('\(v[\\.0-9].*?\)', re.IGNORECASE)
         self.long_version = re.compile('Version [+-]?([0-9]+([.][0-9]*)?|[.][0-9]+).*?[ \)]', re.IGNORECASE)
         self.revision = re.compile('\(Rev [0-9A-Z].*?\)', re.IGNORECASE)
         self.sega_ring_code = re.compile('\(([0-9]{1,2}[A-Z]([ ,].[0-9]{1,2}[A-Z])*|R[E]{,1}[-]{,1}[0-9]{0,})\)', re.IGNORECASE)
