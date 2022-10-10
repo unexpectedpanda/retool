@@ -47,9 +47,7 @@ if sys.platform.startswith('win'):
         elif scale_factor == 1.25 or scale_factor == 2.25:
             os.environ['QT_SCALE_FACTOR'] = '1'
             scale_multiplier = 1.3
-    elif (
-        float(platform.release()) >= 8
-        and float(platform.release()) <= 8.1):
+    elif float(platform.release()) == 8.1:
             ctypes.windll.shcore.SetProcessDpiAwareness(0)
 
 elif 'linux' in sys.platform:
@@ -62,7 +60,7 @@ sg.SetOptions(font=(font, 10))
 
 
 def main():
-    __version__ = '0.11'
+    __version__ = '0.12'
 
     # Generate user config file if it's missing
     generate_config(region_data.languages_long, region_data.region_order, False, False, True)
