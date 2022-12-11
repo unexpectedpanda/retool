@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "retool"
+version = "2.00.0"
+description = "A filter tool for Redump and No-Intro DATs"
+authors = ["unexpectedpanda"]
+license = "BSD 3-Clause \"New\" or \"Revised\" License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.9"
+strictyaml = "^1.6.2"
+alive-progress = "^2.4.1"
+lxml = "^4.9.1"
+PySide6 = "^6.4.1"
+validators = "^0.20.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

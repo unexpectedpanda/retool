@@ -1,0 +1,31 @@
+# Set the user files and options
+# TODO: Set git repo branches to main, also in internal-config.json.
+CLI_VERSION_MAJOR: str = '2.00'
+CLI_VERSION_MINOR: str = '0'
+GUI_VERSION_MAJOR: str = '2.00'
+GUI_VERSION_MINOR: str = '0'
+CLONE_LIST_METADATA_DOWNLOAD_LOCATION: str = 'https://raw.githubusercontent.com/unexpectedpanda/retool-clonelists-metadata/retool2'
+CLONE_LIST_METADATA_DOWNLOAD_LOCATION_KEY: str = 'clone_list_metadata_url'
+PROGRAM_DOWNLOAD_LOCATION: str = 'https://raw.githubusercontent.com/unexpectedpanda/retool/retool2'
+PROGRAM_DOWNLOAD_LOCATION_KEY: str = 'program_url'
+CONFIG_FILE: str = 'config/internal-config.json'
+IGNORE_TAGS_KEY: str = "ignore_tags"
+DISC_RENAME_KEY: str = "disc_rename"
+PROMOTE_EDITIONS_KEY: str = 'promote_editions'
+DEMOTE_EDITIONS_KEY: str = 'demote_editions'
+MODERN_EDITIONS_KEY: str = 'modern_editions'
+LANGUAGES_KEY: str = 'languages'
+REGION_ORDER_KEY: str = 'default_region_order'
+VIDEO_ORDER_KEY: str = 'default_video_order'
+CLONE_LISTS_KEY: str = 'clone_lists'
+METADATA_KEY: str = 'metadata'
+USER_CONFIG_KEY: str = 'user_config'
+USER_LANGUAGE_KEY: str = 'language order'
+USER_REGION_ORDER_KEY: str = 'region order'
+USER_VIDEO_ORDER_KEY: str = 'video order'
+USER_LIST_PREFIX_KEY: str = 'list prefix'
+USER_LIST_SUFFIX_KEY: str = 'list suffix'
+USER_GUI_SETTINGS_KEY: str = 'gui settings'
+USER_FILTERS_PATH: str = 'config/systems'
+SANITIZED_CHARACTERS: tuple[str, ...] = (':', '\\', '/', '<', '>', '"', '|', '?', '*')
+RESERVED_FILENAMES: tuple[str, ...] = ('con', 'prn', 'aux', 'nul', 'com[1-9]', 'lpt[1-9]')
