@@ -96,8 +96,8 @@ def main(gui_input=''):
         if user_input.user_options == ' (-)':
             user_input.user_options = ''
 
-    # Import the user-config.yaml file and assign filtered languages and custom
-    # region order.
+    # Import the user-config.yaml file and assign filtered languages and custom region
+    # order.
     user_input = import_user_config(region_data, user_input)
 
     # Compensate for No-Intro using "United Kingdom", and Redump using "UK"

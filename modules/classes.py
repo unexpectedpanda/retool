@@ -343,7 +343,8 @@ class Regex:
         # Exclude filters
         self.demos = [
             re.compile('\s?\((?:(?!\(|Demo([ -].*?| [1-9]){,1})[\s\S])*Demo([ -].*?| [1-9]){,1}\)', re.IGNORECASE),
-            re.compile('Taikenban', re.IGNORECASE),
+            re.compile('Taikenban( [1-9])?', re.IGNORECASE),
+            re.compile('Cheheompan( [1-9])?', re.IGNORECASE),
             re.compile('\(@barai\)', re.IGNORECASE),
             re.compile('\(GameCube Preview\)', re.IGNORECASE),
             re.compile('\(Preview\)', re.IGNORECASE),

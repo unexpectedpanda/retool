@@ -7,7 +7,7 @@
             "These are defaults that Retool requires, don't modify this file.",
             "Check user-config.yaml for user-editable settings."
         ],
-        "last updated": "26 August 2022"
+        "last updated": "22 November 2022"
     },
 
     "ignore_tags": [
@@ -23,6 +23,7 @@
         "\\s?\\(Prerelease\\)",
         "\\s?\\(DEBUG\\)",
         "\\s?\\(DEV\\)",
+        "\\s?\\(Export\\)",
         "\\s?\\(Pre-Production\\)",
         "\\s?\\(Review (Code|Kit [0-9]+)\\)",
         "\\s?\\(Alt.*?\\)",
@@ -376,6 +377,6 @@
     },
 
     "clonelist_updates": {
-        "url": "https://raw.githubusercontent.com/unexpectedpanda/retool-clonelists-metadata/main"
+        "url": "https://raw.githubusercontent.com/unexpectedpanda/retool-clonelists-metadata/v1"
     }
 }
