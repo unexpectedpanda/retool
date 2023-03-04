@@ -1,17 +1,13 @@
 .*
 *.dat
 !.gitignore
-!tests/integration/*.dat
-!tests/unit/*.dat
+!.dev
+!tests/**/*.dat
 __pycache__/
 config/systems/*.yaml
 debug.log
 *.spec
 *.xlsx
-Pipfile
-Pipfile.lock
-poetry.lock
-pyproject.toml
 
 # dependencies
 /node_modules
