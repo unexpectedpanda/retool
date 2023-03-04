@@ -1132,7 +1132,7 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput, config: Co
 
                 eprint(f'{Font.end}')
 
-        eprint('\033[F\033[K* Processing DAT file... done\n')
+        eprint('\033[F\033[K* Processing DAT file... done\n', end='')
     else:
         eprint('failed.')
         if '<game' not in input_dat.contents:

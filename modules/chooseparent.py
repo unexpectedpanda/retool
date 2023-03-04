@@ -1513,7 +1513,7 @@ class ParentTools(object):
             if not (config.user_input.trace):
                 bar() # type: ignore
 
-        eprint('\033[F\033[K* Selecting 1G1R titles... done\n')
+        eprint('\033[F\033[K* Selecting 1G1R titles... done\n', end='')
 
         return processed_titles
 

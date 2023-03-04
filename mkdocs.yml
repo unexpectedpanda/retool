@@ -2,6 +2,7 @@ site_name: Retool
 site_dir: ../unexpectedpanda.github.io/retool/
 theme:
   name: material
+  custom_dir: docs/overrides
   language: en
   logo: images/retool.png
   favicon: images/retool.ico
