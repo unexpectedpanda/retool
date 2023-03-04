@@ -166,13 +166,13 @@ def enable_vt_mode() -> Any:
         raise
 
 
-def eprint(*args, **kwargs):
+def eprint(*args: Any, **kwargs: Any) -> None:
     """ Prints to STDERR """
     print(*args, file=sys.stderr, **kwargs)
 
 
 def format_value(value: Any) -> str:
-    """ Formats a string-convertible value based on whether or not it is empty
+    """ Formats a string-convertible value based on whether or not it is empty.
 
     Args:
         `value (Any)`: The value.
@@ -198,25 +198,26 @@ def old_windows() -> bool:
     if (
         sys.platform.startswith('win')
         and (float(platform.release()) < 10)):
-            return(True)
-    return(False)
+            return True
+    return False
 
 
-def pattern2string(regex: Pattern[str], search_str: str) -> str:
+def pattern2string(regex: Pattern[str], search_str: str, group_number: int = 0) -> str:
     """ Takes a regex pattern, searches in a string, then returns the result. Exists only
     so MyPy doesn't complain about `None` grouping.
 
     Args:
         `regex (Pattern[str])`: The regex pattern.
         `search_str (str)`: The string to search in.
+        `group_number (int)`: The regex group to return.
 
     Returns:
-        str: _description_
+        `str`: A regex group if found.
     """
     regex_search_str: str = ''
 
     regex_search = re.search(regex, search_str)
-    if regex_search: regex_search_str = regex_search.group()
+    if regex_search: regex_search_str = regex_search.group(group_number)
 
     return regex_search_str
 
@@ -253,7 +254,7 @@ def regex_test(regex_list: list[str], regex_origin: str, is_user_filter: bool = 
         `regex_list (list[str])`: A list of regex patterns in string form.
         `regex_origin (str)`: The origin of the regex filters, included in messages to the
         user when a regex is found to be invalid. Usually `categories`, `overrides`,
-        `renames`, `global exclude`, `global include`, `system exclude`, `system include`.
+        `variants`, `global exclude`, `global include`, `system exclude`, `system include`.
         `is_user_filter (bool, optional)`: Whether or not a user filter is being tested.
         Changes the messages to the user if a regex is found to be invalid. Defaults to
         `True`.

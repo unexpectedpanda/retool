@@ -2,17 +2,18 @@
 name = "retool"
 version = "2.00.0"
 description = "A filter tool for Redump and No-Intro DATs"
-authors = ["unexpectedpanda"]
+authors = ["unexpectedpanda <fake@email.com>"]
 license = "BSD 3-Clause \"New\" or \"Revised\" License"
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "3.9"
+python = ">=3.10,<3.12"
 strictyaml = "^1.6.2"
-alive-progress = "^2.4.1"
-lxml = "^4.9.1"
-PySide6 = "^6.4.1"
+lxml = "^4.9.2"
+PySide6 = "^6.4.2"
 validators = "^0.20.0"
+alive-progress = "^3.0.1"
+psutil = "^5.9.4"
 
 
 [build-system]

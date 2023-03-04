@@ -10,7 +10,7 @@ from utils import eprint
 # Mostly cribbed from https://stackoverflow.com/questions/552744/how-do-i-profile-memory-usage-in-python
 
 
-def display_top(snapshot: Snapshot, key_type: str='lineno', limit: int=3) -> None:
+def display_top(snapshot: Snapshot, key_type: str = 'lineno', limit: int = 3) -> None:
     """ Lists the top three lines in terms of memory usage """
 
     snapshot = snapshot.filter_traces((

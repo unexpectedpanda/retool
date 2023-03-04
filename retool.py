@@ -22,15 +22,15 @@ from modules.clonelists import CloneListTools
 from modules.dats import Dat, DatNode
 from modules.config import Config
 from modules.dats import process_dat
-from modules.input import check_input, import_system_filters, UserInput
+from modules.input import check_input, UserInput
 from modules.output import WriteFiles
 from modules.stats import get_parent_clone_stats, report_stats, Stats
 from modules.titletools import IncludeExcludeTools, Removes
 from modules.utils import eprint, ExitRetool, Font, old_windows, printwrap, regex_test
 # from modules.perftest import perf_test
 
-# Require at least Python 3.9
-assert sys.version_info >= (3, 9)
+# Require at least Python 3.10
+assert sys.version_info >= (3, 10)
 
 __version__: str = str(f'{CLI_VERSION_MAJOR}.{CLI_VERSION_MINOR}')
 
@@ -103,7 +103,7 @@ def main(gui_input: UserInput = None) -> None:
                     CLONE_LISTS_KEY,
                     METADATA_KEY,
                     USER_CONFIG_KEY,
-                    USER_LANGUAGE_KEY,
+                    USER_LANGUAGE_ORDER_KEY,
                     USER_REGION_ORDER_KEY,
                     USER_VIDEO_ORDER_KEY,
                     USER_LIST_PREFIX_KEY,
@@ -170,29 +170,7 @@ def main(gui_input: UserInput = None) -> None:
                     processed_titles = CloneListTools.removes(processed_titles, config, input_dat, removes)
                     processed_titles = CloneListTools.categories(processed_titles, config, input_dat)
                     processed_titles = CloneListTools.overrides(processed_titles, config, input_dat)
-                    processed_titles = CloneListTools.renames(processed_titles, config, input_dat, is_includes=False)
-
-                # Import system user filters, then check all the user filters for invalid regex
-                if not config.user_input.no_filters:
-                    import_system_filters(
-                        config,
-                        input_dat.search_name,
-                        USER_LANGUAGE_KEY,
-                        USER_REGION_ORDER_KEY,
-                        USER_VIDEO_ORDER_KEY,
-                        USER_LIST_PREFIX_KEY,
-                        USER_LIST_SUFFIX_KEY,
-                        USER_GUI_SETTINGS_KEY)
-
-                for user_filter in [
-                    [config.global_exclude, 'global exclude'],
-                    [config.global_include, 'global include'],
-                    [config.system_exclude, 'system exclude'],
-                    [config.system_include, 'system include']]:
-
-                    # Check for invalid regex
-                    if user_filter[0]:
-                        user_filter[0] = regex_test(list(user_filter[0]), str(user_filter[1]))
+                    processed_titles = CloneListTools.variants(processed_titles, config, input_dat, is_includes=False)
 
                 # Process user excludes
                 processed_titles = IncludeExcludeTools.excludes(processed_titles, config, removes)
@@ -214,7 +192,7 @@ def main(gui_input: UserInput = None) -> None:
                 # Process user includes
                 if not config.user_input.no_filters:
                     if config.global_include or config.system_include:
-                        original_titles_with_clonelist: dict[str, list[DatNode]] = CloneListTools.renames(input_dat.contents_dict, config, input_dat, is_includes=True)
+                        original_titles_with_clonelist: dict[str, list[DatNode]] = CloneListTools.variants(input_dat.contents_dict, config, input_dat, is_includes=True)
                         processed_titles = IncludeExcludeTools.includes(processed_titles, input_dat.contents_dict, original_titles_with_clonelist, config, removes)
 
                 if not config.user_input.trace:
@@ -248,7 +226,7 @@ def main(gui_input: UserInput = None) -> None:
         if not config.user_input.trace:
             # Stop the timer
             stop_time = time.time()
-            total_time_elapsed = str('{0:.2f}'.format(round(stop_time - start_time,2)))
+            total_time_elapsed = str('{0:.2f}'.format(round(stop_time - start_time, 2)))
 
             # Print the success message
             eprint('')

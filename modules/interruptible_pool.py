@@ -31,9 +31,9 @@ from typing import Any
 
 
 def _initializer_wrapper(actual_initializer: Any, *rest: Any) -> None:
-    """ We ignore SIGINT. It's up to our parent to kill us in the typical condition of
-    this arising from `^C` on a terminal. If someone is manually killing us with that
-    signal, well... nothing will happen.
+    """ Ignore SIGINT. It's up to the parent to terminate in the typical condition of this
+    arising from `^C` on a terminal. If someone is manually terminating with that signal,
+    nothing will happen.
     """
 
     signal.signal(signal.SIGINT, signal.SIG_IGN)
@@ -45,20 +45,20 @@ class InterruptiblePool(Pool):
     """ A modified version of :class:`multiprocessing.pool.Pool` that has better behavior
     with regard to ``KeyboardInterrupts`` in the :func:`map` method.
 
-    `processes (optional)`: The number of worker processes to use; defaults to the number
-    of CPUs.
-    `initializer (optional)`: Either `None`, or a callable that will be invoked by each
-    worker process when it starts.
-    `initargs: (optional)`: Arguments for *initializer*; it will be called as
-	`initializer(*initargs)`.
-    `kwargs (optional)`: Extra arguments. Python 2.7 supports a `maxtasksperchild`
+    `processes (Any, optional)`: The number of worker processes to use; defaults to the number
+    of CPUs. Defaults to `None`.
+    `initializer (Any, optional)`: Either `None`, or a callable that will be invoked by each
+    worker process when it starts. Defaults to `None`.
+    `initargs: (Any, optional)`: Arguments for *initializer*; it will be called as
+	`initializer(*initargs)`. Defaults to `()`.
+    `kwargs (Any, optional)`: Extra arguments. Python 2.7 supports a `maxtasksperchild`
     parameter.
     """
 
     wait_timeout = 3600
 
     def __init__(self: Any, processes: Any = None, initializer: Any = None, initargs: Any = (),
-                 **kwargs:Any) -> None:
+                 **kwargs: Any) -> None:
         new_initializer = functools.partial(_initializer_wrapper, initializer)
         super(InterruptiblePool, self).__init__(processes, new_initializer,
                                                 initargs, **kwargs)
@@ -66,8 +66,8 @@ class InterruptiblePool(Pool):
 def poolmap(self: Any, func: Any, iterable: Any, chunksize: Any = None) -> Any:
     """ Equivalent of `map()` built-in, without swallowing `KeyboardInterrupt`.
 
-    `func`: The function to apply to the items.
-    `iterable`: An iterable of items that will have `func` applied to them.
+    `func (Any)`: The function to apply to the items.
+    `iterable (Any)`: An iterable of items that will have `func` applied to them.
     """
 
     # The key magic is that we must call r.get() with a timeout, because

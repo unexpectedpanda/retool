@@ -3,7 +3,7 @@
 ################################################################################
 ## Form generated from reading UI file 'retool-clone-list-name.ui'
 ##
-## Created by: Qt User Interface Compiler version 6.4.1
+## Created by: Qt User Interface Compiler version 6.4.2
 ##
 ## WARNING! All changes made in this file will be lost when recompiling UI file!
 ################################################################################
@@ -181,7 +181,7 @@ class Ui_CloneListNameTool(object):
 
     def retranslateUi(self, CloneListNameTool):
         CloneListNameTool.setWindowTitle(QCoreApplication.translate("CloneListNameTool", u"Title tool", None))
-        self.labelContribute.setText(QCoreApplication.translate("CloneListNameTool", u"<html><head/><body><p>This tool is useful if you want to contribute to Retool's clone lists or development. If you enter a title's full name, it shows you the other names Retool assigns to the title as part of its matching process. <a href=\"https://unexpectedpanda.github.io/retool\"><span style=\" text-decoration: underline; color:#0000ff;\">Read the documentation</span></a> to learn more.</p></body></html>", None))
+        self.labelContribute.setText(QCoreApplication.translate("CloneListNameTool", u"<html><head/><body><p>This tool is useful if you want to contribute to Retool's clone lists or development. If you enter a title's full name, it shows you the other names Retool assigns to the title as part of its matching process. <a href=\"https://unexpectedpanda.github.io/retool/naming-system/\"><span style=\" text-decoration: underline; color:#0000ff;\">Read the documentation</span></a> to learn more.</p></body></html>", None))
         self.labelEnterName.setText(QCoreApplication.translate("CloneListNameTool", u"Enter the full name as it appears in the DAT file", None))
         self.labelShortName.setText(QCoreApplication.translate("CloneListNameTool", u"Default short name", None))
         self.lineEditShortName.setText("")

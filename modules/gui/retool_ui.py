@@ -3,7 +3,7 @@
 ################################################################################
 ## Form generated from reading UI file 'retool.ui'
 ##
-## Created by: Qt User Interface Compiler version 6.4.1
+## Created by: Qt User Interface Compiler version 6.4.2
 ##
 ## WARNING! All changes made in this file will be lost when recompiling UI file!
 ################################################################################
@@ -17,10 +17,11 @@ from PySide6.QtGui import (QAction, QBrush, QColor, QConicalGradient,
     QPainter, QPalette, QPixmap, QRadialGradient,
     QTransform)
 from PySide6.QtWidgets import (QAbstractItemView, QAbstractScrollArea, QApplication, QCheckBox,
-    QFrame, QLabel, QLineEdit, QListWidget,
-    QListWidgetItem, QMainWindow, QMenu, QMenuBar,
-    QPushButton, QScrollArea, QSizePolicy, QSpacerItem,
-    QTabWidget, QTextEdit, QVBoxLayout, QWidget)
+    QFrame, QLabel, QLayout, QLineEdit,
+    QListWidget, QListWidgetItem, QMainWindow, QMenu,
+    QMenuBar, QPushButton, QScrollArea, QSizePolicy,
+    QSpacerItem, QTabWidget, QTextEdit, QVBoxLayout,
+    QWidget)
 from  . import resources_rc
 
 class Ui_MainWindow(object):
@@ -73,11 +74,12 @@ class Ui_MainWindow(object):
         self.mainProgram = QFrame(self.centralwidget)
         self.mainProgram.setObjectName(u"mainProgram")
         self.mainProgram.setGeometry(QRect(0, 0, 961, 531))
-        self.mainProgram.setFrameShape(QFrame.StyledPanel)
-        self.mainProgram.setFrameShadow(QFrame.Raised)
+        self.mainProgram.setFrameShape(QFrame.NoFrame)
+        self.mainProgram.setFrameShadow(QFrame.Plain)
+        self.mainProgram.setLineWidth(0)
         self.labelSettingsSaved = QLabel(self.mainProgram)
         self.labelSettingsSaved.setObjectName(u"labelSettingsSaved")
-        self.labelSettingsSaved.setGeometry(QRect(460, 10, 221, 16))
+        self.labelSettingsSaved.setGeometry(QRect(720, 10, 221, 16))
         palette = QPalette()
         brush = QBrush(QColor(119, 119, 119, 255))
         brush.setStyle(Qt.SolidPattern)
@@ -96,6 +98,7 @@ class Ui_MainWindow(object):
         font2.setFamilies([u"Segoe UI"])
         font2.setPointSize(9)
         self.labelSettingsSaved.setFont(font2)
+        self.labelSettingsSaved.setAlignment(Qt.AlignRight|Qt.AlignTrailing|Qt.AlignVCenter)
         self.listWidgetOpenFiles = QListWidget(self.mainProgram)
         QListWidgetItem(self.listWidgetOpenFiles)
         self.listWidgetOpenFiles.setObjectName(u"listWidgetOpenFiles")
@@ -181,7 +184,7 @@ class Ui_MainWindow(object):
         self.buttonGlobalRegionUp.setIcon(icon6)
         self.labelGlobalFilterByRegions = QLabel(self.tabGlobalRegions)
         self.labelGlobalFilterByRegions.setObjectName(u"labelGlobalFilterByRegions")
-        self.labelGlobalFilterByRegions.setGeometry(QRect(10, 10, 561, 16))
+        self.labelGlobalFilterByRegions.setGeometry(QRect(10, 10, 561, 21))
         font6 = QFont()
         font6.setFamilies([u"Segoe UI"])
         font6.setBold(True)
@@ -189,12 +192,12 @@ class Ui_MainWindow(object):
         self.labelGlobalFilterByRegions.setTextInteractionFlags(Qt.NoTextInteraction)
         self.labelGlobalAvailableRegions = QLabel(self.tabGlobalRegions)
         self.labelGlobalAvailableRegions.setObjectName(u"labelGlobalAvailableRegions")
-        self.labelGlobalAvailableRegions.setGeometry(QRect(10, 50, 231, 16))
+        self.labelGlobalAvailableRegions.setGeometry(QRect(10, 48, 231, 21))
         self.labelGlobalAvailableRegions.setFont(font)
         self.labelGlobalAvailableRegions.setTextInteractionFlags(Qt.NoTextInteraction)
         self.labelGlobalSelectedRegions = QLabel(self.tabGlobalRegions)
         self.labelGlobalSelectedRegions.setObjectName(u"labelGlobalSelectedRegions")
-        self.labelGlobalSelectedRegions.setGeometry(QRect(300, 50, 231, 16))
+        self.labelGlobalSelectedRegions.setGeometry(QRect(300, 48, 231, 21))
         self.labelGlobalSelectedRegions.setFont(font)
         self.labelGlobalSelectedRegions.setTextInteractionFlags(Qt.NoTextInteraction)
         self.lineGlobalRegionSeparator = QFrame(self.tabGlobalRegions)
@@ -241,7 +244,7 @@ class Ui_MainWindow(object):
         self.buttonGlobalLanguageAllLeft.setIcon(icon4)
         self.labelGlobalAvailableLanguages = QLabel(self.tabGlobalLanguages)
         self.labelGlobalAvailableLanguages.setObjectName(u"labelGlobalAvailableLanguages")
-        self.labelGlobalAvailableLanguages.setGeometry(QRect(10, 50, 231, 16))
+        self.labelGlobalAvailableLanguages.setGeometry(QRect(10, 48, 231, 21))
         self.labelGlobalAvailableLanguages.setFont(font)
         self.labelGlobalAvailableLanguages.setTextInteractionFlags(Qt.NoTextInteraction)
         self.listWidgetGlobalSelectedLanguages = QListWidget(self.tabGlobalLanguages)
@@ -275,7 +278,7 @@ class Ui_MainWindow(object):
         self.buttonGlobalLanguageLeft.setIcon(icon2)
         self.labelGlobalSelectedLanguages = QLabel(self.tabGlobalLanguages)
         self.labelGlobalSelectedLanguages.setObjectName(u"labelGlobalSelectedLanguages")
-        self.labelGlobalSelectedLanguages.setGeometry(QRect(300, 50, 251, 16))
+        self.labelGlobalSelectedLanguages.setGeometry(QRect(300, 48, 251, 21))
         self.labelGlobalSelectedLanguages.setFont(font)
         self.labelGlobalSelectedLanguages.setTextInteractionFlags(Qt.NoTextInteraction)
         self.buttonGlobalLanguageRight = QPushButton(self.tabGlobalLanguages)
@@ -285,7 +288,7 @@ class Ui_MainWindow(object):
         self.buttonGlobalLanguageRight.setIcon(icon1)
         self.labelGlobalFilterByLanguages = QLabel(self.tabGlobalLanguages)
         self.labelGlobalFilterByLanguages.setObjectName(u"labelGlobalFilterByLanguages")
-        self.labelGlobalFilterByLanguages.setGeometry(QRect(10, 10, 561, 16))
+        self.labelGlobalFilterByLanguages.setGeometry(QRect(10, 10, 561, 21))
         self.labelGlobalFilterByLanguages.setFont(font6)
         self.labelGlobalFilterByLanguages.setTextInteractionFlags(Qt.NoTextInteraction)
         self.lineGlobalLanguageSeparator = QFrame(self.tabGlobalLanguages)
@@ -313,7 +316,7 @@ class Ui_MainWindow(object):
         self.tabGlobalVideo.setObjectName(u"tabGlobalVideo")
         self.labelGlobalVideoStandardsOrder = QLabel(self.tabGlobalVideo)
         self.labelGlobalVideoStandardsOrder.setObjectName(u"labelGlobalVideoStandardsOrder")
-        self.labelGlobalVideoStandardsOrder.setGeometry(QRect(10, 50, 571, 16))
+        self.labelGlobalVideoStandardsOrder.setGeometry(QRect(10, 48, 221, 21))
         self.labelGlobalVideoStandardsOrder.setFont(font)
         self.labelGlobalVideoStandardsOrder.setTextInteractionFlags(Qt.NoTextInteraction)
         self.lineGlobalVideoStandardsSeparator = QFrame(self.tabGlobalVideo)
@@ -338,7 +341,7 @@ class Ui_MainWindow(object):
         self.buttonGlobalVideoStandardUp.setIcon(icon6)
         self.labelGlobalFilterByVideo = QLabel(self.tabGlobalVideo)
         self.labelGlobalFilterByVideo.setObjectName(u"labelGlobalFilterByVideo")
-        self.labelGlobalFilterByVideo.setGeometry(QRect(10, 10, 561, 16))
+        self.labelGlobalFilterByVideo.setGeometry(QRect(10, 10, 561, 21))
         self.labelGlobalFilterByVideo.setFont(font6)
         self.labelGlobalFilterByVideo.setTextInteractionFlags(Qt.NoTextInteraction)
         self.listWidgetGlobalVideoStandards = QListWidget(self.tabGlobalVideo)
@@ -355,55 +358,55 @@ class Ui_MainWindow(object):
         self.tabGlobalExclusions.setObjectName(u"tabGlobalExclusions")
         self.checkBoxGlobalExcludeAddOns = QCheckBox(self.tabGlobalExclusions)
         self.checkBoxGlobalExcludeAddOns.setObjectName(u"checkBoxGlobalExcludeAddOns")
-        self.checkBoxGlobalExcludeAddOns.setGeometry(QRect(10, 51, 171, 17))
+        self.checkBoxGlobalExcludeAddOns.setGeometry(QRect(10, 51, 181, 17))
         self.checkBoxGlobalExcludeApplications = QCheckBox(self.tabGlobalExclusions)
         self.checkBoxGlobalExcludeApplications.setObjectName(u"checkBoxGlobalExcludeApplications")
-        self.checkBoxGlobalExcludeApplications.setGeometry(QRect(10, 77, 171, 17))
+        self.checkBoxGlobalExcludeApplications.setGeometry(QRect(10, 77, 181, 17))
         self.checkBoxGlobalExcludeAudio = QCheckBox(self.tabGlobalExclusions)
         self.checkBoxGlobalExcludeAudio.setObjectName(u"checkBoxGlobalExcludeAudio")
-        self.checkBoxGlobalExcludeAudio.setGeometry(QRect(10, 104, 171, 17))
+        self.checkBoxGlobalExcludeAudio.setGeometry(QRect(10, 104, 181, 17))
         self.checkBoxGlobalExcludeBadDumps = QCheckBox(self.tabGlobalExclusions)
         self.checkBoxGlobalExcludeBadDumps.setObjectName(u"checkBoxGlobalExcludeBadDumps")
-        self.checkBoxGlobalExcludeBadDumps.setGeometry(QRect(10, 131, 171, 17))
+        self.checkBoxGlobalExcludeBadDumps.setGeometry(QRect(10, 131, 181, 17))
         self.checkBoxGlobalExcludeBIOS = QCheckBox(self.tabGlobalExclusions)
         self.checkBoxGlobalExcludeBIOS.setObjectName(u"checkBoxGlobalExcludeBIOS")
-        self.checkBoxGlobalExcludeBIOS.setGeometry(QRect(10, 158, 171, 17))
+        self.checkBoxGlobalExcludeBIOS.setGeometry(QRect(10, 158, 181, 17))
         self.checkBoxGlobalExcludeBonusDiscs = QCheckBox(self.tabGlobalExclusions)
         self.checkBoxGlobalExcludeBonusDiscs.setObjectName(u"checkBoxGlobalExcludeBonusDiscs")
-        self.checkBoxGlobalExcludeBonusDiscs.setGeometry(QRect(10, 185, 171, 17))
+        self.checkBoxGlobalExcludeBonusDiscs.setGeometry(QRect(10, 185, 181, 17))
         self.checkBoxGlobalExcludeCoverdiscs = QCheckBox(self.tabGlobalExclusions)
         self.checkBoxGlobalExcludeCoverdiscs.setObjectName(u"checkBoxGlobalExcludeCoverdiscs")
         self.checkBoxGlobalExcludeCoverdiscs.setGeometry(QRect(10, 212, 171, 17))
         self.checkBoxGlobalExcludeEducational = QCheckBox(self.tabGlobalExclusions)
         self.checkBoxGlobalExcludeEducational.setObjectName(u"checkBoxGlobalExcludeEducational")
-        self.checkBoxGlobalExcludeEducational.setGeometry(QRect(10, 264, 171, 17))
+        self.checkBoxGlobalExcludeEducational.setGeometry(QRect(10, 264, 181, 17))
         self.checkBoxGlobalExcludeManuals = QCheckBox(self.tabGlobalExclusions)
         self.checkBoxGlobalExcludeManuals.setObjectName(u"checkBoxGlobalExcludeManuals")
-        self.checkBoxGlobalExcludeManuals.setGeometry(QRect(200, 51, 141, 17))
+        self.checkBoxGlobalExcludeManuals.setGeometry(QRect(230, 51, 141, 17))
         self.checkBoxGlobalExcludeMultimedia = QCheckBox(self.tabGlobalExclusions)
         self.checkBoxGlobalExcludeMultimedia.setObjectName(u"checkBoxGlobalExcludeMultimedia")
-        self.checkBoxGlobalExcludeMultimedia.setGeometry(QRect(200, 104, 141, 17))
+        self.checkBoxGlobalExcludeMultimedia.setGeometry(QRect(230, 104, 141, 17))
         self.checkBoxGlobalExcludePirate = QCheckBox(self.tabGlobalExclusions)
         self.checkBoxGlobalExcludePirate.setObjectName(u"checkBoxGlobalExcludePirate")
-        self.checkBoxGlobalExcludePirate.setGeometry(QRect(200, 131, 141, 17))
+        self.checkBoxGlobalExcludePirate.setGeometry(QRect(230, 131, 141, 17))
         self.checkBoxGlobalExcludePreproduction = QCheckBox(self.tabGlobalExclusions)
         self.checkBoxGlobalExcludePreproduction.setObjectName(u"checkBoxGlobalExcludePreproduction")
-        self.checkBoxGlobalExcludePreproduction.setGeometry(QRect(200, 158, 141, 17))
+        self.checkBoxGlobalExcludePreproduction.setGeometry(QRect(230, 158, 141, 17))
         self.checkBoxGlobalExcludePromotional = QCheckBox(self.tabGlobalExclusions)
         self.checkBoxGlobalExcludePromotional.setObjectName(u"checkBoxGlobalExcludePromotional")
-        self.checkBoxGlobalExcludePromotional.setGeometry(QRect(200, 185, 141, 17))
+        self.checkBoxGlobalExcludePromotional.setGeometry(QRect(230, 185, 141, 17))
         self.checkBoxGlobalExcludeUnlicensed = QCheckBox(self.tabGlobalExclusions)
         self.checkBoxGlobalExcludeUnlicensed.setObjectName(u"checkBoxGlobalExcludeUnlicensed")
-        self.checkBoxGlobalExcludeUnlicensed.setGeometry(QRect(200, 212, 141, 17))
+        self.checkBoxGlobalExcludeUnlicensed.setGeometry(QRect(230, 212, 141, 17))
         self.checkBoxGlobalExcludeVideo = QCheckBox(self.tabGlobalExclusions)
         self.checkBoxGlobalExcludeVideo.setObjectName(u"checkBoxGlobalExcludeVideo")
-        self.checkBoxGlobalExcludeVideo.setGeometry(QRect(200, 239, 141, 17))
+        self.checkBoxGlobalExcludeVideo.setGeometry(QRect(230, 239, 141, 17))
         self.checkBoxGlobalExcludeMIA = QCheckBox(self.tabGlobalExclusions)
         self.checkBoxGlobalExcludeMIA.setObjectName(u"checkBoxGlobalExcludeMIA")
-        self.checkBoxGlobalExcludeMIA.setGeometry(QRect(200, 77, 131, 17))
+        self.checkBoxGlobalExcludeMIA.setGeometry(QRect(230, 77, 131, 17))
         self.labelGlobalExclude = QLabel(self.tabGlobalExclusions)
         self.labelGlobalExclude.setObjectName(u"labelGlobalExclude")
-        self.labelGlobalExclude.setGeometry(QRect(10, 10, 561, 16))
+        self.labelGlobalExclude.setGeometry(QRect(10, 10, 561, 21))
         self.labelGlobalExclude.setFont(font6)
         self.labelGlobalExclude.setTextInteractionFlags(Qt.NoTextInteraction)
         self.lineGlobalExclude = QFrame(self.tabGlobalExclusions)
@@ -418,19 +421,19 @@ class Ui_MainWindow(object):
         self.lineGlobalExclude.setFrameShape(QFrame.HLine)
         self.checkBoxGlobalExcludeDemos = QCheckBox(self.tabGlobalExclusions)
         self.checkBoxGlobalExcludeDemos.setObjectName(u"checkBoxGlobalExcludeDemos")
-        self.checkBoxGlobalExcludeDemos.setGeometry(QRect(10, 238, 171, 17))
+        self.checkBoxGlobalExcludeDemos.setGeometry(QRect(10, 238, 211, 17))
         self.buttonGlobalSelectAllExclude = QPushButton(self.tabGlobalExclusions)
         self.buttonGlobalSelectAllExclude.setObjectName(u"buttonGlobalSelectAllExclude")
-        self.buttonGlobalSelectAllExclude.setGeometry(QRect(340, 50, 75, 23))
+        self.buttonGlobalSelectAllExclude.setGeometry(QRect(370, 50, 91, 31))
         self.buttonGlobalDeselectAllExclude = QPushButton(self.tabGlobalExclusions)
         self.buttonGlobalDeselectAllExclude.setObjectName(u"buttonGlobalDeselectAllExclude")
-        self.buttonGlobalDeselectAllExclude.setGeometry(QRect(340, 80, 75, 23))
+        self.buttonGlobalDeselectAllExclude.setGeometry(QRect(370, 90, 91, 31))
         self.tabWidgetGlobalSettings.addTab(self.tabGlobalExclusions, "")
         self.tabGlobalOptions = QWidget()
         self.tabGlobalOptions.setObjectName(u"tabGlobalOptions")
         self.scrollAreaGlobalOptions = QScrollArea(self.tabGlobalOptions)
         self.scrollAreaGlobalOptions.setObjectName(u"scrollAreaGlobalOptions")
-        self.scrollAreaGlobalOptions.setGeometry(QRect(0, 8, 581, 391))
+        self.scrollAreaGlobalOptions.setGeometry(QRect(0, 8, 581, 371))
         sizePolicy1 = QSizePolicy(QSizePolicy.Expanding, QSizePolicy.Preferred)
         sizePolicy1.setHorizontalStretch(0)
         sizePolicy1.setVerticalStretch(0)
@@ -439,6 +442,7 @@ class Ui_MainWindow(object):
         self.scrollAreaGlobalOptions.setSizeIncrement(QSize(0, 0))
         self.scrollAreaGlobalOptions.setBaseSize(QSize(0, 0))
         self.scrollAreaGlobalOptions.setFocusPolicy(Qt.StrongFocus)
+        self.scrollAreaGlobalOptions.setStyleSheet(u"")
         self.scrollAreaGlobalOptions.setFrameShape(QFrame.NoFrame)
         self.scrollAreaGlobalOptions.setFrameShadow(QFrame.Plain)
         self.scrollAreaGlobalOptions.setLineWidth(0)
@@ -448,11 +452,18 @@ class Ui_MainWindow(object):
         self.scrollAreaGlobalOptions.setWidgetResizable(True)
         self.scrollAreaWidgetContentsGlobalOptions = QWidget()
         self.scrollAreaWidgetContentsGlobalOptions.setObjectName(u"scrollAreaWidgetContentsGlobalOptions")
-        self.scrollAreaWidgetContentsGlobalOptions.setGeometry(QRect(0, 0, 564, 798))
+        self.scrollAreaWidgetContentsGlobalOptions.setGeometry(QRect(0, 0, 564, 784))
+        sizePolicy.setHeightForWidth(self.scrollAreaWidgetContentsGlobalOptions.sizePolicy().hasHeightForWidth())
+        self.scrollAreaWidgetContentsGlobalOptions.setSizePolicy(sizePolicy)
         self.verticalLayout = QVBoxLayout(self.scrollAreaWidgetContentsGlobalOptions)
         self.verticalLayout.setSpacing(6)
         self.verticalLayout.setObjectName(u"verticalLayout")
+        self.verticalLayout.setSizeConstraint(QLayout.SetDefaultConstraint)
         self.verticalLayout.setContentsMargins(10, 2, 10, 40)
+        self.verticalSpacerGlobalOptions = QSpacerItem(20, 2, QSizePolicy.Minimum, QSizePolicy.Fixed)
+
+        self.verticalLayout.addItem(self.verticalSpacerGlobalOptions)
+
         self.labelGlobalOptionsTitle = QLabel(self.scrollAreaWidgetContentsGlobalOptions)
         self.labelGlobalOptionsTitle.setObjectName(u"labelGlobalOptionsTitle")
         self.labelGlobalOptionsTitle.setFont(font6)
@@ -461,7 +472,7 @@ class Ui_MainWindow(object):
 
         self.verticalLayout.addWidget(self.labelGlobalOptionsTitle)
 
-        self.verticalSpacer_3 = QSpacerItem(20, 5, QSizePolicy.Minimum, QSizePolicy.Fixed)
+        self.verticalSpacer_3 = QSpacerItem(20, 3, QSizePolicy.Minimum, QSizePolicy.Fixed)
 
         self.verticalLayout.addItem(self.verticalSpacer_3)
 
@@ -483,18 +494,26 @@ class Ui_MainWindow(object):
 
         self.checkBoxGlobalOptionsDisable1G1R = QCheckBox(self.scrollAreaWidgetContentsGlobalOptions)
         self.checkBoxGlobalOptionsDisable1G1R.setObjectName(u"checkBoxGlobalOptionsDisable1G1R")
-        self.checkBoxGlobalOptionsDisable1G1R.setFont(font)
+        self.checkBoxGlobalOptionsDisable1G1R.setMinimumSize(QSize(0, 20))
+        font7 = QFont()
+        font7.setFamilies([u"Segoe UI"])
+        font7.setKerning(True)
+        self.checkBoxGlobalOptionsDisable1G1R.setFont(font7)
         self.checkBoxGlobalOptionsDisable1G1R.setStyleSheet(u"")
 
         self.verticalLayout.addWidget(self.checkBoxGlobalOptionsDisable1G1R)
 
         self.checkBoxGlobalOptionsPreferRegions = QCheckBox(self.scrollAreaWidgetContentsGlobalOptions)
         self.checkBoxGlobalOptionsPreferRegions.setObjectName(u"checkBoxGlobalOptionsPreferRegions")
+        self.checkBoxGlobalOptionsPreferRegions.setMinimumSize(QSize(0, 20))
+        self.checkBoxGlobalOptionsPreferRegions.setMaximumSize(QSize(16777215, 20))
 
         self.verticalLayout.addWidget(self.checkBoxGlobalOptionsPreferRegions)
 
         self.checkBoxGlobalOptionsIncludeHashless = QCheckBox(self.scrollAreaWidgetContentsGlobalOptions)
         self.checkBoxGlobalOptionsIncludeHashless.setObjectName(u"checkBoxGlobalOptionsIncludeHashless")
+        self.checkBoxGlobalOptionsIncludeHashless.setMinimumSize(QSize(0, 20))
+        self.checkBoxGlobalOptionsIncludeHashless.setMaximumSize(QSize(16777215, 20))
 
         self.verticalLayout.addWidget(self.checkBoxGlobalOptionsIncludeHashless)
 
@@ -505,28 +524,28 @@ class Ui_MainWindow(object):
         sizePolicy2.setVerticalStretch(0)
         sizePolicy2.setHeightForWidth(self.checkBoxGlobalOptionsModernPlatforms.sizePolicy().hasHeightForWidth())
         self.checkBoxGlobalOptionsModernPlatforms.setSizePolicy(sizePolicy2)
+        self.checkBoxGlobalOptionsModernPlatforms.setMinimumSize(QSize(0, 20))
         self.checkBoxGlobalOptionsModernPlatforms.setFont(font)
-        self.checkBoxGlobalOptionsModernPlatforms.setStyleSheet(u"QCheckBox::indicator {\n"
-"    subcontrol-position: left top;\n"
-"}")
+        self.checkBoxGlobalOptionsModernPlatforms.setStyleSheet(u"")
 
         self.verticalLayout.addWidget(self.checkBoxGlobalOptionsModernPlatforms)
 
         self.checkBoxGlobalOptionsDemoteUnlicensed = QCheckBox(self.scrollAreaWidgetContentsGlobalOptions)
         self.checkBoxGlobalOptionsDemoteUnlicensed.setObjectName(u"checkBoxGlobalOptionsDemoteUnlicensed")
+        self.checkBoxGlobalOptionsDemoteUnlicensed.setMinimumSize(QSize(0, 20))
         self.checkBoxGlobalOptionsDemoteUnlicensed.setFont(font)
-        self.checkBoxGlobalOptionsDemoteUnlicensed.setStyleSheet(u"QCheckBox::indicator {\n"
-"    subcontrol-position: left top;\n"
-"}")
+        self.checkBoxGlobalOptionsDemoteUnlicensed.setStyleSheet(u"")
 
         self.verticalLayout.addWidget(self.checkBoxGlobalOptionsDemoteUnlicensed)
 
         self.checkBoxGlobalOptionsDisableFilters = QCheckBox(self.scrollAreaWidgetContentsGlobalOptions)
         self.checkBoxGlobalOptionsDisableFilters.setObjectName(u"checkBoxGlobalOptionsDisableFilters")
+        sizePolicy2.setHeightForWidth(self.checkBoxGlobalOptionsDisableFilters.sizePolicy().hasHeightForWidth())
+        self.checkBoxGlobalOptionsDisableFilters.setSizePolicy(sizePolicy2)
+        self.checkBoxGlobalOptionsDisableFilters.setMinimumSize(QSize(0, 20))
+        self.checkBoxGlobalOptionsDisableFilters.setMaximumSize(QSize(16777215, 20))
         self.checkBoxGlobalOptionsDisableFilters.setFont(font)
-        self.checkBoxGlobalOptionsDisableFilters.setStyleSheet(u"QCheckBox::indicator {\n"
-"    subcontrol-position: left top;\n"
-"}")
+        self.checkBoxGlobalOptionsDisableFilters.setStyleSheet(u"")
 
         self.verticalLayout.addWidget(self.checkBoxGlobalOptionsDisableFilters)
 
@@ -750,6 +769,30 @@ class Ui_MainWindow(object):
         self.verticalLayout.addWidget(self.frameGlobalOptionsTrace)
 
         self.scrollAreaGlobalOptions.setWidget(self.scrollAreaWidgetContentsGlobalOptions)
+        self.labelGlobalOptionsTitle.raise_()
+        self.lineGlobalOptionsTitle.raise_()
+        self.checkBoxGlobalOptionsIncludeHashless.raise_()
+        self.checkBoxGlobalOptionsDemoteUnlicensed.raise_()
+        self.labelGlobalOptionsOutput.raise_()
+        self.lineGlobalOptionsOutput.raise_()
+        self.checkBoxGlobalOptionsSplitRegions.raise_()
+        self.checkBoxGlobalOptionsRemovesDat.raise_()
+        self.checkBoxGlobalOptionsKeepRemove.raise_()
+        self.checkBoxGlobalOptions1G1RNames.raise_()
+        self.frameGlobalOptions1G1RPrefix.raise_()
+        self.labelGlobalOptionsDebug.raise_()
+        self.lineGlobalOptionsDebug.raise_()
+        self.checkBoxGlobalOptionsReportWarnings.raise_()
+        self.checkBoxGlobalOptionsPauseWarnings.raise_()
+        self.checkBoxGlobalOptionsLegacy.raise_()
+        self.checkBoxGlobalOptionsBypassDTD.raise_()
+        self.checkBoxGlobalOptionsDisableMultiCPU.raise_()
+        self.checkBoxGlobalOptionsTrace.raise_()
+        self.frameGlobalOptionsTrace.raise_()
+        self.checkBoxGlobalOptionsDisableFilters.raise_()
+        self.checkBoxGlobalOptionsPreferRegions.raise_()
+        self.checkBoxGlobalOptionsModernPlatforms.raise_()
+        self.checkBoxGlobalOptionsDisable1G1R.raise_()
         self.tabWidgetGlobalSettings.addTab(self.tabGlobalOptions, "")
         self.tabGlobalUserFilters = QWidget()
         self.tabGlobalUserFilters.setObjectName(u"tabGlobalUserFilters")
@@ -770,11 +813,15 @@ class Ui_MainWindow(object):
         self.scrollAreaGlobalUserFilters.setWidgetResizable(True)
         self.scrollAreaWidgetContentsGlobalUserFilters = QWidget()
         self.scrollAreaWidgetContentsGlobalUserFilters.setObjectName(u"scrollAreaWidgetContentsGlobalUserFilters")
-        self.scrollAreaWidgetContentsGlobalUserFilters.setGeometry(QRect(0, 0, 564, 494))
+        self.scrollAreaWidgetContentsGlobalUserFilters.setGeometry(QRect(0, 0, 564, 500))
         self.verticalLayout_2 = QVBoxLayout(self.scrollAreaWidgetContentsGlobalUserFilters)
         self.verticalLayout_2.setSpacing(6)
         self.verticalLayout_2.setObjectName(u"verticalLayout_2")
         self.verticalLayout_2.setContentsMargins(10, 2, 10, 40)
+        self.verticalSpacerGlobalUserFilters = QSpacerItem(20, 2, QSizePolicy.Minimum, QSizePolicy.Fixed)
+
+        self.verticalLayout_2.addItem(self.verticalSpacerGlobalUserFilters)
+
         self.labelGlobalFilterByText = QLabel(self.scrollAreaWidgetContentsGlobalUserFilters)
         self.labelGlobalFilterByText.setObjectName(u"labelGlobalFilterByText")
         self.labelGlobalFilterByText.setFont(font6)
@@ -782,7 +829,7 @@ class Ui_MainWindow(object):
 
         self.verticalLayout_2.addWidget(self.labelGlobalFilterByText)
 
-        self.verticalSpacer_5 = QSpacerItem(20, 5, QSizePolicy.Minimum, QSizePolicy.Fixed)
+        self.verticalSpacer_5 = QSpacerItem(20, 3, QSizePolicy.Minimum, QSizePolicy.Fixed)
 
         self.verticalLayout_2.addItem(self.verticalSpacer_5)
 
@@ -817,10 +864,10 @@ class Ui_MainWindow(object):
 
         self.labelGlobalFilterInclude = QLabel(self.scrollAreaWidgetContentsGlobalUserFilters)
         self.labelGlobalFilterInclude.setObjectName(u"labelGlobalFilterInclude")
-        font7 = QFont()
-        font7.setFamilies([u"Segoe UI"])
-        font7.setBold(False)
-        self.labelGlobalFilterInclude.setFont(font7)
+        font8 = QFont()
+        font8.setFamilies([u"Segoe UI"])
+        font8.setBold(False)
+        self.labelGlobalFilterInclude.setFont(font8)
         self.labelGlobalFilterInclude.setTextInteractionFlags(Qt.NoTextInteraction)
 
         self.verticalLayout_2.addWidget(self.labelGlobalFilterInclude)
@@ -845,7 +892,7 @@ class Ui_MainWindow(object):
 
         self.labelGlobalFilterExclude = QLabel(self.scrollAreaWidgetContentsGlobalUserFilters)
         self.labelGlobalFilterExclude.setObjectName(u"labelGlobalFilterExclude")
-        self.labelGlobalFilterExclude.setFont(font7)
+        self.labelGlobalFilterExclude.setFont(font8)
         self.labelGlobalFilterExclude.setTextInteractionFlags(Qt.NoTextInteraction)
 
         self.verticalLayout_2.addWidget(self.labelGlobalFilterExclude)
@@ -884,11 +931,11 @@ class Ui_MainWindow(object):
         self.tabSystemPaths.setObjectName(u"tabSystemPaths")
         self.buttonChooseSystemCloneList = QPushButton(self.tabSystemPaths)
         self.buttonChooseSystemCloneList.setObjectName(u"buttonChooseSystemCloneList")
-        self.buttonChooseSystemCloneList.setGeometry(QRect(10, 110, 41, 41))
-        font8 = QFont()
-        font8.setFamilies([u"Segoe UI"])
-        font8.setPointSize(10)
-        self.buttonChooseSystemCloneList.setFont(font8)
+        self.buttonChooseSystemCloneList.setGeometry(QRect(60, 110, 41, 41))
+        font9 = QFont()
+        font9.setFamilies([u"Segoe UI"])
+        font9.setPointSize(10)
+        self.buttonChooseSystemCloneList.setFont(font9)
         icon7 = QIcon()
         icon7.addFile(u":/retoolFiles/images/icons8-diff-files-80.png", QSize(), QIcon.Normal, QIcon.Off)
         self.buttonChooseSystemCloneList.setIcon(icon7)
@@ -896,7 +943,7 @@ class Ui_MainWindow(object):
         self.buttonChooseSystemCloneList.setFlat(False)
         self.labelSystemCloneList = QLabel(self.tabSystemPaths)
         self.labelSystemCloneList.setObjectName(u"labelSystemCloneList")
-        self.labelSystemCloneList.setGeometry(QRect(60, 131, 521, 20))
+        self.labelSystemCloneList.setGeometry(QRect(110, 131, 461, 20))
         palette11 = QPalette()
         palette11.setBrush(QPalette.Active, QPalette.WindowText, brush)
         palette11.setBrush(QPalette.Active, QPalette.Text, brush1)
@@ -908,15 +955,15 @@ class Ui_MainWindow(object):
         self.labelSystemCloneList.setFont(font3)
         self.labelSelectSystemCloneList = QLabel(self.tabSystemPaths)
         self.labelSelectSystemCloneList.setObjectName(u"labelSelectSystemCloneList")
-        self.labelSelectSystemCloneList.setGeometry(QRect(60, 110, 471, 20))
-        font9 = QFont()
-        font9.setFamilies([u"Segoe UI"])
-        font9.setPointSize(8)
-        font9.setBold(False)
-        self.labelSelectSystemCloneList.setFont(font9)
+        self.labelSelectSystemCloneList.setGeometry(QRect(110, 110, 471, 20))
+        font10 = QFont()
+        font10.setFamilies([u"Segoe UI"])
+        font10.setPointSize(8)
+        font10.setBold(False)
+        self.labelSelectSystemCloneList.setFont(font10)
         self.labelSystemMetadataFile = QLabel(self.tabSystemPaths)
         self.labelSystemMetadataFile.setObjectName(u"labelSystemMetadataFile")
-        self.labelSystemMetadataFile.setGeometry(QRect(60, 190, 521, 20))
+        self.labelSystemMetadataFile.setGeometry(QRect(110, 190, 461, 20))
         palette12 = QPalette()
         palette12.setBrush(QPalette.Active, QPalette.WindowText, brush)
         palette12.setBrush(QPalette.Active, QPalette.Text, brush1)
@@ -928,19 +975,19 @@ class Ui_MainWindow(object):
         self.labelSystemMetadataFile.setFont(font3)
         self.buttonChooseSystemMetadataFile = QPushButton(self.tabSystemPaths)
         self.buttonChooseSystemMetadataFile.setObjectName(u"buttonChooseSystemMetadataFile")
-        self.buttonChooseSystemMetadataFile.setGeometry(QRect(10, 170, 41, 41))
-        self.buttonChooseSystemMetadataFile.setFont(font8)
+        self.buttonChooseSystemMetadataFile.setGeometry(QRect(60, 170, 41, 41))
+        self.buttonChooseSystemMetadataFile.setFont(font9)
         self.buttonChooseSystemMetadataFile.setIcon(icon7)
         self.buttonChooseSystemMetadataFile.setIconSize(QSize(32, 32))
         self.buttonChooseSystemMetadataFile.setFlat(False)
         self.labelSelectSystemMetadataFile = QLabel(self.tabSystemPaths)
         self.labelSelectSystemMetadataFile.setObjectName(u"labelSelectSystemMetadataFile")
-        self.labelSelectSystemMetadataFile.setGeometry(QRect(60, 170, 471, 20))
-        self.labelSelectSystemMetadataFile.setFont(font9)
+        self.labelSelectSystemMetadataFile.setGeometry(QRect(110, 170, 471, 20))
+        self.labelSelectSystemMetadataFile.setFont(font10)
         self.buttonChooseSystemOutput = QPushButton(self.tabSystemPaths)
         self.buttonChooseSystemOutput.setObjectName(u"buttonChooseSystemOutput")
-        self.buttonChooseSystemOutput.setGeometry(QRect(10, 50, 41, 41))
-        self.buttonChooseSystemOutput.setFont(font8)
+        self.buttonChooseSystemOutput.setGeometry(QRect(60, 50, 41, 41))
+        self.buttonChooseSystemOutput.setFont(font9)
         self.buttonChooseSystemOutput.setAutoFillBackground(False)
         icon8 = QIcon()
         icon8.addFile(u":/retoolFiles/images/icons8-live-folder-80.png", QSize(), QIcon.Normal, QIcon.Off)
@@ -949,7 +996,7 @@ class Ui_MainWindow(object):
         self.buttonChooseSystemOutput.setFlat(False)
         self.labelSystemOutputFolder = QLabel(self.tabSystemPaths)
         self.labelSystemOutputFolder.setObjectName(u"labelSystemOutputFolder")
-        self.labelSystemOutputFolder.setGeometry(QRect(60, 71, 521, 20))
+        self.labelSystemOutputFolder.setGeometry(QRect(110, 71, 461, 20))
         palette13 = QPalette()
         palette13.setBrush(QPalette.Active, QPalette.WindowText, brush)
         palette13.setBrush(QPalette.Active, QPalette.Text, brush1)
@@ -961,19 +1008,11 @@ class Ui_MainWindow(object):
         self.labelSystemOutputFolder.setFont(font3)
         self.labelSelectSystemOutput = QLabel(self.tabSystemPaths)
         self.labelSelectSystemOutput.setObjectName(u"labelSelectSystemOutput")
-        self.labelSelectSystemOutput.setGeometry(QRect(60, 50, 471, 20))
-        self.labelSelectSystemOutput.setFont(font9)
-        self.buttonClearSystemMetadataFile = QPushButton(self.tabSystemPaths)
-        self.buttonClearSystemMetadataFile.setObjectName(u"buttonClearSystemMetadataFile")
-        self.buttonClearSystemMetadataFile.setGeometry(QRect(10, 230, 41, 41))
-        self.buttonClearSystemMetadataFile.setFont(font8)
-        icon9 = QIcon()
-        icon9.addFile(u":/retoolFiles/images/icons8-restart-80.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.buttonClearSystemMetadataFile.setIcon(icon9)
-        self.buttonClearSystemMetadataFile.setIconSize(QSize(32, 32))
+        self.labelSelectSystemOutput.setGeometry(QRect(110, 50, 471, 20))
+        self.labelSelectSystemOutput.setFont(font10)
         self.labelSystemCustomFilesAndFolders = QLabel(self.tabSystemPaths)
         self.labelSystemCustomFilesAndFolders.setObjectName(u"labelSystemCustomFilesAndFolders")
-        self.labelSystemCustomFilesAndFolders.setGeometry(QRect(10, 10, 561, 16))
+        self.labelSystemCustomFilesAndFolders.setGeometry(QRect(10, 10, 411, 21))
         self.labelSystemCustomFilesAndFolders.setFont(font6)
         self.labelSystemCustomFilesAndFolders.setTextInteractionFlags(Qt.NoTextInteraction)
         self.lineSystemCustomFilesAndFolders = QFrame(self.tabSystemPaths)
@@ -986,13 +1025,32 @@ class Ui_MainWindow(object):
         self.lineSystemCustomFilesAndFolders.setPalette(palette14)
         self.lineSystemCustomFilesAndFolders.setFrameShadow(QFrame.Plain)
         self.lineSystemCustomFilesAndFolders.setFrameShape(QFrame.HLine)
-        self.checkBoxSystemOverrideCustomFilesAndFolders = QCheckBox(self.tabSystemPaths)
-        self.checkBoxSystemOverrideCustomFilesAndFolders.setObjectName(u"checkBoxSystemOverrideCustomFilesAndFolders")
-        self.checkBoxSystemOverrideCustomFilesAndFolders.setGeometry(QRect(420, 10, 161, 20))
-        self.labelSelectSystemMetadataFile_2 = QLabel(self.tabSystemPaths)
-        self.labelSelectSystemMetadataFile_2.setObjectName(u"labelSelectSystemMetadataFile_2")
-        self.labelSelectSystemMetadataFile_2.setGeometry(QRect(60, 230, 521, 20))
-        self.labelSelectSystemMetadataFile_2.setFont(font9)
+        self.checkBoxSystemOverridePaths = QCheckBox(self.tabSystemPaths)
+        self.checkBoxSystemOverridePaths.setObjectName(u"checkBoxSystemOverridePaths")
+        self.checkBoxSystemOverridePaths.setGeometry(QRect(410, 10, 161, 20))
+        self.buttonClearSystemMetadataFile = QPushButton(self.tabSystemPaths)
+        self.buttonClearSystemMetadataFile.setObjectName(u"buttonClearSystemMetadataFile")
+        self.buttonClearSystemMetadataFile.setGeometry(QRect(10, 170, 41, 41))
+        self.buttonClearSystemMetadataFile.setFont(font9)
+        icon9 = QIcon()
+        icon9.addFile(u":/retoolFiles/images/icons8-multiply-80.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.buttonClearSystemMetadataFile.setIcon(icon9)
+        self.buttonClearSystemMetadataFile.setIconSize(QSize(32, 32))
+        self.buttonClearSystemMetadataFile.setFlat(False)
+        self.buttonClearSystemCloneList = QPushButton(self.tabSystemPaths)
+        self.buttonClearSystemCloneList.setObjectName(u"buttonClearSystemCloneList")
+        self.buttonClearSystemCloneList.setGeometry(QRect(10, 110, 41, 41))
+        self.buttonClearSystemCloneList.setFont(font9)
+        self.buttonClearSystemCloneList.setIcon(icon9)
+        self.buttonClearSystemCloneList.setIconSize(QSize(32, 32))
+        self.buttonClearSystemCloneList.setFlat(False)
+        self.buttonClearSystemOutput = QPushButton(self.tabSystemPaths)
+        self.buttonClearSystemOutput.setObjectName(u"buttonClearSystemOutput")
+        self.buttonClearSystemOutput.setGeometry(QRect(10, 50, 41, 41))
+        self.buttonClearSystemOutput.setFont(font9)
+        self.buttonClearSystemOutput.setIcon(icon9)
+        self.buttonClearSystemOutput.setIconSize(QSize(32, 32))
+        self.buttonClearSystemOutput.setFlat(False)
         self.tabWidgetSystemSettings.addTab(self.tabSystemPaths, "")
         self.tabSystemRegions = QWidget()
         self.tabSystemRegions.setObjectName(u"tabSystemRegions")
@@ -1031,17 +1089,17 @@ class Ui_MainWindow(object):
         self.buttonSystemRegionUp.setIcon(icon6)
         self.labelSystemFilterByRegions = QLabel(self.tabSystemRegions)
         self.labelSystemFilterByRegions.setObjectName(u"labelSystemFilterByRegions")
-        self.labelSystemFilterByRegions.setGeometry(QRect(10, 10, 401, 16))
+        self.labelSystemFilterByRegions.setGeometry(QRect(10, 10, 401, 21))
         self.labelSystemFilterByRegions.setFont(font6)
         self.labelSystemFilterByRegions.setTextInteractionFlags(Qt.NoTextInteraction)
         self.labelSystemAvailableRegions = QLabel(self.tabSystemRegions)
         self.labelSystemAvailableRegions.setObjectName(u"labelSystemAvailableRegions")
-        self.labelSystemAvailableRegions.setGeometry(QRect(10, 50, 231, 16))
+        self.labelSystemAvailableRegions.setGeometry(QRect(10, 48, 231, 21))
         self.labelSystemAvailableRegions.setFont(font)
         self.labelSystemAvailableRegions.setTextInteractionFlags(Qt.NoTextInteraction)
         self.labelSystemSelectedRegions = QLabel(self.tabSystemRegions)
         self.labelSystemSelectedRegions.setObjectName(u"labelSystemSelectedRegions")
-        self.labelSystemSelectedRegions.setGeometry(QRect(300, 50, 231, 16))
+        self.labelSystemSelectedRegions.setGeometry(QRect(300, 48, 231, 21))
         self.labelSystemSelectedRegions.setFont(font)
         self.labelSystemSelectedRegions.setTextInteractionFlags(Qt.NoTextInteraction)
         self.lineSystemRegionSeparator = QFrame(self.tabSystemRegions)
@@ -1078,7 +1136,7 @@ class Ui_MainWindow(object):
         self.listWidgetSystemSelectedRegions.setSelectionMode(QAbstractItemView.ExtendedSelection)
         self.checkBoxSystemOverrideRegions = QCheckBox(self.tabSystemRegions)
         self.checkBoxSystemOverrideRegions.setObjectName(u"checkBoxSystemOverrideRegions")
-        self.checkBoxSystemOverrideRegions.setGeometry(QRect(420, 10, 161, 20))
+        self.checkBoxSystemOverrideRegions.setGeometry(QRect(410, 10, 161, 20))
         self.tabWidgetSystemSettings.addTab(self.tabSystemRegions, "")
         self.tabSystemLanguages = QWidget()
         self.tabSystemLanguages.setObjectName(u"tabSystemLanguages")
@@ -1089,7 +1147,7 @@ class Ui_MainWindow(object):
         self.buttonSystemLanguageAllLeft.setIcon(icon4)
         self.labelSystemAvailableLanguages = QLabel(self.tabSystemLanguages)
         self.labelSystemAvailableLanguages.setObjectName(u"labelSystemAvailableLanguages")
-        self.labelSystemAvailableLanguages.setGeometry(QRect(10, 50, 231, 16))
+        self.labelSystemAvailableLanguages.setGeometry(QRect(10, 48, 231, 21))
         self.labelSystemAvailableLanguages.setFont(font)
         self.labelSystemAvailableLanguages.setTextInteractionFlags(Qt.NoTextInteraction)
         self.listWidgetSystemSelectedLanguages = QListWidget(self.tabSystemLanguages)
@@ -1123,7 +1181,7 @@ class Ui_MainWindow(object):
         self.buttonSystemLanguageLeft.setIcon(icon2)
         self.labelSystemSelectedLanguages = QLabel(self.tabSystemLanguages)
         self.labelSystemSelectedLanguages.setObjectName(u"labelSystemSelectedLanguages")
-        self.labelSystemSelectedLanguages.setGeometry(QRect(300, 50, 251, 16))
+        self.labelSystemSelectedLanguages.setGeometry(QRect(300, 48, 251, 21))
         self.labelSystemSelectedLanguages.setFont(font)
         self.labelSystemSelectedLanguages.setTextInteractionFlags(Qt.NoTextInteraction)
         self.buttonSystemLanguageRight = QPushButton(self.tabSystemLanguages)
@@ -1133,7 +1191,7 @@ class Ui_MainWindow(object):
         self.buttonSystemLanguageRight.setIcon(icon1)
         self.labelSystemFilterByLanguages = QLabel(self.tabSystemLanguages)
         self.labelSystemFilterByLanguages.setObjectName(u"labelSystemFilterByLanguages")
-        self.labelSystemFilterByLanguages.setGeometry(QRect(10, 10, 401, 16))
+        self.labelSystemFilterByLanguages.setGeometry(QRect(10, 10, 401, 21))
         self.labelSystemFilterByLanguages.setFont(font6)
         self.labelSystemFilterByLanguages.setTextInteractionFlags(Qt.NoTextInteraction)
         self.lineSystemLanguageSeparator = QFrame(self.tabSystemLanguages)
@@ -1158,13 +1216,13 @@ class Ui_MainWindow(object):
         self.buttonSystemLanguageUp.setIcon(icon6)
         self.checkBoxSystemOverrideLanguages = QCheckBox(self.tabSystemLanguages)
         self.checkBoxSystemOverrideLanguages.setObjectName(u"checkBoxSystemOverrideLanguages")
-        self.checkBoxSystemOverrideLanguages.setGeometry(QRect(420, 10, 161, 20))
+        self.checkBoxSystemOverrideLanguages.setGeometry(QRect(410, 10, 161, 20))
         self.tabWidgetSystemSettings.addTab(self.tabSystemLanguages, "")
         self.tabSystemVideo = QWidget()
         self.tabSystemVideo.setObjectName(u"tabSystemVideo")
         self.labelSystemVideoStandardsOrder = QLabel(self.tabSystemVideo)
         self.labelSystemVideoStandardsOrder.setObjectName(u"labelSystemVideoStandardsOrder")
-        self.labelSystemVideoStandardsOrder.setGeometry(QRect(10, 50, 431, 16))
+        self.labelSystemVideoStandardsOrder.setGeometry(QRect(10, 48, 431, 21))
         self.labelSystemVideoStandardsOrder.setFont(font)
         self.labelSystemVideoStandardsOrder.setTextInteractionFlags(Qt.NoTextInteraction)
         self.lineSystemVideoStandardsSeparator = QFrame(self.tabSystemVideo)
@@ -1187,77 +1245,77 @@ class Ui_MainWindow(object):
         self.buttonSystemVideoStandardUp.setGeometry(QRect(245, 140, 41, 41))
         self.buttonSystemVideoStandardUp.setFont(font5)
         self.buttonSystemVideoStandardUp.setIcon(icon6)
-        self.labelSystemVideoStandards = QLabel(self.tabSystemVideo)
-        self.labelSystemVideoStandards.setObjectName(u"labelSystemVideoStandards")
-        self.labelSystemVideoStandards.setGeometry(QRect(10, 10, 401, 16))
-        self.labelSystemVideoStandards.setFont(font6)
-        self.labelSystemVideoStandards.setTextInteractionFlags(Qt.NoTextInteraction)
-        self.listWidgetSystemVideoStandardsOrder = QListWidget(self.tabSystemVideo)
-        self.listWidgetSystemVideoStandardsOrder.setObjectName(u"listWidgetSystemVideoStandardsOrder")
-        self.listWidgetSystemVideoStandardsOrder.setGeometry(QRect(10, 70, 221, 291))
-        self.listWidgetSystemVideoStandardsOrder.setTabKeyNavigation(True)
-        self.listWidgetSystemVideoStandardsOrder.setProperty("showDropIndicator", True)
-        self.listWidgetSystemVideoStandardsOrder.setDragDropMode(QAbstractItemView.DragDrop)
-        self.listWidgetSystemVideoStandardsOrder.setDefaultDropAction(Qt.MoveAction)
-        self.listWidgetSystemVideoStandardsOrder.setAlternatingRowColors(False)
-        self.listWidgetSystemVideoStandardsOrder.setSelectionMode(QAbstractItemView.ExtendedSelection)
+        self.labelSystemFilterByVideo = QLabel(self.tabSystemVideo)
+        self.labelSystemFilterByVideo.setObjectName(u"labelSystemFilterByVideo")
+        self.labelSystemFilterByVideo.setGeometry(QRect(10, 10, 401, 21))
+        self.labelSystemFilterByVideo.setFont(font6)
+        self.labelSystemFilterByVideo.setTextInteractionFlags(Qt.NoTextInteraction)
+        self.listWidgetSystemVideoStandards = QListWidget(self.tabSystemVideo)
+        self.listWidgetSystemVideoStandards.setObjectName(u"listWidgetSystemVideoStandards")
+        self.listWidgetSystemVideoStandards.setGeometry(QRect(10, 70, 221, 291))
+        self.listWidgetSystemVideoStandards.setTabKeyNavigation(True)
+        self.listWidgetSystemVideoStandards.setProperty("showDropIndicator", True)
+        self.listWidgetSystemVideoStandards.setDragDropMode(QAbstractItemView.DragDrop)
+        self.listWidgetSystemVideoStandards.setDefaultDropAction(Qt.MoveAction)
+        self.listWidgetSystemVideoStandards.setAlternatingRowColors(False)
+        self.listWidgetSystemVideoStandards.setSelectionMode(QAbstractItemView.ExtendedSelection)
         self.checkBoxSystemOverrideVideo = QCheckBox(self.tabSystemVideo)
         self.checkBoxSystemOverrideVideo.setObjectName(u"checkBoxSystemOverrideVideo")
-        self.checkBoxSystemOverrideVideo.setGeometry(QRect(420, 10, 161, 20))
+        self.checkBoxSystemOverrideVideo.setGeometry(QRect(410, 10, 161, 20))
         self.tabWidgetSystemSettings.addTab(self.tabSystemVideo, "")
         self.tabSystemExclusions = QWidget()
         self.tabSystemExclusions.setObjectName(u"tabSystemExclusions")
         self.checkBoxSystemExcludeAddOns = QCheckBox(self.tabSystemExclusions)
         self.checkBoxSystemExcludeAddOns.setObjectName(u"checkBoxSystemExcludeAddOns")
-        self.checkBoxSystemExcludeAddOns.setGeometry(QRect(10, 51, 171, 17))
+        self.checkBoxSystemExcludeAddOns.setGeometry(QRect(10, 51, 181, 17))
         self.checkBoxSystemExcludeApplications = QCheckBox(self.tabSystemExclusions)
         self.checkBoxSystemExcludeApplications.setObjectName(u"checkBoxSystemExcludeApplications")
-        self.checkBoxSystemExcludeApplications.setGeometry(QRect(10, 77, 171, 17))
+        self.checkBoxSystemExcludeApplications.setGeometry(QRect(10, 77, 181, 17))
         self.checkBoxSystemExcludeAudio = QCheckBox(self.tabSystemExclusions)
         self.checkBoxSystemExcludeAudio.setObjectName(u"checkBoxSystemExcludeAudio")
-        self.checkBoxSystemExcludeAudio.setGeometry(QRect(10, 104, 171, 17))
+        self.checkBoxSystemExcludeAudio.setGeometry(QRect(10, 104, 181, 17))
         self.checkBoxSystemExcludeBadDumps = QCheckBox(self.tabSystemExclusions)
         self.checkBoxSystemExcludeBadDumps.setObjectName(u"checkBoxSystemExcludeBadDumps")
-        self.checkBoxSystemExcludeBadDumps.setGeometry(QRect(10, 131, 171, 17))
+        self.checkBoxSystemExcludeBadDumps.setGeometry(QRect(10, 131, 181, 17))
         self.checkBoxSystemExcludeBIOS = QCheckBox(self.tabSystemExclusions)
         self.checkBoxSystemExcludeBIOS.setObjectName(u"checkBoxSystemExcludeBIOS")
-        self.checkBoxSystemExcludeBIOS.setGeometry(QRect(10, 158, 171, 17))
+        self.checkBoxSystemExcludeBIOS.setGeometry(QRect(10, 158, 181, 17))
         self.checkBoxSystemExcludeBonusDiscs = QCheckBox(self.tabSystemExclusions)
         self.checkBoxSystemExcludeBonusDiscs.setObjectName(u"checkBoxSystemExcludeBonusDiscs")
-        self.checkBoxSystemExcludeBonusDiscs.setGeometry(QRect(10, 185, 171, 17))
+        self.checkBoxSystemExcludeBonusDiscs.setGeometry(QRect(10, 185, 181, 17))
         self.checkBoxSystemExcludeCoverdiscs = QCheckBox(self.tabSystemExclusions)
         self.checkBoxSystemExcludeCoverdiscs.setObjectName(u"checkBoxSystemExcludeCoverdiscs")
-        self.checkBoxSystemExcludeCoverdiscs.setGeometry(QRect(10, 212, 171, 17))
+        self.checkBoxSystemExcludeCoverdiscs.setGeometry(QRect(10, 212, 181, 17))
         self.checkBoxSystemExcludeEducational = QCheckBox(self.tabSystemExclusions)
         self.checkBoxSystemExcludeEducational.setObjectName(u"checkBoxSystemExcludeEducational")
-        self.checkBoxSystemExcludeEducational.setGeometry(QRect(10, 264, 171, 17))
+        self.checkBoxSystemExcludeEducational.setGeometry(QRect(10, 264, 181, 17))
         self.checkBoxSystemExcludeManuals = QCheckBox(self.tabSystemExclusions)
         self.checkBoxSystemExcludeManuals.setObjectName(u"checkBoxSystemExcludeManuals")
-        self.checkBoxSystemExcludeManuals.setGeometry(QRect(200, 51, 141, 17))
+        self.checkBoxSystemExcludeManuals.setGeometry(QRect(230, 51, 141, 17))
         self.checkBoxSystemExcludeMultimedia = QCheckBox(self.tabSystemExclusions)
         self.checkBoxSystemExcludeMultimedia.setObjectName(u"checkBoxSystemExcludeMultimedia")
-        self.checkBoxSystemExcludeMultimedia.setGeometry(QRect(200, 104, 141, 17))
+        self.checkBoxSystemExcludeMultimedia.setGeometry(QRect(230, 104, 141, 17))
         self.checkBoxSystemExcludePirate = QCheckBox(self.tabSystemExclusions)
         self.checkBoxSystemExcludePirate.setObjectName(u"checkBoxSystemExcludePirate")
-        self.checkBoxSystemExcludePirate.setGeometry(QRect(200, 131, 141, 17))
+        self.checkBoxSystemExcludePirate.setGeometry(QRect(230, 131, 141, 17))
         self.checkBoxSystemExcludePreproduction = QCheckBox(self.tabSystemExclusions)
         self.checkBoxSystemExcludePreproduction.setObjectName(u"checkBoxSystemExcludePreproduction")
-        self.checkBoxSystemExcludePreproduction.setGeometry(QRect(200, 158, 141, 17))
+        self.checkBoxSystemExcludePreproduction.setGeometry(QRect(230, 158, 141, 17))
         self.checkBoxSystemExcludePromotional = QCheckBox(self.tabSystemExclusions)
         self.checkBoxSystemExcludePromotional.setObjectName(u"checkBoxSystemExcludePromotional")
-        self.checkBoxSystemExcludePromotional.setGeometry(QRect(200, 185, 141, 17))
+        self.checkBoxSystemExcludePromotional.setGeometry(QRect(230, 185, 141, 17))
         self.checkBoxSystemExcludeUnlicensed = QCheckBox(self.tabSystemExclusions)
         self.checkBoxSystemExcludeUnlicensed.setObjectName(u"checkBoxSystemExcludeUnlicensed")
-        self.checkBoxSystemExcludeUnlicensed.setGeometry(QRect(200, 212, 141, 17))
+        self.checkBoxSystemExcludeUnlicensed.setGeometry(QRect(230, 212, 141, 17))
         self.checkBoxSystemExcludeVideo = QCheckBox(self.tabSystemExclusions)
         self.checkBoxSystemExcludeVideo.setObjectName(u"checkBoxSystemExcludeVideo")
-        self.checkBoxSystemExcludeVideo.setGeometry(QRect(200, 239, 141, 17))
+        self.checkBoxSystemExcludeVideo.setGeometry(QRect(230, 239, 141, 17))
         self.checkBoxSystemExcludeMIA = QCheckBox(self.tabSystemExclusions)
         self.checkBoxSystemExcludeMIA.setObjectName(u"checkBoxSystemExcludeMIA")
-        self.checkBoxSystemExcludeMIA.setGeometry(QRect(200, 77, 131, 17))
+        self.checkBoxSystemExcludeMIA.setGeometry(QRect(230, 77, 131, 17))
         self.labelSystemExclude = QLabel(self.tabSystemExclusions)
         self.labelSystemExclude.setObjectName(u"labelSystemExclude")
-        self.labelSystemExclude.setGeometry(QRect(10, 10, 401, 16))
+        self.labelSystemExclude.setGeometry(QRect(10, 10, 401, 21))
         self.labelSystemExclude.setFont(font6)
         self.labelSystemExclude.setTextInteractionFlags(Qt.NoTextInteraction)
         self.lineSystemExclude = QFrame(self.tabSystemExclusions)
@@ -1272,22 +1330,22 @@ class Ui_MainWindow(object):
         self.lineSystemExclude.setFrameShape(QFrame.HLine)
         self.checkBoxSystemExcludeDemos = QCheckBox(self.tabSystemExclusions)
         self.checkBoxSystemExcludeDemos.setObjectName(u"checkBoxSystemExcludeDemos")
-        self.checkBoxSystemExcludeDemos.setGeometry(QRect(10, 238, 171, 17))
+        self.checkBoxSystemExcludeDemos.setGeometry(QRect(10, 238, 201, 17))
         self.buttonSystemSelectAllExclude = QPushButton(self.tabSystemExclusions)
         self.buttonSystemSelectAllExclude.setObjectName(u"buttonSystemSelectAllExclude")
-        self.buttonSystemSelectAllExclude.setGeometry(QRect(340, 50, 75, 23))
+        self.buttonSystemSelectAllExclude.setGeometry(QRect(370, 50, 91, 31))
         self.buttonSystemDeselectAllExclude = QPushButton(self.tabSystemExclusions)
         self.buttonSystemDeselectAllExclude.setObjectName(u"buttonSystemDeselectAllExclude")
-        self.buttonSystemDeselectAllExclude.setGeometry(QRect(340, 80, 75, 23))
+        self.buttonSystemDeselectAllExclude.setGeometry(QRect(370, 90, 91, 31))
         self.checkBoxSystemOverrideExclusions = QCheckBox(self.tabSystemExclusions)
         self.checkBoxSystemOverrideExclusions.setObjectName(u"checkBoxSystemOverrideExclusions")
-        self.checkBoxSystemOverrideExclusions.setGeometry(QRect(420, 10, 161, 20))
+        self.checkBoxSystemOverrideExclusions.setGeometry(QRect(410, 10, 161, 20))
         self.tabWidgetSystemSettings.addTab(self.tabSystemExclusions, "")
         self.tabSystemOptions = QWidget()
         self.tabSystemOptions.setObjectName(u"tabSystemOptions")
         self.scrollAreaSystemOptions = QScrollArea(self.tabSystemOptions)
         self.scrollAreaSystemOptions.setObjectName(u"scrollAreaSystemOptions")
-        self.scrollAreaSystemOptions.setGeometry(QRect(0, 48, 581, 351))
+        self.scrollAreaSystemOptions.setGeometry(QRect(0, 48, 581, 331))
         sizePolicy1.setHeightForWidth(self.scrollAreaSystemOptions.sizePolicy().hasHeightForWidth())
         self.scrollAreaSystemOptions.setSizePolicy(sizePolicy1)
         self.scrollAreaSystemOptions.setSizeIncrement(QSize(0, 0))
@@ -1302,7 +1360,7 @@ class Ui_MainWindow(object):
         self.scrollAreaSystemOptions.setWidgetResizable(True)
         self.scrollAreaWidgetContentsSystemOptions = QWidget()
         self.scrollAreaWidgetContentsSystemOptions.setObjectName(u"scrollAreaWidgetContentsSystemOptions")
-        self.scrollAreaWidgetContentsSystemOptions.setGeometry(QRect(0, -447, 564, 798))
+        self.scrollAreaWidgetContentsSystemOptions.setGeometry(QRect(0, 0, 564, 778))
         self.verticalLayout_3 = QVBoxLayout(self.scrollAreaWidgetContentsSystemOptions)
         self.verticalLayout_3.setSpacing(6)
         self.verticalLayout_3.setObjectName(u"verticalLayout_3")
@@ -1337,6 +1395,7 @@ class Ui_MainWindow(object):
 
         self.checkBoxSystemOptionsDisable1G1R = QCheckBox(self.scrollAreaWidgetContentsSystemOptions)
         self.checkBoxSystemOptionsDisable1G1R.setObjectName(u"checkBoxSystemOptionsDisable1G1R")
+        self.checkBoxSystemOptionsDisable1G1R.setMinimumSize(QSize(0, 20))
         self.checkBoxSystemOptionsDisable1G1R.setFont(font)
         self.checkBoxSystemOptionsDisable1G1R.setStyleSheet(u"")
 
@@ -1344,11 +1403,13 @@ class Ui_MainWindow(object):
 
         self.checkBoxSystemOptionsPreferRegions = QCheckBox(self.scrollAreaWidgetContentsSystemOptions)
         self.checkBoxSystemOptionsPreferRegions.setObjectName(u"checkBoxSystemOptionsPreferRegions")
+        self.checkBoxSystemOptionsPreferRegions.setMinimumSize(QSize(0, 20))
 
         self.verticalLayout_3.addWidget(self.checkBoxSystemOptionsPreferRegions)
 
         self.checkBoxSystemOptionsIncludeHashless = QCheckBox(self.scrollAreaWidgetContentsSystemOptions)
         self.checkBoxSystemOptionsIncludeHashless.setObjectName(u"checkBoxSystemOptionsIncludeHashless")
+        self.checkBoxSystemOptionsIncludeHashless.setMinimumSize(QSize(0, 20))
 
         self.verticalLayout_3.addWidget(self.checkBoxSystemOptionsIncludeHashless)
 
@@ -1356,28 +1417,25 @@ class Ui_MainWindow(object):
         self.checkBoxSystemOptionsModernPlatforms.setObjectName(u"checkBoxSystemOptionsModernPlatforms")
         sizePolicy2.setHeightForWidth(self.checkBoxSystemOptionsModernPlatforms.sizePolicy().hasHeightForWidth())
         self.checkBoxSystemOptionsModernPlatforms.setSizePolicy(sizePolicy2)
+        self.checkBoxSystemOptionsModernPlatforms.setMinimumSize(QSize(0, 20))
         self.checkBoxSystemOptionsModernPlatforms.setFont(font)
-        self.checkBoxSystemOptionsModernPlatforms.setStyleSheet(u"QCheckBox::indicator {\n"
-"    subcontrol-position: left top;\n"
-"}")
+        self.checkBoxSystemOptionsModernPlatforms.setStyleSheet(u"")
 
         self.verticalLayout_3.addWidget(self.checkBoxSystemOptionsModernPlatforms)
 
         self.checkBoxSystemOptionsDemoteUnlicensed = QCheckBox(self.scrollAreaWidgetContentsSystemOptions)
         self.checkBoxSystemOptionsDemoteUnlicensed.setObjectName(u"checkBoxSystemOptionsDemoteUnlicensed")
+        self.checkBoxSystemOptionsDemoteUnlicensed.setMinimumSize(QSize(0, 20))
         self.checkBoxSystemOptionsDemoteUnlicensed.setFont(font)
-        self.checkBoxSystemOptionsDemoteUnlicensed.setStyleSheet(u"QCheckBox::indicator {\n"
-"    subcontrol-position: left top;\n"
-"}")
+        self.checkBoxSystemOptionsDemoteUnlicensed.setStyleSheet(u"")
 
         self.verticalLayout_3.addWidget(self.checkBoxSystemOptionsDemoteUnlicensed)
 
         self.checkBoxSystemOptionsDisableFilters = QCheckBox(self.scrollAreaWidgetContentsSystemOptions)
         self.checkBoxSystemOptionsDisableFilters.setObjectName(u"checkBoxSystemOptionsDisableFilters")
+        self.checkBoxSystemOptionsDisableFilters.setMinimumSize(QSize(0, 20))
         self.checkBoxSystemOptionsDisableFilters.setFont(font)
-        self.checkBoxSystemOptionsDisableFilters.setStyleSheet(u"QCheckBox::indicator {\n"
-"    subcontrol-position: left top;\n"
-"}")
+        self.checkBoxSystemOptionsDisableFilters.setStyleSheet(u"")
 
         self.verticalLayout_3.addWidget(self.checkBoxSystemOptionsDisableFilters)
 
@@ -1599,12 +1657,12 @@ class Ui_MainWindow(object):
         self.lineSystemOptions.setFrameShape(QFrame.HLine)
         self.labelSystemOptions = QLabel(self.tabSystemOptions)
         self.labelSystemOptions.setObjectName(u"labelSystemOptions")
-        self.labelSystemOptions.setGeometry(QRect(10, 10, 381, 16))
+        self.labelSystemOptions.setGeometry(QRect(10, 12, 381, 16))
         self.labelSystemOptions.setFont(font6)
         self.labelSystemOptions.setTextInteractionFlags(Qt.NoTextInteraction)
         self.checkBoxSystemOverrideOptions = QCheckBox(self.tabSystemOptions)
         self.checkBoxSystemOverrideOptions.setObjectName(u"checkBoxSystemOverrideOptions")
-        self.checkBoxSystemOverrideOptions.setGeometry(QRect(420, 10, 161, 20))
+        self.checkBoxSystemOverrideOptions.setGeometry(QRect(410, 10, 161, 20))
         self.tabWidgetSystemSettings.addTab(self.tabSystemOptions, "")
         self.tabSystemUserFilters = QWidget()
         self.tabSystemUserFilters.setObjectName(u"tabSystemUserFilters")
@@ -1625,11 +1683,15 @@ class Ui_MainWindow(object):
         self.scrollAreaSystemUserFilters.setWidgetResizable(True)
         self.scrollAreaWidgetContentsSystemUserFilters = QWidget()
         self.scrollAreaWidgetContentsSystemUserFilters.setObjectName(u"scrollAreaWidgetContentsSystemUserFilters")
-        self.scrollAreaWidgetContentsSystemUserFilters.setGeometry(QRect(0, 0, 564, 494))
+        self.scrollAreaWidgetContentsSystemUserFilters.setGeometry(QRect(0, 0, 102, 932))
         self.verticalLayout_4 = QVBoxLayout(self.scrollAreaWidgetContentsSystemUserFilters)
         self.verticalLayout_4.setSpacing(6)
         self.verticalLayout_4.setObjectName(u"verticalLayout_4")
         self.verticalLayout_4.setContentsMargins(10, 2, 10, 40)
+        self.verticalSpacerSystemUserFilters = QSpacerItem(20, 2, QSizePolicy.Minimum, QSizePolicy.Fixed)
+
+        self.verticalLayout_4.addItem(self.verticalSpacerSystemUserFilters)
+
         self.labelSystemFilterByText = QLabel(self.scrollAreaWidgetContentsSystemUserFilters)
         self.labelSystemFilterByText.setObjectName(u"labelSystemFilterByText")
         self.labelSystemFilterByText.setFont(font6)
@@ -1637,7 +1699,7 @@ class Ui_MainWindow(object):
 
         self.verticalLayout_4.addWidget(self.labelSystemFilterByText)
 
-        self.verticalSpacer_13 = QSpacerItem(20, 5, QSizePolicy.Minimum, QSizePolicy.Fixed)
+        self.verticalSpacer_13 = QSpacerItem(20, 3, QSizePolicy.Minimum, QSizePolicy.Fixed)
 
         self.verticalLayout_4.addItem(self.verticalSpacer_13)
 
@@ -1672,7 +1734,7 @@ class Ui_MainWindow(object):
 
         self.labelSystemFilterInclude = QLabel(self.scrollAreaWidgetContentsSystemUserFilters)
         self.labelSystemFilterInclude.setObjectName(u"labelSystemFilterInclude")
-        self.labelSystemFilterInclude.setFont(font7)
+        self.labelSystemFilterInclude.setFont(font8)
         self.labelSystemFilterInclude.setTextInteractionFlags(Qt.NoTextInteraction)
 
         self.verticalLayout_4.addWidget(self.labelSystemFilterInclude)
@@ -1694,7 +1756,7 @@ class Ui_MainWindow(object):
 
         self.labelSystemFilterExclude = QLabel(self.scrollAreaWidgetContentsSystemUserFilters)
         self.labelSystemFilterExclude.setObjectName(u"labelSystemFilterExclude")
-        self.labelSystemFilterExclude.setFont(font7)
+        self.labelSystemFilterExclude.setFont(font8)
         self.labelSystemFilterExclude.setTextInteractionFlags(Qt.NoTextInteraction)
 
         self.verticalLayout_4.addWidget(self.labelSystemFilterExclude)
@@ -1714,7 +1776,7 @@ class Ui_MainWindow(object):
         self.buttonAddFolder = QPushButton(self.mainProgram)
         self.buttonAddFolder.setObjectName(u"buttonAddFolder")
         self.buttonAddFolder.setGeometry(QRect(10, 90, 41, 41))
-        self.buttonAddFolder.setFont(font8)
+        self.buttonAddFolder.setFont(font9)
         icon10 = QIcon()
         icon10.addFile(u":/retoolFiles/images/icons8-add-folder-80.png", QSize(), QIcon.Normal, QIcon.Off)
         self.buttonAddFolder.setIcon(icon10)
@@ -1722,7 +1784,7 @@ class Ui_MainWindow(object):
         self.buttonAddFolderRecursive = QPushButton(self.mainProgram)
         self.buttonAddFolderRecursive.setObjectName(u"buttonAddFolderRecursive")
         self.buttonAddFolderRecursive.setGeometry(QRect(10, 140, 41, 41))
-        self.buttonAddFolderRecursive.setFont(font8)
+        self.buttonAddFolderRecursive.setFont(font9)
         icon11 = QIcon()
         icon11.addFile(u":/retoolFiles/images/icons8-recursive-folder-80.png", QSize(), QIcon.Normal, QIcon.Off)
         self.buttonAddFolderRecursive.setIcon(icon11)
@@ -1730,12 +1792,12 @@ class Ui_MainWindow(object):
         self.buttonClearDats = QPushButton(self.mainProgram)
         self.buttonClearDats.setObjectName(u"buttonClearDats")
         self.buttonClearDats.setGeometry(QRect(10, 240, 41, 41))
-        self.buttonClearDats.setFont(font8)
+        self.buttonClearDats.setFont(font9)
         self.buttonClearDats.setIcon(icon9)
         self.buttonClearDats.setIconSize(QSize(32, 32))
         self.labelSelectInput = QLabel(self.mainProgram)
         self.labelSelectInput.setObjectName(u"labelSelectInput")
-        self.labelSelectInput.setGeometry(QRect(10, 10, 301, 16))
+        self.labelSelectInput.setGeometry(QRect(10, 8, 301, 21))
         self.labelSelectInput.setFont(font6)
         self.lineSelectOutputSeparator = QFrame(self.mainProgram)
         self.lineSelectOutputSeparator.setObjectName(u"lineSelectOutputSeparator")
@@ -1752,17 +1814,17 @@ class Ui_MainWindow(object):
         self.buttonChooseOutput = QPushButton(self.mainProgram)
         self.buttonChooseOutput.setObjectName(u"buttonChooseOutput")
         self.buttonChooseOutput.setGeometry(QRect(10, 479, 41, 41))
-        self.buttonChooseOutput.setFont(font8)
+        self.buttonChooseOutput.setFont(font9)
         self.buttonChooseOutput.setIcon(icon8)
         self.buttonChooseOutput.setIconSize(QSize(32, 32))
         self.labelChooseYourSettings = QLabel(self.mainProgram)
         self.labelChooseYourSettings.setObjectName(u"labelChooseYourSettings")
-        self.labelChooseYourSettings.setGeometry(QRect(330, 10, 131, 16))
+        self.labelChooseYourSettings.setGeometry(QRect(330, 8, 331, 21))
         self.labelChooseYourSettings.setFont(font6)
         self.buttonAddDats = QPushButton(self.mainProgram)
         self.buttonAddDats.setObjectName(u"buttonAddDats")
         self.buttonAddDats.setGeometry(QRect(10, 40, 41, 41))
-        self.buttonAddDats.setFont(font8)
+        self.buttonAddDats.setFont(font9)
         icon12 = QIcon()
         icon12.addFile(u":/retoolFiles/images/icons8-add-list-80.png", QSize(), QIcon.Normal, QIcon.Off)
         self.buttonAddDats.setIcon(icon12)
@@ -1770,7 +1832,7 @@ class Ui_MainWindow(object):
         self.buttonDeleteDats = QPushButton(self.mainProgram)
         self.buttonDeleteDats.setObjectName(u"buttonDeleteDats")
         self.buttonDeleteDats.setGeometry(QRect(10, 190, 41, 41))
-        self.buttonDeleteDats.setFont(font8)
+        self.buttonDeleteDats.setFont(font9)
         icon13 = QIcon()
         icon13.addFile(u":/retoolFiles/images/icons8-delete-file-80.png", QSize(), QIcon.Normal, QIcon.Off)
         self.buttonDeleteDats.setIcon(icon13)
@@ -1829,7 +1891,7 @@ class Ui_MainWindow(object):
         self.actionExit.setText(QCoreApplication.translate("MainWindow", u"Exit", None))
         self.actionCloneListNameTool.setText(QCoreApplication.translate("MainWindow", u"Title tool", None))
         self.actionSettings.setText(QCoreApplication.translate("MainWindow", u"Settings", None))
-        self.buttonGo.setText(QCoreApplication.translate("MainWindow", u"Filter DAT files", None))
+        self.buttonGo.setText(QCoreApplication.translate("MainWindow", u"Process DAT files", None))
         self.labelSettingsSaved.setText(QCoreApplication.translate("MainWindow", u"Settings are saved automatically", None))
 
         __sortingEnabled = self.listWidgetOpenFiles.isSortingEnabled()
@@ -1839,6 +1901,9 @@ class Ui_MainWindow(object):
         self.listWidgetOpenFiles.setSortingEnabled(__sortingEnabled)
 
         self.labelSelectOutput.setText(QCoreApplication.translate("MainWindow", u"Select an output folder for the filtered DATs", None))
+#if QT_CONFIG(tooltip)
+        self.tabWidgetSettings.setToolTip("")
+#endif // QT_CONFIG(tooltip)
 #if QT_CONFIG(tooltip)
         self.buttonGlobalRegionRight.setToolTip(QCoreApplication.translate("MainWindow", u"Move the selected regions to the filter list", None))
 #endif // QT_CONFIG(tooltip)
@@ -1865,7 +1930,7 @@ class Ui_MainWindow(object):
         self.buttonGlobalRegionUp.setText("")
         self.labelGlobalFilterByRegions.setText(QCoreApplication.translate("MainWindow", u"Filter by regions (you must add at least one)", None))
         self.labelGlobalAvailableRegions.setText(QCoreApplication.translate("MainWindow", u"Available regions", None))
-        self.labelGlobalSelectedRegions.setText(QCoreApplication.translate("MainWindow", u"Filter by these regions (order is important)", None))
+        self.labelGlobalSelectedRegions.setText(QCoreApplication.translate("MainWindow", u"Filter by this region order", None))
 #if QT_CONFIG(tooltip)
         self.buttonGlobalDefaultRegionOrder.setToolTip(QCoreApplication.translate("MainWindow", u"Set a region order that prioritizes\n"
 "English-speaking regions and 60Hz titles", None))
@@ -1885,12 +1950,12 @@ class Ui_MainWindow(object):
         self.buttonGlobalLanguageLeft.setToolTip(QCoreApplication.translate("MainWindow", u"Move the selected languages to the available list", None))
 #endif // QT_CONFIG(tooltip)
         self.buttonGlobalLanguageLeft.setText("")
-        self.labelGlobalSelectedLanguages.setText(QCoreApplication.translate("MainWindow", u"Filter by these languages (order is important)", None))
+        self.labelGlobalSelectedLanguages.setText(QCoreApplication.translate("MainWindow", u"Filter by this language order", None))
 #if QT_CONFIG(tooltip)
         self.buttonGlobalLanguageRight.setToolTip(QCoreApplication.translate("MainWindow", u"Move the selected languages to the filter list", None))
 #endif // QT_CONFIG(tooltip)
         self.buttonGlobalLanguageRight.setText("")
-        self.labelGlobalFilterByLanguages.setText(QCoreApplication.translate("MainWindow", u"Filter by languages (leave the filter list empty to include all languages)", None))
+        self.labelGlobalFilterByLanguages.setText(QCoreApplication.translate("MainWindow", u"Filter by languages (an empty filter list includes all languages)", None))
 #if QT_CONFIG(tooltip)
         self.buttonGlobalLanguageAllRight.setToolTip(QCoreApplication.translate("MainWindow", u"Move the remaining available languages to the end of the filter list", None))
 #endif // QT_CONFIG(tooltip)
@@ -1963,7 +2028,7 @@ class Ui_MainWindow(object):
 #endif // QT_CONFIG(tooltip)
         self.checkBoxGlobalExcludeEducational.setText(QCoreApplication.translate("MainWindow", u"Educational", None))
 #if QT_CONFIG(tooltip)
-        self.checkBoxGlobalExcludeManuals.setToolTip(QCoreApplication.translate("MainWindow", u"Exclude titles with the \"(Manual)\" in the name", None))
+        self.checkBoxGlobalExcludeManuals.setToolTip(QCoreApplication.translate("MainWindow", u"Exclude titles with \"(Manual)\" in the name", None))
 #endif // QT_CONFIG(tooltip)
         self.checkBoxGlobalExcludeManuals.setText(QCoreApplication.translate("MainWindow", u"Manuals", None))
 #if QT_CONFIG(tooltip)
@@ -2011,7 +2076,7 @@ class Ui_MainWindow(object):
 #endif // QT_CONFIG(tooltip)
         self.checkBoxGlobalExcludeVideo.setText(QCoreApplication.translate("MainWindow", u"Video", None))
 #if QT_CONFIG(tooltip)
-        self.checkBoxGlobalExcludeMIA.setToolTip(QCoreApplication.translate("MainWindow", u"Exclude titles declared as missing in action in the clone lists", None))
+        self.checkBoxGlobalExcludeMIA.setToolTip(QCoreApplication.translate("MainWindow", u"Titles or ROMs declared as missing in action in the clone lists or DAT files.", None))
 #endif // QT_CONFIG(tooltip)
         self.checkBoxGlobalExcludeMIA.setText(QCoreApplication.translate("MainWindow", u"MIA", None))
         self.labelGlobalExclude.setText(QCoreApplication.translate("MainWindow", u"Exclude these types of titles from the output DAT", None))
@@ -2022,7 +2087,7 @@ class Ui_MainWindow(object):
 "\u2022 @barai\n"
 "\u2022 (Demo [1-9])\n"
 "\u2022 (Demo-CD)\n"
-"\u2022 (GameCube Preview\n"
+"\u2022 (GameCube Preview)\n"
 "\u2022 (Kiosk *|* Kiosk)\n"
 "\u2022 (Preview)\n"
 "\u2022 Kiosk Demo Disc\n"
@@ -2032,7 +2097,7 @@ class Ui_MainWindow(object):
 "\u2022 Taikenban\n"
 "\u2022 Trial Edition", None))
 #endif // QT_CONFIG(tooltip)
-        self.checkBoxGlobalExcludeDemos.setText(QCoreApplication.translate("MainWindow", u"Demos, Kiosks, and samples", None))
+        self.checkBoxGlobalExcludeDemos.setText(QCoreApplication.translate("MainWindow", u"Demos, kiosks, and samples", None))
 #if QT_CONFIG(tooltip)
         self.buttonGlobalSelectAllExclude.setToolTip(QCoreApplication.translate("MainWindow", u"Select all title types", None))
 #endif // QT_CONFIG(tooltip)
@@ -2044,76 +2109,83 @@ class Ui_MainWindow(object):
         self.tabWidgetGlobalSettings.setTabText(self.tabWidgetGlobalSettings.indexOf(self.tabGlobalExclusions), QCoreApplication.translate("MainWindow", u"Exclusions", None))
         self.labelGlobalOptionsTitle.setText(QCoreApplication.translate("MainWindow", u"Title options", None))
 #if QT_CONFIG(tooltip)
-        self.checkBoxGlobalOptionsDisable1G1R.setToolTip(QCoreApplication.translate("MainWindow", u"Ignore clone lists, and treat each title as unique\n"
+        self.checkBoxGlobalOptionsDisable1G1R.setToolTip(QCoreApplication.translate("MainWindow", u"Ignore clone lists, and treat each title as unique. Useful if you\n"
+"want to keep everything from a specific set of regions and/or\n"
+"languages.\n"
 "\n"
-"Useful if you want to keep everything from a specific set of regions\n"
-"and/or languages\n"
-"\n"
-"If this is disabled, it's because you've enabled legacy mode output,\n"
-"which isn't compatible with this feature", None))
+"If this is disabled, it's because you've enabled \"Output DAT file in legacy\n"
+"parent/clone format\", which isn't compatible with this option.", None))
 #endif // QT_CONFIG(tooltip)
         self.checkBoxGlobalOptionsDisable1G1R.setText(QCoreApplication.translate("MainWindow", u"Disable 1G1R filtering", None))
 #if QT_CONFIG(tooltip)
         self.checkBoxGlobalOptionsPreferRegions.setToolTip(QCoreApplication.translate("MainWindow", u"By default, if a title from a higher priority region doesn't support\n"
 "your preferred languages but a lower priority region does, Retool\n"
 "selects the latter. This option disables this behavior, forcing\n"
-"strict adherence to region priority regardless of language support.", None))
+"strict adherence to region priority regardless of language support.\n"
+"\n"
+"This option also overrides similar behavior in superset selection,\n"
+"which means you might get a title that was released in your\n"
+"preferred region that has less content, instead of one that was\n"
+"released in another region that contains more content and supports\n"
+"your preferred languages.", None))
 #endif // QT_CONFIG(tooltip)
         self.checkBoxGlobalOptionsPreferRegions.setText(QCoreApplication.translate("MainWindow", u"Prefer regions over languages", None))
 #if QT_CONFIG(tooltip)
-        self.checkBoxGlobalOptionsIncludeHashless.setToolTip(QCoreApplication.translate("MainWindow", u"Some DATs don't list any hashes or sizes for some files, and Retool\n"
-"filters these out by default\n"
-"\n"
-"This option makes sure those files are kept", None))
+        self.checkBoxGlobalOptionsIncludeHashless.setToolTip(QCoreApplication.translate("MainWindow", u"Some DAT files don't list any hashes or sizes for some files, and Retool\n"
+"filters these out by default. This option makes sure those files are kept.", None))
 #endif // QT_CONFIG(tooltip)
-        self.checkBoxGlobalOptionsIncludeHashless.setText(QCoreApplication.translate("MainWindow", u"Include titles without hashes or sizes specified in the input DAT", None))
+        self.checkBoxGlobalOptionsIncludeHashless.setText(QCoreApplication.translate("MainWindow", u"Include titles without hashes or sizes specified in the input DAT file", None))
 #if QT_CONFIG(tooltip)
-        self.checkBoxGlobalOptionsModernPlatforms.setToolTip(QCoreApplication.translate("MainWindow", u"For the sake of emulator compatibility, Retool prefers original\n"
-"versions of games over versions ripped from rereleases on platforms\n"
-"like Virtual Console and Steam\n"
-"\n"
-"This option reverses that behavior", None))
+        self.checkBoxGlobalOptionsModernPlatforms.setToolTip(QCoreApplication.translate("MainWindow", u"For the sake of emulator compatibility, Retool prefers versions of\n"
+"games released on the original system instead of those ripped from\n"
+"rereleases on platforms like Virtual Console and Steam. This option\n"
+"reverses that behavior.", None))
 #endif // QT_CONFIG(tooltip)
-        self.checkBoxGlobalOptionsModernPlatforms.setText(QCoreApplication.translate("MainWindow", u"Titles ripped from modern platform rereleases replace standard\n"
-"editions", None))
+        self.checkBoxGlobalOptionsModernPlatforms.setText(QCoreApplication.translate("MainWindow", u"Prefer titles ripped from modern rereleases over original system releases", None))
 #if QT_CONFIG(tooltip)
-        self.checkBoxGlobalOptionsDemoteUnlicensed.setToolTip(QCoreApplication.translate("MainWindow", u"Enabling this option might select titles with lower priority\n"
-"languages, or less features", None))
+        self.checkBoxGlobalOptionsDemoteUnlicensed.setToolTip(QCoreApplication.translate("MainWindow", u"Sometimes games are rereleased long after the lifespan of a console,\n"
+"in regions they weren't originally available in. By default Retool\n"
+"selects these titles if they match your preferred region/language\n"
+"priorities.\n"
+"\n"
+"Enable this option to choose a production version of a title over\n"
+"the unlicensed/aftermarket/homebrew title if possible. This might\n"
+"select titles from a lower priority region, or with lower priority\n"
+"languages, or with less features.", None))
 #endif // QT_CONFIG(tooltip)
-        self.checkBoxGlobalOptionsDemoteUnlicensed.setText(QCoreApplication.translate("MainWindow", u"Demote unlicensed, aftermarket, or homebrew titles if\n"
-"production versions are found in another region", None))
+        self.checkBoxGlobalOptionsDemoteUnlicensed.setText(QCoreApplication.translate("MainWindow", u"Prefer licensed versions over unlicensed, aftermarket, or homebrew titles", None))
 #if QT_CONFIG(tooltip)
         self.checkBoxGlobalOptionsDisableFilters.setToolTip(QCoreApplication.translate("MainWindow", u"Ignore both global and system user filters", None))
 #endif // QT_CONFIG(tooltip)
         self.checkBoxGlobalOptionsDisableFilters.setText(QCoreApplication.translate("MainWindow", u"Disable global and system user filters", None))
         self.labelGlobalOptionsOutput.setText(QCoreApplication.translate("MainWindow", u"Output options", None))
 #if QT_CONFIG(tooltip)
-        self.checkBoxGlobalOptionsSplitRegions.setToolTip(QCoreApplication.translate("MainWindow", u"Instead of one DAT containing all the filtered results, split into\n"
-"multiple DATs based on the regions you've selected\n"
+        self.checkBoxGlobalOptionsSplitRegions.setToolTip(QCoreApplication.translate("MainWindow", u"Instead of one output DAT file containing all the filtered results, split\n"
+"the output into multiple DAT files based on the regions you've selected.\n"
 "\n"
-"If this is disabled, it's because you've enabled legacy mode output,\n"
-"which isn't compatible with this feature", None))
+"If this is disabled, it's because you've enabled \"Output DAT file in legacy\n"
+"parent/clone format\", which isn't compatible with this option.", None))
 #endif // QT_CONFIG(tooltip)
-        self.checkBoxGlobalOptionsSplitRegions.setText(QCoreApplication.translate("MainWindow", u"Split the output into multiple DATs based on region", None))
+        self.checkBoxGlobalOptionsSplitRegions.setText(QCoreApplication.translate("MainWindow", u"Split the output into multiple DAT files based on region", None))
 #if QT_CONFIG(tooltip)
-        self.checkBoxGlobalOptionsRemovesDat.setToolTip(QCoreApplication.translate("MainWindow", u"In addition to the output DAT, create another\n"
-"DAT containing the titles Retool removed", None))
+        self.checkBoxGlobalOptionsRemovesDat.setToolTip(QCoreApplication.translate("MainWindow", u"In addition to the output DAT file, create another\n"
+"DAT file containing the titles Retool removed", None))
 #endif // QT_CONFIG(tooltip)
-        self.checkBoxGlobalOptionsRemovesDat.setText(QCoreApplication.translate("MainWindow", u"Also output a DAT of all the removed titles", None))
+        self.checkBoxGlobalOptionsRemovesDat.setText(QCoreApplication.translate("MainWindow", u"Also output a DAT file of all the removed titles", None))
 #if QT_CONFIG(tooltip)
-        self.checkBoxGlobalOptionsKeepRemove.setToolTip(QCoreApplication.translate("MainWindow", u"In addition to the output dat, produce a TXT file\n"
+        self.checkBoxGlobalOptionsKeepRemove.setToolTip(QCoreApplication.translate("MainWindow", u"In addition to the output DAT file, produce a TXT file\n"
 "that lists what titles have been kept, and what\n"
 "titles have been removed", None))
 #endif // QT_CONFIG(tooltip)
         self.checkBoxGlobalOptionsKeepRemove.setText(QCoreApplication.translate("MainWindow", u"Also output lists of what titles have been kept and removed", None))
 #if QT_CONFIG(tooltip)
-        self.checkBoxGlobalOptions1G1RNames.setToolTip(QCoreApplication.translate("MainWindow", u"In addition to the output DAT, produce a TXT file that lists only\n"
-"the name of each 1G1R title, and optionally add a prefix and suffix\n"
-"to each name", None))
+        self.checkBoxGlobalOptions1G1RNames.setToolTip(QCoreApplication.translate("MainWindow", u"In addition to the output DAT file, produce a TXT file that lists only\n"
+"the name of each title in the output DAT file, and optionally add a prefix\n"
+"and suffix to each name", None))
 #endif // QT_CONFIG(tooltip)
-        self.checkBoxGlobalOptions1G1RNames.setText(QCoreApplication.translate("MainWindow", u"Also output a list of just the 1G1R title names", None))
-        self.labelGlobalOptions1G1RPrefix.setText(QCoreApplication.translate("MainWindow", u"Add this text to the start of each title (start with http://, https//, or ftp:// to URL encode each line)", None))
-        self.labelGlobalOptions1G1RSuffix.setText(QCoreApplication.translate("MainWindow", u"Add this text to the end of each title", None))
+        self.checkBoxGlobalOptions1G1RNames.setText(QCoreApplication.translate("MainWindow", u"Also output a list of just the title names from the output DAT file", None))
+        self.labelGlobalOptions1G1RPrefix.setText(QCoreApplication.translate("MainWindow", u"Add text to the start of each title (start with http://, https//, or ftp:// to URL encode)", None))
+        self.labelGlobalOptions1G1RSuffix.setText(QCoreApplication.translate("MainWindow", u"Add text to the end of each title", None))
         self.labelGlobalOptionsDebug.setText(QCoreApplication.translate("MainWindow", u"Debug options", None))
 #if QT_CONFIG(tooltip)
         self.checkBoxGlobalOptionsReportWarnings.setToolTip(QCoreApplication.translate("MainWindow", u"Turn on warnings when there are mismatches\n"
@@ -2126,14 +2198,14 @@ class Ui_MainWindow(object):
         self.checkBoxGlobalOptionsPauseWarnings.setText(QCoreApplication.translate("MainWindow", u"Pause on clone list warnings", None))
 #if QT_CONFIG(tooltip)
         self.checkBoxGlobalOptionsLegacy.setToolTip(QCoreApplication.translate("MainWindow", u"Not recommended unless you're debugging or comparing outputs between\n"
-"DAT versions\n"
+"DAT file versions.\n"
 "\n"
 "If this is disabled, it's because you've disabled 1G1R filtering or\n"
-"chosen to split by region, which isn't compatible with this feature", None))
+"chosen to split by region, which isn't compatible with this option.", None))
 #endif // QT_CONFIG(tooltip)
-        self.checkBoxGlobalOptionsLegacy.setText(QCoreApplication.translate("MainWindow", u"Output DAT in legacy parent/clone format", None))
+        self.checkBoxGlobalOptionsLegacy.setText(QCoreApplication.translate("MainWindow", u"Output DAT file in legacy parent/clone format", None))
 #if QT_CONFIG(tooltip)
-        self.checkBoxGlobalOptionsBypassDTD.setToolTip(QCoreApplication.translate("MainWindow", u"Skips DTD validation of DATs, useful if validation is causing issues", None))
+        self.checkBoxGlobalOptionsBypassDTD.setToolTip(QCoreApplication.translate("MainWindow", u"Skips DTD validation of DAT files, useful if validation is causing issues", None))
 #endif // QT_CONFIG(tooltip)
         self.checkBoxGlobalOptionsBypassDTD.setText(QCoreApplication.translate("MainWindow", u"Bypass DTD validation", None))
 #if QT_CONFIG(tooltip)
@@ -2145,16 +2217,16 @@ class Ui_MainWindow(object):
         self.checkBoxGlobalOptionsTrace.setToolTip(QCoreApplication.translate("MainWindow", u"Follows a title through Retool's selection process for debugging", None))
 #endif // QT_CONFIG(tooltip)
         self.checkBoxGlobalOptionsTrace.setText(QCoreApplication.translate("MainWindow", u"Trace a title through Retool's process (no DAT files are created)", None))
-        self.labelGlobalOptionsTrace.setText(QCoreApplication.translate("MainWindow", u"Enter a regex string to trace", None))
+        self.labelGlobalOptionsTrace.setText(QCoreApplication.translate("MainWindow", u"Enter a regex string to trace (case insensitive)", None))
         self.tabWidgetGlobalSettings.setTabText(self.tabWidgetGlobalSettings.indexOf(self.tabGlobalOptions), QCoreApplication.translate("MainWindow", u"Options", None))
         self.labelGlobalFilterByText.setText(QCoreApplication.translate("MainWindow", u"Filter by text", None))
-        self.labelGlobalFilter.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p>Exclude or include specific titles by adding your own text strings to match against. Each string should be on its own line, and is case sensitive. See the <a href=\"https://www.google.com\"><span style=\" text-decoration: underline; color:#0000ff;\">documentation</span></a> for more information.<br/><br/>\u2022 Plain text indicates a partial string match.<br/>\u2022 A prefix of / indicates a regular expression match.<br/>\u2022 A prefix of | indicates a full string match.<br/>\u2022 Additionally, wrap a string in &lt;&gt; to also remove any match's related clones.</p></body></html>", None))
+        self.labelGlobalFilter.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p>Exclude or include specific titles by adding your own text strings to match against. Each string should be on its own line, and is case sensitive. See the <a href=\"https://unexpectedpanda.github.io/retool/how-to-use-retool-gui/#user-filters\"><span style=\" text-decoration: underline; color:#0000ff;\">documentation</span></a> for more information.<br/><br/>\u2022 Plain text indicates a partial string match.<br/>\u2022 A prefix of / indicates a regular expression match.<br/>\u2022 A prefix of | indicates a full string match.<br/>\u2022 Additionally, wrap a string in &lt;&gt; to also remove any match's related clones.</p></body></html>", None))
         self.labelGlobalFilterInclude.setText(QCoreApplication.translate("MainWindow", u"Include", None))
         self.labelGlobalFilterExclude.setText(QCoreApplication.translate("MainWindow", u"Exclude", None))
         self.tabWidgetGlobalSettings.setTabText(self.tabWidgetGlobalSettings.indexOf(self.tabGlobalUserFilters), QCoreApplication.translate("MainWindow", u"User filters", None))
-        self.labelGlobalSettings.setText(QCoreApplication.translate("MainWindow", u"These settings are applied to every DAT that Retool processes.", None))
+        self.labelGlobalSettings.setText(QCoreApplication.translate("MainWindow", u"These settings are applied to every DAT file that Retool processes.", None))
         self.tabWidgetSettings.setTabText(self.tabWidgetSettings.indexOf(self.tabGlobalSettings), QCoreApplication.translate("MainWindow", u"Global settings", None))
-        self.labelSystemSettings.setText(QCoreApplication.translate("MainWindow", u"Select a system from the filter list to enable system-specific settings.", None))
+        self.labelSystemSettings.setText(QCoreApplication.translate("MainWindow", u"Add a DAT file, then select it in the list to enable system-specific settings.", None))
 #if QT_CONFIG(tooltip)
         self.buttonChooseSystemCloneList.setToolTip(QCoreApplication.translate("MainWindow", u"Choose a custom clone list", None))
 #endif // QT_CONFIG(tooltip)
@@ -2163,7 +2235,7 @@ class Ui_MainWindow(object):
         self.labelSelectSystemCloneList.setText(QCoreApplication.translate("MainWindow", u"Select a custom clone list", None))
         self.labelSystemMetadataFile.setText(QCoreApplication.translate("MainWindow", u"No custom metadata file selected, using default metadata file location", None))
 #if QT_CONFIG(tooltip)
-        self.buttonChooseSystemMetadataFile.setToolTip(QCoreApplication.translate("MainWindow", u"Choose a metadata file", None))
+        self.buttonChooseSystemMetadataFile.setToolTip(QCoreApplication.translate("MainWindow", u"Choose a custom metadata file", None))
 #endif // QT_CONFIG(tooltip)
         self.buttonChooseSystemMetadataFile.setText("")
         self.labelSelectSystemMetadataFile.setText(QCoreApplication.translate("MainWindow", u"Select a custom metadata file", None))
@@ -2173,13 +2245,20 @@ class Ui_MainWindow(object):
         self.buttonChooseSystemOutput.setText("")
         self.labelSystemOutputFolder.setText(QCoreApplication.translate("MainWindow", u"No output folder selected, using global settings", None))
         self.labelSelectSystemOutput.setText(QCoreApplication.translate("MainWindow", u"Select an output folder", None))
+        self.labelSystemCustomFilesAndFolders.setText(QCoreApplication.translate("MainWindow", u"Custom files and folders to use when processing this DAT", None))
+        self.checkBoxSystemOverridePaths.setText(QCoreApplication.translate("MainWindow", u"Override global settings", None))
 #if QT_CONFIG(tooltip)
-        self.buttonClearSystemMetadataFile.setToolTip(QCoreApplication.translate("MainWindow", u"Reset all paths to use default or global settings", None))
+        self.buttonClearSystemMetadataFile.setToolTip(QCoreApplication.translate("MainWindow", u"Use default metadata file", None))
 #endif // QT_CONFIG(tooltip)
         self.buttonClearSystemMetadataFile.setText("")
-        self.labelSystemCustomFilesAndFolders.setText(QCoreApplication.translate("MainWindow", u"Custom files and folders to use when processing this DAT", None))
-        self.checkBoxSystemOverrideCustomFilesAndFolders.setText(QCoreApplication.translate("MainWindow", u"Override global settings", None))
-        self.labelSelectSystemMetadataFile_2.setText(QCoreApplication.translate("MainWindow", u"Reset all paths to use default or global settings", None))
+#if QT_CONFIG(tooltip)
+        self.buttonClearSystemCloneList.setToolTip(QCoreApplication.translate("MainWindow", u"Use default clone list", None))
+#endif // QT_CONFIG(tooltip)
+        self.buttonClearSystemCloneList.setText("")
+#if QT_CONFIG(tooltip)
+        self.buttonClearSystemOutput.setToolTip(QCoreApplication.translate("MainWindow", u"Use global output folder", None))
+#endif // QT_CONFIG(tooltip)
+        self.buttonClearSystemOutput.setText("")
         self.tabWidgetSystemSettings.setTabText(self.tabWidgetSystemSettings.indexOf(self.tabSystemPaths), QCoreApplication.translate("MainWindow", u"Paths", None))
 #if QT_CONFIG(tooltip)
         self.buttonSystemRegionRight.setToolTip(QCoreApplication.translate("MainWindow", u"Move the selected regions to the filter list", None))
@@ -2207,7 +2286,7 @@ class Ui_MainWindow(object):
         self.buttonSystemRegionUp.setText("")
         self.labelSystemFilterByRegions.setText(QCoreApplication.translate("MainWindow", u"Filter by regions (you must add at least one)", None))
         self.labelSystemAvailableRegions.setText(QCoreApplication.translate("MainWindow", u"Available regions", None))
-        self.labelSystemSelectedRegions.setText(QCoreApplication.translate("MainWindow", u"Filter by these regions (order is important)", None))
+        self.labelSystemSelectedRegions.setText(QCoreApplication.translate("MainWindow", u"Filter by this region order", None))
 #if QT_CONFIG(tooltip)
         self.buttonSystemDefaultRegionOrder.setToolTip(QCoreApplication.translate("MainWindow", u"Set a region order that prioritizes English-speaking regions and 60Hz titles", None))
 #endif // QT_CONFIG(tooltip)
@@ -2227,12 +2306,12 @@ class Ui_MainWindow(object):
         self.buttonSystemLanguageLeft.setToolTip(QCoreApplication.translate("MainWindow", u"Move the selected languages to the available list", None))
 #endif // QT_CONFIG(tooltip)
         self.buttonSystemLanguageLeft.setText("")
-        self.labelSystemSelectedLanguages.setText(QCoreApplication.translate("MainWindow", u"Filter by these languages (order is important)", None))
+        self.labelSystemSelectedLanguages.setText(QCoreApplication.translate("MainWindow", u"Filter by this language order", None))
 #if QT_CONFIG(tooltip)
         self.buttonSystemLanguageRight.setToolTip(QCoreApplication.translate("MainWindow", u"Move the selected languages to the filter list", None))
 #endif // QT_CONFIG(tooltip)
         self.buttonSystemLanguageRight.setText("")
-        self.labelSystemFilterByLanguages.setText(QCoreApplication.translate("MainWindow", u"Filter by languages (leave filter list empty to include all languages)", None))
+        self.labelSystemFilterByLanguages.setText(QCoreApplication.translate("MainWindow", u"Filter by languages (an empty filter list includes all languages)", None))
 #if QT_CONFIG(tooltip)
         self.buttonSystemLanguageAllRight.setToolTip(QCoreApplication.translate("MainWindow", u"Move the remaining available languages to the end of the filter list", None))
 #endif // QT_CONFIG(tooltip)
@@ -2243,7 +2322,7 @@ class Ui_MainWindow(object):
         self.buttonSystemLanguageUp.setText("")
         self.checkBoxSystemOverrideLanguages.setText(QCoreApplication.translate("MainWindow", u"Override global settings", None))
         self.tabWidgetSystemSettings.setTabText(self.tabWidgetSystemSettings.indexOf(self.tabSystemLanguages), QCoreApplication.translate("MainWindow", u"Languages", None))
-        self.labelSystemVideoStandardsOrder.setText(QCoreApplication.translate("MainWindow", u"Video standard order (only for titles with a video tag in their name)", None))
+        self.labelSystemVideoStandardsOrder.setText(QCoreApplication.translate("MainWindow", u"Video order", None))
 #if QT_CONFIG(tooltip)
         self.buttonSystemVideoStandardDown.setToolTip(QCoreApplication.translate("MainWindow", u"Move the selected languages down in priority", None))
 #endif // QT_CONFIG(tooltip)
@@ -2252,7 +2331,7 @@ class Ui_MainWindow(object):
         self.buttonSystemVideoStandardUp.setToolTip(QCoreApplication.translate("MainWindow", u"Move the selected languages up in priority", None))
 #endif // QT_CONFIG(tooltip)
         self.buttonSystemVideoStandardUp.setText("")
-        self.labelSystemVideoStandards.setText(QCoreApplication.translate("MainWindow", u"Video standard priority", None))
+        self.labelSystemFilterByVideo.setText(QCoreApplication.translate("MainWindow", u"Set a video priority for titles with a video tag in their name", None))
         self.checkBoxSystemOverrideVideo.setText(QCoreApplication.translate("MainWindow", u"Override global settings", None))
         self.tabWidgetSystemSettings.setTabText(self.tabWidgetSystemSettings.indexOf(self.tabSystemVideo), QCoreApplication.translate("MainWindow", u"Video", None))
 #if QT_CONFIG(tooltip)
@@ -2307,7 +2386,7 @@ class Ui_MainWindow(object):
 #endif // QT_CONFIG(tooltip)
         self.checkBoxSystemExcludeEducational.setText(QCoreApplication.translate("MainWindow", u"Educational", None))
 #if QT_CONFIG(tooltip)
-        self.checkBoxSystemExcludeManuals.setToolTip(QCoreApplication.translate("MainWindow", u"Exclude titles with the \"(Manual)\" in the name", None))
+        self.checkBoxSystemExcludeManuals.setToolTip(QCoreApplication.translate("MainWindow", u"Exclude titles with \"(Manual)\" in the name", None))
 #endif // QT_CONFIG(tooltip)
         self.checkBoxSystemExcludeManuals.setText(QCoreApplication.translate("MainWindow", u"Manuals", None))
 #if QT_CONFIG(tooltip)
@@ -2355,7 +2434,7 @@ class Ui_MainWindow(object):
 #endif // QT_CONFIG(tooltip)
         self.checkBoxSystemExcludeVideo.setText(QCoreApplication.translate("MainWindow", u"Video", None))
 #if QT_CONFIG(tooltip)
-        self.checkBoxSystemExcludeMIA.setToolTip(QCoreApplication.translate("MainWindow", u"Exclude titles declared as missing in action in the clone lists", None))
+        self.checkBoxSystemExcludeMIA.setToolTip(QCoreApplication.translate("MainWindow", u"Titles or ROMs declared as missing in action in the clone lists or DAT files.", None))
 #endif // QT_CONFIG(tooltip)
         self.checkBoxSystemExcludeMIA.setText(QCoreApplication.translate("MainWindow", u"MIA", None))
         self.labelSystemExclude.setText(QCoreApplication.translate("MainWindow", u"Title types to exclude from the output DAT", None))
@@ -2366,7 +2445,7 @@ class Ui_MainWindow(object):
 "\u2022 @barai\n"
 "\u2022 (Demo [1-9])\n"
 "\u2022 (Demo-CD)\n"
-"\u2022 (GameCube Preview\n"
+"\u2022 (GameCube Preview)\n"
 "\u2022 (Kiosk *|* Kiosk)\n"
 "\u2022 (Preview)\n"
 "\u2022 Kiosk Demo Disc\n"
@@ -2376,81 +2455,89 @@ class Ui_MainWindow(object):
 "\u2022 Taikenban\n"
 "\u2022 Trial Edition", None))
 #endif // QT_CONFIG(tooltip)
-        self.checkBoxSystemExcludeDemos.setText(QCoreApplication.translate("MainWindow", u"Demos, Kiosks, and samples", None))
+        self.checkBoxSystemExcludeDemos.setText(QCoreApplication.translate("MainWindow", u"Demos, kiosks, and samples", None))
         self.buttonSystemSelectAllExclude.setText(QCoreApplication.translate("MainWindow", u"Select all", None))
         self.buttonSystemDeselectAllExclude.setText(QCoreApplication.translate("MainWindow", u"Deselect all", None))
         self.checkBoxSystemOverrideExclusions.setText(QCoreApplication.translate("MainWindow", u"Override global settings", None))
         self.tabWidgetSystemSettings.setTabText(self.tabWidgetSystemSettings.indexOf(self.tabSystemExclusions), QCoreApplication.translate("MainWindow", u"Exclusions", None))
         self.labelSystemOptionsTitle.setText(QCoreApplication.translate("MainWindow", u"Title options", None))
 #if QT_CONFIG(tooltip)
-        self.checkBoxSystemOptionsDisable1G1R.setToolTip(QCoreApplication.translate("MainWindow", u"Ignore clone lists, and treat each title as unique\n"
+        self.checkBoxSystemOptionsDisable1G1R.setToolTip(QCoreApplication.translate("MainWindow", u"Ignore clone lists, and treat each title as unique. Useful if you\n"
+"want to keep everything from a specific set of regions and/or\n"
+"languages.\n"
 "\n"
-"Useful if you want to keep everything from a specific set of regions\n"
-"and/or languages\n"
-"\n"
-"If this is disabled, it's because you've enabled legacy mode output,\n"
-"which isn't compatible with this feature", None))
+"If this is disabled, it's because you've enabled \"Output DAT file in legacy\n"
+"parent/clone format\", which isn't compatible with this option.", None))
 #endif // QT_CONFIG(tooltip)
         self.checkBoxSystemOptionsDisable1G1R.setText(QCoreApplication.translate("MainWindow", u"Disable 1G1R filtering", None))
 #if QT_CONFIG(tooltip)
-        self.checkBoxSystemOptionsPreferRegions.setToolTip(QCoreApplication.translate("MainWindow", u"By default, if a title from a higher priority region doesn't support your preferred\n"
-"languages but a lower priority region does, Retool selects the latter. This\n"
-"option disables this behavior, forcing strict adherence to region priority\n"
-"regardless of language support.", None))
+        self.checkBoxSystemOptionsPreferRegions.setToolTip(QCoreApplication.translate("MainWindow", u"By default, if a title from a higher priority region doesn't support\n"
+"your preferred languages but a lower priority region does, Retool\n"
+"selects the latter. This option disables this behavior, forcing\n"
+"strict adherence to region priority regardless of language support.\n"
+"\n"
+"This option also overrides similar behavior in superset selection,\n"
+"which means you might get a title that was released in your\n"
+"preferred region that has less content, instead of one that was\n"
+"released in another region that contains more content and supports\n"
+"your preferred languages.", None))
 #endif // QT_CONFIG(tooltip)
         self.checkBoxSystemOptionsPreferRegions.setText(QCoreApplication.translate("MainWindow", u"Prefer regions over languages", None))
 #if QT_CONFIG(tooltip)
-        self.checkBoxSystemOptionsIncludeHashless.setToolTip(QCoreApplication.translate("MainWindow", u"Some DATs don't list any hashes or sizes for some files, and Retool\n"
-"filters these out by default\n"
-"\n"
-"This option makes sure those files are kept", None))
+        self.checkBoxSystemOptionsIncludeHashless.setToolTip(QCoreApplication.translate("MainWindow", u"Some DAT files don't list any hashes or sizes for some files, and Retool\n"
+"filters these out by default. This option makes sure those files are kept.", None))
 #endif // QT_CONFIG(tooltip)
-        self.checkBoxSystemOptionsIncludeHashless.setText(QCoreApplication.translate("MainWindow", u"Include titles without hashes or sizes specified in the input DAT", None))
+        self.checkBoxSystemOptionsIncludeHashless.setText(QCoreApplication.translate("MainWindow", u"Include titles without hashes or sizes specified in the input DAT file", None))
 #if QT_CONFIG(tooltip)
-        self.checkBoxSystemOptionsModernPlatforms.setToolTip(QCoreApplication.translate("MainWindow", u"For the sake of emulator compatibility, Retool prefers original versions\n"
-"of games over versions ripped from rereleases on platforms like\n"
-"Virtual Console and Steam\n"
-"\n"
-"This option reverses that behavior", None))
+        self.checkBoxSystemOptionsModernPlatforms.setToolTip(QCoreApplication.translate("MainWindow", u"For the sake of emulator compatibility, Retool prefers versions of\n"
+"games released on the original system instead of those ripped from\n"
+"rereleases on platforms like Virtual Console and Steam. This option\n"
+"reverses that behavior.", None))
 #endif // QT_CONFIG(tooltip)
-        self.checkBoxSystemOptionsModernPlatforms.setText(QCoreApplication.translate("MainWindow", u"Titles ripped from modern platform rereleases replace standard\n"
-"editions", None))
+        self.checkBoxSystemOptionsModernPlatforms.setText(QCoreApplication.translate("MainWindow", u"Prefer titles ripped from modern rereleases over original system releases", None))
 #if QT_CONFIG(tooltip)
-        self.checkBoxSystemOptionsDemoteUnlicensed.setToolTip(QCoreApplication.translate("MainWindow", u"Enabling this option might select titles with lower priority languages, or less features", None))
+        self.checkBoxSystemOptionsDemoteUnlicensed.setToolTip(QCoreApplication.translate("MainWindow", u"Sometimes games are rereleased long after the lifespan of a console,\n"
+"in regions they weren't originally available in. By default Retool\n"
+"selects these titles if they match your preferred region/language\n"
+"priorities.\n"
+"\n"
+"Enable this option to choose a production version of a title over\n"
+"the unlicensed/aftermarket/homebrew title if possible. This might\n"
+"select titles from a lower priority region, or with lower priority\n"
+"languages, or with less features.", None))
 #endif // QT_CONFIG(tooltip)
-        self.checkBoxSystemOptionsDemoteUnlicensed.setText(QCoreApplication.translate("MainWindow", u"Demote unlicensed, aftermarket, or homebrew titles if\n"
-"production versions are found in another region", None))
+        self.checkBoxSystemOptionsDemoteUnlicensed.setText(QCoreApplication.translate("MainWindow", u"Prefer licensed versions over unlicensed, aftermarket, or homebrew titles", None))
 #if QT_CONFIG(tooltip)
         self.checkBoxSystemOptionsDisableFilters.setToolTip(QCoreApplication.translate("MainWindow", u"Ignore both global and system user filters", None))
 #endif // QT_CONFIG(tooltip)
         self.checkBoxSystemOptionsDisableFilters.setText(QCoreApplication.translate("MainWindow", u"Disable global and system user filters", None))
         self.labelSystemOptionsOutput.setText(QCoreApplication.translate("MainWindow", u"Output options", None))
 #if QT_CONFIG(tooltip)
-        self.checkBoxSystemOptionsSplitRegions.setToolTip(QCoreApplication.translate("MainWindow", u"Instead of one DAT containing all the filtered results, split into\n"
-"multiple DATs based on the regions you've selected\n"
+        self.checkBoxSystemOptionsSplitRegions.setToolTip(QCoreApplication.translate("MainWindow", u"Instead of one output DAT file containing all the filtered results, split\n"
+"the output into multiple DAT files based on the regions you've selected.\n"
 "\n"
-"If this is disabled, it's because you've enabled legacy mode output,\n"
-"which isn't compatible with this feature", None))
+"If this is disabled, it's because you've enabled \"Output DAT files in legacy\n"
+"parent/clone format\", which isn't compatible with this option.", None))
 #endif // QT_CONFIG(tooltip)
-        self.checkBoxSystemOptionsSplitRegions.setText(QCoreApplication.translate("MainWindow", u"Split the output into multiple DATs based on region", None))
+        self.checkBoxSystemOptionsSplitRegions.setText(QCoreApplication.translate("MainWindow", u"Split the output into multiple DAT files based on region", None))
 #if QT_CONFIG(tooltip)
-        self.checkBoxSystemOptionsRemovesDat.setToolTip(QCoreApplication.translate("MainWindow", u"In addition to the output DAT, create another DAT containing the titles Retool removed", None))
+        self.checkBoxSystemOptionsRemovesDat.setToolTip(QCoreApplication.translate("MainWindow", u"In addition to the output DAT file, create another DAT file containing the titles Retool removed", None))
 #endif // QT_CONFIG(tooltip)
-        self.checkBoxSystemOptionsRemovesDat.setText(QCoreApplication.translate("MainWindow", u"Also output a DAT of all the removed titles", None))
+        self.checkBoxSystemOptionsRemovesDat.setText(QCoreApplication.translate("MainWindow", u"Also output a DAT file of all the removed titles", None))
 #if QT_CONFIG(tooltip)
-        self.checkBoxSystemOptionsKeepRemove.setToolTip(QCoreApplication.translate("MainWindow", u"In addition to the output dat, produce a TXT file\n"
+        self.checkBoxSystemOptionsKeepRemove.setToolTip(QCoreApplication.translate("MainWindow", u"In addition to the output DAT file, produce a TXT file\n"
 "that lists what titles have been kept, and what\n"
 "titles have been removed", None))
 #endif // QT_CONFIG(tooltip)
         self.checkBoxSystemOptionsKeepRemove.setText(QCoreApplication.translate("MainWindow", u"Also output lists of what titles have been kept and removed", None))
 #if QT_CONFIG(tooltip)
-        self.checkBoxSystemOptions1G1RNames.setToolTip(QCoreApplication.translate("MainWindow", u"In addition to the output DAT, produce a TXT file that lists only\n"
-"the name of each 1G1R title, and optionally add a prefix\n"
+        self.checkBoxSystemOptions1G1RNames.setToolTip(QCoreApplication.translate("MainWindow", u"In addition to the output DAT file, produce a TXT file that lists only\n"
+"the name of each title in the output DAT file, and optionally add a prefix\n"
 "and suffix to each name", None))
 #endif // QT_CONFIG(tooltip)
-        self.checkBoxSystemOptions1G1RNames.setText(QCoreApplication.translate("MainWindow", u"Also output a list of just the 1G1R title names", None))
-        self.labelSystemOptions1G1RPrefix.setText(QCoreApplication.translate("MainWindow", u"Add this text to the start of each title (start with http://, https//, or ftp:// to URL encode each line)", None))
-        self.labelSystemOptions1G1RSuffix.setText(QCoreApplication.translate("MainWindow", u"Add this text to the end of each title", None))
+        self.checkBoxSystemOptions1G1RNames.setText(QCoreApplication.translate("MainWindow", u"Also output a list of just the title names from the output DAT file", None))
+        self.labelSystemOptions1G1RPrefix.setText(QCoreApplication.translate("MainWindow", u"Add text to the start of each title (start with http://, https//, or ftp:// to URL encode each line)", None))
+        self.labelSystemOptions1G1RSuffix.setText(QCoreApplication.translate("MainWindow", u"Add text to the end of each title", None))
         self.labelSystemOptionsDebug.setText(QCoreApplication.translate("MainWindow", u"Debug options", None))
 #if QT_CONFIG(tooltip)
         self.checkBoxSystemOptionsReportWarnings.setToolTip(QCoreApplication.translate("MainWindow", u"Turn on warnings when there are mismatches between\n"
@@ -2462,15 +2549,15 @@ class Ui_MainWindow(object):
 #endif // QT_CONFIG(tooltip)
         self.checkBoxSystemOptionsPauseWarnings.setText(QCoreApplication.translate("MainWindow", u"Pause on clone list warnings", None))
 #if QT_CONFIG(tooltip)
-        self.checkBoxSystemOptionsLegacy.setToolTip(QCoreApplication.translate("MainWindow", u"Not recommended unless you're debugging or comparing outputs\n"
-"between DAT versions\n"
+        self.checkBoxSystemOptionsLegacy.setToolTip(QCoreApplication.translate("MainWindow", u"Not recommended unless you're debugging or comparing outputs between\n"
+"DAT file versions.\n"
 "\n"
-"If this is disabled, it's because you've disabled 1G1R filtering or chosen\n"
-"to split by region, which isn't compatible with this feature", None))
+"If this is disabled, it's because you've disabled 1G1R filtering or\n"
+"chosen to split by region, which isn't compatible with this option.", None))
 #endif // QT_CONFIG(tooltip)
-        self.checkBoxSystemOptionsLegacy.setText(QCoreApplication.translate("MainWindow", u"Output DAT in legacy parent/clone format", None))
+        self.checkBoxSystemOptionsLegacy.setText(QCoreApplication.translate("MainWindow", u"Output DAT file in legacy parent/clone format", None))
 #if QT_CONFIG(tooltip)
-        self.checkBoxSystemOptionsBypassDTD.setToolTip(QCoreApplication.translate("MainWindow", u"Skips DTD validation of DATs, useful if validation is causing issues", None))
+        self.checkBoxSystemOptionsBypassDTD.setToolTip(QCoreApplication.translate("MainWindow", u"Skips DTD validation of DAT files, useful if validation is causing issues", None))
 #endif // QT_CONFIG(tooltip)
         self.checkBoxSystemOptionsBypassDTD.setText(QCoreApplication.translate("MainWindow", u"Bypass DTD validation", None))
 #if QT_CONFIG(tooltip)
@@ -2481,26 +2568,26 @@ class Ui_MainWindow(object):
         self.checkBoxSystemOptionsTrace.setToolTip(QCoreApplication.translate("MainWindow", u"Follows a title through Retool's selection process for debugging", None))
 #endif // QT_CONFIG(tooltip)
         self.checkBoxSystemOptionsTrace.setText(QCoreApplication.translate("MainWindow", u"Trace a title through Retool's process (no DAT files are created)", None))
-        self.labelSystemOptionsTrace.setText(QCoreApplication.translate("MainWindow", u"Enter a regex string to trace", None))
+        self.labelSystemOptionsTrace.setText(QCoreApplication.translate("MainWindow", u"Enter a regex string to trace (case insensitive)", None))
         self.labelSystemOptions.setText(QCoreApplication.translate("MainWindow", u"System options", None))
         self.checkBoxSystemOverrideOptions.setText(QCoreApplication.translate("MainWindow", u"Override global settings", None))
         self.tabWidgetSystemSettings.setTabText(self.tabWidgetSystemSettings.indexOf(self.tabSystemOptions), QCoreApplication.translate("MainWindow", u"Options", None))
         self.labelSystemFilterByText.setText(QCoreApplication.translate("MainWindow", u"Filter by text", None))
-        self.labelSystemFilter.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p>Exclude or include specific titles by adding your own text strings to match against. Each string should be on its own line, and is case sensitive. See the <a href=\"https://www.google.com\"><span style=\" text-decoration: underline; color:#0000ff;\">documentation</span></a> for more information.<br/><br/>\u2022 Plain text indicates a partial string match.<br/>\u2022 A prefix of / indicates a regular expression match.<br/>\u2022 A prefix of | indicates a full string match.<br/>\u2022 Additionally, wrap a string in &lt;&gt; to also remove any match's related clones.</p></body></html>", None))
+        self.labelSystemFilter.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p>Exclude or include specific titles by adding your own text strings to match against. Each string should be on its own line, and is case sensitive. See the <a href=\"https://unexpectedpanda.github.io/retool/how-to-use-retool-gui/#user-filters\"><span style=\" text-decoration: underline; color:#0000ff;\">documentation</span></a> for more information.<br/><br/>\u2022 Plain text indicates a partial string match.<br/>\u2022 A prefix of / indicates a regular expression match.<br/>\u2022 A prefix of | indicates a full string match.<br/>\u2022 Additionally, wrap a string in &lt;&gt; to also remove any match's related clones.</p></body></html>", None))
         self.labelSystemFilterInclude.setText(QCoreApplication.translate("MainWindow", u"Include", None))
         self.labelSystemFilterExclude.setText(QCoreApplication.translate("MainWindow", u"Exclude", None))
         self.tabWidgetSystemSettings.setTabText(self.tabWidgetSystemSettings.indexOf(self.tabSystemUserFilters), QCoreApplication.translate("MainWindow", u"User filters", None))
         self.tabWidgetSettings.setTabText(self.tabWidgetSettings.indexOf(self.tabSystemSettings), QCoreApplication.translate("MainWindow", u"System settings", None))
 #if QT_CONFIG(tooltip)
-        self.buttonAddFolder.setToolTip(QCoreApplication.translate("MainWindow", u"Add a folder of DATs to the list", None))
+        self.buttonAddFolder.setToolTip(QCoreApplication.translate("MainWindow", u"Add a folder of DAT files to the list", None))
 #endif // QT_CONFIG(tooltip)
         self.buttonAddFolder.setText("")
 #if QT_CONFIG(tooltip)
-        self.buttonAddFolderRecursive.setToolTip(QCoreApplication.translate("MainWindow", u"Add a folder of DATs recursively to the list", None))
+        self.buttonAddFolderRecursive.setToolTip(QCoreApplication.translate("MainWindow", u"Add a folder of DAT files recursively to the list", None))
 #endif // QT_CONFIG(tooltip)
         self.buttonAddFolderRecursive.setText("")
 #if QT_CONFIG(tooltip)
-        self.buttonClearDats.setToolTip(QCoreApplication.translate("MainWindow", u"Remove all DATs from the list", None))
+        self.buttonClearDats.setToolTip(QCoreApplication.translate("MainWindow", u"Remove all DAT files from the list", None))
 #endif // QT_CONFIG(tooltip)
         self.buttonClearDats.setText("")
         self.labelSelectInput.setText(QCoreApplication.translate("MainWindow", u"Add DAT files that you want to filter", None))
@@ -2510,11 +2597,11 @@ class Ui_MainWindow(object):
         self.buttonChooseOutput.setText("")
         self.labelChooseYourSettings.setText(QCoreApplication.translate("MainWindow", u"Choose your settings", None))
 #if QT_CONFIG(tooltip)
-        self.buttonAddDats.setToolTip(QCoreApplication.translate("MainWindow", u"Add DATs to the list", None))
+        self.buttonAddDats.setToolTip(QCoreApplication.translate("MainWindow", u"Add DAT files to the list", None))
 #endif // QT_CONFIG(tooltip)
         self.buttonAddDats.setText("")
 #if QT_CONFIG(tooltip)
-        self.buttonDeleteDats.setToolTip(QCoreApplication.translate("MainWindow", u"Remove selected DATs from the list", None))
+        self.buttonDeleteDats.setToolTip(QCoreApplication.translate("MainWindow", u"Remove selected DAT files from the list", None))
 #endif // QT_CONFIG(tooltip)
         self.buttonDeleteDats.setText("")
         self.labelOutputFolder.setText(QCoreApplication.translate("MainWindow", u"No output folder selected", None))

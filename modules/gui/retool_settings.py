@@ -3,7 +3,7 @@
 ################################################################################
 ## Form generated from reading UI file 'retool-settings.ui'
 ##
-## Created by: Qt User Interface Compiler version 6.4.1
+## Created by: Qt User Interface Compiler version 6.4.2
 ##
 ## WARNING! All changes made in this file will be lost when recompiling UI file!
 ################################################################################
@@ -24,14 +24,16 @@ class Ui_Settings(object):
     def setupUi(self, Settings):
         if not Settings.objectName():
             Settings.setObjectName(u"Settings")
-        Settings.resize(601, 360)
+        Settings.resize(604, 360)
         sizePolicy = QSizePolicy(QSizePolicy.Fixed, QSizePolicy.Fixed)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(Settings.sizePolicy().hasHeightForWidth())
         Settings.setSizePolicy(sizePolicy)
-        Settings.setMinimumSize(QSize(601, 360))
-        Settings.setMaximumSize(QSize(601, 360))
+        Settings.setMinimumSize(QSize(604, 360))
+        Settings.setMaximumSize(QSize(604, 360))
+        Settings.setAutoFillBackground(False)
+        Settings.setLocale(QLocale(QLocale.English, QLocale.UnitedStates))
         self.gridLayoutWidget = QWidget(Settings)
         self.gridLayoutWidget.setObjectName(u"gridLayoutWidget")
         self.gridLayoutWidget.setGeometry(QRect(-1, -1, 601, 361))
@@ -47,6 +49,7 @@ class Ui_Settings(object):
         font.setFamilies([u"Segoe UI"])
         font.setBold(False)
         self.labelCloneListMetadataDownloadURL.setFont(font)
+        self.labelCloneListMetadataDownloadURL.setLocale(QLocale(QLocale.English, QLocale.UnitedStates))
 
         self.gridLayout.addWidget(self.labelCloneListMetadataDownloadURL, 8, 0, 1, 1)
 
@@ -54,8 +57,10 @@ class Ui_Settings(object):
         self.frameCloneListsLocation.setObjectName(u"frameCloneListsLocation")
         self.frameCloneListsLocation.setMinimumSize(QSize(0, 41))
         self.frameCloneListsLocation.setMaximumSize(QSize(16777215, 41))
-        self.frameCloneListsLocation.setFrameShape(QFrame.StyledPanel)
-        self.frameCloneListsLocation.setFrameShadow(QFrame.Raised)
+        self.frameCloneListsLocation.setLocale(QLocale(QLocale.English, QLocale.UnitedStates))
+        self.frameCloneListsLocation.setFrameShape(QFrame.NoFrame)
+        self.frameCloneListsLocation.setFrameShadow(QFrame.Plain)
+        self.frameCloneListsLocation.setLineWidth(0)
         self.buttonChooseCloneListsLocation = QPushButton(self.frameCloneListsLocation)
         self.buttonChooseCloneListsLocation.setObjectName(u"buttonChooseCloneListsLocation")
         self.buttonChooseCloneListsLocation.setGeometry(QRect(0, 0, 41, 41))
@@ -104,6 +109,7 @@ class Ui_Settings(object):
         font3.setFamilies([u"Segoe UI"])
         font3.setBold(True)
         self.labelPaths.setFont(font3)
+        self.labelPaths.setLocale(QLocale(QLocale.English, QLocale.UnitedStates))
         self.labelPaths.setTextInteractionFlags(Qt.NoTextInteraction)
 
         self.gridLayout.addWidget(self.labelPaths, 1, 0, 1, 1)
@@ -113,6 +119,7 @@ class Ui_Settings(object):
         self.labelDownloadLocations.setMinimumSize(QSize(0, 18))
         self.labelDownloadLocations.setMaximumSize(QSize(16777215, 18))
         self.labelDownloadLocations.setFont(font3)
+        self.labelDownloadLocations.setLocale(QLocale(QLocale.English, QLocale.UnitedStates))
         self.labelDownloadLocations.setTextInteractionFlags(Qt.NoTextInteraction)
 
         self.gridLayout.addWidget(self.labelDownloadLocations, 6, 0, 1, 1)
@@ -130,6 +137,7 @@ class Ui_Settings(object):
         palette1.setBrush(QPalette.Inactive, QPalette.WindowText, brush3)
         palette1.setBrush(QPalette.Disabled, QPalette.WindowText, brush2)
         self.lineDownloadLocations.setPalette(palette1)
+        self.lineDownloadLocations.setLocale(QLocale(QLocale.English, QLocale.UnitedStates))
         self.lineDownloadLocations.setFrameShadow(QFrame.Plain)
         self.lineDownloadLocations.setFrameShape(QFrame.HLine)
 
@@ -142,6 +150,7 @@ class Ui_Settings(object):
         palette2.setBrush(QPalette.Inactive, QPalette.WindowText, brush3)
         palette2.setBrush(QPalette.Disabled, QPalette.WindowText, brush2)
         self.linePaths.setPalette(palette2)
+        self.linePaths.setLocale(QLocale(QLocale.English, QLocale.UnitedStates))
         self.linePaths.setFrameShadow(QFrame.Plain)
         self.linePaths.setFrameShape(QFrame.HLine)
 
@@ -151,11 +160,12 @@ class Ui_Settings(object):
         self.frameResetButton.setObjectName(u"frameResetButton")
         self.frameResetButton.setMinimumSize(QSize(0, 25))
         self.frameResetButton.setMaximumSize(QSize(16777215, 25))
+        self.frameResetButton.setLocale(QLocale(QLocale.English, QLocale.UnitedStates))
         self.frameResetButton.setFrameShape(QFrame.NoFrame)
         self.frameResetButton.setFrameShadow(QFrame.Plain)
         self.pushButtonReset = QPushButton(self.frameResetButton)
         self.pushButtonReset.setObjectName(u"pushButtonReset")
-        self.pushButtonReset.setGeometry(QRect(547, 0, 25, 25))
+        self.pushButtonReset.setGeometry(QRect(546, 0, 25, 25))
         sizePolicy1 = QSizePolicy(QSizePolicy.Fixed, QSizePolicy.Preferred)
         sizePolicy1.setHorizontalStretch(0)
         sizePolicy1.setVerticalStretch(0)
@@ -168,19 +178,19 @@ class Ui_Settings(object):
         icon1.addFile(u":/retoolFiles/images/icons8-restart-80.png", QSize(), QIcon.Normal, QIcon.Off)
         self.pushButtonReset.setIcon(icon1)
         self.pushButtonReset.setAutoDefault(False)
-        self.labelContribute = QLabel(self.frameResetButton)
-        self.labelContribute.setObjectName(u"labelContribute")
-        self.labelContribute.setGeometry(QRect(0, 0, 381, 18))
-        self.labelContribute.setMinimumSize(QSize(0, 18))
-        self.labelContribute.setMaximumSize(QSize(16777215, 18))
+        self.labelSettingsSaved = QLabel(self.frameResetButton)
+        self.labelSettingsSaved.setObjectName(u"labelSettingsSaved")
+        self.labelSettingsSaved.setGeometry(QRect(0, 0, 381, 18))
+        self.labelSettingsSaved.setMinimumSize(QSize(0, 18))
+        self.labelSettingsSaved.setMaximumSize(QSize(16777215, 18))
         font4 = QFont()
         font4.setFamilies([u"Segoe UI"])
-        self.labelContribute.setFont(font4)
-        self.labelContribute.setScaledContents(False)
-        self.labelContribute.setAlignment(Qt.AlignLeading|Qt.AlignLeft|Qt.AlignTop)
-        self.labelContribute.setWordWrap(True)
-        self.labelContribute.setOpenExternalLinks(True)
-        self.labelContribute.setTextInteractionFlags(Qt.LinksAccessibleByKeyboard|Qt.LinksAccessibleByMouse)
+        self.labelSettingsSaved.setFont(font4)
+        self.labelSettingsSaved.setScaledContents(False)
+        self.labelSettingsSaved.setAlignment(Qt.AlignLeading|Qt.AlignLeft|Qt.AlignTop)
+        self.labelSettingsSaved.setWordWrap(True)
+        self.labelSettingsSaved.setOpenExternalLinks(True)
+        self.labelSettingsSaved.setTextInteractionFlags(Qt.LinksAccessibleByKeyboard|Qt.LinksAccessibleByMouse)
 
         self.gridLayout.addWidget(self.frameResetButton, 0, 0, 1, 1)
 
@@ -188,8 +198,10 @@ class Ui_Settings(object):
         self.frameMetadataLocation.setObjectName(u"frameMetadataLocation")
         self.frameMetadataLocation.setMinimumSize(QSize(0, 41))
         self.frameMetadataLocation.setMaximumSize(QSize(16777215, 41))
-        self.frameMetadataLocation.setFrameShape(QFrame.StyledPanel)
-        self.frameMetadataLocation.setFrameShadow(QFrame.Raised)
+        self.frameMetadataLocation.setLocale(QLocale(QLocale.English, QLocale.UnitedStates))
+        self.frameMetadataLocation.setFrameShape(QFrame.NoFrame)
+        self.frameMetadataLocation.setFrameShadow(QFrame.Plain)
+        self.frameMetadataLocation.setLineWidth(0)
         self.buttonChooseMetadataLocation = QPushButton(self.frameMetadataLocation)
         self.buttonChooseMetadataLocation.setObjectName(u"buttonChooseMetadataLocation")
         self.buttonChooseMetadataLocation.setGeometry(QRect(0, 0, 41, 41))
@@ -201,6 +213,7 @@ class Ui_Settings(object):
         self.labelSelectMetadataLocation.setObjectName(u"labelSelectMetadataLocation")
         self.labelSelectMetadataLocation.setGeometry(QRect(50, 0, 531, 22))
         self.labelSelectMetadataLocation.setFont(font)
+        self.labelSelectMetadataLocation.setLocale(QLocale(QLocale.English, QLocale.UnitedStates))
         self.labelMetadataLocation = QLabel(self.frameMetadataLocation)
         self.labelMetadataLocation.setObjectName(u"labelMetadataLocation")
         self.labelMetadataLocation.setGeometry(QRect(50, 20, 531, 20))
@@ -213,6 +226,7 @@ class Ui_Settings(object):
         palette3.setBrush(QPalette.Disabled, QPalette.Text, brush2)
         self.labelMetadataLocation.setPalette(palette3)
         self.labelMetadataLocation.setFont(font2)
+        self.labelMetadataLocation.setLocale(QLocale(QLocale.English, QLocale.UnitedStates))
 
         self.gridLayout.addWidget(self.frameMetadataLocation, 4, 0, 1, 1)
 
@@ -220,6 +234,7 @@ class Ui_Settings(object):
         self.frameCloneListMetadataDownloadLocation.setObjectName(u"frameCloneListMetadataDownloadLocation")
         self.frameCloneListMetadataDownloadLocation.setMinimumSize(QSize(0, 24))
         self.frameCloneListMetadataDownloadLocation.setMaximumSize(QSize(16777215, 24))
+        self.frameCloneListMetadataDownloadLocation.setLocale(QLocale(QLocale.English, QLocale.UnitedStates))
         self.frameCloneListMetadataDownloadLocation.setFrameShape(QFrame.StyledPanel)
         self.frameCloneListMetadataDownloadLocation.setFrameShadow(QFrame.Raised)
         self.lineEditCloneListDownloadLocation = QLineEdit(self.frameCloneListMetadataDownloadLocation)
@@ -242,6 +257,7 @@ class Ui_Settings(object):
         palette4.setBrush(QPalette.Inactive, QPalette.WindowText, brush1)
         palette4.setBrush(QPalette.Disabled, QPalette.WindowText, brush2)
         self.labelURLError.setPalette(palette4)
+        self.labelURLError.setLocale(QLocale(QLocale.English, QLocale.UnitedStates))
 
         self.retranslateUi(Settings)
 
@@ -263,7 +279,7 @@ class Ui_Settings(object):
         self.pushButtonReset.setToolTip(QCoreApplication.translate("Settings", u"Reset all settings to default", None))
 #endif // QT_CONFIG(tooltip)
         self.pushButtonReset.setText("")
-        self.labelContribute.setText(QCoreApplication.translate("Settings", u"<html><head/><body><p>Settings are saved automatically.</p></body></html>", None))
+        self.labelSettingsSaved.setText(QCoreApplication.translate("Settings", u"<html><head/><body><p>Settings are saved automatically.</p></body></html>", None))
 #if QT_CONFIG(tooltip)
         self.buttonChooseMetadataLocation.setToolTip(QCoreApplication.translate("Settings", u"Choose where the metadata folder is located", None))
 #endif // QT_CONFIG(tooltip)

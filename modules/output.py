@@ -40,8 +40,15 @@ class WriteFiles(object):
 
         timestamp: str = datetime.datetime.now().strftime("%Y-%m-%d %H-%M-%S")
 
+        # Check if a system config is in play
+        region_order: list[str] = config.region_order_user
+
+        if config.system_region_order_user:
+            if {'override': 'true'} in config.system_region_order_user:
+                region_order = [str(x) for x in config.system_region_order_user if 'override' not in x]
+
         if config.user_input.output_region_split:
-            for region in config.region_order_user:
+            for region in region_order:
                 region_processed_titles: dict[str, list[DatNode]] = {}
 
                 for group in processed_titles:
@@ -84,7 +91,7 @@ class WriteFiles(object):
             # Write the DAT/s
             if removed_titles:
                 if config.user_input.output_region_split:
-                    for region in config.region_order_user:
+                    for region in region_order:
                         region_removed_titles: dict[str, list[DatNode]] = {}
 
                         for group in removed_titles:
@@ -107,7 +114,7 @@ class WriteFiles(object):
 
 
     @staticmethod
-    def write_dat(processed_titles: dict[str, list[DatNode]], config: Config, input_dat: Dat, timestamp:str, output_file_removes: str = '', output_file_region: str = '') -> None:
+    def write_dat(processed_titles: dict[str, list[DatNode]], config: Config, input_dat: Dat, timestamp: str, output_file_removes: str = '', output_file_region: str = '') -> None:
         """ Writes DAT files. Additionally writes the output for `--listnames` if the user
         has requested it, which contains the names of the titles which have been kept,
         and optionally a user-defined prefix and suffix.
@@ -264,46 +271,76 @@ class WriteFiles(object):
         for directive in input_dat.dat_manager_directives:
             rom_header.append(f'\t\t{directive.strip()}\n')
 
-        rom_header_str: str = ''.join(sorted(rom_header))
-
         dtd_line: str = ''
 
         if input_dat.is_dtd:
-            dtd_line = '<!DOCTYPE datafile PUBLIC "-//Logiqx//DTD ROM Management Datafile//EN" "https://raw.githubusercontent.com/unexpectedpanda/retool/main/datafile.dtd">\n'
+            dtd_line = '<!DOCTYPE datafile PUBLIC "-//Logiqx//DTD ROM Management Datafile//EN" "https://raw.githubusercontent.com/unexpectedpanda/retool-clonelists-metadata/main/datafile.dtd">'
 
-        final_xml.append(
-            '<?xml version="1.0"?>\n'
-            f'{dtd_line}'
-            f'{input_dat.datafile_tag}\n'
-            '\t<header>\n'
-            f'\t\t<name>{html.escape(input_dat.name, quote=False)} (Retool){output_file_region}{output_file_removes}</name>\n'
-            f'\t\t<description>{html.escape(input_dat.name, quote=False)} ({str("{:,}".format(config.stats.file_count))}){config.user_input.user_options}{excludes} ({input_dat.version}) (Retool {config.version_major}.{config.version_minor}){output_file_region}{output_file_removes}</description>\n'
-            f'\t\t<version>{html.escape(input_dat.version, quote=False)}</version>\n'
-            f'\t\t<date>{timestamp}</date>\n'
-            f'\t\t<author>{input_dat.author}</author>\n'
-            '\t\t<homepage>http://www.github.com/unexpectedpanda/retool</homepage>\n'
-            f'\t\t<url>{html.escape(input_dat.url, quote=False)}</url>\n'
-            f'{rom_header_str}')
+        final_xml.append('<?xml version="1.0"?>\n')
+
+        if dtd_line:
+            final_xml.append(f'{dtd_line}\n')
+
+        if input_dat.datafile_tag:
+            final_xml.append(f'{input_dat.datafile_tag}\n')
+
+        final_xml.extend(
+            [
+            '\t<header>\n',
+            f'\t\t<name>{html.escape(input_dat.name, quote=False)} (Retool){output_file_region}{output_file_removes}</name>\n',
+            f'\t\t<description>{html.escape(input_dat.name, quote=False)} ({str("{:,}".format(config.stats.file_count))}){config.user_input.user_options}{excludes} ({input_dat.version}) (Retool {config.version_major}.{config.version_minor}){output_file_region}{output_file_removes}</description>\n',
+            f'\t\t<version>{html.escape(input_dat.version, quote=False)}</version>\n',
+            f'\t\t<date>{timestamp}</date>\n',
+            f'\t\t<author>{input_dat.author}</author>\n',
+            '\t\t<homepage>http://www.github.com/unexpectedpanda/retool</homepage>\n',
+            f'\t\t<url>{html.escape(input_dat.url, quote=False)}</url>\n'])
+
+        if rom_header:
+            final_xml.extend(rom_header)
 
         final_xml.append('\t</header>\n')
 
         final_xml.extend(dat_xml)
 
+        # Check if the user has set a system output folder
         input_dat.output_filename = f'{config.user_input.output_folder_name}/{input_dat.name} ({input_dat.version}) (Retool {timestamp}){output_file_region}{output_file_removes} ({str("{:,}".format(config.stats.file_count))}){config.user_input.user_options}{excludes}.dat'
+
+        if {'override': 'true'} in config.system_user_path_settings:
+            if config.system_output:
+                input_dat.output_filename = f'{str(pathlib.Path(config.system_output))}/{input_dat.name} ({input_dat.version}) (Retool {timestamp}){output_file_region}{output_file_removes} ({str("{:,}".format(config.stats.file_count))}){config.user_input.user_options}{excludes}.dat'
+
+        # Create the output folder if it doesn't exist
+        if not pathlib.Path(input_dat.output_filename[:-4]).parent.exists():
+            pathlib.Path(pathlib.Path(input_dat.output_filename[:-4]).parent).mkdir(parents=True, exist_ok=True)
 
         # Write a list of title names if requested
         if config.user_input.list_names:
             try:
                 with open(pathlib.Path(f'{input_dat.output_filename[:-4]} names.txt'), 'w', encoding='utf-8') as output_file:
-                    for name in list_names:
+                    def output_list_names(prefix: str, suffix: str, name: str) -> None:
+                        """ Writes the lines in the list of title names, appends prefixes
+                        and suffixes if present. Converts to a URL encoded string if the
+                        prefix starts with `http://`, `https://`, or `ftp://`.
+
+                        Args:
+                            `prefix (str)`: The prefix to add to the line.
+                            `suffix (str)`: The suffix to add to the line.
+                            `name (str)`: The title to add to the line.
+                        """
                         if (
-                            config.user_prefix.startswith('http://')
-                            or config.user_prefix.startswith('https://')
-                            or config.user_prefix.startswith('ftp://')
-                        ):
-                            output_file.writelines(f'{config.user_prefix}{quote(name)}{config.user_suffix}\n')
+                            prefix.startswith('http://')
+                            or prefix.startswith('https://')
+                            or prefix.startswith('ftp://')
+                            ):
+                                output_file.writelines(f'{prefix}{quote(name)}{suffix}\n')
                         else:
-                            output_file.writelines(f'{config.user_prefix}{name}{config.user_suffix}\n')
+                            output_file.writelines(f'{prefix}{name}{suffix}\n')
+
+                    for name in list_names:
+                        if {'override options': 'true'} in config.system_exclusions_options:
+                            output_list_names(config.system_user_prefix, config.system_user_suffix, name)
+                        else:
+                            output_list_names(config.user_prefix, config.user_suffix, name)
 
             except OSError as e:
                 eprint(f'\n{Font.error_bold}* Error: {Font.end}{str(e)}\n')

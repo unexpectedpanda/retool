@@ -3,13 +3,13 @@ from __future__ import annotations
 import re
 
 from copy import deepcopy
-from typing import Pattern, TYPE_CHECKING
-
-from modules.utils import eprint, Font, pattern2string
+from typing import Any, Pattern, TYPE_CHECKING
 
 if TYPE_CHECKING:
     from modules.dats import DatNode
     from modules.config import Config
+
+from modules.utils import eprint, Font, pattern2string
 
 
 class Removes():
@@ -319,6 +319,13 @@ class IncludeExcludeTools(object):
 
             supported_languages: set[DatNode] = set()
 
+            # Check if a system config is in play
+            language_order: list[str] = config.language_order_user
+
+            if config.system_language_order_user:
+                if {'override': 'true'} in config.system_language_order_user:
+                    language_order = [str(x) for x in config.system_language_order_user if 'override' not in x]
+
             for title in titles:
                 # Add titles with unknown languages
                 if not title.languages:
@@ -331,13 +338,13 @@ class IncludeExcludeTools(object):
                         continue
 
                 # Add titles that support user-defined languages
-                for language_code in config.languages_user:
+                for language_code in language_order:
                     for language in title.languages:
                         if re.search(language_code, language):
                             if title not in supported_languages:
                                 supported_languages.add(title)
 
-            if report_on_match: TraceTools.trace_title('REF0049', [', '.join(config.languages_user)], set([x for x in processed_titles[group_name] if x not in supported_languages]), keep_remove=False)
+            if report_on_match: TraceTools.trace_title('REF0049', [', '.join(language_order)], set([x for x in processed_titles[group_name] if x not in supported_languages]), keep_remove=False)
 
             # Superset titles can be in multiple groups, so deduping needs to be done for exclude stats
             languages_count = languages_count | set([x.full_name for x in processed_titles[group_name] if x not in supported_languages])
@@ -384,11 +391,18 @@ class IncludeExcludeTools(object):
         temp_dict = processed_titles.copy()
         regions_count: set[str] = set()
 
+        # Check if a system config is in play
+        region_order: list[str] = config.region_order_user
+
+        if config.system_region_order_user:
+            if {'override': 'true'} in config.system_region_order_user:
+                region_order = [str(x) for x in config.system_region_order_user if 'override' not in x]
+
         for group_name, titles in temp_dict.items():
             supported_regions: set[DatNode] = set()
 
             for title in titles:
-                for region in config.region_order_user:
+                for region in region_order:
                     if region in title.regions:
                         supported_regions.add(title)
 
@@ -427,7 +441,7 @@ class IncludeExcludeTools(object):
             Retool's processes. Included titles are recovered from here.
             `original_titles_with_clonelist (dict[str, list[DatNode]])`: A dictionary of
             DatNodes that represents all the titles found in the original input DAT,
-            processed to take the `renames` object in the relevant clone list into
+            processed to take the `variants` object in the relevant clone list into
             account. This makes sure the correct title relationships are established if
             someone's used the `<>` tags in their includes to try and include related
             titles as well.
@@ -597,13 +611,14 @@ class Regex:
         self.version: Pattern[str] = re.compile('\\(v[\\.0-9].*?\\)', flags=re.I)
         self.version_non_parens: Pattern[str] = re.compile('(?<!^)(?<=\(|\s)v(?:\d\.?)+')
         self.long_version: Pattern[str] = re.compile('\\s?(?!Version Vol\\.|Version \\(|Version$|Version -|Version \\d-)(?: - )?\\(?(?:\\((?:\\w[\\.\\-]?\\s*)*|)[Vv]ers(?:ion|ao)\\s?(?:[\\d\\.\\-]+)+[A-Za-z]?(?: (?:\\d-?)+)?.*?(?:(?:\\w[\\.\\-]?\\s*)*\\))?')
-        self.revision: Pattern[str] = re.compile('\\(Rev( [0-9A-Z].*?)?\\)', flags=re.I)
+        self.revision: Pattern[str] = re.compile('\\(Rev(?: [0-9A-Z].*?)?\\)', flags=re.I)
+        self.build: Pattern[str] = re.compile('\\(Build [0-9].*?\\)', flags=re.I)
         self.dreamcast_version: Pattern[str] = re.compile('V[0-9]{2,2} L[0-9]{2,2}')
         self.fds_version: Pattern[str] = re.compile('\\(DV [0-9].*?\\)', flags=re.I)
         self.fmtowns_pippin_version: Pattern[str] = re.compile('(?<!^)\\s(?:V|Ver\\. |- Version |Version )\\d(?:\\.\\d+)?(?: L(?:evel )?\\d+)?')
         self.hyperscan_version: Pattern[str] = re.compile('\\(USE[0-9]\\)')
         self.nec_mastering_code: Pattern[str] = re.compile('\\((?:(?:FA|S)[A-F][ABT]S?(?:, )?)+\\)')
-        self.nintendo_mastering_code: Pattern[str] = re.compile('\\((?:A[BDEFNPS]|B[5DFJNPT]|CX|FT|JE|K[AFIKMRZ]|PN|QA|RC|S[KN]|T[ABCJQ]|V[BEJKLMW]|Y[XW])[ABCDEFGIKJMLNPQSTUVWYZ0-9][DEJPVXYZ]\\)')
+        self.nintendo_mastering_code: Pattern[str] = re.compile('\\((?:A[BDEFNPS]|B[58DFJNPT]|CX|FT|JE|K[AFIKMRZ]|PN|QA|RC|S[KN]|T[ABCJQ]|V[BEJKLMW]|Y[XW])[ABCDEFGHIKJMLNPQSTUVWYZ0-9][DEJPVXYZ]\\)')
         self.ps_firmware: Pattern[str] = re.compile('\\(FW[0-9].*?\\)', flags=re.I)
         self.ps1_2_id: Pattern[str] = re.compile('\\(S[CL][EKPU][ADHMNS]-\\d{5}\\)')
         self.ps3_id: Pattern[str] = re.compile('\\([BM][CLR][AEJKTU][BCDMST]-\\d{5}\\)')
@@ -616,8 +631,9 @@ class Regex:
         self.ntsc_1: Pattern[str] = re.compile('( -)?[( ]NTSC[ \\)]')
         self.ntsc_2: Pattern[str] = re.compile('\\[(.*)?NTSC(.*)?\\]')
         self.ntsc_pal: Pattern[str] = re.compile('[( ]NTSC-PAL(\\))?')
-        self.pal_1: Pattern[str] = re.compile('( -)?[( ]PAL[ \\)]')
+        self.pal_1: Pattern[str] = re.compile('( -)?[( ]PAL(?: [a-zA-Z]+| 50Hz)?(?:\\)| (?=\\())')
         self.pal_2: Pattern[str] = re.compile('\\[(.*)?PAL(?!P)(.*)?\\]')
+        self.pal_60: Pattern[str] = re.compile('\\(PAL 60Hz\\)')
         self.secam_1: Pattern[str] = re.compile('( -)?[( ]SECAM[ \\)]')
         self.secam_2: Pattern[str] = re.compile('\\[(.*)?SECAM(.*)?\\]')
 
@@ -648,6 +664,9 @@ class Regex:
             re.compile('\\(\\d{4}-\\d{2}-\\d{2}\\)'),
             re.compile('\\(\\d{2}-\\d{2}-\\d{4}\\)'),
             re.compile('\\(\\d{2}-\\d{2}-\\d{2}\\)'),
+            re.compile('\\(\\d{4}-\\d{2}-\\d{2}T\\d{6}\\)'),
+            re.compile('\\((\\d{4}-\\d{2})-xx\\)'),
+            re.compile('\\((\\d{4})-xx-xx\\)'),
             re.compile('\\((January|February|March|April|May|June|July|August|September|October|November|December), \\d{4}\\)', flags=re.I)
         )
 
@@ -679,6 +698,10 @@ class Regex:
             self.ntsc_pal
         )
 
+        self.pal_60hz: tuple[Pattern[str], ...] = (
+            self.pal_60,
+        )
+
         self.secam: tuple[Pattern[str], ...] = (
             self.secam_1,
             self.secam_2
@@ -698,7 +721,7 @@ class Regex:
             re.compile('\\((?:\\w*\\s+)*Trailer(?:s|\\sDisc)?(?:\\s\\w*)*\\)', flags=re.I)
         )
 
-    def __getitem__(self, key):
+    def __getitem__(self, key: str) -> Any:
         return getattr(self, key)
 
 
@@ -715,6 +738,7 @@ class TitleTools(object):
                 `compare_groups (dict[str, list[DatNode]])`: A dictionary to store the
                 virtual titles in for comparison later.
                 `title_group (str)`: The group the title should be assigned to.
+                `config (Config)`: The Retool config object.
             """
 
             for title in title_set:
@@ -748,14 +772,15 @@ class TitleTools(object):
 
 
     @staticmethod
-    def find_title(name: str, match_type: str, titles: dict[str, list[DatNode]], missing_titles: set[str], config: Config, deep_search: bool = False) -> list[DatNode]:
+    def find_title(name: str, name_type: str, titles: dict[str, list[DatNode]], missing_titles: set[str], config: Config, deep_search: bool = False) -> list[DatNode]:
         """ Finds titles in a dict of DatNodes, whether by short, tag free, or full name,
         or regex.
 
         Args:
             `name (str)`: The name to search for.
             `match_type (str)`: Whether to search for the `short` name,
-            `tag free` name, `full` name, or by `regex` on the full name.
+            `regionFree` name, `tagFree` name, `full` name, or by `regex` on the full
+            name.
             `titles (dict[str, list[DatNode]])`: A dictionary of DatNodes to search.
             `missing_titles (set[str])`: Somewhere to store searched for names that aren't
             found in `titles`. These are reported as not found if the user has clone list
@@ -777,16 +802,19 @@ class TitleTools(object):
             # Find the title not knowing the group name
             for group in titles:
                 for title in [node for node in titles[group]]:
-                    if (match_type == 'short'
+                    if (name_type == 'short'
                         and title.short_name.lower() == name.lower()):
                             found_titles.append(title)
-                    elif (match_type == 'full'
+                    elif (name_type == 'full'
                         and title.full_name.lower() == name.lower()):
                             found_titles.append(title)
-                    elif (match_type == 'regex'
+                    elif (name_type == 'regex'
                         and re.search(name, title.full_name.lower(), re.I)):
                             found_titles.append(title)
-                    elif (match_type == 'tag free'
+                    elif (name_type == 'regionFree'
+                        and title.region_free_name.lower() == name.lower()):
+                            found_titles.append(title)
+                    elif (name_type == 'tagFree'
                         and title.tag_free_name.lower() == name.lower()):
                             found_titles.append(title)
             if not found_titles:
@@ -797,16 +825,19 @@ class TitleTools(object):
 
             if group_name in titles:
                 for title in titles[group_name]:
-                    if (match_type == 'short'
+                    if (name_type == 'short'
                         and title.short_name.lower() == name.lower()):
                             found_titles.append(title)
-                    elif (match_type == 'full'
+                    elif (name_type == 'full'
                         and title.full_name.lower() == name.lower()):
                             found_titles.append(title)
-                    elif (match_type == 'regex'
+                    elif (name_type == 'regex'
                         and re.search(name, title.full_name.lower(), re.I)):
                             found_titles.append(title)
-                    elif (match_type == 'tag free'
+                    elif (name_type == 'regionFree'
+                        and title.region_free_name.lower() == name.lower()):
+                            found_titles.append(title)
+                    elif (name_type == 'tagFree'
                         and title.tag_free_name.lower() == name.lower()):
                             found_titles.append(title)
             else:
@@ -837,8 +868,18 @@ class TitleTools(object):
 
         formatted_date: int = 0
 
+        # Norrmalize YYYY-MM-xx and YYYY-xx-xx dates
+
+        if re.search(config.regex.dates[5], name):
+            name = re.sub(config.regex.dates[5], '(\\1-01)', name)
+
+        if re.search(config.regex.dates[6], name):
+            name = re.sub(config.regex.dates[6], '(\\1-01-01)', name)
+
         us_date: bool = False
         short_date: bool = False
+        utc_date: bool = False
+        time: str = '000000'
 
         if re.search('|'.join(months), name, flags=re.I):
             for i, month in enumerate(months):
@@ -849,6 +890,7 @@ class TitleTools(object):
 
         if re.search(config.regex.dates[2], name): us_date = True
         if re.search(config.regex.dates[3], name): short_date = True
+        if re.search(config.regex.dates[4], name): utc_date = True
 
         for regex in config.regex.dates:
             year: str = ''
@@ -876,6 +918,11 @@ class TitleTools(object):
                     year = regex_search_str[5:-1]
                     month = regex_search_str[1:-7]
                     day = regex_search_str[3:-5]
+                elif utc_date:
+                    year = regex_search_str[1:5]
+                    month = regex_search_str[6:8]
+                    day = regex_search_str[9:11]
+                    time = regex_search_str[12:18]
                 else:
                     year = regex_search_str[1:-5]
                     month = regex_search_str[5:-3]
@@ -887,7 +934,7 @@ class TitleTools(object):
                     and int(month) <= 12
                     and int(day) >= 1
                     and int(day) <= 31):
-                        formatted_date = int(f'{year}{month}{day}')
+                        formatted_date = int(f'{year}{month}{day}{time}')
                         break
 
         return formatted_date
@@ -1050,8 +1097,20 @@ class TitleTools(object):
             `str`: The region-free name of the title.
         """
 
-        name = TitleTools.regions(name, config, 'remove')
-        name = TitleTools.languages(name, config, 'remove')
+        original_name: str = name
+
+        remove_regions: str = TitleTools.regions(name, config, 'remove')
+
+        if remove_regions:
+            name = remove_regions
+
+        remove_languages = TitleTools.languages(name, config, 'remove')
+
+        if remove_languages:
+            name = remove_languages
+
+        if not name:
+            name = original_name
 
         return name
 
@@ -1231,12 +1290,12 @@ class TraceTools(object):
         if trace_reference == 'REF0050': message = 'Would have been a system filter exclude, but was cancelled out by a system include:'
         if trace_reference == 'REF0051': message = 'Would have been a global filter exclude, but was cancelled out by a global include:'
         if trace_reference == 'REF0052': message = 'Would have been a global filter exclude, but was cancelled out by a system include:'
-        if trace_reference == 'REF0053': message = f'ACTION: Changing categories for title found in clone list {Font.bold}Categories{Font.end} object'
+        if trace_reference == 'REF0053': message = f'ACTION: Changing categories for title found in clone list {Font.bold}Categories{Font.end} object:'
         if trace_reference == 'REF0054': message = f'ACTION: Removing title found in clone list {Font.bold}Removes{Font.end} object:'
-        if trace_reference == 'REF0055': message = f'ACTION: Moving title found in clone list {Font.bold}Renames{Font.end} object to other group'
-        if trace_reference == 'REF0056': message = f'ACTION: Overriding default group for title found in clone list {Font.bold}overrides{Font.end} object'
-        if trace_reference == 'REF0057': message = 'ACTION: Fail safe removal of title with lower string value'
-        if trace_reference == 'REF0058': message = 'ACTION: Fail safe removal of title with lower string value'
+        if trace_reference == 'REF0055': message = f'ACTION: Moving title found in clone list {Font.bold}Variants{Font.end} object to other group:'
+        if trace_reference == 'REF0056': message = f'ACTION: Overriding default group for title found in clone list {Font.bold}overrides{Font.end} object:'
+        if trace_reference == 'REF0057': message = 'ACTION: Fail safe removal of title with lower string value:'
+        if trace_reference == 'REF0058': message = 'ACTION: Fail safe removal of title with lower string value:'
         if trace_reference == 'REF0059': message = f'{Font.bold}[{variable[0]}]{Font.end} Group after filtering by string comparison:'
         if trace_reference == 'REF0060': message = f'{Font.bold}[{variable[0]}]{Font.end} Group after handling unlicensed/aftermarket/homebrew versions:'
         if trace_reference == 'REF0061': message = f'{Font.bold}[{variable[0]}]{Font.end} Group after handling Alt versions:'
@@ -1244,7 +1303,7 @@ class TraceTools(object):
         if trace_reference == 'REF0063': message = 'ACTION: Title tagged as MIA:'
         if trace_reference == 'REF0064': message = 'ACTION: Choose higher versions:'
         if trace_reference == 'REF0065': message = 'ACTION: Choose higher versions:'
-        if trace_reference == 'REF0066': message = 'ACTION: Included due to being related to a system or global filter'
+        if trace_reference == 'REF0066': message = 'ACTION: Included due to being related to a system or global filter:'
         if trace_reference == 'REF0067': message = f'{Font.bold}[{variable[0]}]{Font.end} Original unmodified group: \n\nVirtual titles are marked with a :V:, the original compilation title is after the •'
         if trace_reference == 'REF0068': message = f'{Font.bold}[{variable[0]}]{Font.end} Group after filtering by user language order:\n\nVirtual titles are marked with a :V:, the original title is after the •'
         if trace_reference == 'REF0069': message = f'{Font.bold}[{variable[0]}]{Font.end} Group after filtering by region order:\n\nVirtual titles are marked with a :V:, the original title is after the •'

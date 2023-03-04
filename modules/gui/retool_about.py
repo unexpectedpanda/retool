@@ -3,7 +3,7 @@
 ################################################################################
 ## Form generated from reading UI file 'retool-about.ui'
 ##
-## Created by: Qt User Interface Compiler version 6.4.1
+## Created by: Qt User Interface Compiler version 6.4.2
 ##
 ## WARNING! All changes made in this file will be lost when recompiling UI file!
 ################################################################################
@@ -41,7 +41,7 @@ class Ui_AboutWindow(object):
         AboutWindow.setModal(True)
         self.labelName = QLabel(AboutWindow)
         self.labelName.setObjectName(u"labelName")
-        self.labelName.setGeometry(QRect(70, 172, 221, 51))
+        self.labelName.setGeometry(QRect(10, 172, 341, 51))
         font = QFont()
         font.setFamilies([u"Segoe UI"])
         self.labelName.setFont(font)
@@ -52,12 +52,12 @@ class Ui_AboutWindow(object):
         self.labelName.setTextInteractionFlags(Qt.LinksAccessibleByKeyboard|Qt.LinksAccessibleByMouse)
         self.labelGUIVersion = QLabel(AboutWindow)
         self.labelGUIVersion.setObjectName(u"labelGUIVersion")
-        self.labelGUIVersion.setGeometry(QRect(105, 222, 151, 20))
+        self.labelGUIVersion.setGeometry(QRect(15, 222, 331, 20))
         self.labelGUIVersion.setFont(font)
         self.labelGUIVersion.setAlignment(Qt.AlignCenter)
         self.labelCLIVersion = QLabel(AboutWindow)
         self.labelCLIVersion.setObjectName(u"labelCLIVersion")
-        self.labelCLIVersion.setGeometry(QRect(105, 242, 151, 20))
+        self.labelCLIVersion.setGeometry(QRect(15, 242, 331, 20))
         self.labelCLIVersion.setFont(font)
         self.labelCLIVersion.setAlignment(Qt.AlignCenter)
         self.aboutLogo = QLabel(AboutWindow)
@@ -68,7 +68,7 @@ class Ui_AboutWindow(object):
         self.aboutLogo.setAlignment(Qt.AlignCenter)
         self.labelCreditIcons8 = QLabel(AboutWindow)
         self.labelCreditIcons8.setObjectName(u"labelCreditIcons8")
-        self.labelCreditIcons8.setGeometry(QRect(89, 280, 181, 20))
+        self.labelCreditIcons8.setGeometry(QRect(9, 280, 341, 20))
         self.labelCreditIcons8.setFont(font)
         self.labelCreditIcons8.setTextFormat(Qt.RichText)
         self.labelCreditIcons8.setAlignment(Qt.AlignCenter)

@@ -9,51 +9,51 @@ import sys
 
 from typing import Any, TYPE_CHECKING
 
-from modules.titletools import Removes, TitleTools, TraceTools
-from modules.utils import download, eprint, ExitRetool, Font, printwrap, regex_test
-
 if TYPE_CHECKING:
     from hashlib import _Hash
     from modules.config import Config
     from modules.dats import Dat, DatNode
     from modules.input import UserInput
 
+from modules.titletools import Removes, TitleTools, TraceTools
+from modules.utils import download, eprint, ExitRetool, Font, printwrap, regex_test
+
 
 class CloneList:
     def __init__(self,
                  min_retool_version: str='2.00',
-                 categories: dict[str, dict[str, Any]] = {},
+                 categories: list[dict[str, Any]] = [],
                  mias: list[str] = [],
-                 overrides: dict[str, dict[str, Any]] = {},
-                 renames: dict[str, list[dict[str, Any]]] = {},
-                 removes: dict[str, dict[str, Any]] = {}):
+                 overrides: list[dict[str, str|dict[str, str|list[str]]]] = [],
+                 removes: list[dict[str, str]] = [],
+                 variants: list[dict[str, Any]] = []):
         """ Creates an object that contains data originally stored in a clone list.
 
         Args:
             `min_retool_version (str, optional)`: The minimum Retool version required to
             process the imported clone list. Defaults to `2.00`.
-            `categories (dict[str, dict[str, Any]], optional)`: A dictionary to store the
+            `categories (list[dict[str, str|list[str]]], optional)`: A dictionary to store the
             `categories` object found in a related clone list, if it exists. Defaults to
             `{}`.
             `mias (list[str], optional)`: A list to store the `mias` arrary found in a
             related clone list, if it exists. Defaults to `[]`.
-            `overrides (dict[str, dict[str, Any]], optional)`: A dictionary to store the
+            `overrides (list[dict[str, str|dict[str, str|list[str]]]], optional)`: A dictionary to store the
             `overrides` object found in a related clone list, if it exists. Defaults to
-            `{}`.
-            `renames (dict[str, list[dict[str, Any]]], optional)`: A dictionary to store
-            the `renames` object found in a related clone list, if it exists. Defaults to
             `{}`.
             `removes (dict[str, dict[str, Any]], optional)`: A dictionary to store the
             `removes` object found in a related clone list, if it exists. Defaults to
             `{}`.
+            `variants (dict[str, list[dict[str, Any]]], optional)`: A dictionary to store
+            the `variants` object found in a related clone list, if it exists. Defaults to
+            `{}`.
         """
 
         self.min_retool_version: str = min_retool_version
-        self.categories: dict[str, dict[str, Any]] = categories
+        self.categories: list[dict[str, Any]] = categories
         self.mias: list[str] = mias
-        self.overrides: dict[str, dict[str, Any]] = overrides
-        self.renames: dict[str, list[dict[str, Any]]] = renames
-        self.removes: dict[str, dict[str, Any]] = removes
+        self.overrides: list[dict[str, Any]] = overrides
+        self.removes: list[dict[str, str]] = removes
+        self.variants: list[dict[str, Any]] = variants
 
 
 class CloneListTools(object):
@@ -82,26 +82,26 @@ class CloneListTools(object):
 
             report_on_match: bool = False
             warning_given: bool = False
-            match_type: str = 'tag free'
+            name_type: str = 'tagFree'
             categories: list[str] = []
+            missing_titles: set[str] = set()
 
             # Check the name type we're matching for, and the categories to change the
             # title to
-            missing_titles: set[str] = set()
+            for value in input_dat.clone_list.categories:
+                if 'nameType' in value:
+                    name_type = value['nameType']
 
-            for key, values in input_dat.clone_list.categories.items():
-                if 'match' in values:
-                    match_type = values['match']
+                    if not (name_type == 'full'
+                        or name_type == 'short'
+                        or name_type == 'regionFree'
+                        or name_type == 'tagFree'
+                        or name_type == 'regex'):
+                            name_type = 'tagFree'
 
-                    if not (match_type == 'full'
-                        or match_type == 'short'
-                        or match_type == 'tag free'
-                        or match_type == 'regex'):
-                            match_type = 'tag free'
-
-                if 'categories' in values:
-                    if type(values['categories']) is list:
-                        categories = values['categories']
+                if 'categories' in value:
+                    if type(value['categories']) is list:
+                        categories = value['categories']
                     else:
                         if config.user_input.verbose:
                             warning_given = True
@@ -109,7 +109,7 @@ class CloneListTools(object):
                                 f'{Font.warning}* The following category title\'s '
                                 f'"categories" key isn\'t an array and will be skipped:',
                                 'error')
-                            eprint(f'  {key}{Font.end}')
+                            eprint(f'\n  {value["searchTerm"]}{Font.end}')
 
                             if config.user_input.warningpause:
                                 eprint(f'\n{Font.disabled}Press enter to continue{Font.end}')
@@ -121,7 +121,7 @@ class CloneListTools(object):
                         printwrap(
                             f'{Font.warning}* The following category title has no '
                             f'"categories" key and will be skipped:', 'error')
-                        eprint(f'  {key}{Font.end}')
+                        eprint(f'\n  {value["searchTerm"]}{Font.end}')
 
                         if config.user_input.warningpause:
                             eprint(f'\n{Font.disabled}Press enter to continue{Font.end}')
@@ -129,15 +129,15 @@ class CloneListTools(object):
                     continue
 
                 # Look up the title in the dictionary, then process the required changes
-                if match_type == 'regex':
-                    valid_regex:list[str] = regex_test([key], 'categories', is_user_filter=False)
+                if name_type == 'regex':
+                    valid_regex:list[str] = regex_test([value['searchTerm']], 'categories', is_user_filter=False)
 
                     if not valid_regex:
                         continue
 
-                    found_titles = TitleTools.find_title(key, match_type, processed_titles, missing_titles, config, deep_search=True)
+                    found_titles = TitleTools.find_title(value['searchTerm'], name_type, processed_titles, missing_titles, config, deep_search=True)
                 else:
-                    found_titles = TitleTools.find_title(key, match_type, processed_titles, missing_titles, config)
+                    found_titles = TitleTools.find_title(value['searchTerm'], name_type, processed_titles, missing_titles, config)
 
                 if config.user_input.trace:
                     report_on_match = TraceTools.trace_enable(set(found_titles), config.user_input.trace)
@@ -274,7 +274,7 @@ class CloneListTools(object):
             warning_given: bool = False
             missing_titles: set[str] = set()
 
-            match_type = 'full'
+            name_type = 'full'
 
             # Find the MIA titles
             for mia in input_dat.clone_list.mias:
@@ -293,7 +293,7 @@ class CloneListTools(object):
                     continue
 
                 # Look up the title in the dictionary, then process the required changes
-                found_titles = TitleTools.find_title(mia, match_type, processed_titles, missing_titles, config)
+                found_titles = TitleTools.find_title(mia, name_type, processed_titles, missing_titles, config)
 
                 if config.user_input.trace:
                     report_on_match = TraceTools.trace_enable(set(found_titles), config.user_input.trace)
@@ -345,9 +345,9 @@ class CloneListTools(object):
 
     @staticmethod
     def overrides(processed_titles: dict[str, list[DatNode]], config: Config, input_dat: Dat) -> dict[str, list[DatNode]]:
-        """ Overrides the default groups assigned to titles by Retool as defined by the
-        related clone list. Overridden groups can either be applied directly, or
-        conditionally based on the user's region order.
+        """ Overrides the default groups and short names assigned to titles by Retool as
+        defined by the related clone list. Overridden groups can either be applied
+        directly, or conditionally based on the user's region order.
 
         Args:
             `processed_titles (dict[str, list[DatNode]])`: A work in progress dictionary
@@ -370,29 +370,31 @@ class CloneListTools(object):
             # Check the name type we're matching for, and the group to move the title to
             missing_titles: set[str] = set()
 
-            for key, values in input_dat.clone_list.overrides.items():
+            for value in input_dat.clone_list.overrides:
                 condition_processed: bool = True
-                match_type: str = 'tag free'
+                name_type: str = 'tagFree'
                 else_group: str = ''
+                priority: int = 0
 
-                if 'match' in values:
-                    match_type = values['match']
+                if 'nameType' in value:
+                    name_type = value['nameType']
 
                     if not (
-                        match_type == 'full'
-                        or match_type == 'short'
-                        or match_type == 'tag free'
-                        or match_type == 'regex'):
-                            match_type = 'tag free'
+                        name_type == 'full'
+                        or name_type == 'short'
+                        or name_type == 'regionFree'
+                        or name_type == 'tagFree'
+                        or name_type == 'regex'):
+                            name_type = 'tagFree'
 
-                if 'new group' in values:
-                    if type(values['new group']) is not str:
+                if 'newGroup' in value:
+                    if type(value['newGroup']) is not str:
                         if config.user_input.verbose:
                             warning_given = True
                             printwrap(
-                                f'{Font.warning}* The following override\'s "new '
-                                f'group" key isn\'t a string and will be skipped:', 'error')
-                            eprint(f'  {key}{Font.end}')
+                                f'{Font.warning}* The following override\'s "newGroup" '
+                                f'key isn\'t a string and will be skipped:', 'error')
+                            eprint(f'\n  {value["searchTerm"]}{Font.end}')
 
                             if config.user_input.warningpause:
                                 eprint(f'\n{Font.disabled}Press enter to continue{Font.end}')
@@ -402,24 +404,25 @@ class CloneListTools(object):
                     if config.user_input.verbose:
                         warning_given = True
                         printwrap(
-                            f'{Font.warning}* The following override has no "new group" '
+                            f'{Font.warning}* The following override has no "newGroup" '
                             f'key and will be skipped:', 'error')
-                        eprint(f'  {key}{Font.end}')
+                        eprint(f'\n  {value["searchTerm"]}{Font.end}')
+
                         if config.user_input.warningpause:
                             eprint(f'\n{Font.disabled}Press enter to continue{Font.end}')
                             input()
                     continue
 
                 # Look up the title in the dictionary, then process the required changes
-                if match_type == 'regex':
-                    valid_regex:list[str] = regex_test([key], 'overrides', is_user_filter=False)
+                if name_type == 'regex':
+                    valid_regex:list[str] = regex_test([value['searchTerm']], 'overrides', is_user_filter=False)
 
                     if not valid_regex:
                         continue
 
-                    found_titles = TitleTools.find_title(key, match_type, processed_titles, missing_titles, config, deep_search=True)
+                    found_titles = TitleTools.find_title(value['searchTerm'], name_type, processed_titles, missing_titles, config, deep_search=True)
                 else:
-                    found_titles = TitleTools.find_title(key, match_type, processed_titles, missing_titles, config)
+                    found_titles = TitleTools.find_title(value['searchTerm'], name_type, processed_titles, missing_titles, config)
 
                 if config.user_input.trace:
                     report_on_match = TraceTools.trace_enable(set(found_titles), config.user_input.trace)
@@ -431,116 +434,177 @@ class CloneListTools(object):
                         eprint(f'\n* {title.full_name}')
 
                     # Get the new group the title will be moved to
-                    new_group = values['new group'].lower()
+                    new_group: str = TitleTools.get_group_name(value['newGroup'], config)
 
                     # Check if the override is conditional
-                    if 'condition' in values:
+                    if 'condition' in value:
                         regions: list[str] = []
                         higher_than_regions: list[str] = []
                         condition_processed = False
 
                         # Look for the regions that need to be higher in priority than
                         # those defined in "higher than"
-                        if 'region' in values['condition']:
-                            if type(values['condition']['region']) is list:
-                                regions = values['condition']['region']
+                        if 'regionOrder' in value['condition']:
+                            if type(value['condition']['regionOrder']) is dict:
+                                if 'higherRegions' in value['condition']['regionOrder']:
+                                    if type(value['condition']['regionOrder']['higherRegions']) is list:
+                                        regions = value['condition']['regionOrder']['higherRegions']
 
-                                if report_on_match:
-                                    eprint('  IF any of these regions:')
+                                        if report_on_match:
+                                            eprint('\n  IF any of these regions:\n')
 
-                                    for condition_region in regions:
-                                        eprint(f'    * {condition_region}')
+                                            for condition_region in regions:
+                                                eprint(f'    * {condition_region}')
+                                    else:
+                                        printwrap(
+                                            f'{Font.warning}* The following override\'s '
+                                            f'"higherRegions" key isn\'t an array and will be '
+                                            'skipped:', 'error')
+                                        eprint(f'\n  {value["searchTerm"]}{Font.end}')
+
+                                        if config.user_input.warningpause:
+                                            eprint(f'\n{Font.disabled}Press enter to continue{Font.end}')
+                                            input()
+                                        continue
+                                else:
+                                    warning_given = True
+                                    printwrap(
+                                        f'{Font.warning}* The following override has no '
+                                        '"higherRegions" key inside the "regionOrder" key, and '
+                                        'will be skipped:', 'error')
+                                    eprint(f'\n  {value["searchTerm"]}{Font.end}')
+
+                                    if config.user_input.warningpause:
+                                        eprint(f'\n{Font.disabled}Press enter to continue{Font.end}')
+                                        input()
+                                    continue
+
+                                # Look for the regions that need to be lower in priority than the
+                                # those defined in "region"
+                                if 'lowerRegions' in value['condition']['regionOrder']:
+                                    if type(value['condition']['regionOrder']['lowerRegions']) is list:
+                                        higher_than_regions = value['condition']['regionOrder']['lowerRegions']
+
+                                        if report_on_match:
+                                            eprint('\n  Are higher than all of these regions:\n')
+
+                                            for condition_region in higher_than_regions:
+                                                eprint(f'    * {condition_region}')
+                                    else:
+                                        warning_given = True
+                                        printwrap(
+                                            f'{Font.warning}* The following override\'s '
+                                            '"lowerRegions" key isn\'t an array and will be '
+                                            'skipped:', 'error')
+                                        eprint(f'\n  {value["searchTerm"]}{Font.end}')
+
+                                        if config.user_input.warningpause:
+                                            eprint(f'\n{Font.disabled}Press enter to continue{Font.end}')
+                                            input()
+                                        continue
+                                else:
+                                    warning_given = True
+                                    printwrap(
+                                        f'{Font.warning}* The following override has no '
+                                        '"lowerRegions" key inside the "regionOrder" key, '
+                                        'and will be skipped:', 'error')
+                                    eprint(f'\n  {value["searchTerm"]}{Font.end}')
+
+                                    if config.user_input.warningpause:
+                                        eprint(f'\n{Font.disabled}Press enter to continue{Font.end}')
+                                        input()
+                                    continue
+
+                            # Look for a "priority" entry, which reassigns a title's priority if the condition is true
+                            if 'priority' in value['condition']['regionOrder']:
+                                if type(value['condition']['regionOrder']['priority']) is not int:
+                                    if config.user_input.verbose:
+                                        warning_given = True
+                                        printwrap(
+                                            f'{Font.warning}* The following override\'s "priority" '
+                                            f'key isn\'t an integer and will be skipped:', 'error')
+                                        eprint(f'\n  {value["searchTerm"]}{Font.end}')
+
+                                        if config.user_input.warningpause:
+                                            eprint(f'\n{Font.disabled}Press enter to continue{Font.end}')
+                                            input()
+                                    continue
+                                else:
+                                    priority = value['condition']['regionOrder']['priority']
+
+                            # Look for an "elseGroup" entry, which reassigns a title's group
+                            # if the condition isn't true
+                            if report_on_match:
+                                eprint(f'\n  THEN move to this group: {Font.bold}{new_group}{Font.end}')
+
+                                if priority:
+                                    eprint(f'  AND set priority to: {Font.bold}{value["condition"]["regionOrder"]["priority"]}{Font.end}\n')
+
+                            if 'elseGroup' in value['condition']['regionOrder']:
+                                if type(value['condition']['regionOrder']['elseGroup']) is str:
+                                    else_group = TitleTools.get_group_name(value['condition']['regionOrder']['elseGroup'], config)
+
+                                    if report_on_match:
+                                        eprint(f'  ELSE move to this group: {Font.bold}{else_group}{Font.end}')
+                                        if priority:
+                                            eprint(f'  AND set priority to: {Font.bold}2{Font.end}\n')
+                                else:
+                                    warning_given = True
+                                    printwrap(
+                                        f'{Font.warning}* The following override\'s '
+                                        '"elseGroup" key isn\'t a string and will be '
+                                        'skipped:', 'error')
+                                    eprint(f'\n  {value["searchTerm"]}{Font.end}')
+
+                                    if config.user_input.warningpause:
+                                        eprint(f'\n{Font.disabled}Press enter to continue{Font.end}')
+                                        input()
                             else:
-                                warning_given = True
-                                printwrap(
-                                    f'{Font.warning}* The following override\'s "region" '
-                                    f'key isn\'t an array and will be skipped:', 'error')
-                                eprint(f'  {key}{Font.end}')
-
-                                if config.user_input.warningpause:
-                                    eprint(f'\n{Font.disabled}Press enter to continue{Font.end}')
-                                    input()
-                                continue
+                                if report_on_match:
+                                    eprint(f'  ELSE use the default group: {Font.bold}{title.group_name}{Font.end}')
+                                    if priority:
+                                        eprint(f'  AND set priority to: {Font.bold}2{Font.end}\n')
                         else:
                             warning_given = True
                             printwrap(
-                                f'{Font.warning}* The following override has no "region" '
-                                f'key inside its condition and will be skipped:', 'error')
-                            eprint(f'  {key}{Font.end}')
+                                f'{Font.warning}* The following override has no '
+                                f'"regionOrder" key inside its condition, and will be '
+                                f'skipped:', 'error')
+                            eprint(f'\n  {value["searchTerm"]}{Font.end}')
 
                             if config.user_input.warningpause:
                                 eprint(f'\n{Font.disabled}Press enter to continue{Font.end}')
                                 input()
                             continue
 
-                        # Look for the regions that need to be lower in priority than the
-                        # those defined in "region"
-                        if 'higher than' in values['condition']:
-                            if type(values['condition']['higher than']) is list:
-                                higher_than_regions = values['condition']['higher than']
+                        # Check if a system config is in play
+                        region_order: list[str] = config.region_order_user
 
-                                if report_on_match:
-                                    eprint('  Are higher than all of these regions:')
-
-                                    for condition_region in higher_than_regions:
-                                        eprint(f'    * {condition_region}')
-                            else:
-                                warning_given = True
-                                printwrap(
-                                    f'{Font.warning}* The following override\'s "higher '
-                                    f'than" key isn\'t an array and will be skipped:',
-                                    'error')
-                                eprint(f'  {key}{Font.end}')
-
-                                if config.user_input.warningpause:
-                                    eprint(f'\n{Font.disabled}Press enter to continue{Font.end}')
-                                    input()
-                                continue
-                        else:
-                            warning_given = True
-                            printwrap(
-                                f'{Font.warning}* The following override has no "higher '
-                                f'than" key inside its condition and will be skipped:',
-                                'error')
-                            eprint(f'  {key}{Font.end}')
-
-                            if config.user_input.warningpause:
-                                eprint(f'\n{Font.disabled}Press enter to continue{Font.end}')
-                                input()
-                            continue
-
-                        # Look for an "else group" entry, which reassigns a title's group
-                        # if the condition isn't true
-                        if report_on_match:
-                            eprint(f'  THEN move to this group:\n    * {new_group}')
-
-                        if 'else group' in values['condition']:
-                            if type(values['condition']['else group']) is str:
-                                else_group = values['condition']['else group'].lower()
-
-                                if report_on_match:
-                                    eprint(f'  ELSE move to this group:\n    * {else_group}')
-                            else:
-                                if report_on_match:
-                                    eprint(f'  ELSE use the default group')
+                        if config.system_region_order_user:
+                            if {'override': 'true'} in config.system_region_order_user:
+                                region_order = [str(x) for x in config.system_region_order_user if 'override' not in x]
 
                         # Check that the regions are available in the user's current region
                         # order, and store their priority if so
-                        higher_regions: list[int] = [i for i, region in enumerate(config.region_order_user) if region in regions]
-                        lower_regions: list[int] = [i for i, region in enumerate(config.region_order_user) if region in higher_than_regions]
+                        higher_regions: list[int] = [i for i, region in enumerate(region_order) if region in regions]
+                        lower_regions: list[int] = [i for i, region in enumerate(region_order) if region in higher_than_regions]
 
                         # If any of the higher regions is higher than ALL of the lower regions
                         # move the title to the new group. If this isn't the case, and there's
-                        # an "else group" entry, move the title to the "else group". Otherwise,
+                        # an "elseGroup" entry, move the title to the "elseGroup". Otherwise,
                         # do nothing.
                         if higher_regions and lower_regions:
                             lower_regions_lowest: int = int(sorted(lower_regions)[0])
 
                             for higher_region in higher_regions:
                                 if higher_region < lower_regions_lowest:
+                                    if not condition_processed:
+                                        if report_on_match:
+                                            eprint(f'  CONDITION is true, moving to group: {Font.bold}{new_group}{Font.end}')
+                                            if priority:
+                                                eprint(f'  Changing to priority: {Font.bold}{priority}{Font.end}')
+
                                     condition_processed = True
-                                    if report_on_match:
-                                        eprint(f'\n  CONDITION is true, moving to group:\n    * {new_group}')
 
                             if not condition_processed:
                                 if else_group:
@@ -548,17 +612,21 @@ class CloneListTools(object):
                                     condition_processed = True
 
                                     if report_on_match:
-                                        eprint(f'\n  CONDITION is false, moving to group:\n    * {new_group}')
+                                        eprint(f'  CONDITION is false, moving to group: {Font.bold}{new_group}{Font.end}')
+                                        if priority:
+                                            eprint(f'  Changing to priority: {Font.bold}2{Font.end}')
+                                if priority:
+                                    priority = 2
                     else:
                         if report_on_match:
-                            eprint(f'  New group: {new_group}\n{Font.disabled}  Old group: {title.group_name}{Font.end}')
+                            eprint(f'  New group: {Font.bold}{new_group}{Font.end}\n{Font.disabled}  Old group: {Font.bold}{title.group_name}{Font.end}')
 
-                    # Assign the new group
+                    # Assign the new group and if it's available, priority
                     if condition_processed:
                         if report_on_match:
-
-                            eprint(f'\n{Font.disabled}Press enter to continue{Font.end}')
-                            input()
+                            if config.user_input.warningpause:
+                                eprint(f'\n{Font.disabled}Press enter to continue{Font.end}')
+                                input()
 
                         if title in processed_titles[title.group_name]:
                             if new_group not in processed_titles:
@@ -567,17 +635,29 @@ class CloneListTools(object):
                             processed_titles[title.group_name].remove(title)
 
                             title.group_name = new_group
+
                             if title.short_name.endswith('(demo)'):
                                 title.short_name = f'{new_group} (demo)'
                             else:
                                 title.short_name = new_group
 
+                            if priority:
+                                title.clonelist_priority = priority
+
                             processed_titles[new_group].append(title)
                     else:
                         if report_on_match:
-                            eprint(f'\n  CONDITION is false, group isn\'t changing')
-                            eprint(f'\n{Font.disabled}Press enter to continue{Font.end}')
-                            input()
+                            eprint(f'  CONDITION is false, group remains as: {Font.bold}{title.group_name}{Font.end}')
+                            if priority:
+                                eprint(f'  Changing to priority: 2')
+
+                            if config.user_input.warningpause:
+                                eprint(f'\n{Font.disabled}Press enter to continue{Font.end}')
+                                input()
+
+                        if title in processed_titles[title.group_name]:
+                            if priority:
+                                title.clonelist_priority = 2
 
             if missing_titles and config.user_input.verbose:
                 eprint('')
@@ -601,7 +681,7 @@ class CloneListTools(object):
                 (warning_given
                 or missing_titles)
                 and config.user_input.verbose):
-                eprint('* Applying clone list overrides... done')
+                    eprint('* Applying clone list overrides... done')
             else:
                 eprint('done.')
 
@@ -635,30 +715,30 @@ class CloneListTools(object):
         if input_dat.clone_list.removes:
             eprint('* Applying clone list removes... ', sep=' ', end='', flush=True)
 
-            match_type: str = 'tag free'
-
-            # Check the name type we're matching for, and the categories to change the
-            # title to
+            report_on_match = False
+            name_type: str = 'tagFree'
             missing_titles: set[str] = set()
             removes_count: int = 0
 
-            for key, values in input_dat.clone_list.removes.items():
-                if 'match' in values:
-                    match_type = values['match']
+            # Check the name type we're matching for, and the titles to remove
+            for value in input_dat.clone_list.removes:
+                if 'nameType' in value:
+                    name_type = value['nameType']
 
-                    if not (match_type == 'full'
-                        or match_type == 'short'
-                        or match_type == 'tag free'):
-                            match_type = 'tag free'
+                    if not (name_type == 'full'
+                        or name_type == 'short'
+                        or name_type == 'regionFree'
+                        or name_type == 'tagFree'):
+                            name_type = 'tagFree'
 
                 # Look up the title in the dictionary, then process the required changes
-                found_titles = TitleTools.find_title(key, match_type, processed_titles, missing_titles, config)
+                found_titles = TitleTools.find_title(value['searchTerm'], name_type, processed_titles, missing_titles, config)
 
                 if config.user_input.trace:
                     report_on_match = TraceTools.trace_enable(set(found_titles), config.user_input.trace)
 
                 for title in found_titles:
-                    if title in processed_titles[TitleTools.get_group_name(key, config)]:
+                    if title in processed_titles[TitleTools.get_group_name(value['searchTerm'], config)]:
 
                         if report_on_match:
                             eprint('')
@@ -667,7 +747,7 @@ class CloneListTools(object):
                             eprint(f'\n{Font.disabled}Press enter to continue{Font.end}')
                             input()
 
-                        processed_titles[TitleTools.get_group_name(key, config)].remove(title)
+                        processed_titles[TitleTools.get_group_name(value['searchTerm'], config)].remove(title)
                         title.exclude_reason = 'Clone list remove'
                         removes.clonelist_removes.add(title)
                         removes_count += 1
@@ -700,197 +780,6 @@ class CloneListTools(object):
 
 
     @staticmethod
-    def renames(processed_titles: dict[str, list[DatNode]], config: Config, input_dat: Dat, is_includes: bool = False) -> dict[str, list[DatNode]]:
-        """ Processes a dictionary of DatNodes and groups titles together that are the
-        same, but have different names as defined by the related clone list.
-
-        This is the primary function that deals with the fact that, for example,
-        Title, The (USA) is equivalent to Title, Le (France).
-
-        Args:
-            `processed_titles (dict[str, list[DatNode]])`: A work in progress dictionary
-            of DatNodes, originally populated from the input DAT and actively being worked
-            on by Retool.
-            `config (Config)`: The Retool config object.
-            `input_dat (Dat)`: The Retool input_dat object.
-            `is_includes (bool, optional)`: Set to `True` when processing includes. Is
-            only used to produce reliable reporting when performing a trace. Defaults to
-            `False`.
-
-        Returns:
-            `dict[str, list[DatNode]]`: A dictionary of DatNodes that has had all like
-            titles grouped together as defined by the related clone list.
-        """
-
-        if input_dat.clone_list.renames:
-            eprint('* Applying clone list renames... ', sep=' ', end='', flush=True)
-
-            report_on_match: bool = False
-            warning_given: bool = False
-            missing_titles: set[str] = set()
-            delete_titles: set[tuple[DatNode, str]] = set()
-
-            for key, values in input_dat.clone_list.renames.items():
-                for value in values:
-                    if type(value) is dict:
-                        if not (
-                            'title' in value
-                            or 'compilation' in value
-                            or 'superset' in value):
-                                if config.user_input.verbose:
-                                    warning_given = True
-                                    printwrap(
-                                        f'{Font.warning}* The following rename entry is invalid, '
-                                        'and should be in the format {"title": "<name>"}, '
-                                        '{"compilation": "<name>", or "superset": "<name>"}',
-                                        'error')
-                                    eprint(f'  {value}{Font.end}')
-                                continue
-                    else:
-                        if config.user_input.verbose:
-                            warning_given = True
-                            printwrap(
-                                f'{Font.warning}* The following rename entry isn\'t an object '
-                                f'and will be skipped:',
-                                'error')
-                            eprint(f'  {value}{Font.end}')
-                        continue
-
-                    rename_title: str
-
-                    if 'title' in value:
-                        rename_title = value['title']
-                    elif 'compilation' in value:
-                        rename_title = value['compilation']
-                    elif 'superset' in value:
-                        rename_title = value['superset']
-                    else:
-                        continue
-
-                    match_type: str = ''
-
-                    if 'match' in value:
-                        match_type = value['match']
-                    else:
-                        match_type: str = 'short'
-
-                    # Look up the title in the dictionary, then process the required changes
-                    if match_type == 'regex':
-                        valid_regex:list[str] = regex_test([rename_title], 'renames', is_user_filter=False)
-
-                        if not valid_regex:
-                            continue
-
-                        found_titles: list[DatNode] = TitleTools.find_title(rename_title, match_type, processed_titles, missing_titles, config, deep_search=True)
-                    else:
-                        found_titles: list[DatNode] = TitleTools.find_title(rename_title, match_type, processed_titles, missing_titles, config)
-
-                    old_group_name: str = TitleTools.get_group_name(rename_title, config)
-                    new_group_name: str = TitleTools.get_group_name(key, config)
-
-                    new_group_name = new_group_name.lower()
-
-                    if new_group_name not in processed_titles:
-                        processed_titles[new_group_name] = []
-
-                    # If the title's not found in the DAT, add it to missing_titles,
-                    # otherwise add it to the delete list, then move it to the new
-                    # group
-                    if not found_titles:
-                        if 'title' in value:
-                            missing_titles.add(value['title'])
-                        elif 'compilation' in value:
-                            missing_titles.add(value['compilation'])
-                        elif 'superset' in value:
-                            missing_titles.add(value['superset'])
-                    else:
-                        if config.user_input.trace:
-                            report_on_match = TraceTools.trace_enable(set(found_titles), config.user_input.trace)
-
-                        for title in found_titles:
-                            if title in processed_titles[old_group_name]:
-                                if (
-                                    report_on_match
-                                    and new_group_name != title.group_name
-                                    and not is_includes):
-                                        eprint('')
-                                        TraceTools.trace_title('REF0055')
-                                        eprint(f'* {title.full_name}')
-                                        eprint(f'  New group: {new_group_name}\n{Font.disabled}  Old group: {title.group_name}{Font.end}')
-                                        eprint(f'\n{Font.disabled}Press enter to continue{Font.end}')
-                                        input()
-
-                                if (
-                                    'title' in value
-                                    or 'superset' in value):
-                                    new_title: DatNode = copy.deepcopy(title)
-                                    new_title.group_name = new_group_name
-                                    new_title.short_name = key.lower()
-
-                                    if 'priority' in value:
-                                        new_title.clonelist_priority = value['priority']
-                                    else:
-                                        new_title.clonelist_priority = 1
-
-                                    if 'superset' in value:
-                                        new_title.is_superset = True
-
-                                    processed_titles[new_group_name].append(new_title)
-
-                                    delete_titles.add((title, old_group_name))
-
-                                elif 'compilation' in value:
-                                    for compilation_title in processed_titles[old_group_name]:
-                                        if compilation_title.full_name == title.full_name:
-                                            title_position: int = 1
-                                            if 'title_position' in value:
-                                                title_position = value['title_position']
-
-                                            if 'priority' in value:
-                                                clonelist_priority: int = value['priority']
-                                            else:
-                                                clonelist_priority = 1
-
-                                            compilation_title.contains_titles[key] = {"position": title_position, "priority": clonelist_priority}
-
-            # Delete titles from old groups, and clean up empty groups
-            for title, old_group_name in delete_titles:
-                if title in processed_titles[old_group_name]:
-                    processed_titles[old_group_name].remove(title)
-
-                if not processed_titles[old_group_name]:
-                    del processed_titles[old_group_name]
-
-            if missing_titles and config.user_input.verbose:
-                eprint('')
-                printwrap(
-                    f'{Font.warning}* The following rename titles in the '
-                    'clone list can\'t be found in the input DAT and will '
-                    'be skipped:', 'error')
-
-                eprint('')
-
-                for missing_title in sorted(missing_titles):
-                    eprint(f'  *  {missing_title}')
-
-                eprint(f'{Font.end}')
-
-                if config.user_input.warningpause:
-                    eprint(f'\n{Font.disabled}Press enter to continue{Font.end}')
-                    input()
-
-            if (
-                (warning_given
-                 or missing_titles)
-                and config.user_input.verbose):
-                    eprint('* Applying clone list renames... done')
-            else:
-                eprint('done.')
-
-        return processed_titles
-
-
-    @staticmethod
     def update_clonelists_metadata(config: Config, gui_input: UserInput) -> None:
         """ Downloads the latest clone lists and support files
 
@@ -915,14 +804,14 @@ class CloneListTools(object):
 
         eprint(f'* Downloading {Font.bold}{config.config_file}{Font.end}... ')
 
-        failed = download(f'{download_location}/{config.config_file}', pathlib.Path(f'{config.config_file}'))
+        failed = download(f'{download_location}/{config.config_file}', str(pathlib.Path(f'{config.config_file}')))
 
         if not failed:
             eprint(f'\033[F\033[K* Downloading {Font.bold}{config.config_file}{Font.end}... done.')
 
         eprint(f'* Downloading {Font.bold}datafile.dtd{Font.end}... ')
 
-        failed = download(f'{download_location}/datafile.dtd', pathlib.Path('datafile.dtd'))
+        failed = download(f'{download_location}/datafile.dtd', str(pathlib.Path('datafile.dtd')))
 
         if not failed:
             eprint(f'\033[F\033[K* Downloading {Font.bold}datafile.dtd{Font.end}... done.')
@@ -953,7 +842,7 @@ class CloneListTools(object):
 
             # Get the hash.json
             eprint(f'* Checking for updated {update_name}...')
-            download(f'{download_url}/hash.json', pathlib.Path(f'{local_path}/hash.json'))
+            download(f'{download_url}/hash.json', str(pathlib.Path(f'{local_path}/hash.json')))
 
             if pathlib.Path(f'{local_path}/hash.json').exists():
                 try:
@@ -969,7 +858,7 @@ class CloneListTools(object):
 
                 for file_name, hash_value in json.loads(file_hash_str).items():
                     if pathlib.Path(f'{local_path}/{file_name}').resolve().exists():
-                        hash_md5: _Hash = hashlib.md5()
+                        hash_sha256: _Hash = hashlib.sha256()
 
                         # Convert files from CRLF to LF to verify if they need updating
                         try:
@@ -987,25 +876,25 @@ class CloneListTools(object):
                         try:
                             with open (pathlib.Path(f'{local_path}/{file_name}').resolve(), 'rb') as file:
                                 for chunk in iter(lambda: file.read(4096), b''):
-                                    hash_md5.update(chunk)
+                                    hash_sha256.update(chunk)
                         except OSError as e:
                                 eprint(f'\n{Font.error_bold}* Error: {Font.end}{str(e)}\n')
                                 raise
 
-                        if hash_md5.hexdigest() != hash_value:
+                        if hash_sha256.hexdigest() != hash_value:
                             eprint(f'  * Found an updated {update_name[:-1]}, {Font.bold}{file_name}{Font.end}. Downloading... ')
                             file_count += 1
-                            failed = download(f'{download_url}/{file_name}', pathlib.Path(f'{local_path}/{file_name}'))
+                            failed = download(f'{download_url}/{file_name}', str(pathlib.Path(f'{local_path}/{file_name}')))
                             if not failed:
                                 eprint(f'\033[F\033[K  * Found an updated {update_name[:-1]}, {Font.bold}{file_name}{Font.end}. Downloading... done.')
                     else:
                         eprint(f'  * Found a new {update_name[:-1]}, {Font.bold}{file_name}{Font.end}. Downloading... ')
                         file_count += 1
-                        failed = download(f'{download_url}/{file_name}', pathlib.Path(f'{local_path}/{file_name}'))
+                        failed = download(f'{download_url}/{file_name}', str(pathlib.Path(f'{local_path}/{file_name}')))
                         if not failed:
                             eprint(f'\033[F\033[K  * Found a new {update_name[:-1]}, {Font.bold}{file_name}{Font.end}. Downloading... done.')
             else:
-                eprint(f'{Font.warning}{str(pathlib.Path(f"{local_path}/{file_name}"))} doesn\'t exist, can\'t update {update_name}.{Font.end}')
+                eprint(f'{Font.warning}{str(pathlib.Path(f"{local_path}/hash.json"))} doesn\'t exist, can\'t update {update_name}.{Font.end}')
 
             return file_count
 
@@ -1024,3 +913,234 @@ class CloneListTools(object):
             raise ExitRetool
         else:
             sys.exit()
+
+    @staticmethod
+    def variants(processed_titles: dict[str, list[DatNode]], config: Config, input_dat: Dat, is_includes: bool = False) -> dict[str, list[DatNode]]:
+        """ Processes a dictionary of DatNodes and groups titles together that are the
+        same, but have different names as defined by the related clone list.
+
+        This is the primary function that deals with the fact that, for example,
+        Title, The (USA) is equivalent to Title, Le (France).
+
+        Args:
+            `processed_titles (dict[str, list[DatNode]])`: A work in progress dictionary
+            of DatNodes, originally populated from the input DAT and actively being worked
+            on by Retool.
+            `config (Config)`: The Retool config object.
+            `input_dat (Dat)`: The Retool input_dat object.
+            `is_includes (bool, optional)`: Set to `True` when processing includes. Is
+            only used to produce reliable reporting when performing a trace. Defaults to
+            `False`.
+
+        Returns:
+            `dict[str, list[DatNode]]`: A dictionary of DatNodes that has had all like
+            titles grouped together as defined by the related clone list.
+        """
+
+        if input_dat.clone_list.variants:
+            eprint('* Analyzing clone list variants... ', sep=' ', end='', flush=True)
+
+            report_on_match: bool = False
+            warning_given: bool = False
+            missing_titles: set[str] = set()
+            delete_titles: set[tuple[DatNode, str]] = set()
+
+            for value in input_dat.clone_list.variants:
+                if type(value) is dict:
+                    if not (
+                        'group' and
+                        ('titles' in value
+                        or 'compilations' in value
+                        or 'supersets' in value)):
+                            if config.user_input.verbose:
+                                warning_given = True
+                                printwrap(
+                                    f'{Font.warning}* The following variants entry is invalid, '
+                                    f'as it\'s missing a {Font.bold}group{Font.warning} key and '
+                                    f'one of the following keys: {Font.bold}titles{Font.warning}, '
+                                    f'{Font.bold}compilations{Font.warning}, or '
+                                    f'{Font.bold}supersets{Font.warning}',
+                                    'error')
+                                eprint(f'\n  {value}{Font.end}')
+
+                            if config.user_input.warningpause:
+                                eprint(f'\n{Font.disabled}Press enter to continue{Font.end}')
+                                input()
+                            continue
+                else:
+                    if config.user_input.verbose:
+                        warning_given = True
+                        printwrap(
+                            f'{Font.warning}* The following variants entry isn\'t an object '
+                            f'and will be skipped:',
+                            'error')
+                        eprint(f'\n  {value}{Font.end}')
+
+                        if config.user_input.warningpause:
+                            eprint(f'\n{Font.disabled}Press enter to continue{Font.end}')
+                            input()
+                    continue
+
+                def process_variants(variant_titles: list[dict[str, Any]], variant_type: str, report_on_match: bool) -> None:
+                    """ Looks up a variant from a clone list and modifies its DatNode entry
+                    accordingly.
+
+                    Args:
+                        `variant_titles (list[dict[str, str])`: The titles, supersets, or
+                        compilations array from a variants object in the clone list.
+                        `variant_type (str)`: The type of variant being processed, either
+                        'title', 'compilation', or 'superset'.
+                        `report_on_match (bool)`: Whether Retool needs to report any
+                        titles being traced.
+                    """
+                    for variant_title in variant_titles:
+                        if 'searchTerm' not in variant_title:
+                            printwrap(
+                                f'{Font.warning}* The following variants entry is missing a '
+                                f'{Font.bold}searchTerm{Font.warning} key and will be skipped:',
+                                'error')
+                            eprint(f'\n  {variant_title}{Font.end}')
+
+                            if config.user_input.warningpause:
+                                eprint(f'\n{Font.disabled}Press enter to continue{Font.end}')
+                                input()
+                            continue
+                        else:
+                            variant_name = variant_title['searchTerm']
+
+                        name_type: str = ''
+
+                        if 'nameType' in variant_title:
+                            name_type = variant_title['nameType']
+                            if not (name_type == 'full'
+                                or name_type == 'short'
+                                or name_type == 'regionFree'
+                                or name_type == 'tagFree'
+                                or name_type == 'regex'):
+                                    name_type = 'short'
+                        else:
+                            name_type = 'short'
+
+                        # Look up the title in the dictionary, then process the required changes
+                        found_titles: list[DatNode]
+
+                        if name_type == 'regex':
+                            valid_regex:list[str] = regex_test([variant_name], 'variants', is_user_filter=False)
+
+                            if not valid_regex:
+                                continue
+
+                            found_titles = TitleTools.find_title(variant_name, name_type, processed_titles, missing_titles, config, deep_search=True)
+                        else:
+                            found_titles = TitleTools.find_title(variant_name, name_type, processed_titles, missing_titles, config)
+
+                        old_group_names: set[str] = set()
+
+                        for title in found_titles:
+                            old_group_names.add(title.group_name)
+
+                        new_group_name: str = TitleTools.get_group_name(value['group'], config)
+
+                        new_group_name = new_group_name.lower()
+
+                        if new_group_name not in processed_titles:
+                            processed_titles[new_group_name] = []
+
+                        # If the title's not found in the DAT, add it to missing_titles,
+                        # otherwise add it to the delete list, then move it to the new
+                        # group
+                        if not found_titles:
+                            missing_titles.add(variant_name)
+                        else:
+                            if config.user_input.trace:
+                                report_on_match = TraceTools.trace_enable(set(found_titles), config.user_input.trace)
+
+                            for title in found_titles:
+                                for old_group_name in old_group_names:
+                                    if title in processed_titles[old_group_name]:
+                                        if (
+                                            report_on_match
+                                            and new_group_name != title.group_name
+                                            and not is_includes):
+                                                eprint('')
+                                                TraceTools.trace_title('REF0055')
+                                                eprint(f'* {title.full_name}')
+                                                eprint(f'  New group: {new_group_name}\n{Font.disabled}  Old group: {title.group_name}{Font.end}')
+                                                eprint(f'\n{Font.disabled}Press enter to continue{Font.end}')
+                                                input()
+
+                                        if (
+                                            variant_type == 'title'
+                                            or variant_type == 'superset'):
+                                                new_title: DatNode = copy.deepcopy(title)
+                                                new_title.group_name = new_group_name
+                                                new_title.short_name = value['group'].lower()
+
+                                                if 'priority' in variant_title:
+                                                    new_title.clonelist_priority = variant_title['priority']
+                                                else:
+                                                    new_title.clonelist_priority = 1
+
+                                                if variant_type == 'superset':
+                                                    new_title.is_superset = True
+
+                                                processed_titles[new_group_name].append(new_title)
+
+                                                delete_titles.add((title, old_group_name))
+
+                                        elif variant_type =='compilation':
+                                            for compilation_title in processed_titles[old_group_name]:
+                                                if compilation_title.full_name == title.full_name:
+                                                    title_position: int = 1
+                                                    if 'titlePosition' in variant_title:
+                                                        title_position = variant_title['titlePosition']
+
+                                                    if 'priority' in variant_title:
+                                                        clonelist_priority: int = variant_title['priority']
+                                                    else:
+                                                        clonelist_priority = 1
+
+                                                    compilation_title.contains_titles[value['group']] = {"position": title_position, "priority": clonelist_priority}
+
+                if 'titles' in value:
+                    process_variants(value['titles'], 'title', report_on_match)
+                if 'compilations' in value:
+                    process_variants(value['compilations'], 'compilation', report_on_match)
+                if 'supersets' in value:
+                    process_variants(value['supersets'], 'superset', report_on_match)
+
+            # Delete titles from old groups, and clean up empty groups
+            for title, old_group_name in delete_titles:
+                if title in processed_titles[old_group_name]:
+                    processed_titles[old_group_name].remove(title)
+
+                if not processed_titles[old_group_name]:
+                    del processed_titles[old_group_name]
+
+            if missing_titles and config.user_input.verbose:
+                eprint('')
+                printwrap(
+                    f'{Font.warning}* The following variants titles in the '
+                    'clone list can\'t be found in the input DAT and will '
+                    'be skipped:', 'error')
+
+                eprint('')
+
+                for missing_title in sorted(missing_titles):
+                    eprint(f'  *  {missing_title}')
+
+                eprint(f'{Font.end}')
+
+                if config.user_input.warningpause:
+                    eprint(f'\n{Font.disabled}Press enter to continue{Font.end}')
+                    input()
+
+            if (
+                (warning_given
+                 or missing_titles)
+                and config.user_input.verbose):
+                    eprint('* Analyzing clone list variants... done')
+            else:
+                eprint('done.')
+
+        return processed_titles

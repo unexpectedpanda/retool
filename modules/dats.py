@@ -3,6 +3,7 @@ from __future__ import annotations
 import html
 import os
 import pathlib
+import psutil
 import re
 import sys
 
@@ -12,14 +13,15 @@ from functools import partial
 from lxml import etree, html as html_
 from typing import Any, TYPE_CHECKING
 
-from modules.clonelists import CloneList
-from modules.interruptible_pool import InterruptiblePool
-from modules.titletools import Regex, TitleTools
-from modules.utils import eprint, ExitRetool, format_value, Font, pattern2string, printwrap
-
 if TYPE_CHECKING:
     from modules.config import Config
     from modules.input import UserInput
+
+from modules.constants import *
+from modules.clonelists import CloneList
+from modules.interruptible_pool import InterruptiblePool
+from modules.titletools import Regex, TitleTools
+from modules.utils import eprint, ExitRetool, format_value, Font, pattern2string, printwrap, regex_test
 
 
 class Dat:
@@ -183,7 +185,7 @@ class DatNode:
             if not input_dat.metadata[self.full_name]['languages']:
                 self.languages_online = ()
             else:
-                self.languages_online = tuple(sorted(set(re.sub('\s', '', input_dat.metadata[self.full_name]['languages'].replace('+', ',')).split(','))))
+                self.languages_online = tuple(sorted(input_dat.metadata[self.full_name]['languages']))
 
         self.languages_title_str: str = TitleTools.languages(self.full_name, config, 'get')
         self.languages_title_orig_str: str = self.languages_title_str
@@ -211,10 +213,15 @@ class DatNode:
 
         # Set the canonical supported languages for the title
         if self.languages_online:
-            self.languages = self.languages_online
-        elif not self.languages_online and not self.languages_title:
+            if self.languages_online != ('nolang',):
+                self.languages = self.languages_online
+            else:
+                self.languages_online = ()
+
+        if not self.languages_online and not self.languages_title:
             self.languages = self.languages_implied
-        elif not self.languages_online and self.languages_title:
+
+        if not self.languages_online and self.languages_title:
             self.languages = self.languages_title
 
         self.languages_original = self.languages
@@ -290,29 +297,29 @@ class DatNode:
                     self.categories.append('BIOS')
                 else:
                     self.categories.append(category)
-        else:
-            def category_assign(regexes: tuple[Any, ...], category: str) -> None:
-                """ Assigns a category to a title based on a regex match in its
-                name.
 
-                Args:
-                    `regexes (tuple[Any, ...])`: A collection of regexes to
-                    iterate through.
-                    `category (str)`: The category to assign to the title if a
-                    regex matches.
-                """
+        def category_assign(regexes: tuple[Any, ...], category: str) -> None:
+            """ Assigns a category to a title based on a regex match in its
+            name.
 
-                for item in regexes:
-                    if re.search(item, self.full_name):
-                        if category not in self.categories:
-                            self.categories.append(category)
+            Args:
+                `regexes (tuple[Any, ...])`: A collection of regexes to
+                iterate through.
+                `category (str)`: The category to assign to the title if a
+                regex matches.
+            """
 
-            category_assign(tuple([config.regex.programs]), 'Applications')
-            category_assign(tuple([config.regex.bios]), 'BIOS')
-            category_assign(config.regex.demos, 'Demos')
-            category_assign(tuple([config.regex.multimedia]), 'Multimedia')
-            category_assign(config.regex.preproduction, 'Preproduction')
-            category_assign(config.regex.video, 'Video')
+            for item in regexes:
+                if re.search(item, self.full_name):
+                    if category not in self.categories:
+                        self.categories.append(category)
+
+        category_assign(tuple([config.regex.programs]), 'Applications')
+        category_assign(tuple([config.regex.bios]), 'BIOS')
+        category_assign(config.regex.demos, 'Demos')
+        category_assign(tuple([config.regex.multimedia]), 'Multimedia')
+        category_assign(config.regex.preproduction, 'Preproduction')
+        category_assign(config.regex.video, 'Video')
 
         if ('[bios]' in self.full_name.lower()):
                 if 'BIOS' not in self.categories:
@@ -339,11 +346,23 @@ class DatNode:
         region_priority: set[int] = set()
         language_priority: set[int] = set()
 
-        for i, region in enumerate(config.region_order_user):
+        # Check if a system config is in play
+        language_order: list[str] = config.language_order_user
+        region_order: list[str] = config.region_order_user
+
+        if config.system_language_order_user:
+            if {'override': 'true'} in config.system_language_order_user:
+                language_order = [str(x) for x in config.system_language_order_user if 'override' not in x]
+
+        if config.system_region_order_user:
+            if {'override': 'true'} in config.system_region_order_user:
+                region_order = [str(x) for x in config.system_region_order_user if 'override' not in x]
+
+        for i, region in enumerate(region_order):
             if region in self.regions:
                 region_priority.add(i)
 
-                for j, language_code in enumerate(config.languages_user):
+                for j, language_code in enumerate(language_order):
                     for language in self.languages:
                         if re.search(language_code, language):
                             language_priority.add(j)
@@ -457,11 +476,10 @@ def convert_clrmame_dat(input_dat: Dat, input_type: str, gui_input: UserInput, c
     clrmame_titles: list[str] = re.findall('game \\($.*?^\\)$', input_dat.contents_str, re.M|re.S)
 
     convert_dat: list[str] = [
-            '<?xml version="1.0"?>\n'
-            '<!DOCTYPE datafile PUBLIC "-//Logiqx//DTD ROM Management Datafile//EN" '
-            '"https://raw.githubusercontent.com/unexpectedpanda/retool-clonelists-metadata/main/datafile.dtd">\n'
-            '<datafile>\n'
-            '\t<header>\n'
+            '<?xml version="1.0"?>',
+            '<!DOCTYPE datafile PUBLIC "-//Logiqx//DTD ROM Management Datafile//EN" "https://raw.githubusercontent.com/unexpectedpanda/retool-clonelists-metadata/main/datafile.dtd">',
+            '<datafile>',
+            '<header>'
         ]
 
     dat_name: str = ''
@@ -665,7 +683,8 @@ def convert_clrmame_dat(input_dat: Dat, input_type: str, gui_input: UserInput, c
 
 
 def process_dat(dat_file: str, input_type: str, gui_input: UserInput, config: Config) -> Dat:
-    """ Reads in an input DAT file and prepares the data for use in Retool.
+    """ Reads in an input DAT file and prepares the data for use in Retool. Also imports
+    system configs, including the related clone list and metadata file.
 
     Args:
         `dat_file (str)`: The DAT file being processed.
@@ -683,8 +702,6 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput, config: Co
         data efficiently.
     """
 
-    from modules.input import import_clone_list, import_metadata
-
     # Set a string for skipping to the next file if something goes wrong in a batch
     # operation
     if not input_type == 'file':
@@ -693,15 +710,13 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput, config: Co
         next_status = ''
 
     # Import the DAT file
-    if not gui_input:
-        printwrap(f'* Reading DAT file: "{Font.bold}{pathlib.Path(dat_file).resolve()}{Font.end}"')
+    printwrap(f'* Reading DAT file: "{Font.bold}{pathlib.Path(dat_file).resolve()}{Font.end}"')
 
     input_dat: Dat = Dat()
 
     try:
         with open(pathlib.Path(dat_file), 'r', encoding='utf-8') as input_file:
-            if not gui_input:
-                eprint('* Validating DAT file... ', sep=' ', end='', flush=True)
+            eprint('* Validating DAT file... ', sep=' ', end='', flush=True)
             input_dat.contents = input_file.readlines()
             input_dat.contents_str = ''.join(input_dat.contents)
 
@@ -830,9 +845,7 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput, config: Co
                             input_dat.end = True
                             return input_dat
                     else:
-                        if (
-                            not gui_input
-                            and not failed_check):
+                        if not failed_check:
                             eprint('file is a Logiqx DAT file.')
 
             except OSError as e:
@@ -932,24 +945,22 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput, config: Co
         else:
             input_dat.search_name = f'{input_dat.search_name}'
 
-        # Import the system clone list
-        input_dat.clone_list = import_clone_list(input_dat, gui_input, config)
-
-        # Import the system metadata
-        input_dat.metadata = import_metadata(input_dat, config)
-
         search_games: list[Any] = root.findall('game')
 
-        if config.user_input.trace or config.stdout:
+        if config.user_input.trace:
             alive_bar_context = nullcontext()
             eprint('* Selecting 1G1R titles...')
         else:
-            bar = 'smooth'
-            spinner = 'waves'
-            if sys.platform.startswith('win'):
-                spinner = 'classic'
+            progress_bar: str = 'smooth'
+            spinner: str = 'waves'
+            parent_processes: list[str] = [str(x).lower() for x in psutil.Process(os.getpid()).parents()]
 
-            alive_bar_context = alive_bar(2 + len(search_games), title=f'* Processing DAT file', length=20, enrich_print=False, stats=False, monitor='{percent:.2%}', receipt_text=True, bar=bar, spinner=spinner)
+            if any(s for s in parent_processes if 'cmd.exe' in s or 'powershell.exe' in s or 'explorer.exe' in s):
+                if not any(s for s in parent_processes if 'code.exe' in s or 'windowsterminal.exe' in s):
+                    progress_bar = 'classic2'
+                    spinner = 'classic'
+
+            alive_bar_context = alive_bar(2 + len(search_games), title=f'* Processing DAT file', length=20, enrich_print=False, stats=False, monitor='{percent:.2%}', receipt_text=True, bar=progress_bar, spinner=spinner, file=sys.stderr)
 
         with alive_bar_context as bar:
             # Create an object for each title
@@ -966,7 +977,7 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput, config: Co
 
                 # Get multiple categories if the input DAT supports them
                 for category in game.xpath('category'): # type: ignore[union-attr]
-                    categories.append(category.text)
+                    categories.append(str(category.text)) #type: ignore[union-attr]
 
                 if categories:
                     node_dict['category'] = categories
@@ -1003,8 +1014,8 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput, config: Co
 
                 all_games.append(node_dict)
 
-                if not (config.user_input.trace or config.stdout):
-                    bar()
+                if not (config.user_input.trace):
+                    bar() # type: ignore
 
             if not all_games:
                     eprint('')
@@ -1022,6 +1033,34 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput, config: Co
                         input_dat.end = True
                         return input_dat
 
+            # Import system settings
+            from modules.input import import_clone_list, import_metadata, import_system_settings
+            import_system_settings(
+                config,
+                input_dat.search_name,
+                SYSTEM_LANGUAGE_ORDER_KEY,
+                SYSTEM_REGION_ORDER_KEY,
+                SYSTEM_VIDEO_ORDER_KEY,
+                SYSTEM_LIST_PREFIX_KEY,
+                SYSTEM_LIST_SUFFIX_KEY,
+                SYSTEM_EXCLUSIONS_OPTIONS_KEY)
+
+            # Check all the user filters for invalid regex and strip it out
+            if not config.user_input.no_filters:
+                config.global_exclude = regex_test(list(config.global_exclude), 'global exclude')
+                config.global_include = regex_test(list(config.global_include), 'global include')
+                config.system_exclude = regex_test(list(config.system_exclude), 'system exclude')
+                config.system_include = regex_test(list(config.system_include), 'system include')
+
+            # Import the clone list
+            input_dat.clone_list = import_clone_list(input_dat, gui_input, config)
+
+            # Import the metadata file
+            input_dat.metadata = import_metadata(input_dat, config)
+
+            if not (config.user_input.trace):
+                bar() # type: ignore
+
             # Define DatNode as the function to run on multiple processors, and
             # use a partial to prepush arg values into it as a sort of
             # prepackaged function so we can use it in a map later
@@ -1034,8 +1073,8 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput, config: Co
                 with InterruptiblePool(int(str(os.cpu_count()))) as p:
                     process_list = (p.map(func, all_games))
 
-            if not (config.user_input.trace or config.stdout):
-                bar()
+            if not (config.user_input.trace):
+                bar() # type: ignore
 
             # Create a dictionary of titles sorted by group name
             original_titles: dict[str, list[DatNode]] = {}
@@ -1078,8 +1117,8 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput, config: Co
 
             input_dat.contents_dict = original_titles
 
-            if not (config.user_input.trace or config.stdout):
-                bar()
+            if not (config.user_input.trace):
+                bar() # type: ignore
 
             if duplicate_titles:
                 printwrap(
@@ -1093,7 +1132,7 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput, config: Co
 
                 eprint(f'{Font.end}')
 
-        eprint('\033[F\033[K* Processing DAT file... done\n', end='')
+        eprint('\033[F\033[K* Processing DAT file... done\n')
     else:
         eprint('failed.')
         if '<game' not in input_dat.contents:

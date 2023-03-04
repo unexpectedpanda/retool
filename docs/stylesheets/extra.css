@@ -1,0 +1,77 @@
+html {
+	overflow-y: scroll;
+}
+
+.twemoji {
+	margin-right: 0.4em;
+}
+
+:root > * {
+	--md-primary-fg-color:        #2d2d31;
+}
+
+.inline-icon {
+	height: 1.5em!important;
+	display: inline-block;
+	position:relative;
+	top: 0.3em;
+	margin-left: 0.3em;
+}
+
+.move-button {
+	filter: brightness(0) invert(1);
+	margin-left: 0;
+	margin-right: -0.1em;
+}
+
+/* Variables in code blocks */
+.variable {
+	color: #d151d1;
+	font-size: 1.1em;
+	font-style: italic;
+	font-weight: 700;
+}
+
+/* Line highlights in code blocks */
+.codehighlight {
+	display: inline-flex;
+	width: 100%;
+	margin: 0.2em 0 0.1em -0.5em;
+	padding: 0.4em 0.2em 0.3em 0.5em;
+	border-left: 2px solid #ffffff70;
+	background-color: var(--md-code-hl-color);
+	font-weight: 700;
+}
+
+/* External links */
+div.md-content p a[href^="http"]::after, div.md-content p a[href^="https"]::after {
+	/* Add this to your custom CSS file wrapped with an appropriate selector like discussed above */
+	content: "";
+	padding-right: 12px; /* Affects font scaling */
+	margin-right: 0.2em;
+	margin-left: 0.2em;
+	background-color: currentColor; /* inherit the relevant colour to match the text label */
+	-webkit-mask-repeat: no-repeat;
+	-webkit-mask-size: contain;
+	-webkit-mask-position-y: 30%; /* vertically adjust Y position of icon to better place it */
+	/* Add the SVG below (this one is the font-awesome external-link SVG sourced from `mkdocs-material/material/.icons/fontawesome/solid/external-link-alt.svg`) */
+	/* make sure it's encoded properly: https://yoksel.github.io/url-encoder/ */
+	-webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M10.604 1h4.146a.25.25 0 0 1 .25.25v4.146a.25.25 0 0 1-.427.177L13.03 4.03 9.28 7.78a.75.75 0 0 1-1.06-1.06l3.75-3.75-1.543-1.543A.25.25 0 0 1 10.604 1zM3.75 2A1.75 1.75 0 0 0 2 3.75v8.5c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0 0 14 12.25v-3.5a.75.75 0 0 0-1.5 0v3.5a.25.25 0 0 1-.25.25h-8.5a.25.25 0 0 1-.25-.25v-8.5a.25.25 0 0 1 .25-.25h3.5a.75.75 0 0 0 0-1.5h-3.5z'%3E%3C/path%3E%3C/svg%3E");
+	mask-repeat: no-repeat;
+	mask-size: contain;
+	mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M10.604 1h4.146a.25.25 0 0 1 .25.25v4.146a.25.25 0 0 1-.427.177L13.03 4.03 9.28 7.78a.75.75 0 0 1-1.06-1.06l3.75-3.75-1.543-1.543A.25.25 0 0 1 10.604 1zM3.75 2A1.75 1.75 0 0 0 2 3.75v8.5c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0 0 14 12.25v-3.5a.75.75 0 0 0-1.5 0v3.5a.25.25 0 0 1-.25.25h-8.5a.25.25 0 0 1-.25-.25v-8.5a.25.25 0 0 1 .25-.25h3.5a.75.75 0 0 0 0-1.5h-3.5z'%3E%3C/path%3E%3C/svg%3E");
+}
+
+/* Terminology links */
+a[href*="/terminology/#"], a[href*="/terminology/#"]:visited, a[href*="/terminology/#"]:hover, a[href*="/terminology/#"]:focus {
+	border-bottom: 1px dotted;
+}
+
+/* Tick and cross colors */
+.redcross path {
+	fill: rgb(207, 51, 51);
+}
+
+.greentick path {
+	fill: rgb(90, 207, 135);
+}

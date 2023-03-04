@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import itertools
 import os
+import psutil
 import re
 import sys
 
@@ -52,7 +53,7 @@ class ParentTools(object):
         compilation_groups: set[frozenset[str]] = set()
 
         for title in title_set:
-            # ! Using TitleTools.get_group_name to strip parentheses could be an issue in the future, keep an eye on this one
+            #TODO: Using TitleTools.get_group_name to strip parentheses could be an issue in the future, keep an eye on this one
             compilation_groups.add(frozenset([TitleTools.get_group_name(x, config) for x in title.contains_titles]))
 
         # Find the groups that have crossover titles. For example, compilations A + B
@@ -74,6 +75,13 @@ class ParentTools(object):
         # Remove dupes
         crossover_groups: list[Any[str]] = (list(l for l, _ in itertools.groupby(l)))
         crossover_groups = [[x.lower() for x in sublst] for sublst in crossover_groups]
+
+        # Check if a system config is in play
+        region_order: list[str] = config.region_order_user
+
+        if config.system_region_order_user:
+            if {'override': 'true'} in config.system_region_order_user:
+                region_order = [str(x) for x in config.system_region_order_user if 'override' not in x]
 
         # Prepare compilations and standalone titles in a way that Retool can process for
         # clones
@@ -132,7 +140,7 @@ class ParentTools(object):
                 if report_on_match: TraceTools.trace_title('REF0080', [group], group_titles, keep_remove=False)
 
                 # Filter by user region order
-                group_titles = ParentTools.choose_multi_regions(group_titles, config.region_order_user, report_on_match)
+                group_titles = ParentTools.choose_multi_regions(group_titles, region_order, report_on_match)
 
                 if report_on_match: TraceTools.trace_title('REF0069', [group], group_titles, keep_remove=False)
 
@@ -489,6 +497,14 @@ class ParentTools(object):
             `set[DatNode]`: A set of DatNodes filtered by language priority.
         """
 
+        # Check if a system config is in play
+        language_order: list[str] = config.language_order_user
+
+        if config.system_language_order_user:
+            if {'override': 'true'} in config.system_language_order_user:
+                language_order = [str(x) for x in config.system_language_order_user if 'override' not in x]
+
+        # Select titles based on language
         remove_titles: set[DatNode] = set()
 
         for title_1, title_2 in itertools.combinations(title_set, 2):
@@ -500,7 +516,7 @@ class ParentTools(object):
                 and title_2 in title_set
                 and 'BIOS' not in title_1.categories
                 and 'BIOS' not in title_2.categories):
-                    for language in config.languages_user:
+                    for language in language_order:
                         if (
                             title_1.primary_region == title_2.primary_region
                             and title_1.languages
@@ -511,7 +527,7 @@ class ParentTools(object):
                                 and not re.search(language, ','.join(title_2.languages))):
                                     if title_2 in title_set:
                                         if report_on_match:
-                                            TraceTools.trace_title('REF0028', [', '.join(config.languages_user)])
+                                            TraceTools.trace_title('REF0028', [', '.join(language_order)])
                                             TraceTools.trace_title('', [f'{Font.italic}({",".join(title_1.languages) + ")":<30}{Font.end} [{title_1.short_name}] {title_1.full_name}', f'{Font.italic}({",".join(title_2.languages) + ")":<30}{Font.end}{Font.disabled} [{title_2.short_name}] {title_2.full_name}{Font.end}'], keep_remove=True)
 
                                         remove_titles.add(title_2)
@@ -522,7 +538,7 @@ class ParentTools(object):
                                 and not re.search(language, ','.join(title_1.languages))):
                                     if title_1 in title_set:
                                         if report_on_match:
-                                            TraceTools.trace_title('REF0029', [', '.join(config.languages_user)])
+                                            TraceTools.trace_title('REF0029', [', '.join(language_order)])
                                             TraceTools.trace_title('', [f'{Font.italic}({",".join(title_2.languages) + ")":<30}{Font.end} [{title_2.short_name}] {title_2.full_name}', f'{Font.italic}({",".join(title_1.languages) + ")":<30}{Font.end}{Font.disabled} [{title_1.short_name}] {title_1.full_name}{Font.end}'], keep_remove=True)
 
                                         remove_titles.add(title_1)
@@ -599,11 +615,10 @@ class ParentTools(object):
             each title in a group split by short name, in the format `{short name, language priority, language code regex}`.
             For example, with a language priority of En > Ja:
             `{('title 1 (disc 1)', 1, 'Ja'), ('title 1 (disc 2)', 1, 'Ja'), ('title 1 - special edition', 0, 'En(?:-[A-Z][A-Z])?')}`.
-            `config (Config)`: The Retool config object.
-            `report_on_match (bool)`: Whether Retool needs to report any titles being
-            traced.
             `group_name (str)`: The name of the group being processed, only used as part
             of a trace.
+            `report_on_match (bool)`: Whether Retool needs to report any titles being
+            traced.
 
         Returns:
             `set[DatNode]`: A set of DatNodes that contain titles that only support the
@@ -700,28 +715,40 @@ class ParentTools(object):
 
 
     @staticmethod
-    def choose_made_in(string: Pattern[str], title_set: set[DatNode], report_on_match: bool) -> set[DatNode]:
+    def choose_made_in(pattern: Pattern[str], title_set: set[DatNode], report_on_match: bool) -> set[DatNode]:
+        """ Compares any two titles from a set of DatNodes, and removes the title that contains `pattern`.
+
+        Args:
+            `pattern (Pattern[str])`: The "made in" regex pattern.
+            `title_set (set[DatNode])`: A set of titles as DatNode instances.
+            `report_on_match (bool)`: Whether Retool needs to report any titles being
+            traced.
+
+        Returns:
+            `set[DatNode]`: A set of DatNodes that contain titles that don't match the
+            `pattern`.
+        """
 
         remove_titles: set[DatNode] = set()
 
         for title_1, title_2 in itertools.combinations(title_set, 2):
 
-            regex_search_str_1 = pattern2string(string, title_1.full_name)
-            regex_search_str_2 = pattern2string(string, title_2.full_name)
+            regex_search_str_1 = pattern2string(pattern, title_1.full_name)
+            regex_search_str_2 = pattern2string(pattern, title_2.full_name)
 
-            if re.search(string, title_1.full_name) and re.search(string, title_2.full_name):
+            if re.search(pattern, title_1.full_name) and re.search(pattern, title_2.full_name):
                 if (
                     title_1.primary_region in regex_search_str_1.replace('.', '').replace('EU', 'Europe')
                     and not title_1.primary_region in regex_search_str_2.replace('.', '').replace('EU', 'Europe')):
                         if title_2 in title_set:
-                            if report_on_match: TraceTools.trace_title('REF0036', [f'({str(string).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {title_1.full_name}', f'({str(string).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {title_2.full_name}{Font.end}'], keep_remove=True)
+                            if report_on_match: TraceTools.trace_title('REF0036', [f'({str(pattern).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {title_1.full_name}', f'({str(pattern).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {title_2.full_name}{Font.end}'], keep_remove=True)
 
                             remove_titles.add(title_2)
                 if (
                     title_2.primary_region in regex_search_str_2.replace('.', '').replace('EU', 'Europe')
                     and not title_2.primary_region in regex_search_str_1.replace('.', '').replace('EU', 'Europe')):
                         if title_1 in title_set:
-                            if report_on_match: TraceTools.trace_title('REF0037', [f'({str(string).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {title_2.full_name}', f'({str(string).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {title_1.full_name}{Font.end}'], keep_remove=True)
+                            if report_on_match: TraceTools.trace_title('REF0037', [f'({str(pattern).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {title_2.full_name}', f'({str(pattern).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {title_1.full_name}{Font.end}'], keep_remove=True)
 
                             remove_titles.add(title_1)
 
@@ -780,12 +807,12 @@ class ParentTools(object):
 
 
     @staticmethod
-    def choose_string(string: Pattern[str], title_set: set[DatNode], report_on_match: bool, choose_title_with_string: bool) -> set[DatNode]:
+    def choose_string(pattern: Pattern[str], title_set: set[DatNode], report_on_match: bool, choose_title_with_string: bool) -> set[DatNode]:
         """ Compares any two titles from a set of DatNodes for a string. Can choose the
         title with or without the string.
 
         Args:
-            `string (Pattern[str])`: The string to search for in the title name.
+            `pattern (Pattern[str])`: The pattern to search for in the title name.
             `title_set (set[DatNode])`: A set of titles as DatNode instances.
             `report_on_match (bool)`: Whether Retool needs to report any titles being
             traced.
@@ -794,7 +821,7 @@ class ParentTools(object):
 
         Returns:
             `set[DatNode]`: A set of DatNodes that either does or doesn't contain the
-            specified `string`.
+            specified `pattern`.
         """
 
         remove_titles: set[DatNode] = set()
@@ -809,30 +836,30 @@ class ParentTools(object):
                 and 'BIOS' not in title_1.categories
                 and 'BIOS' not in title_2.categories):
                     if (
-                        re.search(string, title_1.full_name)
-                        and not re.search(string, title_2.full_name)
+                        re.search(pattern, title_1.full_name)
+                        and not re.search(pattern, title_2.full_name)
                     ):
                         if choose_title_with_string:
-                            if report_on_match: TraceTools.trace_title('REF0032', [f'({str(string).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {title_1.full_name}', f'({str(string).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {title_2.full_name}{Font.end}'], keep_remove=True)
+                            if report_on_match: TraceTools.trace_title('REF0032', [f'({str(pattern).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {title_1.full_name}', f'({str(pattern).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {title_2.full_name}{Font.end}'], keep_remove=True)
 
                             remove_title = title_2
                         else:
-                            if report_on_match: TraceTools.trace_title('REF0033', [f'({str(string).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {title_2.full_name}', f'({str(string).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {title_1.full_name}{Font.end}'], keep_remove=True)
+                            if report_on_match: TraceTools.trace_title('REF0033', [f'({str(pattern).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {title_2.full_name}', f'({str(pattern).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {title_1.full_name}{Font.end}'], keep_remove=True)
 
                             remove_title = title_1
 
                         if remove_title in title_set:
                             remove_titles.add(remove_title)
                     elif (
-                        re.search(string, title_2.full_name)
-                        and not re.search(string, title_1.full_name)
+                        re.search(pattern, title_2.full_name)
+                        and not re.search(pattern, title_1.full_name)
                     ):
                         if choose_title_with_string:
-                            if report_on_match: TraceTools.trace_title('REF0034', [f'({str(string).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {title_2.full_name}', f'({str(string).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {title_1.full_name}{Font.end}'], keep_remove=True)
+                            if report_on_match: TraceTools.trace_title('REF0034', [f'({str(pattern).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {title_2.full_name}', f'({str(pattern).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {title_1.full_name}{Font.end}'], keep_remove=True)
 
                             remove_title = title_1
                         else:
-                            if report_on_match: TraceTools.trace_title('REF0035', [f'({str(string).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {title_1.full_name}', f'({str(string).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {title_2.full_name}{Font.end}'], keep_remove=True)
+                            if report_on_match: TraceTools.trace_title('REF0035', [f'({str(pattern).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {title_1.full_name}', f'({str(pattern).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {title_2.full_name}{Font.end}'], keep_remove=True)
 
                             remove_title = title_2
 
@@ -891,12 +918,12 @@ class ParentTools(object):
 
 
     @staticmethod
-    def choose_version_revision(string: Pattern[str], title_set: set[DatNode], config: Config, report_on_match: bool) -> set[DatNode]:
+    def choose_version_revision(pattern: Pattern[str], title_set: set[DatNode], config: Config, report_on_match: bool) -> set[DatNode]:
         """ Compares any two titles from a set of DatNodes to see which one has the
         highest version/revision tag.
 
         Args:
-            `string (Pattern[str])`: The version string to search for in the title name.
+            `pattern (Pattern[str])`: The version pattern to search for in the title name.
             `title_set (set[DatNode])`: A set of titles as DatNode instances.
             `config (Config)`: The Retool config object.
             `report_on_match (bool)`: Whether Retool needs to report any titles being
@@ -909,11 +936,15 @@ class ParentTools(object):
         remove_titles: set[DatNode] = set()
 
         for title_1, title_2 in itertools.combinations(title_set, 2):
-            # Normalize titles in groups that contain "Version 2", "(v2)" and "v2" formatting
+            # Normalize titles that contain "Version #", "(v#)" and "v#" formatting
             title_1_name_normalized: str = re.sub(' Version ((\d\.?)+)', ' (v\\1)', title_1.full_name)
             title_2_name_normalized: str = re.sub(' Version ((\d\.?)+)', ' (v\\1)', title_2.full_name)
             title_1_name_normalized = re.sub(' (v(\d\.?)+)', ' (\\1)', title_1_name_normalized)
             title_2_name_normalized = re.sub(' (v(\d\.?)+)', ' (\\1)', title_2_name_normalized)
+
+            # Fix bad beta tags
+            title_1_name_normalized = re.sub(' \((v(\d\.?)+)beta\)', ' (\\1) (Beta)', title_1_name_normalized)
+            title_2_name_normalized = re.sub(' \((v(\d\.?)+)beta\)', ' (\\1) (Beta)', title_2_name_normalized)
 
             if (
                 title_1.short_name == title_2.short_name
@@ -922,45 +953,60 @@ class ParentTools(object):
                 and 'BIOS' not in title_1.categories
                 and 'BIOS' not in title_2.categories):
                     if (
-                        re.search(string, title_1_name_normalized)
-                        and not re.search(string, title_2_name_normalized)):
-                            if string in config.regex.preproduction:
+                        re.search(pattern, title_1_name_normalized)
+                        and not re.search(pattern, title_2_name_normalized)):
+                            if pattern in config.regex.preproduction:
                                 if title_1 in title_set:
-                                    if report_on_match: TraceTools.trace_title('REF0038', [f'({str(string).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {title_2.full_name}', f'({str(string).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {title_1.full_name}{Font.end}'], keep_remove=True)
+                                    if report_on_match: TraceTools.trace_title('REF0038', [f'({str(pattern).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {title_2.full_name}', f'({str(pattern).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {title_1.full_name}{Font.end}'], keep_remove=True)
 
                                     remove_titles.add(title_1)
                             else:
                                 if title_2 in title_set:
-                                    if report_on_match: TraceTools.trace_title('REF0064', [f'({str(string).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {title_1.full_name}', f'({str(string).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {title_2.full_name}{Font.end}'], keep_remove=True)
+                                    if report_on_match: TraceTools.trace_title('REF0064', [f'({str(pattern).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {title_1.full_name}', f'({str(pattern).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {title_2.full_name}{Font.end}'], keep_remove=True)
 
                                     remove_titles.add(title_2)
                     elif (
-                        re.search(string, title_2_name_normalized)
-                        and not re.search(string, title_1_name_normalized)):
-                            if string in config.regex.preproduction:
+                        re.search(pattern, title_2_name_normalized)
+                        and not re.search(pattern, title_1_name_normalized)):
+                            if pattern in config.regex.preproduction:
                                 if title_2 in title_set:
-                                    if report_on_match: TraceTools.trace_title('REF0039', [f'({str(string).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {title_1.full_name}', f'({str(string).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {title_2.full_name}{Font.end}'], keep_remove=True)
+                                    if report_on_match: TraceTools.trace_title('REF0039', [f'({str(pattern).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {title_1.full_name}', f'({str(pattern).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {title_2.full_name}{Font.end}'], keep_remove=True)
 
                                     remove_titles.add(title_2)
 
                             else:
                                 if title_1 in title_set:
-                                    if report_on_match: TraceTools.trace_title('REF0065', [f'({str(string).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {title_2.full_name}', f'({str(string).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {title_1.full_name}{Font.end}'], keep_remove=True)
+                                    if report_on_match: TraceTools.trace_title('REF0065', [f'({str(pattern).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {title_2.full_name}', f'({str(pattern).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {title_1.full_name}{Font.end}'], keep_remove=True)
 
                                     remove_titles.add(title_1)
                     elif (
-                        re.search(string, title_1_name_normalized)
-                        and re.search(string, title_2_name_normalized)):
+                        re.search(pattern, title_1_name_normalized)
+                        and re.search(pattern, title_2_name_normalized)):
                             def process_versions(ver_1: str, ver_2: str) -> list[Any]:
-                                """ Attempts to convert versions into a comparable format """
+                                """ Attempts to convert versions into a comparable format.
+
+                                Args:
+                                    `ver_1 (str)`: The first title's version.
+                                    `ver_2 (str)`: The second title's version.
+
+                                Returns:
+                                    `list[Any]`: A list of normalized versions.
+                                """
 
                                 version_compare_normalize: list[Any] = []
 
                                 if (
                                     '.' in ver_1
                                     or '.' in ver_2):
-                                        ver_1_parsed: list[Any] = [ver_1]
-                                        ver_2_parsed: list[Any] = [ver_2]
+                                        ver_1_parsed: list[Any] = [[ver_1]]
+                                        ver_2_parsed: list[Any] = [[ver_2]]
+
+                                        # Compensate for bad version strings that start with '.'
+                                        if re.search('^\.', ver_1):
+                                            ver_1 = re.sub('^\.', '0.', ver_1)
+
+                                        if re.search('^.', ver_2):
+                                            ver_2 = re.sub('^\.', '0.', ver_2)
 
                                         if '.' in ver_1:
                                             ver_1_parsed = list(map(lambda x: re.findall('(\d+|[A-za-z]+)', x), ver_1.split('.')))
@@ -968,8 +1014,45 @@ class ParentTools(object):
                                         if '.' in ver_2:
                                             ver_2_parsed = list(map(lambda x: re.findall('(\d+|[A-za-z]+)', x), ver_2.split('.')))
 
+                                        # Leading zeroes handling: compensate for leading zeroes in subversions
+                                        ver_compare = (ver_1_parsed,) + (ver_2_parsed,)
+                                        min_ver_length = len(min(ver_compare, key=len))
+
+                                        # Leading zeroes handling: chop the versions to the shortest length to accurately compare
+                                        ver_1_parsed_min = ver_1_parsed[0:min_ver_length]
+                                        ver_2_parsed_min = ver_2_parsed[0:min_ver_length]
+
+                                        # Replace empty lists with zeroes
+                                        for i, ver in enumerate(ver_1_parsed_min):
+                                            if not ver:
+                                                ver_1_parsed_min[i] = ['0']
+
+                                        for i, ver in enumerate(ver_2_parsed_min):
+                                            if not ver:
+                                                ver_2_parsed_min[i] = ['0']
+
+                                        # Leading zeroes handling: add extra zeroes to versions without trailing zeroes
+                                        for i in range(min_ver_length):
+                                            if len(ver_1_parsed_min[i][0]) > len(ver_2_parsed_min[i][0]):
+                                                if ver_1_parsed_min[i][0].startswith('0'):
+                                                    ver_2_parsed[i][0] = f'{ver_2_parsed_min[i][0]}{"0"*(len(ver_1_parsed_min[i][0]) - len(ver_2_parsed_min[i][0]))}'
+
+                                            elif len(ver_2_parsed_min[i][0]) > len(ver_1_parsed_min[i][0]):
+                                                if ver_2_parsed_min[i][0].startswith('0'):
+                                                    ver_1_parsed[i][0] = f'{ver_1_parsed_min[i][0]}{"0"*(len(ver_2_parsed_min[i][0]) - len(ver_1_parsed_min[i][0]))}'
+
+
                                         def normalize_version(version: list[Any]) -> list[Any]:
-                                            """ Formats versions so they can be compared """
+                                            """ Formats versions so they can be compared.
+
+                                            Args:
+                                                `version (list[Any])`: A version of a
+                                                title that's already been parsed.
+
+                                            Returns:
+                                                `list[Any]`: A normalized version of the
+                                                input.
+                                            """
 
                                             ver_normalized: list[Any] = []
 
@@ -1031,20 +1114,20 @@ class ParentTools(object):
                                 return version_compare_normalize
 
                             # Get the version from the title
-                            regex_search_str_1 = pattern2string(string, title_1_name_normalized)
-                            regex_search_str_2 = pattern2string(string, title_2_name_normalized)
+                            regex_search_str_1 = pattern2string(pattern, title_1_name_normalized)
+                            regex_search_str_2 = pattern2string(pattern, title_2_name_normalized)
 
                             title_1_ver: str = regex_search_str_1.replace('(', '').replace(')', '')
                             title_2_ver: str = regex_search_str_2.replace('(', '').replace(')', '')
 
                             # Preprocess special version types
-                            if string == config.regex.fds_version:
+                            if pattern == config.regex.fds_version:
                                 title_1_ver = max(re.findall('\d+', title_1_ver))
                                 title_2_ver = max(re.findall('\d+', title_2_ver))
-                            elif string == config.regex.nec_mastering_code:
+                            elif pattern == config.regex.nec_mastering_code:
                                 title_1_ver = max(title_1_ver.split(', '))
                                 title_2_ver = max(title_2_ver.split(', '))
-                            elif string == config.regex.sega_panasonic_ring_code:
+                            elif pattern == config.regex.sega_panasonic_ring_code:
                                 if (
                                     re.search('\d+', title_1_ver)
                                     and re.search('\d+', title_2_ver)):
@@ -1061,9 +1144,10 @@ class ParentTools(object):
                                         title_1_ver = '0'
                                         title_2_ver = '1'
 
-                            # Preprocess double versions that turn up in 3DS (Digital), Commodore Amiga, and PS3 (Digital) (Content)
-                            title_1_ver = title_1_ver.replace('PS3 ', '')
-                            title_2_ver = title_2_ver.replace('PS3 ', '')
+                            # Preprocess double versions that turn up in 3DS (Digital), Commodore Amiga, PS3 (Digital) (Content),
+                            # and IBM - PC and Compatibles (Flux)
+                            title_1_ver = title_1_ver.replace('PS3 ', '').replace('-to-', ', ').replace(' - AGI', ',')
+                            title_2_ver = title_2_ver.replace('PS3 ', '').replace('-to-', ', ').replace('- AGI', ',')
 
                             match_1_length: int = len(re.findall('v[\d+\.\-]+', title_1_ver))
                             match_2_length: int = len(re.findall('v[\d+\.\-]+', title_2_ver))
@@ -1077,7 +1161,6 @@ class ParentTools(object):
                             if (
                                 match_1_length == 2
                                 and match_2_length == 2):
-
                                     # Split the versions
                                     title_1_ver_a = re.findall('[\d+\.\-]+', title_1_ver)[0]
                                     title_1_ver_b = str(re.findall('[\d+\.\-]+', title_1_ver)[1]).replace('-', '.')
@@ -1098,8 +1181,8 @@ class ParentTools(object):
                                     title_2_ver = f'{title_2_ver}.{title_2_ver_b}'
 
                             # Remove known prefixes and strip whitespace
-                            title_1_ver = re.sub('version|^(v|Rev|Version|Beta|Alpha|Proto)|\s', '', title_1_ver, flags=re.I)
-                            title_2_ver = re.sub('version|^(v|Rev|Version|Beta|Alpha|Proto)|\s', '', title_2_ver, flags=re.I)
+                            title_1_ver = re.sub('version|^(v|Rev|Version|Beta|Alpha|Proto|Build)|\s', '', title_1_ver, flags=re.I)
+                            title_2_ver = re.sub('version|^(v|Rev|Version|Beta|Alpha|Proto|Build)|\s', '', title_2_ver, flags=re.I)
 
                             # Compensate for Doom version wackiness
                             if '666' in title_1_ver and 'Doom' in title_1.full_name: title_1_ver.replace('666', '6.6.6')
@@ -1113,14 +1196,14 @@ class ParentTools(object):
                                 try:
                                     if subversion[0] < subversion[1]:
                                         if title_1 in title_set:
-                                            if report_on_match: TraceTools.trace_title('REF0041', [f'({str(string).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {title_2.full_name}', f'({str(string).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {title_1.full_name}{Font.end}'], keep_remove=True)
+                                            if report_on_match: TraceTools.trace_title('REF0041', [f'({str(pattern).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {title_2.full_name}', f'({str(pattern).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {title_1.full_name}{Font.end}'], keep_remove=True)
 
                                             remove_titles.add(title_1)
                                         break
 
                                     if subversion[1] < subversion[0]:
                                         if title_2 in title_set:
-                                            if report_on_match: TraceTools.trace_title('REF0040', [f'({str(string).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {title_1.full_name}', f'({str(string).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {title_2.full_name}{Font.end}'], keep_remove=True)
+                                            if report_on_match: TraceTools.trace_title('REF0040', [f'({str(pattern).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {title_1.full_name}', f'({str(pattern).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {title_2.full_name}{Font.end}'], keep_remove=True)
 
                                             remove_titles.add(title_2)
                                         break
@@ -1129,14 +1212,14 @@ class ParentTools(object):
                                     # This might result in the wrong version being chosen.
                                     if str(subversion[0]) < str(subversion[1]):
                                         if title_1 in title_set:
-                                            if report_on_match: TraceTools.trace_title('REF0041', [f'({str(string).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {title_2.full_name}', f'({str(string).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {title_1.full_name}{Font.end}'], keep_remove=True)
+                                            if report_on_match: TraceTools.trace_title('REF0041', [f'({str(pattern).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {title_2.full_name}', f'({str(pattern).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {title_1.full_name}{Font.end}'], keep_remove=True)
 
                                             remove_titles.add(title_1)
                                         break
 
                                     if str(subversion[1]) < str(subversion[0]):
                                         if title_2 in title_set:
-                                            if report_on_match: TraceTools.trace_title('REF0040', [f'({str(string).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {title_1.full_name}', f'({str(string).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {title_2.full_name}{Font.end}'], keep_remove=True)
+                                            if report_on_match: TraceTools.trace_title('REF0040', [f'({str(pattern).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {title_1.full_name}', f'({str(pattern).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {title_2.full_name}{Font.end}'], keep_remove=True)
 
                                             remove_titles.add(title_2)
                                         break
@@ -1154,7 +1237,7 @@ class ParentTools(object):
         highest priority video standard.
 
         Args:
-            `standard (str)`: The video standard. MPAL, NTSC, PAL, SECAM
+            `standard (str)`: The video standard. MPAL, NTSC, PAL, PAL 60Hz, SECAM
             `title_set (set[DatNode])`: A set of titles as DatNode instances.
             `config (Config)`: The Retool config object.
             `report_on_match (bool)`: Whether Retool needs to report any titles being
@@ -1163,6 +1246,8 @@ class ParentTools(object):
         Returns:
             `set[DatNode]`: A set of DatNodes filtered by video standard.
         """
+
+        standard = standard.replace(' ', '_')
 
         for pattern in config.regex[standard]:
             title_set = ParentTools.choose_string(pattern, title_set, report_on_match, choose_title_with_string=True)
@@ -1319,16 +1404,20 @@ class ParentTools(object):
         """
 
         # Don't enable the progress bar if the user is doing a trace
-        if config.user_input.trace or config.stdout:
+        if config.user_input.trace:
             alive_bar_context = nullcontext()
             eprint('* Selecting 1G1R titles...')
         else:
-            bar = 'smooth'
-            spinner = 'waves'
-            if sys.platform.startswith('win'):
-                spinner = 'classic'
+            progress_bar: str = 'smooth'
+            spinner: str = 'waves'
+            parent_processes: list[str] = [str(x).lower() for x in psutil.Process(os.getpid()).parents()]
 
-            alive_bar_context = alive_bar(4, title=f'* Selecting 1G1R titles', length=20, enrich_print=False, stats=False, bar=bar,spinner=spinner)
+            if any(s for s in parent_processes if 'cmd.exe' in s or 'powershell.exe' in s or 'explorer.exe' in s):
+                if not any(s for s in parent_processes if 'code.exe' in s or 'windowsterminal.exe' in s):
+                    progress_bar = 'classic2'
+                    spinner = 'classic'
+
+            alive_bar_context = alive_bar(4, title=f'* Selecting 1G1R titles', length=20, enrich_print=False, stats=False, bar=progress_bar, spinner=spinner, file=sys.stderr)
 
 
         with alive_bar_context as bar:
@@ -1356,7 +1445,7 @@ class ParentTools(object):
                 if not processed_titles[compilation_title.group_name]:
                     del processed_titles[compilation_title.group_name]
 
-            if not (config.user_input.trace or config.stdout):
+            if not (config.user_input.trace):
                 bar() # type: ignore
 
             # Define choose_parent_main as the function to run on multiple processors,
@@ -1376,7 +1465,7 @@ class ParentTools(object):
                 with InterruptiblePool(int(str(os.cpu_count()))) as p:
                     parent_titles = (p.map(func, processed_titles.values()))
 
-            if not (config.user_input.trace or config.stdout):
+            if not (config.user_input.trace):
                 bar() # type: ignore
 
             # Now process superset groups
@@ -1386,7 +1475,7 @@ class ParentTools(object):
 
             superset_parent_titles = list(map(func, superset_processed_titles.values()))
 
-            if not (config.user_input.trace or config.stdout):
+            if not (config.user_input.trace):
                 bar() # type: ignore
 
             # Get the set back into the required dictionary form
@@ -1421,10 +1510,10 @@ class ParentTools(object):
             # Now process compilations
             processed_titles = ParentTools.choose_compilations(compilations, processed_titles, config)
 
-            if not (config.user_input.trace or config.stdout):
+            if not (config.user_input.trace):
                 bar() # type: ignore
 
-        eprint('\033[F\033[K* Selecting 1G1R titles... done\n', end='')
+        eprint('\033[F\033[K* Selecting 1G1R titles... done\n')
 
         return processed_titles
 
@@ -1448,6 +1537,18 @@ class ParentTools(object):
         Returns:
             `dict[str, list[DatNode]]`: A dictionary of DatNodes with parents selected.
         """
+
+        # Check if a system config is in play
+        language_order: list[str] = config.language_order_user
+        region_order: list[str] = config.region_order_user
+
+        if config.system_language_order_user:
+            if {'override': 'true'} in config.system_language_order_user:
+                language_order = [str(x) for x in config.system_language_order_user if 'override' not in x]
+
+        if config.system_region_order_user:
+            if {'override': 'true'} in config.system_region_order_user:
+                region_order = [str(x) for x in config.system_region_order_user if 'override' not in x]
 
         # Do some manipulation to convert from set to the expected dictionary
         group_name = next(iter(processed_titles)).group_name # type: ignore[attr-defined]
@@ -1525,7 +1626,7 @@ class ParentTools(object):
             highest_language_priority = sorted(short_name_group[1], key = lambda i:i.language_priority)[0].language_priority
 
             for title in [x for x in sorted(short_name_group[1], key = lambda i:i.region_priority) if x.language_priority == highest_language_priority]:
-                for language in config.languages_user:
+                for language in language_order:
                     if re.search(language, ''.join(title.languages)):
                         top_language = language
                         break
@@ -1535,7 +1636,7 @@ class ParentTools(object):
             short_name_top_languages.add((short_name_group[0], highest_language_priority, top_language))
 
         # Title comparisons per region
-        for region in config.region_order_user:
+        for region in region_order:
             parent_titles: set[DatNode] = set([x for x in titles if region in x.primary_region])
 
             if (
@@ -1611,26 +1712,29 @@ class ParentTools(object):
                     if report_on_match: TraceTools.trace_title('REF0007', [group_name], parent_titles, keep_remove=False)
 
                     # 9) Preference titles with more regions that are higher up the region priority
-                    if len(parent_titles) > 1: parent_titles = ParentTools.choose_multi_regions(parent_titles, config.region_order_user, report_on_match)
+                    if len(parent_titles) > 1: parent_titles = ParentTools.choose_multi_regions(parent_titles, region_order, report_on_match)
 
                     if report_on_match: TraceTools.trace_title('REF0008', [group_name], parent_titles, keep_remove=False)
 
                     # 10 Choose video standard
-                    if len(parent_titles) > 1:
-                        for video_standard in config.video_order_user:
-                            parent_titles = ParentTools.choose_video_standard(video_standard.lower(), parent_titles, config, report_on_match)
+                    video_order: list[str] = config.video_order_user
 
-                    # 11) Choose dates
-                    if len(parent_titles) > 1: parent_titles = ParentTools.choose_date(parent_titles, config, report_on_match)
+                    if config.system_video_order_user:
+                        if {'override': 'true'} in config.system_video_order_user:
+                            video_order = [str(x) for x in config.system_video_order_user if 'override' not in x]
+
+                    if len(parent_titles) > 1:
+                        for video_standard in video_order:
+                            parent_titles = ParentTools.choose_video_standard(video_standard.lower(), parent_titles, config, report_on_match)
 
                     if report_on_match: TraceTools.trace_title('REF0009', [group_name], parent_titles, keep_remove=False)
 
-                    # 12) Second language pass -- required to allow versions/revisions to be correctly selected
+                    # 11) Second language pass -- required to allow versions/revisions to be correctly selected
                     if len(parent_titles) > 1: parent_titles = ParentTools.choose_language(parent_titles, config, report_on_match, first_time=False)
 
                     if report_on_match: TraceTools.trace_title('REF0043', [group_name], parent_titles, keep_remove=False)
 
-                    # 13) Choose original versions over alternatives
+                    # 12) Choose original versions over alternatives
                     if len(parent_titles) > 1: parent_titles = ParentTools.choose_string(config.regex.alt, parent_titles, report_on_match, choose_title_with_string=False)
                     if len(parent_titles) > 1: parent_titles = ParentTools.choose_string(config.regex.oem, parent_titles, report_on_match, choose_title_with_string=False)
                     if len(parent_titles) > 1: parent_titles = ParentTools.choose_string(config.regex.not_for_resale, parent_titles, report_on_match, choose_title_with_string=False)
@@ -1640,7 +1744,7 @@ class ParentTools(object):
 
                     if report_on_match: TraceTools.trace_title('REF0010', [group_name], parent_titles, keep_remove=False)
 
-                    # 14) Handle promotion and demotion editions
+                    # 13) Handle promotion and demotion editions
                     if len(parent_titles) > 1:
                         for edition in config.tags_promote_editions:
                             parent_titles = ParentTools.choose_string(edition, parent_titles, report_on_match, choose_title_with_string=True)
@@ -1650,17 +1754,25 @@ class ParentTools(object):
 
                     if report_on_match: TraceTools.trace_title('REF0011', [group_name], parent_titles, keep_remove=False)
 
-                    # 15) Handle "Made in" titles
+                    # 14) Choose dates
+                    if len(parent_titles) > 1: parent_titles = ParentTools.choose_date(parent_titles, config, report_on_match)
+
+                    if report_on_match: TraceTools.trace_title('REF0009', [group_name], parent_titles, keep_remove=False)
+
+                    # 15) Choose builds
+                    if len(parent_titles) > 1: parent_titles = ParentTools.choose_version_revision(config.regex.build, parent_titles, config, report_on_match)
+
+                    # 16) Handle "Made in" titles
                     if len(parent_titles) > 1: parent_titles = ParentTools.choose_made_in(config.regex.madein, parent_titles, report_on_match)
 
                     if report_on_match: TraceTools.trace_title('REF0012', [group_name], parent_titles, keep_remove=False)
 
-                    # 16) Another version check just in case multiple Alts are the only titles left
+                    # 17) Another version check just in case multiple Alts are the only titles left
                     if len(parent_titles) > 1: parent_titles = ParentTools.choose_version_revision(config.regex.alt, parent_titles, config, report_on_match)
 
                     if report_on_match: TraceTools.trace_title('REF0061', [group_name], parent_titles, keep_remove=False)
 
-                    # 17) As a fail-safe, do a string comparison. This compares character by character,and when
+                    # 18) As a fail-safe, do a string comparison. This compares character by character,and when
                     # a title has a higher comparative character than another title, it wins.
                     if len(parent_titles) > 1: parent_titles = ParentTools.choose_highest_string(parent_titles, report_on_match)
 
@@ -1732,7 +1844,7 @@ class ParentTools(object):
                     # If there's multiple regions represented, take the highest priority
                     region_found: bool = False
 
-                    for region in config.region_order_user:
+                    for region in region_order:
                         for title in tag_free_superset_group_trimmed:
                             if region in title.regions:
                                 region_found = True
@@ -1792,7 +1904,7 @@ class ParentTools(object):
                 for pattern in pattern_list:
                     if re.search(pattern, title.full_name):
                         # Tag found, check other titles to see if there's something better
-                        for region in config.region_order_user:
+                        for region in region_order:
                             for original_title in cross_region_original:
                                 if (
                                     title.full_name != original_title.full_name

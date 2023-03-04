@@ -6,15 +6,17 @@ import pathlib
 import re
 import sys
 
+from functools import reduce
 from strictyaml import load, Map, MapPattern, Str, Seq, YAMLError
 from typing import Any, TYPE_CHECKING
 
-from modules.clonelists import CloneList
-from modules.dats import Dat
-from modules.utils import eprint, ExitRetool, Font, download, printwrap, SmartFormatter
-
 if TYPE_CHECKING:
     from modules.config import Config
+
+from modules.clonelists import CloneList
+from modules.constants import *
+from modules.dats import Dat
+from modules.utils import eprint, ExitRetool, Font, download, printwrap, SmartFormatter
 
 class UserInput:
     def __init__(self,
@@ -217,8 +219,7 @@ class UserInput:
         self.dev_mode: bool = dev_mode
         self.update: bool = update
 
-        # TODO: Are these needed?
-        self.test: bool = test
+        self.test: bool = test # TODO
 
 
 def check_input() -> UserInput:
@@ -232,7 +233,6 @@ def check_input() -> UserInput:
 
     # Help text order is determined by the group order here
     exclusions: Any = parser.add_argument_group('exclusions')
-    inputs: Any = parser.add_argument_group('inputs')
     outputs: Any = parser.add_argument_group('outputs')
     debug: Any = parser.add_argument_group('debug')
     system: Any = parser.add_argument_group('system')
@@ -282,16 +282,19 @@ def check_input() -> UserInput:
 
     parser.add_argument('-y',
                         action='store_true',
-                        help='R|Demote Unlicensed, Aftermarket, or Homebrew titles if'
-                             '\nproduction versions are found in another region. This'
-                             '\nmight select titles with lower priority languages, or'
-                             '\nless features.')
+                        help='R|Prefer licensed versions over unlicensed, aftermarket, or'
+                             '\nhomebrew titles. This might select titles with lower '
+                             '\npriority regions or languages, or with less features.')
 
     parser.add_argument('-z',
                         action='store_true',
-                        help='R|Titles ripped from modern platform rereleases, such as'
-                             '\nthose found in Virtual Console, replace standard '
-                             '\neditions (ripped titles might not work in emulators).')
+                        help='R|Prefer titles ripped from modern rereleases over original'
+                             '\nsystem releases, such as those found in Virtual Console'
+                             '\n(ripped titles might not work in emulators).')
+
+    parser.add_argument('--nofilters',
+                        action='store_true',
+                        help='R|Don\'t load global and system user filters.')
 
     parser.add_argument('-q',
                         action='store_true',
@@ -322,14 +325,20 @@ def check_input() -> UserInput:
                         action='store_true',
                         help='R|Split the result into multiple DATs based on region. Use '
                              '\nwith -d to only split by region with no 1G1R processing.'
-                             '\nNot compatible with -x.')
+                             '\nNot compatible with --legacy.')
 
     outputs.add_argument('--removesdat',
                         action='store_true',
                         help='R|Also output a DAT containing the titles that were'
                              '\nremoved from the 1G1R DAT.')
 
-    inputs.add_argument('--clonelist',
+    debug.add_argument('--config',
+                        metavar='<file>',
+                        type=str,
+                        help='R|Set a custom user config file to use instead of the'
+                             '\ndefault.')
+
+    debug.add_argument('--clonelist',
                         metavar='<file>',
                         type=str,
                         help='R|Set a custom clone list to use instead of the default.'
@@ -338,13 +347,7 @@ def check_input() -> UserInput:
                               '\nautomatically detected anymore. Often used together with'
                               '\n--metadata.')
 
-    inputs.add_argument('--config',
-                        metavar='<file>',
-                        type=str,
-                        help='R|Set a custom user config file to use instead of the'
-                             '\ndefault. Useful for testing.')
-
-    inputs.add_argument('--metadata',
+    debug.add_argument('--metadata',
                         metavar='<file>',
                         type=str,
                         help='R|Set a custom metadata file to use instead of the default.'
@@ -352,19 +355,6 @@ def check_input() -> UserInput:
                               '\nNo-Intro renames their DAT, and the metadata file isn\'t'
                               '\nautomatically detected anymore. Often used together with'
                               '\n--clonelist.')
-
-    inputs.add_argument('--nofilters',
-                        action='store_true',
-                        help='R|Don\'t load global and system user filters.')
-
-    debug.add_argument('--warnings',
-                        action='store_true',
-                        help='Report clone list warnings during processing.')
-
-    debug.add_argument('--warningpause',
-                        action='store_true',
-                        help='R|Pause when a clone list warning is found. Useful when\n'
-                             'batch processing DATS.')
 
     debug.add_argument('--legacy',
                         action='store_true',
@@ -387,6 +377,15 @@ def check_input() -> UserInput:
                             '\nprocessors during parent selection.'
                             '\n\nUsage: --trace "regex of titles to trace"',
                             nargs='+')
+
+    debug.add_argument('--warnings',
+                        action='store_true',
+                        help='Report clone list warnings during processing.')
+
+    debug.add_argument('--warningpause',
+                        action='store_true',
+                        help='R|Pause when a clone list warning is found. Useful when\n'
+                             'batch processing DATS.')
 
     exclusions.add_argument('--exclude',
                             action='extend',
@@ -558,7 +557,7 @@ def check_input() -> UserInput:
         user_options_string = f' (-{"".join(sorted([x for x in "".join(user_options)], key=str.casefold))})'
 
     return UserInput(
-            input_file_name = pathlib.Path(args.Input).resolve(),
+            input_file_name = str(pathlib.Path(args.Input).resolve()),
             update = args.update,
             no_1g1r = args.d,
             empty_titles = args.e,
@@ -584,13 +583,13 @@ def check_input() -> UserInput:
             no_promotional = True if 'r' in args_set else False,
             no_unlicensed = True if 'u' in args_set else False,
             no_video = True if 'v' in args_set else False,
-            clone_list = pathlib.Path(args.clonelist).resolve(),
+            clone_list = str(pathlib.Path(args.clonelist).resolve()),
             user_config = args.config,
-            metadata = pathlib.Path(args.metadata).resolve(),
+            metadata = str(pathlib.Path(args.metadata).resolve()),
             no_filters = args.nofilters,
             list_names = args.listnames,
             log = args.log,
-            output_folder_name = pathlib.Path(args.output).resolve(),
+            output_folder_name = str(pathlib.Path(args.output).resolve()),
             output_region_split = args.regionsplit,
             output_remove_dat = args.removesdat,
             verbose = args.warnings,
@@ -605,6 +604,39 @@ def check_input() -> UserInput:
             user_clone_list_metadata_download_location = '',
             user_metadata_location = '',
             test = args.test)
+
+
+def get_config_value(config_object: tuple[Any, ...], key: str, default_value: str, path: bool = True) -> str:
+    """ Gets a value for a specific key in an object out of user-config.yaml and system
+    config files.
+
+    Args:
+        `config_object (tuple[Any, ...])`: A YAML object from a config file.
+        `key (str)`: The key in the YAML object to query.
+        `default_value (str)`: The equivalent default value as found in
+        internal-config.json.
+        `path (bool, optional)`: Whether to process the value as a path. Defaults to
+        `True`.
+    """
+
+    key_and_value: list[dict[str, Any]] = [x for x in config_object if key in x and x != {f'"{key}": ""'}]
+
+    value: str = ''
+
+    if path:
+        if key_and_value:
+            if key_and_value[0][key] != str(pathlib.Path(default_value).resolve()):
+                value = key_and_value[0][key]
+        else:
+            value = str(pathlib.Path(default_value).resolve())
+    else:
+        if key_and_value:
+            if key_and_value[0][key] != default_value:
+                value = key_and_value[0][key]
+        else:
+            value = default_value
+
+    return value
 
 
 def import_clone_list(input_dat: Dat, gui_input: UserInput, config: Config) -> CloneList:
@@ -627,55 +659,60 @@ def import_clone_list(input_dat: Dat, gui_input: UserInput, config: Config) -> C
     """
 
     # Grab local file path where clone lists are found
-    clone_list_path: str = config.config_file_content['clone_lists']['local_dir']
+    clone_list_path: str = config.config_file_content[CLONE_LISTS_KEY]['localDir']
 
     if config.user_input.user_clone_list_location:
         clone_list_path = config.user_input.user_clone_list_location
 
     clone_file: str = ''
 
-    # Import JSON files that have the same name as input_dat.search_name.json
+    # Import the clone list
     if (
-        not config.user_input.clone_list
-        or config.user_input.clone_list == pathlib.Path('').resolve()):
-
-            if not clone_file:
-                # Support for specialized DATs like Redump conversions from https://dats.site
-                if (
-                'GameCube' in input_dat.search_name
-                and (
-                    'NKit GCZ' in input_dat.search_name
-                    or 'NKit ISO' in input_dat.search_name
-                    or 'NKit RVZ' in input_dat.search_name
-                    or 'NASOS' in input_dat.search_name
-                )):
-                    clone_file = f'{clone_list_path}/Nintendo - GameCube (Redump).json'
-                elif (
-                    'Wii' in input_dat.search_name
-                    and (
-                        'NKit GCZ' in input_dat.search_name
-                        or 'NKit ISO' in input_dat.search_name
-                        or 'NKit RVZ' in input_dat.search_name
-                        or 'NASOS' in input_dat.search_name
-                    )):
-                    clone_file = f'{clone_list_path}/Nintendo - Wii (Redump).json'
-                elif (
-                    'Wii U' in input_dat.search_name
-                    and 'WUX' in input_dat.search_name):
-                        clone_file = f'{clone_list_path}/Nintendo - Wii U (Redump).json'
-                else:
-                    clone_file = f'{clone_list_path}/{input_dat.search_name}.json'
+        config.system_clone_list
+        and {'override': 'true'} in config.system_user_path_settings):
+            # If a user has set a custom clone list for a system through a config file
+            clone_file = config.system_clone_list
+    elif (
+        config.user_input.clone_list
+        and config.user_input.clone_list != str(pathlib.Path('').resolve())):
+            # If a user has set a custom clone list using the CLI
+            clone_file = config.user_input.clone_list
     else:
-        clone_file = config.user_input.clone_list
+        # Load the default clone list. Import JSON files that have the same name as input_dat.search_name.json.
+        # Support for specialized DATs like Redump conversions from https://dats.site
+        if (
+        'GameCube' in input_dat.search_name
+        and (
+            'NKit GCZ' in input_dat.search_name
+            or 'NKit ISO' in input_dat.search_name
+            or 'NKit RVZ' in input_dat.search_name
+            or 'NASOS' in input_dat.search_name
+        )):
+            clone_file = f'{clone_list_path}/Nintendo - GameCube (Redump).json'
+        elif (
+            'Wii' in input_dat.search_name
+            and (
+                'NKit GCZ' in input_dat.search_name
+                or 'NKit ISO' in input_dat.search_name
+                or 'NKit RVZ' in input_dat.search_name
+                or 'NASOS' in input_dat.search_name
+            )):
+            clone_file = f'{clone_list_path}/Nintendo - Wii (Redump).json'
+        elif (
+            'Wii U' in input_dat.search_name
+            and 'WUX' in input_dat.search_name):
+                clone_file = f'{clone_list_path}/Nintendo - Wii U (Redump).json'
+        else:
+            clone_file = f'{clone_list_path}/{input_dat.search_name}.json'
 
     clonedata: dict[str, Any] = load_data(clone_file, 'clone list', config)
 
     min_version: str = ''
-    categories: dict[str, dict[str, Any]] = {}
+    categories: list[dict[str, Any]] = []
     mias: list[str] = []
-    overrides: dict[str, dict[str, Any]] = {}
-    renames: dict[str, list[dict[str, Any]]] = {}
-    removes: dict[str, dict[str, Any]] = {}
+    overrides: list[dict[str, Any]] = []
+    removes: list[dict[str, Any]] = []
+    variants: list[dict[str, Any]] = []
 
     if 'categories' in clonedata:
         categories = clonedata['categories']
@@ -683,13 +720,13 @@ def import_clone_list(input_dat: Dat, gui_input: UserInput, config: Config) -> C
         mias = clonedata['mias']
     if 'overrides' in clonedata:
         overrides = clonedata['overrides']
-    if 'renames' in clonedata:
-        renames = clonedata['renames']
     if 'removes' in clonedata:
         removes = clonedata['removes']
+    if 'variants' in clonedata:
+        variants = clonedata['variants']
     if 'description' in clonedata:
-        if 'minimum version' in clonedata['description']:
-            min_version = clonedata['description']['minimum version']
+        if 'minimumVersion' in clonedata['description']:
+            min_version = clonedata['description']['minimumVersion']
             # Convert old versions to new versioning system
             if len(re.findall('\\.', min_version)) < 2:
                 min_version = f'{min_version}.0'
@@ -732,8 +769,8 @@ def import_clone_list(input_dat: Dat, gui_input: UserInput, config: Config) -> C
         categories,
         mias,
         overrides,
-        renames,
-        removes
+        removes,
+        variants
     )
 
 
@@ -750,107 +787,119 @@ def import_metadata(input_dat: Dat, config: Config) -> dict[str, dict[str, str]]
         the titles in the DAT.
     """
 
-    metadata_path: str = config.config_file_content['metadata']['local_dir']
+    # Grab local file path where metadata files are found
+    metadata_path: str = config.config_file_content[METADATA_KEY]['localDir']
 
     if config.user_input.user_metadata_location:
         metadata_path = config.user_input.user_metadata_location
 
     metadata_file: str = ''
 
+    # Import the metadata file
     if (
-        not config.user_input.metadata
-        or config.user_input.metadata == pathlib.Path('').resolve()):
-
-            # Support for specialized DATs like Redump conversions from https://dats.site
-            if (
-                'GameCube' in input_dat.search_name
-                and (
-                    'NKit GCZ' in input_dat.search_name
-                    or 'NKit ISO' in input_dat.search_name
-                    or 'NKit RVZ' in input_dat.search_name
-                    or 'NASOS' in input_dat.search_name
-                )):
-                    metadata_file = f'{metadata_path}/Nintendo - GameCube (Redump).json'
-            elif (
-                'Wii' in input_dat.search_name
-                and (
-                    'NKit GCZ' in input_dat.search_name
-                    or 'NKit ISO' in input_dat.search_name
-                    or 'NKit RVZ' in input_dat.search_name
-                    or 'NASOS' in input_dat.search_name
-                )):
-                    metadata_file = f'{metadata_path}/Nintendo - Wii (Redump).json'
-            elif (
-                'Wii U' in input_dat.search_name
-                and 'WUX' in input_dat.search_name):
-                    metadata_file = f'{metadata_path}/Nintendo - Wii U (Redump).json'
-            else:
-                # Support for other DATs
-                    metadata_file = f'{metadata_path}/{input_dat.search_name}.json'
+        config.system_metadata_file
+        and {'override': 'true'} in config.system_user_path_settings):
+            # If a user has set a custom metadata file for a system through a config file
+            metadata_file = config.system_metadata_file
+    elif (
+        config.user_input.metadata
+        and config.user_input.metadata != str(pathlib.Path('').resolve())):
+            # If a user has set a custom metadata file using the CLI
+            metadata_file = config.user_input.metadata
     else:
-        metadata_file = config.user_input.metadata
+        # Load the default metadata file. Import JSON files that have the same name as input_dat.search_name.json.
+        # Support for specialized DATs like Redump conversions from https://dats.site
+        if (
+            'GameCube' in input_dat.search_name
+            and (
+                'NKit GCZ' in input_dat.search_name
+                or 'NKit ISO' in input_dat.search_name
+                or 'NKit RVZ' in input_dat.search_name
+                or 'NASOS' in input_dat.search_name
+            )):
+                metadata_file = f'{metadata_path}/Nintendo - GameCube (Redump).json'
+        elif (
+            'Wii' in input_dat.search_name
+            and (
+                'NKit GCZ' in input_dat.search_name
+                or 'NKit ISO' in input_dat.search_name
+                or 'NKit RVZ' in input_dat.search_name
+                or 'NASOS' in input_dat.search_name
+            )):
+                metadata_file = f'{metadata_path}/Nintendo - Wii (Redump).json'
+        elif (
+            'Wii U' in input_dat.search_name
+            and 'WUX' in input_dat.search_name):
+                metadata_file = f'{metadata_path}/Nintendo - Wii U (Redump).json'
+        else:
+            # Support for other DATs
+            metadata_file = f'{metadata_path}/{input_dat.search_name}.json'
 
     metadata: dict[str, Any] = load_data(metadata_file, 'metadata file', config)
-
-    if pathlib.Path(metadata_file).is_file():
-        try:
-            with open(pathlib.Path(metadata_file), 'r', encoding='utf-8') as input_file:
-                metadata =  json.load(input_file)
-        except OSError as e:
-            eprint(f'\n{Font.error_bold}* Error: {Font.end}{str(e)}\n')
-            raise
 
     return metadata
 
 
-# TODO: I guess this will eventually import system settings as a whole.
-def import_system_filters(
+def import_system_settings(
     config: Config,
     search_name: str,
-    user_language_key: str,
-    user_region_order_key: str,
-    user_video_order_key: str,
-    user_list_prefix_key: str,
-    user_list_suffix_key: str,
-    user_gui_settings_key: str) -> None:
+    system_language_order_key: str,
+    system_region_order_key: str,
+    system_video_order_key: str,
+    system_list_prefix_key: str,
+    system_list_suffix_key: str,
+    system_exclusions_options_key: str) -> None:
     """ Imports the system user filters from the relevant file.
 
     Args:
         `config (Config)`: The Retool config object.
         `search_name (str)`: The name of the system file, based on the DAT's system.
-        `user_language_key (str)`: The key in user-config.yaml that specifies the
+        `system_language_order_key (str)`: The key in the system config that specifies the
         language order as defined by the user.
-        `user_region_order_key (str)`: The key in user-config.yaml that specifies the
+        `system_region_order_key (str)`: The key in system config that specifies the
         region order as defined by the user.
-        `user_video_order_key (str)`: The key in user-config.yaml that specifies the
-        order for video standards like MPAL, NTSC, PAL, and SECAM as defined by the
-        user.
-        `user_list_prefix_key (str)`: The key in user-config.yaml that specifies the
+        `system_video_order_key (str)`: The key in system config that specifies the
+        order for video standards like MPAL, NTSC, PAL, PAL 60Hz, and SECAM as defined by
+        the user.
+        `system_list_prefix_key (str)`: The key in system config that specifies the
         prefix used when the user specifies `--listnames`.
-        `user_list_suffix_key (str)`: The key in user-config.yaml that specifies the
+        `system_list_suffix_key (str)`: The key in system config that specifies the
         suffix used when the user specifies `--listnames`.
-        `user_gui_settings_key (str)`: They key in user-config.yaml that specifies
+        `system_exclusions_options_key (str)`: They key in system config that specifies
         settings used by the GUI.
     """
+
+    # Reset system settings
+    config.system_user_path_settings = ()
+    config.system_exclusions_options = ()
+    config.system_output = ''
+    config.system_clone_list = ''
+    config.system_metadata_file = ''
+    config.system_exclude = []
+    config.system_include = []
+    config.system_region_order_user = []
+    config.system_languages_user_found = False
+    config.system_language_order_user = []
+    config.system_user_prefix = ''
+    config.system_user_suffix = ''
+    config.system_video_order_user = []
 
     if pathlib.Path(f'{config.user_filters_path}/{search_name}.yaml').is_file():
         try:
             schema = Map(
                 {
-                    'clone list': Seq(Str())|Str(),
-                    'metadata file': Seq(Str())|Str(),
-                    user_language_key: Seq(Str()|MapPattern(Str(), Str()))|Str(),
-                    user_region_order_key: Seq(Str()|MapPattern(Str(), Str()))|Str(),
-                    user_video_order_key: Seq(Str()|MapPattern(Str(), Str()))|Str(),
-                    user_list_prefix_key: Seq(Str()|MapPattern(Str(), Str()))|Str(),
-                    user_list_suffix_key: Seq(Str()|MapPattern(Str(), Str()))|Str(),
+                    'paths': Seq(Str()|MapPattern(Str(), Str()))|Str(),
+                    system_language_order_key: Seq(Str()|MapPattern(Str(), Str()))|Str(),
+                    system_region_order_key: Seq(Str()|MapPattern(Str(), Str()))|Str(),
+                    system_video_order_key: Seq(Str()|MapPattern(Str(), Str()))|Str(),
+                    system_list_prefix_key: Seq(Str()|MapPattern(Str(), Str()))|Str(),
+                    system_list_suffix_key: Seq(Str()|MapPattern(Str(), Str()))|Str(),
                     'exclude': Seq(Str())|Str(),
                     'include': Seq(Str())|Str(),
-                    user_gui_settings_key: Seq(Str()|MapPattern(Str(), Str()))|Str()})
+                    system_exclusions_options_key: Seq(Str()|MapPattern(Str(), Str()))|Str()})
 
             with open(pathlib.Path(f'{config.user_filters_path}/{search_name}.yaml'), encoding='utf-8') as user_filter_import:
-                system_user_filters: Any = load(str(user_filter_import.read()), schema)
-
+                system_settings: Any = load(str(user_filter_import.read()), schema)
 
         except OSError as e:
             eprint(f'\n{Font.error_bold}* Error: {Font.end}{str(e)}\n')
@@ -860,9 +909,196 @@ def import_system_filters(
             eprint(f'\n{Font.error_bold}* YAML error: {Font.end}{str(e)}\n')
             raise
 
-        config.system_exclude = system_user_filters.data['exclude']
-        config.system_include = system_user_filters.data['include']
+        # Get system paths
+        config.system_user_path_settings = system_settings.data['paths']
 
+        config.system_clone_list = get_config_value(config.system_user_path_settings, 'clone list', '.', True)
+        config.system_metadata_file = get_config_value(config.system_user_path_settings, 'metadata file', '.', True)
+        config.system_output = get_config_value(config.system_user_path_settings, 'output', '.', True)
+
+        # Get system region, language, and video standard orders
+        config.system_region_order_user = list(system_settings.data[system_region_order_key])
+        config.system_language_order_user = list(system_settings.data[system_language_order_key])
+        config.system_video_order_user = list(system_settings.data[system_video_order_key])
+
+        # Compensate for No-Intro using "United Kingdom", and Redump using "UK"
+        if 'UK' in config.system_region_order_user:
+            uk_index: int = config.system_region_order_user.index('UK')
+            config.system_region_order_user[uk_index + 1:uk_index + 1] = ['United Kingdom']
+
+        # Change the user languages list to be regex strings instead of language
+        # names
+        language_list: list[str] = []
+
+        if not [x for x in config.system_language_order_user if 'override' not in x]:
+            for region in config.region_order_user:
+                language_list.extend(config.languages_filter[region])
+
+            # Make sure language entries are unique
+            language_list = reduce(lambda x, y: x + [y] if not y in x else x, language_list, [])
+        else:
+            config.system_languages_user_found = True
+
+            language_list.extend([str(x) for x in config.system_language_order_user if 'override' in x])
+
+            for language in [str(x) for x in config.system_language_order_user if 'override' not in x]:
+                if language in config.languages:
+                    language_list.append(config.languages[language])
+
+        config.system_language_order_user = [str(x) for x in language_list]
+
+        # Get list prefix and suffix
+        config.system_user_prefix = ''.join(system_settings.data['list prefix'])
+        config.system_user_suffix = ''.join(system_settings.data['list suffix'])
+
+        # Get exclusions and options
+        config.system_exclusions_options = system_settings.data[SYSTEM_EXCLUSIONS_OPTIONS_KEY]
+
+        # Get include/exclude user filters
+        config.system_exclude = system_settings.data['exclude']
+        config.system_include = system_settings.data['include']
+
+        # Override global inputs based on system settings
+        if {'override exclusions': 'true'} in config.system_exclusions_options:
+            config.user_input.no_add_ons = False
+            config.user_input.no_applications = False
+            config.user_input.no_audio = False
+            config.user_input.no_bad_dumps = False
+            config.user_input.no_bios = False
+            config.user_input.no_bonus_discs = False
+            config.user_input.no_coverdiscs = False
+            config.user_input.no_demos = False
+            config.user_input.no_educational = False
+            config.user_input.no_mia = False
+            config.user_input.no_manuals = False
+            config.user_input.no_multimedia = False
+            config.user_input.no_bonus_discs = False
+            config.user_input.no_pirate = False
+            config.user_input.no_preproduction = False
+            config.user_input.no_promotional = False
+            config.user_input.no_unlicensed = False
+            config.user_input.no_video = False
+
+            excludes: list[str] = []
+
+            item: dict[str, str]
+            for item in config.system_exclusions_options:
+                if type(item) is dict:
+                    if 'exclude' in item.keys():
+                        for value in item.values():
+                            if 'a' in value:
+                                config.user_input.no_applications = True
+                                excludes.append('a')
+                            if 'A' in value:
+                                config.user_input.no_audio = True
+                                excludes.append('A')
+                            if 'b' in value:
+                                config.user_input.no_bad_dumps = True
+                                excludes.append('b')
+                            if 'B' in value:
+                                config.user_input.no_bios = True
+                                excludes.append('B')
+                            if 'c' in value:
+                                config.user_input.no_coverdiscs = True
+                                excludes.append('c')
+                            if 'd' in value:
+                                config.user_input.no_demos = True
+                                excludes.append('d')
+                            if 'D' in value:
+                                config.user_input.no_add_ons = True
+                                excludes.append('D')
+                            if 'e' in value:
+                                config.user_input.no_educational = True
+                                excludes.append('e')
+                            if 'k' in value:
+                                config.user_input.no_mia = True
+                                excludes.append('k')
+                            if 'm' in value:
+                                config.user_input.no_manuals = True
+                                excludes.append('m')
+                            if 'M' in value:
+                                config.user_input.no_multimedia = True
+                                excludes.append('M')
+                            if 'o' in value:
+                                config.user_input.no_bonus_discs = True
+                                excludes.append('o')
+                            if 'p' in value:
+                                config.user_input.no_pirate = True
+                                excludes.append('p')
+                            if 'P' in value:
+                                config.user_input.no_preproduction = True
+                                excludes.append('P')
+                            if 'r' in value:
+                                config.user_input.no_promotional = True
+                                excludes.append('r')
+                            if 'u' in value:
+                                config.user_input.no_unlicensed = True
+                                excludes.append('u')
+                            if 'v' in value:
+                                config.user_input.no_video = True
+                                excludes.append('v')
+
+                            config.user_input.excludes = ''.join(excludes)
+
+        if {'override options': 'true'} in config.system_exclusions_options:
+            config.user_input.demote_unl = False
+            config.user_input.empty_titles = False
+            config.user_input.filter_languages = False
+            config.user_input.legacy = False
+            config.user_input.list_names = False
+            config.user_input.log = False
+            config.user_input.modern = False
+            config.user_input.no_1g1r = False
+            config.user_input.no_dtd = False
+            config.user_input.no_filters = False
+            config.user_input.output_region_split = False
+            config.user_input.output_remove_dat = False
+            config.user_input.region_bias = False
+            config.user_input.verbose = False
+            config.user_input.warning_pause = False
+            config.user_input.single_cpu = False
+            config.user_input.trace = ''
+
+
+            options: list[str] = []
+
+            option: str
+            for option in config.system_exclusions_options:
+                if option == 'd':
+                    config.user_input.no_1g1r = True
+                    options.append('d')
+                if option == 'e':
+                    config.user_input.empty_titles = True
+                    options.append('e')
+                if option == 'listnames':
+                    config.user_input.list_names = True
+                if option == 'log':
+                    config.user_input.log = True
+                if option == 'nodtd':
+                    config.user_input.no_dtd = True
+                if option == 'nofilters':
+                    config.user_input.no_filter = True
+                if option == 'r':
+                    options.append('r')
+                    config.user_input.region_bias = True
+                if option == 'regionsplit':
+                    config.user_input.output_region_split = True
+                if option == 'removesdat':
+                    config.user_input.output_remove_dat = True
+                if option == 'singlecpu':
+                    config.user_input.single_cpu = True
+                if option == 'warningpause':
+                    config.user_input.warning_pause = True
+                if option == 'warnings':
+                    config.user_input.verbose = True
+                if option == 'y':
+                    options.append('y')
+                    config.user_input.demote_unl = True
+                if option == 'z':
+                    config.user_input.modern = True
+                    options.append('y')
+
+            config.user_input.trace = get_config_value(config.system_exclusions_options, 'trace', '', False)
 
 def load_data(data_file: str, file_type: str, config: Config) -> dict[str, Any]:
     """ Opens clone list or metadata files, and gives the user the option to redownload
@@ -904,7 +1140,7 @@ def load_data(data_file: str, file_type: str, config: Config) -> dict[str, Any]:
 
             if download_data_file == 'y':
                 eprint(f'\n* Downloading {Font.bold}{data_file}{Font.end}... ', sep=' ', end='', flush=True)
-                download(f'{config.clone_list_metadata_download_location}/{data_file}', pathlib.Path(f'{data_file}'))
+                download(f'{config.clone_list_metadata_download_location}/{data_file}', str(pathlib.Path(f'{data_file}')))
                 eprint('done.')
                 data_content = load_data(data_file, file_type, config)
 

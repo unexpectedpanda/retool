@@ -2,11 +2,11 @@ from __future__ import annotations
 
 from typing import TYPE_CHECKING
 
-from modules.dats import DatNode
-from modules.utils import eprint, Font
-
 if TYPE_CHECKING:
     from modules.config import Config
+
+from modules.dats import DatNode
+from modules.utils import eprint, Font
 
 class Stats:
     def __init__(self,
@@ -136,8 +136,8 @@ def get_parent_clone_stats(processed_titles: dict[str, list[DatNode]], config: C
 
     Args:
         `processed_titles (dict[str, list[DatNode]])`: A work in progress dictionary
-            of DatNodes, originally populated from the input DAT and actively being worked
-            on by Retool.
+        of DatNodes, originally populated from the input DAT and actively being worked on
+        by Retool.
         `config (Config)`: The Retool config object.
 
     Returns:
