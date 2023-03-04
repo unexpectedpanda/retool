@@ -1,4 +1,4 @@
-> **:mega: Retool v2 is now in beta**
+> **:mega: Retool v2 is now in beta and ready for testing**
 Retool is now much faster, with several new features and better accuracy.
 [Check out the new website](https://unexpectedpanda.github.io/retool) to learn more and
 download it, or [switch to the v2 branch](https://github.com/unexpectedpanda/retool/tree/v2).
