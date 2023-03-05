@@ -13,6 +13,10 @@ it.
 
 How you download and install Retool will depend on your level of comfort with code.
 
+!!! warning
+    If you're upgrading from v1, don't overwrite the contents of the v1 folder with v2.
+    Instead, start fresh with an empty folder.
+
 === ":simple-windows: Windows binary"
     If you're a Windows user and want the easiest path, you can get Retool going in a few
     easy steps:

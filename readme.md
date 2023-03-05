@@ -25,7 +25,7 @@ or [Romcenter](https://www.romcenter.com/) &mdash; you just won't need to use th
 1G1R modes, as Retool has already done the work for you.
 
 Retool is supported on Windows 10+, Ubuntu 20+, and macOS 10+ on x86 processors. It should
-work on M1 MacBooks too, however I don't own the hardware to test it.
+work on M-series MacBooks too, however I don't own the hardware to test it.
 
 ## Downloads and docs
 

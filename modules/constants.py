@@ -1,12 +1,11 @@
 # Set the user files and options
-# TODO: Set git repo branches to main, also in internal-config.json.
 CLI_VERSION_MAJOR: str = '2.00'
 CLI_VERSION_MINOR: str = '0 Beta 1'
 GUI_VERSION_MAJOR: str = '2.00'
 GUI_VERSION_MINOR: str = '0 Beta 1'
-CLONE_LIST_METADATA_DOWNLOAD_LOCATION: str = 'https://raw.githubusercontent.com/unexpectedpanda/retool-clonelists-metadata/v2'
+CLONE_LIST_METADATA_DOWNLOAD_LOCATION: str = 'https://raw.githubusercontent.com/unexpectedpanda/retool-clonelists-metadata/main'
 CLONE_LIST_METADATA_DOWNLOAD_LOCATION_KEY: str = 'cloneListMetadataUrl'
-PROGRAM_DOWNLOAD_LOCATION: str = 'https://raw.githubusercontent.com/unexpectedpanda/retool/v2'
+PROGRAM_DOWNLOAD_LOCATION: str = 'https://raw.githubusercontent.com/unexpectedpanda/retool/main'
 PROGRAM_DOWNLOAD_LOCATION_KEY: str = 'programUrl'
 CONFIG_FILE: str = 'config/internal-config.json'
 IGNORE_TAGS_KEY: str = "ignoreTags"
