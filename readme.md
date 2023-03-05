@@ -2,7 +2,7 @@
 >
 > Retool v2 is much faster, with several new features and better accuracy.
 [Check out the website](https://unexpectedpanda.github.io/retool) or the
-[v2 branch](https://github.com/unexpectedpanda/retool/tree/v2) to learn more download.
+[v2 branch](https://github.com/unexpectedpanda/retool/tree/v2) to learn more and download.
 
 # Retool
 
