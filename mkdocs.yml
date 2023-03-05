@@ -1,0 +1,77 @@
+site_name: Retool
+site_dir: ../unexpectedpanda.github.io/retool/
+theme:
+  name: material
+  custom_dir: docs/overrides
+  language: en
+  logo: images/retool.png
+  favicon: images/retool.ico
+  features:
+    - content.code.annotate
+    - content.tabs.link
+    - header.autohide
+    - navigation.expand
+    - toc.follow
+  palette:
+    scheme: slate
+    primary: blue grey
+extra_css:
+  - stylesheets/extra.css
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tilde
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.tabbed:
+      alternate_style: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - tables
+extra:
+  analytics:
+    provider: google
+    property: G-P63E119561
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/unexpectedpanda/retool
+  generator: false
+repo_url: https://github.com/unexpectedpanda/retool
+nav:
+  - index.md
+  - download.md
+  - changelog.md
+  - Understanding Retool:
+    - retool-1g1r.md
+    - clone-lists.md
+    - dat-support.md
+    - terminology.md
+  - How to use Retool:
+    - 'Retool GUI': how-to-use-retool-gui.md
+    - 'Retool CLI': how-to-use-retool-cli.md
+  - Contribute to Retool:
+    - 'Clone lists': contribute-clone-lists.md
+    - naming-system.md
+  - integrate.md
+
+plugins:
+  - search
+  # https://mkdocs-macros-plugin.readthedocs.io/en/latest/#installation
+  - macros
+
+
+

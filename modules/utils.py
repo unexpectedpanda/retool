@@ -1,44 +1,156 @@
+import argparse
 import os
+import pathlib
 import platform
 import re
+import socket
 import sys
 import textwrap
+import time
+import urllib.parse
+import urllib.request
 
-def enable_vt_mode():
-    """ Turns on VT-100 emulation mode for Windows
-    https://bugs.python.org/issue30075
+from datetime import datetime
+from typing import Any, Pattern
+from urllib.error import HTTPError, URLError
+
+
+def download(download_url: str, local_file_path: str) -> bool:
+    """ Downloads a file from a given URL
+
+    Args:
+        `download_url (str)`: The URL to download the file from.
+        `local_file_path (str)`: Where to save the file on the local drive.
+
+    Returns:
+        `bool`: Whether or not the download has failed
     """
+
+    def get_file(req: urllib.request.Request) -> tuple[bytes, bool]:
+        """ Error handling for downloading a file """
+
+        downloaded_file: bytes = b''
+        failed: bool = False
+        retrieved: bool = False
+        retry_count: int = 0
+
+        while not retrieved:
+            try:
+                with urllib.request.urlopen(req) as response:
+                    downloaded_file = response.read()
+            except HTTPError as error:
+                now = datetime.now()
+
+                if error.code == 404:
+                    eprint(f'{Font.warning}\n  * [{now.strftime("%m/%d/%Y, %H:%M:%S")}]: 404, file not found: {Font.bold}{download_url}')
+                    eprint(f'  * [{now.strftime("%m/%d/%Y, %H:%M:%S")}]: Skipping...{Font.end}\n')
+                    retrieved = True
+                else:
+                    eprint(f'{Font.warning}\n  * [{now.strftime("%m/%d/%Y, %H:%M:%S")}]: Data not retrieved: {error}', req)
+                    eprint(f'  * [{now.strftime("%m/%d/%Y, %H:%M:%S")}]: Skipping...{Font.end}\n')
+                    retrieved = True
+
+                failed = True
+            except URLError as error:
+                if retry_count == 5: break
+
+                retry_count += 1
+                now = datetime.now()
+                eprint(f'{Font.warning}\n  * [{now.strftime("%m/%d/%Y, %H:%M:%S")}]: Something unexpected happened: {error}')
+                eprint(f'  * [{now.strftime("%m/%d/%Y, %H:%M:%S")}]: Trying again in 5 seconds ({retry_count}/5)...')
+                time.sleep(5)
+            except socket.timeout as error:
+                if retry_count == 5: break
+
+                retry_count += 1
+                now = datetime.now()
+                eprint(f'{Font.warning}\n  * [{now.strftime("%m/%d/%Y, %H:%M:%S")}]: Socket timeout: {error}{Font.end}')
+                eprint(f'  * [{now.strftime("%m/%d/%Y, %H:%M:%S")}]: Trying again in 5 seconds ({retry_count}/5)...')
+                time.sleep(5)
+            except socket.error as error:
+                if retry_count == 5: break
+
+                retry_count += 1
+                now = datetime.now()
+                eprint(f'{Font.warning}\n  * [{now.strftime("%m/%d/%Y, %H:%M:%S")}]: Socket error: {error}{Font.end}')
+                eprint(f'  * [{now.strftime("%m/%d/%Y, %H:%M:%S")}]: Trying again in 5 seconds ({retry_count}/5)...')
+                time.sleep(5)
+            except:
+                if retry_count == 5: break
+
+                retry_count += 1
+                now = datetime.now()
+                eprint(f'{Font.warning}\n  * [{now.strftime("%m/%d/%Y, %H:%M:%S")}]: Something unexpected happened.{Font.end}')
+                eprint(f'  * [{now.strftime("%m/%d/%Y, %H:%M:%S")}]: Trying again in 5 seconds ({retry_count}/5)...')
+                time.sleep(5)
+            else:
+                retrieved = True
+
+        if retry_count == 5:
+            failed = True
+            now = datetime.now()
+            eprint(f'{Font.warning}\n  * [{now.strftime("%m/%d/%Y, %H:%M:%S")}]: {local_file_path} failed to download.{Font.end}\n\n')
+
+        # Delete any zero-sized files that have been created
+        if failed:
+            failed_file: pathlib.Path = pathlib.Path(local_file_path)
+
+            if (
+                failed_file.exists()
+                and failed_file.stat().st_size == 0):
+                    pathlib.Path.unlink(failed_file)
+
+        return (downloaded_file, failed)
+
+    headers: dict[str, str] = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36'}
+
+    req: urllib.request.Request = urllib.request.Request(f'{os.path.dirname(download_url)}/{urllib.parse.quote(os.path.basename(download_url))}', None, headers)
+
+    downloaded_file: tuple[bytes, bool] = get_file(req)
+
+    file_data: bytes = downloaded_file[0]
+    failed: bool = downloaded_file[1]
+
+    if not failed:
+        pathlib.Path(local_file_path).parent.mkdir(parents=True, exist_ok=True)
+        with open (pathlib.Path(f'{local_file_path}').resolve(), 'wb') as output_file:
+            output_file.write(file_data)
+
+    return failed
+
+
+def enable_vt_mode() -> Any:
+    """ Turns on VT-100 emulation mode for Windows. https://bugs.python.org/issue30075 """
 
     import ctypes
     import msvcrt
 
     from ctypes import wintypes
 
-    kernel32 = ctypes.WinDLL('kernel32', use_last_error=True)
+    kernel32: ctypes.WinDLL = ctypes.WinDLL('kernel32', use_last_error=True)
 
-    ERROR_INVALID_PARAMETER = 0x0057
-    ENABLE_VIRTUAL_TERMINAL_PROCESSING = 0x0004
+    ERROR_INVALID_PARAMETER: int = 0x0057
+    ENABLE_VIRTUAL_TERMINAL_PROCESSING: int = 0x0004
 
-    def _check_bool(result, func, args):
+    def _check_bool(result: int, func: Any, args: tuple[int, Any]) -> tuple[int, Any]:
         if not result:
             raise ctypes.WinError(ctypes.get_last_error())
         return args
 
     LPDWORD = ctypes.POINTER(wintypes.DWORD)
-    kernel32.GetConsoleMode.errcheck = _check_bool
-    kernel32.GetConsoleMode.argtypes = (wintypes.HANDLE, LPDWORD)
-    kernel32.SetConsoleMode.errcheck = _check_bool
-    kernel32.SetConsoleMode.argtypes = (wintypes.HANDLE, wintypes.DWORD)
+    setattr(kernel32.GetConsoleMode, 'errcheck', _check_bool)
+    setattr(kernel32.GetConsoleMode, 'argtypes', (wintypes.HANDLE, LPDWORD))
+    setattr(kernel32.GetConsoleMode, 'errcheck', _check_bool)
+    setattr(kernel32.SetConsoleMode, 'argtypes', (wintypes.HANDLE, wintypes.DWORD))
 
-    def set_conout_mode(new_mode, mask=0xffffffff):
-        # Don't assume StandardOutput is a console.
-        # Open CONOUT$ instead
-        fdout = os.open('CONOUT$', os.O_RDWR)
+    def set_conout_mode(new_mode: int, mask: int = 0xffffffff) -> int:
+        # Don't assume StandardOutput is a console, open CONOUT$ instead
+        fdout: int = os.open('CONOUT$', os.O_RDWR)
         try:
-            hout = msvcrt.get_osfhandle(fdout)
-            old_mode = wintypes.DWORD()
+            hout: int = msvcrt.get_osfhandle(fdout)
+            old_mode: ctypes.c_ulong = wintypes.DWORD()
             kernel32.GetConsoleMode(hout, ctypes.byref(old_mode))
-            mode = (new_mode & mask) | (old_mode.value & ~mask)
+            mode: int = (new_mode & mask) | (old_mode.value & ~mask)
             kernel32.SetConsoleMode(hout, mode)
             return old_mode.value
         finally:
@@ -54,87 +166,153 @@ def enable_vt_mode():
         raise
 
 
-def natural_keys(text):
-    """ Sorts in human order
-    http://nedbatchelder.com/blog/200712/human_sorting.html
+def eprint(*args: Any, **kwargs: Any) -> None:
+    """ Prints to STDERR """
+    print(*args, file=sys.stderr, **kwargs)
+
+
+def format_value(value: Any) -> str:
+    """ Formats a string-convertible value based on whether or not it is empty.
+
+    Args:
+        `value (Any)`: The value.
+
+    Returns:
+        `str`: A string that either indicates there's no value, or the original
+        value converted to a string.
     """
 
-    def atoi(text):
-        return int(text) if text.isdigit() else text
+    if not value:
+        return_value: str = f'{Font.disabled}None{Font.end}'
+    else:
+        return_value = f'{value}'
 
-    return [ atoi(c) for c in re.split(r'(\d+)', text) ]
-
-
-def old_windows():
-    if sys.platform.startswith('win'):
-        if (float(platform.release()) < 10):
-            return(True)
-
-    return(False)
+    return return_value
 
 
-def printwrap(string, style=''):
-    """ A wrapper for the textwrap function """
+def old_windows() -> bool:
+    """ Figures out if the script is running on a version of Windows earlier than
+    Windows 10.
+    """
 
-    if style == '':
-        print(textwrap.TextWrapper(width=80, subsequent_indent='  ').fill(f'' + string))
+    if (
+        sys.platform.startswith('win')
+        and (float(platform.release()) < 10)):
+            return True
+    return False
+
+
+def pattern2string(regex: Pattern[str], search_str: str, group_number: int = 0) -> str:
+    """ Takes a regex pattern, searches in a string, then returns the result. Exists only
+    so MyPy doesn't complain about `None` grouping.
+
+    Args:
+        `regex (Pattern[str])`: The regex pattern.
+        `search_str (str)`: The string to search in.
+        `group_number (int)`: The regex group to return.
+
+    Returns:
+        `str`: A regex group if found.
+    """
+    regex_search_str: str = ''
+
+    regex_search = re.search(regex, search_str)
+    if regex_search: regex_search_str = regex_search.group(group_number)
+
+    return regex_search_str
+
+
+def printwrap(string: str, style: str = '') -> None:
+    """ Ensures long print messages wrap at a certain column count, and controls text
+    indenting.
+
+    Args:
+        `string (str)`: The input string.
+        `style (str, optional)`: Which message style to use. Valid choices are
+        `no_indent`, `error`, `dat_details`, or `''`. Defaults to `''`.
+    """
+
+    if not style:
+        eprint(textwrap.TextWrapper(width=95, subsequent_indent='  ').fill(f'' + string))
 
     if style == 'no_indent':
-        print(textwrap.fill(string, 80))
+        eprint(textwrap.fill(string, 80))
 
     if style == 'error':
-        print('\n' + textwrap.TextWrapper(width=80, subsequent_indent='  ').fill(
+        eprint('\n' + textwrap.TextWrapper(width=95, subsequent_indent='  ').fill(
+            f'' + string))
+
+    if style == 'dat_details':
+        eprint(textwrap.TextWrapper(width=95, subsequent_indent='   ').fill(
             f'' + string))
 
 
-def printverbose(verbose, string):
-    """ A wrapper for the textwrap function
+def regex_test(regex_list: list[str], regex_origin: str, is_user_filter: bool = True) -> list[str]:
+    """ Checks for valid regexes.
 
-    Should only print if user_input.verbose == True
+    Args:
+        `regex_list (list[str])`: A list of regex patterns in string form.
+        `regex_origin (str)`: The origin of the regex filters, included in messages to the
+        user when a regex is found to be invalid. Usually `categories`, `overrides`,
+        `variants`, `global exclude`, `global include`, `system exclude`, `system include`.
+        `is_user_filter (bool, optional)`: Whether or not a user filter is being tested.
+        Changes the messages to the user if a regex is found to be invalid. Defaults to
+        `True`.
+
+    Returns:
+        `list[str]`: The remaining valid regexes as strings.
     """
 
-    if verbose == True:
-        print('\n' + textwrap.TextWrapper(width=80, subsequent_indent='  ').fill(
-                f'' + string))
+    list_temp: list[str] = regex_list.copy()
 
-
-def regex_test(list, list_name):
-    """ Checks for valid regexes in a list """
-
-    if type(list) is not str:
-        list_temp = list.copy()
-
-        for item in list_temp:
-            if item.startswith('/'):
+    for item in list_temp:
+        if (
+            item.startswith('/')
+            or not is_user_filter):
                 try:
                     re.compile(item[1:])
-                    regex_valid = True
+                    regex_valid: bool = True
                 except:
                     regex_valid = False
 
-                if regex_valid == False:
-                    print(f'{Font.warning}* Invalid regex in {list_name} filters: "{item[1:]}". Ignoring.{Font.end}')
-                    list.remove(item)
-    return list
+                if not regex_valid:
+                    regex_list.remove(item)
+
+    if list_temp != regex_list:
+        if is_user_filter:
+            eprint(f'{Font.warning}\n* The following {regex_origin} regex filters are invalid and will be skipped:\n')
+        else:
+            eprint(f'{Font.warning}\n* The following regex in the clone list\'s {regex_origin} object is invalid and will be skipped:\n')
+
+        for invalid_regex in [x for x in list_temp if x not in regex_list]:
+            eprint(f'  * {invalid_regex}')
+
+        eprint(f'{Font.end}')
+
+    return regex_list
 
 
 class Font:
-    """ Console text formatting.
-
-    This can't live in classes.py due to circular import
+    """
+    Console text formatting
     """
 
-    if old_windows() != True:
-        success = '\033[0m\033[92m'
-        success_bold = '\033[1m\033[92m'
-        warning = '\033[0m\033[93m'
-        warning_bold = '\033[1m\033[93m'
-        error = '\033[0m\033[91m'
-        error_bold = '\033[1m\033[91m'
-        disabled = '\033[90m'
-        bold = '\033[1m'
-        underline = '\033[4m'
-        end = '\033[0m'
+    if not old_windows():
+        success: str = '\033[0m\033[92m'
+        success_bold: str = '\033[1m\033[92m'
+        warning: str = '\033[0m\033[93m'
+        warning_bold: str = '\033[1m\033[93m'
+        error: str = '\033[0m\033[91m'
+        error_bold: str = '\033[1m\033[91m'
+        heading: str = '\033[0m\033[36m'
+        heading_bold: str = '\033[1m\033[36m'
+        subheading: str = '\033[0m\033[35m'
+        subheading_bold: str = '\033[1m\033[35m'
+        disabled: str = '\033[90m'
+        bold: str = '\033[1m'
+        italic = '\033[3m'
+        underline: str = '\033[4m'
+        end: str = '\033[0m'
     else:
         success = ''
         success_bold = ''
@@ -144,5 +322,23 @@ class Font:
         error_bold = ''
         disabled = ''
         bold = ''
+        italic = ''
         underline = ''
         end = ''
+
+
+class ExitRetool(Exception):
+    """ Cleanly exits Retool when it's run from the GUI """
+    pass
+
+
+class SmartFormatter(argparse.HelpFormatter):
+    """
+    Text formatter for argparse that respects new lines.
+    https://stackoverflow.com/questions/3853722/how-to-insert-newlines-on-argparse-help-text
+    """
+
+    def _split_lines(self, text: str, width: int) -> list[Any]:
+        if text.startswith('R|'):
+            return text[2:].splitlines()
+        return argparse.HelpFormatter._split_lines(self, text, width)

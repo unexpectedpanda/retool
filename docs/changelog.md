@@ -1,4 +1,11 @@
-# 2.00.0 Beta 1
+---
+hide:
+  - footer
+---
+
+# Changelog
+
+## 2.00.0 Beta 1
 
 Retool 2.0 is here in beta form. Ten months in the making, it'll be in beta for
 a few more months to get feedback and fix bugs found by users. Retool 1.x is
@@ -69,7 +76,7 @@ for the very slow DATs to be faster and the increase in accuracy.
 
 Check out the following list for other changes that have come in v2.
 
-## Accuracy
+<h3>Accuracy</h3>
 - Language order is now taken into account. If you don't filter by languages,
   the language order will be inferred from your region order. This mostly
   impacts European titles, where compared to previous versions of Retool another
@@ -277,7 +284,7 @@ Check out the following list for other changes that have come in v2.
   is now more up to date. This tool is kept internal to prevent people from
   spamming the Redump site.
 
-## New features
+<h3>New features</h3>
 - System settings. You can now override global settings on a per-system basis.
   For example, you can set global settings that affect all of the DATs you
   process, but set unique options for Sony PlayStation that override the global
@@ -317,7 +324,7 @@ Check out the following list for other changes that have come in v2.
 - Retool GUI now lets you drag and drop regions and languages, not just use the
   position buttons.
 
-## Quality of life updates
+<h3>Quality of life updates</h3>
 - There's a [brand new Retool website and documentation](https://unexpectedpanda.github.io/retool).
 - Retool can now cope with a user entering a trailing backslash in a path in
   Windows.
@@ -360,7 +367,7 @@ Check out the following list for other changes that have come in v2.
   - **Select all** and **Deselect all** buttons have been added to the
     exclusions tab.
 
-## Performance and maintenance
+<h3>Performance and maintenance</h3>
 - Improved conversion of CLRMAMEPro formatted DATs to Logiqx XML, which should
   avoid some crashes and handle larger files.
 - Removed BeautifulSoup for increased performance.
@@ -372,7 +379,7 @@ Check out the following list for other changes that have come in v2.
   a warning if things aren't formatted correctly, and even if they are, they
   shouldn't crash Retool &mdash; just that clone list entry is skipped.
 
-## Developer updates
+<h3>Developer updates</h3>
 - New clone list format. This is for consistency and to explicitly name
   features, so newcomers have a better chance of understanding what's
   going on and contributing.
@@ -531,17 +538,17 @@ Check out the following list for other changes that have come in v2.
   be printed to show the title's information in a tree-like fashion.
 
 
-# 1.18
+## 1.18
 
   - A small change to handle a new versioning system in No-Intro.
 
 
-# 1.17
+## 1.17
 
   - Retool can now handle No-Intro DATs that reference an XSD file.
 
 
-# 1.16
+## 1.16
 
 - The `<name>` tag in the output DAT header has been changed so CLRMAMEPro
   recognizes DAT updates between Retool versions.
@@ -552,7 +559,7 @@ Check out the following list for other changes that have come in v2.
   that match their preferences.
 
 
-# 1.15
+## 1.15
 
 - Titles that have invalid filename characters
   (`:`, `\`, `/`, `<`, `>`, `"`, `|`, `?`, `*`) in DATs now have those
@@ -560,10 +567,10 @@ Check out the following list for other changes that have come in v2.
   also checked for invalid filename characters.
 
 
-# 1.14
+## 1.14
 
 - Ring code version checking is now turned on for FM-Towns.
-- The _(Homebrew)_ tag is now recognized.
+- The `(Homebrew)` tag is now recognized.
 - When you exclude unlicensed titles, that now includes aftermarket and
   homebrew titles.
 - Unlicensed titles now get demoted if there's a production title in the same
@@ -574,41 +581,41 @@ Check out the following list for other changes that have come in v2.
   the `clonelists` or `metadata` folders missing.
 
 
-# 1.13
+## 1.13
 
 - The `(Headered)` and `(Headerless)` tags No-Intro were adding to the new NES
   DATs caused Retool to not associate them with the NES clone list. This has
   now been fixed.
 
 
-# 1.12
+## 1.12
 
 - Retool now brings over ROM manager directives in headers, including header
   skippers. This should resolve issues around things like headered DATs.
 
 
-# 1.11
+## 1.11
 
 - Fixed how Retool searches for `rom` attributes to avoid incorrect substring
   matches. Retool should no longer crash on game names that contain `mia`.
 
 
-# 1.10
+## 1.10
 
 - Updated Retool to support `mia` attributes on `rom` elements.
 
 
-# 1.09
+## 1.09
 
 - Updated Retool to support `header` attributes on `rom` elements.
 
 
-# 1.08
+## 1.08
 
 - Updated Retool to support SHA256 hashes.
 
 
-# 1.07
+## 1.07
 
 - Changed the way Retool handles versions to deal with more complex version
   systems introduced in recent No-Intro DATs. Some version selections are now
@@ -616,7 +623,7 @@ Check out the following list for other changes that have come in v2.
 - Retool can now handle empty `<url>` tags in DAT headers.
 
 
-# 1.06
+## 1.06
 
 - The `release` tag now copies the `game name` attribute, instead of the
   `description` tag. This is because No-Intro started using descriptions in the
@@ -625,7 +632,7 @@ Check out the following list for other changes that have come in v2.
   clone lists and metadata.
 
 
-# 1.05
+## 1.05
 
 - Fixed a region selection regex bug which caused Retool to crash when
   including files with specific regex custom filters.
@@ -633,20 +640,20 @@ Check out the following list for other changes that have come in v2.
 - The DTD was updated to make `size` an optional attribute of `rom`.
 
 
-# 1.04
+## 1.04
 
 - Fixed a bug where _(United Kingdom)_ titles in No-Intro DATs were being
   recognized as _(Unknown)_ titles as well.
 
 
-# 1.03
+## 1.03
 
 - The Satellaview-specific `(Magazine)` tag has been added to the multimedia
   filter.
 - The `(DEBUG)` tag has been added to the preproduction filter.
 
 
-# 1.02
+## 1.02
 
 - Fixed a Sega ring code version comparison bug.
 - The N-Gage-specific tag `(Full Trial)` has been added to the demos filter.
@@ -659,42 +666,42 @@ Check out the following list for other changes that have come in v2.
   Punjabi, Tamil, Ukranian.
 
 
-# 1.01
+## 1.01
 
 - Fixed an issue where titles assigned to `BIOS` in a clone list weren't
   removed if a user had selected to remove BIOSes.
 
 
-# 1.00
+## 1.00
 
 - Fixed an issue where multiple regions caused a crash when determining the
   implied language of a title.
 
 
-# 0.99
+## 0.99
 
 - Fixed an issue where titles on the system include list wouldn't be recovered.
 
 
-# 0.98
+## 0.98
 
 - Fixed an issue where if a title was reassigned to the `Demos` category, and
   was also featured in the `renames` object of a clone list, the clone wouldn't
   be assigned.
 
 
-# 0.97
+## 0.97
 
 - Fixed titles with manually set categories in clone lists being erroneously
   added to remove lists when the `--log` option was set.
 
 
-# 0.96
+## 0.96
 
 - Fixed DATs with an empty author field causing a crash.
 
 
-# 0.95
+## 0.95
 
 - Fixed a bug where a combination of modern editions and the `(Unl)` tag caused
   the wrong 1G1R title to be selected when the user preferred modern ripped
@@ -707,19 +714,19 @@ Check out the following list for other changes that have come in v2.
   of a DAT previously processed by Retool.
 
 
-# 0.94
+## 0.94
 
 - Fixed a QT issue where the Retool icon wouldn't load properly on Windows.
 
 
-# 0.93
+## 0.93
 
 - Fixed a crash for Linux users by adding conditionals to the new Windows CLI
   code.
 - Removed Colorama import accidentally left in when fixing Windows formatting.
 
 
-# 0.92
+## 0.92
 
 - Retool CLI no longer clears the screen on start. Turns out this was also
   accidentally enabling VT-100 mode in Windows 10 (which allows ANSI codes
@@ -741,21 +748,21 @@ Check out the following list for other changes that have come in v2.
 - Added Estonia & Lithuania as regions, along with their languages.
 
 
-# 0.91
+## 0.91
 
 - Fixed a crash when processing the Mega CD/Sega CD DAT, and Europe or USA was
   not included in the region order.
 - Specified in the GUI that custom filters are case sensitive.
 
 
-# 0.90
+## 0.90
 
 - Excluding demos now also excludes kiosk titles, and matches some extra strings
   for trial versions.
 - Excluding videos now excludes trailers as well.
 
 
-# 0.89
+## 0.89
 
 Things of note for this release:
 
@@ -768,7 +775,7 @@ Things of note for this release:
   exclusions. Grab that one title you want from Japan, or save that one demo
   while excluding the rest.
 
-## New features
+<h3>New features</h3>
 - Custom global or system filter includes can now force inclusion of titles that
   have been removed due to:
   - Region exclusions.
@@ -785,7 +792,7 @@ Things of note for this release:
   prompted in the command line output whether to continue or not if Retool is
   out of date compared to what the clone list requires.
 
-## Bug fixes
+<h3>Bug fixes</h3>
 - Stat calculation of custom global/system filters would crash Retool when
   `--nofilters` was set. This has been fixed.
 - Stat calculation of the dat's final title count has been fixed to include
@@ -795,7 +802,7 @@ Things of note for this release:
 - Fixed Retool GUI not remembering output folders or exclusion settings.
 - Updated a few dependencies.
 
-## Behavior changes
+<h3>Behavior changes</h3>
 - Tried to capture general crashes in order to give feedback to Retool GUI
   users, to help diagnose future issues.
 - Overrides and conditional overrides in clone lists are now merged into just
@@ -852,7 +859,7 @@ Things of note for this release:
       US release.
 
 
-# 0.88
+## 0.88
 
 Things of note for this release:
 
@@ -861,7 +868,7 @@ Things of note for this release:
 - Windows binaries no longer live in the `/dist/` folder, as it was becoming a
   download burden to those cloning the repo.
 
-## New features
+<h3>New features</h3>
 - You can now exclude Manuals.
 - Excluding BIOSes now also excludes enhancement chips.
 - Excluding applications now excludes titles with "Check Program" and "Sample
@@ -879,7 +886,7 @@ Things of note for this release:
 - In Retool GUI, the user is now prompted to download clone lists if they don't
   have any.
 
-## Bug fixes
+<h3>Bug fixes</h3>
 - If a key title in a clone list didn't exist in an input DAT (or had been
   removed by a Retool option), then all other titles in that array would become
   unlinked from one another. This has been fixed.
@@ -890,7 +897,7 @@ Things of note for this release:
   if a region hasn't been selected.
 - Made sure release tags output consistently in legacy mode.
 
-## Behavior changes
+<h3>Behavior changes</h3>
 - The demotion of modern ripped titles (for example, Virtual Console) is now
   working cross-region. You'll still get them if the modern edition is the only
   one available with a language associated with a higher region priority. For
@@ -900,10 +907,10 @@ Things of note for this release:
   region order, the modern edition will remain.
 
 
-# 0.87
+## 0.87
 Some big changes this time around, including some requested features.
 
-## New features
+<h3>New features</h3>
 - There are now user-customizable exclude and include filters, so you can keep
   or remove specific titles regardless of what Retool thinks should be done
   with them. You can set filters as partial strings, full strings, or regex.
@@ -920,7 +927,7 @@ Some big changes this time around, including some requested features.
   dependencies before it could even think about launching the program, slowing
   things down.
 
-## Bug fixes
+<h3>Bug fixes</h3>
 - Rewrote the parent assignment code to correct misassignment issues in the
   NES DAT. It turns out this results in fixes for other sets too, requiring
   clone list changes. For accurate matches, you must update to Retool 0.87 to
@@ -951,7 +958,7 @@ Some big changes this time around, including some requested features.
 - Fixed dependency problems when running `updateclonelists.py` from the
   command line.
 
-## Behavior changes
+<h3>Behavior changes</h3>
 - More titles ripped from modern platform rereleases (such as Virtual Console
   titles in the SNES DAT, for example) have been demoted by default, as they
   don't necessarily play well (or at all) in emulators. You can make these
@@ -971,7 +978,7 @@ Some big changes this time around, including some requested features.
   just tying a bow on Logiqx-style 1G1R parent/clone DAT files, 1G1R modes in
   DAT managers still aren't very useful.
 
-## Internal changes
+<h3>Internal changes</h3>
 - `user-config.yaml` is no longer stored in the GitHub repo. It's also been
   removed from Windows ZIP file. This is to prevent users accidentally
   overwriting their own `user-config.yaml` when updating Retool. Both Retool
@@ -979,7 +986,7 @@ Some big changes this time around, including some requested features.
 - Metadata is now in alphabetical order.
 
 
-# 0.86
+## 0.86
 - Modern rereleases like Virtual Console titles have been demoted in priority,
   as quite often emulators won't play them.
 - Now includes scraped language data from No-Intro for more accurate language
@@ -994,24 +1001,24 @@ Some big changes this time around, including some requested features.
   in games.
 
 
-# 0.85
+## 0.85
 - Updated the date sorting to take into account another of No-Intro's
   inconsistent date formats `(Month name, YYYY)`.
 - Another tweak to the ordering of the output DAT.
 
 
-# 0.84
+## 0.84
 - Updated the Sega ring code regex so more ring codes are captured.
 
 
-# 0.83
+## 0.83
 - Accidentally uploaded the wrong `user-config.yaml`, where all regions were
   commented out. This resulted in the CLI version of Retool finding no clones
   unless manually edited by the user. This has now been fixed.
 - Some code clean up and extra explanation for some options.
 
 
-# 0.82
+## 0.82
 - (Unl) titles in a higher region are now demoted below equivalent production
   titles in other regions.
 - You can now exclude by the "Audio" and "Video" categories.
@@ -1021,14 +1028,14 @@ Some big changes this time around, including some requested features.
 - Fixed a natural sort bug in the alphabetical ordering of output DATs.
 
 
-# 0.81
+## 0.81
 - Fixed a bug in `retool-gui.py` where the output DAT file had ` (-)` in its
   file name if no options were set.
 - Fixed a bug where clone lists and metadata wouldn't download if their
   respective folders didn't exist.
 
 
-# 0.80
+## 0.80
 - Retool can now handle No-Intro numbered DATs.
 - Output DATs used to do alphabetical order based on group, which could look
   like things were out of order if you didn't know what was happening behind
@@ -1040,11 +1047,11 @@ Some big changes this time around, including some requested features.
   more information to work with.
 
 
-# 0.79
+## 0.79
 - Fixed the online updating of clone lists to include Redump metadata.
 
 
-# 0.78
+## 0.78
 - Implemented a GUI. You'll need to install `pysimpleguiqt` with pip, and after
   that you can run it with `retool-gui.py`. It's not as tight and consistent as
   it could be due to limitations with PySimpleGUIQt, but given PySimpleGUI's
@@ -1072,7 +1079,7 @@ Some big changes this time around, including some requested features.
 - Lots of code tweaks to better suit GUI interaction.
 
 
-# 0.77
+## 0.77
 - The `-g` option now keeps applications, as they are useful for computer
   platforms like the Atari ST and Commodore Amiga.
 - The new `-y` option outputs a list of what titles have been kept and removed
@@ -1086,7 +1093,7 @@ Some big changes this time around, including some requested features.
 - Hid displaying options behind the `-?` option.
 
 
-# 0.76
+## 0.76
 - Fixed filtering by language. This was broken due to a last minute change from
   a string to regex in the 0.75 release.
 - Fixed folders not being processed to completion when filter by language was
@@ -1109,7 +1116,7 @@ Some big changes this time around, including some requested features.
   to specify `-p` if you want to remove all preproduction titles.
 
 
-# 0.75
+## 0.75
 - Now handles No-Intro DATs. Note that Retool grouping follows different rules
   to No-Intro. For example, in the Atari 2600 DAT, a compilation is listed as
   a clone of a single title, despite featuring unique games. No-Intro also
@@ -1146,16 +1153,16 @@ Some big changes this time around, including some requested features.
 - Some crash fixes and message format tweaking.
 
 
-# 0.71
+## 0.71
 - Moved internal-config.json to the clonelists + metadata file so new
   releases of Retool aren't required each time the file is updated.
 
 
-# 0.70
+## 0.70
 Oof, this is a big update, with feature and performance improvements all over
 the place.
 
-## Code readability and performance
+<h3>Code readability and performance</h3>
 Retool has been largely rewritten for readability, performance, security, and
 to make forward momentum easier. This means a few breaking changes:
 
@@ -1177,13 +1184,13 @@ Processing DATs is now also much faster as a result of better coding practices.
 While this is nice for all DATs, you'll mostly feel it on the big ones.
 The PlayStation and IBM DATs, for example, are now 2x faster.
 
-## Custom region orders, filter by language
+<h3>Custom region orders, filter by language</h3>
 Custom region orders are now supported &mdash; even for supersets. You can
 also filter by languages. Make your choices by editing the `region order` and
 `filter languages` sections in `user-config.yaml`. You can use the `-l` option
 to filter by language, or leave it off to include all languages.
 
-## Other language and region stuff
+<h3>Other language and region stuff</h3>
 Retool's a lot smarter with languages now.
 
 For a start, implied languages are now enabled for most regions, and language
@@ -1206,7 +1213,7 @@ The following things have also changed:
   to be categorized as a USA title &mdash; it's now correctly identified as a
   European title.
 
-## Other updates
+<h3>Other updates</h3>
 - You can now exclude unlicensed titles.
 - Sega ring codes are now mostly handled automatically for assigning clones.
   This has greatly reduced the size of some clone lists.
@@ -1227,7 +1234,7 @@ The following things have also changed:
   multiple OS versions for a title, all are included.
 
 
-# 0.60
+## 0.60
 - Removed pointless milliseconds from output file name.
 - Added "Scholastic" to the publisher/distributor list.
 - Added more disc synonyms.
@@ -1241,18 +1248,18 @@ The following things have also changed:
   customization later.
 
 
-# 0.59
+## 0.59
 - Added "Best of the Best" and "Best Hit Selection" as publishers/distributors.
 - Added another disc synonym.
 
 
-# 0.58
+## 0.58
 - Added yet another disc synonym.
 - Added "Hitsquad - Regenerator" as a publisher/distributor.
 - Removed `_version.py`.
 
 
-# 0.57
+## 0.57
 - Separated removing coverdiscs from demos (`-d`), making it its own option
   (`-b`). Turns out plenty of full version games were given away as coverdiscs.
 - Made handling the XML definition in a DAT a bit more robust.
@@ -1272,7 +1279,7 @@ The following things have also changed:
   the way.
 
 
-# 0.56
+## 0.56
 - Messed with the region order a little to be more fair to more popular
   languages, taking in mind how many titles were actually released for
   those languages.
@@ -1282,11 +1289,11 @@ The following things have also changed:
   a GitHub wiki for more detailed information.
 
 
-# 0.55
+## 0.55
 - Code changes to support a build pipeline.
 
 
-# 0.54
+## 0.54
 - Greatly sped up parent/clone processing, and removed XML conversion in
   favor of writing directly to the output DAT. This will be mostly noticeable
   for large DATs. The IBM and Sony Redump DATs, for example, now process around
@@ -1299,7 +1306,7 @@ The following things have also changed:
   enabled.
 
 
-# 0.53
+## 0.53
 - Fixed a bug where if a region name was in a title, it caused clones to be
   assigned to the wrong parents. For example,
   _Daytona **USA** Deluxe Edition (Taiwan)_,
@@ -1309,20 +1316,20 @@ The following things have also changed:
   matching.
 
 
-# 0.52
+## 0.52
 - Added better parent selection for the following:
   - Titles with multiple date versions.
   - Titles with distributor/publisher, OEM, and covermount tags.
   - Budget titles vs the originals.
 
 
-# 0.51
+## 0.51
 - Added Zh as a language.
 - Fixed a crash if a DAT had no titles, and Retool was trying to process
   supersets.
 
 
-# 0.50
+## 0.50
 - A huge architectural shift to move Retool to a 1G1R DAT generator. Due to
   this, the `_regional_renames.py` file has been renamed to `_renames.py` and
     massively expanded to take into account localized title dupes. The file has
@@ -1406,12 +1413,12 @@ The following things have also changed:
   as clones, which is not what we want.
 
 
-# 0.34
+## 0.34
 - Added textwrap module for better readability on MacOS/Linux.
 - Bundled MacOS and Windows binaries.
 
 
-# 0.33
+## 0.33
 - Added ability to operate on folders.
 - Fixed output file naming bugs.
 - Fixed some user input issues.
@@ -1420,13 +1427,13 @@ The following things have also changed:
   Thailand, Turkey, Ukraine, United Arab Emirates.
 
 
-# 0.32
+## 0.32
 - Reimplemented `-re` and `-ra` flags.
 - Fixed header so the user wasn't prompted with false update warnings when the
   DAT was loaded in CLRMAMEPro.
 
 
-# 0.31
+## 0.31
 - Used dictionaries and classes to greatly increase performance and improve
   code readability.
 - Removed minidom dependency.
@@ -1434,7 +1441,7 @@ The following things have also changed:
 - Usability tweaks.
 
 
-# 0.20
+## 0.20
 - Refactored for performance, code readability, and usability.
 - Can handle CLRMAMEPro DAT files now, not just Logiqx XML format.
 - Added Germany, Ireland, Israel, Latin America, New Zealand, and Taiwan
@@ -1446,5 +1453,5 @@ The following things have also changed:
 - Removed `-re` and `-ra` flags until refactor is finished next version.
 
 
-# 0.10
+## 0.10
 - Initial release.
