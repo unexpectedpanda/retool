@@ -99,7 +99,7 @@ code.
 ### For Windows users only familiar with graphical interfaces
 You can get going in a few easy steps:
 
-1. Download the [latest binary](https://unexpectedpanda.github.io/files/retool-latest-win-x86-64.zip)
+1. Download the [latest binary](https://unexpectedpanda.github.io/files/retool-1.18-win-x86-64.zip)
    for Windows.
 2. Extract the ZIP file to a folder of your choosing.
 3. Double click `retool-gui.exe`. It will show a Command Prompt window, then the
