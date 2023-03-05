@@ -1,12 +1,8 @@
-> **:mega: Retool v2 is now available**
+> **:mega: Retool v1 is now unsupported**
 >
-> Retool is now much faster, with several new features and better accuracy.
-[Check out the new website](https://unexpectedpanda.github.io/retool) to learn more and
-download it, or [switch to the v2 branch](https://github.com/unexpectedpanda/retool/tree/v2).
->
-> Retool v1 will continue to be available until v2 exits beta, however it's now
-unsupported and issues should only be filed for v2. Similarly, clone lists and metadata
-are only being updated for v2.
+> Retool v2 is much faster, with several new features and better accuracy.
+[Check out the website](https://unexpectedpanda.github.io/retool) or the
+[v2 branch](https://github.com/unexpectedpanda/retool/tree/v2) to learn more download.
 
 # Retool
 
