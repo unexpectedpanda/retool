@@ -27,11 +27,11 @@ or [Romcenter](https://www.romcenter.com/) &mdash; you just won't need to use th
 Retool is supported on Windows 10+, Ubuntu 20+, and macOS 10+ on x86 processors. It should
 work on M-series MacBooks too, however I don't own the hardware to test it.
 
+![A screenshot of the main Retool screen](https://unexpectedpanda.github.io/retool/images/main-app.png)
+
 ## Downloads and docs
 
 You can learn more about Retool and how to download it at the [official site](https://unexpectedpanda.github.io/retool/).
-
-![A screenshot of the main Retool screen](https://unexpectedpanda.github.io/retool/images/main-app.png)
 
 
 
