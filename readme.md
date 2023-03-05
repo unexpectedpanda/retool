@@ -1,5 +1,15 @@
 # Retool
 
+> **:mega: Retool v2 is now available**
+>
+> Retool is now much faster, with several new features and better accuracy.
+[Check out the website](https://unexpectedpanda.github.io/retool) to learn more and
+download it.
+>
+> Retool v1 is still available from the [v1 branch](https://github.com/unexpectedpanda/retool/tree/v1),
+however it's unsupported and issues should only be filed for v2. Clone lists and metadata
+are only being updated for v2.
+
 Retool filters [Redump](http://redump.org/) and [No-Intro](https://www.no-intro.org/)
 DATs, offering the following features:
 
