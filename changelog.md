@@ -1,10 +1,10 @@
 # 2.00.0 Beta 1
 
 Retool 2.0 is here in beta form. Ten months in the making, it'll be in beta for
-a few more months to get feedback and fix bugs found by users. Retool 1.x will
-still be available during this time, although it won't receive clone list
-updates from this point. After the beta period, Retool 1.x will be retired, and
-Retool 2.0 will take its place.
+a few more months to get feedback and fix bugs found by users. Retool 1.x is
+still available from the [v1 branch](https://github.com/unexpectedpanda/retool/tree/v1),
+although it won't receive clone list updates from this point, and issues will only be
+fixed for v2.
 
 Retool 2.0 is a hefty rewrite with a focus on static typing, better code
 practices, maintainability, and making things go _faster_.
