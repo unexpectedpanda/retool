@@ -33,6 +33,6 @@ work on M-series MacBooks too, however I don't own the hardware to test it.
 
 You can learn more about Retool and how to download it at the [official site](https://unexpectedpanda.github.io/retool/).
 
+## Contribute to clone lists
 
-
-
+You can contribute to Retool's clone lists at their [dedicated repository](https://github.com/unexpectedpanda/retool-clonelists-metadata).
