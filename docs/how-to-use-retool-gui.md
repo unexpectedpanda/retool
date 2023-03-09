@@ -7,8 +7,8 @@ hide:
 
 What follows is a step-by-step walkthrough of using Retool GUI and all of its features. If
 you're new to DAT management, it might be beneficial to spend some time reading about
-[terminology](../terminology), and after you've filtered a DAT file with Retool, check out
-the [Beginner's guide to ROM managers](../beginners).
+[terminology](../terminology), and after you've filtered a DAT file with Retool, check
+out the help documentation for your favorite ROM manager to learn how to use it.
 
 !!! Info
     Depending on your operating system, all Python commands in this guide might need to be

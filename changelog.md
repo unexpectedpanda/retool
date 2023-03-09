@@ -1,3 +1,7 @@
+# 2.00.0 Beta 2
+
+A minor update to fix system user filters for No-Intro's _Redump Custom DATs_.
+
 # 2.00.0 Beta 1
 
 Retool 2.0 is here in beta form. Ten months in the making, it'll be in beta for

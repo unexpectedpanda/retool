@@ -849,7 +849,7 @@ def import_system_settings(
     system_list_prefix_key: str,
     system_list_suffix_key: str,
     system_exclusions_options_key: str) -> None:
-    """ Imports the system user filters from the relevant file.
+    """ Imports system settings from the relevant file.
 
     Args:
         `config (Config)`: The Retool config object.

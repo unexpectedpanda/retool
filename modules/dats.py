@@ -945,6 +945,28 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput, config: Co
         else:
             input_dat.search_name = f'{input_dat.search_name}'
 
+        # Deal with https://dats.site DATs
+        if 'GameCube' in input_dat.search_name:
+            if (
+                'NKit GCZ' in input_dat.search_name
+                or 'NKit ISO' in input_dat.search_name
+                or 'NKit RVZ' in input_dat.search_name
+                or 'NASOS' in input_dat.search_name):
+                    input_dat.search_name = 'Nintendo - GameCube (Redump)'
+
+        if 'Wii' in input_dat.search_name:
+            if (
+                'NKit GCZ' in input_dat.search_name
+                or 'NKit ISO' in input_dat.search_name
+                or 'NKit RVZ' in input_dat.search_name
+                or 'NASOS' in input_dat.search_name):
+                    input_dat.search_name = 'Nintendo - Wii (Redump)'
+
+        if (
+            'Wii U' in input_dat.search_name
+            and 'WUX' in input_dat.search_name):
+                input_dat.search_name = 'Nintendo - Wii U (Redump)'
+
         search_games: list[Any] = root.findall('game')
 
         if config.user_input.trace:

@@ -65,6 +65,7 @@ nav:
     - 'Retool CLI': how-to-use-retool-cli.md
   - Contribute to Retool:
     - 'Clone lists': contribute-clone-lists.md
+    - 'Metadata files': contribute-metadata-files.md
     - naming-system.md
   - integrate.md
 

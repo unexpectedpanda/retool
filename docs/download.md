@@ -54,14 +54,6 @@ How you download and install Retool will depend on your level of comfort with co
         git clone https://github.com/unexpectedpanda/retool.git
         ```
 
-    1.  For the v2 beta, make sure to switch to the `v2` branch:
-
-        ```
-        git checkout v2
-        ```
-
-        When out of beta, v2 will be migrated to the main branch.
-
     1.  Install Retool's dependencies, either with Pip or
         [Poetry](https://python-poetry.org/):
 
