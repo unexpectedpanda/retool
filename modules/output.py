@@ -480,7 +480,7 @@ class WriteFiles(object):
                     log_file_contents.append('These titles were removed because they matched the user\'s system excludes.\n\n')
 
                     for title in sorted(removes.system_excludes, key=lambda x: x.full_name):
-                        log_file_contents.append(f'- {title.full_name}')
+                        log_file_contents.append(f'- {title.full_name}\n')
 
         # Show user exclude options in the output filename
         excludes: str = ''
