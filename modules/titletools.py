@@ -94,6 +94,7 @@ class IncludeExcludeTools(object):
             exclude_titles_regex.add((config.regex.multimedia, 'multimedia_count', 'Multimedia'))
         if config.user_input.no_pirate:
             exclude_categories.add(('Pirate', 'pirate_count'))
+            exclude_titles_regex.add((config.regex.pirate, 'pirate_count', 'Pirate'))
         if config.user_input.no_preproduction:
             exclude_categories.add(('Preproduction', 'preproduction_count'))
             for preproduction in config.regex.preproduction:
@@ -103,7 +104,8 @@ class IncludeExcludeTools(object):
             exclude_titles_regex.add((config.regex.promotional, 'promotional_count', 'Promotional'))
         if config.user_input.no_unlicensed:
             exclude_categories.add(('Unlicensed', 'unlicensed_count'))
-            exclude_titles_regex.add((config.regex.unlicensed, 'unlicensed_count', 'Unlicensed'))
+            for unlicensed in config.regex.unl_group:
+                exclude_titles_regex.add((unlicensed, 'unlicensed_count', 'Unlicensed'))
         if config.user_input.no_video:
             exclude_categories.add(('Video', 'video_count'))
             for video in config.regex.video:
@@ -718,6 +720,13 @@ class Regex:
             self.proto,
             self.preprod,
             self.dev
+        )
+
+        self.unl_group: tuple[Pattern[str], ...] = (
+            self.aftermarket,
+            self.homebrew,
+            self.pirate,
+            self.unlicensed
         )
 
         self.video: tuple[Pattern[str], ...] = (

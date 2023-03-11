@@ -133,7 +133,7 @@ def enable_go_button(main_window: Any) -> None:
             message = 'You need to add at least one region before you can process DATs'
 
     if message == 'You need to add DAT files to the list':
-        message = f'{message}, before you can process them'
+        message = f'{message} before you can process them'
 
     main_window.ui.buttonGo.setDisabled(disabled)
 

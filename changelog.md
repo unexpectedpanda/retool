@@ -1,3 +1,9 @@
+# 2.00.0 Beta 4
+
+* Pirate and unlicensed exclusions work again. Pirate titles have been added to
+  the unlicensed exclude option.
+* The GUI documentation link now goes to the right place.
+
 # 2.00.0 Beta 3
 
 * Fixed user filter excludes not removing some excludes.

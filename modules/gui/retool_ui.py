@@ -452,7 +452,7 @@ class Ui_MainWindow(object):
         self.scrollAreaGlobalOptions.setWidgetResizable(True)
         self.scrollAreaWidgetContentsGlobalOptions = QWidget()
         self.scrollAreaWidgetContentsGlobalOptions.setObjectName(u"scrollAreaWidgetContentsGlobalOptions")
-        self.scrollAreaWidgetContentsGlobalOptions.setGeometry(QRect(0, 0, 564, 784))
+        self.scrollAreaWidgetContentsGlobalOptions.setGeometry(QRect(0, 0, 424, 784))
         sizePolicy.setHeightForWidth(self.scrollAreaWidgetContentsGlobalOptions.sizePolicy().hasHeightForWidth())
         self.scrollAreaWidgetContentsGlobalOptions.setSizePolicy(sizePolicy)
         self.verticalLayout = QVBoxLayout(self.scrollAreaWidgetContentsGlobalOptions)
@@ -813,7 +813,7 @@ class Ui_MainWindow(object):
         self.scrollAreaGlobalUserFilters.setWidgetResizable(True)
         self.scrollAreaWidgetContentsGlobalUserFilters = QWidget()
         self.scrollAreaWidgetContentsGlobalUserFilters.setObjectName(u"scrollAreaWidgetContentsGlobalUserFilters")
-        self.scrollAreaWidgetContentsGlobalUserFilters.setGeometry(QRect(0, 0, 564, 500))
+        self.scrollAreaWidgetContentsGlobalUserFilters.setGeometry(QRect(0, 0, 102, 932))
         self.verticalLayout_2 = QVBoxLayout(self.scrollAreaWidgetContentsGlobalUserFilters)
         self.verticalLayout_2.setSpacing(6)
         self.verticalLayout_2.setObjectName(u"verticalLayout_2")
@@ -1360,7 +1360,7 @@ class Ui_MainWindow(object):
         self.scrollAreaSystemOptions.setWidgetResizable(True)
         self.scrollAreaWidgetContentsSystemOptions = QWidget()
         self.scrollAreaWidgetContentsSystemOptions.setObjectName(u"scrollAreaWidgetContentsSystemOptions")
-        self.scrollAreaWidgetContentsSystemOptions.setGeometry(QRect(0, 0, 564, 778))
+        self.scrollAreaWidgetContentsSystemOptions.setGeometry(QRect(0, 0, 424, 778))
         self.verticalLayout_3 = QVBoxLayout(self.scrollAreaWidgetContentsSystemOptions)
         self.verticalLayout_3.setSpacing(6)
         self.verticalLayout_3.setObjectName(u"verticalLayout_3")
@@ -2068,7 +2068,8 @@ class Ui_MainWindow(object):
 "\n"
 "\u2022 (Unl)\n"
 "\u2022 (Aftermarket)\n"
-"\u2022 (Homebrew)", None))
+"\u2022 (Homebrew)\n"
+"\u2022 (Pirate)", None))
 #endif // QT_CONFIG(tooltip)
         self.checkBoxGlobalExcludeUnlicensed.setText(QCoreApplication.translate("MainWindow", u"Unlicensed", None))
 #if QT_CONFIG(tooltip)
@@ -2426,7 +2427,8 @@ class Ui_MainWindow(object):
 "\n"
 "\u2022 (Unl)\n"
 "\u2022 (Aftermarket)\n"
-"\u2022 (Homebrew)", None))
+"\u2022 (Homebrew)\n"
+"\u2022 (Pirate)", None))
 #endif // QT_CONFIG(tooltip)
         self.checkBoxSystemExcludeUnlicensed.setText(QCoreApplication.translate("MainWindow", u"Unlicensed", None))
 #if QT_CONFIG(tooltip)

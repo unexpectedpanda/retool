@@ -196,7 +196,7 @@ def setup_gui_global(main_window: Any, dat_details: dict[str, dict[str, str]], c
 
     main_window.ui.actionCloneListNameTool.triggered.connect(lambda: CloneListNameToolWindow())
     main_window.new_window = TitleToolWindow(config)
-    main_window.ui.actionDocs.triggered.connect(lambda: webbrowser.open('https://unexpectedpanda.github.io/retool/naming-system/'))
+    main_window.ui.actionDocs.triggered.connect(lambda: webbrowser.open('https://unexpectedpanda.github.io/retool/'))
     main_window.ui.actionGitHub.triggered.connect(lambda: webbrowser.open('https://github.com/unexpectedpanda/retool/issues'))
 
     # Set up the menu items
