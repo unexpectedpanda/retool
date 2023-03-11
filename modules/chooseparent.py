@@ -1892,8 +1892,9 @@ class ParentTools(object):
 
             if not config.user_input.modern:
                 pattern_list.extend(config.tags_modern_editions)
+
             if config.user_input.demote_unl:
-                pattern_list.extend([config.regex.unlicensed, config.regex.aftermarket, config.regex.homebrew])
+                pattern_list.extend(list(config.regex.unl_group))
 
             cross_region_temp = cross_region_parent_titles.copy()
 

@@ -84,9 +84,9 @@ class UserInput:
             `legacy (bool, optional)`: Outputs the DAT file in legacy mode, complete with
             parent/clone tags. Only useful for clone list maintainers who want to trac
             changes between DAT releases. Defaults to `False`.
-            `demote_unl (bool, optional)`: Demotes unlicensed, aftermarket, and homebrew
-            titles if a production version of a title is found in another region. Defaults
-            to `False`.
+            `demote_unl (bool, optional)`: Demotes unlicensed, aftermarket, homebrew, and
+            pirate titles if a production version of a title is found in another region.
+            Defaults to `False`.
             `modern (bool, optional)`: Whether to choose a version of a title ripped
             from a modern rerelease (e.g. Steam, Virtual Console) over the original
             title. Defaults to `False`.
@@ -111,8 +111,8 @@ class UserInput:
             `False`.
             `no_promotional (bool, optional)`: Excludes promotional titles. Defaults to
             `False`.
-            `no_unlicensed (bool, optional)`: Excludes unlicensed, aftermarket, and
-            homebrew titles. Defaults to `False`.
+            `no_unlicensed (bool, optional)`: Excludes unlicensed, aftermarket, homebrew
+            and pirate titles. Defaults to `False`.
             `no_video (bool, optional)`: Excludes video titles. Defaults to `False`.
             `clone_list (str, optional)`: The path to a clone list to load, overriding
             the default selection. Defaults to `''`.
@@ -282,8 +282,8 @@ def check_input() -> UserInput:
 
     parser.add_argument('-y',
                         action='store_true',
-                        help='R|Prefer licensed versions over unlicensed, aftermarket, or'
-                             '\nhomebrew titles. This might select titles with lower '
+                        help='R|Prefer licensed versions over unlicensed, aftermarket,'
+                             '\nhomebrew, or pirate titles. This might select titles with lower'
                              '\npriority regions or languages, or with less features.')
 
     parser.add_argument('-z',
@@ -408,7 +408,7 @@ def check_input() -> UserInput:
                                  '\np\tPirated titles'
                                  '\nP\tPreproduction titles (alphas, betas, prototypes)'
                                  '\nr\tPromotional titles'
-                                 '\nu\tUnlicensed, aftermarket, and homebrew titles'
+                                 '\nu\tUnlicensed, aftermarket, homebrew, and pirate titles'
                                  '\nv\tVideo\n',
                             nargs='+')
 

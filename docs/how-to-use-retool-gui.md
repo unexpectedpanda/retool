@@ -374,6 +374,7 @@ The available exclusions are as follows:
     * `(Unl)`
     * `(Aftermarket)`
     * `(Homebrew)`
+    * `(Pirate)`
 
 * **Video**
   <br>Titles with the DAT category `Video`.
