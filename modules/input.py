@@ -678,32 +678,8 @@ def import_clone_list(input_dat: Dat, gui_input: UserInput, config: Config) -> C
             # If a user has set a custom clone list using the CLI
             clone_file = config.user_input.clone_list
     else:
-        # Load the default clone list. Import JSON files that have the same name as input_dat.search_name.json.
-        # Support for specialized DATs like Redump conversions from https://dats.site
-        if (
-        'GameCube' in input_dat.search_name
-        and (
-            'NKit GCZ' in input_dat.search_name
-            or 'NKit ISO' in input_dat.search_name
-            or 'NKit RVZ' in input_dat.search_name
-            or 'NASOS' in input_dat.search_name
-        )):
-            clone_file = f'{clone_list_path}/Nintendo - GameCube (Redump).json'
-        elif (
-            'Wii' in input_dat.search_name
-            and (
-                'NKit GCZ' in input_dat.search_name
-                or 'NKit ISO' in input_dat.search_name
-                or 'NKit RVZ' in input_dat.search_name
-                or 'NASOS' in input_dat.search_name
-            )):
-            clone_file = f'{clone_list_path}/Nintendo - Wii (Redump).json'
-        elif (
-            'Wii U' in input_dat.search_name
-            and 'WUX' in input_dat.search_name):
-                clone_file = f'{clone_list_path}/Nintendo - Wii U (Redump).json'
-        else:
-            clone_file = f'{clone_list_path}/{input_dat.search_name}.json'
+        # Load the default clone list, which has the same name as input_dat.search_name.json.
+        clone_file = f'{clone_list_path}/{input_dat.search_name}.json'
 
     clonedata: dict[str, Any] = load_data(clone_file, 'clone list', config)
 
@@ -807,33 +783,8 @@ def import_metadata(input_dat: Dat, config: Config) -> dict[str, dict[str, str]]
             # If a user has set a custom metadata file using the CLI
             metadata_file = config.user_input.metadata
     else:
-        # Load the default metadata file. Import JSON files that have the same name as input_dat.search_name.json.
-        # Support for specialized DATs like Redump conversions from https://dats.site
-        if (
-            'GameCube' in input_dat.search_name
-            and (
-                'NKit GCZ' in input_dat.search_name
-                or 'NKit ISO' in input_dat.search_name
-                or 'NKit RVZ' in input_dat.search_name
-                or 'NASOS' in input_dat.search_name
-            )):
-                metadata_file = f'{metadata_path}/Nintendo - GameCube (Redump).json'
-        elif (
-            'Wii' in input_dat.search_name
-            and (
-                'NKit GCZ' in input_dat.search_name
-                or 'NKit ISO' in input_dat.search_name
-                or 'NKit RVZ' in input_dat.search_name
-                or 'NASOS' in input_dat.search_name
-            )):
-                metadata_file = f'{metadata_path}/Nintendo - Wii (Redump).json'
-        elif (
-            'Wii U' in input_dat.search_name
-            and 'WUX' in input_dat.search_name):
-                metadata_file = f'{metadata_path}/Nintendo - Wii U (Redump).json'
-        else:
-            # Support for other DATs
-            metadata_file = f'{metadata_path}/{input_dat.search_name}.json'
+        # Load the default metadata file. Import JSON file that has the same name as input_dat.search_name.json.
+        metadata_file = f'{metadata_path}/{input_dat.search_name}.json'
 
     metadata: dict[str, Any] = load_data(metadata_file, 'metadata file', config)
 

@@ -682,6 +682,72 @@ def convert_clrmame_dat(input_dat: Dat, input_type: str, gui_input: UserInput, c
     return Dat(convert_dat, dat_name, dat_description, dat_version, dat_author, dat_url)
 
 
+def format_system_name(original_name: str, url: str = '', homepage: str = '', comment: str = '', author: str = '') -> str:
+    """ Sanitizes the system name to match it with clone lists, metadata files, and system configs
+
+    Args:
+        `original_name (str)`: The original system name to process.
+        `url (str, optional)`: The URL in the header of the input DAT. Defaults to ''.
+        `homepage (str, optional)`: The homepage in the header of the input DAT. Defaults
+        to ''.
+        `comment (str, optional)`: The comment in the header of the input DAT. Defaults to
+        ''.
+        `author (str, optional)`: The author in the header of the input DAT. Defaults to
+        ''.
+
+    Returns:
+        `str`: The formatted system name.
+    """
+
+    remove_string: str = ' \\((Parent-Clone|BETA|Combined|J64|ROM|Decrypted|Encrypted|BigEndian|ByteSwapped|Deprecated|Headered|Headerless)\\)'
+    search_name: str  = ''
+
+    if re.search(remove_string, original_name) != None:
+        search_name = re.sub(remove_string, '', original_name)
+    else:
+        search_name = original_name
+
+    # Add group names to differentiate DATs that cover the same system
+    if 'no-intro' in url:
+        search_name = f'{search_name} (No-Intro)'
+    elif (
+        'redump' in url
+        or 'Redump.org ISOs converted' in comment
+        or 'Redump' in author
+        or 'redump' in author):
+            search_name = f'{search_name} (Redump)'
+    elif (
+        'TOSEC' in homepage
+        or 'tosecdev.org' in url):
+        search_name = f'{search_name} (TOSEC)'
+    else:
+        search_name = f'{search_name}'
+
+    # Deal with https://dats.site DATs
+    if 'GameCube' in search_name:
+        if (
+            'NKit GCZ' in search_name
+            or 'NKit ISO' in search_name
+            or 'NKit RVZ' in search_name
+            or 'NASOS' in search_name):
+                search_name = 'Nintendo - GameCube (Redump)'
+
+    if 'Wii' in search_name:
+        if (
+            'NKit GCZ' in search_name
+            or 'NKit ISO' in search_name
+            or 'NKit RVZ' in search_name
+            or 'NASOS' in search_name):
+                search_name = 'Nintendo - Wii (Redump)'
+
+    if (
+        'Wii U' in search_name
+        and 'WUX' in search_name):
+            search_name = 'Nintendo - Wii U (Redump)'
+
+    return search_name
+
+
 def process_dat(dat_file: str, input_type: str, gui_input: UserInput, config: Config) -> Dat:
     """ Reads in an input DAT file and prepares the data for use in Retool. Also imports
     system configs, including the related clone list and metadata file.
@@ -901,6 +967,10 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput, config: Co
             if re.search(search_string, input_dat.version) != None:
                 input_dat.version = 'Unknown'
 
+        # Sanitize the system name to make referencing support files like clone lists and
+        # system configurations easier
+        input_dat.search_name = format_system_name(input_dat.name, input_dat.url, input_dat.homepage, input_dat.comment)
+
         # Provide DAT details to the user to reassure them the correct file is being processed
         eprint('')
         printwrap(f'|  {Font.bold}DAT DETAILS{Font.end}', style='dat_details')
@@ -922,50 +992,6 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput, config: Co
             else:
                 eprint('|  Numbered dat: Yes')
         eprint('')
-
-        # Sanitize the system name to match it with clone lists and metadata files
-        remove_string: str = ' \\((Parent-Clone|Combined|J64|ROM|Decrypted|Encrypted|BigEndian|ByteSwapped|Deprecated|Headered|Headerless)\\)'
-
-        if re.search(remove_string, input_dat.name) != None:
-            input_dat.search_name= re.sub(remove_string, '', input_dat.name)
-        else:
-            input_dat.search_name = input_dat.name
-
-        # Add group names to differentiate DATs that cover the same system
-        if 'no-intro' in input_dat.url:
-            input_dat.search_name = f'{input_dat.search_name} (No-Intro)'
-        elif (
-            'redump' in input_dat.url
-            or 'Redump.org ISOs converted' in input_dat.comment):
-                input_dat.search_name = f'{input_dat.search_name} (Redump)'
-        elif (
-            'TOSEC' in input_dat.homepage
-            or 'tosecdev.org' in input_dat.url):
-            input_dat.search_name = f'{input_dat.search_name} (TOSEC)'
-        else:
-            input_dat.search_name = f'{input_dat.search_name}'
-
-        # Deal with https://dats.site DATs
-        if 'GameCube' in input_dat.search_name:
-            if (
-                'NKit GCZ' in input_dat.search_name
-                or 'NKit ISO' in input_dat.search_name
-                or 'NKit RVZ' in input_dat.search_name
-                or 'NASOS' in input_dat.search_name):
-                    input_dat.search_name = 'Nintendo - GameCube (Redump)'
-
-        if 'Wii' in input_dat.search_name:
-            if (
-                'NKit GCZ' in input_dat.search_name
-                or 'NKit ISO' in input_dat.search_name
-                or 'NKit RVZ' in input_dat.search_name
-                or 'NASOS' in input_dat.search_name):
-                    input_dat.search_name = 'Nintendo - Wii (Redump)'
-
-        if (
-            'Wii U' in input_dat.search_name
-            and 'WUX' in input_dat.search_name):
-                input_dat.search_name = 'Nintendo - Wii U (Redump)'
 
         search_games: list[Any] = root.findall('game')
 

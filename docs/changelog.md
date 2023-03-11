@@ -5,6 +5,13 @@ hide:
 
 # Changelog
 
+# 2.00.0 Beta 3
+
+* Fixed user filter excludes not removing some excludes.
+* Fixed system name formatting in the GUI, so the right system settings file is
+  referenced.
+* Unified CLI and GUI versions, as splitting them was no longer useful.
+
 ## 2.00.0 Beta 2
 
 A minor update to fix system user filters for No-Intro's _Redump Custom DATs_.

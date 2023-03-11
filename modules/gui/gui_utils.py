@@ -10,6 +10,7 @@ from PySide6 import QtGui as qtg
 from PySide6 import QtWidgets as qtw
 
 from modules.config import Config
+from modules.dats import format_system_name
 from modules.titletools import TitleTools
 from modules.utils import pattern2string
 
@@ -192,50 +193,28 @@ def get_system_name(dat_file_path: str, config: Config) -> str:
         # Clean up the name
         system_name = TitleTools.replace_invalid_characters(re.sub(' \\(Retool.*?\\)', '', system_name).replace('&amp;', '&'), config, is_header_detail=True)
 
-        # Get the release group
-        dat_group: str = ''
+        # Sanitize the system name to make referencing support files like clone lists and
+        # system configurations easier
+        system_url: str = ''
+        system_homepage: str = ''
+        system_comment: str = ''
+        system_author: str = ''
 
         if b'<url>' in header:
-            regex_search_str = pattern2string(re.compile('<url>(.*?)</url>'), str(header), group_number=1).strip()
-            if 'redump' in regex_search_str:
-                dat_group = ' (Redump)'
-            elif 'no-intro' in regex_search_str:
-                dat_group = ' (No-Intro)'
-            elif 'tosecdev.org' in regex_search_str:
-                dat_group = ' (TOSEC)'
-
-        if re.search('author.*redump.org', str(header)):
-            dat_group = ' (Redump)'
+            system_url = pattern2string(re.compile('<url>(.*?)</url>'), str(header), group_number=1).strip()
 
         if b'<homepage>' in header:
-            regex_search_str = pattern2string(re.compile('<homepage>(.*?)</homepage>'), str(header), group_number=1).strip()
+            system_homepage = pattern2string(re.compile('<homepage>(.*?)</homepage>'), str(header), group_number=1).strip()
 
-            if 'TOSEC' in regex_search_str:
-                dat_group = ' (TOSEC)'
+        if b'<comment>' in header:
+            system_comment = pattern2string(re.compile('<comment>(.*?)</comment>'), str(header), group_number=1).strip()
 
-        # Deal with https://dats.site DATs
-        if 'GameCube' in system_name:
-            if (
-                'NKit GCZ' in system_name
-                or 'NKit ISO' in system_name
-                or 'NKit RVZ' in system_name
-                or 'NASOS' in system_name):
-                    system_name = 'Nintendo - GameCube (Redump)'
+        if b'author' in header:
+            system_author = pattern2string(re.compile('author.*([rR]edump.org)'), str(header), group_number=1).strip()
 
-        if 'Wii' in system_name:
-            if (
-                'NKit GCZ' in system_name
-                or 'NKit ISO' in system_name
-                or 'NKit RVZ' in system_name
-                or 'NASOS' in system_name):
-                    system_name = 'Nintendo - Wii (Redump)'
+        system_name = format_system_name(system_name, system_url, system_homepage, system_comment, system_author)
 
-        if (
-            'Wii U' in system_name
-            and 'WUX' in system_name):
-                system_name = 'Nintendo - Wii U (Redump)'
-
-    return f'{system_name}{dat_group}'
+    return f'{system_name}'
 
 
 def move_list_items(origin_list_widget: qtw.QListWidget, destination_list_widget: qtw.QListWidget, all_items: bool = False) -> None:

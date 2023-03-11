@@ -18,7 +18,7 @@ from modules.titletools import TitleTools
 
 
 class AboutWindow(qtw.QDialog):
-    def __init__(self, parent: Any = None, version: str = '') -> None:
+    def __init__(self, parent: Any = None) -> None:
         """ The "About" window for Retool.
 
         Args:
@@ -36,8 +36,7 @@ class AboutWindow(qtw.QDialog):
         set_fonts(self)
 
         # Set Retool versions
-        self.ui.labelGUIVersion.setText(f'GUI version: {version}')
-        self.ui.labelCLIVersion.setText(f'CLI version: {CLI_VERSION_MAJOR}.{CLI_VERSION_MINOR}')
+        self.ui.labelVersion.setText(f'Version: {VERSION_MAJOR}.{VERSION_MINOR}')
 
 
 class SettingsWindow(qtw.QDialog):

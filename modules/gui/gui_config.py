@@ -37,8 +37,8 @@ def import_config() -> Config:
         USER_FILTERS_PATH,
         SANITIZED_CHARACTERS,
         RESERVED_FILENAMES,
-        CLI_VERSION_MAJOR,
-        CLI_VERSION_MINOR,
+        VERSION_MAJOR,
+        VERSION_MINOR,
         UserInput(),
         first_run_gui=True)
 

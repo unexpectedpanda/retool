@@ -32,7 +32,7 @@ from modules.utils import eprint, ExitRetool, Font, old_windows, printwrap, rege
 # Require at least Python 3.10
 assert sys.version_info >= (3, 10)
 
-__version__: str = str(f'{CLI_VERSION_MAJOR}.{CLI_VERSION_MINOR}')
+__version__: str = str(f'{VERSION_MAJOR}.{VERSION_MINOR}')
 
 def main(gui_input: UserInput = None) -> None:
     """ The main Retool function.
@@ -112,8 +112,8 @@ def main(gui_input: UserInput = None) -> None:
                     USER_FILTERS_PATH,
                     SANITIZED_CHARACTERS,
                     RESERVED_FILENAMES,
-                    CLI_VERSION_MAJOR,
-                    CLI_VERSION_MINOR,
+                    VERSION_MAJOR,
+                    VERSION_MINOR,
                     user_input)
 
     # Run an update if requested

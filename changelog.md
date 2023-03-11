@@ -1,3 +1,10 @@
+# 2.00.0 Beta 3
+
+* Fixed user filter excludes not removing some excludes.
+* Fixed system name formatting in the GUI, so the right system settings file is
+  referenced.
+* Unified CLI and GUI versions, as splitting them was no longer useful.
+
 # 2.00.0 Beta 2
 
 A minor update to fix system user filters for No-Intro's _Redump Custom DATs_.
@@ -7,8 +14,8 @@ A minor update to fix system user filters for No-Intro's _Redump Custom DATs_.
 Retool 2.0 is here in beta form. Ten months in the making, it'll be in beta for
 a few more months to get feedback and fix bugs found by users. Retool 1.x is
 still available from the [v1 branch](https://github.com/unexpectedpanda/retool/tree/v1),
-although it won't receive clone list updates from this point, and issues will only be
-fixed for v2.
+although it won't receive clone list updates from this point, and issues will
+only be fixed for v2.
 
 Retool 2.0 is a hefty rewrite with a focus on static typing, better code
 practices, maintainability, and making things go _faster_.

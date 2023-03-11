@@ -203,7 +203,7 @@ def setup_gui_global(main_window: Any, dat_details: dict[str, dict[str, str]], c
     main_window.ui.actionCloneListUpdates.triggered.connect(lambda: write_config(main_window, dat_details, config, settings_window=None, run_retool=True, update_clone_list=True))
     main_window.ui.actionSettings.triggered.connect(lambda: SettingsWindow(dat_details, config, main_window).exec())
     main_window.ui.actionExit.triggered.connect(main_window.close)
-    main_window.ui.actionAbout.triggered.connect(lambda: AboutWindow(main_window, str(f'{GUI_VERSION_MAJOR}.{GUI_VERSION_MINOR}')).exec())
+    main_window.ui.actionAbout.triggered.connect(lambda: AboutWindow(main_window).exec())
 
     # Set up the file area
     main_window.ui.buttonAddDats.clicked.connect(lambda: add_list_items(main_window.ui.listWidgetOpenFiles, dat_details, config, main_window, 'files'))

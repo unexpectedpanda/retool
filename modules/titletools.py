@@ -259,10 +259,13 @@ class IncludeExcludeTools(object):
         remove_titles: set[DatNode] = set()
 
         for exclude_title in exclude_titles:
-            if exclude_title.group_name in processed_titles:
-                for title in processed_titles[exclude_title.group_name]:
-                    if exclude_title.full_name == title.full_name:
-                        remove_titles.add(title)
+            found_titles: list[DatNode] = TitleTools.find_title(exclude_title.full_name, 'full', processed_titles, set(), config, deep_search=True)
+
+            for found_title in found_titles:
+                if found_title.group_name in processed_titles:
+                    for title in processed_titles[found_title.group_name]:
+                        if exclude_title.full_name == title.full_name:
+                            remove_titles.add(title)
 
         for title in remove_titles:
             processed_titles[title.group_name].remove(title)
@@ -566,7 +569,7 @@ class IncludeExcludeTools(object):
         match: bool = False
 
         for string in filter_list:
-            match_string:str = string
+            match_string: str = string
 
             if (
                 match_string.startswith('<')
@@ -581,6 +584,8 @@ class IncludeExcludeTools(object):
                 match = match_string[1:] == title.full_name
             else:
                 match = match_string in title.full_name
+
+            if match: break
 
         return match
 
