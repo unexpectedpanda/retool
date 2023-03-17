@@ -1,0 +1,29 @@
+<RCC>
+  <qresource prefix="retoolAbout">
+    <file>../images/retool-about.png</file>
+  </qresource>
+  <qresource prefix="Arrows">
+    <file>../images/vertical-grip.png</file>
+    <file>../images/icons8-end-100.png</file>
+    <file>../images/icons8-skip-to-start-100.png</file>
+    <file>../images/icons8-sort-down-100.png</file>
+    <file>../images/icons8-sort-left-100.png</file>
+    <file>../images/icons8-sort-right-100.png</file>
+    <file>../images/icons8-sort-up-100.png</file>
+  </qresource>
+  <qresource prefix="retoolFiles">
+    <file>../images/icons8-multiply-80.png</file>
+    <file>../images/icons8-project-setup-80.png</file>
+    <file>../images/icons8-diff-files-80.png</file>
+    <file>../images/icons8-live-folder-80.png</file>
+    <file>../images/icons8-recursive-folder-80.png</file>
+    <file>../images/icons8-restart-80.png</file>
+    <file>../images/icons8-file-delete-80.png</file>
+    <file>../images/icons8-add-folder-80.png</file>
+    <file>../images/icons8-add-list-80.png</file>
+    <file>../images/icons8-delete-file-80.png</file>
+  </qresource>
+  <qresource prefix="retoolIcon">
+    <file>../images/retool.ico</file>
+  </qresource>
+</RCC>
