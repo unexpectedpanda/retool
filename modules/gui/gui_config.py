@@ -353,6 +353,12 @@ def write_config(main_window: Any, dat_details: dict[str, dict[str, str]], confi
 
     gui_settings.add(f'output: {main_window.output_folder}')
 
+    # Get the current window size
+    gui_settings.add(f'gui width: {main_window.width()}\n- gui height: {main_window.height()}')
+
+    # Get the current file list size
+    gui_settings.add(f'gui split left: {main_window.ui.splitter.sizes()[0]}\n- gui split right: {main_window.ui.splitter.sizes()[1]}')
+
     # Grab settings from the settings dialog if it's open
     if settings_window:
         if (
@@ -412,6 +418,7 @@ def write_config(main_window: Any, dat_details: dict[str, dict[str, str]], confi
             # Get a file list
             dat_files: list[pathlib.Path] = []
 
+            main_window.ui.buttonGo.hide()
             main_window.ui.buttonStop.show()
             main_window.ui.mainProgram.setEnabled(False)
 

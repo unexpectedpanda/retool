@@ -1,3 +1,4 @@
+
 from __future__ import annotations
 
 import datetime
@@ -489,6 +490,10 @@ class WriteFiles(object):
             excludes = f' [-{config.user_input.excludes}]'
 
         output_filename: str = f'{config.user_input.output_folder_name}/{input_dat.name} ({input_dat.version}) (Retool {timestamp}){config.user_input.user_options}{excludes}'
+
+        if {'override': 'true'} in config.system_user_path_settings:
+            if config.system_output:
+                output_filename = f'{str(pathlib.Path(config.system_output))}/{input_dat.name} ({input_dat.version}) (Retool {timestamp}){config.user_input.user_options}{excludes}'
 
         try:
             with open(pathlib.Path(f'{output_filename} log.txt'), 'w', encoding='utf-8') as output_file:

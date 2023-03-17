@@ -1,5 +1,4 @@
 import pathlib
-import sys
 import threading
 
 from typing import Any
@@ -54,21 +53,8 @@ class CustomList(qtw.QListWidget):
     def __init__(self, parent: Any = None, is_drag_drop: bool = True, self_drag: bool = False) -> None:
         super(CustomList, self).__init__(parent)
 
-        self.drag = self_drag
-        self.is_drag_drop = is_drag_drop
-
-        if is_drag_drop:
-            self.setAcceptDrops(True)
-            self.setDragDropMode(qtw.QAbstractItemView.DragDrop) # type: ignore
-            self.setDefaultDropAction(qtc.Qt.MoveAction) # type: ignore
-        else:
-            self.setDefaultDropAction(qtc.Qt.IgnoreAction) # type: ignore
-
         self.setTabKeyNavigation(True)
         self.setSelectionMode(qtw.QAbstractItemView.ExtendedSelection) # type: ignore
-
-        if not self_drag:
-            self.setSortingEnabled(True)
 
 
     def dragEnterEvent(self, event: qtg.QDragEnterEvent) -> None:
@@ -78,12 +64,9 @@ class CustomList(qtw.QListWidget):
 
     def dragMoveEvent(self, event: qtg.QDragMoveEvent) -> None:
         super().dragMoveEvent(event)
-        if not self.drag:
-            item = event.source()
-            if item.isAncestorOf(self): # type: ignore
-                event.ignore()
-            else:
-                event.accept()
+        item = event.source()
+        if item.isAncestorOf(self): # type: ignore
+            event.ignore()
         else:
             event.accept()
 
@@ -96,11 +79,9 @@ class CustomList(qtw.QListWidget):
 
         item = event.source()
 
-        if not self.drag:
-            if item.isAncestorOf(self): # type: ignore
-                event.ignore()
-            else:
-                event.accept()
+
+        if item.isAncestorOf(self): # type: ignore
+            event.ignore()
         else:
             event.accept()
 
@@ -117,6 +98,7 @@ class CustomList(qtw.QListWidget):
             t = threading.Thread(target=check_remove)
             t.start()
 
+
     # Handle keyboard events by creating a custom signal and emitting it from
     # an event handler
     keyPressed = qtc.Signal(int)
@@ -124,8 +106,42 @@ class CustomList(qtw.QListWidget):
 
     def keyPressEvent(self, event: qtg.QKeyEvent) -> None:
         super(CustomList, self).keyPressEvent(event)
-        if not self.is_drag_drop:
-            self.keyPressed.emit(event.key())
+        self.keyPressed.emit(event.key())
+
+
+class CustomListSelfDrag(CustomList):
+    """ A sub-subclassed list widget that does allow an item to be dragged and dropped
+    within itself.
+    """
+
+    def __init__(self, parent: Any = None) -> None:
+        super(CustomList, self).__init__(parent)
+
+    def dragMoveEvent(self, event: qtg.QDragMoveEvent) -> None:
+        super().dragMoveEvent(event)
+        event.accept()
+
+    # Handle drag and drop events
+    dropped = qtc.Signal(int)
+
+
+    def dropEvent(self, event: qtg.QDropEvent) -> None:
+        super().dropEvent(event)
+
+        event.accept()
+
+        if event.isAccepted():
+            # Make sure all the list items have been removed from the source before sending a signal
+            def check_remove() -> None:
+                while True:
+                    try:
+                        event.source()
+                    except:
+                        self.dropped.emit(event)
+                        break
+
+            t = threading.Thread(target=check_remove)
+            t.start()
 
 
 class CustomPushButton(qtw.QPushButton):
@@ -234,10 +250,6 @@ class ElisionLabel(qtw.QLabel):
 
     Args:
         `text`: The label text.
-        `mode`: Specifies where the elipsis in the label should go. Options include:
-            * qtc.Qt.ElideLeft
-            * qtc.Qt.ElideMiddle
-            * qtc.Qt.ElideRight
         `parent`: The QWidget main_window.
         `f`: Qt.WindowFlags(), as defined at
             https://doc-snapshots.qt.io/qtforpython-6.40/PySide6/QtCore/Qt.html#qtc.qtc.Qt.WindowType
@@ -249,7 +261,7 @@ class ElisionLabel(qtw.QLabel):
     def __init__(self, text: str = '', mode: Any = qtc.Qt.ElideMiddle, **kwargs: Any) -> None:  # type: ignore
         super().__init__(**kwargs)
 
-        self._mode = mode
+        self._mode = qtc.Qt.ElideLeft
         self.is_elided = False
         self.setSizePolicy(qtw.QSizePolicy.Expanding, qtw.QSizePolicy.Preferred) # type: ignore
         self.setText(text)
@@ -307,84 +319,8 @@ class ElisionLabel(qtw.QLabel):
             self.elision_changed.emit(did_elide)
 
 
-def custom_line_edit(widget: qtw.QLineEdit, widget_name: str, parent: Any, x: int, y: int, w: int, h: int, min_w: int, min_h: int) -> Any:
-        """ Deletes the existing line edit widget, and replaces it with a custom one.
-
-        Args:
-            `widget (qtw.QLineEdit)`: The original line edit widget.
-            `widget_name (str)`: The line edit widget's name.
-            `parent (Any)`: The parent widget that houses the line edit widget.
-            `x (int)`: X coordinate of the line edit widget from the left.
-            `y (int)`: Y coordinate of the line edit widget from the top.
-            `w (int)`: Width of the line edit widget.
-            `h (int)`: Height of the line edit widget.
-            `min_w (int)`: Minimum width of the line edit widget.
-            `min_h (int)`: Minimum height of the line edit widget.
-
-        Returns:
-            `Any`: The new line edit widget.
-        """
-
-        widget.deleteLater()
-        new_widget = CustomLineEdit(parent)
-        new_widget.setObjectName(widget_name)
-        new_widget.setGeometry(qtc.QRect(x, y, w, h))
-        new_widget.setMinimumSize(qtc.QSize(min_w, min_h))
-
-        return new_widget
-
-
-def custom_list(widget: qtw.QListWidget, widget_name: str, parent: Any, x: int, y: int, w: int, h: int, is_drag_drop: bool = False, self_drag: bool = False) -> Any:
-    """ Deletes the existing list widget, and replaces it with a custom one.
-
-    Args:
-        `widget (qtw.QListWidget):` The original list widget.
-        `widget_name (str)`: The list widget's name.
-        `parent (any)`: The parent widget that houses the list widget.
-        `x (int)`: X coordinate of the list widget from the left.
-        `y (int)`: Y coordinate of the list widget from the top.
-        `w (int)`: Width of the list widget.
-        `h (int)`: Height of the list widget.
-        `is_drag_drop (bool)`: Whether the list widget has drag and drop enabled.
-        `self_drag (bool)`: Whether the widget allows drag and drop to itself.
-
-    Returns:
-        `Any`: The new list widget.
-    """
-
-    widget.deleteLater()
-    new_widget = CustomList(parent, is_drag_drop, self_drag)
-    new_widget.setObjectName(widget_name)
-    new_widget.setGeometry(qtc.QRect(x, y, w, h))
-
-    return new_widget
-
-
-def custom_text_edit(widget: qtw.QTextEdit, widget_name: str, parent: Any) -> Any:
-    """ Deletes the existing text edit widget, and replaces it with a custom one.
-
-    Args:
-        `widget (qtw.QTextEdit)`: The original text edit widget.
-        `widget_name (str)`: The text edit widget's name.
-        `parent (Any)`: The parent widget that houses the text edit widget.
-
-    Returns:
-        `Any`: The new text edit widget.
-    """
-
-    widget.deleteLater()
-    new_widget = CustomTextEdit(parent)
-    new_widget.setObjectName(widget_name)
-    new_widget.setMinimumSize(qtc.QSize(0, 100))
-    new_widget.setMaximumSize(qtc.QSize(16777215, 100))
-    new_widget.setTabChangesFocus(True)
-    new_widget.setAcceptRichText(False)
-
-    return new_widget
-
-
 def custom_widgets(main_window: Any) -> Any:
-    """ Adds custom behavior to the default QT widgets.
+    """ Adjusts properties of the widgets not covered by the promoted subclasses.
 
     Args:
         `main_window (Any)`: The MainWindow widget.
@@ -393,51 +329,17 @@ def custom_widgets(main_window: Any) -> Any:
         `Any`: MainWindow with the replaced widgets.
     """
 
-    # Replace the list widgets with customized versions
-    main_window.ui.listWidgetGlobalAvailableLanguages = custom_list(main_window.ui.listWidgetGlobalAvailableLanguages, 'listWidgetGlobalAvailableLanguages', main_window.ui.tabGlobalLanguages, 10, 70, 221, 291, is_drag_drop=True)
-    main_window.ui.listWidgetGlobalAvailableRegions = custom_list(main_window.ui.listWidgetGlobalAvailableRegions, 'listWidgetGlobalAvailableRegions', main_window.ui.tabGlobalRegions, 10, 70, 221, 251, is_drag_drop=True)
-    main_window.ui.listWidgetGlobalSelectedLanguages = custom_list(main_window.ui.listWidgetGlobalSelectedLanguages, 'listWidgetGlobalSelectedLanguages', main_window.ui.tabGlobalLanguages, 300, 70, 221, 291, is_drag_drop=True, self_drag=True)
-    main_window.ui.listWidgetGlobalSelectedRegions = custom_list(main_window.ui.listWidgetGlobalSelectedRegions, 'listWidgetGlobalSelectedRegions', main_window.ui.tabGlobalRegions, 300, 70, 221, 251, is_drag_drop=True, self_drag=True)
-    main_window.ui.listWidgetGlobalVideoStandards = custom_list(main_window.ui.listWidgetGlobalVideoStandards, 'listWidgetGlobalVideoStandards', main_window.ui.tabGlobalVideo, 10, 70, 221, 291, is_drag_drop=True, self_drag=True)
+    # DAT files list box
+    main_window.ui.listWidgetOpenFiles.setDefaultDropAction(qtc.Qt.IgnoreAction) # type: ignore
 
-    main_window.ui.listWidgetSystemAvailableLanguages = custom_list(main_window.ui.listWidgetSystemAvailableLanguages, 'listWidgetSystemAvailableLanguages', main_window.ui.tabSystemLanguages, 10, 70, 221, 291, is_drag_drop=True)
-    main_window.ui.listWidgetSystemAvailableRegions = custom_list(main_window.ui.listWidgetSystemAvailableRegions, 'listWidgetSystemAvailableRegions', main_window.ui.tabSystemRegions, 10, 70, 221, 251, is_drag_drop=True)
-    main_window.ui.listWidgetSystemSelectedLanguages = custom_list(main_window.ui.listWidgetSystemSelectedLanguages, 'listWidgetSystemSelectedLanguages', main_window.ui.tabSystemLanguages, 300, 70, 221, 291, is_drag_drop=True, self_drag=True)
-    main_window.ui.listWidgetSystemSelectedRegions = custom_list(main_window.ui.listWidgetSystemSelectedRegions, 'listWidgetSystemSelectedRegions', main_window.ui.tabSystemRegions, 300, 70, 221, 251, is_drag_drop=True, self_drag=True)
-    main_window.ui.listWidgetSystemVideoStandards = custom_list(main_window.ui.listWidgetSystemVideoStandards, 'listWidgetSystemVideoStandards', main_window.ui.tabSystemVideo, 10, 70, 221, 291, is_drag_drop=True, self_drag=True)
-
-    main_window.ui.listWidgetOpenFiles = custom_list(main_window.ui.listWidgetOpenFiles, 'listWidgetOpenFiles', main_window.ui.mainProgram, 60, 40, 251, 411, is_drag_drop=False)
-    main_window.ui.listWidgetOpenFiles.addItem(qtc.QCoreApplication.translate('MainWindow', u'No DAT files added yet', None)) # type: ignore
-
-    # Update the output folder label with custom behavior
+    # The global output folder label doesn't want to render with promoted subclasses
+    # (likely the parent is wrong), so we have to do it manually
     main_window.ui.labelOutputFolder.deleteLater()
     main_window.ui.labelOutputFolder = ElisionLabel('', mode=qtc.Qt.ElideLeft, parent=main_window.ui.mainProgram) # type: ignore
     main_window.ui.labelOutputFolder.setObjectName(u"labelOutputFolder")
     main_window.ui.labelOutputFolder.setText(str(pathlib.Path.cwd()))
-    main_window.ui.labelOutputFolder.setGeometry(qtc.QRect(60, 500, 251, 16))
+    main_window.ui.labelOutputFolder.setGeometry(qtc.QRect(60, 31, 251, 20))
     main_window.ui.labelOutputFolder.setStyleSheet('color: #777')
-
-    # Replace line edit widgets with customized versions
-    main_window.ui.lineEditGlobalOptions1G1RPrefix = custom_line_edit(main_window.ui.lineEditGlobalOptions1G1RPrefix, 'lineEditGlobalOptions1G1RPrefix', main_window.ui.frameGlobalOptions1G1RPrefix, 20, 30, 521, 24, 0, 24)
-    main_window.ui.lineEditGlobalOptions1G1RSuffix = custom_line_edit(main_window.ui.lineEditGlobalOptions1G1RSuffix, 'lineEditGlobalOptions1G1RSuffix', main_window.ui.frameGlobalOptions1G1RPrefix, 20, 83, 521, 24, 0, 24)
-    main_window.ui.lineEditGlobalOptionsTrace = custom_line_edit(main_window.ui.lineEditGlobalOptionsTrace, 'lineEditGlobalOptionsTrace', main_window.ui.frameGlobalOptionsTrace, 20, 30, 521, 24, 0, 24)
-
-    main_window.ui.lineEditSystemOptions1G1RPrefix = custom_line_edit(main_window.ui.lineEditSystemOptions1G1RPrefix, 'lineEditSystemOptions1G1RPrefix', main_window.ui.frameSystemOptions1G1RPrefix, 20, 30, 521, 24, 0, 24)
-    main_window.ui.lineEditSystemOptions1G1RSuffix = custom_line_edit(main_window.ui.lineEditSystemOptions1G1RSuffix, 'lineEditSystemOptions1G1RSuffix,', main_window.ui.frameSystemOptions1G1RPrefix, 20, 83, 521, 24, 0, 24)
-    main_window.ui.lineEditSystemOptionsTrace = custom_line_edit(main_window.ui.lineEditSystemOptionsTrace, 'lineEditSystemOptionsTrace', main_window.ui.frameSystemOptionsTrace, 20, 30, 521, 24, 0, 24)
-
-    # Replace text edit widgets with customized versions
-    main_window.ui.textEditGlobalExclude = custom_text_edit(main_window.ui.textEditGlobalExclude, 'textEditGlobalExclude', main_window.ui.scrollAreaWidgetContentsGlobalUserFilters)
-    main_window.ui.textEditGlobalInclude = custom_text_edit(main_window.ui.textEditGlobalInclude, 'textEditGlobalInclude', main_window.ui.scrollAreaWidgetContentsGlobalUserFilters)
-
-    main_window.ui.verticalLayout_2.insertWidget(8, main_window.ui.textEditGlobalInclude)
-    main_window.ui.verticalLayout_2.insertWidget(12, main_window.ui.textEditGlobalExclude)
-
-    main_window.ui.textEditSystemExclude = custom_text_edit(main_window.ui.textEditSystemExclude, 'textEditSystemExclude', main_window.ui.scrollAreaWidgetContentsSystemUserFilters)
-    main_window.ui.textEditSystemInclude = custom_text_edit(main_window.ui.textEditSystemInclude, 'textEditSystemInclude', main_window.ui.scrollAreaWidgetContentsSystemUserFilters)
-
-    main_window.ui.verticalLayout_4.insertWidget(8, main_window.ui.textEditSystemInclude)
-    main_window.ui.verticalLayout_4.insertWidget(12, main_window.ui.textEditSystemExclude)
 
     # Fix the scrollArea background color,which for some reason is altered by setting
     # the font previously
@@ -452,25 +354,28 @@ def custom_widgets(main_window: Any) -> Any:
     main_window.ui.scrollAreaSystemOptions.setStyleSheet(scroll_area_style)
     main_window.ui.scrollAreaSystemUserFilters.setStyleSheet(scroll_area_style)
 
-    # Fix some line heights for Ubuntu
-    if 'linux' in sys.platform:
-        main_window.ui.verticalSpacerGlobalOptions.changeSize(20,3)
-        main_window.ui.verticalSpacerGlobalUserFilters.changeSize(20,3)
-        main_window.ui.verticalSpacerSystemUserFilters.changeSize(20,3)
+    # Change the splitter drag handle
+    drag_handle = '''
+                    QSplitter::handle { image: url(:/Arrows/images/vertical-grip.png); }
+                  '''
 
-    # Replace the "Process DAT files" button with a customized version
-    main_window.ui.buttonGo.deleteLater()
-    main_window.ui.buttonGo = CustomPushButton(main_window.ui.centralwidget)
-    main_window.ui.buttonGo.setText(qtc.QCoreApplication.translate('MainWindow', u'Process DAT files', None)) # type: ignore
-    main_window.ui.buttonGo.setObjectName(u'buttonGo')
-    main_window.ui.buttonGo.setGeometry(qtc.QRect(801, 530, 140, 45))
-    main_window.ui.buttonGo.setEnabled(False)
-    main_window.ui.buttonGo.setToolTip(qtc.QCoreApplication.translate('MainWindow', u'You need to add DAT files to the list before you can process them', None)) # type: ignore
+    main_window.ui.splitter.setStyleSheet(drag_handle)
+
+    # Create a "stop" button
+    sizePolicy = qtw.QSizePolicy(qtw.QSizePolicy.Fixed, qtw.QSizePolicy.Fixed)
+    sizePolicy.setHorizontalStretch(0)
+    sizePolicy.setVerticalStretch(0)
+    sizePolicy.setHeightForWidth(main_window.ui.buttonGo.sizePolicy().hasHeightForWidth())
 
     main_window.ui.buttonStop = CustomPushButton(main_window.ui.centralwidget)
     main_window.ui.buttonStop.setText(qtc.QCoreApplication.translate('MainWindow', u'Stop', None)) # type: ignore
     main_window.ui.buttonStop.setObjectName(u'buttonStop')
     main_window.ui.buttonStop.setGeometry(qtc.QRect(801, 530, 140, 45))
+    main_window.ui.buttonStop.setSizePolicy(sizePolicy)
+    main_window.ui.buttonStop.setMinimumSize(qtc.QSize(130, 41))
+
+    main_window.ui.horizontalLayoutOutputGo.addWidget(main_window.ui.buttonStop)
+
     main_window.ui.buttonStop.hide()
 
     # Fix the fonts

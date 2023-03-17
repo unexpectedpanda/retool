@@ -197,7 +197,12 @@ class DatNode:
             self.languages_title = tuple(sorted(set(self.languages_title_str.split(','))))
 
         self.regions_str: str = TitleTools.regions(self.full_name, config, 'get')
-        self.regions = tuple([region for region in config.region_order_default if region in self.regions_str])
+
+        # Reweight larger regions when considering multi-region titles
+        larger_regions: list[str] = ['USA', 'Europe', 'Japan', 'Asia']
+        reweighted_regions: list[str] = larger_regions + [region for region in config.region_order_default if region not in larger_regions]
+
+        self.regions = tuple([region for region in reweighted_regions if region in self.regions_str])
 
         if not self.regions:
             self.regions = ('Unknown',)
@@ -889,7 +894,7 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput, config: Co
                                 printwrap(
                                     f'{Font.warning_bold}* Warning: {Font.warning}DAT file doesn\'t '
                                     'comply with the Logiqx DTD standard. This might have unexpected results.', 'error')
-                                printwrap(f'  DTD violation: {dtd.error_log.last_error}.' # type: ignore[attr-defined]
+                                printwrap(f'  DTD violation: {dtd.error_log.last_error}.'
                                     f'{next_status}{Font.end}', 'error')
                                 eprint('')
                                 if input_type == 'file':
@@ -984,7 +989,7 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput, config: Co
             input_dat.numbered = True
 
             for game in root.findall('game'):
-                if not re.search('^([0-9]|x|z)([0-9]|B)[0-9]{2,2} - ', game.attrib['name']): # type: ignore
+                if not re.search('^([0-9]|x|z)([0-9]|B)[0-9]{2,2} - ', game.attrib['name']):
                     input_dat.numbered = False
 
             if not input_dat.numbered:
@@ -1024,8 +1029,8 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput, config: Co
                 list(map(lambda d: node_dict.update({d.tag: d.text}), list(game)))
 
                 # Get multiple categories if the input DAT supports them
-                for category in game.xpath('category'): # type: ignore[union-attr]
-                    categories.append(str(category.text)) #type: ignore[union-attr]
+                for category in game.xpath('category'):
+                    categories.append(str(category.text))
 
                 if categories:
                     node_dict['category'] = categories
@@ -1033,8 +1038,8 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput, config: Co
                     node_dict['category'] = []
 
                 # Get the rom node attributes
-                for rom in game.xpath('rom'): # type: ignore[union-attr]
-                    roms.append(dict(rom.attrib)) # type: ignore[union-attr, arg-type]
+                for rom in game.xpath('rom'):
+                    roms.append(dict(rom.attrib))
 
                 # Check for at least a size and one hash in the rom node
                 skip_node: bool = False

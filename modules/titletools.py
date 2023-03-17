@@ -1013,7 +1013,7 @@ class TitleTools(object):
                 result = name.replace(regex_search_str, '')
 
             if method == 'get':
-                result = regex_search_str.strip()[1:-1]
+                result = regex_search_str.strip()[1:-1].replace('Export', 'World')
 
         return result
 
@@ -1326,20 +1326,21 @@ class TraceTools(object):
         if trace_reference == 'REF0072': message = f'Looking for this ideal combination: {Font.bold}{variable}{Font.end}\n\nFound:'
         if trace_reference == 'REF0073': message = f'{Font.success_bold}ACTION: Clone assignments'
         if trace_reference == 'REF0074': message = f'{Font.bold}[{variable[0]}]{Font.end} Only one title in this region, skipping filtering:'
-        if trace_reference == 'REF0075': message = f'ACTION: Tie breaker, remove the compilation title:'
+        if trace_reference == 'REF0075': message = 'ACTION: Tie breaker, remove the compilation title:'
         if trace_reference == 'REF0076': message = f'{Font.bold}[{variable[0]}]{Font.end} Group after choosing superset titles:'
         if trace_reference == 'REF0077': message = 'ACTION: Choose supersets:'
         if trace_reference == 'REF0078': message = 'ACTION: Choose supersets:'
         if trace_reference == 'REF0079': message = f'{Font.bold}[{variable[0]}]{Font.end} Group after favoring multiple regions higher up user region order:'
         if trace_reference == 'REF0080': message = f'{Font.bold}[{variable[0]}]{Font.end} Group after filtering by clone list priority:'
-        if trace_reference == 'REF0081': message = f'ACTION: Choose more languages:'
-        if trace_reference == 'REF0082': message = f'ACTION: Choose more languages:'
+        if trace_reference == 'REF0081': message = 'ACTION: Choose more languages:'
+        if trace_reference == 'REF0082': message = 'ACTION: Choose more languages:'
         if trace_reference == 'REF0083': message = f'Compare languages\nImplied language order: {variable[0]}'
         if trace_reference == 'REF0084': message = f'Compare languages\nImplied language order: {variable[0]}'
         if trace_reference == 'REF0085': message = f'ACTION: ROM tagged as MIA in {Font.bold}{variable[0]}{Font.end}:'
-        if trace_reference == 'REF0086': message = f'ACTION: User has region bias enabled, selecting a higher region title than the superset:'
-        if trace_reference == 'REF0087': message = f'ACTION: Keeping superset title:'
-        if trace_reference == 'REF0088': message = f'ACTION: Keeping superset title:'
+        if trace_reference == 'REF0086': message = 'ACTION: User has region bias enabled, selecting a higher region title than the superset:'
+        if trace_reference == 'REF0087': message = 'ACTION: Keeping superset title:'
+        if trace_reference == 'REF0088': message = 'ACTION: Keeping superset title:'
+        if trace_reference == 'REF0089': message = f'{Font.bold}[{variable[0]}]{Font.end} Group after filtering by user language order:\n\nVirtual titles are marked with a :V:, the original title is after the •'
 
         if trace_reference:
             eprint(f'\n{Font.bold}{Font.underline}{trace_reference}{Font.end}: {message}{Font.end}\n')

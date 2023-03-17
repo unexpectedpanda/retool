@@ -46,6 +46,39 @@ def setup_gui_global(main_window: Any, dat_details: dict[str, dict[str, str]], c
         `config (Config)`: A Retool config object.
     """
 
+    # Reset the window size and splitter widths if they're available in user-config.yaml
+    window_width: int = 0
+    window_height: int = 0
+
+    try:
+        window_width: int = int(get_config_value(config.user_gui_settings, 'gui width', '0', False))
+    except:
+        pass
+
+    try:
+        window_height: int = int(get_config_value(config.user_gui_settings, 'gui height', '0', False))
+    except:
+        pass
+
+    if window_width and window_height:
+        main_window.resize(window_width, window_height)
+
+    gui_split_left: int = 0
+    gui_split_right: int = 0
+
+    try:
+        gui_split_left: int = int(get_config_value(config.user_gui_settings, 'gui split left', '0', False))
+    except:
+        pass
+
+    try:
+        gui_split_right: int = int(get_config_value(config.user_gui_settings, 'gui split right', '0', False))
+    except:
+        pass
+
+    if gui_split_left and gui_split_right:
+        main_window.ui.splitter.setSizes([gui_split_left, gui_split_right])
+
     # Remove United Kingdom from the region lists, as UK is already in there.
     region_order_user: list[str] = [x for x in config.region_order_user if x != 'United Kingdom']
     region_order_default: list[str] = [x for x in config.region_order_default if x != 'United Kingdom']
@@ -259,27 +292,10 @@ def setup_gui_system(main_window: Any, dat_details: dict[str, dict[str, str]], c
     clone_list_not_found: str = 'No custom clone list selected, using default clone list location'
     metadata_file_not_found: str = 'No custom metadata file selected, using default metadata file location'
 
-    # Replace the path labels with custom widgets
-    main_window.ui.labelSystemOutputFolder.deleteLater()
-    main_window.ui.labelSystemOutputFolder = ElisionLabel('', mode=qtc.Qt.ElideLeft, parent=main_window.ui.tabSystemPaths) # type: ignore
+    # Reset the path labels
     main_window.ui.labelSystemOutputFolder.setText(qtc.QCoreApplication.translate('MainWindow', output_not_found, None)) # type: ignore
-    main_window.ui.labelSystemOutputFolder.setObjectName(u'labelSystemOutputFolder')
-    main_window.ui.labelSystemOutputFolder.setGeometry(qtc.QRect(110, 71, 461, 20))
-    main_window.ui.labelSystemOutputFolder.setStyleSheet('color: #777')
-
-    main_window.ui.labelSystemCloneList.deleteLater()
-    main_window.ui.labelSystemCloneList = ElisionLabel('', mode=qtc.Qt.ElideLeft, parent=main_window.ui.tabSystemPaths) # type: ignore
     main_window.ui.labelSystemCloneList.setText(qtc.QCoreApplication.translate('MainWindow', clone_list_not_found, None)) # type: ignore
-    main_window.ui.labelSystemCloneList.setObjectName(u'labelSystemCloneList')
-    main_window.ui.labelSystemCloneList.setGeometry(qtc.QRect(110, 131, 471, 20))
-    main_window.ui.labelSystemCloneList.setStyleSheet('color: #777')
-
-    main_window.ui.labelSystemMetadataFile.deleteLater()
-    main_window.ui.labelSystemMetadataFile = ElisionLabel('', mode=qtc.Qt.ElideLeft, parent=main_window.ui.tabSystemPaths) # type: ignore
     main_window.ui.labelSystemMetadataFile.setText(qtc.QCoreApplication.translate('MainWindow', metadata_file_not_found, None)) # type: ignore
-    main_window.ui.labelSystemMetadataFile.setObjectName(u'labelSystemMetadataFile')
-    main_window.ui.labelSystemMetadataFile.setGeometry(qtc.QRect(110, 190, 461, 20))
-    main_window.ui.labelSystemMetadataFile.setStyleSheet('color: #777')
 
     # Get the system exclude checkboxes
     system_exclude_checkboxes = main_window.ui.tabSystemExclusions.findChildren(qtw.QCheckBox, qtc.QRegularExpression('checkBoxSystemExclude.*'))
@@ -459,8 +475,7 @@ def setup_gui_system(main_window: Any, dat_details: dict[str, dict[str, str]], c
         else:
             main_window.ui.checkBoxSystemOverrideLanguages.setChecked(False)
 
-            main_window.ui.listWidgetSystemSelectedLanguages.addItems(languages_user)
-            main_window.ui.listWidgetSystemAvailableLanguages.addItems(sorted([x for x in config.languages if x not in languages_user]))
+            main_window.ui.listWidgetSystemAvailableLanguages.addItems(sorted([x for x in config.languages]))
 
         # Set the system video standards UI enabled/disabled depending on override state
         if {'override': 'true'} in config.system_video_order_user:

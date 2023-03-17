@@ -390,7 +390,9 @@ class Config:
 
         uk_index = self.region_order_default.index('UK')
         self.region_order_default[uk_index + 1:uk_index + 1] = ['United Kingdom']
-        self.regex.region_order_default = re.compile('\\s\\((?:\\w*,\\s)*(?:' + '|'.join(self.region_order_default) + ')(?:,\\s\\w*)*\\)')
+
+        # Add "Export" to the default region order regex as a pseudo-region, which is reinterpreted as "World" later
+        self.regex.region_order_default = re.compile('\\s\\((?:\\w*,\\s)*(?:' + '|'.join(self.region_order_default + ['Export']) + ')(?:,\\s\\w*)*\\)')
 
         if 'UK' in self.languages_implied:
             self.languages_implied['United Kingdom'] = self.languages_implied['UK']

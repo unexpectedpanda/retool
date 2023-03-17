@@ -59,7 +59,8 @@ class SettingsWindow(qtw.QDialog):
         # Hide the error label
         self.ui.labelURLError.hide()
 
-        # Replace widgets with custom versions
+        # The folder location labels don't want to render with promoted subclasses (likely
+        # the parent is wrong), so we have to do it manually
         self.ui.labelCloneListsLocation.hide()
         self.ui.labelCloneListsLocation.deleteLater()
         self.ui.labelCloneListsLocation = ElisionLabel('', mode=qtc.Qt.ElideLeft, parent=self.ui.frameCloneListsLocation) # type: ignore
@@ -75,13 +76,6 @@ class SettingsWindow(qtw.QDialog):
         self.ui.labelMetadataLocation.setObjectName(u'labelMetadataLocation')
         self.ui.labelMetadataLocation.setGeometry(qtc.QRect(50, 20, 531, 20))
         self.ui.labelMetadataLocation.setStyleSheet('color: #777')
-
-        self.ui.lineEditCloneListDownloadLocation.deleteLater()
-        self.ui.lineEditCloneListDownloadLocation = CustomLineEdit(self.ui.frameCloneListMetadataDownloadLocation)
-        self.ui.lineEditCloneListDownloadLocation.setObjectName(u'lineEditCloneListDownloadLocation')
-        self.ui.lineEditCloneListDownloadLocation.setGeometry(qtc.QRect(0, 0, 571, 24))
-        self.ui.lineEditCloneListDownloadLocation.setMinimumSize(qtc.QSize(0, 24))
-        self.ui.lineEditCloneListDownloadLocation.setMaximumSize(qtc.QSize(16777215, 24))
 
         # Fix the fonts
         set_fonts(self)
@@ -145,14 +139,6 @@ class TitleToolWindow(qtw.QMainWindow):
         super(TitleToolWindow, self).__init__()
         self.ui = Ui_CloneListNameTool()
         self.ui.setupUi(self)
-
-
-        # Set up custom widgets
-        self.ui.lineEditEnterName.deleteLater()
-        self.ui.lineEditEnterName = CustomLineEdit(self.ui.centralwidget)
-        self.ui.lineEditEnterName.setObjectName(u'lineEditEnterName')
-        self.ui.lineEditEnterName.setMinimumSize(qtc.QSize(320, 24))
-        self.ui.verticalLayout.insertWidget(3, self.ui.lineEditEnterName)
 
         # Fix the fonts
         set_fonts(self)

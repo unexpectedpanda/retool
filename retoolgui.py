@@ -22,7 +22,7 @@ from modules.gui.retool_ui import Ui_MainWindow # type: ignore
 from modules.gui.custom_widgets import custom_widgets, CustomList
 from modules.gui.gui_config import import_config, write_config
 from modules.gui.gui_setup import setup_gui_global, setup_gui_system
-from modules.gui.gui_utils import show_hide
+from modules.gui.gui_utils import enable_go_button, show_hide
 from modules.input import UserInput
 from modules.utils import eprint, Font
 
@@ -31,6 +31,9 @@ assert sys.version_info >= (3, 10)
 
 class MainWindow(qtw.QMainWindow):
     """ The main window for RetoolGUI """
+
+    # Import the user config
+    config: Config = import_config()
 
     def __init__(self, *args, **kwargs):
         super(MainWindow, self).__init__(*args, **kwargs)
@@ -52,23 +55,29 @@ class MainWindow(qtw.QMainWindow):
         # Replace default QT widgets with customized versions
         self = custom_widgets(self)
 
-        # Set the window size
-        self.setFixedSize(957, 610)
-
         # Set the tab order
         # TODO: Set the tab order for replaced elements... shouldn't be so bad I think?
 
         # Disable the system settings for first launch
         self.ui.tabWidgetSystemSettings.setEnabled(False)
 
-        # Import the user config
-        config: Config = import_config()
-
         # Populate the global settings with data and set up user interactions
-        setup_gui_global(self, dat_details, config)
+        setup_gui_global(self, dat_details, self.config)
 
         # Populate the system settings with data and set up user interactions
-        setup_gui_system(self, dat_details, config)
+        setup_gui_system(self, dat_details, self.config)
+
+        # Set up a timer on the splitter move before writing to config
+        timer_splitter = qtc.QTimer(self)
+        timer_splitter.setSingleShot(True)
+        timer_splitter.timeout.connect(lambda: write_config(self, dat_details, self.config, settings_window=None))
+
+        self.ui.splitter.splitterMoved.connect(lambda: timer_splitter.start(500))
+
+        # Set up a timer on the window resize move before writing to config
+        self.timer_resize = qtc.QTimer(self)
+        self.timer_resize.setSingleShot(True)
+        self.timer_resize.timeout.connect(lambda: write_config(self, dat_details, self.config, settings_window=None))
 
         # Add all widgets to a list that should trigger a config write if interacted with
         interactive_widgets = []
@@ -89,17 +98,24 @@ class MainWindow(qtw.QMainWindow):
         for interactive_widget in interactive_widgets:
             try:
                 if type(interactive_widget) is not CustomList:
-                    interactive_widget.clicked.connect(lambda: write_config(self, dat_details, config, settings_window=None))
+                    interactive_widget.clicked.connect(lambda: write_config(self, dat_details, self.config, settings_window=None))
             except:
                 pass
             try:
-                interactive_widget.keyPressed.connect(lambda: write_config(self, dat_details, config, settings_window=None))
+                interactive_widget.keyPressed.connect(lambda: write_config(self, dat_details, self.config, settings_window=None))
             except:
                 pass
             try:
-                interactive_widget.dropped.connect(lambda: write_config(self, dat_details, config, settings_window=None))
+                interactive_widget.dropped.connect(lambda: write_config(self, dat_details, self.config, settings_window=None))
             except:
                 pass
+
+
+    def resizeEvent(self, event):
+        """ Record the window size when the user resizes it. """
+        # Set up a timer on the resize before writing to config
+
+        self.timer_resize.start(500)
 
 
     def start_retool_thread(self, data: UserInput = None) -> None:
@@ -124,6 +140,7 @@ class MainWindow(qtw.QMainWindow):
         if (self.threadpool.activeThreadCount() == 0):
             self.ui.buttonGo.setEnabled(True)
             self.ui.buttonStop.hide()
+            self.ui.buttonGo.show()
             self.ui.buttonStop.setText(qtc.QCoreApplication.translate("MainWindow", u"Stop", None))
             self.ui.buttonStop.setEnabled(True)
             self.ui.mainProgram.setEnabled(True)
@@ -181,6 +198,9 @@ if __name__ == "__main__":
     # user-config.yaml. This has to be delayed, or they don't show.
     show_hide(window.ui.checkBoxGlobalOptions1G1RNames, window.ui.frameGlobalOptions1G1RPrefix)
     show_hide(window.ui.checkBoxGlobalOptionsTrace, window.ui.frameGlobalOptionsTrace)
+
+    # Check if the "Process DAT files" button should be enabled
+    enable_go_button(window)
 
     # Show the main window
     window.show()

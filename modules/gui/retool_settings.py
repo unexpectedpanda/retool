@@ -16,8 +16,10 @@ from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
     QImage, QKeySequence, QLinearGradient, QPainter,
     QPalette, QPixmap, QRadialGradient, QTransform)
 from PySide6.QtWidgets import (QApplication, QDialog, QFrame, QGridLayout,
-    QLabel, QLayout, QLineEdit, QPushButton,
-    QSizePolicy, QSpacerItem, QWidget)
+    QLabel, QLayout, QPushButton, QSizePolicy,
+    QSpacerItem, QWidget)
+
+from modules.gui.custom_widgets import (CustomLineEdit, ElisionLabel)
 from  . import resources_rc
 
 class Ui_Settings(object):
@@ -77,7 +79,7 @@ class Ui_Settings(object):
         self.labelSelectCloneListsLocation.setObjectName(u"labelSelectCloneListsLocation")
         self.labelSelectCloneListsLocation.setGeometry(QRect(50, 0, 531, 16))
         self.labelSelectCloneListsLocation.setFont(font)
-        self.labelCloneListsLocation = QLabel(self.frameCloneListsLocation)
+        self.labelCloneListsLocation = ElisionLabel(self.frameCloneListsLocation)
         self.labelCloneListsLocation.setObjectName(u"labelCloneListsLocation")
         self.labelCloneListsLocation.setGeometry(QRect(50, 20, 531, 20))
         palette = QPalette()
@@ -214,7 +216,7 @@ class Ui_Settings(object):
         self.labelSelectMetadataLocation.setGeometry(QRect(50, 0, 531, 22))
         self.labelSelectMetadataLocation.setFont(font)
         self.labelSelectMetadataLocation.setLocale(QLocale(QLocale.English, QLocale.UnitedStates))
-        self.labelMetadataLocation = QLabel(self.frameMetadataLocation)
+        self.labelMetadataLocation = ElisionLabel(self.frameMetadataLocation)
         self.labelMetadataLocation.setObjectName(u"labelMetadataLocation")
         self.labelMetadataLocation.setGeometry(QRect(50, 20, 531, 20))
         palette3 = QPalette()
@@ -237,7 +239,7 @@ class Ui_Settings(object):
         self.frameCloneListMetadataDownloadLocation.setLocale(QLocale(QLocale.English, QLocale.UnitedStates))
         self.frameCloneListMetadataDownloadLocation.setFrameShape(QFrame.StyledPanel)
         self.frameCloneListMetadataDownloadLocation.setFrameShadow(QFrame.Raised)
-        self.lineEditCloneListDownloadLocation = QLineEdit(self.frameCloneListMetadataDownloadLocation)
+        self.lineEditCloneListDownloadLocation = CustomLineEdit(self.frameCloneListMetadataDownloadLocation)
         self.lineEditCloneListDownloadLocation.setObjectName(u"lineEditCloneListDownloadLocation")
         self.lineEditCloneListDownloadLocation.setGeometry(QRect(0, 0, 571, 24))
         self.lineEditCloneListDownloadLocation.setMinimumSize(QSize(0, 24))

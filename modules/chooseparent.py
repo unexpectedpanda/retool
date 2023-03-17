@@ -168,6 +168,10 @@ class ParentTools(object):
 
                 if report_on_match: TraceTools.trace_title('REF0070', [group], group_titles, keep_remove=False)
 
+                # Do a more thorough language check
+                group_titles = ParentTools.choose_language(set(titles), config, report_on_match, first_time=False)
+                if report_on_match: TraceTools.trace_title('REF0089', [group], group_titles, keep_remove=False)
+
                 # Tie breaker: if there's a compilation and an individual title remaining, choose the individual title
                 if len(group_titles) == 2:
                     individual_title: set[DatNode] = set([x for x in group_titles if not x.contains_titles])
@@ -1300,19 +1304,18 @@ class ParentTools(object):
                             if another_title.cloneof == title.full_name:
                                 parent_clash[title.full_name].add(another_title.full_name)
 
-        if config.user_input.verbose:
-            for key, values in parent_clash.items():
-                if (
-                    values
-                    and config.user_input.dev_mode):
-                        eprint(f'\n{Font.warning}* {Font.warning_bold}{key}{Font.warning} should be a parent, but is set as a clone of\n  {Font.warning_bold}{assigned_clone}{Font.warning}{Font.end}')
-                        eprint(f'\n  {Font.warning}This likely isn\'t an issue, and just a side effect of region and language settings.{Font.end}')
-                        eprint(f'\n  {Font.warning}Titles that have {Font.warning_bold}{key}{Font.warning} as a parent:{Font.end}\n')
+                        if config.user_input.verbose:
+                                if config.user_input.dev_mode:
+                                        eprint(f'\n{Font.warning}* {Font.warning_bold}{title.full_name}{Font.warning} should be a parent, but is set as a clone of\n  {Font.warning_bold}{assigned_clone}{Font.warning}{Font.end}')
+                                        eprint(f'\n  {Font.warning}This likely isn\'t an issue, and just a side effect of region and language settings.{Font.end}')
+                                        eprint(f'\n  {Font.warning}Titles that have {Font.warning_bold}{title.full_name}{Font.warning} as a parent:{Font.end}\n')
 
-                        for value in values:
-                            eprint(f'    {Font.disabled}- {value}{Font.end}')
+                                        for key, values in parent_clash.items():
+                                            if key == title.full_name:
+                                                for value in values:
+                                                    eprint(f'    {Font.disabled}- {value}{Font.end}')
 
-                        eprint(f'\n  {Font.warning}Removing clone from {Font.warning_bold}{key}{Font.end}\n')
+                                        eprint(f'\n  {Font.warning}Removing clone from {Font.warning_bold}{key}{Font.end}\n')
 
         return processed_titles
 

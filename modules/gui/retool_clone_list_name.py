@@ -17,6 +17,8 @@ from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
     QPalette, QPixmap, QRadialGradient, QTransform)
 from PySide6.QtWidgets import (QApplication, QLabel, QLineEdit, QMainWindow,
     QSizePolicy, QSpacerItem, QVBoxLayout, QWidget)
+
+from modules.gui.custom_widgets import CustomLineEdit
 from  . import resources_rc
 
 class Ui_CloneListNameTool(object):
@@ -68,7 +70,7 @@ class Ui_CloneListNameTool(object):
 
         self.verticalLayout.addWidget(self.labelEnterName)
 
-        self.lineEditEnterName = QLineEdit(self.centralwidget)
+        self.lineEditEnterName = CustomLineEdit(self.centralwidget)
         self.lineEditEnterName.setObjectName(u"lineEditEnterName")
         self.lineEditEnterName.setMinimumSize(QSize(320, 24))
 

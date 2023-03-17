@@ -5,22 +5,46 @@ hide:
 
 # Changelog
 
-# 2.00.0 Beta 4
+## 2.00.0 Beta 5
+
+* The GUI is now resizable.
+* GUI optimizations have been made. It's unlikely you'll notice a difference using it,
+  but it's easier to maintain now.
+* Europe has been moved further up the default English region order, as Retool's new
+  language prioritization bypasses any particular issues there.
+* Added an extra filter stage for compilations, checking for which title has more of the
+  user's languages.
+* Fixed titles with multiple regions not being categorized into the correct primary
+  region. For example, `(Europe, Australia)` titles were being filtered into the
+  `Australia` region instead of `Europe`, which caused some duplicates to sneak through
+  to the final output DAT.
+* The [`Export`](http://redump.org/discs/region/Ex/) region for Redump titles is now
+  treated as equivalent to `World`.
+* Fixed a problem where a new system config would populate selected languages from the
+  global config.
+* Fixed the log not outputting in the correct folder when a system output was selected.
+* Fixed the parent/clone clash warning message so it displayed the correct clone title.
+
+
+## 2.00.0 Beta 4
 
 * Pirate and unlicensed exclusions work again. Pirate titles have been added to
   the unlicensed exclude option.
 * The GUI documentation link now goes to the right place.
 
-# 2.00.0 Beta 3
+
+## 2.00.0 Beta 3
 
 * Fixed user filter excludes not removing some excludes.
 * Fixed system name formatting in the GUI, so the right system settings file is
   referenced.
 * Unified CLI and GUI versions, as splitting them was no longer useful.
 
+
 ## 2.00.0 Beta 2
 
 A minor update to fix system user filters for No-Intro's _Redump Custom DATs_.
+
 
 ## 2.00.0 Beta 1
 
