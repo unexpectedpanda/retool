@@ -780,7 +780,7 @@ class CloneListTools(object):
 
 
     @staticmethod
-    def update_clonelists_metadata(config: Config, gui_input: UserInput) -> None:
+    def update_clonelists_metadata(config: Config, gui_input: UserInput, no_exit: bool = False) -> None:
         """ Downloads the latest clone lists and support files
 
         Args:
@@ -909,10 +909,11 @@ class CloneListTools(object):
         else:
            eprint(f'{Font.success}\n* Done. Downloaded {file_count} files.{Font.end}')
 
-        if gui_input:
-            raise ExitRetool
-        else:
-            sys.exit()
+        if not no_exit:
+            if gui_input:
+                raise ExitRetool
+            else:
+                sys.exit()
 
     @staticmethod
     def variants(processed_titles: dict[str, list[DatNode]], config: Config, input_dat: Dat, is_includes: bool = False) -> dict[str, list[DatNode]]:

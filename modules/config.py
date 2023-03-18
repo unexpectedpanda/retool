@@ -160,7 +160,7 @@ class Config:
 
                             download_config = input()
 
-                if download_config == 'y':
+                if download_config.lower() == 'y':
                     eprint('')
                     for download_file in download_files:
                         eprint(f'* Downloading {Font.bold}{download_file}{Font.end}... ', sep=' ', end='', flush=True)
@@ -789,10 +789,11 @@ def generate_config(
             if new_user_config:
                 printwrap(f'You might want to edit {Font.warning_bold}'
                           f'config/user-config.yaml{Font.warning} to define a custom '
-                          f'region order, or to filter specific languages.',
+                          f'region order, or to filter specific languages.{Font.end}',
                           'no_indent')
                 eprint('')
 
-            printwrap(f'You can now run Retool normally.{Font.end}', 'no_indent')
+
+            printwrap(f'{Font.success}You can now run Retool normally.{Font.end}', 'no_indent')
 
             sys.exit()

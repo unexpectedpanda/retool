@@ -169,7 +169,7 @@ class ParentTools(object):
                 if report_on_match: TraceTools.trace_title('REF0070', [group], group_titles, keep_remove=False)
 
                 # Do a more thorough language check
-                group_titles = ParentTools.choose_language(set(titles), config, report_on_match, first_time=False)
+                group_titles = ParentTools.choose_language(group_titles, config, report_on_match, first_time=False)
                 if report_on_match: TraceTools.trace_title('REF0089', [group], group_titles, keep_remove=False)
 
                 # Tie breaker: if there's a compilation and an individual title remaining, choose the individual title
@@ -252,6 +252,8 @@ class ParentTools(object):
 
                 requirements_by_region[grouping[1]].add(grouping[0])
 
+
+            # TODO: This is the slow bit for the NES 15-in-1 compilations. Needs optimization.
             # Get all viable group combinations per region
             candidates: list[tuple[tuple[str, ...], ...]] = []
 
@@ -1267,7 +1269,7 @@ class ParentTools(object):
         solution is simple: if any title is marked as a parent, but happens to also marked
         as a clone, remove the clone status.
 
-        Additionally, this only ever becomes a problem when exporting a DAT in legacy
+        Additionally, this should only ever be a problem when exporting a DAT in legacy
         mode. Still, Retool warns the user of these issues if they've asked to see clone
         list errors, just in case there's an actual problem that needs to be chased up.
 
@@ -1282,40 +1284,47 @@ class ParentTools(object):
             parent/clone errors corrected.
         """
 
-        parent_clash: dict[str, set[str]] = {}
-        assigned_clone: str = ''
+        parent_clash: dict[str, str|set[str]] = {}
 
+        # Find all parent titles
         for titles in processed_titles.values():
             for title in titles:
                 if title.cloneof:
                     if title.cloneof not in parent_clash:
-                        parent_clash[title.cloneof] = set()
+                        parent_clash[title.cloneof] = {'clones': set(), 'assigned_clone': ''}
 
+        # Find if parent titles are set as clones
         for titles in processed_titles.values():
             for title in titles:
                 if (
                     title.full_name in parent_clash
                     and title.cloneof):
-                        assigned_clone = title.cloneof
+                        parent_clash[title.full_name]['assigned_clone'] = title.cloneof
 
                         title.cloneof = ''
 
-                        for another_title in titles:
-                            if another_title.cloneof == title.full_name:
-                                parent_clash[title.full_name].add(another_title.full_name)
+        # Find the titles that have set the parents as clones
+        for key, values in parent_clash.items():
+            for titles in processed_titles.values():
+                for title in titles:
+                    if parent_clash[key]['assigned_clone']:
+                        if title.cloneof == key:
+                            parent_clash[key]['clones'].add(title.full_name)
 
-                        if config.user_input.verbose:
-                                if config.user_input.dev_mode:
-                                        eprint(f'\n{Font.warning}* {Font.warning_bold}{title.full_name}{Font.warning} should be a parent, but is set as a clone of\n  {Font.warning_bold}{assigned_clone}{Font.warning}{Font.end}')
-                                        eprint(f'\n  {Font.warning}This likely isn\'t an issue, and just a side effect of region and language settings.{Font.end}')
-                                        eprint(f'\n  {Font.warning}Titles that have {Font.warning_bold}{title.full_name}{Font.warning} as a parent:{Font.end}\n')
+        if config.user_input.verbose:
+            for key, values in parent_clash.items():
+                if values['assigned_clone']:
+                    eprint(f'\n{Font.warning}* {Font.warning_bold}{key}{Font.warning} should be a parent, but is set as a clone of\n  {Font.warning_bold}{values["assigned_clone"]}{Font.warning}{Font.end}')
+                    eprint(f'\n  {Font.warning}This likely isn\'t an issue, and just a side effect of region and language settings.{Font.end}')
 
-                                        for key, values in parent_clash.items():
-                                            if key == title.full_name:
-                                                for value in values:
-                                                    eprint(f'    {Font.disabled}- {value}{Font.end}')
+                if values['clones']:
+                    eprint(f'\n  {Font.warning}Titles that have {Font.warning_bold}{key}{Font.warning} as a parent:{Font.end}\n')
 
-                                        eprint(f'\n  {Font.warning}Removing clone from {Font.warning_bold}{key}{Font.end}\n')
+                    for value in values['clones']:
+                        eprint(f'    {Font.disabled}- {value}{Font.end}')
+
+                if values['assigned_clone']:
+                    eprint(f'\n  {Font.warning}Removing clone from {Font.warning_bold}{key}{Font.end}\n')
 
         return processed_titles
 

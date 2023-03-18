@@ -1,3 +1,10 @@
+# 2.00.0 Beta 6
+
+* Fixed a compilation bug introduced with the last version that added extra titles to the
+  output DAT.
+* Another fix for the parent/clone warning message.
+
+
 # 2.00.0 Beta 5
 
 * The GUI is now resizable.

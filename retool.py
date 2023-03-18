@@ -116,9 +116,30 @@ def main(gui_input: UserInput = None) -> None:
                     VERSION_MINOR,
                     user_input)
 
-    # Run an update if requested
+    # Run an update if requested, or if folders are missing
     if config.user_input.update:
         CloneListTools.update_clonelists_metadata(config, gui_input)
+
+    if not (
+        pathlib.Path(config.path_clone_list).is_dir()
+        and pathlib.Path(config.path_metadata).is_dir()):
+            download_updates: str = ''
+
+            while not (
+                download_updates == 'y'
+                or download_updates == 'n'
+            ):
+                printwrap(
+                    f'{Font.warning_bold}Warning:{Font.warning} Clone lists or metadata '
+                    'are missing, Retool is more accurate with them. Do you want to '
+                    f'download them? (y/n) > {Font.end}', 'no_indent')
+
+                download_updates = input()
+
+            if download_updates.lower() == 'y':
+                CloneListTools.update_clonelists_metadata(config, gui_input, no_exit=True)
+
+
 
     # Get the input file or folder
     input_type: str
