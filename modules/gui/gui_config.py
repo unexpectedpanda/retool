@@ -431,8 +431,12 @@ def write_config(main_window: Any, dat_details: dict[str, dict[str, str]], confi
                 # Build the gui_input instance
                 filter_languages_enabled: bool = False
 
-                if selected_languages or system_selected_languages:
-                    filter_languages_enabled = True
+                if (
+                    selected_languages
+                    or (
+                        main_window.ui.checkBoxSystemOverrideLanguages.isChecked()
+                        and system_selected_languages)):
+                            filter_languages_enabled = True
 
                 gui_input = UserInput(
                     input_file_name = str(dat_file),

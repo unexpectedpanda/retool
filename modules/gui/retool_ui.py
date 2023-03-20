@@ -535,7 +535,7 @@ class Ui_MainWindow(object):
 
         self.verticalLayout_25.addItem(self.verticalSpacerGlobalLanguageLeftRightBottom)
 
-        self.verticalSpacerGlobalLanguageLeftRightBuffer = QSpacerItem(20, 54, QSizePolicy.Minimum, QSizePolicy.Fixed)
+        self.verticalSpacerGlobalLanguageLeftRightBuffer = QSpacerItem(20, 53, QSizePolicy.Minimum, QSizePolicy.Fixed)
 
         self.verticalLayout_25.addItem(self.verticalSpacerGlobalLanguageLeftRightBuffer)
 
@@ -962,7 +962,7 @@ class Ui_MainWindow(object):
         self.scrollAreaGlobalOptions.setWidgetResizable(True)
         self.scrollAreaWidgetContentsGlobalOptions = QWidget()
         self.scrollAreaWidgetContentsGlobalOptions.setObjectName(u"scrollAreaWidgetContentsGlobalOptions")
-        self.scrollAreaWidgetContentsGlobalOptions.setGeometry(QRect(0, 0, 563, 760))
+        self.scrollAreaWidgetContentsGlobalOptions.setGeometry(QRect(0, 0, 565, 760))
         sizePolicy5.setHeightForWidth(self.scrollAreaWidgetContentsGlobalOptions.sizePolicy().hasHeightForWidth())
         self.scrollAreaWidgetContentsGlobalOptions.setSizePolicy(sizePolicy5)
         self.verticalLayout_16 = QVBoxLayout(self.scrollAreaWidgetContentsGlobalOptions)
@@ -1279,7 +1279,7 @@ class Ui_MainWindow(object):
         self.scrollAreaGlobalUserFilters.setAlignment(Qt.AlignLeading|Qt.AlignLeft|Qt.AlignVCenter)
         self.scrollAreaWidgetContentsGlobalUserFilters = QWidget()
         self.scrollAreaWidgetContentsGlobalUserFilters.setObjectName(u"scrollAreaWidgetContentsGlobalUserFilters")
-        self.scrollAreaWidgetContentsGlobalUserFilters.setGeometry(QRect(0, 0, 580, 393))
+        self.scrollAreaWidgetContentsGlobalUserFilters.setGeometry(QRect(0, 0, 582, 393))
         self.gridLayoutGlobalUserFilters = QGridLayout(self.scrollAreaWidgetContentsGlobalUserFilters)
         self.gridLayoutGlobalUserFilters.setObjectName(u"gridLayoutGlobalUserFilters")
         self.gridLayoutGlobalUserFilters.setSizeConstraint(QLayout.SetMinimumSize)
@@ -1951,7 +1951,7 @@ class Ui_MainWindow(object):
 
         self.verticalLayout_26.addItem(self.verticalSpacerSystemLanguageLeftRightBottom)
 
-        self.verticalSpacerSystemLanguageLeftRightBuffer = QSpacerItem(20, 54, QSizePolicy.Minimum, QSizePolicy.Fixed)
+        self.verticalSpacerSystemLanguageLeftRightBuffer = QSpacerItem(20, 53, QSizePolicy.Minimum, QSizePolicy.Fixed)
 
         self.verticalLayout_26.addItem(self.verticalSpacerSystemLanguageLeftRightBuffer)
 
@@ -2433,7 +2433,7 @@ class Ui_MainWindow(object):
         self.scrollAreaSystemOptions.setWidgetResizable(True)
         self.layoutScrollAreaSystemOptions = QWidget()
         self.layoutScrollAreaSystemOptions.setObjectName(u"layoutScrollAreaSystemOptions")
-        self.layoutScrollAreaSystemOptions.setGeometry(QRect(0, 0, 563, 725))
+        self.layoutScrollAreaSystemOptions.setGeometry(QRect(0, 0, 422, 725))
         sizePolicy5.setHeightForWidth(self.layoutScrollAreaSystemOptions.sizePolicy().hasHeightForWidth())
         self.layoutScrollAreaSystemOptions.setSizePolicy(sizePolicy5)
         self.verticalLayout_22 = QVBoxLayout(self.layoutScrollAreaSystemOptions)
@@ -2706,7 +2706,7 @@ class Ui_MainWindow(object):
         self.scrollAreaSystemUserFilters.setAlignment(Qt.AlignLeading|Qt.AlignLeft|Qt.AlignVCenter)
         self.scrollAreaWidgetContentsSystemUserFilters = QWidget()
         self.scrollAreaWidgetContentsSystemUserFilters.setObjectName(u"scrollAreaWidgetContentsSystemUserFilters")
-        self.scrollAreaWidgetContentsSystemUserFilters.setGeometry(QRect(0, 0, 563, 393))
+        self.scrollAreaWidgetContentsSystemUserFilters.setGeometry(QRect(0, 0, 182, 553))
         self.scrollAreaWidgetContentsSystemUserFilters.setMinimumSize(QSize(0, 0))
         self.gridLayoutSystemUserFilters = QGridLayout(self.scrollAreaWidgetContentsSystemUserFilters)
         self.gridLayoutSystemUserFilters.setObjectName(u"gridLayoutSystemUserFilters")

@@ -1304,7 +1304,7 @@ English-speaking regions and 60Hz titles</string>
                              <property name="sizeHint" stdset="0">
                               <size>
                                <width>20</width>
-                               <height>54</height>
+                               <height>53</height>
                               </size>
                              </property>
                             </spacer>
@@ -2490,7 +2490,7 @@ following text in the name:
                          <rect>
                           <x>0</x>
                           <y>0</y>
-                          <width>563</width>
+                          <width>565</width>
                           <height>760</height>
                          </rect>
                         </property>
@@ -3780,7 +3780,7 @@ core, at the cost of performance</string>
                          <rect>
                           <x>0</x>
                           <y>0</y>
-                          <width>580</width>
+                          <width>582</width>
                           <height>393</height>
                          </rect>
                         </property>
@@ -5779,7 +5779,7 @@ English-speaking regions and 60Hz titles</string>
                              <property name="sizeHint" stdset="0">
                               <size>
                                <width>20</width>
-                               <height>54</height>
+                               <height>53</height>
                               </size>
                              </property>
                             </spacer>
@@ -7120,7 +7120,7 @@ expansion packs and additional materials for titles</string>
                          <rect>
                           <x>0</x>
                           <y>0</y>
-                          <width>563</width>
+                          <width>422</width>
                           <height>725</height>
                          </rect>
                         </property>
@@ -8335,8 +8335,8 @@ core, at the cost of performance</string>
                          <rect>
                           <x>0</x>
                           <y>0</y>
-                          <width>563</width>
-                          <height>393</height>
+                          <width>182</width>
+                          <height>553</height>
                          </rect>
                         </property>
                         <property name="minimumSize">

@@ -26,7 +26,7 @@ from modules.input import check_input, UserInput
 from modules.output import WriteFiles
 from modules.stats import get_parent_clone_stats, report_stats, Stats
 from modules.titletools import IncludeExcludeTools, Removes
-from modules.utils import eprint, ExitRetool, Font, old_windows, printwrap, regex_test
+from modules.utils import eprint, ExitRetool, Font, old_windows, printwrap
 # from modules.perftest import perf_test
 
 # Require at least Python 3.10

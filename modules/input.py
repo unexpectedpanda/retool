@@ -879,7 +879,7 @@ def import_system_settings(
 
         # Change the user languages list to be regex strings instead of language
         # names
-        language_list: list[str] = []
+        language_list: list[str|dict[str, str]] = []
 
         if not [x for x in config.system_language_order_user if 'override' not in x]:
             for region in config.region_order_user:
@@ -890,13 +890,13 @@ def import_system_settings(
         else:
             config.system_languages_user_found = True
 
-            language_list.extend([str(x) for x in config.system_language_order_user if 'override' in x])
+            language_list.extend([x for x in config.system_language_order_user if 'override' in x])
 
             for language in [str(x) for x in config.system_language_order_user if 'override' not in x]:
                 if language in config.languages:
                     language_list.append(config.languages[language])
 
-        config.system_language_order_user = [str(x) for x in language_list]
+        config.system_language_order_user = [x for x in language_list]
 
         # Get list prefix and suffix
         config.system_user_prefix = ''.join(system_settings.data['list prefix'])
@@ -994,7 +994,6 @@ def import_system_settings(
         if {'override options': 'true'} in config.system_exclusions_options:
             config.user_input.demote_unl = False
             config.user_input.empty_titles = False
-            config.user_input.filter_languages = False
             config.user_input.legacy = False
             config.user_input.list_names = False
             config.user_input.log = False

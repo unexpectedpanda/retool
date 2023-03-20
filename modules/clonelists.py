@@ -907,7 +907,7 @@ class CloneListTools(object):
         elif file_count == 1:
             eprint(f'{Font.success}\n* Done. Downloaded {file_count} file.{Font.end}')
         else:
-           eprint(f'{Font.success}\n* Done. Downloaded {file_count} files.{Font.end}')
+            eprint(f'{Font.success}\n* Done. Downloaded {file_count} files.{Font.end}')
 
         if not no_exit:
             if gui_input:

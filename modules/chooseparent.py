@@ -228,7 +228,7 @@ class ParentTools(object):
                         required_titles[contention_group] = []
                     required_titles[contention_group].append(title)
 
-            requirements: tuple[tuple[str, str], ...] = tuple([(k, required_titles[k][0].primary_region) for k in required_titles])
+            required_titles_and_regions: tuple[tuple[str, str], ...] = tuple([(k, required_titles[k][0].primary_region) for k in required_titles])
 
             for title in group_crossover_titles:
                 if title.full_name not in unique_title_names:
@@ -243,23 +243,13 @@ class ParentTools(object):
             # Overwrite the current group with the deduped group
             crossover_titles[group] = keep_titles
 
-            # Group together alike regions
-            requirements_by_region: dict[str, set[str]] = {}
-
-            for grouping in requirements:
-                if grouping[1] not in requirements_by_region:
-                    requirements_by_region[grouping[1]] = set()
-
-                requirements_by_region[grouping[1]].add(grouping[0])
-
-
-            # TODO: This is the slow bit for the NES 15-in-1 compilations. Needs optimization.
             # Get all viable group combinations per region
             candidates: list[tuple[tuple[str, ...], ...]] = []
 
             for i in range(1, len(contention_group_set)):
                 combos: list[tuple[tuple[str, ...], ...]] = list(combinations(sorted(available_groupings), i))  # type: ignore
 
+                # TODO: This is the slow bit for large compilations. Needs optimization.
                 for combo in combos:
                     # Reformat the list to see if all the needed groups and regions are there.
                     full_combo: set[str] = set()
@@ -267,7 +257,7 @@ class ParentTools(object):
                     for subcombo in combo:
                         full_combo = full_combo | (set([(x, subcombo[1]) for x in subcombo[0]])) # type: ignore
 
-                    if all(item in full_combo for item in requirements): # type: ignore
+                    if all(item in full_combo for item in required_titles_and_regions): # type: ignore
                         candidates.append(combo)
 
             if not candidates:

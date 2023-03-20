@@ -1,3 +1,8 @@
+# 2.00.0 Beta 7
+
+* System languages are now filtering correctly again.
+
+
 # 2.00.0 Beta 6
 
 * Fixed a compilation bug introduced with the last version that added extra titles to the

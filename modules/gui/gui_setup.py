@@ -441,6 +441,23 @@ def setup_gui_system(main_window: Any, dat_details: dict[str, dict[str, str]], c
             main_window.ui.listWidgetSystemSelectedRegions.addItems([x for x in region_order_user])
             main_window.ui.listWidgetSystemAvailableRegions.addItems([x for x in region_order_default if x not in region_order_user])
 
+        # Populate the system languages
+        system_languages_user: list[str] = []
+
+        # Add languages to the languages lists
+        if config.system_languages_user_found:
+            for languages in config.system_language_order_user:
+                for key, value in config.languages.items():
+                    if languages == value:
+                        system_languages_user.append(key)
+
+            main_window.ui.listWidgetSystemSelectedLanguages.addItems(system_languages_user)
+            main_window.ui.listWidgetSystemAvailableLanguages.addItems(sorted([x for x in config.languages if x not in system_languages_user]))
+        else:
+            main_window.ui.checkBoxSystemOverrideLanguages.setChecked(False)
+
+            main_window.ui.listWidgetSystemAvailableLanguages.addItems(sorted([x for x in config.languages]))
+
         # Set the system languages UI enabled/disabled depending on override state
         if {'override': 'true'} in config.system_language_order_user:
             main_window.ui.checkBoxSystemOverrideLanguages.setChecked(True)
@@ -459,23 +476,6 @@ def setup_gui_system(main_window: Any, dat_details: dict[str, dict[str, str]], c
                 main_window.ui.listWidgetSystemAvailableLanguages,
                 main_window.ui.listWidgetSystemSelectedLanguages,
             ])
-
-        # Populate the system languages
-        system_languages_user: list[str] = []
-
-        # Add languages to the languages lists
-        if config.system_languages_user_found:
-            for languages in config.system_language_order_user:
-                for key, value in config.languages.items():
-                    if languages == value:
-                        system_languages_user.append(key)
-
-            main_window.ui.listWidgetSystemSelectedLanguages.addItems(system_languages_user)
-            main_window.ui.listWidgetSystemAvailableLanguages.addItems(sorted([x for x in config.languages if x not in system_languages_user]))
-        else:
-            main_window.ui.checkBoxSystemOverrideLanguages.setChecked(False)
-
-            main_window.ui.listWidgetSystemAvailableLanguages.addItems(sorted([x for x in config.languages]))
 
         # Set the system video standards UI enabled/disabled depending on override state
         if {'override': 'true'} in config.system_video_order_user:
