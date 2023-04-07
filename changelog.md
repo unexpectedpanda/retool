@@ -1,3 +1,8 @@
+# 2.00.0 Beta 9
+
+* Fixed conditional override priorities not working.
+
+
 # 2.00.0 Beta 8
 
 * You can now drag and drop DAT files into the file list.
@@ -33,6 +38,7 @@
 * Fixed a bug where regex escapes for a title trace that were set in the GUI weren't
   interpreted properly.
 * Polished up some rough areas of code, made some minor GUI tweaks.
+
 
 # 2.00.0 Beta 7
 

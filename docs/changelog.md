@@ -6,6 +6,11 @@ hide:
 # Changelog
 
 
+# 2.00.0 Beta 9
+
+* Fixed conditional override priorities not working.
+
+
 ## 2.00.0 Beta 8
 
 * You can now drag and drop DAT files into the file list.

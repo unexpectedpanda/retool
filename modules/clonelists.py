@@ -1080,9 +1080,8 @@ class CloneListTools(object):
                                                 new_title: DatNode = copy.deepcopy(title)
 
                                                 if 'priority' in variant_title:
-                                                    new_title.clonelist_priority = variant_title['priority']
-                                                else:
-                                                    new_title.clonelist_priority = 1
+                                                    if new_title.clonelist_priority == 1:
+                                                        new_title.clonelist_priority = variant_title['priority']
 
                                                 if variant_type == 'superset':
                                                     new_title.is_superset = True
