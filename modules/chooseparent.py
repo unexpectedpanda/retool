@@ -9,7 +9,7 @@ import sys
 from alive_progress import alive_bar # type: ignore
 from contextlib import nullcontext
 from copy import deepcopy
-from functools import partial
+from functools import partial, reduce
 from itertools import combinations
 from typing import Any, Pattern, TYPE_CHECKING
 
@@ -27,33 +27,159 @@ class ParentTools(object):
     """ Methods for selecting a parent from a list of DatNode titles. """
 
     @staticmethod
-    def choose_compilations(title_set: set[DatNode], all_titles: dict[str, list[DatNode]], config: Config) -> dict[str, list[DatNode]]:
-        """ When choosing 1G1R titles between compilations and individual titles, finds
-        the combination with the least duplicates involved. For example, from the titles
-        "A & B", "A & C", "C", and "D", returns "A & B", "C", and "D".
+    def choose_compilations(compilations: set[DatNode], all_titles: dict[str, set[DatNode]], config: Config) -> dict[str, set[DatNode]]:
+        """ When choosing 1G1R titles from compilations and individual titles, either
+        preferences individual titles, or finds the combination with the least duplicates
+        involved. For example, from the titles "A & B", "A & C", "C", and "D", returns
+        "A & B", "C", and "D".
 
         Args:
-            `title_set (set[DatNode])`: A set of compilation titles to be considered as
+            `compilations (set[DatNode])`: A set of compilation titles to be considered as
             DatNode instances.
-            `all_titles (dict[str, list[DatNode]])`: All non-compilation titles to be
+            `all_titles (dict[str, set[DatNode]])`: All non-compilation titles to be
             considered.
             `config (Config)`: The Retool config object.
 
         Returns:
-            `dict[str, list[DatNode]]`: Compilations that have been reintegrated into
+            `dict[str, set[DatNode]]`: Compilations that have been reintegrated into
             `all_titles`, with new 1G1R titles set accordingly.
         """
 
-        # Add a group to do compilation work in
+        compilations_removed: set[DatNode] = set()
+        individual_titles: set[DatNode] = set()
+
+        # Set up title tracking
+        report_on_match: bool = False
+        report_on_match_compilations: bool = False
+
+        # Check if a system config is in play
+        region_order: list[str] = config.region_order_user
+
+        if config.system_region_order_user:
+            if {'override': 'true'} in config.system_region_order_user:
+                region_order = [str(x) for x in config.system_region_order_user if 'override' not in x]
+
+        # Get the current individual 1G1R titles related to the available compilations
+        for compilation in compilations:
+            for contains_title in [x for x in compilation.contains_titles.keys()]:
+                group = TitleTools.get_group_name(contains_title, config)
+                if group in all_titles:
+                    parent_names: list[str] = [x.full_name for x in all_titles[group] if not x.cloneof]
+                    parent_titles: list[DatNode] = [x for x in all_titles[group] if x.full_name in parent_names]
+
+                    for parent_title in parent_titles:
+                        if TitleTools.get_group_name(parent_title.short_name, config) == group:
+                            individual_titles.add(parent_title)
+
+        # Set up title tracking
+        report_on_match = False
+        report_on_match_compilations = False
+
+        if config.user_input.trace:
+            report_on_match = TraceTools.trace_enable(compilations | individual_titles, config.user_input.trace)
+
+        if report_on_match:
+            eprint(f'\n\n{Font.heading_bold}Stage: Compilations{Font.end}')
+
+        # Check for compilation duplicates, or if one compilation contains another, and
+        # remove the lesser version
+        for compilation_1, compilation_2 in itertools.combinations(compilations, 2):
+
+            # Run another trace set up for just the titles currently being processed
+            if config.user_input.trace:
+                report_on_match_compilations = TraceTools.trace_enable(set([compilation_1, compilation_2]), config.user_input.trace)
+
+            contains_titles_1: list[str] = sorted([x for x in compilation_1.contains_titles.keys()])
+            contains_titles_2: list[str] = sorted([x for x in compilation_2.contains_titles.keys()])
+            keep_titles: list[int] = []
+
+            # Check priorities of each constituent title
+            def length_check() -> None:
+                """ Checks if one compilations contains more titles than another, and
+                removes the compilation with the least titles """
+
+                if (
+                    len(contains_titles_1) < len(contains_titles_2)
+                    and compilation_1.primary_region == compilation_2.primary_region):
+                    if all(item in contains_titles_2 for item in contains_titles_1):
+                        # compilation_2 contains compilation_1
+                        compilations_removed.add(compilation_1)
+                        if compilation_1 in compilations:
+                            compilations.remove(compilation_1)
+
+                        if report_on_match_compilations:
+                            TraceTools.trace_title('REF0090', [compilation_2.full_name, compilation_1.full_name], keep_remove=True)
+                elif (
+                    len(contains_titles_2) < len(contains_titles_1)
+                    and compilation_1.primary_region == compilation_2.primary_region):
+                    if all(item in contains_titles_1 for item in contains_titles_2):
+                        # compilation_1 contains compilation_2
+                        compilations_removed.add(compilation_2)
+                        if compilation_2 in compilations:
+                            compilations.remove(compilation_2)
+
+                        if report_on_match_compilations:
+                            TraceTools.trace_title('REF0091', [compilation_1.full_name, compilation_2.full_name], keep_remove=True)
+                elif contains_titles_1 == contains_titles_2:
+                    # compilation_1 is identical to compilation_2 -- fake the short names to use existing filtering tools
+                    compilation_1_original_short_name: str = compilation_1.short_name
+                    compilation_2_original_short_name: str = compilation_2.short_name
+
+                    compilation_1.short_name = 'compilation'
+                    compilation_2.short_name = 'compilation'
+
+                    filtered: dict[str, set[DatNode]] = ParentTools.choose_parent_process(config, {}, is_superset_titles=False, is_compilations=True, title_set=set([compilation_1, compilation_2]))
+
+                    filtered_set = set([y for y in [x for x in filtered.values()][0] if not y.cloneof])
+
+                    compilation_1.short_name = compilation_1_original_short_name
+                    compilation_2.short_name = compilation_2_original_short_name
+
+                    if compilation_1 not in filtered_set:
+                        compilations_removed.add(compilation_1)
+
+                        if compilation_1 in compilations:
+                            compilations.remove(compilation_1)
+
+                    if compilation_2 not in filtered_set:
+                        compilations_removed.add(compilation_2)
+
+                        if compilation_2 in compilations:
+                            compilations.remove(compilation_2)
+
+            for key_1 in contains_titles_1:
+                for key_2 in contains_titles_2:
+                    if key_1 == key_2:
+                        if compilation_1.contains_titles[key_1]['priority'] < compilation_2.contains_titles[key_2]['priority']:
+                            keep_titles.append(1)
+                        elif compilation_2.contains_titles[key_2]['priority'] < compilation_1.contains_titles[key_1]['priority']:
+                            keep_titles.append(2)
+                        else:
+                            keep_titles.append(0)
+
+            if keep_titles:
+                if all(x == 1 for x in keep_titles):
+                    # Compilation 1 has all higher priority common titles than compilation 2, but we don't know how many titles are in it yet
+                    length_check()
+                elif all(x == 2 for x in keep_titles):
+                    # Compilation 2 has all higher priority common titles than compilation 1, but we don\'t know how many titles are in it yet
+                    length_check()
+                elif all(x == 0 for x in keep_titles):
+                    # Both compilations are equal in priority for the common titles they contain, they need to be further filtered and we don't know how many titles are in them yet
+                    length_check()
+                else:
+                    # Both compilations contain a mix of priorities and should be further filtered later
+                    pass
+
+        # Optimize compilation selection -- first create a group to do compilation work in
         if 'retool_compilations' not in all_titles:
-            all_titles['retool_compilations'] = []
+            all_titles['retool_compilations'] = set()
 
         # Go through the compilations and create a set of the groups each one spans.
         # For example, a compilation of A + B returns a, b.
         compilation_groups: set[frozenset[str]] = set()
 
-        for title in title_set:
-            #TODO: Using TitleTools.get_group_name to strip parentheses could be an issue in the future, keep an eye on this one
+        for title in compilations:
             compilation_groups.add(frozenset([TitleTools.get_group_name(x, config) for x in title.contains_titles]))
 
         # Find the groups that have crossover titles. For example, compilations A + B
@@ -65,7 +191,7 @@ class ParentTools(object):
 
         # Cartesian product merging elements if some element in common
         for a,b in itertools.product(l,l):
-            if a.intersection( b ):
+            if a.intersection(b):
                 a.update(b)
                 b.update(a)
 
@@ -76,58 +202,50 @@ class ParentTools(object):
         crossover_groups: list[Any[str]] = (list(l for l, _ in itertools.groupby(l)))
         crossover_groups = [[x.lower() for x in sublst] for sublst in crossover_groups]
 
-        # Check if a system config is in play
-        region_order: list[str] = config.region_order_user
-
-        if config.system_region_order_user:
-            if {'override': 'true'} in config.system_region_order_user:
-                region_order = [str(x) for x in config.system_region_order_user if 'override' not in x]
-
         # Prepare compilations and standalone titles in a way that Retool can process for
         # clones
-        compare_groups: dict[str, list[DatNode]] = {}
-
-        report_on_match_set: bool = False
+        title_comparison: dict[str, list[DatNode]] = {}
+        original_title_comparison: dict[str, list[DatNode]] = {}
 
         for groups in crossover_groups:
+            report_on_match_compilations = False
             for group in groups:
-                if group not in compare_groups:
-                    compare_groups[group] = []
+                group_titles: set[DatNode] = set()
 
-                # Assign titles and compilations to the groups
-                if group in all_titles:
-                    if len(all_titles[group]):
-                        # Get the current 1G1R titles, and add them to the comparison
-                        parent_names: list[str] = [x.full_name for x in all_titles[group] if not x.cloneof]
-                        parent_titles: list[DatNode] = [x for x in all_titles[group] if x.full_name in parent_names]
+                if group not in title_comparison:
+                    title_comparison[group] = []
+                    original_title_comparison[group] = []
 
-                        for title in parent_titles:
-                            if TitleTools.get_group_name(title.short_name, config) == group:
-                                compare_groups[group].append(title)
+                # Add the individual titles to the comparison
+                for an_individual_title in individual_titles:
+                    if an_individual_title.group_name == group:
+                        title_comparison[group].append(an_individual_title)
+                        original_title_comparison[group].append(an_individual_title)
 
-                # Add the compilations to the comparison as split, virtual versions of themselves
-                compare_groups = TitleTools.convert_to_virtual_titles(title_set, compare_groups, group, config)
+                # Add compilations to the comparison as split, virtual versions of themselves
+                title_comparison = TitleTools.convert_to_virtual_titles(compilations, title_comparison, group, config)
+                original_title_comparison = TitleTools.convert_to_virtual_titles(compilations, original_title_comparison, group, config)
 
-                # Set up title tracking, then start the title comparison to find a new 1G1R title
-                report_on_match: bool = False
-                titles: set[DatNode] = set(compare_groups[group])
+                title_comparison_set: set[DatNode] = set(title_comparison[group])
 
+                # Set up a trace
                 if config.user_input.trace:
-                    report_on_match = TraceTools.trace_enable(titles, config.user_input.trace)
+                    report_on_match_compilations = TraceTools.trace_enable(title_comparison_set, config.user_input.trace)
 
-                if report_on_match:
-                    if not report_on_match_set:
-                        report_on_match_set = True
-                        eprint(f'\n\n{Font.heading_bold}Stage: Compilations{Font.end}')
+                if report_on_match_compilations: TraceTools.trace_title('REF0067', [group], title_comparison_set, keep_remove=False)
 
-                if report_on_match: TraceTools.trace_title('REF0067', [group], titles, keep_remove=False)
+                # Filter by preproduction
+                group_titles = ParentTools.remove_preprod_bad(title_comparison_set, config)
+
+                if report_on_match_compilations: TraceTools.trace_title('REF0092', [group], group_titles, keep_remove=False)
 
                 # Filter by user language order, temporarily hijack the primary region to do so
-                for title in titles:
+                for title in title_comparison_set:
                     title.primary_region = 'compilation'
 
-                group_titles: set[DatNode] = ParentTools.choose_language(set(titles), config, report_on_match, first_time=True)
-                if report_on_match: TraceTools.trace_title('REF0068', [group], group_titles, keep_remove=False)
+                group_titles = ParentTools.choose_language(title_comparison_set, config, report_on_match_compilations, first_time=True)
+
+                if report_on_match_compilations: TraceTools.trace_title('REF0068', [group], group_titles, keep_remove=False)
 
                 # Return primary regions and languages to their original state
                 for title in group_titles:
@@ -135,67 +253,55 @@ class ParentTools(object):
                     title.primary_region = title.primary_region_original
 
                 # Filter by priority
-                group_titles = CloneListTools.compare_priorities(group_titles, report_on_match)
+                group_titles = CloneListTools.compare_priorities(group_titles, report_on_match_compilations)
 
-                if report_on_match: TraceTools.trace_title('REF0080', [group], group_titles, keep_remove=False)
+                if report_on_match_compilations: TraceTools.trace_title('REF0080', [group], group_titles, keep_remove=False)
 
                 # Filter by user region order
-                group_titles = ParentTools.choose_multi_regions(group_titles, region_order, report_on_match)
+                group_titles = ParentTools.choose_multi_regions(group_titles, region_order, world_is_usa=True, report_on_match=report_on_match_compilations)
 
-                if report_on_match: TraceTools.trace_title('REF0069', [group], group_titles, keep_remove=False)
+                if report_on_match_compilations: TraceTools.trace_title('REF0069', [group], group_titles, keep_remove=False)
 
                 # Rename virtual titles back to their original compilation titles
                 for title in group_titles:
                     title.full_name = title.full_name_original
 
-                # TODO: Probably going to have to do a full comparison like in choose_parent_main,
-                # TODO: but that requires refactoring that function... might have to move the len condition too
-                # TODO: for readability
-                # Filter by version/revision and other criteria
-                if len(group_titles) > 1: group_titles = ParentTools.choose_version_revision(config.regex.version, group_titles, config, report_on_match)
-                if len(group_titles) > 1: group_titles = ParentTools.choose_version_revision(config.regex.long_version, group_titles, config, report_on_match)
-                if len(group_titles) > 1: group_titles = ParentTools.choose_version_revision(config.regex.revision, group_titles, config, report_on_match)
-                if len(group_titles) > 1: group_titles = ParentTools.choose_version_revision(config.regex.beta, group_titles, config, report_on_match)
-                if len(group_titles) > 1: group_titles = ParentTools.choose_version_revision(config.regex.alpha, group_titles, config, report_on_match)
-                if len(group_titles) > 1: group_titles = ParentTools.choose_version_revision(config.regex.proto, group_titles, config, report_on_match)
-                if len(group_titles) > 1: group_titles = ParentTools.choose_date(group_titles, config, report_on_match)
-                if len(group_titles) > 1: group_titles = ParentTools.choose_string(config.regex.alt, group_titles, report_on_match, choose_title_with_string=False)
-                if len(group_titles) > 1: group_titles = ParentTools.choose_string(config.regex.oem, group_titles, report_on_match, choose_title_with_string=False)
-                if len(group_titles) > 1: group_titles = ParentTools.choose_string(config.regex.not_for_resale, group_titles, report_on_match, choose_title_with_string=False)
-                if len(group_titles) > 1: group_titles = ParentTools.choose_string(config.regex.covermount, group_titles, report_on_match, choose_title_with_string=False)
-                if len(group_titles) > 1: group_titles = ParentTools.choose_string(config.regex.rerelease, group_titles, report_on_match, choose_title_with_string=False)
-                if len(group_titles) > 1: group_titles = ParentTools.choose_string(config.regex.edc, group_titles, report_on_match, choose_title_with_string=True)
+                if report_on_match_compilations: TraceTools.trace_title('REF0070', [group], group_titles, keep_remove=False)
 
-                if report_on_match: TraceTools.trace_title('REF0070', [group], group_titles, keep_remove=False)
+                # Tie breaker - choose the individual title
+                remove_compilations: set[DatNode] = set()
 
-                # Do a more thorough language check
-                group_titles = ParentTools.choose_language(group_titles, config, report_on_match, first_time=False)
-                if report_on_match: TraceTools.trace_title('REF0089', [group], group_titles, keep_remove=False)
+                for title_1, title_2 in itertools.combinations(group_titles, 2):
+                    if title_1.contains_titles and not title_2.contains_titles:
+                        remove_compilations.add(title_1)
 
-                # Tie breaker: if there's a compilation and an individual title remaining, choose the individual title
-                if len(group_titles) == 2:
-                    individual_title: set[DatNode] = set([x for x in group_titles if not x.contains_titles])
-                    compilation_title: set[DatNode] = set([x for x in group_titles if x.contains_titles])
+                        if report_on_match_compilations: TraceTools.trace_title('REF0075', [title_2.full_name, title_1.full_name], keep_remove=True)
 
-                    if (
-                        individual_title
-                        and compilation_title):
-                            if report_on_match: TraceTools.trace_title('REF0075', [str([x.full_name for x in individual_title])[2:-2], str([x.full_name for x in compilation_title])[2:-2]], keep_remove=True)
+                    if title_2.contains_titles and not title_1.contains_titles:
+                        remove_compilations.add(title_2)
 
-                            group_titles = individual_title
+                        if report_on_match_compilations: TraceTools.trace_title('REF0093', [title_1.full_name, title_2.full_name], keep_remove=True)
 
-                compare_groups[group] = list(sorted(group_titles, key=lambda x: x.full_name))
+
+                for remove_compilation in remove_compilations:
+                    if remove_compilation in group_titles:
+                        group_titles.remove(remove_compilation)
+
+                title_comparison[group] = list(sorted(group_titles, key=lambda x: x.full_name))
 
         # Get the groups with crossover titles together, and figure out a combination of titles
         # with the least duplicates
-        crossover_titles: dict[str, list[DatNode]] = {}
+        crossover_titles: dict[str, set[DatNode]] = {}
 
         for groups in crossover_groups:
             for group in groups:
-                for title in compare_groups[group]:
-                    if ', '.join(groups) not in crossover_titles:
-                        crossover_titles[', '.join(groups)] = []
-                    crossover_titles[', '.join(groups)].append(title)
+                if group in title_comparison:
+                    for title in title_comparison[group]:
+                        if ', '.join(groups) not in crossover_titles:
+                            crossover_titles[', '.join(groups)] = set()
+                        crossover_titles[', '.join(groups)].add(title)
+
+        available_groupings: dict[str, set[tuple[tuple[str, ...], str]]] = {}
 
         for group, group_crossover_titles in crossover_titles.items():
             # Set up title tracking
@@ -205,8 +311,7 @@ class ParentTools(object):
                 report_on_match = TraceTools.trace_enable(set(group_crossover_titles), config.user_input.trace)
 
             unique_title_names: set[str] = set()
-            keep_titles: list[DatNode] = []
-            available_groupings: set[tuple[tuple[str, ...], str]] = set()
+            keep_these_titles: set[DatNode] = set()
 
             if report_on_match:
                 TraceTools.trace_title('REF0071', [group], keep_remove=False)
@@ -223,7 +328,7 @@ class ParentTools(object):
             required_titles: dict[str, list[DatNode]] = {}
 
             for contention_group in contention_group_set:
-                for title in compare_groups[TitleTools.get_group_name(contention_group, config)]:
+                for title in title_comparison[TitleTools.get_group_name(contention_group, config)]:
                     if contention_group not in required_titles:
                         required_titles[contention_group] = []
                     required_titles[contention_group].append(title)
@@ -233,23 +338,26 @@ class ParentTools(object):
             for title in group_crossover_titles:
                 if title.full_name not in unique_title_names:
                     unique_title_names.add(title.full_name)
-                    keep_titles.append(title)
+                    keep_these_titles.add(title)
+
+                    if not group in available_groupings:
+                        available_groupings[group] = set()
 
                     if title.contains_titles:
-                        available_groupings.add((tuple([x.lower() for x in title.contains_titles]), title.primary_region))
+                        available_groupings[group].add((tuple([x.lower() for x in title.contains_titles]), title.primary_region))
                     else:
-                        available_groupings.add((tuple([title.group_name]), title.primary_region))
+                        available_groupings[group].add((tuple([title.group_name]), title.primary_region))
 
             # Overwrite the current group with the deduped group
-            crossover_titles[group] = keep_titles
+            crossover_titles[group] = keep_these_titles
 
+        for group in crossover_titles:
             # Get all viable group combinations per region
-            candidates: list[tuple[tuple[str, ...], ...]] = []
+            candidates = []
 
             for i in range(1, len(contention_group_set)):
-                combos: list[tuple[tuple[str, ...], ...]] = list(combinations(sorted(available_groupings), i))  # type: ignore
+                combos = [x for x in combinations(sorted(available_groupings[group]), i)]
 
-                # TODO: This is the slow bit for large compilations. Needs optimization.
                 for combo in combos:
                     # Reformat the list to see if all the needed groups and regions are there.
                     full_combo: set[str] = set()
@@ -261,7 +369,7 @@ class ParentTools(object):
                         candidates.append(combo)
 
             if not candidates:
-                candidates = [tuple(available_groupings)] # type: ignore
+                candidates = [tuple(available_groupings[group])]
 
             # Find the combination with the fewest list elements, then get the groupings from it.
             # Make sure to take into account situations where multiple combinations are optimal
@@ -273,7 +381,7 @@ class ParentTools(object):
             title_count: int = 0
             title_length: int = 0
             candidate_length: int = 0
-            stage_1_candidates: list[tuple[tuple[str, ...], ...]] = []
+            stage_1_candidates = []
 
             for candidate in sorted(candidates):
                 title_length = len([item for sublist in [x[0] for x in candidate] for item in sublist])
@@ -298,11 +406,10 @@ class ParentTools(object):
                         stage_1_candidates.append(candidate)
 
             # Of the remaining candidates, select those with the longest grouping of titles
-            #
             # Find the value for the longest grouping of titles
             longest_grouping: int = max([len(item[0]) for sublist in [x for x in stage_1_candidates] for item in sublist])
 
-            stage_2_candidates: list[tuple[tuple[str, ...], ...]] = []
+            stage_2_candidates = []
 
             for candidate in stage_1_candidates:
                 if max([len(y[0]) for sublist in [x for x in candidates] for y in sublist]) == longest_grouping:
@@ -310,93 +417,103 @@ class ParentTools(object):
 
             # If there are still multiple candidates, make sure to always select the
             # same one by sorting and ordering
-            ideal_combination: tuple[tuple[str, ...], ...] = tuple(sorted([sorted(x, key=lambda y: (len, y)) for x in stage_2_candidates])[0])
+            ideal_combination = tuple(sorted([sorted(x, key=lambda y: (len, y)) for x in stage_2_candidates])[0])
 
             # Map the groupings back to the original titles
             final_titles: set[DatNode] = set()
 
             if ideal_combination:
+                if config.user_input.trace:
+                    report_on_match = TraceTools.trace_enable(set(crossover_titles[group]), config.user_input.trace)
+
                 for title in crossover_titles[group]:
                     if title.contains_titles:
-                        if (tuple([x.lower() for x in title.contains_titles]), title.primary_region) in ideal_combination: # type: ignore
+                        if (tuple([x.lower() for x in title.contains_titles]), title.primary_region) in ideal_combination:
                             final_titles.add(title)
-                            all_titles['retool_compilations'].append(title)
+                            all_titles['retool_compilations'].add(title)
                     else:
-                        if (tuple([title.group_name]), title.primary_region) in ideal_combination: # type: ignore
+                        if (tuple([title.group_name]), title.primary_region) in ideal_combination:
                             final_titles.add(title)
 
                             # Remove the original title
-                            remove_title: list[DatNode] = TitleTools.find_title(title.full_name, 'full', all_titles, set(), config, deep_search=True)
-                            all_titles[remove_title[0].group_name].remove(remove_title[0])
+                            remove_title: set[DatNode] = TitleTools.find_title(title.full_name, 'full', all_titles, set(), config, deep_search=True)
+                            all_titles[next(iter(remove_title)).group_name].remove(list(remove_title)[0])
 
                             # Add it to the compilations group
-                            all_titles['retool_compilations'].append(title)
+                            all_titles['retool_compilations'].add(title)
 
                 if report_on_match: TraceTools.trace_title('REF0072', [str(x) for x in ideal_combination], final_titles, keep_remove=False)
 
-        # Get the 1G1R titles and their groups
-        assigned_clones: set[DatNode] = set()
-        non_parents: list[DatNode] = [x for x in title_set if x.full_name not in [y.full_name for y in all_titles['retool_compilations']]]
+        # Assign clones
+        compilation_assigned: set[str] = set()
 
-        parents: list[DatNode] = sorted([x for x in all_titles['retool_compilations']], key=lambda x: x.full_name)
+        for group in original_title_comparison:
+            # Rename the virtual titles
+            for title in original_title_comparison[group]:
+                if ':V:' in title.full_name:
+                    title.full_name = re.sub('.*?• ', '', title.full_name)
 
-        for parent in parents:
-            parent_groups: list[str] = [TitleTools.get_group_name(x.lower(), config) for x in parent.contains_titles]
+            # Get the parents and clones
+            clones: set[DatNode] = set([x for x in original_title_comparison[group] if x.full_name not in [y.full_name for y in all_titles['retool_compilations']]])
+            parents: set[DatNode] = set([x for x in title_comparison[group]])
 
-            if not parent_groups: parent_groups = [parent.group_name]
+            for parent in parents:
+                report_clones: set[DatNode] = set()
 
-            def identify_clones(title: DatNode) -> None:
-                """ Determines if `title` is a clone or not.
+                for clone in clones:
+                    # Add compilations back that were removed in favor of individual titles
+                    if clone.contains_titles:
+                        if clone not in all_titles['retool_compilations']:
+                            all_titles['retool_compilations'].add(clone)
 
-                Args:
-                    `title` (DatNode): A title in DatNode form.
-                """
+                    if (
+                        clone.short_name == parent.short_name
+                        and clone.full_name != parent.full_name):
+                            clone.cloneof = parent.full_name
+                            report_clones.add(clone)
 
-                title_groups = [TitleTools.get_group_name(x.lower(), config) for x in title.contains_titles]
-                if not title_groups: title_groups = [title.group_name]
+                            # Locate titles this clone used to be a parent of
+                            if group in all_titles:
+                                for title in all_titles[group]:
+                                    if title.short_name == parent.short_name:
+                                        title.cloneof = parent.full_name
+                                        report_clones.add(title)
 
-                if (
-                    any(x in parent_groups for x in title_groups)
-                    and title not in assigned_clones
-                    and title.full_name != parent.full_name):
-                        title.cloneof = parent.full_name
-                        assigned_clones.add(title)
+                # Figure out compilations that were removed in favor of other compilations
+                for compilation in compilations_removed:
+                    if compilation.full_name not in compilation_assigned:
+                        for contains_title in [x.lower() for x in compilation.contains_titles]:
 
-            # Search the original title input for titles that should be clones
-            for group in all_titles:
-                for title in all_titles[group]:
-                    if group != 'retool_compilations':
-                        identify_clones(title)
+                            if compilation not in all_titles['retool_compilations']:
+                                all_titles['retool_compilations'].add(compilation)
 
-            # Search the extracted compilation titles for titles that should be clones
-            for title in non_parents:
-                identify_clones(title)
-                if title not in all_titles['retool_compilations']:
-                    all_titles['retool_compilations'].append(title)
+                            # Catch compilations that are already assigned to compilations in the parents
+                            if compilation.cloneof == parent.full_name:
+                                report_clones.add(compilation)
 
-        # Get clones in the required format for reporting
-        compilation_parents: list[DatNode] = sorted([x for x in all_titles['retool_compilations'] if not x.cloneof], key=lambda x: x.full_name)
+                            if contains_title == group:
+                                if compilation.cloneof not in [x.full_name for x in parents]:
+                                    compilation.cloneof = parent.full_name
 
-        for parent in sorted(compilation_parents, key=lambda x: x.full_name):
-            compilation_clones: set[DatNode] = set([x for x in assigned_clones if x.cloneof == parent.full_name])
+                                compilation_assigned.add(compilation.full_name)
+                                report_clones.add(compilation)
 
-            # Set up title tracking
-            report_on_match = False
+                # Set up a trace
+                report_on_match = False
 
-            if config.user_input.trace:
-                report_on_match = TraceTools.trace_enable(set([parent]) | set(compilation_clones), config.user_input.trace)
+                if config.user_input.trace:
+                    report_on_match = TraceTools.trace_enable(set(parents) | report_clones, config.user_input.trace)
 
-            if report_on_match:
-                TraceTools.trace_title('REF0073', [], keep_remove=False)
+                if report_on_match:
+                    TraceTools.trace_title('REF0073', [], keep_remove=False)
+                    eprint(f'+ {Font.bold}{parent.full_name}{Font.end} is the 1G1R title{Font.end}')
 
-                eprint(f'+ {Font.bold}{parent.full_name}{Font.end} is the 1G1R title{Font.end}')
+                    for report_clone in sorted(report_clones, key=lambda x: x.full_name):
+                        eprint(f'- {Font.disabled}{Font.bold}{report_clone.full_name}{Font.end}{Font.disabled} is a clone of {Font.bold}{report_clone.cloneof}{Font.end}')
 
-                for clone in sorted(compilation_clones, key=lambda x: x.full_name):
-                    eprint(f'- {Font.disabled}{Font.bold}{clone.full_name}{Font.end}{Font.disabled} is a clone of {Font.bold}{clone.cloneof}{Font.end}')
-
-                eprint()
-                eprint(f'\n{Font.disabled}Press enter to continue{Font.end}')
-                input()
+                    eprint()
+                    eprint(f'\n{Font.disabled}Press enter to continue{Font.end}')
+                    input()
 
         return all_titles
 
@@ -478,7 +595,7 @@ class ParentTools(object):
             For example, if a user has a language order of En > Fr > De > Zh > and the
             following titles are passed in:
 
-            • Title 1 (En,Fr,De)\n
+            • Title 1 (En,Fr,De)
             • Title 2 (En,Fr,Zh)
 
             With `first_time` set to `True`, both titles are selected, as Retool finds
@@ -494,11 +611,20 @@ class ParentTools(object):
         """
 
         # Check if a system config is in play
-        language_order: list[str] = config.language_order_user
+        language_order: list[str] = []
 
-        if config.system_language_order_user:
-            if {'override': 'true'} in config.system_language_order_user:
-                language_order = [str(x) for x in config.system_language_order_user if 'override' not in x]
+        for region in config.region_order_user:
+            language_order.extend(config.languages_filter[region])
+
+        # Make sure language entries are unique
+        language_order = reduce(lambda x,y: x + [y] if not y in x else x, language_order, [])
+
+        if config.languages_filter:
+            language_order = config.language_order_user
+
+            if config.system_language_order_user:
+                if {'override': 'true'} in config.system_language_order_user:
+                    language_order = [str(x) for x in config.system_language_order_user if 'override' not in x]
 
         # Select titles based on language
         remove_titles: set[DatNode] = set()
@@ -756,7 +882,7 @@ class ParentTools(object):
 
 
     @staticmethod
-    def choose_multi_regions(title_set: set[DatNode], user_region_order: list[str], report_on_match: bool) -> set[DatNode]:
+    def choose_multi_regions(title_set: set[DatNode], user_region_order: list[str], world_is_usa: bool, report_on_match: bool) -> set[DatNode]:
         """ Compares any two titles from a set of DatNodes against the user region order.
         Preferences titles with more regions and that are higher up the region priority.
 
@@ -777,23 +903,51 @@ class ParentTools(object):
                 title_1.short_name == title_2.short_name
                 and title_1 in title_set
                 and title_2 in title_set):
-                for region in user_region_order:
+                    if world_is_usa:
+                        if (
+                            ((
+                                title_1.primary_region == 'World'
+                                and title_2.primary_region == 'USA'
+                                )
+                            or (
+                                title_1.primary_region == 'USA'
+                                and title_2.primary_region == 'World'
+                            ))):
+                                continue
+
+                    # An exception for compilation titles -- we only want to check the
+                    # primary region if a compilation is being compared against an
+                    # individual title
                     if (
-                        region in title_1.regions
-                        and region not in title_2.regions):
-                            if title_2 in title_set:
-                                if report_on_match: TraceTools.trace_title('REF0030', [f'({", ".join(title_1.regions)}) {title_1.full_name}', f'({", ".join(title_2.regions)}) {title_2.full_name}{Font.end}'], keep_remove=True)
+                        (title_1.contains_titles and not title_2.contains_titles)
+                        or (title_2.contains_titles and not title_1.contains_titles)):
+                        if title_1.region_priority < title_2.region_priority:
+                            if report_on_match: TraceTools.trace_title('REF0094', [f'({title_1.region_priority}) {title_1.full_name}', f'({title_2.region_priority}) {title_2.full_name}{Font.end}'], keep_remove=True)
 
-                                remove_titles.add(title_2)
-                                break
-                    elif (
-                        region in title_2.regions
-                        and region not in title_1.regions):
-                            if title_1 in title_set:
-                                if report_on_match: TraceTools.trace_title('REF0031', [f'({", ".join(title_2.regions)}) {title_2.full_name}', f'({", ".join(title_1.regions)}) {title_1.full_name}{Font.end}'], keep_remove=True)
+                            remove_titles.add(title_2)
 
-                                remove_titles.add(title_1)
-                                break
+                        if title_2.region_priority < title_1.region_priority:
+                            if report_on_match: TraceTools.trace_title('REF0095', [f'({title_2.region_priority}) {title_2.full_name}', f'({title_1.region_priority}) {title_1.full_name}{Font.end}'], keep_remove=True)
+
+                            remove_titles.add(title_1)
+                    else:
+                        for region in user_region_order:
+                            if (
+                                region in title_1.regions
+                                and region not in title_2.regions):
+                                    if title_2 in title_set:
+                                        if report_on_match: TraceTools.trace_title('REF0030', [f'({", ".join(title_1.regions)}) {title_1.full_name}', f'({", ".join(title_2.regions)}) {title_2.full_name}{Font.end}'], keep_remove=True)
+
+                                        remove_titles.add(title_2)
+                                        break
+                            elif (
+                                region in title_2.regions
+                                and region not in title_1.regions):
+                                    if title_1 in title_set:
+                                        if report_on_match: TraceTools.trace_title('REF0031', [f'({", ".join(title_2.regions)}) {title_2.full_name}', f'({", ".join(title_1.regions)}) {title_1.full_name}{Font.end}'], keep_remove=True)
+
+                                        remove_titles.add(title_1)
+                                        break
 
         for title in remove_titles:
             if title in title_set:
@@ -1252,7 +1406,7 @@ class ParentTools(object):
 
 
     @staticmethod
-    def detect_parent_clone_clash(processed_titles: dict[str, list[DatNode]], config: Config) -> dict[str, list[DatNode]]:
+    def detect_parent_clone_clash(processed_titles: dict[str, set[DatNode]], config: Config) -> dict[str, set[DatNode]]:
         """ Makes sure a title isn't assigned as both a parent and a clone. Most of the
         time this isn't a big deal, and has been caused by a combination of user region
         and language settings, available titles, and using supersets in clone lists. The
@@ -1264,17 +1418,17 @@ class ParentTools(object):
         list errors, just in case there's an actual problem that needs to be chased up.
 
         Args:
-            `processed_titles (dict[str, list[DatNode]])`: A work in progress dictionary
+            `processed_titles (dict[str, set[DatNode]])`: A work in progress dictionary
             of DatNodes, originally populated from the input DAT and actively being worked
             on by Retool.
             `config (Config)`: The Retool config object.
 
         Returns:
-            `dict[str, list[DatNode]]`: A dictionary of DatNodes that have had
+            `dict[str, set[DatNode]]`: A dictionary of DatNodes that have had
             parent/clone errors corrected.
         """
 
-        parent_clash: dict[str, str|set[str]] = {}
+        parent_clash: dict[str, Any] = {}
 
         # Find all parent titles
         for titles in processed_titles.values():
@@ -1390,23 +1544,23 @@ class ParentTools(object):
 
 
     @staticmethod
-    def choose_parent(processed_titles: dict[str, list[DatNode]], config: Config) -> dict[str, list[DatNode]]:
+    def choose_parent(processed_titles: dict[str, set[DatNode]], config: Config) -> dict[str, set[DatNode]]:
         """ Sets up parent selection using either single or multiprocessor, then executes
         parent selection in one of those modes.
 
         Args:
-            `processed_titles (dict[str, list[DatNode]])`: A work in progress dictionary
+            `processed_titles (dict[str, set[DatNode]])`: A work in progress dictionary
             of DatNodes, originally populated from the input DAT and actively being worked
             on by Retool.
             `config (Config)`: The Retool config object.
 
         Returns:
-            `dict[str, list[DatNode]]`: A dictionary of DatNodes with 1G1R processing
+            `dict[str, set[DatNode]]`: A dictionary of DatNodes with 1G1R processing
             complete.
         """
 
         # Don't enable the progress bar if the user is doing a trace
-        if config.user_input.trace:
+        if config.user_input.trace or config.user_input.single_cpu:
             alive_bar_context = nullcontext()
             eprint('* Selecting 1G1R titles...')
         else:
@@ -1425,7 +1579,7 @@ class ParentTools(object):
         with alive_bar_context as bar:
             # Take supersets and compilations out, as they mess up multiprocessing with
             # non-deterministic results.
-            superset_processed_titles: dict[str, list[DatNode]] = {}
+            superset_processed_titles: dict[str, set[DatNode]] = {}
             compilations: set[DatNode] = set()
 
             for group, titles in processed_titles.items():
@@ -1447,41 +1601,41 @@ class ParentTools(object):
                 if not processed_titles[compilation_title.group_name]:
                     del processed_titles[compilation_title.group_name]
 
-            if not (config.user_input.trace):
+            if not (config.user_input.trace or config.user_input.single_cpu):
                 bar() # type: ignore
 
-            # Define choose_parent_main as the function to run on multiple processors,
+            # Define choose_parent_process as the function to run on multiple processors,
             # and use a partial to prepush arg values into it as a sort of prepackaged
             # function so we can use it in a map later.
             #
             # You can't set a kwarg name on a partial or the multiprocessing breaks, so
             # only the value for is_superset_titles is passed in.
-            func = partial(ParentTools.choose_parent_process, config, set(), False)
+            func = partial(ParentTools.choose_parent_process, config, {}, False, False)
 
-            # Need to use a set, not a dictionary for multiprocessing
-            parent_titles: Any
+            # Need to use an iterable, not a dictionary for multiprocessing
+            parent_titles: list[dict[str, set[DatNode]]] = []
 
             if config.user_input.trace or config.user_input.single_cpu:
                 parent_titles = list(map(func, processed_titles.values()))
             else:
                 with InterruptiblePool(int(str(os.cpu_count()))) as p:
-                    parent_titles = (p.map(func, processed_titles.values()))
+                    parent_titles = p.map(func, processed_titles.values())
 
-            if not (config.user_input.trace):
+            if not (config.user_input.trace or config.user_input.single_cpu):
                 bar() # type: ignore
 
             # Now process superset groups
-            potential_parents: dict[str, list[DatNode]] = {}
+            potential_parents: dict[str, set[DatNode]] = {}
 
-            func = partial(ParentTools.choose_parent_process, config, potential_parents, True)
+            func = partial(ParentTools.choose_parent_process, config, potential_parents, True, False)
 
             superset_parent_titles = list(map(func, superset_processed_titles.values()))
 
-            if not (config.user_input.trace):
+            if not (config.user_input.trace or config.user_input.single_cpu):
                 bar() # type: ignore
 
             # Get the set back into the required dictionary form
-            temp_dict: dict[str, list[DatNode]] = {}
+            temp_dict: dict[str, set[DatNode]] = {}
 
             for parent_title in parent_titles:
                 for key, values in parent_title.items():
@@ -1512,7 +1666,7 @@ class ParentTools(object):
             # Now process compilations
             processed_titles = ParentTools.choose_compilations(compilations, processed_titles, config)
 
-            if not (config.user_input.trace):
+            if not (config.user_input.trace or config.user_input.single_cpu):
                 bar() # type: ignore
 
         eprint('\033[F\033[K* Selecting 1G1R titles... done\n', end='')
@@ -1521,7 +1675,7 @@ class ParentTools(object):
 
 
     @staticmethod
-    def choose_parent_process(config: Config, potential_parents: dict[str, set[DatNode]], is_superset_titles: bool, processed_titles: dict[str, list[DatNode]]) -> dict[str, list[DatNode]]:
+    def choose_parent_process(config: Config, potential_parents: dict[str, set[DatNode]], is_superset_titles: bool, is_compilations: bool, title_set: set[DatNode]) -> dict[str, set[DatNode]]:
         """ Determines a parent, given a dictionary of DatNode objects.
 
         This is an evolution of the existing No-intro tagging order.
@@ -1532,33 +1686,39 @@ class ParentTools(object):
             contains non-finalized parents. Only needed when processing supersets, as
             supersets need extra processing to make the parents deterministic.
             `is_superset_titles (bool)`: Set to `True` if processing supersets.
-            `processed_titles (dict[str, list[DatNode]])`: A work in progress dictionary
-            of DatNodes, originally populated from the input DAT and actively being worked
-            on by Retool.
+            `title_set (set[DatNode])`: A list of DatNodes to choose a parent from.
 
         Returns:
-            `dict[str, list[DatNode]]`: A dictionary of DatNodes with parents selected.
+            `dict[str, set[DatNode]]`: A dictionary of DatNodes with parents selected.
         """
 
         # Check if a system config is in play
-        language_order: list[str] = config.language_order_user
-        region_order: list[str] = config.region_order_user
+        language_order: list[str] = []
 
-        if config.system_language_order_user:
-            if {'override': 'true'} in config.system_language_order_user:
-                language_order = [str(x) for x in config.system_language_order_user if 'override' not in x]
+        for region in config.region_order_user:
+            language_order.extend(config.languages_filter[region])
+
+        # Make sure language entries are unique
+        language_order = reduce(lambda x,y: x + [y] if not y in x else x, language_order, [])
+
+        if config.languages_filter:
+            language_order = config.language_order_user
+
+            if config.system_language_order_user:
+                if {'override': 'true'} in config.system_language_order_user:
+                    language_order = [str(x) for x in config.system_language_order_user if 'override' not in x]
+
+        region_order: list[str] = config.region_order_user
 
         if config.system_region_order_user:
             if {'override': 'true'} in config.system_region_order_user:
                 region_order = [str(x) for x in config.system_region_order_user if 'override' not in x]
 
         # Do some manipulation to convert from set to the expected dictionary
-        group_name = next(iter(processed_titles)).group_name # type: ignore[attr-defined]
+        group_name = next(iter(title_set)).group_name
 
-        titles: set[DatNode] = set(processed_titles) # type: ignore[arg-type]
-
-        original_titles: dict[str, list[DatNode]] = {group_name: processed_titles} # type: ignore[dict-item]
-        processed_titles = {group_name: processed_titles} # type: ignore[dict-item]
+        original_titles: dict[str, set[DatNode]] = {group_name: title_set}
+        processed_titles: dict[str, set[DatNode]] = {group_name: title_set}
 
         cross_region_parent_titles: set[DatNode] = set()
 
@@ -1566,23 +1726,28 @@ class ParentTools(object):
         report_on_match: bool = False
 
         if config.user_input.trace:
-            report_on_match = TraceTools.trace_enable(titles, config.user_input.trace)
+            report_on_match = TraceTools.trace_enable(set(title_set), config.user_input.trace)
 
         if report_on_match:
-            eprint(f'\n\n{Font.heading_bold}Stage: Parent selection\nGroup: {group_name}{Font.end}')
+            if is_superset_titles:
+                eprint(f'\n\n{Font.heading_bold}Stage: Superset parent selection\nGroup: {group_name}{Font.end}')
+            elif is_compilations:
+                eprint(f'\n\n{Font.heading_bold}Stage: Compilation parent selection\nGroup: {group_name}{Font.end}')
+            else:
+                eprint(f'\n\n{Font.heading_bold}Stage: Parent selection\nGroup: {group_name}{Font.end}')
 
         highest_language_priority: int = 0
         top_language: str = ''
 
         # Find the highest priority languages in the set, taking short names into account
-        short_names: set[str] = set([x.short_name for x in titles])
+        short_names: set[str] = set([x.short_name for x in title_set])
         short_name_groups: list[tuple[str, list[DatNode]]] = []
         short_name_titles: dict[str, list[DatNode]] = {}
         short_name_top_languages: set[tuple[str, int, str]] = set()
 
         # Filter out bad dumps and preproduction titles
         for short_name in short_names:
-            for title in titles:
+            for title in title_set:
                 if (
                     title.short_name == short_name
                     and not re.search(config.regex.bad, title.full_name)):
@@ -1600,7 +1765,7 @@ class ParentTools(object):
 
             # Add preproduction titles back in if they are the only ones in the set
             if not short_name_titles:
-                for title in titles:
+                for title in title_set:
                     if title.short_name == short_name:
                         for regex_pattern in config.regex.preproduction:
                                 if re.search(regex_pattern, title.full_name):
@@ -1609,10 +1774,9 @@ class ParentTools(object):
                                     if title not in short_name_titles[short_name]:
                                         short_name_titles[short_name].append(title)
 
-
             # Add bad dumps back in if they are the only ones in the set
             if not short_name_titles:
-                for title in titles:
+                for title in title_set:
                     if (
                         title.short_name == short_name
                         and re.search(config.regex.bad, title.full_name)):
@@ -1639,7 +1803,7 @@ class ParentTools(object):
 
         # Title comparisons per region
         for region in region_order:
-            parent_titles: set[DatNode] = set([x for x in titles if region in x.primary_region])
+            parent_titles: set[DatNode] = set([x for x in title_set if region in x.primary_region])
 
             if (
                 parent_titles
@@ -1714,7 +1878,7 @@ class ParentTools(object):
                     if report_on_match: TraceTools.trace_title('REF0007', [group_name], parent_titles, keep_remove=False)
 
                     # 9) Preference titles with more regions that are higher up the region priority
-                    if len(parent_titles) > 1: parent_titles = ParentTools.choose_multi_regions(parent_titles, region_order, report_on_match)
+                    if len(parent_titles) > 1: parent_titles = ParentTools.choose_multi_regions(parent_titles, region_order, world_is_usa = False, report_on_match = report_on_match)
 
                     if report_on_match: TraceTools.trace_title('REF0008', [group_name], parent_titles, keep_remove=False)
 
@@ -1776,7 +1940,8 @@ class ParentTools(object):
 
                     # 18) As a fail-safe, do a string comparison. This compares character by character,and when
                     # a title has a higher comparative character than another title, it wins.
-                    if len(parent_titles) > 1: parent_titles = ParentTools.choose_highest_string(parent_titles, report_on_match)
+                    if not is_compilations:
+                        if len(parent_titles) > 1: parent_titles = ParentTools.choose_highest_string(parent_titles, report_on_match)
 
                     if report_on_match: TraceTools.trace_title('REF0059', [group_name], parent_titles, keep_remove=False)
 

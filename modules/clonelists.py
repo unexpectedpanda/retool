@@ -61,19 +61,19 @@ class CloneListTools(object):
 
 
     @staticmethod
-    def categories(processed_titles: dict[str, list[DatNode]], config: Config, input_dat: Dat) -> dict[str, list[DatNode]]:
+    def categories(processed_titles: dict[str, set[DatNode]], config: Config, input_dat: Dat) -> dict[str, set[DatNode]]:
         """ Applies new categories to a dictionary of DatNode titles, defined by the
         related clone list.
 
         Args:
-            `processed_titles (dict[str, list[DatNode]])`: A work in progress dictionary
+            `processed_titles (dict[str, set[DatNode]])`: A work in progress dictionary
             of DatNodes, originally populated from the input DAT and actively being worked
             on by Retool.
             `config (Config)`: The Retool config object.
             `input_dat (Dat)`: The Retool input_dat object.
 
         Returns:
-            `dict[str, list[DatNode]]`: A dictionary of DatNodes with new categories
+            `dict[str, set[DatNode]]`: A dictionary of DatNodes with new categories
             assigned based on the related clone list.
         """
 
@@ -130,7 +130,7 @@ class CloneListTools(object):
 
                 # Look up the title in the dictionary, then process the required changes
                 if name_type == 'regex':
-                    valid_regex:list[str] = regex_test([value['searchTerm']], 'categories', is_user_filter=False)
+                    valid_regex: list[str] = regex_test([value['searchTerm']], 'categories', 'clone list')
 
                     if not valid_regex:
                         continue
@@ -251,19 +251,19 @@ class CloneListTools(object):
 
 
     @staticmethod
-    def mias(processed_titles: dict[str, list[DatNode]], config: Config, input_dat: Dat) -> dict[str, list[DatNode]]:
+    def mias(processed_titles: dict[str, set[DatNode]], config: Config, input_dat: Dat) -> dict[str, set[DatNode]]:
         """ Applies MIA tags to a dictionary of DatNode titles, defined by the related
         clone list.
 
         Args:
-            `processed_titles (dict[str, list[DatNode]])`: A work in progress dictionary
+            `processed_titles (dict[str, set[DatNode]])`: A work in progress dictionary
             of DatNodes, originally populated from the input DAT and actively being worked
             on by Retool.
             `config (Config)`: The Retool config object.
             `input_dat (Dat)`: The Retool input_dat object.
 
         Returns:
-            `dict[str, list[DatNode]]`: A dictionary of DatNodes with MIA tags applied
+            `dict[str, set[DatNode]]`: A dictionary of DatNodes with MIA tags applied
             based on the related clone list.
         """
 
@@ -344,20 +344,20 @@ class CloneListTools(object):
 
 
     @staticmethod
-    def overrides(processed_titles: dict[str, list[DatNode]], config: Config, input_dat: Dat) -> dict[str, list[DatNode]]:
+    def overrides(processed_titles: dict[str, set[DatNode]], config: Config, input_dat: Dat) -> dict[str, set[DatNode]]:
         """ Overrides the default groups and short names assigned to titles by Retool as
         defined by the related clone list. Overridden groups can either be applied
         directly, or conditionally based on the user's region order.
 
         Args:
-            `processed_titles (dict[str, list[DatNode]])`: A work in progress dictionary
+            `processed_titles (dict[str, set[DatNode]])`: A work in progress dictionary
             of DatNodes, originally populated from the input DAT and actively being worked
             on by Retool.
             `config (Config)`: The Retool config object.
             `input_dat (Dat)`: The Retool input_dat object.
 
         Returns:
-            `dict[str, list[DatNode]]`: A dictionary of DatNodes with groups overriden as
+            `dict[str, set[DatNode]]`: A dictionary of DatNodes with groups overriden as
             defined by the related clone list.
         """
 
@@ -415,7 +415,7 @@ class CloneListTools(object):
 
                 # Look up the title in the dictionary, then process the required changes
                 if name_type == 'regex':
-                    valid_regex:list[str] = regex_test([value['searchTerm']], 'overrides', is_user_filter=False)
+                    valid_regex:list[str] = regex_test([value['searchTerm']], 'overrides', 'clone list')
 
                     if not valid_regex:
                         continue
@@ -630,7 +630,7 @@ class CloneListTools(object):
 
                         if title in processed_titles[title.group_name]:
                             if new_group not in processed_titles:
-                                processed_titles[new_group] = []
+                                processed_titles[new_group] = set()
 
                             processed_titles[title.group_name].remove(title)
 
@@ -644,7 +644,7 @@ class CloneListTools(object):
                             if priority:
                                 title.clonelist_priority = priority
 
-                            processed_titles[new_group].append(title)
+                            processed_titles[new_group].add(title)
                     else:
                         if report_on_match:
                             eprint(f'  CONDITION is false, group remains as: {Font.bold}{title.group_name}{Font.end}')
@@ -689,14 +689,14 @@ class CloneListTools(object):
 
 
     @staticmethod
-    def removes(processed_titles: dict[str, list[DatNode]], config: Config, input_dat: Dat, removes: Removes) -> dict[str, list[DatNode]]:
+    def removes(processed_titles: dict[str, set[DatNode]], config: Config, input_dat: Dat, removes: Removes) -> dict[str, set[DatNode]]:
         """ Removes titles from a dictionary of DatNodes, as defined by the related clone
         list. As a general rule, removes are a nuclear option, as they completely take the
         title out of contention, destroying any relationships set up by Retool. Another
         method should be attempted first.
 
         Args:
-            `processed_titles (dict[str, list[DatNode]])`: A work in progress dictionary
+            `processed_titles (dict[str, set[DatNode]])`: A work in progress dictionary
             of DatNodes, originally populated from the input DAT and actively being worked
             on by Retool.
             `config (Config)`: The Retool config object.
@@ -706,7 +706,7 @@ class CloneListTools(object):
             output files generated by Retool.
 
         Returns:
-            `dict[str, list[DatNode]]`: A dictionary of DatNodes with titles removed as
+            `dict[str, set[DatNode]]`: A dictionary of DatNodes with titles removed as
             defined by the related clone list.
         """
 
@@ -780,7 +780,7 @@ class CloneListTools(object):
 
 
     @staticmethod
-    def update_clonelists_metadata(config: Config, gui_input: UserInput, no_exit: bool = False) -> None:
+    def update_clonelists_metadata(config: Config, gui_input: UserInput|None, no_exit: bool = False) -> None:
         """ Downloads the latest clone lists and support files
 
         Args:
@@ -916,7 +916,7 @@ class CloneListTools(object):
                 sys.exit()
 
     @staticmethod
-    def variants(processed_titles: dict[str, list[DatNode]], config: Config, input_dat: Dat, is_includes: bool = False) -> dict[str, list[DatNode]]:
+    def variants(processed_titles: dict[str, set[DatNode]], config: Config, input_dat: Dat, is_includes: bool = False) -> dict[str, set[DatNode]]:
         """ Processes a dictionary of DatNodes and groups titles together that are the
         same, but have different names as defined by the related clone list.
 
@@ -924,7 +924,7 @@ class CloneListTools(object):
         Title, The (USA) is equivalent to Title, Le (France).
 
         Args:
-            `processed_titles (dict[str, list[DatNode]])`: A work in progress dictionary
+            `processed_titles (dict[str, set[DatNode]])`: A work in progress dictionary
             of DatNodes, originally populated from the input DAT and actively being worked
             on by Retool.
             `config (Config)`: The Retool config object.
@@ -934,7 +934,7 @@ class CloneListTools(object):
             `False`.
 
         Returns:
-            `dict[str, list[DatNode]]`: A dictionary of DatNodes that has had all like
+            `dict[str, set[DatNode]]`: A dictionary of DatNodes that has had all like
             titles grouped together as defined by the related clone list.
         """
 
@@ -982,6 +982,7 @@ class CloneListTools(object):
                             input()
                     continue
 
+
                 def process_variants(variant_titles: list[dict[str, Any]], variant_type: str, report_on_match: bool) -> None:
                     """ Looks up a variant from a clone list and modifies its DatNode entry
                     accordingly.
@@ -994,6 +995,9 @@ class CloneListTools(object):
                         `report_on_match (bool)`: Whether Retool needs to report any
                         titles being traced.
                     """
+
+                    variants: list[DatNode] = []
+
                     for variant_title in variant_titles:
                         if 'searchTerm' not in variant_title:
                             printwrap(
@@ -1023,10 +1027,10 @@ class CloneListTools(object):
                             name_type = 'short'
 
                         # Look up the title in the dictionary, then process the required changes
-                        found_titles: list[DatNode]
+                        found_titles: set[DatNode] = set()
 
                         if name_type == 'regex':
-                            valid_regex:list[str] = regex_test([variant_name], 'variants', is_user_filter=False)
+                            valid_regex: list[str] = regex_test([variant_name], 'variants', 'clone list')
 
                             if not valid_regex:
                                 continue
@@ -1045,7 +1049,7 @@ class CloneListTools(object):
                         new_group_name = new_group_name.lower()
 
                         if new_group_name not in processed_titles:
-                            processed_titles[new_group_name] = []
+                            processed_titles[new_group_name] = set()
 
                         # If the title's not found in the DAT, add it to missing_titles,
                         # otherwise add it to the delete list, then move it to the new
@@ -1074,8 +1078,6 @@ class CloneListTools(object):
                                             variant_type == 'title'
                                             or variant_type == 'superset'):
                                                 new_title: DatNode = copy.deepcopy(title)
-                                                new_title.group_name = new_group_name
-                                                new_title.short_name = value['group'].lower()
 
                                                 if 'priority' in variant_title:
                                                     new_title.clonelist_priority = variant_title['priority']
@@ -1085,9 +1087,11 @@ class CloneListTools(object):
                                                 if variant_type == 'superset':
                                                     new_title.is_superset = True
 
-                                                processed_titles[new_group_name].append(new_title)
+                                                variants.append(new_title)
 
-                                                delete_titles.add((title, old_group_name))
+                                                for old_group_name in old_group_names:
+                                                    if title in processed_titles[old_group_name]:
+                                                        delete_titles.add((title, old_group_name))
 
                                         elif variant_type =='compilation':
                                             for compilation_title in processed_titles[old_group_name]:
@@ -1102,6 +1106,16 @@ class CloneListTools(object):
                                                         clonelist_priority = 1
 
                                                     compilation_title.contains_titles[value['group']] = {"position": title_position, "priority": clonelist_priority}
+
+                                                    if 'compilationPriority' in variant_title:
+                                                        compilation_title.clonelist_priority = variant_title['compilationPriority']
+
+                    # Set these variant properties after the processing, to make sure they
+                    # don't mess with title look ups
+                    for variant in variants:
+                        variant.group_name = new_group_name
+                        variant.short_name = value['group'].lower()
+                        processed_titles[new_group_name].add(variant)
 
                 if 'titles' in value:
                     process_variants(value['titles'], 'title', report_on_match)

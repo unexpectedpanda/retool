@@ -58,6 +58,16 @@ def add_list_items(list_widget: qtw.QListWidget, dat_details: dict[str, dict[str
                     dat_details[pathlib.Path(file).name] = {'system_name': get_system_name(str(pathlib.Path(file)), config), 'filepath': str(pathlib.Path(file))}
                     list_widget.addItem(file.name)
 
+    elif input_type == 'dropped':
+        response = list(list_widget.dropped_files) # type: ignore
+
+        for file in response:
+            if pathlib.Path(file).name not in file_list:
+                file_list.append(pathlib.Path(file).name)
+                dat_details[pathlib.Path(file).name] = {'system_name': get_system_name(str(pathlib.Path(file)), config), 'filepath': str(pathlib.Path(file))}
+                list_widget.addItem(pathlib.Path(file).name)
+
+
     # Remove placeholder text from the list widget
     if response[0]:
         try:

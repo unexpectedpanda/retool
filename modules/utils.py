@@ -247,7 +247,7 @@ def printwrap(string: str, style: str = '') -> None:
             f'' + string))
 
 
-def regex_test(regex_list: list[str], regex_origin: str, is_user_filter: bool = True) -> list[str]:
+def regex_test(regex_list: list[str], regex_origin: str, type: str) -> list[str]:
     """ Checks for valid regexes.
 
     Args:
@@ -255,9 +255,8 @@ def regex_test(regex_list: list[str], regex_origin: str, is_user_filter: bool = 
         `regex_origin (str)`: The origin of the regex filters, included in messages to the
         user when a regex is found to be invalid. Usually `categories`, `overrides`,
         `variants`, `global exclude`, `global include`, `system exclude`, `system include`.
-        `is_user_filter (bool, optional)`: Whether or not a user filter is being tested.
-        Changes the messages to the user if a regex is found to be invalid. Defaults to
-        `True`.
+        `type (str)`: Whether the regex comes from a `user filter`, `clone list`, or
+        `trace`.
 
     Returns:
         `list[str]`: The remaining valid regexes as strings.
@@ -268,9 +267,12 @@ def regex_test(regex_list: list[str], regex_origin: str, is_user_filter: bool = 
     for item in list_temp:
         if (
             item.startswith('/')
-            or not is_user_filter):
+            or type != 'user filter'):
                 try:
-                    re.compile(item[1:])
+                    if item.startswith('/'):
+                        re.compile(item[1:])
+                    else:
+                        re.compile(item)
                     regex_valid: bool = True
                 except:
                     regex_valid = False
@@ -279,13 +281,19 @@ def regex_test(regex_list: list[str], regex_origin: str, is_user_filter: bool = 
                     regex_list.remove(item)
 
     if list_temp != regex_list:
-        if is_user_filter:
+        if type == 'user filter':
             eprint(f'{Font.warning}\n* The following {regex_origin} regex filters are invalid and will be skipped:\n')
-        else:
+        elif type == 'clone list':
             eprint(f'{Font.warning}\n* The following regex in the clone list\'s {regex_origin} object is invalid and will be skipped:\n')
+        elif type == 'trace':
+            eprint(f'{Font.warning}\n* The following regex in the requested trace is invalid:\n')
 
         for invalid_regex in [x for x in list_temp if x not in regex_list]:
             eprint(f'  * {invalid_regex}')
+
+        if type == 'trace':
+            eprint(f'\n{Font.end}Exiting...\n')
+            sys.exit()
 
         eprint(f'{Font.end}')
 

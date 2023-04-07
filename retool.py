@@ -13,6 +13,15 @@ import sys
 import time
 import traceback
 
+from modules.utils import eprint
+
+# Require at least Python 3.10
+try:
+    assert sys.version_info >= (3, 10)
+except:
+    eprint('\nYou need Python 3.10 or higher to run Retool.')
+    sys.exit()
+
 from copy import deepcopy
 from typing import Any
 
@@ -26,15 +35,12 @@ from modules.input import check_input, UserInput
 from modules.output import WriteFiles
 from modules.stats import get_parent_clone_stats, report_stats, Stats
 from modules.titletools import IncludeExcludeTools, Removes
-from modules.utils import eprint, ExitRetool, Font, old_windows, printwrap
+from modules.utils import ExitRetool, Font, old_windows, printwrap
 # from modules.perftest import perf_test
-
-# Require at least Python 3.10
-assert sys.version_info >= (3, 10)
 
 __version__: str = str(f'{VERSION_MAJOR}.{VERSION_MINOR}')
 
-def main(gui_input: UserInput = None) -> None:
+def main(gui_input: UserInput|None = None) -> None:
     """ The main Retool function.
 
     Args:
@@ -131,26 +137,24 @@ def main(gui_input: UserInput = None) -> None:
             ):
                 printwrap(
                     f'{Font.warning_bold}Warning:{Font.warning} Clone lists or metadata '
-                    'are missing, Retool is more accurate with them. Do you want to '
-                    f'download them? (y/n) > {Font.end}', 'no_indent')
+                    'files are missing, Retool is more accurate with them. Do you want '
+                    f'to download them? (y/n) > {Font.end}', 'no_indent')
 
                 download_updates = input()
 
             if download_updates.lower() == 'y':
                 CloneListTools.update_clonelists_metadata(config, gui_input, no_exit=True)
 
-
-
     # Get the input file or folder
     input_type: str
     dat_files: tuple[str, ...]
 
     if pathlib.Path(config.user_input.input_file_name).is_dir():
-        dat_files = tuple(pathlib.Path(config.user_input.input_file_name).glob('*.dat'))
+        dat_files = tuple([str(x) for x in pathlib.Path(config.user_input.input_file_name).glob('*.dat')])
         input_type = 'folder'
         eprint('Processing folder...')
     elif '*' in str(config.user_input.input_file_name):
-        dat_files = tuple(pathlib.Path(config.user_input.input_file_name).parent.glob(pathlib.Path(config.user_input.input_file_name).name))
+        dat_files = tuple([str(x) for x in pathlib.Path(config.user_input.input_file_name).parent.glob(pathlib.Path(config.user_input.input_file_name).name)])
         input_type = 'wildcard'
     else:
         dat_files = tuple([str(pathlib.Path(config.user_input.input_file_name).resolve())])
@@ -180,7 +184,7 @@ def main(gui_input: UserInput = None) -> None:
             input_dat: Dat = process_dat(dat_file, input_type, gui_input, config)
 
             if not input_dat.end:
-                processed_titles: dict[str, list[DatNode]] = deepcopy(input_dat.contents_dict)
+                processed_titles: dict[str, set[DatNode]] = deepcopy(input_dat.contents_dict)
 
                 # Record the original title count in the DAT
                 config.stats.original_count = len([val for lst in processed_titles.values() for val in lst])
@@ -213,7 +217,7 @@ def main(gui_input: UserInput = None) -> None:
                 # Process user includes
                 if not config.user_input.no_filters:
                     if config.global_include or config.system_include:
-                        original_titles_with_clonelist: dict[str, list[DatNode]] = CloneListTools.variants(input_dat.contents_dict, config, input_dat, is_includes=True)
+                        original_titles_with_clonelist: dict[str, set[DatNode]] = CloneListTools.variants(input_dat.contents_dict, config, input_dat, is_includes=True)
                         processed_titles = IncludeExcludeTools.includes(processed_titles, input_dat.contents_dict, original_titles_with_clonelist, config, removes)
 
                 if not config.user_input.trace:

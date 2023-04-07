@@ -260,6 +260,9 @@ class Ui_Settings(object):
         palette4.setBrush(QPalette.Disabled, QPalette.WindowText, brush2)
         self.labelURLError.setPalette(palette4)
         self.labelURLError.setLocale(QLocale(QLocale.English, QLocale.UnitedStates))
+        QWidget.setTabOrder(self.pushButtonReset, self.buttonChooseCloneListsLocation)
+        QWidget.setTabOrder(self.buttonChooseCloneListsLocation, self.buttonChooseMetadataLocation)
+        QWidget.setTabOrder(self.buttonChooseMetadataLocation, self.lineEditCloneListDownloadLocation)
 
         self.retranslateUi(Settings)
 

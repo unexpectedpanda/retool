@@ -25,14 +25,14 @@ class Ui_CloneListNameTool(object):
     def setupUi(self, CloneListNameTool):
         if not CloneListNameTool.objectName():
             CloneListNameTool.setObjectName(u"CloneListNameTool")
-        CloneListNameTool.resize(601, 390)
+        CloneListNameTool.resize(601, 440)
         sizePolicy = QSizePolicy(QSizePolicy.Fixed, QSizePolicy.Fixed)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(CloneListNameTool.sizePolicy().hasHeightForWidth())
         CloneListNameTool.setSizePolicy(sizePolicy)
-        CloneListNameTool.setMinimumSize(QSize(601, 390))
-        CloneListNameTool.setMaximumSize(QSize(601, 390))
+        CloneListNameTool.setMinimumSize(QSize(601, 440))
+        CloneListNameTool.setMaximumSize(QSize(601, 440))
         font = QFont()
         font.setFamilies([u"Segoe UI"])
         CloneListNameTool.setFont(font)
@@ -183,8 +183,8 @@ class Ui_CloneListNameTool(object):
 
     def retranslateUi(self, CloneListNameTool):
         CloneListNameTool.setWindowTitle(QCoreApplication.translate("CloneListNameTool", u"Title tool", None))
-        self.labelContribute.setText(QCoreApplication.translate("CloneListNameTool", u"<html><head/><body><p>This tool is useful if you want to contribute to Retool's clone lists or development. If you enter a title's full name, it shows you the other names Retool assigns to the title as part of its matching process. <a href=\"https://unexpectedpanda.github.io/retool/naming-system/\"><span style=\" text-decoration: underline; color:#0000ff;\">Read the documentation</span></a> to learn more.</p></body></html>", None))
-        self.labelEnterName.setText(QCoreApplication.translate("CloneListNameTool", u"Enter the full name as it appears in the DAT file", None))
+        self.labelContribute.setText(QCoreApplication.translate("CloneListNameTool", u"<html><head/><body><p>This tool is useful if you want to contribute to Retool's clone lists or development. If you enter a title's full name, it shows you the other names Retool assigns to the title as part of its matching process. You can also enter the group name that you want to assign in an override or variants object, and see what the actual group name is that Retool assigns. <a href=\"https://unexpectedpanda.github.io/retool/naming-system/\"><span style=\" text-decoration: underline; color:#0000ff;\">Read the documentation</span></a> to learn more.</p></body></html>", None))
+        self.labelEnterName.setText(QCoreApplication.translate("CloneListNameTool", u"Enter the full name as it appears in the DAT file, or your intended group name", None))
         self.labelShortName.setText(QCoreApplication.translate("CloneListNameTool", u"Default short name", None))
         self.lineEditShortName.setText("")
         self.labelGroupName.setText(QCoreApplication.translate("CloneListNameTool", u"Default group name", None))

@@ -5,6 +5,44 @@ hide:
 
 # Changelog
 
+
+## 2.00.0 Beta 8
+
+* You can now drag and drop DAT files into the file list.
+* Retool now understands preproduction compilations when comparing against individual
+  titles.
+* When considering compilations, individual titles are now preferred over compilations
+  except in the following scenarios:
+
+  * The compilation has a higher priority primary region than the individual title (during
+    compilation comparisons, the _World_ and _USA_ regions are considered equivalent).
+  * The compilation has a higher priority primary language than the individual title.
+  * The individual title is set as lower priority than the compilation in the related
+    clone list.
+
+  Compilations are otherwise only included if they feature unique titles. This increases
+  duplicates in the output DAT, but is much better for patches, retro achievements, and
+  actually knowing which individual titles you have.
+* Compilation selection has been dramatically sped up.
+* If you overrode global settings for system languages but didn't specify any languages,
+  Retool used to fall back to the global language order and disable the system languages
+  override. This isn't what the label says: "an empty filter list includes all languages".
+  This behavior has been changed to match the label &mdash; when you override system
+  languages and leave an empty filter list, it first uses the implied language order from
+  the system regions, and if they're not available, the implied language order from the
+  global regions. In both cases, this is makes sure all languages are included.
+* The Python version check is now done earlier, and explains to the user the minimum
+  version required.
+* The CLI progress bar no longer shows if multiprocessing is disabled, to make debugging
+  with print and input statements easier.
+* Fixed a bug where compilations specified in a clone list broke user filter includes.
+* Fixed a bug where clone list priorities could be misassigned.
+* Fixed a bug where user-supplied regexes weren't validated for some patterns.
+* Fixed a bug where regex escapes for a title trace that were set in the GUI weren't
+  interpreted properly.
+* Polished up some rough areas of code, made some minor GUI tweaks.
+
+
 ## 2.00.0 Beta 7
 
 * System languages are now filtering correctly again.

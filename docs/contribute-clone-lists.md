@@ -222,7 +222,7 @@ An `overrides` array looks similar to the following example:
   {
     "searchTerm": "Mobile Suit Gundam - Version 2.0 (.*)",
     "nameType": "regex",// (4)!
-    "newGroup": "Mobile Suit Gundam - Version 2.0"
+    "newGroup": "Mobile Suit Gundam Veetwo"// (5)!
   }
 ]
 ```
@@ -230,9 +230,12 @@ An `overrides` array looks similar to the following example:
 1.  The overrides array.
 2.  The search term used when looking for a title in an input DAT file.
 3.  The new group and short name to assign to the title, if it's found in an input DAT
-    file.
+    file. This isn't the literal group name that is assigned, Retool takes this as a
+    base and then changes it based on its naming rules.
 4.  What name type the search term is, so Retool can match it accurately against names in
     the input DAT file.
+5.  Don't put version strings or strings in parentheses in `newGroup` values, as they are
+    stripped.
 
 Each object in the `overrides` array can include the following keys:
 
@@ -277,7 +280,7 @@ A `condition` looks similar to the following example:
   {
     "searchTerm": "Tomb Raider III - (Adventures of|Les Aventures de) Lara Croft \\((Europe|France|Germany|Italy|Spain|USA)\\)(.*)?",
     "nameType": "regex",
-    "newGroup": "Tomb Raider III - Adventures of Lara Croft (Disc 2) (International Version)",
+    "newGroup": "Tomb Raider III - Adventures of Lara Croft Disc 2 International Version",
     "condition": {// (1)!
         "regionOrder": {// (2)!
             "higherRegions": ["Japan", "Asia"],// (3)!
@@ -719,10 +722,32 @@ German discs are chosen instead.
 
 #### Example: working with compilations
 
-Retool automatically considers individual titles and compilations that are related, and
-chooses the solution that results in the fewest duplicate titles (and therefore lowest
-storage requirement). Compilations in a `variants` array are handled in a similar way
-to the following example:
+Individual titles and compilations have their relationships defined in clone lists. When
+Retool considers these titles and looks to deduplicate, it chooses a solution that
+results in as many individual titles as possible being selected. This is because [patches](https://www.romhacking.net/)
+and [retro achievements](https://retroachievements.org/) tend to only be available for
+individual titles, and compilation filenames often don't tell you what titles they
+contain, making your collection less browsable.
+
+This method results in some duplicates being left in the output. For example, when Retool
+analyzes the following titles:
+
+* _Title A (USA)_
+* _Title B (USA)_
+* _Title A + Title C (USA)_
+
+It includes them all in the output, despite that not being the most optimal space saving
+solution (which would remove _Title A (USA)_). This is because when comparing the
+following titles:
+
+* _Title A (USA)_
+* _Title A + Title C (USA)_
+
+_Title A (USA)_ wins for the _Title A_ selection as it's an individual title (and
+preferred over compilation versions), and _Title A + Title C (USA)_ wins for _Title C_
+as that title is only contained in the compilation, a standalone variation doesn't exist.
+
+Compilations in a `variants` array are handled in a similar way to the following example:
 
 ```json
 "variants": [
@@ -771,8 +796,21 @@ USA
 Europe
 ```
 
-Then Retool selects _3-D Ultra Pinball & Trophy Bass (USA)_ as the 1G1R title, as that
-solution is the one with the least duplication.
+Then Retool selects _3-D Ultra Pinball & Trophy Bass (USA)_ as the single 1G1R title for
+both _3-D Ultra Pinball_ and _Trophy Bass_, as that solution includes the USA version of
+the titles, and the least duplication.
+
+However, if a user selects the following region order:
+
+```
+Europe
+USA
+```
+
+Then Retool selects _3-D Ultra Pinball (Europe)_ for _3-D Ultra Pinball_ as it's an
+individual title in a preferred region, while _3-D Ultra Pinball & Trophy Bass (USA)_ is
+chosen for _Trophy Bass_ as a standalone version of that title doesn't exist, and the
+compilation is the only remaining option.
 
 #### Example: working with priorities
 
@@ -955,9 +993,8 @@ Then the following happens with the compilations:
     * Ultimately _Example Title (USA)_ and _Example Title 2 - Special Edition (USA)_
       become the 1G1R titles, and _Example Title 1 & 2 (Europe)_ is discarded.
 
-!!! note
-    Superset priority is compared directly against compilation priority, just like title
-    priority is.
+Superset priorities are compared directly against compilation priorities, just like title
+priorities are.
 
 ## Format clone lists
 

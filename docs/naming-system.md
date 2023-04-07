@@ -48,7 +48,7 @@ this is a title
 Group names are derived from three places:
 
 * The full name of a title (default).
-* `group` values in the [`renames`](../contribute-clone-lists/#renames) array in
+* `group` values in the [`variants`](../contribute-clone-lists/#variants) array in
   a clone list.
 * `newGroup` or `elseGroup` values in the [`overrides`](../contribute-clone-lists/#overrides)
   array in a clone list.

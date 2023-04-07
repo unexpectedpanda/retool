@@ -130,12 +130,12 @@ class Stats:
         self.system_exclude_count: int = system_exclude_count
 
 
-def get_parent_clone_stats(processed_titles: dict[str, list[DatNode]], config: Config) -> tuple[dict[str, set[str]], set[DatNode]]:
+def get_parent_clone_stats(processed_titles: dict[str, set[DatNode]], config: Config) -> tuple[dict[str, set[str]], set[DatNode]]:
     """ Gets how many parents and clones are in the final Retool output, and
     also returns the relationships between these titles in case the user has set `--log`.
 
     Args:
-        `processed_titles (dict[str, list[DatNode]])`: A work in progress dictionary
+        `processed_titles (dict[str, set[DatNode]])`: A work in progress dictionary
         of DatNodes, originally populated from the input DAT and actively being worked on
         by Retool.
         `config (Config)`: The Retool config object.

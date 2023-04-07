@@ -331,7 +331,7 @@
               <number>9</number>
              </property>
              <item row="1" column="2">
-              <widget class="CustomList" name="listWidgetOpenFiles">
+              <widget class="CustomListDropFiles" name="listWidgetOpenFiles">
                <property name="enabled">
                 <bool>true</bool>
                </property>
@@ -359,8 +359,11 @@
                <property name="showDropIndicator" stdset="0">
                 <bool>false</bool>
                </property>
+               <property name="dragDropMode">
+                <enum>QAbstractItemView::DropOnly</enum>
+               </property>
                <property name="defaultDropAction">
-                <enum>Qt::IgnoreAction</enum>
+                <enum>Qt::MoveAction</enum>
                </property>
                <property name="selectionMode">
                 <enum>QAbstractItemView::ExtendedSelection</enum>
@@ -397,6 +400,12 @@
             </layout>
            </widget>
            <widget class="QWidget" name="gridLayoutRight_2" native="true">
+            <property name="minimumSize">
+             <size>
+              <width>650</width>
+              <height>0</height>
+             </size>
+            </property>
             <property name="cursor">
              <cursorShape>ArrowCursor</cursorShape>
             </property>
@@ -2464,6 +2473,9 @@ following text in the name:
                          <verstretch>0</verstretch>
                         </sizepolicy>
                        </property>
+                       <property name="focusPolicy">
+                        <enum>Qt::NoFocus</enum>
+                       </property>
                        <property name="frameShape">
                         <enum>QFrame::NoFrame</enum>
                        </property>
@@ -2490,7 +2502,7 @@ following text in the name:
                          <rect>
                           <x>0</x>
                           <y>0</y>
-                          <width>565</width>
+                          <width>573</width>
                           <height>760</height>
                          </rect>
                         </property>
@@ -3754,6 +3766,9 @@ core, at the cost of performance</string>
                      </property>
                      <item>
                       <widget class="QScrollArea" name="scrollAreaGlobalUserFilters">
+                       <property name="focusPolicy">
+                        <enum>Qt::NoFocus</enum>
+                       </property>
                        <property name="frameShape">
                         <enum>QFrame::NoFrame</enum>
                        </property>
@@ -3780,7 +3795,7 @@ core, at the cost of performance</string>
                          <rect>
                           <x>0</x>
                           <y>0</y>
-                          <width>582</width>
+                          <width>590</width>
                           <height>393</height>
                          </rect>
                         </property>
@@ -7094,6 +7109,9 @@ expansion packs and additional materials for titles</string>
                          <verstretch>0</verstretch>
                         </sizepolicy>
                        </property>
+                       <property name="focusPolicy">
+                        <enum>Qt::NoFocus</enum>
+                       </property>
                        <property name="frameShape">
                         <enum>QFrame::NoFrame</enum>
                        </property>
@@ -8315,6 +8333,9 @@ core, at the cost of performance</string>
                     <layout class="QVBoxLayout" name="verticalLayout_4">
                      <item>
                       <widget class="QScrollArea" name="scrollAreaSystemUserFilters">
+                       <property name="focusPolicy">
+                        <enum>Qt::NoFocus</enum>
+                       </property>
                        <property name="frameShape">
                         <enum>QFrame::NoFrame</enum>
                        </property>
@@ -9091,7 +9112,153 @@ core, at the cost of performance</string>
    </property>
   </action>
  </widget>
+ <tabstops>
+  <tabstop>buttonAddDats</tabstop>
+  <tabstop>buttonAddFolder</tabstop>
+  <tabstop>buttonAddFolderRecursive</tabstop>
+  <tabstop>buttonDeleteDats</tabstop>
+  <tabstop>buttonClearDats</tabstop>
+  <tabstop>listWidgetOpenFiles</tabstop>
+  <tabstop>buttonChooseOutput</tabstop>
+  <tabstop>tabWidgetSettings</tabstop>
+  <tabstop>tabWidgetGlobalSettings</tabstop>
+  <tabstop>listWidgetGlobalAvailableRegions</tabstop>
+  <tabstop>buttonGlobalRegionAllRight</tabstop>
+  <tabstop>buttonGlobalRegionRight</tabstop>
+  <tabstop>buttonGlobalRegionLeft</tabstop>
+  <tabstop>buttonGlobalRegionAllLeft</tabstop>
+  <tabstop>listWidgetGlobalSelectedRegions</tabstop>
+  <tabstop>buttonGlobalRegionUp</tabstop>
+  <tabstop>buttonGlobalRegionDown</tabstop>
+  <tabstop>buttonGlobalDefaultRegionOrder</tabstop>
+  <tabstop>listWidgetGlobalAvailableLanguages</tabstop>
+  <tabstop>buttonGlobalLanguageAllRight</tabstop>
+  <tabstop>buttonGlobalLanguageRight</tabstop>
+  <tabstop>buttonGlobalLanguageLeft</tabstop>
+  <tabstop>buttonGlobalLanguageAllLeft</tabstop>
+  <tabstop>listWidgetGlobalSelectedLanguages</tabstop>
+  <tabstop>buttonGlobalLanguageUp</tabstop>
+  <tabstop>buttonGlobalLanguageDown</tabstop>
+  <tabstop>listWidgetGlobalVideoStandards</tabstop>
+  <tabstop>buttonGlobalVideoStandardUp</tabstop>
+  <tabstop>buttonGlobalVideoStandardDown</tabstop>
+  <tabstop>checkBoxGlobalExcludeAddOns</tabstop>
+  <tabstop>checkBoxGlobalExcludeApplications</tabstop>
+  <tabstop>checkBoxGlobalExcludeAudio</tabstop>
+  <tabstop>checkBoxGlobalExcludeBadDumps</tabstop>
+  <tabstop>checkBoxGlobalExcludeBIOS</tabstop>
+  <tabstop>checkBoxGlobalExcludeBonusDiscs</tabstop>
+  <tabstop>checkBoxGlobalExcludeCoverdiscs</tabstop>
+  <tabstop>checkBoxGlobalExcludeDemos</tabstop>
+  <tabstop>checkBoxGlobalExcludeEducational</tabstop>
+  <tabstop>checkBoxGlobalExcludeManuals</tabstop>
+  <tabstop>checkBoxGlobalExcludeMIA</tabstop>
+  <tabstop>checkBoxGlobalExcludeMultimedia</tabstop>
+  <tabstop>checkBoxGlobalExcludePirate</tabstop>
+  <tabstop>checkBoxGlobalExcludePreproduction</tabstop>
+  <tabstop>checkBoxGlobalExcludePromotional</tabstop>
+  <tabstop>checkBoxGlobalExcludeUnlicensed</tabstop>
+  <tabstop>checkBoxGlobalExcludeVideo</tabstop>
+  <tabstop>buttonGlobalSelectAllExclude</tabstop>
+  <tabstop>buttonGlobalDeselectAllExclude</tabstop>
+  <tabstop>checkBoxGlobalOptionsDisable1G1R</tabstop>
+  <tabstop>checkBoxGlobalOptionsIncludeHashless</tabstop>
+  <tabstop>checkBoxGlobalOptionsPreferRegions</tabstop>
+  <tabstop>checkBoxGlobalOptionsModernPlatforms</tabstop>
+  <tabstop>checkBoxGlobalOptionsDemoteUnlicensed</tabstop>
+  <tabstop>checkBoxGlobalOptionsDisableFilters</tabstop>
+  <tabstop>checkBoxGlobalOptionsSplitRegions</tabstop>
+  <tabstop>checkBoxGlobalOptionsRemovesDat</tabstop>
+  <tabstop>checkBoxGlobalOptionsKeepRemove</tabstop>
+  <tabstop>checkBoxGlobalOptions1G1RNames</tabstop>
+  <tabstop>lineEditGlobalOptions1G1RPrefix</tabstop>
+  <tabstop>lineEditGlobalOptions1G1RSuffix</tabstop>
+  <tabstop>checkBoxGlobalOptionsReportWarnings</tabstop>
+  <tabstop>checkBoxGlobalOptionsPauseWarnings</tabstop>
+  <tabstop>checkBoxGlobalOptionsLegacy</tabstop>
+  <tabstop>checkBoxGlobalOptionsBypassDTD</tabstop>
+  <tabstop>checkBoxGlobalOptionsDisableMultiCPU</tabstop>
+  <tabstop>checkBoxGlobalOptionsTrace</tabstop>
+  <tabstop>lineEditGlobalOptionsTrace</tabstop>
+  <tabstop>tabWidgetSystemSettings</tabstop>
+  <tabstop>checkBoxSystemOverridePaths</tabstop>
+  <tabstop>buttonClearSystemOutput</tabstop>
+  <tabstop>buttonChooseSystemOutput</tabstop>
+  <tabstop>buttonClearSystemCloneList</tabstop>
+  <tabstop>buttonChooseSystemCloneList</tabstop>
+  <tabstop>buttonClearSystemMetadataFile</tabstop>
+  <tabstop>buttonChooseSystemMetadataFile</tabstop>
+  <tabstop>checkBoxSystemOverrideRegions</tabstop>
+  <tabstop>listWidgetSystemAvailableRegions</tabstop>
+  <tabstop>buttonSystemRegionAllRight</tabstop>
+  <tabstop>buttonSystemRegionRight</tabstop>
+  <tabstop>buttonSystemRegionLeft</tabstop>
+  <tabstop>buttonSystemRegionAllLeft</tabstop>
+  <tabstop>listWidgetSystemSelectedRegions</tabstop>
+  <tabstop>buttonSystemRegionUp</tabstop>
+  <tabstop>buttonSystemRegionDown</tabstop>
+  <tabstop>buttonSystemDefaultRegionOrder</tabstop>
+  <tabstop>checkBoxSystemOverrideLanguages</tabstop>
+  <tabstop>listWidgetSystemAvailableLanguages</tabstop>
+  <tabstop>buttonSystemLanguageAllRight</tabstop>
+  <tabstop>buttonSystemLanguageRight</tabstop>
+  <tabstop>buttonSystemLanguageLeft</tabstop>
+  <tabstop>buttonSystemLanguageAllLeft</tabstop>
+  <tabstop>listWidgetSystemSelectedLanguages</tabstop>
+  <tabstop>buttonSystemLanguageUp</tabstop>
+  <tabstop>buttonSystemLanguageDown</tabstop>
+  <tabstop>checkBoxSystemOverrideVideo</tabstop>
+  <tabstop>listWidgetSystemVideoStandards</tabstop>
+  <tabstop>buttonSystemVideoStandardUp</tabstop>
+  <tabstop>buttonSystemVideoStandardDown</tabstop>
+  <tabstop>checkBoxSystemOverrideExclusions</tabstop>
+  <tabstop>checkBoxSystemExcludeAddOns</tabstop>
+  <tabstop>checkBoxSystemExcludeApplications</tabstop>
+  <tabstop>checkBoxSystemExcludeAudio</tabstop>
+  <tabstop>checkBoxSystemExcludeBadDumps</tabstop>
+  <tabstop>checkBoxSystemExcludeBIOS</tabstop>
+  <tabstop>checkBoxSystemExcludeBonusDiscs</tabstop>
+  <tabstop>checkBoxSystemExcludeCoverdiscs</tabstop>
+  <tabstop>checkBoxSystemExcludeDemos</tabstop>
+  <tabstop>checkBoxSystemExcludeEducational</tabstop>
+  <tabstop>checkBoxSystemExcludeManuals</tabstop>
+  <tabstop>checkBoxSystemExcludeMIA</tabstop>
+  <tabstop>checkBoxSystemExcludeMultimedia</tabstop>
+  <tabstop>checkBoxSystemExcludePirate</tabstop>
+  <tabstop>checkBoxSystemExcludePreproduction</tabstop>
+  <tabstop>checkBoxSystemExcludePromotional</tabstop>
+  <tabstop>checkBoxSystemExcludeUnlicensed</tabstop>
+  <tabstop>checkBoxSystemExcludeVideo</tabstop>
+  <tabstop>buttonSystemSelectAllExclude</tabstop>
+  <tabstop>buttonSystemDeselectAllExclude</tabstop>
+  <tabstop>checkBoxSystemOverrideOptions</tabstop>
+  <tabstop>checkBoxSystemOptionsDisable1G1R</tabstop>
+  <tabstop>checkBoxSystemOptionsIncludeHashless</tabstop>
+  <tabstop>checkBoxSystemOptionsPreferRegions</tabstop>
+  <tabstop>checkBoxSystemOptionsModernPlatforms</tabstop>
+  <tabstop>checkBoxSystemOptionsDemoteUnlicensed</tabstop>
+  <tabstop>checkBoxSystemOptionsDisableFilters</tabstop>
+  <tabstop>checkBoxSystemOptionsSplitRegions</tabstop>
+  <tabstop>checkBoxSystemOptionsRemovesDat</tabstop>
+  <tabstop>checkBoxSystemOptionsKeepRemove</tabstop>
+  <tabstop>checkBoxSystemOptions1G1RNames</tabstop>
+  <tabstop>lineEditSystemOptions1G1RPrefix</tabstop>
+  <tabstop>lineEditSystemOptions1G1RSuffix</tabstop>
+  <tabstop>checkBoxSystemOptionsReportWarnings</tabstop>
+  <tabstop>checkBoxSystemOptionsPauseWarnings</tabstop>
+  <tabstop>checkBoxSystemOptionsLegacy</tabstop>
+  <tabstop>checkBoxSystemOptionsBypassDTD</tabstop>
+  <tabstop>checkBoxSystemOptionsDisableMultiCPU</tabstop>
+  <tabstop>checkBoxSystemOptionsTrace</tabstop>
+  <tabstop>lineEditSystemOptionsTrace</tabstop>
+  <tabstop>buttonGo</tabstop>
+ </tabstops>
  <customwidgets>
+  <customwidget>
+   <class>CustomLineEdit</class>
+   <extends>QLineEdit</extends>
+   <header>modules.gui.custom_widgets</header>
+  </customwidget>
   <customwidget>
    <class>CustomList</class>
    <extends>QListWidget</extends>
@@ -9108,11 +9275,6 @@ core, at the cost of performance</string>
    <header>modules.gui.custom_widgets</header>
   </customwidget>
   <customwidget>
-   <class>CustomLineEdit</class>
-   <extends>QLineEdit</extends>
-   <header>modules.gui.custom_widgets</header>
-  </customwidget>
-  <customwidget>
    <class>CustomTextEdit</class>
    <extends>QTextEdit</extends>
    <header>modules.gui.custom_widgets</header>
@@ -9121,6 +9283,11 @@ core, at the cost of performance</string>
    <class>ElisionLabel</class>
    <extends>QLabel</extends>
    <header>modules.gui.custom_widgets</header>
+  </customwidget>
+  <customwidget>
+   <class>CustomListDropFiles</class>
+   <extends>QListWidget</extends>
+   <header location="global">modules.gui.custom_widgets</header>
   </customwidget>
  </customwidgets>
  <resources>

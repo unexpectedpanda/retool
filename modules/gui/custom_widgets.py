@@ -65,10 +65,12 @@ class CustomList(qtw.QListWidget):
     def dragMoveEvent(self, event: qtg.QDragMoveEvent) -> None:
         super().dragMoveEvent(event)
         item = event.source()
-        if item.isAncestorOf(self): # type: ignore
-            event.ignore()
-        else:
-            event.accept()
+
+        if item:
+            if item.isAncestorOf(self): # type: ignore
+                event.ignore()
+            else:
+                event.accept()
 
     # Handle drag and drop events
     dropped = qtc.Signal(int)
@@ -79,11 +81,11 @@ class CustomList(qtw.QListWidget):
 
         item = event.source()
 
-
-        if item.isAncestorOf(self): # type: ignore
-            event.ignore()
-        else:
-            event.accept()
+        if item:
+            if item.isAncestorOf(self): # type: ignore
+                event.ignore()
+            else:
+                event.accept()
 
         if event.isAccepted():
             # Make sure all the list items have been removed from the source before sending a signal
@@ -119,7 +121,12 @@ class CustomListSelfDrag(CustomList):
 
     def dragMoveEvent(self, event: qtg.QDragMoveEvent) -> None:
         super().dragMoveEvent(event)
-        event.accept()
+        item = event.source()
+
+        if item:
+            event.accept()
+        else:
+            event.ignore()
 
     # Handle drag and drop events
     dropped = qtc.Signal(int)
@@ -128,7 +135,12 @@ class CustomListSelfDrag(CustomList):
     def dropEvent(self, event: qtg.QDropEvent) -> None:
         super().dropEvent(event)
 
-        event.accept()
+        item = event.source()
+
+        if item:
+            event.accept()
+        else:
+            event.ignore()
 
         if event.isAccepted():
             # Make sure all the list items have been removed from the source before sending a signal
@@ -143,6 +155,47 @@ class CustomListSelfDrag(CustomList):
             t = threading.Thread(target=check_remove)
             t.start()
 
+
+class CustomListDropFiles(CustomList):
+    """ A sub-subclassed list widget that does allow a file to be dropped into
+    it from a file explorer
+    """
+
+    def __init__(self, parent: Any = None) -> None:
+        super(CustomList, self).__init__(parent)
+
+    def dragMoveEvent(self, event: qtg.QDragMoveEvent) -> None:
+        super().dragMoveEvent(event)
+
+        if event.mimeData().hasUrls():
+            event.accept()
+        else:
+            event.ignore()
+
+    # Handle drag and drop events
+    dropped = qtc.Signal(int)
+
+
+    def dropEvent(self, event: qtg.QDropEvent) -> None:
+        super().dropEvent(event)
+
+        self.dropped_files = set()
+
+        if event.mimeData().hasUrls():
+            event.accept()
+        else:
+            event.ignore()
+
+        if event.isAccepted():
+            dropped_files: set[str] = set()
+
+            for url in event.mimeData().urls():
+                if url.toLocalFile().lower().endswith('.dat'):
+                    dropped_files.add(url.toLocalFile())
+
+            if dropped_files:
+                self.dropped_files = dropped_files
+                self.dropped.emit(event)
 
 class CustomPushButton(qtw.QPushButton):
     """ Animates a button's background color.
@@ -261,7 +314,7 @@ class ElisionLabel(qtw.QLabel):
     def __init__(self, text: str = '', mode: Any = qtc.Qt.ElideMiddle, **kwargs: Any) -> None:  # type: ignore
         super().__init__(**kwargs)
 
-        self._mode = qtc.Qt.ElideLeft
+        self._mode = qtc.Qt.ElideLeft # type: ignore
         self.is_elided = False
         self.setSizePolicy(qtw.QSizePolicy.Expanding, qtw.QSizePolicy.Preferred) # type: ignore
         self.setText(text)
@@ -362,7 +415,7 @@ def custom_widgets(main_window: Any) -> Any:
     main_window.ui.splitter.setStyleSheet(drag_handle)
 
     # Create a "stop" button
-    sizePolicy = qtw.QSizePolicy(qtw.QSizePolicy.Fixed, qtw.QSizePolicy.Fixed)
+    sizePolicy = qtw.QSizePolicy(qtw.QSizePolicy.Fixed, qtw.QSizePolicy.Fixed) # type: ignore
     sizePolicy.setHorizontalStretch(0)
     sizePolicy.setVerticalStretch(0)
     sizePolicy.setHeightForWidth(main_window.ui.buttonGo.sizePolicy().hasHeightForWidth())

@@ -427,6 +427,9 @@ def write_config(main_window: Any, dat_details: dict[str, dict[str, str]], confi
 
             gui_input: UserInput
 
+            # Manage escapes in the trace string
+            trace_str = r'{}'.format(trace_str).replace('\\\\', '\\')
+
             for dat_file in dat_files:
                 # Build the gui_input instance
                 filter_languages_enabled: bool = False

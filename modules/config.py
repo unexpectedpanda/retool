@@ -128,7 +128,6 @@ class Config:
         self.stats = Stats()
 
         # Download the internal config file if it's missing
-        # TODO: Build a GUI version of this
         def download_required_files(download_files: tuple[str, str]) -> None:
             """ Downloads the files Retool requires to operate.
 
@@ -168,6 +167,8 @@ class Config:
 
                         if not failed:
                             eprint('done.')
+
+                    eprint('\n')
                 else:
                     eprint('\nExiting...\n')
                     sys.exit()

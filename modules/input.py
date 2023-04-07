@@ -16,7 +16,7 @@ if TYPE_CHECKING:
 from modules.clonelists import CloneList
 from modules.constants import *
 from modules.dats import Dat
-from modules.utils import eprint, ExitRetool, Font, download, printwrap, SmartFormatter
+from modules.utils import eprint, ExitRetool, Font, download, printwrap, regex_test, SmartFormatter
 
 class UserInput:
     def __init__(self,
@@ -220,6 +220,13 @@ class UserInput:
         self.update: bool = update
 
         self.test: bool = test # TODO
+
+        # Check for valid regex in the trace
+        if self.trace:
+             trace_test: list[str] = regex_test([self.trace], '', 'trace')
+
+             if not trace_test:
+                 self.trace = ''
 
 
 def check_input() -> UserInput:
@@ -639,7 +646,7 @@ def get_config_value(config_object: tuple[Any, ...], key: str, default_value: st
     return value
 
 
-def import_clone_list(input_dat: Dat, gui_input: UserInput, config: Config) -> CloneList:
+def import_clone_list(input_dat: Dat, gui_input: UserInput|None, config: Config) -> CloneList:
     """ Imports a clone list from the relevant file and sets it up for use in Retool.
 
     Args:
@@ -881,20 +888,35 @@ def import_system_settings(
         # names
         language_list: list[str|dict[str, str]] = []
 
-        if not [x for x in config.system_language_order_user if 'override' not in x]:
-            for region in config.region_order_user:
-                language_list.extend(config.languages_filter[region])
+        def implied_languages() -> None:
+            if {'override': 'true'} in config.system_region_order_user:
+                region_list = [str(x) for x in config.system_region_order_user if 'override' not in x]
 
-            # Make sure language entries are unique
-            language_list = reduce(lambda x, y: x + [y] if not y in x else x, language_list, [])
+                for region in region_list:
+                    language_list.extend(config.languages_filter[region])
+            else:
+                for region in config.region_order_user:
+                    language_list.extend(config.languages_filter[region])
+
+        if {'override': 'true'} in config.system_language_order_user:
+            if not [x for x in config.system_language_order_user if 'override' not in x]:
+                implied_languages()
+            else:
+                config.system_languages_user_found = True
+
+                language_list.extend([x for x in config.system_language_order_user if 'override' in x])
+
+                for language in [str(x) for x in config.system_language_order_user if 'override' not in x]:
+                    if language in config.languages:
+                        language_list.append(config.languages[language])
+
+            if {'override': 'true'} not in language_list:
+                language_list.append({'override': 'true'})
         else:
-            config.system_languages_user_found = True
+            implied_languages()
 
-            language_list.extend([x for x in config.system_language_order_user if 'override' in x])
-
-            for language in [str(x) for x in config.system_language_order_user if 'override' not in x]:
-                if language in config.languages:
-                    language_list.append(config.languages[language])
+        # Make sure language entries are unique
+        language_list = reduce(lambda x, y: x + [y] if not y in x else x, language_list, [])
 
         config.system_language_order_user = [x for x in language_list]
 

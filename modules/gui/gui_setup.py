@@ -51,12 +51,12 @@ def setup_gui_global(main_window: Any, dat_details: dict[str, dict[str, str]], c
     window_height: int = 0
 
     try:
-        window_width: int = int(get_config_value(config.user_gui_settings, 'gui width', '0', False))
+        window_width = int(get_config_value(config.user_gui_settings, 'gui width', '0', False))
     except:
         pass
 
     try:
-        window_height: int = int(get_config_value(config.user_gui_settings, 'gui height', '0', False))
+        window_height = int(get_config_value(config.user_gui_settings, 'gui height', '0', False))
     except:
         pass
 
@@ -67,12 +67,12 @@ def setup_gui_global(main_window: Any, dat_details: dict[str, dict[str, str]], c
     gui_split_right: int = 0
 
     try:
-        gui_split_left: int = int(get_config_value(config.user_gui_settings, 'gui split left', '0', False))
+        gui_split_left = int(get_config_value(config.user_gui_settings, 'gui split left', '0', False))
     except:
         pass
 
     try:
-        gui_split_right: int = int(get_config_value(config.user_gui_settings, 'gui split right', '0', False))
+        gui_split_right = int(get_config_value(config.user_gui_settings, 'gui split right', '0', False))
     except:
         pass
 
@@ -245,6 +245,8 @@ def setup_gui_global(main_window: Any, dat_details: dict[str, dict[str, str]], c
     main_window.ui.buttonClearDats.clicked.connect(lambda: remove_list_items(main_window.ui.listWidgetOpenFiles, dat_details, main_window.ui.labelSystemSettings, main_window))
     main_window.ui.buttonDeleteDats.clicked.connect(lambda: remove_list_items(main_window.ui.listWidgetOpenFiles, dat_details, main_window.ui.labelSystemSettings, main_window, remove_all=False))
     main_window.ui.buttonChooseOutput.clicked.connect(lambda: set_path(main_window, main_window.output_folder, main_window.ui.labelOutputFolder, 'output_folder'))
+
+    main_window.ui.listWidgetOpenFiles.dropped.connect(lambda: add_list_items(main_window.ui.listWidgetOpenFiles, dat_details, config, main_window, 'dropped'))
 
     # Set up the "Process DAT files" button
     main_window.ui.buttonGo.clicked.connect(lambda: write_config(main_window, dat_details, config, settings_window=None, run_retool=True))

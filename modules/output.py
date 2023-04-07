@@ -22,12 +22,12 @@ class WriteFiles(object):
 
 
     @staticmethod
-    def output(processed_titles: dict[str, list[DatNode]], log: tuple[dict[str, set[str]], set[DatNode]], config: Config, input_dat: Dat, removes: Removes) -> None:
+    def output(processed_titles: dict[str, set[DatNode]], log: tuple[dict[str, set[str]], set[DatNode]], config: Config, input_dat: Dat, removes: Removes) -> None:
         """ The main function for managing output. The actual writing of files is done by
         other functions.
 
         Args:
-            `processed_titles (dict[str, list[DatNode]])`: A work in progress dictionary
+            `processed_titles (dict[str, set[DatNode]])`: A work in progress dictionary
             of DatNodes, originally populated from the input DAT and actively being worked
             on by Retool.
             `log (tuple[dict[str, set[str]], set[DatNode]])`: Contains all the
@@ -50,7 +50,7 @@ class WriteFiles(object):
 
         if config.user_input.output_region_split:
             for region in region_order:
-                region_processed_titles: dict[str, list[DatNode]] = {}
+                region_processed_titles: dict[str, set[DatNode]] = {}
 
                 for group in processed_titles:
                     for title in processed_titles[group]:
@@ -58,8 +58,8 @@ class WriteFiles(object):
                             title.primary_region == region
                             and not title.cloneof):
                                 if group not in region_processed_titles:
-                                    region_processed_titles[group] = []
-                                region_processed_titles[group].append(title)
+                                    region_processed_titles[group] = set()
+                                region_processed_titles[group].add(title)
 
                 if region_processed_titles:
                     WriteFiles.write_dat(region_processed_titles, config, input_dat, timestamp, '', f' ({region})')
@@ -68,15 +68,15 @@ class WriteFiles(object):
 
         # Add removed titles to a separate DAT if requested
         if config.user_input.output_remove_dat:
-            removed_titles: dict[str, list[DatNode]] = {}
+            removed_titles: dict[str, set[DatNode]] = {}
 
             # Get the titles from various remove categories
             for removes_group in removes.__dict__.values():
                 for title in removes_group:
                     if title.group_name not in removed_titles:
-                        removed_titles[title.group_name] = []
+                        removed_titles[title.group_name] = set()
 
-                    removed_titles[title.group_name].append(title)
+                    removed_titles[title.group_name].add(title)
 
             # Add clones
             for titles in processed_titles.values():
@@ -85,15 +85,15 @@ class WriteFiles(object):
                         title.exclude_reason = f'Clone of {title.cloneof}'
                         title.cloneof = ''
                         if title.group_name not in removed_titles:
-                            removed_titles[title.group_name] = []
+                            removed_titles[title.group_name] = set()
 
-                        removed_titles[title.group_name].append(title)
+                        removed_titles[title.group_name].add(title)
 
             # Write the DAT/s
             if removed_titles:
                 if config.user_input.output_region_split:
                     for region in region_order:
-                        region_removed_titles: dict[str, list[DatNode]] = {}
+                        region_removed_titles: dict[str, set[DatNode]] = {}
 
                         for group in removed_titles:
                             for title in removed_titles[group]:
@@ -101,8 +101,8 @@ class WriteFiles(object):
                                     title.primary_region == region
                                     and not title.cloneof):
                                         if group not in region_removed_titles:
-                                            region_removed_titles[group] = []
-                                        region_removed_titles[group].append(title)
+                                            region_removed_titles[group] = set()
+                                        region_removed_titles[group].add(title)
 
                         if region_removed_titles:
                             WriteFiles.write_dat(region_removed_titles, config, input_dat, timestamp, ' (Removed titles)', f' ({region})')
@@ -115,13 +115,13 @@ class WriteFiles(object):
 
 
     @staticmethod
-    def write_dat(processed_titles: dict[str, list[DatNode]], config: Config, input_dat: Dat, timestamp: str, output_file_removes: str = '', output_file_region: str = '') -> None:
+    def write_dat(processed_titles: dict[str, set[DatNode]], config: Config, input_dat: Dat, timestamp: str, output_file_removes: str = '', output_file_region: str = '') -> None:
         """ Writes DAT files. Additionally writes the output for `--listnames` if the user
         has requested it, which contains the names of the titles which have been kept,
         and optionally a user-defined prefix and suffix.
 
         Args:
-            `processed_titles (dict[str, list[DatNode]])`: A work in progress dictionary
+            `processed_titles (dict[str, set[DatNode]])`: A work in progress dictionary
             of DatNodes, originally populated from the input DAT and actively being worked
             on by Retool.
             `config (Config)`: The Retool config object.

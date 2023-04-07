@@ -842,6 +842,12 @@
    <header>modules.gui.custom_widgets</header>
   </customwidget>
  </customwidgets>
+ <tabstops>
+  <tabstop>pushButtonReset</tabstop>
+  <tabstop>buttonChooseCloneListsLocation</tabstop>
+  <tabstop>buttonChooseMetadataLocation</tabstop>
+  <tabstop>lineEditCloneListDownloadLocation</tabstop>
+ </tabstops>
  <resources>
   <include location="resources.qrc"/>
  </resources>

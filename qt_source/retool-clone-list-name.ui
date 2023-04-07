@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>601</width>
-    <height>390</height>
+    <height>440</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -19,13 +19,13 @@
   <property name="minimumSize">
    <size>
     <width>601</width>
-    <height>390</height>
+    <height>440</height>
    </size>
   </property>
   <property name="maximumSize">
    <size>
     <width>601</width>
-    <height>390</height>
+    <height>440</height>
    </size>
   </property>
   <property name="font">
@@ -68,7 +68,7 @@
        </font>
       </property>
       <property name="text">
-       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This tool is useful if you want to contribute to Retool's clone lists or development. If you enter a title's full name, it shows you the other names Retool assigns to the title as part of its matching process. &lt;a href=&quot;https://unexpectedpanda.github.io/retool/naming-system/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Read the documentation&lt;/span&gt;&lt;/a&gt; to learn more.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This tool is useful if you want to contribute to Retool's clone lists or development. If you enter a title's full name, it shows you the other names Retool assigns to the title as part of its matching process. You can also enter the group name that you want to assign in an override or variants object, and see what the actual group name is that Retool assigns. &lt;a href=&quot;https://unexpectedpanda.github.io/retool/naming-system/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Read the documentation&lt;/span&gt;&lt;/a&gt; to learn more.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
       <property name="scaledContents">
        <bool>false</bool>
@@ -112,7 +112,7 @@
        </font>
       </property>
       <property name="text">
-       <string>Enter the full name as it appears in the DAT file</string>
+       <string>Enter the full name as it appears in the DAT file, or your intended group name</string>
       </property>
      </widget>
     </item>

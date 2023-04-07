@@ -9,8 +9,8 @@ import sys
 
 from alive_progress import alive_bar # type: ignore
 from contextlib import nullcontext
-from functools import partial
-from lxml import etree, html as html_
+from functools import partial, reduce
+from lxml import etree, html as html_ # type: ignore
 from typing import Any, TYPE_CHECKING
 
 if TYPE_CHECKING:
@@ -85,7 +85,7 @@ class Dat:
         self.numbered: bool = numbered
         self.contents: list[str] = contents
         self.contents_str: str = ''.join(contents)
-        self.contents_dict: dict[str, list[DatNode]] = {}
+        self.contents_dict: dict[str, set[DatNode]] = {}
         self.clone_list: CloneList = clone_list
         self.metadata: dict[str, dict[str, str]] = metadata
         self.search_name: str = ''
@@ -352,13 +352,22 @@ class DatNode:
         language_priority: set[int] = set()
 
         # Check if a system config is in play
-        language_order: list[str] = config.language_order_user
+        language_order: list[str] = []
+
+        for region in config.region_order_user:
+            language_order.extend(config.languages_filter[region])
+
+        # Make sure language entries are unique
+        language_order = reduce(lambda x,y: x + [y] if not y in x else x, language_order, [])
+
+        if config.languages_filter:
+            language_order = config.language_order_user
+
+            if config.system_language_order_user:
+                if {'override': 'true'} in config.system_language_order_user:
+                    language_order = [str(x) for x in config.system_language_order_user if 'override' not in x]
+
         region_order: list[str] = config.region_order_user
-
-        if config.system_language_order_user:
-            if {'override': 'true'} in config.system_language_order_user:
-                language_order = [str(x) for x in config.system_language_order_user if 'override' not in x]
-
         if config.system_region_order_user:
             if {'override': 'true'} in config.system_region_order_user:
                 region_order = [str(x) for x in config.system_region_order_user if 'override' not in x]
@@ -455,7 +464,7 @@ class DatNode:
         return return_str
 
 
-def convert_clrmame_dat(input_dat: Dat, input_type: str, gui_input: UserInput, config: Config) -> Dat:
+def convert_clrmame_dat(input_dat: Dat, input_type: str, gui_input: UserInput|None, config: Config) -> Dat:
     """ Converts a DAT file in CLRMAMEPro format to LogiqX DAT format.
 
     Args:
@@ -753,7 +762,7 @@ def format_system_name(original_name: str, url: str = '', homepage: str = '', co
     return search_name
 
 
-def process_dat(dat_file: str, input_type: str, gui_input: UserInput, config: Config) -> Dat:
+def process_dat(dat_file: str, input_type: str, gui_input: UserInput|None, config: Config) -> Dat:
     """ Reads in an input DAT file and prepares the data for use in Retool. Also imports
     system configs, including the related clone list and metadata file.
 
@@ -1000,7 +1009,7 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput, config: Co
 
         search_games: list[Any] = root.findall('game')
 
-        if config.user_input.trace:
+        if config.user_input.trace or config.user_input.single_cpu:
             alive_bar_context = nullcontext()
             eprint('* Selecting 1G1R titles...')
         else:
@@ -1067,7 +1076,7 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput, config: Co
 
                 all_games.append(node_dict)
 
-                if not (config.user_input.trace):
+                if not (config.user_input.trace or config.user_input.single_cpu):
                     bar() # type: ignore
 
             if not all_games:
@@ -1100,10 +1109,10 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput, config: Co
 
             # Check all the user filters for invalid regex and strip it out
             if not config.user_input.no_filters:
-                config.global_exclude = regex_test(list(config.global_exclude), 'global exclude')
-                config.global_include = regex_test(list(config.global_include), 'global include')
-                config.system_exclude = regex_test(list(config.system_exclude), 'system exclude')
-                config.system_include = regex_test(list(config.system_include), 'system include')
+                config.global_exclude = regex_test(list(config.global_exclude), 'global exclude', 'user filter')
+                config.global_include = regex_test(list(config.global_include), 'global include', 'user filter')
+                config.system_exclude = regex_test(list(config.system_exclude), 'system exclude', 'user filter')
+                config.system_include = regex_test(list(config.system_include), 'system include', 'user filter')
 
             # Import the clone list
             input_dat.clone_list = import_clone_list(input_dat, gui_input, config)
@@ -1111,7 +1120,7 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput, config: Co
             # Import the metadata file
             input_dat.metadata = import_metadata(input_dat, config)
 
-            if not (config.user_input.trace):
+            if not (config.user_input.trace or config.user_input.single_cpu):
                 bar() # type: ignore
 
             # Define DatNode as the function to run on multiple processors, and
@@ -1126,17 +1135,17 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput, config: Co
                 with InterruptiblePool(int(str(os.cpu_count()))) as p:
                     process_list = (p.map(func, all_games))
 
-            if not (config.user_input.trace):
+            if not (config.user_input.trace or config.user_input.single_cpu):
                 bar() # type: ignore
 
             # Create a dictionary of titles sorted by group name
-            original_titles: dict[str, list[DatNode]] = {}
+            original_titles: dict[str, set[DatNode]] = {}
 
-            duplicate_titles: list[str] = []
+            duplicate_titles: set[str] = set()
 
             for title in process_list:
                 if title.group_name not in original_titles:
-                    original_titles[title.group_name] = []
+                    original_titles[title.group_name] = set()
 
                 # Check there isn't a duplicate title in the group, as No-Intro
                 # doesn't check for these things
@@ -1164,13 +1173,13 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput, config: Co
                         title.region_free_name = f'{title.region_free_name} (Dupe {dupe_number})'
 
                         if f'{before_rename} > {title.full_name}' not in duplicate_titles:
-                            duplicate_titles.append(f'{Font.warning_bold}{before_rename}{Font.warning} -> {Font.warning_bold}{title.full_name}{Font.warning}')
+                            duplicate_titles.add(f'{Font.warning_bold}{before_rename}{Font.warning} -> {Font.warning_bold}{title.full_name}{Font.warning}')
 
-                original_titles[title.group_name].append(title)
+                original_titles[title.group_name].add(title)
 
             input_dat.contents_dict = original_titles
 
-            if not (config.user_input.trace):
+            if not (config.user_input.trace or config.user_input.single_cpu):
                 bar() # type: ignore
 
             if duplicate_titles:

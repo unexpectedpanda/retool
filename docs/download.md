@@ -17,7 +17,7 @@ How you download and install Retool will depend on your level of comfort with co
     If you're upgrading from v1, don't overwrite the contents of the v1 folder with v2.
     Instead, start fresh with an empty folder.
 
-=== ":simple-windows: Windows binary"
+=== ":simple-windows: Windows binary (GUI only)"
     If you're a Windows user and want the easiest path, you can get Retool going in a few
     easy steps:
 
@@ -41,7 +41,7 @@ How you download and install Retool will depend on your level of comfort with co
         false positive. If the SHA256 of the downloaded ZIP matches the checksum on this
         page, you're likely safe to mark an exception in your anti-virus software.
 
-=== ":simple-python: Git and Python"
+=== ":simple-python: Git and Python (GUI and CLI)"
     If you're more comfortable with the command line, or are running on a non-Windows
     platform, then this option is for you.
 

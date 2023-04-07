@@ -1,5 +1,5 @@
 import pathlib
-import validators
+import validators # type: ignore
 
 from typing import Any
 

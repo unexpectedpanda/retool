@@ -8,13 +8,16 @@ https://github.com/unexpectedpanda/retool
 
 import multiprocessing
 import os
+import pathlib
 import sys
 import traceback
 
 import retool
 
 from PySide6 import QtCore as qtc
+from PySide6 import QtGui as qtg
 from PySide6 import QtWidgets as qtw
+from typing import Any
 
 from modules.constants import *
 from modules.config import Config
@@ -35,13 +38,14 @@ class MainWindow(qtw.QMainWindow):
     # Import the user config
     config: Config = import_config()
 
-    def __init__(self, *args, **kwargs):
+    def __init__(self, *args: Any, **kwargs: Any) -> None:
         super(MainWindow, self).__init__(*args, **kwargs)
         self.ui = Ui_MainWindow()
         self.ui.setupUi(self)
 
-        self.data = {}
+        self.data: dict[Any, Any] = {}
         self.threadpool: qtc.QThreadPool = qtc.QThreadPool()
+        self.clonelistmetadata_needed: bool = False
 
         # Limit the number of CLI threads that can run to 1. Potentially if we get
         # out of the CLI in the future and into full GUI this can be increased.
@@ -55,9 +59,6 @@ class MainWindow(qtw.QMainWindow):
         # Replace default QT widgets with customized versions
         self = custom_widgets(self)
 
-        # Set the tab order
-        # TODO: Set the tab order for replaced elements... shouldn't be so bad I think?
-
         # Disable the system settings for first launch
         self.ui.tabWidgetSystemSettings.setEnabled(False)
 
@@ -67,17 +68,23 @@ class MainWindow(qtw.QMainWindow):
         # Populate the system settings with data and set up user interactions
         setup_gui_system(self, dat_details, self.config)
 
+        # Check if clone lists or metadata files are required
+        if not (
+            pathlib.Path(self.config.path_clone_list).is_dir()
+            and pathlib.Path(self.config.path_metadata).is_dir()):
+                self.clonelistmetadata_needed = True
+
         # Set up a timer on the splitter move before writing to config
         timer_splitter = qtc.QTimer(self)
         timer_splitter.setSingleShot(True)
-        timer_splitter.timeout.connect(lambda: write_config(self, dat_details, self.config, settings_window=None))
+        timer_splitter.timeout.connect(lambda: write_config(self, dat_details, self.config, settings_window=None)) # type: ignore
 
         self.ui.splitter.splitterMoved.connect(lambda: timer_splitter.start(500))
 
         # Set up a timer on the window resize move before writing to config
         self.timer_resize = qtc.QTimer(self)
         self.timer_resize.setSingleShot(True)
-        self.timer_resize.timeout.connect(lambda: write_config(self, dat_details, self.config, settings_window=None))
+        self.timer_resize.timeout.connect(lambda: write_config(self, dat_details, self.config, settings_window=None)) # type: ignore
 
         # Add all widgets to a list that should trigger a config write if interacted with
         interactive_widgets = []
@@ -111,14 +118,25 @@ class MainWindow(qtw.QMainWindow):
                 pass
 
 
-    def resizeEvent(self, event):
+    def enable_app(self) -> None:
+        """ If all the threads have finished, re-enable the interface """
+        if (self.threadpool.activeThreadCount() == 0):
+            self.ui.buttonGo.setEnabled(True)
+            self.ui.buttonStop.hide()
+            self.ui.buttonGo.show()
+            self.ui.buttonStop.setText(qtc.QCoreApplication.translate("MainWindow", u"Stop", None)) #type: ignore
+            self.ui.buttonStop.setEnabled(True)
+            self.ui.mainProgram.setEnabled(True)
+
+
+    def resizeEvent(self, event: Any) -> None:
         """ Record the window size when the user resizes it. """
         # Set up a timer on the resize before writing to config
 
         self.timer_resize.start(500)
 
 
-    def start_retool_thread(self, data: UserInput = None) -> None:
+    def start_retool_thread(self, data: UserInput|None = None) -> None:
         """
         Start the thread that calls Retool CLI.
 
@@ -135,16 +153,6 @@ class MainWindow(qtw.QMainWindow):
         self.threadpool.start(self.new_thread)
 
 
-    def enable_app(self):
-        """ If all the threads have finished, re-enable the interface """
-        if (self.threadpool.activeThreadCount() == 0):
-            self.ui.buttonGo.setEnabled(True)
-            self.ui.buttonStop.hide()
-            self.ui.buttonGo.show()
-            self.ui.buttonStop.setText(qtc.QCoreApplication.translate("MainWindow", u"Stop", None))
-            self.ui.buttonStop.setEnabled(True)
-            self.ui.mainProgram.setEnabled(True)
-
 
 # Run the Retool process in a separate thread. Needed so we can disable/enable
 # bits of the Retool GUI as required, or cancel the process.
@@ -156,25 +164,25 @@ class Signals(qtc.QObject):
     finished = qtc.Signal(UserInput)
 
 class ThreadTask(qtc.QRunnable):
-    def __init__(self, data, argument):
+    def __init__(self, data: Any, argument: Any) -> None:
         super().__init__()
         self.data = data
         self.argument = argument
 
     @qtc.Slot()
-    def run(self):
+    def run(self) -> None:
         try:
             retool.main(self.argument)
-        except retool.ExitRetool:
+        except retool.ExitRetool: # type: ignore
             # Quietly re-enable the GUI on this exception
             pass
         except Exception:
             eprint(f'\n{Font.error}Retool has had an unexpected error. Please raise an issue at\nhttps://github.com/unexpectedpanda/retool/issues, attaching\nthe DAT file that caused the problem and the following trace:{Font.end}\n')
             traceback.print_exc()
             eprint(f'\n{Font.error}The error occurred on this file:\n{self.argument.input_file_name}{Font.end}\n')
-            self.signals.finished.emit(self.data)
+            self.signals.finished.emit(self.data) # type: ignore
 
-        self.signals.finished.emit(self.data)
+        self.signals.finished.emit(self.data) # type: ignore
 
 class RunThread(ThreadTask):
     signals: Signals = Signals()
@@ -204,5 +212,25 @@ if __name__ == "__main__":
 
     # Show the main window
     window.show()
+
+    # Prompt the user if clone lists or metadata are needed
+    if window.clonelistmetadata_needed:
+        msg = qtw.QMessageBox()
+        msg.setText('This might be the first time you\'ve run Retool, as its clone lists\n'
+                    'or metadata files are missing.\n\n'
+                    'Retool is more accurate with these files. Do you want to\n'
+                    'download them?')
+        msg.setWindowTitle('Clone lists or metadata needed')
+        msg.setStandardButtons(qtw.QMessageBox.Yes | qtw.QMessageBox.No)
+        icon = qtg.QIcon()
+        icon.addFile(u":/retoolIcon/images/retool.ico", qtc.QSize(), qtg.QIcon.Normal, qtg.QIcon.Off)
+        msg.setWindowIcon(icon)
+
+        download_update: int = msg.exec()
+
+        if download_update == qtw.QMessageBox.Yes:
+            config: Config = import_config()
+            write_config(window, dat_details, config, settings_window=None, run_retool=True, update_clone_list=True)
+
 
     sys.exit(app.exec())
