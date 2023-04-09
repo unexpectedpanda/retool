@@ -1,5 +1,6 @@
 .*
 *.dat
+!.gitattributes
 !.gitignore
 !.dev
 !tests/**/*.dat
