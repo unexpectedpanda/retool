@@ -1,3 +1,8 @@
+# 2.00.0
+
+* Fixed grouping of titles with oddly-named video standards in the filename.
+
+
 # 2.00.0 Beta 9
 
 * Fixed conditional override priorities not working.

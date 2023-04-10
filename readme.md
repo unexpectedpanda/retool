@@ -1,13 +1,5 @@
 # Retool
 
-> **:mega: Retool v2 is now available**
->
-> Retool v2 is much faster, with several new features and better accuracy.
->
-> A working version of Retool v1 is still available for download from the [v1 branch](https://github.com/unexpectedpanda/retool/tree/v1),
-however it's unsupported and issues should only be filed for v2. Clone lists and metadata
-are only being updated for v2.
-
 **This is the source repository for Retool. For downloads, installation instructions, and
 documentation, see the [website](https://unexpectedpanda.github.io/retool/).**
 

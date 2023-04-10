@@ -1050,5 +1050,5 @@ The SHA256 hashes in that file are then compared against the clone lists on the 
 disk. If a clone list hash doesn't match, then a new version of that file is downloaded
 from the same location as listed above.
 
-When submitting PRs for clone lists, make sure to also update the appropriate `hash.json`
-file with the SHA256 hash of the updated or new clone list.
+After your PR has been merged, the `hash.json` is updated by unexpectedpanda with the
+SHA256 hash of the updated or new clone lists.

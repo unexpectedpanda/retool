@@ -56,10 +56,11 @@ nav:
   - download.md
   - changelog.md
   - Understanding Retool:
+    - terminology.md
     - retool-1g1r.md
     - clone-lists.md
+    - what-qualifies-as-a-clone.md
     - dat-support.md
-    - terminology.md
   - How to use Retool:
     - 'Retool GUI': how-to-use-retool-gui.md
     - 'Retool CLI': how-to-use-retool-cli.md

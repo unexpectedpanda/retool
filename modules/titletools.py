@@ -644,14 +644,14 @@ class Regex:
         self.sega_panasonic_ring_code: Pattern[str] = re.compile('\\((?:(?:[0-9]{1,2}[ABCMRS],? ?)*|R[E]?[-]?[0-9]*)\\)')
 
         # Video standards
-        self.mpal_1: Pattern[str] = re.compile('( -)?[( ]MPAL[ \\)]')
-        self.ntsc_1: Pattern[str] = re.compile('( -)?[( ]NTSC[ \\)]')
+        self.mpal_1: Pattern[str] = re.compile('(?:-)?[( ]MPAL\\)?')
+        self.ntsc_1: Pattern[str] = re.compile('(?:-)?[( ]NTSC\\)?')
         self.ntsc_2: Pattern[str] = re.compile('\\[(.*)?NTSC(.*)?\\]')
         self.ntsc_pal: Pattern[str] = re.compile('[( ]NTSC-PAL(\\))?')
-        self.pal_1: Pattern[str] = re.compile('( -)?[( ]PAL(?: [a-zA-Z]+| 50Hz)?(?:\\)| (?=\\())')
+        self.pal_1: Pattern[str] = re.compile('( -)?[( ]PAL(?: [a-zA-Z]+| 50[Hh]z)?(?:\\)?| (?=\\())')
         self.pal_2: Pattern[str] = re.compile('\\[(.*)?PAL(?!P)(.*)?\\]')
-        self.pal_60: Pattern[str] = re.compile('\\(PAL 60Hz\\)')
-        self.secam_1: Pattern[str] = re.compile('( -)?[( ]SECAM[ \\)]')
+        self.pal_60: Pattern[str] = re.compile('\\(PAL 60[Hh]z\\)')
+        self.secam_1: Pattern[str] = re.compile('(?:-)?[( ]SECAM\\)?')
         self.secam_2: Pattern[str] = re.compile('\\[(.*)?SECAM(.*)?\\]')
 
         # Other tags
@@ -1112,6 +1112,23 @@ class TitleTools(object):
         if re.search(config.regex.version_non_parens, name):
             name = re.sub(config.regex.version_non_parens, '', name)
 
+        # Video standard compensation
+        for pattern in config.regex.ntsc:
+            if re.search(pattern, name):
+                name = re.sub(pattern, '', name)
+
+        for pattern in config.regex.pal:
+            if re.search(pattern, name):
+                name = re.sub(pattern, '', name)
+
+        for pattern in config.regex.pal_60hz:
+            if re.search(pattern, name):
+                name = re.sub(pattern, '', name)
+
+        for pattern in config.regex.secam:
+            if re.search(pattern, name):
+                name = re.sub(pattern, '', name)
+
         return name.lower().replace('  ', ' ').strip()
 
 
@@ -1277,7 +1294,7 @@ class TraceTools(object):
         if trace_reference == 'REF0006': message = f'{Font.bold}[{variable[0]}]{Font.end} Group after handling special editions:'
         if trace_reference == 'REF0007': message = f'{Font.bold}[{variable[0]}]{Font.end} Group after handling versions and revisions:'
         if trace_reference == 'REF0008': message = f'{Font.bold}[{variable[0]}]{Font.end} Group after handling modern title rips:'
-        if trace_reference == 'REF0009': message = f'{Font.bold}[{variable[0]}]{Font.end} Group after choosing dates:'
+        if trace_reference == 'REF0009': message = f'{Font.bold}[{variable[0]}]{Font.end} Group after choosing video standard:'
         if trace_reference == 'REF0010': message = f'{Font.bold}[{variable[0]}]{Font.end} Group after choosing good, original versions over alternatives:'
         if trace_reference == 'REF0011': message = f'{Font.bold}[{variable[0]}]{Font.end} Group after handling promotions and demotions:'
         if trace_reference == 'REF0012': message = f'{Font.bold}[{variable[0]}]{Font.end} Group after handling "Made in" titles:'
