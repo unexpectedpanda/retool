@@ -688,7 +688,7 @@ class Regex:
         )
 
         self.demos: tuple[Pattern[str], ...] = (
-            re.compile('\\((?:\\w[-.]?\\s*)*Demo(?:\\s[\\w0-9\.]*)*\\)', flags=re.I),
+            re.compile('\\((?:\\w[-.]?\\s*)*Demo(?:,?\\s[\\w0-9\.]*)*\\)', flags=re.I),
             re.compile('Taikenban', flags=re.I),
             re.compile('\\(@barai\\)', flags=re.I),
             re.compile('\\(GameCube Preview\\)', flags=re.I),
@@ -1294,7 +1294,7 @@ class TraceTools(object):
         if trace_reference == 'REF0006': message = f'{Font.bold}[{variable[0]}]{Font.end} Group after handling special editions:'
         if trace_reference == 'REF0007': message = f'{Font.bold}[{variable[0]}]{Font.end} Group after handling versions and revisions:'
         if trace_reference == 'REF0008': message = f'{Font.bold}[{variable[0]}]{Font.end} Group after handling modern title rips:'
-        if trace_reference == 'REF0009': message = f'{Font.bold}[{variable[0]}]{Font.end} Group after choosing video standard:'
+        if trace_reference == 'REF0009': message = f'{Font.bold}[{variable[0]}]{Font.end} Group after choosing dates:'
         if trace_reference == 'REF0010': message = f'{Font.bold}[{variable[0]}]{Font.end} Group after choosing good, original versions over alternatives:'
         if trace_reference == 'REF0011': message = f'{Font.bold}[{variable[0]}]{Font.end} Group after handling promotions and demotions:'
         if trace_reference == 'REF0012': message = f'{Font.bold}[{variable[0]}]{Font.end} Group after handling "Made in" titles:'
@@ -1381,6 +1381,7 @@ class TraceTools(object):
         if trace_reference == 'REF0093': message = 'ACTION: Tie breaker, remove the compilation title:'
         if trace_reference == 'REF0094': message = 'ACTION: Favor primary region higher up user region order (individual title vs compilation):'
         if trace_reference == 'REF0095': message = 'ACTION: Favor primary region higher up user region order (individual title vs compilation):'
+        if trace_reference == 'REF0096': message = f'{Font.bold}[{variable[0]}]{Font.end} Group after choosing video standard:'
 
         if trace_reference:
             eprint(f'\n{Font.bold}{Font.underline}{trace_reference}{Font.end}: {message}{Font.end}\n')

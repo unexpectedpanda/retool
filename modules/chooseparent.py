@@ -1893,7 +1893,7 @@ class ParentTools(object):
                         for video_standard in video_order:
                             parent_titles = ParentTools.choose_video_standard(video_standard.lower(), parent_titles, config, report_on_match)
 
-                    if report_on_match: TraceTools.trace_title('REF0009', [group_name], parent_titles, keep_remove=False)
+                    if report_on_match: TraceTools.trace_title('REF0096', [group_name], parent_titles, keep_remove=False)
 
                     # 11) Second language pass -- required to allow versions/revisions to be correctly selected
                     if len(parent_titles) > 1: parent_titles = ParentTools.choose_language(parent_titles, config, report_on_match, first_time=False)
