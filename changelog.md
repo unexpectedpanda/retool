@@ -1,3 +1,8 @@
+# 2.00.2
+
+* Expanded support for some newer No-Intro DATs.
+
+
 # 2.00.1
 
 * Expanded the demo regex to incorporate a set of Genesis demos.

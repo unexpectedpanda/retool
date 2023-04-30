@@ -5,6 +5,16 @@ hide:
 
 # Changelog
 
+# 2.00.2
+
+* Expanded support for some newer No-Intro DATs.
+
+
+# 2.00.1
+
+* Expanded the demo regex to incorporate a set of Genesis demos.
+
+
 # 2.00.0
 
 * Fixed grouping of titles with oddly-named video standards in the filename.

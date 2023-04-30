@@ -713,7 +713,7 @@ def format_system_name(original_name: str, url: str = '', homepage: str = '', co
         `str`: The formatted system name.
     """
 
-    remove_string: str = ' \\((Parent-Clone|BETA|Combined|J64|ROM|Decrypted|Encrypted|BigEndian|ByteSwapped|Deprecated|Headered|Headerless)\\)'
+    remove_string: str = ' \\((Parent-Clone|BETA|Combined|J64|ROM|Decrypted|Encrypted|BigEndian|ByteSwapped|Deprecated|Headered|Headerless|Private)\\)'
     search_name: str  = ''
 
     if re.search(remove_string, original_name) != None:
