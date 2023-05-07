@@ -1,4 +1,4 @@
-# 2.00.2
+# 2.00.3
 
 * Due to the influx of pirate ROMs in the No-Intro NES DAT, pirate ROMs are now treated
   like bad dumps. That is, they are demoted below licensed variations of games, even if
