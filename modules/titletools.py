@@ -1288,7 +1288,7 @@ class TraceTools(object):
         message: str = ''
         if trace_reference == 'REF0001': message = f'{Font.bold}[{variable[0]}]{Font.end} Original unmodified group:'
         if trace_reference == 'REF0002': message = f'{Font.bold}[{variable[0]}]{Font.end} Group after taking clone list priorities into account:'
-        if trace_reference == 'REF0003': message = f'{Font.bold}[{variable[0]}]{Font.end} Group after cleaning up preproduction/bad/mixed version-revision titles:'
+        if trace_reference == 'REF0003': message = f'{Font.bold}[{variable[0]}]{Font.end} Group after cleaning up preproduction/bad/pirate/mixed version-revision titles:'
         if trace_reference == 'REF0004': message = f'{Font.bold}[{variable[0]}]{Font.end} Group after handling modern title rips:'
         if trace_reference == 'REF0005': message = f'{Font.bold}[{variable[0]}]{Font.end} [First pass] Group after filtering by user language order:'
         if trace_reference == 'REF0006': message = f'{Font.bold}[{variable[0]}]{Font.end} Group after handling special editions:'

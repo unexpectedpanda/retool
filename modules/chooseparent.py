@@ -234,7 +234,7 @@ class ParentTools(object):
 
                 if report_on_match_compilations: TraceTools.trace_title('REF0067', [group], title_comparison_set, keep_remove=False)
 
-                # Filter by preproduction
+                # Filter by preproduction and pirate
                 group_titles = ParentTools.remove_preprod_bad(title_comparison_set, config)
 
                 if report_on_match_compilations: TraceTools.trace_title('REF0092', [group], group_titles, keep_remove=False)
@@ -1503,6 +1503,7 @@ class ParentTools(object):
 
                     pattern_list: list[Pattern[str]] = list(config.regex.preproduction)
                     pattern_list.append(config.regex.bad)
+                    pattern_list.append(config.regex.pirate)
 
                     for regex_pattern in pattern_list:
                         if (
@@ -1745,7 +1746,7 @@ class ParentTools(object):
         short_name_titles: dict[str, list[DatNode]] = {}
         short_name_top_languages: set[tuple[str, int, str]] = set()
 
-        # Filter out bad dumps and preproduction titles
+        # Filter out bad dumps, pirate, and preproduction titles
         for short_name in short_names:
             for title in title_set:
                 if (
@@ -1755,6 +1756,9 @@ class ParentTools(object):
 
                         for regex_pattern in config.regex.preproduction:
                             if re.search(regex_pattern, title.full_name):
+                                regex_match = True
+
+                        if re.search(config.regex.pirate, title.full_name):
                                 regex_match = True
 
                         if not regex_match:
@@ -1773,6 +1777,16 @@ class ParentTools(object):
                                         short_name_titles[short_name] = []
                                     if title not in short_name_titles[short_name]:
                                         short_name_titles[short_name].append(title)
+
+            # Add pirate titles back in if they are the only ones in the set
+            if not short_name_titles:
+                for title in title_set:
+                    if title.short_name == short_name:
+                        if re.search(config.regex.pirate, title.full_name):
+                            if short_name not in short_name_titles:
+                                short_name_titles[short_name] = []
+                            if title not in short_name_titles[short_name]:
+                                short_name_titles[short_name].append(title)
 
             # Add bad dumps back in if they are the only ones in the set
             if not short_name_titles:
@@ -1811,7 +1825,7 @@ class ParentTools(object):
                     if report_on_match: eprint(f'\n{Font.subheading}Region: {region}{Font.end}')
                     if report_on_match: TraceTools.trace_title('REF0001', [group_name], parent_titles, keep_remove=False)
 
-                    # 1) Clean up preproduction/bad/mixed version-revision titles
+                    # 1) Clean up preproduction/bad/pirate/mixed version-revision titles
                     if len(parent_titles) > 1: parent_titles = ParentTools.remove_preprod_bad(parent_titles, config)
 
                     if report_on_match: TraceTools.trace_title('REF0003', [group_name], parent_titles, keep_remove=False)
@@ -2056,6 +2070,7 @@ class ParentTools(object):
             pattern_list: list[Pattern[str]] = list(config.regex.preproduction)
 
             pattern_list.append(config.regex.bad)
+            pattern_list.append(config.regex.pirate)
 
             if not config.user_input.modern:
                 pattern_list.extend(config.tags_modern_editions)
@@ -2093,6 +2108,10 @@ class ParentTools(object):
 
                                                 # Candidate is a bad dump
                                                 if re.search(config.regex.bad, original_title.full_name):
+                                                    bad_match = True
+
+                                                # Candidate is a pirate title
+                                                if re.search(config.regex.pirate, original_title.full_name):
                                                     bad_match = True
 
                                                 # Tags match
