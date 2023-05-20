@@ -2438,7 +2438,7 @@ class Ui_MainWindow(object):
         self.scrollAreaSystemOptions.setWidgetResizable(True)
         self.layoutScrollAreaSystemOptions = QWidget()
         self.layoutScrollAreaSystemOptions.setObjectName(u"layoutScrollAreaSystemOptions")
-        self.layoutScrollAreaSystemOptions.setGeometry(QRect(0, 0, 422, 725))
+        self.layoutScrollAreaSystemOptions.setGeometry(QRect(0, 0, 573, 725))
         sizePolicy5.setHeightForWidth(self.layoutScrollAreaSystemOptions.sizePolicy().hasHeightForWidth())
         self.layoutScrollAreaSystemOptions.setSizePolicy(sizePolicy5)
         self.verticalLayout_22 = QVBoxLayout(self.layoutScrollAreaSystemOptions)
@@ -2702,6 +2702,7 @@ class Ui_MainWindow(object):
         self.tabSystemUserFilters.setObjectName(u"tabSystemUserFilters")
         self.verticalLayout_4 = QVBoxLayout(self.tabSystemUserFilters)
         self.verticalLayout_4.setObjectName(u"verticalLayout_4")
+        self.verticalLayout_4.setContentsMargins(-1, -1, 9, 9)
         self.scrollAreaSystemUserFilters = QScrollArea(self.tabSystemUserFilters)
         self.scrollAreaSystemUserFilters.setObjectName(u"scrollAreaSystemUserFilters")
         self.scrollAreaSystemUserFilters.setFocusPolicy(Qt.NoFocus)
@@ -2712,12 +2713,12 @@ class Ui_MainWindow(object):
         self.scrollAreaSystemUserFilters.setAlignment(Qt.AlignLeading|Qt.AlignLeft|Qt.AlignVCenter)
         self.scrollAreaWidgetContentsSystemUserFilters = QWidget()
         self.scrollAreaWidgetContentsSystemUserFilters.setObjectName(u"scrollAreaWidgetContentsSystemUserFilters")
-        self.scrollAreaWidgetContentsSystemUserFilters.setGeometry(QRect(0, 0, 182, 553))
+        self.scrollAreaWidgetContentsSystemUserFilters.setGeometry(QRect(0, 0, 590, 393))
         self.scrollAreaWidgetContentsSystemUserFilters.setMinimumSize(QSize(0, 0))
         self.gridLayoutSystemUserFilters = QGridLayout(self.scrollAreaWidgetContentsSystemUserFilters)
         self.gridLayoutSystemUserFilters.setObjectName(u"gridLayoutSystemUserFilters")
         self.gridLayoutSystemUserFilters.setSizeConstraint(QLayout.SetMinimumSize)
-        self.gridLayoutSystemUserFilters.setContentsMargins(0, 0, 18, 10)
+        self.gridLayoutSystemUserFilters.setContentsMargins(0, 0, 0, 10)
         self.textEditSystemInclude = CustomTextEdit(self.scrollAreaWidgetContentsSystemUserFilters)
         self.textEditSystemInclude.setObjectName(u"textEditSystemInclude")
         sizePolicy.setHeightForWidth(self.textEditSystemInclude.sizePolicy().hasHeightForWidth())
@@ -3419,7 +3420,7 @@ class Ui_MainWindow(object):
 "that lists what titles have been kept, and what\n"
 "titles have been removed", None))
 #endif // QT_CONFIG(tooltip)
-        self.checkBoxGlobalOptionsKeepRemove.setText(QCoreApplication.translate("MainWindow", u"Also output lists of what titles have been kept and removed", None))
+        self.checkBoxGlobalOptionsKeepRemove.setText(QCoreApplication.translate("MainWindow", u"Also output a list of what titles have been kept and removed", None))
 #if QT_CONFIG(tooltip)
         self.checkBoxGlobalOptions1G1RNames.setToolTip(QCoreApplication.translate("MainWindow", u"In addition to the output DAT file, produce a TXT file that lists only\n"
 "the name of each title in the output DAT file, and optionally add a prefix\n"
@@ -3780,7 +3781,7 @@ class Ui_MainWindow(object):
 "that lists what titles have been kept, and what\n"
 "titles have been removed", None))
 #endif // QT_CONFIG(tooltip)
-        self.checkBoxSystemOptionsKeepRemove.setText(QCoreApplication.translate("MainWindow", u"Also output lists of what titles have been kept and removed", None))
+        self.checkBoxSystemOptionsKeepRemove.setText(QCoreApplication.translate("MainWindow", u"Also output a list of what titles have been kept and removed", None))
 #if QT_CONFIG(tooltip)
         self.checkBoxSystemOptions1G1RNames.setToolTip(QCoreApplication.translate("MainWindow", u"In addition to the output DAT file, produce a TXT file that lists only\n"
 "the name of each title in the output DAT file, and optionally add a prefix\n"

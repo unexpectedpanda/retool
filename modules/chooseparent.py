@@ -613,18 +613,14 @@ class ParentTools(object):
         # Check if a system config is in play
         language_order: list[str] = []
 
-        for region in config.region_order_user:
-            language_order.extend(config.languages_filter[region])
-
-        # Make sure language entries are unique
-        language_order = reduce(lambda x,y: x + [y] if not y in x else x, language_order, [])
-
         if config.languages_filter:
             language_order = config.language_order_user
 
             if config.system_language_order_user:
                 if {'override': 'true'} in config.system_language_order_user:
                     language_order = [str(x) for x in config.system_language_order_user if 'override' not in x]
+        else:
+            language_order = config.region_order_languages_user
 
         # Select titles based on language
         remove_titles: set[DatNode] = set()
@@ -675,8 +671,38 @@ class ParentTools(object):
                                 break
 
                     if not language_found:
-                        # Cycle through implied language order
+                        if config.languages_filter:
+                            # Cycle through implied languages from region order as the first fallback
+                            for language in config.region_order_languages_user:
+                                if (
+                                    re.search(language, ','.join(title_1.languages))
+                                    and not re.search(language, ','.join(title_2.languages))):
+                                    if title_2 in title_set:
+                                            if report_on_match:
+                                                TraceTools.trace_title('REF0097', [', '.join(config.region_order_languages_user)])
+                                                TraceTools.trace_title('', [f'{Font.italic}({",".join(title_1.languages) + ")":<30}{Font.end} [{title_1.short_name}] {title_1.full_name}', f'{Font.italic}({",".join(title_2.languages) + ")":<30}{Font.end}{Font.disabled} [{title_2.short_name}] {title_2.full_name}{Font.end}'], keep_remove=True)
+
+                                            remove_titles.add(title_2)
+                                            language_found = True
+                                            break
+                                elif (
+                                    re.search(language, ','.join(title_2.languages))
+                                    and not re.search(language, ','.join(title_1.languages))):
+                                        if title_1 in title_set:
+                                            if report_on_match:
+                                                TraceTools.trace_title('REF0098', [', '.join(list(config.region_order_languages_user))])
+                                                TraceTools.trace_title('', [f'{Font.italic}({",".join(title_2.languages) + ")":<30}{Font.end} [{title_2.short_name}] {title_2.full_name}', f'{Font.italic}({",".join(title_1.languages) + ")":<30}{Font.end}{Font.disabled} [{title_1.short_name}] {title_1.full_name}{Font.end}'], keep_remove=True)
+
+                                            remove_titles.add(title_1)
+                                            language_found = True
+                                            break
+
+                    if not language_found:
+                        # Cycle through implied languages from the default region order as the second fallback
                         implied_languages: list[str] = [x[0] for x in config.languages_implied.values()]
+
+                        # Make sure language entries are unique
+                        implied_languages = reduce(lambda x,y: x + [y] if not y in x else x, implied_languages, [])
                         for language in implied_languages:
                             if (
                                 re.search(language, ','.join(title_1.languages))
@@ -702,7 +728,7 @@ class ParentTools(object):
                                         break
 
                     if not language_found:
-                        # Choose the title with more languages
+                        # Choose the title with more languages as the third fallback
                         if len(title_1.languages) > len (title_2.languages):
                             if report_on_match: TraceTools.trace_title('REF0081', [title_1.full_name, title_2.full_name], set(), keep_remove=True)
                             if title_2 in title_set:
@@ -1459,7 +1485,7 @@ class ParentTools(object):
             for key, values in parent_clash.items():
                 if values['assigned_clone']:
                     eprint(f'\n{Font.warning}* {Font.warning_bold}{key}{Font.warning} should be a parent, but is set as a clone of\n  {Font.warning_bold}{values["assigned_clone"]}{Font.warning}{Font.end}')
-                    eprint(f'\n  {Font.warning}This likely isn\'t an issue, and just a side effect of region and language settings.{Font.end}')
+                    eprint(f'\n  {Font.warning}Sometimes this can happen because there\'s a duplicate entry in the clone list.\nOther times it\'s just a side effect of region and language settings.{Font.end}')
 
                 if values['clones']:
                     eprint(f'\n  {Font.warning}Titles that have {Font.warning_bold}{key}{Font.warning} as a parent:{Font.end}\n')
@@ -1696,18 +1722,14 @@ class ParentTools(object):
         # Check if a system config is in play
         language_order: list[str] = []
 
-        for region in config.region_order_user:
-            language_order.extend(config.languages_filter[region])
-
-        # Make sure language entries are unique
-        language_order = reduce(lambda x,y: x + [y] if not y in x else x, language_order, [])
-
         if config.languages_filter:
             language_order = config.language_order_user
 
             if config.system_language_order_user:
                 if {'override': 'true'} in config.system_language_order_user:
                     language_order = [str(x) for x in config.system_language_order_user if 'override' not in x]
+        else:
+            language_order = config.region_order_languages_user
 
         region_order: list[str] = config.region_order_user
 

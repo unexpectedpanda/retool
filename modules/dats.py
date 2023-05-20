@@ -354,18 +354,14 @@ class DatNode:
         # Check if a system config is in play
         language_order: list[str] = []
 
-        for region in config.region_order_user:
-            language_order.extend(config.languages_filter[region])
-
-        # Make sure language entries are unique
-        language_order = reduce(lambda x,y: x + [y] if not y in x else x, language_order, [])
-
         if config.languages_filter:
             language_order = config.language_order_user
 
             if config.system_language_order_user:
                 if {'override': 'true'} in config.system_language_order_user:
                     language_order = [str(x) for x in config.system_language_order_user if 'override' not in x]
+        else:
+            language_order = config.region_order_languages_user
 
         region_order: list[str] = config.region_order_user
         if config.system_region_order_user:

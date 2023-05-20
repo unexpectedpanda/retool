@@ -5,22 +5,84 @@ hide:
 
 # Changelog
 
-# 2.00.2
+## 2.00.4
+
+* Added another level of language selection fallback if you have a language order
+  specified. If Retool finds none of the languages it's looking for in your language
+  order when it compares titles, its next step is to check the language order derived from
+  your region order.
+
+  This is most beneficial for European titles when you're filtering by a language, and
+  want to _preference_ but not _filter_ by other languages. You might want to do this when
+  you want a title that was released in a specific country, but due to No-Intro and Redump
+  naming rules gets assigned to the Europe region.
+
+  For example, if a DAT file has the following titles:
+
+  * _Example Title (Europe) (En,Fr,De,It)_
+  * _Example Title (Europe) (En,Es,Pt)_
+
+  And you have the following region order:
+
+  1. Europe
+  1. Spain
+  1. Portugal
+  1. France
+
+  And you filter by English and no other language, Retool used to choose
+  _Example Title (Europe) (En,Fr,De,It)_, as it contains English (the only language you
+  specified in your language priority) and has the most languages.
+
+  But given your region order, you've expressed a clear preference for Spanish and
+  Portuguese above French.
+
+  Now because of the new region order language fallback, the language order effectively
+  becomes:
+
+  1. English (explicity in the language filter, and also the implied language for Europe)
+  1. Spanish
+  1. Portuguese
+  1. French
+
+  You still only get titles that support English because of the filter, however this means
+  that Retool now selects _Example Title (Europe) (En,Es,Pt)_ instead of
+  _Example Title (Europe) (En,Fr,De,It)_.
+
+* Added granularity back to the kept/removed list. Instead of filing every user exclusion
+  under "category removes", Retool now categorizes under individual exclusions like
+  "application", "audio", "bad dump" and so on.
+
+* Made heading underlines in the kept/removed list variable depending on heading length.
+
+* Fixed an index heading in the kept/removed list that incorrectly had "system excludes"
+  instead of "global excludes".
+
+* Made some minor GUI tweaks for consistency.
+
+
+## 2.00.3
+
+* Due to the influx of pirate ROMs in the No-Intro NES DAT, pirate ROMs are now treated
+  like bad dumps. That is, they are demoted below licensed variations of games, even if
+  the pirate ROM is in a preferred language and the licensed version isn't.
+
+
+## 2.00.2
 
 * Expanded support for some newer No-Intro DATs.
 
 
-# 2.00.1
+## 2.00.1
 
 * Expanded the demo regex to incorporate a set of Genesis demos.
 
 
-# 2.00.0
+## 2.00.0
 
 * Fixed grouping of titles with oddly-named video standards in the filename.
 
 
-# 2.00.0 Beta 9
+## 2.00.0 Beta 9
 
 * Fixed conditional override priorities not working.
 

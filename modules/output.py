@@ -394,7 +394,23 @@ class WriteFiles(object):
         if (
             title_names_with_clones
             or titles_without_clones
-            or removes.category_removes
+            or removes.add_ons_removes
+            or removes.applications_removes
+            or removes.audio_removes
+            or removes.bad_dumps_removes
+            or removes.bios_removes
+            or removes.bonus_discs_removes
+            or removes.coverdiscs_removes
+            or removes.demos_removes
+            or removes.educational_removes
+            or removes.manuals_removes
+            or removes.mia_removes
+            or removes.multimedia_removes
+            or removes.pirate_removes
+            or removes.preproduction_removes
+            or removes.promotional_removes
+            or removes.unlicensed_removes
+            or removes.video_removes
             or removes.clonelist_removes
             or removes.mia_removes
             or removes.language_removes
@@ -406,12 +422,27 @@ class WriteFiles(object):
                 log_file_contents.append('Search for these section names to jump to that part of the file.\n\n')
                 if title_names_with_clones: log_file_contents.append('* TITLES WITH CLONES\n')
                 if titles_without_clones: log_file_contents.append('* TITLES WITHOUT CLONES\n')
-                if removes.category_removes: log_file_contents.append('* CATEGORY REMOVES\n')
+                if removes.add_ons_removes: log_file_contents.append('* ADD-ON REMOVES\n')
+                if removes.applications_removes: log_file_contents.append('* APPLICATION REMOVES\n')
+                if removes.audio_removes: log_file_contents.append('* AUDIO REMOVES\n')
+                if removes.bad_dumps_removes: log_file_contents.append('* BAD DUMP REMOVES\n')
+                if removes.bios_removes: log_file_contents.append('* BIOS AND OTHER CHIP REMOVES\n')
+                if removes.bonus_discs_removes: log_file_contents.append('* BONUS DISC REMOVES\n')
+                if removes.coverdiscs_removes: log_file_contents.append('* COVERDISC REMOVES\n')
+                if removes.demos_removes: log_file_contents.append('* DEMO, KIOSK, AND SAMPLE REMOVES\n')
+                if removes.educational_removes: log_file_contents.append('* EDUCATIONAL REMOVES\n')
+                if removes.manuals_removes: log_file_contents.append('* MANUAL REMOVES\n')
+                if removes.mia_removes: log_file_contents.append('* MIA REMOVES\n')
+                if removes.multimedia_removes: log_file_contents.append('* MULTIMEDIA REMOVES\n')
+                if removes.pirate_removes: log_file_contents.append('* PIRATE REMOVES\n')
+                if removes.preproduction_removes: log_file_contents.append('* PREPRODUCTION REMOVES\n')
+                if removes.promotional_removes: log_file_contents.append('* PROMOTIONAL REMOVES\n')
+                if removes.unlicensed_removes: log_file_contents.append('* UNLICENSED REMOVES\n')
+                if removes.video_removes: log_file_contents.append('* VIDEO REMOVES\n')
                 if removes.clonelist_removes: log_file_contents.append('* CLONE LIST REMOVES\n')
                 if removes.language_removes: log_file_contents.append('* LANGUAGE REMOVES\n')
-                if removes.mia_removes: log_file_contents.append('* MIA REMOVES\n')
                 if removes.region_removes: log_file_contents.append('* REGION REMOVES\n')
-                if removes.global_excludes: log_file_contents.append('* SYSTEM EXCLUDES\n')
+                if removes.global_excludes: log_file_contents.append('* GLOBAL EXCLUDES\n')
                 if removes.system_excludes: log_file_contents.append('* SYSTEM EXCLUDES\n')
 
                 log_file_contents.append('\n')
@@ -429,17 +460,37 @@ class WriteFiles(object):
                                 log_file_contents.append('\n')
 
                 if titles_without_clones:
-                    log_file_contents.append('\nTITLES WITHOUT CLONES\n==================\n\n')
+                    log_file_contents.append('\nTITLES WITHOUT CLONES\n=====================\n\n')
 
                     for title in sorted(titles_without_clones, key=lambda x: x.full_name):
                         log_file_contents.append(f'+ {title.full_name}\n')
 
-                if removes.category_removes:
-                    log_file_contents.append('\nCATEGORY REMOVES\n==================\n')
-                    log_file_contents.append('These titles were removed because the user excluded one or more categories.\n\n')
+                def user_removes(removes_type: str, removes_list: list[DatNode]) -> None:
+                    if removes_list:
+                        log_file_contents.append(f'\n{removes_type.upper()} REMOVES\n')
+                        log_file_contents.append('='*len(f'{removes_type.upper()} REMOVES'))
+                        log_file_contents.append(f'\nThese titles were removed because the user excluded {removes_type} titles.\n\n')
 
-                    for title in sorted(removes.category_removes, key=lambda x: x.full_name):
-                        log_file_contents.append(f'- {title.full_name}\n')
+                        for title in sorted(removes_list, key=lambda x: x.full_name):
+                            log_file_contents.append(f'- {title.full_name}\n')
+
+                user_removes('add-on', removes.add_ons_removes)
+                user_removes('application', removes.applications_removes)
+                user_removes('audio', removes.audio_removes)
+                user_removes('bad dump', removes.bad_dumps_removes)
+                user_removes('BIOS and other chip', removes.bios_removes)
+                user_removes('bonus disc', removes.bonus_discs_removes)
+                user_removes('coverdisc', removes.coverdiscs_removes)
+                user_removes('demo, kiosk, and sample', removes.demos_removes)
+                user_removes('educational', removes.educational_removes)
+                user_removes('manual', removes.manuals_removes)
+                user_removes('mia', removes.mia_removes)
+                user_removes('multimedia', removes.multimedia_removes)
+                user_removes('pirate', removes.pirate_removes)
+                user_removes('preproduction', removes.preproduction_removes)
+                user_removes('promotional', removes.promotional_removes)
+                user_removes('unlicensed', removes.unlicensed_removes)
+                user_removes('video', removes.video_removes)
 
                 if removes.clonelist_removes:
                     log_file_contents.append('\nCLONE LIST REMOVES\n==================\n')
@@ -449,35 +500,28 @@ class WriteFiles(object):
                         log_file_contents.append(f'- {title.full_name}\n')
 
                 if removes.language_removes:
-                    log_file_contents.append('\nLANGUAGE REMOVES\n==================\n')
+                    log_file_contents.append('\nLANGUAGE REMOVES\n================\n')
                     log_file_contents.append('These titles were removed because the user excluded one or more languages.\n\n')
 
                     for title in sorted(removes.language_removes, key=lambda x: x.full_name):
                         log_file_contents.append(f'- {title.full_name}\n')
 
-                if removes.mia_removes:
-                    log_file_contents.append('\nMIA REMOVES\n==================\n')
-                    log_file_contents.append('These titles were removed because the user excluded MIA titles.\n\n')
-
-                    for title in sorted(removes.mia_removes, key=lambda x: x.full_name):
-                        log_file_contents.append(f'- {title.full_name}\n')
-
                 if removes.region_removes:
-                    log_file_contents.append('\nREGION REMOVES\n==================\n')
+                    log_file_contents.append('\nREGION REMOVES\n==============\n')
                     log_file_contents.append('These titles were removed because the user excluded one or more regions.\n\n')
 
                     for title in sorted(removes.region_removes, key=lambda x: x.full_name):
                         log_file_contents.append(f'- {title.full_name}\n')
 
                 if removes.global_excludes:
-                    log_file_contents.append('\nGLOBAL EXCLUDES\n==================\n')
+                    log_file_contents.append('\nGLOBAL EXCLUDES\n===============\n')
                     log_file_contents.append('These titles were removed because they matched the user\'s global excludes.\n\n')
 
                     for title in sorted(removes.global_excludes, key=lambda x: x.full_name):
                         log_file_contents.append(f'- {title.full_name}\n')
 
                 if removes.system_excludes:
-                    log_file_contents.append('\nSYSTEM EXCLUDES\n==================\n')
+                    log_file_contents.append('\nSYSTEM EXCLUDES\n===============\n')
                     log_file_contents.append('These titles were removed because they matched the user\'s system excludes.\n\n')
 
                     for title in sorted(removes.system_excludes, key=lambda x: x.full_name):

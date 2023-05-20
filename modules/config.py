@@ -326,6 +326,7 @@ class Config:
                         first_run_gui=first_run_gui)
 
         # Import the user config file
+        self.region_order_languages_user: list[str] = []
         self.language_order_user: list[str] = []
         self.languages_user_found: bool = False
         self.region_order_user: list[str] = []
@@ -365,16 +366,18 @@ class Config:
         if user_config.data[user_gui_settings_key]:
             self.user_gui_settings = user_config.data[user_gui_settings_key]
 
-        # Change the user languages list to be regex strings instead of language
-        # names
+        # Get the language order as determined by user regions and user languages, change
+        # the user languages list to be regex strings instead of language names
+        for region in self.region_order_user:
+            self.region_order_languages_user.extend(self.languages_filter[region])
+
+        # Make sure language entries are unique
+        self.region_order_languages_user = reduce(lambda x,y: x + [y] if not y in x else x, self.region_order_languages_user, [])
+
         language_list: list[str] = []
 
         if not self.language_order_user:
-            for region in self.region_order_user:
-                language_list.extend(self.languages_filter[region])
-
-            # Make sure language entries are unique
-            language_list = reduce(lambda x,y: x + [y] if not y in x else x, language_list, [])
+            language_list = self.region_order_languages_user
         else:
             self.languages_user_found = True
 

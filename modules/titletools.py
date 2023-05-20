@@ -17,10 +17,25 @@ class Removes():
     def __init__ (self) -> None:
         """ Creates an object that contains titles that have been removed. """
 
-        self.category_removes: set[DatNode] = set()
+        self.add_ons_removes: set[DatNode] = set()
+        self.applications_removes: set[DatNode] = set()
+        self.audio_removes: set[DatNode] = set()
+        self.bad_dumps_removes: set[DatNode] = set()
+        self.bios_removes: set[DatNode] = set()
+        self.bonus_discs_removes: set[DatNode] = set()
+        self.coverdiscs_removes: set[DatNode] = set()
+        self.demos_removes: set[DatNode] = set()
+        self.educational_removes: set[DatNode] = set()
+        self.manuals_removes: set[DatNode] = set()
+        self.mia_removes: set[DatNode] = set()
+        self.multimedia_removes: set[DatNode] = set()
+        self.pirate_removes: set[DatNode] = set()
+        self.preproduction_removes: set[DatNode] = set()
+        self.promotional_removes: set[DatNode] = set()
+        self.unlicensed_removes: set[DatNode] = set()
+        self.video_removes: set[DatNode] = set()
         self.clonelist_removes: set[DatNode] = set()
         self.language_removes: set[DatNode] = set()
-        self.mia_removes: set[DatNode] = set()
         self.region_removes: set[DatNode] = set()
         self.system_excludes: set[DatNode] = set()
         self.global_excludes: set[DatNode] = set()
@@ -141,7 +156,13 @@ class IncludeExcludeTools(object):
                             category: str = exclude_category[0]
                             if category == 'Console': category = 'BIOS'
                             title.exclude_reason = f'Category exclude, {category}'
-                            removes.category_removes.add(title)
+
+                            category_remove_name: str = f'{category.lower()}_removes'.replace(' ' , '_').replace('-', '_')
+
+                            category_removes: set[DatNode] = getattr(removes, category_remove_name)
+                            category_removes.add(title)
+
+                            setattr(removes, category_remove_name, category_removes)
 
                 # Regex excludes
                 for exclude_regex in [x for x in exclude_titles_regex if re.search(x[0], title.full_name)]:
@@ -161,7 +182,13 @@ class IncludeExcludeTools(object):
                             exclude_titles.add(title)
 
                             title.exclude_reason = f'Category exclude, {exclude_regex[2]}'
-                            removes.category_removes.add(title)
+
+                            category_remove_name: str = f'{category.lower()}_removes'.replace(' ' , '_').replace('-', '_')
+
+                            category_removes: set[DatNode] = getattr(removes, category_remove_name)
+                            category_removes.add(title)
+
+                            setattr(removes, category_remove_name, category_removes)
 
                 # MIA excludes
                 if config.user_input.no_mia:
@@ -328,18 +355,14 @@ class IncludeExcludeTools(object):
             # Check if a system config is in play
             language_order: list[str] = []
 
-            for region in config.region_order_user:
-                language_order.extend(config.languages_filter[region])
-
-            # Make sure language entries are unique
-            language_order = reduce(lambda x,y: x + [y] if not y in x else x, language_order, [])
-
             if config.languages_filter:
                 language_order = config.language_order_user
 
                 if config.system_language_order_user:
                     if {'override': 'true'} in config.system_language_order_user:
                         language_order = [str(x) for x in config.system_language_order_user if 'override' not in x]
+            else:
+                language_order = config.region_order_languages_user
 
             for title in titles:
                 # Add titles with unknown languages
@@ -1368,8 +1391,8 @@ class TraceTools(object):
         if trace_reference == 'REF0080': message = f'{Font.bold}[{variable[0]}]{Font.end} Group after filtering by clone list priority:'
         if trace_reference == 'REF0081': message = 'ACTION: Choose more languages:'
         if trace_reference == 'REF0082': message = 'ACTION: Choose more languages:'
-        if trace_reference == 'REF0083': message = f'Compare languages\nImplied language order: {variable[0]}'
-        if trace_reference == 'REF0084': message = f'Compare languages\nImplied language order: {variable[0]}'
+        if trace_reference == 'REF0083': message = f'Fallback language comparison. Compare languages based on default region order.\nDefault region language order: {variable[0]}'
+        if trace_reference == 'REF0084': message = f'Fallback language comparison. Compare languages based on default region order.\nDefault region language order: {variable[0]}'
         if trace_reference == 'REF0085': message = f'ACTION: ROM tagged as MIA in {Font.bold}{variable[0]}{Font.end}:'
         if trace_reference == 'REF0086': message = 'ACTION: User has region bias enabled, selecting a higher region title than the superset:'
         if trace_reference == 'REF0087': message = 'ACTION: Keeping superset title:'
@@ -1382,6 +1405,8 @@ class TraceTools(object):
         if trace_reference == 'REF0094': message = 'ACTION: Favor primary region higher up user region order (individual title vs compilation):'
         if trace_reference == 'REF0095': message = 'ACTION: Favor primary region higher up user region order (individual title vs compilation):'
         if trace_reference == 'REF0096': message = f'{Font.bold}[{variable[0]}]{Font.end} Group after choosing video standard:'
+        if trace_reference == 'REF0097': message = f'Fallback language comparison. Compare languages based on region order.\nRegion language order: {variable[0]}'
+        if trace_reference == 'REF0098': message = f'Fallback language comparison. Compare languages based on region order.\nRegion language order: {variable[0]}'
 
         if trace_reference:
             eprint(f'\n{Font.bold}{Font.underline}{trace_reference}{Font.end}: {message}{Font.end}\n')
