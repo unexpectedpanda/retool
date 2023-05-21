@@ -542,8 +542,8 @@ class ParentTools(object):
                 and title_2 in title_set
                 and 'BIOS' not in title_1.categories
                 and 'BIOS' not in title_2.categories):
-                    title_1_date:int = TitleTools.get_date(title_1.full_name, config)
-                    title_2_date:int = TitleTools.get_date(title_2.full_name, config)
+                    title_1_date: int = TitleTools.get_date(title_1.full_name, config)
+                    title_2_date: int = TitleTools.get_date(title_2.full_name, config)
 
                     if (
                         title_1_date

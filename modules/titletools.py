@@ -922,8 +922,7 @@ class TitleTools(object):
 
         formatted_date: int = 0
 
-        # Norrmalize YYYY-MM-xx and YYYY-xx-xx dates
-
+        # Normalize YYYY-MM-xx and YYYY-xx-xx dates
         if re.search(config.regex.dates[5], name):
             name = re.sub(config.regex.dates[5], '(\\1-01)', name)
 
@@ -973,10 +972,12 @@ class TitleTools(object):
                     month = regex_search_str[1:-7]
                     day = regex_search_str[3:-5]
                 elif utc_date:
+                    regex = re.compile('\\(\\d{8}T\\d{6}\\)')
+                    regex_search_str = pattern2string(regex, name)
                     year = regex_search_str[1:5]
-                    month = regex_search_str[6:8]
-                    day = regex_search_str[9:11]
-                    time = regex_search_str[12:18]
+                    month = regex_search_str[5:7]
+                    day = regex_search_str[7:9]
+                    time = regex_search_str[10:16]
                 else:
                     year = regex_search_str[1:-5]
                     month = regex_search_str[5:-3]

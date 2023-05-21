@@ -5,171 +5,176 @@ hide:
 
 # Changelog
 
+## 2.00.5
+
+-   Fixed handling of No-Intro's quasi-RFC 3339 date format.
+
 ## 2.00.4
 
-* Added another level of language selection fallback if you have a language order
-  specified. If Retool finds none of the languages it's looking for in your language
-  order when it compares titles, its next step is to check the language order derived from
-  your region order.
+-   Added another level of language selection fallback if you have a language order
+    specified. If Retool finds none of the languages it's looking for in your language
+    order when it compares titles, its next step is to check the language order derived from
+    your region order.
 
-  This is most beneficial for European titles when you're filtering by a language, and
-  want to _preference_ but not _filter_ by other languages. You might want to do this when
-  you want a title that was released in a specific country, but due to No-Intro and Redump
-  naming rules gets assigned to the Europe region.
+    This is most beneficial for European titles when you're filtering by a language, and
+    want to _preference_ but not _filter_ by other languages. You might want to do this when
+    you want a title that was released in a specific country, but due to No-Intro and Redump
+    naming rules gets assigned to the Europe region.
 
-  For example, if a DAT file has the following titles:
+    For example, if a DAT file has the following titles:
 
-  * _Example Title (Europe) (En,Fr,De,It)_
-  * _Example Title (Europe) (En,Es,Pt)_
+    - _Example Title (Europe) (En,Fr,De,It)_
+    - _Example Title (Europe) (En,Es,Pt)_
 
-  And you have the following region order:
+    And you have the following region order:
 
-  1. Europe
-  1. Spain
-  1. Portugal
-  1. France
+    1. Europe
+    1. Spain
+    1. Portugal
+    1. France
 
-  And you filter by English and no other language, Retool used to choose
-  _Example Title (Europe) (En,Fr,De,It)_, as it contains English (the only language you
-  specified in your language priority) and has the most languages.
+    And you filter by English and no other language, Retool used to choose
+    _Example Title (Europe) (En,Fr,De,It)_, as it contains English (the only language you
+    specified in your language priority) and has the most languages.
 
-  But given your region order, you've expressed a clear preference for Spanish and
-  Portuguese above French.
+    But given your region order, you've expressed a clear preference for Spanish and
+    Portuguese above French.
 
-  Now because of the new region order language fallback, the language order effectively
-  becomes:
+    Now because of the new region order language fallback, the language order effectively
+    becomes:
 
-  1. English (explicity in the language filter, and also the implied language for Europe)
-  1. Spanish
-  1. Portuguese
-  1. French
+    1. English (explicitly in the language filter, and also the implied language for Europe)
+    1. Spanish
+    1. Portuguese
+    1. French
 
-  You still only get titles that support English because of the filter, however this means
-  that Retool now selects _Example Title (Europe) (En,Es,Pt)_ instead of
-  _Example Title (Europe) (En,Fr,De,It)_.
+    You still only get titles that support English because of the filter, however this means
+    that Retool now selects _Example Title (Europe) (En,Es,Pt)_ instead of
+    _Example Title (Europe) (En,Fr,De,It)_.
 
-* Added granularity back to the kept/removed list. Instead of filing every user exclusion
+- Added granularity back to the kept/removed list. Instead of filing every user exclusion
   under "category removes", Retool now categorizes under individual exclusions like
   "application", "audio", "bad dump" and so on.
 
-* Made heading underlines in the kept/removed list variable depending on heading length.
+- Made heading underlines in the kept/removed list variable depending on heading length.
 
-* Fixed an index heading in the kept/removed list that incorrectly had "system excludes"
+- Fixed an index heading in the kept/removed list that incorrectly had "system excludes"
   instead of "global excludes".
 
-* Made some minor GUI tweaks for consistency.
+- Made some minor GUI tweaks for consistency.
 
 
 ## 2.00.3
 
-* Due to the influx of pirate ROMs in the No-Intro NES DAT, pirate ROMs are now treated
+- Due to the influx of pirate ROMs in the No-Intro NES DAT, pirate ROMs are now treated
   like bad dumps. That is, they are demoted below licensed variations of games, even if
   the pirate ROM is in a preferred language and the licensed version isn't.
 
 
 ## 2.00.2
 
-* Expanded support for some newer No-Intro DATs.
+- Expanded support for some newer No-Intro DATs.
 
 
 ## 2.00.1
 
-* Expanded the demo regex to incorporate a set of Genesis demos.
+- Expanded the demo regex to incorporate a set of Genesis demos.
 
 
 ## 2.00.0
 
-* Fixed grouping of titles with oddly-named video standards in the filename.
+- Fixed grouping of titles with oddly-named video standards in the filename.
 
 
 ## 2.00.0 Beta 9
 
-* Fixed conditional override priorities not working.
+- Fixed conditional override priorities not working.
 
 
 ## 2.00.0 Beta 8
 
-* You can now drag and drop DAT files into the file list.
-* Retool now understands preproduction compilations when comparing against individual
+- You can now drag and drop DAT files into the file list.
+- Retool now understands preproduction compilations when comparing against individual
   titles.
-* When considering compilations, individual titles are now preferred over compilations
-  except in the following scenarios:
+-   When considering compilations, individual titles are now preferred over compilations
+    except in the following scenarios:
 
-  * The compilation has a higher priority primary region than the individual title (during
-    compilation comparisons, the _World_ and _USA_ regions are considered equivalent).
-  * The compilation has a higher priority primary language than the individual title.
-  * The individual title is set as lower priority than the compilation in the related
-    clone list.
+    - The compilation has a higher priority primary region than the individual title (during
+      compilation comparisons, the _World_ and _USA_ regions are considered equivalent).
+    - The compilation has a higher priority primary language than the individual title.
+    - The individual title is set as lower priority than the compilation in the related
+      clone list.
 
-  Compilations are otherwise only included if they feature unique titles. This increases
-  duplicates in the output DAT, but is much better for patches, retro achievements, and
-  actually knowing which individual titles you have.
-* Compilation selection has been dramatically sped up.
-* If you overrode global settings for system languages but didn't specify any languages,
+    Compilations are otherwise only included if they feature unique titles. This increases
+    duplicates in the output DAT, but is much better for patches, retro achievements, and
+    actually knowing which individual titles you have.
+
+- Compilation selection has been dramatically sped up.
+- If you overrode global settings for system languages but didn't specify any languages,
   Retool used to fall back to the global language order and disable the system languages
   override. This isn't what the label says: "an empty filter list includes all languages".
   This behavior has been changed to match the label &mdash; when you override system
   languages and leave an empty filter list, it first uses the implied language order from
   the system regions, and if they're not available, the implied language order from the
   global regions. In both cases, this is makes sure all languages are included.
-* The Python version check is now done earlier, and explains to the user the minimum
+- The Python version check is now done earlier, and explains to the user the minimum
   version required.
-* The CLI progress bar no longer shows if multiprocessing is disabled, to make debugging
+- The CLI progress bar no longer shows if multiprocessing is disabled, to make debugging
   with print and input statements easier.
-* Fixed a bug where compilations specified in a clone list broke user filter includes.
-* Fixed a bug where clone list priorities could be misassigned.
-* Fixed a bug where user-supplied regexes weren't validated for some patterns.
-* Fixed a bug where regex escapes for a title trace that were set in the GUI weren't
+- Fixed a bug where compilations specified in a clone list broke user filter includes.
+- Fixed a bug where clone list priorities could be misassigned.
+- Fixed a bug where user-supplied regexes weren't validated for some patterns.
+- Fixed a bug where regex escapes for a title trace that were set in the GUI weren't
   interpreted properly.
-* Polished up some rough areas of code, made some minor GUI tweaks.
+- Polished up some rough areas of code, made some minor GUI tweaks.
 
 
 ## 2.00.0 Beta 7
 
-* System languages are now filtering correctly again.
+- System languages are now filtering correctly again.
 
 
 ## 2.00.0 Beta 6
 
-* Fixed a compilation bug introduced with the last version that added extra titles to the
+- Fixed a compilation bug introduced with the last version that added extra titles to the
   output DAT.
-* Another fix for the parent/clone warning message.
+- Another fix for the parent/clone warning message.
 
 
 ## 2.00.0 Beta 5
 
-* The GUI is now resizable.
-* GUI optimizations have been made. It's unlikely you'll notice a difference using it,
+- The GUI is now resizable.
+- GUI optimizations have been made. It's unlikely you'll notice a difference using it,
   but it's easier to maintain now.
-* Europe has been moved further up the default English region order, as Retool's new
+- Europe has been moved further up the default English region order, as Retool's new
   language prioritization bypasses any particular issues there.
-* Added an extra filter stage for compilations, checking for which title has more of the
+- Added an extra filter stage for compilations, checking for which title has more of the
   user's languages.
-* Fixed titles with multiple regions not being categorized into the correct primary
+- Fixed titles with multiple regions not being categorized into the correct primary
   region. For example, `(Europe, Australia)` titles were being filtered into the
   `Australia` region instead of `Europe`, which caused some duplicates to sneak through
   to the final output DAT.
-* The [`Export`](http://redump.org/discs/region/Ex/) region for Redump titles is now
+- The [`Export`](http://redump.org/discs/region/Ex/) region for Redump titles is now
   treated as equivalent to `World`.
-* Fixed a problem where a new system config would populate selected languages from the
+- Fixed a problem where a new system config would populate selected languages from the
   global config.
-* Fixed the log not outputting in the correct folder when a system output was selected.
-* Fixed the parent/clone clash warning message so it displayed the correct clone title.
+- Fixed the log not outputting in the correct folder when a system output was selected.
+- Fixed the parent/clone clash warning message so it displayed the correct clone title.
 
 
 ## 2.00.0 Beta 4
 
-* Pirate and unlicensed exclusions work again. Pirate titles have been added to
+- Pirate and unlicensed exclusions work again. Pirate titles have been added to
   the unlicensed exclude option.
-* The GUI documentation link now goes to the right place.
+- The GUI documentation link now goes to the right place.
 
 
 ## 2.00.0 Beta 3
 
-* Fixed user filter excludes not removing some excludes.
-* Fixed system name formatting in the GUI, so the right system settings file is
+- Fixed user filter excludes not removing some excludes.
+- Fixed system name formatting in the GUI, so the right system settings file is
   referenced.
-* Unified CLI and GUI versions, as splitting them was no longer useful.
+- Unified CLI and GUI versions, as splitting them was no longer useful.
 
 
 ## 2.00.0 Beta 2
@@ -249,190 +254,195 @@ for the very slow DATs to be faster and the increase in accuracy.
 Check out the following list for other changes that have come in v2.
 
 <h3>Accuracy</h3>
-- Language order is now taken into account. If you don't filter by languages,
-  the language order will be inferred from your region order. This mostly
-  impacts European titles, where compared to previous versions of Retool another
-  title might be selected to better reflect your language choices. For example,
-  take these titles in Redump's PlayStation DAT:
 
-  * _Hugo (Europe)_
-  * _Hugo (Europe) (Nl,Pt) (Rev 1)_
-  * _Hugo (Europe) (Nl,Pt)_
-  * _Hugo (France)_
-  * _Hugo (Germany)_
-  * _Hugo (Italy)_
-  * _Hugo (Scandinavia) (Da,Fi)_
-  * _Hugo (Scandinavia) (Sv,No)_
-  * _Hugo (Spain)_
+-   Language order is now taken into account. If you don't filter by languages,
+    the language order will be inferred from your region order. This mostly
+    impacts European titles, where compared to previous versions of Retool another
+    title might be selected to better reflect your language choices. For example,
+    take these titles in Redump's PlayStation DAT:
 
-  If you have USA as your top region, followed by Europe, Retool 1.x selects
-  _Hugo (Europe) (Nl,Pt) (Rev 1)_ as the 1G1R title, because it's the highest
-  revision in Europe. Retool 2.0 realizes that because USA is your highest
-  region, that it's looking for English titles as a priority, and selects
-  _Hugo (Europe)_ instead.
+    - _Hugo (Europe)_
+    - _Hugo (Europe) (Nl,Pt) (Rev 1)_
+    - _Hugo (Europe) (Nl,Pt)_
+    - _Hugo (France)_
+    - _Hugo (Germany)_
+    - _Hugo (Italy)_
+    - _Hugo (Scandinavia) (Da,Fi)_
+    - _Hugo (Scandinavia) (Sv,No)_
+    - _Hugo (Spain)_
 
-  This also applies to say, Japanese titles that are only in English, and a
-  special edition is available in English in another region. For example, take
-  these titles, again in Redump's PlayStation DAT:
+    If you have USA as your top region, followed by Europe, Retool 1.x selects
+    _Hugo (Europe) (Nl,Pt) (Rev 1)_ as the 1G1R title, because it's the highest
+    revision in Europe. Retool 2.0 realizes that because USA is your highest
+    region, that it's looking for English titles as a priority, and selects
+    _Hugo (Europe)_ instead.
 
-  * _Car and Driver Presents - Grand Tour Racing '98 (USA)_
-  * _Gekisou!! Grand Racing - Total Drivin' (Japan)_
-  * _M6 Turbo Racing (France)_
-  * _Total Drivin (Europe) (En,Fr,De,Es,It,Pt)_
+    This also applies to say, Japanese titles that are only in English, and a
+    special edition is available in English in another region. For example, take
+    these titles, again in Redump's PlayStation DAT:
 
-  If you have Japan as your top region, Retool 1.x selects
-  _Gekisou!! Grand Racing - Total Drivin' (Japan)_ as the top title. Retool 2.0
-  recognizes that the Japanese title is only in English, sees that the USA title
-  is a special edition, and selects
-  _Car and Driver Presents - Grand Tour Racing '98 (USA)_ instead. You may as
-  well get more content if the title's going to be in the same language anyway.
+    - _Car and Driver Presents - Grand Tour Racing '98 (USA)_
+    - _Gekisou!! Grand Racing - Total Drivin' (Japan)_
+    - _M6 Turbo Racing (France)_
+    - _Total Drivin (Europe) (En,Fr,De,Es,It,Pt)_
 
-  If you don't like this style of selection, you can turn on strict region
-  filtering with `-r`.
-- Compilations are now automatically handled by adding them to a system's
-  clone list with the correct syntax. Retool figures out the most optimal
-  combination of titles, taking your language and region preferences into
-  account. Sometimes it might look like Retool hasn't chosen the optimal
-  combination, but this is usually due to user region preferences and titles
-  being available in both the Europe region _and_ specific European countries.
-  For example, take the following titles, and assume Italy is higher than Europe
-  in the user's region order:
+    If you have Japan as your top region, Retool 1.x selects
+    _Gekisou!! Grand Racing - Total Drivin' (Japan)_ as the top title. Retool 2.0
+    recognizes that the Japanese title is only in English, sees that the USA title
+    is a special edition, and selects
+    _Car and Driver Presents - Grand Tour Racing '98 (USA)_ instead. You may as
+    well get more content if the title's going to be in the same language anyway.
 
-  - _2 Games in 1 - Disney Principesse + Il Re Leone (Italy) (It+En,Fr,De,Es,It,Nl,Sv,Da)_
-  - _2 Games in 1 - Disney Principesse + Koda, Fratello Orso (Italy) (It+En,Fr,De,Es,It,Nl,Sv,Da)_
-  - _Brother Bear (Europe) (Fr,De,Es,It,Nl,Sv,Da)_
+    If you don't like this style of selection, you can turn on strict region
+    filtering with `-r`.
 
-  For those who don't speak Italian, _Fratello Orso_ is the Italian version of
-  Brother Bear. Therefore, the most optimal solution for disk space and minimal
-  redundancy is:
+-   Compilations are now automatically handled by adding them to a system's
+    clone list with the correct syntax. Retool figures out the most optimal
+    combination of titles, taking your language and region preferences into
+    account. Sometimes it might look like Retool hasn't chosen the optimal
+    combination, but this is usually due to user region preferences and titles
+    being available in both the Europe region _and_ specific European countries.
+    For example, take the following titles, and assume Italy is higher than Europe
+    in the user's region order:
 
-  - _2 Games in 1 - Disney Principesse + Il Re Leone (Italy) (It+En,Fr,De,Es,It,Nl,Sv,Da)_
-  - _Brother Bear (Europe) (Fr,De,Es,It,Nl,Sv,Da)_
+    - _2 Games in 1 - Disney Principesse + Il Re Leone (Italy) (It+En,Fr,De,Es,It,Nl,Sv,Da)_
+    - _2 Games in 1 - Disney Principesse + Koda, Fratello Orso (Italy) (It+En,Fr,De,Es,It,Nl,Sv,Da)_
+    - _Brother Bear (Europe) (Fr,De,Es,It,Nl,Sv,Da)_
 
-  This works, as both titles support Italian. However, because Italy is
-  prioritized as a region, Retool selects the Italian release of _Brother Bear_
-  instead, meaning you end up with:
+    For those who don't speak Italian, _Fratello Orso_ is the Italian version of
+    Brother Bear. Therefore, the most optimal solution for disk space and minimal
+    redundancy is:
 
-  - _2 Games in 1 - Disney Principesse + Il Re Leone (Italy) (It+En,Fr,De,Es,It,Nl,Sv,Da)_
-  - _2 Games in 1 - Disney Principesse + Koda, Fratello Orso (Italy) (It+En,Fr,De,Es,It,Nl,Sv,Da)_
+    - _2 Games in 1 - Disney Principesse + Il Re Leone (Italy) (It+En,Fr,De,Es,It,Nl,Sv,Da)_
+    - _Brother Bear (Europe) (Fr,De,Es,It,Nl,Sv,Da)_
 
-  Although you get two versions of _Disney Princess_, this choice is by design.
-  The assumption is that the region-specific version of the game should enable
-  that region's language by default, instead of requiring a language switch
-  after boot up.
-- Priority level 0 is now gone, replaced by a `supersets` array. It functions in
-  almost the same way, preferring language over region, except that order in the
-  clone lists doesn't determine superset priority any more. For example, here's
-  how things used to look for _Persona 3_ in Redump's PlayStation 2 DAT:
+    This works, as both titles support Italian. However, because Italy is
+    prioritized as a region, Retool selects the Italian release of _Brother Bear_
+    instead, meaning you end up with:
 
-  ```json
-  "Shin Megami Tensei - Persona 3": [
-    ["Shin Megami Tensei - Persona 3 FES", 0],
-    ["Persona 3 FES", 0],
-    ["Yeosin Jeonsaeng Persona 3 FES", 0],
-    ["P3 - Persona 3", 1],
-    ["Persona 3", 1]
-  ]
-  ```
+    - _2 Games in 1 - Disney Principesse + Il Re Leone (Italy) (It+En,Fr,De,Es,It,Nl,Sv,Da)_
+    - _2 Games in 1 - Disney Principesse + Koda, Fratello Orso (Italy) (It+En,Fr,De,Es,It,Nl,Sv,Da)_
 
-  Retool used to assume the top 0 priority title had higher priority than the 0
-  priority title after it, and so on. Unfortunately in this scenario, we have
-  two titles that should be the same rank:
-  _Shin Megami Tensei - Persona 3 FES_, the USA version, and _Persona 3 FES_,
-  the European version. In Retool v1, if someone put Europe above USA in their
-  region order and specified English as their highest language, they would get
-  the USA title instead of the European title that they wanted, as internally
-  the first 0 priority title was ranked above the second.
+    Although you get two versions of _Disney Princess_, this choice is by design.
+    The assumption is that the region-specific version of the game should enable
+    that region's language by default, instead of requiring a language switch
+    after boot up.
 
-  With the introduction of the `supersets` array, things change a little:
+-   Priority level 0 is now gone, replaced by a `supersets` array. It functions in
+    almost the same way, preferring language over region, except that order in the
+    clone lists doesn't determine superset priority any more. For example, here's
+    how things used to look for _Persona 3_ in Redump's PlayStation 2 DAT:
 
-  ```json
-  {
-    "group": "Shin Megami Tensei - Persona 3",
-    "titles": [
-      {"searchTerm": "P3 - Persona 3"},
-      {"searchTerm": "Persona 3"},
-      {"searchTerm": "Shin Megami Tensei - Persona 3"}
-    ],
-    "supersets": [
-      {"searchTerm": "Shin Megami Tensei - Persona 3 FES"},
-      {"searchTerm": "Persona 3 FES"}
+    ```json
+    "Shin Megami Tensei - Persona 3": [
+      ["Shin Megami Tensei - Persona 3 FES", 0],
+      ["Persona 3 FES", 0],
+      ["Yeosin Jeonsaeng Persona 3 FES", 0],
+      ["P3 - Persona 3", 1],
+      ["Persona 3", 1]
     ]
-  }
-  ```
+    ```
 
-  Retool v2 now chooses the correct superset for the selected region, You can
-  still specify a `priority` on supersets, just in case there are multiple
-  supersets of varying amounts of content. That priority is _only_ respected
-  between supersets, and isn't related to the priority set on a `title`.
+    Retool used to assume the top 0 priority title had higher priority than the 0
+    priority title after it, and so on. Unfortunately in this scenario, we have
+    two titles that should be the same rank:
+    _Shin Megami Tensei - Persona 3 FES_, the USA version, and _Persona 3 FES_,
+    the European version. In Retool v1, if someone put Europe above USA in their
+    region order and specified English as their highest language, they would get
+    the USA title instead of the European title that they wanted, as internally
+    the first 0 priority title was ranked above the second.
+
+    With the introduction of the `supersets` array, things change a little:
+
+    ```json
+    {
+      "group": "Shin Megami Tensei - Persona 3",
+      "titles": [
+        {"searchTerm": "P3 - Persona 3"},
+        {"searchTerm": "Persona 3"},
+        {"searchTerm": "Shin Megami Tensei - Persona 3"}
+      ],
+      "supersets": [
+        {"searchTerm": "Shin Megami Tensei - Persona 3 FES"},
+        {"searchTerm": "Persona 3 FES"}
+      ]
+    }
+    ```
+
+    Retool v2 now chooses the correct superset for the selected region, You can
+    still specify a `priority` on supersets, just in case there are multiple
+    supersets of varying amounts of content. That priority is _only_ respected
+    between supersets, and isn't related to the priority set on a `title`.
+
 - You can now use regex in the `categories`, `overrides` and `variants` objects
   in clone lists. Just set the `nameType` value to `regex`. The `removes` object
   does not support regex.
 - Overrides now support a `priority` key within a `regionOrder` condition. This
   means a title's clone list priority can be set from within a condition if that
   condition is true, not just its group and short name.
-- You can now define clones in the `variants` object not just by short name, but
-  full name, region-free name, tag-free name, or regex on the full name. While
-  mostly you should stick to short names, this extra flexibilty can solve some
-  complex problems. For example
-  _Silent Hill 2 (USA) (En,Ja,Fr,De,Es,It) (v2.01)_ is the USA version of
-  _Silent Hill 2 - Director's Cut_. Unfortunately, due to its title the short
-  name for
-  _Silent Hill 2 (USA) (En,Ja,Fr,De,Es,It) (v2.01)_ is just _Silent Hill 2_
-  &mdash; exactly the same as the standard version of the game. Historically
-  with Retool this would mean we couldn't set unique priorities for both titles,
-  and would have to figure out an esoteric workaround. Now, however, there's
-  another way:
+-   You can now define clones in the `variants` object not just by short name, but
+    full name, region-free name, tag-free name, or regex on the full name. While
+    mostly you should stick to short names, this extra flexibilty can solve some
+    complex problems. For example
+    _Silent Hill 2 (USA) (En,Ja,Fr,De,Es,It) (v2.01)_ is the USA version of
+    _Silent Hill 2 - Director's Cut_. Unfortunately, due to its title the short
+    name for
+    _Silent Hill 2 (USA) (En,Ja,Fr,De,Es,It) (v2.01)_ is just _Silent Hill 2_
+    &mdash; exactly the same as the standard version of the game. Historically
+    with Retool this would mean we couldn't set unique priorities for both titles,
+    and would have to figure out an esoteric workaround. Now, however, there's
+    another way:
 
-  ```json
-  {
-    "group": "Silent Hill 2",
-    "titles": [
-      {"searchTerm": "Silent Hill 2 (?:(?!USA.*v2.01).)*$", "nameType": "regex"},
-    ],
-    "supersets": [
-      {"searchTerm": "Silent Hill 2 (USA) (En,Ja,Fr,De,Es,It) (v2.01)", "nameType": "full"},
-      {"searchTerm": "Silent Hill 2 - Director's Cut"},
-      {"searchTerm": "Silent Hill 2 - Saigo no Uta"}
-    ]
-  }
-  ```
+    ```json
+    {
+      "group": "Silent Hill 2",
+      "titles": [
+        {"searchTerm": "Silent Hill 2 (?:(?!USA.*v2.01).)*$", "nameType": "regex"},
+      ],
+      "supersets": [
+        {"searchTerm": "Silent Hill 2 (USA) (En,Ja,Fr,De,Es,It) (v2.01)", "nameType": "full"},
+        {"searchTerm": "Silent Hill 2 - Director's Cut"},
+        {"searchTerm": "Silent Hill 2 - Saigo no Uta"}
+      ]
+    }
+    ```
 
-  The first entry effectively says "Match every Silent Hill title except the one
-  with USA and v2.01 in it". We then specifically call out the v2.01 title as a
-  superset afterward. Mind you, this is overkill. The following example works
-  just fine:
+    The first entry effectively says "Match every Silent Hill title except the one
+    with USA and v2.01 in it". We then specifically call out the v2.01 title as a
+    superset afterward. Mind you, this is overkill. The following example works
+    just fine:
 
-  ```json
-  {
-    "group": "Silent Hill 2",
-    "titles": [
-      {"searchTerm": "Silent Hill 2"},
-    ],
-    "supersets": [
-      {"searchTerm": "Silent Hill 2 (USA) (En,Ja,Fr,De,Es,It) (v2.01)", "nameType": "full"},
-      {"searchTerm": "Silent Hill 2 - Director's Cut"},
-      {"searchTerm": "Silent Hill 2 - Saigo no Uta"}
-    ]
-  }
-  ```
+    ```json
+    {
+      "group": "Silent Hill 2",
+      "titles": [
+        {"searchTerm": "Silent Hill 2"},
+      ],
+      "supersets": [
+        {"searchTerm": "Silent Hill 2 (USA) (En,Ja,Fr,De,Es,It) (v2.01)", "nameType": "full"},
+        {"searchTerm": "Silent Hill 2 - Director's Cut"},
+        {"searchTerm": "Silent Hill 2 - Saigo no Uta"}
+      ]
+    }
+    ```
 
-  There's also the situation where the Japanese version of _Sonic the Hedgehog_
-  is in English, _and_ features extra parallax effects the USA version doesn't,
-  making it the more desirable version. Even if the user preferences USA above
-  Japan, we can still select the Japanese one:
+    There's also the situation where the Japanese version of _Sonic the Hedgehog_
+    is in English, _and_ features extra parallax effects the USA version doesn't,
+    making it the more desirable version. Even if the user preferences USA above
+    Japan, we can still select the Japanese one:
 
-  ```json
-  {
-    "group": "Sonic The Hedgehog",
-    "titles": [
-      {"searchTerm": "Sonic The Hedgehog"},
-    ],
-    "supersets": [
-      {"searchTerm": "Sonic The Hedgehog \\(Japan.*", "nameType": "regex"}
-    ]
-  }
-  ```
+    ```json
+    {
+      "group": "Sonic The Hedgehog",
+      "titles": [
+        {"searchTerm": "Sonic The Hedgehog"},
+      ],
+      "supersets": [
+        {"searchTerm": "Sonic The Hedgehog \\(Japan.*", "nameType": "regex"}
+      ]
+    }
+    ```
+
 - Hong Kong's implied language is now Chinese. This is because the available
   titles in No-Intro are solely in Chinese.
 - India's implied language is now set to English, since all Indian Redump titles
@@ -457,6 +467,7 @@ Check out the following list for other changes that have come in v2.
   spamming the Redump site.
 
 <h3>New features</h3>
+
 - System settings. You can now override global settings on a per-system basis.
   For example, you can set global settings that affect all of the DATs you
   process, but set unique options for Sony PlayStation that override the global
@@ -477,12 +488,14 @@ Check out the following list for other changes that have come in v2.
   No-Intro and Redump DATs by using `k` with the `--exclude` option.
 - You can now update clone lists directly with Retool using `--update`. The DTD
   file is now included as part of this bundle.
-- You can now specify a custom clone list to load with `--clonelist`, and a
-  custom metadata file with `--metadata`. This is mostly useful if:
-  - Redump or No-Intro changes their DAT names, and the clone lists/metadata
-    files are no longer automatically detected.
-  - You're building your own clone lists, and want to compare the output versus
-    the original.
+-   You can now specify a custom clone list to load with `--clonelist`, and a
+    custom metadata file with `--metadata`. This is mostly useful if:
+
+    - Redump or No-Intro changes their DAT names, and the clone lists/metadata
+      files are no longer automatically detected.
+    - You're building your own clone lists, and want to compare the output versus
+      the original.
+
 - You can now specify a custom local path where your clone lists and metadata
   live. You can change this path in `internal-config.json` &mdash; check out the
   `localDir` subkey under `clonelists` and `metadata`.
@@ -497,10 +510,11 @@ Check out the following list for other changes that have come in v2.
   position buttons.
 
 <h3>Quality of life updates</h3>
+
 - There's a [brand new Retool website and documentation](https://unexpectedpanda.github.io/retool).
 - Retool can now cope with a user entering a trailing backslash in a path in
   Windows.
-- Retool CLI now supports the * wildcard for filenames and folders.
+* Retool CLI now supports the * wildcard for filenames and folders.
 - You can now download `internal-config.json` if it's missing.
 - The help text in the CLI version of Retool has been reorganized to make things
   easier to parse.
@@ -515,31 +529,33 @@ Check out the following list for other changes that have come in v2.
   anti-virus tools might raise a false positive for Retool. There's nothing I
   can do about this, the issue is with the anti-virus suite, not Retool --
   you'll just have to clear Retool to run.
-- The GUI is now written directly in QT6 instead of using the PySimpleGUI
-  middleware. A lot of changes have been made, including the following upgrades:
-  - The GUI no longer crashes if the console portion of Retool crashes. It
-    simply fails to process the current DAT.
-  - The issue with the layout getting messed up when the UI was dragged between
-    screens of different scaling factors should be addressed. This mostly
-    impacted users with both 4k and HD screens.
-  - The GUI is now more horizontally rectangular, to avoid elements going
-    offscreen if people have set their scaling high on low resolution monitors.
-  - You now add DATs to a list to process, not just open a single file or
-    folder at a time. This means you can add multiple sets of individual DATs,
-    multiple folders, or multiple folders recursively to the list, in any
-    combination.
-  - You can now drag and drop between region and language lists, and reorder
-    items in the selected region and language lists.
-  - A title tool is accessible from the **File** menu. If you enter a title's
-    full name from the DAT, it shows you the other names Retool assigns to it
-    to work its magic. This tool is only useful if you intend to contribute to
-    clone lists or Retool itself.
-  - You can now change some default file locations in **Settings**, also found
-    in the **File** menu.
-  - **Select all** and **Deselect all** buttons have been added to the
-    exclusions tab.
+-   The GUI is now written directly in QT6 instead of using the PySimpleGUI
+    middleware. A lot of changes have been made, including the following upgrades:
+
+    - The GUI no longer crashes if the console portion of Retool crashes. It
+      simply fails to process the current DAT.
+    - The issue with the layout getting messed up when the UI was dragged between
+      screens of different scaling factors should be addressed. This mostly
+      impacted users with both 4k and HD screens.
+    - The GUI is now more horizontally rectangular, to avoid elements going
+      offscreen if people have set their scaling high on low resolution monitors.
+    - You now add DATs to a list to process, not just open a single file or
+      folder at a time. This means you can add multiple sets of individual DATs,
+      multiple folders, or multiple folders recursively to the list, in any
+      combination.
+    - You can now drag and drop between region and language lists, and reorder
+      items in the selected region and language lists.
+    * A title tool is accessible from the **File** menu. If you enter a title's
+      full name from the DAT, it shows you the other names Retool assigns to it
+      to work its magic. This tool is only useful if you intend to contribute to
+      clone lists or Retool itself.
+    - You can now change some default file locations in **Settings**, also found
+      in the **File** menu.
+    * **Select all** and **Deselect all** buttons have been added to the
+      exclusions tab.
 
 <h3>Performance and maintenance</h3>
+
 - Improved conversion of CLRMAMEPro formatted DATs to Logiqx XML, which should
   avoid some crashes and handle larger files.
 - Removed BeautifulSoup for increased performance.
@@ -552,130 +568,132 @@ Check out the following list for other changes that have come in v2.
   shouldn't crash Retool &mdash; just that clone list entry is skipped.
 
 <h3>Developer updates</h3>
-- New clone list format. This is for consistency and to explicitly name
-  features, so newcomers have a better chance of understanding what's
-  going on and contributing.
 
-  **Old style categories**
+-   New clone list format. This is for consistency and to explicitly name
+    features, so newcomers have a better chance of understanding what's
+    going on and contributing.
 
-  ```json
-  "categories": {
-    "BASIC Programming": {
-      "match": "short",
-      "categories": ["Applications"]
-    },
-    "Color Bar Generator": {
-      "match": "short",
-      "categories": ["Applications"]
-    }
-  }
-  ```
+    **Old style categories**
 
-  **New style categories**
-
-  ```json
-  "categories": [
-    {
-      "searchTerm": "BASIC Programming",
-      "nameType": "short",
-      "categories": ["Applications"]
-    },
-    {
-      "searchTerm": "Color Bar Generator",
-      "nameType": "short",
-      "categories": ["Applications"]
-    }
-  ]
-  ```
-
-  The biggest thing to call out here is that the search term is now explicitly
-  named, instead of being an undefined object key. Additionally, keys now us
-  camel case. Overrides have had much the same makeover:
-
-  **Old style overrides**
-
-  ```json
-  "overrides": {
-    "CD-Action 03-1997 (10B) (Poland)": {
-      "new group": "CD-Action 03-1997 (10B) (Poland)",
-      "match": "full"
-    },
-    "CD-Action 06-1997 (13B) (Poland)": {
-      "new group": "CD-Action 06-1997 (13B) (Poland)",
-      "match": "full"
-    }
-  }
-  ```
-
-  **New style overrides**
-
-  ```json
-  "overrides": [
-    {
-      "searchTerm": "CD-Action 03-1997 (10B) (Poland)",
-      "nameType": "full",
-      "newGroup": "CD-Action 03-1997 10B Poland"
-    },
-    {
-      "searchTerm": "CD-Action 06-1997 (13B) (Poland)",
-      "nameType": "full",
-      "newGroup": "CD-Action 06-1997 13B Poland"
-    }
-  ]
-  ```
-
-  Renames have had the biggest rework. They have been renamed to _variants_, and
-  are significantly more verbose. Supersets and compilations have now been split
-  out into their own arrays, as they are treated differently by Retool. Most
-  notably, the confusing priority `0` is no longer a thing, with that work now
-  done by either the `compilations` or `supersets` array.
-
-  **Old style renames**
-  ```json
-  "renames": {
-    "3-D Ultra Pinball": [
-      ["3-D Ultra Pinball"]
-      ["3-D Ultra Pinball & Trophy Bass", "title_position", 0]
-    ],
-    "Black & White (Data Disc)": [
-      ["Black & White - Platinum Pack", 0]
-    ],
-  }
-  ```
-
-  **New style variants (formerly renames)**
-  ```json
-  "variants": [
-    {
-        "group": "3-D Ultra Pinball",
-        "titles": [
-          {"searchTerm": "3-D Ultra Pinball"}
-        ],
-        "compilations": [
-          {"searchTerm": "3-D Ultra Pinball & Trophy Bass", "titlePosition": 1}
-        ]
+    ```json
+    "categories": {
+      "BASIC Programming": {
+        "match": "short",
+        "categories": ["Applications"]
       },
-      {
-        "group": "Black & White (Data Disc)",
-        "titles": [
-          {"searchTerm": "Black & White (Data Disc)"}
-        ],
-        "supersets": [
-          {"searchTerm": "Black & White - Platinum Pack"}
-        ]
-      },
-      {
-        "group": "Trophy Bass",
-        "compilations": [
-          {"searchTerm": "3-D Ultra Pinball & Trophy Bass", "titlePosition": 2}
-        ]
+      "Color Bar Generator": {
+        "match": "short",
+        "categories": ["Applications"]
       }
-  ]
-  ```
+    }
+    ```
 
-  Not seen here: you can add `priority` and `nameType` keys to each object in
-  the `titles`, `compilations`, and `supersets` arrays. See the documentation
-  for more information.
+    **New style categories**
+
+    ```json
+    "categories": [
+      {
+        "searchTerm": "BASIC Programming",
+        "nameType": "short",
+        "categories": ["Applications"]
+      },
+      {
+        "searchTerm": "Color Bar Generator",
+        "nameType": "short",
+        "categories": ["Applications"]
+      }
+    ]
+    ```
+
+    The biggest thing to call out here is that the search term is now explicitly
+    named, instead of being an undefined object key. Additionally, keys now us
+    camel case. Overrides have had much the same makeover:
+
+    **Old style overrides**
+
+    ```json
+    "overrides": {
+      "CD-Action 03-1997 (10B) (Poland)": {
+        "new group": "CD-Action 03-1997 (10B) (Poland)",
+        "match": "full"
+      },
+      "CD-Action 06-1997 (13B) (Poland)": {
+        "new group": "CD-Action 06-1997 (13B) (Poland)",
+        "match": "full"
+      }
+    }
+    ```
+
+    **New style overrides**
+
+    ```json
+    "overrides": [
+      {
+        "searchTerm": "CD-Action 03-1997 (10B) (Poland)",
+        "nameType": "full",
+        "newGroup": "CD-Action 03-1997 10B Poland"
+      },
+      {
+        "searchTerm": "CD-Action 06-1997 (13B) (Poland)",
+        "nameType": "full",
+        "newGroup": "CD-Action 06-1997 13B Poland"
+      }
+    ]
+    ```
+
+    Renames have had the biggest rework. They have been renamed to _variants_, and
+    are significantly more verbose. Supersets and compilations have now been split
+    out into their own arrays, as they are treated differently by Retool. Most
+    notably, the confusing priority `0` is no longer a thing, with that work now
+    done by either the `compilations` or `supersets` array.
+
+    **Old style renames**
+    ```json
+    "renames": {
+      "3-D Ultra Pinball": [
+        ["3-D Ultra Pinball"]
+        ["3-D Ultra Pinball & Trophy Bass", "title_position", 0]
+      ],
+      "Black & White (Data Disc)": [
+        ["Black & White - Platinum Pack", 0]
+      ],
+    }
+    ```
+
+    **New style variants (formerly renames)**
+    ```json
+    "variants": [
+      {
+          "group": "3-D Ultra Pinball",
+          "titles": [
+            {"searchTerm": "3-D Ultra Pinball"}
+          ],
+          "compilations": [
+            {"searchTerm": "3-D Ultra Pinball & Trophy Bass", "titlePosition": 1}
+          ]
+        },
+        {
+          "group": "Black & White (Data Disc)",
+          "titles": [
+            {"searchTerm": "Black & White (Data Disc)"}
+          ],
+          "supersets": [
+            {"searchTerm": "Black & White - Platinum Pack"}
+          ]
+        },
+        {
+          "group": "Trophy Bass",
+          "compilations": [
+            {"searchTerm": "3-D Ultra Pinball & Trophy Bass", "titlePosition": 2}
+          ]
+        }
+    ]
+    ```
+
+    Not seen here: you can add `priority` and `nameType` keys to each object in
+    the `titles`, `compilations`, and `supersets` arrays. See the documentation
+    for more information.
+
 - All user messages now go to STDERR instead of STDOUT. If you redirect the
   STDOUT with >, <, or >>, the only output is now the data of the final filtered
   DAT. This is most useful for those who build their own scripts and want to
@@ -948,6 +966,7 @@ Things of note for this release:
   while excluding the rest.
 
 <h3>New features</h3>
+
 - Custom global or system filter includes can now force inclusion of titles that
   have been removed due to:
   - Region exclusions.
@@ -965,6 +984,7 @@ Things of note for this release:
   out of date compared to what the clone list requires.
 
 <h3>Bug fixes</h3>
+
 - Stat calculation of custom global/system filters would crash Retool when
   `--nofilters` was set. This has been fixed.
 - Stat calculation of the dat's final title count has been fixed to include
@@ -975,6 +995,7 @@ Things of note for this release:
 - Updated a few dependencies.
 
 <h3>Behavior changes</h3>
+
 - Tried to capture general crashes in order to give feedback to Retool GUI
   users, to help diagnose future issues.
 - Overrides and conditional overrides in clone lists are now merged into just
@@ -1041,6 +1062,7 @@ Things of note for this release:
   download burden to those cloning the repo.
 
 <h3>New features</h3>
+
 - You can now exclude Manuals.
 - Excluding BIOSes now also excludes enhancement chips.
 - Excluding applications now excludes titles with "Check Program" and "Sample
@@ -1059,6 +1081,7 @@ Things of note for this release:
   have any.
 
 <h3>Bug fixes</h3>
+
 - If a key title in a clone list didn't exist in an input DAT (or had been
   removed by a Retool option), then all other titles in that array would become
   unlinked from one another. This has been fixed.
@@ -1070,6 +1093,7 @@ Things of note for this release:
 - Made sure release tags output consistently in legacy mode.
 
 <h3>Behavior changes</h3>
+
 - The demotion of modern ripped titles (for example, Virtual Console) is now
   working cross-region. You'll still get them if the modern edition is the only
   one available with a language associated with a higher region priority. For
@@ -1083,6 +1107,7 @@ Things of note for this release:
 Some big changes this time around, including some requested features.
 
 <h3>New features</h3>
+
 - There are now user-customizable exclude and include filters, so you can keep
   or remove specific titles regardless of what Retool thinks should be done
   with them. You can set filters as partial strings, full strings, or regex.
@@ -1100,6 +1125,7 @@ Some big changes this time around, including some requested features.
   things down.
 
 <h3>Bug fixes</h3>
+
 - Rewrote the parent assignment code to correct misassignment issues in the
   NES DAT. It turns out this results in fixes for other sets too, requiring
   clone list changes. For accurate matches, you must update to Retool 0.87 to
@@ -1131,6 +1157,7 @@ Some big changes this time around, including some requested features.
   command line.
 
 <h3>Behavior changes</h3>
+
 - More titles ripped from modern platform rereleases (such as Virtual Console
   titles in the SNES DAT, for example) have been demoted by default, as they
   don't necessarily play well (or at all) in emulators. You can make these
@@ -1151,6 +1178,7 @@ Some big changes this time around, including some requested features.
   DAT managers still aren't very useful.
 
 <h3>Internal changes</h3>
+
 - `user-config.yaml` is no longer stored in the GitHub repo. It's also been
   removed from Windows ZIP file. This is to prevent users accidentally
   overwriting their own `user-config.yaml` when updating Retool. Both Retool
@@ -1236,12 +1264,13 @@ Some big changes this time around, including some requested features.
   played well with the GUI. Improved YAML handling at the same time. Make sure
   to backup your current `user-config.yaml` before grabbing this version, so
   you can port your region order/language settings over.
-- Moved to argparse to handle user input in the CLI. It's less pretty, but it's
-  more robust and scalable. This also means that the `-i` option is no longer a
-  thing when specifying your input dat/folder &mdash; instead, specify it
-  immediately after `retool.py`:
+-   Moved to argparse to handle user input in the CLI. It's less pretty, but it's
+    more robust and scalable. This also means that the `-i` option is no longer a
+    thing when specifying your input dat/folder &mdash; instead, specify it
+    immediately after `retool.py`:
 
-  `retool.py <input dat/folder> <options>`
+    `retool.py <input dat/folder> <options>`
+
 - Stopped misassignment in clone lists if Redump left off the `(Demo)` tag from
   a title.
 - Fixed an exit bug when the user would select only regions and/or languages
@@ -1335,6 +1364,7 @@ Oof, this is a big update, with feature and performance improvements all over
 the place.
 
 <h3>Code readability and performance</h3>
+
 Retool has been largely rewritten for readability, performance, security, and
 to make forward momentum easier. This means a few breaking changes:
 
@@ -1357,12 +1387,14 @@ While this is nice for all DATs, you'll mostly feel it on the big ones.
 The PlayStation and IBM DATs, for example, are now 2x faster.
 
 <h3>Custom region orders, filter by language</h3>
+
 Custom region orders are now supported &mdash; even for supersets. You can
 also filter by languages. Make your choices by editing the `region order` and
 `filter languages` sections in `user-config.yaml`. You can use the `-l` option
 to filter by language, or leave it off to include all languages.
 
 <h3>Other language and region stuff</h3>
+
 Retool's a lot smarter with languages now.
 
 For a start, implied languages are now enabled for most regions, and language
@@ -1386,6 +1418,7 @@ The following things have also changed:
   European title.
 
 <h3>Other updates</h3>
+
 - You can now exclude unlicensed titles.
 - Sega ring codes are now mostly handled automatically for assigning clones.
   This has greatly reduced the size of some clone lists.
@@ -1504,8 +1537,8 @@ The following things have also changed:
 ## 0.50
 - A huge architectural shift to move Retool to a 1G1R DAT generator. Due to
   this, the `_regional_renames.py` file has been renamed to `_renames.py` and
-    massively expanded to take into account localized title dupes. The file has
-    also been reorganized to make future dupe additions easier.
+  massively expanded to take into account localized title dupes. The file has
+  also been reorganized to make future dupe additions easier.
 - The `-re`, `-ra`, and `-en` options have been removed.
 - The `-o` flag is no longer mandatory, and now defines an output folder.
   Output files are automatically named.
