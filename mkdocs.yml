@@ -1,5 +1,6 @@
 site_name: Retool
 site_dir: ../unexpectedpanda.github.io/retool/
+site_url: https://unexpectedpanda.github.io/retool/
 theme:
   name: material
   custom_dir: docs/overrides

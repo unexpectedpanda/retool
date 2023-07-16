@@ -10,12 +10,15 @@ match and group together titles more accurately. These names are used directly i
 code, and also [clone lists](../clone-lists). If you plan to contribute to Retool, it
 helps to understand this standard.
 
-!!! tip
-    Retool's different naming conventions can take a while to get used to. To help you
-    start, you can use the title tool in Retool GUI. Open Retool GUI, then click
-    **File > Title tool** to launch it. Paste in the full name you've found in the DAT
-    you're working on, and it shows you the other names Retool assigns to that title by
-    default.
+## Title tool
+
+Retool's different naming conventions can take a while to get used to. To help you
+start, you can use the title tool in Retool GUI. Open Retool GUI, then click
+**File > Title tool** to launch it. Paste in the full name you've found in the DAT
+you're working on, and it shows you the other names Retool assigns to that title by
+default.
+
+![A screenshot of the main Retool's title tool](images/title-tool.png)
 
 ## Full names
 

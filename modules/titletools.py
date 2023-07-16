@@ -667,49 +667,61 @@ class IncludeExcludeTools(object):
 
             for title in titles:
                 if title not in dupe_check:
-                    # Superset titles can be in multiple groups, so deduping needs to be done
-                    # for filter stats
-                    if not any(d.full_name == title.full_name for d in dupe_check):
+                    if config.system_filter:
                         if [x for x in config.system_filter if x != {'override': 'true'}]:
                             if {'override': 'true'} in config.system_filter:
                                 if title.cloneof:
-                                    if not (IncludeExcludeTools.user_override_match(title, [x for x in config.system_filter if x != {'override': 'true'} and x != {'override': 'false'}], post_filter=True, cloneof_check=True)):
+                                    if not IncludeExcludeTools.user_override_match(title, [x for x in config.system_filter if x != {'override': 'true'} and x != {'override': 'false'}], post_filter=True, cloneof_check=True):
+                                        filter_titles.add((group_name, title))
+
+                                        # Compensate for supersets being in multiple groups for the stats and log
+                                        if not any(d.full_name == title.full_name for d in dupe_check):
+                                            system_count = getattr(config.stats, 'system_filter_count')
+                                            system_count += 1
+                                            setattr(config.stats, 'system_filter_count', system_count)
+
+                                            title.exclude_reason = 'System post filter exclude'
+
+                                            dupe_check.add(title)
+                                            removes.system_filter_removes.add(title)
+                                elif not IncludeExcludeTools.user_override_match(title, [x for x in config.system_filter if x != {'override': 'true'} and x != {'override': 'false'}], post_filter=True):
+                                    filter_titles.add((group_name, title))
+
+                                    # Compensate for supersets being in multiple groups for the stats and log
+                                    if not any(d.full_name == title.full_name for d in dupe_check):
                                         system_count = getattr(config.stats, 'system_filter_count')
                                         system_count += 1
                                         setattr(config.stats, 'system_filter_count', system_count)
 
-                                        title.exclude_reason = f'System post filter exclude'
+                                        title.exclude_reason = 'System post filter exclude'
 
                                         dupe_check.add(title)
-                                        filter_titles.add((group_name, title))
                                         removes.system_filter_removes.add(title)
-                                elif not IncludeExcludeTools.user_override_match(title, [x for x in config.system_filter if x != {'override': 'true'} and x != {'override': 'false'}], post_filter=True):
-                                    system_count = getattr(config.stats, 'system_filter_count')
-                                    system_count += 1
-                                    setattr(config.stats, 'system_filter_count', system_count)
-
-                                    title.exclude_reason = 'System post filter exclude'
-
-                                    dupe_check.add(title)
-                                    filter_titles.add((group_name, title))
-                                    removes.system_filter_removes.add(title)
                                 else:
                                     if report_on_match and config.user_input.trace:
                                         TraceTools.trace_title('REF0099', [], set([title]), keep_remove=False)
-                        if config.global_filter:
-                            if {'override': 'false'} in config.system_filter:
-                                if title.cloneof:
-                                    if not (IncludeExcludeTools.user_override_match(title, config.global_filter, post_filter=True, cloneof_check=True)):
+                    if config.global_filter:
+                        if (not config.system_filter
+                            or {'override': 'false'} in config.system_filter):
+                            if title.cloneof:
+                                if not IncludeExcludeTools.user_override_match(title, config.global_filter, post_filter=True, cloneof_check=True):
+                                    filter_titles.add((group_name, title))
+
+                                    # Compensate for supersets being in multiple groups for the stats and log
+                                    if not any(d.full_name == title.full_name for d in dupe_check):
                                         global_count = getattr(config.stats, 'global_filter_count')
                                         global_count += 1
                                         setattr(config.stats, 'global_filter_count', global_count)
 
-                                        title.exclude_reason = f'Global post filter exclude'
+                                        title.exclude_reason = 'Global post filter exclude'
 
                                         dupe_check.add(title)
-                                        filter_titles.add((group_name, title))
                                         removes.global_filter_removes.add(title)
-                                elif not (IncludeExcludeTools.user_override_match(title, config.global_filter, post_filter=True)):
+                            elif not IncludeExcludeTools.user_override_match(title, config.global_filter, post_filter=True):
+                                filter_titles.add((group_name, title))
+
+                                # Compensate for supersets being in multiple groups for the stats and log
+                                if not any(d.full_name == title.full_name for d in dupe_check):
                                     global_count = getattr(config.stats, 'global_filter_count')
                                     global_count += 1
                                     setattr(config.stats, 'global_filter_count', global_count)
@@ -717,15 +729,26 @@ class IncludeExcludeTools(object):
                                     title.exclude_reason = 'Global post filter exclude'
 
                                     dupe_check.add(title)
-                                    filter_titles.add((group_name, title))
                                     removes.global_filter_removes.add(title)
-                                else:
-                                    if report_on_match and config.user_input.trace:
-                                        TraceTools.trace_title('REF0100', [], set([title]), keep_remove=False)
+                            else:
+                                if report_on_match and config.user_input.trace:
+                                    TraceTools.trace_title('REF0100', [], set([title]), keep_remove=False)
 
         # Remove the titles
         for filter_title in filter_titles:
             processed_titles[filter_title[0]].remove(filter_title[1])
+
+        # Catch compilations
+        compilation_removes: set[DatNode] = set()
+
+        if 'retool_compilations' in processed_titles:
+            for compilation_title in processed_titles['retool_compilations']:
+                for filter_title in filter_titles:
+                    if filter_title[1].full_name == compilation_title.full_name:
+                        compilation_removes.add(compilation_title)
+
+            for compilation_remove in compilation_removes:
+                processed_titles['retool_compilations'].remove(compilation_remove)
 
         if config.system_filter:
             if {'override': 'true'} in config.system_filter:

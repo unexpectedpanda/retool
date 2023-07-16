@@ -45,8 +45,12 @@ and enable the following settings:
 
 Run Retool on the DAT file, and fix your clone list until no warnings are given.
 
+## Make your pull request
 
-## Hashing for updates
+When you make your pull request, make sure to justify the choices you have made. For
+example, if you add new clones, provide a link or images that show the titles are clones.
+
+## Update hashes
 
 Retool manages clone list updates via the `hash.json` file in the clone lists subfolder.
 When looking for updates, the newest `hash.json` is downloaded from from the location

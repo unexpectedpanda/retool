@@ -5,6 +5,20 @@ hide:
 
 # Changelog
 
+## 2.01.1
+
+Looks like post filters needed a little more testing before release. The feature now
+works properly.
+
+- Post filters now work if you don't have a system settings file for the DAT you're
+  processing.
+
+- Post filters now remove superset titles that exist across multiple groups.
+
+- Post filters now remove titles that are related to compilations. Previously, even if a
+  such a title was meant to be filtered out, it could randomly turn up in the output DAT
+  due to the way compilations work.
+
 ## 2.01.0
 
 - The **Games** title type is now an option for exclusion. Retool assume titles without
@@ -1352,12 +1366,12 @@ Some big changes this time around, including some requested features.
 - When filtering by language, if titles in the following regions don't have
   languages specified, they will be included if you select any of their
   respective languages:
-  - Asia &mdash; English, Chinese, Japanese.
-  - Hong Kong, Taiwan &mdash; Chinese, English.
-  - Latin America &mdash; Spanish, Portuguese
-  - South Africa &mdash; Afrikaans, English
-  - Switzerland &mdash; German, French, Italian
-  - Ukraine &mdash; Ukranian, Russian.
+    - Asia &mdash; English, Chinese, Japanese.
+    - Hong Kong, Taiwan &mdash; Chinese, English.
+    - Latin America &mdash; Spanish, Portuguese
+    - South Africa &mdash; Afrikaans, English
+    - Switzerland &mdash; German, French, Italian
+    - Ukraine &mdash; Ukranian, Russian.
 - Retool can now handle `rom` entries with no CRC specified. A `rom` entry must
   have at least a CRC, MD5, or SHA1, otherwise the title is dropped.
 - The `-g` option now keeps preproduction titles, as they're treated as
@@ -1381,12 +1395,12 @@ Some big changes this time around, including some requested features.
   without stripping everything away with the `-p` tag. Retool prefers production
   versions of titles, even if there is a preproduction title in a higher
   priority region. Priority is as follows:
-  - Production with highest version
-  - Production with highest revision
-  - Production with no version/revision
-  - Highest beta revision
-  - Highest alpha revision
-  - Highest prototype revision
+    - Production with highest version
+    - Production with highest revision
+    - Production with no version/revision
+    - Highest beta revision
+    - Highest alpha revision
+    - Highest prototype revision
 - The exclude coverdiscs flag is now `-f`.
 - You can now exclude bad dumps, pirate titles, promotional titles (titles that
   contain `(Promo)`, `EPK`, and `Press Kit`), and samples.
@@ -1421,7 +1435,7 @@ to make forward momentum easier. This means a few breaking changes:
     better at automatically detecting different types of clones, so some titles
     no longer need to be listed in the clone lists.
   - The selected 1G1R titles might change compared to previous versions of
-    Retool, due to a a major audit of clone lists, tags, and increases in
+    Retool, due to a major audit of clone lists, tags, and increases in
     parent detection accuracy.
   - Retool no longer exports parent/clone DATs by default. Turns out the format
     can't really do the job properly, as it has no concept of priority within
@@ -1539,7 +1553,7 @@ The following things have also changed:
   those languages.
 - Bumped Portuguese up the priority list when deciding between two
   identical titles that support different languages.
-- Moved stuff out of readme.md to make it more readable, and created
+- Moved stuff out of `readme.md` to make it more readable, and created
   a GitHub wiki for more detailed information.
 
 
@@ -1550,8 +1564,8 @@ The following things have also changed:
 ## 0.54
 - Greatly sped up parent/clone processing, and removed XML conversion in
   favor of writing directly to the output DAT. This will be mostly noticeable
-  for large DATs. The IBM and Sony Redump DATs, for example, now process around
-  10x faster, cutting a minutes long process for each into seconds on an
+  for large DATs. The IBM and PlayStation Redump DATs, for example, now process
+  around 10x faster, cutting a minutes long process for each into seconds on an
   i7 8700K.
 - Added another distributor/publisher to check for when scanning for clones.
 - Removed the option to remove titles with Alt tags, as it was a leftover
@@ -1571,10 +1585,11 @@ The following things have also changed:
 
 
 ## 0.52
-- Added better parent selection for the following:
-  - Titles with multiple date versions.
-  - Titles with distributor/publisher, OEM, and covermount tags.
-  - Budget titles vs the originals.
+Added better parent selection for the following:
+
+- Titles with multiple date versions.
+- Titles with distributor/publisher, OEM, and covermount tags.
+- Budget titles vs the originals.
 
 
 ## 0.51
