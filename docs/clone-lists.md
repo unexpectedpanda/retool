@@ -15,13 +15,6 @@ to titles. They are manually curated, and pull requests are welcome.
 sites, and are used to provide extra language information not included in DAT files. They
 are generated, and as a general rule shouldn't be manually edited.
 
-!!! info
-    No-Intro no longer provides DB downloads for some systems, such as
-    Nintendo Entertainment System, Super Nintendo, and Nintendo 3DS. As such, some
-    metadata files are out of date and the title names might not match those used in their
-    respective DAT files. Although this is unfortunate, there are still many matches
-    inside those metadata files which keep them relevant.
-
 Clone lists are stored in the `clonelists` subfolder, and metadata files are stored in the
 `metadata` folder. Retool selects the correct clone list and metadata files for the loaded
 DAT by checking the `<name>` and `<url>` tags in the header of the DAT file,

@@ -27,16 +27,20 @@ class WriteFiles(object):
         other functions.
 
         Args:
-            `processed_titles (dict[str, set[DatNode]])`: A work in progress dictionary
-            of DatNodes, originally populated from the input DAT and actively being worked
-            on by Retool.
-            `log (tuple[dict[str, set[str]], set[DatNode]])`: Contains all the
-            titles included and removed from the output DAT, and their relationships.
-            Used if the user specifies `--log`.
-            `config (Config)`: The Retool config object.
-            `input_dat (Dat)`: The Retool input_dat object.
-            `removes (Removes)`: The Retool removes object, which contains every title
-            that's been removed, organized by why they were removed.
+            - `processed_titles (dict[str, set[DatNode]])` A work in progress dictionary
+              of DatNodes, originally populated from the input DAT and actively being worked
+              on by Retool.
+
+            - `log (tuple[dict[str, set[str]], set[DatNode]])` Contains all the
+              titles included and removed from the output DAT, and their relationships.
+              Used if the user specifies `--log`.
+
+            - `config (Config)` The Retool config object.
+
+            - `input_dat (Dat)` The Retool input_dat object.
+
+            - `removes (Removes)` The Retool removes object, which contains every title
+              that's been removed, organized by why they were removed.
         """
 
         timestamp: str = datetime.datetime.now().strftime("%Y-%m-%d %H-%M-%S")
@@ -121,18 +125,23 @@ class WriteFiles(object):
         and optionally a user-defined prefix and suffix.
 
         Args:
-            `processed_titles (dict[str, set[DatNode]])`: A work in progress dictionary
-            of DatNodes, originally populated from the input DAT and actively being worked
-            on by Retool.
-            `config (Config)`: The Retool config object.
-            `input_dat (Dat)`: The Retool input_dat object.
-            `timestamp (str)`: Timestamp used in the date header of the output DAT and
-            its filename.
-            `output_file_removes (str, optional)`: The string to append to a DAT file if
-            it contains the titles Retool has removed. Defaults to `''`.
-            `output_file_region (str, optional)`: An additional region tag to append to
-            the removes DAT filename if the user has opted to split by region. Defaults
-            to `''`.
+            - `processed_titles (dict[str, set[DatNode]])` A work in progress dictionary
+              of DatNodes, originally populated from the input DAT and actively being worked
+              on by Retool.
+
+            - `config (Config)` The Retool config object.
+
+            - `input_dat (Dat)` The Retool input_dat object.
+
+            - `timestamp (str)` Timestamp used in the date header of the output DAT and
+              its filename.
+
+            - `output_file_removes (str, optional)` The string to append to a DAT file if
+              it contains the titles Retool has removed. Defaults to `''`.
+
+            - `output_file_region (str, optional)` An additional region tag to append to
+              the removes DAT filename if the user has opted to split by region. Defaults
+              to `''`.
         """
 
         eprint(f'* Creating{output_file_region.replace("(", "").replace(")", "")}{output_file_removes.replace("(", "").replace(")", "").lower()} DAT... ', sep=' ', end='', flush=True)
@@ -285,26 +294,44 @@ class WriteFiles(object):
         if input_dat.datafile_tag:
             final_xml.append(f'{input_dat.datafile_tag}\n')
 
-        final_xml.extend(
-            [
-            '\t<header>\n',
-            f'\t\t<name>{html.escape(input_dat.name, quote=False)} (Retool){output_file_region}{output_file_removes}</name>\n',
-            f'\t\t<description>{html.escape(input_dat.name, quote=False)} ({str("{:,}".format(config.stats.file_count))}){config.user_input.user_options}{excludes} ({input_dat.version}) (Retool {config.version_major}.{config.version_minor}){output_file_region}{output_file_removes}</description>\n',
-            f'\t\t<version>{html.escape(input_dat.version, quote=False)}</version>\n',
-            f'\t\t<date>{timestamp}</date>\n',
-            f'\t\t<author>{input_dat.author}</author>\n',
-            '\t\t<homepage>http://www.github.com/unexpectedpanda/retool</homepage>\n',
-            f'\t\t<url>{html.escape(input_dat.url, quote=False)}</url>\n'])
+        # Set some header content based on whether we're testing output, and therefore need non-volatile content
+        retool_version: str
+        dat_date: str
 
-        if rom_header:
-            final_xml.extend(rom_header)
+        if config.user_input.test:
+            retool_version = 'X'
+            dat_date = '2023-06-17 00-00-00'
+        else:
+            retool_version = f'{config.version_major}.{config.version_minor}'
+            dat_date = timestamp
+
+        if config.user_input.original_header:
+            final_xml.append('\t<header>\n')
+            final_xml.extend(input_dat.original_header)
+        else:
+            final_xml.extend(
+                [
+                '\t<header>\n',
+                f'\t\t<name>{html.escape(input_dat.name, quote=False)} (Retool){output_file_region}{output_file_removes}</name>\n',
+                f'\t\t<description>{html.escape(input_dat.name, quote=False)} ({str("{:,}".format(config.stats.file_count))}){config.user_input.user_options}{excludes} ({input_dat.version}) (Retool {retool_version}){output_file_region}{output_file_removes}</description>\n',
+                f'\t\t<version>{html.escape(input_dat.version, quote=False)}</version>\n',
+                f'\t\t<date>{dat_date}</date>\n',
+                f'\t\t<author>{input_dat.author}</author>\n',
+                '\t\t<homepage>http://www.github.com/unexpectedpanda/retool</homepage>\n',
+                f'\t\t<url>{html.escape(input_dat.url, quote=False)}</url>\n'])
+
+            if rom_header:
+                final_xml.extend(rom_header)
 
         final_xml.append('\t</header>\n')
 
         final_xml.extend(dat_xml)
 
         # Check if the user has set a system output folder
-        input_dat.output_filename = f'{config.user_input.output_folder_name}/{input_dat.name} ({input_dat.version}) (Retool {timestamp}){output_file_region}{output_file_removes} ({str("{:,}".format(config.stats.file_count))}){config.user_input.user_options}{excludes}.dat'
+        if config.user_input.test:
+            input_dat.output_filename = f'{config.user_input.output_folder_name}/tests/comparison/{input_dat.name} ({input_dat.version}){output_file_region}{output_file_removes}{config.user_input.user_options}{excludes}.dat'
+        else:
+            input_dat.output_filename = f'{config.user_input.output_folder_name}/{input_dat.name} ({input_dat.version}) (Retool {timestamp}){output_file_region}{output_file_removes} ({str("{:,}".format(config.stats.file_count))}){config.user_input.user_options}{excludes}.dat'
 
         if {'override': 'true'} in config.system_user_path_settings:
             if config.system_output:
@@ -324,9 +351,11 @@ class WriteFiles(object):
                         prefix starts with `http://`, `https://`, or `ftp://`.
 
                         Args:
-                            `prefix (str)`: The prefix to add to the line.
-                            `suffix (str)`: The suffix to add to the line.
-                            `name (str)`: The title to add to the line.
+                            - `prefix (str)` The prefix to add to the line.
+
+                            - `suffix (str)` The suffix to add to the line.
+
+                            - `name (str)` The title to add to the line.
                         """
                         if (
                             prefix.startswith('http://')
@@ -368,13 +397,17 @@ class WriteFiles(object):
         been kept and removed.
 
         Args:
-            `log (tuple[dict[str, set[str]], set[DatNode]])`: Contains all the
-            titles included and removed from the output DAT, and their relationships.
-            `removes (Removes)`: The Retool removes object, which contains every title
-            that's been removed, organized by why they were removed.
-            `config (Config)`: The Retool config object.
-            `input_dat (Dat)`: The Retool input_dat object.
-            `timestamp (str)`: Timestamp used in the output filename.
+            - `log (tuple[dict[str, set[str]], set[DatNode]])` Contains all the
+              titles included and removed from the output DAT, and their relationships.
+
+            - `removes (Removes)` The Retool removes object, which contains every title
+              that's been removed, organized by why they were removed.
+
+            - `config (Config)` The Retool config object.
+
+            - `input_dat (Dat)` The Retool input_dat object.
+
+            - `timestamp (str)` Timestamp used in the output filename.
         """
 
         eprint(f'* Creating log file... ', sep=' ', end='', flush=True)
@@ -403,6 +436,7 @@ class WriteFiles(object):
             or removes.coverdiscs_removes
             or removes.demos_removes
             or removes.educational_removes
+            or removes.games_removes
             or removes.manuals_removes
             or removes.mia_removes
             or removes.multimedia_removes
@@ -416,7 +450,9 @@ class WriteFiles(object):
             or removes.language_removes
             or removes.region_removes
             or removes.global_excludes
-            or removes.system_excludes):
+            or removes.system_excludes
+            or removes.global_filter_removes
+            or removes.system_filter_removes):
 
                 log_file_contents.append('\nSECTIONS\n========\n')
                 log_file_contents.append('Search for these section names to jump to that part of the file.\n\n')
@@ -431,6 +467,7 @@ class WriteFiles(object):
                 if removes.coverdiscs_removes: log_file_contents.append('* COVERDISC REMOVES\n')
                 if removes.demos_removes: log_file_contents.append('* DEMO, KIOSK, AND SAMPLE REMOVES\n')
                 if removes.educational_removes: log_file_contents.append('* EDUCATIONAL REMOVES\n')
+                if removes.games_removes: log_file_contents.append('* GAME REMOVES\n')
                 if removes.manuals_removes: log_file_contents.append('* MANUAL REMOVES\n')
                 if removes.mia_removes: log_file_contents.append('* MIA REMOVES\n')
                 if removes.multimedia_removes: log_file_contents.append('* MULTIMEDIA REMOVES\n')
@@ -444,6 +481,8 @@ class WriteFiles(object):
                 if removes.region_removes: log_file_contents.append('* REGION REMOVES\n')
                 if removes.global_excludes: log_file_contents.append('* GLOBAL EXCLUDES\n')
                 if removes.system_excludes: log_file_contents.append('* SYSTEM EXCLUDES\n')
+                if removes.global_filter_removes: log_file_contents.append('* GLOBAL POST FILTER REMOVES\n')
+                if removes.system_filter_removes: log_file_contents.append('* SYSTEM POST FILTER REMOVES\n')
 
                 log_file_contents.append('\n')
 
@@ -465,7 +504,16 @@ class WriteFiles(object):
                     for title in sorted(titles_without_clones, key=lambda x: x.full_name):
                         log_file_contents.append(f'+ {title.full_name}\n')
 
-                def user_removes(removes_type: str, removes_list: list[DatNode]) -> None:
+                def user_removes(removes_type: str, removes_list: set[DatNode]) -> None:
+                    """ Adds granular removes content to the log file.
+
+                    Args:
+                        - `removes_type (str)` The heading for this part of the removes list.
+
+                        - `removes_list (set[DatNode])` The titles that have been removed
+                          for this part of the removes list.
+                    """
+
                     if removes_list:
                         log_file_contents.append(f'\n{removes_type.upper()} REMOVES\n')
                         log_file_contents.append('='*len(f'{removes_type.upper()} REMOVES'))
@@ -483,6 +531,7 @@ class WriteFiles(object):
                 user_removes('coverdisc', removes.coverdiscs_removes)
                 user_removes('demo, kiosk, and sample', removes.demos_removes)
                 user_removes('educational', removes.educational_removes)
+                user_removes('game', removes.games_removes)
                 user_removes('manual', removes.manuals_removes)
                 user_removes('mia', removes.mia_removes)
                 user_removes('multimedia', removes.multimedia_removes)
@@ -525,6 +574,20 @@ class WriteFiles(object):
                     log_file_contents.append('These titles were removed because they matched the user\'s system excludes.\n\n')
 
                     for title in sorted(removes.system_excludes, key=lambda x: x.full_name):
+                        log_file_contents.append(f'- {title.full_name}\n')
+
+                if removes.global_filter_removes:
+                    log_file_contents.append('\nGLOBAL POST FILTER REMOVES\n==========================\n')
+                    log_file_contents.append('These titles were removed because they matched the user\'s global post filters.\n\n')
+
+                    for title in sorted(removes.global_filter_removes, key=lambda x: x.full_name):
+                        log_file_contents.append(f'- {title.full_name}\n')
+
+                if removes.system_filter_removes:
+                    log_file_contents.append('\nSYSTEM POST FILTER REMOVES\n==========================\n')
+                    log_file_contents.append('These titles were removed because they matched the user\'s system post filters.\n\n')
+
+                    for title in sorted(removes.system_filter_removes, key=lambda x: x.full_name):
                         log_file_contents.append(f'- {title.full_name}\n')
 
         # Show user exclude options in the output filename

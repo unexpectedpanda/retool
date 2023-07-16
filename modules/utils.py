@@ -19,11 +19,11 @@ def download(download_url: str, local_file_path: str) -> bool:
     """ Downloads a file from a given URL
 
     Args:
-        `download_url (str)`: The URL to download the file from.
-        `local_file_path (str)`: Where to save the file on the local drive.
+        - `download_url (str)` The URL to download the file from.
+        - `local_file_path (str)` Where to save the file on the local drive.
 
     Returns:
-        `bool`: Whether or not the download has failed
+        `bool` Whether or not the download has failed
     """
 
     def get_file(req: urllib.request.Request) -> tuple[bytes, bool]:
@@ -144,7 +144,7 @@ def enable_vt_mode() -> Any:
     setattr(kernel32.SetConsoleMode, 'argtypes', (wintypes.HANDLE, wintypes.DWORD))
 
     def set_conout_mode(new_mode: int, mask: int = 0xffffffff) -> int:
-        # Don't assume StandardOutput is a console, open CONOUT$ instead
+        # Don't assume STDOUT is a console, open CONOUT$ instead
         fdout: int = os.open('CONOUT$', os.O_RDWR)
         try:
             hout: int = msvcrt.get_osfhandle(fdout)
@@ -175,10 +175,10 @@ def format_value(value: Any) -> str:
     """ Formats a string-convertible value based on whether or not it is empty.
 
     Args:
-        `value (Any)`: The value.
+        - `value (Any)` The value.
 
     Returns:
-        `str`: A string that either indicates there's no value, or the original
+        `str` A string that either indicates there's no value, or the original
         value converted to a string.
     """
 
@@ -207,12 +207,14 @@ def pattern2string(regex: Pattern[str], search_str: str, group_number: int = 0) 
     so MyPy doesn't complain about `None` grouping.
 
     Args:
-        `regex (Pattern[str])`: The regex pattern.
-        `search_str (str)`: The string to search in.
-        `group_number (int)`: The regex group to return.
+        - `regex (Pattern[str])` The regex pattern.
+
+        - `search_str (str)` The string to search in.
+
+        - `group_number (int)` The regex group to return.
 
     Returns:
-        `str`: A regex group if found.
+        `str` A regex group if found.
     """
     regex_search_str: str = ''
 
@@ -227,9 +229,10 @@ def printwrap(string: str, style: str = '') -> None:
     indenting.
 
     Args:
-        `string (str)`: The input string.
-        `style (str, optional)`: Which message style to use. Valid choices are
-        `no_indent`, `error`, `dat_details`, or `''`. Defaults to `''`.
+        - `string (str)` The input string.
+
+        - `style (str, optional)` Which message style to use. Valid choices are
+          `no_indent`, `error`, `dat_details`, or `''`. Defaults to `''`.
     """
 
     if not style:
@@ -251,15 +254,19 @@ def regex_test(regex_list: list[str], regex_origin: str, type: str) -> list[str]
     """ Checks for valid regexes.
 
     Args:
-        `regex_list (list[str])`: A list of regex patterns in string form.
-        `regex_origin (str)`: The origin of the regex filters, included in messages to the
-        user when a regex is found to be invalid. Usually `categories`, `overrides`,
-        `variants`, `global exclude`, `global include`, `system exclude`, `system include`.
-        `type (str)`: Whether the regex comes from a `user filter`, `clone list`, or
-        `trace`.
+        - `regex_list (list[str])` A list of regex patterns in string form.
+
+        - `regex_origin (str)` The origin of the regex filters, included in messages to the
+          user when a regex is found to be invalid. Usually `categories`, `overrides`,
+          `variants`, `global exclude`, `global include`, `system exclude`, `system include`,
+          `global post filter`, `system post filter`.
+
+        - `type (str)` Whether the regex comes from an `user filter` (both overrides and
+          post filters), `clone list`, or `trace`. Behavior of the regex test changes based
+          on this.
 
     Returns:
-        `list[str]`: The remaining valid regexes as strings.
+        `list[str]` The remaining valid regexes as strings.
     """
 
     list_temp: list[str] = regex_list.copy()
@@ -282,7 +289,7 @@ def regex_test(regex_list: list[str], regex_origin: str, type: str) -> list[str]
 
     if list_temp != regex_list:
         if type == 'user filter':
-            eprint(f'{Font.warning}\n* The following {regex_origin} regex filters are invalid and will be skipped:\n')
+            eprint(f'{Font.warning}\n* The following {regex_origin} regexes are invalid and will be skipped:\n')
         elif type == 'clone list':
             eprint(f'{Font.warning}\n* The following regex in the clone list\'s {regex_origin} object is invalid and will be skipped:\n')
         elif type == 'trace':

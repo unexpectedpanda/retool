@@ -93,8 +93,8 @@ class MainWindow(qtw.QMainWindow):
         interactive_widgets.extend(self.ui.centralwidget.findChildren(qtw.QPushButton, qtc.QRegularExpression('button(Choose|Clear)System.*')))
         interactive_widgets.extend(self.ui.centralwidget.findChildren(qtw.QCheckBox, qtc.QRegularExpression('checkBoxGlobal(Exclude|Options).*')))
         interactive_widgets.extend(self.ui.centralwidget.findChildren(qtw.QCheckBox, qtc.QRegularExpression('checkBoxSystem(Exclude|Options|Override).*')))
-        interactive_widgets.extend(self.ui.centralwidget.findChildren(qtw.QTextEdit, qtc.QRegularExpression('textEditGlobal(Exclude|Include).*')))
-        interactive_widgets.extend(self.ui.centralwidget.findChildren(qtw.QTextEdit, qtc.QRegularExpression('textEditSystem(Exclude|Include).*')))
+        interactive_widgets.extend(self.ui.centralwidget.findChildren(qtw.QTextEdit, qtc.QRegularExpression('textEditGlobal(Exclude|Include|Filter).*')))
+        interactive_widgets.extend(self.ui.centralwidget.findChildren(qtw.QTextEdit, qtc.QRegularExpression('textEditSystem(Exclude|Include|Filter).*')))
         interactive_widgets.extend(self.ui.centralwidget.findChildren(qtw.QLineEdit, qtc.QRegularExpression('lineEditGlobalOptions.*')))
         interactive_widgets.extend(self.ui.centralwidget.findChildren(qtw.QLineEdit, qtc.QRegularExpression('lineEditSystemOptions.*')))
         interactive_widgets.extend(self.ui.centralwidget.findChildren(qtw.QListWidget, qtc.QRegularExpression('listWidgetGlobal.*')))
@@ -180,6 +180,8 @@ class ThreadTask(qtc.QRunnable):
             eprint(f'\n{Font.error}Retool has had an unexpected error. Please raise an issue at\nhttps://github.com/unexpectedpanda/retool/issues, attaching\nthe DAT file that caused the problem and the following trace:{Font.end}\n')
             traceback.print_exc()
             eprint(f'\n{Font.error}The error occurred on this file:\n{self.argument.input_file_name}{Font.end}\n')
+            if pathlib.Path('.dev').is_file():
+                input()
             self.signals.finished.emit(self.data) # type: ignore
 
         self.signals.finished.emit(self.data) # type: ignore
@@ -221,14 +223,14 @@ if __name__ == "__main__":
                     'Retool is more accurate with these files. Do you want to\n'
                     'download them?')
         msg.setWindowTitle('Clone lists or metadata needed')
-        msg.setStandardButtons(qtw.QMessageBox.Yes | qtw.QMessageBox.No)
+        msg.setStandardButtons(qtw.QMessageBox.Yes | qtw.QMessageBox.No) # type: ignore
         icon = qtg.QIcon()
-        icon.addFile(u":/retoolIcon/images/retool.ico", qtc.QSize(), qtg.QIcon.Normal, qtg.QIcon.Off)
+        icon.addFile(u":/retoolIcon/images/retool.ico", qtc.QSize(), qtg.QIcon.Normal, qtg.QIcon.Off) # type: ignore
         msg.setWindowIcon(icon)
 
         download_update: int = msg.exec()
 
-        if download_update == qtw.QMessageBox.Yes:
+        if download_update == qtw.QMessageBox.Yes: # type: ignore
             config: Config = import_config()
             write_config(window, dat_details, config, settings_window=None, run_retool=True, update_clone_list=True)
 

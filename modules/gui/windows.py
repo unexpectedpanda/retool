@@ -11,7 +11,7 @@ from modules.config import Config
 from modules.gui.retool_about import Ui_AboutWindow # type: ignore
 from modules.gui.retool_settings import Ui_Settings # type: ignore
 from modules.gui.retool_clone_list_name import Ui_CloneListNameTool # type: ignore
-from modules.gui.custom_widgets import CustomLineEdit, ElisionLabel
+from modules.gui.custom_widgets import ElisionLabel
 from modules.gui.gui_config import write_config
 from modules.gui.gui_utils import set_fonts, set_path
 from modules.titletools import TitleTools
@@ -22,10 +22,11 @@ class AboutWindow(qtw.QDialog):
         """ The "About" window for Retool.
 
         Args:
-            `parent (Any)`: The parent window that called this one. Important so the
-            modal doesn't turn up on the taskbar, and makes the parent
-            inaccessible while the modal is open. Defaults to `None`.
-            `version (str)`: The GUI version.
+            - `parent (Any)` The parent window that called this one. Important so the
+              modal doesn't turn up on the taskbar, and makes the parent
+              inaccessible while the modal is open. Defaults to `None`.
+
+            - `version (str)` The GUI version.
         """
 
         super(AboutWindow, self).__init__(parent)
@@ -44,12 +45,14 @@ class SettingsWindow(qtw.QDialog):
         """ The "Settings" window for Retool.
 
         Args:
-            `dat_details (dict[str, dict[str, str]])`: The dictionary that carries DAT
-            file details like its system name and filepath.
-            `config (Config)`: The Retool config object.
-            `parent (Any)`: The parent window that called this one. Important so the modal
-            doesn't turn up on the taskbar, and makes the parent inaccessible while the
-            modal is open. Defaults to `None`.
+            - `dat_details (dict[str, dict[str, str]])` The dictionary that carries DAT
+              file details like its system name and filepath.
+
+            - `config (Config)` The Retool config object.
+
+            - `parent (Any)` The parent window that called this one. Important so the modal
+              doesn't turn up on the taskbar, and makes the parent inaccessible while the
+              modal is open. Defaults to `None`.
         """
 
         super(SettingsWindow, self).__init__(parent)
@@ -93,7 +96,7 @@ class SettingsWindow(qtw.QDialog):
             """ Validates a URL, writes to config accordingly.
 
             Args:
-                `url (str)`: The URL to validate.
+                - `url (str)` The URL to validate.
             """
             if not url:
                 parent.clone_list_metadata_url = config.clone_list_metadata_download_location
@@ -133,7 +136,7 @@ class TitleToolWindow(qtw.QMainWindow):
         region-free name.
 
         Args:
-            `config (Config)`: The Retool config object.
+            - `config (Config)` The Retool config object.
         """
 
         super(TitleToolWindow, self).__init__()

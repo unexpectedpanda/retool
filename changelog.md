@@ -1,5 +1,54 @@
 # Retool changelog
 
+## 2.01.0
+
+- The **Games** title type is now an option for exclusion. Retool assume titles without
+  categories assigned in the input DAT are games. For those who click **Select all** in
+  the **Exclusions** tab, make sure to deselect **Games** if you want to keep them.
+
+- User filters have been renamed to overrides, since that's what they actually do.
+
+- Added post filters. After Retool has finished its processing, any title matches it finds
+  in the post filter list are kept, and everything else is discarded. This is for those
+  who only keep a short list of titles, but want to make sure they're getting the latest
+  versions via Retool's processing first.
+
+- You can now use the original input DAT header in the output DAT. This is useful if you
+  already have original Redump and No-Intro DATs in CLRMAMEPro, and want to treat the
+  Retool DAT as an update.
+
+- Made several small tweaks to improve results for those who rank Europe higher than USA
+  in their region order. This mainly results in European titles with languages reflecting
+  user preferences being chosen over `(USA, Europe)` titles that don't specify languages.
+
+- During compilation comparisons, the _World_, _Europe_, and _Japan_ regions are
+  considered equivalent. This was already the case for _USA_ and _World_. This means that
+  individual _World_ titles can be chosen in place of _USA_, _Europe_, or _Japan_
+  compilations (and vice versa).
+
+- Exclusions are now much faster.
+
+- Fixed a bug on exclusions that caused Retool to crash.
+
+- Fixed a bug where Retool included more titles than it should when considering
+  multi-region titles For example, _Bonanza Bros. (USA, Europe, Korea) (En) (Rev B)_ and
+  _Bonanza Bros. (Japan, Europe) (En) (Rev A)_ were both being kept in the Genesis DAT.
+  Now Retool correctly chooses only one.
+
+- Fixed a bug introduced in 2.00.4 where superset titles with more languages would be
+  selected over higher region priority titles.
+
+- Fixed a bug where setting a legacy export in the system options didn't work.
+
+- Fixed a bug where some compilation titles weren't set to clones.
+
+- Made some tweaks to the GUI so the interface is more solid on Windows for 4k, 150%
+  scaled screens.
+
+- An internal automated test framework is now used when making changes to Retool. It
+  checks the output of multiple different configurations, verifies the output is
+  consistent, and makes it easier to pick up errors as a result of code changes.
+
 ## 2.00.5
 
 - Fixed handling of No-Intro's quasi-RFC 3339 date format.

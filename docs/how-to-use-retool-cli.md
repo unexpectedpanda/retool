@@ -122,40 +122,64 @@ permitted per array. If you are using the `--listnames` option, this defines the
 and suffix to add to each line. If a prefix starts with `http://`, `https://`, or
 `ftp://`, then each line in the output file is URL encoded.
 
-### Global exclude and include filters
+### Global exclude and include overrides
 
 Optional. Defined by the `exclude` and `include` arrays.
 
-User filters override the default choices Retool makes by force including or excluding
-titles whose names match a certain string. Each filter must be on its own line.
+You can override the default choices Retool makes by force including or excluding
+titles whose names match a certain string. Each string must be on its own line.
+
+An excluded title forces Retool to act as if the title was never in the input DAT in the
+first place. This means that an exclude can force Retool to select a different title when
+choosing 1G1R titles.
+
+An included title makes it into the output DAT regardless of Retool's choices. Even if
+Retool has removed a title as part of the filtering process, a matching include brings it
+back. Only a post filter can remove an included title.
+
+There are rules when it comes to overrides, and how they interact at the global settings
+and system settings level:
+
+* System includes override all excludes.
+* System excludes override global includes.
+* Global includes override global excludes.
+
+To read about the different ways you can match titles, see
+[Override and post filter match types](#override-and-post-filter-match-types).
 
 !!! note
     If Retool has genuinely missed a relationship between titles, please don't just
-    create a filter &mdash; [create an issue](https://github.com/unexpectedpanda/retool/issues)
+    create an override &mdash; [create an issue](https://github.com/unexpectedpanda/retool/issues)
     too so the clone lists or Retool can be updated.
 
-There are three different match types:
+### Post filters
+
+Optional. Defined by the `filters` array.
+
+After Retool has finished processing, you can filter the results to only include titles
+that match the text you provide. Each match must be on its own line.
+
+To read about the different ways you can match titles, see
+[Override and post filter match types](#override-and-post-filter-match-types).
+
+### Override and post filter match types
+
+There are three different match types for overrides and post filters:
 
 * Plain text indicates a partial string match.
 * A prefix of `/` indicates a regular expression match.
 * A prefix of `|` indicates a full string match.
 
-Additionally, you can wrap any of these strings in `<>` to also remove any match's related
-clones.
+Additionally, you can wrap any of these strings in `<>` when using overrides to also
+include or exclude any match's related clones. Wrapping strings in `<>` is not supported
+for post filters.
 
 !!! warning
-    If you need to use a backslash (`\`) or double quote (`"`) in your filters, you
+    If you need to use a backslash (`\`) or double quote (`"`) in your overrides, you
     must escape them with a backslash. For example:
 
     * `\\`
     * `\"`
-
-Additionally, there are rules when it comes to user filters, and how they interact at the
-global settings and system settings level:
-
-* System includes override all excludes.
-* System excludes override global includes.
-* Global includes override global excludes.
 
 #### Partial matches
 If a line isn't prefixed with `|` (full match) or `/` (regular expression) in an
@@ -243,7 +267,7 @@ include:
 ```
 
 Here all USA titles are kept, even if they start with `I`, because includes override
-excludes. In our example list the `(Alt)` title is usually removed by Retool as a clone
+excludes. In the example list the `(Alt)` title is usually removed by Retool as a clone
 of the original, but the include filter of `/\(USA\)` makes sure it's kept.
 
 #### Full matches
@@ -285,9 +309,8 @@ It's Pretty Cold (Japan)
 I Can't Find My Hotel (Europe)
 ```
 
-In our example list the `(Alt)` title is usually removed by Retool as a clone of the
+In the example list the `(Alt)` title is usually removed by Retool as a clone of the
 original, but the include filter makes sure it's kept.
-
 
 ### GUI settings
 
@@ -329,7 +352,7 @@ These options change how Retool handles certain titles.
   <br>This option isn't compatible with [`--legacy`](#legacy).
 
 * **`-e` Include titles without hashes or sizes specified in the input DAT file**
-  <br>Some DAT files don't list any hashes or sizes for some files, and Retool filters
+  <br>Some DAT files don't list any hashes or sizes for some files, and Retool overrides
   these out by default. This option makes sure those files are kept.
 
 * **`-l` Filter by languages using a list**
@@ -362,8 +385,8 @@ These options change how Retool handles certain titles.
   on the original system instead of those ripped from rereleases on platforms like
   Virtual Console and Steam. This option reverses that behavior.
 
-* **`--nofilters` Disable global and system user filters**
-  <br>Ignore both global and system user filters.
+* **`--nooverrides` Disable global and system overrides**
+  <br>Ignore both global and system overrides.
 
 ### Exclusions
 
@@ -420,6 +443,9 @@ The available exclusions are as follows:
 * **`e` Educational**
   <br>Titles with the DAT category `Educational`.
 
+* **`g` Games**
+  <br>Titles with the DAT category `Games`, or no DAT category.
+
 * **`k` MIA**
   <br>Titles or ROMs declared as missing in action in the clone lists or DAT files.
 
@@ -469,6 +495,10 @@ The available exclusions are as follows:
   suffix to each line.
 
 * **`--log` Also output a TXT file of what titles have been kept, removed, and set as clones**
+
+* **`--originalheader` Use the original input DAT header in the output DAT**
+  <br>Useful if you want to load Retool DATs as an update to original Redump and No-Intro
+  DATs already in CLRMAMEPro.
 
 * **`--output <folder>` Set an output folder where the new 1G1R DAT file/s will be created**
 

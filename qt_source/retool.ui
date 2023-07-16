@@ -7,8 +7,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>957</width>
-    <height>650</height>
+    <width>963</width>
+    <height>662</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -356,6 +356,9 @@
                <property name="contextMenuPolicy">
                 <enum>Qt::DefaultContextMenu</enum>
                </property>
+               <property name="frameShape">
+                <enum>QFrame::Box</enum>
+               </property>
                <property name="showDropIndicator" stdset="0">
                 <bool>false</bool>
                </property>
@@ -399,7 +402,7 @@
              </item>
             </layout>
            </widget>
-           <widget class="QWidget" name="gridLayoutRight_2" native="true">
+           <widget class="QWidget" name="gridLayoutRightSettings" native="true">
             <property name="minimumSize">
              <size>
               <width>650</width>
@@ -495,7 +498,7 @@
                       <widget class="QWidget" name="gridGlobalRegions" native="true">
                        <layout class="QGridLayout" name="gridLayoutGlobalRegions">
                         <property name="leftMargin">
-                         <number>0</number>
+                         <number>1</number>
                         </property>
                         <property name="topMargin">
                          <number>0</number>
@@ -506,6 +509,146 @@
                         <property name="bottomMargin">
                          <number>0</number>
                         </property>
+                        <item row="3" column="2">
+                         <widget class="CustomListSelfDrag" name="listWidgetGlobalSelectedRegions">
+                          <property name="sizePolicy">
+                           <sizepolicy hsizetype="Fixed" vsizetype="Expanding">
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                           </sizepolicy>
+                          </property>
+                          <property name="minimumSize">
+                           <size>
+                            <width>220</width>
+                            <height>0</height>
+                           </size>
+                          </property>
+                          <property name="frameShape">
+                           <enum>QFrame::Box</enum>
+                          </property>
+                          <property name="tabKeyNavigation">
+                           <bool>true</bool>
+                          </property>
+                          <property name="showDropIndicator" stdset="0">
+                           <bool>true</bool>
+                          </property>
+                          <property name="dragDropMode">
+                           <enum>QAbstractItemView::DragDrop</enum>
+                          </property>
+                          <property name="defaultDropAction">
+                           <enum>Qt::MoveAction</enum>
+                          </property>
+                          <property name="alternatingRowColors">
+                           <bool>false</bool>
+                          </property>
+                          <property name="selectionMode">
+                           <enum>QAbstractItemView::ExtendedSelection</enum>
+                          </property>
+                          <property name="self_drag" stdset="0">
+                           <bool>true</bool>
+                          </property>
+                          <property name="is_drag_drop" stdset="0">
+                           <bool>true</bool>
+                          </property>
+                         </widget>
+                        </item>
+                        <item row="4" column="0">
+                         <spacer name="verticalSpacerGlobalRegionsEnglishButton">
+                          <property name="orientation">
+                           <enum>Qt::Vertical</enum>
+                          </property>
+                          <property name="sizeType">
+                           <enum>QSizePolicy::Fixed</enum>
+                          </property>
+                          <property name="sizeHint" stdset="0">
+                           <size>
+                            <width>20</width>
+                            <height>6</height>
+                           </size>
+                          </property>
+                         </spacer>
+                        </item>
+                        <item row="1" column="0" colspan="5">
+                         <widget class="Line" name="lineGlobalRegionSeparator">
+                          <property name="sizePolicy">
+                           <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                           </sizepolicy>
+                          </property>
+                          <property name="palette">
+                           <palette>
+                            <active>
+                             <colorrole role="WindowText">
+                              <brush brushstyle="SolidPattern">
+                               <color alpha="255">
+                                <red>85</red>
+                                <green>85</green>
+                                <blue>85</blue>
+                               </color>
+                              </brush>
+                             </colorrole>
+                            </active>
+                            <inactive>
+                             <colorrole role="WindowText">
+                              <brush brushstyle="SolidPattern">
+                               <color alpha="255">
+                                <red>85</red>
+                                <green>85</green>
+                                <blue>85</blue>
+                               </color>
+                              </brush>
+                             </colorrole>
+                            </inactive>
+                            <disabled>
+                             <colorrole role="WindowText">
+                              <brush brushstyle="SolidPattern">
+                               <color alpha="255">
+                                <red>120</red>
+                                <green>120</green>
+                                <blue>120</blue>
+                               </color>
+                              </brush>
+                             </colorrole>
+                            </disabled>
+                           </palette>
+                          </property>
+                          <property name="frameShadow">
+                           <enum>QFrame::Plain</enum>
+                          </property>
+                          <property name="orientation">
+                           <enum>Qt::Horizontal</enum>
+                          </property>
+                         </widget>
+                        </item>
+                        <item row="0" column="0" colspan="5">
+                         <widget class="QLabel" name="labelGlobalFilterByRegions">
+                          <property name="sizePolicy">
+                           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                           </sizepolicy>
+                          </property>
+                          <property name="minimumSize">
+                           <size>
+                            <width>0</width>
+                            <height>20</height>
+                           </size>
+                          </property>
+                          <property name="font">
+                           <font>
+                            <family>Segoe UI</family>
+                            <bold>true</bold>
+                           </font>
+                          </property>
+                          <property name="text">
+                           <string>Filter by regions (you must add at least one)</string>
+                          </property>
+                          <property name="textInteractionFlags">
+                           <set>Qt::NoTextInteraction</set>
+                          </property>
+                         </widget>
+                        </item>
                         <item row="2" column="2">
                          <widget class="QLabel" name="labelGlobalSelectedRegions">
                           <property name="sizePolicy">
@@ -524,6 +667,73 @@
                           </property>
                           <property name="textInteractionFlags">
                            <set>Qt::NoTextInteraction</set>
+                          </property>
+                         </widget>
+                        </item>
+                        <item row="2" column="0">
+                         <widget class="QLabel" name="labelGlobalAvailableRegions">
+                          <property name="sizePolicy">
+                           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                           </sizepolicy>
+                          </property>
+                          <property name="font">
+                           <font>
+                            <family>Segoe UI</family>
+                           </font>
+                          </property>
+                          <property name="text">
+                           <string>Available regions</string>
+                          </property>
+                          <property name="textInteractionFlags">
+                           <set>Qt::NoTextInteraction</set>
+                          </property>
+                         </widget>
+                        </item>
+                        <item row="3" column="0">
+                         <widget class="CustomList" name="listWidgetGlobalAvailableRegions">
+                          <property name="sizePolicy">
+                           <sizepolicy hsizetype="Fixed" vsizetype="Expanding">
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                           </sizepolicy>
+                          </property>
+                          <property name="minimumSize">
+                           <size>
+                            <width>220</width>
+                            <height>0</height>
+                           </size>
+                          </property>
+                          <property name="frameShape">
+                           <enum>QFrame::Box</enum>
+                          </property>
+                          <property name="tabKeyNavigation">
+                           <bool>true</bool>
+                          </property>
+                          <property name="showDropIndicator" stdset="0">
+                           <bool>true</bool>
+                          </property>
+                          <property name="dragDropMode">
+                           <enum>QAbstractItemView::DragDrop</enum>
+                          </property>
+                          <property name="defaultDropAction">
+                           <enum>Qt::MoveAction</enum>
+                          </property>
+                          <property name="alternatingRowColors">
+                           <bool>false</bool>
+                          </property>
+                          <property name="selectionMode">
+                           <enum>QAbstractItemView::ExtendedSelection</enum>
+                          </property>
+                          <property name="sortingEnabled">
+                           <bool>true</bool>
+                          </property>
+                          <property name="self_drag" stdset="0">
+                           <bool>false</bool>
+                          </property>
+                          <property name="is_drag_drop" stdset="0">
+                           <bool>true</bool>
                           </property>
                          </widget>
                         </item>
@@ -550,142 +760,18 @@ English-speaking regions and 60Hz titles</string>
                           </property>
                          </widget>
                         </item>
-                        <item row="2" column="0">
-                         <widget class="QLabel" name="labelGlobalAvailableRegions">
-                          <property name="sizePolicy">
-                           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-                            <horstretch>0</horstretch>
-                            <verstretch>0</verstretch>
-                           </sizepolicy>
+                        <item row="3" column="4">
+                         <spacer name="horizontalSpacerGlobalRegions">
+                          <property name="orientation">
+                           <enum>Qt::Horizontal</enum>
                           </property>
-                          <property name="font">
-                           <font>
-                            <family>Segoe UI</family>
-                           </font>
-                          </property>
-                          <property name="text">
-                           <string>Available regions</string>
-                          </property>
-                          <property name="textInteractionFlags">
-                           <set>Qt::NoTextInteraction</set>
-                          </property>
-                         </widget>
-                        </item>
-                        <item row="3" column="3">
-                         <widget class="QFrame" name="frameGlobalRegionUpDown">
-                          <property name="sizePolicy">
-                           <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
-                            <horstretch>0</horstretch>
-                            <verstretch>0</verstretch>
-                           </sizepolicy>
-                          </property>
-                          <property name="minimumSize">
+                          <property name="sizeHint" stdset="0">
                            <size>
-                            <width>60</width>
-                            <height>0</height>
+                            <width>40</width>
+                            <height>20</height>
                            </size>
                           </property>
-                          <property name="frameShape">
-                           <enum>QFrame::NoFrame</enum>
-                          </property>
-                          <property name="frameShadow">
-                           <enum>QFrame::Plain</enum>
-                          </property>
-                          <layout class="QVBoxLayout" name="verticalLayout_13">
-                           <item>
-                            <spacer name="verticalSpacerGlobalRegionUpDownTop">
-                             <property name="orientation">
-                              <enum>Qt::Vertical</enum>
-                             </property>
-                             <property name="sizeHint" stdset="0">
-                              <size>
-                               <width>20</width>
-                               <height>40</height>
-                              </size>
-                             </property>
-                            </spacer>
-                           </item>
-                           <item>
-                            <widget class="QPushButton" name="buttonGlobalRegionUp">
-                             <property name="sizePolicy">
-                              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-                               <horstretch>0</horstretch>
-                               <verstretch>0</verstretch>
-                              </sizepolicy>
-                             </property>
-                             <property name="minimumSize">
-                              <size>
-                               <width>40</width>
-                               <height>41</height>
-                              </size>
-                             </property>
-                             <property name="font">
-                              <font>
-                               <family>Arial</family>
-                               <pointsize>10</pointsize>
-                               <bold>true</bold>
-                              </font>
-                             </property>
-                             <property name="toolTip">
-                              <string>Move the selected regions up in priority</string>
-                             </property>
-                             <property name="text">
-                              <string/>
-                             </property>
-                             <property name="icon">
-                              <iconset resource="resources.qrc">
-                               <normaloff>:/Arrows/images/icons8-sort-up-100.png</normaloff>:/Arrows/images/icons8-sort-up-100.png</iconset>
-                             </property>
-                            </widget>
-                           </item>
-                           <item>
-                            <widget class="QPushButton" name="buttonGlobalRegionDown">
-                             <property name="sizePolicy">
-                              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-                               <horstretch>0</horstretch>
-                               <verstretch>0</verstretch>
-                              </sizepolicy>
-                             </property>
-                             <property name="minimumSize">
-                              <size>
-                               <width>40</width>
-                               <height>41</height>
-                              </size>
-                             </property>
-                             <property name="font">
-                              <font>
-                               <family>Arial</family>
-                               <pointsize>10</pointsize>
-                               <bold>true</bold>
-                              </font>
-                             </property>
-                             <property name="toolTip">
-                              <string>Move the selected regions down in priority</string>
-                             </property>
-                             <property name="text">
-                              <string/>
-                             </property>
-                             <property name="icon">
-                              <iconset resource="resources.qrc">
-                               <normaloff>:/Arrows/images/icons8-sort-down-100.png</normaloff>:/Arrows/images/icons8-sort-down-100.png</iconset>
-                             </property>
-                            </widget>
-                           </item>
-                           <item>
-                            <spacer name="verticalSpacerGlobalRegionUpDownBottom">
-                             <property name="orientation">
-                              <enum>Qt::Vertical</enum>
-                             </property>
-                             <property name="sizeHint" stdset="0">
-                              <size>
-                               <width>20</width>
-                               <height>40</height>
-                              </size>
-                             </property>
-                            </spacer>
-                           </item>
-                          </layout>
-                         </widget>
+                         </spacer>
                         </item>
                         <item row="3" column="1">
                          <widget class="QFrame" name="frameGlobalRegionLeftRight">
@@ -887,197 +973,120 @@ English-speaking regions and 60Hz titles</string>
                           </layout>
                          </widget>
                         </item>
-                        <item row="3" column="0">
-                         <widget class="CustomList" name="listWidgetGlobalAvailableRegions">
+                        <item row="3" column="3">
+                         <widget class="QFrame" name="frameGlobalRegionUpDown">
                           <property name="sizePolicy">
-                           <sizepolicy hsizetype="Fixed" vsizetype="Expanding">
+                           <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
                             <horstretch>0</horstretch>
                             <verstretch>0</verstretch>
                            </sizepolicy>
                           </property>
                           <property name="minimumSize">
                            <size>
-                            <width>220</width>
+                            <width>60</width>
                             <height>0</height>
                            </size>
                           </property>
-                          <property name="tabKeyNavigation">
-                           <bool>true</bool>
-                          </property>
-                          <property name="showDropIndicator" stdset="0">
-                           <bool>true</bool>
-                          </property>
-                          <property name="dragDropMode">
-                           <enum>QAbstractItemView::DragDrop</enum>
-                          </property>
-                          <property name="defaultDropAction">
-                           <enum>Qt::MoveAction</enum>
-                          </property>
-                          <property name="alternatingRowColors">
-                           <bool>false</bool>
-                          </property>
-                          <property name="selectionMode">
-                           <enum>QAbstractItemView::ExtendedSelection</enum>
-                          </property>
-                          <property name="sortingEnabled">
-                           <bool>true</bool>
-                          </property>
-                          <property name="self_drag" stdset="0">
-                           <bool>false</bool>
-                          </property>
-                          <property name="is_drag_drop" stdset="0">
-                           <bool>true</bool>
-                          </property>
-                         </widget>
-                        </item>
-                        <item row="3" column="2">
-                         <widget class="CustomListSelfDrag" name="listWidgetGlobalSelectedRegions">
-                          <property name="sizePolicy">
-                           <sizepolicy hsizetype="Fixed" vsizetype="Expanding">
-                            <horstretch>0</horstretch>
-                            <verstretch>0</verstretch>
-                           </sizepolicy>
-                          </property>
-                          <property name="minimumSize">
-                           <size>
-                            <width>220</width>
-                            <height>0</height>
-                           </size>
-                          </property>
-                          <property name="tabKeyNavigation">
-                           <bool>true</bool>
-                          </property>
-                          <property name="showDropIndicator" stdset="0">
-                           <bool>true</bool>
-                          </property>
-                          <property name="dragDropMode">
-                           <enum>QAbstractItemView::DragDrop</enum>
-                          </property>
-                          <property name="defaultDropAction">
-                           <enum>Qt::MoveAction</enum>
-                          </property>
-                          <property name="alternatingRowColors">
-                           <bool>false</bool>
-                          </property>
-                          <property name="selectionMode">
-                           <enum>QAbstractItemView::ExtendedSelection</enum>
-                          </property>
-                          <property name="self_drag" stdset="0">
-                           <bool>true</bool>
-                          </property>
-                          <property name="is_drag_drop" stdset="0">
-                           <bool>true</bool>
-                          </property>
-                         </widget>
-                        </item>
-                        <item row="4" column="0">
-                         <spacer name="verticalSpacerGlobalRegionsEnglishButton">
-                          <property name="orientation">
-                           <enum>Qt::Vertical</enum>
-                          </property>
-                          <property name="sizeType">
-                           <enum>QSizePolicy::Fixed</enum>
-                          </property>
-                          <property name="sizeHint" stdset="0">
-                           <size>
-                            <width>20</width>
-                            <height>6</height>
-                           </size>
-                          </property>
-                         </spacer>
-                        </item>
-                        <item row="3" column="4">
-                         <spacer name="horizontalSpacerGlobalRegions">
-                          <property name="orientation">
-                           <enum>Qt::Horizontal</enum>
-                          </property>
-                          <property name="sizeHint" stdset="0">
-                           <size>
-                            <width>40</width>
-                            <height>20</height>
-                           </size>
-                          </property>
-                         </spacer>
-                        </item>
-                        <item row="1" column="0" colspan="5">
-                         <widget class="Line" name="lineGlobalRegionSeparator">
-                          <property name="sizePolicy">
-                           <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-                            <horstretch>0</horstretch>
-                            <verstretch>0</verstretch>
-                           </sizepolicy>
-                          </property>
-                          <property name="palette">
-                           <palette>
-                            <active>
-                             <colorrole role="WindowText">
-                              <brush brushstyle="SolidPattern">
-                               <color alpha="255">
-                                <red>85</red>
-                                <green>85</green>
-                                <blue>85</blue>
-                               </color>
-                              </brush>
-                             </colorrole>
-                            </active>
-                            <inactive>
-                             <colorrole role="WindowText">
-                              <brush brushstyle="SolidPattern">
-                               <color alpha="255">
-                                <red>85</red>
-                                <green>85</green>
-                                <blue>85</blue>
-                               </color>
-                              </brush>
-                             </colorrole>
-                            </inactive>
-                            <disabled>
-                             <colorrole role="WindowText">
-                              <brush brushstyle="SolidPattern">
-                               <color alpha="255">
-                                <red>120</red>
-                                <green>120</green>
-                                <blue>120</blue>
-                               </color>
-                              </brush>
-                             </colorrole>
-                            </disabled>
-                           </palette>
+                          <property name="frameShape">
+                           <enum>QFrame::NoFrame</enum>
                           </property>
                           <property name="frameShadow">
                            <enum>QFrame::Plain</enum>
                           </property>
-                          <property name="orientation">
-                           <enum>Qt::Horizontal</enum>
-                          </property>
-                         </widget>
-                        </item>
-                        <item row="0" column="0" colspan="5">
-                         <widget class="QLabel" name="labelGlobalFilterByRegions">
-                          <property name="sizePolicy">
-                           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-                            <horstretch>0</horstretch>
-                            <verstretch>0</verstretch>
-                           </sizepolicy>
-                          </property>
-                          <property name="minimumSize">
-                           <size>
-                            <width>0</width>
-                            <height>20</height>
-                           </size>
-                          </property>
-                          <property name="font">
-                           <font>
-                            <family>Segoe UI</family>
-                            <bold>true</bold>
-                           </font>
-                          </property>
-                          <property name="text">
-                           <string>Filter by regions (you must add at least one)</string>
-                          </property>
-                          <property name="textInteractionFlags">
-                           <set>Qt::NoTextInteraction</set>
-                          </property>
+                          <layout class="QVBoxLayout" name="verticalLayout_13">
+                           <item>
+                            <spacer name="verticalSpacerGlobalRegionUpDownTop">
+                             <property name="orientation">
+                              <enum>Qt::Vertical</enum>
+                             </property>
+                             <property name="sizeHint" stdset="0">
+                              <size>
+                               <width>20</width>
+                               <height>40</height>
+                              </size>
+                             </property>
+                            </spacer>
+                           </item>
+                           <item>
+                            <widget class="QPushButton" name="buttonGlobalRegionUp">
+                             <property name="sizePolicy">
+                              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                               <horstretch>0</horstretch>
+                               <verstretch>0</verstretch>
+                              </sizepolicy>
+                             </property>
+                             <property name="minimumSize">
+                              <size>
+                               <width>40</width>
+                               <height>41</height>
+                              </size>
+                             </property>
+                             <property name="font">
+                              <font>
+                               <family>Arial</family>
+                               <pointsize>10</pointsize>
+                               <bold>true</bold>
+                              </font>
+                             </property>
+                             <property name="toolTip">
+                              <string>Move the selected regions up in priority</string>
+                             </property>
+                             <property name="text">
+                              <string/>
+                             </property>
+                             <property name="icon">
+                              <iconset resource="resources.qrc">
+                               <normaloff>:/Arrows/images/icons8-sort-up-100.png</normaloff>:/Arrows/images/icons8-sort-up-100.png</iconset>
+                             </property>
+                            </widget>
+                           </item>
+                           <item>
+                            <widget class="QPushButton" name="buttonGlobalRegionDown">
+                             <property name="sizePolicy">
+                              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                               <horstretch>0</horstretch>
+                               <verstretch>0</verstretch>
+                              </sizepolicy>
+                             </property>
+                             <property name="minimumSize">
+                              <size>
+                               <width>40</width>
+                               <height>41</height>
+                              </size>
+                             </property>
+                             <property name="font">
+                              <font>
+                               <family>Arial</family>
+                               <pointsize>10</pointsize>
+                               <bold>true</bold>
+                              </font>
+                             </property>
+                             <property name="toolTip">
+                              <string>Move the selected regions down in priority</string>
+                             </property>
+                             <property name="text">
+                              <string/>
+                             </property>
+                             <property name="icon">
+                              <iconset resource="resources.qrc">
+                               <normaloff>:/Arrows/images/icons8-sort-down-100.png</normaloff>:/Arrows/images/icons8-sort-down-100.png</iconset>
+                             </property>
+                            </widget>
+                           </item>
+                           <item>
+                            <spacer name="verticalSpacerGlobalRegionUpDownBottom">
+                             <property name="orientation">
+                              <enum>Qt::Vertical</enum>
+                             </property>
+                             <property name="sizeHint" stdset="0">
+                              <size>
+                               <width>20</width>
+                               <height>40</height>
+                              </size>
+                             </property>
+                            </spacer>
+                           </item>
+                          </layout>
                          </widget>
                         </item>
                        </layout>
@@ -1094,7 +1103,7 @@ English-speaking regions and 60Hz titles</string>
                       <widget class="QWidget" name="gridGlobalLanguages" native="true">
                        <layout class="QGridLayout" name="gridLayoutGlobalLanguages">
                         <property name="leftMargin">
-                         <number>0</number>
+                         <number>1</number>
                         </property>
                         <property name="topMargin">
                          <number>0</number>
@@ -1348,6 +1357,9 @@ English-speaking regions and 60Hz titles</string>
                             <height>0</height>
                            </size>
                           </property>
+                          <property name="frameShape">
+                           <enum>QFrame::Box</enum>
+                          </property>
                           <property name="tabKeyNavigation">
                            <bool>true</bool>
                           </property>
@@ -1559,6 +1571,9 @@ English-speaking regions and 60Hz titles</string>
                             <height>0</height>
                            </size>
                           </property>
+                          <property name="frameShape">
+                           <enum>QFrame::Box</enum>
+                          </property>
                           <property name="tabKeyNavigation">
                            <bool>true</bool>
                           </property>
@@ -1674,7 +1689,7 @@ English-speaking regions and 60Hz titles</string>
                       <widget class="QWidget" name="gridGlobalVideo" native="true">
                        <layout class="QGridLayout" name="gridLayoutGlobalVideo">
                         <property name="leftMargin">
-                         <number>0</number>
+                         <number>1</number>
                         </property>
                         <property name="topMargin">
                          <number>0</number>
@@ -1850,6 +1865,9 @@ English-speaking regions and 60Hz titles</string>
                             <height>0</height>
                            </size>
                           </property>
+                          <property name="frameShape">
+                           <enum>QFrame::Box</enum>
+                          </property>
                           <property name="tabKeyNavigation">
                            <bool>true</bool>
                           </property>
@@ -2013,6 +2031,9 @@ English-speaking regions and 60Hz titles</string>
                     <layout class="QVBoxLayout" name="verticalLayout_10">
                      <item>
                       <layout class="QGridLayout" name="gridLayoutGlobalExclusions">
+                       <property name="leftMargin">
+                        <number>1</number>
+                       </property>
                        <item row="6" column="0">
                         <widget class="QCheckBox" name="checkBoxGlobalExcludeBadDumps">
                          <property name="toolTip">
@@ -2020,16 +2041,6 @@ English-speaking regions and 60Hz titles</string>
                          </property>
                          <property name="text">
                           <string>Bad dumps</string>
-                         </property>
-                        </widget>
-                       </item>
-                       <item row="6" column="2">
-                        <widget class="QCheckBox" name="checkBoxGlobalExcludePirate">
-                         <property name="toolTip">
-                          <string>Exclude titles with &quot;(Pirate)&quot; in the name</string>
-                         </property>
-                         <property name="text">
-                          <string>Pirate</string>
                          </property>
                         </widget>
                        </item>
@@ -2055,16 +2066,6 @@ patches, manuals, collector discs, or otherwise</string>
                          </property>
                          <property name="text">
                           <string>Bonus discs</string>
-                         </property>
-                        </widget>
-                       </item>
-                       <item row="3" column="2">
-                        <widget class="QCheckBox" name="checkBoxGlobalExcludeManuals">
-                         <property name="toolTip">
-                          <string>Exclude titles with &quot;(Manual)&quot; in the name</string>
-                         </property>
-                         <property name="text">
-                          <string>Manuals</string>
                          </property>
                         </widget>
                        </item>
@@ -2115,18 +2116,6 @@ patches, manuals, collector discs, or otherwise</string>
                          </property>
                         </widget>
                        </item>
-                       <item row="5" column="2">
-                        <widget class="QCheckBox" name="checkBoxGlobalExcludeMultimedia">
-                         <property name="toolTip">
-                          <string>Exclude titles with the DAT category &quot;Multimedia&quot;
-
-These might include games</string>
-                         </property>
-                         <property name="text">
-                          <string>Multimedia</string>
-                         </property>
-                        </widget>
-                       </item>
                        <item row="7" column="3">
                         <spacer name="horizontalSpacerGlobalExclude_3">
                          <property name="orientation">
@@ -2154,16 +2143,6 @@ in the name:
                          </property>
                          <property name="text">
                           <string>BIOS and other chips</string>
-                         </property>
-                        </widget>
-                       </item>
-                       <item row="4" column="2">
-                        <widget class="QCheckBox" name="checkBoxGlobalExcludeMIA">
-                         <property name="toolTip">
-                          <string>Titles or ROMs declared as missing in action in the clone lists or DAT files.</string>
-                         </property>
-                         <property name="text">
-                          <string>MIA</string>
                          </property>
                         </widget>
                        </item>
@@ -2203,46 +2182,6 @@ expansion packs and additional materials for titles</string>
                           </size>
                          </property>
                         </spacer>
-                       </item>
-                       <item row="9" column="2">
-                        <widget class="QCheckBox" name="checkBoxGlobalExcludeUnlicensed">
-                         <property name="toolTip">
-                          <string>Exclude titles unauthorized by console manufacturers, marked by the
-following text in the name:
-
-• (Unl)
-• (Aftermarket)
-• (Homebrew)</string>
-                         </property>
-                         <property name="text">
-                          <string>Unlicensed</string>
-                         </property>
-                        </widget>
-                       </item>
-                       <item row="10" column="2">
-                        <widget class="QCheckBox" name="checkBoxGlobalExcludeVideo">
-                         <property name="toolTip">
-                          <string>Exclude titles with the DAT category &quot;Video&quot;</string>
-                         </property>
-                         <property name="text">
-                          <string>Video</string>
-                         </property>
-                        </widget>
-                       </item>
-                       <item row="8" column="2">
-                        <widget class="QCheckBox" name="checkBoxGlobalExcludePromotional">
-                         <property name="toolTip">
-                          <string>Exclude titles with the DAT category &quot;Promotional&quot; or with the
-following text in the name:
-
-• (Promo)
-• EPK
-• Press Kit</string>
-                         </property>
-                         <property name="text">
-                          <string>Promotional</string>
-                         </property>
-                        </widget>
                        </item>
                        <item row="10" column="0">
                         <widget class="QCheckBox" name="checkBoxGlobalExcludeDemos">
@@ -2294,24 +2233,6 @@ could contain demos, or rarely, full games</string>
                          </property>
                          <property name="text">
                           <string>Coverdiscs</string>
-                         </property>
-                        </widget>
-                       </item>
-                       <item row="7" column="2">
-                        <widget class="QCheckBox" name="checkBoxGlobalExcludePreproduction">
-                         <property name="toolTip">
-                          <string>Exclude titles with the DAT category &quot;Preproduction&quot; or with the
-following text in the name:
-
-• (Alpha [0-99])
-• (Beta [0-99])
-• (Pre-Production)
-• (Possible Proto)
-• (Proto [0-99])
-• (Review Code)</string>
-                         </property>
-                         <property name="text">
-                          <string>Preproduction</string>
                          </property>
                         </widget>
                        </item>
@@ -2450,6 +2371,118 @@ following text in the name:
                          </layout>
                         </widget>
                        </item>
+                       <item row="11" column="2">
+                        <widget class="QCheckBox" name="checkBoxGlobalExcludeVideo">
+                         <property name="toolTip">
+                          <string>Exclude titles with the DAT category &quot;Video&quot;</string>
+                         </property>
+                         <property name="text">
+                          <string>Video</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="10" column="2">
+                        <widget class="QCheckBox" name="checkBoxGlobalExcludeUnlicensed">
+                         <property name="toolTip">
+                          <string>Exclude titles unauthorized by console manufacturers, marked by the
+following text in the name:
+
+• (Unl)
+• (Aftermarket)
+• (Homebrew)</string>
+                         </property>
+                         <property name="text">
+                          <string>Unlicensed</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="9" column="2">
+                        <widget class="QCheckBox" name="checkBoxGlobalExcludePromotional">
+                         <property name="toolTip">
+                          <string>Exclude titles with the DAT category &quot;Promotional&quot; or with the
+following text in the name:
+
+• (Promo)
+• EPK
+• Press Kit</string>
+                         </property>
+                         <property name="text">
+                          <string>Promotional</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="8" column="2">
+                        <widget class="QCheckBox" name="checkBoxGlobalExcludePreproduction">
+                         <property name="toolTip">
+                          <string>Exclude titles with the DAT category &quot;Preproduction&quot; or with the
+following text in the name:
+
+• (Alpha [0-99])
+• (Beta [0-99])
+• (Pre-Production)
+• (Possible Proto)
+• (Proto [0-99])
+• (Review Code)</string>
+                         </property>
+                         <property name="text">
+                          <string>Preproduction</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="7" column="2">
+                        <widget class="QCheckBox" name="checkBoxGlobalExcludePirate">
+                         <property name="toolTip">
+                          <string>Exclude titles with &quot;(Pirate)&quot; in the name</string>
+                         </property>
+                         <property name="text">
+                          <string>Pirate</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="6" column="2">
+                        <widget class="QCheckBox" name="checkBoxGlobalExcludeMultimedia">
+                         <property name="toolTip">
+                          <string>Exclude titles with the DAT category &quot;Multimedia&quot;
+
+These might include games</string>
+                         </property>
+                         <property name="text">
+                          <string>Multimedia</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="5" column="2">
+                        <widget class="QCheckBox" name="checkBoxGlobalExcludeMIA">
+                         <property name="toolTip">
+                          <string>Titles or ROMs declared as missing in action in the clone lists or DAT files.</string>
+                         </property>
+                         <property name="text">
+                          <string>MIA</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="4" column="2">
+                        <widget class="QCheckBox" name="checkBoxGlobalExcludeManuals">
+                         <property name="toolTip">
+                          <string>Exclude titles with &quot;(Manual)&quot; in the name</string>
+                         </property>
+                         <property name="text">
+                          <string>Manuals</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="3" column="2">
+                        <widget class="QCheckBox" name="checkBoxGlobalExcludeGames">
+                         <property name="toolTip">
+                          <string>Exclude titles with the DAT category &quot;Games&quot;
+
+Retool assumes uncategorized titles are games</string>
+                         </property>
+                         <property name="text">
+                          <string>Games</string>
+                         </property>
+                        </widget>
+                       </item>
                       </layout>
                      </item>
                     </layout>
@@ -2503,7 +2536,7 @@ following text in the name:
                           <x>0</x>
                           <y>0</y>
                           <width>573</width>
-                          <height>760</height>
+                          <height>786</height>
                          </rect>
                         </property>
                         <property name="sizePolicy">
@@ -2514,7 +2547,7 @@ following text in the name:
                         </property>
                         <layout class="QVBoxLayout" name="verticalLayout_16">
                          <property name="leftMargin">
-                          <number>0</number>
+                          <number>1</number>
                          </property>
                          <property name="topMargin">
                           <number>0</number>
@@ -2772,7 +2805,7 @@ languages, or with less features.</string>
                           </widget>
                          </item>
                          <item>
-                          <widget class="QCheckBox" name="checkBoxGlobalOptionsDisableFilters">
+                          <widget class="QCheckBox" name="checkBoxGlobalOptionsDisableOverrides">
                            <property name="sizePolicy">
                             <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
                              <horstretch>0</horstretch>
@@ -2797,13 +2830,13 @@ languages, or with less features.</string>
                             </font>
                            </property>
                            <property name="toolTip">
-                            <string>Ignore both global and system user filters</string>
+                            <string>Ignore both global and system overrides</string>
                            </property>
                            <property name="styleSheet">
                             <string notr="true"/>
                            </property>
                            <property name="text">
-                            <string>Disable global and system user filters</string>
+                            <string>Disable global and system overrides</string>
                            </property>
                           </widget>
                          </item>
@@ -2842,6 +2875,17 @@ languages, or with less features.</string>
                            </property>
                            <property name="textInteractionFlags">
                             <set>Qt::NoTextInteraction</set>
+                           </property>
+                          </widget>
+                         </item>
+                         <item>
+                          <widget class="QCheckBox" name="checkBoxGlobalOptionsOriginalHeader">
+                           <property name="toolTip">
+                            <string>Useful if you want to load Retool DATs as an update to original Redump
+and No-Intro DATs already in CLRMAMEPro</string>
+                           </property>
+                           <property name="text">
+                            <string>Use the original input DAT header in the output DAT</string>
                            </property>
                           </widget>
                          </item>
@@ -3756,16 +3800,25 @@ core, at the cost of performance</string>
                      </item>
                     </layout>
                    </widget>
-                   <widget class="QWidget" name="tabGlobalUserFilters">
+                   <widget class="QWidget" name="tabGlobalOverrides">
                     <attribute name="title">
-                     <string>User filters</string>
+                     <string>Overrides</string>
                     </attribute>
                     <layout class="QVBoxLayout" name="verticalLayout_11">
                      <property name="leftMargin">
                       <number>9</number>
                      </property>
+                     <property name="bottomMargin">
+                      <number>9</number>
+                     </property>
                      <item>
-                      <widget class="QScrollArea" name="scrollAreaGlobalUserFilters">
+                      <widget class="QScrollArea" name="scrollAreaGlobalOverrides">
+                       <property name="sizePolicy">
+                        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                         <horstretch>0</horstretch>
+                         <verstretch>0</verstretch>
+                        </sizepolicy>
+                       </property>
                        <property name="focusPolicy">
                         <enum>Qt::NoFocus</enum>
                        </property>
@@ -3788,15 +3841,15 @@ core, at the cost of performance</string>
                         <bool>true</bool>
                        </property>
                        <property name="alignment">
-                        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
                        </property>
-                       <widget class="QWidget" name="scrollAreaWidgetContentsGlobalUserFilters">
+                       <widget class="QWidget" name="scrollAreaWidgetContentsGlobalOverrides">
                         <property name="geometry">
                          <rect>
                           <x>0</x>
                           <y>0</y>
                           <width>590</width>
-                          <height>393</height>
+                          <height>405</height>
                          </rect>
                         </property>
                         <layout class="QGridLayout" name="gridLayoutGlobalUserFilters">
@@ -3804,7 +3857,7 @@ core, at the cost of performance</string>
                           <enum>QLayout::SetMinimumSize</enum>
                          </property>
                          <property name="leftMargin">
-                          <number>0</number>
+                          <number>1</number>
                          </property>
                          <property name="topMargin">
                           <number>0</number>
@@ -3813,12 +3866,141 @@ core, at the cost of performance</string>
                           <number>0</number>
                          </property>
                          <property name="bottomMargin">
-                          <number>10</number>
+                          <number>0</number>
                          </property>
-                         <item row="5" column="0">
-                          <widget class="CustomTextEdit" name="textEditGlobalInclude">
+                         <item row="2" column="0" colspan="3">
+                          <widget class="QLabel" name="labelGlobalOverride">
+                           <property name="text">
+                            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Override Retool and force exclude or include specific titles by adding your own text to match against. Each match must be on its own line, and is case sensitive. See the &lt;a href=&quot;https://unexpectedpanda.github.io/retool/how-to-use-retool-gui/#user-filters&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;documentation&lt;/span&gt;&lt;/a&gt; for more information.&lt;br/&gt;&lt;br/&gt;• Plain text indicates a partial string match.&lt;br/&gt;• A prefix of / indicates a regular expression match.&lt;br/&gt;• A prefix of | indicates a full string match.&lt;br/&gt;• Additionally, wrap a string in &amp;lt;&amp;gt; to also exclude/include any match's related clones.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                           </property>
+                           <property name="alignment">
+                            <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+                           </property>
+                           <property name="wordWrap">
+                            <bool>true</bool>
+                           </property>
+                           <property name="openExternalLinks">
+                            <bool>true</bool>
+                           </property>
+                           <property name="textInteractionFlags">
+                            <set>Qt::LinksAccessibleByKeyboard|Qt::LinksAccessibleByMouse</set>
+                           </property>
+                          </widget>
+                         </item>
+                         <item row="0" column="0" colspan="3">
+                          <widget class="QLabel" name="labelGlobalOverrideByText">
+                           <property name="minimumSize">
+                            <size>
+                             <width>0</width>
+                             <height>20</height>
+                            </size>
+                           </property>
+                           <property name="font">
+                            <font>
+                             <family>Segoe UI</family>
+                             <bold>true</bold>
+                            </font>
+                           </property>
+                           <property name="text">
+                            <string>Override by text</string>
+                           </property>
+                           <property name="textInteractionFlags">
+                            <set>Qt::NoTextInteraction</set>
+                           </property>
+                          </widget>
+                         </item>
+                         <item row="5" column="1">
+                          <spacer name="horizontalSpacerGlobalOverrides">
+                           <property name="orientation">
+                            <enum>Qt::Horizontal</enum>
+                           </property>
+                           <property name="sizeType">
+                            <enum>QSizePolicy::Fixed</enum>
+                           </property>
+                           <property name="sizeHint" stdset="0">
+                            <size>
+                             <width>10</width>
+                             <height>20</height>
+                            </size>
+                           </property>
+                          </spacer>
+                         </item>
+                         <item row="4" column="0">
+                          <widget class="QLabel" name="labelGlobalOverrideInclude">
                            <property name="sizePolicy">
-                            <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                            <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                             <horstretch>0</horstretch>
+                             <verstretch>0</verstretch>
+                            </sizepolicy>
+                           </property>
+                           <property name="font">
+                            <font>
+                             <family>Segoe UI</family>
+                             <bold>false</bold>
+                            </font>
+                           </property>
+                           <property name="text">
+                            <string>Include</string>
+                           </property>
+                           <property name="alignment">
+                            <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                           </property>
+                           <property name="textInteractionFlags">
+                            <set>Qt::NoTextInteraction</set>
+                           </property>
+                          </widget>
+                         </item>
+                         <item row="1" column="0" colspan="3">
+                          <widget class="Line" name="lineGlobalOverrideByText">
+                           <property name="palette">
+                            <palette>
+                             <active>
+                              <colorrole role="WindowText">
+                               <brush brushstyle="SolidPattern">
+                                <color alpha="255">
+                                 <red>85</red>
+                                 <green>85</green>
+                                 <blue>85</blue>
+                                </color>
+                               </brush>
+                              </colorrole>
+                             </active>
+                             <inactive>
+                              <colorrole role="WindowText">
+                               <brush brushstyle="SolidPattern">
+                                <color alpha="255">
+                                 <red>85</red>
+                                 <green>85</green>
+                                 <blue>85</blue>
+                                </color>
+                               </brush>
+                              </colorrole>
+                             </inactive>
+                             <disabled>
+                              <colorrole role="WindowText">
+                               <brush brushstyle="SolidPattern">
+                                <color alpha="255">
+                                 <red>120</red>
+                                 <green>120</green>
+                                 <blue>120</blue>
+                                </color>
+                               </brush>
+                              </colorrole>
+                             </disabled>
+                            </palette>
+                           </property>
+                           <property name="frameShadow">
+                            <enum>QFrame::Plain</enum>
+                           </property>
+                           <property name="orientation">
+                            <enum>Qt::Horizontal</enum>
+                           </property>
+                          </widget>
+                         </item>
+                         <item row="5" column="2">
+                          <widget class="CustomTextEdit" name="textEditGlobalExclude">
+                           <property name="sizePolicy">
+                            <sizepolicy hsizetype="Expanding" vsizetype="MinimumExpanding">
                              <horstretch>0</horstretch>
                              <verstretch>0</verstretch>
                             </sizepolicy>
@@ -3835,6 +4017,9 @@ core, at the cost of performance</string>
                              <height>16777215</height>
                             </size>
                            </property>
+                           <property name="frameShape">
+                            <enum>QFrame::Box</enum>
+                           </property>
                            <property name="tabChangesFocus">
                             <bool>true</bool>
                            </property>
@@ -3843,26 +4028,10 @@ core, at the cost of performance</string>
                            </property>
                           </widget>
                          </item>
-                         <item row="5" column="1">
-                          <spacer name="horizontalSpacerGlobalUserFilters">
-                           <property name="orientation">
-                            <enum>Qt::Horizontal</enum>
-                           </property>
-                           <property name="sizeType">
-                            <enum>QSizePolicy::Fixed</enum>
-                           </property>
-                           <property name="sizeHint" stdset="0">
-                            <size>
-                             <width>10</width>
-                             <height>20</height>
-                            </size>
-                           </property>
-                          </spacer>
-                         </item>
                          <item row="4" column="2">
-                          <widget class="QLabel" name="labelGlobalFilterExclude">
+                          <widget class="QLabel" name="labelGlobalOverrideExclude">
                            <property name="sizePolicy">
-                            <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                            <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
                              <horstretch>0</horstretch>
                              <verstretch>0</verstretch>
                             </sizepolicy>
@@ -3887,51 +4056,10 @@ core, at the cost of performance</string>
                            </property>
                           </widget>
                          </item>
-                         <item row="2" column="0" colspan="3">
-                          <widget class="QLabel" name="labelGlobalFilter">
-                           <property name="text">
-                            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Exclude or include specific titles by adding your own text strings to match against. Each string should be on its own line, and is case sensitive. See the &lt;a href=&quot;https://unexpectedpanda.github.io/retool/how-to-use-retool-gui/#user-filters&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;documentation&lt;/span&gt;&lt;/a&gt; for more information.&lt;br/&gt;&lt;br/&gt;• Plain text indicates a partial string match.&lt;br/&gt;• A prefix of / indicates a regular expression match.&lt;br/&gt;• A prefix of | indicates a full string match.&lt;br/&gt;• Additionally, wrap a string in &amp;lt;&amp;gt; to also remove any match's related clones.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-                           </property>
-                           <property name="alignment">
-                            <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
-                           </property>
-                           <property name="wordWrap">
-                            <bool>true</bool>
-                           </property>
-                           <property name="openExternalLinks">
-                            <bool>true</bool>
-                           </property>
-                           <property name="textInteractionFlags">
-                            <set>Qt::LinksAccessibleByKeyboard|Qt::LinksAccessibleByMouse</set>
-                           </property>
-                          </widget>
-                         </item>
-                         <item row="0" column="0" colspan="3">
-                          <widget class="QLabel" name="labelGlobalFilterByText">
-                           <property name="minimumSize">
-                            <size>
-                             <width>0</width>
-                             <height>20</height>
-                            </size>
-                           </property>
-                           <property name="font">
-                            <font>
-                             <family>Segoe UI</family>
-                             <bold>true</bold>
-                            </font>
-                           </property>
-                           <property name="text">
-                            <string>Filter by text</string>
-                           </property>
-                           <property name="textInteractionFlags">
-                            <set>Qt::NoTextInteraction</set>
-                           </property>
-                          </widget>
-                         </item>
-                         <item row="5" column="2">
-                          <widget class="CustomTextEdit" name="textEditGlobalExclude">
+                         <item row="5" column="0">
+                          <widget class="CustomTextEdit" name="textEditGlobalInclude">
                            <property name="sizePolicy">
-                            <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                            <sizepolicy hsizetype="Expanding" vsizetype="MinimumExpanding">
                              <horstretch>0</horstretch>
                              <verstretch>0</verstretch>
                             </sizepolicy>
@@ -3948,6 +4076,9 @@ core, at the cost of performance</string>
                              <height>16777215</height>
                             </size>
                            </property>
+                           <property name="frameShape">
+                            <enum>QFrame::Box</enum>
+                           </property>
                            <property name="tabChangesFocus">
                             <bool>true</bool>
                            </property>
@@ -3956,7 +4087,100 @@ core, at the cost of performance</string>
                            </property>
                           </widget>
                          </item>
-                         <item row="1" column="0" colspan="3">
+                         <item row="3" column="0" colspan="3">
+                          <spacer name="verticalSpacerGlobalOverrides">
+                           <property name="orientation">
+                            <enum>Qt::Vertical</enum>
+                           </property>
+                           <property name="sizeType">
+                            <enum>QSizePolicy::Fixed</enum>
+                           </property>
+                           <property name="sizeHint" stdset="0">
+                            <size>
+                             <width>20</width>
+                             <height>10</height>
+                            </size>
+                           </property>
+                          </spacer>
+                         </item>
+                        </layout>
+                       </widget>
+                      </widget>
+                     </item>
+                    </layout>
+                   </widget>
+                   <widget class="QWidget" name="tabGlobalPostFilter">
+                    <attribute name="title">
+                     <string>Post filters</string>
+                    </attribute>
+                    <layout class="QVBoxLayout" name="verticalLayout_23">
+                     <property name="sizeConstraint">
+                      <enum>QLayout::SetDefaultConstraint</enum>
+                     </property>
+                     <property name="bottomMargin">
+                      <number>9</number>
+                     </property>
+                     <item>
+                      <widget class="QScrollArea" name="scrollAreaGlobalPostFilters">
+                       <property name="focusPolicy">
+                        <enum>Qt::NoFocus</enum>
+                       </property>
+                       <property name="frameShape">
+                        <enum>QFrame::NoFrame</enum>
+                       </property>
+                       <property name="frameShadow">
+                        <enum>QFrame::Plain</enum>
+                       </property>
+                       <property name="lineWidth">
+                        <number>0</number>
+                       </property>
+                       <property name="midLineWidth">
+                        <number>0</number>
+                       </property>
+                       <property name="horizontalScrollBarPolicy">
+                        <enum>Qt::ScrollBarAlwaysOff</enum>
+                       </property>
+                       <property name="sizeAdjustPolicy">
+                        <enum>QAbstractScrollArea::AdjustIgnored</enum>
+                       </property>
+                       <property name="widgetResizable">
+                        <bool>true</bool>
+                       </property>
+                       <property name="alignment">
+                        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+                       </property>
+                       <widget class="QWidget" name="scrollAreaWidgetContentsGlobalPostFilters">
+                        <property name="geometry">
+                         <rect>
+                          <x>0</x>
+                          <y>0</y>
+                          <width>590</width>
+                          <height>405</height>
+                         </rect>
+                        </property>
+                        <property name="sizePolicy">
+                         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                          <horstretch>0</horstretch>
+                          <verstretch>0</verstretch>
+                         </sizepolicy>
+                        </property>
+                        <layout class="QGridLayout" name="gridLayoutGlobalUserFilters_3">
+                         <property name="sizeConstraint">
+                          <enum>QLayout::SetMinimumSize</enum>
+                         </property>
+                         <property name="leftMargin">
+                          <number>1</number>
+                         </property>
+                         <property name="topMargin">
+                          <number>0</number>
+                         </property>
+                         <property name="rightMargin">
+                          <number>0</number>
+                         </property>
+                         <property name="bottomMargin">
+                          <number>0</number>
+                         </property>
+                         <item row="1" column="0" colspan="2">
                           <widget class="Line" name="lineGlobalFilterByText">
                            <property name="palette">
                             <palette>
@@ -4003,6 +4227,28 @@ core, at the cost of performance</string>
                            </property>
                           </widget>
                          </item>
+                         <item row="0" column="0" colspan="2">
+                          <widget class="QLabel" name="labelGlobalFilterByText">
+                           <property name="minimumSize">
+                            <size>
+                             <width>0</width>
+                             <height>20</height>
+                            </size>
+                           </property>
+                           <property name="font">
+                            <font>
+                             <family>Segoe UI</family>
+                             <bold>true</bold>
+                            </font>
+                           </property>
+                           <property name="text">
+                            <string>Filter after Retool has finished processing</string>
+                           </property>
+                           <property name="textInteractionFlags">
+                            <set>Qt::NoTextInteraction</set>
+                           </property>
+                          </widget>
+                         </item>
                          <item row="4" column="0">
                           <widget class="QLabel" name="labelGlobalFilterInclude">
                            <property name="sizePolicy">
@@ -4018,7 +4264,7 @@ core, at the cost of performance</string>
                             </font>
                            </property>
                            <property name="text">
-                            <string>Include</string>
+                            <string>Filters</string>
                            </property>
                            <property name="alignment">
                             <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -4028,8 +4274,27 @@ core, at the cost of performance</string>
                            </property>
                           </widget>
                          </item>
-                         <item row="3" column="0" colspan="3">
-                          <spacer name="verticalSpacerGlobalUserFilters">
+                         <item row="2" column="0" colspan="2">
+                          <widget class="QLabel" name="labelGlobalFilters">
+                           <property name="text">
+                            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;After Retool has finished processing, only include titles that match the text listed here. Each match must be on its own line, and is case sensitive. See the &lt;a href=&quot;https://unexpectedpanda.github.io/retool/how-to-use-retool-gui/#user-filters&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;documentation&lt;/span&gt;&lt;/a&gt; for more information.&lt;br/&gt;&lt;br/&gt;• Plain text indicates a partial string match.&lt;br/&gt;• A prefix of / indicates a regular expression match.&lt;br/&gt;• A prefix of | indicates a full string match.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                           </property>
+                           <property name="alignment">
+                            <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+                           </property>
+                           <property name="wordWrap">
+                            <bool>true</bool>
+                           </property>
+                           <property name="openExternalLinks">
+                            <bool>true</bool>
+                           </property>
+                           <property name="textInteractionFlags">
+                            <set>Qt::LinksAccessibleByKeyboard|Qt::LinksAccessibleByMouse</set>
+                           </property>
+                          </widget>
+                         </item>
+                         <item row="3" column="0" colspan="2">
+                          <spacer name="verticalSpacerGlobalFilters">
                            <property name="orientation">
                             <enum>Qt::Vertical</enum>
                            </property>
@@ -4043,6 +4308,40 @@ core, at the cost of performance</string>
                             </size>
                            </property>
                           </spacer>
+                         </item>
+                         <item row="5" column="0" colspan="2">
+                          <widget class="CustomTextEdit" name="textEditGlobalFilterInclude">
+                           <property name="enabled">
+                            <bool>true</bool>
+                           </property>
+                           <property name="sizePolicy">
+                            <sizepolicy hsizetype="Expanding" vsizetype="MinimumExpanding">
+                             <horstretch>0</horstretch>
+                             <verstretch>0</verstretch>
+                            </sizepolicy>
+                           </property>
+                           <property name="minimumSize">
+                            <size>
+                             <width>0</width>
+                             <height>100</height>
+                            </size>
+                           </property>
+                           <property name="maximumSize">
+                            <size>
+                             <width>16777211</width>
+                             <height>16777215</height>
+                            </size>
+                           </property>
+                           <property name="frameShape">
+                            <enum>QFrame::Box</enum>
+                           </property>
+                           <property name="tabChangesFocus">
+                            <bool>true</bool>
+                           </property>
+                           <property name="acceptRichText">
+                            <bool>false</bool>
+                           </property>
+                          </widget>
                          </item>
                         </layout>
                        </widget>
@@ -4806,7 +5105,7 @@ core, at the cost of performance</string>
                       <widget class="QWidget" name="gridSystemRegions" native="true">
                        <layout class="QGridLayout" name="gridLayoutSystemRegions">
                         <property name="leftMargin">
-                         <number>0</number>
+                         <number>1</number>
                         </property>
                         <property name="topMargin">
                          <number>0</number>
@@ -5204,6 +5503,9 @@ English-speaking regions and 60Hz titles</string>
                             <height>0</height>
                            </size>
                           </property>
+                          <property name="frameShape">
+                           <enum>QFrame::Box</enum>
+                          </property>
                           <property name="tabKeyNavigation">
                            <bool>true</bool>
                           </property>
@@ -5408,6 +5710,9 @@ English-speaking regions and 60Hz titles</string>
                             <height>0</height>
                            </size>
                           </property>
+                          <property name="frameShape">
+                           <enum>QFrame::Box</enum>
+                          </property>
                           <property name="tabKeyNavigation">
                            <bool>true</bool>
                           </property>
@@ -5442,7 +5747,7 @@ English-speaking regions and 60Hz titles</string>
                       <widget class="QWidget" name="gridSystemLanguages" native="true">
                        <layout class="QGridLayout" name="gridLayoutSystemLanguages">
                         <property name="leftMargin">
-                         <number>0</number>
+                         <number>1</number>
                         </property>
                         <property name="topMargin">
                          <number>0</number>
@@ -5466,6 +5771,9 @@ English-speaking regions and 60Hz titles</string>
                             <width>220</width>
                             <height>0</height>
                            </size>
+                          </property>
+                          <property name="frameShape">
+                           <enum>QFrame::Box</enum>
                           </property>
                           <property name="tabKeyNavigation">
                            <bool>true</bool>
@@ -6001,6 +6309,9 @@ English-speaking regions and 60Hz titles</string>
                             <height>0</height>
                            </size>
                           </property>
+                          <property name="frameShape">
+                           <enum>QFrame::Box</enum>
+                          </property>
                           <property name="tabKeyNavigation">
                            <bool>true</bool>
                           </property>
@@ -6080,7 +6391,7 @@ English-speaking regions and 60Hz titles</string>
                       <widget class="QWidget" name="gridSystemVideo" native="true">
                        <layout class="QGridLayout" name="gridLayoutSystemVideo">
                         <property name="leftMargin">
-                         <number>0</number>
+                         <number>1</number>
                         </property>
                         <property name="topMargin">
                          <number>0</number>
@@ -6396,6 +6707,9 @@ English-speaking regions and 60Hz titles</string>
                             <height>0</height>
                            </size>
                           </property>
+                          <property name="frameShape">
+                           <enum>QFrame::Box</enum>
+                          </property>
                           <property name="tabKeyNavigation">
                            <bool>true</bool>
                           </property>
@@ -6467,7 +6781,7 @@ English-speaking regions and 60Hz titles</string>
                       <widget class="QWidget" name="gridSystemExclusions" native="true">
                        <layout class="QGridLayout" name="gridLayoutSystemExclusions">
                         <property name="leftMargin">
-                         <number>0</number>
+                         <number>1</number>
                         </property>
                         <property name="topMargin">
                          <number>0</number>
@@ -6632,24 +6946,6 @@ English-speaking regions and 60Hz titles</string>
                           </property>
                          </widget>
                         </item>
-                        <item row="6" column="2">
-                         <widget class="QCheckBox" name="checkBoxSystemExcludePreproduction">
-                          <property name="toolTip">
-                           <string>Exclude titles with the DAT category &quot;Preproduction&quot; or with the
-following text in the name:
-
-• (Alpha [0-99])
-• (Beta [0-99])
-• (Pre-Production)
-• (Possible Proto)
-• (Proto [0-99])
-• (Review Code)</string>
-                          </property>
-                          <property name="text">
-                           <string>Preproduction</string>
-                          </property>
-                         </widget>
-                        </item>
                         <item row="6" column="1">
                          <spacer name="horizontalSpacerSystemExclude_3">
                           <property name="orientation">
@@ -6692,16 +6988,6 @@ patches, manuals, collector discs, or otherwise</string>
                           </property>
                          </widget>
                         </item>
-                        <item row="9" column="2">
-                         <widget class="QCheckBox" name="checkBoxSystemExcludeVideo">
-                          <property name="toolTip">
-                           <string>Exclude titles with the DAT category &quot;Video&quot;</string>
-                          </property>
-                          <property name="text">
-                           <string>Video</string>
-                          </property>
-                         </widget>
-                        </item>
                         <item row="3" column="0">
                          <widget class="QCheckBox" name="checkBoxSystemExcludeApplications">
                           <property name="toolTip">
@@ -6715,18 +7001,6 @@ text in the name:
                           </property>
                           <property name="text">
                            <string>Applications</string>
-                          </property>
-                         </widget>
-                        </item>
-                        <item row="4" column="2">
-                         <widget class="QCheckBox" name="checkBoxSystemExcludeMultimedia">
-                          <property name="toolTip">
-                           <string>Exclude titles with the DAT category &quot;Multimedia&quot;
-
-These might include games</string>
-                          </property>
-                          <property name="text">
-                           <string>Multimedia</string>
                           </property>
                          </widget>
                         </item>
@@ -6770,21 +7044,6 @@ text in the name:
                           </property>
                          </spacer>
                         </item>
-                        <item row="7" column="2">
-                         <widget class="QCheckBox" name="checkBoxSystemExcludePromotional">
-                          <property name="toolTip">
-                           <string>Exclude titles with the DAT category &quot;Promotional&quot; or with the
-following text in the name:
-
-• (Promo)
-• EPK
-• Press Kit</string>
-                          </property>
-                          <property name="text">
-                           <string>Promotional</string>
-                          </property>
-                         </widget>
-                        </item>
                         <item row="6" column="0">
                          <widget class="QCheckBox" name="checkBoxSystemExcludeBIOS">
                           <property name="toolTip">
@@ -6796,31 +7055,6 @@ in the name:
                           </property>
                           <property name="text">
                            <string>BIOS and other chips</string>
-                          </property>
-                         </widget>
-                        </item>
-                        <item row="3" column="2">
-                         <widget class="QCheckBox" name="checkBoxSystemExcludeMIA">
-                          <property name="toolTip">
-                           <string>Titles or ROMs declared as missing in action in the clone lists or DAT files.</string>
-                          </property>
-                          <property name="text">
-                           <string>MIA</string>
-                          </property>
-                         </widget>
-                        </item>
-                        <item row="8" column="2">
-                         <widget class="QCheckBox" name="checkBoxSystemExcludeUnlicensed">
-                          <property name="toolTip">
-                           <string>Exclude titles unauthorized by console manufacturers, marked by the
-following text in the name:
-
-• (Unl)
-• (Aftermarket)
-• (Homebrew)</string>
-                          </property>
-                          <property name="text">
-                           <string>Unlicensed</string>
                           </property>
                          </widget>
                         </item>
@@ -6892,16 +7126,6 @@ following text in the name:
                           </layout>
                          </widget>
                         </item>
-                        <item row="5" column="2">
-                         <widget class="QCheckBox" name="checkBoxSystemExcludePirate">
-                          <property name="toolTip">
-                           <string>Exclude titles with &quot;(Pirate)&quot; in the name</string>
-                          </property>
-                          <property name="text">
-                           <string>Pirate</string>
-                          </property>
-                         </widget>
-                        </item>
                         <item row="4" column="0">
                          <widget class="QCheckBox" name="checkBoxSystemExcludeAudio">
                           <property name="toolTip">
@@ -6940,7 +7164,108 @@ These might be used as soundtracks by games</string>
                           </property>
                          </spacer>
                         </item>
-                        <item row="2" column="2">
+                        <item row="2" column="0">
+                         <widget class="QCheckBox" name="checkBoxSystemExcludeAddOns">
+                          <property name="toolTip">
+                           <string>Exclude titles with the DAT category &quot;Add-Ons&quot;, which includes
+expansion packs and additional materials for titles</string>
+                          </property>
+                          <property name="text">
+                           <string>Add-ons</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item row="10" column="2">
+                         <widget class="QCheckBox" name="checkBoxSystemExcludeVideo">
+                          <property name="toolTip">
+                           <string>Exclude titles with the DAT category &quot;Video&quot;</string>
+                          </property>
+                          <property name="text">
+                           <string>Video</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item row="9" column="2">
+                         <widget class="QCheckBox" name="checkBoxSystemExcludeUnlicensed">
+                          <property name="toolTip">
+                           <string>Exclude titles unauthorized by console manufacturers, marked by the
+following text in the name:
+
+• (Unl)
+• (Aftermarket)
+• (Homebrew)</string>
+                          </property>
+                          <property name="text">
+                           <string>Unlicensed</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item row="8" column="2">
+                         <widget class="QCheckBox" name="checkBoxSystemExcludePromotional">
+                          <property name="toolTip">
+                           <string>Exclude titles with the DAT category &quot;Promotional&quot; or with the
+following text in the name:
+
+• (Promo)
+• EPK
+• Press Kit</string>
+                          </property>
+                          <property name="text">
+                           <string>Promotional</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item row="7" column="2">
+                         <widget class="QCheckBox" name="checkBoxSystemExcludePreproduction">
+                          <property name="toolTip">
+                           <string>Exclude titles with the DAT category &quot;Preproduction&quot; or with the
+following text in the name:
+
+• (Alpha [0-99])
+• (Beta [0-99])
+• (Pre-Production)
+• (Possible Proto)
+• (Proto [0-99])
+• (Review Code)</string>
+                          </property>
+                          <property name="text">
+                           <string>Preproduction</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item row="6" column="2">
+                         <widget class="QCheckBox" name="checkBoxSystemExcludePirate">
+                          <property name="toolTip">
+                           <string>Exclude titles with &quot;(Pirate)&quot; in the name</string>
+                          </property>
+                          <property name="text">
+                           <string>Pirate</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item row="5" column="2">
+                         <widget class="QCheckBox" name="checkBoxSystemExcludeMultimedia">
+                          <property name="toolTip">
+                           <string>Exclude titles with the DAT category &quot;Multimedia&quot;
+
+These might include games</string>
+                          </property>
+                          <property name="text">
+                           <string>Multimedia</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item row="4" column="2">
+                         <widget class="QCheckBox" name="checkBoxSystemExcludeMIA">
+                          <property name="toolTip">
+                           <string>Titles or ROMs declared as missing in action in the clone lists or DAT files.</string>
+                          </property>
+                          <property name="text">
+                           <string>MIA</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item row="3" column="2">
                          <widget class="QCheckBox" name="checkBoxSystemExcludeManuals">
                           <property name="toolTip">
                            <string>Exclude titles with &quot;(Manual)&quot; in the name</string>
@@ -6950,14 +7275,15 @@ These might be used as soundtracks by games</string>
                           </property>
                          </widget>
                         </item>
-                        <item row="2" column="0">
-                         <widget class="QCheckBox" name="checkBoxSystemExcludeAddOns">
+                        <item row="2" column="2">
+                         <widget class="QCheckBox" name="checkBoxSystemExcludeGames">
                           <property name="toolTip">
-                           <string>Exclude titles with the DAT category &quot;Add-Ons&quot;, which includes
-expansion packs and additional materials for titles</string>
+                           <string>Exclude titles with the DAT category &quot;Games&quot;
+
+Retool assumes uncategorized titles are games</string>
                           </property>
                           <property name="text">
-                           <string>Add-ons</string>
+                           <string>Games</string>
                           </property>
                          </widget>
                         </item>
@@ -7002,7 +7328,7 @@ expansion packs and additional materials for titles</string>
                        </property>
                        <layout class="QGridLayout" name="gridLayout_4">
                         <property name="leftMargin">
-                         <number>0</number>
+                         <number>1</number>
                         </property>
                         <property name="topMargin">
                          <number>0</number>
@@ -7139,7 +7465,7 @@ expansion packs and additional materials for titles</string>
                           <x>0</x>
                           <y>0</y>
                           <width>573</width>
-                          <height>725</height>
+                          <height>751</height>
                          </rect>
                         </property>
                         <property name="sizePolicy">
@@ -7336,7 +7662,7 @@ languages, or with less features.</string>
                           </widget>
                          </item>
                          <item>
-                          <widget class="QCheckBox" name="checkBoxSystemOptionsDisableFilters">
+                          <widget class="QCheckBox" name="checkBoxSystemOptionsDisableOverrides">
                            <property name="sizePolicy">
                             <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
                              <horstretch>0</horstretch>
@@ -7361,13 +7687,13 @@ languages, or with less features.</string>
                             </font>
                            </property>
                            <property name="toolTip">
-                            <string>Ignore both global and system user filters</string>
+                            <string>Ignore both global and system overrides</string>
                            </property>
                            <property name="styleSheet">
                             <string notr="true"/>
                            </property>
                            <property name="text">
-                            <string>Disable global and system user filters</string>
+                            <string>Disable global and system overrides</string>
                            </property>
                           </widget>
                          </item>
@@ -7409,6 +7735,17 @@ languages, or with less features.</string>
                            </property>
                            <property name="textInteractionFlags">
                             <set>Qt::NoTextInteraction</set>
+                           </property>
+                          </widget>
+                         </item>
+                         <item>
+                          <widget class="QCheckBox" name="checkBoxSystemOptionsOriginalHeader">
+                           <property name="toolTip">
+                            <string>Useful if you want to load Retool DATs as an update to original Redump
+and No-Intro DATs already in CLRMAMEPro</string>
+                           </property>
+                           <property name="text">
+                            <string>Use the original input DAT header in the output DAT</string>
                            </property>
                           </widget>
                          </item>
@@ -8326,9 +8663,9 @@ core, at the cost of performance</string>
                      </item>
                     </layout>
                    </widget>
-                   <widget class="QWidget" name="tabSystemUserFilters">
+                   <widget class="QWidget" name="tabSystemOverrides">
                     <attribute name="title">
-                     <string>User filters</string>
+                     <string>Overrides</string>
                     </attribute>
                     <layout class="QVBoxLayout" name="verticalLayout_4">
                      <property name="rightMargin">
@@ -8338,7 +8675,7 @@ core, at the cost of performance</string>
                       <number>9</number>
                      </property>
                      <item>
-                      <widget class="QScrollArea" name="scrollAreaSystemUserFilters">
+                      <widget class="QScrollArea" name="scrollAreaSystemOverrides">
                        <property name="focusPolicy">
                         <enum>Qt::NoFocus</enum>
                        </property>
@@ -8355,15 +8692,15 @@ core, at the cost of performance</string>
                         <bool>true</bool>
                        </property>
                        <property name="alignment">
-                        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
                        </property>
-                       <widget class="QWidget" name="scrollAreaWidgetContentsSystemUserFilters">
+                       <widget class="QWidget" name="scrollAreaWidgetContentsSystemOverrides">
                         <property name="geometry">
                          <rect>
                           <x>0</x>
                           <y>0</y>
                           <width>590</width>
-                          <height>393</height>
+                          <height>405</height>
                          </rect>
                         </property>
                         <property name="minimumSize">
@@ -8377,7 +8714,7 @@ core, at the cost of performance</string>
                           <enum>QLayout::SetMinimumSize</enum>
                          </property>
                          <property name="leftMargin">
-                          <number>0</number>
+                          <number>1</number>
                          </property>
                          <property name="topMargin">
                           <number>0</number>
@@ -8386,7 +8723,7 @@ core, at the cost of performance</string>
                           <number>0</number>
                          </property>
                          <property name="bottomMargin">
-                          <number>10</number>
+                          <number>0</number>
                          </property>
                          <item row="5" column="0">
                           <widget class="CustomTextEdit" name="textEditSystemInclude">
@@ -8408,6 +8745,9 @@ core, at the cost of performance</string>
                              <height>16777215</height>
                             </size>
                            </property>
+                           <property name="frameShape">
+                            <enum>QFrame::Box</enum>
+                           </property>
                            <property name="tabChangesFocus">
                             <bool>true</bool>
                            </property>
@@ -8417,7 +8757,7 @@ core, at the cost of performance</string>
                           </widget>
                          </item>
                          <item row="5" column="1">
-                          <spacer name="horizontalSpacerSystemUserFilters">
+                          <spacer name="horizontalSpacerSystemOverrides">
                            <property name="orientation">
                             <enum>Qt::Horizontal</enum>
                            </property>
@@ -8433,7 +8773,7 @@ core, at the cost of performance</string>
                           </spacer>
                          </item>
                          <item row="1" column="0" colspan="3">
-                          <widget class="Line" name="lineSystemFilterByText">
+                          <widget class="Line" name="lineSystemOverrideByText">
                            <property name="palette">
                             <palette>
                              <active>
@@ -8480,7 +8820,7 @@ core, at the cost of performance</string>
                           </widget>
                          </item>
                          <item row="3" column="0" colspan="3">
-                          <spacer name="verticalSpacerSystemUserFilters">
+                          <spacer name="verticalSpacerSystemOverrides">
                            <property name="orientation">
                             <enum>Qt::Vertical</enum>
                            </property>
@@ -8496,7 +8836,7 @@ core, at the cost of performance</string>
                           </spacer>
                          </item>
                          <item row="4" column="0">
-                          <widget class="QLabel" name="labelSystemFilterInclude">
+                          <widget class="QLabel" name="labelSystemOverrideInclude">
                            <property name="sizePolicy">
                             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
                              <horstretch>0</horstretch>
@@ -8521,7 +8861,7 @@ core, at the cost of performance</string>
                           </widget>
                          </item>
                          <item row="4" column="2">
-                          <widget class="QLabel" name="labelSystemFilterExclude">
+                          <widget class="QLabel" name="labelSystemOverrideExclude">
                            <property name="sizePolicy">
                             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                              <horstretch>0</horstretch>
@@ -8549,7 +8889,7 @@ core, at the cost of performance</string>
                           </widget>
                          </item>
                          <item row="0" column="0" colspan="3">
-                          <widget class="QLabel" name="labelSystemFilterByText">
+                          <widget class="QLabel" name="labelSystemOverrideByText">
                            <property name="minimumSize">
                             <size>
                              <width>0</width>
@@ -8563,7 +8903,7 @@ core, at the cost of performance</string>
                             </font>
                            </property>
                            <property name="text">
-                            <string>Filter by text</string>
+                            <string>Override by text</string>
                            </property>
                            <property name="textInteractionFlags">
                             <set>Qt::NoTextInteraction</set>
@@ -8571,9 +8911,9 @@ core, at the cost of performance</string>
                           </widget>
                          </item>
                          <item row="2" column="0" colspan="3">
-                          <widget class="QLabel" name="labelSystemFilter">
+                          <widget class="QLabel" name="labelSystemOverride">
                            <property name="text">
-                            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Exclude or include specific titles by adding your own text strings to match against. Each string should be on its own line, and is case sensitive. See the &lt;a href=&quot;https://unexpectedpanda.github.io/retool/how-to-use-retool-gui/#user-filters&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;documentation&lt;/span&gt;&lt;/a&gt; for more information.&lt;br/&gt;&lt;br/&gt;• Plain text indicates a partial string match.&lt;br/&gt;• A prefix of / indicates a regular expression match.&lt;br/&gt;• A prefix of | indicates a full string match.&lt;br/&gt;• Additionally, wrap a string in &amp;lt;&amp;gt; to also remove any match's related clones.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Override Retool and force exclude or include specific titles by adding your own text to match against. Each match must be on its own line, and is case sensitive. See the &lt;a href=&quot;https://unexpectedpanda.github.io/retool/how-to-use-retool-gui/#user-filters&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;documentation&lt;/span&gt;&lt;/a&gt; for more information.&lt;br/&gt;&lt;br/&gt;• Plain text indicates a partial string match.&lt;br/&gt;• A prefix of / indicates a regular expression match.&lt;br/&gt;• A prefix of | indicates a full string match.&lt;br/&gt;• Additionally, wrap a string in &amp;lt;&amp;gt; to also exclude/include any match's related clones.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                            </property>
                            <property name="alignment">
                             <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
@@ -8609,12 +8949,307 @@ core, at the cost of performance</string>
                              <height>16777215</height>
                             </size>
                            </property>
+                           <property name="frameShape">
+                            <enum>QFrame::Box</enum>
+                           </property>
                            <property name="tabChangesFocus">
                             <bool>true</bool>
                            </property>
                            <property name="acceptRichText">
                             <bool>false</bool>
                            </property>
+                          </widget>
+                         </item>
+                        </layout>
+                       </widget>
+                      </widget>
+                     </item>
+                    </layout>
+                   </widget>
+                   <widget class="QWidget" name="tabSystemPostFilter">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                    <attribute name="title">
+                     <string>Post filters</string>
+                    </attribute>
+                    <layout class="QVBoxLayout" name="verticalLayout_30">
+                     <item>
+                      <widget class="QScrollArea" name="scrollAreaSystemPostFilters">
+                       <property name="focusPolicy">
+                        <enum>Qt::NoFocus</enum>
+                       </property>
+                       <property name="frameShape">
+                        <enum>QFrame::NoFrame</enum>
+                       </property>
+                       <property name="frameShadow">
+                        <enum>QFrame::Plain</enum>
+                       </property>
+                       <property name="lineWidth">
+                        <number>0</number>
+                       </property>
+                       <property name="midLineWidth">
+                        <number>0</number>
+                       </property>
+                       <property name="horizontalScrollBarPolicy">
+                        <enum>Qt::ScrollBarAlwaysOff</enum>
+                       </property>
+                       <property name="sizeAdjustPolicy">
+                        <enum>QAbstractScrollArea::AdjustIgnored</enum>
+                       </property>
+                       <property name="widgetResizable">
+                        <bool>true</bool>
+                       </property>
+                       <property name="alignment">
+                        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+                       </property>
+                       <widget class="QWidget" name="scrollAreaWidgetContentsSystemPostFilters">
+                        <property name="geometry">
+                         <rect>
+                          <x>0</x>
+                          <y>0</y>
+                          <width>590</width>
+                          <height>405</height>
+                         </rect>
+                        </property>
+                        <property name="sizePolicy">
+                         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                          <horstretch>0</horstretch>
+                          <verstretch>0</verstretch>
+                         </sizepolicy>
+                        </property>
+                        <layout class="QGridLayout" name="gridLayoutGlobalUserFilters_4">
+                         <property name="sizeConstraint">
+                          <enum>QLayout::SetMinimumSize</enum>
+                         </property>
+                         <property name="leftMargin">
+                          <number>1</number>
+                         </property>
+                         <property name="topMargin">
+                          <number>0</number>
+                         </property>
+                         <property name="rightMargin">
+                          <number>0</number>
+                         </property>
+                         <property name="bottomMargin">
+                          <number>0</number>
+                         </property>
+                         <item row="2" column="0" colspan="2">
+                          <widget class="QLabel" name="labelSystemFilters">
+                           <property name="text">
+                            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;After Retool has finished processing, only include titles that match the text listed here. Each match must be on its own line, and is case sensitive. See the &lt;a href=&quot;https://unexpectedpanda.github.io/retool/how-to-use-retool-gui/#user-filters&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;documentation&lt;/span&gt;&lt;/a&gt; for more information.&lt;br/&gt;&lt;br/&gt;• Plain text indicates a partial string match.&lt;br/&gt;• A prefix of / indicates a regular expression match.&lt;br/&gt;• A prefix of | indicates a full string match.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                           </property>
+                           <property name="alignment">
+                            <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+                           </property>
+                           <property name="wordWrap">
+                            <bool>true</bool>
+                           </property>
+                           <property name="openExternalLinks">
+                            <bool>true</bool>
+                           </property>
+                           <property name="textInteractionFlags">
+                            <set>Qt::LinksAccessibleByKeyboard|Qt::LinksAccessibleByMouse</set>
+                           </property>
+                          </widget>
+                         </item>
+                         <item row="5" column="0" colspan="2">
+                          <widget class="CustomTextEdit" name="textEditSystemFilterInclude">
+                           <property name="enabled">
+                            <bool>true</bool>
+                           </property>
+                           <property name="sizePolicy">
+                            <sizepolicy hsizetype="Expanding" vsizetype="MinimumExpanding">
+                             <horstretch>0</horstretch>
+                             <verstretch>0</verstretch>
+                            </sizepolicy>
+                           </property>
+                           <property name="minimumSize">
+                            <size>
+                             <width>0</width>
+                             <height>100</height>
+                            </size>
+                           </property>
+                           <property name="maximumSize">
+                            <size>
+                             <width>16777211</width>
+                             <height>16777215</height>
+                            </size>
+                           </property>
+                           <property name="frameShape">
+                            <enum>QFrame::Box</enum>
+                           </property>
+                           <property name="tabChangesFocus">
+                            <bool>true</bool>
+                           </property>
+                           <property name="acceptRichText">
+                            <bool>false</bool>
+                           </property>
+                          </widget>
+                         </item>
+                         <item row="1" column="0" colspan="2">
+                          <widget class="Line" name="lineSystemFilterByText">
+                           <property name="palette">
+                            <palette>
+                             <active>
+                              <colorrole role="WindowText">
+                               <brush brushstyle="SolidPattern">
+                                <color alpha="255">
+                                 <red>85</red>
+                                 <green>85</green>
+                                 <blue>85</blue>
+                                </color>
+                               </brush>
+                              </colorrole>
+                             </active>
+                             <inactive>
+                              <colorrole role="WindowText">
+                               <brush brushstyle="SolidPattern">
+                                <color alpha="255">
+                                 <red>85</red>
+                                 <green>85</green>
+                                 <blue>85</blue>
+                                </color>
+                               </brush>
+                              </colorrole>
+                             </inactive>
+                             <disabled>
+                              <colorrole role="WindowText">
+                               <brush brushstyle="SolidPattern">
+                                <color alpha="255">
+                                 <red>120</red>
+                                 <green>120</green>
+                                 <blue>120</blue>
+                                </color>
+                               </brush>
+                              </colorrole>
+                             </disabled>
+                            </palette>
+                           </property>
+                           <property name="frameShadow">
+                            <enum>QFrame::Plain</enum>
+                           </property>
+                           <property name="orientation">
+                            <enum>Qt::Horizontal</enum>
+                           </property>
+                          </widget>
+                         </item>
+                         <item row="3" column="0" colspan="2">
+                          <spacer name="verticalSpacerSystemFilters">
+                           <property name="orientation">
+                            <enum>Qt::Vertical</enum>
+                           </property>
+                           <property name="sizeType">
+                            <enum>QSizePolicy::Fixed</enum>
+                           </property>
+                           <property name="sizeHint" stdset="0">
+                            <size>
+                             <width>20</width>
+                             <height>10</height>
+                            </size>
+                           </property>
+                          </spacer>
+                         </item>
+                         <item row="4" column="0">
+                          <widget class="QLabel" name="labelSystemFilterInclude">
+                           <property name="sizePolicy">
+                            <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                             <horstretch>0</horstretch>
+                             <verstretch>0</verstretch>
+                            </sizepolicy>
+                           </property>
+                           <property name="font">
+                            <font>
+                             <family>Segoe UI</family>
+                             <bold>false</bold>
+                            </font>
+                           </property>
+                           <property name="text">
+                            <string>Filters</string>
+                           </property>
+                           <property name="alignment">
+                            <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                           </property>
+                           <property name="textInteractionFlags">
+                            <set>Qt::NoTextInteraction</set>
+                           </property>
+                          </widget>
+                         </item>
+                         <item row="0" column="0" colspan="2">
+                          <widget class="QFrame" name="FrameSystemPostFilterHeader">
+                           <property name="sizePolicy">
+                            <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                             <horstretch>0</horstretch>
+                             <verstretch>0</verstretch>
+                            </sizepolicy>
+                           </property>
+                           <property name="minimumSize">
+                            <size>
+                             <width>0</width>
+                             <height>20</height>
+                            </size>
+                           </property>
+                           <property name="frameShape">
+                            <enum>QFrame::NoFrame</enum>
+                           </property>
+                           <property name="frameShadow">
+                            <enum>QFrame::Plain</enum>
+                           </property>
+                           <property name="lineWidth">
+                            <number>0</number>
+                           </property>
+                           <layout class="QHBoxLayout" name="horizontalLayout_5">
+                            <property name="leftMargin">
+                             <number>0</number>
+                            </property>
+                            <property name="topMargin">
+                             <number>0</number>
+                            </property>
+                            <property name="rightMargin">
+                             <number>0</number>
+                            </property>
+                            <property name="bottomMargin">
+                             <number>0</number>
+                            </property>
+                            <item>
+                             <widget class="QLabel" name="labelSystemlFilterByText">
+                              <property name="minimumSize">
+                               <size>
+                                <width>0</width>
+                                <height>20</height>
+                               </size>
+                              </property>
+                              <property name="font">
+                               <font>
+                                <family>Segoe UI</family>
+                                <bold>true</bold>
+                               </font>
+                              </property>
+                              <property name="text">
+                               <string>Filter after Retool has finished processing</string>
+                              </property>
+                              <property name="textInteractionFlags">
+                               <set>Qt::NoTextInteraction</set>
+                              </property>
+                             </widget>
+                            </item>
+                            <item>
+                             <widget class="QCheckBox" name="checkBoxSystemOverridePostFilter">
+                              <property name="sizePolicy">
+                               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                                <horstretch>0</horstretch>
+                                <verstretch>0</verstretch>
+                               </sizepolicy>
+                              </property>
+                              <property name="text">
+                               <string>Override global settings</string>
+                              </property>
+                             </widget>
+                            </item>
+                           </layout>
                           </widget>
                          </item>
                         </layout>
@@ -9041,7 +9676,7 @@ core, at the cost of performance</string>
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>957</width>
+     <width>963</width>
      <height>22</height>
     </rect>
    </property>
@@ -9194,14 +9829,6 @@ core, at the cost of performance</string>
   <tabstop>checkBoxGlobalExcludeCoverdiscs</tabstop>
   <tabstop>checkBoxGlobalExcludeDemos</tabstop>
   <tabstop>checkBoxGlobalExcludeEducational</tabstop>
-  <tabstop>checkBoxGlobalExcludeManuals</tabstop>
-  <tabstop>checkBoxGlobalExcludeMIA</tabstop>
-  <tabstop>checkBoxGlobalExcludeMultimedia</tabstop>
-  <tabstop>checkBoxGlobalExcludePirate</tabstop>
-  <tabstop>checkBoxGlobalExcludePreproduction</tabstop>
-  <tabstop>checkBoxGlobalExcludePromotional</tabstop>
-  <tabstop>checkBoxGlobalExcludeUnlicensed</tabstop>
-  <tabstop>checkBoxGlobalExcludeVideo</tabstop>
   <tabstop>buttonGlobalSelectAllExclude</tabstop>
   <tabstop>buttonGlobalDeselectAllExclude</tabstop>
   <tabstop>checkBoxGlobalOptionsDisable1G1R</tabstop>
@@ -9209,7 +9836,7 @@ core, at the cost of performance</string>
   <tabstop>checkBoxGlobalOptionsPreferRegions</tabstop>
   <tabstop>checkBoxGlobalOptionsModernPlatforms</tabstop>
   <tabstop>checkBoxGlobalOptionsDemoteUnlicensed</tabstop>
-  <tabstop>checkBoxGlobalOptionsDisableFilters</tabstop>
+  <tabstop>checkBoxGlobalOptionsDisableOverrides</tabstop>
   <tabstop>checkBoxGlobalOptionsSplitRegions</tabstop>
   <tabstop>checkBoxGlobalOptionsRemovesDat</tabstop>
   <tabstop>checkBoxGlobalOptionsKeepRemove</tabstop>
@@ -9264,14 +9891,6 @@ core, at the cost of performance</string>
   <tabstop>checkBoxSystemExcludeCoverdiscs</tabstop>
   <tabstop>checkBoxSystemExcludeDemos</tabstop>
   <tabstop>checkBoxSystemExcludeEducational</tabstop>
-  <tabstop>checkBoxSystemExcludeManuals</tabstop>
-  <tabstop>checkBoxSystemExcludeMIA</tabstop>
-  <tabstop>checkBoxSystemExcludeMultimedia</tabstop>
-  <tabstop>checkBoxSystemExcludePirate</tabstop>
-  <tabstop>checkBoxSystemExcludePreproduction</tabstop>
-  <tabstop>checkBoxSystemExcludePromotional</tabstop>
-  <tabstop>checkBoxSystemExcludeUnlicensed</tabstop>
-  <tabstop>checkBoxSystemExcludeVideo</tabstop>
   <tabstop>buttonSystemSelectAllExclude</tabstop>
   <tabstop>buttonSystemDeselectAllExclude</tabstop>
   <tabstop>checkBoxSystemOverrideOptions</tabstop>
@@ -9280,7 +9899,7 @@ core, at the cost of performance</string>
   <tabstop>checkBoxSystemOptionsPreferRegions</tabstop>
   <tabstop>checkBoxSystemOptionsModernPlatforms</tabstop>
   <tabstop>checkBoxSystemOptionsDemoteUnlicensed</tabstop>
-  <tabstop>checkBoxSystemOptionsDisableFilters</tabstop>
+  <tabstop>checkBoxSystemOptionsDisableOverrides</tabstop>
   <tabstop>checkBoxSystemOptionsSplitRegions</tabstop>
   <tabstop>checkBoxSystemOptionsRemovesDat</tabstop>
   <tabstop>checkBoxSystemOptionsKeepRemove</tabstop>

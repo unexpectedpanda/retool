@@ -114,8 +114,11 @@ def main(gui_input: UserInput|None = None) -> None:
                     USER_VIDEO_ORDER_KEY,
                     USER_LIST_PREFIX_KEY,
                     USER_LIST_SUFFIX_KEY,
+                    USER_OVERRIDE_EXCLUDE_KEY,
+                    USER_OVERRIDE_INCLUDE_KEY,
+                    USER_FILTER_KEY,
                     USER_GUI_SETTINGS_KEY,
-                    USER_FILTERS_PATH,
+                    SYSTEM_SETTINGS_PATH,
                     SANITIZED_CHARACTERS,
                     RESERVED_FILENAMES,
                     VERSION_MAJOR,
@@ -215,10 +218,14 @@ def main(gui_input: UserInput|None = None) -> None:
                 processed_titles = ParentTools.detect_parent_clone_clash(processed_titles, config)
 
                 # Process user includes
-                if not config.user_input.no_filters:
+                if not config.user_input.no_overrides:
                     if config.global_include or config.system_include:
                         original_titles_with_clonelist: dict[str, set[DatNode]] = CloneListTools.variants(input_dat.contents_dict, config, input_dat, is_includes=True)
                         processed_titles = IncludeExcludeTools.includes(processed_titles, input_dat.contents_dict, original_titles_with_clonelist, config, removes)
+
+                # Process post filters
+                if config.global_filter or config.system_filter:
+                    processed_titles = IncludeExcludeTools.post_filters(processed_titles, config, removes)
 
                 if not config.user_input.trace:
                     # Grab the parent/clone stats, but also get the return of parent/clone relationships

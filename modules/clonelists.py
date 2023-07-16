@@ -30,22 +30,27 @@ class CloneList:
         """ Creates an object that contains data originally stored in a clone list.
 
         Args:
-            `min_retool_version (str, optional)`: The minimum Retool version required to
-            process the imported clone list. Defaults to `2.00`.
-            `categories (list[dict[str, str|list[str]]], optional)`: A dictionary to store the
-            `categories` object found in a related clone list, if it exists. Defaults to
-            `{}`.
-            `mias (list[str], optional)`: A list to store the `mias` arrary found in a
-            related clone list, if it exists. Defaults to `[]`.
-            `overrides (list[dict[str, str|dict[str, str|list[str]]]], optional)`: A dictionary to store the
-            `overrides` object found in a related clone list, if it exists. Defaults to
-            `{}`.
-            `removes (dict[str, dict[str, Any]], optional)`: A dictionary to store the
-            `removes` object found in a related clone list, if it exists. Defaults to
-            `{}`.
-            `variants (dict[str, list[dict[str, Any]]], optional)`: A dictionary to store
-            the `variants` object found in a related clone list, if it exists. Defaults to
-            `{}`.
+            - `min_retool_version (str, optional)` The minimum Retool version required to
+              process the imported clone list. Defaults to `2.00`.
+
+            - `categories (list[dict[str, str|list[str]]], optional)` A dictionary to store the
+              `categories` object found in a related clone list, if it exists. Defaults to
+              `{}`.
+
+            - `mias (list[str], optional)` A list to store the `mias` arrary found in a
+              related clone list, if it exists. Defaults to `[]`.
+
+            - `overrides (list[dict[str, str|dict[str, str|list[str]]]], optional)` A dictionary
+              to store the `overrides` object found in a related clone list, if it exists.
+              Defaults to `{}`.
+
+            - `removes (dict[str, dict[str, Any]], optional)` A dictionary to store the
+              `removes` object found in a related clone list, if it exists. Defaults to
+              `{}`.
+
+            - `variants (dict[str, list[dict[str, Any]]], optional)` A dictionary to store
+              the `variants` object found in a related clone list, if it exists. Defaults to
+              `{}`.
         """
 
         self.min_retool_version: str = min_retool_version
@@ -66,14 +71,16 @@ class CloneListTools(object):
         related clone list.
 
         Args:
-            `processed_titles (dict[str, set[DatNode]])`: A work in progress dictionary
-            of DatNodes, originally populated from the input DAT and actively being worked
-            on by Retool.
-            `config (Config)`: The Retool config object.
-            `input_dat (Dat)`: The Retool input_dat object.
+            - `processed_titles (dict[str, set[DatNode]])` A work in progress dictionary
+              of DatNodes, originally populated from the input DAT and actively being worked
+              on by Retool.
+
+            - `config (Config)` The Retool config object.
+
+            - `input_dat (Dat)` The Retool input_dat object.
 
         Returns:
-            `dict[str, set[DatNode]]`: A dictionary of DatNodes with new categories
+            `dict[str, set[DatNode]]` A dictionary of DatNodes with new categories
             assigned based on the related clone list.
         """
 
@@ -189,12 +196,13 @@ class CloneListTools(object):
         with the lowest priority number set in a clone list.
 
         Args:
-            `title_set (set[DatNode])`: A set of titles as DatNode instances.
-            `report_on_match (bool)`: Whether Retool needs to report any titles being
+            - `title_set (set[DatNode])` A set of titles as DatNode instances.
+
+            - `report_on_match (bool)` Whether Retool needs to report any titles being
             traced.
 
         Returns:
-            `set[DatNode]`: A set of DatNodes filtered by clone list priority.
+            `set[DatNode]` A set of DatNodes filtered by clone list priority.
         """
 
         title_set_temp: set[DatNode] = title_set.copy()
@@ -256,14 +264,16 @@ class CloneListTools(object):
         clone list.
 
         Args:
-            `processed_titles (dict[str, set[DatNode]])`: A work in progress dictionary
-            of DatNodes, originally populated from the input DAT and actively being worked
-            on by Retool.
-            `config (Config)`: The Retool config object.
-            `input_dat (Dat)`: The Retool input_dat object.
+            - `processed_titles (dict[str, set[DatNode]])` A work in progress dictionary
+              of DatNodes, originally populated from the input DAT and actively being worked
+              on by Retool.
+
+            - `config (Config)` The Retool config object.
+
+            - `input_dat (Dat)` The Retool input_dat object.
 
         Returns:
-            `dict[str, set[DatNode]]`: A dictionary of DatNodes with MIA tags applied
+            `dict[str, set[DatNode]]` A dictionary of DatNodes with MIA tags applied
             based on the related clone list.
         """
 
@@ -350,14 +360,16 @@ class CloneListTools(object):
         directly, or conditionally based on the user's region order.
 
         Args:
-            `processed_titles (dict[str, set[DatNode]])`: A work in progress dictionary
-            of DatNodes, originally populated from the input DAT and actively being worked
-            on by Retool.
-            `config (Config)`: The Retool config object.
-            `input_dat (Dat)`: The Retool input_dat object.
+            - `processed_titles (dict[str, set[DatNode]])` A work in progress dictionary
+              of DatNodes, originally populated from the input DAT and actively being worked
+              on by Retool.
+
+            - `config (Config)` The Retool config object.
+
+            - `input_dat (Dat)` The Retool input_dat object.
 
         Returns:
-            `dict[str, set[DatNode]]`: A dictionary of DatNodes with groups overriden as
+            `dict[str, set[DatNode]]` A dictionary of DatNodes with groups overriden as
             defined by the related clone list.
         """
 
@@ -696,17 +708,20 @@ class CloneListTools(object):
         method should be attempted first.
 
         Args:
-            `processed_titles (dict[str, set[DatNode]])`: A work in progress dictionary
-            of DatNodes, originally populated from the input DAT and actively being worked
-            on by Retool.
-            `config (Config)`: The Retool config object.
-            `input_dat (Dat)`: The Retool input_dat object.
-            `removes (Removes)`: A Removes object that contains and categorizes all the
-            titles that have been removed from consideration. Is used for stats and other
-            output files generated by Retool.
+            - `processed_titles (dict[str, set[DatNode]])` A work in progress dictionary
+              of DatNodes, originally populated from the input DAT and actively being worked
+              on by Retool.
+
+            - `config (Config)` The Retool config object.
+
+            - `input_dat (Dat)` The Retool input_dat object.
+
+            - `removes (Removes)` A Removes object that contains and categorizes all the
+              titles that have been removed from consideration. Is used for stats and other
+              output files generated by Retool.
 
         Returns:
-            `dict[str, set[DatNode]]`: A dictionary of DatNodes with titles removed as
+            `dict[str, set[DatNode]]` A dictionary of DatNodes with titles removed as
             defined by the related clone list.
         """
 
@@ -784,13 +799,14 @@ class CloneListTools(object):
         """ Downloads the latest clone lists and support files
 
         Args:
-            `config (Config)`: The Retool config object.
-            `gui_input (UserInput)`: Used to determine whether or not the update is being
-            run from the GUI. If so, check if a custom download location has been set in
-            user-config.yaml.
+            - `config (Config)` The Retool config object.
+
+            - `gui_input (UserInput)` Used to determine whether or not the update is being
+              run from the GUI. If so, check if a custom download location has been set in
+              user-config.yaml.
 
         Raises:
-            `ExitRetool`: Silently exit if run from the GUI, so UI elements can
+            `ExitRetool` Silently exit if run from the GUI, so UI elements can
             re-enable.
         """
 
@@ -824,17 +840,20 @@ class CloneListTools(object):
             `local_path`, and download new files if there's a hash mismatch.
 
             Args:
-                `local_path (str)`: The directory that contains the files that need
-                hashing.
-                `update_name (str)`: The name of the update being performed, to report to
-                the user.
-                `download_url (str)`: The download directory where the online version of
-                the file is found.
-                `file_count (int)`: A counter for how many files have been downloaded, so
-                this can be reported to the user.
+                - `local_path (str)` The directory that contains the files that need
+                  hashing.
+
+                - `update_name (str)` The name of the update being performed, to report to
+                  the user.
+
+                - `download_url (str)` The download directory where the online version of
+                  the file is found.
+
+                - `file_count (int)` A counter for how many files have been downloaded, so
+                  this can be reported to the user.
 
             Returns:
-                `int`: The final count of how many files have been downloaded.
+                `int` The final count of how many files have been downloaded.
             """
 
             # Create folders if they're missing
@@ -924,17 +943,20 @@ class CloneListTools(object):
         Title, The (USA) is equivalent to Title, Le (France).
 
         Args:
-            `processed_titles (dict[str, set[DatNode]])`: A work in progress dictionary
-            of DatNodes, originally populated from the input DAT and actively being worked
-            on by Retool.
-            `config (Config)`: The Retool config object.
-            `input_dat (Dat)`: The Retool input_dat object.
-            `is_includes (bool, optional)`: Set to `True` when processing includes. Is
-            only used to produce reliable reporting when performing a trace. Defaults to
-            `False`.
+            - `processed_titles (dict[str, set[DatNode]])` A work in progress dictionary
+              of DatNodes, originally populated from the input DAT and actively being worked
+              on by Retool.
+
+            - `config (Config)` The Retool config object.
+
+            - `input_dat (Dat)` The Retool input_dat object.
+
+            - `is_includes (bool, optional)` Set to `True` when processing includes. Is
+              only used to produce reliable reporting when performing a trace. Defaults to
+              `False`.
 
         Returns:
-            `dict[str, set[DatNode]]`: A dictionary of DatNodes that has had all like
+            `dict[str, set[DatNode]]` A dictionary of DatNodes that has had all like
             titles grouped together as defined by the related clone list.
         """
 
@@ -988,12 +1010,14 @@ class CloneListTools(object):
                     accordingly.
 
                     Args:
-                        `variant_titles (list[dict[str, str])`: The titles, supersets, or
-                        compilations array from a variants object in the clone list.
-                        `variant_type (str)`: The type of variant being processed, either
-                        'title', 'compilation', or 'superset'.
-                        `report_on_match (bool)`: Whether Retool needs to report any
-                        titles being traced.
+                        - `variant_titles (list[dict[str, str])` The titles, supersets, or
+                          compilations array from a variants object in the clone list.
+
+                        - `variant_type (str)` The type of variant being processed, either
+                          'title', 'compilation', or 'superset'.
+
+                        - `report_on_match (bool)` Whether Retool needs to report any
+                          titles being traced.
                     """
 
                     variants: list[DatNode] = []

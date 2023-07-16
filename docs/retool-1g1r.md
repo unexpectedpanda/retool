@@ -167,4 +167,4 @@ makes use of scraped data from Redump and No-Intro's websites to provide additio
 language details not present in title names.
 
 Finally, it can treat languages as both a filter _and_ something that should have higher
-priority than regions, although you can absolutely prioritize regions if you desire.
+priority than regions, although you can prioritize regions if you desire.

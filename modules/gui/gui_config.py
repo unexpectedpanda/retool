@@ -3,7 +3,7 @@ import pathlib
 from typing import Any
 
 from modules.constants import *
-from modules.config import Config, Filters, generate_config
+from modules.config import Config, UserOverrides, generate_config
 from modules.gui.gui_utils import enable_go_button
 from modules.input import get_config_value, UserInput
 
@@ -33,8 +33,11 @@ def import_config() -> Config:
         USER_VIDEO_ORDER_KEY,
         USER_LIST_PREFIX_KEY,
         USER_LIST_SUFFIX_KEY,
+        USER_OVERRIDE_EXCLUDE_KEY,
+        USER_OVERRIDE_INCLUDE_KEY,
+        USER_FILTER_KEY,
         USER_GUI_SETTINGS_KEY,
-        USER_FILTERS_PATH,
+        SYSTEM_SETTINGS_PATH,
         SANITIZED_CHARACTERS,
         RESERVED_FILENAMES,
         VERSION_MAJOR,
@@ -50,15 +53,20 @@ def write_config(main_window: Any, dat_details: dict[str, dict[str, str]], confi
     Gets widgets' state, then writes the user-config.yaml file
 
     Args:
-        `main_window (Any)`: The MainWindow widget.
-        `dat_details (dict[str, dict[str, str]])`: The dictionary that carries DAT file
-        details like its system name and filepath.
-        `config (Config)`: The Retool config object.
-        `settings_window (Any)`: The settings widget. Defaults to `None`.
-        `run_retool (bool, optional): Whether Retool should be run after a config write.
-        Defaults to `False`.
-        `update_clone_list (bool, optional)`: Whether the user has requested a clone list
-        update. Defaults to `False`.
+        - `main_window (Any)` The MainWindow widget.
+
+        - `dat_details (dict[str, dict[str, str]])` The dictionary that carries DAT file
+          details like its system name and filepath.
+
+        - `config (Config)` The Retool config object.
+
+        - `settings_window (Any)` The settings widget. Defaults to `None`.
+
+        - `run_retool (bool, optional)` Whether Retool should be run after a config write.
+          Defaults to `False`.
+
+        - `update_clone_list (bool, optional)` Whether the user has requested a clone list
+          update. Defaults to `False`.
     """
 
     # Check if the "Process DAT files" button should be enabled
@@ -78,11 +86,12 @@ def write_config(main_window: Any, dat_details: dict[str, dict[str, str]], confi
     system_selected_regions: list[str] = [main_window.ui.listWidgetSystemSelectedRegions.item(x).text() for x in range(main_window.ui.listWidgetSystemSelectedRegions.count())]
     system_video_standards: list[str] = [main_window.ui.listWidgetSystemVideoStandards.item(x).text() for x in range(main_window.ui.listWidgetSystemVideoStandards.count())]
 
-    system_overrides = {
+    system_overrides_status = {
         'exclusions': main_window.ui.checkBoxSystemOverrideExclusions.isChecked(),
         'languages': main_window.ui.checkBoxSystemOverrideLanguages.isChecked(),
         'options': main_window.ui.checkBoxSystemOverrideOptions.isChecked(),
         'paths': main_window.ui.checkBoxSystemOverridePaths.isChecked(),
+        'post_filters': main_window.ui.checkBoxSystemOverridePostFilter.isChecked(),
         'regions': main_window.ui.checkBoxSystemOverrideRegions.isChecked(),
         'video': main_window.ui.checkBoxSystemOverrideVideo.isChecked()
     }
@@ -127,6 +136,7 @@ def write_config(main_window: Any, dat_details: dict[str, dict[str, str]], confi
     exclude_coverdiscs: bool = main_window.ui.checkBoxGlobalExcludeCoverdiscs.isChecked()
     exclude_demos: bool = main_window.ui.checkBoxGlobalExcludeDemos.isChecked()
     exclude_educational: bool = main_window.ui.checkBoxGlobalExcludeEducational.isChecked()
+    exclude_games: bool = main_window.ui.checkBoxGlobalExcludeGames.isChecked()
     exclude_manuals: bool = main_window.ui.checkBoxGlobalExcludeManuals.isChecked()
     exclude_mia: bool = main_window.ui.checkBoxGlobalExcludeMIA.isChecked()
     exclude_multimedia: bool = main_window.ui.checkBoxGlobalExcludeMultimedia.isChecked()
@@ -146,6 +156,7 @@ def write_config(main_window: Any, dat_details: dict[str, dict[str, str]], confi
     system_exclude_coverdiscs: bool = main_window.ui.checkBoxSystemExcludeCoverdiscs.isChecked()
     system_exclude_demos: bool = main_window.ui.checkBoxSystemExcludeDemos.isChecked()
     system_exclude_educational: bool = main_window.ui.checkBoxSystemExcludeEducational.isChecked()
+    system_exclude_games: bool = main_window.ui.checkBoxSystemExcludeGames.isChecked()
     system_exclude_manuals: bool = main_window.ui.checkBoxSystemExcludeManuals.isChecked()
     system_exclude_mia: bool = main_window.ui.checkBoxSystemExcludeMIA.isChecked()
     system_exclude_multimedia: bool = main_window.ui.checkBoxSystemExcludeMultimedia.isChecked()
@@ -161,10 +172,11 @@ def write_config(main_window: Any, dat_details: dict[str, dict[str, str]], confi
     include_hashless: bool = main_window.ui.checkBoxGlobalOptionsIncludeHashless.isChecked()
     modern_platforms: bool = main_window.ui.checkBoxGlobalOptionsModernPlatforms.isChecked()
     demote_unlicensed: bool = main_window.ui.checkBoxGlobalOptionsDemoteUnlicensed.isChecked()
-    disable_filters: bool = main_window.ui.checkBoxGlobalOptionsDisableFilters.isChecked()
+    disable_overrides: bool = main_window.ui.checkBoxGlobalOptionsDisableOverrides.isChecked()
     split_regions: bool = main_window.ui.checkBoxGlobalOptionsSplitRegions.isChecked()
     removes_dat: bool = main_window.ui.checkBoxGlobalOptionsRemovesDat.isChecked()
     keep_removes: bool = main_window.ui.checkBoxGlobalOptionsKeepRemove.isChecked()
+    use_original_header: bool = main_window.ui.checkBoxGlobalOptionsOriginalHeader.isChecked()
     list_1g1r_names: bool = main_window.ui.checkBoxGlobalOptions1G1RNames.isChecked()
     report_warnings: bool = main_window.ui.checkBoxGlobalOptionsReportWarnings.isChecked()
     pause_on_warnings: bool = main_window.ui.checkBoxGlobalOptionsPauseWarnings.isChecked()
@@ -187,10 +199,11 @@ def write_config(main_window: Any, dat_details: dict[str, dict[str, str]], confi
     system_include_hashless: bool = main_window.ui.checkBoxSystemOptionsIncludeHashless.isChecked()
     system_modern_platforms: bool = main_window.ui.checkBoxSystemOptionsModernPlatforms.isChecked()
     system_demote_unlicensed: bool = main_window.ui.checkBoxSystemOptionsDemoteUnlicensed.isChecked()
-    system_disable_filters: bool = main_window.ui.checkBoxSystemOptionsDisableFilters.isChecked()
+    system_disable_overrides: bool = main_window.ui.checkBoxSystemOptionsDisableOverrides.isChecked()
     system_split_regions: bool = main_window.ui.checkBoxSystemOptionsSplitRegions.isChecked()
     system_removes_dat: bool = main_window.ui.checkBoxSystemOptionsRemovesDat.isChecked()
     system_keep_removes: bool = main_window.ui.checkBoxSystemOptionsKeepRemove.isChecked()
+    system_use_original_header: bool = main_window.ui.checkBoxSystemOptionsOriginalHeader.isChecked()
     system_list_1g1r_names: bool = main_window.ui.checkBoxSystemOptions1G1RNames.isChecked()
     system_report_warnings: bool = main_window.ui.checkBoxSystemOptionsReportWarnings.isChecked()
     system_pause_on_warnings: bool = main_window.ui.checkBoxSystemOptionsPauseWarnings.isChecked()
@@ -207,32 +220,47 @@ def write_config(main_window: Any, dat_details: dict[str, dict[str, str]], confi
     if system_trace:
         system_trace_str = main_window.ui.lineEditSystemOptionsTrace.text().replace('\\', '\\\\').replace('"', '\\"')
 
-    # Global user filters
-    global_exclude_filters: list[str] = []
-    global_include_filters: list[str] = []
+    # Global overrides
+    global_exclude_overrides: list[str] = []
+    global_include_overrides: list[str] = []
 
     if main_window.ui.textEditGlobalExclude.toPlainText():
-        global_exclude_filters = main_window.ui.textEditGlobalExclude.toPlainText().split('\n')
-        global_exclude_filters = [x.replace('\\', '\\\\').replace('"', '\\"') for x in global_exclude_filters if x]
+        global_exclude_overrides = main_window.ui.textEditGlobalExclude.toPlainText().split('\n')
+        global_exclude_overrides = [x.replace('\\', '\\\\').replace('"', '\\"') for x in global_exclude_overrides if x]
     if main_window.ui.textEditGlobalInclude.toPlainText():
-        global_include_filters = main_window.ui.textEditGlobalInclude.toPlainText().split('\n')
-        global_include_filters = [x.replace('\\', '\\\\').replace('"', '\\"') for x in global_include_filters if x]
+        global_include_overrides = main_window.ui.textEditGlobalInclude.toPlainText().split('\n')
+        global_include_overrides = [x.replace('\\', '\\\\').replace('"', '\\"') for x in global_include_overrides if x]
 
-    global_filters: Filters = Filters(global_exclude_filters, global_include_filters)
+    global_overrides: UserOverrides = UserOverrides(global_exclude_overrides, global_include_overrides)
 
-    # System user filters
-    system_exclude_filters: list[str] = []
-    system_include_filters: list[str] = []
+    # System overrides
+    system_exclude_overrides: list[str] = []
+    system_include_overrides: list[str] = []
 
     if main_window.ui.textEditSystemExclude.toPlainText():
-        system_exclude_filters = main_window.ui.textEditSystemExclude.toPlainText().split('\n')
-        system_exclude_filters = [x.replace('\\', '\\\\').replace('"', '\\"') for x in system_exclude_filters if x]
+        system_exclude_overrides = main_window.ui.textEditSystemExclude.toPlainText().split('\n')
+        system_exclude_overrides = [x.replace('\\', '\\\\').replace('"', '\\"') for x in system_exclude_overrides if x]
     if main_window.ui.textEditSystemInclude.toPlainText():
-        system_include_filters = main_window.ui.textEditSystemInclude.toPlainText().split('\n')
-        system_include_filters = [x.replace('\\', '\\\\').replace('"', '\\"') for x in system_include_filters if x]
+        system_include_overrides = main_window.ui.textEditSystemInclude.toPlainText().split('\n')
+        system_include_overrides = [x.replace('\\', '\\\\').replace('"', '\\"') for x in system_include_overrides if x]
 
-    system_filters: Filters = Filters(system_exclude_filters, system_include_filters)
+    system_overrides: UserOverrides = UserOverrides(system_exclude_overrides, system_include_overrides)
 
+    # Global post filters
+    global_filters: list[str] = []
+
+    if main_window.ui.textEditGlobalFilterInclude.toPlainText():
+        global_filters = main_window.ui.textEditGlobalFilterInclude.toPlainText().split('\n')
+        global_filters = [x.replace('\\', '\\\\').replace('"', '\\"') for x in global_filters if x]
+
+    # System post filters
+    system_filters: list[str] = []
+
+    if main_window.ui.textEditSystemFilterInclude.toPlainText():
+        system_filters = main_window.ui.textEditSystemFilterInclude.toPlainText().split('\n')
+        system_filters = [x.replace('\\', '\\\\').replace('"', '\\"') for x in system_filters if x]
+
+    # Excludes
     excludes: set[str] = set()
     system_excludes: set[str] = set()
 
@@ -245,6 +273,7 @@ def write_config(main_window: Any, dat_details: dict[str, dict[str, str]], confi
     if exclude_coverdiscs: excludes.add('c')
     if exclude_demos: excludes.add('d')
     if exclude_educational: excludes.add('e')
+    if exclude_games: excludes.add('g')
     if exclude_manuals: excludes.add('m')
     if exclude_mia: excludes.add('k')
     if exclude_multimedia: excludes.add('M')
@@ -263,6 +292,7 @@ def write_config(main_window: Any, dat_details: dict[str, dict[str, str]], confi
     if system_exclude_coverdiscs: system_excludes.add('c')
     if system_exclude_demos: system_excludes.add('d')
     if system_exclude_educational: system_excludes.add('e')
+    if system_exclude_games: system_excludes.add('g')
     if system_exclude_manuals: system_excludes.add('m')
     if system_exclude_mia: system_excludes.add('k')
     if system_exclude_multimedia: system_excludes.add('M')
@@ -280,10 +310,11 @@ def write_config(main_window: Any, dat_details: dict[str, dict[str, str]], confi
     if include_hashless: gui_settings.add('e')
     if modern_platforms: gui_settings.add('z')
     if demote_unlicensed: gui_settings.add('y')
-    if disable_filters: gui_settings.add('nofilters')
+    if disable_overrides: gui_settings.add('nooverrides')
     if split_regions: gui_settings.add('regionsplit')
     if removes_dat: gui_settings.add('removesdat')
     if keep_removes: gui_settings.add('log')
+    if use_original_header: gui_settings.add('originalheader')
     if list_1g1r_names: gui_settings.add('listnames')
     if report_warnings: gui_settings.add('warnings')
     if pause_on_warnings: gui_settings.add('warningpause')
@@ -297,10 +328,11 @@ def write_config(main_window: Any, dat_details: dict[str, dict[str, str]], confi
     if system_include_hashless: system_exclusions_options.add('e')
     if system_modern_platforms: system_exclusions_options.add('z')
     if system_demote_unlicensed: system_exclusions_options.add('y')
-    if system_disable_filters: system_exclusions_options.add('nofilters')
+    if system_disable_overrides: system_exclusions_options.add('nooverrides')
     if system_split_regions: system_exclusions_options.add('regionsplit')
     if system_removes_dat: system_exclusions_options.add('removesdat')
     if system_keep_removes: system_exclusions_options.add('log')
+    if system_use_original_header: system_exclusions_options.add('originalheader')
     if system_list_1g1r_names: system_exclusions_options.add('listnames')
     if system_report_warnings: system_exclusions_options.add('warnings')
     if system_pause_on_warnings: system_exclusions_options.add('warningpause')
@@ -326,8 +358,9 @@ def write_config(main_window: Any, dat_details: dict[str, dict[str, str]], confi
         'warningpause',
         'legacy',
         'log',
+        'originalheader',
         'metadata',
-        'nofilters',
+        'nooverrides',
         'nodtd',
         'listnames',
         'regionsplit',
@@ -348,8 +381,14 @@ def write_config(main_window: Any, dat_details: dict[str, dict[str, str]], confi
     if user_options_list:
         user_options_str = f' (-{"".join(sorted(user_options_list))})'
 
-    gui_settings.add(f'exclude: {exclude_str}')
-    system_exclusions_options.add(f'exclude: {system_exclude_str}')
+    exclude_str_space: str = ''
+    system_exclude_str_space: str = ''
+
+    if exclude_str: exclude_str_space = ' '
+    if system_exclude_str: system_exclude_str_space = ' '
+
+    gui_settings.add(f'exclude:{exclude_str_space}{exclude_str}')
+    system_exclusions_options.add(f'exclude:{system_exclude_str_space}{system_exclude_str}')
 
     gui_settings.add(f'output: {main_window.output_folder}')
 
@@ -394,7 +433,7 @@ def write_config(main_window: Any, dat_details: dict[str, dict[str, str]], confi
         if main_window.clone_list_metadata_url:
             clone_list_metadata_url = main_window.clone_list_metadata_url
         else:
-            clone_list_metadata_url = get_config_value(config.user_gui_settings, 'clone list metadata url', config.clone_list_metadata_download_location, path=False)
+            clone_list_metadata_url = get_config_value(config.user_gui_settings, 'clone list metadata url', config.clone_list_metadata_download_location, is_path=False)
 
         if (
             clone_lists_folder
@@ -409,9 +448,9 @@ def write_config(main_window: Any, dat_details: dict[str, dict[str, str]], confi
             and clone_list_metadata_url != config.clone_list_metadata_download_location):
                 gui_settings.add(f'clone list metadata url: {clone_list_metadata_url}')
 
-    generate_config(config.user_config_file, languages, regions, tuple(video_standards), config.user_filters_path, global_filters, system_filters, prefix_1g1r, suffix_1g1r, gui_settings, overwrite=True)
+    generate_config(config.user_config_file, languages, regions, tuple(video_standards), config.system_settings_path, global_overrides, system_overrides, global_filters, system_filters, prefix_1g1r, suffix_1g1r, gui_settings, overwrite=True)
     if config.system_name:
-        generate_config(f'{config.user_filters_path}/{config.system_name}.yaml', system_languages, system_regions, tuple(system_video_standards), config.user_filters_path, global_filters, system_filters, system_prefix_1g1r, system_suffix_1g1r, system_exclusions_options, overwrite=True, system_config=True, system_paths=system_override_paths, overrides=system_overrides)
+        generate_config(f'{config.system_settings_path}/{config.system_name}.yaml', system_languages, system_regions, tuple(system_video_standards), config.system_settings_path, global_overrides, system_overrides, global_filters, system_filters, system_prefix_1g1r, system_suffix_1g1r, system_exclusions_options, overwrite=True, system_config=True, system_paths=system_override_paths, override_status=system_overrides_status)
 
     if run_retool:
         if dat_details:
@@ -459,6 +498,7 @@ def write_config(main_window: Any, dat_details: dict[str, dict[str, str]], confi
                     no_demos = exclude_demos,
                     no_add_ons = exclude_add_ons,
                     no_educational = exclude_educational,
+                    no_games = exclude_games,
                     no_mia = exclude_mia,
                     no_manuals = exclude_manuals,
                     no_multimedia = exclude_multimedia,
@@ -471,9 +511,10 @@ def write_config(main_window: Any, dat_details: dict[str, dict[str, str]], confi
                     clone_list = '',
                     user_config = '',
                     metadata = '',
-                    no_filters = disable_filters,
+                    no_overrides = disable_overrides,
                     list_names = list_1g1r_names,
                     log = keep_removes,
+                    original_header = use_original_header,
                     output_folder_name = main_window.output_folder,
                     output_region_split = split_regions,
                     output_remove_dat = removes_dat,
@@ -488,7 +529,7 @@ def write_config(main_window: Any, dat_details: dict[str, dict[str, str]], confi
                     user_clone_list_location = clone_lists_folder,
                     user_clone_list_metadata_download_location = clone_list_metadata_url,
                     user_metadata_location = metadata_folder,
-                    test = False # TODO
+                    test = False
                 )
 
                 main_window.start_retool_thread(gui_input)
@@ -511,6 +552,7 @@ def write_config(main_window: Any, dat_details: dict[str, dict[str, str]], confi
                     no_demos = False,
                     no_add_ons = False,
                     no_educational = False,
+                    no_games = False,
                     no_mia = False,
                     no_manuals = False,
                     no_multimedia = False,
@@ -523,9 +565,10 @@ def write_config(main_window: Any, dat_details: dict[str, dict[str, str]], confi
                     clone_list = '',
                     user_config = '',
                     metadata = '',
-                    no_filters = False,
+                    no_overrides = False,
                     list_names = False,
                     log = False,
+                    original_header = False,
                     output_folder_name = '',
                     output_region_split = False,
                     output_remove_dat = False,

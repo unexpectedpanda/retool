@@ -14,6 +14,7 @@ language order:
 # - Afrikaans
 # - Albanian
 # - Arabic
+# - Basque
 # - Bulgarian
 # - Catalan
 # - Chinese
@@ -64,12 +65,12 @@ region order:
 - USA
 - World
 - Canada
+- Europe
 - UK
 - Australia
 - New Zealand
 - Singapore
 - Ireland
-- Europe
 - Japan
 - Asia
 - Thailand
@@ -150,13 +151,13 @@ list prefix:
 list suffix:
 # - "This text will be at the end of each line"
 
-# =======================================
-# GLOBAL EXCLUDE AND INCLUDE USER FILTERS
-# =======================================
-# Exclude or include specific titles by adding your own text strings to match
-# against. Items in the list are case sensitive. See the documentation for more
-# information, and pay particular attention to how system user filters interact
-# with global user filters.
+# ====================================
+# GLOBAL EXCLUDE AND INCLUDE OVERRIDES
+# ====================================
+# Override Retool and force exclude or include specific titles by adding your own
+# text to match against. Items in the list are case sensitive. See the
+# documentation for more information, and pay particular attention to how system
+# overrides interact with global overrides.
 #
 # The formatting is as follows:
 #
@@ -174,6 +175,27 @@ exclude:
 # - "/.*?\(Virtual*"
 
 include:
+# - "|My favorite title (Japan)"
+
+# ============
+# POST FILTERS
+# ============
+# After Retool has finished processing, remove all titles except the ones that
+# match the text listed here. Items in the list are case sensitive. See the
+# documentation for more information.
+#
+# The formatting is as follows:
+#
+# * Plain text indicates a partial string match.
+# * A prefix of / indicates a regular expression match.
+# * A prefix of | indicates a full string match.
+#
+# The text must be inside double quotes. You must escape double quotes and
+# backslashes like so: \", \\
+#
+# Comment out lines you don't want
+filters:
+# - "/.*?\(Virtual*"
 # - "|My favorite title (Japan)"
 
 # ============

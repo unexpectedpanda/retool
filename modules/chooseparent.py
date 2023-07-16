@@ -34,14 +34,16 @@ class ParentTools(object):
         "A & B", "C", and "D".
 
         Args:
-            `compilations (set[DatNode])`: A set of compilation titles to be considered as
-            DatNode instances.
-            `all_titles (dict[str, set[DatNode]])`: All non-compilation titles to be
-            considered.
-            `config (Config)`: The Retool config object.
+            - `compilations (set[DatNode])` A set of compilation titles to be considered as
+              DatNode instances.
+
+            - `all_titles (dict[str, set[DatNode]])` All non-compilation titles to be
+              considered.
+
+            - `config (Config)` The Retool config object.
 
         Returns:
-            `dict[str, set[DatNode]]`: Compilations that have been reintegrated into
+            `dict[str, set[DatNode]]` Compilations that have been reintegrated into
             `all_titles`, with new 1G1R titles set accordingly.
         """
 
@@ -258,7 +260,7 @@ class ParentTools(object):
                 if report_on_match_compilations: TraceTools.trace_title('REF0080', [group], group_titles, keep_remove=False)
 
                 # Filter by user region order
-                group_titles = ParentTools.choose_multi_regions(group_titles, region_order, world_is_usa=True, report_on_match=report_on_match_compilations)
+                group_titles = ParentTools.choose_multi_regions(group_titles, region_order, world_is_usa_europe_japan=True, report_on_match=report_on_match_compilations)
 
                 if report_on_match_compilations: TraceTools.trace_title('REF0069', [group], group_titles, keep_remove=False)
 
@@ -272,22 +274,52 @@ class ParentTools(object):
                 remove_compilations: set[DatNode] = set()
 
                 for title_1, title_2 in itertools.combinations(group_titles, 2):
-                    if title_1.contains_titles and not title_2.contains_titles:
-                        remove_compilations.add(title_1)
+                    if title_1.short_name == title_2.short_name:
+                        if title_1.contains_titles and not title_2.contains_titles:
+                            remove_compilations.add(title_1)
 
-                        if report_on_match_compilations: TraceTools.trace_title('REF0075', [title_2.full_name, title_1.full_name], keep_remove=True)
+                            if report_on_match_compilations: TraceTools.trace_title('REF0075', [title_2.full_name, title_1.full_name], keep_remove=True)
 
-                    if title_2.contains_titles and not title_1.contains_titles:
-                        remove_compilations.add(title_2)
+                        if title_2.contains_titles and not title_1.contains_titles:
+                            remove_compilations.add(title_2)
 
-                        if report_on_match_compilations: TraceTools.trace_title('REF0093', [title_1.full_name, title_2.full_name], keep_remove=True)
-
+                            if report_on_match_compilations: TraceTools.trace_title('REF0093', [title_1.full_name, title_2.full_name], keep_remove=True)
 
                 for remove_compilation in remove_compilations:
                     if remove_compilation in group_titles:
                         group_titles.remove(remove_compilation)
 
                 title_comparison[group] = list(sorted(group_titles, key=lambda x: x.full_name))
+
+                # Tie breaker - filter by user language order, taking region into account
+                # This is run now as doing a full language filter earlier selects compilations over individual titles
+                group_titles = ParentTools.choose_language(title_comparison_set, config, report_on_match_compilations, first_time=False)
+
+                # Tie breaker - take the first compilation
+                group_titles_list: list[DatNode] = sorted([x for x in group_titles if x.contains_titles], key=lambda x: x.full_name)
+
+                if len(group_titles_list) > 1:
+                    remove_compilations: set[DatNode] = set()
+
+                    for i, title in enumerate(group_titles_list):
+                        if i > 0:
+                            remove_compilations.add(title)
+
+                    if report_on_match_compilations:
+                        TraceTools.trace_title('REF0105')
+                        eprint(f'+ Keeping:  {group_titles_list[0].full_name}')
+
+                        for title in group_titles:
+                            eprint(f'{Font.disabled}- Removing: {title.full_name}{Font.end}')
+
+                        eprint(f'\n{Font.disabled}Press enter to continue{Font.end}')
+                        input()
+
+                    for remove_compilation in remove_compilations:
+                        if remove_compilation in group_titles:
+                            group_titles.remove(remove_compilation)
+
+                    title_comparison[group] = list(sorted(group_titles, key=lambda x: x.full_name))
 
         # Get the groups with crossover titles together, and figure out a combination of titles
         # with the least duplicates
@@ -455,7 +487,7 @@ class ParentTools(object):
 
             # Get the parents and clones
             clones: set[DatNode] = set([x for x in original_title_comparison[group] if x.full_name not in [y.full_name for y in all_titles['retool_compilations']]])
-            parents: set[DatNode] = set([x for x in title_comparison[group]])
+            parents: list[DatNode] = sorted([x for x in title_comparison[group]], key=lambda y: y.full_name)
 
             for parent in parents:
                 report_clones: set[DatNode] = set()
@@ -473,17 +505,31 @@ class ParentTools(object):
                             report_clones.add(clone)
 
                             # Locate titles this clone used to be a parent of
-                            if group in all_titles:
-                                for title in all_titles[group]:
-                                    if title.short_name == parent.short_name:
-                                        title.cloneof = parent.full_name
-                                        report_clones.add(title)
+                            for titles in all_titles.values():
+                                for title in titles:
+                                    if (
+                                        title.short_name == parent.short_name
+                                        and title.full_name != parent.full_name):
+                                            title.cloneof = parent.full_name
+                                            report_clones.add(title)
 
                 # Figure out compilations that were removed in favor of other compilations
-                for compilation in compilations_removed:
+                for compilation in sorted(list(compilations_removed), key=lambda x: x.full_name):
                     if compilation.full_name not in compilation_assigned:
-                        for contains_title in [x.lower() for x in compilation.contains_titles]:
 
+                        # Check if the compilation already has a valid parent
+                        if compilation.cloneof:
+                            for parent in parents:
+                                if compilation.cloneof not in [x.full_name for x in parents]:
+                                    compilation.cloneof = ''
+                                else:
+                                    if compilation.cloneof == parent.full_name:
+                                        compilation_assigned.add(compilation.full_name)
+                                        report_clones.add(compilation)
+                                        continue
+
+                        # Otherwise, assign one
+                        for contains_title in sorted([x.lower() for x in compilation.contains_titles]):
                             if compilation not in all_titles['retool_compilations']:
                                 all_titles['retool_compilations'].add(compilation)
 
@@ -493,10 +539,11 @@ class ParentTools(object):
 
                             if contains_title == group:
                                 if compilation.cloneof not in [x.full_name for x in parents]:
-                                    compilation.cloneof = parent.full_name
+                                    if contains_title.lower() == parent.short_name:
+                                        compilation.cloneof = parent.full_name
 
-                                compilation_assigned.add(compilation.full_name)
-                                report_clones.add(compilation)
+                                        compilation_assigned.add(compilation.full_name)
+                                        report_clones.add(compilation)
 
                 # Set up a trace
                 report_on_match = False
@@ -506,7 +553,10 @@ class ParentTools(object):
 
                 if report_on_match:
                     TraceTools.trace_title('REF0073', [], keep_remove=False)
-                    eprint(f'+ {Font.bold}{parent.full_name}{Font.end} is the 1G1R title{Font.end}')
+                    if report_clones:
+                        eprint(f'+ {Font.bold}{list(report_clones)[0].cloneof}{Font.end} is the 1G1R title{Font.end}')
+                    else:
+                        eprint(f'+ {Font.bold}{parent.full_name}{Font.end} is the 1G1R title{Font.end}')
 
                     for report_clone in sorted(report_clones, key=lambda x: x.full_name):
                         eprint(f'- {Font.disabled}{Font.bold}{report_clone.full_name}{Font.end}{Font.disabled} is a clone of {Font.bold}{report_clone.cloneof}{Font.end}')
@@ -524,13 +574,15 @@ class ParentTools(object):
         highest specified date.
 
         Args:
-            `title_set (set[DatNode])`: A set of titles as DatNode instances.
-            `config (Config)`: The Retool config object.
-            `report_on_match (bool)`: Whether Retool needs to report any titles being
-            traced.
+            - `title_set (set[DatNode])` A set of titles as DatNode instances.
+
+            - `config (Config)` The Retool config object.
+
+            - `report_on_match (bool)` Whether Retool needs to report any titles being
+              traced.
 
         Returns:
-            `set[DatNode]`: A set of DatNodes filtered by date priority.
+            `set[DatNode]` A set of DatNodes filtered by date priority.
         """
 
         remove_titles: set[DatNode] = set()
@@ -583,31 +635,35 @@ class ParentTools(object):
         the user language order.
 
         Args:
-            `title_set (set[DatNode])`: A set of titles as DatNode instances.
-            `config (Config)`: The Retool config object.
-            `report_on_match (bool)`: Whether Retool needs to report any titles being
-            traced.
-            `first_time (bool, optional)`: Whether this is the first time the
-            `choose_language` function has been run. If `True`, the comparison stops at
-            the first language match. If `False`, the language order is used to
-            determine which is the more desired title.
+            - `title_set (set[DatNode])` A set of titles as DatNode instances.
 
-            For example, if a user has a language order of En > Fr > De > Zh > and the
-            following titles are passed in:
+            - `config (Config)` The Retool config object.
 
-            • Title 1 (En,Fr,De)
-            • Title 2 (En,Fr,Zh)
+            - `report_on_match (bool)` Whether Retool needs to report any titles being
+              traced.
 
-            With `first_time` set to `True`, both titles are selected, as Retool finds
-            En in both titles and stops. When `first_time` is `False`, the comparison
-            continues. Both have Fr, but only Title 1 has De, and so it is selected.
-            If both titles contain all the desired languages, as a fallback the title
-            with the most languages is selected.
+            - `first_time (bool, optional)` Whether this is the first time the
+              `choose_language` function has been run. If `True`, the comparison stops at
+              the first language match. If `False`, the language order is used to
+              determine which is the more desired title.
 
-            Defaults to `True`.
+              For example, if a user has a language order of En > Fr > De > Zh > and the
+              following titles are passed in:
+
+              • Title 1 (En,Fr,De)
+
+              • Title 2 (En,Fr,Zh)
+
+              With `first_time` set to `True`, both titles are selected, as Retool finds
+              En in both titles and stops. When `first_time` is `False`, the comparison
+              continues. Both have Fr, but only Title 1 has De, and so it is selected.
+              If both titles contain all the desired languages, as a fallback the title
+              with the most languages is selected.
+
+              Defaults to `True`.
 
         Returns:
-            `set[DatNode]`: A set of DatNodes filtered by language priority.
+            `set[DatNode]` A set of DatNodes filtered by language priority.
         """
 
         # Check if a system config is in play
@@ -671,15 +727,47 @@ class ParentTools(object):
                                 break
 
                     if not language_found:
-                        if config.languages_filter:
-                            # Cycle through implied languages from region order as the first fallback
-                            for language in config.region_order_languages_user:
+                        if not (title_1.is_superset or title_2.is_superset):
+                            if config.languages_filter:
+                                # Cycle through implied languages from region order as the first fallback
+                                for language in config.region_order_languages_user:
+                                    if (
+                                        re.search(language, ','.join(title_1.languages))
+                                        and not re.search(language, ','.join(title_2.languages))):
+                                        if title_2 in title_set:
+                                                if report_on_match:
+                                                    TraceTools.trace_title('REF0097', [', '.join(config.region_order_languages_user)])
+                                                    TraceTools.trace_title('', [f'{Font.italic}({",".join(title_1.languages) + ")":<30}{Font.end} [{title_1.short_name}] {title_1.full_name}', f'{Font.italic}({",".join(title_2.languages) + ")":<30}{Font.end}{Font.disabled} [{title_2.short_name}] {title_2.full_name}{Font.end}'], keep_remove=True)
+
+                                                remove_titles.add(title_2)
+                                                language_found = True
+                                                break
+                                    elif (
+                                        re.search(language, ','.join(title_2.languages))
+                                        and not re.search(language, ','.join(title_1.languages))):
+                                            if title_1 in title_set:
+                                                if report_on_match:
+                                                    TraceTools.trace_title('REF0098', [', '.join(list(config.region_order_languages_user))])
+                                                    TraceTools.trace_title('', [f'{Font.italic}({",".join(title_2.languages) + ")":<30}{Font.end} [{title_2.short_name}] {title_2.full_name}', f'{Font.italic}({",".join(title_1.languages) + ")":<30}{Font.end}{Font.disabled} [{title_1.short_name}] {title_1.full_name}{Font.end}'], keep_remove=True)
+
+                                                remove_titles.add(title_1)
+                                                language_found = True
+                                                break
+
+                    if not language_found:
+                        if not (title_1.is_superset or title_2.is_superset):
+                            # Cycle through implied languages from the default region order as the second fallback
+                            implied_languages: list[str] = [x[0] for x in config.languages_implied.values()]
+
+                            # Make sure language entries are unique
+                            implied_languages = reduce(lambda x,y: x + [y] if not y in x else x, implied_languages, [])
+                            for language in implied_languages:
                                 if (
                                     re.search(language, ','.join(title_1.languages))
                                     and not re.search(language, ','.join(title_2.languages))):
                                     if title_2 in title_set:
                                             if report_on_match:
-                                                TraceTools.trace_title('REF0097', [', '.join(config.region_order_languages_user)])
+                                                TraceTools.trace_title('REF0083', [', '.join(implied_languages)])
                                                 TraceTools.trace_title('', [f'{Font.italic}({",".join(title_1.languages) + ")":<30}{Font.end} [{title_1.short_name}] {title_1.full_name}', f'{Font.italic}({",".join(title_2.languages) + ")":<30}{Font.end}{Font.disabled} [{title_2.short_name}] {title_2.full_name}{Font.end}'], keep_remove=True)
 
                                             remove_titles.add(title_2)
@@ -690,7 +778,7 @@ class ParentTools(object):
                                     and not re.search(language, ','.join(title_1.languages))):
                                         if title_1 in title_set:
                                             if report_on_match:
-                                                TraceTools.trace_title('REF0098', [', '.join(list(config.region_order_languages_user))])
+                                                TraceTools.trace_title('REF0084', [', '.join(list(implied_languages))])
                                                 TraceTools.trace_title('', [f'{Font.italic}({",".join(title_2.languages) + ")":<30}{Font.end} [{title_2.short_name}] {title_2.full_name}', f'{Font.italic}({",".join(title_1.languages) + ")":<30}{Font.end}{Font.disabled} [{title_1.short_name}] {title_1.full_name}{Font.end}'], keep_remove=True)
 
                                             remove_titles.add(title_1)
@@ -698,49 +786,20 @@ class ParentTools(object):
                                             break
 
                     if not language_found:
-                        # Cycle through implied languages from the default region order as the second fallback
-                        implied_languages: list[str] = [x[0] for x in config.languages_implied.values()]
-
-                        # Make sure language entries are unique
-                        implied_languages = reduce(lambda x,y: x + [y] if not y in x else x, implied_languages, [])
-                        for language in implied_languages:
-                            if (
-                                re.search(language, ','.join(title_1.languages))
-                                and not re.search(language, ','.join(title_2.languages))):
-                                 if title_2 in title_set:
-                                        if report_on_match:
-                                            TraceTools.trace_title('REF0083', [', '.join(implied_languages)])
-                                            TraceTools.trace_title('', [f'{Font.italic}({",".join(title_1.languages) + ")":<30}{Font.end} [{title_1.short_name}] {title_1.full_name}', f'{Font.italic}({",".join(title_2.languages) + ")":<30}{Font.end}{Font.disabled} [{title_2.short_name}] {title_2.full_name}{Font.end}'], keep_remove=True)
-
-                                        remove_titles.add(title_2)
-                                        language_found = True
-                                        break
-                            elif (
-                                re.search(language, ','.join(title_2.languages))
-                                and not re.search(language, ','.join(title_1.languages))):
-                                    if title_1 in title_set:
-                                        if report_on_match:
-                                            TraceTools.trace_title('REF0084', [', '.join(list(implied_languages))])
-                                            TraceTools.trace_title('', [f'{Font.italic}({",".join(title_2.languages) + ")":<30}{Font.end} [{title_2.short_name}] {title_2.full_name}', f'{Font.italic}({",".join(title_1.languages) + ")":<30}{Font.end}{Font.disabled} [{title_1.short_name}] {title_1.full_name}{Font.end}'], keep_remove=True)
-
-                                        remove_titles.add(title_1)
-                                        language_found = True
-                                        break
-
-                    if not language_found:
-                        # Choose the title with more languages as the third fallback
-                        if len(title_1.languages) > len (title_2.languages):
-                            if report_on_match: TraceTools.trace_title('REF0081', [title_1.full_name, title_2.full_name], set(), keep_remove=True)
-                            if title_2 in title_set:
-                                remove_titles.add(title_2)
-                                language_found = True
-                                break
-                        elif len(title_2.languages) > len (title_1.languages):
-                            if report_on_match: TraceTools.trace_title('REF0082', [title_2.full_name, title_1.full_name], set(), keep_remove=True)
-                            if title_1 in title_set:
-                                remove_titles.add(title_1)
-                                language_found = True
-                                break
+                        if not (title_1.is_superset or title_2.is_superset):
+                            # Choose the title with more languages as the third fallback
+                            if len(title_1.languages) > len (title_2.languages):
+                                if report_on_match: TraceTools.trace_title('REF0081', [title_1.full_name, title_2.full_name], set(), keep_remove=True)
+                                if title_2 in title_set:
+                                    remove_titles.add(title_2)
+                                    language_found = True
+                                    break
+                            elif len(title_2.languages) > len (title_1.languages):
+                                if report_on_match: TraceTools.trace_title('REF0082', [title_2.full_name, title_1.full_name], set(), keep_remove=True)
+                                if title_1 in title_set:
+                                    remove_titles.add(title_1)
+                                    language_found = True
+                                    break
 
                     if language_found == True:
                         continue
@@ -758,19 +817,24 @@ class ParentTools(object):
         split by short name.
 
         Args:
-            `title_set (set[DatNode])`: A set of titles as DatNode instances.
-            `short_name_top_languages (set[tuple[str, int, str]])`: The top languages for
-            each title in a group split by short name, in the format `{short name, language priority, language code regex}`.
-            For example, with a language priority of En > Ja:
-            `{('title 1 (disc 1)', 1, 'Ja'), ('title 1 (disc 2)', 1, 'Ja'), ('title 1 - special edition', 0, 'En(?:-[A-Z][A-Z])?')}`.
-            `group_name (str)`: The name of the group being processed, only used as part
-            of a trace.
-            `report_on_match (bool)`: Whether Retool needs to report any titles being
-            traced.
+            - `title_set (set[DatNode])` A set of titles as DatNode instances.
+
+            - `short_name_top_languages (set[tuple[str, int, str]])` The top languages for
+              each title in a group split by short name, in the format `{short name, language priority, language code regex}`.
+
+              For example, with a language priority of En > Ja:
+
+              `{('title 1 (disc 1)', 1, 'Ja'), ('title 1 (disc 2)', 1, 'Ja'), ('title 1 - special edition', 0, 'En(?:-[A-Z][A-Z])?')}`.
+
+            - `group_name (str)` The name of the group being processed, only used as part
+              of a trace.
+
+            - `report_on_match (bool)` Whether Retool needs to report any titles being
+              traced.
 
         Returns:
-            `set[DatNode]`: A set of DatNodes that contain titles that only support the
-            top language fora  group, split by short name. If there's only one title in
+            `set[DatNode]` A set of DatNodes that contain titles that only support the
+            top language for a group, split by short name. If there's only one title in
             the set and it doesn't support the top language, it isn't removed.
         """
 
@@ -826,12 +890,13 @@ class ParentTools(object):
         longest name. Should only ever be used as a fail-safe tiebreaker.
 
         Args:
-            `title_set (set[DatNode])`: A set of titles as DatNode instances.
-            `report_on_match (bool)`: Whether Retool needs to report any titles being
-            traced.
+            - `title_set (set[DatNode])` A set of titles as DatNode instances.
+
+            - `report_on_match (bool)` Whether Retool needs to report any titles being
+              traced.
 
         Returns:
-            `set[DatNode]`: A set of DatNodes that contain titles only with the longest
+            `set[DatNode]` A set of DatNodes that contain titles only with the longest
             name.
         """
 
@@ -867,13 +932,15 @@ class ParentTools(object):
         """ Compares any two titles from a set of DatNodes, and removes the title that contains `pattern`.
 
         Args:
-            `pattern (Pattern[str])`: The "made in" regex pattern.
-            `title_set (set[DatNode])`: A set of titles as DatNode instances.
-            `report_on_match (bool)`: Whether Retool needs to report any titles being
+            - `pattern (Pattern[str])` The "made in" regex pattern.
+
+            - `title_set (set[DatNode])` A set of titles as DatNode instances.
+
+            - `report_on_match (bool)` Whether Retool needs to report any titles being
             traced.
 
         Returns:
-            `set[DatNode]`: A set of DatNodes that contain titles that don't match the
+            `set[DatNode]` A set of DatNodes that contain titles that don't match the
             `pattern`.
         """
 
@@ -908,18 +975,23 @@ class ParentTools(object):
 
 
     @staticmethod
-    def choose_multi_regions(title_set: set[DatNode], user_region_order: list[str], world_is_usa: bool, report_on_match: bool) -> set[DatNode]:
+    def choose_multi_regions(title_set: set[DatNode], user_region_order: list[str], world_is_usa_europe_japan: bool, report_on_match: bool) -> set[DatNode]:
         """ Compares any two titles from a set of DatNodes against the user region order.
         Preferences titles with more regions and that are higher up the region priority.
 
         Args:
-            `title_set (set[DatNode])`: A set of titles as DatNode instances.
-            `user_region_order (list[str])`: The region order as defined by the user.
-            `report_on_match (bool)`: Whether Retool needs to report any titles being
-            traced.
+            - `title_set (set[DatNode])` A set of titles as DatNode instances.
+
+            - `user_region_order (list[str])` The region order as defined by the user.
+
+            - `world_is_usa_europe_japan (bool)` Whether to treat World as an equivalent
+              region to USA, Europe, and Japan.
+
+            - `report_on_match (bool)` Whether Retool needs to report any titles being
+              traced.
 
         Returns:
-            `set[DatNode]`: A set of DatNodes filtered by region priority.
+            `set[DatNode]` A set of DatNodes filtered by region priority.
         """
 
         remove_titles: set[DatNode] = set()
@@ -929,16 +1001,32 @@ class ParentTools(object):
                 title_1.short_name == title_2.short_name
                 and title_1 in title_set
                 and title_2 in title_set):
-                    if world_is_usa:
+                    if world_is_usa_europe_japan:
                         if (
-                            ((
+                            (
                                 title_1.primary_region == 'World'
                                 and title_2.primary_region == 'USA'
-                                )
+                            )
                             or (
                                 title_1.primary_region == 'USA'
                                 and title_2.primary_region == 'World'
-                            ))):
+                            )
+                            or (
+                                title_1.primary_region == 'World'
+                                and title_2.primary_region == 'Europe'
+                            )
+                            or (
+                                title_1.primary_region == 'Europe'
+                                and title_2.primary_region == 'World'
+                            )
+                            or (
+                                title_1.primary_region == 'World'
+                                and title_2.primary_region == 'Japan'
+                            )
+                            or (
+                                    title_1.primary_region == 'Japan'
+                                    and title_2.primary_region == 'World'
+                            )):
                                 continue
 
                     # An exception for compilation titles -- we only want to check the
@@ -947,15 +1035,15 @@ class ParentTools(object):
                     if (
                         (title_1.contains_titles and not title_2.contains_titles)
                         or (title_2.contains_titles and not title_1.contains_titles)):
-                        if title_1.region_priority < title_2.region_priority:
-                            if report_on_match: TraceTools.trace_title('REF0094', [f'({title_1.region_priority}) {title_1.full_name}', f'({title_2.region_priority}) {title_2.full_name}{Font.end}'], keep_remove=True)
+                            if title_1.region_priority < title_2.region_priority:
+                                if report_on_match: TraceTools.trace_title('REF0094', [f'({title_1.region_priority}) {title_1.full_name}', f'({title_2.region_priority}) {title_2.full_name}{Font.end}'], keep_remove=True)
 
-                            remove_titles.add(title_2)
+                                remove_titles.add(title_2)
 
-                        if title_2.region_priority < title_1.region_priority:
-                            if report_on_match: TraceTools.trace_title('REF0095', [f'({title_2.region_priority}) {title_2.full_name}', f'({title_1.region_priority}) {title_1.full_name}{Font.end}'], keep_remove=True)
+                            if title_2.region_priority < title_1.region_priority:
+                                if report_on_match: TraceTools.trace_title('REF0095', [f'({title_2.region_priority}) {title_2.full_name}', f'({title_1.region_priority}) {title_1.full_name}{Font.end}'], keep_remove=True)
 
-                            remove_titles.add(title_1)
+                                remove_titles.add(title_1)
                     else:
                         for region in user_region_order:
                             if (
@@ -988,15 +1076,18 @@ class ParentTools(object):
         title with or without the string.
 
         Args:
-            `pattern (Pattern[str])`: The pattern to search for in the title name.
-            `title_set (set[DatNode])`: A set of titles as DatNode instances.
-            `report_on_match (bool)`: Whether Retool needs to report any titles being
-            traced.
-            `choose_title_with_string (bool)`: If `True`, chooses the title that contains
-            `string`. If `False`, chooses the title that doesn't contain `string`.
+            - `pattern (Pattern[str])` The pattern to search for in the title name.
+
+            - `title_set (set[DatNode])` A set of titles as DatNode instances.
+
+            - `report_on_match (bool)` Whether Retool needs to report any titles being
+              traced.
+
+            - `choose_title_with_string (bool)` If `True`, chooses the title that contains
+              `string`. If `False`, chooses the title that doesn't contain `string`.
 
         Returns:
-            `set[DatNode]`: A set of DatNodes that either does or doesn't contain the
+            `set[DatNode]` A set of DatNodes that either does or doesn't contain the
             specified `pattern`.
         """
 
@@ -1055,12 +1146,13 @@ class ParentTools(object):
         chooses it.
 
         Args:
-            `title_set (set[DatNode])`: A set of titles as DatNode instances.
-            `report_on_match (bool)`: Whether Retool needs to report any titles being
-            traced.
+            - `title_set (set[DatNode])` A set of titles as DatNode instances.
+
+            - `report_on_match (bool)` Whether Retool needs to report any titles being
+              traced.
 
         Returns:
-            `set[DatNode]`: A set of DatNodes where supersets get chosen over normal
+            `set[DatNode]` A set of DatNodes where supersets get chosen over normal
             titles. If neither title is a superset, both titles are kept.
         """
 
@@ -1099,14 +1191,17 @@ class ParentTools(object):
         highest version/revision tag.
 
         Args:
-            `pattern (Pattern[str])`: The version pattern to search for in the title name.
-            `title_set (set[DatNode])`: A set of titles as DatNode instances.
-            `config (Config)`: The Retool config object.
-            `report_on_match (bool)`: Whether Retool needs to report any titles being
-            traced.
+            - `pattern (Pattern[str])` The version pattern to search for in the title name.
+
+            - `title_set (set[DatNode])` A set of titles as DatNode instances.
+
+            - `config (Config)` The Retool config object.
+
+            - `report_on_match (bool)` Whether Retool needs to report any titles being
+              traced.
 
         Returns:
-            `set[DatNode]`: A set of DatNodes filtered by highest version.
+            `set[DatNode]` A set of DatNodes filtered by highest version.
         """
 
         remove_titles: set[DatNode] = set()
@@ -1162,11 +1257,12 @@ class ParentTools(object):
                                 """ Attempts to convert versions into a comparable format.
 
                                 Args:
-                                    `ver_1 (str)`: The first title's version.
-                                    `ver_2 (str)`: The second title's version.
+                                    - `ver_1 (str)` The first title's version.
+
+                                    - `ver_2 (str)` The second title's version.
 
                                 Returns:
-                                    `list[Any]`: A list of normalized versions.
+                                    `list[Any]` A list of normalized versions.
                                 """
 
                                 version_compare_normalize: list[Any] = []
@@ -1222,11 +1318,11 @@ class ParentTools(object):
                                             """ Formats versions so they can be compared.
 
                                             Args:
-                                                `version (list[Any])`: A version of a
-                                                title that's already been parsed.
+                                                - `version (list[Any])` A version of a
+                                                  title that's already been parsed.
 
                                             Returns:
-                                                `list[Any]`: A normalized version of the
+                                                `list[Any]` A normalized version of the
                                                 input.
                                             """
 
@@ -1413,14 +1509,17 @@ class ParentTools(object):
         highest priority video standard.
 
         Args:
-            `standard (str)`: The video standard. MPAL, NTSC, PAL, PAL 60Hz, SECAM
-            `title_set (set[DatNode])`: A set of titles as DatNode instances.
-            `config (Config)`: The Retool config object.
-            `report_on_match (bool)`: Whether Retool needs to report any titles being
+            - `standard (str)` The video standard. MPAL, NTSC, PAL, PAL 60Hz, SECAM
+
+            - `title_set (set[DatNode])` A set of titles as DatNode instances.
+
+            - `config (Config)` The Retool config object.
+
+            - `report_on_match (bool)` Whether Retool needs to report any titles being
             traced.
 
         Returns:
-            `set[DatNode]`: A set of DatNodes filtered by video standard.
+            `set[DatNode]` A set of DatNodes filtered by video standard.
         """
 
         standard = standard.replace(' ', '_')
@@ -1433,25 +1532,30 @@ class ParentTools(object):
 
     @staticmethod
     def detect_parent_clone_clash(processed_titles: dict[str, set[DatNode]], config: Config) -> dict[str, set[DatNode]]:
-        """ Makes sure a title isn't assigned as both a parent and a clone. Most of the
-        time this isn't a big deal, and has been caused by a combination of user region
-        and language settings, available titles, and using supersets in clone lists. The
-        solution is simple: if any title is marked as a parent, but happens to also marked
-        as a clone, remove the clone status.
+        """ Makes sure a title isn't assigned as both a parent and a clone. This can only
+        happen when exporting a DAT in legacy mode.
 
-        Additionally, this should only ever be a problem when exporting a DAT in legacy
-        mode. Still, Retool warns the user of these issues if they've asked to see clone
-        list errors, just in case there's an actual problem that needs to be chased up.
+        There are two major causes:
+
+        - Duplicate entries in a clone list. This should be fixed by the clone list
+          maintainer.
+
+        - A combination of user region and language settings, available titles, and using
+          supersets in clone lists. Rarer, and usually isn't a problem.
+
+        The solution is simple: if any title is marked as a parent, but happens to also
+        marked as a clone, remove its clone status.
 
         Args:
-            `processed_titles (dict[str, set[DatNode]])`: A work in progress dictionary
-            of DatNodes, originally populated from the input DAT and actively being worked
-            on by Retool.
-            `config (Config)`: The Retool config object.
+            - `processed_titles (dict[str, set[DatNode]])` A work in progress dictionary
+              of DatNodes, originally populated from the input DAT and actively being worked
+              on by Retool.
+
+            - `config (Config)` The Retool config object.
 
         Returns:
-            `dict[str, set[DatNode]]`: A dictionary of DatNodes that have had
-            parent/clone errors corrected.
+            `dict[str, set[DatNode]]` A dictionary of DatNodes that have had parent/clone
+            errors corrected.
         """
 
         parent_clash: dict[str, Any] = {}
@@ -1485,7 +1589,7 @@ class ParentTools(object):
             for key, values in parent_clash.items():
                 if values['assigned_clone']:
                     eprint(f'\n{Font.warning}* {Font.warning_bold}{key}{Font.warning} should be a parent, but is set as a clone of\n  {Font.warning_bold}{values["assigned_clone"]}{Font.warning}{Font.end}')
-                    eprint(f'\n  {Font.warning}Sometimes this can happen because there\'s a duplicate entry in the clone list.\nOther times it\'s just a side effect of region and language settings.{Font.end}')
+                    eprint(f'\n  {Font.warning}Sometimes this can happen because there\'s a duplicate entry in the clone list.\n  Other times it\'s just a side effect of region and language settings.{Font.end}')
 
                 if values['clones']:
                     eprint(f'\n  {Font.warning}Titles that have {Font.warning_bold}{key}{Font.warning} as a parent:{Font.end}\n')
@@ -1502,15 +1606,16 @@ class ParentTools(object):
     @staticmethod
     def remove_preprod_bad(title_set: set[DatNode], config: Config) -> set[DatNode]:
         """ Compares any two titles from a set of DatNodes to see if one is
-        preproduction/bad, and the other is not. Also cleans up mixed
+        preproduction/bad/pirate, and the other is not. Also cleans up mixed
         version/revision titles in groups.
 
         Args:
-            `title_set (set[DatNode])`: A set of titles as DatNode instances.
-            `config (Config)`: The Retool config object.
+            - `title_set (set[DatNode])` A set of titles as DatNode instances.
+
+            - `config (Config)` The Retool config object.
 
         Returns:
-            `set[DatNode]`: A set of DatNodes with preproduction and bad titles
+            `set[DatNode]` A set of DatNodes with preproduction and bad titles
             removed, if a better title exists to take their place.
         """
 
@@ -1576,13 +1681,14 @@ class ParentTools(object):
         parent selection in one of those modes.
 
         Args:
-            `processed_titles (dict[str, set[DatNode]])`: A work in progress dictionary
-            of DatNodes, originally populated from the input DAT and actively being worked
-            on by Retool.
-            `config (Config)`: The Retool config object.
+            - `processed_titles (dict[str, set[DatNode]])` A work in progress dictionary
+              of DatNodes, originally populated from the input DAT and actively being worked
+              on by Retool.
+
+            - `config (Config)` The Retool config object.
 
         Returns:
-            `dict[str, set[DatNode]]`: A dictionary of DatNodes with 1G1R processing
+            `dict[str, set[DatNode]]` A dictionary of DatNodes with 1G1R processing
             complete.
         """
 
@@ -1636,7 +1742,7 @@ class ParentTools(object):
             # function so we can use it in a map later.
             #
             # You can't set a kwarg name on a partial or the multiprocessing breaks, so
-            # only the value for is_superset_titles is passed in.
+            # only the values for is_superset_titles and is_compilations are passed in.
             func = partial(ParentTools.choose_parent_process, config, {}, False, False)
 
             # Need to use an iterable, not a dictionary for multiprocessing
@@ -1705,18 +1811,19 @@ class ParentTools(object):
     def choose_parent_process(config: Config, potential_parents: dict[str, set[DatNode]], is_superset_titles: bool, is_compilations: bool, title_set: set[DatNode]) -> dict[str, set[DatNode]]:
         """ Determines a parent, given a dictionary of DatNode objects.
 
-        This is an evolution of the existing No-intro tagging order.
-
         Args:
-            `config (Config)`: The Retool config object.
-            `potential_parents (dict[str, set[DatNode]])`: A dictionary of DatNodes that
-            contains non-finalized parents. Only needed when processing supersets, as
-            supersets need extra processing to make the parents deterministic.
-            `is_superset_titles (bool)`: Set to `True` if processing supersets.
-            `title_set (set[DatNode])`: A list of DatNodes to choose a parent from.
+            - `config (Config)` The Retool config object.
+
+            - `potential_parents (dict[str, set[DatNode]])` A dictionary of DatNodes that
+              contains non-finalized parents. Only needed when processing supersets, as
+              supersets need extra processing to make the parents deterministic.
+
+            - `is_superset_titles (bool)` Set to `True` if processing supersets.
+
+            - `title_set (set[DatNode])` A list of DatNodes to choose a parent from.
 
         Returns:
-            `dict[str, set[DatNode]]`: A dictionary of DatNodes with parents selected.
+            `dict[str, set[DatNode]]` A dictionary of DatNodes with parents selected.
         """
 
         # Check if a system config is in play
@@ -1914,7 +2021,7 @@ class ParentTools(object):
                     if report_on_match: TraceTools.trace_title('REF0007', [group_name], parent_titles, keep_remove=False)
 
                     # 9) Preference titles with more regions that are higher up the region priority
-                    if len(parent_titles) > 1: parent_titles = ParentTools.choose_multi_regions(parent_titles, region_order, world_is_usa = False, report_on_match = report_on_match)
+                    if len(parent_titles) > 1: parent_titles = ParentTools.choose_multi_regions(parent_titles, region_order, world_is_usa_europe_japan = False, report_on_match = report_on_match)
 
                     if report_on_match: TraceTools.trace_title('REF0008', [group_name], parent_titles, keep_remove=False)
 
@@ -2020,7 +2127,85 @@ class ParentTools(object):
 
             if report_on_match: TraceTools.trace_title('REF0014', [group_name], cross_region_parent_titles, keep_remove=False)
 
-            # Filter superset priority titles
+            # Choose supersets over titles
+            cross_region_temp: set[DatNode] = set()
+
+            if len(cross_region_parent_titles) > 1:
+                cross_region_temp: set[DatNode] = cross_region_parent_titles.copy()
+
+                for title_1, title_2 in itertools.combinations(cross_region_temp, 2):
+                    if (
+                        title_1.short_name == title_2.short_name
+                        and title_1 in cross_region_parent_titles
+                        and title_2 in cross_region_parent_titles
+                        and 'BIOS' not in title_1.categories
+                        and 'BIOS' not in title_2.categories):
+                            if title_1.is_superset and not title_2.is_superset:
+                                cross_region_parent_titles.remove(title_2)
+                            elif title_2.is_superset and not title_1.is_superset:
+                                cross_region_parent_titles.remove(title_1)
+
+                if report_on_match: TraceTools.trace_title('REF0103', [group_name], cross_region_parent_titles, keep_remove=False)
+
+            # Check supersets early for clonelist priority
+            if len(cross_region_parent_titles) > 1:
+                cross_region_temp = cross_region_parent_titles.copy()
+
+                for title_1, title_2 in itertools.combinations(cross_region_temp, 2):
+                    if title_1.is_superset and title_2.is_superset:
+                        if title_1.clonelist_priority < title_2.clonelist_priority:
+
+                            if report_on_match: TraceTools.trace_title('REF0106', [title_1.full_name, title_2.full_name], set(), keep_remove=True)
+
+                            cross_region_parent_titles.remove(title_2)
+
+                        elif title_2.clonelist_priority < title_1.clonelist_priority:
+
+                            if report_on_match: TraceTools.trace_title('REF0107', [title_2.full_name, title_1.full_name], set(), keep_remove=True)
+
+                            cross_region_parent_titles.remove(title_1)
+
+            # TODO: Should these next few sections be ignoring supersets?
+            # Check if there's a shared region between titles. If so, check which title has more of the user's languages
+            if len(cross_region_parent_titles) > 1:
+                remove_titles: set[DatNode] = set()
+                language_winner: set[DatNode] = set()
+
+                for region in config.region_order_user:
+                    for title_1, title_2 in itertools.combinations([x for x in cross_region_parent_titles if region in x.regions], 2):
+                            if title_1.short_name == title_2.short_name:
+                                language_winner: set[DatNode] = ParentTools.choose_language({title_1, title_2}, config, report_on_match)
+
+                                if len(language_winner) == 1:
+                                    if title_1.full_name == language_winner.pop().full_name:
+                                        remove_titles.add(title_2.full_name)
+                                    else:
+                                        remove_titles.add(title_1.full_name)
+
+                cross_region_parent_titles = set([x for x in cross_region_parent_titles if x.full_name not in remove_titles])
+
+                if report_on_match: TraceTools.trace_title('REF0104', [group_name], cross_region_parent_titles, keep_remove=False)
+
+            # Choose a title that has more regions, or higher priority regions
+            if len(cross_region_parent_titles) > 1:
+                # Check if a system config is in play
+                region_order: list[str] = config.region_order_user
+
+                if config.system_region_order_user:
+                    if {'override': 'true'} in config.system_region_order_user:
+                        region_order = [str(x) for x in config.system_region_order_user if 'override' not in x]
+
+                cross_region_parent_titles = ParentTools.choose_multi_regions(cross_region_parent_titles, region_order, world_is_usa_europe_japan=False, report_on_match=report_on_match)
+
+                if report_on_match: TraceTools.trace_title('REF0102', [group_name], cross_region_parent_titles, keep_remove=False)
+
+            # Choose a title that has more of the user's languages
+            if len(cross_region_parent_titles) > 1:
+                cross_region_parent_titles = ParentTools.choose_language(cross_region_parent_titles, config, report_on_match)
+
+                if report_on_match: TraceTools.trace_title('REF0101', [group_name], cross_region_parent_titles, keep_remove=False)
+
+            # Do a full superset filter
             superset_titles: set[DatNode] = set([title for title in cross_region_parent_titles if title.is_superset])
 
             if superset_titles:
@@ -2036,6 +2221,7 @@ class ParentTools(object):
                 superset_titles_final: set[DatNode] = set()
 
                 for short_name_superset_key, short_name_superset_set in short_name_superset_titles.items():
+                    # TODO: Is superset priority even needed given the previous work? Same for regions?
                     # Find the highest priority superset
                     top_priority: int = sorted(short_name_superset_set, key=lambda i:i.clonelist_priority)[0].clonelist_priority
 

@@ -7,7 +7,7 @@ import sys
 
 from functools import reduce
 from itertools import product
-from strictyaml import load, Map, MapPattern, Str, Seq, YAML, YAMLError
+from strictyaml import load, Map, MapPattern, Str, Seq, YAML, YAMLError, YAMLValidationError
 from typing import Any, Pattern
 
 from modules.input import UserInput
@@ -39,8 +39,11 @@ class Config:
                  user_video_order_key: str,
                  user_list_prefix_key: str,
                  user_list_suffix_key: str,
+                 user_override_exclude_key: str,
+                 user_override_include_key: str,
+                 user_filter_key: str,
                  user_gui_settings_key: str,
-                 user_filters_path: str,
+                 system_settings_path: str,
                  sanitized_characters: tuple[str, ...],
                  reserved_filenames: tuple[str, ...],
                  version_major: str,
@@ -51,71 +54,99 @@ class Config:
         browsable if you `print()` the object.
 
         Args:
-            `clone_list_metadata_download_location (str)`: A URL that points to a folder
-            containing clone lists and metadata files, so local copies can be updated.
-            Only used if internal-config.json is missing.
-            `clone_list_metadata_download_location_key (str)`: The key in
-            internal-config.json that contains the URL that hosts clone lists and
-            metadata files, so local copies can be updated.
-            `program_download_location (str)`: A URL that points to where the Retool
-            program can be downloaded. Not used, but if it was, it would only be used if
-            internal-config.json was missing.
-            `program_download_location_key (str)`: The key in internal-config.json that
-            contains the URL that hosts the Retool program. Not used.
-            `config_file (str)`: The location of internal-config.json.
-            `ignore_tags_key (str)`: The key to look up in internal-config.json that
-            contains tags that should be ignored so like titles can be grouped together.
-            `disc_rename_key (str)`: The key in internal-config.json that specifies how
-            multiple '(Disc)' tags should be renamed so they can be normalized and
-            compared.
-            `promote_editions_key (str)`: The key in internal-config.json that specifies
-            which tags indicate a title should be promoted over another.
-            `demote_editions_key (str)`: The key in internal-config.json that specifies
-            which tags indicate a title should be demoted below another.
-            `modern_editions_key (str)`: The key in internal-config.json that specifies
-            which tags indicate a title is ripped from a modern release of a game, like
-            those from Virtual Console.
-            `languages_key (str)`: The key in internal-config.json that specifies the
-            available languages and their associated language codes.
-            `region_order_key (str)`: The key in internal-config.json that specifies the
-            default region order and the implied language for each region.
-            `video_order_key (str)`: The key in internal-config.json that specifies the
-            default order for video standards like MPAL, NTSC, PAL, PAL 60Hz, and SECAM.
-            `clone_lists_key (str)`: The key in internal-config.json that specifies where
-            the local clone lists are located.
-            `metadata_key (str)`: The key in internal-config.json that specifies where the
-            local metadata files are located.
-            `user_config_key (str)`: The key in internal-config.json that specifies where
-            user-config.yaml is located.
-            `user_language_key (str)`: The key in user-config.yaml that specifies the
-            language order as defined by the user.
-            `user_region_order_key (str)`: The key in user-config.yaml that specifies the
-            region order as defined by the user.
-            `user_video_order_key (str)`: The key in user-config.yaml that specifies the
-            order for video standards like MPAL, NTSC, PAL, PAL 60Hz, and SECAM as defined
-            by the user.
-            `user_list_prefix_key (str)`: The key in user-config.yaml that specifies the
-            prefix used when the user specifies `--listnames`.
-            `user_list_suffix_key (str)`: The key in user-config.yaml that specifies the
-            suffix used when the user specifies `--listnames`.
-            `user_gui_settings_key (str)`: They key in user-config.yaml that specifies
-            settings used by the GUI.
-            `user_filters_path (str)`: The location of the system user filters.
-            `sanitized_characters (tuple[str, ...])`: Characters that can't be used in
-            filenames.
-            `reserved_filenames (tuple[str, ...])`: Filenames that can't be used in
-            certain operating systems.
-            `version_major (str)`: The major version of Retool. Combined with the minor
-            version to make up the full version string.
-            `version_minor (str)`: The minor version of Retool. Combined with the major
-            version to make up the full version string.
-            `user_input (Any)`: In the CLI version, all the arguments passed in by the user.
-            In the GUI version, constructed from UI elements the user has enabled or
-            interacted with.
-            `first_run_gui (bool, optional)`: When using the GUI, is set to `True` to
-            prevent Retool from prompting the user through the CLI to generate
-            user-config.yaml, as this happens automatically through GUI use anyway.
-            Defaults to `False`.
+            - `clone_list_metadata_download_location (str)` A URL that points to a folder
+              containing clone lists and metadata files, so local copies can be updated.
+              Only used if internal-config.json is missing.
+
+            - `clone_list_metadata_download_location_key (str)` The key in
+              internal-config.json that contains the URL that hosts clone lists and
+              metadata files, so local copies can be updated.
+
+            - `program_download_location (str)` A URL that points to where the Retool
+              program can be downloaded. Not used, but if it was, it would only be used if
+              internal-config.json was missing.
+
+            - `program_download_location_key (str)` The key in internal-config.json that
+              contains the URL that hosts the Retool program. Not used.
+
+            - `config_file (str)` The location of internal-config.json.
+
+            - `ignore_tags_key (str)` The key to look up in internal-config.json that
+              contains tags that should be ignored so like titles can be grouped together.
+
+            - `disc_rename_key (str)` The key in internal-config.json that specifies how
+              multiple '(Disc)' tags should be renamed so they can be normalized and
+              compared.
+
+            - `promote_editions_key (str)` The key in internal-config.json that specifies
+              which tags indicate a title should be promoted over another.
+
+            - `demote_editions_key (str)` The key in internal-config.json that specifies
+              which tags indicate a title should be demoted below another.
+
+            - `modern_editions_key (str)` The key in internal-config.json that specifies
+              which tags indicate a title is ripped from a modern release of a game, like
+              those from Virtual Console.
+
+            - `languages_key (str)` The key in internal-config.json that specifies the
+              available languages and their associated language codes.
+
+            - `region_order_key (str)` The key in internal-config.json that specifies the
+              default region order and the implied language for each region.
+
+            - `video_order_key (str)` The key in internal-config.json that specifies the
+              default order for video standards like MPAL, NTSC, PAL, PAL 60Hz, and SECAM.
+
+            - `clone_lists_key (str)` The key in internal-config.json that specifies where
+              the local clone lists are located.
+
+            - `metadata_key (str)` The key in internal-config.json that specifies where the
+              local metadata files are located.
+
+            - `user_config_key (str)` The key in internal-config.json that specifies where
+              user-config.yaml is located.
+
+            - `user_language_key (str)` The key in user-config.yaml that specifies the
+              language order as defined by the user.
+
+            - `user_region_order_key (str)` The key in user-config.yaml that specifies the
+              region order as defined by the user.
+
+            - `user_video_order_key (str)` The key in user-config.yaml that specifies the
+              order for video standards like MPAL, NTSC, PAL, PAL 60Hz, and SECAM as defined
+              by the user.
+
+            - `user_list_prefix_key (str)` The key in user-config.yaml that specifies the
+              prefix used when the user specifies `--listnames`.
+
+            - `user_list_suffix_key (str)` The key in user-config.yaml that specifies the
+              suffix used when the user specifies `--listnames`.
+
+            - `user_gui_settings_key (str)` They key in user-config.yaml that specifies
+              settings used by the GUI.
+
+            - `system_settings_path (str)` The location of the system config files.
+
+            - `sanitized_characters (tuple[str, ...])` Characters that can't be used in
+              filenames.
+
+            - `reserved_filenames (tuple[str, ...])` Filenames that can't be used in
+              certain operating systems.
+
+            - `version_major (str)` The major version of Retool. Combined with the minor
+              version to make up the full version string.
+
+            - `version_minor (str)` The minor version of Retool. Combined with the major
+              version to make up the full version string.
+
+            - `user_input (Any)` In the CLI version, all the arguments passed in by the user.
+              In the GUI version, constructed from UI elements the user has enabled or
+              interacted with.
+
+            - `first_run_gui (bool, optional)` When using the GUI, is set to `True` to
+              prevent Retool from prompting the user through the CLI to generate
+              user-config.yaml, as this happens automatically through GUI use anyway.
+              Defaults to `False`.
         """
 
         # Determine if STDOUT is being redirected or not
@@ -132,7 +163,7 @@ class Config:
             """ Downloads the files Retool requires to operate.
 
             Args:
-                `download_files (tuple[str])`: A tuple of the files to download.
+                - `download_files (tuple[str])` A tuple of the files to download.
             """
 
             required_files: str = ''.join([f'\n* {Font.bold}{x}{Font.warning}' for x in download_files])
@@ -208,13 +239,15 @@ class Config:
             it to a self.attribute.
 
             Args:
-                `key_name (str)`: The key to find in internal-config.json.
-                `dict_key_name (str)`: The attribute to assign to the Retool config
-                object.
-                `iter_type (str, optional)`: Whether the resulting attribute value should
-                be a `list`, `tuple`, or neither. Defaults to `''`.
-                `tags_ignore (bool, optional)`: Whether the values in the attribute should
-                be added to Retool's ignored tags list. Defaults to `False`.
+                - `key_name (str)` The key to find in internal-config.json.
+
+                - `dict_key_name (str)` The attribute to assign to the Retool config
+                  object.
+                - `iter_type (str, optional)` Whether the resulting attribute value should
+                  be a `list`, `tuple`, or neither. Defaults to `''`.
+
+                - `tags_ignore (bool, optional)` Whether the values in the attribute should
+                  be added to Retool's ignored tags list. Defaults to `False`.
             """
 
             if key_name in self.config_file_content:
@@ -271,7 +304,7 @@ class Config:
             internal-config.json.
 
             Args:
-                `section_key (str)`: The section to check for in internal-config.json.
+                - `section_key (str)` The section to check for in internal-config.json.
             """
 
             if section_key not in self.config_file_content:
@@ -322,7 +355,7 @@ class Config:
                         tuple(map(lambda s: s, self.languages)),
                         tuple(self.region_order_default),
                         tuple(self.video_order_default),
-                        user_filters_path,
+                        system_settings_path,
                         first_run_gui=first_run_gui)
 
         # Import the user config file
@@ -335,23 +368,50 @@ class Config:
         self.user_suffix: str = ''
         self.user_gui_settings: tuple[Any, ...] = ()
 
-        try:
-            schema = Map(
+        schema = Map(
                 {user_language_order_key: Seq(Str())|Str(),
                  user_region_order_key: Seq(Str())|Str(),
                  user_video_order_key: Seq(Str())|Str(),
                  user_list_prefix_key: Seq(Str())|Str(),
                  user_list_suffix_key: Seq(Str())|Str(),
-                'exclude': Seq(Str())|Str(),
-                'include': Seq(Str())|Str(),
+                 user_override_exclude_key: Seq(Str())|Str(),
+                 user_override_include_key: Seq(Str())|Str(),
+                 user_filter_key: Seq(Str())|Str(),
                  user_gui_settings_key: Seq(Str()|MapPattern(Str(), Str()))|Str()})
 
+        user_config: YAML
+
+        try:
             with open(pathlib.Path(user_config_file), 'r', encoding='utf-8') as user_config_import:
-                user_config: YAML = load(str(user_config_import.read()), schema)
+                user_config = load(str(user_config_import.read()), schema)
 
         except OSError as e:
             eprint(f'\n{Font.error_bold}* Error: {Font.end}{str(e)}\n')
             raise
+
+        except YAMLValidationError as e:
+            # Check for the filters key that was added in v2.01.0, and add it if not found
+            if '\'filters\' not found' in str(e):
+                try:
+                    with open(pathlib.Path(user_config_file), 'r', encoding='utf-8') as user_config_import:
+                        add_filters_key: list[str] = user_config_import.readlines()
+                        add_filters_key.append('\n\nfilters:')
+
+                    with open(pathlib.Path(user_config_file), 'w', encoding='utf-8') as user_config_import:
+                        user_config_import.writelines(add_filters_key)
+                except Exception as e2:
+                    eprint(f'\n{Font.error_bold}* Error: {Font.end}{str(e2)}\n')
+                    raise
+
+                try:
+                    with open(pathlib.Path(user_config_file), 'r', encoding='utf-8') as user_config_import:
+                        user_config = load(str(user_config_import.read()), schema)
+                except Exception as e2:
+                    eprint(f'\n{Font.error_bold}* Error: {Font.end}{str(e2)}\n')
+                    raise
+            else:
+                eprint(f'\n{Font.error_bold}* YAML validation error: {Font.end}{str(e)}\n')
+                raise
 
         except YAMLError as e:
             eprint(f'\n{Font.error_bold}* YAML error: {Font.end}{str(e)}\n')
@@ -402,11 +462,14 @@ class Config:
             self.languages_implied['United Kingdom'] = self.languages_implied['UK']
             self.languages_filter['United Kingdom'] = self.languages_filter['UK']
 
-        # Import global user filters
-        self.user_filters_path = user_filters_path
+        # Import global overrides
+        self.system_settings_path = system_settings_path
 
-        self.global_exclude: list[str] = user_config.data['exclude']
-        self.global_include: list[str] = user_config.data['include']
+        self.global_exclude: list[str] = user_config.data[user_override_exclude_key]
+        self.global_include: list[str] = user_config.data[user_override_include_key]
+
+        # Import global post filters
+        self.global_filter: list[str] = user_config.data[user_filter_key]
 
         # Populate system settings later when the DAT file has been loaded
         self.system_clone_list: str = ''
@@ -419,6 +482,7 @@ class Config:
         self.system_video_order_user: list[str|dict[str,str]] = []
         self.system_exclude: list[str] = []
         self.system_include: list[str] = []
+        self.system_filter: list[str|dict[str,str]] = []
         self.system_user_prefix: str = ''
         self.system_user_suffix: str = ''
         self.system_user_path_settings: tuple[Any, ...] = ()
@@ -488,8 +552,8 @@ class Config:
         return ''
 
 
-class Filters():
-    """ Creates an object for user filters """
+class UserOverrides():
+    """ Creates an object for overrides """
 
     def __init__(self, exclude: list[str] = [], include: list[str] = []):
         self.exclude: list[str] = exclude
@@ -502,57 +566,77 @@ def generate_config(
     languages: tuple[str, ...],
     regions: tuple[str, ...],
     video_standards: tuple[str, ...],
-    user_filters_path: str,
-    global_filters: Filters = Filters(),
-    system_filters: Filters = Filters(),
+    overrides_path: str,
+    global_overrides: UserOverrides = UserOverrides(),
+    system_overrides: UserOverrides = UserOverrides(),
+    global_filters: list[str] = [],
+    system_filters: list[str] = [],
     list_prefix: str = '',
     list_suffix: str = '',
     gui_settings: set[str] = set(),
     overwrite: bool = False,
     system_config: bool = False,
     system_paths: dict[str, str]  = {},
-    overrides: dict[str, bool] = {},
+    override_status: dict[str, bool] = {},
     first_run_gui: bool = False
     ) -> None:
     """ When run from the CLI, creates required config files if they're missing. When run
     from the GUI, additionally manages the editing of those files.
 
     Args:
-        `user_config_file (str)`: The location of user-config.yaml.
-        `languages (tuple[str, ...])`: All languages Retool is processing.
-        `regions (tuple[str, ...])`: All regions Retool is processing.
-        `video_standards (tuple[str, ...])`: All video standards Retool is processing.
-        `user_filters_path (str)`: Where the user filters are stored for individual
-        systems.
-        `global_filters (dict[str, list[str]], optional)`: Include and exclude filters
-        applied at the global level. Defaults to `{}`.
-        `system_filters (dict[str, list[str]], optional)`: Include and exclude filters
-        applied at the system level. Defaults to `{}`.
-        `list_prefix (str, optional)`: A prefix to add to each title that's exported
-        using `--listnames`. Defaults to `''`.
-        `list_suffix (str, optional)`: A suffix to add to each title that's exported
-        using `--listnames`. Defaults to `''`.
-        `gui_settings (set[str], optional)`: Settings only written and used by Retool's
-        GUI. Defaults to `set()`.
-        `overwrite (bool, optional)`: Whether or not to overwrite an existing
-        user-config.yaml. Only used when the GUI is writing the file. Defaults to `False`.
-        `first_run_gui (bool, optional)`: When using the GUI, is set to `True` to prevent
-        Retool from prompting the user through the CLI to generate user-config.yaml, as
-        this happens automatically through GUI use anyway. Defaults to `False`.
+        - `user_config_file (str)` The location of user-config.yaml.
+
+        - `languages (tuple[str, ...])` All languages Retool is processing.
+
+        - `regions (tuple[str, ...])` All regions Retool is processing.
+
+        - `video_standards (tuple[str, ...])` All video standards Retool is processing.
+
+        - `overrides_path (str)` Where the overrides are stored for individual systems.
+
+        - `global_overrides (dict[str, list[str]], optional)` Include and exclude overrides
+          applied at the global level. Defaults to `{}`.
+
+        - `system_overrides (dict[str, list[str]], optional)` Include and exclude overrides
+          applied at the system level. Defaults to `{}`.
+
+        - `list_prefix (str, optional)` A prefix to add to each title that's exported
+          using `--listnames`. Defaults to `''`.
+
+        - `list_suffix (str, optional)` A suffix to add to each title that's exported
+          using `--listnames`. Defaults to `''`.
+
+        - `gui_settings (set[str], optional)` Settings only written and used by Retool's
+          GUI. Defaults to `set()`.
+
+        - `overwrite (bool, optional)` Whether or not to overwrite an existing
+          user-config.yaml. Only used when the GUI is writing the file. Defaults to `False`.
+
+        - `system_config (bool)` Whether a system config is in play. Defaults to `False`.
+
+        - `system_paths (dict[str, str])` The paths the user has set for the system config,
+          including the output folder, clone list file, and metadata file.
+
+        - `overide_status (dict[str, bool])` Which system settings tabs have the "Override
+          global settings" checkbox enabled.
+
+        - `first_run_gui (bool, optional)` When using the GUI, is set to `True` to prevent
+          Retool from prompting the user through the CLI to generate user-config.yaml, as
+          this happens automatically through GUI use anyway. Defaults to `False`.
     """
 
     new_user_config: bool = False
 
     if not pathlib.Path(user_config_file).exists() or overwrite:
         try:
-
             def add_entry(string: str, is_comment: bool = False) -> None:
                     """ Adds an entry to a YAML object.
 
                     Args:
-                        `string (str)`: The entry to add to the list.
-                        `is_comment (bool, optional)`: Whether or not the entry
-                        should be commented out. Defaults to `False`.
+                        - `string (str)` The entry to add to the list.
+
+                        - `is_comment (bool, optional)` Whether or not the entry
+                          should be commented out. Defaults to `False`.
                     """
 
                     if is_comment:
@@ -587,7 +671,7 @@ def generate_config(
                         '\n# CLONE LIST, METADATA FILE, AND OUTPUT LOCATION'
                         '\n# =============================================='
                         '\npaths:'
-                        f'\n- override: {str(overrides["paths"]).lower()}'
+                        f'\n- override: {str(override_status["paths"]).lower()}'
                         f'\n- clone list: {clone_list_path}'
                         f'\n- metadata file: {metadata_file_path}'
                         f'\n- output: {output_path}'
@@ -605,7 +689,7 @@ def generate_config(
 
                 if system_config:
                     output_file.writelines(
-                        f'\n- override: {str(overrides["languages"]).lower()}'
+                        f'\n- override: {str(override_status["languages"]).lower()}'
                     )
 
                 if not overwrite:
@@ -628,7 +712,7 @@ def generate_config(
 
                 if system_config:
                     output_file.writelines(
-                         f'\n- override: {str(overrides["regions"]).lower()}'
+                         f'\n- override: {str(override_status["regions"]).lower()}'
                     )
 
                 for region in regions:
@@ -651,7 +735,7 @@ def generate_config(
 
                 if system_config:
                     output_file.writelines(
-                        f'\n- override: {str(overrides["video"]).lower()}'
+                        f'\n- override: {str(override_status["video"]).lower()}'
                     )
 
                 for video_standard in video_standards:
@@ -684,13 +768,13 @@ def generate_config(
                     output_file.writelines('\n# - "This text will be at the end of each line"')
 
                 output_file.writelines(
-                    '\n\n# ======================================='
-                    '\n# GLOBAL EXCLUDE AND INCLUDE USER FILTERS'
-                    '\n# ======================================='
-                    '\n# Exclude or include specific titles by adding your own text strings to match'
-                    '\n# against. Items in the list are case sensitive. See the documentation for more'
-                    '\n# information, and pay particular attention to how system user filters interact'
-                    '\n# with global user filters.'
+                    '\n\n# ===================================='
+                    '\n# GLOBAL EXCLUDE AND INCLUDE OVERRIDES'
+                    '\n# ===================================='
+                    '\n# Override Retool and force exclude or include specific titles by adding your own'
+                    '\n# text to match against. Items in the list are case sensitive. See the'
+                    '\n# documentation for more information, and pay particular attention to how system'
+                    '\n# overrides interact with global overrides.'
                     '\n#'
                     '\n# The formatting is as follows:'
                     '\n#'
@@ -707,38 +791,74 @@ def generate_config(
 
                 if system_config:
                     if (
-                        system_filters == Filters()
-                        or system_filters.exclude == []):
+                        system_overrides == UserOverrides()
+                        or system_overrides.exclude == []):
                         output_file.writelines('\n# - "[b]"')
                         output_file.writelines('\n# - "/.*?\\(Virtual*"')
                     else:
-                        list(map(lambda s: output_file.writelines(f'\n- "{s}"'), system_filters.exclude))
+                        list(map(lambda s: output_file.writelines(f'\n- "{s}"'), system_overrides.exclude))
 
                     output_file.writelines('\n\ninclude:')
 
                     if (
-                        system_filters == Filters()
-                        or system_filters.include == []):
+                        system_overrides == UserOverrides()
+                        or system_overrides.include == []):
                         output_file.writelines('\n# - "|My favorite title (Japan)"')
                     else:
-                        list(map(lambda s: output_file.writelines(f'\n- "{s}"'), system_filters.include))
+                        list(map(lambda s: output_file.writelines(f'\n- "{s}"'), system_overrides.include))
                 else:
                     if (
-                        global_filters == Filters()
-                        or global_filters.exclude == []):
+                        global_overrides == UserOverrides()
+                        or global_overrides.exclude == []):
                         output_file.writelines('\n# - "[b]"')
                         output_file.writelines('\n# - "/.*?\\(Virtual*"')
                     else:
-                        list(map(lambda s: output_file.writelines(f'\n- "{s}"'), global_filters.exclude))
+                        list(map(lambda s: output_file.writelines(f'\n- "{s}"'), global_overrides.exclude))
 
                     output_file.writelines('\n\ninclude:')
 
                     if (
-                        global_filters == Filters()
-                        or global_filters.include == []):
+                        global_overrides == UserOverrides()
+                        or global_overrides.include == []):
                         output_file.writelines('\n# - "|My favorite title (Japan)"')
                     else:
-                        list(map(lambda s: output_file.writelines(f'\n- "{s}"'), global_filters.include))
+                        list(map(lambda s: output_file.writelines(f'\n- "{s}"'), global_overrides.include))
+
+                output_file.writelines(
+                    '\n\n# ============'
+                    '\n# POST FILTERS'
+                    '\n# ============'
+                    '\n# After Retool has finished processing, remove all titles except the ones that'
+                    '\n# match the text listed here. Items in the list are case sensitive. See the'
+                    '\n# documentation for more information.'
+                    '\n#'
+                    '\n# The formatting is as follows:'
+                    '\n#'
+                    '\n# * Plain text indicates a partial string match.'
+                    '\n# * A prefix of / indicates a regular expression match.'
+                    '\n# * A prefix of | indicates a full string match.'
+                    '\n#'
+                    '\n# The text must be inside double quotes. You must escape double quotes and'
+                    '\n# backslashes like so: \\", \\\\'
+                    '\n#'
+                    '\n# Comment out lines you don\'t want'
+                    '\nfilters:')
+
+                if system_config:
+                    output_file.writelines(f'\n- override: {str(override_status["post_filters"]).lower()}')
+
+                    if not system_filters:
+                        output_file.writelines('\n# - "/.*?\\(Virtual*"')
+                        output_file.writelines('\n# - "|My favorite title (Japan)"')
+                    else:
+                        list(map(lambda s: output_file.writelines(f'\n- "{s}"'), system_filters))
+
+                else:
+                    if not global_filters:
+                        output_file.writelines('\n# - "/.*?\\(Virtual*"')
+                        output_file.writelines('\n# - "|My favorite title (Japan)"')
+                    else:
+                        list(map(lambda s: output_file.writelines(f'\n- "{s}"'), global_filters))
 
                 if system_config:
                     output_file.writelines(
@@ -750,8 +870,8 @@ def generate_config(
                         '\n# tab, and then change the exclusions and options to populate'
                         '\n# this section.'
                         '\nexclusions and options:'
-                        f'\n- override exclusions: {str(overrides["exclusions"]).lower()}'
-                        f'\n- override options: {str(overrides["options"]).lower()}')
+                        f'\n- override exclusions: {str(override_status["exclusions"]).lower()}'
+                        f'\n- override options: {str(override_status["options"]).lower()}')
                 else:
                     output_file.writelines(
                     '\n\n# ============'
@@ -770,7 +890,7 @@ def generate_config(
             eprint(f'\n{Font.error_bold}* Error: {Font.end}{str(e)}\n')
             raise
 
-    pathlib.Path(user_filters_path).mkdir(parents=True, exist_ok=True)
+    pathlib.Path(overrides_path).mkdir(parents=True, exist_ok=True)
 
     if (
         overwrite == False

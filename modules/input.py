@@ -7,7 +7,7 @@ import re
 import sys
 
 from functools import reduce
-from strictyaml import load, Map, MapPattern, Str, Seq, YAMLError
+from strictyaml import load, Map, MapPattern, Str, Seq, YAML, YAMLError, YAMLValidationError
 from typing import Any, TYPE_CHECKING
 
 if TYPE_CHECKING:
@@ -37,6 +37,7 @@ class UserInput:
                  no_demos: bool = False,
                  no_add_ons: bool = False,
                  no_educational: bool = False,
+                 no_games: bool = False,
                  no_mia: bool = False,
                  no_manuals: bool = False,
                  no_multimedia: bool = False,
@@ -49,9 +50,10 @@ class UserInput:
                  clone_list: str = '',
                  user_config: str = '',
                  metadata: str = '',
-                 no_filters: bool = False,
+                 no_overrides: bool = False,
                  list_names: bool = False,
                  log: bool = False,
+                 original_header: bool = False,
                  output_folder_name: str = '',
                  output_region_split: bool = False,
                  output_remove_dat: bool = False,
@@ -70,93 +72,145 @@ class UserInput:
         """ Stores user input values, including what types of titles to exclude.
 
         Args:
-            `input_file_name (str, optional)`: The path to the input DAT file. Defaults to
-            `''`.
-            `update (bool, optional)`: Calls the clone list update function. Defaults to
-            `False`.
-            `no_1g1r (bool, optional)`: Disables 1G1R processing. Defaults to `False`.
-            `empty_titles (bool, optional)`: Includes titles that don't have hashes or a
-            size. Defaults to `False`.
-            `filter_languages (bool, optional)`: Filters by languages, removing any title
-            that doesn't support the languages in the supplied list. Defaults to `False`.
-            `region_bias (bool, optional)`: Prefers regions over languages. Defaults to
-            `False`.
-            `legacy (bool, optional)`: Outputs the DAT file in legacy mode, complete with
-            parent/clone tags. Only useful for clone list maintainers who want to trac
-            changes between DAT releases. Defaults to `False`.
-            `demote_unl (bool, optional)`: Demotes unlicensed, aftermarket, homebrew, and
-            pirate titles if a production version of a title is found in another region.
-            Defaults to `False`.
-            `modern (bool, optional)`: Whether to choose a version of a title ripped
-            from a modern rerelease (e.g. Steam, Virtual Console) over the original
-            title. Defaults to `False`.
-            `no_applications (bool, optional)`: Excludes applications. Defaults to
-            `False`.
-            `no_audio (bool, optional)`: Excludes audio. Defaults to `False`.
-            `no_bad_dumps (bool, optional)`: Excludes bad dumps. Defaults to `False`.
-            `no_bios (bool, optional)`: Excludes BIOS and other chip-based titles.
-            Defaults to `False`.
-            `no_coverdiscs (bool, optional)`: Excludes coverdiscs. Defaults to `False`.
-            `no_demos (bool, optional)`: Excludes demos. Defaults to `False`.
-            `no_add_ons (bool, optional)`: Excludes add-ons. Defaults to `False`.
-            `no_educational (bool, optional)`: Excludes educational titles. Defaults to
-            `False`.
-            `no_mia (bool, optional)`: Excludes MIA titles. Defaults to `False`.
-            `no_manuals (bool, optional)`: Excludes manuals. Defaults to `False`.
-            `no_multimedia (bool, optional)`: Excludes multimedia titles. Defaults to
-            `False`.
-            `no_bonus_discs (bool, optional)`: Excludes bonus discs. Defaults to `False`.
-            `no_pirate (bool, optional)`: Excludes pirated titles. Defaults to `False`.
-            `no_preproduction (bool, optional)`: Excludes preproduction titles. Defaults to
-            `False`.
-            `no_promotional (bool, optional)`: Excludes promotional titles. Defaults to
-            `False`.
-            `no_unlicensed (bool, optional)`: Excludes unlicensed, aftermarket, homebrew
-            and pirate titles. Defaults to `False`.
-            `no_video (bool, optional)`: Excludes video titles. Defaults to `False`.
-            `clone_list (str, optional)`: The path to a clone list to load, overriding
-            the default selection. Defaults to `''`.
-            `user_config (str, optional)`: The path to a user config file to load,
-            overriding the default selection. Defaults to `''`.
-            `metadata (str, optional)`: The path to a metadata file to load, overriding the
-            default selection. Defaults to `''`.
-            `no_filters (bool, optional)`: Disables global and system user filters.
-            Defaults to `False`.
-            `list_names (bool, optional)`: Additionally outputs a file that contains just
-            the names of the 1G1R titles found after processing. Defaults to `False`.
-            `log (bool, optional)`: Additionally outputs a file that shows what titles
-            have been kept and removed. Defaults to `False`.
-            `output_folder_name (str, optional)`: Sets the folder DATs are written to.
-            Defaults to `''`.
-            `output_region_split (bool, optional)`: Produces multiple DAT files split by
-            region, instead of just a single DAT file. Defaults to `False`.
-            `output_remove_dat (bool, optional)`: Additionally outputs a DAT that contains
-            all the titles Retool has removed as part of its process. Defaults to `False`.
-            `verbose (bool, optional)`: Displays warnings when clone list errors occur.
-            Defaults to `False`.
-            `warningpause (bool, optional)`: Pauses Retool when a clone list error is
-            reported. Defaults to `False`.
-            `single_cpu (bool, optional)`: Uses a single CPU to do the processing, instead
-            of using all available processors. Defaults to `False`.
-            `trace (str, optional)`: Traces a title through Retool's process, using the
-            supplied string as regex. Defaults to `''`.
-            `no_dtd (bool, optional)`: Bypasses DTD validation. Defaults to `False`.
-            `excludes (str, optional)`: A string representation of all the exclusion
-            options as single letters. Used in naming the output DAT file as a way to
-            determine what options generated the file. Defaults to `''`.
-            `dev_mode (bool, optional)`: Enables dev mode. Displays some extra messages to
-            help troubleshoot code issues. Defaults to `False`.
-            `user_options (str, optional)`: If a user has enabled single letter user
-            options (-delryz), adds them to the output filename. Defaults to `''`.
-            `user_clone_list_location (str, optional)`: A user-defined folder for where
-            clone lists live. Only settable in the GUI. Defaults to `''`.
-            `user_clone_list_metadata_download_location (str, optional)`: A user-defined
-            URL for where to download clone list and metadata updates from. Only settable
-            in the GUI. Defaults to `''`.
-            `user_metadata_location (str, optional)`: A user-defined folder for where
-            metadata files live. Only settable in the GUI. Defaults to `''`.
-            `test (bool, optional)`: Runs tests helpful to Retool's development. Defaults
-            to `False`.
+            - `input_file_name (str, optional)` The path to the input DAT file. Defaults to
+              `''`.
+
+            - `update (bool, optional)` Calls the clone list update function. Defaults to
+              `False`.
+
+            - `no_1g1r (bool, optional)` Disables 1G1R processing. Defaults to `False`.
+
+            - `empty_titles (bool, optional)` Includes titles that don't have hashes or a
+              size. Defaults to `False`.
+
+            - `filter_languages (bool, optional)` Filters by languages, removing any title
+              that doesn't support the languages in the supplied list. Defaults to `False`.
+
+            - `region_bias (bool, optional)` Prefers regions over languages. Defaults to
+              `False`.
+
+            - `legacy (bool, optional)` Outputs the DAT file in legacy mode, complete with
+              parent/clone tags. Only useful for clone list maintainers who want to trac
+              changes between DAT releases. Defaults to `False`.
+
+            - `demote_unl (bool, optional)` Demotes unlicensed, aftermarket, homebrew, and
+              pirate titles if a production version of a title is found in another region.
+              Defaults to `False`.
+
+            - `modern (bool, optional)` Whether to choose a version of a title ripped
+              from a modern rerelease (e.g. Steam, Virtual Console) over the original
+              title. Defaults to `False`.
+
+            - `no_applications (bool, optional)` Excludes applications. Defaults to
+              `False`.
+
+            - `no_audio (bool, optional)` Excludes audio. Defaults to `False`.
+
+            - `no_bad_dumps (bool, optional)` Excludes bad dumps. Defaults to `False`.
+
+            - `no_bios (bool, optional)` Excludes BIOS and other chip-based titles.
+              Defaults to `False`.
+
+            - `no_coverdiscs (bool, optional)` Excludes coverdiscs. Defaults to `False`.
+
+            - `no_demos (bool, optional)` Excludes demos. Defaults to `False`.
+
+            - `no_add_ons (bool, optional)` Excludes add-ons. Defaults to `False`.
+
+            - `no_educational (bool, optional)` Excludes educational titles. Defaults to
+              `False`.
+
+            - `no_games (bool, optional)` Excludes games. Defaults to `False`.
+
+            - `no_mia (bool, optional)` Excludes MIA titles. Defaults to `False`.
+
+            - `no_manuals (bool, optional)` Excludes manuals. Defaults to `False`.
+
+            - `no_multimedia (bool, optional)` Excludes multimedia titles. Defaults to
+              `False`.
+
+            - `no_bonus_discs (bool, optional)` Excludes bonus discs. Defaults to `False`.
+
+            - `no_pirate (bool, optional)` Excludes pirated titles. Defaults to `False`.
+
+            - `no_preproduction (bool, optional)` Excludes preproduction titles. Defaults to
+              `False`.
+
+            - `no_promotional (bool, optional)` Excludes promotional titles. Defaults to
+              `False`.
+
+            - `no_unlicensed (bool, optional)` Excludes unlicensed, aftermarket, homebrew
+              and pirate titles. Defaults to `False`.
+
+            - `no_video (bool, optional)` Excludes video titles. Defaults to `False`.
+
+            - `clone_list (str, optional)` The path to a clone list to load, overriding
+              the default selection. Defaults to `''`.
+
+            - `user_config (str, optional)` The path to a user config file to load,
+              overriding the default selection. Defaults to `''`.
+
+            - `metadata (str, optional)` The path to a metadata file to load, overriding the
+              default selection. Defaults to `''`.
+
+            - `no_overrides (bool, optional)` Disables global and system overrides.
+              Defaults to `False`.
+
+            - `list_names (bool, optional)` Additionally outputs a file that contains just
+              the names of the 1G1R titles found after processing. Defaults to `False`.
+
+            - `log (bool, optional)` Additionally outputs a file that shows what titles
+              have been kept and removed. Defaults to `False`.
+
+            - `original_header (bool, optional)` Uses the header from the input DAT in the
+              output DAT. Useful to update original No-Intro and Redump DATs already loaded
+              in CLRMAMEPro. Defaults to `False`.
+
+            - `output_folder_name (str, optional)` Sets the folder DATs are written to.
+              Defaults to `''`.
+
+            - `output_region_split (bool, optional)` Produces multiple DAT files split by
+              region, instead of just a single DAT file. Defaults to `False`.
+
+            - `output_remove_dat (bool, optional)` Additionally outputs a DAT that contains
+              all the titles Retool has removed as part of its process. Defaults to `False`.
+
+            - `verbose (bool, optional)` Displays warnings when clone list errors occur.
+              Defaults to `False`.
+
+            - `warningpause (bool, optional)` Pauses Retool when a clone list error is
+              reported. Defaults to `False`.
+
+            - `single_cpu (bool, optional)` Uses a single CPU to do the processing, instead
+              of using all available processors. Defaults to `False`.
+
+            - `trace (str, optional)` Traces a title through Retool's process, using the
+              supplied string as regex. Defaults to `''`.
+
+            - `no_dtd (bool, optional)` Bypasses DTD validation. Defaults to `False`.
+
+            - `excludes (str, optional)` A string representation of all the exclusion
+              options as single letters. Used in naming the output DAT file as a way to
+              determine what options generated the file. Defaults to `''`.
+
+            - `dev_mode (bool, optional)` Enables dev mode. Displays some extra messages to
+              help troubleshoot code issues. Defaults to `False`.
+
+            - `user_options (str, optional)` If a user has enabled single letter user
+              options (-delryz), adds them to the output filename. Defaults to `''`.
+
+            - `user_clone_list_location (str, optional)` A user-defined folder for where
+              clone lists live. Only settable in the GUI. Defaults to `''`.
+
+            - `user_clone_list_metadata_download_location (str, optional)` A user-defined
+              URL for where to download clone list and metadata updates from. Only settable
+              in the GUI. Defaults to `''`.
+
+            - `user_metadata_location (str, optional)` A user-defined folder for where
+              metadata files live. Only settable in the GUI. Defaults to `''`.
+
+            - `test (bool, optional)` Runs tests helpful to Retool's development. Defaults
+              to `False`.
         """
 
         # Positional
@@ -182,6 +236,7 @@ class UserInput:
         self.no_coverdiscs: bool = no_coverdiscs
         self.no_demos: bool = no_demos
         self.no_educational: bool = no_educational
+        self.no_games: bool = no_games
         self.no_manuals: bool = no_manuals
         self.no_multimedia: bool = no_multimedia
         self.no_pirate: bool = no_pirate
@@ -197,11 +252,12 @@ class UserInput:
         self.user_clone_list_location: str = user_clone_list_location
         self.user_clone_list_metadata_download_location: str = user_clone_list_metadata_download_location
         self.user_metadata_location: str = user_metadata_location
-        self.no_filters: bool = no_filters
+        self.no_overrides: bool = no_overrides
 
         # Outputs
         self.list_names: bool = list_names
         self.log: bool = log
+        self.original_header: bool = original_header
         self.output_folder_name: str = output_folder_name
         self.output_region_split: bool = output_region_split
         self.output_remove_dat: bool = output_remove_dat
@@ -217,9 +273,8 @@ class UserInput:
         self.user_options: str = user_options
         self.excludes: str = excludes
         self.dev_mode: bool = dev_mode
+        self.test: bool = test
         self.update: bool = update
-
-        self.test: bool = test # TODO
 
         # Check for valid regex in the trace
         if self.trace:
@@ -299,9 +354,9 @@ def check_input() -> UserInput:
                              '\nsystem releases, such as those found in Virtual Console'
                              '\n(ripped titles might not work in emulators).')
 
-    parser.add_argument('--nofilters',
+    parser.add_argument('--nooverrides',
                         action='store_true',
-                        help='R|Don\'t load global and system user filters.')
+                        help='R|Don\'t load global and system overrides.')
 
     parser.add_argument('-q',
                         action='store_true',
@@ -321,6 +376,12 @@ def check_input() -> UserInput:
                         action='store_true',
                         help='R|Also output a TXT file of what titles have been kept,'
                              '\nremoved, and set as clones.')
+
+    outputs.add_argument('--originalheader',
+                        action='store_true',
+                        help='R|Use the original input DAT header in the output DAT.'
+                             '\nUseful if you want to load Retool DATs as an update'
+                             '\nto original Redump and No-Intro DATs already in CLRMAMEPro.')
 
     outputs.add_argument('--output',
                         metavar='<folder>',
@@ -378,12 +439,12 @@ def check_input() -> UserInput:
 
     debug.add_argument('--trace',
                         action='extend',
-                            metavar='',
-                            help='R|Trace a title through the Retool process for debugging.'
-                            '\nTo function properly, this disables using multiple'
-                            '\nprocessors during parent selection.'
-                            '\n\nUsage: --trace "regex of titles to trace"',
-                            nargs='+')
+                        metavar='',
+                        help='R|Trace a title through the Retool process for debugging.'
+                             '\nTo function properly, this disables using multiple'
+                             '\nprocessors during parent selection.'
+                             '\n\nUsage: --trace "regex of titles to trace"',
+                        nargs='+')
 
     debug.add_argument('--warnings',
                         action='store_true',
@@ -408,6 +469,7 @@ def check_input() -> UserInput:
                                  '\nd\tDemos, kiosks, and samples'
                                  '\nD\tAdd-ons (expansion packs, additional material)'
                                  '\ne\tEducational titles'
+                                 '\ng\tGames'
                                  '\nk\tMIA titles and individual MIA ROMs'
                                  '\nm\tManuals'
                                  '\nM\tMultimedia titles (might include games)'
@@ -452,9 +514,12 @@ def check_input() -> UserInput:
     if pathlib.Path('.dev').is_file() and not args.q:
         dev_mode = True
         setattr(args, 'legacy', True)
-        setattr(args, 'warnings', True)
-        setattr(args, 'warningpause', True)
-        eprint(f'{Font.warning_bold}* Operating in dev mode{Font.end}')
+        if not args.test:
+            setattr(args, 'warnings', True)
+            setattr(args, 'warningpause', True)
+            eprint(f'{Font.warning_bold}* Operating in dev mode{Font.end}')
+        else:
+            eprint(f'{Font.warning_bold}* Operating in test mode{Font.end}')
         eprint('')
 
     # Compensate for trailing backslash in Windows
@@ -518,8 +583,9 @@ def check_input() -> UserInput:
         'warningpause',
         'legacy',
         'log',
+        'originalheader',
         'metadata',
-        'nofilters',
+        'nooverrides',
         'nodtd',
         'listnames',
         'regionsplit',
@@ -581,6 +647,7 @@ def check_input() -> UserInput:
             no_demos = True if 'd' in args_set else False,
             no_add_ons = True if 'D' in args_set else False,
             no_educational = True if 'e' in args_set else False,
+            no_games = True if 'g' in args_set else False,
             no_mia = True if 'k' in args_set else False,
             no_manuals = True if 'm' in args_set else False,
             no_multimedia = True if 'M' in args_set else False,
@@ -593,9 +660,10 @@ def check_input() -> UserInput:
             clone_list = str(pathlib.Path(args.clonelist).resolve()),
             user_config = args.config,
             metadata = str(pathlib.Path(args.metadata).resolve()),
-            no_filters = args.nofilters,
+            no_overrides = args.nooverrides,
             list_names = args.listnames,
             log = args.log,
+            original_header = args.originalheader,
             output_folder_name = str(pathlib.Path(args.output).resolve()),
             output_region_split = args.regionsplit,
             output_remove_dat = args.removesdat,
@@ -613,24 +681,27 @@ def check_input() -> UserInput:
             test = args.test)
 
 
-def get_config_value(config_object: tuple[Any, ...], key: str, default_value: str, path: bool = True) -> str:
+def get_config_value(config_object: tuple[Any, ...], key: str, default_value: str, is_path: bool = True) -> str:
     """ Gets a value for a specific key in an object out of user-config.yaml and system
     config files.
 
     Args:
-        `config_object (tuple[Any, ...])`: A YAML object from a config file.
-        `key (str)`: The key in the YAML object to query.
-        `default_value (str)`: The equivalent default value as found in
-        internal-config.json.
-        `path (bool, optional)`: Whether to process the value as a path. Defaults to
-        `True`.
+        - `config_object (tuple[Any, ...])` A YAML object from a config file.
+
+        - `key (str)` The key in the YAML object to query.
+
+        - `default_value (str)` The equivalent default value as found in
+          internal-config.json.
+
+        - `is_path (bool, optional)` Whether to process the value as a path. Defaults to
+          `True`.
     """
 
     key_and_value: list[dict[str, Any]] = [x for x in config_object if key in x and x != {f'"{key}": ""'}]
 
     value: str = ''
 
-    if path:
+    if is_path:
         if key_and_value:
             if key_and_value[0][key] != str(pathlib.Path(default_value).resolve()):
                 value = key_and_value[0][key]
@@ -650,17 +721,19 @@ def import_clone_list(input_dat: Dat, gui_input: UserInput|None, config: Config)
     """ Imports a clone list from the relevant file and sets it up for use in Retool.
 
     Args:
-        `input_dat (Dat)`: The Retool input_dat object.
-        `gui_input (UserInput)`: Used to determine whether or not the function is being
-        called from the GUI.
-        `config (Config)`: The Retool config object.
+        - `input_dat (Dat)` The Retool input_dat object.
+
+        - `gui_input (UserInput)` Used to determine whether or not the function is being
+          called from the GUI.
+
+        - `config (Config)` The Retool config object.
 
     Raises:
-        `ExitRetool`: Silently exit if run from the GUI, so UI elements can
+        `ExitRetool` Silently exit if run from the GUI, so UI elements can
         re-enable.
 
     Returns:
-        `CloneList`: A CloneList object which is used to enable custom matching
+        `CloneList` A CloneList object which is used to enable custom matching
         of titles, pioritization of titles, assignment of new categories, and
         more.
     """
@@ -686,7 +759,10 @@ def import_clone_list(input_dat: Dat, gui_input: UserInput|None, config: Config)
             clone_file = config.user_input.clone_list
     else:
         # Load the default clone list, which has the same name as input_dat.search_name.json.
-        clone_file = f'{clone_list_path}/{input_dat.search_name}.json'
+        if config.user_input.test:
+            clone_file = f'tests/clonelists/{input_dat.search_name}.json'
+        else:
+            clone_file = f'{clone_list_path}/{input_dat.search_name}.json'
 
     clonedata: dict[str, Any] = load_data(clone_file, 'clone list', config)
 
@@ -762,11 +838,11 @@ def import_metadata(input_dat: Dat, config: Config) -> dict[str, dict[str, str]]
     relevant file, so Retool has more language information to work with.
 
     Args:
-        `input_dat (Dat)`: The Retool input_dat object.
-        `config (Config)`: The Retool config object.
+        - `input_dat (Dat)` The Retool input_dat object.
+        - `config (Config)` The Retool config object.
 
     Returns:
-        `dict[str, dict[str, str]]`: A dictionary that contains metadata for all
+        `dict[str, dict[str, str]]` A dictionary that contains metadata for all
         the titles in the DAT.
     """
 
@@ -791,7 +867,10 @@ def import_metadata(input_dat: Dat, config: Config) -> dict[str, dict[str, str]]
             metadata_file = config.user_input.metadata
     else:
         # Load the default metadata file. Import JSON file that has the same name as input_dat.search_name.json.
-        metadata_file = f'{metadata_path}/{input_dat.search_name}.json'
+        if config.user_input.test:
+            metadata_file = f'tests/metadata/{input_dat.search_name}.json'
+        else:
+            metadata_file = f'{metadata_path}/{input_dat.search_name}.json'
 
     metadata: dict[str, Any] = load_data(metadata_file, 'metadata file', config)
 
@@ -806,25 +885,35 @@ def import_system_settings(
     system_video_order_key: str,
     system_list_prefix_key: str,
     system_list_suffix_key: str,
+    system_override_exclude_key: str,
+    system_override_include_key: str,
+    system_filter_key: str,
     system_exclusions_options_key: str) -> None:
     """ Imports system settings from the relevant file.
 
     Args:
-        `config (Config)`: The Retool config object.
-        `search_name (str)`: The name of the system file, based on the DAT's system.
-        `system_language_order_key (str)`: The key in the system config that specifies the
-        language order as defined by the user.
-        `system_region_order_key (str)`: The key in system config that specifies the
-        region order as defined by the user.
-        `system_video_order_key (str)`: The key in system config that specifies the
-        order for video standards like MPAL, NTSC, PAL, PAL 60Hz, and SECAM as defined by
-        the user.
-        `system_list_prefix_key (str)`: The key in system config that specifies the
-        prefix used when the user specifies `--listnames`.
-        `system_list_suffix_key (str)`: The key in system config that specifies the
-        suffix used when the user specifies `--listnames`.
-        `system_exclusions_options_key (str)`: They key in system config that specifies
-        settings used by the GUI.
+        - `config (Config)` The Retool config object.
+
+        - `search_name (str)` The name of the system file, based on the DAT's system.
+
+        - `system_language_order_key (str)` The key in the system config that specifies the
+          language order as defined by the user.
+
+        - `system_region_order_key (str)` The key in system config that specifies the
+          region order as defined by the user.
+
+        - `system_video_order_key (str)` The key in system config that specifies the
+          order for video standards like MPAL, NTSC, PAL, PAL 60Hz, and SECAM as defined by
+          the user.
+
+        - `system_list_prefix_key (str)` The key in system config that specifies the
+          prefix used when the user specifies `--listnames`.
+
+        - `system_list_suffix_key (str)` The key in system config that specifies the
+          suffix used when the user specifies `--listnames`.
+
+        - `system_exclusions_options_key (str)` They key in system config that specifies
+          settings used by the GUI.
     """
 
     # Reset system settings
@@ -835,6 +924,7 @@ def import_system_settings(
     config.system_metadata_file = ''
     config.system_exclude = []
     config.system_include = []
+    config.system_filter = []
     config.system_region_order_user = []
     config.system_languages_user_found = False
     config.system_language_order_user = []
@@ -842,9 +932,8 @@ def import_system_settings(
     config.system_user_suffix = ''
     config.system_video_order_user = []
 
-    if pathlib.Path(f'{config.user_filters_path}/{search_name}.yaml').is_file():
-        try:
-            schema = Map(
+    if pathlib.Path(f'{config.system_settings_path}/{search_name}.yaml').is_file():
+        schema = Map(
                 {
                     'paths': Seq(Str()|MapPattern(Str(), Str()))|Str(),
                     system_language_order_key: Seq(Str()|MapPattern(Str(), Str()))|Str(),
@@ -852,16 +941,45 @@ def import_system_settings(
                     system_video_order_key: Seq(Str()|MapPattern(Str(), Str()))|Str(),
                     system_list_prefix_key: Seq(Str()|MapPattern(Str(), Str()))|Str(),
                     system_list_suffix_key: Seq(Str()|MapPattern(Str(), Str()))|Str(),
-                    'exclude': Seq(Str())|Str(),
-                    'include': Seq(Str())|Str(),
+                    system_override_exclude_key: Seq(Str())|Str(),
+                    system_override_include_key: Seq(Str())|Str(),
+                    system_filter_key: Seq(Str()|MapPattern(Str(), Str()))|Str(),
                     system_exclusions_options_key: Seq(Str()|MapPattern(Str(), Str()))|Str()})
 
-            with open(pathlib.Path(f'{config.user_filters_path}/{search_name}.yaml'), encoding='utf-8') as user_filter_import:
-                system_settings: Any = load(str(user_filter_import.read()), schema)
+        system_config_file: str = f'{config.system_settings_path}/{search_name}.yaml'
+        system_settings: YAML
+
+        try:
+            with open(pathlib.Path(system_config_file), 'r', encoding='utf-8') as system_config_import:
+                system_settings = load(str(system_config_import.read()), schema)
 
         except OSError as e:
             eprint(f'\n{Font.error_bold}* Error: {Font.end}{str(e)}\n')
             raise
+
+        except YAMLValidationError as e:
+            # Check for the filters key that was added in v2.01.0, and add it if not found
+            if '\'filters\' not found' in str(e):
+                try:
+                    with open(pathlib.Path(system_config_file), 'r', encoding='utf-8') as system_config_import:
+                        add_filters_key: list[str] = system_config_import.readlines()
+                        add_filters_key.append('\n\nfilters:')
+
+                    with open(pathlib.Path(system_config_file), 'w', encoding='utf-8') as system_config_import:
+                        system_config_import.writelines(add_filters_key)
+                except Exception as e2:
+                    eprint(f'\n{Font.error_bold}* Error: {Font.end}{str(e2)}\n')
+                    raise
+
+                try:
+                    with open(pathlib.Path(system_config_file), 'r', encoding='utf-8') as system_config_import:
+                        system_settings = load(str(system_config_import.read()), schema)
+                except Exception as e2:
+                    eprint(f'\n{Font.error_bold}* Error: {Font.end}{str(e2)}\n')
+                    raise
+            else:
+                eprint(f'\n{Font.error_bold}* YAML validation error: {Font.end}{str(e)}\n')
+                raise
 
         except YAMLError as e:
             eprint(f'\n{Font.error_bold}* YAML error: {Font.end}{str(e)}\n')
@@ -927,9 +1045,12 @@ def import_system_settings(
         # Get exclusions and options
         config.system_exclusions_options = system_settings.data[SYSTEM_EXCLUSIONS_OPTIONS_KEY]
 
-        # Get include/exclude user filters
+        # Get include/exclude overrides
         config.system_exclude = system_settings.data['exclude']
         config.system_include = system_settings.data['include']
+
+        # Get system post filters
+        config.system_filter = system_settings.data['filters']
 
         # Override global inputs based on system settings
         if {'override exclusions': 'true'} in config.system_exclusions_options:
@@ -942,6 +1063,7 @@ def import_system_settings(
             config.user_input.no_coverdiscs = False
             config.user_input.no_demos = False
             config.user_input.no_educational = False
+            config.user_input.no_games = False
             config.user_input.no_mia = False
             config.user_input.no_manuals = False
             config.user_input.no_multimedia = False
@@ -983,6 +1105,9 @@ def import_system_settings(
                             if 'e' in value:
                                 config.user_input.no_educational = True
                                 excludes.append('e')
+                            if 'g' in value:
+                                config.user_input.no_games = True
+                                excludes.append('g')
                             if 'k' in value:
                                 config.user_input.no_mia = True
                                 excludes.append('k')
@@ -1019,10 +1144,11 @@ def import_system_settings(
             config.user_input.legacy = False
             config.user_input.list_names = False
             config.user_input.log = False
+            config.user_input.original_header = False
             config.user_input.modern = False
             config.user_input.no_1g1r = False
             config.user_input.no_dtd = False
-            config.user_input.no_filters = False
+            config.user_input.no_overrides = False
             config.user_input.output_region_split = False
             config.user_input.output_remove_dat = False
             config.user_input.region_bias = False
@@ -1030,7 +1156,6 @@ def import_system_settings(
             config.user_input.warning_pause = False
             config.user_input.single_cpu = False
             config.user_input.trace = ''
-
 
             options: list[str] = []
 
@@ -1042,14 +1167,18 @@ def import_system_settings(
                 if option == 'e':
                     config.user_input.empty_titles = True
                     options.append('e')
+                if option == 'legacy':
+                    config.user_input.legacy = True
                 if option == 'listnames':
                     config.user_input.list_names = True
                 if option == 'log':
                     config.user_input.log = True
+                if option == 'originalheader':
+                    config.user_input.original_header = True
                 if option == 'nodtd':
                     config.user_input.no_dtd = True
-                if option == 'nofilters':
-                    config.user_input.no_filter = True
+                if option == 'nooverrides':
+                    config.user_input.no_overrides = True
                 if option == 'r':
                     options.append('r')
                     config.user_input.region_bias = True
@@ -1070,19 +1199,21 @@ def import_system_settings(
                     config.user_input.modern = True
                     options.append('y')
 
-            config.user_input.trace = get_config_value(config.system_exclusions_options, 'trace', '', False)
+            config.user_input.trace = get_config_value(config.system_exclusions_options, 'trace', '', is_path=False)
 
 def load_data(data_file: str, file_type: str, config: Config) -> dict[str, Any]:
     """ Opens clone list or metadata files, and gives the user the option to redownload
     them if the JSON is invalid.
 
     Args:
-        `data_file (str)`: The file to open.
-        `file_type (str)`: The file type, either `'clone list'` or `'metadata file'`.
-        `config (Config)`: The Retool config object.
+        - `data_file (str)` The file to open.
+
+        - `file_type (str)` The file type, either `clone list` or `metadata file`.
+
+        - `config (Config)` The Retool config object.
 
     Returns:
-        `dict[str, Any]`: The JSON representation of the file.
+        `dict[str, Any]` The JSON representation of the file.
     """
 
     data_content: dict[str, Any] = {}

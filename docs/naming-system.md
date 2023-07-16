@@ -7,7 +7,8 @@ hide:
 
 Retool generates multiple names for each [title](../terminology/#titles) in a DAT to help
 match and group together titles more accurately. These names are used directly in the
-code, and also [clone lists](../clone-lists).
+code, and also [clone lists](../clone-lists). If you plan to contribute to Retool, it
+helps to understand this standard.
 
 !!! tip
     Retool's different naming conventions can take a while to get used to. To help you

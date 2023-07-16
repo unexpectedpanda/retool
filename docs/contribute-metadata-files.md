@@ -5,8 +5,8 @@ hide:
 
 # Edit metadata files
 
-Metadata files are auto-generated from Redump and No-Intro databases, and should not be
-manually updated.
+Metadata files contain additional language data for titles. They are periodically
+generated from Redump and No-Intro databases, and should not be manually updated.
 
 To make a change, don't submit a PR. Instead, report the issue upstream:
 

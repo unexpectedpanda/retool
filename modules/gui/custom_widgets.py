@@ -26,6 +26,15 @@ class CustomLineEdit(qtw.QLineEdit):
     def __init__(self, parent: Any = None) -> None:
         super(CustomLineEdit, self).__init__(parent)
 
+        self.setStyleSheet(
+                '''
+                QLineEdit{
+                    border: 1px solid #888;
+                    border-collapse: collapse;
+                }
+                '''
+            )
+
     # Handle keyboard events by creating a custom signal and emitting it from
     # an event handler
     keyPressed = qtc.Signal(int)
@@ -202,7 +211,7 @@ class CustomPushButton(qtw.QPushButton):
     Modified from https://stackoverflow.com/questions/60443811/button-hover-transition-duration#answer-60446633
 
     Args:
-        `parent`: The parent widget. Defaults to `None`.
+        - `parent` The parent widget. Defaults to `None`.
     """
 
 
@@ -302,10 +311,12 @@ class ElisionLabel(qtw.QLabel):
     https://stackoverflow.com/questions/11446478/pyside-pyqt-truncate-text-in-qlabel-based-on-minimumsize#answer-67628976
 
     Args:
-        `text`: The label text.
-        `parent`: The QWidget main_window.
-        `f`: Qt.WindowFlags(), as defined at
-            https://doc-snapshots.qt.io/qtforpython-6.40/PySide6/QtCore/Qt.html#qtc.qtc.Qt.WindowType
+        - `text` The label text.
+
+        - `parent` The QWidget main_window.
+
+        - `f` Qt.WindowFlags(), as defined at
+          https://doc-snapshots.qt.io/qtforpython-6.40/PySide6/QtCore/Qt.html#qtc.qtc.Qt.WindowType
     """
 
     elision_changed = qtc.Signal(bool)
@@ -376,10 +387,10 @@ def custom_widgets(main_window: Any) -> Any:
     """ Adjusts properties of the widgets not covered by the promoted subclasses.
 
     Args:
-        `main_window (Any)`: The MainWindow widget.
+        - `main_window (Any)` The MainWindow widget.
 
     Returns:
-        `Any`: MainWindow with the replaced widgets.
+        `Any` MainWindow with the replaced widgets.
     """
 
     # DAT files list box
@@ -403,9 +414,11 @@ def custom_widgets(main_window: Any) -> Any:
                         '''
 
     main_window.ui.scrollAreaGlobalOptions.setStyleSheet(scroll_area_style)
-    main_window.ui.scrollAreaGlobalUserFilters.setStyleSheet(scroll_area_style)
+    main_window.ui.scrollAreaGlobalOverrides.setStyleSheet(scroll_area_style)
+    main_window.ui.scrollAreaGlobalPostFilters.setStyleSheet(scroll_area_style)
     main_window.ui.scrollAreaSystemOptions.setStyleSheet(scroll_area_style)
-    main_window.ui.scrollAreaSystemUserFilters.setStyleSheet(scroll_area_style)
+    main_window.ui.scrollAreaSystemOverrides.setStyleSheet(scroll_area_style)
+    main_window.ui.scrollAreaSystemPostFilters.setStyleSheet(scroll_area_style)
 
     # Change the splitter drag handle
     drag_handle = '''

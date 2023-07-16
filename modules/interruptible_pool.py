@@ -45,14 +45,18 @@ class InterruptiblePool(Pool):
     """ A modified version of :class:`multiprocessing.pool.Pool` that has better behavior
     with regard to ``KeyboardInterrupts`` in the :func:`map` method.
 
-    `processes (Any, optional)`: The number of worker processes to use; defaults to the number
-    of CPUs. Defaults to `None`.
-    `initializer (Any, optional)`: Either `None`, or a callable that will be invoked by each
-    worker process when it starts. Defaults to `None`.
-    `initargs: (Any, optional)`: Arguments for *initializer*; it will be called as
-	`initializer(*initargs)`. Defaults to `()`.
-    `kwargs (Any, optional)`: Extra arguments. Python 2.7 supports a `maxtasksperchild`
-    parameter.
+    Args:
+        - `processes (Any, optional)` The number of worker processes to use; defaults to the number
+          of CPUs. Defaults to `None`.
+
+        - `initializer (Any, optional)` Either `None`, or a callable that will be invoked by each
+          worker process when it starts. Defaults to `None`.
+
+        - `initargs: (Any, optional)` Arguments for *initializer*; it will be called as
+          `initializer(*initargs)`. Defaults to `()`.
+
+        - `kwargs (Any, optional)` Extra arguments. Python 2.7 supports a `maxtasksperchild`
+          parameter.
     """
 
     wait_timeout = 3600
@@ -66,8 +70,10 @@ class InterruptiblePool(Pool):
 def poolmap(self: Any, func: Any, iterable: Any, chunksize: Any = None) -> Any:
     """ Equivalent of `map()` built-in, without swallowing `KeyboardInterrupt`.
 
-    `func (Any)`: The function to apply to the items.
-    `iterable (Any)`: An iterable of items that will have `func` applied to them.
+    Args:
+        - `func (Any)` The function to apply to the items.
+
+        - `iterable (Any)` An iterable of items that will have `func` applied to them.
     """
 
     # The key magic is that we must call r.get() with a timeout, because

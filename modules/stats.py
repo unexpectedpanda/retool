@@ -21,6 +21,7 @@ class Stats:
                  demos_count: int = 0,
                  addons_count: int = 0,
                  educational_count: int = 0,
+                 games_count: int = 0,
                  mia_count: int = 0,
                  manuals_count: int = 0,
                  multimedia_count: int = 0,
@@ -37,67 +38,107 @@ class Stats:
                  global_include_count: int = 0,
                  global_exclude_count: int = 0,
                  system_include_count: int = 0,
-                 system_exclude_count: int = 0):
+                 system_exclude_count: int = 0,
+                 global_filter_count: int = 0,
+                 system_filter_count: int = 0,
+                 post_filter_clones_count: int = 0):
         """ Creates an object that stores stats based on how Retool has manipulated a
         DAT.
 
         Args:
-            `original_count (int, optional)`: The original number of titles in the DAT.
-            Defaults to `0`.
-            `final_count (int, optional)`: The final number of titles in the main output
-            DAT. Only used in the final stats report. Defaults to `0`.
-            `file_count (int, optional)`: The final number of titles in any DAT Retool
-            creates. Unlike `final_count`, this includes both the main output DAT and the
-            removes DAT. This number is included in filenames and DAT headers. Defaults to
-            `0`.
-            `applications_count (int, optional)`: How many applications were removed.
-            Defaults to `0`.
-            `audio_count (int, optional)`: How many audio titles were removed. Defaults to
-            `0`.
-            `bad_dumps_count (int, optional)`: How many bad dumps were removed. Defaults
-            to `0`.
-            `bios_count (int, optional)`: How many BIOS and other chip-based titles were
-            removed. Defaults to `0`.
-            `coverdiscs_count (int, optional)`: How many coverdiscs were removed. Defaults
-            to `0`.
-            `demos_count (int, optional)`: How many demos were removed. Defaults to `0`.
-            `addons_count (int, optional)`: How many add-ons were removed. Defaults to
-            `0`.
-            `educational_count (int, optional)`: How many educational titles were removed.
-            Defaults to `0`.
-            `mia_count (int, optional)`: How many MIA titles were removed. Defaults to `0`.
-            `manuals_count (int, optional)`: How many manuals were removed. Defaults to
-            `0`.
-            `multimedia_count (int, optional)`: How many multimedia titles were removed.
-            Defaults to `0`.
-            `bonus_discs_count (int, optional)`: How many bonus discs were removed.
-            Defaults to `0`.
-            `pirate_count (int, optional)`: How many pirated titles were removed. Defaults
-            to `0`.
-            `preproduction_count (int, optional)`: How many preproduction titles were
-            removed. Defaults to `0`.
-            `promotional_count (int, optional)`: How many promotional titles were removed.
-            Defaults to `0`.
-            `unlicensed_count (int, optional)`: How many unlicensed, aftermarket, and
-            homebrew titles were removed. Defaults to `0`.
-            `video_count (int, optional)`: How many video titles were removed. Defaults to
-            `0`.
-            `removes_count (int, optional)`: How many titles were removed in total.
-            Defaults to `0`.
-            `clones_count (int, optional)`: How many clones were assigned by Retool in
-            total. Defaults to `0`.
-            `languages_count (int, optional)`: How many titles were removed due to a
-            language filter. Defaults to `0`.
-            `regions_count (int, optional)`: How many titles were removed due to a region
-            filter. Defaults to `0`.
-            `global_include_count (int, optional)`: How many titles were included due to a
-            global user filter. Defaults to `0`.
-            `global_exclude_count (int, optional)`: How many titles were excluded due to a
-            global user filter. Defaults to `0`.
-            `system_include_count (int, optional)`: How many titles were included due to a
-            system user filter. Defaults to `0`.
-            `system_exclude_count (int, optional)`: How many titles were excluded due to a
-            system user filter. Defaults to `0`.
+            - `original_count (int, optional)` The original number of titles in the DAT.
+              Defaults to `0`.
+
+            - `final_count (int, optional)` The final number of titles in the main output
+              DAT. Only used in the final stats report. Defaults to `0`.
+
+            - `file_count (int, optional)` The final number of titles in any DAT Retool
+              creates. Unlike `final_count`, this includes both the main output DAT and the
+              removes DAT. This number is included in filenames and DAT headers. Defaults to
+              `0`.
+
+            - `applications_count (int, optional)` How many applications were removed.
+              Defaults to `0`.
+
+            - `audio_count (int, optional)` How many audio titles were removed. Defaults to
+              `0`.
+
+            - `bad_dumps_count (int, optional)` How many bad dumps were removed. Defaults
+              to `0`.
+            - `bios_count (int, optional)` How many BIOS and other chip-based titles were
+              removed. Defaults to `0`.
+
+            - `coverdiscs_count (int, optional)` How many coverdiscs were removed. Defaults
+              to `0`.
+
+            - `demos_count (int, optional)` How many demos were removed. Defaults to `0`.
+
+            - `addons_count (int, optional)` How many add-ons were removed. Defaults to
+              `0`.
+
+            - `educational_count (int, optional)` How many educational titles were removed.
+              Defaults to `0`.
+
+            - `games_count (int, optional)` How many games were removed. Defaults to `0`.
+
+            - `mia_count (int, optional)` How many MIA titles were removed. Defaults to `0`.
+
+            - `manuals_count (int, optional)` How many manuals were removed. Defaults to
+              `0`.
+
+            - `multimedia_count (int, optional)` How many multimedia titles were removed.
+              Defaults to `0`.
+
+            - `bonus_discs_count (int, optional)` How many bonus discs were removed.
+              Defaults to `0`.
+
+            - `pirate_count (int, optional)` How many pirated titles were removed. Defaults
+              to `0`.
+
+            - `preproduction_count (int, optional)` How many preproduction titles were
+              removed. Defaults to `0`.
+
+            - `promotional_count (int, optional)` How many promotional titles were removed.
+              Defaults to `0`.
+
+            - `unlicensed_count (int, optional)` How many unlicensed, aftermarket, and
+              homebrew titles were removed. Defaults to `0`.
+
+            - `video_count (int, optional)` How many video titles were removed. Defaults to
+              `0`.
+
+            - `removes_count (int, optional)` How many titles were removed in total.
+              Defaults to `0`.
+
+            - `clones_count (int, optional)` How many clones were assigned by Retool in
+              total. Defaults to `0`.
+
+            - `languages_count (int, optional)` How many titles were removed due to a
+              language filter. Defaults to `0`.
+
+            - `regions_count (int, optional)` How many titles were removed due to a region
+              filter. Defaults to `0`.
+
+            - `global_include_count (int, optional)` How many titles were included due to a
+              global override. Defaults to `0`.
+
+            - `global_exclude_count (int, optional)` How many titles were excluded due to a
+              global override. Defaults to `0`.
+
+            - `system_include_count (int, optional)` How many titles were included due to a
+              system override. Defaults to `0`.
+
+            - `system_exclude_count (int, optional)` How many titles were excluded due to a
+              system override. Defaults to `0`.
+
+            - `global_filter_count (int, optional)` How many titles were included due to a
+              global post filter. Defaults to `0`.
+
+            - `system_filter_count (int, optional)` How many titles were excluded due to a
+              system post filter. Defaults to `0`.
+
+            - `post_filter_clones_count (int, optional)` How many titles that were clones
+              were excluded due to a post filter. Defaults to `0`.
         """
 
         self.original_count: int = original_count
@@ -111,6 +152,7 @@ class Stats:
         self.demos_count: int = demos_count
         self.addons_count: int = addons_count
         self.educational_count: int = educational_count
+        self.games_count: int = games_count
         self.mia_count: int = mia_count
         self.manuals_count: int = manuals_count
         self.multimedia_count: int = multimedia_count
@@ -128,6 +170,9 @@ class Stats:
         self.global_exclude_count: int = global_exclude_count
         self.system_include_count: int = system_include_count
         self.system_exclude_count: int = system_exclude_count
+        self.global_filter_count: int = global_filter_count
+        self.system_filter_count: int = system_filter_count
+        self.post_filter_clones_count: int = post_filter_clones_count
 
 
 def get_parent_clone_stats(processed_titles: dict[str, set[DatNode]], config: Config) -> tuple[dict[str, set[str]], set[DatNode]]:
@@ -135,13 +180,14 @@ def get_parent_clone_stats(processed_titles: dict[str, set[DatNode]], config: Co
     also returns the relationships between these titles in case the user has set `--log`.
 
     Args:
-        `processed_titles (dict[str, set[DatNode]])`: A work in progress dictionary
-        of DatNodes, originally populated from the input DAT and actively being worked on
-        by Retool.
-        `config (Config)`: The Retool config object.
+        - `processed_titles (dict[str, set[DatNode]])` A work in progress dictionary
+          of DatNodes, originally populated from the input DAT and actively being worked on
+          by Retool.
+
+        - `config (Config)` The Retool config object.
 
     Returns:
-        `tuple[dict[str, set[str]], set[DatNode]]`: Parents grouped with clones,
+        `tuple[dict[str, set[str]], set[DatNode]]` Parents grouped with clones,
         standalone titles.
     """
 
@@ -186,7 +232,7 @@ def report_stats(config: Config) -> None:
     """ Reports stats based on how Retool has manipulated a DAT.
 
     Args:
-        `config (Config)`: The Retool config object.
+        - `config (Config)` The Retool config object.
     """
 
     eprint(
@@ -196,128 +242,143 @@ def report_stats(config: Config) -> None:
     if config.user_input.legacy and not config.user_input.no_1g1r:
         eprint(f'o  Titles assigned as clones: {str("{:,}".format(config.stats.clones_count))}')
     elif not config.user_input.no_1g1r:
-        eprint(f'   -  Clones removed: {str("{:,}".format(config.stats.clones_count))}')
+        eprint(f'-  Clones removed: {str("{:,}".format(config.stats.clones_count))}')
 
     if config.user_input.no_add_ons:
         eprint(
-            '   -  Add-on titles removed: '
+            '-  Add-on titles removed: '
             f'{str("{:,}".format(config.stats.addons_count))}')
 
     if config.user_input.no_applications:
         eprint(
-            '   -  Applications removed: '
+            '-  Applications removed: '
             f'{str("{:,}".format(config.stats.applications_count))}')
 
     if config.user_input.no_audio:
         eprint(
-            '   -  Audio titles removed: '
+            '-  Audio titles removed: '
             f'{str("{:,}".format(config.stats.audio_count))}')
 
     if config.user_input.no_bad_dumps:
         eprint(
-            '   -  Bad dumps removed: '
+            '-  Bad dumps removed: '
             f'{str("{:,}".format(config.stats.bad_dumps_count))}')
 
     if config.user_input.no_bios:
         eprint(
-            '   -  BIOSes and other chips removed: '
+            '-  BIOSes and other chips removed: '
             f'{str("{:,}".format(config.stats.bios_count))}')
 
     if config.user_input.no_bonus_discs:
         eprint(
-            '   -  Bonus discs removed: '
+            '-  Bonus discs removed: '
             f'{str("{:,}".format(config.stats.bonus_discs_count))}')
 
     if config.user_input.no_coverdiscs:
         eprint(
-            '   -  Coverdiscs removed: '
+            '-  Coverdiscs removed: '
             f'{str("{:,}".format(config.stats.coverdiscs_count))}')
 
     if config.user_input.no_demos:
         eprint(
-            '   -  Demos removed: '
+            '-  Demos removed: '
             f'{str("{:,}".format(config.stats.demos_count))}')
 
     if config.user_input.no_educational:
         eprint(
-            '   -  Educational titles removed: '
+            '-  Educational titles removed: '
             f'{str("{:,}".format(config.stats.educational_count))}')
+
+    if config.user_input.no_games:
+        eprint(
+            '-  Games removed: '
+            f'{str("{:,}".format(config.stats.games_count))}')
 
     if config.user_input.no_manuals:
         eprint(
-            '   -  Manuals removed: '
+            '-  Manuals removed: '
             f'{str("{:,}".format(config.stats.manuals_count))}')
 
     if config.user_input.no_mia:
         eprint(
-            '   -  MIA titles removed: '
+            '-  MIA titles removed: '
             f'{str("{:,}".format(config.stats.mia_count))}')
 
     if config.user_input.no_multimedia:
         eprint(
-            '   -  Multimedia titles removed: '
+            '-  Multimedia titles removed: '
             f'{str("{:,}".format(config.stats.multimedia_count))}')
 
     if config.user_input.no_pirate:
        eprint(
-            '   -  Pirate titles removed: '
+            '-  Pirate titles removed: '
             f'{str("{:,}".format(config.stats.pirate_count))}')
 
     if config.user_input.no_preproduction:
         eprint(
-            '   -  Preproduction titles removed: '
+            '-  Preproduction titles removed: '
             f'{str("{:,}".format(config.stats.preproduction_count))}')
 
     if config.user_input.no_promotional:
         eprint(
-            '   -  Promotional titles removed: '
+            '-  Promotional titles removed: '
             f'{str("{:,}".format(config.stats.promotional_count))}')
 
     if config.user_input.no_unlicensed:
         eprint(
-            '   -  Unlicensed titles removed: '
+            '-  Unlicensed titles removed: '
             f'{str("{:,}".format(config.stats.unlicensed_count))}')
 
     if config.user_input.no_video:
         eprint(
-            '   -  Video titles removed: '
+            '-  Video titles removed: '
             f'{str("{:,}".format(config.stats.video_count))}')
 
     if config.stats.removes_count:
         eprint(
-            '   -  Titles force removed by clone list: '
+            '-  Titles force removed by clone list: '
             f'{str("{:,}".format(config.stats.removes_count))}')
 
     if config.stats.global_exclude_count:
         eprint(
-            '   -  Titles removed by custom global filter: '
+            '-  Titles removed by custom global override: '
             f'{str("{:,}".format(config.stats.global_exclude_count))}')
 
     if config.stats.system_exclude_count:
         eprint(
-            '   -  Titles removed by custom system filter: '
+            '-  Titles removed by custom system override: '
             f'{str("{:,}".format(config.stats.system_exclude_count))}')
 
 
     if config.stats.languages_count:
         eprint(
-        '   -  Titles removed by language filters: '
+        '-  Titles removed by language filters: '
             f'{str("{:,}".format(config.stats.languages_count))}')
 
     if config.stats.regions_count:
         eprint(
-        '   -  Titles removed by region filters: '
+        '-  Titles removed by region filters: '
             f'{str("{:,}".format(config.stats.regions_count))}')
 
     if config.stats.global_include_count:
         eprint(
-            '   +  Titles force included by global include filters: '
+            '   +  Titles force included by global include overrides: '
             f'{str("{:,}".format(config.stats.global_include_count))}')
 
     if config.stats.system_include_count:
         eprint(
-            '   +  Titles force included by system include filters: '
+            '   +  Titles force included by system include overrides: '
             f'{str("{:,}".format(config.stats.system_include_count))}')
+
+    if config.stats.global_filter_count:
+        eprint(
+            '-  Titles removed by global post filters: '
+            f'{str("{:,}".format(config.stats.global_filter_count))}')
+
+    if config.stats.system_filter_count:
+        eprint(
+            '-  Titles removed by system post filters: '
+            f'{str("{:,}".format(config.stats.system_filter_count))}')
 
     total_titles: str = f'\n-  Total titles removed: {str("{:,}".format(config.stats.original_count - config.stats.final_count))}'
 
@@ -336,6 +397,7 @@ def report_stats(config: Config) -> None:
             - config.stats.coverdiscs_count
             - config.stats.demos_count
             - config.stats.educational_count
+            - config.stats.games_count
             - config.stats.mia_count
             - config.stats.manuals_count
             - config.stats.multimedia_count
@@ -350,6 +412,8 @@ def report_stats(config: Config) -> None:
             - config.stats.regions_count
             - config.stats.global_exclude_count
             - config.stats.system_exclude_count
+            - config.stats.global_filter_count
+            - config.stats.system_filter_count
         )
 
         if not config.user_input.legacy:

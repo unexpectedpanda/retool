@@ -11,11 +11,8 @@ and :simple-apple:{:style="margin-left:0.5em; margin-right:0.2em"} macOS 10+ on 
 processors. It likely works on M1 MacBooks too, however I don't own the hardware to test
 it.
 
-How you download and install Retool will depend on your level of comfort with code.
-
-!!! warning
-    If you're upgrading from v1, don't overwrite the contents of the v1 folder with v2.
-    Instead, start fresh with an empty folder.
+How you download and install Retool will depend on your level of comfort with code, and
+the operating system you use.
 
 === ":simple-windows: Windows binary (GUI only)"
     If you're a Windows user and want the easiest path, you can get Retool going in a few

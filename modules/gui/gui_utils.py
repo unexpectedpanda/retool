@@ -19,15 +19,20 @@ def add_list_items(list_widget: qtw.QListWidget, dat_details: dict[str, dict[str
     """ Adds items to the passed in list widget.
 
     Args:
-        `list_widget (qtw.QListWidget)`: The list widget to add the items to.
-        `dat_details (dict[str, dict[str, str]])`: The dictionary that carries DAT file
-        details like its system name and filepath.
-        `config (Config)`: The Retool config object.
-        `main_window (Any)`: The MainWindow widget.
-        `input_type (str, optional)`: Whether the input as a folder or files. Defaults to
-        'files'.
-        `recursive (bool, optional)`: Whether to treat adding a folder as recursive. Must
-        be used in combination with input_type='folder'. Defaults to `False`.
+        - `list_widget (qtw.QListWidget)` The list widget to add the items to.
+
+        - `dat_details (dict[str, dict[str, str]])` The dictionary that carries DAT file
+          details like its system name and filepath.
+
+        - `config (Config)` The Retool config object.
+
+        - `main_window (Any)` The MainWindow widget.
+
+        - `input_type (str, optional)` Whether the input as a folder or files. Defaults to
+          `files`.
+
+        - `recursive (bool, optional)` Whether to treat adding a folder as recursive. Must
+          be used in combination with `input_type='folder'`. Defaults to `False`.
     """
     response: list[Any] = []
 
@@ -84,14 +89,16 @@ def disable_incompatible_checkbox(checkbox_select: qtw.QCheckBox, checkbox_disab
     disable those other checkboxes. Reenable them when it's cleared.
 
     Args:
-        `checkbox_select (qtw.QCheckBox)`: The checkbox widget the user has interacted
-        with.
-        `checkbox_disable (tuple[qtw.QCheckBox, ...])`: The checkboxes that should be
-        disabled/enabled based on whether or not `checkbox_select` is selected.
-        `checkbox_check (tuple[qtw.QCheckBox, ...], optional)`: If these other checkboxes
-        are selected, don't enable the `checkbox_disable` checkboxes, even if
-        `checkbox_select` is cleared. Useful for three way relationships. For example:
-        checkbox C must be disabled if checkbox A or B are checked. Defaults to `()`.
+        - `checkbox_select (qtw.QCheckBox)` The checkbox widget the user has interacted
+          with.
+
+        - `checkbox_disable (tuple[qtw.QCheckBox, ...])` The checkboxes that should be
+          disabled/enabled based on whether or not `checkbox_select` is selected.
+
+        - `checkbox_check (tuple[qtw.QCheckBox, ...], optional)` If these other checkboxes
+          are selected, don't enable the `checkbox_disable` checkboxes, even if
+          `checkbox_select` is cleared. Useful for three way relationships. For example:
+          checkbox C must be disabled if checkbox A or B are checked. Defaults to `()`.
     """
 
     if checkbox_select.isChecked():
@@ -115,7 +122,7 @@ def enable_go_button(main_window: Any) -> None:
     enabled or not.
 
     Args:
-        `main_window (Any)`: The MainWindow widget.
+        - `main_window (Any)` The MainWindow widget.
     """
 
     disabled: bool = False
@@ -159,11 +166,12 @@ def get_system_name(dat_file_path: str, config: Config) -> str:
     release group appended to it.
 
     Args:
-        `dat_file_path (str)`: The location of the DAT file.
-        `config (Config)`: The Retool config object.
+        - `dat_file_path (str)` The location of the DAT file.
+
+        - `config (Config)` The Retool config object.
 
     Returns:
-        `Dat`: The system name stored in the DAT file.
+        `str` The system name stored in the DAT file.
     """
 
     with open(pathlib.Path(dat_file_path), 'rb') as file:
@@ -231,10 +239,12 @@ def move_list_items(origin_list_widget: qtw.QListWidget, destination_list_widget
     """ Moves an item from a list widget to another
 
     Args:
-        `origin_list_widget (qtw.QListWidget)`: The source widget of the move.
-        `destination_list (qtw.QListWidget)`: The destination widget of the move.
-        `all_items (bool, optional)`: Whether the user has hit the "move all" button.
-        Defaults to `False`.
+        - `origin_list_widget (qtw.QListWidget)` The source widget of the move.
+
+        - `destination_list (qtw.QListWidget)` The destination widget of the move.
+
+        - `all_items (bool, optional)` Whether the user has hit the "move all" button.
+          Defaults to `False`.
     """
 
     item_list: list[qtw.QListWidgetItem]
@@ -253,8 +263,9 @@ def order_list_items(list_widget: qtw.QListWidget, direction: str) -> None:
     """ Moves an item up or down in a list widget.
 
     Args:
-        `list_widget(qtw.QListWidget)`: The widget to move the item in.
-        `direction (str)`: Either 'up' or 'down'.
+        - `list_widget(qtw.QListWidget)` The widget to move the item in.
+
+        - `direction (str)` Either `up` or `down`.
     """
 
     # Get the selected items in row order
@@ -313,14 +324,18 @@ def remove_list_items(list_widget: qtw.QListWidget, dat_details: dict[str, dict[
     """ Removes items from the passed in list.
 
     Args:
-        `list_widget (qtw.QListWidget)`: The list widget to remove the items from
-        `dat_details (dict[str, dict[str, str]])`: The dictionary that carries DAT file
-        details like its system name and filepath.
-        `system_settings_widget (Any)`: The widget that holds the system settings. This is
-        updated if there's nothing left in the list widget.
-        `main_window (Any)`: The MainWindow widget.
-        `remove_all (bool, optional)`: Whether the user has hit the remove all button, all
-        has individually removed an item. Defaults to `True`.
+        - `list_widget (qtw.QListWidget)` The list widget to remove the items from
+
+        - `dat_details (dict[str, dict[str, str]])` The dictionary that carries DAT file
+          details like its system name and filepath.
+
+        - `system_settings_widget (Any)` The widget that holds the system settings. This is
+          updated if there's nothing left in the list widget.
+
+        - `main_window (Any)` The MainWindow widget.
+
+        - `remove_all (bool, optional)` Whether the user has hit the remove all button, all
+          has individually removed an item. Defaults to `True`.
     """
 
     if remove_all:
@@ -346,7 +361,7 @@ def set_fonts(parent: Any) -> None:
     """ Sets the fonts on a widget, based on the OS that Retool is running on.
 
     Args:
-        `parent (Any)`: The parent widget.
+        - `parent (Any)` The parent widget.
     """
 
     fonts: str = ''
@@ -415,10 +430,13 @@ def set_path(parent: Any, current_path: str, label: qtw.QLabel, parent_attr: str
     """ Sets a path for a particular setting.
 
     Args:
-        `parent (Any)`: The parent widget.
-        `current_folder (str)`: What the folder is currently set to.
-        `label (qtw.QLabel)`: The widget label to update with the new path.
-        `parent_attr (str)`: The attribute on the parent that stores the path.
+        - `parent (Any)` The parent widget.
+
+        - `current_folder (str)` What the folder is currently set to.
+
+        - `label (qtw.QLabel)` The widget label to update with the new path.
+
+        - `parent_attr (str)` The attribute on the parent that stores the path.
     """
 
     new_path: str = '.'
@@ -448,8 +466,8 @@ def select_checkboxes(checkboxes: list[qtw.QCheckBox], set_checked: bool) -> Non
     """ Given a list of checkbox widgets, either checks or unchecks them all.
 
     Args:
-        `checkboxes (list[qtw.QCheckBox])`: The list of checkbox widgets.
-        `set_checked (bool)`: Whether to check or uncheck the checkboxes.
+        - `checkboxes (list[qtw.QCheckBox])` The list of checkbox widgets.
+        - `set_checked (bool)` Whether to check or uncheck the checkboxes.
     """
 
     for checkbox in checkboxes:
@@ -461,8 +479,9 @@ def show_hide(checkbox: qtw.QCheckBox, widget_to_change: Any) -> None:
     part of the UI.
 
     Args:
-        `checkbox (qtw.QCheckBox)`: The checkbox widget the user has selected.
-        `widget_to_change (Any)`: The element that should be shown or hidden.
+        - `checkbox (qtw.QCheckBox)` The checkbox widget the user has selected.
+
+        - `widget_to_change (Any)` The element that should be shown or hidden.
     """
 
     if checkbox.isChecked():
@@ -476,8 +495,9 @@ def system_enable(checkbox: qtw.QCheckBox, widgets: list[Any]) -> None:
     not.
 
     Args:
-        `checkbox (qtw.QCheckBox)`:
-        `widgets (list[Any])`: A list of widgets.
+        - `checkbox (qtw.QCheckBox)` The checkbox that controls if a widget is enabled
+          or disabled.
+        - `widgets (list[Any])` A list of widgets to enable or disable.
     """
 
     for widget in widgets:

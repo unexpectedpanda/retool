@@ -8,7 +8,6 @@ from PySide6 import QtWidgets as qtw
 
 from modules.constants import *
 from modules.config import Config
-from modules.gui.custom_widgets import ElisionLabel
 from modules.gui.gui_config import write_config
 from modules.gui.gui_utils import add_list_items, disable_incompatible_checkbox, move_list_items, order_list_items, remove_list_items, set_path, select_checkboxes, system_enable, show_hide
 from modules.gui.windows import AboutWindow, SettingsWindow, TitleToolWindow
@@ -20,10 +19,12 @@ def default_english_order(main_window: Any, region_order_default: list[str], reg
     """ Sets the specified regions list to the default English order.
 
     Args:
-        `main_window (Any)`: The MainWindow widget.
-        `region_order_default (list[str])`: The default region order.
-        `regions_list (str)`: The regions list to modify. Valid values are `'global'` and
-        `'system'`.
+        - `main_window (Any)` The MainWindow widget.
+
+        - `region_order_default (list[str])` The default region order.
+
+        - `regions_list (str)` The regions list to modify. Valid values are `global` and
+          `system`.
     """
 
     if regions_list == 'global':
@@ -40,10 +41,12 @@ def setup_gui_global(main_window: Any, dat_details: dict[str, dict[str, str]], c
     """ Populates the global GUI with data from config files, and sets up interactions.
 
     Args:
-        `main_window (Any)`: The MainWindow widget.
-        `dat_details (dict[str, dict[str, str]])`: The dictionary that carries DAT file
-        details like its system name and filepath.
-        `config (Config)`: A Retool config object.
+        - `main_window (Any)` The MainWindow widget.
+
+        - `dat_details (dict[str, dict[str, str]])` The dictionary that carries DAT file
+          details like its system name and filepath.
+
+        - `config (Config)` The Retool config object.
     """
 
     # Reset the window size and splitter widths if they're available in user-config.yaml
@@ -108,6 +111,7 @@ def setup_gui_global(main_window: Any, dat_details: dict[str, dict[str, str]], c
     # Apply other settings from user-config.yaml
     if config.global_exclude: main_window.ui.textEditGlobalExclude.setText('\n'.join(config.global_exclude))
     if config.global_include: main_window.ui.textEditGlobalInclude.setText('\n'.join(config.global_include))
+    if config.global_filter: main_window.ui.textEditGlobalFilterInclude.setText('\n'.join(config.global_filter))
     if config.user_prefix: main_window.ui.lineEditGlobalOptions1G1RPrefix.setText(config.user_prefix)
     if config.user_suffix: main_window.ui.lineEditGlobalOptions1G1RSuffix.setText(config.user_suffix)
 
@@ -116,16 +120,17 @@ def setup_gui_global(main_window: Any, dat_details: dict[str, dict[str, str]], c
 
     main_window.clone_lists_folder = get_config_value(config.user_gui_settings, 'clone lists folder', config.path_clone_list)
     main_window.metadata_folder = get_config_value(config.user_gui_settings, 'metadata folder', config.path_metadata)
-    main_window.clone_list_metadata_url = get_config_value(config.user_gui_settings, 'clone list metadata url', config.clone_list_metadata_download_location, path=False)
+    main_window.clone_list_metadata_url = get_config_value(config.user_gui_settings, 'clone list metadata url', config.clone_list_metadata_download_location, is_path=False)
 
     if config.user_gui_settings:
         if 'r' in config.user_gui_settings: main_window.ui.checkBoxGlobalOptionsPreferRegions.setChecked(True)
         if 'e' in config.user_gui_settings: main_window.ui.checkBoxGlobalOptionsIncludeHashless.setChecked(True)
         if 'z' in config.user_gui_settings: main_window.ui.checkBoxGlobalOptionsModernPlatforms.setChecked(True)
         if 'y' in config.user_gui_settings: main_window.ui.checkBoxGlobalOptionsDemoteUnlicensed.setChecked(True)
-        if 'nofilters' in config.user_gui_settings: main_window.ui.checkBoxGlobalOptionsDisableFilters.setChecked(True)
+        if 'nooverrides' in config.user_gui_settings: main_window.ui.checkBoxGlobalOptionsDisableOverrides.setChecked(True)
         if 'removesdat' in config.user_gui_settings: main_window.ui.checkBoxGlobalOptionsRemovesDat.setChecked(True)
         if 'log' in config.user_gui_settings: main_window.ui.checkBoxGlobalOptionsKeepRemove.setChecked(True)
+        if 'originalheader' in config.user_gui_settings: main_window.ui.checkBoxGlobalOptionsOriginalHeader.setChecked(True)
         if 'warnings' in config.user_gui_settings: main_window.ui.checkBoxGlobalOptionsReportWarnings.setChecked(True)
         if 'warningpause' in config.user_gui_settings: main_window.ui.checkBoxGlobalOptionsPauseWarnings.setChecked(True)
         if 'nodtd' in config.user_gui_settings: main_window.ui.checkBoxGlobalOptionsBypassDTD.setChecked(True)
@@ -165,6 +170,7 @@ def setup_gui_global(main_window: Any, dat_details: dict[str, dict[str, str]], c
         if 'D' in exclude: main_window.ui.checkBoxGlobalExcludeAddOns.setChecked(True)
         if 'd' in exclude: main_window.ui.checkBoxGlobalExcludeDemos.setChecked(True)
         if 'e' in exclude: main_window.ui.checkBoxGlobalExcludeEducational.setChecked(True)
+        if 'g' in exclude: main_window.ui.checkBoxGlobalExcludeGames.setChecked(True)
         if 'k' in exclude: main_window.ui.checkBoxGlobalExcludeMIA.setChecked(True)
         if 'm' in exclude: main_window.ui.checkBoxGlobalExcludeManuals.setChecked(True)
         if 'M' in exclude: main_window.ui.checkBoxGlobalExcludeMultimedia.setChecked(True)
@@ -225,6 +231,7 @@ def setup_gui_global(main_window: Any, dat_details: dict[str, dict[str, str]], c
             directly with .show() means it opens and closes instantly, whereas formatting
             it like this keeps it on screen as intended.
             """
+
             main_window.new_window.show()
 
     main_window.ui.actionCloneListNameTool.triggered.connect(lambda: CloneListNameToolWindow())
@@ -253,6 +260,7 @@ def setup_gui_global(main_window: Any, dat_details: dict[str, dict[str, str]], c
 
     def stop_threads() -> None:
         """ Stops the DAT processing after the current DAT file has finished. """
+
         main_window.threadpool.clear()
 
         main_window.ui.buttonStop.setEnabled(False)
@@ -265,11 +273,14 @@ def setup_gui_system(main_window: Any, dat_details: dict[str, dict[str, str]], c
     """ Populates the system GUI with data from config files, and sets up interactions.
 
     Args:
-        `main_window (Any)`: The MainWindow widget.
-        `dat_details (dict[str, dict[str, str]])`: The dictionary that carries DAT file
-        details like its system name and filepath.
-        `config (Config)`: A Retool config object.
+        - `main_window (Any)` The MainWindow widget.
+
+        - `dat_details (dict[str, dict[str, str]])` The dictionary that carries DAT file
+          details like its system name and filepath.
+
+        - `config (Config)` The Retool config object.
     """
+
     config.system_name = ''
 
     # Remove United Kingdom from the region lists, as UK is already in there.
@@ -310,8 +321,9 @@ def setup_gui_system(main_window: Any, dat_details: dict[str, dict[str, str]], c
         """ Populates the system settings tab.
 
         Args:
-            `open_files_list (Any)`: The widget containing the added DAT files.
-            `config (Config)`: The Retool config object.
+            - `open_files_list (Any)` The widget containing the added DAT files.
+
+            - `config (Config)` The Retool config object.
         """
 
         try:
@@ -343,11 +355,11 @@ def setup_gui_system(main_window: Any, dat_details: dict[str, dict[str, str]], c
         main_window.ui.tabWidgetSystemSettings.setEnabled(True)
 
         # Create the system config file if it's missing
-        if not pathlib.Path(f'{config.user_filters_path}/{config.system_name}.yaml').is_file():
+        if not pathlib.Path(f'{config.system_settings_path}/{config.system_name}.yaml').is_file():
             try:
-                with open(pathlib.Path(f'{config.user_filters_path}/template.yaml'), 'r', encoding='utf-8') as template_file:
+                with open(pathlib.Path(f'{config.system_settings_path}/template.yaml'), 'r', encoding='utf-8') as template_file:
                     template_str: list[str] = template_file.readlines()
-                with open(pathlib.Path(f'{config.user_filters_path}/{config.system_name}.yaml'), 'w', encoding='utf-8') as system_config_file:
+                with open(pathlib.Path(f'{config.system_settings_path}/{config.system_name}.yaml'), 'w', encoding='utf-8') as system_config_file:
                     system_config_file.writelines(template_str)
             except OSError as e:
                 eprint(f'\n{Font.error_bold}* Error: {Font.end}{str(e)}\n')
@@ -362,6 +374,9 @@ def setup_gui_system(main_window: Any, dat_details: dict[str, dict[str, str]], c
             SYSTEM_VIDEO_ORDER_KEY,
             SYSTEM_LIST_PREFIX_KEY,
             SYSTEM_LIST_SUFFIX_KEY,
+            SYSTEM_OVERRIDE_EXCLUDE_KEY,
+            SYSTEM_OVERRIDE_INCLUDE_KEY,
+            SYSTEM_FILTER_KEY,
             SYSTEM_EXCLUSIONS_OPTIONS_KEY)
 
         # Set the system paths UI enabled/disabled depending on override state
@@ -485,7 +500,6 @@ def setup_gui_system(main_window: Any, dat_details: dict[str, dict[str, str]], c
         else:
             main_window.ui.checkBoxSystemOverrideVideo.setChecked(False)
 
-        # TODO Probably should simplify this sort of thing so it's not in two places.
         system_enable(
             main_window.ui.checkBoxSystemOverrideVideo,
             [
@@ -532,9 +546,10 @@ def setup_gui_system(main_window: Any, dat_details: dict[str, dict[str, str]], c
             if 'e' in config.system_exclusions_options: main_window.ui.checkBoxSystemOptionsIncludeHashless.setChecked(True)
             if 'z' in config.system_exclusions_options: main_window.ui.checkBoxSystemOptionsModernPlatforms.setChecked(True)
             if 'y' in config.system_exclusions_options: main_window.ui.checkBoxSystemOptionsDemoteUnlicensed.setChecked(True)
-            if 'nofilters' in config.system_exclusions_options: main_window.ui.checkBoxSystemOptionsDisableFilters.setChecked(True)
+            if 'nooverrides' in config.system_exclusions_options: main_window.ui.checkBoxSystemOptionsDisableOverrides.setChecked(True)
             if 'removesdat' in config.system_exclusions_options: main_window.ui.checkBoxSystemOptionsRemovesDat.setChecked(True)
             if 'log' in config.system_exclusions_options: main_window.ui.checkBoxSystemOptionsKeepRemove.setChecked(True)
+            if 'originalheader' in config.system_exclusions_options: main_window.ui.checkBoxSystemOptionsOriginalHeader.setChecked(True)
             if 'warnings' in config.system_exclusions_options: main_window.ui.checkBoxSystemOptionsReportWarnings.setChecked(True)
             if 'warningpause' in config.system_exclusions_options: main_window.ui.checkBoxSystemOptionsPauseWarnings.setChecked(True)
             if 'nodtd' in config.system_exclusions_options: main_window.ui.checkBoxSystemOptionsBypassDTD.setChecked(True)
@@ -568,6 +583,7 @@ def setup_gui_system(main_window: Any, dat_details: dict[str, dict[str, str]], c
             if 'D' in system_exclude: main_window.ui.checkBoxSystemExcludeAddOns.setChecked(True)
             if 'd' in system_exclude: main_window.ui.checkBoxSystemExcludeDemos.setChecked(True)
             if 'e' in system_exclude: main_window.ui.checkBoxSystemExcludeEducational.setChecked(True)
+            if 'g' in system_exclude: main_window.ui.checkBoxSystemExcludeGames.setChecked(True)
             if 'k' in system_exclude: main_window.ui.checkBoxSystemExcludeMIA.setChecked(True)
             if 'm' in system_exclude: main_window.ui.checkBoxSystemExcludeManuals.setChecked(True)
             if 'M' in system_exclude: main_window.ui.checkBoxSystemExcludeMultimedia.setChecked(True)
@@ -599,9 +615,33 @@ def setup_gui_system(main_window: Any, dat_details: dict[str, dict[str, str]], c
         else:
             main_window.ui.textEditSystemInclude.clear()
 
+        if config.system_filter:
+            main_window.ui.textEditSystemFilterInclude.setText('\n'.join([x for x in config.system_filter if 'override' not in x]))
+        else:
+            main_window.ui.textEditSystemFilterInclude.clear()
+
         # Show lineEdits for certain options if checked
         show_hide(main_window.ui.checkBoxSystemOptions1G1RNames, main_window.ui.frameSystemOptions1G1RPrefix)
         show_hide(main_window.ui.checkBoxSystemOptionsTrace, main_window.ui.frameSystemOptionsTrace)
+
+        # Set the post filters UI enabled/disabled depending on override state
+        if config.system_filter:
+            if {'override': 'true'} in config.system_filter:
+                main_window.ui.checkBoxSystemOverridePostFilter.setChecked(True)
+            else:
+                main_window.ui.checkBoxSystemOverridePostFilter.setChecked(False)
+
+        system_enable(
+            main_window.ui.checkBoxSystemOverridePostFilter,
+            [
+                main_window.ui.textEditSystemFilterInclude
+            ])
+
+        # Populate the post filters
+        if config.system_filter:
+            main_window.ui.textEditSystemFilterInclude.setText('\n'.join([x for x in config.system_filter if 'override' not in x]))
+        else:
+            main_window.ui.textEditSystemFilterInclude.clear()
 
     # Set up the tab refresh when the user clicks on a system
     main_window.ui.listWidgetOpenFiles.clicked.connect(lambda: system_settings(main_window.ui.listWidgetOpenFiles, config))
@@ -630,8 +670,9 @@ def setup_gui_system(main_window: Any, dat_details: dict[str, dict[str, str]], c
         """ Clear labels associated with clear buttons.
 
         Args:
-            `clear_button (qtw.QPushButton)`: The clear button that was pressed.
+            - `clear_button (qtw.QPushButton)` The clear button that was pressed.
         """
+
         if clear_button == main_window.ui.buttonClearSystemOutput:
             main_window.ui.labelSystemOutputFolder.setText(output_not_found)
             main_window.system_output_folder = ''
@@ -734,3 +775,10 @@ def setup_gui_system(main_window: Any, dat_details: dict[str, dict[str, str]], c
     main_window.ui.checkBoxSystemOptionsSplitRegions.clicked.connect(lambda: disable_incompatible_checkbox(main_window.ui.checkBoxSystemOptionsSplitRegions, (main_window.ui.checkBoxSystemOptionsLegacy,), (main_window.ui.checkBoxSystemOptionsDisable1G1R,)))
     main_window.ui.checkBoxSystemOptions1G1RNames.clicked.connect(lambda: show_hide(main_window.ui.checkBoxSystemOptions1G1RNames, main_window.ui.frameSystemOptions1G1RPrefix))
     main_window.ui.checkBoxSystemOptionsTrace.clicked.connect(lambda: show_hide(main_window.ui.checkBoxSystemOptionsTrace, main_window.ui.frameSystemOptionsTrace))
+
+    # Set up the post filter interactivity
+    main_window.ui.checkBoxSystemOverridePostFilter.clicked.connect(lambda: system_enable(
+        main_window.ui.checkBoxSystemOverridePostFilter,
+        [
+            main_window.ui.textEditSystemFilterInclude
+        ]))
