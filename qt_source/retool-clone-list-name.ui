@@ -127,6 +127,13 @@
      </widget>
     </item>
     <item>
+     <widget class="QCheckBox" name="checkBoxDemos">
+      <property name="text">
+       <string>Title has a category of Demos (adds a tag to title names that have no recognized demo tags)</string>
+      </property>
+     </widget>
+    </item>
+    <item>
      <spacer name="verticalSpacer">
       <property name="orientation">
        <enum>Qt::Vertical</enum>

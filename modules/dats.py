@@ -351,9 +351,15 @@ class DatNode:
         elif self.categories == []:
             self.categories.append('Games')
 
-        # Check if the (Demo) tag is missing from titles with the category "Demos", and
-        # add it if so
-        if 'Demos' in self.categories and '(Demo' not in self.full_name:
+        # Check if there's no (Demo) or related tags for titles with the category "Demos",
+        # and add it if so
+        is_demo: bool = False
+
+        for demo_regex in config.regex.demos:
+            if re.search(demo_regex, self.full_name):
+                is_demo = True
+
+        if not is_demo and 'Demos' in self.categories:
             self.short_name = f'{self.short_name.strip()} (Demo)'
             self.region_free_name = f'{self.region_free_name.strip()} (Demo)'
             self.tag_free_name = f'{self.tag_free_name.strip()} (Demo)'
@@ -383,6 +389,7 @@ class DatNode:
             language_order = config.region_order_languages_user
 
         region_order: list[str] = config.region_order_user
+
         if config.system_region_order_user:
             if {'override': 'true'} in config.system_region_order_user:
                 region_order = [str(x) for x in config.system_region_order_user if 'override' not in x]
@@ -1052,11 +1059,26 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput|None, confi
                 eprint('|  Numbered dat: Yes')
         eprint('')
 
+        # Import system settings
+        from modules.input import import_clone_list, import_metadata, import_system_settings
+        import_system_settings(
+            config,
+            input_dat.search_name,
+            SYSTEM_LANGUAGE_ORDER_KEY,
+            SYSTEM_REGION_ORDER_KEY,
+            SYSTEM_VIDEO_ORDER_KEY,
+            SYSTEM_LIST_PREFIX_KEY,
+            SYSTEM_LIST_SUFFIX_KEY,
+            SYSTEM_OVERRIDE_EXCLUDE_KEY,
+            SYSTEM_OVERRIDE_INCLUDE_KEY,
+            SYSTEM_FILTER_KEY,
+            SYSTEM_EXCLUSIONS_OPTIONS_KEY)
+
         search_games: list[Any] = root.findall('game')
 
         if config.user_input.trace or config.user_input.single_cpu:
             alive_bar_context = nullcontext()
-            eprint('* Selecting 1G1R titles...')
+            eprint('* Processing DAT file...')
         else:
             progress_bar: str = 'smooth'
             spinner: str = 'waves'
@@ -1139,21 +1161,6 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput|None, confi
                     else:
                         input_dat.end = True
                         return input_dat
-
-            # Import system settings
-            from modules.input import import_clone_list, import_metadata, import_system_settings
-            import_system_settings(
-                config,
-                input_dat.search_name,
-                SYSTEM_LANGUAGE_ORDER_KEY,
-                SYSTEM_REGION_ORDER_KEY,
-                SYSTEM_VIDEO_ORDER_KEY,
-                SYSTEM_LIST_PREFIX_KEY,
-                SYSTEM_LIST_SUFFIX_KEY,
-                SYSTEM_OVERRIDE_EXCLUDE_KEY,
-                SYSTEM_OVERRIDE_INCLUDE_KEY,
-                SYSTEM_FILTER_KEY,
-                SYSTEM_EXCLUSIONS_OPTIONS_KEY)
 
             # Check all the overrides and post filters for invalid regex and strip it out
             if not config.user_input.no_overrides:
@@ -1250,7 +1257,7 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput|None, confi
 
                 eprint(f'{Font.end}')
 
-        eprint('\033[F\033[K* Processing DAT file... done\n', end='')
+        eprint('\033[F\033[K* Processing DAT file... done.\n', end='')
     else:
         eprint('failed.')
         if '<game' not in input_dat.contents:

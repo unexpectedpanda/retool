@@ -181,7 +181,7 @@ class ThreadTask(qtc.QRunnable):
             traceback.print_exc()
             eprint(f'\n{Font.error}The error occurred on this file:\n{self.argument.input_file_name}{Font.end}\n')
             if pathlib.Path('.dev').is_file():
-                input()
+                input(f'\n{Font.disabled}Press enter to continue. This message is only shown in dev mode.{Font.end}')
             self.signals.finished.emit(self.data) # type: ignore
 
         self.signals.finished.emit(self.data) # type: ignore

@@ -374,23 +374,24 @@ class IncludeExcludeTools(object):
         supported_languages_all: set[DatNode] = set()
         languages_count: set[str] = set()
 
+        # Check if a system config is in play for languages
+        language_order: list[str] = []
+
+        if config.languages_filter:
+            language_order = config.language_order_user
+
+            if config.system_language_order_user:
+                if {'override': 'true'} in config.system_language_order_user:
+                    if config.system_languages_user_found:
+                        language_order = [str(x) for x in config.system_language_order_user if 'override' not in x]
+        else:
+            language_order = config.region_order_languages_user
+
         for group_name, titles in temp_dict.items():
             if config.user_input.trace:
                 report_on_match = TraceTools.trace_enable(set(titles), config.user_input.trace)
 
             supported_languages: set[DatNode] = set()
-
-            # Check if a system config is in play
-            language_order: list[str] = []
-
-            if config.languages_filter:
-                language_order = config.language_order_user
-
-                if config.system_language_order_user:
-                    if {'override': 'true'} in config.system_language_order_user:
-                        language_order = [str(x) for x in config.system_language_order_user if 'override' not in x]
-            else:
-                language_order = config.region_order_languages_user
 
             for title in titles:
                 # Add titles with unknown languages
@@ -851,6 +852,7 @@ class Regex:
         self.ps3_id: Pattern[str] = re.compile('\\([BM][CLR][AEJKTU][BCDMST]-\\d{5}\\)')
         self.ps4_id: Pattern[str] = re.compile('\\([CP][CLU][ACJKS][AMS]-\\d{5}\\)')
         self.psp_id: Pattern[str] = re.compile('\\(U[CLT][EJUS][BST]-\\d{5}\\)')
+        self.psv_id: Pattern[str] = re.compile('\\(P[CS]{2}[ABEFGH]\\d{5}\\)')
         self.sega_panasonic_ring_code: Pattern[str] = re.compile('\\((?:(?:[0-9]{1,2}[ABCMRS],? ?)*|R[E]?[-]?[0-9]*)\\)')
 
         # Video standards
@@ -904,8 +906,8 @@ class Regex:
             re.compile('\\(GameCube Preview\\)', flags=re.I),
             re.compile('\\(Preview\\)', flags=re.I),
             re.compile('\\(Sample(?:\\s[0-9]*|\\s\\d{4}-\\d{2}-\\d{2})?\\)', flags=re.I),
-            re.compile('Trial (Edition|Version|ver\\.)', flags=re.I),
-            re.compile('\\(Full Trial\\)', flags=re.I),
+            re.compile('Trial (Disc|Edition|Version|ver\\.)', flags=re.I),
+            re.compile('\\((?:Full )?Trial\\)', flags=re.I),
             re.compile('\\((?:\\w-?\\s*)*?Kiosk,?(?:\\s\\w*?)*\\)|Kiosk Demo Disc|(PSP System|PS2) Kiosk', flags=re.I)
         )
 

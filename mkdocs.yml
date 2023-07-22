@@ -11,7 +11,6 @@ theme:
     - content.code.annotate
     - content.tabs.link
     - header.autohide
-    - navigation.expand
     - toc.follow
   palette:
     scheme: slate

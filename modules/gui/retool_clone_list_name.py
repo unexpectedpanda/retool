@@ -15,8 +15,9 @@ from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
     QFont, QFontDatabase, QGradient, QIcon,
     QImage, QKeySequence, QLinearGradient, QPainter,
     QPalette, QPixmap, QRadialGradient, QTransform)
-from PySide6.QtWidgets import (QApplication, QLabel, QLineEdit, QMainWindow,
-    QSizePolicy, QSpacerItem, QVBoxLayout, QWidget)
+from PySide6.QtWidgets import (QApplication, QCheckBox, QLabel, QLineEdit,
+    QMainWindow, QSizePolicy, QSpacerItem, QVBoxLayout,
+    QWidget)
 
 from modules.gui.custom_widgets import CustomLineEdit
 from  . import resources_rc
@@ -75,6 +76,11 @@ class Ui_CloneListNameTool(object):
         self.lineEditEnterName.setMinimumSize(QSize(320, 24))
 
         self.verticalLayout.addWidget(self.lineEditEnterName)
+
+        self.checkBoxDemos = QCheckBox(self.centralwidget)
+        self.checkBoxDemos.setObjectName(u"checkBoxDemos")
+
+        self.verticalLayout.addWidget(self.checkBoxDemos)
 
         self.verticalSpacer = QSpacerItem(13, 8, QSizePolicy.Minimum, QSizePolicy.Fixed)
 
@@ -185,6 +191,7 @@ class Ui_CloneListNameTool(object):
         CloneListNameTool.setWindowTitle(QCoreApplication.translate("CloneListNameTool", u"Title tool", None))
         self.labelContribute.setText(QCoreApplication.translate("CloneListNameTool", u"<html><head/><body><p>This tool is useful if you want to contribute to Retool's clone lists or development. If you enter a title's full name, it shows you the other names Retool assigns to the title as part of its matching process. You can also enter the group name that you want to assign in an override or variants object, and see what the actual group name is that Retool assigns. <a href=\"https://unexpectedpanda.github.io/retool/naming-system/\"><span style=\" text-decoration: underline; color:#0000ff;\">Read the documentation</span></a> to learn more.</p></body></html>", None))
         self.labelEnterName.setText(QCoreApplication.translate("CloneListNameTool", u"Enter the full name as it appears in the DAT file, or your intended group name", None))
+        self.checkBoxDemos.setText(QCoreApplication.translate("CloneListNameTool", u"Title has a category of Demos (adds a tag to title names that have no recognized demo tags)", None))
         self.labelShortName.setText(QCoreApplication.translate("CloneListNameTool", u"Default short name", None))
         self.lineEditShortName.setText("")
         self.labelGroupName.setText(QCoreApplication.translate("CloneListNameTool", u"Default group name", None))

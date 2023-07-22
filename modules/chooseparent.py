@@ -670,13 +670,16 @@ class ParentTools(object):
         language_order: list[str] = []
 
         if config.languages_filter:
-            language_order = config.language_order_user
-
             if config.system_language_order_user:
                 if {'override': 'true'} in config.system_language_order_user:
                     language_order = [str(x) for x in config.system_language_order_user if 'override' not in x]
-        else:
-            language_order = config.region_order_languages_user
+                elif {'override': 'true'} in config.system_region_order_user:
+                    for region in [x for x in config.system_region_order_user if x != {'override': 'true'}]:
+                        language_order.extend(config.languages_filter[region])
+                else:
+                    language_order = language_order = config.language_order_user
+            else:
+                language_order = language_order = config.language_order_user
 
         # Select titles based on language
         remove_titles: set[DatNode] = set()
@@ -730,13 +733,22 @@ class ParentTools(object):
                         if not (title_1.is_superset or title_2.is_superset):
                             if config.languages_filter:
                                 # Cycle through implied languages from region order as the first fallback
-                                for language in config.region_order_languages_user:
+                                fallback_language_order: list[str] = []
+
+                                # Use the system region order if there is one
+                                if {'override': 'true'} in config.system_region_order_user:
+                                    for region in [x for x in config.system_region_order_user if x != {'override': 'true'}]:
+                                        fallback_language_order.extend(config.languages_filter[region])
+                                else:
+                                    fallback_language_order = config.region_order_languages_user
+
+                                for language in fallback_language_order:
                                     if (
                                         re.search(language, ','.join(title_1.languages))
                                         and not re.search(language, ','.join(title_2.languages))):
                                         if title_2 in title_set:
                                                 if report_on_match:
-                                                    TraceTools.trace_title('REF0097', [', '.join(config.region_order_languages_user)])
+                                                    TraceTools.trace_title('REF0097', [', '.join(fallback_language_order)])
                                                     TraceTools.trace_title('', [f'{Font.italic}({",".join(title_1.languages) + ")":<30}{Font.end} [{title_1.short_name}] {title_1.full_name}', f'{Font.italic}({",".join(title_2.languages) + ")":<30}{Font.end}{Font.disabled} [{title_2.short_name}] {title_2.full_name}{Font.end}'], keep_remove=True)
 
                                                 remove_titles.add(title_2)
@@ -747,7 +759,7 @@ class ParentTools(object):
                                         and not re.search(language, ','.join(title_1.languages))):
                                             if title_1 in title_set:
                                                 if report_on_match:
-                                                    TraceTools.trace_title('REF0098', [', '.join(list(config.region_order_languages_user))])
+                                                    TraceTools.trace_title('REF0098', [', '.join(list(fallback_language_order))])
                                                     TraceTools.trace_title('', [f'{Font.italic}({",".join(title_2.languages) + ")":<30}{Font.end} [{title_2.short_name}] {title_2.full_name}', f'{Font.italic}({",".join(title_1.languages) + ")":<30}{Font.end}{Font.disabled} [{title_1.short_name}] {title_1.full_name}{Font.end}'], keep_remove=True)
 
                                                 remove_titles.add(title_1)
@@ -1802,7 +1814,7 @@ class ParentTools(object):
             if not (config.user_input.trace or config.user_input.single_cpu):
                 bar() # type: ignore
 
-        eprint('\033[F\033[K* Selecting 1G1R titles... done\n', end='')
+        eprint('\033[F\033[K* Selecting 1G1R titles... done.\n', end='')
 
         return processed_titles
 
@@ -2017,6 +2029,7 @@ class ParentTools(object):
                     if len(parent_titles) > 1: parent_titles = ParentTools.choose_version_revision(config.regex.ps3_id, parent_titles, config, report_on_match)
                     if len(parent_titles) > 1: parent_titles = ParentTools.choose_version_revision(config.regex.ps4_id, parent_titles, config, report_on_match)
                     if len(parent_titles) > 1: parent_titles = ParentTools.choose_version_revision(config.regex.psp_id, parent_titles, config, report_on_match)
+                    if len(parent_titles) > 1: parent_titles = ParentTools.choose_version_revision(config.regex.psv_id, parent_titles, config, report_on_match)
 
                     if report_on_match: TraceTools.trace_title('REF0007', [group_name], parent_titles, keep_remove=False)
 

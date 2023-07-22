@@ -1,1 +1,1 @@
-[retool-2.01.1-win-x86-64.zip](https://unexpectedpanda.github.io/files/retool-2.01.1-win-x86-64.zip)
+[retool-2.01.2-win-x86-64.zip](https://unexpectedpanda.github.io/files/retool-2.01.2-win-x86-64.zip)

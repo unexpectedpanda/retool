@@ -5,6 +5,32 @@ hide:
 
 # Changelog
 
+
+## 2.01.2
+
+- Fixed a bug where an empty system language list fell back to a global language list
+  instead of using all languages.
+- Fixed a bug that crashed Retool when a trace string was entered in the global settings,
+  the **Options** tab was set to override in the system settings, and no system-level
+  trace string was entered.
+- Added a PlayStation Vita disc ID regex to automate one stage of choosing between Vita
+  titles.
+- Added a few more demo regexes to identify different demo types.
+- When Redump or No-Intro forgot to add the `(Demo)` tag to a title's full name but added
+  a category of `Demos`, Retool would append `(Demo)` to the full, short, tag-free, and
+  region-free names to avoid confusion with the full version of the title.
+
+  This lead to strange situations in clone lists where a title like
+  `Example Title (USA) (Trial)` had a short name of `Example Title (Trial) (Demo)`. This
+  behavior also wasn't taken into account for Retool GUI's title tools, making clone list
+  updating harder than it needed to be for contributors.
+
+  Now a `(Demo)` tag is only added if a title doesn't contain any of a collection of
+  demo regexes, making short names more predictable to deal with.
+- The title tool now has a checkbox for when a title has a DAT category of `Demos`, which
+  can affect how a title's names are generated.
+
+
 ## 2.01.1
 
 Looks like post filters needed a little more testing before release. The feature now
@@ -18,6 +44,7 @@ works properly.
 - Post filters now remove titles that are related to compilations. Previously, even if a
   such a title was meant to be filtered out, it could randomly turn up in the output DAT
   due to the way compilations work.
+
 
 ## 2.01.0
 
@@ -68,9 +95,11 @@ works properly.
   checks the output of multiple different configurations, verifies the output is
   consistent, and makes it easier to pick up errors as a result of code changes.
 
+
 ## 2.00.5
 
 -   Fixed handling of No-Intro's quasi-RFC 3339 date format.
+
 
 ## 2.00.4
 
