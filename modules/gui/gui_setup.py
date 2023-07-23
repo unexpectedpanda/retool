@@ -647,6 +647,26 @@ def setup_gui_system(main_window: Any, dat_details: dict[str, dict[str, str]], c
     main_window.ui.listWidgetOpenFiles.clicked.connect(lambda: system_settings(main_window.ui.listWidgetOpenFiles, config))
     main_window.ui.listWidgetOpenFiles.keyPressed.connect(lambda: system_settings(main_window.ui.listWidgetOpenFiles, config))
 
+    # Set up the delete key for various lists
+    def on_key(key, listWidget):
+        if key == 16777223:
+            if listWidget == main_window.ui.listWidgetOpenFiles:
+                remove_list_items(listWidget, dat_details, main_window.ui.labelSystemSettings, main_window, remove_all=False)
+            elif listWidget == main_window.ui.listWidgetGlobalSelectedRegions:
+                move_list_items(main_window.ui.listWidgetGlobalSelectedRegions, main_window.ui.listWidgetGlobalAvailableRegions)
+            elif listWidget == main_window.ui.listWidgetGlobalSelectedLanguages:
+                move_list_items(main_window.ui.listWidgetGlobalSelectedLanguages, main_window.ui.listWidgetGlobalAvailableLanguages)
+            elif listWidget == main_window.ui.listWidgetSystemSelectedRegions:
+                move_list_items(main_window.ui.listWidgetSystemSelectedRegions, main_window.ui.listWidgetSystemAvailableRegions)
+            elif listWidget == main_window.ui.listWidgetSystemSelectedLanguages:
+                move_list_items(main_window.ui.listWidgetSystemSelectedLanguages, main_window.ui.listWidgetSystemAvailableLanguages)
+
+    main_window.ui.listWidgetOpenFiles.keyPressed.connect(lambda e: on_key(e, main_window.ui.listWidgetOpenFiles))
+    main_window.ui.listWidgetGlobalSelectedRegions.keyPressed.connect(lambda e: on_key(e, main_window.ui.listWidgetGlobalSelectedRegions))
+    main_window.ui.listWidgetGlobalSelectedLanguages.keyPressed.connect(lambda e: on_key(e, main_window.ui.listWidgetGlobalSelectedLanguages))
+    main_window.ui.listWidgetSystemSelectedRegions.keyPressed.connect(lambda e: on_key(e, main_window.ui.listWidgetSystemSelectedRegions))
+    main_window.ui.listWidgetSystemSelectedLanguages.keyPressed.connect(lambda e: on_key(e, main_window.ui.listWidgetSystemSelectedLanguages))
+
     # Set up the buttons for the system paths
     main_window.ui.checkBoxSystemOverridePaths.clicked.connect(lambda: system_enable(
         main_window.ui.checkBoxSystemOverridePaths,

@@ -1,3 +1,4 @@
+import html
 import pathlib
 import re
 import validators # type: ignore
@@ -165,10 +166,10 @@ class TitleToolWindow(qtw.QMainWindow):
                     if not is_demo:
                         demo_string = ' (Demo)'
 
-            self.ui.lineEditShortName.setText(f'{TitleTools.get_short_name(self.ui.lineEditEnterName.text(), config)}{demo_string.lower()}')
-            self.ui.lineEditGroupName.setText(TitleTools.get_group_name(self.ui.lineEditEnterName.text(), config))
-            self.ui.lineEditTagFreeName.setText(f'{TitleTools.get_tag_free_name(self.ui.lineEditEnterName.text(), config)}{demo_string}')
-            self.ui.lineEditRegionFreeName.setText(f'{TitleTools.get_region_free_name(self.ui.lineEditEnterName.text(), config)}{demo_string}')
+            self.ui.lineEditShortName.setText(f'{TitleTools.get_short_name(html.unescape(self.ui.lineEditEnterName.text()), config)}{demo_string.lower()}')
+            self.ui.lineEditGroupName.setText(TitleTools.get_group_name(html.unescape(self.ui.lineEditEnterName.text()), config))
+            self.ui.lineEditTagFreeName.setText(f'{TitleTools.get_tag_free_name(html.unescape(self.ui.lineEditEnterName.text()), config)}{demo_string}')
+            self.ui.lineEditRegionFreeName.setText(f'{TitleTools.get_region_free_name(html.unescape(self.ui.lineEditEnterName.text()), config)}{demo_string}')
 
         self.ui.lineEditEnterName.keyPressed.connect(update_names)
         self.ui.checkBoxDemos.clicked.connect(update_names)

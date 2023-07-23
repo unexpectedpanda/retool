@@ -6,6 +6,14 @@ hide:
 # Changelog
 
 
+## 2.01.3
+
+- You can now press the `Del` key on your keyboard in the DAT, region, and language lists
+  to remove the selected entry.
+- The title tool now decodes HTML entities like `&amp;` in title names.
+- The Fujitsu version code regex was modified to take into account a new variation.
+
+
 ## 2.01.2
 
 - Fixed a bug where an empty system language list fell back to a global language list

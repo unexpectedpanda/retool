@@ -843,7 +843,7 @@ class Regex:
         self.build: Pattern[str] = re.compile('\\(Build [0-9].*?\\)', flags=re.I)
         self.dreamcast_version: Pattern[str] = re.compile('V[0-9]{2,2} L[0-9]{2,2}')
         self.fds_version: Pattern[str] = re.compile('\\(DV [0-9].*?\\)', flags=re.I)
-        self.fmtowns_pippin_version: Pattern[str] = re.compile('(?<!^)\\s(?:V|Ver\\. |- Version |Version )\\d(?:\\.\\d+)?(?: L(?:evel )?\\d+)?')
+        self.fmtowns_pippin_version: Pattern[str] = re.compile('(?<!^)\\s(?:V|Ver\\. |- Version |Version )\\d(?:\\.\\d+)?(?: L(?:evel )?\\d+[A-Z]?)?')
         self.hyperscan_version: Pattern[str] = re.compile('\\(USE[0-9]\\)')
         self.nec_mastering_code: Pattern[str] = re.compile('\\((?:(?:FA|S)[A-F][ABT]S?(?:, )?)+\\)')
         self.nintendo_mastering_code: Pattern[str] = re.compile('\\((?:A[BDEFNPS]|B[58DFJNPT]|CX|FT|JE|K[AFIKMRZ]|PN|QA|RC|S[KN]|T[ABCJQ]|V[BEJKLMW]|Y[XW])[ABCDEFGHIKJMLNPQSTUVWYZ0-9][DEJPVXYZ]\\)')
