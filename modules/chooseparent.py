@@ -299,7 +299,7 @@ class ParentTools(object):
                 group_titles_list: list[DatNode] = sorted([x for x in group_titles if x.contains_titles], key=lambda x: x.full_name)
 
                 if len(group_titles_list) > 1:
-                    remove_compilations: set[DatNode] = set()
+                    remove_compilations = set()
 
                     for i, title in enumerate(group_titles_list):
                         if i > 0:
@@ -674,7 +674,7 @@ class ParentTools(object):
                 if {'override': 'true'} in config.system_language_order_user:
                     language_order = [str(x) for x in config.system_language_order_user if 'override' not in x]
                 elif {'override': 'true'} in config.system_region_order_user:
-                    for region in [x for x in config.system_region_order_user if x != {'override': 'true'}]:
+                    for region in [str(x) for x in config.system_region_order_user if x != {'override': 'true'}]:
                         language_order.extend(config.languages_filter[region])
                 else:
                     language_order = language_order = config.language_order_user
@@ -737,7 +737,7 @@ class ParentTools(object):
 
                                 # Use the system region order if there is one
                                 if {'override': 'true'} in config.system_region_order_user:
-                                    for region in [x for x in config.system_region_order_user if x != {'override': 'true'}]:
+                                    for region in [str(x) for x in config.system_region_order_user if x != {'override': 'true'}]:
                                         fallback_language_order.extend(config.languages_filter[region])
                                 else:
                                     fallback_language_order = config.region_order_languages_user
@@ -2141,10 +2141,10 @@ class ParentTools(object):
             if report_on_match: TraceTools.trace_title('REF0014', [group_name], cross_region_parent_titles, keep_remove=False)
 
             # Choose supersets over titles
-            cross_region_temp: set[DatNode] = set()
+            cross_region_temp = set()
 
             if len(cross_region_parent_titles) > 1:
-                cross_region_temp: set[DatNode] = cross_region_parent_titles.copy()
+                cross_region_temp = cross_region_parent_titles.copy()
 
                 for title_1, title_2 in itertools.combinations(cross_region_temp, 2):
                     if (
@@ -2181,13 +2181,13 @@ class ParentTools(object):
             # TODO: Should these next few sections be ignoring supersets?
             # Check if there's a shared region between titles. If so, check which title has more of the user's languages
             if len(cross_region_parent_titles) > 1:
-                remove_titles: set[DatNode] = set()
+                remove_titles: set[str] = set()
                 language_winner: set[DatNode] = set()
 
                 for region in config.region_order_user:
                     for title_1, title_2 in itertools.combinations([x for x in cross_region_parent_titles if region in x.regions], 2):
                             if title_1.short_name == title_2.short_name:
-                                language_winner: set[DatNode] = ParentTools.choose_language({title_1, title_2}, config, report_on_match)
+                                language_winner = ParentTools.choose_language({title_1, title_2}, config, report_on_match)
 
                                 if len(language_winner) == 1:
                                     if title_1.full_name == language_winner.pop().full_name:
@@ -2202,7 +2202,7 @@ class ParentTools(object):
             # Choose a title that has more regions, or higher priority regions
             if len(cross_region_parent_titles) > 1:
                 # Check if a system config is in play
-                region_order: list[str] = config.region_order_user
+                region_order = config.region_order_user
 
                 if config.system_region_order_user:
                     if {'override': 'true'} in config.system_region_order_user:

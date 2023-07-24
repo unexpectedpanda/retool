@@ -1173,9 +1173,13 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput|None, confi
                 config.global_filter = regex_test(list(config.global_filter), 'global post filter', 'user filter')
 
             if config.system_filter:
-                override_status: list[dict[str, str]] = [x for x in config.system_filter if x == {'override': 'true'} or x == {'override': 'false'}]
-                config.system_filter = regex_test([x for x in config.system_filter if x != {'override': 'true'} and x != {'override': 'false'}], 'system post filter', 'user filter')
-                config.system_filter = override_status + config.system_filter
+                override_status: list[str | dict[str, str]] = [x for x in config.system_filter if x == {'override': 'true'} or x == {'override': 'false'}]
+                regex_test_system_filter: list[str] = regex_test([str(x) for x in config.system_filter if x != {'override': 'true'} and x != {'override': 'false'}], 'system post filter', 'user filter')
+
+                config.system_filter = override_status
+
+                for regex in regex_test_system_filter:
+                    config.system_filter.append(regex)
 
             # Import the clone list
             input_dat.clone_list = import_clone_list(input_dat, gui_input, config)

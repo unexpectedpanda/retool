@@ -451,7 +451,7 @@ def setup_gui_system(main_window: Any, dat_details: dict[str, dict[str, str]], c
         config.system_region_order_user = [x for x in config.system_region_order_user if x != 'United Kingdom']
 
         if config.system_region_order_user:
-            main_window.ui.listWidgetSystemSelectedRegions.addItems([x for x in config.system_region_order_user if 'override' not in x])
+            main_window.ui.listWidgetSystemSelectedRegions.addItems([str(x) for x in config.system_region_order_user if x != {'override': 'true'} and x != {'override': 'false'}])
             main_window.ui.listWidgetSystemAvailableRegions.addItems([x for x in region_order_default if x not in config.system_region_order_user])
         else:
             main_window.ui.checkBoxSystemOverrideRegions.setChecked(False)
@@ -510,7 +510,7 @@ def setup_gui_system(main_window: Any, dat_details: dict[str, dict[str, str]], c
 
         # Populate the system video standards
         if config.system_video_order_user:
-            main_window.ui.listWidgetSystemVideoStandards.addItems([x for x in config.system_video_order_user if 'override' not in x])
+            main_window.ui.listWidgetSystemVideoStandards.addItems([str(x) for x in config.system_video_order_user if x != {'override': 'true'} and x != {'override': 'false'}])
         else:
             main_window.ui.listWidgetSystemVideoStandards.setEnabled(False)
             main_window.ui.listWidgetSystemVideoStandards.addItems([x for x in config.video_order_default])
@@ -616,7 +616,7 @@ def setup_gui_system(main_window: Any, dat_details: dict[str, dict[str, str]], c
             main_window.ui.textEditSystemInclude.clear()
 
         if config.system_filter:
-            main_window.ui.textEditSystemFilterInclude.setText('\n'.join([x for x in config.system_filter if 'override' not in x]))
+            main_window.ui.textEditSystemFilterInclude.setText('\n'.join([str(x) for x in config.system_filter if x != {'override': 'true'} and x != {'override': 'false'}]))
         else:
             main_window.ui.textEditSystemFilterInclude.clear()
 
@@ -639,7 +639,7 @@ def setup_gui_system(main_window: Any, dat_details: dict[str, dict[str, str]], c
 
         # Populate the post filters
         if config.system_filter:
-            main_window.ui.textEditSystemFilterInclude.setText('\n'.join([x for x in config.system_filter if 'override' not in x]))
+            main_window.ui.textEditSystemFilterInclude.setText('\n'.join([str(x) for x in config.system_filter if x != {'override': 'true'} and x != {'override': 'false'}]))
         else:
             main_window.ui.textEditSystemFilterInclude.clear()
 
@@ -648,7 +648,7 @@ def setup_gui_system(main_window: Any, dat_details: dict[str, dict[str, str]], c
     main_window.ui.listWidgetOpenFiles.keyPressed.connect(lambda: system_settings(main_window.ui.listWidgetOpenFiles, config))
 
     # Set up the delete key for various lists
-    def on_key(key, listWidget):
+    def on_key(key: int, listWidget: qtw.QListWidget) -> None:
         if key == 16777223:
             if listWidget == main_window.ui.listWidgetOpenFiles:
                 remove_list_items(listWidget, dat_details, main_window.ui.labelSystemSettings, main_window, remove_all=False)

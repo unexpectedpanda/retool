@@ -310,12 +310,13 @@ class IncludeExcludeTools(object):
 
         # Remove excluded titles
         remove_titles: set[DatNode] = set()
+        found_titles: set[DatNode] = set()
 
         for exclude_title in exclude_titles:
-            found_titles: set[DatNode] = TitleTools.find_title(exclude_title.full_name, 'full', processed_titles, set(), config, deep_search=False)
+            found_titles = TitleTools.find_title(exclude_title.full_name, 'full', processed_titles, set(), config, deep_search=False)
 
             if not found_titles:
-                found_titles: set[DatNode] = TitleTools.find_title(exclude_title.full_name, 'full', processed_titles, set(), config, deep_search=True)
+                found_titles = TitleTools.find_title(exclude_title.full_name, 'full', processed_titles, set(), config, deep_search=True)
 
             for found_title in found_titles:
                 if found_title.group_name in processed_titles:
@@ -382,8 +383,15 @@ class IncludeExcludeTools(object):
 
             if config.system_language_order_user:
                 if {'override': 'true'} in config.system_language_order_user:
-                    if config.system_languages_user_found:
-                        language_order = [str(x) for x in config.system_language_order_user if 'override' not in x]
+                    language_order = [str(x) for x in config.system_language_order_user if 'override' not in x]
+
+                    if not config.system_languages_user_found:
+                        # If there's a global language order, assume the user's preference for them and grab those languages.
+                        if config.language_order_user:
+                            language_order.extend([x for x in config.language_order_user if x not in language_order])
+
+                        # Now add the rest of the languages in
+                        language_order.extend([x for x in config.languages.values() if x not in language_order])
         else:
             language_order = config.region_order_languages_user
 
@@ -411,7 +419,9 @@ class IncludeExcludeTools(object):
                             if title not in supported_languages:
                                 supported_languages.add(title)
 
-            if report_on_match: TraceTools.trace_title('REF0049', [', '.join(language_order)], set([x for x in processed_titles[group_name] if x not in supported_languages]), keep_remove=False)
+            report_titles: set[DatNode] = set([x for x in processed_titles[group_name] if x not in supported_languages])
+
+            if report_on_match and report_titles: TraceTools.trace_title('REF0049', [', '.join(language_order)], report_titles, keep_remove=False)
 
             # Superset titles can be in multiple groups, so deduping needs to be done for exclude stats
             languages_count = languages_count | set([x.full_name for x in processed_titles[group_name] if x not in supported_languages])
@@ -658,7 +668,7 @@ class IncludeExcludeTools(object):
         if report_on_match and config.user_input.trace: eprint(f'\n\n{Font.heading_bold}Stage: Post filters{Font.end}')
 
         dupe_check: set[DatNode] = set()
-        filter_titles: set[tuple[str, set[DatNode]]] = set()
+        filter_titles: set[tuple[str, DatNode]] = set()
         global_count: int = 0
         system_count: int = 0
 
@@ -672,7 +682,7 @@ class IncludeExcludeTools(object):
                         if [x for x in config.system_filter if x != {'override': 'true'}]:
                             if {'override': 'true'} in config.system_filter:
                                 if title.cloneof:
-                                    if not IncludeExcludeTools.user_override_match(title, [x for x in config.system_filter if x != {'override': 'true'} and x != {'override': 'false'}], post_filter=True, cloneof_check=True):
+                                    if not IncludeExcludeTools.user_override_match(title, [str(x) for x in config.system_filter if x != {'override': 'true'} and x != {'override': 'false'}], post_filter=True, cloneof_check=True):
                                         filter_titles.add((group_name, title))
 
                                         # Compensate for supersets being in multiple groups for the stats and log
@@ -685,7 +695,7 @@ class IncludeExcludeTools(object):
 
                                             dupe_check.add(title)
                                             removes.system_filter_removes.add(title)
-                                elif not IncludeExcludeTools.user_override_match(title, [x for x in config.system_filter if x != {'override': 'true'} and x != {'override': 'false'}], post_filter=True):
+                                elif not IncludeExcludeTools.user_override_match(title, [str(x) for x in config.system_filter if x != {'override': 'true'} and x != {'override': 'false'}], post_filter=True):
                                     filter_titles.add((group_name, title))
 
                                     # Compensate for supersets being in multiple groups for the stats and log
@@ -701,6 +711,7 @@ class IncludeExcludeTools(object):
                                 else:
                                     if report_on_match and config.user_input.trace:
                                         TraceTools.trace_title('REF0099', [], set([title]), keep_remove=False)
+
                     if config.global_filter:
                         if (not config.system_filter
                             or {'override': 'false'} in config.system_filter):

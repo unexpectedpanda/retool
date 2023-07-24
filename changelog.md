@@ -1,6 +1,12 @@
 # Retool changelog
 
 
+## 2.01.4
+
+- Actually fixed the bug where the system language list fell back to the global language
+  list when empty.
+
+
 ## 2.01.3
 
 - You can now press the `Del` key on your keyboard in the DAT, region, and language lists
