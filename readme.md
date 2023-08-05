@@ -1,9 +1,5 @@
 # Retool
 
-> Retool is on hiatus until December 2023 while the author is on vacation. Clone lists
-won't be updated during this time, which means Retool will become less accurate at
-detecting some clones in actively updated DATs.
-
 **This is the source repository for Retool. For downloads, installation instructions, and
 documentation, see the [website](https://unexpectedpanda.github.io/retool/).**
 
