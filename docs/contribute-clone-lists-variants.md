@@ -159,40 +159,60 @@ This is incorrect:
 ]
 ```
 
-!!! warning
-    Avoid setting a `searchTerm` with the same name as its `group` to a lower priority.
-    For example:
+## Avoid certain group names
 
-    ```json
-    {
-      "group": "Title",
-      "titles": [
-        {"searchTerm": "Title Director's Cut"}
-        {"searchTerm": "Title", "priority": 2}
-      ]
-    }
-    ```
+Avoid having a `group` name that is the same as a lower priority `searchTerm` in the
+titles array, or a `searchTerm` in a superset. For example:
 
-    In this scenario, Retool sees the first entry `Title Director's Cut`, and goes looking
-    for titles with the short name `title director's cut`. When it finds a match, it
-    changes that title's short name to match the group, `title`.
+```json
+{
+  "group": "Title",
+  "titles": [
+    {"searchTerm": "Title Director's Cut"}
+    {"searchTerm": "Title", "priority": 2}
+  ]
+}
+```
 
-    When it gets to the second entry, `Title`, it goes looking for titles with the short
-    name `title`... but that's what we just renamed the _Director's Cut_ short name to.
-    Everything ends up being assigned a priority of 2 as a result.
+In this scenario, Retool sees the first entry `Title Director's Cut`, and goes looking for
+titles with the short name `title director's cut`. When it finds a match, it changes that
+title's short name to match the group, `title`.
 
-    If you run into this situation, the easiest solution is to rename the group to match
-    the higher priority title:
+When it gets to the second entry, `Title`, it goes looking for titles with the short name
+`title`... but that's what we just renamed the _Director's Cut_ short name to. Retool
+promptly assigns everything in the group a priority of `2` as a result.
 
-    ```json
-    {
-      "group": "Title Director's Cut",
-      "titles": [
-        {"searchTerm": "Title Director's Cut"}
-        {"searchTerm": "Title", "priority": 2}
-      ]
-    }
-    ```
+A similar thing happens if you have a a superset with a `searchTerm` that's the same as
+the `group`:
+
+```json
+{
+  "group": "Title",
+  "titles": [
+    {"searchTerm": "Title Director's Cut"}
+  ],
+  "supersets": [
+    {"searchTerm": "Title"}
+  ]
+}
+```
+
+In this scenario, _everything_ in the group gets assigned as a superset as a result.
+
+If you run into this situation, the easiest solution is to rename the group to match the
+first `searchTerm` in the `titles` array, which should be the highest priority:
+
+```json
+{
+  "group": "Title Director's Cut",
+  "titles": [
+    {"searchTerm": "Title Director's Cut"}
+    {"searchTerm": "Title", "priority": 2}
+  ]
+}
+```
+
+Alternatively, you can give the group a name that matches none of the entries.
 
 ## Example: working with titles
 

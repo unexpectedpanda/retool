@@ -97,7 +97,8 @@ A `condition` looks similar to the following example:
         "regionOrder": {// (2)!
             "higherRegions": ["Japan", "Asia"],// (3)!
             "lowerRegions": ["USA", "Europe", "France", "Germany", "Italy", "Spain"],
-            "elseGroup": "Tomb Raider III - Adventures of Lara Croft"// (4)!
+            "elseGroup": "Tomb Raider III - Adventures of Lara Croft",// (4)!
+            "priority": 1
         }
     },
   }
@@ -114,6 +115,8 @@ A `condition` looks similar to the following example:
 A `condition` object can include the following keys:
 
 * `regionOrder (object)`: Specifies to use the region order condition.
+
+A `regionOrder` object can include the following keys:
 
 * `higherRegions (array[str])`: If any of the regions in the `higherRegions` array is
    higher in the user region order than all of the regions in the `lowerRegions` array,

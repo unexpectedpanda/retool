@@ -1,6 +1,11 @@
 # Retool changelog
 
 
+## 2.01.5
+
+- Prevented preproduction titles being selected over modern edition titles.
+
+
 ## 2.01.4
 
 - Actually fixed the bug where the system language list fell back to the global language

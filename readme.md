@@ -1,5 +1,9 @@
 # Retool
 
+> Retool is on hiatus until December 2023 while the author is on vacation. Clone lists
+won't be updated during this time, which means Retool will become less accurate at
+detecting some clones in actively updated DATs.
+
 **This is the source repository for Retool. For downloads, installation instructions, and
 documentation, see the [website](https://unexpectedpanda.github.io/retool/).**
 
@@ -30,4 +34,5 @@ versions require Python 3.10 or higher.
 
 ## Contribute to clone lists
 
-You can contribute to Retool's clone lists at their [dedicated repository](https://github.com/unexpectedpanda/retool-clonelists-metadata).
+Clone lists are one of the ways Retool establishes relationships between titles. You can
+contribute to clone lists at their [dedicated repository](https://github.com/unexpectedpanda/retool-clonelists-metadata).

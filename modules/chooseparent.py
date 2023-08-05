@@ -2351,7 +2351,10 @@ class ParentTools(object):
                                                 # Modern editions
                                                 if (
                                                     (pattern in config.tags_modern_editions
-                                                    and second_pattern in config.tags_modern_editions)):
+                                                    and (
+                                                        second_pattern in config.tags_modern_editions
+                                                        or second_pattern in config.regex.preproduction))
+                                                    ):
                                                         bad_match = True
 
                                                 if not config.user_input.modern:

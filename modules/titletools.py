@@ -907,7 +907,7 @@ class Regex:
             re.compile('\\(\\d{4}-\\d{2}-\\d{2}T\\d{6}\\)'),
             re.compile('\\((\\d{4}-\\d{2})-xx\\)'),
             re.compile('\\((\\d{4})-xx-xx\\)'),
-            re.compile('\\((January|February|March|April|May|June|July|August|September|October|November|December), \\d{4}\\)', flags=re.I)
+            re.compile('\\((January|February|March|April|May|June|July|August|September|October|November|December),\s?\\d{4}\\)', flags=re.I)
         )
 
         self.demos: tuple[Pattern[str], ...] = (
