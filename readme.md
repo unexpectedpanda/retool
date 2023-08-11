@@ -1,6 +1,6 @@
 # Retool
 
-> ⏳ Retool is [on hiatus from September until December](https://github.com/unexpectedpanda/retool/issues/283). There will be no updates during this time.
+> ⏳ Retool is [on hiatus from September until December, 2023](https://github.com/unexpectedpanda/retool/issues/283). There will be no updates during this time.
 
 **This is the source repository for Retool. For downloads, installation instructions, and
 documentation, see the [website](https://unexpectedpanda.github.io/retool/).**
