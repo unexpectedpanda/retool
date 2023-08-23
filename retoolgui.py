@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 """
 Filters DATs from [Redump](http://redump.org/) and
 [No-Intro](https://www.no-intro.org) to remove titles
