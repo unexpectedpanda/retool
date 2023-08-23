@@ -32,6 +32,9 @@ from modules.utils import eprint, Font
 # Require at least Python 3.10
 assert sys.version_info >= (3, 10)
 
+DAT_DETAILS: dict[str, dict[str, str]] = {}
+
+
 class MainWindow(qtw.QMainWindow):
     """ The main window for RetoolGUI """
 
@@ -63,10 +66,10 @@ class MainWindow(qtw.QMainWindow):
         self.ui.tabWidgetSystemSettings.setEnabled(False)
 
         # Populate the global settings with data and set up user interactions
-        setup_gui_global(self, dat_details, self.config)
+        setup_gui_global(self, DAT_DETAILS, self.config)
 
         # Populate the system settings with data and set up user interactions
-        setup_gui_system(self, dat_details, self.config)
+        setup_gui_system(self, DAT_DETAILS, self.config)
 
         # Check if clone lists or metadata files are required
         if not (
@@ -77,14 +80,14 @@ class MainWindow(qtw.QMainWindow):
         # Set up a timer on the splitter move before writing to config
         timer_splitter = qtc.QTimer(self)
         timer_splitter.setSingleShot(True)
-        timer_splitter.timeout.connect(lambda: write_config(self, dat_details, self.config, settings_window=None)) # type: ignore
+        timer_splitter.timeout.connect(lambda: write_config(self, DAT_DETAILS, self.config, settings_window=None)) # type: ignore
 
         self.ui.splitter.splitterMoved.connect(lambda: timer_splitter.start(500))
 
         # Set up a timer on the window resize move before writing to config
         self.timer_resize = qtc.QTimer(self)
         self.timer_resize.setSingleShot(True)
-        self.timer_resize.timeout.connect(lambda: write_config(self, dat_details, self.config, settings_window=None)) # type: ignore
+        self.timer_resize.timeout.connect(lambda: write_config(self, DAT_DETAILS, self.config, settings_window=None)) # type: ignore
 
         # Add all widgets to a list that should trigger a config write if interacted with
         interactive_widgets = []
@@ -105,15 +108,15 @@ class MainWindow(qtw.QMainWindow):
         for interactive_widget in interactive_widgets:
             try:
                 if type(interactive_widget) is not CustomList:
-                    interactive_widget.clicked.connect(lambda: write_config(self, dat_details, self.config, settings_window=None))
+                    interactive_widget.clicked.connect(lambda: write_config(self, DAT_DETAILS, self.config, settings_window=None))
             except:
                 pass
             try:
-                interactive_widget.keyPressed.connect(lambda: write_config(self, dat_details, self.config, settings_window=None))
+                interactive_widget.keyPressed.connect(lambda: write_config(self, DAT_DETAILS, self.config, settings_window=None))
             except:
                 pass
             try:
-                interactive_widget.dropped.connect(lambda: write_config(self, dat_details, self.config, settings_window=None))
+                interactive_widget.dropped.connect(lambda: write_config(self, DAT_DETAILS, self.config, settings_window=None))
             except:
                 pass
 
@@ -190,7 +193,7 @@ class RunThread(ThreadTask):
     signals: Signals = Signals()
 
 
-if __name__ == "__main__":
+def main():
     multiprocessing.freeze_support()
 
     # Make sure everything scales as expected across multiple PPI settings
@@ -201,7 +204,6 @@ if __name__ == "__main__":
 
     # Set variables
     app: qtw.QApplication = qtw.QApplication(sys.argv)
-    dat_details: dict[str, dict[str, str]] = {}
     window: MainWindow = MainWindow()
 
     # Show any line edits we need to if an associated checkbox is selected in
@@ -232,7 +234,11 @@ if __name__ == "__main__":
 
         if download_update == qtw.QMessageBox.Yes: # type: ignore
             config: Config = import_config()
-            write_config(window, dat_details, config, settings_window=None, run_retool=True, update_clone_list=True)
+            write_config(window, DAT_DETAILS, config, settings_window=None, run_retool=True, update_clone_list=True)
 
 
     sys.exit(app.exec())
+
+
+if __name__ == "__main__":
+    main()
