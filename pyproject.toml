@@ -5,6 +5,11 @@ description = "A filter tool for Redump and No-Intro DATs"
 authors = ["unexpectedpanda <fake@example.com>"]
 license = "BSD 3-Clause \"New\" or \"Revised\" License"
 readme = "README.md"
+packages = [
+	{include = "modules"},
+	{include = "retool.py"},
+	{include = "retoolgui.py"},
+]
 
 [tool.poetry.dependencies]
 python = ">=3.10,<3.12"
@@ -15,6 +20,9 @@ validators = "^0.20.0"
 alive-progress = "^3.0.1"
 psutil = "^5.9.4"
 
+[tool.poetry.scripts]
+retool = "retool:main"
+retool-gui = "retoolgui:main"
 
 [build-system]
 requires = ["poetry-core"]
