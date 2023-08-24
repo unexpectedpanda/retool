@@ -22,7 +22,7 @@ psutil = "^5.9.4"
 
 [tool.poetry.scripts]
 retool = "retool:main"
-retool-gui = "retoolgui:main"
+retoolgui = "retoolgui:main"
 
 [build-system]
 requires = ["poetry-core"]
