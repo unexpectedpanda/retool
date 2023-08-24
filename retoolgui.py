@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 """
 Filters DATs from [Redump](http://redump.org/) and
 [No-Intro](https://www.no-intro.org) to remove titles
@@ -31,6 +33,54 @@ from modules.utils import eprint, Font
 
 # Require at least Python 3.10
 assert sys.version_info >= (3, 10)
+
+dat_details: dict[str, dict[str, str]] = {}
+
+def main():
+    multiprocessing.freeze_support()
+
+    # Make sure everything scales as expected across multiple PPI settings
+    os.environ['QT_AUTO_SCREEN_SCALE_FACTOR'] = '1'
+
+    # Encourage the user not to close the CLI
+    eprint('Don\'t close this window, Retool uses it for processing.')
+
+    # Set variables
+    app: qtw.QApplication = qtw.QApplication(sys.argv)
+    window: MainWindow = MainWindow()
+
+    # Show any line edits we need to if an associated checkbox is selected in
+    # user-config.yaml. This has to be delayed, or they don't show.
+    show_hide(window.ui.checkBoxGlobalOptions1G1RNames, window.ui.frameGlobalOptions1G1RPrefix)
+    show_hide(window.ui.checkBoxGlobalOptionsTrace, window.ui.frameGlobalOptionsTrace)
+
+    # Check if the "Process DAT files" button should be enabled
+    enable_go_button(window)
+
+    # Show the main window
+    window.show()
+
+    # Prompt the user if clone lists or metadata are needed
+    if window.clonelistmetadata_needed:
+        msg = qtw.QMessageBox()
+        msg.setText('This might be the first time you\'ve run Retool, as its clone lists\n'
+                    'or metadata files are missing.\n\n'
+                    'Retool is more accurate with these files. Do you want to\n'
+                    'download them?')
+        msg.setWindowTitle('Clone lists or metadata needed')
+        msg.setStandardButtons(qtw.QMessageBox.Yes | qtw.QMessageBox.No) # type: ignore
+        icon = qtg.QIcon()
+        icon.addFile(u':/retoolIcon/images/retool.ico', qtc.QSize(), qtg.QIcon.Normal, qtg.QIcon.Off) # type: ignore
+        msg.setWindowIcon(icon)
+
+        download_update: int = msg.exec()
+
+        if download_update == qtw.QMessageBox.Yes: # type: ignore
+            config: Config = import_config()
+            write_config(window, dat_details, config, settings_window=None, run_retool=True, update_clone_list=True)
+
+    sys.exit(app.exec())
+
 
 class MainWindow(qtw.QMainWindow):
     """ The main window for RetoolGUI """
@@ -153,7 +203,6 @@ class MainWindow(qtw.QMainWindow):
         self.threadpool.start(self.new_thread)
 
 
-
 # Run the Retool process in a separate thread. Needed so we can disable/enable
 # bits of the Retool GUI as required, or cancel the process.
 
@@ -162,6 +211,7 @@ class MainWindow(qtw.QMainWindow):
 
 class Signals(qtc.QObject):
     finished = qtc.Signal(UserInput)
+
 
 class ThreadTask(qtc.QRunnable):
     def __init__(self, data: Any, argument: Any) -> None:
@@ -186,53 +236,10 @@ class ThreadTask(qtc.QRunnable):
 
         self.signals.finished.emit(self.data) # type: ignore
 
+
 class RunThread(ThreadTask):
     signals: Signals = Signals()
 
 
-if __name__ == "__main__":
-    multiprocessing.freeze_support()
-
-    # Make sure everything scales as expected across multiple PPI settings
-    os.environ['QT_AUTO_SCREEN_SCALE_FACTOR'] = '1'
-
-    # Encourage the user not to close the CLI
-    eprint('Don\'t close this window, Retool uses it for processing.')
-
-    # Set variables
-    app: qtw.QApplication = qtw.QApplication(sys.argv)
-    dat_details: dict[str, dict[str, str]] = {}
-    window: MainWindow = MainWindow()
-
-    # Show any line edits we need to if an associated checkbox is selected in
-    # user-config.yaml. This has to be delayed, or they don't show.
-    show_hide(window.ui.checkBoxGlobalOptions1G1RNames, window.ui.frameGlobalOptions1G1RPrefix)
-    show_hide(window.ui.checkBoxGlobalOptionsTrace, window.ui.frameGlobalOptionsTrace)
-
-    # Check if the "Process DAT files" button should be enabled
-    enable_go_button(window)
-
-    # Show the main window
-    window.show()
-
-    # Prompt the user if clone lists or metadata are needed
-    if window.clonelistmetadata_needed:
-        msg = qtw.QMessageBox()
-        msg.setText('This might be the first time you\'ve run Retool, as its clone lists\n'
-                    'or metadata files are missing.\n\n'
-                    'Retool is more accurate with these files. Do you want to\n'
-                    'download them?')
-        msg.setWindowTitle('Clone lists or metadata needed')
-        msg.setStandardButtons(qtw.QMessageBox.Yes | qtw.QMessageBox.No) # type: ignore
-        icon = qtg.QIcon()
-        icon.addFile(u":/retoolIcon/images/retool.ico", qtc.QSize(), qtg.QIcon.Normal, qtg.QIcon.Off) # type: ignore
-        msg.setWindowIcon(icon)
-
-        download_update: int = msg.exec()
-
-        if download_update == qtw.QMessageBox.Yes: # type: ignore
-            config: Config = import_config()
-            write_config(window, dat_details, config, settings_window=None, run_retool=True, update_clone_list=True)
-
-
-    sys.exit(app.exec())
+if __name__ == '__main__':
+    main()
