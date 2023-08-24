@@ -34,7 +34,52 @@ from modules.utils import eprint, Font
 # Require at least Python 3.10
 assert sys.version_info >= (3, 10)
 
-DAT_DETAILS: dict[str, dict[str, str]] = {}
+dat_details: dict[str, dict[str, str]] = {}
+
+def main():
+    multiprocessing.freeze_support()
+
+    # Make sure everything scales as expected across multiple PPI settings
+    os.environ['QT_AUTO_SCREEN_SCALE_FACTOR'] = '1'
+
+    # Encourage the user not to close the CLI
+    eprint('Don\'t close this window, Retool uses it for processing.')
+
+    # Set variables
+    app: qtw.QApplication = qtw.QApplication(sys.argv)
+    window: MainWindow = MainWindow()
+
+    # Show any line edits we need to if an associated checkbox is selected in
+    # user-config.yaml. This has to be delayed, or they don't show.
+    show_hide(window.ui.checkBoxGlobalOptions1G1RNames, window.ui.frameGlobalOptions1G1RPrefix)
+    show_hide(window.ui.checkBoxGlobalOptionsTrace, window.ui.frameGlobalOptionsTrace)
+
+    # Check if the "Process DAT files" button should be enabled
+    enable_go_button(window)
+
+    # Show the main window
+    window.show()
+
+    # Prompt the user if clone lists or metadata are needed
+    if window.clonelistmetadata_needed:
+        msg = qtw.QMessageBox()
+        msg.setText('This might be the first time you\'ve run Retool, as its clone lists\n'
+                    'or metadata files are missing.\n\n'
+                    'Retool is more accurate with these files. Do you want to\n'
+                    'download them?')
+        msg.setWindowTitle('Clone lists or metadata needed')
+        msg.setStandardButtons(qtw.QMessageBox.Yes | qtw.QMessageBox.No) # type: ignore
+        icon = qtg.QIcon()
+        icon.addFile(u':/retoolIcon/images/retool.ico', qtc.QSize(), qtg.QIcon.Normal, qtg.QIcon.Off) # type: ignore
+        msg.setWindowIcon(icon)
+
+        download_update: int = msg.exec()
+
+        if download_update == qtw.QMessageBox.Yes: # type: ignore
+            config: Config = import_config()
+            write_config(window, dat_details, config, settings_window=None, run_retool=True, update_clone_list=True)
+
+    sys.exit(app.exec())
 
 
 class MainWindow(qtw.QMainWindow):
@@ -68,10 +113,10 @@ class MainWindow(qtw.QMainWindow):
         self.ui.tabWidgetSystemSettings.setEnabled(False)
 
         # Populate the global settings with data and set up user interactions
-        setup_gui_global(self, DAT_DETAILS, self.config)
+        setup_gui_global(self, dat_details, self.config)
 
         # Populate the system settings with data and set up user interactions
-        setup_gui_system(self, DAT_DETAILS, self.config)
+        setup_gui_system(self, dat_details, self.config)
 
         # Check if clone lists or metadata files are required
         if not (
@@ -82,14 +127,14 @@ class MainWindow(qtw.QMainWindow):
         # Set up a timer on the splitter move before writing to config
         timer_splitter = qtc.QTimer(self)
         timer_splitter.setSingleShot(True)
-        timer_splitter.timeout.connect(lambda: write_config(self, DAT_DETAILS, self.config, settings_window=None)) # type: ignore
+        timer_splitter.timeout.connect(lambda: write_config(self, dat_details, self.config, settings_window=None)) # type: ignore
 
         self.ui.splitter.splitterMoved.connect(lambda: timer_splitter.start(500))
 
         # Set up a timer on the window resize move before writing to config
         self.timer_resize = qtc.QTimer(self)
         self.timer_resize.setSingleShot(True)
-        self.timer_resize.timeout.connect(lambda: write_config(self, DAT_DETAILS, self.config, settings_window=None)) # type: ignore
+        self.timer_resize.timeout.connect(lambda: write_config(self, dat_details, self.config, settings_window=None)) # type: ignore
 
         # Add all widgets to a list that should trigger a config write if interacted with
         interactive_widgets = []
@@ -110,15 +155,15 @@ class MainWindow(qtw.QMainWindow):
         for interactive_widget in interactive_widgets:
             try:
                 if type(interactive_widget) is not CustomList:
-                    interactive_widget.clicked.connect(lambda: write_config(self, DAT_DETAILS, self.config, settings_window=None))
+                    interactive_widget.clicked.connect(lambda: write_config(self, dat_details, self.config, settings_window=None))
             except:
                 pass
             try:
-                interactive_widget.keyPressed.connect(lambda: write_config(self, DAT_DETAILS, self.config, settings_window=None))
+                interactive_widget.keyPressed.connect(lambda: write_config(self, dat_details, self.config, settings_window=None))
             except:
                 pass
             try:
-                interactive_widget.dropped.connect(lambda: write_config(self, DAT_DETAILS, self.config, settings_window=None))
+                interactive_widget.dropped.connect(lambda: write_config(self, dat_details, self.config, settings_window=None))
             except:
                 pass
 
@@ -158,7 +203,6 @@ class MainWindow(qtw.QMainWindow):
         self.threadpool.start(self.new_thread)
 
 
-
 # Run the Retool process in a separate thread. Needed so we can disable/enable
 # bits of the Retool GUI as required, or cancel the process.
 
@@ -167,6 +211,7 @@ class MainWindow(qtw.QMainWindow):
 
 class Signals(qtc.QObject):
     finished = qtc.Signal(UserInput)
+
 
 class ThreadTask(qtc.QRunnable):
     def __init__(self, data: Any, argument: Any) -> None:
@@ -191,56 +236,10 @@ class ThreadTask(qtc.QRunnable):
 
         self.signals.finished.emit(self.data) # type: ignore
 
+
 class RunThread(ThreadTask):
     signals: Signals = Signals()
 
 
-def main():
-    multiprocessing.freeze_support()
-
-    # Make sure everything scales as expected across multiple PPI settings
-    os.environ['QT_AUTO_SCREEN_SCALE_FACTOR'] = '1'
-
-    # Encourage the user not to close the CLI
-    eprint('Don\'t close this window, Retool uses it for processing.')
-
-    # Set variables
-    app: qtw.QApplication = qtw.QApplication(sys.argv)
-    window: MainWindow = MainWindow()
-
-    # Show any line edits we need to if an associated checkbox is selected in
-    # user-config.yaml. This has to be delayed, or they don't show.
-    show_hide(window.ui.checkBoxGlobalOptions1G1RNames, window.ui.frameGlobalOptions1G1RPrefix)
-    show_hide(window.ui.checkBoxGlobalOptionsTrace, window.ui.frameGlobalOptionsTrace)
-
-    # Check if the "Process DAT files" button should be enabled
-    enable_go_button(window)
-
-    # Show the main window
-    window.show()
-
-    # Prompt the user if clone lists or metadata are needed
-    if window.clonelistmetadata_needed:
-        msg = qtw.QMessageBox()
-        msg.setText('This might be the first time you\'ve run Retool, as its clone lists\n'
-                    'or metadata files are missing.\n\n'
-                    'Retool is more accurate with these files. Do you want to\n'
-                    'download them?')
-        msg.setWindowTitle('Clone lists or metadata needed')
-        msg.setStandardButtons(qtw.QMessageBox.Yes | qtw.QMessageBox.No) # type: ignore
-        icon = qtg.QIcon()
-        icon.addFile(u":/retoolIcon/images/retool.ico", qtc.QSize(), qtg.QIcon.Normal, qtg.QIcon.Off) # type: ignore
-        msg.setWindowIcon(icon)
-
-        download_update: int = msg.exec()
-
-        if download_update == qtw.QMessageBox.Yes: # type: ignore
-            config: Config = import_config()
-            write_config(window, DAT_DETAILS, config, settings_window=None, run_retool=True, update_clone_list=True)
-
-
-    sys.exit(app.exec())
-
-
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()
