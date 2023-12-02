@@ -90,13 +90,13 @@ def setup_gui_global(main_window: Any, dat_details: dict[str, dict[str, str]], c
     main_window.ui.listWidgetGlobalSelectedRegions.addItems(region_order_user)
     main_window.ui.listWidgetGlobalAvailableRegions.addItems(sorted([x for x in region_order_default if x not in region_order_user]))
 
-    # Add languages to the languages lists
+    # Add languages to the language lists
     languages_user: list[str] = []
 
     if config.languages_user_found:
-        for languages in config.language_order_user:
+        for language in config.language_order_user:
             for key, value in config.languages.items():
-                if languages == value:
+                if language == value:
                     languages_user.append(key)
 
     main_window.ui.listWidgetGlobalSelectedLanguages.addItems(languages_user)

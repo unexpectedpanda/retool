@@ -3,7 +3,7 @@
 ################################################################################
 ## Form generated from reading UI file 'retool.ui'
 ##
-## Created by: Qt User Interface Compiler version 6.4.2
+## Created by: Qt User Interface Compiler version 6.6.0
 ##
 ## WARNING! All changes made in this file will be lost when recompiling UI file!
 ################################################################################
@@ -25,7 +25,7 @@ from PySide6.QtWidgets import (QAbstractItemView, QAbstractScrollArea, QApplicat
 
 from modules.gui.custom_widgets import (CustomLineEdit, CustomList, CustomListDropFiles, CustomListSelfDrag,
     CustomPushButton, CustomTextEdit, ElisionLabel)
-from  . import resources_rc
+from . import resources_rc
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
@@ -3693,14 +3693,14 @@ class Ui_MainWindow(object):
         self.checkBoxGlobalOptionsTrace.setText(QCoreApplication.translate("MainWindow", u"Trace a title through Retool's process (no DAT files are created)", None))
         self.labelGlobalOptionsTrace.setText(QCoreApplication.translate("MainWindow", u"Enter a regex string to trace (case insensitive)", None))
         self.tabWidgetGlobalSettings.setTabText(self.tabWidgetGlobalSettings.indexOf(self.tabGlobalOptions), QCoreApplication.translate("MainWindow", u"Options", None))
-        self.labelGlobalOverride.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p>Override Retool and force exclude or include specific titles by adding your own text to match against. Each match must be on its own line, and is case sensitive. See the <a href=\"https://unexpectedpanda.github.io/retool/how-to-use-retool-gui/#user-filters\"><span style=\" text-decoration: underline; color:#0000ff;\">documentation</span></a> for more information.<br/><br/>\u2022 Plain text indicates a partial string match.<br/>\u2022 A prefix of / indicates a regular expression match.<br/>\u2022 A prefix of | indicates a full string match.<br/>\u2022 Additionally, wrap a string in &lt;&gt; to also exclude/include any match's related clones.</p></body></html>", None))
+        self.labelGlobalOverride.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p>Override Retool and force exclude or include specific titles by adding your own text to match against. Each match must be on its own line, and is case sensitive. See the <a href=\"https://unexpectedpanda.github.io/retool/how-to-use-retool-gui-overrides-post-filters\"><span style=\" text-decoration: underline; color:#0000ff;\">documentation</span></a> for more information.<br/><br/>\u2022 Plain text indicates a partial string match.<br/>\u2022 A prefix of / indicates a regular expression match.<br/>\u2022 A prefix of | indicates a full string match.<br/>\u2022 Additionally, wrap a string in &lt;&gt; to also exclude/include any match's related clones.</p></body></html>", None))
         self.labelGlobalOverrideByText.setText(QCoreApplication.translate("MainWindow", u"Override by text", None))
         self.labelGlobalOverrideInclude.setText(QCoreApplication.translate("MainWindow", u"Include", None))
         self.labelGlobalOverrideExclude.setText(QCoreApplication.translate("MainWindow", u"Exclude", None))
         self.tabWidgetGlobalSettings.setTabText(self.tabWidgetGlobalSettings.indexOf(self.tabGlobalOverrides), QCoreApplication.translate("MainWindow", u"Overrides", None))
         self.labelGlobalFilterByText.setText(QCoreApplication.translate("MainWindow", u"Filter after Retool has finished processing", None))
         self.labelGlobalFilterInclude.setText(QCoreApplication.translate("MainWindow", u"Filters", None))
-        self.labelGlobalFilters.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p>After Retool has finished processing, only include titles that match the text listed here. Each match must be on its own line, and is case sensitive. See the <a href=\"https://unexpectedpanda.github.io/retool/how-to-use-retool-gui/#user-filters\"><span style=\" text-decoration: underline; color:#0000ff;\">documentation</span></a> for more information.<br/><br/>\u2022 Plain text indicates a partial string match.<br/>\u2022 A prefix of / indicates a regular expression match.<br/>\u2022 A prefix of | indicates a full string match.</p></body></html>", None))
+        self.labelGlobalFilters.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p>After Retool has finished processing, only include titles that match the text listed here. Each match must be on its own line, and is case sensitive. See the <a href=\"https://unexpectedpanda.github.io/retool/how-to-use-retool-gui-overrides-post-filters\"><span style=\" text-decoration: underline; color:#0000ff;\">documentation</span></a> for more information.<br/><br/>\u2022 Plain text indicates a partial string match.<br/>\u2022 A prefix of / indicates a regular expression match.<br/>\u2022 A prefix of | indicates a full string match.</p></body></html>", None))
         self.tabWidgetGlobalSettings.setTabText(self.tabWidgetGlobalSettings.indexOf(self.tabGlobalPostFilter), QCoreApplication.translate("MainWindow", u"Post filters", None))
         self.tabWidgetSettings.setTabText(self.tabWidgetSettings.indexOf(self.tabGlobalSettings), QCoreApplication.translate("MainWindow", u"Global settings", None))
         self.labelSystemSettings.setText(QCoreApplication.translate("MainWindow", u"Add a DAT file, then select it in the list to enable system-specific settings.", None))
@@ -3774,27 +3774,27 @@ class Ui_MainWindow(object):
         self.labelSystemFilterByLanguages.setText(QCoreApplication.translate("MainWindow", u"Filter by languages (an empty filter list includes all languages)", None))
         self.checkBoxSystemOverrideLanguages.setText(QCoreApplication.translate("MainWindow", u"Override global settings", None))
 #if QT_CONFIG(tooltip)
-        self.buttonSystemLanguageAllRight.setToolTip(QCoreApplication.translate("MainWindow", u"Move the remaining available regions to the end of the filter list", None))
+        self.buttonSystemLanguageAllRight.setToolTip(QCoreApplication.translate("MainWindow", u"Move the remaining available languages to the end of the filter list", None))
 #endif // QT_CONFIG(tooltip)
         self.buttonSystemLanguageAllRight.setText("")
 #if QT_CONFIG(tooltip)
-        self.buttonSystemLanguageRight.setToolTip(QCoreApplication.translate("MainWindow", u"Move the selected regions to the filter list", None))
+        self.buttonSystemLanguageRight.setToolTip(QCoreApplication.translate("MainWindow", u"Move the selected languages to the filter list", None))
 #endif // QT_CONFIG(tooltip)
         self.buttonSystemLanguageRight.setText("")
 #if QT_CONFIG(tooltip)
-        self.buttonSystemLanguageLeft.setToolTip(QCoreApplication.translate("MainWindow", u"Move the selected regions to the available list", None))
+        self.buttonSystemLanguageLeft.setToolTip(QCoreApplication.translate("MainWindow", u"Move the selected languages to the available list", None))
 #endif // QT_CONFIG(tooltip)
         self.buttonSystemLanguageLeft.setText("")
 #if QT_CONFIG(tooltip)
-        self.buttonSystemLanguageAllLeft.setToolTip(QCoreApplication.translate("MainWindow", u"Move all regions in the filter list to the available list", None))
+        self.buttonSystemLanguageAllLeft.setToolTip(QCoreApplication.translate("MainWindow", u"Move all languages in the filter list to the available list", None))
 #endif // QT_CONFIG(tooltip)
         self.buttonSystemLanguageAllLeft.setText("")
 #if QT_CONFIG(tooltip)
-        self.buttonSystemLanguageUp.setToolTip(QCoreApplication.translate("MainWindow", u"Move the selected regions up in priority", None))
+        self.buttonSystemLanguageUp.setToolTip(QCoreApplication.translate("MainWindow", u"Move the selected languages up in priority", None))
 #endif // QT_CONFIG(tooltip)
         self.buttonSystemLanguageUp.setText("")
 #if QT_CONFIG(tooltip)
-        self.buttonSystemLanguageDown.setToolTip(QCoreApplication.translate("MainWindow", u"Move the selected regions down in priority", None))
+        self.buttonSystemLanguageDown.setToolTip(QCoreApplication.translate("MainWindow", u"Move the selected languages down in priority", None))
 #endif // QT_CONFIG(tooltip)
         self.buttonSystemLanguageDown.setText("")
         self.labelSystemAvailableLanguages.setText(QCoreApplication.translate("MainWindow", u"Available languages", None))
@@ -4072,9 +4072,9 @@ class Ui_MainWindow(object):
         self.labelSystemOverrideInclude.setText(QCoreApplication.translate("MainWindow", u"Include", None))
         self.labelSystemOverrideExclude.setText(QCoreApplication.translate("MainWindow", u"Exclude", None))
         self.labelSystemOverrideByText.setText(QCoreApplication.translate("MainWindow", u"Override by text", None))
-        self.labelSystemOverride.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p>Override Retool and force exclude or include specific titles by adding your own text to match against. Each match must be on its own line, and is case sensitive. See the <a href=\"https://unexpectedpanda.github.io/retool/how-to-use-retool-gui/#user-filters\"><span style=\" text-decoration: underline; color:#0000ff;\">documentation</span></a> for more information.<br/><br/>\u2022 Plain text indicates a partial string match.<br/>\u2022 A prefix of / indicates a regular expression match.<br/>\u2022 A prefix of | indicates a full string match.<br/>\u2022 Additionally, wrap a string in &lt;&gt; to also exclude/include any match's related clones.</p></body></html>", None))
+        self.labelSystemOverride.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p>Override Retool and force exclude or include specific titles by adding your own text to match against. Each match must be on its own line, and is case sensitive. See the <a href=\"https://unexpectedpanda.github.io/retool/how-to-use-retool-gui-overrides-post-filters\"><span style=\" text-decoration: underline; color:#0000ff;\">documentation</span></a> for more information.<br/><br/>\u2022 Plain text indicates a partial string match.<br/>\u2022 A prefix of / indicates a regular expression match.<br/>\u2022 A prefix of | indicates a full string match.<br/>\u2022 Additionally, wrap a string in &lt;&gt; to also exclude/include any match's related clones.</p></body></html>", None))
         self.tabWidgetSystemSettings.setTabText(self.tabWidgetSystemSettings.indexOf(self.tabSystemOverrides), QCoreApplication.translate("MainWindow", u"Overrides", None))
-        self.labelSystemFilters.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p>After Retool has finished processing, only include titles that match the text listed here. Each match must be on its own line, and is case sensitive. See the <a href=\"https://unexpectedpanda.github.io/retool/how-to-use-retool-gui/#user-filters\"><span style=\" text-decoration: underline; color:#0000ff;\">documentation</span></a> for more information.<br/><br/>\u2022 Plain text indicates a partial string match.<br/>\u2022 A prefix of / indicates a regular expression match.<br/>\u2022 A prefix of | indicates a full string match.</p></body></html>", None))
+        self.labelSystemFilters.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p>After Retool has finished processing, only include titles that match the text listed here. Each match must be on its own line, and is case sensitive. See the <a href=\"https://unexpectedpanda.github.io/retool/how-to-use-retool-gui-overrides-post-filters\"><span style=\" text-decoration: underline; color:#0000ff;\">documentation</span></a> for more information.<br/><br/>\u2022 Plain text indicates a partial string match.<br/>\u2022 A prefix of / indicates a regular expression match.<br/>\u2022 A prefix of | indicates a full string match.</p></body></html>", None))
         self.labelSystemFilterInclude.setText(QCoreApplication.translate("MainWindow", u"Filters", None))
         self.labelSystemlFilterByText.setText(QCoreApplication.translate("MainWindow", u"Filter after Retool has finished processing", None))
         self.checkBoxSystemOverridePostFilter.setText(QCoreApplication.translate("MainWindow", u"Override global settings", None))

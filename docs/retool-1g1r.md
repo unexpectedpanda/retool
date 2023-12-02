@@ -5,12 +5,12 @@ hide:
 
 # Why Retool's 1G1R is better
 
-Standard ["One Game, One ROM" (1G1R)](../terminology/#1g1r) has problems.
+Standard ["One Game, One ROM" (1G1R)](terminology.md#1g1r) has problems.
 
 [Way back in 2008](https://forum.no-intro.org/viewtopic.php?f=2&t=544) Eric Bole-Feysot
 raised that 1G1R would be an appealing concept to implement in No-Intro DAT files. The
 various groups involved at the time ultimately settled on repurposing the existing
-[parent/clone](../terminology/#parents-and-clones) implementation established by [MAME](https://www.mamedev.org),
+[parent/clone](terminology.md#parents-and-clones) implementation established by [MAME](https://www.mamedev.org),
 added an extra `<release>` tag to define what region a title was from and what languages
 it supported, and built user-enabled 1G1R support into ROM managers to select titles based
 on the user's region and language preferences. It was, at the time, enough.
@@ -157,7 +157,7 @@ clones being missed.
 ## What Retool does differently
 
 Retool ignores the parent/clone data manually entered into DAT files, and analyzes title
-names to automatically group them together. It makes use of [clone lists](../clone-lists)
+names to automatically group them together. It makes use of [clone lists](clone-lists.md)
 to not only close the gap where automatic detection doesn't work out, but to recategorize
 and prioritize titles accordingly.
 

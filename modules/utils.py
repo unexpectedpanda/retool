@@ -191,8 +191,7 @@ def format_value(value: Any) -> str:
 
 
 def old_windows() -> bool:
-    """ Figures out if the script is running on a version of Windows earlier than
-    Windows 10.
+    """ Figures out if Retool is running on a version of Windows earlier than Windows 10.
     """
 
     if (

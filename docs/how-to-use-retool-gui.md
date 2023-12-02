@@ -7,7 +7,7 @@ hide:
 
 What follows is a step-by-step walkthrough of using Retool GUI and all of its features. If
 you're new to DAT management, it might be beneficial to spend some time reading about
-[terminology](../terminology), and after you've filtered a DAT file with Retool, check
+[terminology](terminology.md), and after you've filtered a DAT file with Retool, check
 out the help documentation for your favorite ROM manager to learn how to use it.
 
 !!! Info
@@ -31,7 +31,7 @@ Before you can filter DAT files, they need to be on your hard drive.
 
     You might need to extract a ZIP file containing the DAT files to access them.
 
-1.  [Download Retool](../download), and follow the installation and update instructions for
+1.  [Download Retool](download.md), and follow the installation and update instructions for
     your platform.
 
 ### Open Retool
@@ -91,5 +91,5 @@ Settings are available at two levels in Retool: global and system.
 
 * **System settings** are applied to a specific system named in a DAT file. For example,
   you can have settings for just the _Sony - PlayStation_ DAT file from Redump.
-  [System settings](../how-to-use-retool-gui-system-settings) mostly mirror what's available
-  in the global settings, although there are some unique features.
+  [System settings](how-to-use-retool-gui-system-settings.md) mostly mirror what's
+  available in the global settings, although there are some unique features.

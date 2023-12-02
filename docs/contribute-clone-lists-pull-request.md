@@ -18,7 +18,7 @@ Clone lists follow a particular format to keep maintainence easy:
 
 * LF line endings.
 
-* Top-level keys should be kept in [the correct order](../contribute-clone-lists#clone-list-structure).
+* Top-level keys should be kept in [the correct order](contribute-clone-lists-top-level-keys.md).
 
 * Object keys should be in the order shown in the clone list structure examples.
 

@@ -3,7 +3,7 @@
 ################################################################################
 ## Form generated from reading UI file 'retool-settings.ui'
 ##
-## Created by: Qt User Interface Compiler version 6.4.2
+## Created by: Qt User Interface Compiler version 6.6.0
 ##
 ## WARNING! All changes made in this file will be lost when recompiling UI file!
 ################################################################################
@@ -20,7 +20,7 @@ from PySide6.QtWidgets import (QApplication, QDialog, QFrame, QGridLayout,
     QSpacerItem, QWidget)
 
 from modules.gui.custom_widgets import (CustomLineEdit, ElisionLabel)
-from  . import resources_rc
+from . import resources_rc
 
 class Ui_Settings(object):
     def setupUi(self, Settings):

@@ -35,13 +35,13 @@ Each object in the `removes` array can include the following keys:
   so Retool can match it accurately against names in the input DAT file. Valid options
   include:
 
-    * `full (str)`: The [full name](../naming-system/#full-names).
+    * `full (str)`: The [full name](naming-system.md#full-names).
 
-    * `short (str)`: The [short name](../naming-system/#short-names).
+    * `short (str)`: The [short name](naming-system.md#short-names).
 
-    * `regionFree (str)`: The [region-free name](../naming-system/#region-free-names).
+    * `regionFree (str)`: The [region-free name](naming-system.md#region-free-names).
 
-    * `tagFree (str)`: The [tag-free name](../naming-system/#tag-free-names).
+    * `tagFree (str)`: The [tag-free name](naming-system.md#tag-free-names).
 
 !!! note
         Unlike other clone list features, the `regex` name type isn't supported for

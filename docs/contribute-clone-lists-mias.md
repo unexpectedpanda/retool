@@ -24,6 +24,6 @@ An `mias` array looks similar to the following example:
 1.  The MIAs array.
 2.  The full name of the title to search for in the input DAT file.
 
-MIAs only use [full names](../naming-system/#full-names) to search for matching titles in
+MIAs only use [full names](naming-system.md#full-names) to search for matching titles in
 the associated DAT file, and so an `mias` array only contains strings that match those
 full names.

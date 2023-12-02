@@ -677,9 +677,9 @@ class ParentTools(object):
                     for region in [str(x) for x in config.system_region_order_user if x != {'override': 'true'}]:
                         language_order.extend(config.languages_filter[region])
                 else:
-                    language_order = language_order = config.language_order_user
+                    language_order = config.language_order_user
             else:
-                language_order = language_order = config.language_order_user
+                language_order = config.language_order_user
 
         # Select titles based on language
         remove_titles: set[DatNode] = set()
@@ -2170,13 +2170,15 @@ class ParentTools(object):
 
                             if report_on_match: TraceTools.trace_title('REF0106', [title_1.full_name, title_2.full_name], set(), keep_remove=True)
 
-                            cross_region_parent_titles.remove(title_2)
+                            if title_2 in cross_region_parent_titles:
+                                cross_region_parent_titles.remove(title_2)
 
                         elif title_2.clonelist_priority < title_1.clonelist_priority:
 
                             if report_on_match: TraceTools.trace_title('REF0107', [title_2.full_name, title_1.full_name], set(), keep_remove=True)
 
-                            cross_region_parent_titles.remove(title_1)
+                            if title_1 in cross_region_parent_titles:
+                                cross_region_parent_titles.remove(title_1)
 
             # TODO: Should these next few sections be ignoring supersets?
             # Check if there's a shared region between titles. If so, check which title has more of the user's languages

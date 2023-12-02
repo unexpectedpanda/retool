@@ -5,11 +5,11 @@ hide:
 
 # Overrides
 
-The `overrides` array assigns titles different [group](../naming-system/#group-names) and
-[short names](../naming-system/#short-names), manually bundling together specific games
+The `overrides` array assigns titles different [group](naming-system.md#group-names) and
+[short names](naming-system.md#short-names), manually bundling together specific games
 instead of using Retool's automatic grouping.
 
-Because Retool groups together titles with the same [short name](../naming-system/#short-names)
+Because Retool groups together titles with the same [short name](naming-system.md#short-names)
 by default, this is particularly useful to work around the problem where games have the
 same short name, but are entirely different in content.
 
@@ -57,13 +57,13 @@ Each object in the `overrides` array can include the following keys:
   so Retool can match it accurately against names in the input DAT file. Valid options
   include:
 
-    * `full (str)`: The [full name](../naming-system/#full-names).
+    * `full (str)`: The [full name](naming-system.md#full-names).
 
-    * `short (str)`: The [short name](../naming-system/#short-names).
+    * `short (str)`: The [short name](naming-system.md#short-names).
 
-    * `regionFree (str)`: The [region-free name](../naming-system/#region-free-names).
+    * `regionFree (str)`: The [region-free name](naming-system.md#region-free-names).
 
-    * `tagFree (str)`: The [tag-free name](../naming-system/#tag-free-names).
+    * `tagFree (str)`: The [tag-free name](naming-system.md#tag-free-names).
 
     * `regex (str)`: A regex match on the full name.
 
@@ -76,7 +76,7 @@ Each object in the `overrides` array can include the following keys:
 
     You want to do this because the group and short names assigned to overridden titles
     aren't an exact copy of the `newGroup` value. Instead, the value is used as a basis to
-    generate these names using Retool's [naming rules](../naming-system/#names).
+    generate these names using Retool's [naming rules](naming-system.md#names).
 
 #### Override conditions
 

@@ -859,7 +859,7 @@ class Regex:
         self.nec_mastering_code: Pattern[str] = re.compile('\\((?:(?:FA|S)[A-F][ABT]S?(?:, )?)+\\)')
         self.nintendo_mastering_code: Pattern[str] = re.compile('\\((?:A[BDEFNPS]|B[58DFJNPT]|CX|FT|JE|K[AFIKMRZ]|PN|QA|RC|S[KN]|T[ABCJQ]|V[BEJKLMW]|Y[XW])[ABCDEFGHIKJMLNPQSTUVWYZ0-9][DEJPVXYZ]\\)')
         self.ps_firmware: Pattern[str] = re.compile('\\(FW[0-9].*?\\)', flags=re.I)
-        self.ps1_2_id: Pattern[str] = re.compile('\\(S[CL][EKPU][ADHMNS]-\\d{5}\\)')
+        self.ps1_2_id: Pattern[str] = re.compile('\\([SP][BCL][EKPU][ADHMNSX]-\\d{5}\\)')
         self.ps3_id: Pattern[str] = re.compile('\\([BM][CLR][AEJKTU][BCDMST]-\\d{5}\\)')
         self.ps4_id: Pattern[str] = re.compile('\\([CP][CLU][ACJKS][AMS]-\\d{5}\\)')
         self.psp_id: Pattern[str] = re.compile('\\(U[CLT][EJUS][BST]-\\d{5}\\)')
@@ -1443,7 +1443,7 @@ class TitleTools(object):
         """
 
         name = TitleTools.get_tag_free_name(name, config)
-        name = TitleTools.get_region_free_name(name, config)
+        name = TitleTools.get_region_free_name(name, config).strip()
 
         return name.lower()
 

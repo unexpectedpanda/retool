@@ -23,15 +23,15 @@ and the following data structures:
 * Arrays
 * Objects
 
-It also helps to understand Retool's [terminology](../terminology), and the different
-[names](../naming-system) it assigns to titles to help match and group them together
+It also helps to understand Retool's [terminology](terminology.md), and the different
+[names](naming-system.md) it assigns to titles to help match and group them together
 accurately.
 
 ## Titles that Retool automatically detects as clones
 
 Before referencing clone lists, Retool parses a DAT file and creates objects for all of
-its titles. If multiple titles have the same [group name](../naming-system/#group-names) and
-[short name](../naming-system/#short-names), Retool assumes they're related to each other.
+its titles. If multiple titles have the same [group name](naming-system.md#group-names) and
+[short name](naming-system.md#short-names), Retool assumes they're related to each other.
 
 Names should only be added to clone lists in the following situations:
 
@@ -108,7 +108,3 @@ General sites and retail stores:
 - [PlayAsia](https://www.play-asia.com/)
 - [Wikipedia](https://www.wikipedia.org)
 - [YouTube](https://www.youtube.com)
-
-
-
-

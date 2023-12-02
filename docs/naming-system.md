@@ -5,9 +5,9 @@ hide:
 
 # Retool's naming system
 
-Retool generates multiple names for each [title](../terminology/#titles) in a DAT to help
+Retool generates multiple names for each [title](terminology.md#titles) in a DAT to help
 match and group together titles more accurately. These names are used directly in the
-code, and also [clone lists](../clone-lists). If you plan to contribute to Retool, it
+code, and also [clone lists](clone-lists.md). If you plan to contribute to Retool, it
 helps to understand this standard.
 
 ## Title tool
@@ -52,9 +52,9 @@ this is a title
 Group names are derived from three places:
 
 * The full name of a title (default).
-* `group` values in the [`variants`](../contribute-clone-lists-variants) array in
+* `group` values in the [`variants`](contribute-clone-lists-variants.md) array in
   a clone list.
-* `newGroup` or `elseGroup` values in the [`overrides`](../contribute-clone-lists-overrides)
+* `newGroup` or `elseGroup` values in the [`overrides`](contribute-clone-lists-overrides.md)
   array in a clone list.
 
 ## Region-free names
@@ -77,7 +77,7 @@ This is a title (Disc A) (Best Collection)
 ## Tag-free names
 
 Tag-free names are the same as full names, except they have [normalized disc names](#normalized-disc-names),
-and [tags](../terminology/#tags) have been stripped from them as defined in the
+and [tags](terminology.md#tags) have been stripped from them as defined in the
 `ignore_tags`, `promote_editions`, `demote_editions`, and `modern_editions` arrays in
 `config/internal-config.json`. Tag-free names still include regions and languages.
 
@@ -108,7 +108,7 @@ when processing a title's full name, so the order is important.
 
 ## Short names
 
-Short names are a shortened version of full names, most often used in [clone lists](../clone-lists)
+Short names are a shortened version of full names, most often used in [clone lists](clone-lists.md)
 as a handy way to reference many titles at once without having to list the full name of
 every variant. The short name is built by first getting the tag-free name (which also
 normalizes disc names), and then getting the region-free name from that. It is then

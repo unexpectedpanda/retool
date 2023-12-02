@@ -5,6 +5,21 @@ hide:
 
 # Changelog
 
+## 2.01.6
+
+- Added an extra code to the PlayStation 1 / 2 disc ID regex.
+- Fixed a bug where Retool wouldn't choose between two competing supersets, and clones
+  wouldn't be assigned.
+- Fixed an uncommon bug that crashed Retool when the user preferred regions over
+  languages.
+- Fixed some button tooltips in the GUI that incorrectly mentioned "regions" instead of
+  "languages".
+
+
+## 2.01.5
+
+- Prevented preproduction titles being selected over modern edition titles.
+
 
 ## 2.01.4
 

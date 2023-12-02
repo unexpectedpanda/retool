@@ -7,7 +7,7 @@ hide:
 
 The `variants` array is where all the different regional names and variations for titles
 are stored, grouping titles together that Retool would otherwise miss. By default, Retool
-already groups together titles that have the same [short name](../naming-system/#short-names).
+already groups together titles that have the same [short name](naming-system.md#short-names).
 
 A basic `variants` array looks similar to the following example:
 
@@ -36,8 +36,8 @@ A basic `variants` array looks similar to the following example:
 
 Each object in the `variants` array can include the following keys:
 
-* `group (str)`: The `group` value is used as the basis for a new [group name](../naming-system/#group-names)
-   and [short name](../naming-system/#short-names) for all of the titles in the object.
+* `group (str)`: The `group` value is used as the basis for a new [group name](naming-system.md#group-names)
+   and [short name](naming-system.md#short-names) for all of the titles in the object.
 
 * `titles (array[obj])`: Optional. Contains singular, standard titles that belong to the
   group.
@@ -54,7 +54,7 @@ Each object in the `variants` array can include the following keys:
 !!! caution
     The group and short names assigned to the contained titles aren't an exact copy of the
     top-level key. Instead, the key is used as a basis to generate these names. The rules
-    for how these names are created are detailed in [Retool's naming system](../naming-system).
+    for how these names are created are detailed in [Retool's naming system](naming-system.md).
 
 Each object in the `titles`, `supersets`, and `compilations` arrays can include the
 following keys:
@@ -65,13 +65,13 @@ following keys:
   so Retool can match it accurately against names in the input DAT file. Valid options
   include:
 
-    * `full (str)`: The [full name](../naming-system/#full-names).
+    * `full (str)`: The [full name](naming-system.md#full-names).
 
-    * `short (str)`: The [short name](../naming-system/#short-names).
+    * `short (str)`: The [short name](naming-system.md#short-names).
 
-    * `regionFree (str)`: The [region-free name](../naming-system/#region-free-names).
+    * `regionFree (str)`: The [region-free name](naming-system.md#region-free-names).
 
-    * `tagFree (str)`: The [tag-free name](../naming-system/#tag-free-names).
+    * `tagFree (str)`: The [tag-free name](naming-system.md#tag-free-names).
 
     * `regex (str)`: A regex match on the full name.
 
@@ -306,7 +306,7 @@ higher up their region order? With the `supersets` array.
 ]
 ```
 
-The objects in the `supersets` array list [supersets](../terminology/#supersets). By
+The objects in the `supersets` array list [supersets](terminology.md#supersets). By
 default, supersets look at language support over region order. If a superset supports the
 top language found in a group of titles (in this example, that's English), then it's
 selected over other standard titles in higher regions as it's considered superior.

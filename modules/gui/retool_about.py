@@ -3,7 +3,7 @@
 ################################################################################
 ## Form generated from reading UI file 'retool-about.ui'
 ##
-## Created by: Qt User Interface Compiler version 6.4.2
+## Created by: Qt User Interface Compiler version 6.6.0
 ##
 ## WARNING! All changes made in this file will be lost when recompiling UI file!
 ################################################################################
@@ -17,7 +17,7 @@ from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
     QPalette, QPixmap, QRadialGradient, QTransform)
 from PySide6.QtWidgets import (QApplication, QDialog, QLabel, QSizePolicy,
     QWidget)
-from  . import resources_rc
+from . import resources_rc
 
 class Ui_AboutWindow(object):
     def setupUi(self, AboutWindow):

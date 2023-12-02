@@ -52,5 +52,5 @@ To update clone lists and metadata files, complete the following instructions:
 
 ## Edit and create clone lists
 
-You can [contribute to Retool's clone lists](../contribute-clone-lists) to help make them
+You can [contribute to Retool's clone lists](contribute-clone-lists.md) to help make them
 more accurate.

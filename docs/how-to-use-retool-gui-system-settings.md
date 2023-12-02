@@ -31,6 +31,6 @@ default or global setting instead.
 
 ### System overrides
 The **Overrides** tab in the system settings has no override checkbox. Instead, it
-interacts with the global settings overrides. See [Overrides](../how-to-use-retool-gui-overrides-post-filters#overrides)
+interacts with the global settings overrides. See [Overrides](how-to-use-retool-gui-overrides-post-filters.md#overrides)
 for how the global and system overrides interact, and the rules for creating the
 overrides.

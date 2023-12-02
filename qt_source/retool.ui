@@ -3871,7 +3871,7 @@ core, at the cost of performance</string>
                          <item row="2" column="0" colspan="3">
                           <widget class="QLabel" name="labelGlobalOverride">
                            <property name="text">
-                            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Override Retool and force exclude or include specific titles by adding your own text to match against. Each match must be on its own line, and is case sensitive. See the &lt;a href=&quot;https://unexpectedpanda.github.io/retool/how-to-use-retool-gui/#user-filters&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;documentation&lt;/span&gt;&lt;/a&gt; for more information.&lt;br/&gt;&lt;br/&gt;• Plain text indicates a partial string match.&lt;br/&gt;• A prefix of / indicates a regular expression match.&lt;br/&gt;• A prefix of | indicates a full string match.&lt;br/&gt;• Additionally, wrap a string in &amp;lt;&amp;gt; to also exclude/include any match's related clones.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Override Retool and force exclude or include specific titles by adding your own text to match against. Each match must be on its own line, and is case sensitive. See the &lt;a href=&quot;https://unexpectedpanda.github.io/retool/how-to-use-retool-gui-overrides-post-filters&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;documentation&lt;/span&gt;&lt;/a&gt; for more information.&lt;br/&gt;&lt;br/&gt;• Plain text indicates a partial string match.&lt;br/&gt;• A prefix of / indicates a regular expression match.&lt;br/&gt;• A prefix of | indicates a full string match.&lt;br/&gt;• Additionally, wrap a string in &amp;lt;&amp;gt; to also exclude/include any match's related clones.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                            </property>
                            <property name="alignment">
                             <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
@@ -4277,7 +4277,7 @@ core, at the cost of performance</string>
                          <item row="2" column="0" colspan="2">
                           <widget class="QLabel" name="labelGlobalFilters">
                            <property name="text">
-                            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;After Retool has finished processing, only include titles that match the text listed here. Each match must be on its own line, and is case sensitive. See the &lt;a href=&quot;https://unexpectedpanda.github.io/retool/how-to-use-retool-gui/#user-filters&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;documentation&lt;/span&gt;&lt;/a&gt; for more information.&lt;br/&gt;&lt;br/&gt;• Plain text indicates a partial string match.&lt;br/&gt;• A prefix of / indicates a regular expression match.&lt;br/&gt;• A prefix of | indicates a full string match.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;After Retool has finished processing, only include titles that match the text listed here. Each match must be on its own line, and is case sensitive. See the &lt;a href=&quot;https://unexpectedpanda.github.io/retool/how-to-use-retool-gui-overrides-post-filters&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;documentation&lt;/span&gt;&lt;/a&gt; for more information.&lt;br/&gt;&lt;br/&gt;• Plain text indicates a partial string match.&lt;br/&gt;• A prefix of / indicates a regular expression match.&lt;br/&gt;• A prefix of | indicates a full string match.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                            </property>
                            <property name="alignment">
                             <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
@@ -5950,7 +5950,7 @@ English-speaking regions and 60Hz titles</string>
                               </font>
                              </property>
                              <property name="toolTip">
-                              <string>Move the remaining available regions to the end of the filter list</string>
+                              <string>Move the remaining available languages to the end of the filter list</string>
                              </property>
                              <property name="text">
                               <string/>
@@ -5989,7 +5989,7 @@ English-speaking regions and 60Hz titles</string>
                               </font>
                              </property>
                              <property name="toolTip">
-                              <string>Move the selected regions to the filter list</string>
+                              <string>Move the selected languages to the filter list</string>
                              </property>
                              <property name="text">
                               <string/>
@@ -6028,7 +6028,7 @@ English-speaking regions and 60Hz titles</string>
                               </font>
                              </property>
                              <property name="toolTip">
-                              <string>Move the selected regions to the available list</string>
+                              <string>Move the selected languages to the available list</string>
                              </property>
                              <property name="text">
                               <string/>
@@ -6061,7 +6061,7 @@ English-speaking regions and 60Hz titles</string>
                               </font>
                              </property>
                              <property name="toolTip">
-                              <string>Move all regions in the filter list to the available list</string>
+                              <string>Move all languages in the filter list to the available list</string>
                              </property>
                              <property name="text">
                               <string/>
@@ -6219,7 +6219,7 @@ English-speaking regions and 60Hz titles</string>
                               </font>
                              </property>
                              <property name="toolTip">
-                              <string>Move the selected regions up in priority</string>
+                              <string>Move the selected languages up in priority</string>
                              </property>
                              <property name="text">
                               <string/>
@@ -6252,7 +6252,7 @@ English-speaking regions and 60Hz titles</string>
                               </font>
                              </property>
                              <property name="toolTip">
-                              <string>Move the selected regions down in priority</string>
+                              <string>Move the selected languages down in priority</string>
                              </property>
                              <property name="text">
                               <string/>
@@ -8913,7 +8913,7 @@ core, at the cost of performance</string>
                          <item row="2" column="0" colspan="3">
                           <widget class="QLabel" name="labelSystemOverride">
                            <property name="text">
-                            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Override Retool and force exclude or include specific titles by adding your own text to match against. Each match must be on its own line, and is case sensitive. See the &lt;a href=&quot;https://unexpectedpanda.github.io/retool/how-to-use-retool-gui/#user-filters&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;documentation&lt;/span&gt;&lt;/a&gt; for more information.&lt;br/&gt;&lt;br/&gt;• Plain text indicates a partial string match.&lt;br/&gt;• A prefix of / indicates a regular expression match.&lt;br/&gt;• A prefix of | indicates a full string match.&lt;br/&gt;• Additionally, wrap a string in &amp;lt;&amp;gt; to also exclude/include any match's related clones.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Override Retool and force exclude or include specific titles by adding your own text to match against. Each match must be on its own line, and is case sensitive. See the &lt;a href=&quot;https://unexpectedpanda.github.io/retool/how-to-use-retool-gui-overrides-post-filters&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;documentation&lt;/span&gt;&lt;/a&gt; for more information.&lt;br/&gt;&lt;br/&gt;• Plain text indicates a partial string match.&lt;br/&gt;• A prefix of / indicates a regular expression match.&lt;br/&gt;• A prefix of | indicates a full string match.&lt;br/&gt;• Additionally, wrap a string in &amp;lt;&amp;gt; to also exclude/include any match's related clones.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                            </property>
                            <property name="alignment">
                             <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
@@ -9040,7 +9040,7 @@ core, at the cost of performance</string>
                          <item row="2" column="0" colspan="2">
                           <widget class="QLabel" name="labelSystemFilters">
                            <property name="text">
-                            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;After Retool has finished processing, only include titles that match the text listed here. Each match must be on its own line, and is case sensitive. See the &lt;a href=&quot;https://unexpectedpanda.github.io/retool/how-to-use-retool-gui/#user-filters&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;documentation&lt;/span&gt;&lt;/a&gt; for more information.&lt;br/&gt;&lt;br/&gt;• Plain text indicates a partial string match.&lt;br/&gt;• A prefix of / indicates a regular expression match.&lt;br/&gt;• A prefix of | indicates a full string match.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;After Retool has finished processing, only include titles that match the text listed here. Each match must be on its own line, and is case sensitive. See the &lt;a href=&quot;https://unexpectedpanda.github.io/retool/how-to-use-retool-gui-overrides-post-filters&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;documentation&lt;/span&gt;&lt;/a&gt; for more information.&lt;br/&gt;&lt;br/&gt;• Plain text indicates a partial string match.&lt;br/&gt;• A prefix of / indicates a regular expression match.&lt;br/&gt;• A prefix of | indicates a full string match.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                            </property>
                            <property name="alignment">
                             <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>

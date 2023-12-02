@@ -71,7 +71,7 @@ following ways:
 ## Languages
 
 If no languages are in the **Filter by these languages** box, then Retool considers all
-languages during processing, and [infers a language order](../terminology/#implied-languages)
+languages during processing, and [infers a language order](terminology.md#implied-languages)
 from your region order.
 
 If you add languages to the **Filter by these languages** box, then only those languages

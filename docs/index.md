@@ -13,13 +13,13 @@ effectively trim, consolidate, and deduplicate your ROM sets.
 
 Retool offers the following features:
 
-* [Superior One Game, One ROM (1G1R) functionality compared to other tools](retool-1g1r).
+* [Superior One Game, One ROM (1G1R) functionality compared to other tools](retool-1g1r.md).
 
 * Priority-based region and language filtering.
 
 * Exclusions of unwanted title types like demos, applications, and more.
 
-* Regular expression filters for including or excluding titles.
+* Custom regular expression filters for including or excluding titles.
 
 * CLI and GUI versions.
 
@@ -30,6 +30,6 @@ like [CLRMamePro](https://mamedev.emulab.it/clrmamepro/),
 [Romcenter](https://www.romcenter.com/) to do your file management &mdash; you just don't
 need to use their 1G1R modes, as Retool has already done the work for you.
 
-[**Download Retool**](download)
+[**Download Retool**](download.md)
 
 ![A screenshot of the main Retool screen](images/main-app.png)

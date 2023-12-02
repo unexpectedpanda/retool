@@ -7,7 +7,7 @@ hide:
 
 What follows is a step-by-step walkthrough of using Retool CLI and all of its features. If
 you're new to DAT management, it might be beneficial to spend some time reading about
-[terminology](../terminology), and after you've filtered a DAT file with Retool, check
+[terminology](terminology.md), and after you've filtered a DAT file with Retool, check
 out the help documentation for your favorite ROM manager to learn how to use it.
 
 !!! Info
@@ -31,7 +31,7 @@ Before you can filter DAT files, they need to be on your hard drive.
 
     You might need to extract a ZIP file containing the DAT files to access them.
 
-1.  [Download Retool](../download), and follow the installation and update instructions for
+1.  [Download Retool](download.md), and follow the installation and update instructions for
     your platform.
 
 ## Basic usage
@@ -52,13 +52,13 @@ To process a DAT file without any options, enter the following command:
 ## The user-config.yaml file
 
 This file is user-editable, and contains the following configuration options for Retool.
-By default it is found in the `config` folder. See [an example of a `user-config.yaml` file](../user-config).
+By default it is found in the `config` folder. See [an example of a `user-config.yaml` file](user-config.md).
 
 ### Language order
 
 Optional. This is defined by the `language order` array. If you leave all languages
 commented out (preceded by a `#`), then Retool includes all languages during processing,
-and uses an [implied language order](../terminology/#implied-languages)
+and uses an [implied language order](terminology.md#implied-languages)
 derived from your region order.
 
 Order is important. For example, if you have the following title names in an input DAT
@@ -328,7 +328,7 @@ Settings are available at two levels in Retool: global and system.
   System settings are mostly the same as global settings, although their config files are
   slightly different. They are stored in the `config/systems` folder, and are YAML files
   named after their system and release group.
-  [See an example of a system settings config file](../system-config).
+  [See an example of a system settings config file](system-config.md).
 
 While it's possible to construct a system settings file by hand, it's more convenient to
 set the options in Retool's GUI and let it generate one for you. After the system config
