@@ -611,7 +611,13 @@ class IncludeExcludeTools(object):
 
             if found_current_titles:
                 for found_current_title in found_current_titles:
-                    processed_titles[found_current_title.group_name].remove(found_current_title)
+                    # Remove the cloneof property if it exists
+                    found_current_title.cloneof = ''
+
+                    # Remove the title from the group if found
+                    if found_current_title.group_name in processed_titles:
+                        if found_current_title in processed_titles[found_current_title.group_name]:
+                            processed_titles[found_current_title.group_name].remove(found_current_title)
 
             if include_title.group_name not in processed_titles:
                 processed_titles[include_title.group_name] = set()

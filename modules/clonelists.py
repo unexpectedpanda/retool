@@ -881,7 +881,7 @@ class CloneListTools(object):
 
                         # Convert files from CRLF to LF to verify if they need updating
                         try:
-                            with open(pathlib.Path(f'{local_path}/{file_name}'), 'r+', newline='\n') as file:
+                            with open(pathlib.Path(f'{local_path}/{file_name}'), 'r+', newline='\n', encoding='utf-8') as file:
                                 contents: str = file.read()
 
                                 file.seek(0)

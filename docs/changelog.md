@@ -5,6 +5,14 @@ hide:
 
 # Changelog
 
+
+## 2.01.7
+
+- Fixed a bug that would crash the clone list updater when it found unicode characters.
+- Fixed a bug that would crash Retool if you used an override to include some
+  compilations.
+
+
 ## 2.01.6
 
 - Added an extra code to the PlayStation 1 / 2 disc ID regex.
