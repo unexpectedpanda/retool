@@ -35,6 +35,7 @@ class Stats:
                  clones_count: int = 0,
                  languages_count: int = 0,
                  regions_count: int = 0,
+                 duplicate_titles_count: int = 0,
                  global_include_count: int = 0,
                  global_exclude_count: int = 0,
                  system_include_count: int = 0,
@@ -119,6 +120,9 @@ class Stats:
             - `regions_count (int, optional)` How many titles were removed due to a region
               filter. Defaults to `0`.
 
+            - `duplicate_titles_count (int, optional)` How many titles were removed due to
+              them being in a DAT file more than once. Defaults to `0`.
+
             - `global_include_count (int, optional)` How many titles were included due to a
               global override. Defaults to `0`.
 
@@ -166,6 +170,7 @@ class Stats:
         self.clones_count: int = clones_count
         self.languages_count: int = languages_count
         self.regions_count: int = regions_count
+        self.duplicate_titles_count: int = duplicate_titles_count
         self.global_include_count: int = global_include_count
         self.global_exclude_count: int = global_exclude_count
         self.system_include_count: int = system_include_count
@@ -243,6 +248,11 @@ def report_stats(config: Config) -> None:
         eprint(f'o  Titles assigned as clones: {str("{:,}".format(config.stats.clones_count))}')
     elif not config.user_input.no_1g1r:
         eprint(f'-  Clones removed: {str("{:,}".format(config.stats.clones_count))}')
+
+    if config.stats.duplicate_titles_count:
+        eprint(
+            '-  Duplicate titles found in DAT file and removed: '
+            f'{str("{:,}".format(config.stats.duplicate_titles_count))}')
 
     if config.user_input.no_add_ons:
         eprint(
@@ -410,6 +420,7 @@ def report_stats(config: Config) -> None:
             - config.stats.removes_count
             - config.stats.languages_count
             - config.stats.regions_count
+            - config.stats.duplicate_titles_count
             - config.stats.global_exclude_count
             - config.stats.system_exclude_count
             - config.stats.global_filter_count
@@ -420,7 +431,8 @@ def report_stats(config: Config) -> None:
             delta = delta - config.stats.clones_count
 
         if delta != config.stats.final_count:
-            eprint(f'{Font.error}\nStats mismatch delta vs final count: {str("{:,}".format(delta - config.stats.final_count))}{Font.end}. Often this means there\'s a duplicate entry in the clone list.')
+            eprint(f'{Font.error}\nStats mismatch delta vs final count: {str("{:,}".format(delta - config.stats.final_count))}. Usually this means there\'s a duplicate entry in')
+            eprint(f'the clone list or the DAT file.{Font.end}')
             eprint(f'\n{Font.disabled}Press enter to continue{Font.end}')
             input()
         else:

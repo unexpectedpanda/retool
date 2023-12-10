@@ -264,7 +264,7 @@ def setup_gui_global(main_window: Any, dat_details: dict[str, dict[str, str]], c
         main_window.threadpool.clear()
 
         main_window.ui.buttonStop.setEnabled(False)
-        main_window.ui.buttonStop.setText(qtc.QCoreApplication.translate('MainWindow', u'Stopping...', None)) # type: ignore
+        main_window.ui.buttonStop.setText(qtc.QCoreApplication.translate('MainWindow', u'Stopping...', None))
 
     main_window.ui.buttonStop.clicked.connect(lambda: stop_threads())
 
@@ -306,9 +306,9 @@ def setup_gui_system(main_window: Any, dat_details: dict[str, dict[str, str]], c
     metadata_file_not_found: str = 'No custom metadata file selected, using default metadata file location'
 
     # Reset the path labels
-    main_window.ui.labelSystemOutputFolder.setText(qtc.QCoreApplication.translate('MainWindow', output_not_found, None)) # type: ignore
-    main_window.ui.labelSystemCloneList.setText(qtc.QCoreApplication.translate('MainWindow', clone_list_not_found, None)) # type: ignore
-    main_window.ui.labelSystemMetadataFile.setText(qtc.QCoreApplication.translate('MainWindow', metadata_file_not_found, None)) # type: ignore
+    main_window.ui.labelSystemOutputFolder.setText(qtc.QCoreApplication.translate('MainWindow', output_not_found, None))
+    main_window.ui.labelSystemCloneList.setText(qtc.QCoreApplication.translate('MainWindow', clone_list_not_found, None))
+    main_window.ui.labelSystemMetadataFile.setText(qtc.QCoreApplication.translate('MainWindow', metadata_file_not_found, None))
 
     # Get the system exclude checkboxes
     system_exclude_checkboxes = main_window.ui.tabSystemExclusions.findChildren(qtw.QCheckBox, qtc.QRegularExpression('checkBoxSystemExclude.*'))
@@ -408,21 +408,21 @@ def setup_gui_system(main_window: Any, dat_details: dict[str, dict[str, str]], c
             main_window.ui.labelSystemOutputFolder.setText(config.system_output)
             main_window.system_output_folder = str(config.system_output)
         else:
-            main_window.ui.labelSystemOutputFolder.setText(qtc.QCoreApplication.translate('MainWindow', output_not_found, None)) # type: ignore
+            main_window.ui.labelSystemOutputFolder.setText(qtc.QCoreApplication.translate('MainWindow', output_not_found, None))
             main_window.system_output_folder = ''
 
         if config.system_clone_list:
             main_window.ui.labelSystemCloneList.setText(config.system_clone_list)
             main_window.system_clone_list = str(config.system_clone_list)
         else:
-            main_window.ui.labelSystemCloneList.setText(qtc.QCoreApplication.translate('MainWindow', clone_list_not_found, None)) # type: ignore
+            main_window.ui.labelSystemCloneList.setText(qtc.QCoreApplication.translate('MainWindow', clone_list_not_found, None))
             main_window.system_clone_list = ''
 
         if config.system_metadata_file:
             main_window.ui.labelSystemMetadataFile.setText(config.system_metadata_file)
             main_window.system_metadata_file = str(config.system_metadata_file)
         else:
-            main_window.ui.labelSystemMetadataFile.setText(qtc.QCoreApplication.translate('MainWindow', metadata_file_not_found, None)) # type: ignore
+            main_window.ui.labelSystemMetadataFile.setText(qtc.QCoreApplication.translate('MainWindow', metadata_file_not_found, None))
             main_window.system_metadata_file = ''
 
         # Set the system regions UI enabled/disabled depending on override state

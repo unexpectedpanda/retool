@@ -69,7 +69,7 @@ class SettingsWindow(qtw.QDialog):
         self.ui.labelCloneListsLocation.hide()
         self.ui.labelCloneListsLocation.deleteLater()
         self.ui.labelCloneListsLocation = ElisionLabel('', mode=qtc.Qt.ElideLeft, parent=self.ui.frameCloneListsLocation) # type: ignore
-        self.ui.labelCloneListsLocation.setText(qtc.QCoreApplication.translate('Settings', u'No clone list folder selected', None)) # type: ignore
+        self.ui.labelCloneListsLocation.setText(qtc.QCoreApplication.translate('Settings', u'No clone list folder selected', None))
         self.ui.labelCloneListsLocation.setObjectName(u'labelCloneListsLocation')
         self.ui.labelCloneListsLocation.setGeometry(qtc.QRect(50, 20, 531, 20))
         self.ui.labelCloneListsLocation.setStyleSheet('color: #777')
@@ -77,7 +77,7 @@ class SettingsWindow(qtw.QDialog):
         self.ui.labelMetadataLocation.hide()
         self.ui.labelMetadataLocation.deleteLater()
         self.ui.labelMetadataLocation = ElisionLabel('', mode=qtc.Qt.ElideLeft, parent=self.ui.frameMetadataLocation) # type: ignore
-        self.ui.labelMetadataLocation.setText(qtc.QCoreApplication.translate('Settings', u'No metadata folder selected', None)) # type: ignore
+        self.ui.labelMetadataLocation.setText(qtc.QCoreApplication.translate('Settings', u'No metadata folder selected', None))
         self.ui.labelMetadataLocation.setObjectName(u'labelMetadataLocation')
         self.ui.labelMetadataLocation.setGeometry(qtc.QRect(50, 20, 531, 20))
         self.ui.labelMetadataLocation.setStyleSheet('color: #777')

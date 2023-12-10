@@ -1017,27 +1017,27 @@ class ParentTools(object):
                         if (
                             (
                                 title_1.primary_region == 'World'
-                                and title_2.primary_region == 'USA'
+                                and 'USA' in [x for x in title_2.regions]
                             )
                             or (
-                                title_1.primary_region == 'USA'
+                                'USA' in [x for x in title_1.regions]
                                 and title_2.primary_region == 'World'
                             )
                             or (
                                 title_1.primary_region == 'World'
-                                and title_2.primary_region == 'Europe'
+                                and 'Europe' in [x for x in title_2.regions]
                             )
                             or (
-                                title_1.primary_region == 'Europe'
+                                'Europe' in [x for x in title_1.regions]
                                 and title_2.primary_region == 'World'
                             )
                             or (
                                 title_1.primary_region == 'World'
-                                and title_2.primary_region == 'Japan'
+                                and 'Japan' in [x for x in title_2.regions]
                             )
                             or (
-                                    title_1.primary_region == 'Japan'
-                                    and title_2.primary_region == 'World'
+                                'Japan' in [x for x in title_1.regions]
+                                and title_2.primary_region == 'World'
                             )):
                                 continue
 
@@ -1220,14 +1220,14 @@ class ParentTools(object):
 
         for title_1, title_2 in itertools.combinations(title_set, 2):
             # Normalize titles that contain "Version #", "(v#)" and "v#" formatting
-            title_1_name_normalized: str = re.sub(' Version ((\d\.?)+)', ' (v\\1)', title_1.full_name)
-            title_2_name_normalized: str = re.sub(' Version ((\d\.?)+)', ' (v\\1)', title_2.full_name)
-            title_1_name_normalized = re.sub(' (v(\d\.?)+)', ' (\\1)', title_1_name_normalized)
-            title_2_name_normalized = re.sub(' (v(\d\.?)+)', ' (\\1)', title_2_name_normalized)
+            title_1_name_normalized: str = re.sub(' Version ((\\d\\.?)+)', ' (v\\1)', title_1.full_name)
+            title_2_name_normalized: str = re.sub(' Version ((\\d\\.?)+)', ' (v\\1)', title_2.full_name)
+            title_1_name_normalized = re.sub(' (v(\\d\\.?)+)', ' (\\1)', title_1_name_normalized)
+            title_2_name_normalized = re.sub(' (v(\\d\\.?)+)', ' (\\1)', title_2_name_normalized)
 
             # Fix bad beta tags
-            title_1_name_normalized = re.sub(' \((v(\d\.?)+)beta\)', ' (\\1) (Beta)', title_1_name_normalized)
-            title_2_name_normalized = re.sub(' \((v(\d\.?)+)beta\)', ' (\\1) (Beta)', title_2_name_normalized)
+            title_1_name_normalized = re.sub(' \\((v(\\d\\.?)+)beta\\)', ' (\\1) (Beta)', title_1_name_normalized)
+            title_2_name_normalized = re.sub(' \\((v(\\d\\.?)+)beta\\)', ' (\\1) (Beta)', title_2_name_normalized)
 
             if (
                 title_1.short_name == title_2.short_name
@@ -1286,17 +1286,17 @@ class ParentTools(object):
                                         ver_2_parsed: list[Any] = [[ver_2]]
 
                                         # Compensate for bad version strings that start with '.'
-                                        if re.search('^\.', ver_1):
-                                            ver_1 = re.sub('^\.', '0.', ver_1)
+                                        if re.search('^\\.', ver_1):
+                                            ver_1 = re.sub('^\\.', '0.', ver_1)
 
                                         if re.search('^.', ver_2):
-                                            ver_2 = re.sub('^\.', '0.', ver_2)
+                                            ver_2 = re.sub('^\\.', '0.', ver_2)
 
                                         if '.' in ver_1:
-                                            ver_1_parsed = list(map(lambda x: re.findall('(\d+|[A-za-z]+)', x), ver_1.split('.')))
+                                            ver_1_parsed = list(map(lambda x: re.findall('(\\d+|[A-za-z]+)', x), ver_1.split('.')))
 
                                         if '.' in ver_2:
-                                            ver_2_parsed = list(map(lambda x: re.findall('(\d+|[A-za-z]+)', x), ver_2.split('.')))
+                                            ver_2_parsed = list(map(lambda x: re.findall('(\\d+|[A-za-z]+)', x), ver_2.split('.')))
 
                                         # Leading zeroes handling: compensate for leading zeroes in subversions
                                         ver_compare = (ver_1_parsed,) + (ver_2_parsed,)
@@ -1406,25 +1406,25 @@ class ParentTools(object):
 
                             # Preprocess special version types
                             if pattern == config.regex.fds_version:
-                                title_1_ver = max(re.findall('\d+', title_1_ver))
-                                title_2_ver = max(re.findall('\d+', title_2_ver))
+                                title_1_ver = max(re.findall('\\d+', title_1_ver))
+                                title_2_ver = max(re.findall('\\d+', title_2_ver))
                             elif pattern == config.regex.nec_mastering_code:
                                 title_1_ver = max(title_1_ver.split(', '))
                                 title_2_ver = max(title_2_ver.split(', '))
                             elif pattern == config.regex.sega_panasonic_ring_code:
                                 if (
-                                    re.search('\d+', title_1_ver)
-                                    and re.search('\d+', title_2_ver)):
-                                        title_1_ver = str(max([int(i) for i in re.findall('\d+', title_1_ver)]))
-                                        title_2_ver = str(max([int(i) for i in re.findall('\d+', title_2_ver)]))
+                                    re.search('\\d+', title_1_ver)
+                                    and re.search('\\d+', title_2_ver)):
+                                        title_1_ver = str(max([int(i) for i in re.findall('\\d+', title_1_ver)]))
+                                        title_2_ver = str(max([int(i) for i in re.findall('\\d+', title_2_ver)]))
                                 elif (
-                                    re.search('\d+', title_1_ver)
-                                    and not re.search('\d+', title_2_ver)):
+                                    re.search('\\d+', title_1_ver)
+                                    and not re.search('\\d+', title_2_ver)):
                                         title_1_ver = '1'
                                         title_2_ver = '0'
                                 elif (
-                                    re.search('\d+', title_2_ver)
-                                    and not re.search('\d+', title_1_ver)):
+                                    re.search('\\d+', title_2_ver)
+                                    and not re.search('\\d+', title_1_ver)):
                                         title_1_ver = '0'
                                         title_2_ver = '1'
 
@@ -1433,27 +1433,27 @@ class ParentTools(object):
                             title_1_ver = title_1_ver.replace('PS3 ', '').replace('-to-', ', ').replace(' - AGI', ',')
                             title_2_ver = title_2_ver.replace('PS3 ', '').replace('-to-', ', ').replace('- AGI', ',')
 
-                            match_1_length: int = len(re.findall('v[\d+\.\-]+', title_1_ver))
-                            match_2_length: int = len(re.findall('v[\d+\.\-]+', title_2_ver))
+                            match_1_length: int = len(re.findall('v[\\d+\\.\\-]+', title_1_ver))
+                            match_2_length: int = len(re.findall('v[\\d+\\.\\-]+', title_2_ver))
 
-                            if re.search('v[\d+\.]+(?:, )\d{4}-\d{2}-\d{2}', title_1_ver):
-                                match_1_length = len(re.findall('(v[\d+\.]+|\d{4}-\d{2}-\d{2})', title_1_ver))
+                            if re.search('v[\\d+\\.]+(?:, )\\d{4}-\\d{2}-\\d{2}', title_1_ver):
+                                match_1_length = len(re.findall('(v[\\d+\\.]+|\\d{4}-\\d{2}-\\d{2})', title_1_ver))
 
-                            if re.search('v[\d+\.]+(?:, )\d{4}-\d{2}-\d{2}', title_2_ver):
-                                match_2_length = len(re.findall('(v[\d+\.]+|\d{4}-\d{2}-\d{2})', title_2_ver))
+                            if re.search('v[\\d+\\.]+(?:, )\\d{4}-\\d{2}-\\d{2}', title_2_ver):
+                                match_2_length = len(re.findall('(v[\\d+\\.]+|\\d{4}-\\d{2}-\\d{2})', title_2_ver))
 
                             if (
                                 match_1_length == 2
                                 and match_2_length == 2):
                                     # Split the versions
-                                    title_1_ver_a = re.findall('[\d+\.\-]+', title_1_ver)[0]
-                                    title_1_ver_b = str(re.findall('[\d+\.\-]+', title_1_ver)[1]).replace('-', '.')
-                                    title_2_ver_a = re.findall('[\d+\.\-]+', title_2_ver)[0]
-                                    title_2_ver_b = str(re.findall('[\d+\.\-]+', title_2_ver)[1]).replace('-', '.')
+                                    title_1_ver_a = re.findall('[\\d+\\.\\-]+', title_1_ver)[0]
+                                    title_1_ver_b = str(re.findall('[\\d+\\.\\-]+', title_1_ver)[1]).replace('-', '.')
+                                    title_2_ver_a = re.findall('[\\d+\\.\\-]+', title_2_ver)[0]
+                                    title_2_ver_b = str(re.findall('[\\d+\\.\\-]+', title_2_ver)[1]).replace('-', '.')
 
                                     # Normalize the primary version lengths
-                                    title_1_ver_a_parsed = list(map(lambda x: re.findall('[\d+\.\-]+', x), title_1_ver_a.split('.')))
-                                    title_2_ver_a_parsed = list(map(lambda x: re.findall('[\d+\.\-]+', x), title_2_ver_a.split('.')))
+                                    title_1_ver_a_parsed = list(map(lambda x: re.findall('[\\d+\\.\\-]+', x), title_1_ver_a.split('.')))
+                                    title_2_ver_a_parsed = list(map(lambda x: re.findall('[\\d+\\.\\-]+', x), title_2_ver_a.split('.')))
 
                                     primary_version_zip: list[Any] = list(itertools.zip_longest(title_1_ver_a_parsed, title_2_ver_a_parsed, fillvalue=['0']))
 
@@ -1465,8 +1465,8 @@ class ParentTools(object):
                                     title_2_ver = f'{title_2_ver}.{title_2_ver_b}'
 
                             # Remove known prefixes and strip whitespace
-                            title_1_ver = re.sub('version|^(v|Rev|Version|Beta|Alpha|Proto|Build)|\s', '', title_1_ver, flags=re.I)
-                            title_2_ver = re.sub('version|^(v|Rev|Version|Beta|Alpha|Proto|Build)|\s', '', title_2_ver, flags=re.I)
+                            title_1_ver = re.sub('version|^(v|Rev|Version|Beta|Alpha|Proto|Build)|\\s', '', title_1_ver, flags=re.I)
+                            title_2_ver = re.sub('version|^(v|Rev|Version|Beta|Alpha|Proto|Build)|\\s', '', title_2_ver, flags=re.I)
 
                             # Compensate for Doom version wackiness
                             if '666' in title_1_ver and 'Doom' in title_1.full_name: title_1_ver.replace('666', '6.6.6')
@@ -2033,12 +2033,7 @@ class ParentTools(object):
 
                     if report_on_match: TraceTools.trace_title('REF0007', [group_name], parent_titles, keep_remove=False)
 
-                    # 9) Preference titles with more regions that are higher up the region priority
-                    if len(parent_titles) > 1: parent_titles = ParentTools.choose_multi_regions(parent_titles, region_order, world_is_usa_europe_japan = False, report_on_match = report_on_match)
-
-                    if report_on_match: TraceTools.trace_title('REF0008', [group_name], parent_titles, keep_remove=False)
-
-                    # 10 Choose video standard
+                    # 9 Choose video standard
                     video_order: list[str] = config.video_order_user
 
                     if config.system_video_order_user:
@@ -2051,10 +2046,15 @@ class ParentTools(object):
 
                     if report_on_match: TraceTools.trace_title('REF0096', [group_name], parent_titles, keep_remove=False)
 
-                    # 11) Second language pass -- required to allow versions/revisions to be correctly selected
+                    # 10) Second language pass -- required to allow versions/revisions to be correctly selected
                     if len(parent_titles) > 1: parent_titles = ParentTools.choose_language(parent_titles, config, report_on_match, first_time=False)
 
                     if report_on_match: TraceTools.trace_title('REF0043', [group_name], parent_titles, keep_remove=False)
+
+                    # 11) Preference titles with more regions that are higher up the region priority
+                    if len(parent_titles) > 1: parent_titles = ParentTools.choose_multi_regions(parent_titles, region_order, world_is_usa_europe_japan = False, report_on_match = report_on_match)
+
+                    if report_on_match: TraceTools.trace_title('REF0008', [group_name], parent_titles, keep_remove=False)
 
                     # 12) Choose original versions over alternatives
                     if len(parent_titles) > 1: parent_titles = ParentTools.choose_string(config.regex.alt, parent_titles, report_on_match, choose_title_with_string=False)
@@ -2181,12 +2181,19 @@ class ParentTools(object):
                                 cross_region_parent_titles.remove(title_1)
 
             # TODO: Should these next few sections be ignoring supersets?
+            # Check if a system config is in play
+            region_order = config.region_order_user
+
+            if config.system_region_order_user:
+                if {'override': 'true'} in config.system_region_order_user:
+                    region_order = [str(x) for x in config.system_region_order_user if 'override' not in x]
+
             # Check if there's a shared region between titles. If so, check which title has more of the user's languages
             if len(cross_region_parent_titles) > 1:
                 remove_titles: set[str] = set()
                 language_winner: set[DatNode] = set()
 
-                for region in config.region_order_user:
+                for region in region_order:
                     for title_1, title_2 in itertools.combinations([x for x in cross_region_parent_titles if region in x.regions], 2):
                             if title_1.short_name == title_2.short_name:
                                 language_winner = ParentTools.choose_language({title_1, title_2}, config, report_on_match)
@@ -2203,13 +2210,6 @@ class ParentTools(object):
 
             # Choose a title that has more regions, or higher priority regions
             if len(cross_region_parent_titles) > 1:
-                # Check if a system config is in play
-                region_order = config.region_order_user
-
-                if config.system_region_order_user:
-                    if {'override': 'true'} in config.system_region_order_user:
-                        region_order = [str(x) for x in config.system_region_order_user if 'override' not in x]
-
                 cross_region_parent_titles = ParentTools.choose_multi_regions(cross_region_parent_titles, region_order, world_is_usa_europe_japan=False, report_on_match=report_on_match)
 
                 if report_on_match: TraceTools.trace_title('REF0102', [group_name], cross_region_parent_titles, keep_remove=False)

@@ -221,7 +221,7 @@ class CustomPushButton(qtw.QPushButton):
         self._animation.setStartValue(qtg.QColor("#c3f1d6"))
         self._animation.setEndValue(qtg.QColor("lightgrey"))
         self._animation.setDuration(300)
-        self._animation.valueChanged.connect(self._on_value_changed) # type: ignore
+        self._animation.valueChanged.connect(self._on_value_changed)
         self._update_stylesheet(qtg.QColor("lightgrey"), qtg.QColor("black"))
 
 
@@ -434,7 +434,7 @@ def custom_widgets(main_window: Any) -> Any:
     sizePolicy.setHeightForWidth(main_window.ui.buttonGo.sizePolicy().hasHeightForWidth())
 
     main_window.ui.buttonStop = CustomPushButton(main_window.ui.centralwidget)
-    main_window.ui.buttonStop.setText(qtc.QCoreApplication.translate('MainWindow', u'Stop', None)) # type: ignore
+    main_window.ui.buttonStop.setText(qtc.QCoreApplication.translate('MainWindow', u'Stop', None))
     main_window.ui.buttonStop.setObjectName(u'buttonStop')
     main_window.ui.buttonStop.setGeometry(qtc.QRect(801, 530, 140, 45))
     main_window.ui.buttonStop.setSizePolicy(sizePolicy)

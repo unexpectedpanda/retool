@@ -216,11 +216,9 @@ class DatNode:
 
         self.regions_str: str = TitleTools.regions(self.full_name, config, 'get')
 
-        # Reweight larger regions when considering multi-region titles
-        larger_regions: list[str] = ['USA', 'Europe', 'Japan', 'Asia']
-        reweighted_regions: list[str] = larger_regions + [region for region in config.region_order_default if region not in larger_regions]
+        regions: list[str] = [region for region in config.region_order_default]
 
-        self.regions = tuple([region for region in reweighted_regions if region in self.regions_str])
+        self.regions = tuple([region for region in regions if region in self.regions_str])
 
         if not self.regions:
             self.regions = ('Unknown',)
@@ -228,8 +226,26 @@ class DatNode:
         self.primary_region = self.regions[0]
         self.primary_region_original = self.primary_region
 
+        # Get the primary region based on the region order
+        region_order: list[str] = config.region_order_user
+
+        if config.system_region_order_user:
+            if {'override': 'true'} in config.system_region_order_user:
+                region_order = [str(x) for x in config.system_region_order_user if 'override' not in x]
+
+        self.regions = tuple([region for region in config.region_order_default if region in self.regions_str])
+
         if len(self.regions) > 1:
-            self.secondary_region = self.regions[1]
+            for region in region_order:
+                if region in self.regions:
+                    self.primary_region = region
+                    break
+
+        if not self.primary_region:
+            self.primary_region = self.regions[0]
+
+        if len(self.regions) > 1:
+            self.secondary_region = [x for x in self.regions if x not in [self.primary_region]][0]
 
         if self.primary_region in config.languages_implied:
             self.languages_implied = config.languages_implied[self.primary_region]
@@ -387,12 +403,6 @@ class DatNode:
                     language_order = [str(x) for x in config.system_language_order_user if 'override' not in x]
         else:
             language_order = config.region_order_languages_user
-
-        region_order: list[str] = config.region_order_user
-
-        if config.system_region_order_user:
-            if {'override': 'true'} in config.system_region_order_user:
-                region_order = [str(x) for x in config.system_region_order_user if 'override' not in x]
 
         for i, region in enumerate(region_order):
             if region in self.regions:
@@ -1208,27 +1218,34 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput|None, confi
             # Create a dictionary of titles sorted by group name
             original_titles: dict[str, set[DatNode]] = {}
 
-            duplicate_titles: set[str] = set()
+            duplicate_titles: set[DatNode] = set()
+            duplicate_names: set[str] = set()
 
             for title in process_list:
                 if title.group_name not in original_titles:
                     original_titles[title.group_name] = set()
 
-                # Check there isn't a duplicate title in the group, as No-Intro
+                # Check there isn't a duplicate title or name in the group, as No-Intro
                 # doesn't check for these things
                 for original_title in original_titles[title.group_name]:
                     if original_title.full_name == title.full_name:
-                        # Get the current dupe number
+                        # Check first if the entire title is duplicated, use the <rom>
+                        # node a proxy
+                        if original_title.roms == title.roms:
+                            duplicate_titles.add(title)
+                            continue
+
+                        # Rename files with the same filename. First, get the current dupe number.
                         dupe_number: int = 0
 
-                        if re.search(' \(Dupe \d+\)', title.full_name):
-                            dupe_string: str = pattern2string(re.compile(' \(Dupe \d+\)'), title.full_name)
-                            dupe_number = int(pattern2string(re.compile('\d+'), dupe_string)) + 1
-                            title.full_name = re.sub(' \(Dupe \d+\)', '', title.full_name)
-                            title.description = re.sub(' \(Dupe \d+\)', '', title.description)
-                            title.short_name = re.sub(' \(Dupe \d+\)', '', title.short_name)
-                            title.tag_free_name = re.sub(' \(Dupe \d+\)', '', title.tag_free_name)
-                            title.region_free_name = re.sub(' \(Dupe \d+\)', '', title.region_free_name)
+                        if re.search(' \\(Dupe \\d+\\)', title.full_name):
+                            dupe_string: str = pattern2string(re.compile(' \\(Dupe \\d+\\)'), title.full_name)
+                            dupe_number = int(pattern2string(re.compile('\\d+'), dupe_string)) + 1
+                            title.full_name = re.sub(' \\(Dupe \\d+\\)', '', title.full_name)
+                            title.description = re.sub(' \\(Dupe \\d+\\)', '', title.description)
+                            title.short_name = re.sub(' \\(Dupe \\d+\\)', '', title.short_name)
+                            title.tag_free_name = re.sub(' \\(Dupe \\d+\\)', '', title.tag_free_name)
+                            title.region_free_name = re.sub(' \\(Dupe \\d+\\)', '', title.region_free_name)
                         else:
                             dupe_number += 1
 
@@ -1239,24 +1256,32 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput|None, confi
                         title.tag_free_name = f'{title.tag_free_name} (Dupe {dupe_number})'
                         title.region_free_name = f'{title.region_free_name} (Dupe {dupe_number})'
 
-                        if f'{before_rename} > {title.full_name}' not in duplicate_titles:
-                            duplicate_titles.add(f'{Font.warning_bold}{before_rename}{Font.warning} -> {Font.warning_bold}{title.full_name}{Font.warning}')
+                        if f'{before_rename} > {title.full_name}' not in duplicate_names:
+                            duplicate_names.add(f'{Font.warning_bold}{before_rename}{Font.warning} -> {Font.warning_bold}{title.full_name}{Font.warning}')
 
                 original_titles[title.group_name].add(title)
+
+            # Remove duplicate titles
+            for title in duplicate_titles:
+                if title in process_list:
+                    config.stats.duplicate_titles_count += 1
+                    process_list.remove(title)
+                if title in original_titles[title.group_name]:
+                    original_titles[title.group_name].remove(title)
 
             input_dat.contents_dict = original_titles
 
             if not (config.user_input.trace or config.user_input.single_cpu):
                 bar() # type: ignore
 
-            if duplicate_titles:
+            if duplicate_names:
                 printwrap(
                     f'{Font.warning}* The following titles with identical names were found in '
                     'the input DAT, and will be renamed. They won\'t be processed as clones:', 'error')
 
                 eprint('')
 
-                for duplicate_title in sorted(duplicate_titles):
+                for duplicate_title in sorted(duplicate_names):
                     eprint(f'  *  {duplicate_title}')
 
                 eprint(f'{Font.end}')

@@ -36,7 +36,7 @@ assert sys.version_info >= (3, 10)
 
 dat_details: dict[str, dict[str, str]] = {}
 
-def main():
+def main() -> None:
     multiprocessing.freeze_support()
 
     # Make sure everything scales as expected across multiple PPI settings
@@ -127,14 +127,14 @@ class MainWindow(qtw.QMainWindow):
         # Set up a timer on the splitter move before writing to config
         timer_splitter = qtc.QTimer(self)
         timer_splitter.setSingleShot(True)
-        timer_splitter.timeout.connect(lambda: write_config(self, dat_details, self.config, settings_window=None)) # type: ignore
+        timer_splitter.timeout.connect(lambda: write_config(self, dat_details, self.config, settings_window=None))
 
         self.ui.splitter.splitterMoved.connect(lambda: timer_splitter.start(500))
 
         # Set up a timer on the window resize move before writing to config
         self.timer_resize = qtc.QTimer(self)
         self.timer_resize.setSingleShot(True)
-        self.timer_resize.timeout.connect(lambda: write_config(self, dat_details, self.config, settings_window=None)) # type: ignore
+        self.timer_resize.timeout.connect(lambda: write_config(self, dat_details, self.config, settings_window=None))
 
         # Add all widgets to a list that should trigger a config write if interacted with
         interactive_widgets = []
@@ -174,7 +174,7 @@ class MainWindow(qtw.QMainWindow):
             self.ui.buttonGo.setEnabled(True)
             self.ui.buttonStop.hide()
             self.ui.buttonGo.show()
-            self.ui.buttonStop.setText(qtc.QCoreApplication.translate("MainWindow", u"Stop", None)) #type: ignore
+            self.ui.buttonStop.setText(qtc.QCoreApplication.translate("MainWindow", u"Stop", None))
             self.ui.buttonStop.setEnabled(True)
             self.ui.mainProgram.setEnabled(True)
 

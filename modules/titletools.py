@@ -850,11 +850,11 @@ class Regex:
 
         # Possibly production
         self.not_for_resale: Pattern[str] = re.compile('\\((?:Hibaihin|Not for Resale)\\)', flags=re.I)
-        self.review: Pattern[str] = re.compile('\(Review (Code|Kit [0-9]+)\)', re.IGNORECASE)
+        self.review: Pattern[str] = re.compile('\\(Review (Code|Kit [0-9]+)\\)', re.IGNORECASE)
 
         # Versions
         self.version: Pattern[str] = re.compile('\\(v[\\.0-9].*?\\)', flags=re.I)
-        self.version_non_parens: Pattern[str] = re.compile('(?<!^)(?<=\(|\s)v(?:\d\.?)+')
+        self.version_non_parens: Pattern[str] = re.compile('(?<!^)(?<=\\(|\\s)v(?:\\d\\.?)+')
         self.long_version: Pattern[str] = re.compile('\\s?(?!Version Vol\\.|Version \\(|Version$|Version -|Version \\d-)(?: - )?\\(?(?:\\((?:\\w[\\.\\-]?\\s*)*|)[Vv]ers(?:ion|ao)\\s?(?:[\\d\\.\\-]+)+[A-Za-z]?(?: (?:\\d-?)+)?.*?(?:(?:\\w[\\.\\-]?\\s*)*\\))?')
         self.revision: Pattern[str] = re.compile('\\(Rev(?: [0-9A-Z].*?)?\\)', flags=re.I)
         self.build: Pattern[str] = re.compile('\\(Build [0-9].*?\\)', flags=re.I)
@@ -892,7 +892,7 @@ class Regex:
         self.edc: Pattern[str] = re.compile('\\(EDC\\)', flags=re.I)
         self.fmtowns_marty: Pattern[str] = re.compile('\\(FM Towns Marty.*?\\)', flags=re.I)
         self.homebrew: Pattern[str] = re.compile('\\(Homebrew\\)', flags=re.I)
-        self.languages: Pattern[str] = re.compile('\\(((' + LANGUAGES + ')(,\s?)?)*\\)')
+        self.languages: Pattern[str] = re.compile('\\(((' + LANGUAGES + ')(,\\s?)?)*\\)')
         self.madein: Pattern[str] = re.compile('\\(Made in.*?\\)', flags=re.I)
         self.manuals: Pattern[str] = re.compile('\\(Manual\\)', flags=re.I)
         self.multimedia: Pattern[str] = re.compile('\\(Magazine\\)', flags=re.I)
@@ -913,11 +913,11 @@ class Regex:
             re.compile('\\(\\d{4}-\\d{2}-\\d{2}T\\d{6}\\)'),
             re.compile('\\((\\d{4}-\\d{2})-xx\\)'),
             re.compile('\\((\\d{4})-xx-xx\\)'),
-            re.compile('\\((January|February|March|April|May|June|July|August|September|October|November|December),\s?\\d{4}\\)', flags=re.I)
+            re.compile('\\((January|February|March|April|May|June|July|August|September|October|November|December),\\s?\\d{4}\\)', flags=re.I)
         )
 
         self.demos: tuple[Pattern[str], ...] = (
-            re.compile('\\((?:\\w[-.]?\\s*)*Demo(?:,?\\s[\\w0-9\.]*)*\\)', flags=re.I),
+            re.compile('\\((?:\\w[-.]?\\s*)*Demo(?:,?\\s[\\w0-9\\.]*)*\\)', flags=re.I),
             re.compile('Taikenban', flags=re.I),
             re.compile('\\(@barai\\)', flags=re.I),
             re.compile('\\(GameCube Preview\\)', flags=re.I),
@@ -1474,8 +1474,8 @@ class TitleTools(object):
         for character in config.sanitized_characters:
             if character in name:
                 if character == ':':
-                    if re.search('(\S):\s', name):
-                        name = re.sub('(\S):\s', '\\1 - ', name)
+                    if re.search('(\\S):\\s', name):
+                        name = re.sub('(\\S):\\s', '\\1 - ', name)
                     else:
                         name = name.replace(character, '-')
                 elif character == '"':

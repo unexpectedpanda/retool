@@ -190,7 +190,7 @@ def main(gui_input: UserInput|None = None) -> None:
                 processed_titles: dict[str, set[DatNode]] = deepcopy(input_dat.contents_dict)
 
                 # Record the original title count in the DAT
-                config.stats.original_count = len([val for lst in processed_titles.values() for val in lst])
+                config.stats.original_count = len([val for lst in processed_titles.values() for val in lst]) + config.stats.duplicate_titles_count
 
                 # Process the clone lists
                 if not config.user_input.no_1g1r:

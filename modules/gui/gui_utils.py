@@ -158,7 +158,7 @@ def enable_go_button(main_window: Any) -> None:
     if not disabled:
         main_window.ui.buttonGo.setToolTip('')
     else:
-        main_window.ui.buttonGo.setToolTip(qtc.QCoreApplication.translate('MainWindow', f'{message}', None)) # type: ignore
+        main_window.ui.buttonGo.setToolTip(qtc.QCoreApplication.translate('MainWindow', f'{message}', None))
 
 
 def get_system_name(dat_file_path: str, config: Config) -> str:

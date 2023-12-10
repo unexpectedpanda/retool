@@ -6,6 +6,44 @@ hide:
 # Changelog
 
 
+## 2.01.8
+
+- Retool now makes better selection choices when a multi-region title is
+  involved. Mostly this affects users that place Europe higher than USA in their
+  region priority, however USA users might notice improvements in some places
+  too, particularly when selecting single titles in preference of compilations.
+
+  For example, if a DAT file contains the following titles:
+
+  ```
+  Example title (USA)
+  Example title (USA, Europe) (Rev 1)
+  Example title (Europe) (Rev 2)
+  ```
+
+  And you put Europe above USA in your region order, Retool used to choose
+  `Example title (USA, Europe) (Rev 1)`, as it had multiple regions. Now, it
+  chooses `Example title (Europe) (Rev 2)`, giving you the higher revision.
+
+  Additionally, language selection is now weighted higher than multi-region
+  selection during in-region comparison (for example, Europe versus Europe
+  titles, USA versus USA titles). This results in smarter selection choices,
+  particularly where European titles are involved.
+
+  For example, if a DAT file contains the following titles:
+
+  ```
+  Example Title (Europe, Australia) (En,It)
+  Example Title (Europe) (En,De)
+  ```
+
+  And your region order begins with Europe > Germany, Retool used to select
+  `Example Title (Europe, Australia) (En,It)` as it had multiple regions, even
+  though the title that supports German is clearly the better choice for the
+  user. It now selects `Example Title (Europe) (En,De)` instead, as it should.
+- If there are duplicate `game` nodes in an input DAT, they are now removed.
+
+
 ## 2.01.7
 
 - Fixed a bug that would crash the clone list updater when it found unicode characters.
