@@ -6,6 +6,12 @@ hide:
 # Changelog
 
 
+## 2.01.9
+
+- Added a few extra No-Intro DAT formats to take into account recent Lynx
+  changes.
+
+
 ## 2.01.8
 
 - Retool now makes better selection choices when a multi-region title is
