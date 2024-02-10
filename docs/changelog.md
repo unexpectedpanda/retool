@@ -6,7 +6,7 @@ hide:
 # Changelog
 
 
-## 2.02.0 (2024/02/08)
+## 2.02.0 (2024-02-08)
 
 -   **_Breaking change_**: The clone list format has changed. Update to 2.02.0
     to avoid issues.
@@ -18,7 +18,7 @@ hide:
     `シャイニング●フォースII 『古の封印』 (Japan)`. Tags like `(Japan)` and
     `(Disc 1)` remain in English.
 
-    Open the **Localization** tab to choose which languages to enable local
+    Open the **Local names** tab to choose which languages to enable local
     names for, and to set language priorities for titles with multiple local
     names.
 
@@ -62,7 +62,7 @@ hide:
     - **`matchRegions`**: `array[string]`. Regions a title must have for the
       condition to be true.
 
-    - **`matchLanguages`**: `array[string]`. Regions a title must have for the
+    - **`matchLanguages`**: `array[string]`. Languages a title must have for the
       condition to be true.
 
     - **`matchString`**: `regex string`. A regex string that must find a match
@@ -118,8 +118,8 @@ hide:
     }
     ```
 
-    You don't need a filter to apply the `englishFriendly` tag &mdash; it's available at
-    the `searchTerm` level as well.
+    You don't always need a filter to apply the `englishFriendly` tag &mdash; it's
+    available at the `searchTerm` level as well.
 
 -   **_Change_**: To better support regional language variants, the following
     languages have been split:
@@ -139,7 +139,8 @@ hide:
 
     - Spanish is now available as Spanish, Spanish (Latin American), and Spanish
       (Mexican). Mexican titles with no language set are now set to `Es-MX`
-      instead of `Es.`
+      instead of `Es.` Latin American titles with no languages set are now set to
+      `Es-XL`.
 
     - French is now available as French and French (Canadian).
 
@@ -149,7 +150,7 @@ hide:
     to tell language support for a title programmatically. If you find an `Asia`
     title with no languages listed, get No-Intro or Redump to fix it.
 
--   **_Change_**: There's now a check if a DAT tries to start a filename with
+-   **_Change_**: There's now a check if a DAT file starts a filename with
     `.`. In these circumstances, it's replaced with the fixed-width version,
     `．`.
 
@@ -321,7 +322,7 @@ hide:
 
 -   **_Fix_**: Windows: Fixed checkboxes flickering on hover on 4k monitors.
 
--   **_Fix_**: Ubuntu dark mode fixes: link colors are now more readable, title
+-   **_Fix_**: Ubuntu: link colors are now more readable in dark mode, and title
     tool fields are no longer white text on a white background.
 
 
