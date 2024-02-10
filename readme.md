@@ -1,8 +1,8 @@
 # Retool
 
 > [!TIP]
- > This is the source repository for Retool. For downloads, installation instructions, and
-   documentation, see the [website](https://unexpectedpanda.github.io/retool/).
+> **This is the source repository for Retool. For downloads, installation instructions, and
+  documentation, see the [website](https://unexpectedpanda.github.io/retool/).**
 
 Retool is a filter utility for [Redump](http://www.redump.org/) and [No-Intro](https://datomatic.no-intro.org/index.php?page=download)
 DAT files. By customizing the DAT files before you load them into a ROM manager, you can more
@@ -20,7 +20,7 @@ Retool offers the following features:
 
 * Custom regular expression filters for including or excluding titles.
 
-* Localized filenames for titles, such as ``シャイニング●フォースⅡ 『古の封印』` instead of
+* Local filenames for titles, such as ``シャイニング●フォースⅡ 『古の封印』` instead of
   `Shining Force II - Inishie no Fuuin`.
 
 * CLI and GUI versions.
