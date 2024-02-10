@@ -50,10 +50,6 @@ class ParentTools(object):
         compilations_removed: set[DatNode] = set()
         individual_titles: set[DatNode] = set()
 
-        # Set up title tracking
-        report_on_match: bool = False
-        report_on_match_compilations: bool = False
-
         # Check if a system config is in play
         region_order: list[str] = config.region_order_user
 
@@ -64,18 +60,18 @@ class ParentTools(object):
         # Get the current individual 1G1R titles related to the available compilations
         for compilation in compilations:
             for contains_title in [x for x in compilation.contains_titles.keys()]:
-                group = TitleTools.get_group_name(contains_title, config)
+                group = contains_title.lower()
                 if group in all_titles:
                     parent_names: list[str] = [x.full_name for x in all_titles[group] if not x.cloneof]
                     parent_titles: list[DatNode] = [x for x in all_titles[group] if x.full_name in parent_names]
 
                     for parent_title in parent_titles:
-                        if TitleTools.get_group_name(parent_title.short_name, config) == group:
+                        if parent_title.group_name == group:
                             individual_titles.add(parent_title)
 
         # Set up title tracking
-        report_on_match = False
-        report_on_match_compilations = False
+        report_on_match: bool = False
+        report_on_match_compilations: bool = False
 
         if config.user_input.trace:
             report_on_match = TraceTools.trace_enable(compilations | individual_titles, config.user_input.trace)
@@ -182,7 +178,7 @@ class ParentTools(object):
         compilation_groups: set[frozenset[str]] = set()
 
         for title in compilations:
-            compilation_groups.add(frozenset([TitleTools.get_group_name(x, config) for x in title.contains_titles]))
+            compilation_groups.add(frozenset([x for x in title.contains_titles]))
 
         # Find the groups that have crossover titles. For example, compilations A + B
         # and A + C return a, b, c. Code from
@@ -211,7 +207,7 @@ class ParentTools(object):
 
         for groups in crossover_groups:
             report_on_match_compilations = False
-            for group in groups:
+            for group in sorted(groups):
                 group_titles: set[DatNode] = set()
 
                 if group not in title_comparison:
@@ -292,7 +288,7 @@ class ParentTools(object):
                 title_comparison[group] = list(sorted(group_titles, key=lambda x: x.full_name))
 
                 # Tie breaker - filter by user language order, taking region into account
-                # This is run now as doing a full language filter earlier selects compilations over individual titles
+                # This is run now because doing a full language filter earlier selects compilations over individual titles
                 group_titles = ParentTools.choose_language(title_comparison_set, config, report_on_match_compilations, first_time=False)
 
                 # Tie breaker - take the first compilation
@@ -358,9 +354,15 @@ class ParentTools(object):
 
             # Find titles that we have to keep, including their regions
             required_titles: dict[str, list[DatNode]] = {}
+            compare_group: list[DatNode] = []
 
             for contention_group in contention_group_set:
-                for title in title_comparison[TitleTools.get_group_name(contention_group, config)]:
+                if contention_group.lower() in title_comparison:
+                    compare_group = title_comparison[contention_group.lower()]
+                elif TitleTools.get_group_name(contains_title, config) in title_comparison:
+                    compare_group = title_comparison[TitleTools.get_group_name(contains_title, config)]
+
+                for title in compare_group:
                     if contention_group not in required_titles:
                         required_titles[contention_group] = []
                     required_titles[contention_group].append(title)
@@ -1083,12 +1085,13 @@ class ParentTools(object):
 
 
     @staticmethod
-    def choose_string(pattern: Pattern[str], title_set: set[DatNode], report_on_match: bool, choose_title_with_string: bool) -> set[DatNode]:
+    def choose_string(match: Pattern[str]|str, title_set: set[DatNode], report_on_match: bool, choose_title_with_string: bool) -> set[DatNode]:
         """ Compares any two titles from a set of DatNodes for a string. Can choose the
         title with or without the string.
 
         Args:
-            - `pattern (Pattern[str])` The pattern to search for in the title name.
+            - `match (Pattern[str]|str)` The regex pattern or string to search for in the
+               title name.
 
             - `title_set (set[DatNode])` A set of titles as DatNode instances.
 
@@ -1114,31 +1117,59 @@ class ParentTools(object):
                 and title_2 in title_set
                 and 'BIOS' not in title_1.categories
                 and 'BIOS' not in title_2.categories):
+                    title_1_match: bool = False
+                    title_2_match: bool = False
+
+                    if type(match) is re.Pattern:
+                        if (
+                            re.search(match, title_1.full_name)
+                            and not re.search(match, title_2.full_name)
+                        ):
+                            title_1_match = True
+
+                        if (
+                            re.search(match, title_2.full_name)
+                            and not re.search(match, title_1.full_name)
+                        ):
+                            title_2_match = True
+
+                    elif type(match) is str:
+                        if (
+                            match in title_1.tags
+                            and match not in title_2.tags
+                        ):
+                            title_1_match = True
+                        elif (
+                            match in title_2.tags
+                            and match not in title_1.tags
+                        ):
+                            title_2_match = True
+
                     if (
-                        re.search(pattern, title_1.full_name)
-                        and not re.search(pattern, title_2.full_name)
+                        title_1_match
+                        and not title_2_match
                     ):
                         if choose_title_with_string:
-                            if report_on_match: TraceTools.trace_title('REF0032', [f'({str(pattern).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {title_1.full_name}', f'({str(pattern).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {title_2.full_name}{Font.end}'], keep_remove=True)
+                            if report_on_match: TraceTools.trace_title('REF0032', [f'{Font.subheading_bold}{str(match).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}{Font.end} {title_1.full_name}', f'{Font.subheading_bold}{str(match).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}{Font.end} {title_2.full_name}{Font.end}'], keep_remove=True)
 
                             remove_title = title_2
                         else:
-                            if report_on_match: TraceTools.trace_title('REF0033', [f'({str(pattern).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {title_2.full_name}', f'({str(pattern).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {title_1.full_name}{Font.end}'], keep_remove=True)
+                            if report_on_match: TraceTools.trace_title('REF0033', [f'{Font.subheading_bold}{str(match).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}{Font.end} {title_2.full_name}', f'{Font.subheading_bold}{str(match).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}{Font.end} {title_1.full_name}{Font.end}'], keep_remove=True)
 
                             remove_title = title_1
 
                         if remove_title in title_set:
                             remove_titles.add(remove_title)
                     elif (
-                        re.search(pattern, title_2.full_name)
-                        and not re.search(pattern, title_1.full_name)
+                        title_2_match
+                        and not title_1_match
                     ):
                         if choose_title_with_string:
-                            if report_on_match: TraceTools.trace_title('REF0034', [f'({str(pattern).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {title_2.full_name}', f'({str(pattern).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {title_1.full_name}{Font.end}'], keep_remove=True)
+                            if report_on_match: TraceTools.trace_title('REF0034', [f'{Font.subheading_bold}{str(match).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}{Font.end} {title_2.full_name}', f'{Font.subheading_bold}{str(match).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {title_1.full_name}{Font.end}'], keep_remove=True)
 
                             remove_title = title_1
                         else:
-                            if report_on_match: TraceTools.trace_title('REF0035', [f'({str(pattern).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {title_1.full_name}', f'({str(pattern).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {title_2.full_name}{Font.end}'], keep_remove=True)
+                            if report_on_match: TraceTools.trace_title('REF0035', [f'{Font.subheading_bold}{str(match).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}{Font.end} {title_1.full_name}', f'{Font.subheading_bold}{str(match).replace("re.compile(", "").replace(", re.IGNORECASE)", "")}) {title_2.full_name}{Font.end}'], keep_remove=True)
 
                             remove_title = title_2
 
@@ -1808,6 +1839,41 @@ class ParentTools(object):
 
             processed_titles = temp_dict
 
+            # Make sure supersets aren't set as both parent and clone throughout the DAT,
+            # which can happen with some region combinations
+            superset_clones: dict[str, str] = {}
+
+            # Set up title tracking
+            report_on_match: bool = False
+
+            # Find if a superset title is set as a clone, and record its relationship
+            for group, titles in processed_titles.items():
+                for title in titles:
+                    if (
+                        title.is_superset
+                        and title.cloneof):
+                            superset_clones[title.full_name] = title.cloneof
+
+            # Switch any titles where the superset is a parent to the superset's clone
+            for group, titles in processed_titles.items():
+                if config.user_input.trace:
+                    report_on_match = TraceTools.trace_enable(titles, config.user_input.trace)
+
+                for title in titles:
+                    if title.cloneof in superset_clones:
+                        if not title.is_superset:
+                            old_cloneof: str = title.cloneof
+
+                            title.cloneof = superset_clones[title.cloneof]
+
+                            if report_on_match:
+                                eprint('')
+                                TraceTools.trace_title('REF0114')
+                                eprint(f'* {title.full_name}')
+                                eprint(f'  New clone: {title.cloneof}\n{Font.disabled}  Old clone: {old_cloneof}{Font.end}')
+                                eprint(f'\n{Font.disabled}Press enter to continue{Font.end}')
+                                input()
+
             # Now process compilations
             processed_titles = ParentTools.choose_compilations(compilations, processed_titles, config)
 
@@ -1990,10 +2056,17 @@ class ParentTools(object):
                     # collections ripped from other platforms
                     if len(parent_titles) > 1:
                         for edition in config.tags_modern_editions:
+                            match_string: Any = ''
+
+                            if edition[1] == 'regex':
+                                match_string = re.compile(edition[0])
+                            elif edition[1] == 'string':
+                                match_string = edition[0]
+
                             if not config.user_input.modern:
-                                parent_titles = ParentTools.choose_string(edition, parent_titles, report_on_match, choose_title_with_string=False)
+                                parent_titles = ParentTools.choose_string(match_string, parent_titles, report_on_match, choose_title_with_string=False)
                             elif config.user_input.modern:
-                                parent_titles = ParentTools.choose_string(edition, parent_titles, report_on_match, choose_title_with_string=True)
+                                parent_titles = ParentTools.choose_string(match_string, parent_titles, report_on_match, choose_title_with_string=True)
 
                     if report_on_match: TraceTools.trace_title('REF0004', [group_name], parent_titles, keep_remove=False)
 
@@ -2069,10 +2142,24 @@ class ParentTools(object):
                     # 13) Handle promotion and demotion editions
                     if len(parent_titles) > 1:
                         for edition in config.tags_promote_editions:
-                            parent_titles = ParentTools.choose_string(edition, parent_titles, report_on_match, choose_title_with_string=True)
+                            match_string = ''
+
+                            if edition[1] == 'regex':
+                                match_string = re.compile(edition[0])
+                            elif edition[1] == 'string':
+                                match_string = edition[0]
+
+                            parent_titles = ParentTools.choose_string(match_string, parent_titles, report_on_match, choose_title_with_string=True)
 
                         for edition in config.tags_demote_editions:
-                            parent_titles = ParentTools.choose_string(edition, parent_titles, report_on_match, choose_title_with_string=False)
+                            match_string = ''
+
+                            if edition[1] == 'regex':
+                                match_string = re.compile(edition[0])
+                            elif edition[1] == 'string':
+                                match_string = edition[0]
+
+                            parent_titles = ParentTools.choose_string(match_string, parent_titles, report_on_match, choose_title_with_string=False)
 
                     if report_on_match: TraceTools.trace_title('REF0011', [group_name], parent_titles, keep_remove=False)
 
@@ -2180,7 +2267,6 @@ class ParentTools(object):
                             if title_1 in cross_region_parent_titles:
                                 cross_region_parent_titles.remove(title_1)
 
-            # TODO: Should these next few sections be ignoring supersets?
             # Check if a system config is in play
             region_order = config.region_order_user
 
@@ -2236,7 +2322,6 @@ class ParentTools(object):
                 superset_titles_final: set[DatNode] = set()
 
                 for short_name_superset_key, short_name_superset_set in short_name_superset_titles.items():
-                    # TODO: Is superset priority even needed given the previous work? Same for regions?
                     # Find the highest priority superset
                     top_priority: int = sorted(short_name_superset_set, key=lambda i:i.clonelist_priority)[0].clonelist_priority
 
@@ -2296,7 +2381,16 @@ class ParentTools(object):
             pattern_list.append(config.regex.pirate)
 
             if not config.user_input.modern:
-                pattern_list.extend(config.tags_modern_editions)
+                # Convert modern edition tags to full regex
+                modern_edition_regex_tags: list[str] = []
+
+                for tag in config.tags_modern_editions:
+                    if tag[1] == 'string':
+                        modern_edition_regex_tags.append(re.compile(tag[0].replace("(", "\\(").replace(")", "\\)").replace("[", "\\[").replace("]", "\\]")))
+                    elif tag[1] == 'regex':
+                        modern_edition_regex_tags.append(re.compile(tag[0]))
+
+                pattern_list.extend(modern_edition_regex_tags)
 
             if config.user_input.demote_unl:
                 pattern_list.extend(list(config.regex.unl_group))
@@ -2321,7 +2415,7 @@ class ParentTools(object):
 
                                         # Check that we don't want to demote a modern edition
                                         if (
-                                            pattern in config.tags_modern_editions
+                                            pattern in modern_edition_regex_tags
                                             and original_title.language_priority > title.language_priority):
                                                 bad_match = True
 
@@ -2352,16 +2446,16 @@ class ParentTools(object):
 
                                                 # Modern editions
                                                 if (
-                                                    (pattern in config.tags_modern_editions
+                                                    (pattern in modern_edition_regex_tags
                                                     and (
-                                                        second_pattern in config.tags_modern_editions
+                                                        second_pattern in modern_edition_regex_tags
                                                         or second_pattern in config.regex.preproduction))
                                                     ):
                                                         bad_match = True
 
                                                 if not config.user_input.modern:
                                                     if (
-                                                        second_pattern in config.tags_modern_editions
+                                                        second_pattern in modern_edition_regex_tags
                                                         and original_title.language_priority > title.language_priority):
                                                             bad_match = True
 

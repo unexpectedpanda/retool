@@ -34,7 +34,7 @@ class Removes():
         self.promotional_removes: set[DatNode] = set()
         self.unlicensed_removes: set[DatNode] = set()
         self.video_removes: set[DatNode] = set()
-        self.clonelist_removes: set[DatNode] = set()
+        self.clone_list_removes: set[DatNode] = set()
         self.language_removes: set[DatNode] = set()
         self.region_removes: set[DatNode] = set()
         self.system_excludes: set[DatNode] = set()
@@ -842,9 +842,9 @@ class Regex:
         self.region_order_default: Pattern[str]
 
         # Preproduction
-        self.alpha: Pattern[str] = re.compile('\\((?:\\w*?\\s+)*Alpha(?:\\s\\d+)?\\)', flags=re.I)
-        self.beta: Pattern[str] = re.compile('\\((?:\\w*?\\s+)*Beta(?:\\s\\d+)?\\)', flags=re.I)
-        self.proto: Pattern[str] = re.compile('\\((?:\\w*?\\s+)*Proto(?:type)?(?:\\s\\d+)?\\)', flags=re.I)
+        self.alpha: Pattern[str] = re.compile('\\((?:\\w*?\\s)*Alpha(?:\\s\\d+)?\\)', flags=re.I)
+        self.beta: Pattern[str] = re.compile('\\((?:\\w*?\\s)*Beta(?:\\s\\d+)?\\)', flags=re.I)
+        self.proto: Pattern[str] = re.compile('\\((?:\\w*?\\s)*Proto(?:type)?(?:\\s\\d+)?\\)', flags=re.I)
         self.preprod: Pattern[str] = re.compile('\\((?:Pre-production|Prerelease)\\)', flags=re.I)
         self.dev: Pattern[str] = re.compile('\\(DEV|DEBUG\\)', flags=re.I)
 
@@ -856,7 +856,7 @@ class Regex:
         self.version: Pattern[str] = re.compile('\\(v[\\.0-9].*?\\)', flags=re.I)
         self.version_non_parens: Pattern[str] = re.compile('(?<!^)(?<=\\(|\\s)v(?:\\d\\.?)+')
         self.long_version: Pattern[str] = re.compile('\\s?(?!Version Vol\\.|Version \\(|Version$|Version -|Version \\d-)(?: - )?\\(?(?:\\((?:\\w[\\.\\-]?\\s*)*|)[Vv]ers(?:ion|ao)\\s?(?:[\\d\\.\\-]+)+[A-Za-z]?(?: (?:\\d-?)+)?.*?(?:(?:\\w[\\.\\-]?\\s*)*\\))?')
-        self.revision: Pattern[str] = re.compile('\\(Rev(?: [0-9A-Z].*?)?\\)', flags=re.I)
+        self.revision: Pattern[str] = re.compile('\\(R[eE][vV](?:[ -][0-9A-Z].*?)?\\)', flags=re.I)
         self.build: Pattern[str] = re.compile('\\(Build [0-9].*?\\)', flags=re.I)
         self.dreamcast_version: Pattern[str] = re.compile('V[0-9]{2,2} L[0-9]{2,2}')
         self.fds_version: Pattern[str] = re.compile('\\(DV [0-9].*?\\)', flags=re.I)
@@ -971,7 +971,7 @@ class Regex:
         self.video: tuple[Pattern[str], ...] = (
             re.compile('Game Boy Advance Video', flags=re.I),
             re.compile('- (Preview|Movie) Trailer', flags=re.I),
-            re.compile('\\((?:\\w*\\s+)*Trailer(?:s|\\sDisc)?(?:\\s\\w*)*\\)', flags=re.I)
+            re.compile('\\((?:\\w*\\s)*Trailer(?:s|\\sDisc)?(?:\\s\\w*)*\\)', flags=re.I)
         )
 
     def __getitem__(self, key: str) -> Any:
@@ -998,10 +998,7 @@ class TitleTools(object):
             """
 
             for title in title_set:
-                if title_group in ','.join([TitleTools.get_group_name(x, config) for x in title.contains_titles]).lower():
-                    new_compilation_title = deepcopy(title)
-                    new_compilation_title.short_name = title_group
-
+                if title_group in ','.join([x.lower() for x in title.contains_titles]):
                     # Split compilations into virtual titles
                     virtual_languages: str = ''
 
@@ -1012,6 +1009,7 @@ class TitleTools(object):
                             preproduction_string = f' {preproduction_string}'
                             break
 
+                    # Assign properties like full names, short names, languages and priority to the virtual title
                     for individual_title in title.contains_titles:
                         if '+' in title.languages_title_orig_str:
                             compilation_languages: list[str] = title.languages_title_orig_str.split('+')
@@ -1027,7 +1025,7 @@ class TitleTools(object):
                         virtual_title.languages = tuple(virtual_languages.strip().replace('(','').replace(')','').split(','))
                         virtual_title.clonelist_priority = title.contains_titles[individual_title]["priority"]
 
-                        if TitleTools.get_group_name(virtual_title.short_name, config) == title_group:
+                        if individual_title.lower() == title_group:
                             if virtual_title.full_name not in [x.full_name for x in compare_groups[title_group]]:
                                 compare_groups[title_group].append(virtual_title)
 
@@ -1043,8 +1041,7 @@ class TitleTools(object):
             - `name (str)` The name to search for.
 
             - `match_type (str)` Whether to search for the `short` name,
-              `regionFree` name, `tagFree` name, `full` name, or by `regex` on the full
-              name.
+              `regionFree` name, `full` name, or by `regex` on the full name.
 
             - `titles (dict[str, set[DatNode]])` A dictionary of DatNodes to search.
 
@@ -1082,9 +1079,6 @@ class TitleTools(object):
                     elif (name_type == 'regionFree'
                         and title.region_free_name.lower() == name.lower()):
                             found_titles.add(title)
-                    elif (name_type == 'tagFree'
-                        and title.tag_free_name.lower() == name.lower()):
-                            found_titles.add(title)
             if not found_titles:
                 missing_titles.add(name)
         else:
@@ -1104,9 +1098,6 @@ class TitleTools(object):
                             found_titles.add(title)
                     elif (name_type == 'regionFree'
                         and title.region_free_name.lower() == name.lower()):
-                            found_titles.add(title)
-                    elif (name_type == 'tagFree'
-                        and title.tag_free_name.lower() == name.lower()):
                             found_titles.add(title)
             else:
                 missing_titles.add(name)
@@ -1211,7 +1202,7 @@ class TitleTools(object):
 
 
     @staticmethod
-    def languages(name: str, config: Config, method: str) -> str:
+    def languages(name: str, tags: set[str], config: Config, method: str) -> str:
         """ Identifies the languages in a title's name, and either returns just
         the languages, or returns the title's name without the languages tag.
 
@@ -1219,6 +1210,8 @@ class TitleTools(object):
             - `name (str)` A title's full name.
 
             - `config (Config)` The Retool config object.
+
+            - `tags: (set[str])`: The title tags.
 
             - `method (str)` Whether to `get` the languages from the title's
               name, or `remove` them.
@@ -1228,20 +1221,23 @@ class TitleTools(object):
             or just the languages.
         """
 
-        regex_search_str = pattern2string(config.regex.languages, name)
-
+        regex_search_str: str = ''
         result: str = ''
 
-        if method == 'remove':
-            if re.search(config.regex.languages, name):
-                result = name.replace(f'{regex_search_str} ', '')
-                result = result.replace(regex_search_str, '')
+        if tags:
+            for tag in tags:
+                if pattern2string(config.regex.languages, tag):
+                    regex_search_str = pattern2string(config.regex.languages, tag)
+                    break
+        else:
+            regex_search_str = pattern2string(config.regex.languages, name)
 
-        if method == 'get':
-            if re.search(config.regex.languages, name):
+        if regex_search_str:
+            if method == 'remove':
+                result = name.replace(f'{regex_search_str}', '').replace(f'  ', ' ').strip()
+
+            if method == 'get':
                 result = regex_search_str.strip()[1:-1]
-            else:
-                result = ''
 
         return result
 
@@ -1264,13 +1260,14 @@ class TitleTools(object):
             just the regions.
         """
 
-        regex_search_str = pattern2string(config.regex.region_order_default, name)
+        regex_search_str: str = pattern2string(config.regex.region_order_default, name)
 
         result: str = ''
 
-        if re.search(config.regex.region_order_default, name):
+        if regex_search_str:
+            regex_search_str = f' {regex_search_str}'
             if method == 'remove':
-                result = name.replace(regex_search_str, '')
+                result = name.replace(regex_search_str, '').strip()
 
             if method == 'get':
                 result = regex_search_str.strip()[1:-1].replace('Export', 'World')
@@ -1294,7 +1291,11 @@ class TitleTools(object):
         """
 
         for tag in config.tags_ignore:
-            name = re.sub(tag, '', name)
+            if tag[1] == 'regex':
+                name = re.sub(tag[0], '', name).strip()
+            elif tag[1] == 'string':
+                if tag[0] in name:
+                    name = name.replace(f'{tag[0]}', '').replace('  ', ' ').strip()
 
         return name
 
@@ -1379,12 +1380,14 @@ class TitleTools(object):
 
 
     @staticmethod
-    def get_region_free_name(name: str, config: Config) -> str:
+    def get_region_free_name(name: str, tags: set[str], config: Config) -> str:
         """ Finds the region-free name of a title, given its full name. This means both
         the name's regions and languages are removed.
 
         Args:
             - `name (str)` A title's full name.
+
+            - `tags: (set[str])`: The title tags.
 
             - `config (Config)` The Retool config object.
 
@@ -1399,7 +1402,7 @@ class TitleTools(object):
         if remove_regions:
             name = remove_regions
 
-        remove_languages = TitleTools.languages(name, config, 'remove')
+        remove_languages = TitleTools.languages(name, tags, config, 'remove')
 
         if remove_languages:
             name = remove_languages
@@ -1411,36 +1414,18 @@ class TitleTools(object):
 
 
     @staticmethod
-    def get_tag_free_name(name: str, config: Config) -> str:
-        """ Finds the tag-free name of a a title, given its full name. This means all
-        ignored tags are removed, and disc names are normalized.
-
-        Args:
-            - name (str)` A title's full name.
-
-            - `config (Config)` The Retool config object.
-
-        Returns:
-            `str` The tag-free name of the title.
-        """
-
-        name = TitleTools.normalize_discs(name, config)
-        name = TitleTools.remove_tags(name, config)
-
-        return name
-
-
-    @staticmethod
-    def get_short_name(name: str, config: Config) -> str:
+    def get_short_name(name: str, tags: set[str], config: Config) -> str:
         """ Finds the short name of a given title. Among other things, the short name
         helps to differentiate titles that are assigned to the same group. For example,
         Title 1 (USA) (Disc 1) and Title 1 (USA) (Disc 2) end up in the same group,
         Title 1. However the short names of Title 1 (Disc 1) and Title 1 (Disc 2) mean
         that they aren't confused with one another. A short name is a full name that has
-        had its ignored, region, and language tags removed.
+        had its ignored, region, and language tags removed, and its disc names normalized.
 
         Args:
             - `name (str)` A title's full name.
+
+            - `tags: (set[str])`: The title tags.
 
             - `config (Config)` The Retool config object.
 
@@ -1448,15 +1433,16 @@ class TitleTools(object):
             `str` The short name of the title.
         """
 
-        name = TitleTools.get_tag_free_name(name, config)
-        name = TitleTools.get_region_free_name(name, config).strip()
+        name = TitleTools.normalize_discs(name, config)
+        name = TitleTools.remove_tags(name, config)
+        name = TitleTools.get_region_free_name(name, tags, config).strip()
 
         return name.lower()
 
 
     @staticmethod
     def replace_invalid_characters(name: str, config: Config, is_header_detail: bool) -> str:
-        """ Removes invalid file/folder name characters from a string.
+        """ Removes invalid file / folder name characters from a string.
 
         Args:
             - `name (str)` A title's full name, or a DAT header detail.
@@ -1464,7 +1450,7 @@ class TitleTools(object):
             - `config (Config)` The Retool config object.
 
             - `is_header_detail (bool)` Set to `True` if checking a DAT's header strings
-              for invalid characters. Unlike filepaths, `/` and `\` are replaced for
+              for invalid characters. Unlike filepaths, `/` and `\\` are replaced for
               header details.
 
         Returns:
@@ -1488,6 +1474,10 @@ class TitleTools(object):
                         name = name.replace(character, '-')
                 else:
                     name = name.replace(character, '-')
+
+        # For strings that start with ., use the fixed width ．instead
+        if not is_header_detail:
+            name = re.sub('^\\.', '．', name)
 
         return name
 
@@ -1632,7 +1622,7 @@ class TraceTools(object):
         if trace_reference == 'REF0089': message = f'{Font.bold}[{variable[0]}]{Font.end} Group after filtering by user language order:\n\nVirtual titles are marked with a :V:, the original title is after the •'
         if trace_reference == 'REF0090': message = 'ACTION: Keeping compilation that contains another:'
         if trace_reference == 'REF0091': message = 'ACTION: Keeping compilation that contains another:'
-        if trace_reference == 'REF0092': message = 'Group after removing preproduction:'
+        if trace_reference == 'REF0092': message = f'{Font.bold}[{variable[0]}]{Font.end} Group after removing preproduction:'
         if trace_reference == 'REF0093': message = 'ACTION: Tie breaker, remove the compilation title:'
         if trace_reference == 'REF0094': message = 'ACTION: Favor primary region higher up user region order (individual title vs compilation):'
         if trace_reference == 'REF0095': message = 'ACTION: Favor primary region higher up user region order (individual title vs compilation):'
@@ -1648,6 +1638,15 @@ class TraceTools(object):
         if trace_reference == 'REF0105': message = 'ACTION: Tie breaker, keep the first compilation title:'
         if trace_reference == 'REF0106': message = 'ACTION: Compare clone list priority (both titles are supersets):'
         if trace_reference == 'REF0107': message = 'ACTION: Compare clone list priority (both titles are supersets):'
+        if trace_reference == 'REF0108': message = f'ACTION: Changing categories for title found in clone list {Font.bold}Variants{Font.end} object:'
+        if trace_reference == 'REF0109': message = f'ACTION: Moving title found in clone list {Font.bold}Variants{Font.end} object to other group due to a condition being true:'
+        if trace_reference == 'REF0110': message = f'ACTION: Changing a title\'s priority due to a condition in the {Font.bold}Variants{Font.end} object being true:'
+        if trace_reference == 'REF0111': message = f'ACTION: Setting a title\'s local name due to a condition in the {Font.bold}Variants{Font.end} object being true:'
+        if trace_reference == 'REF0112': message = f'ACTION: Marking a title as English-friendly due to an entry in the {Font.bold}Variants{Font.end} object:'
+        if trace_reference == 'REF0113': message = f'ACTION: Marking a title as English-friendly due to a condition in the {Font.bold}Variants{Font.end} object being true:'
+        if trace_reference == 'REF0114': message = f'ACTION: Found a superset assigned as a both a parent and clone. Setting title with the superset as a parent to the superset\'s parent to resolve the conflict:'
+        if trace_reference == 'REF0115': message = f'ACTION: Setting a title\'s local name as defined in the {Font.bold}Variants{Font.end} object:'
+        if trace_reference == 'REF0116': message = f'ACTION: Setting a title as a superset due to a condition in the {Font.bold}Variants{Font.end} object being true:'
 
         if trace_reference:
             eprint(f'\n{Font.bold}{Font.underline}{trace_reference}{Font.end}: {message}{Font.end}\n')

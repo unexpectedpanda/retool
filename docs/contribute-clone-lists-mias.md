@@ -12,6 +12,8 @@ The `mias` array is only required in clone lists for Redump DAT files, as No-Int
 specifies MIAs directly in its DAT files. MIAs are scraped from [Redump's wiki](http://wiki.redump.org/index.php?title=MIA_Lists),
 and as a general rule shouldn't be manually added or removed.
 
+## Structure
+
 An `mias` array looks similar to the following example:
 
 ```json

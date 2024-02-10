@@ -30,8 +30,8 @@ Clone lists follow a particular format to keep maintainence easy:
 Before submitting a pull request, it's important to test your changes to make sure they're
 correct.
 
-Test your clone list update against the newest version of a DAT from No-Intro or Redump,
-and enable the following settings:
+Test your clone list update against the newest version of a DAT file from No-Intro or
+Redump, and enable the following settings:
 
 === ":fontawesome-regular-window-maximize: GUI"
     * In the **Global settings** tab, click **Options**.

@@ -3,7 +3,7 @@ hide:
   - footer
 ---
 
-# DAT support
+# DAT file support
 
 While Retool understands both [LogiqX](https://github.com/SabreTools/SabreTools/wiki/DatFile-Formats#logiqx-xml-format)
 and
@@ -26,8 +26,7 @@ maintenance and providing new lists.
 ### :fontawesome-regular-circle-check:{: .greentick} Redump
 
 [Redump](http://www.redump.org) DAT files are supported in both LogiqX(ish) and CLRMAMEPro
-formats. DAT files derived from Redump that keep the same title names, such as those from
-[dats.site](https://dats.site/custom_system_datslist.php), are also supported.
+formats. DAT files derived from Redump that keep the same title names are also supported.
 
 Clone lists exist for most sets except IBM PC Compatible, which is too huge and has far
 too much activity without community contribution to maintain.
@@ -38,21 +37,24 @@ While anything not in the supported list should be considered unsupported, there
 sets in particular that need to be called out, as from time to time there are requests to
 add support. It is unlikely Retool will ever support these DAT files.
 
-### :fontawesome-regular-circle-xmark:{: .redcross} MAME and other arcade sets
+### :fontawesome-regular-circle-xmark:{: .redcross} MAME, FBNeo, and other arcade sets
 
-Filtering [MAME](https://www.mamedev.org) DAT files is an entirely different beast, and a
-massive undertaking to do well. The naming scheme is different, the things you can filter
-on are different, and whether arcade or software list support, huge amounts of data need
-to be parsed to do it justice. It's more than enough work just keeping up with No-Intro
-and Redump.
+There's a reason there isn't a decent 1G1R solution for [MAME](https://www.mamedev.org)
+and [FBNeo](https://github.com/finalburnneo/FBNeo) DAT files &mdash; the data structure
+doesn't lend itself to that sort of processing. The lack of naming standard in the DAT
+descriptions also makes it extremely challenging to automate anything, meaning the most
+likely path for 1G1R is an inflexible, curated, massive, high-effort list that needs
+frequent updating. This isn't a path Retool is going to take.
 
-Thankfully there are other options for MAME filtering:
+You can, however, get a filtered MAME DAT file with the following options:
 
 * Do a web search for `All killer no filler`. These are lists and tools that filter MAME's
   ROMs to only the top games as defined by their authors.
+
 * [Arcade Manager](https://github.com/cosmo0/arcade-manager) can handle filtering MAME
   sets, including removing bad and non-working ROMs, and comes with built-in lists for the
   "top" sets and "all killer no filler".
+
 * [RomLister](https://www.waste.org/~winkles/ROMLister/) and
   [Lightspeed Game List Generator](http://forum.arcadecontrols.com/index.php?topic=150785.0)
   haven't been updated for a long time, but there are a lot of options in them to sate your
@@ -60,8 +62,8 @@ Thankfully there are other options for MAME filtering:
 
 ### :fontawesome-regular-circle-xmark:{: .redcross} TOSEC
 
-While [TOSEC](https://www.tosecdev.org/) DAT files are in LogiqX
-format, support for their naming system hasn't been built into Retool.
+While [TOSEC](https://www.tosecdev.org/) DAT files are in LogiqX format, support for their
+naming system hasn't been built into Retool.
 
 Support is technically possible, but largely pointless to implement without also supplying
 clone lists. This isn't a small effort &mdash; with over 3,000 TOSEC DAT files as of 2022,

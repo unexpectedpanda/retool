@@ -3,14 +3,14 @@
 """ Python's multiprocessing.Pool class doesn't interact well with
 ``KeyboardInterrupt`` signals, as documented in places such as:
 
-* `<http://stackoverflow.com/questions/1408356/>`_
-* `<http://stackoverflow.com/questions/11312525/>`_
-* `<http://noswap.com/blog/python-multiprocessing-keyboardinterrupt>`_
+* http://stackoverflow.com/questions/1408356/
+* http://stackoverflow.com/questions/11312525/
+* http://noswap.com/blog/python-multiprocessing-keyboardinterrupt
 
 Various workarounds have been shared. Here, we adapt the one proposed in the last link
 above, by John Reese, and shared as
 
-* `<https://github.com/jreese/multiprocessing-keyboardinterrupt/>`_
+* https://github.com/jreese/multiprocessing-keyboardinterrupt/
 
 Our version is a drop-in replacement for multiprocessing.Pool ... as long as the map()
 method is the only one that needs to be interrupt-friendly.

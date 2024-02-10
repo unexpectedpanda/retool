@@ -1,3 +1,4 @@
+import darkdetect #type: ignore
 import html
 import pathlib
 import re
@@ -34,6 +35,11 @@ class AboutWindow(qtw.QDialog):
         super(AboutWindow, self).__init__(parent)
         self.ui = Ui_AboutWindow()
         self.ui.setupUi(self)
+
+        # Change link colors if dark mode is detected
+        if darkdetect.isDark():
+            self.ui.labelName.setText(self.ui.labelName.text().replace('color:#0000ff', 'color:#47aae9'))
+            self.ui.labelCreditIcons8.setText(self.ui.labelCreditIcons8.text().replace('color:#0000ff', 'color:#47aae9', ))
 
         # Fix the fonts
         set_fonts(self)
@@ -145,8 +151,30 @@ class TitleToolWindow(qtw.QMainWindow):
         self.ui = Ui_CloneListNameTool()
         self.ui.setupUi(self)
 
+        # Change link and field colors if dark mode is detected
+        if darkdetect.isDark():
+            self.ui.labelContribute.setText(self.ui.labelContribute.text().replace('color:#0000ff', 'color:#47aae9'))
+            dark_mode_disabled_line_edit = '''
+                QLineEdit{
+                    background-color: #4a4a4a;
+                }
+                '''
+            self.ui.lineEditShortName.setStyleSheet(dark_mode_disabled_line_edit)
+            self.ui.lineEditGroupName.setStyleSheet(dark_mode_disabled_line_edit)
+            self.ui.lineEditRegionFreeName.setStyleSheet(dark_mode_disabled_line_edit)
+
         # Fix the fonts
         set_fonts(self)
+
+        # Fix checkboxes, which have a weird hover effect on Windows 4k monitors on hover if
+        # you don't set a size that's divisible by 4.
+        checkbox_style = '''
+                        QCheckBox::indicator { width: 16px; height: 16px;}
+                        '''
+
+        checkboxes = self.ui.centralwidget.findChildren(qtw.QCheckBox, qtc.QRegularExpression('(checkBox.*)'))
+        for checkbox in checkboxes:
+            checkbox.setStyleSheet(checkbox_style)
 
         def update_names() -> None:
             """ Grabs the different name variants of the title the user entered and
@@ -166,10 +194,11 @@ class TitleToolWindow(qtw.QMainWindow):
                     if not is_demo:
                         demo_string = ' (Demo)'
 
-            self.ui.lineEditShortName.setText(f'{TitleTools.get_short_name(html.unescape(self.ui.lineEditEnterName.text()), config)}{demo_string.lower()}')
+            tags: set[str] = set([f'({x}' for x in html.unescape(self.ui.lineEditEnterName.text()).split(' (')][1:None])
+
+            self.ui.lineEditShortName.setText(f'{TitleTools.get_short_name(html.unescape(self.ui.lineEditEnterName.text()), tags, config)}{demo_string.lower()}')
             self.ui.lineEditGroupName.setText(TitleTools.get_group_name(html.unescape(self.ui.lineEditEnterName.text()), config))
-            self.ui.lineEditTagFreeName.setText(f'{TitleTools.get_tag_free_name(html.unescape(self.ui.lineEditEnterName.text()), config)}{demo_string}')
-            self.ui.lineEditRegionFreeName.setText(f'{TitleTools.get_region_free_name(html.unescape(self.ui.lineEditEnterName.text()), config)}{demo_string}')
+            self.ui.lineEditRegionFreeName.setText(f'{TitleTools.get_region_free_name(html.unescape(self.ui.lineEditEnterName.text()), tags, config)}{demo_string}')
 
         self.ui.lineEditEnterName.keyPressed.connect(update_names)
         self.ui.checkBoxDemos.clicked.connect(update_names)

@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 lxml = "*"
 pyside6 = "*"
+darkdetect = "*"
 alive-progress = "*"
 psutil = "*"
 strictyaml = "*"

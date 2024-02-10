@@ -1,9 +1,16 @@
 # Retool
 
-### This is the source repository for Retool. For downloads, installation instructions, and documentation, see the [website](https://unexpectedpanda.github.io/retool/).
+> [!TIP]
+ > This is the source repository for Retool. For downloads, installation instructions, and
+   documentation, see the [website](https://unexpectedpanda.github.io/retool/).
 
-Retool filters [Redump](http://redump.org/) and [No-Intro](https://www.no-intro.org/)
-DATs, offering the following features:
+Retool is a filter utility for [Redump](http://www.redump.org/) and [No-Intro](https://datomatic.no-intro.org/index.php?page=download)
+DAT files. By customizing the DAT files before you load them into a ROM manager, you can more
+effectively trim, consolidate, and deduplicate your ROM sets.
+
+![A screenshot of the main Retool screen](https://unexpectedpanda.github.io/retool/images/main-app.png)
+
+Retool offers the following features:
 
 * Superior One Game, One ROM (1G1R) functionality compared to other tools.
 
@@ -13,21 +20,22 @@ DATs, offering the following features:
 
 * Custom regular expression filters for including or excluding titles.
 
+* Localized filenames for titles, such as ``シャイニング●フォースⅡ 『古の封印』` instead of
+  `Shining Force II - Inishie no Fuuin`.
+
 * CLI and GUI versions.
 
-You feed Retool an input DAT, and it creates a new DAT from it with all your preferences,
-leaving the original intact. You can then load that new DAT in a ROM manager
-like [CLRMamePro](https://mamedev.emulab.it/clrmamepro/), [RomVault](https://www.romvault.com/),
-or [Romcenter](https://www.romcenter.com/) &mdash; you just won't need to use their
-1G1R modes, as Retool has already done the work for you.
+You add your DAT files to Retool, and it creates new DAT files with all your preferences,
+leaving the originals intact. You can then load the new DAT files in a ROM manager like
+[RomVault](https://www.romvault.com/), [CLRMamePro](https://mamedev.emulab.it/clrmamepro/),
+or [IGIR](https://www.igir.io) to do your file management &mdash; you just don't need to
+use their 1G1R modes, as Retool has already done the work for you.
 
 Retool is supported on Windows 10+, Ubuntu 20+, and macOS 10+ on x86 processors. It should
 work on M-series MacBooks too, however I don't own the hardware to test it. Non-binary
 versions require Python 3.10 or higher.
 
-![A screenshot of the main Retool screen](https://unexpectedpanda.github.io/retool/images/main-app.png)
+## Contribute to Retool
 
-## Contribute to clone lists
-
-Clone lists are one of the ways Retool establishes relationships between titles. You can
-contribute to clone lists at their [dedicated repository](https://github.com/unexpectedpanda/retool-clonelists-metadata).
+If you've found something Retool has missed, like a clone or a local name for a title, you
+can contribute to Retool's clone lists at their [dedicated repository](https://github.com/unexpectedpanda/retool-clonelists-metadata).

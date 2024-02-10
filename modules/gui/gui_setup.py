@@ -1,3 +1,4 @@
+import darkdetect # type: ignore
 import pathlib
 import webbrowser
 
@@ -82,6 +83,15 @@ def setup_gui_global(main_window: Any, dat_details: dict[str, dict[str, str]], c
     if gui_split_left and gui_split_right:
         main_window.ui.splitter.setSizes([gui_split_left, gui_split_right])
 
+    # Change link colors if dark mode is detected
+    if darkdetect.isDark():
+        main_window.ui.labelGlobalOverride.setText(main_window.ui.labelGlobalOverride.text().replace('color:#0000ff', 'color:#47aae9'))
+        main_window.ui.labelGlobalFilters.setText(main_window.ui.labelGlobalFilters.text().replace('color:#0000ff', 'color:#47aae9'))
+        main_window.ui.labelGlobalLocalizeNames.setText(main_window.ui.labelGlobalLocalizeNames.text().replace('color:#0000ff', 'color:#47aae9'))
+        main_window.ui.labelSystemOverride.setText(main_window.ui.labelSystemOverride.text().replace('color:#0000ff', 'color:#47aae9'))
+        main_window.ui.labelSystemFilters.setText(main_window.ui.labelSystemFilters.text().replace('color:#0000ff', 'color:#47aae9'))
+        main_window.ui.labelSystemLocalizeNames.setText(main_window.ui.labelSystemLocalizeNames.text().replace('color:#0000ff', 'color:#47aae9'))
+
     # Remove United Kingdom from the region lists, as UK is already in there.
     region_order_user: list[str] = [x for x in config.region_order_user if x != 'United Kingdom']
     region_order_default: list[str] = [x for x in config.region_order_default if x != 'United Kingdom']
@@ -101,6 +111,17 @@ def setup_gui_global(main_window: Any, dat_details: dict[str, dict[str, str]], c
 
     main_window.ui.listWidgetGlobalSelectedLanguages.addItems(languages_user)
     main_window.ui.listWidgetGlobalAvailableLanguages.addItems(sorted([x for x in config.languages if x not in languages_user]))
+
+    # Add languages to the localization lists
+    localization_user: list[str] = []
+
+    for language in config.localization_order_user:
+        for key, value in config.languages.items():
+            if language == value:
+                localization_user.append(key)
+
+    main_window.ui.listWidgetGlobalLocalizationSelectedLanguages.addItems(localization_user)
+    main_window.ui.listWidgetGlobalLocalizationAvailableLanguages.addItems(sorted([x for x in config.languages if x not in localization_user]))
 
     # Add video standards to the video list
     if config.video_order_user:
@@ -189,7 +210,7 @@ def setup_gui_global(main_window: Any, dat_details: dict[str, dict[str, str]], c
         main_window.ui.checkBoxGlobalOptionsTrace.setChecked(True)
         main_window.ui.lineEditGlobalOptionsTrace.setText(trace_str)
 
-    # Set up the regions/languages interactivity
+    # Set up the regions/languages/localizations interactivity
     main_window.ui.buttonGlobalLanguageAllLeft.clicked.connect(lambda: move_list_items(main_window.ui.listWidgetGlobalSelectedLanguages, main_window.ui.listWidgetGlobalAvailableLanguages, all_items=True))
     main_window.ui.buttonGlobalLanguageAllRight.clicked.connect(lambda: move_list_items(main_window.ui.listWidgetGlobalAvailableLanguages, main_window.ui.listWidgetGlobalSelectedLanguages, all_items=True))
     main_window.ui.buttonGlobalLanguageDown.clicked.connect(lambda: order_list_items(main_window.ui.listWidgetGlobalSelectedLanguages, 'down'))
@@ -203,6 +224,13 @@ def setup_gui_global(main_window: Any, dat_details: dict[str, dict[str, str]], c
     main_window.ui.buttonGlobalRegionLeft.clicked.connect(lambda: move_list_items(main_window.ui.listWidgetGlobalSelectedRegions, main_window.ui.listWidgetGlobalAvailableRegions))
     main_window.ui.buttonGlobalRegionRight.clicked.connect(lambda: move_list_items(main_window.ui.listWidgetGlobalAvailableRegions, main_window.ui.listWidgetGlobalSelectedRegions))
     main_window.ui.buttonGlobalRegionUp.clicked.connect(lambda: order_list_items(main_window.ui.listWidgetGlobalSelectedRegions, 'up'))
+
+    main_window.ui.buttonGlobalLocalizationAllLeft.clicked.connect(lambda: move_list_items(main_window.ui.listWidgetGlobalLocalizationSelectedLanguages, main_window.ui.listWidgetGlobalLocalizationAvailableLanguages, all_items=True))
+    main_window.ui.buttonGlobalLocalizationAllRight.clicked.connect(lambda: move_list_items(main_window.ui.listWidgetGlobalLocalizationAvailableLanguages, main_window.ui.listWidgetGlobalLocalizationSelectedLanguages, all_items=True))
+    main_window.ui.buttonGlobalLocalizationDown.clicked.connect(lambda: order_list_items(main_window.ui.listWidgetGlobalLocalizationSelectedLanguages, 'down'))
+    main_window.ui.buttonGlobalLocalizationLeft.clicked.connect(lambda: move_list_items(main_window.ui.listWidgetGlobalLocalizationSelectedLanguages, main_window.ui.listWidgetGlobalLocalizationAvailableLanguages))
+    main_window.ui.buttonGlobalLocalizationRight.clicked.connect(lambda: move_list_items(main_window.ui.listWidgetGlobalLocalizationAvailableLanguages, main_window.ui.listWidgetGlobalLocalizationSelectedLanguages))
+    main_window.ui.buttonGlobalLocalizationUp.clicked.connect(lambda: order_list_items(main_window.ui.listWidgetGlobalLocalizationSelectedLanguages, 'up'))
 
     main_window.ui.buttonGlobalDefaultRegionOrder.clicked.connect(lambda: default_english_order(main_window, region_order_default, 'global'))
 
@@ -322,7 +350,6 @@ def setup_gui_system(main_window: Any, dat_details: dict[str, dict[str, str]], c
 
         Args:
             - `open_files_list (Any)` The widget containing the added DAT files.
-
             - `config (Config)` The Retool config object.
         """
 
@@ -339,6 +366,8 @@ def setup_gui_system(main_window: Any, dat_details: dict[str, dict[str, str]], c
         main_window.ui.listWidgetSystemSelectedLanguages.clear()
         main_window.ui.listWidgetSystemAvailableRegions.clear()
         main_window.ui.listWidgetSystemSelectedRegions.clear()
+        main_window.ui.listWidgetSystemLocalizationAvailableLanguages.clear()
+        main_window.ui.listWidgetSystemLocalizationSelectedLanguages.clear()
         main_window.ui.listWidgetSystemVideoStandards.clear()
 
         select_checkboxes(system_exclude_checkboxes, False)
@@ -371,6 +400,7 @@ def setup_gui_system(main_window: Any, dat_details: dict[str, dict[str, str]], c
             config.system_name,
             SYSTEM_LANGUAGE_ORDER_KEY,
             SYSTEM_REGION_ORDER_KEY,
+            SYSTEM_LOCALIZATION_ORDER_KEY,
             SYSTEM_VIDEO_ORDER_KEY,
             SYSTEM_LIST_PREFIX_KEY,
             SYSTEM_LIST_SUFFIX_KEY,
@@ -475,6 +505,22 @@ def setup_gui_system(main_window: Any, dat_details: dict[str, dict[str, str]], c
 
             main_window.ui.listWidgetSystemAvailableLanguages.addItems(sorted([x for x in config.languages]))
 
+        # Add languages to the localization lists
+        system_localization_user: list[str] = []
+
+        for language in config.system_localization_order_user:
+            for key, value in config.languages.items():
+                if language == value:
+                    system_localization_user.append(key)
+
+        if config.system_localization_order_user:
+            main_window.ui.listWidgetSystemLocalizationSelectedLanguages.addItems(system_localization_user)
+            main_window.ui.listWidgetSystemLocalizationAvailableLanguages.addItems(sorted([x for x in config.languages if x not in system_localization_user]))
+        else:
+            main_window.ui.checkBoxSystemOverrideLocalization.setChecked(False)
+
+            main_window.ui.listWidgetSystemLocalizationAvailableLanguages.addItems(sorted([x for x in config.languages]))
+
         # Set the system languages UI enabled/disabled depending on override state
         if {'override': 'true'} in config.system_language_order_user:
             main_window.ui.checkBoxSystemOverrideLanguages.setChecked(True)
@@ -492,6 +538,25 @@ def setup_gui_system(main_window: Any, dat_details: dict[str, dict[str, str]], c
                 main_window.ui.buttonSystemLanguageUp,
                 main_window.ui.listWidgetSystemAvailableLanguages,
                 main_window.ui.listWidgetSystemSelectedLanguages,
+            ])
+
+        # Set the system localization UI enabled/disabled depending on override state
+        if {'override': 'true'} in config.system_localization_order_user:
+            main_window.ui.checkBoxSystemOverrideLocalization.setChecked(True)
+        else:
+            main_window.ui.checkBoxSystemOverrideLocalization.setChecked(False)
+
+        system_enable(
+            main_window.ui.checkBoxSystemOverrideLocalization,
+            [
+                main_window.ui.buttonSystemLocalizationAllLeft,
+                main_window.ui.buttonSystemLocalizationAllRight,
+                main_window.ui.buttonSystemLocalizationDown,
+                main_window.ui.buttonSystemLocalizationLeft,
+                main_window.ui.buttonSystemLocalizationRight,
+                main_window.ui.buttonSystemLocalizationUp,
+                main_window.ui.listWidgetSystemLocalizationAvailableLanguages,
+                main_window.ui.listWidgetSystemLocalizationSelectedLanguages,
             ])
 
         # Set the system video standards UI enabled/disabled depending on override state
@@ -656,16 +721,22 @@ def setup_gui_system(main_window: Any, dat_details: dict[str, dict[str, str]], c
                 move_list_items(main_window.ui.listWidgetGlobalSelectedRegions, main_window.ui.listWidgetGlobalAvailableRegions)
             elif listWidget == main_window.ui.listWidgetGlobalSelectedLanguages:
                 move_list_items(main_window.ui.listWidgetGlobalSelectedLanguages, main_window.ui.listWidgetGlobalAvailableLanguages)
+            elif listWidget == main_window.ui.listWidgetGlobalLocalizationSelectedLanguages:
+                move_list_items(main_window.ui.listWidgetGlobalLocalizationSelectedLanguages, main_window.ui.listWidgetGlobalLocalizationAvailableLanguages)
             elif listWidget == main_window.ui.listWidgetSystemSelectedRegions:
                 move_list_items(main_window.ui.listWidgetSystemSelectedRegions, main_window.ui.listWidgetSystemAvailableRegions)
             elif listWidget == main_window.ui.listWidgetSystemSelectedLanguages:
                 move_list_items(main_window.ui.listWidgetSystemSelectedLanguages, main_window.ui.listWidgetSystemAvailableLanguages)
+            elif listWidget == main_window.ui.listWidgetSystemLocalizationSelectedLanguages:
+                move_list_items(main_window.ui.listWidgetSystemLocalizationSelectedLanguages, main_window.ui.listWidgetSystemLocalizationAvailableLanguages)
 
     main_window.ui.listWidgetOpenFiles.keyPressed.connect(lambda e: on_key(e, main_window.ui.listWidgetOpenFiles))
     main_window.ui.listWidgetGlobalSelectedRegions.keyPressed.connect(lambda e: on_key(e, main_window.ui.listWidgetGlobalSelectedRegions))
     main_window.ui.listWidgetGlobalSelectedLanguages.keyPressed.connect(lambda e: on_key(e, main_window.ui.listWidgetGlobalSelectedLanguages))
+    main_window.ui.listWidgetGlobalLocalizationSelectedLanguages.keyPressed.connect(lambda e: on_key(e, main_window.ui.listWidgetGlobalLocalizationSelectedLanguages))
     main_window.ui.listWidgetSystemSelectedRegions.keyPressed.connect(lambda e: on_key(e, main_window.ui.listWidgetSystemSelectedRegions))
     main_window.ui.listWidgetSystemSelectedLanguages.keyPressed.connect(lambda e: on_key(e, main_window.ui.listWidgetSystemSelectedLanguages))
+    main_window.ui.listWidgetSystemLocalizationSelectedLanguages.keyPressed.connect(lambda e: on_key(e, main_window.ui.listWidgetSystemLocalizationSelectedLanguages))
 
     # Set up the buttons for the system paths
     main_window.ui.checkBoxSystemOverridePaths.clicked.connect(lambda: system_enable(
@@ -713,7 +784,7 @@ def setup_gui_system(main_window: Any, dat_details: dict[str, dict[str, str]], c
     main_window.ui.buttonClearSystemCloneList.clicked.connect(lambda: clear_system_paths(main_window.ui.buttonClearSystemCloneList))
     main_window.ui.buttonClearSystemMetadataFile.clicked.connect(lambda: clear_system_paths(main_window.ui.buttonClearSystemMetadataFile))
 
-    # Set up the regions/languages interactivity
+    # Set up the regions/languages/localizations interactivity
     main_window.ui.checkBoxSystemOverrideLanguages.clicked.connect(lambda: system_enable(
         main_window.ui.checkBoxSystemOverrideLanguages,
         [
@@ -743,6 +814,20 @@ def setup_gui_system(main_window: Any, dat_details: dict[str, dict[str, str]], c
         ]
     ))
 
+    main_window.ui.checkBoxSystemOverrideLocalization.clicked.connect(lambda: system_enable(
+        main_window.ui.checkBoxSystemOverrideLocalization,
+        [
+            main_window.ui.buttonSystemLocalizationAllLeft,
+            main_window.ui.buttonSystemLocalizationAllRight,
+            main_window.ui.buttonSystemLocalizationDown,
+            main_window.ui.buttonSystemLocalizationLeft,
+            main_window.ui.buttonSystemLocalizationRight,
+            main_window.ui.buttonSystemLocalizationUp,
+            main_window.ui.listWidgetSystemLocalizationAvailableLanguages,
+            main_window.ui.listWidgetSystemLocalizationSelectedLanguages
+        ]
+    ))
+
     main_window.ui.buttonSystemLanguageAllLeft.clicked.connect(lambda: move_list_items(main_window.ui.listWidgetSystemSelectedLanguages, main_window.ui.listWidgetSystemAvailableLanguages, all_items=True))
     main_window.ui.buttonSystemLanguageAllRight.clicked.connect(lambda: move_list_items(main_window.ui.listWidgetSystemAvailableLanguages, main_window.ui.listWidgetSystemSelectedLanguages, all_items=True))
     main_window.ui.buttonSystemLanguageDown.clicked.connect(lambda: order_list_items(main_window.ui.listWidgetSystemSelectedLanguages, 'down'))
@@ -756,6 +841,13 @@ def setup_gui_system(main_window: Any, dat_details: dict[str, dict[str, str]], c
     main_window.ui.buttonSystemRegionLeft.clicked.connect(lambda: move_list_items(main_window.ui.listWidgetSystemSelectedRegions, main_window.ui.listWidgetSystemAvailableRegions))
     main_window.ui.buttonSystemRegionRight.clicked.connect(lambda: move_list_items(main_window.ui.listWidgetSystemAvailableRegions, main_window.ui.listWidgetSystemSelectedRegions))
     main_window.ui.buttonSystemRegionUp.clicked.connect(lambda: order_list_items(main_window.ui.listWidgetSystemSelectedRegions, 'up'))
+
+    main_window.ui.buttonSystemLocalizationAllLeft.clicked.connect(lambda: move_list_items(main_window.ui.listWidgetSystemLocalizationSelectedLanguages, main_window.ui.listWidgetSystemLocalizationAvailableLanguages, all_items=True))
+    main_window.ui.buttonSystemLocalizationAllRight.clicked.connect(lambda: move_list_items(main_window.ui.listWidgetSystemLocalizationAvailableLanguages, main_window.ui.listWidgetSystemLocalizationSelectedLanguages, all_items=True))
+    main_window.ui.buttonSystemLocalizationDown.clicked.connect(lambda: order_list_items(main_window.ui.listWidgetSystemLocalizationSelectedLanguages, 'down'))
+    main_window.ui.buttonSystemLocalizationLeft.clicked.connect(lambda: move_list_items(main_window.ui.listWidgetSystemLocalizationSelectedLanguages, main_window.ui.listWidgetSystemLocalizationAvailableLanguages))
+    main_window.ui.buttonSystemLocalizationRight.clicked.connect(lambda: move_list_items(main_window.ui.listWidgetSystemLocalizationAvailableLanguages, main_window.ui.listWidgetSystemLocalizationSelectedLanguages))
+    main_window.ui.buttonSystemLocalizationUp.clicked.connect(lambda: order_list_items(main_window.ui.listWidgetSystemLocalizationSelectedLanguages, 'up'))
 
     main_window.ui.buttonSystemDefaultRegionOrder.clicked.connect(lambda: default_english_order(main_window, region_order_default, 'system'))
 

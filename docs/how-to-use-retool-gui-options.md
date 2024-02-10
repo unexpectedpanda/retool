@@ -5,12 +5,12 @@ hide:
 
 # Options
 
-Options change Retool's behavior either at the title level, or the broader DAT level.
+Options change Retool's behavior either at the title level, or the broader DAT file level.
 
 To set options, in the **Global settings** or **System settings** tab, click the
 **Options** tab.
 
-![A screenshot of Retool's options](images/options.png)
+![A screenshot of Retool's options tab](images/options.png)
 
 ## Title options
 
@@ -19,11 +19,11 @@ These options change how Retool handles certain titles.
 * **Disable 1G1R filtering**
   <br>Ignore clone lists, and treat each title as unique. Useful if you want to keep
   everything from a specific set of regions and/or languages. You can use this in
-  combination with **Split the output into multiple DAT files based on region** to treat
+  combination with **Split output into multiple DAT files based on region** to treat
   Retool as a region splitter and nothing more.
   <br>
   <br>If this option is disabled, it's because you've enabled
-  **Output DAT in legacy parent/clone format**, which isn't compatible with this feature.
+  **Output DAT files in legacy parent/clone format**, which isn't compatible with this feature.
 
 * **Prefer regions over languages**
   <br>By default, if a title from a higher priority region doesn't support your preferred
@@ -36,7 +36,7 @@ These options change how Retool handles certain titles.
   instead of one that was released in another region that contains more content and
   supports your preferred languages.
 
-* **Include titles without hashes or sizes specified in the input DAT file**
+* **Include titles without hashes or sizes specified in input DAT files**
   <br>Some DAT files don't list any hashes or sizes for some files, and Retool filters these
   out by default. This option makes sure those files are kept.
 
@@ -61,29 +61,29 @@ These options change how Retool handles certain titles.
 
 These options change the files that Retool outputs as part of its process.
 
-* **Use the original input DAT header**
-  <br>Retool generates its own header so its DATs are identified as different from the
-  original input DATs. Selecting this option uses the original input DAT header instead.
-  This is useful if you already have original Redump and No-Intro DATs in CLRMAMEPro, and
-  want to treat the Retool DAT as an update.
+* **Use original DAT file headers in output DAT files**
+  <br>Retool generates its own header so its DATfiles are identified as different from the
+  original input DAT files. Selecting this option uses the original input DAT header
+  instead. This is useful if you already have original Redump and No-Intro DAT files in
+  CLRMAMEPro, and want to treat the Retool DAT file as an update.
 
 * **Split the output into multiple DAT files based on region**
-  <br>Instead of one output DAT containing all the filtered results, split the output into
-  multiple DAT files based on the regions you've selected. If this is disabled, it's
-  because you've enabled **Output DAT in legacy parent/clone format**, which isn't
+  <br>Instead of one output DAT file containing all the filtered results, split the output
+  into multiple DAT files based on the regions you've selected. If this is disabled, it's
+  because you've enabled **Output DAT files in legacy parent/clone format**, which isn't
   compatible with this option.
 
-* **Also output a DAT file of all the removed titles**
-  <br>In addition to the output DAT file, create another DAT file containing the titles
-  Retool removed.
+* **Also output DAT files of all the removed titles**
+  <br>In addition to output DAT files, create DAT files containing the titles Retool
+  removed.
 
 * **Also output lists of what titles have been kept and removed**
-  <br>In addition to the output DAT file, produce a TXT file that lists what titles have
-  been kept, and what titles have been removed.
+  <br>In addition to output DAT files, produce TXT files that list what titles have been
+  kept, and what titles have been removed.
 
-* **Also output a list of just the title names from the output DAT file**
-  <br>In addition to the output DAT file, produce a TXT file that lists only the name of
-  each title in the output DAT file, and optionally add a prefix and suffix to each name.
+* **Also output lists of title names from output DAT files**
+  <br>In addition to output DAT files, produce TXT files that list only the name of each
+  title in the output DAT files, and optionally add a prefix and suffix to each name.
   If you add a prefix that starts with `http://`, `https://` or `ftp://`, each line in the
   file is URL encoded.
 
@@ -97,10 +97,10 @@ These options are useful for developing and testing Retool.
 * **Pause on clone list warnings**
   <br>Pause Retool each time a clone list warning is issued.
 
-* **Output DAT in legacy parent/clone format**
-  <br>Not recommended unless you're debugging or comparing outputs between DAT versions.
-  If this is disabled, it's because you've disabled 1G1R filtering or chosen to split by
-  region, which isn't compatible with this option.
+* **Output DAT files in legacy parent/clone format**
+  <br>Not recommended unless you're debugging or comparing outputs between DAT file
+  versions. If this is disabled, it's because you've disabled 1G1R filtering or chosen to
+  split by region, which isn't compatible with this option.
 
 * **Bypass DTD validation**
   <br>Skips DTD validation of DAT files, useful if validation is causing issues.

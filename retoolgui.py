@@ -138,8 +138,8 @@ class MainWindow(qtw.QMainWindow):
 
         # Add all widgets to a list that should trigger a config write if interacted with
         interactive_widgets = []
-        interactive_widgets.extend(self.ui.centralwidget.findChildren(qtw.QPushButton, qtc.QRegularExpression('buttonGlobal(Language|Region|Video|Deselect|Select|Default).*')))
-        interactive_widgets.extend(self.ui.centralwidget.findChildren(qtw.QPushButton, qtc.QRegularExpression('buttonSystem(Language|Region|Video|Deselect|Select|Default).*')))
+        interactive_widgets.extend(self.ui.centralwidget.findChildren(qtw.QPushButton, qtc.QRegularExpression('buttonGlobal(Language|Region|Localization|Video|Deselect|Select|Default).*')))
+        interactive_widgets.extend(self.ui.centralwidget.findChildren(qtw.QPushButton, qtc.QRegularExpression('buttonSystem(Language|Region|Localization|Video|Deselect|Select|Default).*')))
         interactive_widgets.extend(self.ui.centralwidget.findChildren(qtw.QPushButton, qtc.QRegularExpression('button(Choose|Clear)System.*')))
         interactive_widgets.extend(self.ui.centralwidget.findChildren(qtw.QCheckBox, qtc.QRegularExpression('checkBoxGlobal(Exclude|Options).*')))
         interactive_widgets.extend(self.ui.centralwidget.findChildren(qtw.QCheckBox, qtc.QRegularExpression('checkBoxSystem(Exclude|Options|Override).*')))
@@ -166,6 +166,11 @@ class MainWindow(qtw.QMainWindow):
                 interactive_widget.dropped.connect(lambda: write_config(self, dat_details, self.config, settings_window=None))
             except:
                 pass
+
+
+    def closeEvent(self, event: Any) -> None:
+        qtw.QApplication.closeAllWindows()
+        event.accept()
 
 
     def enable_app(self) -> None:

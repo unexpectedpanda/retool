@@ -13,8 +13,8 @@ if TYPE_CHECKING:
     from modules.config import Config
     from modules.dats import Dat, DatNode
 
-from modules.titletools import Removes
-from modules.utils import eprint, Font
+from modules.titletools import Removes, TitleTools
+from modules.utils import eprint, Font, printwrap
 
 
 class WriteFiles(object):
@@ -162,6 +162,7 @@ class WriteFiles(object):
         final_xml: list[str] = []
         dat_xml: list[str] = []
         list_names: list[str] = []
+        local_names: dict[str, int] = {}
 
         config.stats.file_count = 0
 
@@ -172,9 +173,69 @@ class WriteFiles(object):
             else:
                 final_name = title.full_name
 
+            if (
+                config.user_input.local_names
+                and title.local_name):
+                    if title.local_name in local_names:
+                        if config.user_input.verbose:
+                            print()
+                            printwrap(
+                                f'{Font.warning}* The following title\'s local name '
+                                'is already in the output DAT and must be renamed. Its '
+                                'clone relationship will be removed. This can only be '
+                                'fixed in the clone list for the system.',
+                                'error')
+                            eprint(f'\n  {title.local_name} > {title.local_name} (Dupe {local_names[title.local_name] + 1}){Font.end}')
+
+                            if config.user_input.warningpause:
+                                eprint(f'\n{Font.disabled}Press enter to continue{Font.end}')
+                                input()
+
+                        local_names[title.local_name] += 1
+
+                        title.local_name = f'{title.local_name} (Dupe {local_names[title.local_name]})'
+                        title.cloneof = ''
+                    else:
+                        local_names[title.local_name] = 0
+
+                    final_name = title.local_name
+
             if title.cloneof:
                 if config.user_input.legacy:
-                    dat_xml.append(f'\t<game name="{html.escape(final_name, quote=False)}" cloneof="{html.escape(title.cloneof, quote=False)}">\n')
+                    # Find out if the parent has a local name and use it if so
+                    if config.user_input.local_names:
+                        # Fast search
+                        clone_titles = TitleTools.find_title(title.cloneof, 'full', processed_titles, set(), config, deep_search=False)
+
+                        # Slow search if fast search fails
+                        if not clone_titles:
+                            clone_titles = TitleTools.find_title(title.cloneof, 'full', processed_titles, set(), config, deep_search=True)
+
+                        for clone_title in clone_titles:
+                            if clone_title.local_name:
+                                # Catch clone problems caused by duplicate local names
+                                if final_name == clone_title.local_name:
+                                    if config.user_input.verbose:
+                                        print()
+                                        printwrap(
+                                            f'{Font.warning}* The following title\'s local name '
+                                            'is the same as its parent. Its clone relationship will '
+                                            'be removed. This can only be fixed in the clone list '
+                                            'for the system.',
+                                            'error')
+                                        eprint(f'\n  {final_name}{Font.end}')
+
+                                        if config.user_input.warningpause:
+                                            eprint(f'\n{Font.disabled}Press enter to continue{Font.end}')
+                                            input()
+
+                                    dat_xml.append(f'\t<game name="{html.escape(final_name, quote=False)}">\n')
+                                else:
+                                    dat_xml.append(f'\t<game name="{html.escape(final_name, quote=False)}" cloneof="{html.escape(clone_title.local_name, quote=False)}">\n')
+                            else:
+                                dat_xml.append(f'\t<game name="{html.escape(final_name, quote=False)}" cloneof="{html.escape(title.cloneof, quote=False)}">\n')
+                    else:
+                        dat_xml.append(f'\t<game name="{html.escape(final_name, quote=False)}" cloneof="{html.escape(title.cloneof, quote=False)}">\n')
 
                     if config.user_input.list_names:
                         list_names.append(final_name)
@@ -190,7 +251,7 @@ class WriteFiles(object):
 
                 config.stats.file_count += 1
 
-            for category in title.categories:
+            for category in sorted(title.categories):
                 dat_xml.append(f'\t\t<category>{html.escape(category, quote=False)}</category>\n')
 
             if title.exclude_reason:
@@ -264,7 +325,7 @@ class WriteFiles(object):
 
         # Now create the header data
         if input_dat.author:
-            input_dat.author = re.sub(' &amp; Retool', '', input_dat.author)
+            input_dat.author = input_dat.author.replace(' &amp; Retool', '')
             input_dat.author = f'{html.escape(input_dat.author, quote=False)} &amp; Retool'
         else:
             input_dat.author = 'Unknown &amp; Retool'
@@ -329,13 +390,13 @@ class WriteFiles(object):
 
         # Check if the user has set a system output folder
         if config.user_input.test:
-            input_dat.output_filename = f'{config.user_input.output_folder_name}/tests/comparison/{input_dat.name} ({input_dat.version}){output_file_region}{output_file_removes}{config.user_input.user_options}{excludes}.dat'
+            input_dat.output_filename = f'{config.user_input.output_folder_name}/tests/comparison/{input_dat.name}{output_file_region}{output_file_removes}{config.user_input.user_options}{excludes}.dat'
         else:
             input_dat.output_filename = f'{config.user_input.output_folder_name}/{input_dat.name} ({input_dat.version}) (Retool {timestamp}){output_file_region}{output_file_removes} ({str("{:,}".format(config.stats.file_count))}){config.user_input.user_options}{excludes}.dat'
 
-        if {'override': 'true'} in config.system_user_path_settings:
-            if config.system_output:
-                input_dat.output_filename = f'{str(pathlib.Path(config.system_output))}/{input_dat.name} ({input_dat.version}) (Retool {timestamp}){output_file_region}{output_file_removes} ({str("{:,}".format(config.stats.file_count))}){config.user_input.user_options}{excludes}.dat'
+            if {'override': 'true'} in config.system_user_path_settings:
+                if config.system_output:
+                    input_dat.output_filename = f'{str(pathlib.Path(config.system_output))}/{input_dat.name} ({input_dat.version}) (Retool {timestamp}){output_file_region}{output_file_removes} ({str("{:,}".format(config.stats.file_count))}){config.user_input.user_options}{excludes}.dat'
 
         # Create the output folder if it doesn't exist
         if not pathlib.Path(input_dat.output_filename[:-4]).parent.exists():
@@ -445,7 +506,7 @@ class WriteFiles(object):
             or removes.promotional_removes
             or removes.unlicensed_removes
             or removes.video_removes
-            or removes.clonelist_removes
+            or removes.clone_list_removes
             or removes.mia_removes
             or removes.language_removes
             or removes.region_removes
@@ -476,7 +537,7 @@ class WriteFiles(object):
                 if removes.promotional_removes: log_file_contents.append('* PROMOTIONAL REMOVES\n')
                 if removes.unlicensed_removes: log_file_contents.append('* UNLICENSED REMOVES\n')
                 if removes.video_removes: log_file_contents.append('* VIDEO REMOVES\n')
-                if removes.clonelist_removes: log_file_contents.append('* CLONE LIST REMOVES\n')
+                if removes.clone_list_removes: log_file_contents.append('* CLONE LIST REMOVES\n')
                 if removes.language_removes: log_file_contents.append('* LANGUAGE REMOVES\n')
                 if removes.region_removes: log_file_contents.append('* REGION REMOVES\n')
                 if removes.global_excludes: log_file_contents.append('* GLOBAL EXCLUDES\n')
@@ -541,11 +602,11 @@ class WriteFiles(object):
                 user_removes('unlicensed', removes.unlicensed_removes)
                 user_removes('video', removes.video_removes)
 
-                if removes.clonelist_removes:
+                if removes.clone_list_removes:
                     log_file_contents.append('\nCLONE LIST REMOVES\n==================\n')
-                    log_file_contents.append('These titles were force removed by the clone list because they are duplicates.\n\n')
+                    log_file_contents.append('These titles were force removed because they were set to be ignored in the clone list.\n\n')
 
-                    for title in sorted(removes.clonelist_removes, key=lambda x: x.full_name):
+                    for title in sorted(removes.clone_list_removes, key=lambda x: x.full_name):
                         log_file_contents.append(f'- {title.full_name}\n')
 
                 if removes.language_removes:
@@ -610,4 +671,3 @@ class WriteFiles(object):
             raise
 
         eprint(f'done.')
-

@@ -17,7 +17,9 @@ language order:
 # - Basque
 # - Bulgarian
 # - Catalan
-# - Chinese
+# - Chinese (Simplified)
+# - Chinese (Traditional)
+# - Chinese (Unspecified)
 # - Cornish
 # - Croatian
 # - Czech
@@ -26,6 +28,7 @@ language order:
 # - Estonian
 # - Finnish
 # - French
+# - French (Canadian)
 # - Gaelic
 # - German
 # - Greek
@@ -43,6 +46,7 @@ language order:
 # - Norwegian
 # - Polish
 # - Portuguese
+# - Portuguese (Brazilian)
 # - Punjabi
 # - Romanian
 # - Russian
@@ -50,6 +54,8 @@ language order:
 # - Slovak
 # - Slovenian
 # - Spanish
+# - Spanish (Latin American)
+# - Spanish (Mexican)
 # - Swedish
 # - Tamil
 # - Thai
@@ -121,6 +127,65 @@ region order:
 - Serbia
 - Indonesia
 - Unknown
+
+# ==================
+# LOCALIZATION ORDER
+# ==================
+# If the -n option is used, use local names where available for titles with the
+# following languages. Comment out languages you don't want. Order is important.
+# If all languages are commented out and -n is used, the language order is used
+# instead.
+localization order:
+# - Afrikaans
+# - Albanian
+# - Arabic
+# - Basque
+# - Bulgarian
+# - Catalan
+# - Chinese (Simplified)
+# - Chinese (Traditional)
+# - Cornish
+# - Croatian
+# - Czech
+# - Danish
+# - Dutch
+# - English
+# - Estonian
+# - Finnish
+# - French
+# - French (Canadian)
+# - Gaelic
+# - German
+# - Greek
+# - Hebrew
+# - Hindi
+# - Hungarian
+# - Icelandic
+# - Indonesian
+# - Italian
+# - Japanese
+# - Korean
+# - Latvian
+# - Lithuanian
+# - Macedonian
+# - Norwegian
+# - Polish
+# - Portuguese
+# - Portuguese (Brazilian)
+# - Punjabi
+# - Romanian
+# - Russian
+# - Serbian
+# - Slovak
+# - Slovenian
+# - Spanish
+# - Spanish (Latin American)
+# - Spanish (Mexican)
+# - Swedish
+# - Tamil
+# - Thai
+# - Turkish
+# - Ukranian
 
 # ===========
 # VIDEO ORDER

@@ -405,6 +405,16 @@ def custom_widgets(main_window: Any) -> Any:
     main_window.ui.labelOutputFolder.setGeometry(qtc.QRect(60, 31, 251, 20))
     main_window.ui.labelOutputFolder.setStyleSheet('color: #777')
 
+    # Fix checkboxes, which have a weird hover effect on Windows 4k monitors on hover if
+    # you don't set a size that's divisible by 4.
+    checkbox_style = '''
+                     QCheckBox::indicator { width: 16px; height: 16px;}
+                     '''
+
+    checkboxes = main_window.ui.centralwidget.findChildren(qtw.QCheckBox, qtc.QRegularExpression('(checkBox.*)'))
+    for checkbox in checkboxes:
+        checkbox.setStyleSheet(checkbox_style)
+
     # Fix the scrollArea background color,which for some reason is altered by setting
     # the font previously
     scroll_area_style = '''

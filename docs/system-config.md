@@ -1,7 +1,7 @@
 # System config example
 
-This file should be stored in `config/systems`, and named
-`Sony - PlayStation (Redump).yaml`.
+This file should be stored in `config/systems`, and named after the
+DAT file system and group, for example: `Sony - PlayStation (Redump).yaml`.
 
 ```yaml
 ---
@@ -15,7 +15,7 @@ This file should be stored in `config/systems`, and named
 # ==============================================
 paths:
 - override: false
-- clone list: # clonelists\your-clone-list.json
+- clone list: # clonelists/your-clone-list.json
 - metadata file: # metadata/your-metadata-file.json
 - output: # C:\path
 #
@@ -138,6 +138,66 @@ region order:
 - Serbia
 - Indonesia
 - Unknown
+
+# ==================
+# LOCALIZATION ORDER
+# ==================
+# If the -n option is used, use local names where available for titles with the
+# following languages. Comment out languages you don't want. Order is important.
+# If all languages are commented out and -n is used, the language order is used
+# instead.
+localization order:
+- override: false
+# - Afrikaans
+# - Albanian
+# - Arabic
+# - Basque
+# - Bulgarian
+# - Catalan
+# - Chinese (Simplified)
+# - Chinese (Traditional)
+# - Cornish
+# - Croatian
+# - Czech
+# - Danish
+# - Dutch
+# - English
+# - Estonian
+# - Finnish
+# - French
+# - French (Canadian)
+# - Gaelic
+# - German
+# - Greek
+# - Hebrew
+# - Hindi
+# - Hungarian
+# - Icelandic
+# - Indonesian
+# - Italian
+# - Japanese
+# - Korean
+# - Latvian
+# - Lithuanian
+# - Macedonian
+# - Norwegian
+# - Polish
+# - Portuguese
+# - Portuguese (Brazilian)
+# - Punjabi
+# - Romanian
+# - Russian
+# - Serbian
+# - Slovak
+# - Slovenian
+# - Spanish
+# - Spanish (Latin American)
+# - Spanish (Mexican)
+# - Swedish
+# - Tamil
+# - Thai
+# - Turkish
+# - Ukranian
 
 # ===========
 # VIDEO ORDER

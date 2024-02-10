@@ -7,9 +7,7 @@ hide:
 
 Retool is supported on :simple-windows:{:style="margin-left:0.5em; margin-right:0.2em"}
 Windows 10+, :simple-ubuntu:{:style="margin-left:0.5em; margin-right:0.2em"} Ubuntu 20+,
-and :simple-apple:{:style="margin-left:0.5em; margin-right:0.2em"} macOS 10+ on x86
-processors. It likely works on M1 MacBooks too, however I don't own the hardware to test
-it.
+and :simple-apple:{:style="margin-left:0.5em; margin-right:0.2em"} macOS 10+.
 
 How you download and install Retool will depend on your level of comfort with code, and
 the operating system you use.
@@ -38,7 +36,7 @@ the operating system you use.
         false positive. If the SHA256 of the downloaded ZIP matches the checksum on this
         page, you're likely safe to mark an exception in your anti-virus software.
 
-=== ":simple-python: Git and Python (GUI and CLI)"
+=== ":simple-python::simple-ubuntu::simple-apple: Git and Python (GUI and CLI)"
     If you're more comfortable with the command line, or are running on a non-Windows
     platform, then this option is for you.
 
@@ -56,7 +54,7 @@ the operating system you use.
 
         === "Pip"
             ```
-            pip install alive-progress lxml psutil pyside6 strictyaml validators
+            pip install alive-progress lxml psutil pyside6 darkdetect strictyaml validators
             ```
 
         === "Poetry"

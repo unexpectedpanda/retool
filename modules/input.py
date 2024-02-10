@@ -16,7 +16,7 @@ if TYPE_CHECKING:
 from modules.clonelists import CloneList
 from modules.constants import *
 from modules.dats import Dat
-from modules.utils import eprint, ExitRetool, Font, download, printwrap, regex_test, SmartFormatter
+from modules.utils import eprint, Font, download, minimum_version, printwrap, regex_test, SmartFormatter
 
 class UserInput:
     def __init__(self,
@@ -25,6 +25,7 @@ class UserInput:
                  no_1g1r: bool = False,
                  empty_titles: bool = False,
                  filter_languages: bool = False,
+                 local_names: bool = False,
                  region_bias: bool = False,
                  legacy: bool = False,
                  demote_unl: bool = False,
@@ -85,6 +86,10 @@ class UserInput:
 
             - `filter_languages (bool, optional)` Filters by languages, removing any title
               that doesn't support the languages in the supplied list. Defaults to `False`.
+
+            - `local_names (bool, optional)` Uses local names for titles if available. For
+              example, `ダイナマイト　ヘッディー (Japan)` instead of
+              `Dynamite Headdy (Japan)`.
 
             - `region_bias (bool, optional)` Prefers regions over languages. Defaults to
               `False`.
@@ -221,6 +226,7 @@ class UserInput:
         self.empty_titles: bool = empty_titles
         self.legacy: bool = legacy
         self.filter_languages: bool = filter_languages
+        self.local_names: bool = local_names
         self.no_mia: bool = no_mia
         self.region_bias: bool = region_bias
         self.demote_unl: bool = demote_unl
@@ -328,6 +334,13 @@ def check_input() -> UserInput:
                              '\nsupport any of the languages on the list, it\'s removed'
                              f'\n(see {Font.bold}config/user-config.yaml{Font.end}).')
 
+    parser.add_argument('-n',
+                        action='store_true',
+                        help=f'R|Use local names for titles if available. For example,'
+                             '\nシャイニング●フォースⅡ 『古の封印』 instead of'
+                             '\nShining Force II - Inishie no Fuuin'
+                            f'\n(see {Font.bold}config/user-config.yaml{Font.end}).')
+
     parser.add_argument('-r',
                         action='store_true',
                         help='R|Prefer regions over languages. By default, if a title'
@@ -345,8 +358,8 @@ def check_input() -> UserInput:
     parser.add_argument('-y',
                         action='store_true',
                         help='R|Prefer licensed versions over unlicensed, aftermarket,'
-                             '\nhomebrew, or pirate titles. This might select titles with lower'
-                             '\npriority regions or languages, or with less features.')
+                             '\nhomebrew, or pirate titles. This might select titles with'
+                             '\nlower priority regions or languages, or with less features.')
 
     parser.add_argument('-z',
                         action='store_true',
@@ -379,7 +392,7 @@ def check_input() -> UserInput:
 
     outputs.add_argument('--originalheader',
                         action='store_true',
-                        help='R|Use the original input DAT header in the output DAT.'
+                        help='R|Use the original input DAT headers in output DAT files.'
                              '\nUseful if you want to load Retool DATs as an update'
                              '\nto original Redump and No-Intro DATs already in CLRMAMEPro.')
 
@@ -397,8 +410,8 @@ def check_input() -> UserInput:
 
     outputs.add_argument('--removesdat',
                         action='store_true',
-                        help='R|Also output a DAT containing the titles that were'
-                             '\nremoved from the 1G1R DAT.')
+                        help='R|Also output DAT files containing titles that were'
+                             '\nremoved from 1G1R DAT files.')
 
     debug.add_argument('--config',
                         metavar='<file>',
@@ -426,7 +439,7 @@ def check_input() -> UserInput:
 
     debug.add_argument('--legacy',
                         action='store_true',
-                        help='R|Output DAT/s in legacy parent/clone format. Not'
+                        help='R|Output DAT files in legacy parent/clone format. Not'
                              '\ncompatible with -d.')
 
     debug.add_argument('--nodtd',
@@ -635,6 +648,7 @@ def check_input() -> UserInput:
             no_1g1r = args.d,
             empty_titles = args.e,
             filter_languages = args.l,
+            local_names = args.n,
             region_bias = args.r,
             legacy = args.legacy,
             demote_unl = args.y,
@@ -767,68 +781,21 @@ def import_clone_list(input_dat: Dat, gui_input: UserInput|None, config: Config)
     clonedata: dict[str, Any] = load_data(clone_file, 'clone list', config)
 
     min_version: str = ''
-    categories: list[dict[str, Any]] = []
     mias: list[str] = []
-    overrides: list[dict[str, Any]] = []
-    removes: list[dict[str, Any]] = []
     variants: list[dict[str, Any]] = []
 
-    if 'categories' in clonedata:
-        categories = clonedata['categories']
     if 'mias' in clonedata:
         mias = clonedata['mias']
-    if 'overrides' in clonedata:
-        overrides = clonedata['overrides']
-    if 'removes' in clonedata:
-        removes = clonedata['removes']
     if 'variants' in clonedata:
         variants = clonedata['variants']
     if 'description' in clonedata:
         if 'minimumVersion' in clonedata['description']:
             min_version = clonedata['description']['minimumVersion']
-            # Convert old versions to new versioning system
-            if len(re.findall('\\.', min_version)) < 2:
-                min_version = f'{min_version}.0'
-
-            # Make sure current Retool version is new enough to handle the clone list
-            out_of_date: bool = False
-
-            clone_list_version_major = f'{min_version.split(".")[0]}.{min_version.split(".")[1]}'
-            clone_list_version_minor = f'{min_version.split(".")[2]}'
-            if clone_list_version_major > config.version_major:
-                out_of_date = True
-            elif clone_list_version_major == config.version_major:
-                if clone_list_version_minor > config.version_minor:
-                    out_of_date = True
-
-            if out_of_date:
-                out_of_date_response: str = ''
-
-                while not (out_of_date_response == 'y' or out_of_date_response == 'n'):
-                    printwrap(
-                        f'{Font.warning_bold}* This clone list requires Retool '
-                        f'{str(min_version)} or higher. Behaviour might be unpredictable. '
-                        'Please update Retool to fix this.',
-                        'error'
-                    )
-
-                    eprint(f'\n  Continue? (y/n) {Font.end}')
-                    out_of_date_response = input()
-
-                if out_of_date_response == 'n':
-                    if gui_input:
-                        raise ExitRetool
-                    else:
-                        sys.exit()
-                else:
-                    eprint('')
+            minimum_version(min_version, clone_file, gui_input, config)
 
     return CloneList(
         min_version,
-        categories,
         mias,
-        overrides,
-        removes,
         variants
     )
 
@@ -882,6 +849,7 @@ def import_system_settings(
     search_name: str,
     system_language_order_key: str,
     system_region_order_key: str,
+    system_localization_order_key: str,
     system_video_order_key: str,
     system_list_prefix_key: str,
     system_list_suffix_key: str,
@@ -901,6 +869,9 @@ def import_system_settings(
 
         - `system_region_order_key (str)` The key in system config that specifies the
           region order as defined by the user.
+
+        - `system_localization_order_key (str)` The key in the system config that specifies
+          the localization order as defined by the user.
 
         - `system_video_order_key (str)` The key in system config that specifies the
           order for video standards like MPAL, NTSC, PAL, PAL 60Hz, and SECAM as defined by
@@ -928,6 +899,7 @@ def import_system_settings(
     config.system_region_order_user = []
     config.system_languages_user_found = False
     config.system_language_order_user = []
+    config.system_localization_order_user = []
     config.system_user_prefix = ''
     config.system_user_suffix = ''
     config.system_video_order_user = []
@@ -938,6 +910,7 @@ def import_system_settings(
                     'paths': Seq(Str()|MapPattern(Str(), Str()))|Str(),
                     system_language_order_key: Seq(Str()|MapPattern(Str(), Str()))|Str(),
                     system_region_order_key: Seq(Str()|MapPattern(Str(), Str()))|Str(),
+                    system_localization_order_key: Seq(Str()|MapPattern(Str(), Str()))|Str(),
                     system_video_order_key: Seq(Str()|MapPattern(Str(), Str()))|Str(),
                     system_list_prefix_key: Seq(Str()|MapPattern(Str(), Str()))|Str(),
                     system_list_suffix_key: Seq(Str()|MapPattern(Str(), Str()))|Str(),
@@ -958,15 +931,27 @@ def import_system_settings(
             raise
 
         except YAMLValidationError as e:
-            # Check for the filters key that was added in v2.01.0, and add it if not found
-            if '\'filters\' not found' in str(e):
+            # For compatibility, check if the following filter keys are missing, and add
+            # them if not found:
+            #
+            # * filters, added in v2.01.0
+            # * localization order, added in v2.02.0
+
+            if (
+                '\'filters\' not found' in str(e)
+                or '\'localization order\' not found' in str(e)):
+                key_name: str = ''
+
+                if '\'filters\' not found' in str(e): key_name = 'filters'
+                if '\'localization order\' not found' in str(e): key_name = 'localization order'
+
                 try:
                     with open(pathlib.Path(system_config_file), 'r', encoding='utf-8') as system_config_import:
-                        add_filters_key: list[str] = system_config_import.readlines()
-                        add_filters_key.append('\n\nfilters:')
+                        add_key: list[str] = system_config_import.readlines()
+                        add_key.append(f'\n\n{key_name}:')
 
                     with open(pathlib.Path(system_config_file), 'w', encoding='utf-8') as system_config_import:
-                        system_config_import.writelines(add_filters_key)
+                        system_config_import.writelines(add_key)
                 except Exception as e2:
                     eprint(f'\n{Font.error_bold}* Error: {Font.end}{str(e2)}\n')
                     raise
@@ -993,8 +978,9 @@ def import_system_settings(
         config.system_output = get_config_value(config.system_user_path_settings, 'output', '.', True)
 
         # Get system region, language, and video standard orders
-        config.system_region_order_user = list(system_settings.data[system_region_order_key])
         config.system_language_order_user = list(system_settings.data[system_language_order_key])
+        config.system_region_order_user = list(system_settings.data[system_region_order_key])
+        config.system_localization_order_user = list(system_settings.data[system_localization_order_key])
         config.system_video_order_user = list(system_settings.data[system_video_order_key])
 
         # Compensate for No-Intro using "United Kingdom", and Redump using "UK"
@@ -1037,6 +1023,23 @@ def import_system_settings(
         language_list = reduce(lambda x, y: x + [y] if not y in x else x, language_list, [])
 
         config.system_language_order_user = [x for x in language_list]
+
+        # Change the user localization list to be regex strings instead of language
+        # names
+        localization_list: list[str|dict[str, str]] = []
+
+        if {'override': 'true'} in config.system_localization_order_user:
+            if [x for x in config.system_localization_order_user if 'override' not in x]:
+                localization_list.extend([x for x in config.system_localization_order_user if 'override' in x])
+
+                for language in [str(x) for x in config.system_localization_order_user if 'override' not in x]:
+                    if language in config.languages:
+                        localization_list.append(config.languages[language])
+
+            if {'override': 'true'} not in localization_list:
+                localization_list.append({'override': 'true'})
+
+        config.system_localization_order_user = [x for x in localization_list]
 
         # Get list prefix and suffix
         config.system_user_prefix = ''.join(system_settings.data['list prefix'])

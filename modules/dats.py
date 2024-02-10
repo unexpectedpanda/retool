@@ -10,7 +10,7 @@ import sys
 from alive_progress import alive_bar # type: ignore
 from contextlib import nullcontext
 from functools import partial
-from lxml import etree, html as html_ # type: ignore
+from lxml import etree, html as html_
 from typing import Any, TYPE_CHECKING
 
 if TYPE_CHECKING:
@@ -178,6 +178,7 @@ class DatNode:
         self.full_name: str = ''
         self.full_name_original: str = ''
         self.numbered_name: str = ''
+        self.local_name: str = ''
 
         if not input_dat.numbered:
             self.full_name = node['name']
@@ -187,6 +188,9 @@ class DatNode:
 
         self.full_name = TitleTools.replace_invalid_characters(self.full_name, config, is_header_detail=False)
         self.full_name_original = self.full_name
+
+        # Get the tags
+        self.tags: set[str] = set([f'({x}' for x in self.full_name.split(' (')][1:None])
 
         # Set languages and regions
         self.languages_implied: tuple[str, ...] = ()
@@ -205,7 +209,7 @@ class DatNode:
             else:
                 self.languages_online = tuple(sorted(input_dat.metadata[self.full_name]['languages']))
 
-        self.languages_title_str: str = TitleTools.languages(self.full_name, config, 'get')
+        self.languages_title_str: str = TitleTools.languages(self.full_name, self.tags, config, 'get')
         self.languages_title_orig_str: str = self.languages_title_str
 
         if '+' in self.languages_title_str:
@@ -265,17 +269,63 @@ class DatNode:
 
         self.languages_original = self.languages
 
+        # If the language code for the title is just Zh, try to infer whether simplified
+        # or traditional Chinese is being used
+        if 'Zh' in self.languages:
+            if (
+                'China' in self.regions
+                or 'Singapore' in self.regions):
+                    self.languages = tuple([x.replace('Zh', 'Zh-Hans') for x in self.languages])
+            elif (
+                'Hong Kong' in self.regions
+                or 'Taiwan' in self.regions):
+                    self.languages = tuple([x.replace('Zh', 'Zh-Hant') for x in self.languages])
+
         # Set various names used for title matching -- for speed, we don't use all of the
         # built-in name conversion functions, as they generate the names from scratch which
         # requires extra work
         regions_replace: str = f' ({self.regions_str})'
         languages_replace: str = f' ({self.languages_title_orig_str})'
 
-        self.tag_free_name: str = TitleTools.get_tag_free_name(self.full_name, config)
+        self.short_name: str = TitleTools.get_short_name(self.full_name, self.tags, config)
         self.region_free_name: str = self.full_name.replace(languages_replace, '').replace(regions_replace, '')
-        self.short_name: str = self.tag_free_name.replace(languages_replace, '').replace(regions_replace, '')
         self.short_name_original: str = self.short_name
         self.group_name: str = TitleTools.get_group_name(self.full_name, config)
+        self.group_name_conditional: str = ''
+
+        # Pull local names from metadata
+        metadata_local_language: str = ''
+
+        if self.full_name in input_dat.metadata:
+            if 'localName' in input_dat.metadata[self.full_name]:
+
+                # Check if a system config is in play
+                local_name_user_order_language_codes: list[str] = []
+
+                if config.system_localization_order_user:
+                    if {'override': 'true'} in config.system_localization_order_user:
+                        local_name_user_order_language_codes = [str(x) for x in config.system_localization_order_user if 'override' not in x]
+                elif config.localization_order_user:
+                    local_name_user_order_language_codes = [x for x in config.localization_order_user]
+
+                # Get the inferred language from the primary region
+                if self.primary_region in config.languages_filter:
+                    if config.languages_filter[self.primary_region]:
+                        metadata_local_language = config.languages_filter[self.primary_region][0]
+
+                # Make sure the alternate name is only applied if the title only has one or
+                # two languages, and don't change the title if the only language is English
+                if (
+                    len(self.languages) <= 2
+                    and self.languages != ('En',)
+                    ):
+                    if metadata_local_language in local_name_user_order_language_codes:
+                        self.local_name = input_dat.metadata[self.full_name]['localName']
+
+        # Re-add the tags to the local name where appropriate
+        if self.local_name:
+            tags = pattern2string(re.compile(' \\(.*'), self.full_name)
+            self.local_name = f'{self.local_name}{tags}'
 
         # Populate the description and rom fields
         if 'description' in node:
@@ -337,6 +387,9 @@ class DatNode:
                 else:
                     self.categories.append(category)
 
+        # Set an indicator if the title has been moved using a clone list condition
+        self.group_moved_by_condition: bool = False
+
         def category_assign(regexes: tuple[Any, ...], category: str) -> None:
             """ Assigns a category to a title based on a regex match in its
             name.
@@ -378,7 +431,6 @@ class DatNode:
         if not is_demo and 'Demos' in self.categories:
             self.short_name = f'{self.short_name.strip()} (Demo)'
             self.region_free_name = f'{self.region_free_name.strip()} (Demo)'
-            self.tag_free_name = f'{self.tag_free_name.strip()} (Demo)'
 
         self.short_name = self.short_name.lower()
 
@@ -464,11 +516,13 @@ class DatNode:
 
         return_list.append(f'  ○ full_name:\t\t\t{self.full_name}\n')
         return_list.append(format_attribute(self.numbered_name, 'numbered_name', '\t\t'))
+        return_list.append(format_attribute(self.local_name, 'local_name', '\t\t\t'))
         return_list.append(f'  ├ description:\t\t{self.description}\n')
         return_list.append(f'  ├ region_free_name:\t\t{self.region_free_name}\n')
-        return_list.append(f'  ├ tag_free_name:\t\t{self.tag_free_name}\n')
         return_list.append(f'  ├ short_name:\t\t\t{self.short_name}\n')
         return_list.append(f'  ├ group_name:\t\t\t{self.group_name}\n')
+        return_list.append(f'  ├ group_moved_by_condition:\t{self.group_moved_by_condition}\n')
+        return_list.append(format_attribute(self.tags, 'tags', '\t\t\t'))
         return_list.append(f'  ├ regions:\t\t\t{self.regions}\n')
         return_list.append(f'  ├ primary_region:\t\t{self.primary_region}\n')
         return_list.append(format_attribute(self.secondary_region, 'secondary_region', '\t\t'))
@@ -737,7 +791,7 @@ def convert_clrmame_dat(input_dat: Dat, input_type: str, gui_input: UserInput|No
     return Dat(convert_dat, [], dat_name, dat_description, dat_version, dat_author, dat_url)
 
 
-def format_system_name(original_name: str, url: str = '', homepage: str = '', comment: str = '', author: str = '') -> str:
+def format_system_name(original_name: str, config: Config, url: str = '', homepage: str = '', comment: str = '', author: str = '') -> str:
     """ Sanitizes the system name to match it with clone lists, metadata files, and system configs
 
     Args:
@@ -758,7 +812,8 @@ def format_system_name(original_name: str, url: str = '', homepage: str = '', co
         `str` The formatted system name.
     """
 
-    remove_string: str = ' \\((Parent-Clone|BETA|Combined|J64|ROM|BLL|LYX|LNX|FullXCI|Bitstream|Flux|Decrypted|Encrypted|BigEndian|ByteSwapped|Deprecated|Headered|Headerless|Private)\\)'
+    remove_string: str = f' \\(({"|".join(config.dat_file_tags)})\\)'
+
     search_name: str  = ''
 
     if re.search(remove_string, original_name) != None:
@@ -903,6 +958,14 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput|None, confi
         validation_bool[i] = bool(list(filter(lambda x: validation_tag in x, input_dat.contents)))
         continue
 
+    if not all(validation_bool):
+        validation_tags = ['<datafile', '<?xml', '<machine', '<header']
+        validation_bool = [False, False, False, False]
+
+        for i, validation_tag in enumerate(validation_tags):
+            validation_bool[i] = bool(list(filter(lambda x: validation_tag in x, input_dat.contents)))
+            continue
+
     if all(validation_bool):
         # Fix any content that might causes Logiqx DTD check failures
         try:
@@ -965,7 +1028,7 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput|None, confi
                                 printwrap(
                                     f'{Font.warning_bold}* Warning: {Font.warning}DAT file doesn\'t '
                                     'comply with the Logiqx DTD standard. This might have unexpected results.', 'error')
-                                printwrap(f'  DTD violation: {dtd.error_log.last_error}.'
+                                printwrap(f'  DTD violation: {dtd.error_log.last_error}.' # type: ignore
                                     f'{next_status}{Font.end}', 'error')
                                 eprint('')
                                 if input_type == 'file':
@@ -1045,7 +1108,7 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput|None, confi
 
         # Sanitize the system name to make referencing support files like clone lists and
         # system configurations easier
-        input_dat.search_name = format_system_name(input_dat.name, input_dat.url, input_dat.homepage, input_dat.comment)
+        input_dat.search_name = format_system_name(input_dat.name, config, input_dat.url, input_dat.homepage, input_dat.comment)
 
         # Provide DAT details to the user to reassure them the correct file is being processed
         eprint('')
@@ -1060,7 +1123,11 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput|None, confi
             input_dat.numbered = True
 
             for game in root.findall('game'):
-                if not re.search('^([0-9]|x|z)([0-9]|B)[0-9]{2,2} - ', game.attrib['name']):
+                if not re.search('^([0-9]|x|z)([0-9]|B)[0-9]{2,2} - ', game.attrib['name']): #type: ignore
+                    input_dat.numbered = False
+
+            for machine in root.findall('machine'):
+                if not re.search('^([0-9]|x|z)([0-9]|B)[0-9]{2,2} - ', machine.attrib['name']): #type: ignore
                     input_dat.numbered = False
 
             if not input_dat.numbered:
@@ -1076,6 +1143,7 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput|None, confi
             input_dat.search_name,
             SYSTEM_LANGUAGE_ORDER_KEY,
             SYSTEM_REGION_ORDER_KEY,
+            SYSTEM_LOCALIZATION_ORDER_KEY,
             SYSTEM_VIDEO_ORDER_KEY,
             SYSTEM_LIST_PREFIX_KEY,
             SYSTEM_LIST_SUFFIX_KEY,
@@ -1085,6 +1153,9 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput|None, confi
             SYSTEM_EXCLUSIONS_OPTIONS_KEY)
 
         search_games: list[Any] = root.findall('game')
+
+        if not search_games:
+            search_games = root.findall('machine')
 
         if config.user_input.trace or config.user_input.single_cpu:
             alive_bar_context = nullcontext()
@@ -1115,8 +1186,8 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput|None, confi
                 list(map(lambda d: node_dict.update({d.tag: d.text}), list(game)))
 
                 # Get multiple categories if the input DAT supports them
-                for category in game.xpath('category'):
-                    categories.append(str(category.text))
+                for category in game.xpath('category'): # type: ignore
+                    categories.append(str(category.text)) # type: ignore
 
                 if categories:
                     node_dict['category'] = categories
@@ -1124,8 +1195,8 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput|None, confi
                     node_dict['category'] = []
 
                 # Get the rom node attributes
-                for rom in game.xpath('rom'):
-                    roms.append(dict(rom.attrib))
+                for rom in game.xpath('rom'): # type: ignore
+                    roms.append(dict(rom.attrib)) # type: ignore
 
                 # Check for at least a size and one hash in the rom node
                 skip_node: bool = False
@@ -1244,7 +1315,6 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput|None, confi
                             title.full_name = re.sub(' \\(Dupe \\d+\\)', '', title.full_name)
                             title.description = re.sub(' \\(Dupe \\d+\\)', '', title.description)
                             title.short_name = re.sub(' \\(Dupe \\d+\\)', '', title.short_name)
-                            title.tag_free_name = re.sub(' \\(Dupe \\d+\\)', '', title.tag_free_name)
                             title.region_free_name = re.sub(' \\(Dupe \\d+\\)', '', title.region_free_name)
                         else:
                             dupe_number += 1
@@ -1253,7 +1323,6 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput|None, confi
                         title.full_name = f'{title.full_name} (Dupe {dupe_number})'
                         title.description = f'{title.description} (Dupe {dupe_number})'
                         title.short_name = f'{title.short_name} (Dupe {dupe_number})'
-                        title.tag_free_name = f'{title.tag_free_name} (Dupe {dupe_number})'
                         title.region_free_name = f'{title.region_free_name} (Dupe {dupe_number})'
 
                         if f'{before_rename} > {title.full_name}' not in duplicate_names:
@@ -1289,7 +1358,9 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput|None, confi
         eprint('\033[F\033[K* Processing DAT file... done.\n', end='')
     else:
         eprint('failed.')
-        if '<game' not in input_dat.contents:
+        if (
+            '<game' not in input_dat.contents
+            or '<machine' not in input_dat.contents):
             printwrap(
                 f'{Font.error_bold}* "{dat_file}"{Font.error} is empty '
                 f'- no titles found.'

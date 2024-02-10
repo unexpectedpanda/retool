@@ -23,7 +23,7 @@ USA title.
 To view the regions, in the **Global settings** or **System settings** tab, click the
 **Regions** tab.
 
-![A screenshot of Retool's regions boxes](images/regions.png)
+![A screenshot of Retool's regions tab](images/regions.png)
 
 You can move regions from the **Available regions** box to the **Filter by these regions**
 box in the following ways:
@@ -138,7 +138,7 @@ You can move languages from the **Filter by these languages** box to the
 
 * Drag and drop with the mouse.
 * Select one or more languages in the **Filter by these languages** box, and then click
-  ![Am image of the "remove languages" button](images/icons8-sort-left-100.png){:.inline-icon .move-button}
+  ![A screenshot of the "remove languages" button](images/icons8-sort-left-100.png){:.inline-icon .move-button}
   **Remove languages**.
 * Click
   ![A screenshot of the "remove all languages" button](images/icons8-skip-to-start-100.png){:.inline-icon .move-button}
@@ -172,6 +172,8 @@ NTSC as a video standard, but put Europe first in your region order.
 To view the video order, in the **Global settings** or **Sytem settings** tab, click the
 **Video** tab.
 
+![A screenshot of Retool's video order](images/video.png)
+
 You can change the order of the video standards in the **Video order** box in the
 following ways:
 
@@ -181,8 +183,6 @@ following ways:
   ![A screenshot of an up button](images/icons8-sort-up-100.png){:.inline-icon .move-button}
   **Up** or ![A screenshot of a down button](images/icons8-sort-down-100.png){:.inline-icon .move-button}
   **Down**.
-
-![A screenshot of Retool's video order](images/video.png)
 
 !!! tip
     A combination of ++ctrl++ (++cmd++ on macOS), ++shift++, and clicking allows for

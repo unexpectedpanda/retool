@@ -230,7 +230,7 @@ def get_system_name(dat_file_path: str, config: Config) -> str:
         if b'author' in header:
             system_author = pattern2string(re.compile('author.*([rR]edump.org)'), str(header), group_number=1).strip()
 
-        system_name = format_system_name(system_name, system_url, system_homepage, system_comment, system_author)
+        system_name = format_system_name(system_name, config, system_url, system_homepage, system_comment, system_author)
 
     return f'{system_name}'
 

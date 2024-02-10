@@ -5,6 +5,12 @@ hide:
 
 # Create and edit clone lists
 
+Clone lists are JSON files that primarily define relationships between titles that Retool
+doesn't automatically pick up. They're useful both for matching titles of completely
+different names, and for overriding some of the default choices that Retool makes.
+Additionally, they can add more accurate filter criteria like different categories to
+titles, and even additional data like local title names.
+
 Contributing to Retool's clone lists directly involves code and being familiar with Git
 and GitHub. If that's not something you're interested in, you can still request clone list
 changes by [filing an issue](https://github.com/unexpectedpanda/retool/issues).
@@ -18,9 +24,13 @@ If you want to create or edit clone lists, you need to understand [JSON](https:/
 and the following data structures:
 
 * Key/value pairs
+
 * Strings
+
 * Integers
+
 * Arrays
+
 * Objects
 
 It also helps to understand Retool's [terminology](terminology.md), and the different
@@ -42,6 +52,8 @@ Names should only be added to clone lists in the following situations:
 
 * To assign categories to titles.
 
+* To assign local names to titles.
+
 * To designate a title as missing in action (MIA).
 
 ## Clone list location and names
@@ -56,17 +68,17 @@ looks for clone lists in is defined in `config/internal-config.json` in the
 }
 ```
 
-Retool selects the correct clone list and metadata files for the loaded DAT file by
-checking the `<name>` and `<url>` tags in the header of the DAT file, and then looking for
-a matching filename with the release group appended in the clone lists and metadata
-folders. For example, for Redump's Sony PlayStation DAT file, the `<name>` is
-`Sony - PlayStation`. Therefore Retool looks for the clone list
-`Sony - PlayStation (Redump).json` in the clone lists folder. If a matching file isn't
-found, then only Retool's automatic clone detection is used.
+Retool selects the correct clone list for the loaded DAT file by checking the `<name>` and
+`<url>` tags in the header of the DAT file, and then looking for a matching filename with
+the release group appended in the `clonelists` folder. For example, for Redump's Sony
+PlayStation DAT file, the `<name>` is `Sony - PlayStation`. Therefore Retool looks for the
+clone list `Sony - PlayStation (Redump).json` in the `clonelists` folder. If a matching
+file isn't found, then only Retool's automatic clone detection is used.
 
 ## Reference sites
 
-The following sites can help in identifying titles that are related to each other.
+The following sites can help in identifying titles that are related to each other, or
+for finding local title names.
 
 DAT release groups:
 
@@ -76,15 +88,17 @@ DAT release groups:
 
 - [Redump](http://www.redump.org)
   <br>
-  Useful for localized title names that use non-Latin characters like Japanese, Chinese,
+  Useful for local title names that use non-Latin characters like Japanese, Chinese,
   Korean, and Russian. You can then use these in [Google Search](https://www.google.com)
   or [Translate](https://translate.google.com) to help make connections. Sometimes
-  there's useful information in the comments of title pages.
+  there's useful information in the comments of a disc page.
 
 Databases:
 
 - [Atari Mania](http://www.atarimania.com) (Atari titles)
+- [Bootleg Games Wiki](https://bootleggames.fandom.com/)
 - [GameTDB](https://www.gametdb.com)
+- [Handheld Underground](https://hhug.me/)
 - [LaunchBox Games Database](https://gamesdb.launchbox-app.com/)
 - [Moby Games](https://www.mobygames.com)
 - [Online Games DatenBank](https://ogdb.eu/)

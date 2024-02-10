@@ -6,7 +6,7 @@ hide:
 # How to use Retool GUI
 
 What follows is a step-by-step walkthrough of using Retool GUI and all of its features. If
-you're new to DAT management, it might be beneficial to spend some time reading about
+you're new to DAT file management, it might be beneficial to spend some time reading about
 [terminology](terminology.md), and after you've filtered a DAT file with Retool, check
 out the help documentation for your favorite ROM manager to learn how to use it.
 
@@ -86,7 +86,7 @@ versions of them in the specified folder.
 
 Settings are available at two levels in Retool: global and system.
 
-* **Global settings** are applied to every DAT Retool processes, so long as system
+* **Global settings** are applied to every DAT file Retool processes, so long as system
   settings don't override them.
 
 * **System settings** are applied to a specific system named in a DAT file. For example,

@@ -3,7 +3,7 @@
 ################################################################################
 ## Form generated from reading UI file 'retool-clone-list-name.ui'
 ##
-## Created by: Qt User Interface Compiler version 6.6.0
+## Created by: Qt User Interface Compiler version 6.6.1
 ##
 ## WARNING! All changes made in this file will be lost when recompiling UI file!
 ################################################################################
@@ -26,14 +26,14 @@ class Ui_CloneListNameTool(object):
     def setupUi(self, CloneListNameTool):
         if not CloneListNameTool.objectName():
             CloneListNameTool.setObjectName(u"CloneListNameTool")
-        CloneListNameTool.resize(601, 440)
+        CloneListNameTool.resize(601, 365)
         sizePolicy = QSizePolicy(QSizePolicy.Fixed, QSizePolicy.Fixed)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(CloneListNameTool.sizePolicy().hasHeightForWidth())
         CloneListNameTool.setSizePolicy(sizePolicy)
-        CloneListNameTool.setMinimumSize(QSize(601, 440))
-        CloneListNameTool.setMaximumSize(QSize(601, 440))
+        CloneListNameTool.setMinimumSize(QSize(601, 350))
+        CloneListNameTool.setMaximumSize(QSize(601, 365))
         font = QFont()
         font.setFamilies([u"Segoe UI"])
         CloneListNameTool.setFont(font)
@@ -136,28 +136,6 @@ class Ui_CloneListNameTool(object):
 
         self.verticalLayout.addItem(self.verticalSpacer_3)
 
-        self.labelTagFreeName = QLabel(self.centralwidget)
-        self.labelTagFreeName.setObjectName(u"labelTagFreeName")
-        self.labelTagFreeName.setFont(font2)
-
-        self.verticalLayout.addWidget(self.labelTagFreeName)
-
-        self.lineEditTagFreeName = QLineEdit(self.centralwidget)
-        self.lineEditTagFreeName.setObjectName(u"lineEditTagFreeName")
-        self.lineEditTagFreeName.setMinimumSize(QSize(320, 24))
-        palette2 = QPalette()
-        palette2.setBrush(QPalette.Active, QPalette.Base, brush)
-        palette2.setBrush(QPalette.Inactive, QPalette.Base, brush)
-        palette2.setBrush(QPalette.Disabled, QPalette.Base, brush)
-        self.lineEditTagFreeName.setPalette(palette2)
-        self.lineEditTagFreeName.setReadOnly(True)
-
-        self.verticalLayout.addWidget(self.lineEditTagFreeName)
-
-        self.verticalSpacer_4 = QSpacerItem(20, 5, QSizePolicy.Minimum, QSizePolicy.Fixed)
-
-        self.verticalLayout.addItem(self.verticalSpacer_4)
-
         self.labelRegionFreeName = QLabel(self.centralwidget)
         self.labelRegionFreeName.setObjectName(u"labelRegionFreeName")
         self.labelRegionFreeName.setFont(font2)
@@ -167,11 +145,11 @@ class Ui_CloneListNameTool(object):
         self.lineEditRegionFreeName = QLineEdit(self.centralwidget)
         self.lineEditRegionFreeName.setObjectName(u"lineEditRegionFreeName")
         self.lineEditRegionFreeName.setMinimumSize(QSize(320, 24))
-        palette3 = QPalette()
-        palette3.setBrush(QPalette.Active, QPalette.Base, brush)
-        palette3.setBrush(QPalette.Inactive, QPalette.Base, brush)
-        palette3.setBrush(QPalette.Disabled, QPalette.Base, brush)
-        self.lineEditRegionFreeName.setPalette(palette3)
+        palette2 = QPalette()
+        palette2.setBrush(QPalette.Active, QPalette.Base, brush)
+        palette2.setBrush(QPalette.Inactive, QPalette.Base, brush)
+        palette2.setBrush(QPalette.Disabled, QPalette.Base, brush)
+        self.lineEditRegionFreeName.setPalette(palette2)
         self.lineEditRegionFreeName.setReadOnly(True)
 
         self.verticalLayout.addWidget(self.lineEditRegionFreeName)
@@ -189,13 +167,12 @@ class Ui_CloneListNameTool(object):
 
     def retranslateUi(self, CloneListNameTool):
         CloneListNameTool.setWindowTitle(QCoreApplication.translate("CloneListNameTool", u"Title tool", None))
-        self.labelContribute.setText(QCoreApplication.translate("CloneListNameTool", u"<html><head/><body><p>This tool is useful if you want to contribute to Retool's clone lists or development. If you enter a title's full name, it shows you the other names Retool assigns to the title as part of its matching process. You can also enter the group name that you want to assign in an override or variants object, and see what the actual group name is that Retool assigns. <a href=\"https://unexpectedpanda.github.io/retool/naming-system/\"><span style=\" text-decoration: underline; color:#0000ff;\">Read the documentation</span></a> to learn more.</p></body></html>", None))
+        self.labelContribute.setText(QCoreApplication.translate("CloneListNameTool", u"<html><head/><body><p>This tool is useful for contributing to Retool's clone lists or development. If you enter a title's full name, it shows you the other names Retool assigns to it by default as part of its matching process. <a href=\"https://unexpectedpanda.github.io/retool/naming-system/\"><span style=\" text-decoration: underline; color:#0000ff;\">Read the documentation</span></a> to learn more.</p></body></html>", None))
         self.labelEnterName.setText(QCoreApplication.translate("CloneListNameTool", u"Enter the full name as it appears in the DAT file, or your intended group name", None))
         self.checkBoxDemos.setText(QCoreApplication.translate("CloneListNameTool", u"Title has a category of Demos (adds a tag to title names that have no recognized demo tags)", None))
         self.labelShortName.setText(QCoreApplication.translate("CloneListNameTool", u"Default short name", None))
         self.lineEditShortName.setText("")
         self.labelGroupName.setText(QCoreApplication.translate("CloneListNameTool", u"Default group name", None))
-        self.labelTagFreeName.setText(QCoreApplication.translate("CloneListNameTool", u"Tag-free name", None))
         self.labelRegionFreeName.setText(QCoreApplication.translate("CloneListNameTool", u"Region-free name", None))
     # retranslateUi
 

@@ -11,6 +11,7 @@ theme:
     - content.code.annotate
     - content.tabs.link
     - header.autohide
+    - navigation.sections
     - toc.follow
   palette:
     scheme: slate
@@ -21,6 +22,7 @@ markdown_extensions:
   - admonition
   - attr_list
   - md_in_html
+  - mkdcomments # Installed from https://github.com/ryneeverett/python-markdown-comments
   - pymdownx.caret
   - pymdownx.critic
   - pymdownx.details
@@ -55,36 +57,38 @@ nav:
   - index.md
   - download.md
   - changelog.md
-  - Understanding Retool:
-    - terminology.md
-    - retool-1g1r.md
-    - clone-lists.md
-    - what-qualifies-as-a-clone.md
+  - Resources:
     - dat-support.md
+    - retool-1g1r.md
+    - what-qualifies-as-a-clone.md
+    - terminology.md
   - How to use Retool:
     - Retool GUI:
       - 'Get started': how-to-use-retool-gui.md
       - 'Region, language, and video priorites': how-to-use-retool-gui-priorities.md
       - 'Exclusions': how-to-use-retool-gui-exclusions.md
-      - 'Options': how-to-use-retool-gui-options.md
+      - 'Local names': how-to-use-retool-gui-local-names.md
       - 'Overrides and post filters': how-to-use-retool-gui-overrides-post-filters.md
+      - 'Options': how-to-use-retool-gui-options.md
       - 'System settings': how-to-use-retool-gui-system-settings.md
     - 'Retool CLI': how-to-use-retool-cli.md
   - Contribute to Retool:
+    - integrate.md
     - Clone lists:
       - 'Get started': contribute-clone-lists.md
-      - Clone list structure:
-        - contribute-clone-lists-top-level-keys.md
-        - contribute-clone-lists-description.md
-        - contribute-clone-lists-categories.md
-        - contribute-clone-lists-mias.md
-        - contribute-clone-lists-overrides.md
-        - contribute-clone-lists-removes.md
-        - contribute-clone-lists-variants.md
+      - naming-system.md
+      - contribute-clone-lists-top-level-keys.md
+      - contribute-clone-lists-description.md
+      - contribute-clone-lists-mias.md
+      - Variants:
+        - 'Structure': contribute-clone-lists-variants.md
+        - contribute-clone-lists-variants-titles.md
+        - contribute-clone-lists-variants-supersets.md
+        - contribute-clone-lists-variants-compilations.md
+        - contribute-clone-lists-variants-local.md
+        - contribute-clone-lists-variants-filters.md
       - contribute-clone-lists-pull-request.md
-    - 'Metadata files': contribute-metadata-files.md
-    - naming-system.md
-  - integrate.md
+    - contribute-metadata-files.md
 
 plugins:
   - search

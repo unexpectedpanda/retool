@@ -23,6 +23,7 @@ class Config:
                  program_download_location: str,
                  program_download_location_key: str,
                  config_file: str,
+                 dat_file_tags_key: str,
                  ignore_tags_key: str,
                  disc_rename_key: str,
                  promote_editions_key: str,
@@ -36,6 +37,7 @@ class Config:
                  user_config_key: str,
                  user_language_order_key: str,
                  user_region_order_key: str,
+                 user_localization_order_key: str,
                  user_video_order_key: str,
                  user_list_prefix_key: str,
                  user_list_suffix_key: str,
@@ -70,6 +72,10 @@ class Config:
               contains the URL that hosts the Retool program. Not used.
 
             - `config_file (str)` The location of internal-config.json.
+
+            - `dat_file_tags_key (str)` The key to look up in internal-config.json that
+              contains tags that should be ignored so DAT filenames can be matched to
+              clone lists.
 
             - `ignore_tags_key (str)` The key to look up in internal-config.json that
               contains tags that should be ignored so like titles can be grouped together.
@@ -112,6 +118,9 @@ class Config:
             - `user_region_order_key (str)` The key in user-config.yaml that specifies the
               region order as defined by the user.
 
+            - `user_localization_order_key (str)` The key in user-config.yaml that specifies
+              localization order as defined by the user.
+
             - `user_video_order_key (str)` The key in user-config.yaml that specifies the
               order for video standards like MPAL, NTSC, PAL, PAL 60Hz, and SECAM as defined
               by the user.
@@ -148,6 +157,10 @@ class Config:
               user-config.yaml, as this happens automatically through GUI use anyway.
               Defaults to `False`.
         """
+
+        # Store the Retool version
+        self.version_major: str = version_major
+        self.version_minor: str = version_minor
 
         # Determine if STDOUT is being redirected or not
         self.stdout = False
@@ -214,6 +227,7 @@ class Config:
         # Import the contents of the internal config file
         self.clone_list_metadata_download_location: str = clone_list_metadata_download_location
         self.program_download_location: str = program_download_location
+        self.dat_file_tags: list[str]
         self.languages: dict[str, str] = {}
         self.languages_implied: dict[str, tuple[str, ...]] = {}
         self.languages_filter: dict[str, list[str]] = {}
@@ -263,6 +277,7 @@ class Config:
 
         import_key(languages_key, 'languages')
         import_key(disc_rename_key, 'tags_disc_rename')
+        import_key(dat_file_tags_key, 'dat_file_tags', 'list', tags_ignore=False)
         import_key(ignore_tags_key, 'tags_ignore', 'list', tags_ignore=True)
         import_key(promote_editions_key, 'tags_promote_editions', 'tuple', tags_ignore=True)
         import_key(demote_editions_key, 'tags_demote_editions', 'tuple', tags_ignore=True)
@@ -285,7 +300,7 @@ class Config:
                 if values['impliedLanguage']:
                     if values['impliedLanguage'] in self.languages:
                         language_filter_list.append(self.languages[values['impliedLanguage']])
-                        self.languages_implied[key] = (self.languages[values['impliedLanguage']][:2],)
+                        self.languages_implied[key] = (re.sub('[^-\\w].*', '', self.languages[values['impliedLanguage']]),)
 
                 self.languages_filter[key] = language_filter_list
 
@@ -316,6 +331,7 @@ class Config:
 
         set(map(lambda s: key_missing(s), [languages_key,
                                             region_order_key,
+                                            dat_file_tags_key,
                                             ignore_tags_key,
                                             disc_rename_key,
                                             promote_editions_key,
@@ -335,7 +351,7 @@ class Config:
         compilation_languages: list[str] = []
 
         for language_combo in product(no_intro_languages, repeat=2):
-            compilation_languages.append('\+'.join(language_combo))
+            compilation_languages.append('\\+'.join(language_combo))
 
         no_intro_languages.extend(compilation_languages)
         no_intro_languages.append('En\\+En\\+En')
@@ -354,6 +370,7 @@ class Config:
         generate_config(user_config_file,
                         tuple(map(lambda s: s, self.languages)),
                         tuple(self.region_order_default),
+                        tuple(),
                         tuple(self.video_order_default),
                         system_settings_path,
                         first_run_gui=first_run_gui)
@@ -362,6 +379,7 @@ class Config:
         self.region_order_languages_user: list[str] = []
         self.language_order_user: list[str] = []
         self.languages_user_found: bool = False
+        self.localization_order_user: list[str] = []
         self.region_order_user: list[str] = []
         self.video_order_user: list[str] = []
         self.user_prefix: str = ''
@@ -371,6 +389,7 @@ class Config:
         schema = Map(
                 {user_language_order_key: Seq(Str())|Str(),
                  user_region_order_key: Seq(Str())|Str(),
+                 user_localization_order_key: Seq(Str())|Str(),
                  user_video_order_key: Seq(Str())|Str(),
                  user_list_prefix_key: Seq(Str())|Str(),
                  user_list_suffix_key: Seq(Str())|Str(),
@@ -390,12 +409,23 @@ class Config:
             raise
 
         except YAMLValidationError as e:
-            # Check for the filters key that was added in v2.01.0, and add it if not found
-            if '\'filters\' not found' in str(e):
+            # For compatibility, check if the following filter keys are missing, and add
+            # them if not found:
+            #
+            # * filters, added in v2.01.0
+            # * localization order, added in v2.02.0
+
+            if (
+                '\'filters\' not found' in str(e)
+                or '\'localization order\' not found' in str(e)):
+                key_name: str = ''
+
+                if '\'filters\' not found' in str(e): key_name = 'filters'
+                if '\'localization order\' not found' in str(e): key_name = 'localization order'
                 try:
                     with open(pathlib.Path(user_config_file), 'r', encoding='utf-8') as user_config_import:
                         add_filters_key: list[str] = user_config_import.readlines()
-                        add_filters_key.append('\n\nfilters:')
+                        add_filters_key.append(f'\n\n{key_name}:')
 
                     with open(pathlib.Path(user_config_file), 'w', encoding='utf-8') as user_config_import:
                         user_config_import.writelines(add_filters_key)
@@ -419,6 +449,7 @@ class Config:
 
         self.language_order_user = list(user_config.data[user_language_order_key])
         self.region_order_user = list(user_config.data[user_region_order_key])
+        self.localization_order_user = list(user_config.data[user_localization_order_key])
         self.video_order_user = list(user_config.data[user_video_order_key])
         self.user_prefix = ''.join(user_config.data[user_list_prefix_key])
         self.user_suffix = ''.join(user_config.data[user_list_suffix_key])
@@ -447,6 +478,15 @@ class Config:
 
         self.language_order_user = language_list
 
+        # Change the user localization list to be regex strings instead of language names
+        localization_list: list[str] = []
+
+        for language in self.localization_order_user:
+            if language in self.languages:
+                localization_list.append(self.languages[language])
+
+        self.localization_order_user = localization_list
+
         # Compensate for No-Intro using "United Kingdom", and Redump using "UK"
         if 'UK' in self.region_order_user:
             uk_index: int = self.region_order_user.index('UK')
@@ -456,7 +496,7 @@ class Config:
         self.region_order_default[uk_index + 1:uk_index + 1] = ['United Kingdom']
 
         # Add "Export" to the default region order regex as a pseudo-region, which is reinterpreted as "World" later
-        self.regex.region_order_default = re.compile('\\s\\((?:\\w*,\\s)*(?:' + '|'.join(self.region_order_default + ['Export']) + ')(?:,\\s\\w*)*\\)')
+        self.regex.region_order_default = re.compile('\\((?:\\w*,\\s)*(?:' + '|'.join(self.region_order_default + ['Export']) + ')(?:,\\s\\w*)*\\)')
 
         if 'UK' in self.languages_implied:
             self.languages_implied['United Kingdom'] = self.languages_implied['UK']
@@ -478,6 +518,7 @@ class Config:
         self.system_output: str = ''
         self.system_languages_user_found: bool = False
         self.system_language_order_user: list[str|dict[str,str]] = []
+        self.system_localization_order_user:  list[str|dict[str,str]] = []
         self.system_region_order_user: list[str|dict[str,str]] = []
         self.system_video_order_user: list[str|dict[str,str]] = []
         self.system_exclude: list[str] = []
@@ -487,10 +528,6 @@ class Config:
         self.system_user_suffix: str = ''
         self.system_user_path_settings: tuple[Any, ...] = ()
         self.system_exclusions_options: tuple[Any, ...] = ()
-
-        # Store the Retool version
-        self.version_major: str = version_major
-        self.version_minor: str = version_minor
 
         # Store invalid input
         self.sanitized_characters: tuple[str, ...] = sanitized_characters
@@ -565,6 +602,7 @@ def generate_config(
     user_config_file: str,
     languages: tuple[str, ...],
     regions: tuple[str, ...],
+    localizations: tuple[str, ...],
     video_standards: tuple[str, ...],
     overrides_path: str,
     global_overrides: UserOverrides = UserOverrides(),
@@ -589,6 +627,8 @@ def generate_config(
         - `languages (tuple[str, ...])` All languages Retool is processing.
 
         - `regions (tuple[str, ...])` All regions Retool is processing.
+
+        - `localizations (tuple[str, ...])` All localization languages Retool is processing.
 
         - `video_standards (tuple[str, ...])` All video standards Retool is processing.
 
@@ -649,9 +689,9 @@ def generate_config(
                     '---')
 
                 if system_config:
-                    clone_list_path: str = '# clonelists\your-clone-list.json'
+                    clone_list_path: str = '# clonelists/your-clone-list.json'
                     metadata_file_path: str = '# metadata/your-metadata-file.json'
-                    output_path: str = '# C:\path'
+                    output_path: str = r'# C:\path'
 
                     if system_paths:
                         if system_paths['clone list']:
@@ -723,6 +763,32 @@ def generate_config(
                             add_entry(region[8:], is_comment=True)
                         else:
                             add_entry(region)
+
+                output_file.writelines(
+                    '\n\n# =================='
+                    '\n# LOCALIZATION ORDER'
+                    '\n# =================='
+                    '\n# If the -n option is used, use local names where available for titles with the'
+                    '\n# following languages. Comment out languages you don\'t want. Order is important.'
+                    '\n# If all languages are commented out and -n is used, the language order is used'
+                    '\n# instead.'
+                    '\nlocalization order:'
+                )
+
+                if system_config:
+                    output_file.writelines(
+                        f'\n- override: {str(override_status["localizations"]).lower()}'
+                    )
+
+                if not overwrite:
+                    for language in localizations:
+                        add_entry(language, is_comment=True)
+                else:
+                    for language in localizations:
+                        if 'Comment|' in language:
+                            add_entry(language[8:], is_comment=True)
+                        else:
+                            add_entry(language)
 
                 output_file.writelines(
                     '\n\n# ==========='

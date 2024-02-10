@@ -35,7 +35,7 @@ from modules.input import check_input, UserInput
 from modules.output import WriteFiles
 from modules.stats import get_parent_clone_stats, report_stats, Stats
 from modules.titletools import IncludeExcludeTools, Removes
-from modules.utils import ExitRetool, Font, old_windows, printwrap
+from modules.utils import ExitRetool, Font, minimum_version, old_windows, printwrap
 # from modules.perftest import perf_test
 
 __version__: str = str(f'{VERSION_MAJOR}.{VERSION_MINOR}')
@@ -98,6 +98,7 @@ def main(gui_input: UserInput|None = None) -> None:
                     PROGRAM_DOWNLOAD_LOCATION,
                     PROGRAM_DOWNLOAD_LOCATION_KEY,
                     CONFIG_FILE,
+                    DAT_FILE_TAGS_KEY,
                     IGNORE_TAGS_KEY,
                     DISC_RENAME_KEY,
                     PROMOTE_EDITIONS_KEY,
@@ -111,6 +112,7 @@ def main(gui_input: UserInput|None = None) -> None:
                     USER_CONFIG_KEY,
                     USER_LANGUAGE_ORDER_KEY,
                     USER_REGION_ORDER_KEY,
+                    USER_LOCALIZATION_ORDER_KEY,
                     USER_VIDEO_ORDER_KEY,
                     USER_LIST_PREFIX_KEY,
                     USER_LIST_SUFFIX_KEY,
@@ -124,6 +126,12 @@ def main(gui_input: UserInput|None = None) -> None:
                     VERSION_MAJOR,
                     VERSION_MINOR,
                     user_input)
+
+    # Check the minimum version required for internal-config.json
+    if 'description' in config.config_file_content:
+        if 'minimumVersion' in config.config_file_content['description']:
+            min_version = config.config_file_content['description']['minimumVersion']
+            minimum_version(min_version, CONFIG_FILE, gui_input, config)
 
     # Run an update if requested, or if folders are missing
     if config.user_input.update:
@@ -195,10 +203,7 @@ def main(gui_input: UserInput|None = None) -> None:
                 # Process the clone lists
                 if not config.user_input.no_1g1r:
                     processed_titles = CloneListTools.mias(processed_titles, config, input_dat)
-                    processed_titles = CloneListTools.removes(processed_titles, config, input_dat, removes)
-                    processed_titles = CloneListTools.categories(processed_titles, config, input_dat)
-                    processed_titles = CloneListTools.overrides(processed_titles, config, input_dat)
-                    processed_titles = CloneListTools.variants(processed_titles, config, input_dat, is_includes=False)
+                    processed_titles = CloneListTools.variants(processed_titles, config, input_dat, removes, is_includes=False)
 
                 # Process user excludes
                 processed_titles = IncludeExcludeTools.excludes(processed_titles, config, removes)
@@ -220,7 +225,7 @@ def main(gui_input: UserInput|None = None) -> None:
                 # Process user includes
                 if not config.user_input.no_overrides:
                     if config.global_include or config.system_include:
-                        original_titles_with_clonelist: dict[str, set[DatNode]] = CloneListTools.variants(input_dat.contents_dict, config, input_dat, is_includes=True)
+                        original_titles_with_clonelist: dict[str, set[DatNode]] = CloneListTools.variants(input_dat.contents_dict, config, input_dat, removes, is_includes=True)
                         processed_titles = IncludeExcludeTools.includes(processed_titles, input_dat.contents_dict, original_titles_with_clonelist, config, removes)
 
                 # Process post filters

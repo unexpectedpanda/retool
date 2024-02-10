@@ -5,17 +5,24 @@ hide:
 
 # Why Retool's 1G1R is better
 
-Standard ["One Game, One ROM" (1G1R)](terminology.md#1g1r) has problems.
+!!! info "1G1R &mdash; One Game, One ROM"
+    Putting aside the fact that not everything is a ROM, 1G1R is an ideal that states that
+    for the many, many different variants of a title that are available around the world,
+    you should only really keep one. It then becomes a question of which one... which is
+    what Retool is designed to help with.
 
-[Way back in 2008](https://forum.no-intro.org/viewtopic.php?f=2&t=544) Eric Bole-Feysot
-raised that 1G1R would be an appealing concept to implement in No-Intro DAT files. The
-various groups involved at the time ultimately settled on repurposing the existing
-[parent/clone](terminology.md#parents-and-clones) implementation established by [MAME](https://www.mamedev.org),
-added an extra `<release>` tag to define what region a title was from and what languages
-it supported, and built user-enabled 1G1R support into ROM managers to select titles based
-on the user's region and language preferences. It was, at the time, enough.
+Standard 1G1R has problems.
 
-As DAT files became more detailed, 1G1R filtering failed to keep pace.
+[Way back in 2008](https://forum.no-intro.org/viewtopic.php?f=2&t=544) Eric Bole-Feysot,
+the developer of RomCenter, raised that 1G1R would be an appealing concept to implement in
+No-Intro DAT files. The various groups involved at the time ultimately settled on
+repurposing the existing [parent/clone](terminology.md#parents-and-clones) implementation
+established by [MAME](https://www.mamedev.org), added an extra `<release>` tag to define
+what region a title was from and what languages it supported, and built user-enabled 1G1R
+support into ROM managers to select titles based on the user's region and language
+preferences. It was, at the time, enough.
+
+As DAT files became more detailed, 1G1R caoability failed to keep pace.
 
 ## The problems with ROM manager 1G1R and parent/clone DAT files
 
@@ -42,7 +49,7 @@ Unfortunately, this creates a few problems.
 ### The language filter/priority problem
 
 The existing parent/clone algorithm creates uncomfortable situations like the
-following. For example, consider a DAT with the following three titles:
+following. For example, consider a DAT file with the following three titles:
 
 ```xml
 <game name="Test Title (Canada) (Fr)">
@@ -62,9 +69,9 @@ following. For example, consider a DAT with the following three titles:
 </game>
 ```
 
-You want to filter the DAT in a 1G1R fashion, and you only speak English. You set your
-regions in an order that you hope should give you a balance between English titles and
-higher frame rates courtesy of NTSC:
+You want to filter the DAT file in a 1G1R fashion, and you only speak English. You set
+your regions in an order that you hope should give you a balance between English titles
+and higher frame rates courtesy of NTSC:
 
 1.  Canada
 
@@ -91,8 +98,8 @@ as languages are treated as a bonus score, not a filter.
 
 ### The version problem
 
-The current DAT and ROM manager ecosystem doesn't have a concept of versioning. Say you
-have the following titles in a DAT file:
+The current DAT file and ROM manager ecosystem doesn't have a concept of versioning. Say
+you have the following titles in a DAT file:
 
 ```xml
 <game name="Test Title (USA) (v1.2)">
@@ -150,16 +157,16 @@ regions and languages, and their own specific curation desires.
 Parent/clone DAT files are generally administered by hand. There's no automatic logic that
 highlights that titles might be related as a human enters them into a database &mdash;
 they need to manually make that link themselves, and be aware that the clones of multiple
-different names might exist. On a single DAT with multiple contributors, where the focus
-can be "DAT all the things" over attention to detail, this lends itself to oversights and
-clones being missed.
+different names might exist. On a single DAT file with multiple contributors, where the
+focus can be "DAT all the things" over attention to detail, this lends itself to clones
+being missed.
 
 ## What Retool does differently
 
 Retool ignores the parent/clone data manually entered into DAT files, and analyzes title
-names to automatically group them together. It makes use of [clone lists](clone-lists.md)
-to not only close the gap where automatic detection doesn't work out, but to recategorize
-and prioritize titles accordingly.
+names to automatically group them together. It makes use of clone lists to not only close
+the gap where automatic detection doesn't work out, but to recategorize and prioritize
+titles accordingly.
 
 It doesn't use a scoring system based on region and language to determine which title to
 pick, but instead puts titles through a series of filters based on detailed criteria. It

@@ -21,15 +21,15 @@ titles whose names match against text you provide. Each match must be on its own
 To set overrides, in the **Global settings** or **System settings** tab, click the
 **Overrides** tab.
 
-![A screenshot of Retool's overrides](images/overrides.png)
+![A screenshot of Retool's overrides tab](images/overrides.png)
 
-An excluded title forces Retool to act as if the title was never in the input DAT in the
-first place. This means that an exclude can force Retool to select a different title when
-choosing 1G1R titles.
+An excluded title forces Retool to act as if the title was never in the input DAT file in
+the first place. This means that an exclude can force Retool to select a different title
+when choosing 1G1R titles.
 
-An included title makes it into the output DAT regardless of Retool's choices. Even if
-Retool has removed a title as part of the filtering process, a matching include brings it
-back. Only a post filter can remove an included title.
+An included title makes it into the output DAT file regardless of Retool's choices. Even
+if Retool has removed a title as part of the filtering process, a matching include brings
+it back. Only a post filter can remove an included title.
 
 There are rules when it comes to overrides, and how they interact at the global settings
 and system settings level:
@@ -70,7 +70,7 @@ If a line isn't prefixed with `|` (full match) or `/` (regular expression) in an
 **Exclude** or **Include** box, then it's interpreted as a partial match. A partial
 match looks for the specified text inside all title names.
 
-For example, if an input DAT contains the following title names:
+For example, if an input DAT file contains the following title names:
 
 ```
 Do You Think it's Hot (USA)

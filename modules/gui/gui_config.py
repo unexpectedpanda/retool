@@ -17,6 +17,7 @@ def import_config() -> Config:
         PROGRAM_DOWNLOAD_LOCATION,
         PROGRAM_DOWNLOAD_LOCATION_KEY,
         CONFIG_FILE,
+        DAT_FILE_TAGS_KEY,
         IGNORE_TAGS_KEY,
         DISC_RENAME_KEY,
         PROMOTE_EDITIONS_KEY,
@@ -30,6 +31,7 @@ def import_config() -> Config:
         USER_CONFIG_KEY,
         USER_LANGUAGE_ORDER_KEY,
         USER_REGION_ORDER_KEY,
+        USER_LOCALIZATION_ORDER_KEY,
         USER_VIDEO_ORDER_KEY,
         USER_LIST_PREFIX_KEY,
         USER_LIST_SUFFIX_KEY,
@@ -75,20 +77,25 @@ def write_config(main_window: Any, dat_details: dict[str, dict[str, str]], confi
     # Global list widgets
     available_languages: list[str] = [main_window.ui.listWidgetGlobalAvailableLanguages.item(x).text() for x in range(main_window.ui.listWidgetGlobalAvailableLanguages.count())]
     available_regions: list[str] = [main_window.ui.listWidgetGlobalAvailableRegions.item(x).text() for x in range(main_window.ui.listWidgetGlobalAvailableRegions.count())]
+    available_localizations: list[str] = [main_window.ui.listWidgetGlobalLocalizationAvailableLanguages.item(x).text() for x in range(main_window.ui.listWidgetGlobalLocalizationAvailableLanguages.count())]
     selected_languages: list[str] = [main_window.ui.listWidgetGlobalSelectedLanguages.item(x).text() for x in range(main_window.ui.listWidgetGlobalSelectedLanguages.count())]
     selected_regions: list[str] = [main_window.ui.listWidgetGlobalSelectedRegions.item(x).text() for x in range(main_window.ui.listWidgetGlobalSelectedRegions.count())]
+    selected_localizations: list[str] = [main_window.ui.listWidgetGlobalLocalizationSelectedLanguages.item(x).text() for x in range(main_window.ui.listWidgetGlobalLocalizationSelectedLanguages.count())]
     video_standards: list[str] = [main_window.ui.listWidgetGlobalVideoStandards.item(x).text() for x in range(main_window.ui.listWidgetGlobalVideoStandards.count())]
 
     # System list widgets
     system_available_languages: list[str] = [main_window.ui.listWidgetSystemAvailableLanguages.item(x).text() for x in range(main_window.ui.listWidgetSystemAvailableLanguages.count())]
     system_available_regions: list[str] = [main_window.ui.listWidgetSystemAvailableRegions.item(x).text() for x in range(main_window.ui.listWidgetSystemAvailableRegions.count())]
+    system_available_localizations: list[str] = [main_window.ui.listWidgetSystemLocalizationAvailableLanguages.item(x).text() for x in range(main_window.ui.listWidgetSystemLocalizationAvailableLanguages.count())]
     system_selected_languages: list[str] = [main_window.ui.listWidgetSystemSelectedLanguages.item(x).text() for x in range(main_window.ui.listWidgetSystemSelectedLanguages.count())]
     system_selected_regions: list[str] = [main_window.ui.listWidgetSystemSelectedRegions.item(x).text() for x in range(main_window.ui.listWidgetSystemSelectedRegions.count())]
+    system_selected_localizations: list[str] = [main_window.ui.listWidgetSystemLocalizationSelectedLanguages.item(x).text() for x in range(main_window.ui.listWidgetSystemLocalizationSelectedLanguages.count())]
     system_video_standards: list[str] = [main_window.ui.listWidgetSystemVideoStandards.item(x).text() for x in range(main_window.ui.listWidgetSystemVideoStandards.count())]
 
     system_overrides_status = {
         'exclusions': main_window.ui.checkBoxSystemOverrideExclusions.isChecked(),
         'languages': main_window.ui.checkBoxSystemOverrideLanguages.isChecked(),
+        'localizations': main_window.ui.checkBoxSystemOverrideLocalization.isChecked(),
         'options': main_window.ui.checkBoxSystemOverrideOptions.isChecked(),
         'paths': main_window.ui.checkBoxSystemOverridePaths.isChecked(),
         'post_filters': main_window.ui.checkBoxSystemOverridePostFilter.isChecked(),
@@ -119,12 +126,14 @@ def write_config(main_window: Any, dat_details: dict[str, dict[str, str]], confi
     # If English isn't being processed, make sure it's commented out and at the top of the list
     if 'English' in available_languages: available_languages = ['English'] + [x for x in available_languages if x != 'English']
 
-    # Languages and regions
+    # Languages, regions, and localizations
     languages: tuple[str, ...] = tuple([f'Comment|{x}' for x in available_languages] + selected_languages)
     regions: tuple[str, ...] = tuple([f'Comment|{x}' for x in available_regions] + selected_regions)
+    localizations: tuple[str, ...] = tuple([f'Comment|{x}' for x in available_localizations] + selected_localizations)
 
     system_languages: tuple[str, ...] = tuple([f'Comment|{x}' for x in system_available_languages] + system_selected_languages)
     system_regions: tuple[str, ...] = tuple([f'Comment|{x}' for x in system_available_regions] + system_selected_regions)
+    system_localizations: tuple[str, ...] = tuple([f'Comment|{x}' for x in system_available_localizations] + system_selected_localizations)
 
     # Global exclude options
     exclude_add_ons: bool = main_window.ui.checkBoxGlobalExcludeAddOns.isChecked()
@@ -376,6 +385,13 @@ def write_config(main_window: Any, dat_details: dict[str, dict[str, str]], confi
     if 'legacy' in gui_settings: user_options_list.append('x')
     if 'legacy' in system_exclusions_options: system_user_options_list.append('x')
 
+    if (
+        selected_localizations
+        or (
+            main_window.ui.checkBoxSystemOverrideLocalization.isChecked()
+            and system_selected_localizations)):
+                user_options_list.append('n')
+
     user_options_str: str = ''
 
     if user_options_list:
@@ -448,9 +464,9 @@ def write_config(main_window: Any, dat_details: dict[str, dict[str, str]], confi
             and clone_list_metadata_url != config.clone_list_metadata_download_location):
                 gui_settings.add(f'clone list metadata url: {clone_list_metadata_url}')
 
-    generate_config(config.user_config_file, languages, regions, tuple(video_standards), config.system_settings_path, global_overrides, system_overrides, global_filters, system_filters, prefix_1g1r, suffix_1g1r, gui_settings, overwrite=True)
+    generate_config(config.user_config_file, languages, regions, localizations, tuple(video_standards), config.system_settings_path, global_overrides, system_overrides, global_filters, system_filters, prefix_1g1r, suffix_1g1r, gui_settings, overwrite=True)
     if config.system_name:
-        generate_config(f'{config.system_settings_path}/{config.system_name}.yaml', system_languages, system_regions, tuple(system_video_standards), config.system_settings_path, global_overrides, system_overrides, global_filters, system_filters, system_prefix_1g1r, system_suffix_1g1r, system_exclusions_options, overwrite=True, system_config=True, system_paths=system_override_paths, override_status=system_overrides_status)
+        generate_config(f'{config.system_settings_path}/{config.system_name}.yaml', system_languages, system_regions, system_localizations, tuple(system_video_standards), config.system_settings_path, global_overrides, system_overrides, global_filters, system_filters, system_prefix_1g1r, system_suffix_1g1r, system_exclusions_options, overwrite=True, system_config=True, system_paths=system_override_paths, override_status=system_overrides_status)
 
     if run_retool:
         if dat_details:
@@ -472,6 +488,7 @@ def write_config(main_window: Any, dat_details: dict[str, dict[str, str]], confi
             for dat_file in dat_files:
                 # Build the gui_input instance
                 filter_languages_enabled: bool = False
+                use_local_names: bool = False
 
                 if (
                     selected_languages
@@ -480,12 +497,20 @@ def write_config(main_window: Any, dat_details: dict[str, dict[str, str]], confi
                         and system_selected_languages)):
                             filter_languages_enabled = True
 
+                if (
+                    selected_localizations
+                    or (
+                        main_window.ui.checkBoxSystemOverrideLocalization.isChecked()
+                        and system_selected_localizations)):
+                            use_local_names = True
+
                 gui_input = UserInput(
                     input_file_name = str(dat_file),
                     update = update_clone_list,
                     no_1g1r = disable_1G1R,
                     empty_titles = include_hashless,
                     filter_languages = filter_languages_enabled,
+                    local_names = use_local_names,
                     region_bias = prefer_regions,
                     legacy = legacy_dat,
                     demote_unl = demote_unlicensed,
@@ -540,6 +565,7 @@ def write_config(main_window: Any, dat_details: dict[str, dict[str, str]], confi
                     no_1g1r = False,
                     empty_titles = False,
                     filter_languages = False,
+                    local_names = False,
                     region_bias = False,
                     legacy = False,
                     demote_unl = False,

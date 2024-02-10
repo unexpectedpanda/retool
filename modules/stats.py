@@ -431,7 +431,7 @@ def report_stats(config: Config) -> None:
             delta = delta - config.stats.clones_count
 
         if delta != config.stats.final_count:
-            eprint(f'{Font.error}\nStats mismatch delta vs final count: {str("{:,}".format(delta - config.stats.final_count))}. Usually this means there\'s a duplicate entry in')
+            eprint(f'{Font.error}\nStats mismatch delta vs final count: {str("{:,}".format(delta - config.stats.final_count))}. Often this means there\'s a duplicate entry in')
             eprint(f'the clone list or the DAT file.{Font.end}')
             eprint(f'\n{Font.disabled}Press enter to continue{Font.end}')
             input()

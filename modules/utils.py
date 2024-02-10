@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 import argparse
 import os
 import pathlib
@@ -11,12 +13,16 @@ import urllib.parse
 import urllib.request
 
 from datetime import datetime
-from typing import Any, Pattern
+from typing import Any, Pattern, TYPE_CHECKING
 from urllib.error import HTTPError, URLError
+
+if TYPE_CHECKING:
+    from modules.config import Config
+    from modules.input import UserInput
 
 
 def download(download_url: str, local_file_path: str) -> bool:
-    """ Downloads a file from a given URL
+    """ Downloads a file from a given URL.
 
     Args:
         - `download_url (str)` The URL to download the file from.
@@ -120,7 +126,8 @@ def download(download_url: str, local_file_path: str) -> bool:
 
 
 def enable_vt_mode() -> Any:
-    """ Turns on VT-100 emulation mode for Windows. https://bugs.python.org/issue30075 """
+    """ Turns on VT-100 emulation mode for Windows, allowing things like colors.
+    https://bugs.python.org/issue30075 """
 
     import ctypes
     import msvcrt
@@ -188,6 +195,56 @@ def format_value(value: Any) -> str:
         return_value = f'{value}'
 
     return return_value
+
+
+def minimum_version(min_version: str, file_name: str, gui_input: UserInput|None, config: Config) -> None:
+    """ Figures out if a file requires a higher version of Retool
+
+    Args:
+        - `min_version`: The minimum file version to compare against the Retool version.
+
+        - `gui_input (UserInput)` Used to determine whether or not the function is being
+          called from the GUI.
+
+        - `config (Config)` The Retool config object.
+    """
+
+    # Convert old versions to new versioning system
+    if len(re.findall('\\.', min_version)) < 2:
+        min_version = f'{min_version}.0'
+
+    # Make sure current Retool version is new enough to handle internal-config.json
+    out_of_date: bool = False
+
+    clone_list_version_major = f'{min_version.split(".")[0]}.{min_version.split(".")[1]}'
+    clone_list_version_minor = f'{min_version.split(".")[2]}'
+    if clone_list_version_major > config.version_major:
+        out_of_date = True
+    elif clone_list_version_major == config.version_major:
+        if clone_list_version_minor > config.version_minor:
+            out_of_date = True
+
+    if out_of_date:
+        out_of_date_response: str = ''
+
+        while not (out_of_date_response == 'y' or out_of_date_response == 'n'):
+            printwrap(
+                f'{Font.warning_bold}* {file_name} requires Retool '
+                f'{str(min_version)} or higher. Behaviour might be unpredictable. '
+                'Please update Retool to fix this.',
+                'error'
+            )
+
+            eprint(f'\n  Continue? (y/n) {Font.end}')
+            out_of_date_response = input()
+
+        if out_of_date_response == 'n':
+            if gui_input:
+                raise ExitRetool
+            else:
+                sys.exit()
+        else:
+            eprint('')
 
 
 def old_windows() -> bool:

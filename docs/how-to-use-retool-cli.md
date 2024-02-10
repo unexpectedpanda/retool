@@ -6,7 +6,7 @@ hide:
 # How to use Retool CLI
 
 What follows is a step-by-step walkthrough of using Retool CLI and all of its features. If
-you're new to DAT management, it might be beneficial to spend some time reading about
+you're new to DAT file management, it might be beneficial to spend some time reading about
 [terminology](terminology.md), and after you've filtered a DAT file with Retool, check
 out the help documentation for your favorite ROM manager to learn how to use it.
 
@@ -106,6 +106,27 @@ option, otherwise it assumes you want all languages.
 
 This is defined by the `region order` array. At least one region must be uncommented.
 
+### Localization order
+
+Optional. This is defined by the `localization order` array. The No-Intro and Redump
+standard is to romanize title names from languages that don't use a Latin-based alphabet.
+They also restrict filenames to the 7-bit ASCII character set, which removes vital
+pronunciation cues from even latin-derived alphabets.
+
+While this is useful as a standard for those who primarily speak English or are managing a
+collection, it's not great for those looking to operate in their own language, or for
+people who are multilingual.
+
+Retool can use local names for titles if they are available in metadata files or clone
+lists. For example, the Japanese `シャイニング●フォースⅡ 『古の封印』` instead of the romanized
+`Shining Force II - Inishie no Fuuin`.
+
+Language order is important, as some titles are multi-region and have multiple local
+names. If English is your preferred language, make sure to put it at the top of the order.
+
+The `localization order` array is only used by Retool if you pass the `-n` command line
+option.
+
 ### Video order
 
 This is defined by the `video order` array. Video standards are processed after regions,
@@ -129,13 +150,13 @@ Optional. Defined by the `exclude` and `include` arrays.
 You can override the default choices Retool makes by force including or excluding
 titles whose names match a certain string. Each string must be on its own line.
 
-An excluded title forces Retool to act as if the title was never in the input DAT in the
-first place. This means that an exclude can force Retool to select a different title when
-choosing 1G1R titles.
+An excluded title forces Retool to act as if the title was never in the input DAT file in
+the first place. This means that an exclude can force Retool to select a different title
+when choosing 1G1R titles.
 
-An included title makes it into the output DAT regardless of Retool's choices. Even if
-Retool has removed a title as part of the filtering process, a matching include brings it
-back. Only a post filter can remove an included title.
+An included title makes it into the output DAT file regardless of Retool's choices. Even
+if Retool has removed a title as part of the filtering process, a matching include brings
+it back. Only a post filter can remove an included title.
 
 There are rules when it comes to overrides, and how they interact at the global settings
 and system settings level:
@@ -186,7 +207,7 @@ If a line isn't prefixed with `|` (full match) or `/` (regular expression) in an
 **Exclude** or **Include**, then it's interpreted as a partial match. A partial match
 looks for the specified text inside all title names.
 
-For example, if an input DAT contains the following title names:
+For example, if an input DAT file contains the following title names:
 
 ```
 Do You Think it's Hot (USA)
@@ -238,7 +259,7 @@ with a forward slash (`/`).
     You want to be well practiced before using them, as without proper care they can lead
     to unintended consequences.
 
-For example, if an input DAT contains the following title names:
+For example, if an input DAT file contains the following title names:
 
 ```
 Do You Think it's Hot (USA)
@@ -275,7 +296,7 @@ of the original, but the include filter of `/\(USA\)` makes sure it's kept.
 Full matches only apply to titles with the exact same name. To define an include or
 exclude as a full match, prefix it with a pipe (`|`).
 
-For example, if an input DAT contains the following titles:
+For example, if an input DAT file contains the following titles:
 
 ```
 Do You Think it's Hot (USA)
@@ -320,7 +341,7 @@ Don't edit these. They are used by the GUI and ignored during CLI operation.
 
 Settings are available at two levels in Retool: global and system.
 
-* **Global settings** are applied to every DAT Retool processes, so long as system
+* **Global settings** are applied to every DAT file Retool processes, so long as system
   settings don't override them. These are stored in [`config/user-config.yaml`](#the-user-configyaml-file).
 
 * **System settings** are applied to a specific system named in a DAT file. For example,
@@ -358,6 +379,10 @@ These options change how Retool handles certain titles.
 * **`-l` Filter by languages using a list**
   <br>If a title doesn't support any of the languages on the list, it's removed (see
   `config/user-config.yaml`).
+
+* **`-n` Use local names for titles if available**
+  <br>For example, `シャイニング●フォースⅡ 『古の封印』` instead of
+  `Shining Force II - Inishie no Fuuin` (see `config/user-config.yaml`).
 
 * **`-r` Prefer regions over languages**
   <br>By default, if a title from a higher priority region doesn't support your preferred
@@ -400,29 +425,29 @@ indicate each title type. For example, `--exclude aAbcdD`.
 The available exclusions are as follows:
 
 * **`a` Applications**
-  <br>Titles with the DAT category `Applications`, or with the following text in the name:
+  <br>Titles with the DAT file category `Applications`, or with the following text in the name:
     * `(Program)`
     * `(Test Program)`
     * `Check Program`
     * `Sample Program`
 
 * **`A` Audio**
-  <br>Titles with the DAT category `Audio`. These might be used as soundtracks by games.
+  <br>Titles with the DAT file category `Audio`. These might be used as soundtracks by games.
 
 * **`b` Bad dumps**
   <br>Titles marked as bad dumps with a `[b]` in the name.
 
 * **`B` BIOS and other chips**
-  <br>Titles with the DAT category `Console`, or with the following text in the name:
+  <br>Titles with the DAT file category `Console`, or with the following text in the name:
     * `[BIOS]`
     * `(Enhancement Chip)`
 
 * **`c` Coverdiscs**
-  <br>Titles with the DAT category `Coverdiscs`. These were discs that were attached to
+  <br>Titles with the DAT file category `Coverdiscs`. These were discs that were attached to
   the front of magazines, and could contain demos, or rarely, full games.
 
 * **`d` Demos, kiosks, and samples**
-  <br>Titles with the DAT category `Demos`, or with the following text in the name:
+  <br>Titles with the DAT file category `Demos`, or with the following text in the name:
     * `@barai`
     * `(Demo [1-9])`
     * `(Demo-CD)`
@@ -437,14 +462,14 @@ The available exclusions are as follows:
     * `Trial Edition`
 
 * **`D` Add-ons**
-  <br>Titles with the DAT category `Add-Ons`. This includes expansion packs and additional
+  <br>Titles with the DAT file category `Add-Ons`. This includes expansion packs and additional
   materials for titles.
 
 * **`e` Educational**
-  <br>Titles with the DAT category `Educational`.
+  <br>Titles with the DAT file category `Educational`.
 
 * **`g` Games**
-  <br>Titles with the DAT category `Games`, or no DAT category.
+  <br>Titles with the DAT file category `Games`, or no DAT file category.
 
 * **`k` MIA**
   <br>Titles or ROMs declared as missing in action in the clone lists or DAT files.
@@ -453,17 +478,17 @@ The available exclusions are as follows:
   <br>Titles with `(Manual)` in the name.
 
 * **`M` Multimedia**
-  <br>Titles with the DAT category `Multimedia`. These might include games.
+  <br>Titles with the DAT file category `Multimedia`. These might include games.
 
 * **`o` Bonus discs**
-  <br>Titles with the DAT category `Bonus Discs`. These could be anything other than the
-  main title content, like patches, manuals, collector discs, or otherwise.
+  <br>Titles with the DAT file category `Bonus Discs`. These could be anything other than
+  the main title content, like patches, manuals, collector discs, or otherwise.
 
 * **`p` Pirate**
   <br>Titles with `(Pirate)` in the name.
 
 * **`P` Preproduction**
-  <br>Titles with the DAT category `Preproduction`, or with the following text in the
+  <br>Titles with the DAT file category `Preproduction`, or with the following text in the
   name:
     * `(Alpha [0-99])`
     * `(Beta [0-99])`
@@ -473,7 +498,8 @@ The available exclusions are as follows:
     * `(Review Code)`
 
 * **`r` Promotional**
-  <br>Titles with the DAT category `Promotional`, or with the following text in the name:
+  <br>Titles with the DAT file category `Promotional`, or with the following text in the
+  name:
     * `(Promo)`
     * `EPK`
     * `Press Kit`
@@ -487,7 +513,7 @@ The available exclusions are as follows:
     * `(Pirate)`
 
 * **`v` Video**
-  <br>Titles with the DAT category `Video`.
+  <br>Titles with the DAT file category `Video`.
 
 ### Outputs
 * **`--listnames` Also output a TXT file of just the kept title names**
@@ -496,9 +522,9 @@ The available exclusions are as follows:
 
 * **`--log` Also output a TXT file of what titles have been kept, removed, and set as clones**
 
-* **`--originalheader` Use the original input DAT header in the output DAT**
-  <br>Useful if you want to load Retool DATs as an update to original Redump and No-Intro
-  DATs already in CLRMAMEPro.
+* **`--originalheader` Use the original input DAT file headers in output DAT files**
+  <br>Useful if you want to load Retool DAT files as an update to original Redump and No-Intro
+  DAT files already in CLRMAMEPro.
 
 * **`--output <folder>` Set an output folder where the new 1G1R DAT file/s will be created**
 
@@ -506,7 +532,7 @@ The available exclusions are as follows:
   <br>Use with `-d` to only split by region with no 1G1R processing. Not compatible with
   [`--legacy`](#legacy).
 
-* **`--removesdat` Also output a DAT file containing the titles that were removed from the 1G1R DAT file**
+* **`--removesdat` Also output DAT files containing titles that were removed from 1G1R DAT files**
 
 ### Debug
 * **`--config <file>` Set a custom user config file to use instead of the default**
@@ -522,9 +548,9 @@ The available exclusions are as follows:
   file and the metadata file isn't automatically detected anymore. Often used together
   with `--clonelist`.
 
-* **`--legacy` Output DAT file/s in legacy parent/clone format**{:#legacy}
-  Not recommended unless you're debugging or comparing outputs between DAT versions. Not
-  compatible with [`-d`](#disable-1g1r).
+* **`--legacy` Output DAT files in legacy parent/clone format**{:#legacy}
+  Not recommended unless you're debugging or comparing outputs between DAT file versions.
+  Not compatible with [`-d`](#disable-1g1r).
 
 * **`--nodtd` Bypass DTD validation**
   <br>Skips DTD validation of DAT files, useful if validation is causing issues.
