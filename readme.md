@@ -20,8 +20,8 @@ Retool offers the following features:
 
 * Custom regular expression filters for including or excluding titles.
 
-* Local filenames for titles, such as ``シャイニング●フォースⅡ 『古の封印』` instead of
-  `Shining Force II - Inishie no Fuuin`.
+* Local filenames for titles, such as <code>`シャイニング●フォースⅡ 『古の封印』</code>
+  instead of <code>Shining Force II - Inishie no Fuuin</code>.
 
 * CLI and GUI versions.
 
