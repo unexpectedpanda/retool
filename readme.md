@@ -31,9 +31,8 @@ leaving the originals intact. You can then load the new DAT files in a ROM manag
 or [IGIR](https://www.igir.io) to do your file management &mdash; you just don't need to
 use their 1G1R modes, as Retool has already done the work for you.
 
-Retool is supported on Windows 10+, Ubuntu 20+, and macOS 10+ on x86 processors. It should
-work on M-series MacBooks too, however I don't own the hardware to test it. Non-binary
-versions require Python 3.10 or higher.
+Retool is supported on Windows 10+, Ubuntu 20+, and macOS 10+. Non-compiled versions
+require Python 3.10 or higher.
 
 ## Contribute to Retool
 
