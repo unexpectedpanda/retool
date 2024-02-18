@@ -1,7 +1,7 @@
 # Retool changelog
 
 
-## 2.02.1
+## 2.02.1 (2024-02-18)
 
 - **_Feature_**: Retool now supports [MAME Redump](https://github.com/MetalSlug/MAMERedump/tree/main)
   sets. These DATs match against Redump clone lists.
