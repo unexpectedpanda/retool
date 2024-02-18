@@ -67,7 +67,7 @@ A short name is built by making the following changes to the full name:
 
 1.  Removing [tags](terminology.md#tags) and version-like strings as defined in the
     `ignore_tags`, `promote_editions`, `demote_editions`, and `modern_editions` arrays in
-    `config/internal-config.json`
+    `config/internal-config.json`.
 
 1.  Removing regions and languages.
 
@@ -120,13 +120,14 @@ Are both assigned to the same group by default:
 this is a title
 ```
 
-Group can also be set manually in the [`variants`](contribute-clone-lists-variants.md) array in
-a clone list.
+Group names can also be set manually in the [`variants`](contribute-clone-lists-variants.md)
+array in a clone list.
 
 ## Region-free names
 
 Region-free names are the same as full names, except their regions and languages have been
-removed.
+removed. They're used in clone lists when specifying a short name or using a filter isn't
+appropriate.
 
 For example, the following full name:
 

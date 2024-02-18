@@ -185,6 +185,7 @@ def write_config(main_window: Any, dat_details: dict[str, dict[str, str]], confi
     split_regions: bool = main_window.ui.checkBoxGlobalOptionsSplitRegions.isChecked()
     removes_dat: bool = main_window.ui.checkBoxGlobalOptionsRemovesDat.isChecked()
     keep_removes: bool = main_window.ui.checkBoxGlobalOptionsKeepRemove.isChecked()
+    use_machine: bool = main_window.ui.checkBoxGlobalOptionsUseMachine.isChecked()
     use_original_header: bool = main_window.ui.checkBoxGlobalOptionsOriginalHeader.isChecked()
     list_1g1r_names: bool = main_window.ui.checkBoxGlobalOptions1G1RNames.isChecked()
     report_warnings: bool = main_window.ui.checkBoxGlobalOptionsReportWarnings.isChecked()
@@ -212,6 +213,7 @@ def write_config(main_window: Any, dat_details: dict[str, dict[str, str]], confi
     system_split_regions: bool = main_window.ui.checkBoxSystemOptionsSplitRegions.isChecked()
     system_removes_dat: bool = main_window.ui.checkBoxSystemOptionsRemovesDat.isChecked()
     system_keep_removes: bool = main_window.ui.checkBoxSystemOptionsKeepRemove.isChecked()
+    system_use_machine: bool = main_window.ui.checkBoxSystemOptionsUseMachine.isChecked()
     system_use_original_header: bool = main_window.ui.checkBoxSystemOptionsOriginalHeader.isChecked()
     system_list_1g1r_names: bool = main_window.ui.checkBoxSystemOptions1G1RNames.isChecked()
     system_report_warnings: bool = main_window.ui.checkBoxSystemOptionsReportWarnings.isChecked()
@@ -323,6 +325,7 @@ def write_config(main_window: Any, dat_details: dict[str, dict[str, str]], confi
     if split_regions: gui_settings.add('regionsplit')
     if removes_dat: gui_settings.add('removesdat')
     if keep_removes: gui_settings.add('log')
+    if use_machine: gui_settings.add('machine')
     if use_original_header: gui_settings.add('originalheader')
     if list_1g1r_names: gui_settings.add('listnames')
     if report_warnings: gui_settings.add('warnings')
@@ -341,6 +344,7 @@ def write_config(main_window: Any, dat_details: dict[str, dict[str, str]], confi
     if system_split_regions: system_exclusions_options.add('regionsplit')
     if system_removes_dat: system_exclusions_options.add('removesdat')
     if system_keep_removes: system_exclusions_options.add('log')
+    if system_use_machine: system_exclusions_options.add('machine')
     if system_use_original_header: system_exclusions_options.add('originalheader')
     if system_list_1g1r_names: system_exclusions_options.add('listnames')
     if system_report_warnings: system_exclusions_options.add('warnings')
@@ -367,6 +371,7 @@ def write_config(main_window: Any, dat_details: dict[str, dict[str, str]], confi
         'warningpause',
         'legacy',
         'log',
+        'machine',
         'originalheader',
         'metadata',
         'nooverrides',
@@ -539,6 +544,7 @@ def write_config(main_window: Any, dat_details: dict[str, dict[str, str]], confi
                     no_overrides = disable_overrides,
                     list_names = list_1g1r_names,
                     log = keep_removes,
+                    machine_not_game = use_machine,
                     original_header = use_original_header,
                     output_folder_name = main_window.output_folder,
                     output_region_split = split_regions,
@@ -594,6 +600,7 @@ def write_config(main_window: Any, dat_details: dict[str, dict[str, str]], confi
                     no_overrides = False,
                     list_names = False,
                     log = False,
+                    machine_not_game = False,
                     original_header = False,
                     output_folder_name = '',
                     output_region_split = False,

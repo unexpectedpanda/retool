@@ -8,7 +8,7 @@
     <x>0</x>
     <y>0</y>
     <width>959</width>
-    <height>653</height>
+    <height>651</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -3125,7 +3125,7 @@ Retool assumes uncategorized titles are games</string>
                           <x>0</x>
                           <y>0</y>
                           <width>590</width>
-                          <height>396</height>
+                          <height>394</height>
                          </rect>
                         </property>
                         <layout class="QGridLayout" name="gridLayoutGlobalUserFilters">
@@ -3431,7 +3431,7 @@ Retool assumes uncategorized titles are games</string>
                           <x>0</x>
                           <y>0</y>
                           <width>590</width>
-                          <height>396</height>
+                          <height>394</height>
                          </rect>
                         </property>
                         <property name="sizePolicy">
@@ -3672,9 +3672,9 @@ Retool assumes uncategorized titles are games</string>
                         <property name="geometry">
                          <rect>
                           <x>0</x>
-                          <y>0</y>
+                          <y>-145</y>
                           <width>573</width>
-                          <height>786</height>
+                          <height>812</height>
                          </rect>
                         </property>
                         <property name="sizePolicy">
@@ -4035,6 +4035,16 @@ and No-Intro DATs already in CLRMAMEPro</string>
                            </property>
                            <property name="text">
                             <string>Use original input DAT file headers in output DAT files</string>
+                           </property>
+                          </widget>
+                         </item>
+                         <item>
+                          <widget class="QCheckBox" name="checkBoxGlobalOptionsUseMachine">
+                           <property name="toolTip">
+                            <string>Exports each title node using the MAME standard of &lt;machine&gt; instead of &lt;game&gt;</string>
+                           </property>
+                           <property name="text">
+                            <string>Use &lt;machine&gt; instead of &lt;game&gt; in output DAT files</string>
                            </property>
                           </widget>
                          </item>
@@ -8570,7 +8580,7 @@ Retool assumes uncategorized titles are games</string>
                           <x>0</x>
                           <y>0</y>
                           <width>590</width>
-                          <height>396</height>
+                          <height>394</height>
                          </rect>
                         </property>
                         <property name="minimumSize">
@@ -8881,8 +8891,8 @@ Retool assumes uncategorized titles are games</string>
                          <rect>
                           <x>0</x>
                           <y>0</y>
-                          <width>391</width>
-                          <height>383</height>
+                          <width>590</width>
+                          <height>394</height>
                          </rect>
                         </property>
                         <property name="sizePolicy">
@@ -9301,7 +9311,7 @@ Retool assumes uncategorized titles are games</string>
                           <x>0</x>
                           <y>0</y>
                           <width>573</width>
-                          <height>751</height>
+                          <height>777</height>
                          </rect>
                         </property>
                         <property name="sizePolicy">
@@ -9582,6 +9592,16 @@ and No-Intro DATs already in CLRMAMEPro</string>
                            </property>
                            <property name="text">
                             <string>Use original input DAT file headers in output DAT files</string>
+                           </property>
+                          </widget>
+                         </item>
+                         <item>
+                          <widget class="QCheckBox" name="checkBoxSystemOptionsUseMachine">
+                           <property name="toolTip">
+                            <string>Exports each title node using the MAME standard of &lt;machine&gt; instead of &lt;game&gt;</string>
+                           </property>
+                           <property name="text">
+                            <string>Use &lt;machine&gt; instead of &lt;game&gt; in output DAT files</string>
                            </property>
                           </widget>
                          </item>

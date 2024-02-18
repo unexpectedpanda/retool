@@ -4,7 +4,6 @@ from __future__ import annotations
 import datetime
 import html
 import pathlib
-import re
 
 from typing import TYPE_CHECKING
 from urllib.parse import quote
@@ -200,6 +199,11 @@ class WriteFiles(object):
 
                     final_name = title.local_name
 
+            node_name: str = 'game'
+
+            if config.user_input.machine_not_game:
+                node_name = 'machine'
+
             if title.cloneof:
                 if config.user_input.legacy:
                     # Find out if the parent has a local name and use it if so
@@ -229,13 +233,13 @@ class WriteFiles(object):
                                             eprint(f'\n{Font.disabled}Press enter to continue{Font.end}')
                                             input()
 
-                                    dat_xml.append(f'\t<game name="{html.escape(final_name, quote=False)}">\n')
+                                    dat_xml.append(f'\t<{node_name} name="{html.escape(final_name, quote=False)}">\n')
                                 else:
-                                    dat_xml.append(f'\t<game name="{html.escape(final_name, quote=False)}" cloneof="{html.escape(clone_title.local_name, quote=False)}">\n')
+                                    dat_xml.append(f'\t<{node_name} name="{html.escape(final_name, quote=False)}" cloneof="{html.escape(clone_title.local_name, quote=False)}">\n')
                             else:
-                                dat_xml.append(f'\t<game name="{html.escape(final_name, quote=False)}" cloneof="{html.escape(title.cloneof, quote=False)}">\n')
+                                dat_xml.append(f'\t<{node_name} name="{html.escape(final_name, quote=False)}" cloneof="{html.escape(title.cloneof, quote=False)}">\n')
                     else:
-                        dat_xml.append(f'\t<game name="{html.escape(final_name, quote=False)}" cloneof="{html.escape(title.cloneof, quote=False)}">\n')
+                        dat_xml.append(f'\t<{node_name} name="{html.escape(final_name, quote=False)}" cloneof="{html.escape(title.cloneof, quote=False)}">\n')
 
                     if config.user_input.list_names:
                         list_names.append(final_name)
@@ -244,7 +248,7 @@ class WriteFiles(object):
                 else:
                     continue
             elif not title.cloneof:
-                dat_xml.append(f'\t<game name="{html.escape(final_name, quote=False)}">\n')
+                dat_xml.append(f'\t<{node_name} name="{html.escape(final_name, quote=False)}">\n')
 
                 if config.user_input.list_names:
                     list_names.append(final_name)
@@ -299,17 +303,20 @@ class WriteFiles(object):
                         rom['size'] = '0'
                         rom_status = 'status="nodump"'
 
-                rom_xml: list[str] = [
-                    f'name="{html.escape(rom["name"], quote=False)}"',
-                    f'size="{rom["size"]}"',
-                    mia,
+                rom_xml: list[str] = [f'name="{html.escape(rom["name"], quote=False)}"']
+
+                if rom["size"]:
+                    rom_xml.append(f'size="{rom["size"]}"')
+
+                rom_xml.extend(
+                    [mia,
                     rom_status,
                     header,
                     crc,
                     md5,
                     sha1,
-                    sha256
-                ]
+                    sha256]
+                )
 
                 rom_xml = [x for x in rom_xml if x != '']
 
@@ -317,9 +324,9 @@ class WriteFiles(object):
                     config.user_input.no_mia
                     and mia == 'mia="yes"'):
                         dat_xml.append(
-                            f'\t\t<rom {" ".join(rom_xml)}/>\n')
+                            f'\t\t<{rom['type']} {" ".join(rom_xml)}/>\n')
 
-            dat_xml.append('\t</game>\n')
+            dat_xml.append(f'\t</{node_name}>\n')
 
         dat_xml.append('</datafile>')
 

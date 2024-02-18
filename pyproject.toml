@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "retool"
-version = "2.02.0"
+version = "2.02.1"
 description = "A filter tool for Redump and No-Intro DATs"
 authors = ["unexpectedpanda <fake@example.com>"]
 license = "BSD 3-Clause \"New\" or \"Revised\" License"

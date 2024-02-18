@@ -293,6 +293,9 @@ class DatNode:
         self.group_name: str = TitleTools.get_group_name(self.full_name, config)
         self.group_name_conditional: str = ''
 
+        # Set an indicator if the title has been moved using a clone list condition
+        self.group_moved_by_condition: bool = False
+
         # Pull local names from metadata
         metadata_local_language: str = ''
 
@@ -387,8 +390,6 @@ class DatNode:
                 else:
                     self.categories.append(category)
 
-        # Set an indicator if the title has been moved using a clone list condition
-        self.group_moved_by_condition: bool = False
 
         def category_assign(regexes: tuple[Any, ...], category: str) -> None:
             """ Assigns a category to a title based on a regex match in its
@@ -723,31 +724,18 @@ def convert_clrmame_dat(input_dat: Dat, input_type: str, gui_input: UserInput|No
                 else:
                     rom_list.append(f'\t\t<rom name="{get_detail("name", rom_string, is_header_detail=False, rom_attrs=False)}"')
 
-                # Check that size is defined
-                if not rom_size:
-                    if not config.user_input.empty_titles:
-                        skip_node = True
-                        break
-
                 # Check that there's at least one hash
                 if (
                     not rom_crc
                     and not rom_md5
                     and not rom_sha1
                     and not rom_sha256
-                    and not config.user_input.empty_titles):
+                    ):
                     skip_node = True
                     break
 
-                if config.user_input.empty_titles:
-                    if (
-                        not rom_size
-                        and not rom_crc
-                        and not rom_md5
-                        and not rom_sha1
-                        and not rom_sha256
-                    ):
-                        rom_size = "0"
+                if not rom_size:
+                    rom_size = "0"
 
                 if rom_size: rom_list.append(f' size="{rom_size}"')
                 if rom_crc: rom_list.append(f' crc="{rom_crc}"')
@@ -1108,7 +1096,7 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput|None, confi
 
         # Sanitize the system name to make referencing support files like clone lists and
         # system configurations easier
-        input_dat.search_name = format_system_name(input_dat.name, config, input_dat.url, input_dat.homepage, input_dat.comment)
+        input_dat.search_name = format_system_name(input_dat.name, config, input_dat.url, input_dat.homepage, input_dat.comment, input_dat.author)
 
         # Provide DAT details to the user to reassure them the correct file is being processed
         eprint('')
@@ -1195,27 +1183,31 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput|None, confi
                     node_dict['category'] = []
 
                 # Get the rom node attributes
-                for rom in game.xpath('rom'): # type: ignore
-                    roms.append(dict(rom.attrib)) # type: ignore
+                rom_dict: dict[str, str] = {}
 
-                # Check for at least a size and one hash in the rom node
+                for rom in game.xpath('rom'): # type: ignore
+                    rom_dict = dict(rom.attrib) # type: ignore
+                    rom_dict['type'] = 'rom'
+                    roms.append(rom_dict)
+
+                for rom in game.xpath('disk'): # type: ignore
+                    rom_dict = dict(rom.attrib) # type: ignore
+                    rom_dict['type'] = 'disk'
+                    roms.append(rom_dict)
+
+                # Check for at least a size or one hash in the rom node
                 skip_node: bool = False
 
-                for rom in roms:
-                    if 'size' not in rom:
-                        if not config.user_input.empty_titles:
-                            skip_node = True
-                            break
-
-                    if not (
-                        'crc' in rom
-                        or 'md5' in rom
-                        or 'sha1' in rom
-                        or 'sha256' in rom
-                    ):
-                        if not config.user_input.empty_titles:
-                            skip_node = True
-                            break
+                if not (
+                    'size' in rom.attrib
+                    or 'crc' in rom.attrib
+                    or 'md5' in rom.attrib
+                    or 'sha1' in rom.attrib
+                    or 'sha256' in rom.attrib
+                ):
+                    if not config.user_input.empty_titles:
+                        skip_node = True
+                        break
 
                 if skip_node:
                     continue
@@ -1231,7 +1223,7 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput|None, confi
                     eprint('')
                     printwrap(
                         f'{Font.error_bold}* Error: "{dat_file}"{Font.error}. No valid '
-                        f'titles in input DAT. Titles must have at least a size and '
+                        f'titles in input DAT. Titles must have at least a size or '
                         f'one hash.{next_status}{Font.end}', 'error')
 
                     if input_type == 'file':

@@ -1,6 +1,23 @@
 # Retool changelog
 
 
+## 2.02.1
+
+- **_Feature_**: Retool now supports [MAME Redump](https://github.com/MetalSlug/MAMERedump/tree/main)
+  sets. These DATs match against Redump clone lists.
+
+- **_Feature_**: You can now choose to use `<machine>` for your title nodes in
+  the output DAT file instead of `<game>`.
+
+-  **_Change_**: `<rom>` and `<disk>` nodes in an input DAT file no longer need
+   a size assigned for Retool to process them. This is because CHDs are often
+   defined with only a hash.
+
+-  **_Fix_**: If you run Retool CLI on a folder with only one DAT file, and no
+   titles are in that DAT file that match your preferences, Retool no longer
+   ends the task with a crash.
+
+
 ## 2.02.0 (2024-02-08)
 
 -   **_Breaking change_**: The clone list format has changed. Update to 2.02.0

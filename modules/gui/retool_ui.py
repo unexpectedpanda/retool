@@ -31,7 +31,7 @@ class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         if not MainWindow.objectName():
             MainWindow.setObjectName(u"MainWindow")
-        MainWindow.resize(959, 653)
+        MainWindow.resize(959, 651)
         sizePolicy = QSizePolicy(QSizePolicy.Expanding, QSizePolicy.Expanding)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
@@ -1183,7 +1183,7 @@ class Ui_MainWindow(object):
         self.scrollAreaGlobalOverrides.setAlignment(Qt.AlignLeading|Qt.AlignLeft|Qt.AlignTop)
         self.scrollAreaWidgetContentsGlobalOverrides = QWidget()
         self.scrollAreaWidgetContentsGlobalOverrides.setObjectName(u"scrollAreaWidgetContentsGlobalOverrides")
-        self.scrollAreaWidgetContentsGlobalOverrides.setGeometry(QRect(0, 0, 590, 396))
+        self.scrollAreaWidgetContentsGlobalOverrides.setGeometry(QRect(0, 0, 590, 394))
         self.gridLayoutGlobalUserFilters = QGridLayout(self.scrollAreaWidgetContentsGlobalOverrides)
         self.gridLayoutGlobalUserFilters.setObjectName(u"gridLayoutGlobalUserFilters")
         self.gridLayoutGlobalUserFilters.setSizeConstraint(QLayout.SetMinimumSize)
@@ -1299,7 +1299,7 @@ class Ui_MainWindow(object):
         self.scrollAreaGlobalPostFilters.setAlignment(Qt.AlignLeading|Qt.AlignLeft|Qt.AlignTop)
         self.scrollAreaWidgetContentsGlobalPostFilters = QWidget()
         self.scrollAreaWidgetContentsGlobalPostFilters.setObjectName(u"scrollAreaWidgetContentsGlobalPostFilters")
-        self.scrollAreaWidgetContentsGlobalPostFilters.setGeometry(QRect(0, 0, 590, 396))
+        self.scrollAreaWidgetContentsGlobalPostFilters.setGeometry(QRect(0, 0, 590, 394))
         sizePolicy6.setHeightForWidth(self.scrollAreaWidgetContentsGlobalPostFilters.sizePolicy().hasHeightForWidth())
         self.scrollAreaWidgetContentsGlobalPostFilters.setSizePolicy(sizePolicy6)
         self.gridLayoutGlobalUserFilters_3 = QGridLayout(self.scrollAreaWidgetContentsGlobalPostFilters)
@@ -1386,7 +1386,7 @@ class Ui_MainWindow(object):
         self.scrollAreaGlobalOptions.setWidgetResizable(True)
         self.scrollAreaWidgetContentsGlobalOptions = QWidget()
         self.scrollAreaWidgetContentsGlobalOptions.setObjectName(u"scrollAreaWidgetContentsGlobalOptions")
-        self.scrollAreaWidgetContentsGlobalOptions.setGeometry(QRect(0, 0, 573, 786))
+        self.scrollAreaWidgetContentsGlobalOptions.setGeometry(QRect(0, -145, 573, 812))
         sizePolicy6.setHeightForWidth(self.scrollAreaWidgetContentsGlobalOptions.sizePolicy().hasHeightForWidth())
         self.scrollAreaWidgetContentsGlobalOptions.setSizePolicy(sizePolicy6)
         self.verticalLayout_16 = QVBoxLayout(self.scrollAreaWidgetContentsGlobalOptions)
@@ -1496,6 +1496,11 @@ class Ui_MainWindow(object):
         self.checkBoxGlobalOptionsOriginalHeader.setObjectName(u"checkBoxGlobalOptionsOriginalHeader")
 
         self.verticalLayout_16.addWidget(self.checkBoxGlobalOptionsOriginalHeader)
+
+        self.checkBoxGlobalOptionsUseMachine = QCheckBox(self.scrollAreaWidgetContentsGlobalOptions)
+        self.checkBoxGlobalOptionsUseMachine.setObjectName(u"checkBoxGlobalOptionsUseMachine")
+
+        self.verticalLayout_16.addWidget(self.checkBoxGlobalOptionsUseMachine)
 
         self.checkBoxGlobalOptionsSplitRegions = QCheckBox(self.scrollAreaWidgetContentsGlobalOptions)
         self.checkBoxGlobalOptionsSplitRegions.setObjectName(u"checkBoxGlobalOptionsSplitRegions")
@@ -2947,7 +2952,7 @@ class Ui_MainWindow(object):
         self.scrollAreaSystemOverrides.setAlignment(Qt.AlignLeading|Qt.AlignLeft|Qt.AlignTop)
         self.scrollAreaWidgetContentsSystemOverrides = QWidget()
         self.scrollAreaWidgetContentsSystemOverrides.setObjectName(u"scrollAreaWidgetContentsSystemOverrides")
-        self.scrollAreaWidgetContentsSystemOverrides.setGeometry(QRect(0, 0, 590, 396))
+        self.scrollAreaWidgetContentsSystemOverrides.setGeometry(QRect(0, 0, 590, 394))
         self.scrollAreaWidgetContentsSystemOverrides.setMinimumSize(QSize(0, 0))
         self.gridLayoutSystemUserFilters = QGridLayout(self.scrollAreaWidgetContentsSystemOverrides)
         self.gridLayoutSystemUserFilters.setObjectName(u"gridLayoutSystemUserFilters")
@@ -3058,7 +3063,7 @@ class Ui_MainWindow(object):
         self.scrollAreaSystemPostFilters.setAlignment(Qt.AlignLeading|Qt.AlignLeft|Qt.AlignTop)
         self.scrollAreaWidgetContentsSystemPostFilters = QWidget()
         self.scrollAreaWidgetContentsSystemPostFilters.setObjectName(u"scrollAreaWidgetContentsSystemPostFilters")
-        self.scrollAreaWidgetContentsSystemPostFilters.setGeometry(QRect(0, 0, 391, 383))
+        self.scrollAreaWidgetContentsSystemPostFilters.setGeometry(QRect(0, 0, 590, 394))
         sizePolicy6.setHeightForWidth(self.scrollAreaWidgetContentsSystemPostFilters.sizePolicy().hasHeightForWidth())
         self.scrollAreaWidgetContentsSystemPostFilters.setSizePolicy(sizePolicy6)
         self.gridLayoutGlobalUserFilters_4 = QGridLayout(self.scrollAreaWidgetContentsSystemPostFilters)
@@ -3208,7 +3213,7 @@ class Ui_MainWindow(object):
         self.scrollAreaSystemOptions.setWidgetResizable(True)
         self.layoutScrollAreaSystemOptions = QWidget()
         self.layoutScrollAreaSystemOptions.setObjectName(u"layoutScrollAreaSystemOptions")
-        self.layoutScrollAreaSystemOptions.setGeometry(QRect(0, 0, 573, 751))
+        self.layoutScrollAreaSystemOptions.setGeometry(QRect(0, 0, 573, 777))
         sizePolicy6.setHeightForWidth(self.layoutScrollAreaSystemOptions.sizePolicy().hasHeightForWidth())
         self.layoutScrollAreaSystemOptions.setSizePolicy(sizePolicy6)
         self.verticalLayout_22 = QVBoxLayout(self.layoutScrollAreaSystemOptions)
@@ -3291,6 +3296,11 @@ class Ui_MainWindow(object):
         self.checkBoxSystemOptionsOriginalHeader.setObjectName(u"checkBoxSystemOptionsOriginalHeader")
 
         self.verticalLayout_22.addWidget(self.checkBoxSystemOptionsOriginalHeader)
+
+        self.checkBoxSystemOptionsUseMachine = QCheckBox(self.layoutScrollAreaSystemOptions)
+        self.checkBoxSystemOptionsUseMachine.setObjectName(u"checkBoxSystemOptionsUseMachine")
+
+        self.verticalLayout_22.addWidget(self.checkBoxSystemOptionsUseMachine)
 
         self.checkBoxSystemOptionsSplitRegions = QCheckBox(self.layoutScrollAreaSystemOptions)
         self.checkBoxSystemOptionsSplitRegions.setObjectName(u"checkBoxSystemOptionsSplitRegions")
@@ -4108,6 +4118,10 @@ class Ui_MainWindow(object):
 #endif // QT_CONFIG(tooltip)
         self.checkBoxGlobalOptionsOriginalHeader.setText(QCoreApplication.translate("MainWindow", u"Use original input DAT file headers in output DAT files", None))
 #if QT_CONFIG(tooltip)
+        self.checkBoxGlobalOptionsUseMachine.setToolTip(QCoreApplication.translate("MainWindow", u"Exports each title node using the MAME standard of <machine> instead of <game>", None))
+#endif // QT_CONFIG(tooltip)
+        self.checkBoxGlobalOptionsUseMachine.setText(QCoreApplication.translate("MainWindow", u"Use <machine> instead of <game> in output DAT files", None))
+#if QT_CONFIG(tooltip)
         self.checkBoxGlobalOptionsSplitRegions.setToolTip(QCoreApplication.translate("MainWindow", u"Instead of one output DAT file containing all the filtered results, split\n"
 "the output into multiple DAT files based on the regions you've selected.\n"
 "\n"
@@ -4514,6 +4528,10 @@ class Ui_MainWindow(object):
 "and No-Intro DATs already in CLRMAMEPro", None))
 #endif // QT_CONFIG(tooltip)
         self.checkBoxSystemOptionsOriginalHeader.setText(QCoreApplication.translate("MainWindow", u"Use original input DAT file headers in output DAT files", None))
+#if QT_CONFIG(tooltip)
+        self.checkBoxSystemOptionsUseMachine.setToolTip(QCoreApplication.translate("MainWindow", u"Exports each title node using the MAME standard of <machine> instead of <game>", None))
+#endif // QT_CONFIG(tooltip)
+        self.checkBoxSystemOptionsUseMachine.setText(QCoreApplication.translate("MainWindow", u"Use <machine> instead of <game> in output DAT files", None))
 #if QT_CONFIG(tooltip)
         self.checkBoxSystemOptionsSplitRegions.setToolTip(QCoreApplication.translate("MainWindow", u"Instead of one output DAT file containing all the filtered results, split\n"
 "the output into multiple DAT files based on the regions you've selected.\n"

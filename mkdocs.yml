@@ -92,6 +92,9 @@ nav:
 
 plugins:
   - search
+  - exclude-search:
+      exclude:
+        - how-retool-works.md
   # https://mkdocs-macros-plugin.readthedocs.io/en/latest/#installation
   - macros
 

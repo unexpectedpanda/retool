@@ -238,12 +238,14 @@ def main(gui_input: UserInput|None = None) -> None:
                     log: tuple[dict[str, set[str]], set[DatNode]] = get_parent_clone_stats(processed_titles, config)
 
                     # Write the final results to file/s
+                    stats_final_count: int = 0
+
                     if config.stats.final_count != 0:
                         WriteFiles.output(processed_titles, log, config, input_dat, removes)
 
                         # Report the stats, and reset them for when Retool is processing a directory of DATs
                         report_stats(config)
-                        stats_final_count: int = config.stats.final_count
+                        stats_final_count = config.stats.final_count
                         config.stats = Stats()
                     else:
                         printwrap(f'{Font.warning}* No titles in the input DAT match your preferences. No DAT file has been created.{Font.end}', 'error')
@@ -278,25 +280,32 @@ def main(gui_input: UserInput|None = None) -> None:
                         f'in {total_time_elapsed}s. DATs have been created in the '
                         f'{Font.bold}"{pathlib.Path(user_input.output_folder_name).resolve()}"{Font.success} folder.{Font.end}'
                         )
-                else:
+                elif stats_final_count:
                     printwrap(
                         f'{Font.success}* Finished adding '
                         f'{str("{:,}".format(stats_final_count))} '
                         f'titles to "{Font.bold}{pathlib.Path(input_dat.output_filename).resolve()}" '
                         f'{Font.success}in {total_time_elapsed}s.{Font.end}'
                     )
+                elif input_type == 'folder':
+                    printwrap(
+                        f'{Font.success}* Finished processing 1 file in the '
+                        f'{Font.bold}"{pathlib.Path(user_input.input_file_name).resolve()}{Font.success}" folder in '
+                        f'{total_time_elapsed}s. Any DATs that have been created are in the '
+                        f'{Font.bold}"{pathlib.Path(user_input.output_folder_name).resolve()}"{Font.success} folder.{Font.end}'
+                    )
             elif dat_file_count > 1 and input_type == 'folder':
                 printwrap(
                     f'{Font.success}* Finished processing {dat_file_count} files in the '
                     f'{Font.bold}"{pathlib.Path(user_input.input_file_name).resolve()}{Font.success}" folder in '
-                    f'{total_time_elapsed}s. DATs have been created in the '
+                    f'{total_time_elapsed}s. Any DATs that have been created are in the '
                     f'{Font.bold}"{pathlib.Path(user_input.output_folder_name).resolve()}"{Font.success} folder.{Font.end}'
                     )
             elif dat_file_count > 1 and input_type == 'wildcard':
                 printwrap(
                     f'{Font.success}* Finished processing {dat_file_count} files in the '
                     f'{Font.bold}"{pathlib.Path(pathlib.Path(user_input.input_file_name).parent).resolve()}{Font.success}" folder in '
-                    f'{total_time_elapsed}s. DATs have been created in the '
+                    f'{total_time_elapsed}s. Any DATs that have been created are in the '
                     f'{Font.bold}"{pathlib.Path(user_input.output_folder_name).resolve()}"{Font.success} folder.{Font.end}'
                     )
 

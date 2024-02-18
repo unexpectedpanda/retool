@@ -54,6 +54,7 @@ class UserInput:
                  no_overrides: bool = False,
                  list_names: bool = False,
                  log: bool = False,
+                 machine_not_game: bool = False,
                  original_header: bool = False,
                  output_folder_name: str = '',
                  output_region_split: bool = False,
@@ -167,6 +168,9 @@ class UserInput:
             - `log (bool, optional)` Additionally outputs a file that shows what titles
               have been kept and removed. Defaults to `False`.
 
+            - `machine_not_game (bool, optional)` Uses the MAME standard of <machine> for
+              title nodes in the output DAT file instead of <game>. Defaults to `False`.
+
             - `original_header (bool, optional)` Uses the header from the input DAT in the
               output DAT. Useful to update original No-Intro and Redump DATs already loaded
               in CLRMAMEPro. Defaults to `False`.
@@ -263,6 +267,7 @@ class UserInput:
         # Outputs
         self.list_names: bool = list_names
         self.log: bool = log
+        self.machine_not_game: bool = machine_not_game
         self.original_header: bool = original_header
         self.output_folder_name: str = output_folder_name
         self.output_region_split: bool = output_region_split
@@ -389,6 +394,11 @@ def check_input() -> UserInput:
                         action='store_true',
                         help='R|Also output a TXT file of what titles have been kept,'
                              '\nremoved, and set as clones.')
+
+    outputs.add_argument('--machine',
+                        action='store_true',
+                        help='R|Exports each title node to the output DAT file using the MAME standard of'
+                             '\n<machine> instead of <game>.')
 
     outputs.add_argument('--originalheader',
                         action='store_true',
@@ -596,6 +606,7 @@ def check_input() -> UserInput:
         'warningpause',
         'legacy',
         'log',
+        'machine',
         'originalheader',
         'metadata',
         'nooverrides',
@@ -677,6 +688,7 @@ def check_input() -> UserInput:
             no_overrides = args.nooverrides,
             list_names = args.listnames,
             log = args.log,
+            machine_not_game = args.machine,
             original_header = args.originalheader,
             output_folder_name = str(pathlib.Path(args.output).resolve()),
             output_region_split = args.regionsplit,
@@ -1147,6 +1159,7 @@ def import_system_settings(
             config.user_input.legacy = False
             config.user_input.list_names = False
             config.user_input.log = False
+            config.user_input.machine_not_game = False
             config.user_input.original_header = False
             config.user_input.modern = False
             config.user_input.no_1g1r = False
@@ -1176,6 +1189,8 @@ def import_system_settings(
                     config.user_input.list_names = True
                 if option == 'log':
                     config.user_input.log = True
+                if option == 'machine':
+                    config.user_input.machine_not_game = True
                 if option == 'originalheader':
                     config.user_input.original_header = True
                 if option == 'nodtd':
