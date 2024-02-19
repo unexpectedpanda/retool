@@ -324,7 +324,7 @@ class WriteFiles(object):
                     config.user_input.no_mia
                     and mia == 'mia="yes"'):
                         dat_xml.append(
-                            f'\t\t<{rom['type']} {" ".join(rom_xml)}/>\n')
+                            f'\t\t<{rom["type"]} {" ".join(rom_xml)}/>\n')
 
             dat_xml.append(f'\t</{node_name}>\n')
 
