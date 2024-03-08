@@ -22,6 +22,9 @@ hide:
 -  **_Fix_**: More reliable sorting of exclusions and user option tags in
    filenames and descriptions.
 
+-  **_Fix_**: If a title is in a `<game>` or `<machine>` node, that node is used in the
+   output DAT file.
+
 -  **_Chore_**: Style fixes and reduction of unnecessary work across the code
    base in preparation for building out more comprehensive tests.
 

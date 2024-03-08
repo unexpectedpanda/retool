@@ -192,6 +192,9 @@ class DatNode:
             in the DAT, containing information like name, category, description
             and ROMs if present.
         """
+        # Set the XML element name
+        self.element_name: str = node['element_name']
+
         # Set full/numbered names
         self.full_name: str = ''
         self.full_name_original: str = ''
@@ -1309,6 +1312,8 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput | None, con
 
                 # Grab other data from the element, like descriptions
                 [node_dict.update({d.tag: d.text}) for d in list(game)]
+
+                node_dict['element_name'] = game.tag
 
                 # Get multiple categories if the input DAT supports them
                 for category in game.xpath('category'):  # type: ignore

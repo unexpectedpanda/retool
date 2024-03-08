@@ -224,7 +224,7 @@ class WriteFiles:
 
                 final_name = title.local_name
 
-            node_name: str = 'game'
+            node_name: str = title.element_name
 
             if config.user_input.machine_not_game:
                 node_name = 'machine'
