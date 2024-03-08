@@ -1,9 +1,48 @@
+[project]
+name = "Retool"
+version = "2.02.2"
+description = "A better filter tool for Redump and No-Intro DATs"
+readme = "readme.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+keywords = ["filter", "1G1R", "Redump", "No-Intro", "DAT"]
+authors = [
+  {name = "unexpectedpanda", email = "fake@example.com"},
+]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "License :: OSI Approved :: BSD License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+]
+dependencies = [
+	"alive-progress >= 3.0.1",
+	"darkdetect >= 0.8.0",
+	"lxml >= 4.9.2",
+	"psutil >= 5.9.4",
+	"PySide6 >= 6.4.2",
+	"strictyaml >= 1.6.2",
+	"validators >= 0.20.0",
+]
+
+[project.urls]
+Documentation = "https://unexpectedpanda.github.io/retool/"
+Issues = "https://github.com/unexpectedpanda/retool/issues"
+Source = "https://github.com/unexpectedpanda/retool"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+#  Poetry
 [tool.poetry]
-name = "retool"
-version = "2.02.1"
-description = "A filter tool for Redump and No-Intro DATs"
+name = "Retool"
+version = "2.02.2"
+description = "A better filter tool for Redump and No-Intro DATs"
 authors = ["unexpectedpanda <fake@example.com>"]
-license = "BSD 3-Clause \"New\" or \"Revised\" License"
+license = "BSD-3-Clause"
 readme = "readme.md"
 packages = [
 	{include = "modules"},
@@ -12,7 +51,7 @@ packages = [
 ]
 
 [tool.poetry.dependencies]
-python = ">=3.10,<3.13"
+python = ">=3.10"
 strictyaml = "^1.6.2"
 lxml = "^4.9.2"
 PySide6 = "^6.4.2"
@@ -25,6 +64,154 @@ darkdetect = "^0.8.0"
 retool = "retool:main"
 retoolgui = "retoolgui:main"
 
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+# Hatch
+[[tool.hatch.envs.all.matrix]]
+python = ["3.10", "3.11", "3.12"]
+
+[tool.hatch.envs.default.scripts]
+all = [
+    "hatch run style:fix",
+    "hatch run types:check",
+    # "hatch run test:test",
+    "hatch run lint:check",
+    "hatch run integration:test",
+]
+
+build = [
+    "all",
+    "hatch run build:build"
+]
+
+# Hatch lint setup and scripts
+[tool.hatch.envs.lint]
+detached = true
+dependencies = [
+    "codespell",
+]
+
+[tool.hatch.envs.lint.scripts]
+spelling = 'codespell retool.py retoolgui.py modules *.* -S modules/gui/resources_rc.py'
+check = ["spelling"]
+
+# Hatch style setup and scripts
+[tool.hatch.envs.style]
+type = "pip-compile" # requires the hatch-pip-compile dependency
+detached = true
+dependencies = [
+    "black",
+    "isort",
+    "ruff",
+]
+
+[tool.hatch.envs.style.scripts]
+check = [
+    "isort --check-only --diff retool.py retoolgui.py modules tests",
+    "black -q --check --diff retool.py retoolgui.py modules tests",
+    "lint",
+]
+lint = [
+    "ruff check retool.py retoolgui.py modules tests {args}"
+]
+
+fix = [
+    "lint --fix",
+    "format",
+]
+format = [
+    "isort -q retool.py retoolgui.py modules tests",
+    "black -q retool.py retoolgui.py modules tests",
+]
+
+# Hatch types setup and scripts
+[tool.hatch.envs.types]
+dependencies = [
+  "mypy>=1.8.0",
+]
+
+[tool.hatch.envs.types.scripts]
+check = [
+    "mypy --strict --install-types --non-interactive --python-version=3.10 retoolgui.py tests",
+    ]
+
+# Hatch tool configuration
+[tool.black]
+line-length = 100
+skip-string-normalization = true
+extend-exclude = "(modules/gui/resources_rc.py|modules/gui/retool_.*.py)"
+
+[tool.isort]
+profile = "black"
+line_length = 100
+extend_skip=["modules/gui/resources_rc.py"]
+extend_skip_glob=["modules/gui/retool_*.py"]
+
+[tool.mypy]
+warn_unreachable = true
+no_implicit_optional = true
+show_error_codes = true
+
+[tool.ruff]
+lint.select = [
+    "F", "W", "E", "UP", "YTT", "C4", "DTZ", "FA", "ISC", "PIE", "T20", "RSE", "TCH",
+    "B002", "B003", "B005", "B007", "B009", "B012", "B013", "B014", "B015", "B018", "B020", "B021", "B023", "B026", "B033", "B034", "B905",
+    "COM818",
+    "D200", "D201", "D202", "D204", "D207", "D208", "D209", "D210", "D211", "D213", "D214", "D300", "D301", "D400", "D402", "D403", "D405", "D412", "D414", "D415", "D416", "D417", "D419",
+    "G010",
+    "PERF101",
+    "PGH004", "PGH005",
+    "FLY002",
+    "PLC", "PLE", "PLR0124", "PLR0133", "PLR0206", "PLR0402", "PLR1701", "PLR1722", "PLW0120", "PLW0127", "PLW0129", "PLW0131", "PLW0406", "PLW0602", "PLW0603", "PLW0711",
+    "RUF001", "RUF005", "RUF007", "RUF010", "RUF013", "RUF100", "RUF200",
+    "SIM101", "SIM107", "SIM201", "SIM202", "SIM208", "SIM210", "SIM211", "SIM300", "SIM401", "SIM910",
+]
+lint.ignore = ["E501", "E731"]
+extend-exclude = ["modules/gui/resources_rc.py", "modules/gui/retool_*.py"]
+
+[tool.ruff.lint.flake8-comprehensions]
+allow-dict-calls-with-keyword-arguments = true
+
+# Hatch unit tests
+# [tool.hatch.envs.test]
+# dependencies = [
+#     "coverage",
+# ]
+
+# [[tool.hatch.envs.test.matrix]]
+# python = ["3.10", "3.11", "3.12"]
+# type = ["default", "min-req"]
+
+# [tool.hatch.envs.test.overrides]
+# matrix.type.features = [
+#     { value = "min-versions", if = ["min-req"] },
+# ]
+# matrix.type.scripts = [
+#     { key = "with-coverage", value = "_coverage", if = ["default"] },
+# ]
+
+# [tool.hatch.envs.test.scripts]
+# test = 'python -m unittest discover -s retool -p "*tests.py"'
+# _coverage = [
+#     "coverage run retool.py path-to-dat",
+#     "coverage xml",
+#     "coverage report --show-missing"
+# ]
+# with-coverage = "test"
+
+# Hatch integration tests
+[tool.hatch.envs.integration]
+
+[[tool.hatch.envs.integration.matrix]]
+python = ["3.10", "3.11", "3.12"]
+
+[tool.hatch.envs.integration.scripts]
+features = [
+    "python -m tests.exclusions",
+    "python -m tests.languages",
+]
+determinism = "python -m tests.determinism"
+regions = "python -m tests.regions"
+test = [
+    "features",
+    "determinism",
+    "regions",
+]

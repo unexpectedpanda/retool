@@ -1,6 +1,26 @@
 # Retool changelog
 
 
+## 2.02.2 (2024-03-08)
+
+-  **_Fix_**: Ensured MAME Redump DAT files have unique config settings, but
+   load Redump clone lists and metadata.
+
+-  **_Fix_**: Fixed titles without regions being assigned a blank set of regions
+   instead of being set to `(Unknown)`. This was most obvious when converting
+   Redump BIOS DAT files.
+
+-  **_Fix_**: When outputting a DAT file of removed titles while using legacy parent/clone
+   format, the removes DAT file no longer contains clones found in the legacy parent/clone
+   DAT file.
+
+-  **_Fix_**: More reliable sorting of exclusions and user option tags in
+   filenames and descriptions.
+
+-  **_Chore_**: Style fixes and reduction of unnecessary work across the code
+   base in preparation for building out more comprehensive tests.
+
+
 ## 2.02.1 (2024-02-18)
 
 - **_Feature_**: Retool now supports [MAME Redump](https://github.com/MetalSlug/MAMERedump/tree/main)

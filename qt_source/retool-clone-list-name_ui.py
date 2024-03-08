@@ -20,7 +20,7 @@ from PySide6.QtWidgets import (QApplication, QCheckBox, QLabel, QLineEdit,
     QWidget)
 
 from modules.gui.custom_widgets import CustomLineEdit
-from . import resources_rc
+import resources_rc
 
 class Ui_CloneListNameTool(object):
     def setupUi(self, CloneListNameTool):

@@ -1,17 +1,17 @@
 import pathlib
 import threading
-
 from typing import Any
 
-from PySide6 import QtWidgets as qtw
-from PySide6 import QtGui as qtg
 from PySide6 import QtCore as qtc
+from PySide6 import QtGui as qtg
+from PySide6 import QtWidgets as qtw
 
 from modules.gui.gui_utils import set_fonts
 
 
 class CustomLineEdit(qtw.QLineEdit):
-    """ A subclassed line edit widget that registers keyboard events.
+    """
+    A subclassed line edit widget that registers keyboard events.
 
     You can find the key that's pressed with something like:
 
@@ -24,28 +24,29 @@ class CustomLineEdit(qtw.QLineEdit):
     """
 
     def __init__(self, parent: Any = None) -> None:
-        super(CustomLineEdit, self).__init__(parent)
+        super().__init__(parent)
 
         self.setStyleSheet(
-                '''
+            '''
                 QLineEdit{
                     border: 1px solid #888;
                     border-collapse: collapse;
                 }
                 '''
-            )
+        )
 
     # Handle keyboard events by creating a custom signal and emitting it from
     # an event handler
     keyPressed = qtc.Signal(int)
 
     def keyPressEvent(self, event: qtg.QKeyEvent) -> None:
-        super(CustomLineEdit, self).keyPressEvent(event)
+        super().keyPressEvent(event)
         self.keyPressed.emit(event.key())
 
 
 class CustomList(qtw.QListWidget):
-    """ A subclassed list widget that doesn't allow an item to be dragged and dropped
+    """
+    A subclassed list widget that doesn't allow an item to be dragged and dropped
     within itself, and also emits keyboard and drop signals.
 
     You can find the key that's pressed with something like:
@@ -58,25 +59,24 @@ class CustomList(qtw.QListWidget):
     widget.keyPressed.connect(on_key)
     """
 
-
-    def __init__(self, parent: Any = None, is_drag_drop: bool = True, self_drag: bool = False) -> None:
-        super(CustomList, self).__init__(parent)
+    def __init__(
+        self, parent: Any = None, is_drag_drop: bool = True, self_drag: bool = False
+    ) -> None:
+        super().__init__(parent)
 
         self.setTabKeyNavigation(True)
-        self.setSelectionMode(qtw.QAbstractItemView.ExtendedSelection) # type: ignore
-
+        self.setSelectionMode(qtw.QAbstractItemView.ExtendedSelection)  # type: ignore
 
     def dragEnterEvent(self, event: qtg.QDragEnterEvent) -> None:
         super().dragEnterEvent(event)
         event.accept()
-
 
     def dragMoveEvent(self, event: qtg.QDragMoveEvent) -> None:
         super().dragMoveEvent(event)
         item = event.source()
 
         if item:
-            if item.isAncestorOf(self): # type: ignore
+            if item.isAncestorOf(self):  # type: ignore
                 event.ignore()
             else:
                 event.accept()
@@ -84,14 +84,13 @@ class CustomList(qtw.QListWidget):
     # Handle drag and drop events
     dropped = qtc.Signal(int)
 
-
     def dropEvent(self, event: qtg.QDropEvent) -> None:
         super().dropEvent(event)
 
         item = event.source()
 
         if item:
-            if item.isAncestorOf(self): # type: ignore
+            if item.isAncestorOf(self):  # type: ignore
                 event.ignore()
             else:
                 event.accept()
@@ -102,26 +101,25 @@ class CustomList(qtw.QListWidget):
                 while True:
                     try:
                         event.source()
-                    except:
+                    except Exception:
                         self.dropped.emit(event)
                         break
 
             t = threading.Thread(target=check_remove)
             t.start()
 
-
     # Handle keyboard events by creating a custom signal and emitting it from
     # an event handler
     keyPressed = qtc.Signal(int)
 
-
     def keyPressEvent(self, event: qtg.QKeyEvent) -> None:
-        super(CustomList, self).keyPressEvent(event)
+        super().keyPressEvent(event)
         self.keyPressed.emit(event.key())
 
 
 class CustomListSelfDrag(CustomList):
-    """ A sub-subclassed list widget that does allow an item to be dragged and dropped
+    """
+    A sub-subclassed list widget that does allow an item to be dragged and dropped
     within itself.
     """
 
@@ -140,7 +138,6 @@ class CustomListSelfDrag(CustomList):
     # Handle drag and drop events
     dropped = qtc.Signal(int)
 
-
     def dropEvent(self, event: qtg.QDropEvent) -> None:
         super().dropEvent(event)
 
@@ -157,7 +154,7 @@ class CustomListSelfDrag(CustomList):
                 while True:
                     try:
                         event.source()
-                    except:
+                    except Exception:
                         self.dropped.emit(event)
                         break
 
@@ -166,9 +163,7 @@ class CustomListSelfDrag(CustomList):
 
 
 class CustomListDropFiles(CustomList):
-    """ A sub-subclassed list widget that does allow a file to be dropped into
-    it from a file explorer
-    """
+    """A sub-subclassed list widget that allows a file to be dropped into it from a file explorer."""
 
     def __init__(self, parent: Any = None) -> None:
         super(CustomList, self).__init__(parent)
@@ -183,7 +178,6 @@ class CustomListDropFiles(CustomList):
 
     # Handle drag and drop events
     dropped = qtc.Signal(int)
-
 
     def dropEvent(self, event: qtg.QDropEvent) -> None:
         super().dropEvent(event)
@@ -206,14 +200,16 @@ class CustomListDropFiles(CustomList):
                 self.dropped_files = dropped_files
                 self.dropped.emit(event)
 
+
 class CustomPushButton(qtw.QPushButton):
-    """ Animates a button's background color.
+    """
+    Animates a button's background color.
+
     Modified from https://stackoverflow.com/questions/60443811/button-hover-transition-duration#answer-60446633
 
     Args:
         - `parent` The parent widget. Defaults to `None`.
     """
-
 
     def __init__(self, parent: Any = None) -> None:
         super().__init__(parent)
@@ -224,63 +220,57 @@ class CustomPushButton(qtw.QPushButton):
         self._animation.valueChanged.connect(self._on_value_changed)
         self._update_stylesheet(qtg.QColor("lightgrey"), qtg.QColor("black"))
 
-
     def _on_value_changed(self, color: Any) -> None:
-            foreground = (
-                qtg.QColor("black")
-                if self._animation.direction() == qtc.QAbstractAnimation.Forward # type: ignore
-                else qtg.QColor("black")
-            )
-            self._update_stylesheet(color, foreground)
-
+        foreground = (
+            qtg.QColor("black")
+            if self._animation.direction() == qtc.QAbstractAnimation.Forward  # type: ignore
+            else qtg.QColor("black")
+        )
+        self._update_stylesheet(color, foreground)
 
     def _update_stylesheet(self, background: Any, foreground: Any) -> None:
-            self.setStyleSheet(
-                '''
-                QPushButton{
-                    background-color: %s;
-                    color: %s;
+        self.setStyleSheet(
+            f'''
+                QPushButton{{
+                    background-color: {background.name()};
+                    color: {foreground.name()};
                     text-align: center;
                     font-size: 13px;
                     margin: 4px 2px;
                     border: 1px solid #999;
-                }
-                QPushButton:disabled {
+                }}
+                QPushButton:disabled {{
                     background-color: #ccc;
                     color: #777;
                     border: 1px solid #bfbfbf;
-                }
+                }}
                 '''
-                % (background.name(), foreground.name())
-            )
-
+        )
 
     def enterEvent(self, event: qtg.QEnterEvent) -> None:
-        self._animation.setDirection(qtc.QAbstractAnimation.Backward) # type: ignore
+        self._animation.setDirection(qtc.QAbstractAnimation.Backward)  # type: ignore
         self._animation.start()
         super().enterEvent(event)
 
-
     def focusInEvent(self, event: qtg.QFocusEvent) -> None:
-        self._animation.setDirection(qtc.QAbstractAnimation.Backward) # type: ignore
+        self._animation.setDirection(qtc.QAbstractAnimation.Backward)  # type: ignore
         self._animation.start()
         super().focusInEvent(event)
 
-
     def leaveEvent(self, event: qtc.QEvent) -> None:
-        self._animation.setDirection(qtc.QAbstractAnimation.Forward) # type: ignore
+        self._animation.setDirection(qtc.QAbstractAnimation.Forward)  # type: ignore
         self._animation.start()
         super().leaveEvent(event)
 
-
     def focusOutEvent(self, event: qtg.QFocusEvent) -> None:
-        self._animation.setDirection(qtc.QAbstractAnimation.Forward) # type: ignore
+        self._animation.setDirection(qtc.QAbstractAnimation.Forward)  # type: ignore
         self._animation.start()
         super().focusOutEvent(event)
 
 
 class CustomTextEdit(qtw.QTextEdit):
-    """ A subclassed text edit widget that registers keyboard events.
+    """
+    A subclassed text edit widget that registers keyboard events.
 
     You can find the key that's pressed with something like:
 
@@ -292,22 +282,23 @@ class CustomTextEdit(qtw.QTextEdit):
     widget.keyPressed.connect(on_key)
     """
 
-
     def __init__(self, parent: Any = None) -> None:
-        super(CustomTextEdit, self).__init__(parent)
+        super().__init__(parent)
 
     # Handle keyboard events by creating a custom signal and emitting it from
     # an event handler
     keyPressed = qtc.Signal(int)
 
-
     def keyPressEvent(self, event: qtg.QKeyEvent) -> None:
-        super(CustomTextEdit, self).keyPressEvent(event)
+        super().keyPressEvent(event)
         self.keyPressed.emit(event.key())
 
 
 class ElisionLabel(qtw.QLabel):
-    """ Elides a label. Courtesy of
+    """
+    Elides a label.
+
+    Courtesy of
     https://stackoverflow.com/questions/11446478/pyside-pyqt-truncate-text-in-qlabel-based-on-minimumsize#answer-67628976
 
     Args:
@@ -321,15 +312,13 @@ class ElisionLabel(qtw.QLabel):
 
     elision_changed = qtc.Signal(bool)
 
-
     def __init__(self, text: str = '', mode: Any = qtc.Qt.ElideMiddle, **kwargs: Any) -> None:  # type: ignore
         super().__init__(**kwargs)
 
-        self._mode = qtc.Qt.ElideLeft # type: ignore
+        self._mode = qtc.Qt.ElideLeft  # type: ignore
         self.is_elided = False
-        self.setSizePolicy(qtw.QSizePolicy.Expanding, qtw.QSizePolicy.Preferred) # type: ignore
+        self.setSizePolicy(qtw.QSizePolicy.Expanding, qtw.QSizePolicy.Preferred)  # type: ignore
         self.setText(text)
-
 
     def setText(self, text: Any) -> None:
         self._contents = text
@@ -342,10 +331,8 @@ class ElisionLabel(qtw.QLabel):
 
         self.update()
 
-
     def text(self) -> Any:
         return self._contents
-
 
     def paintEvent(self, event: qtg.QPaintEvent) -> None:
         super().paintEvent(event)
@@ -369,7 +356,9 @@ class ElisionLabel(qtw.QLabel):
             line.setLineWidth(self.width())
 
             if text_width >= self.width():
-                self._elided_line = font_metrics.elidedText(self._contents, self._mode, self.width())
+                self._elided_line = font_metrics.elidedText(
+                    self._contents, self._mode, self.width()
+                )
                 painter.drawText(qtc.QPoint(0, font_metrics.ascent()), self._elided_line)
                 did_elide = line.isValid()
                 break
@@ -384,23 +373,23 @@ class ElisionLabel(qtw.QLabel):
 
 
 def custom_widgets(main_window: Any) -> Any:
-    """ Adjusts properties of the widgets not covered by the promoted subclasses.
+    """
+    Adjusts properties of the widgets not covered by the promoted subclasses.
 
     Args:
-        - `main_window (Any)` The MainWindow widget.
+        main_window (Any): The MainWindow widget.
 
     Returns:
-        `Any` MainWindow with the replaced widgets.
+        Any: MainWindow with the replaced widgets.
     """
-
     # DAT files list box
-    main_window.ui.listWidgetOpenFiles.setDefaultDropAction(qtc.Qt.IgnoreAction) # type: ignore
+    main_window.ui.listWidgetOpenFiles.setDefaultDropAction(qtc.Qt.IgnoreAction)  # type: ignore
 
     # The global output folder label doesn't want to render with promoted subclasses
     # (likely the parent is wrong), so we have to do it manually
     main_window.ui.labelOutputFolder.deleteLater()
-    main_window.ui.labelOutputFolder = ElisionLabel('', mode=qtc.Qt.ElideLeft, parent=main_window.ui.mainProgram) # type: ignore
-    main_window.ui.labelOutputFolder.setObjectName(u"labelOutputFolder")
+    main_window.ui.labelOutputFolder = ElisionLabel('', mode=qtc.Qt.ElideLeft, parent=main_window.ui.mainProgram)  # type: ignore
+    main_window.ui.labelOutputFolder.setObjectName("labelOutputFolder")
     main_window.ui.labelOutputFolder.setText(str(pathlib.Path.cwd()))
     main_window.ui.labelOutputFolder.setGeometry(qtc.QRect(60, 31, 251, 20))
     main_window.ui.labelOutputFolder.setStyleSheet('color: #777')
@@ -411,7 +400,9 @@ def custom_widgets(main_window: Any) -> Any:
                      QCheckBox::indicator { width: 16px; height: 16px;}
                      '''
 
-    checkboxes = main_window.ui.centralwidget.findChildren(qtw.QCheckBox, qtc.QRegularExpression('(checkBox.*)'))
+    checkboxes = main_window.ui.centralwidget.findChildren(
+        qtw.QCheckBox, qtc.QRegularExpression('(checkBox.*)')
+    )
     for checkbox in checkboxes:
         checkbox.setStyleSheet(checkbox_style)
 
@@ -438,14 +429,14 @@ def custom_widgets(main_window: Any) -> Any:
     main_window.ui.splitter.setStyleSheet(drag_handle)
 
     # Create a "stop" button
-    sizePolicy = qtw.QSizePolicy(qtw.QSizePolicy.Fixed, qtw.QSizePolicy.Fixed) # type: ignore
+    sizePolicy = qtw.QSizePolicy(qtw.QSizePolicy.Fixed, qtw.QSizePolicy.Fixed)  # type: ignore
     sizePolicy.setHorizontalStretch(0)
     sizePolicy.setVerticalStretch(0)
     sizePolicy.setHeightForWidth(main_window.ui.buttonGo.sizePolicy().hasHeightForWidth())
 
     main_window.ui.buttonStop = CustomPushButton(main_window.ui.centralwidget)
-    main_window.ui.buttonStop.setText(qtc.QCoreApplication.translate('MainWindow', u'Stop', None))
-    main_window.ui.buttonStop.setObjectName(u'buttonStop')
+    main_window.ui.buttonStop.setText(qtc.QCoreApplication.translate('MainWindow', 'Stop', None))
+    main_window.ui.buttonStop.setObjectName('buttonStop')
     main_window.ui.buttonStop.setGeometry(qtc.QRect(801, 530, 140, 45))
     main_window.ui.buttonStop.setSizePolicy(sizePolicy)
     main_window.ui.buttonStop.setMinimumSize(qtc.QSize(130, 41))

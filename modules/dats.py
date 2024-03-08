@@ -3,89 +3,101 @@ from __future__ import annotations
 import html
 import os
 import pathlib
-import psutil
 import re
 import sys
-
-from alive_progress import alive_bar # type: ignore
 from contextlib import nullcontext
 from functools import partial
-from lxml import etree, html as html_
-from typing import Any, TYPE_CHECKING
+from typing import TYPE_CHECKING, Any
+
+import psutil
+from alive_progress import alive_bar  # type: ignore
+from lxml import etree
+from lxml import html as html_
+
+import modules.constants as const
 
 if TYPE_CHECKING:
     from modules.config import Config
     from modules.input import UserInput
 
-from modules.constants import *
 from modules.clonelists import CloneList
 from modules.interruptible_pool import InterruptiblePool
 from modules.titletools import Regex, TitleTools
-from modules.utils import eprint, ExitRetool, format_value, Font, pattern2string, printwrap, regex_test
+from modules.utils import (
+    ExitRetool,
+    Font,
+    eprint,
+    format_value,
+    pattern2string,
+    printwrap,
+    regex_test,
+)
 
 
 class Dat:
-    def __init__(self,
-                 contents: list[str] = [],
-                 header: list[str] = [],
-                 name: str = 'Unknown',
-                 description: str = 'Unknown',
-                 version: str = 'Unknown',
-                 author: str = 'Unknown',
-                 homepage: str = 'Unknown',
-                 url: str = 'Unknown',
-                 comment: str = 'Unknown',
-                 numbered: bool = False,
-                 clone_list: CloneList = CloneList(),
-                 metadata: dict[str, dict[str, str]] = {},
-                 end: bool=False,
-                 output_filename: str = '') -> None:
-        """ Creates an object that contains an input DAT's details. Interactively
+    def __init__(
+        self,
+        contents: list[str] = [],
+        header: list[str] = [],
+        name: str = 'Unknown',
+        description: str = 'Unknown',
+        version: str = 'Unknown',
+        author: str = 'Unknown',
+        homepage: str = 'Unknown',
+        url: str = 'Unknown',
+        comment: str = 'Unknown',
+        numbered: bool = False,
+        clone_list: CloneList = CloneList(),
+        metadata: dict[str, dict[str, str]] = {},
+        end: bool = False,
+        output_filename: str = '',
+    ) -> None:
+        """
+        Creates an object that contains an input DAT's details. Interactively
         browsable if you `print()` the object.
 
         Args:
-            - `contents (list[str], optional)` Stores the contents of a DAT in a
-              line-by-line fashion. Defaults to `[]`.
+            contents (list[str], optional): Stores the contents of a DAT in a
+            line-by-line fashion. Defaults to `[]`.
 
-            - `header (list[str], optional)` The original DAT header Defaults to `[]`.
+            header (list[str], optional): The original DAT header Defaults to `[]`.
 
-            - `name (str, optional)` The name in the DAT header. Defaults to `Unknown`.
+            name (str, optional): The name in the DAT header. Defaults to `Unknown`.
 
-            - `description (str, optional)` The description in the DAT header. Defaults to
-              `Unknown`.
+            description (str, optional): The description in the DAT header. Defaults to
+            `Unknown`.
 
-            - `version (str, optional)` The version in the DAT header. Defaults to
-              `Unknown`.
+            version (str, optional): The version in the DAT header. Defaults to
+            `Unknown`.
 
-            - `author (str, optional)` The author in the DAT header. Defaults to
-              `Unknown`.
+            author (str, optional): The author in the DAT header. Defaults to
+            `Unknown`.
 
-            - `homepage (str, optional)` The homepage in the DAT header. Defaults to
-              `Unknown`.
+            homepage (str, optional): The homepage in the DAT header. Defaults to
+            `Unknown`.
 
-            - `url (str, optional)` The URL in the DAT header. Defaults to `Unknown`.
+            url (str, optional): The URL in the DAT header. Defaults to `Unknown`.
 
-            - `comment (str, optional)` The comment in the DAT header. Defaults to
-              `Unknown`.
+            comment (str, optional): The comment in the DAT header. Defaults to
+            `Unknown`.
 
-            - `numbered (bool, optional)` Whether the DAT's titles are prefixed with a
-              number. Defaults to `False`.
+            numbered (bool, optional): Whether the DAT's titles are prefixed with a
+            number. Defaults to `False`.
 
-            - `clone_list (CloneList, optional)` A CloneList object built from a clone list
-              related to the DAT. Defaults to `CloneList()`.
+            clone_list (CloneList, optional): A CloneList object built from a clone list
+            related to the DAT. Defaults to `CloneList():.
 
-            - `metadata (dict[str, dict[str, str]], optional)` Metadata related to the DAT,
-              that contains languages for each of the titles scraped from No-Intro and
-              Redump's sites. Defaults to `{}`.
+            metadata (dict[str, dict[str, str]], optional): Metadata related to the DAT,
+            that contains languages for each of the titles scraped from No-Intro and
+            Redump's sites. Defaults to `{}`.
 
-            - `end (bool, optional)` If something goes wrong during batch processing,
-              Retool sets this to `True`, which allows it to move onto the next file in
-              the batch. Defaults to `False`.
+            end (bool, optional): If something goes wrong during batch processing,
+            Retool sets this to `True`, which allows it to move onto the next file in
+            the batch. Defaults to `False`.
 
-            - `output_filename (str, optional)` Stores the name of the output file
-              generated by Retool. Defaults to `''`.
+            output_filename (str, optional): Stores the name of the output file
+            generated by Retool. Defaults to `''`.
         """
-
         self.name: str = name
         self.original_header: list[str] = header
         self.output_filename: str = output_filename
@@ -107,16 +119,22 @@ class Dat:
         self.search_name: str = ''
         self.end: bool = end
 
-
     def __str__(self) -> str:
         return_attributes: list[list[str]] = []
 
         for attribute in dir(self):
             if not attribute.startswith('__'):
                 if len(str(getattr(self, attribute))) > 80:
-                    return_attributes.append([f'  ├ .{attribute}:', f'(...) {format_value(str(type(getattr(self, attribute)).__name__))}'])
+                    return_attributes.append(
+                        [
+                            f'  ├ .{attribute}:',
+                            f'(...) {format_value(str(type(getattr(self, attribute)).__name__))}',
+                        ]
+                    )
                 else:
-                    return_attributes.append([f'  ├ .{attribute}:', format_value(getattr(self, attribute))])
+                    return_attributes.append(
+                        [f'  ├ .{attribute}:', format_value(getattr(self, attribute))]
+                    )
 
         final_item: list[str] = return_attributes[-1].copy()
 
@@ -125,7 +143,7 @@ class Dat:
 
         # Column alignment
         def class_output() -> None:
-            eprint(f'\n  ○ Dat object')
+            eprint('\n  ○ Dat object')
             col_width: int = max(len(word) for row in return_attributes for word in row) - 20
             for row in return_attributes:
                 eprint(''.join(str(word).ljust(col_width) for word in row))
@@ -135,16 +153,16 @@ class Dat:
         class_output()
 
         while key != 'q':
-            eprint('\nEnter a dictionary key to expand (e.g. tags_disc_rename), q to continue, or hit enter to list: ')
+            eprint(
+                '\nEnter a dictionary key to expand (e.g. tags_disc_rename), q to continue, or hit enter to list: '
+            )
             key = input()
 
             eprint(key)
 
             if hasattr(self, key):
-                if (
-                    isinstance(getattr(self, key), Regex)
-                    or isinstance(getattr(self, key), CloneList)):
-                        eprint(f'\n{vars(getattr(self, key))}')
+                if isinstance(getattr(self, key), CloneList | Regex):
+                    eprint(f'\n{vars(getattr(self, key))}')
                 else:
                     eprint(f'\n{format_value(getattr(self, key))}')
             elif key == '':
@@ -160,20 +178,20 @@ class Dat:
 
 class DatNode:
     def __init__(self, config: Config, input_dat: Dat, node: dict[str, Any]) -> None:
-        """ Creates an object that contains all of a title's properties. If you
+        """
+        Creates an object that contains all of a title's properties. If you
         `print()` a DatNode object, it shows you a tree-like view of all its
         contents.
 
         Args:
-            - `config (Config)` The Retool config object.
+            config (Config): The Retool config object.
 
-            - `input_dat (Dat)` The Retool input_dat object.
+            input_dat (Dat): The Retool input_dat object.
 
-            - `node (dict[str, Any])` A dict created from a title's XML element
-              in the DAT, containing information like name, category, description
-              and ROMs if present.
+            node (dict[str, Any]): A dict created from a title's XML element
+            in the DAT, containing information like name, category, description
+            and ROMs if present.
         """
-
         # Set full/numbered names
         self.full_name: str = ''
         self.full_name_original: str = ''
@@ -186,7 +204,9 @@ class DatNode:
             self.full_name = node['name'][7:]
             self.numbered_name = node['name']
 
-        self.full_name = TitleTools.replace_invalid_characters(self.full_name, config, is_header_detail=False)
+        self.full_name = TitleTools.replace_invalid_characters(
+            self.full_name, config, is_header_detail=False
+        )
         self.full_name_original = self.full_name
 
         # Get the tags
@@ -200,16 +220,20 @@ class DatNode:
         self.languages_original: tuple[str, ...] = ()
         self.regions: tuple[str, ...] = ()
         self.primary_region: str = ''
-        self.primary_region_original: str =''
+        self.primary_region_original: str = ''
         self.secondary_region: str = ''
 
         if self.full_name in input_dat.metadata:
             if not input_dat.metadata[self.full_name]['languages']:
                 self.languages_online = ()
             else:
-                self.languages_online = tuple(sorted(input_dat.metadata[self.full_name]['languages']))
+                self.languages_online = tuple(
+                    sorted(input_dat.metadata[self.full_name]['languages'])
+                )
 
-        self.languages_title_str: str = TitleTools.languages(self.full_name, self.tags, config, 'get')
+        self.languages_title_str: str = TitleTools.languages(
+            self.full_name, self.tags, config, 'get'
+        )
         self.languages_title_orig_str: str = self.languages_title_str
 
         if '+' in self.languages_title_str:
@@ -220,7 +244,7 @@ class DatNode:
 
         self.regions_str: str = TitleTools.regions(self.full_name, config, 'get')
 
-        regions: list[str] = [region for region in config.region_order_default]
+        regions: list[str] = list(config.region_order_default)
 
         self.regions = tuple([region for region in regions if region in self.regions_str])
 
@@ -235,9 +259,9 @@ class DatNode:
 
         if config.system_region_order_user:
             if {'override': 'true'} in config.system_region_order_user:
-                region_order = [str(x) for x in config.system_region_order_user if 'override' not in x]
-
-        self.regions = tuple([region for region in config.region_order_default if region in self.regions_str])
+                region_order = [
+                    str(x) for x in config.system_region_order_user if 'override' not in x
+                ]
 
         if len(self.regions) > 1:
             for region in region_order:
@@ -272,14 +296,10 @@ class DatNode:
         # If the language code for the title is just Zh, try to infer whether simplified
         # or traditional Chinese is being used
         if 'Zh' in self.languages:
-            if (
-                'China' in self.regions
-                or 'Singapore' in self.regions):
-                    self.languages = tuple([x.replace('Zh', 'Zh-Hans') for x in self.languages])
-            elif (
-                'Hong Kong' in self.regions
-                or 'Taiwan' in self.regions):
-                    self.languages = tuple([x.replace('Zh', 'Zh-Hant') for x in self.languages])
+            if 'China' in self.regions or 'Singapore' in self.regions:
+                self.languages = tuple([x.replace('Zh', 'Zh-Hans') for x in self.languages])
+            elif 'Hong Kong' in self.regions or 'Taiwan' in self.regions:
+                self.languages = tuple([x.replace('Zh', 'Zh-Hant') for x in self.languages])
 
         # Set various names used for title matching -- for speed, we don't use all of the
         # built-in name conversion functions, as they generate the names from scratch which
@@ -288,7 +308,9 @@ class DatNode:
         languages_replace: str = f' ({self.languages_title_orig_str})'
 
         self.short_name: str = TitleTools.get_short_name(self.full_name, self.tags, config)
-        self.region_free_name: str = self.full_name.replace(languages_replace, '').replace(regions_replace, '')
+        self.region_free_name: str = self.full_name.replace(languages_replace, '').replace(
+            regions_replace, ''
+        )
         self.short_name_original: str = self.short_name
         self.group_name: str = TitleTools.get_group_name(self.full_name, config)
         self.group_name_conditional: str = ''
@@ -307,9 +329,13 @@ class DatNode:
 
                 if config.system_localization_order_user:
                     if {'override': 'true'} in config.system_localization_order_user:
-                        local_name_user_order_language_codes = [str(x) for x in config.system_localization_order_user if 'override' not in x]
+                        local_name_user_order_language_codes = [
+                            str(x)
+                            for x in config.system_localization_order_user
+                            if 'override' not in x
+                        ]
                 elif config.localization_order_user:
-                    local_name_user_order_language_codes = [x for x in config.localization_order_user]
+                    local_name_user_order_language_codes = list(config.localization_order_user)
 
                 # Get the inferred language from the primary region
                 if self.primary_region in config.languages_filter:
@@ -318,10 +344,7 @@ class DatNode:
 
                 # Make sure the alternate name is only applied if the title only has one or
                 # two languages, and don't change the title if the only language is English
-                if (
-                    len(self.languages) <= 2
-                    and self.languages != ('En',)
-                    ):
+                if len(self.languages) <= 2 and self.languages != ('En',):
                     if metadata_local_language in local_name_user_order_language_codes:
                         self.local_name = input_dat.metadata[self.full_name]['localName']
 
@@ -337,16 +360,15 @@ class DatNode:
         if 'roms' in node:
             self.roms: list[dict[str, str]] = node['roms']
 
-
         def rom_format(attribute: str) -> None:
-            """ Checks that the various ROM attributes are available, and formats
+            """
+            Checks that the various ROM attributes are available, and formats
             them accordingly.
 
             Args:
-                - `attribute (str)` The attribute to format, either `crc`, `md5`,
-                  `sha1`, `sha256`, or `header`.
+                attribute (str): The attribute to format, either `crc`, `md5`,
+                `sha1`, `sha256`, or `header`.
             """
-
             for rom in self.roms:
                 if attribute not in rom:
                     rom[attribute] = ''
@@ -356,10 +378,20 @@ class DatNode:
                     or attribute == 'md5'
                     or attribute == 'sha1'
                     or attribute == 'sha256'
-                    or attribute == 'header'):
-                        rom[attribute] = rom[attribute].lower()
+                    or attribute == 'header'
+                ):
+                    rom[attribute] = rom[attribute].lower()
 
-        rom_attributes: list[str] = ['name', 'crc', 'header', 'mia', 'md5', 'sha1', 'sha256', 'size']
+        rom_attributes: list[str] = [
+            'name',
+            'crc',
+            'header',
+            'mia',
+            'md5',
+            'sha1',
+            'sha256',
+            'size',
+        ]
 
         for attribute in rom_attributes:
             rom_format(attribute)
@@ -390,34 +422,32 @@ class DatNode:
                 else:
                     self.categories.append(category)
 
-
         def category_assign(regexes: tuple[Any, ...], category: str) -> None:
-            """ Assigns a category to a title based on a regex match in its
-            name.
+            """
+            Assigns a category to a title based on a regex match in its name.
 
             Args:
-                - `regexes (tuple[Any, ...])` A collection of regexes to
-                  iterate through.
+                regexes (tuple[Any, ...]): A collection of regexes to
+                iterate through.
 
-                - `category (str)` The category to assign to the title if a
-                  regex matches.
+                category (str): The category to assign to the title if a
+                regex matches.
             """
-
             for item in regexes:
                 if re.search(item, self.full_name):
                     if category not in self.categories:
                         self.categories.append(category)
 
-        category_assign(tuple([config.regex.programs]), 'Applications')
-        category_assign(tuple([config.regex.bios]), 'BIOS')
+        category_assign((config.regex.programs,), 'Applications')
+        category_assign((config.regex.bios,), 'BIOS')
         category_assign(config.regex.demos, 'Demos')
-        category_assign(tuple([config.regex.multimedia]), 'Multimedia')
+        category_assign((config.regex.multimedia,), 'Multimedia')
         category_assign(config.regex.preproduction, 'Preproduction')
         category_assign(config.regex.video, 'Video')
 
-        if ('[bios]' in self.full_name.lower()):
-                if 'BIOS' not in self.categories:
-                    self.categories.append('BIOS')
+        if '[bios]' in self.full_name.lower():
+            if 'BIOS' not in self.categories:
+                self.categories.append('BIOS')
         elif self.categories == []:
             self.categories.append('Games')
 
@@ -453,7 +483,9 @@ class DatNode:
 
             if config.system_language_order_user:
                 if {'override': 'true'} in config.system_language_order_user:
-                    language_order = [str(x) for x in config.system_language_order_user if 'override' not in x]
+                    language_order = [
+                        str(x) for x in config.system_language_order_user if 'override' not in x
+                    ]
         else:
             language_order = config.region_order_languages_user
 
@@ -475,38 +507,34 @@ class DatNode:
         self.region_priority: int = sorted(region_priority)[0]
         self.language_priority: int = sorted(language_priority)[0]
 
-
     def __str__(self) -> str:
         return_list: list[str] = []
 
-
         def format_attribute(attribute: Any, string: str, tabs: str, is_rom: bool = False) -> str:
-            """ Formats an output string based on whether an attribute in the object has a
+            """
+            Formats an output string based on whether an attribute in the object has a
             value or not, or if its value contains ROMs.
 
             Args:
-                - `attribute (Any)` The DatNode attribute.
+                attribute (Any): The DatNode attribute.
 
-                - `string (str)` The name of the attribute to use in the output string.
+                string (str): The name of the attribute to use in the output string.
 
-                - `tabs (str)` Tab indentation for the output string.
+                tabs (str): Tab indentation for the output string.
 
-                - `is_rom (bool, optional)` Whether or not the output string should be
-                  formatted for ROM data. Defaults to `False`.
+                is_rom (bool, optional): Whether or not the output string should be
+                formatted for ROM data. Defaults to `False`.
 
             Returns:
-                `str` A formatted output string based on whether an attribute has a value
+                str: A formatted output string based on whether an attribute has a value
                 or not, or if its value contains ROMs.
             """
-
             none_str: str = f'{Font.disabled}None{Font.end}'
-            attribute_result: str =''
+            attribute_result: str = ''
 
             if not attribute:
-                if (
-                    type(attribute) != int
-                    and type(attribute) != bool):
-                        attribute = none_str
+                if not isinstance(attribute, int | bool):
+                    attribute = none_str
 
             if is_rom:
                 attribute_result = f'{string}: {attribute}'
@@ -527,7 +555,9 @@ class DatNode:
         return_list.append(f'  ├ regions:\t\t\t{self.regions}\n')
         return_list.append(f'  ├ primary_region:\t\t{self.primary_region}\n')
         return_list.append(format_attribute(self.secondary_region, 'secondary_region', '\t\t'))
-        return_list.append(format_attribute(self.languages_title_orig_str, 'languages_title_orig_str', '\t'))
+        return_list.append(
+            format_attribute(self.languages_title_orig_str, 'languages_title_orig_str', '\t')
+        )
         return_list.append(format_attribute(self.languages_title, 'languages_title', '\t\t'))
         return_list.append(format_attribute(self.languages_implied, 'languages_implied', '\t\t'))
         return_list.append(format_attribute(self.languages_online, 'languages_online', '\t\t'))
@@ -540,54 +570,63 @@ class DatNode:
         return_list.append(format_attribute(self.language_priority, 'language_priority', '\t\t'))
         return_list.append(format_attribute(self.exclude_reason, 'exclude_reason', '\t\t'))
         return_list.append(format_attribute(self.include_reason, 'include_reason', '\t\t'))
-        return_list.append(format_attribute(self.exclude_include_related, 'exclude_include_related', '\t'))
+        return_list.append(
+            format_attribute(self.exclude_include_related, 'exclude_include_related', '\t')
+        )
         return_list.append(f'  ├ categories:\t\t\t{self.categories}\n')
-        return_list.append(f'  └ roms ┐ \n')
+        return_list.append('  └ roms ┐ \n')
         for i, rom in enumerate(self.roms):
             if i == len(self.roms) - 1:
-                return_list.append(f'         └ name: {rom["name"]} | {format_attribute(rom["header"], "header", "", is_rom=True)} | {format_attribute(rom["mia"], "mia", "", is_rom=True)} | crc: {rom["crc"]} | md5: {rom["md5"]} | sha1: {rom["sha1"]} | {format_attribute(rom["sha256"], "sha256", "", is_rom=True)} | size: {rom["size"]}\n\n')
+                return_list.append(
+                    f'         └ name: {rom["name"]} | {format_attribute(rom["header"], "header", "", is_rom=True)} | {format_attribute(rom["mia"], "mia", "", is_rom=True)} | crc: {rom["crc"]} | md5: {rom["md5"]} | sha1: {rom["sha1"]} | {format_attribute(rom["sha256"], "sha256", "", is_rom=True)} | size: {rom["size"]}\n\n'
+                )
             else:
-                return_list.append(f'         ├ name: {rom["name"]} | {format_attribute(rom["header"], "header", "", is_rom=True)} | {format_attribute(rom["mia"], "mia", "", is_rom=True)} | crc: {rom["crc"]} | md5: {rom["md5"]} | sha1: {rom["sha1"]} | {format_attribute(rom["sha256"], "sha256", "", is_rom=True)} | size: {rom["size"]}\n')
+                return_list.append(
+                    f'         ├ name: {rom["name"]} | {format_attribute(rom["header"], "header", "", is_rom=True)} | {format_attribute(rom["mia"], "mia", "", is_rom=True)} | crc: {rom["crc"]} | md5: {rom["md5"]} | sha1: {rom["sha1"]} | {format_attribute(rom["sha256"], "sha256", "", is_rom=True)} | size: {rom["size"]}\n'
+                )
 
         return_str: str = ''.join(return_list)
 
         return return_str
 
 
-def convert_clrmame_dat(input_dat: Dat, input_type: str, gui_input: UserInput|None, config: Config) -> Dat:
-    """ Converts a DAT file in CLRMAMEPro format to LogiqX DAT format.
+def convert_clrmame_dat(
+    input_dat: Dat, input_type: str, gui_input: UserInput | None, config: Config
+) -> Dat:
+    """
+    Converts a DAT file in CLRMAMEPro format to LogiqX DAT format.
 
     Args:
-        - `input_dat (Dat)` The Retool input_dat object.
+        input_dat (Dat): The Retool input_dat object.
 
-        - `input_type (str)` Whether Retool is operating on a file or folder.
+        input_type (str): Whether Retool is operating on a file or folder.
 
-        - `gui_input (UserInput)` Used to determine whether or not the function is being
-          called from the GUI.
+        gui_input (UserInput): Used to determine whether or not the function is being
+        called from the GUI.
 
-        - `config (Config)` The Retool config object.
+        config (Config): The Retool config object.
 
     Raises:
-        `ExitRetool` Silently exit if run from the GUI, so UI elements can
+        ExitRetool: Silently exit if run from the GUI, so UI elements can
         re-enable.
 
     Returns:
-        `Dat` A Dat object that looks as if it was created from a LogiqX-based
+        Dat: A Dat object that looks as if it was created from a LogiqX-based
         DAT file.
     """
+    clrmame_header: Any = re.search('^clrmamepro \\($.*?^\\)$', input_dat.contents_str, re.M | re.S)
 
-    clrmame_header: Any = re.search('^clrmamepro \\($.*?^\\)$', input_dat.contents_str, re.M|re.S)
+    if clrmame_header:
+        clrmame_header = clrmame_header.group()
 
-    if clrmame_header: clrmame_header = clrmame_header.group()
-
-    clrmame_titles: list[str] = re.findall('game \\($.*?^\\)$', input_dat.contents_str, re.M|re.S)
+    clrmame_titles: list[str] = re.findall('game \\($.*?^\\)$', input_dat.contents_str, re.M | re.S)
 
     convert_dat: list[str] = [
-            '<?xml version="1.0"?>',
-            '<!DOCTYPE datafile PUBLIC "-//Logiqx//DTD ROM Management Datafile//EN" "https://raw.githubusercontent.com/unexpectedpanda/retool-clonelists-metadata/main/datafile.dtd">',
-            '<datafile>',
-            '<header>'
-        ]
+        '<?xml version="1.0"?>',
+        '<!DOCTYPE datafile PUBLIC "-//Logiqx//DTD ROM Management Datafile//EN" "https://raw.githubusercontent.com/unexpectedpanda/retool-clonelists-metadata/main/datafile.dtd">',
+        '<datafile>',
+        '<header>',
+    ]
 
     dat_name: str = ''
     dat_description: str = ''
@@ -597,28 +636,35 @@ def convert_clrmame_dat(input_dat: Dat, input_type: str, gui_input: UserInput|No
     dat_url: str = ''
 
     if clrmame_titles:
-        def get_detail(key: str, group: str, is_header_detail: bool = True, rom_attrs: bool = False, hash_length: int = 0) -> str:
-            """ Gets details from a CLRMAMEPro DAT.
+
+        def get_detail(
+            key: str,
+            group: str,
+            is_header_detail: bool = True,
+            rom_attrs: bool = False,
+            hash_length: int = 0,
+        ) -> str:
+            """
+            Gets details from a CLRMAMEPro DAT.
 
             Args:
-                - `key (str)` The string to search for.
+                key (str): The string to search for.
 
-                - `group (str)` What group of information in the DAT to search for the
-                  string in. Usually the header, the rom string, or the game node.
+                group (str): What group of information in the DAT to search for the
+                string in. Usually the header, the rom string, or the game node.
 
-                - `is_header_detail (bool, optional)` Whether or not the detail is in the
-                  header. Defaults to `True`.
+                is_header_detail (bool, optional): Whether or not the detail is in the
+                header. Defaults to `True`.
 
-                - `rom_attrs (bool, optional)` Whether or not the detail we're searching
-                  for is ROM attributes. Defaults to `False`.
+                rom_attrs (bool, optional): Whether or not the detail we're searching
+                for is ROM attributes. Defaults to `False`.
 
-                - `hash_length (int, optional)` When searching for a ROM hash, specify the
-                  length of the hash (CRC=8, MD5=32, SHA-1=40, SHA-256=64). Defaults to `0`.
+                hash_length (int, optional): When searching for a ROM hash, specify the
+                length of the hash (CRC=8, MD5=32, SHA-1=40, SHA-256=64). Defaults to `0`.
 
             Returns:
-                `str` The detail searched for, in an appropriately formatted string.
+                str: The detail searched for, in an appropriately formatted string.
             """
-
             regex_search: Any
 
             if rom_attrs:
@@ -639,25 +685,28 @@ def convert_clrmame_dat(input_dat: Dat, input_type: str, gui_input: UserInput|No
                         if key == 'size':
                             try:
                                 detail = str(int(verify_value))
-                            except:
+                            except Exception:
                                 continue
                         else:
                             if len(verify_value) == hash_length:
                                 try:
                                     if int(verify_value, 16):
                                         detail = str(verify_value)
-                                except:
+                                except Exception:
                                     continue
                 else:
                     regex_search_str: str = regex_search.group().replace(f'{key} ', '')
                     if '"' in regex_search_str:
                         search_string = f'{search_string}\".*\"'
                         try:
-                            detail = html.escape(regex_search_str.replace('"', '').strip(), quote=False)
-                        except:
+                            detail = html.escape(
+                                regex_search_str.replace('"', '').strip(), quote=False
+                            )
+                        except Exception:
                             printwrap(
-                                f'{Font.warning}* This title in the DAT is malformed and will be '
-                                f'skipped:', 'error')
+                                f'{Font.warning}* This title in the DAT is malformed and will be skipped:',
+                                'error',
+                            )
                             eprint(f'  {group}{Font.end}', 'error')
                     else:
                         search_string = f'{search_string}?\\s'
@@ -672,23 +721,30 @@ def convert_clrmame_dat(input_dat: Dat, input_type: str, gui_input: UserInput|No
                 detail = ''
 
             if detail != '' and is_header_detail:
-                if key == 'homepage': key = 'url'
+
+                if key == 'homepage':
+                    key = 'url'
+
                 convert_dat.append(f'\t\t<{key}>{detail}</{key}>\n')
 
             return detail
 
         # Get all the DAT details
-        dat_name = TitleTools.replace_invalid_characters(get_detail('name', clrmame_header), config, is_header_detail=True)
+        dat_name = TitleTools.replace_invalid_characters(
+            get_detail('name', clrmame_header), config, is_header_detail=True
+        )
         dat_description = get_detail('description', clrmame_header)
         if not dat_description:
             convert_dat.append(f'\t\t<description>{dat_name}</description>\n')
         dat_category = get_detail('category', clrmame_header)
-        dat_version = TitleTools.replace_invalid_characters(get_detail('version', clrmame_header), config, is_header_detail=True)
+        dat_version = TitleTools.replace_invalid_characters(
+            get_detail('version', clrmame_header), config, is_header_detail=True
+        )
         if not dat_version:
-            convert_dat.append(f'\t\t<version>Unknown</version>\n')
+            convert_dat.append('\t\t<version>Unknown</version>\n')
         dat_author = get_detail('author', clrmame_header)
         if not dat_author:
-            convert_dat.append(f'\t\t<author>Unknown</author>\n')
+            convert_dat.append('\t\t<author>Unknown</author>\n')
         dat_url = get_detail('homepage', clrmame_header)
         convert_dat.append('\t</header>\n')
 
@@ -696,25 +752,33 @@ def convert_clrmame_dat(input_dat: Dat, input_type: str, gui_input: UserInput|No
         for title in clrmame_titles:
             skip_node: bool = False
 
-            clrmame_roms: list[str] = re.findall('rom\\s\\(.*?\\)$', title, re.M|re.S)
+            clrmame_roms: list[str] = re.findall('rom\\s\\(.*?\\)$', title, re.M | re.S)
             rom_list: list[str] = []
 
             for rom in clrmame_roms:
-                rom_string: str = rom.replace('(', '').replace(')','')
+                rom_string: str = rom.replace('(', '').replace(')', '')
 
                 rom_size = get_detail('size', rom_string, is_header_detail=False, rom_attrs=True)
                 rom_string = re.sub(f'size {rom_size}', '', rom_string)
 
-                rom_crc = get_detail('crc', rom_string, is_header_detail=False, rom_attrs=True, hash_length=8)
+                rom_crc = get_detail(
+                    'crc', rom_string, is_header_detail=False, rom_attrs=True, hash_length=8
+                )
                 rom_string = re.sub(f'crc {rom_crc}', '', rom_string)
 
-                rom_md5 = get_detail('md5', rom_string, is_header_detail=False, rom_attrs=True, hash_length=32)
+                rom_md5 = get_detail(
+                    'md5', rom_string, is_header_detail=False, rom_attrs=True, hash_length=32
+                )
                 rom_string = re.sub(f'md5 {rom_md5}', '', rom_string)
 
-                rom_sha1 = get_detail('sha1', rom_string, is_header_detail=False, rom_attrs=True, hash_length=40)
+                rom_sha1 = get_detail(
+                    'sha1', rom_string, is_header_detail=False, rom_attrs=True, hash_length=40
+                )
                 rom_string = re.sub(f'sha1 {rom_sha1}', '', rom_string)
 
-                rom_sha256 = get_detail('sha256', rom_string, is_header_detail=False, rom_attrs=True, hash_length=64)
+                rom_sha256 = get_detail(
+                    'sha256', rom_string, is_header_detail=False, rom_attrs=True, hash_length=64
+                )
                 rom_string = re.sub(f'sha256 {rom_sha256}', '', rom_string)
 
                 # Check that name is defined
@@ -722,26 +786,28 @@ def convert_clrmame_dat(input_dat: Dat, input_type: str, gui_input: UserInput|No
                     skip_node = True
                     break
                 else:
-                    rom_list.append(f'\t\t<rom name="{get_detail("name", rom_string, is_header_detail=False, rom_attrs=False)}"')
+                    rom_list.append(
+                        f'\t\t<rom name="{get_detail("name", rom_string, is_header_detail=False, rom_attrs=False)}"'
+                    )
 
                 # Check that there's at least one hash
-                if (
-                    not rom_crc
-                    and not rom_md5
-                    and not rom_sha1
-                    and not rom_sha256
-                    ):
+                if not rom_crc and not rom_md5 and not rom_sha1 and not rom_sha256:
                     skip_node = True
                     break
 
                 if not rom_size:
                     rom_size = "0"
 
-                if rom_size: rom_list.append(f' size="{rom_size}"')
-                if rom_crc: rom_list.append(f' crc="{rom_crc}"')
-                if rom_md5: rom_list.append(f' md5="{rom_md5}"')
-                if rom_sha1: rom_list.append(f' sha1="{rom_sha1}"')
-                if rom_sha256: rom_list.append(f' sha256="{rom_sha256}"')
+                if rom_size:
+                    rom_list.append(f' size="{rom_size}"')
+                if rom_crc:
+                    rom_list.append(f' crc="{rom_crc}"')
+                if rom_md5:
+                    rom_list.append(f' md5="{rom_md5}"')
+                if rom_sha1:
+                    rom_list.append(f' sha1="{rom_sha1}"')
+                if rom_sha256:
+                    rom_list.append(f' sha256="{rom_sha256}"')
                 rom_list.append('/>\n')
 
             # Skip titles with no size or hashes
@@ -749,15 +815,21 @@ def convert_clrmame_dat(input_dat: Dat, input_type: str, gui_input: UserInput|No
                 continue
 
             # Build the game entry
-            convert_dat.append(f'\t<game name="{get_detail("name", title, is_header_detail=False)}">\n')
+            convert_dat.append(
+                f'\t<game name="{get_detail("name", title, is_header_detail=False)}">\n'
+            )
 
             if dat_category != '':
                 convert_dat.append(f'\t\t<category>{dat_category}</category>\n')
 
             if not get_detail('description', title, is_header_detail=False):
-                convert_dat.append(f'\t\t<description>{get_detail("name", title, is_header_detail=False)}</description>\n')
+                convert_dat.append(
+                    f'\t\t<description>{get_detail("name", title, is_header_detail=False)}</description>\n'
+                )
             else:
-                convert_dat.append(f'\t\t<description>{get_detail("description", title, is_header_detail=False)}</description>\n')
+                convert_dat.append(
+                    f'\t\t<description>{get_detail("description", title, is_header_detail=False)}</description>\n'
+                )
 
             convert_dat.append(''.join(rom_list))
             convert_dat.append('\t</game>\n')
@@ -765,13 +837,14 @@ def convert_clrmame_dat(input_dat: Dat, input_type: str, gui_input: UserInput|No
         convert_dat.append('</datafile>')
     else:
         printwrap(
-            f'{Font.error_bold} * Error: {Font.error}file isn\'t Logiqx XML or '
-            f'CLRMAMEPro dat.{Font.end}', 'error')
+            f'{Font.error_bold} * Error: {Font.error}file isn\'t Logiqx XML or CLRMAMEPro dat.{Font.end}',
+            'error',
+        )
         if input_type == 'file':
             if gui_input:
                 raise ExitRetool
             else:
-                sys.exit()
+                sys.exit(1)
         else:
             input_dat.end = True
             return input_dat
@@ -779,32 +852,41 @@ def convert_clrmame_dat(input_dat: Dat, input_type: str, gui_input: UserInput|No
     return Dat(convert_dat, [], dat_name, dat_description, dat_version, dat_author, dat_url)
 
 
-def format_system_name(original_name: str, config: Config, url: str = '', homepage: str = '', comment: str = '', author: str = '') -> str:
-    """ Sanitizes the system name to match it with clone lists, metadata files, and system configs
+def format_system_name(
+    original_name: str,
+    config: Config,
+    url: str = '',
+    homepage: str = '',
+    comment: str = '',
+    author: str = '',
+) -> str:
+    """
+    Sanitizes the system name to match it with clone lists, metadata files, and system configs.
 
     Args:
-        - `original_name (str)` The original system name to process.
+        original_name (str): The original system name to process.
 
-        - `url (str, optional)` The URL in the header of the input DAT. Defaults to `''`.
+        config (Config): The Retool config object.
 
-        - `homepage (str, optional)` The homepage in the header of the input DAT. Defaults
-          to `''`.
+        url (str, optional): The URL in the header of the input DAT. Defaults to `''`.
 
-        - `comment (str, optional)` The comment in the header of the input DAT. Defaults to
-          `''`.
+        homepage (str, optional): The homepage in the header of the input DAT. Defaults
+        to `''`.
 
-        - `author (str, optional)` The author in the header of the input DAT. Defaults to
-          `''`.
+        comment (str, optional): The comment in the header of the input DAT. Defaults to
+        `''`.
+
+        author (str, optional): The author in the header of the input DAT. Defaults to
+        `''`.
 
     Returns:
-        `str` The formatted system name.
+        str: The formatted system name.
     """
-
     remove_string: str = f' \\(({"|".join(config.dat_file_tags)})\\)'
 
-    search_name: str  = ''
+    search_name: str = ''
 
-    if re.search(remove_string, original_name) != None:
+    if re.search(remove_string, original_name) is not None:
         search_name = re.sub(remove_string, '', original_name)
     else:
         search_name = original_name
@@ -812,15 +894,16 @@ def format_system_name(original_name: str, config: Config, url: str = '', homepa
     # Add group names to differentiate DATs that cover the same system
     if 'no-intro' in url:
         search_name = f'{search_name} (No-Intro)'
+    elif 'MAMERedump' in url or 'MAME Redump' in author:
+        search_name = f'{search_name} (MAME Redump)'
     elif (
         'redump' in url
         or 'Redump.org ISOs converted' in comment
         or 'Redump' in author
-        or 'redump' in author):
-            search_name = f'{search_name} (Redump)'
-    elif (
-        'TOSEC' in homepage
-        or 'tosecdev.org' in url):
+        or 'redump' in author
+    ):
+        search_name = f'{search_name} (Redump)'
+    elif 'TOSEC' in homepage or 'tosecdev.org' in url:
         search_name = f'{search_name} (TOSEC)'
     else:
         search_name = f'{search_name}'
@@ -831,51 +914,51 @@ def format_system_name(original_name: str, config: Config, url: str = '', homepa
             'NKit GCZ' in search_name
             or 'NKit ISO' in search_name
             or 'NKit RVZ' in search_name
-            or 'NASOS' in search_name):
-                search_name = 'Nintendo - GameCube (Redump)'
+            or 'NASOS' in search_name
+        ):
+            search_name = 'Nintendo - GameCube (Redump)'
 
     if 'Wii' in search_name:
         if (
             'NKit GCZ' in search_name
             or 'NKit ISO' in search_name
             or 'NKit RVZ' in search_name
-            or 'NASOS' in search_name):
-                search_name = 'Nintendo - Wii (Redump)'
+            or 'NASOS' in search_name
+        ):
+            search_name = 'Nintendo - Wii (Redump)'
 
-    if (
-        'Wii U' in search_name
-        and 'WUX' in search_name):
-            search_name = 'Nintendo - Wii U (Redump)'
+    if 'Wii U' in search_name and 'WUX' in search_name:
+        search_name = 'Nintendo - Wii U (Redump)'
 
     return search_name
 
 
-def process_dat(dat_file: str, input_type: str, gui_input: UserInput|None, config: Config) -> Dat:
-    """ Reads in an input DAT file and prepares the data for use in Retool. Also imports
+def process_dat(dat_file: str, input_type: str, gui_input: UserInput | None, config: Config) -> Dat:
+    """
+    Reads in an input DAT file and prepares the data for use in Retool. Also imports
     system configs, including the related clone list and metadata file.
 
     Args:
-        - `dat_file (str)` The DAT file being processed.
+        dat_file (str): The DAT file being processed.
 
-        - `input_type (str)` Whether Retool is operating on a file or folder.
+        input_type (str): Whether Retool is operating on a file or folder.
 
-        - `gui_input (UserInput)` Used to determine whether or not the function is being
-          called from the GUI.
+        gui_input (UserInput): Used to determine whether or not the function is being
+        called from the GUI.
 
-        - `config (Config)` The Retool config object.
+        config (Config): The Retool config object.
 
     Raises:
-        `ExitRetool` Silently exit if run from the GUI, so UI elements can
+        ExitRetool: Silently exit if run from the GUI, so UI elements can
         re-enable.
 
     Returns:
-        `Dat` A Dat object created from the input DAT, so Retool can work on the
+        Dat: A Dat object created from the input DAT, so Retool can work on the
         data efficiently.
     """
-
     # Set a string for skipping to the next file if something goes wrong in a batch
     # operation
-    if not input_type == 'file':
+    if input_type != 'file':
         next_status: str = ' Skipping file...'
     else:
         next_status = ''
@@ -886,15 +969,13 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput|None, confi
     input_dat: Dat = Dat()
 
     try:
-        with open(pathlib.Path(dat_file), 'r', encoding='utf-8') as input_file:
+        with open(pathlib.Path(dat_file), encoding='utf-8') as input_file:
             eprint('* Validating DAT file... ', sep=' ', end='', flush=True)
             input_dat.contents = input_file.readlines()
             input_dat.contents_str = ''.join(input_dat.contents)
 
     except OSError as e:
-        printwrap(
-            f'{Font.error_bold}* Error: {Font.error}{str(e)}.{Font.end}{next_status}',
-            'error')
+        printwrap(f'{Font.error_bold}* Error: {Font.error}{e!s}.{Font.end}{next_status}', 'error')
         if input_type == 'file':
             raise
         else:
@@ -909,7 +990,8 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput|None, confi
         input_dat = convert_clrmame_dat(input_dat, input_type, gui_input, config)
 
         # Go to the next file in a batch operation if something went wrong.
-        if input_dat.end: return input_dat
+        if input_dat.end:
+            return input_dat
 
     # Exit if there are entity or element tags to avoid abuse
     abuse_tags: list[str] = ['<!ENTITY', '<!ELEMENT']
@@ -918,11 +1000,13 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput|None, confi
             eprint('failed.')
             printwrap(
                 f'{Font.error_bold} Error: {Font.error}Entity and element tags aren\'t '
-                f'supported in DAT files. Exiting...{Font.end}{next_status}', 'error')
+                f'supported in DAT files. Exiting...{Font.end}{next_status}',
+                'error',
+            )
             if gui_input:
                 raise ExitRetool
             else:
-                sys.exit()
+                sys.exit(1)
 
     # Get the original header
     header_found: bool = False
@@ -951,7 +1035,9 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput|None, confi
         validation_bool = [False, False, False, False]
 
         for i, validation_tag in enumerate(validation_tags):
-            validation_bool[i] = bool(list(filter(lambda x: validation_tag in x, input_dat.contents)))
+            validation_bool[i] = bool(
+                list(filter(lambda x: validation_tag in x, input_dat.contents))
+            )
             continue
 
     if all(validation_bool):
@@ -962,10 +1048,13 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput|None, confi
                 regex_search = re.search('<\\?xml.*?>', input_dat.contents[0])
                 regex_search_str: str = ''
 
-                if regex_search: regex_search_str = regex_search.group()
+                if regex_search:
+                    regex_search_str = regex_search.group()
 
                 if re.search('<\\?xml.*?>', line):
-                    input_dat.contents[i] = input_dat.contents[i].replace(regex_search_str, '<?xml version="1.0"?>')
+                    input_dat.contents[i] = input_dat.contents[i].replace(
+                        regex_search_str, '<?xml version="1.0"?>'
+                    )
                     input_dat.contents_str = ''.join(input_dat.contents)
 
                 # Check if the LogiqX DTD is present
@@ -983,23 +1072,33 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput|None, confi
                     input_dat.contents_str = ''.join(input_dat.contents)
                 if re.search('.*?</header>', line):
                     break
-        except:
+        except Exception:
             eprint('failed.')
             printwrap(
                 f'{Font.error_bold}* Error: {Font.error}File is missing an XML '
                 f'declaration. It\'s probably not a DAT file.'
-                f'{next_status}{Font.end}', 'error')
+                f'{next_status}{Font.end}',
+                'error',
+            )
             if input_type == 'file':
                 if gui_input:
                     raise ExitRetool
                 else:
-                    sys.exit()
+                    sys.exit(1)
             else:
                 input_dat.end = True
                 return input_dat
 
         # Parse the DAT
-        parser = etree.XMLParser(encoding='utf-8', recover=True, ns_clean=True, remove_pis=True, resolve_entities=False, strip_cdata=True, remove_comments=True)
+        parser = etree.XMLParser(
+            encoding='utf-8',
+            recover=True,
+            ns_clean=True,
+            remove_pis=True,
+            resolve_entities=False,
+            strip_cdata=True,
+            remove_comments=True,
+        )
         root = etree.XML(html_.tostring(html_.fromstring(input_dat.contents_str)), parser=parser)
 
         # Validate against the Logiqx DTD
@@ -1015,9 +1114,14 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput|None, confi
                                 eprint('failed.')
                                 printwrap(
                                     f'{Font.warning_bold}* Warning: {Font.warning}DAT file doesn\'t '
-                                    'comply with the Logiqx DTD standard. This might have unexpected results.', 'error')
-                                printwrap(f'  DTD violation: {dtd.error_log.last_error}.' # type: ignore
-                                    f'{next_status}{Font.end}', 'error')
+                                    'comply with the Logiqx DTD standard. This might have unexpected results.',
+                                    'error',
+                                )
+                                printwrap(
+                                    f'  DTD violation: {dtd.error_log.last_error}.'  # type: ignore
+                                    f'{next_status}{Font.end}',
+                                    'error',
+                                )
                                 eprint('')
                                 if input_type == 'file':
                                     failed_check = True
@@ -1028,12 +1132,14 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput|None, confi
                         eprint('failed.')
                         printwrap(
                             f'{Font.error_bold}* Error: {Font.error}DAT file is malformed. '
-                            f'{e}.{next_status}{Font.end}', 'error')
+                            f'{e}.{next_status}{Font.end}',
+                            'error',
+                        )
                         if input_type == 'file':
                             if gui_input:
                                 raise ExitRetool
                             else:
-                                sys.exit()
+                                sys.exit(1)
                         else:
                             input_dat.end = True
                             return input_dat
@@ -1042,15 +1148,14 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput|None, confi
                             eprint('file is a Logiqx DAT file.')
 
             except OSError as e:
-                printwrap(f'{Font.error_bold}* Error: {str(e)}{next_status}{Font.end}',
-                            'error')
+                printwrap(f'{Font.error_bold}* Error: {e!s}{next_status}{Font.end}', 'error')
                 if input_type == 'file':
                     raise
                 else:
                     input_dat.end = True
                     return input_dat
         else:
-           eprint('done.')
+            eprint('done.')
 
         # Clear out attributes to save memory
         input_dat.contents.clear()
@@ -1058,12 +1163,12 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput|None, confi
 
         # Get header details
         def header_details(key: str) -> None:
-            """ Gets the header details from the input DAT.
+            """
+            Gets the header details from the input DAT.
 
             Args:
-                - `key (str)` The header detail to extract.
+                key (str): The header detail to extract.
             """
-
             for header in root.findall('header'):
                 for detail in header:
                     if detail.tag == key:
@@ -1084,19 +1189,30 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput|None, confi
         input_dat.name = re.sub(' \\(Retool.*?\\)', '', input_dat.name).replace('&amp;', '&')
 
         # Sanitize some header details which are used in the output filename
-        input_dat.name = TitleTools.replace_invalid_characters(input_dat.name, config, is_header_detail=True)
-        input_dat.version = TitleTools.replace_invalid_characters(input_dat.version, config, is_header_detail=True)
+        input_dat.name = TitleTools.replace_invalid_characters(
+            input_dat.name, config, is_header_detail=True
+        )
+        input_dat.version = TitleTools.replace_invalid_characters(
+            input_dat.version, config, is_header_detail=True
+        )
 
         for filename in config.reserved_filenames:
             search_string: str = f'^{filename}$'
-            if re.search(search_string, input_dat.name) != None:
+            if re.search(search_string, input_dat.name) is not None:
                 input_dat.name = 'Unknown'
-            if re.search(search_string, input_dat.version) != None:
+            if re.search(search_string, input_dat.version) is not None:
                 input_dat.version = 'Unknown'
 
         # Sanitize the system name to make referencing support files like clone lists and
         # system configurations easier
-        input_dat.search_name = format_system_name(input_dat.name, config, input_dat.url, input_dat.homepage, input_dat.comment, input_dat.author)
+        input_dat.search_name = format_system_name(
+            input_dat.name,
+            config,
+            input_dat.url,
+            input_dat.homepage,
+            input_dat.comment,
+            input_dat.author,
+        )
 
         # Provide DAT details to the user to reassure them the correct file is being processed
         eprint('')
@@ -1111,11 +1227,11 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput|None, confi
             input_dat.numbered = True
 
             for game in root.findall('game'):
-                if not re.search('^([0-9]|x|z)([0-9]|B)[0-9]{2,2} - ', game.attrib['name']): #type: ignore
+                if not re.search('^([0-9]|x|z)([0-9]|B)[0-9]{2,2} - ', game.attrib['name']):  # type: ignore
                     input_dat.numbered = False
 
             for machine in root.findall('machine'):
-                if not re.search('^([0-9]|x|z)([0-9]|B)[0-9]{2,2} - ', machine.attrib['name']): #type: ignore
+                if not re.search('^([0-9]|x|z)([0-9]|B)[0-9]{2,2} - ', machine.attrib['name']):  # type: ignore
                     input_dat.numbered = False
 
             if not input_dat.numbered:
@@ -1126,19 +1242,21 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput|None, confi
 
         # Import system settings
         from modules.input import import_clone_list, import_metadata, import_system_settings
+
         import_system_settings(
             config,
             input_dat.search_name,
-            SYSTEM_LANGUAGE_ORDER_KEY,
-            SYSTEM_REGION_ORDER_KEY,
-            SYSTEM_LOCALIZATION_ORDER_KEY,
-            SYSTEM_VIDEO_ORDER_KEY,
-            SYSTEM_LIST_PREFIX_KEY,
-            SYSTEM_LIST_SUFFIX_KEY,
-            SYSTEM_OVERRIDE_EXCLUDE_KEY,
-            SYSTEM_OVERRIDE_INCLUDE_KEY,
-            SYSTEM_FILTER_KEY,
-            SYSTEM_EXCLUSIONS_OPTIONS_KEY)
+            const.SYSTEM_LANGUAGE_ORDER_KEY,
+            const.SYSTEM_REGION_ORDER_KEY,
+            const.SYSTEM_LOCALIZATION_ORDER_KEY,
+            const.SYSTEM_VIDEO_ORDER_KEY,
+            const.SYSTEM_LIST_PREFIX_KEY,
+            const.SYSTEM_LIST_SUFFIX_KEY,
+            const.SYSTEM_OVERRIDE_EXCLUDE_KEY,
+            const.SYSTEM_OVERRIDE_INCLUDE_KEY,
+            const.SYSTEM_FILTER_KEY,
+            const.SYSTEM_EXCLUSIONS_OPTIONS_KEY,
+        )
 
         search_games: list[Any] = root.findall('game')
 
@@ -1151,14 +1269,33 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput|None, confi
         else:
             progress_bar: str = 'smooth'
             spinner: str = 'waves'
-            parent_processes: list[str] = [str(x).lower() for x in psutil.Process(os.getpid()).parents()]
+            parent_processes: list[str] = [
+                str(x).lower() for x in psutil.Process(os.getpid()).parents()
+            ]
 
-            if any(s for s in parent_processes if 'cmd.exe' in s or 'powershell.exe' in s or 'explorer.exe' in s):
-                if not any(s for s in parent_processes if 'code.exe' in s or 'windowsterminal.exe' in s):
+            if any(
+                s
+                for s in parent_processes
+                if 'cmd.exe' in s or 'powershell.exe' in s or 'explorer.exe' in s
+            ):
+                if not any(
+                    s for s in parent_processes if 'code.exe' in s or 'windowsterminal.exe' in s
+                ):
                     progress_bar = 'classic2'
                     spinner = 'classic'
 
-            alive_bar_context = alive_bar(2 + len(search_games), title=f'* Processing DAT file', length=20, enrich_print=False, stats=False, monitor='{percent:.2%}', receipt_text=True, bar=progress_bar, spinner=spinner, file=sys.stderr)
+            alive_bar_context = alive_bar(
+                2 + len(search_games),
+                title='* Processing DAT file',
+                length=20,
+                enrich_print=False,
+                stats=False,
+                monitor='{percent:.2%}',
+                receipt_text=True,
+                bar=progress_bar,
+                spinner=spinner,
+                file=sys.stderr,
+            )
 
         with alive_bar_context as bar:
             # Create an object for each title
@@ -1167,15 +1304,15 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput|None, confi
             for game in search_games:
                 # Get data out of the lxml element so it can be multiprocessed
                 node_dict: dict[str, Any] = {'name': game.attrib['name']}
-                roms: list[dict[str, dict[str, str]]] = []
+                roms: list[dict[str, str]] = []
                 categories: list[str] = []
 
                 # Grab other data from the element, like descriptions
-                list(map(lambda d: node_dict.update({d.tag: d.text}), list(game)))
+                [node_dict.update({d.tag: d.text}) for d in list(game)]
 
                 # Get multiple categories if the input DAT supports them
-                for category in game.xpath('category'): # type: ignore
-                    categories.append(str(category.text)) # type: ignore
+                for category in game.xpath('category'):  # type: ignore
+                    categories.append(str(category.text))  # type: ignore
 
                 if categories:
                     node_dict['category'] = categories
@@ -1185,13 +1322,13 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput|None, confi
                 # Get the rom node attributes
                 rom_dict: dict[str, str] = {}
 
-                for rom in game.xpath('rom'): # type: ignore
-                    rom_dict = dict(rom.attrib) # type: ignore
+                for rom in game.xpath('rom'):  # type: ignore
+                    rom_dict = dict(rom.attrib)  # type: ignore
                     rom_dict['type'] = 'rom'
                     roms.append(rom_dict)
 
-                for rom in game.xpath('disk'): # type: ignore
-                    rom_dict = dict(rom.attrib) # type: ignore
+                for rom in game.xpath('disk'):  # type: ignore
+                    rom_dict = dict(rom.attrib)  # type: ignore
                     rom_dict['type'] = 'disk'
                     roms.append(rom_dict)
 
@@ -1199,11 +1336,11 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput|None, confi
                 skip_node: bool = False
 
                 if not (
-                    'size' in rom.attrib
-                    or 'crc' in rom.attrib
-                    or 'md5' in rom.attrib
-                    or 'sha1' in rom.attrib
-                    or 'sha256' in rom.attrib
+                    'size' in rom.attrib  # type: ignore
+                    or 'crc' in rom.attrib  # type: ignore
+                    or 'md5' in rom.attrib  # type: ignore
+                    or 'sha1' in rom.attrib  # type: ignore
+                    or 'sha256' in rom.attrib  # type: ignore
                 ):
                     if not config.user_input.empty_titles:
                         skip_node = True
@@ -1217,37 +1354,61 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput|None, confi
                 all_games.append(node_dict)
 
                 if not (config.user_input.trace or config.user_input.single_cpu):
-                    bar() # type: ignore
+                    bar()  # type: ignore
 
             if not all_games:
-                    eprint('')
-                    printwrap(
-                        f'{Font.error_bold}* Error: "{dat_file}"{Font.error}. No valid '
-                        f'titles in input DAT. Titles must have at least a size or '
-                        f'one hash.{next_status}{Font.end}', 'error')
+                eprint('')
+                printwrap(
+                    f'{Font.error_bold}* Error: "{dat_file}"{Font.error}. No valid '
+                    f'titles in input DAT. Titles must have at least a size or '
+                    f'one hash.{next_status}{Font.end}',
+                    'error',
+                )
 
-                    if input_type == 'file':
-                        if gui_input:
-                            raise ExitRetool
-                        else:
-                            sys.exit()
+                if input_type == 'file':
+                    if gui_input:
+                        raise ExitRetool
                     else:
-                        input_dat.end = True
-                        return input_dat
+                        sys.exit(1)
+                else:
+                    input_dat.end = True
+                    return input_dat
 
             # Check all the overrides and post filters for invalid regex and strip it out
             if not config.user_input.no_overrides:
-                config.global_exclude = regex_test(list(config.global_exclude), 'global exclude', 'user filter')
-                config.global_include = regex_test(list(config.global_include), 'global include', 'user filter')
-                config.system_exclude = regex_test(list(config.system_exclude), 'system exclude', 'user filter')
-                config.system_include = regex_test(list(config.system_include), 'system include', 'user filter')
+                config.global_exclude = regex_test(
+                    list(config.global_exclude), 'global exclude', 'user filter'
+                )
+                config.global_include = regex_test(
+                    list(config.global_include), 'global include', 'user filter'
+                )
+                config.system_exclude = regex_test(
+                    list(config.system_exclude), 'system exclude', 'user filter'
+                )
+                config.system_include = regex_test(
+                    list(config.system_include), 'system include', 'user filter'
+                )
 
             if config.global_filter:
-                config.global_filter = regex_test(list(config.global_filter), 'global post filter', 'user filter')
+                config.global_filter = regex_test(
+                    list(config.global_filter), 'global post filter', 'user filter'
+                )
 
             if config.system_filter:
-                override_status: list[str | dict[str, str]] = [x for x in config.system_filter if x == {'override': 'true'} or x == {'override': 'false'}]
-                regex_test_system_filter: list[str] = regex_test([str(x) for x in config.system_filter if x != {'override': 'true'} and x != {'override': 'false'}], 'system post filter', 'user filter')
+                override_status: list[str | dict[str, str]] = [
+                    x
+                    for x in config.system_filter
+                    if x == {'override': 'true'} or x == {'override': 'false'}
+                ]
+                regex_test_system_filter: list[str] = regex_test(
+                    [
+                        str(x)
+                        for x in config.system_filter
+                        if x != {'override': 'true'} and x != {'override': 'false'}
+                    ],
+                    'system post filter',
+                    'user filter',
+                )
 
                 config.system_filter = override_status
 
@@ -1261,7 +1422,7 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput|None, confi
             input_dat.metadata = import_metadata(input_dat, config)
 
             if not (config.user_input.trace or config.user_input.single_cpu):
-                bar() # type: ignore
+                bar()  # type: ignore
 
             # Define DatNode as the function to run on multiple processors, and
             # use a partial to prepush arg values into it as a sort of
@@ -1273,10 +1434,10 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput|None, confi
                 process_list = list(map(func, all_games))
             else:
                 with InterruptiblePool(int(str(os.cpu_count()))) as p:
-                    process_list = (p.map(func, all_games))
+                    process_list = p.map(func, all_games)
 
             if not (config.user_input.trace or config.user_input.single_cpu):
-                bar() # type: ignore
+                bar()  # type: ignore
 
             # Create a dictionary of titles sorted by group name
             original_titles: dict[str, set[DatNode]] = {}
@@ -1302,12 +1463,16 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput|None, confi
                         dupe_number: int = 0
 
                         if re.search(' \\(Dupe \\d+\\)', title.full_name):
-                            dupe_string: str = pattern2string(re.compile(' \\(Dupe \\d+\\)'), title.full_name)
+                            dupe_string: str = pattern2string(
+                                re.compile(' \\(Dupe \\d+\\)'), title.full_name
+                            )
                             dupe_number = int(pattern2string(re.compile('\\d+'), dupe_string)) + 1
                             title.full_name = re.sub(' \\(Dupe \\d+\\)', '', title.full_name)
                             title.description = re.sub(' \\(Dupe \\d+\\)', '', title.description)
                             title.short_name = re.sub(' \\(Dupe \\d+\\)', '', title.short_name)
-                            title.region_free_name = re.sub(' \\(Dupe \\d+\\)', '', title.region_free_name)
+                            title.region_free_name = re.sub(
+                                ' \\(Dupe \\d+\\)', '', title.region_free_name
+                            )
                         else:
                             dupe_number += 1
 
@@ -1318,7 +1483,9 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput|None, confi
                         title.region_free_name = f'{title.region_free_name} (Dupe {dupe_number})'
 
                         if f'{before_rename} > {title.full_name}' not in duplicate_names:
-                            duplicate_names.add(f'{Font.warning_bold}{before_rename}{Font.warning} -> {Font.warning_bold}{title.full_name}{Font.warning}')
+                            duplicate_names.add(
+                                f'{Font.warning_bold}{before_rename}{Font.warning} -> {Font.warning_bold}{title.full_name}{Font.warning}'
+                            )
 
                 original_titles[title.group_name].add(title)
 
@@ -1333,12 +1500,14 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput|None, confi
             input_dat.contents_dict = original_titles
 
             if not (config.user_input.trace or config.user_input.single_cpu):
-                bar() # type: ignore
+                bar()  # type: ignore
 
             if duplicate_names:
                 printwrap(
                     f'{Font.warning}* The following titles with identical names were found in '
-                    'the input DAT, and will be renamed. They won\'t be processed as clones:', 'error')
+                    'the input DAT, and will be renamed. They won\'t be processed as clones:',
+                    'error',
+                )
 
                 eprint('')
 
@@ -1350,23 +1519,24 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput|None, confi
         eprint('\033[F\033[K* Processing DAT file... done.\n', end='')
     else:
         eprint('failed.')
-        if (
-            '<game' not in input_dat.contents
-            or '<machine' not in input_dat.contents):
+        if '<game' not in input_dat.contents or '<machine' not in input_dat.contents:
             printwrap(
                 f'{Font.error_bold}* "{dat_file}"{Font.error} is empty '
                 f'- no titles found.'
-                f'{next_status}{Font.end}', 'error')
+                f'{next_status}{Font.end}',
+                'error',
+            )
         else:
             printwrap(
-                f'{Font.error_bold}* "{dat_file}"{Font.error} isn\'t a '
-                f'compatible DAT file.{next_status}{Font.end}', 'error')
+                f'{Font.error_bold}* "{dat_file}"{Font.error} isn\'t a compatible DAT file.{next_status}{Font.end}',
+                'error',
+            )
 
         if input_type == 'file':
             if gui_input:
                 raise ExitRetool
             else:
-                sys.exit()
+                sys.exit(1)
         else:
             input_dat.end = True
             return input_dat

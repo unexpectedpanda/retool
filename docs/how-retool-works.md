@@ -6,11 +6,11 @@ hide:
 # How Retool works
 
 This is a technical piece, and is best suited to developers who want to create similar
-functionality for their tools. It's correct as of Retool v2.02.0.
+functionality for their tools. It's correct as of Retool v2.02.2.
 
 Retool has two primary functions:
 
-1.  To filter DATs based on user criteria, including:
+1.  To filter DAT files based on user criteria, including:
 
     * Language preference
 
@@ -22,7 +22,7 @@ Retool has two primary functions:
 
 1.  To discover titles that have relationships with each other, and use that to implement
     [1G1R](terminology.md#1g1r). It does not make use of existing parent/clone data found
-    in DATs.
+    in DAT files.
 
 Retool uses the following data sources to achieve this:
 
@@ -46,8 +46,8 @@ like filters that remove candidates that don't meet specific criteria.
 !!! note "A note about updating clone lists and metadata"
     Clone lists and metadata need to be kept regularly up to date to ensure Retool's
     effectiveness. When they stop updating, Retool gradually becomes less accurate over
-    time as changes are made to DATs. Automatic detection picks up a lot, but it's not
-    foolproof, especially as vital information is regularly missing from the DATs
+    time as changes are made to DAT files. Automatic detection picks up a lot, but it's
+    not foolproof, especially as vital information is regularly missing from the DAT files
     themselves.
 
     Users are more likely to notice when Retool gets out of sync with No-Intro than
@@ -64,7 +64,7 @@ like filters that remove candidates that don't meet specific criteria.
     with multiple contributors who don't necessarily agree on how a title should be named
     or classified.
 
-    This means that every now and then No-Intro makes awide-ranging change that breaks
+    This means that every now and then No-Intro makes a wide-ranging change that breaks
     things, which can mean updates are required for clone lists, metadata files, the
     Retool application, or sometimes all three. It also means that the ideal cadence for
     Retool's No-Intro updates is every few weeks, a pace that's hard to keep for a site
@@ -216,9 +216,11 @@ how Retool interprets it:
 
 !!! tip
     When debugging, if you run the CLI version of Retool with the `--singlecpu` flag, you
-    can use `input(<TITLE_OBJECT_NAME>)` to print a title object to screen that looks like
-    the previous example. This can give you insight as to what a title's object looks like
-    as it goes through through Retool's process. The `--singlecpu` flag is required because `input()` doesn't play well when multi-processing is on.
+    can use `input(<TITLE_OBJECT_NAME>)` in the Python code to print a title object to
+    screen that looks like the previous example. This can give you insight as to what a
+    title's object looks like as it goes through through Retool's process. The
+    `--singlecpu` flag is required because `input()` doesn't play well when
+    multi-processing is on.
 
 This object is what's primarily used to compare titles against each other, and is updated
 as Retool operates.
@@ -243,17 +245,17 @@ Here's how it's built:
        <br>
        If a numbered DAT file is in use, the original full name is stored in
        `numbered_name`, which is only used again when the output DAT file is written. The
-       `full_name` gets set to the `numbered_name` stripped of the release number, which
-       is always just the first 7 characters. This is so the release numbers don't
-       influence comparison later on. No-Intro metadata also doesn't include the release
-       number, so this name is required for metadata lookup.
+       `full_name` gets set to the `numbered_name` stripped of the first 7 characters,
+       which is the number prefix. This is so the release numbers don't influence
+       comparison later on. No-Intro metadata also doesn't include the release number, so
+       this name is required for metadata lookup.
 1.  Language codes are retrieved from the full name and stored in `languages_title` as a
-    tuple, and `languages_title_orig_str` as a string using a regular expression. This
-    doesn't just involve individual language codes: No-Intro Game Boy Advance titles can
-    assign languages to a compilation's constituent titles in the following format:
-    `(En+En,De)`, meaning many language combinations need to be taken into account to
-    capture everything. As such, the languages regular expression is generated using the
-    following template: <br>
+    tuple, and `languages_title_orig_str` as a string that's found by using a regular
+    expression. This doesn't just involve searching for individual language codes:
+    No-Intro Game Boy Advance titles can assign languages to a compilation's constituent
+    titles in the following format: `(En+En,De)`, meaning many language combinations need
+    to be taken into account to capture everything. As such, the languages regular
+    expression is generated using the following template:<br>
     ```
     '\(((' + LANGUAGES + ')(,\s?)?)*\)'
     ```
@@ -270,13 +272,13 @@ Here's how it's built:
 1.  Regions are retrieved from the full name using the region order found in the
     `defaultRegionOrder` key in `config/internal-config.json`. The `primary_region` is
     also defined, based on the highest match found in the user's region order.
-1.  The languages are retrieved for the matching title from the metadata, and stored in
+1.  The languages are retrieved from the matching title in the metadata, and stored in
     `languages_online`.
 1.  The [implied language](terminology.md#implied-languages) is set based on
     `primary_region`. Implied languages are stored in the `defaultRegionOrder` key in
     `config/internal-config.json`.
-1.  The canonical languages for the title are set in `languages`. This is done in the
-    following priority order:
+1.  The canonical languages for the title are set in `languages`. The canonical languages
+    are chosen from one of the following language sets, in priority order:
     1.  Languages taken from metadata, if they exist or don't equal `nolang`.
     1.  Languages taken from the title full name.
     1.  The implied language for the title.
@@ -290,8 +292,8 @@ Here's how it's built:
     [Short names](naming-system.md#short-names) for more on how this is generated.
 1.  The region-free name is generated. This is the same as the full name, but with regions
     and languages removed. It is most useful in clone lists when you need more precision
-    than a short name, and [`filters`](contribute-clone-lists-variants-filters.md) might
-    not be as elegant a solution.
+    than a short name, and when [`filters`](contribute-clone-lists-variants-filters.md)
+    aren't an elegant solution.
 1.  The group name is created. See [Group names](naming-system.md#group-names) for more on
     how this is generated.
 1.  [Local names](contribute-clone-lists-variants-local.md) are imported from metadata
@@ -313,9 +315,9 @@ Here's how it's built:
         categories of `Console` are renamed to `BIOS`.
     *   The `Applications` category is added to titles whose full name matches the regex
         pattern `\((?:Test )?Program\)|(Check|Sample) Program`.
-    *   The `BIOS` category is added to titles whose full name has a match in the
+    *   The `BIOS` category is added to titles whose full name matches the
         case-insensitive regex pattern `\[BIOS\]|\(Enhancement Chip\)`.
-    *   The `Demos` category is added to titles whose full name has a match in any of the
+    *   The `Demos` category is added to titles whose full name matches any of the
         following case-insensitive regex patterns:
         *   `\((?:\w[-.]?\s*)*Demo(?:,?\s[\w0-9\.]*)*\)`
         *   `Taikenban`
@@ -326,24 +328,24 @@ Here's how it's built:
         *   `Trial (Disc|Edition|Version|ver\.)`
         *   `\((?:Full )?Trial\)`
         *   `\((?:\w-?\s*)*?Kiosk,?(?:\s\w*?)*\)|Kiosk Demo Disc|(PSP System|PS2) Kiosk`
-    *   The `Multimedia` category is added to titles whose full name has a match in the
+    *   The `Multimedia` category is added to titles whose full namematches the
         case-insensitive regex pattern `\(Magazine\)`.
-    *   The `Preproduction` category is added to titles whose full name has a match in any
+    *   The `Preproduction` category is added to titles whose full name matches any
         of the following case-insensitive regex patterns:
         *   `\((?:\w*?\s)*Alpha(?:\s\d+)?\)`
         *   `\((?:\w*?\s)*Beta(?:\s\d+)?\)`
         *   `\((?:\w*?\s)*Proto(?:type)?(?:\s\d+)?\)`
         *   `\((?:Pre-production|Prerelease)\)`
         *   `\(DEV|DEBUG\)`
-    *   The `Video` category is added to titles whose full name has a match in any of the
+    *   The `Video` category is added to titles whose full name matches any of the
         following case-insensitive regex patterns:
         *   `Game Boy Advance Video`
         *   `- (Preview|Movie) Trailer`
         *   `\((?:\w*\s)*Trailer(?:s|\sDisc)?(?:\s\w*)*\)`
 1.  If a title has a category of `Demo`, but it doesn't have a `(Demo)` or similar tag in
     the full name, Retool adds the `(demo)` tag to both `short_name` and `region_free`
-    name, so demos don't get mixed up with retail titles. The tags Retool looks for are
-    the same as the ones it uses for auto-assigning the `Demos` category.
+    name, so demos don't get mixed up with retail titles. The demo tags Retool looks for
+    are the same as the ones it uses for auto-assigning the `Demos` category.
 1.  The title's `region_priority` is a 0-index number based on the user's region order and
     what's stored in `primary_region`. Lower is better. For example, if a user sets USA
     followed by Europe as their region order, and the title's primary region is `USA`, its
@@ -352,8 +354,8 @@ Here's how it's built:
 1.  The title's `language_priority` is a 0-index number based on the user's language order
     and what's stored in `languages`. Lower is better. If the title supports multiple
     languages, the highest priority language is used for this number. If the user hasn't
-    provided a language order, and order is inferred using implied languages based on
-    their region order. For example, if a user sets English followed by Japanese as their
+    provided a language order, an order is inferred using implied languages based on their
+    region order. For example, if a user sets English followed by Japanese as their
     language order, and the title's top language is English, its `language_priority` is
     set to `0`. If the title's top language is Japanese, it's set to `1`.
 
@@ -373,16 +375,4 @@ A copy of this dictionary is made after it is initially created as an original v
 that is never modified, in case a user tries to force include titles and Retool needs
 to quickly retrieve those details.
 
-
-
 ## Stage 2: Supplementing the data with clone lists
-
-
-
-## Automatic clone detection
-
-## Clone lists
-
-## Metadata
-
-## Language and region priority

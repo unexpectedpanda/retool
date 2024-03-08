@@ -2189,7 +2189,7 @@ expansion packs and additional materials for titles</string>
                           <string>Exclude titles with the DAT category &quot;Demos&quot; or with the following
 text in the name:
 
-• @barai
+• (@barai)
 • (Demo [1-9])
 • (Demo-CD)
 • (GameCube Preview)
@@ -2374,7 +2374,13 @@ could contain demos, or rarely, full games</string>
                        <item row="11" column="2">
                         <widget class="QCheckBox" name="checkBoxGlobalExcludeVideo">
                          <property name="toolTip">
-                          <string>Exclude titles with the DAT category &quot;Video&quot;</string>
+                          <string>Exclude titles with the DAT category &quot;Video&quot; or with the following
+text in the name:
+
+• (Game Boy Advance Video)
+• (Preview Trailer)
+• (Movie Trailer)
+• (Trailer)</string>
                          </property>
                          <property name="text">
                           <string>Video</string>
@@ -2421,8 +2427,7 @@ following text in the name:
 • (Beta [0-99])
 • (Pre-Production)
 • (Possible Proto)
-• (Proto [0-99])
-• (Review Code)</string>
+• (Proto [0-99])</string>
                          </property>
                          <property name="text">
                           <string>Preproduction</string>
@@ -3672,7 +3677,7 @@ Retool assumes uncategorized titles are games</string>
                         <property name="geometry">
                          <rect>
                           <x>0</x>
-                          <y>-145</y>
+                          <y>0</y>
                           <width>573</width>
                           <height>812</height>
                          </rect>
@@ -7620,7 +7625,7 @@ text in the name:
                            <string>Exclude titles with the DAT category &quot;Demos&quot; or with the following
 text in the name:
 
-• @barai
+• (@barai)
 • (Demo [1-9])
 • (Demo-CD)
 • (GameCube Preview)
@@ -7788,7 +7793,13 @@ expansion packs and additional materials for titles</string>
                         <item row="10" column="2">
                          <widget class="QCheckBox" name="checkBoxSystemExcludeVideo">
                           <property name="toolTip">
-                           <string>Exclude titles with the DAT category &quot;Video&quot;</string>
+                           <string>Exclude titles with the DAT category &quot;Video&quot; or with the following
+text in the name:
+
+• (Game Boy Advance Video)
+• (Preview Trailer)
+• (Movie Trailer)
+• (Trailer)</string>
                           </property>
                           <property name="text">
                            <string>Video</string>
@@ -7835,8 +7846,7 @@ following text in the name:
 • (Beta [0-99])
 • (Pre-Production)
 • (Possible Proto)
-• (Proto [0-99])
-• (Review Code)</string>
+• (Proto [0-99])</string>
                           </property>
                           <property name="text">
                            <string>Preproduction</string>
@@ -8579,8 +8589,8 @@ Retool assumes uncategorized titles are games</string>
                          <rect>
                           <x>0</x>
                           <y>0</y>
-                          <width>590</width>
-                          <height>394</height>
+                          <width>169</width>
+                          <height>559</height>
                          </rect>
                         </property>
                         <property name="minimumSize">
@@ -8891,8 +8901,8 @@ Retool assumes uncategorized titles are games</string>
                          <rect>
                           <x>0</x>
                           <y>0</y>
-                          <width>590</width>
-                          <height>394</height>
+                          <width>391</width>
+                          <height>383</height>
                          </rect>
                         </property>
                         <property name="sizePolicy">
@@ -9310,7 +9320,7 @@ Retool assumes uncategorized titles are games</string>
                          <rect>
                           <x>0</x>
                           <y>0</y>
-                          <width>573</width>
+                          <width>424</width>
                           <height>777</height>
                          </rect>
                         </property>

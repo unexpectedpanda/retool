@@ -1,69 +1,77 @@
-import darkdetect #type: ignore
 import html
 import pathlib
 import re
-import validators # type: ignore
-
 from typing import Any
 
+import darkdetect  # type: ignore
+import validators  # type: ignore
 from PySide6 import QtCore as qtc
 from PySide6 import QtWidgets as qtw
 
-from modules.constants import *
+import modules.constants as const
 from modules.config import Config
-from modules.gui.retool_about import Ui_AboutWindow # type: ignore
-from modules.gui.retool_settings import Ui_Settings # type: ignore
-from modules.gui.retool_clone_list_name import Ui_CloneListNameTool # type: ignore
 from modules.gui.custom_widgets import ElisionLabel
 from modules.gui.gui_config import write_config
 from modules.gui.gui_utils import set_fonts, set_path
+from modules.gui.retool_about import Ui_AboutWindow  # type: ignore
+from modules.gui.retool_clone_list_name import Ui_CloneListNameTool  # type: ignore
+from modules.gui.retool_settings import Ui_Settings  # type: ignore
 from modules.titletools import TitleTools
 
 
 class AboutWindow(qtw.QDialog):
     def __init__(self, parent: Any = None) -> None:
-        """ The "About" window for Retool.
+        """
+        The "About" window for Retool.
 
         Args:
-            - `parent (Any)` The parent window that called this one. Important so the
-              modal doesn't turn up on the taskbar, and makes the parent
-              inaccessible while the modal is open. Defaults to `None`.
+            parent (Any): The parent window that called this one. Important so the
+            modal doesn't turn up on the taskbar, and makes the parent
+            inaccessible while the modal is open. Defaults to `None`.
 
-            - `version (str)` The GUI version.
+            version (str): The GUI version.
         """
-
-        super(AboutWindow, self).__init__(parent)
+        super().__init__(parent)
         self.ui = Ui_AboutWindow()
         self.ui.setupUi(self)
 
         # Change link colors if dark mode is detected
         if darkdetect.isDark():
-            self.ui.labelName.setText(self.ui.labelName.text().replace('color:#0000ff', 'color:#47aae9'))
-            self.ui.labelCreditIcons8.setText(self.ui.labelCreditIcons8.text().replace('color:#0000ff', 'color:#47aae9', ))
+            self.ui.labelName.setText(
+                self.ui.labelName.text().replace('color:#0000ff', 'color:#47aae9')
+            )
+            self.ui.labelCreditIcons8.setText(
+                self.ui.labelCreditIcons8.text().replace(
+                    'color:#0000ff',
+                    'color:#47aae9',
+                )
+            )
 
         # Fix the fonts
         set_fonts(self)
 
         # Set Retool versions
-        self.ui.labelVersion.setText(f'Version: {VERSION_MAJOR}.{VERSION_MINOR}')
+        self.ui.labelVersion.setText(f'Version: {const.VERSION_MAJOR}.{const.VERSION_MINOR}')
 
 
 class SettingsWindow(qtw.QDialog):
-    def __init__(self, dat_details: dict[str, dict[str, str]], config: Config, parent: Any = None) -> None:
-        """ The "Settings" window for Retool.
+    def __init__(
+        self, dat_details: dict[str, dict[str, str]], config: Config, parent: Any = None
+    ) -> None:
+        """
+        The "Settings" window for Retool.
 
         Args:
-            - `dat_details (dict[str, dict[str, str]])` The dictionary that carries DAT
-              file details like its system name and filepath.
+            dat_details (dict[str, dict[str, str]]): The dictionary that carries DAT
+            file details like its system name and filepath.
 
-            - `config (Config)` The Retool config object.
+            config (Config): The Retool config object.
 
-            - `parent (Any)` The parent window that called this one. Important so the modal
-              doesn't turn up on the taskbar, and makes the parent inaccessible while the
-              modal is open. Defaults to `None`.
+            parent (Any): The parent window that called this one. Important so the modal
+            doesn't turn up on the taskbar, and makes the parent inaccessible while the
+            modal is open. Defaults to `None`.
         """
-
-        super(SettingsWindow, self).__init__(parent)
+        super().__init__(parent)
         self.ui = Ui_Settings()
         self.ui.setupUi(self)
 
@@ -74,17 +82,21 @@ class SettingsWindow(qtw.QDialog):
         # the parent is wrong), so we have to do it manually
         self.ui.labelCloneListsLocation.hide()
         self.ui.labelCloneListsLocation.deleteLater()
-        self.ui.labelCloneListsLocation = ElisionLabel('', mode=qtc.Qt.ElideLeft, parent=self.ui.frameCloneListsLocation) # type: ignore
-        self.ui.labelCloneListsLocation.setText(qtc.QCoreApplication.translate('Settings', u'No clone list folder selected', None))
-        self.ui.labelCloneListsLocation.setObjectName(u'labelCloneListsLocation')
+        self.ui.labelCloneListsLocation = ElisionLabel('', mode=qtc.Qt.ElideLeft, parent=self.ui.frameCloneListsLocation)  # type: ignore
+        self.ui.labelCloneListsLocation.setText(
+            qtc.QCoreApplication.translate('Settings', 'No clone list folder selected', None)
+        )
+        self.ui.labelCloneListsLocation.setObjectName('labelCloneListsLocation')
         self.ui.labelCloneListsLocation.setGeometry(qtc.QRect(50, 20, 531, 20))
         self.ui.labelCloneListsLocation.setStyleSheet('color: #777')
 
         self.ui.labelMetadataLocation.hide()
         self.ui.labelMetadataLocation.deleteLater()
-        self.ui.labelMetadataLocation = ElisionLabel('', mode=qtc.Qt.ElideLeft, parent=self.ui.frameMetadataLocation) # type: ignore
-        self.ui.labelMetadataLocation.setText(qtc.QCoreApplication.translate('Settings', u'No metadata folder selected', None))
-        self.ui.labelMetadataLocation.setObjectName(u'labelMetadataLocation')
+        self.ui.labelMetadataLocation = ElisionLabel('', mode=qtc.Qt.ElideLeft, parent=self.ui.frameMetadataLocation)  # type: ignore
+        self.ui.labelMetadataLocation.setText(
+            qtc.QCoreApplication.translate('Settings', 'No metadata folder selected', None)
+        )
+        self.ui.labelMetadataLocation.setObjectName('labelMetadataLocation')
         self.ui.labelMetadataLocation.setGeometry(qtc.QRect(50, 20, 531, 20))
         self.ui.labelMetadataLocation.setStyleSheet('color: #777')
 
@@ -92,19 +104,38 @@ class SettingsWindow(qtw.QDialog):
         set_fonts(self)
 
         # Get the values from the user config
-        self.ui.labelCloneListsLocation.setText(str(pathlib.Path(parent.clone_lists_folder).resolve()))
+        self.ui.labelCloneListsLocation.setText(
+            str(pathlib.Path(parent.clone_lists_folder).resolve())
+        )
         self.ui.labelMetadataLocation.setText(str(pathlib.Path(parent.metadata_folder).resolve()))
         self.ui.lineEditCloneListDownloadLocation.setText(parent.clone_list_metadata_url)
 
         # Set up the interactions
-        self.ui.buttonChooseCloneListsLocation.clicked.connect(lambda: set_path(parent, parent.clone_lists_folder, self.ui.labelCloneListsLocation, 'clone_lists_folder', input_type='folder'))
-        self.ui.buttonChooseMetadataLocation.clicked.connect(lambda: set_path(parent, parent.metadata_folder, self.ui.labelMetadataLocation, 'metadata_folder', input_type='folder'))
+        self.ui.buttonChooseCloneListsLocation.clicked.connect(
+            lambda: set_path(
+                parent,
+                parent.clone_lists_folder,
+                self.ui.labelCloneListsLocation,
+                'clone_lists_folder',
+                input_type='folder',
+            )
+        )
+        self.ui.buttonChooseMetadataLocation.clicked.connect(
+            lambda: set_path(
+                parent,
+                parent.metadata_folder,
+                self.ui.labelMetadataLocation,
+                'metadata_folder',
+                input_type='folder',
+            )
+        )
 
         def url_entry(url: str) -> None:
-            """ Validates a URL, writes to config accordingly.
+            """
+            Validates a URL, writes to config accordingly.
 
             Args:
-                - `url (str)` The URL to validate.
+                url (str): The URL to validate.
             """
             if not url:
                 parent.clone_list_metadata_url = config.clone_list_metadata_download_location
@@ -117,17 +148,27 @@ class SettingsWindow(qtw.QDialog):
                 else:
                     self.ui.labelURLError.show()
 
-        self.ui.lineEditCloneListDownloadLocation.keyPressed.connect(lambda: url_entry(self.ui.lineEditCloneListDownloadLocation.text()))
+        self.ui.lineEditCloneListDownloadLocation.keyPressed.connect(
+            lambda: url_entry(self.ui.lineEditCloneListDownloadLocation.text())
+        )
 
         # Set up config writing
-        self.ui.buttonChooseCloneListsLocation.clicked.connect(lambda: write_config(parent, dat_details, config, self))
-        self.ui.buttonChooseMetadataLocation.clicked.connect(lambda: write_config(parent, dat_details, config, self))
+        self.ui.buttonChooseCloneListsLocation.clicked.connect(
+            lambda: write_config(parent, dat_details, config, self)
+        )
+        self.ui.buttonChooseMetadataLocation.clicked.connect(
+            lambda: write_config(parent, dat_details, config, self)
+        )
 
         def reset_config() -> None:
-            """ Resets the settings window when the reset button is clicked. """
-            self.ui.labelCloneListsLocation.setText(str(pathlib.Path(config.path_clone_list).resolve()))
+            """Resets the settings window when the reset button is clicked."""
+            self.ui.labelCloneListsLocation.setText(
+                str(pathlib.Path(config.path_clone_list).resolve())
+            )
             self.ui.labelMetadataLocation.setText(str(pathlib.Path(config.path_metadata).resolve()))
-            self.ui.lineEditCloneListDownloadLocation.setText(config.clone_list_metadata_download_location)
+            self.ui.lineEditCloneListDownloadLocation.setText(
+                config.clone_list_metadata_download_location
+            )
             parent.clone_lists_folder = config.path_clone_list
             parent.metadata_folder = config.path_metadata
             parent.clone_list_metadata_url = config.clone_list_metadata_download_location
@@ -144,16 +185,17 @@ class TitleToolWindow(qtw.QMainWindow):
         region-free name.
 
         Args:
-            - `config (Config)` The Retool config object.
+            config (Config): The Retool config object.
         """
-
-        super(TitleToolWindow, self).__init__()
+        super().__init__()
         self.ui = Ui_CloneListNameTool()
         self.ui.setupUi(self)
 
         # Change link and field colors if dark mode is detected
         if darkdetect.isDark():
-            self.ui.labelContribute.setText(self.ui.labelContribute.text().replace('color:#0000ff', 'color:#47aae9'))
+            self.ui.labelContribute.setText(
+                self.ui.labelContribute.text().replace('color:#0000ff', 'color:#47aae9')
+            )
             dark_mode_disabled_line_edit = '''
                 QLineEdit{
                     background-color: #4a4a4a;
@@ -172,33 +214,43 @@ class TitleToolWindow(qtw.QMainWindow):
                         QCheckBox::indicator { width: 16px; height: 16px;}
                         '''
 
-        checkboxes = self.ui.centralwidget.findChildren(qtw.QCheckBox, qtc.QRegularExpression('(checkBox.*)'))
+        checkboxes = self.ui.centralwidget.findChildren(
+            qtw.QCheckBox, qtc.QRegularExpression('(checkBox.*)')
+        )
         for checkbox in checkboxes:
             checkbox.setStyleSheet(checkbox_style)
 
         def update_names() -> None:
-            """ Grabs the different name variants of the title the user entered and
+            """
+            Grabs the different name variants of the title the user entered and
             populates the fields.
             """
-
             demo_string: str = ''
-            if (
-                self.ui.checkBoxDemos.isChecked()
-                and self.ui.lineEditEnterName.text()):
-                    is_demo: bool = False
+            if self.ui.checkBoxDemos.isChecked() and self.ui.lineEditEnterName.text():
+                is_demo: bool = False
 
-                    for demo_regex in config.regex.demos:
-                        if re.search(demo_regex, self.ui.lineEditEnterName.text()):
-                            is_demo = True
+                for demo_regex in config.regex.demos:
+                    if re.search(demo_regex, self.ui.lineEditEnterName.text()):
+                        is_demo = True
 
-                    if not is_demo:
-                        demo_string = ' (Demo)'
+                if not is_demo:
+                    demo_string = ' (Demo)'
 
-            tags: set[str] = set([f'({x}' for x in html.unescape(self.ui.lineEditEnterName.text()).split(' (')][1:None])
+            tags: set[str] = set(
+                [f'({x}' for x in html.unescape(self.ui.lineEditEnterName.text()).split(' (')][
+                    1:None
+                ]
+            )
 
-            self.ui.lineEditShortName.setText(f'{TitleTools.get_short_name(html.unescape(self.ui.lineEditEnterName.text()), tags, config)}{demo_string.lower()}')
-            self.ui.lineEditGroupName.setText(TitleTools.get_group_name(html.unescape(self.ui.lineEditEnterName.text()), config))
-            self.ui.lineEditRegionFreeName.setText(f'{TitleTools.get_region_free_name(html.unescape(self.ui.lineEditEnterName.text()), tags, config)}{demo_string}')
+            self.ui.lineEditShortName.setText(
+                f'{TitleTools.get_short_name(html.unescape(self.ui.lineEditEnterName.text()), tags, config)}{demo_string.lower()}'
+            )
+            self.ui.lineEditGroupName.setText(
+                TitleTools.get_group_name(html.unescape(self.ui.lineEditEnterName.text()), config)
+            )
+            self.ui.lineEditRegionFreeName.setText(
+                f'{TitleTools.get_region_free_name(html.unescape(self.ui.lineEditEnterName.text()), tags, config)}{demo_string}'
+            )
 
         self.ui.lineEditEnterName.keyPressed.connect(update_names)
         self.ui.checkBoxDemos.clicked.connect(update_names)

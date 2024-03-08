@@ -20,7 +20,7 @@ from PySide6.QtWidgets import (QApplication, QDialog, QFrame, QGridLayout,
     QSpacerItem, QWidget)
 
 from modules.gui.custom_widgets import (CustomLineEdit, ElisionLabel)
-from . import resources_rc
+import resources_rc
 
 class Ui_Settings(object):
     def setupUi(self, Settings):

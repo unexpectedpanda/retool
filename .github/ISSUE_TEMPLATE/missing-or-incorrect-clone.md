@@ -11,6 +11,7 @@ assignees: ''
 The dat name where the issue is.
 
 ## Issue
-Where possible, include URLs to a reputable source as proof, as it helps speed up verification.
+Where possible, include URLs to a reputable source as proof, as it helps speed up
+verification.
 
 * Missed or incorrect title (Europe) > Original title (USA) | https://www.wikipedia.org
