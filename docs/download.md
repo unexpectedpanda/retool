@@ -50,31 +50,25 @@ the operating system you use.
         ```
 
     1.  Install Retool's dependencies, either with Pip or
-        [Poetry](https://python-poetry.org/):
+        [Hatch](https://hatch.pypa.io/):
 
         === "Pip"
             ```
             pip install alive-progress lxml psutil pyside6 darkdetect strictyaml validators
             ```
 
-        === "Poetry"
+        === "Hatch"
 
             1.  Install Poetry if you haven't already:
 
                 ```
-                pip install poetry
+                pip install hatch
                 ```
 
-            2.  Install Retool's dependencies:
+            2.  Enter the Hatch virtual environment:
 
                 ```
-                poetry install
-                ```
-
-            3.  Enter the Poetry virtual environment:
-
-                ```
-                poetry shell
+                hatch shell
                 ```
 
         !!! info
