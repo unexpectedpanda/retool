@@ -41,6 +41,9 @@ retool = "retool:main"
 retoolgui = "retoolgui:main"
 
 # Hatch
+[tool.hatch.build.targets.wheel]
+packages = ["retool.py", "retoolgui.py", "modules"]
+
 [[tool.hatch.envs.all.matrix]]
 python = ["3.10", "3.11", "3.12"]
 
