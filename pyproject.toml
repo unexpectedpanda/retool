@@ -36,6 +36,10 @@ Source = "https://github.com/unexpectedpanda/retool"
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 
+[project.scripts]
+retool = "retool:main"
+retoolgui = "retoolgui:main"
+
 # Hatch
 [[tool.hatch.envs.all.matrix]]
 python = ["3.10", "3.11", "3.12"]
