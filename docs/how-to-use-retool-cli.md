@@ -10,10 +10,6 @@ you're new to DAT file management, it might be beneficial to spend some time rea
 [terminology](terminology.md), and after you've filtered a DAT file with Retool, check
 out the help documentation for your favorite ROM manager to learn how to use it.
 
-!!! Info
-    Depending on your operating system, all Python commands in this guide might need to be
-    prefixed with `python` or `python3` to work.
-
 ## Get started
 
 The following sections cover the initial setup for Retool.
@@ -40,14 +36,14 @@ In your terminal/Command Prompt, change the folder to where Retool is installed,
 then run the following command:
 
 ```
-retool.py -h
+retool -h
 ```
 
 This shows all the options available to you.
 
 To process a DAT file without any options, enter the following command:
 
-<pre><code>retool.py <span class="variable">PATH_TO_DAT_FILE</span></code></pre>
+<pre><code>retool <span class="variable">PATH_TO_DAT_FILE</span></code></pre>
 
 ## The user-config.yaml file
 

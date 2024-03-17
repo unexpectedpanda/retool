@@ -27,8 +27,8 @@ the operating system you use.
     1.  In that folder, double click `retoolgui.exe`. A Command Prompt window opens, which
         shows the output when Retool is running. Don't close it, as this also closes the
         GUI.
-    1.  Click **File > Update clone lists** to download the latest clone lists and metadata
-        files.
+    1.  Click **File > Update clone lists** to download the latest clone lists and
+        metadata files.
 
     !!! note
         Retool's binary is [UPX packed](https://upx.github.io/) to reduce its size on
@@ -49,8 +49,7 @@ the operating system you use.
         git clone https://github.com/unexpectedpanda/retool.git
         ```
 
-    1.  Install Retool's dependencies, either with Pip or
-        [Hatch](https://hatch.pypa.io/):
+    1.  Install Retool's dependencies, either with Pip or [Hatch](https://hatch.pypa.io/):
 
         === "Pip"
             ```
@@ -71,18 +70,11 @@ the operating system you use.
                 hatch shell
                 ```
 
-                !!! info
-                    To exit the environment at any time, run the `exit` command.
-
-            1.  Install Retool's dependencies in the environment:
-
-                ```
-                pip install .
-                ```
+                To exit the environment at any time, run the `exit` command.
 
         !!! info
-            On systems that have both Python 2 and 3 installed, you might need to run `pip3`
-            instead of `pip`.
+            On systems that have both Python 2 and 3 installed, you might need to run
+            `pip3` instead of `pip`.
 
     1.  Download the latest clone lists and metadata files:
 
