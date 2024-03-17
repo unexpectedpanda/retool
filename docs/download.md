@@ -54,21 +54,30 @@ the operating system you use.
 
         === "Pip"
             ```
-            pip install alive-progress lxml psutil pyside6 darkdetect strictyaml validators
+            pip install .
             ```
 
         === "Hatch"
 
-            1.  Install Poetry if you haven't already:
+            1.  Install Hatch if you haven't already:
 
                 ```
                 pip install hatch
                 ```
 
-            2.  Enter the Hatch virtual environment:
+            1.  Enter the Hatch virtual environment:
 
                 ```
                 hatch shell
+                ```
+
+                !!! info
+                    To exit the environment at any time, run the `exit` command.
+
+            1.  Install Retool's dependencies in the environment:
+
+                ```
+                pip install .
                 ```
 
         !!! info
@@ -78,18 +87,18 @@ the operating system you use.
     1.  Download the latest clone lists and metadata files:
 
         ```
-        retool.py --update
+        retool --update
         ```
 
         !!! info
             On some operating systems you might need to prefix Python files with `python3`
             or `python` to run them.
 
-    1.  You can now run `retool.py` or `retoolgui.py` with Python.
+    1.  You can now run `retool` or `retoolgui`.
 
     **Linux issues**
 
-    If you get a libxcb error in Linux when launching `retoolgui.py`, this fixed
+    If you get a libxcb error in Linux when launching `retoolgui`, this fixed
     the problem for me in Ubuntu 20.04:
 
     ```
