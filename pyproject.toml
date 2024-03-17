@@ -7,24 +7,24 @@ requires-python = ">=3.10"
 license = {file = "LICENSE"}
 keywords = ["filter", "1G1R", "Redump", "No-Intro", "DAT"]
 authors = [
-  {name = "unexpectedpanda", email = "fake@example.com"},
+{name = "unexpectedpanda", email = "fake@example.com"},
 ]
 classifiers = [
-  "Development Status :: 5 - Production/Stable",
-  "License :: OSI Approved :: BSD License",
-  "Operating System :: OS Independent",
-  "Programming Language :: Python :: 3.10",
-  "Programming Language :: Python :: 3.11",
-  "Programming Language :: Python :: 3.12",
+    "Development Status :: 5 - Production/Stable",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
 ]
 dependencies = [
-	"alive-progress >= 3.0.1",
-	"darkdetect >= 0.8.0",
-	"lxml >= 4.9.2",
-	"psutil >= 5.9.4",
-	"PySide6 >= 6.4.2",
-	"strictyaml >= 1.6.2",
-	"validators >= 0.20.0",
+    "alive-progress >= 3.0.1",
+    "darkdetect >= 0.8.0",
+    "lxml >= 4.9.2",
+    "psutil >= 5.9.4",
+    "PySide6 >= 6.4.2",
+    "strictyaml >= 1.6.2",
+    "validators >= 0.20.0",
 ]
 
 [project.urls]
@@ -36,35 +36,14 @@ Source = "https://github.com/unexpectedpanda/retool"
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 
-#  Poetry
-[tool.poetry]
-name = "Retool"
-version = "2.02.2"
-description = "A better filter tool for Redump and No-Intro DATs"
-authors = ["unexpectedpanda <fake@example.com>"]
-license = "BSD-3-Clause"
-readme = "readme.md"
-packages = [
-	{include = "modules"},
-	{include = "retool.py"},
-	{include = "retoolgui.py"},
-]
-
-[tool.poetry.dependencies]
-python = ">=3.10"
-strictyaml = "^1.6.2"
-lxml = "^4.9.2"
-PySide6 = "^6.4.2"
-validators = "^0.20.0"
-alive-progress = "^3.0.1"
-psutil = "^5.9.4"
-darkdetect = "^0.8.0"
-
-[tool.poetry.scripts]
+[project.scripts]
 retool = "retool:main"
 retoolgui = "retoolgui:main"
 
 # Hatch
+[tool.hatch.build.targets.wheel]
+packages = ["retool.py", "retoolgui.py", "modules"]
+
 [[tool.hatch.envs.all.matrix]]
 python = ["3.10", "3.11", "3.12"]
 
@@ -125,13 +104,13 @@ format = [
 # Hatch types setup and scripts
 [tool.hatch.envs.types]
 dependencies = [
-  "mypy>=1.8.0",
+    "mypy>=1.8.0",
 ]
 
 [tool.hatch.envs.types.scripts]
 check = [
     "mypy --strict --install-types --non-interactive --python-version=3.10 retoolgui.py tests",
-    ]
+]
 
 # Hatch tool configuration
 [tool.black]
