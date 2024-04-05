@@ -1,6 +1,6 @@
 # Set the user files and options
-VERSION_MAJOR: str = '2.02'
-VERSION_MINOR: str = '2'
+VERSION_MAJOR: str = '2.03'
+VERSION_MINOR: str = '0'
 CLONE_LIST_METADATA_DOWNLOAD_LOCATION: str = (
     'https://raw.githubusercontent.com/unexpectedpanda/retool-clonelists-metadata/main'
 )
@@ -43,3 +43,27 @@ USER_FILTER_KEY: str = 'filters'
 USER_GUI_SETTINGS_KEY: str = 'gui settings'
 SANITIZED_CHARACTERS: tuple[str, ...] = (':', '\\', '/', '<', '>', '"', '|', '?', '*')
 RESERVED_FILENAMES: tuple[str, ...] = ('con', 'prn', 'aux', 'nul', 'com[1-9]', 'lpt[1-9]')
+COMPILATIONS_DEFAULT: str = (
+    'Chooses individual titles most of the time. Only chooses compilations when they have a\n'
+    'higher region, language, or clone list priority, or contain unique titles. When choosing\n'
+    'a compilation for unique titles, if other titles in the compilation have individual\n'
+    'equivalents, the individual titles are also included, leading to some title duplication.'
+)
+COMPILATIONS_INDIVIDUAL: str = (
+    'Chooses individual titles regardless of region, language, and clone list priorities, and\n'
+    'discards compilations unless they contain unique games. You\'re likely to prefer this mode\n'
+    'if you use ROM hacks or Retro Achievements. When choosing a compilation for unique titles,\n'
+    'if other titles in the compilation have individual equivalents, the individual titles are\n'
+    'also included, leading to some title duplication.'
+)
+COMPILATIONS_KEEP: str = (
+    'Ignores the relationship between individual titles and compilations, meaning individual\n'
+    'titles are only compared against other individual titles, and compilations against other\n'
+    'compilations. This option has the most title duplication.'
+)
+COMPILATIONS_OPTIMIZE: str = (
+    'Beta, not recommended. Prefers compilations to minimize file count. While this mode can\n'
+    'save disk space, it can be hard to tell what compilations contain based on their filename.\n'
+    'This mode might not choose the most optimal solution when supersets or clone list\n'
+    'priorities are involved.'
+)

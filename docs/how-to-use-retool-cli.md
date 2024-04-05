@@ -10,6 +10,10 @@ you're new to DAT file management, it might be beneficial to spend some time rea
 [terminology](terminology.md), and after you've filtered a DAT file with Retool, check
 out the help documentation for your favorite ROM manager to learn how to use it.
 
+!!! Info
+    Depending on your operating system, all Python commands in this guide might need to be
+    prefixed with `python` or `python3` to work.
+
 ## Get started
 
 The following sections cover the initial setup for Retool.
@@ -36,7 +40,7 @@ In your terminal/Command Prompt, change the folder to where Retool is installed,
 then run the following command:
 
 ```
-retool -h
+retool.py -h
 ```
 
 This shows all the options available to you.
@@ -406,6 +410,32 @@ These options change how Retool handles certain titles.
   on the original system instead of those ripped from rereleases on platforms like
   Virtual Console and Steam. This option reverses that behavior.
 
+* **`--compilations` How compilations should be handled**
+  <br>By default, Retool chooses individual titles most of the time. It only chooses
+  compilations when they have a higher region, language, or clone list priority, or
+  contain unique titles. When choosing a compilation for unique titles, if other titles in
+  the compilation have individual equivalents, the individual titles are also included,
+  leading to some title duplication.
+  <br>
+  <br>To change this behavior, use this flag and add one of the following single letters
+  afterwards to select a mode:
+  <br>
+    * **`i` Always prefer individual titles**
+      <br>Choose individual titles regardless of region, language, and clone list
+      priorities, and discard compilations unless they contain unique games. You're likely
+      to prefer this mode if you use ROM hacks or Retro Achievements. When choosing a
+      compilation for unique titles, if other titles in the compilation have individual
+      equivalents, the individual titles are also included, leading to some title
+      duplication.
+    * **`k` Keep individual titles and compilations**
+      <br>Ignores the relationship between individual titles and compilations, meaning
+      individual titles are only compared against other individual titles, and compilations
+      against other compilations. This option has the most title duplication.
+    * **`o` Optimize for the least possible title duplication (Beta)**
+      <br>Not recommended. While this mode can save disk space, it can be hard to tell what
+      compilations contain based on their filename. This mode might not choose the optimal
+      solution when supersets or clone list priorities are involved.
+
 * **`--nooverrides` Disable global and system overrides**
   <br>Ignore both global and system overrides.
 
@@ -517,6 +547,11 @@ The available exclusions are as follows:
   suffix to each line.
 
 * **`--log` Also output a TXT file of what titles have been kept, removed, and set as clones**
+
+* **`--machine` Export each title node to the output DAT file using the MAME standard of `<machine>` instead of `<game>`**
+
+* **`--nolabelmia` Don't add MIA attributes to titles**
+  <br>Use this if you're a DATVault subscriber.
 
 * **`--originalheader` Use the original input DAT file headers in output DAT files**
   <br>Useful if you want to load Retool DAT files as an update to original Redump and No-Intro

@@ -53,7 +53,7 @@ the operating system you use.
 
         === "Pip"
             ```
-            pip install .
+            pip install alive-progress lxml psutil pyside6 darkdetect strictyaml validators
             ```
 
         === "Hatch"
@@ -79,14 +79,14 @@ the operating system you use.
     1.  Download the latest clone lists and metadata files:
 
         ```
-        retool --update
+        retool.py --update
         ```
 
         !!! info
             On some operating systems you might need to prefix Python files with `python3`
             or `python` to run them.
 
-    1.  You can now run `retool` or `retoolgui`.
+    1.  You can now run `retool.py` or `retoolgui.py`.
 
     **Linux issues**
 

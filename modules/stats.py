@@ -23,6 +23,7 @@ class Stats:
         demos_count: int = 0,
         addons_count: int = 0,
         educational_count: int = 0,
+        aftermarket_count: int = 0,
         games_count: int = 0,
         mia_count: int = 0,
         manuals_count: int = 0,
@@ -85,6 +86,9 @@ class Stats:
             educational_count (int, optional): How many educational titles were removed.
             Defaults to `0`.
 
+            aftermarket_count (int, optional): How many aftermarket titles were removed.
+            Defaults to `0`.
+
             games_count (int, optional): How many games were removed. Defaults to `0`.
 
             mia_count (int, optional): How many MIA titles were removed. Defaults to `0`.
@@ -108,7 +112,7 @@ class Stats:
             Defaults to `0`.
 
             unlicensed_count (int, optional): How many unlicensed, aftermarket, and
-            homebrew titles were removed. Defaults to `0`.
+            pirate titles were removed. Defaults to `0`.
 
             video_count (int, optional): How many video titles were removed. Defaults to
             `0`.
@@ -160,6 +164,7 @@ class Stats:
         self.demos_count: int = demos_count
         self.addons_count: int = addons_count
         self.educational_count: int = educational_count
+        self.aftermarket_count: int = aftermarket_count
         self.games_count: int = games_count
         self.mia_count: int = mia_count
         self.manuals_count: int = manuals_count
@@ -262,6 +267,9 @@ def report_stats(config: Config) -> None:
 
     if config.user_input.no_add_ons:
         eprint(f'-  Add-on titles removed: {config.stats.addons_count:,}')
+
+    if config.user_input.no_aftermarket:
+        eprint(f'-  Aftermarket titles removed: {config.stats.aftermarket_count:,}')
 
     if config.user_input.no_applications:
         eprint(f'-  Applications removed: {config.stats.applications_count:,}')
@@ -368,6 +376,7 @@ def report_stats(config: Config) -> None:
             - config.stats.coverdiscs_count
             - config.stats.demos_count
             - config.stats.educational_count
+            - config.stats.aftermarket_count
             - config.stats.games_count
             - config.stats.mia_count
             - config.stats.manuals_count

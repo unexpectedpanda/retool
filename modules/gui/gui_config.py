@@ -1,4 +1,5 @@
 import pathlib
+import re
 from typing import Any
 
 import modules.constants as const
@@ -195,6 +196,7 @@ def write_config(
 
     # Global exclude options
     exclude_add_ons: bool = main_window.ui.checkBoxGlobalExcludeAddOns.isChecked()
+    exclude_aftermarket: bool = main_window.ui.checkBoxGlobalExcludeAftermarket.isChecked()
     exclude_applications: bool = main_window.ui.checkBoxGlobalExcludeApplications.isChecked()
     exclude_audio: bool = main_window.ui.checkBoxGlobalExcludeAudio.isChecked()
     exclude_bad_dumps: bool = main_window.ui.checkBoxGlobalExcludeBadDumps.isChecked()
@@ -215,6 +217,7 @@ def write_config(
 
     # System exclude options
     system_exclude_add_ons: bool = main_window.ui.checkBoxSystemExcludeAddOns.isChecked()
+    system_exclude_aftermarket: bool = main_window.ui.checkBoxSystemExcludeAftermarket.isChecked()
     system_exclude_applications: bool = main_window.ui.checkBoxSystemExcludeApplications.isChecked()
     system_exclude_audio: bool = main_window.ui.checkBoxSystemExcludeAudio.isChecked()
     system_exclude_bad_dumps: bool = main_window.ui.checkBoxSystemExcludeBadDumps.isChecked()
@@ -242,10 +245,29 @@ def write_config(
     modern_platforms: bool = main_window.ui.checkBoxGlobalOptionsModernPlatforms.isChecked()
     demote_unlicensed: bool = main_window.ui.checkBoxGlobalOptionsDemoteUnlicensed.isChecked()
     disable_overrides: bool = main_window.ui.checkBoxGlobalOptionsDisableOverrides.isChecked()
+
+    compilations: str = ''
+
+    if main_window.ui.comboBoxGlobalChooseCompilationsMode.currentIndex() == 0:
+        compilations = ''
+        main_window.ui.labelGlobalCompilationsExplanation.setText(const.COMPILATIONS_DEFAULT)
+    elif main_window.ui.comboBoxGlobalChooseCompilationsMode.currentIndex() == 1:
+        compilations = 'i'
+        main_window.ui.labelGlobalCompilationsExplanation.setText(const.COMPILATIONS_INDIVIDUAL)
+    elif main_window.ui.comboBoxGlobalChooseCompilationsMode.currentIndex() == 2:
+        compilations = 'k'
+        main_window.ui.labelGlobalCompilationsExplanation.setText(const.COMPILATIONS_KEEP)
+    elif main_window.ui.comboBoxGlobalChooseCompilationsMode.currentIndex() == 3:
+        compilations = 'o'
+        main_window.ui.labelGlobalCompilationsExplanation.setText(const.COMPILATIONS_OPTIMIZE)
+
     split_regions: bool = main_window.ui.checkBoxGlobalOptionsSplitRegions.isChecked()
     removes_dat: bool = main_window.ui.checkBoxGlobalOptionsRemovesDat.isChecked()
+    replace_dat: bool = main_window.ui.checkBoxGlobalReplaceInputDats.isChecked()
+    reprocess: bool = main_window.ui.checkBoxGlobalOptionsAlreadyProcessed.isChecked()
     keep_removes: bool = main_window.ui.checkBoxGlobalOptionsKeepRemove.isChecked()
     use_machine: bool = main_window.ui.checkBoxGlobalOptionsUseMachine.isChecked()
+    no_label_mia: bool = main_window.ui.checkBoxGlobalOptionsNoMIA.isChecked()
     use_original_header: bool = main_window.ui.checkBoxGlobalOptionsOriginalHeader.isChecked()
     list_1g1r_names: bool = main_window.ui.checkBoxGlobalOptions1G1RNames.isChecked()
     report_warnings: bool = main_window.ui.checkBoxGlobalOptionsReportWarnings.isChecked()
@@ -286,10 +308,29 @@ def write_config(
     system_disable_overrides: bool = (
         main_window.ui.checkBoxSystemOptionsDisableOverrides.isChecked()
     )
+
+    system_compilations: str = ''
+
+    if main_window.ui.comboBoxSystemChooseCompilationsMode.currentIndex() == 0:
+        system_compilations = ''
+        main_window.ui.labelSystemCompilationsExplanation.setText(const.COMPILATIONS_DEFAULT)
+    elif main_window.ui.comboBoxSystemChooseCompilationsMode.currentIndex() == 1:
+        system_compilations = 'i'
+        main_window.ui.labelSystemCompilationsExplanation.setText(const.COMPILATIONS_INDIVIDUAL)
+    elif main_window.ui.comboBoxSystemChooseCompilationsMode.currentIndex() == 2:
+        system_compilations = 'k'
+        main_window.ui.labelSystemCompilationsExplanation.setText(const.COMPILATIONS_KEEP)
+    elif main_window.ui.comboBoxSystemChooseCompilationsMode.currentIndex() == 3:
+        system_compilations = 'o'
+        main_window.ui.labelSystemCompilationsExplanation.setText(const.COMPILATIONS_OPTIMIZE)
+
     system_split_regions: bool = main_window.ui.checkBoxSystemOptionsSplitRegions.isChecked()
     system_removes_dat: bool = main_window.ui.checkBoxSystemOptionsRemovesDat.isChecked()
+    system_replace_dat: bool = main_window.ui.checkBoxSystemReplaceInputDats.isChecked()
+    system_reprocess: bool = main_window.ui.checkBoxSystemOptionsAlreadyProcessed.isChecked()
     system_keep_removes: bool = main_window.ui.checkBoxSystemOptionsKeepRemove.isChecked()
     system_use_machine: bool = main_window.ui.checkBoxSystemOptionsUseMachine.isChecked()
+    system_no_label_mia: bool = main_window.ui.checkBoxSystemOptionsNoMIA.isChecked()
     system_use_original_header: bool = (
         main_window.ui.checkBoxSystemOptionsOriginalHeader.isChecked()
     )
@@ -397,6 +438,8 @@ def write_config(
         excludes.add('d')
     if exclude_educational:
         excludes.add('e')
+    if exclude_aftermarket:
+        excludes.add('f')
     if exclude_games:
         excludes.add('g')
     if exclude_manuals:
@@ -434,6 +477,8 @@ def write_config(
         system_excludes.add('d')
     if system_exclude_educational:
         system_excludes.add('e')
+    if system_exclude_aftermarket:
+        system_excludes.add('f')
     if system_exclude_games:
         system_excludes.add('g')
     if system_exclude_manuals:
@@ -468,14 +513,22 @@ def write_config(
         gui_settings.add('y')
     if disable_overrides:
         gui_settings.add('nooverrides')
+    if compilations:
+        gui_settings.add(f'compilations: {compilations}')
     if split_regions:
         gui_settings.add('regionsplit')
     if removes_dat:
         gui_settings.add('removesdat')
+    if replace_dat:
+        gui_settings.add('replace')
+    if reprocess:
+        gui_settings.add('reprocess')
     if keep_removes:
         gui_settings.add('log')
     if use_machine:
         gui_settings.add('machine')
+    if no_label_mia:
+        gui_settings.add('nolabelmia')
     if use_original_header:
         gui_settings.add('originalheader')
     if list_1g1r_names:
@@ -505,14 +558,22 @@ def write_config(
         system_exclusions_options.add('y')
     if system_disable_overrides:
         system_exclusions_options.add('nooverrides')
+    if system_compilations:
+        system_exclusions_options.add(f'compilations: {system_compilations}')
     if system_split_regions:
         system_exclusions_options.add('regionsplit')
     if system_removes_dat:
         system_exclusions_options.add('removesdat')
+    if system_replace_dat:
+        system_exclusions_options.add('replace')
+    if system_reprocess:
+        system_exclusions_options.add('reprocess')
     if system_keep_removes:
         system_exclusions_options.add('log')
     if system_use_machine:
         system_exclusions_options.add('machine')
+    if system_no_label_mia:
+        system_exclusions_options.add('nolabelmia')
     if system_use_original_header:
         system_exclusions_options.add('originalheader')
     if system_list_1g1r_names:
@@ -548,23 +609,33 @@ def write_config(
         'legacy',
         'log',
         'machine',
+        'nolabelmia',
         'originalheader',
         'metadata',
         'nooverrides',
         'nodtd',
         'listnames',
+        'replace',
         'regionsplit',
         'removesdat',
+        'reprocess',
         'singlecpu',
-        'trace',
         'test',
         'e',
     )
 
     user_options_list: list[str] = sorted([x for x in gui_settings if x not in hidden_options])
     system_user_options_list: list[str] = sorted(
-        [x for x in system_exclusions_options if x not in hidden_options]
+        [x for x in system_exclusions_options for x in hidden_options]
     )
+
+    # Remove dynamic entries
+    user_options_list = [
+        x for x in user_options_list if not re.search('(compilations|trace):.*?', x)
+    ]
+    system_user_options_list = [
+        x for x in system_user_options_list if not re.search('(compilations|trace):.*?', x)
+    ]
 
     if 'legacy' in gui_settings:
         user_options_list.append('x')
@@ -624,6 +695,16 @@ def write_config(
             gui_settings.add(f'metadata folder: {settings_window.ui.labelMetadataLocation.text()}')
 
         if (
+            settings_window.ui.labelQuickImportLocation.text()
+            != str(pathlib.Path(config.path_quick_import).resolve())
+            and settings_window.ui.labelQuickImportLocation.text()
+            != 'No quick import folder selected'
+        ):
+            gui_settings.add(
+                f'quick import folder: {settings_window.ui.labelQuickImportLocation.text()}'
+            )
+
+        if (
             settings_window.ui.lineEditCloneListDownloadLocation.text()
             != str(config.clone_list_metadata_download_location)
             and settings_window.ui.lineEditCloneListDownloadLocation.text() != ''
@@ -635,13 +716,14 @@ def write_config(
         # Compensate if we can't get the settings from the dialog itself
         clone_lists_folder: str = ''
         metadata_folder: str = ''
+        quick_import_folder: str = ''
         clone_list_metadata_url: str = ''
 
         if main_window.clone_lists_folder:
             clone_lists_folder = str(pathlib.Path(main_window.clone_lists_folder).resolve())
         else:
             clone_lists_folder = get_config_value(
-                config.user_gui_settings, 'clone lists folder', config.path_metadata
+                config.user_gui_settings, 'clone lists folder', config.path_clone_list
             )
 
         if main_window.metadata_folder:
@@ -649,6 +731,13 @@ def write_config(
         else:
             metadata_folder = get_config_value(
                 config.user_gui_settings, 'metadata folder', config.path_metadata
+            )
+
+        if main_window.quick_import_folder:
+            quick_import_folder = str(pathlib.Path(main_window.quick_import_folder).resolve())
+        else:
+            quick_import_folder = get_config_value(
+                config.user_gui_settings, 'quick import folder', config.path_quick_import
             )
 
         if main_window.clone_list_metadata_url:
@@ -667,6 +756,10 @@ def write_config(
             gui_settings.add(f'clone lists folder: {clone_lists_folder}')
         if metadata_folder and metadata_folder != str(pathlib.Path(config.path_metadata).resolve()):
             gui_settings.add(f'metadata folder: {metadata_folder}')
+        if quick_import_folder and quick_import_folder != str(
+            pathlib.Path(config.path_quick_import).resolve()
+        ):
+            gui_settings.add(f'quick import folder: {quick_import_folder}')
         if (
             clone_list_metadata_url
             and clone_list_metadata_url != config.clone_list_metadata_download_location
@@ -690,8 +783,12 @@ def write_config(
         overwrite=True,
     )
     if config.system_name:
+        system_config_path: str = f'{config.system_settings_path}/{config.system_name}.yaml'
+        system_config_path = str(
+            f'{pathlib.Path(config.retool_location).joinpath(system_config_path)}'
+        )
         generate_config(
-            f'{config.system_settings_path}/{config.system_name}.yaml',
+            system_config_path,
             system_languages,
             system_regions,
             system_localizations,
@@ -717,7 +814,7 @@ def write_config(
 
             main_window.ui.buttonGo.hide()
             main_window.ui.buttonStop.show()
-            main_window.ui.mainProgram.setEnabled(False)
+            main_window.ui.frame.setEnabled(False)
 
             for key in dat_details.keys():
                 dat_files.append(pathlib.Path(dat_details[key]['filepath']))
@@ -755,6 +852,7 @@ def write_config(
                     legacy=legacy_dat,
                     demote_unl=demote_unlicensed,
                     modern=modern_platforms,
+                    compilations=compilations,
                     no_applications=exclude_applications,
                     no_audio=exclude_audio,
                     no_bad_dumps=exclude_bad_dumps,
@@ -763,6 +861,7 @@ def write_config(
                     no_demos=exclude_demos,
                     no_add_ons=exclude_add_ons,
                     no_educational=exclude_educational,
+                    no_aftermarket=exclude_aftermarket,
                     no_games=exclude_games,
                     no_mia=exclude_mia,
                     no_manuals=exclude_manuals,
@@ -780,10 +879,13 @@ def write_config(
                     list_names=list_1g1r_names,
                     log=keep_removes,
                     machine_not_game=use_machine,
+                    no_label_mia=no_label_mia,
                     original_header=use_original_header,
                     output_folder_name=main_window.output_folder,
                     output_region_split=split_regions,
                     output_remove_dat=removes_dat,
+                    replace=replace_dat,
+                    reprocess_dat=reprocess,
                     verbose=report_warnings,
                     warningpause=pause_on_warnings,
                     single_cpu=disable_multiprocessor,
@@ -811,6 +913,7 @@ def write_config(
                 legacy=False,
                 demote_unl=False,
                 modern=False,
+                compilations='',
                 no_applications=False,
                 no_audio=False,
                 no_bad_dumps=False,
@@ -819,6 +922,7 @@ def write_config(
                 no_demos=False,
                 no_add_ons=False,
                 no_educational=False,
+                no_aftermarket=False,
                 no_games=False,
                 no_mia=False,
                 no_manuals=False,
@@ -836,10 +940,13 @@ def write_config(
                 list_names=False,
                 log=False,
                 machine_not_game=False,
+                no_label_mia=False,
                 original_header=False,
                 output_folder_name='',
                 output_region_split=False,
                 output_remove_dat=False,
+                replace=False,
+                reprocess_dat=False,
                 verbose=False,
                 warningpause=False,
                 single_cpu=False,

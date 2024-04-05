@@ -1,4 +1,3 @@
-import pathlib
 import threading
 from typing import Any
 
@@ -7,6 +6,20 @@ from PySide6 import QtGui as qtg
 from PySide6 import QtWidgets as qtw
 
 from modules.gui.gui_utils import set_fonts
+
+
+class CustomComboBox(qtw.QComboBox):
+    """
+    A subclassed combo box widget that ignores mouse scrolling, and passes the
+    event to the widget's parent instead.
+    """
+
+    def __init__(self, parent: Any = None) -> None:
+        super().__init__(parent)
+        self.setFocusPolicy(qtc.Qt.StrongFocus)
+
+    def wheelEvent(self, *args, **kwargs):
+        return self.parentWidget().wheelEvent(*args, **kwargs)
 
 
 class CustomLineEdit(qtw.QLineEdit):
@@ -384,15 +397,6 @@ def custom_widgets(main_window: Any) -> Any:
     """
     # DAT files list box
     main_window.ui.listWidgetOpenFiles.setDefaultDropAction(qtc.Qt.IgnoreAction)  # type: ignore
-
-    # The global output folder label doesn't want to render with promoted subclasses
-    # (likely the parent is wrong), so we have to do it manually
-    main_window.ui.labelOutputFolder.deleteLater()
-    main_window.ui.labelOutputFolder = ElisionLabel('', mode=qtc.Qt.ElideLeft, parent=main_window.ui.mainProgram)  # type: ignore
-    main_window.ui.labelOutputFolder.setObjectName("labelOutputFolder")
-    main_window.ui.labelOutputFolder.setText(str(pathlib.Path.cwd()))
-    main_window.ui.labelOutputFolder.setGeometry(qtc.QRect(60, 31, 251, 20))
-    main_window.ui.labelOutputFolder.setStyleSheet('color: #777')
 
     # Fix checkboxes, which have a weird hover effect on Windows 4k monitors on hover if
     # you don't set a size that's divisible by 4.

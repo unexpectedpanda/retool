@@ -954,18 +954,24 @@ class CloneListTools:
 
         failed: bool = False
 
-        eprint(f'* Downloading {Font.bold}{config.config_file}{Font.end}... ')
+        eprint(f'* Downloading {Font.bold}config/{config.config_file.name}{Font.end}... ')
 
         failed = download(
-            f'{download_location}/{config.config_file}', str(pathlib.Path(f'{config.config_file}'))
+            f'{download_location}/config/{config.config_file.name}',
+            str(pathlib.Path(f'{config.config_file}')),
         )
 
         if not failed:
-            eprint(f'\033[F\033[K* Downloading {Font.bold}{config.config_file}{Font.end}... done.')
+            eprint(
+                f'\033[F\033[K* Downloading {Font.bold}config/{config.config_file.name}{Font.end}... done.'
+            )
 
         eprint(f'* Downloading {Font.bold}datafile.dtd{Font.end}... ')
 
-        failed = download(f'{download_location}/datafile.dtd', str(pathlib.Path('datafile.dtd')))
+        failed = download(
+            f'{download_location}/datafile.dtd',
+            str(pathlib.Path(config.retool_location).joinpath('datafile.dtd')),
+        )
 
         if not failed:
             eprint(f'\033[F\033[K* Downloading {Font.bold}datafile.dtd{Font.end}... done.')

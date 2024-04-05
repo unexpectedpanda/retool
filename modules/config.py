@@ -173,6 +173,7 @@ class Config:
         # Store the Retool version
         self.version_major: str = version_major
         self.version_minor: str = version_minor
+        self.retool_location: pathlib.Path = pathlib.Path(sys.argv[0]).resolve().parent
 
         # Determine if STDOUT is being redirected or not
         self.stdout = False
@@ -198,13 +199,13 @@ class Config:
             missing_file: bool = False
 
             for download_file in download_files:
-                if not pathlib.Path(download_file).is_file():
+                if not pathlib.Path(self.retool_location).joinpath(download_file).is_file():
                     missing_file = True
 
             if missing_file:
                 while not download_config or not (download_config == 'y' or download_config == 'n'):
                     printwrap(
-                        f'{Font.warning_bold}Warning: {Font.warning} One or more '
+                        f'{Font.warning_bold}Warning:{Font.warning} One or more '
                         'of the following files are missing, which Retool needs '
                         'to operate:',
                         'no_indent',
@@ -226,7 +227,7 @@ class Config:
                         )
                         failed = download(
                             f'{clone_list_metadata_download_location}/{download_file}',
-                            str(pathlib.Path(download_file)),
+                            str(pathlib.Path(self.retool_location).joinpath(download_file)),
                         )
 
                         if not failed:
@@ -238,11 +239,12 @@ class Config:
                     sys.exit(1)
 
                 # Check that the files are there now for Retool to start
-                download_required_files((config_file, 'datafile.dtd'))
-
-        self.config_file: str = config_file
+                download_required_files(download_files)
 
         download_required_files((config_file, 'datafile.dtd'))
+
+        # Make sure the config file is relative to wherever Retool is located
+        self.config_file = pathlib.Path(self.retool_location).joinpath(config_file)
 
         # Import the contents of the internal config file
         self.clone_list_metadata_download_location: str = clone_list_metadata_download_location
@@ -261,7 +263,7 @@ class Config:
         self.user_config_file: str = ''
 
         try:
-            with open(pathlib.Path(config_file), encoding='utf-8') as input_file:
+            with open(self.config_file, encoding='utf-8') as input_file:
                 self.config_file_content: dict[str, Any] = json.load(input_file)
         except OSError as e:
             eprint(f'\n{Font.error_bold}* Error: {Font.end}{e!s}\n')
@@ -332,11 +334,18 @@ class Config:
         if video_order_key in self.config_file_content:
             self.video_order_default = self.config_file_content[video_order_key]
 
+        # Set up the clone list and metadata folders to be tied to where Retool is located
         if 'localDir' in self.config_file_content[clone_lists_key]:
-            self.path_clone_list = self.config_file_content[clone_lists_key]['localDir']
+            self.path_clone_list = pathlib.Path(self.retool_location).joinpath(
+                self.config_file_content[clone_lists_key]['localDir']
+            )
 
         if 'localDir' in self.config_file_content[metadata_key]:
-            self.path_metadata = self.config_file_content[metadata_key]['localDir']
+            self.path_metadata = pathlib.Path(self.retool_location).joinpath(
+                self.config_file_content[metadata_key]['localDir']
+            )
+
+        self.path_quick_import: str = ''
 
         def key_missing(section_key: str) -> None:
             """
@@ -397,13 +406,18 @@ class Config:
         else:
             user_config_file = self.user_config_file
 
+        self.user_config_file = str(pathlib.Path(self.retool_location).joinpath(user_config_file))
+        self.system_settings_path = str(
+            pathlib.Path(self.retool_location).joinpath(system_settings_path)
+        )
+
         generate_config(
-            user_config_file,
+            self.user_config_file,
             tuple(self.languages),
             tuple(self.region_order_default),
             (),
             tuple(self.video_order_default),
-            system_settings_path,
+            self.system_settings_path,
             first_run_gui=first_run_gui,
         )
 
@@ -436,7 +450,7 @@ class Config:
         user_config: YAML
 
         try:
-            with open(pathlib.Path(user_config_file), encoding='utf-8') as user_config_import:
+            with open(pathlib.Path(self.user_config_file), encoding='utf-8') as user_config_import:
                 user_config = load(str(user_config_import.read()), schema)
 
         except OSError as e:
@@ -461,13 +475,13 @@ class Config:
 
                 try:
                     with open(
-                        pathlib.Path(user_config_file), encoding='utf-8'
+                        pathlib.Path(self.user_config_file), encoding='utf-8'
                     ) as user_config_import:
                         add_filters_key: list[str] = user_config_import.readlines()
                         add_filters_key.append(f'\n\n{key_name}:')
 
                     with open(
-                        pathlib.Path(user_config_file), 'w', encoding='utf-8'
+                        pathlib.Path(self.user_config_file), 'w', encoding='utf-8'
                     ) as user_config_import:
                         user_config_import.writelines(add_filters_key)
                 except Exception as e2:
@@ -476,7 +490,7 @@ class Config:
 
                 try:
                     with open(
-                        pathlib.Path(user_config_file), encoding='utf-8'
+                        pathlib.Path(self.user_config_file), encoding='utf-8'
                     ) as user_config_import:
                         user_config = load(str(user_config_import.read()), schema)
                 except Exception as e2:
@@ -552,8 +566,6 @@ class Config:
             self.languages_filter['United Kingdom'] = self.languages_filter['UK']
 
         # Import global overrides
-        self.system_settings_path = system_settings_path
-
         self.global_exclude: list[str] = user_config.data[user_override_exclude_key]
         self.global_include: list[str] = user_config.data[user_override_include_key]
 

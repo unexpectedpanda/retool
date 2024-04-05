@@ -25,6 +25,10 @@ These options change how Retool handles certain titles.
   <br>If this option is disabled, it's because you've enabled
   **Output DAT files in legacy parent/clone format**, which isn't compatible with this feature.
 
+* **Include titles without hashes or sizes specified in input DAT files**
+  <br>Some DAT files don't list any hashes or sizes for some files, and Retool filters these
+  out by default. This option makes sure those files are kept.
+
 * **Prefer regions over languages**
   <br>By default, if a title from a higher priority region doesn't support your preferred
   languages but a lower priority region does, Retool selects the latter. This option
@@ -36,36 +40,70 @@ These options change how Retool handles certain titles.
   instead of one that was released in another region that contains more content and
   supports your preferred languages.
 
-* **Include titles without hashes or sizes specified in input DAT files**
-  <br>Some DAT files don't list any hashes or sizes for some files, and Retool filters these
-  out by default. This option makes sure those files are kept.
-
 * **Prefer titles ripped from modern rereleases over original system releases**
   <br>For the sake of emulator compatibility, Retool prefers versions of games released
   on the original system instead of those ripped from rereleases on platforms like
   Virtual Console and Steam. This option reverses that behavior.
 
-* **Prefer licensed versions over unlicensed, aftermarket, or homebrew titles**
+* **Prefer licensed versions over unlicensed titles**
   <br>Sometimes games are rereleased long after the lifespan of a console, in regions they
   weren't originally available in. By default Retool selects these titles if they match
   your preferred region/language priorities.
   <br>
-  <br>Enable this option to choose a production version of a title over the
-  unlicensed/aftermarket/homebrew title if possible. This might select titles from a lower
-  priority region, or with lower priority languages, or with less features.
+  <br>Enable this option to choose a production version of a title over the unlicensed or
+  aftermarket title if possible. This might select titles from a lower priority region, or
+  with lower priority languages, or with less features.
 
 * **Disable global and system overrides**
   <br>Ignore both global and system overrides.
+
+## Compilations handling
+
+This option changes how compilations are managed by Retool.
+
+* **Default**
+  <br>Chooses individual titles most of the time. Only chooses compilations when they have
+  a higher region, language, or clone list priority, or contain unique titles. When
+  choosing a compilation for unique titles, if other titles in the compilation have
+  individual equivalents, the individual titles are also included, leading to some title
+  duplication.
+
+* **Prefer individual titles**
+  <br>Chooses individual titles regardless of region, language, and clone list priorities,
+  and discards compilations unless they contain unique games. You\'re likely to prefer
+  this mode if you use ROM hacks or Retro Achievements. When choosing a compilation for
+  unique titles, if other titles in the compilation have individual equivalents, the
+  individual titles are also included, leading to some title duplication.
+
+* **Keep individual titles and compilations**
+  <br>Ignores the relationship between individual titles and compilations, meaning
+  individual titles are only compared against other individual titles, and compilations
+  against other compilations. This option has the most title duplication.
+
+* **Optimize for least possible title duplication**
+  <br>**Beta**. Not recommended. Prefers compilations to minimize file count. While this
+  mode can save disk space, it can be hard to tell what compilations contain based on
+  their filename. This mode might not choose the most optimal solution when supersets or
+  clone list priorities are involved.
 
 ## Output options
 
 These options change the files that Retool outputs as part of its process.
 
-* **Use original DAT file headers in output DAT files**
-  <br>Retool generates its own header so its DATfiles are identified as different from the
-  original input DAT files. Selecting this option uses the original input DAT header
-  instead. This is useful if you already have original Redump and No-Intro DAT files in
-  CLRMAMEPro, and want to treat the Retool DAT file as an update.
+* **Allow processing of already processed files**
+  <br>Let DAT files be processed even if Retool has already processed them.
+
+* **Don't modify input DAT file's existing header fields**
+  <br>By default Retool changes header fields so you can tell in ROM managers if DAT files
+  have been modified. Enable this if you want to load Retool DAT files as updates to
+  original Redump and No-Intro DAT files already loaded in your ROM manager.
+
+* **Don't use clone lists to mark titles as MIA**
+  <br>MIA titles are scraped from Redump's wiki, however DatVault users should enable this
+  for more up-to-date information.
+
+* **Use `<machine>` instead of `<game>` in output DAT files**
+   <br>Exports each title node using the MAME standard of `<machine>` instead of `<game>`.
 
 * **Split the output into multiple DAT files based on region**
   <br>Instead of one output DAT file containing all the filtered results, split the output

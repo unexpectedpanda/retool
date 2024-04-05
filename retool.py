@@ -219,7 +219,9 @@ def main(gui_input: UserInput | None = None) -> None:
 
                 # Process the clone lists
                 if not config.user_input.no_1g1r:
-                    processed_titles = CloneListTools.mias(processed_titles, config, input_dat)
+                    if not config.user_input.no_label_mia:
+                        processed_titles = CloneListTools.mias(processed_titles, config, input_dat)
+
                     processed_titles = CloneListTools.variants(
                         processed_titles, config, input_dat, removes, is_includes=False
                     )
@@ -282,7 +284,12 @@ def main(gui_input: UserInput | None = None) -> None:
                     stats_final_count: int = 0
 
                     if config.stats.final_count != 0:
-                        WriteFiles.output(processed_titles, log, config, input_dat, removes)
+                        WriteFiles.output(
+                            processed_titles, log, config, input_dat, removes, dat_file
+                        )
+
+                        if config.user_input.replace and config.user_input.output_region_split:
+                            pathlib.Path(dat_file).unlink()
 
                         # Report the stats, and reset them for when Retool is processing a directory of DATs
                         report_stats(config)

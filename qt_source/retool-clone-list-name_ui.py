@@ -168,7 +168,7 @@ class Ui_CloneListNameTool(object):
     def retranslateUi(self, CloneListNameTool):
         CloneListNameTool.setWindowTitle(QCoreApplication.translate("CloneListNameTool", u"Title tool", None))
         self.labelContribute.setText(QCoreApplication.translate("CloneListNameTool", u"<html><head/><body><p>This tool is useful for contributing to Retool's clone lists or development. If you enter a title's full name, it shows you the other names Retool assigns to it by default as part of its matching process. <a href=\"https://unexpectedpanda.github.io/retool/naming-system/\"><span style=\" text-decoration: underline; color:#0000ff;\">Read the documentation</span></a> to learn more.</p></body></html>", None))
-        self.labelEnterName.setText(QCoreApplication.translate("CloneListNameTool", u"Enter the full name as it appears in the DAT file, or your intended group name", None))
+        self.labelEnterName.setText(QCoreApplication.translate("CloneListNameTool", u"Enter the full name as it appears in the DAT file", None))
         self.checkBoxDemos.setText(QCoreApplication.translate("CloneListNameTool", u"Title has a category of Demos (adds a tag to title names that have no recognized demo tags)", None))
         self.labelShortName.setText(QCoreApplication.translate("CloneListNameTool", u"Default short name", None))
         self.lineEditShortName.setText("")

@@ -6,7 +6,10 @@ hide:
 # How Retool works
 
 This is a technical piece, and is best suited to developers who want to create similar
-functionality for their tools. It's correct as of Retool v2.02.2.
+functionality for their tools. It's correct as of Retool v2.03.0, but isn't yet
+finished.
+
+## Overview
 
 Retool has two primary functions:
 
@@ -92,8 +95,8 @@ process.
 
 ### Building the title objects
 
-The following example shows a `<game>` node from Redump's `Sony - PlayStation` DAT file, and
-how Retool interprets it:
+The following example shows a `<game>` node from Redump's `Sony - PlayStation` DAT file,
+and how Retool interprets it as an object of the `DatNode` class:
 
 ```xml title="Metal Gear Solid (USA) (Disc 1) (Rev 1), from Redump's Sony - PlayStation DAT"
 <game name="Metal Gear Solid (USA) (Disc 1) (Rev 1)">
@@ -104,7 +107,7 @@ how Retool interprets it:
 </game>
 ```
 
-```ini title="The object Retool builds that represents Metal Gear Solid (USA) (Disc 1) (Rev 1)"
+```ini title="The <code>DatNode</code> object Retool builds that represents Metal Gear Solid (USA) (Disc 1) (Rev 1)"
 ○ full_name:                  Metal Gear Solid (USA) (Disc 1) (Rev 1) # (1)!
 ├ numbered_name:              None # (2)!
 ├ local_name:                 None # (3)!
@@ -154,8 +157,8 @@ how Retool interprets it:
     part of the code relies on it for now.
 10. A tuple of regions, extracted from the full name. The order is determined as follows:
     larger regions first that are likey to turn up in multi-region titles: `USA`, then
-    `Europe`, `Japan`, `Asia`. The rest of the order is determined by the
-    remaining regions in the `defaultRegionOrder` key found in `config/internal-config.json`.
+    `Europe`, `Japan`, `Asia`. The rest of the order is determined by the remaining
+    regions in the `defaultRegionOrder` key found in `config/internal-config.json`.
 11. The entry in the `regions` key that is the highest match in the user's region order.
     Retool uses this for initial title comparisons, bundling them into individual regions
     and choosing "winners" in each region. These regional winners ultimately get compared
@@ -179,32 +182,34 @@ how Retool interprets it:
         know where in Asia this came from". Given the languages involved, the most likely
         suspects are Hong Kong, Taiwan, or China.
 13. The original language string from the title full name. For example, a full name of
-    `Ace Combat 3 - Electrosphere (Europe) (En,Fr,De,Es,It)` has a `languages_title_orig_str`
-    of `En,Fr,De,Es,It`. It's only used to create the region-free name for the object, and
-    to figure out if the language string uses the GBA language formatting of `En+En,De`
-    for assigning different language sets to different titles inside a compilation.
+    `Ace Combat 3 - Electrosphere (Europe) (En,Fr,De,Es,It)` has a
+    `languages_title_orig_str` of `En,Fr,De,Es,It`. It's only used to create the
+    region-free name for the object, and to figure out if the language string uses the GBA
+    language formatting of `En+En,De` for assigning different language sets to different
+    titles inside a compilation.
 14. A tuple of languages as defined in the filename.
 15. A tuple of the [implied language](terminology.md#implied-languages) for the title, as
-    defined by the region. Only used as a guess at a title's language if it has no languages
-    in the filename or the metadata. Implied languages are assigned in the
+    defined by the region. Only used as a guess at a title's language if it has no
+    languages in the filename or the metadata. Implied languages are assigned in the
     `defaultRegionOrder` key in `config/internal-config.json`.
-16. A tuple of languages from the scraped Redump and No-Intro databases, stored in Retool's
-    metadata files.
-17. The canonical languages for the title. This is chosen from the following options, in this
-    order:
-    <br>
+16. A tuple of languages from the scraped Redump and No-Intro databases, stored in
+    Retool's metadata files.
+17. The canonical languages for the title. This is chosen from the following options, in
+    this order:<br>
     1. `languages_online`, if it exists.
     1. `languages_title`, if it exists.
     1. `languages_implied`, if it exists.
 18. What title full name the title is a clone of.
 19. Whether or not the title is a superset. This is important for title comparisons.
-20. If the title is a compilation, the short names of the titles that the compilation contains.
-21. The priority of the title as set in a clone list. Defaults to `1`. Lower numbers are higher
-    priorities.
+20. If the title is a compilation, the short names of the titles that the compilation
+    contains.
+21. The priority of the title as set in a clone list. Defaults to `1`. Lower numbers are
+    higher priorities.
 22. What priority the title is based on its regions, given the user's region preferences.
-23. What priority the title is based on its languages, given the user's language preferences.
-24. The reason the title was excluded from the final output. Used as a `<comment>` when someone
-    also exports a DAT file of all the titles that have been removed.
+23. What priority the title is based on its languages, given the user's language
+    preferences.
+24. The reason the title was excluded from the final output. Used as a `<comment>` when
+    someone also exports a DAT file of all the titles that have been removed.
 25. The reason the title was force included by the user in the final output. Only here for
     tracing if someone reports an issue.
 26. Whether this title is related to any other titles that have been included or excluded
@@ -214,16 +219,19 @@ how Retool interprets it:
     name, or overridden by the related clone list.
 28. The relevant content of the `<rom>` nodes for the title.
 
-!!! tip
-    When debugging, if you run the CLI version of Retool with the `--singlecpu` flag, you
-    can use `input(<TITLE_OBJECT_NAME>)` in the Python code to print a title object to
-    screen that looks like the previous example. This can give you insight as to what a
-    title's object looks like as it goes through through Retool's process. The
-    `--singlecpu` flag is required because `input()` doesn't play well when
-    multi-processing is on.
+These `DatNode` objects are what's primarily used to compare titles against each other,
+and are updated as Retool operates.
 
-This object is what's primarily used to compare titles against each other, and is updated
-as Retool operates.
+!!! tip
+    You can output a `DatNode` object to screen that looks like the previous example by
+    adding <code>input(<span class="variable">DATNODE_OBJECT_NAME</span>)</code> at
+    appropriate points in the Python code, replacing
+    <code><span class="variable">DATNODE_OBJECT_NAME</span></code> with the actual
+    object name (often `title`, `title_1`, or `title_2`). This can give you insight as
+    to what a title object looks like as it goes through through Retool's process.
+
+    Make sure to use the `--singlecpu` flag when doing this, as `input()` doesn't play
+    well with multi-processing.
 
 Here's how it's built:
 
@@ -237,12 +245,10 @@ Here's how it's built:
        ```
        0001 - F-Zero for Game Boy Advance (Japan)
        ```
-       <br>
-       Is the numbered version of:<br>
+       Is the numbered version of:
        ```
        F-Zero for Game Boy Advance (Japan)
        ```
-       <br>
        If a numbered DAT file is in use, the original full name is stored in
        `numbered_name`, which is only used again when the output DAT file is written. The
        `full_name` gets set to the `numbered_name` stripped of the first 7 characters,
@@ -259,7 +265,6 @@ Here's how it's built:
     ```
     '\(((' + LANGUAGES + ')(,\s?)?)*\)'
     ```
-    <br>
     Where `LANGUAGES` is generated by doing the following:
     *   Creating a list that contains the language values stored in the `languages` key in
         `config/internal-config.json`.
@@ -375,4 +380,4 @@ A copy of this dictionary is made after it is initially created as an original v
 that is never modified, in case a user tries to force include titles and Retool needs
 to quickly retrieve those details.
 
-## Stage 2: Supplementing the data with clone lists
+***To be continued...***

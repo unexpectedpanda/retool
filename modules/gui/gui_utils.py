@@ -46,6 +46,21 @@ def add_list_items(
     # Get the current list contents
     file_list: list[str] = [list_widget.item(x).text() for x in range(list_widget.count())]
 
+    if input_type == 'quick':
+        response = [
+            str(pathlib.Path(x).as_posix())
+            for x in pathlib.Path(main_window.quick_import_folder).glob('**/*.dat')
+        ]
+
+        if response:
+            for file in response:
+                if pathlib.Path(file).name not in file_list:
+                    dat_details[pathlib.Path(file).name] = {
+                        'system_name': get_system_name(str(pathlib.Path(file)), config),
+                        'filepath': str(pathlib.Path(file)),
+                    }
+                    list_widget.addItem(pathlib.Path(file).name)
+
     if input_type == 'files':
         response = list(qtw.QFileDialog.getOpenFileNames(main_window, filter="DAT files (*.dat)"))
 
@@ -89,14 +104,15 @@ def add_list_items(
                 list_widget.addItem(pathlib.Path(file).name)
 
     # Remove placeholder text from the list widget
-    if response[0]:
+    if response:
         try:
             placeholder_present: qtw.QListWidgetItem = list_widget.findItems('No DAT files added yet', qtc.Qt.MatchExactly)[0]  # type: ignore
             placeholder_row: int = list_widget.row(placeholder_present)
             list_widget.takeItem(placeholder_row)
-            enable_go_button(main_window)
         except Exception:
             pass
+
+        enable_go_button(main_window)
 
 
 def disable_incompatible_checkbox(
@@ -137,6 +153,28 @@ def disable_incompatible_checkbox(
                 checkbox.setEnabled(True)
 
 
+def disable_incompatible_element(
+    checkbox_select: qtw.QCheckBox, element_disable: tuple[qtw.QCheckBox, ...]
+) -> None:
+    """
+    When a checkbox is selected that's incompatible with other elements,
+    disable those other elements. Re-enable them when it's cleared.
+
+    Args:
+        checkbox_select (qtw.QCheckBox): The checkbox widget the user has interacted
+        with.
+
+        element_disable (tuple[qtw.QCheckBox, ...]): The elements that should be
+        disabled/enabled based on whether or not `checkbox_select` is selected.
+    """
+    if checkbox_select.isChecked():
+        for element in element_disable:
+            element.setEnabled(False)
+    else:
+        for element in element_disable:
+            element.setEnabled(True)
+
+
 def enable_go_button(main_window: Any) -> None:
     """
     Checks certain conditions to see if the "Process DAT files" button should be
@@ -156,17 +194,16 @@ def enable_go_button(main_window: Any) -> None:
         disabled = True
 
         message = 'You need to add DAT files to the list'
-    else:
-        if (
-            'No DAT files added yet'
-            in [
-                main_window.ui.listWidgetOpenFiles.item(x)
-                for x in range(main_window.ui.listWidgetOpenFiles.count())
-            ][0].text()
-        ):
-            disabled = True
+    elif (
+        'No DAT files added yet'
+        in [
+            main_window.ui.listWidgetOpenFiles.item(x)
+            for x in range(main_window.ui.listWidgetOpenFiles.count())
+        ][0].text()
+    ):
+        disabled = True
 
-            message = 'You need to add DAT files to the list'
+        message = 'You need to add DAT files to the list'
 
     # TODO: This gets a little more complicated with the system settings
     # Check if there's at least one region added
@@ -417,13 +454,13 @@ def remove_list_items(
                 list_widget.takeItem(list_widget.row(item))
 
     if not [list_widget.item(x) for x in range(list_widget.count())]:
-        enable_go_button(main_window)
         list_widget.addItem('No DAT files added yet')
         system_settings_widget.setText(
             'Add a DAT file, then select it in the list to enable system-specific settings.'
         )
         main_window.ui.tabWidgetSystemSettings.setCurrentIndex(0)
         main_window.ui.tabWidgetSystemSettings.setEnabled(False)
+        enable_go_button(main_window)
 
 
 def set_fonts(parent: Any) -> None:
@@ -482,9 +519,9 @@ def set_fonts(parent: Any) -> None:
             font.setPointSize(8)
             parent.ui.labelSelectOutput.setFont(font)
 
-            font = parent.ui.labelOutputFolder.font()
+            font = parent.ui.labelGlobalOutputFolder.font()
             font.setPointSize(8)
-            parent.ui.labelOutputFolder.setFont(font)
+            parent.ui.labelGlobalOutputFolder.setFont(font)
 
             font = parent.ui.buttonGlobalDefaultRegionOrder.font()
             font.setPointSize(8)
@@ -513,23 +550,33 @@ def set_path(
         input_type (str): The filter for the file dialog. Either `folder`, `yaml`, `clone`, or `metadata`.
     """
     new_path: str = '.'
+    if not current_path:
+        current_path = '.'
 
     if input_type == 'folder':
-        new_path = str(pathlib.Path(qtw.QFileDialog.getExistingDirectory()))
+        new_path = str(pathlib.Path(qtw.QFileDialog.getExistingDirectory(dir=current_path)))
     elif input_type == 'yaml':
         new_path = str(
             pathlib.Path(
-                qtw.QFileDialog.getOpenFileName(parent, filter="User config file (*.yaml)")[0]
+                qtw.QFileDialog.getOpenFileName(
+                    parent, dir=current_path, filter="User config file (*.yaml)"
+                )[0]
             )
         )
     elif input_type == 'clone':
         new_path = str(
-            pathlib.Path(qtw.QFileDialog.getOpenFileName(parent, filter="Clone list (*.json)")[0])
+            pathlib.Path(
+                qtw.QFileDialog.getOpenFileName(
+                    parent, dir=current_path, filter="Clone list (*.json)"
+                )[0]
+            )
         )
     elif input_type == 'metadata':
         new_path = str(
             pathlib.Path(
-                qtw.QFileDialog.getOpenFileName(parent, filter="Metadata file (*.json)")[0]
+                qtw.QFileDialog.getOpenFileName(
+                    parent, dir=current_path, filter="Metadata file (*.json)"
+                )[0]
             )
         )
 

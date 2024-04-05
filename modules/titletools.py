@@ -16,6 +16,7 @@ class Removes:
     def __init__(self) -> None:
         """Creates an object that contains titles that have been removed."""
         self.add_ons_removes: set[DatNode] = set()
+        self.aftermarket_removes: set[DatNode] = set()
         self.applications_removes: set[DatNode] = set()
         self.audio_removes: set[DatNode] = set()
         self.bad_dumps_removes: set[DatNode] = set()
@@ -87,6 +88,8 @@ class IncludeExcludeTools:
 
         if config.user_input.no_add_ons:
             exclude_categories.add(('Add-Ons', 'addons_count'))
+        if config.user_input.no_aftermarket:
+            exclude_titles_regex.add((config.regex.aftermarket, 'aftermarket_count', 'Aftermarket'))
         if config.user_input.no_applications:
             exclude_categories.add(('Applications', 'applications_count'))
             exclude_titles_regex.add((config.regex.programs, 'applications_count', 'Applications'))
@@ -128,8 +131,7 @@ class IncludeExcludeTools:
             exclude_titles_regex.add((config.regex.promotional, 'promotional_count', 'Promotional'))
         if config.user_input.no_unlicensed:
             exclude_categories.add(('Unlicensed', 'unlicensed_count'))
-            for unlicensed in config.regex.unl_group:
-                exclude_titles_regex.add((unlicensed, 'unlicensed_count', 'Unlicensed'))
+            exclude_titles_regex.add((config.regex.unlicensed, 'unlicensed_count', 'Unlicensed'))
         if config.user_input.no_video:
             exclude_categories.add(('Video', 'video_count'))
             for video in config.regex.video:
@@ -354,18 +356,8 @@ class IncludeExcludeTools:
 
         for exclude_title in exclude_titles:
             found_titles = TitleTools.find_title(
-                exclude_title.full_name, 'full', processed_titles, set(), config, deep_search=False
+                exclude_title.full_name, 'full', temp_dict, set(), config, deep_search=True
             )
-
-            if not found_titles:
-                found_titles = TitleTools.find_title(
-                    exclude_title.full_name,
-                    'full',
-                    processed_titles,
-                    set(),
-                    config,
-                    deep_search=True,
-                )
 
             for found_title in found_titles:
                 if found_title.group_name in processed_titles:
@@ -1050,7 +1042,6 @@ class Regex:
         self.covermount: Pattern[str] = re.compile('\\(Covermount\\)', flags=re.I)
         self.edc: Pattern[str] = re.compile('\\(EDC\\)', flags=re.I)
         self.fmtowns_marty: Pattern[str] = re.compile('\\(FM Towns Marty.*?\\)', flags=re.I)
-        self.homebrew: Pattern[str] = re.compile('\\(Homebrew\\)', flags=re.I)
         self.languages: Pattern[str] = re.compile('\\(((' + LANGUAGES + ')(,\\s?)?)*\\)')
         self.madein: Pattern[str] = re.compile('\\(Made in.*?\\)', flags=re.I)
         self.manuals: Pattern[str] = re.compile('\\(Manual\\)', flags=re.I)
@@ -1073,7 +1064,7 @@ class Regex:
             re.compile('\\(\\d{2}-\\d{2}-\\d{2}\\)'),
             re.compile('\\(\\d{4}-\\d{2}-\\d{2}T\\d{6}\\)'),
             re.compile('\\((\\d{4}-\\d{2})-xx\\)'),
-            re.compile('\\((\\d{4})-xx-xx\\)'),
+            re.compile('\\(~?(\\d{4})-xx-xx\\)'),
             re.compile(
                 '\\((January|February|March|April|May|June|July|August|September|October|November|December),\\s?\\d{4}\\)',
                 flags=re.I,
@@ -1115,7 +1106,6 @@ class Regex:
 
         self.unl_group: tuple[Pattern[str], ...] = (
             self.aftermarket,
-            self.homebrew,
             self.pirate,
             self.unlicensed,
         )
@@ -1136,17 +1126,17 @@ class TitleTools:
     @staticmethod
     def convert_to_virtual_titles(
         title_set: set[DatNode],
-        compare_groups: dict[str, list[DatNode]],
+        compare_groups: dict[str, set[DatNode]],
         title_group: str,
         config: Config,
-    ) -> dict[str, list[DatNode]]:
+    ) -> dict[str, set[DatNode]]:
         """
         Breaks compilations into into separate, virtual titles.
 
         Args:
             title_set (set[DatNode]): Compilation titles to be considered.
 
-            compare_groups (dict[str, list[DatNode]]): A dictionary to store the
+            compare_groups (dict[str, set[DatNode]]): A dictionary to store the
             virtual titles in for comparison later.
 
             title_group (str): The group the title should be assigned to.
@@ -1189,7 +1179,7 @@ class TitleTools:
                         if virtual_title.full_name not in [
                             x.full_name for x in compare_groups[title_group]
                         ]:
-                            compare_groups[title_group].append(virtual_title)
+                            compare_groups[title_group].add(virtual_title)
 
         return compare_groups
 
@@ -1835,7 +1825,7 @@ class TraceTools:
                 f'{Font.bold}[{variable[0]}]{Font.end} Group after filtering by string comparison:'
             )
         if trace_reference == 'REF0060':
-            message = f'{Font.bold}[{variable[0]}]{Font.end} Group after handling unlicensed/aftermarket/homebrew versions:'
+            message = f'{Font.bold}[{variable[0]}]{Font.end} Group after handling unlicensed/aftermarket/pirate versions:'
         if trace_reference == 'REF0061':
             message = f'{Font.bold}[{variable[0]}]{Font.end} Group after handling Alt versions:'
         if trace_reference == 'REF0062':
@@ -1952,6 +1942,30 @@ class TraceTools:
             message = f'ACTION: Setting a title\'s local name as defined in the {Font.bold}Variants{Font.end} object:'
         if trace_reference == 'REF0116':
             message = f'ACTION: Setting a title as a superset due to a condition in the {Font.bold}Variants{Font.end} object being true:'
+        if trace_reference == 'REF0117':
+            message = 'ACTION: Choose title without string:'
+        if trace_reference == 'REF0118':
+            message = 'ACTION: Choose title without string:'
+        if trace_reference == 'REF0119':
+            message = f'{Font.bold}[{variable[0]}]{Font.end} Group after good dump/production/retail check:'
+        if trace_reference == 'REF0120':
+            message = 'INFO: Here are the title groups in contention:'
+        if trace_reference == 'REF0121':
+            message = 'INFO: Here are the regions required for each group in contention:'
+        if trace_reference == 'REF0122':
+            message = f'INFO: Here are the combinations in groups of {variable[0]}:'
+        if trace_reference == 'REF0123':
+            message = 'INFO: Here are the results of the candidate selection stages:'
+        if trace_reference == 'REF0124':
+            message = 'INFO: Testing these candidates for consideration:'
+        if trace_reference == 'REF0125':
+            message = 'INFO: Test details for candidate:'
+        if trace_reference == 'REF0126':
+            message = f'{Font.bold}[{variable[0]}]{Font.end} Group after choosing individual title due to user preference:'
+        if trace_reference == 'REF0127':
+            message = f'{Font.bold}[{variable[0]}]{Font.end} Group after choosing superset:'
+        if trace_reference == 'REF0128':
+            message = f'{Font.bold}[{variable[0]}]{Font.end} Group after comparing compilations:'
 
         if trace_reference:
             eprint(

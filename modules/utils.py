@@ -292,9 +292,17 @@ def minimum_version(
 
 
 def old_windows() -> bool:
-    """Figures out if Retool is running on a version of Windows earlier than Windows 10."""
-    if sys.platform.startswith('win') and (float(platform.release()) < 10):
-        return True
+    """Figures out if Retool is running on a version of Windows earlier than Windows 10 or Windows Server 2019."""
+    windows_version: str = platform.release()
+
+    if sys.platform.startswith('win'):
+        # Catch Windows Server
+        if re.search('[A-Za-z]', windows_version):
+            if int(re.sub('[A-Za-z]', '', windows_version)) < 2019:
+                return True
+        # Catch consumer versions of Windows
+        elif float(windows_version) < 10:
+            return True
     return False
 
 

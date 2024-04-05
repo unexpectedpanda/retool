@@ -6,44 +6,161 @@ hide:
 # Changelog
 
 
+## 2.03.0 (2024-04-06)
+
+-   **_Feature_**: Some changes aimed at ROMVault and DATVault users:
+
+    -   You can now choose not to add MIA attributes to titles and ROMs from clone lists.
+        This is mainly useful if you're a DATVault subscriber.
+
+    -   You can now add a quick import folder through **File > Settings**. When you click
+        the **Add DAT files recursively from your quick import folder** button, all DAT
+        files in that folder and its subfolders are loaded into Retool.
+
+    -   You can now replace your input DAT files with the Retool version instead of creating
+        new files. Make sure you've backed up your original DAT files first.
+
+    -   By default, Retool no longer processes files it has already processed. You can
+        bypass this by going to the **Options** tab and enabling
+        **Allow processing of already processed files**.
+
+-   **_Feature_**: Thanks to a rewrite of the compilations code and Retool's new testing
+    framework, you can now choose how to handle compilations. There are four modes:
+
+    -   **Default**: Chooses individual titles most of the time. Only chooses compilations
+        when they have a higher region, language, or clone list priority, or contain
+        unique titles. When choosing a compilation for unique titles, if other titles in
+        the compilation have individual equivalents, the individual titles are also
+        included, leading to some title duplication.
+
+    -   **Prefer individual titles**: Chooses individual titles regardless of region,
+        language, and clone list priorities, and discards compilations unless they contain
+        unique games. You're likely to prefer this mode if you use ROM hacks or Retro
+        Achievements. When choosing a compilation for unique titles, if other titles in
+        the compilation have individual equivalents, the individual titles are also
+        included, leading to some title duplication.
+
+    -   **Keep individul titles and compilations**: Ignores the relationship between
+        individual titles and compilations, meaning individual titles are only compared
+        against other individual titles, and compilations against other compilations. This
+        option has the most title duplication.
+
+    -   **Optimize for least possible title duplication**: Beta, not recommended. Prefers
+        compilations to minimize file count. While this mode can save disk space, it can
+        be hard to tell what compilations contain based on their filename. This mode might
+        not choose the most optimal solution when supersets or clone list priorities are
+        involved.
+
+-   **_Change_**: In Retool GUI you now set the global output path in the **Paths** tab.
+
+-   **_Change_**: The **Unlicensed** exclude settings are now more intuitively laid out in
+    Retool GUI, which allows for more granular choices.
+
+-   **_Change_**: The `u` exclude option in Retool CLI no longer includes aftermarket and
+    pirate titles. Instead, set the flags separately for each unlicensed title type: `u`
+    for `(unl)`, `f` for `(Aftermarket)`, `p` for `(Pirate)`.
+
+-   **_Change_**: A separator has been placed between the add and remove buttons in
+    RetoolGUI, to reduce accidental clicks and to more cleanly separate functions.
+
+-   **_Change_**: A majority of the Retool GUI interface is now disabled during processing
+    to prevent settings changes while the program is working.
+
+-   **_Change_**: The open file dialog box now opens at the currently set folder for the
+    specific Retool option you're changing. This reduces needless navigation.
+
+-   **_Change_**: Output DAT file headers have been tweaked a little to make replacing and
+    splitting DAT files easier.
+
+-   **_Change_**: Thanks to [@thiagokokada](https://github.com/thiagokokada), entry points
+    have been set up properly for Retool. Additionally, Retool now treats the folder where
+    it lives as the root folder for its relative paths, no matter the current working
+    directory.
+
+    This isn't consequential for Windows users running the EXE file, but to those running
+    the Python scripts directly and launching from the command line, it means instead of
+    navigating to the Retool folder and running `python retool.py` or
+    `python retoolgui.py`, if you have your environment set up correctly you can just run
+    `retool` or `retoolgui` from anywhere.
+
+    Want to try it out? [Clone Retool from the GitHub repo](https://unexpectedpanda.github.io/retool/download/#git-and-python-gui-and-cli),
+    navigate to the folder it was cloned to, then install it as a package with
+    `pip install .`. Retool is then installed to your Python scripts folder, and your
+    config files, clone lists, and metadata files are also kept there. Providing that
+    folder is added to your system path, you can now run `retool` or `retoolgui` from any
+    folder on the command line.
+
+    There's a caveat: if you do things this way, every time you update Retool you need to
+    run `pip install --upgrade .` to update the package version too, or you'll see the old
+    version of Retool when you run `retool` or `retoolgui`.
+
+-   **_Change_**: `config/systems/template.yaml` is no longer needed, as Retool now
+    generates system config files from scratch.
+
+-   **_Fix_**: Compensated for yet another of No-Intro's inconsistent date formats, this
+    time in the (~YYYY-XX-XX) format.
+
+-   **_Fix_**: Retool used to try to make another decision if it ultimately chose a bad
+    dump, a preproduction title, or a pirate title. If the user didn't prefer modern
+    titles or preferred licensed titles over unlicensed, it would also try again if it
+    selected a title the user didn't want. This was causing selection errors, particularly
+    when it came to preferring regions over languages. This is now treated as a filter
+    instead of a recovery process and happens earlier, resulting in better title
+    selection.
+
+-   **_Fix_**: Fixed the incorrect default region order for system configs, which placed
+    Europe lower than the global default region order.
+
+-   **_Fix_**: Fixed user override titles not being excluded from the output DAT file when
+    they had already been reassigned groups by a clone list.
+
+-   **_Fix_**: Fixed the **Process DAT files** button not enabling if you clicked a button
+    to add DAT files, cancelled, then actually add DAT files.
+
+-   **_Fix_**: Retool now works on Windows Server 2019+.
+
+-   **_Chore_**: Removed the `(Homebrew)` tag from Retool's processing, as No-Intro doesn't
+    use it anymore.
+
+
 ## 2.02.2 (2024-03-08)
 
--  **_Fix_**: Ensured MAME Redump DAT files have unique config settings, but
-   load Redump clone lists and metadata.
+-   **_Fix_**: Ensured MAME Redump DAT files have unique config settings, but
+    load Redump clone lists and metadata.
 
--  **_Fix_**: Fixed titles without regions being assigned a blank set of regions
-   instead of being set to `(Unknown)`. This was most obvious when converting
-   Redump BIOS DAT files.
+-   **_Fix_**: Fixed titles without regions being assigned a blank set of regions
+    instead of being set to `(Unknown)`. This was most obvious when converting
+    Redump BIOS DAT files.
 
--  **_Fix_**: When outputting a DAT file of removed titles while using legacy parent/clone
-   format, the removes DAT file no longer contains clones found in the legacy parent/clone
-   DAT file.
+-   **_Fix_**: When outputting a DAT file of removed titles while using legacy parent/clone
+    format, the removes DAT file no longer contains clones found in the legacy parent/clone
+    DAT file.
 
--  **_Fix_**: More reliable sorting of exclusions and user option tags in
-   filenames and descriptions.
+-   **_Fix_**: More reliable sorting of exclusions and user option tags in
+    filenames and descriptions.
 
--  **_Fix_**: If a title is in a `<game>` or `<machine>` node, that node is used in the
-   output DAT file.
+-   **_Fix_**: If a title is in a `<game>` or `<machine>` node, that node is used in the
+    output DAT file.
 
--  **_Chore_**: Style fixes and reduction of unnecessary work across the code
-   base in preparation for building out more comprehensive tests.
+-   **_Chore_**: Style fixes and reduction of unnecessary work across the code
+    base in preparation for building out more comprehensive tests.
 
 
 ## 2.02.1 (2024-02-18)
 
-- **_Feature_**: Retool now supports [MAME Redump](https://github.com/MetalSlug/MAMERedump/tree/main)
-  sets. These DATs match against Redump clone lists.
+-   **_Feature_**: Retool now supports [MAME Redump](https://github.com/MetalSlug/MAMERedump/tree/main)
+    sets. These DATs match against Redump clone lists.
 
-- **_Feature_**: You can now choose to use `<machine>` for your title nodes in
-  the output DAT file instead of `<game>`.
+-   **_Feature_**: You can now choose to use `<machine>` for your title nodes in
+    the output DAT file instead of `<game>`.
 
--  **_Change_**: `<rom>` and `<disk>` nodes in an input DAT file no longer need
-   a size assigned for Retool to process them. This is because CHDs are often
-   defined with only a hash.
+-   **_Change_**: `<rom>` and `<disk>` nodes in an input DAT file no longer need
+    a size assigned for Retool to process them. This is because CHDs are often
+    defined with only a hash.
 
--  **_Fix_**: If you run Retool CLI on a folder with only one DAT file, and no
-   titles are in that DAT file that match your preferences, Retool no longer
-   ends the task with a crash.
+-   **_Fix_**: If you run Retool CLI on a folder with only one DAT file, and no
+    titles are in that DAT file that match your preferences, Retool no longer
+    ends the task with a crash.
 
 
 ## 2.02.0 (2024-02-08)

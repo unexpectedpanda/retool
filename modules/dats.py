@@ -60,7 +60,7 @@ class Dat:
             contents (list[str], optional): Stores the contents of a DAT in a
             line-by-line fashion. Defaults to `[]`.
 
-            header (list[str], optional): The original DAT header Defaults to `[]`.
+            header (list[str], optional): The original DAT header. Defaults to `[]`.
 
             name (str, optional): The name in the DAT header. Defaults to `Unknown`.
 
@@ -117,6 +117,7 @@ class Dat:
         self.clone_list: CloneList = clone_list
         self.metadata: dict[str, dict[str, str]] = metadata
         self.search_name: str = ''
+        self.retool: str = ''
         self.end: bool = end
 
     def __str__(self) -> str:
@@ -749,6 +750,9 @@ def convert_clrmame_dat(
         if not dat_author:
             convert_dat.append('\t\t<author>Unknown</author>\n')
         dat_url = get_detail('homepage', clrmame_header)
+        convert_dat.append(
+            f'\t<retool>Created by Retool {config.version_major}.{config.version_minor}</retool>\n'
+        )
         convert_dat.append('\t</header>\n')
 
         # Generate the node for each title
@@ -1025,6 +1029,10 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput | None, con
         if header_found and '<header>' not in line:
             input_dat.original_header.append(line)
 
+    input_dat.original_header.append(
+        f'\t\t<retool>Created by Retool {config.version_major}.{config.version_minor}</retool>\n'
+    )
+
     # Check for a valid LogiqX dat
     validation_tags: list[str] = ['<datafile', '<?xml', '<game', '<header']
     validation_bool: list[bool] = [False, False, False, False]
@@ -1187,6 +1195,7 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput | None, con
         header_details('homepage')
         header_details('url')
         header_details('comment')
+        header_details('retool')
 
         # Fix some formatting
         input_dat.name = re.sub(' \\(Retool.*?\\)', '', input_dat.name).replace('&amp;', '&')
@@ -1217,6 +1226,39 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput | None, con
             input_dat.author,
         )
 
+        # Import system settings
+        from modules.input import import_clone_list, import_metadata, import_system_settings
+
+        import_system_settings(
+            config,
+            input_dat.search_name,
+            const.SYSTEM_LANGUAGE_ORDER_KEY,
+            const.SYSTEM_REGION_ORDER_KEY,
+            const.SYSTEM_LOCALIZATION_ORDER_KEY,
+            const.SYSTEM_VIDEO_ORDER_KEY,
+            const.SYSTEM_LIST_PREFIX_KEY,
+            const.SYSTEM_LIST_SUFFIX_KEY,
+            const.SYSTEM_OVERRIDE_EXCLUDE_KEY,
+            const.SYSTEM_OVERRIDE_INCLUDE_KEY,
+            const.SYSTEM_FILTER_KEY,
+            const.SYSTEM_EXCLUSIONS_OPTIONS_KEY,
+        )
+
+        # If the DAT file has already been processed, exit
+        if input_dat.retool and not config.user_input.reprocess_dat:
+            eprint(
+                '* Skipping file as it\'s already been processed by Retool. You can allow this with\n'
+                f'  the {Font.bold}--reprocess{Font.end} flag, or by setting the appropriate output option in Retool GUI.'
+            )
+            if input_type == 'file':
+                if gui_input:
+                    raise ExitRetool
+                else:
+                    sys.exit(0)
+            else:
+                input_dat.end = True
+                return input_dat
+
         # Provide DAT details to the user to reassure them the correct file is being processed
         eprint('')
         printwrap(f'|  {Font.bold}DAT DETAILS{Font.end}', style='dat_details')
@@ -1242,24 +1284,6 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput | None, con
             else:
                 eprint('|  Numbered dat: Yes')
         eprint('')
-
-        # Import system settings
-        from modules.input import import_clone_list, import_metadata, import_system_settings
-
-        import_system_settings(
-            config,
-            input_dat.search_name,
-            const.SYSTEM_LANGUAGE_ORDER_KEY,
-            const.SYSTEM_REGION_ORDER_KEY,
-            const.SYSTEM_LOCALIZATION_ORDER_KEY,
-            const.SYSTEM_VIDEO_ORDER_KEY,
-            const.SYSTEM_LIST_PREFIX_KEY,
-            const.SYSTEM_LIST_SUFFIX_KEY,
-            const.SYSTEM_OVERRIDE_EXCLUDE_KEY,
-            const.SYSTEM_OVERRIDE_INCLUDE_KEY,
-            const.SYSTEM_FILTER_KEY,
-            const.SYSTEM_EXCLUSIONS_OPTIONS_KEY,
-        )
 
         search_games: list[Any] = root.findall('game')
 

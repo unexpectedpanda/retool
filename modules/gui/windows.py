@@ -100,6 +100,16 @@ class SettingsWindow(qtw.QDialog):
         self.ui.labelMetadataLocation.setGeometry(qtc.QRect(50, 20, 531, 20))
         self.ui.labelMetadataLocation.setStyleSheet('color: #777')
 
+        self.ui.labelQuickImportLocation.hide()
+        self.ui.labelQuickImportLocation.deleteLater()
+        self.ui.labelQuickImportLocation = ElisionLabel('', mode=qtc.Qt.ElideLeft, parent=self.ui.frameQuickImportLocation)  # type: ignore
+        self.ui.labelQuickImportLocation.setText(
+            qtc.QCoreApplication.translate('Settings', 'No quick import folder selected', None)
+        )
+        self.ui.labelQuickImportLocation.setObjectName('labelQuickImportLocation')
+        self.ui.labelQuickImportLocation.setGeometry(qtc.QRect(50, 20, 531, 20))
+        self.ui.labelQuickImportLocation.setStyleSheet('color: #777')
+
         # Fix the fonts
         set_fonts(self)
 
@@ -108,6 +118,10 @@ class SettingsWindow(qtw.QDialog):
             str(pathlib.Path(parent.clone_lists_folder).resolve())
         )
         self.ui.labelMetadataLocation.setText(str(pathlib.Path(parent.metadata_folder).resolve()))
+        if parent.quick_import_folder:
+            self.ui.labelQuickImportLocation.setText(
+                str(pathlib.Path(parent.quick_import_folder).resolve())
+            )
         self.ui.lineEditCloneListDownloadLocation.setText(parent.clone_list_metadata_url)
 
         # Set up the interactions
@@ -126,6 +140,15 @@ class SettingsWindow(qtw.QDialog):
                 parent.metadata_folder,
                 self.ui.labelMetadataLocation,
                 'metadata_folder',
+                input_type='folder',
+            )
+        )
+        self.ui.buttonChooseQuickImportLocation.clicked.connect(
+            lambda: set_path(
+                parent,
+                parent.quick_import_folder,
+                self.ui.labelQuickImportLocation,
+                'quick_import_folder',
                 input_type='folder',
             )
         )
@@ -159,6 +182,9 @@ class SettingsWindow(qtw.QDialog):
         self.ui.buttonChooseMetadataLocation.clicked.connect(
             lambda: write_config(parent, dat_details, config, self)
         )
+        self.ui.buttonChooseQuickImportLocation.clicked.connect(
+            lambda: write_config(parent, dat_details, config, self)
+        )
 
         def reset_config() -> None:
             """Resets the settings window when the reset button is clicked."""
@@ -166,12 +192,17 @@ class SettingsWindow(qtw.QDialog):
                 str(pathlib.Path(config.path_clone_list).resolve())
             )
             self.ui.labelMetadataLocation.setText(str(pathlib.Path(config.path_metadata).resolve()))
+            self.ui.labelQuickImportLocation.setText(
+                qtc.QCoreApplication.translate('Settings', 'No quick import folder selected', None)
+            )
             self.ui.lineEditCloneListDownloadLocation.setText(
                 config.clone_list_metadata_download_location
             )
             parent.clone_lists_folder = config.path_clone_list
             parent.metadata_folder = config.path_metadata
+            parent.quick_import_folder = config.path_quick_import
             parent.clone_list_metadata_url = config.clone_list_metadata_download_location
+            self.ui.labelURLError.hide()
             write_config(parent, dat_details, config, self)
 
         self.ui.pushButtonReset.clicked.connect(lambda: reset_config())

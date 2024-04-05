@@ -21,7 +21,7 @@ from PySide6 import QtWidgets as qtw
 
 import retool
 from modules.config import Config
-from modules.gui.custom_widgets import CustomList, custom_widgets
+from modules.gui.custom_widgets import CustomComboBox, CustomList, custom_widgets
 from modules.gui.gui_config import import_config, write_config
 from modules.gui.gui_setup import setup_gui_global, setup_gui_system
 from modules.gui.gui_utils import enable_go_button, show_hide
@@ -156,70 +156,53 @@ class MainWindow(qtw.QMainWindow):
             self.ui.centralwidget.findChildren(
                 qtw.QPushButton,
                 qtc.QRegularExpression(
-                    'buttonGlobal(Language|Region|Localization|Video|Deselect|Select|Default).*'
+                    'button(Global|System)(Choose|Clear|Language|Region|Localization|Video|Deselect|Select|Default).*'
                 ),
             )
         )
         interactive_widgets.extend(
             self.ui.centralwidget.findChildren(
-                qtw.QPushButton,
-                qtc.QRegularExpression(
-                    'buttonSystem(Language|Region|Localization|Video|Deselect|Select|Default).*'
-                ),
+                qtw.QCheckBox,
+                qtc.QRegularExpression('checkBox(Global|System)(Exclude|Options|Replace).*'),
             )
         )
         interactive_widgets.extend(
             self.ui.centralwidget.findChildren(
-                qtw.QPushButton, qtc.QRegularExpression('button(Choose|Clear)System.*')
+                qtw.QTextEdit,
+                qtc.QRegularExpression('textEdit(Global|System)(Exclude|Include|Filter).*'),
             )
         )
         interactive_widgets.extend(
             self.ui.centralwidget.findChildren(
-                qtw.QCheckBox, qtc.QRegularExpression('checkBoxGlobal(Exclude|Options).*')
+                qtw.QLineEdit, qtc.QRegularExpression('lineEdit(Global|System)Options.*')
             )
         )
         interactive_widgets.extend(
             self.ui.centralwidget.findChildren(
-                qtw.QCheckBox, qtc.QRegularExpression('checkBoxSystem(Exclude|Options|Override).*')
+                qtw.QListWidget, qtc.QRegularExpression('listWidget(Global|System).*')
             )
         )
         interactive_widgets.extend(
             self.ui.centralwidget.findChildren(
-                qtw.QTextEdit, qtc.QRegularExpression('textEditGlobal(Exclude|Include|Filter).*')
+                qtw.QComboBox, qtc.QRegularExpression('comboBox(Global|System).*')
             )
         )
-        interactive_widgets.extend(
-            self.ui.centralwidget.findChildren(
-                qtw.QTextEdit, qtc.QRegularExpression('textEditSystem(Exclude|Include|Filter).*')
-            )
-        )
-        interactive_widgets.extend(
-            self.ui.centralwidget.findChildren(
-                qtw.QLineEdit, qtc.QRegularExpression('lineEditGlobalOptions.*')
-            )
-        )
-        interactive_widgets.extend(
-            self.ui.centralwidget.findChildren(
-                qtw.QLineEdit, qtc.QRegularExpression('lineEditSystemOptions.*')
-            )
-        )
-        interactive_widgets.extend(
-            self.ui.centralwidget.findChildren(
-                qtw.QListWidget, qtc.QRegularExpression('listWidgetGlobal.*')
-            )
-        )
-        interactive_widgets.extend(
-            self.ui.centralwidget.findChildren(
-                qtw.QListWidget, qtc.QRegularExpression('listWidgetSystem.*')
-            )
-        )
-        interactive_widgets.extend([self.ui.buttonChooseOutput])
 
         # Track all meaningful interactions, write the config file if one happens
         for interactive_widget in interactive_widgets:
             try:
-                if type(interactive_widget) is not CustomList:
+                if (
+                    type(interactive_widget) is not CustomList
+                    and type(interactive_widget) is not qtw.QComboBox
+                ):
                     interactive_widget.clicked.connect(
+                        lambda: write_config(self, dat_details, self.config, settings_window=None)
+                    )
+            except Exception:
+                pass
+            try:
+                if type(interactive_widget) is CustomComboBox:
+                    interactive_widget.activated.connect(
                         lambda: write_config(self, dat_details, self.config, settings_window=None)
                     )
             except Exception:
@@ -249,7 +232,7 @@ class MainWindow(qtw.QMainWindow):
             self.ui.buttonGo.show()
             self.ui.buttonStop.setText(qtc.QCoreApplication.translate("MainWindow", "Stop", None))
             self.ui.buttonStop.setEnabled(True)
-            self.ui.mainProgram.setEnabled(True)
+            self.ui.frame.setEnabled(True)
 
     def resizeEvent(self, event: Any) -> None:
         """Record the window size when the user resizes it."""

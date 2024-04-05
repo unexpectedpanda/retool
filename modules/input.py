@@ -41,6 +41,7 @@ class UserInput:
         legacy: bool = False,
         demote_unl: bool = False,
         modern: bool = False,
+        compilations: str = '',
         no_applications: bool = False,
         no_audio: bool = False,
         no_bad_dumps: bool = False,
@@ -49,6 +50,7 @@ class UserInput:
         no_demos: bool = False,
         no_add_ons: bool = False,
         no_educational: bool = False,
+        no_aftermarket: bool = False,
         no_games: bool = False,
         no_mia: bool = False,
         no_manuals: bool = False,
@@ -66,10 +68,13 @@ class UserInput:
         list_names: bool = False,
         log: bool = False,
         machine_not_game: bool = False,
+        no_label_mia: bool = False,
         original_header: bool = False,
         output_folder_name: str = '',
         output_region_split: bool = False,
         output_remove_dat: bool = False,
+        replace: bool = False,
+        reprocess_dat: bool = False,
         verbose: bool = False,
         warningpause: bool = False,
         single_cpu: bool = False,
@@ -111,13 +116,16 @@ class UserInput:
             parent/clone tags. Only useful for clone list maintainers who want to trac
             changes between DAT releases. Defaults to `False`.
 
-            demote_unl (bool, optional): Demotes unlicensed, aftermarket, homebrew, and
-            pirate titles if a production version of a title is found in another region.
-            Defaults to `False`.
+            demote_unl (bool, optional): Demotes unlicensed, aftermarket, and pirate
+            titles if a production version of a title is found in another region. Defaults
+            to `False`.
 
             modern (bool, optional): Whether to choose a version of a title ripped
             from a modern rerelease (e.g. Steam, Virtual Console) over the original
             title. Defaults to `False`.
+
+            compilations (str, optional): What compilations mode to set Retool to.
+            Defaults to ''.
 
             no_applications (bool, optional): Excludes applications. Defaults to
             `False`.
@@ -138,6 +146,9 @@ class UserInput:
             no_educational (bool, optional): Excludes educational titles. Defaults to
             `False`.
 
+            no_aftermarket (bool, optional): Excludes aftermarket titles. Defaults to
+            `False`.
+
             no_games (bool, optional): Excludes games. Defaults to `False`.
 
             no_mia (bool, optional): Excludes MIA titles. Defaults to `False`.
@@ -149,7 +160,7 @@ class UserInput:
 
             no_bonus_discs (bool, optional): Excludes bonus discs. Defaults to `False`.
 
-            no_pirate (bool, optional): Excludes pirated titles. Defaults to `False`.
+            no_pirate (bool, optional): Excludes pirate titles. Defaults to `False`.
 
             no_preproduction (bool, optional): Excludes preproduction titles. Defaults to
             `False`.
@@ -157,8 +168,8 @@ class UserInput:
             no_promotional (bool, optional): Excludes promotional titles. Defaults to
             `False`.
 
-            no_unlicensed (bool, optional): Excludes unlicensed, aftermarket, homebrew
-            and pirate titles. Defaults to `False`.
+            no_unlicensed (bool, optional): Excludes unlicensed, aftermarket, and pirate
+            titles. Defaults to `False`.
 
             no_video (bool, optional): Excludes video titles. Defaults to `False`.
 
@@ -183,6 +194,9 @@ class UserInput:
             machine_not_game (bool, optional): Uses the MAME standard of <machine> for
             title nodes in the output DAT file instead of <game>. Defaults to `False`.
 
+            no_label_mia (bool, optional): Doesn't add MIA attributes to ROMs or titles.
+            Defaults to `False`.
+
             original_header (bool, optional): Uses the header from the input DAT in the
             output DAT. Useful to update original No-Intro and Redump DATs already loaded
             in CLRMAMEPro. Defaults to `False`.
@@ -195,6 +209,12 @@ class UserInput:
 
             output_remove_dat (bool, optional): Additionally outputs a DAT that contains
             all the titles Retool has removed as part of its process. Defaults to `False`.
+
+            replace (bool, optional): Delete the input DAT file and create Retool files
+            in the same folder. Defaults to `False`.
+
+            reprocess_dat (bool, optional): Let DAT files be processed even if Retool has
+            already processed them. Defaults to `False`.
 
             verbose (bool, optional): Displays warnings when clone list errors occur.
             Defaults to `False`.
@@ -246,9 +266,11 @@ class UserInput:
         self.region_bias: bool = region_bias
         self.demote_unl: bool = demote_unl
         self.modern: bool = modern
+        self.compilations: str = compilations
 
         # Excludes
         self.no_add_ons: bool = no_add_ons
+        self.no_aftermarket: bool = no_aftermarket
         self.no_applications: bool = no_applications
         self.no_audio: bool = no_audio
         self.no_bad_dumps: bool = no_bad_dumps
@@ -281,10 +303,13 @@ class UserInput:
         self.list_names: bool = list_names
         self.log: bool = log
         self.machine_not_game: bool = machine_not_game
+        self.no_label_mia: bool = no_label_mia
         self.original_header: bool = original_header
         self.output_folder_name: str = output_folder_name
         self.output_region_split: bool = output_region_split
         self.output_remove_dat: bool = output_remove_dat
+        self.replace: bool = replace
+        self.reprocess_dat: bool = reprocess_dat
 
         # Debug
         self.verbose: bool = verbose
@@ -327,7 +352,7 @@ def check_input() -> UserInput:
         'Input',
         metavar='<input DAT/folder>',
         type=str,
-        help='R|The path to the DAT file, or folder of DAT files you\nwant to process.',
+        help='R|The path to the DAT file, or folder of DAT files you\nwant to process.\n',
         nargs='?',
     )
 
@@ -342,13 +367,16 @@ def check_input() -> UserInput:
         '\ntitle is treated as unique. User settings and excludes are'
         '\nstill respected. Useful if you want to keep everything'
         '\nfrom a specific set of regions and/or languages. Not'
-        '\ncompatible with -x.',
+        '\ncompatible with -x.'
+        '\n\n',
     )
 
     parser.add_argument(
         '-e',
         action='store_true',
-        help='R|Include titles that don\'t have hashes or sizes\nspecified in the input DAT.',
+        help='R|Include titles that don\'t have hashes or sizes'
+        '\nspecified in the input DAT.'
+        '\n\n',
     )
 
     parser.add_argument(
@@ -356,7 +384,8 @@ def check_input() -> UserInput:
         action='store_true',
         help=f'R|Filter by languages using a list. If a title doesn\'t'
         '\nsupport any of the languages on the list, it\'s removed'
-        f'\n(see {Font.bold}config/user-config.yaml{Font.end}).',
+        f'\n(see {Font.bold}config/user-config.yaml{Font.end}).'
+        '\n\n',
     )
 
     parser.add_argument(
@@ -365,7 +394,8 @@ def check_input() -> UserInput:
         help=f'R|Use local names for titles if available. For example,'
         '\nシャイニング●フォースⅡ 『古の封印』 instead of'
         '\nShining Force II - Inishie no Fuuin'
-        f'\n(see {Font.bold}config/user-config.yaml{Font.end}).',
+        f'\n(see {Font.bold}config/user-config.yaml{Font.end}).'
+        '\n\n',
     )
 
     parser.add_argument(
@@ -381,15 +411,17 @@ def check_input() -> UserInput:
         '\nmeans you might get a title that was released in your'
         '\npreferred region that has less content, instead of one'
         '\nthat was released in another region that contains more'
-        '\ncontent and supports your preferred languages.',
+        '\ncontent and supports your preferred languages.'
+        '\n\n',
     )
 
     parser.add_argument(
         '-y',
         action='store_true',
         help='R|Prefer licensed versions over unlicensed, aftermarket,'
-        '\nhomebrew, or pirate titles. This might select titles with'
-        '\nlower priority regions or languages, or with less features.',
+        '\nor pirate titles. This might select titles with lower'
+        '\npriority regions or languages, or with less features.'
+        '\n\n',
     )
 
     parser.add_argument(
@@ -397,11 +429,48 @@ def check_input() -> UserInput:
         action='store_true',
         help='R|Prefer titles ripped from modern rereleases over original'
         '\nsystem releases, such as those found in Virtual Console'
-        '\n(ripped titles might not work in emulators).',
+        '\n(ripped titles might not work in emulators).'
+        '\n\n',
     )
 
     parser.add_argument(
-        '--nooverrides', action='store_true', help='R|Don\'t load global and system overrides.'
+        '--compilations',
+        action='extend',
+        metavar='',
+        help='R|How compilations should be handled. By default, Retool chooses'
+        '\nindividual titles most of the time. It only chooses compilations'
+        '\nwhen they have a higher region, language, or clone list priority,'
+        '\nor contain unique titles. When choosing a compilation for unique'
+        '\ntitles, if other titles in the compilation have individual'
+        '\nequivalents, the individual titles are also included, leading to'
+        '\nsome title duplication.'
+        '\n'
+        '\nTo change this behavior, use this flag and add one of the'
+        '\nfollowing single letters afterwards to select a mode:'
+        '\n\ni\tAlways prefer individual titles. Choose individual titles'
+        '\n \tregardless of region, language, and clone list priorities,'
+        '\n \tand discard compilations unless they contain unique games.'
+        '\n \tYou\'re likely to prefer this mode if you use ROM hacks or'
+        '\n \tRetro Achievements. When choosing a compilation for unique'
+        '\n \ttitles, if other titles in the compilation have individual'
+        '\n \tequivalents, the individual titles are also included, leading'
+        '\n \tto some title duplication.'
+        '\n\nk\tKeep individual titles and compilations. Ignores the'
+        '\n \trelationship between individual titles and compilations, meaning'
+        '\n \tindividual titles are only compared against other individual'
+        '\n \ttitles, and compilations against other compilations. This option'
+        '\n \thas the most title duplication.'
+        f'\n\no\t{Font.bold}(Beta){Font.end} Optimize for the least possible title duplication. Not'
+        '\n \trecommended. While this mode can save disk space, it can be hard'
+        '\n \tto tell what compilations contain based on their filename. This'
+        '\n \tmode might not choose the optimal solution when supersets or'
+        '\n \tclone list priorities are involved.'
+        '\n\n',
+        nargs=1,
+    )
+
+    parser.add_argument(
+        '--nooverrides', action='store_true', help='R|Don\'t load global and system overrides.\n'
     )
 
     parser.add_argument('-q', action='store_true', help=argparse.SUPPRESS)
@@ -413,20 +482,32 @@ def check_input() -> UserInput:
         action='store_true',
         help='R|Also output a TXT file of just the kept title names. See'
         f'\n{Font.bold}config/user-config.yaml{Font.end} to add a prefix and/or suffix'
-        '\nto each line.',
+        '\nto each line.'
+        '\n\n',
     )
 
     outputs.add_argument(
         '--log',
         action='store_true',
-        help='R|Also output a TXT file of what titles have been kept,\nremoved, and set as clones.',
+        help='R|Also output a TXT file of what titles have been kept,'
+        '\nremoved, and set as clones.'
+        '\n\n',
     )
 
     outputs.add_argument(
         '--machine',
         action='store_true',
-        help='R|Exports each title node to the output DAT file using the MAME standard of'
-        '\n<machine> instead of <game>.',
+        help='R|Export each title node to the output DAT file using the MAME'
+        '\nstandard of <machine> instead of <game>.'
+        '\n\n',
+    )
+
+    outputs.add_argument(
+        '--nolabelmia',
+        action='store_true',
+        help='R|Don\'t add MIA attributes to titles. Use this if you\'re a'
+        '\nDATVault subscriber.'
+        '\n\n',
     )
 
     outputs.add_argument(
@@ -434,14 +515,17 @@ def check_input() -> UserInput:
         action='store_true',
         help='R|Use the original input DAT headers in output DAT files.'
         '\nUseful if you want to load Retool DATs as an update'
-        '\nto original Redump and No-Intro DATs already in CLRMAMEPro.',
+        '\nto original Redump and No-Intro DATs already in CLRMAMEPro.'
+        '\n\n',
     )
 
     outputs.add_argument(
         '--output',
         metavar='<folder>',
         type=str,
-        help='R|Set an output folder where the new 1G1R DAT/s will be\ncreated.',
+        help='R|Set an output folder where the new 1G1R DAT/s will be\ncreated.'
+        '\n\nNot compatible with --replace.'
+        '\n\n',
     )
 
     outputs.add_argument(
@@ -449,20 +533,40 @@ def check_input() -> UserInput:
         action='store_true',
         help='R|Split the result into multiple DATs based on region. Use '
         '\nwith -d to only split by region with no 1G1R processing.'
-        '\nNot compatible with --legacy.',
+        '\n\nNot compatible with --legacy.'
+        '\n\n',
+    )
+
+    outputs.add_argument(
+        '--replace',
+        action='store_true',
+        help='R|Replace input DAT files with Retool versions. Only use this if'
+        '\nyou can recover the original DAT files from elsewhere. Useful'
+        '\nfor RomVault or DatVault users operating directly on their'
+        '\nDatRoot files.'
+        '\n\nNot compatible with --output.'
+        '\n\n',
     )
 
     outputs.add_argument(
         '--removesdat',
         action='store_true',
-        help='R|Also output DAT files containing titles that were\nremoved from 1G1R DAT files.',
+        help='R|Also output DAT files containing titles that were'
+        '\nremoved from 1G1R DAT files.'
+        '\n\n',
+    )
+
+    outputs.add_argument(
+        '--reprocess',
+        action='store_true',
+        help='R|Let DAT files be processed even if Retool has already\nprocessed them.\n',
     )
 
     debug.add_argument(
         '--config',
         metavar='<file>',
         type=str,
-        help='R|Set a custom user config file to use instead of the\ndefault.',
+        help='R|Set a custom user config file to use instead of the\ndefault.\n\n',
     )
 
     debug.add_argument(
@@ -473,7 +577,8 @@ def check_input() -> UserInput:
         '\nUseful if you want to use your own, or if Redump or'
         '\nNo-Intro renames their DAT, and the clone list isn\'t'
         '\nautomatically detected anymore. Often used together with'
-        '\n--metadata.',
+        '\n--metadata.'
+        '\n\n',
     )
 
     debug.add_argument(
@@ -484,18 +589,23 @@ def check_input() -> UserInput:
         '\nUseful if you want to use your own, or if Redump or'
         '\nNo-Intro renames their DAT, and the metadata file isn\'t'
         '\nautomatically detected anymore. Often used together with'
-        '\n--clonelist.',
+        '\n--clonelist.'
+        '\n\n',
     )
 
     debug.add_argument(
         '--legacy',
         action='store_true',
-        help='R|Output DAT files in legacy parent/clone format. Not\ncompatible with -d.',
+        help='R|Output DAT files in legacy parent/clone format.'
+        '\n\nNot compatible with -d.'
+        '\n\n',
     )
 
-    debug.add_argument('--nodtd', action='store_true', help='R|Bypass DTD validation.')
+    debug.add_argument('--nodtd', action='store_true', help='R|Bypass DTD validation.\n\n')
 
-    debug.add_argument('--singlecpu', action='store_true', help='R|Disable multiprocessor usage.')
+    debug.add_argument(
+        '--singlecpu', action='store_true', help='R|Disable multiprocessor usage.\n\n'
+    )
 
     debug.add_argument(
         '--trace',
@@ -504,18 +614,22 @@ def check_input() -> UserInput:
         help='R|Trace a title through the Retool process for debugging.'
         '\nTo function properly, this disables using multiple'
         '\nprocessors during parent selection.'
-        '\n\nUsage: --trace "regex of titles to trace"',
+        '\n\nUsage: --trace "regex of titles to trace"'
+        '\n\n',
         nargs='+',
     )
 
     debug.add_argument(
-        '--warnings', action='store_true', help='Report clone list warnings during processing.'
+        '--warnings',
+        action='store_true',
+        help='R|Report clone list warnings during processing.\n\n',
     )
 
     debug.add_argument(
         '--warningpause',
         action='store_true',
-        help='R|Pause when a clone list warning is found. Useful when\nbatch processing DATS.',
+        help='R|Pause when a clone list warning is found. Useful when\nbatch processing DATS.'
+        '\n\n',
     )
 
     exclusions.add_argument(
@@ -533,16 +647,18 @@ def check_input() -> UserInput:
         '\nd\tDemos, kiosks, and samples'
         '\nD\tAdd-ons (expansion packs, additional material)'
         '\ne\tEducational titles'
+        '\nf\tAftermarket titles'
         '\ng\tGames'
         '\nk\tMIA titles and individual MIA ROMs'
         '\nm\tManuals'
         '\nM\tMultimedia titles (might include games)'
         '\no\tBonus discs'
-        '\np\tPirated titles'
+        '\np\tPirate titles'
         '\nP\tPreproduction titles (alphas, betas, prototypes)'
         '\nr\tPromotional titles'
-        '\nu\tUnlicensed, aftermarket, homebrew, and pirate titles'
-        '\nv\tVideo\n',
+        '\nu\tUnlicensed (unl) titles'
+        '\nv\tVideo'
+        '\n',
         nargs='+',
     )
 
@@ -556,13 +672,19 @@ def check_input() -> UserInput:
     # Make sure incompatible flags aren't used, and handle other edge case situations
     if args.legacy and args.d:
         eprint(
-            f'{Font.warning_bold}* -d and -x modes can\'t be used together. Exiting...{Font.end}'
+            f'{Font.warning_bold}* -d and --legacy modes can\'t be used together. Exiting...{Font.end}'
         )
         sys.exit(1)
 
     if args.legacy and args.regionsplit:
         eprint(
-            f'{Font.warning_bold}* --regionsplit and -x modes can\'t be used together. Exiting...{Font.end}'
+            f'{Font.warning_bold}* --regionsplit and --legacy modes can\'t be used together. Exiting...{Font.end}'
+        )
+        sys.exit(1)
+
+    if args.replace and args.output:
+        eprint(
+            f'{Font.warning_bold}* --replace and --output can\'t be used together. Exiting...{Font.end}'
         )
         sys.exit(1)
 
@@ -643,6 +765,7 @@ def check_input() -> UserInput:
         'Input',
         'output',
         'clonelist',
+        'compilations',
         'config',
         'exclude',
         'q',
@@ -651,13 +774,16 @@ def check_input() -> UserInput:
         'legacy',
         'log',
         'machine',
+        'nolabelmia',
         'originalheader',
         'metadata',
         'nooverrides',
         'nodtd',
         'listnames',
+        'replace',
         'regionsplit',
         'removesdat',
+        'reprocess',
         'singlecpu',
         'trace',
         'test',
@@ -678,6 +804,11 @@ def check_input() -> UserInput:
         args.exclude = []
     else:
         args_set = set(args.exclude[0])
+
+    compilations: str = ''
+
+    if args.compilations:
+        compilations = args.compilations[0][0:1]
 
     if not args.config:
         args.config = ''
@@ -713,6 +844,7 @@ def check_input() -> UserInput:
         legacy=args.legacy,
         demote_unl=args.y,
         modern=args.z,
+        compilations=compilations,
         no_applications=bool('a' in args_set),
         no_audio=bool('A' in args_set),
         no_bad_dumps=bool('b' in args_set),
@@ -721,6 +853,7 @@ def check_input() -> UserInput:
         no_demos=bool('d' in args_set),
         no_add_ons=bool('D' in args_set),
         no_educational=bool('e' in args_set),
+        no_aftermarket=bool('f' in args_set),
         no_games=bool('g' in args_set),
         no_mia=bool('k' in args_set),
         no_manuals=bool('m' in args_set),
@@ -738,10 +871,13 @@ def check_input() -> UserInput:
         list_names=args.listnames,
         log=args.log,
         machine_not_game=args.machine,
+        no_label_mia=args.nolabelmia,
         original_header=args.originalheader,
         output_folder_name=str(pathlib.Path(args.output).resolve()),
         output_region_split=args.regionsplit,
         output_remove_dat=args.removesdat,
+        replace=args.replace,
+        reprocess_dat=args.reprocess,
         verbose=args.warnings,
         warningpause=args.warningpause,
         single_cpu=args.singlecpu,
@@ -786,7 +922,8 @@ def get_config_value(
             if key_and_value[0][key] != str(pathlib.Path(default_value).resolve()):
                 value = key_and_value[0][key]
         else:
-            value = str(pathlib.Path(default_value).resolve())
+            if default_value:
+                value = str(pathlib.Path(default_value).resolve())
     else:
         if key_and_value:
             if key_and_value[0][key] != default_value:
@@ -1160,6 +1297,15 @@ def import_system_settings(
         # Get system post filters
         config.system_filter = system_settings.data['filters']
 
+        # TODO: Fix this so the option is stored in the correct place
+        # A weird exception for the replace input DAT files option, as storing it
+        # in paths is a pain
+        if {'override': 'true'} in config.system_user_path_settings:
+            config.user_input.replace = False
+            for option in config.system_exclusions_options:
+                if option == 'replace':
+                    config.user_input.replace = True
+
         # Override global inputs based on system settings
         if {'override exclusions': 'true'} in config.system_exclusions_options:
             config.user_input.no_add_ons = False
@@ -1213,6 +1359,9 @@ def import_system_settings(
                             if 'e' in value:
                                 config.user_input.no_educational = True
                                 excludes.append('e')
+                            if 'f' in value:
+                                config.user_input.no_aftermarket = True
+                                excludes.append('f')
                             if 'g' in value:
                                 config.user_input.no_games = True
                                 excludes.append('g')
@@ -1253,13 +1402,16 @@ def import_system_settings(
             config.user_input.list_names = False
             config.user_input.log = False
             config.user_input.machine_not_game = False
+            config.user_input.no_label_mia = False
             config.user_input.original_header = False
             config.user_input.modern = False
             config.user_input.no_1g1r = False
             config.user_input.no_dtd = False
             config.user_input.no_overrides = False
+            config.user_input.compilations = ''
             config.user_input.output_region_split = False
             config.user_input.output_remove_dat = False
+            config.user_input.reprocess_dat = False
             config.user_input.region_bias = False
             config.user_input.verbose = False
             config.user_input.warning_pause = False
@@ -1267,8 +1419,8 @@ def import_system_settings(
             config.user_input.trace = ''
 
             options: list[str] = []
-
             option: str
+
             for option in config.system_exclusions_options:
                 if option == 'd':
                     config.user_input.no_1g1r = True
@@ -1284,6 +1436,8 @@ def import_system_settings(
                     config.user_input.log = True
                 if option == 'machine':
                     config.user_input.machine_not_game = True
+                if option == 'nolabelmia':
+                    config.user_input.no_label_mia = True
                 if option == 'originalheader':
                     config.user_input.original_header = True
                 if option == 'nodtd':
@@ -1297,6 +1451,8 @@ def import_system_settings(
                     config.user_input.output_region_split = True
                 if option == 'removesdat':
                     config.user_input.output_remove_dat = True
+                if option == 'reprocess':
+                    config.user_input.reprocess_dat = True
                 if option == 'singlecpu':
                     config.user_input.single_cpu = True
                 if option == 'warningpause':
@@ -1309,6 +1465,10 @@ def import_system_settings(
                 if option == 'z':
                     config.user_input.modern = True
                     options.append('y')
+
+            config.user_input.compilations = get_config_value(
+                config.system_exclusions_options, 'compilations', '', is_path=False
+            )
 
             config.user_input.trace = get_config_value(
                 config.system_exclusions_options, 'trace', '', is_path=False

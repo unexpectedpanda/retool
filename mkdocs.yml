@@ -72,8 +72,10 @@ nav:
       - 'Options': how-to-use-retool-gui-options.md
       - 'System settings': how-to-use-retool-gui-system-settings.md
     - 'Retool CLI': how-to-use-retool-cli.md
+  - Working with ROM Managers:
+    - romvault.md
+    - clrmamepro.md
   - Contribute to Retool:
-    - integrate.md
     - Clone lists:
       - 'Get started': contribute-clone-lists.md
       - naming-system.md
@@ -89,14 +91,10 @@ nav:
         - contribute-clone-lists-variants-filters.md
       - contribute-clone-lists-pull-request.md
     - contribute-metadata-files.md
+  - Developers:
+    - integrate.md
+    - how-retool-works.md
 
 plugins:
   - search
-  - exclude-search:
-      exclude:
-        - how-retool-works.md
-  # https://mkdocs-macros-plugin.readthedocs.io/en/latest/#installation
-  - macros
-
-
-
+  - macros # https://mkdocs-macros-plugin.readthedocs.io/en/latest/#installation
