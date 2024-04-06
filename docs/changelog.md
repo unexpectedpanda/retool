@@ -40,7 +40,7 @@ hide:
         the compilation have individual equivalents, the individual titles are also
         included, leading to some title duplication.
 
-    -   **Keep individul titles and compilations**: Ignores the relationship between
+    -   **Keep individual titles and compilations**: Ignores the relationship between
         individual titles and compilations, meaning individual titles are only compared
         against other individual titles, and compilations against other compilations. This
         option has the most title duplication.
@@ -61,7 +61,7 @@ hide:
     for `(unl)`, `f` for `(Aftermarket)`, `p` for `(Pirate)`.
 
 -   **_Change_**: A separator has been placed between the add and remove buttons in
-    RetoolGUI, to reduce accidental clicks and to more cleanly separate functions.
+    Retool GUI, to reduce accidental clicks and to more cleanly separate functions.
 
 -   **_Change_**: A majority of the Retool GUI interface is now disabled during processing
     to prevent settings changes while the program is working.
