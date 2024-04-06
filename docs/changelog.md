@@ -6,6 +6,15 @@ hide:
 # Changelog
 
 
+## 2.03.1 (2024-04-06)
+
+-   **_Change_**: The **Prefer regions over languages** setting now also overrides
+    superset selection.
+
+-   **_Fix_**: DTD file detection wasn't updated to take into account the new entry point
+    paths. This didn't matter on Windows, but did affect Linux and MacOS.
+
+
 ## 2.03.0 (2024-04-06)
 
 -   **_Feature_**: Some changes aimed at ROMVault and DATVault users:
@@ -115,7 +124,7 @@ hide:
     they had already been reassigned groups by a clone list.
 
 -   **_Fix_**: Fixed the **Process DAT files** button not enabling if you clicked a button
-    to add DAT files, cancelled, then actually add DAT files.
+    to add DAT files, cancelled, then actually added DAT files.
 
 -   **_Fix_**: Retool now works on Windows Server 2019+.
 

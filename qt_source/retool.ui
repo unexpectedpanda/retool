@@ -4358,16 +4358,13 @@ to include these titles.</string>
                             </size>
                            </property>
                            <property name="toolTip">
-                            <string>By default, if a title from a higher priority region doesn't support
-your preferred languages but a lower priority region does, Retool
-selects the latter. This option disables this behavior, forcing
-strict adherence to region priority regardless of language support.
+                            <string>By default, region priority is treated as lower than language priority. This is so you get
+titles you can understand, along with region-exclusive supersets that contain more
+content.
 
-This option also overrides similar behavior in superset selection,
-which means you might get a title that was released in your
-preferred region that has less content, instead of one that was
-released in another region that contains more content and supports
-your preferred languages.</string>
+This option forces strict adherence to region priority regardless of language support and
+superset status. You might get titles with languages you don't understand, or that have
+less content.</string>
                            </property>
                            <property name="text">
                             <string>Prefer regions over languages</string>
@@ -9434,8 +9431,8 @@ text in the name:
                          <rect>
                           <x>0</x>
                           <y>0</y>
-                          <width>590</width>
-                          <height>396</height>
+                          <width>169</width>
+                          <height>559</height>
                          </rect>
                         </property>
                         <property name="minimumSize">
@@ -9746,8 +9743,8 @@ text in the name:
                          <rect>
                           <x>0</x>
                           <y>0</y>
-                          <width>590</width>
-                          <height>396</height>
+                          <width>391</width>
+                          <height>383</height>
                          </rect>
                         </property>
                         <property name="sizePolicy">
@@ -10165,8 +10162,8 @@ text in the name:
                          <rect>
                           <x>0</x>
                           <y>0</y>
-                          <width>573</width>
-                          <height>1000</height>
+                          <width>423</width>
+                          <height>1064</height>
                          </rect>
                         </property>
                         <property name="sizePolicy">
@@ -10281,16 +10278,13 @@ to include these titles.</string>
                             </size>
                            </property>
                            <property name="toolTip">
-                            <string>By default, if a title from a higher priority region doesn't support
-your preferred languages but a lower priority region does, Retool
-selects the latter. This option disables this behavior, forcing
-strict adherence to region priority regardless of language support.
+                            <string>By default, region priority is treated as lower than language priority. This is so you get
+titles you can understand, along with region-exclusive supersets that contain more
+content.
 
-This option also overrides similar behavior in superset selection,
-which means you might get a title that was released in your
-preferred region that has less content, instead of one that was
-released in another region that contains more content and supports
-your preferred languages.</string>
+This option forces strict adherence to region priority regardless of language support and
+superset status. You might get titles with languages you don't understand, or that have
+less content.</string>
                            </property>
                            <property name="text">
                             <string>Prefer regions over languages</string>

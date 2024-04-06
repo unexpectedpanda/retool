@@ -1115,7 +1115,7 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput | None, con
         # Validate against the Logiqx DTD
         if input_dat.is_dtd:
             try:
-                with open(pathlib.Path('datafile.dtd')) as dtdfile:
+                with open(pathlib.Path(config.retool_location).joinpath('datafile.dtd')) as dtdfile:
                     dtd: etree.DTD = etree.DTD(dtdfile)
                     failed_check: bool = False
 

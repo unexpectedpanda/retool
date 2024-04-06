@@ -3256,7 +3256,7 @@ class Ui_MainWindow(object):
         self.scrollAreaSystemOverrides.setAlignment(Qt.AlignLeading|Qt.AlignLeft|Qt.AlignTop)
         self.scrollAreaWidgetContentsSystemOverrides = QWidget()
         self.scrollAreaWidgetContentsSystemOverrides.setObjectName(u"scrollAreaWidgetContentsSystemOverrides")
-        self.scrollAreaWidgetContentsSystemOverrides.setGeometry(QRect(0, 0, 590, 396))
+        self.scrollAreaWidgetContentsSystemOverrides.setGeometry(QRect(0, 0, 169, 559))
         self.scrollAreaWidgetContentsSystemOverrides.setMinimumSize(QSize(0, 0))
         self.gridLayoutSystemUserFilters = QGridLayout(self.scrollAreaWidgetContentsSystemOverrides)
         self.gridLayoutSystemUserFilters.setObjectName(u"gridLayoutSystemUserFilters")
@@ -3367,7 +3367,7 @@ class Ui_MainWindow(object):
         self.scrollAreaSystemPostFilters.setAlignment(Qt.AlignLeading|Qt.AlignLeft|Qt.AlignTop)
         self.scrollAreaWidgetContentsSystemPostFilters = QWidget()
         self.scrollAreaWidgetContentsSystemPostFilters.setObjectName(u"scrollAreaWidgetContentsSystemPostFilters")
-        self.scrollAreaWidgetContentsSystemPostFilters.setGeometry(QRect(0, 0, 590, 396))
+        self.scrollAreaWidgetContentsSystemPostFilters.setGeometry(QRect(0, 0, 391, 383))
         sizePolicy8.setHeightForWidth(self.scrollAreaWidgetContentsSystemPostFilters.sizePolicy().hasHeightForWidth())
         self.scrollAreaWidgetContentsSystemPostFilters.setSizePolicy(sizePolicy8)
         self.gridLayoutGlobalUserFilters_4 = QGridLayout(self.scrollAreaWidgetContentsSystemPostFilters)
@@ -3517,7 +3517,7 @@ class Ui_MainWindow(object):
         self.scrollAreaSystemOptions.setWidgetResizable(True)
         self.layoutScrollAreaSystemOptions = QWidget()
         self.layoutScrollAreaSystemOptions.setObjectName(u"layoutScrollAreaSystemOptions")
-        self.layoutScrollAreaSystemOptions.setGeometry(QRect(0, 0, 573, 1000))
+        self.layoutScrollAreaSystemOptions.setGeometry(QRect(0, 0, 423, 1064))
         sizePolicy8.setHeightForWidth(self.layoutScrollAreaSystemOptions.sizePolicy().hasHeightForWidth())
         self.layoutScrollAreaSystemOptions.setSizePolicy(sizePolicy8)
         self.verticalLayout_22 = QVBoxLayout(self.layoutScrollAreaSystemOptions)
@@ -4424,16 +4424,13 @@ class Ui_MainWindow(object):
 #endif // QT_CONFIG(tooltip)
         self.checkBoxGlobalOptionsIncludeHashless.setText(QCoreApplication.translate("MainWindow", u"Include titles without hashes or sizes specified in input DAT files", None))
 #if QT_CONFIG(tooltip)
-        self.checkBoxGlobalOptionsPreferRegions.setToolTip(QCoreApplication.translate("MainWindow", u"By default, if a title from a higher priority region doesn't support\n"
-"your preferred languages but a lower priority region does, Retool\n"
-"selects the latter. This option disables this behavior, forcing\n"
-"strict adherence to region priority regardless of language support.\n"
+        self.checkBoxGlobalOptionsPreferRegions.setToolTip(QCoreApplication.translate("MainWindow", u"By default, region priority is treated as lower than language priority. This is so you get\n"
+"titles you can understand, along with region-exclusive supersets that contain more\n"
+"content.\n"
 "\n"
-"This option also overrides similar behavior in superset selection,\n"
-"which means you might get a title that was released in your\n"
-"preferred region that has less content, instead of one that was\n"
-"released in another region that contains more content and supports\n"
-"your preferred languages.", None))
+"This option forces strict adherence to region priority regardless of language support and\n"
+"superset status. You might get titles with languages you don't understand, or that have\n"
+"less content.", None))
 #endif // QT_CONFIG(tooltip)
         self.checkBoxGlobalOptionsPreferRegions.setText(QCoreApplication.translate("MainWindow", u"Prefer regions over languages", None))
 #if QT_CONFIG(tooltip)
@@ -4872,16 +4869,13 @@ class Ui_MainWindow(object):
 #endif // QT_CONFIG(tooltip)
         self.checkBoxSystemOptionsIncludeHashless.setText(QCoreApplication.translate("MainWindow", u"Include titles without hashes or sizes specified in input DAT files", None))
 #if QT_CONFIG(tooltip)
-        self.checkBoxSystemOptionsPreferRegions.setToolTip(QCoreApplication.translate("MainWindow", u"By default, if a title from a higher priority region doesn't support\n"
-"your preferred languages but a lower priority region does, Retool\n"
-"selects the latter. This option disables this behavior, forcing\n"
-"strict adherence to region priority regardless of language support.\n"
+        self.checkBoxSystemOptionsPreferRegions.setToolTip(QCoreApplication.translate("MainWindow", u"By default, region priority is treated as lower than language priority. This is so you get\n"
+"titles you can understand, along with region-exclusive supersets that contain more\n"
+"content.\n"
 "\n"
-"This option also overrides similar behavior in superset selection,\n"
-"which means you might get a title that was released in your\n"
-"preferred region that has less content, instead of one that was\n"
-"released in another region that contains more content and supports\n"
-"your preferred languages.", None))
+"This option forces strict adherence to region priority regardless of language support and\n"
+"superset status. You might get titles with languages you don't understand, or that have\n"
+"less content.", None))
 #endif // QT_CONFIG(tooltip)
         self.checkBoxSystemOptionsPreferRegions.setText(QCoreApplication.translate("MainWindow", u"Prefer regions over languages", None))
 #if QT_CONFIG(tooltip)
