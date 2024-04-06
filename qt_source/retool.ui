@@ -598,10 +598,10 @@ do this by pressing DEL on the keyboard.</string>
                         </size>
                        </property>
                        <property name="frameShape">
-                        <enum>QFrame::StyledPanel</enum>
+                        <enum>QFrame::NoFrame</enum>
                        </property>
                        <property name="frameShadow">
-                        <enum>QFrame::Raised</enum>
+                        <enum>QFrame::Plain</enum>
                        </property>
                        <layout class="QVBoxLayout" name="verticalLayout_35">
                         <property name="spacing">
@@ -634,22 +634,6 @@ for RomVault or DatVault users operating directly on their DatRoot files.</strin
                           </property>
                           <property name="text">
                            <string>Replace input DAT files</string>
-                          </property>
-                         </widget>
-                        </item>
-                        <item>
-                         <widget class="QFrame" name="frame_2">
-                          <property name="minimumSize">
-                           <size>
-                            <width>0</width>
-                            <height>40</height>
-                           </size>
-                          </property>
-                          <property name="frameShape">
-                           <enum>QFrame::StyledPanel</enum>
-                          </property>
-                          <property name="frameShadow">
-                           <enum>QFrame::Raised</enum>
                           </property>
                          </widget>
                         </item>
@@ -3618,8 +3602,8 @@ games.</string>
                          <rect>
                           <x>0</x>
                           <y>0</y>
-                          <width>590</width>
-                          <height>396</height>
+                          <width>169</width>
+                          <height>559</height>
                          </rect>
                         </property>
                         <layout class="QGridLayout" name="gridLayoutGlobalUserFilters">
@@ -3924,8 +3908,8 @@ games.</string>
                          <rect>
                           <x>0</x>
                           <y>0</y>
-                          <width>590</width>
-                          <height>396</height>
+                          <width>235</width>
+                          <height>431</height>
                          </rect>
                         </property>
                         <property name="sizePolicy">
@@ -4167,8 +4151,8 @@ games.</string>
                          <rect>
                           <x>0</x>
                           <y>0</y>
-                          <width>573</width>
-                          <height>1035</height>
+                          <width>423</width>
+                          <height>1099</height>
                          </rect>
                         </property>
                         <property name="sizePolicy">
@@ -6087,10 +6071,10 @@ core, at the cost of performance.</string>
                         </size>
                        </property>
                        <property name="frameShape">
-                        <enum>QFrame::StyledPanel</enum>
+                        <enum>QFrame::NoFrame</enum>
                        </property>
                        <property name="frameShadow">
-                        <enum>QFrame::Raised</enum>
+                        <enum>QFrame::Plain</enum>
                        </property>
                        <layout class="QVBoxLayout" name="verticalLayout_36">
                         <property name="spacing">

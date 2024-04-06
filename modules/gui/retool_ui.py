@@ -3,7 +3,7 @@
 ################################################################################
 ## Form generated from reading UI file 'retool.ui'
 ##
-## Created by: Qt User Interface Compiler version 6.6.2
+## Created by: Qt User Interface Compiler version 6.6.1
 ##
 ## WARNING! All changes made in this file will be lost when recompiling UI file!
 ################################################################################
@@ -32,7 +32,7 @@ class Ui_MainWindow(object):
         if not MainWindow.objectName():
             MainWindow.setObjectName(u"MainWindow")
         MainWindow.resize(957, 650)
-        sizePolicy = QSizePolicy(QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Expanding)
+        sizePolicy = QSizePolicy(QSizePolicy.Expanding, QSizePolicy.Expanding)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(MainWindow.sizePolicy().hasHeightForWidth())
@@ -152,7 +152,7 @@ class Ui_MainWindow(object):
 
         self.splitter = QSplitter(self.frame)
         self.splitter.setObjectName(u"splitter")
-        sizePolicy1 = QSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Preferred)
+        sizePolicy1 = QSizePolicy(QSizePolicy.Preferred, QSizePolicy.Preferred)
         sizePolicy1.setHorizontalStretch(80)
         sizePolicy1.setVerticalStretch(0)
         sizePolicy1.setHeightForWidth(self.splitter.sizePolicy().hasHeightForWidth())
@@ -174,7 +174,7 @@ class Ui_MainWindow(object):
         QListWidgetItem(self.listWidgetOpenFiles)
         self.listWidgetOpenFiles.setObjectName(u"listWidgetOpenFiles")
         self.listWidgetOpenFiles.setEnabled(True)
-        sizePolicy2 = QSizePolicy(QSizePolicy.Policy.MinimumExpanding, QSizePolicy.Policy.MinimumExpanding)
+        sizePolicy2 = QSizePolicy(QSizePolicy.MinimumExpanding, QSizePolicy.MinimumExpanding)
         sizePolicy2.setHorizontalStretch(0)
         sizePolicy2.setVerticalStretch(0)
         sizePolicy2.setHeightForWidth(self.listWidgetOpenFiles.sizePolicy().hasHeightForWidth())
@@ -196,7 +196,7 @@ class Ui_MainWindow(object):
 
         self.labelSelectInput = QLabel(self.gridLayoutLeftFiles)
         self.labelSelectInput.setObjectName(u"labelSelectInput")
-        sizePolicy3 = QSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
+        sizePolicy3 = QSizePolicy(QSizePolicy.Preferred, QSizePolicy.Fixed)
         sizePolicy3.setHorizontalStretch(0)
         sizePolicy3.setVerticalStretch(0)
         sizePolicy3.setHeightForWidth(self.labelSelectInput.sizePolicy().hasHeightForWidth())
@@ -225,7 +225,7 @@ class Ui_MainWindow(object):
         self.tabWidgetSettings.setFont(font)
         self.tabGlobalSettings = QWidget()
         self.tabGlobalSettings.setObjectName(u"tabGlobalSettings")
-        sizePolicy4 = QSizePolicy(QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Expanding)
+        sizePolicy4 = QSizePolicy(QSizePolicy.Expanding, QSizePolicy.Expanding)
         sizePolicy4.setHorizontalStretch(100)
         sizePolicy4.setVerticalStretch(100)
         sizePolicy4.setHeightForWidth(self.tabGlobalSettings.sizePolicy().hasHeightForWidth())
@@ -247,11 +247,11 @@ class Ui_MainWindow(object):
         self.tabGlobalPaths.setObjectName(u"tabGlobalPaths")
         self.gridLayout_7 = QGridLayout(self.tabGlobalPaths)
         self.gridLayout_7.setObjectName(u"gridLayout_7")
-        self.verticalSpacerGlobalPaths = QSpacerItem(20, 177, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Expanding)
+        self.verticalSpacerGlobalPaths = QSpacerItem(20, 177, QSizePolicy.Minimum, QSizePolicy.Expanding)
 
         self.gridLayout_7.addItem(self.verticalSpacerGlobalPaths, 8, 3, 1, 1)
 
-        self.horizontalSpacerGlobalPaths_2 = QSpacerItem(4, 20, QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Minimum)
+        self.horizontalSpacerGlobalPaths_2 = QSpacerItem(4, 20, QSizePolicy.Fixed, QSizePolicy.Minimum)
 
         self.gridLayout_7.addItem(self.horizontalSpacerGlobalPaths_2, 6, 2, 1, 1)
 
@@ -269,8 +269,8 @@ class Ui_MainWindow(object):
         self.frameGlobalReplace = QFrame(self.tabGlobalPaths)
         self.frameGlobalReplace.setObjectName(u"frameGlobalReplace")
         self.frameGlobalReplace.setMinimumSize(QSize(0, 0))
-        self.frameGlobalReplace.setFrameShape(QFrame.StyledPanel)
-        self.frameGlobalReplace.setFrameShadow(QFrame.Raised)
+        self.frameGlobalReplace.setFrameShape(QFrame.NoFrame)
+        self.frameGlobalReplace.setFrameShadow(QFrame.Plain)
         self.verticalLayout_35 = QVBoxLayout(self.frameGlobalReplace)
         self.verticalLayout_35.setSpacing(6)
         self.verticalLayout_35.setObjectName(u"verticalLayout_35")
@@ -280,14 +280,6 @@ class Ui_MainWindow(object):
         self.checkBoxGlobalReplaceInputDats.setFont(font2)
 
         self.verticalLayout_35.addWidget(self.checkBoxGlobalReplaceInputDats)
-
-        self.frame_2 = QFrame(self.frameGlobalReplace)
-        self.frame_2.setObjectName(u"frame_2")
-        self.frame_2.setMinimumSize(QSize(0, 40))
-        self.frame_2.setFrameShape(QFrame.StyledPanel)
-        self.frame_2.setFrameShadow(QFrame.Raised)
-
-        self.verticalLayout_35.addWidget(self.frame_2)
 
 
         self.gridLayout_7.addWidget(self.frameGlobalReplace, 4, 0, 1, 4)
@@ -310,7 +302,7 @@ class Ui_MainWindow(object):
 
         self.labelGlobalOutputFolder = ElisionLabel(self.tabGlobalPaths)
         self.labelGlobalOutputFolder.setObjectName(u"labelGlobalOutputFolder")
-        sizePolicy5 = QSizePolicy(QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Preferred)
+        sizePolicy5 = QSizePolicy(QSizePolicy.Expanding, QSizePolicy.Preferred)
         sizePolicy5.setHorizontalStretch(0)
         sizePolicy5.setVerticalStretch(0)
         sizePolicy5.setHeightForWidth(self.labelGlobalOutputFolder.sizePolicy().hasHeightForWidth())
@@ -355,7 +347,7 @@ class Ui_MainWindow(object):
 
         self.buttonGlobalChooseOutput = QPushButton(self.tabGlobalPaths)
         self.buttonGlobalChooseOutput.setObjectName(u"buttonGlobalChooseOutput")
-        sizePolicy6 = QSizePolicy(QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Fixed)
+        sizePolicy6 = QSizePolicy(QSizePolicy.Fixed, QSizePolicy.Fixed)
         sizePolicy6.setHorizontalStretch(0)
         sizePolicy6.setVerticalStretch(0)
         sizePolicy6.setHeightForWidth(self.buttonGlobalChooseOutput.sizePolicy().hasHeightForWidth())
@@ -370,7 +362,7 @@ class Ui_MainWindow(object):
 
         self.gridLayout_7.addWidget(self.buttonGlobalChooseOutput, 2, 0, 2, 2)
 
-        self.horizontalSpacerGlobalPaths = QSpacerItem(68, 20, QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Minimum)
+        self.horizontalSpacerGlobalPaths = QSpacerItem(68, 20, QSizePolicy.Expanding, QSizePolicy.Minimum)
 
         self.gridLayout_7.addItem(self.horizontalSpacerGlobalPaths, 7, 4, 1, 1)
 
@@ -386,7 +378,7 @@ class Ui_MainWindow(object):
         self.gridLayoutGlobalRegions.setContentsMargins(1, 0, 0, 0)
         self.listWidgetGlobalSelectedRegions = CustomListSelfDrag(self.gridGlobalRegions)
         self.listWidgetGlobalSelectedRegions.setObjectName(u"listWidgetGlobalSelectedRegions")
-        sizePolicy7 = QSizePolicy(QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Expanding)
+        sizePolicy7 = QSizePolicy(QSizePolicy.Fixed, QSizePolicy.Expanding)
         sizePolicy7.setHorizontalStretch(0)
         sizePolicy7.setVerticalStretch(0)
         sizePolicy7.setHeightForWidth(self.listWidgetGlobalSelectedRegions.sizePolicy().hasHeightForWidth())
@@ -404,7 +396,7 @@ class Ui_MainWindow(object):
 
         self.gridLayoutGlobalRegions.addWidget(self.listWidgetGlobalSelectedRegions, 3, 2, 1, 1)
 
-        self.verticalSpacerGlobalRegionsEnglishButton = QSpacerItem(20, 6, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Fixed)
+        self.verticalSpacerGlobalRegionsEnglishButton = QSpacerItem(20, 6, QSizePolicy.Minimum, QSizePolicy.Fixed)
 
         self.gridLayoutGlobalRegions.addItem(self.verticalSpacerGlobalRegionsEnglishButton, 4, 0, 1, 1)
 
@@ -424,7 +416,7 @@ class Ui_MainWindow(object):
 
         self.labelGlobalFilterByRegions = QLabel(self.gridGlobalRegions)
         self.labelGlobalFilterByRegions.setObjectName(u"labelGlobalFilterByRegions")
-        sizePolicy8 = QSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Preferred)
+        sizePolicy8 = QSizePolicy(QSizePolicy.Preferred, QSizePolicy.Preferred)
         sizePolicy8.setHorizontalStretch(0)
         sizePolicy8.setVerticalStretch(0)
         sizePolicy8.setHeightForWidth(self.labelGlobalFilterByRegions.sizePolicy().hasHeightForWidth())
@@ -479,13 +471,13 @@ class Ui_MainWindow(object):
 
         self.gridLayoutGlobalRegions.addWidget(self.buttonGlobalDefaultRegionOrder, 5, 0, 1, 2)
 
-        self.horizontalSpacerGlobalRegions = QSpacerItem(40, 20, QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Minimum)
+        self.horizontalSpacerGlobalRegions = QSpacerItem(40, 20, QSizePolicy.Expanding, QSizePolicy.Minimum)
 
         self.gridLayoutGlobalRegions.addItem(self.horizontalSpacerGlobalRegions, 3, 4, 1, 1)
 
         self.frameGlobalRegionLeftRight = QFrame(self.gridGlobalRegions)
         self.frameGlobalRegionLeftRight.setObjectName(u"frameGlobalRegionLeftRight")
-        sizePolicy9 = QSizePolicy(QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Preferred)
+        sizePolicy9 = QSizePolicy(QSizePolicy.Fixed, QSizePolicy.Preferred)
         sizePolicy9.setHorizontalStretch(0)
         sizePolicy9.setVerticalStretch(0)
         sizePolicy9.setHeightForWidth(self.frameGlobalRegionLeftRight.sizePolicy().hasHeightForWidth())
@@ -495,7 +487,7 @@ class Ui_MainWindow(object):
         self.frameGlobalRegionLeftRight.setFrameShadow(QFrame.Plain)
         self.verticalLayout_12 = QVBoxLayout(self.frameGlobalRegionLeftRight)
         self.verticalLayout_12.setObjectName(u"verticalLayout_12")
-        self.verticalSpacerGlobalRegionLeftRightTop = QSpacerItem(20, 40, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Expanding)
+        self.verticalSpacerGlobalRegionLeftRightTop = QSpacerItem(20, 40, QSizePolicy.Minimum, QSizePolicy.Expanding)
 
         self.verticalLayout_12.addItem(self.verticalSpacerGlobalRegionLeftRightTop)
 
@@ -554,7 +546,7 @@ class Ui_MainWindow(object):
 
         self.verticalLayout_12.addWidget(self.buttonGlobalRegionAllLeft)
 
-        self.verticalSpacerGlobalRegionLeftRightBottom = QSpacerItem(20, 40, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Expanding)
+        self.verticalSpacerGlobalRegionLeftRightBottom = QSpacerItem(20, 40, QSizePolicy.Minimum, QSizePolicy.Expanding)
 
         self.verticalLayout_12.addItem(self.verticalSpacerGlobalRegionLeftRightBottom)
 
@@ -570,7 +562,7 @@ class Ui_MainWindow(object):
         self.frameGlobalRegionUpDown.setFrameShadow(QFrame.Plain)
         self.verticalLayout_13 = QVBoxLayout(self.frameGlobalRegionUpDown)
         self.verticalLayout_13.setObjectName(u"verticalLayout_13")
-        self.verticalSpacerGlobalRegionUpDownTop = QSpacerItem(20, 40, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Expanding)
+        self.verticalSpacerGlobalRegionUpDownTop = QSpacerItem(20, 40, QSizePolicy.Minimum, QSizePolicy.Expanding)
 
         self.verticalLayout_13.addItem(self.verticalSpacerGlobalRegionUpDownTop)
 
@@ -598,7 +590,7 @@ class Ui_MainWindow(object):
 
         self.verticalLayout_13.addWidget(self.buttonGlobalRegionDown)
 
-        self.verticalSpacerGlobalRegionUpDownBottom = QSpacerItem(20, 40, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Expanding)
+        self.verticalSpacerGlobalRegionUpDownBottom = QSpacerItem(20, 40, QSizePolicy.Minimum, QSizePolicy.Expanding)
 
         self.verticalLayout_13.addItem(self.verticalSpacerGlobalRegionUpDownBottom)
 
@@ -636,7 +628,7 @@ class Ui_MainWindow(object):
         self.frameGlobalLanguageUpDown.setFrameShadow(QFrame.Plain)
         self.verticalLayout_24 = QVBoxLayout(self.frameGlobalLanguageUpDown)
         self.verticalLayout_24.setObjectName(u"verticalLayout_24")
-        self.verticalSpacerGlobalLanguageUpDownTop = QSpacerItem(20, 40, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Expanding)
+        self.verticalSpacerGlobalLanguageUpDownTop = QSpacerItem(20, 40, QSizePolicy.Minimum, QSizePolicy.Expanding)
 
         self.verticalLayout_24.addItem(self.verticalSpacerGlobalLanguageUpDownTop)
 
@@ -660,11 +652,11 @@ class Ui_MainWindow(object):
 
         self.verticalLayout_24.addWidget(self.buttonGlobalLanguageDown)
 
-        self.verticalSpacerGlobalLanguageUpDownBottom = QSpacerItem(20, 40, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Expanding)
+        self.verticalSpacerGlobalLanguageUpDownBottom = QSpacerItem(20, 40, QSizePolicy.Minimum, QSizePolicy.Expanding)
 
         self.verticalLayout_24.addItem(self.verticalSpacerGlobalLanguageUpDownBottom)
 
-        self.verticalSpacerGlobalLanguageUpDownBuffer = QSpacerItem(20, 53, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Fixed)
+        self.verticalSpacerGlobalLanguageUpDownBuffer = QSpacerItem(20, 53, QSizePolicy.Minimum, QSizePolicy.Fixed)
 
         self.verticalLayout_24.addItem(self.verticalSpacerGlobalLanguageUpDownBuffer)
 
@@ -725,7 +717,7 @@ class Ui_MainWindow(object):
         self.frameGlobalLanguageLeftRight.setFrameShadow(QFrame.Plain)
         self.verticalLayout_25 = QVBoxLayout(self.frameGlobalLanguageLeftRight)
         self.verticalLayout_25.setObjectName(u"verticalLayout_25")
-        self.verticalSpacerGlobalLanguageLeftRightTop = QSpacerItem(20, 40, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Expanding)
+        self.verticalSpacerGlobalLanguageLeftRightTop = QSpacerItem(20, 40, QSizePolicy.Minimum, QSizePolicy.Expanding)
 
         self.verticalLayout_25.addItem(self.verticalSpacerGlobalLanguageLeftRightTop)
 
@@ -772,18 +764,18 @@ class Ui_MainWindow(object):
 
         self.verticalLayout_25.addWidget(self.buttonGlobalLanguageAllLeft)
 
-        self.verticalSpacerGlobalLanguageLeftRightBottom = QSpacerItem(20, 40, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Expanding)
+        self.verticalSpacerGlobalLanguageLeftRightBottom = QSpacerItem(20, 40, QSizePolicy.Minimum, QSizePolicy.Expanding)
 
         self.verticalLayout_25.addItem(self.verticalSpacerGlobalLanguageLeftRightBottom)
 
-        self.verticalSpacerGlobalLanguageLeftRightBuffer = QSpacerItem(20, 53, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Fixed)
+        self.verticalSpacerGlobalLanguageLeftRightBuffer = QSpacerItem(20, 53, QSizePolicy.Minimum, QSizePolicy.Fixed)
 
         self.verticalLayout_25.addItem(self.verticalSpacerGlobalLanguageLeftRightBuffer)
 
 
         self.gridLayoutGlobalLanguages.addWidget(self.frameGlobalLanguageLeftRight, 3, 1, 1, 1)
 
-        self.horizontalSpacerGlobalLanguages = QSpacerItem(40, 20, QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Minimum)
+        self.horizontalSpacerGlobalLanguages = QSpacerItem(40, 20, QSizePolicy.Expanding, QSizePolicy.Minimum)
 
         self.gridLayoutGlobalLanguages.addItem(self.horizontalSpacerGlobalLanguages, 3, 4, 1, 1)
 
@@ -829,7 +821,7 @@ class Ui_MainWindow(object):
         self.frameGlobalVideoDown.setFrameShadow(QFrame.Plain)
         self.verticalLayout_27 = QVBoxLayout(self.frameGlobalVideoDown)
         self.verticalLayout_27.setObjectName(u"verticalLayout_27")
-        self.verticalSpacerGlobalVideoUpDownTop = QSpacerItem(20, 40, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Expanding)
+        self.verticalSpacerGlobalVideoUpDownTop = QSpacerItem(20, 40, QSizePolicy.Minimum, QSizePolicy.Expanding)
 
         self.verticalLayout_27.addItem(self.verticalSpacerGlobalVideoUpDownTop)
 
@@ -853,18 +845,18 @@ class Ui_MainWindow(object):
 
         self.verticalLayout_27.addWidget(self.buttonGlobalVideoStandardDown)
 
-        self.verticalSpacerGlobalVideoUpDownBottom = QSpacerItem(20, 40, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Expanding)
+        self.verticalSpacerGlobalVideoUpDownBottom = QSpacerItem(20, 40, QSizePolicy.Minimum, QSizePolicy.Expanding)
 
         self.verticalLayout_27.addItem(self.verticalSpacerGlobalVideoUpDownBottom)
 
-        self.verticalSpacerGlobalVideoUpDownBuffer = QSpacerItem(20, 54, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Fixed)
+        self.verticalSpacerGlobalVideoUpDownBuffer = QSpacerItem(20, 54, QSizePolicy.Minimum, QSizePolicy.Fixed)
 
         self.verticalLayout_27.addItem(self.verticalSpacerGlobalVideoUpDownBuffer)
 
 
         self.gridLayoutGlobalVideo.addWidget(self.frameGlobalVideoDown, 4, 1, 1, 1)
 
-        self.horizontalSpacerGlobalVideo_1 = QSpacerItem(220, 20, QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Minimum)
+        self.horizontalSpacerGlobalVideo_1 = QSpacerItem(220, 20, QSizePolicy.Fixed, QSizePolicy.Minimum)
 
         self.gridLayoutGlobalVideo.addItem(self.horizontalSpacerGlobalVideo_1, 4, 2, 1, 1)
 
@@ -883,7 +875,7 @@ class Ui_MainWindow(object):
 
         self.gridLayoutGlobalVideo.addWidget(self.listWidgetGlobalVideoStandards, 4, 0, 1, 1)
 
-        self.horizontalSpacerGlobalVideo_3 = QSpacerItem(40, 20, QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Minimum)
+        self.horizontalSpacerGlobalVideo_3 = QSpacerItem(40, 20, QSizePolicy.Expanding, QSizePolicy.Minimum)
 
         self.gridLayoutGlobalVideo.addItem(self.horizontalSpacerGlobalVideo_3, 4, 4, 1, 1)
 
@@ -896,7 +888,7 @@ class Ui_MainWindow(object):
 
         self.gridLayoutGlobalVideo.addWidget(self.labelGlobalVideoStandardsOrder, 2, 0, 1, 1)
 
-        self.horizontalSpacerGlobalVideo_2 = QSpacerItem(60, 20, QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Minimum)
+        self.horizontalSpacerGlobalVideo_2 = QSpacerItem(60, 20, QSizePolicy.Fixed, QSizePolicy.Minimum)
 
         self.gridLayoutGlobalVideo.addItem(self.horizontalSpacerGlobalVideo_2, 4, 3, 1, 1)
 
@@ -940,7 +932,7 @@ class Ui_MainWindow(object):
 
         self.gridLayoutGlobalExclusions.addWidget(self.checkBoxGlobalExcludeDemos, 10, 0, 1, 1)
 
-        self.horizontalSpacerGlobalExclude_2 = QSpacerItem(13, 20, QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Minimum)
+        self.horizontalSpacerGlobalExclude_2 = QSpacerItem(13, 20, QSizePolicy.Fixed, QSizePolicy.Minimum)
 
         self.gridLayoutGlobalExclusions.addItem(self.horizontalSpacerGlobalExclude_2, 6, 1, 1, 1)
 
@@ -989,7 +981,7 @@ class Ui_MainWindow(object):
 
         self.verticalLayout_19.addWidget(self.buttonGlobalDeselectAllExclude)
 
-        self.verticalSpacerGlobalExclude_1 = QSpacerItem(20, 40, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Expanding)
+        self.verticalSpacerGlobalExclude_1 = QSpacerItem(20, 40, QSizePolicy.Minimum, QSizePolicy.Expanding)
 
         self.verticalLayout_19.addItem(self.verticalSpacerGlobalExclude_1)
 
@@ -1031,7 +1023,7 @@ class Ui_MainWindow(object):
 
         self.gridLayoutGlobalExclusions.addWidget(self.checkBoxGlobalExcludeAudio, 4, 0, 1, 1)
 
-        self.horizontalSpacerGlobalExclude_1 = QSpacerItem(40, 20, QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Minimum)
+        self.horizontalSpacerGlobalExclude_1 = QSpacerItem(40, 20, QSizePolicy.Expanding, QSizePolicy.Minimum)
 
         self.gridLayoutGlobalExclusions.addItem(self.horizontalSpacerGlobalExclude_1, 2, 5, 1, 1)
 
@@ -1047,7 +1039,7 @@ class Ui_MainWindow(object):
 
         self.frameGlobalUnlicensedSubOptionsPirate = QHBoxLayout()
         self.frameGlobalUnlicensedSubOptionsPirate.setObjectName(u"frameGlobalUnlicensedSubOptionsPirate")
-        self.unlicensedGlobalSubOptionsSpacerPirate = QSpacerItem(13, 20, QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Minimum)
+        self.unlicensedGlobalSubOptionsSpacerPirate = QSpacerItem(13, 20, QSizePolicy.Fixed, QSizePolicy.Minimum)
 
         self.frameGlobalUnlicensedSubOptionsPirate.addItem(self.unlicensedGlobalSubOptionsSpacerPirate)
 
@@ -1084,7 +1076,7 @@ class Ui_MainWindow(object):
 
         self.gridLayoutGlobalExclusions.addWidget(self.checkBoxGlobalExcludePreproduction, 5, 2, 1, 1)
 
-        self.horizontalSpacerGlobalExclude_3 = QSpacerItem(20, 20, QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Minimum)
+        self.horizontalSpacerGlobalExclude_3 = QSpacerItem(20, 20, QSizePolicy.Fixed, QSizePolicy.Minimum)
 
         self.gridLayoutGlobalExclusions.addItem(self.horizontalSpacerGlobalExclude_3, 6, 3, 1, 1)
 
@@ -1098,13 +1090,13 @@ class Ui_MainWindow(object):
 
         self.gridLayoutGlobalExclusions.addWidget(self.checkBoxGlobalExcludeMultimedia, 4, 2, 1, 1)
 
-        self.verticalSpacerGlobalExclude_2 = QSpacerItem(20, 40, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Expanding)
+        self.verticalSpacerGlobalExclude_2 = QSpacerItem(20, 40, QSizePolicy.Minimum, QSizePolicy.Expanding)
 
         self.gridLayoutGlobalExclusions.addItem(self.verticalSpacerGlobalExclude_2, 14, 0, 1, 1)
 
         self.frameGlobalUnlicensedSubOptionsAftermarket = QHBoxLayout()
         self.frameGlobalUnlicensedSubOptionsAftermarket.setObjectName(u"frameGlobalUnlicensedSubOptionsAftermarket")
-        self.unlicensedGlobalSubOptionsSpacer = QSpacerItem(13, 20, QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Minimum)
+        self.unlicensedGlobalSubOptionsSpacer = QSpacerItem(13, 20, QSizePolicy.Fixed, QSizePolicy.Minimum)
 
         self.frameGlobalUnlicensedSubOptionsAftermarket.addItem(self.unlicensedGlobalSubOptionsSpacer)
 
@@ -1118,7 +1110,7 @@ class Ui_MainWindow(object):
 
         self.frameGlobalUnlicensedSubOptionsUnlicensed = QHBoxLayout()
         self.frameGlobalUnlicensedSubOptionsUnlicensed.setObjectName(u"frameGlobalUnlicensedSubOptionsUnlicensed")
-        self.unlicensedGlobalSubOptionsSpacerUnlicensed = QSpacerItem(13, 20, QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Minimum)
+        self.unlicensedGlobalSubOptionsSpacerUnlicensed = QSpacerItem(13, 20, QSizePolicy.Fixed, QSizePolicy.Minimum)
 
         self.frameGlobalUnlicensedSubOptionsUnlicensed.addItem(self.unlicensedGlobalSubOptionsSpacerUnlicensed)
 
@@ -1143,7 +1135,7 @@ class Ui_MainWindow(object):
         self.gridLayoutGlobalLanguages_2 = QGridLayout(self.gridGlobalLocalization)
         self.gridLayoutGlobalLanguages_2.setObjectName(u"gridLayoutGlobalLanguages_2")
         self.gridLayoutGlobalLanguages_2.setContentsMargins(1, 0, 0, 0)
-        self.horizontalSpacerGlobalLocalization = QSpacerItem(40, 20, QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Minimum)
+        self.horizontalSpacerGlobalLocalization = QSpacerItem(40, 20, QSizePolicy.Expanding, QSizePolicy.Minimum)
 
         self.gridLayoutGlobalLanguages_2.addItem(self.horizontalSpacerGlobalLocalization, 8, 4, 1, 1)
 
@@ -1205,7 +1197,7 @@ class Ui_MainWindow(object):
         self.frameGlobalLocalizationUpDown.setFrameShadow(QFrame.Plain)
         self.verticalLayout_32 = QVBoxLayout(self.frameGlobalLocalizationUpDown)
         self.verticalLayout_32.setObjectName(u"verticalLayout_32")
-        self.verticalSpacerGlobalLocalizationDownTop = QSpacerItem(20, 40, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Expanding)
+        self.verticalSpacerGlobalLocalizationDownTop = QSpacerItem(20, 40, QSizePolicy.Minimum, QSizePolicy.Expanding)
 
         self.verticalLayout_32.addItem(self.verticalSpacerGlobalLocalizationDownTop)
 
@@ -1229,14 +1221,14 @@ class Ui_MainWindow(object):
 
         self.verticalLayout_32.addWidget(self.buttonGlobalLocalizationDown)
 
-        self.verticalSpacerGlobalLocalizationUpDownBottom = QSpacerItem(20, 40, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Expanding)
+        self.verticalSpacerGlobalLocalizationUpDownBottom = QSpacerItem(20, 40, QSizePolicy.Minimum, QSizePolicy.Expanding)
 
         self.verticalLayout_32.addItem(self.verticalSpacerGlobalLocalizationUpDownBottom)
 
 
         self.gridLayoutGlobalLanguages_2.addWidget(self.frameGlobalLocalizationUpDown, 8, 3, 1, 1)
 
-        self.verticalSpacerGlobalLocalizationList = QSpacerItem(10, 8, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Fixed)
+        self.verticalSpacerGlobalLocalizationList = QSpacerItem(10, 8, QSizePolicy.Minimum, QSizePolicy.Fixed)
 
         self.gridLayoutGlobalLanguages_2.addItem(self.verticalSpacerGlobalLocalizationList, 4, 0, 1, 4)
 
@@ -1263,7 +1255,7 @@ class Ui_MainWindow(object):
         self.frameGlobalLocalizationLeftRight.setFrameShadow(QFrame.Plain)
         self.verticalLayout_31 = QVBoxLayout(self.frameGlobalLocalizationLeftRight)
         self.verticalLayout_31.setObjectName(u"verticalLayout_31")
-        self.verticalSpacerGlobalLocalizationLeftRightTop = QSpacerItem(20, 40, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Expanding)
+        self.verticalSpacerGlobalLocalizationLeftRightTop = QSpacerItem(20, 40, QSizePolicy.Minimum, QSizePolicy.Expanding)
 
         self.verticalLayout_31.addItem(self.verticalSpacerGlobalLocalizationLeftRightTop)
 
@@ -1310,7 +1302,7 @@ class Ui_MainWindow(object):
 
         self.verticalLayout_31.addWidget(self.buttonGlobalLocalizationAllLeft)
 
-        self.verticalSpacerGlobalLocalizationLeftRightBottom = QSpacerItem(20, 40, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Expanding)
+        self.verticalSpacerGlobalLocalizationLeftRightBottom = QSpacerItem(20, 40, QSizePolicy.Minimum, QSizePolicy.Expanding)
 
         self.verticalLayout_31.addItem(self.verticalSpacerGlobalLocalizationLeftRightBottom)
 
@@ -1359,7 +1351,7 @@ class Ui_MainWindow(object):
         self.scrollAreaGlobalOverrides.setAlignment(Qt.AlignLeading|Qt.AlignLeft|Qt.AlignTop)
         self.scrollAreaWidgetContentsGlobalOverrides = QWidget()
         self.scrollAreaWidgetContentsGlobalOverrides.setObjectName(u"scrollAreaWidgetContentsGlobalOverrides")
-        self.scrollAreaWidgetContentsGlobalOverrides.setGeometry(QRect(0, 0, 590, 396))
+        self.scrollAreaWidgetContentsGlobalOverrides.setGeometry(QRect(0, 0, 169, 559))
         self.gridLayoutGlobalUserFilters = QGridLayout(self.scrollAreaWidgetContentsGlobalOverrides)
         self.gridLayoutGlobalUserFilters.setObjectName(u"gridLayoutGlobalUserFilters")
         self.gridLayoutGlobalUserFilters.setSizeConstraint(QLayout.SetMinimumSize)
@@ -1381,7 +1373,7 @@ class Ui_MainWindow(object):
 
         self.gridLayoutGlobalUserFilters.addWidget(self.labelGlobalOverrideByText, 0, 0, 1, 3)
 
-        self.horizontalSpacerGlobalOverrides = QSpacerItem(10, 20, QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Minimum)
+        self.horizontalSpacerGlobalOverrides = QSpacerItem(10, 20, QSizePolicy.Fixed, QSizePolicy.Minimum)
 
         self.gridLayoutGlobalUserFilters.addItem(self.horizontalSpacerGlobalOverrides, 5, 1, 1, 1)
 
@@ -1412,7 +1404,7 @@ class Ui_MainWindow(object):
 
         self.textEditGlobalExclude = CustomTextEdit(self.scrollAreaWidgetContentsGlobalOverrides)
         self.textEditGlobalExclude.setObjectName(u"textEditGlobalExclude")
-        sizePolicy10 = QSizePolicy(QSizePolicy.Policy.Expanding, QSizePolicy.Policy.MinimumExpanding)
+        sizePolicy10 = QSizePolicy(QSizePolicy.Expanding, QSizePolicy.MinimumExpanding)
         sizePolicy10.setHorizontalStretch(0)
         sizePolicy10.setVerticalStretch(0)
         sizePolicy10.setHeightForWidth(self.textEditGlobalExclude.sizePolicy().hasHeightForWidth())
@@ -1447,7 +1439,7 @@ class Ui_MainWindow(object):
 
         self.gridLayoutGlobalUserFilters.addWidget(self.textEditGlobalInclude, 5, 0, 1, 1)
 
-        self.verticalSpacerGlobalOverrides = QSpacerItem(20, 10, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Fixed)
+        self.verticalSpacerGlobalOverrides = QSpacerItem(20, 10, QSizePolicy.Minimum, QSizePolicy.Fixed)
 
         self.gridLayoutGlobalUserFilters.addItem(self.verticalSpacerGlobalOverrides, 3, 0, 1, 3)
 
@@ -1475,7 +1467,7 @@ class Ui_MainWindow(object):
         self.scrollAreaGlobalPostFilters.setAlignment(Qt.AlignLeading|Qt.AlignLeft|Qt.AlignTop)
         self.scrollAreaWidgetContentsGlobalPostFilters = QWidget()
         self.scrollAreaWidgetContentsGlobalPostFilters.setObjectName(u"scrollAreaWidgetContentsGlobalPostFilters")
-        self.scrollAreaWidgetContentsGlobalPostFilters.setGeometry(QRect(0, 0, 590, 396))
+        self.scrollAreaWidgetContentsGlobalPostFilters.setGeometry(QRect(0, 0, 235, 431))
         sizePolicy8.setHeightForWidth(self.scrollAreaWidgetContentsGlobalPostFilters.sizePolicy().hasHeightForWidth())
         self.scrollAreaWidgetContentsGlobalPostFilters.setSizePolicy(sizePolicy8)
         self.gridLayoutGlobalUserFilters_3 = QGridLayout(self.scrollAreaWidgetContentsGlobalPostFilters)
@@ -1521,7 +1513,7 @@ class Ui_MainWindow(object):
 
         self.gridLayoutGlobalUserFilters_3.addWidget(self.labelGlobalFilters, 2, 0, 1, 2)
 
-        self.verticalSpacerGlobalFilters = QSpacerItem(20, 10, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Fixed)
+        self.verticalSpacerGlobalFilters = QSpacerItem(20, 10, QSizePolicy.Minimum, QSizePolicy.Fixed)
 
         self.gridLayoutGlobalUserFilters_3.addItem(self.verticalSpacerGlobalFilters, 3, 0, 1, 2)
 
@@ -1562,7 +1554,7 @@ class Ui_MainWindow(object):
         self.scrollAreaGlobalOptions.setWidgetResizable(True)
         self.scrollAreaWidgetContentsGlobalOptions = QWidget()
         self.scrollAreaWidgetContentsGlobalOptions.setObjectName(u"scrollAreaWidgetContentsGlobalOptions")
-        self.scrollAreaWidgetContentsGlobalOptions.setGeometry(QRect(0, 0, 573, 1035))
+        self.scrollAreaWidgetContentsGlobalOptions.setGeometry(QRect(0, 0, 423, 1099))
         sizePolicy8.setHeightForWidth(self.scrollAreaWidgetContentsGlobalOptions.sizePolicy().hasHeightForWidth())
         self.scrollAreaWidgetContentsGlobalOptions.setSizePolicy(sizePolicy8)
         self.verticalLayout_16 = QVBoxLayout(self.scrollAreaWidgetContentsGlobalOptions)
@@ -1626,7 +1618,7 @@ class Ui_MainWindow(object):
 
         self.checkBoxGlobalOptionsModernPlatforms = QCheckBox(self.scrollAreaWidgetContentsGlobalOptions)
         self.checkBoxGlobalOptionsModernPlatforms.setObjectName(u"checkBoxGlobalOptionsModernPlatforms")
-        sizePolicy11 = QSizePolicy(QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Fixed)
+        sizePolicy11 = QSizePolicy(QSizePolicy.Minimum, QSizePolicy.Fixed)
         sizePolicy11.setHorizontalStretch(0)
         sizePolicy11.setVerticalStretch(0)
         sizePolicy11.setHeightForWidth(self.checkBoxGlobalOptionsModernPlatforms.sizePolicy().hasHeightForWidth())
@@ -1656,7 +1648,7 @@ class Ui_MainWindow(object):
 
         self.verticalLayout_16.addWidget(self.checkBoxGlobalOptionsDisableOverrides)
 
-        self.verticalSpacer = QSpacerItem(20, 6, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Fixed)
+        self.verticalSpacer = QSpacerItem(20, 6, QSizePolicy.Minimum, QSizePolicy.Fixed)
 
         self.verticalLayout_16.addItem(self.verticalSpacer)
 
@@ -1689,7 +1681,7 @@ class Ui_MainWindow(object):
 
         self.verticalLayout_37.addWidget(self.comboBoxGlobalChooseCompilationsMode)
 
-        self.verticalSpacer_2 = QSpacerItem(20, 6, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Fixed)
+        self.verticalSpacer_2 = QSpacerItem(20, 6, QSizePolicy.Minimum, QSizePolicy.Fixed)
 
         self.verticalLayout_37.addItem(self.verticalSpacer_2)
 
@@ -1703,7 +1695,7 @@ class Ui_MainWindow(object):
 
         self.verticalLayout_16.addWidget(self.frameGlobalCompilations, 0, Qt.AlignTop)
 
-        self.verticalSpacerGlobalOptions_1 = QSpacerItem(20, 13, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Fixed)
+        self.verticalSpacerGlobalOptions_1 = QSpacerItem(20, 13, QSizePolicy.Minimum, QSizePolicy.Fixed)
 
         self.verticalLayout_16.addItem(self.verticalSpacerGlobalOptions_1)
 
@@ -1837,7 +1829,7 @@ class Ui_MainWindow(object):
 
         self.verticalLayout_16.addWidget(self.frameGlobalOptions1G1RPrefix)
 
-        self.verticalSpacerGlobalOptions_2 = QSpacerItem(20, 12, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Fixed)
+        self.verticalSpacerGlobalOptions_2 = QSpacerItem(20, 12, QSizePolicy.Minimum, QSizePolicy.Fixed)
 
         self.verticalLayout_16.addItem(self.verticalSpacerGlobalOptions_2)
 
@@ -1930,7 +1922,7 @@ class Ui_MainWindow(object):
 
         self.verticalLayout_16.addWidget(self.frameGlobalOptionsTrace)
 
-        self.verticalSpacerGlobalOptions_3 = QSpacerItem(20, 40, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Expanding)
+        self.verticalSpacerGlobalOptions_3 = QSpacerItem(20, 40, QSizePolicy.Minimum, QSizePolicy.Expanding)
 
         self.verticalLayout_16.addItem(self.verticalSpacerGlobalOptions_3)
 
@@ -1981,7 +1973,7 @@ class Ui_MainWindow(object):
 
         self.gridLayoutSystemPaths.addWidget(self.labelSystemOutputFolder, 4, 3, 1, 2)
 
-        self.horizontalSpacerSystemPaths_1 = QSpacerItem(4, 20, QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Minimum)
+        self.horizontalSpacerSystemPaths_1 = QSpacerItem(4, 20, QSizePolicy.Fixed, QSizePolicy.Minimum)
 
         self.gridLayoutSystemPaths.addItem(self.horizontalSpacerSystemPaths_1, 8, 2, 1, 1)
 
@@ -2043,7 +2035,7 @@ class Ui_MainWindow(object):
 
         self.gridLayoutSystemPaths.addWidget(self.buttonSystemChooseOutput, 3, 1, 2, 1)
 
-        self.horizontalSpacerSystemPaths_2 = QSpacerItem(40, 20, QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Minimum)
+        self.horizontalSpacerSystemPaths_2 = QSpacerItem(40, 20, QSizePolicy.Expanding, QSizePolicy.Minimum)
 
         self.gridLayoutSystemPaths.addItem(self.horizontalSpacerSystemPaths_2, 10, 5, 1, 1)
 
@@ -2080,8 +2072,8 @@ class Ui_MainWindow(object):
         self.frameSystemReplace = QFrame(self.tabSystemPaths)
         self.frameSystemReplace.setObjectName(u"frameSystemReplace")
         self.frameSystemReplace.setMinimumSize(QSize(0, 0))
-        self.frameSystemReplace.setFrameShape(QFrame.StyledPanel)
-        self.frameSystemReplace.setFrameShadow(QFrame.Raised)
+        self.frameSystemReplace.setFrameShape(QFrame.NoFrame)
+        self.frameSystemReplace.setFrameShadow(QFrame.Plain)
         self.verticalLayout_36 = QVBoxLayout(self.frameSystemReplace)
         self.verticalLayout_36.setSpacing(6)
         self.verticalLayout_36.setObjectName(u"verticalLayout_36")
@@ -2119,7 +2111,7 @@ class Ui_MainWindow(object):
 
         self.gridLayoutSystemPaths.addWidget(self.labelSystemSelectMetadataFile, 10, 3, 1, 2)
 
-        self.verticalSpacerSystemPaths = QSpacerItem(20, 40, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Expanding)
+        self.verticalSpacerSystemPaths = QSpacerItem(20, 40, QSizePolicy.Minimum, QSizePolicy.Expanding)
 
         self.gridLayoutSystemPaths.addItem(self.verticalSpacerSystemPaths, 12, 3, 1, 1)
 
@@ -2212,7 +2204,7 @@ class Ui_MainWindow(object):
         self.frameSystemRegionUpDown.setFrameShadow(QFrame.Plain)
         self.verticalLayout_15 = QVBoxLayout(self.frameSystemRegionUpDown)
         self.verticalLayout_15.setObjectName(u"verticalLayout_15")
-        self.verticalSpacerSystemRegionUpDownTop = QSpacerItem(20, 40, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Expanding)
+        self.verticalSpacerSystemRegionUpDownTop = QSpacerItem(20, 40, QSizePolicy.Minimum, QSizePolicy.Expanding)
 
         self.verticalLayout_15.addItem(self.verticalSpacerSystemRegionUpDownTop)
 
@@ -2236,14 +2228,14 @@ class Ui_MainWindow(object):
 
         self.verticalLayout_15.addWidget(self.buttonSystemRegionDown)
 
-        self.verticalSpacerSystemRegionUpDownBottom = QSpacerItem(20, 40, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Expanding)
+        self.verticalSpacerSystemRegionUpDownBottom = QSpacerItem(20, 40, QSizePolicy.Minimum, QSizePolicy.Expanding)
 
         self.verticalLayout_15.addItem(self.verticalSpacerSystemRegionUpDownBottom)
 
 
         self.gridLayoutSystemRegions.addWidget(self.frameSystemRegionUpDown, 3, 3, 1, 1)
 
-        self.horizontalSpacerSystemRegions = QSpacerItem(40, 20, QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Minimum)
+        self.horizontalSpacerSystemRegions = QSpacerItem(40, 20, QSizePolicy.Expanding, QSizePolicy.Minimum)
 
         self.gridLayoutSystemRegions.addItem(self.horizontalSpacerSystemRegions, 3, 4, 1, 1)
 
@@ -2265,7 +2257,7 @@ class Ui_MainWindow(object):
         self.frameSystemRegionLeftRight.setFrameShadow(QFrame.Plain)
         self.verticalLayout_17 = QVBoxLayout(self.frameSystemRegionLeftRight)
         self.verticalLayout_17.setObjectName(u"verticalLayout_17")
-        self.verticalSpacerSystemRegionLeftRightTop = QSpacerItem(20, 40, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Expanding)
+        self.verticalSpacerSystemRegionLeftRightTop = QSpacerItem(20, 40, QSizePolicy.Minimum, QSizePolicy.Expanding)
 
         self.verticalLayout_17.addItem(self.verticalSpacerSystemRegionLeftRightTop)
 
@@ -2312,7 +2304,7 @@ class Ui_MainWindow(object):
 
         self.verticalLayout_17.addWidget(self.buttonSystemRegionAllLeft)
 
-        self.verticalSpacerSystemRegionLeftRightBottom = QSpacerItem(20, 40, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Expanding)
+        self.verticalSpacerSystemRegionLeftRightBottom = QSpacerItem(20, 40, QSizePolicy.Minimum, QSizePolicy.Expanding)
 
         self.verticalLayout_17.addItem(self.verticalSpacerSystemRegionLeftRightBottom)
 
@@ -2368,7 +2360,7 @@ class Ui_MainWindow(object):
 
         self.frameSystemRegionsHeader = QFrame(self.gridSystemRegions)
         self.frameSystemRegionsHeader.setObjectName(u"frameSystemRegionsHeader")
-        sizePolicy12 = QSizePolicy(QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Fixed)
+        sizePolicy12 = QSizePolicy(QSizePolicy.Expanding, QSizePolicy.Fixed)
         sizePolicy12.setHorizontalStretch(0)
         sizePolicy12.setVerticalStretch(0)
         sizePolicy12.setHeightForWidth(self.frameSystemRegionsHeader.sizePolicy().hasHeightForWidth())
@@ -2400,7 +2392,7 @@ class Ui_MainWindow(object):
 
         self.gridLayoutSystemRegions.addWidget(self.frameSystemRegionsHeader, 0, 0, 1, 5)
 
-        self.verticalSpacerSystemRegionsEnglishButton = QSpacerItem(20, 6, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Fixed)
+        self.verticalSpacerSystemRegionsEnglishButton = QSpacerItem(20, 6, QSizePolicy.Minimum, QSizePolicy.Fixed)
 
         self.gridLayoutSystemRegions.addItem(self.verticalSpacerSystemRegionsEnglishButton, 4, 0, 1, 1)
 
@@ -2451,7 +2443,7 @@ class Ui_MainWindow(object):
 
         self.frameSystemLanguagesHeader = QFrame(self.gridSystemLanguages)
         self.frameSystemLanguagesHeader.setObjectName(u"frameSystemLanguagesHeader")
-        sizePolicy13 = QSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Minimum)
+        sizePolicy13 = QSizePolicy(QSizePolicy.Preferred, QSizePolicy.Minimum)
         sizePolicy13.setHorizontalStretch(0)
         sizePolicy13.setVerticalStretch(0)
         sizePolicy13.setHeightForWidth(self.frameSystemLanguagesHeader.sizePolicy().hasHeightForWidth())
@@ -2483,7 +2475,7 @@ class Ui_MainWindow(object):
 
         self.gridLayoutSystemLanguages.addWidget(self.frameSystemLanguagesHeader, 0, 0, 1, 5)
 
-        self.horizontalSpacerSystemLanguages = QSpacerItem(40, 20, QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Minimum)
+        self.horizontalSpacerSystemLanguages = QSpacerItem(40, 20, QSizePolicy.Expanding, QSizePolicy.Minimum)
 
         self.gridLayoutSystemLanguages.addItem(self.horizontalSpacerSystemLanguages, 3, 4, 1, 1)
 
@@ -2496,7 +2488,7 @@ class Ui_MainWindow(object):
         self.frameSystemLanguageLeftRight.setFrameShadow(QFrame.Plain)
         self.verticalLayout_26 = QVBoxLayout(self.frameSystemLanguageLeftRight)
         self.verticalLayout_26.setObjectName(u"verticalLayout_26")
-        self.verticalSpacerSystemLanguageLeftRightTop = QSpacerItem(20, 40, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Expanding)
+        self.verticalSpacerSystemLanguageLeftRightTop = QSpacerItem(20, 40, QSizePolicy.Minimum, QSizePolicy.Expanding)
 
         self.verticalLayout_26.addItem(self.verticalSpacerSystemLanguageLeftRightTop)
 
@@ -2543,11 +2535,11 @@ class Ui_MainWindow(object):
 
         self.verticalLayout_26.addWidget(self.buttonSystemLanguageAllLeft)
 
-        self.verticalSpacerSystemLanguageLeftRightBottom = QSpacerItem(20, 40, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Expanding)
+        self.verticalSpacerSystemLanguageLeftRightBottom = QSpacerItem(20, 40, QSizePolicy.Minimum, QSizePolicy.Expanding)
 
         self.verticalLayout_26.addItem(self.verticalSpacerSystemLanguageLeftRightBottom)
 
-        self.verticalSpacerSystemLanguageLeftRightBuffer = QSpacerItem(20, 53, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Fixed)
+        self.verticalSpacerSystemLanguageLeftRightBuffer = QSpacerItem(20, 53, QSizePolicy.Minimum, QSizePolicy.Fixed)
 
         self.verticalLayout_26.addItem(self.verticalSpacerSystemLanguageLeftRightBuffer)
 
@@ -2577,7 +2569,7 @@ class Ui_MainWindow(object):
         self.frameSystemLanguageUpDown.setFrameShadow(QFrame.Plain)
         self.verticalLayout_28 = QVBoxLayout(self.frameSystemLanguageUpDown)
         self.verticalLayout_28.setObjectName(u"verticalLayout_28")
-        self.verticalSpacerSystemLanguageUpDownTop = QSpacerItem(20, 40, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Expanding)
+        self.verticalSpacerSystemLanguageUpDownTop = QSpacerItem(20, 40, QSizePolicy.Minimum, QSizePolicy.Expanding)
 
         self.verticalLayout_28.addItem(self.verticalSpacerSystemLanguageUpDownTop)
 
@@ -2601,11 +2593,11 @@ class Ui_MainWindow(object):
 
         self.verticalLayout_28.addWidget(self.buttonSystemLanguageDown)
 
-        self.verticalSpacerSystemLanguageUpDownBottom = QSpacerItem(20, 40, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Expanding)
+        self.verticalSpacerSystemLanguageUpDownBottom = QSpacerItem(20, 40, QSizePolicy.Minimum, QSizePolicy.Expanding)
 
         self.verticalLayout_28.addItem(self.verticalSpacerSystemLanguageUpDownBottom)
 
-        self.verticalSpacerSystemLanguageUpDownBuffer = QSpacerItem(20, 53, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Fixed)
+        self.verticalSpacerSystemLanguageUpDownBuffer = QSpacerItem(20, 53, QSizePolicy.Minimum, QSizePolicy.Fixed)
 
         self.verticalLayout_28.addItem(self.verticalSpacerSystemLanguageUpDownBuffer)
 
@@ -2660,11 +2652,11 @@ class Ui_MainWindow(object):
         self.gridLayoutSystemVideo.setSpacing(6)
         self.gridLayoutSystemVideo.setObjectName(u"gridLayoutSystemVideo")
         self.gridLayoutSystemVideo.setContentsMargins(1, 0, 0, 0)
-        self.horizontalSpacerSystemVideo_3 = QSpacerItem(60, 20, QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Minimum)
+        self.horizontalSpacerSystemVideo_3 = QSpacerItem(60, 20, QSizePolicy.Fixed, QSizePolicy.Minimum)
 
         self.gridLayoutSystemVideo.addItem(self.horizontalSpacerSystemVideo_3, 4, 3, 1, 1)
 
-        self.horizontalSpacerSystemVideo_2 = QSpacerItem(40, 20, QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Minimum)
+        self.horizontalSpacerSystemVideo_2 = QSpacerItem(40, 20, QSizePolicy.Expanding, QSizePolicy.Minimum)
 
         self.gridLayoutSystemVideo.addItem(self.horizontalSpacerSystemVideo_2, 4, 4, 1, 1)
 
@@ -2677,7 +2669,7 @@ class Ui_MainWindow(object):
         self.frameSystemVideoDown.setFrameShadow(QFrame.Plain)
         self.verticalLayout_29 = QVBoxLayout(self.frameSystemVideoDown)
         self.verticalLayout_29.setObjectName(u"verticalLayout_29")
-        self.verticalSpacerSystemVideoUpDownTop = QSpacerItem(20, 40, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Expanding)
+        self.verticalSpacerSystemVideoUpDownTop = QSpacerItem(20, 40, QSizePolicy.Minimum, QSizePolicy.Expanding)
 
         self.verticalLayout_29.addItem(self.verticalSpacerSystemVideoUpDownTop)
 
@@ -2701,11 +2693,11 @@ class Ui_MainWindow(object):
 
         self.verticalLayout_29.addWidget(self.buttonSystemVideoStandardDown)
 
-        self.verticalSpacerSystemVideoUpDownBottom = QSpacerItem(20, 40, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Expanding)
+        self.verticalSpacerSystemVideoUpDownBottom = QSpacerItem(20, 40, QSizePolicy.Minimum, QSizePolicy.Expanding)
 
         self.verticalLayout_29.addItem(self.verticalSpacerSystemVideoUpDownBottom)
 
-        self.verticalSpacerSystemVideoUpDownBuffer = QSpacerItem(20, 54, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Fixed)
+        self.verticalSpacerSystemVideoUpDownBuffer = QSpacerItem(20, 54, QSizePolicy.Minimum, QSizePolicy.Fixed)
 
         self.verticalLayout_29.addItem(self.verticalSpacerSystemVideoUpDownBuffer)
 
@@ -2770,7 +2762,7 @@ class Ui_MainWindow(object):
 
         self.gridLayoutSystemVideo.addWidget(self.listWidgetSystemVideoStandards, 4, 0, 1, 1)
 
-        self.horizontalSpacerSystemVideo_1 = QSpacerItem(220, 20, QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Minimum)
+        self.horizontalSpacerSystemVideo_1 = QSpacerItem(220, 20, QSizePolicy.Fixed, QSizePolicy.Minimum)
 
         self.gridLayoutSystemVideo.addItem(self.horizontalSpacerSystemVideo_1, 4, 2, 1, 1)
 
@@ -2833,11 +2825,11 @@ class Ui_MainWindow(object):
 
         self.gridLayoutSystemExclusions.addWidget(self.checkBoxSystemExcludeAudio, 4, 0, 1, 1)
 
-        self.verticalSpacerSystemExclude_2 = QSpacerItem(20, 40, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Expanding)
+        self.verticalSpacerSystemExclude_2 = QSpacerItem(20, 40, QSizePolicy.Minimum, QSizePolicy.Expanding)
 
         self.gridLayoutSystemExclusions.addItem(self.verticalSpacerSystemExclude_2, 12, 0, 1, 1)
 
-        self.horizontalSpacerSystemExclude_2 = QSpacerItem(40, 20, QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Minimum)
+        self.horizontalSpacerSystemExclude_2 = QSpacerItem(40, 20, QSizePolicy.Expanding, QSizePolicy.Minimum)
 
         self.gridLayoutSystemExclusions.addItem(self.horizontalSpacerSystemExclude_2, 2, 5, 1, 1)
 
@@ -2846,7 +2838,7 @@ class Ui_MainWindow(object):
 
         self.gridLayoutSystemExclusions.addWidget(self.checkBoxSystemExcludeBonusDiscs, 7, 0, 1, 1)
 
-        self.horizontalSpacerSystemExclude_3 = QSpacerItem(13, 20, QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Minimum)
+        self.horizontalSpacerSystemExclude_3 = QSpacerItem(13, 20, QSizePolicy.Fixed, QSizePolicy.Minimum)
 
         self.gridLayoutSystemExclusions.addItem(self.horizontalSpacerSystemExclude_3, 6, 1, 1, 1)
 
@@ -2916,14 +2908,14 @@ class Ui_MainWindow(object):
 
         self.verticalLayout_20.addWidget(self.buttonSystemDeselectAllExclude)
 
-        self.verticalSpacerSystemExclude_1 = QSpacerItem(20, 40, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Expanding)
+        self.verticalSpacerSystemExclude_1 = QSpacerItem(20, 40, QSizePolicy.Minimum, QSizePolicy.Expanding)
 
         self.verticalLayout_20.addItem(self.verticalSpacerSystemExclude_1)
 
 
         self.gridLayoutSystemExclusions.addWidget(self.frameSystemExcludeSelectButtons, 2, 4, 4, 1)
 
-        self.horizontalSpacerSystemExclude_1 = QSpacerItem(20, 20, QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Minimum)
+        self.horizontalSpacerSystemExclude_1 = QSpacerItem(20, 20, QSizePolicy.Fixed, QSizePolicy.Minimum)
 
         self.gridLayoutSystemExclusions.addItem(self.horizontalSpacerSystemExclude_1, 6, 3, 1, 1)
 
@@ -2970,7 +2962,7 @@ class Ui_MainWindow(object):
 
         self.frameSystemUnlicensedSubOptionsAftermarket = QHBoxLayout()
         self.frameSystemUnlicensedSubOptionsAftermarket.setObjectName(u"frameSystemUnlicensedSubOptionsAftermarket")
-        self.unlicensedSystemSubOptionsSpacer = QSpacerItem(13, 20, QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Minimum)
+        self.unlicensedSystemSubOptionsSpacer = QSpacerItem(13, 20, QSizePolicy.Fixed, QSizePolicy.Minimum)
 
         self.frameSystemUnlicensedSubOptionsAftermarket.addItem(self.unlicensedSystemSubOptionsSpacer)
 
@@ -2984,7 +2976,7 @@ class Ui_MainWindow(object):
 
         self.frameSystemUnlicensedSubOptionsPirate = QHBoxLayout()
         self.frameSystemUnlicensedSubOptionsPirate.setObjectName(u"frameSystemUnlicensedSubOptionsPirate")
-        self.unlicensedsystemSubOptionsSpacerPirate = QSpacerItem(13, 20, QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Minimum)
+        self.unlicensedsystemSubOptionsSpacerPirate = QSpacerItem(13, 20, QSizePolicy.Fixed, QSizePolicy.Minimum)
 
         self.frameSystemUnlicensedSubOptionsPirate.addItem(self.unlicensedsystemSubOptionsSpacerPirate)
 
@@ -2998,7 +2990,7 @@ class Ui_MainWindow(object):
 
         self.frameSystemUnlicensedSubOptionsUnlicensed = QHBoxLayout()
         self.frameSystemUnlicensedSubOptionsUnlicensed.setObjectName(u"frameSystemUnlicensedSubOptionsUnlicensed")
-        self.unlicensedSystemSubOptionsSpacerUnlicensed = QSpacerItem(13, 20, QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Minimum)
+        self.unlicensedSystemSubOptionsSpacerUnlicensed = QSpacerItem(13, 20, QSizePolicy.Fixed, QSizePolicy.Minimum)
 
         self.frameSystemUnlicensedSubOptionsUnlicensed.addItem(self.unlicensedSystemSubOptionsSpacerUnlicensed)
 
@@ -3032,7 +3024,7 @@ class Ui_MainWindow(object):
         self.frameSystemLocalizationLeftRight.setFrameShadow(QFrame.Plain)
         self.verticalLayout_33 = QVBoxLayout(self.frameSystemLocalizationLeftRight)
         self.verticalLayout_33.setObjectName(u"verticalLayout_33")
-        self.verticalSpacerSystemLocalizationLeftRightTop = QSpacerItem(20, 40, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Expanding)
+        self.verticalSpacerSystemLocalizationLeftRightTop = QSpacerItem(20, 40, QSizePolicy.Minimum, QSizePolicy.Expanding)
 
         self.verticalLayout_33.addItem(self.verticalSpacerSystemLocalizationLeftRightTop)
 
@@ -3079,7 +3071,7 @@ class Ui_MainWindow(object):
 
         self.verticalLayout_33.addWidget(self.buttonSystemLocalizationAllLeft)
 
-        self.verticalSpacerSystemLocalizationLeftRightBottom = QSpacerItem(20, 40, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Expanding)
+        self.verticalSpacerSystemLocalizationLeftRightBottom = QSpacerItem(20, 40, QSizePolicy.Minimum, QSizePolicy.Expanding)
 
         self.verticalLayout_33.addItem(self.verticalSpacerSystemLocalizationLeftRightBottom)
 
@@ -3095,7 +3087,7 @@ class Ui_MainWindow(object):
         self.frameSystemLocalizationUpDown.setFrameShadow(QFrame.Plain)
         self.verticalLayout_34 = QVBoxLayout(self.frameSystemLocalizationUpDown)
         self.verticalLayout_34.setObjectName(u"verticalLayout_34")
-        self.verticalSpacerSystemLocalizationDownTop = QSpacerItem(20, 40, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Expanding)
+        self.verticalSpacerSystemLocalizationDownTop = QSpacerItem(20, 40, QSizePolicy.Minimum, QSizePolicy.Expanding)
 
         self.verticalLayout_34.addItem(self.verticalSpacerSystemLocalizationDownTop)
 
@@ -3119,7 +3111,7 @@ class Ui_MainWindow(object):
 
         self.verticalLayout_34.addWidget(self.buttonSystemLocalizationDown)
 
-        self.verticalSpacerSystemLocalizationUpDownBottom = QSpacerItem(20, 40, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Expanding)
+        self.verticalSpacerSystemLocalizationUpDownBottom = QSpacerItem(20, 40, QSizePolicy.Minimum, QSizePolicy.Expanding)
 
         self.verticalLayout_34.addItem(self.verticalSpacerSystemLocalizationUpDownBottom)
 
@@ -3149,7 +3141,7 @@ class Ui_MainWindow(object):
 
         self.gridLayoutGlobalLanguages_3.addWidget(self.lineSystemLocalizationSeparator, 1, 0, 1, 5)
 
-        self.verticalSpacerSystemLocalizationList = QSpacerItem(10, 8, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Fixed)
+        self.verticalSpacerSystemLocalizationList = QSpacerItem(10, 8, QSizePolicy.Minimum, QSizePolicy.Fixed)
 
         self.gridLayoutGlobalLanguages_3.addItem(self.verticalSpacerSystemLocalizationList, 3, 0, 1, 4)
 
@@ -3202,7 +3194,7 @@ class Ui_MainWindow(object):
 
         self.gridLayoutGlobalLanguages_3.addWidget(self.labelSystemLocalizationAvailableLanguages, 4, 0, 1, 1)
 
-        self.horizontalSpacerSystemLocalization = QSpacerItem(40, 20, QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Minimum)
+        self.horizontalSpacerSystemLocalization = QSpacerItem(40, 20, QSizePolicy.Expanding, QSizePolicy.Minimum)
 
         self.gridLayoutGlobalLanguages_3.addItem(self.horizontalSpacerSystemLocalization, 5, 4, 1, 1)
 
@@ -3274,7 +3266,7 @@ class Ui_MainWindow(object):
 
         self.gridLayoutSystemUserFilters.addWidget(self.textEditSystemInclude, 5, 0, 1, 1)
 
-        self.horizontalSpacerSystemOverrides = QSpacerItem(10, 20, QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Minimum)
+        self.horizontalSpacerSystemOverrides = QSpacerItem(10, 20, QSizePolicy.Fixed, QSizePolicy.Minimum)
 
         self.gridLayoutSystemUserFilters.addItem(self.horizontalSpacerSystemOverrides, 5, 1, 1, 1)
 
@@ -3290,7 +3282,7 @@ class Ui_MainWindow(object):
 
         self.gridLayoutSystemUserFilters.addWidget(self.lineSystemOverrideByText, 1, 0, 1, 3)
 
-        self.verticalSpacerSystemOverrides = QSpacerItem(20, 10, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Fixed)
+        self.verticalSpacerSystemOverrides = QSpacerItem(20, 10, QSizePolicy.Minimum, QSizePolicy.Fixed)
 
         self.gridLayoutSystemUserFilters.addItem(self.verticalSpacerSystemOverrides, 3, 0, 1, 3)
 
@@ -3408,7 +3400,7 @@ class Ui_MainWindow(object):
 
         self.gridLayoutGlobalUserFilters_4.addWidget(self.lineSystemFilterByText, 1, 0, 1, 2)
 
-        self.verticalSpacerSystemFilters = QSpacerItem(20, 10, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Fixed)
+        self.verticalSpacerSystemFilters = QSpacerItem(20, 10, QSizePolicy.Minimum, QSizePolicy.Fixed)
 
         self.gridLayoutGlobalUserFilters_4.addItem(self.verticalSpacerSystemFilters, 3, 0, 1, 2)
 
@@ -3583,7 +3575,7 @@ class Ui_MainWindow(object):
 
         self.verticalLayout_22.addWidget(self.checkBoxSystemOptionsDisableOverrides)
 
-        self.verticalSpacer_3 = QSpacerItem(20, 6, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Fixed)
+        self.verticalSpacer_3 = QSpacerItem(20, 6, QSizePolicy.Minimum, QSizePolicy.Fixed)
 
         self.verticalLayout_22.addItem(self.verticalSpacer_3)
 
@@ -3616,7 +3608,7 @@ class Ui_MainWindow(object):
 
         self.verticalLayout_38.addWidget(self.comboBoxSystemChooseCompilationsMode)
 
-        self.verticalSpacer_4 = QSpacerItem(20, 6, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Fixed)
+        self.verticalSpacer_4 = QSpacerItem(20, 6, QSizePolicy.Minimum, QSizePolicy.Fixed)
 
         self.verticalLayout_38.addItem(self.verticalSpacer_4)
 
@@ -3630,7 +3622,7 @@ class Ui_MainWindow(object):
 
         self.verticalLayout_22.addWidget(self.frameSytemCompilations, 0, Qt.AlignTop)
 
-        self.verticalSpacerSystemOptions_1 = QSpacerItem(20, 13, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Fixed)
+        self.verticalSpacerSystemOptions_1 = QSpacerItem(20, 13, QSizePolicy.Minimum, QSizePolicy.Fixed)
 
         self.verticalLayout_22.addItem(self.verticalSpacerSystemOptions_1)
 
@@ -3748,7 +3740,7 @@ class Ui_MainWindow(object):
 
         self.verticalLayout_22.addWidget(self.frameSystemOptions1G1RPrefix)
 
-        self.verticalSpacerSystemOptions_2 = QSpacerItem(20, 12, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Fixed)
+        self.verticalSpacerSystemOptions_2 = QSpacerItem(20, 12, QSizePolicy.Minimum, QSizePolicy.Fixed)
 
         self.verticalLayout_22.addItem(self.verticalSpacerSystemOptions_2)
 
@@ -3842,7 +3834,7 @@ class Ui_MainWindow(object):
 
         self.verticalLayout_22.addWidget(self.frameSystemOptionsTrace)
 
-        self.verticalSpacerSystemOptions_3 = QSpacerItem(20, 40, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Expanding)
+        self.verticalSpacerSystemOptions_3 = QSpacerItem(20, 40, QSizePolicy.Minimum, QSizePolicy.Expanding)
 
         self.verticalLayout_22.addItem(self.verticalSpacerSystemOptions_3)
 
@@ -3920,7 +3912,7 @@ class Ui_MainWindow(object):
         self.horizontalLayoutOutputGo = QHBoxLayout(self.horizontalLayoutBottom)
         self.horizontalLayoutOutputGo.setObjectName(u"horizontalLayoutOutputGo")
         self.horizontalLayoutOutputGo.setContentsMargins(0, 0, 9, 0)
-        self.horizontalSpacer = QSpacerItem(40, 20, QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Minimum)
+        self.horizontalSpacer = QSpacerItem(40, 20, QSizePolicy.Expanding, QSizePolicy.Minimum)
 
         self.horizontalLayoutOutputGo.addItem(self.horizontalSpacer)
 
