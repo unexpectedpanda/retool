@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "51f37bc13ff45a2fdbb4875a9c36a0cd73422d8a7ae8c375bf447273550f5541"
+            "sha256": "4973dbf6151a6f3fdfe0247392c3482814f83a65c2110223aefd18c353e1a5b4"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -235,34 +235,34 @@
         },
         "pyside6": {
             "hashes": [
-                "sha256:8103f14ed46a05e81acccbfc8388e3321e392fe54f3aa4a13336bd2ed8af5cd4",
-                "sha256:d41dfcfa32c89502cdaa20206b7e2aba199072f94b424bc6a4d6f50b10f4eb5a",
-                "sha256:d487eab0f9bfc5c9141b474093e16207ff48cd9335e6465a01deb8dff0693fbc",
-                "sha256:f40917b7a0c5c7f0c7faaa87e66ffa3b58d9d1d3d977d30fc07e193b82dd6749"
+                "sha256:3b6266fb29bab66526f2bbab2a6610f9f47a4df42ae6fb3713cd8329f593a561",
+                "sha256:5bdaa27d1a921c35764d82a2ec86943488c818cb33b9e16b2784d539b45f6171",
+                "sha256:a8200b2a1f02e42adfd1f41bc60d52d157398778b6ba232d46ad7402bc6f91ec",
+                "sha256:e359ebccd3f90fba85ebd5b93bdeadfa9e5d2fd06b3b5e8985aa5da50ca6243b"
             ],
             "index": "pypi",
             "markers": "python_version < '3.13' and python_version >= '3.8'",
-            "version": "==6.6.0"
+            "version": "==6.6.2"
         },
         "pyside6-addons": {
             "hashes": [
-                "sha256:414864f7cfbdf8ac4c5a745566a515f18b6018d5730bf5489cc2716b5e1fcd9b",
-                "sha256:5c56e963b841aeaacbc9ca8ca34df45308818dbd6fc59faa2b5a00a299e9892b",
-                "sha256:82fe1bb6a1aabf5ab3d8632072dc908aa37fc75b4b46e520258c441bd6b103fb",
-                "sha256:e145514a7c37ee3a6ad0ddd693f805ccff6fbd9640a24fb2ef6b7f852882d3e9"
+                "sha256:4fb00bc98bc8335177eaa8f6d70ba687ab9bf00b3ee343abbc7156040f3e586d",
+                "sha256:748151fb49d5fe760b7cf6c88c4ec851e68d66a119939567407115948bf8a08f",
+                "sha256:90f20dcf2caf69307e20d3d682cbe2b1a38e7ddb1f50f4f0e3ae4306219f8883",
+                "sha256:cbdb7393de88a916ed1e9bd8407149f911717d1e06aee04119e26042679d8cce"
             ],
             "markers": "python_version < '3.13' and python_version >= '3.8'",
-            "version": "==6.6.0"
+            "version": "==6.6.2"
         },
         "pyside6-essentials": {
             "hashes": [
-                "sha256:26d27e3e3a18acbc770a69a30774fd345414fe4932fcb89d2cfc4fc130c3eb33",
-                "sha256:37d5d9c6ee696a17890f07e7ce1f88f890174bd4aca29f47922ecc959ab28352",
-                "sha256:60284641619f964e1cb4d53cf3169d7a385e0378b74edb75610918d2aea1c4e5",
-                "sha256:97bbe33f584a09cef6a3fbc1295fb0fd7acaac345bc0f5601bf45d41c91683ac"
+                "sha256:030a0565ad2d6361ed8be7826f81fe3dbb7a98330837687608e75cbede5f0ca2",
+                "sha256:11496a322138eab4579c3683d2e3afebb41435412d4109394cb2b9ddaac66fe3",
+                "sha256:41373f9b8fd17bb39a7dc7da85168508fe288955a17117c2e993339f387b23c1",
+                "sha256:90be2cf1a404f1c62777ccc6898895c864376f1fd68ae9f82f7622522bce5814"
             ],
             "markers": "python_version < '3.13' and python_version >= '3.8'",
-            "version": "==6.6.0"
+            "version": "==6.6.2"
         },
         "python-dateutil": {
             "hashes": [
@@ -274,13 +274,13 @@
         },
         "shiboken6": {
             "hashes": [
-                "sha256:456b89fb4b323e0c5002d92e4d346b48bb4e709db801208df8a0d6b4f5efc33d",
-                "sha256:bf23c43e53ffe6097853666ced05358c6640c378e992902a36c4cf77efb0223b",
-                "sha256:e62b2610b84f0ff7ed0181a4c535849cdc0654127097b5ef561cf0a33078f245",
-                "sha256:fb8c683206c3365f9240fff7f908485384893b02efb089b69ff816b4390baa9a"
+                "sha256:531728324ad3ad4ed7b1d85d2dff548d618182d67024e16e84079f7db104590d",
+                "sha256:60dbad15901ad6fff6e198d8668091bbb2f20b82729412e5fd4d47ac86c97d42",
+                "sha256:9da86622cee5e7201bafe9c5beee3c06d9168c6b8f3e2fac52c1b7df00956bff",
+                "sha256:d4e99e7d1137a7d2c665a465b80baf820829dfba5fe474549d49b0ef81b0abf2"
             ],
             "markers": "python_version < '3.13' and python_version >= '3.8'",
-            "version": "==6.6.0"
+            "version": "==6.6.2"
         },
         "six": {
             "hashes": [
