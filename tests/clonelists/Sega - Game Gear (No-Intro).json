@@ -1,0 +1,285 @@
+{
+	"description": {
+		"name": "Sega - Game Gear (No-Intro)",
+		"lastUpdated": "30 December 2023",
+		"minimumVersion": "2.02"
+	},
+
+	"variants": [
+		{
+			"group": "Ax Battler - A Legend of Golden Axe",
+			"titles": [
+				{"searchTerm": "Ax Battler - A Legend of Golden Axe", "priority": 2},
+				{"searchTerm": "Ax Battler - Golden Axe Densetsu"}
+			]
+		},
+		{
+			"group": "Baku Baku",
+			"titles": [
+				{"searchTerm": "Baku Baku"},
+				{"searchTerm": "Baku Baku Animal - Sekai Shiikugakari Senshu-ken"}
+			]
+		},
+		{
+			"group": "Batter Up",
+			"titles": [
+				{"searchTerm": "Batter Up"},
+				{"searchTerm": "Gear Stadium"}
+			]
+		},
+		{
+			"group": "Bust-A-Move",
+			"titles": [
+				{"searchTerm": "Bust-A-Move"},
+				{"searchTerm": "Puzzle Bobble", "priority": 2}
+			]
+		},
+		{
+			"group": "Castle of Illusion Starring Mickey Mouse",
+			"titles": [
+				{"searchTerm": "Castle of Illusion Starring Mickey Mouse"},
+				{"searchTerm": "Mickey Mouse no Castle Illusion"}
+			]
+		},
+		{
+			"group": "Chase H.Q.",
+			"titles": [
+				{"searchTerm": "Chase H.Q."},
+				{"searchTerm": "Taito Chase H.Q."}
+			]
+		},
+		{
+			"group": "Chicago Syndicate",
+			"titles": [
+				{"searchTerm": "Chicago Syndicate"},
+				{"searchTerm": "Empire Syndicate", "priority": 2}
+			]
+		},
+		{
+			"group": "Crystal Warriors",
+			"titles": [
+				{"searchTerm": "Arliel - Crystal Densetsu"},
+				{"searchTerm": "Crystal Warriors"}
+			]
+		},
+		{
+			"group": "Deep Duck Trouble Starring Donald Duck",
+			"titles": [
+				{"searchTerm": "Deep Duck Trouble Starring Donald Duck"},
+				{"searchTerm": "Donald Duck no 4-Tsu no Hihou"}
+			]
+		},
+		{
+			"group": "Defenders of Oasis",
+			"titles": [
+				{"searchTerm": "Defenders of Oasis"},
+				{"searchTerm": "Shadam Crusader - Harukanaru Oukoku"}
+			]
+		},
+		{
+			"group": "Desert Strike - Return to the Gulf",
+			"titles": [
+				{"searchTerm": "Desert Strike"},
+				{"searchTerm": "Desert Strike - Return to the Gulf"}
+			]
+		},
+		{
+			"group": "Dragon Crystal",
+			"titles": [
+				{"searchTerm": "Dragon Crystal"},
+				{"searchTerm": "Dragon Crystal - Tsurani no Meikyuu"}
+			]
+		},
+		{
+			"group": "Ecco - The Tides of Time",
+			"titles": [
+				{"searchTerm": "Ecco - The Tides of Time"},
+				{"searchTerm": "Ecco the Dolphin II"}
+			]
+		},
+		{
+			"group": "Factory Panic",
+			"titles": [
+				{"searchTerm": "Factory Panic"},
+				{"searchTerm": "Ganbare Gorby!"}
+			]
+		},
+		{
+			"group": "Fantasy Zone",
+			"titles": [
+				{
+					"searchTerm": "Fantasy Zone",
+					"filters": [
+						{
+							"conditions": {"matchRegions": ["Japan", "Europe"]},
+							"results": {"localizedNames": {"english": "Fantasy Zone", "japanese": "ＦａｎｔａｓｙＺｏｎｅＧｅａｒオパオパＪｒ．の冒険"}}
+						}
+					]
+				}
+			]
+		},
+		{
+			"group": "Fatal Fury Special",
+			"titles": [
+				{"searchTerm": "Fatal Fury Special"},
+				{"searchTerm": "Garou Densetsu Special"}
+			]
+		},
+		{
+			"group": "Galaga 2",
+			"titles": [
+				{"searchTerm": "Galaga '91"},
+				{"searchTerm": "Galaga 2"}
+			]
+		},
+		{
+			"group": "George Foreman's KO Boxing",
+			"titles": [
+				{"searchTerm": "George Foreman's KO Boxing"},
+				{"searchTerm": "Heavy Weight Champ"}
+			]
+		},
+		{
+			"group": "Land of Illusion Starring Mickey Mouse",
+			"titles": [
+				{"searchTerm": "Land of Illusion Starring Mickey Mouse"},
+				{"searchTerm": "Mickey Mouse no Mahou no Crystal"}
+			]
+		},
+		{
+			"group": "Legend of Illusion Starring Mickey Mouse",
+			"titles": [
+				{"searchTerm": "Legend of Illusion Starring Mickey Mouse"},
+				{"searchTerm": "Mickey Mouse Densetsu no Oukoku - Legend of Illusion"}
+			]
+		},
+		{
+			"group": "Lucky Dime Caper Starring Donald Duck, The",
+			"titles": [
+				{"searchTerm": "Donald Duck no Lucky Dime"},
+				{"searchTerm": "Lucky Dime Caper Starring Donald Duck, The"}
+			]
+		},
+		{
+			"group": "Mortal Kombat",
+			"titles": [
+				{"searchTerm": "Mortal Kombat"},
+				{"searchTerm": "Mortal Kombat - Shinken Kourin Densetsu"}
+			]
+		},
+		{
+			"group": "Power Strike II",
+			"titles": [
+				{"searchTerm": "GG Aleste II", "localizedNames": {"english": "Power Strike II", "japanese": "ＧＧ　Ａｌｅｓｔｅ　Ⅱ"}},
+				{"searchTerm": "Power Strike II", "localizedNames": {"english": "Power Strike II", "japanese": "ＧＧ　Ａｌｅｓｔｅ　Ⅱ"}}
+			]
+		},
+		{
+			"group": "Revenge of Drancon",
+			"titles": [
+				{"searchTerm": "Revenge of Drancon"},
+				{"searchTerm": "Wonder Boy"}
+			]
+		},
+		{
+			"group": "Samurai Shodown",
+			"titles": [
+				{"searchTerm": "Samurai Shodown"},
+				{"searchTerm": "Samurai Spirits"}
+			]
+		},
+		{
+			"group": "Shining Force - The Sword of Hajya",
+			"titles": [
+				{"searchTerm": "Shining Force - The Sword of Hajya"},
+				{"searchTerm": "Shining Force Gaiden II - Jashin no Kakusei"}
+			]
+		},
+		{
+			"group": "Shinobi",
+			"titles": [
+				{"searchTerm": "GG Shinobi, The"},
+				{"searchTerm": "Shinobi"}
+			]
+		},
+		{
+			"group": "Slider",
+			"titles": [
+				{"searchTerm": "Skweek"},
+				{"searchTerm": "Slider"}
+			]
+		},
+		{
+			"group": "Solitaire Poker",
+			"titles": [
+				{"searchTerm": "Ryuukyuu"},
+				{"searchTerm": "Solitaire Poker"}
+			]
+		},
+		{
+			"group": "Sonic Chaos",
+			"titles": [
+				{"searchTerm": "Sonic & Tails"},
+				{"searchTerm": "Sonic Chaos"}
+			]
+		},
+		{
+			"group": "Sonic The Hedgehog - Triple Trouble",
+			"titles": [
+				{"searchTerm": "Sonic & Tails 2"},
+				{"searchTerm": "Sonic The Hedgehog - Triple Trouble"}
+			]
+		},
+		{
+			"group": "Street Battle",
+			"titles": [
+				{"searchTerm": "Jang Pung II"},
+				{"searchTerm": "Street Battle"}
+			]
+		},
+		{
+			"group": "Tengen World Cup Soccer",
+			"titles": [
+				{"searchTerm": "Kick & Rush"},
+				{"searchTerm": "Tengen World Cup Soccer"}
+			]
+		},
+		{
+			"group": "Vampire - Master of Darkness",
+			"titles": [
+				{"searchTerm": "In the Wake of Vampire"},
+				{"searchTerm": "Master of Darkness"},
+				{"searchTerm": "Vampire - Master of Darkness"}
+			]
+		},
+		{
+			"group": "Virtua Fighter Animation",
+			"titles": [
+				{"searchTerm": "Virtua Fighter Animation"},
+				{"searchTerm": "Virtua Fighter Mini"}
+			]
+		},
+		{
+			"group": "Wonder Boy - The Dragon's Trap",
+			"titles": [
+				{"searchTerm": "Monster World II - Dragon no Wana"},
+				{"searchTerm": "Wonder Boy - The Dragon's Trap"},
+				{"searchTerm": "Wonder Boy III - The Dragon's Trap", "priority": 2}
+			]
+		},
+		{
+			"group": "World Series Baseball '95",
+			"titles": [
+				{"searchTerm": "Nomo Hideo no World Series Baseball"},
+				{"searchTerm": "World Series Baseball '95"}
+			]
+		},
+		{
+			"group": "Zool - Ninja of the 'Nth' Dimension",
+			"titles": [
+				{"searchTerm": "Zool - Ninja of the 'Nth' Dimension"},
+				{"searchTerm": "Zool no Yume Bouken"}
+			]
+		}
+	]
+}

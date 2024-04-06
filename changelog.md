@@ -1,6 +1,15 @@
 # Retool changelog
 
 
+## 2.03.2 (2024-04-06)
+
+-   **_Fix_**: Fixed Retool falsely thinking CLRMAMEPro DAT files have already been
+    processed.
+
+-   **_Chore_**: Updated dependencies. Locked down PySide6 version due to a [bug](https://bugreports.qt.io/projects/PYSIDE/issues/PYSIDE-2665?filter=allopenissues)
+    that interferes with testing.
+
+
 ## 2.03.1 (2024-04-06)
 
 -   **_Change_**: The **Prefer regions over languages** setting now also overrides

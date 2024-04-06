@@ -1,0 +1,291 @@
+{
+	"description": {
+		"name": "Nintendo - Wii U (Redump)",
+		"lastUpdated": "17 July 2023",
+		"minimumVersion": "2.00"
+	},
+	"variants": [
+		{
+			"group": "Animal Crossing - Amiibo Festival",
+			"titles": [
+				{"searchTerm": "Animal Crossing - Amiibo Festival"},
+				{"searchTerm": "Doubutsu no Mori - Amiibo Festival"}
+			]
+		},
+		{
+			"group": "Batman - Arkham City - Armored Edition",
+			"titles": [
+				{"searchTerm": "Batman - Arkham City - Armored Edition"},
+				{"searchTerm": "Batman - Arkham City - Armoured Edition"}
+			]
+		},
+		{
+			"group": "Captain Toad - Treasure Tracker",
+			"titles": [
+				{"searchTerm": "Captain Toad - Treasure Tracker"},
+				{"searchTerm": "Susume! Kinopio Taichou"}
+			]
+		},
+		{
+			"group": "Disney Epic Mickey 2 - The Power of Two",
+			"titles": [
+				{"searchTerm": "Disney Epic Mickey 2 - Futatsu no Chikara"},
+				{"searchTerm": "Disney Epic Mickey 2 - The Power of Two"}
+			]
+		},
+		{
+			"group": "Disney Infinity 2.0 Edition",
+			"titles": [
+				{"searchTerm": "Disney Infinity 2.0 - Play Without Limits"},
+				{"searchTerm": "Disney Infinity 2.0 Edition"}
+			]
+		},
+		{
+			"group": "Disney Infinity 3.0 Edition",
+			"titles": [
+				{"searchTerm": "Disney Infinity 3.0"},
+				{"searchTerm": "Disney Infinity 3.0 - Play Without Limits"},
+				{"searchTerm": "Disney Infinity 3.0 Edition"}
+			]
+		},
+		{
+			"group": "Donkey Kong Country - Tropical Freeze",
+			"titles": [
+				{"searchTerm": "Donkey Kong - Tropical Freeze"},
+				{"searchTerm": "Donkey Kong Country - Tropical Freeze"}
+			]
+		},
+		{
+			"group": "Dragon Quest X - All in One Package-",
+			"titles": [
+				{"searchTerm": "Dragon Quest X - All in One Package-"},
+				{"searchTerm": "Dragon Quest X - All in One Package", "priority": 2}
+			]
+		},
+		{
+			"group": "ESPN Sports Connection",
+			"titles": [
+				{"searchTerm": "ESPN Sports Connection"},
+				{"searchTerm": "Sports Connection"}
+			]
+		},
+		{
+			"group": "FIFA Soccer 13",
+			"titles": [
+				{"searchTerm": "FIFA 13"},
+				{"searchTerm": "FIFA 13 - World Class Soccer"},
+				{"searchTerm": "FIFA Soccer 13"}
+			]
+		},
+		{
+			"group": "Hyrule Warriors",
+			"titles": [
+				{"searchTerm": "Hyrule Warriors"},
+				{"searchTerm": "Zelda Musou"}
+			]
+		},
+		{
+			"group": "Injustice - Gods Among Us",
+			"titles": [
+				{"searchTerm": "Injustice - Gods Among Us"},
+				{"searchTerm": "Injustice - Hero no Gekitotsu"}
+			]
+		},
+		{
+			"group": "Kamen Rider - Battride War II",
+			"titles": [
+				{"searchTerm": "Kamen Rider - Battride War II"}
+			],
+			"supersets": [
+				{"searchTerm": "Kamen Rider - Battride War II - Premium TV & Movie Sound Edition"}
+			]
+		},
+		{
+			"group": "Kirby and the Rainbow Curse",
+			"titles": [
+				{"searchTerm": "Kirby and the Rainbow Curse"},
+				{"searchTerm": "Kirby and the Rainbow Paintbrush"},
+				{"searchTerm": "Touch! Kirby Super Rainbow"}
+			]
+		},
+		{
+			"group": "Legend of Zelda, The - Breath of the Wild",
+			"titles": [
+				{"searchTerm": "Legend of Zelda, The - Breath of the Wild"},
+				{"searchTerm": "Zelda no Densetsu - Breath of the Wild"}
+			]
+		},
+		{
+			"group": "Legend of Zelda, The - The Wind Waker HD",
+			"titles": [
+				{"searchTerm": "Legend of Zelda, The - The Wind Waker HD"},
+				{"searchTerm": "Zelda no Densetsu - Kaze no Takuto HD"}
+			]
+		},
+		{
+			"group": "Legend of Zelda, The - Twilight Princess HD",
+			"titles": [
+				{"searchTerm": "Legend of Zelda, The - Twilight Princess HD"},
+				{"searchTerm": "Zelda no Densetsu - Twilight Princess HD"}
+			]
+		},
+		{
+			"group": "LEGO Batman 3 - Beyond Gotham",
+			"titles": [
+				{"searchTerm": "LEGO Batman 3 - Beyond Gotham"},
+				{"searchTerm": "LEGO Batman 3 - The Game - Gotham kara Uchuu e"}
+			]
+		},
+		{
+			"group": "LEGO Marvel Super Heroes",
+			"titles": [
+				{"searchTerm": "LEGO Marvel Super Heroes"},
+				{"searchTerm": "LEGO Marvel Super Heroes - The Game"}
+			]
+		},
+		{
+			"group": "LEGO Movie, The - Videogame",
+			"titles": [
+				{"searchTerm": "LEGO Movie, The - Videogame"},
+				{"searchTerm": "LEGO Movie - The Game"}
+			]
+		},
+		{
+			"group": "LEGO Star Wars - The Force Awakens",
+			"titles": [
+				{"searchTerm": "LEGO Star Wars - Force no Kakusei"},
+				{"searchTerm": "LEGO Star Wars - The Force Awakens"}
+			]
+		},
+		{
+			"group": "Mario & Sonic at the Rio 2016 Olympic Games",
+			"titles": [
+				{"searchTerm": "Mario & Sonic at Rio Olympic"},
+				{"searchTerm": "Mario & Sonic at the Rio 2016 Olympic Games"}
+			]
+		},
+		{
+			"group": "Mario & Sonic at the Sochi 2014 Olympic Winter Games",
+			"titles": [
+				{"searchTerm": "Mario & Sonic at the Sochi 2014 Olympic Winter Games"},
+				{"searchTerm": "Mario & Sonic at the Sochi Olympic"}
+			]
+		},
+		{
+			"group": "Mass Effect 3 - Special Edition",
+			"titles": [
+				{"searchTerm": "Mass Effect 3 - Special Edition"},
+				{"searchTerm": "Mass Effect 3 - Tokubetsu-ban"}
+			]
+		},
+		{
+			"group": "Monster Hunter 3 Ultimate",
+			"titles": [
+				{"searchTerm": "Monster Hunter 3 Ultimate"},
+				{"searchTerm": "Monster Hunter 3G - HD Ver."}
+			]
+		},
+		{
+			"group": "Need for Speed - Most Wanted U",
+			"titles": [
+				{"searchTerm": "Need for Speed - Most Wanted U"},
+				{"searchTerm": "Need for Speed - Most Wanted U - A Criterion Game"}
+			]
+		},
+		{
+			"group": "New Super Luigi U",
+			"titles": [
+				{"searchTerm": "New Super Luigi U"}
+			],
+			"compilations": [
+				{"searchTerm": "New Super Mario Bros. U + New Super Luigi U"}
+			]
+		},
+		{
+			"group": "New Super Mario Bros. U",
+			"titles": [
+				{"searchTerm": "New Super Mario Bros. U"}
+			],
+			"compilations": [
+				{"searchTerm": "New Super Mario Bros. U + New Super Luigi U"}
+			]
+		},
+		{
+			"group": "One Piece - Unlimited World Red",
+			"titles": [
+				{"searchTerm": "One Piece - Unlimited World R"},
+				{"searchTerm": "One Piece - Unlimited World Red"}
+			]
+		},
+		{
+			"group": "Pokken Tournament",
+			"titles": [
+				{"searchTerm": "Pokken - Pokken Tournament"},
+				{"searchTerm": "Pokken Tournament"}
+			]
+		},
+		{
+			"group": "Resident Evil - Revelations",
+			"titles": [
+				{"searchTerm": "Biohazard - Revelations - Unveiled Edition"},
+				{"searchTerm": "Resident Evil - Revelations"}
+			]
+		},
+		{
+			"group": "Sangokushi 12",
+			"titles": [
+				{"searchTerm": "Sangokushi 12 with Power-Up Kit"},
+				{"searchTerm": "Sangokushi 12", "priority": 2}
+			]
+		},
+		{
+			"group": "Sonic Boom - Rise of Lyric",
+			"titles": [
+				{"searchTerm": "Sonic Boom - Rise of Lyric"},
+				{"searchTerm": "Sonic Toon - Taiko no Hihou"}
+			]
+		},
+		{
+			"group": "Super Smash Bros. for Wii U",
+			"titles": [
+				{"searchTerm": "Dairantou Smash Brothers for Wii U"},
+				{"searchTerm": "Super Smash Bros. for Wii U"}
+			]
+		},
+		{
+			"group": "Tokyo Mirage Sessions FE",
+			"titles": [
+				{"searchTerm": "Gen'ei Ibunroku FE"},
+				{"searchTerm": "Tokyo Mirage Sessions FE"}
+			]
+		},
+		{
+			"group": "Warriors Orochi 3 Hyper",
+			"titles": [
+				{"searchTerm": "Musou Orochi 2 Hyper"},
+				{"searchTerm": "Warriors Orochi 3 Hyper"}
+			]
+		},
+		{
+			"group": "Watch_Dogs",
+			"titles": [
+				{"searchTerm": "Watch_Dogs"},
+				{"searchTerm": "Watch Dogs"}
+			]
+		},
+		{
+			"group": "Xenoblade Chronicles X",
+			"titles": [
+				{"searchTerm": "Xenoblade Chronicles X"},
+				{"searchTerm": "Xenoblade X"}
+			]
+		},
+		{
+			"group": "Yoshi's Woolly World",
+			"titles": [
+				{"searchTerm": "Yoshi's Woolly World"},
+				{"searchTerm": "Yoshi Wool World"}
+			]
+		}
+	]
+}

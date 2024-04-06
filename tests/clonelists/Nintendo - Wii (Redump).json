@@ -1,0 +1,3161 @@
+{
+	"description": {
+		"name": "Nintendo - Wii (Redump)",
+		"lastUpdated": "26 December 2023",
+		"minimumVersion": "2.02"
+	},
+
+	"variants": [
+		{
+			"group": "007 - Quantum of Solace",
+			"titles": [
+				{"searchTerm": "007 - Nagusame no Houshuu"},
+				{"searchTerm": "007 - Quantum of Solace"}
+			]
+		},
+		{
+			"group": "101-in-1 Party Megamix",
+			"titles": [
+				{"searchTerm": "101-in-1 Party Megamix"},
+				{"searchTerm": "101-in-1 Party Megamix Wii"}
+			]
+		},
+		{
+			"group": "2010 FIFA World Cup South Africa",
+			"titles": [
+				{"searchTerm": "2010 FIFA World Cup - Minami Africa Taikai"},
+				{"searchTerm": "2010 FIFA World Cup South Africa"}
+			]
+		},
+		{
+			"group": "AC-DC Live - Rock Band Track Pack",
+			"titles": [
+				{"searchTerm": "AC-DC Live - Rock Band"},
+				{"searchTerm": "AC-DC Live - Rock Band Track Pack"}
+			]
+		},
+		{
+			"group": "Academy of Champions - Soccer",
+			"titles": [
+				{"searchTerm": "Academy of Champions - Football"},
+				{"searchTerm": "Academy of Champions - Soccer"}
+			]
+		},
+		{
+			"group": "Active Life - Explorer",
+			"titles": [
+				{"searchTerm": "Active Life - Explorer"},
+				{"searchTerm": "Family Trainer - Treasure Adventure"},
+				{"searchTerm": "Minna de Bouken! Family Trainer"}
+			]
+		},
+		{
+			"group": "Active Life - Extreme Challenge",
+			"titles": [
+				{"searchTerm": "Active Life - Extreme Challenge"},
+				{"searchTerm": "Family Trainer - Extreme Challenge"},
+				{"searchTerm": "Family Trainer 2"}
+			]
+		},
+		{
+			"group": "Active Life - Magical Carnival",
+			"titles": [
+				{"searchTerm": "Active Life - Magical Carnival"},
+				{"searchTerm": "Family Trainer - Magical Carnival"},
+				{"searchTerm": "Issho ni Asobu! Dream Theme Park"}
+			]
+		},
+		{
+			"group": "Active Life - Outdoor Challenge",
+			"titles": [
+				{"searchTerm": "Active Life - Outdoor Challenge"},
+				{"searchTerm": "Family Trainer"}
+			]
+		},
+		{
+			"group": "Adventures of Tintin, The - The Game",
+			"titles": [
+				{"searchTerm": "Adventures of Tintin, The - The Game"},
+				{"searchTerm": "Adventures of Tintin, The - The Secret of the Unicorn"}
+			]
+		},
+		{
+			"group": "AFL",
+			"titles": [
+				{"searchTerm": "AFL"}
+			],
+			"supersets": [
+				{"searchTerm": "AFL - Game of the Year Edition"}
+			]
+		},
+		{
+			"group": "Aladdin Magic Racer",
+			"titles": [
+				{"searchTerm": "Aladdin Magic Racer"},
+				{"searchTerm": "Aladin Magic Racer"}
+			]
+		},
+		{
+			"group": "All Star Cheer Squad",
+			"titles": [
+				{"searchTerm": "All Star Cheer Squad"},
+				{"searchTerm": "All Star Cheerleader"}
+			]
+		},
+		{
+			"group": "All Star Cheer Squad 2",
+			"titles": [
+				{"searchTerm": "All Star Cheer Squad 2"},
+				{"searchTerm": "All Star Cheerleader 2"}
+			]
+		},
+		{
+			"group": "American Mensa Academy",
+			"titles": [
+				{"searchTerm": "American Mensa Academy"},
+				{"searchTerm": "Mensa Academy"}
+			]
+		},
+		{
+			"group": "Animal Crossing - City Folk",
+			"titles": [
+				{"searchTerm": "Animal Crossing - City Folk"},
+				{"searchTerm": "Animal Crossing - Let's Go to the City"},
+				{"searchTerm": "Machi e Ikou yo - Doubutsu no Mori"},
+				{"searchTerm": "Tauneuro Nolleogayo - Dongmurui Sup"}
+			]
+		},
+		{
+			"group": "Animal Kingdom - Wildlife Expedition",
+			"titles": [
+				{"searchTerm": "Animal Kingdom - Wildlife Expedition"},
+				{"searchTerm": "Doubutsu Kisoutengai! Nazo no Rakuen de Scoop Shashin o Gekisha Seyo!"},
+				{"searchTerm": "Safar'Wii"}
+			]
+		},
+		{
+			"group": "Another Code R - A Journey into Lost Memories",
+			"titles": [
+				{"searchTerm": "Another Code R - A Journey into Lost Memories"},
+				{"searchTerm": "Another Code R - Kioku no Tobira"}
+			]
+		},
+		{
+			"group": "Artlist Collection - The Dog Island",
+			"titles": [
+				{"searchTerm": "Artlist Collection - The Dog Island"},
+				{"searchTerm": "Artlist Collection - The Dog Island - Hitotsu no Hana no Monogatari"}
+			]
+		},
+		{
+			"group": "Ashes Cricket 2009",
+			"titles": [
+				{"searchTerm": "Ashes Cricket 2009"},
+				{"searchTerm": "Cricket"}
+			]
+		},
+		{
+			"group": "Babysitting Mama",
+			"titles": [
+				{"searchTerm": "Babysitter Mama"},
+				{"searchTerm": "Babysitting Mama"},
+				{"searchTerm": "Cooking Mama World - Babysitting Mama"}
+			]
+		},
+		{
+			"group": "Bakugan - Battle Brawlers",
+			"titles": [
+				{"searchTerm": "Bakugan - Battle Brawlers"}
+			],
+			"supersets": [
+				{"searchTerm": "Bakugan - Battle Brawlers (Toys R Us)"}
+			]
+		},
+		{
+			"group": "Balloon Pop",
+			"titles": [
+				{"searchTerm": "Balloon Pop"},
+				{"searchTerm": "Pop!"},
+				{"searchTerm": "Rainbow Pop"}
+			]
+		},
+		{
+			"group": "Barbie - Groom and Glam Pups",
+			"titles": [
+				{"searchTerm": "Barbie - Groom and Glam Pups"},
+				{"searchTerm": "Barbie - Groom and Glam Pups (SB9P)"},
+				{"searchTerm": "Barbie - Groom and Glam Pups (SB9Y)", "priority": 2}
+			]
+		},
+		{
+			"group": "Barbie - Jet, Set & Style!",
+			"titles": [
+				{"searchTerm": "Barbie - Jet, Set & Style!"},
+				{"searchTerm": "Barbie - Jet, Set & Style! (S3EP)"},
+				{"searchTerm": "Barbie - Jet, Set & Style! (S3EX)"}
+			]
+		},
+		{
+			"group": "Baroque",
+			"titles": [
+				{"searchTerm": "Baroque"},
+				{"searchTerm": "Baroque for Wii"}
+			]
+		},
+		{
+			"group": "Bass Pro Shops - The Hunt",
+			"titles": [
+				{"searchTerm": "Bass Pro Shops - The Hunt"}
+			],
+			"supersets": [
+				{"searchTerm": "Bass Pro Shops - The Hunt - Trophy Showdown"}
+			]
+		},
+		{
+			"group": "Bass Pro Shops - The Strike",
+			"titles": [
+				{"searchTerm": "Bass Pro Shops - The Strike"}
+			],
+			"supersets": [
+				{"searchTerm": "Bass Pro Shops - The Strike - Tournament Edition"}
+			]
+		},
+		{
+			"group": "Battle of Giants - Dinosaurs Strike",
+			"titles": [
+				{"searchTerm": "Battle of Giants - Dinosaurs Strike"},
+				{"searchTerm": "Combat of Giants - Dinosaurs Strike"}
+			]
+		},
+		{
+			"group": "Battalion Wars 2",
+			"titles": [
+				{"searchTerm": "Battalion Wars 2"},
+				{"searchTerm": "Totsugeki!! Famicom Wars VS"}
+			]
+		},
+		{
+			"group": "Beyblade - Metal Fusion - Battle Fortress",
+			"titles": [
+				{"searchTerm": "Beyblade - Metal Fusion - Battle Fortress"},
+				{"searchTerm": "Beyblade - Metal Fusion - Counter Leone"},
+				{"searchTerm": "Metal Fight Beyblade - Gachinko Stadium"}
+			]
+		},
+		{
+			"group": "Bermuda Triangle - Saving the Coral",
+			"titles": [
+				{"searchTerm": "Bermuda Triangle"},
+				{"searchTerm": "Bermuda Triangle - Saving the Coral"}
+			]
+		},
+		{
+			"group": "Big Brain Academy - Wii Degree",
+			"titles": [
+				{"searchTerm": "Big Brain Academy - Wii Degree"},
+				{"searchTerm": "Big Brain Academy for Wii"},
+				{"searchTerm": "Wii de Yawaraka Atama Juku"},
+				{"searchTerm": "Wiiro Dahamkke! Mallangmallang Dunoegyosil"}
+			]
+		},
+		{
+			"group": "Big League Sports",
+			"titles": [
+				{"searchTerm": "Big League Sports"},
+				{"searchTerm": "World Championship Sports"}
+			]
+		},
+		{
+			"group": "Big League Sports - Summer",
+			"titles": [
+				{"searchTerm": "Big League Sports - Summer"},
+				{"searchTerm": "World Championship Sports - Summer"}
+			]
+		},
+		{
+			"group": "Bigs 2, The",
+			"titles": [
+				{"searchTerm": "Bigs 2, The"},
+				{"searchTerm": "Bigs 2, The - Baseball"}
+			]
+		},
+		{
+			"group": "Birthday Party Bash",
+			"titles": [
+				{"searchTerm": "Birthday Party Bash"},
+				{"searchTerm": "It's My Birthday"}
+			]
+		},
+		{
+			"group": "Black Eyed Peas Experience, The",
+			"titles": [
+				{"searchTerm": "Black Eyed Peas Experience, The"}
+			],
+			"supersets": [
+				{"searchTerm": "Black Eyed Peas Experience, The (Limited Edition)"},
+				{"searchTerm": "Black Eyed Peas Experience, The (Special Edition)"}
+			]
+		},
+		{
+			"group": "Bleach - Shattered Blade",
+			"titles": [
+				{"searchTerm": "Bleach - Shattered Blade"},
+				{"searchTerm": "Bleach Wii - Hakujin Kirameku Rondo"}
+			]
+		},
+		{
+			"group": "Bomberman Land",
+			"titles": [
+				{"searchTerm": "Bomberman Land"},
+				{"searchTerm": "Bomberman Land Wii"}
+			]
+		},
+		{
+			"group": "Bratz Kidz",
+			"titles": [
+				{"searchTerm": "Bratz Kidz"},
+				{"searchTerm": "Bratz Kidz - Party"}
+			]
+		},
+		{
+			"group": "Brothers in Arms - Double Time (Disc 1) (Brothers in Arms - Road to Hill 30)",
+			"titles": [
+				{"searchTerm": "Brothers in Arms - Double Time (Disc 1) (Brothers in Arms - Road to Hill 30)"},
+				{"searchTerm": "Brothers in Arms - Road to Hill 30"}
+			]
+		},
+		{
+			"group": "Brothers in Arms - Double Time (Disc 2) (Brothers in Arms - Earned in Blood)",
+			"titles": [
+				{"searchTerm": "Brothers in Arms - Double Time (Disc 2) (Brothers in Arms - Earned in Blood)"},
+				{"searchTerm": "Brothers in Arms - Earned in Blood"}
+			]
+		},
+		{
+			"group": "Bust-A-Move Bash!",
+			"titles": [
+				{"searchTerm": "Bust-A-Move"},
+				{"searchTerm": "Bust-A-Move Bash!"}
+			]
+		},
+		{
+			"group": "Cabela's Dangerous Hunts 2009",
+			"titles": [
+				{"searchTerm": "Cabela's Dangerous Adventures"},
+				{"searchTerm": "Cabela's Dangerous Hunts 2009"}
+			]
+		},
+		{
+			"group": "Cabela's Dangerous Hunts 2011",
+			"titles": [
+				{"searchTerm": "Cabela's Dangerous Hunts 2011"}
+			],
+			"supersets": [
+				{"searchTerm": "Cabela's Dangerous Hunts 2011 - Special Edition"}
+			]
+		},
+		{
+			"group": "Cages, The - Pro Style Batting Practice",
+			"titles": [
+				{"searchTerm": "Cages, The - Pro Style Batting Practice"},
+				{"searchTerm": "Nihon Yakyuu Kikou Shounin - Batting Revolution"}
+			]
+		},
+		{
+			"group": "Calling",
+			"titles": [
+				{"searchTerm": "Calling"},
+				{"searchTerm": "Calling - Kuroki Chakushin"}
+			]
+		},
+		{
+			"group": "Calvin Tucker's Redneck Farm Animals Racing Tournament",
+			"titles": [
+				{"searchTerm": "Calvin Tucker's Farm Animal Racing"},
+				{"searchTerm": "Calvin Tucker's Redneck Farm Animals Racing Tournament"}
+			]
+		},
+		{
+			"group": "Carnival Games",
+			"titles": [
+				{"searchTerm": "Carnival Funfair Games"},
+				{"searchTerm": "Carnival Games"}
+			]
+		},
+		{
+			"group": "Case Closed - The Mirapolis Investigation",
+			"titles": [
+				{"searchTerm": "Case Closed - The Mirapolis Investigation"},
+				{"searchTerm": "Meitantei Conan - Tsuioku no Mirage"},
+				{"searchTerm": "Myeongtamjeong Conan - Chueogui Hwansang"}
+			]
+		},
+		{
+			"group": "Castle of Shikigami III",
+			"titles": [
+				{"searchTerm": "Castle of Shikigami III"},
+				{"searchTerm": "Shikigami no Shiro III"}
+			]
+		},
+		{
+			"group": "Castlevania Judgment",
+			"titles": [
+				{"searchTerm": "Akumajou Dracula Judgment"},
+				{"searchTerm": "Castlevania Judgment"}
+			]
+		},
+		{
+			"group": "Celebrity Sports Showdown",
+			"titles": [
+				{"searchTerm": "Celebrity Sports Showdown"},
+				{"searchTerm": "Tournoi des Celebrites, Le"}
+			]
+		},
+		{
+			"group": "Champion Jockey - G1 Jockey & Gallop Racer",
+			"titles": [
+				{"searchTerm": "Champion Jockey - G1 Jockey & Gallop Racer"},
+				{"searchTerm": "Champion Jockey - Gallop Racer & GI Jockey"}
+			]
+		},
+		{
+			"group": "Championship Foosball",
+			"titles": [
+				{"searchTerm": "Championship Foosball"},
+				{"searchTerm": "Table Football"}
+			]
+		},
+		{
+			"group": "Charm Girls Club - Pajama Party",
+			"titles": [
+				{"searchTerm": "Charm Girls Club - Pajama Party"},
+				{"searchTerm": "Charm Girls Club - Pyjama Party"}
+			]
+		},
+		{
+			"group": "Chronicles of Narnia, The - Prince Caspian",
+			"titles": [
+				{"searchTerm": "Chronicles of Narnia, The - Prince Caspian"},
+				{"searchTerm": "Narnia Koku Monogatari - Dai-2 Shou - Caspian Ouji no Tsunobue"}
+			]
+		},
+		{
+			"group": "Circus Games",
+			"titles": [
+				{"searchTerm": "Circus Games"},
+				{"searchTerm": "Funfair Party"}
+			]
+		},
+		{
+			"group": "Cook Wars",
+			"titles": [
+				{"searchTerm": "Cook Wars"},
+				{"searchTerm": "Cooking Party"}
+			]
+		},
+		{
+			"group": "Cooking Mama - Cook Off",
+			"titles": [
+				{"searchTerm": "Cooking Mama"},
+				{"searchTerm": "Cooking Mama - Cook Off"},
+				{"searchTerm": "Cooking Mama - Minna to Issho ni Oryouri Taikai!"}
+			],
+			"compilations": [
+				{"searchTerm": "Mama's 2-Pack"}
+			]
+		},
+		{
+			"group": "Cooking Mama - World Kitchen",
+			"titles": [
+				{"searchTerm": "Cooking Mama - World Kitchen"},
+				{"searchTerm": "Cooking Mama 2 - Taihen!! Mama wa Ooisogashi!"},
+				{"searchTerm": "Cooking Mama 2 - World Kitchen"}
+			],
+			"compilations": [
+				{"searchTerm": "Mama's 2-Pack"}
+			]
+		},
+		{
+			"group": "Countdown - The Game",
+			"titles": [
+				{"searchTerm": "Chiffres & Des Lettres, Des - Le Jeu Officiel"},
+				{"searchTerm": "Countdown - The Game"}
+			]
+		},
+		{
+			"group": "Crayon Shin-chan - Saikyou Kazoku Kasukabe King Wii",
+			"titles": [
+				{"searchTerm": "Crayon Shin-chan - Saikyou Kazoku Kasukabe King Wii"},
+				{"searchTerm": "Shin Chan - Las Nuevas Aventuras para Wii!"}
+			]
+		},
+		{
+			"group": "Crazy Mini Golf 2",
+			"titles": [
+				{"searchTerm": "Crazy Mini Golf 2"},
+				{"searchTerm": "Kidz Sports Crazy Mini Golf 2"}
+			]
+		},
+		{
+			"group": "Crown of Midas, The",
+			"titles": [
+				{"searchTerm": "Crown of Midas, The"},
+				{"searchTerm": "Galileo Mystery - Die Krone des Midas"}
+			]
+		},
+		{
+			"group": "Cruise Ship Vacation Games",
+			"titles": [
+				{"searchTerm": "Cruise Ship Resort"},
+				{"searchTerm": "Cruise Ship Vacation Games"},
+				{"searchTerm": "Holiday Games"}
+			]
+		},
+		{
+			"group": "Dance Dance Revolution",
+			"titles": [
+				{"searchTerm": "Dance Dance Revolution"},
+				{"searchTerm": "Dance Dance Revolution - Hottest Party 4"}
+			]
+		},
+		{
+			"group": "Dance Dance Revolution - Hottest Party",
+			"titles": [
+				{"searchTerm": "Dance Dance Revolution - Hottest Party"},
+				{"searchTerm": "Dancing Stage - Hottest Party"}
+			]
+		},
+		{
+			"group": "Dance Dance Revolution - Hottest Party 2",
+			"titles": [
+				{"searchTerm": "Dance Dance Revolution - Furu Furu Party"},
+				{"searchTerm": "Dance Dance Revolution - Hottest Party 2"}
+			]
+		},
+		{
+			"group": "Dance Dance Revolution II",
+			"titles": [
+				{"searchTerm": "Dance Dance Revolution - Hottest Party 5"},
+				{"searchTerm": "Dance Dance Revolution II"}
+			]
+		},
+		{
+			"group": "Dawn of Discovery",
+			"titles": [
+				{"searchTerm": "Anno - Create a New World"},
+				{"searchTerm": "Dawn of Discovery"}
+			]
+		},
+		{
+			"group": "de Blob",
+			"titles": [
+				{"searchTerm": "Blob - Colorful na Kibou"},
+				{"searchTerm": "de Blob"},
+				{"searchTerm": "de Blob - Color Revolution"}
+			]
+		},
+		{
+			"group": "Dead Rising - Chop Till You Drop",
+			"titles": [
+				{"searchTerm": "Dead Rising - Chop Till You Drop"},
+				{"searchTerm": "Dead Rising - Zombie no Ikenie"}
+			]
+		},
+		{
+			"group": "Deal or No Deal",
+			"titles": [
+				{"searchTerm": "Deal or No Deal"}
+			],
+			"supersets": [
+				{"searchTerm": "Deal or No Deal - Special Edition"}
+			]
+		},
+		{
+			"group": "Deal or No Deal - The Banker Is Back",
+			"titles": [
+				{"searchTerm": "Deal or no Deal - Der Banker schlaegt zurueck"},
+				{"searchTerm": "Deal or No Deal - The Banker Is Back"}
+			]
+		},
+		{
+			"group": "Deca Sports",
+			"titles": [
+				{"searchTerm": "Deca Sports"},
+				{"searchTerm": "Deca Sporta - Wii de Sports 10 Shumoku!"},
+				{"searchTerm": "Deca Sporta - Wiiro Jeulgineun Sports 10 Jongmok!"},
+				{"searchTerm": "Sports Island"}
+			]
+		},
+		{
+			"group": "Deca Sports 2",
+			"titles": [
+				{"searchTerm": "Deca Sports 2"},
+				{"searchTerm": "Deca Sporta 2 - Wii de Sports 10 Shumoku!"},
+				{"searchTerm": "Sports Island 2"}
+			]
+		},
+		{
+			"group": "Deca Sports 3",
+			"titles": [
+				{"searchTerm": "Deca Sports 3"},
+				{"searchTerm": "Deca Sporta 3 - Wii de Sports 10 Shumoku!"},
+				{"searchTerm": "Sports Island 3"}
+			]
+		},
+		{
+			"group": "Dewy's Adventure",
+			"titles": [
+				{"searchTerm": "Dewy's Adventure"},
+				{"searchTerm": "Dewy's Adventure - Suishou Dewy no Daibouken!!"}
+			]
+		},
+		{
+			"group": "DiRT 2",
+			"titles": [
+				{"searchTerm": "Colin McRae - DiRT 2"},
+				{"searchTerm": "DiRT 2"}
+			]
+		},
+		{
+			"group": "Disney-Pixar Cars 2",
+			"titles": [
+				{"searchTerm": "Disney-Pixar Cars 2"},
+				{"searchTerm": "Disney - Pixar Arabalar 2"}
+			]
+		},
+		{
+			"group": "Disney-Pixar Ratatouille",
+			"titles": [
+				{"searchTerm": "Disney-Pixar Ratatouille"},
+				{"searchTerm": "Disney-Pixar Remy no Oishii Restaurant"}
+			]
+		},
+		{
+			"group": "Disney-Pixar Toy Story 3",
+			"titles": [
+				{"searchTerm": "Disney-Pixar Toy Story 3"}
+			],
+			"supersets": [
+				{"searchTerm": "Disney-Pixar Toy Story 3 (Toy Box Special Edition)"}
+			]
+		},
+		{
+			"group": "Disney-Pixar Up",
+			"titles": [
+				{"searchTerm": "Disney-Pixar Carl Jiisan no Soratobu Ie"},
+				{"searchTerm": "Disney-Pixar Oben"},
+				{"searchTerm": "Disney-Pixar Up"}
+			]
+		},
+		{
+			"group": "Disney-Pixar WALL-E",
+			"titles": [
+				{"searchTerm": "Disney-Pixar WALL-E"},
+				{"searchTerm": "Disney-Pixar WALL-E - Der Letzte raeumt die Erde auf"}
+			]
+		},
+		{
+			"group": "Disney Epic Mickey",
+			"titles": [
+				{"searchTerm": "Disney Epic Mickey"},
+				{"searchTerm": "Disney Epic Mickey - Mickey Mouse to Mahou no Fude"}
+			]
+		},
+		{
+			"group": "Disney Epic Mickey 2 - The Power of Two",
+			"titles": [
+				{"searchTerm": "Disney Epic Mickey 2 - Futatsu no Chikara"},
+				{"searchTerm": "Disney Epic Mickey 2 - The Power of Two"}
+			]
+		},
+		{
+			"group": "Disney High School Musical 3 - Senior Year Dance!",
+			"titles": [
+				{"searchTerm": "Disney High School Musical 3 - Senior Year Dance!"},
+				{"searchTerm": "Disney High School Musical Dance!"}
+			]
+		},
+		{
+			"group": "Disney Princess - Enchanted Journey",
+			"titles": [
+				{"searchTerm": "Disney Princess - Enchanted Journey"},
+				{"searchTerm": "Disney Princess - Mahou no Sekai e"}
+			]
+		},
+		{
+			"group": "Disney The Princess and the Frog",
+			"titles": [
+				{"searchTerm": "Disney The Princess and the Frog"}
+			],
+			"supersets": [
+				{"searchTerm": "Disney The Princess and the Frog (Riverboat Jazz Edition)"}
+			]
+		},
+		{
+			"group": "Disney Think Fast",
+			"titles": [
+				{"searchTerm": "Disney Think - Das Schnelldenker-Quiz"},
+				{"searchTerm": "Disney Think - Haya Oshi Quiz"},
+				{"searchTerm": "Disney Think Fast"},
+				{"searchTerm": "Disney Think Fast - The Quiz Game"}
+			]
+		},
+		{
+			"group": "Disney TRON - Evolution - Battle Grids",
+			"titles": [
+				{"searchTerm": "Disney TRON - Evolution - Battle Grids"}
+			],
+			"supersets": [
+				{"searchTerm": "Disney TRON - Evolution - Battle Grids (Championship Edition)"}
+			]
+		},
+		{
+			"group": "Diva Girls - Divas on Ice",
+			"titles": [
+				{"searchTerm": "Diva Girls - Divas on Ice"},
+				{"searchTerm": "Diva Girls - Princess on Ice"}
+			]
+		},
+		{
+			"group": "Dokapon Kingdom",
+			"titles": [
+				{"searchTerm": "Dokapon Kingdom"},
+				{"searchTerm": "Dokapon Kingdom for Wii"}
+			]
+		},
+		{
+			"group": "Domino Rally",
+			"titles": [
+				{"searchTerm": "Domino Rally"},
+				{"searchTerm": "Go! Go! Minon"},
+				{"searchTerm": "Minon - Everyday Hero"}
+			]
+		},
+		{
+			"group": "Donkey Kong - Barrel Blast",
+			"titles": [
+				{"searchTerm": "Donkey Kong - Barrel Blast"},
+				{"searchTerm": "Donkey Kong - Jet Race"},
+				{"searchTerm": "Donkey Kong Taru Jet Race"}
+			]
+		},
+		{
+			"group": "Donkey Kong Country Returns",
+			"titles": [
+				{"searchTerm": "Donkey Kong Country Returns"},
+				{"searchTerm": "Donkey Kong Returns"}
+			]
+		},
+		{
+			"group": "Dragon Ball - Revenge of King Piccolo",
+			"titles": [
+				{"searchTerm": "Dragon Ball - Revenge of King Piccolo"},
+				{"searchTerm": "Dragon Ball - Tenkaichi Daibouken"}
+			]
+		},
+		{
+			"group": "Dragon Ball Z - Budokai Tenkaichi 2",
+			"titles": [
+				{"searchTerm": "Dragon Ball Z - Budokai Tenkaichi 2"},
+				{"searchTerm": "Dragon Ball Z - Sparking! Neo"}
+			]
+		},
+		{
+			"group": "Dragon Ball Z - Budokai Tenkaichi 3",
+			"titles": [
+				{"searchTerm": "Dragon Ball Z - Budokai Tenkaichi 3"},
+				{"searchTerm": "Dragon Ball Z - Sparking! Meteor"}
+			]
+		},
+		{
+			"group": "Dragon Blade - Wrath of Fire",
+			"titles": [
+				{"searchTerm": "Dragon Blade"},
+				{"searchTerm": "Dragon Blade - Wrath of Fire"}
+			]
+		},
+		{
+			"group": "Dragon Quest Swords - The Masked Queen and the Tower of Mirrors",
+			"titles": [
+				{"searchTerm": "Dragon Quest Swords - Kamen no Joou to Kagami no Tou"},
+				{"searchTerm": "Dragon Quest Swords - The Masked Queen and the Tower of Mirrors"}
+			]
+		},
+		{
+			"group": "DreamWorks Madagascar - Escape 2 Africa",
+			"titles": [
+				{"searchTerm": "DreamWorks Madagascar - Escape 2 Africa"},
+				{"searchTerm": "DreamWorks Madagaskar 2"}
+			]
+		},
+		{
+			"group": "DreamWorks Madagascar 3 - The Video Game",
+			"titles": [
+				{"searchTerm": "DreamWorks Madagascar 3 - Europe's Most Wanted"},
+				{"searchTerm": "DreamWorks Madagascar 3 - The Video Game"}
+			]
+		},
+		{
+			"group": "DreamWorks Shrek Forever After",
+			"titles": [
+				{"searchTerm": "DreamWorks Shrek e Vissero Felici e Contenti"},
+				{"searchTerm": "DreamWorks Shrek Forever After"}
+			]
+		},
+		{
+			"group": "Dreamworks Rise of the Guardians",
+			"titles": [
+				{"searchTerm": "DreamWorks Rise of the Guardians"}
+			],
+			"compilations": [
+				{"searchTerm": "DreamWorks The Croods - Prehistoric Party! & Rise of the Guardians - Combo Pack", "titlePosition": 2}
+			]
+		},
+		{
+			"group": "DreamWorks The Croods - Prehistoric Party!",
+			"titles": [
+				{"searchTerm": "DreamWorks The Croods - Prehistoric Party!"}
+			],
+			"compilations": [
+				{"searchTerm": "DreamWorks The Croods - Prehistoric Party! & Rise of the Guardians - Combo Pack", "titlePosition": 1}
+			]
+		},
+		{
+			"group": "EA Playground",
+			"titles": [
+				{"searchTerm": "EA Playground"},
+				{"searchTerm": "Playground - Kouen de Asobou!"}
+			]
+		},
+		{
+			"group": "EA Sports Active - More Workouts",
+			"titles": [
+				{"searchTerm": "EA Sports Active - More Workouts"},
+				{"searchTerm": "EA Sports Active - Personal Trainer Wii - 6-shuukan Shuuchuu Hikishime Program"}
+			]
+		},
+		{
+			"group": "EA Sports Active - Personal Trainer",
+			"titles": [
+				{"searchTerm": "EA Sports Active - Personal Trainer"},
+				{"searchTerm": "EA Sports Active - Personal Trainer Wii - 30-nichi Seikatsu Kaizen Program"}
+			]
+		},
+		{
+			"group": "Elebits",
+			"titles": [
+				{"searchTerm": "Elebits"},
+				{"searchTerm": "Eledees"}
+			]
+		},
+		{
+			"group": "Endless Ocean",
+			"titles": [
+				{"searchTerm": "Endless Ocean"},
+				{"searchTerm": "Forever Blue"}
+			]
+		},
+		{
+			"group": "Endless Ocean - Blue World",
+			"titles": [
+				{"searchTerm": "Endless Ocean - Blue World"},
+				{"searchTerm": "Endless Ocean 2 - Adventures of the Deep"},
+				{"searchTerm": "Forever Blue - Umi no Yobigoe"}
+			]
+		},
+		{
+			"group": "Escape from Bug Island",
+			"titles": [
+				{"searchTerm": "Escape from Bug Island"},
+				{"searchTerm": "Necro-Nesia"}
+			]
+		},
+		{
+			"group": "ExciteBots - Trick Racing",
+			"titles": [
+				{"searchTerm": "Excite Mou Machine"},
+				{"searchTerm": "ExciteBots - Trick Racing"}
+			]
+		},
+		{
+			"group": "ExerBeat",
+			"titles": [
+				{"searchTerm": "ExerBeat"},
+				{"searchTerm": "ExerBeat - Gym Class Workout"}
+			]
+		},
+		{
+			"group": "Family Party - 30 Great Games",
+			"titles": [
+				{"searchTerm": "Family Party - 30 Great Games"},
+				{"searchTerm": "Simple 2000 Series Wii Vol. 2 - The Party Game"}
+			],
+			"compilations": [
+				{"searchTerm": "Family Party - 90 Great Games Party Pack"}
+			]
+		},
+		{
+			"group": "Family Party - 30 Great Games - Outdoor Fun",
+			"titles": [
+				{"searchTerm": "Family Party - 30 Great Games - Outdoor Fun"}
+			],
+			"compilations": [
+				{"searchTerm": "Family Party - 90 Great Games Party Pack"}
+			]
+		},
+		{
+			"group": "Family Party - 30 Great Games - Winter Fun",
+			"titles": [
+				{"searchTerm": "Family Party - 30 Great Games - Winter Fun"}
+			],
+			"compilations": [
+				{"searchTerm": "Family Party - 90 Great Games Party Pack"}
+			]
+		},
+		{
+			"group": "Family Party - Fitness Fun",
+			"titles": [
+				{"searchTerm": "Family Party - Fitness Fun"},
+				{"searchTerm": "Fitness Party"}
+			]
+		},
+		{
+			"group": "Family Quiz",
+			"titles": [
+				{"searchTerm": "Family Quiz"},
+				{"searchTerm": "Galileo Family Quiz"}
+			]
+		},
+		{
+			"group": "Fast Food Panic",
+			"titles": [
+				{"searchTerm": "Fast Food Panic"},
+				{"searchTerm": "Takumi Restaurant wa Daihanjou!"}
+			]
+		},
+		{
+			"group": "FIFA 15",
+			"titles": [
+				{"searchTerm": "FIFA 15"},
+				{"searchTerm": "FIFA 15 - Legacy Edition"}
+			]
+		},
+		{
+			"group": "FIFA 08",
+			"titles": [
+				{"searchTerm": "FIFA 08"},
+				{"searchTerm": "FIFA 08 - World Class Soccer"}
+			]
+		},
+		{
+			"group": "FIFA 10",
+			"titles": [
+				{"searchTerm": "FIFA 10"},
+				{"searchTerm": "FIFA 10 - World Class Soccer"}
+			]
+		},
+		{
+			"group": "FIFA Soccer 11",
+			"titles": [
+				{"searchTerm": "FIFA 11"},
+				{"searchTerm": "FIFA Soccer 11"}
+			]
+		},
+		{
+			"group": "FIFA Soccer 12",
+			"titles": [
+				{"searchTerm": "FIFA 12"},
+				{"searchTerm": "FIFA Soccer 12"}
+			]
+		},
+		{
+			"group": "FIFA Soccer 13",
+			"titles": [
+				{"searchTerm": "FIFA 13"},
+				{"searchTerm": "FIFA Soccer 13"}
+			]
+		},
+		{
+			"group": "FIFA 14 - Legacy Edition",
+			"titles": [
+				{"searchTerm": "FIFA 14"},
+				{"searchTerm": "FIFA 14 - Legacy Edition"}
+			]
+		},
+		{
+			"group": "Final Fantasy Fables - Chocobo's Dungeon",
+			"titles": [
+				{"searchTerm": "Chocobo no Fushigi na Dungeon - Toki-wasure no Meikyuu"},
+				{"searchTerm": "Final Fantasy Fables - Chocobo's Dungeon"}
+			]
+		},
+		{
+			"group": "Fire Emblem - Radiant Dawn",
+			"titles": [
+				{"searchTerm": "Fire Emblem - Akatsuki no Megami"},
+				{"searchTerm": "Fire Emblem - Radiant Dawn"}
+			]
+		},
+		{
+			"group": "Fishing Master",
+			"titles": [
+				{"searchTerm": "Fishing Master"},
+				{"searchTerm": "Mezase!! Tsuri Master"}
+			]
+		},
+		{
+			"group": "Fishing Master World Tour",
+			"titles": [
+				{"searchTerm": "Fishing Master World Tour"},
+				{"searchTerm": "Mezase!! Tsuri Master - Sekai ni Challenge-hen"}
+			]
+		},
+		{
+			"group": "Fishing Resort",
+			"titles": [
+				{"searchTerm": "Family Fishing"},
+				{"searchTerm": "Fishing Resort"}
+			]
+		},
+		{
+			"group": "Fit in Six",
+			"titles": [
+				{"searchTerm": "Fit in Six"},
+				{"searchTerm": "Fit in Six - Karada o Kitaeru 6-tsu no Youso"}
+			]
+		},
+		{
+			"group": "FlingSmash",
+			"titles": [
+				{"searchTerm": "FlingSmash"},
+				{"searchTerm": "Tataite Hazumu - Super Smash Ball Plus"}
+			]
+		},
+		{
+			"group": "Ford Racing - Off Road",
+			"titles": [
+				{"searchTerm": "Ford Racing - Off Road"},
+				{"searchTerm": "Off Road"}
+			]
+		},
+		{
+			"group": "Fortune Street",
+			"titles": [
+				{"searchTerm": "Boom Street"},
+				{"searchTerm": "Fortune Street"},
+				{"searchTerm": "Itadaki Street Wii"}
+			]
+		},
+		{
+			"group": "Fragile Dreams - Farewell Ruins of the Moon",
+			"titles": [
+				{"searchTerm": "Fragile - Sayonara Tsuki no Haikyo"},
+				{"searchTerm": "Fragile Dreams - Farewell Ruins of the Moon"}
+			]
+		},
+		{
+			"group": "Fit & Fun - Your Virtual Personal Coach",
+			"titles": [
+				{"searchTerm": "Fit & Fun - Your Virtual Personal Coach"},
+				{"searchTerm": "Fit for Fun"}
+			]
+		},
+		{
+			"group": "Freddi Fish - Kelp Seed Mystery",
+			"titles": [
+				{"searchTerm": "Freddi Fish - Kelp Seed Mystery"},
+				{"searchTerm": "Freddi Fish - The Case of the Missing Kelp Seeds"}
+			]
+		},
+		{
+			"group": "G1 Jockey Wii",
+			"titles": [
+				{"searchTerm": "G1 Jockey Wii"},
+				{"searchTerm": "GI Jockey Wii"}
+			]
+		},
+		{
+			"group": "G1 Jockey Wii 2008",
+			"titles": [
+				{"searchTerm": "G1 Jockey Wii 2008"},
+				{"searchTerm": "GI Jockey Wii 2008"}
+			]
+		},
+		{
+			"group": "Game Party 2",
+			"titles": [
+				{"searchTerm": "Game Party 2"},
+				{"searchTerm": "More Game Party"}
+			]
+		},
+		{
+			"group": "George of the Jungle and the Search for the Secret",
+			"titles": [
+				{"searchTerm": "George of the Jungle"},
+				{"searchTerm": "George of the Jungle and the Search for the Secret"}
+			]
+		},
+		{
+			"group": "Glacier 3 - The Meltdown",
+			"titles": [
+				{"searchTerm": "Glacier 3"},
+				{"searchTerm": "Glacier 3 - The Meltdown"}
+			]
+		},
+		{
+			"group": "Godfather, The - Blackhand Edition",
+			"titles": [
+				{"searchTerm": "Godfather, The - Blackhand Edition"},
+				{"searchTerm": "Padrino, El - El Chantaje"},
+				{"searchTerm": "Padrino, Il - Blackhand Edition"},
+				{"searchTerm": "Parrain, Le - Pouvoir et Manipulation"}
+			]
+		},
+		{
+			"group": "Gold's Gym - Cardio Workout",
+			"titles": [
+				{"searchTerm": "Gold's Gym - Cardio Workout"},
+				{"searchTerm": "My Fitness Coach - Cardio Workout"},
+				{"searchTerm": "Shape Boxing - Wii de Enjoy Diet!"}
+			]
+		},
+		{
+			"group": "Gold's Gym - Dance Workout",
+			"titles": [
+				{"searchTerm": "Gold's Gym - Dance Workout"},
+				{"searchTerm": "My Fitness Coach - Dance Workout"},
+				{"searchTerm": "Shape Boxing 2 - Wii de Enjoy Diet!"}
+			]
+		},
+		{
+			"group": "GTI Club Supermini Festa!",
+			"titles": [
+				{"searchTerm": "GTI Club - World City Race"},
+				{"searchTerm": "GTI Club Supermini Festa!"}
+			]
+		},
+		{
+			"group": "Guitar Hero - Smash Hits",
+			"titles": [
+				{"searchTerm": "Guitar Hero - Greatest Hits"},
+				{"searchTerm": "Guitar Hero - Smash Hits"}
+			]
+		},
+		{
+			"group": "Gunslingers",
+			"titles": [
+				{"searchTerm": "Gunslingers"},
+				{"searchTerm": "Western Heroes"}
+			]
+		},
+		{
+			"group": "Harry Potter and the Half-Blood Prince",
+			"titles": [
+				{"searchTerm": "Harry Potter and the Half-Blood Prince"},
+				{"searchTerm": "Harry Potterwa Honhyeor-wangja"}
+			]
+		},
+		{
+			"group": "Harry Potter and the Order of the Phoenix",
+			"titles": [
+				{"searchTerm": "Harry Potter and the Order of the Phoenix"},
+				{"searchTerm": "Harry Potter to Fushichou no Kishidan"}
+			]
+		},
+		{
+			"group": "Harvest Moon - Animal Parade",
+			"titles": [
+				{"searchTerm": "Bokujou Monogatari - Waku Waku Animal March"},
+				{"searchTerm": "Harvest Moon - Animal Parade"}
+			]
+		},
+		{
+			"group": "Harvest Moon - Tree of Tranquility",
+			"titles": [
+				{"searchTerm": "Bokujou Monogatari - Yasuragi no Ki"},
+				{"searchTerm": "Harvest Moon - Tree of Tranquility"}
+			]
+		},
+		{
+			"group": "Hasbro Family Game Night",
+			"titles": [
+				{"searchTerm": "Hasbro Family Game Night"},
+				{"searchTerm": "Hasbro Family Party"}
+			],
+			"compilations": [
+				{"searchTerm": "Hasbro Family Game Night Value Pack"}
+			]
+		},
+		{
+			"group": "Hasbro Family Game Night 2",
+			"titles": [
+				{"searchTerm": "Hasbro Family Game Night 2"},
+				{"searchTerm": "Hasbro Family Game Night Vol 2"}
+			],
+			"compilations": [
+				{"searchTerm": "Hasbro Family Game Night Fun Pack"},
+				{"searchTerm": "Hasbro Family Game Night Value Pack"}
+			]
+		},
+		{
+			"group": "Hasbro Family Game Night 3",
+			"titles": [
+				{"searchTerm": "Hasbro Family Game Night 3"},
+				{"searchTerm": "Hasbro Family Game Night Vol 3"}
+			],
+			"compilations": [
+				{"searchTerm": "Hasbro Family Game Night Fun Pack"}
+			]
+		},
+		{
+			"group": "Heavenly Guardian",
+			"titles": [
+				{"searchTerm": "Heavenly Guardian"},
+				{"searchTerm": "Legend of Sayuki"},
+				{"searchTerm": "Yukinko Daisenpuu - Sayuki to Koyuki no Hie Hie Daisoudou"}
+			]
+		},
+		{
+			"group": "Help Wanted",
+			"titles": [
+				{"searchTerm": "Hataraku Hito"},
+				{"searchTerm": "Help Wanted"},
+				{"searchTerm": "Job Island"}
+			]
+		},
+		{
+			"group": "Honda ATV Fever",
+			"titles": [
+				{"searchTerm": "ATV Fever"},
+				{"searchTerm": "Honda ATV Fever"}
+			]
+		},
+		{
+			"group": "Hooked! Real Motion Fishing",
+			"titles": [
+				{"searchTerm": "Bass Fishing Wii - Rokumaru Densetsu"},
+				{"searchTerm": "Big Catch - Bass Fishing"},
+				{"searchTerm": "Hooked! Real Motion Fishing"}
+			]
+		},
+		{
+			"group": "Hooked! Again - Real Motion Fishing",
+			"titles": [
+				{"searchTerm": "Bass Fishing Wii - World Tournament"},
+				{"searchTerm": "Big Catch - Bass Fishing 2"},
+				{"searchTerm": "Hooked! Again - Real Motion Fishing"}
+			]
+		},
+		{
+			"group": "Horse & Pony - My Riding Stables",
+			"titles": [
+				{"searchTerm": "Horse & Pony - My Riding Stables"},
+				{"searchTerm": "Paard & Pony - Mijn Paardenstal - Al Jouw Ruiterdromen Komen Uit!"}
+			]
+		},
+		{
+			"group": "Horse Life Adventures",
+			"titles": [
+				{"searchTerm": "Horse Life 2"},
+				{"searchTerm": "Horse Life Adventures"}
+			]
+		},
+		{
+			"group": "Ice Age - Dawn of the Dinosaurs",
+			"titles": [
+				{"searchTerm": "Era Glaciale 3, L' - L'Alba dei Dinosauri"},
+				{"searchTerm": "Ice Age - Dawn of the Dinosaurs"},
+				{"searchTerm": "Ice Age 3 - Dawn of the Dinosaurs"}
+			]
+		},
+		{
+			"group": "Ice Age - Continental Drift - Arctic Games",
+			"titles": [
+				{"searchTerm": "Era Glaciale 4, L' - Continenti alla Deriva - Giochi Polari"},
+				{"searchTerm": "Ice Age - Continental Drift - Arctic Games"},
+				{"searchTerm": "Ice Age 4 - Continental Drift - Arctic Games"}
+			]
+		},
+		{
+			"group": "Imagine - Fashion Party",
+			"titles": [
+				{"searchTerm": "Imagine - Fashion Idol"},
+				{"searchTerm": "Imagine - Fashion Party"}
+			]
+		},
+		{
+			"group": "Imagine - Party Babyz",
+			"titles": [
+				{"searchTerm": "Babysitting Party"},
+				{"searchTerm": "Imagine - Party Babyz"}
+			]
+		},
+		{
+			"group": "Iron Man 2",
+			"titles": [
+				{"searchTerm": "Iron Man 2"}
+			],
+			"supersets": [
+				{"searchTerm": "Iron Man 2 (Walmart)"}
+			]
+		},
+		{
+			"group": "Jambo! Safari - Animal Rescue",
+			"titles": [
+				{"searchTerm": "Jambo! Safari - Animal Rescue"},
+				{"searchTerm": "Jambo! Safari - Ranger Adventure"}
+			]
+		},
+		{
+			"group": "Jelly Belly - Ballistic Beans",
+			"titles": [
+				{"searchTerm": "Jelly Belly - Ballistic Beans"},
+				{"searchTerm": "Jelly Belly - Ballistic Beans!"}
+			]
+		},
+		{
+			"group": "Ju-on - The Grudge - Haunted House Simulator",
+			"titles": [
+				{"searchTerm": "Ju-on - The Grudge"},
+				{"searchTerm": "Ju-on - The Grudge - Haunted House Simulator"},
+				{"searchTerm": "Kyoufu Taikan - Juon"}
+			]
+		},
+		{
+			"group": "Just Dance - Summer Party",
+			"titles": [
+				{"searchTerm": "Just Dance - Summer Party"},
+				{"searchTerm": "Just Dance 2 - Extra Songs"}
+			]
+		},
+		{
+			"group": "Just Dance 2",
+			"titles": [
+				{"searchTerm": "Just Dance 2"}
+			],
+			"supersets": [
+				{"searchTerm": "Just Dance 2 (Best Buy Edition)"}
+			]
+		},
+		{
+			"group": "Just Dance 3",
+			"titles": [
+				{"searchTerm": "Just Dance 3"}
+			],
+			"supersets": [
+				{"searchTerm": "Just Dance 3 (Best Buy)"},
+				{"searchTerm": "Just Dance 3 (Special Edition)"},
+				{"searchTerm": "Just Dance 3 (Target Exclusive Edition)", "priority": 2}
+			]
+		},
+		{
+			"group": "Just Dance 4",
+			"titles": [
+				{"searchTerm": "Just Dance 4"},
+				{"searchTerm": "Just Dance 4 (Special Edition)"}
+			]
+		},
+		{
+			"group": "Just Dance Kids",
+			"titles": [
+				{"searchTerm": "Dance Juniors"},
+				{"searchTerm": "Just Dance Kids"}
+			]
+		},
+		{
+			"group": "Karaoke Joysound",
+			"titles": [
+				{"searchTerm": "Karaoke Joysound"},
+				{"searchTerm": "Karaoke Joysound Wii"}
+			]
+		},
+		{
+			"group": "Kawasaki Snowmobiles",
+			"titles": [
+				{"searchTerm": "Kawasaki Snow Mobiles"},
+				{"searchTerm": "Kawasaki Snowmobiles"}
+			]
+		},
+		{
+			"group": "Kid Adventures - Sky Captain",
+			"titles": [
+				{"searchTerm": "Kid Adventures - Sky Captain"},
+				{"searchTerm": "Stunt Flyer - Hero of the Skies"}
+			]
+		},
+		{
+			"group": "Kidz Sports Crazy Golf",
+			"titles": [
+				{"searchTerm": "Kidz Sports Crazy Golf"},
+				{"searchTerm": "Kidz Sports Crazy Mini Golf"}
+			]
+		},
+		{
+			"group": "Kidz Sports International Soccer",
+			"titles": [
+				{"searchTerm": "Kidz Sports International Football"},
+				{"searchTerm": "Kidz Sports International Soccer"}
+			]
+		},
+		{
+			"group": "Kirby's Dream Collection - Special Edition",
+			"titles": [
+				{"searchTerm": "Hoshi no Kirby - 20 Shuunen Special Collection"},
+				{"searchTerm": "Kirby's Dream Collection - Special Edition"}
+			]
+		},
+		{
+			"group": "Kirby's Epic Yarn",
+			"titles": [
+				{"searchTerm": "Keito no Kirby"},
+				{"searchTerm": "Kirby's Epic Yarn"},
+				{"searchTerm": "Teolsil Kirby Iyagi"}
+			]
+		},
+		{
+			"group": "Kirby's Return to Dream Land",
+			"titles": [
+				{"searchTerm": "Byeorui Kirby Wii"},
+				{"searchTerm": "Hoshi no Kirby Wii"},
+				{"searchTerm": "Kirby's Adventure Wii"},
+				{"searchTerm": "Kirby's Return to Dream Land"}
+			]
+		},
+		{
+			"group": "Klonoa",
+			"titles": [
+				{"searchTerm": "Baramui Klonoa - Door to Phantomile"},
+				{"searchTerm": "Kaze no Klonoa - Door to Phantomile"},
+				{"searchTerm": "Klonoa"}
+			]
+		},
+		{
+			"group": "Kore Gang, The - Outvasion from Inner Earth",
+			"titles": [
+				{"searchTerm": "Kore Gang, The - Outvasion from Inner Earth"},
+				{"searchTerm": "Kore Gang, The"}
+			]
+		},
+		{
+			"group": "Kororinpa - Marble Mania",
+			"titles": [
+				{"searchTerm": "Kororinpa"},
+				{"searchTerm": "Kororinpa - Marble Mania"}
+			]
+		},
+		{
+			"group": "Last Airbender, The",
+			"titles": [
+				{"searchTerm": "Last Airbender, The"}
+			],
+			"supersets": [
+				{"searchTerm": "Last Airbender, The (Special Edition)"},
+				{"searchTerm": "Last Airbender, The (Toys R Us)"}
+			]
+		},
+		{
+			"group": "Legend of Zelda, The - Skyward Sword",
+			"titles": [
+				{"searchTerm": "Legend of Zelda, The - Skyward Sword"},
+				{"searchTerm": "Zelda no Densetsu - Skyward Sword"}
+			]
+		},
+		{
+			"group": "Legend of Zelda, The - Twilight Princess",
+			"titles": [
+				{"searchTerm": "Legend of Zelda, The - Twilight Princess"},
+				{"searchTerm": "Zelda no Densetsu - Twilight Princess"}
+			]
+		},
+		{
+			"group": "Let's Play Garden",
+			"titles": [
+				{"searchTerm": "Let's Play Garden"},
+				{"searchTerm": "Play Gardens"}
+			]
+		},
+		{
+			"group": "Line Rider 2 - Unbound",
+			"titles": [
+				{"searchTerm": "Line Rider 2 - Unbound"},
+				{"searchTerm": "Line Rider Freestyle"}
+			]
+		},
+		{
+			"group": "Link's Crossbow Training",
+			"titles": [
+				{"searchTerm": "Link's Crossbow Training"},
+				{"searchTerm": "Link no Bowgun Training"},
+				{"searchTerm": "Linkui Sagyeok Training"}
+			]
+		},
+		{
+			"group": "Little League World Series Baseball 2008",
+			"titles": [
+				{"searchTerm": "Little League World Series Baseball 2008"}
+			],
+			"compilations": [
+				{"searchTerm": "Little League World Series Baseball - Double Play"}
+			]
+		},
+		{
+			"group": "Little League World Series Baseball 2009",
+			"titles": [
+				{"searchTerm": "Little League World Series Baseball 2009"}
+			],
+			"compilations": [
+				{"searchTerm": "Little League World Series Baseball - Double Play"}
+			]
+		},
+		{
+			"group": "Little King's Story",
+			"titles": [
+				{"searchTerm": "Little King's Story"},
+				{"searchTerm": "Ousama Monogatari"}
+			]
+		},
+		{
+			"group": "Lost in Blue - Shipwrecked",
+			"titles": [
+				{"searchTerm": "Lost in Blue - Shipwrecked"},
+				{"searchTerm": "Survival Kids Wii"}
+			]
+		},
+		{
+			"group": "Lost in Shadow",
+			"titles": [
+				{"searchTerm": "Kage no Tou"},
+				{"searchTerm": "Lost in Shadow"},
+				{"searchTerm": "Shadow's Tale, A"}
+			]
+		},
+		{
+			"group": "Lost in Shadow (Demo) (DDWX)",
+			"titles": [
+				{"searchTerm": "Lost in Shadow (Demo) (DDWX)"},
+				{"searchTerm": "Lost in Shadow (Demo) (DDWE)", "priority": 2}
+			]
+		},
+		{
+			"group": "Major Minor's Majestic March",
+			"titles": [
+				{"searchTerm": "Major Minor's Majestic March"},
+				{"searchTerm": "Meja-Maji March"}
+			]
+		},
+		{
+			"group": "Marble Saga - Kororinpa",
+			"titles": [
+				{"searchTerm": "Kororinpa 2 - Anthony to Kin'iro Himawari no Tane"},
+				{"searchTerm": "Marble Saga - Kororinpa"},
+				{"searchTerm": "Marbles! Balance Challenge"}
+			]
+		},
+		{
+			"group": "Mario & Sonic at the London 2012 Olympic Games",
+			"titles": [
+				{"searchTerm": "Mario & Sonic at London Olympic"},
+				{"searchTerm": "Mario & Sonic at the London 2012 Olympic Games"},
+				{"searchTerm": "Mariowa Sonic London Olympic"}
+			]
+		},
+		{
+			"group": "Mario & Sonic at the Olympic Games",
+			"titles": [
+				{"searchTerm": "Mario & Sonic at Bejing Olympic"},
+				{"searchTerm": "Mario & Sonic at the Olympic Games"},
+				{"searchTerm": "Mariowa Sonic Beijing Olympic"}
+			]
+		},
+		{
+			"group": "Mario & Sonic at the Olympic Winter Games",
+			"titles": [
+				{"searchTerm": "Mario & Sonic at the Olympic Winter Games"},
+				{"searchTerm": "Mario & Sonic at Vancouver Olympic"},
+				{"searchTerm": "Mariowa Sonic Vancouver Donggye-olympic"}
+			]
+		},
+		{
+			"group": "Mario Power Tennis",
+			"titles": [
+				{"searchTerm": "Mario Power Tennis"},
+				{"searchTerm": "Mario Tennis GC"}
+			]
+		},
+		{
+			"group": "Mario Strikers Charged",
+			"titles": [
+				{"searchTerm": "Mario Power Soccer"},
+				{"searchTerm": "Mario Strikers Charged"},
+				{"searchTerm": "Mario Strikers Charged Football"}
+			]
+		},
+		{
+			"group": "Mario Super Sluggers",
+			"titles": [
+				{"searchTerm": "Mario Super Sluggers"},
+				{"searchTerm": "Super Mario Stadium - Family Baseball"}
+			]
+		},
+		{
+			"group": "Marvel Super Hero Squad (Walmart)",
+			"titles": [
+				{"searchTerm": "Marvel Super Hero Squad (Walmart)"},
+				{"searchTerm": "Marvel Super Hero Squad", "priority": 2}
+			]
+		},
+		{
+			"group": "Mary King's Riding School 2",
+			"titles": [
+				{"searchTerm": "Mary King's Riding School 2"},
+				{"searchTerm": "Ride"}
+			]
+		},
+		{
+			"group": "Maximum Racing - Crash Car Racer",
+			"titles": [
+				{"searchTerm": "Crash Car Racer"},
+				{"searchTerm": "Maximum Racing - Crash Car Racer"}
+			]
+		},
+		{
+			"group": "Maximum Racing - Drag & Stock Racer",
+			"titles": [
+				{"searchTerm": "Drag & Stock Racer"},
+				{"searchTerm": "Maximum Racing - Drag & Stock Racer"}
+			]
+		},
+		{
+			"group": "Maximum Racing - GP Classic Racing",
+			"titles": [
+				{"searchTerm": "GP Classic Racing"},
+				{"searchTerm": "Maximum Racing - GP Classic Racing"}
+			]
+		},
+		{
+			"group": "Maximum Racing - Rally Racer",
+			"titles": [
+				{"searchTerm": "Maximum Racing - Rally Racer"},
+				{"searchTerm": "Rally Racer"}
+			]
+		},
+		{
+			"group": "Maximum Racing - Sprint Cars",
+			"titles": [
+				{"searchTerm": "Maximum Racing - Sprint Cars"},
+				{"searchTerm": "Sprint Cars"}
+			]
+		},
+		{
+			"group": "Maximum Racing - Super Karts",
+			"titles": [
+				{"searchTerm": "Maximum Racing - Super Karts"},
+				{"searchTerm": "Super Karts"}
+			]
+		},
+		{
+			"group": "Maximum Racing - Super Truck Racer",
+			"titles": [
+				{"searchTerm": "Maximum Racing - Super Truck Racer"},
+				{"searchTerm": "Super Truck Racer"}
+			]
+		},
+		{
+			"group": "Mercury Meltdown Revolution",
+			"titles": [
+				{"searchTerm": "Mercury Meltdown Revolution"},
+				{"searchTerm": "Tama-Run"}
+			]
+		},
+		{
+			"group": "Metal Slug Anthology",
+			"titles": [
+				{"searchTerm": "Metal Slug Anthology"},
+				{"searchTerm": "Metal Slug Complete"}
+			]
+		},
+		{
+			"group": "Metroid Prime",
+			"titles": [
+				{"searchTerm": "Metroid Prime"}
+			],
+			"compilations": [
+				{"searchTerm": "Metroid Prime Trilogy"}
+			]
+		},
+		{
+			"group": "Metroid Prime 2 - Dark Echoes",
+			"titles": [
+				{"searchTerm": "Metroid Prime 2 - Dark Echoes"}
+			],
+			"compilations": [
+				{"searchTerm": "Metroid Prime Trilogy"}
+			]
+		},
+		{
+			"group": "Metroid Prime 3 - Corruption",
+			"titles": [
+				{"searchTerm": "Metroid Prime 3 - Corruption"}
+			],
+			"compilations": [
+				{"searchTerm": "Metroid Prime Trilogy"}
+			]
+		},
+		{
+			"group": "Michael Jackson - The Experience",
+			"titles": [
+				{"searchTerm": "Michael Jackson - The Experience"}
+			],
+			"supersets": [
+				{"searchTerm": "Michael Jackson - The Experience (Special Edition)"},
+				{"searchTerm": "Michael Jackson - The Experience (Walmart)"}
+			]
+		},
+		{
+			"group": "MiniCopter Adventure Flight",
+			"titles": [
+				{"searchTerm": "MiniCopter Adventure Flight"},
+				{"searchTerm": "Petit Copter Wii - Adventure Flight"},
+				{"searchTerm": "Radio Helicopter"}
+			]
+		},
+		{
+			"group": "MLB Power Pros",
+			"titles": [
+				{"searchTerm": "Jikkyou Powerful Major League 2 Wii"},
+				{"searchTerm": "MLB Power Pros"}
+			]
+		},
+		{
+			"group": "MLB Power Pros 2008",
+			"titles": [
+				{"searchTerm": "Jikkyou Powerful Major League 3"},
+				{"searchTerm": "MLB Power Pros 2008"}
+			]
+		},
+		{
+			"group": "Monkey King, The - The Legend Begins",
+			"titles": [
+				{"searchTerm": "Monkey King, The - The Legend Begins"},
+				{"searchTerm": "Shin Chuuka Taisen - Michael to Meimei no Bouken"},
+				{"searchTerm": "Sin Junghwa-daeseon - Michaelgwa Meimeiui Moheom"}
+			]
+		},
+		{
+			"group": "Monkey Mischief! Party Time",
+			"titles": [
+				{"searchTerm": "Monkey Mischief!"},
+				{"searchTerm": "Monkey Mischief! Party Time"}
+			]
+		},
+		{
+			"group": "Monopoly",
+			"titles": [
+				{"searchTerm": "Monopoly"}
+			],
+			"compilations": [
+				{"searchTerm": "Monopoly Collection"}
+			]
+		},
+		{
+			"group": "Monopoly Streets",
+			"titles": [
+				{"searchTerm": "Monopoly Streets"}
+			],
+			"compilations": [
+				{"searchTerm": "Monopoly Collection"}
+			]
+		},
+		{
+			"group": "Monster High - Ghoul Spirit",
+			"titles": [
+				{"searchTerm": "Monster High - Ghoul Spirit"},
+				{"searchTerm": "Monster High - Scuola da Paura"}
+			]
+		},
+		{
+			"group": "Monster Hunter Tri",
+			"titles": [
+				{"searchTerm": "Monster Hunter 3 tri-"},
+				{"searchTerm": "Monster Hunter Tri"}
+			]
+		},
+		{
+			"group": "Monster Trucks Mayhem",
+			"titles": [
+				{"searchTerm": "Monster Trucks"},
+				{"searchTerm": "Monster Trucks Mayhem"}
+			]
+		},
+		{
+			"group": "Monster Trux Arenas - Special Edition",
+			"titles": [
+				{"searchTerm": "Monster Trux Arenas"},
+				{"searchTerm": "Monster Trux Arenas - Special Edition"}
+			]
+		},
+		{
+			"group": "Movie Games",
+			"titles": [
+				{"searchTerm": "Movie Games"},
+				{"searchTerm": "Movie Studios Party"}
+			]
+		},
+		{
+			"group": "Mr Bean's Wacky World",
+			"titles": [
+				{"searchTerm": "Mr Bean's Wacky World"},
+				{"searchTerm": "Mr Bean's Wacky World of Wii"}
+			]
+		},
+		{
+			"group": "Munchables, The",
+			"titles": [
+				{"searchTerm": "Munchables, The"},
+				{"searchTerm": "Tabemon"}
+			]
+		},
+		{
+			"group": "Muramasa - The Demon Blade",
+			"titles": [
+				{"searchTerm": "Oboro Muramasa"},
+				{"searchTerm": "Muramasa - The Demon Blade"}
+			]
+		},
+		{
+			"group": "MX vs. ATV Untamed",
+			"titles": [
+				{"searchTerm": "MX vs. ATV Extreme Limite"},
+				{"searchTerm": "MX vs. ATV Untamed"}
+			]
+		},
+		{
+			"group": "My Baby First Steps",
+			"titles": [
+				{"searchTerm": "My Baby 2"},
+				{"searchTerm": "My Baby First Steps"}
+			]
+		},
+		{
+			"group": "My Ballet Studio",
+			"titles": [
+				{"searchTerm": "Diva Ballerina"},
+				{"searchTerm": "My Ballet Studio"}
+			]
+		},
+		{
+			"group": "My First Songs",
+			"titles": [
+				{"searchTerm": "Meine ersten Mitsing-Lieder"},
+				{"searchTerm": "Mon Premier Karaoke"},
+				{"searchTerm": "My First Songs"}
+			]
+		},
+		{
+			"group": "My Fitness Coach",
+			"titles": [
+				{"searchTerm": "My Fitness Coach"},
+				{"searchTerm": "My Fitness Coach - Get in Shape"}
+			]
+		},
+		{
+			"group": "My Horse & Me - Riding for Gold",
+			"titles": [
+				{"searchTerm": "My Horse & Me - Riding for Gold"},
+				{"searchTerm": "My Horse & Me 2"}
+			]
+		},
+		{
+			"group": "My Horse Club - On the Trail of the Mysterious Appaloosa",
+			"titles": [
+				{"searchTerm": "My Horse Club - On the Trail of the Mysterious Appaloosa"},
+				{"searchTerm": "Real Stories - Mission Equitation"}
+			]
+		},
+		{
+			"group": "My Word Coach",
+			"titles": [
+				{"searchTerm": "Mein Wortschatz-Coach"},
+				{"searchTerm": "Mi Experto en Vocabulario"},
+				{"searchTerm": "Mon Coach Personnel - J'enrichis Mon Vocabulaire"},
+				{"searchTerm": "My Word Coach"},
+				{"searchTerm": "My Word Coach - Verbeter Je Woordenschat"}
+			]
+		},
+		{
+			"group": "MySims",
+			"titles": [
+				{"searchTerm": "Boku to Sim no Machi"},
+				{"searchTerm": "MySims"}
+			],
+			"compilations": [
+				{"searchTerm": "MySims Collection"}
+			]
+		},
+		{
+			"group": "MySims Agents",
+			"titles": [
+				{"searchTerm": "Boku to Sim no Machi Agent - Gokuaku Shachou kara Sekai o Sukue Daisakusen!"},
+				{"searchTerm": "MySims Agents"}
+			]
+		},
+		{
+			"group": "MySims Kingdom",
+			"titles": [
+				{"searchTerm": "Boku to Sim no Machi Kingdom"},
+				{"searchTerm": "MySims Kingdom"},
+				{"searchTerm": "MySims Simdeurui Wangguk"}
+			]
+		},
+		{
+			"group": "MySims Party",
+			"titles": [
+				{"searchTerm": "Boku to Sim no Machi Party"},
+				{"searchTerm": "MySims Party"}
+			]
+		},
+		{
+			"group": "MySims Racing",
+			"titles": [
+				{"searchTerm": "Boku to Sim no Machi Racing"},
+				{"searchTerm": "MySims Racing"}
+			],
+			"compilations": [
+				{"searchTerm": "MySims Collection"}
+			]
+		},
+		{
+			"group": "Namco Museum Remix",
+			"titles": [
+				{"searchTerm": "Minna de Asobou! Namco Carnival"},
+				{"searchTerm": "Namco Museum Remix"}
+			],
+			"supersets": [
+				{"searchTerm": "Namco Museum Megamix"}
+			]
+		},
+		{
+			"group": "Neighborhood Games",
+			"titles": [
+				{"searchTerm": "Big Family Games"},
+				{"searchTerm": "Neighborhood Games"}
+			]
+		},
+		{
+			"group": "Naruto - Clash of Ninja Revolution",
+			"titles": [
+				{"searchTerm": "Naruto - Clash of Ninja Revolution"},
+				{"searchTerm": "Naruto - Clash of Ninja Revolution - European Version"}
+			]
+		},
+		{
+			"group": "Naruto Shippuden - Clash of Ninja Revolution III",
+			"titles": [
+				{"searchTerm": "Naruto Shippuden - Clash of Ninja Revolution III"},
+				{"searchTerm": "Naruto Shippuden - Clash of Ninja Revolution III - European Version"}
+			]
+		},
+		{
+			"group": "Naruto - Clash of Ninja Revolution 2",
+			"titles": [
+				{"searchTerm": "Naruto - Clash of Ninja Revolution 2"},
+				{"searchTerm": "Naruto - Clash of Ninja Revolution 2 - European Version"}
+			]
+		},
+		{
+			"group": "Naruto Shippuden - Dragon Blade Chronicles",
+			"titles": [
+				{"searchTerm": "Naruto Shippuden - Dragon Blade Chronicles"},
+				{"searchTerm": "Naruto Shippuden - Dragon Blade Chronicles - European Version"},
+				{"searchTerm": "Naruto Shippuuden - Ryuu Jin-ki"}
+			]
+		},
+		{
+			"group": "Nat Geo Challenge! Wild Life",
+			"titles": [
+				{"searchTerm": "Nat Geo Challenge! Wild Life"},
+				{"searchTerm": "Nat Geo Quiz! Wild Life"}
+			]
+		},
+		{
+			"group": "New Carnival Games",
+			"titles": [
+				{"searchTerm": "New Carnival Funfair Games"},
+				{"searchTerm": "New Carnival Games"}
+			]
+		},
+		{
+			"group": "Nickelodeon Avatar - The Last Airbender",
+			"titles": [
+				{"searchTerm": "Nickelodeon Avatar - The Last Airbender"},
+				{"searchTerm": "Nickelodeon Avatar - The Legend of Aang"}
+			]
+		},
+		{
+			"group": "Nickelodeon Avatar - The Last Airbender - Into the Inferno",
+			"titles": [
+				{"searchTerm": "Nickelodeon Avatar - The Last Airbender - Into the Inferno"},
+				{"searchTerm": "Nickelodeon Avatar - The Legend of Aang - Into the Inferno"}
+			]
+		},
+		{
+			"group": "Nickelodeon Avatar - The Last Airbender - The Burning Earth",
+			"titles": [
+				{"searchTerm": "Nickelodeon Avatar - The Last Airbender - The Burning Earth"},
+				{"searchTerm": "Nickelodeon Avatar - The Legend of Aang - The Burning Earth"}
+			]
+		},
+		{
+			"group": "Nickelodeon Barnyard",
+			"titles": [
+				{"searchTerm": "Barnyard - Shuyaku wa Ore, Ushi"},
+				{"searchTerm": "Nickelodeon Barnyard"}
+			]
+		},
+		{
+			"group": "Nickelodeon SpongeBob SquigglePants",
+			"titles": [
+				{"searchTerm": "Nickelodeon SpongeBob SquarePants SquigglePants"},
+				{"searchTerm": "Nickelodeon SpongeBob SquigglePants"}
+			]
+		},
+		{
+			"group": "Nickelodeon SpongeBob's Boating Bash",
+			"titles": [
+				{"searchTerm": "Nickelodeon Bob Esponja - Botes de Choque"},
+				{"searchTerm": "Nickelodeon SpongeBob's Boating Bash"},
+				{"searchTerm": "Nickelodeon SpongeBob SquarePants - Boating Bash"}
+			]
+		},
+		{
+			"group": "Nickelodeon SpongeBob SquarePants - Creature from the Krusty Krab",
+			"titles": [
+				{"searchTerm": "Nickelodeon SpongeBob SquarePants"},
+				{"searchTerm": "Nickelodeon SpongeBob SquarePants - Creature from the Krusty Krab"}
+			]
+		},
+		{
+			"group": "Nickelodeon SpongeBob's Truth or Square",
+			"titles": [
+				{"searchTerm": "Nickelodeon Bob Esponja - Atrapados en el Congelador"},
+				{"searchTerm": "Nickelodeon SpongeBob's Truth or Square"},
+				{"searchTerm": "Nickelodeon SpongeBob SquarePants - SpongeBob's Truth or Square"}
+			]
+		},
+		{
+			"group": "Nicktoons - Attack of the Toybots",
+			"titles": [
+				{"searchTerm": "Nicktoons - Attack of the Toybots"},
+				{"searchTerm": "Nickelodeon SpongeBob and Friends - Attack of the Toybots"},
+				{"searchTerm": "Nickelodeon SpongeBob SquarePants - SpongeBob to Nakama-tachi - Toybot no Kougeki"}
+			]
+		},
+		{
+			"group": "Night at the Museum - Battle of the Smithsonian - The Video Game",
+			"titles": [
+				{"searchTerm": "Night at the Museum - Battle of the Smithsonian - The Video Game"},
+				{"searchTerm": "Night at the Museum 2 - The Video Game"}
+			]
+		},
+		{
+			"group": "Nights - Journey of Dreams",
+			"titles": [
+				{"searchTerm": "NiGHTS - Hoshi Furu Yoru no Monogatari"},
+				{"searchTerm": "Nights - Journey of Dreams"}
+			]
+		},
+		{
+			"group": "NPPL Championship Paintball 2009",
+			"titles": [
+				{"searchTerm": "Millennium European Paintball Series, The - Championship Paintball 2009"},
+				{"searchTerm": "NPPL Championship Paintball 2009"}
+			]
+		},
+		{
+			"group": "Octomania",
+			"titles": [
+				{"searchTerm": "Modu Hamkke Takoron"},
+				{"searchTerm": "Octomania"},
+				{"searchTerm": "Sharuui Takoron"}
+			]
+		},
+		{
+			"group": "Offroad Extreme! Special Edition",
+			"titles": [
+				{"searchTerm": "Offroad Extreme!"},
+				{"searchTerm": "Offroad Extreme! Special Edition"}
+			]
+		},
+		{
+			"group": "ObsCure - The Aftermath",
+			"titles": [
+				{"searchTerm": "ObsCure - The Aftermath"},
+				{"searchTerm": "ObsCure II"}
+			]
+		},
+		{
+			"group": "One Piece - Unlimited Cruise 1 - The Treasure Beneath the Waves",
+			"titles": [
+				{"searchTerm": "One Piece - Unlimited Cruise - Episode 1 - Nami ni Yureru Hihou"},
+				{"searchTerm": "One Piece - Unlimited Cruise 1 - The Treasure Beneath the Waves"}
+			]
+		},
+		{
+			"group": "One Piece - Unlimited Cruise 2 - Awakening of a Hero",
+			"titles": [
+				{"searchTerm": "One Piece - Unlimited Cruise - Episode 2 - Mezameru Yuusha"},
+				{"searchTerm": "One Piece - Unlimited Cruise 2 - Awakening of a Hero"}
+			]
+		},
+		{
+			"group": "Onechanbara - Bikini Zombie Slayers",
+			"titles": [
+				{"searchTerm": "Onechanbara - Bikini Zombie Slayers"},
+				{"searchTerm": "Oneechanbara Revolution"}
+			]
+		},
+		{
+			"group": "Pajama Sam - Don't Fear the Dark",
+			"titles": [
+				{"searchTerm": "Pajama Sam - Don't Fear the Dark"},
+				{"searchTerm": "Pajama Sam - No Need to Hide When It's Dark Outside"}
+			]
+		},
+		{
+			"group": "Pandora's Tower",
+			"titles": [
+				{"searchTerm": "Pandora's Tower"},
+				{"searchTerm": "Pandora no Tou - Kimi no Moto e Kaeru made"}
+			]
+		},
+		{
+			"group": "Party Pigs Farmyard Games",
+			"titles": [
+				{"searchTerm": "Athletic Piggy Party"},
+				{"searchTerm": "Farmyard Party"},
+				{"searchTerm": "Party Pigs Farmyard Games"}
+			]
+		},
+		{
+			"group": "Paws & Claws - Pet Resort",
+			"titles": [
+				{"searchTerm": "Meine Tierpension"},
+				{"searchTerm": "Mijn Dierenpension - Verzorg en Speel met de Leukste Dieren!"},
+				{"searchTerm": "My Pet Hotel"},
+				{"searchTerm": "Paws & Claws - Pet Resort"}
+			]
+		},
+		{
+			"group": "Paws & Claws - Pet Vet",
+			"titles": [
+				{"searchTerm": "My Vet Practice"},
+				{"searchTerm": "Paws & Claws - Pet Vet"}
+			]
+		},
+		{
+			"group": "PDC World Championship Darts",
+			"titles": [
+				{"searchTerm": "PDC World Championship Darts"},
+				{"searchTerm": "PDC World Championship Darts 2008"}
+			]
+		},
+		{
+			"group": "Penny Racers Party - Turbo-Q Speedway",
+			"titles": [
+				{"searchTerm": "Choro Q Wii"},
+				{"searchTerm": "Penny Racers Party - Turbo-Q Speedway"}
+			]
+		},
+		{
+			"group": "PES 2008 - Pro Evolution Soccer",
+			"titles": [
+				{"searchTerm": "PES 2008 - Pro Evolution Soccer"},
+				{"searchTerm": "Winning Eleven Play Maker 2008"}
+			]
+		},
+		{
+			"group": "PES 2009 - Pro Evolution Soccer",
+			"titles": [
+				{"searchTerm": "PES 2009 - Pro Evolution Soccer"},
+				{"searchTerm": "Winning Eleven Play Maker 2009"}
+			]
+		},
+		{
+			"group": "PES 2010 - Pro Evolution Soccer",
+			"titles": [
+				{"searchTerm": "PES 2010 - Pro Evolution Soccer"},
+				{"searchTerm": "Winning Eleven Play Maker 2010"}
+			]
+		},
+		{
+			"group": "PES 2011 - Pro Evolution Soccer",
+			"titles": [
+				{"searchTerm": "PES 2011 - Pro Evolution Soccer"},
+				{"searchTerm": "Winning Eleven Play Maker 2011"}
+			]
+		},
+		{
+			"group": "PES 2012 - Pro Evolution Soccer",
+			"titles": [
+				{"searchTerm": "PES 2012 - Pro Evolution Soccer"},
+				{"searchTerm": "Winning Eleven Play Maker 2012"}
+			]
+		},
+		{
+			"group": "PES 2013 - Pro Evolution Soccer",
+			"titles": [
+				{"searchTerm": "PES 2013 - Pro Evolution Soccer"},
+				{"searchTerm": "Winning Eleven Play Maker 2013"}
+			]
+		},
+		{
+			"group": "Petz - Catz 2",
+			"titles": [
+				{"searchTerm": "Catz"},
+				{"searchTerm": "Nyanko to Mahou no Boushi"},
+				{"searchTerm": "Petz - Catz 2"}
+			]
+		},
+		{
+			"group": "Petz - Crazy Monkeyz",
+			"titles": [
+				{"searchTerm": "Petz - Crazy Monkeyz"},
+				{"searchTerm": "Petz - Monkey Madness"}
+			]
+		},
+		{
+			"group": "Petz - Dogz 2",
+			"titles": [
+				{"searchTerm": "Dogz"},
+				{"searchTerm": "Petz - Dogz 2"},
+				{"searchTerm": "Wanko to Mahou no Boushi"}
+			]
+		},
+		{
+			"group": "Petz - Horse Club",
+			"titles": [
+				{"searchTerm": "Imagine - Champion Rider"},
+				{"searchTerm": "Petz - Horse Club"}
+			]
+		},
+		{
+			"group": "Petz - Horsez 2",
+			"titles": [
+				{"searchTerm": "Petz - Horsez 2"},
+				{"searchTerm": "Pippa Funnell - Ranch Rescue"}
+			]
+		},
+		{
+			"group": "Petz Rescue - Wildlife Vet",
+			"titles": [
+				{"searchTerm": "Petz Rescue - Wildlife Vet"},
+				{"searchTerm": "Planet Rescue - Wildlife Vet"}
+			]
+		},
+		{
+			"group": "Petz Sports",
+			"titles": [
+				{"searchTerm": "Petz Sports"},
+				{"searchTerm": "Petz Sports - Dog Playground"}
+			]
+		},
+		{
+			"group": "Phantom Brave - We Meet Again",
+			"titles": [
+				{"searchTerm": "Phantom Brave - We Meet Again"},
+				{"searchTerm": "Phantom Brave Wii"}
+			]
+		},
+		{
+			"group": "Pheasants Forever - Wingshooter",
+			"titles": [
+				{"searchTerm": "Pheasants Forever"},
+				{"searchTerm": "Pheasants Forever - Wingshooter"}
+			]
+		},
+		{
+			"group": "Pinball Hall of Fame - The Gottlieb Collection",
+			"titles": [
+				{"searchTerm": "Gottlieb Pinball Classics"},
+				{"searchTerm": "Pinball Hall of Fame - The Gottlieb Collection"}
+			]
+		},
+		{
+			"group": "Pinball Hall of Fame - The Williams Collection",
+			"titles": [
+				{"searchTerm": "Pinball Hall of Fame - The Williams Collection"},
+				{"searchTerm": "Williams Pinball Classics"}
+			]
+		},
+		{
+			"group": "PokePark 2 - Wonders Beyond",
+			"titles": [
+				{"searchTerm": "PokePark 2 - Beyond the World"},
+				{"searchTerm": "PokePark 2 - Wonders Beyond"}
+			]
+		},
+		{
+			"group": "PokePark Wii - Pikachu's Adventure",
+			"titles": [
+				{"searchTerm": "PokePark Wii - Pikachu's Adventure"},
+				{"searchTerm": "PokePark Wii - Pikachu no Daibouken"}
+			]
+		},
+		{
+			"group": "Pop'n Music",
+			"titles": [
+				{"searchTerm": "Pop'n Music"},
+				{"searchTerm": "Pop'n Rhythm"}
+			]
+		},
+		{
+			"group": "Prince of Persia - The Forgotten Sands",
+			"titles": [
+				{"searchTerm": "Prince of Persia - The Forgotten Sands"},
+				{"searchTerm": "Prince of Persia - The Forgotten Sands + 1989"}
+			]
+		},
+		{
+			"group": "Project Zero 2 - Wii Edition",
+			"titles": [
+				{"searchTerm": "Project Zero 2 - Wii Edition"},
+				{"searchTerm": "Zero - Shinku no Chou"}
+			]
+		},
+		{
+			"group": "Puppy Luv - Your New Best Friend",
+			"titles": [
+				{"searchTerm": "Puppy Luv - Your New Best Friend"},
+				{"searchTerm": "Tierbabys - Mein kleiner Welpe"}
+			]
+		},
+		{
+			"group": "Racquet Sports",
+			"titles": [
+				{"searchTerm": "Racket Sports Party"},
+				{"searchTerm": "Racquet Sports"}
+			]
+		},
+		{
+			"group": "Raving Rabbids - Travel in Time",
+			"titles": [
+				{"searchTerm": "Rabbids Party - Time Travel"},
+				{"searchTerm": "Raving Rabbids - Travel in Time"}
+			]
+		},
+		{
+			"group": "Rayman - Raving Rabbids",
+			"titles": [
+				{"searchTerm": "Rabbids Party"},
+				{"searchTerm": "Rayman - Raving Rabbids"}
+			],
+			"compilations": [
+				{"searchTerm": "Raving Rabbids - Party Collection"}
+			]
+		},
+		{
+			"group": "Rayman - Raving Rabbids - TV Party",
+			"titles": [
+				{"searchTerm": "Rabbids Party - TV Party"},
+				{"searchTerm": "Rayman - Raving Rabbids - TV Party"}
+			],
+			"compilations": [
+				{"searchTerm": "Raving Rabbids - Party Collection"}
+			]
+		},
+		{
+			"group": "Rayman - Raving Rabbids 2",
+			"titles": [
+				{"searchTerm": "Rabbids Party Returns"},
+				{"searchTerm": "Rayman - Raving Rabbids 2"}
+			],
+			"compilations": [
+				{"searchTerm": "Raving Rabbids - Party Collection"}
+			]
+		},
+		{
+			"group": "Ready Steady Cook - The Game",
+			"titles": [
+				{"searchTerm": "Cuisine Party"},
+				{"searchTerm": "Prova del Cuoco, La"},
+				{"searchTerm": "Ready Steady Cook - The Game"}
+			]
+		},
+		{
+			"group": "Real Stories - Veterinaire",
+			"titles": [
+				{"searchTerm": "Real Stories - Veterinaire"},
+				{"searchTerm": "Tierliebe - Gross Geschrieben ~ Veterinario - Cuccioli in Pericolo"}
+			]
+		},
+		{
+			"group": "Reel Fishing - Angler's Dream",
+			"titles": [
+				{"searchTerm": "Fish Eyes Wii"},
+				{"searchTerm": "Reel Fishing - Angler's Dream"}
+			]
+		},
+		{
+			"group": "Remington Great American Bird Hunt",
+			"titles": [
+				{"searchTerm": "Remington Great American Bird Hunt"}
+			],
+			"compilations": [
+				{"searchTerm": "Outdoor Action Double Pack"}
+			]
+		},
+		{
+			"group": "Repetto Paris - Let's Play Ballerina",
+			"titles": [
+				{"searchTerm": "Repetto Paris - Let's Play Ballerina"},
+				{"searchTerm": "Repetto Paris Ballerina"}
+			]
+		},
+		{
+			"group": "Resident Evil Archives - Resident Evil",
+			"titles": [
+				{"searchTerm": "Biohazard"},
+				{"searchTerm": "Resident Evil Archives - Resident Evil"}
+			]
+		},
+		{
+			"group": "Resident Evil - The Darkside Chronicles",
+			"titles": [
+				{"searchTerm": "Biohazard - The Darkside Chronicles"},
+				{"searchTerm": "Resident Evil - The Darkside Chronicles"}
+			]
+		},
+		{
+			"group": "Resident Evil - The Umbrella Chronicles",
+			"titles": [
+				{"searchTerm": "Biohazard - The Umbrella Chronicles"},
+				{"searchTerm": "Biohazard - Umbrella Chronicles"},
+				{"searchTerm": "Resident Evil - The Umbrella Chronicles"}
+			]
+		},
+		{
+			"group": "Resident Evil 4 - Wii Edition",
+			"titles": [
+				{"searchTerm": "Biohazard 4 - Wii Edition"},
+				{"searchTerm": "Resident Evil 4 - Wii Edition"}
+			]
+		},
+		{
+			"group": "Resident Evil Archives - Resident Evil Zero",
+			"titles": [
+				{"searchTerm": "Biohazard Zero"},
+				{"searchTerm": "Resident Evil Archives - Resident Evil Zero"}
+			]
+		},
+		{
+			"group": "Rock Band - Track Pack Volume 1",
+			"titles": [
+				{"searchTerm": "Rock Band - Song Pack 1"},
+				{"searchTerm": "Rock Band - Track Pack Volume 1"}
+			]
+		},
+		{
+			"group": "Rock Band - Track Pack Volume 2",
+			"titles": [
+				{"searchTerm": "Rock Band - Song Pack 2"},
+				{"searchTerm": "Rock Band - Track Pack Volume 2"}
+			]
+		},
+		{
+			"group": "Rhythm Heaven Fever",
+			"titles": [
+				{"searchTerm": "Beat the Beat - Rhythm Paradise"},
+				{"searchTerm": "Minna no Rhythm Tengoku"},
+				{"searchTerm": "Rhythm Heaven Fever"},
+				{"searchTerm": "Rhythm Sesang Wii"}
+			]
+		},
+		{
+			"group": "Ringling Bros. and Barnum & Bailey",
+			"titles": [
+				{"searchTerm": "It's My Circus"},
+				{"searchTerm": "Ringling Bros. and Barnum & Bailey"}
+			]
+		},
+		{
+			"group": "Rodea the Sky Soldier",
+			"titles": [
+				{"searchTerm": "Cheongongui Gisa Rodea"},
+				{"searchTerm": "Rodea the Sky Soldier"},
+				{"searchTerm": "Tenkuu no Kishi Rodea"}
+			]
+		},
+		{
+			"group": "Rolling Stone - Drum King",
+			"titles": [
+				{"searchTerm": "Rolling Stone - Drum King"},
+				{"searchTerm": "We Rock - Drum King"}
+			]
+		},
+		{
+			"group": "Rooms - The Main Building",
+			"titles": [
+				{"searchTerm": "Rooms - Fushigi na Ugoku Heya"},
+				{"searchTerm": "Rooms - The Main Building"}
+			]
+		},
+		{
+			"group": "Rubik's World",
+			"titles": [
+				{"searchTerm": "Rubik's Puzzle World"},
+				{"searchTerm": "Rubik's World"}
+			]
+		},
+		{
+			"group": "Rune Factory - Tides of Destiny",
+			"titles": [
+				{"searchTerm": "Rune Factory - Oceans"},
+				{"searchTerm": "Rune Factory - Tides of Destiny"}
+			]
+		},
+		{
+			"group": "Rygar - The Battle of Argus",
+			"titles": [
+				{"searchTerm": "Argos no Senshi - Muscle Impact"},
+				{"searchTerm": "Rygar - The Battle of Argus"}
+			]
+		},
+		{
+			"group": "Samurai Shodown Anthology",
+			"titles": [
+				{"searchTerm": "Samurai Shodown Anthology"},
+				{"searchTerm": "Samurai Spirits - 6beonui Seungbu"},
+				{"searchTerm": "Samurai Spirits - Rokuban Shoubu"}
+			]
+		},
+		{
+			"group": "Samurai Warriors - Katana",
+			"titles": [
+				{"searchTerm": "Samurai Warriors - Katana"},
+				{"searchTerm": "Sengoku Musou - Katana"}
+			]
+		},
+		{
+			"group": "Samurai Warriors 3",
+			"titles": [
+				{"searchTerm": "Samurai Warriors 3"},
+				{"searchTerm": "Sengoku Musou 3"}
+			]
+		},
+		{
+			"group": "Scene It Bright Lights! Big Screen!",
+			"titles": [
+				{"searchTerm": "Scene It Bright Lights! Big Screen!"},
+				{"searchTerm": "Scene It Ciak! Si Gira!"},
+				{"searchTerm": "Scene It Estrellas en la Pantalla Gigante"},
+				{"searchTerm": "Scene It Ganz grosses Kino!"},
+				{"searchTerm": "Scene It Lumieres ! Action !"}
+			]
+		},
+		{
+			"group": "Score International Baja 1000 - The Official Game",
+			"titles": [
+				{"searchTerm": "Score International Baja 1000 - The Official Game"},
+				{"searchTerm": "Score International Baja 1000 - World Championship Off Road Racing"}
+			]
+		},
+		{
+			"group": "Sega Bass Fishing",
+			"titles": [
+				{"searchTerm": "Sega Bass Fishing"},
+				{"searchTerm": "Uchi Tsuri! Sega Bass Fishing"}
+			]
+		},
+		{
+			"group": "Sengoku Basara - Samurai Heroes",
+			"titles": [
+				{"searchTerm": "Sengoku Basara - Samurai Heroes"},
+				{"searchTerm": "Sengoku Basara 3"}
+			]
+		},
+		{
+			"group": "Sesame Street - Ready, Set, Grover! with Elmo - The Videogame",
+			"titles": [
+				{"searchTerm": "Barrio Sesamo - Preparados Listos Coco! El Videojuego ~ Sesamstraat - Klaar Voor de Start, Grover! De Game"},
+				{"searchTerm": "Sesame Street - Ready, Set, Grover! The Videogame"},
+				{"searchTerm": "Sesame Street - Ready, Set, Grover! with Elmo - The Videogame"}
+			]
+		},
+		{
+			"group": "Shaun White Snowboarding - Road Trip",
+			"titles": [
+				{"searchTerm": "Shaun White Snowboarding - Road Trip"}
+			],
+			"supersets": [
+				{"searchTerm": "Shaun White Snowboarding - Road Trip (Target Limited Edition)"}
+			]
+		},
+		{
+			"group": "Shimano Xtreme Fishing",
+			"titles": [
+				{"searchTerm": "Shimano Extreme Fishing"},
+				{"searchTerm": "Shimano Xtreme Fishing"}
+			],
+			"compilations": [
+				{"searchTerm": "Outdoor Action Double Pack"}
+			]
+		},
+		{
+			"group": "Shiren the Wanderer",
+			"titles": [
+				{"searchTerm": "Fushigi no Dungeon - Fuurai no Shiren 3 - Karakuri Yashiki no Nemuri-hime"},
+				{"searchTerm": "Shiren the Wanderer"}
+			]
+		},
+		{
+			"group": "Shonen Jump One Piece - Unlimited Adventure",
+			"titles": [
+				{"searchTerm": "One Piece - Unlimited Adventure"},
+				{"searchTerm": "Shonen Jump One Piece - Unlimited Adventure"}
+			]
+		},
+		{
+			"group": "SimCity Creator",
+			"titles": [
+				{"searchTerm": "SimCity Creator"},
+				{"searchTerm": "SimCity Namanui Dosi"}
+			]
+		},
+		{
+			"group": "Simpsons Game, The",
+			"titles": [
+				{"searchTerm": "Simpson, Les - Le Jeu"},
+				{"searchTerm": "Simpsons, Die - Das Spiel"},
+				{"searchTerm": "Simpsons Game, The"}
+			]
+		},
+		{
+			"group": "Sin & Punishment - Star Successor",
+			"titles": [
+				{"searchTerm": "Sin & Punishment - Star Successor"},
+				{"searchTerm": "Sin and Punishment - Successor of the Skies"},
+				{"searchTerm": "Tsumi to Batsu - Sora no Koukeisha"}
+			]
+		},
+		{
+			"group": "Sky Crawlers, The - Innocent Aces",
+			"titles": [
+				{"searchTerm": "Sky Crawlers, The - Innocent Aces"},
+				{"searchTerm": "Sky Crawlers - Innocent Aces"}
+			]
+		},
+		{
+			"group": "Skylanders - Spyro's Adventure",
+			"titles": [
+				{"searchTerm": "Skylanders - Spyro's Adventure"},
+				{"searchTerm": "Skylanders - Spyro no Daibouken"}
+			]
+		},
+		{
+			"group": "Sleepover Party",
+			"titles": [
+				{"searchTerm": "Girls Life - Sleepover Party"},
+				{"searchTerm": "Sleepover Party"}
+			]
+		},
+		{
+			"group": "Smurfs, The - Dance Party",
+			"titles": [
+				{"searchTerm": "Smurfs, The - Dance Party"}
+			],
+			"supersets": [
+				{"searchTerm": "Smurfs, The - Dance Party (Toys R Us)"}
+			]
+		},
+		{
+			"group": "Sonic Colors",
+			"titles": [
+				{"searchTerm": "Sonic Colors"},
+				{"searchTerm": "Sonic Colours"}
+			]
+		},
+		{
+			"group": "Sonic and the Black Knight",
+			"titles": [
+				{"searchTerm": "Sonic and the Black Knight"},
+				{"searchTerm": "Sonic to Ankoku no Kishi"}
+			]
+		},
+		{
+			"group": "Sonic and the Secret Rings",
+			"titles": [
+				{"searchTerm": "Sonic and the Secret Rings"},
+				{"searchTerm": "Sonic to Himitsu no Ring"}
+			]
+		},
+		{
+			"group": "Sonic Riders - Zero Gravity",
+			"titles": [
+				{"searchTerm": "Sonic Riders - Shooting Star Story"},
+				{"searchTerm": "Sonic Riders - Zero Gravity"}
+			]
+		},
+		{
+			"group": "Sonic Unleashed",
+			"titles": [
+				{"searchTerm": "Sonic Unleashed"},
+				{"searchTerm": "Sonic World Adventure"}
+			]
+		},
+		{
+			"group": "Spectrobes - Origins",
+			"titles": [
+				{"searchTerm": "Kaseki Monster - Spectrobes"},
+				{"searchTerm": "Spectrobes - Origins"}
+			]
+		},
+		{
+			"group": "Speed Racer - The Videogame",
+			"titles": [
+				{"searchTerm": "Speed Racer"},
+				{"searchTerm": "Speed Racer - The Videogame"}
+			]
+		},
+		{
+			"group": "Speed Zone",
+			"titles": [
+				{"searchTerm": "Speed Zone"},
+				{"searchTerm": "Wheelspin"}
+			]
+		},
+		{
+			"group": "Spore Hero",
+			"titles": [
+				{"searchTerm": "Spore - Kimi ga Tsukuru Hero"},
+				{"searchTerm": "Spore Hero"}
+			]
+		},
+		{
+			"group": "Summer Athletics - The Ultimate Challenge",
+			"titles": [
+				{"searchTerm": "Summer Athletics"},
+				{"searchTerm": "Summer Athletics - The Ultimate Challenge"}
+			]
+		},
+		{
+			"group": "Summer Sports 2 - Island Sports Party",
+			"titles": [
+				{"searchTerm": "Summer Sports 2 - Island Sports Party"},
+				{"searchTerm": "Summer Sports Party"}
+			]
+		},
+		{
+			"group": "Super Mario All-Stars",
+			"titles": [
+				{"searchTerm": "Super Mario All-Stars"},
+				{"searchTerm": "Super Mario Collection"}
+			]
+		},
+		{
+			"group": "Super Mario Galaxy",
+			"titles": [
+				{"searchTerm": "Super Mario Galaxy"},
+				{"searchTerm": "Super Mario Wii - Galaxy Adventure"}
+			]
+		},
+		{
+			"group": "Super Mario Galaxy 2",
+			"titles": [
+				{"searchTerm": "Super Mario Galaxy 2"},
+				{"searchTerm": "Super Mario Wii 2 - Galaxy Adventure Together"}
+			]
+		},
+		{
+			"group": "Super Monkey Ball - Banana Blitz",
+			"titles": [
+				{"searchTerm": "Super Monkey Ball - Banana Blitz"},
+				{"searchTerm": "Super Monkey Ball - Uki Uki Party Daishuugou"}
+			]
+		},
+		{
+			"group": "Super Monkey Ball - Step & Roll",
+			"titles": [
+				{"searchTerm": "Super Monkey Ball - Step & Roll"},
+				{"searchTerm": "Super Monkey Ball Athletic"}
+			]
+		},
+		{
+			"group": "Super Smash Bros. Brawl",
+			"titles": [
+				{"searchTerm": "Super Smash Bros. Brawl"},
+				{"searchTerm": "Daenantu Smash Brothers X"},
+				{"searchTerm": "Dairantou Smash Brothers X"}
+			]
+		},
+		{
+			"group": "Super Sonic Racer",
+			"titles": [
+				{"searchTerm": "Super Sonic Racer"},
+				{"searchTerm": "Supersonic Racer"}
+			]
+		},
+		{
+			"group": "Super Swing Golf",
+			"titles": [
+				{
+					"searchTerm": "Super Swing Golf",
+					"filters": [
+						{
+							"conditions": {"matchRegions": ["Europe"]},
+							"results": {"group": "Super Swing Golf Season 2"}
+						}
+					]
+				},
+				{"searchTerm": "Pangya! Golf with Style"},
+				{"searchTerm": "Swing Golf Pangya"}
+			]
+		},
+		{
+			"group": "Super Swing Golf Season 2",
+			"titles": [
+				{"searchTerm": "Super Swing Golf Season 2"},
+				{"searchTerm": "Swing Golf Pangya 2nd Shot!"}
+			]
+		},
+		{
+			"group": "Survivor",
+			"titles": [
+				{"searchTerm": "Expeditie Robinson"},
+				{"searchTerm": "Isola dei Famosi, L'"},
+				{"searchTerm": "Koh-Lanta"},
+				{"searchTerm": "Supervivientes"},
+				{"searchTerm": "Survivor"}
+			]
+		},
+		{
+			"group": "Tales of Symphonia - Dawn of the New World",
+			"titles": [
+				{"searchTerm": "Tales of Symphonia - Dawn of the New World"},
+				{"searchTerm": "Tales of Symphonia - Ratatosk no Kishi"}
+			]
+		},
+		{
+			"group": "Tamagotchi - Party On!",
+			"titles": [
+				{"searchTerm": "Tamagotchi - Party On!"},
+				{"searchTerm": "Tamagotchi no Pika Pika Daitouryou!"}
+			]
+		},
+		{
+			"group": "Tatsunoko vs. Capcom - Ultimate All-Stars",
+			"titles": [
+				{"searchTerm": "Tatsunoko vs. Capcom - Ultimate All-Stars"},
+				{"searchTerm": "Tatsunoko vs. Capcom - Cross Generation of Heroes", "priority": 2}
+			]
+		},
+		{
+			"group": "Team Elimination Games",
+			"titles": [
+				{"searchTerm": "Knockout Party"},
+				{"searchTerm": "Team Elimination Games"}
+			]
+		},
+		{
+			"group": "Tenchu - Shadow Assassins",
+			"titles": [
+				{"searchTerm": "Tenchu - Shadow Assassins"},
+				{"searchTerm": "Tenchu 4"}
+			]
+		},
+		{
+			"group": "Tetris Party Deluxe",
+			"titles": [
+				{"searchTerm": "Tetris Party Deluxe"},
+				{"searchTerm": "Tetris Party Premium"}
+			]
+		},
+		{
+			"group": "Think Logic Trainer",
+			"titles": [
+				{"searchTerm": "Entraineur Cerebral et Sportif, L'"},
+				{"searchTerm": "Think - Logic Trainer"},
+				{"searchTerm": "Think - Logik Trainer"},
+				{"searchTerm": "Think - Train Je Brein"},
+				{"searchTerm": "Think Logic Trainer"}
+			]
+		},
+		{
+			"group": "TrackMania - Build to Race",
+			"titles": [
+				{"searchTerm": "TrackMania"},
+				{"searchTerm": "TrackMania - Build to Race"}
+			]
+		},
+		{
+			"group": "Transformers - Cybertron Adventures",
+			"titles": [
+				{"searchTerm": "Transformers - Cybertron Adventures"}
+			],
+			"compilations": [
+				{"searchTerm": "Transformers - Ultimate Battle Edition"}
+			]
+		},
+		{
+			"group": "Transformers - Dark of the Moon - Stealth Force Edition",
+			"titles": [
+				{"searchTerm": "Transformers - Dark of the Moon - Stealth Force Edition"}
+			],
+			"compilations": [
+				{"searchTerm": "Transformers - Ultimate Battle Edition"}
+			]
+		},
+		{
+			"group": "Trauma Center - New Blood",
+			"titles": [
+				{"searchTerm": "Caduceus - New Blood"},
+				{"searchTerm": "Trauma Center - New Blood"}
+			]
+		},
+		{
+			"group": "Trauma Center - Second Opinion",
+			"titles": [
+				{"searchTerm": "Caduceus Z - Futatsu no Chou Shittou"},
+				{"searchTerm": "Trauma Center - Second Opinion"}
+			]
+		},
+		{
+			"group": "Trauma Team",
+			"titles": [
+				{"searchTerm": "Hospital. 6-nin no Ishi"},
+				{"searchTerm": "Trauma Team"}
+			]
+		},
+		{
+			"group": "uDraw Studio",
+			"categories": ["Games"],
+			"titles": [
+				{"searchTerm": "uDraw Studio"}
+			]
+		},
+		{
+			"group": "Ultimate Shooting Collection",
+			"titles": [
+				{"searchTerm": "Milestone Shooting Collection - Karous Wii"},
+				{"searchTerm": "Ultimate Shooting Collection"}
+			]
+		},
+		{
+			"group": "Valhalla Knights - Eldar Saga",
+			"titles": [
+				{"searchTerm": "Eldar Saga"},
+				{"searchTerm": "Valhalla Knights - Eldar Saga"}
+			]
+		},
+		{
+			"group": "Victorious Boxers - Revolution",
+			"titles": [
+				{"searchTerm": "Hajime no Ippo Revolution"},
+				{"searchTerm": "Victorious Boxers - Revolution"},
+				{"searchTerm": "Victorious Boxers Challenge"}
+			]
+		},
+		{
+			"group": "Wacky World of Sports",
+			"titles": [
+				{"searchTerm": "Chin Sports"},
+				{"searchTerm": "Wacky World of Sports"}
+			]
+		},
+		{
+			"group": "Walk It Out!",
+			"titles": [
+				{"searchTerm": "Step to the Beat"},
+				{"searchTerm": "Walk It Out!"}
+			]
+		},
+		{
+			"group": "Walt Disney Pictures Bolt",
+			"titles": [
+				{"searchTerm": "Disney Bolt"},
+				{"searchTerm": "Walt Disney Pictures Bolt"}
+			]
+		},
+		{
+			"group": "Walt Disney Pictures Presents Meet the Robinsons",
+			"titles": [
+				{"searchTerm": "Walt Disney Pictures Presents Lewis to Mirai Dorobou - Wilbur no Kiken na Jikan Ryokou"},
+				{"searchTerm": "Walt Disney Pictures Presents Meet the Robinsons"}
+			]
+		},
+		{
+			"group": "Wario Land - Shake It!",
+			"titles": [
+				{"searchTerm": "Wario Land - Shake It!"},
+				{"searchTerm": "Wario Land - The Shake Dimension"},
+				{"searchTerm": "Wario Land Shake"},
+				{"searchTerm": "Wario Land Shaking"}
+			]
+		},
+		{
+			"group": "WarioWare - Smooth Moves",
+			"titles": [
+				{"searchTerm": "Chumchwora Made in Wario"},
+				{"searchTerm": "Odoru Made in Wario"},
+				{"searchTerm": "WarioWare - Smooth Moves"}
+			]
+		},
+		{
+			"group": "We Cheer 2",
+			"titles": [
+				{"searchTerm": "We Cheer - Dancing Spirits!"},
+				{"searchTerm": "We Cheer 2"}
+			]
+		},
+		{
+			"group": "We Ski",
+			"titles": [
+				{"searchTerm": "Family Ski"},
+				{"searchTerm": "We Ski"}
+			]
+		},
+		{
+			"group": "We Ski & Snowboard",
+			"titles": [
+				{"searchTerm": "Family Ski & Snowboard"},
+				{"searchTerm": "Family Ski - World Ski & Snowboard"},
+				{"searchTerm": "We Ski & Snowboard"}
+			]
+		},
+		{
+			"group": "Where the Wild Things Are",
+			"titles": [
+				{"searchTerm": "Where the Wild Things Are"},
+				{"searchTerm": "Where the Wild Things Are - The Videogame"}
+			]
+		},
+		{
+			"group": "Who Wants to Be a Millionaire",
+			"titles": [
+				{
+					"searchTerm": "Who Wants to Be a Millionaire",
+					"filters": [
+						{
+							"conditions": {"matchRegions": ["Europe"]},
+							"results": {"group": "Who Wants to Be a Millionaire (Europe)"}
+						}
+					]
+				}
+			]
+		},
+		{
+			"group": "Wii Fit",
+			"titles": [
+				{"searchTerm": "Wii Fit"}
+			],
+			"supersets": [
+				{"searchTerm": "Wii Fit Plus"}
+			]
+		},
+		{
+			"group": "Wii Play",
+			"titles": [
+				{"searchTerm": "Cheoeum Mannaneun Wii"},
+				{"searchTerm": "Hajimete no Wii"},
+				{"searchTerm": "Wii Play"}
+			]
+		},
+		{
+			"group": "Wii Play - Motion",
+			"titles": [
+				{"searchTerm": "Wii Play - Motion"},
+				{"searchTerm": "Wii Remocon Plus - Variety"},
+				{"searchTerm": "Wii Remocon Plusro Jeulgineun - Variety Game Box"}
+			]
+		},
+		{
+			"group": "Wii Sports",
+			"titles": [
+				{"searchTerm": "Wii Sports"}
+			],
+			"compilations": [
+				{"searchTerm": "Wii Sports + Wii Sports Resort"}
+			]
+		},
+		{
+			"group": "Wii Sports Resort",
+			"titles": [
+				{"searchTerm": "Wii Sports Resort"}
+			],
+			"compilations": [
+				{"searchTerm": "Wii Sports + Wii Sports Resort"}
+			]
+		},
+		{
+			"group": "Winter Sports - The Ultimate Challenge",
+			"titles": [
+				{"searchTerm": "RTL Winter Sports 2008 - The Ultimate Challenge"},
+				{"searchTerm": "Winter Sports - The Ultimate Challenge"},
+				{"searchTerm": "Winter Sports 2008 - The Ultimate Challenge"}
+			]
+		},
+		{
+			"group": "Winter Sports 2 - The Next Challenge",
+			"titles": [
+				{"searchTerm": "Winter Sports 2 - The Next Challenge"},
+				{"searchTerm": "Winter Sports 2009 - The Next Challenge"}
+			]
+		},
+		{
+			"group": "Winter Sports 3 - The Great Tournament",
+			"titles": [
+				{"searchTerm": "Winter Sports 2010 - The Great Tournament"},
+				{"searchTerm": "Winter Sports 3 - The Great Tournament"}
+			]
+		},
+		{
+			"group": "World Championship Athletics",
+			"titles": [
+				{"searchTerm": "Summer Athletics 2009"},
+				{"searchTerm": "World Championship Athletics"}
+			]
+		},
+		{
+			"group": "X Factor, The",
+			"titles": [
+				{"searchTerm": "X Factor"},
+				{"searchTerm": "X Factor, The"}
+			]
+		},
+		{
+			"group": "Xenoblade Chronicles",
+			"titles": [
+				{"searchTerm": "Xenoblade"},
+				{"searchTerm": "Xenoblade Chronicles"}
+			]
+		},
+		{
+			"group": "Yogi Bear",
+			"titles": [
+				{"searchTerm": "Yogi Bear"},
+				{"searchTerm": "Yogi Bear - The Video Game"}
+			]
+		},
+		{
+			"group": "Your Shape featuring Jenny McCarthy",
+			"titles": [
+				{"searchTerm": "Your Shape"},
+				{"searchTerm": "Your Shape featuring Jenny McCarthy"}
+			]
+		},
+		{
+			"group": "Yu-Gi-Oh! 5D's - Duel Transer",
+			"titles": [
+				{"searchTerm": "Yu-Gi-Oh! 5D's - Duel Transer"},
+				{"searchTerm": "Yu-Gi-Oh! 5D's - Master of the Cards"}
+			]
+		},
+		{
+			"group": "Zack & Wiki - Quest for Barbaros' Treasure",
+			"titles": [
+				{"searchTerm": "Takarajima Z - Barbaros no Hihou"},
+				{"searchTerm": "Zack & Wiki - Barbarosui Bomul"},
+				{"searchTerm": "Zack & Wiki - Quest for Barbaros' Treasure"}
+			]
+		}
+	]
+}

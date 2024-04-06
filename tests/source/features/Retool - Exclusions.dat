@@ -1,0 +1,304 @@
+<?xml version="1.0"?>
+<!DOCTYPE datafile PUBLIC "-//Logiqx//DTD ROM Management Datafile//EN" "http://www.logiqx.com/Dats/datafile.dtd">
+<datafile>
+	<header>
+		<name>Retool - Exclusions</name>
+		<description>Retool - Exclusions (2024-02-25)</description>
+		<version>2024-02-24 00-00-00</version>
+		<date>2024-02-24 00-00-00</date>
+		<author>unexpectedpanda</author>
+		<url>https://unexpectedpanda.github.io/retool</url>
+	</header>
+    <game name="Test Title 0 (USA)">
+		<description>Test Title 0 (USA)</description>
+		<rom name="Test Title 0 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 0 (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+    <!-- This title should be removed when add-ons are excluded -->
+	<game name="Test Title 1 (USA)">
+        <category>Add-Ons</category>
+		<description>Test Title 1 (USA)</description>
+		<rom name="Test Title 1 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 1 (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+	<!-- These titles should be removed when aftermarket titles are excluded -->
+	<game name="Test Title 49 (USA) (Aftermarket)">
+		<description>Test Title 49 (USA) (Aftermarket)</description>
+		<rom name="Test Title 49 (USA) (Aftermarket).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 49 (USA) (Aftermarket).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+    <!-- These titles should be removed when applications are excluded -->
+    <game name="Test Title 2 (USA) (Program)">
+		<description>Test Title 2 (USA) (Program)</description>
+		<rom name="Test Title 2 (USA) (Program).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 2 (USA) (Program).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+    <game name="Test Title 3 (USA) (Test Program)">
+		<description>Test Title 3 (USA) (Test Program)</description>
+		<rom name="Test Title 3 (USA) (Test Program).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 3 (USA) (Test Program).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+    <game name="Test Title 4 Check Program (USA)">
+		<description>Test Title 4 Check Program (USA)</description>
+		<rom name="Test Title 4 Check Program (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 4 Check Program (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+    <game name="Test Title 5 Sample Program (USA)">
+		<description>Test Title 5 Sample Program (USA)</description>
+		<rom name="Test Title 5 Sample Program (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 5 Sample Program (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+    <!-- This title should be removed when audio titles are excluded -->
+    <game name="Test Title 6 (USA)">
+        <category>Audio</category>
+		<description>Test Title 6 (USA)</description>
+		<rom name="Test Title 6 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 6 (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+    <!-- This title should be removed when bad dumps are excluded -->
+    <game name="Test Title 7 (USA) [b]">
+		<description>Test Title 7 (USA) [b]</description>
+		<rom name="Test Title 7 (USA) [b].cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 7 (USA) [b].bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+    <!-- These titles should be removed when BIOS and other chips are excluded -->
+    <game name="[BIOS] Test Title 8 (USA)">
+		<description>[BIOS] Test Title 8 (USA)</description>
+		<rom name="[BIOS] Test Title 8 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="[BIOS] Test Title 8 (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+    <game name="Test Title 9 (USA)">
+        <category>Console</category>
+		<description>Test Title 9 (USA)</description>
+		<rom name="Test Title 9 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 9 (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+    <game name="Test Title 10 (USA) (Enhancement Chip)">
+		<description>Test Title 10 (USA) (Enhancement Chip)</description>
+		<rom name="Test Title 10 (USA) (Enhancement Chip).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 10 (USA) (Enhancement Chip).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+    <!-- These titles should be removed when bonus discs are excluded -->
+    <game name="Test Title 11 (USA)">
+        <category>Bonus Discs</category>
+		<description>Test Title 11 (USA)</description>
+		<rom name="Test Title 11 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 11 (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+    <!-- These titles should be removed when coverdiscs are excluded -->
+    <game name="Test Title 12 (USA)">
+        <category>Coverdiscs</category>
+		<description>Test Title 12 (USA)</description>
+		<rom name="Test Title 12 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 12 (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+    <!-- These titles should be removed when demos are excluded -->
+    <game name="Test Title 13 (USA)">
+        <category>Demos</category>
+		<description>Test Title 13 (USA)</description>
+		<rom name="Test Title 13 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 13 (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+    <game name="Test Title 14 (USA) (Demo)">
+        <category>Games</category>
+		<description>Test Title 14 (USA) (Demo)</description>
+		<rom name="Test Title 14 (USA) (Demo).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 14 (USA) (Demo).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+    <game name="Test Title 15 (USA) (Demo 2)">
+        <category>Games</category>
+		<description>Test Title 15 (USA) (Demo 2)</description>
+		<rom name="Test Title 15 (USA) (Demo 2).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 15 (USA) (Demo 2).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+    <game name="Test Title 16 (USA) (Demo-CD)">
+        <category>Games</category>
+		<description>Test Title 16 (USA) (Demo-CD)</description>
+		<rom name="Test Title 16 (USA) (Demo-CD).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 16 (USA) (Demo-CD).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+    <game name="Test Title 17 (Japan) (@barai)">
+		<description>Test Title 17 (Japan) (@barai)</description>
+		<rom name="Test Title 17 (Japan) (@barai).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 17 (Japan) (@barai).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+    <game name="Test Title 18 (USA) (GameCube Preview)">
+		<description>Test Title 18 (USA) (GameCube Preview)</description>
+		<rom name="Test Title 18 (USA) (GameCube Preview).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 18 (USA) (GameCube Preview).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+    <game name="Test Title 19 (USA) (Kiosk Special)">
+		<description>Test Title 19 (USA) (Kiosk Special)</description>
+		<rom name="Test Title 19 (USA) (Kiosk Special).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 19 (USA) (Kiosk Special).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+    <game name="Test Title 20 (USA) (Special Kiosk)">
+		<description>Test Title 20 (USA) (Special Kiosk)</description>
+		<rom name="Test Title 20 (USA) (Special Kiosk).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 20 (USA) (Special Kiosk).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+    <game name="Test Title 21 Kiosk Demo Disc (USA)">
+		<description>Test Title 21 Kiosk Demo Disc (USA)</description>
+		<rom name="Test Title 21 Kiosk Demo Disc (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 21 Kiosk Demo Disc (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+    <game name="Test Title 22 - PS2 Kiosk (USA)">
+		<description>Test Title 22 - PS2 Kiosk (USA)</description>
+		<rom name="Test Title 22 - PS2 Kiosk (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 22 - PS2 Kiosk (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+    <game name="Test Title 23 - PSP System Kiosk (USA)">
+		<description>Test Title 23 - PSP System Kiosk (USA)</description>
+		<rom name="Test Title 23 - PSP System Kiosk (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 23 - PSP System Kiosk (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+    <game name="Test Title 24 (USA) (Preview)">
+		<description>Test Title 24 (USA) (Preview)</description>
+		<rom name="Test Title 24 (USA) (Preview).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 24 (USA) (Preview).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+    <game name="Test Title 25 (USA) (Sample)">
+		<description>Test Title 25 (USA) (Sample)</description>
+		<rom name="Test Title 25 (USA) (Sample).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 25 (USA) (Sample).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+    <game name="Test Title 26 (Japan) (Taikenban)">
+		<description>Test Title 26 (Japan) (Taikenban)</description>
+		<rom name="Test Title 26 (Japan) (Taikenban).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 26 (Japan) (Taikenban).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+    <game name="Test Title 27 Trial Edition (USA)">
+		<description>Test Title 27 Trial Edition (USA)</description>
+		<rom name="Test Title 27 Trial Edition (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 27 Trial Edition (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+    <!-- These titles should be removed when educational titles are excluded -->
+    <game name="Test Title 28 (USA)">
+		<category>Educational</category>
+		<description>Test Title 28 (USA)</description>
+		<rom name="Test Title 28 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 28 (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+    <!-- These titles should be removed when manuals are excluded -->
+    <game name="Test Title 29 (USA) (Manual)">
+		<description>Test Title 29 (USA) (Manual)</description>
+		<rom name="Test Title 29 (USA) (Manual).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 29 (USA) (Manual).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+	<game name="Test Title 29A (USA)">
+		<category>Manuals</category>
+		<description>Test Title 29A (USA)</description>
+		<rom name="Test Title 29A (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 29A (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+    <!-- These titles should be removed when MIA titles are excluded -->
+    <game name="[MIA] Test Title 30 (USA)">
+		<description>[MIA] Test Title 30 (USA)</description>
+		<rom name="Test Title 30 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 30 (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+    <game name="Test Title 31 (USA)">
+		<description>Test Title 31 (USA)</description>
+		<rom name="Test Title 31 (USA).cue" mia="yes" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 31 (USA).bin" mia="yes" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+    <!-- These titles should be removed when multimedia titles are excluded -->
+    <game name="Test Title 32 (USA)">
+		<category>Multimedia</category>
+		<description>Test Title 32 (USA)</description>
+		<rom name="Test Title 32 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 32 (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+    <!-- These titles should be removed when pirate titles are excluded -->
+    <game name="Test Title 33 (Pirate) (USA)">
+		<description>Test Title 33 (Pirate) (USA)</description>
+		<rom name="Test Title 33 (Pirate) (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 33 (Pirate) (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+    <!-- These titles should be removed when preproduction titles are excluded -->
+    <game name="Test Title 34 (Alpha) (USA)">
+		<description>Test Title 34 (Alpha) (USA)</description>
+		<rom name="Test Title 34 (Alpha) (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 34 (Alpha) (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+    <game name="Test Title 35 (Alpha 2) (USA)">
+		<description>Test Title 35 (Alpha 2) (USA)</description>
+		<rom name="Test Title 35 (Alpha 2) (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 35 (Alpha 2) (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+    <game name="Test Title 36 (Testing Alpha) (USA)">
+		<description>Test Title 36 (Testing Alpha) (USA)</description>
+		<rom name="Test Title 36 (Testing Alpha) (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 36 (Testing Alpha) (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+    <game name="Test Title 37 (Beta) (USA)">
+		<description>Test Title 37 (Beta) (USA)</description>
+		<rom name="Test Title 37 (Beta) (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 37 (Beta) (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+    <game name="Test Title 38 (Beta 2) (USA)">
+		<description>Test Title 38 (Beta 2) (USA)</description>
+		<rom name="Test Title 38 (Beta 2) (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 38 (Beta 2) (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+    <game name="Test Title 39 (Testing Beta) (USA)">
+		<description>Test Title 39 (Testing Beta) (USA)</description>
+		<rom name="Test Title 39 (Testing Beta) (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 39 (Testing Beta) (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+    <game name="Test Title 40 (Proto) (USA)">
+		<description>Test Title 40 (Proto) (USA)</description>
+		<rom name="Test Title 40 (Proto) (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 40 (Proto) (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+    <game name="Test Title 41 (Proto 2) (USA)">
+		<description>Test Title 41 (Proto 2) (USA)</description>
+		<rom name="Test Title 41 (Proto 2) (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 41 (Proto 2) (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+    <game name="Test Title 42 (Testing Proto) (USA)">
+		<description>Test Title 42 (Testing Proto) (USA)</description>
+		<rom name="Test Title 42 (Testing Proto) (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 42 (Testing Proto) (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+    <game name="Test Title 43 (Pre-production) (USA)">
+		<description>Test Title 43 (Pre-production) (USA)</description>
+		<rom name="Test Title 43 (Pre-production) (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 43 (Pre-production) (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+    <!-- These titles should be removed when promotional titles are excluded -->
+    <game name="Test Title 44 (USA)">
+		<category>Promotional</category>
+		<description>Test Title 44 (USA)</description>
+		<rom name="Test Title 44 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 44 (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+    <game name="Test Title 45 (USA) (Promo)">
+		<description>Test Title 45 (USA) (Promo)</description>
+		<rom name="Test Title 45 (USA) (Promo).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 45 (USA) (Promo).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+    <game name="Test Title 46 EPK (USA)">
+		<description>Test Title 46 EPK (USA)</description>
+		<rom name="Test Title 46 EPK (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 46 EPK (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+    <game name="Test Title 47 - Press Kit (USA)">
+		<description>Test Title 47 - Press Kit (USA)</description>
+		<rom name="Test Title 47 - Press Kit (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 47 - Press Kit (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+    <!-- These titles should be removed when unlicensed titles are excluded -->
+    <game name="Test Title 48 (USA) (Unl)">
+		<description>Test Title 48 (USA) (Unl)</description>
+		<rom name="Test Title 48 (USA) (Unl).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 48 (USA) (Unl).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+    <!-- These titles should be removed when video titles are excluded -->
+    <game name="Test Title 50 (USA)">
+		<category>Video</category>
+		<description>Test Title 50 (USA)</description>
+		<rom name="Test Title 50 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 50 (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+</datafile>

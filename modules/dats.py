@@ -750,9 +750,6 @@ def convert_clrmame_dat(
         if not dat_author:
             convert_dat.append('\t\t<author>Unknown</author>\n')
         dat_url = get_detail('homepage', clrmame_header)
-        convert_dat.append(
-            f'\t<retool>Created by Retool {config.version_major}.{config.version_minor}</retool>\n'
-        )
         convert_dat.append('\t</header>\n')
 
         # Generate the node for each title

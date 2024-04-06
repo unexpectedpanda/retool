@@ -1,0 +1,970 @@
+{
+	"description": {
+		"name": "Sega - Dreamcast (Redump)",
+		"lastUpdated": "26 December 2023",
+		"minimumVersion": "2.02"
+	},
+
+	"mias": [
+		"Chicken Run (Japan) (Beta) (2000-08-01)",
+		"Dream Preview Vol. 1 (Japan)"
+	],
+
+	"variants": [
+		{
+			"group": "90 Minutes - Sega Championship Football",
+			"titles": [
+				{"searchTerm": "90 Minutes - Sega Championship Football"},
+				{"searchTerm": "J.League Spectacle Soccer"}
+			]
+		},
+		{
+			"group": "AeroWings",
+			"titles": [
+				{"searchTerm": "Aero Dancing featuring Blue Impulse"},
+				{"searchTerm": "AeroWings"}
+			]
+		},
+		{
+			"group": "AeroWings 2 - Airstrike",
+			"titles": [
+				{"searchTerm": "Aero Dancing F"},
+				{"searchTerm": "AeroWings 2 - Airstrike"}
+			]
+		},
+		{
+			"group": "AirForce Delta",
+			"titles": [
+				{"searchTerm": "AirForce Delta"},
+				{"searchTerm": "Deadly Skies"}
+			]
+		},
+		{
+			"group": "Atsumare! Guru Guru Onsen",
+			"titles": [
+				{"searchTerm": "Atsumare! Guru Guru Onsen"}
+			],
+			"supersets": [
+				{"searchTerm": "Atsumare! Guru Guru Onsen BB"}
+			]
+		},
+		{
+			"group": "Bangai-O",
+			"titles": [
+				{"searchTerm": "Bakuretsu Muteki Bangaioh"},
+				{"searchTerm": "Bangai-O"}
+			]
+		},
+		{
+			"group": "Bust-A-Move 4",
+			"titles": [
+				{"searchTerm": "Bust-A-Move 4"},
+				{"searchTerm": "Puzzle Bobble 4"}
+			]
+		},
+		{
+			"group": "Cannon Spike",
+			"titles": [
+				{"searchTerm": "Cannon Spike"},
+				{"searchTerm": "Gunspike"}
+			]
+		},
+		{
+			"group": "Capcom vs. SNK",
+			"titles": [
+				{"searchTerm": "Capcom vs. SNK"},
+				{"searchTerm": "Capcom vs. SNK - Millennium Fight 2000"}
+			]
+		},
+		{
+			"group": "Checkicco no Miru CD",
+			"categories": ["Audio"],
+			"titles": [
+				{"searchTerm": "Checkicco no Miru CD"}
+			]
+		},
+		{
+			"group": "ChuChu Rocket!",
+			"titles": [
+				{"searchTerm": "Chu-Chu Rocket!"},
+				{"searchTerm": "ChuChu Rocket!"}
+			]
+		},
+		{
+			"group": "Coaster Works",
+			"titles": [
+				{"searchTerm": "Coaster Works"},
+				{"searchTerm": "Jet Coaster Dream"}
+			]
+		},
+		{
+			"group": "Cyber Troopers - Virtual-On - Oratorio Tangram",
+			"titles": [
+				{"searchTerm": "Cyber Troopers - Virtual-On - Oratorio Tangram"},
+				{"searchTerm": "Dennou Senki - Virtual-On - Oratorio Tangram"}
+			]
+		},
+		{
+			"group": "D2 (Disc 1)",
+			"titles": [
+				{"searchTerm": "D2 - D no Shokutaku 2 (Disc 1)"},
+				{"searchTerm": "D2 (Disc 1)"}
+			]
+		},
+		{
+			"group": "D2 (Disc 2)",
+			"titles": [
+				{"searchTerm": "D2 - D no Shokutaku 2 (Disc 2)"},
+				{"searchTerm": "D2 (Disc 2)"}
+			]
+		},
+		{
+			"group": "D2 (Disc 3)",
+			"titles": [
+				{"searchTerm": "D2 - D no Shokutaku 2 (Disc 3)"},
+				{"searchTerm": "D2 (Disc 3)"}
+			]
+		},
+		{
+			"group": "D2 (Disc 4)",
+			"titles": [
+				{"searchTerm": "D2 - D no Shokutaku 2 (Disc 4)"},
+				{"searchTerm": "D2 (Disc 4)"}
+			]
+		},
+		{
+			"group": "D2 - Original Sound Track (Disc 2) (MilCD)",
+			"categories": ["Audio"],
+			"titles": [
+				{"searchTerm": "D2 - Original Sound Track (Disc 2) (MilCD)"}
+			]
+		},
+		{
+			"group": "Daytona USA",
+			"titles": [
+				{"searchTerm": "Daytona USA"},
+				{"searchTerm": "Daytona USA 2001"}
+			]
+		},
+		{
+			"group": "Debug Indie Sampler 1 (Demo)",
+			"categories": ["Demos", "Games"],
+			"titles": [
+				{"searchTerm": "Debug Indie Sampler 1 (Demo)"}
+			]
+		},
+		{
+			"group": "Debug Indie Sampler 2 (Demo)",
+			"categories": ["Demos", "Games"],
+			"titles": [
+				{"searchTerm": "Debug Indie Sampler 2 (Demo)"}
+			]
+		},
+		{
+			"group": "Disney-Pixar Buzz Lightyear of Star Command",
+			"titles": [
+				{"searchTerm": "Disney-Pixar Buzz Lightyear of Star Command"},
+				{"searchTerm": "Disney-Pixar Captain Buzz Lightyear - Star Command"},
+				{"searchTerm": "Disney-Pixar Les Aventures de Buzz L'Eclair"}
+			]
+		},
+		{
+			"group": "Disney-Pixar Toy Story 2 - Buzz Lightyear to the Rescue!",
+			"titles": [
+				{"searchTerm": "Disney-Pixar Toy Story 2 - Buzz l'Eclair a la Rescousse!"},
+				{"searchTerm": "Disney-Pixar Toy Story 2 - Buzz Lightyear eilt zur Hilfe!"},
+				{"searchTerm": "Disney-Pixar Toy Story 2 - Buzz Lightyear to the Rescue!"}
+			]
+		},
+		{
+			"group": "Disney's 102 Dalmatians - Puppies to the Rescue",
+			"titles": [
+				{"searchTerm": "102 Dalmatians - Puppies to the Rescue"},
+				{"searchTerm": "Disney's 102 Dalmatians - Puppies to the Rescue"}
+			]
+		},
+		{
+			"group": "Disney's Donald Duck - Goin' Quackers",
+			"titles": [
+				{"searchTerm": "Disney's Donald Duck - Goin' Quackers"},
+				{"searchTerm": "Disney's Donald Duck - Quack Attack"}
+			]
+		},
+		{
+			"group": "dps - Heartbreak Diary",
+			"categories": ["Audio"],
+			"titles": [
+				{"searchTerm": "dps - Heartbreak Diary"}
+			]
+		},
+		{
+			"group": "Draconus - Cult of the Wyrm",
+			"titles": [
+				{"searchTerm": "Draconus - Cult of the Wyrm"},
+				{"searchTerm": "Dragons Blood"}
+			]
+		},
+		{
+			"group": "Ducati World - Racing Challenge",
+			"titles": [
+				{"searchTerm": "Ducati World"},
+				{"searchTerm": "Ducati World - Racing Challenge"}
+			]
+		},
+		{
+			"group": "Dynamite Cop!",
+			"titles": [
+				{"searchTerm": "Dynamite Cop"},
+				{"searchTerm": "Dynamite Cop!"},
+				{"searchTerm": "Dynamite Deka 2"}
+			]
+		},
+		{
+			"group": "ESPN International Track & Field",
+			"titles": [
+				{"searchTerm": "ESPN International Track & Field"},
+				{"searchTerm": "Ganbare! Nippon! Olympic 2000"}
+			]
+		},
+		{
+			"group": "Ever 17 - The Out of Infinity",
+			"titles": [
+				{"searchTerm": "Ever 17 - The Out of Infinity"}
+			],
+			"supersets": [
+				{"searchTerm": "Ever 17 - The Out of Infinity - Premium Edition"}
+			]
+		},
+		{
+			"group": "Evolution - The World of Sacred Device",
+			"titles": [
+				{"searchTerm": "Evolution - The World of Sacred Device"},
+				{"searchTerm": "Shinki Sekai Evolution"}
+			]
+		},
+		{
+			"group": "Evolution 2 - Far Off Promise",
+			"titles": [
+				{"searchTerm": "Evolution 2 - Far Off Promise"},
+				{"searchTerm": "Shinki Sekai Evolution 2 - Tooi Yakusoku"}
+			]
+		},
+		{
+			"group": "Expendable",
+			"titles": [
+				{"searchTerm": "Expendable"},
+				{"searchTerm": "Millennium Soldier - Expendable"},
+				{"searchTerm": "Seitai Heiki Expendable"}
+			]
+		},
+		{
+			"group": "F355 Challenge - Passione Rossa",
+			"titles": [
+				{"searchTerm": "F355 Challenge"},
+				{"searchTerm": "F355 Challenge - Passione Rossa"}
+			]
+		},
+		{
+			"group": "Fatal Fury - Mark of the Wolves",
+			"titles": [
+				{"searchTerm": "Fatal Fury - Mark of the Wolves"},
+				{"searchTerm": "Garou - Mark of the Wolves"}
+			]
+		},
+		{
+			"group": "F1 World Grand Prix",
+			"titles": [
+				{"searchTerm": "F1 World Grand Prix"},
+				{"searchTerm": "F1 World Grand Prix for Dreamcast"}
+			]
+		},
+		{
+			"group": "Flag to Flag",
+			"titles": [
+				{"searchTerm": "Flag to Flag"},
+				{"searchTerm": "Super Speed Racing"}
+			]
+		},
+		{
+			"group": "Frame Gride",
+			"titles": [
+				{"searchTerm": "Frame Gride", "localizedNames": {"japanese": "フレームグライド"}}
+			]
+		},
+		{
+			"group": "Frame Gride - Test Operation Disc",
+			"titles": [
+				{"searchTerm": "Frame Gride - Test Operation Disc (Demo)", "localizedNames": {"japanese": "フレームグライド）　～体験版～"}}
+			]
+		},
+		{
+			"group": "Ghost Blade",
+			"titles": [
+				{"searchTerm": "Ghost Blade"},
+				{"searchTerm": "Ghost Blade (Limited Edition)"}
+			]
+		},
+		{
+			"group": "Hang the DJ",
+			"categories": ["Audio"],
+			"titles": [
+				{"searchTerm": "Hang the DJ"}
+			]
+		},
+		{
+			"group": "Himitsu - Original Sound Track",
+			"categories": ["Audio"],
+			"titles": [
+				{"searchTerm": "Himitsu - Original Sound Track"}
+			]
+		},
+		{
+			"group": "House of the Dead 2, The",
+			"titles": [
+				{
+					"searchTerm": "House of the Dead 2, The",
+					"filters": [
+						{
+							"conditions": {"matchRegions": ["Japan"]},
+							"results": {"localizedNames": {"japanese": "ザ　ハウス　オブ　ザ　デッド　２"}}
+						}
+					]
+				}
+			]
+		},
+		{
+			"group": "Illbleed",
+			"titles": [
+				{
+					"searchTerm": "Illbleed",
+					"filters": [
+						{
+							"conditions": {"matchRegions": "Taiwan"},
+							"results": {"localizedNames": {"chinese (traditional)": "勇闖鬼界"}}
+						},
+						{
+							"conditions": {"matchRegions": "Japan"},
+							"results": {"localizedNames": {"japanese": "イルブリード"}}
+						}
+					]
+				}
+			]
+		},
+		{
+			"group": "Incoming",
+			"titles": [
+				{"searchTerm": "Incoming"},
+				{"searchTerm": "Incoming - Jinrui Saishuu Kessen"}
+			]
+		},
+		{
+			"group": "Industrial Spy - Operation Espionage",
+			"titles": [
+				{"searchTerm": "Espion-Age-nts"},
+				{"searchTerm": "Industrial Spy - Operation Espionage"}
+			]
+		},
+		{
+			"group": "Iron Aces",
+			"titles": [
+				{"searchTerm": "Imperial no Taka - Fighter of Zero"},
+				{"searchTerm": "Iron Aces"}
+			]
+		},
+		{
+			"group": "Jet Grind Radio",
+			"titles": [
+				{"searchTerm": "Jet Grind Radio"},
+				{"searchTerm": "Jet Set Radio"}
+			],
+			"supersets": [
+				{"searchTerm": "De La Jet Set Radio"}
+			]
+		},
+		{
+			"group": "JoJo's Bizarre Adventure",
+			"titles": [
+				{"searchTerm": "JoJo's Bizarre Adventure"},
+				{"searchTerm": "Jojo no Kimyou na Bouken - Mirai e no Isan for Matching Service"},
+				{"searchTerm": "Jojo no Kimyou na Bouken - Mirai e no Isan", "priority": 2}
+			]
+		},
+		{
+			"group": "King of Fighters, The - Evolution",
+			"titles": [
+				{"searchTerm": "King of Fighters, The - Evolution"},
+				{"searchTerm": "King of Fighters '99, The - Evolution"}
+			]
+		},
+		{
+			"group": "Kita e. White Illumination - Pure Songs and Pictures",
+			"categories": ["Audio"],
+			"titles": [
+				{"searchTerm": "Kita e. White Illumination - Pure Songs and Pictures"}
+			]
+		},
+		{
+			"group": "Last Blade 2, The - Heart of the Samurai",
+			"titles": [
+				{"searchTerm": "Bakumatsu Roman Daini Maku - Gekka no Kenshi - Final Edition"},
+				{"searchTerm": "Last Blade 2, The - Heart of the Samurai"}
+			]
+		},
+		{
+			"group": "Marvel vs. Capcom 2",
+			"titles": [
+				{"searchTerm": "Marvel vs. Capcom 2"},
+				{"searchTerm": "Marvel vs. Capcom 2 - New Age of Heroes"}
+			]
+		},
+		{
+			"group": "Memories Off 2nd - Making Disc",
+			"titles": [
+				{"searchTerm": "Memories Off 2nd - Making Disc", "localizedNames": {"japanese": "メモリーズオフ　セカンド　～Ｍａｋｉｎｇ　Ｄｉｓｃ～"}}
+			]
+		},
+		{
+			"group": "Memories Off 2nd - Promotion Disc",
+			"titles": [
+				{"searchTerm": "Memories Off 2nd - Promotion Disc", "localizedNames": {"japanese": "メモリーズオフ　セカンド　～Ｐｒｏｍｏｔｉｏｎ　Ｄｉｓｃ～"}}
+			]
+		},
+		{
+			"group": "Monaco Grand Prix",
+			"titles": [
+				{"searchTerm": "Monaco Grand Prix"},
+				{"searchTerm": "Monaco Grand Prix Racing Simulation 2"},
+				{"searchTerm": "Racing Simulation 2 - Monaco Grand Prix On-Line"},
+				{"searchTerm": "Racing Simulation - Monaco Grand Prix", "priority": 2}
+			]
+		},
+		{
+			"group": "Next Tetris, The - On-Line Edition",
+			"titles": [
+				{"searchTerm": "Next Tetris, The"},
+				{"searchTerm": "Next Tetris, The - On-Line Edition"}
+			]
+		},
+		{
+			"group": "Omikron - The Nomad Soul",
+			"titles": [
+				{"searchTerm": "Nomad Soul, The"},
+				{"searchTerm": "Omikron - The Nomad Soul"}
+			]
+		},
+		{
+			"group": "PenPen TriIcelon",
+			"titles": [
+				{"searchTerm": "PenPen"},
+				{"searchTerm": "PenPen TriIcelon"}
+			]
+		},
+		{
+			"group": "Plasma Sword - Nightmare of Bilstein",
+			"titles": [
+				{"searchTerm": "Plasma Sword - Nightmare of Bilstein"},
+				{"searchTerm": "Star Gladiator 2 - Nightmare of Bilstein"}
+			]
+		},
+		{
+			"group": "POD - Speedzone",
+			"titles": [
+				{"searchTerm": "POD - Speedzone"},
+				{"searchTerm": "POD 2 - Multiplayer Online"}
+			]
+		},
+		{
+			"group": "Pro Yakyuu Team de Asobou!",
+			"titles": [
+				{"searchTerm": "Pro Yakyuu Team de Asobou Net!"},
+				{"searchTerm": "Pro Yakyuu Team de Asobou!", "priority": 2}
+			],
+			"compilations": [
+				{"searchTerm": "Pro Yakyuu Team o Tsukurou! & Asobou!"}
+			]
+		},
+		{
+			"group": "Pro Yakyuu Team o Tsukurou!",
+			"titles": [
+				{"searchTerm": "Pro Yakyuu Team o Tsukurou!"}
+			],
+			"compilations": [
+				{"searchTerm": "Pro Yakyuu Team o Tsukurou! & Asobou!"}
+			]
+		},
+		{
+			"group": "Project Berkley",
+			"categories": ["Demos"],
+			"titles": [
+				{"searchTerm": "Project Berkley"}
+			]
+		},
+		{
+			"group": "Project Justice",
+			"titles": [
+				{"searchTerm": "Moero! Justice Gakuen"},
+				{"searchTerm": "Project Justice"},
+				{"searchTerm": "Project Justice - Rival Schools 2"}
+			]
+		},
+		{
+			"group": "Rayman 2 - The Great Escape",
+			"titles": [
+				{"searchTerm": "Rayman - Kaizokusen kara no Dasshutsu!"},
+				{"searchTerm": "Rayman 2 - The Great Escape"}
+			]
+		},
+		{
+			"group": "Razor Freestyle Scooter",
+			"titles": [
+				{"searchTerm": "Freestyle Scooter"},
+				{"searchTerm": "Razor Freestyle Scooter"}
+			]
+		},
+		{
+			"group": "Ready 2 Rumble Boxing",
+			"titles": [
+				{"searchTerm": "Ready 2 Rumble Boxing"},
+				{"searchTerm": "Ready 2 Rumble Boxing - Uchikome Warai no Megaton Punch!!"}
+			]
+		},
+		{
+			"group": "Record of Lodoss War",
+			"titles": [
+				{"searchTerm": "Record of Lodoss War"},
+				{"searchTerm": "Record of Lodoss War - The Advent of Cardice"}
+			]
+		},
+		{
+			"group": "Reel Fishing + Wild",
+			"titles": [
+				{"searchTerm": "Fish Eyes + Wild"},
+				{"searchTerm": "Reel Fishing + Wild"}
+			]
+		},
+		{
+			"group": "Resident Evil 2 (Disc 1)",
+			"titles": [
+				{"searchTerm": "Biohazard 2 - Value Plus (Disc 1)"},
+				{"searchTerm": "Resident Evil 2 (Disc 1)"}
+			]
+		},
+		{
+			"group": "Resident Evil 2 (Disc 2)",
+			"titles": [
+				{"searchTerm": "Biohazard 2 - Value Plus (Disc 2)"},
+				{"searchTerm": "Resident Evil 2 (Disc 2)"}
+			]
+		},
+		{
+			"group": "Resident Evil 3 - Nemesis",
+			"titles": [
+				{"searchTerm": "Biohazard 3 - Last Escape"},
+				{"searchTerm": "Resident Evil 3 - Nemesis"}
+			]
+		},
+		{
+			"group": "Resident Evil - Code - Veronica (Disc 1)",
+			"titles": [
+				{"searchTerm": "Biohazard - Code - Veronica (Disc 1)"},
+				{"searchTerm": "Resident Evil - Code - Veronica (Disc 1)"}
+			]
+		},
+		{
+			"group": "Resident Evil - Code - Veronica (Disc 2)",
+			"titles": [
+				{"searchTerm": "Biohazard - Code - Veronica (Disc 2)"},
+				{"searchTerm": "Resident Evil - Code - Veronica (Disc 2)"}
+			]
+		},
+		{
+			"group": "Ring, The - Terror's Realm",
+			"titles": [
+				{"searchTerm": "Ring, The"},
+				{"searchTerm": "Ring, The - Terror's Realm"}
+			]
+		},
+		{
+			"group": "Rippin' Riders",
+			"titles": [
+				{"searchTerm": "Cool Boarders Burrrn!"},
+				{"searchTerm": "Rippin' Riders"},
+				{"searchTerm": "Snow Surfers"}
+			]
+		},
+		{
+			"group": "Rush Rush Rally Racing",
+			"titles": [
+				{"searchTerm": "Rush Rush Rally Racing"}
+			],
+			"supersets": [
+				{"searchTerm": "Rush Rush Rally Reloaded"}
+			]
+		},
+		{
+			"group": "Sakura Taisen 3 - Paris wa Moeteiru ka - Sakura Taisen 3 Movie Disc",
+			"categories": ["Video"],
+			"titles": [
+				{"searchTerm": "Sakura Taisen 3 - Paris wa Moeteiru ka - Sakura Taisen 3 Movie Disc"}
+			]
+		},
+		{
+			"group": "San Francisco Rush 2049",
+			"titles": [
+				{"searchTerm": "Rush 2049"},
+				{"searchTerm": "San Francisco Rush 2049"}
+			]
+		},
+		{
+			"group": "Sangokushi VI",
+			"titles": [
+				{"searchTerm": "Sangokushi VI"}
+			],
+			"supersets": [
+				{"searchTerm": "Sangokushi VI with Power-Up Kit"}
+			]
+		},
+		{
+			"group": "Seaman",
+			"titles": [
+				{"searchTerm": "Kindan no Pet - Seaman - Gasse Hakase no Jikken-tou"},
+				{"searchTerm": "Seaman"},
+				{"searchTerm": "Kindan no Pet - Seaman - Gasse Hakase no Jikken-tou (2001-nen Taiouban)", "priority": 2}
+			]
+		},
+		{
+			"group": "Sega Bass Fishing",
+			"titles": [
+				{"searchTerm": "Get Bass"},
+				{"searchTerm": "Sega Bass Fishing"}
+			]
+		},
+		{
+			"group": "Sega Bass Fishing 2",
+			"titles": [
+				{"searchTerm": "Get Bass 2"},
+				{"searchTerm": "Sega Bass Fishing 2"}
+			]
+		},
+		{
+			"group": "Sega GT",
+			"titles": [
+				{"searchTerm": "Sega GT"},
+				{"searchTerm": "Sega GT - Homologation Special"}
+			]
+		},
+		{
+			"group": "Sega Worldwide Soccer 2000",
+			"titles": [
+				{"searchTerm": "Sega Worldwide Soccer 2000"}
+			],
+			"supersets": [
+				{"searchTerm": "Sega Worldwide Soccer 2000 - Euro Edition"}
+			]
+		},
+		{
+			"group": "Seventh Cross Evolution",
+			"titles": [
+				{"searchTerm": "Seventh Cross"},
+				{"searchTerm": "Seventh Cross Evolution"}
+			]
+		},
+		{
+			"group": "Shenmue (Disc 1)",
+			"titles": [
+				{"searchTerm": "Shenmue (Disc 1)"},
+				{"searchTerm": "US Shenmue (Disc 1)"},
+				{"searchTerm": "Shenmue - Ichishou Yokosuka (Disc 1)", "priority": 2}
+			]
+		},
+		{
+			"group": "Shenmue (Disc 2)",
+			"titles": [
+				{"searchTerm": "Shenmue (Disc 2)"},
+				{"searchTerm": "US Shenmue (Disc 2)"},
+				{"searchTerm": "Shenmue - Ichishou Yokosuka (Disc 2)", "priority": 2}
+			]
+		},
+		{
+			"group": "Shenmue (Disc 3)",
+			"titles": [
+				{"searchTerm": "Shenmue (Disc 3)"},
+				{"searchTerm": "US Shenmue (Disc 3)"},
+				{"searchTerm": "Shenmue - Ichishou Yokosuka (Disc 3)", "priority": 2}
+			]
+		},
+		{
+			"group": "Shenmue (Shenmue Passport)",
+			"titles": [
+				{"searchTerm": "Shenmue (Shenmue Passport)"},
+				{"searchTerm": "US Shenmue (Shenmue Passport)"},
+				{"searchTerm": "Shenmue - Ichishou Yokosuka (Shenmue Passport)", "priority": 2}
+			]
+		},
+		{
+			"group": "Skies of Arcadia (Disc 1)",
+			"titles": [
+				{"searchTerm": "Eternal Arcadia (Disc 1)"},
+				{"searchTerm": "Skies of Arcadia (Disc 1)"}
+			]
+		},
+		{
+			"group": "Skies of Arcadia (Disc 2)",
+			"titles": [
+				{"searchTerm": "Eternal Arcadia (Disc 2)"},
+				{"searchTerm": "Skies of Arcadia (Disc 2)"}
+			]
+		},
+		{
+			"group": "Snappers - 09 Chairs",
+			"categories": ["Audio"],
+			"titles": [
+				{"searchTerm": "Snappers - 09 Chairs"}
+			]
+		},
+		{
+			"group": "Sonic Adventure",
+			"titles": [
+				{"searchTerm": "Sonic Adventure"},
+				{"searchTerm": "Sonic Adventure - Limited Edition", "priority": 2}
+			],
+			"supersets": [
+				{"searchTerm": "Sonic Adventure International"}
+			]
+		},
+		{
+			"group": "Space Channel 5 Demo",
+			"titles": [
+				{"searchTerm": "Space Channel 5 (Taikenban)", "localizedNames": {"japanese": "スペース・チャンネル５　～体験版～"}}
+			]
+		},
+		{
+			"group": "Space Channel 5 Theme Music - Mexican Flyer",
+			"categories": ["Audio"],
+			"titles": [
+				{"searchTerm": "Space Channel 5 Theme Music - Mexican Flyer", "localizedNames": {"japanese": "スペース・チャンネル５　～テーマ曲～　Ｍｅｘｉｃａｎ　Ｆｌｙｅｒ"}}
+			]
+		},
+		{
+			"group": "Street Fighter Alpha 3",
+			"titles": [
+				{"searchTerm": "Street Fighter Alpha 3"},
+				{"searchTerm": "Street Fighter Zero 3 - Saikyo-ryu Dojo for Matching Service"},
+				{"searchTerm": "Street Fighter Zero 3 - Saikyo-ryu Dojo", "priority": 2}
+			]
+		},
+		{
+			"group": "Street Fighter III - 3rd Strike",
+			"titles": [
+				{"searchTerm": "Street Fighter III - 3rd Strike"},
+				{"searchTerm": "Street Fighter III - 3rd Strike - Fight for the Future"}
+			]
+		},
+		{
+			"group": "Street Fighter III - Double Impact",
+			"titles": [
+				{"searchTerm": "Street Fighter III - Double Impact"},
+				{"searchTerm": "Street Fighter III - W Impact"}
+			]
+		},
+		{
+			"group": "Striker Pro 2000",
+			"titles": [
+				{"searchTerm": "Striker Pro 2000"},
+				{"searchTerm": "Super Euro Soccer 2000"},
+				{"searchTerm": "UEFA Striker"}
+			]
+		},
+		{
+			"group": "Super Magnetic Neo",
+			"titles": [
+				{"searchTerm": "Super Magnetic Neo"},
+				{"searchTerm": "Super Magnetic Niuniu"}
+			]
+		},
+		{
+			"group": "Super Runabout",
+			"titles": [
+				{"searchTerm": "Super Runabout"}
+			],
+			"supersets": [
+				{"searchTerm": "Super Runabout - San Francisco Edition"}
+			]
+		},
+		{
+			"group": "Suzuki Alstare - Extreme Racing",
+			"titles": [
+				{"searchTerm": "Redline Racer"},
+				{"searchTerm": "Suzuki Alstare - Extreme Racing"}
+			]
+		},
+		{
+			"group": "Sword of the Berserk - Guts' Rage",
+			"titles": [
+				{"searchTerm": "Berserk - Millennium Falcon-hen - Wasurebana no Shou"},
+				{"searchTerm": "Sword of the Berserk - Guts' Rage"}
+			]
+		},
+		{
+			"group": "Tech Romancer",
+			"titles": [
+				{"searchTerm": "Choukou Senki Kikaioh for Matching Service"},
+				{"searchTerm": "Tech Romancer"},
+				{"searchTerm": "Choukou Senki Kikaioh", "priority": 2}
+			]
+		},
+		{
+			"group": "Tee Off",
+			"titles": [
+				{"searchTerm": "Golf Shiyou yo"},
+				{"searchTerm": "Tee Off"}
+			]
+		},
+		{
+			"group": "Tennis 2K2",
+			"titles": [
+				{"searchTerm": "Power Smash 2 - Sega Professional Tennis"},
+				{"searchTerm": "Tennis 2K2"},
+				{"searchTerm": "Virtua Tennis 2 - Sega Professional Tennis"}
+			]
+		},
+		{
+			"group": "Test Drive Le Mans",
+			"titles": [
+				{"searchTerm": "Le Mans 24 Hours"},
+				{"searchTerm": "Test Drive Le Mans"}
+			]
+		},
+		{
+			"group": "Test Drive V-Rally",
+			"titles": [
+				{"searchTerm": "Test Drive V-Rally"},
+				{"searchTerm": "V-Rally 2 - Expert Edition"}
+			]
+		},
+		{
+			"group": "Time Stalkers",
+			"titles": [
+				{"searchTerm": "Climax Landers"},
+				{"searchTerm": "Time Stalkers"}
+			]
+		},
+		{
+			"group": "TNN Motorsports Hardcore Heat",
+			"titles": [
+				{"searchTerm": "Buggy Heat"},
+				{"searchTerm": "TNN Motorsports Hardcore Heat"}
+			]
+		},
+		{
+			"group": "Tokyo Xtreme Racer",
+			"titles": [
+				{"searchTerm": "Shutokou Battle"},
+				{"searchTerm": "Tokyo Highway Challenge"},
+				{"searchTerm": "Tokyo Xtreme Racer"}
+			]
+		},
+		{
+			"group": "Tokyo Xtreme Racer 2",
+			"titles": [
+				{"searchTerm": "Shutokou Battle 2"},
+				{"searchTerm": "Tokyo Highway Challenge 2"},
+				{"searchTerm": "Tokyo Xtreme Racer 2"}
+			]
+		},
+		{
+			"group": "Tom Clancy's Rainbow Six with Eagle Watch Missions",
+			"titles": [
+				{"searchTerm": "Tom Clancy's Rainbow Six incl. Eagle Watch Missions"},
+				{"searchTerm": "Tom Clancy's Rainbow Six with Eagle Watch Missions"}
+			]
+		},
+		{
+			"group": "Tomb Raider - The Last Revelation",
+			"titles": [
+				{"searchTerm": "Tomb Raider - La Revelation Finale"},
+				{"searchTerm": "Tomb Raider - The Last Revelation"},
+				{"searchTerm": "Tomb Raider IV - The Last Revelation"}
+			]
+		},
+		{
+			"group": "Tomb Raider Chronicles",
+			"titles": [
+				{"searchTerm": "Tomb Raider - Die Chronik"},
+				{"searchTerm": "Tomb Raider - Sur les Traces de Lara Croft"},
+				{"searchTerm": "Tomb Raider Chronicles"},
+				{"searchTerm": "Tomb Raider Chronicles - La Leggenda di Lara Croft"}
+			]
+		},
+		{
+			"group": "Tony Hawk's Pro Skater",
+			"titles": [
+				{"searchTerm": "Tony Hawk's Pro Skater"},
+				{"searchTerm": "Tony Hawk's Skateboarding"}
+			]
+		},
+		{
+			"group": "Toy Commander",
+			"titles": [
+				{"searchTerm": "Totsugeki! Teketeke!! Toy Ranger"},
+				{"searchTerm": "Toy Commander"}
+			]
+		},
+		{
+			"group": "Vigilante 8 - 2nd Offense",
+			"titles": [
+				{"searchTerm": "Vigilante 8 - 2nd Battle"},
+				{"searchTerm": "Vigilante 8 - 2nd Offense"}
+			]
+		},
+		{
+			"group": "Virtua Athlete 2000",
+			"titles": [
+				{"searchTerm": "Virtua Athlete 2000"},
+				{"searchTerm": "Virtua Athlete 2K"}
+			]
+		},
+		{
+			"group": "Virtua Fighter History & VF4",
+			"categories": ["Video"],
+			"titles": [
+				{"searchTerm": "Virtua Fighter History & VF4"}
+			]
+		},
+		{
+			"group": "Virtua Striker 2",
+			"titles": [
+				{"searchTerm": "Virtua Striker 2"},
+				{"searchTerm": "Virtua Striker 2000.1", "nametype": "regionFree"}
+			]
+		},
+		{
+			"group": "Virtua Tennis",
+			"titles": [
+				{"searchTerm": "Power Smash - Sega Professional Tennis"},
+				{"searchTerm": "Virtua Tennis"},
+				{"searchTerm": "Virtua Tennis - Sega Professional Tennis"}
+			]
+		},
+		{
+			"group": "Who Wants to Be a Millionaire",
+			"titles": [
+				{"searchTerm": "Qui Veut Gagner des Millions"},
+				{"searchTerm": "Who Wants to Be a Millionaire"}
+			]
+		},
+		{
+			"group": "Wind and Water - Puzzle Battles",
+			"titles": [
+				{"searchTerm": "Wind and Water - Puzzle Battles", "localizedNames": {"english": "Wind and Water - Puzzle Battles", "japanese": "時空五行　風水大戰"}}
+			]
+		},
+		{
+			"group": "Xtreme Sports",
+			"titles": [
+				{"searchTerm": "Sega Extreme Sports"},
+				{"searchTerm": "Xtreme Sports"}
+			]
+		}
+	]
+}

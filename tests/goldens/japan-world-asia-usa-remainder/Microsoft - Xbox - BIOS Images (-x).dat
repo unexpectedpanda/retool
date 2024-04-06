@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<!DOCTYPE datafile PUBLIC "-//Logiqx//DTD ROM Management Datafile//EN" "https://raw.githubusercontent.com/unexpectedpanda/retool-clonelists-metadata/main/datafile.dtd">
+<datafile>
+	<header>
+		<name>Microsoft - Xbox - BIOS Images (Retool)</name>
+		<description>Microsoft - Xbox - BIOS Images (7) (-x) (2010-09-13) (Retool)</description>
+		<version>2010-09-13</version>
+		<date>2023-06-17 00-00-00</date>
+		<author>Jackal | redump.org</author>
+		<homepage>http://www.github.com/unexpectedpanda/retool</homepage>
+		<url>Unknown</url>
+		<retool>Created by Retool X</retool>
+	</header>
+	<game name="xbox-3944">
+		<category>Console</category>
+		<description>Xbox v1.0 (Kernel Version 1.00.3944.01)</description>
+		<release name="xbox-3944" region="Unknown" language="En"/>
+		<rom name="xbox-3944.bin" size="1000" crc="10000000" md5="10000000000000000000000000000000" sha1="1000000000000000000000000000000000000000"/>
+	</game>
+	<game name="xbox-4034">
+		<category>Console</category>
+		<description>Xbox v1.0 (Kernel Version 1.00.4034.01)</description>
+		<release name="xbox-4034" region="Unknown" language="En"/>
+		<rom name="xbox-4034.bin" size="1000" crc="10000000" md5="10000000000000000000000000000000" sha1="1000000000000000000000000000000000000000"/>
+	</game>
+	<game name="xbox-4817">
+		<category>Console</category>
+		<description>Xbox v1.1 (Kernel Version 1.00.4817.01)</description>
+		<release name="xbox-4817" region="Unknown" language="En"/>
+		<rom name="xbox-4817.bin" size="1000" crc="10000000" md5="10000000000000000000000000000000" sha1="1000000000000000000000000000000000000000"/>
+	</game>
+	<game name="xbox-5101">
+		<category>Console</category>
+		<description>Xbox v1.2-v1.3-v1.4-v1.5 (Kernel Version 1.00.5101.01)</description>
+		<release name="xbox-5101" region="Unknown" language="En"/>
+		<rom name="xbox-5101.bin" size="1000" crc="10000000" md5="10000000000000000000000000000000" sha1="1000000000000000000000000000000000000000"/>
+	</game>
+	<game name="xbox-5530">
+		<category>Console</category>
+		<description>Xbox v1.4-v1.5 (Kernel Version 1.00.5530.01)</description>
+		<release name="xbox-5530" region="Unknown" language="En"/>
+		<rom name="xbox-5530.bin" size="1000" crc="10000000" md5="10000000000000000000000000000000" sha1="1000000000000000000000000000000000000000"/>
+	</game>
+	<game name="xbox-5713">
+		<category>Console</category>
+		<description>Xbox v1.4-v1.5 (Kernel Version 1.00.5713.01)</description>
+		<release name="xbox-5713" region="Unknown" language="En"/>
+		<rom name="xbox-5713.bin" size="1000" crc="10000000" md5="10000000000000000000000000000000" sha1="1000000000000000000000000000000000000000"/>
+	</game>
+	<game name="xbox-5838">
+		<category>Console</category>
+		<description>Xbox v1.6 (Kernel Version 1.00.5838.01)</description>
+		<release name="xbox-5838" region="Unknown" language="En"/>
+		<rom name="xbox-5838.bin" size="1000" crc="10000000" md5="10000000000000000000000000000000" sha1="1000000000000000000000000000000000000000"/>
+	</game>
+</datafile>

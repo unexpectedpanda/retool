@@ -1,0 +1,4394 @@
+{
+	"102 Dalmatians - Puppies to the Rescue (UK)": {
+		"languages": ["En"]
+	},
+	"18 Wheeler - American Pro Trucker (Europe) (En,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"18 Wheeler - American Pro Trucker (Japan)": {
+		"languages": ["Ja"]
+	},
+	"18 Wheeler - American Pro Trucker (USA)": {
+		"languages": ["En"]
+	},
+	"21 - Two One (Japan)": {
+		"languages": ["Ja"]
+	},
+	"4 Wheel Thunder (Europe) (En,Fr)": {
+		"languages": ["En", "Fr"]
+	},
+	"4 Wheel Thunder (USA)": {
+		"languages": ["En"]
+	},
+	"4x4 Evo (USA)": {
+		"languages": []
+	},
+	"90 Minutes - Sega Championship Football (Europe) (En,Fr,De,Es,It)": {
+		"languages": ["De", "En", "Es", "Fr", "It"]
+	},
+	"AM2 of CRI 2001 New Lineup Movie Collection (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Action Replay CDX - Demo Version (UK) (Unl)": {
+		"languages": []
+	},
+	"Advanced Daisenryaku - Sturm ueber Europa - Der Deutsche Blitzkrieg (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Advanced Daisenryaku 2001 (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Aero Dancing - Todoroki Taichou no Himitsu Disc (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Aero Dancing F (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Aero Dancing F (Japan) (Rev A)": {
+		"languages": ["Ja"]
+	},
+	"Aero Dancing F (Japan) (Taikenban)": {
+		"languages": ["Ja"]
+	},
+	"Aero Dancing F - Todoroki Tsubasa no Hatsu Hikou (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Aero Dancing featuring Blue Impulse (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Aero Dancing featuring Blue Impulse (Japan) (Tentou Taikenban)": {
+		"languages": ["Ja"]
+	},
+	"Aero Dancing i (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Aero Dancing i - Jikai-saku made Matemasen (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Aero to Jet de Dancing! (Japan) (Taikenban Disc)": {
+		"languages": ["Ja"]
+	},
+	"AeroWings (Europe) (En,Fr,De)": {
+		"languages": ["De", "En", "Fr"]
+	},
+	"AeroWings (USA)": {
+		"languages": ["En"]
+	},
+	"AeroWings 2 - Airstrike (Europe) (En,De)": {
+		"languages": ["De", "En"]
+	},
+	"AeroWings 2 - Airstrike (USA)": {
+		"languages": []
+	},
+	"After... Wasureenu Kizuna (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Aikagi - Hidamari to Kanojo no Heyagi (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Air (Japan) (Rev A)": {
+		"languages": ["Ja"]
+	},
+	"AirForce Delta (Japan)": {
+		"languages": []
+	},
+	"AirForce Delta (USA)": {
+		"languages": ["En"]
+	},
+	"Akihabara Dennou-gumi Pata Pies! (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Alice Dreams (France) (Demo) (Unl)": {
+		"languages": []
+	},
+	"Alice Dreams Tournament (USA) (Disc 1) (Unl)": {
+		"languages": []
+	},
+	"Alice Dreams Tournament (USA) (Disc 2) (Unl)": {
+		"languages": []
+	},
+	"Alice Sisters (USA, Japan) (Unl)": {
+		"languages": ["En"]
+	},
+	"Alien Front Online (USA)": {
+		"languages": ["En"]
+	},
+	"Alone in the Dark - The New Nightmare (Europe) (Disc 1)": {
+		"languages": ["En"]
+	},
+	"Alone in the Dark - The New Nightmare (Europe) (Disc 2)": {
+		"languages": ["En"]
+	},
+	"Alone in the Dark - The New Nightmare (France) (Disc 1)": {
+		"languages": ["Fr"]
+	},
+	"Alone in the Dark - The New Nightmare (France) (Disc 2)": {
+		"languages": ["Fr"]
+	},
+	"Alone in the Dark - The New Nightmare (Germany) (En,De) (Disc 1)": {
+		"languages": ["De", "En"]
+	},
+	"Alone in the Dark - The New Nightmare (Germany) (En,De) (Disc 2)": {
+		"languages": ["De", "En"]
+	},
+	"Alone in the Dark - The New Nightmare (USA) (Disc 1)": {
+		"languages": ["En"]
+	},
+	"Alone in the Dark - The New Nightmare (USA) (Disc 2)": {
+		"languages": ["En"]
+	},
+	"Angel Present (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Angel Wish - Kimi no Egao ni Chu! (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Animastar (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Ao no 6-gou - Saigetsu Hito o Matazu - Time and Tide (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Aqua GT (Europe) (En,Fr,De)": {
+		"languages": ["De", "En", "Fr"]
+	},
+	"Armada (USA)": {
+		"languages": ["En"]
+	},
+	"Army Men - Sarge's Heroes (Europe) (En,Fr,De,Es,It)": {
+		"languages": ["De", "En", "Es", "Fr", "It"]
+	},
+	"Army Men - Sarge's Heroes (USA)": {
+		"languages": []
+	},
+	"Army Men - Sarge's Heroes (USA) (Demo)": {
+		"languages": []
+	},
+	"Atari Anniversary Edition (USA)": {
+		"languages": []
+	},
+	"Atsumare! Guru Guru Onsen (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Atsumare! Guru Guru Onsen (Japan) (Demo 1)": {
+		"languages": ["Ja"]
+	},
+	"Atsumare! Guru Guru Onsen (Japan) (Demo 2)": {
+		"languages": ["Ja"]
+	},
+	"Atsumare! Guru Guru Onsen BB (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Bakumatsu Roman Daini Maku - Gekka no Kenshi - Final Edition (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Bakuretsu Muteki Bangaioh (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Baldr Force EXE (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Bang! Gunship Elite (USA)": {
+		"languages": []
+	},
+	"Bangai-O (Europe) (En,Fr,De)": {
+		"languages": ["De", "En", "Fr"]
+	},
+	"Bangai-O (USA)": {
+		"languages": ["En"]
+	},
+	"Bass Rush Dream - EcoGear PowerWorm Championship (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Battle Beaster (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Battle Crust (USA, Japan) (Unl)": {
+		"languages": ["En"]
+	},
+	"Berserk - Millennium Falcon-hen - Wasurebana no Shou (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Berserk - Millennium Falcon-hen - Wasurebana no Shou (Japan) (Taikenban)": {
+		"languages": ["Ja"]
+	},
+	"BikkuriMan 2000 - Viva! Festiva! (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Biohazard - Code - Veronica (Japan) (Disc 1)": {
+		"languages": []
+	},
+	"Biohazard - Code - Veronica (Japan) (Disc 1) (Genteiban)": {
+		"languages": ["Ja"]
+	},
+	"Biohazard - Code - Veronica (Japan) (Disc 2)": {
+		"languages": []
+	},
+	"Biohazard - Code - Veronica (Japan) (Disc 2) (Genteiban)": {
+		"languages": ["Ja"]
+	},
+	"Biohazard - Code - Veronica (Japan) (Tentou-you Demo Movie)": {
+		"languages": ["Ja"]
+	},
+	"Biohazard - Code - Veronica - Kanzenban (Japan) (Disc 1)": {
+		"languages": ["Ja"]
+	},
+	"Biohazard - Code - Veronica - Kanzenban (Japan) (Disc 2)": {
+		"languages": ["Ja"]
+	},
+	"Biohazard - Code - Veronica - Trial Edition (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Biohazard 2 - Value Plus (Japan) (Disc 1)": {
+		"languages": ["Ja"]
+	},
+	"Biohazard 2 - Value Plus (Japan) (Disc 2)": {
+		"languages": ["Ja"]
+	},
+	"Biohazard 3 - Last Escape (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Black-Matrix Advanced (Japan) (Disc 1)": {
+		"languages": ["Ja"]
+	},
+	"Black-Matrix Advanced (Japan) (Disc 2)": {
+		"languages": ["Ja"]
+	},
+	"Blue Stinger (Europe)": {
+		"languages": ["En"]
+	},
+	"Blue Stinger (France)": {
+		"languages": ["Fr"]
+	},
+	"Blue Stinger (Germany) (En,De)": {
+		"languages": ["De", "En"]
+	},
+	"Blue Stinger (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Blue Stinger (USA)": {
+		"languages": []
+	},
+	"Blue-Sky-Blue[s] - Sora o Mau Tsubasa (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Bokomu no Tatsujin (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Boku Doraemon (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Boku no Tennis Jinsei (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Boku to, Bokura no Natsu (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Bomber Hehhe! (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Bomberman Online (USA)": {
+		"languages": []
+	},
+	"Border Down (Japan)": {
+		"languages": []
+	},
+	"Bounty Hunter Sara - Holy Mountain no Teiou (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Breakers (USA, Japan) (Unl)": {
+		"languages": ["En"]
+	},
+	"Broadband Passport (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Buggy Heat (Europe) (En,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Buggy Heat (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Bust-A-Move 4 (Europe)": {
+		"languages": ["En"]
+	},
+	"Bust-A-Move 4 (USA)": {
+		"languages": ["En"]
+	},
+	"CR Hissatsu Shigotonin - Pachitte Chonmage @ VP@CHI (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Caesars Palace 2000 - Millennium Gold Edition (Europe)": {
+		"languages": ["En"]
+	},
+	"Caesars Palace 2000 - Millennium Gold Edition (USA)": {
+		"languages": ["En"]
+	},
+	"Cafe Little Wish (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Canary - Kono Omoi o Uta ni Nosete (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Candy Stripe - Minarai Tenshi (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Cannon Spike (Europe)": {
+		"languages": ["En"]
+	},
+	"Cannon Spike (USA)": {
+		"languages": ["En"]
+	},
+	"Canvas - Sepia Iro no Motif (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Capcom Taisen Fan Disc (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Capcom vs. SNK (Europe)": {
+		"languages": ["En"]
+	},
+	"Capcom vs. SNK (USA)": {
+		"languages": []
+	},
+	"Capcom vs. SNK - Millennium Fight 2000 (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Capcom vs. SNK - Millennium Fight 2000 (Japan) (Rev A)": {
+		"languages": ["Ja"]
+	},
+	"Capcom vs. SNK - Millennium Fight 2000 (Japan) (Tentou Taikenban)": {
+		"languages": ["Ja"]
+	},
+	"Capcom vs. SNK - Millennium Fight 2000 Pro (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Capcom vs. SNK 2 - Millionaire Fighting 2001 (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Captain Tomaday (USA, Japan) (Unl)": {
+		"languages": ["En"]
+	},
+	"Card of Destiny - Hikari to Yami no Tougousha (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Cardcaptor Sakura - Tomoyo no Video Daisakusen (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Carrier (Europe) (En,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Carrier (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Carrier (USA)": {
+		"languages": []
+	},
+	"Castle Fantasia - Seima Taisen (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Centipede (USA)": {
+		"languages": ["En"]
+	},
+	"Championship Surfer (Europe) (Beta)": {
+		"languages": []
+	},
+	"Championship Surfer (Europe) (En,Fr,De,Es,It)": {
+		"languages": ["De", "En", "Es", "Fr", "It"]
+	},
+	"Championship Surfer (USA)": {
+		"languages": ["En"]
+	},
+	"Chaos Field (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Charge 'N Blast (Europe)": {
+		"languages": ["En"]
+	},
+	"Charge 'N Blast (Japan)": {
+		"languages": ["En"]
+	},
+	"Charge 'N Blast (USA)": {
+		"languages": ["En"]
+	},
+	"Cheats 'N Codes Volume 1 (USA) (Unl)": {
+		"languages": []
+	},
+	"Checkicco no Miru CD (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Cherry Blossom (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Chicken Run (Europe) (Fr,De,Es,It)": {
+		"languages": ["De", "Es", "Fr", "It"]
+	},
+	"Chicken Run (Japan) (Beta)": {
+		"languages": []
+	},
+	"Chicken Run (UK)": {
+		"languages": ["En"]
+	},
+	"Chicken Run (USA)": {
+		"languages": ["En"]
+	},
+	"Chocolat - Maid Cafe Curio (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Chocolat - Maid Cafe Curio (Japan) (Demo)": {
+		"languages": ["Ja"]
+	},
+	"Chou Hatsumei Boy Kanipan - Bousou Robot no Nazo! (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Choukou Senki Kikaioh (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Choukou Senki Kikaioh for Matching Service (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Christmas Seaman - Omoi o Tsutaeru Mou Hitotsu no Houhou (Japan) (Message Disc)": {
+		"languages": ["Ja"]
+	},
+	"Christmas Seaman - Omoi o Tsutaeru Mou Hitotsu no Houhou (Japan) (Present Disc)": {
+		"languages": ["Ja"]
+	},
+	"Chu-Chu Rocket! (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Chu-Chu Rocket! (Japan) (Taikenban)": {
+		"languages": []
+	},
+	"ChuChu Rocket! (Europe) (En,Ja,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr", "Ja"]
+	},
+	"ChuChu Rocket! (USA) (En,Ja,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr", "Ja"]
+	},
+	"Cleopatra Fortune (Japan) (Rev A)": {
+		"languages": ["Ja"]
+	},
+	"Climax Landers (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Climax Landers - Motte ke! Minige Campaign (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Close To - Inori no Oka (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Coaster Works (Europe)": {
+		"languages": []
+	},
+	"Coaster Works (USA)": {
+		"languages": ["En"]
+	},
+	"Comic Party (Japan) (Disc 1)": {
+		"languages": ["Ja"]
+	},
+	"Comic Party (Japan) (Disc 2)": {
+		"languages": ["Ja"]
+	},
+	"Confidential Mission (Europe) (En,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Confidential Mission (Japan) (En,Ja,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr", "Ja"]
+	},
+	"Confidential Mission (USA)": {
+		"languages": []
+	},
+	"Conflict Zone (Europe) (En,Fr,De)": {
+		"languages": ["De", "En", "Fr"]
+	},
+	"Conflict Zone (USA)": {
+		"languages": ["En"]
+	},
+	"Cool Boarders Burrrn! (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Cool Boarders Burrrn! (Japan) (Taikenban)": {
+		"languages": ["En"]
+	},
+	"Cool Cool Toon (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Cool Cool Toon (Japan) (Tentou-you Taikenban)": {
+		"languages": ["Ja"]
+	},
+	"Cool Herders (USA) (Unl)": {
+		"languages": ["En"]
+	},
+	"Cosmic Smash (Japan)": {
+		"languages": ["En"]
+	},
+	"Crazy Taxi (Europe)": {
+		"languages": ["En"]
+	},
+	"Crazy Taxi (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Crazy Taxi (USA)": {
+		"languages": ["En"]
+	},
+	"Crazy Taxi 2 (Europe) (En,Ja,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr", "Ja"]
+	},
+	"Crazy Taxi 2 (Japan) (En,Ja)": {
+		"languages": ["En", "Ja"]
+	},
+	"Crazy Taxi 2 (Japan) (Taikenban)": {
+		"languages": ["Ja"]
+	},
+	"Crazy Taxi 2 (USA)": {
+		"languages": ["En"]
+	},
+	"Culdcept II (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Cyber Troopers - Virtual-On - Oratorio Tangram (USA)": {
+		"languages": ["En"]
+	},
+	"D+Vine [Luv] (Japan)": {
+		"languages": ["Ja"]
+	},
+	"D2 (USA) (Disc 1)": {
+		"languages": ["En"]
+	},
+	"D2 (USA) (Disc 2)": {
+		"languages": ["En"]
+	},
+	"D2 (USA) (Disc 3)": {
+		"languages": ["En"]
+	},
+	"D2 (USA) (Disc 4)": {
+		"languages": ["En"]
+	},
+	"D2 - D no Shokutaku 2 (Japan) (Disc 1)": {
+		"languages": ["Ja"]
+	},
+	"D2 - D no Shokutaku 2 (Japan) (Disc 2)": {
+		"languages": ["Ja"]
+	},
+	"D2 - D no Shokutaku 2 (Japan) (Disc 3)": {
+		"languages": ["Ja"]
+	},
+	"D2 - D no Shokutaku 2 (Japan) (Disc 4)": {
+		"languages": ["Ja"]
+	},
+	"D2 - Original Sound Track (Japan) (Disc 2) (MilCD)": {
+		"languages": ["Ja"]
+	},
+	"D2 Shock (Japan)": {
+		"languages": ["Ja"]
+	},
+	"DC X-Terminator (Japan) (Unl)": {
+		"languages": []
+	},
+	"DC-IE Import Enabler (USA) (Unl)": {
+		"languages": []
+	},
+	"Dabi Tsuku - Derby-ba o Tsukurou! (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Dabi Tsuku - Derby-ba o Tsukurou! (Japan) (Taikenban)": {
+		"languages": []
+	},
+	"Dabi Tsuku 2 (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Dance Dance Revolution - Club Version - Dreamcast Edition (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Dance Dance Revolution 2nd Mix - Dreamcast Edition (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Dancing Blade Katte ni Momotenshi II - Tears of Eden Kanzenban (Japan) (Disc 1)": {
+		"languages": ["Ja"]
+	},
+	"Dancing Blade Katte ni Momotenshi II - Tears of Eden Kanzenban (Japan) (Disc 2)": {
+		"languages": ["Ja"]
+	},
+	"Dancing Blade Katte ni Momotenshi! Kanzenban (Japan) (Disc 1)": {
+		"languages": ["Ja"]
+	},
+	"Dancing Blade Katte ni Momotenshi! Kanzenban (Japan) (Disc 2)": {
+		"languages": ["Ja"]
+	},
+	"Dave Mirra Freestyle BMX (Europe)": {
+		"languages": ["En"]
+	},
+	"Dave Mirra Freestyle BMX (USA)": {
+		"languages": ["En"]
+	},
+	"Daytona USA (USA)": {
+		"languages": ["En"]
+	},
+	"Daytona USA 2001 (Europe) (En,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Daytona USA 2001 (Japan)": {
+		"languages": ["En"]
+	},
+	"Daytona USA 2001 (Japan) (Taikenban)": {
+		"languages": ["En"]
+	},
+	"De La Jet Set Radio (Japan) (En,Ja,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr", "Ja"]
+	},
+	"Dead or Alive 2 (Europe)": {
+		"languages": ["En"]
+	},
+	"Dead or Alive 2 (Europe) (Beta)": {
+		"languages": ["En"]
+	},
+	"Dead or Alive 2 (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Dead or Alive 2 (Japan) (Shokai Genteiban)": {
+		"languages": ["Ja"]
+	},
+	"Dead or Alive 2 (Japan) (Taikenban)": {
+		"languages": ["Ja"]
+	},
+	"Dead or Alive 2 (USA)": {
+		"languages": ["En"]
+	},
+	"Dead or Alive 2 (USA) (Demo)": {
+		"languages": []
+	},
+	"Deadly Skies (Europe) (En,Fr,De,Es,It)": {
+		"languages": ["De", "En", "Es", "Fr", "It"]
+	},
+	"Death Crimson 2 (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Death Crimson OX (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Death Crimson OX (USA)": {
+		"languages": ["En"]
+	},
+	"Debug Indie Sampler 1 (UK)": {
+		"languages": ["En"]
+	},
+	"Deep Fighter (Europe) (En,It) (Disc 1)": {
+		"languages": ["En", "It"]
+	},
+	"Deep Fighter (Europe) (En,It) (Disc 2)": {
+		"languages": ["En", "It"]
+	},
+	"Deep Fighter (France) (Disc 1)": {
+		"languages": ["Fr"]
+	},
+	"Deep Fighter (France) (Disc 2)": {
+		"languages": ["Fr"]
+	},
+	"Deep Fighter (Germany) (Disc 1)": {
+		"languages": ["De"]
+	},
+	"Deep Fighter (Germany) (Disc 2)": {
+		"languages": ["De"]
+	},
+	"Deep Fighter (USA) (Disc 1)": {
+		"languages": ["En"]
+	},
+	"Deep Fighter (USA) (Disc 2)": {
+		"languages": ["En"]
+	},
+	"Dejiko no Maibura (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Demolition Racer - No Exit (USA)": {
+		"languages": ["En"]
+	},
+	"Demolition Racer - No Exit (USA) (Demo)": {
+		"languages": ["En"]
+	},
+	"Dengen Tenshi Taisen Mahjong Shangri-La (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Dengen Tenshi Taisen Mahjong Shangri-La - Super Premium Movie Disc (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Dennou Senki - Virtual-On - Oratorio Tangram (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Denpa Shounen-teki Kenshou Seikatsu Soft - Nasubi no Heya (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Densha de Go! 2 - Kousoku-hen 3000 Bandai (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Di Gi Charat Fantasy (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Digital Keiba Shinbun - My Trackman (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Dino Crisis (Europe)": {
+		"languages": ["En"]
+	},
+	"Dino Crisis (France)": {
+		"languages": ["Fr"]
+	},
+	"Dino Crisis (Germany)": {
+		"languages": ["De"]
+	},
+	"Dino Crisis (Italy)": {
+		"languages": ["It"]
+	},
+	"Dino Crisis (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Dino Crisis (Spain)": {
+		"languages": ["Es"]
+	},
+	"Dino Crisis (USA)": {
+		"languages": ["En"]
+	},
+	"Disney's 102 Dalmatians - Puppies to the Rescue (Europe) (Fr,De,Es,It)": {
+		"languages": ["De", "Es", "Fr", "It"]
+	},
+	"Disney's 102 Dalmatians - Puppies to the Rescue (USA)": {
+		"languages": ["En"]
+	},
+	"Disney's Dinosaur (Europe) (En,Fr,De,Es,It)": {
+		"languages": ["De", "En", "Es", "Fr", "It"]
+	},
+	"Disney's Dinosaur (USA)": {
+		"languages": ["En"]
+	},
+	"Disney's Donald Duck - Goin' Quackers (USA)": {
+		"languages": []
+	},
+	"Disney's Donald Duck - Quack Attack (Europe) (En,Fr,De,Es,It)": {
+		"languages": ["De", "En", "Es", "Fr", "It"]
+	},
+	"Disney-Pixar Buzz Lightyear of Star Command (Europe)": {
+		"languages": ["En"]
+	},
+	"Disney-Pixar Buzz Lightyear of Star Command (USA)": {
+		"languages": ["En"]
+	},
+	"Disney-Pixar Captain Buzz Lightyear - Star Command (Germany)": {
+		"languages": ["De"]
+	},
+	"Disney-Pixar Les Aventures de Buzz L'Eclair (France)": {
+		"languages": ["Fr"]
+	},
+	"Disney-Pixar Toy Story 2 - Buzz Lightyear eilt zur Hilfe! (Germany)": {
+		"languages": ["De"]
+	},
+	"Disney-Pixar Toy Story 2 - Buzz Lightyear to the Rescue! (Europe)": {
+		"languages": ["En"]
+	},
+	"Disney-Pixar Toy Story 2 - Buzz Lightyear to the Rescue! (USA)": {
+		"languages": ["En"]
+	},
+	"Disney-Pixar Toy Story 2 - Buzz l'Eclair a la Rescousse! (France)": {
+		"languages": ["Fr"]
+	},
+	"Doguu Senki - Haou (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Doki Doki Idol Star Seeker Remix (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Doricatch - FunCargo (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Dorimaga GD Vol. 1 (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Dorimaga GD Vol. 10 (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Dorimaga GD Vol. 11 (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Dorimaga GD Vol. 12 (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Dorimaga GD Vol. 2 (Japan) (Disc 1)": {
+		"languages": ["Ja"]
+	},
+	"Dorimaga GD Vol. 2 (Japan) (Disc 2)": {
+		"languages": ["Ja"]
+	},
+	"Dorimaga GD Vol. 3 (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Dorimaga GD Vol. 4 (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Dorimaga GD Vol. 5 (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Dorimaga GD Vol. 6 (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Dorimaga GD Vol. 7 (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Dorimaga GD Vol. 8 (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Dorimaga GD Vol. 9 (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Dousoukai 2 - Again & Refrain (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Draconus - Cult of the Wyrm (USA)": {
+		"languages": ["En"]
+	},
+	"Dragon Riders - Chronicles of Pern (Europe)": {
+		"languages": []
+	},
+	"Dragon Riders - Chronicles of Pern (USA)": {
+		"languages": ["En"]
+	},
+	"Dragons Blood (Europe) (En,Fr,De)": {
+		"languages": ["De", "En", "Fr"]
+	},
+	"Dream Passport (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Dream Passport 2 (Japan) (Rev A)": {
+		"languages": ["Ja"]
+	},
+	"Dream Passport 2 (Japan) (Rev B)": {
+		"languages": ["Ja"]
+	},
+	"Dream Passport 3 (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Dream Passport 3 - Urban Style (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Dream Passport Premier (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Dream Passport Ver.1.01 (Japan) (Rev A)": {
+		"languages": ["Ja"]
+	},
+	"Dream Passport for Toyota (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Dream Preview Vol. 1 (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Dream Preview Vol. 5 (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Dream Preview Vol. 6 (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Dream Preview Vol. 7 (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Dream Preview Vol. 8 (Japan)": {
+		"languages": ["Ja"]
+	},
+	"DreamFlyer (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Dreamcast Express Extra (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Dreamcast Express Vol. 1 (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Dreamcast Express Vol. 2 (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Dreamcast Express Vol. 3 (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Dreamcast Express Vol. 4 (Japan) (Disc 1) (Trial Disk)": {
+		"languages": ["Ja"]
+	},
+	"Dreamcast Express Vol. 4 (Japan) (Disc 2) (Tokyo Game Show '99 Autumn - Special Disk)": {
+		"languages": ["Ja"]
+	},
+	"Dreamcast Express Vol. 5 (Japan) (Disc 1) (Trial Disk)": {
+		"languages": ["Ja"]
+	},
+	"Dreamcast Express Vol. 5 (Japan) (Disc 2) (Movie Disk)": {
+		"languages": ["Ja"]
+	},
+	"Dreamcast Express Vol. 6 (Japan) (Disc 1) (Special Disk)": {
+		"languages": ["Ja"]
+	},
+	"Dreamcast Express Vol. 6 (Japan) (Disc 2) (Trial & Movie Disk)": {
+		"languages": ["Ja"]
+	},
+	"Dreamcast Express Vol. 7 (Japan) (Disc 1) (Special Disk)": {
+		"languages": ["Ja"]
+	},
+	"Dreamcast Express Vol. 7 (Japan) (Disc 2) (Trial & Movie Disk)": {
+		"languages": ["Ja"]
+	},
+	"Dreamcast Middleware Conference Demo Disc Part.2 (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Dreamcast Promotion Disk (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Dreamcast VM Data-shuu (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Dreamkey (Australia)": {
+		"languages": ["En"]
+	},
+	"Dreamkey (Europe)": {
+		"languages": ["En"]
+	},
+	"Dreamkey (Europe) (Rev B)": {
+		"languages": ["En"]
+	},
+	"Dreamkey (France)": {
+		"languages": ["Fr"]
+	},
+	"Dreamkey (France) (Rev A)": {
+		"languages": []
+	},
+	"Dreamkey (India)": {
+		"languages": []
+	},
+	"Dreamkey 3.0 (Europe) (En,Fr,De,It)": {
+		"languages": ["De", "En", "Fr", "It"]
+	},
+	"Dreamkey 3.1 (Portugal)": {
+		"languages": []
+	},
+	"Dreamkey 3.1 (Spain)": {
+		"languages": ["Es"]
+	},
+	"Dreamkey Versao 2.0 (Portugal)": {
+		"languages": []
+	},
+	"Dreamkey Version 1.5 (Europe)": {
+		"languages": ["En"]
+	},
+	"Dreamkey Version 1.5 (France)": {
+		"languages": ["Fr"]
+	},
+	"Dreamkey Version 1.5 (Spain)": {
+		"languages": []
+	},
+	"Dreamkey Version 2.0 (Europe)": {
+		"languages": []
+	},
+	"Dreamkey Version 2.0 (Europe) (En,Fr,De,Es,It)": {
+		"languages": ["De", "En", "Es", "Fr", "It"]
+	},
+	"Dreamon Collection 2 (Europe) (En,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Dreamon Collection 3 (Europe) (En,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Dreamon Collection 4 (Europe) (En,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Dreamon Volume 1 (Europe) (En,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Dreamon Volume 10 (Europe) (En,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Dreamon Volume 10 (France)": {
+		"languages": []
+	},
+	"Dreamon Volume 10 (Germany) (En,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Dreamon Volume 11 (Europe) (En,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Dreamon Volume 12 (Europe) (En,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Dreamon Volume 13 (Europe) (En,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Dreamon Volume 14 (Europe) (En,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Dreamon Volume 15 (Europe) (En,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Dreamon Volume 16 (Europe) (En,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Dreamon Volume 17 (Europe) (En,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Dreamon Volume 18 (Europe) (En,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Dreamon Volume 19 (Europe) (En,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Dreamon Volume 2 (Europe) (En,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Dreamon Volume 20 (Europe) (En,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Dreamon Volume 21 (Europe) (En,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Dreamon Volume 22 (Europe) (En,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Dreamon Volume 3 (Europe) (En,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Dreamon Volume 4 (Europe) (En,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Dreamon Volume 5 (Europe) (En,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Dreamon Volume 6 (Europe) (En,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Dreamon Volume 7 & 8 (France)": {
+		"languages": []
+	},
+	"Dreamon Volume 7 (Europe) (En,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Dreamon Volume 8 (Europe) (En,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Dreamon Volume 9 (Europe) (En,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Dreamstud!o (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Ducati World (Europe) (En,Fr,De,It)": {
+		"languages": ["De", "En", "Fr", "It"]
+	},
+	"Ducati World - Racing Challenge (USA)": {
+		"languages": ["En"]
+	},
+	"Dux (Europe) (Unl)": {
+		"languages": []
+	},
+	"Dux Version 1.5 (Europe) (Unl)": {
+		"languages": ["En"]
+	},
+	"Dux Version 1.5 (USA, Japan) (Unl) (Rerelease)": {
+		"languages": ["En"]
+	},
+	"Dynamite Cop (Europe)": {
+		"languages": []
+	},
+	"Dynamite Cop! (USA)": {
+		"languages": ["En"]
+	},
+	"Dynamite Deka 2 (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Dynamite Deka 2 (Japan) (Demo 1)": {
+		"languages": ["Ja"]
+	},
+	"Dynamite Deka 2 (Japan) (Demo 2)": {
+		"languages": ["Ja"]
+	},
+	"ECW Anarchy Rulz (Europe)": {
+		"languages": ["En"]
+	},
+	"ECW Anarchy Rulz (USA)": {
+		"languages": ["En"]
+	},
+	"ECW Hardcore Revolution (Europe)": {
+		"languages": ["En"]
+	},
+	"ECW Hardcore Revolution (Germany)": {
+		"languages": []
+	},
+	"ECW Hardcore Revolution (USA)": {
+		"languages": ["En"]
+	},
+	"ESPN International Track & Field (Europe) (En,Fr,De)": {
+		"languages": ["De", "En", "Fr"]
+	},
+	"ESPN International Track & Field (USA)": {
+		"languages": ["En"]
+	},
+	"ESPN NBA 2Night (USA)": {
+		"languages": ["En"]
+	},
+	"Ecco the Dolphin - Defender of the Future (Europe) (En,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Ecco the Dolphin - Defender of the Future (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Ecco the Dolphin - Defender of the Future (USA) (En,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Eisei Meijin III - Game Creator Yoshimura Nobuhiro no Zunou (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Elansar (Europe) (En,Fr,De,Es,It) (Unl)": {
+		"languages": ["De", "En", "Es", "Fr", "It"]
+	},
+	"Eldorado Gate Dai-1-kan (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Eldorado Gate Dai-2-kan (Japan)": {
+		"languages": []
+	},
+	"Eldorado Gate Dai-3-kan (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Eldorado Gate Dai-4-kan (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Eldorado Gate Dai-5-kan (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Eldorado Gate Dai-6-kan (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Eldorado Gate Dai-7-kan (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Elemental Gimmick Gear (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Elemental Gimmick Gear (USA)": {
+		"languages": ["En"]
+	},
+	"Elysion - Eien no Sanctuary (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Erde - Nezu no Ki no Shita de (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Es (Japan) (Disc 1)": {
+		"languages": ["Ja"]
+	},
+	"Es (Japan) (Disc 2)": {
+		"languages": ["Ja"]
+	},
+	"Es (Japan) (Disc 3)": {
+		"languages": ["Ja"]
+	},
+	"Escapee, The (USA, Japan) (En,Ja,Fr,De,Es,It) (Unl)": {
+		"languages": ["De", "En", "Es", "Fr", "It", "Ja"]
+	},
+	"Espion-Age-nts (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Espion-Age-nts (Japan) (Tentou-you Demonstration Movie)": {
+		"languages": ["Ja"]
+	},
+	"Eternal Arcadia (Japan) (Demo)": {
+		"languages": ["Ja"]
+	},
+	"Eternal Arcadia (Japan) (Disc 1)": {
+		"languages": ["Ja"]
+	},
+	"Eternal Arcadia (Japan) (Disc 1) (@barai)": {
+		"languages": ["Ja"]
+	},
+	"Eternal Arcadia (Japan) (Disc 2)": {
+		"languages": ["Ja"]
+	},
+	"Eternal Arcadia (Japan) (Disc 2) (@barai)": {
+		"languages": ["Ja"]
+	},
+	"Eternal Arcadia - Kuuzokuban (Japan)": {
+		"languages": ["Ja"]
+	},
+	"European Super League (Europe) (En,Fr,De,Es,It,Pt)": {
+		"languages": ["De", "En", "Es", "Fr", "It", "Pt"]
+	},
+	"Eve Zero Kanzenban - Ark of the Matter (Japan) (Disc 1)": {
+		"languages": ["Ja"]
+	},
+	"Eve Zero Kanzenban - Ark of the Matter (Japan) (Disc 2)": {
+		"languages": ["Ja"]
+	},
+	"Ever 17 - The Out of Infinity (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Ever 17 - The Out of Infinity - Premium Edition (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Evil Dead - Hail to the King (Europe)": {
+		"languages": ["En"]
+	},
+	"Evil Dead - Hail to the King (France)": {
+		"languages": ["En"]
+	},
+	"Evil Dead - Hail to the King (USA)": {
+		"languages": ["En"]
+	},
+	"Evil Twin - Cyprien's Chronicles (Europe) (En,Fr)": {
+		"languages": ["En", "Fr"]
+	},
+	"Evil Twin - Cyprien's Chronicles (Europe) (En,Fr,De,Es,It)": {
+		"languages": ["De", "En", "Es", "Fr", "It"]
+	},
+	"Evolution - The World of Sacred Device (Europe)": {
+		"languages": ["En"]
+	},
+	"Evolution - The World of Sacred Device (USA)": {
+		"languages": ["En"]
+	},
+	"Evolution 2 - Far Off Promise (Europe)": {
+		"languages": []
+	},
+	"Evolution 2 - Far Off Promise (USA)": {
+		"languages": ["En"]
+	},
+	"Exhibition of Speed (Europe) (En,Fr,De,Es,It,Nl)": {
+		"languages": ["De", "En", "Es", "Fr", "It", "Nl"]
+	},
+	"Exodus Guilty Neos (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Expendable (USA) (En,Fr,De,Es,It)": {
+		"languages": ["De", "En", "Es", "Fr", "It"]
+	},
+	"F1 Racing Championship (Europe) (En,Fr,De,Es,It)": {
+		"languages": ["De", "En", "Es", "Fr", "It"]
+	},
+	"F1 World Grand Prix (Europe) (En,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"F1 World Grand Prix (USA) (En,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"F1 World Grand Prix II for Dreamcast (Europe) (En,Fr,De,Es,It)": {
+		"languages": ["De", "En", "Es", "Fr", "It"]
+	},
+	"F1 World Grand Prix II for Dreamcast (Japan)": {
+		"languages": ["Ja"]
+	},
+	"F1 World Grand Prix II for Dreamcast (Japan) (Demo)": {
+		"languages": ["Ja"]
+	},
+	"F1 World Grand Prix for Dreamcast (Japan)": {
+		"languages": ["Ja"]
+	},
+	"F355 Challenge (Japan)": {
+		"languages": ["Ja"]
+	},
+	"F355 Challenge (Japan) (Taikenban)": {
+		"languages": ["Ja"]
+	},
+	"F355 Challenge - Passione Rossa (Europe) (En,Fr,De,Es,It)": {
+		"languages": ["De", "En", "Es", "Fr", "It"]
+	},
+	"F355 Challenge - Passione Rossa (USA)": {
+		"languages": ["En"]
+	},
+	"FX Unit Yuki (USA, Japan) (Unl)": {
+		"languages": ["En"]
+	},
+	"Fast Striker Ver. 1.5 (Europe) (Unl) (Rerelease)": {
+		"languages": ["En"]
+	},
+	"Fatal Fury - Mark of the Wolves (USA)": {
+		"languages": ["En"]
+	},
+	"Feet of Fury (USA) (Unl)": {
+		"languages": ["En"]
+	},
+	"Fighting Force 2 (Europe) (En,Fr)": {
+		"languages": ["En", "Fr"]
+	},
+	"Fighting Force 2 (Germany)": {
+		"languages": ["De"]
+	},
+	"Fighting Force 2 (USA)": {
+		"languages": []
+	},
+	"Fighting Force 2 (USA) (Rev A)": {
+		"languages": ["En"]
+	},
+	"Fighting Vipers 2 (Europe) (Beta)": {
+		"languages": []
+	},
+	"Fighting Vipers 2 (Europe) (En,Ja,Fr,De,Es,It)": {
+		"languages": ["De", "En", "Es", "Fr", "It", "Ja"]
+	},
+	"Fighting Vipers 2 (Japan) (En,Ja)": {
+		"languages": ["En", "Ja"]
+	},
+	"Finding Teddy (USA, Japan) (Unl)": {
+		"languages": []
+	},
+	"Fire Pro Wrestling D (Japan)": {
+		"languages": ["Ja"]
+	},
+	"First Kiss Story (Japan) (Disc 1)": {
+		"languages": []
+	},
+	"First Kiss Story (Japan) (Disc 2)": {
+		"languages": []
+	},
+	"First Kiss Story II - Anata ga Iru kara (Japan) (Disc 1)": {
+		"languages": ["Ja"]
+	},
+	"First Kiss Story II - Anata ga Iru kara (Japan) (Disc 2)": {
+		"languages": ["Ja"]
+	},
+	"Fish Eyes + Wild (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Flag to Flag (USA)": {
+		"languages": ["En"]
+	},
+	"Flashback (USA, Japan) (Unl)": {
+		"languages": ["En"]
+	},
+	"Flintstones, The - Viva Rock Vegas (Europe) (En,Fr,De,Es,It) (Proto)": {
+		"languages": ["De", "En", "Es", "Fr", "It"]
+	},
+	"Floigan Bros. - Episode 1 (Europe)": {
+		"languages": ["En"]
+	},
+	"Floigan Bros. - Episode 1 (USA)": {
+		"languages": ["En"]
+	},
+	"For Symphony - With All One's Heart (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Fragrance Tale (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Frame Gride (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Frame Gride - Test Operation Disc (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Freestyle Scooter (Europe)": {
+		"languages": ["En"]
+	},
+	"Frogger 2 - Swampy's Revenge (USA)": {
+		"languages": ["En"]
+	},
+	"Fur Fighters (Europe) (Demo)": {
+		"languages": []
+	},
+	"Fur Fighters (Europe) (En,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Fur Fighters (USA) (En,Fr,De,Es) (Rev B)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Fur Fighters + Dead or Alive 2 (Europe) (Demo)": {
+		"languages": ["En"]
+	},
+	"Fushigi no Dungeon - Fuurai no Shiren Gaiden - Onna Kenshi Asuka Kenzan! (Japan)": {
+		"languages": ["Ja"]
+	},
+	"GK - Giant Killers (Europe)": {
+		"languages": ["En"]
+	},
+	"GaiaMaster - Kessen! Seiki-ou Densetsu (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Gakkyuu-ou Yamazaki - Yamazaki Oukoku Daifunsou! (Japan)": {
+		"languages": ["Ja"]
+	},
+	"GameShark CDX (USA) (Unl)": {
+		"languages": ["En"]
+	},
+	"GameShark CDX (USA) (Unl) (Final Version)": {
+		"languages": ["En"]
+	},
+	"GameShark Lite Version 4.0 (USA) (Unl)": {
+		"languages": []
+	},
+	"GameShark Video Game Enhancer - Upgrade Disk (USA) (Unl)": {
+		"languages": ["En"]
+	},
+	"Ganbare! Nippon! Olympic 2000 (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Ganryu (USA, Japan) (Unl)": {
+		"languages": []
+	},
+	"Garou - Mark of the Wolves (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Gauntlet Legends (Europe) (En,Fr,De)": {
+		"languages": ["De", "En", "Fr"]
+	},
+	"Gauntlet Legends (USA)": {
+		"languages": ["En"]
+	},
+	"Generator Vol. 1 (Japan)": {
+		"languages": ["En"]
+	},
+	"Generator Vol. 1 (USA)": {
+		"languages": ["En"]
+	},
+	"Generator Vol. 2 (USA)": {
+		"languages": ["En"]
+	},
+	"Get Bass (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Get Bass (Japan) (Taikenban)": {
+		"languages": ["Ja"]
+	},
+	"Get Bass 2 (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Get!! Colonies (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Ghost Blade (Europe) (Unl) (Limited Edition)": {
+		"languages": ["En"]
+	},
+	"Ghost Blade (USA, Japan) (Unl) (Rerelease)": {
+		"languages": ["En"]
+	},
+	"Giant Gram - Zen Nihon Pro Wres 2 in Nihon Budoukan (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Giant Gram 2000 - Zen Nihon Pro Wres 3 Eikou no Yuusha-tachi (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Giant Killers (Europe) (Beta)": {
+		"languages": ["En"]
+	},
+	"GigaWing (Europe)": {
+		"languages": ["En"]
+	},
+	"GigaWing (Japan)": {
+		"languages": ["Ja"]
+	},
+	"GigaWing (Japan) (Tentou Taikenban)": {
+		"languages": ["Ja"]
+	},
+	"GigaWing (USA)": {
+		"languages": ["En"]
+	},
+	"GigaWing 2 (Japan)": {
+		"languages": ["Ja"]
+	},
+	"GigaWing 2 (Japan) (Tentou Taikenban)": {
+		"languages": ["Ja"]
+	},
+	"GigaWing 2 (USA)": {
+		"languages": ["En"]
+	},
+	"Godzilla Generations (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Godzilla Generations - Maximum Impact (Japan)": {
+		"languages": ["En"]
+	},
+	"Golem no Maigo (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Golf Shiyou yo (Japan) (Rev A)": {
+		"languages": ["Ja"]
+	},
+	"Golf Shiyou yo (Japan) (Rev B)": {
+		"languages": ["Ja"]
+	},
+	"Golf Shiyou yo - Course Data-shuu - Adventure-hen (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Golf Shiyou yo 2 - Aratanaru Chousen (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Grand Theft Auto 2 (Europe) (En,Fr,De,Es,It)": {
+		"languages": ["De", "En", "Es", "Fr", "It"]
+	},
+	"Grand Theft Auto 2 (France)": {
+		"languages": []
+	},
+	"Grand Theft Auto 2 (USA)": {
+		"languages": ["En"]
+	},
+	"Grandia II (Europe)": {
+		"languages": ["En"]
+	},
+	"Grandia II (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Grandia II (Japan) (Tentou-you Demo)": {
+		"languages": ["Ja"]
+	},
+	"Grandia II (USA)": {
+		"languages": ["En"]
+	},
+	"Grauen no Torikago - Kapitel 1 - Keiyaku (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Grauen no Torikago - Kapitel 2 - Torikago (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Grauen no Torikago - Kapitel 3 - Kansei (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Grauen no Torikago - Kapitel 4 - Kaikou (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Grauen no Torikago - Kapitel 5 - Shokuzai (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Grauen no Torikago - Kapitel 6 - Senritsu (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Grinch, The (Europe) (En,Fr,De,Es,It)": {
+		"languages": ["De", "En", "Es", "Fr", "It"]
+	},
+	"Grinch, The (USA) (En,Fr,Es)": {
+		"languages": ["En", "Es", "Fr"]
+	},
+	"Guilty Gear X (Japan) (Rev A)": {
+		"languages": ["Ja"]
+	},
+	"Guilty Gear X (Japan) (Taikenban)": {
+		"languages": ["Ja"]
+	},
+	"Gunbird 2 (Europe)": {
+		"languages": ["En"]
+	},
+	"Gunbird 2 (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Gunbird 2 (USA)": {
+		"languages": ["En"]
+	},
+	"Gundam Battle Online (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Gundam Battle Online - Trial Edition (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Gundam Side Story 0079 - Rise from the Ashes (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Gundam Side Story 0079 - Rise from the Ashes (USA)": {
+		"languages": ["En"]
+	},
+	"Gundam Side Story 0079 - Rise from the Ashes - Premium Disc (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Gundam Side Story 0079 - Rise from the Ashes - Special Edition (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Gunlord (Europe) (Unl)": {
+		"languages": ["En"]
+	},
+	"Gunspike (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Gunspike (Japan) (Tentou Taikenban)": {
+		"languages": ["Ja"]
+	},
+	"Guru Guru Onsen 2 (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Guru Guru Onsen 3 (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Hang the DJ (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Happy Breeding (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Happy Lesson (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Happy Lesson - First Lesson (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Harusame Youbi (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Headhunter (Europe) (En,Fr,De,Es) (Disc 1)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Headhunter (Europe) (En,Fr,De,Es) (Disc 2)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Heavy Metal - Geomatrix (Europe) (En,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Heavy Metal - Geomatrix (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Heavy Metal - Geomatrix (USA)": {
+		"languages": ["En"]
+	},
+	"Heisei Mahjong-sou (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Hello Kitty no Dream Passport 2 (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Hello Kitty no Garden Panic (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Hello Kitty no Lovely Fruit Park (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Hello Kitty no Magical Block (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Hello Kitty no Otonaru Mail (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Hello Kitty no Waku Waku Cookies (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Hermes (Europe) (Unl)": {
+		"languages": ["En"]
+	},
+	"Hidden & Dangerous (Europe) (En,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Hidden & Dangerous (USA)": {
+		"languages": ["En"]
+	},
+	"Himitsu - Original Sound Track (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Himitsu - Yui ga Ita Natsu (Japan)": {
+		"languages": ["Ja"]
+	},
+	"House of the Dead 2, The (Europe) (En,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"House of the Dead 2, The (Japan)": {
+		"languages": ["Ja"]
+	},
+	"House of the Dead 2, The (Japan) (Rev B)": {
+		"languages": ["Ja"]
+	},
+	"House of the Dead 2, The (Japan, Europe) (Taikenban)": {
+		"languages": ["En"]
+	},
+	"House of the Dead 2, The (USA)": {
+		"languages": ["En"]
+	},
+	"Hoyle Casino (USA)": {
+		"languages": ["En"]
+	},
+	"Hundred Swords (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Hundred Swords (Japan) (@barai)": {
+		"languages": ["Ja"]
+	},
+	"Hydro Thunder (Europe)": {
+		"languages": ["En"]
+	},
+	"Hydro Thunder (USA)": {
+		"languages": ["En"]
+	},
+	"Hydro Thunder (USA) (Rev 1)": {
+		"languages": ["En"]
+	},
+	"Idol Janshi o Tsukucchaou (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Ikaruga (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Illbleed (Japan) (En,Ja)": {
+		"languages": ["En", "Ja"]
+	},
+	"Illbleed (Taiwan)": {
+		"languages": ["Zh"]
+	},
+	"Illbleed (USA)": {
+		"languages": ["En"]
+	},
+	"Imakoso!! Dreamcast with Special GD!! (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Imperial no Taka - Fighter of Zero (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Incoming (Europe) (En,Fr,De,Es,It)": {
+		"languages": ["De", "En", "Es", "Fr", "It"]
+	},
+	"Incoming (USA)": {
+		"languages": ["En"]
+	},
+	"Incoming - Jinrui Saishuu Kessen (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Industrial Spy - Operation Espionage (USA)": {
+		"languages": ["En"]
+	},
+	"Inhabitants (USA) (Unl)": {
+		"languages": ["En"]
+	},
+	"Inoue Ryouko - Last Scene (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Inoue Ryouko - Roommate (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Interlude (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Internet Browser V3.0 for Dreamcast (USA)": {
+		"languages": ["En"]
+	},
+	"Intrepid Izzy (USA, Japan) (Unl)": {
+		"languages": []
+	},
+	"Irides - Master of Blocks (USA) (Unl)": {
+		"languages": ["En"]
+	},
+	"Iris (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Iron Aces (Europe)": {
+		"languages": ["En"]
+	},
+	"Iron Aces (USA)": {
+		"languages": ["En"]
+	},
+	"Izumo (Japan)": {
+		"languages": ["Ja"]
+	},
+	"J.League Pro Soccer Club o Tsukurou! (Japan)": {
+		"languages": ["Ja"]
+	},
+	"J.League Pro Soccer Club o Tsukurou! Tokusei o Tanoshimi File Download Disc (Japan)": {
+		"languages": ["Ja"]
+	},
+	"J.League Spectacle Soccer (Japan)": {
+		"languages": ["Ja"]
+	},
+	"JRA PAT for Dreamcast V40 L10 (Japan)": {
+		"languages": ["Ja"]
+	},
+	"JRA PAT for Dreamcast V40 L11 (Japan)": {
+		"languages": ["Ja"]
+	},
+	"JRA PAT for Dreamcast V40 L12 (Japan)": {
+		"languages": ["Ja"]
+	},
+	"JRA PAT for Dreamcast V50 L10 (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Jahmong (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Jeremy McGrath Supercross 2000 (Europe) (En,Fr,De)": {
+		"languages": ["De", "En", "Fr"]
+	},
+	"Jeremy McGrath Supercross 2000 (USA)": {
+		"languages": ["En"]
+	},
+	"Jet Coaster Dream (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Jet Coaster Dream 2 (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Jet Grind Radio (USA)": {
+		"languages": ["En"]
+	},
+	"Jet Set Radio (Europe) (En,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Jet Set Radio (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Jikkyou Powerful Pro Yakyuu - Dreamcast Edition (Japan)": {
+		"languages": []
+	},
+	"Jimmy White's 2 - Cueball (Europe) (En,Fr,De,Es,It)": {
+		"languages": ["De", "En", "Es", "Fr", "It"]
+	},
+	"Jinsei Game for Dreamcast (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Jissen Pachi-Slot Hisshouhou! @ VP@CHI - Kongdom (Japan)": {
+		"languages": []
+	},
+	"JoJo's Bizarre Adventure (Europe)": {
+		"languages": []
+	},
+	"JoJo's Bizarre Adventure (USA)": {
+		"languages": ["En"]
+	},
+	"Jojo no Kimyou na Bouken - Mirai e no Isan (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Jojo no Kimyou na Bouken - Mirai e no Isan (Japan) (Tentou Taikenban)": {
+		"languages": ["Ja"]
+	},
+	"Jojo no Kimyou na Bouken - Mirai e no Isan for Matching Service (Japan)": {
+		"languages": ["Ja"]
+	},
+	"July (Japan)": {
+		"languages": []
+	},
+	"July (Japan) (Rev A)": {
+		"languages": []
+	},
+	"KISS Psycho Circus - The Nightmare Child (Europe)": {
+		"languages": ["En"]
+	},
+	"KISS Psycho Circus - The Nightmare Child (USA)": {
+		"languages": ["En"]
+	},
+	"Kaen Seibo - The Virgin on Megiddo (Japan) (Disc 1)": {
+		"languages": ["Ja"]
+	},
+	"Kaen Seibo - The Virgin on Megiddo (Japan) (Disc 2)": {
+		"languages": ["Ja"]
+	},
+	"Kaitou Apricot (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Kanon (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Kao the Kangaroo (Europe) (Demo)": {
+		"languages": []
+	},
+	"Kao the Kangaroo (Europe) (En,Fr,De,Es,It)": {
+		"languages": ["De", "En", "Es", "Fr", "It"]
+	},
+	"Kao the Kangaroo (USA) (En,Es)": {
+		"languages": ["En", "Es"]
+	},
+	"Karat DC-you - Pro Action Replay 2 (Japan) (Unl)": {
+		"languages": ["Ja"]
+	},
+	"Karat DC-you - Pro Action Replay DC PAR - Sampler - Nyuumon-hen (Japan) (Unl)": {
+		"languages": ["Ja"]
+	},
+	"Karous (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Kaze no Uta (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Kidou Senkan Nadesico - Nadesico the Mission (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Kidou Senshi Gundam - Gihren no Yabou - Zeon no Keifu (Japan) (Disc 1) (Earth Federation Disc)": {
+		"languages": ["Ja"]
+	},
+	"Kidou Senshi Gundam - Gihren no Yabou - Zeon no Keifu (Japan) (Disc 2) (Zeon Disc)": {
+		"languages": ["Ja"]
+	},
+	"Kidou Senshi Gundam - Renpou vs. Zeon & DX (Japan) (Disc 1) (Kidou Senshi Gundam - Renpou vs. Zeon)": {
+		"languages": ["Ja"]
+	},
+	"Kidou Senshi Gundam - Renpou vs. Zeon & DX (Japan) (Disc 2) (Kidou Senshi Gundam - Renpou vs. Zeon DX)": {
+		"languages": ["Ja"]
+	},
+	"Kimi ga Nozomu Eien (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Kindan no Pet - Seaman - Gasse Hakase no Jikken-tou (Japan) (2001-nen Taiouban) (Rev A)": {
+		"languages": ["Ja"]
+	},
+	"Kindan no Pet - Seaman - Gasse Hakase no Jikken-tou (Japan) (Rev A)": {
+		"languages": ["Ja"]
+	},
+	"King of Fighters '99, The - Evolution (Japan)": {
+		"languages": ["En"]
+	},
+	"King of Fighters 2000, The (Japan)": {
+		"languages": ["Ja"]
+	},
+	"King of Fighters 2001, The (Japan)": {
+		"languages": ["Ja"]
+	},
+	"King of Fighters 2002, The (Japan) (En,Ja)": {
+		"languages": ["En", "Ja"]
+	},
+	"King of Fighters, The - Dream Match 1999 (Japan) (En,Ja,Es,Pt)": {
+		"languages": ["En", "Es", "Ja", "Pt"]
+	},
+	"King of Fighters, The - Dream Match 1999 (USA) (En,Ja,Es,Pt)": {
+		"languages": ["En", "Es", "Ja", "Pt"]
+	},
+	"King of Fighters, The - Evolution (USA) (En,Ja,Es,Pt)": {
+		"languages": ["En", "Es", "Ja", "Pt"]
+	},
+	"Kita e. Photo Memories (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Kita e. White Illumination (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Kita e. White Illumination - Pure Songs and Pictures (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Kitahei Gold (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Kiteretsu Boy's Gangagan (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Konohana - True Report (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Konohana 2 - Todokanai Requiem (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Kuon no Kizuna - Sairinshou (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Kuon no Kizuna - Sairinshou (Japan) (Rev A)": {
+		"languages": ["Ja"]
+	},
+	"L.O.L. - Lack of Love (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Lake Masters Pro - Dreamcast Plus! (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Langrisser Millennium (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Last Blade 2, The - Heart of the Samurai (USA)": {
+		"languages": ["En"]
+	},
+	"Last Hope (Europe) (Unl)": {
+		"languages": ["En"]
+	},
+	"Last Hope - Pink Bullets (Europe) (Unl)": {
+		"languages": ["En"]
+	},
+	"Le Mans 24 Hours (Europe) (En,Fr,Es)": {
+		"languages": ["En", "Es", "Fr"]
+	},
+	"Le Mans 24 Hours (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Legacy of Kain - Soul Reaver (Europe)": {
+		"languages": ["En"]
+	},
+	"Legacy of Kain - Soul Reaver (France)": {
+		"languages": []
+	},
+	"Legacy of Kain - Soul Reaver (Germany)": {
+		"languages": ["De"]
+	},
+	"Legacy of Kain - Soul Reaver (Italy)": {
+		"languages": ["It"]
+	},
+	"Legacy of Kain - Soul Reaver (Spain)": {
+		"languages": ["Es"]
+	},
+	"Legacy of Kain - Soul Reaver (USA)": {
+		"languages": ["En"]
+	},
+	"Leona's Tricky Adventures (Europe) (Unl)": {
+		"languages": []
+	},
+	"Looney Tunes - Space Race (Europe) (En,Fr,De,Es,It,Nl)": {
+		"languages": ["De", "En", "Es", "Fr", "It", "Nl"]
+	},
+	"Looney Tunes - Space Race (USA) (En,Fr,Es)": {
+		"languages": ["En", "Es", "Fr"]
+	},
+	"Love Hina - Smile Again (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Love Hina - Totsuzen no Engage Happening (Japan)": {
+		"languages": ["Ja"]
+	},
+	"MDK2 (Europe) (En,Fr,De,Es,It)": {
+		"languages": ["De", "En", "Es", "Fr", "It"]
+	},
+	"MDK2 (USA)": {
+		"languages": ["En"]
+	},
+	"MP3 DC - Use MP3 Audio CD's on Your Dreamcast (Europe) (Unl)": {
+		"languages": ["En"]
+	},
+	"MP3 DC - Use MP3 Audio CD's on Your Dreamcast (USA) (Unl)": {
+		"languages": ["En"]
+	},
+	"MP3 DC - Use MP3 Audio CD's on Your Dreamcast (USA) (Unl) (Pelican Accessories)": {
+		"languages": ["En"]
+	},
+	"MSR - Metropolis Street Racer (Europe) (En,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"MSR - Metropolis Street Racer (Europe) (En,Fr,De,Es) (Rev A)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"MSR - Metropolis Street Racer (Europe) (En,Fr,De,Es) (Rev B)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"MSR - Metropolis Street Racer (USA) (Rev A)": {
+		"languages": ["En"]
+	},
+	"MSR Opel Challenge (Europe) (Beta)": {
+		"languages": ["En"]
+	},
+	"MTV Sports - Skateboarding featuring Andy Macdonald (Europe)": {
+		"languages": ["En"]
+	},
+	"MTV Sports - Skateboarding featuring Andy Macdonald (USA)": {
+		"languages": ["En"]
+	},
+	"Maboroshi Tsukiyo (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Maboroshi Tsukiyo (Japan) (Taikenban)": {
+		"languages": ["Ja"]
+	},
+	"Macross M3 (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Macross M3 (Japan) (Demo)": {
+		"languages": ["Ja"]
+	},
+	"MagForce Racing (Europe) (En,Fr,De,Es,It)": {
+		"languages": ["De", "En", "Es", "Fr", "It"]
+	},
+	"MagForce Racing (USA) (En,Fr,De,Es,It)": {
+		"languages": ["De", "En", "Es", "Fr", "It"]
+	},
+	"Magic - The Gathering (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Magic Pockets (USA, Japan) (Unl)": {
+		"languages": ["En"]
+	},
+	"Mahjong Taikai II Special (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Majo no Ocha-kai (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Maken X (Europe) (En,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Maken X (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Maken X (USA)": {
+		"languages": ["En"]
+	},
+	"Maqiupai (USA) (Unl)": {
+		"languages": ["En"]
+	},
+	"Margi - Marginal (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Marie & Elie no Atelier - Salburg no Renkinjutsushi 1 & 2 (Japan) (Game Disc)": {
+		"languages": ["Ja"]
+	},
+	"Marie & Elie no Atelier - Salburg no Renkinjutsushi 1 & 2 (Japan) (Game Disc) (Rev A)": {
+		"languages": ["Ja"]
+	},
+	"Marie & Elie no Atelier - Salburg no Renkinjutsushi 1 & 2 (Japan) (Omake Disc)": {
+		"languages": ["Ja"]
+	},
+	"Marie & Elie no Atelier - Salburg no Renkinjutsushi 1 & 2 (Japan) (Omake Disc) (Rev A)": {
+		"languages": ["Ja"]
+	},
+	"Marionette Company (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Marionette Company 2 Chu! (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Marionette Handler (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Marionette Handler 2 (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Mars Matrix (Japan) (En,Ja)": {
+		"languages": ["En", "Ja"]
+	},
+	"Mars Matrix (USA)": {
+		"languages": ["En"]
+	},
+	"Marvel vs. Capcom - Clash of Super Heroes (Europe)": {
+		"languages": ["En"]
+	},
+	"Marvel vs. Capcom - Clash of Super Heroes (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Marvel vs. Capcom - Clash of Super Heroes (Japan) (Tentou Taikenban)": {
+		"languages": ["Ja"]
+	},
+	"Marvel vs. Capcom - Clash of Super Heroes (USA)": {
+		"languages": ["En"]
+	},
+	"Marvel vs. Capcom 2 (USA)": {
+		"languages": ["En"]
+	},
+	"Marvel vs. Capcom 2 - New Age of Heroes (Europe)": {
+		"languages": []
+	},
+	"Marvel vs. Capcom 2 - New Age of Heroes (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Marvel vs. Capcom 2 - New Age of Heroes (Japan) (Tentou Taikenban)": {
+		"languages": ["Ja"]
+	},
+	"Mat Hoffman's Pro BMX (USA)": {
+		"languages": ["En"]
+	},
+	"Max Steel - Covert Missions (USA)": {
+		"languages": ["En"]
+	},
+	"Maximum Pool (USA)": {
+		"languages": ["En"]
+	},
+	"Mei Puru (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Memories Off 2nd (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Memories Off 2nd - Making Disc (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Memories Off 2nd - Promotion Disc (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Memories Off Complete (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Mercurius Pretty - End of the Century (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Metal Wolf (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Microsoft WebTV Setsuzoku Kit (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Microsoft WebTV Setsuzoku Kit (Japan) (128bit SSL Taiouban)": {
+		"languages": ["Ja"]
+	},
+	"Midway's Greatest Arcade Hits - Volume 1 (Europe)": {
+		"languages": ["En"]
+	},
+	"Midway's Greatest Arcade Hits - Volume 1 (USA)": {
+		"languages": ["En"]
+	},
+	"Midway's Greatest Arcade Hits - Volume 2 (USA)": {
+		"languages": ["En"]
+	},
+	"Milky Season (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Millennium Soldier - Expendable (Europe) (En,Fr,De,Es,It)": {
+		"languages": ["De", "En", "Es", "Fr", "It"]
+	},
+	"Miss Moonlight (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Missing Parts - The Tantei Stories (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Missing Parts 2 - The Tantei Stories (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Missing Parts 3 - The Tantei Stories (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Mizuiro (Japan)": {
+		"languages": ["Ja"]
+	},
+	"MoHo (Europe) (En,Fr,De)": {
+		"languages": ["De", "En", "Fr"]
+	},
+	"Moekan (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Moero! Justice Gakuen (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Moero! Justice Gakuen (Japan) (Demo)": {
+		"languages": ["Ja"]
+	},
+	"Monaco Grand Prix (USA)": {
+		"languages": ["En"]
+	},
+	"Monaco Grand Prix Racing Simulation 2 (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Morita no Saikyou Reversi (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Morita no Saikyou Reversi (Japan) (Tentou Taikenban)": {
+		"languages": ["Ja"]
+	},
+	"Morita no Saikyou Shougi (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Mortal Kombat Gold (Europe)": {
+		"languages": ["En"]
+	},
+	"Mortal Kombat Gold (USA)": {
+		"languages": ["En"]
+	},
+	"Mortal Kombat Gold (USA) (Rev 1)": {
+		"languages": ["En"]
+	},
+	"Motto Pro Yakyuu Team o Tsukurou! (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Mr. Driller (Europe) (En,Fr,De,Es,It)": {
+		"languages": ["De", "En", "Es", "Fr", "It"]
+	},
+	"Mr. Driller (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Mr. Driller (USA)": {
+		"languages": ["En"]
+	},
+	"Ms. Pac-Man Maze Madness (USA)": {
+		"languages": ["En"]
+	},
+	"Musapey's Choco Marker (Japan)": {
+		"languages": ["Ja"]
+	},
+	"My Merry May (Japan)": {
+		"languages": ["Ja"]
+	},
+	"My Merry Maybe (Japan) (Disc 1)": {
+		"languages": ["Ja"]
+	},
+	"My Merry Maybe (Japan) (Disc 2)": {
+		"languages": ["Ja"]
+	},
+	"NBA 2K (Europe) (En,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"NBA 2K (Japan)": {
+		"languages": ["En"]
+	},
+	"NBA 2K (USA)": {
+		"languages": ["En"]
+	},
+	"NBA 2K1 (Japan)": {
+		"languages": ["Ja"]
+	},
+	"NBA 2K1 (USA)": {
+		"languages": ["En"]
+	},
+	"NBA 2K2 (Europe)": {
+		"languages": ["En"]
+	},
+	"NBA 2K2 (Japan)": {
+		"languages": ["En"]
+	},
+	"NBA 2K2 (USA)": {
+		"languages": ["En"]
+	},
+	"NBA Hoopz (Europe) (En,Fr,De)": {
+		"languages": ["De", "En", "Fr"]
+	},
+	"NBA Hoopz (USA)": {
+		"languages": ["En"]
+	},
+	"NBA Showtime - NBA on NBC (Europe)": {
+		"languages": ["En"]
+	},
+	"NBA Showtime - NBA on NBC (USA)": {
+		"languages": ["En"]
+	},
+	"NCAA College Football 2K2 - Road to the Rose Bowl (USA)": {
+		"languages": ["En"]
+	},
+	"NFL 2K (Japan)": {
+		"languages": []
+	},
+	"NFL 2K (USA)": {
+		"languages": ["En"]
+	},
+	"NFL 2K1 (Japan)": {
+		"languages": ["En"]
+	},
+	"NFL 2K1 (USA)": {
+		"languages": ["En"]
+	},
+	"NFL 2K2 (Japan)": {
+		"languages": ["En"]
+	},
+	"NFL 2K2 (USA)": {
+		"languages": ["En"]
+	},
+	"NFL Blitz 2000 (Europe)": {
+		"languages": ["En"]
+	},
+	"NFL Blitz 2000 (USA)": {
+		"languages": ["En"]
+	},
+	"NFL Blitz 2000 (USA) (Rev 1)": {
+		"languages": ["En"]
+	},
+	"NFL Blitz 2001 (USA)": {
+		"languages": ["En"]
+	},
+	"NFL QB Club 2001 (USA)": {
+		"languages": ["En"]
+	},
+	"NFL Quarterback Club 2000 (Europe)": {
+		"languages": ["En"]
+	},
+	"NFL Quarterback Club 2000 (USA)": {
+		"languages": ["En"]
+	},
+	"NHL 2K (Europe)": {
+		"languages": ["En"]
+	},
+	"NHL 2K (USA)": {
+		"languages": ["En"]
+	},
+	"NHL 2K2 (Japan)": {
+		"languages": ["En"]
+	},
+	"NHL 2K2 (USA)": {
+		"languages": ["En"]
+	},
+	"Nakoruru - Ano Hito kara no Okurimono (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Namco Museum (USA)": {
+		"languages": ["En"]
+	},
+	"Nanatsu no Hikan - Senritsu no Bishou (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Napple Tale - Arsia in Daydream (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Neo Golden Logres (Japan) (En,Ja)": {
+		"languages": ["En", "Ja"]
+	},
+	"Neo XYX (Europe) (Unl)": {
+		"languages": ["En"]
+	},
+	"Neppachi - 10-ren Chan de Las Vegas Ryokou (Japan) (Rev A)": {
+		"languages": ["Ja"]
+	},
+	"Neppachi II - CR Harenchi Gakuen (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Neppachi III - CR Dokonjou Gaeru 2 - CR Dokonjou Gaeru H (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Neppachi IV - CR Aa!! Hana no Ouendan 3 (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Neppachi V - CR Monster House (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Neppachi VI - CR Otakara Tankentai (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Net Versus - Chess (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Net Versus - Gomoku Narabe to Renju (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Net Versus - Hanafuda (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Net Versus - Igo (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Net Versus - Mahjong (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Net Versus - Reversi (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Net Versus - Shougi (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Net de Para (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Net de Tennis (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Nettou Golf (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Never 7 - The End of Infinity (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Newpowered Generation 1 (UK)": {
+		"languages": []
+	},
+	"Next Tetris, The (Europe)": {
+		"languages": ["En"]
+	},
+	"Next Tetris, The - On-Line Edition (USA)": {
+		"languages": ["En"]
+	},
+	"Nightmare Creatures II (Europe) (En,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Nightmare Creatures II (USA)": {
+		"languages": ["En"]
+	},
+	"Nihon Pro Mahjong Renmei Kounin - Tetsuman Menkyokaiden (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Nijuuei (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Nishikaze no Kyoushikyoku - The Rhapsody of Zephyr (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Nobunaga no Yabou - Reppuuden (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Nobunaga no Yabou - Shouseiroku with Power-Up Kit (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Nomad Soul, The (Europe) (En,Fr,De,Es,It)": {
+		"languages": ["De", "En", "Es", "Fr", "It"]
+	},
+	"Nomad Soul, The (France) (En,Fr,De,Es,It)": {
+		"languages": ["De", "En", "Es", "Fr", "It"]
+	},
+	"Nomad Soul, The (Germany)": {
+		"languages": ["De"]
+	},
+	"Non Casual Encounter - Prologue (USA, Europe) (Unl)": {
+		"languages": ["En"]
+	},
+	"O-to-i-re - Dreamcast Sequencer (Japan) (En,Ja)": {
+		"languages": ["En", "Ja"]
+	},
+	"Official Sega Dreamcast Magazine Vol. 10 - January 2001 (USA)": {
+		"languages": ["En"]
+	},
+	"Official Sega Dreamcast Magazine Vol. 11 - February 2001 (USA)": {
+		"languages": []
+	},
+	"Official Sega Dreamcast Magazine Vol. 2 - November 1999 (USA)": {
+		"languages": ["En"]
+	},
+	"Official Sega Dreamcast Magazine Vol. 3 - January 2000 (USA)": {
+		"languages": ["En"]
+	},
+	"Official Sega Dreamcast Magazine Vol. 4 - March 2000 (USA)": {
+		"languages": ["En"]
+	},
+	"Official Sega Dreamcast Magazine Vol. 5 - May 2000 (USA)": {
+		"languages": []
+	},
+	"Official Sega Dreamcast Magazine Vol. 6 - July 2000 (USA)": {
+		"languages": ["En"]
+	},
+	"Official Sega Dreamcast Magazine Vol. 7 - September 2000 (USA)": {
+		"languages": ["En"]
+	},
+	"Official Sega Dreamcast Magazine Vol. 8 - November 2000 (USA)": {
+		"languages": ["En"]
+	},
+	"Official Sega Dreamcast Magazine Vol. 9 - December 2000 (USA)": {
+		"languages": ["En"]
+	},
+	"Omikron - The Nomad Soul (USA) (En,Fr,De,Es,It)": {
+		"languages": ["De", "En", "Es", "Fr", "It"]
+	},
+	"Omoide ni Kawaru Kimi - Memories Off (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Ooga Booga (USA)": {
+		"languages": ["En"]
+	},
+	"Oogami Ichirou Funtou-ki - Sakura Taisen Kayou Show Beni Tokage yori (Japan) (Disc 1)": {
+		"languages": ["Ja"]
+	},
+	"Oogami Ichirou Funtou-ki - Sakura Taisen Kayou Show Beni Tokage yori (Japan) (Disc 2)": {
+		"languages": ["Ja"]
+	},
+	"Orange Pocket - Cornet (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Orion's Puzzle Collection (Europe) (Unl)": {
+		"languages": []
+	},
+	"Ouka Houshin - Ouka Sakishi Toki (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Outtrigger (Europe) (En,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Outtrigger (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Outtrigger (USA)": {
+		"languages": ["En"]
+	},
+	"POD - Speedzone (USA)": {
+		"languages": ["En"]
+	},
+	"POD 2 - Multiplayer Online (Europe)": {
+		"languages": ["En"]
+	},
+	"Pachi-Slot Teiou - Dream Slot - Heiwa SP (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Pachi-Slot Teiou - Dream Slot - Olympia SP (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Pachinko no Dendou - CR Nanasy (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Pandora no Yume (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Panzer Front (Japan) (En,Ja)": {
+		"languages": ["En", "Ja"]
+	},
+	"Patissier na Nyanko - Hatsukoi wa Ichigo Aji (Japan)": {
+		"languages": ["Ja"]
+	},
+	"PenPen (Europe) (En,Fr,De,Es,It,Nl)": {
+		"languages": ["De", "En", "Es", "Fr", "It", "Nl"]
+	},
+	"PenPen TriIcelon (Japan) (Rev A)": {
+		"languages": ["Ja"]
+	},
+	"PenPen TriIcelon (Japan) (Taikenban)": {
+		"languages": ["Ja"]
+	},
+	"PenPen TriIcelon (Japan) (Tentou Taikenban)": {
+		"languages": []
+	},
+	"PenPen TriIcelon (USA)": {
+		"languages": ["En"]
+	},
+	"Phantasy Star Online (Europe) (En,Ja,Fr,De,Es) (Rev 1)": {
+		"languages": ["De", "En", "Es", "Fr", "Ja"]
+	},
+	"Phantasy Star Online (Japan) (Demo)": {
+		"languages": ["Ja"]
+	},
+	"Phantasy Star Online (Japan) (En,Ja,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr", "Ja"]
+	},
+	"Phantasy Star Online (Japan) (Tentou-you Demo Movie)": {
+		"languages": ["Ja"]
+	},
+	"Phantasy Star Online (USA) (En,Ja,Fr,De,Es) (Rev B)": {
+		"languages": ["De", "En", "Es", "Fr", "Ja"]
+	},
+	"Phantasy Star Online Ver. 2 (Europe) (En,Ja,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr", "Ja"]
+	},
+	"Phantasy Star Online Ver. 2 (Japan) (En,Ja,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr", "Ja"]
+	},
+	"Phantasy Star Online Ver. 2 (USA) (En,Ja,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr", "Ja"]
+	},
+	"Philia - The Sequel to Elansar (Europe) (En,Fr,De,Es,It) (Unl)": {
+		"languages": ["De", "En", "Es", "Fr", "It"]
+	},
+	"Pia Carrot e Youkoso!! 2.5 (Japan) (Disc 1) (Pia Carrot e Youkoso!! 2)": {
+		"languages": ["Ja"]
+	},
+	"Pia Carrot e Youkoso!! 2.5 (Japan) (Disc 2) (Pia Carrot e Youkoso!! 2.2)": {
+		"languages": ["Ja"]
+	},
+	"Pia Carrot e Youkoso!! 3 (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Pier Solar and the Great Architects (USA) (Unl)": {
+		"languages": ["En"]
+	},
+	"Pizzicato Polka - Ensa Gen'ya (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Planet DC Cheats Band 1 fuer Dreamcast (Germany) (Unl)": {
+		"languages": ["En"]
+	},
+	"Planet DC Cheats Band 2 fuer Dreamcast (Germany) (Unl)": {
+		"languages": ["En"]
+	},
+	"Planet DC Cheats Band 3 fuer Dreamcast (Germany) (Unl)": {
+		"languages": ["En"]
+	},
+	"Planet Ring (Europe) (En,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Plasma Sword - Nightmare of Bilstein (Europe)": {
+		"languages": ["En"]
+	},
+	"Plasma Sword - Nightmare of Bilstein (USA)": {
+		"languages": ["En"]
+	},
+	"Plus Plumb (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Pocke-Kano - Yumi, Shizuka, Fumio (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Pop'n Music (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Pop'n Music 2 (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Pop'n Music 3 - Append Disc (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Pop'n Music 4 - Append Disc (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Power Jet Racing 2001 (Japan)": {
+		"languages": ["En"]
+	},
+	"Power Smash - Sega Professional Tennis (Japan)": {
+		"languages": ["En"]
+	},
+	"Power Smash - Sega Professional Tennis (Japan) (Demo 1)": {
+		"languages": []
+	},
+	"Power Smash - Sega Professional Tennis (Japan) (Demo 2)": {
+		"languages": []
+	},
+	"Power Smash 2 - Sega Professional Tennis (Japan)": {
+		"languages": ["En"]
+	},
+	"Power Smash 2 - Sega Professional Tennis (Japan) (En,Ja,Fr,De,Es) (Demo)": {
+		"languages": ["De", "En", "Es", "Fr", "Ja"]
+	},
+	"Power Stone (Europe)": {
+		"languages": ["En"]
+	},
+	"Power Stone (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Power Stone (Japan) (Tentou Taikenban)": {
+		"languages": ["Ja"]
+	},
+	"Power Stone (USA)": {
+		"languages": ["En"]
+	},
+	"Power Stone (USA) (Demo)": {
+		"languages": []
+	},
+	"Power Stone 2 (Europe)": {
+		"languages": ["En"]
+	},
+	"Power Stone 2 (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Power Stone 2 (Japan) (Tentou-you Demo Movie)": {
+		"languages": ["Ja"]
+	},
+	"Power Stone 2 (USA)": {
+		"languages": ["En"]
+	},
+	"Prince of Persia - Arabian Nights (USA)": {
+		"languages": ["En"]
+	},
+	"Princess Holiday - Korogaru Ringo Tei Sen'ya Ichiya (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Princess Maker Collection (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Prism Heart (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Prism Heart - Gaiden Disc - Ken ni Kometa Omoi (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Prismaticallization (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Pro Mahjong Kiwame D (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Pro Pinball Trilogy (Europe)": {
+		"languages": ["En"]
+	},
+	"Pro Yakyuu Team de Asobou Net! (Japan) (Rev A)": {
+		"languages": ["Ja"]
+	},
+	"Pro Yakyuu Team de Asobou! (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Pro Yakyuu Team de Asobou! (Japan) (Demo)": {
+		"languages": ["Ja"]
+	},
+	"Pro Yakyuu Team de Asobou! (Japan) (Tokubetsuban)": {
+		"languages": ["Ja"]
+	},
+	"Pro Yakyuu Team o Tamesou! (Japan) (Famitsu Tokubetsuban)": {
+		"languages": ["Ja"]
+	},
+	"Pro Yakyuu Team o Tsukurou! & Asobou! (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Pro Yakyuu Team o Tsukurou! (Japan) (Rev B)": {
+		"languages": ["Ja"]
+	},
+	"Pro Yakyuu Team o Tsukurou! (Japan) (Rev E)": {
+		"languages": ["Ja"]
+	},
+	"Project Berkley (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Project Justice (USA)": {
+		"languages": ["En"]
+	},
+	"Project Justice - Rival Schools 2 (Europe)": {
+		"languages": ["En"]
+	},
+	"Psychic Force 2012 (Europe)": {
+		"languages": ["En"]
+	},
+	"Psychic Force 2012 (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Psychic Force 2012 (Japan) (Taikenban)": {
+		"languages": ["Ja"]
+	},
+	"Psychic Force 2012 (USA)": {
+		"languages": ["En"]
+	},
+	"Psyvariar 2 - The Will to Fabricate (Japan)": {
+		"languages": ["En"]
+	},
+	"Puyo Puyo Da! Featuring Ellena System (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Puyo Puyo Fever (Japan) (En,Ja)": {
+		"languages": ["En", "Ja"]
+	},
+	"Puyo Puyoon (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Puyo Puyoon (Japan) (Taikenban)": {
+		"languages": ["Ja"]
+	},
+	"Puzzle Bobble 4 (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Q-bert (USA)": {
+		"languages": ["En"]
+	},
+	"Quake III - Arena (Europe) (En,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Quake III - Arena (USA)": {
+		"languages": ["En"]
+	},
+	"Qui Veut Gagner des Millions (France)": {
+		"languages": ["Fr"]
+	},
+	"Quiz Aa Megami-sama - Tatakau Tsubasa to Tomoni (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Quiz Aa Megami-sama - Tatakau Tsubasa to Tomoni (Japan) (Tokubetsu Omake GD-ROM)": {
+		"languages": ["Ja"]
+	},
+	"R7 - Regulation 7 (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Racing Simulation - Monaco Grand Prix (Europe) (En,Fr,De,Es,It)": {
+		"languages": ["De", "En", "Es", "Fr", "It"]
+	},
+	"Racing Simulation 2 - Monaco Grand Prix On-Line (Europe)": {
+		"languages": []
+	},
+	"Radirgy (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Railroad Tycoon II (Europe) (En,Fr,De)": {
+		"languages": ["De", "En", "Fr"]
+	},
+	"Railroad Tycoon II (USA)": {
+		"languages": ["En"]
+	},
+	"Rainbow Cotton (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Rayman - Kaizokusen kara no Dasshutsu! (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Rayman 2 - The Great Escape (Europe) (En,Fr,De,Es,It)": {
+		"languages": ["De", "En", "Es", "Fr", "It"]
+	},
+	"Rayman 2 - The Great Escape (Europe) (En,Fr,De,Es,It) (Beta)": {
+		"languages": ["De", "En", "Es", "Fr", "It"]
+	},
+	"Rayman 2 - The Great Escape (USA) (En,Fr,De,Es,It)": {
+		"languages": ["De", "En", "Es", "Fr", "It"]
+	},
+	"Razor Freestyle Scooter (USA)": {
+		"languages": ["En"]
+	},
+	"Re-Volt (Europe) (Demo)": {
+		"languages": []
+	},
+	"Re-Volt (Europe) (En,Fr,De,Es,It)": {
+		"languages": ["De", "En", "Es", "Fr", "It"]
+	},
+	"Re-Volt (Japan)": {
+		"languages": ["En"]
+	},
+	"Re-Volt (USA)": {
+		"languages": ["En"]
+	},
+	"Ready 2 Rumble Boxing (Europe) (En,Fr,De)": {
+		"languages": ["De", "En", "Fr"]
+	},
+	"Ready 2 Rumble Boxing (UK)": {
+		"languages": ["En"]
+	},
+	"Ready 2 Rumble Boxing (USA)": {
+		"languages": ["En"]
+	},
+	"Ready 2 Rumble Boxing (USA) (Demo)": {
+		"languages": ["En"]
+	},
+	"Ready 2 Rumble Boxing (USA) (RE)": {
+		"languages": ["En"]
+	},
+	"Ready 2 Rumble Boxing - Round 2 (Europe) (Beta)": {
+		"languages": []
+	},
+	"Ready 2 Rumble Boxing - Round 2 (Europe) (En,Fr,De)": {
+		"languages": ["De", "En", "Fr"]
+	},
+	"Ready 2 Rumble Boxing - Round 2 (USA) (En,Fr,De)": {
+		"languages": ["De", "En", "Fr"]
+	},
+	"Ready 2 Rumble Boxing - Uchikome Warai no Megaton Punch!! (Japan) (En,Ja,Fr,De)": {
+		"languages": ["De", "En", "Fr", "Ja"]
+	},
+	"Real Sound - Kaze no Regret (Japan) (Disc 1) (Rev A)": {
+		"languages": ["Ja"]
+	},
+	"Real Sound - Kaze no Regret (Japan) (Disc 1) (Rev B)": {
+		"languages": ["Ja"]
+	},
+	"Real Sound - Kaze no Regret (Japan) (Disc 2)": {
+		"languages": ["Ja"]
+	},
+	"Real Sound - Kaze no Regret (Japan) (Disc 2) (Rev A)": {
+		"languages": ["Ja"]
+	},
+	"Record of Lodoss War (Europe)": {
+		"languages": ["En"]
+	},
+	"Record of Lodoss War (France)": {
+		"languages": ["Fr"]
+	},
+	"Record of Lodoss War (Germany)": {
+		"languages": ["De"]
+	},
+	"Record of Lodoss War (USA)": {
+		"languages": ["En"]
+	},
+	"Record of Lodoss War - The Advent of Cardice (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Record of Lodoss War - The Advent of Cardice (Japan) (Taikenban)": {
+		"languages": []
+	},
+	"Red Dog - Superior Firepower (Europe) (En,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Red Dog - Superior Firepower (USA)": {
+		"languages": []
+	},
+	"Redline Racer (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Redux - Dark Matters (Europe) (Unl)": {
+		"languages": ["En"]
+	},
+	"Reel Fishing + Wild (USA)": {
+		"languages": ["En"]
+	},
+	"Remember 11 - The Age of Infinity - Promotion Disc (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Ren'ai Chu! Happy Perfect (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Rent a Hero No.1 (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Resident Evil - Code - Veronica (Europe) (Demo)": {
+		"languages": ["En"]
+	},
+	"Resident Evil - Code - Veronica (Europe) (Disc 1)": {
+		"languages": ["En"]
+	},
+	"Resident Evil - Code - Veronica (Europe) (Disc 2)": {
+		"languages": ["En"]
+	},
+	"Resident Evil - Code - Veronica (France) (Disc 1)": {
+		"languages": ["Fr"]
+	},
+	"Resident Evil - Code - Veronica (France) (Disc 2)": {
+		"languages": ["Fr"]
+	},
+	"Resident Evil - Code - Veronica (Germany) (Disc 1)": {
+		"languages": ["De"]
+	},
+	"Resident Evil - Code - Veronica (Germany) (Disc 2)": {
+		"languages": ["De"]
+	},
+	"Resident Evil - Code - Veronica (Spain) (Disc 1)": {
+		"languages": ["Es"]
+	},
+	"Resident Evil - Code - Veronica (Spain) (Disc 2)": {
+		"languages": ["Es"]
+	},
+	"Resident Evil - Code - Veronica (USA) (Disc 1)": {
+		"languages": ["En"]
+	},
+	"Resident Evil - Code - Veronica (USA) (Disc 2)": {
+		"languages": ["En"]
+	},
+	"Resident Evil 2 (Europe) (En,Fr) (Disc 1)": {
+		"languages": ["En", "Fr"]
+	},
+	"Resident Evil 2 (Europe) (En,Fr) (Disc 2)": {
+		"languages": ["En", "Fr"]
+	},
+	"Resident Evil 2 (USA) (Disc 1)": {
+		"languages": ["En"]
+	},
+	"Resident Evil 2 (USA) (Disc 2)": {
+		"languages": ["En"]
+	},
+	"Resident Evil 3 - Nemesis (Europe)": {
+		"languages": ["En"]
+	},
+	"Resident Evil 3 - Nemesis (Europe) (Fr,Es)": {
+		"languages": ["Es", "Fr"]
+	},
+	"Resident Evil 3 - Nemesis (Germany)": {
+		"languages": ["De"]
+	},
+	"Resident Evil 3 - Nemesis (USA)": {
+		"languages": ["En"]
+	},
+	"Revive... - Sosei (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Rez (Europe) (En,Ja,Fr,De,Es,It)": {
+		"languages": ["De", "En", "Es", "Fr", "It", "Ja"]
+	},
+	"Rez (Japan) (En,Ja,Fr,De,Es,It)": {
+		"languages": ["De", "En", "Es", "Fr", "It", "Ja"]
+	},
+	"Ring, The (Japan)": {
+		"languages": []
+	},
+	"Ring, The - Terror's Realm (USA)": {
+		"languages": ["En"]
+	},
+	"Rippin' Riders (USA)": {
+		"languages": ["En"]
+	},
+	"Roadsters (Europe) (En,Fr,De,Es,It,Nl)": {
+		"languages": ["De", "En", "Es", "Fr", "It", "Nl"]
+	},
+	"Roadsters (USA)": {
+		"languages": ["En"]
+	},
+	"Roommania 203 (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Roommate Asami - Okusama wa Joshikousei - Director's Edition (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Roommate Novel - Satou Yuka (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Run=Dim as Black Soul (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Rune Caster (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Rune Jade (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Rush 2049 (Europe) (En,De,Es,It,Nl,Fi) (Beta)": {
+		"languages": ["De", "En", "Es", "Fi", "It", "Nl"]
+	},
+	"Rush Rush Rally Racing (Europe) (Unl)": {
+		"languages": ["En"]
+	},
+	"Rush Rush Rally Reloaded (USA) (Unl)": {
+		"languages": []
+	},
+	"SGGG - Segagaga (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Saka Tsuku Tokudai-gou - J.League Pro Soccer Club o Tsukurou! (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Saka Tsuku Tokudai-gou - J.League Pro Soccer Club o Tsukurou! (Japan) (Rev A)": {
+		"languages": ["Ja"]
+	},
+	"Saka Tsuku Tokudai-gou 2 - J.League Pro Soccer Club o Tsukurou! (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Sakura Momoko Gekijou - Coji-Coji (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Sakura Taisen (Japan) (Disc 1)": {
+		"languages": ["Ja"]
+	},
+	"Sakura Taisen (Japan) (Disc 2)": {
+		"languages": ["Ja"]
+	},
+	"Sakura Taisen (Japan) (Omake Disc)": {
+		"languages": ["Ja"]
+	},
+	"Sakura Taisen - Hanagumi Taisen Columns 2 (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Sakura Taisen 2 - Kimi, Shinitamou Koto Nakare (Japan) (Disc 1)": {
+		"languages": ["Ja"]
+	},
+	"Sakura Taisen 2 - Kimi, Shinitamou Koto Nakare (Japan) (Disc 1) (Rev A)": {
+		"languages": ["Ja"]
+	},
+	"Sakura Taisen 2 - Kimi, Shinitamou Koto Nakare (Japan) (Disc 2)": {
+		"languages": ["Ja"]
+	},
+	"Sakura Taisen 2 - Kimi, Shinitamou Koto Nakare (Japan) (Disc 2) (Rev A)": {
+		"languages": ["Ja"]
+	},
+	"Sakura Taisen 2 - Kimi, Shinitamou Koto Nakare (Japan) (Disc 3)": {
+		"languages": ["Ja"]
+	},
+	"Sakura Taisen 2 - Kimi, Shinitamou Koto Nakare (Japan) (Disc 3) (Rev A)": {
+		"languages": ["Ja"]
+	},
+	"Sakura Taisen 3 - Les Chattes Noires (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Sakura Taisen 3 - Paris wa Moeteiru ka (Japan) (Disc 1)": {
+		"languages": ["Ja"]
+	},
+	"Sakura Taisen 3 - Paris wa Moeteiru ka (Japan) (Disc 2)": {
+		"languages": ["Ja"]
+	},
+	"Sakura Taisen 3 - Paris wa Moeteiru ka (Japan) (Disc 3)": {
+		"languages": ["Ja"]
+	},
+	"Sakura Taisen 3 - Paris wa Moeteiru ka (Japan) (Tentou-you Demo Movie)": {
+		"languages": ["Ja"]
+	},
+	"Sakura Taisen 3 - Paris wa Moeteiru ka - Drama Download Disc (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Sakura Taisen 3 - Paris wa Moeteiru ka - Sakura Taisen 3 Movie Disc (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Sakura Taisen 4 - Koi seyo Otome (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Sakura Taisen 4 - Koi seyo Otome (Japan) (Tentou-you Demo Movie)": {
+		"languages": ["Ja"]
+	},
+	"Sakura Taisen 4 - Koi seyo Otome - Preview Disc (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Sakura Taisen Dream Passport 3 (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Sakura Taisen Kinematron Hanagumi Mail (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Sakura Taisen Online - Paris no Yuuga na Hibi (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Sakura Taisen Online - Teito no Nagai Hibi (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Samba de Amigo (Europe)": {
+		"languages": []
+	},
+	"Samba de Amigo (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Samba de Amigo (USA)": {
+		"languages": ["En"]
+	},
+	"Samba de Amigo Ver. 2000 (Japan)": {
+		"languages": ["Ja"]
+	},
+	"San Francisco Rush 2049 (Europe) (En,Fr,De,Es,It,Nl)": {
+		"languages": ["De", "En", "Es", "Fr", "It", "Nl"]
+	},
+	"San Francisco Rush 2049 (USA) (En,Fr,De,Es,It,Nl)": {
+		"languages": ["De", "En", "Es", "Fr", "It", "Nl"]
+	},
+	"San Francisco Rush 2049 (USA) (En,Fr,De,Es,It,Nl) (Demo)": {
+		"languages": ["De", "En", "Es", "Fr", "It", "Nl"]
+	},
+	"Sangokushi VI (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Sangokushi VI with Power-Up Kit (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Satazius Next (USA, Japan) (Unl)": {
+		"languages": ["En"]
+	},
+	"Seaman (USA)": {
+		"languages": ["En"]
+	},
+	"Seaman Esa Disc - Kimos Shu no Youchuu Hojuu Kit (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Sega Bass Fishing (Europe)": {
+		"languages": ["En"]
+	},
+	"Sega Bass Fishing (USA)": {
+		"languages": ["En"]
+	},
+	"Sega Bass Fishing 2 (USA)": {
+		"languages": ["En"]
+	},
+	"Sega Extreme Sports (Europe) (En,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Sega Extreme Sports (Japan)": {
+		"languages": ["En"]
+	},
+	"Sega GT (Europe) (En,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Sega GT (USA)": {
+		"languages": ["En"]
+	},
+	"Sega GT - Homologation Special (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Sega GT - Homologation Special (Japan) (Taikenban)": {
+		"languages": ["Ja"]
+	},
+	"Sega Marine Fishing (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Sega Marine Fishing (USA)": {
+		"languages": ["En"]
+	},
+	"Sega Rally 2 (Europe)": {
+		"languages": ["En"]
+	},
+	"Sega Rally 2 (Europe) (Rev 1)": {
+		"languages": ["En"]
+	},
+	"Sega Rally 2 (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Sega Rally 2 (Japan) (Alt)": {
+		"languages": ["Ja"]
+	},
+	"Sega Rally 2 (USA)": {
+		"languages": ["En"]
+	},
+	"Sega Smash Pack - Volume 1 (USA)": {
+		"languages": ["En"]
+	},
+	"Sega Tetris (Japan) (Rev A)": {
+		"languages": ["Ja"]
+	},
+	"Sega Worldwide Soccer 2000 (Europe) (Beta)": {
+		"languages": []
+	},
+	"Sega Worldwide Soccer 2000 (Europe) (En,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Sega Worldwide Soccer 2000 - Euro Edition (Europe) (En,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"SegaKara for Dreamcast (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Seireiki Rayblade (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Seireiki Rayblade (Japan) (Video ROM)": {
+		"languages": ["Ja"]
+	},
+	"Seitai Heiki Expendable (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Sekai Fushigi Hakken! Troia (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Sengoku Turb (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Sengoku Turb (Japan) (Taikenban)": {
+		"languages": ["Ja"]
+	},
+	"Sengoku Turb - Fanfan I Love Me Dunce-doublentendre (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Sentimental Graffiti - Yakusoku (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Sentimental Graffiti 2 (Japan) (Disc 1)": {
+		"languages": ["Ja"]
+	},
+	"Sentimental Graffiti 2 (Japan) (Disc 2)": {
+		"languages": ["Ja"]
+	},
+	"Sentimental Graffiti 2 - Third Window (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Seventh Cross (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Seventh Cross Evolution (USA)": {
+		"languages": ["En"]
+	},
+	"Shadow Man (Europe) (En,Fr,Es,It)": {
+		"languages": ["En", "Es", "Fr", "It"]
+	},
+	"Shadow Man (Germany)": {
+		"languages": ["De"]
+	},
+	"Shadow Man (USA)": {
+		"languages": ["En"]
+	},
+	"Shadow Man (USA) (Rev A)": {
+		"languages": []
+	},
+	"Shanghai - Dynasty (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Shenmue (Europe) (En,Fr,De,Es) (Disc 1)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Shenmue (Europe) (En,Fr,De,Es) (Disc 2)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Shenmue (Europe) (En,Fr,De,Es) (Disc 3)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Shenmue (Europe) (En,Fr,De,Es) (Shenmue Passport)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Shenmue (USA) (Disc 1)": {
+		"languages": ["En"]
+	},
+	"Shenmue (USA) (Disc 2)": {
+		"languages": ["En"]
+	},
+	"Shenmue (USA) (Disc 3)": {
+		"languages": ["En"]
+	},
+	"Shenmue (USA) (Shenmue Passport)": {
+		"languages": ["En"]
+	},
+	"Shenmue - Ichishou Yokosuka (Japan) (Disc 1)": {
+		"languages": ["Ja"]
+	},
+	"Shenmue - Ichishou Yokosuka (Japan) (Disc 2)": {
+		"languages": ["Ja"]
+	},
+	"Shenmue - Ichishou Yokosuka (Japan) (Disc 3)": {
+		"languages": ["Ja"]
+	},
+	"Shenmue - Ichishou Yokosuka (Japan) (Shenmue Passport) (Rev C)": {
+		"languages": ["Ja"]
+	},
+	"Shenmue - Ichishou Yokosuka (Japan) (Shenmue Passport) (Rev D)": {
+		"languages": ["Ja"]
+	},
+	"Shenmue II (Europe) (En,Fr,De,Es) (Disc 1)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Shenmue II (Europe) (En,Fr,De,Es) (Disc 2)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Shenmue II (Europe) (En,Fr,De,Es) (Disc 3)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Shenmue II (Europe) (En,Fr,De,Es) (Disc 4)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Shenmue II (Japan) (Disc 1)": {
+		"languages": ["Ja"]
+	},
+	"Shenmue II (Japan) (Disc 2)": {
+		"languages": ["Ja"]
+	},
+	"Shenmue II (Japan) (Disc 3)": {
+		"languages": ["Ja"]
+	},
+	"Shenmue II (Japan) (Disc 4)": {
+		"languages": ["Ja"]
+	},
+	"Shikigami no Shiro II (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Shin Honkaku Hanafuda (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Shin Nihon Pro Wrestling - Toukon Retsuden 4 (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Shin Seiki Evangelion - Ayanami Ikusei Keikaku (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Shin Seiki Evangelion - Typing E Keikaku (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Shin Seiki Evangelion - Typing Hokan Keikaku (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Shinki Sekai Evolution (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Shinki Sekai Evolution (Japan) (Taikenban)": {
+		"languages": ["Ja"]
+	},
+	"Shinki Sekai Evolution 2 - Tooi Yakusoku (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Shinri Game, The (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Shirotsumesouwa - Episode of the Clovers (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Shutokou Battle (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Shutokou Battle (Japan) (Taikenban)": {
+		"languages": ["Ja"]
+	},
+	"Shutokou Battle 2 (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Silent Scope (Europe) (En,Fr,De,Es,It)": {
+		"languages": ["De", "En", "Es", "Fr", "It"]
+	},
+	"Silent Scope (Japan)": {
+		"languages": []
+	},
+	"Silent Scope (USA)": {
+		"languages": ["En"]
+	},
+	"Silver (Europe) (En,Nl)": {
+		"languages": ["En", "Nl"]
+	},
+	"Silver (France) (Fr,It,Pt)": {
+		"languages": ["Fr", "It", "Pt"]
+	},
+	"Silver (Germany)": {
+		"languages": ["De"]
+	},
+	"Silver (Spain)": {
+		"languages": ["Es"]
+	},
+	"Silver (USA)": {
+		"languages": ["En"]
+	},
+	"Simple 2000 Series DC Vol. 01 - Bittersweet Fools - The Ren'ai Adventure (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Simple 2000 Series DC Vol. 02 - Natsuiro Celebration - The Ren'ai Simulation (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Simple 2000 Series DC Vol. 03 - Fureai - The Ren'ai Simulation (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Simple 2000 Series DC Vol. 04 - Okaeri! The Ren'ai Adventure (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Sister Princess - Premium Edition (Japan) (Disc 1)": {
+		"languages": ["Ja"]
+	},
+	"Sister Princess - Premium Edition (Japan) (Disc 2)": {
+		"languages": ["Ja"]
+	},
+	"Skies of Arcadia (Europe) (En,Fr,De,Es) (Disc 1)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Skies of Arcadia (Europe) (En,Fr,De,Es) (Disc 2)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Skies of Arcadia (USA) (Disc 1)": {
+		"languages": ["En"]
+	},
+	"Skies of Arcadia (USA) (Disc 2)": {
+		"languages": ["En"]
+	},
+	"Slave Zero (Europe) (En,Fr,De,Es,It)": {
+		"languages": ["De", "En", "Es", "Fr", "It"]
+	},
+	"Slave Zero (USA)": {
+		"languages": ["En"]
+	},
+	"Snappers - 09 Chairs (Japan)": {
+		"languages": ["Ja"]
+	},
+	"SnoCross Championship Racing (Europe) (En,Fr,De)": {
+		"languages": ["De", "En", "Fr"]
+	},
+	"SnoCross Championship Racing (USA)": {
+		"languages": ["En"]
+	},
+	"Snow (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Snow Surfers (Europe)": {
+		"languages": ["En"]
+	},
+	"Soldier of Fortune (Europe)": {
+		"languages": ["En"]
+	},
+	"Soldier of Fortune (USA)": {
+		"languages": ["En"]
+	},
+	"Sonic Adventure (Europe) (En,Ja,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr", "Ja"]
+	},
+	"Sonic Adventure (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Sonic Adventure (USA)": {
+		"languages": []
+	},
+	"Sonic Adventure (USA) (Demo)": {
+		"languages": ["En"]
+	},
+	"Sonic Adventure (USA) (En,Ja,Fr,De,Es) (Rev A)": {
+		"languages": ["De", "En", "Es", "Fr", "Ja"]
+	},
+	"Sonic Adventure - Limited Edition (USA)": {
+		"languages": ["En"]
+	},
+	"Sonic Adventure 2 (Europe) (En,Ja,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr", "Ja"]
+	},
+	"Sonic Adventure 2 (Europe) (En,Ja,Fr,De,Es) (Beta)": {
+		"languages": ["De", "En", "Es", "Fr", "Ja"]
+	},
+	"Sonic Adventure 2 (Japan) (En,Ja,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr", "Ja"]
+	},
+	"Sonic Adventure 2 (Japan) (En,Ja,Fr,De,Es) (Taikenban)": {
+		"languages": ["De", "En", "Es", "Fr", "Ja"]
+	},
+	"Sonic Adventure 2 (USA) (En,Ja,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr", "Ja"]
+	},
+	"Sonic Adventure 2 - The Trial (Europe) (En,Ja)": {
+		"languages": ["En", "Ja"]
+	},
+	"Sonic Adventure 2 - The Trial (USA, Japan) (En,Ja)": {
+		"languages": ["En", "Ja"]
+	},
+	"Sonic Adventure International (Japan) (En,Ja,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr", "Ja"]
+	},
+	"Sonic Shuffle (Europe) (En,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Sonic Shuffle (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Sonic Shuffle (USA)": {
+		"languages": ["En"]
+	},
+	"Sorcerian - Shichisei Mahou no Shito (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Soukou no Kihei - Space Griffon (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Soul Fighter (Europe)": {
+		"languages": ["En"]
+	},
+	"Soul Fighter (USA)": {
+		"languages": ["En"]
+	},
+	"Soulcalibur (Europe) (En,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Soulcalibur (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Soulcalibur (Japan) (Tentou Taikenban)": {
+		"languages": ["Ja"]
+	},
+	"Soulcalibur (USA)": {
+		"languages": ["En"]
+	},
+	"South Park - Chef's Luv Shack (Europe)": {
+		"languages": ["En"]
+	},
+	"South Park - Chef's Luv Shack (USA)": {
+		"languages": ["En"]
+	},
+	"South Park Rally (Europe) (En,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"South Park Rally (USA)": {
+		"languages": ["En"]
+	},
+	"Space Channel 5 (Europe) (En,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Space Channel 5 (Europe) (En,Fr,De,Es) (Beta)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Space Channel 5 (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Space Channel 5 (Japan) (Taikenban)": {
+		"languages": ["Ja"]
+	},
+	"Space Channel 5 (USA)": {
+		"languages": ["En"]
+	},
+	"Space Channel 5 Part 2 (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Space Channel 5 Theme Music - Mexican Flyer (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Spawn - In the Demon's Hand (Europe)": {
+		"languages": []
+	},
+	"Spawn - In the Demon's Hand (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Spawn - In the Demon's Hand (USA)": {
+		"languages": ["En"]
+	},
+	"Spec Ops II - Omega Squad (Europe) (En,Fr,De,Es,It)": {
+		"languages": ["De", "En", "Es", "Fr", "It"]
+	},
+	"Spec Ops II - Omega Squad (USA)": {
+		"languages": ["En"]
+	},
+	"Speed Devils (Europe) (En,Fr,De,Es,It)": {
+		"languages": ["De", "En", "Es", "Fr", "It"]
+	},
+	"Speed Devils (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Speed Devils (USA)": {
+		"languages": ["En"]
+	},
+	"Speed Devils - Online Racing (Europe)": {
+		"languages": ["En"]
+	},
+	"Speed Devils - Online Racing (USA)": {
+		"languages": ["En"]
+	},
+	"Spider-Man (Europe)": {
+		"languages": ["En"]
+	},
+	"Spider-Man (USA)": {
+		"languages": ["En"]
+	},
+	"Spirit of Speed 1937 (Europe) (En,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Spirit of Speed 1937 (Japan)": {
+		"languages": ["En"]
+	},
+	"Spirit of Speed 1937 (USA) (En,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Sports Jam (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Sports Jam (USA)": {
+		"languages": ["En"]
+	},
+	"Star Gladiator 2 - Nightmare of Bilstein (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Star Gladiator 2 - Nightmare of Bilstein (Japan) (Tentou Taikenban)": {
+		"languages": ["Ja"]
+	},
+	"Star Wars - Demolition (Europe)": {
+		"languages": ["En"]
+	},
+	"Star Wars - Demolition (USA)": {
+		"languages": ["En"]
+	},
+	"Star Wars - Episode I - Jedi Power Battles (Europe)": {
+		"languages": ["En"]
+	},
+	"Star Wars - Episode I - Jedi Power Battles (USA)": {
+		"languages": ["En"]
+	},
+	"Star Wars - Episode I - Racer (Europe)": {
+		"languages": ["En"]
+	},
+	"Star Wars - Episode I - Racer (USA)": {
+		"languages": ["En"]
+	},
+	"StarLancer (Europe)": {
+		"languages": ["En"]
+	},
+	"StarLancer (USA)": {
+		"languages": ["En"]
+	},
+	"Street Fighter Alpha 3 (Europe)": {
+		"languages": ["En"]
+	},
+	"Street Fighter Alpha 3 (USA)": {
+		"languages": ["En"]
+	},
+	"Street Fighter III - 3rd Strike (Europe)": {
+		"languages": ["En"]
+	},
+	"Street Fighter III - 3rd Strike (USA)": {
+		"languages": ["En"]
+	},
+	"Street Fighter III - 3rd Strike - Fight for the Future (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Street Fighter III - Double Impact (Europe)": {
+		"languages": ["En"]
+	},
+	"Street Fighter III - Double Impact (USA)": {
+		"languages": ["En"]
+	},
+	"Street Fighter III - W Impact (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Street Fighter Zero 3 - Saikyo-ryu Dojo (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Street Fighter Zero 3 - Saikyo-ryu Dojo (Japan) (Tentou Taikenban)": {
+		"languages": ["Ja"]
+	},
+	"Street Fighter Zero 3 - Saikyo-ryu Dojo for Matching Service (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Striker Pro 2000 (USA)": {
+		"languages": ["En"]
+	},
+	"Stunt GP (Europe) (En,Fr,De,Es,It,Nl,Sv)": {
+		"languages": ["De", "En", "Es", "Fr", "It", "Nl", "Sv"]
+	},
+	"Stupid Invaders (Europe) (En,Fr,De,It) (Disc 1)": {
+		"languages": ["De", "En", "Fr", "It"]
+	},
+	"Stupid Invaders (Europe) (En,Fr,De,It) (Disc 2)": {
+		"languages": ["De", "En", "Fr", "It"]
+	},
+	"Stupid Invaders (France) (Disc 1)": {
+		"languages": []
+	},
+	"Stupid Invaders (France) (Disc 2)": {
+		"languages": []
+	},
+	"Stupid Invaders (USA) (Disc 1)": {
+		"languages": ["En"]
+	},
+	"Stupid Invaders (USA) (Disc 2)": {
+		"languages": ["En"]
+	},
+	"Sturmwind (Europe) (Unl) (Rerelease)": {
+		"languages": ["En"]
+	},
+	"Suigetsu - Mayoigokoro (Japan) (Disc 1)": {
+		"languages": ["Ja"]
+	},
+	"Suigetsu - Mayoigokoro (Japan) (Disc 2)": {
+		"languages": ["Ja"]
+	},
+	"Suika (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Sunrise Eiyuutan (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Super Euro Soccer 2000 (Japan)": {
+		"languages": ["En"]
+	},
+	"Super Game Converter (USA) (Unl)": {
+		"languages": ["En"]
+	},
+	"Super Magnetic Neo (Europe) (En,Fr,De)": {
+		"languages": ["De", "En", "Fr"]
+	},
+	"Super Magnetic Neo (USA)": {
+		"languages": ["En"]
+	},
+	"Super Magnetic Neo (USA) (Demo)": {
+		"languages": []
+	},
+	"Super Magnetic Niuniu (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Super Magnetic Niuniu - Promotion Disc (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Super Producers - Mezase Show Biz Kai (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Super Puzzle Fighter II X for Matching Service (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Super Robot Taisen Alpha (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Super Runabout (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Super Runabout (Japan) (Rev A)": {
+		"languages": ["Ja"]
+	},
+	"Super Runabout (Japan) (Taikenban)": {
+		"languages": ["Ja"]
+	},
+	"Super Runabout - San Francisco Edition (Europe)": {
+		"languages": ["En"]
+	},
+	"Super Runabout - San Francisco Edition (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Super Runabout - San Francisco Edition (USA)": {
+		"languages": ["En"]
+	},
+	"Super Speed Racing (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Super Street Fighter II X for Matching Service (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Surf Rocket Racers (Europe)": {
+		"languages": []
+	},
+	"Surf Rocket Racers (USA)": {
+		"languages": ["En"]
+	},
+	"Suzuki Alstare - Extreme Racing (Europe) (En,Fr,De,Es,It)": {
+		"languages": ["De", "En", "Es", "Fr", "It"]
+	},
+	"Suzuki Alstare - Extreme Racing (USA)": {
+		"languages": ["En"]
+	},
+	"Sweet Season (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Sword of the Berserk - Guts' Rage (Europe)": {
+		"languages": []
+	},
+	"Sword of the Berserk - Guts' Rage (USA)": {
+		"languages": ["En"]
+	},
+	"Sydney 2000 (Australia)": {
+		"languages": ["En"]
+	},
+	"Sydney 2000 (Europe)": {
+		"languages": ["En"]
+	},
+	"Sydney 2000 (France)": {
+		"languages": []
+	},
+	"Sydney 2000 (Germany)": {
+		"languages": []
+	},
+	"Sydney 2000 (Italy)": {
+		"languages": ["It"]
+	},
+	"Sydney 2000 (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Sydney 2000 (Spain)": {
+		"languages": ["Es"]
+	},
+	"Sydney 2000 (USA)": {
+		"languages": ["En"]
+	},
+	"TNN Motorsports Hardcore Heat (USA)": {
+		"languages": ["En"]
+	},
+	"Taisen Net Gimmick - Capcom & Psikyo All Stars (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Tako no Marine (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Tamakyuu (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Tanaka Torahiko no Ultra-ryuu Shougi - Ibisha Anaguma-hen (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Tantei Shinshi Dash! (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Tantei Shinshi Dash! (Japan) (Rev A)": {
+		"languages": ["Ja"]
+	},
+	"Taxi 2 - Le Jeu (France)": {
+		"languages": ["Fr"]
+	},
+	"Tech Romancer (Europe)": {
+		"languages": ["En"]
+	},
+	"Tech Romancer (USA)": {
+		"languages": ["En"]
+	},
+	"Tee Off (Europe)": {
+		"languages": ["En"]
+	},
+	"Tee Off (USA)": {
+		"languages": ["En"]
+	},
+	"Tennis 2K2 (USA) (En,Ja,Fr,De,Es) (Rev A)": {
+		"languages": ["De", "En", "Es", "Fr", "Ja"]
+	},
+	"Tenohira o, Taiyou ni (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Tentama - 1st Sunny Side (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Test Drive 6 (USA)": {
+		"languages": ["En"]
+	},
+	"Test Drive Le Mans (USA) (En,Fr,Es)": {
+		"languages": ["En", "Es", "Fr"]
+	},
+	"Test Drive V-Rally (USA) (En,Fr,De)": {
+		"languages": ["De", "En", "Fr"]
+	},
+	"Tetris 4D (Japan)": {
+		"languages": ["En"]
+	},
+	"Time Stalkers (Europe) (En,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Time Stalkers (USA)": {
+		"languages": ["En"]
+	},
+	"Tokusatsu Bouken Katsugeki Super Hero Retsuden (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Tokyo Bus Guide (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Tokyo Bus Guide (Japan) (Rev A)": {
+		"languages": ["Ja"]
+	},
+	"Tokyo Bus Guide - Bijin Bus Guide Tenjou Disc (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Tokyo Highway Challenge (Europe)": {
+		"languages": ["En"]
+	},
+	"Tokyo Highway Challenge 2 (Europe)": {
+		"languages": []
+	},
+	"Tokyo Xtreme Racer (USA)": {
+		"languages": ["En"]
+	},
+	"Tokyo Xtreme Racer 2 (USA)": {
+		"languages": ["En"]
+	},
+	"Tom Clancy's Rainbow Six - Rogue Spear + Mission Pack - Urban Operations (Europe)": {
+		"languages": ["En"]
+	},
+	"Tom Clancy's Rainbow Six - Rogue Spear + Mission Pack - Urban Operations (France)": {
+		"languages": ["Fr"]
+	},
+	"Tom Clancy's Rainbow Six - Rogue Spear + Mission Pack - Urban Operations (Germany)": {
+		"languages": ["De"]
+	},
+	"Tom Clancy's Rainbow Six - Rogue Spear + Mission Pack - Urban Operations (USA)": {
+		"languages": ["En"]
+	},
+	"Tom Clancy's Rainbow Six incl. Eagle Watch Missions (Europe)": {
+		"languages": ["En"]
+	},
+	"Tom Clancy's Rainbow Six incl. Eagle Watch Missions (France)": {
+		"languages": ["Fr"]
+	},
+	"Tom Clancy's Rainbow Six incl. Eagle Watch Missions (Germany)": {
+		"languages": ["De"]
+	},
+	"Tom Clancy's Rainbow Six with Eagle Watch Missions (USA)": {
+		"languages": ["En"]
+	},
+	"Tomb Raider - Die Chronik (Germany)": {
+		"languages": ["De"]
+	},
+	"Tomb Raider - La Revelation Finale (France)": {
+		"languages": ["Fr"]
+	},
+	"Tomb Raider - Sur les Traces de Lara Croft (France)": {
+		"languages": ["Fr"]
+	},
+	"Tomb Raider - The Last Revelation (Europe)": {
+		"languages": ["En"]
+	},
+	"Tomb Raider - The Last Revelation (Italy)": {
+		"languages": ["It"]
+	},
+	"Tomb Raider - The Last Revelation (Spain)": {
+		"languages": ["Es"]
+	},
+	"Tomb Raider - The Last Revelation (USA)": {
+		"languages": ["En"]
+	},
+	"Tomb Raider Chronicles (Europe)": {
+		"languages": ["En"]
+	},
+	"Tomb Raider Chronicles (Spain)": {
+		"languages": ["Es"]
+	},
+	"Tomb Raider Chronicles (USA)": {
+		"languages": ["En"]
+	},
+	"Tomb Raider Chronicles - La Leggenda di Lara Croft (Italy)": {
+		"languages": ["It"]
+	},
+	"Tomb Raider IV - The Last Revelation (Germany)": {
+		"languages": ["De"]
+	},
+	"Tomb Raider IV - The Last Revelation (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Tony Hawk's Pro Skater (USA)": {
+		"languages": ["En"]
+	},
+	"Tony Hawk's Pro Skater 2 (Europe)": {
+		"languages": ["En"]
+	},
+	"Tony Hawk's Pro Skater 2 (Germany)": {
+		"languages": ["De"]
+	},
+	"Tony Hawk's Pro Skater 2 (USA)": {
+		"languages": ["En"]
+	},
+	"Tony Hawk's Skateboarding (Europe)": {
+		"languages": ["En"]
+	},
+	"Totsugeki! Teketeke!! Toy Ranger (Japan) (En,Ja,Fr,Es)": {
+		"languages": ["En", "Es", "Fr", "Ja"]
+	},
+	"Tough Guy (USA, Japan) (Unl)": {
+		"languages": ["En"]
+	},
+	"Toy Commander (Europe) (En,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Toy Commander (USA) (En,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Toy Racer (Europe) (En,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Treasure Strike (Japan)": {
+		"languages": ["Ja"]
+	},
+	"TrickStyle (Europe) (En,Fr,De,Es,It)": {
+		"languages": ["De", "En", "Es", "Fr", "It"]
+	},
+	"TrickStyle (USA)": {
+		"languages": ["En"]
+	},
+	"Tricolore Crise (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Tricolore Crise - Art Palette (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Triggerheart Exelica (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Trizeal (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Tsuki wa Higashi ni Hi wa Nishi ni - Operation Sanctuary (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Tsuushin Taisen Logic Battle Daisessen (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Twinkle Star Sprites (Japan) (En,Ja,Es)": {
+		"languages": ["En", "Es", "Ja"]
+	},
+	"Typing of the Date (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Typing of the Dead, The (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Typing of the Dead, The (USA)": {
+		"languages": ["En"]
+	},
+	"UEFA Dream Soccer (Europe) (En,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"UEFA Dream Soccer (France) (En,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"UEFA Dream Soccer (Germany) (En,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"UEFA Dream Soccer (Spain)": {
+		"languages": ["Es"]
+	},
+	"UEFA Striker (Europe) (En,Fr,De,Es,It,Nl)": {
+		"languages": ["De", "En", "Es", "Fr", "It", "Nl"]
+	},
+	"UEFA Striker (Europe) (En,Fr,De,Es,It,Nl) (Beta)": {
+		"languages": ["De", "En", "Es", "Fr", "It", "Nl"]
+	},
+	"US Shenmue (Japan) (En,Ja) (Disc 1)": {
+		"languages": ["En", "Ja"]
+	},
+	"US Shenmue (Japan) (En,Ja) (Disc 2)": {
+		"languages": ["En", "Ja"]
+	},
+	"US Shenmue (Japan) (En,Ja) (Disc 3)": {
+		"languages": ["En", "Ja"]
+	},
+	"US Shenmue (Japan) (En,Ja) (Shenmue Passport)": {
+		"languages": ["En", "Ja"]
+	},
+	"Ultimate Cheats - Volume 2 (UK) (Unl)": {
+		"languages": ["En"]
+	},
+	"Ultimate Fighting Championship (Europe)": {
+		"languages": ["En"]
+	},
+	"Ultimate Fighting Championship (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Ultimate Fighting Championship (USA)": {
+		"languages": ["En"]
+	},
+	"Ultimate Fighting Championship (USA) (Demo)": {
+		"languages": []
+	},
+	"Under Defeat (Japan)": {
+		"languages": ["Ja"]
+	},
+	"UnderCover AD2025 Kei (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Unreal Tournament (Europe)": {
+		"languages": ["En"]
+	},
+	"Unreal Tournament (USA) (En,Fr,De,Es,It)": {
+		"languages": ["De", "En", "Es", "Fr", "It"]
+	},
+	"Urban Chaos (Europe) (En,Fr)": {
+		"languages": ["En", "Fr"]
+	},
+	"Urban Chaos (USA) (En,Fr)": {
+		"languages": ["En", "Fr"]
+	},
+	"Utau - Tumbling Dice (Japan)": {
+		"languages": ["Ja"]
+	},
+	"V-Rally 2 - Expert Edition (Europe) (En,Fr,De)": {
+		"languages": ["De", "En", "Fr"]
+	},
+	"Vampire Chronicle for Matching Service (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Vanishing Point (Europe) (En,Fr,De,Es,It)": {
+		"languages": ["De", "En", "Es", "Fr", "It"]
+	},
+	"Vanishing Point (USA)": {
+		"languages": ["En"]
+	},
+	"Vermilion Desert (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Vigilante 8 - 2nd Battle (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Vigilante 8 - 2nd Offense (Europe)": {
+		"languages": ["En"]
+	},
+	"Vigilante 8 - 2nd Offense (USA)": {
+		"languages": ["En"]
+	},
+	"Virtua Athlete 2000 (USA) (En,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Virtua Athlete 2K (Europe) (En,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Virtua Athlete 2K (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Virtua Cop 2 (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Virtua Fighter 3tb (Europe)": {
+		"languages": ["En"]
+	},
+	"Virtua Fighter 3tb (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Virtua Fighter 3tb (Japan) (Rev 1)": {
+		"languages": ["Ja"]
+	},
+	"Virtua Fighter 3tb (USA)": {
+		"languages": ["En"]
+	},
+	"Virtua Fighter 4 Passport (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Virtua Fighter History & VF4 (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Virtua Striker 2 (USA) (En,Ja,De,Es)": {
+		"languages": ["De", "En", "Es", "Ja"]
+	},
+	"Virtua Striker 2 Ver. 2000.1 (Europe) (Beta)": {
+		"languages": []
+	},
+	"Virtua Striker 2 Ver. 2000.1 (Europe) (En,Ja,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr", "Ja"]
+	},
+	"Virtua Striker 2 Ver. 2000.1 (Japan) (En,Ja,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr", "Ja"]
+	},
+	"Virtua Tennis (USA)": {
+		"languages": ["En"]
+	},
+	"Virtua Tennis - Sega Professional Tennis (Europe) (Beta)": {
+		"languages": ["En"]
+	},
+	"Virtua Tennis - Sega Professional Tennis (Europe) (En,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Virtua Tennis - Sega Professional Tennis (Europe) (En,Fr,De,Es) (Beta)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Virtua Tennis 2 - Sega Professional Tennis (Europe) (En,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Visual Park (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Volgarr the Viking (USA, Japan) (Unl)": {
+		"languages": ["En"]
+	},
+	"WWF Attitude (Europe)": {
+		"languages": ["En"]
+	},
+	"WWF Attitude (Germany)": {
+		"languages": ["En"]
+	},
+	"WWF Attitude (USA)": {
+		"languages": ["En"]
+	},
+	"WWF Royal Rumble (Europe)": {
+		"languages": ["En"]
+	},
+	"WWF Royal Rumble (Japan)": {
+		"languages": ["En"]
+	},
+	"WWF Royal Rumble (USA)": {
+		"languages": ["En"]
+	},
+	"Wacky Races (Europe) (En,Fr,De,Es,It,Nl)": {
+		"languages": ["De", "En", "Es", "Fr", "It", "Nl"]
+	},
+	"Wacky Races (USA)": {
+		"languages": ["En"]
+	},
+	"Walt Disney World Quest - Magical Racing Tour (Europe) (En,Fr,De,Es,It)": {
+		"languages": ["De", "En", "Es", "Fr", "It"]
+	},
+	"Walt Disney World Quest - Magical Racing Tour (USA)": {
+		"languages": ["En"]
+	},
+	"Weakness Hero Torauman DC (Japan) (Game Disc)": {
+		"languages": ["Ja"]
+	},
+	"Weakness Hero Torauman DC (Japan) (Omake Disc)": {
+		"languages": ["Ja"]
+	},
+	"Web Browser (USA)": {
+		"languages": ["En"]
+	},
+	"Web Browser (USA) (Rev A)": {
+		"languages": ["En"]
+	},
+	"Web Browser 2.0 (USA)": {
+		"languages": ["En"]
+	},
+	"Web Browser 2.0 with SegaNet (USA)": {
+		"languages": ["En"]
+	},
+	"Web Browser 2.62 (USA)": {
+		"languages": ["En"]
+	},
+	"Web Mystery - Yochimu o Miru Neko (Japan) (Disc 1)": {
+		"languages": ["Ja"]
+	},
+	"Web Mystery - Yochimu o Miru Neko (Japan) (Disc 2)": {
+		"languages": ["Ja"]
+	},
+	"Wetrix+ (Europe) (En,Fr,De)": {
+		"languages": ["De", "En", "Fr"]
+	},
+	"Wetrix+ (USA)": {
+		"languages": ["En"]
+	},
+	"What's Shenmue - Yukawa (Moto) Senmu o Sagase (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Who Wants to Be a Millionaire (Europe)": {
+		"languages": ["En"]
+	},
+	"Who Wants to Beat Up a Millionaire (USA)": {
+		"languages": ["En"]
+	},
+	"Wild Metal (Europe) (En,Fr,De,Es,It,Pt)": {
+		"languages": ["De", "En", "Es", "Fr", "It", "Pt"]
+	},
+	"Wild Metal (USA) (En,Fr,De,Es,It,Pt)": {
+		"languages": ["De", "En", "Es", "Fr", "It", "Pt"]
+	},
+	"Wind - A Breath of Heart (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Wind and Water - Puzzle Battles (Europe) (En,Ja) (Unl)": {
+		"languages": ["En", "Ja"]
+	},
+	"Wind and Water - Puzzle Battles (Europe) (En,Ja) (Unl) (Rerelease)": {
+		"languages": ["En", "Ja"]
+	},
+	"Winning Post 4 - Program 2000 (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Wolflame (USA, Japan) (Unl)": {
+		"languages": ["En"]
+	},
+	"World Neverland 2 Plus - Pluto Kyouwakoku Monogatari (Japan)": {
+		"languages": ["Ja"]
+	},
+	"World Neverland Plus - Olerud Oukoku Monogatari (Japan)": {
+		"languages": ["Ja"]
+	},
+	"World Series Baseball 2K1 (Japan)": {
+		"languages": ["En"]
+	},
+	"World Series Baseball 2K1 (USA)": {
+		"languages": ["En"]
+	},
+	"World Series Baseball 2K2 (Japan)": {
+		"languages": ["En"]
+	},
+	"World Series Baseball 2K2 (USA)": {
+		"languages": ["En"]
+	},
+	"Worms Armageddon (Europe) (En,Fr,De,Nl,Sv,No,Da)": {
+		"languages": ["Da", "De", "En", "Fr", "Nl", "No", "Sv"]
+	},
+	"Worms Armageddon (USA) (En,Fr,De,Nl,Sv,No,Da)": {
+		"languages": ["Da", "De", "En", "Fr", "Nl", "No", "Sv"]
+	},
+	"Worms World Party (Europe) (En,Fr,De,Es,It,Nl,Sv,Da)": {
+		"languages": ["Da", "De", "En", "Es", "Fr", "It", "Nl", "Sv"]
+	},
+	"Worms World Party (USA) (En,Fr,De,Es,It,Nl,Sv,Da)": {
+		"languages": ["Da", "De", "En", "Es", "Fr", "It", "Nl", "Sv"]
+	},
+	"Xeno Crisis (USA, Japan) (En,Ja,Fr,De,Es,It,Nl,Pt) (Unl)": {
+		"languages": ["De", "En", "Es", "Fr", "It", "Ja", "Nl", "Pt"]
+	},
+	"Xploder DC (UK) (Demo) (Unl)": {
+		"languages": []
+	},
+	"Xploder DC (USA) (Unl)": {
+		"languages": ["En"]
+	},
+	"Xtreme Sports (USA)": {
+		"languages": ["En"]
+	},
+	"Yoshia no Oka de Nekoronde... (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Yu Suzuki Game Works Vol. 1 (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Yukawa Moto Senmu no Otakara Sagashi (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Yukigatari (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Yume Baken '99 - Internet (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Yume no Tsubasa - Fate of Heart (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Yuukyuu Gensoukyoku 3 - Perpetual Blue (Japan)": {
+		"languages": []
+	},
+	"Zero Gunner 2 (Japan) (En,Ja)": {
+		"languages": ["En", "Ja"]
+	},
+	"Zombie Revenge (Europe) (En,Ja)": {
+		"languages": ["En", "Ja"]
+	},
+	"Zombie Revenge (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Zombie Revenge (Japan) (Rev A)": {
+		"languages": ["Ja"]
+	},
+	"Zombie Revenge (USA)": {
+		"languages": ["En"]
+	},
+	"Zusar Vasar (Japan) (En,Ja)": {
+		"languages": ["En", "Ja"]
+	},
+	"Zusar Vasar (Japan) (Taikenban)": {
+		"languages": ["Ja"]
+	},
+	"deSPIRIA (Japan)": {
+		"languages": ["Ja"]
+	},
+	"dps - Heartbreak Diary (Japan)": {
+		"languages": ["Ja"]
+	}
+}

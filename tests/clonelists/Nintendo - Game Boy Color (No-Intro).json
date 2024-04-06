@@ -1,0 +1,1740 @@
+{
+	"description": {
+		"name": "Nintendo - Game Boy Color (No-Intro)",
+		"lastUpdated": "26 December 2023",
+		"minimumVersion": "2.02"
+	},
+
+	"variants": [
+		{
+			"group": "102 Dalmatians - Puppies to the Rescue",
+			"titles": [
+				{"searchTerm": "102 Dalmatas - Cachorros Al Rescate"},
+				{"searchTerm": "102 Dalmatians - Puppies to the Rescue"},
+				{"searchTerm": "102 Dalmatiens a la Rescousse, Les"},
+				{"searchTerm": "102 Dalmatiner"}
+			]
+		},
+		{
+			"group": "2001 Fatal Fury",
+			"titles": [
+				{"searchTerm": "2001 Fatal Fury"},
+				{"searchTerm": "Elang Chuanshuo - Shiji Zhi Zhan", "priority": 2, "localizedNames": {"english": "Garou - Mark of the Wolves 2001", "chinese (traditional)": "餓狼傳說-世紀之戰"}, "englishFriendly": true}
+			]
+		},
+		{
+			"group": "2002 Adventure Digimon 7",
+			"titles": [
+				{"searchTerm": "2002 Adventure Digimon 7", "localizedNames": {"english": "Digit Dinosaur 7 - The Adventure of Devildom"}}
+			]
+		},
+		{
+			"group": "2003 Hali Bote 2 - Xiaoshi de Mishi",
+			"titles": [
+				{"searchTerm": "2003 Hali Bote 2 - Xiaoshi de Mishi", "localizedNames": {"chinese (traditional)": "２００３哈利波特2-消失的密室"}}
+			]
+		},
+		{
+			"group": "2003 Koudai Guaishou - Lanbaoshi",
+			"titles": [
+				{"searchTerm": "2003 Koudai Guaishou - Lanbaoshi", "localizedNames": {"chinese (traditional)": "２００３口袋怪獸-藍寶石"}}
+			]
+		},
+		{
+			"group": "2003 Hali Xiaozi IV",
+			"titles": [
+				{"searchTerm": "2003 Hali Xiaozi IV", "localizedNames": {"chinese (traditional)": "２００３哈利小子IV"}}
+			]
+		},
+		{
+			"group": "31-in-1 Mighty Mix",
+			"titles": [
+				{"searchTerm": "31-in-1 Mighty Mix (31B-001, Sachen)"},
+				{"searchTerm": "31 in 1 (31B-001, Sachen)"}
+			]
+		},
+		{
+			"group": "AirForce Delta",
+			"titles": [
+				{"searchTerm": "AirForce Delta"},
+				{"searchTerm": "Deadly Skies"}
+			]
+		},
+		{
+			"group": "All Star Tennis 2000",
+			"titles": [
+				{"searchTerm": "All Star Tennis 2000 (AZTP)"},
+				{"searchTerm": "All Star Tennis 2000 (AZTX)", "priority": 2},
+				{"searchTerm": "All Star Tennis 2000", "priority": 3}
+			]
+		},
+		{
+			"group": "ATV Racing",
+			"titles": [
+				{"searchTerm": "ATV Racing"}
+			],
+			"compilations": [
+				{"searchTerm": "ATV Racing & Karate Joe"}
+			]
+		},
+		{
+			"group": "Azure Dreams",
+			"titles": [
+				{"searchTerm": "Azure Dreams"},
+				{"searchTerm": "Other Life - Azure Dreams GB"}
+			]
+		},
+		{
+			"group": "Ballistic",
+			"titles": [
+				{"searchTerm": "Ballistic"},
+				{"searchTerm": "Puzz Loop"}
+			]
+		},
+		{
+			"group": "Barbie - Ocean Discovery",
+			"titles": [
+				{"searchTerm": "Barbie - Aventura Submarina"},
+				{"searchTerm": "Barbie - Avventure nell'Oceano"},
+				{"searchTerm": "Barbie - Chasse au Tresor Sous-Marine"},
+				{"searchTerm": "Barbie - Diepzee Avontuur"},
+				{"searchTerm": "Barbie - Ocean Discovery"},
+				{"searchTerm": "Barbie - Meeres Abenteuer"}
+			]
+		},
+		{
+			"group": "Batman Beyond - Return of the Joker",
+			"titles": [
+				{"searchTerm": "Batman Beyond - Return of the Joker"},
+				{"searchTerm": "Batman of the Future - Return of the Joker"}
+			]
+		},
+		{
+			"group": "Binary Monster 2",
+			"titles": [
+				{"searchTerm": "Binary Monster 2", "localizedNames": {"english": "Digimon"}}
+			]
+		},
+		{
+			"group": "Blaster Master - Enemy Below",
+			"titles": [
+				{"searchTerm": "Blaster Master - Enemy Below"},
+				{"searchTerm": "MetaFight EX"}
+			]
+		},
+		{
+			"group": "Boarder Zone",
+			"titles": [
+				{"searchTerm": "Boarder Zone"},
+				{"searchTerm": "Supreme Snowboarding"}
+			]
+		},
+		{
+			"group": "Bob et Bobette - Les Dompteurs du Temps",
+			"titles": [
+				{"searchTerm": "Bob et Bobette - Les Dompteurs du Temps", "localizedNames": {"dutch": "Suske en Wiske - De Tijdtemmers", "french": "Bob et Bobette - Les Dompteurs du Temps"}}
+			]
+		},
+		{
+			"group": "Bomberman Max - Blue Champion",
+			"titles": [
+				{"searchTerm": "Bomberman Max - Blue Champion"},
+				{"searchTerm": "Bomberman Max - Hikari no Yuusha"}
+			]
+		},
+		{
+			"group": "Bomberman Max - Red Challenger",
+			"titles": [
+				{"searchTerm": "Bomberman Max - Red Challenger"},
+				{"searchTerm": "Bomberman Max - Yami no Senshi"}
+			]
+		},
+		{
+			"group": "Bugs Bunny in - Crazy Castle 4",
+			"titles": [
+				{"searchTerm": "Bugs Bunny - Crazy Castle 4"},
+				{"searchTerm": "Bugs Bunny et le Chateau des Catastrophes"},
+				{"searchTerm": "Bugs Bunny in - Crazy Castle 4"}
+			]
+		},
+		{
+			"group": "Bust-A-Move 4",
+			"titles": [
+				{"searchTerm": "Bust-A-Move 4"},
+				{"searchTerm": "Puzzle Bobble 4"}
+			]
+		},
+		{
+			"group": "Bust-A-Move Millennium",
+			"titles": [
+				{"searchTerm": "Bust-A-Move Millennium"},
+				{"searchTerm": "Puzzle Bobble Millennium"}
+			]
+		},
+		{
+			"group": "Buzz Lightyear of Star Command",
+			"titles": [
+				{"searchTerm": "Aventures de Buzz l'Eclair, Les"},
+				{"searchTerm": "Buzz Lightyear of Star Command"},
+				{"searchTerm": "Captain Buzz Lightyear - Star Command"}
+			]
+		},
+		{
+			"group": "CGB Test Cartridge",
+			"categories": ["Applications"],
+			"titles": [
+				{"searchTerm": "CGB Test Cartridge"}
+			]
+		},
+		{
+			"group": "Chao Jinhua - Shuma Baobei D-3",
+			"titles": [
+				{"searchTerm": "Chao Jinhua - Shuma Baobei D-3", "localizedNames": {"chinese (traditional)": "超進化 數碼寶貝Ｄ－３"}}
+			]
+		},
+		{
+			"group": "Chaoji Jiqiren Dazhan X - Super Robot War X",
+			"titles": [
+				{"searchTerm": "Chaoji Jiqiren Dazhan X - Super Robot War X", "localizedNames": {"chinese (traditional)": "超级机器人大战Ｘ"}}
+			]
+		},
+		{
+			"group": "Chaoren Tegong Dui",
+			"titles": [
+				{"searchTerm": "Chaoren Tegong Dui", "localizedNames": {"chinese (traditional)": "超人特攻隊"}}
+			]
+		},
+		{
+			"group": "Chase H.Q. - Secret Police",
+			"titles": [
+				{"searchTerm": "Chase H.Q. - Secret Police"},
+				{"searchTerm": "Taito Memorial - Chase H.Q. - Secret Police"}
+			]
+		},
+		{
+			"group": "Classic Bubble Bobble",
+			"titles": [
+				{"searchTerm": "Classic Bubble Bobble"},
+				{"searchTerm": "Taito Memorial - Bubble Bobble"}
+			]
+		},
+		{
+			"group": "Chuansho",
+			"titles": [
+				{"searchTerm": "Chuansho", "localizedNames": {"chinese (traditional)": "傳說"}}
+			]
+		},
+		{
+			"group": "Daffy Duck - Fowl Play",
+			"titles": [
+				{"searchTerm": "Daffy Duck - Fowl Play"},
+				{"searchTerm": "Daffy Duck - Subette Koron de Oogane Mochi"}
+			]
+		},
+		{
+			"group": "David O'Leary's Total Soccer 2000",
+			"titles": [
+				{
+					"searchTerm": "Barca Total 2000",
+					"priority": 2,
+					"filters": [
+						{
+							"conditions": {"regionOrder": {"higherRegions": ["Spain"], "lowerRegions": ["Europe"]}},
+							"results": {"priority": 1}
+						}
+					]
+				},
+				{
+					"searchTerm": "David O'Leary's Total Soccer 2000",
+					"priority": 2,
+					"filters": [
+						{
+							"conditions": {"regionOrder": {"higherRegions": ["Europe"], "lowerRegions": ["Spain"]}},
+							"results": {"priority": 1}
+						}
+					]
+				}
+			]
+		},
+		{
+			"group": "Days Without",
+			"titles": [
+				{"searchTerm": "Days Without (Multiple Endings)"},
+				{"searchTerm": "Days Without", "priority": 2}
+			]
+		},
+		{
+			"group": "Deja Vu I & II - The Casebooks of Ace Harding",
+			"titles": [
+				{"searchTerm": "Deja Vu I & II"},
+				{"searchTerm": "Deja Vu I & II - The Casebooks of Ace Harding"}
+			]
+		},
+		{
+			"group": "Dexter's Laboratory - Robot Rampage",
+			"titles": [
+				{"searchTerm": "Dexter's Laboratory - Robot Rampage"},
+				{"searchTerm": "Elevator Action EX"}
+			]
+		},
+		{
+			"group": "Digimon Adventure 2001",
+			"titles": [
+				{"searchTerm": "Digimon Adventure 2001"},
+				{"searchTerm": "2002 Digimon Adventure 6", "priority": 2},
+				{"searchTerm": "Shuma Baolong 9 - Baolong Pian", "priority": 3, "localizedNames": {"chinese (traditional)": "数码暴龙９－暴龙篇"}},
+				{"searchTerm": "Digimon - Yellow Jade", "priority": 4},
+				{"searchTerm": "Xin Shiqi Shidai", "priority": 5}
+			]
+		},
+		{
+			"group": "Disco Elysium - Game Boy Edition",
+			"titles": [
+				{"searchTerm": "Disco Elysium - Game Boy Edition (Music)"},
+				{"searchTerm": "Disco Elysium - Game Boy Edition (No Music)", "priority": 2}
+			]
+		},
+		{
+			"group": "Diva Starz - Mall Mania",
+			"titles": [
+				{"searchTerm": "Diva Starz"},
+				{"searchTerm": "Diva Starz - Mall Mania"}
+			]
+		},
+		{
+			"group": "Donald Duck - Goin' Quackers",
+			"titles": [
+				{"searchTerm": "Donald Duck - Daisy o Sukue!"},
+				{"searchTerm": "Donald Duck - Goin' Quackers"},
+				{"searchTerm": "Donald Duck - Quack Attack"}
+			]
+		},
+		{
+			"group": "Donkey Kong Country",
+			"titles": [
+				{"searchTerm": "Donkey Kong 2001"},
+				{"searchTerm": "Donkey Kong Country"}
+			]
+		},
+		{
+			"group": "Doug's Big Game",
+			"titles": [
+				{"searchTerm": "Doug's Big Game"},
+				{"searchTerm": "Doug - La Grande Aventure"}
+			]
+		},
+		{
+			"group": "Dragon Ball Z - Legendary Super Warriors",
+			"titles": [
+				{"searchTerm": "Dragon Ball Z - Densetsu no Chou Senshi-tachi"},
+				{"searchTerm": "Dragon Ball Z - Guerreros de Leyenda"},
+				{"searchTerm": "Dragon Ball Z - I Leggendari Super Guerrieri"},
+				{"searchTerm": "Dragon Ball Z - Legendaere Superkaempfer"},
+				{"searchTerm": "Dragon Ball Z - Legendary Super Warriors"},
+				{"searchTerm": "Dragon Ball Z - Les Guerriers Legendaires"},
+				{"searchTerm": "Dragon Ball Z - Densetsu no Chou Senshi-tachi (All Unlocked)", "priority": 2},
+				{"searchTerm": "Dragon Ball Z - Guerreros de Leyenda (All Unlocked)", "priority": 2},
+				{"searchTerm": "Dragon Ball Z - I Leggendari Super Guerrieri (All Unlocked)", "priority": 2},
+				{"searchTerm": "Dragon Ball Z - Legendaere Superkaempfer (All Unlocked)", "priority": 2},
+				{"searchTerm": "Dragon Ball Z - Legendary Super Warriors (All Unlocked)", "priority": 2},
+				{"searchTerm": "Dragon Ball Z - Les Guerriers Legendaires (All Unlocked)", "priority": 2}
+			]
+		},
+		{
+			"group": "Dragon Ball Z 3 - 2002 Fighting",
+			"titles": [
+				{"searchTerm": "Dragon Ball Z 3 - 2002 Fighting"},
+				{"searchTerm": "Dragon Ball Z Gedou 2005", "priority": 2},
+				{"searchTerm": "Dragon Ball Z - 2002 Fighting", "priority": 3}
+
+			]
+		},
+		{
+			"group": "Dragon Dance",
+			"titles": [
+				{"searchTerm": "Dragon Dance"},
+				{"searchTerm": "Pocket Color Block"}
+			]
+		},
+		{
+			"group": "Dragon Warrior I & II",
+			"titles": [
+				{"searchTerm": "Dragon Quest I & II"},
+				{"searchTerm": "Dragon Warrior I & II"}
+			]
+		},
+		{
+			"group": "Dragon Warrior III",
+			"titles": [
+				{"searchTerm": "Dragon Quest III - Soshite Densetsu e..."},
+				{"searchTerm": "Dragon Warrior III"}
+			]
+		},
+		{
+			"group": "Dragon Warrior Monsters",
+			"titles": [
+				{"searchTerm": "Dragon Quest Monsters"},
+				{"searchTerm": "Dragon Quest Monsters - Terry no Wonderland"},
+				{"searchTerm": "Dragon Warrior Monsters"}
+			]
+		},
+		{
+			"group": "Dragon Warrior Monsters 2 - Cobi's Journey",
+			"titles": [
+				{"searchTerm": "Dragon Quest Monsters 2 - Maruta no Fushigi na Kagi - Ruka no Tabidachi"},
+				{"searchTerm": "Dragon Warrior Monsters 2 - Cobi's Journey"}
+			]
+		},
+		{
+			"group": "Dragon Warrior Monsters 2 - Tara's Adventure",
+			"titles": [
+				{"searchTerm": "Dragon Quest Monsters 2 - Maruta no Fushigi na Kagi - Iru no Bouken"},
+				{"searchTerm": "Dragon Warrior Monsters 2 - Tara's Adventure"}
+			]
+		},
+		{
+			"group": "Driver - You are the Wheelman",
+			"titles": [
+				{"searchTerm": "Driver"},
+				{"searchTerm": "Driver - You are the Wheelman"}
+			]
+		},
+		{
+			"group": "Emo Cheng DX (Demo)",
+			"titles": [
+				{"searchTerm": "Emo Cheng DX (Demo)", "localizedNames": {"chinese (traditional)": "惡魔城ＤＸ"}}
+			]
+		},
+		{
+			"group": "ESPN International Track & Field",
+			"titles": [
+				{"searchTerm": "ESPN International Track & Field"},
+				{"searchTerm": "Ganbare! Nippon! Olympic 2000"},
+				{"searchTerm": "International Track & Field - Summer Games"}
+			]
+		},
+		{
+			"group": "F.A. Premier League Stars 2001, The",
+			"titles": [
+				{"searchTerm": "Bundesliga Stars 2001"},
+				{"searchTerm": "F.A. Premier League Stars 2001, The"},
+				{"searchTerm": "LNF Stars 2001"}
+			]
+		},
+		{
+			"group": "Fellowship of the Rings",
+			"titles": [
+				{"searchTerm": "Fellowship of the Rings"},
+				{"searchTerm": "Mojie 3-bu Wanme de Shijie", "priority": 2}
+			]
+		},
+		{
+			"group": "Feng Kuang A Gei III - Chaoji Zhadan Ren",
+			"titles": [
+				{"searchTerm": "Feng Kuang A Gei III - Chaoji Zhadan Ren", "localizedNames": {"chinese (traditional)": "瘋狂阿給Ⅲ-超級炸彈人"}}
+			]
+		},
+		{
+			"group": "Fengkuang Dafuweng",
+			"titles": [
+				{"searchTerm": "Fengkuang Dafuweng", "localizedNames": {"chinese (traditional)": "疯狂大富翁"}}
+			]
+		},
+		{
+			"group": "Flooder",
+			"titles": [
+				{"searchTerm": "Flooder (Anniversary Edition)"},
+				{"searchTerm": "Flooder", "priority": 2}
+			]
+		},
+		{
+			"group": "Full Time Soccer",
+			"titles": [
+				{"searchTerm": "Full Time Soccer"}
+			],
+			"compilations": [
+				{"searchTerm": "Full Time Soccer & Hang Time Basketball"}
+			]
+		},
+		{
+			"group": "G.B Corp.",
+			"titles": [
+				{"searchTerm": "G.B Corp."},
+				{"searchTerm": "G.B Corp. (No Link Cable)", "priority": 2}
+			]
+		},
+		{
+			"group": "Game & Watch Gallery 2",
+			"titles": [
+				{"searchTerm": "Game & Watch Gallery 2"},
+				{"searchTerm": "Game Boy Gallery 2"},
+				{
+					"searchTerm": "Game Boy Gallery 3",
+					"filters": [
+						{
+							"conditions": {"matchRegions": ["Japan"]},
+							"results": {"group": "Game & Watch Gallery 3"}
+						}
+					]
+				}
+			]
+		},
+		{
+			"group": "Game & Watch Gallery 3",
+			"titles": [
+				{"searchTerm": "Game & Watch Gallery 3"},
+				{"searchTerm": "Game Boy Gallery 4"}
+			]
+		},
+		{
+			"group": "GameShark MX",
+			"categories": ["Applications"],
+			"titles": [
+				{"searchTerm": "GameShark MX"}
+			]
+		},
+		{
+			"group": "GameShark Online",
+			"categories": ["Applications"],
+			"titles": [
+				{"searchTerm": "Action Replay Online"},
+				{"searchTerm": "GameShark Online"}
+			]
+		},
+		{
+			"group": "Gangdan Wuyu 2",
+			"titles": [
+				{"searchTerm": "Gangdan Wuyu 2", "localizedNames": {"chinese (traditional)": "钢弹物语２"}}
+			]
+		},
+		{
+			"group": "Gex 3 - Deep Pocket Gecko",
+			"titles": [
+				{"searchTerm": "Gex 3 - Deep Cover Gecko"},
+				{"searchTerm": "Gex 3 - Deep Pocket Gecko"}
+			]
+		},
+		{
+			"group": "Gift",
+			"titles": [
+				{"searchTerm": "Gift"},
+				{"searchTerm": "Gifty"}
+			]
+		},
+		{
+			"group": "Gobs of Games",
+			"titles": [
+				{"searchTerm": "Games Frenzy"},
+				{"searchTerm": "Gobs of Games"}
+			]
+		},
+		{
+			"group": "Golden Goal",
+			"titles": [
+				{"searchTerm": "Golden Goal"},
+				{"searchTerm": "Pro Foot"},
+				{"searchTerm": "Three Lions", "priority": 2}
+			]
+		},
+		{
+			"group": "Golf Daisuki!",
+			"titles": [
+				{"searchTerm": "Golf Daisuki!"},
+				{"searchTerm": "Pocket Golf!", "priority": 2}
+			]
+		},
+		{
+			"group": "Golf Ou - The King of Golf",
+			"titles": [
+				{"searchTerm": "Golf Ou - The King of Golf"},
+				{"searchTerm": "Golf King", "priority": 2},
+				{"searchTerm": "Supershot Golf Robot", "priority": 2}
+			]
+		},
+		{
+			"group": "Grinch, The",
+			"titles": [
+				{"searchTerm": "Grinch"},
+				{"searchTerm": "Grinch, The"}
+			]
+		},
+		{
+			"group": "Guaishou Go! Go! II",
+			"titles": [
+				{"searchTerm": "Guaishou Go! Go! II", "localizedNames": {"chinese (traditional)": "怪獸ＧＯ！ＧＯ！Ⅱ"}}
+			]
+		},
+		{
+			"group": "Guiwu Zhe 2",
+			"titles": [
+				{"searchTerm": "Guiwu Zhe 2", "localizedNames": {"chinese (traditional)": "鬼武者２"}}
+			]
+		},
+		{
+			"group": "Hai Zhan Qi Bing",
+			"titles": [
+				{"searchTerm": "Hai Zhan Qi Bing", "localizedNames": {"chinese (traditional)": "海戰奇兵"}}
+			]
+		},
+		{
+			"group": "Hali Xiaozi Dier Bu - Mishi de Mi",
+			"titles": [
+				{"searchTerm": "Hali Xiaozi Dier Bu - Mishi de Mi", "localizedNames": {"chinese (traditional)": "哈利小子第二部-密室的秘"}}
+			]
+		},
+		{
+			"group": "Hamtaro - Ham-Hams Unite!",
+			"titles": [
+				{"searchTerm": "Hamtaro - Ham-Hams Unite!"},
+				{"searchTerm": "Tottoko Hamutarou 2 - Hamu-chan Zu Daishuugou Dechu"}
+			]
+		},
+		{
+			"group": "Hang Time Basketball",
+			"titles": [
+				{"searchTerm": "Hang Time Basketball"}
+			],
+			"compilations": [
+				{"searchTerm": "Full Time Soccer & Hang Time Basketball"}
+			]
+		},
+		{
+			"group": "Harry Potter and the Sorcerer's Stone",
+			"titles": [
+				{"searchTerm": "Harry Potter and the Sorcerer's Stone"},
+				{"searchTerm": "Harry Potter to Kenja no Ishi"}
+			]
+		},
+		{
+			"group": "Harvest Moon 2 GBC",
+			"titles": [
+				{"searchTerm": "Bokujou Monogatari 2 GB"},
+				{"searchTerm": "Harvest Moon 2 GBC"}
+			]
+		},
+		{
+			"group": "Harvest Moon 3 GBC",
+			"titles": [
+				{"searchTerm": "Bokujou Monogatari 3 GB - Boy Meets Girl"},
+				{"searchTerm": "Harvest Moon 3 GBC"}
+			]
+		},
+		{
+			"group": "Harvest Moon GBC",
+			"titles": [
+				{"searchTerm": "Harvest Moon GB"},
+				{"searchTerm": "Harvest Moon GBC"}
+			]
+		},
+		{
+			"group": "Hexcite - The Shapes of Victory",
+			"titles": [
+				{"searchTerm": "Glocal Hexcite"},
+				{"searchTerm": "Hexcite - The Shapes of Victory"},
+				{"searchTerm": "Hexcite", "priority": 2}
+			]
+		},
+		{
+			"group": "Hole in One Golf",
+			"titles": [
+				{"searchTerm": "Golf de Ohasuta"},
+				{"searchTerm": "Hole in One Golf"}
+			]
+		},
+		{
+			"group": "International Rally",
+			"titles": [
+				{"searchTerm": "Cross Country Racing"},
+				{"searchTerm": "International Rally"},
+				{"searchTerm": "It's a World Rally"}
+			]
+		},
+		{
+			"group": "International Superstar Soccer 2000",
+			"titles": [
+				{"searchTerm": "International Superstar Soccer 2000"},
+				{"searchTerm": "World Soccer GB 2000"}
+			]
+		},
+		{
+			"group": "International Superstar Soccer 99",
+			"titles": [
+				{"searchTerm": "International Superstar Soccer 99"},
+				{"searchTerm": "World Soccer GB 2"}
+			]
+		},
+		{
+			"group": "International Track & Field",
+			"titles": [
+				{"searchTerm": "Hyper Olympic Series - Track & Field GB"},
+				{"searchTerm": "International Track & Field"}
+			]
+		},
+		{
+			"group": "Jingling Wang III",
+			"titles": [
+				{"searchTerm": "Jingling Wang III", "localizedNames": {"chinese (traditional)": "精靈王Ⅲ"}}
+			]
+		},
+		{
+			"group": "John Romero's Daikatana",
+			"titles": [
+				{"searchTerm": "Daikatana"},
+				{"searchTerm": "Daikatana GB"},
+				{"searchTerm": "John Romero's Daikatana"}
+			]
+		},
+		{
+			"group": "Juedui Wuli",
+			"titles": [
+				{"searchTerm": "Juedui Wuli", "localizedNames": {"chinese (traditional)": "絕對武力"}}
+			]
+		},
+		{
+			"group": "Jurassic Boy 2",
+			"titles": [
+				{"searchTerm": "Jurassic Boy 2"}
+			],
+			"compilations": [
+				{"searchTerm": "Jurassic Boy 2 + Thunder Blast Man (1B-002, 1B-003, Sachen)"}
+			]
+		},
+		{
+			"group": "Karate Joe",
+			"titles": [
+				{"searchTerm": "Karate Joe"}
+			],
+			"compilations": [
+				{"searchTerm": "ATV Racing & Karate Joe"},
+				{"searchTerm": "Space Invasion & Karate Joe"}
+			]
+		},
+		{
+			"group": "Keitai Denjuu Telefang - Speed Version",
+			"titles": [
+				{"searchTerm": "Keitai Denjuu Telefang - Speed Version"},
+				{"searchTerm": "Koudai Guaishou - Feicui Ban", "priority": 2},
+				{"searchTerm": "Pokemon Jade", "priority": 3},
+				{"searchTerm": "Pokemon Vision Jade", "priority": 4}
+			]
+		},
+		{
+			"group": "Kelly Club",
+			"titles": [
+				{"searchTerm": "Kelly Club"},
+				{"searchTerm": "Shelly Club"}
+			]
+		},
+		{
+			"group": "King of Fighters R2",
+			"titles": [
+				{"searchTerm": "King of Fighters R2"},
+				{"searchTerm": "Gedou Zhizun 2003", "priority": 2}
+			]
+		},
+		{
+			"group": "Kirby - Tilt 'n' Tumble",
+			"titles": [
+				{"searchTerm": "Kirby - Tilt 'n' Tumble"},
+				{"searchTerm": "Korokoro Kirby"}
+			]
+		},
+		{
+			"group": "Laofuzi Chuanqi",
+			"titles": [
+				{"searchTerm": "Laofuzi Chuanqi", "localizedNames": {"chinese (traditional)": "老夫子傳奇"}}
+			]
+		},
+		{
+			"group": "Las Vegas Cool Hand",
+			"titles": [
+				{"searchTerm": "Cool Hand"},
+				{"searchTerm": "Las Vegas Cool Hand"}
+			]
+		},
+		{
+			"group": "Legend of Zelda, The - Link's Awakening DX",
+			"titles": [
+				{"searchTerm": "Legend of Zelda, The - Link's Awakening DX"},
+				{"searchTerm": "Zelda no Densetsu - Yume o Miru Shima DX"}
+			]
+		},
+		{
+			"group": "Legend of Zelda, The - Oracle of Ages",
+			"titles": [
+				{"searchTerm": "Legend of Zelda, The - Oracle of Ages"},
+				{"searchTerm": "Zelda no Densetsu - Fushigi no Kinomi - Jikuu no Shou"}
+			]
+		},
+		{
+			"group": "Legend of Zelda, The - Oracle of Seasons",
+			"titles": [
+				{"searchTerm": "Legend of Zelda, The - Oracle of Seasons"},
+				{"searchTerm": "Zelda no Densetsu - Fushigi no Kinomi - Daichi no Shou"}
+			]
+		},
+		{
+			"group": "Legend of the River King 2",
+			"titles": [
+				{"searchTerm": "Kawa no Nushi Tsuri 4"},
+				{"searchTerm": "Legend of the River King 2"}
+			]
+		},
+		{
+			"group": "Legend of the River King GBC",
+			"titles": [
+				{"searchTerm": "Legend of the River King GB"},
+				{"searchTerm": "Legend of the River King GBC"}
+			]
+		},
+		{
+			"group": "Lemmings & Oh No! More Lemmings",
+			"titles": [
+				{"searchTerm": "Lemmings & Oh No! More Lemmings"},
+				{"searchTerm": "Lemmings VS"}
+			]
+		},
+		{
+			"group": "Lil' Monster",
+			"titles": [
+				{"searchTerm": "Gem Gem Monster"},
+				{"searchTerm": "Lil' Monster"}
+			]
+		},
+		{
+			"group": "Lion King, The - Simba's Mighty Adventure",
+			"titles": [
+				{"searchTerm": "Koenig der Loewen, Der - Simbas grosses Abenteuer"},
+				{"searchTerm": "Lion King, The - Simba's Mighty Adventure"},
+				{"searchTerm": "Roi Lion, Le - La Formidable Aventure de Simba"}
+			]
+		},
+		{
+			"group": "Looney Tunes - Carrot Crazy",
+			"titles": [
+				{"searchTerm": "Bugs Bunny & Lola Bunny - Operation Carrot Patch"},
+				{"searchTerm": "Looney Tunes - Carrot Crazy"}
+			]
+		},
+		{
+			"group": "Looney Tunes - Twouble!",
+			"titles": [
+				{"searchTerm": "Looney Tunes - Twouble!"},
+				{"searchTerm": "Sylvester & Tweety - Breakfast on the Run"}
+			]
+		},
+		{
+			"group": "Looney Tunes Collector - Alert!",
+			"titles": [
+				{"searchTerm": "Looney Tunes Collector - Alert!"},
+				{"searchTerm": "Looney Tunes Collector - Martian Alert!"},
+				{"searchTerm": "Looney Tunes Collector - Martian Quest!"}
+			]
+		},
+		{
+			"group": "Lufia - The Legend Returns",
+			"titles": [
+				{"searchTerm": "Estpolis Denki - Yomigaeru Densetsu"},
+				{"searchTerm": "Lufia - The Legend Returns"}
+			]
+		},
+		{
+			"group": "Luke Yingxiong Z",
+			"titles": [
+				{"searchTerm": "Luke Yingxiong Z", "localizedNames": {"chinese (traditional)": "路克英雄Ｚ"}}
+			]
+		},
+		{
+			"group": "Magical Tetris Challenge",
+			"titles": [
+				{"searchTerm": "Magical Tetris Challenge"},
+				{"searchTerm": "Tetris Adventure - Susume Mickey to Nakama-tachi"}
+			]
+		},
+		{
+			"group": "Mario Golf",
+			"titles": [
+				{"searchTerm": "Mario Golf"},
+				{"searchTerm": "Mario Golf GB"}
+			]
+		},
+		{
+			"group": "Mario Tennis",
+			"titles": [
+				{"searchTerm": "Mario Tennis"},
+				{"searchTerm": "Mario Tennis GB"}
+			]
+		},
+		{
+			"group": "Marvin Strikes Back!",
+			"titles": [
+				{"searchTerm": "Looney Tunes Collector - Martian Revenge!"},
+				{"searchTerm": "Marvin Strikes Back!"}
+			]
+		},
+		{
+			"group": "Megaman X4",
+			"titles": [
+				{
+					"searchTerm": "Megaman X4",
+					"filters": [
+						{
+							"conditions": {"matchRegions": ["Taiwan"]},
+							"results": {"localizedNames": {"english": "Rockman X4"}}
+						}
+					]
+				}
+			]
+		},
+		{
+			"group": "Mega Man Xtreme",
+			"titles": [
+				{"searchTerm": "Mega Man Xtreme"},
+				{"searchTerm": "Rockman X - Cyber Mission"}
+			]
+		},
+		{
+			"group": "Mega Man Xtreme 2",
+			"titles": [
+				{"searchTerm": "Mega Man Xtreme 2"},
+				{"searchTerm": "Rockman X2 - Soul Eraser"}
+			]
+		},
+		{
+			"group": "Metal Gear Solid",
+			"titles": [
+				{"searchTerm": "Metal Gear - Ghost Babel"},
+				{"searchTerm": "Metal Gear Solid"}
+			]
+		},
+		{
+			"group": "Metal Walker",
+			"titles": [
+				{"searchTerm": "Bakusou Senki Metal Walker GB - Koutetsu no Yuujou"},
+				{"searchTerm": "Metal Walker"}
+			]
+		},
+		{
+			"group": "Mia Hamm Soccer Shootout",
+			"titles": [
+				{"searchTerm": "European Super League"},
+				{"searchTerm": "Mia Hamm Soccer Shootout"}
+			]
+		},
+		{
+			"group": "Micro Machines",
+			"titles": [
+				{
+					"searchTerm": "Micro Machines",
+					"filters": [
+						{
+							"conditions": {"matchString": "V3"},
+							"results": {"group": "Micro Machines V3"}
+						}
+					]
+				}
+			],
+			"compilations": [
+				{"searchTerm": "Micro Machines 1 and 2 - Twin Turbo"}
+			]
+		},
+		{
+			"group": "Micro Machines 2 - Turbo Tournament",
+			"titles": [
+				{"searchTerm": "Micro Machines 2 - Turbo Tournament"}
+			],
+			"compilations": [
+				{"searchTerm": "Micro Machines 1 and 2 - Twin Turbo"}
+			]
+		},
+		{
+			"group": "Millennium Winter Sports",
+			"titles": [
+				{"searchTerm": "Hyper Olympic - Winter 2000"},
+				{"searchTerm": "Konami Winter Games"},
+				{"searchTerm": "Millennium Winter Sports"}
+			]
+		},
+		{
+			"group": "Mingzhu Koudai Guaishou 2",
+			"titles": [
+				{"searchTerm": "Mingzhu Koudai Guaishou 2", "localizedNames": {"chinese (traditional)": "明珠口袋怪兽2"}}
+			]
+		},
+		{
+			"group": "Mingzhu Koudai Guaishou 3",
+			"titles": [
+				{"searchTerm": "Mingzhu Koudai Guaishou 3", "localizedNames": {"chinese (traditional)": "明珠口袋怪兽3", "english": "Digimon Fight", "spanish": "El Monstruo"}}
+			]
+		},
+		{
+			"group": "Mojie Chuanshuo",
+			"titles": [
+				{"searchTerm": "Mojie Chuanshuo", "localizedNames": {"chinese (traditional)": "魔戒傳說"}}
+			]
+		},
+		{
+			"group": "Monkey Puncher",
+			"titles": [
+				{"searchTerm": "Monkey Puncher"},
+				{"searchTerm": "Saru Puncher"}
+			]
+		},
+		{
+			"group": "Monster Rancher Battle Card GB",
+			"titles": [
+				{"searchTerm": "Monster Farm Battle Card GB"},
+				{"searchTerm": "Monster Rancher Battle Card GB"}
+			]
+		},
+		{
+			"group": "Monster Rancher Explorer",
+			"titles": [
+				{"searchTerm": "Monster Rancher Explorer"},
+				{"searchTerm": "Solomon"}
+			]
+		},
+		{
+			"group": "Monsters, Inc.",
+			"titles": [
+				{"searchTerm": "Monsters, Inc."},
+				{"searchTerm": "Monster AG, Die"}
+			]
+		},
+		{
+			"group": "Moomin's Tale",
+			"titles": [
+				{"searchTerm": "Moomin's Tale"},
+				{"searchTerm": "Moomin no Daibouken"}
+			]
+		},
+		{
+			"group": "Moshou Shiji - Zhanshen",
+			"titles": [
+				{"searchTerm": "Moshou Shiji - Zhanshen", "localizedNames": {"chinese (traditional)": "魔獸世紀-戰神"}}
+			]
+		},
+		{
+			"group": "Motocross Maniacs 2",
+			"titles": [
+				{"searchTerm": "Crazy Bikers"},
+				{"searchTerm": "Motocross Maniacs 2"}
+			]
+		},
+		{
+			"group": "Ms. Pac-Man - Special Color Edition",
+			"titles": [
+				{"searchTerm": "Ms. Pac-Man - Special Color Edition"},
+				{"searchTerm": "Ms. Pac-Man - Special Colour Edition"}
+			]
+		},
+		{
+			"group": "Muchang Wuyu GB 6",
+			"titles": [
+				{"searchTerm": "Muchang Wuyu GB 6", "localizedNames": {"chinese (traditional)": "牧場物語ＧＢ６"}}
+			]
+		},
+		{
+			"group": "Mummy, The",
+			"titles": [
+				{"searchTerm": "Hamunaptra - Ushinawareta Sabaku no Miyako"},
+				{"searchTerm": "Mummy, The"}
+			]
+		},
+		{
+			"group": "NBA in the Zone",
+			"titles": [
+				{"searchTerm": "NBA in the Zone"},
+				{"searchTerm": "NBA Pro 99"}
+			]
+		},
+		{
+			"group": "Pac-Man - Special Color Edition",
+			"titles": [
+				{"searchTerm": "Pac-Man - Special Color Edition"},
+				{"searchTerm": "Pac-Man - Special Colour Edition"}
+			]
+		},
+		{
+			"group": "Painter",
+			"titles": [
+				{"searchTerm": "Painter"}
+			],
+			"compilations": [
+				{"searchTerm": "Space Invasion & Painter"}
+			]
+		},
+		{
+			"group": "Papyrus",
+			"titles": [
+				{"searchTerm": "Papyrus"},
+				{"searchTerm": "Visiteurs, Les"}
+			]
+		},
+		{
+			"group": "Peugeot - Orbital Diagnostic System",
+			"categories": ["Applications"],
+			"titles": [
+				{"searchTerm": "Peugeot - Orbital Diagnostic System"}
+			]
+		},
+		{
+			"group": "Pitfall - Beyond the Jungle",
+			"titles": [
+				{"searchTerm": "Pitfall - Beyond the Jungle"},
+				{"searchTerm": "Pitfall GB"}
+			]
+		},
+		{
+			"group": "Player Manager 2001",
+			"titles": [
+				{"searchTerm": "Anpfiff - Der RTL Fussball-Manager"},
+				{"searchTerm": "Player Manager 2001"}
+			]
+		},
+		{
+			"group": "Pocket Racing",
+			"titles": [
+				{"searchTerm": "Pocket GT"},
+				{"searchTerm": "Pocket Racing"}
+			]
+		},
+		{
+			"group": "Pocket Smash Out",
+			"titles": [
+				{"searchTerm": "Pocket Smash Out"}
+			],
+			"compilations": [
+				{"searchTerm": "Pocket Smash Out & Race Time"}
+			]
+		},
+		{
+			"group": "Pokemon - Crystal Version",
+			"titles": [
+				{"searchTerm": "Pocket Monsters - Crystal Version"},
+				{"searchTerm": "Pokemon - Crystal Version"},
+				{"searchTerm": "Pokemon - Edicion Cristal"},
+				{"searchTerm": "Pokemon - Kristall-Edition"},
+				{"searchTerm": "Pokemon - Version Cristal"},
+				{"searchTerm": "Pokemon - Versione Cristallo"}
+			]
+		},
+		{
+			"group": "Pokemon - Gold Version",
+			"titles": [
+				{"searchTerm": "Pocket Monsters Geum"},
+				{"searchTerm": "Pocket Monsters Kin"},
+				{"searchTerm": "Pokemon - Edicion Oro"},
+				{"searchTerm": "Pokemon - Gold Version"},
+				{"searchTerm": "Pokemon - Goldene Edition"},
+				{"searchTerm": "Pokemon - Version Or"},
+				{"searchTerm": "Pokemon - Versione Oro"}
+			]
+		},
+		{
+			"group": "Pokemon - Sapphire Version",
+			"titles": [
+				{"searchTerm": "Pokemon - Sapphire Version"},
+				{"searchTerm": "Koudai Guaishou - Sheng Bianshi", "priority": 2},
+				{"searchTerm": "2003 Koudai Guaishou - Lanbaoshi", "priority": 3}
+			]
+		},
+		{
+			"group": "Pokemon - Silver Version",
+			"titles": [
+				{"searchTerm": "Pocket Monsters Eun"},
+				{"searchTerm": "Pocket Monsters Gin"},
+				{"searchTerm": "Pokemon - Edicion Plata"},
+				{"searchTerm": "Pokemon - Silberne Edition"},
+				{"searchTerm": "Pokemon - Silver Version"},
+				{"searchTerm": "Pokemon - Version Argent"},
+				{"searchTerm": "Pokemon - Versione Argento"}
+			]
+		},
+		{
+			"group": "Pokemon Puzzle Challenge",
+			"titles": [
+				{"searchTerm": "Pokemon de Panepon"},
+				{"searchTerm": "Pokemon Puzzle Challenge"}
+			]
+		},
+		{
+			"group": "Pokemon Trading Card Game",
+			"titles": [
+				{"searchTerm": "Pokemon Card GB"},
+				{"searchTerm": "Pokemon Trading Card Game"}
+			]
+		},
+		{
+			"group": "Polaris SnoCross",
+			"titles": [
+				{"searchTerm": "Polaris SnoCross"},
+				{"searchTerm": "SnowCross"}
+			]
+		},
+		{
+			"group": "Potbound",
+			"titles": [
+				{"searchTerm": "Potbound"},
+				{"searchTerm": "Potbound (GBJam 10)"}
+			]
+		},
+		{
+			"group": "Power Spike - Pro Beach Volleyball",
+			"titles": [
+				{"searchTerm": "Beach'n Ball"},
+				{"searchTerm": "Power Spike - Pro Beach Volleyball"}
+			]
+		},
+		{
+			"group": "Powerpuff Girls, The - Bad Mojo Jojo",
+			"titles": [
+				{"searchTerm": "Powerpuff Girls, The - Bad Mojo Jojo"},
+				{"searchTerm": "Powerpuff Girls, The - Il Terribile Mojo Jojo"},
+				{"searchTerm": "Powerpuff Girls, The - L'Affreux Mojo Jojo"},
+				{"searchTerm": "Super Nenas, Las - El Malvado Mojo Jojo"}
+			]
+		},
+		{
+			"group": "Powerpuff Girls, The - Battle Him",
+			"titles": [
+				{"searchTerm": "Powerpuff Girls, The - Battle Him"},
+				{"searchTerm": "Powerpuff Girls, The - Bulle Contre Lui"},
+				{"searchTerm": "Super Nenas, Las - Lucha Con Ese"}
+			]
+		},
+		{
+			"group": "Powerpuff Girls, The - Paint the Townsville Green",
+			"titles": [
+				{"searchTerm": "Powerpuff Girls, The - Paint the Townsville Green"},
+				{"searchTerm": "Powerpuff Girls, The - Panique a Townsville"},
+				{"searchTerm": "Super Nenas, Las - Panico en Townsville"}
+			]
+		},
+		{
+			"group": "Qi Tian Dasheng - Sun Wukong",
+			"titles": [
+				{"searchTerm": "Qi Tian Dasheng - Sun Wukong", "localizedNames": {"chinese (traditional)": "齊天大聖-孫悟空"}}
+			]
+		},
+		{
+			"group": "Qilongzhu Z3",
+			"titles": [
+				{"searchTerm": "Qilongzhu Z3", "localizedNames": {"chinese (traditional)": "七龍珠Ｚ３"}}
+			]
+		},
+		{
+			"group": "Quan Ba Tianxia",
+			"titles": [
+				{"searchTerm": "Quan Ba Tianxia", "localizedNames": {"chinese (traditional)": "拳霸天下"}}
+			]
+		},
+		{
+			"group": "Quest - Brian's Journey",
+			"titles": [
+				{"searchTerm": "Jack no Daibouken - Daimaou no Gyakushuu"},
+				{"searchTerm": "Quest - Brian's Journey"}
+			]
+		},
+		{
+			"group": "Quest - Fantasy Challenge",
+			"titles": [
+				{"searchTerm": "Holy Magic Century"},
+				{"searchTerm": "Quest - Fantasy Challenge"}
+			]
+		},
+		{
+			"group": "Race Time",
+			"titles": [
+				{"searchTerm": "Race Time"}
+			],
+			"compilations": [
+				{"searchTerm": "Pocket Smash Out & Race Time"}
+			]
+		},
+		{
+			"group": "Rayman",
+			"titles": [
+				{"searchTerm": "Rayman"},
+				{"searchTerm": "Rayman - Mister Dark no Wana"}
+			]
+		},
+		{
+			"group": "Rayman 2",
+			"titles": [
+				{"searchTerm": "Rayman 2"},
+				{"searchTerm": "Rayman 2 Forever"}
+			]
+		},
+		{
+			"group": "Rats!",
+			"titles": [
+				{"searchTerm": "Rats!"},
+				{"searchTerm": "Reservoir Rat"}
+			]
+		},
+		{
+			"group": "Razor Freestyle Scooter",
+			"titles": [
+				{"searchTerm": "Freestyle Scooter"},
+				{"searchTerm": "Razor Freestyle Scooter"}
+			]
+		},
+		{
+			"group": "Resident Evil Gaiden",
+			"titles": [
+				{"searchTerm": "Biohazard Gaiden"},
+				{"searchTerm": "Resident Evil Gaiden"}
+			]
+		},
+		{
+			"group": "Revelations - The Demon Slayer",
+			"titles": [
+				{"searchTerm": "Megami Tensei Gaiden - Last Bible"},
+				{"searchTerm": "Revelations - The Demon Slayer"}
+			]
+		},
+		{
+			"group": "Robopon - Sun Version",
+			"titles": [
+				{"searchTerm": "Robopon - Sun Version"},
+				{"searchTerm": "Robot Poncots - Sun Version"}
+			]
+		},
+		{
+			"group": "Rocket Power - Gettin' Air",
+			"titles": [
+				{"searchTerm": "Rocket Power - Gettin' Air"},
+				{"searchTerm": "Rocket Power - La Glisse de l'Extreme"}
+			]
+		},
+		{
+			"group": "Ronaldo V-Soccer",
+			"titles": [
+				{"searchTerm": "Ronaldo V-Soccer"},
+				{"searchTerm": "Ronaldo V-Football"},
+				{"searchTerm": "UEFA 2000", "priority": 2}
+			]
+		},
+		{
+			"group": "Rugrats - Time Travelers",
+			"titles": [
+				{"searchTerm": "Razmoket, Les - Voyage dans le Temps"},
+				{"searchTerm": "Rugrats - Time Travelers"}
+			]
+		},
+		{
+			"group": "Rugrats - Totally Angelica",
+			"titles": [
+				{"searchTerm": "Razmoket, Les - 100% Angelica"},
+				{"searchTerm": "Rugrats - Totally Angelica"},
+				{"searchTerm": "Rugrats - Typisch Angelica"}
+			]
+		},
+		{
+			"group": "Rugrats in Paris - The Movie",
+			"titles": [
+				{"searchTerm": "Razmoket a Paris, Les - Le Film"},
+				{"searchTerm": "Rugrats en Paris - La pelicula"},
+				{"searchTerm": "Rugrats in Paris - The Movie"}
+			]
+		},
+		{
+			"group": "San Guo Wushang 5",
+			"titles": [
+				{"searchTerm": "San Guo Wushang 5", "localizedNames": {"chinese (traditional)": "叁國無雙５"}}
+			]
+		},
+		{
+			"group": "Sapphire Hotel - The Little Tales of",
+			"titles": [
+				{"searchTerm": "Sapphire Hotel - The Little Tales of"},
+				{"searchTerm": "Yellow Sapphire Hotel - The Little Tales of", "priority": 2}
+			]
+		},
+		{
+			"group": "Sewing Machine Operation Software",
+			"categories": ["Applications"],
+			"titles": [
+				{"searchTerm": "Sewing Machine Operation Software"}
+			]
+		},
+		{
+			"group": "Sgt. Rock - On the Frontline",
+			"titles": [
+				{"searchTerm": "Front Line - The Next Mission"},
+				{"searchTerm": "Sgt. Rock - On the Frontline"}
+			]
+		},
+		{
+			"group": "Shadowgate Classic",
+			"titles": [
+				{"searchTerm": "Shadowgate Classic"},
+				{"searchTerm": "Shadowgate Return"}
+			]
+		},
+		{
+			"group": "Shaolin Shisan Gun - Ying Xiong Jiu Zhu",
+			"titles": [
+				{"searchTerm": "Shaolin Shisan Gun - Ying Xiong Jiu Zhu", "localizedNames": {"chinese (traditional)": "少林十三棍-英雄救主"}}
+			]
+		},
+		{
+			"group": "Shaoling Legend - Hero, the Saver",
+			"titles": [
+				{"searchTerm": "Shaoling Legend - Hero, the Saver", "localizedNames": {"english": "Fantasic ShaoLin Kungfu"}}
+			]
+		},
+		{
+			"group": "Sheng Shou Wuyu - Shenlong Chuanshuo",
+			"titles": [
+				{"searchTerm": "Sheng Shou Wuyu - Shenlong Chuanshuo", "localizedNames": {"chinese (traditional)": "聖獸物語-神龍傳說"}}
+			]
+		},
+		{
+			"group": "Shengui Diguo Zhi Emo Cheng",
+			"titles": [
+				{"searchTerm": "Shengui Diguo Zhi Emo Cheng", "localizedNames": {"chinese (traditional)": "神鬼帝國の惡魔城"}},
+				{"searchTerm": "Koudai Yaoguai Lu Baoshi", "priority": 2},
+				{"searchTerm": "Luoke Yingxiong EXE5", "priority": 3, "localizedNames": {"chinese (traditional)": "洛克人Ｘ５"}},
+				{"searchTerm": "Pian Wai Zhang - Huangjin Taiyang - Fengyin de Yuangu Lianjin Shu", "priority": 4, "localizedNames": {"chinese (traditional)": "篇外章 黃金太陽-封印的遠古煉金術"}},
+				{"searchTerm": "Yongzhe Dou E Long VIII", "priority": 5, "localizedNames": {"chinese (traditional)": "勇者鬥惡龍Ⅷ"}},
+				{"searchTerm": "Mojie Zhanshi Chuanshuo", "priority": 6},
+				{"searchTerm": "Emo Cheng DX", "priority": 7, "localizedNames": {"chinese (traditional)": "惡魔城ＤＸ"}}
+			]
+		},
+		{
+			"group": "Shenghuo Jiangmo Lu Waizhuan",
+			"titles": [
+				{"searchTerm": "Shenghuo Jiangmo Lu Waizhuan"},
+				{"searchTerm": "Shenghuo Jiangmo Lu Waizhuan - Guang Yu An De Lunhui", "priority": 2}
+			]
+		},
+		{
+			"group": "Shikong Xing Shou",
+			"titles": [
+				{"searchTerm": "Shikong Xing Shou", "localizedNames": {"chinese (traditional)": "時空星獸"}}
+			]
+		},
+		{
+			"group": "Shuma Baolong - Koudai Ban",
+			"titles": [
+				{"searchTerm": "Shuma Baolong - Koudai Ban", "localizedNames": {"chinese (traditional)": "數碼暴龍-口袋版"}}
+			]
+		},
+		{
+			"group": "Shuma Baolong - Shuijing Ban II",
+			"titles": [
+				{"searchTerm": "Shuma Baolong - Shuijing Ban II", "localizedNames": {"chinese (traditional)": "數碼暴龍-水晶版Ⅱ"}}
+			]
+		},
+		{
+			"group": "Shuma Baolong Zhuanji 10 in 1",
+			"titles": [
+				{"searchTerm": "Shuma Baolong Zhuanji 10 in 1", "localizedNames": {"chinese (traditional)": "數碼暴龍專集１０ｉｎ１"}}
+			]
+		},
+		{
+			"group": "Space Invaders",
+			"titles": [
+				{"searchTerm": "Space Invaders"},
+				{"searchTerm": "Space Invaders X"}
+			]
+		},
+		{
+			"group": "Space Invasion",
+			"titles": [
+				{"searchTerm": "Space Invasion"}
+			],
+			"compilations": [
+				{"searchTerm": "Space Invasion & Karate Joe"},
+				{"searchTerm": "Space Invasion & Painter"}
+			]
+		},
+		{
+			"group": "Space Marauder",
+			"titles": [
+				{"searchTerm": "Burai Senshi Color"},
+				{"searchTerm": "Space Marauder"}
+			]
+		},
+		{
+			"group": "Star Heritage (Password Version)",
+			"titles": [
+				{"searchTerm": "Star Heritage (Password Version)"},
+				{"searchTerm": "Star Heritage (SRAM Version)", "priority": 2}
+			]
+		},
+		{
+			"group": "Super Fighters S",
+			"titles": [
+				{"searchTerm": "Super Fighters S"},
+				{"searchTerm": "Super Fighters 99", "priority": 2}
+			]
+		},
+		{
+			"group": "Super Jacked Up Tomato Face Johnson",
+			"titles": [
+				{"searchTerm": "Super Jacked Up Tomato Face Johnson"},
+				{"searchTerm": "Super Jacked Up Tomato Face Johnson (Jam Version)", "priority": 2}
+			]
+		},
+		{
+			"group": "Survival Kids",
+			"titles": [
+				{"searchTerm": "Stranded Kids"},
+				{"searchTerm": "Survival Kids"},
+				{"searchTerm": "Survival Kids - Kotou no Boukensha"}
+			]
+		},
+		{
+			"group": "Test Drive Le Mans",
+			"titles": [
+				{"searchTerm": "Le Mans 24 Hours"},
+				{"searchTerm": "Test Drive Le Mans"}
+			]
+		},
+		{
+			"group": "Test Drive Off-Road 3",
+			"titles": [
+				{"searchTerm": "4x4 World Trophy"},
+				{"searchTerm": "Test Drive Off-Road 3"}
+			]
+		},
+		{
+			"group": "Tezhong Budui",
+			"titles": [
+				{"searchTerm": "Tezhong Budui", "localizedNames": {"chinese (traditional)": "特种部队"}}
+			]
+		},
+		{
+			"group": "Tezhong Budui 2 - Jidi",
+			"titles": [
+				{"searchTerm":"Tezhong Budui 2 - Jidi", "localizedNames": {"chinese (traditional)": "特种部队２－基地"}}
+			]
+		},
+		{
+			"group": "Thunder Blast Man",
+			"titles": [
+				{"searchTerm": "Rocman X Gold + 4 in 1 (1B-002, 4B-003, Sachen)"},
+				{"searchTerm": "Thunder Blast Man"}
+			],
+			"compilations": [
+				{"searchTerm": "Jurassic Boy 2 + Thunder Blast Man (1B-002, 1B-003, Sachen)"}
+			]
+		},
+		{
+			"group": "TNN Outdoors Fishing Champ",
+			"titles": [
+				{"searchTerm": "Super Black Bass Pocket 3"},
+				{"searchTerm": "TNN Outdoors Fishing Champ"},
+				{"searchTerm": "EuroSport Pro Champ Fishing", "priority": 2}
+			]
+		},
+		{
+			"group": "Tom and Jerry - Mouse Hunt",
+			"titles": [
+				{"searchTerm": "Tom and Jerry - Mouse Hunt"},
+				{"searchTerm": "Tom and Jerry - Mousehunt"}
+			]
+		},
+		{
+			"group": "Top Gear Pocket",
+			"titles": [
+				{"searchTerm": "Top Gear Pocket"},
+				{"searchTerm": "Top Gear Rally"}
+			]
+		},
+		{
+			"group": "Top Gear Pocket 2",
+			"titles": [
+				{"searchTerm": "Top Gear Pocket 2"},
+				{"searchTerm": "Top Gear Rally 2"},
+				{"searchTerm": "TG Rally 2", "priority": 2}
+			]
+		},
+		{
+			"group": "Trick Boarder",
+			"titles": [
+				{"searchTerm": "Trick Boarder"},
+				{"searchTerm": "Trickboarder GP"}
+			]
+		},
+		{
+			"group": "Turok 2 - Seeds of Evil",
+			"titles": [
+				{"searchTerm": "Turok 2 - Jikku Senshi"},
+				{"searchTerm": "Turok 2 - Seeds of Evil"}
+			]
+		},
+		{
+			"group": "Tweety's High-Flying Adventure",
+			"titles": [
+				{"searchTerm": "Titi - Le Tour du Monde en 80 Chats"},
+				{"searchTerm": "Tweety's High-Flying Adventure"},
+				{"searchTerm": "Tweety Sekaiisshuu - 80 Hiki no Neko o Sagase!"}
+			]
+		},
+		{
+			"group": "Ultimate Surfing",
+			"titles": [
+				{"searchTerm": "Naminori Yarou!"},
+				{"searchTerm": "Ultimate Surfing"}
+			]
+		},
+		{
+			"group": "V-Rally - Edition 99",
+			"titles": [
+				{"searchTerm": "V-Rally - Championship Edition"},
+				{"searchTerm": "V-Rally - Edition 99"}
+			]
+		},
+		{
+			"group": "Wacky Races",
+			"titles": [
+				{"searchTerm": "Chiki Chiki Machine Mou Race"},
+				{"searchTerm": "Wacky Races"}
+			]
+		},
+		{
+			"group": "Wai Xing Tanxian Zhi Xingqiu Dazhan",
+			"titles": [
+				{"searchTerm": "Wai Xing Tanxian Zhi Xingqiu Dazhan", "localizedNames": {"chinese (traditional)": "外星探險の星球大戰"}}
+			]
+		},
+		{
+			"group": "Wario Land II",
+			"titles": [
+				{"searchTerm": "Wario Land 2"},
+				{"searchTerm": "Wario Land II"}
+			]
+		},
+		{
+			"group": "Waternet",
+			"titles": [
+				{"searchTerm": "Waternet"},
+				{"searchTerm": "Waternet (Batteryless Generic Save Flash Cartridge Version)", "priority": 2},
+				{"searchTerm": "Waternet (Batteryless Save Flash Cartridge Version)", "priority": 3}
+			]
+		},
+		{
+			"group": "Wetrix",
+			"titles": [
+				{"searchTerm": "Wetrix"},
+				{"searchTerm": "Wetrix GB"}
+			]
+		},
+		{
+			"group": "Winnie the Pooh - Adventures in the 100 Acre Wood",
+			"titles": [
+				{"searchTerm": "Atsumete Asobu Kuma no Pooh-san - Mori no Takaramono"},
+				{"searchTerm": "Winnie the Pooh - Adventures in the 100 Acre Wood"}
+			]
+		},
+		{
+			"group": "Woody Woodpecker Racing",
+			"titles": [
+				{"searchTerm": "Woody Woodpecker no Go! Go! Racing"},
+				{"searchTerm": "Woody Woodpecker Racing"}
+			]
+		},
+		{
+			"group": "Xian Dan Chaoren - Ultraman",
+			"titles": [
+				{"searchTerm": "Xian Dan Chaoren - Ultraman", "localizedNames": {"chinese (traditional)": "閒蛋超人"}}
+			]
+		},
+		{
+			"group": "Xiao Taiji - Shenhua Lixian",
+			"titles": [
+				{"searchTerm": "Xiao Taiji - Shenhua Lixian", "localizedNames": {"chinese (traditional)": "小太极－神话历险"}},
+				{"searchTerm": "Yinyang", "priority": 2, "localizedNames": {"german": "Yinyang Drachen"}}
+			]
+		},
+		{
+			"group": "Xin Fengshenbang",
+			"titles": [
+				{"searchTerm": "Xin Fengshenbang", "localizedNames": {"chinese (traditional)": "新封神榜"}}
+			]
+		},
+		{
+			"group": "Xingqiu Dazhan II - Kelong Ren Zhanyi",
+			"titles": [
+				{"searchTerm": "Xingqiu Dazhan II - Kelong Ren Zhanyi", "localizedNames": {"chinese (traditional)": "星球大战Ⅱ－克隆人战役"}}
+			]
+		},
+		{
+			"group": "Xintiao Huiyi",
+			"titles": [
+				{"searchTerm": "Xintiao Huiyi", "localizedNames": {"chinese (traditional)": "心跳回忆"}}
+			]
+		},
+		{
+			"group": "Xiyou Ji",
+			"titles": [
+				{"searchTerm": "Xiyou Ji", "localizedNames": {"chinese (traditional)": "西游记"}}
+			]
+		},
+		{
+			"group": "Yixing VS Tiexue Zhanshi",
+			"titles": [
+				{"searchTerm": "Yixing VS Tiexue Zhanshi", "localizedNames": {"chinese (traditional)": "異形ＶＳ鐵血戰士"}}
+			]
+		},
+		{
+			"group": "Yogi Bear - Great Balloon Blast",
+			"titles": [
+				{"searchTerm": "Pop'n Pop"},
+				{"searchTerm": "Yogi Bear - Great Balloon Blast"}
+			]
+		},
+		{
+			"group": "Yu-Gi-Oh! - Dark Duel Stories",
+			"titles": [
+				{"searchTerm": "Yu-Gi-Oh! - Dark Duel Stories"},
+				{"searchTerm": "Yu-Gi-Oh! - Das Dunkle Duell"},
+				{"searchTerm": "Yu-Gi-Oh! - Duel des Tenebres"},
+				{"searchTerm": "Yu-Gi-Oh! - Duelo en las Tinieblas"},
+				{"searchTerm": "Yu-Gi-Oh! - Racconti Oscuri"},
+				{"searchTerm": "Yu-Gi-Oh! Duel Monsters III - Tri Holy God Advant"}
+			]
+		},
+		{
+			"group": "Yuenan Zhanyi - Chong Jian Tian Ri",
+			"titles": [
+				{"searchTerm": "Yuenan Zhanyi - Chong Jian Tian Ri", "localizedNames": {"chinese (traditional)": "越南戰役-重見天日"}}
+			]
+		},
+		{
+			"group": "Yuenan Zhanyi 3",
+			"titles": [
+				{"searchTerm": "Yuenan Zhanyi 3", "localizedNames": {"chinese (traditional)": "越南戰役３"}}
+			]
+		},
+		{
+			"group": "Yuenan Zhanyi X - Shenru Dihou",
+			"titles": [
+				{"searchTerm": "Yuenan Zhanyi X - Shenru Dihou"},
+				{"searchTerm": "Xin Fengkuang A Gei Pao Pao Tang", "priority": 2}
+			]
+		},
+		{
+			"group": "Zhen Sanguo Wushuang 2 - Shin Sangokumusou",
+			"titles": [
+				{"searchTerm": "Zhen Sanguo Wushuang 2 - Shin Sangokumusou", "localizedNames": {"chinese (traditional)": "真三國無雙２"}}
+			]
+		},
+		{
+			"group": "Zhihuan Wang - Shoubu Qu",
+			"titles": [
+				{"searchTerm": "Zhihuan Wang - Shoubu Qu", "localizedNames": {"chinese (traditional)": "指环王－首部曲"}}
+			]
+		},
+		{
+			"group": "Zhizhu Xia III - Dianying Ban",
+			"titles": [
+				{"searchTerm": "Zhizhu Xia III - Dianying Ban", "localizedNames": {"chinese (traditional)": "蜘蛛侠３－电影版"}}
+			]
+		}
+	]
+}

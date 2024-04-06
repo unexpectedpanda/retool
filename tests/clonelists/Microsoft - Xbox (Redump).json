@@ -1,0 +1,1024 @@
+{
+	"description": {
+		"name": "Microsoft - Xbox (Redump)",
+		"lastUpdated": "26 December 2023",
+		"minimumVersion": "2.02"
+	},
+
+	"mias": [
+		"Colin McRae Rally 04 (Asia)",
+		"Combat Elite - WWII Paratroopers (USA) (Beta)",
+		"LEGO Super Soccer Adventure (Europe) (Proto)",
+		"Ninja Gaiden Black (Japan) (En,Ja)",
+		"Painkiller - Hell Wars (USA) (Beta) (2005-10-18)",
+		"Shin Sangoku Musou 4 (Japan) (En,Ja)",
+		"Sphinx and the Cursed Mummy (Korea)"
+	],
+
+	"variants": [
+		{
+			"group": "AirForce Delta Storm",
+			"titles": [
+				{"searchTerm": "AirForce Delta Storm"},
+				{"searchTerm": "AirForce Delta II"},
+				{"searchTerm": "Deadly Skies"}
+			]
+		},
+		{
+			"group": "Amped - Freestyle Snowboarding",
+			"titles": [
+				{"searchTerm": "Amped - Freestyle Snowboarding"},
+				{"searchTerm": "Tenku - Freestyle Snowboarding"}
+			]
+		},
+		{
+			"group": "Amped 2",
+			"titles": [
+				{"searchTerm": "Amped 2"},
+				{"searchTerm": "Tenku 2"}
+			]
+		},
+		{
+			"group": "Apex",
+			"titles": [
+				{"searchTerm": "Apex"},
+				{"searchTerm": "Racing Evoluzione"}
+			]
+		},
+		{
+			"group": "Bad Boys - Miami Takedown",
+			"titles": [
+				{"searchTerm": "Bad Boys - Miami Takedown"},
+				{"searchTerm": "Bad Boys II"}
+			]
+		},
+		{
+			"group": "Beat Down - Fists of Vengeance",
+			"titles": [
+				{"searchTerm": "Beat Down"},
+				{"searchTerm": "Beat Down - Fists of Vengeance"}
+			]
+		},
+		{
+			"group": "Big Mutha Truckers 2",
+			"titles": [
+				{"searchTerm": "Big Mutha Truckers 2"},
+				{"searchTerm": "Big Mutha Truckers 2 - Truck Me Harder"}
+			]
+		},
+		{
+			"group": "Black Stone - Magic & Steel",
+			"titles": [
+				{"searchTerm": "Black Stone - Magic & Steel"},
+				{"searchTerm": "Ex-Chaser"}
+			]
+		},
+		{
+			"group": "Braveknight - Leverant Eiyuuden",
+			"titles": [
+				{"searchTerm": "Braveknight - Leverant Eiyuuden"},
+				{"searchTerm": "Braveknight - Leverant Yeongungjeon"}
+			]
+		},
+		{
+			"group": "Brian Lara International Cricket 2005",
+			"titles": [
+				{"searchTerm": "Brian Lara International Cricket 2005"},
+				{"searchTerm": "Ricky Ponting International Cricket 2005"}
+			]
+		},
+		{
+			"group": "Call of Duty 2 - Big Red One",
+			"titles": [
+				{"searchTerm": "Call of Duty 2 - Big Red One"}
+			],
+			"supersets": [
+				{"searchTerm": "Call of Duty 2 - Big Red One (Collector's Edition)"}
+			]
+		},
+		{
+			"group": "Capcom vs. SNK 2 EO",
+			"titles": [
+				{"searchTerm": "Capcom vs. SNK 2 EO"},
+				{"searchTerm": "Capcom vs. SNK 2 EO - Mark of the Millennium 2001"}
+			]
+		},
+		{
+			"group": "Championship Manager 5",
+			"titles": [
+				{"searchTerm": "Championship Manager 5"},
+				{"searchTerm": "Entraineur 5, L' - Saison 04-05"},
+				{"searchTerm": "Scudetto 5"}
+			]
+		},
+		{
+			"group": "Chronicles of Narnia, The - The Lion, the Witch and the Wardrobe",
+			"titles": [
+				{"searchTerm": "Chroniken von Narnia, Die - Der Koenig von Narnia"},
+				{"searchTerm": "Chronicles of Narnia, The - The Lion, the Witch and the Wardrobe"},
+				{"searchTerm": "Monde de Narnia, Le - Chapitre 1 - Le Lion, la Sorciere Blanche et l'Armoire Magique"}
+			]
+		},
+		{
+			"group": "Conflict - Desert Storm II - Back to Baghdad",
+			"titles": [
+				{"searchTerm": "Conflict - Desert Storm II"},
+				{"searchTerm": "Conflict - Desert Storm II - Back to Baghdad"}
+			]
+		},
+		{
+			"group": "Conflict - Global Terror",
+			"titles": [
+				{"searchTerm": "Conflict - Global Storm"},
+				{"searchTerm": "Conflict - Global Terror"}
+			]
+		},
+		{
+			"group": "Crazy Taxi 3 - High Roller",
+			"titles": [
+				{"searchTerm": "Crazy Taxi 3"},
+				{"searchTerm": "Crazy Taxi 3 - High Roller"}
+			]
+		},
+		{
+			"group": "Crash Bandicoot - The Wrath of Cortex",
+			"titles": [
+				{"searchTerm": "Crash Bandicoot - The Wrath of Cortex"},
+				{"searchTerm": "Crash Bandicoot 4 - Sakuretsu! Majin Power"}
+			]
+		},
+		{
+			"group": "Crimson Sea",
+			"titles": [
+				{"searchTerm": "Crimson Sea"},
+				{"searchTerm": "Kurenai no Umi - Crimson Sea"}
+			]
+		},
+		{
+			"group": "Dai Senryaku VII - Modern Military Tactics",
+			"titles": [
+				{"searchTerm": "Dai Senryaku VII - Modern Military Tactics"},
+				{"searchTerm": "Daisenryaku VII"}
+			]
+		},
+		{
+			"group": "Dakar 2 - The World's Ultimate Rally",
+			"titles": [
+				{"searchTerm": "Dakar 2"},
+				{"searchTerm": "Dakar 2 - The World's Ultimate Rally"}
+			]
+		},
+		{
+			"group": "Dance Dance Revolution Ultramix",
+			"titles": [
+				{"searchTerm": "Dance Dance Revolution Ultramix"},
+				{"searchTerm": "Dancing Stage Unleashed"}
+			]
+		},
+		{
+			"group": "Dance Dance Revolution Ultramix 2",
+			"titles": [
+				{"searchTerm": "Dance Dance Revolution Ultramix 2"},
+				{"searchTerm": "Dancing Stage Unleashed 2"}
+			]
+		},
+		{
+			"group": "Dance Dance Revolution Ultramix 3",
+			"titles": [
+				{"searchTerm": "Dance Dance Revolution Ultramix 3"},
+				{"searchTerm": "Dancing Stage Unleashed 3"}
+			]
+		},
+		{
+			"group": "Digimon Rumble Arena 2",
+			"titles": [
+				{"searchTerm": "Digimon Battle Chronicle"},
+				{"searchTerm": "Digimon Rumble Arena 2"}
+			]
+		},
+		{
+			"group": "Digimon World 4",
+			"titles": [
+				{"searchTerm": "Digimon World 4"},
+				{"searchTerm": "Digimon World X"}
+			]
+		},
+		{
+			"group": "Disney-Pixar Finding Nemo",
+			"titles": [
+				{"searchTerm": "Disney-Pixar Finding Nemo"},
+				{"searchTerm": "Disney-Pixar Nemo-reul Chajaseo"}
+			]
+		},
+		{
+			"group": "Disney-Pixar The Incredibles",
+			"titles": [
+				{"searchTerm": "Disney-Pixar Die Unglaublichen"},
+				{"searchTerm": "Disney-Pixar Gli Incredibili"},
+				{"searchTerm": "Disney-Pixar Los Increibles"},
+				{"searchTerm": "Disney-Pixar Mr. Incredible"},
+				{"searchTerm": "Disney-Pixar The Incredibles"}
+			]
+		},
+		{
+			"group": "Disney's Chicken Little",
+			"titles": [
+				{"searchTerm": "Disney's Chicken Little"},
+				{"searchTerm": "Disneys Himmel und Huhn"}
+			]
+		},
+		{
+			"group": "Doom 3",
+			"titles": [
+				{"searchTerm": "Doom 3"}
+			],
+			"supersets": [
+				{"searchTerm": "Doom 3 (Limited Collector's Edition)"}
+			]
+		},
+		{
+			"group": "DreamWorks Shark Tale",
+			"titles": [
+				{"searchTerm": "DreamWorks Shark Tale"},
+				{"searchTerm": "DreamWorks Shark Tale - Hajar som Hajar"}
+			]
+		},
+		{
+			"group": "Dr. Seuss' The Cat in the Hat",
+			"titles": [
+				{"searchTerm": "Cat in the Hat, The"},
+				{"searchTerm": "Dr. Seuss' The Cat in the Hat"}
+			]
+		},
+		{
+			"group": "Dynasty Warriors 3",
+			"titles": [
+				{"searchTerm": "Dynasty Warriors 3"},
+				{"searchTerm": "Shin Sangoku Musou 2"}
+			]
+		},
+		{
+			"group": "Dynasty Warriors 4",
+			"titles": [
+				{"searchTerm": "Dynasty Warriors 4"},
+				{"searchTerm": "Shin Sangoku Musou 3"}
+			]
+		},
+		{
+			"group": "Dynasty Warriors 5",
+			"titles": [
+				{"searchTerm": "Dynasty Warriors 5"},
+				{"searchTerm": "Shin Sangoku Musou 4"}
+			]
+		},
+		{
+			"group": "Egg Mania - Eggstreme Madness",
+			"titles": [
+				{"searchTerm": "Egg Mania - Eggstreme Madness"},
+				{"searchTerm": "Egg Mania - Tsukande! Mawashite! Dossun Puzzle!!"},
+				{"searchTerm": "Eggo Mania"}
+			]
+		},
+		{
+			"group": "Elder Scrolls III, The - Morrowind",
+			"titles": [
+				{"searchTerm": "Elder Scrolls III, The - Morrowind"}
+			],
+			"supersets": [
+				{"searchTerm": "Elder Scrolls III, The - Morrowind - Game of the Year Edition"}
+			]
+		},
+		{
+			"group": "ESPN International Winter Sports 2002",
+			"titles": [
+				{"searchTerm": "ESPN International Winter Sports"},
+				{"searchTerm": "ESPN International Winter Sports 2002"},
+				{"searchTerm": "Hyper Sports 2002 Winter"}
+			]
+		},
+		{
+			"group": "Fable",
+			"titles": [
+				{"searchTerm": "Fable"}
+			],
+			"supersets": [
+				{"searchTerm": "Fable - The Lost Chapters"}
+			]
+		},
+		{
+			"group": "Indigo Prophecy",
+			"titles": [
+				{"searchTerm": "Indigo Prophecy"}
+			],
+			"supersets": [
+				{"searchTerm": "Fahrenheit"}
+			]
+		},
+		{
+			"group": "Fantastic 4",
+			"titles": [
+				{"searchTerm": "Fantastic 4"},
+				{"searchTerm": "Fantastici 4, I"}
+			]
+		},
+		{
+			"group": "Fatal Frame",
+			"titles": [
+				{"searchTerm": "Fatal Frame"},
+				{"searchTerm": "Fatal Frame - Zero Special Edition"},
+				{"searchTerm": "Project Zero"}
+			]
+		},
+		{
+			"group": "Fatal Frame II - Crimson Butterfly - Director's Cut",
+			"titles": [
+				{"searchTerm": "Fatal Frame II - Crimson Butterfly"},
+				{"searchTerm": "Fatal Frame II - Crimson Butterfly - Director's Cut"},
+				{"searchTerm": "Project Zero II - Crimson Butterfly - Director's Cut"}
+			]
+		},
+		{
+			"group": "FIFA Soccer 06",
+			"titles": [
+				{"searchTerm": "FIFA 06"},
+				{"searchTerm": "FIFA Soccer 06"}
+			]
+		},
+		{
+			"group": "FIFA Soccer 07",
+			"titles": [
+				{"searchTerm": "FIFA 07"},
+				{"searchTerm": "FIFA Soccer 07"}
+			]
+		},
+		{
+			"group": "FIFA Soccer 2003",
+			"titles": [
+				{"searchTerm": "FIFA Football 2003"},
+				{"searchTerm": "FIFA Soccer 2003"}
+			]
+		},
+		{
+			"group": "FIFA Soccer 2004",
+			"titles": [
+				{"searchTerm": "FIFA Football 2004"},
+				{"searchTerm": "FIFA Soccer 2004"}
+			]
+		},
+		{
+			"group": "FIFA Soccer 2005",
+			"titles": [
+				{"searchTerm": "FIFA Football 2005"},
+				{"searchTerm": "FIFA Soccer 2005"}
+			]
+		},
+		{
+			"group": "Forza Motorsport",
+			"titles": [
+				{"searchTerm": "Forza Motorsport"},
+				{"searchTerm": "Forza Motorsport + Xbox Live Arcade"}
+			]
+		},
+		{
+			"group": "Freestyle Street Soccer",
+			"titles": [
+				{"searchTerm": "Freestyle Street Soccer"},
+				{"searchTerm": "Urban Freestyle Soccer"}
+			]
+		},
+		{
+			"group": "Gladiator - Sword of Vengeance",
+			"titles": [
+				{"searchTerm": "Gladiator - Schwert der Rache"},
+				{"searchTerm": "Gladiator - Sword of Vengeance"}
+			]
+		},
+		{
+			"group": "Godfather, The - The Game",
+			"titles": [
+				{"searchTerm": "Godfather, The"},
+				{"searchTerm": "Godfather, The - The Game"},
+				{"searchTerm": "Padrino, El"},
+				{"searchTerm": "Padrino, Il"},
+				{"searchTerm": "Parrain, Le"},
+				{"searchTerm": "Pate, Der"}
+			]
+		},
+		{
+			"group": "GoldenEye - Rogue Agent",
+			"titles": [
+				{"searchTerm": "GoldenEye - Agente Corrupto"},
+				{"searchTerm": "GoldenEye - Au Service du Mal"},
+				{"searchTerm": "GoldenEye - Rogue Agent"}
+			]
+		},
+		{
+			"group": "Group S Challenge",
+			"titles": [
+				{"searchTerm": "Circus Drive"},
+				{"searchTerm": "Group S Challenge"}
+			]
+		},
+		{
+			"group": "Guilty Gear X2 Reload - The Midnight Carnival",
+			"titles": [
+				{"searchTerm": "Guilty Gear X2 Reload - The Midnight Carnival"},
+				{"searchTerm": "Guilty Gear XX Reload - The Midnight Carnival"}
+			]
+		},
+		{
+			"group": "Halo - Combat Evolved",
+			"titles": [
+				{"searchTerm": "Halo"},
+				{"searchTerm": "Halo - Combat Evolved"},
+				{"searchTerm": "Halo - Jeonjaengui Seomak"}
+			]
+		},
+		{
+			"group": "Harry Potter and the Sorcerer's Stone",
+			"titles": [
+				{"searchTerm": "Harry Potter and the Philosopher's Stone"},
+				{"searchTerm": "Harry Potter and the Sorcerer's Stone"}
+			]
+		},
+		{
+			"group": "Hello Kitty - Roller Rescue",
+			"titles": [
+				{"searchTerm": "Hello Kitty - Mission Rescue"},
+				{"searchTerm": "Hello Kitty - Roller Rescue"}
+			]
+		},
+		{
+			"group": "Hitman 2 - Silent Assassin",
+			"titles": [
+				{"searchTerm": "Hitman - Silent Assassin"},
+				{"searchTerm": "Hitman 2 - Silent Assassin"}
+			]
+		},
+		{
+			"group": "Jade Empire",
+			"titles": [
+				{"searchTerm": "Jade Empire"},
+				{"searchTerm": "Jade Empire - Hisui no Teikoku"}
+			]
+		},
+		{
+			"group": "JSRF - Jet Set Radio Future",
+			"titles": [
+				{"searchTerm": "JSRF - Jet Set Radio Future"}
+			],
+			"compilations": [
+				{"searchTerm": "Sega GT 2002 + JSRF - Jet Set Radio Future", "titlePosition": 2}
+			]
+		},
+		{
+			"group": "Kabuki Warriors",
+			"titles": [
+				{"searchTerm": "Kabuki Warriors"},
+				{"searchTerm": "Zan Kabuki"}
+			]
+		},
+		{
+			"group": "Kung Fu Chaos",
+			"titles": [
+				{"searchTerm": "Kung Fu Chaos"},
+				{"searchTerm": "Kung Fu Panic"}
+			]
+		},
+		{
+			"group": "Lemony Snicket's A Series of Unfortunate Events",
+			"titles": [
+				{"searchTerm": "Desastreuses Aventures des Orphelins Baudelaire, Les - D'Apres Lemony Snicket"},
+				{"searchTerm": "Lemony Snicket's A Series of Unfortunate Events"},
+				{"searchTerm": "Lemony Snicket - Raetselhafte Ereignisse"},
+				{"searchTerm": "Una Serie de Catastroficas Desdichas de Lemony Snicket"}
+			]
+		},
+		{
+			"group": "LMA Manager 2003",
+			"titles": [
+				{"searchTerm": "BDFL Manager 2003"},
+				{"searchTerm": "Football Manager Campionato 2003"},
+				{"searchTerm": "LMA Manager 2003"},
+				{"searchTerm": "Manager de Liga 2003"},
+				{"searchTerm": "Roger Lemerre - La Selection des Champions 2003"}
+			]
+		},
+		{
+			"group": "LMA Manager 2004",
+			"titles": [
+				{"searchTerm": "BDFL Manager 2004"},
+				{"searchTerm": "Football Manager Campionato 2004"},
+				{"searchTerm": "LMA Manager 2004"},
+				{"searchTerm": "Manager de Liga 2004"},
+				{"searchTerm": "Roger Lemerre - La Selection des Champions 2004"}
+			]
+		},
+		{
+			"group": "LMA Manager 2005",
+			"titles": [
+				{"searchTerm": "BDFL Manager 2005"},
+				{"searchTerm": "Football Manager Campionato 2005"},
+				{"searchTerm": "LMA Manager 2005"},
+				{"searchTerm": "Manager de Liga 2005"},
+				{"searchTerm": "Roger Lemerre - La Selection des Champions 2005"}
+			]
+		},
+		{
+			"group": "Lord of the Rings, The - The Return of the King",
+			"titles": [
+				{"searchTerm": "Herr der Ringe, Der - Die Rueckkehr des Koenigs"},
+				{"searchTerm": "Lord of the Rings, The - The Return of the King"},
+				{"searchTerm": "Seigneur des Anneaux, Le - Le Retour du Roi"},
+				{"searchTerm": "Senor de los Anillos, El - El Retorno del Rey"},
+				{"searchTerm": "Signore degli Anelli, Il - Il ritorno del Re"}
+			]
+		},
+		{
+			"group": "Lord of the Rings, The - The Third Age",
+			"titles": [
+				{"searchTerm": "Herr der Ringe, Der - Das dritte Zeitalter"},
+				{"searchTerm": "Lord of the Rings, The - The Third Age"},
+				{"searchTerm": "Seigneur des Anneaux, Le - Le Tiers Age"},
+				{"searchTerm": "Senor de los Anillos, El - La Tercera Edad"},
+				{"searchTerm": "Signore degli Anelli, Il - La Terza Era"}
+			]
+		},
+		{
+			"group": "Major League Baseball 2K5",
+			"titles": [
+				{"searchTerm": "Major League Baseball 2K5"}
+			],
+			"supersets": [
+				{"searchTerm": "Major League Baseball 2K5 - World Series Edition"}
+			]
+		},
+		{
+			"group": "Mashed - Drive to Survive",
+			"titles": [
+				{"searchTerm": "Mashed - Drive to Survive"}
+			],
+			"supersets": [
+				{"searchTerm": "Mashed - Fully Loaded"}
+			]
+		},
+		{
+			"group": "Medal of Honor - European Assault",
+			"titles": [
+				{"searchTerm": "Medal of Honor - European Assault"},
+				{"searchTerm": "Medal of Honor - Les Faucons de Guerre"}
+			]
+		},
+		{
+			"group": "Medal of Honor - Frontline",
+			"titles": [
+				{"searchTerm": "Medal of Honor - En Premiere Ligne"},
+				{"searchTerm": "Medal of Honor - Frontline"}
+			]
+		},
+		{
+			"group": "Medal of Honor - Rising Sun",
+			"titles": [
+				{"searchTerm": "Medal of Honor - Rising Sun"},
+				{"searchTerm": "Medal of Honor - Soleil Levant"}
+			]
+		},
+		{
+			"group": "Metal Dungeon",
+			"titles": [
+				{"searchTerm": "Metal Dungeon"},
+				{"searchTerm": "Migong Zhengfuzhe"}
+			]
+		},
+		{
+			"group": "Midnight Club 3 - DUB Edition",
+			"titles": [
+				{"searchTerm": "Midnight Club 3 - DUB Edition"}
+			],
+			"supersets": [
+				{"searchTerm": "Midnight Club 3 - DUB Edition Remix"}
+			]
+		},
+		{
+			"group": "Minority Report - Everybody Runs",
+			"titles": [
+				{"searchTerm": "Minority Report - Everybody Runs"},
+				{"searchTerm": "Minority Report - Le Futur vous Rattrape"}
+			]
+		},
+		{
+			"group": "Motor Trend Presents Lotus Challenge",
+			"titles": [
+				{"searchTerm": "Lotus Challenge"},
+				{"searchTerm": "Motor Trend Presents Lotus Challenge"}
+			]
+		},
+		{
+			"group": "MTV Music Generator 3 - This Is the Remix",
+			"titles": [
+				{"searchTerm": "MTV Music Generator 3"},
+				{"searchTerm": "MTV Music Generator 3 - This Is the Remix"}
+			]
+		},
+		{
+			"group": "Murakumo - Renegade Mech Pursuit",
+			"titles": [
+				{"searchTerm": "Murakumo"},
+				{"searchTerm": "Murakumo - Renegade Mech Pursuit"}
+			]
+		},
+		{
+			"group": "NCAA Football 2005",
+			"titles": [
+				{"searchTerm": "NCAA Football 2005"}
+			],
+			"compilations": [
+				{"searchTerm": "NCAA Football 2005 + Top Spin", "titlePosition": 1}
+			]
+		},
+		{
+			"group": "Need for Speed - Most Wanted",
+			"titles": [
+				{"searchTerm": "Need for Speed - Most Wanted"}
+			],
+			"supersets": [
+				{"searchTerm": "Need for Speed - Most Wanted - Black Edition"}
+			]
+		},
+		{
+			"group": "Nickelodeon SpongeBob SquarePants - The Movie",
+			"titles": [
+				{"searchTerm": "Nickelodeon SpongeBob Schwammkopf - Der Film"},
+				{"searchTerm": "Nickelodeon SpongeBob SquarePants - The Movie"}
+			]
+		},
+		{
+			"group": "Nickelodeon Tak - The Great Juju Challenge",
+			"titles": [
+				{"searchTerm": "Nickelodeon Tak - Die grosse Juju-Jagd"},
+				{"searchTerm": "Nickelodeon Tak - The Great Juju Challenge"}
+			]
+		},
+		{
+			"group": "Ninja Gaiden",
+			"titles": [
+				{"searchTerm": "Ninja Gaiden"}
+			],
+			"supersets": [
+				{"searchTerm": "Ninja Gaiden Black"}
+			]
+		},
+		{
+			"group": "Oddworld - Stranger's Wrath",
+			"titles": [
+				{"searchTerm": "Oddworld - La Fureur de l'Etranger"},
+				{"searchTerm": "Oddworld - Stranger's Wrath"},
+				{"searchTerm": "Oddworld - Strangers Vergeltung"}
+			]
+		},
+		{
+			"group": "Official Xbox Magazine Game Disc 48",
+			"categories": ["Coverdiscs"],
+			"titles": [
+				{"searchTerm": "Official Xbox Magazine Game Disc 48"}
+			]
+		},
+		{
+			"group": "Otogi - Myth of Demons",
+			"titles": [
+				{"searchTerm": "Otogi - Myth of Demons"},
+				{"searchTerm": "Otogi", "priority": 2}
+			]
+		},
+		{
+			"group": "Otogi 2 - Immortal Warriors",
+			"titles": [
+				{"searchTerm": "Otogi - Hyakki Toubatsu Emaki"},
+				{"searchTerm": "Otogi 2 - Immortal Warriors"}
+			]
+		},
+		{
+			"group": "Phantasy Star Online Episode I & II",
+			"titles": [
+				{"searchTerm": "Phantasy Star Online Episode I & II"},
+				{"searchTerm": "Phantasy Star Online - Episode I & II", "priority": 2}
+			]
+		},
+		{
+			"group": "Power Drome",
+			"titles": [
+				{"searchTerm": "Power Drome"},
+				{"searchTerm": "Powerdrome"}
+			]
+		},
+		{
+			"group": "Prince of Persia - Warrior Within",
+			"titles": [
+				{"searchTerm": "Prince of Persia - Kenshi no Kokoro"},
+				{"searchTerm": "Prince of Persia - Warrior Within"}
+			]
+		},
+		{
+			"group": "Pro Race Driver",
+			"titles": [
+				{"searchTerm": "DTM Race Driver - Director's Cut"},
+				{"searchTerm": "Pro Race Driver"},
+				{"searchTerm": "TOCA Race Driver"},
+				{"searchTerm": "V8 Supercars Australia - Race Driver"}
+			]
+		},
+		{
+			"group": "Project Gotham Racing",
+			"titles": [
+				{"searchTerm": "Project Gotham - World Street Racer"},
+				{"searchTerm": "Project Gotham Racing"}
+			]
+		},
+		{
+			"group": "Puyo Pop Fever",
+			"titles": [
+				{"searchTerm": "Puyo Pop Fever"},
+				{"searchTerm": "Puyo Puyo Fever"}
+			]
+		},
+		{
+			"group": "Quantum Redshift",
+			"titles": [
+				{"searchTerm": "Quantum Redshift"},
+				{"searchTerm": "Quantum Redshift - Chou Kousoku Kuukan Battle Race"}
+			]
+		},
+		{
+			"group": "R-Racing",
+			"titles": [
+				{"searchTerm": "R-Racing"},
+				{"searchTerm": "R-Racing Evolution"},
+				{"searchTerm": "R-Racing Evolution - Life in the Fast Lane"}
+			]
+		},
+		{
+			"group": "RedCard 20-03",
+			"titles": [
+				{"searchTerm": "RedCard"},
+				{"searchTerm": "RedCard 20-03"}
+			]
+		},
+		{
+			"group": "Red Ninja - End of Honor",
+			"titles": [
+				{"searchTerm": "Red Ninja - End of Honor"},
+				{"searchTerm": "Red Ninja - End of Honour"}
+			]
+		},
+		{
+			"group": "Samurai Warriors",
+			"titles": [
+				{"searchTerm": "Samurai Warriors"},
+				{"searchTerm": "Sengoku Musou"}
+			]
+		},
+		{
+			"group": "Sega GT 2002",
+			"titles": [
+				{"searchTerm": "Sega GT 2002"}
+			],
+			"compilations": [
+				{"searchTerm": "Sega GT 2002 + JSRF - Jet Set Radio Future", "titlePosition": 1}
+			]
+		},
+		{
+			"group": "Shikigami no Shiro",
+			"titles": [
+				{"searchTerm": "Shikigami no Shiro"}
+			],
+			"supersets": [
+				{"searchTerm": "Shikigami no Shiro Evolution"}
+			]
+		},
+		{
+			"group": "Silent Hill 2 - Restless Dreams",
+			"titles": [
+				{"searchTerm": "Silent Hill 2 - Inner Fears"},
+				{"searchTerm": "Silent Hill 2 - Restless Dreams"},
+				{"searchTerm": "Silent Hill 2 - Saigo no Uta"}
+			]
+		},
+		{
+			"group": "Sneakers",
+			"titles": [
+				{"searchTerm": "Nezmix"},
+				{"searchTerm": "Sneakers"}
+			]
+		},
+		{
+			"group": "Star Wars - Episode III - Revenge of the Sith",
+			"titles": [
+				{"searchTerm": "Star Wars - Episode III - Die Rache der Sith"},
+				{"searchTerm": "Star Wars - Episode III - La Revanche des Sith"},
+				{"searchTerm": "Star Wars - Episode III - Revenge of the Sith"}
+			]
+		},
+		{
+			"group": "Star Wars - Knights of the Old Republic",
+			"titles": [
+				{"searchTerm": "Star Wars - Caballeros de la Antigua Republica"},
+				{"searchTerm": "Star Wars - Knights of the Old Republic"}
+			]
+		},
+		{
+			"group": "Star Wars - Knights of the Old Republic II - The Sith Lords",
+			"titles": [
+				{"searchTerm": "Star Wars - Caballeros de la Antigua Republica II - Los Senores Sith"},
+				{"searchTerm": "Star Wars - Knights of the Old Republic II - The Sith Lords"}
+			]
+		},
+		{
+			"group": "Star Wars - The Clone Wars",
+			"titles": [
+				{"searchTerm": "Star Wars - La Guerra dei Cloni"},
+				{"searchTerm": "Star Wars - Las Guerras Clon"},
+				{"searchTerm": "Star Wars - The Clone Wars"}
+			],
+			"compilations": [
+				{"searchTerm": "Star Wars - The Clone Wars + Tetris Worlds", "titlePosition": 1}
+			]
+		},
+		{
+			"group": "Steel Battalion",
+			"titles": [
+				{"searchTerm": "Steel Battalion"},
+				{"searchTerm": "Tekki"}
+			]
+		},
+		{
+			"group": "Sudeki",
+			"titles": [
+				{"searchTerm": "Sudeki"},
+				{"searchTerm": "Sudeki - Sennen no Akatsuki no Monogatari"}
+			]
+		},
+		{
+			"group": "Tenchu - Return from Darkness",
+			"titles": [
+				{"searchTerm": "Tenchu - Return from Darkness"},
+				{"searchTerm": "Tenchu 3 - Kaiki no Shou"}
+			]
+		},
+		{
+			"group": "Test Drive",
+			"titles": [
+				{"searchTerm": "TD Overdrive - The Brotherhood of Speed"},
+				{"searchTerm": "Test Drive"}
+			]
+		},
+		{
+			"group": "Test Drive Off-Road - Wide Open",
+			"titles": [
+				{"searchTerm": "Off-Road - Wide Open"},
+				{"searchTerm": "Test Drive Off-Road - Wide Open"}
+			]
+		},
+		{
+			"group": "Tetris Worlds (Online Enabled)",
+			"titles": [
+				{"searchTerm": "Tetris Worlds (Online Enabled)"},
+				{"searchTerm": "Tetris Worlds", "priority": 2}
+			],
+			"compilations": [
+				{"searchTerm": "Star Wars - The Clone Wars + Tetris Worlds", "titlePosition": 2}
+			]
+		},
+		{
+			"group": "TOCA Race Driver (Online Enabled)",
+			"titles": [
+				{"searchTerm": "TOCA Race Driver (Online Enabled)"},
+				{"searchTerm": "DTM Race Driver Live", "priority": 2}
+			]
+		},
+		{
+			"group": "TOCA Race Driver 2",
+			"titles": [
+				{"searchTerm": "DTM Race Driver 2 - Ultimate Racing Simulator"},
+				{"searchTerm": "TOCA Race Driver 2"},
+				{"searchTerm": "V8 Supercars Australia 2"}
+			]
+		},
+		{
+			"group": "TOCA Race Driver 3",
+			"titles": [
+				{"searchTerm": "DTM Race Driver 3"},
+				{"searchTerm": "TOCA Race Driver 3"},
+				{"searchTerm": "V8 Supercars Australia 3"}
+			]
+		},
+		{
+			"group": "Top Gear - RPM Tuning",
+			"titles": [
+				{"searchTerm": "RPM Tuning"},
+				{"searchTerm": "Top Gear - RPM Tuning"}
+			]
+		},
+		{
+			"group": "Top Spin",
+			"titles": [
+				{"searchTerm": "Top Spin"}
+			],
+			"compilations": [
+				{"searchTerm": "NCAA Football 2005 + Top Spin", "titlePosition": 2}
+			]
+		},
+		{
+			"group": "Totaled!",
+			"titles": [
+				{"searchTerm": "Crash"},
+				{"searchTerm": "Totaled!"}
+			]
+		},
+		{
+			"group": "UFC - Ultimate Fighting Championship - Tapout 2",
+			"titles": [
+				{"searchTerm": "UFC - Ultimate Fighting Championship - Tapout 2"},
+				{"searchTerm": "UFC - Ultimate Fighting Championship 2 - Tapout"}
+			]
+		},
+		{
+			"group": "Ultimate Beach Soccer",
+			"titles": [
+				{"searchTerm": "Pro Beach Soccer"},
+				{"searchTerm": "Ultimate Beach Soccer"}
+			]
+		},
+		{
+			"group": "Ultra Bust-A-Move",
+			"titles": [
+				{"searchTerm": "Ultra Bust-A-Move"},
+				{"searchTerm": "Ultra Puzzle Bobble"}
+			]
+		},
+		{
+			"group": "WinBack 2 - Project Poseidon",
+			"titles": [
+				{"searchTerm": "Operation WinBack 2 - Project Poseidon"},
+				{"searchTerm": "WinBack 2 - Project Poseidon"}
+			]
+		},
+		{
+			"group": "Winter X Games Snowboarding 2002",
+			"titles": [
+				{"searchTerm": "Winter X Games Snowboarding 2"},
+				{"searchTerm": "Winter X Games Snowboarding 2002"}
+			]
+		},
+		{
+			"group": "World Soccer Winning Eleven 8 - International",
+			"titles": [
+				{"searchTerm": "Pro Evolution Soccer 4"},
+				{"searchTerm": "World Soccer Winning Eleven 8 - International"}
+			]
+		},
+		{
+			"group": "World Soccer Winning Eleven 9",
+			"titles": [
+				{"searchTerm": "Pro Evolution Soccer 5"},
+				{"searchTerm": "World Soccer Winning Eleven 9"}
+			]
+		},
+		{
+			"group": "Wreckless - The Yakuza Missions",
+			"titles": [
+				{"searchTerm": "Double-S.T.E.A.L"},
+				{"searchTerm": "Wreckless - Mission Yakusas"},
+				{"searchTerm": "Wreckless - The Yakuza Missions"}
+			]
+		},
+		{
+			"group": "WTA Tour Tennis",
+			"titles": [
+				{"searchTerm": "Pro Tennis WTA Tour"},
+				{"searchTerm": "WTA Tour Tennis"},
+				{"searchTerm": "WTA Tour Tennis Pro Evolution"}
+			]
+		},
+		{
+			"group": "WWF Raw",
+			"titles": [
+				{"searchTerm": "WWE Raw"},
+				{"searchTerm": "WWF Raw"}
+			]
+		},
+		{
+			"group": "X2 - Wolverine's Revenge",
+			"titles": [
+				{"searchTerm": "X2 - Wolverine's Revenge"},
+				{"searchTerm": "X-Men 2 - Wolverine's Revenge"}
+			]
+		},
+		{
+			"group": "XIII",
+			"titles": [
+				{"searchTerm": "XIII"},
+				{"searchTerm": "XIII - Daitouryou o Koroshita Otoko"}
+			]
+		}
+	]
+}

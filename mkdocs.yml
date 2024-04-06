@@ -91,6 +91,7 @@ nav:
         - contribute-clone-lists-variants-filters.md
       - contribute-clone-lists-pull-request.md
     - contribute-metadata-files.md
+    - 'Code': contribute-code.md
   - Developers:
     - integrate.md
     - how-retool-works.md

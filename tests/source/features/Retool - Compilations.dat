@@ -1,0 +1,149 @@
+<?xml version="1.0"?>
+<!DOCTYPE datafile PUBLIC "-//Logiqx//DTD ROM Management Datafile//EN" "http://www.logiqx.com/Dats/datafile.dtd">
+<datafile>
+	<header>
+		<name>Retool - Compilations</name>
+		<description>Retool - Compilations (2024-02-25)</description>
+		<version>2024-02-24 00-00-00</version>
+		<date>2024-02-24 00-00-00</date>
+		<author>unexpectedpanda</author>
+		<url>https://unexpectedpanda.github.io/retool</url>
+	</header>
+    <!-- Test compilation assignment -->
+    <game name="Test Title 0 (USA)">
+		<description>Test Title 0 (USA)</description>
+		<rom name="Test Title 0 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 0 (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+    <game name="Test Title 1 (USA)">
+		<description>Test Title 1 (USA)</description>
+		<rom name="Test Title 1 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 1 (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+    <game name="Test Title 2 (USA)">
+		<description>Test Title 2 (USA)</description>
+		<rom name="Test Title 2 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 2 (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+    <game name="Test Title 0 + 1 + 2 (USA)">
+		<description>Test Title 0 + 1 + 2 (USA)</description>
+		<rom name="Test Title 0 + 1 + 2 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 0 + 1 + 2 (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+    <!-- Test compilation higher priority -->
+    <game name="Test Title 3 (USA)">
+		<description>Test Title 3 (USA)</description>
+		<rom name="Test Title 3 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 3 (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+    <game name="Test Title 4 (USA)">
+		<description>Test Title 4 (USA)</description>
+		<rom name="Test Title 4 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 4 (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+    <game name="Test Title 3 + 4 (USA)">
+		<description>Test Title 3 + 4 (USA)</description>
+		<rom name="Test Title 3 + 4 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 3 + 4 (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+    <!-- Test compilation cross-region -->
+    <game name="Test Title 5 (USA)">
+		<description>Test Title 5 (USA)</description>
+		<rom name="Test Title 5 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 5 (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+    <game name="Test Title 6 (Europe)">
+		<description>Test Title 6 (Europe)</description>
+		<rom name="Test Title 6 (Europe).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 6 (Europe).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+    <game name="Test Title 5 + 6 (USA)">
+		<description>Test Title 5 + 6 (USA)</description>
+		<rom name="Test Title 5 + 6 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 5 + 6 (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+    <!-- Test compilation with supersets -->
+    <game name="Test Title 7 (USA)">
+		<description>Test Title 7 (USA)</description>
+		<rom name="Test Title 7 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 7 (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+    <game name="Test Title 7 - Special Edition (USA)">
+		<description>Test Title 7 - Special Edition (USA)</description>
+		<rom name="Test Title 7 - Special Edition (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 7 - Special Edition (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+    <game name="Test Title 8 (USA)">
+		<description>Test Title 8 (USA)</description>
+		<rom name="Test Title 8 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 8 (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+    <game name="Test Title 7 + 8 (USA)">
+		<description>Test Title 7 + 8 (USA)</description>
+		<rom name="Test Title 7 + 8 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 7 + 8 (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+	<game name="Test Title 6 + 7 + 8 (USA)">
+		<description>Test Title 6 + 7 + 8 (USA)</description>
+		<rom name="Test Title 6 + 7 + 8 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 6 + 7 + 8 (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+	<!-- Test compilation with split languages -->
+	<game name="Test Title 9 (Canada) (Fr)">
+		<description>Test Title 9 (Canada) (Fr)</description>
+		<rom name="Test Title 9 (Canada) (Fr).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 9 (Canada) (Fr).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+    <game name="Test Title 10 (Canada)">
+		<description>Test Title 10 (Canada)</description>
+		<rom name="Test Title 10 (Canada).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 10 (Canada).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+    <game name="Test Title 9 + 10 (Canada) (En,Fr+Fr)">
+		<description>Test Title 9 + 10 (Canada) (En,Fr+Fr)</description>
+		<rom name="Test Title 9 + 10 (Canada) (En,Fr+Fr).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 9 + 10 (Canada) (En,Fr+Fr).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+	<!-- Test least duplication. The individual "Title 13" is intentionally missing. -->
+	<game name="Test Title 11 (USA)">
+		<description>Test Title 11 (USA)</description>
+		<rom name="Test Title 11 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 11 (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+    <game name="Test Title 12 (USA)">
+		<description>Test Title 12 (USA)</description>
+		<rom name="Test Title 12 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 12 (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+	<game name="Test Title 14 (USA)">
+		<description>Test Title 14 (USA)</description>
+		<rom name="Test Title 14 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 14 (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+	<game name="Test Title 11 + 12 (USA)">
+		<description>Test Title 11 + 12 (USA)</description>
+		<rom name="Test Title 11 + 12 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 11 + 12 (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+	<game name="Test Title 11 + 12 + 13 (USA)">
+		<description>Test Title 11 + 12 + 13 (USA)</description>
+		<rom name="Test Title 11 + 12 + 13 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 11 + 12 + 13 (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+	<game name="Test Title 11 + 14 (USA)">
+		<description>Test Title 11 + 14 (USA)</description>
+		<rom name="Test Title 11 + 14 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 11 + 14 (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+	<!-- Test compilations with the same titles -->
+	<game name="Test Title 15 + 16 (USA)">
+		<description>Test Title 15 + 16 (USA)</description>
+		<rom name="Test Title 15 + 16 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 15 + 16 (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+	<game name="Test Title 15 + 16 (USA) (Rev 1)">
+		<description>Test Title 15 + 16 (USA) (Rev 1)</description>
+		<rom name="Test Title 15 + 16 (USA) (Rev 1).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 15 + 16 (USA) (Rev 1).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+    </game>
+</datafile>

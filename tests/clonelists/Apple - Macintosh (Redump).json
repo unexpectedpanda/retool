@@ -1,0 +1,504 @@
+{
+	"description": {
+		"name": "Apple - Macintosh (Redump)",
+		"lastUpdated": "10 December 2023",
+		"minimumVersion": "2.00"
+	},
+
+	"mias": [
+		"3-D Ultra Pinball (Japan)",
+		"3-D Ultra Pinball - Creep Night (France)",
+		"3DO Content Library, The (USA) (Disc 88) (Music & Sound Effects)",
+		"3DO Content Library, The (USA) (Disc 89) (Music & Sound Effects)",
+		"3DO Content Library, The (USA) (Disc 90) (Music & Sound Effects)",
+		"3DO Content Library, The (USA) (Disc 91) (Music & Sound Effects)",
+		"3DO Content Library, The (USA) (Disc 92) (Music & Sound Effects)",
+		"3DO Content Library, The (USA) (Disc 93) (Music & Sound Effects)",
+		"3DO Content Library, The (USA) (Disc 94) (Music & Sound Effects)",
+		"3DO Content Library, The (USA) (Disc 95) (Music & Sound Effects)",
+		"3DO Content Library, The (USA) (Disc 96) (Music & Sound Effects)",
+		"3DO Content Library, The (USA) (Disc 97) (Music & Sound Effects)",
+		"3DO Content Library, The (USA) (Disc 98) (Music & Sound Effects)",
+		"3DO Content Library, The (USA) (Disc 99) (Music & Sound Effects)",
+		"7th Guest, The (USA) (Disc 1)",
+		"Afterlife (France)",
+		"Aquazone Compact (Japan)",
+		"Aquazone Compact (Japan) (Rerelease)",
+		"Aquazone Deluxe (Japan)",
+		"Aquazone Sen'you Option Disc - iMacinfish Vol. 1 - Bondi Blue (Japan)",
+		"Aquazone Sen'you Option Disc - iMacinfish Vol. 2 - Grape (Japan)",
+		"Aquazone Sen'you Option Disc - iMacinfish Vol. 3 - Tangerine (Japan)",
+		"Aquazone Sen'you Option Disc - iMacinfish Vol. 4 - Lime (Japan)",
+		"Aquazone Sen'you Option Disc - iMacinfish Vol. 5 - Blueberry (Japan)",
+		"Aquazone Sen'you Option Disc - iMacinfish Vol. 6 - Strawberry (Japan)",
+		"Arcade Battles (USA)",
+		"Atlantis - Das sagenhafte Abenteuer (Germany) (Disc 1)",
+		"Atlantis - Das sagenhafte Abenteuer (Germany) (Disc 2)",
+		"Atlantis - Das sagenhafte Abenteuer (Germany) (Disc 3)",
+		"Atlantis - Das sagenhafte Abenteuer (Germany) (Disc 4)",
+		"Audition 2, The (Japan) (Disc 1)",
+		"Audition 2, The (Japan) (Disc 2)",
+		"Baldur's Gate II - Shadows of Amn (USA) (Disc 1)",
+		"Baldur's Gate II - Shadows of Amn (USA) (Disc 2)",
+		"Baldur's Gate II - Shadows of Amn (USA) (Disc 3)",
+		"Baldur's Gate II - Shadows of Amn (USA) (Disc 4)",
+		"Bandai Visual CD-ROM Previews for Macintosh Vol. 1 (Japan)",
+		"Barbara Don't Stop! (Japan)",
+		"Barbara ni Aitakute... (Japan)",
+		"Black & White (Japan) (Data Disc)",
+		"Black & White (Japan) (Game Disc)",
+		"Blood Bath (USA)",
+		"BrainDead 13 (USA)",
+		"CD-ROM MacLife No. 1 (Japan)",
+		"CD-ROM MacLife No. 131 (Japan)",
+		"CD-ROM MacLife No. 132 (Japan)",
+		"CD-ROM MacLife No. 133 (Japan)",
+		"CD-ROM MacLife No. 134 (Japan)",
+		"CD-ROM MacLife No. 135 (Japan)",
+		"CD-ROM MacLife No. 136 (Japan)",
+		"CD-ROM MacLife No. 138 (Japan)",
+		"CD-ROM MacLife No. 139 (Japan)",
+		"CD-ROM MacLife No. 140 (Japan) (Disc 1)",
+		"CD-ROM MacLife No. 140 (Japan) (Disc 2)",
+		"CD-ROM MacLife No. 141 (Japan)",
+		"CD-ROM MacLife No. 142 (Japan)",
+		"CD-ROM MacLife No. 143 (Japan)",
+		"CD-ROM MacLife No. 148 (Japan)",
+		"CD-ROM MacLife No. 149 (Japan)",
+		"CD-ROM MacLife No. 150 (Japan)",
+		"CD-ROM MacLife No. 151 (Japan)",
+		"CD-ROM MacLife No. 152 (Japan)",
+		"CD-ROM MacLife No. 153 (Japan)",
+		"CD-ROM MacLife No. 154 (Japan)",
+		"CD-ROM MacLife No. 155 (Japan)",
+		"CD-ROM MacLife No. 17 (Japan)",
+		"CD-ROM MacLife No. 41 (Japan)",
+		"CD-ROM MacLife No. 46 (Japan)",
+		"CD-ROM MacLife No. 6 (Japan)",
+		"Call of Duty (USA)",
+		"Call of Duty 2 (USA)",
+		"Call of Duty 4 - Modern Warfare (USA) (v1.7.1)",
+		"Crescent Satsujin Jiken - Hyena no Jijou (Japan)",
+		"Crescent Satsujin Jiken - Tozasareta Nikki (Japan)",
+		"Daedalus Encounter, The - Episode 1 - Nanpasen no Alien (Japan) (Disc 1)",
+		"Daedalus Encounter, The - Episode 1 - Nanpasen no Alien (Japan) (Disc 2)",
+		"Daedalus Encounter, The - Episode 1 - Nanpasen no Alien (Japan) (Disc 3)",
+		"Daikoukai Jidai III - Costa del Sol (Japan)",
+		"Daisenryaku (Japan)",
+		"Dark Seed II (Japan)",
+		"Darkseed (Europe) (Fr,De)",
+		"Dig, The (UK)",
+		"Dink - Interactive Nanpa Special (Japan)",
+		"Eberouge (Japan)",
+		"Eberouge (Japan) (Alt)",
+		"F-A-18 Hornet 2.0 (Japan) (En,Ja)",
+		"First Live (Japan)",
+		"Flying Nightmares (Japan)",
+		"Frankenstein - Through the Eyes of the Monster (USA)",
+		"Freedom Force (USA)",
+		"Ginga Eiyuu Densetsu - Screen Saver Vol. 2 for Macintosh (Japan)",
+		"Gridz (USA)",
+		"Guignols de l'Info, Les... le Jeu! (France)",
+		"Halo - Combat Evolved (Japan)",
+		"Halo - Combat Evolved (USA) (Alt)",
+		"HeartWork - Symphony of Destruction (Japan)",
+		"Heavy Metal - F.A.K.K. 2 (USA)",
+		"Hell - A Cyberpunk Thriller (Japan)",
+		"Heroes of Might and Magic (USA)",
+		"Heroes of Might and Magic II - The Succession Wars (USA)",
+		"Heroes of Might and Magic III (USA)",
+		"Hexen - Deathkings of the Dark Citadel (USA)",
+		"Highschool Terra Story (Japan)",
+		"Inherit the Earth - Quest for the Orb (USA)",
+		"Initial D Second Stage - Typing Kantou Saisoku Project (Japan)",
+		"Iron Helix (Japan)",
+		"Journeyman Project 2, The - Buried in Time (Japan) (Disc 1)",
+		"Journeyman Project 2, The - Buried in Time (Japan) (Disc 2)",
+		"Journeyman Project 2, The - Buried in Time (Japan) (Disc 3)",
+		"Kana - Imouto (Japan)",
+		"Klik & Play (France)",
+		"Last War (Japan)",
+		"Leisure Suit Larry 6 - Shape Up or Slip Out! (USA)",
+		"Mac Fan Internet 1997 6 (Japan)",
+		"Mac Fan Internet 1997 7 (Japan)",
+		"MacAttack (Europe)",
+		"MacFormat n. 12 (Spain)",
+		"MacLife 50-gou Kinen Gouka CD-ROM (Japan)",
+		"MacPeople 1997 No. 12 6.15 (Japan)",
+		"MacPeople 1997 No. 14 7.15 (Japan)",
+		"MacPeople 1997 No. 18 9.15 (Japan)",
+		"MacPeople 1997 No. 20 10.15 (Japan)",
+		"MacPeople 1997 No. 22 11.15 (Japan)",
+		"MacPeople 1998 No. 10 5.15 (Japan)",
+		"MacPeople 1998 No. 12 6.15 (Japan)",
+		"MacPeople 1998 No. 14 7.15 (Japan)",
+		"MacPeople 1998 No. 15 8.1 (Japan)",
+		"MacPeople 1998 No. 16 8.15-9.1 (Japan)",
+		"MacPeople 1998 No. 18 9.15 (Japan)",
+		"MacPeople 1998 No. 20 10.15 (Japan)",
+		"MacPeople 1998 No. 4 2.15 (Japan)",
+		"MacPeople 1998 No. 6 3.15 (Japan)",
+		"MacPeople 1998 No. 8 4.15 (Japan)",
+		"MacPeople 1999 No. 1 1.1 (Japan)",
+		"MacPeople 1999 No. 10 5.15 (Japan)",
+		"MacPeople 1999 No. 11 6.1 (Japan)",
+		"MacPeople 1999 No. 15 8.1 (Japan)",
+		"MacPeople 1999 No. 22 11.15 (Japan)",
+		"MacPeople 1999 No. 7 4.1 (Japan)",
+		"MacPeople 1999 No. 8 4.15 (Japan)",
+		"MacUser - MacBin 1 (Japan)",
+		"MacUser - MacBin 10 (Japan)",
+		"MacUser - MacBin 13 (Japan)",
+		"MacUser - MacBin 14 (Japan)",
+		"MacUser - MacBin 15 (Japan)",
+		"MacUser - MacBin 16 (Japan)",
+		"MacUser - MacBin 17 (Japan)",
+		"MacUser - MacBin 18 (Japan)",
+		"MacUser - MacBin 19 (Japan) (Disc A)",
+		"MacUser - MacBin 19 (Japan) (Disc B)",
+		"MacUser - MacBin 3 (Japan)",
+		"MacUser - MacBin 6 (Japan)",
+		"MacUser - MacBin 7 (Japan)",
+		"MacUser - MacBin 8 (Japan)",
+		"MacUser - MacBin 9 (Japan)",
+		"Mad Dog McCree (USA)",
+		"Maniac Mansion - Day of the Tentacle (France)",
+		"MechWarrior 2 - 31st Century Combat (USA)",
+		"Monty Python Sacre Graal (France)",
+		"Monty Python's Complete Waste of Time (USA)",
+		"Myst (Japan)",
+		"Myst (Japan) (Kinen Kakaku-ban)",
+		"Myst - Masterpiece Edition (Germany) (Rerelease)",
+		"Nanpa, The - Tokyo Tadaman Monogatari (Japan)",
+		"Nikkei Mac CD 1998.5 Volume 13 (Japan)",
+		"Nikkei Mac CD 1998.6 Volume 14 (Japan)",
+		"Nikkei Mac CD 1999.11 Volume 28 (Japan)",
+		"Nikkei Mac CD 1999.12 Volume 29 (Japan)",
+		"Nikkei Mac CD 1999.2 Volume 22 (Japan)",
+		"Nikkei Mac CD 1999.3 Volume 23 (Japan)",
+		"Nikkei Mac CD 1999.4 Volume 24 (Japan)",
+		"No One Lives Forever 2 - A Spy in H.A.R.M.'s Way (USA) (Disc 1)",
+		"No One Lives Forever 2 - A Spy in H.A.R.M.'s Way (USA) (Disc 2)",
+		"Obsidian (Japan) (Disc 1)",
+		"Obsidian (Japan) (Disc 2)",
+		"Obsidian (Japan) (Disc 3)",
+		"Obsidian (Japan) (Disc 4)",
+		"Obsidian (Japan) (Disc 5)",
+		"Oceans Below (Japan)",
+		"Phantasmagoria (Europe) (Disc 1)",
+		"Phantasmagoria (Europe) (Disc 2)",
+		"Phantasmagoria (Europe) (Disc 3)",
+		"Phantasmagoria (Europe) (Disc 4)",
+		"Phantasmagoria (Europe) (Disc 5)",
+		"Phantasmagoria (Europe) (Disc 6)",
+		"Phantasmagoria (Europe) (Disc 7)",
+		"Prisoner of Ice (France) (En,Fr,De,Nl,Sv) (Covermount)",
+		"Puyo Puyo Tsuu (Japan)",
+		"Quake (Europe)",
+		"Quake 4 (USA)",
+		"Quake III - Arena (Europe)",
+		"Quantum Gate I - Akumu no Joshou (Japan)",
+		"Return to Zork (USA, Europe)",
+		"Rune - Halls of Valhalla (USA)",
+		"Sid Meier's Civilization IV (USA) (En,Fr,De)",
+		"SimTown - The Town You Build Yourself! (Japan)",
+		"Sims 2, The (USA) (En,Ja,Fr,De,It)",
+		"Sims 2, The (USA) (Rerelease)",
+		"Sims 2, The - Nightlife (Expansion Pack) (USA)",
+		"Sims 2, The - University (Expansion Pack) (USA)",
+		"Sims, The - Vacation (Expansion Pack) (USA)",
+		"Sinkha (Japan) (En,Ja,Fr,Es,It)",
+		"Sinkha (USA)",
+		"Star Wars - Rebel Assault (Europe)",
+		"Star Wars - X-Wing - Collector's CD-ROM (Japan)",
+		"Team Xtreme - Operation - Weather Disaster (USA)",
+		"Terry Pratchett's Discworld (UK)",
+		"Theme Park (Europe) (En,Fr,De,Es,It)",
+		"Theme Park (Japan)",
+		"Titanic - Adventure Out of Time (Japan) (Disc 1)",
+		"Titanic - Adventure Out of Time (Japan) (Disc 2)",
+		"Tokimeite Yuuwaku (Japan)",
+		"Tomb Raider - The Last Revelation (Europe)",
+		"Tomb Raider Gold (Japan)",
+		"Train Simulator - Chuuou-sen (201-kei) (Japan)",
+		"Train Simulator - JR Shikoku Vol. 1 (Takamatsu-Kotohira, Takamatsu-Kojima) (Japan)",
+		"Train Simulator - Toukaidou Honsen (211-kei) (Japan)",
+		"URM - M15 Wakusei ni Umarete (Japan)",
+		"Ukiuki Tsuri Tengoku 2 - Hato no Gomokuzuri (Japan)",
+		"Unreal Tournament (USA)",
+		"Vortex, The - Quantum Gate II (Japan) (Disc 1)",
+		"Vortex, The - Quantum Gate II (Japan) (Disc 2)",
+		"Vortex, The - Quantum Gate II (Japan) (Disc 3)",
+		"Wing Commander III - Heart of the Tiger (USA) (Disc 1)",
+		"Wing Commander III - Heart of the Tiger (USA) (Disc 2)",
+		"Wing Commander III - Heart of the Tiger (USA) (Disc 3)",
+		"Wing Commander III - Heart of the Tiger (USA) (Disc 4)",
+		"Worms Blast (USA) (En,Fr,De,Es,It)",
+		"Yellow Brick Road II - Glinda to Nishi no Majo (Japan) (Disc 1)",
+		"Yellow Brick Road II - Glinda to Nishi no Majo (Japan) (Disc 2)",
+		"Zork Nemesis (Japan) (Disc 1)",
+		"Zork Nemesis (Japan) (Disc 2)",
+		"Zork Nemesis (Japan) (Disc 3)"
+	],
+
+	"variants": [
+		{
+			"group": "3-D Ultra Pinball",
+			"titles": [
+				{"searchTerm": "3-D Ultra Pinball"}
+			],
+			"compilations": [
+				{"searchTerm": "3-D Ultra Pinball & Trophy Bass", "titlePosition": 1}
+			]
+		},
+		{
+			"group": "Black & White (Data Disc)",
+			"titles": [
+				{"searchTerm": "Black & White (Data Disc)"}
+			],
+			"supersets": [
+				{"searchTerm": "Black & White - Platinum Pack"}
+			]
+		},
+		{
+			"group": "Black & White (Game Disc)",
+			"titles": [
+				{"searchTerm": "Black & White (Game Disc)"}
+			],
+			"supersets": [
+				{"searchTerm": "Black & White - Platinum Pack"}
+			]
+		},
+		{
+			"group": "Daedalus Encounter, The (Disc 1)",
+			"titles": [
+				{"searchTerm": "Daedalus Encounter, The (Disc 1)"},
+				{"searchTerm": "Daedalus Encounter, The - Episode 1 - Nanpasen no Alien (Disc 1)"}
+			]
+		},
+		{
+			"group": "Daedalus Encounter, The (Disc 2)",
+			"titles": [
+				{"searchTerm": "Daedalus Encounter, The (Disc 2)"},
+				{"searchTerm": "Daedalus Encounter, The - Episode 1 - Nanpasen no Alien (Disc 2)"}
+			]
+		},
+		{
+			"group": "Daedalus Encounter, The (Disc 3)",
+			"titles": [
+				{"searchTerm": "Daedalus Encounter, The (Disc 3)"},
+				{"searchTerm": "Daedalus Encounter, The - Episode 1 - Nanpasen no Alien (Disc 3)"}
+			]
+		},
+		{
+			"group": "Dungeon Master II - The Legend of Skullkeep",
+			"titles": [
+				{"searchTerm": "Dungeon Master II - Skullkeep"},
+				{"searchTerm": "Dungeon Master II - The Legend of Skullkeep"}
+			]
+		},
+		{
+			"group": "Harry Potter and the Chamber of Secrets",
+			"titles": [
+				{"searchTerm": "Harry Potter and the Chamber of Secrets"},
+				{"searchTerm": "Harry Potter et la Chambre des Secrets"}
+			]
+		},
+		{
+			"group": "Harry Potter and the Sorcerer's Stone",
+			"titles": [
+				{"searchTerm": "Harry Potter a l'Ecole des Sorciers"},
+				{"searchTerm": "Harry Potter and the Sorcerer's Stone"}
+			],
+			"supersets": [
+				{"searchTerm": "Harry Potter and the Sorcerer's Stone (Deluxe Edition)"}
+			]
+		},
+		{
+			"group": "Heroes of Might and Magic III",
+			"titles": [
+				{"searchTerm": "Heroes of Might and Magic III"}
+			],
+			"supersets": [
+				{"searchTerm": "Heroes of Might and Magic III Complete (Disc 1) (Install Disc)"}
+			]
+		},
+		{
+			"group": "In Memoriam (Mac Install)",
+			"titles": [
+				{"searchTerm": "In Memoriam (MAC - Install)"},
+				{"searchTerm": "In Memoriam (Mac Install)"}
+			]
+		},
+		{
+			"group": "Legend of Kyrandia, The - Book One",
+			"titles": [
+				{"searchTerm": "Legend of Kyrandia, The - Book One"},
+				{"searchTerm": "Legend of Kyrandia, The", "priority": 2}
+			]
+		},
+		{
+			"group": "Medal of Honor - Allied Assault (Disc 1)",
+			"titles": [
+				{"searchTerm": "Medal of Honor - Allied Assault (Disc 1)"}
+			],
+			"supersets": [
+				{"searchTerm": "Medal of Honor - Allied Assault - War Chest"}
+			]
+		},
+		{
+			"group": "Medal of Honor - Allied Assault (Disc 2)",
+			"titles": [
+				{"searchTerm": "Medal of Honor - Allied Assault (Disc 2)"}
+			],
+			"supersets": [
+				{"searchTerm": "Medal of Honor - Allied Assault - War Chest"}
+			]
+		},
+		{
+			"group": "Medal of Honor - Allied Assault - Breakthrough",
+			"titles": [
+				{"searchTerm": "Medal of Honor - Allied Assault - Breakthrough"}
+			],
+			"supersets": [
+				{"searchTerm": "Medal of Honor - Allied Assault - War Chest"}
+			]
+		},
+		{
+			"group": "Medal of Honor - Allied Assault - Spearhead",
+			"titles": [
+				{"searchTerm": "Medal of Honor - Allied Assault - Spearhead"}
+			],
+			"supersets": [
+				{"searchTerm": "Medal of Honor - Allied Assault - War Chest"}
+			]
+		},
+		{
+			"group": "Myst (Kinen Kakaku-ban)",
+			"titles": [
+				{"searchTerm": "Myst (Kinen Kakaku-ban)"},
+				{"searchTerm": "Myst", "priority": 2}
+			]
+		},
+		{
+			"group": "Rayman 3 - Hoodlum Havoc (Disc 1)",
+			"titles": [
+				{"searchTerm": "Rayman 3 - Hoodlum Havoc (Disc 1)"}
+			],
+			"supersets": [
+				{"searchTerm": "Rayman 3 - Hoodlum Havoc"}
+			]
+		},
+		{
+			"group": "Rayman 3 - Hoodlum Havoc (Disc 2)",
+			"titles": [
+				{"searchTerm": "Rayman 3 - Hoodlum Havoc (Disc 2)"}
+			],
+			"supersets": [
+				{"searchTerm": "Rayman 3 - Hoodlum Havoc"}
+			]
+		},
+		{
+			"group": "Rayman 3 - Hoodlum Havoc (Disc 3)",
+			"titles": [
+				{"searchTerm": "Rayman 3 - Hoodlum Havoc (Disc 3)"}
+			],
+			"supersets": [
+				{"searchTerm": "Rayman 3 - Hoodlum Havoc"}
+			]
+		},
+		{
+			"group": "Sims, The",
+			"titles": [
+				{"searchTerm": "SimPeople"},
+				{"searchTerm": "Sims, The"}
+			],
+			"supersets": [
+				{"searchTerm": "Sims, The - Complete Collection"}
+			]
+		},
+		{
+			"group": "Sims, The - Hot Date (Expansion Pack)",
+			"titles": [
+				{"searchTerm": "Sims, The - Hot Date (Expansion Pack)"}
+			],
+			"supersets": [
+				{"searchTerm": "Sims, The - Complete Collection"}
+			]
+		},
+		{
+			"group": "Sims, The - Livin' Large (Expansion Pack)",
+			"titles": [
+				{"searchTerm": "Sims, The - Livin' Large (Expansion Pack)"}
+			],
+			"supersets": [
+				{"searchTerm": "Sims, The - Complete Collection"}
+			]
+		},
+		{
+			"group": "Sims, The - Party Pack",
+			"titles": [
+				{"searchTerm": "Sims, The - Party Pack"}
+			],
+			"supersets": [
+				{"searchTerm": "Sims, The - Complete Collection"}
+			]
+		},
+		{
+			"group": "Sims, The - Superstar (Expansion Pack) (Disc 1)",
+			"titles": [
+				{"searchTerm": "Sims, Les - Superstar (Disc 1) (Disc Additionnel)"},
+				{"searchTerm": "Sims, The - Superstar (Expansion Pack) (Disc 1)"}
+			],
+			"supersets": [
+				{"searchTerm": "Sims, The - Complete Collection"}
+			]
+		},
+		{
+			"group": "Sims, The - Superstar (Expansion Pack) (Disc 2)",
+			"titles": [
+				{"searchTerm": "Sims, Les - Superstar (Disc 2) (Disc Additionnel)"},
+				{"searchTerm": "Sims, The - Superstar (Expansion Pack) (Disc 2)"}
+			],
+			"supersets": [
+				{"searchTerm": "Sims, The - Complete Collection"}
+			]
+		},
+		{
+			"group": "Sims, The - Vacation (Expansion Pack)",
+			"titles": [
+				{"searchTerm": "Sims, The - Vacation (Expansion Pack)"}
+			],
+			"supersets": [
+				{"searchTerm": "Sims, The - Complete Collection"}
+			]
+		},
+		{
+			"group": "Trophy Bass",
+			"compilations": [
+				{"searchTerm": "3-D Ultra Pinball & Trophy Bass", "titlePosition": 2}
+			]
+		},
+		{
+			"group": "Zork Nemesis (Disc 1)",
+			"titles": [
+				{"searchTerm": "Zork Nemesis (Disc 1)"},
+				{"searchTerm": "Zork Nemesis - The Forbidden Lands (Disc 1)"}
+			]
+		},
+		{
+			"group": "Zork Nemesis (Disc 2)",
+			"titles": [
+				{"searchTerm": "Zork Nemesis (Disc 2)"},
+				{"searchTerm": "Zork Nemesis - The Forbidden Lands (Disc 2)"}
+			]
+		},
+		{
+			"group": "Zork Nemesis (Disc 3)",
+			"titles": [
+				{"searchTerm": "Zork Nemesis (Disc 3)"},
+				{"searchTerm": "Zork Nemesis - The Forbidden Lands (Disc 3)"}
+			]
+		}
+	]
+}

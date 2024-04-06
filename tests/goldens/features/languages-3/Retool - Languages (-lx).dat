@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<!DOCTYPE datafile PUBLIC "-//Logiqx//DTD ROM Management Datafile//EN" "https://raw.githubusercontent.com/unexpectedpanda/retool-clonelists-metadata/main/datafile.dtd">
+<datafile>
+	<header>
+		<name>Retool - Languages (Retool)</name>
+		<description>Retool - Languages (7) (-lx) (2024-02-24 00-00-00) (Retool)</description>
+		<version>2024-02-24 00-00-00</version>
+		<date>2023-06-17 00-00-00</date>
+		<author>unexpectedpanda</author>
+		<homepage>http://www.github.com/unexpectedpanda/retool</homepage>
+		<url>https://unexpectedpanda.github.io/retool</url>
+		<retool>Created by Retool X</retool>
+	</header>
+	<game name="Test Title (Europe)" cloneof="Test Title (Japan)">
+		<category>Games</category>
+		<description>Test Title (Europe)</description>
+		<release name="Test Title (Europe)" region="Europe" language="En"/>
+		<rom name="Test Title (Europe).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title (Europe).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Test Title (Europe) (En,De,It)" cloneof="Test Title (Japan)">
+		<category>Games</category>
+		<description>Test Title (Europe) (En,De,It)</description>
+		<release name="Test Title (Europe) (En,De,It)" region="Europe" language="De"/>
+		<release name="Test Title (Europe) (En,De,It)" region="Europe" language="En"/>
+		<release name="Test Title (Europe) (En,De,It)" region="Europe" language="It"/>
+		<rom name="Test Title (Europe) (En,De,It).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title (Europe) (En,De,It).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Test Title (Europe) (En,Es,It)" cloneof="Test Title (Japan)">
+		<category>Games</category>
+		<description>Test Title (Europe) (En,Es,It)</description>
+		<release name="Test Title (Europe) (En,Es,It)" region="Europe" language="En"/>
+		<release name="Test Title (Europe) (En,Es,It)" region="Europe" language="Es"/>
+		<release name="Test Title (Europe) (En,Es,It)" region="Europe" language="It"/>
+		<rom name="Test Title (Europe) (En,Es,It).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title (Europe) (En,Es,It).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Test Title (Europe) (En,Fr,De,It)" cloneof="Test Title (Japan)">
+		<category>Games</category>
+		<description>Test Title (Europe) (En,Fr,De,It)</description>
+		<release name="Test Title (Europe) (En,Fr,De,It)" region="Europe" language="De"/>
+		<release name="Test Title (Europe) (En,Fr,De,It)" region="Europe" language="En"/>
+		<release name="Test Title (Europe) (En,Fr,De,It)" region="Europe" language="Fr"/>
+		<release name="Test Title (Europe) (En,Fr,De,It)" region="Europe" language="It"/>
+		<rom name="Test Title (Europe) (En,Fr,De,It).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title (Europe) (En,Fr,De,It).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Test Title (Europe) (En,Fr,It)" cloneof="Test Title (Japan)">
+		<category>Games</category>
+		<description>Test Title (Europe) (En,Fr,It)</description>
+		<release name="Test Title (Europe) (En,Fr,It)" region="Europe" language="En"/>
+		<release name="Test Title (Europe) (En,Fr,It)" region="Europe" language="Fr"/>
+		<release name="Test Title (Europe) (En,Fr,It)" region="Europe" language="It"/>
+		<rom name="Test Title (Europe) (En,Fr,It).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title (Europe) (En,Fr,It).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Test Title (Japan)">
+		<category>Games</category>
+		<description>Test Title (Japan)</description>
+		<release name="Test Title (Japan)" region="Japan" language="Ja"/>
+		<rom name="Test Title (Japan).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title (Japan).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Test Title (USA)" cloneof="Test Title (Japan)">
+		<category>Games</category>
+		<description>Test Title (USA)</description>
+		<release name="Test Title (USA)" region="USA" language="En"/>
+		<rom name="Test Title (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+</datafile>

@@ -3227,29 +3227,34 @@ class ParentTools:
                 ):
                     if not config.user_input.region_bias:
                         # Leave supersets alone if the user doesn't specify region priority
-                        if (not title_1.is_superset
-                            and not title_2.is_superset):
-                                if title_1.region_priority < title_2.region_priority:
-                                    cross_region_parent_titles.remove(title_2)
-                                elif title_2.region_priority < title_1.region_priority:
-                                    cross_region_parent_titles.remove(title_1)
+                        if not title_1.is_superset and not title_2.is_superset:
+                            if title_1.region_priority < title_2.region_priority:
+                                cross_region_parent_titles.remove(title_2)
+                            elif title_2.region_priority < title_1.region_priority:
+                                cross_region_parent_titles.remove(title_1)
                     else:
                         # Supersets can be removed if the user does specify region priority,
                         # except for "World" supersets where USA, Europe, or Japan are involved
                         if title_1.region_priority < title_2.region_priority:
-                            if not ((
-                                title_1.primary_region == 'USA'
-                                or title_1.primary_region == 'Europe'
-                                or title_1.primary_region == 'Japan')
-                                and title_2.primary_region == 'World'):
-                                    cross_region_parent_titles.remove(title_2)
+                            if not (
+                                (
+                                    title_1.primary_region == 'USA'
+                                    or title_1.primary_region == 'Europe'
+                                    or title_1.primary_region == 'Japan'
+                                )
+                                and title_2.primary_region == 'World'
+                            ):
+                                cross_region_parent_titles.remove(title_2)
                         elif title_2.region_priority < title_1.region_priority:
-                            if not ((
-                                title_2.primary_region == 'USA'
-                                or title_2.primary_region == 'Europe'
-                                or title_2.primary_region == 'Japan')
-                                and title_1.primary_region == 'World'):
-                                    cross_region_parent_titles.remove(title_1)
+                            if not (
+                                (
+                                    title_2.primary_region == 'USA'
+                                    or title_2.primary_region == 'Europe'
+                                    or title_2.primary_region == 'Japan'
+                                )
+                                and title_1.primary_region == 'World'
+                            ):
+                                cross_region_parent_titles.remove(title_1)
 
             if report_on_match:
                 TraceTools.trace_title(

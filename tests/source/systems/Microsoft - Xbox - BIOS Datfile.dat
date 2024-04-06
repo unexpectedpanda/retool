@@ -1,0 +1,49 @@
+clrmamepro (
+	name "Microsoft - Xbox - BIOS Images"
+	description "Microsoft - Xbox - BIOS Images (7) (2010-09-13)"
+	category Console
+	version 2010-09-13
+	author "Jackal | redump.org"
+)
+
+game (
+	name "xbox-3944"
+	description "Xbox v1.0 (Kernel Version 1.00.3944.01)"
+	rom ( name xbox-3944.bin size 1000 crc 10000000 md5 10000000000000000000000000000000 sha1 1000000000000000000000000000000000000000 )
+)
+
+game (
+	name "xbox-4034"
+	description "Xbox v1.0 (Kernel Version 1.00.4034.01)"
+	rom ( name xbox-4034.bin size 1000 crc 10000000 md5 10000000000000000000000000000000 sha1 1000000000000000000000000000000000000000 )
+)
+
+game (
+	name "xbox-4817"
+	description "Xbox v1.1 (Kernel Version 1.00.4817.01)"
+	rom ( name xbox-4817.bin size 1000 crc 10000000 md5 10000000000000000000000000000000 sha1 1000000000000000000000000000000000000000 )
+)
+
+game (
+	name "xbox-5101"
+	description "Xbox v1.2/v1.3/v1.4/v1.5 (Kernel Version 1.00.5101.01)"
+	rom ( name xbox-5101.bin size 1000 crc 10000000 md5 10000000000000000000000000000000 sha1 1000000000000000000000000000000000000000 )
+)
+
+game (
+	name "xbox-5530"
+	description "Xbox v1.4/v1.5 (Kernel Version 1.00.5530.01)"
+	rom ( name xbox-5530.bin size 1000 crc 10000000 md5 10000000000000000000000000000000 sha1 1000000000000000000000000000000000000000 )
+)
+
+game (
+	name "xbox-5713"
+	description "Xbox v1.4/v1.5 (Kernel Version 1.00.5713.01)"
+	rom ( name xbox-5713.bin size 1000 crc 10000000 md5 10000000000000000000000000000000 sha1 1000000000000000000000000000000000000000 )
+)
+
+game (
+	name "xbox-5838"
+	description "Xbox v1.6 (Kernel Version 1.00.5838.01)"
+	rom ( name xbox-5838.bin size 1000 crc 10000000 md5 10000000000000000000000000000000 sha1 1000000000000000000000000000000000000000 )
+)

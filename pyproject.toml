@@ -1,6 +1,6 @@
 [project]
 name = "Retool"
-version = "2.03.1"
+version = "2.03.2"
 description = "A better filter tool for Redump and No-Intro DATs"
 readme = "readme.md"
 requires-python = ">=3.10"
@@ -18,13 +18,13 @@ classifiers = [
     "Programming Language :: Python :: 3.12",
 ]
 dependencies = [
-    "alive-progress >= 3.0.1",
+    "alive-progress >= 3.1.5",
     "darkdetect >= 0.8.0",
-    "lxml >= 4.9.2",
-    "psutil >= 5.9.4",
-    "PySide6 >= 6.4.2",
-    "strictyaml >= 1.6.2",
-    "validators >= 0.20.0",
+    "lxml >= 5.2.1",
+    "psutil >= 5.9.8",
+    "PySide6 == 6.6.0",
+    "strictyaml >= 1.7.3",
+    "validators >= 0.28.0",
 ]
 
 [project.urls]
@@ -51,7 +51,6 @@ python = ["3.10", "3.11", "3.12"]
 all = [
     "hatch run style:fix",
     "hatch run types:check",
-    # "hatch run test:test",
     "hatch run lint:check",
     "hatch run integration:test",
 ]
@@ -148,33 +147,6 @@ extend-exclude = ["modules/gui/resources_rc.py", "modules/gui/retool_*.py"]
 
 [tool.ruff.lint.flake8-comprehensions]
 allow-dict-calls-with-keyword-arguments = true
-
-# Hatch unit tests
-# [tool.hatch.envs.test]
-# dependencies = [
-#     "coverage",
-# ]
-
-# [[tool.hatch.envs.test.matrix]]
-# python = ["3.10", "3.11", "3.12"]
-# type = ["default", "min-req"]
-
-# [tool.hatch.envs.test.overrides]
-# matrix.type.features = [
-#     { value = "min-versions", if = ["min-req"] },
-# ]
-# matrix.type.scripts = [
-#     { key = "with-coverage", value = "_coverage", if = ["default"] },
-# ]
-
-# [tool.hatch.envs.test.scripts]
-# test = 'python -m unittest discover -s retool -p "*tests.py"'
-# _coverage = [
-#     "coverage run retool.py path-to-dat",
-#     "coverage xml",
-#     "coverage report --show-missing"
-# ]
-# with-coverage = "test"
 
 # Hatch integration tests
 [tool.hatch.envs.integration]
