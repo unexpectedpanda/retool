@@ -10,6 +10,11 @@ import sys
 
 from modules.utils import Font, eprint
 
+# Set the VS Code path here
+vscode_path = pathlib.Path(
+    'C:/Users/lister/AppData/Local/Programs/Microsoft VS Code/Code.exe'
+)
+
 
 def integration_test(
     input_dats: list[str],
@@ -49,7 +54,7 @@ def integration_test(
             eprint(f'\n{Font.heading}Run {i} of {runs}{Font.end}')
 
         for dat in input_dats:
-            subprocess.run(f'python retool.py "{pathlib.Path(dat)}" {arguments}', cwd='.')
+            subprocess.run(f'python retool.py "{pathlib.Path(dat)}" {arguments}', cwd='.', shell=True)
 
         compare_files(golden_comparison_folder, test_name, run_number)
 
@@ -107,16 +112,7 @@ def compare_files(golden_folder: str, test_name: str, run: int = 0) -> None:
                     ).resolve()
                     test_link = pathlib.Path(test).resolve()
 
-                    # VS Code allows CTRL+click of paths with spaces from Terminal in certain scenarios.
-                    # One of those scenarios is when the path is underlined, another is when it's on its own line.
-                    # print(f'Golden link: {Font.underline}{golden_link}{Font.end}')
-                    # print(f'Test link: {Font.underline}{test_link}{Font.end}\n')
-
-                    # Automatically open the differing files. Set the VS Code path here.
-                    vscode_path = pathlib.Path(
-                        'C:/Users/lister/AppData/Local/Programs/Microsoft VS Code/Code.exe'
-                    )
-
+                    # Automatically open the differing files.
                     eprint('Opening file comparison...')
 
                     subprocess.run(

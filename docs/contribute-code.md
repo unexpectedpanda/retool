@@ -29,6 +29,10 @@ exit
 
 ## Run formatters and tests
 
+Before running any tests, install [Visual Studio Code](https://code.visualstudio.com/),
+and set its path in `tests/integration.py`. This is used for comparing diffs if a test
+fails.
+
 To run all formatters and tests, run the following command:
 
 ```
