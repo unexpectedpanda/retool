@@ -1523,8 +1523,11 @@ def load_data(data_file: str, file_type: str, config: Config) -> dict[str, Any]:
                     flush=True,
                 )
                 download(
-                    f'{config.clone_list_metadata_download_location}/{data_file}',
-                    str(pathlib.Path(f'{data_file}')),
+                    (
+                        f'{config.clone_list_metadata_download_location}/{data_file}',
+                        str(pathlib.Path(f'{data_file}')),
+                    ),
+                    False,
                 )
                 eprint('done.')
                 data_content = load_data(data_file, file_type, config)

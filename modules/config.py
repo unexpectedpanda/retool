@@ -226,8 +226,11 @@ class Config:
                             flush=True,
                         )
                         failed = download(
-                            f'{clone_list_metadata_download_location}/{download_file}',
-                            str(pathlib.Path(self.retool_location).joinpath(download_file)),
+                            (
+                                f'{clone_list_metadata_download_location}/{download_file}',
+                                str(pathlib.Path(self.retool_location).joinpath(download_file)),
+                            ),
+                            False,
                         )
 
                         if not failed:

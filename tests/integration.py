@@ -11,9 +11,7 @@ import sys
 from modules.utils import Font, eprint
 
 # Set the VS Code path here
-vscode_path = pathlib.Path(
-    'C:/Users/lister/AppData/Local/Programs/Microsoft VS Code/Code.exe'
-)
+vscode_path = pathlib.Path('C:/Users/lister/AppData/Local/Programs/Microsoft VS Code/Code.exe')
 
 
 def integration_test(
@@ -54,7 +52,9 @@ def integration_test(
             eprint(f'\n{Font.heading}Run {i} of {runs}{Font.end}')
 
         for dat in input_dats:
-            subprocess.run(f'python retool.py "{pathlib.Path(dat)}" {arguments}', cwd='.', shell=True)
+            subprocess.run(
+                f'python retool.py "{pathlib.Path(dat)}" {arguments}', cwd='.', shell=True
+            )
 
         compare_files(golden_comparison_folder, test_name, run_number)
 

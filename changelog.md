@@ -1,6 +1,12 @@
 # Retool changelog
 
 
+## 2.03.2 (2024-04-07)
+
+-   **_Feature_**: Clone list and metadata updates now use threaded downloads to reduce
+    wait times.
+
+
 ## 2.03.2 (2024-04-06)
 
 -   **_Fix_**: Fixed Retool falsely thinking CLRMAMEPro DAT files have already been

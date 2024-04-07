@@ -20,17 +20,25 @@ if TYPE_CHECKING:
     from modules.input import UserInput
 
 
-def download(download_url: str, local_file_path: str) -> bool:
+def download(download_details: tuple[str, ...], report_download: bool = True) -> bool:
     """
     Downloads a file from a given URL.
 
     Args:
-        download_url (str): The URL to download the file from.
-        local_file_path (str): Where to save the file on the local drive.
+        download_details (tuple[str, ...]): A tuple of the URL to download the file from,
+          and the location to write it to.
+
+        report_download (bool): Whether or not to report the filename being downloaded.
+          Defaults to `True`.
 
     Returns:
         bool: Whether or not the download has failed
     """
+    download_url: str = download_details[0]
+    local_file_path: str = download_details[1]
+
+    if report_download:
+        eprint(f'\033[F\033[K* Downloading {pathlib.Path(download_details[1]).name}...')
 
     def get_file(req: urllib.request.Request) -> tuple[bytes, bool]:
         """Error handling for downloading a file."""
@@ -152,6 +160,9 @@ def download(download_url: str, local_file_path: str) -> bool:
         with open(pathlib.Path(f'{local_file_path}').resolve(), 'wb') as output_file:
             output_file.write(file_data)
 
+    if report_download:
+        eprint('\033[F\033[K')
+
     return failed
 
 
@@ -244,9 +255,9 @@ def minimum_version(
     Figures out if a file requires a higher version of Retool.
 
     Args:
-        min_version: The minimum file version to compare against the Retool version.
+        min_version (str): The minimum file version to compare against the Retool version.
 
-        file_name: The filename of a clone list, or internal config file.
+        file_name (str): The filename of a clone list, or internal config file.
 
         gui_input (UserInput): Used to determine whether or not the function is being
           called from the GUI.

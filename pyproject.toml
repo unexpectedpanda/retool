@@ -1,6 +1,6 @@
 [project]
 name = "Retool"
-version = "2.03.2"
+version = "2.03.3"
 description = "A better filter tool for Redump and No-Intro DATs"
 readme = "readme.md"
 requires-python = ">=3.10"

@@ -1,4 +1,5 @@
 from __future__ import annotations
+from concurrent.futures import ThreadPoolExecutor
 
 import copy
 import hashlib
@@ -957,8 +958,11 @@ class CloneListTools:
         eprint(f'* Downloading {Font.bold}config/{config.config_file.name}{Font.end}... ')
 
         failed = download(
-            f'{download_location}/config/{config.config_file.name}',
-            str(pathlib.Path(f'{config.config_file}')),
+            (
+                f'{download_location}/config/{config.config_file.name}',
+                str(pathlib.Path(f'{config.config_file}')),
+            ),
+            False,
         )
 
         if not failed:
@@ -969,8 +973,11 @@ class CloneListTools:
         eprint(f'* Downloading {Font.bold}datafile.dtd{Font.end}... ')
 
         failed = download(
-            f'{download_location}/datafile.dtd',
-            str(pathlib.Path(config.retool_location).joinpath('datafile.dtd')),
+            (
+                f'{download_location}/datafile.dtd',
+                str(pathlib.Path(config.retool_location).joinpath('datafile.dtd')),
+            ),
+            False,
         )
 
         if not failed:
@@ -1006,7 +1013,9 @@ class CloneListTools:
 
             # Get the hash.json
             eprint(f'* Checking for updated {update_name}...')
-            download(f'{download_url}/hash.json', str(pathlib.Path(f'{local_path}/hash.json')))
+            download(
+                (f'{download_url}/hash.json', str(pathlib.Path(f'{local_path}/hash.json'))), False
+            )
 
             if pathlib.Path(f'{local_path}/hash.json').exists():
                 try:
@@ -1055,53 +1064,64 @@ class CloneListTools:
                             raise
 
                         if hash_sha256.hexdigest() != hash_value:
-                            eprint(
-                                f'  * Found an updated {update_name[:-1]}, {Font.bold}{file_name}{Font.end}. Downloading... '
+                            update_files.add(
+                                (
+                                    f'{download_url}/{file_name}',
+                                    str(pathlib.Path(f'{local_path}/{file_name}')),
+                                )
                             )
-                            file_count += 1
-                            failed = download(
+                    else:
+                        update_files.add(
+                            (
                                 f'{download_url}/{file_name}',
                                 str(pathlib.Path(f'{local_path}/{file_name}')),
                             )
-                            if not failed:
-                                eprint(
-                                    f'\033[F\033[K  * Found an updated {update_name[:-1]}, {Font.bold}{file_name}{Font.end}. Downloading... done.'
-                                )
-                    else:
-                        eprint(
-                            f'  * Found a new {update_name[:-1]}, {Font.bold}{file_name}{Font.end}. Downloading... '
                         )
-                        file_count += 1
-                        failed = download(
-                            f'{download_url}/{file_name}',
-                            str(pathlib.Path(f'{local_path}/{file_name}')),
-                        )
-                        if not failed:
-                            eprint(
-                                f'\033[F\033[K  * Found a new {update_name[:-1]}, {Font.bold}{file_name}{Font.end}. Downloading... done.'
-                            )
             else:
                 hash_json_path: str = str(pathlib.Path(local_path).joinpath('hash.json'))
                 eprint(
                     f'{Font.warning}{hash_json_path} doesn\'t exist, can\'t update {update_name}.{Font.end}'
                 )
 
-            return file_count
+            eprint(f'\033[F\033[K* Checking for updated {update_name}... done.')
+            return update_files
 
-        file_count: int = 0
-        file_count = get_updates(
-            config.path_clone_list, 'clone lists', f'{download_location}/clonelists', file_count
+        update_files: set[str] = set()
+
+        update_files = get_updates(
+            config.path_clone_list, 'clone lists', f'{download_location}/clonelists', update_files
         )
-        file_count = get_updates(
-            config.path_metadata, 'metadata files', f'{download_location}/metadata', file_count
+        update_files = get_updates(
+            config.path_metadata, 'metadata files', f'{download_location}/metadata', update_files
         )
 
-        if file_count == 0:
+        total_downloads: int = len(update_files)
+        successful_downloads: int = 0
+
+        if update_files:
+            eprint(f'* Downloading {total_downloads} files...')
+            with ThreadPoolExecutor(max_workers=10) as executor:
+                failure = executor.map(download, update_files)
+
+                successful_downloads: int = list(failure).count(False)
+
+        if total_downloads == 0:
             eprint(f'{Font.success}\n* Done. No new updates are available.{Font.end}')
-        elif file_count == 1:
-            eprint(f'{Font.success}\n* Done. Downloaded {file_count} file.{Font.end}')
+        elif total_downloads == 1:
+            eprint(
+                f'{Font.success}\033[F\033[K\n* Done. Downloaded {successful_downloads}/{total_downloads} file.{Font.end}'
+            )
         else:
-            eprint(f'{Font.success}\n* Done. Downloaded {file_count} files.{Font.end}')
+            eprint(
+                f'{Font.success}\033[F\033[K\n* Done. Downloaded {successful_downloads}/{total_downloads} files.{Font.end}'
+            )
+
+        if total_downloads != 0 and successful_downloads != total_downloads:
+            eprint(
+                f'{Font.error}\n* Some files failed to download.{Font.end}\n'
+            )
+
+        eprint()
 
         if not no_exit:
             if gui_input:
