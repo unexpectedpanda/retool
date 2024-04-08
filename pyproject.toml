@@ -1,6 +1,6 @@
 [project]
 name = "Retool"
-version = "2.03.3"
+version = "2.03.4"
 description = "A better filter tool for Redump and No-Intro DATs"
 readme = "readme.md"
 requires-python = ">=3.10"
@@ -156,6 +156,7 @@ python = ["3.10", "3.11", "3.12"]
 
 [tool.hatch.envs.integration.scripts]
 exclusions = "python -m tests.exclusions"
+filters = "python -m tests.filters"
 languages = "python -m tests.languages"
 compilations = "python -m tests.compilations"
 
@@ -164,6 +165,7 @@ regions = "python -m tests.regions"
 
 features = [
     "exclusions",
+    "filters",
     "languages",
     "compilations",
 ]

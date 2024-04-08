@@ -1,7 +1,17 @@
 # Retool changelog
 
 
-## 2.03.2 (2024-04-07)
+## 2.03.4 (2024-04-08)
+
+-   **_Change_**: When you specify `--output` in a non-interactive terminal, the output
+    is now written to a file, not `STDOUT`.
+
+-   **_Fix_**: If you didn't populate your region priority list with all the regions in
+    a clone list filter, the condition would fail to `true`, causing odd title selection.
+    This has now been fixed.
+
+
+## 2.03.3 (2024-04-07)
 
 -   **_Feature_**: Clone list and metadata updates now use threaded downloads to reduce
     wait times.

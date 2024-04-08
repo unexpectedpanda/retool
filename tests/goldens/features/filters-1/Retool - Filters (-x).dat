@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<!DOCTYPE datafile PUBLIC "-//Logiqx//DTD ROM Management Datafile//EN" "https://raw.githubusercontent.com/unexpectedpanda/retool-clonelists-metadata/main/datafile.dtd">
+<datafile>
+	<header>
+		<name>Retool - Filters (Retool)</name>
+		<description>Retool - Filters (13) (-x) (2024-02-24 00-00-00) (Retool)</description>
+		<version>2024-02-24 00-00-00</version>
+		<date>2023-06-17 00-00-00</date>
+		<author>unexpectedpanda</author>
+		<homepage>http://www.github.com/unexpectedpanda/retool</homepage>
+		<url>https://unexpectedpanda.github.io/retool</url>
+		<retool>Created by Retool X</retool>
+	</header>
+	<game name="Test Title 0 (Disc 1) (USA)">
+		<category>Games</category>
+		<description>Test Title 0 (USA)</description>
+		<release name="Test Title 0 (Disc 1) (USA)" region="USA" language="En"/>
+		<rom name="Test Title 0 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 0 (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Test Title 0 (Disc 2) (USA)">
+		<category>Games</category>
+		<description>Test Title 0 (Disc 2) (USA)</description>
+		<release name="Test Title 0 (Disc 2) (USA)" region="USA" language="En"/>
+		<rom name="Test Title 0 (Disc 2) (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 0 (Disc 2) (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Test Title 0 (Germany)" cloneof="Test Title 0 (Disc 1) (USA)">
+		<category>Games</category>
+		<description>Test Title 0 (Germany)</description>
+		<release name="Test Title 0 (Germany)" region="Germany" language="De"/>
+		<rom name="Test Title 0 (Germany).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 0 (Germany).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Test Title 1 (Asia) (Disc 1) (Japanese Version)" cloneof="Test Title 1 (USA)">
+		<category>Games</category>
+		<description>Test Title 1 (Asia) (Disc 1) (Japanese Version)</description>
+		<release name="Test Title 1 (Asia) (Disc 1) (Japanese Version)" region="Asia"/>
+		<rom name="Test Title 1 (Asia) (Disc 1) (Japanese Version).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 1 (Asia) (Disc 1) (Japanese Version).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Test Title 1 (Asia) (Disc 2) (International Version)" cloneof="Test Title 1 (USA)">
+		<category>Games</category>
+		<description>Test Title 1 (Asia) (Disc 2) (International Version)</description>
+		<release name="Test Title 1 (Asia) (Disc 2) (International Version)" region="Asia"/>
+		<rom name="Test Title 1 (Asia) (Disc 2) (International Version).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 1 (Asia) (Disc 2) (International Version).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Test Title 1 (Europe)" cloneof="Test Title 1 (USA)">
+		<category>Games</category>
+		<description>Test Title 1 (Europe)</description>
+		<release name="Test Title 1 (Europe)" region="Europe" language="En"/>
+		<rom name="Test Title 1 (Europe).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 1 (Europe).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Test Title 1 (Germany)" cloneof="Test Title 1 (USA)">
+		<category>Games</category>
+		<description>Test Title 1 (Germany)</description>
+		<release name="Test Title 1 (Germany)" region="Germany" language="De"/>
+		<rom name="Test Title 1 (Germany).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 1 (Germany).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Test Title 1 (Italy)" cloneof="Test Title 1 (USA)">
+		<category>Games</category>
+		<description>Test Title 1 (Italy)</description>
+		<release name="Test Title 1 (Italy)" region="Italy" language="It"/>
+		<rom name="Test Title 1 (Italy).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 1 (Italy).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Test Title 1 (Japan) (Disc 1) (Japanese Version)" cloneof="Test Title 1 (USA)">
+		<category>Games</category>
+		<description>Test Title 1 (Japan) (Disc 1) (Japanese Version)</description>
+		<release name="Test Title 1 (Japan) (Disc 1) (Japanese Version)" region="Japan" language="Ja"/>
+		<rom name="Test Title 1 (Japan) (Disc 1) (Japanese Version).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 1 (Japan) (Disc 1) (Japanese Version).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Test Title 1 (Japan) (Disc 2) (International Version)" cloneof="Test Title 1 (USA)">
+		<category>Games</category>
+		<description>Test Title 1 (Japan) (Disc 2) (International Version)</description>
+		<release name="Test Title 1 (Japan) (Disc 2) (International Version)" region="Japan" language="Ja"/>
+		<rom name="Test Title 1 (Japan) (Disc 2) (International Version).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 1 (Japan) (Disc 2) (International Version).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Test Title 1 (Spain)" cloneof="Test Title 1 (USA)">
+		<category>Games</category>
+		<description>Test Title 1 (Spain)</description>
+		<release name="Test Title 1 (Spain)" region="Spain" language="Es"/>
+		<rom name="Test Title 1 (Spain).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 1 (Spain).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Test Title 1 (USA)">
+		<category>Games</category>
+		<description>Test Title 1 (USA)</description>
+		<release name="Test Title 1 (USA)" region="USA" language="En"/>
+		<rom name="Test Title 1 (USA).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Title 1 (USA).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+	<game name="Test Titre 1 (France)" cloneof="Test Title 1 (USA)">
+		<category>Games</category>
+		<description>Test Titre 1 (France)</description>
+		<release name="Test Titre 1 (France)" region="France" language="Fr"/>
+		<rom name="Test Titre 1 (France).cue" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+		<rom name="Test Titre 1 (France).bin" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
+	</game>
+</datafile>

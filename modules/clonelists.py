@@ -1,5 +1,4 @@
 from __future__ import annotations
-from concurrent.futures import ThreadPoolExecutor
 
 import copy
 import hashlib
@@ -8,6 +7,7 @@ import json
 import pathlib
 import re
 import sys
+from concurrent.futures import ThreadPoolExecutor
 from typing import TYPE_CHECKING, Any
 
 if TYPE_CHECKING:
@@ -746,6 +746,8 @@ class CloneListTools:
                                                     for higher_region in higher_regions:
                                                         if higher_region < lower_regions_lowest:
                                                             condition_region_order = True
+                                                else:
+                                                    condition_region_order = False
 
                                             if (
                                                 condition_match_languages
@@ -1117,9 +1119,7 @@ class CloneListTools:
             )
 
         if total_downloads != 0 and successful_downloads != total_downloads:
-            eprint(
-                f'{Font.error}\n* Some files failed to download.{Font.end}\n'
-            )
+            eprint(f'{Font.error}\n* Some files failed to download.{Font.end}\n')
 
         eprint()
 

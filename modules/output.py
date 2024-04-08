@@ -536,7 +536,7 @@ class WriteFiles:
 
         # Write the output DAT
         try:
-            if config.stdout:
+            if config.stdout and not config.user_input.user_output_folder:
                 for line in final_xml:
                     print(line.replace('\n', ''))  # noqa: T201
             else:

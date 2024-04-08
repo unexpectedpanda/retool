@@ -71,6 +71,7 @@ class UserInput:
         no_label_mia: bool = False,
         original_header: bool = False,
         output_folder_name: str = '',
+        user_output_folder: str = '',
         output_region_split: bool = False,
         output_remove_dat: bool = False,
         replace: bool = False,
@@ -204,6 +205,9 @@ class UserInput:
             output_folder_name (str, optional): Sets the folder DATs are written to.
             Defaults to `''`.
 
+            user_output_folder (str, optional): Whether or not the output folder is
+            user provided. Defaults to ''.
+
             output_region_split (bool, optional): Produces multiple DAT files split by
             region, instead of just a single DAT file. Defaults to `False`.
 
@@ -306,6 +310,7 @@ class UserInput:
         self.no_label_mia: bool = no_label_mia
         self.original_header: bool = original_header
         self.output_folder_name: str = output_folder_name
+        self.user_output_folder: bool = bool(user_output_folder)
         self.output_region_split: bool = output_region_split
         self.output_remove_dat: bool = output_remove_dat
         self.replace: bool = replace
@@ -874,6 +879,7 @@ def check_input() -> UserInput:
         no_label_mia=args.nolabelmia,
         original_header=args.originalheader,
         output_folder_name=str(pathlib.Path(args.output).resolve()),
+        user_output_folder=args.output,
         output_region_split=args.regionsplit,
         output_remove_dat=args.removesdat,
         replace=args.replace,

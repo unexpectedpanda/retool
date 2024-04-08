@@ -321,41 +321,62 @@ def main(gui_input: UserInput | None = None) -> None:
             # Print the success message
             eprint('')
 
+            file_folder_details: str = ''
+
             if dat_file_count == 1:
                 if config.user_input.output_region_split or config.user_input.output_remove_dat:
+                    if config.stdout and not config.user_input.user_output_folder:
+                        file_folder_details = f'{Font.end}'
+                    else:
+                        file_folder_details = f' DATs have been created in the {Font.bold}"{pathlib.Path(user_input.output_folder_name).resolve()}"{Font.success} folder.{Font.end}'
+
                     printwrap(
                         f'{Font.success}* Finished processing '
                         f'"{Font.bold}{pathlib.Path(user_input.input_file_name).resolve()}{Font.success}"'
-                        f'in {total_time_elapsed}s. DATs have been created in the '
-                        f'{Font.bold}"{pathlib.Path(user_input.output_folder_name).resolve()}"{Font.success} folder.{Font.end}'
+                        f'in {total_time_elapsed}s.{file_folder_details}'
                     )
                 elif stats_final_count:
+                    if config.stdout and not config.user_input.user_output_folder:
+                        file_folder_details = ''
+                    else:
+                        file_folder_details = f' to {Font.bold}{pathlib.Path(input_dat.output_filename).resolve()}"{Font.success}'
+
                     printwrap(
                         f'{Font.success}* Finished adding '
-                        f'{f"{stats_final_count:,}"!s} '
-                        f'titles to {Font.bold}{pathlib.Path(input_dat.output_filename).resolve()}" '
-                        f'{Font.success}in {total_time_elapsed}s.{Font.end}'
+                        f'{f"{stats_final_count:,}"!s} titles{file_folder_details} in {total_time_elapsed}s.{Font.end}'
                     )
                 elif input_type == 'folder':
+                    if config.stdout and not config.user_input.user_output_folder:
+                        file_folder_details = f'{Font.end}'
+                    else:
+                        file_folder_details = f' Any DATs that have been created are in the {Font.bold}"{pathlib.Path(user_input.output_folder_name).resolve()}"{Font.success} folder.{Font.end}'
+
                     printwrap(
                         f'{Font.success}* Finished processing 1 file in the '
                         f'{Font.bold}"{pathlib.Path(user_input.input_file_name).resolve()}{Font.success}" folder in '
-                        f'{total_time_elapsed}s. Any DATs that have been created are in the '
-                        f'{Font.bold}"{pathlib.Path(user_input.output_folder_name).resolve()}"{Font.success} folder.{Font.end}'
+                        f'{total_time_elapsed}s.{file_folder_details}'
                     )
             elif dat_file_count > 1 and input_type == 'folder':
+                if config.stdout and not config.user_input.user_output_folder:
+                    file_folder_details = f'{Font.end}'
+                else:
+                    file_folder_details = f' Any DATs that have been created are in the {Font.bold}"{pathlib.Path(user_input.output_folder_name).resolve()}"{Font.success} folder.{Font.end}'
+
                 printwrap(
                     f'{Font.success}* Finished processing {dat_file_count} files in the '
                     f'{Font.bold}"{pathlib.Path(user_input.input_file_name).resolve()}{Font.success}" folder in '
-                    f'{total_time_elapsed}s. Any DATs that have been created are in the '
-                    f'{Font.bold}"{pathlib.Path(user_input.output_folder_name).resolve()}"{Font.success} folder.{Font.end}'
+                    f'{total_time_elapsed}s.{file_folder_details}'
                 )
             elif dat_file_count > 1 and input_type == 'wildcard':
+                if config.stdout and not config.user_input.user_output_folder:
+                    file_folder_details = f'{Font.end}'
+                else:
+                    file_folder_details = f' Any DATs that have been created are in the {Font.bold}"{pathlib.Path(user_input.output_folder_name).resolve()}"{Font.success} folder.{Font.end}'
+
                 printwrap(
                     f'{Font.success}* Finished processing {dat_file_count} files in the '
                     f'{Font.bold}"{pathlib.Path(pathlib.Path(user_input.input_file_name).parent).resolve()}{Font.success}" folder in '
-                    f'{total_time_elapsed}s. Any DATs that have been created are in the '
-                    f'{Font.bold}"{pathlib.Path(user_input.output_folder_name).resolve()}"{Font.success} folder.{Font.end}'
+                    f'{total_time_elapsed}s.{file_folder_details}'
                 )
 
     else:

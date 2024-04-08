@@ -1,0 +1,71 @@
+{
+	"description": {
+		"name": "Retool - Filters",
+		"lastUpdated": "08 April 2024",
+		"minimumVersion": "2.02"
+	},
+	"variants": [
+        {
+            "group": "Test Title 0 (Disc 1)",
+            "titles": [
+                {"searchTerm": "Test Title 0"},
+                {"searchTerm": "Test Title 0 (Disc 1)"}
+            ]
+        },
+        {
+            "group": "Test Title 0 (Disc 2)",
+            "titles": [
+                {
+                    "searchTerm": "Test Title 0 (Disc 2)",
+                    "filters": [
+                        {
+                            "conditions": {"regionOrder": {"higherRegions": ["Germany"], "lowerRegions": ["USA"]}},
+                            "results": {"group": "Test Title 0 (Disc 1)"}
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "group": "Test Title 1",
+            "titles": [
+                {
+                    "searchTerm": "Test Title 1",
+                    "filters": [
+                        {
+                            "conditions": {"regionOrder": {"higherRegions": ["Japan", "Asia"], "lowerRegions": ["USA", "Europe", "France", "Germany", "Italy", "Spain"]}},
+                            "results": {"group": "Test Title 1 (Disc 2) (International Version)"}
+                        }
+                    ]
+                },
+                {
+                    "searchTerm": "Test Title 1 (Disc 1) (Japanese Version)",
+                    "filters": [
+                        {
+                            "conditions": {"regionOrder": {"higherRegions": ["Japan", "Asia"], "lowerRegions": ["USA", "Europe", "France", "Germany", "Italy", "Spain"]}},
+                            "results": {"group": "Test Title 1 (Disc 1) (Japanese Version)"}
+                        }
+                    ]
+                },
+                {
+                    "searchTerm": "Test Title 1 (Disc 2) (International Version)",
+                    "filters": [
+                        {
+                            "conditions": {"regionOrder": {"higherRegions": ["Japan", "Asia"], "lowerRegions": ["USA", "Europe", "France", "Germany", "Italy", "Spain"]}},
+                            "results": {"group": "Test Title 1 (Disc 2) (International Version)"}
+                        }
+                    ]
+                },
+                {
+                    "searchTerm": "Test Titre 1",
+                    "filters": [
+                        {
+                            "conditions": {"regionOrder": {"higherRegions": ["Japan", "Asia"], "lowerRegions": ["USA", "Europe", "France", "Germany", "Italy", "Spain"]}},
+                            "results": {"group": "Test Title 1 (Disc 2) (International Version)"}
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -57,65 +57,65 @@ language order:
 # Only include titles with the following regions. Comment out the regions you
 # don't want. Order is important.
 region order:
-- Europe
-- Spain
-- Portugal
-- France
-- Italy
 - Germany
 - USA
 - World
-- Canada
-- UK
-- Australia
-- New Zealand
-- Singapore
-- Ireland
-- Japan
-- Asia
-- Thailand
-- Mexico
-- Argentina
-- Latin America
-- Brazil
-- Belgium
-- Netherlands
-- Austria
-- Switzerland
-- Hong Kong
-- China
-- Taiwan
-- Korea
-- Russia
-- Ukraine
-- Estonia
-- Poland
-- Latvia
-- Lithuania
-- Denmark
-- Norway
-- Sweden
-- Scandinavia
-- Finland
-- Iceland
-- Hungary
-- Czech
-- Greece
-- Macedonia
-- India
-- South Africa
-- Israel
-- Slovakia
-- Turkey
-- Croatia
-- Slovenia
-- United Arab Emirates
-- Bulgaria
-- Romania
-- Albania
-- Serbia
-- Indonesia
-- Unknown
+# - Canada
+# - Europe
+# - UK
+# - Australia
+# - New Zealand
+# - Singapore
+# - Ireland
+# - Japan
+# - Asia
+# - Thailand
+# - Spain
+# - Mexico
+# - Argentina
+# - Latin America
+# - Brazil
+# - Portugal
+# - France
+# - Belgium
+# - Netherlands
+# - Austria
+# - Italy
+# - Switzerland
+# - Hong Kong
+# - China
+# - Taiwan
+# - Korea
+# - Russia
+# - Ukraine
+# - Estonia
+# - Poland
+# - Latvia
+# - Lithuania
+# - Denmark
+# - Norway
+# - Sweden
+# - Scandinavia
+# - Finland
+# - Iceland
+# - Hungary
+# - Czech
+# - Greece
+# - Macedonia
+# - India
+# - South Africa
+# - Israel
+# - Slovakia
+# - Turkey
+# - Croatia
+# - Slovenia
+# - United Arab Emirates
+# - Bulgaria
+# - Romania
+# - Albania
+# - Serbia
+# - Indonesia
+# - Unknown
 
 # ===========
 # VIDEO ORDER
