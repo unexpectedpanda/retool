@@ -22,7 +22,7 @@ from modules.gui.gui_utils import (
     show_hide,
     system_enable,
 )
-from modules.gui.windows import AboutWindow, SettingsWindow, TitleToolWindow
+from modules.gui.gui_windows import AboutWindow, SettingsWindow, TitleToolWindow
 from modules.input import get_config_value, import_system_settings
 from modules.utils import Font, eprint
 
@@ -839,7 +839,7 @@ def setup_gui_system(
                     },
                 )
             except OSError as e:
-                eprint(f'\n{Font.error_bold}* Error: {Font.end}{e!s}\n')
+                eprint(f'\n{Font.error_bold}• Error: {Font.end}{e!s}\n')
                 raise
 
         # Pull the system settings

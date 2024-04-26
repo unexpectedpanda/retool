@@ -1,6 +1,33 @@
 # Retool changelog
 
 
+## 2.3.5 (2024-04-27)
+
+-   **_Fix_**: Fixed Retool crashing when **Prefer titles ripped from modern rereleases**
+    was enabled.
+
+-   **_Change_**: Because case can change frequently between DAT file revisions, overrides
+    and post filters are no longer case sensitive. This increases convenience, but also
+    means you're more likely to shoot your own foot off with partial and regex matches, so
+    caveat utilitor.
+
+-   **_Change_**: The way the version is reported has changed to accommodate dynamic
+    versioning in Hatch. Instead of 2.03.5, Retool now shows 2.3.5.
+
+-   **_Chore_**: Lately Windows Defender has been finding false positives on the compiled
+    Windows version of Retool. While there's not much that can be done about this other
+    than marking an exception in Defender on your machine, Python, PyInstaller, and UPX
+    have all been updated in the hope that enough changes have occured to prevent the
+    incorrect alert from happening.
+
+-   **_Chore_**: Cleaned up how Retool outputs to screen. Made more use of code page 437
+    characters to freshen up the look.
+
+-   **_Chore_**: Started reorganizing where functions live for future clean up and
+    optimizations. While I don't really expect anyone will go code diving, those who do
+    will find things are stored in an inconsistent fashion until this task is complete.
+
+
 ## 2.03.4 (2024-04-08)
 
 -   **_Change_**: When you specify `--output` in a non-interactive terminal, the output

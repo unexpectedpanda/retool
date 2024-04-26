@@ -14,7 +14,7 @@ from strictyaml import YAML, Map, MapPattern, Seq, Str, YAMLError, YAMLValidatio
 from modules.input import UserInput
 from modules.stats import Stats
 from modules.titletools import Regex
-from modules.utils import Font, download, eprint, printwrap
+from modules.utils import Font, download, eprint
 
 
 class Config:
@@ -50,8 +50,6 @@ class Config:
         system_settings_path: str,
         sanitized_characters: tuple[str, ...],
         reserved_filenames: tuple[str, ...],
-        version_major: str,
-        version_minor: str,
         user_input: Any,
         first_run_gui: bool = False,
     ) -> None:
@@ -155,12 +153,6 @@ class Config:
             reserved_filenames (tuple[str, ...]): Filenames that can't be used in
             certain operating systems.
 
-            version_major (str): The major version of Retool. Combined with the minor
-            version to make up the full version string.
-
-            version_minor (str): The minor version of Retool. Combined with the major
-            version to make up the full version string.
-
             user_input (Any): In the CLI version, all the arguments passed in by the user.
             In the GUI version, constructed from UI elements the user has enabled or
             interacted with.
@@ -171,8 +163,6 @@ class Config:
             Defaults to `False`.
         """
         # Store the Retool version
-        self.version_major: str = version_major
-        self.version_minor: str = version_minor
         self.retool_location: pathlib.Path = pathlib.Path(sys.argv[0]).resolve().parent
 
         # Determine if STDOUT is being redirected or not
@@ -193,7 +183,7 @@ class Config:
                 download_files (tuple[str]): A tuple of the files to download.
             """
             required_files: str = ''.join(
-                [f'\n* {Font.bold}{x}{Font.warning}' for x in download_files]
+                [f'\n• {Font.bold}{x}{Font.warning}' for x in download_files]
             )
             download_config: str = ''
             missing_file: bool = False
@@ -204,15 +194,16 @@ class Config:
 
             if missing_file:
                 while not download_config or not (download_config == 'y' or download_config == 'n'):
-                    printwrap(
+                    eprint(
                         f'{Font.warning_bold}Warning:{Font.warning} One or more '
                         'of the following files are missing, which Retool needs '
                         'to operate:',
-                        'no_indent',
+                        level='warning',
+                        indent=0,
                     )
-                    eprint(f'{required_files}')
+                    eprint(f'{required_files}', level='warning', wrap=False)
 
-                    eprint(f'\nWould you like to download them? (y/n) > {Font.end}')
+                    eprint('\nWould you like to download them? (y/n) > ', level='warning')
 
                     download_config = input()
 
@@ -220,7 +211,7 @@ class Config:
                     eprint('')
                     for download_file in download_files:
                         eprint(
-                            f'* Downloading {Font.bold}{download_file}{Font.end}... ',
+                            f'• Downloading {Font.b}{download_file}{Font.be}... ',
                             sep=' ',
                             end='',
                             flush=True,
@@ -269,7 +260,7 @@ class Config:
             with open(self.config_file, encoding='utf-8') as input_file:
                 self.config_file_content: dict[str, Any] = json.load(input_file)
         except OSError as e:
-            eprint(f'\n{Font.error_bold}* Error: {Font.end}{e!s}\n')
+            eprint(f'• {Font.b}Error{Font.be}: {e!s}\n', level='error')
             raise
 
         def import_key(
@@ -359,11 +350,10 @@ class Config:
                 section_key (str): The section to check for in internal-config.json.
             """
             if section_key not in self.config_file_content:
-                printwrap(
-                    f'{Font.warning}* The {Font.bold}{section_key}{Font.warning}'
-                    f' key is missing from {Font.bold}{config_file}'
-                    f'{Font.warning}. Clone matching won\'t be accurate.'
-                    f'{Font.end}'
+                eprint(
+                    f'• The {Font.b}{section_key}{Font.be} key is missing from '
+                    f'{Font.b}{config_file}{Font.be}. Clone matching won\'t be accurate.',
+                    level='warning',
                 )
 
         config_keys = [
@@ -457,7 +447,7 @@ class Config:
                 user_config = load(str(user_config_import.read()), schema)
 
         except OSError as e:
-            eprint(f'\n{Font.error_bold}* Error: {Font.end}{e!s}\n')
+            eprint(f'• {Font.b}Error{Font.be}: {e!s}\n', level='error')
             raise
 
         except YAMLValidationError as e:
@@ -488,7 +478,7 @@ class Config:
                     ) as user_config_import:
                         user_config_import.writelines(add_filters_key)
                 except Exception as e2:
-                    eprint(f'\n{Font.error_bold}* Error: {Font.end}{e2!s}\n')
+                    eprint(f'• {Font.b}Error{Font.be}: {e2!s}\n', level='error')
                     raise
 
                 try:
@@ -497,14 +487,14 @@ class Config:
                     ) as user_config_import:
                         user_config = load(str(user_config_import.read()), schema)
                 except Exception as e2:
-                    eprint(f'\n{Font.error_bold}* Error: {Font.end}{e2!s}\n')
+                    eprint(f'• {Font.b}Error{Font.be}: {e2!s}\n', level='error')
                     raise
             else:
-                eprint(f'\n{Font.error_bold}* YAML validation error: {Font.end}{e!s}\n')
+                eprint(f'• {Font.b}YAML validation error{Font.be}: {e!s}\n', level='error')
                 raise
 
         except YAMLError as e:
-            eprint(f'\n{Font.error_bold}* YAML error: {Font.end}{e!s}\n')
+            eprint(f'• {Font.b}YAML error{Font.be}:{e!s}\n', level='error')
             raise
 
         self.language_order_user = list(user_config.data[user_language_order_key])
@@ -629,7 +619,7 @@ class Config:
             eprint('\n  ○ Config object')
             col_width: int = max(len(word) for row in return_attributes for word in row) - 20
             for row in return_attributes:
-                eprint(''.join(str(word).ljust(col_width) for word in row))
+                eprint(''.join(str(word).ljust(col_width) for word in row), wrap=False)
 
         key: str = 'blank'
 
@@ -645,14 +635,14 @@ class Config:
 
             if hasattr(self, key):
                 if isinstance(getattr(self, key), Regex | UserInput):
-                    eprint(f'\n{vars(getattr(self, key))}')
+                    eprint(f'\n{vars(getattr(self, key))}', wrap=False)
                 else:
-                    eprint(f'\n{format_value(getattr(self, key))}')
+                    eprint(f'\n{format_value(getattr(self, key))}', wrap=False)
             elif key == '':
                 class_output()
             else:
                 if key != 'q':
-                    eprint(f'\nUnknown key "{key}".')
+                    eprint(f'\nUnknown key "{key}".', wrap=False)
                 else:
                     break
 
@@ -1033,7 +1023,7 @@ def generate_config(
                 new_user_config = True
 
         except OSError as e:
-            eprint(f'\n{Font.error_bold}* Error: {Font.end}{e!s}\n')
+            eprint(f'• {Font.b}Error{Font.be}: {e!s}\n', level='error')
             raise
 
     pathlib.Path(overrides_path).mkdir(parents=True, exist_ok=True)
@@ -1044,28 +1034,28 @@ def generate_config(
             file_list: list[str] = []
 
             if new_user_config:
-                file_list.append(f'* {Font.warning_bold}config/user-config.yaml{Font.warning}')
+                file_list.append(f'• {Font.b}config/user-config.yaml{Font.be}')
 
             file_list_str: str = '\n'.join(file_list)
 
-            printwrap(
-                f'{Font.warning}It\'s likely this is the first time '
-                'you\'ve run Retool. The following system files were '
-                f'missing and have been created:',
-                'no_indent',
+            eprint(
+                'It\'s likely this is the first time you\'ve run Retool. The following '
+                'system files were missing and have been created:',
+                indent=0,
+                level='warning',
             )
 
-            eprint(f'\n{file_list_str}\n')
+            eprint(f'\n{file_list_str}\n', wrap=False, level='warning')
 
             if new_user_config:
-                printwrap(
-                    f'You might want to edit {Font.warning_bold}'
-                    f'config/user-config.yaml{Font.warning} to define a custom '
-                    f'region order, or to filter specific languages.{Font.end}',
-                    'no_indent',
+                eprint(
+                    f'You might want to edit {Font.b}'
+                    f'config/user-config.yaml{Font.be} to define a custom '
+                    f'region order, or to filter specific languages.\n',
+                    indent=0,
+                    level='warning',
                 )
-                eprint('')
 
-            printwrap(f'{Font.success}You can now run Retool normally.{Font.end}', 'no_indent')
+            eprint('You can now run Retool normally.', indent=0, level='success')
 
             sys.exit(0)

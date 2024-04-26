@@ -16,16 +16,8 @@ if TYPE_CHECKING:
     from modules.config import Config
     from modules.dats import Dat
 
-from modules.clonelists import CloneList
-from modules.utils import (
-    Font,
-    SmartFormatter,
-    download,
-    eprint,
-    minimum_version,
-    printwrap,
-    regex_test,
-)
+from modules.clone_list import CloneList
+from modules.utils import Font, SmartFormatter, download, eprint, minimum_version, regex_test
 
 
 class UserInput:
@@ -676,32 +668,30 @@ def check_input() -> UserInput:
 
     # Make sure incompatible flags aren't used, and handle other edge case situations
     if args.legacy and args.d:
-        eprint(
-            f'{Font.warning_bold}* -d and --legacy modes can\'t be used together. Exiting...{Font.end}'
-        )
+        eprint('• -d and --legacy modes can\'t be used together. Exiting...', level='warning')
         sys.exit(1)
 
     if args.legacy and args.regionsplit:
         eprint(
-            f'{Font.warning_bold}* --regionsplit and --legacy modes can\'t be used together. Exiting...{Font.end}'
+            '• --regionsplit and --legacy modes can\'t be used together. Exiting...',
+            level='warning',
         )
         sys.exit(1)
 
     if args.replace and args.output:
-        eprint(
-            f'{Font.warning_bold}* --replace and --output can\'t be used together. Exiting...{Font.end}'
-        )
+        eprint('• --replace and --output can\'t be used together. Exiting...', level='warning')
         sys.exit(1)
 
     if not args.update and args.Input is None:
         eprint(
-            f'{Font.error_bold}* Unless you\'re updating clone lists, you must specify an input DAT or '
-            f'folder.{Font.end}'
+            '• Unless you\'re updating clone lists, you must specify an input DAT or folder.',
+            level='warning',
         )
         eprint(
             f'\nUsage: {pathlib.Path(sys.argv[0]).name} <input DAT/folder> <options>'
-            f'\n\nType {Font.bold}{pathlib.Path(sys.argv[0]).name} -h{Font.end} for all '
-            'options\n'
+            f'\n\nType {Font.b}{pathlib.Path(sys.argv[0]).name} -h{Font.be} for all '
+            'options\n',
+            wrap=False,
         )
         sys.exit(1)
 
@@ -714,9 +704,9 @@ def check_input() -> UserInput:
         if not args.test:
             setattr(args, 'warnings', True)
             setattr(args, 'warningpause', True)
-            eprint(f'{Font.warning_bold}* Operating in dev mode{Font.end}')
+            eprint(f'• {Font.b}Operating in dev mode{Font.be}', level='warning')
         else:
-            eprint(f'{Font.warning_bold}* Operating in test mode{Font.end}')
+            eprint(f'• {Font.b}Operating in test mode{Font.be}', level='warning')
         eprint('')
 
     # Compensate for trailing backslash in Windows
@@ -730,12 +720,14 @@ def check_input() -> UserInput:
     if args.output is not None:
         if pathlib.Path(args.output).is_file():
             eprint(
-                f'\n{Font.error}Can\'t output to {Font.error_bold}"{args.output}"'
-                f'{Font.error}, as it\'s a file, not a folder.{Font.end}\n'
+                f'Can\'t output to {Font.b}"{args.output}"{Font.be}, as it\'s a file, '
+                'not a folder.\n',
+                indent=0,
+                level='error',
             )
             sys.exit(1)
         elif not pathlib.Path(args.output).exists():
-            eprint(f'* Creating folder "{Font.bold}{args.output}{Font.end}"')
+            eprint(f'• Creating folder "{Font.b}{args.output}{Font.be}"')
             pathlib.Path(args.output).mkdir(parents=True, exist_ok=True)
     else:
         args.output = ''
@@ -743,11 +735,12 @@ def check_input() -> UserInput:
     # Validate the clone list the user specified exists
     if args.clonelist is not None:
         if pathlib.Path(args.clonelist).is_file():
-            eprint(f'* Custom clone list found: "{Font.bold}{args.clonelist}{Font.end}".')
+            eprint(f'• Custom clone list found: "{Font.b}{args.clonelist}{Font.be}".')
         else:
             eprint(
-                f'{Font.warning}* Can\'t find the specified clone list: '
-                f'"{Font.bold}{args.clonelist}{Font.warning}". Ignoring...{Font.end}'
+                f'• Can\'t find the specified clone list: '
+                f'"{Font.b}{args.clonelist}{Font.be}". Ignoring...',
+                level='warning',
             )
     else:
         args.clonelist = ''
@@ -755,11 +748,12 @@ def check_input() -> UserInput:
     # Validate the metadata file the user specified exists
     if args.metadata is not None:
         if pathlib.Path(args.metadata).is_file():
-            eprint(f'* Custom metadata file found: "{Font.bold}{args.metadata}{Font.end}".')
+            eprint(f'• Custom metadata file found: "{Font.b}{args.metadata}{Font.be}".')
         else:
             eprint(
-                f'{Font.warning}* Can\'t find the specified metadata file: '
-                f'"{Font.bold}{args.metadata}{Font.warning}". Ignoring...{Font.end}'
+                f'• Can\'t find the specified metadata file: '
+                f'"{Font.b}{args.metadata}{Font.be}". Ignoring...',
+                level='warning',
             )
     else:
         args.metadata = ''
@@ -821,10 +815,11 @@ def check_input() -> UserInput:
         args.config = pathlib.Path(args.config).resolve()
 
         if not pathlib.Path(args.config).is_file():
-            printwrap(
-                f'{Font.warning}* The user config file you specified, '
-                f'{Font.warning_bold}{args.config}{Font.warning}, doesn\'t exist. '
-                'Using the default config/user-config.yaml.'
+            eprint(
+                f'• The user config file you specified, '
+                f'{Font.b}{args.config}{Font.be}, doesn\'t exist. '
+                'Using the default config/user-config.yaml.',
+                level='warning',
             )
             args.config = pathlib.Path('config/user-config.yaml').resolve()
 
@@ -940,7 +935,9 @@ def get_config_value(
     return value
 
 
-def import_clone_list(input_dat: Dat, gui_input: UserInput | None, config: Config) -> CloneList:
+def import_clone_list(
+    input_dat: Dat, gui_input: UserInput | None, config: Config, bar: Any
+) -> CloneList:
     """
     Imports a clone list from the relevant file and sets it up for use in Retool.
 
@@ -951,6 +948,8 @@ def import_clone_list(input_dat: Dat, gui_input: UserInput | None, config: Confi
         called from the GUI.
 
         config (Config): The Retool config object.
+
+        bar (Any): The progress bar.
 
     Raises:
         ExitRetool: Silently exit if run from the GUI, so UI elements can
@@ -1003,7 +1002,7 @@ def import_clone_list(input_dat: Dat, gui_input: UserInput | None, config: Confi
     if 'description' in clonedata:
         if 'minimumVersion' in clonedata['description']:
             min_version = clonedata['description']['minimumVersion']
-            minimum_version(min_version, clone_file, gui_input, config)
+            minimum_version(min_version, clone_file, gui_input, bar)
 
     return CloneList(min_version, mias, variants)
 
@@ -1150,7 +1149,7 @@ def import_system_settings(
                 system_settings = load(str(system_config_import.read()), schema)
 
         except OSError as e:
-            eprint(f'\n{Font.error_bold}* Error: {Font.end}{e!s}\n')
+            eprint(f'• {Font.b}Error{Font.be}: {e!s}\n', level='error')
             raise
 
         except YAMLValidationError as e:
@@ -1181,7 +1180,7 @@ def import_system_settings(
                     ) as system_config_import:
                         system_config_import.writelines(add_key)
                 except Exception as e2:
-                    eprint(f'\n{Font.error_bold}* Error: {Font.end}{e2!s}\n')
+                    eprint(f'• {Font.b}Error{Font.be}: {e2!s}\n', level='error')
                     raise
 
                 try:
@@ -1190,14 +1189,14 @@ def import_system_settings(
                     ) as system_config_import:
                         system_settings = load(str(system_config_import.read()), schema)
                 except Exception as e2:
-                    eprint(f'\n{Font.error_bold}* Error: {Font.end}{e2!s}\n')
+                    eprint(f'• {Font.b}Error{Font.be}: {e2!s}\n', level='error')
                     raise
             else:
-                eprint(f'\n{Font.error_bold}* YAML validation error: {Font.end}{e!s}\n')
+                eprint(f'• {Font.b}YAML validation error{Font.be}: {e!s}\n', level='error')
                 raise
 
         except YAMLError as e:
-            eprint(f'\n{Font.error_bold}* YAML error: {Font.end}{e!s}\n')
+            eprint(f'• {Font.b}YAML error{Font.be}: {e!s}\n', level='error')
             raise
 
         # Get system paths
@@ -1509,13 +1508,12 @@ def load_data(data_file: str, file_type: str, config: Config) -> dict[str, Any]:
             while not download_data_file or not (
                 download_data_file == 'y' or download_data_file == 'n'
             ):
-                printwrap(
-                    f'{Font.warning_bold}* Warning: {Font.warning}The {Font.bold}'
-                    f'{data_file}{Font.warning} {file_type} contains invalid JSON. Retool won\'t '
-                    f'be able to detect clones as accurately. Would you like to redownload the '
-                    f'{file_type} to fix this? (y/n)'
-                    f'{Font.end}',
-                    'error',
+                eprint(
+                    f'• {Font.b}Warning{Font.be}: The {Font.b}{data_file}{Font.be} '
+                    f'{file_type} contains invalid JSON. Retool won\'t '
+                    'be able to detect clones as accurately. Would you like to redownload the '
+                    f'{file_type} to fix this? (y/n)',
+                    level='warning',
                 )
 
                 eprint('\n  > ')
@@ -1523,7 +1521,7 @@ def load_data(data_file: str, file_type: str, config: Config) -> dict[str, Any]:
 
             if download_data_file == 'y':
                 eprint(
-                    f'\n* Downloading {Font.bold}{data_file}{Font.end}... ',
+                    f'\n• Downloading {Font.b}{data_file}{Font.be}... ',
                     sep=' ',
                     end='',
                     flush=True,
@@ -1539,7 +1537,7 @@ def load_data(data_file: str, file_type: str, config: Config) -> dict[str, Any]:
                 data_content = load_data(data_file, file_type, config)
 
         except OSError as e:
-            eprint(f'\n{Font.error_bold}* Error: {Font.end}{e!s}\n')
+            eprint(f'• {Font.error_bold}Error{Font.be}: {e!s}\n', level='error')
             raise
 
     return data_content

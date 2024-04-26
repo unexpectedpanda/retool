@@ -1,9 +1,8 @@
 #!/usr/bin/env python
 
 """
-Filters DATs from [Redump](http://redump.org/) and
-[No-Intro](https://www.no-intro.org) to remove titles
-you don't want.
+Filters DATs from [Redump](http://redump.org/) and [No-Intro](https://www.no-intro.org) to
+remove titles you don't want.
 
 https://github.com/unexpectedpanda/retool
 """
@@ -21,10 +20,10 @@ from PySide6 import QtWidgets as qtw
 
 import retool
 from modules.config import Config
-from modules.gui.custom_widgets import CustomComboBox, CustomList, custom_widgets
 from modules.gui.gui_config import import_config, write_config
 from modules.gui.gui_setup import setup_gui_global, setup_gui_system
 from modules.gui.gui_utils import enable_go_button, show_hide
+from modules.gui.gui_widgets import CustomComboBox, CustomList, custom_widgets
 from modules.gui.retool_ui import Ui_MainWindow  # type: ignore
 from modules.input import UserInput
 from modules.utils import Font, eprint
@@ -42,7 +41,7 @@ def main() -> None:
     os.environ['QT_AUTO_SCREEN_SCALE_FACTOR'] = '1'
 
     # Encourage the user not to close the CLI
-    eprint('Don\'t close this window, Retool uses it for processing.')
+    eprint('Don\'t close this window, Retool uses it for processing.', indent=0)
 
     # Set variables
     app: qtw.QApplication = qtw.QApplication(sys.argv)
@@ -282,16 +281,24 @@ class ThreadTask(qtc.QRunnable):
             pass
         except Exception:
             eprint(
-                f'\n{Font.error}Retool has had an unexpected error. Please raise an issue at\nhttps://github.com/unexpectedpanda/retool/issues, attaching\nthe DAT file that caused the problem and the following trace:{Font.end}\n'
+                'Retool has had an unexpected error. Please raise an issue at https://github.com/unexpectedpanda/retool/issues, '
+                'attaching the DAT file that caused the problem and the following trace:\n',
+                level='error',
+                indent=0,
             )
+            eprint(f'{Font.error}{"-"*70}')
             traceback.print_exc()
+            eprint(f'{Font.error}{"-"*70}')
             eprint(
-                f'\n{Font.error}The error occurred on this file:\n{self.argument.input_file_name}{Font.end}\n'
+                f'The error occurred on this file:\n{self.argument.input_file_name}\n',
+                level='error',
             )
             if pathlib.Path('.dev').is_file():
-                input(
-                    f'\n{Font.disabled}Press enter to continue. This message is only shown in dev mode.{Font.end}'
+                eprint(
+                    '\nPress enter to continue. This message is only shown in dev mode.',
+                    level='disabled',
                 )
+                input()
             self.signals.finished.emit(self.data)  # type: ignore
 
         self.signals.finished.emit(self.data)  # type: ignore

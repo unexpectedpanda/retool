@@ -3,7 +3,7 @@
 ################################################################################
 ## Form generated from reading UI file 'retool-settings.ui'
 ##
-## Created by: Qt User Interface Compiler version 6.6.1
+## Created by: Qt User Interface Compiler version 6.6.2
 ##
 ## WARNING! All changes made in this file will be lost when recompiling UI file!
 ################################################################################
@@ -19,7 +19,7 @@ from PySide6.QtWidgets import (QApplication, QDialog, QFrame, QGridLayout,
     QHBoxLayout, QLabel, QLayout, QPushButton,
     QSizePolicy, QSpacerItem, QWidget)
 
-from modules.gui.custom_widgets import (CustomLineEdit, ElisionLabel)
+from modules.gui.gui_widgets import (CustomLineEdit, ElisionLabel)
 from . import resources_rc
 
 class Ui_Settings(object):
@@ -27,7 +27,7 @@ class Ui_Settings(object):
         if not Settings.objectName():
             Settings.setObjectName(u"Settings")
         Settings.resize(604, 400)
-        sizePolicy = QSizePolicy(QSizePolicy.Fixed, QSizePolicy.Fixed)
+        sizePolicy = QSizePolicy(QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Fixed)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(Settings.sizePolicy().hasHeightForWidth())
@@ -71,7 +71,7 @@ class Ui_Settings(object):
         self.pushButtonReset = QPushButton(self.frameResetButton)
         self.pushButtonReset.setObjectName(u"pushButtonReset")
         self.pushButtonReset.setGeometry(QRect(546, 0, 25, 25))
-        sizePolicy1 = QSizePolicy(QSizePolicy.Fixed, QSizePolicy.Preferred)
+        sizePolicy1 = QSizePolicy(QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Preferred)
         sizePolicy1.setHorizontalStretch(0)
         sizePolicy1.setVerticalStretch(0)
         sizePolicy1.setHeightForWidth(self.pushButtonReset.sizePolicy().hasHeightForWidth())
@@ -149,7 +149,7 @@ class Ui_Settings(object):
 
         self.gridLayout.addWidget(self.linePaths, 2, 0, 1, 1)
 
-        self.verticalSpacer = QSpacerItem(20, 10, QSizePolicy.Minimum, QSizePolicy.Fixed)
+        self.verticalSpacer = QSpacerItem(20, 10, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Fixed)
 
         self.gridLayout.addItem(self.verticalSpacer, 6, 0, 1, 1)
 

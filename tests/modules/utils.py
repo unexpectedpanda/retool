@@ -213,11 +213,11 @@ def regex_test(regex_list: list[str], list_name: str) -> list[str]:
 
     if list_temp != regex_list:
         eprint(
-            f'{Font.warning}\n* The following {list_name} regex filters are invalid and will be skipped:\n'
+            f'{Font.warning}\n• The following {list_name} regex filters are invalid and will be skipped:\n'
         )
 
         for invalid_regex in [x for x in list_temp if x not in regex_list]:
-            eprint(f'  * {invalid_regex}')
+            eprint(f'  • {invalid_regex}')
 
         eprint(f'{Font.end}')
 

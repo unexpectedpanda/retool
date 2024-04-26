@@ -399,7 +399,7 @@
   <customwidget>
    <class>CustomLineEdit</class>
    <extends>QLineEdit</extends>
-   <header>modules.gui.custom_widgets</header>
+   <header>modules.gui.gui_widgets</header>
   </customwidget>
  </customwidgets>
  <resources>

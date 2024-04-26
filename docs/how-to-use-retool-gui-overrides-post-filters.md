@@ -64,6 +64,8 @@ Additionally, you can wrap any of these strings in `<>` when using overrides to 
 include or exclude any match's related clones. Wrapping strings in `<>` is not supported
 for post filters.
 
+Regardless of whether you use an override or a post filter, matches are case insensitive.
+
 ### Partial matches
 
 If a line isn't prefixed with `|` (full match) or `/` (regular expression) in an

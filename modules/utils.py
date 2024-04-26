@@ -16,8 +16,9 @@ from typing import TYPE_CHECKING, Any
 from urllib.error import HTTPError, URLError
 
 if TYPE_CHECKING:
-    from modules.config import Config
     from modules.input import UserInput
+
+import modules.constants as const
 
 
 def download(download_details: tuple[str, ...], report_download: bool = True) -> bool:
@@ -38,7 +39,9 @@ def download(download_details: tuple[str, ...], report_download: bool = True) ->
     local_file_path: str = download_details[1]
 
     if report_download:
-        eprint(f'\033[F\033[K* Downloading {pathlib.Path(download_details[1]).name}...')
+        eprint(
+            f'• Downloading {pathlib.Path(download_details[1]).name}...', wrap=False, overwrite=True
+        )
 
     def get_file(req: urllib.request.Request) -> tuple[bytes, bool]:
         """Error handling for downloading a file."""
@@ -56,16 +59,23 @@ def download(download_details: tuple[str, ...], report_download: bool = True) ->
 
                 if error.code == 404:
                     eprint(
-                        f'{Font.warning}\n  * [{now.strftime("%Y/%m/%d, %H:%M:%S")}]: 404, file not found: {Font.bold}{download_url}'
+                        f'\n  • [{now.strftime("%Y/%m/%d, %H:%M:%S")}]: 404, file not found: {Font.b}{download_url}',
+                        level='warning',
                     )
-                    eprint(f'  * [{now.strftime("%Y/%m/%d, %H:%M:%S")}]: Skipping...{Font.end}\n')
+                    eprint(
+                        f'  • [{now.strftime("%Y/%m/%d, %H:%M:%S")}]: Skipping...\n',
+                        level='warning',
+                    )
                     retrieved = True
                 else:
                     eprint(
-                        f'{Font.warning}\n  * [{now.strftime("%Y/%m/%d, %H:%M:%S")}]: Data not retrieved: {error}',
-                        req,
+                        f'\n  • [{now.strftime("%Y/%m/%d, %H:%M:%S")}]: Data not retrieved: {error}',
+                        level='warning',
                     )
-                    eprint(f'  * [{now.strftime("%Y/%m/%d, %H:%M:%S")}]: Skipping...{Font.end}\n')
+                    eprint(
+                        f'  • [{now.strftime("%Y/%m/%d, %H:%M:%S")}]: Skipping...\n',
+                        level='warning',
+                    )
                     retrieved = True
 
                 failed = True
@@ -76,10 +86,11 @@ def download(download_details: tuple[str, ...], report_download: bool = True) ->
                 retry_count += 1
                 now = get_datetime()
                 eprint(
-                    f'{Font.warning}\n  * [{now.strftime("%Y/%m/%d, %H:%M:%S")}]: Something unexpected happened: {error}'
+                    f'\n  • [{now.strftime("%Y/%m/%d, %H:%M:%S")}]: Something unexpected happened: {error}',
+                    level='warning',
                 )
                 eprint(
-                    f'  * [{now.strftime("%Y/%m/%d, %H:%M:%S")}]: Trying again in 5 seconds ({retry_count}/5)...'
+                    f'  • [{now.strftime("%Y/%m/%d, %H:%M:%S")}]: Trying again in 5 seconds ({retry_count}/5)...'
                 )
                 time.sleep(5)
             except TimeoutError as error:
@@ -89,10 +100,11 @@ def download(download_details: tuple[str, ...], report_download: bool = True) ->
                 retry_count += 1
                 now = get_datetime()
                 eprint(
-                    f'{Font.warning}\n  * [{now.strftime("%Y/%m/%d, %H:%M:%S")}]: Socket timeout: {error}{Font.end}'
+                    f'\n  • [{now.strftime("%Y/%m/%d, %H:%M:%S")}]: Socket timeout: {error}',
+                    level='warning',
                 )
                 eprint(
-                    f'  * [{now.strftime("%Y/%m/%d, %H:%M:%S")}]: Trying again in 5 seconds ({retry_count}/5)...'
+                    f'  • [{now.strftime("%Y/%m/%d, %H:%M:%S")}]: Trying again in 5 seconds ({retry_count}/5)...'
                 )
                 time.sleep(5)
             except OSError as error:
@@ -102,10 +114,11 @@ def download(download_details: tuple[str, ...], report_download: bool = True) ->
                 retry_count += 1
                 now = get_datetime()
                 eprint(
-                    f'{Font.warning}\n  * [{now.strftime("%Y/%m/%d, %H:%M:%S")}]: Socket error: {error}{Font.end}'
+                    f'\n  • [{now.strftime("%Y/%m/%d, %H:%M:%S")}]: Socket error: {error}',
+                    level='warning',
                 )
                 eprint(
-                    f'  * [{now.strftime("%Y/%m/%d, %H:%M:%S")}]: Trying again in 5 seconds ({retry_count}/5)...'
+                    f'  • [{now.strftime("%Y/%m/%d, %H:%M:%S")}]: Trying again in 5 seconds ({retry_count}/5)...'
                 )
                 time.sleep(5)
             except Exception:
@@ -115,10 +128,11 @@ def download(download_details: tuple[str, ...], report_download: bool = True) ->
                 retry_count += 1
                 now = get_datetime()
                 eprint(
-                    f'{Font.warning}\n  * [{now.strftime("%Y/%m/%d, %H:%M:%S")}]: Something unexpected happened.{Font.end}'
+                    f'\n  • [{now.strftime("%Y/%m/%d, %H:%M:%S")}]: Something unexpected happened.',
+                    level='warning',
                 )
                 eprint(
-                    f'  * [{now.strftime("%Y/%m/%d, %H:%M:%S")}]: Trying again in 5 seconds ({retry_count}/5)...'
+                    f'  • [{now.strftime("%Y/%m/%d, %H:%M:%S")}]: Trying again in 5 seconds ({retry_count}/5)...'
                 )
                 time.sleep(5)
             else:
@@ -128,7 +142,8 @@ def download(download_details: tuple[str, ...], report_download: bool = True) ->
             failed = True
             now = get_datetime()
             eprint(
-                f'{Font.warning}\n  * [{now.strftime("%Y/%m/%d, %H:%M:%S")}]: {local_file_path} failed to download.{Font.end}\n\n'
+                f'\n  • [{now.strftime("%Y/%m/%d, %H:%M:%S")}]: {local_file_path} failed to download.\n\n',
+                level='warning',
             )
 
         # Delete any zero-sized files that have been created
@@ -161,7 +176,7 @@ def download(download_details: tuple[str, ...], report_download: bool = True) ->
             output_file.write(file_data)
 
     if report_download:
-        eprint('\033[F\033[K')
+        eprint(Font.overwrite)
 
     return failed
 
@@ -170,7 +185,7 @@ def enable_vt_mode() -> Any:
     """
     Turns on VT-100 emulation mode for Windows, allowing things like colors.
 
-    https://bugs.python.org/issue30075
+    From https://bugs.python.org/issue30075
     """
     import ctypes
     import msvcrt
@@ -215,9 +230,78 @@ def enable_vt_mode() -> Any:
         raise
 
 
-def eprint(*args: Any, **kwargs: Any) -> None:
-    """Prints to STDERR."""
-    print(*args, file=sys.stderr, **kwargs)  # noqa: T201
+def eprint(
+    text: str = '', wrap=True, level='', indent: int = 2, pause=False, overwrite=False, **kwargs
+) -> None:
+    """
+    Prints to STDERR.
+
+    Args:
+        text (str, optional): The content to tprint. Defaults to `''`.
+        wrap (bool, optional): Whether to wrap text. Defaults to `True`.
+        level (str, optional): How the text is formatted. Valid values include `warning`,
+          `error`, `success`, `disabled`, `heading`, `subheading`. Defaults to `''`.
+        indent (int, optional): After the first line, how many spaces to indent whenever
+          a text wraps to a new line. Defaults to `2`.
+        pause (bool, optional): Shows a `Press enter to continue` message and waits for
+          use input. Defaults to `False`.
+        overwrite (bool, optional): Delete the previous line and replace it with this one.
+          Defaults to `False`.
+        **kwargs: Any other keyword arguments to pass to the `print` function.
+    """
+    indent_str: str = ''
+    new_line: str = ''
+    overwrite_str: str = ''
+
+    if text:
+        indent_str = ' '
+
+    if overwrite:
+        overwrite_str = '\033M\033[2K'
+
+    if level == 'warning':
+        color = Font.warning
+    elif level == 'error':
+        color = Font.error
+        new_line = '\n'
+    elif level == 'success':
+        color = Font.success
+    elif level == 'disabled':
+        color = Font.disabled
+    elif level == 'heading':
+        color = Font.heading_bold
+    elif level == 'subheading':
+        color = Font.subheading
+    else:
+        color = Font.end
+
+    message: str = f"{overwrite_str}{color}{text}{Font.end}"
+
+    if wrap:
+        if level == 'heading':
+            print(f'\n\n{Font.heading_bold}{"─"*95}{Font.end}', file=sys.stderr)  # noqa: T201
+        if level == 'subheading':
+            print(f'\n{Font.subheading}{"─"*60}{Font.end}', file=sys.stderr)  # noqa: T201
+        print(  # noqa: T201
+            f'{new_line}{textwrap.TextWrapper(width=95, subsequent_indent=indent_str*indent, replace_whitespace=False, break_long_words=False, break_on_hyphens=False).fill(message)}',
+            file=sys.stderr,
+            **kwargs,
+        )
+        if level == 'heading':
+            print('\n')  # noqa: T201
+    else:
+        print(message, file=sys.stderr, **kwargs)  # noqa: T201
+
+    if pause:
+        empty_lines: str = '\n'
+
+        if not text:
+            empty_lines: str = ''
+
+        print(  # noqa: T201
+            f'{empty_lines}{Font.d}Press enter to continue{Font.end}', file=sys.stderr
+        )
+        input()
 
 
 def format_value(value: Any) -> str:
@@ -229,10 +313,10 @@ def format_value(value: Any) -> str:
 
     Returns:
         str: A string that either indicates there's no value, or the original
-        value converted to a string.
+          value converted to a string.
     """
     if not value:
-        return_value: str = f'{Font.disabled}None{Font.end}'
+        return_value: str = f'{Font.d}None{Font.end}'
     else:
         return_value = f'{value}'
 
@@ -249,7 +333,7 @@ def get_datetime() -> datetime.datetime:
 
 
 def minimum_version(
-    min_version: str, file_name: str, gui_input: UserInput | None, config: Config
+    min_version: str, file_name: str, gui_input: UserInput | None, bar=None
 ) -> None:
     """
     Figures out if a file requires a higher version of Retool.
@@ -262,7 +346,7 @@ def minimum_version(
         gui_input (UserInput): Used to determine whether or not the function is being
           called from the GUI.
 
-        config (Config): The Retool config object.
+        bar (Any): The progress bar.
     """
     # Convert old versions to new versioning system
     if len(re.findall('\\.', min_version)) < 2:
@@ -271,35 +355,56 @@ def minimum_version(
     # Make sure current Retool version is new enough to handle internal-config.json
     out_of_date: bool = False
 
-    clone_list_version_major = f'{min_version.split(".")[0]}.{min_version.split(".")[1]}'
-    clone_list_version_minor = f'{min_version.split(".")[2]}'
-    if clone_list_version_major > config.version_major:
+    input_file_version_major: int = int(min_version.split('.')[0])
+    input_file_version_minor: int = int(min_version.split('.')[1])
+    input_file_version_patch: int = int(min_version.split(".")[2])
+
+    retool_version_major: int = int(const.__version__.split(".")[0])
+    retool_version_minor: int = int(const.__version__.split('.')[1])
+    retool_version_patch: int = int(const.__version__.split('.')[2])
+
+    if input_file_version_major > retool_version_major:
         out_of_date = True
-    elif clone_list_version_major == config.version_major:
-        if clone_list_version_minor > config.version_minor:
+    elif input_file_version_major == retool_version_major:
+        if input_file_version_minor > retool_version_minor:
+            out_of_date = True
+    elif (
+        input_file_version_major == retool_version_major
+        and input_file_version_minor == retool_version_minor
+    ):
+        if input_file_version_patch > retool_version_patch:
             out_of_date = True
 
     if out_of_date:
         out_of_date_response: str = ''
 
-        while not (out_of_date_response == 'y' or out_of_date_response == 'n'):
-            printwrap(
-                f'{Font.warning_bold}* {file_name} requires Retool '
-                f'{min_version!s} or higher. Behaviour might be unpredictable. '
-                'Please update Retool to fix this.',
-                'error',
-            )
+        def query_user(out_of_date_response):
+            eprint(f'{Font.overwrite*3}')
+            while not (out_of_date_response == 'y' or out_of_date_response == 'n'):
+                eprint(
+                    f'• The clone list {Font.b}{file_name}{Font.be} requires Retool '
+                    f'{min_version!s} or higher. Behavior might be unpredictable. '
+                    'Update Retool to fix this.',
+                    level='error',
+                )
 
-            eprint(f'\n  Continue? (y/n) {Font.end}')
-            out_of_date_response = input()
+                eprint('  Continue? (y/n)', level='error')
 
-        if out_of_date_response == 'n':
-            if gui_input:
-                raise ExitRetool
+                out_of_date_response = input()
+
+            if out_of_date_response == 'n':
+                if gui_input:
+                    raise ExitRetool
+                else:
+                    sys.exit(1)
             else:
-                sys.exit(1)
+                eprint('')
+
+        if bar:
+            with bar.pause():
+                query_user(out_of_date_response)
         else:
-            eprint('')
+            query_user(out_of_date_response)
 
 
 def old_windows() -> bool:
@@ -341,30 +446,6 @@ def pattern2string(regex: Pattern[str], search_str: str, group_number: int = 0) 
     return regex_search_str
 
 
-def printwrap(string: str, style: str = '') -> None:
-    """
-    Ensures long print messages wrap at a certain column count, and controls text
-    indenting.
-
-    Args:
-        string (str): The input string.
-
-        style (str, optional): Which message style to use. Valid choices are
-          `no_indent`, `error`, `dat_details`, or `''`. Defaults to `''`.
-    """
-    if not style:
-        eprint(textwrap.TextWrapper(width=95, subsequent_indent='  ').fill('' + string))
-
-    if style == 'no_indent':
-        eprint(textwrap.fill(string, 80))
-
-    if style == 'error':
-        eprint('\n' + textwrap.TextWrapper(width=95, subsequent_indent='  ').fill('' + string))
-
-    if style == 'dat_details':
-        eprint(textwrap.TextWrapper(width=95, subsequent_indent='   ').fill('' + string))
-
-
 def regex_test(regex_list: list[str], regex_origin: str, type: str) -> list[str]:
     """
     Checks for valid regexes.
@@ -382,7 +463,7 @@ def regex_test(regex_list: list[str], regex_origin: str, type: str) -> list[str]
         on this.
 
     Returns:
-        `list[str]` The remaining valid regexes as strings.
+        list[str]: The remaining valid regexes as strings.
     """
     list_temp: list[str] = regex_list.copy()
 
@@ -403,20 +484,22 @@ def regex_test(regex_list: list[str], regex_origin: str, type: str) -> list[str]
     if list_temp != regex_list:
         if type == 'user filter':
             eprint(
-                f'{Font.warning}\n* The following {regex_origin} regexes are invalid and will be skipped:\n'
+                f'• The following {regex_origin} regexes are invalid and will be skipped:\n',
+                level='warning',
             )
         elif type == 'clone list':
             eprint(
-                f'{Font.warning}\n* The following regex in the clone list\'s {regex_origin} object is invalid and will be skipped:\n'
+                f'• The following regex in the clone list\'s {regex_origin} object is invalid and will be skipped:\n',
+                level='warning',
             )
         elif type == 'trace':
-            eprint(f'{Font.warning}\n* The following regex in the requested trace is invalid:\n')
+            eprint('• The following regex in the requested trace is invalid:\n', level='warning')
 
         for invalid_regex in [x for x in list_temp if x not in regex_list]:
-            eprint(f'  * {invalid_regex}')
+            eprint(f'  • {invalid_regex}', level='warning')
 
         if type == 'trace':
-            eprint(f'\n{Font.end}Exiting...\n')
+            eprint('\nExiting...\n')
             sys.exit(1)
 
         eprint(f'{Font.end}')
@@ -440,8 +523,12 @@ class Font:
         subheading_bold: str = '\033[1m\033[35m'
         disabled: str = '\033[90m'
         bold: str = '\033[1m'
+        bold_end: str = '\033[22m'
         italic = '\033[3m'
+        italic_end = '\033[23m'
         underline: str = '\033[4m'
+        underline_end = '\033[24m'
+        plain = '\033[22m\033[23m\033[24m'
         end: str = '\033[0m'
     else:
         success = ''
@@ -452,9 +539,22 @@ class Font:
         error_bold = ''
         disabled = ''
         bold = ''
+        bold_end = ''
         italic = ''
+        italic_end = ''
         underline = ''
+        underline_end = ''
+        plain = ''
         end = ''
+
+    b: str = bold
+    be: str = bold_end
+    d: str = disabled
+    i: str = italic
+    ie: str = italic_end
+    u: str = underline
+    ue: str = underline_end
+    overwrite: str = '\033M\033[2K'
 
 
 class ExitRetool(Exception):
@@ -465,7 +565,7 @@ class SmartFormatter(argparse.HelpFormatter):
     """
     Text formatter for argparse that respects new lines.
 
-    https://stackoverflow.com/questions/3853722/how-to-insert-newlines-on-argparse-help-text
+    From https://stackoverflow.com/questions/3853722/how-to-insert-newlines-on-argparse-help-text
     """
 
     def _split_lines(self, text: str, width: int) -> list[Any]:

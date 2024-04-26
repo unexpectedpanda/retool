@@ -253,117 +253,130 @@ def report_stats(config: Config) -> None:
     Args:
         config (Config): The Retool config object.
     """
-    eprint(f'\nStats:\no  Original title count: {config.stats.original_count:,}')
+    eprint(f'\nStats:\n•  Original title count: {config.stats.original_count:,}', wrap=False)
 
     if config.user_input.legacy and not config.user_input.no_1g1r:
-        eprint(f'o  Titles assigned as clones: {config.stats.clones_count:,}')
+        eprint(f'•  Titles assigned as clones: {config.stats.clones_count:,}', wrap=False)
     elif not config.user_input.no_1g1r:
-        eprint(f'-  Clones removed: {config.stats.clones_count:,}')
+        eprint(f'-  Clones removed: {config.stats.clones_count:,}', wrap=False)
 
     if config.stats.duplicate_titles_count:
         eprint(
-            f'-  Duplicate titles found in DAT file and removed: {config.stats.duplicate_titles_count:,}'
+            f'-  Duplicate titles found in DAT file and removed: {config.stats.duplicate_titles_count:,}',
+            wrap=False,
         )
 
     if config.user_input.no_add_ons:
-        eprint(f'-  Add-on titles removed: {config.stats.addons_count:,}')
+        eprint(f'-  Add-on titles removed: {config.stats.addons_count:,}', wrap=False)
 
     if config.user_input.no_aftermarket:
-        eprint(f'-  Aftermarket titles removed: {config.stats.aftermarket_count:,}')
+        eprint(f'-  Aftermarket titles removed: {config.stats.aftermarket_count:,}', wrap=False)
 
     if config.user_input.no_applications:
-        eprint(f'-  Applications removed: {config.stats.applications_count:,}')
+        eprint(f'-  Applications removed: {config.stats.applications_count:,}', wrap=False)
 
     if config.user_input.no_audio:
-        eprint(f'-  Audio titles removed: {config.stats.audio_count:,}')
+        eprint(f'-  Audio titles removed: {config.stats.audio_count:,}', wrap=False)
 
     if config.user_input.no_bad_dumps:
-        eprint(f'-  Bad dumps removed: {config.stats.bad_dumps_count:,}')
+        eprint(f'-  Bad dumps removed: {config.stats.bad_dumps_count:,}', wrap=False)
 
     if config.user_input.no_bios:
-        eprint(f'-  BIOSes and other chips removed: {config.stats.bios_count:,}')
+        eprint(f'-  BIOSes and other chips removed: {config.stats.bios_count:,}', wrap=False)
 
     if config.user_input.no_bonus_discs:
-        eprint(f'-  Bonus discs removed: {config.stats.bonus_discs_count:,}')
+        eprint(f'-  Bonus discs removed: {config.stats.bonus_discs_count:,}', wrap=False)
 
     if config.user_input.no_coverdiscs:
-        eprint(f'-  Coverdiscs removed: {config.stats.coverdiscs_count:,}')
+        eprint(f'-  Coverdiscs removed: {config.stats.coverdiscs_count:,}', wrap=False)
 
     if config.user_input.no_demos:
-        eprint(f'-  Demos removed: {config.stats.demos_count:,}')
+        eprint(f'-  Demos removed: {config.stats.demos_count:,}', wrap=False)
 
     if config.user_input.no_educational:
-        eprint(f'-  Educational titles removed: {config.stats.educational_count:,}')
+        eprint(f'-  Educational titles removed: {config.stats.educational_count:,}', wrap=False)
 
     if config.user_input.no_games:
-        eprint(f'-  Games removed: {config.stats.games_count:,}')
+        eprint(f'-  Games removed: {config.stats.games_count:,}', wrap=False)
 
     if config.user_input.no_manuals:
-        eprint(f'-  Manuals removed: {config.stats.manuals_count:,}')
+        eprint(f'-  Manuals removed: {config.stats.manuals_count:,}', wrap=False)
 
     if config.user_input.no_mia:
-        eprint(f'-  MIA titles removed: {config.stats.mia_count:,}')
+        eprint(f'-  MIA titles removed: {config.stats.mia_count:,}', wrap=False)
 
     if config.user_input.no_multimedia:
-        eprint(f'-  Multimedia titles removed: {config.stats.multimedia_count:,}')
+        eprint(f'-  Multimedia titles removed: {config.stats.multimedia_count:,}', wrap=False)
 
     if config.user_input.no_pirate:
-        eprint(f'-  Pirate titles removed: {config.stats.pirate_count:,}')
+        eprint(f'-  Pirate titles removed: {config.stats.pirate_count:,}', wrap=False)
 
     if config.user_input.no_preproduction:
-        eprint(f'-  Preproduction titles removed: {config.stats.preproduction_count:,}')
+        eprint(f'-  Preproduction titles removed: {config.stats.preproduction_count:,}', wrap=False)
 
     if config.user_input.no_promotional:
-        eprint(f'-  Promotional titles removed: {config.stats.promotional_count:,}')
+        eprint(f'-  Promotional titles removed: {config.stats.promotional_count:,}', wrap=False)
 
     if config.user_input.no_unlicensed:
-        eprint(f'-  Unlicensed titles removed: {config.stats.unlicensed_count:,}')
+        eprint(f'-  Unlicensed titles removed: {config.stats.unlicensed_count:,}', wrap=False)
 
     if config.user_input.no_video:
-        eprint(f'-  Video titles removed: {config.stats.video_count:,}')
+        eprint(f'-  Video titles removed: {config.stats.video_count:,}', wrap=False)
 
     if config.stats.removes_count:
-        eprint(f'-  Titles force removed by clone list: {config.stats.removes_count:,}')
+        eprint(f'-  Titles force removed by clone list: {config.stats.removes_count:,}', wrap=False)
 
     if config.stats.global_exclude_count:
         eprint(
-            f'-  Titles removed by custom global override: {config.stats.global_exclude_count:,}'
+            f'-  Titles removed by custom global override: {config.stats.global_exclude_count:,}',
+            wrap=False,
         )
 
     if config.stats.system_exclude_count:
         eprint(
-            f'-  Titles removed by custom system override: {config.stats.system_exclude_count:,}'
+            f'-  Titles removed by custom system override: {config.stats.system_exclude_count:,}',
+            wrap=False,
         )
 
     if config.stats.languages_count:
-        eprint(f'-  Titles removed by language filters: {config.stats.languages_count:,}')
+        eprint(
+            f'-  Titles removed by language filters: {config.stats.languages_count:,}', wrap=False
+        )
 
     if config.stats.regions_count:
-        eprint(f'-  Titles removed by region filters: {config.stats.regions_count:,}')
+        eprint(f'-  Titles removed by region filters: {config.stats.regions_count:,}', wrap=False)
 
     if config.stats.global_include_count:
         eprint(
-            f'   +  Titles force included by global include overrides: {config.stats.global_include_count:,}'
+            f'   +  Titles force included by global include overrides: {config.stats.global_include_count:,}',
+            wrap=False,
         )
 
     if config.stats.system_include_count:
         eprint(
-            f'   +  Titles force included by system include overrides: {config.stats.system_include_count:,}'
+            f'   +  Titles force included by system include overrides: {config.stats.system_include_count:,}',
+            wrap=False,
         )
 
     if config.stats.global_filter_count:
-        eprint(f'-  Titles removed by global post filters: {config.stats.global_filter_count:,}')
+        eprint(
+            f'-  Titles removed by global post filters: {config.stats.global_filter_count:,}',
+            wrap=False,
+        )
 
     if config.stats.system_filter_count:
-        eprint(f'-  Titles removed by system post filters: {config.stats.system_filter_count:,}')
+        eprint(
+            f'-  Titles removed by system post filters: {config.stats.system_filter_count:,}',
+            wrap=False,
+        )
 
     total_titles: str = (
         f'\n-  Total titles removed: {config.stats.original_count - config.stats.final_count:,}'
     )
 
-    eprint(f'{total_titles}{Font.bold}')
+    eprint(f'{total_titles}{Font.b}')
     eprint('-' * len(total_titles))
-    eprint(f'=  Final title count: {config.stats.final_count:,}{Font.end}')
+    eprint(f'=  Final title count: {config.stats.final_count:,}{Font.be}')
 
     if config.user_input.dev_mode:
         delta: int = (
@@ -402,12 +415,10 @@ def report_stats(config: Config) -> None:
 
         if delta != config.stats.final_count:
             eprint(
-                f'{Font.error}\nStats mismatch delta vs final count: {delta - config.stats.final_count:,}. Often this means there\'s a duplicate entry in'
+                f'Stats mismatch delta vs final count: {delta - config.stats.final_count:,}. Often this means there\'s a duplicate entry in'
+                f'the clone list or the DAT file.',
+                level='error',
+                pause=True,
             )
-            eprint(f'the clone list or the DAT file.{Font.end}')
-            eprint(f'\n{Font.disabled}Press enter to continue{Font.end}')
-            input()
         else:
-            eprint(
-                f'{Font.success}\nStats add up properly to match final count in output DAT.{Font.end}'
-            )
+            eprint('\nStats add up properly to match final count in output DAT.', level='success')

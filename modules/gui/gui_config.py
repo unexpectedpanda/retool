@@ -41,8 +41,6 @@ def import_config() -> Config:
         const.SYSTEM_SETTINGS_PATH,
         const.SANITIZED_CHARACTERS,
         const.RESERVED_FILENAMES,
-        const.VERSION_MAJOR,
-        const.VERSION_MINOR,
         UserInput(),
         first_run_gui=True,
     )

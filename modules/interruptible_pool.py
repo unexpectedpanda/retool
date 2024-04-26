@@ -96,5 +96,3 @@ def poolmap(self: Any, func: Any, iterable: Any, chunksize: Any = None) -> Any:
             self.terminate()
             self.join()
             raise
-
-        # Other exceptions propagate up.

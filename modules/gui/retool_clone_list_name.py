@@ -3,7 +3,7 @@
 ################################################################################
 ## Form generated from reading UI file 'retool-clone-list-name.ui'
 ##
-## Created by: Qt User Interface Compiler version 6.6.1
+## Created by: Qt User Interface Compiler version 6.6.2
 ##
 ## WARNING! All changes made in this file will be lost when recompiling UI file!
 ################################################################################
@@ -19,7 +19,7 @@ from PySide6.QtWidgets import (QApplication, QCheckBox, QLabel, QLineEdit,
     QMainWindow, QSizePolicy, QSpacerItem, QVBoxLayout,
     QWidget)
 
-from modules.gui.custom_widgets import CustomLineEdit
+from modules.gui.gui_widgets import CustomLineEdit
 from . import resources_rc
 
 class Ui_CloneListNameTool(object):
@@ -27,7 +27,7 @@ class Ui_CloneListNameTool(object):
         if not CloneListNameTool.objectName():
             CloneListNameTool.setObjectName(u"CloneListNameTool")
         CloneListNameTool.resize(601, 365)
-        sizePolicy = QSizePolicy(QSizePolicy.Fixed, QSizePolicy.Fixed)
+        sizePolicy = QSizePolicy(QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Fixed)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(CloneListNameTool.sizePolicy().hasHeightForWidth())
@@ -58,7 +58,7 @@ class Ui_CloneListNameTool(object):
 
         self.verticalLayout.addWidget(self.labelContribute)
 
-        self.verticalSpacer_5 = QSpacerItem(20, 8, QSizePolicy.Minimum, QSizePolicy.Fixed)
+        self.verticalSpacer_5 = QSpacerItem(20, 8, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Fixed)
 
         self.verticalLayout.addItem(self.verticalSpacer_5)
 
@@ -82,7 +82,7 @@ class Ui_CloneListNameTool(object):
 
         self.verticalLayout.addWidget(self.checkBoxDemos)
 
-        self.verticalSpacer = QSpacerItem(13, 8, QSizePolicy.Minimum, QSizePolicy.Fixed)
+        self.verticalSpacer = QSpacerItem(13, 8, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Fixed)
 
         self.verticalLayout.addItem(self.verticalSpacer)
 
@@ -110,7 +110,7 @@ class Ui_CloneListNameTool(object):
 
         self.verticalLayout.addWidget(self.lineEditShortName)
 
-        self.verticalSpacer_2 = QSpacerItem(20, 5, QSizePolicy.Minimum, QSizePolicy.Fixed)
+        self.verticalSpacer_2 = QSpacerItem(20, 5, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Fixed)
 
         self.verticalLayout.addItem(self.verticalSpacer_2)
 
@@ -132,7 +132,7 @@ class Ui_CloneListNameTool(object):
 
         self.verticalLayout.addWidget(self.lineEditGroupName)
 
-        self.verticalSpacer_3 = QSpacerItem(20, 5, QSizePolicy.Minimum, QSizePolicy.Fixed)
+        self.verticalSpacer_3 = QSpacerItem(20, 5, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Fixed)
 
         self.verticalLayout.addItem(self.verticalSpacer_3)
 
@@ -154,7 +154,7 @@ class Ui_CloneListNameTool(object):
 
         self.verticalLayout.addWidget(self.lineEditRegionFreeName)
 
-        self.verticalSpacer_6 = QSpacerItem(20, 15, QSizePolicy.Minimum, QSizePolicy.Fixed)
+        self.verticalSpacer_6 = QSpacerItem(20, 15, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Fixed)
 
         self.verticalLayout.addItem(self.verticalSpacer_6)
 

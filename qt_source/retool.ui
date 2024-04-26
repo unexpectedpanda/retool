@@ -3602,8 +3602,8 @@ games.</string>
                          <rect>
                           <x>0</x>
                           <y>0</y>
-                          <width>169</width>
-                          <height>559</height>
+                          <width>590</width>
+                          <height>396</height>
                          </rect>
                         </property>
                         <layout class="QGridLayout" name="gridLayoutGlobalUserFilters">
@@ -3625,7 +3625,7 @@ games.</string>
                          <item row="2" column="0" colspan="3">
                           <widget class="QLabel" name="labelGlobalOverride">
                            <property name="text">
-                            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Override Retool and force exclude or include specific titles by adding your own text to match against. Each match must be on its own line, and is case sensitive. See the &lt;a href=&quot;https://unexpectedpanda.github.io/retool/how-to-use-retool-gui-overrides-post-filters&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;documentation&lt;/span&gt;&lt;/a&gt; for more information.&lt;br/&gt;&lt;br/&gt;• Plain text indicates a partial string match.&lt;br/&gt;• A prefix of / indicates a regular expression match.&lt;br/&gt;• A prefix of | indicates a full string match.&lt;br/&gt;• Additionally, wrap a string in &amp;lt;&amp;gt; to also exclude/include any match's related clones.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Override Retool and force exclude or include specific titles by adding your own text to match against. Each match must be on its own line, and is case insensitive. See the &lt;a href=&quot;https://unexpectedpanda.github.io/retool/how-to-use-retool-gui-overrides-post-filters&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;documentation&lt;/span&gt;&lt;/a&gt; for more information.&lt;br/&gt;&lt;br/&gt;• Plain text indicates a partial string match.&lt;br/&gt;• A prefix of / indicates a regular expression match.&lt;br/&gt;• A prefix of | indicates a full string match.&lt;br/&gt;• Additionally, wrap a string in &amp;lt;&amp;gt; to also exclude/include any match's related clones.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                            </property>
                            <property name="alignment">
                             <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
@@ -3908,8 +3908,8 @@ games.</string>
                          <rect>
                           <x>0</x>
                           <y>0</y>
-                          <width>235</width>
-                          <height>431</height>
+                          <width>590</width>
+                          <height>396</height>
                          </rect>
                         </property>
                         <property name="sizePolicy">
@@ -4031,7 +4031,7 @@ games.</string>
                          <item row="2" column="0" colspan="2">
                           <widget class="QLabel" name="labelGlobalFilters">
                            <property name="text">
-                            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;After Retool has finished processing, only include titles that match the text listed here. Each match must be on its own line, and is case sensitive. See the &lt;a href=&quot;https://unexpectedpanda.github.io/retool/how-to-use-retool-gui-overrides-post-filters&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;documentation&lt;/span&gt;&lt;/a&gt; for more information.&lt;br/&gt;&lt;br/&gt;• Plain text indicates a partial string match.&lt;br/&gt;• A prefix of / indicates a regular expression match.&lt;br/&gt;• A prefix of | indicates a full string match.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;After Retool has finished processing, only include titles that match the text listed here. Each match must be on its own line, and is case insensitive. See the &lt;a href=&quot;https://unexpectedpanda.github.io/retool/how-to-use-retool-gui-overrides-post-filters&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;documentation&lt;/span&gt;&lt;/a&gt; for more information.&lt;br/&gt;&lt;br/&gt;• Plain text indicates a partial string match.&lt;br/&gt;• A prefix of / indicates a regular expression match.&lt;br/&gt;• A prefix of | indicates a full string match.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                            </property>
                            <property name="alignment">
                             <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
@@ -4151,8 +4151,8 @@ games.</string>
                          <rect>
                           <x>0</x>
                           <y>0</y>
-                          <width>423</width>
-                          <height>1099</height>
+                          <width>573</width>
+                          <height>1035</height>
                          </rect>
                         </property>
                         <property name="sizePolicy">
@@ -9415,8 +9415,8 @@ text in the name:
                          <rect>
                           <x>0</x>
                           <y>0</y>
-                          <width>169</width>
-                          <height>559</height>
+                          <width>590</width>
+                          <height>396</height>
                          </rect>
                         </property>
                         <property name="minimumSize">
@@ -9629,7 +9629,7 @@ text in the name:
                          <item row="2" column="0" colspan="3">
                           <widget class="QLabel" name="labelSystemOverride">
                            <property name="text">
-                            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Override Retool and force exclude or include specific titles by adding your own text to match against. Each match must be on its own line, and is case sensitive. See the &lt;a href=&quot;https://unexpectedpanda.github.io/retool/how-to-use-retool-gui-overrides-post-filters&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;documentation&lt;/span&gt;&lt;/a&gt; for more information.&lt;br/&gt;&lt;br/&gt;• Plain text indicates a partial string match.&lt;br/&gt;• A prefix of / indicates a regular expression match.&lt;br/&gt;• A prefix of | indicates a full string match.&lt;br/&gt;• Additionally, wrap a string in &amp;lt;&amp;gt; to also exclude/include any match's related clones.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Override Retool and force exclude or include specific titles by adding your own text to match against. Each match must be on its own line, and is case insensitive. See the &lt;a href=&quot;https://unexpectedpanda.github.io/retool/how-to-use-retool-gui-overrides-post-filters&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;documentation&lt;/span&gt;&lt;/a&gt; for more information.&lt;br/&gt;&lt;br/&gt;• Plain text indicates a partial string match.&lt;br/&gt;• A prefix of / indicates a regular expression match.&lt;br/&gt;• A prefix of | indicates a full string match.&lt;br/&gt;• Additionally, wrap a string in &amp;lt;&amp;gt; to also exclude/include any match's related clones.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                            </property>
                            <property name="alignment">
                             <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
@@ -9727,8 +9727,8 @@ text in the name:
                          <rect>
                           <x>0</x>
                           <y>0</y>
-                          <width>391</width>
-                          <height>383</height>
+                          <width>590</width>
+                          <height>396</height>
                          </rect>
                         </property>
                         <property name="sizePolicy">
@@ -9756,7 +9756,7 @@ text in the name:
                          <item row="2" column="0" colspan="2">
                           <widget class="QLabel" name="labelSystemFilters">
                            <property name="text">
-                            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;After Retool has finished processing, only include titles that match the text listed here. Each match must be on its own line, and is case sensitive. See the &lt;a href=&quot;https://unexpectedpanda.github.io/retool/how-to-use-retool-gui-overrides-post-filters&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;documentation&lt;/span&gt;&lt;/a&gt; for more information.&lt;br/&gt;&lt;br/&gt;• Plain text indicates a partial string match.&lt;br/&gt;• A prefix of / indicates a regular expression match.&lt;br/&gt;• A prefix of | indicates a full string match.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;After Retool has finished processing, only include titles that match the text listed here. Each match must be on its own line, and is case insensitive. See the &lt;a href=&quot;https://unexpectedpanda.github.io/retool/how-to-use-retool-gui-overrides-post-filters&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;documentation&lt;/span&gt;&lt;/a&gt; for more information.&lt;br/&gt;&lt;br/&gt;• Plain text indicates a partial string match.&lt;br/&gt;• A prefix of / indicates a regular expression match.&lt;br/&gt;• A prefix of | indicates a full string match.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                            </property>
                            <property name="alignment">
                             <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
@@ -11868,42 +11868,42 @@ core, at the cost of performance.</string>
   <customwidget>
    <class>CustomLineEdit</class>
    <extends>QLineEdit</extends>
-   <header>modules.gui.custom_widgets</header>
+   <header>modules.gui.gui_widgets</header>
   </customwidget>
   <customwidget>
    <class>CustomList</class>
    <extends>QListWidget</extends>
-   <header>modules.gui.custom_widgets</header>
+   <header>modules.gui.gui_widgets</header>
   </customwidget>
   <customwidget>
    <class>CustomListSelfDrag</class>
    <extends>QListWidget</extends>
-   <header>modules.gui.custom_widgets</header>
+   <header>modules.gui.gui_widgets</header>
   </customwidget>
   <customwidget>
    <class>CustomPushButton</class>
    <extends>QPushButton</extends>
-   <header>modules.gui.custom_widgets</header>
+   <header>modules.gui.gui_widgets</header>
   </customwidget>
   <customwidget>
    <class>CustomTextEdit</class>
    <extends>QTextEdit</extends>
-   <header>modules.gui.custom_widgets</header>
+   <header>modules.gui.gui_widgets</header>
   </customwidget>
   <customwidget>
    <class>ElisionLabel</class>
    <extends>QLabel</extends>
-   <header>modules.gui.custom_widgets</header>
+   <header>modules.gui.gui_widgets</header>
   </customwidget>
   <customwidget>
    <class>CustomListDropFiles</class>
    <extends>QListWidget</extends>
-   <header>modules.gui.custom_widgets</header>
+   <header>modules.gui.gui_widgets</header>
   </customwidget>
   <customwidget>
    <class>CustomComboBox</class>
    <extends>QComboBox</extends>
-   <header location="global">modules.gui.custom_widgets</header>
+   <header location="global">modules.gui.gui_widgets</header>
   </customwidget>
  </customwidgets>
  <tabstops>

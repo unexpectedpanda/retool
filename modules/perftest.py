@@ -20,22 +20,22 @@ def display_top(snapshot: Snapshot, key_type: str = 'lineno', limit: int = 3) ->
     )
     top_stats: list[Statistic] = snapshot.statistics(key_type)
 
-    eprint(f'\n\nMEMORY USAGE\n============\nTop {limit} lines')
+    eprint(f'\n\nMEMORY USAGE\n============\nTop {limit} lines', wrap=False)
     for index, stat in enumerate(top_stats[:limit], 1):
         frame: Frame = stat.traceback[0]
         # replace "/path/to/module/file.py" with "module/file.py"
         filename: str = os.sep.join(frame.filename.split(os.sep)[-2:])
-        eprint(f'#{index}: {filename}:{frame.lineno}: {(stat.size/1024):.1f} KiB')
+        eprint(f'#{index}: {filename}:{frame.lineno}: {(stat.size/1024):.1f} KiB', wrap=False)
         line: str = linecache.getline(frame.filename, frame.lineno).strip()
         if line:
-            eprint(f'    {line}')
+            eprint(f'    {line}', wrap=False)
 
     other = top_stats[limit:]
     if other:
         size: float = sum(stat.size for stat in other)
-        eprint(f'{len(other)} other: {(size/1024):.1f} KiB')
+        eprint(f'{len(other)} other: {(size/1024):.1f} KiB', wrap=False)
     total: float = sum(stat.size for stat in top_stats)
-    eprint(f'Total allocated size: {(total / 1024):.1f} KiB')
+    eprint(f'Total allocated size: {(total / 1024):.1f} KiB', wrap=False)
 
 
 def perf_test(func: Any) -> Any:
@@ -49,11 +49,14 @@ def perf_test(func: Any) -> Any:
         display_top(snapshot)
 
         runs: int = 500
-        eprint(f'\nPress any key to time {runs} runs\n')
+        eprint(f'\nPress any key to time {runs} runs\n', wrap=False)
         input()
 
-        eprint(f'\nTIME: {runs} RUNS\n=================')
-        eprint(f'\n{timeit.timeit(lambda: func(*args, **kwargs), number = runs)/runs}s per run')
+        eprint(f'\nTIME: {runs} RUNS\n=================', wrap=False)
+        eprint(
+            f'\n{timeit.timeit(lambda: func(*args, **kwargs), number = runs)/runs}s per run',
+            wrap=False,
+        )
 
         return result
 

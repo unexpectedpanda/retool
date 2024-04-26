@@ -9,8 +9,9 @@ if TYPE_CHECKING:
     from modules.config import Config
     from modules.dats import Dat, DatNode
 
+import modules.constants as const
 from modules.titletools import Removes, TitleTools
-from modules.utils import Font, eprint, get_datetime, printwrap
+from modules.utils import Font, eprint, get_datetime
 
 
 class WriteFiles:
@@ -194,10 +195,7 @@ class WriteFiles:
             main_dat_file (bool): Whether or not this is the main DAT file being written.
         """
         eprint(
-            f'* Creating{output_file_region.replace("(", "").replace(")", "")}{output_file_removes.replace("(", "").replace(")", "").lower()} DAT file... ',
-            sep=' ',
-            end='',
-            flush=True,
+            f'• Creating{output_file_region.replace("(", "").replace(")", "")}{output_file_removes.replace("(", "").replace(")", "").lower()} DAT file... ',
         )
 
         # Create a list titles, deduped of superset titles
@@ -230,21 +228,21 @@ class WriteFiles:
             if config.user_input.local_names and title.local_name:
                 if title.local_name in local_names:
                     if config.user_input.verbose:
-                        eprint()
-                        printwrap(
-                            f'{Font.warning}* The following title\'s local name '
+                        eprint(
+                            '\n• The following title\'s local name '
                             'is already in the output DAT and must be renamed. Its '
                             'clone relationship will be removed. This can only be '
                             'fixed in the clone list for the system.',
-                            'error',
+                            level='warning',
                         )
                         eprint(
-                            f'\n  {title.local_name} > {title.local_name} (Dupe {local_names[title.local_name] + 1}){Font.end}'
+                            f'\n  {title.local_name} > {title.local_name} (Dupe {local_names[title.local_name] + 1}){Font.end}',
+                            level='warning',
+                            wrap=False,
                         )
 
                         if config.user_input.warningpause:
-                            eprint(f'\n{Font.disabled}Press enter to continue{Font.end}')
-                            input()
+                            eprint(pause=True)
 
                     local_names[title.local_name] += 1
 
@@ -290,21 +288,21 @@ class WriteFiles:
                                 # Catch clone problems caused by duplicate local names
                                 if final_name == clone_title.local_name:
                                     if config.user_input.verbose:
-                                        eprint()
-                                        printwrap(
-                                            f'{Font.warning}* The following title\'s local name '
+                                        eprint(
+                                            '\n• The following title\'s local name '
                                             'is the same as its parent. Its clone relationship will '
                                             'be removed. This can only be fixed in the clone list '
                                             'for the system.',
-                                            'error',
+                                            level='warning',
                                         )
-                                        eprint(f'\n  {final_name}{Font.end}')
+                                        eprint(
+                                            f'\n  {final_name}{Font.end}',
+                                            level='warning',
+                                            wrap=False,
+                                        )
 
                                         if config.user_input.warningpause:
-                                            eprint(
-                                                f'\n{Font.disabled}Press enter to continue{Font.end}'
-                                            )
-                                            input()
+                                            eprint(pause=True)
 
                                     dat_xml.append(
                                         f'\t<{node_name} name="{html.escape(final_name, quote=False)}">\n'
@@ -444,7 +442,7 @@ class WriteFiles:
             retool_version = 'X'
             dat_date = '2023-06-17 00-00-00'
         else:
-            retool_version = f'{config.version_major}.{config.version_minor}'
+            retool_version = f'{const.__version__}'
             dat_date = timestamp
 
         if config.user_input.original_header:
@@ -531,7 +529,7 @@ class WriteFiles:
                             output_list_names(config.user_prefix, config.user_suffix, name)
 
             except OSError as e:
-                eprint(f'\n{Font.error_bold}* Error: {Font.end}{e!s}\n')
+                eprint(f'• {Font.b}Error{Font.be}: {e!s}\n', level='error')
                 raise
 
         # Write the output DAT
@@ -545,10 +543,13 @@ class WriteFiles:
                 ) as output_file:
                     output_file.writelines(final_xml)
         except OSError as e:
-            eprint(f'\n{Font.error_bold}* Error: {Font.end}{e!s}\n')
+            eprint(f'• {Font.b}Error{Font.be}: {e!s}\n')
             raise
 
-        eprint('done.')
+        eprint(
+            f'• Creating{output_file_region.replace("(", "").replace(")", "")}{output_file_removes.replace("(", "").replace(")", "").lower()} DAT file... done.',
+            overwrite=True,
+        )
 
     @staticmethod
     def write_log(
@@ -576,7 +577,7 @@ class WriteFiles:
 
             timestamp (str): Timestamp used in the output filename.
         """
-        eprint('* Creating log file... ', sep=' ', end='', flush=True)
+        eprint('• Creating log file... ')
 
         # Figure out 1G1R titles with clones
         title_names_with_clones: dict[str, set[str]] = log[0]
@@ -832,7 +833,7 @@ class WriteFiles:
             ) as output_file:
                 output_file.writelines(log_file_contents)
         except OSError as e:
-            eprint(f'\n{Font.error_bold}* Error: {Font.end}{e!s}\n')
+            eprint(f'• {Font.b}Error{Font.be}: {e!s}\n', level='error')
             raise
 
-        eprint('done.')
+        eprint('• Creating log file... done.', overwrite=True)

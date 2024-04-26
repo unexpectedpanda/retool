@@ -10,9 +10,9 @@ from PySide6 import QtWidgets as qtw
 
 import modules.constants as const
 from modules.config import Config
-from modules.gui.custom_widgets import ElisionLabel
 from modules.gui.gui_config import write_config
 from modules.gui.gui_utils import set_fonts, set_path
+from modules.gui.gui_widgets import ElisionLabel
 from modules.gui.retool_about import Ui_AboutWindow  # type: ignore
 from modules.gui.retool_clone_list_name import Ui_CloneListNameTool  # type: ignore
 from modules.gui.retool_settings import Ui_Settings  # type: ignore
@@ -28,8 +28,6 @@ class AboutWindow(qtw.QDialog):
             parent (Any): The parent window that called this one. Important so the
             modal doesn't turn up on the taskbar, and makes the parent
             inaccessible while the modal is open. Defaults to `None`.
-
-            version (str): The GUI version.
         """
         super().__init__(parent)
         self.ui = Ui_AboutWindow()
@@ -51,7 +49,7 @@ class AboutWindow(qtw.QDialog):
         set_fonts(self)
 
         # Set Retool versions
-        self.ui.labelVersion.setText(f'Version: {const.VERSION_MAJOR}.{const.VERSION_MINOR}')
+        self.ui.labelVersion.setText(f'Version: {const.__version__}')
 
 
 class SettingsWindow(qtw.QDialog):

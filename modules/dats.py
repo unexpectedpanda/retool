@@ -20,18 +20,10 @@ if TYPE_CHECKING:
     from modules.config import Config
     from modules.input import UserInput
 
-from modules.clonelists import CloneList
+from modules.clone_list import CloneList
 from modules.interruptible_pool import InterruptiblePool
 from modules.titletools import Regex, TitleTools
-from modules.utils import (
-    ExitRetool,
-    Font,
-    eprint,
-    format_value,
-    pattern2string,
-    printwrap,
-    regex_test,
-)
+from modules.utils import ExitRetool, Font, eprint, format_value, pattern2string, regex_test
 
 
 class Dat:
@@ -147,7 +139,7 @@ class Dat:
             eprint('\n  ○ Dat object')
             col_width: int = max(len(word) for row in return_attributes for word in row) - 20
             for row in return_attributes:
-                eprint(''.join(str(word).ljust(col_width) for word in row))
+                eprint(''.join(str(word).ljust(col_width) for word in row), wrap=False)
 
         key: str = 'blank'
 
@@ -163,14 +155,14 @@ class Dat:
 
             if hasattr(self, key):
                 if isinstance(getattr(self, key), CloneList | Regex):
-                    eprint(f'\n{vars(getattr(self, key))}')
+                    eprint(f'\n{vars(getattr(self, key))}', wrap=False)
                 else:
-                    eprint(f'\n{format_value(getattr(self, key))}')
+                    eprint(f'\n{format_value(getattr(self, key))}', wrap=False)
             elif key == '':
                 class_output()
             else:
                 if key != 'q':
-                    eprint(f'\nUnknown key "{key}".')
+                    eprint(f'\nUnknown key "{key}".', wrap=False)
                 else:
                     break
 
@@ -707,11 +699,11 @@ def convert_clrmame_dat(
                                 regex_search_str.replace('"', '').strip(), quote=False
                             )
                         except Exception:
-                            printwrap(
-                                f'{Font.warning}* This title in the DAT is malformed and will be skipped:',
-                                'error',
+                            eprint(
+                                '• This title in the DAT is malformed and will be skipped:',
+                                level='warning',
                             )
-                            eprint(f'  {group}{Font.end}', 'error')
+                            eprint(f'  {group}', level='warning', wrap=False)
                     else:
                         search_string = f'{search_string}?\\s'
                         detail = html.escape(regex_search_str.strip(), quote=False)
@@ -840,9 +832,9 @@ def convert_clrmame_dat(
 
         convert_dat.append('</datafile>')
     else:
-        printwrap(
-            f'{Font.error_bold} * Error: {Font.error}file isn\'t Logiqx XML or CLRMAMEPro dat.{Font.end}',
-            'error',
+        eprint(
+            f'• {Font.b}Error{Font.be}: file isn\'t a Logiqx XML or CLRMAMEPro DAT file.',
+            level='error',
         )
         if input_type == 'file':
             if gui_input:
@@ -968,18 +960,18 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput | None, con
         next_status = ''
 
     # Import the DAT file
-    printwrap(f'* Reading DAT file: "{Font.bold}{pathlib.Path(dat_file).resolve()}{Font.end}"')
+    eprint(f'• Reading DAT file: "{Font.b}{pathlib.Path(dat_file).resolve()}{Font.be}"')
 
     input_dat: Dat = Dat()
 
     try:
         with open(pathlib.Path(dat_file), encoding='utf-8') as input_file:
-            eprint('* Validating DAT file... ', sep=' ', end='', flush=True)
+            eprint('• Validating DAT file... ')
             input_dat.contents = input_file.readlines()
             input_dat.contents_str = ''.join(input_dat.contents)
 
     except OSError as e:
-        printwrap(f'{Font.error_bold}* Error: {Font.error}{e!s}.{Font.end}{next_status}', 'error')
+        eprint(f'• {Font.b}Error{Font.be}: {e!s}.{next_status}', level='error')
         if input_type == 'file':
             raise
         else:
@@ -989,8 +981,8 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput | None, con
     # Check the DAT file format -- if it's CLRMAMEPro format, convert it to LogiqX
     if 'clrmamepro' in input_dat.contents[0]:
         if not gui_input:
-            eprint('file is a CLRMAMEPro DAT file.')
-            eprint('* Converting DAT file to Logiqx XML... ', sep=' ', end='', flush=True)
+            eprint('• Validating DAT file... file is a CLRMAMEPro DAT file.', overwrite=True)
+            eprint('• Converting DAT file to Logiqx XML... ')
         input_dat = convert_clrmame_dat(input_dat, input_type, gui_input, config)
 
         # Go to the next file in a batch operation if something went wrong.
@@ -1001,11 +993,11 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput | None, con
     abuse_tags: list[str] = ['<!ENTITY', '<!ELEMENT']
     for abuse_tag in abuse_tags:
         if list(filter(lambda x: abuse_tag in x, input_dat.contents)):
-            eprint('failed.')
-            printwrap(
-                f'{Font.error_bold} Error: {Font.error}Entity and element tags aren\'t '
-                f'supported in DAT files. Exiting...{Font.end}{next_status}',
-                'error',
+            eprint('• Validating DAT file... failed.', overwrite=True)
+            eprint(
+                f'• {Font.b}Error{Font.be}: Entity and element tags aren\'t '
+                f'supported in DAT files. Exiting...{next_status}',
+                level='error',
             )
             if gui_input:
                 raise ExitRetool
@@ -1027,7 +1019,7 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput | None, con
             input_dat.original_header.append(line)
 
     input_dat.original_header.append(
-        f'\t\t<retool>Created by Retool {config.version_major}.{config.version_minor}</retool>\n'
+        f'\t\t<retool>Created by Retool {const.__version__}</retool>\n'
     )
 
     # Check for a valid LogiqX dat
@@ -1081,12 +1073,12 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput | None, con
                 if re.search('.*?</header>', line):
                     break
         except Exception:
-            eprint('failed.')
-            printwrap(
-                f'{Font.error_bold}* Error: {Font.error}File is missing an XML '
+            eprint('• Validating DAT file... failed.', overwrite=True)
+            eprint(
+                f'• {Font.b}Error{Font.be}: File is missing an XML '
                 f'declaration. It\'s probably not a DAT file.'
-                f'{next_status}{Font.end}',
-                'error',
+                f'{next_status}',
+                level='error',
             )
             if input_type == 'file':
                 if gui_input:
@@ -1119,16 +1111,16 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput | None, con
                     try:
                         if not config.user_input.no_dtd:
                             if not dtd.validate(root):
-                                eprint('failed.')
-                                printwrap(
-                                    f'{Font.warning_bold}* Warning: {Font.warning}DAT file doesn\'t '
+                                eprint('• Validating DAT file... failed.', overwrite=True)
+                                eprint(
+                                    f'• {Font.b}Warning{Font.be}: DAT file doesn\'t '
                                     'comply with the Logiqx DTD standard. This might have unexpected results.',
-                                    'error',
+                                    level='warning',
                                 )
-                                printwrap(
+                                eprint(
                                     f'  DTD violation: {dtd.error_log.last_error}.'  # type: ignore
-                                    f'{next_status}{Font.end}',
-                                    'error',
+                                    f'{next_status}',
+                                    level='warning',
                                 )
                                 eprint('')
                                 if input_type == 'file':
@@ -1137,11 +1129,11 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput | None, con
                                     input_dat.end = True
                                     return input_dat
                     except etree.XMLSyntaxError as e:
-                        eprint('failed.')
-                        printwrap(
-                            f'{Font.error_bold}* Error: {Font.error}DAT file is malformed. '
-                            f'{e}.{next_status}{Font.end}',
-                            'error',
+                        eprint('• Validating DAT file... failed.', overwrite=True)
+                        eprint(
+                            f'• {Font.b}Error{Font.be}: DAT file is malformed. '
+                            f'{e}.{next_status}',
+                            level='error',
                         )
                         if input_type == 'file':
                             if gui_input:
@@ -1153,17 +1145,20 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput | None, con
                             return input_dat
                     else:
                         if not failed_check:
-                            eprint('file is a Logiqx DAT file.')
+                            eprint(
+                                '• Validating DAT file... file is a Logiqx DAT file.',
+                                overwrite=True,
+                            )
 
             except OSError as e:
-                printwrap(f'{Font.error_bold}* Error: {e!s}{next_status}{Font.end}', 'error')
+                eprint(f'• {Font.b}Error{Font.be}: {e!s}{next_status}', level='error')
                 if input_type == 'file':
                     raise
                 else:
                     input_dat.end = True
                     return input_dat
         else:
-            eprint('done.')
+            eprint('• Validating DAT file... done.', overwrite=True)
 
         # Clear out attributes to save memory
         input_dat.contents.clear()
@@ -1244,8 +1239,8 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput | None, con
         # If the DAT file has already been processed, exit
         if input_dat.retool and not config.user_input.reprocess_dat:
             eprint(
-                '* Skipping file as it\'s already been processed by Retool. You can allow this with\n'
-                f'  the {Font.bold}--reprocess{Font.end} flag, or by setting the appropriate output option in Retool GUI.'
+                '• Skipping file as it\'s already been processed by Retool. You can allow this with\n'
+                f'  the {Font.b}--reprocess{Font.be} flag, or by setting the appropriate output option in Retool GUI.'
             )
             if input_type == 'file':
                 if gui_input:
@@ -1257,12 +1252,11 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput | None, con
                 return input_dat
 
         # Provide DAT details to the user to reassure them the correct file is being processed
-        eprint('')
-        printwrap(f'|  {Font.bold}DAT DETAILS{Font.end}', style='dat_details')
-        printwrap(f'|  Description: {input_dat.description}', style='dat_details')
-        printwrap(f'|  Author/s: {input_dat.author}', style='dat_details')
-        printwrap(f'|  URL: {input_dat.url}', style='dat_details')
-        printwrap(f'|  Version: {input_dat.version}', style='dat_details')
+        eprint(f'\n│  {Font.b}DAT DETAILS{Font.be}')
+        eprint(f'│  Description: {input_dat.description}', indent=3)
+        eprint(f'│  Author/s: {input_dat.author}', indent=3)
+        eprint(f'│  URL: {input_dat.url}', indent=3)
+        eprint(f'│  Version: {input_dat.version}', indent=3)
 
         # Check if the DAT is numbered
         if 'no-intro' in input_dat.url.lower():
@@ -1276,10 +1270,8 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput | None, con
                 if not re.search('^([0-9]|x|z)([0-9]|B)[0-9]{2,2} - ', machine.attrib['name']):  # type: ignore
                     input_dat.numbered = False
 
-            if not input_dat.numbered:
-                eprint('|  Numbered dat: No')
-            else:
-                eprint('|  Numbered dat: Yes')
+            numbered_dat: str = ['No', 'Yes'][input_dat.numbered]
+            eprint(f'│  Numbered dat: {numbered_dat}', indent=3)
         eprint('')
 
         search_games: list[Any] = root.findall('game')
@@ -1289,7 +1281,7 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput | None, con
 
         if config.user_input.trace or config.user_input.single_cpu:
             alive_bar_context = nullcontext()
-            eprint('* Processing DAT file...')
+            eprint('• Processing DAT file...')
         else:
             progress_bar: str = 'smooth'
             spinner: str = 'waves'
@@ -1310,7 +1302,7 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput | None, con
 
             alive_bar_context = alive_bar(
                 2 + len(search_games),
-                title='* Processing DAT file',
+                title='• Processing DAT file',
                 length=20,
                 enrich_print=False,
                 stats=False,
@@ -1383,12 +1375,11 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput | None, con
                     bar()  # type: ignore
 
             if not all_games:
-                eprint('')
-                printwrap(
-                    f'{Font.error_bold}* Error: "{dat_file}"{Font.error}. No valid '
-                    f'titles in input DAT. Titles must have at least a size or '
-                    f'one hash.{next_status}{Font.end}',
-                    'error',
+                eprint(
+                    f'\n• {Font.b}Error{Font.be}: {Font.b}"{dat_file}"{Font.be}. No valid '
+                    f'titles in input DAT file. Titles must have at least a size or '
+                    f'one hash.{next_status}',
+                    level='error',
                 )
 
                 if input_type == 'file':
@@ -1442,7 +1433,7 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput | None, con
                     config.system_filter.append(regex)
 
             # Import the clone list
-            input_dat.clone_list = import_clone_list(input_dat, gui_input, config)
+            input_dat.clone_list = import_clone_list(input_dat, gui_input, config, bar)
 
             # Import the metadata file
             input_dat.metadata = import_metadata(input_dat, config)
@@ -1529,33 +1520,29 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput | None, con
                 bar()  # type: ignore
 
             if duplicate_names:
-                printwrap(
-                    f'{Font.warning}* The following titles with identical names were found in '
-                    'the input DAT, and will be renamed. They won\'t be processed as clones:',
-                    'error',
+                eprint(
+                    '• The following titles with identical names were found in '
+                    'the input DAT file, and will be renamed. They won\'t be processed as clones:\n',
+                    level='warning',
                 )
 
-                eprint('')
-
                 for duplicate_title in sorted(duplicate_names):
-                    eprint(f'  *  {duplicate_title}')
+                    eprint(f'  •  {duplicate_title}', level='warning', wrap=False)
 
                 eprint(f'{Font.end}')
 
-        eprint('\033[F\033[K* Processing DAT file... done.\n', end='')
+        eprint('• Processing DAT file... done.', overwrite=True)
     else:
-        eprint('failed.')
+        eprint('• Processing DAT file... failed.', overwrite=True)
         if '<game' not in input_dat.contents or '<machine' not in input_dat.contents:
-            printwrap(
-                f'{Font.error_bold}* "{dat_file}"{Font.error} is empty '
-                f'- no titles found.'
-                f'{next_status}{Font.end}',
-                'error',
+            eprint(
+                f'• {Font.b}"{dat_file}"{Font.be} is empty - no titles found.{next_status}',
+                level='error',
             )
         else:
-            printwrap(
-                f'{Font.error_bold}* "{dat_file}"{Font.error} isn\'t a compatible DAT file.{next_status}{Font.end}',
-                'error',
+            eprint(
+                f'• {Font.b}"{dat_file}"{Font.be} isn\'t a compatible DAT file.{next_status}',
+                level='error',
             )
 
         if input_type == 'file':
