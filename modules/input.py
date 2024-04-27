@@ -28,6 +28,7 @@ class UserInput:
         no_1g1r: bool = False,
         empty_titles: bool = False,
         filter_languages: bool = False,
+        oldest: bool = False,
         local_names: bool = False,
         region_bias: bool = False,
         legacy: bool = False,
@@ -101,6 +102,9 @@ class UserInput:
 
             local_names (bool, optional): Uses local names for titles if available. For
             example, `ダイナマイト　ヘッディー (Japan): instead of `Dynamite Headdy (Japan):.
+
+            oldest (bool, optional): Prefers oldest production versions of titles instead
+            of newest.
 
             region_bias (bool, optional): Prefers regions over languages. Defaults to
             `False`.
@@ -258,6 +262,7 @@ class UserInput:
         self.legacy: bool = legacy
         self.filter_languages: bool = filter_languages
         self.local_names: bool = local_names
+        self.oldest: bool = oldest
         self.no_mia: bool = no_mia
         self.region_bias: bool = region_bias
         self.demote_unl: bool = demote_unl
@@ -392,6 +397,15 @@ def check_input() -> UserInput:
         '\nシャイニング●フォースⅡ 『古の封印』 instead of'
         '\nShining Force II - Inishie no Fuuin'
         f'\n(see {Font.bold}config/user-config.yaml{Font.end}).'
+        '\n\n',
+    )
+
+    parser.add_argument(
+        '-o',
+        action='store_true',
+        help='R|Prefer oldest production versions instead of newest.'
+        '\nUseful for speedrunners and those concerned about censorship,'
+        '\nwho often want unpatched versions of games.'
         '\n\n',
     )
 
@@ -840,6 +854,7 @@ def check_input() -> UserInput:
         empty_titles=args.e,
         filter_languages=args.l,
         local_names=args.n,
+        oldest=args.o,
         region_bias=args.r,
         legacy=args.legacy,
         demote_unl=args.y,
@@ -1408,6 +1423,7 @@ def import_system_settings(
             config.user_input.log = False
             config.user_input.machine_not_game = False
             config.user_input.no_label_mia = False
+            config.user_input.oldest = False
             config.user_input.original_header = False
             config.user_input.modern = False
             config.user_input.no_1g1r = False
@@ -1435,6 +1451,7 @@ def import_system_settings(
                     options.append('e')
                 if option == 'legacy':
                     config.user_input.legacy = True
+                    options.append('x')
                 if option == 'listnames':
                     config.user_input.list_names = True
                 if option == 'log':
@@ -1443,6 +1460,9 @@ def import_system_settings(
                     config.user_input.machine_not_game = True
                 if option == 'nolabelmia':
                     config.user_input.no_label_mia = True
+                if option == 'o':
+                    config.user_input.oldest = True
+                    options.append('o')
                 if option == 'originalheader':
                     config.user_input.original_header = True
                 if option == 'nodtd':
@@ -1478,6 +1498,8 @@ def import_system_settings(
             config.user_input.trace = get_config_value(
                 config.system_exclusions_options, 'trace', '', is_path=False
             )
+
+            config.user_input.user_options = f' (-{"".join(sorted(options))})'
 
 
 def load_data(data_file: str, file_type: str, config: Config) -> dict[str, Any]:

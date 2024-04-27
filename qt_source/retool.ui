@@ -4152,7 +4152,7 @@ games.</string>
                           <x>0</x>
                           <y>0</y>
                           <width>573</width>
-                          <height>1035</height>
+                          <height>1061</height>
                          </rect>
                         </property>
                         <property name="sizePolicy">
@@ -4385,6 +4385,29 @@ reverses that behavior.</string>
                            </property>
                            <property name="text">
                             <string>Prefer titles ripped from modern rereleases over original system releases</string>
+                           </property>
+                          </widget>
+                         </item>
+                         <item>
+                          <widget class="QCheckBox" name="checkBoxGlobalOptionsPreferOldest">
+                           <property name="minimumSize">
+                            <size>
+                             <width>0</width>
+                             <height>0</height>
+                            </size>
+                           </property>
+                           <property name="maximumSize">
+                            <size>
+                             <width>16777215</width>
+                             <height>16777215</height>
+                            </size>
+                           </property>
+                           <property name="toolTip">
+                            <string>Useful for speedrunners and those concerned about censorship, who often want unpatched
+versions of games.</string>
+                           </property>
+                           <property name="text">
+                            <string>Prefer oldest production versions instead of newest</string>
                            </property>
                           </widget>
                          </item>
@@ -10146,8 +10169,8 @@ text in the name:
                          <rect>
                           <x>0</x>
                           <y>0</y>
-                          <width>423</width>
-                          <height>1064</height>
+                          <width>573</width>
+                          <height>1026</height>
                          </rect>
                         </property>
                         <property name="sizePolicy">
@@ -10305,6 +10328,29 @@ reverses that behavior.</string>
                            </property>
                            <property name="text">
                             <string>Prefer titles ripped from modern rereleases over original system releases</string>
+                           </property>
+                          </widget>
+                         </item>
+                         <item>
+                          <widget class="QCheckBox" name="checkBoxSystemOptionsPreferOldest">
+                           <property name="minimumSize">
+                            <size>
+                             <width>0</width>
+                             <height>0</height>
+                            </size>
+                           </property>
+                           <property name="maximumSize">
+                            <size>
+                             <width>16777215</width>
+                             <height>16777215</height>
+                            </size>
+                           </property>
+                           <property name="toolTip">
+                            <string>Useful for speedrunners and those concerned about censorship, who often want unpatched
+versions of games.</string>
+                           </property>
+                           <property name="text">
+                            <string>Prefer oldest production versions instead of newest</string>
                            </property>
                           </widget>
                          </item>

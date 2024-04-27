@@ -141,7 +141,8 @@ The valid results are:
       <td>
         <p>Optional, defaults to <code>false</code>. An English-friendly title
           is one that hasn't been marked as supporting English, but an
-          English-speaking player can easily play to completion. Setting <code>englishFriendly</code> to <code>true</code> makes Retool treat a
+          English-speaking player can easily play to completion. Setting
+          <code>englishFriendly</code> to <code>true</code> makes Retool treat a
           title as if it supports English.</p>
       </td>
     </tr>
@@ -152,6 +153,17 @@ The valid results are:
         <a href="../naming-system#group-names">group name</a> and
         <a href="../naming-system#short-names">short name</a> for all the titles
         that match the filter.</td>
+    </tr>
+    <tr>
+      <td><code>isOldest</code></td>
+      <td><code>bool</code></td>
+      <td>
+        <p>Optional, defaults to <code>false</code>. When a user selects
+        <b>Prefer oldest production versions instead of newest</b>, this can
+        be used to manually override Retool's automatic choice, or override priority
+        settings in clone lists. Setting <code>isOldest</code> to <code>true</code>
+        manually marks which title is the oldest in the group.</p>
+      </td>
     </tr>
     <tr>
       <td><code>superset</code></td>

@@ -108,6 +108,7 @@ def main(gui_input: UserInput | None = None) -> None:
         const.DAT_FILE_TAGS_KEY,
         const.IGNORE_TAGS_KEY,
         const.DISC_RENAME_KEY,
+        const.BUDGET_EDITIONS_KEY,
         const.PROMOTE_EDITIONS_KEY,
         const.DEMOTE_EDITIONS_KEY,
         const.MODERN_EDITIONS_KEY,

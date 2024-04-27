@@ -45,6 +45,10 @@ These options change how Retool handles certain titles.
   on the original system instead of those ripped from rereleases on platforms like
   Virtual Console and Steam. This option reverses that behavior.
 
+* **Prefer oldest production versions instead of newest**
+  <br>Useful for speedrunners and those concerned about censorship, who often want
+  unpatched versions of games.
+
 * **Prefer licensed versions over unlicensed titles**
   <br>Sometimes games are rereleased long after the lifespan of a console, in regions they
   weren't originally available in. By default Retool selects these titles if they match

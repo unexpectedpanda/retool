@@ -1,6 +1,21 @@
 # Retool changelog
 
 
+## 2.3.6 (2024-04-27)
+
+-   **_Feature_**: You can now choose to prefer the oldest production version of a title
+    instead of the newest.
+
+-   **_Fix_**: Budget rereleases are now promoted above original titles with high
+    revisions. For example, `Example Title (USA) (PlayStation the Best)` is now chosen
+    over `Example Title (USA) (Rev 3)`. This is on the assumption that budget rereleases
+    most likely contain the latest revisions. This was also necessary to implement the
+    oldest version feature properly.
+
+-   **_Fix_**: Fixed the flags in the output DAT file filename to reflect system settings
+    when system settings were in use, instead of reflecting global settings.
+
+
 ## 2.3.5 (2024-04-27)
 
 -   **_Fix_**: Fixed Retool crashing when **Prefer titles ripped from modern rereleases**

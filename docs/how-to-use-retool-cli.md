@@ -384,11 +384,15 @@ These options change how Retool handles certain titles.
   <br>For example, `シャイニング●フォースⅡ 『古の封印』` instead of
   `Shining Force II - Inishie no Fuuin` (see `config/user-config.yaml`).
 
+* **`-o` * Prefer oldest production versions instead of newest**
+  <br>Useful for speedrunners and those concerned about censorship, who often want
+  unpatched versions of games.
+
 * **`-r` Prefer regions over languages**
   <br>By default, if a title from a higher priority region doesn't support your preferred
   languages but a lower priority region does, Retool selects the latter. This option
   disables this behavior, forcing strict adherence to region priority regardless of
-  language support
+  language support.
   <br>
   <br>This option also overrides similar behavior in superset selection, which means you
   might get a title that was released in your preferred region that has less content,

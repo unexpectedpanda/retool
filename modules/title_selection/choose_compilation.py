@@ -141,7 +141,7 @@ def choose_compilation(
 
         # Choose supersets
         if len(comparison_set) > 1:
-            comparison_set = choose_superset(comparison_set, comparison_report_on_match)
+            comparison_set = choose_superset(comparison_set, config, comparison_report_on_match)
 
             if comparison_report_on_match:
                 TraceTools.trace_title('REF0127', [key], comparison_set, keep_remove=False)
@@ -166,7 +166,7 @@ def choose_compilation(
 
         # Filter by priority
         if len(comparison_set) > 1:
-            comparison_set = choose_priority(comparison_set, comparison_report_on_match)
+            comparison_set = choose_priority(comparison_set, config, comparison_report_on_match)
 
             if comparison_report_on_match:
                 TraceTools.trace_title('REF0080', [key], comparison_set, keep_remove=False)

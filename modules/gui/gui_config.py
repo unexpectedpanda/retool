@@ -19,6 +19,7 @@ def import_config() -> Config:
         const.DAT_FILE_TAGS_KEY,
         const.IGNORE_TAGS_KEY,
         const.DISC_RENAME_KEY,
+        const.BUDGET_EDITIONS_KEY,
         const.PROMOTE_EDITIONS_KEY,
         const.DEMOTE_EDITIONS_KEY,
         const.MODERN_EDITIONS_KEY,
@@ -239,6 +240,7 @@ def write_config(
     # Global options
     disable_1G1R: bool = main_window.ui.checkBoxGlobalOptionsDisable1G1R.isChecked()
     prefer_regions: bool = main_window.ui.checkBoxGlobalOptionsPreferRegions.isChecked()
+    prefer_oldest: bool = main_window.ui.checkBoxGlobalOptionsPreferOldest.isChecked()
     include_hashless: bool = main_window.ui.checkBoxGlobalOptionsIncludeHashless.isChecked()
     modern_platforms: bool = main_window.ui.checkBoxGlobalOptionsModernPlatforms.isChecked()
     demote_unlicensed: bool = main_window.ui.checkBoxGlobalOptionsDemoteUnlicensed.isChecked()
@@ -298,6 +300,7 @@ def write_config(
     # System options
     system_disable_1G1R: bool = main_window.ui.checkBoxSystemOptionsDisable1G1R.isChecked()
     system_prefer_regions: bool = main_window.ui.checkBoxSystemOptionsPreferRegions.isChecked()
+    system_prefer_oldest: bool = main_window.ui.checkBoxSystemOptionsPreferOldest.isChecked()
     system_include_hashless: bool = main_window.ui.checkBoxSystemOptionsIncludeHashless.isChecked()
     system_modern_platforms: bool = main_window.ui.checkBoxSystemOptionsModernPlatforms.isChecked()
     system_demote_unlicensed: bool = (
@@ -503,6 +506,8 @@ def write_config(
         gui_settings.add('d')
     if prefer_regions:
         gui_settings.add('r')
+    if prefer_oldest:
+        gui_settings.add('o')
     if include_hashless:
         gui_settings.add('e')
     if modern_platforms:
@@ -548,6 +553,8 @@ def write_config(
         system_exclusions_options.add('d')
     if system_prefer_regions:
         system_exclusions_options.add('r')
+    if system_prefer_oldest:
+        system_exclusions_options.add('o')
     if system_include_hashless:
         system_exclusions_options.add('e')
     if system_modern_platforms:
@@ -846,6 +853,7 @@ def write_config(
                     empty_titles=include_hashless,
                     filter_languages=filter_languages_enabled,
                     local_names=use_local_names,
+                    oldest=prefer_oldest,
                     region_bias=prefer_regions,
                     legacy=legacy_dat,
                     demote_unl=demote_unlicensed,

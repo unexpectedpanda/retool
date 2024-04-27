@@ -219,6 +219,8 @@ def setup_gui_global(
     if config.user_gui_settings:
         if 'r' in config.user_gui_settings:
             main_window.ui.checkBoxGlobalOptionsPreferRegions.setChecked(True)
+        if 'o' in config.user_gui_settings:
+            main_window.ui.checkBoxGlobalOptionsPreferOldest.setChecked(True)
         if 'e' in config.user_gui_settings:
             main_window.ui.checkBoxGlobalOptionsIncludeHashless.setChecked(True)
         if 'z' in config.user_gui_settings:
@@ -1106,6 +1108,8 @@ def setup_gui_system(
         if config.system_exclusions_options:
             if 'r' in config.system_exclusions_options:
                 main_window.ui.checkBoxSystemOptionsPreferRegions.setChecked(True)
+            if 'o' in config.system_exclusions_options:
+                main_window.ui.checkBoxSystemOptionsPreferOldest.setChecked(True)
             if 'e' in config.system_exclusions_options:
                 main_window.ui.checkBoxSystemOptionsIncludeHashless.setChecked(True)
             if 'z' in config.system_exclusions_options:

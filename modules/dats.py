@@ -394,8 +394,9 @@ class DatNode:
 
         self.cloneof: str = ''
         self.clonelist_priority: int = 1
-        self.is_superset: bool = False
         self.is_mia: bool = False
+        self.is_oldest: bool = False
+        self.is_superset: bool = False
         self.contains_titles: dict[str, dict[str, int]] = {}
 
         # Determine if a title is fully MIA
@@ -559,6 +560,7 @@ class DatNode:
         return_list.append(format_attribute(self.languages_online, 'languages_online', '\t\t'))
         return_list.append(format_attribute(self.languages, 'languages', '\t\t\t'))
         return_list.append(format_attribute(self.cloneof, 'cloneof', '\t\t\t'))
+        return_list.append(format_attribute(self.is_oldest, 'is_oldest', '\t\t'))
         return_list.append(format_attribute(self.is_superset, 'is_superset', '\t\t'))
         return_list.append(format_attribute(self.contains_titles, 'contains_titles', '\t\t'))
         return_list.append(format_attribute(self.clonelist_priority, 'clonelist_priority', '\t\t'))
@@ -979,11 +981,16 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput | None, con
             return input_dat
 
     # Check the DAT file format -- if it's CLRMAMEPro format, convert it to LogiqX
+    is_clrmamepro_dat: bool = False
+
     if 'clrmamepro' in input_dat.contents[0]:
         if not gui_input:
             eprint('• Validating DAT file... file is a CLRMAMEPro DAT file.', overwrite=True)
             eprint('• Converting DAT file to Logiqx XML... ')
         input_dat = convert_clrmame_dat(input_dat, input_type, gui_input, config)
+        is_clrmamepro_dat = True
+        if not gui_input:
+            eprint('• Converting DAT file to Logiqx XML... done.', overwrite=True)
 
         # Go to the next file in a batch operation if something went wrong.
         if input_dat.end:
@@ -1144,9 +1151,9 @@ def process_dat(dat_file: str, input_type: str, gui_input: UserInput | None, con
                             input_dat.end = True
                             return input_dat
                     else:
-                        if not failed_check:
+                        if not failed_check and not is_clrmamepro_dat:
                             eprint(
-                                '• Validating DAT file... file is a Logiqx DAT file.',
+                                '• Validating DAT file... done.',
                                 overwrite=True,
                             )
 

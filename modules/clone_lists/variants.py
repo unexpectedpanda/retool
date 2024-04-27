@@ -247,6 +247,21 @@ def clone_list_variants(
                                                     'En',
                                                 )
 
+                            # Manage oldest titles
+                            if 'isOldest' in variant_title:
+                                if isinstance(variant_title['isOldest'], bool):
+                                    if variant_title['isOldest']:
+                                        if title in processed_titles[title.group_name]:
+                                            if report_on_match:
+                                                eprint('')
+                                                TraceTools.trace_title('REF0129')
+                                                eprint(f'• {new_title.full_name}', wrap=False)
+
+                                                if config.user_input.warningpause:
+                                                    eprint(pause=True)
+
+                                            new_title.is_oldest = True
+
                             # Manage filters
                             if 'filters' in variant_title:
                                 # Check if at least one condition and result keys exist
@@ -548,6 +563,21 @@ def clone_list_variants(
                                                                 *new_title.languages,
                                                                 'En',
                                                             )
+
+                                            if 'isOldest' in filter_condition['results']:
+                                                if isinstance(
+                                                    filter_condition['results']['isOldest'], bool
+                                                ):
+                                                    if filter_condition['results']['isOldest']:
+                                                        if report_on_match:
+                                                            eprint('')
+                                                            TraceTools.trace_title('REF0132')
+                                                            eprint(
+                                                                f'• {new_title.full_name}',
+                                                                wrap=False,
+                                                            )
+
+                                                        new_title.is_oldest = True
 
                                             if 'priority' in filter_condition['results']:
                                                 if report_on_match:

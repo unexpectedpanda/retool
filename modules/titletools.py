@@ -822,12 +822,6 @@ class TraceTools:
             message = 'ACTION: Compare clone list priority (both titles are supersets):'
         if trace_reference == 'REF0024':
             message = 'ACTION: Compare dates:'
-        if trace_reference == 'REF0025':
-            message = 'ACTION: Compare dates:'
-        if trace_reference == 'REF0026':
-            message = 'ACTION: Compare dates:'
-        if trace_reference == 'REF0027':
-            message = 'ACTION: Compare dates:'
         if trace_reference == 'REF0028':
             message = f'Compare languages\nUser language order: {variable[0]}'
         if trace_reference == 'REF0029':
@@ -900,10 +894,6 @@ class TraceTools:
             message = 'ACTION: Excluded due to known MIA:'
         if trace_reference == 'REF0063':
             message = 'ACTION: Title tagged as MIA:'
-        if trace_reference == 'REF0064':
-            message = 'ACTION: Choose higher versions:'
-        if trace_reference == 'REF0065':
-            message = 'ACTION: Choose higher versions:'
         if trace_reference == 'REF0066':
             message = 'ACTION: Included due to being related to a system or global override:'
         if trace_reference == 'REF0067':
@@ -1030,6 +1020,16 @@ class TraceTools:
             message = 'Group after choosing superset:'
         if trace_reference == 'REF0128':
             message = 'Group after comparing compilations:'
+        if trace_reference == 'REF0129':
+            message = f'ACTION: Marking a title as the oldest due to an entry in the {Font.b}Variants{Font.be} object:'
+        if trace_reference == 'REF0130':
+            message = 'ACTION: Compare clone list priority, oldest title:'
+        if trace_reference == 'REF0131':
+            message = 'ACTION: Compare clone list priority, oldest title:'
+        if trace_reference == 'REF0132':
+            message = f'ACTION: Marking a title as the oldest due to a condition in the {Font.b}Variants{Font.be} object being true:'
+        if trace_reference == 'REF0133':
+            message = 'Group after handling budget editions:'
 
         if trace_reference:
             eprint(

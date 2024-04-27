@@ -28,6 +28,7 @@ class Config:
         dat_file_tags_key: str,
         ignore_tags_key: str,
         disc_rename_key: str,
+        budget_editions_key: str,
         promote_editions_key: str,
         demote_editions_key: str,
         modern_editions_key: str,
@@ -85,6 +86,10 @@ class Config:
             disc_rename_key (str): The key in internal-config.json that specifies how
             multiple '(Disc)' tags should be renamed so they can be normalized and
             compared.
+
+            budget_editions_key (str): The key in internal-config.json that specifies
+            which tags indicate a budget title that should be promoted over a non-budget
+            title.
 
             promote_editions_key (str): The key in internal-config.json that specifies
             which tags indicate a title should be promoted over another.
@@ -296,6 +301,7 @@ class Config:
         import_key(disc_rename_key, 'tags_disc_rename')
         import_key(dat_file_tags_key, 'dat_file_tags', 'list', tags_ignore=False)
         import_key(ignore_tags_key, 'tags_ignore', 'list', tags_ignore=True)
+        import_key(budget_editions_key, 'tags_budget_editions', 'tuple', tags_ignore=True)
         import_key(promote_editions_key, 'tags_promote_editions', 'tuple', tags_ignore=True)
         import_key(demote_editions_key, 'tags_demote_editions', 'tuple', tags_ignore=True)
         import_key(modern_editions_key, 'tags_modern_editions', 'tuple', tags_ignore=True)
@@ -362,6 +368,7 @@ class Config:
             dat_file_tags_key,
             ignore_tags_key,
             disc_rename_key,
+            budget_editions_key,
             promote_editions_key,
             demote_editions_key,
             modern_editions_key,

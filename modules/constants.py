@@ -1,5 +1,5 @@
 # Set the user files and options
-__version__ = '2.3.5'
+__version__ = '2.3.6'
 CLONE_LIST_METADATA_DOWNLOAD_LOCATION: str = (
     'https://raw.githubusercontent.com/unexpectedpanda/retool-clonelists-metadata/main'
 )
@@ -10,6 +10,7 @@ CONFIG_FILE: str = 'config/internal-config.json'
 DAT_FILE_TAGS_KEY: str = 'datFileTags'
 IGNORE_TAGS_KEY: str = "ignoreTags"
 DISC_RENAME_KEY: str = "discRename"
+BUDGET_EDITIONS_KEY: str = 'budgetEditions'
 PROMOTE_EDITIONS_KEY: str = 'promoteEditions'
 DEMOTE_EDITIONS_KEY: str = 'demoteEditions'
 MODERN_EDITIONS_KEY: str = 'modernEditions'

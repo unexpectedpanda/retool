@@ -81,6 +81,17 @@ You can use the following keys in an object that's in a `titles` array:
       </td>
     </tr>
     <tr>
+      <td><code>isOldest</code></td>
+      <td><code>bool</code></td>
+      <td>
+        <p>Optional, defaults to <code>false</code>. When a user selects
+        <b>Prefer oldest production versions instead of newest</b>, this can
+        be used to manually override Retool's automatic choice, or override priority
+        settings in clone lists. Setting <code>isOldest</code> to <code>true</code>
+        manually marks which title is the oldest in the group.</p>
+      </td>
+    </tr>
+    <tr>
       <td><code>localNames</code></td>
       <td><code>obj[str, str]</code></td>
       <td>

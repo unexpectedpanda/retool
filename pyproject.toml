@@ -163,6 +163,7 @@ exclusions = "python -m tests.exclusions"
 filters = "python -m tests.filters"
 languages = "python -m tests.languages"
 modern_rips = "python -m tests.modern_rips"
+oldest = "python -m tests.oldest"
 
 determinism = "python -m tests.determinism"
 regions = "python -m tests.regions"
@@ -173,6 +174,7 @@ features = [
     "filters",
     "languages",
     "modern_rips",
+    "oldest",
 ]
 
 test = [

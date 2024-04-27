@@ -4,19 +4,22 @@ import itertools
 from typing import TYPE_CHECKING
 
 if TYPE_CHECKING:
+    from modules.dats import Config
     from modules.dats import DatNode
 
 from modules.titletools import TraceTools
 from modules.utils import eprint
 
 
-def choose_priority(title_set: set[DatNode], report_on_match: bool) -> set[DatNode]:
+def choose_priority(title_set: set[DatNode], config: Config, report_on_match: bool) -> set[DatNode]:
     """
     Compare any two titles from a set of DatNodes, and select the one
     with the lowest priority number set in a clone list.
 
     Args:
         title_set (set[DatNode]): A set of titles as DatNode instances.
+
+        config (Config): The Retool config object.
 
         report_on_match (bool): Whether Retool needs to report any titles being
         traced.
@@ -32,6 +35,41 @@ def choose_priority(title_set: set[DatNode], report_on_match: bool) -> set[DatNo
             and title_1 in title_set
             and title_2 in title_set
         ):
+            if config.user_input.oldest:
+                if title_1.is_oldest or title_2.is_oldest:
+                    if title_1.is_oldest:
+                        if report_on_match:
+                            TraceTools.trace_title('REF0130')
+                            eprint(
+                                f'+ Keeping:  ((Oldest) {title_1.full_name}',
+                                wrap=False,
+                            )
+                            eprint(
+                                f'- Removing: {title_2.full_name}',
+                                level='disabled',
+                                wrap=False,
+                                pause=True,
+                            )
+
+                        title_set.remove(title_2)
+                    elif title_2.is_oldest:
+                        if report_on_match:
+                            TraceTools.trace_title('REF0131')
+                            eprint(
+                                f'+ Keeping:  ((Oldest) {title_2.full_name}',
+                                wrap=False,
+                            )
+                            eprint(
+                                f'- Removing: {title_1.full_name}',
+                                level='disabled',
+                                wrap=False,
+                                pause=True,
+                            )
+
+                        title_set.remove(title_1)
+
+                    continue
+
             if not (
                 # Compare non-superset priority titles
                 title_1.is_superset

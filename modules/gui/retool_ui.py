@@ -1554,7 +1554,7 @@ class Ui_MainWindow(object):
         self.scrollAreaGlobalOptions.setWidgetResizable(True)
         self.scrollAreaWidgetContentsGlobalOptions = QWidget()
         self.scrollAreaWidgetContentsGlobalOptions.setObjectName(u"scrollAreaWidgetContentsGlobalOptions")
-        self.scrollAreaWidgetContentsGlobalOptions.setGeometry(QRect(0, 0, 573, 1035))
+        self.scrollAreaWidgetContentsGlobalOptions.setGeometry(QRect(0, 0, 573, 1061))
         sizePolicy8.setHeightForWidth(self.scrollAreaWidgetContentsGlobalOptions.sizePolicy().hasHeightForWidth())
         self.scrollAreaWidgetContentsGlobalOptions.setSizePolicy(sizePolicy8)
         self.verticalLayout_16 = QVBoxLayout(self.scrollAreaWidgetContentsGlobalOptions)
@@ -1628,6 +1628,13 @@ class Ui_MainWindow(object):
         self.checkBoxGlobalOptionsModernPlatforms.setStyleSheet(u"")
 
         self.verticalLayout_16.addWidget(self.checkBoxGlobalOptionsModernPlatforms)
+
+        self.checkBoxGlobalOptionsPreferOldest = QCheckBox(self.scrollAreaWidgetContentsGlobalOptions)
+        self.checkBoxGlobalOptionsPreferOldest.setObjectName(u"checkBoxGlobalOptionsPreferOldest")
+        self.checkBoxGlobalOptionsPreferOldest.setMinimumSize(QSize(0, 0))
+        self.checkBoxGlobalOptionsPreferOldest.setMaximumSize(QSize(16777215, 16777215))
+
+        self.verticalLayout_16.addWidget(self.checkBoxGlobalOptionsPreferOldest)
 
         self.checkBoxGlobalOptionsDemoteUnlicensed = QCheckBox(self.scrollAreaWidgetContentsGlobalOptions)
         self.checkBoxGlobalOptionsDemoteUnlicensed.setObjectName(u"checkBoxGlobalOptionsDemoteUnlicensed")
@@ -3509,7 +3516,7 @@ class Ui_MainWindow(object):
         self.scrollAreaSystemOptions.setWidgetResizable(True)
         self.layoutScrollAreaSystemOptions = QWidget()
         self.layoutScrollAreaSystemOptions.setObjectName(u"layoutScrollAreaSystemOptions")
-        self.layoutScrollAreaSystemOptions.setGeometry(QRect(0, 0, 423, 1064))
+        self.layoutScrollAreaSystemOptions.setGeometry(QRect(0, 0, 573, 1026))
         sizePolicy8.setHeightForWidth(self.layoutScrollAreaSystemOptions.sizePolicy().hasHeightForWidth())
         self.layoutScrollAreaSystemOptions.setSizePolicy(sizePolicy8)
         self.verticalLayout_22 = QVBoxLayout(self.layoutScrollAreaSystemOptions)
@@ -3555,6 +3562,13 @@ class Ui_MainWindow(object):
         self.checkBoxSystemOptionsModernPlatforms.setStyleSheet(u"")
 
         self.verticalLayout_22.addWidget(self.checkBoxSystemOptionsModernPlatforms)
+
+        self.checkBoxSystemOptionsPreferOldest = QCheckBox(self.layoutScrollAreaSystemOptions)
+        self.checkBoxSystemOptionsPreferOldest.setObjectName(u"checkBoxSystemOptionsPreferOldest")
+        self.checkBoxSystemOptionsPreferOldest.setMinimumSize(QSize(0, 0))
+        self.checkBoxSystemOptionsPreferOldest.setMaximumSize(QSize(16777215, 16777215))
+
+        self.verticalLayout_22.addWidget(self.checkBoxSystemOptionsPreferOldest)
 
         self.checkBoxSystemOptionsDemoteUnlicensed = QCheckBox(self.layoutScrollAreaSystemOptions)
         self.checkBoxSystemOptionsDemoteUnlicensed.setObjectName(u"checkBoxSystemOptionsDemoteUnlicensed")
@@ -4433,6 +4447,11 @@ class Ui_MainWindow(object):
 #endif // QT_CONFIG(tooltip)
         self.checkBoxGlobalOptionsModernPlatforms.setText(QCoreApplication.translate("MainWindow", u"Prefer titles ripped from modern rereleases over original system releases", None))
 #if QT_CONFIG(tooltip)
+        self.checkBoxGlobalOptionsPreferOldest.setToolTip(QCoreApplication.translate("MainWindow", u"Useful for speedrunners and those concerned about censorship, who often want unpatched\n"
+"versions of games.", None))
+#endif // QT_CONFIG(tooltip)
+        self.checkBoxGlobalOptionsPreferOldest.setText(QCoreApplication.translate("MainWindow", u"Prefer oldest production versions instead of newest", None))
+#if QT_CONFIG(tooltip)
         self.checkBoxGlobalOptionsDemoteUnlicensed.setToolTip(QCoreApplication.translate("MainWindow", u"Sometimes games are rereleased long after the lifespan of a console,\n"
 "in regions they weren't originally available in. By default Retool\n"
 "selects these titles if they match your preferred region/language\n"
@@ -4877,6 +4896,11 @@ class Ui_MainWindow(object):
 "reverses that behavior.", None))
 #endif // QT_CONFIG(tooltip)
         self.checkBoxSystemOptionsModernPlatforms.setText(QCoreApplication.translate("MainWindow", u"Prefer titles ripped from modern rereleases over original system releases", None))
+#if QT_CONFIG(tooltip)
+        self.checkBoxSystemOptionsPreferOldest.setToolTip(QCoreApplication.translate("MainWindow", u"Useful for speedrunners and those concerned about censorship, who often want unpatched\n"
+"versions of games.", None))
+#endif // QT_CONFIG(tooltip)
+        self.checkBoxSystemOptionsPreferOldest.setText(QCoreApplication.translate("MainWindow", u"Prefer oldest production versions instead of newest", None))
 #if QT_CONFIG(tooltip)
         self.checkBoxSystemOptionsDemoteUnlicensed.setToolTip(QCoreApplication.translate("MainWindow", u"Sometimes games are rereleased long after the lifespan of a console,\n"
 "in regions they weren't originally available in. By default Retool\n"

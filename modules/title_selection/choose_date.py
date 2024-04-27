@@ -40,58 +40,67 @@ def choose_date(title_set: set[DatNode], config: Config, report_on_match: bool) 
             title_1_date: int = TitleTools.get_date(title_1.full_name, config)
             title_2_date: int = TitleTools.get_date(title_2.full_name, config)
 
+            keep_title_name: str = ''
+            remove_title_name: str = ''
+
             if title_1_date and not title_2_date:
                 if title_2 in title_set:
-                    if report_on_match:
-                        TraceTools.trace_title(
-                            'REF0024',
-                            [
-                                f'({title_1_date}) {title_1.full_name}',
-                                f'({title_2_date}) {title_2.full_name}{Font.end}',
-                            ],
-                            keep_remove=True,
-                        )
+                    if config.user_input.oldest:
+                        keep_title_name = title_2.full_name
+                        remove_title_name = title_1.full_name
 
-                    remove_titles.add(title_2)
+                        remove_titles.add(title_1)
+                    else:
+                        keep_title_name = title_1.full_name
+                        remove_title_name = title_2.full_name
+
+                        remove_titles.add(title_2)
             elif title_2_date and not title_1_date:
                 if title_1 in title_set:
-                    if report_on_match:
-                        TraceTools.trace_title(
-                            'REF0025',
-                            [
-                                f'({title_2_date}) {title_2.full_name}',
-                                f'({title_1_date}) {title_1.full_name}{Font.end}',
-                            ],
-                            keep_remove=True,
-                        )
+                    if config.user_input.oldest:
+                        keep_title_name = title_1.full_name
+                        remove_title_name = title_2.full_name
 
-                    remove_titles.add(title_1)
+                        remove_titles.add(title_2)
+                    else:
+                        keep_title_name = title_2.full_name
+                        remove_title_name = title_1.full_name
+
+                        remove_titles.add(title_1)
             elif title_1_date > title_2_date:
                 if title_2 in title_set:
-                    if report_on_match:
-                        TraceTools.trace_title(
-                            'REF0026',
-                            [
-                                f'({title_1_date}) {title_1.full_name}',
-                                f'({title_2_date}) {title_2.full_name}{Font.end}',
-                            ],
-                            keep_remove=True,
-                        )
+                    if config.user_input.oldest:
+                        keep_title_name = title_2.full_name
+                        remove_title_name = title_1.full_name
 
-                    remove_titles.add(title_2)
+                        remove_titles.add(title_1)
+                    else:
+                        keep_title_name = title_1.full_name
+                        remove_title_name = title_2.full_name
+
+                        remove_titles.add(title_2)
             elif title_2_date > title_1_date:
                 if title_1 in title_set:
-                    if report_on_match:
-                        TraceTools.trace_title(
-                            'REF0027',
-                            [
-                                f'({title_2_date}) {title_2.full_name}',
-                                f'({title_1_date}) {title_1.full_name}{Font.end}',
-                            ],
-                            keep_remove=True,
-                        )
+                    if config.user_input.oldest:
+                        keep_title_name = title_1.full_name
+                        remove_title_name = title_2.full_name
 
-                    remove_titles.add(title_1)
+                        remove_titles.add(title_2)
+                    else:
+                        keep_title_name = title_2.full_name
+                        remove_title_name = title_1.full_name
+
+                        remove_titles.add(title_1)
+
+            if report_on_match and keep_title_name:
+                TraceTools.trace_title(
+                    'REF0024',
+                    [
+                        f'({title_1_date}) {keep_title_name}',
+                        f'({title_2_date}) {remove_title_name}{Font.end}',
+                    ],
+                    keep_remove=True,
+                )
 
     for title in remove_titles:
         if title in title_set:

@@ -7623,14 +7623,14 @@
 		<release name="Digimon All-Star Rumble (USA) (En,Fr,Es,Pt)" region="USA" language="Pt"/>
 		<rom name="Digimon All-Star Rumble (USA) (En,Fr,Es,Pt).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Disgaea 3 - Absence of Justice (Europe) (En,Fr)" cloneof="Makai Senki Disgaea 3 (Japan, Korea)">
+	<game name="Disgaea 3 - Absence of Justice (Europe) (En,Fr)" cloneof="Makai Senki Disgaea 3 (Japan) (PlayStation 3 the Best)">
 		<category>Games</category>
 		<description>Disgaea 3 - Absence of Justice (Europe) (En,Fr)</description>
 		<release name="Disgaea 3 - Absence of Justice (Europe) (En,Fr)" region="Europe" language="En"/>
 		<release name="Disgaea 3 - Absence of Justice (Europe) (En,Fr)" region="Europe" language="Fr"/>
 		<rom name="Disgaea 3 - Absence of Justice (Europe) (En,Fr).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Disgaea 3 - Absence of Justice (USA)" cloneof="Makai Senki Disgaea 3 (Japan, Korea)">
+	<game name="Disgaea 3 - Absence of Justice (USA)" cloneof="Makai Senki Disgaea 3 (Japan) (PlayStation 3 the Best)">
 		<category>Games</category>
 		<description>Disgaea 3 - Absence of Justice (USA)</description>
 		<release name="Disgaea 3 - Absence of Justice (USA)" region="USA" language="En"/>
@@ -19330,13 +19330,13 @@
 		<release name="Major League Baseball 2K9 (USA)" region="USA" language="En"/>
 		<rom name="Major League Baseball 2K9 (USA).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Makai Senki Disgaea 3 (Japan) (PlayStation 3 the Best)" cloneof="Makai Senki Disgaea 3 (Japan, Korea)">
+	<game name="Makai Senki Disgaea 3 (Japan) (PlayStation 3 the Best)">
 		<category>Games</category>
 		<description>Makai Senki Disgaea 3 (Japan) (PlayStation 3 the Best)</description>
 		<release name="Makai Senki Disgaea 3 (Japan) (PlayStation 3 the Best)" region="Japan" language="Ja"/>
 		<rom name="Makai Senki Disgaea 3 (Japan) (PlayStation 3 the Best).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Makai Senki Disgaea 3 (Japan, Korea)">
+	<game name="Makai Senki Disgaea 3 (Japan, Korea)" cloneof="Makai Senki Disgaea 3 (Japan) (PlayStation 3 the Best)">
 		<category>Games</category>
 		<description>Makai Senki Disgaea 3 (Japan, Korea)</description>
 		<release name="Makai Senki Disgaea 3 (Japan, Korea)" region="Japan" language="Ja"/>
@@ -27776,13 +27776,13 @@
 		<release name="Ryuu ga Gotoku 3 (Japan) (PlayStation 3 the Best)" region="Japan" language="Ja"/>
 		<rom name="Ryuu ga Gotoku 3 (Japan) (PlayStation 3 the Best).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Ryuu ga Gotoku 4 - Densetsu o Tsugu Mono (Japan) (PlayStation 3 the Best)" cloneof="Ryuu ga Gotoku 4 - Densetsu o Tsugu Mono (Japan, Korea)">
+	<game name="Ryuu ga Gotoku 4 - Densetsu o Tsugu Mono (Japan) (PlayStation 3 the Best)">
 		<category>Games</category>
 		<description>Ryuu ga Gotoku 4 - Densetsu o Tsugu Mono (Japan) (PlayStation 3 the Best)</description>
 		<release name="Ryuu ga Gotoku 4 - Densetsu o Tsugu Mono (Japan) (PlayStation 3 the Best)" region="Japan" language="Ja"/>
 		<rom name="Ryuu ga Gotoku 4 - Densetsu o Tsugu Mono (Japan) (PlayStation 3 the Best).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Ryuu ga Gotoku 4 - Densetsu o Tsugu Mono (Japan, Korea)">
+	<game name="Ryuu ga Gotoku 4 - Densetsu o Tsugu Mono (Japan, Korea)" cloneof="Ryuu ga Gotoku 4 - Densetsu o Tsugu Mono (Japan) (PlayStation 3 the Best)">
 		<category>Games</category>
 		<description>Ryuu ga Gotoku 4 - Densetsu o Tsugu Mono (Japan, Korea)</description>
 		<release name="Ryuu ga Gotoku 4 - Densetsu o Tsugu Mono (Japan, Korea)" region="Japan" language="Ja"/>
@@ -37765,13 +37765,13 @@
 		<release name="Yakuza 3 (USA)" region="USA" language="En"/>
 		<rom name="Yakuza 3 (USA).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Yakuza 4 (Europe)" cloneof="Ryuu ga Gotoku 4 - Densetsu o Tsugu Mono (Japan, Korea)">
+	<game name="Yakuza 4 (Europe)" cloneof="Ryuu ga Gotoku 4 - Densetsu o Tsugu Mono (Japan) (PlayStation 3 the Best)">
 		<category>Games</category>
 		<description>Yakuza 4 (Europe)</description>
 		<release name="Yakuza 4 (Europe)" region="Europe" language="En"/>
 		<rom name="Yakuza 4 (Europe).iso" size="1000" crc="00000000" md5="00000000000000000000000000000000" sha1="0000000000000000000000000000000000000000"/>
 	</game>
-	<game name="Yakuza 4 (USA)" cloneof="Ryuu ga Gotoku 4 - Densetsu o Tsugu Mono (Japan, Korea)">
+	<game name="Yakuza 4 (USA)" cloneof="Ryuu ga Gotoku 4 - Densetsu o Tsugu Mono (Japan) (PlayStation 3 the Best)">
 		<category>Games</category>
 		<description>Yakuza 4 (USA)</description>
 		<release name="Yakuza 4 (USA)" region="USA" language="En"/>
