@@ -1,5 +1,9 @@
 # Retool
 
+> [!IMPORTANT]
+> Retool is no longer maintained. [Read the thread](https://github.com/unexpectedpanda/retool/issues/337)
+for more information on what this means.
+
 > [!TIP]
 > **This is the source repository for Retool. For downloads, installation instructions, and
   documentation, see the [website](https://unexpectedpanda.github.io/retool/).**
