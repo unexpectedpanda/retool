@@ -7,6 +7,10 @@ hide:
 
 # Retool
 
+!!! info "Retool is no longer maintained"
+    [Read the thread](https://github.com/unexpectedpanda/retool/issues/337) for more
+    information on what this means.
+
 Retool is a filter utility for [Redump](http://www.redump.org/) and [No-Intro](https://datomatic.no-intro.org/index.php?page=download)
 DAT files. By customizing the DAT files before you load them into a ROM manager, you can more
 effectively trim, consolidate, and deduplicate your ROM sets.
