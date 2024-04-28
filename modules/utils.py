@@ -368,12 +368,9 @@ def minimum_version(
     elif input_file_version_major == retool_version_major:
         if input_file_version_minor > retool_version_minor:
             out_of_date = True
-    elif (
-        input_file_version_major == retool_version_major
-        and input_file_version_minor == retool_version_minor
-    ):
-        if input_file_version_patch > retool_version_patch:
-            out_of_date = True
+        elif input_file_version_minor == retool_version_minor:
+            if input_file_version_patch > retool_version_patch:
+                out_of_date = True
 
     if out_of_date:
         out_of_date_response: str = ''

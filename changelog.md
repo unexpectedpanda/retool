@@ -1,6 +1,11 @@
 # Retool changelog
 
 
+## 2.3.7 (2024-04-28)
+
+-   **_Fix_**: Fixed clone list and `internal-config.json` minimum version detection.
+
+
 ## 2.3.6 (2024-04-27)
 
 -   **_Feature_**: You can now choose to prefer the oldest production version of a title
@@ -13,7 +18,7 @@
     oldest version feature properly.
 
 -   **_Fix_**: Fixed the flags in the output DAT file filename to reflect system settings
-    when system settings were in use, instead of reflecting global settings.
+    when system settings are in use, instead of reflecting global settings.
 
 
 ## 2.3.5 (2024-04-27)
