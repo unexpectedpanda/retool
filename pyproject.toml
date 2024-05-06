@@ -164,6 +164,7 @@ filters = "python -m tests.filters"
 languages = "python -m tests.languages"
 modern_rips = "python -m tests.modern_rips"
 oldest = "python -m tests.oldest"
+post_filters = "python -m tests.post_filters"
 
 determinism = "python -m tests.determinism"
 regions = "python -m tests.regions"
@@ -175,6 +176,7 @@ features = [
     "languages",
     "modern_rips",
     "oldest",
+    "post_filters",
 ]
 
 test = [

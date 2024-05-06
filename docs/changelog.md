@@ -6,6 +6,11 @@ hide:
 # Changelog
 
 
+## 2.3.8 (2024-05-06)
+
+-   **_Fix_**: Fixed post filters not working.
+
+
 ## 2.3.7 (2024-04-28)
 
 -   **_Fix_**: Fixed clone list and `internal-config.json` minimum version detection.

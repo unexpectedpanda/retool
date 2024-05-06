@@ -136,7 +136,7 @@ def post_filters(
                                         for x in config.system_filter
                                         if x != {'override': 'true'} and x != {'override': 'false'}
                                     ],
-                                    post_filter=True,
+                                    is_post_filter=True,
                                     cloneof_check=True,
                                 ):
                                     filter_titles.add((group_name, title))
@@ -158,7 +158,7 @@ def post_filters(
                                     for x in config.system_filter
                                     if x != {'override': 'true'} and x != {'override': 'false'}
                                 ],
-                                post_filter=True,
+                                is_post_filter=True,
                             ):
                                 filter_titles.add((group_name, title))
 
@@ -184,7 +184,7 @@ def post_filters(
                             if not user_override_post_filter_match(
                                 title,
                                 config.global_filter,
-                                post_filter=True,
+                                is_post_filter=True,
                                 cloneof_check=True,
                             ):
                                 filter_titles.add((group_name, title))
@@ -200,7 +200,7 @@ def post_filters(
                                     dupe_check.add(title)
                                     removes.global_filter_removes.add(title)
                         elif not user_override_post_filter_match(
-                            title, config.global_filter, post_filter=True
+                            title, config.global_filter, is_post_filter=True
                         ):
                             filter_titles.add((group_name, title))
 
@@ -225,14 +225,25 @@ def post_filters(
     # Catch compilations
     compilation_removes: set[DatNode] = set()
 
-    if 'retool_compilations' in processed_titles:
-        for compilation_title in processed_titles['retool_compilations']:
+    if (
+        'retool_compilations_winners' in processed_titles
+        and 'retool_compilations_discards' in processed_titles
+    ):
+        for compilation_title in processed_titles['retool_compilations_winners']:
+            for filter_title in filter_titles:
+                if filter_title[1].full_name == compilation_title.full_name:
+                    compilation_removes.add(compilation_title)
+
+        for compilation_title in processed_titles['retool_compilations_discards']:
             for filter_title in filter_titles:
                 if filter_title[1].full_name == compilation_title.full_name:
                     compilation_removes.add(compilation_title)
 
         for compilation_remove in compilation_removes:
-            processed_titles['retool_compilations'].remove(compilation_remove)
+            if compilation_remove in processed_titles['retool_compilations_winners']:
+                processed_titles['retool_compilations_winners'].remove(compilation_remove)
+            if compilation_remove in processed_titles['retool_compilations_discards']:
+                processed_titles['retool_compilations_discards'].remove(compilation_remove)
 
     if config.system_filter:
         if {'override': 'true'} in config.system_filter:
