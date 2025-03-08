@@ -2410,12 +2410,12 @@
 		{
 			"group": "Super Mario All-Stars",
 			"titles": [
-				{"searchTerm": "Super Mario All-Stars"},
-				{"searchTerm": "Super Mario Collection"}
+				{"searchTerm": "Super Mario All-Stars", "priority": 2},
+				{"searchTerm": "Super Mario Collection", "priority": 2}
 			],
-			"supersets": [
-				{"searchTerm": "Super Mario All-Stars + Super Mario World"},
-				{"searchTerm": "Super Mario All-Stars and Super Mario World"}
+			"compilations": [
+				{"searchTerm": "Super Mario All-Stars + Super Mario World", "priority": 1},
+				{"searchTerm": "Super Mario All-Stars and Super Mario World", "priority": 1}
 			]
 		},
 		{
@@ -2428,12 +2428,12 @@
 		{
 			"group": "Super Mario World",
 			"titles": [
-				{"searchTerm": "Super Mario World"},
-				{"searchTerm": "Super Mario World - Super Mario Bros. 4"}
+				{"searchTerm": "Super Mario World", "priority": 2},
+				{"searchTerm": "Super Mario World - Super Mario Bros. 4", "priority": 2}
 			],
-			"supersets": [
-				{"searchTerm": "Super Mario All-Stars + Super Mario World"},
-				{"searchTerm": "Super Mario All-Stars and Super Mario World"}
+			"compilations": [
+				{"searchTerm": "Super Mario All-Stars + Super Mario World", "priority": 1},
+				{"searchTerm": "Super Mario All-Stars and Super Mario World", "priority": 1}
 			]
 		},
 		{

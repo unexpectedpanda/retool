@@ -5,6 +5,10 @@ hide:
 
 # Changelog
 
+## 2.3.9 (2025-03-09)
+
+-   **_Fix_**: Retool now handles empty description fields.
+
 
 ## 2.3.8 (2024-05-06)
 

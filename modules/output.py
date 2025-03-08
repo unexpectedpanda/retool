@@ -342,9 +342,14 @@ class WriteFiles:
                     f'\t\t<comment>Remove reason: {html.escape(title.exclude_reason, quote=False)}</comment>\n'
                 )
 
-            dat_xml.append(
-                f'\t\t<description>{html.escape(title.description, quote=False)}</description>\n'
-            )
+            if title.description:
+                dat_xml.append(
+                    f'\t\t<description>{html.escape(title.description, quote=False)}</description>\n'
+                )
+            else:
+                dat_xml.append(
+                    f'\t\t<description />\n'
+                )
 
             if config.user_input.legacy:
                 for region in sorted(title.regions):
