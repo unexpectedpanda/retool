@@ -5,14 +5,14 @@ hide:
 
 # Download and install
 
-Retool is supported on :simple-windows:{:style="margin-left:0.5em; margin-right:0.2em"}
+Retool is supported on :fontawesome-brands-windows:{:style="margin-left:0.5em; margin-right:0.2em"}
 Windows 10+, :simple-ubuntu:{:style="margin-left:0.5em; margin-right:0.2em"} Ubuntu 20+,
 and :simple-apple:{:style="margin-left:0.5em; margin-right:0.2em"} macOS 10+.
 
 How you download and install Retool will depend on your level of comfort with code, and
 the operating system you use.
 
-=== ":simple-windows: Windows binary (GUI only)"
+=== ":fontawesome-brands-windows: Windows binary (GUI only)"
     If you're a Windows user and want the easiest path, you can get Retool going in a few
     easy steps:
 

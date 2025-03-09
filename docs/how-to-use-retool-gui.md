@@ -36,7 +36,7 @@ Before you can filter DAT files, they need to be on your hard drive.
 
 ### Open Retool
 
-=== ":simple-windows: Windows binary"
+=== ":fontawesome-brands-windows: Windows binary"
     Navigate to the folder you extracted Retool to, and double click `retoolgui.exe`. A
     terminal window shows, which in turn loads the GUI. Don't close the terminal window,
     as it's used for output.
