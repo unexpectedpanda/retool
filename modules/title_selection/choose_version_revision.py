@@ -303,12 +303,12 @@ def choose_version_revision(
                         title_2_ver = '1'
 
                 # Preprocess double versions that turn up in 3DS (Digital), Commodore Amiga, PS3 (Digital) (Content),
-                # and IBM - PC and Compatibles (Flux)
+                # IBM - PC and Compatibles (Flux), and IBM - PC and Compatibles (Digital) (GOG)
                 title_1_ver = (
-                    title_1_ver.replace('PS3 ', '').replace('-to-', ', ').replace(' - AGI', ',')
+                    title_1_ver.replace('PS3 ', '').replace('-to-', ', ').replace(' - AGI', ',').replace('rev', '')
                 )
                 title_2_ver = (
-                    title_2_ver.replace('PS3 ', '').replace('-to-', ', ').replace('- AGI', ',')
+                    title_2_ver.replace('PS3 ', '').replace('-to-', ', ').replace('- AGI', ',').replace('rev', '')
                 )
 
                 match_1_length: int = len(re.findall('v[\\d+\\.\\-]+', title_1_ver))
@@ -349,8 +349,13 @@ def choose_version_revision(
                         )
                     )
 
-                    title_1_ver = '.'.join([i[0][0] for i in primary_version_zip])
-                    title_2_ver = '.'.join([i[1][0] for i in primary_version_zip])
+                    try:
+                        title_1_ver = '.'.join([i[0][0] for i in primary_version_zip])
+                        title_2_ver = '.'.join([i[1][0] for i in primary_version_zip])
+                    except Exception:
+                        # If an unexpected versioning system turns up that causes a tuple
+                        # item in primary_version_zip to be empty, fail silently
+                        pass
 
                     # Add the secondary version to the primary
                     title_1_ver = f'{title_1_ver}.{title_1_ver_b}'
